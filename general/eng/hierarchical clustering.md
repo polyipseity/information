@@ -29,7 +29,7 @@ Some commonly used linkage criterion given two clusters _A_ and _B_ and a _[dist
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = (R"cluster linkage", R"aliases", R"formula", R"description")
 table = (
@@ -41,21 +41,22 @@ table = (
   (R"unweighted average linkage clustering", R"[UPGMA](UPGMA.md), group average linkage clustering", R"$d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$", R""),
   (R"weighted average linkage clustering", R"McQuitty's Method, [WPGMA](WPGMA.md)", R"$d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$", R""),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("84ba", "c471"),
     headers, table,
     lambda datum: (*datum[:-1], cloze(datum[-1])),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "e892", "259f"),
     items_to_map(*((row[0], row[1]) for row in table if row[1])),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "0196", "ff72"),
     items_to_map(*((row[0], row[2]) for row in table if row[2])),
-  ),
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="84ba"--><!-- The following content is generated at 2026-01-26T12:06:20.239155+08:00. Any edits will be overridden! -->

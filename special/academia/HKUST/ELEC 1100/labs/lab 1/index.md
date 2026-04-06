@@ -8,7 +8,7 @@ tags:
   - language/in/English
 ---
 
-<!-- check: ignore-file[index_heading_rule,index_children_rule]: assignment-style lab index does not use the standard course index shell -->
+<!-- check: ignore-file[index_heading,index_children]: assignment-style lab index does not use the standard course index shell -->
 
 # lab 1
 

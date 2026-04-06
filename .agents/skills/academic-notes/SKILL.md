@@ -5,359 +5,664 @@ description: Content conventions, examples, and tooling for course notes under s
 
 # Academic notes — consolidated skill
 
-This document explains how to author, validate, and maintain academic course notes stored under `special/academia/<INSTITUTION>`. Agents and human authors **must read every line of this file** before editing course material, since the rules below are exhaustive and are enforced by the validator script. Flashcards are generated automatically by the build system; do **not** run `init generate` yourself.
+This skill is the authoritative long-form guide for creating and maintaining
+course notes under `special/academia/<INSTITUTION>`. The matching instruction
+file is a quick-reference checklist for agents; this file owns the detailed
+policy. The course template owns only scaffold-facing reminders.
+
+Flashcards are generated automatically by the build system; do **not** run
+`init generate` manually.
+
+## Skill folder map
+
+- `SKILL.md` — authoritative workflow and policy reference.
+- `course-template.md` — scaffold for new course `index.md` pages.
+- `check.py` — validator entry point. The validator is always at
+  `.agents/skills/academic-notes/check.py`; do **not** recurse through the
+  repository to find it.
+- `check_mods/*` — validator rules and implementation modules.
+- `find_wikipedia.py` — helper for discovering canonical `general/` article
+  titles when a course note wants to link outward.
+- `tests_a7392be/*` — validator and helper tests for this skill folder.
+
+## Source-of-truth split
+
+- `SKILL.md` owns detailed writing, restructuring, validator, and note-family
+  policy.
+- `.agents/instructions/academic-notes.instructions.md` is the short,
+  agent-facing checklist for quick triage.
+- `course-template.md` owns the minimal scaffold and fill-in reminders for new
+  course indexes.
+- Durable lessons belong in these files and, when needed, in validator tests —
+  not in persistent memory.
 
 ## Key principles
 
-1. **Content first**: capture every slide bullet, formula, definition, wor/ked example and instructor comment as prose or hierarchical bullets. Err on the side of completeness; extra detail helps recall and tooling filters out noise. When in doubt include more rather than less.
-2. **Automatic flashcards**: add flashcard markup (`{@{ }@}`, `::@::`, `:@:`) whenever you add new factual material. Update cards whenever you expand or revise a section. Generators run in CI; agents must never invoke them.
-3. **Structured metadata**: every file starts with a `---` YAML block. Use ISO‑8601 datetimes, maintain `children:` lists in indexes, add activation tags (`flashcard/active/special/academia/...`), and keep semester headings chronological. The validator enforces these rules and will report any violations as errors.
-   - The validator’s output now includes the exact line (and column when available) where a problem was detected, along with a short preview of the offending line, making it much easier to locate and fix issues quickly. The preview highlights the precise column range using carets (`^`), and long lines are truncated with ellipses so the marker remains in view. The length of the snippet is automatically limited to fit within your terminal width (accounting for the leading `preview:` indentation).
-4. **Session ordering**: lectures/labs/tutorials ordered by the `datetime:` interval; all exams go after regular sessions. Duplicate week numbers around holidays require manual renumbering plus a no-class entry; use `status: public holiday: <name>` when the holiday is known, or `status: no class` for breaks. Omit `topic:` on no-class days. Entries with `status: unscheduled` must omit `topic:`.
-5. **Continuous improvement**: record new rules, bugs, or user preferences in `continuous_improvement.md` and update this document accordingly. Feedback drives evolution of the skill; see the **Continuous improvement** section below for the full workflow.
-6. **Math formatting**: never place math in fenced code blocks. Use LaTeX inline (`$…$`) or display (`$$…$$`) notation for all formulas; this applies equally to examples in topic notes and session outlines. **Exception — accounting courses:** do **not** use LaTeX in accounting notes; use plain text, plain numbers, and plain symbols (e.g. ×, −, ÷) for formulas and amounts.
-   - **Dollar delimiters only.**  Do not use `\[`, `\]`, `\(` or `\)`; all LaTeX must be wrapped in `$…$` or `$$…$$`.
-   - **One line only.**  Whether inline or display math, the source between the delimiters must not contain a newline.  In particular, display formulas must use `$$` but stay on a single markdown line.
-   - **Never standalone.**  A line consisting solely of a math expression is forbidden; the formula must be embedded in surrounding prose or list text.  This keeps diff noise down and matches the flashcard generator’s expectations.
-   - **Spacing around delimiters.**  When an equation appears after other text, leave a normal space before the opening dollar sign; likewise put a space after the closing dollar if more text follows.  **Exception:** no space is required if the character immediately following the closing dollar is punctuation (e.g. `.,;:!?)]}`) or the end of line.  Leading or trailing whitespace is allowed at the beginning or end of a paragraph, but adjacent alphanumeric characters without a space will trigger the validator.
-7. **Header style**: section headers in topic notes should be all lowercase (capitalize only proper nouns or the first word of a sentence) to keep anchors predictable and maintain consistency.
-8. **Markdown emphasis**: use underscore for italic and bold in course notes: `_italic_` and `__bold__` (not `*`/`**`). This keeps formatting consistent and avoids asterisk collisions with list or math.
-9. **Immediate validation**: run `uv run .agents/skills/academic-notes/check.py` after every editing tool invocation or manual change. The agent tends to produce malformed Markdown, and fixing issues promptly prevents a flood of errors later.
+1. **Content first.** Capture the lecture's actual ideas, formulas,
+   distinctions, examples, and instructor caveats before polishing structure.
+2. **One durable home per concept.** Prefer enhancing an existing topic note and
+   updating links before creating overlapping pages.
+3. **Prose, flashcards, and navigation move together.** When you add, split,
+   merge, or rename content in a topic note, update the note's flashcards and
+   every affected `index.md` section link in the same task.
+4. **Flashcards are standalone artifacts.** Restate local hypotheses, notation,
+   givens, and conditions needed to answer the card correctly.
+5. **Keep the lecture's mathematical spine.** For technical notes, the default
+   bundle is _formula + derivation or proof sketch + intuition + worked
+   example_.
+6. **Preserve teaching detail, not just headlines.** Named classifications,
+   operational distinctions, and memorable examples should survive ingestion.
+7. **Respect metadata and chronology.** Keep YAML frontmatter valid, keep
+   sessions in chronological order, and place exams after regular sessions.
+8. **Keep math validator-friendly.** Use `$...$` or `$$...$$`, keep math on one
+   source line, and avoid putting LaTeX inside emphasis. Accounting notes should
+   avoid LaTeX entirely.
+9. **Keep headers and emphasis consistent.** Topic-note headers in Latin scripts (English, etc.) should normally be lowercase except for proper nouns. Non-Latin scripts (CJK, Cyrillic, Arabic, etc.) are exempt since they lack uppercase/lowercase distinction. Prefer `_italic_` and `__bold__`.
+10. **Validate narrowly and immediately.** Run the fixed validator path on the
+    smallest relevant course or file after edits; never aim it at the whole
+    repo or the entire skill folder.
+11. **Skill files are the durable memory.** If a lesson recurs, update this
+    skill, the template, the instruction file, and tests when appropriate.
+12. **Course-local agent guidance lives in `AGENTS.md`.** Keep it concise,
+    course-specific, titled exactly `# <course code> agent instructions`, and
+    free of flashcard markup.
+13. **Do not migrate validation metadata into `AGENTS.md`.** Suppression
+    comments belong in the content file that needs them.
+14. **Do not create or edit `general/` files automatically.** Use the Wikipedia
+    helper only to discover canonical titles for links; course content still
+    lives under `special/academia/<INSTITUTION>/<COURSE>/`.
+15. **Do not put instructor or TA names or email addresses in course notes.**
+    Refer readers to the official syllabus or LMS for contact information.
 
 ## Authoring workflow
 
-This section covers the full lifecycle of course note content, from initial creation through final checks before committing. Start here whenever you need to add or revise material.
+Use this workflow whenever you add or revise course content.
 
-1. Start with `course-template.md`. Fill aliases (singular, plural, concatenated), tags (include underscore course code), course name, credits, and a brief description. Sort aliases alphabetically.
-2. Add a `logistics` section with `scheme:` weights and a nested `sections:` list. For lectures (and similarly tutorials/labs), use a single key for the _chosen_ section (e.g. `lecture: L1`); under that key list all section identifiers and their details (e.g. L1, L2, L3 each with venue and weekly time pattern). Do not repeat separate `lecture: L2`, `lecture: L3` keys—one block per stream type with every section’s details nested under the chosen section key.
-3. Maintain a `children:` list with lectures, labs, assignments, topics, questions, attachments; keep entries in teaching order and update it whenever you add a new page.
-4. Use the session structure from the examples below. Add `datetime:` entries with ISO intervals (date only if time unknown). Place prose summaries after the bullet outline separated by `---`. Draft explanatory prose before adding cloze markup; don’t flashcard‑ify first and then write prose.
-5. Capture content‑first details in prose paragraphs, not bullets; convert slide fragments into full sentences. When a lecture introduces a component type (e.g. integrated circuit) via a specific instance (e.g. LM7805), include explicit treatment of the general concept—definition, role, and how to use it (e.g. datasheet)—with flashcards; do not skip to the instance without defining the parent concept.
-6. Audit the whole file whenever you add or change any section: check for missing/malformed flashcards, separators, numeric values, tags, and indentation.
-7. Run the validator and fix any errors it reports; do this immediately after each edit tool call or manual change. Errors (and warnings) must be resolved before committing.
+1. Start from `course-template.md` when creating a new course `index.md`.
+2. If agent-specific guidance is needed, add or update `<course folder>/AGENTS.md`
+   with the exact title `# <course code> agent instructions`.
+3. Fill frontmatter carefully: aliases, tags, course name, credits, and
+   description.
+4. Normalize flashcard activation tags with underscore-separated path fragments,
+   for example `flashcard/active/special/academia/HKUST/COMP_3031` or
+   `flashcard/active/special/academia/Pusan_National_University/IT3000504`.
+5. Add `logistics` with grading and chosen-section metadata.
+6. Maintain `children:` in teaching order and include `[AGENTS](AGENTS.md)` only
+   when the file actually exists.
+7. For course-root `index.md` pages, order major top-level sections as
+   `## children`, then `## logistics`, then `## overview`; keep later sections
+   in functional or chronological order after that.
+8. Prefer one merged `## overview` section in the course root for official scope
+   bullets, topic-to-file mapping, and other high-value orientation material.
+9. Write explanatory prose first; add or revise flashcards after the prose is
+   accurate.
+10. Update related `index.md` anchors and session links in the same pass.
+11. Run the validator and fix both warnings and errors before moving on.
+12. Before finishing, review the note once as a reader and once as a flashcard
+    consumer.
 
-### Adding new lecture content (ingestion)
+When building scaffolds, keep `index.md` pages lean. Avoid duplicating long
+calendars or schedule prose across course roots, folder indexes, and leaf pages
+when a child page can own the details more cleanly. Use a flat leaf file such as
+`tutorial 1.md` when no subpages or local attachments are expected; use a folder
+with `index.md` only when the item is likely to accumulate children of its own.
 
-When ingesting content from a new lecture (e.g. transcript or slides), **before creating new topic notes or new sections**, decide how the new material relates to existing notes:
+## Course metadata and index structure
 
-1. **Duplicate**: If the new content substantially duplicates an existing topic or section, **do not add a new note**. Add a **section link** from the session in the index to the relevant existing section (e.g. `[§ section name](existing-note.md#anchor)`). No new file and no duplicate prose.
-2. **Enhancement**: If the new content extends, clarifies, or deepens existing material, **enhance the existing note**: add or revise prose in the relevant section, and add or update flashcards there. Then add **section links** from the session to those sections. Do not create a separate “part 2” note for the same topic.
-3. **New**: Create a **new topic note** (and new journal-entry sections if applicable) only when there is **no or little overlap** with existing notes—i.e. the lecture introduces a distinct concept that does not already have a suitable home.
+### Frontmatter and tags
 
-This keeps the knowledge base single-source: one place per concept, with the index and § links directing learners to the right section. When in doubt, prefer enhancing an existing note and adding section links over creating another note that overlaps.
+- Keep YAML frontmatter valid and stable.
+- Require a flashcard activation tag on academic-note files when flashcards are
+  desired. Tag segments should be underscore-normalized rather than space-based,
+  for example `Korea_University/ISC213/questions/quiz_1`.
+- Course indexes typically also carry `function/index` and
+  `language/in/<language>`.
+- For topic notes, prefer aliases that are genuine synonyms of the concept, not
+  specific instances of the concept.
 
-### Pre‑commit checklist
+### Course-root layout
 
-Before committing any new or changed course note, run through these items.  This checklist complements the authoring steps above and ensures metadata, chronology, and flashcards are all in place.
+- After the course list (`institution`, `name`, `credits`), insert `---` before
+  the course description.
+- Put `## children` first, then `## logistics`, then `## overview`.
+- Place `assignments/` immediately after `children` and before session entries
+  when the course has an assignments section.
+- Under `sections:`, use one key for the chosen stream, then list all stream IDs
+  and their logistics under that key.
+- Weekly session metadata must match the chosen lecture/tutorial/lab stream.
+- Use session headings exactly like `## week N lecture`, `## week N lecture 2`,
+  `## week N tutorial`, and `## week N lab`.
+- If the official schedule exposes a recurring lecture, tutorial, or lab
+  stream, keep that stream's week headings continuous across the teaching term
+  even when a given week has no meeting. Mark the gap with `status:` metadata
+  rather than silently skipping the week.
+- If a session has no class, omit `topic:`. Use `status: public holiday: <name>`
+  when known, otherwise `status: no class`.
+- Keep session-level flashcards in the index only when they test a reusable
+  pattern or concept. Do not use them merely to summarize scope.
+- Administrative exam information may be ordinary prose; do not force it into
+  flashcards or bullets unless the user wants that style.
 
-- YAML frontmatter present and delimited by `---` at the top of the file.
-- `aliases` include canonical course code(s) and human-readable names; tags include `flashcard/active/special/academia/<institution>/<course code>/<page>` and where appropriate `function/index` and `language/in/English`. `<page>` mirrors the relative path to the course folder with underscores and should not be percent‑encoded. Validators flag missing or malformed tags; report missing tags in review rather than bulk-editing existing files.
-- Do **not** create, modify or edit files under `general/` – only work inside the course folder.
-- Index files: `# index` header and a `## children` list or `children:` YAML key with child pages in teaching order (folders first). After the course list (e.g. `- name:`, `- credits:`) insert a horizontal rule `---` before the course description paragraph. Use ISO datetimes for week entries and ensure they have `datetime` and, unless the session is a no-class day or `status: unscheduled`, `topic`.
-- Check that lecture/lab/tutorial entries are chronological and exams are placed last. **Run the validator only on the specific course directory you are editing rather than the entire institution tree** (e.g. `uv run .agents/skills/academic-notes/check.py special/academia/HKUST/ELEC\ 1100`); running it on `special/academia/HKUST/` will produce too many unrelated errors. Fix any errors returned.
-- Ensure every Markdown section in a topic note contains flashcard entries (a rubric introduced by “Flashcards for this section are as follows:” preceded by `---`, with two-sided or one-sided cards; topic notes other than journal entries do not use inline clozes). The validator flags missing cards. Index and questions pages (e.g. `questions.md`) are not topic notes and do not need that rubric.
-- Add assignments, questions, attachments under appropriate subfolders and list them under `children`.
-- Link to canonical `general/` pages instead of copying long definitions; percent-encode spaces in paths. When a concept deserves its own course note, follow the topic‑specific notes workflow below.
-- Filenames are friendly and human‑readable; use spaces and percent‑encode them in links.
-- Run `bun run format`, `bun run check` (with `--no-globs` and explicit paths), and `bun run test` locally before committing.
-- Use `assignments/`, `questions/`, and `attachments/` subfolders for respective content.
-- Include venue lines immediately after `datetime:`; apply the HKUST room interpretation rule if appropriate (numeric rooms → “Room ####, Academic Building”).
-- Add at least one worked example or solution sketch for important techniques and sample exam‑style problems linked to `questions/solutions.md`.
-- Record lab/tutorial section identifiers near the top of the note so tooling can filter irrelevant streams.
+### AGENTS.md in course folders
 
-### Session and index rules
+- Keep course-local agent instructions in `AGENTS.md`, not in hidden comments in
+  `index.md`.
+- The first content heading must be exactly
+  `# <course code> agent instructions`.
+- Do not put flashcard markup in `AGENTS.md`.
 
-- **Course index structure**: After the course list line(s) (institution, `name:`, `credits:`), add a horizontal separator `---` before the course description. The description and “The content is in teaching order.” follow the separator.
-- **Logistics sections**: Under `sections:`, use one key per stream type for the _chosen_ section only (e.g. `lecture: L1`). Under that key list every section’s identifier and details: e.g. `L1: <venue>; <times>`, `L2: <venue>; <times>`, `L3: <venue>; <times>`. All sections are documented under the single chosen-section key; do not add separate `lecture: L2`, `lecture: L3` siblings.
-- **Session heading format (strict)**: Only `## week N type [number]` is allowed (_type_ = `lecture`, `lab`, or `tutorial` only (status has no bearing on heading); number optional when one per week). Examples: `## week N lecture` and `## week N lecture 2` (use a space in “lecture 2”); same pattern for `lab`/`tutorial`. Number resets each week. Use the same heading as the scheduled slot (e.g. `## week 3 lecture`) and put no class or holiday only in metadata (`status: public holiday: …` or `status: no class`). `## week 3 no class`, `## week 3 (Lunar New Year)`, or `## week 3` with no type are invalid. If a week is repeated due to holidays, shift subsequent weeks upward and add a no-class entry (see below).
-- Session metadata: `datetime:` ISO_START/ISO_END[, DURATION]; `topic:` short text for normal sessions. Omit `topic:` for no-class days (holidays, breaks). Use `status: public holiday: <name>` when the public holiday is known (e.g. `status: public holiday: Lunar New Year`, `status: public holiday: Labor Day`); use `status: no class` for other non-teaching days (e.g. midterm break). Entries with `status: unscheduled` must omit `topic:`.
-- Optional `venue:` on every session when known.
-- **Index session flashcards**: Session-level flashcard bullets in the index (e.g. “COURSE / Ch 12 introduction ::@:: …”) are optional. Omit them when they only describe scope or content coverage rather than testable knowledge; topic notes and questions pages remain the place for substantive flashcards. If in doubt, prefer no index session card over a scope-only one.
-- Bullet items nested under a session hold course‑specific notes and cross‑links. Each top‑level bullet must sit on its own source line; use `<br/>` or `<p>` for internal breaks. Numeric examples should include units inside `$…$` math delimiters.
-- When embedding a diagram or schematic image in prose, place the image markup (e.g. `<p> ![...](attachments/...svg)`) on the same line as the end of the preceding paragraph, not on a new line.
-- Outline items correspond to flashcard glosses; avoid extra indentation levels. Convert generic headings into specific QA entries or remove them.
-- After the outline, add a prose paragraph preceded by `---` only when it **adds value** (e.g. next-lecture pointer, grading or schedule reminders). Do not duplicate the same content as the index bullets and topic notes; keep session prose short or omit it if the outline and topic links already capture the content.
-- Omit a **lecture summary** flashcard in the index unless it refers to **major grading components** (exams, project milestones); the outline and topic-note links already summarise the lecture.
-- Semester headings in institution indexes must be chronologically ordered; validator warns otherwise.
+## Adding new lecture content
 
-Once the session outline rules are understood, the next section describes how flashcards themselves are formatted and how to tag them correctly.
+Before creating a new topic note, classify the incoming material:
 
-## Flashcards and markup
+- **Duplicate** → do not create a new note; add section links to the existing
+  content.
+- **Enhancement** → deepen the existing note and update its flashcards and
+  session links.
+- **New** → create a new durable topic note only when no good home exists yet.
 
-The spaced‑repetition system is central to the entire repository; flashcards are automatically generated from your markup. These rules apply both within session outlines and inside longer topic notes, so master them early.
+Also follow these rules:
 
-- Use three patterns only:
-  - **Cloze deletions**: `{@{hidden text}@}` anywhere in a paragraph.
-  - **Two‑sided QA**: single source line `term ::@:: definition` (produces two cards). Use `<br/>` or `<p>` for visible breaks; do not insert newlines.
-  - **One‑sided QA**: single source line `term :@: answer` (one card).
-- **Topic notes (except journal entries):** For course topic-specific notes (e.g. current liability, provisions, circuit laws), **do not use cloze** (`{@{ }@}`) in the prose. Use **two-sided** (::@::) cards only, or **one-sided** (:@:) very rarely. Add more QA flashcards to cover definitions, steps, and examples. Cloze is required only in **journal entries** for example amounts and scenario text (see § Journal entries note).
-- Add a gloss by appending `::@::` after a linked term. The text after `::@::` becomes the card content; keep it concise, normally one or two sentences. Long derivations do not make good cards. When you lift sentences from prose or examples, also copy any adjacent diagrams or images into the question — cards with visual context are easier to learn and the validator will warn if an image appears in the source but not in the flashcard.
-- For notes that include schematic symbols or circuit diagrams, add **diagram‑recall flashcards** whose prompt embeds the image (e.g. `schematic symbol: resistor <p> ![resistor](attachments/symbol_resistor.svg) ::@:: …`). The answer should name the component and briefly state what the symbol represents; keep any math/symbols on the left as needed for validator rules.
-- Prefer **single-focus cards**. If a card’s right-hand side explains multiple distinct ideas (e.g. definition + steps + conditions), split it into multiple smaller cards, each testing one concept. This improves recall and avoids “all-or-nothing” cards. For multi-step procedures (e.g. ON/OFF assumption methods, saturation checks, multi-step circuit analyses), prefer one card per 1–2 steps rather than a single “all steps at once” card, as long as each resulting card’s left-hand prompt still contains all givens needed to answer it.
-- Prefix every gloss with the complete hierarchical path (typically `topic / item`; for course-specific content, use `COURSE / topic / item`). Do not rely on indentation for context; only the literal text is used by the flashcard viewer.
-- When grouping related cards, give the parent a full path label (e.g. `ELEC 1100 / class expectations`) and nest children beneath it.
-- Calculation cards must be self‑contained: put all given values on the left and outline computation steps on the right. When applicable, include any relevant diagrams, circuit sketches, or images in the left‑hand prompt; the validator’s calculation warnings now remind you to copy such visuals if the answer side contains math but the prompt lacks data.
-- Do **not** “shorten” calculation cards by removing givens from the left-hand side. If a worked example feels too long, split it into smaller cards only if each resulting card still includes all necessary givens to be solvable from the prompt.
-- **Circuit and KVL examples**: When describing a circuit for a calculation (e.g. KVL, voltage divider), state the topology explicitly: component connections (what connects to what), source polarities (which terminal is +/−), assumed current direction or loop traversal, and node names. This makes the example answerable without a diagram.
-- **Circuit prose clarity**: In topic notes, describe circuit topologies precisely. For divider-like or regulator circuits, specify the signal path (e.g. $V_{\text{in}} \rightarrow R_S \rightarrow \text{node} \rightarrow R_L \rightarrow \text{GND}$), component orientations (e.g. Zener cathode at node, anode at ground), and which elements shunt or limit current.
-- **Circuit notation and topology terms**: When a lecture uses shorthand like $V_{CC}$, $V_{CE}$, $V_{BE}$, or terms like “low-side switch”, add a brief definition the first time they appear in that page (and optionally a flashcard). Example: $V_{CC}$ is the supply rail feeding the collector/load network; $V_{CE}=V_C-V_E$; “low-side” means the switch is between the load and ground. For transistor-as-inverter or similar logic-level topics, state how levels are determined (e.g. $V_C$ vs $V_E$) and keep math readable (avoid overly dense derivations); the same derivation need not appear in both the index and the topic note.
-- Units must always be inside `$…$` or `$$…$$` (e.g. `$5\text{ V}$`); units outside math trigger validator errors.
-- Every markdown section in a topic-specific note, no matter the header level, must have at least one flashcard entry. Use a horizontal rule `---` immediately before the first flashcard block; missing separators or cards trigger validator errors. Index files and questions pages (e.g. `questions.md`) are exempt: index files need only session‑level cards; questions pages are not topic notes and do not need the "Flashcards for this section are as follows:" pattern in each section.
-- Do not merge cards across sections; each heading gets its own block directly beneath the prose. The validator flags missing separators or cards.
-- Keep gloss text single‑lined; use `<br/>` for right‑hand breaks, never sublists. Bibliographic references on the right‑hand side should be dash‑separated with a space before each `<br/>`.
-- Avoid acronyms. Spell out the first occurrence and add a card if needed.
-- Do not write next‑lecture remarks inside sessions unless they describe a major grading event (exam or project milestone).
+- If tutorial sheets, examples, or auxiliary handouts mainly deepen an existing
+  concept, merge that material into the relevant topic note before inventing a
+  detached catch-all section.
+- Do not flatten dense lecture material into a few broad summaries. Preserve the
+  explicit distinctions, classifications, formulas, examples, counterexamples,
+  and teaching caveats that make the lecture memorable.
+- Do not use unresolved chapter numbers as substitutes for links when no
+  chapter-page artifact exists in the repository.
+- Keep companion notes at similar rigor when the mathematics genuinely mirrors,
+  especially for continuous-time versus discrete-time analogues.
+- If a general topic note starts accumulating a coherent subcluster — for
+  example discrete-time representation methods, canonical sequence families, and
+  periodicity rules — give that cluster one canonical home rather than leaving
+  overlapping fragments in several files.
+- Refresh matching `topic:` lines and short lecture-summary prose in
+  `index.md` whenever a topic note grows materially deeper, even if its section
+  anchors stay unchanged.
+- If required theory lives only in an appendix or auxiliary PDF, absorb the
+  content into topic notes and let the index point there. Attachments may remain
+  as optional archival references, not the sole durable home.
+- Lab-preparation decks and lab manuals should be treated as normal lecture
+  ingestion: centralize definitions, circuit behavior, and worked examples in
+  topic notes, then route lab or tutorial pages to those sections with `§`
+  links and a small number of workflow or safety flashcards.
 
-**Example snippets** (long lines deliberately unwrapped):
+### Technical and mathematical notes
 
-```markdown
-## week 3 lecture
+For mathematically substantive notes, the prose and flashcards should usually
+include the governing formula, the derivation or proof sketch, the intuition for
+the key step, and a worked example.
 
-- datetime: 2025-09-16T12:00:00+08:00/2025-09-16T13:20:00+08:00, PT1H20M
-- topic: polymorphism; type bound; variance
-- COMP 3031
-  - COMP 3031 / polymorphism ::@:: Parametric polymorphism, subtyping polymorphism
-```
+Key expectations:
 
-```markdown
-## week 7 lecture
+- Explicitly compare related concepts students often confuse, such as message
+  versus signal, discrete-time versus digital, energy versus power, or vertical
+  versus horizontal transformations.
+- When a note introduces an additive decomposition (DC/AC, even/odd,
+  real/imaginary, and similar splits), include the decomposition formula, the
+  derivation showing why the cross term vanishes, the orthogonality or zero-
+  covariance interpretation, and at least one worked example.
+- For finite windows or rectangular sequences, state endpoint conventions
+  explicitly rather than leaving the reader to infer them from a step-function
+  expression.
+- In discrete-time oscillation notes, state the rational-versus-irrational
+  periodicity test explicitly and include at least one example where the written
+  digital angular frequency is not the sequence's fundamental digital frequency
+  because digital frequency is defined modulo $2\pi$.
+- When continuous-time and discrete-time examples are taught as counterparts,
+  make the parallel explicit: what the impulse does initially, why the later
+  dynamics become homogeneous, and how geometric versus exponential evolution
+  line up.
+- In ODE-based response notes, map the competing labels directly: homogeneous,
+  particular, zero-input, zero-state, natural, forced, transient, and steady-
+  state. Also state the caveat that zero-state response may require a homogeneous
+  correction in addition to a particular solution.
+- For transform and Fourier notes, keep the exact applied rule visible when a
+  factor or sign matters. Do not write only “by duality” or “apply the
+  convolution theorem” if the normalization could be forgotten.
+- Preserve the practical Fourier-problem workflow the lecture uses: try
+  linearity, differentiation or integration properties, and partial fractions
+  before resorting to direct integration.
+- In Fourier-series notes, treat the DC term explicitly rather than as “just
+  another coefficient.” Explain why zero frequency has no positive/negative
+  partner.
+- When converting between cosine-sine and amplitude-phase form, include both the
+  amplitude and phase formulas and a short geometric interpretation.
+- Compare real trigonometric and complex exponential orthogonal-function sets
+  explicitly when both appear in the lecture. If the lecture reaches that level,
+  include a short Hilbert-space or Riesz-style interpretation with clear
+  explanation rather than name-dropping.
+- For real signals, note when a one-sided spectrum is valid and why the nonzero
+  lines double while the DC line does not.
+- In Parseval discussions, say explicitly that the exponential form is the most
+  natural two-sided power sum, and explain the $1/2$ factor in real folded
+  forms.
+- For singular or generalized functions, describe how the graph is drawn, which
+  parts are symbolic, and how ordinary pulse families approach the generalized
+  object in the limit.
+- For singular-signal notes, include formulas in common equivalent forms and
+  state relations among nearby signal families such as step, ramp, gate, signum,
+  impulse, and doublet.
+- For doublet and impulse-derivative sampling rules, explain the sign intuition
+  and contrast direct sampling with convolution.
+- When a lecture uses differentiation or integration properties of convolution,
+  include the higher-order operator view and at least one example where a
+  differentiated kernel collapses into shifted impulses.
+- For time-delay identities, give the formula, the graphical sliding-overlap
+  intuition, the physical interpretation of delay, and the operator view
+  $f(t-t_0)=f*\delta(t-t_0)$.
+- For discrete-time convolution, connect the sum to continuous-time convolution
+  of impulse trains and spell out the remaining differences: Kronecker versus
+  Dirac delta, sum versus integral, stem plots versus impulse arrows, and any
+  sample-period caveat.
+- When presenting delta-sequence families, show the normalization or unit-area
+  check explicitly.
+- Explain test functions as smooth localized probes and say why smoothness and
+  compact support are useful.
+- Verify theorem hypotheses instead of copying a slide or appendix statement
+  blindly. Prefer the standard theorem statement unless a stronger form is
+  clearly intended and explained.
+- For analysis-style appendix material, add geometric or probabilistic
+  interpretation as well as formulas: box approximations, slicing intuition,
+  indicator-function viewpoints, or event-region interpretations.
+- When a computation appears in the prose, do not jump from setup to final
+  answer; show the main intermediate step or strategy in both prose and
+  flashcards.
 
-- datetime: 2025-10-07T12:00:00+08:00/2025-10-07T13:20:00+08:00, PT1H20M
-- topic: type inference; Hindley–Milner
-- Hindley–Milner
-  - Hindley–Milner / algorithm sketch ::@:: Unify constraints from expression syntax tree, solve by substitution
-  - Hindley–Milner / type variable rules ::@:: Fresh variable introduced for each binder; generalized at let-bound identifiers
-  - Hindley–Milner / worked example (detailed): <p> 1. Given expression: let f = \\x -> (x, x) in f 3 <br/> 2. Assign type variables: x: a, result tuple components a, a <br/> 3. Constraint from (x, x): both positions share type a <br/> 4. f: a -> (a, a); application f 3 enforces a = Int by unification <br/> 5. Generalize: f : forall a. a -> (a, a); instantiate at Int for f 3 <br/> 6. Result: (3, 3) :: (Int, Int)
-  - Hindley–Milner / pitfalls ::@:: Forgetting to generalize at let leads to value restriction bugs. **Emphasis**: Instructor stressed 'generalization at let-bindings' (important for polymorphism in ML-like languages).
-```
+### Honors and proof-heavy courses
 
-```markdown
----
+Honors courses deserve more rigor, not merely more words.
 
-Flashcards for this section are as follows:
+- State hypotheses explicitly.
+- Prefer short derivation or proof sketches to bare theorem statements.
+- Break long arguments into a few logically separate paragraphs instead of one
+  dense wall of text.
+- Keep concrete examples and counterexamples in both prose and flashcards.
+- When a theorem has a tempting but false overstatement, repair it in the note
+  rather than copying the broken version from the source.
+- When a concept has several equivalent formulations, list them explicitly and
+  explain what each one means rather than leaving them as opaque labels.
+- For measure-theoretic or probability-heavy notes, keep notation reader-facing:
+  define the value space, sigma-algebra membership, pushforward notation,
+  preimage notation, and any hybrid distribution notation before using it in a
+  proof.
+- When a proof naturally has a concrete layer and an abstract layer, teach both:
+  for example, a direct event-based argument first and then the abstract
+  pushforward or generator-based argument.
+- For random-variable, distribution-function, and measure-equality notes,
+  explain the criterion being used and why it is enough, rather than citing a
+  theorem name without the proof idea.
+- For auxiliary set systems such as pi-systems and Dynkin systems, compare them
+  explicitly with sigma-algebras and make the disjointification trick readable.
+- When the lecture uses a theorem operationally, also add “how to use it”
+  guidance in prose and flashcards.
 
-- example power calculation: Given a $200\,\Omega$ resistor with $5\text{ V}$ across it, what power is dissipated? ::@:: Use $P=V^{2}/R$ to get $0.125\text{ W}$.
-- parallel circuit current: Two $2\,\Omega$ resistors are in parallel with $10\,\text{V}$ applied; find the total current. ::@:: First compute $R_{\text{eq}}=(1/2+1/2)^{-1}=1\,\Omega$ then $I=V/R_{\text{eq}}=10\,\text{A}$.
-- 10 V series‑plus‑parallel network: A $10\text{ V}$ source drives a $2\,\Omega$ resistor in series with a parallel combination of a single $2\,\Omega$ branch and another branch composed of two $2\,\Omega$ resistors in series; what is the total current? ::@:: Equivalent resistance $10/3\,\Omega$ gives $I=3\text{ A}$.
-- series/parallel power: A $5\text{ V}$ source drives two equal resistors $R_S=R_L=2.4\text{ k}\Omega$ in series; calculate the power dissipated by $R_L$. ::@:: The answer is about $2.6\text{ mW}$ (use $I=1.04\text{ mA}$, then $I^{2}R$, or halve the total power).
-```
+### Machine-learning notes
 
-These examples illustrate proper indentation and the two-sided QA list format. Topic notes (except journal entries) use only QA cards, not cloze.
+Machine-learning notes should preserve derivations, notation discipline, and the
+distinction between modeling, optimization, and decision.
+
+Use these defaults:
+
+- Prefer _formula + derivation + intuition + caveat + worked example_ over a
+  formula-only summary.
+- Make assumptions explicit: IID status, priors, thresholds, intercept
+  conventions, row/column roles, and whether a quantity is a loss, metric, or
+  decision rule.
+- Separate estimation from decision. For example, distinguish cross-entropy or
+  likelihood fitting from Bayes-threshold classification.
+- Keep true/source distribution $P$ and model/scoring distribution $Q$ distinct
+  in entropy, cross-entropy, and Kullback-Leibler notes. Write the full formula
+  triad when relevant.
+- When conditional cross entropy or hybrid-joint notation appears, define the
+  notation before invoking decomposition identities.
+- Explain why empirical training loss carries a $1/N$ factor: it is an empirical
+  expectation, not a decorative constant.
+- In logistic-regression notes, explain odds, logit, coefficient interpretation
+  on the odds scale, and any course-specific threshold convention together with
+  common tie variants.
+- In softmax-regression notes, prefer the general target-distribution form before
+  the one-hot special case; include the categorical cross-entropy derivation,
+  the binary $C=2$ reduction, the shared gradient memory rule `prediction minus
+  target`, and numerical-stability advice such as logsumexp or max-shift.
+- If a course has both `classification.md` and `logistic regression.md`, prefer
+  putting performance metrics in `classification.md`, including binary and
+  multiclass macro, micro, and weighted formulas.
+- When a lecture compares surrogate loss with classification error, include a
+  concrete example where the two move differently.
+- For convexity, bias-variance, or generalization notes, keep the target of each
+  formula explicit and distinguish sample-specific from expected quantities.
+- For optimization notes, include a practical by-hand update workflow and at
+  least one tiny numerical example when appropriate.
+- Distinguish per-sample SGD, minibatch SGD, and full-batch gradient descent
+  explicitly.
+- For deep networks, pair the repeated forward layer equation with a composition
+  interpretation, and pair that with a backward local-error or transposed-
+  Jacobian view.
+- Define “signal” in initialization discussions in terms of activation or
+  gradient scale, and explain fan-in/fan-out and variance flow.
+- When discussing vanishing gradients, include at least a short chain-rule or
+  norm-product derivation instead of leaving it as a slogan.
+- Activation-function sections should compare nearby activations on both
+  theoretical and empirical axes: boundedness, smoothness, saturation,
+  monotonicity, zero-centering, dead units, optimization behavior, and compute
+  cost.
+- For backpropagation, define the local error explicitly and show how the same
+  quantity yields both the incoming weight gradient and the propagated upstream
+  error.
+- For dropout, state clearly that activations are masked, not weights. Explain
+  both non-inverted and inverted dropout conventions carefully and say which
+  objects get rescaled and when.
+- Distinguish **L2 regularization** from **weight decay** explicitly. L2 is an
+  objective-level penalty; weight decay is an update-level shrinkage. State when
+  they are equivalent under plain SGD and when they are not, especially for
+  adaptive optimizers such as Adam. Mention AdamW when relevant.
+
+### Physics, electronics, and lab notes
+
+- When introducing notation or jargon such as $V_{CC}$, $V_{CE}$, or “low-side
+  switch,” add a brief definition near first use so the note is readable without
+  hidden course context.
+- Circuit and electronics calculation cards should state topology, polarity,
+  loop direction, and node naming if a diagram is not shown.
+- Put image markup on the same source line as the end of the preceding
+  paragraph.
+- Add diagram-recall flashcards for key symbols or circuits when the diagram is
+  itself a learning target.
+- If the course keeps diagram-generation scripts, keep docstrings descriptive
+  enough for future maintainers to reconstruct topology and style.
+- For common schemdraw-style circuit scripts, build the main rail first, save
+  branch points explicitly, and use `.reverse()` on diode-like components when
+  polarity requires it.
+- IC power pins such as VCC and GND should be described generically unless the
+  course fixes a specific supply value.
 
 ## Topic-specific notes
 
-When a lecture topic deserves its own dedicated page — either because it is broad, gets revisited, or should be linkable from multiple sessions — create a new Markdown file inside the course directory. **Flashcards in topic notes** (other than `journal entries.md`): use only two-sided (::@::) or, very rarely, one-sided (:@:) cards; do **not** add cloze deletions in the prose. Add more QA flashcards as needed instead of clozes. **Create the file empty first** (use a normal, unescaped filename with spaces; links will be percent-encoded later) and then add content in separate edit operations. When subsequently editing a topic note, each commit should target exactly one markdown section or add exactly one new section so that diffs remain precise and reviewable.
+Create a topic note when a concept deserves a durable, reusable home. Topic
+notes should read like compact encyclopedia entries: explanatory prose first,
+then flashcards immediately after each section.
 
-These **topic notes** are written in a neutral, encyclopaedic style rather than as a bulleted outline. Think of them as miniature Wikipedia articles: use smooth prose, organise the text with headings, and split material into logical sections. Use **subsections** (### under ##) where it improves hierarchy (e.g. “switches and current path” and “hazards” under “four-switch topology”; “saturation and transistor types” and “base voltage pattern” under “building an H-bridge”). Each ### gets its own prose and flashcard block. If a ### is very short (one paragraph and one or two flashcards), consider merging it into an adjacent related ### to avoid an overly fragmented outline.
+### Structure and naming
 
-When a course uses a **specific circuit layout** (e.g. H-bridge with top row both PNP, bottom row both NPN, and left/right legs each having one PNP and one NPN), describe that layout explicitly in the topic note; course materials may differ from generic textbook arrangements, so avoid assuming a “generic” topology without checking the slides or handout.
+- Use QA cards, not cloze, in topic notes other than `journal entries.md`.
+- Prefer concise, concept-based headings rather than mechanically copying slide
+  titles.
+- Use subsections only when they improve structure; if a subsection is tiny,
+  consider merging it.
+- Prefer lowercase filenames except for genuine proper nouns.
+- Prefer the singular canonical concept name unless the concept is inherently
+  plural by standard usage.
+- Keep topic-note aliases to the canonical term and real synonyms; do not treat
+  specific instances as aliases of the general concept.
+- When linking to `general/`, use the canonical article title but do not create
+  or edit the `general/` file as part of course-note work.
+- In course topic notes, omit redundant filename or title text from flashcard
+  prompts. Use local prompts such as `definition` or `Bayes theorem finite`, not
+  `probability measure / definition` unless nested context requires it.
 
-Each section must be followed immediately by a horizontal rule and a list of flashcards, exactly as described earlier in this document.  The validator will reject any heading that lacks a card block, so it’s easiest to add the "Flashcards for this section are as follows:" rubric as you compose the paragraphs. This requirement applies to topic-specific notes only; index and questions pages (e.g. `questions.md`) are exempt.
+### Section-local flashcards
 
-### Filenames, titles, and links
+- Every section in a topic note should have its own `---` and flashcard block.
+- If a topic note has an overview section followed by representative example
+  subsections, keep the detailed flashcards with the matching subsection rather
+  than concentrating most of the cards at the end.
+- When the prose only needs a small clarification or comparison, enhance the
+  existing flashcards instead of spawning near-duplicates.
+- When the prose gains a substantial cluster of distinctions, examples, or
+  counterexamples, add new flashcards instead of overstuffing one old card.
 
-- Use **all lowercase** for topic note filenames (e.g. `voltage regulator.md`), except proper nouns that must remain capitalised (e.g. `Kirchhoff's circuit laws.md`). When the topic matches a general/Wikipedia article, prefer the full canonical name for both filename and H1 title (e.g. `brushed DC electric motor.md` and `# brushed DC electric motor`). The top‑level heading in the note should match the filename (lowercase except for proper nouns and any acronyms the course keeps capitalised).
-- When creating the file, do **not** percent-escape the name; percent-encoding is only applied when writing links elsewhere.
-- Add appropriate `aliases:` and `tags:` in the frontmatter, including the usual `flashcard/active/special/academia/...` tag for the course page. **Aliases should list only the general topic term and its synonyms** — do not include specific instances (e.g. LM7805 is an instance of a voltage regulator, not an alias for the general term). **Include both singular and plural forms** where applicable (e.g. brushed motor / brushed motors, brushed DC electric motor / brushed DC electric motors); keep the list sorted alphabetically (case‑sensitive).
-- Cross‑link to the corresponding `general/` article using a relative path with `%20` encoding for spaces.  To discover canonical titles, run `uv run .agents/skills/academic-notes/find_wikipedia.py "<query>"` and pick the top hit.  **Do not** create or modify files under `general/` yourself.  Use **lowercase for the first word** in both the link display text and the path (e.g. `[brushed DC electric motor](.../general/brushed%20DC%20electric%20motor.md)` not “Brushed”); this keeps display and path convention consistent.
+### Journal entries note for accounting courses
 
-### Images and circuit diagrams
+Accounting courses should maintain a dedicated `journal entries.md` topic note.
 
-- Place diagram/schematic image markup on the same line as the preceding paragraph (see Session and index rules). Reference SVGs or other assets under a course-level `attachments/` (or similar) folder so links are stable.
-- Some courses keep a script (e.g. `attachments/generate_circuit_diagrams.py`) that generates SVG diagrams with :mod:`schemdraw` or similar; outputs go into that folder and are referenced from topic notes. The script’s docstrings should describe each diagram’s topology and drawing style (e.g. ground‑up vs central‑component‑first, use of ``.at()`` and ``.reverse()``) for future maintainers. For **H-bridge schematics**: build from the motor first (one horizontal line left-to-right); use the motor’s start/end nodes for the left and right rails (e.g. up: PNP–Vcc, down: NPN–GND on each side). Use ``BjtPnp(circle=True).up()`` and ``BjtNpn(circle=True).down()`` for high-side and low-side switches; document this topology in the docstring.
-- **Equivalent circuits with a main rail and a branch** (e.g. BJT diode + dependent current source): draw the main rail first (e.g. collector–emitter or emitter–collector with the dependent source), call ``.push()`` to save the node where the branch will attach (typically the emitter node), finish the rail (line and terminal), then ``.pop()`` to restore that node and draw the branch (e.g. diode and base terminal). Use ``.reverse()`` on the diode when needed so polarity matches the junction (e.g. NPN B–E: anode at B, cathode at E → ``.reverse()`` when drawing from emitter toward base).
-- For ICs with power pins (e.g. **74HC14**): **VCC** can connect to any valid supply voltage for the IC; the course may use a specific value (e.g. $5\text{ V}$). **GND** connects to ground. Do not state that the IC “must be connected to $5\text{ V}$” unless the course explicitly fixes that value; instead write “VCC to the positive supply (in our course, $5\text{ V}$); GND to ground.”
+- One journal-entry type per `##` section.
+- Each worked example lives in a single blockquote: scenario, journal-entry
+  table, then optional explanation or calculation.
+- Use markdown tables with right-aligned Dr/Cr columns.
+- Wrap the first-column header description and each account name in clozes.
+- Mask all debit and credit amounts with clozes and use `&nbsp;` as the
+  thousands separator.
+- Keep punctuation outside the closing cloze token: `{@{text}@}.`
+- Warranty examples should allow settlement credits such as Cash, Inventory, or
+  Accrued Payroll when appropriate.
+- Service-type warranty examples should reflect revenue recognized over the
+  service period rather than at the assurance-warranty stage.
 
-### Course index and outline updates
+## Questions pages
 
-After creating a topic note, append its link to the course `children:` list (after any folders) and add a reference in the relevant weekly session entry. In addition, **every named section and subsection within the topic note should be linked from the course index page**, not just to the file itself: link every `##`, every `###`, and any `####` (or deeper) so readers can jump to any heading. Use anchor-style links (`Topic%20Name#section-heading`) so that readers can jump directly to the appropriate subsection. Make sure the **link text exactly matches the section heading** – display names which differ (e.g. dropping “Kirchhoff's” from a heading) are not allowed and must be corrected. When you later revisit the topic in another lecture, append new material to the existing file instead of making a duplicate. _Proper nouns such as Kirchhoff must be capitalised in both filenames and headings._
+Question pages are not topic notes. They usually do not need the “Flashcards for
+this section are as follows:” rubric.
 
-**Indexing sections and subsections:** The index should list not only top-level sections (`##`) but also subsections (`###`) and any deeper (`####`). You may add a dedicated block per topic (e.g. "Topic name (sections and subsections)") with a nested list: under the topic link, list one `[§ section name](file#anchor)` per `##`, and under each `##` list one `[§ subsection name](file#anchor)` per `###` (and per `####` if present). This gives a full outline of the topic on the index page.
+Use these rules:
 
-**Section links index in session entries:** For each topic note referenced in a lecture/lab/tutorial session, the session outline must include a **section links index**: under the topic’s parent bullet, add one `[§ section name](file#anchor)` line per top-level section (each `##` heading), and under each section add indented `[§ subsection name](file#anchor)` lines for each `###` (and `####` if present). List the § links first, then any session-specific flashcard glosses. This lets readers jump from the index directly to each section and subsection. For anchors: percent-encode spaces (e.g. `transistor%20as%20inverter`), or use **hyphenated anchors** for headings that contain commas or special characters (e.g. `#saturation-transistor-types-and-layout`, `#connecting-l293-74hc14-and-lm7805`) to avoid validator false positives on percent-encoded sequences. When you merge or remove ### subsections within a topic note, update the § links and glosses in the index so they still match the note’s structure.
+- For repository-authored review prompts, prefer ordinary headings and lists.
+- For official course materials, use markdown blockquotes.
+- If a page mixes official material with self-authored review prompts, keep the
+  official content quoted and the self-authored content unquoted.
+- If the file becomes too large, split it into `questions/index.md` plus smaller
+  child pages such as tutorial weeks, problem sets, review sets, or exam blocks.
+- Keep naturally distinct official families distinct: tutorials, problem sets,
+  practice exams, solution sheets, and so on.
+- In official quoted questions, do not add manual numbering to the question
+  line. If a question has subparts, use a quoted list inside the same blockquote.
+- Use `Solution:` instead of `Solution sketch:` and include concise but complete
+  solution logic.
+- When the question has subparts, mirror that structure in the quoted solution.
+- Keep cloze coverage meaningful in official quoted solutions: cover method,
+  condition, and final result, not only equations.
+- Do not hide only a variable name or re-hide a formula already visible in the
+  prompt when a more explanatory cloze is available.
+- When cleaning up low-value clozes, re-audit each quoted solution block so it
+  still contains meaningful coverage.
+- Prefer clozing a reasoning step together with its equation when they form a
+  single proof step.
+- Keep each quoted `Solution:` as one source paragraph line; avoid manual soft
+  wrapping for that style.
+- For consecutive quote blocks, prefer local MD028 control comments instead of a
+  global suppression.
 
-For lab-heavy courses that maintain assignment-style lab notes under `labs/lab N/index.md`, each timed lab session in the main course index (for example “week 4 lab 1”) should both (a) include the usual § links into the relevant topic notes (electronic component, lab equipment, diode, voltage regulator, H-bridge, etc.) and (b) add a bullet linking to the corresponding lab assignment note (`labs/lab N/index.md`). This keeps the timeline as the single navigation hub for both conceptual material and the Canvas-style lab pages without duplicating lab-manual procedures into the index.
+## Assignment-style leaf index pages
 
-### Journal entries note (accounting courses)
+Some leaf folders represent a single Canvas or LMS assignment-like artifact,
+such as a lab round, homework, quiz handout, project milestone, or similar
+deliverable page with local attachments.
 
-For **accounting courses**, include a topic note named **`journal entries.md`** that collects every type of journal entry encountered in the course. One journal entry type per section (`##`). Each example must sit in a **single markdown blockquote**: (1) a brief _scenario_ (before the journal entry), (2) the **journal entry in a markdown table** with columns for account, Dr, and Cr, and (3) optionally _explanation_ or _calculation_ (after the table). Use **markdown tables** for the entry (not LaTeX); in accounting notes do not use LaTeX anywhere—use plain numbers and symbols. Right-align the Dr and Cr columns with separator `|--|--:|--:|`. **Table header:** the first column header (the cell above the account names) must contain a **very brief description** of the journal entry (e.g. "Receive cash; record note", "Settle claim; reduce liability"); wrap that description and **each account name** in the first column in clozes (`{@{…}@}`) so that flashcards cover the description and every account fully. For **readability**, use **`&nbsp;`** (non-breaking space) as the three-digit thousands separator in amounts (e.g. 50&nbsp;000, 1&nbsp;200), not a comma. **Cloze delimiter:** the closing `}@}` must come **before** any trailing punctuation—place punctuation after the delimiter (e.g. `{@{text}@}.` not `{@{text.}@}`). Add two-sided cards (::@::) for concepts and how to create the entry. **Cloze requirements for examples:** (a) mask **all** debit and credit amounts in the table with `{@{ amount }@}`; (b) add one or more cloze cards in the scenario text so that **almost** the entire scenario is covered, but **leave a few hint words uncovered** at the beginning or at the end (do not cover an entire sentence with a single cloze). For longer statements, use **two or three** clozes with hint words between or at the ends. (c) Cover **calculation** and **explanation** lines with clozes as well, again leaving a few hint words at the start or end. For calculations: **cover both sides of an equality separately** (e.g. `{@{50&nbsp;000 × 0.08 × 2/12}@} = {@{833.33}@}`), and **cover the text (non-equation) portion** too, with hint words uncovered (e.g. “Crediting” at start, “maturity amount.” at end). After adding new entry types, add the new sections to the course index `children:` and to the relevant week’s session outline with § links. **Warranty settlement:** when describing or showing warranty claim entries, use the credit account "Cash, Inventory, or Accrued Payroll" (depending on how the repair is satisfied), not just "Cash". **Service-type warranty:** in examples, show the service period as starting after the assurance-type warranty has expired (e.g. years 2–4); the general principle is that revenue is recognized as the entity satisfies the performance obligation over the service period. The validator exempts only **table rows** from the soft-wrap rule (after stripping any number of blockquote markers, e.g. `>`, `>>`, `> >`); blockquote prose is still subject to the rule (see `no_soft_wrap_paragraph` in the rules).
+Use these rules when the source is a Canvas assignment HTML page:
 
-### Micro‑workflow example
+- Keep the visible Canvas wording verbatim in the description body.
+- Preserve color with `<span style>` and use Markdown for bold, italics,
+  links, paragraphing, and line breaks.
+- Treat the Canvas title header as metadata inside `## description`, not as a
+  Markdown heading. The first property in that section should be exactly
+  `- title: <Canvas title header verbatim>`.
+- For these assignment-style leaf indexes, use this section order:
+  index metadata (with no extra `---` after the parent line), `## children`,
+  `## description`, `## attachments`, `## submission`, and `## solution`.
+- Omit generic `## logistics` and `## overview` sections on these pages.
+- Include an explicit attachments list pointing to the local `attachments/`
+  files.
+- Leave `## submission` and `## solution` empty until actual repository
+  content is provided.
 
-**Math and formatting rules:** never use fenced code blocks for maths; always write expressions inline or in display math (`$...$` or `$$...$$`) using LaTeX syntax. Topic notes do not require a separate summary section. Section headers should use all lowercase words except where grammatical capitalization is needed (proper nouns, the first word of a sentence).
+When an assignment-style leaf folder also has companion pages such as
+`lab.md`, `prelab.md`, `submission.md`, or similar pages:
 
-Create the note, update the index, and add the outline link as shown below:
+- Let `index.md` own the Canvas wording, logistics, availability, file types,
+  and attachments list.
+- Use the companion pages for new knowledge points, worked cases,
+  implementation pitfalls, or interpretation habits that are specific to the
+  assignment family.
+- Keep companion-page prose and flashcards about pure knowledge only. Avoid
+  workflow checklists, student expectations, assessment framing, or other
+  logistics-like prose in `lab.md`, `prelab.md`, and similar pages.
+- When the source material includes concrete programming work such as MATLAB,
+  companion pages should also preserve the local implementation knowledge:
+  short code idioms, function choices, indexing patterns, plotting habits, and
+  data-representation details that make the assignment's subject matter
+  operational. Prefer a few concise snippets over full script dumps.
+- For code-centered flashcards in companion pages, keep enough local context in
+  the prompt to make the card standalone: include the relevant MATLAB fragment,
+  variable roles, or input-output relationship instead of asking only a short
+  generic question about a function name.
+- When a code-centered flashcard still feels too abstract, also put the local
+  given on the left-hand side: the specific waveform, filter, index formula, or
+  before/after workflow that the student is supposed to remember.
+- When the user asks for “more context,” prefer adding that context to the
+  **left-hand side prompt itself** rather than only expanding the answer. The
+  question should carry the local givens before the separator.
+- Avoid meta-summary sections whose main job is to describe what the note
+  covers. Companion pages should read like normal subject-matter notes: start
+  with the content itself, and use ordinary reference sentences when routing to
+  durable topic notes.
+- If a concept already has a durable topic note, link to that note instead of
+  re-teaching the theory in the companion page.
+- Do not add flashcards for theory that is already covered in the topic note;
+  keep companion-page flashcards focused on page-specific knowledge or worked
+  cases.
 
-```markdown
-# Kirchhoff's circuit laws
+## Flashcards and markup
 
-Kirchhoff's circuit laws are the two foundational relations engineers use to analyse arbitrary resistor networks when simple series/parallel reduction fails.  The current law (KCL) applies at nodes, the voltage law (KVL) applies around closed loops.  Both follow directly from conservation principles and are named after Gustav Kirchhoff (1824–1887).
+The repository supports only three flashcard patterns:
 
----
+- **Cloze**: `{@{hidden text}@}`
+- **Two-sided QA**: `term ::@:: definition`
+- **One-sided QA**: `term :@: answer`
 
-Flashcards for this section are as follows:
+Core rules:
 
-- Kirchhoff's circuit laws definition ::@:: Two fundamental relations for analysing circuits: KCL (node current rule) and KVL (loop voltage rule).
-- Kirchhoff's current law ::@:: At any junction, the sum of currents entering equals the sum leaving.
-- Kirchhoff's voltage law ::@:: Around any loop, the algebraic sum of voltage rises and drops is zero.
-```
+- Cloze syntax is strict: `{@{` opens and `}@}` closes. No nesting, no
+  multiline clozes, and no `}}` pseudo-closing token.
+- Do **not** place clozes inside existing math delimiters. If you want to hide
+  an equation, cloze the entire equation from outside.
+- Topic notes other than `journal entries.md` should prefer QA cards over cloze
+  in prose.
+- Flashcards must be self-contained. Repeat givens, hypotheses, notation, and
+  any relevant diagrams if the card would otherwise be ambiguous.
+- For mathematical prompts, LaTeX on the left-hand side is acceptable when it is
+  the natural statement of the prompt.
+- For derivation or approximation clusters, descriptive left-hand prompts are
+  often better than dumping the whole derivation on the left.
+- Use one or two focused ideas per card unless the method is naturally short and
+  unified.
+- Nested flashcard bullets must indent by exactly two spaces per level and
+  include the full in-file parent path.
+- Calculation cards must keep all givens on the left; do not shorten them by
+  removing data.
+- Keep the right-hand side single-line in source and use `<br/>` for internal
+  structure.
+- Units should stay inside math delimiters, for example `$5\text{ V}$`.
 
-```markdown
-## children
+## Validation suppressions
 
-- [electronic component](electronic%20component.md)
-- [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
-```
+Prefer fixing the content over suppressing the validator. When suppression is
+truly necessary, use one of these forms with a short rationale:
 
-```markdown
-### week 2 lecture 2
+- `ignore-line[rule_id]`
+- `ignore-next-line[rule_id]`
+- `ignore-file[rule1, rule2]`
 
-- datetime: 2026-02-13T11:30:00+08:00/2026-02-13T12:20:00+08:00, PT50M
-- venue: CYT-LTL
-- topic: KCL & KVL
-- ELEC 1100
-  - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md) ::@:: Two fundamental relations (KCL and KVL)
-    - [§ current law](Kirchhoff%27s%20circuit%20laws.md#Kirchhoff's%20current%20law%20(KCL)) ::@:: Sum of currents entering a node equals sum leaving it
-    - [§ voltage law](Kirchhoff%27s%20circuit%20laws.md#Kirchhoff's%20voltage%20law%20(KVL)) ::@:: Sum of voltage drops around a closed loop equals zero
-```
+Additional rules:
 
-These snippets illustrate the full cycle: author the topic note, add it to `children:`, and reference specific sections by anchor in the weekly outline. When adding or modifying sections, keep edits focused to a single section as noted above. Adjust the headings and anchors as needed when the note grows.
+- Line and next-line suppressions apply only to their local target.
+- File-level suppressions are for genuine special cases, such as assignment-style
+  index pages that intentionally omit the normal `# index` / `children` shell.
+- Do not add a file-level suppression for a rule that never fires in the file;
+  that is redundant.
+- Do not place more than one directive of the same type on the same line; merge
+  rule IDs into one directive when needed.
+- If a rule such as `numeric_text_not_latex` keeps firing on room identifiers,
+  percent-encoded link destinations, inline code, or HTML comments, treat that
+  as a validator bug: mask the non-prose span or refine the rule instead of
+  scattering repeated suppressions through course notes.
+- Conceptual law cards may justify a local suppression when a descriptive prompt
+  is pedagogically stronger than a formula-heavy calculation prompt.
 
-With a topic note written and flashcards inserted, you should run the validator and other tooling described in the next section to catch any structural problems before you commit.
+## Filenames, titles, links, and external lookups
 
-### Sample note excerpt
-
-To show how prose, structure and cards coexist, here is an excerpt from an existing topic note:
-
-```markdown
-## resistor networks
-
-Resistors in series add: $R_{\text{eq}} = R_1 + R_2 + \cdots$; the same current flows through each. A voltage divider is a pair of series resistors; the voltage at the junction N relative to ground is $V\cdot\frac{R_L}{R_S + R_L}$ assuming ideal wire (zero resistance) and ground reference.
-
-Resistors in parallel combine as $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; the total resistance is always smaller than the smallest branch. Conductance $G = 1/R$ is useful, unit siemens (S).
-
-For a network with mixed series/parallel elements the total resistance may be computed stepwise (e.g. $30\,\Omega + (40\,\Omega\parallel 60\,\Omega) = 54\,\Omega$).
-
-Short circuit occurs when a low-resistance path bypasses a component (R→0); current through the short tends to infinity and components may be damaged. In an ideal short the branch current is infinite and the other branch zero.
-
-Resistors dissipate electrical power as heat, which is why excessive current can make a resistor get hot or even burn.  The video linked in the slides demonstrates a resistor glowing when driven beyond its power rating.
-
----
-
-Flashcards for this section are as follows:
-
-- series resistors formula ::@:: Resistors in series simply add: $R_{\text{eq}} = R_1 + R_2 + \cdots$ (same current through each).
-- voltage divider ::@:: A voltage divider is two series resistors; assuming an ideal wire and ground, setup the circuit as V → RS → N → RL → GND → (V), then the voltage at node N is $V\cdot\frac{R_L}{R_S + R_L}$.
-- series divider assumptions ::@:: The voltage-divider formula assumes an ideal wire (zero resistance) and that the reference node is ground (0 V).
-- parallel resistors formula ::@:: Resistors in parallel satisfy $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1 / R$ with unit siemens.
-- conductance units ::@:: Conductance $G=1/R$ is measured in siemens (S); older units mho or ℧ are equivalent.
-- network calculation example: A $5\,\textrm{V}$ source drives $30\,\Omega$ in series with parallel $40\,\Omega$ and $60\,\Omega$ branches; what are $R_{\text{eq}}$ and total current? ::@:: $R_{\parallel}=24\,\Omega$, $R_{\text{eq}}=54\,\Omega$, $I=5/54\approx0.093\,\textrm{A}$.
-- short circuit danger ::@:: A short circuit is a near-zero-resistance path (close to zero, like through a metal wire) causing very high current and has the potential to damage components.
-
-### numerical examples
-
-- Example power dissipated by a $200\,\Omega$ resistor with $5\text{ V}$ across it: $P = V^{2}/R = 0.125\text{ W}$.
-- Network example: a $10\text{ V}$ source drives a $2\,\Omega$ resistor in series with a parallel combination of a single $2\,\Omega$ branch and another branch composed of two $2\,\Omega$ resistors in series; the equivalent resistance is $R=\tfrac{10}{3}\,\Omega$ and the total current is $I=3\text{ A}$ (slide example).
-- Challenging series/parallel example: a source of $5\text{ V}$ drives two equal resistors $R_S=R_L=2.4\text{ k}\Omega$; total $R=4.8\text{ k}\Omega$ giving $I=1.04\text{ mA}$, so $P_{R_L}=I^{2}R_L\approx2.6\text{ mW}$ (same result whether computed via current or halving total power).
-
----
-
-Flashcards for this section are as follows:
-
-- example power calculation: Given a $200\,\Omega$ resistor with $5\text{ V}$ across it, what power is dissipated? ::@:: Use $P=V^{2}/R$ to get $0.125\text{ W}$.
-- parallel circuit current: Two $2\,\Omega$ resistors are in parallel with $10\,\text{V}$ applied; find the total current. ::@:: First compute $R_{\text{eq}}=(1/2+1/2)^{-1}=1\,\Omega$ then $I=V/R_{\text{eq}}=10\,\text{A}$.
-- 10 V series‑plus‑parallel network: A $10\text{ V}$ source drives a $2\,\Omega$ resistor in series with a parallel combination of a single $2\,\Omega$ branch and another branch composed of two $2\,\Omega$ resistors in series; what is the total current? ::@:: Equivalent resistance $10/3\,\Omega$ gives $I=3\text{ A}$.
-- series/parallel power: A $5\text{ V}$ source drives two equal resistors $R_S=R_L=2.4\text{ k}\Omega$ in series; calculate the power dissipated by $R_L$. ::@:: The answer is about $2.6\text{ mW}$ (use $I=1.04\text{ mA}$, then $I^{2}R$, or halve the total power).
-```
-
-The excerpt demonstrates natural prose, clear headings, and a card block immediately after the introductory paragraph. Every subsequent header (e.g. `## resistor networks`, `### numerical examples`) likewise contains its own `---` followed by cards, allowing the validator to locate them regardless of the depth of nesting.
+- Prefer lowercase filenames unless a proper noun requires capitalization.
+- Use `%20` in markdown links but do not percent-escape actual filenames.
+- Topic-note filenames should normally follow the singular canonical concept.
+- When linking to `general/`, prefer the canonical article title and the correct
+  relative path, but do not create or edit the `general/` file automatically.
+- Use the Wikipedia helper only to discover canonical titles.
 
 ## Validator and tooling
 
-Before pushing your edits, validate them using the provided tooling. The validator script checks metadata, chronology, flashcards, and other conventions; consider it the programme’s grammar checker.
+Use the validator as the structural authority for this skill.
 
-Run:
+The validator location is fixed: `.agents/skills/academic-notes/check.py`.
+Do **not** recurse through `.agents/skills/academic-notes/`, list the whole
+folder, or search the entire workspace just to locate it. Run the fixed path
+directly and pass the smallest relevant course-note path.
 
 ```shell
-# POSIX shells (bash/zsh/fish); escape the space in the course folder
+# POSIX shell
 uv run .agents/skills/academic-notes/check.py special/academia/<institution>/ELEC\ 1100
 
-# Windows PowerShell or cmd; quote the path that contains a space
+# Windows PowerShell or cmd
 uv run .agents/skills/academic-notes/check.py "special/academia/<institution>/ELEC 1100"
 
-# Example (this course, ELEC 1100):
-uv run .agents/skills/academic-notes/check.py "special/academia/HKUST/ELEC 1100"
+# Validate a single file instead of a whole course when possible
+uv run .agents/skills/academic-notes/check.py "special/academia/<institution>/ELEC 1100/index.md"
 ```
 
-The validator is strict and does not have an advisory mode. Common errors include missing tags, absent `datetime:` values, out‑of-order semesters, sections without cards, duplicate week numbers, and exams placed too early. Fix errors before committing. Before committing, run `bun run format`, `bun run check`, and `bun run test` with explicit paths to your changed files so the commands execute quickly.
+Rules of thumb:
 
-The repository contains helper scripts (`check.py`, `find_wikipedia.py`) and templates (`course-template.md`) that you should inspect when writing new notes. Keep these tools up to date and report any bugs or feature requests in `continuous_improvement.md` or the Continuous improvement section below.
+- Validate the **smallest relevant scope only**.
+- Do **not** run the validator on the repository root, the whole workspace, or
+  the entire skill folder.
+- Common failures include missing tags, missing `datetime`, invalid headings,
+  broken section-card structure, duplicate week numbers, exams placed too early,
+  and malformed cloze syntax.
+- Common index-related rules include `index_children_order`,
+  `index_children_missing`, and `index_children_missing_index`.
+- Common cloze-related rules include `cloze_open_close_matching`,
+  `cloze_wrong_closing_token`, `cloze_single_line`, and `cloze_no_nested`.
+- Common math-layout rules include `latex_block_no_newline`,
+  `latex_not_standalone`, and `no_soft_wrap_paragraph`.
 
-## Continuous improvement
+### Developer tooling and tests
 
-The skill evolves with real course content. Record every new pattern, validator failure, or user preference in `continuous_improvement.md` (with date and a one-sentence description); consider whether the rule or clarification should be added to this document. Maintainers should review the log periodically. When the log gets too long, fold learnings into the skill docs (this file, `course-template.md`, or academic-notes instructions), then remove the incorporated entries from the log so it stays a short, current list; git history preserves provenance.
-
-### Workflow for agents
-
-1. **Gather examples** — When you encounter a pattern, bug, author question, or user feedback related to `special/academia`, save a snippet or run the validator in `--content` mode. Log each incident in `continuous_improvement.md` with a date and a one-sentence description. Include privacy concerns, formatting quirks, or template ideas.
-2. **Document the change** — Decide where the information belongs: new idiom, normalization or regex → add to this document (e.g. Session and index rules, Topic-specific notes) or a dedicated doc if the skill later adds one (e.g. patterns.md). Short samples or explanations → add to this document’s examples or a dedicated examples doc. Repeated author behaviour or gotcha → note it in the Pre‑commit checklist or a checklist doc. Always write prose directed at the human reader; the validator can be extended later if needed.
-3. **Teach the validator** — If the issue is structural or recurring, add a rule to `check_mods/rules.py` and cover it with a unit test under `tests_a7392be/check_mods/` so future runs catch it automatically.
-4. **Verify impact** — Run the validator on the affected files (or the whole tree). If the skill maintains an issue-frequency report, regenerate it so you can watch counts drop after your fix lands.
-5. **Submit a focused PR** — Bundle only the documentation, tests, and any normalization patches required to address the issue. Keep diffs reviewable; avoid broad regex respells unless you have explicit owner approval. In the PR description list which content files will be affected when the change is deployed.
-
-**Best practices:** Prefer advisory `--content` warnings when unsure; they are nonblocking and educate authors without causing failures. Always update the skill docs (this file and related skill files) as the authoritative reference; use the feedback log for incidents and process notes. Record unusual decisions in the feedback log or a GitHub issue rather than cluttering the main docs.
-
-**Example:** You notice several courses missing flashcard tags during a browse of `special/academia`. Add a new pattern and checklist item for mandatory flashcard tags; write a small test that flags absent tags. After merging, run the validator (and any issue-frequency report) to confirm the count has dropped.
-
-### Provenance and folding the log
-
-New feedback and incidents go in `continuous_improvement.md` (date + short description). When the log is long, fold learnings into this file, `course-template.md`, or academic-notes instructions and remove those entries from the log; git history keeps provenance.
+- Validator and helper tests for this skill live in
+  `.agents/skills/academic-notes/tests_a7392be/`.
+- If you extend validator behavior or helper scripts in this skill folder, add
+  or update tests there.
+- When you change repository-level tooling that processes course notes more
+  broadly, repository-level tests may still belong under `tests/`; choose the
+  smallest scope that matches the code being changed.
+- After structural fixes, run repository formatting, checks, and tests on
+  explicit paths when practical.
 
 ### Extending the validator
 
-If you encounter a structural issue the existing checks do not catch, you can add a new rule to the validator instead of simply suppressing the warning. The validator code lives under `.agents/skills/academic-notes/check_mods`.
+When prose guidance is not enough, extend the validator instead of relying on
+repeated suppressions.
 
-1. **Edit `rules.py`.**  Add a new function accepting a
-   :class:`ValidationContext` and returning a list of
-   :class:`ValidationMessage`.  Decorate it with ``@RULE_REGISTRY.register()``
-   so it is automatically discovered.  Keep the rule pure (no side effects) and
-   return an empty list when the file passes the check.  Use existing rules as
-   templates; the docstring should clearly describe what the rule validates.
-   Example:
+1. Add a new pure rule in `check_mods/rules.py` and register it with
+   `@RULE_REGISTRY.register()`.
+2. Add matching tests in `tests_a7392be/check_mods/test_rules.py` or the most
+   relevant test module in `tests_a7392be/`.
+3. Run the validator or tests against representative notes.
+4. Document the new rule briefly here or in the instruction/template if authors
+   need guidance when it fires.
 
-   ```python
-   @RULE_REGISTRY.register()
-   def no_foo_heading(ctx: ValidationContext) -> list[ValidationMessage]:
-       """Disallow headings containing the word “foo”.
+## Continuous improvement
 
-       This is useful when we know the term is meaningless in course notes.
-       """
-       errors: list[ValidationMessage] = []
-       if re.search(r"^#+.*\bfoo\b", ctx.text, re.I):
-           errors.append(ValidationMessage("no_foo_heading", "heading contains foo"))
-       return errors
-   ```
+Keep the skill concise, authoritative, and aligned with the validator.
 
-   The rule identifier is derived from the function name (underscores only),
-   and the test suite enforces this invariant; see ``tests_a7392be/check_mods``
-   for examples.
+- If a durable lesson appears, update `SKILL.md`, `course-template.md`, the
+  instruction file, and tests in the same task when appropriate.
+- Do not use persistent memory as a second documentation system for academic-
+  notes conventions.
+- Prefer editing the validator when the issue is structural and recurring.
+- Keep changes focused and reviewable; avoid broad mechanical rewrites unless
+  they clearly improve the guidance structure.
 
-2. **Add unit tests.**  Every rule gets a corresponding test in
-   `tests_a7392be/check_mods/test_rules.py`.  Construct a minimal
-   ``ValidationContext`` that triggers the rule and assert the correct
-   message is returned.  Also add a case demonstrating the rule passes.
-   This ensures future refactors don’t accidentally disable your check.
+### Workflow for agents
 
-3. **Run the validator.**  Exercise the new rule with real notes to
-   verify the behaviour and adjust error messages as needed.  Commit both the
-   rule and its tests together so CI can catch regressions.
-
-4. **Document the change.**  Optionally update this SKILL.md section or
-   `continuous_improvement.md` with a brief rationale.  New rules are a
-   permanent part of the course‑notes grammar, so explain why the check is
-   needed and what to do when it fires.
-
-   The previous example of adding the ‘section_example_heading’ rule (which
-   flags headings containing the word “example”) came from exactly this
-   workflow: after noticing repeated blocks of “numerical examples” the rule
-   was added, tests written, and the SKILL updated with guidance like this.
+1. Identify whether the lesson belongs in prose, the template, or the validator.
+2. Update the authoritative file immediately rather than leaving a side note.
+3. If the issue is structural, teach the validator and add a test.
+4. Re-run the relevant validation or tests on the affected scope.

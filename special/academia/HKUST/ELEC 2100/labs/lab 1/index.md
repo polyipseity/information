@@ -1,0 +1,54 @@
+---
+aliases:
+  - ELEC 2100 lab 1
+  - HKUST ELEC 2100 lab 1
+tags:
+  - flashcard/active/special/academia/HKUST/ELEC_2100/labs/lab_1/index
+  - function/index
+  - language/in/English
+---
+
+# index
+
+- HKUST ELEC 2100 lab 1
+- parent: [labs](../index.md)
+
+## children
+
+- [lab](lab.md)
+- [prelab](prelab.md)
+
+## description
+
+- title: Lab1 (Thu)
+- Due: Mar 5 by 1:30pm
+- Points: 20
+- Submitting: a file upload
+- File Types: pdf
+- Available: until Mar 5 at 1:30pm
+
+This assignment was locked Mar 5 at 1:30pm.
+
+**Due on** **<span style="color: #f4350b;">05 Mar (Thu), 1:30pm</span>**
+
+**<span style="color: #f4350b;">Any late submission will NOT be graded.</span>**
+
+**<span style="color: #03893d;">Lab Instruction :</span>** Please read
+
+**<span style="color: #f4350b;">Any incorrect format will NOT graded.</span>**
+
+**<span style="color: #03893d;">Lab files for download only :</span>** [Please click](attachments/Lab1a.7z)
+
+## attachments
+
+<!-- - [Lab_Instruction.pdf](attachments/Lab_Instruction.pdf) -->
+- [Lab1a.7z](attachments/Lab1a.7z)
+
+## submission
+
+- file: [submission.pdf](submission.pdf)
+  - source: [submission.m](submission.m)
+
+## solution
+
+\(empty\)

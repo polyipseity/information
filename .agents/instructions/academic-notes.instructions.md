@@ -6,63 +6,171 @@ applyTo: "special/academia/**,private/special/academia/**"
 
 # Academic notes instruction
 
-This instruction file surfaces the essential, quick-reference guidance from the `academic-notes` skill for agents and maintainers working on course folders under `special/academia` (including the private mirror path `private/special/academia`). **Agents must read every file in `.agents/skills/academic-notes/` and every line of those files before acting; do not assume the concise guidance is exhaustive.** It is intentionally concise — consult the full skill docs for examples and tooling.
+This instruction file is the quick-reference checklist for work under
+`special/academia/**` and the mirrored `private/special/academia/**` path.
 
-## Scope & purpose
+The authoritative long-form policy lives in
+`../skills/academic-notes/SKILL.md`. Use that file for detailed guidance on
+machine-learning notes, honors and proof-heavy courses, Fourier and generalized-
+function notes, questions-page authoring, validation suppressions, and validator
+extension work.
 
-- Applies to: `special/academia/**` and mirrored `private/special/academia/**` course folders.
-- Purpose: give agents a compact checklist for authoring, validating, and triaging course notes using the `academic-notes` conventions and helpers.
+## Scope and source of truth
 
-## Quick guidance for agents
+- Read `../skills/academic-notes/SKILL.md` before acting.
+- Use `../skills/academic-notes/course-template.md` as the scaffold for new
+  course indexes.
+- The validator path is fixed at `.agents/skills/academic-notes/check.py`; do
+  not recurse through the repository or the skill folder to find it.
+- Durable conventions belong in the skill files and tests, not in memory.
 
-- **Adding new lecture content**: Before creating new topic notes, check whether the new content (1) **duplicates** existing content → add section links only; (2) **enhances** existing content → enhance that note (prose + flashcards) and add section links; (3) has **no or little overlap** → then add new note(s). Prefer one place per concept; avoid duplicate or overlapping notes.
-- **Lab-preparation slides and lab manuals (e.g. “Prepare for lab N”, `LabN_2026s.pdf`)**: Treat lab-prep/tutorial decks and lab handouts as normal lecture ingestion. Centralise definitions, worked examples, and circuit behaviour (e.g. resistor ladders, diode/LED safety, Zener regulation, transistor switches, H-bridges, motor drivers, LM7805 usage) in topic notes, then point to those sections from the relevant lab or tutorial via § links and a small number of workflow/safety flashcards. Avoid duplicating entire worked examples or long procedures in weekly index entries; the index should primarily route readers to topic notes.
-- **Validation suppressions**: Prefer fixing content over suppressing rules. When suppression is genuinely needed, use one of three forms with a clear rationale: `ignore-line[rule_id]`, `ignore-next-line[rule_id]`, or `ignore-file[rule1, rule2]`. Line and next-line suppressions apply only to their specific line; file-level suppressions apply to all messages for the listed rules in that file and are considered redundant (and rejected) if the rule never fires anywhere in the file. File-level suppressions are primarily intended for special cases like assignment-style lab index pages that intentionally omit the standard `# index`/`children` shell while keeping the same rules active for the course’s main index.
-- Do NOT create or edit `general/` files automatically. Suggest canonical Wikipedia titles (use the helper) and leave `general/` edits to maintainers.
-- Require a flashcard activation tag in course files: `flashcard/active/special/academia/<INSTITUTION>/<PAGE>` (case-insensitive). The validator will flag missing tags. Notes may use any of the three markup types – cloze `{@{ }@}`, two-sided `::@::`, or one-sided `:@:` – but remember that the latter two must stay on a single line.  **Do not trim prompts for calculations**; the warning rules exist to catch missing numeric/symbolic data, not to enforce brevity.  You may write arbitrarily long equations or value lists before the separator; splitting a single logical example into multiple cards just to shorten the left-hand text is counter‑productive. When converting prose or examples into flashcard bullets, also copy any relevant diagrams or images from the paragraph above and include them in the question text – the validator will remind you if an image appears in the source but not in the card. A suppression directive is permitted only when the card truly tests a conceptual fact (e.g. `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->`).
-- Prefer **single-focus flashcards** for conceptual material: if a card answers multiple distinct points, split it into multiple smaller cards. Keep calculation cards self-contained on the left-hand side (do not delete givens just to shorten prompts).
-- When embedding LaTeX, always use `$...$` for inline math and `$$...$$` for display equations; do **not** employ `\(\)` or `\[\]` variants, as the validator and rendering pipelines expect dollar‑sign delimiters. **Accounting courses:** do **not** use LaTeX; use plain text, numbers, and symbols (×, −, ÷).
-- When adding comments, avoid placing more than one directive of the **same type** on a single line; the validator now flags duplicates and authors should merge them into a single comment listing all applicable rule IDs (the syntax already supports commas).
-- Use the validator conservatively: run `check.py --content` for advisory guidance; it will flag missing tags, exams before sessions, duplicate week numbers, unscheduled sessions carrying topics, out-of-order semester headings, and similar structural issues. Treat its output as suggestions unless maintainers request strict enforcement.
-- Treat submodules (including `private/`, `tools/pytextgen/`, `tools/pyarchivist/`) as read-only unless the user explicitly grants permission.
-- Prefer small, reviewable changes to skill docs and helper scripts; document rationale and link to the Continuous improvement section of SKILL.md (or log in `continuous_improvement.md`) when proposing edits.
-- **Always run the `check.py` validator after using any edit tool.** The agent frequently emits malformed Markdown, so validating immediately helps catch and fix errors or warnings before they land in a PR.
+## Quick rules for agents
 
-## Tools & locations
+- **Header style validator is language-aware**: The validator now properly handles non-Latin scripts (CJK, Cyrillic, Arabic, Greek, etc.) which lack uppercase/lowercase distinction. Topic notes in any language no longer need header_style suppressions. Only Latin-script headers require the lowercase-except-proper-nouns convention.
+- Prefer one durable home per concept: **duplicate → link**, **enhancement →
+  deepen existing note**, **new → create new note only if no good home exists**.
+- When you change a topic note, update its **prose**, **flashcards**, and every
+  affected **`index.md` section link** in the same task.
+- Keep technical notes at the lecture's real depth: preserve formulas,
+  distinctions, derivation skeletons, and representative examples or
+  counterexamples.
+- Do not use chapter numbers as stand-ins for links when the repository has no
+  chapter page to link to.
+- Keep companion continuous-time and discrete-time notes at comparable rigor
+  when the mathematics genuinely mirrors.
+- Do not automatically prune motivating historical or technology context if the
+  lecture uses it to teach the core idea.
+- In topic notes other than `journal entries.md`, prefer QA cards rather than
+  cloze in prose.
+- Make flashcards standalone: restate givens, assumptions, notation, and any
+  needed diagram context.
+- Keep math on one source line and use `$...$` / `$$...$$`; do not use `\(\)`
+  or `\[\]`.
+- Use underscore-normalized flashcard tags, for example
+  `flashcard/active/special/academia/HKUST/COMP_3031` or
+  `flashcard/active/special/academia/Pusan_National_University/IT3000504`.
+- Do **not** create or edit `general/` files automatically; use the Wikipedia
+  helper only to discover canonical titles for links.
+- Do not put instructor or TA names or email addresses in course notes.
+- Course-local `AGENTS.md` files must use the exact heading
+  `# <course code> agent instructions` and must not contain flashcard markup.
 
-- Skill docs, examples, and helper scripts: `.agents/skills/academic-notes/`
+## Course-root and topic-note checklist
+
+- In a course-root `index.md`, order major top-level sections as `## children`,
+  then `## logistics`, then `## overview`.
+- After the course list (`institution`, `name`, `credits`), insert `---` before
+  the course description.
+- Keep weekly sessions in chronological order and use exact headings such as
+  `## week N lecture`, `## week N lecture 2`, `## week N tutorial`, and
+  `## week N lab`.
+- If the official schedule exposes a recurring lecture, tutorial, or lab
+  stream, keep that stream's week headings continuous even across no-class
+  weeks; use `status:` metadata instead of dropping the week entirely.
+- For no-class sessions, omit `topic:` and use `status: public holiday: <name>`
+  or `status: no class`.
+- Keep `index.md` pages lean; route readers to topic notes instead of duplicating
+  long explanations in weekly entries.
+- When a section introduces reusable recognition patterns, centralize the real
+  explanation in the topic note and keep only a short route card or link in the
+  index.
+- For topic-note filenames and titles, prefer lowercase singular canonical
+  concept names unless a proper noun or standard plural makes that unnatural.
+- In course topic-note flashcards, use local prompts such as `definition` or
+  `Bayes theorem finite`; do not repeat the note title unless nested context
+  requires it.
+
+## Questions, labs, and special note families
+
+- Treat lab-prep decks and lab manuals as normal lecture ingestion: centralize
+  theory and worked examples in topic notes, then route lab pages there with
+  `§` links.
+- For Canvas-derived assignment-style leaf indexes (for example lab rounds,
+  homework folders, quiz handouts, or similar deliverables), keep the visible
+  Canvas wording verbatim in `## description`, preserve color with `<span
+  style>`, use Markdown for bold/italics/links/paragraphing/line breaks, put
+  the Canvas title header first as `- title: <verbatim title>`, then order the
+  sections as `## children`, `## description`, `## attachments`,
+  `## submission`, and `## solution` with no extra `---` after the parent line.
+  Omit generic `## logistics` / `## overview`, include a local attachments
+  list, and leave `submission` / `solution` empty until real content exists.
+- When such a folder also has companion pages like `lab.md` or `prelab.md`, let
+  `index.md` own the logistics and attachments. Use the companion pages for new
+  knowledge points, worked cases, implementation pitfalls, and brief routing to
+  durable topic notes instead of repeating theory that already has a canonical
+  home. Keep those companion pages about pure knowledge only: avoid workflow
+  checklists, student expectations, assessment framing, and other logistics-like
+  prose there. When the source includes concrete programming work such as
+  MATLAB, keep a few short code idioms and implementation details in the
+  companion page as part of the knowledge. Make code-centered flashcards
+  self-contained by naming the relevant snippet or variable roles instead of
+  asking only generic function questions; when useful, include the local given
+  model or workflow too, especially on the left-hand side of the card. Also avoid meta-summary sections whose
+  main content is “this page covers X, Y, and Z”; start with ordinary
+  subject-matter prose instead.
+- Questions pages are not topic notes. Official material should usually be in
+  blockquotes; self-authored review prompts should usually be ordinary headings
+  and lists.
+- Split oversized `questions.md` files into `questions/index.md` plus child
+  pages.
+- Keep distinct official question families distinct (tutorials, problem sets,
+  practice exams, solutions).
+- For detailed rules on quoted solutions, cloze coverage, MD028 handling, and
+  subpart formatting, consult `../skills/academic-notes/SKILL.md`.
+- For accounting courses, keep journal-entry examples in `journal entries.md`;
+  the detailed table/cloze conventions live in `SKILL.md`.
+
+## Suppressions and validation
+
+- Prefer fixing content over suppressing rules.
+- Allowed suppression forms are `ignore-line[...]`, `ignore-next-line[...]`,
+  and `ignore-file[...]`, each with a clear rationale.
+- File-level suppressions are mainly for genuine special cases such as
+  assignment-style index pages.
+- Do not add duplicate directives of the same type on one line.
+- If a prose-oriented validator rule keeps flagging room codes, percent-encoded
+  link destinations, inline code, or HTML comments, prefer fixing the rule
+  instead of copy-pasting the same suppression through multiple notes.
+- After editing academic notes, validate the **smallest relevant scope only**.
+
+## Tools and locations
+
+- Skill folder: `.agents/skills/academic-notes/`
+- Template: `.agents/skills/academic-notes/course-template.md`
 - Validator: `.agents/skills/academic-notes/check.py`
 - Wikipedia helper: `.agents/skills/academic-notes/find_wikipedia.py`
-- Continuous improvement workflow: **Continuous improvement** section of `.agents/skills/academic-notes/SKILL.md`; log incidents in `.agents/skills/academic-notes/continuous_improvement.md`
+- Skill-folder tests: `.agents/skills/academic-notes/tests_a7392be/`
 
-## Course index and logistics (conventions)
+Validator commands:
 
-- **Separator**: After the course list (institution, `name:`, `credits:`), insert `---` before the course description.
-- **Sections format**: Under `logistics` → `sections`, use one key for the chosen stream (e.g. `lecture: L1`). List all section identifiers and their details under that key (e.g. L1, L2, L3 with venue and times). Do not create separate `lecture: L2`, `lecture: L3` keys.
-- **Session headings**: Use `## week N lecture` and `## week N lecture 2` (space in “lecture 2”). Status has no bearing on the heading—use the same type as the slot (e.g. week 3 lecture); do not use week 3 no class or put holiday in the heading (e.g. `## week 3` not `## week 3 (Lunar New Year)`).
-- **No-class days**: Omit `topic:` for sessions without classes. Use `status: public holiday: <name>` when the holiday is known (e.g. Lunar New Year, Labor Day); use `status: no class` for other non-teaching days (e.g. midterm break).
-- **Index session flashcards**: Omit session-level flashcard bullets in the index when they only describe scope or coverage; keep substantive flashcards in topic notes and questions. When a session introduces a reusable recognition pattern (e.g. an “infinite” resistor ladder method, or reading Zener clamp breakdown from a $V_Z$–$V_{\text{in}}$ plot), document the general method once in the relevant topic note (with self-contained QA cards) and use brief session-level cards in the index to point students to that method rather than re-deriving it.
-- **Emphasis**: Use underscore for italic and bold: `_italic_`, `__bold__`.
-
-## Short author checklist
-
-1. Add YAML frontmatter including `title`, `aliases`, `tags:` (must include the `special/academia/<INSTITUTION>` tag).
-2. Add or confirm flashcard activation tag in `tags:` when flashcards are desired.
-3. Ensure `index.md` pages contain `# index` and a `children:` or `## children` section where appropriate. For auxiliary index pages such as `labs/index.md` and `labs/lab N/index.md`, you may either keep a minimal index shell (e.g. `# index` plus a minimal children list) or, when the page is really an assignment note (e.g. lab summary-sheet submissions), drop the visible shell and use a file-level suppression such as `<!-- check: ignore-file[index_heading_rule,index_children_rule]: assignment-style index -->` so the validator does not enforce the standard index heading/children rules on that file. Do not add suppressions for rules that never fire in the file; the validator flags such redundant directives as errors. For courses with labs, each timed lab session in the main course index (e.g. “week 4 lab 1”) should both (a) list § links into the relevant topic notes and (b) include a bullet linking to the corresponding assignment-style note under `labs/lab N/index.md` so readers can jump directly from the timeline to either the conceptual material or the Canvas-style lab page.
-4. For weekly pages, include `datetime:` ranges and concise `topic:` / `learning_outcomes:` or `takeaway:` entries. When a session references a topic note, add a **section links index**: under the topic parent bullet, list one `[§ section name](file#anchor)` per top-level section (`##`), and under each section list one `[§ subsection name](file#anchor)` per subsection (`###`) and any deeper (`####`). Place these § links before any session-specific flashcard glosses. Use percent-encoded spaces in anchors, or hyphenated anchors (e.g. `#saturation-transistor-types-and-layout`) for headings with commas/special chars to avoid validator false positives. The course index may also include a dedicated "Topic (sections and subsections)" block with the full nested outline. When you merge or remove ### subsections in a topic note, update the § links and glosses in the index to match.
-5. **Topic notes**: For course topic-specific notes **other than** `journal entries.md`, use only **two-sided** (::@::) or very rarely **one-sided** (:@:) flashcards; **do not use cloze** ({@{ }@}) in the prose—add more QA cards instead. Cloze is only for journal-entry examples. Use lowercase filenames (e.g. `voltage regulator.md`), or the full canonical term when it matches the general article (e.g. `brushed DC electric motor.md`). Aliases = general term and synonyms only (not instances like LM7805); **include both singular and plural forms** (e.g. brushed motor / brushed motors). When linking to `general/`, use **lowercase first word** in both link display text and path (e.g. `[brushed DC electric motor](.../general/brushed%20DC%20electric%20motor.md)`). Circuit examples must state topology, polarities, and loop direction; when introducing a component via an instance, define the general concept (e.g. IC, datasheet) with flashcards. Use ### subsections under ## where it improves hierarchy. Describe **course-specific circuit layouts** explicitly (e.g. H-bridge: top row both PNP, bottom row both NPN) rather than a generic topology. For **accounting courses**, include a topic note `journal entries.md`: one journal entry type per section; each example in one blockquote (scenario, markdown table Dr/Cr right-aligned `|--|--:|--:|`, optional explanation/calculation); link all sections from the index and relevant week with § links. **Table header:** first column header = very brief description of the entry; wrap that description and **each account name** in the first column in clozes. In each example: mask **all** Dr/Cr amounts with clozes; add scenario (and calculation/explanation) clozes covering almost the full text but **leave a few hint words** at the start or end; for calculations, **cover both sides of an equality separately** and **cover the text (non-equation) portion** with hint words uncovered. **Cloze delimiter:** closing `}@}` before punctuation (e.g. `{@{text}@}.` not `{@{text.}@}`). Use **`&nbsp;`** for the thousands separator in amounts (e.g. 50&nbsp;000), not a comma. **Warranty:** settlement credit account = Cash, Inventory, or Accrued Payroll (not just Cash). **Service-type warranty:** revenue = performance obligation satisfied over the service period; in examples, service period typically starts after assurance-type warranty has expired.
-   - When introducing circuit notation or jargon (e.g. $V_{CC}$, $V_{CE}$, “low-side switch”), add a brief definition near first use (and optionally a flashcard) so the note is readable without prior course context.
-   - When embedding diagrams/schematics, put the image markup (e.g. `<p> ![...](attachments/... )`) on the same line as the preceding paragraph. Add diagram‑recall flashcards (image in the prompt) for key symbols/circuits so learners can recall what each represents. When adding or editing circuit diagram generators (e.g. schemdraw scripts in `attachments/`): draw the main rail first, use `.push()` at the branch node, finish the rail, then `.pop()` and draw the branch; use `.reverse()` on diodes when polarity requires it (see academic-notes skill “Images and circuit diagrams”).
-   - IC power pins (e.g. 74HC14): VCC = any valid supply voltage (course may use 5 V); GND = ground. Do not state “must be 5 V” unless the course fixes that.
-6. **Session prose**: After the session outline (`---`), add prose only when it adds value (next lecture, grading); do not duplicate index bullets and topic notes. Omit “lecture summary” index cards unless they cover major grading components.
-7. **Questions pages** (e.g. `questions.md`): Not topic notes; sections do not need the "Flashcards for this section are as follows:" rubric. Add questions and solutions as content; flashcards are optional per section.
-8. Run `uv run .agents/skills/academic-notes/check.py --content <path>` and resolve obvious authoring omissions before opening a PR.
+- PowerShell or cmd:
+  `uv run .agents/skills/academic-notes/check.py "special/academia/<INSTITUTION>/<COURSE>"`
+- POSIX shell:
+  `uv run .agents/skills/academic-notes/check.py special/academia/<INSTITUTION>/<COURSE>`
+- Narrow single-file check:
+  `uv run .agents/skills/academic-notes/check.py "special/academia/<INSTITUTION>/<COURSE>/index.md"`
 
 ## Continuous improvement
 
-This instruction set and the skill are living artifacts. If you discover missing examples, ambiguous rules, or repeated validation warnings, follow the steps in the **Continuous improvement** section of `.agents/skills/academic-notes/SKILL.md`; record feedback in `continuous_improvement.md`, draft a minimal clarification, and present it for maintainer review.
+If a task reveals a durable academic-notes lesson, update the authoritative
+files directly:
 
-## Developer tooling & tests (academic notes)
+- `../skills/academic-notes/SKILL.md`
+- `../skills/academic-notes/course-template.md`
+- this instruction file
+- related validator tests when appropriate
 
-- When adding tooling or scripts that process academic notes (for example, LMS converters), include unit tests and integration tests that exercise representative course pages and edge cases (missing metadata, unexpected frontmatter). Place tests in the skill’s own `tests/` subfolder (`.agents/skills/academic-notes/tests/`); mirroring paths inside that directory (e.g., `tests/tools/test_convert_canvas.py`) keeps them close to the code they exercise and avoids cluttering the repository-level `tests/` tree.
-- Validators updated for academic notes must come with tests that assert expected warnings and validation results. Run `bun run check` and `bun run test` locally before proposing CI changes; when working on a subset of files, supply explicit paths to these commands so they complete faster than scanning the whole repo.
+Persistent memory is not the long-term documentation system for academic-notes
+work.
+
+## Short author checklist
+
+1. Confirm valid frontmatter and underscore-normalized flashcard tags.
+2. Keep `index.md` order, chronology, and chosen-section metadata consistent.
+3. Deepen existing topic notes before creating overlapping new ones.
+4. Keep topic-note prose, flashcards, and index links synchronized.
+5. Use QA cards for topic notes except `journal entries.md`.
+6. Route labs, tutorials, and large question collections through dedicated topic
+   notes or child pages instead of bloating weekly entries.
+7. Validate the smallest relevant path.
+8. If the task exposed a reusable convention, fold it into the skill docs.

@@ -11,7 +11,6 @@ license = {file = "LICENSE.txt"}
 readme = "README.md"
 dependencies = [
   "aiohttp>=3.9.0",
-  "aioshutil>=1.2.0",
   "anyio>=3.6.0",
   "asyncer>=0.0.17",
   "asyncstdlib>=3.10.0",
@@ -26,10 +25,10 @@ dependencies = [
   "pandas>=3.0.0",
   "pillow>=10.3.0",
   "pyperclip>=1.9.0",
-  "pyarchivist>=2.1.0",
+  "pyarchivist>=3.0.0",
   "pydantic>=2.12.0",
   "pydantic-yaml>=1.6.0",
-  "pytextgen>=8.1.0",
+  "pytextgen>=9.0.0",
   "pyyaml>=6.0.0",
   "requests>=2.32.0",
   "rich>=14.0.0",
@@ -60,13 +59,6 @@ exclude = [
   "**/__pycache__",
   "**/.*",
   ".venv",
-  # These contain their own pyright configurations, and are not intended to be type-checked as part of this project.
-  "self/arts",
-  "self/capture the flag",
-  "self/ledger",
-  "self/passwords",
-  "tools/pyarchivist",
-  "tools/pytextgen",
   # self
   "private/special/academia/HKUST/**/*assignment*/**/*.ipynb",
   "private/special/academia/HKUST/**/*assignment*/**/*.py",
@@ -88,6 +80,13 @@ exclude = [
   "special/academia/HKUST/**/*lab*/**/*.py",
   "special/academia/HKUST/**/*tutorial*/**/*.ipynb",
   "special/academia/HKUST/**/*tutorial*/**/*.py",
+  # These contain their own pyright configurations, and are not intended to be type-checked as part of this project.
+  "self/arts",
+  "self/capture the flag",
+  "self/ledger",
+  "self/passwords",
+  "tools/pyarchivist",
+  "tools/pytextgen",
 ]
 typeCheckingMode = "strict"
 venv = ".venv"

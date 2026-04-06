@@ -1,4 +1,4 @@
-# https://github.com/github/gitignore/blob/53fee13f20a05efc93ef4edcad0c62863520e268/Node.gitignore {
+# <https://github.com/github/gitignore/blob/53fee13f20a05efc93ef4edcad0c62863520e268/Node.gitignore> {
 # Logs
 logs
 *.log
@@ -142,7 +142,7 @@ vite.config.ts.timestamp-*
 .vite/
 # }
 
-# https://github.com/github/gitignore/blob/33243d9491911332228307c915ff95707791a91f/Python.gitignore {
+# <https://github.com/github/gitignore/blob/33243d9491911332228307c915ff95707791a91f/Python.gitignore> {
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -307,7 +307,7 @@ cython_debug/
 #.idea/
 # }
 
-# https://github.com/github/gitignore/blob/4488915eec0b3a45b5c63ead28f286819c0917de/TeX.gitignore {
+# <https://github.com/github/gitignore/blob/4488915eec0b3a45b5c63ead28f286819c0917de/TeX.gitignore> {
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -615,4 +615,7 @@ TSWLatexianTemp*
 /.obsidian/workspace-mobile.json
 /.obsidian/workspace.json
 /.trash/
+# }
+
+# self {
 # }

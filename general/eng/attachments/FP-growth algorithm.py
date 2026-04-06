@@ -205,7 +205,7 @@ def _print_database(
     )
 
 
-if __name__ == "__main__":
+def __main__() -> None:
     _print_header("database")
     _print_database(_DATABASE, sort_key=True)
 
@@ -222,3 +222,7 @@ if __name__ == "__main__":
     _print_header("results for alternative")
     _print_database(result, sort_key=True)
     assert _EXPECTED == result
+
+
+if __name__ == "__main__":
+    __main__()

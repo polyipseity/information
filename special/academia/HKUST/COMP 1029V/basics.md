@@ -26,7 +26,7 @@ Below are common data types:
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = "type", "description"
 table = (
@@ -36,17 +36,18 @@ table = (
   ("`Long`", "An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647.",),
   ("`Single`", "A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes.",),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("2f02", "652a",),
     headers,
     table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "3b1a", None,),
     items_to_map(*table),
-  )
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="2f02"--><!-- The following content is generated at 2026-01-25T23:32:20.906895+08:00. Any edits will be overridden! -->

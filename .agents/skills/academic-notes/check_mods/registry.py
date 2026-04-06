@@ -8,7 +8,7 @@ in the test suite.
 """
 
 import re
-from collections.abc import Callable, Sequence
+from collections.abc import Awaitable, Callable, Sequence
 
 from .models import ValidationContext, ValidationMessage
 
@@ -35,14 +35,26 @@ class RuleRegistry:
         keyed by the rule id string supplied to the ``register`` decorator.
         """
         self._rules: dict[
-            str, Callable[[ValidationContext], Sequence[ValidationMessage]]
+            str,
+            Callable[
+                [ValidationContext],
+                Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
+            ],
         ] = {}
 
     def register(
         self, *, id: str | None = None
     ) -> Callable[
-        [Callable[[ValidationContext], Sequence[ValidationMessage]]],
-        Callable[[ValidationContext], Sequence[ValidationMessage]],
+        [
+            Callable[
+                [ValidationContext],
+                Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
+            ]
+        ],
+        Callable[
+            [ValidationContext],
+            Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
+        ],
     ]:
         """Decorator that registers the wrapped function under *id*.
 
@@ -56,8 +68,14 @@ class RuleRegistry:
         """
 
         def _decorate(
-            func: Callable[[ValidationContext], Sequence[ValidationMessage]],
-        ) -> Callable[[ValidationContext], Sequence[ValidationMessage]]:
+            func: Callable[
+                [ValidationContext],
+                Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
+            ],
+        ) -> Callable[
+            [ValidationContext],
+            Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
+        ]:
             """Actual decorator applied to the user-defined rule function.
 
             If the caller did not supply an explicit *id*, derive one from the
@@ -90,18 +108,35 @@ class RuleRegistry:
 
     def items(
         self,
-    ) -> list[tuple[str, Callable[[ValidationContext], Sequence[ValidationMessage]]]]:
+    ) -> list[
+        tuple[
+            str,
+            Callable[
+                [ValidationContext],
+                Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
+            ],
+        ]
+    ]:
         """Return a list of ``(id, function)`` pairs for all registered rules."""
         return list(self._rules.items())
 
     def values(
         self,
-    ) -> list[Callable[[ValidationContext], Sequence[ValidationMessage]]]:
+    ) -> list[
+        Callable[
+            [ValidationContext],
+            Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
+        ]
+    ]:
         """Return the rule callables in registration order."""
         return list(self._rules.values())
 
     def get_rule_id(
-        self, func: Callable[[ValidationContext], Sequence[ValidationMessage]]
+        self,
+        func: Callable[
+            [ValidationContext],
+            Sequence[ValidationMessage] | Awaitable[Sequence[ValidationMessage]],
+        ],
     ) -> str:
         """Return the identifier for a registered rule by reverse lookup.
 

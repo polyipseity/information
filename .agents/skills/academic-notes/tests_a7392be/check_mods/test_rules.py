@@ -12,11 +12,26 @@ from anyio import Path
 from check_mods.models import Frontmatter, Severity, ValidationContext
 from check_mods.rules import (
     RULE_REGISTRY,
+    agents_no_flashcard_markup,
+    agents_title,
     aliases_sorted,
-    header_style_rule,
-    index_children_rule,
-    index_heading_rule,
-    index_semester_order_rule,
+    cloze_no_nested,
+    cloze_open_close_matching,
+    cloze_single_line,
+    cloze_wrong_closing_token,
+    folder_link_trailing_slash,
+    header_flashcard_presence,
+    header_flashcard_separator,
+    header_style,
+    index_children,
+    index_children_agents_link,
+    index_children_format,
+    index_children_missing,
+    index_children_missing_index,
+    index_children_order,
+    index_heading,
+    index_non_suppression_html_comments,
+    index_semester_order,
     latex_block_no_newline,
     latex_disallowed_delimiters,
     latex_environment_not_wrapped,
@@ -28,11 +43,14 @@ from check_mods.rules import (
     metadata_tags_present,
     no_control_characters,
     no_lecture_summary,
+    no_smart_double_quotes,
+    no_smart_single_quotes,
     no_soft_wrap_list,
     no_soft_wrap_paragraph,
     numeric_text_not_latex,
     one_sided_calc_warning,
     qa_hierarchical_path,
+    qa_nested_indentation,
     section_example_heading,
     session_datetime_order,
     session_duplicate_heading,
@@ -41,6 +59,7 @@ from check_mods.rules import (
     session_unscheduled_with_topic,
     tag_language,
     tag_path_flash,
+    topic_note_redundant_filename_prefix,
     two_sided_calc_warning,
     unit_outside_math,
 )
@@ -73,7 +92,7 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
     # Same pattern as validator: week N type [number]; type = lecture|lab|tutorial only (status has no bearing on heading)
     session_headers: list[tuple[str, str, str, int]] = []
     _re = re.compile(
-        r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?|no\s+class)\s*$",
+        r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
         re.IGNORECASE | re.MULTILINE,
     )
     for m2 in _re.finditer(text):
@@ -163,13 +182,158 @@ def test_index_rules():
 
     txt = "# some page\n"
     ctx = make_ctx(txt, path=Path("/tmp/index.md"))
-    assert index_heading_rule(ctx)
-    assert index_children_rule(ctx)
+    assert index_heading(ctx)
+    assert index_children(ctx)
 
     txt = "# index\n## children\n### 2023 fall\n### 2022 spring\n"
     ctx = make_ctx(txt, path=Path("/tmp/index.md"))
-    msgs = index_semester_order_rule(ctx)
+    msgs = index_semester_order(ctx)
     assert msgs and "chronological" in msgs[0].msg
+
+
+@pytest.mark.anyio
+async def test_index_children_format_and_order_rules(tmp_path):
+    """Children section must be a flat list of links sorted by folder/file.
+
+    Tests both format validation and ordering, including handling of missing
+    files which should be skipped by the order rule and reported by the
+    missing file rule.
+    """
+    # Create test files/directories
+    (tmp_path / "assignments").mkdir()
+    (tmp_path / "a.md").touch()
+    (tmp_path / "b.md").touch()
+    index_path = Path(tmp_path / "index.md")
+
+    # Valid: folders before files, alphabetically sorted
+    txt = "# index\n\n## children\n- [assignments](assignments/)\n- [a](a.md)\n- [b](b.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    assert not index_children_format(ctx)
+    assert not await index_children_order(ctx)
+    assert not await index_children_missing(ctx)
+
+    # nested bullets are rejected
+    txt = "# index\n\n## children\n  - [a](a.md)\n- [b](b.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = index_children_format(ctx)
+    assert msgs and "top-level" in msgs[0].msg
+
+    # folders must come before files
+    txt = "# index\n\n## children\n- [a](a.md)\n- [assignments](assignments/)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_order(ctx)
+    assert msgs and "folder entries" in msgs[0].msg
+
+    # files must be alphabetically ordered
+    txt = "# index\n\n## children\n- [assignments](assignments/)\n- [b](b.md)\n- [a](a.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_order(ctx)
+    assert msgs and "alphabetical" in msgs[0].msg
+
+
+@pytest.mark.anyio
+async def test_index_children_missing_rule(tmp_path):
+    """Missing files/directories in children section are reported.
+
+    The missing file rule should warn about links that don't exist
+    and suggest either removing or creating them.
+    """
+    # Create some test files
+    (tmp_path / "existing_dir").mkdir()
+    (tmp_path / "existing.md").touch()
+    index_path = Path(tmp_path / "index.md")
+
+    # Valid: all files exist
+    txt = "# index\n\n## children\n- [existing_dir](existing_dir/)\n- [existing](existing.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    assert not await index_children_missing(ctx)
+
+    # Missing file
+    txt = "# index\n\n## children\n- [existing](existing.md)\n- [missing](missing.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing(ctx)
+    assert len(msgs) == 1
+    assert "missing.md" in msgs[0].msg
+    assert msgs[0].severity == Severity.WARNING
+    assert "remove" in msgs[0].msg or "create" in msgs[0].msg
+
+    # Missing directory
+    txt = "# index\n\n## children\n- [missing_dir](missing_dir/)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing(ctx)
+    assert len(msgs) == 1
+    assert "missing_dir" in msgs[0].msg
+    assert msgs[0].severity == Severity.WARNING
+
+    # Multiple missing entries
+    txt = "# index\n\n## children\n- [missing1](missing1.md)\n- [existing](existing.md)\n- [missing2](missing2.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing(ctx)
+    assert len(msgs) == 2
+    assert all(msg.severity == Severity.WARNING for msg in msgs)
+
+
+@pytest.mark.anyio
+async def test_index_children_order_rule_ignores_missing(tmp_path):
+    """Order rule should ignore missing files/directories.
+
+    When files are missing, they should be skipped by the order rule
+    and not cause false positives for ordering violations.
+    """
+    # Create test files
+    (tmp_path / "a.md").touch()
+    (tmp_path / "b.md").touch()
+    index_path = Path(tmp_path / "index.md")
+
+    # Even though 'missing' comes between 'a' and 'b', the order rule should only
+    # check ordering of existing entries, not missing ones
+    txt = "# index\n\n## children\n- [a](a.md)\n- [missing](missing.md)\n- [b](b.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    # Should not report order violations since 'missing' is skipped
+    msgs = await index_children_order(ctx)
+    assert not msgs  # No order violations
+
+    # But the missing file rule should still report the missing entry
+    msgs = await index_children_missing(ctx)
+    assert len(msgs) == 1
+    assert "missing.md" in msgs[0].msg
+
+
+@pytest.mark.anyio
+async def test_index_children_missing_index(tmp_path):
+    """Folders without index.md should be flagged by index_children_missing_index rule.
+
+    When a link points to folder/index.md but the folder exists without index.md,
+    this rule suggests either creating index.md or changing the link to the folder.
+    """
+    # Create a folder without index.md
+    (tmp_path / "assignment_folder").mkdir()
+    index_path = Path(tmp_path / "index.md")
+
+    # When folder exists but index.md doesn't, index_children_missing_index should warn
+    txt = "# index\n\n## children\n- [assignments](assignment_folder/index.md)\n"
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing_index(ctx)
+    assert len(msgs) == 1
+    assert msgs[0].severity == Severity.WARNING
+    assert (
+        "assignment_folder/index.md" in msgs[0].msg
+        or "assignment_folder" in msgs[0].msg
+    )
+    assert "create" in msgs[0].msg or "folder" in msgs[0].msg
+
+    # When both folder and index.md exist, no warning
+    (tmp_path / "assignment_folder" / "index.md").touch()
+    ctx = make_ctx(txt, path=index_path)
+    msgs = await index_children_missing_index(ctx)
+    assert not msgs
+
+    # Folder link without /index.md should not trigger this rule
+    txt2 = "# index\n\n## children\n- [missing](missing_folder/)\n"
+    ctx = make_ctx(txt2, path=index_path)
+    msgs = await index_children_missing_index(ctx)
+    # Should not report for folder links or completely missing folders
+    assert not msgs
 
 
 def test_header_style_generic():
@@ -180,18 +344,136 @@ def test_header_style_generic():
 
     txt = "## BadHeader\n"
     ctx = make_ctx(txt, path=Path("/tmp/file.md"))
-    msgs = header_style_rule(ctx)
+    msgs = header_style(ctx)
     assert msgs
     assert msgs[0].severity == Severity.WARNING
     assert "lowercase" in msgs[0].msg
     assert "proper noun" in msgs[0].msg
 
 
+def test_header_flashcard_presence_applies_to_all_levels():
+    """Flashcard presence rules should apply to headers at any level.
+
+    A top-level header (#) should be checked just like a subsection.
+    """
+
+    txt = "# Topic\nThis section has no flashcards.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/file.md"))
+    msgs = header_flashcard_presence(ctx)
+    assert msgs and msgs[0].rule_id == "header_flashcard_presence"
+
+    # When flashcards exist under the header, no message should be emitted.
+    txt2 = "# Topic\nSome text\n\nTerm ::@:: Definition\n"
+    ctx2 = make_ctx(txt2, path=Path("/tmp/file.md"))
+    assert not header_flashcard_presence(ctx2)
+
+    # question pages under questions/ are exempt even if they lack per-section flashcard blocks
+    txt3 = "# week 2 tutorial\n\n## official material\n\n> quoted question\n"
+    ctx3 = make_ctx(txt3, path=Path("/tmp/course/questions/week 2 tutorial.md"))
+    assert not header_flashcard_presence(ctx3)
+
+
+def test_header_flashcard_rules_exempt_agents():
+    """AGENTS.md should be exempt from section-level flashcard requirements."""
+
+    txt = "# COMP 4211 agent instructions\n\n- Keep this concise.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/COMP 4211/AGENTS.md"))
+    assert not header_flashcard_presence(ctx)
+    assert not header_flashcard_separator(ctx)
+
+
+def test_agents_title_rule():
+    """AGENTS.md title must match '# <course code> agent instructions'."""
+
+    good = "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/HKUST/COMP_4211/AGENTS]\n---\n\n# COMP 4211 agent instructions\n\n- Keep course-specific notes here.\n"
+    ctx_good = make_ctx(
+        good, path=Path("/tmp/special/academia/HKUST/COMP 4211/AGENTS.md")
+    )
+    assert not agents_title(ctx_good)
+
+    bad = "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/HKUST/COMP_4211/AGENTS]\n---\n\nCOMP 4211 agent instructions\n"
+    ctx_bad = make_ctx(
+        bad, path=Path("/tmp/special/academia/HKUST/COMP 4211/AGENTS.md")
+    )
+    msgs = agents_title(ctx_bad)
+    assert msgs and msgs[0].rule_id == "agents_title"
+
+
+def test_agents_no_flashcard_markup_rule():
+    """AGENTS.md must not contain cloze/one-sided/two-sided separators."""
+
+    for bad_line in (
+        "- prompt ::@:: answer\n",
+        "- prompt :@: answer\n",
+        "- hidden {@{text}@}\n",
+    ):
+        txt = f"# COMP 4211 agent instructions\n\n{bad_line}"
+        ctx = make_ctx(
+            txt, path=Path("/tmp/special/academia/HKUST/COMP 4211/AGENTS.md")
+        )
+        msgs = agents_no_flashcard_markup(ctx)
+        assert msgs and msgs[0].rule_id == "agents_no_flashcard_markup"
+
+    good = "# COMP 4211 agent instructions\n\n- Keep guidance concise.\n"
+    assert not agents_no_flashcard_markup(
+        make_ctx(good, path=Path("/tmp/special/academia/HKUST/COMP 4211/AGENTS.md"))
+    )
+
+
+def test_index_non_suppression_html_comments_rule():
+    """index.md allows suppression comments only; other HTML comments are errors."""
+
+    ok = "# index\n\n## children\n- [AGENTS](AGENTS.md)\n\n- note ::@:: value <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->\n"
+    ctx_ok = make_ctx(ok, path=Path("/tmp/special/academia/HKUST/COMP 4211/index.md"))
+    assert not index_non_suppression_html_comments(ctx_ok)
+
+    bad = "# index\n\n<!-- source schedule -->\n\n## children\n- [AGENTS](AGENTS.md)\n"
+    ctx_bad = make_ctx(bad, path=Path("/tmp/special/academia/HKUST/COMP 4211/index.md"))
+    msgs = index_non_suppression_html_comments(ctx_bad)
+    assert msgs and msgs[0].rule_id == "index_non_suppression_html_comments"
+
+
+@pytest.mark.anyio
+async def test_index_children_agents_link_rule(tmp_path):
+    """If AGENTS.md exists beside index.md, children must include exact AGENTS link."""
+
+    # Set up a course folder with AGENTS.md present
+    (tmp_path / "AGENTS.md").touch()
+    (tmp_path / "attachments").mkdir()
+    index_path = Path(tmp_path / "index.md")
+
+    good = "# index\n\n## children\n- [attachments/](attachments/)\n- [AGENTS](AGENTS.md)\n"
+    assert not await index_children_agents_link(make_ctx(good, path=index_path))
+
+    missing = "# index\n\n## children\n- [attachments/](attachments/)\n"
+    msgs_missing = await index_children_agents_link(make_ctx(missing, path=index_path))
+    assert msgs_missing and msgs_missing[0].rule_id == "index_children_agents_link"
+
+    wrong = "# index\n\n## children\n- [attachments/](attachments/)\n- [agents](agents.md)\n"
+    msgs_wrong = await index_children_agents_link(make_ctx(wrong, path=index_path))
+    assert msgs_wrong and msgs_wrong[0].rule_id == "index_children_agents_link"
+
+
+@pytest.mark.anyio
+async def test_folder_link_slash_ignores_index_md(tmp_path: PathLike[str]):
+    """Links to index.md should not be treated as a folder for trailing-slash rules."""
+
+    # Create a temporary directory with an index.md to ensure the link resolves.
+    dir_path = Path(tmp_path)
+    await (dir_path / "index.md").write_text("# index\n")
+
+    # Create a context for a different file in the same directory.
+    ctx = make_ctx("[index](index.md)\n", path=Path(dir_path / "note.md"))
+
+    msgs = await folder_link_trailing_slash(ctx)
+    assert not msgs, "A link to index.md should not require a trailing slash"
+
+
 def test_example_section_heading():
     """Files should not define standalone example sections.
 
     The rule fires on any header whose text contains the word "example"
-    (case insensitive).  Authors are instructed to remove the entire section
+    (case insensitive). Authors are instructed to remove the entire section
     and merge examples into appropriate conceptual headings.
     """
 
@@ -238,17 +520,6 @@ def test_tag_path_flash_quotes_and_spaces():
     ctx = make_ctx(txt, path=path)
     msgs = tag_path_flash(ctx)
     assert msgs and "Week_s_Notes" in msgs[0].msg
-
-    # different casing and within a longer title should also trigger
-    txt2 = "### Resistive circuit examples and notes\nContent\n"
-    ctx2 = make_ctx(txt2)
-    msgs2 = section_example_heading(ctx2)
-    assert msgs2
-
-    # unrelated heading should be ignored
-    txt3 = "## Explanation of example-less topic\n"
-    ctx3 = make_ctx(txt3)
-    assert not section_example_heading(ctx3)
 
 
 def test_no_lecture_summary():
@@ -456,6 +727,21 @@ def test_numeric_text_not_latex():
     txt3 = "Lecture 5 covers resistors and capacitors.\n"
     assert not numeric_text_not_latex(make_ctx(txt3))
 
+    # room codes like 4225C are identifiers, not quantities
+    txt_room = "- venue: Room 4225C\n"
+    assert not numeric_text_not_latex(make_ctx(txt_room))
+
+    # percent-encoded markdown link targets should be ignored
+    txt_link = (
+        "- sigma-algebra / [§ consequences: empty set, intersections, finite operations]"
+        "(sigma-algebra.md#consequences%3A%20empty%20set%2C%20intersections%2C%20finite%20operations)\n"
+    )
+    assert not numeric_text_not_latex(make_ctx(txt_link))
+
+    # spaced C units should still be treated as plain-text quantities
+    txt_c = "The total charge is 25 C in this example.\n"
+    assert numeric_text_not_latex(make_ctx(txt_c))
+
     # suppression directives should work (reuse existing suppression tests)
     txt4 = (
         "<!-- check: ignore-line[numeric_text_not_latex]: example -->\n"
@@ -500,19 +786,242 @@ def test_qa_hierarchical_path_nested_labels():
     msgs = qa_hierarchical_path(ctx_bad)
     assert msgs and msgs[0].rule_id == "qa_hierarchical_path"
 
+    # Topic-note nested flashcards should follow the same full-parent-path rule
+    good_topic = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distributions / Poisson approximation\n"
+        "  - discrete distributions / Poisson approximation / statement ::@:: details\n"
+        "  - discrete distributions / Poisson approximation / intuition ::@:: details\n"
+    )
+    assert not qa_hierarchical_path(make_ctx(good_topic, Path("/tmp/course/topic.md")))
+
+    bad_topic = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distributions / Poisson approximation\n"
+        "  - discrete distributions / intuition ::@:: details\n"
+    )
+    msgs_topic = qa_hierarchical_path(make_ctx(bad_topic, Path("/tmp/course/topic.md")))
+    assert msgs_topic and msgs_topic[0].rule_id == "qa_hierarchical_path"
+
+
+def test_qa_nested_indentation_two_spaces_per_level():
+    """Nested flashcard bullets should indent by exactly two spaces per level."""
+
+    good = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distributions / Poisson approximation\n"
+        "  - discrete distributions / Poisson approximation / statement ::@:: details\n"
+        "  - discrete distributions / Poisson approximation / intuition ::@:: details\n"
+    )
+    assert not qa_nested_indentation(make_ctx(good, Path("/tmp/course/topic.md")))
+
+    bad_odd = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distributions / Poisson approximation\n"
+        "   - discrete distributions / Poisson approximation / statement ::@:: details\n"
+    )
+    msgs_odd = qa_nested_indentation(make_ctx(bad_odd, Path("/tmp/course/topic.md")))
+    assert msgs_odd and msgs_odd[0].rule_id == "qa_nested_indentation"
+
+    bad_jump = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distributions / Poisson approximation\n"
+        "    - discrete distributions / Poisson approximation / statement ::@:: details\n"
+    )
+    msgs_jump = qa_nested_indentation(make_ctx(bad_jump, Path("/tmp/course/topic.md")))
+    assert msgs_jump and msgs_jump[0].rule_id == "qa_nested_indentation"
+
+
+def test_topic_note_redundant_filename_prefix():
+    """Topic-note flashcards should not repeat the filename or title."""
+
+    good = (
+        "Flashcards for this section are as follows:\n\n"
+        "- definition ::@:: details\n"
+        "- Poisson approximation\n"
+        "  - Poisson approximation / statement ::@:: details\n"
+    )
+    assert not topic_note_redundant_filename_prefix(
+        make_ctx(good, Path("/tmp/course/discrete distribution.md"))
+    )
+
+    bad_top = (
+        "Flashcards for this section are as follows:\n\n"
+        "- discrete distribution / definition ::@:: details\n"
+    )
+    msgs_top = topic_note_redundant_filename_prefix(
+        make_ctx(bad_top, Path("/tmp/course/discrete distribution.md"))
+    )
+    assert msgs_top and msgs_top[0].rule_id == "topic_note_redundant_filename_prefix"
+
+    bad_nested = (
+        "Flashcards for this section are as follows:\n\n"
+        "- Poisson approximation\n"
+        "  - discrete distribution / Poisson approximation / statement ::@:: details\n"
+    )
+    msgs_nested = topic_note_redundant_filename_prefix(
+        make_ctx(bad_nested, Path("/tmp/course/discrete distribution.md"))
+    )
+    assert (
+        msgs_nested and msgs_nested[0].rule_id == "topic_note_redundant_filename_prefix"
+    )
+
+    bad_title_only = (
+        "# Probability Measure\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- Probability Measure ::@:: details\n"
+    )
+    msgs_title_only = topic_note_redundant_filename_prefix(
+        make_ctx(bad_title_only, Path("/tmp/course/probability measure.md"))
+    )
+    assert (
+        msgs_title_only
+        and msgs_title_only[0].rule_id == "topic_note_redundant_filename_prefix"
+    )
+
+    bad_title_prefix = (
+        "# Probability Measure\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- Probability Measure / definition ::@:: details\n"
+    )
+    msgs_title_prefix = topic_note_redundant_filename_prefix(
+        make_ctx(bad_title_prefix, Path("/tmp/course/probability measure.md"))
+    )
+    assert (
+        msgs_title_prefix
+        and msgs_title_prefix[0].rule_id == "topic_note_redundant_filename_prefix"
+    )
+
+    # question pages under questions/ are exempt from topic-note prompt rules
+    questions_txt = "# week 2 tutorial\n\n- week 2 tutorial ::@:: details\n"
+    assert not topic_note_redundant_filename_prefix(
+        make_ctx(questions_txt, Path("/tmp/course/questions/week 2 tutorial.md"))
+    )
+
 
 def test_latex_spacing_before_paren():
-    """Spacing rule allows '(' before dollar but not letters directly."""
+    """Spacing rule allows '(' and '{' before dollar but not letters directly."""
 
     txt = "This is an equation ($x=1$) in parentheses.\n"
     ctx = make_ctx(txt)
     msgs = latex_spacing_before(ctx)
     assert not msgs, "paren before dollar should be allowed"
 
+    txt = "Cloze {@{$x=1$}@} wrapper.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "opening brace before dollar should be allowed"
+
     txt = "Badexample$x=1$ without space\n"
     ctx = make_ctx(txt)
     msgs = latex_spacing_before(ctx)
     assert msgs, "missing space should be caught even inside text"
+
+    txt = "A-$x$ hyphen punctuation allowed\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "hyphen before dollar should be allowed as punctuation"
+
+    txt = "A,$x$ comma punctuation allowed\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "punctuation before dollar should be allowed"
+
+
+def test_latex_spacing_after_brace():
+    """Spacing-after rule allows closing brace directly after dollar."""
+
+    txt = "Cloze value {@{$x=1$}@} appears.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "closing brace after dollar should be allowed"
+
+    txt = "Bad $x=1$word continuation.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert msgs, "missing space after dollar should be caught for plain text"
+
+    txt = "Okay $x=1$-suffix punctuation.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "hyphen after dollar should be allowed as punctuation"
+
+    txt = "Okay $x=1$,suffix punctuation.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "punctuation after dollar should be allowed"
+
+
+def test_cloze_open_close_matching_rule():
+    """Cloze matching rule should detect unmatched opens/closes."""
+
+    good = make_ctx("Flash {@{ok}@} here.\n")
+    assert not cloze_open_close_matching(good)
+
+    bad_open = make_ctx("Flash {@{missing close\n")
+    msgs = cloze_open_close_matching(bad_open)
+    assert msgs and any("unmatched cloze opening" in m.msg for m in msgs)
+
+    bad_close = make_ctx("Flash stray }@} token.\n")
+    msgs = cloze_open_close_matching(bad_close)
+    assert msgs and any("unmatched cloze closing" in m.msg for m in msgs)
+
+
+def test_cloze_wrong_closing_token_rule():
+    """Wrong close token '}}' should be detected when used as cloze terminator."""
+
+    bad = make_ctx("Text {@{wrong close}} next.\n")
+    msgs = cloze_wrong_closing_token(bad)
+    assert msgs and any("wrong cloze closing token" in m.msg for m in msgs)
+
+    good = make_ctx("Text {@{correct close}@} next.\n")
+    assert not cloze_wrong_closing_token(good)
+
+
+def test_cloze_single_line_rule():
+    """Multiline cloze content should be rejected."""
+
+    bad = make_ctx("Line {@{first\nsecond}@} tail.\n")
+    msgs = cloze_single_line(bad)
+    assert msgs and any("must be on one source line" in m.msg for m in msgs)
+
+    good = make_ctx("Line {@{single line}@} tail.\n")
+    assert not cloze_single_line(good)
+
+
+def test_cloze_no_nested_rule():
+    """Nested clozes should be rejected."""
+
+    bad = make_ctx("Nested {@{outer {@{inner}@} text}@}.\n")
+    msgs = cloze_no_nested(bad)
+    assert msgs and any(
+        "fix other cloze matching problems first" in m.msg for m in msgs
+    )
+
+    good = make_ctx("Flat {@{outer text}@}.\n")
+    assert not cloze_no_nested(good)
+
+
+def test_no_smart_double_quotes_rule():
+    """Smart double quotes should be rejected; ASCII quotes allowed."""
+
+    bad = make_ctx("Bad “quoted” text.\n")
+    msgs = no_smart_double_quotes(bad)
+    assert msgs and any("smart double quotes" in m.msg for m in msgs)
+
+    good = make_ctx('Good "quoted" text.\n')
+    assert not no_smart_double_quotes(good)
+
+
+def test_no_smart_single_quotes_rule():
+    """Smart single quotes should be rejected; ASCII apostrophes allowed."""
+
+    bad = make_ctx("Bad ‘quoted’ and don’t text.\n")
+    msgs = no_smart_single_quotes(bad)
+    assert msgs and any("smart single quotes" in m.msg for m in msgs)
+
+    good = make_ctx("Good 'quoted' and don't text.\n")
+    assert not no_smart_single_quotes(good)
 
 
 def test_latex_spacing_ignore_code():
@@ -613,6 +1122,8 @@ def test_no_soft_wrap_paragraph():
         "| a | b |\n|--|--|\n| 1 | 2 |\n",
         ">> | a | b |\n>> |--|--|\n>> | 1 | 2 |\n",
         "> > | x |\n> > |--|\n",
+        "> multipart question:\n>\n> - (a) first part\n> - (b) second part\n",
+        "> Solution:\n>\n> - (a) first answer\n> - (b) second answer\n",
     ]:
         assert not no_soft_wrap_paragraph(make_ctx(good)), (
             "table rows (with or without blockquote) must not be flagged"
@@ -748,6 +1259,23 @@ async def test_suppression_duplicate_directives(tmp_path: PathLike[str]):
 
 
 @pytest.mark.anyio
+async def test_suppression_line_next_line_conflict(tmp_path: PathLike[str]):
+    """Ignore-line + ignore-next-line for the same target should emit conflict."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-next-line[unit_outside_math]: planned -->\n"
+        "<!-- check: ignore-line[unit_outside_math]: redundant -->\n"
+        "Value I=5 A is here.\n"
+    )
+    file = Path(tmp_path) / "conflict.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert any(m.rule_id == "suppression-conflict-line-next-line" for m in msgs)
+    assert not any(m.rule_id == "unit_outside_math" for m in msgs)
+
+
+@pytest.mark.anyio
 async def test_suppression_redundant(tmp_path: PathLike[str]):
     """A suppression for a rule that never fires should be reported as error."""
     text = (
@@ -760,6 +1288,38 @@ async def test_suppression_redundant(tmp_path: PathLike[str]):
 
     msgs = list(await check_markdown_file(file))
     assert any(m.rule_id == "suppression-redundant" for m in msgs), msgs
+
+
+@pytest.mark.anyio
+async def test_suppression_unknown_rule(tmp_path: PathLike[str]):
+    """Directive for a non-existent rule should be reported as an error."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-line[not_a_real_rule]: typo -->\n"
+        "some content here\n"
+    )
+    file = Path(tmp_path) / "unknown.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert any(m.rule_id == "suppression-non-existent-rule" for m in msgs)
+    assert not any(m.rule_id == "suppression-redundant" for m in msgs), msgs
+
+
+@pytest.mark.anyio
+async def test_file_level_suppression_unknown_rule(tmp_path: PathLike[str]):
+    """File-level suppression for an unknown rule should emit non-existent-rule."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-file[not_a_real_rule]: typo -->\n"
+        "# some page\n"
+    )
+    file = Path(tmp_path) / "unknown_file.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert any(m.rule_id == "suppression-non-existent-rule" for m in msgs)
+    assert not any(m.rule_id == "suppression-redundant" for m in msgs), msgs
 
 
 @pytest.mark.anyio
@@ -777,7 +1337,7 @@ async def test_file_level_suppression_hides_index_rules(tmp_path: PathLike[str])
         "aliases: [a]\n"
         "tags: [language/in/English, flashcard/active/special/academia/test/index]\n"
         "---\n"
-        "<!-- check: ignore-file[index_heading_rule,index_children_rule]: assignment index without shell -->\n"
+        "<!-- check: ignore-file[index_heading,index_children]: assignment index without shell -->\n"
         "# some page\n"
         "## not-children\n"
     )
@@ -787,9 +1347,7 @@ async def test_file_level_suppression_hides_index_rules(tmp_path: PathLike[str])
     # Without suppression, both index rules would fire on this path; with
     # ignore-file they should be fully removed from the result set.
     msgs = list(await check_markdown_file(file))
-    assert not any(
-        m.rule_id in {"index_heading_rule", "index_children_rule"} for m in msgs
-    )
+    assert not any(m.rule_id in {"index_heading", "index_children"} for m in msgs)
     # The suppression itself must not be marked redundant because those rules
     # would have produced diagnostics somewhere in the file.
     assert not any(m.rule_id == "suppression-redundant" for m in msgs)

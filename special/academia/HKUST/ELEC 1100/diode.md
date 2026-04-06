@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 
 ## pn junction and biasing
 
-A PN junction diode is made by joining P-type and N-type semiconductor regions; at the junction a depletion region forms with a built-in barrier potential of about $0.7\text{ V}$ for silicon. The diode terminals are called anode (P side) and cathode (N side). When the anode is at a higher potential than the cathode (forward bias), the barrier is reduced and current can flow; when the anode is at a lower potential (reverse bias), the barrier increases and only a very small leakage current flows. On the physical diodes used in ELEC 1100, the cathode is marked by a stripe (often black) on the package, so “black strip is negative”; the small-signal diode is a thinner body, while the Zener diode used for regulation is a slightly fatter package but still uses the stripe to mark the cathode.
+A PN junction diode is made by joining P-type and N-type semiconductor regions; at the junction a depletion region forms with a built-in barrier potential of about $0.7\text{ V}$ for silicon. The diode terminals are called anode (P side) and cathode (N side). When the anode is at a higher potential than the cathode (forward bias), the barrier is reduced and current can flow; when the anode is at a lower potential (reverse bias), the barrier increases and only a very small leakage current flows. On the physical diodes used in ELEC 1100, the cathode is marked by a stripe (often black) on the package, so "black strip is negative"; the small-signal diode is a thinner body, while the Zener diode used for regulation is a slightly fatter package but still uses the stripe to mark the cathode.
 
 Biasing refers to how an external voltage source is connected to the diode. In this course, we adopt the conventional current direction from the anode (+) to the cathode (−) when the diode is forward biased. When the diode is reverse biased, we model it as an open circuit (no current).
 
@@ -49,7 +49,7 @@ Flashcards for this section are as follows:
 - ideal diode model ::@:: In the ideal model the diode is a short circuit when forward biased and an open circuit when reverse biased. <!--SR:!2026-06-12,67,310!2026-05-30,56,310-->
 - constant-voltage diode model: In the constant-voltage model, what approximate forward drop do we assume for a silicon diode (about $0.7\text{ V}$)? ::@:: We use a constant forward drop of about $0.7\text{ V}$ for a conducting silicon diode. <!--SR:!2026-06-04,60,310!2026-06-12,67,310-->
 - diode region assumption method: Step 1 and 2 (assume state + equivalent; ON uses $0.7\text{ V}$ drop): what do you do? ::@:: Assume the diode is ON or OFF, then replace it with the corresponding equivalent circuit (ON: short/short + $0.7\text{ V}$ drop; OFF: open circuit). <!--SR:!2026-06-10,65,310!2026-06-05,61,310-->
-- diode region assumption method: Step 3 and 4 (solve + check $V_D$, $I_D$): what do you do? ::@:: Solve for currents/voltages using KVL/Ohm’s law, then check that the resulting $V_D$ and $I_D$ are consistent with the assumed ON/OFF region; if inconsistent, flip the assumption and re-solve. <!--SR:!2026-06-01,58,310!2026-05-28,54,310-->
+- diode region assumption method: Step 3 and 4 (solve + check $V_D$, $I_D$): what do you do? ::@:: Solve for currents/voltages using KVL/Ohm's law, then check that the resulting $V_D$ and $I_D$ are consistent with the assumed ON/OFF region; if inconsistent, flip the assumption and re-solve. <!--SR:!2026-06-01,58,310!2026-05-28,54,310-->
 
 ## simple diode circuit analysis and safety
 

@@ -26,7 +26,7 @@ A {@{simple ion}@} is an {@{ion formed from only one atom}@}, while a {@{polyato
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from dataclasses import dataclass
 from itertools import chain
 from pytextgen.compat import gen, read, util
@@ -161,17 +161,17 @@ class Section:
     )
 
   async def memorize(self, locations: tuple[util.Location, util.Location, util.Location, util.Location, util.Location]):
-    states, colorR, colorL = await gather(
-      read_states(locations[1:3]),
-      memorize_map(
+    async with create_task_group() as tg:
+      states = tg.soonify(read_states)(locations[1:3])
+      colorR = tg.soonify(memorize_map)(
         (util.NULL_LOCATION, locations[3], util.NULL_LOCATION,),
         {ion.name: ion.color for ion in self.data if ion.color},
-      ),
-      memorize_map(
+      )
+      colorL = tg.soonify(memorize_map)(
         (util.NULL_LOCATION, util.NULL_LOCATION, locations[4],),
         {ion.name: ion.color for ion in self.data if ion.color not in self.EXCLUDE_COLORS},
-      ),
-    )
+      )
+    states, colorR, colorL = states.value, colorR.value, colorL.value
     return (
       util.Result(
         location=locations[0],
@@ -196,8 +196,9 @@ class Section:
     )
 cation_sect = Section.from_rows(cations)
 anion_sect = Section.from_rows(anions)
-return chain.from_iterable(await gather(
-  cation_sect.memorize(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(cation_sect.memorize)(
     (
       __env__.cwf_sect('d9192d'),
       __env__.cwf_sect('3928fd'),
@@ -205,8 +206,8 @@ return chain.from_iterable(await gather(
       __env__.cwf_sect('a5defa'),
       __env__.cwf_sect('394a'),
     ),
-  ),
-  anion_sect.memorize(
+  ))
+  results.append(tg.soonify(anion_sect.memorize)(
     (
       __env__.cwf_sect('a9fdfe'),
       __env__.cwf_sect('2fde12'),
@@ -214,8 +215,8 @@ return chain.from_iterable(await gather(
       __env__.cwf_sect('104852'),
       __env__.cwf_sect('50ad'),
     ),
-  ),
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 ### cation

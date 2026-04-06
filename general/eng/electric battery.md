@@ -28,7 +28,7 @@ A __battery__ is {@{a source of [electricity](electricity.md) composed of one or
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = 'chemistry', '[anode](anode.md) (-)', '[cathode](cathode.md) (+)', '[electrolyte](electrolyte.md)', 'nominal and max [voltage](voltage.md)', 'properties', 'elaboration',
 primary_batteries = (
@@ -41,64 +41,65 @@ secondary_batteries = (
   ('[lead–acid](lead–acid%20battery.md)', '[Pb](lead.md)', '[PbO<sub>2</sub>](lead%20dioxide.md)', '[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md)', '(unavailable), 2.1 V; 6 cells: 12 V', ", ".join(('cheap [electricity](electricity.md)', 'expensive', 'heavy', 'high [current](electric%20current.md)', 'high discharge rate', '[lead](lead.md) [toxicity](toxicity.md)', 'rechargeable <350 times',)), 'Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md).',),
   ('[lithium-ion](lithium-ion%20battery.md)', '[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md))', '[Li](lithium.md) metal [oxide](oxide.md)', '[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md)', '(unavailable), 3.7 V', ", ".join(('aging', 'very expensive', 'high discharge rate', 'high energy density', 'lightweight', 'protection circuitry needed for safety', 'rechargeable up to 400–1200 times', 'susceptibe to [thermal runaway](thermal%20runaway.md) and [explosion](explosion.md)',)), 'Usually cylindrical or prismatic. Suitable for portable devices.',),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects('d923', 'aa92',),
     headers, primary_batteries,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '98ab', None,),
     items_to_map(*((row[0], row[1]) for row in primary_batteries)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '27ee', None,),
     items_to_map(*((row[0], row[2]) for row in primary_batteries)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '9583', None,),
     items_to_map(*((row[0], row[3]) for row in primary_batteries)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '8104', None,),
     items_to_map(*((row[0], row[4]) for row in primary_batteries)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, 'bba9', '209f',),
     items_to_map(*((row[0], row[5]) for row in primary_batteries)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '983e', None,),
     items_to_map(*((row[0], row[6]) for row in primary_batteries)),
-  ),
-  memorize_table(
+  ))
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects('4214', '6661',),
     headers, secondary_batteries,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '7801', None,),
     items_to_map(*((row[0], row[1]) for row in secondary_batteries)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '38ab', None,),
     items_to_map(*((row[0], row[2]) for row in secondary_batteries)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '863b', None,),
     items_to_map(*((row[0], row[3]) for row in secondary_batteries)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '018e', None,),
     items_to_map(*((row[0], row[4]) for row in secondary_batteries)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '46ff', '99ab',),
     items_to_map(*((row[0], row[5]) for row in secondary_batteries)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '8c52', None,),
     items_to_map(*((row[0], row[6]) for row in secondary_batteries)),
-  ),
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 #### primary batteries

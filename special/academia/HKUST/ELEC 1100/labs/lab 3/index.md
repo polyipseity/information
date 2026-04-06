@@ -8,7 +8,7 @@ tags:
   - language/in/English
 ---
 
-<!-- check: ignore-file[index_heading_rule,index_children_rule]: assignment-style index for lab 3 -->
+<!-- check: ignore-file[index_heading,index_children]: assignment-style index for lab 3 -->
 
 # lab 3
 

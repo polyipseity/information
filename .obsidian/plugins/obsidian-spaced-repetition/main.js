@@ -3891,7 +3891,7 @@ var require_moment = __commonJS({
         if (!this.isValid()) {
           return this.localeData().invalidDate();
         }
-        var withSuffix = false, th = thresholds, locale3, output;
+        var withSuffix = false, th2 = thresholds, locale3, output;
         if (typeof argWithSuffix === "object") {
           argThresholds = argWithSuffix;
           argWithSuffix = false;
@@ -3900,13 +3900,13 @@ var require_moment = __commonJS({
           withSuffix = argWithSuffix;
         }
         if (typeof argThresholds === "object") {
-          th = Object.assign({}, thresholds, argThresholds);
+          th2 = Object.assign({}, thresholds, argThresholds);
           if (argThresholds.s != null && argThresholds.ss == null) {
-            th.ss = argThresholds.s - 1;
+            th2.ss = argThresholds.s - 1;
           }
         }
         locale3 = this.localeData();
-        output = relativeTime$1(this, !withSuffix, th, locale3);
+        output = relativeTime$1(this, !withSuffix, th2, locale3);
         if (withSuffix) {
           output = locale3.pastFuture(+this, output);
         }
@@ -4877,710 +4877,8 @@ var DEBUG_MODE_ENABLED = false;
 // src/lang/helpers.ts
 var import_obsidian = require("obsidian");
 
-// src/lang/locale/af.ts
-var af_default = {};
-
-// src/lang/locale/ar.ts
-var ar_default = {
-  // flashcard-modal.tsx
-  DECKS: "\u0627\u0644\u0631\u064F\u0632\u0645\u064E\u0627\u062A",
-  DUE_CARDS: "\u0628\u0637\u0627\u0642\u0627\u062A \u0645\u064F\u0633\u062A\u062D\u0642\u0629",
-  NEW_CARDS: "\u0628\u0637\u0627\u0642\u0627\u062A \u062C\u062F\u064A\u062F\u0629",
-  TOTAL_CARDS: "\u0625\u062C\u0645\u0627\u0644\u064A \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
-  BACK: "\u0631\u062C\u0648\u0639",
-  SKIP: "Skip",
-  EDIT_CARD: "\u062A\u0639\u062F\u064A\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0629",
-  RESET_CARD_PROGRESS: "\u0625\u0639\u0627\u062F\u0629 \u062A\u0639\u064A\u064A\u0646 \u062A\u0642\u062F\u0651\u064F\u0645\u0652 \u0627\u0644\u0628\u0637\u0627\u0642\u0629",
-  HARD: "\u0635\u0639\u0628",
-  GOOD: "\u062C\u064A\u062F",
-  EASY: "\u0633\u0647\u0644",
-  SHOW_ANSWER: "\u0623\u0638\u0647\u0650\u0631 \u0627\u0644\u0625\u062C\u0627\u0628\u0629",
-  CARD_PROGRESS_RESET: ".\u062A\u0645\u0651\u064E\u062A \u0625\u0639\u0627\u062F\u0629 \u062A\u0639\u064A\u064A\u0646 \u062A\u0642\u062F\u0651\u064F\u0645 \u0627\u0644\u0628\u0637\u0627\u0642\u0629",
-  SAVE: "\u062D\u0641\u0638",
-  CANCEL: "\u0625\u0644\u063A\u0627\u0621",
-  NO_INPUT: ".\u0644\u0645 \u064A\u062A\u0650\u0645 \u062A\u0642\u062F\u064A\u0645 \u0623\u064A \u0645\u064F\u062F\u062E\u0644\u0627\u062A",
-  CURRENT_EASE_HELP_TEXT: ":\u0627\u0644\u0633\u0647\u0648\u0644\u0629 \u0627\u0644\u062D\u0627\u0644\u064A\u0629",
-  CURRENT_INTERVAL_HELP_TEXT: ":\u0627\u0644\u0641\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A \u0627\u0644\u062D\u0627\u0644\u064A",
-  CARD_GENERATED_FROM: "${notePath} :\u062A\u0645 \u0625\u0646\u0634\u0627\u0624\u0647\u0627 \u0645\u0646",
-  VIEW_CARD_INFO: "View Card Info",
-  // main.ts
-  OPEN_NOTE_FOR_REVIEW: "\u0627\u0641\u062A\u062D \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629 \u0644\u0644\u0645\u0631\u0627\u062C\u0639\u0629",
-  REVIEW_CARDS: "\u0645\u0631\u0627\u062C\u0639\u0629 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
-  REVIEW_DIFFICULTY_FILE_MENU: "${difficulty} :\u0645\u0631\u0627\u062C\u0639\u0629",
-  REVIEW_NOTE_DIFFICULTY_CMD: "${difficulty} \u0645\u0631\u0627\u062C\u0639\u0629 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629 \u0643\u0640",
-  CRAM_ALL_CARDS: "\u062D\u062F\u062F \u0631\u064F\u0632\u0645\u064E\u0629 \u0644\u0644\u062D\u0634\u0631",
-  REVIEW_ALL_CARDS: "\u0645\u0631\u0627\u062C\u0639\u0629 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0645\u0646 \u062C\u0645\u064A\u0639 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0627\u062A",
-  REVIEW_CARDS_IN_NOTE: "\u0645\u0631\u0627\u062C\u0639\u0629 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A  \u0645\u0646 \u0647\u0630\u0647 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629",
-  CRAM_CARDS_IN_NOTE: "\u0623\u062D\u0634\u0631 \u062C\u0645\u064A\u0639 \u0628\u0637\u0627\u0642\u0627\u062A \u0647\u0630\u0647 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629",
-  VIEW_STATS: "\u0639\u0631\u0636 \u0627\u0644\u0625\u062D\u0635\u0627\u0626\u064A\u0627\u062A",
-  OPEN_REVIEW_QUEUE_VIEW: "Open Notes Review Queue in sidebar",
-  STATUS_BAR: "\u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0645\u0633\u062A\u062D\u0642\u0629 ${dueFlashcardsCount},\u0645\u0644\u0627\u062D\u0638\u0627\u062A ${dueNotesCount}:\u0645\u0631\u0627\u062C\u0639\u0629",
-  SYNC_TIME_TAKEN: "${t}ms \u0627\u0633\u062A\u063A\u0631\u0627\u0642 \u0627\u0644\u0645\u0632\u0627\u0645\u0646\u0629",
-  NOTE_IN_IGNORED_FOLDER: ".\u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629 \u064A\u062A\u0645 \u062D\u0641\u0638\u0647\u0627 \u0636\u0645\u0646 \u0627\u0644\u0645\u062C\u0644\u062F \u0627\u0644\u0630\u064A \u062A\u0645 \u062A\u062C\u0627\u0647\u0644\u0647 (\u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A)",
-  PLEASE_TAG_NOTE: ".\u064A\u0631\u062C\u0649 \u0648\u0636\u0639 \u0648\u0633\u0645 \u0639\u0644\u0649 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629 \u0628\u0634\u0643\u0644 \u0645\u0646\u0627\u0633\u0628 \u0644\u0644\u0645\u0631\u0627\u062C\u0639\u0629 (\u0641\u064A \u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A)",
-  RESPONSE_RECEIVED: ".\u0627\u0633\u062A\u064F\u0644\u0645\u062A \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629",
-  NO_DECK_EXISTS: "${deckName} \u0644\u0627 \u064A\u0648\u062C\u062F \u0631\u064F\u0632\u0645\u064E\u0629",
-  ALL_CAUGHT_UP: "\u{1F606} \u0644\u0642\u062F \u062A\u0645 \u0627\u0644\u0642\u0628\u0636 \u0639\u0644\u064A\u0643\u0645 \u062C\u0645\u064A\u0639\u0627 \u0627\u0644\u0622\u0646",
-  // scheduling.ts
-  DAYS_STR_IVL: "\u064A\u0648\u0645/\u0623\u064A\u0627\u0645 ${interval}",
-  MONTHS_STR_IVL: "\u0634\u0647\u0631/\u0623\u0634\u0647\u0631 ${interval}",
-  YEARS_STR_IVL: "\u0633\u0646\u0629/\u0633\u0646\u0648\u0627\u062A ${interval}",
-  DAYS_STR_IVL_MOBILE: "\u064A${interval}",
-  MONTHS_STR_IVL_MOBILE: "\u0634${interval}",
-  YEARS_STR_IVL_MOBILE: "\u0633${interval}",
-  // settings.ts
-  SETTINGS_HEADER: "Spaced Repetition",
-  GROUP_TAGS_FOLDERS: "Tags & Folders",
-  GROUP_FLASHCARD_REVIEW: "Flashcard Review",
-  GROUP_FLASHCARD_SEPARATORS: "Flashcard Separators",
-  GROUP_DATA_STORAGE: "Storage of Scheduling Data",
-  GROUP_DATA_STORAGE_DESC: "Choose where to store the scheduling data",
-  GROUP_FLASHCARDS_NOTES: "Flashcards & Notes",
-  GROUP_CONTRIBUTING: "Contributing",
-  CHECK_WIKI: '.<a href="${wikiUrl}">wiki</a> \u0644\u0645\u0632\u064A\u062F \u0645\u0646 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u060C \u062A\u062D\u0642\u0642 \u0645\u0646',
-  GITHUB_DISCUSSIONS: 'Visit the <a href="${discussionsUrl}">discussions</a> section for Q&A help, feedback, and general discussion.',
-  GITHUB_ISSUES: 'Raise an issue <a href="${issuesUrl}">here</a> if you have a feature request or a bug report.',
-  GITHUB_SOURCE_CODE: 'The project\'s source code is available on <a href="${githubProjectUrl}">GitHub</a>.',
-  CODE_CONTRIBUTION_INFO: '<a href="${codeContributionUrl}">Here\'s</a> how to contribute code to the plugin.',
-  TRANSLATION_CONTRIBUTION_INFO: '<a href="${translationContributionUrl}">Here\'s</a> how to translate the plugin to another language.',
-  FOLDERS_TO_IGNORE: "\u0645\u062C\u0644\u062F\u0627\u062A \u0644\u062A\u062C\u0627\u0647\u0644\u0647\u0627",
-  FOLDERS_TO_IGNORE_DESC: "Enter folder paths or glob patterns on separate lines e.g. Templates/Scripts or **/*.excalidraw.md. This setting is common to both flashcards and notes.",
-  OBSIDIAN_INTEGRATION: "Integration into Obsidian",
-  FLASHCARDS: "\u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
-  FLASHCARD_EASY_LABEL: "\u0646\u0635 \u0627\u0644\u0632\u0631 \u0633\u0647\u0644",
-  FLASHCARD_GOOD_LABEL: "\u0646\u0635 \u0627\u0644\u0632\u0631 \u062C\u064A\u062F",
-  FLASHCARD_HARD_LABEL: "\u0646\u0635 \u0627\u0644\u0632\u0631 \u0635\u0639\u0628",
-  FLASHCARD_EASY_DESC: '"\u062A\u062E\u0635\u064A\u0635 \u0627\u0644\u062A\u0633\u0645\u064A\u0629 \u0644\u0644\u0632\u0631 "\u0633\u0647\u0644',
-  FLASHCARD_GOOD_DESC: '"\u062A\u062E\u0635\u064A\u0635 \u0627\u0644\u062A\u0633\u0645\u064A\u0629 \u0644\u0644\u0632\u0631 "\u062C\u064A\u062F',
-  FLASHCARD_HARD_DESC: '"\u062A\u062E\u0635\u064A\u0635 \u0627\u0644\u062A\u0633\u0645\u064A\u0629 \u0644\u0644\u0632\u0631 "\u0635\u0639\u0628',
-  REVIEW_BUTTON_DELAY: "Button Press Delay (ms)",
-  REVIEW_BUTTON_DELAY_DESC: "Add a delay to the review buttons before they can be pressed again.",
-  FLASHCARD_TAGS: "\u0648\u064F\u0633\u0648\u0645 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
-  FLASHCARD_TAGS_DESC: "#2\u0623\u062F\u062E\u0644 \u0627\u0644\u0648\u064F\u0633\u0648\u0645 \u0645\u0641\u0635\u0648\u0644\u0629 \u0628\u0645\u0633\u0627\u0641\u0627\u062A \u0623\u0648 \u0623\u0633\u0637\u0631 \u062C\u062F\u064A\u062F\u0629 \u060C \u0623\u064A \u0628\u0637\u0627\u0642\u0627\u062A# \u0631\u0632\u0645\u06293# \u0631\u0632\u0645\u0629",
-  CONVERT_FOLDERS_TO_DECKS: "\u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u0645\u062C\u0644\u062F\u0627\u062A \u0625\u0644\u0649 \u0645\u0644\u0641\u0627\u062A \u0623\u0635\u0644\u064A\u0629 \u0648 \u0645\u0644\u0641\u0627\u062A \u0627\u0644\u0641\u0631\u0639\u064A\u0629\u061F",
-  CONVERT_FOLDERS_TO_DECKS_DESC: ".\u0647\u0630\u0627 \u0647\u0648 \u0628\u062F\u064A\u0644 \u0644\u062E\u064A\u0627\u0631 \u0648\u0633\u0648\u0645 \u0627\u0644\u0628\u0637\u0627\u0642\u0629 \u0623\u0639\u0644\u0627\u0647",
-  INLINE_SCHEDULING_COMMENTS: "\u062D\u0641\u0638 \u062A\u0639\u0644\u064A\u0642 \u0627\u0644\u062C\u062F\u0648\u0644\u0629 \u0639\u0644\u0649 \u0646\u0641\u0633 \u0627\u0644\u0633\u0637\u0631 \u0645\u062B\u0644 \u0627\u0644\u0633\u0637\u0631 \u0627\u0644\u0623\u062E\u064A\u0631 \u0644\u0644\u0628\u0637\u0627\u0642\u0629 \u061F",
-  INLINE_SCHEDULING_COMMENTS_DESC: "\u0644\u0627 \u062A\u0643\u0633\u0631 \u062A\u0646\u0633\u064A\u0642 \u0627\u0644\u0642\u0627\u0626\u0645\u0629 HTML \u0633\u064A\u0624\u062F\u064A \u062A\u0634\u063A\u064A\u0644 \u0647\u0630\u0627 \u0625\u0644\u0649 \u062C\u0639\u0644 \u062A\u0639\u0644\u064A\u0642\u0627\u062A",
-  BURY_SIBLINGS_TILL_NEXT_DAY: "\u0623\u062E\u0641\u064A \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0634\u0642\u064A\u0642\u0629 \u062D\u062A\u0649 \u0627\u0644\u064A\u0648\u0645 \u0627\u0644\u062A\u0627\u0644\u064A",
-  BURY_SIBLINGS_TILL_NEXT_DAY_DESC: "cloze deletions : \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0634\u0642\u064A\u0642\u0629 \u0647\u064A \u0628\u0637\u0627\u0642\u0627\u062A \u062A\u0645 \u0625\u0646\u0634\u0627\u0624\u0647\u0627 \u0645\u0646 \u0646\u0641\u0633 \u0646\u0635 \u0627\u0644\u0628\u0637\u0627\u0642\u0629 \u0643\u0640",
-  SHOW_CARD_CONTEXT: "\u0625\u0638\u0647\u0627\u0631 \u0627\u0644\u0633\u064A\u0627\u0642 \u0641\u064A \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A\u061F",
-  SHOW_CARD_CONTEXT_DESC: "i.e. Title > Heading 1 > Subheading > ... > Subheading",
-  SHOW_INTERVAL_IN_REVIEW_BUTTONS: "Show next review time in the review buttons",
-  SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC: "Useful to know how far in the future your cards are being pushed.",
-  CARD_MODAL_HEIGHT_PERCENT: "\u0646\u0633\u0628\u0629 \u0627\u0631\u062A\u0641\u0627\u0639 \u0627\u0644\u0628\u0637\u0627\u0642\u0629",
-  CARD_MODAL_SIZE_PERCENT_DESC: "\u064A\u062C\u0628 \u0636\u0628\u0637\u0647\u0627 \u0639\u0644\u0649 100 \u066A \u0639\u0644\u0649 \u0627\u0644\u0647\u0627\u062A\u0641 \u0627\u0644\u0645\u062D\u0645\u0648\u0644 \u0623\u0648 \u0625\u0630\u0627 \u0643\u0627\u0646 \u0644\u062F\u064A\u0643 \u0635\u0648\u0631 \u0643\u0628\u064A\u0631\u0629 \u062C\u062F\u064B\u0627",
-  RESET_DEFAULT: "\u0625\u0639\u0627\u062F\u0629 \u062A\u0639\u064A\u064A\u0646 \u0625\u0644\u0649 \u0627\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A",
-  CARD_MODAL_WIDTH_PERCENT: "\u0646\u0633\u0628\u0629 \u0639\u0631\u0636 \u0627\u0644\u0628\u0637\u0627\u0642\u0629",
-  RANDOMIZE_CARD_ORDER: "\u062A\u0631\u062A\u064A\u0628 \u0628\u0637\u0627\u0642\u0629 \u0639\u0634\u0648\u0627\u0626\u064A \u0623\u062B\u0646\u0627\u0621 \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0629\u061F",
-  REVIEW_CARD_ORDER_WITHIN_DECK: "Order cards in a deck are displayed during review",
-  REVIEW_CARD_ORDER_NEW_FIRST_SEQUENTIAL: "Sequentially within a deck (All new cards first)",
-  REVIEW_CARD_ORDER_DUE_FIRST_SEQUENTIAL: "Sequentially within a deck (All due cards first)",
-  REVIEW_CARD_ORDER_NEW_FIRST_RANDOM: "Randomly within a deck (All new cards first)",
-  REVIEW_CARD_ORDER_DUE_FIRST_RANDOM: "Randomly within a deck (All due cards first)",
-  REVIEW_CARD_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
-  REVIEW_DECK_ORDER: "Order decks are displayed during review",
-  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_SEQUENTIAL: "Sequentially (once all cards in previous deck reviewed)",
-  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Randomly (once all cards in previous deck reviewed)",
-  REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
-  DISABLE_CLOZE_CARDS: "\u061Fcloze \u062A\u0639\u0637\u064A\u0644 \u0628\u0637\u0627\u0642\u0627\u062A",
-  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
-  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
-  CONVERT_HIGHLIGHTS_TO_CLOZES: "Convert ==highlights== to clozes",
-  CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'Add/remove the <code>${defaultPattern}</code> from your "Cloze Patterns"',
-  CONVERT_BOLD_TEXT_TO_CLOZES: "Convert **bolded text** to clozes",
-  CONVERT_BOLD_TEXT_TO_CLOZES_DESC: 'Add/remove the <code>${defaultPattern}</code> from your "Cloze Patterns"',
-  CONVERT_CURLY_BRACKETS_TO_CLOZES: "Convert {{curly brackets}} to clozes",
-  CONVERT_CURLY_BRACKETS_TO_CLOZES_DESC: 'Add/remove the <code>${defaultPattern}</code> from your "Cloze Patterns"',
-  CLOZE_PATTERNS: "Cloze Patterns",
-  CLOZE_PATTERNS_DESC: 'Enter cloze patterns separated by newlines. Check the <a href="${docsUrl}">wiki</a> for guidance.',
-  INLINE_CARDS_SEPARATOR: "\u0641\u0627\u0635\u0644 \u0645\u0646 \u0623\u062C\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0645\u0636\u0645\u0646\u0629",
-  FIX_SEPARATORS_MANUALLY_WARNING: "\u0636\u0639 \u0641\u064A \u062D\u0633\u0627\u0628\u0643 \u0623\u0646\u0647 \u0628\u0639\u062F \u062A\u063A\u064A\u064A\u0631 \u0647\u0630\u0627 \u060C \u064A\u062C\u0628 \u0639\u0644\u064A\u0643 \u062A\u0639\u062F\u064A\u0644 \u0623\u064A \u0628\u0637\u0627\u0642\u0627\u062A \u0644\u062F\u064A\u0643 \u0628\u0627\u0644\u0641\u0639\u0644 \u064A\u062F\u0648\u064A\u064B\u0627",
-  INLINE_REVERSED_CARDS_SEPARATOR: "\u0641\u0627\u0635\u0644 \u0645\u0646 \u0623\u062C\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0639\u0643\u0633\u064A\u0629 \u0627\u0644\u0645\u0636\u0645\u0646\u0629",
-  MULTILINE_CARDS_SEPARATOR: "\u0641\u0627\u0635\u0644 \u0645\u0646 \u0623\u062C\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629",
-  MULTILINE_REVERSED_CARDS_SEPARATOR: "\u0641\u0627\u0635\u0644 \u0645\u0646 \u0623\u062C\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0639\u0643\u0633\u064A\u0629 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629",
-  MULTILINE_CARDS_END_MARKER: "\u0627\u0644\u0623\u062D\u0631\u0641 \u0627\u0644\u062A\u064A \u062A\u062F\u0644 \u0639\u0644\u0649 \u0646\u0647\u0627\u064A\u0629 \u0627\u0644\u0643\u0644\u0648\u0632\u0627\u062A \u0648\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u062A\u0639\u0644\u0645 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629 \u0627\u0644\u0623\u0633\u0637\u0631",
-  NOTES: "\u0645\u0644\u0627\u062D\u0638\u0627\u062A",
-  NOTE: "Note",
-  REVIEW_PANE_ON_STARTUP: "\u062A\u0645\u0643\u064A\u0646 \u062C\u0632\u0621 \u0645\u0631\u0627\u062C\u0639\u0629 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0627\u062A \u0639\u0646\u062F \u0628\u062F\u0621 \u0627\u0644\u062A\u0634\u063A\u064A\u0644",
-  TAGS_TO_REVIEW: "\u0648\u0633\u0648\u0645 \u0644\u0644\u0645\u0631\u0627\u062C\u0639\u0629",
-  TAGS_TO_REVIEW_DESC: "#\u0623\u062F\u062E\u0644 \u0627\u0644\u0648\u0633\u0648\u0645 \u0645\u0641\u0635\u0648\u0644\u0629 \u0628\u0645\u0633\u0627\u0641\u0627\u062A \u0623\u0648 \u062E\u0637\u0648\u0637 \u062C\u062F\u064A\u062F\u0629 \u060C \u0623\u064A : \u0645\u0631\u0627\u062C\u0639\u0629# \u0648\u0633\u06452# \u0648\u0633\u06453",
-  OPEN_RANDOM_NOTE: "\u0627\u0641\u062A\u062D \u0645\u0644\u0627\u062D\u0638\u0629 \u0639\u0634\u0648\u0627\u0626\u064A\u0629 \u0644\u0644\u0645\u0631\u0627\u062C\u0639\u0629",
-  OPEN_RANDOM_NOTE_DESC: "(Pagerank) \u0639\u0646\u062F \u062A\u0639\u0637\u064A\u0644 \u0647\u0630\u0627 \u0627\u0644\u062E\u064A\u0627\u0631 \u060C\u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0627\u062A \u0633\u064A\u062A\u0645 \u062A\u0631\u062A\u064A\u0628\u064F\u0647\u0627 \u062D\u0633\u0628 \u0627\u0644\u0623\u0647\u0645\u064A\u0629",
-  AUTO_NEXT_NOTE: "\u0627\u0641\u062A\u062D \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629 \u0627\u0644\u062A\u0627\u0644\u064A\u0629 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627 \u0628\u0639\u062F \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0629",
-  ENABLE_FILE_MENU_REVIEW_OPTIONS: "\u0641\u0639\u0651\u0644 \u062E\u064A\u0627\u0631\u0627\u062A \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0629 \u0641\u064A \u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0645\u0644\u0641 (\u0645\u062B\u0627\u0644: \u0645\u0631\u0627\u062C\u0639\u0629: \u0633\u0647\u0644\u060C \u062C\u064A\u062F\u060C \u0635\u0639\u0628)",
-  ENABLE_FILE_MENU_REVIEW_OPTIONS_DESC: "\u0625\u0630\u0627 \u0642\u0645\u062A \u0628\u062A\u0639\u0637\u064A\u0644 \u062E\u064A\u0627\u0631\u0627\u062A \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0629 \u0641\u064A \u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0645\u0644\u0641\u060C \u064A\u0645\u0643\u0646\u0643 \u0645\u0631\u0627\u062C\u0639\u0629 \u0645\u0644\u0627\u062D\u0638\u0627\u062A\u0643 \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0623\u0648\u0627\u0645\u0631 \u0627\u0644\u0625\u0636\u0627\u0641\u0629 \u0648\u0625\u0630\u0627 \u0643\u0646\u062A \u0642\u062F \u062D\u062F\u062F\u062A\u0647\u0627\u060C \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u0627\u062E\u062A\u0635\u0627\u0631 \u0627\u0644\u0645\u0631\u062A\u0628\u0637\u0629.",
-  MAX_N_DAYS_REVIEW_QUEUE: "\u0627\u0644\u062D\u062F \u0627\u0644\u0623\u0642\u0635\u0649 \u0644\u0639\u062F\u062F \u0627\u0644\u0623\u064A\u0627\u0645 \u0627\u0644\u062A\u064A \u064A\u062C\u0628 \u0639\u0631\u0636\u0647\u0627 \u0639\u0644\u0649 \u0627\u0644\u0644\u0648\u062D\u0629 \u0627\u0644\u064A\u0645\u0646\u0649",
-  MIN_ONE_DAY: "\u064A\u062C\u0628 \u0623\u0646 \u064A\u0643\u0648\u0646 \u0639\u062F\u062F \u0627\u0644\u0623\u064A\u0627\u0645 1 \u0639\u0644\u0649 \u0627\u0644\u0623\u0642\u0644",
-  VALID_NUMBER_WARNING: "\u064A\u0631\u062C\u0649 \u062A\u0642\u062F\u064A\u0645 \u0631\u0642\u0645 \u0635\u0627\u0644\u062D",
-  UI: "User Interface",
-  OPEN_IN_TAB: "Open in new tab",
-  OPEN_IN_TAB_DESC: "Turn this off to open the plugin in a modal window",
-  SHOW_STATUS_BAR: "Show status bar",
-  SHOW_STATUS_BAR_DESC: "Turn this off to hide the flashcard's review status in Obsidian's status bar",
-  SHOW_RIBBON_ICON: "Show icon in the ribbon bar",
-  SHOW_RIBBON_ICON_DESC: "Turn this off to hide the plugin icon from Obsidian's ribbon bar",
-  INITIALLY_EXPAND_SUBDECKS_IN_TREE: "\u064A\u062C\u0628 \u0623\u0646 \u064A\u0643\u0648\u0646 \u0627\u0644\u0639\u0631\u0636 \u0627\u0644\u0634\u062C\u0631\u064A \u0644\u0644\u0631\u064F\u0632\u0645 \u0645\u0648\u0633\u0639 \u0628\u062D\u064A\u062B \u062A\u0637\u0647\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062A \u0627\u0644\u0641\u0631\u0639\u064A\u0629 \u0643\u0644\u0647\u0627",
-  INITIALLY_EXPAND_SUBDECKS_IN_TREE_DESC: " \u0639\u0637\u0644 \u0647\u0630\u0627 \u0627\u0644\u062E\u064A\u0627\u0631 \u0644\u0637\u064A \u0627\u0644\u0631\u064F\u0632\u0645 \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629 \u0641\u064A \u0646\u0641\u0633 \u0627\u0644\u0628\u0637\u0627\u0642\u0629 , \u0645\u0641\u064A\u062F \u0625\u0630\u0627 \u0643\u0627\u0646 \u0644\u062F\u064A\u0643 \u0628\u0637\u0627\u0642\u0627\u062A \u062A\u0646\u062A\u0645\u064A \u0625\u0644\u0649 \u0627\u0644\u0639\u062F\u064A\u062F \u0645\u0646 \u0627\u0644\u0631\u064F\u0632\u0645 \u0641\u064A \u0646\u0641\u0633 \u0627\u0644\u0645\u0644\u0641",
-  ALGORITHM: "\u062E\u0648\u0627\u0631\u0632\u0645\u064A\u0629",
-  CHECK_ALGORITHM_WIKI: '<a href="${algoUrl}">algorithm details</a> :\u0644\u0645\u0632\u064A\u062F \u0645\u0646 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u062A\u062D\u0642\u0642 \u0645\u0646',
-  SM2_OSR_VARIANT: "OSR's variant of SM-2",
-  BASE_EASE: "\u0633\u0647\u0648\u0644\u0629 \u0627\u0644\u0642\u0627\u0639\u062F\u0629",
-  BASE_EASE_DESC: "\u0627\u0644\u062D\u062F \u0627\u0644\u0623\u062F\u0646\u0649 = 130 \u060C \u0648\u064A\u0641\u0636\u0644 \u062D\u0648\u0627\u0644\u064A 250.",
-  BASE_EASE_MIN_WARNING: "\u064A\u062C\u0628 \u0623\u0646 \u062A\u0643\u0648\u0646 \u0633\u0647\u0648\u0644\u0629 \u0627\u0644\u0642\u0627\u0639\u062F\u0629 130 \u0639\u0644\u0649 \u0627\u0644\u0623\u0642\u0644.",
-  LAPSE_INTERVAL_CHANGE: "\u0627\u0644\u0641\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A \u064A\u062A\u063A\u064A\u0631 \u0639\u0646\u062F \u0645\u0631\u0627\u062C\u0639\u0629 \u0628\u0637\u0627\u0642\u0629/\u0645\u0644\u0627\u062D\u0638\u0629 \u0635\u0639\u0628\u0629",
-  LAPSE_INTERVAL_CHANGE_DESC: "newInterval = oldInterval * intervalChange / 100.",
-  EASY_BONUS: "\u0645\u0643\u0627\u0641\u0623\u0629 \u0633\u0647\u0644\u0629",
-  EASY_BONUS_DESC: "\u062A\u062A\u064A\u062D \u0644\u0643 \u0627\u0644\u0645\u0643\u0627\u0641\u0623\u0629 \u0627\u0644\u0633\u0647\u0644\u0629 \u0636\u0628\u0637 \u0627\u0644\u0641\u0631\u0642 \u0641\u064A \u0627\u0644\u0641\u0648\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A\u0629 \u0628\u064A\u0646 \u0627\u0644\u0631\u062F \u0627\u0644\u062C\u064A\u062F \u0648\u0627\u0644\u0633\u0647\u0644 \u0639\u0644\u0649 \u0628\u0637\u0627\u0642\u0629/\u0645\u0644\u0627\u062D\u0638\u0629 (\u0627\u0644\u062D\u062F \u0627\u0644\u0623\u062F\u0646\u0649 = 100 \u066A).",
-  EASY_BONUS_MIN_WARNING: "\u064A\u062C\u0628 \u0623\u0646 \u062A\u0643\u0648\u0646 \u0627\u0644\u0645\u0643\u0627\u0641\u0623\u0629 \u0627\u0644\u0633\u0647\u0644\u0629 100 \u0639\u0644\u0649 \u0627\u0644\u0623\u0642\u0644.",
-  LOAD_BALANCE: "Enable load balancer",
-  LOAD_BALANCE_DESC: `Slightly tweaks the interval so that the number of reviews per day is more consistent.
-        It's like Anki's fuzz but instead of being random, it picks the day with the least amount of reviews.
-        It's turned off for small intervals.`,
-  MAX_INTERVAL: "Maximum interval in days",
-  MAX_INTERVAL_DESC: "\u064A\u062A\u064A\u062D \u0644\u0643 \u0648\u0636\u0639 \u062D\u062F \u0623\u0639\u0644\u0649  \u0644\u0644\u0641\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A (\u0627\u0641\u062A\u0631\u0627\u0636\u064A = 100 \u0639\u0627\u0645).",
-  MAX_INTERVAL_MIN_WARNING: "\u064A\u062C\u0628 \u0623\u0646 \u064A\u0643\u0648\u0646 \u0627\u0644\u062D\u062F \u0627\u0644\u0623\u0642\u0635\u0649 \u0644\u0644\u0641\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A \u0644\u0645\u062F\u0629 \u064A\u0648\u0645 \u0648\u0627\u062D\u062F \u0639\u0644\u0649 \u0627\u0644\u0623\u0642\u0644.",
-  MAX_LINK_CONTRIB: "\u0623\u0642\u0635\u0649 \u0645\u0633\u0627\u0647\u0645\u0629 \u0627\u0631\u062A\u0628\u0627\u0637",
-  MAX_LINK_CONTRIB_DESC: "\u0623\u0642\u0635\u0649 \u0645\u0633\u0627\u0647\u0645\u0629 \u0644\u0644\u0633\u0647\u0648\u0644\u0629 \u0627\u0644\u0645\u0631\u062C\u062D\u0629 \u0644\u0644\u0645\u0644\u0627\u062D\u0638\u0627\u062A \u0627\u0644\u0645\u0631\u062A\u0628\u0637\u0629 \u0628\u0627\u0644\u0633\u0647\u0648\u0644\u0629 \u0627\u0644\u0623\u0648\u0644\u064A\u0629.",
-  LOGGING: "\u062A\u0633\u062C\u064A\u0644",
-  DISPLAY_SCHEDULING_DEBUG_INFO: "\u0639\u0631\u0636 \u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0627\u0644\u062A\u0635\u062D\u064A\u062D \u0639\u0644\u0649 \u0648\u062D\u062F\u0629 \u062A\u062D\u0643\u0645 \u0627\u0644\u0645\u0637\u0648\u0631",
-  DISPLAY_PARSER_DEBUG_INFO: "Show the parser's debugging information on the developer console",
-  SCHEDULING: "Scheduling",
-  EXPERIMENTAL: "Experimental",
-  HELP: "Help",
-  STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
-  DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
-  CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
-  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
-  // sidebar.ts
-  NOTES_REVIEW_QUEUE: "\u0645\u0644\u0627\u062D\u0638\u0627\u062A \u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0629",
-  CLOSE: "\u0623\u063A\u0644\u0642",
-  NEW: "\u062C\u062F\u064A\u062F",
-  YESTERDAY: "\u0627\u0644\u0628\u0627\u0631\u062D\u0629",
-  TODAY: "\u0627\u0644\u064A\u0648\u0645",
-  TOMORROW: "\u0627\u0644\u063A\u062F",
-  // stats-modal.tsx
-  STATS_TITLE: "\u0625\u062D\u0635\u0627\u0626\u064A\u0627\u062A",
-  MONTH: "\u0634\u0647\u0631",
-  QUARTER: "\u0631\u0628\u0639 \u0627\u0644\u0633\u0646\u0629",
-  YEAR: "\u0633\u0646\u0629",
-  LIFETIME: "",
-  FORECAST: "",
-  FORECAST_DESC: "\u0639\u062F\u062F \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0645\u0633\u062A\u062D\u0642\u0629 \u0641\u064A \u0627\u0644\u0645\u0633\u062A\u0642\u0628\u0644",
-  SCHEDULED: "\u0627\u0644\u0645\u0642\u0631\u0631",
-  DAYS: "\u0623\u064A\u0627\u0645",
-  NUMBER_OF_CARDS: "\u0639\u062F\u062F \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
-  REVIEWS_PER_DAY: "\u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0627\u062A/\u0627\u0644\u064A\u0648\u0645 ${avg} :\u0645\u062A\u0648\u0633\u0637",
-  INTERVALS: "\u0641\u0648\u0627\u0635\u0644 \u0632\u0645\u0646\u064A\u0629",
-  INTERVALS_DESC: "\u0627\u0644\u062A\u0623\u062E\u064A\u0631 \u062D\u062A\u0649 \u064A\u062A\u0645 \u0639\u0631\u0636 \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0627\u062A \u0645\u0631\u0629 \u0623\u062E\u0631\u0649",
-  COUNT: "\u0639\u062F\u062F",
-  INTERVALS_SUMMARY: "${longest} : \u0623\u0637\u0648\u0644 \u0641\u0627\u0635\u0644 \u0632\u0645\u0646\u064A ,${avg} :\u0645\u062A\u0648\u0633\u0637 \u0627\u0644\u0641\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A",
-  EASES: "\u0627\u0644\u0633\u0647\u0648\u0644\u0629",
-  EASES_SUMMARY: "${avgEase} :\u0645\u062A\u0648\u0633\u0637 \u0627\u0644\u0633\u0647\u0648\u0644\u0629",
-  EASE: "Ease",
-  CARD_TYPES: "\u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
-  CARD_TYPES_DESC: "\u0648\u0647\u0630\u0627 \u064A\u0634\u0645\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0645\u062E\u0641\u064A\u0629 \u0643\u0630\u0644\u0643 \u060C \u0625\u0646 \u0648\u062C\u062F\u062A",
-  CARD_TYPE_NEW: "\u062C\u062F\u064A\u062F\u0629",
-  CARD_TYPE_YOUNG: "\u0635\u063A\u064A\u0631\u0629",
-  CARD_TYPE_MATURE: "\u0646\u0627\u0636\u062C\u0629",
-  CARD_TYPES_SUMMARY: " ${totalCardsCount} :\u0625\u062C\u0645\u0627\u0644\u064A \u0639\u062F\u062F \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
-  SEARCH: "Search",
-  PREVIOUS: "Previous",
-  NEXT: "Next",
-  // settings.ts
-  SETTINGS_TAB_HEADING: "Settings",
-  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
-  // NoteReviewQueue.ts
-  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
-  // StatusBarManager.ts
-  OPEN_DECK_FOR_REVIEW: "Open deck for review",
-  UPDATE_AVAILABLE: "Update available",
-  // Statistics
-  PERIOD_TITLE: "Period",
-  PERIOD_DESC: "Period of time to display in the charts",
-  // Card controls reset button
-  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
-  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
-  // Settings > Scheduling
-  START_OF_DAY: "Start of day",
-  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
-};
-
-// src/lang/locale/bn.ts
-var bn_default = {};
-
-// src/lang/locale/cz.ts
-var cz_default = {
-  // flashcard-modal.tsx
-  DECKS: "Bal\xED\u010Dky",
-  DUE_CARDS: "Karti\u010Dky po term\xEDnu",
-  NEW_CARDS: "Nov\xE9 karti\u010Dky",
-  TOTAL_CARDS: "Karti\u010Dek celkem",
-  BACK: "Back",
-  SKIP: "Skip",
-  EDIT_CARD: "Edit Card",
-  RESET_CARD_PROGRESS: "Vynulovat pokrok karti\u010Dky",
-  HARD: "T\u011B\u017Ek\xE9",
-  GOOD: "Dobr\xE9",
-  EASY: "Jednoduch\xE9",
-  SHOW_ANSWER: "Uk\xE1zat odpov\u011B\u010F",
-  CARD_PROGRESS_RESET: "Pokrok karti\u010Dky byl vynulov\xE1n.",
-  SAVE: "Save",
-  CANCEL: "Cancel",
-  NO_INPUT: "No input provided.",
-  CURRENT_EASE_HELP_TEXT: "Current Ease: ",
-  CURRENT_INTERVAL_HELP_TEXT: "Current Interval: ",
-  CARD_GENERATED_FROM: "Generated from: ${notePath}",
-  VIEW_CARD_INFO: "View Card Info",
-  // main.ts
-  OPEN_NOTE_FOR_REVIEW: "Otev\u0159\xEDt pozn\xE1mku k revizi",
-  REVIEW_CARDS: "Pozn\xE1mek k revizi",
-  REVIEW_DIFFICULTY_FILE_MENU: "Revize: ${difficulty}",
-  REVIEW_NOTE_DIFFICULTY_CMD: "Ozna\u010Dit pozn\xE1mku jako ${difficulty}",
-  REVIEW_ALL_CARDS: "Revidovat karti\u010Dky ve v\u0161ech pozn\xE1mk\xE1ch",
-  CRAM_ALL_CARDS: "Select a deck to cram",
-  REVIEW_CARDS_IN_NOTE: "Revidovat karti\u010Dky v t\xE9to pozn\xE1mce.",
-  CRAM_CARDS_IN_NOTE: "Cram karti\u010Dky v t\xE9to pozn\xE1mce.",
-  VIEW_STATS: "Uk\xE1zat statistiky",
-  OPEN_REVIEW_QUEUE_VIEW: "Open Notes Review Queue in sidebar",
-  STATUS_BAR: "Revize: ${dueNotesCount} pozn\xE1mek, ${dueFlashcardsCount} karti\u010Dek po term\xEDnu",
-  SYNC_TIME_TAKEN: "Synchronizace trvala ${t}ms",
-  NOTE_IN_IGNORED_FOLDER: "Pozn\xE1mka je ulo\u017Eena v ignorovan\xE9 slo\u017Ece (zkontrolujte nastaven\xED).",
-  PLEASE_TAG_NOTE: "Pros\xEDm ozna\u010Dne pozn\xE1mku odpov\xEDdaj\xEDc\xEDm tagem pro revizi (v nastaven\xED).",
-  RESPONSE_RECEIVED: "Odpov\u011B\u010F p\u0159ijata.",
-  NO_DECK_EXISTS: "Neexistuje \u017E\xE1dn\xFD bal\xED\u010Dek pro ${deckName}",
-  ALL_CAUGHT_UP: "V\u0161e zrevidov\xE1no",
-  // scheduling.ts
-  DAYS_STR_IVL: "${interval} den/dn\xED",
-  MONTHS_STR_IVL: "${interval} m\u011Bs\xEDc(\u016F)",
-  YEARS_STR_IVL: "${interval} rok(\u016F)",
-  DAYS_STR_IVL_MOBILE: "${interval}d",
-  MONTHS_STR_IVL_MOBILE: "${interval}m",
-  YEARS_STR_IVL_MOBILE: "${interval}r",
-  // settings.ts
-  SETTINGS_HEADER: "Spaced Repetition",
-  GROUP_TAGS_FOLDERS: "Tags & Folders",
-  GROUP_FLASHCARD_REVIEW: "Flashcard Review",
-  GROUP_FLASHCARD_SEPARATORS: "Flashcard Separators",
-  GROUP_DATA_STORAGE: "Storage of Scheduling Data",
-  GROUP_DATA_STORAGE_DESC: "Choose where to store the scheduling data",
-  GROUP_FLASHCARDS_NOTES: "Flashcards & Notes",
-  GROUP_CONTRIBUTING: "Contributing",
-  CHECK_WIKI: 'Pro v\xEDce informac\xED jd\u011Bte na <a href="${wikiUrl}">wiki</a>.',
-  GITHUB_DISCUSSIONS: 'Visit the <a href="${discussionsUrl}">discussions</a> section for Q&A help, feedback, and general discussion.',
-  GITHUB_ISSUES: 'Raise an issue <a href="${issuesUrl}">here</a> if you have a feature request or a bug report.',
-  GITHUB_SOURCE_CODE: 'The project\'s source code is available on <a href="${githubProjectUrl}">GitHub</a>.',
-  CODE_CONTRIBUTION_INFO: '<a href="${codeContributionUrl}">Here\'s</a> how to contribute code to the plugin.',
-  TRANSLATION_CONTRIBUTION_INFO: '<a href="${translationContributionUrl}">Here\'s</a> how to translate the plugin to another language.',
-  FOLDERS_TO_IGNORE: "Ignorovan\xE9 slo\u017Eky",
-  FOLDERS_TO_IGNORE_DESC: "Enter folder paths or glob patterns on separate lines e.g. Templates/Scripts or **/*.excalidraw.md. This setting is common to both flashcards and notes.",
-  OBSIDIAN_INTEGRATION: "Integration into Obsidian",
-  FLASHCARDS: "Karti\u010Dky",
-  FLASHCARD_EASY_LABEL: "Easy Button Text",
-  FLASHCARD_GOOD_LABEL: "Good Button Text",
-  FLASHCARD_HARD_LABEL: "Hard Button Text",
-  FLASHCARD_EASY_DESC: 'Customize the label for the "Easy" Button',
-  FLASHCARD_GOOD_DESC: 'Customize the label for the "Good" Button',
-  FLASHCARD_HARD_DESC: 'Customize the label for the "Hard" Button',
-  REVIEW_BUTTON_DELAY: "Button Press Delay (ms)",
-  REVIEW_BUTTON_DELAY_DESC: "Add a delay to the review buttons before they can be pressed again.",
-  FLASHCARD_TAGS: "Tag pro karti\u010Dky",
-  FLASHCARD_TAGS_DESC: "Zadete tagy ood\u011Blen\xE9 mezerou nebo od\u0159\xE1dkov\xE1n\xEDm nap\u0159\xEDklad. #karti\u010Dky #bal\xED\u010Dke2 #bal\xED\u010Dek3.",
-  CONVERT_FOLDERS_TO_DECKS: "P\u0159ev\xE9st slo\u017Eky na bal\xED\u010Dky a podbal\xED\u010Dky?",
-  CONVERT_FOLDERS_TO_DECKS_DESC: "Toto je alternativa k tag\u016Fm karti\u010Dek viz nastaven\xED v\xFD\u0161e.",
-  INLINE_SCHEDULING_COMMENTS: "Ulo\u017Eit pl\xE1novac\xED koment\xE1\u0159 na stejn\xFD \u0159\xE1dek jako posledn\xED polo\u017Eka karti\u010Dky?",
-  INLINE_SCHEDULING_COMMENTS_DESC: "Zapnut\xED t\xE9to volby zp\u016Fsob\xED, \u017Ee HTML koment\xE1\u0159e nebudou rozb\xEDjet form\xE1tov\xE1n\xED list\u016F.",
-  BURY_SIBLINGS_TILL_NEXT_DAY: "Odlo\u017Eit p\u0159\xEDbuzn\xE9 karti\u010Dky na dal\u0161\xED den?",
-  BURY_SIBLINGS_TILL_NEXT_DAY_DESC: "P\u0159\xEDbuzn\xE9 karti\u010Dky jsou karti\u010Dky generovan\xE9 z textu stejn\xE9 pozn\xE1mky nap\u0159\xEDklad cloze smaz\xE1n\xED",
-  SHOW_CARD_CONTEXT: "Uk\xE1zat kontext v karti\u010Dce?",
-  SHOW_CARD_CONTEXT_DESC: "nap\u0159\xEDklad Titulek > Nadpis1 > Podnadpis > ... > Podnadpis",
-  SHOW_INTERVAL_IN_REVIEW_BUTTONS: "Show next review time in the review buttons",
-  SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC: "Useful to know how far in the future your cards are being pushed.",
-  CARD_MODAL_HEIGHT_PERCENT: "V\xFD\u0161ka karti\u010Dek v procentech",
-  CARD_MODAL_SIZE_PERCENT_DESC: "M\u011Blo by b\xFDt nastaveno na 100% na mobilu nebo kdy\u017E pou\u017E\xEDv\xE1te velk\xE9 obr\xE1zky",
-  RESET_DEFAULT: "Resetovat v\xFDchoz\xED nastaven\xED",
-  CARD_MODAL_WIDTH_PERCENT: "\u0160\xED\u0159ka karti\u010Dek v procentech",
-  RANDOMIZE_CARD_ORDER: "N\xE1hodn\u011B zm\u011Bnit po\u0159ad\xED karti\u010Dek b\u011Bhem revize?",
-  REVIEW_CARD_ORDER_WITHIN_DECK: "Order cards in a deck are displayed during review",
-  REVIEW_CARD_ORDER_NEW_FIRST_SEQUENTIAL: "Sequentially within a deck (All new cards first)",
-  REVIEW_CARD_ORDER_DUE_FIRST_SEQUENTIAL: "Sequentially within a deck (All due cards first)",
-  REVIEW_CARD_ORDER_NEW_FIRST_RANDOM: "Randomly within a deck (All new cards first)",
-  REVIEW_CARD_ORDER_DUE_FIRST_RANDOM: "Randomly within a deck (All due cards first)",
-  REVIEW_CARD_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
-  REVIEW_DECK_ORDER: "Order decks are displayed during review",
-  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_SEQUENTIAL: "Sequentially (once all cards in previous deck reviewed)",
-  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Randomly (once all cards in previous deck reviewed)",
-  REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
-  DISABLE_CLOZE_CARDS: "Vypnout cloze karti\u010Dky?",
-  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
-  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
-  CONVERT_HIGHLIGHTS_TO_CLOZES: "P\u0159ev\xE9st ==zv\xFDrazn\u011Bn\xED== na clozes?",
-  CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'P\u0159idat/odstranit <code>${defaultPattern}</code> z va\u0161ich "Cloze vzor\u016F"',
-  CONVERT_BOLD_TEXT_TO_CLOZES: "P\u0159ev\xE9st **tu\u010Dn\xFD text** na clozes?",
-  CONVERT_BOLD_TEXT_TO_CLOZES_DESC: 'P\u0159idat/odstranit <code>${defaultPattern}</code> z va\u0161ich "Cloze vzor\u016F"',
-  CONVERT_CURLY_BRACKETS_TO_CLOZES: "P\u0159ev\xE9st {{slo\u017Een\xE9 z\xE1vorky}} na clozes?",
-  CONVERT_CURLY_BRACKETS_TO_CLOZES_DESC: 'P\u0159idat/odstranit <code>${defaultPattern}</code> z va\u0161ich "Cloze vzor\u016F"',
-  CLOZE_PATTERNS: "Cloze vzory",
-  CLOZE_PATTERNS_DESC: 'Zadejte cloze vzory odd\u011Blen\xE9 od\u0159\xE1dkov\xE1n\xEDm. Check the <a href="${docsUrl}">wiki</a> for guidance.',
-  INLINE_CARDS_SEPARATOR: "Odd\u011Blova\u010D pro inline karti\u010Dky",
-  FIX_SEPARATORS_MANUALLY_WARNING: "Pozor. Jakmile toto zm\u011Bn\xEDte, budete muset ru\u010Dn\u011B upravit v\u0161echny existuj\xEDc\xED karti\u010Dky.",
-  INLINE_REVERSED_CARDS_SEPARATOR: "Odd\u011Blova\u010D pro oto\u010Den\xE9 inline karti\u010Dky",
-  MULTILINE_CARDS_SEPARATOR: "Odd\u011Blova\u010D pro v\xEDce\u0159\xE1dkov\xE9 karti\u010Dky",
-  MULTILINE_REVERSED_CARDS_SEPARATOR: "Odd\u011Blova\u010D pro v\xEDce\u0159\xE1dkove oto\u010Den\xE9 karti\u010Dky",
-  MULTILINE_CARDS_END_MARKER: "Znaky ozna\u010Duj\xEDc\xED konec clozes a v\xEDce\u0159\xE1dkov\xFDch flash karet",
-  NOTES: "Pozn\xE1mky",
-  NOTE: "Note",
-  REVIEW_PANE_ON_STARTUP: "Enable note review pane on startup",
-  TAGS_TO_REVIEW: "Tag pro revizi",
-  TAGS_TO_REVIEW_DESC: "Zadejte tagy odd\u011Blen\xE9 mezerami nebo od\u0159\xE1dkov\xE1n\xEDm nap\u0159\xEDklad #review #tag2 #tag3.",
-  OPEN_RANDOM_NOTE: "Otev\u0159\xEDt n\xE1hodnou pozn\xE1mku pro revizi",
-  OPEN_RANDOM_NOTE_DESC: "Pokud toto vypnete, pozn\xE1mky budou \u0159azeny dle d\u016Fle\u017Eitosti (PageRank).",
-  AUTO_NEXT_NOTE: "Otev\u0159\xEDt automaticky dal\u0161\xED pozn\xE1mku po dokon\u010Den\xED revize",
-  ENABLE_FILE_MENU_REVIEW_OPTIONS: "Povolte mo\u017Enosti revize v nab\xEDdce souboru (nap\u0159. Revize: Jednoduch\xE9, Dobr\xE9, T\u011B\u017Ek\xE9)",
-  ENABLE_FILE_MENU_REVIEW_OPTIONS_DESC: "Pokud v nab\xEDdce souboru zak\xE1\u017Eete mo\u017Enosti revize, m\u016F\u017Eete sv\xE9 pozn\xE1mky revidovat pomoc\xED p\u0159\xEDkaz\u016F pluginu a, pokud jste je definovali, pomoc\xED p\u0159i\u0159azen\xFDch kl\xE1vesov\xFDch zkratek.",
-  MAX_N_DAYS_REVIEW_QUEUE: "Maxim\xE1ln\xED po\u010Det dn\xED zobrazen\xFDch v prav\xE9m panelu",
-  MIN_ONE_DAY: "Po\u010Det dn\xED mus\xED b\xFDt minim\xE1ln\u011B 1.",
-  VALID_NUMBER_WARNING: "Pros\xEDm zadejte validn\xED \u010D\xEDslo.",
-  UI: "P\u0159edvolby u\u017Eivatelsk\xE9ho rozhran\xED",
-  OPEN_IN_TAB: "Open in new tab",
-  OPEN_IN_TAB_DESC: "Turn this off to open the plugin in a modal window",
-  SHOW_STATUS_BAR: "Show status bar",
-  SHOW_STATUS_BAR_DESC: "Turn this off to hide the flashcard's review status in Obsidian's status bar",
-  SHOW_RIBBON_ICON: "Show icon in the ribbon bar",
-  SHOW_RIBBON_ICON_DESC: "Turn this off to hide the plugin icon from Obsidian's ribbon bar",
-  INITIALLY_EXPAND_SUBDECKS_IN_TREE: "Stromy bal\xED\u010Dky by m\u011Bly b\xFDt zpo\u010D\xE1tku zobrazeny jako rozbalen\xE9",
-  INITIALLY_EXPAND_SUBDECKS_IN_TREE_DESC: "Vypn\u011Bte toto, chcete-li sbalit vno\u0159en\xE9 bal\xED\u010Dky na stejn\xE9 kart\u011B. To je u\u017Eite\u010Dn\xE9, pokud m\xE1te karti\u010Dky, kter\xE9 pat\u0159\xED k mnoha bal\xED\u010Dk\u016Fm ve stejn\xE9m souboru.",
-  ALGORITHM: "Algoritmus",
-  CHECK_ALGORITHM_WIKI: 'Pro v\xEDce informac\xED jd\u011Bte na <a href="${algoUrl}">popis algoritmu</a>.',
-  SM2_OSR_VARIANT: "OSR's variant of SM-2",
-  BASE_EASE: "Z\xE1kladn\xED slo\u017Eitost",
-  BASE_EASE_DESC: "minimum = 130, nejl\xE9pe p\u0159ibli\u017En\u011B 250.",
-  BASE_EASE_MIN_WARNING: "Z\xE1kladn\xED slo\u017Eitost mus\xED b\xFDt minim\xE1ln\u011B 130.",
-  LAPSE_INTERVAL_CHANGE: "Zm\u011Bna intervalu pokud karti\u010Dku/pozn\xE1mku ozna\u010D\xEDte jako slo\u017Eitou",
-  LAPSE_INTERVAL_CHANGE_DESC: "nov\xFD_inteval = star\xFD_interval * zm\u011Bna_intevalu / 100.",
-  EASY_BONUS: "Bonus pro jednoduch\xE9",
-  EASY_BONUS_DESC: "Tento bonus umo\u017E\u0148uje nastavit rozd\xEDl intervalu mezi jednoduch\xFDmi a dobr\xFDmi karti\u010Dkami/pozn\xE1mkami (minimum = 100%).",
-  EASY_BONUS_MIN_WARNING: "Bonus pro jednoduchost mus\xED b\xFDt minim\xE1ln\u011B 100.",
-  LOAD_BALANCE: "Enable load balancer",
-  LOAD_BALANCE_DESC: `Slightly tweaks the interval so that the number of reviews per day is more consistent.
-        It's like Anki's fuzz but instead of being random, it picks the day with the least amount of reviews.
-        It's turned off for small intervals.`,
-  MAX_INTERVAL: "Maximum interval in days",
-  MAX_INTERVAL_DESC: "Umo\u017E\u0148uje nastavit horn\xED limit pro interval (defaultn\u011B = 100 let).",
-  MAX_INTERVAL_MIN_WARNING: "Maxim\xE1ln\xED interval mus\xED b\xFDt alespo\u0148 1 den.",
-  MAX_LINK_CONTRIB: "Maxim\xE1ln\xED p\u0159\xEDsp\u011Bv\u011Bk prolinkov\xE1n\xED",
-  MAX_LINK_CONTRIB_DESC: "Maxim\xE1ln\xED p\u0159\xEDsp\u011Bvek v\xE1\u017Een\xE9 slo\u017Eitosti prolinkovan\xFDch pozn\xE1mek pou\u017Eit\xFD pro ur\u010Den\xED po\u010D\xE1te\u010Dn\xED slo\u017Eitosti.",
-  LOGGING: "Zaznamen\xE1v\xE1m",
-  DISPLAY_SCHEDULING_DEBUG_INFO: "Zobrazit informace pro lad\u011Bn\xED na v\xFDvoj\xE1\u0159sk\xE9 konzoli",
-  DISPLAY_PARSER_DEBUG_INFO: "Show the parser's debugging information on the developer console",
-  SCHEDULING: "Scheduling",
-  EXPERIMENTAL: "Experimental",
-  HELP: "Help",
-  STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
-  DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
-  CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
-  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
-  // sidebar.ts
-  NOTES_REVIEW_QUEUE: "Fronta pozn\xE1mek k revizi",
-  CLOSE: "Uzav\u0159en\xE9",
-  NEW: "Nov\xE9",
-  YESTERDAY: "V\u010Dera",
-  TODAY: "Dnes",
-  TOMORROW: "Z\xEDtra",
-  // stats-modal.tsx
-  STATS_TITLE: "Statistiky",
-  MONTH: "M\u011Bs\xEDc",
-  QUARTER: "\u010Ctvrtlet\xED",
-  YEAR: "Rok",
-  LIFETIME: "Celkov\u011B",
-  FORECAST: "P\u0159edpov\u011B\u010F",
-  FORECAST_DESC: "Celkov\xFD po\u010Det karti\u010Dek, kter\xFDm vypr\u0161\xED term\xEDn",
-  SCHEDULED: "Napl\xE1nov\xE1no",
-  DAYS: "Dn\xED",
-  NUMBER_OF_CARDS: "Po\u010Det karti\u010Dek",
-  REVIEWS_PER_DAY: "Pr\u016Fm\u011Br: ${avg} revize/den",
-  INTERVALS: "Intervaly",
-  INTERVALS_DESC: "Doba, za kterou bude znovu zobrazeno k revize",
-  COUNT: "Po\u010Det",
-  INTERVALS_SUMMARY: "Pr\u016Fm\u011Brn\xFD interval: ${avg}, Nejdel\u0161\xED interval: ${longest}",
-  EASES: "Slo\u017Eitost",
-  EASES_SUMMARY: "Pr\u016Fm\u011Brn\xE1 slo\u017Eitost: ${avgEase}",
-  EASE: "Ease",
-  CARD_TYPES: "Typy karti\u010Dek",
-  CARD_TYPES_DESC: "Obsahuje i odlo\u017Een\xE9 karti\u010Dky (pokud existuj\xED)",
-  CARD_TYPE_NEW: "Nov\xE1",
-  CARD_TYPE_YOUNG: "Mlad\xE1",
-  CARD_TYPE_MATURE: "Dosp\u011Bl\xE1",
-  CARD_TYPES_SUMMARY: "Karti\u010Dek celkem: ${totalCardsCount}",
-  SEARCH: "Search",
-  PREVIOUS: "Previous",
-  NEXT: "Next",
-  // settings.ts
-  SETTINGS_TAB_HEADING: "Settings",
-  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
-  // NoteReviewQueue.ts
-  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
-  // StatusBarManager.ts
-  OPEN_DECK_FOR_REVIEW: "Open deck for review",
-  UPDATE_AVAILABLE: "Update available",
-  // Statistics
-  PERIOD_TITLE: "Period",
-  PERIOD_DESC: "Period of time to display in the charts",
-  // Card controls reset button
-  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
-  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
-  // Settings > Scheduling
-  START_OF_DAY: "Start of day",
-  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
-};
-
-// src/lang/locale/da.ts
-var da_default = {};
-
-// src/lang/locale/de.ts
-var de_default = {
-  // flashcard-modal.tsx
-  DECKS: "Stapel",
-  DUE_CARDS: "Anstehende Karten",
-  NEW_CARDS: "Neue Karten",
-  TOTAL_CARDS: "Alle Karten",
-  BACK: "Zur\xFCck",
-  SKIP: "\xDCberspringen",
-  EDIT_CARD: "Karte bearbeiten",
-  RESET_CARD_PROGRESS: "Kartenfortschritt zur\xFCcksetzten",
-  HARD: "Schwer",
-  GOOD: "Gut",
-  EASY: "Einfach",
-  SHOW_ANSWER: "Zeige Antwort",
-  CARD_PROGRESS_RESET: "Kartenfortschritt wurde zur\xFCckgesetzt.",
-  SAVE: "Speichern",
-  CANCEL: "Abbrechen",
-  NO_INPUT: "Keine Eingabe erhalten.",
-  CURRENT_EASE_HELP_TEXT: "Aktuelle Schwierigkeit: ",
-  CURRENT_INTERVAL_HELP_TEXT: "Aktueller Intervall: ",
-  CARD_GENERATED_FROM: "Erstellt von: ${notePath}",
-  VIEW_CARD_INFO: "Karteninformationen anzeigen",
-  // main.ts
-  OPEN_NOTE_FOR_REVIEW: "Notiz zur Wiederholung \xF6ffnen",
-  REVIEW_CARDS: "Lernkarten wiederholen",
-  REVIEW_DIFFICULTY_FILE_MENU: "Notizen wiederholen als: ${difficulty}",
-  REVIEW_NOTE_DIFFICULTY_CMD: "Notizen wiederholen als: ${difficulty}",
-  REVIEW_ALL_CARDS: "Alle Lernkarten wiederholen",
-  CRAM_ALL_CARDS: "W\xE4hle ein Stapel zum pauken",
-  REVIEW_CARDS_IN_NOTE: "Lernkarten in dieser Notiz wiederholen",
-  CRAM_CARDS_IN_NOTE: "Lernkarten in dieser Notiz pauken.",
-  VIEW_STATS: "Statistiken anzeigen",
-  OPEN_REVIEW_QUEUE_VIEW: "\xD6ffne \xDCberpr\xFCfungswarteschlage in der Seitenleiste",
-  STATUS_BAR: "Wiederholung: ${dueNotesCount} Notiz(en), ${dueFlashcardsCount} Karte(n) anstehend",
-  SYNC_TIME_TAKEN: "Synchronisierung dauerte ${t}ms",
-  NOTE_IN_IGNORED_FOLDER: "Notiz befindet sich in einem ausgeschlossenen Ordner (siehe Einstellungen).",
-  PLEASE_TAG_NOTE: "Bitte die Notiz f\xFCr Wiederholungen entsprechend taggen (siehe Einstellungen).",
-  RESPONSE_RECEIVED: "Antwort erhalten.",
-  NO_DECK_EXISTS: "Kein Stapel f\xFCr ${deckName} gefunden.",
-  ALL_CAUGHT_UP: "Yuhu! Alles geschafft! :D.",
-  // scheduling.ts
-  DAYS_STR_IVL: "${interval} Tag(e)",
-  MONTHS_STR_IVL: "${interval} Monat(e)",
-  YEARS_STR_IVL: "${interval} Jahr(e)",
-  DAYS_STR_IVL_MOBILE: "${interval}t",
-  MONTHS_STR_IVL_MOBILE: "${interval}m",
-  YEARS_STR_IVL_MOBILE: "${interval}j",
-  // settings.ts
-  SETTINGS_HEADER: "Spaced Repetition",
-  GROUP_TAGS_FOLDERS: "Tags & Ordner",
-  GROUP_FLASHCARD_REVIEW: "Flashcard Review",
-  GROUP_FLASHCARD_SEPARATORS: "Flashcard Separators",
-  GROUP_DATA_STORAGE: "Storage of Scheduling Data",
-  GROUP_DATA_STORAGE_DESC: "Choose where to store the scheduling data",
-  GROUP_FLASHCARDS_NOTES: "Flashcards & Notes",
-  GROUP_CONTRIBUTING: "Helfen",
-  CHECK_WIKI: 'Weitere Informationen gibt es im <a href="${wikiUrl}">Wiki</a> (english).',
-  GITHUB_DISCUSSIONS: 'Visit the <a href="${discussionsUrl}">discussions</a> section for Q&A help, feedback, and general discussion.',
-  GITHUB_ISSUES: 'Raise an issue <a href="${issuesUrl}">here</a> if you have a feature request or a bug report.',
-  GITHUB_SOURCE_CODE: 'The project\'s source code is available on <a href="${githubProjectUrl}">GitHub</a>.',
-  CODE_CONTRIBUTION_INFO: '<a href="${codeContributionUrl}">Here\'s</a> how to contribute code to the plugin.',
-  TRANSLATION_CONTRIBUTION_INFO: '<a href="${translationContributionUrl}">Here\'s</a> how to translate the plugin to another language.',
-  FOLDERS_TO_IGNORE: "Ausgeschlossene Ordner",
-  FOLDERS_TO_IGNORE_DESC: "Geben Sie Pfad- oder Globalemuster in separaten Zeilen an, z.B. Templates/Scripts oder **/*.excalidraw.md. Diese Einstellung gilt f\xFCr Flashcards und Notizen.",
-  OBSIDIAN_INTEGRATION: "Integration into Obsidian",
-  FLASHCARDS: "Lernkarten",
-  FLASHCARD_EASY_LABEL: "Einfach Knopf Text",
-  FLASHCARD_GOOD_LABEL: "Gut Knopf Text",
-  FLASHCARD_HARD_LABEL: "Schwer Knopf Text",
-  FLASHCARD_GOOD_DESC: 'Passe die Beschriftung f\xFCr "Gut" Knopf an',
-  FLASHCARD_EASY_DESC: 'Passe die Beschriftung f\xFCr "Einfach" Knopf an',
-  FLASHCARD_HARD_DESC: 'Passe die Beschriftung f\xFCr "Schwer" Knopf an',
-  REVIEW_BUTTON_DELAY: "Druckknopfverz\xF6gerung (ms)",
-  REVIEW_BUTTON_DELAY_DESC: "F\xFCgt den \xDCberpr\xFCfungsschaltfl\xE4chen (\u201EEinfach\u201C, \u201EGut\u201C, \u201ESchwer\u201C, \u201EAntwort anzeigen\u201C) eine Verz\xF6gerung hinzu, bevor sie erneut gedr\xFCckt werden k\xF6nnen.",
-  FLASHCARD_TAGS: "Lernkarten Tags",
-  FLASHCARD_TAGS_DESC: "Mehrere Tags mit Leerzeichen oder Zeilenumbr\xFCchen getrennt angeben. Bsp. #karte #stapel2 #stapel3.",
-  CONVERT_FOLDERS_TO_DECKS: "Ordner in Stapel und Substapel umwandeln?",
-  CONVERT_FOLDERS_TO_DECKS_DESC: 'Eine Alternative zur oberen "Lernkarten Tags" Option.',
-  INLINE_SCHEDULING_COMMENTS: "Den Fortschritt in der gleichen Zeile wie die letzte Zeile einer Lernkartei speichern?",
-  INLINE_SCHEDULING_COMMENTS_DESC: "Wenn aktiviert, wird der HTML Kommentar die umgebende Liste nicht aufbrechen.",
-  BURY_SIBLINGS_TILL_NEXT_DAY: "Verwandte Karten auf den n\xE4chsten Tag verlegen?",
-  BURY_SIBLINGS_TILL_NEXT_DAY_DESC: "Verwandte Karten sind aus der gleichen Karte generiert worden (z.B. L\xFCckentextkarten oder beidseitige Karten).",
-  SHOW_CARD_CONTEXT: "Kontext in den Karten anzeigen?",
-  SHOW_CARD_CONTEXT_DESC: "Bsp. Titel > \xDCberschrift 1 > Sektion > ... > Untersektion",
-  SHOW_INTERVAL_IN_REVIEW_BUTTONS: "Zeige n\xE4chsten Review-Zeit in den Review-Buttons",
-  SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC: "Useful to know how far in the future your cards are being pushed.",
-  CARD_MODAL_HEIGHT_PERCENT: "H\xF6he der Lernkartei in Prozent",
-  CARD_MODAL_SIZE_PERCENT_DESC: "Auf kleinen Bildschirmen (z.B. Smartphones) oder bei sehr grossen Bildern sollte dieser Wert auf 100% gesetzt werden.",
-  RESET_DEFAULT: "Standardeinstellung wiederherstellen",
-  CARD_MODAL_WIDTH_PERCENT: "Breite einer Lernkarte in Prozent",
-  RANDOMIZE_CARD_ORDER: "W\xE4hrend der Wiederhoung die Reihenfolge zuf\xE4llig mischen?",
-  REVIEW_CARD_ORDER_WITHIN_DECK: "Reihenfolge der Karten innerhalb eines Stapels w\xE4hrend der Wiederholung",
-  REVIEW_CARD_ORDER_NEW_FIRST_SEQUENTIAL: "Sequentielle Reihenfolge innerhalb eines Stapels (Alle neuen Karten zuerst)",
-  REVIEW_CARD_ORDER_DUE_FIRST_SEQUENTIAL: "Sequentielle Reihenfolge innerhalb eines Stapels (Alle f\xE4lligen Karten zuerst)",
-  REVIEW_CARD_ORDER_NEW_FIRST_RANDOM: "Zuf\xE4llige Reihenfolge innerhalb eines Stapels (Alle neuen Karten zuerst)",
-  REVIEW_CARD_ORDER_DUE_FIRST_RANDOM: "Zuf\xE4llige Reihenfolge innerhalb eines Stapels (Alle f\xE4lligen Karten zuerst)",
-  REVIEW_CARD_ORDER_RANDOM_DECK_AND_CARD: "Zuf\xE4llige Karte von zuf\xE4lligem Stapel",
-  REVIEW_DECK_ORDER: "Reihenfolge der Stapel w\xE4hrend der Wiederholung",
-  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_SEQUENTIAL: "Sequentielle Reihenfolge (sobald alle Karten im vorherigen Stapel wiederholt wurden)",
-  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Zuf\xE4llige Reihenfolge (sobald alle Karten im vorherigen Stapel wiederholt wurden)",
-  REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Zuf\xE4llige Karte von zuf\xE4lligem Stapel",
-  DISABLE_CLOZE_CARDS: "L\xFCckentextkarten deaktivieren?",
-  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Konvertiere L\xFCckentext zu Eingabefelder",
-  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Ersetze L\xFCckentext mit Eingabefeldern, wenn L\xFCckentextkarten angezeigt werden.",
-  CONVERT_HIGHLIGHTS_TO_CLOZES: "==Hervorgehobenen== Text in L\xFCckentextkarten umwandeln?",
-  CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'F\xFCge/entferne das <code>${defaultPattern}</code> zu deinen "L\xFCckentextmuster" hinzu',
-  CONVERT_BOLD_TEXT_TO_CLOZES: "**Fettgedruckten** Text in L\xFCckentextkarten umwandeln?",
-  CONVERT_BOLD_TEXT_TO_CLOZES_DESC: 'F\xFCge/entferne das <code>${defaultPattern}</code> zu deinen "L\xFCckentextmuster" hinzu',
-  CONVERT_CURLY_BRACKETS_TO_CLOZES: "{{Geschweifte Klammern}} Text in L\xFCckentextkarten umwandeln?",
-  CONVERT_CURLY_BRACKETS_TO_CLOZES_DESC: 'F\xFCge/entferne das <code>${defaultPattern}</code> zu deinen "L\xFCckentextmuster" hinzu',
-  CLOZE_PATTERNS: "L\xFCckentextmuster",
-  CLOZE_PATTERNS_DESC: 'Geben Sie L\xFCckentextmuster durch Zeilenumbr\xFCche getrennt ein. Check the <a href="${docsUrl}">wiki</a> for guidance.',
-  INLINE_CARDS_SEPARATOR: "Trennzeichen f\xFCr einzeilige Lernkarten",
-  FIX_SEPARATORS_MANUALLY_WARNING: "Wenn diese Einstellung ge\xE4ndert wird, dann m\xFCssen die entsprechenden Lernkarten manuell angepasst werden.",
-  INLINE_REVERSED_CARDS_SEPARATOR: "Trennzeichen f\xFCr einzeilige beidseitige Lernkarten",
-  MULTILINE_CARDS_SEPARATOR: "Trennzeichen f\xFCr mehrzeilige Lernkarten",
-  MULTILINE_REVERSED_CARDS_SEPARATOR: "Trennzeichen f\xFCr mehrzeilige beidseitige Lernkarten",
-  MULTILINE_CARDS_END_MARKER: "Zeichen, die das Ende von L\xFCckentexten und mehrzeiligen Flashcards kennzeichnen",
-  NOTES: "Notizen",
-  NOTE: "Note",
-  REVIEW_PANE_ON_STARTUP: "\xD6ffne \xDCberpr\xFCfungswarteschlage beim start",
-  TAGS_TO_REVIEW: "Zu wiederholende Tags",
-  TAGS_TO_REVIEW_DESC: "Mehrere Tags k\xF6nnen mit Leerzeichen oder Zeilenumbr\xFCchen getrennt angegeben werden. Bsp. #karte #tag1 #tag2.",
-  OPEN_RANDOM_NOTE: "Zuf\xE4llige Karten wiederholen",
-  OPEN_RANDOM_NOTE_DESC: "Wenn dies deaktiviert wird, dann werden die Notizen nach Wichtigkeit wiederholt (PageRank).",
-  AUTO_NEXT_NOTE: "Nach einer Wiederholung automatisch die n\xE4chste Karte \xF6ffnen",
-  ENABLE_FILE_MENU_REVIEW_OPTIONS: "Aktiviere die \xDCberpr\xFCfungsoptionen im Dateimen\xFC (z. B. Notizen wiederholen als: Einfach, Gut, Schwer)",
-  ENABLE_FILE_MENU_REVIEW_OPTIONS_DESC: "Wenn du die \xDCberpr\xFCfungsoptionen im Dateimen\xFC deaktivierst, kannst du deine Notizen mit den Plugin-Befehlen und, falls definiert, den zugeh\xF6rigen Tastenkombinationen \xFCberpr\xFCfen.",
-  MAX_N_DAYS_REVIEW_QUEUE: "Maximale Anzahl anstehender Notizen, die im rechten Fensterbereich angezeigt werden",
-  MIN_ONE_DAY: "Anzahl der Tage muss mindestens 1 sein.",
-  VALID_NUMBER_WARNING: "Bitte eine g\xFCltige Zahl eingeben.",
-  UI: "User Interface",
-  OPEN_IN_TAB: "\xD6ffne im neuen Tab",
-  OPEN_IN_TAB_DESC: "Schalte dies aus, um die Notizen in einem Modalfenster zu \xF6ffnen",
-  SHOW_STATUS_BAR: "Show status bar",
-  SHOW_STATUS_BAR_DESC: "Turn this off to hide the flashcard's review status in Obsidian's status bar",
-  SHOW_RIBBON_ICON: "Show icon in the ribbon bar",
-  SHOW_RIBBON_ICON_DESC: "Turn this off to hide the plugin icon from Obsidian's ribbon bar",
-  INITIALLY_EXPAND_SUBDECKS_IN_TREE: "Stapelverzeichnis soll beim \xF6ffnen erweitert angezeigt werden",
-  INITIALLY_EXPAND_SUBDECKS_IN_TREE_DESC: "Deaktivieren Sie dies, um verschachtelte Stapel in derselben Karte zu reduzieren. N\xFCtzlich, wenn Sie Karten haben, die zu vielen Stapeln in derselben Datei geh\xF6ren.",
-  ALGORITHM: "Algorithmus",
-  CHECK_ALGORITHM_WIKI: 'Weiterf\xFChrende Informationen: <a href="${algoUrl}">Implementierung des Algorithmus</a> (english).',
-  SM2_OSR_VARIANT: "OSR's variant of SM-2",
-  BASE_EASE: "Basis der Schwierigkeit",
-  BASE_EASE_DESC: "Minimum ist 130. Empfohlen wird ca. 250.",
-  BASE_EASE_MIN_WARNING: "Basis der Schwierigkeit muss mindestens 130 sein.",
-  LAPSE_INTERVAL_CHANGE: "Anpassungsfaktor des Intervalls wenn eine Notiz / Karte 'Schwer' abgeschlossen wird",
-  LAPSE_INTERVAL_CHANGE_DESC: "neuesIntervall = altesIntervall * anpassungsfaktor / 100.",
-  EASY_BONUS: "Einfachheit-Bonus",
-  EASY_BONUS_DESC: "Der Einfachheit-Bonus gibt an um welchen Faktor (in Prozent) das Intervall l\xE4nger sein soll, wenn eine Notiz / Karte 'Einfach' statt 'Gut' abgeschlossen wird. Minimum ist 100%.",
-  EASY_BONUS_MIN_WARNING: "Der Einfachheit-Bonus muss mindestens 100 sein.",
-  LOAD_BALANCE: "Enable load balancer",
-  LOAD_BALANCE_DESC: `Slightly tweaks the interval so that the number of reviews per day is more consistent.
-        It's like Anki's fuzz but instead of being random, it picks the day with the least amount of reviews.
-        It's turned off for small intervals.`,
-  MAX_INTERVAL: "Maximale Intervall in Tagen",
-  MAX_INTERVAL_DESC: "Das maximale Intervall (in Tagen) f\xFCr Wiederholungen. Standard sind 100 Jahre.",
-  MAX_INTERVAL_MIN_WARNING: "Das maximale Interall muss mindestens ein Tag sein.",
-  MAX_LINK_CONTRIB: "Maximaler Einfluss von Links",
-  MAX_LINK_CONTRIB_DESC: "Maximaler Einfluss der Einfachheiten verlinkter Notizen zur gewichteten initialen Einfachheit einer neuen Lernkarte.",
-  LOGGING: "Protokollierung",
-  DISPLAY_SCHEDULING_DEBUG_INFO: "Informationen zum Debugging in der Entwicklerkonsole anzeigen",
-  DISPLAY_PARSER_DEBUG_INFO: "Informationen zum parser Debugging in der Entwicklerkonsole anzeigen",
-  SCHEDULING: "Scheduling",
-  EXPERIMENTAL: "Experimental",
-  HELP: "Help",
-  STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
-  DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
-  CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
-  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
-  // sidebar.ts
-  NOTES_REVIEW_QUEUE: "Anstehende Notizen zur Wiederholung",
-  CLOSE: "Schliessen",
-  NEW: "Neu",
-  YESTERDAY: "Gestern",
-  TODAY: "Heute",
-  TOMORROW: "Morgen",
-  // stats-modal.tsx
-  STATS_TITLE: "Statistiken",
-  MONTH: "Monat",
-  QUARTER: "Quartal",
-  YEAR: "Jahr",
-  LIFETIME: "Lebenslang",
-  FORECAST: "Prognose",
-  FORECAST_DESC: "Anzahl der k\xFCnftig anstehenden Karten",
-  SCHEDULED: "Anstehend",
-  DAYS: "Tage",
-  NUMBER_OF_CARDS: "Anzahl der Karten",
-  REVIEWS_PER_DAY: "Durchschnitt: ${avg} Wiederholungen/Tag",
-  INTERVALS: "Intervalle",
-  INTERVALS_DESC: "Intervalle bis Wiederholungen anstehen",
-  COUNT: "Anzahl",
-  INTERVALS_SUMMARY: "Durchschnittliches Intervall: ${avg}, L\xE4ngstes Intervall: ${longest}",
-  EASES: "Schwierigkeit",
-  EASES_SUMMARY: "Durchschnittliche Schwierigkeit: ${avgEase}",
-  EASE: "Ease",
-  CARD_TYPES: "Kategorisierung",
-  CARD_TYPES_DESC: "Verlegte Karten eingeschlossen",
-  CARD_TYPE_NEW: "Neu",
-  CARD_TYPE_YOUNG: "Jung",
-  CARD_TYPE_MATURE: "Ausgereift",
-  CARD_TYPES_SUMMARY: "Insgesamt ${totalCardsCount} Karten",
-  SEARCH: "Suche",
-  PREVIOUS: "Previous",
-  NEXT: "Next",
-  // settings.ts
-  SETTINGS_TAB_HEADING: "Einstellungen",
-  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
-  // NoteReviewQueue.ts
-  NOTE_REVIEW_QUEUE_HINT: "Klicke auf die 3 Punkte neben der Notiz, um das Review-Men\xFC zu \xF6ffnen.",
-  // StatusBarManager.ts
-  OPEN_DECK_FOR_REVIEW: "Stapel zum Wiederholung \xF6ffnen",
-  UPDATE_AVAILABLE: "Update verf\xFCgbar",
-  // Statistics
-  PERIOD_TITLE: "Zeitraum",
-  PERIOD_DESC: "Zeitraum, in dem die Diagramme angezeigt werden",
-  // Card controls reset button
-  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
-  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
-  // Settings > Scheduling
-  START_OF_DAY: "Start of day",
-  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
-};
-
 // src/lang/locale/en.ts
-var en_default = {
+var en = {
   // flashcard-modal.tsx
   DECKS: "Decks",
   DUE_CARDS: "Due Cards",
@@ -5747,12 +5045,12 @@ var en_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Notes Review Queue",
@@ -5807,14 +5105,773 @@ var en_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > Scheduling > Delete
+  DELETE_SCHEDULING_DATA_IN_NOTES: "Delete Scheduling Data in Notes",
+  DELETE_SCHEDULING_DATA_IN_NOTES_DESC: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_IN_CARDS: "Delete Scheduling Data in Cards",
+  DELETE_SCHEDULING_DATA_IN_CARDS_DESC: "Delete scheduling data from all cards.",
+  CONFIRM_SCHEDULING_DATA_IN_NOTES_DELETION: "Are you sure you want to delete all scheduling data from your notes? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_IN_CARDS_DELETION: "Are you sure you want to delete all scheduling data from your cards? This action cannot be undone.",
+  SCHEDULING_DATA_IN_NOTES_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_IN_CARDS_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var en_default = en;
+
+// src/lang/locale/af.ts
+var af = {
+  ...en_default
+};
+var af_default = af;
+
+// src/lang/locale/ar.ts
+var ar = {
+  ...en_default,
+  // flashcard-modal.tsx
+  DECKS: "\u0627\u0644\u0631\u064F\u0632\u0645\u064E\u0627\u062A",
+  DUE_CARDS: "\u0628\u0637\u0627\u0642\u0627\u062A \u0645\u064F\u0633\u062A\u062D\u0642\u0629",
+  NEW_CARDS: "\u0628\u0637\u0627\u0642\u0627\u062A \u062C\u062F\u064A\u062F\u0629",
+  TOTAL_CARDS: "\u0625\u062C\u0645\u0627\u0644\u064A \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
+  BACK: "\u0631\u062C\u0648\u0639",
+  SKIP: "Skip",
+  EDIT_CARD: "\u062A\u0639\u062F\u064A\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0629",
+  RESET_CARD_PROGRESS: "\u0625\u0639\u0627\u062F\u0629 \u062A\u0639\u064A\u064A\u0646 \u062A\u0642\u062F\u0651\u064F\u0645\u0652 \u0627\u0644\u0628\u0637\u0627\u0642\u0629",
+  HARD: "\u0635\u0639\u0628",
+  GOOD: "\u062C\u064A\u062F",
+  EASY: "\u0633\u0647\u0644",
+  SHOW_ANSWER: "\u0623\u0638\u0647\u0650\u0631 \u0627\u0644\u0625\u062C\u0627\u0628\u0629",
+  CARD_PROGRESS_RESET: ".\u062A\u0645\u0651\u064E\u062A \u0625\u0639\u0627\u062F\u0629 \u062A\u0639\u064A\u064A\u0646 \u062A\u0642\u062F\u0651\u064F\u0645 \u0627\u0644\u0628\u0637\u0627\u0642\u0629",
+  SAVE: "\u062D\u0641\u0638",
+  CANCEL: "\u0625\u0644\u063A\u0627\u0621",
+  NO_INPUT: ".\u0644\u0645 \u064A\u062A\u0650\u0645 \u062A\u0642\u062F\u064A\u0645 \u0623\u064A \u0645\u064F\u062F\u062E\u0644\u0627\u062A",
+  CURRENT_EASE_HELP_TEXT: ":\u0627\u0644\u0633\u0647\u0648\u0644\u0629 \u0627\u0644\u062D\u0627\u0644\u064A\u0629",
+  CURRENT_INTERVAL_HELP_TEXT: ":\u0627\u0644\u0641\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A \u0627\u0644\u062D\u0627\u0644\u064A",
+  CARD_GENERATED_FROM: "${notePath} :\u062A\u0645 \u0625\u0646\u0634\u0627\u0624\u0647\u0627 \u0645\u0646",
+  VIEW_CARD_INFO: "View Card Info",
+  // main.ts
+  OPEN_NOTE_FOR_REVIEW: "\u0627\u0641\u062A\u062D \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629 \u0644\u0644\u0645\u0631\u0627\u062C\u0639\u0629",
+  REVIEW_CARDS: "\u0645\u0631\u0627\u062C\u0639\u0629 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
+  REVIEW_DIFFICULTY_FILE_MENU: "${difficulty} :\u0645\u0631\u0627\u062C\u0639\u0629",
+  REVIEW_NOTE_DIFFICULTY_CMD: "${difficulty} \u0645\u0631\u0627\u062C\u0639\u0629 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629 \u0643\u0640",
+  CRAM_ALL_CARDS: "\u062D\u062F\u062F \u0631\u064F\u0632\u0645\u064E\u0629 \u0644\u0644\u062D\u0634\u0631",
+  REVIEW_ALL_CARDS: "\u0645\u0631\u0627\u062C\u0639\u0629 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0645\u0646 \u062C\u0645\u064A\u0639 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0627\u062A",
+  REVIEW_CARDS_IN_NOTE: "\u0645\u0631\u0627\u062C\u0639\u0629 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A  \u0645\u0646 \u0647\u0630\u0647 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629",
+  CRAM_CARDS_IN_NOTE: "\u0623\u062D\u0634\u0631 \u062C\u0645\u064A\u0639 \u0628\u0637\u0627\u0642\u0627\u062A \u0647\u0630\u0647 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629",
+  VIEW_STATS: "\u0639\u0631\u0636 \u0627\u0644\u0625\u062D\u0635\u0627\u0626\u064A\u0627\u062A",
+  OPEN_REVIEW_QUEUE_VIEW: "Open Notes Review Queue in sidebar",
+  STATUS_BAR: "\u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0645\u0633\u062A\u062D\u0642\u0629 ${dueFlashcardsCount},\u0645\u0644\u0627\u062D\u0638\u0627\u062A ${dueNotesCount}:\u0645\u0631\u0627\u062C\u0639\u0629",
+  SYNC_TIME_TAKEN: "${t}ms \u0627\u0633\u062A\u063A\u0631\u0627\u0642 \u0627\u0644\u0645\u0632\u0627\u0645\u0646\u0629",
+  NOTE_IN_IGNORED_FOLDER: ".\u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629 \u064A\u062A\u0645 \u062D\u0641\u0638\u0647\u0627 \u0636\u0645\u0646 \u0627\u0644\u0645\u062C\u0644\u062F \u0627\u0644\u0630\u064A \u062A\u0645 \u062A\u062C\u0627\u0647\u0644\u0647 (\u062A\u062D\u0642\u0642 \u0645\u0646 \u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A)",
+  PLEASE_TAG_NOTE: ".\u064A\u0631\u062C\u0649 \u0648\u0636\u0639 \u0648\u0633\u0645 \u0639\u0644\u0649 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629 \u0628\u0634\u0643\u0644 \u0645\u0646\u0627\u0633\u0628 \u0644\u0644\u0645\u0631\u0627\u062C\u0639\u0629 (\u0641\u064A \u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A)",
+  RESPONSE_RECEIVED: ".\u0627\u0633\u062A\u064F\u0644\u0645\u062A \u0627\u0644\u0627\u0633\u062A\u062C\u0627\u0628\u0629",
+  NO_DECK_EXISTS: "${deckName} \u0644\u0627 \u064A\u0648\u062C\u062F \u0631\u064F\u0632\u0645\u064E\u0629",
+  ALL_CAUGHT_UP: "\u{1F606} \u0644\u0642\u062F \u062A\u0645 \u0627\u0644\u0642\u0628\u0636 \u0639\u0644\u064A\u0643\u0645 \u062C\u0645\u064A\u0639\u0627 \u0627\u0644\u0622\u0646",
+  // scheduling.ts
+  DAYS_STR_IVL: "\u064A\u0648\u0645/\u0623\u064A\u0627\u0645 ${interval}",
+  MONTHS_STR_IVL: "\u0634\u0647\u0631/\u0623\u0634\u0647\u0631 ${interval}",
+  YEARS_STR_IVL: "\u0633\u0646\u0629/\u0633\u0646\u0648\u0627\u062A ${interval}",
+  DAYS_STR_IVL_MOBILE: "\u064A${interval}",
+  MONTHS_STR_IVL_MOBILE: "\u0634${interval}",
+  YEARS_STR_IVL_MOBILE: "\u0633${interval}",
+  // settings.ts
+  SETTINGS_HEADER: "Spaced Repetition",
+  GROUP_TAGS_FOLDERS: "Tags & Folders",
+  GROUP_FLASHCARD_REVIEW: "Flashcard Review",
+  GROUP_FLASHCARD_SEPARATORS: "Flashcard Separators",
+  GROUP_DATA_STORAGE: "Storage of Scheduling Data",
+  GROUP_DATA_STORAGE_DESC: "Choose where to store the scheduling data",
+  GROUP_FLASHCARDS_NOTES: "Flashcards & Notes",
+  GROUP_CONTRIBUTING: "Contributing",
+  CHECK_WIKI: '.<a href="${wikiUrl}">wiki</a> \u0644\u0645\u0632\u064A\u062F \u0645\u0646 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u060C \u062A\u062D\u0642\u0642 \u0645\u0646',
+  GITHUB_DISCUSSIONS: 'Visit the <a href="${discussionsUrl}">discussions</a> section for Q&A help, feedback, and general discussion.',
+  GITHUB_ISSUES: 'Raise an issue <a href="${issuesUrl}">here</a> if you have a feature request or a bug report.',
+  GITHUB_SOURCE_CODE: 'The project\'s source code is available on <a href="${githubProjectUrl}">GitHub</a>.',
+  CODE_CONTRIBUTION_INFO: '<a href="${codeContributionUrl}">Here\'s</a> how to contribute code to the plugin.',
+  TRANSLATION_CONTRIBUTION_INFO: '<a href="${translationContributionUrl}">Here\'s</a> how to translate the plugin to another language.',
+  FOLDERS_TO_IGNORE: "\u0645\u062C\u0644\u062F\u0627\u062A \u0644\u062A\u062C\u0627\u0647\u0644\u0647\u0627",
+  FOLDERS_TO_IGNORE_DESC: "Enter folder paths or glob patterns on separate lines e.g. Templates/Scripts or **/*.excalidraw.md. This setting is common to both flashcards and notes.",
+  OBSIDIAN_INTEGRATION: "Integration into Obsidian",
+  FLASHCARDS: "\u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
+  FLASHCARD_EASY_LABEL: "\u0646\u0635 \u0627\u0644\u0632\u0631 \u0633\u0647\u0644",
+  FLASHCARD_GOOD_LABEL: "\u0646\u0635 \u0627\u0644\u0632\u0631 \u062C\u064A\u062F",
+  FLASHCARD_HARD_LABEL: "\u0646\u0635 \u0627\u0644\u0632\u0631 \u0635\u0639\u0628",
+  FLASHCARD_EASY_DESC: '"\u062A\u062E\u0635\u064A\u0635 \u0627\u0644\u062A\u0633\u0645\u064A\u0629 \u0644\u0644\u0632\u0631 "\u0633\u0647\u0644',
+  FLASHCARD_GOOD_DESC: '"\u062A\u062E\u0635\u064A\u0635 \u0627\u0644\u062A\u0633\u0645\u064A\u0629 \u0644\u0644\u0632\u0631 "\u062C\u064A\u062F',
+  FLASHCARD_HARD_DESC: '"\u062A\u062E\u0635\u064A\u0635 \u0627\u0644\u062A\u0633\u0645\u064A\u0629 \u0644\u0644\u0632\u0631 "\u0635\u0639\u0628',
+  REVIEW_BUTTON_DELAY: "Button Press Delay (ms)",
+  REVIEW_BUTTON_DELAY_DESC: "Add a delay to the review buttons before they can be pressed again.",
+  FLASHCARD_TAGS: "\u0648\u064F\u0633\u0648\u0645 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
+  FLASHCARD_TAGS_DESC: "#2\u0623\u062F\u062E\u0644 \u0627\u0644\u0648\u064F\u0633\u0648\u0645 \u0645\u0641\u0635\u0648\u0644\u0629 \u0628\u0645\u0633\u0627\u0641\u0627\u062A \u0623\u0648 \u0623\u0633\u0637\u0631 \u062C\u062F\u064A\u062F\u0629 \u060C \u0623\u064A \u0628\u0637\u0627\u0642\u0627\u062A# \u0631\u0632\u0645\u06293# \u0631\u0632\u0645\u0629",
+  CONVERT_FOLDERS_TO_DECKS: "\u062A\u062D\u0648\u064A\u0644 \u0627\u0644\u0645\u062C\u0644\u062F\u0627\u062A \u0625\u0644\u0649 \u0645\u0644\u0641\u0627\u062A \u0623\u0635\u0644\u064A\u0629 \u0648 \u0645\u0644\u0641\u0627\u062A \u0627\u0644\u0641\u0631\u0639\u064A\u0629\u061F",
+  CONVERT_FOLDERS_TO_DECKS_DESC: ".\u0647\u0630\u0627 \u0647\u0648 \u0628\u062F\u064A\u0644 \u0644\u062E\u064A\u0627\u0631 \u0648\u0633\u0648\u0645 \u0627\u0644\u0628\u0637\u0627\u0642\u0629 \u0623\u0639\u0644\u0627\u0647",
+  INLINE_SCHEDULING_COMMENTS: "\u062D\u0641\u0638 \u062A\u0639\u0644\u064A\u0642 \u0627\u0644\u062C\u062F\u0648\u0644\u0629 \u0639\u0644\u0649 \u0646\u0641\u0633 \u0627\u0644\u0633\u0637\u0631 \u0645\u062B\u0644 \u0627\u0644\u0633\u0637\u0631 \u0627\u0644\u0623\u062E\u064A\u0631 \u0644\u0644\u0628\u0637\u0627\u0642\u0629 \u061F",
+  INLINE_SCHEDULING_COMMENTS_DESC: "\u0644\u0627 \u062A\u0643\u0633\u0631 \u062A\u0646\u0633\u064A\u0642 \u0627\u0644\u0642\u0627\u0626\u0645\u0629 HTML \u0633\u064A\u0624\u062F\u064A \u062A\u0634\u063A\u064A\u0644 \u0647\u0630\u0627 \u0625\u0644\u0649 \u062C\u0639\u0644 \u062A\u0639\u0644\u064A\u0642\u0627\u062A",
+  BURY_SIBLINGS_TILL_NEXT_DAY: "\u0623\u062E\u0641\u064A \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0634\u0642\u064A\u0642\u0629 \u062D\u062A\u0649 \u0627\u0644\u064A\u0648\u0645 \u0627\u0644\u062A\u0627\u0644\u064A",
+  BURY_SIBLINGS_TILL_NEXT_DAY_DESC: "cloze deletions : \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0634\u0642\u064A\u0642\u0629 \u0647\u064A \u0628\u0637\u0627\u0642\u0627\u062A \u062A\u0645 \u0625\u0646\u0634\u0627\u0624\u0647\u0627 \u0645\u0646 \u0646\u0641\u0633 \u0646\u0635 \u0627\u0644\u0628\u0637\u0627\u0642\u0629 \u0643\u0640",
+  SHOW_CARD_CONTEXT: "\u0625\u0638\u0647\u0627\u0631 \u0627\u0644\u0633\u064A\u0627\u0642 \u0641\u064A \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A\u061F",
+  SHOW_CARD_CONTEXT_DESC: "i.e. Title > Heading 1 > Subheading > ... > Subheading",
+  SHOW_INTERVAL_IN_REVIEW_BUTTONS: "Show next review time in the review buttons",
+  SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC: "Useful to know how far in the future your cards are being pushed.",
+  CARD_MODAL_HEIGHT_PERCENT: "\u0646\u0633\u0628\u0629 \u0627\u0631\u062A\u0641\u0627\u0639 \u0627\u0644\u0628\u0637\u0627\u0642\u0629",
+  CARD_MODAL_SIZE_PERCENT_DESC: "\u064A\u062C\u0628 \u0636\u0628\u0637\u0647\u0627 \u0639\u0644\u0649 100 \u066A \u0639\u0644\u0649 \u0627\u0644\u0647\u0627\u062A\u0641 \u0627\u0644\u0645\u062D\u0645\u0648\u0644 \u0623\u0648 \u0625\u0630\u0627 \u0643\u0627\u0646 \u0644\u062F\u064A\u0643 \u0635\u0648\u0631 \u0643\u0628\u064A\u0631\u0629 \u062C\u062F\u064B\u0627",
+  RESET_DEFAULT: "\u0625\u0639\u0627\u062F\u0629 \u062A\u0639\u064A\u064A\u0646 \u0625\u0644\u0649 \u0627\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A",
+  CARD_MODAL_WIDTH_PERCENT: "\u0646\u0633\u0628\u0629 \u0639\u0631\u0636 \u0627\u0644\u0628\u0637\u0627\u0642\u0629",
+  RANDOMIZE_CARD_ORDER: "\u062A\u0631\u062A\u064A\u0628 \u0628\u0637\u0627\u0642\u0629 \u0639\u0634\u0648\u0627\u0626\u064A \u0623\u062B\u0646\u0627\u0621 \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0629\u061F",
+  REVIEW_CARD_ORDER_WITHIN_DECK: "Order cards in a deck are displayed during review",
+  REVIEW_CARD_ORDER_NEW_FIRST_SEQUENTIAL: "Sequentially within a deck (All new cards first)",
+  REVIEW_CARD_ORDER_DUE_FIRST_SEQUENTIAL: "Sequentially within a deck (All due cards first)",
+  REVIEW_CARD_ORDER_NEW_FIRST_RANDOM: "Randomly within a deck (All new cards first)",
+  REVIEW_CARD_ORDER_DUE_FIRST_RANDOM: "Randomly within a deck (All due cards first)",
+  REVIEW_CARD_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
+  REVIEW_DECK_ORDER: "Order decks are displayed during review",
+  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_SEQUENTIAL: "Sequentially (once all cards in previous deck reviewed)",
+  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Randomly (once all cards in previous deck reviewed)",
+  REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
+  DISABLE_CLOZE_CARDS: "\u061Fcloze \u062A\u0639\u0637\u064A\u0644 \u0628\u0637\u0627\u0642\u0627\u062A",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
+  CONVERT_HIGHLIGHTS_TO_CLOZES: "Convert ==highlights== to clozes",
+  CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'Add/remove the <code>${defaultPattern}</code> from your "Cloze Patterns"',
+  CONVERT_BOLD_TEXT_TO_CLOZES: "Convert **bolded text** to clozes",
+  CONVERT_BOLD_TEXT_TO_CLOZES_DESC: 'Add/remove the <code>${defaultPattern}</code> from your "Cloze Patterns"',
+  CONVERT_CURLY_BRACKETS_TO_CLOZES: "Convert {{curly brackets}} to clozes",
+  CONVERT_CURLY_BRACKETS_TO_CLOZES_DESC: 'Add/remove the <code>${defaultPattern}</code> from your "Cloze Patterns"',
+  CLOZE_PATTERNS: "Cloze Patterns",
+  CLOZE_PATTERNS_DESC: 'Enter cloze patterns separated by newlines. Check the <a href="${docsUrl}">wiki</a> for guidance.',
+  INLINE_CARDS_SEPARATOR: "\u0641\u0627\u0635\u0644 \u0645\u0646 \u0623\u062C\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0645\u0636\u0645\u0646\u0629",
+  FIX_SEPARATORS_MANUALLY_WARNING: "\u0636\u0639 \u0641\u064A \u062D\u0633\u0627\u0628\u0643 \u0623\u0646\u0647 \u0628\u0639\u062F \u062A\u063A\u064A\u064A\u0631 \u0647\u0630\u0627 \u060C \u064A\u062C\u0628 \u0639\u0644\u064A\u0643 \u062A\u0639\u062F\u064A\u0644 \u0623\u064A \u0628\u0637\u0627\u0642\u0627\u062A \u0644\u062F\u064A\u0643 \u0628\u0627\u0644\u0641\u0639\u0644 \u064A\u062F\u0648\u064A\u064B\u0627",
+  INLINE_REVERSED_CARDS_SEPARATOR: "\u0641\u0627\u0635\u0644 \u0645\u0646 \u0623\u062C\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0639\u0643\u0633\u064A\u0629 \u0627\u0644\u0645\u0636\u0645\u0646\u0629",
+  MULTILINE_CARDS_SEPARATOR: "\u0641\u0627\u0635\u0644 \u0645\u0646 \u0623\u062C\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629",
+  MULTILINE_REVERSED_CARDS_SEPARATOR: "\u0641\u0627\u0635\u0644 \u0645\u0646 \u0623\u062C\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0639\u0643\u0633\u064A\u0629 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629",
+  MULTILINE_CARDS_END_MARKER: "\u0627\u0644\u0623\u062D\u0631\u0641 \u0627\u0644\u062A\u064A \u062A\u062F\u0644 \u0639\u0644\u0649 \u0646\u0647\u0627\u064A\u0629 \u0627\u0644\u0643\u0644\u0648\u0632\u0627\u062A \u0648\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u062A\u0639\u0644\u0645 \u0627\u0644\u0645\u062A\u0639\u062F\u062F\u0629 \u0627\u0644\u0623\u0633\u0637\u0631",
+  NOTES: "\u0645\u0644\u0627\u062D\u0638\u0627\u062A",
+  NOTE: "Note",
+  REVIEW_PANE_ON_STARTUP: "\u062A\u0645\u0643\u064A\u0646 \u062C\u0632\u0621 \u0645\u0631\u0627\u062C\u0639\u0629 \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0627\u062A \u0639\u0646\u062F \u0628\u062F\u0621 \u0627\u0644\u062A\u0634\u063A\u064A\u0644",
+  TAGS_TO_REVIEW: "\u0648\u0633\u0648\u0645 \u0644\u0644\u0645\u0631\u0627\u062C\u0639\u0629",
+  TAGS_TO_REVIEW_DESC: "#\u0623\u062F\u062E\u0644 \u0627\u0644\u0648\u0633\u0648\u0645 \u0645\u0641\u0635\u0648\u0644\u0629 \u0628\u0645\u0633\u0627\u0641\u0627\u062A \u0623\u0648 \u062E\u0637\u0648\u0637 \u062C\u062F\u064A\u062F\u0629 \u060C \u0623\u064A : \u0645\u0631\u0627\u062C\u0639\u0629# \u0648\u0633\u06452# \u0648\u0633\u06453",
+  OPEN_RANDOM_NOTE: "\u0627\u0641\u062A\u062D \u0645\u0644\u0627\u062D\u0638\u0629 \u0639\u0634\u0648\u0627\u0626\u064A\u0629 \u0644\u0644\u0645\u0631\u0627\u062C\u0639\u0629",
+  OPEN_RANDOM_NOTE_DESC: "(Pagerank) \u0639\u0646\u062F \u062A\u0639\u0637\u064A\u0644 \u0647\u0630\u0627 \u0627\u0644\u062E\u064A\u0627\u0631 \u060C\u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0627\u062A \u0633\u064A\u062A\u0645 \u062A\u0631\u062A\u064A\u0628\u064F\u0647\u0627 \u062D\u0633\u0628 \u0627\u0644\u0623\u0647\u0645\u064A\u0629",
+  AUTO_NEXT_NOTE: "\u0627\u0641\u062A\u062D \u0627\u0644\u0645\u0644\u0627\u062D\u0638\u0629 \u0627\u0644\u062A\u0627\u0644\u064A\u0629 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627 \u0628\u0639\u062F \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0629",
+  ENABLE_FILE_MENU_REVIEW_OPTIONS: "\u0641\u0639\u0651\u0644 \u062E\u064A\u0627\u0631\u0627\u062A \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0629 \u0641\u064A \u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0645\u0644\u0641 (\u0645\u062B\u0627\u0644: \u0645\u0631\u0627\u062C\u0639\u0629: \u0633\u0647\u0644\u060C \u062C\u064A\u062F\u060C \u0635\u0639\u0628)",
+  ENABLE_FILE_MENU_REVIEW_OPTIONS_DESC: "\u0625\u0630\u0627 \u0642\u0645\u062A \u0628\u062A\u0639\u0637\u064A\u0644 \u062E\u064A\u0627\u0631\u0627\u062A \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0629 \u0641\u064A \u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0645\u0644\u0641\u060C \u064A\u0645\u0643\u0646\u0643 \u0645\u0631\u0627\u062C\u0639\u0629 \u0645\u0644\u0627\u062D\u0638\u0627\u062A\u0643 \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0623\u0648\u0627\u0645\u0631 \u0627\u0644\u0625\u0636\u0627\u0641\u0629 \u0648\u0625\u0630\u0627 \u0643\u0646\u062A \u0642\u062F \u062D\u062F\u062F\u062A\u0647\u0627\u060C \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0645\u0641\u0627\u062A\u064A\u062D \u0627\u0644\u0627\u062E\u062A\u0635\u0627\u0631 \u0627\u0644\u0645\u0631\u062A\u0628\u0637\u0629.",
+  MAX_N_DAYS_REVIEW_QUEUE: "\u0627\u0644\u062D\u062F \u0627\u0644\u0623\u0642\u0635\u0649 \u0644\u0639\u062F\u062F \u0627\u0644\u0623\u064A\u0627\u0645 \u0627\u0644\u062A\u064A \u064A\u062C\u0628 \u0639\u0631\u0636\u0647\u0627 \u0639\u0644\u0649 \u0627\u0644\u0644\u0648\u062D\u0629 \u0627\u0644\u064A\u0645\u0646\u0649",
+  MIN_ONE_DAY: "\u064A\u062C\u0628 \u0623\u0646 \u064A\u0643\u0648\u0646 \u0639\u062F\u062F \u0627\u0644\u0623\u064A\u0627\u0645 1 \u0639\u0644\u0649 \u0627\u0644\u0623\u0642\u0644",
+  VALID_NUMBER_WARNING: "\u064A\u0631\u062C\u0649 \u062A\u0642\u062F\u064A\u0645 \u0631\u0642\u0645 \u0635\u0627\u0644\u062D",
+  UI: "User Interface",
+  OPEN_IN_TAB: "Open in new tab",
+  OPEN_IN_TAB_DESC: "Turn this off to open the plugin in a modal window",
+  SHOW_STATUS_BAR: "Show status bar",
+  SHOW_STATUS_BAR_DESC: "Turn this off to hide the flashcard's review status in Obsidian's status bar",
+  SHOW_RIBBON_ICON: "Show icon in the ribbon bar",
+  SHOW_RIBBON_ICON_DESC: "Turn this off to hide the plugin icon from Obsidian's ribbon bar",
+  INITIALLY_EXPAND_SUBDECKS_IN_TREE: "\u064A\u062C\u0628 \u0623\u0646 \u064A\u0643\u0648\u0646 \u0627\u0644\u0639\u0631\u0636 \u0627\u0644\u0634\u062C\u0631\u064A \u0644\u0644\u0631\u064F\u0632\u0645 \u0645\u0648\u0633\u0639 \u0628\u062D\u064A\u062B \u062A\u0637\u0647\u0631 \u0627\u0644\u0645\u0644\u0641\u0627\u062A \u0627\u0644\u0641\u0631\u0639\u064A\u0629 \u0643\u0644\u0647\u0627",
+  INITIALLY_EXPAND_SUBDECKS_IN_TREE_DESC: " \u0639\u0637\u0644 \u0647\u0630\u0627 \u0627\u0644\u062E\u064A\u0627\u0631 \u0644\u0637\u064A \u0627\u0644\u0631\u064F\u0632\u0645 \u0627\u0644\u0645\u062A\u062F\u0627\u062E\u0644\u0629 \u0641\u064A \u0646\u0641\u0633 \u0627\u0644\u0628\u0637\u0627\u0642\u0629 , \u0645\u0641\u064A\u062F \u0625\u0630\u0627 \u0643\u0627\u0646 \u0644\u062F\u064A\u0643 \u0628\u0637\u0627\u0642\u0627\u062A \u062A\u0646\u062A\u0645\u064A \u0625\u0644\u0649 \u0627\u0644\u0639\u062F\u064A\u062F \u0645\u0646 \u0627\u0644\u0631\u064F\u0632\u0645 \u0641\u064A \u0646\u0641\u0633 \u0627\u0644\u0645\u0644\u0641",
+  ALGORITHM: "\u062E\u0648\u0627\u0631\u0632\u0645\u064A\u0629",
+  CHECK_ALGORITHM_WIKI: '<a href="${algoUrl}">algorithm details</a> :\u0644\u0645\u0632\u064A\u062F \u0645\u0646 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u062A\u062D\u0642\u0642 \u0645\u0646',
+  SM2_OSR_VARIANT: "OSR's variant of SM-2",
+  BASE_EASE: "\u0633\u0647\u0648\u0644\u0629 \u0627\u0644\u0642\u0627\u0639\u062F\u0629",
+  BASE_EASE_DESC: "\u0627\u0644\u062D\u062F \u0627\u0644\u0623\u062F\u0646\u0649 = 130 \u060C \u0648\u064A\u0641\u0636\u0644 \u062D\u0648\u0627\u0644\u064A 250.",
+  BASE_EASE_MIN_WARNING: "\u064A\u062C\u0628 \u0623\u0646 \u062A\u0643\u0648\u0646 \u0633\u0647\u0648\u0644\u0629 \u0627\u0644\u0642\u0627\u0639\u062F\u0629 130 \u0639\u0644\u0649 \u0627\u0644\u0623\u0642\u0644.",
+  LAPSE_INTERVAL_CHANGE: "\u0627\u0644\u0641\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A \u064A\u062A\u063A\u064A\u0631 \u0639\u0646\u062F \u0645\u0631\u0627\u062C\u0639\u0629 \u0628\u0637\u0627\u0642\u0629/\u0645\u0644\u0627\u062D\u0638\u0629 \u0635\u0639\u0628\u0629",
+  LAPSE_INTERVAL_CHANGE_DESC: "newInterval = oldInterval * intervalChange / 100.",
+  EASY_BONUS: "\u0645\u0643\u0627\u0641\u0623\u0629 \u0633\u0647\u0644\u0629",
+  EASY_BONUS_DESC: "\u062A\u062A\u064A\u062D \u0644\u0643 \u0627\u0644\u0645\u0643\u0627\u0641\u0623\u0629 \u0627\u0644\u0633\u0647\u0644\u0629 \u0636\u0628\u0637 \u0627\u0644\u0641\u0631\u0642 \u0641\u064A \u0627\u0644\u0641\u0648\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A\u0629 \u0628\u064A\u0646 \u0627\u0644\u0631\u062F \u0627\u0644\u062C\u064A\u062F \u0648\u0627\u0644\u0633\u0647\u0644 \u0639\u0644\u0649 \u0628\u0637\u0627\u0642\u0629/\u0645\u0644\u0627\u062D\u0638\u0629 (\u0627\u0644\u062D\u062F \u0627\u0644\u0623\u062F\u0646\u0649 = 100 \u066A).",
+  EASY_BONUS_MIN_WARNING: "\u064A\u062C\u0628 \u0623\u0646 \u062A\u0643\u0648\u0646 \u0627\u0644\u0645\u0643\u0627\u0641\u0623\u0629 \u0627\u0644\u0633\u0647\u0644\u0629 100 \u0639\u0644\u0649 \u0627\u0644\u0623\u0642\u0644.",
+  LOAD_BALANCE: "Enable load balancer",
+  LOAD_BALANCE_DESC: `Slightly tweaks the interval so that the number of reviews per day is more consistent.
+        It's like Anki's fuzz but instead of being random, it picks the day with the least amount of reviews.
+        It's turned off for small intervals.`,
+  MAX_INTERVAL: "Maximum interval in days",
+  MAX_INTERVAL_DESC: "\u064A\u062A\u064A\u062D \u0644\u0643 \u0648\u0636\u0639 \u062D\u062F \u0623\u0639\u0644\u0649  \u0644\u0644\u0641\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A (\u0627\u0641\u062A\u0631\u0627\u0636\u064A = 100 \u0639\u0627\u0645).",
+  MAX_INTERVAL_MIN_WARNING: "\u064A\u062C\u0628 \u0623\u0646 \u064A\u0643\u0648\u0646 \u0627\u0644\u062D\u062F \u0627\u0644\u0623\u0642\u0635\u0649 \u0644\u0644\u0641\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A \u0644\u0645\u062F\u0629 \u064A\u0648\u0645 \u0648\u0627\u062D\u062F \u0639\u0644\u0649 \u0627\u0644\u0623\u0642\u0644.",
+  MAX_LINK_CONTRIB: "\u0623\u0642\u0635\u0649 \u0645\u0633\u0627\u0647\u0645\u0629 \u0627\u0631\u062A\u0628\u0627\u0637",
+  MAX_LINK_CONTRIB_DESC: "\u0623\u0642\u0635\u0649 \u0645\u0633\u0627\u0647\u0645\u0629 \u0644\u0644\u0633\u0647\u0648\u0644\u0629 \u0627\u0644\u0645\u0631\u062C\u062D\u0629 \u0644\u0644\u0645\u0644\u0627\u062D\u0638\u0627\u062A \u0627\u0644\u0645\u0631\u062A\u0628\u0637\u0629 \u0628\u0627\u0644\u0633\u0647\u0648\u0644\u0629 \u0627\u0644\u0623\u0648\u0644\u064A\u0629.",
+  LOGGING: "\u062A\u0633\u062C\u064A\u0644",
+  DISPLAY_SCHEDULING_DEBUG_INFO: "\u0639\u0631\u0636 \u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0627\u0644\u062A\u0635\u062D\u064A\u062D \u0639\u0644\u0649 \u0648\u062D\u062F\u0629 \u062A\u062D\u0643\u0645 \u0627\u0644\u0645\u0637\u0648\u0631",
+  DISPLAY_PARSER_DEBUG_INFO: "Show the parser's debugging information on the developer console",
+  SCHEDULING: "Scheduling",
+  EXPERIMENTAL: "Experimental",
+  HELP: "Help",
+  STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
+  // sidebar.ts
+  NOTES_REVIEW_QUEUE: "\u0645\u0644\u0627\u062D\u0638\u0627\u062A \u0642\u0627\u0626\u0645\u0629 \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0629",
+  CLOSE: "\u0623\u063A\u0644\u0642",
+  NEW: "\u062C\u062F\u064A\u062F",
+  YESTERDAY: "\u0627\u0644\u0628\u0627\u0631\u062D\u0629",
+  TODAY: "\u0627\u0644\u064A\u0648\u0645",
+  TOMORROW: "\u0627\u0644\u063A\u062F",
+  // stats-modal.tsx
+  STATS_TITLE: "\u0625\u062D\u0635\u0627\u0626\u064A\u0627\u062A",
+  MONTH: "\u0634\u0647\u0631",
+  QUARTER: "\u0631\u0628\u0639 \u0627\u0644\u0633\u0646\u0629",
+  YEAR: "\u0633\u0646\u0629",
+  LIFETIME: "",
+  FORECAST: "",
+  FORECAST_DESC: "\u0639\u062F\u062F \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0645\u0633\u062A\u062D\u0642\u0629 \u0641\u064A \u0627\u0644\u0645\u0633\u062A\u0642\u0628\u0644",
+  SCHEDULED: "\u0627\u0644\u0645\u0642\u0631\u0631",
+  DAYS: "\u0623\u064A\u0627\u0645",
+  NUMBER_OF_CARDS: "\u0639\u062F\u062F \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
+  REVIEWS_PER_DAY: "\u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0627\u062A/\u0627\u0644\u064A\u0648\u0645 ${avg} :\u0645\u062A\u0648\u0633\u0637",
+  INTERVALS: "\u0641\u0648\u0627\u0635\u0644 \u0632\u0645\u0646\u064A\u0629",
+  INTERVALS_DESC: "\u0627\u0644\u062A\u0623\u062E\u064A\u0631 \u062D\u062A\u0649 \u064A\u062A\u0645 \u0639\u0631\u0636 \u0627\u0644\u0645\u0631\u0627\u062C\u0639\u0627\u062A \u0645\u0631\u0629 \u0623\u062E\u0631\u0649",
+  COUNT: "\u0639\u062F\u062F",
+  INTERVALS_SUMMARY: "${longest} : \u0623\u0637\u0648\u0644 \u0641\u0627\u0635\u0644 \u0632\u0645\u0646\u064A ,${avg} :\u0645\u062A\u0648\u0633\u0637 \u0627\u0644\u0641\u0627\u0635\u0644 \u0627\u0644\u0632\u0645\u0646\u064A",
+  EASES: "\u0627\u0644\u0633\u0647\u0648\u0644\u0629",
+  EASES_SUMMARY: "${avgEase} :\u0645\u062A\u0648\u0633\u0637 \u0627\u0644\u0633\u0647\u0648\u0644\u0629",
+  EASE: "Ease",
+  CARD_TYPES: "\u0623\u0646\u0648\u0627\u0639 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
+  CARD_TYPES_DESC: "\u0648\u0647\u0630\u0627 \u064A\u0634\u0645\u0644 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0645\u062E\u0641\u064A\u0629 \u0643\u0630\u0644\u0643 \u060C \u0625\u0646 \u0648\u062C\u062F\u062A",
+  CARD_TYPE_NEW: "\u062C\u062F\u064A\u062F\u0629",
+  CARD_TYPE_YOUNG: "\u0635\u063A\u064A\u0631\u0629",
+  CARD_TYPE_MATURE: "\u0646\u0627\u0636\u062C\u0629",
+  CARD_TYPES_SUMMARY: " ${totalCardsCount} :\u0625\u062C\u0645\u0627\u0644\u064A \u0639\u062F\u062F \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A",
+  SEARCH: "Search",
+  PREVIOUS: "Previous",
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
+};
+var ar_default = ar;
+
+// src/lang/locale/bn.ts
+var bn = {
+  ...en_default
+};
+var bn_default = bn;
+
+// src/lang/locale/cz.ts
+var cz = {
+  ...en_default,
+  // flashcard-modal.tsx
+  DECKS: "Bal\xED\u010Dky",
+  DUE_CARDS: "Karti\u010Dky po term\xEDnu",
+  NEW_CARDS: "Nov\xE9 karti\u010Dky",
+  TOTAL_CARDS: "Karti\u010Dek celkem",
+  BACK: "Back",
+  SKIP: "Skip",
+  EDIT_CARD: "Edit Card",
+  RESET_CARD_PROGRESS: "Vynulovat pokrok karti\u010Dky",
+  HARD: "T\u011B\u017Ek\xE9",
+  GOOD: "Dobr\xE9",
+  EASY: "Jednoduch\xE9",
+  SHOW_ANSWER: "Uk\xE1zat odpov\u011B\u010F",
+  CARD_PROGRESS_RESET: "Pokrok karti\u010Dky byl vynulov\xE1n.",
+  SAVE: "Save",
+  CANCEL: "Cancel",
+  NO_INPUT: "No input provided.",
+  CURRENT_EASE_HELP_TEXT: "Current Ease: ",
+  CURRENT_INTERVAL_HELP_TEXT: "Current Interval: ",
+  CARD_GENERATED_FROM: "Generated from: ${notePath}",
+  VIEW_CARD_INFO: "View Card Info",
+  // main.ts
+  OPEN_NOTE_FOR_REVIEW: "Otev\u0159\xEDt pozn\xE1mku k revizi",
+  REVIEW_CARDS: "Pozn\xE1mek k revizi",
+  REVIEW_DIFFICULTY_FILE_MENU: "Revize: ${difficulty}",
+  REVIEW_NOTE_DIFFICULTY_CMD: "Ozna\u010Dit pozn\xE1mku jako ${difficulty}",
+  REVIEW_ALL_CARDS: "Revidovat karti\u010Dky ve v\u0161ech pozn\xE1mk\xE1ch",
+  CRAM_ALL_CARDS: "Select a deck to cram",
+  REVIEW_CARDS_IN_NOTE: "Revidovat karti\u010Dky v t\xE9to pozn\xE1mce.",
+  CRAM_CARDS_IN_NOTE: "Cram karti\u010Dky v t\xE9to pozn\xE1mce.",
+  VIEW_STATS: "Uk\xE1zat statistiky",
+  OPEN_REVIEW_QUEUE_VIEW: "Open Notes Review Queue in sidebar",
+  STATUS_BAR: "Revize: ${dueNotesCount} pozn\xE1mek, ${dueFlashcardsCount} karti\u010Dek po term\xEDnu",
+  SYNC_TIME_TAKEN: "Synchronizace trvala ${t}ms",
+  NOTE_IN_IGNORED_FOLDER: "Pozn\xE1mka je ulo\u017Eena v ignorovan\xE9 slo\u017Ece (zkontrolujte nastaven\xED).",
+  PLEASE_TAG_NOTE: "Pros\xEDm ozna\u010Dne pozn\xE1mku odpov\xEDdaj\xEDc\xEDm tagem pro revizi (v nastaven\xED).",
+  RESPONSE_RECEIVED: "Odpov\u011B\u010F p\u0159ijata.",
+  NO_DECK_EXISTS: "Neexistuje \u017E\xE1dn\xFD bal\xED\u010Dek pro ${deckName}",
+  ALL_CAUGHT_UP: "V\u0161e zrevidov\xE1no",
+  // scheduling.ts
+  DAYS_STR_IVL: "${interval} den/dn\xED",
+  MONTHS_STR_IVL: "${interval} m\u011Bs\xEDc(\u016F)",
+  YEARS_STR_IVL: "${interval} rok(\u016F)",
+  DAYS_STR_IVL_MOBILE: "${interval}d",
+  MONTHS_STR_IVL_MOBILE: "${interval}m",
+  YEARS_STR_IVL_MOBILE: "${interval}r",
+  // settings.ts
+  SETTINGS_HEADER: "Spaced Repetition",
+  GROUP_TAGS_FOLDERS: "Tags & Folders",
+  GROUP_FLASHCARD_REVIEW: "Flashcard Review",
+  GROUP_FLASHCARD_SEPARATORS: "Flashcard Separators",
+  GROUP_DATA_STORAGE: "Storage of Scheduling Data",
+  GROUP_DATA_STORAGE_DESC: "Choose where to store the scheduling data",
+  GROUP_FLASHCARDS_NOTES: "Flashcards & Notes",
+  GROUP_CONTRIBUTING: "Contributing",
+  CHECK_WIKI: 'Pro v\xEDce informac\xED jd\u011Bte na <a href="${wikiUrl}">wiki</a>.',
+  GITHUB_DISCUSSIONS: 'Visit the <a href="${discussionsUrl}">discussions</a> section for Q&A help, feedback, and general discussion.',
+  GITHUB_ISSUES: 'Raise an issue <a href="${issuesUrl}">here</a> if you have a feature request or a bug report.',
+  GITHUB_SOURCE_CODE: 'The project\'s source code is available on <a href="${githubProjectUrl}">GitHub</a>.',
+  CODE_CONTRIBUTION_INFO: '<a href="${codeContributionUrl}">Here\'s</a> how to contribute code to the plugin.',
+  TRANSLATION_CONTRIBUTION_INFO: '<a href="${translationContributionUrl}">Here\'s</a> how to translate the plugin to another language.',
+  FOLDERS_TO_IGNORE: "Ignorovan\xE9 slo\u017Eky",
+  FOLDERS_TO_IGNORE_DESC: "Enter folder paths or glob patterns on separate lines e.g. Templates/Scripts or **/*.excalidraw.md. This setting is common to both flashcards and notes.",
+  OBSIDIAN_INTEGRATION: "Integration into Obsidian",
+  FLASHCARDS: "Karti\u010Dky",
+  FLASHCARD_EASY_LABEL: "Easy Button Text",
+  FLASHCARD_GOOD_LABEL: "Good Button Text",
+  FLASHCARD_HARD_LABEL: "Hard Button Text",
+  FLASHCARD_EASY_DESC: 'Customize the label for the "Easy" Button',
+  FLASHCARD_GOOD_DESC: 'Customize the label for the "Good" Button',
+  FLASHCARD_HARD_DESC: 'Customize the label for the "Hard" Button',
+  REVIEW_BUTTON_DELAY: "Button Press Delay (ms)",
+  REVIEW_BUTTON_DELAY_DESC: "Add a delay to the review buttons before they can be pressed again.",
+  FLASHCARD_TAGS: "Tag pro karti\u010Dky",
+  FLASHCARD_TAGS_DESC: "Zadete tagy ood\u011Blen\xE9 mezerou nebo od\u0159\xE1dkov\xE1n\xEDm nap\u0159\xEDklad. #karti\u010Dky #bal\xED\u010Dke2 #bal\xED\u010Dek3.",
+  CONVERT_FOLDERS_TO_DECKS: "P\u0159ev\xE9st slo\u017Eky na bal\xED\u010Dky a podbal\xED\u010Dky?",
+  CONVERT_FOLDERS_TO_DECKS_DESC: "Toto je alternativa k tag\u016Fm karti\u010Dek viz nastaven\xED v\xFD\u0161e.",
+  INLINE_SCHEDULING_COMMENTS: "Ulo\u017Eit pl\xE1novac\xED koment\xE1\u0159 na stejn\xFD \u0159\xE1dek jako posledn\xED polo\u017Eka karti\u010Dky?",
+  INLINE_SCHEDULING_COMMENTS_DESC: "Zapnut\xED t\xE9to volby zp\u016Fsob\xED, \u017Ee HTML koment\xE1\u0159e nebudou rozb\xEDjet form\xE1tov\xE1n\xED list\u016F.",
+  BURY_SIBLINGS_TILL_NEXT_DAY: "Odlo\u017Eit p\u0159\xEDbuzn\xE9 karti\u010Dky na dal\u0161\xED den?",
+  BURY_SIBLINGS_TILL_NEXT_DAY_DESC: "P\u0159\xEDbuzn\xE9 karti\u010Dky jsou karti\u010Dky generovan\xE9 z textu stejn\xE9 pozn\xE1mky nap\u0159\xEDklad cloze smaz\xE1n\xED",
+  SHOW_CARD_CONTEXT: "Uk\xE1zat kontext v karti\u010Dce?",
+  SHOW_CARD_CONTEXT_DESC: "nap\u0159\xEDklad Titulek > Nadpis1 > Podnadpis > ... > Podnadpis",
+  SHOW_INTERVAL_IN_REVIEW_BUTTONS: "Show next review time in the review buttons",
+  SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC: "Useful to know how far in the future your cards are being pushed.",
+  CARD_MODAL_HEIGHT_PERCENT: "V\xFD\u0161ka karti\u010Dek v procentech",
+  CARD_MODAL_SIZE_PERCENT_DESC: "M\u011Blo by b\xFDt nastaveno na 100% na mobilu nebo kdy\u017E pou\u017E\xEDv\xE1te velk\xE9 obr\xE1zky",
+  RESET_DEFAULT: "Resetovat v\xFDchoz\xED nastaven\xED",
+  CARD_MODAL_WIDTH_PERCENT: "\u0160\xED\u0159ka karti\u010Dek v procentech",
+  RANDOMIZE_CARD_ORDER: "N\xE1hodn\u011B zm\u011Bnit po\u0159ad\xED karti\u010Dek b\u011Bhem revize?",
+  REVIEW_CARD_ORDER_WITHIN_DECK: "Order cards in a deck are displayed during review",
+  REVIEW_CARD_ORDER_NEW_FIRST_SEQUENTIAL: "Sequentially within a deck (All new cards first)",
+  REVIEW_CARD_ORDER_DUE_FIRST_SEQUENTIAL: "Sequentially within a deck (All due cards first)",
+  REVIEW_CARD_ORDER_NEW_FIRST_RANDOM: "Randomly within a deck (All new cards first)",
+  REVIEW_CARD_ORDER_DUE_FIRST_RANDOM: "Randomly within a deck (All due cards first)",
+  REVIEW_CARD_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
+  REVIEW_DECK_ORDER: "Order decks are displayed during review",
+  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_SEQUENTIAL: "Sequentially (once all cards in previous deck reviewed)",
+  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Randomly (once all cards in previous deck reviewed)",
+  REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Random card from random deck",
+  DISABLE_CLOZE_CARDS: "Vypnout cloze karti\u010Dky?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Convert cloze patterns to input fields",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Replace cloze patterns with input fields when reviewing cloze cards.",
+  CONVERT_HIGHLIGHTS_TO_CLOZES: "P\u0159ev\xE9st ==zv\xFDrazn\u011Bn\xED== na clozes?",
+  CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'P\u0159idat/odstranit <code>${defaultPattern}</code> z va\u0161ich "Cloze vzor\u016F"',
+  CONVERT_BOLD_TEXT_TO_CLOZES: "P\u0159ev\xE9st **tu\u010Dn\xFD text** na clozes?",
+  CONVERT_BOLD_TEXT_TO_CLOZES_DESC: 'P\u0159idat/odstranit <code>${defaultPattern}</code> z va\u0161ich "Cloze vzor\u016F"',
+  CONVERT_CURLY_BRACKETS_TO_CLOZES: "P\u0159ev\xE9st {{slo\u017Een\xE9 z\xE1vorky}} na clozes?",
+  CONVERT_CURLY_BRACKETS_TO_CLOZES_DESC: 'P\u0159idat/odstranit <code>${defaultPattern}</code> z va\u0161ich "Cloze vzor\u016F"',
+  CLOZE_PATTERNS: "Cloze vzory",
+  CLOZE_PATTERNS_DESC: 'Zadejte cloze vzory odd\u011Blen\xE9 od\u0159\xE1dkov\xE1n\xEDm. Check the <a href="${docsUrl}">wiki</a> for guidance.',
+  INLINE_CARDS_SEPARATOR: "Odd\u011Blova\u010D pro inline karti\u010Dky",
+  FIX_SEPARATORS_MANUALLY_WARNING: "Pozor. Jakmile toto zm\u011Bn\xEDte, budete muset ru\u010Dn\u011B upravit v\u0161echny existuj\xEDc\xED karti\u010Dky.",
+  INLINE_REVERSED_CARDS_SEPARATOR: "Odd\u011Blova\u010D pro oto\u010Den\xE9 inline karti\u010Dky",
+  MULTILINE_CARDS_SEPARATOR: "Odd\u011Blova\u010D pro v\xEDce\u0159\xE1dkov\xE9 karti\u010Dky",
+  MULTILINE_REVERSED_CARDS_SEPARATOR: "Odd\u011Blova\u010D pro v\xEDce\u0159\xE1dkove oto\u010Den\xE9 karti\u010Dky",
+  MULTILINE_CARDS_END_MARKER: "Znaky ozna\u010Duj\xEDc\xED konec clozes a v\xEDce\u0159\xE1dkov\xFDch flash karet",
+  NOTES: "Pozn\xE1mky",
+  NOTE: "Note",
+  REVIEW_PANE_ON_STARTUP: "Enable note review pane on startup",
+  TAGS_TO_REVIEW: "Tag pro revizi",
+  TAGS_TO_REVIEW_DESC: "Zadejte tagy odd\u011Blen\xE9 mezerami nebo od\u0159\xE1dkov\xE1n\xEDm nap\u0159\xEDklad #review #tag2 #tag3.",
+  OPEN_RANDOM_NOTE: "Otev\u0159\xEDt n\xE1hodnou pozn\xE1mku pro revizi",
+  OPEN_RANDOM_NOTE_DESC: "Pokud toto vypnete, pozn\xE1mky budou \u0159azeny dle d\u016Fle\u017Eitosti (PageRank).",
+  AUTO_NEXT_NOTE: "Otev\u0159\xEDt automaticky dal\u0161\xED pozn\xE1mku po dokon\u010Den\xED revize",
+  ENABLE_FILE_MENU_REVIEW_OPTIONS: "Povolte mo\u017Enosti revize v nab\xEDdce souboru (nap\u0159. Revize: Jednoduch\xE9, Dobr\xE9, T\u011B\u017Ek\xE9)",
+  ENABLE_FILE_MENU_REVIEW_OPTIONS_DESC: "Pokud v nab\xEDdce souboru zak\xE1\u017Eete mo\u017Enosti revize, m\u016F\u017Eete sv\xE9 pozn\xE1mky revidovat pomoc\xED p\u0159\xEDkaz\u016F pluginu a, pokud jste je definovali, pomoc\xED p\u0159i\u0159azen\xFDch kl\xE1vesov\xFDch zkratek.",
+  MAX_N_DAYS_REVIEW_QUEUE: "Maxim\xE1ln\xED po\u010Det dn\xED zobrazen\xFDch v prav\xE9m panelu",
+  MIN_ONE_DAY: "Po\u010Det dn\xED mus\xED b\xFDt minim\xE1ln\u011B 1.",
+  VALID_NUMBER_WARNING: "Pros\xEDm zadejte validn\xED \u010D\xEDslo.",
+  UI: "P\u0159edvolby u\u017Eivatelsk\xE9ho rozhran\xED",
+  OPEN_IN_TAB: "Open in new tab",
+  OPEN_IN_TAB_DESC: "Turn this off to open the plugin in a modal window",
+  SHOW_STATUS_BAR: "Show status bar",
+  SHOW_STATUS_BAR_DESC: "Turn this off to hide the flashcard's review status in Obsidian's status bar",
+  SHOW_RIBBON_ICON: "Show icon in the ribbon bar",
+  SHOW_RIBBON_ICON_DESC: "Turn this off to hide the plugin icon from Obsidian's ribbon bar",
+  INITIALLY_EXPAND_SUBDECKS_IN_TREE: "Stromy bal\xED\u010Dky by m\u011Bly b\xFDt zpo\u010D\xE1tku zobrazeny jako rozbalen\xE9",
+  INITIALLY_EXPAND_SUBDECKS_IN_TREE_DESC: "Vypn\u011Bte toto, chcete-li sbalit vno\u0159en\xE9 bal\xED\u010Dky na stejn\xE9 kart\u011B. To je u\u017Eite\u010Dn\xE9, pokud m\xE1te karti\u010Dky, kter\xE9 pat\u0159\xED k mnoha bal\xED\u010Dk\u016Fm ve stejn\xE9m souboru.",
+  ALGORITHM: "Algoritmus",
+  CHECK_ALGORITHM_WIKI: 'Pro v\xEDce informac\xED jd\u011Bte na <a href="${algoUrl}">popis algoritmu</a>.',
+  SM2_OSR_VARIANT: "OSR's variant of SM-2",
+  BASE_EASE: "Z\xE1kladn\xED slo\u017Eitost",
+  BASE_EASE_DESC: "minimum = 130, nejl\xE9pe p\u0159ibli\u017En\u011B 250.",
+  BASE_EASE_MIN_WARNING: "Z\xE1kladn\xED slo\u017Eitost mus\xED b\xFDt minim\xE1ln\u011B 130.",
+  LAPSE_INTERVAL_CHANGE: "Zm\u011Bna intervalu pokud karti\u010Dku/pozn\xE1mku ozna\u010D\xEDte jako slo\u017Eitou",
+  LAPSE_INTERVAL_CHANGE_DESC: "nov\xFD_inteval = star\xFD_interval * zm\u011Bna_intevalu / 100.",
+  EASY_BONUS: "Bonus pro jednoduch\xE9",
+  EASY_BONUS_DESC: "Tento bonus umo\u017E\u0148uje nastavit rozd\xEDl intervalu mezi jednoduch\xFDmi a dobr\xFDmi karti\u010Dkami/pozn\xE1mkami (minimum = 100%).",
+  EASY_BONUS_MIN_WARNING: "Bonus pro jednoduchost mus\xED b\xFDt minim\xE1ln\u011B 100.",
+  LOAD_BALANCE: "Enable load balancer",
+  LOAD_BALANCE_DESC: `Slightly tweaks the interval so that the number of reviews per day is more consistent.
+        It's like Anki's fuzz but instead of being random, it picks the day with the least amount of reviews.
+        It's turned off for small intervals.`,
+  MAX_INTERVAL: "Maximum interval in days",
+  MAX_INTERVAL_DESC: "Umo\u017E\u0148uje nastavit horn\xED limit pro interval (defaultn\u011B = 100 let).",
+  MAX_INTERVAL_MIN_WARNING: "Maxim\xE1ln\xED interval mus\xED b\xFDt alespo\u0148 1 den.",
+  MAX_LINK_CONTRIB: "Maxim\xE1ln\xED p\u0159\xEDsp\u011Bv\u011Bk prolinkov\xE1n\xED",
+  MAX_LINK_CONTRIB_DESC: "Maxim\xE1ln\xED p\u0159\xEDsp\u011Bvek v\xE1\u017Een\xE9 slo\u017Eitosti prolinkovan\xFDch pozn\xE1mek pou\u017Eit\xFD pro ur\u010Den\xED po\u010D\xE1te\u010Dn\xED slo\u017Eitosti.",
+  LOGGING: "Zaznamen\xE1v\xE1m",
+  DISPLAY_SCHEDULING_DEBUG_INFO: "Zobrazit informace pro lad\u011Bn\xED na v\xFDvoj\xE1\u0159sk\xE9 konzoli",
+  DISPLAY_PARSER_DEBUG_INFO: "Show the parser's debugging information on the developer console",
+  SCHEDULING: "Scheduling",
+  EXPERIMENTAL: "Experimental",
+  HELP: "Help",
+  STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
+  // sidebar.ts
+  NOTES_REVIEW_QUEUE: "Fronta pozn\xE1mek k revizi",
+  CLOSE: "Uzav\u0159en\xE9",
+  NEW: "Nov\xE9",
+  YESTERDAY: "V\u010Dera",
+  TODAY: "Dnes",
+  TOMORROW: "Z\xEDtra",
+  // stats-modal.tsx
+  STATS_TITLE: "Statistiky",
+  MONTH: "M\u011Bs\xEDc",
+  QUARTER: "\u010Ctvrtlet\xED",
+  YEAR: "Rok",
+  LIFETIME: "Celkov\u011B",
+  FORECAST: "P\u0159edpov\u011B\u010F",
+  FORECAST_DESC: "Celkov\xFD po\u010Det karti\u010Dek, kter\xFDm vypr\u0161\xED term\xEDn",
+  SCHEDULED: "Napl\xE1nov\xE1no",
+  DAYS: "Dn\xED",
+  NUMBER_OF_CARDS: "Po\u010Det karti\u010Dek",
+  REVIEWS_PER_DAY: "Pr\u016Fm\u011Br: ${avg} revize/den",
+  INTERVALS: "Intervaly",
+  INTERVALS_DESC: "Doba, za kterou bude znovu zobrazeno k revize",
+  COUNT: "Po\u010Det",
+  INTERVALS_SUMMARY: "Pr\u016Fm\u011Brn\xFD interval: ${avg}, Nejdel\u0161\xED interval: ${longest}",
+  EASES: "Slo\u017Eitost",
+  EASES_SUMMARY: "Pr\u016Fm\u011Brn\xE1 slo\u017Eitost: ${avgEase}",
+  EASE: "Ease",
+  CARD_TYPES: "Typy karti\u010Dek",
+  CARD_TYPES_DESC: "Obsahuje i odlo\u017Een\xE9 karti\u010Dky (pokud existuj\xED)",
+  CARD_TYPE_NEW: "Nov\xE1",
+  CARD_TYPE_YOUNG: "Mlad\xE1",
+  CARD_TYPE_MATURE: "Dosp\u011Bl\xE1",
+  CARD_TYPES_SUMMARY: "Karti\u010Dek celkem: ${totalCardsCount}",
+  SEARCH: "Search",
+  PREVIOUS: "Previous",
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Settings",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Click on the 3 dots next to the note to open the review menu.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Open deck for review",
+  UPDATE_AVAILABLE: "Update available",
+  // Statistics
+  PERIOD_TITLE: "Period",
+  PERIOD_DESC: "Period of time to display in the charts",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
+};
+var cz_default = cz;
+
+// src/lang/locale/da.ts
+var dn = {
+  ...en_default
+};
+var da_default = dn;
+
+// src/lang/locale/de.ts
+var de = {
+  ...en_default,
+  // flashcard-modal.tsx
+  DECKS: "Stapel",
+  DUE_CARDS: "Anstehende Karten",
+  NEW_CARDS: "Neue Karten",
+  TOTAL_CARDS: "Alle Karten",
+  BACK: "Zur\xFCck",
+  SKIP: "\xDCberspringen",
+  EDIT_CARD: "Karte bearbeiten",
+  RESET_CARD_PROGRESS: "Kartenfortschritt zur\xFCcksetzten",
+  HARD: "Schwer",
+  GOOD: "Gut",
+  EASY: "Einfach",
+  SHOW_ANSWER: "Zeige Antwort",
+  CARD_PROGRESS_RESET: "Kartenfortschritt wurde zur\xFCckgesetzt.",
+  SAVE: "Speichern",
+  CANCEL: "Abbrechen",
+  NO_INPUT: "Keine Eingabe erhalten.",
+  CURRENT_EASE_HELP_TEXT: "Aktuelle Schwierigkeit: ",
+  CURRENT_INTERVAL_HELP_TEXT: "Aktueller Intervall: ",
+  CARD_GENERATED_FROM: "Erstellt von: ${notePath}",
+  VIEW_CARD_INFO: "Karteninformationen anzeigen",
+  // main.ts
+  OPEN_NOTE_FOR_REVIEW: "Notiz zur Wiederholung \xF6ffnen",
+  REVIEW_CARDS: "Lernkarten wiederholen",
+  REVIEW_DIFFICULTY_FILE_MENU: "Notizen wiederholen als: ${difficulty}",
+  REVIEW_NOTE_DIFFICULTY_CMD: "Notizen wiederholen als: ${difficulty}",
+  REVIEW_ALL_CARDS: "Alle Lernkarten wiederholen",
+  CRAM_ALL_CARDS: "W\xE4hle ein Stapel zum pauken",
+  REVIEW_CARDS_IN_NOTE: "Lernkarten in dieser Notiz wiederholen",
+  CRAM_CARDS_IN_NOTE: "Lernkarten in dieser Notiz pauken.",
+  VIEW_STATS: "Statistiken anzeigen",
+  OPEN_REVIEW_QUEUE_VIEW: "\xD6ffne \xDCberpr\xFCfungswarteschlage in der Seitenleiste",
+  STATUS_BAR: "Wiederholung: ${dueNotesCount} Notiz(en), ${dueFlashcardsCount} Karte(n) anstehend",
+  SYNC_TIME_TAKEN: "Synchronisierung dauerte ${t}ms",
+  NOTE_IN_IGNORED_FOLDER: "Notiz befindet sich in einem ausgeschlossenen Ordner (siehe Einstellungen).",
+  PLEASE_TAG_NOTE: "Bitte die Notiz f\xFCr Wiederholungen entsprechend taggen (siehe Einstellungen).",
+  RESPONSE_RECEIVED: "Antwort erhalten.",
+  NO_DECK_EXISTS: "Kein Stapel f\xFCr ${deckName} gefunden.",
+  ALL_CAUGHT_UP: "Yuhu! Alles geschafft! :D.",
+  // scheduling.ts
+  DAYS_STR_IVL: "${interval} Tag(e)",
+  MONTHS_STR_IVL: "${interval} Monat(e)",
+  YEARS_STR_IVL: "${interval} Jahr(e)",
+  DAYS_STR_IVL_MOBILE: "${interval}t",
+  MONTHS_STR_IVL_MOBILE: "${interval}m",
+  YEARS_STR_IVL_MOBILE: "${interval}j",
+  // settings.ts
+  SETTINGS_HEADER: "Spaced Repetition",
+  GROUP_TAGS_FOLDERS: "Tags & Ordner",
+  GROUP_FLASHCARD_REVIEW: "Flashcard Review",
+  GROUP_FLASHCARD_SEPARATORS: "Flashcard Separators",
+  GROUP_DATA_STORAGE: "Storage of Scheduling Data",
+  GROUP_DATA_STORAGE_DESC: "Choose where to store the scheduling data",
+  GROUP_FLASHCARDS_NOTES: "Flashcards & Notes",
+  GROUP_CONTRIBUTING: "Helfen",
+  CHECK_WIKI: 'Weitere Informationen gibt es im <a href="${wikiUrl}">Wiki</a> (english).',
+  GITHUB_DISCUSSIONS: 'Visit the <a href="${discussionsUrl}">discussions</a> section for Q&A help, feedback, and general discussion.',
+  GITHUB_ISSUES: 'Raise an issue <a href="${issuesUrl}">here</a> if you have a feature request or a bug report.',
+  GITHUB_SOURCE_CODE: 'The project\'s source code is available on <a href="${githubProjectUrl}">GitHub</a>.',
+  CODE_CONTRIBUTION_INFO: '<a href="${codeContributionUrl}">Here\'s</a> how to contribute code to the plugin.',
+  TRANSLATION_CONTRIBUTION_INFO: '<a href="${translationContributionUrl}">Here\'s</a> how to translate the plugin to another language.',
+  FOLDERS_TO_IGNORE: "Ausgeschlossene Ordner",
+  FOLDERS_TO_IGNORE_DESC: "Geben Sie Pfad- oder Globalemuster in separaten Zeilen an, z.B. Templates/Scripts oder **/*.excalidraw.md. Diese Einstellung gilt f\xFCr Flashcards und Notizen.",
+  OBSIDIAN_INTEGRATION: "Integration into Obsidian",
+  FLASHCARDS: "Lernkarten",
+  FLASHCARD_EASY_LABEL: "Einfach Knopf Text",
+  FLASHCARD_GOOD_LABEL: "Gut Knopf Text",
+  FLASHCARD_HARD_LABEL: "Schwer Knopf Text",
+  FLASHCARD_GOOD_DESC: 'Passe die Beschriftung f\xFCr "Gut" Knopf an',
+  FLASHCARD_EASY_DESC: 'Passe die Beschriftung f\xFCr "Einfach" Knopf an',
+  FLASHCARD_HARD_DESC: 'Passe die Beschriftung f\xFCr "Schwer" Knopf an',
+  REVIEW_BUTTON_DELAY: "Druckknopfverz\xF6gerung (ms)",
+  REVIEW_BUTTON_DELAY_DESC: "F\xFCgt den \xDCberpr\xFCfungsschaltfl\xE4chen (\u201EEinfach\u201C, \u201EGut\u201C, \u201ESchwer\u201C, \u201EAntwort anzeigen\u201C) eine Verz\xF6gerung hinzu, bevor sie erneut gedr\xFCckt werden k\xF6nnen.",
+  FLASHCARD_TAGS: "Lernkarten Tags",
+  FLASHCARD_TAGS_DESC: "Mehrere Tags mit Leerzeichen oder Zeilenumbr\xFCchen getrennt angeben. Bsp. #karte #stapel2 #stapel3.",
+  CONVERT_FOLDERS_TO_DECKS: "Ordner in Stapel und Substapel umwandeln?",
+  CONVERT_FOLDERS_TO_DECKS_DESC: 'Eine Alternative zur oberen "Lernkarten Tags" Option.',
+  INLINE_SCHEDULING_COMMENTS: "Den Fortschritt in der gleichen Zeile wie die letzte Zeile einer Lernkartei speichern?",
+  INLINE_SCHEDULING_COMMENTS_DESC: "Wenn aktiviert, wird der HTML Kommentar die umgebende Liste nicht aufbrechen.",
+  BURY_SIBLINGS_TILL_NEXT_DAY: "Verwandte Karten auf den n\xE4chsten Tag verlegen?",
+  BURY_SIBLINGS_TILL_NEXT_DAY_DESC: "Verwandte Karten sind aus der gleichen Karte generiert worden (z.B. L\xFCckentextkarten oder beidseitige Karten).",
+  SHOW_CARD_CONTEXT: "Kontext in den Karten anzeigen?",
+  SHOW_CARD_CONTEXT_DESC: "Bsp. Titel > \xDCberschrift 1 > Sektion > ... > Untersektion",
+  SHOW_INTERVAL_IN_REVIEW_BUTTONS: "Zeige n\xE4chsten Review-Zeit in den Review-Buttons",
+  SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC: "Useful to know how far in the future your cards are being pushed.",
+  CARD_MODAL_HEIGHT_PERCENT: "H\xF6he der Lernkartei in Prozent",
+  CARD_MODAL_SIZE_PERCENT_DESC: "Auf kleinen Bildschirmen (z.B. Smartphones) oder bei sehr grossen Bildern sollte dieser Wert auf 100% gesetzt werden.",
+  RESET_DEFAULT: "Standardeinstellung wiederherstellen",
+  CARD_MODAL_WIDTH_PERCENT: "Breite einer Lernkarte in Prozent",
+  RANDOMIZE_CARD_ORDER: "W\xE4hrend der Wiederhoung die Reihenfolge zuf\xE4llig mischen?",
+  REVIEW_CARD_ORDER_WITHIN_DECK: "Reihenfolge der Karten innerhalb eines Stapels w\xE4hrend der Wiederholung",
+  REVIEW_CARD_ORDER_NEW_FIRST_SEQUENTIAL: "Sequentielle Reihenfolge innerhalb eines Stapels (Alle neuen Karten zuerst)",
+  REVIEW_CARD_ORDER_DUE_FIRST_SEQUENTIAL: "Sequentielle Reihenfolge innerhalb eines Stapels (Alle f\xE4lligen Karten zuerst)",
+  REVIEW_CARD_ORDER_NEW_FIRST_RANDOM: "Zuf\xE4llige Reihenfolge innerhalb eines Stapels (Alle neuen Karten zuerst)",
+  REVIEW_CARD_ORDER_DUE_FIRST_RANDOM: "Zuf\xE4llige Reihenfolge innerhalb eines Stapels (Alle f\xE4lligen Karten zuerst)",
+  REVIEW_CARD_ORDER_RANDOM_DECK_AND_CARD: "Zuf\xE4llige Karte von zuf\xE4lligem Stapel",
+  REVIEW_DECK_ORDER: "Reihenfolge der Stapel w\xE4hrend der Wiederholung",
+  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_SEQUENTIAL: "Sequentielle Reihenfolge (sobald alle Karten im vorherigen Stapel wiederholt wurden)",
+  REVIEW_DECK_ORDER_PREV_DECK_COMPLETE_RANDOM: "Zuf\xE4llige Reihenfolge (sobald alle Karten im vorherigen Stapel wiederholt wurden)",
+  REVIEW_DECK_ORDER_RANDOM_DECK_AND_CARD: "Zuf\xE4llige Karte von zuf\xE4lligem Stapel",
+  DISABLE_CLOZE_CARDS: "L\xFCckentextkarten deaktivieren?",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS: "Konvertiere L\xFCckentext zu Eingabefelder",
+  CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC: "Ersetze L\xFCckentext mit Eingabefeldern, wenn L\xFCckentextkarten angezeigt werden.",
+  CONVERT_HIGHLIGHTS_TO_CLOZES: "==Hervorgehobenen== Text in L\xFCckentextkarten umwandeln?",
+  CONVERT_HIGHLIGHTS_TO_CLOZES_DESC: 'F\xFCge/entferne das <code>${defaultPattern}</code> zu deinen "L\xFCckentextmuster" hinzu',
+  CONVERT_BOLD_TEXT_TO_CLOZES: "**Fettgedruckten** Text in L\xFCckentextkarten umwandeln?",
+  CONVERT_BOLD_TEXT_TO_CLOZES_DESC: 'F\xFCge/entferne das <code>${defaultPattern}</code> zu deinen "L\xFCckentextmuster" hinzu',
+  CONVERT_CURLY_BRACKETS_TO_CLOZES: "{{Geschweifte Klammern}} Text in L\xFCckentextkarten umwandeln?",
+  CONVERT_CURLY_BRACKETS_TO_CLOZES_DESC: 'F\xFCge/entferne das <code>${defaultPattern}</code> zu deinen "L\xFCckentextmuster" hinzu',
+  CLOZE_PATTERNS: "L\xFCckentextmuster",
+  CLOZE_PATTERNS_DESC: 'Geben Sie L\xFCckentextmuster durch Zeilenumbr\xFCche getrennt ein. Check the <a href="${docsUrl}">wiki</a> for guidance.',
+  INLINE_CARDS_SEPARATOR: "Trennzeichen f\xFCr einzeilige Lernkarten",
+  FIX_SEPARATORS_MANUALLY_WARNING: "Wenn diese Einstellung ge\xE4ndert wird, dann m\xFCssen die entsprechenden Lernkarten manuell angepasst werden.",
+  INLINE_REVERSED_CARDS_SEPARATOR: "Trennzeichen f\xFCr einzeilige beidseitige Lernkarten",
+  MULTILINE_CARDS_SEPARATOR: "Trennzeichen f\xFCr mehrzeilige Lernkarten",
+  MULTILINE_REVERSED_CARDS_SEPARATOR: "Trennzeichen f\xFCr mehrzeilige beidseitige Lernkarten",
+  MULTILINE_CARDS_END_MARKER: "Zeichen, die das Ende von L\xFCckentexten und mehrzeiligen Flashcards kennzeichnen",
+  NOTES: "Notizen",
+  NOTE: "Note",
+  REVIEW_PANE_ON_STARTUP: "\xD6ffne \xDCberpr\xFCfungswarteschlage beim start",
+  TAGS_TO_REVIEW: "Zu wiederholende Tags",
+  TAGS_TO_REVIEW_DESC: "Mehrere Tags k\xF6nnen mit Leerzeichen oder Zeilenumbr\xFCchen getrennt angegeben werden. Bsp. #karte #tag1 #tag2.",
+  OPEN_RANDOM_NOTE: "Zuf\xE4llige Karten wiederholen",
+  OPEN_RANDOM_NOTE_DESC: "Wenn dies deaktiviert wird, dann werden die Notizen nach Wichtigkeit wiederholt (PageRank).",
+  AUTO_NEXT_NOTE: "Nach einer Wiederholung automatisch die n\xE4chste Karte \xF6ffnen",
+  ENABLE_FILE_MENU_REVIEW_OPTIONS: "Aktiviere die \xDCberpr\xFCfungsoptionen im Dateimen\xFC (z. B. Notizen wiederholen als: Einfach, Gut, Schwer)",
+  ENABLE_FILE_MENU_REVIEW_OPTIONS_DESC: "Wenn du die \xDCberpr\xFCfungsoptionen im Dateimen\xFC deaktivierst, kannst du deine Notizen mit den Plugin-Befehlen und, falls definiert, den zugeh\xF6rigen Tastenkombinationen \xFCberpr\xFCfen.",
+  MAX_N_DAYS_REVIEW_QUEUE: "Maximale Anzahl anstehender Notizen, die im rechten Fensterbereich angezeigt werden",
+  MIN_ONE_DAY: "Anzahl der Tage muss mindestens 1 sein.",
+  VALID_NUMBER_WARNING: "Bitte eine g\xFCltige Zahl eingeben.",
+  UI: "User Interface",
+  OPEN_IN_TAB: "\xD6ffne im neuen Tab",
+  OPEN_IN_TAB_DESC: "Schalte dies aus, um die Notizen in einem Modalfenster zu \xF6ffnen",
+  SHOW_STATUS_BAR: "Show status bar",
+  SHOW_STATUS_BAR_DESC: "Turn this off to hide the flashcard's review status in Obsidian's status bar",
+  SHOW_RIBBON_ICON: "Show icon in the ribbon bar",
+  SHOW_RIBBON_ICON_DESC: "Turn this off to hide the plugin icon from Obsidian's ribbon bar",
+  INITIALLY_EXPAND_SUBDECKS_IN_TREE: "Stapelverzeichnis soll beim \xF6ffnen erweitert angezeigt werden",
+  INITIALLY_EXPAND_SUBDECKS_IN_TREE_DESC: "Deaktivieren Sie dies, um verschachtelte Stapel in derselben Karte zu reduzieren. N\xFCtzlich, wenn Sie Karten haben, die zu vielen Stapeln in derselben Datei geh\xF6ren.",
+  ALGORITHM: "Algorithmus",
+  CHECK_ALGORITHM_WIKI: 'Weiterf\xFChrende Informationen: <a href="${algoUrl}">Implementierung des Algorithmus</a> (english).',
+  SM2_OSR_VARIANT: "OSR's variant of SM-2",
+  BASE_EASE: "Basis der Schwierigkeit",
+  BASE_EASE_DESC: "Minimum ist 130. Empfohlen wird ca. 250.",
+  BASE_EASE_MIN_WARNING: "Basis der Schwierigkeit muss mindestens 130 sein.",
+  LAPSE_INTERVAL_CHANGE: "Anpassungsfaktor des Intervalls wenn eine Notiz / Karte 'Schwer' abgeschlossen wird",
+  LAPSE_INTERVAL_CHANGE_DESC: "neuesIntervall = altesIntervall * anpassungsfaktor / 100.",
+  EASY_BONUS: "Einfachheit-Bonus",
+  EASY_BONUS_DESC: "Der Einfachheit-Bonus gibt an um welchen Faktor (in Prozent) das Intervall l\xE4nger sein soll, wenn eine Notiz / Karte 'Einfach' statt 'Gut' abgeschlossen wird. Minimum ist 100%.",
+  EASY_BONUS_MIN_WARNING: "Der Einfachheit-Bonus muss mindestens 100 sein.",
+  LOAD_BALANCE: "Enable load balancer",
+  LOAD_BALANCE_DESC: `Slightly tweaks the interval so that the number of reviews per day is more consistent.
+        It's like Anki's fuzz but instead of being random, it picks the day with the least amount of reviews.
+        It's turned off for small intervals.`,
+  MAX_INTERVAL: "Maximale Intervall in Tagen",
+  MAX_INTERVAL_DESC: "Das maximale Intervall (in Tagen) f\xFCr Wiederholungen. Standard sind 100 Jahre.",
+  MAX_INTERVAL_MIN_WARNING: "Das maximale Interall muss mindestens ein Tag sein.",
+  MAX_LINK_CONTRIB: "Maximaler Einfluss von Links",
+  MAX_LINK_CONTRIB_DESC: "Maximaler Einfluss der Einfachheiten verlinkter Notizen zur gewichteten initialen Einfachheit einer neuen Lernkarte.",
+  LOGGING: "Protokollierung",
+  DISPLAY_SCHEDULING_DEBUG_INFO: "Informationen zum Debugging in der Entwicklerkonsole anzeigen",
+  DISPLAY_PARSER_DEBUG_INFO: "Informationen zum parser Debugging in der Entwicklerkonsole anzeigen",
+  SCHEDULING: "Scheduling",
+  EXPERIMENTAL: "Experimental",
+  HELP: "Help",
+  STORE_IN_NOTES: "In the notes",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
+  DELETE: "Delete",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM: "Confirm",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
+  // sidebar.ts
+  NOTES_REVIEW_QUEUE: "Anstehende Notizen zur Wiederholung",
+  CLOSE: "Schliessen",
+  NEW: "Neu",
+  YESTERDAY: "Gestern",
+  TODAY: "Heute",
+  TOMORROW: "Morgen",
+  // stats-modal.tsx
+  STATS_TITLE: "Statistiken",
+  MONTH: "Monat",
+  QUARTER: "Quartal",
+  YEAR: "Jahr",
+  LIFETIME: "Lebenslang",
+  FORECAST: "Prognose",
+  FORECAST_DESC: "Anzahl der k\xFCnftig anstehenden Karten",
+  SCHEDULED: "Anstehend",
+  DAYS: "Tage",
+  NUMBER_OF_CARDS: "Anzahl der Karten",
+  REVIEWS_PER_DAY: "Durchschnitt: ${avg} Wiederholungen/Tag",
+  INTERVALS: "Intervalle",
+  INTERVALS_DESC: "Intervalle bis Wiederholungen anstehen",
+  COUNT: "Anzahl",
+  INTERVALS_SUMMARY: "Durchschnittliches Intervall: ${avg}, L\xE4ngstes Intervall: ${longest}",
+  EASES: "Schwierigkeit",
+  EASES_SUMMARY: "Durchschnittliche Schwierigkeit: ${avgEase}",
+  EASE: "Ease",
+  CARD_TYPES: "Kategorisierung",
+  CARD_TYPES_DESC: "Verlegte Karten eingeschlossen",
+  CARD_TYPE_NEW: "Neu",
+  CARD_TYPE_YOUNG: "Jung",
+  CARD_TYPE_MATURE: "Ausgereift",
+  CARD_TYPES_SUMMARY: "Insgesamt ${totalCardsCount} Karten",
+  SEARCH: "Suche",
+  PREVIOUS: "Previous",
+  NEXT: "Next",
+  // settings.ts
+  SETTINGS_TAB_HEADING: "Einstellungen",
+  MAIN_SETTINGS_PAGE: "MAIN_SETTINGS",
+  // NoteReviewQueue.ts
+  NOTE_REVIEW_QUEUE_HINT: "Klicke auf die 3 Punkte neben der Notiz, um das Review-Men\xFC zu \xF6ffnen.",
+  // StatusBarManager.ts
+  OPEN_DECK_FOR_REVIEW: "Stapel zum Wiederholung \xF6ffnen",
+  UPDATE_AVAILABLE: "Update verf\xFCgbar",
+  // Statistics
+  PERIOD_TITLE: "Zeitraum",
+  PERIOD_DESC: "Zeitraum, in dem die Diagramme angezeigt werden",
+  // Card controls reset button
+  DELETE_SCHEDULING_DATA_OF_CURRENT_CARD: "Delete card scheduling data?",
+  CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD: "Are you sure you want to delete the scheduling data from your current card? This action cannot be undone.",
+  SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD: "Deleting the cards scheduling data...",
+  // Settings > Scheduling
+  START_OF_DAY: "Start of day",
+  START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
+};
+var de_default = de;
 
 // src/lang/locale/en-gb.ts
-var en_gb_default = {};
+var enGB = {
+  ...en_default
+};
+var en_gb_default = enGB;
 
 // src/lang/locale/es.ts
-var es_default = {
+var es = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "Mazos",
   DUE_CARDS: "Tarjetas Vencidas",
@@ -5981,12 +6038,12 @@ var es_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Cola de notas a revisar",
@@ -6042,11 +6099,20 @@ var es_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var es_default = es;
 
 // src/lang/locale/fr.ts
-var fr_default = {
+var fr = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "Paquets",
   DUE_CARDS: "Cartes dues",
@@ -6213,12 +6279,12 @@ var fr_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Cartes \xE0 apprendre",
@@ -6273,17 +6339,32 @@ var fr_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var fr_default = fr;
 
 // src/lang/locale/hi.ts
-var hi_default = {};
+var hi = {
+  ...en_default
+};
+var hi_default = hi;
 
 // src/lang/locale/id.ts
-var id_default = {};
+var id = {
+  ...en_default
+};
+var id_default = id;
 
 // src/lang/locale/it.ts
-var it_default = {
+var it = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "Mazzi",
   DUE_CARDS: "Schede da fare",
@@ -6450,12 +6531,12 @@ var it_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Coda di note da rivedere",
@@ -6510,11 +6591,20 @@ var it_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var it_default = it;
 
 // src/lang/locale/ja.ts
-var ja_default = {
+var ja = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "\u30C7\u30C3\u30AD",
   DUE_CARDS: "\u671F\u65E5\u306E\u30AB\u30FC\u30C9",
@@ -6681,12 +6771,12 @@ var ja_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\u30CE\u30FC\u30C8\u30EC\u30D3\u30E5\u30FC\u306E\u30AD\u30E5\u30FC",
@@ -6741,11 +6831,20 @@ var ja_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var ja_default = ja;
 
 // src/lang/locale/ko.ts
-var ko_default = {
+var ko = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "\uB371",
   DUE_CARDS: "\uB2E4\uC2DC \uBCFC \uCE74\uB4DC\uB4E4",
@@ -6912,12 +7011,12 @@ var ko_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\uB9AC\uBDF0\uD560 \uB178\uD2B8 \uB300\uAE30\uC5F4",
@@ -6972,14 +7071,26 @@ var ko_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var ko_default = ko;
 
 // src/lang/locale/mr.ts
-var mr_default = {};
+var mr = {
+  ...en_default
+};
+var mr_default = mr;
 
 // src/lang/locale/nl.ts
-var nl_default = {
+var nl = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "Stapel",
   DUE_CARDS: "Te beoordelen kaarten",
@@ -7146,12 +7257,12 @@ var nl_default = {
   EXPERIMENTAL: "Experimenteel",
   HELP: "Help",
   STORE_IN_NOTES: "In de notities",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Notities beoordelingswachtrij",
@@ -7206,14 +7317,26 @@ var nl_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var nl_default = nl;
 
 // src/lang/locale/no.ts
-var no_default = {};
+var no = {
+  ...en_default
+};
+var no_default = no;
 
 // src/lang/locale/pl.ts
-var pl_default = {
+var pl = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "Talie",
   DUE_CARDS: "Fiszki z terminem",
@@ -7380,12 +7503,12 @@ var pl_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Kolejka przegl\u0105du notatek",
@@ -7440,14 +7563,26 @@ var pl_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var pl_default = pl;
 
 // src/lang/locale/pt.ts
-var pt_default = {};
+var pt = {
+  ...en_default
+};
+var pt_default = pt;
 
 // src/lang/locale/pt-br.ts
-var pt_br_default = {
+var ptBR = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "Baralhos",
   DUE_CARDS: "Cartas para Colocar em Dia",
@@ -7614,12 +7749,12 @@ var pt_br_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Fila de Notas para Revisar",
@@ -7674,14 +7809,26 @@ var pt_br_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var pt_br_default = ptBR;
 
 // src/lang/locale/ro.ts
-var ro_default = {};
+var ro = {
+  ...en_default
+};
+var ro_default = ro;
 
 // src/lang/locale/ru.ts
-var ru_default = {
+var ru = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "\u041A\u043E\u043B\u043E\u0434\u044B",
   DUE_CARDS: "\u041F\u043E\u0432\u0442\u043E\u0440\u044F\u0435\u043C\u044B\u0435 \u043A\u0430\u0440\u0442\u043E\u0447\u043A\u0438",
@@ -7848,12 +7995,12 @@ var ru_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\u041E\u0447\u0435\u0440\u0435\u0434\u044C \u0437\u0430\u043C\u0435\u0442\u043E\u043A \u043D\u0430 \u043F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u0438\u0435",
@@ -7908,23 +8055,44 @@ var ru_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var ru_default = ru;
 
 // src/lang/locale/sw.ts
-var sw_default = {};
+var sw = {
+  ...en_default
+};
+var sw_default = sw;
 
 // src/lang/locale/ta.ts
-var ta_default = {};
+var ta = {
+  ...en_default
+};
+var ta_default = ta;
 
 // src/lang/locale/te.ts
-var te_default = {};
+var te = {
+  ...en_default
+};
+var te_default = te;
 
 // src/lang/locale/th.ts
-var th_default = {};
+var th = {
+  ...en_default
+};
+var th_default = th;
 
 // src/lang/locale/tr.ts
-var tr_default = {
+var tr = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "Desteler",
   DUE_CARDS: "G\xFCncel Kartlar",
@@ -8091,12 +8259,12 @@ var tr_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Not \u0130nceleme S\u0131ras\u0131",
@@ -8151,11 +8319,20 @@ var tr_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var tr_default = tr;
 
 // src/lang/locale/uk.ts
-var uk_default = {
+var uk = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "\u041A\u043E\u043B\u043E\u0434\u0438 \u043A\u0430\u0440\u0442\u043E\u043A",
   DUE_CARDS: "\u041A\u0430\u0440\u0442\u043A\u0438 \u0434\u043E \u043F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u043D\u044F",
@@ -8322,12 +8499,12 @@ var uk_default = {
   EXPERIMENTAL: "\u0415\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u0430\u043B\u044C\u043D\u0435",
   HELP: "\u0414\u043E\u0432\u0456\u0434\u043A\u0430",
   STORE_IN_NOTES: "\u0423 \u043D\u043E\u0442\u0430\u0442\u043A\u0430\u0445",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\u0427\u0435\u0440\u0433\u0430 \u043F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u043D\u044F \u043D\u043E\u0442\u0430\u0442\u043E\u043A",
@@ -8382,17 +8559,32 @@ var uk_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var uk_default = uk;
 
 // src/lang/locale/ur.ts
-var ur_default = {};
+var ur = {
+  ...en_default
+};
+var ur_default = ur;
 
 // src/lang/locale/vi.ts
-var vi_default = {};
+var vi = {
+  ...en_default
+};
+var vi_default = vi;
 
 // src/lang/locale/zh-cn.ts
-var zh_cn_default = {
+var zhCN = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "\u5361\u7EC4",
   DUE_CARDS: "\u5230\u671F\u5361\u7247",
@@ -8559,12 +8751,12 @@ var zh_cn_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\u7B14\u8BB0\u590D\u4E60\u5E8F\u5217",
@@ -8619,11 +8811,20 @@ var zh_cn_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var zh_cn_default = zhCN;
 
 // src/lang/locale/zh-tw.ts
-var zh_tw_default = {
+var zhTW = {
+  ...en_default,
   // flashcard-modal.tsx
   DECKS: "\u724C\u7D44",
   DUE_CARDS: "\u5230\u671F\u5361\u7247",
@@ -8790,12 +8991,12 @@ var zh_tw_default = {
   EXPERIMENTAL: "Experimental",
   HELP: "Help",
   STORE_IN_NOTES: "In the notes",
-  DELETE_SCHEDULING_DATA: "Delete Scheduling Data",
-  DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_ALL: "Delete Scheduling Data",
+  DELETE_SCHEDULING_DATA_ALL_DESC: "Delete scheduling data from all notes and flashcards.",
   DELETE: "Delete",
-  CONFIRM_SCHEDULING_DATA_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
+  CONFIRM_SCHEDULING_DATA_ALL_DELETION: "Are you sure you want to delete all scheduling data from your notes and flashcards? This action cannot be undone.",
   CONFIRM: "Confirm",
-  SCHEDULING_DATA_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
+  SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "\u7B46\u8A18\u5FA9\u7FD2\u5E8F\u5217",
@@ -8850,8 +9051,16 @@ var zh_tw_default = {
   // Settings > Scheduling
   START_OF_DAY: "Start of day",
   START_OF_DAY_DESC: "The time at which the day begins (Format: HH:MM:SS, Default: 00:00:00)",
-  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day"
+  INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
+  // Settings > main-page
+  INFO: "Info",
+  // Card responses
+  AGAIN: "Again",
+  // Settings > info
+  CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
 };
+var zh_tw_default = zhTW;
 
 // src/lang/helpers.ts
 var localeMap = {
@@ -8909,7 +9118,7 @@ function t(str, params) {
 // src/algorithms/osr/note-scheduling.ts
 function osrSchedule(response, originalInterval, ease, delayedBeforeReview, settings, dueDateHistogram) {
   const delayedBeforeReviewDays = Math.max(0, Math.floor(delayedBeforeReview / TICKS_PER_DAY));
-  let interval = originalInterval;
+  let interval = Math.max(1, originalInterval);
   if (response === 0 /* Easy */) {
     ease += 20;
     interval = (interval + delayedBeforeReviewDays) * ease / 100;
@@ -8922,6 +9131,9 @@ function osrSchedule(response, originalInterval, ease, delayedBeforeReview, sett
       1,
       (interval + delayedBeforeReviewDays / 4) * settings.lapsesIntervalChange
     );
+  } else if (response === 3 /* Again */) {
+    ease = Math.max(130, ease - 20);
+    interval = 0;
   }
   if (settings.loadBalance && dueDateHistogram !== void 0) {
     interval = Math.round(interval);
@@ -9776,9 +9988,13 @@ var FlashcardReviewSequencer = class {
     }
   }
   async processReviewReviewMode(response) {
-    if (response !== 3 /* Reset */ || this.currentCard.hasSchedule) {
+    if (response !== 4 /* Reset */ || this.currentCard.hasSchedule) {
       const oldSchedule = this.currentCard.scheduleInfo;
       this.currentCard.scheduleInfo = this.determineCardSchedule(response, this.currentCard);
+      this.currentCard.scheduleInfo.interval = Math.max(
+        1,
+        this.currentCard.scheduleInfo.interval
+      );
       await DataStore.getInstance().questionWriteSchedule(this.currentQuestion);
       if (oldSchedule) {
         const today = globalDateProvider.today.valueOf();
@@ -9789,7 +10005,7 @@ var FlashcardReviewSequencer = class {
       }
       this.dueDateFlashcardHistogram.increment(this.currentCard.scheduleInfo.interval);
     }
-    if (response === 3 /* Reset */) {
+    if (response === 4 /* Reset */) {
       this.cardSequencer.moveCurrentCardToEndOfList();
       this.cardSequencer.nextCard();
     } else {
@@ -9817,7 +10033,7 @@ var FlashcardReviewSequencer = class {
   }
   determineCardSchedule(response, card) {
     let result;
-    if (response === 3 /* Reset */) {
+    if (response === 4 /* Reset */) {
       result = this.srsAlgorithm.cardGetResetSchedule();
     } else {
       if (card.hasSchedule) {
@@ -10396,8 +10612,8 @@ var AST = class {
       return false;
     if (!this.type)
       return (_c = __privateGet(this, _parent)) == null ? void 0 : _c.isEnd();
-    const pl = __privateGet(this, _parent) ? __privateGet(__privateGet(this, _parent), _parts).length : 0;
-    return __privateGet(this, _parentIndex) === pl - 1;
+    const pl2 = __privateGet(this, _parent) ? __privateGet(__privateGet(this, _parent), _parts).length : 0;
+    return __privateGet(this, _parentIndex) === pl2 - 1;
   }
   copyIn(part) {
     if (typeof part === "string")
@@ -11683,9 +11899,9 @@ matchGlobStarBodySections_fn = function(file, bodySegments, fileIndex, bodyIndex
 matchOne_fn = function(file, pattern, partial, fileIndex, patternIndex) {
   let fi;
   let pi;
-  let pl;
+  let pl2;
   let fl;
-  for (fi = fileIndex, pi = patternIndex, fl = file.length, pl = pattern.length; fi < fl && pi < pl; fi++, pi++) {
+  for (fi = fileIndex, pi = patternIndex, fl = file.length, pl2 = pattern.length; fi < fl && pi < pl2; fi++, pi++) {
     this.debug("matchOne loop");
     let p2 = pattern[pi];
     let f2 = file[fi];
@@ -11704,11 +11920,11 @@ matchOne_fn = function(file, pattern, partial, fileIndex, patternIndex) {
     if (!hit)
       return false;
   }
-  if (fi === fl && pi === pl) {
+  if (fi === fl && pi === pl2) {
     return true;
   } else if (fi === fl) {
     return partial;
-  } else if (pi === pl) {
+  } else if (pi === pl2) {
     return fi === fl - 1 && file[fi] === "";
   } else {
     throw new Error("wtf?");
@@ -11981,8 +12197,6 @@ var SingleDeckIterator = class _SingleDeckIterator {
   }
   moveCurrentCardToEndOfList() {
     this.ensureCurrentCard();
-    const cardList = this.deck.getCardListForCardType(this.cardListType);
-    if (cardList.length <= 1) return;
     const card = this.currentCard;
     this.deck.deleteCardAtIndex(this.cardIdx, this.cardListType);
     this.deck.appendCardToRootDeck(card);
@@ -13090,6 +13304,7 @@ var DEFAULT_SETTINGS = {
   flashcardWidthPercentage: 60,
   flashcardHeightPercentageMobile: 100,
   flashcardWidthPercentageMobile: 100,
+  flashcardAgainText: t("AGAIN"),
   flashcardEasyText: t("EASY"),
   flashcardGoodText: t("GOOD"),
   flashcardHardText: t("HARD"),
@@ -14212,6 +14427,20 @@ var BackButtonComponent = class extends SRButtonComponent {
   }
 };
 
+// src/ui/obsidian-ui-components/content-container/card-container/controls/edit-button.tsx
+var EditButtonComponent = class extends SRButtonComponent {
+  constructor(container, editClickHandler, classNames) {
+    super(container, {
+      classNames: ["sr-edit-button", ...classNames != null ? classNames : []],
+      icon: "edit",
+      tooltip: t("EDIT_CARD"),
+      onClick: () => {
+        editClickHandler();
+      }
+    });
+  }
+};
+
 // src/ui/obsidian-ui-components/content-container/card-container/controls/menu-dots-button.tsx
 var MenuDotsButtonComponent = class extends SRButtonComponent {
   constructor(container, openMenu, classNames) {
@@ -14267,7 +14496,7 @@ var ResetButtonComponent = class extends SRButtonComponent {
   constructor(container, app, resetClickHandler, classNames) {
     super(container, {
       classNames: ["sr-reset-button", "mod-warning", ...classNames != null ? classNames : []],
-      icon: "rotate-ccw",
+      icon: "history",
       tooltip: t("RESET_CARD_PROGRESS"),
       onClick: () => {
         new ConfirmationModal(
@@ -14332,6 +14561,11 @@ var ControlsComponent = class {
       (EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone) && isModal ? "mod-raised" : "clickable-icon"
     ]);
     this.controls.createDiv().addClass("sr-flex-spacer");
+    this.editButton = new EditButtonComponent(
+      this.controls,
+      () => editClickHandler(),
+      EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone ? ["mod-raised"] : void 0
+    );
     this.menuDotsButton = new MenuDotsButtonComponent(
       this.controls,
       (evt) => {
@@ -14339,11 +14573,6 @@ var ControlsComponent = class {
         cardMenu.addItem((item) => {
           item.setTitle("Jump to card").setIcon("arrow-up-right").onClick(() => {
             jumpToCurrentCard();
-          });
-        });
-        cardMenu.addItem((item) => {
-          item.setTitle(t("EDIT_CARD")).setIcon("pencil").onClick(() => {
-            editClickHandler();
           });
         });
         cardMenu.addItem((item) => {
@@ -14358,7 +14587,7 @@ var ControlsComponent = class {
     this.resetButton = new ResetButtonComponent(
       this.controls,
       app,
-      async () => await processReview(3 /* Reset */),
+      async () => await processReview(4 /* Reset */),
       [EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone ? "mod-raised" : "undefined"]
     );
     this.resetButton.setDisabled(true);
@@ -14545,8 +14774,15 @@ var ResponseSectionComponent = class {
         showAnswer();
       }
     });
+    this.againButton = new SRResponseButtonComponent(this.responseEl, {
+      classNames: ["sr-bg-red", "sr-again-button", "sr-is-hidden"],
+      text: settings.flashcardAgainText,
+      onClick: () => {
+        processReview(3 /* Again */);
+      }
+    });
     this.hardButton = new SRResponseButtonComponent(this.responseEl, {
-      classNames: ["sr-bg-red", "sr-hard-button", "sr-is-hidden"],
+      classNames: ["sr-bg-yellow", "sr-hard-button", "sr-is-hidden"],
       text: settings.flashcardHardText,
       onClick: () => {
         processReview(2 /* Hard */);
@@ -14569,6 +14805,7 @@ var ResponseSectionComponent = class {
   }
   resetResponseButtons() {
     this.answerButton.buttonEl.removeClass("sr-is-hidden");
+    this.againButton.buttonEl.addClass("sr-is-hidden");
     this.hardButton.buttonEl.addClass("sr-is-hidden");
     this.goodButton.buttonEl.addClass("sr-is-hidden");
     this.easyButton.buttonEl.addClass("sr-is-hidden");
@@ -14577,14 +14814,34 @@ var ResponseSectionComponent = class {
     this.answerButton.buttonEl.addClass("sr-is-hidden");
     if (reviewMode === 0 /* Cram */) {
       this.responseEl.addClass("is-cram");
-      this.hardButton.setButtonText(`${settings.flashcardHardText}`);
+      this.againButton.setButtonText(`${settings.flashcardAgainText}`);
       this.easyButton.setButtonText(`${settings.flashcardEasyText}`);
+      if (this.againButton.buttonEl.hasClass("sr-is-hidden")) {
+        this.againButton.buttonEl.removeClass("sr-is-hidden");
+      }
+      if (this.easyButton.buttonEl.hasClass("sr-is-hidden")) {
+        this.easyButton.buttonEl.removeClass("sr-is-hidden");
+      }
       if (!this.goodButton.buttonEl.hasClass("sr-is-hidden")) {
         this.goodButton.buttonEl.addClass("sr-is-hidden");
       }
+      if (!this.hardButton.buttonEl.hasClass("sr-is-hidden")) {
+        this.hardButton.buttonEl.addClass("sr-is-hidden");
+      }
     } else {
       if (this.responseEl.hasClass("is-cram")) this.responseEl.removeClass("is-cram");
+      this.againButton.buttonEl.removeClass("sr-is-hidden");
+      this.hardButton.buttonEl.removeClass("sr-is-hidden");
       this.goodButton.buttonEl.removeClass("sr-is-hidden");
+      this.easyButton.buttonEl.removeClass("sr-is-hidden");
+      this._setupEaseButton(
+        this.againButton,
+        settings.flashcardAgainText,
+        reviewSequencer,
+        currentCard,
+        settings,
+        3 /* Again */
+      );
       this._setupEaseButton(
         this.hardButton,
         settings.flashcardHardText,
@@ -14610,8 +14867,6 @@ var ResponseSectionComponent = class {
         0 /* Easy */
       );
     }
-    this.hardButton.buttonEl.removeClass("sr-is-hidden");
-    this.easyButton.buttonEl.removeClass("sr-is-hidden");
   }
   _setupEaseButton(button, buttonName, reviewSequencer, currentCard, settings, reviewResponse) {
     const schedule = reviewSequencer.determineCardSchedule(
@@ -14736,9 +14991,10 @@ var DeckContainer = class {
   }
   // -> Tree content
   _createTree(deck, container) {
+    const deckStats = this.reviewSequencer.getDeckStats(deck.getTopicPath());
     const deckTree = container.createDiv("tree-item sr-tree-item-container");
     const deckTreeSelf = deckTree.createDiv(
-      "tree-item-self tag-pane-tag is-clickable sr-tree-item-row"
+      `tree-item-self tag-pane-tag ${deckStats.dueCount > 0 || deckStats.newCount > 0 ? "is-clickable" : "is-disabled"} sr-tree-item-row`
     );
     const shouldBeInitiallyExpanded = this.settings.initiallyExpandAllSubdecksInTree;
     let collapsed = !shouldBeInitiallyExpanded;
@@ -14753,7 +15009,6 @@ var DeckContainer = class {
     deckTreeInnerText.innerHTML += /* @__PURE__ */ (0, import_vhtml.default)("span", { class: "tag-pane-tag-self" }, deck.deckName);
     const deckTreeOuter = deckTreeSelf.createDiv();
     deckTreeOuter.addClasses(["tree-item-flair-outer", "sr-tree-stats-container"]);
-    const deckStats = this.reviewSequencer.getDeckStats(deck.getTopicPath());
     this._createStats(deckStats, deckTreeOuter);
     const deckTreeChildren = deckTree.createDiv("tree-item-children");
     deckTreeChildren.style.display = collapsed ? "none" : "block";
@@ -14969,8 +15224,28 @@ var SRModalView = class extends import_obsidian15.Modal {
     const subdecksWithCardsInQueue = this.reviewSequencer.getSubDecksWithCardsInQueue(
       this.reviewSequencer.originalDeckTree
     );
-    if (subdecksWithCardsInQueue.length === 1) {
-      this._showFlashcard(this.reviewSequencer.originalDeckTree.subdecks[0]);
+    let openImmediately = false;
+    let deckWithCards = null;
+    for (const subdeck of subdecksWithCardsInQueue) {
+      const hasNewCards = subdeck.newFlashcards.length > 0;
+      const hasDueCards = subdeck.dueFlashcards.length > 0;
+      const hasDueCardsToday = hasDueCards && subdeck.dueFlashcards.some((card) => {
+        const dueDate = card.scheduleInfo.dueDateAsUnix;
+        const today = globalDateProvider.today.valueOf();
+        return dueDate < today;
+      });
+      const hasCardsToday = hasNewCards || hasDueCardsToday;
+      if (openImmediately && (hasCardsToday || this.reviewMode === 0 /* Cram */)) {
+        openImmediately = false;
+        break;
+      }
+      if (hasCardsToday || this.reviewMode === 0 /* Cram */) {
+        openImmediately = true;
+        deckWithCards = subdeck;
+      }
+    }
+    if (openImmediately) {
+      this._showFlashcard(deckWithCards);
     } else {
       this._showDecksList();
     }
@@ -15163,7 +15438,7 @@ var CardContainer = class {
           if (this.mode !== 2 /* Back */) {
             break;
           }
-          this._processReview(3 /* Reset */);
+          this._processReview(4 /* Reset */);
           consumeKeyEvent();
           break;
         default:
@@ -15530,8 +15805,28 @@ var SRTabView = class extends import_obsidian18.ItemView {
       const subdecksWithCardsInQueue = this.reviewSequencer.getSubDecksWithCardsInQueue(
         this.reviewSequencer.originalDeckTree
       );
-      if (subdecksWithCardsInQueue.length === 1) {
-        this._showFlashcard(this.reviewSequencer.originalDeckTree.subdecks[0]);
+      let openImmediately = false;
+      let deckWithCards = null;
+      for (const subdeck of subdecksWithCardsInQueue) {
+        const hasNewCards = subdeck.newFlashcards.length > 0;
+        const hasDueCards = subdeck.dueFlashcards.length > 0;
+        const hasDueCardsToday = hasDueCards && subdeck.dueFlashcards.some((card) => {
+          const dueDate = card.scheduleInfo.dueDateAsUnix;
+          const today = globalDateProvider.today.valueOf();
+          return dueDate < today;
+        });
+        const hasCardsToday = hasNewCards || hasDueCardsToday;
+        if (openImmediately && (hasCardsToday || this.reviewMode === 0 /* Cram */)) {
+          openImmediately = false;
+          break;
+        }
+        if (hasCardsToday || this.reviewMode === 0 /* Cram */) {
+          openImmediately = true;
+          deckWithCards = subdeck;
+        }
+      }
+      if (openImmediately || this.reviewMode === 0 /* Cram */) {
+        this._showFlashcard(deckWithCards);
       } else {
         this._showDecksList();
       }
@@ -16016,6 +16311,7 @@ var MainPage = class extends SettingsPage {
     );
     SettingsPageTypesArray.forEach((pageType2) => {
       if (pageType2 === "main-page") return;
+      if (pageType2 === "statistics-page") return;
       mainSettingsGroup.addSetting((setting) => {
         setting.setName(getPageName(pageType2)).addButton((button) => {
           button.setIcon("chevron-right").onClick(() => {
@@ -16028,12 +16324,29 @@ var MainPage = class extends SettingsPage {
         (0, import_obsidian21.setIcon)(iconEl, getPageIcon(pageType2));
         setting.nameEl.insertBefore(iconEl, setting.nameEl.firstChild);
         setting.nameEl.addClass("sr-settings-page-title");
+        setting.settingEl.addClass("sr-settings-page-title-setting");
         setting.settingEl.addEventListener("click", () => {
           this.openPage(pageType2);
         });
       });
     });
-    new import_obsidian21.SettingGroup(this.containerEl).setHeading(t("HELP")).addSetting((setting) => {
+    new import_obsidian21.SettingGroup(this.containerEl).setHeading(t("INFO")).addSetting((setting) => {
+      setting.setName(getPageName("statistics-page")).addButton((button) => {
+        button.setIcon("chevron-right").onClick(() => {
+          this.openPage("statistics-page");
+        });
+        button.buttonEl.addClass("clickable-icon");
+      });
+      const iconEl = document.createElement("div");
+      iconEl.addClass("sr-settings-page-title-icon");
+      (0, import_obsidian21.setIcon)(iconEl, getPageIcon("statistics-page"));
+      setting.nameEl.insertBefore(iconEl, setting.nameEl.firstChild);
+      setting.nameEl.addClass("sr-settings-page-title");
+      setting.settingEl.addClass("sr-settings-page-title-setting");
+      setting.settingEl.addEventListener("click", () => {
+        this.openPage("statistics-page");
+      });
+    }).addSetting((setting) => {
       setting.infoEl.insertAdjacentHTML(
         "beforeend",
         t("CHECK_WIKI", {
@@ -16041,6 +16354,21 @@ var MainPage = class extends SettingsPage {
         })
       );
     }).addSetting((setting) => {
+      setting.infoEl.insertAdjacentHTML(
+        "beforeend",
+        t("CHECK_ROADMAP", {
+          roadMapUrl: "https://github.com/users/st3v3nmw/projects/6"
+        })
+      );
+    }).addSetting((setting) => {
+      setting.infoEl.insertAdjacentHTML(
+        "beforeend",
+        t("CHECK_DEV_NEWS", {
+          devNewsUrl: "https://github.com/st3v3nmw/obsidian-spaced-repetition/discussions/categories/development-news"
+        })
+      );
+    });
+    new import_obsidian21.SettingGroup(this.containerEl).setHeading(t("HELP") + " & " + t("GROUP_CONTRIBUTING")).addSetting((setting) => {
       setting.infoEl.insertAdjacentHTML(
         "beforeend",
         t("GITHUB_DISCUSSIONS", {
@@ -16054,8 +16382,7 @@ var MainPage = class extends SettingsPage {
           issuesUrl: "https://github.com/st3v3nmw/obsidian-spaced-repetition/issues/"
         })
       );
-    });
-    new import_obsidian21.SettingGroup(this.containerEl).setHeading(t("GROUP_CONTRIBUTING")).addSetting((setting) => {
+    }).addSetting((setting) => {
       setting.infoEl.insertAdjacentHTML(
         "beforeend",
         t("GITHUB_SOURCE_CODE", {
@@ -16186,13 +16513,19 @@ var import_obsidian24 = require("obsidian");
 
 // src/delete-scheduling-data.ts
 var import_obsidian23 = require("obsidian");
-async function removeSchedulingInfo(vault, file) {
+async function removeSchedulingInfoInNotes(vault, file) {
   try {
     await this.app.fileManager.processFrontMatter(file, (frontmatter) => {
       delete frontmatter["sr-due"];
       delete frontmatter["sr-interval"];
       delete frontmatter["sr-ease"];
     });
+  } catch (e2) {
+    console.log({ filePath: file.path, error: e2 });
+  }
+}
+async function removeSchedulingInfoInCards(vault, file) {
+  try {
     await vault.process(file, (data) => {
       return data.replace(FLASHCARD_SCHEDULE_INFO, "");
     });
@@ -16203,7 +16536,22 @@ async function removeSchedulingInfo(vault, file) {
 async function deleteAllSchedulingData() {
   const files = this.app.vault.getMarkdownFiles();
   for (let i2 = 0; i2 < files.length; i2++) {
-    await removeSchedulingInfo(this.app.vault, files[i2]);
+    await removeSchedulingInfoInNotes(this.app.vault, files[i2]);
+    await removeSchedulingInfoInCards(this.app.vault, files[i2]);
+  }
+  new import_obsidian23.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
+}
+async function deleteAllSchedulingDataInNotes() {
+  const files = this.app.vault.getMarkdownFiles();
+  for (let i2 = 0; i2 < files.length; i2++) {
+    await removeSchedulingInfoInNotes(this.app.vault, files[i2]);
+  }
+  new import_obsidian23.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
+}
+async function deleteAllSchedulingDataInCards() {
+  const files = this.app.vault.getMarkdownFiles();
+  for (let i2 = 0; i2 < files.length; i2++) {
+    await removeSchedulingInfoInCards(this.app.vault, files[i2]);
   }
   new import_obsidian23.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
 }
@@ -16390,15 +16738,39 @@ var SchedulingPage = class extends SettingsPage {
         })
       );
     });
-    new import_obsidian24.SettingGroup(this.containerEl).setHeading(t("DELETE_SCHEDULING_DATA")).addSetting((setting) => {
-      setting.setName(t("DELETE_SCHEDULING_DATA")).setDesc(t("DELETE_SCHEDULING_DATA_IN_NOTES_AND_FLASHCARDS")).addButton((button) => {
+    new import_obsidian24.SettingGroup(this.containerEl).setHeading(t("DELETE_SCHEDULING_DATA_ALL")).addSetting((setting) => {
+      setting.setName(t("DELETE_SCHEDULING_DATA_ALL")).setDesc(t("DELETE_SCHEDULING_DATA_ALL_DESC")).addButton((button) => {
         button.setButtonText(t("DELETE")).setClass("mod-warning").onClick(async () => {
           new ConfirmationModal(
             this.plugin.app,
-            t("DELETE_SCHEDULING_DATA"),
-            t("CONFIRM_SCHEDULING_DATA_DELETION"),
-            t("SCHEDULING_DATA_DELETION_IN_PROGRESS"),
+            t("DELETE_SCHEDULING_DATA_ALL"),
+            t("CONFIRM_SCHEDULING_DATA_ALL_DELETION"),
+            t("SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS"),
             deleteAllSchedulingData
+          ).open();
+        });
+      });
+    }).addSetting((setting) => {
+      setting.setName(t("DELETE_SCHEDULING_DATA_IN_NOTES")).setDesc(t("DELETE_SCHEDULING_DATA_IN_NOTES_DESC")).addButton((button) => {
+        button.setButtonText(t("DELETE")).setClass("mod-warning").onClick(async () => {
+          new ConfirmationModal(
+            this.plugin.app,
+            t("DELETE_SCHEDULING_DATA_IN_NOTES"),
+            t("CONFIRM_SCHEDULING_DATA_IN_NOTES_DELETION"),
+            t("SCHEDULING_DATA_IN_NOTES_DELETION_IN_PROGRESS"),
+            deleteAllSchedulingDataInNotes
+          ).open();
+        });
+      });
+    }).addSetting((setting) => {
+      setting.setName(t("DELETE_SCHEDULING_DATA_IN_CARDS")).setDesc(t("DELETE_SCHEDULING_DATA_IN_CARDS_DESC")).addButton((button) => {
+        button.setButtonText(t("DELETE")).setClass("mod-warning").onClick(async () => {
+          new ConfirmationModal(
+            this.plugin.app,
+            t("DELETE_SCHEDULING_DATA_IN_CARDS"),
+            t("CONFIRM_SCHEDULING_DATA_IN_CARDS_DELETION"),
+            t("SCHEDULING_DATA_IN_CARDS_DELETION_IN_PROGRESS"),
+            deleteAllSchedulingDataInCards
           ).open();
         });
       });
@@ -16967,8 +17339,8 @@ var Color = class _Color {
 function noop() {
 }
 var uid = /* @__PURE__ */ (() => {
-  let id = 0;
-  return () => id++;
+  let id2 = 0;
+  return () => id2++;
 })();
 function isNullOrUndef(value) {
   return value === null || value === void 0;
@@ -17257,8 +17629,8 @@ function getAngleFromPoint(centrePoint, anglePoint) {
     distance: radialDistanceFromCenter
   };
 }
-function distanceBetweenPoints(pt1, pt2) {
-  return Math.sqrt(Math.pow(pt2.x - pt1.x, 2) + Math.pow(pt2.y - pt1.y, 2));
+function distanceBetweenPoints(pt1, pt22) {
+  return Math.sqrt(Math.pow(pt22.x - pt1.x, 2) + Math.pow(pt22.y - pt1.y, 2));
 }
 function _normalizeAngle(a2) {
   return (a2 % TAU + TAU) % TAU;
@@ -17284,20 +17656,20 @@ function _isBetween(value, start, end, epsilon = 1e-6) {
 }
 function _lookup(table, value, cmp) {
   cmp = cmp || ((index) => table[index] < value);
-  let hi = table.length - 1;
+  let hi2 = table.length - 1;
   let lo = 0;
   let mid;
-  while (hi - lo > 1) {
-    mid = lo + hi >> 1;
+  while (hi2 - lo > 1) {
+    mid = lo + hi2 >> 1;
     if (cmp(mid)) {
       lo = mid;
     } else {
-      hi = mid;
+      hi2 = mid;
     }
   }
   return {
     lo,
-    hi
+    hi: hi2
   };
 }
 var _lookupByKey = (table, key, value, last) => _lookup(table, value, last ? (index) => {
@@ -20870,8 +21242,8 @@ function evaluateInteractionItems(chart, axis, position, handler, intersect) {
   const value = position[axis];
   for (let i2 = 0, ilen = metasets.length; i2 < ilen; ++i2) {
     const { index, data } = metasets[i2];
-    const { lo, hi } = binarySearch(metasets[i2], axis, value, intersect);
-    for (let j2 = lo; j2 <= hi; ++j2) {
+    const { lo, hi: hi2 } = binarySearch(metasets[i2], axis, value, intersect);
+    for (let j2 = lo; j2 <= hi2; ++j2) {
       const element = data[j2];
       if (!element.skip) {
         handler(element, index, j2);
@@ -20882,9 +21254,9 @@ function evaluateInteractionItems(chart, axis, position, handler, intersect) {
 function getDistanceMetricForAxis(axis) {
   const useX = axis.indexOf("x") !== -1;
   const useY = axis.indexOf("y") !== -1;
-  return function(pt1, pt2) {
-    const deltaX = useX ? Math.abs(pt1.x - pt2.x) : 0;
-    const deltaY = useY ? Math.abs(pt1.y - pt2.y) : 0;
+  return function(pt1, pt22) {
+    const deltaX = useX ? Math.abs(pt1.x - pt22.x) : 0;
+    const deltaY = useY ? Math.abs(pt1.y - pt22.y) : 0;
     return Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2));
   };
 }
@@ -23118,35 +23490,35 @@ var TypedRegistry = class {
       parentScope = this.register(proto);
     }
     const items = this.items;
-    const id = item.id;
-    const scope = this.scope + "." + id;
-    if (!id) {
+    const id2 = item.id;
+    const scope = this.scope + "." + id2;
+    if (!id2) {
       throw new Error("class does not have id: " + item);
     }
-    if (id in items) {
+    if (id2 in items) {
       return scope;
     }
-    items[id] = item;
+    items[id2] = item;
     registerDefaults(item, scope, parentScope);
     if (this.override) {
       defaults2.override(item.id, item.overrides);
     }
     return scope;
   }
-  get(id) {
-    return this.items[id];
+  get(id2) {
+    return this.items[id2];
   }
   unregister(item) {
     const items = this.items;
-    const id = item.id;
+    const id2 = item.id;
     const scope = this.scope;
-    if (id in items) {
-      delete items[id];
+    if (id2 in items) {
+      delete items[id2];
     }
-    if (scope && id in defaults2[scope]) {
-      delete defaults2[scope][id];
+    if (scope && id2 in defaults2[scope]) {
+      delete defaults2[scope][id2];
       if (this.override) {
-        delete overrides[id];
+        delete overrides[id2];
       }
     }
   }
@@ -23211,17 +23583,17 @@ var Registry = class {
   addScales(...args) {
     this._each("register", args, this.scales);
   }
-  getController(id) {
-    return this._get(id, this.controllers, "controller");
+  getController(id2) {
+    return this._get(id2, this.controllers, "controller");
   }
-  getElement(id) {
-    return this._get(id, this.elements, "element");
+  getElement(id2) {
+    return this._get(id2, this.elements, "element");
   }
-  getPlugin(id) {
-    return this._get(id, this.plugins, "plugin");
+  getPlugin(id2) {
+    return this._get(id2, this.plugins, "plugin");
   }
-  getScale(id) {
-    return this._get(id, this.scales, "scale");
+  getScale(id2) {
+    return this._get(id2, this.scales, "scale");
   }
   removeControllers(...args) {
     this._each("unregister", args, this.controllers);
@@ -23265,10 +23637,10 @@ var Registry = class {
     }
     return this.plugins;
   }
-  _get(id, typedRegistry, type) {
-    const item = typedRegistry.get(id);
+  _get(id2, typedRegistry, type) {
+    const item = typedRegistry.get(id2);
     if (item === void 0) {
-      throw new Error('"' + id + '" is not a registered ' + type + ".");
+      throw new Error('"' + id2 + '" is not a registered ' + type + ".");
     }
     return item;
   }
@@ -23372,8 +23744,8 @@ function createDescriptors(chart, { plugins, localIds }, options, all) {
   const result = [];
   const context = chart.getContext();
   for (const plugin of plugins) {
-    const id = plugin.id;
-    const opts = getOpts(options[id], all);
+    const id2 = plugin.id;
+    const opts = getOpts(options[id2], all);
     if (opts === null) {
       continue;
     }
@@ -23381,7 +23753,7 @@ function createDescriptors(chart, { plugins, localIds }, options, all) {
       plugin,
       options: pluginOpts(chart.config, {
         plugin,
-        local: localIds[id]
+        local: localIds[id2]
       }, opts, context)
     });
   }
@@ -23406,11 +23778,11 @@ function getIndexAxis(type, options) {
   const datasetOptions = (options.datasets || {})[type] || {};
   return datasetOptions.indexAxis || options.indexAxis || datasetDefaults.indexAxis || "x";
 }
-function getAxisFromDefaultScaleID(id, indexAxis) {
-  let axis = id;
-  if (id === "_index_") {
+function getAxisFromDefaultScaleID(id2, indexAxis) {
+  let axis = id2;
+  if (id2 === "_index_") {
     axis = indexAxis;
-  } else if (id === "_value_") {
+  } else if (id2 === "_value_") {
     axis = indexAxis === "x" ? "y" : "x";
   }
   return axis;
@@ -23418,9 +23790,9 @@ function getAxisFromDefaultScaleID(id, indexAxis) {
 function getDefaultScaleIDFromAxis(axis, indexAxis) {
   return axis === indexAxis ? "_index_" : "_value_";
 }
-function idMatchesAxis(id) {
-  if (id === "x" || id === "y" || id === "r") {
-    return id;
+function idMatchesAxis(id2) {
+  if (id2 === "x" || id2 === "y" || id2 === "r") {
+    return id2;
   }
 }
 function axisFromPosition(position) {
@@ -23431,30 +23803,30 @@ function axisFromPosition(position) {
     return "y";
   }
 }
-function determineAxis(id, ...scaleOptions) {
-  if (idMatchesAxis(id)) {
-    return id;
+function determineAxis(id2, ...scaleOptions) {
+  if (idMatchesAxis(id2)) {
+    return id2;
   }
   for (const opts of scaleOptions) {
-    const axis = opts.axis || axisFromPosition(opts.position) || id.length > 1 && idMatchesAxis(id[0].toLowerCase());
+    const axis = opts.axis || axisFromPosition(opts.position) || id2.length > 1 && idMatchesAxis(id2[0].toLowerCase());
     if (axis) {
       return axis;
     }
   }
-  throw new Error(`Cannot determine type of '${id}' axis. Please provide 'axis' or 'position' option.`);
+  throw new Error(`Cannot determine type of '${id2}' axis. Please provide 'axis' or 'position' option.`);
 }
-function getAxisFromDataset(id, axis, dataset) {
-  if (dataset[axis + "AxisID"] === id) {
+function getAxisFromDataset(id2, axis, dataset) {
+  if (dataset[axis + "AxisID"] === id2) {
     return {
       axis
     };
   }
 }
-function retrieveAxisFromDatasets(id, config) {
+function retrieveAxisFromDatasets(id2, config) {
   if (config.data && config.data.datasets) {
-    const boundDs = config.data.datasets.filter((d2) => d2.xAxisID === id || d2.yAxisID === id);
+    const boundDs = config.data.datasets.filter((d2) => d2.xAxisID === id2 || d2.yAxisID === id2);
     if (boundDs.length) {
-      return getAxisFromDataset(id, "x", boundDs[0]) || getAxisFromDataset(id, "y", boundDs[0]);
+      return getAxisFromDataset(id2, "x", boundDs[0]) || getAxisFromDataset(id2, "y", boundDs[0]);
     }
   }
   return {};
@@ -23466,18 +23838,18 @@ function mergeScaleConfig(config, options) {
   const configScales = options.scales || {};
   const chartIndexAxis = getIndexAxis(config.type, options);
   const scales = /* @__PURE__ */ Object.create(null);
-  Object.keys(configScales).forEach((id) => {
-    const scaleConf = configScales[id];
+  Object.keys(configScales).forEach((id2) => {
+    const scaleConf = configScales[id2];
     if (!isObject(scaleConf)) {
-      return console.error(`Invalid scale configuration for scale: ${id}`);
+      return console.error(`Invalid scale configuration for scale: ${id2}`);
     }
     if (scaleConf._proxy) {
-      return console.warn(`Ignoring resolver passed as options for scale: ${id}`);
+      return console.warn(`Ignoring resolver passed as options for scale: ${id2}`);
     }
-    const axis = determineAxis(id, scaleConf, retrieveAxisFromDatasets(id, config), defaults2.scales[scaleConf.type]);
+    const axis = determineAxis(id2, scaleConf, retrieveAxisFromDatasets(id2, config), defaults2.scales[scaleConf.type]);
     const defaultId = getDefaultScaleIDFromAxis(axis, chartIndexAxis);
     const defaultScaleOptions = chartDefaults.scales || {};
-    scales[id] = mergeIf(/* @__PURE__ */ Object.create(null), [
+    scales[id2] = mergeIf(/* @__PURE__ */ Object.create(null), [
       {
         axis
       },
@@ -23493,13 +23865,13 @@ function mergeScaleConfig(config, options) {
     const defaultScaleOptions = datasetDefaults.scales || {};
     Object.keys(defaultScaleOptions).forEach((defaultID) => {
       const axis = getAxisFromDefaultScaleID(defaultID, indexAxis);
-      const id = dataset[axis + "AxisID"] || axis;
-      scales[id] = scales[id] || /* @__PURE__ */ Object.create(null);
-      mergeIf(scales[id], [
+      const id2 = dataset[axis + "AxisID"] || axis;
+      scales[id2] = scales[id2] || /* @__PURE__ */ Object.create(null);
+      mergeIf(scales[id2], [
         {
           axis
         },
-        configScales[id],
+        configScales[id2],
         defaultScaleOptions[defaultID]
       ]);
     });
@@ -23617,11 +23989,11 @@ var Config = class {
     ]);
   }
   pluginScopeKeys(plugin) {
-    const id = plugin.id;
+    const id2 = plugin.id;
     const type = this.type;
-    return cachedKeys(`${type}-plugin-${id}`, () => [
+    return cachedKeys(`${type}-plugin-${id2}`, () => [
       [
-        `plugins.${id}`,
+        `plugins.${id2}`,
         ...plugin.additionalOptionScopes || []
       ]
     ]);
@@ -23954,15 +24326,15 @@ var Chart = class {
     const options = this.options;
     const scaleOpts = options.scales;
     const scales = this.scales;
-    const updated = Object.keys(scales).reduce((obj, id) => {
-      obj[id] = false;
+    const updated = Object.keys(scales).reduce((obj, id2) => {
+      obj[id2] = false;
       return obj;
     }, {});
     let items = [];
     if (scaleOpts) {
-      items = items.concat(Object.keys(scaleOpts).map((id) => {
-        const scaleOptions = scaleOpts[id];
-        const axis = determineAxis(id, scaleOptions);
+      items = items.concat(Object.keys(scaleOpts).map((id2) => {
+        const scaleOptions = scaleOpts[id2];
+        const axis = determineAxis(id2, scaleOptions);
         const isRadial = axis === "r";
         const isHorizontal = axis === "x";
         return {
@@ -23974,20 +24346,20 @@ var Chart = class {
     }
     each(items, (item) => {
       const scaleOptions = item.options;
-      const id = scaleOptions.id;
-      const axis = determineAxis(id, scaleOptions);
+      const id2 = scaleOptions.id;
+      const axis = determineAxis(id2, scaleOptions);
       const scaleType = valueOrDefault(scaleOptions.type, item.dtype);
       if (scaleOptions.position === void 0 || positionIsHorizontal(scaleOptions.position, axis) !== positionIsHorizontal(item.dposition)) {
         scaleOptions.position = item.dposition;
       }
-      updated[id] = true;
+      updated[id2] = true;
       let scale = null;
-      if (id in scales && scales[id].type === scaleType) {
-        scale = scales[id];
+      if (id2 in scales && scales[id2].type === scaleType) {
+        scale = scales[id2];
       } else {
         const scaleClass = registry.getScale(scaleType);
         scale = new scaleClass({
-          id,
+          id: id2,
           type: scaleType,
           ctx: this.ctx,
           chart: this
@@ -23996,9 +24368,9 @@ var Chart = class {
       }
       scale.init(scaleOptions, options);
     });
-    each(updated, (hasUpdated, id) => {
+    each(updated, (hasUpdated, id2) => {
       if (!hasUpdated) {
-        delete scales[id];
+        delete scales[id2];
       }
     });
     each(scales, (scale) => {
@@ -26379,13 +26751,13 @@ var Tooltip = class extends Element {
       y3
     };
   }
-  drawTitle(pt2, ctx, options) {
+  drawTitle(pt3, ctx, options) {
     const title = this.title;
     const length = title.length;
     let titleFont, titleSpacing, i2;
     if (length) {
       const rtlHelper = getRtlAdapter(options.rtl, this.x, this.width);
-      pt2.x = getAlignedX(this, options.titleAlign, options);
+      pt3.x = getAlignedX(this, options.titleAlign, options);
       ctx.textAlign = rtlHelper.textAlign(options.titleAlign);
       ctx.textBaseline = "middle";
       titleFont = toFont(options.titleFont);
@@ -26393,15 +26765,15 @@ var Tooltip = class extends Element {
       ctx.fillStyle = options.titleColor;
       ctx.font = titleFont.string;
       for (i2 = 0; i2 < length; ++i2) {
-        ctx.fillText(title[i2], rtlHelper.x(pt2.x), pt2.y + titleFont.lineHeight / 2);
-        pt2.y += titleFont.lineHeight + titleSpacing;
+        ctx.fillText(title[i2], rtlHelper.x(pt3.x), pt3.y + titleFont.lineHeight / 2);
+        pt3.y += titleFont.lineHeight + titleSpacing;
         if (i2 + 1 === length) {
-          pt2.y += options.titleMarginBottom - titleSpacing;
+          pt3.y += options.titleMarginBottom - titleSpacing;
         }
       }
     }
   }
-  _drawColorBox(ctx, pt2, i2, rtlHelper, options) {
+  _drawColorBox(ctx, pt3, i2, rtlHelper, options) {
     const labelColor = this.labelColors[i2];
     const labelPointStyle = this.labelPointStyles[i2];
     const { boxHeight, boxWidth } = options;
@@ -26409,7 +26781,7 @@ var Tooltip = class extends Element {
     const colorX = getAlignedX(this, "left", options);
     const rtlColorX = rtlHelper.x(colorX);
     const yOffSet = boxHeight < bodyFont.lineHeight ? (bodyFont.lineHeight - boxHeight) / 2 : 0;
-    const colorY = pt2.y + yOffSet;
+    const colorY = pt3.y + yOffSet;
     if (options.usePointStyle) {
       const drawOptions = {
         radius: Math.min(boxWidth, boxHeight) / 2,
@@ -26465,7 +26837,7 @@ var Tooltip = class extends Element {
     }
     ctx.fillStyle = this.labelTextColors[i2];
   }
-  drawBody(pt2, ctx, options) {
+  drawBody(pt3, ctx, options) {
     const { body } = this;
     const { bodySpacing, bodyAlign, displayColors, boxHeight, boxWidth, boxPadding } = options;
     const bodyFont = toFont(options.bodyFont);
@@ -26473,15 +26845,15 @@ var Tooltip = class extends Element {
     let xLinePadding = 0;
     const rtlHelper = getRtlAdapter(options.rtl, this.x, this.width);
     const fillLineOfText = function(line) {
-      ctx.fillText(line, rtlHelper.x(pt2.x + xLinePadding), pt2.y + bodyLineHeight / 2);
-      pt2.y += bodyLineHeight + bodySpacing;
+      ctx.fillText(line, rtlHelper.x(pt3.x + xLinePadding), pt3.y + bodyLineHeight / 2);
+      pt3.y += bodyLineHeight + bodySpacing;
     };
     const bodyAlignForCalculation = rtlHelper.textAlign(bodyAlign);
     let bodyItem, textColor, lines, i2, j2, ilen, jlen;
     ctx.textAlign = bodyAlign;
     ctx.textBaseline = "middle";
     ctx.font = bodyFont.string;
-    pt2.x = getAlignedX(this, bodyAlignForCalculation, options);
+    pt3.x = getAlignedX(this, bodyAlignForCalculation, options);
     ctx.fillStyle = options.bodyColor;
     each(this.beforeBody, fillLineOfText);
     xLinePadding = displayColors && bodyAlignForCalculation !== "right" ? bodyAlign === "center" ? boxWidth / 2 + boxPadding : boxWidth + 2 + boxPadding : 0;
@@ -26492,7 +26864,7 @@ var Tooltip = class extends Element {
       each(bodyItem.before, fillLineOfText);
       lines = bodyItem.lines;
       if (displayColors && lines.length) {
-        this._drawColorBox(ctx, pt2, i2, rtlHelper, options);
+        this._drawColorBox(ctx, pt3, i2, rtlHelper, options);
         bodyLineHeight = Math.max(bodyFont.lineHeight, boxHeight);
       }
       for (j2 = 0, jlen = lines.length; j2 < jlen; ++j2) {
@@ -26504,30 +26876,30 @@ var Tooltip = class extends Element {
     xLinePadding = 0;
     bodyLineHeight = bodyFont.lineHeight;
     each(this.afterBody, fillLineOfText);
-    pt2.y -= bodySpacing;
+    pt3.y -= bodySpacing;
   }
-  drawFooter(pt2, ctx, options) {
+  drawFooter(pt3, ctx, options) {
     const footer = this.footer;
     const length = footer.length;
     let footerFont, i2;
     if (length) {
       const rtlHelper = getRtlAdapter(options.rtl, this.x, this.width);
-      pt2.x = getAlignedX(this, options.footerAlign, options);
-      pt2.y += options.footerMarginTop;
+      pt3.x = getAlignedX(this, options.footerAlign, options);
+      pt3.y += options.footerMarginTop;
       ctx.textAlign = rtlHelper.textAlign(options.footerAlign);
       ctx.textBaseline = "middle";
       footerFont = toFont(options.footerFont);
       ctx.fillStyle = options.footerColor;
       ctx.font = footerFont.string;
       for (i2 = 0; i2 < length; ++i2) {
-        ctx.fillText(footer[i2], rtlHelper.x(pt2.x), pt2.y + footerFont.lineHeight / 2);
-        pt2.y += footerFont.lineHeight + options.footerSpacing;
+        ctx.fillText(footer[i2], rtlHelper.x(pt3.x), pt3.y + footerFont.lineHeight / 2);
+        pt3.y += footerFont.lineHeight + options.footerSpacing;
       }
     }
   }
-  drawBackground(pt2, ctx, tooltipSize, options) {
+  drawBackground(pt3, ctx, tooltipSize, options) {
     const { xAlign, yAlign } = this;
-    const { x: x2, y: y2 } = pt2;
+    const { x: x2, y: y2 } = pt3;
     const { width, height } = tooltipSize;
     const { topLeft, topRight, bottomLeft, bottomRight } = toTRBLCorners(options.cornerRadius);
     ctx.fillStyle = options.backgroundColor;
@@ -26536,22 +26908,22 @@ var Tooltip = class extends Element {
     ctx.beginPath();
     ctx.moveTo(x2 + topLeft, y2);
     if (yAlign === "top") {
-      this.drawCaret(pt2, ctx, tooltipSize, options);
+      this.drawCaret(pt3, ctx, tooltipSize, options);
     }
     ctx.lineTo(x2 + width - topRight, y2);
     ctx.quadraticCurveTo(x2 + width, y2, x2 + width, y2 + topRight);
     if (yAlign === "center" && xAlign === "right") {
-      this.drawCaret(pt2, ctx, tooltipSize, options);
+      this.drawCaret(pt3, ctx, tooltipSize, options);
     }
     ctx.lineTo(x2 + width, y2 + height - bottomRight);
     ctx.quadraticCurveTo(x2 + width, y2 + height, x2 + width - bottomRight, y2 + height);
     if (yAlign === "bottom") {
-      this.drawCaret(pt2, ctx, tooltipSize, options);
+      this.drawCaret(pt3, ctx, tooltipSize, options);
     }
     ctx.lineTo(x2 + bottomLeft, y2 + height);
     ctx.quadraticCurveTo(x2, y2 + height, x2, y2 + height - bottomLeft);
     if (yAlign === "center" && xAlign === "left") {
-      this.drawCaret(pt2, ctx, tooltipSize, options);
+      this.drawCaret(pt3, ctx, tooltipSize, options);
     }
     ctx.lineTo(x2, y2 + topLeft);
     ctx.quadraticCurveTo(x2, y2, x2 + topLeft, y2);
@@ -26600,7 +26972,7 @@ var Tooltip = class extends Element {
       width: this.width,
       height: this.height
     };
-    const pt2 = {
+    const pt3 = {
       x: this.x,
       y: this.y
     };
@@ -26610,12 +26982,12 @@ var Tooltip = class extends Element {
     if (options.enabled && hasTooltipContent) {
       ctx.save();
       ctx.globalAlpha = opacity;
-      this.drawBackground(pt2, ctx, tooltipSize, options);
+      this.drawBackground(pt3, ctx, tooltipSize, options);
       overrideTextDirection(ctx, options.textDirection);
-      pt2.y += padding.top;
-      this.drawTitle(pt2, ctx, options);
-      this.drawBody(pt2, ctx, options);
-      this.drawFooter(pt2, ctx, options);
+      pt3.y += padding.top;
+      this.drawTitle(pt3, ctx, options);
+      this.drawBody(pt3, ctx, options);
+      this.drawFooter(pt3, ctx, options);
       restoreTextDirection(ctx, options.textDirection);
       ctx.restore();
     }
@@ -27947,8 +28319,8 @@ function addTick(ticks, time, timestamps) {
   if (!timestamps) {
     ticks[time] = true;
   } else if (timestamps.length) {
-    const { lo, hi } = _lookup(timestamps, time);
-    const timestamp = timestamps[lo] >= time ? timestamps[lo] : timestamps[hi];
+    const { lo, hi: hi2 } = _lookup(timestamps, time);
+    const timestamp = timestamps[lo] >= time ? timestamps[lo] : timestamps[hi2];
     ticks[timestamp] = true;
   }
 }
@@ -28269,20 +28641,20 @@ __publicField(TimeScale, "defaults", {
 });
 function interpolate3(table, val, reverse) {
   let lo = 0;
-  let hi = table.length - 1;
+  let hi2 = table.length - 1;
   let prevSource, nextSource, prevTarget, nextTarget;
   if (reverse) {
-    if (val >= table[lo].pos && val <= table[hi].pos) {
-      ({ lo, hi } = _lookupByKey(table, "pos", val));
+    if (val >= table[lo].pos && val <= table[hi2].pos) {
+      ({ lo, hi: hi2 } = _lookupByKey(table, "pos", val));
     }
     ({ pos: prevSource, time: prevTarget } = table[lo]);
-    ({ pos: nextSource, time: nextTarget } = table[hi]);
+    ({ pos: nextSource, time: nextTarget } = table[hi2]);
   } else {
-    if (val >= table[lo].time && val <= table[hi].time) {
-      ({ lo, hi } = _lookupByKey(table, "time", val));
+    if (val >= table[lo].time && val <= table[hi2].time) {
+      ({ lo, hi: hi2 } = _lookupByKey(table, "time", val));
     }
     ({ time: prevSource, pos: prevTarget } = table[lo]);
-    ({ time: nextSource, pos: nextTarget } = table[hi]);
+    ({ time: nextSource, pos: nextTarget } = table[hi2]);
   }
   const span = nextSource - prevSource;
   return span ? prevTarget + (nextTarget - prevTarget) * (val - prevSource) / span : prevTarget;
@@ -29004,7 +29376,7 @@ function rt() {
   }, "").trim();
 }
 var ot;
-var it;
+var it2;
 var ut;
 var st;
 var at = /* @__PURE__ */ (function(t3) {
@@ -29022,14 +29394,14 @@ var at = /* @__PURE__ */ (function(t3) {
 var lt = 0;
 var ct = [];
 var ft = [];
-var pt = c.__b;
+var pt2 = c.__b;
 var dt = c.__r;
 var ht = c.diffed;
 var _t = c.__c;
 var mt = c.unmount;
 function vt(t3, n2) {
-  c.__h && c.__h(it, t3, lt || n2), lt = 0;
-  var e2 = it.__H || (it.__H = { __: [], __h: [] });
+  c.__h && c.__h(it2, t3, lt || n2), lt = 0;
+  var e2 = it2.__H || (it2.__H = { __: [], __h: [] });
   return t3 >= e2.__.length && e2.__.push({ __V: ft }), e2.__[t3];
 }
 function yt(t3) {
@@ -29038,10 +29410,10 @@ function yt(t3) {
     if (r2.t = t4, !r2.__c && (r2.__ = [Et(void 0, n2), function(t5) {
       var n3 = r2.__N ? r2.__N[0] : r2.__[0], e3 = r2.t(n3, t5);
       n3 !== e3 && (r2.__N = [e3, r2.__[1]], r2.__c.setState({}));
-    }], r2.__c = it, !it.u)) {
-      it.u = true;
-      var o2 = it.shouldComponentUpdate;
-      it.shouldComponentUpdate = function(t5, n3, e3) {
+    }], r2.__c = it2, !it2.u)) {
+      it2.u = true;
+      var o2 = it2.shouldComponentUpdate;
+      it2.shouldComponentUpdate = function(t5, n3, e3) {
         if (!r2.__c.__H) return true;
         var i2 = r2.__c.__H.__.filter(function(t6) {
           return t6.__c;
@@ -29063,7 +29435,7 @@ function yt(t3) {
 }
 function gt(t3, n2) {
   var e2 = vt(ot++, 3);
-  !c.__s && Ct(e2.__H, n2) && (e2.__ = t3, e2.i = n2, it.__H.__h.push(e2));
+  !c.__s && Ct(e2.__H, n2) && (e2.__ = t3, e2.i = n2, it2.__H.__h.push(e2));
 }
 function bt(t3) {
   return lt = 5, wt(function() {
@@ -29082,19 +29454,19 @@ function xt() {
   }
 }
 c.__b = function(t3) {
-  it = null, pt && pt(t3);
+  it2 = null, pt2 && pt2(t3);
 }, c.__r = function(t3) {
   dt && dt(t3), ot = 0;
-  var n2 = (it = t3.__c).__H;
-  n2 && (ut === it ? (n2.__h = [], it.__h = [], n2.__.forEach(function(t4) {
+  var n2 = (it2 = t3.__c).__H;
+  n2 && (ut === it2 ? (n2.__h = [], it2.__h = [], n2.__.forEach(function(t4) {
     t4.__N && (t4.__ = t4.__N), t4.__V = ft, t4.__N = t4.i = void 0;
-  })) : (n2.__h.forEach(Nt), n2.__h.forEach(Pt), n2.__h = [])), ut = it;
+  })) : (n2.__h.forEach(Nt), n2.__h.forEach(Pt), n2.__h = [])), ut = it2;
 }, c.diffed = function(t3) {
   ht && ht(t3);
   var n2 = t3.__c;
   n2 && n2.__H && (n2.__H.__h.length && (1 !== ct.push(n2) && st === c.requestAnimationFrame || ((st = c.requestAnimationFrame) || St)(xt)), n2.__H.__.forEach(function(t4) {
     t4.i && (t4.__H = t4.i), t4.__V !== ft && (t4.__ = t4.__V), t4.i = void 0, t4.__V = ft;
-  })), ut = it = null;
+  })), ut = it2 = null;
 }, c.__c = function(t3, n2) {
   n2.some(function(t4) {
     try {
@@ -29126,12 +29498,12 @@ function St(t3) {
   kt && (n2 = requestAnimationFrame(e2));
 }
 function Nt(t3) {
-  var n2 = it, e2 = t3.__c;
-  "function" == typeof e2 && (t3.__c = void 0, e2()), it = n2;
+  var n2 = it2, e2 = t3.__c;
+  "function" == typeof e2 && (t3.__c = void 0, e2()), it2 = n2;
 }
 function Pt(t3) {
-  var n2 = it;
-  t3.__c = t3.__(), it = n2;
+  var n2 = it2;
+  t3.__c = t3.__(), it2 = n2;
 }
 function Ct(t3, n2) {
   return !t3 || t3.length !== n2.length || n2.some(function(n3, e2) {
@@ -29143,8 +29515,8 @@ function Et(t3, n2) {
 }
 function It() {
   return (function(t3) {
-    var n2 = it.context[t3.__c], e2 = vt(ot++, 9);
-    return e2.c = t3, n2 ? (null == e2.__ && (e2.__ = true, n2.sub(it)), n2.props.value) : t3.__;
+    var n2 = it2.context[t3.__c], e2 = vt(ot++, 9);
+    return e2.c = t3, n2 ? (null == e2.__ && (e2.__ = true, n2.sub(it2)), n2.props.value) : t3.__;
   })(fn);
 }
 var Tt = { search: { placeholder: "Type a keyword..." }, sort: { sortAsc: "Sort column ascending", sortDesc: "Sort column descending" }, pagination: { previous: "Previous", next: "Next", navigate: function(t3, n2) {
@@ -29563,7 +29935,7 @@ var nn = /* @__PURE__ */ (function() {
     }, r2;
   }, t3;
 })();
-function en(t3) {
+function en2(t3) {
   return t3 instanceof nn && 1 & t3.s;
 }
 var rn = /* @__PURE__ */ (function(t3) {
@@ -29628,7 +30000,7 @@ var rn = /* @__PURE__ */ (function(t3) {
               if ((function t7(e5) {
                 try {
                   for (; !(r3 = u4.next()).done; ) if ((e5 = n4(r3.value)) && e5.then) {
-                    if (!en(e5)) return void e5.then(t7, i3 || (i3 = tn.bind(null, o4 = new nn(), 2)));
+                    if (!en2(e5)) return void e5.then(t7, i3 || (i3 = tn.bind(null, o4 = new nn(), 2)));
                     e5 = e5.v;
                   }
                   o4 ? tn(o4, 1, e5) : o4 = e5;
@@ -29657,7 +30029,7 @@ var rn = /* @__PURE__ */ (function(t3) {
               return (function e6(u5) {
                 try {
                   for (; ++i4 < t7.length; ) if ((u5 = n5(i4)) && u5.then) {
-                    if (!en(u5)) return void u5.then(e6, o5 || (o5 = tn.bind(null, r4 = new nn(), 2)));
+                    if (!en2(u5)) return void u5.then(e6, o5 || (o5 = tn.bind(null, r4 = new nn(), 2)));
                     u5 = u5.v;
                   }
                   r4 ? tn(r4, 1, u5) : r4 = u5;
@@ -29848,7 +30220,7 @@ var pn = /* @__PURE__ */ (function() {
     }), e2;
   }, t3;
 })();
-function dn(t3) {
+function dn2(t3) {
   var n2, r2 = It();
   return w("td", e({ role: t3.role, colSpan: t3.colSpan, "data-column-id": t3.column && t3.column.id, className: rt(et("td"), t3.className, r2.className.td), style: e({}, t3.style, r2.style.td), onClick: function(n3) {
     t3.messageCell || r2.eventEmitter.emit("cellClick", n3, t3.cell, t3.column, t3.row);
@@ -29868,11 +30240,11 @@ function hn(t3) {
       }
       return null;
     })(r2);
-    return o2 && o2.hidden ? null : w(dn, { key: n3.id, cell: n3, row: t3.row, column: o2 });
+    return o2 && o2.hidden ? null : w(dn2, { key: n3.id, cell: n3, row: t3.row, column: o2 });
   }));
 }
 function _n(t3) {
-  return w(hn, { messageRow: true }, w(dn, { role: "alert", colSpan: t3.colSpan, messageCell: true, cell: new X(t3.message), className: rt(et("message"), t3.className ? t3.className : null) }));
+  return w(hn, { messageRow: true }, w(dn2, { role: "alert", colSpan: t3.colSpan, messageCell: true, cell: new X(t3.message), className: rt(et("message"), t3.className ? t3.className : null) }));
 }
 function mn() {
   var t3 = It(), n2 = jt(function(t4) {
@@ -29944,7 +30316,7 @@ var gn = function(t3, n2, r2) {
     return e({}, o2, i2 ? yn(t3, 1 === i2.direction ? -1 : 1, n2, r2)(o2) : yn(t3, 1, n2, r2)(o2));
   };
 };
-var bn = /* @__PURE__ */ (function(t3) {
+var bn2 = /* @__PURE__ */ (function(t3) {
   function o2() {
     return t3.apply(this, arguments) || this;
   }
@@ -29963,7 +30335,7 @@ function wn(t3) {
     if (t4.length) return t4[0];
   };
   return gt(function() {
-    var t4 = f2() || (c2 === K.ServerSort ? new bn(e({ columns: l2 ? l2.columns : [] }, a2.server)) : new vn({ columns: l2 ? l2.columns : [] }));
+    var t4 = f2() || (c2 === K.ServerSort ? new bn2(e({ columns: l2 ? l2.columns : [] }, a2.server)) : new vn({ columns: l2 ? l2.columns : [] }));
     return n2.pipeline.tryRegister(t4), function() {
       return n2.pipeline.unregister(t4);
     };

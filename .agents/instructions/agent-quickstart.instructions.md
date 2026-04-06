@@ -41,9 +41,10 @@ Repository gotchas & quick tips
       `anyio.create_task_group`).
   - `soonify` – schedule concurrent calls and optionally obtain return
       values (`SoonValue` objects with `.value`/`.ready`).
-  - `runnify` – wrap an async function for synchronous use (used by CLI
-      entrypoints: `runnify(main)()`).
-  - `asyncify` – run blocking or CPU-bound sync code in a worker thread
+  - `runnify` – wrap an async function for synchronous use. **All Python
+      scripts and modules use `runnify` for entry points; see
+      `.agents/instructions/python-entry-points.instructions.md` for the
+      complete convention.**  - `asyncify` – run blocking or CPU-bound sync code in a worker thread
       from async context.
   - `syncify` – call async functions from mostly-sync code paths.
   Prefer these utilities over manual event-loop manipulation or custom

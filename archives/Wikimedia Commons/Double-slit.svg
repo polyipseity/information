@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <radialGradient id="e" cx="107.5" cy="92" r="3.5" gradientTransform="matrix(1.363 0 0 1.363 11.363 37.846)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#00f" offset="0"/>
+   <stop stop-color="#00f" stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="v" cx="318.5" cy="101" r="4.5" gradientTransform="matrix(1.363 0 0 26.576 48.163 -2508.7)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#00f" offset="0"/>
+   <stop stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <linearGradient id="s" x1="38.5" x2="58.5" y1="93" y2="93" gradientTransform="matrix(0 1.363 -1.363 0 227.4 97.136)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#000064" stop-opacity=".39216" offset="0"/>
+   <stop stop-color="#6464ff" stop-opacity=".39216" offset=".44844"/>
+   <stop stop-color="#000064" stop-opacity=".39216" offset="1"/>
+  </linearGradient>
+  <radialGradient id="i" cx="318.5" cy="101" r="4.5" gradientTransform="matrix(1.363 0 0 26.576 31.807 -2525.1)" gradientUnits="userSpaceOnUse" xlink:href="#v"/>
+  <radialGradient id="d" cx="318.5" cy="101" r="4.5" gradientTransform="matrix(1.363 0 0 26.576 15.451 -2541.4)" gradientUnits="userSpaceOnUse" xlink:href="#v"/>
+  <radialGradient id="a" cx="318.5" cy="101" r="4.5" gradientTransform="matrix(1.363,0,0,26.576,48.163,-2508.7)" gradientUnits="userSpaceOnUse" xlink:href="#v"/>
+ </defs>
+ <g id="b">
+  <circle id="c" cx="157.89" cy="163.24" r="4.7705" fill="url(#e)"/>
+  <use transform="translate(16.35)" xlink:href="#c"/>
+ </g>
+ <g stroke-width="2">
+  <path d="m149.03 163.73c15.688-25.442 17.024 23.484 32.712 0 15.688-25.442 17.024 23.484 32.712 0 15.688-25.442 17.024 23.484 32.712 0" fill="none" stroke="#00f" stroke-linecap="round"/>
+  <g stroke="#000">
+   <path d="m56.343 149.61c3.7638 0 6.815 6.1024 6.815 13.63s-3.0512 13.63-6.815 13.63h95.41c3.7638 0 6.815-6.1024 6.815-13.63 0-7.5275-3.0512-13.63-6.815-13.63z" fill="#fff"/>
+   <path d="m443.43 63.736 77.956 77.956v140.96l-77.956-77.957z" fill="#fff"/>
+   <path d="m277.15 204.7 77.955 77.957v-140.96l-77.955-77.956zm25.898-90.519 5.4512 5.4531v96.771l-5.4512-5.4512v-96.773zm19.082 19.082 5.4512 5.4531v96.771l-5.4512-5.4512v-96.773z" fill="#747474"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+   <path d="m427.52 256.91 29.826-24.835" stroke="#000"/>
+   <path d="m368.62 163.24h43.776" stroke="#00f" stroke-dasharray="4"/>
+   <path d="m212.3 163.24h42.874" stroke="#00f"/>
+  </g>
+  <ellipse cx="56.343" cy="163.24" rx="6.815" ry="13.63" fill="#00f" fill-opacity=".39216" stroke="#000"/>
+  <path d="m56.343 149.61c3.7638 0 6.815 6.1024 6.815 13.63s-3.0512 13.63-6.815 13.63h95.41c3.7638 0 6.815-6.1024 6.815-13.63 0-7.5275-3.0512-13.63-6.815-13.63z" fill="url(#s)" stroke="#000"/>
+ </g>
+ <path id="j" d="m476.14 120.99 12.267 12.267v96.773l-12.267-12.267z" fill="url(#a)"/>
+ <g id="h">
+  <path id="g" d="m459.78 104.63 12.267 12.267v96.773l-12.267-12.267z" fill="url(#i)"/>
+  <path d="m443.43 88.278 12.267 12.267v96.773l-12.267-12.267z" fill="url(#d)" fill-opacity=".39216"/>
+ </g>
+ <use transform="rotate(180,482.27,175.51)" xlink:href="#h"/>
+ <path d="m403.09 153.79c4.725 5.5282 4.725 13.396 0 18.9l25.986-9.4492z" fill="#00f"/>
+ <path d="m245.85 153.79c4.725 5.5282 4.725 13.396 0 18.9l25.986-9.4492z" fill="#00f"/>
+ <path d="m471.83 219.39-26.016 9.3672c7.1675 1.2256 12.2 7.2705 12.092 14.523z"/>
+ <use transform="translate(32.03)" xlink:href="#b"/>
+ <g font-family="'Liberation Sans'" font-size="15px" text-anchor="middle">
+  <switch transform="translate(212.55 131.15)">
+   <text systemLanguage="pdc">Elektronen</text>
+   <text systemLanguage="ta">எதிர்மின்</text>
+   <text systemLanguage="de">Elektronen</text>
+   <text systemLanguage="fr">Électrons</text>
+   <text systemLanguage="lfn">fsf</text>
+   <text systemLanguage="tr">elektronlar</text>
+   <text systemLanguage="yue">電子</text>
+   <text>Electrons</text>
+  </switch>
+  <switch transform="translate(482.29 40.441)">
+   <text systemLanguage="pdc">Beobachtungsschirm</text>
+   <text systemLanguage="ta">திரை</text>
+   <text systemLanguage="de">Beobachtungsschirm</text>
+   <text systemLanguage="fr">Écran</text>
+   <text systemLanguage="lfn">fs</text>
+   <text systemLanguage="tr">perde</text>
+   <text systemLanguage="yue">屏幕</text>
+   <text>screen</text>
+  </switch>
+  <switch transform="translate(315.85 32.941)">
+   <text systemLanguage="pdc"><tspan x="0" y="0">Doppel-</tspan><tspan x="0" y="15">spalt</tspan></text>
+   <text systemLanguage="ta"><tspan x="0" y="0">இரட்டைப்</tspan><tspan x="0" y="15">பிளவு</tspan></text>
+   <text systemLanguage="de"><tspan x="0" y="0">Doppel-</tspan><tspan x="0" y="15">spalt</tspan></text>
+   <text systemLanguage="fr"><tspan x="0" y="0">Fentes de</tspan><tspan x="0" y="15">Young</tspan></text>
+   <text systemLanguage="lfn"><tspan x="0" y="0">ffss</tspan><tspan x="0" y="15">fsds</tspan></text>
+   <text systemLanguage="tr"><tspan x="0" y="0">çift-yarıklı</tspan><tspan x="0" y="15">perde</tspan></text>
+   <text systemLanguage="yue"><tspan x="0" y="0">兩條</tspan><tspan x="0" y="15">好幼嘅罅</tspan></text>
+   <text><tspan x="0" y="0">double-</tspan><tspan x="0" y="15">slit</tspan></text>
+  </switch>
+  <switch transform="translate(422.75,272.16)">
+   <text systemLanguage="pdc"><tspan x="0" y="0">Interferenz-</tspan><tspan x="0" y="15">muster</tspan></text>
+   <text systemLanguage="ta"><tspan x="0" y="0">குறுக்கீட்டு</tspan><tspan x="0" y="15">விளைவு</tspan></text>
+   <text systemLanguage="de"><tspan x="0" y="0">Interferenz-</tspan><tspan x="0" y="15">muster</tspan></text>
+   <text systemLanguage="fr"><tspan x="0" y="0">Figure</tspan><tspan x="0" y="15">d'interférence</tspan></text>
+   <text systemLanguage="lfn"><tspan x="0" y="0">fdsf</tspan><tspan x="0" y="15">fs</tspan></text>
+   <text systemLanguage="tr"><tspan x="0" y="0">girişim</tspan><tspan x="0" y="15">deseni</tspan></text>
+   <text systemLanguage="yue"><tspan x="0" y="0"/><tspan x="0" y="15">干涉圖案</tspan></text>
+   <text><tspan x="0" y="0">interference</tspan><tspan x="0" y="15">pattern</tspan></text>
+  </switch>
+  <switch transform="translate(101.96 123.65)">
+   <text systemLanguage="pdc"><tspan x="0" y="0">Elektron-</tspan><tspan x="0" y="15">kanone</tspan></text>
+   <text systemLanguage="ta"><tspan x="0" y="0">எதிர்மின்</tspan><tspan x="0" y="15">கற்றை துப்பாக்கி</tspan></text>
+   <text systemLanguage="de"><tspan x="0" y="0">Elektron-</tspan><tspan x="0" y="15">kanone</tspan></text>
+   <text systemLanguage="fr"><tspan x="0" y="0">électrons</tspan><tspan x="0" y="15">Canon à</tspan></text>
+   <text systemLanguage="lfn"><tspan x="0" y="0">cds</tspan><tspan x="0" y="15">fdsd</tspan></text>
+   <text systemLanguage="tr"><tspan x="0" y="0">elektron</tspan><tspan x="0" y="15">tabancası</tspan></text>
+   <text systemLanguage="yue"><tspan x="0" y="0"/><tspan x="0" y="15">電子光束槍</tspan></text>
+   <text><tspan x="0" y="0">electron</tspan><tspan x="0" y="15">beam gun</tspan></text>
+  </switch>
+ </g>
+</svg>

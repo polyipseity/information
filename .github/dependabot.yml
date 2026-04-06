@@ -1,10 +1,10 @@
 # Dependabot configuration
-# See <https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates>
+# <https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates>
 
 version: 2
 
 registries:
-  # See <https://github.com/dependabot/dependabot-core/issues/8027#issuecomment-1779394703>
+  # <https://github.com/dependabot/dependabot-core/issues/8027#issuecomment-1779394703>
   github-private:
     type: git
     url: https://github.com
@@ -86,9 +86,7 @@ updates:
       # Make all submodules clone successfully
       - github-private
 
-  # Python (pyproject.toml - dependency-groups / project.optional-dependencies).
-  # We manage Python dependencies with `uv` and commit `uv.lock` for reproducible installs.
-  # Dependabot is configured to update Python dependencies (pyproject and `uv.lock`) using the `uv` ecosystem.
+  # Python (pyproject.toml)
   - package-ecosystem: "uv"
     directory: "/"
     schedule:

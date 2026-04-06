@@ -36,7 +36,3 @@ Why this exists
 
 - Makes skills discoverable to agents and maintainers
 - Enables automated checks in CI and reduces drift between human docs and metadata
-
-If you want me to reorder, merge, or split skills I can apply the changes accordingly.
-
-Migration note: `tools-templates` and `tools-special` were merged into `tools/SKILL.md` — cross-references were updated accordingly.

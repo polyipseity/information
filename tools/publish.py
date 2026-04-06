@@ -7,14 +7,14 @@ from logging import INFO, basicConfig, error, info
 from os import cpu_count
 from pathlib import PurePath
 from shlex import quote
+from shutil import which as _sync_which
 from subprocess import DEVNULL, PIPE
 from sys import argv
 from tempfile import NamedTemporaryFile, TemporaryDirectory
 from typing import Any, final
 
-from aioshutil import which
 from anyio import AsyncFile, Path, Semaphore, run_process
-from asyncer import SoonValue, create_task_group, runnify
+from asyncer import SoonValue, asyncify, create_task_group, runnify
 
 _FILE_PATH = PurePath(__file__)
 _MESSAGE_PROPERTY_KEY = b"Private-commit"
@@ -41,9 +41,9 @@ class Arguments:
     paths_file: Path
 
 
-@wraps(which)
+@wraps(_sync_which)
 async def _which2(cmd: str) -> str:
-    ret = await which(cmd)
+    ret = await asyncify(_sync_which)(cmd)
     if ret is None:
         raise FileNotFoundError(cmd)
     return ret
@@ -251,12 +251,17 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
     return parser
 
 
-def __main__() -> None:
-    """Entry point for running the script directly."""
+async def main0():
+    """Entry point for running the script directly. Parses CLI arguments and invokes main()."""
     __name__ = _FILE_PATH.stem  # noqa: F841
     basicConfig(level=INFO)
     entry = parser().parse_args(argv[1:])
-    runnify(entry.invoke, backend_options={"use_uvloop": True})(entry)
+    await entry.invoke(entry)
+
+
+def __main__() -> None:
+    """Entry point for running the script directly."""
+    runnify(main0, backend_options={"use_uvloop": True})()
 
 
 if __name__ == "__main__":

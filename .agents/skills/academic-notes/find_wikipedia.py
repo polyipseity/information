@@ -27,7 +27,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import sys
 import urllib.parse
 import urllib.request
 from typing import TypeVar
@@ -298,7 +297,7 @@ def _print_human(results: list[FormattedResult], show_full: bool) -> None:
     _CONSOLE.print(table)
 
 
-def main(argv: list[str] | None = None) -> int:
+def main(argv: list[str] | None = None) -> None:
     """CLI entrypoint for the script.
 
     Parses command-line arguments, performs a Wikipedia search, and
@@ -342,7 +341,7 @@ def main(argv: list[str] | None = None) -> int:
         hits = search(term, limit=args.limit)
     except WikipediaAPIError as exc:
         _CONSOLE.print(f"[red]error:[/] {exc}", markup=True)
-        return 1
+        return exit(1)
 
     if not hits:
         if args.human:
@@ -354,7 +353,7 @@ def main(argv: list[str] | None = None) -> int:
                 json.dumps({"query": term, "results": []}, ensure_ascii=False),
                 highlight=True,
             )
-        return 0
+        return exit(0)
 
     formatted = [format_result(h.title) for h in hits]
 
@@ -373,8 +372,13 @@ def main(argv: list[str] | None = None) -> int:
             # plain JSON lines (use regular print to avoid automatic wrapping)
             for r in payload["results"]:
                 print(json.dumps(r, ensure_ascii=False))
-    return 0
+    return exit(0)
+
+
+def __main__() -> None:
+    """Synchronous CLI entry point exposed by the package."""
+    main()
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    __main__()

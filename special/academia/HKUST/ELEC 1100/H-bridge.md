@@ -9,22 +9,22 @@ tags:
 
 # H-bridge
 
-An H-bridge is a circuit that allows reversible control of a [brushed DC motor](brushed%20DC%20electric%20motor.md) (or other DC load): by closing the right pair of switches, current through the motor flows in one direction (forward) or the opposite (backward), so the motor can be driven in either sense from a single supply. In robot applications this is used to make a wheel or tread turn forward or reverse. The name comes from the typical schematic layout: the supply and ground form two vertical rails, and the load sits horizontally between them with four switches at the corners, resembling the letter “H”.
+An H-bridge is a circuit that allows reversible control of a [brushed DC motor](brushed%20DC%20electric%20motor.md) (or other DC load): by closing the right pair of switches, current through the motor flows in one direction (forward) or the opposite (backward), so the motor can be driven in either sense from a single supply. In robot applications this is used to make a wheel or tread turn forward or reverse. The name comes from the typical schematic layout: the supply and ground form two vertical rails, and the load sits horizontally between them with four switches at the corners, resembling the letter "H".
 
 ---
 
 Flashcards for this section are as follows:
 
 - H-bridge purpose: What does an H-bridge let you do with a DC motor? ::@:: Control the direction of current through the motor so it can spin forward or backward; reversible drive from a single supply without switching wires. <!--SR:!2026-05-29,55,310!2026-05-28,54,310-->
-- H-bridge single supply: Why is “one supply” useful? ::@:: You do not need two power sources or to physically swap motor leads; one supply and the right switch pattern give either direction. <!--SR:!2026-06-09,64,310!2026-06-11,66,310-->
-- H-bridge name origin ::@:: The circuit layout looks like an “H”: supply and ground are the two vertical rails, the load is the horizontal bar, and four switches sit at the corners. <!--SR:!2026-06-10,65,310!2026-05-30,56,310-->
+- H-bridge single supply: Why is "one supply" useful? ::@:: You do not need two power sources or to physically swap motor leads; one supply and the right switch pattern give either direction. <!--SR:!2026-06-09,64,310!2026-06-11,66,310-->
+- H-bridge name origin ::@:: The circuit layout looks like an "H": supply and ground are the two vertical rails, the load is the horizontal bar, and four switches sit at the corners. <!--SR:!2026-06-10,65,310!2026-05-30,56,310-->
 - H-bridge robot use: How is the H-bridge used in a robot? ::@:: To drive a wheel or tread forward or reverse (e.g. left and right wheels) so the robot can move in either direction. <!--SR:!2026-06-06,62,310!2026-06-05,61,310-->
 
 ## four-switch topology and direction control
 
 ### switches and current path
 
-The basic H-bridge uses four switches (S1–S4) arranged around the motor: one pair connects the motor to the positive supply and ground on one side, the other pair on the opposite side. The motor has two terminals (e.g. $+$ and $-$). To drive in one direction, close S1 and S3 (the two “diagonal” switches on one diagonal); current flows from supply through S1, through the motor (e.g. $+$ to $-$), through S3 to ground. To reverse direction, open S1 and S3 and instead close S2 and S4; current then flows the other way through the motor. <p> ![H-bridge schematic (four switches S1–S4 and motor)](attachments/h_bridge.svg)
+The basic H-bridge uses four switches (S1–S4) arranged around the motor: one pair connects the motor to the positive supply and ground on one side, the other pair on the opposite side. The motor has two terminals (e.g. $+$ and $-$). To drive in one direction, close S1 and S3 (the two "diagonal" switches on one diagonal); current flows from supply through S1, through the motor (e.g. $+$ to $-$), through S3 to ground. To reverse direction, open S1 and S3 and instead close S2 and S4; current then flows the other way through the motor. <p> ![H-bridge schematic (four switches S1–S4 and motor)](attachments/h_bridge.svg)
 
 ---
 
@@ -79,7 +79,7 @@ Flashcards for this section are as follows:
 
 ### direction (DIR) signal and inverter solution
 
-To control the H-bridge with a single **direction (DIR)** signal (e.g. $5\text{ V}$ for one way and $0\text{ V}$ for the other), one diagonal’s bases get the DIR value directly but the other diagonal needs the inverted value. A single DIR line provides only one logic level, so the four bases (which need two complementary pairs) cannot be driven from DIR alone. An **inverter** is used: when DIR is $5\text{ V}$, one pair of bases sees $5\text{ V}$ and $0\text{ V}$ (from the inverter output); when DIR is $0\text{ V}$, the inverter outputs $5\text{ V}$ so the other pair is driven. One DIR line plus one inverter thus produce both $5\text{ V}$ and $0\text{ V}$ for the four transistors.
+To control the H-bridge with a single **direction (DIR)** signal (e.g. $5\text{ V}$ for one way and $0\text{ V}$ for the other), one diagonal's bases get the DIR value directly but the other diagonal needs the inverted value. A single DIR line provides only one logic level, so the four bases (which need two complementary pairs) cannot be driven from DIR alone. An **inverter** is used: when DIR is $5\text{ V}$, one pair of bases sees $5\text{ V}$ and $0\text{ V}$ (from the inverter output); when DIR is $0\text{ V}$, the inverter outputs $5\text{ V}$ so the other pair is driven. One DIR line plus one inverter thus produce both $5\text{ V}$ and $0\text{ V}$ for the four transistors.
 
 ---
 
@@ -105,7 +105,7 @@ Flashcards for this section are as follows:
 
 ### power and pinout
 
-The IC does not generate power: **VCC** (pin 14 for the standard 14-pin package) connects to the positive supply voltage (in our course robot, $5\text{ V}$ is used); **GND** (pin 7) connects to ground. Pin 1 is at the top left when the “U” shape or notch at the top is identified; pins run down the left side (1–7) and up the right side (8–14). <p> ![74HC14 pinout (14-pin DIP)](attachments/74hc14_pinout.svg)
+The IC does not generate power: **VCC** (pin 14 for the standard 14-pin package) connects to the positive supply voltage (in our course robot, $5\text{ V}$ is used); **GND** (pin 7) connects to ground. Pin 1 is at the top left when the "U" shape or notch at the top is identified; pins run down the left side (1–7) and up the right side (8–14). <p> ![74HC14 pinout (14-pin DIP)](attachments/74hc14_pinout.svg)
 
 ---
 
@@ -114,7 +114,7 @@ Flashcards for this section are as follows:
 - schematic: 74HC14 pinout <p> ![74HC14 pinout](attachments/74hc14_pinout.svg) ::@:: 74HC14 hex inverter: 14-pin DIP; pin $7$ = GND, pin $14$ = VCC; pins 1A/1Y, 2A/2Y, etc. for the six inverters. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-11,66,310!2026-06-06,62,310-->
 - 74HC14 power: Does the 74HC14 generate its own power? What must be connected? (VCC, GND, $5\text{ V}$ in course) ::@:: No; VCC connects to the positive supply (in our course robot, $5\text{ V}$); GND connects to ground. The IC does not generate power. <!--SR:!2026-06-12,67,310!2026-06-10,65,310-->
 - 74HC14 VCC and GND: Can VCC be any voltage? What about GND? ($5\text{ V}$ in course) ::@:: VCC can be connected to any valid supply voltage for the IC (in our course we use $5\text{ V}$); GND must be connected to ground. <!--SR:!2026-06-12,67,310!2026-06-11,66,310-->
-- 74HC14 pin numbering: How are pins identified on the 74HC14? ::@:: Identify the top (e.g. “U” notch); pin 1 is top left; pins run down the left (1–7) and up the right (8–14). <!--SR:!2026-06-10,65,310!2026-05-30,56,310-->
+- 74HC14 pin numbering: How are pins identified on the 74HC14? ::@:: Identify the top (e.g. "U" notch); pin 1 is top left; pins run down the left (1–7) and up the right (8–14). <!--SR:!2026-06-10,65,310!2026-05-30,56,310-->
 
 ## dual H-bridge motor driver (L293)
 
@@ -157,13 +157,13 @@ Flashcards for this section are as follows:
 
 ### wiring DIR and inverters
 
-Two **74HC14** inverters are needed for the two motors (left and right DIR). Connect each motor’s DIR line to one inverter input; the inverter output goes to the appropriate L293 IN pins so that the two inputs to each H-bridge are complementary.
+Two **74HC14** inverters are needed for the two motors (left and right DIR). Connect each motor's DIR line to one inverter input; the inverter output goes to the appropriate L293 IN pins so that the two inputs to each H-bridge are complementary.
 
 ---
 
 Flashcards for this section are as follows:
 
-- connecting DIR to L293: How is each motor’s DIR signal wired to the L293? ::@:: The DIR line goes to one inverter input; the inverter output goes to the appropriate L293 IN pins so that the two inputs to that H-bridge are complementary (one HIGH, one LOW). <!--SR:!2026-06-01,58,310!2026-06-10,65,310-->
+- connecting DIR to L293: How is each motor's DIR signal wired to the L293? ::@:: The DIR line goes to one inverter input; the inverter output goes to the appropriate L293 IN pins so that the two inputs to that H-bridge are complementary (one HIGH, one LOW). <!--SR:!2026-06-01,58,310!2026-06-10,65,310-->
 
 ## breadboard layout
 

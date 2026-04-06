@@ -20,6 +20,14 @@ All style decisions are driven by the representative examples and heuristics emb
 
 **Academic content:** if editing `special/academia` material also consult the `academic-notes` skill for course‑specific conventions such as full hierarchical gloss paths and QA list separators; it links back here for general guidance.  Conversely, the `academic-notes` documentation refers you here for the general cloze/QA patterns and example transformations. **Topic notes (except journal entries):** do **not** add cloze cards; use only two-sided (::@::) or very rarely one-sided (:@:) cards and add more of those as needed. **Journal entries only:** (a) Put a **very brief description** of the entry in the first column header of each journal-entry table; wrap that description and **each account name** in the first column in clozes so flashcards cover them fully. (b) Mask all debit and credit amounts in tables; add scenario (and calculation/explanation) clozes but leave **a few hint words** at the start or end; for calculations, cover **both sides of an equality separately** and cover the **text (non-equation) portion** with hint words uncovered; use `&nbsp;` for the thousands separator (see academic-notes skill § Journal entries note). **Cloze delimiter:** the closing `}@}` must come **before** any trailing punctuation; place punctuation after the delimiter (e.g. `{@{text}@}.` not `{@{text.}@}`).
 
+For academic topic notes, do not limit cards to isolated definitions. Prefer a balanced mix of comparison cards, intuition cards, example cards, counterexample cards, and worked-example cards when the material supports them. If a section needs only a small clarification, enhance the existing flashcards; if it needs a substantial new cluster of distinctions or examples, add new flashcards instead of overloading one old card. For worked examples, place **all** required givens, formulas, assumptions, and numeric input data on the left-hand side before `::@::` so the card is fully answerable in isolation.
+
+For mathematically technical academic notes, preserve the derivation or proof spine in the flashcards instead of testing only the final formula. A strong default is to add at least one card for the governing equation or setup, one card for the decisive derivation step or inequality, and one card for the final result or interpretation when the source material supports that structure.
+
+When a course note is organized by topic pages and lecture weeks rather than stored chapter pages, avoid chapter-number-only prompts such as `Chapter 2 / ...`. Use self-contained concept wording or the actual topic-note context instead.
+
+For conceptual math-law cards in academic notes, a descriptive prompt is often better than forcing the formula itself onto the left-hand side. When such a card is genuinely conceptual rather than computational, prefer the descriptive prompt and, if needed, attach a targeted inline suppression comment on the same line instead of warping the card into a fake calculation prompt.
+
 ## When to use
 
 Be careful when users add inline comments or annotations such as
@@ -54,7 +62,7 @@ Invoke the skill when the user asks to “add flashcards”, “cloze this”, �
 
 ## Continuous improvement
 
-- (See the companion file `continuous_improvement.md` for a standalone summary and quick reference; keep it sync'd when the main section evolves.)
+- Keep durable flashcard lessons in this document (and, for course notes under `special/academia`, in the `academic-notes` skill) rather than maintaining a separate sidecar learning log that drifts out of sync.
 - After suggesting clozes, ask “which deletions are wrong?” or “would you prefer Q/A instead of inline cloze?”  Use corrections to expand the examples or add rules.  When the user states “this is my style”, treat it as a high‑priority rule and immediately encode it in this document, noting which examples or heuristics were updated.
 - Analyse user edits using `git --no-pager diff --word-diff --no-color path/to/file.md`.  Word diffs reveal boundary shifts and merged or expanded clozes; use them as training data and add corresponding examples.
 - Watch for feedback about excessive fragmentation.  Merge adjacent tiny deletions in future and update the rules accordingly.
@@ -106,6 +114,7 @@ The form of the examples above is complemented by a set of practical heuristics,
 - Break long sentences with multiple ideas into separate cards rather than one huge deletion.  Semicolon lists get individual clozes per clause.
 - Split around contrastive conjunctions (`but`, `however`, etc.) and keep conditional connectors (`if`, `when`, etc.) visible unless the condition itself is tested.
 - Default to inline clozes; use `::@::` or `:@:` only if the user requests QA style or an example clearly shows it.
+- When expanding an already-clozed official solution block, do not just add more equation clozes. Prefer a balanced trio of recall targets: what is being counted/conditioned on, why the method applies, and what the final conclusion is. This is especially useful in academic question banks where the formulas are short but the decisive explanatory phrase carries the real memory cue.
 - For simple declarative sentences, consider hiding subject and object separately to yield focused cards.
 - Articles, possessives, prepositions, and qualifiers should be included inside the cloze when they are part of the tested concept.
 - Hide the minimal meaningful semantic unit—adjust if the user later shifts words in or out of the cloze.

@@ -20,7 +20,11 @@ its decorator.  The functions are pure: they accept a
 """
 
 import re
+import unicodedata
 from string import punctuation
+from urllib.parse import unquote
+
+from anyio import Path
 
 from .models import Severity, ValidationContext, ValidationMessage
 from .registry import RuleRegistry
@@ -171,7 +175,7 @@ def tag_path_flash(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
-def index_heading_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+def index_heading(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check that an index.md contains a top-level '# index' heading.
 
     Only applicable to files named 'index.md'.
@@ -180,15 +184,100 @@ def index_heading_rule(ctx: ValidationContext) -> list[ValidationMessage]:
     if ctx.path.name.lower() == "index.md":
         if "# index" not in ctx.text:
             errors.append(
-                ValidationMessage(
-                    "index_heading_rule", "index.md missing '# index' heading"
-                )
+                ValidationMessage("index_heading", "index.md missing '# index' heading")
             )
     return errors
 
 
+def _extract_children_section(text: str) -> list[tuple[int, str]]:
+    """Return the lines contained within the `## children` section.
+
+    The section begins after a `## children` heading and ends at the next
+    header of the same or higher level (i.e. a line starting with `#`).
+
+    Returns a list of (line_number, line_text) tuples.
+    """
+
+    lines = text.splitlines()
+    start_line = None
+    for idx, line in enumerate(lines):
+        if re.match(r"^##\s+children\s*$", line, re.IGNORECASE):
+            start_line = idx + 1
+            break
+    if start_line is None:
+        return []
+
+    section: list[tuple[int, str]] = []
+    for idx in range(start_line, len(lines)):
+        if re.match(r"^#{1,2}\s+", lines[idx]):
+            break
+        section.append((idx + 1, lines[idx]))
+    return section
+
+
+async def _path_exists(href: str, base: Path) -> bool:
+    """Check if a linked file/directory exists on disk.
+
+    Decodes percent-encoded components and checks for directory or file
+    existence. Returns False for external URLs or invalid paths.
+    """
+    # Decode percent-encoded components (e.g. %20 → space)
+    unquoted = unquote(href)
+    # Remove any fragment/query portion
+    unquoted = re.split(r"[#?]", unquoted, 1)[0]
+    if not unquoted:
+        return False
+
+    # Skip external URLs
+    if re.match(r"^[a-zA-Z]+://", unquoted):
+        return True  # Consider external URLs as "existing" (not our responsibility)
+
+    # anyio Path methods are async; use them directly.
+    candidate = await (base / unquoted).resolve()
+    return await candidate.is_dir() or await candidate.is_file()
+
+
+async def _is_folder_without_index_md(href: str, base: Path) -> bool:
+    """Check if href links to index.md in a folder that exists but lacks index.md.
+
+    Returns True if:
+    - href ends with /index.md or is index.md
+    - The parent folder exists
+    - The index.md file does not exist
+
+    This detects the case where a children link may need the index.md file created
+    or should be changed to link to the folder instead.
+    """
+    # Decode percent-encoded components
+    unquoted = unquote(href)
+    unquoted = re.split(r"[#?]", unquoted, 1)[0]
+    if not unquoted:
+        return False
+
+    # Check if this is a link to index.md
+    if not (unquoted.endswith("/index.md") or unquoted.endswith("index.md")):
+        return False
+
+    # Get the parent directory (remove index.md from the path)
+    if unquoted.endswith("/index.md"):
+        parent_path = unquoted[:-9]  # Remove "/index.md" (9 characters)
+    else:
+        parent_path = unquoted[:-8]  # Remove "index.md" (8 characters)
+
+    # Ensure parent path is not empty
+    if not parent_path or parent_path == "/":
+        return False
+
+    # Check if parent folder exists but index.md doesn't
+    candidate_parent = await (base / parent_path).resolve()
+    return (
+        await candidate_parent.is_dir()
+        and not await (candidate_parent / "index.md").is_file()
+    )
+
+
 @RULE_REGISTRY.register()
-def index_children_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+def index_children(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure index.md includes a 'children' section or heading.
 
     Looks for either '## children' or a literal 'children:' string.
@@ -198,14 +287,420 @@ def index_children_rule(ctx: ValidationContext) -> list[ValidationMessage]:
         if "## children" not in ctx.text and "children:" not in ctx.text:
             errors.append(
                 ValidationMessage(
-                    "index_children_rule", "index.md missing 'children' section"
+                    "index_children", "index.md missing 'children' section"
                 )
             )
     return errors
 
 
 @RULE_REGISTRY.register()
-def index_semester_order_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+async def index_children_agents_link(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require a precise AGENTS link in index children when AGENTS.md exists.
+
+    If ``AGENTS.md`` exists in the same folder as ``index.md``, the
+    ``## children`` section must contain exactly one entry
+    ``- [AGENTS](AGENTS.md)``.
+    """
+
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    agents_path = ctx.path.parent / "AGENTS.md"
+    if not await agents_path.is_file():
+        return errors
+
+    section = _extract_children_section(ctx.text)
+    if not section:
+        return errors
+
+    heading_match = re.search(
+        r"^##\s+children\s*$", ctx.text, re.IGNORECASE | re.MULTILINE
+    )
+    heading_line = None
+    if heading_match:
+        heading_line, _ = locate(ctx.text, heading_match.start())
+
+    entries: list[tuple[int, str, str]] = []
+    for line_no, line in section:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("<!--"):
+            continue
+        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
+        if not m:
+            continue
+        display = m.group(1).strip()
+        href = m.group(2).strip()
+        href_clean = re.split(r"[#?]", href, 1)[0]
+        if href_clean.casefold() == "agents.md":
+            entries.append((line_no, display, href_clean))
+
+    if not entries:
+        errors.append(
+            ValidationMessage(
+                "index_children_agents_link",
+                "AGENTS.md exists but children section is missing '- [AGENTS](AGENTS.md)'",
+                line=heading_line,
+                col=1 if heading_line is not None else None,
+            )
+        )
+        return errors
+
+    if len(entries) > 1:
+        line_no = entries[1][0]
+        errors.append(
+            ValidationMessage(
+                "index_children_agents_link",
+                "children section contains multiple AGENTS links; keep exactly one '- [AGENTS](AGENTS.md)' entry",
+                line=line_no,
+                col=1,
+            )
+        )
+
+    line_no, display, href_clean = entries[0]
+    if display != "AGENTS" or href_clean != "AGENTS.md":
+        errors.append(
+            ValidationMessage(
+                "index_children_agents_link",
+                "AGENTS link must be exactly '- [AGENTS](AGENTS.md)'",
+                line=line_no,
+                col=1,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def index_non_suppression_html_comments(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Disallow non-suppression HTML comments in index.md.
+
+    Course-local agent guidance should live in ``AGENTS.md``. The only HTML
+    comments allowed in ``index.md`` are validator suppression directives such
+    as ``<!-- check: ignore-line[...] -->``.
+    """
+
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    for m in re.finditer(r"<!--(.*?)-->", ctx.text, re.DOTALL):
+        body = m.group(1).strip()
+        if re.match(r"^check:\s*ignore-(line|next-line|file)\[", body, re.IGNORECASE):
+            continue
+        line_no, col_no, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                "index_non_suppression_html_comments",
+                "non-suppression HTML comments are not allowed in index.md; move agent instructions/context to AGENTS.md",
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def index_children_format(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Validate the format of the `## children` list in an index.md file.
+
+    The children section must be an unordered list of Markdown links (no
+    nested bulleted lists). This rule enforces a strict bullet format and
+    rejects any item that is not a single Markdown link.
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    section = _extract_children_section(ctx.text)
+    if not section:
+        return errors
+
+    for line_no, line in section:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("<!--"):
+            continue
+        # Disallow nested list entries (indentation implies nesting)
+        indent = len(line) - len(line.lstrip(" \t"))
+        if indent > 0:
+            errors.append(
+                ValidationMessage(
+                    "index_children_format",
+                    "children list items must be top-level bullets (no nested sub-lists)",
+                    line=line_no,
+                    col=1,
+                )
+            )
+            continue
+        # Must be a simple markdown link list item (- [text](href))
+        if not re.match(r"^[-*]\s*\[[^\]]+\]\([^\)]+\)\s*$", stripped):
+            errors.append(
+                ValidationMessage(
+                    "index_children_format",
+                    "children list must consist of top-level bullet points each containing a single Markdown link",
+                    line=line_no,
+                    col=1,
+                )
+            )
+    return errors
+
+
+@RULE_REGISTRY.register()
+async def index_children_order(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Ensure the `## children` list is ordered folders first, then files.
+
+    Within each group (folders vs files), entries must be sorted using Python
+    string ordering. Missing files/directories are skipped and handled by
+    the dedicated index_children_missing.
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    section = _extract_children_section(ctx.text)
+    if not section:
+        return errors
+
+    entries: list[tuple[bool, str, int]] = []
+    base_dir = ctx.path.parent
+    for line_no, line in section:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("<!--"):
+            continue
+        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
+        if not m:
+            # ignore formatting errors; those are handled by other rules
+            continue
+        href = m.group(2).strip()
+        # Skip entries where the path doesn't exist
+        if not await _path_exists(href, base_dir):
+            continue
+        # Default to file unless the path actually resolves to a folder (or an index.md)
+        is_folder = await _is_folder_link(href, base_dir, allow_index_as_folder=True)
+        entries.append((is_folder, href, line_no))
+
+    # Ensure all folders come before any files
+    seen_file = False
+    for is_folder, href, line_no in entries:
+        if seen_file and is_folder:
+            errors.append(
+                ValidationMessage(
+                    "index_children_order",
+                    "folder entries in children section must come before file entries",
+                    line=line_no,
+                    col=1,
+                )
+            )
+            # Only report once for the first violation
+            break
+        if not is_folder:
+            seen_file = True
+
+    # Check alphabetical ordering within each subgroup (folders and files)
+    for group_name, group_entries in (
+        ("folder", [e for e in entries if e[0]]),
+        (
+            "file",
+            [e for e in entries if not e[0]],
+        ),
+    ):
+        keys = [href for _, href, _ in group_entries]
+        sorted_keys = sorted(keys)
+        if keys != sorted_keys and keys:
+            # Find the first out-of-order entry
+            for (is_folder, href, line_no), expected in zip(group_entries, sorted_keys):
+                if href != expected:
+                    errors.append(
+                        ValidationMessage(
+                            "index_children_order",
+                            f"{group_name.capitalize()} entries in children section must be in Python alphabetical order; expected '{expected}'",
+                            line=line_no,
+                            col=1,
+                        )
+                    )
+                    break
+            break
+    return errors
+
+
+async def _is_folder_link(
+    href: str, base: Path, *, allow_index_as_folder: bool = True
+) -> bool:
+    """Return True if *href* refers to a folder (or folder index) on disk.
+
+    A link is treated as a folder link if it points to an existing directory.
+    If *allow_index_as_folder* is True, a link that resolves to an existing
+    ``index.md`` file is also treated as a folder (useful for sorting in
+    children sections).  Otherwise, ``index.md`` is treated as a regular file.
+    """
+
+    # Decode percent-encoded components (e.g. %20 → space)
+    unquoted = unquote(href)
+    # Remove any fragment/query portion
+    unquoted = re.split(r"[#?]", unquoted, 1)[0]
+    if not unquoted:
+        return False
+
+    # Skip obvious external URLs
+    if re.match(r"^[a-zA-Z]+://", unquoted):
+        return False
+
+    # If the link explicitly has a trailing slash, treat as folder
+    if unquoted.endswith("/"):
+        return True
+
+    # anyio Path methods are async; use them directly.
+    candidate = await (base / unquoted).resolve()
+    if await candidate.is_dir():
+        return True
+    if (
+        allow_index_as_folder
+        and await candidate.is_file()
+        and candidate.name == "index.md"
+    ):
+        return True
+    return False
+
+
+@RULE_REGISTRY.register()
+async def index_children_missing(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Check for missing files/directories in the `## children` list.
+
+    Identifies links in the children section that do not exist on disk and
+    suggests either removing the link (if not wanted) or creating the file/
+    directory (if wanted). Excludes folders without index.md (handled by
+    index_children_missing_index).
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    section = _extract_children_section(ctx.text)
+    if not section:
+        return errors
+
+    base_dir = ctx.path.parent
+    for line_no, line in section:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("<!--"):
+            continue
+        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
+        if not m:
+            # ignore formatting errors; those are handled by other rules
+            continue
+        href = m.group(2).strip()
+        # Skip this if it's a folder-without-index case (handled by another rule)
+        if await _is_folder_without_index_md(href, base_dir):
+            continue
+        # Check if the path exists
+        if not await _path_exists(href, base_dir):
+            errors.append(
+                ValidationMessage(
+                    "index_children_missing",
+                    f"linked file/directory not found: '{href}'; either remove the link if not wanted or create the file/directory if desired",
+                    line=line_no,
+                    col=1,
+                    severity=Severity.WARNING,
+                )
+            )
+    return errors
+
+
+@RULE_REGISTRY.register()
+async def index_children_missing_index(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Check for links to index.md in folders that lack index.md.
+
+    Detects when a children link points to index.md in a folder that exists
+    but does not contain an index.md file. Suggests either creating the
+    index.md file or changing the link to point to the folder instead.
+    Note: attachments/ typically should not have index.md.
+    """
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    section = _extract_children_section(ctx.text)
+    if not section:
+        return errors
+
+    base_dir = ctx.path.parent
+    for line_no, line in section:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("<!--"):
+            continue
+        m = re.match(r"^[-*]\s*\[([^\]]+)\]\(([^\)]+)\)\s*$", stripped)
+        if not m:
+            continue
+        href = m.group(2).strip()
+        # Check if this is a folder-without-index case
+        if await _is_folder_without_index_md(href, base_dir):
+            errors.append(
+                ValidationMessage(
+                    "index_children_missing_index",
+                    f"folder '{href}' exists but lacks index.md; either create index.md "
+                    "or change the link to the folder without /index.md "
+                    "(note: attachments/ folders typically should not have index.md)",
+                    line=line_no,
+                    col=1,
+                    severity=Severity.WARNING,
+                )
+            )
+    return errors
+
+
+@RULE_REGISTRY.register()
+async def folder_link_trailing_slash(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Ensure markdown links to folders end with a trailing slash.
+
+    This applies to any file, not just index.md, and helps keep links
+    consistent between folder-style references and file-style references.
+    """
+    errors: list[ValidationMessage] = []
+    base_dir = ctx.path.parent
+
+    for m in re.finditer(r"\[([^\]]+)\]\(([^\)]+)\)", ctx.text):
+        display = m.group(1).strip()
+        href = m.group(2).strip()
+        if not href or href.startswith("#"):
+            continue
+        if re.match(r"^[a-zA-Z]+://", href):
+            continue
+        if await _is_folder_link(href, base_dir, allow_index_as_folder=False):
+            if not href.endswith("/"):
+                line_no, col, col_end = locate_range(ctx.text, m.start(2), len(href))
+                errors.append(
+                    ValidationMessage(
+                        "folder_link_trailing_slash",
+                        "links to folders must end with a trailing slash",
+                        line=line_no,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
+            elif not display.endswith("/"):
+                line_no, col, col_end = locate_range(ctx.text, m.start(1), len(display))
+                errors.append(
+                    ValidationMessage(
+                        "folder_link_trailing_slash",
+                        "folder link display text should end with a trailing slash",
+                        line=line_no,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def index_semester_order(ctx: ValidationContext) -> list[ValidationMessage]:
     """Verify chronological ordering of semester headings in index.md.
 
     Parses '### YYYY term' headings and ensures each is later than the
@@ -234,9 +729,7 @@ def index_semester_order_rule(ctx: ValidationContext) -> list[ValidationMessage]
                 line_no = None
             col_no = 1 if line_no is not None else None
             errors.append(
-                ValidationMessage(
-                    "index_semester_order_rule", msg, line=line_no, col=col_no
-                )
+                ValidationMessage("index_semester_order", msg, line=line_no, col=col_no)
             )
             break
     return errors
@@ -582,15 +1075,20 @@ def section_example_heading(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
-def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when non-index headers start with an uppercase letter.
 
     This stylistic rule scans all headers of level 2 or deeper and emits a
-    warning for headers whose first non-space character is uppercase or
-    non-alphanumeric.  Proper nouns (person names, brands, etc.) are
-    legitimate exceptions; callers can suppress the warning using a
-    check directive (for example
-    ``<!-- check: ignore-line[header_style_rule]: proper name -->``) if the
+    warning for headers whose first non-space character is an uppercase
+    **Latin** letter (A–Z) or non-alphanumeric ASCII character.
+
+    Non-Latin scripts (CJK, Cyrillic, Arabic, Greek, etc.) do not have
+    uppercase/lowercase distinction and are exempted from this rule.
+
+    Proper nouns in Latin scripts (person names, brands, acronyms) are
+    legitimate exceptions; callers can suppress the warning using a check
+    directive (for example
+    ``<!-- check: ignore-line[header_style]: proper name -->``) if the
     capitalization is intentional.
     """
     errors: list[ValidationMessage] = []
@@ -598,26 +1096,97 @@ def header_style_rule(ctx: ValidationContext) -> list[ValidationMessage]:
         return errors
     for h in re.finditer(r"^(#{2,})\s+(.+)$", ctx.text, re.MULTILINE):
         hdr_text = h.group(2)
-        if hdr_text and not hdr_text[0].islower() and not hdr_text[0].isdigit():
-            start = h.start()
-            hdr_text = h.group(0)
-            line, col, col_end = locate_range(ctx.text, start, len(hdr_text))
-            # this rule is stylistic; most headers should be lowercase
-            # but proper nouns (people, brands, etc.) may legitimately
-            # start with a capital letter.  emit as a warning so callers
-            # can suppress it if the capitalization is intentional.
+        if hdr_text:
+            first_char = hdr_text[0]
+            # Skip rule for non-cased letters (CJK, Cyrillic, Arabic, etc.)
+            # Unicode category 'Lu' = uppercase letter, 'Ll' = lowercase letter
+            # For non-cased scripts (e.g. CJK 'Lo' = other letter), skip the check
+            char_category = unicodedata.category(first_char)
+
+            # Only apply the rule to cased letters (uppercase/lowercase distinction)
+            # Skip if it's a digit, or a non-cased letter (CJK, etc.)
+            if char_category in ("Lu", "Ll"):
+                # For cased letters, warn if uppercase
+                if first_char.isupper():
+                    start = h.start()
+                    hdr_text_full = h.group(0)
+                    line, col, col_end = locate_range(
+                        ctx.text, start, len(hdr_text_full)
+                    )
+                    errors.append(
+                        ValidationMessage(
+                            rule_id="header_style",
+                            msg="header normally start lowercase; suppressions are allowed only **for proper nouns** (person names, brands, acronyms).  Do **not** ignore this rule for ordinary section titles.",
+                            severity=Severity.WARNING,
+                            line=line,
+                            col=col,
+                            col_end=col_end,
+                        )
+                    )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def agents_title(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require AGENTS.md to begin with '# <course code> agent instructions'."""
+
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "agents.md":
+        return errors
+
+    expected = f"{ctx.path.parent.name} agent instructions"
+    expected_header = f"# {expected}"
+    body_start = len(ctx.text) - len(ctx.body)
+    offset = body_start
+    for line in ctx.body.splitlines(keepends=True):
+        stripped = line.strip()
+        if not stripped:
+            offset += len(line)
+            continue
+        if stripped != expected_header:
+            line_no, col_no, col_end = locate_range(
+                ctx.text, offset, len(line.rstrip("\n"))
+            )
             errors.append(
                 ValidationMessage(
-                    rule_id="header_style_rule",
-                    msg=(
-                        "header normally start lowercase; suppressions are allowed only **for proper nouns**.  Do **not** ignore this rule for ordinary section titles."
-                    ),
-                    severity=Severity.WARNING,
-                    line=line,
-                    col=col,
+                    "agents_title",
+                    f"AGENTS.md title must be exactly '{expected_header}'",
+                    line=line_no,
+                    col=col_no,
                     col_end=col_end,
                 )
             )
+        return errors
+
+    errors.append(
+        ValidationMessage(
+            "agents_title",
+            f"AGENTS.md is empty; add title '{expected_header}'",
+        )
+    )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def agents_no_flashcard_markup(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Disallow flashcard syntax in AGENTS.md files."""
+
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "agents.md":
+        return errors
+
+    m = re.search(r"\{@\{|::@::|(?<!:):@:(?!:)", ctx.text)
+    if m:
+        line_no, col_no, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+        errors.append(
+            ValidationMessage(
+                "agents_no_flashcard_markup",
+                "AGENTS.md must not contain flashcard markup ({@{ }@}, :@:, ::@::)",
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
     return errors
 
 
@@ -628,12 +1197,20 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
     Index and questions pages are not topic notes; they are exempt. Searches the
     text between the header and the next header at the same or higher level; if
     no flashcard syntax is found, an error is returned.
+
+    This rule applies to headers at any level (e.g. #, ##, ###, etc.).
     """
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
-    if name == "index.md" or name == "questions.md":
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if (
+        name == "index.md"
+        or name == "questions.md"
+        or name == "agents.md"
+        or "questions" in parent_parts
+    ):
         return errors
-    for h in re.finditer(r"^(#{2,})\s+(.+)$", ctx.text, re.MULTILINE):
+    for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
         lvl = len(h.group(1))
         start = h.end()
         pattern = r"^(#{1,%d})\s+" % lvl
@@ -666,12 +1243,20 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
 
     Index and questions pages are exempt. When flashcards appear in a section,
     there should be a horizontal rule separating them from preceding text.
+
+    This rule applies to headers at any level (e.g. #, ##, ###, etc.).
     """
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
-    if name == "index.md" or name == "questions.md":
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if (
+        name == "index.md"
+        or name == "questions.md"
+        or name == "agents.md"
+        or "questions" in parent_parts
+    ):
         return errors
-    for h in re.finditer(r"^(#{2,})\s+(.+)$", ctx.text, re.MULTILINE):
+    for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
         lvl = len(h.group(1))
         start = h.end()
         pattern = r"^(#{1,%d})\s+" % lvl
@@ -890,17 +1475,47 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
     that does **not** contain any dollar sign and looks for two common
     patterns:
 
-    1. A number followed (optionally with intervening whitespace) by a
-       electrical unit such as ``V``, ``A``, ``\u03a9``, ``Hz``, ``W`` etc.
+    1. A number followed by a unit such as ``V``, ``A``, ``\u03a9``, ``Hz``,
+       ``W`` etc.  The rule is intentionally conservative for a bare trailing
+       ``C``: it requires whitespace before ``C`` so room codes such as
+       ``4225C`` are not mistaken for charges or temperatures.
     2. A simple variable assignment like ``I2=0.04`` where a letter and
        digit are followed by an equals sign (the right-hand side may itself
        include units).
 
-    Lines inside fenced code blocks are ignored entirely.
+    Lines inside fenced code blocks are ignored entirely. Markdown link
+    targets, inline code, and HTML comments are also masked before matching so
+    percent-encoded anchors such as ``%2C`` do not produce false positives.
     """
     errors: list[ValidationMessage] = []
-    unit_re = re.compile(r"\b\d+(?:\.\d+)?\s*(?:V|A|Ω|Ohm|Hz|W|mW|kΩ|mV|kV|mA|kA|C)\b")
-    var_eq_re = re.compile(r"\b[IiRrVv]\d+\s*=")
+
+    unit_re = re.compile(
+        r"""
+        \b
+        \d+(?:\.\d+)?
+        (?:
+            \s+(?:V|A|Ω|Ohm|Hz|W|mW|kΩ|mV|kV|mA|kA|C)
+            |
+            (?:V|A|Ω|Ohm|Hz|W|mW|kΩ|mV|kV|mA|kA)
+        )
+        \b
+        """,
+        re.VERBOSE,
+    )
+    var_eq_re = re.compile(r"\b[IiRrVv]\d+\s*=\s*\d")
+
+    def _mask_match(match: re.Match[str]) -> str:
+        """Replace a matched span with spaces to preserve column positions."""
+
+        return " " * len(match.group(0))
+
+    def _mask_link_target(match: re.Match[str]) -> str:
+        """Mask only the target portion of a Markdown link, not its label."""
+
+        full = match.group(0)
+        target = match.group(1)
+        return full.replace(target, " " * len(target), 1)
+
     in_fence = False
     for idx, line in enumerate(ctx.text.splitlines(keepends=True), start=1):
         if line.strip().startswith("```"):
@@ -911,8 +1526,13 @@ def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
         stripped = line.rstrip("\n")
         if "$" in stripped:
             continue
-        if unit_re.search(stripped) or var_eq_re.search(stripped):
-            m = unit_re.search(stripped) or var_eq_re.search(stripped)
+
+        masked = re.sub(r"<!--.*?-->", _mask_match, stripped)
+        masked = re.sub(r"`[^`]*`", _mask_match, masked)
+        masked = re.sub(r"\[[^\]]*\]\(([^)]+)\)", _mask_link_target, masked)
+
+        if unit_re.search(masked) or var_eq_re.search(masked):
+            m = unit_re.search(masked) or var_eq_re.search(masked)
             assert m is not None
             col = m.start() + 1
             col_end = m.end() + 1
@@ -1154,9 +1774,14 @@ def latex_spacing_before(ctx: ValidationContext) -> list[ValidationMessage]:
         start_idx = m.start()
         if start_idx > 0:
             prev_char = text[start_idx - 1]
-            # opening parenthesis is acceptable (common in e.g. "($x$"),
-            # so we treat it as a non-error even though there is no space.
-            if prev_char not in " \n(" and not prev_char.isspace():
+            # opening parenthesis or opening brace is acceptable
+            # (common in e.g. "($x$" or "{@{ $x$"), so we treat it
+            # as a non-error even though there is no space.
+            if (
+                prev_char not in " \n"
+                and not prev_char.isspace()
+                and prev_char not in punctuation
+            ):
                 line, col, col_end = locate_range(ctx.text, start_idx, 1)
                 errors.append(
                     ValidationMessage(
@@ -1196,6 +1821,7 @@ def latex_spacing_after(ctx: ValidationContext) -> list[ValidationMessage]:
                 next_char not in " \n"
                 and not next_char.isspace()
                 and next_char not in punctuation
+                and next_char != "}"
             ):
                 line, col, col_end = locate_range(ctx.text, end_idx, 1)
                 errors.append(
@@ -1323,6 +1949,42 @@ def no_control_characters(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+def no_smart_double_quotes(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Ban smart double quotes; require normal ASCII double quotes."""
+    errors: list[ValidationMessage] = []
+    for m in re.finditer(r"[\u201C\u201D]", ctx.text):
+        line, col, col_end = locate_range(ctx.text, m.start(), 1)
+        errors.append(
+            ValidationMessage(
+                rule_id="no_smart_double_quotes",
+                msg='smart double quotes are not allowed; use normal ASCII double quotes (").',
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def no_smart_single_quotes(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Ban smart single quotes/apostrophes; require normal ASCII single quote."""
+    errors: list[ValidationMessage] = []
+    for m in re.finditer(r"[\u2018\u2019]", ctx.text):
+        line, col, col_end = locate_range(ctx.text, m.start(), 1)
+        errors.append(
+            ValidationMessage(
+                rule_id="no_smart_single_quotes",
+                msg="smart single quotes are not allowed; use normal ASCII single quote (').",
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def nested_list_path(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure nested list items include the full course path.
 
@@ -1371,9 +2033,9 @@ def nested_list_path(ctx: ValidationContext) -> list[ValidationMessage]:
 def qa_hierarchical_path(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure nested QA glosses include the full hierarchical parent path.
 
-    For course-specific outlines, each nested flashcard gloss (lines containing
+    In any academic-notes file, each nested flashcard gloss (lines containing
     ``::@::`` or ``:@:``) should prefix its left-hand label with the complete
-    parent path rather than relying on list indentation for context.  For
+    parent path rather than relying on list indentation for context. For
     example:
 
     - ELEC 1100
@@ -1456,6 +2118,172 @@ def qa_hierarchical_path(ctx: ValidationContext) -> list[ValidationMessage]:
                 stack.pop()
             if "/" in label and "[" not in label:
                 stack.append((indent, label))
+
+        offset += len(line)
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def qa_nested_indentation(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Ensure nested flashcard bullets use consistent two-space indentation.
+
+    Nested flashcard structures in academic notes should indent by exactly two
+    spaces per level. This applies to both grouping bullets and nested QA
+    bullets, so a child bullet should be indented exactly two spaces more than
+    its nearest less-indented parent.
+    """
+
+    errors: list[ValidationMessage] = []
+    lines = ctx.body.splitlines(keepends=True)
+    offset = 0
+    in_flashcards = False
+    indent_stack: list[int] = []
+
+    for line in lines:
+        stripped = line.strip()
+
+        if stripped == "Flashcards for this section are as follows:":
+            in_flashcards = True
+            indent_stack = []
+            offset += len(line)
+            continue
+
+        if in_flashcards and line.lstrip().startswith("##"):
+            in_flashcards = False
+            indent_stack = []
+
+        if not in_flashcards:
+            offset += len(line)
+            continue
+
+        m = re.match(r"^(?P<indent>\s*)-\s+(?P<rest>.+)$", line)
+        if not m:
+            offset += len(line)
+            continue
+
+        indent = len(m.group("indent"))
+
+        if indent % 2 != 0:
+            line_no, col_no = locate(ctx.body, offset)
+            errors.append(
+                ValidationMessage(
+                    rule_id="qa_nested_indentation",
+                    msg="flashcard bullets must use multiples of two spaces for indentation",
+                    line=line_no,
+                    col=col_no,
+                )
+            )
+            break
+
+        while indent_stack and indent_stack[-1] >= indent:
+            indent_stack.pop()
+
+        if indent > 0:
+            parent_indent = indent_stack[-1] if indent_stack else None
+            if parent_indent is None or indent != parent_indent + 2:
+                line_no, col_no = locate(ctx.body, offset)
+                errors.append(
+                    ValidationMessage(
+                        rule_id="qa_nested_indentation",
+                        msg="nested flashcard bullets must be indented exactly two spaces deeper than their parent",
+                        line=line_no,
+                        col=col_no,
+                    )
+                )
+                break
+
+        indent_stack.append(indent)
+        offset += len(line)
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def topic_note_redundant_filename_prefix(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Disallow repeating the topic-note filename or title in prompts.
+
+    In topic-specific notes, the flashcard viewer already shows the filename,
+    and the page itself already shows the title, so prompts such as
+    ``probability measure / definition``, ``# probability measure`` echoed as
+    ``probability measure``, or ``discrete distributions / Poisson approximation
+    / statement`` are redundant. Top-level prompts should use only local labels
+    (for example ``definition``), while nested prompts should use only the
+    in-file parent path (for example ``Poisson approximation / statement``).
+    """
+
+    errors: list[ValidationMessage] = []
+    name = ctx.path.name.lower()
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if (
+        name in {"index.md", "questions.md", "journal entries.md"}
+        or "questions" in parent_parts
+    ):
+        return errors
+
+    stem = ctx.path.stem
+    title_match = re.search(r"^#\s+(.+)$", ctx.text, re.MULTILINE)
+    title = title_match.group(1).strip() if title_match else ""
+    stem_lower = stem.casefold()
+    title_lower = title.casefold()
+    lines = ctx.body.splitlines(keepends=True)
+    offset = 0
+    in_flashcards = False
+
+    for line in lines:
+        stripped = line.strip()
+
+        if stripped == "Flashcards for this section are as follows:":
+            in_flashcards = True
+            offset += len(line)
+            continue
+
+        if in_flashcards and line.lstrip().startswith("#"):
+            in_flashcards = False
+
+        if not in_flashcards:
+            offset += len(line)
+            continue
+
+        m = re.match(r"^(?P<indent>\s*)-\s+(?P<rest>.+)$", line)
+        if not m:
+            offset += len(line)
+            continue
+
+        rest = m.group("rest").rstrip()
+        label = rest
+        sep_idx = rest.find("::@::")
+        if sep_idx == -1:
+            sep_idx = rest.find(":@:")
+        if sep_idx != -1:
+            label = rest[:sep_idx].rstrip()
+
+        label_lower = label.casefold()
+
+        stem_redundant = label_lower == stem_lower or label_lower.startswith(
+            f"{stem_lower} /"
+        )
+        title_redundant = bool(title_lower) and (
+            label_lower == title_lower or label_lower.startswith(f"{title_lower} /")
+        )
+
+        if stem_redundant or title_redundant:
+            repeated = title if title_redundant and title else stem
+            line_no, col_no = locate(ctx.body, offset)
+            errors.append(
+                ValidationMessage(
+                    rule_id="topic_note_redundant_filename_prefix",
+                    msg=(
+                        f"flashcard prompt redundantly repeats the topic-note filename or title '{repeated}'; "
+                        "omit it because the flashcard viewer already shows the file name and the note already shows its title"
+                    ),
+                    line=line_no,
+                    col=col_no,
+                )
+            )
+            break
 
         offset += len(line)
 
@@ -1548,6 +2376,177 @@ def qa_multiple_separators(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+def _scan_cloze_tokens(
+    text: str,
+) -> tuple[
+    list[tuple[str, int]],
+    list[tuple[int, int]],
+    list[int],
+    list[int],
+    list[int],
+]:
+    """Scan cloze tokens and return token stream with structural diagnostics.
+
+    Returns:
+      - tokens: list of ("open"|"close", absolute_index)
+      - spans: matched cloze spans as (open_index, close_index)
+      - unmatched_open: opening token indices left unclosed
+      - unmatched_close: closing token indices without opening
+      - nested_open: opening token indices encountered while already inside a cloze
+    """
+    tokens: list[tuple[str, int]] = []
+    spans: list[tuple[int, int]] = []
+    stack: list[int] = []
+    unmatched_close: list[int] = []
+    nested_open: list[int] = []
+
+    i = 0
+    n = len(text)
+    while i < n:
+        if text.startswith("{@{", i):
+            if stack:
+                nested_open.append(i)
+            stack.append(i)
+            tokens.append(("open", i))
+            i += 3
+            continue
+        if text.startswith("}@}", i):
+            tokens.append(("close", i))
+            if stack:
+                spans.append((stack.pop(), i))
+            else:
+                unmatched_close.append(i)
+            i += 3
+            continue
+        i += 1
+
+    unmatched_open = stack.copy()
+    return tokens, spans, unmatched_open, unmatched_close, nested_open
+
+
+@RULE_REGISTRY.register()
+def cloze_open_close_matching(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check that cloze openings '{@{' and closings '}@}' match in order/count."""
+    errors: list[ValidationMessage] = []
+    _, _, unmatched_open, unmatched_close, _ = _scan_cloze_tokens(ctx.text)
+
+    for idx in unmatched_open:
+        line_no, col_no = locate(ctx.text, idx)
+        _, _, col_end = locate_range(ctx.text, idx, 3)
+        errors.append(
+            ValidationMessage(
+                rule_id="cloze_open_close_matching",
+                msg="unmatched cloze opening '{@{' (missing matching '}@}').",
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+
+    for idx in unmatched_close:
+        line_no, col_no = locate(ctx.text, idx)
+        _, _, col_end = locate_range(ctx.text, idx, 3)
+        errors.append(
+            ValidationMessage(
+                rule_id="cloze_open_close_matching",
+                msg="unmatched cloze closing '}@}' (no preceding '{@{').",
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def cloze_wrong_closing_token(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check for wrong cloze close token '}}' where '}@}' is required."""
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+
+    depth = 0
+    i = 0
+    n = len(text)
+    while i < n:
+        if text.startswith("{@{", i):
+            depth += 1
+            i += 3
+            continue
+        if text.startswith("}@}", i):
+            depth = max(depth - 1, 0)
+            i += 3
+            continue
+
+        if depth > 0 and text.startswith("}}", i):
+            next_char = text[i + 2] if i + 2 < n else ""
+            # Only flag when it looks like a cloze terminator typo, not generic
+            # LaTeX brace nesting inside the cloze body.
+            if next_char == "" or next_char.isspace() or next_char in ".,;:!?)]":
+                line_no, col_no = locate(text, i)
+                _, _, col_end = locate_range(text, i, 2)
+                errors.append(
+                    ValidationMessage(
+                        rule_id="cloze_wrong_closing_token",
+                        msg="wrong cloze closing token '}}' found; use '}@}' instead.",
+                        line=line_no,
+                        col=col_no,
+                        col_end=col_end,
+                    )
+                )
+            i += 2
+            continue
+        i += 1
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def cloze_single_line(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check cloze text does not span newline in markdown source."""
+    errors: list[ValidationMessage] = []
+    _, spans, _, _, _ = _scan_cloze_tokens(ctx.text)
+
+    for start, end in spans:
+        inner = ctx.text[start + 3 : end]
+        if "\n" in inner:
+            line_no, col_no = locate(ctx.text, start)
+            _, _, col_end = locate_range(ctx.text, start, (end + 3) - start)
+            errors.append(
+                ValidationMessage(
+                    rule_id="cloze_single_line",
+                    msg="cloze content must be on one source line; multiline clozes are not recognized.",
+                    line=line_no,
+                    col=col_no,
+                    col_end=col_end,
+                )
+            )
+
+    return errors
+
+
+@RULE_REGISTRY.register()
+def cloze_no_nested(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check nested clozes are not used."""
+    errors: list[ValidationMessage] = []
+    _, _, _, _, nested_open = _scan_cloze_tokens(ctx.text)
+
+    for idx in nested_open:
+        line_no, col_no = locate(ctx.text, idx)
+        _, _, col_end = locate_range(ctx.text, idx, 3)
+        errors.append(
+            ValidationMessage(
+                rule_id="cloze_no_nested",
+                msg="nested cloze detected; fix other cloze matching problems first, since this can be caused by mismatched cloze delimiters.",
+                line=line_no,
+                col=col_no,
+                col_end=col_end,
+            )
+        )
+
+    return errors
+
+
 # split the original check into two specific rules; retain a wrapper
 # for backward compatibility.
 
@@ -1606,6 +2605,10 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
         if not content or not next_content:
             continue  # line or next is only blockquote markers (treated as blank)
         if content.startswith("|") or next_content.startswith("|"):
+            continue
+        if re.match(r"^\s*(?:[-*+]\s|\d+\.\s)", content):
+            continue
+        if re.match(r"^\s*(?:[-*+]\s|\d+\.\s)", next_content):
             continue
         abs_idx = body_start + line_start
         line_no, col, col_end = locate_range(text, abs_idx, len(line))
@@ -1676,7 +2679,7 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
-def week_monotonic_rule(ctx: ValidationContext) -> list[ValidationMessage]:
+def week_monotonic(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure week numbers progress monotonically (with allowed reset to 1).
 
     Useful for detecting accidental misnumbering of session headings in notes.
@@ -1689,7 +2692,7 @@ def week_monotonic_rule(ctx: ValidationContext) -> list[ValidationMessage]:
             line, col, col_end = locate_range(ctx.text, idx, len(hdr))
             errors.append(
                 ValidationMessage(
-                    rule_id="week_monotonic_rule",
+                    rule_id="week_monotonic",
                     msg="week numbers do not progress monotonically (unexpected reset)",
                     line=line,
                     col=col,

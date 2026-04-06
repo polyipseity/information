@@ -2,7 +2,6 @@
 name: commit-staged-flashcard-notes
 description: Commit staged changes to notes/flashcards using the repository's flashcard commit convention.
 argument-hint: Provide flashcard counts and details. To skip committing, pass `commitNow=no`.
-agent: agent
 ---
 
 # Commit Staged Flashcard Notes Change
@@ -18,17 +17,18 @@ agent: agent
      git diff --cached --name-status --no-color && git --no-pager diff --cached --staged --patch --no-color
      ```
 
-   - Count notes added and edited using a platform-specific command:
+   - Count notes added, edited, and deleted using a platform-specific
+     command:
      - **PowerShell (Windows):**
 
        ```powershell
-       $staged = git diff --cached --name-status --no-color | Select-String -Pattern '^[AM]\s+"?(general|special|self)/.*\.md"?$'; $added = ($staged | Select-String -Pattern '^A').Count; $modified = ($staged | Select-String -Pattern '^M').Count; Write-Host "Added: $added, Modified: $modified"
+       $staged = git diff --cached --name-status --no-color | Select-String -Pattern '^[AMD]\s+"?(general|special|self)/.*\.md"?$'; $added = ($staged | Select-String -Pattern '^A').Count; $modified = ($staged | Select-String -Pattern '^M').Count; $deleted = ($staged | Select-String -Pattern '^D').Count; Write-Host "Added: $added, Modified: $modified, Deleted: $deleted"
        ```
 
      - **Bash/zsh (Linux/macOS):**
 
        ```bash
-       staged=$(git diff --cached --name-status --no-color | grep -E '^[AM]\s+"?(general|special|self)/.*\.md"?$'); added=$(echo "$staged" | grep '^A' | wc -l); modified=$(echo "$staged" | grep '^M' | wc -l); echo "Added: $added, Modified: $modified"
+       staged=$(git diff --cached --name-status --no-color | grep -E '^[AMD]\s+"?(general|special|self)/.*\.md"?$'); added=$(echo "$staged" | grep '^A' | wc -l); modified=$(echo "$staged" | grep '^M' | wc -l); deleted=$(echo "$staged" | grep '^D' | wc -l); echo "Added: $added, Modified: $modified, Deleted: $deleted"
        ```
 
    - Present the exact commands to be run. If not executed, produce a best-effort commit message from available context and stop.
@@ -69,15 +69,17 @@ agent: agent
    - The commit header MUST begin with `feat(notes):` and SHOULD include
      counts in a concise, natural format that shows only nonzero values.
      Use `add <N> note(s)` when the added count is nonzero and
-     `edit <M> note(s)` when the edited count is nonzero. When both
-     counts are present, separate them with a semicolon and a space
-     in that order.
+     `edit <M> note(s)` when the edited count is nonzero and
+     `delete <D> note(s)` when the deleted count is nonzero. When
+     multiple counts are present, separate them with a semicolon and a
+     space in the order add, edit, delete.
      Examples:
-     - `feat(notes): add 3 note(s); edit 2 note(s)`
+     - `feat(notes): add 3 note(s); edit 2 note(s); delete 1 note(s)`
      - `feat(notes): add 3 note(s)`
      - `feat(notes): edit 2 note(s)`
-     - `feat(notes): add 1 note(s); edit 2 note(s)`
-   - If both counts are zero, omit counts from the header and use a
+     - `feat(notes): delete 2 note(s)`
+     - `feat(notes): add 1 note(s); delete 2 note(s)`
+   - If all counts are zero, omit counts from the header and use a
      short descriptive header (for example `feat(notes): tidy headings`).
    - The body should briefly describe the changes. **Each line in the commit header, body, and all flashcard trailers must be wrapped to 72 characters or fewer. This is strictly enforced by commitlint. If the commit is rejected due to line length or formatting, rewrap and retry until the commit passes.**
    - Add the three flashcard trailers as plain ASCII key/value pairs, one per line, before any optional footers. **Wrap each trailer line to 72 characters or fewer.**

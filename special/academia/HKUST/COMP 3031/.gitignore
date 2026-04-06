@@ -1,4 +1,4 @@
-# https://github.com/github/gitignore/blob/fc6ce5da28a8c3480cc8a5acad050449f72a9261/Global/JetBrains.gitignore {
+# <https://github.com/github/gitignore/blob/fc6ce5da28a8c3480cc8a5acad050449f72a9261/Global/JetBrains.gitignore> {
 # Covers JetBrains IDEs: IntelliJ, GoLand, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -84,7 +84,7 @@ http-client.private.env.json
 .idea/ApifoxUploaderProjectSetting.xml
 # }
 
-# https://github.com/github/gitignore/blob/fc6ce5da28a8c3480cc8a5acad050449f72a9261/Scala.gitignore {
+# <https://github.com/github/gitignore/blob/fc6ce5da28a8c3480cc8a5acad050449f72a9261/Scala.gitignore> {
 *.class
 *.log
 

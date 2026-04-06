@@ -75,7 +75,7 @@ pV^{\gamma - K(\gamma - 1)} & \propto 1 \,.
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = ("polytropic index", "effects",)
 table = (
@@ -88,16 +88,17 @@ table = (
   ("_γ_ < _n_ < +∞", "under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction",),
   ("_n_ = +∞", "$V = C$, equivalent to [isochoric process](isochoric%20process.md); there is no [work](work%20(physics).md)",),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects("029f", "577a",),
     headers, table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, "5599", "0033",),
     items_to_map(*(row[:2] for row in table)),
-  ),
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 <!--pytextgen generate section="029f"--><!-- The following content is generated at 2026-01-25T23:32:19.069989+08:00. Any edits will be overridden! -->

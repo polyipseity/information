@@ -33,7 +33,6 @@ The goal is to {@{transform a given data set __X__ of dimension _p_ to another d
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
 from itertools import chain
 from pytextgen.compat.util import Result
 steps = """

@@ -29,7 +29,7 @@ Petroleum is {@{separated by [fractional distillation](fractional%20distillation
 
 ```Python
 # pytextgen generate data
-from asyncio import gather
+from asyncer import create_task_group
 from itertools import chain
 headers = ('[fraction](fraction%20(chemistry).md)', '[boiling point](boiling%20point.md) range', 'use(s)',)
 table = (
@@ -44,20 +44,21 @@ table = (
   ('[paraffin wax](paraffin%20wax.md)', '370 °C or above', '[candles](candle.md), [lubrication](lubrication.md)',),
   ('[bitumen](bitumen.md)', '500 °C or above', '[road construction](road%20construction.md)',),
 )
-return chain.from_iterable(await gather(
-  memorize_table(
+results = []
+async with create_task_group() as tg:
+  results.append(tg.soonify(memorize_table)(
     __env__.cwf_sects('2039', 'd5f1',),
     headers, table,
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '3984', 'e8ff',),
     items_to_map(*(row[:2] for row in table)),
-  ),
-  memorize_map(
+  ))
+  results.append(tg.soonify(memorize_map)(
     __env__.cwf_sects(None, '495a', None,),
     items_to_map(*((row[0], row[2]) for row in table if row[2])),
-  ),
-))
+  ))
+return chain.from_iterable([r.value for r in results])
 ```
 
 [Fuels](fuel.md) by ascending [boiling point](boiling%20point.md) include:

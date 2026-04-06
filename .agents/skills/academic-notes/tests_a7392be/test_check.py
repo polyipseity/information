@@ -25,7 +25,9 @@ __all__ = ()
 
 
 @pytest.mark.anyio
-async def test_main_matches_validator(tmp_path: PathLike[str]):
+async def test_main_matches_validator(
+    tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
+):
     """``check.main`` should behave identically to
     ``check_mods.validator.main``.
 
@@ -47,8 +49,14 @@ tags: []
     # validator.main and check.main both call exit(); assert same exit code
     with pytest.raises(SystemExit) as ev:
         await validator.main([str(tmp_path)])
-    with pytest.raises(SystemExit) as ew:
-        await check.main([str(tmp_path)])
+
+    previous_argv = sys.argv[:]
+    try:
+        sys.argv[:] = ["check", str(tmp_path)]
+        with pytest.raises(SystemExit) as ew:
+            await check.main()
+    finally:
+        sys.argv[:] = previous_argv
 
     assert ew.value.code == ev.value.code
     assert ev.value.code != 0  # there should be at least one error message

@@ -1,56 +1,79 @@
 # Course note template (institution-agnostic)
 
-This template follows the practical layout used in exemplar course pages (for example, `COMP 3031` and `ACCT 3010`) and captures common, repeatable patterns found in those examples. Use it when creating new course pages under `special/academia/<INSTITUTION>/<COURSE CODE>/`.
+Use this file as a scaffold for new course pages under
+`special/academia/<INSTITUTION>/<COURSE CODE>/`.
 
-Key patterns to follow (seen in the examples):
+## What belongs here
 
-- Provide multiple `aliases:` forms (with/without spaces, with/without `index`, and with the institution prefix) so note pages are easily discoverable.
-- Use `tags:` with the course code using an underscore (e.g., `COMP_3031`) for flashcard activation and include `language/in/<LANGUAGE>`.
-- Include the short line "The content is in teaching order." under the course `name` (this appears in the examples and makes ordering explicit).
-- Keep `children:` ordered and include `assignments/` immediately after `children` (and before sessions); attachments and questions may follow.  A `lectures/` folder is optional and usually unnecessary because session entries live directly in the index page.
-- Use a nested grading `scheme:` block and include exam metadata such as `venue:` and `format:` (e.g., `cheatsheet`, `open book`) when applicable.
-- Use session `status:` fields for cancellations/unscheduled/online notes and add `::@::` takeaways for flashcard generation.
+- Template-facing reminders that directly affect how to fill the scaffold.
+- Short notes about aliases, tags, ordering, and section layout.
+- Example structure for a course `index.md`.
 
-See SKILL.md in this folder for concrete snippets and validated frontmatter examples (lectures, labs, assignments, exams).
+Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 
-## Short style notes (must appear outside the code block)
+## Quick reminders
 
-- Keep the code block strictly machine-readable: frontmatter and topical entries belong inside the fenced `markdown` block only. ❗
-- Add human-readable guidance and style notes *outside* the fenced block (below the block) so they are not copied into course pages. ✅
-- Use `COMP_3031` (underscore) for flashcard activation tags in `tags:`; in prose use the spaced form `COMP 3031` as the visible heading. 🔖
-- For repeated sessions in one week, use numbered subheadings: `lecture 1`, `lecture 2`, `lab 1`, `lab 2`, etc. 🔁
-- Include a one-line `::@::` takeaway per topic for flashcard generation; keep takeaways short and actionable (one sentence or fragment). ✍️
-- Use underscore for emphasis in course notes: `_italic_`, `__bold__` (not `*`/`**`); see SKILL.md. ✒️
-- When writing physical quantities always enclose units inside the math delimiters (`$5\text{ V}$` not `$5 V$`); the validator warns if units appear outside `$...$`. ⚠️
-- Use analogies or real-world comparisons (human body vs robot power, food as energy) in prose and turn the key point into a flashcard if helpful. 💡
-- Use `datetime` with ISO format and optional duration (e.g., `, PT1H20M`) where appropriate. ⏱️
-- Keep outline bullets flush with the expected indent (two spaces per level) and avoid inserting stray blank indents; this keeps the code block machine-readable and avoids parsing hiccups. 📏
-- When editing flashcards, read through the entire code block sequentially to catch misplaced separators or formatting errors – a complete sweep reduces subtle mistakes. 🔍
-
-> Note: Always add style/explanatory notes outside the fenced code block; never place explanatory text inside the template's `markdown` code block.
-
-### assignments
-
-- NOTE: Place the `assignments/` child immediately after `children` and before any session entries (lectures, labs, tutorials, exams). Each assignment lives under `assignments/assignment N/` with an `index.md` and optional `submission.yml`. Always list assignments in chronological order by due date.
-
-### sessions and chronology
-
-- Session entries (lectures, labs, tutorials, exams) may interleave in time. Always list all sessions in strict chronological order. Use dated `datetime` fields to make ordering explicit and machine-readable.
-- For multiple sessions within a week, use numbered subheadings (e.g., `lecture 1`, `lecture 2`, `lab 1`, `lab 2`) and keep them ordered by datetime.
-- For no-class days (holidays, breaks): omit `topic:`; use `status: public holiday: <name>` when the holiday is known (e.g. Lunar New Year, Labor Day) or `status: no class` for other non-teaching days (e.g. midterm break). Do not put the holiday or status in the section heading (use `## week 3 lecture` or `## week 3 lecture 2`, etc., not `## week 3 (Lunar New Year)` or `## week 3 no class`); see SKILL.md session and index rules.
+- Keep the fenced `markdown` block machine-readable.
+- Put human guidance **outside** the fenced block.
+- For course indexes, include spaced and unspaced course-code aliases plus
+  institution-prefixed variants, sorted alphabetically.
+- Use underscore-normalized path fragments in flashcard tags, for example
+  `flashcard/active/special/academia/HKUST/COMP_3031` or
+  `flashcard/active/special/academia/Pusan_National_University/IT3000504`.
+- Put course-specific agent instructions in `AGENTS.md` in the same course
+  folder only when needed. If you create that file, keep it concise, use the
+  title `# <course code> agent instructions`, and do not use flashcard markup
+  there (`{@{ }@}`, `:@:`, `::@::`). If you do not create `AGENTS.md`, remove it
+  from the `children` list.
+- If the provided materials already enumerate repeating deliverables or sessions
+  (for example tutorial rounds, lab rounds, quizzes, or homeworks), scaffold
+  minimal child pages for those foreseeable items early and keep them lightweight
+  until official content arrives.
+- Keep `index.md` pages lean: the course root should hold only the high-value
+  overview, folder indexes should summarize just enough to navigate, and leaf
+  indexes should usually contain only minimal logistics until real content is
+  ingested.
+- For Canvas-derived assignment-style leaf indexes (for example lab rounds,
+  homework folders, quiz handouts, or similar deliverables), structure the page
+  as index metadata, `## children`, `## description`, `## attachments`,
+  `## submission`, and `## solution`; do not insert an extra `---` after the
+  parent line. In `## description`, store the Canvas title header as the first
+  list item `- title: <verbatim title>` rather than as a heading, keep the
+  visible Canvas wording verbatim, and point the attachments list at local
+  `attachments/` files.
+- In a course-root `index.md`, order the main top-level sections as `## children`,
+  then `## logistics`, then `## overview`; keep sessions and exams after those.
+- Prefer one `## overview` section for compact orientation material such as
+  official scope bullets, topic-to-file mapping, and short root-level notes.
+- When turning lecture PDFs into topic notes, preserve the concrete teaching
+  detail: explicit classifications, key formulas, named signal or system
+  families, and representative examples or counterexamples from the source.
+- Place `assignments/` immediately after `children` and before session entries.
+- Keep sessions in strict chronological order and use headings of the form
+  `## week N lecture`, `## week N lecture 2`, `## week N lab`, and
+  `## week N tutorial`.
+- If the official materials define a recurring weekly stream, scaffold that
+  stream continuously across the term and mark skipped meetings with `status:`
+  metadata rather than omitting the week.
+- Use underscore emphasis (`_italic_`, `__bold__`).
+- Keep units inside math delimiters, for example `$5\text{ V}$`.
 
 ## template content
 
 ```markdown
-<!-- All HTML comments scattered throughout this template are explanatory only—they exist purely to document the template’s structure.  When your course page is instantiated, remove every HTML comment (not just the one above) before committing.  Comments are for author guidance and must not be checked in to the repository. -->
+<!-- Remove template comments before committing. -->
 ---
 aliases:
   - <course code>
+  - <coursecodewithoutspace>
   - <course code> index
+  - <coursecodewithoutspace> index
   - <institution> <course code>
+  - <institution> <coursecodewithoutspace>
   - <institution> <course code> index
+  - <institution> <coursecodewithoutspace> index
 tags:
-  - flashcard/active/special/academia/<institution>/<course code>
+  - flashcard/active/special/academia/<institution_slug>/<course_slug>
   - function/index
   - language/in/<language>
 ---
@@ -61,30 +84,11 @@ tags:
 - name: <course name (English)>
 - credits: <number of credits>
 
---- <!-- This horizontal separator is always required. -->
+---
 
-<!-- Provide a detailed course description and any additional notes here. Prefer paragraph prose; use a bulleted list only when the content is clearly list-oriented.  This block may contain multiple paragraphs, bullet lists, or other Markdown elements.  It appears directly after the credits line.  Policy notes are allowed but should not include instructor or TA names/emails (those belong in a staff directory or syllabus).  Grading policy text should be placed immediately below this block rather than inside it. -->
 <course description and any additional notes>
 
 The content is in teaching order.
-
-## logistics
-
-- grading
-  - <component name>: <percent>%; <optional description>
-  - <another component>: <percent>%
-  - ... <!-- add or remove components as needed; description follows semicolon only when present -->
-- sections: <!-- Use one key per stream type for the chosen section (e.g. lecture: L1). Under that key list every section's identifier and details (L1, L2, L3 each with venue and times). Do not add separate lecture: L2, lecture: L3 keys. -->
-  - lecture: <chosen section> <!-- e.g. L1 = chosen; list L1, L2, L3 (all sections) under this key -->
-    - L1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
-    - L2: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
-    - L3: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
-  - tutorials: <chosen section> <!-- e.g. T2; list all tutorial sections under this key -->
-    - T1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
-    - T2: <venue>; ...
-  - labs: <chosen section> <!-- e.g. LA1; list all lab sections under this key -->
-    - LA1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
-    - LA2: <venue>; ...
 
 ## children
 
@@ -93,8 +97,36 @@ The content is in teaching order.
 - [labs/](labs/index.md)
 - [questions/](questions/index.md)
 - [tutorials/](tutorials/index.md)
+- [AGENTS](AGENTS.md)
 
-<!-- A `lectures/` subdirectory is **not required**.  Sessions (lectures, labs, tutorials, exams) are kept directly in the course index page and should be listed in strict chronological order.  Removing the lecture folder simplifies navigation and avoids unnecessary boilerplate; course material may reference individual weeks with nested headings or hyperlinks instead of separate files. -->
+## logistics
+
+- grading
+  - <component name>: <percent>%; <optional description>
+  - <another component>: <percent>%
+- sections:
+  - lecture: <chosen section>
+    - L1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+    - L2: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+  - tutorials: <chosen section>
+    - T1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+    - T2: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+  - labs: <chosen section>
+    - LA1: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+    - LA2: <venue>; <weekday>T<start>/<weekday>T<end>[, ...]
+
+## overview
+
+- official course outline
+  - <main lecture theme>
+  - <main lecture theme>
+- topic-to-file mapping
+  - <topic cluster>
+    - [<topic note>](<topic%20note>.md)
+    - [<topic note>](<topic%20note>.md)
+- notes
+  - <brief root-level note>
+  - <brief root-level note>
 
 ## assignments
 
@@ -107,45 +139,27 @@ The content is in teaching order.
   - points: 100
   - link: [assignment 2](assignments/assignment%202/index.md)
 
-### week 1 lecture 1
+## week 1 lecture
 
 - datetime: 2025-09-16T12:00:00+08:00/2025-09-16T13:20:00+08:00, PT1H20M
 - status: scheduled
 - topic: logistics; introduction
 - <COURSE CODE>
-  - <COURSE_CODE> / logistics ::@:: Course logistics, recommended books, evaluation
-- [link to general article](../../../../general/link%20to%20general%20article.md) ::@:: Description for "link to general article".
+  - <COURSE CODE> / logistics ::@:: Course logistics, recommended books, evaluation.
 
-### week 1 lab 1
-
-- datetime: 2025-09-15T15:00:00+08:00/2025-09-15T16:20:00+08:00, PT1H20M
-- topic: functional programming exercises
-- <COURSE CODE>
-  - <COURSE CODE> / lab 1 ::@:: Description for lab 1.
-    - <COURSE CODE> / lab 1 / Pascal's triangle ::@:: Purely recursive solution; no mutation allowed
-
-### week 1 tutorial 1
+## week 1 tutorial
 
 - datetime: 2025-09-16T15:00:00+08:00/2025-09-16T16:20:00+08:00, PT1H20M
 - topic: functional programming exercises
 - <COURSE CODE>
   - <COURSE CODE> / tutorial 1 ::@:: Description for tutorial 1.
-    - <COURSE CODE> / tutorial 1 / Pascal's triangle ::@:: Purely recursive solution; no mutation allowed
 
-### week 1 lab 2
-
-- datetime: 2025-09-17T15:00:00+08:00/2025-09-17T16:20:00+08:00, PT1H20M
-- topic: additional lab (make-up)
-- <COURSE CODE>
-  - <COURSE CODE> / lab 2 ::@:: Description for lab 2.
-
-### week 1 lecture 2
+## week 1 lecture 2
 
 - datetime: 2025-09-18T12:00:00+08:00/2025-09-18T13:20:00+08:00, PT1H20M
 - topic: merge sort; algorithms
 - <COURSE CODE>
-  - <COURSE_CODE> / merge sort ::@:: Divide-and-conquer sorting, stability, complexity
-- [merge sort](../../../../general/merge%20sort.md) ::@:: Description for merge sort.
+  - <COURSE CODE> / merge sort ::@:: Divide-and-conquer sorting, stability, complexity.
 
 ## midterm examination
 
@@ -154,7 +168,11 @@ The content is in teaching order.
 - format:
   - cheatsheet: allowed
   - open book: no
-  - questions: long question ×4 (with subquestions)
+  - questions: long question ×4
+
+---
+
+Administrative exam notes may be written here as ordinary prose.
 
 ## final examination
 
@@ -164,11 +182,4 @@ The content is in teaching order.
   - cheatsheet: allowed
   - open book: no
   - questions: long question ×3
-
-## aftermath
-
-### total
-
-- grades: 100/100
-  - statistics: ?
 ```
