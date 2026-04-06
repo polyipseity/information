@@ -19,7 +19,7 @@ Matched filtering is {@{a demodulation technique with [LTI \(linear time invaria
 
 ### derivation via matrix algebra
 
-The following section derives {@{the matched filter for a [discrete-time system](discrete-time%20system.md)}@}. {@{The derivation for a [continuous-time system](continuous-time.md#continuous%20time)}@} is similar, with {@{summations replaced with integrals}@}. <!--SR:!2026-04-20,66,310!2026-05-01,76,329!2026-04-08,53,309-->
+The following section derives {@{the matched filter for a [discrete-time system](discrete-time%20system.md)}@}. {@{The derivation for a [continuous-time system](continuous-time.md#continuous%20time)}@} is similar, with {@{summations replaced with integrals}@}. <!--SR:!2026-04-20,66,310!2026-05-01,76,329!2026-11-22,228,329-->
 
 The matched filter is {@{the linear filter, $h$, that maximizes the output [signal-to-noise ratio](signal-to-noise%20ratio.md)}@}. {@{$$\ y[n]=\sum _{k=-\infty }^{\infty }h[n-k]x[k],$$}@} where $x[k]$ is {@{the input as a function of the independent variable $k$}@}, and $y[n]$ is {@{the filtered output}@}. Though we most often express {@{filters as the [impulse response](impulse%20response.md) of convolution systems}@}, as above \(see {@{[LTI system theory](LTI%20system%20theory.md)}@}\), it is easiest to think of {@{the matched filter in the context of the [inner product](inner%20product.md)}@}, which we will see shortly. <!--SR:!2026-04-30,75,329!2026-05-01,76,329!2026-04-30,75,329!2026-04-29,74,329!2026-05-01,76,329!2026-05-01,76,329!2026-04-19,65,310-->
 

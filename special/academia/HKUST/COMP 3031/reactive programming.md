@@ -22,9 +22,9 @@ tags:
 
 ## observer pattern
 
-In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interested observers}@} that react by {@{updating views or other state}@}. In the following sections we describe how this pattern can be implemented, why it has drawbacks, and hint at a more functional alternative. <!--SR:!2027-01-14,282,330!2026-12-27,268,330!2026-04-08,66,310-->
+In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interested observers}@} that react by {@{updating views or other state}@}. In the following sections we describe how this pattern can be implemented, why it has drawbacks, and hint at a more functional alternative. <!--SR:!2027-01-14,282,330!2026-12-27,268,330!2027-01-21,288,330-->
 
-{@{The core idea}@} is that {@{a _publisher_ keeps a set of _subscribers_}@}. {@{A subscriber implements `handler`}@} so that it receives {@{notifications from the publisher whenever something changes}@}. The publisher offers three operations: {@{`subscribe`, `unsubscribe`}@} and {@{`publish`}@}. <!--SR:!2027-01-06,276,330!2026-12-09,255,330!2026-04-09,67,310!2026-04-08,66,310!2026-04-08,66,310!2027-01-06,276,330-->
+{@{The core idea}@} is that {@{a _publisher_ keeps a set of _subscribers_}@}. {@{A subscriber implements `handler`}@} so that it receives {@{notifications from the publisher whenever something changes}@}. The publisher offers three operations: {@{`subscribe`, `unsubscribe`}@} and {@{`publish`}@}. <!--SR:!2027-01-06,276,330!2026-12-09,255,330!2026-04-09,67,310!2027-01-22,289,330!2027-01-18,285,330!2027-01-06,276,330-->
 
 > [!example] __publisher/subscriber traits__
 >
@@ -40,7 +40,7 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 >   def publish(): Unit = subs.foreach(_.handler(this))
 > }
 > ```
-<!--SR:!2026-04-09,67,310!2026-04-09,67,310!2026-04-08,66,310!2026-04-09,67,310!2027-01-17,285,330!2026-04-09,67,310-->
+<!--SR:!2026-04-09,67,310!2026-04-09,67,310!2027-01-16,283,330!2026-04-09,67,310!2027-01-17,285,330!2026-04-09,67,310-->
 
 ### observer pattern example
 
@@ -62,7 +62,7 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 > ```
 <!--SR:!2026-04-09,67,310!2026-12-11,255,330!2026-11-21,240,330!2027-01-12,281,330-->
 
-{@{An observer that keeps the total of many bank accounts}@} can be written as {@{a single subscriber}@}. It registers {@{itself with every account}@}, computes {@{the sum on each notification and exposes it through `totalBalance`}@}. <!--SR:!2026-12-09,255,330!2026-04-08,66,310!2027-01-09,278,330!2026-04-09,67,310-->
+{@{An observer that keeps the total of many bank accounts}@} can be written as {@{a single subscriber}@}. It registers {@{itself with every account}@}, computes {@{the sum on each notification and exposes it through `totalBalance`}@}. <!--SR:!2026-12-09,255,330!2027-01-23,290,330!2027-01-09,278,330!2026-04-09,67,310-->
 
 > [!example] __`Consolidator` subscriber__
 >
@@ -83,11 +83,11 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 
 {@{The observer style}@} is {@{_imperative_}@}: handlers are {@{side-effecting and tightly couple views to model state}@}. They must be {@{registered manually}@}, and concurrency can introduce {@{subtle bugs when notifications arrive while an update is in progress}@}. <!--SR:!2026-12-28,268,330!2026-12-27,268,330!2027-01-01,272,330!2026-04-09,67,310!2027-01-14,282,330-->
 
-{@{A more compositional approach}@} treats {@{events as first-class values}@} and chains {@{them with combinators such as `map`, `filter` or `scan`}@}. This removes the need for {@{explicit subscription lists}@} and makes it easier to {@{reason about data flow}@}. <!--SR:!2026-12-27,268,330!2026-12-11,255,330!2026-12-24,265,330!2026-04-08,66,310!2026-04-09,67,310-->
+{@{A more compositional approach}@} treats {@{events as first-class values}@} and chains {@{them with combinators such as `map`, `filter` or `scan`}@}. This removes the need for {@{explicit subscription lists}@} and makes it easier to {@{reason about data flow}@}. <!--SR:!2026-12-27,268,330!2026-12-11,255,330!2026-12-24,265,330!2027-01-11,278,330!2026-04-09,67,310-->
 
 ## functional reactive programming
 
-{@{Functional reactive programming (FRP) in Scala}@} moves beyond {@{the classic observer pattern}@} by treating {@{time-varying values as first-class citizens called _signals_}@}. Signals let us compose {@{computations over changing data without the manual bookkeeping of subscribers}@}, and they fit naturally into {@{a functional style}@}. It replaces {@{event-based callbacks with declarative combinators such as `map` and `filter`}@}. <!--SR:!2027-01-01,272,330!2026-04-09,67,310!2026-12-09,255,330!2027-01-15,283,330!2026-04-08,66,310!2026-04-09,67,310-->
+{@{Functional reactive programming (FRP) in Scala}@} moves beyond {@{the classic observer pattern}@} by treating {@{time-varying values as first-class citizens called _signals_}@}. Signals let us compose {@{computations over changing data without the manual bookkeeping of subscribers}@}, and they fit naturally into {@{a functional style}@}. It replaces {@{event-based callbacks with declarative combinators such as `map` and `filter`}@}. <!--SR:!2027-01-01,272,330!2026-04-09,67,310!2026-12-09,255,330!2027-01-15,283,330!2027-01-23,290,330!2026-04-09,67,310-->
 
 ## signals
 
@@ -99,7 +99,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 >
 > `val mousePosition: Signal[Position] = ...`
 >
-> {@{The value `mousePosition()`}@} yields {@{the latest coordinates}@}. <!--SR:!2027-01-15,283,330!2026-12-09,255,330!2026-04-08,66,310!2027-01-06,276,330!2026-04-09,67,310-->
+> {@{The value `mousePosition()`}@} yields {@{the latest coordinates}@}. <!--SR:!2027-01-15,283,330!2026-12-09,255,330!2027-01-19,286,330!2027-01-06,276,330!2026-04-09,67,310-->
 
 {@{A minimal `Signal` type}@} can be {@{written as follows}@}: <!--SR:!2026-12-30,270,330!2027-01-06,276,330-->
 
@@ -125,7 +125,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 >
 > {@{The syntax `v() = 5`}@} is {@{syntactic sugar for `v.update(5)`}@}. <!--SR:!2026-04-09,67,310!2026-12-16,259,330!2026-12-05,251,330!2026-12-17,259,330!2026-04-09,67,310-->
 
-{@{Signals can be combined}@} to yield {@{new signals}@}: <!--SR:!2027-01-17,285,330!2026-04-08,66,310-->
+{@{Signals can be combined}@} to yield {@{new signals}@}: <!--SR:!2027-01-17,285,330!2027-01-10,277,330-->
 
 > [!example] __`Signal` combinator__
 >
@@ -173,7 +173,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 
 ### signal reassignment
 
-{@{Updating a signal}@} must go through {@{the `Signal` object}@} rather than {@{reassigning to the `Signal` variable}@}. <!--SR:!2026-04-08,66,310!2026-04-09,67,310!2026-12-14,257,330-->
+{@{Updating a signal}@} must go through {@{the `Signal` object}@} rather than {@{reassigning to the `Signal` variable}@}. <!--SR:!2027-01-14,281,330!2026-04-09,67,310!2026-12-14,257,330-->
 
 > [!example] __signal reassignment__
 >
@@ -193,7 +193,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > num = Signal.Var(2)            // `twice` remains 2
 > ```
 >
-> Instead, it replaces {@{the variable `num` with a new signal, leaving `twice` bound to the old one}@}.  Hence {@{the final value of `twice()`}@} differs {@{from the first fragment}@}. <!--SR:!2027-01-07,276,330!2026-04-08,66,310!2026-12-09,255,330!2026-04-09,67,310!2026-12-31,271,330!2026-11-27,245,330!2026-04-09,67,310!2026-04-09,67,310!2026-04-09,67,310-->
+> Instead, it replaces {@{the variable `num` with a new signal, leaving `twice` bound to the old one}@}.  Hence {@{the final value of `twice()`}@} differs {@{from the first fragment}@}. <!--SR:!2027-01-07,276,330!2027-01-20,287,330!2026-12-09,255,330!2026-04-09,67,310!2026-12-31,271,330!2026-11-27,245,330!2026-04-09,67,310!2026-04-09,67,310!2026-04-09,67,310-->
 
 ### signal implementation
 
@@ -226,7 +226,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > val doubled = Signal(time() * 2)
 > time.update(1)  // `Signal.Var` can be updated
 > ```
-<!--SR:!2027-01-08,277,330!2026-04-08,66,310!2027-01-12,280,330!2027-01-01,272,330-->
+<!--SR:!2027-01-08,277,330!2027-01-18,285,330!2027-01-12,280,330!2027-01-01,272,330-->
 
 {@{The presented implementation}@} is {@{a minimal, imperative-style FRP}@} that works for {@{discrete signals}@}. It does not guarantee {@{thread safety}@} and treats {@{continuous values only by sampling}@}. {@{More sophisticated libraries}@} add {@{pure propagation, event streams, and continuous time support}@}. <!--SR:!2026-12-09,255,330!2027-01-06,276,330!2026-12-27,268,330!2027-01-10,279,330!2027-01-06,276,330!2027-01-01,272,330!2026-12-21,263,330-->
 
@@ -257,7 +257,7 @@ When {@{a signal is read}@}, it registers {@{the calling signal as an observer}@
 > ```
 <!--SR:!2027-01-12,281,330!2027-01-10,279,330!2027-01-06,276,330!2026-12-11,255,330!2026-04-09,67,310!2026-12-06,251,330!2026-04-09,67,310-->
 
-To know {@{on whose behalf a signal expression is evaluated}@}, each signal must record {@{the _caller_ that triggered its computation}@}. {@{The straightforward approach}@} is to thread {@{an explicit `Signal.Observer` argument through every call}@}: replace {@{`expr: () => T` with `expr: Signal.Observer => T`}@}. During evaluation, `s()` {@{would be rewritten as `s(caller)`}@}, where `caller` {@{denotes the signal that requested the value}@}. This technique {@{works but introduces a lot of boilerplate and is easy to misuse}@}. Scala solves it by treating {@{the caller as an _implicit_ using argument}@}. With {@{`def expr: (using Signal.Observer) => T`}@} (not {@{valid Scala syntax}@}) the compiler {@{automatically supplies the current observer}@}, making signal definitions look like {@{ordinary code while still wiring up dependencies}@}. <!--SR:!2026-12-09,255,330!2027-01-06,276,330!2026-04-09,67,310!2026-12-22,263,330!2026-12-29,269,330!2027-01-13,281,330!2026-04-09,67,310!2027-01-17,285,330!2026-04-08,66,310!2026-12-09,255,330!2026-04-08,66,310!2026-04-09,67,310!2026-12-16,259,330-->
+To know {@{on whose behalf a signal expression is evaluated}@}, each signal must record {@{the _caller_ that triggered its computation}@}. {@{The straightforward approach}@} is to thread {@{an explicit `Signal.Observer` argument through every call}@}: replace {@{`expr: () => T` with `expr: Signal.Observer => T`}@}. During evaluation, `s()` {@{would be rewritten as `s(caller)`}@}, where `caller` {@{denotes the signal that requested the value}@}. This technique {@{works but introduces a lot of boilerplate and is easy to misuse}@}. Scala solves it by treating {@{the caller as an _implicit_ using argument}@}. With {@{`def expr: (using Signal.Observer) => T`}@} (not {@{valid Scala syntax}@}) the compiler {@{automatically supplies the current observer}@}, making signal definitions look like {@{ordinary code while still wiring up dependencies}@}. <!--SR:!2026-12-09,255,330!2027-01-06,276,330!2026-04-09,67,310!2026-12-22,263,330!2026-12-29,269,330!2027-01-13,281,330!2026-04-09,67,310!2027-01-17,285,330!2027-01-17,284,330!2026-12-09,255,330!2027-01-12,279,330!2026-04-09,67,310!2026-12-16,259,330-->
 
 > [!example] __implicit caller injection__
 >
@@ -273,7 +273,7 @@ To know {@{on whose behalf a signal expression is evaluated}@}, each signal must
 > type Observed[T] = Signal.Observer ?=> T
 > def foo(): Observed[Int] = Signal { /* body */ }
 > ```
-<!--SR:!2026-04-09,67,310!2026-12-09,255,330!2026-12-09,255,330!2026-04-09,67,310!2026-04-09,67,310!2026-04-08,66,310!2026-12-09,255,330!2026-04-09,67,310-->
+<!--SR:!2026-04-09,67,310!2026-12-09,255,330!2026-12-09,255,330!2026-04-09,67,310!2026-04-09,67,310!2027-01-15,282,330!2026-12-09,255,330!2026-04-09,67,310-->
 
 {@{The `noObserver` value}@} in {@{the companion object of `Signal`}@} provides {@{a default `Signal.Observer` context for top-level evaluations}@}, ensuring that {@{a signal can be read from ordinary code}@}. <!--SR:!2027-01-06,276,330!2026-04-09,67,310!2026-12-20,262,330!2026-04-09,67,310-->
 

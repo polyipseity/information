@@ -444,7 +444,7 @@ The content is in teaching order.
   - lemma: directed graph and minimum in-degree ::@:: If the in-degree of every vertex of a directed graph is 1, then there is a directed cycle. <p> To prove this, we can keep moving to new nodes backwards if there are no directed cycles. <!--SR:!2026-04-14,412,389!2028-07-16,1090,389-->
 - directed acyclic graph game ::@:: Two players start at a vertex of a loopless directed acyclic graph. In each turn, each player can move the current vertex through one outgoing edge. A player who cannot make a move loses. <p> We can prove the game always ends because there are no directed cycles. Also, we can also mark each vertex as a winning and losing position, starting from vertices with 0 out-degrees as losing, and alternating between winning and losing (with the winning position overriding the losing position) as we go through the directed edges in reverse. <!--SR:!2026-04-15,413,389!2027-06-29,758,369-->
 - graph theory
-  - graph theory / rooted tree ::@:: A __rooted tree__ is a tree with a vertex designated as the root. We can keep the tree undirected, or make it directed such that any other vertices can be reached from the root following the arrows. <!--SR:!2026-09-21,535,388!2026-04-08,407,389-->
+  - graph theory / rooted tree ::@:: A __rooted tree__ is a tree with a vertex designated as the root. We can keep the tree undirected, or make it directed such that any other vertices can be reached from the root following the arrows. <!--SR:!2026-09-21,535,388!2032-03-17,2170,409-->
 - [questions/2024-10-07/lecture](questions/2024-10-07%20lecture.md)
 - materials
   - [lecture video](https://youtu.be/97515nOWqAo)

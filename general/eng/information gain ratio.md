@@ -20,7 +20,7 @@ Information gain ratio {@{makes [decision tree learning](decision%20tree%20learn
 
 ## disadvantages
 
-Attributes with too many possible values {@{will never be considered over those with much lower ones}@}. <!--SR:!2026-04-08,540,310-->
+Attributes with too many possible values {@{will never be considered over those with much lower ones}@}. <!--SR:!2032-08-12,2318,330-->
 
 ## references
 

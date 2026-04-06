@@ -37,9 +37,9 @@ Flashcards for this section are as follows:
 - active device examples ::@:: Active semiconductor devices include diodes and transistors, distinguishing them from passive elements. <!--SR:!2026-05-13,55,310!2026-05-24,64,310-->
 - power/energy context ::@:: In ELEC 1100, electronic components also encompass power sources and delivery systems such as batteries and supplies that provide energy. <!--SR:!2026-06-29,83,363!2026-05-28,56,343-->
 - schematic symbol: resistor <p> ![resistor symbol](attachments/symbol_resistor.svg) ::@:: Resistor symbol (zigzag/box style depending on standard) representing a component that limits current and creates voltage drops. <!--SR:!2026-06-29,83,363!2026-06-25,79,363-->
-- schematic symbol: capacitor <p> ![capacitor symbol](attachments/symbol_capacitor.svg) ::@:: Capacitor symbol (two plates) representing a component that stores charge/energy in an electric field. <!--SR:!2026-06-26,80,363!2026-04-08,18,343-->
-- schematic symbol: DC voltage source <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) ::@:: Ideal DC voltage source symbol representing a supply that maintains a fixed potential difference. <!--SR:!2026-04-08,18,343!2026-06-29,83,363-->
-- schematic symbol: ground (GND, $0\text{ V}$ reference) <p> ![ground symbol](attachments/symbol_ground.svg) ::@:: Ground/reference node symbol ( $0\text{ V}$ reference) used as the circuit’s common return. <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
+- schematic symbol: capacitor <p> ![capacitor symbol](attachments/symbol_capacitor.svg) ::@:: Capacitor symbol (two plates) representing a component that stores charge/energy in an electric field. <!--SR:!2026-06-26,80,363!2026-07-04,87,363-->
+- schematic symbol: DC voltage source <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) ::@:: Ideal DC voltage source symbol representing a supply that maintains a fixed potential difference. <!--SR:!2026-07-05,88,363!2026-06-29,83,363-->
+- schematic symbol: ground (GND, $0\text{ V}$ reference) <p> ![ground symbol](attachments/symbol_ground.svg) ::@:: Ground/reference node symbol ( $0\text{ V}$ reference) used as the circuit’s common return. <!--SR:!2026-04-09,19,343!2026-07-04,87,363-->
 
 ## electrical fundamentals
 
@@ -87,11 +87,11 @@ By convention, the direction of current is taken to be the direction in which po
 
 Flashcards for this section are as follows:
 
-- current definition ::@:: Current is the orderly movement of charged particles; $I = \Delta q/\Delta t$, measured in amperes (1&nbsp;A = 1&nbsp;C/s). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-08,18,343!2026-06-28,82,363-->
-- current unit ::@:: The unit of current is the ampere, defined as one coulomb of charge passing a point per second. <!--SR:!2026-04-08,18,343!2026-06-25,79,363-->
+- current definition ::@:: Current is the orderly movement of charged particles; $I = \Delta q/\Delta t$, measured in amperes (1&nbsp;A = 1&nbsp;C/s). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-01,84,363!2026-06-28,82,363-->
+- current unit ::@:: The unit of current is the ampere, defined as one coulomb of charge passing a point per second. <!--SR:!2026-07-01,84,363!2026-06-25,79,363-->
 - electron vs conventional direction ::@:: In metal wires only electrons move; by convention current direction is the direction positive charges would move (opposite electron flow). <!--SR:!2026-06-26,80,363!2026-06-26,80,363-->
 - current example heater: A heater draws $8.5\times10^{20}$ electrons in $10\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and $I$. ::@:: $q=Ne\approx136\,\textrm{C}$ and $I=q/t\approx13.6\,\textrm{A}$. <!--SR:!2026-06-29,83,363!2026-05-28,56,343-->
-- battery example: A battery supplies $50\,\textrm{A}$ for $4\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and number of electrons. ::@:: $q=It=200\,\textrm{C}$, electrons = $q/e\approx1.25\times10^{21}$. <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
+- battery example: A battery supplies $50\,\textrm{A}$ for $4\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and number of electrons. ::@:: $q=It=200\,\textrm{C}$, electrons = $q/e\approx1.25\times10^{21}$. <!--SR:!2026-04-09,19,343!2026-06-12,65,343-->
 
 ### voltage and potential difference
 
@@ -113,17 +113,17 @@ Resistance describes how strongly a material opposes the flow of current. For a 
 
 Flashcards for this section are as follows:
 
-- resistance definition ::@:: Resistance is a measure of the difficulty in passing current through a substance. <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
+- resistance definition ::@:: Resistance is a measure of the difficulty in passing current through a substance. <!--SR:!2026-04-09,19,343!2026-07-03,86,363-->
 - unit of resistance ::@:: The unit of resistance is the ohm ($\Omega$), symbol $R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-24,78,363!2026-04-09,19,343-->
 - resistivity formula ::@:: $R = \rho\frac{L}{A}$ for a wire of length $L$ and area $A$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-09,19,343!2026-04-09,19,343-->
-- resistivity depends on material ::@:: The resistivity ρ in the resistance formula depends on the material of the conductor; different materials have different resistivities. <!--SR:!2026-04-08,18,343!2026-06-29,83,363-->
-- ideal wire ::@:: An ideal wire is treated as a perfect conductor and therefore has no resistance. <!--SR:!2026-04-08,18,343!2026-06-29,83,363-->
-- ideal insulator ::@:: An ideal insulator has infinite resistance and does not allow current to flow. <!--SR:!2026-06-28,82,363!2026-04-08,18,343-->
+- resistivity depends on material ::@:: The resistivity ρ in the resistance formula depends on the material of the conductor; different materials have different resistivities. <!--SR:!2026-07-04,87,363!2026-06-29,83,363-->
+- ideal wire ::@:: An ideal wire is treated as a perfect conductor and therefore has no resistance. <!--SR:!2026-07-04,87,363!2026-06-29,83,363-->
+- ideal insulator ::@:: An ideal insulator has infinite resistance and does not allow current to flow. <!--SR:!2026-06-28,82,363!2026-07-05,88,363-->
 - resistor definition ::@:: A resistor is a device that limits or regulates current flow in a circuit; colour bands on a resistor encode its resistance value. <!--SR:!2026-04-09,19,343!2026-04-09,19,343-->
 - resistor usage ::@:: Resistors control current and create voltage drops; all loads and even connecting wires inherently have resistance. <!--SR:!2026-06-23,77,363!2026-06-27,81,363-->
-- Ohm's law ::@:: $V = IR$; an I–V plot for a resistor is a straight line with slope $1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-08,18,343!2026-04-09,19,343-->
-- Ohm's law example: Given $V = 5\,\textrm{V}$ across a resistor $R = 200\,\Omega$, what is the current? ::@:: Use $I = V/R$ to calculate $25\,\textrm{mA}$. <!--SR:!2026-04-08,18,343!2026-04-09,19,343-->
-- multimeter use ::@:: Digital multimeters may be used to measure resistance, voltage, or current in laboratory circuits. <!--SR:!2026-06-27,81,363!2026-04-08,18,343-->
+- Ohm's law ::@:: $V = IR$; an I–V plot for a resistor is a straight line with slope $1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-05,88,363!2026-04-09,19,343-->
+- Ohm's law example: Given $V = 5\,\textrm{V}$ across a resistor $R = 200\,\Omega$, what is the current? ::@:: Use $I = V/R$ to calculate $25\,\textrm{mA}$. <!--SR:!2026-07-04,87,363!2026-04-09,19,343-->
+- multimeter use ::@:: Digital multimeters may be used to measure resistance, voltage, or current in laboratory circuits. <!--SR:!2026-06-27,81,363!2026-07-03,86,363-->
 - metric prefixes ::@:: Prefixes such as kilo ($k=10^{3}$) and milli ($m=10^{-3}$) are applied to ohms and amperes (e.g. $10\,\text{k}\Omega = 10000\,\Omega$; $50\,\text{mA} = 0.05\,\text{A}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-09,19,343!2026-06-28,82,363-->
 
 ## capacitors
@@ -175,12 +175,12 @@ Electrical sources may deliver either direct current (DC) or alternating current
 
 Flashcards for this section are as follows:
 
-- energy definition ::@:: Energy is the ability to do work and can take forms like mechanical, thermal, electrical, or chemical; it is conserved during conversion. <!--SR:!2026-04-08,18,343!2026-04-09,19,343-->
-- battery energy role ::@:: Batteries supply electrical energy through electrochemical reactions and provide DC power with long storage times. <!--SR:!2026-06-29,83,363!2026-04-08,18,343-->
+- energy definition ::@:: Energy is the ability to do work and can take forms like mechanical, thermal, electrical, or chemical; it is conserved during conversion. <!--SR:!2026-07-03,86,363!2026-04-09,19,343-->
+- battery energy role ::@:: Batteries supply electrical energy through electrochemical reactions and provide DC power with long storage times. <!--SR:!2026-06-29,83,363!2026-07-03,86,363-->
 - human/robot analogy ::@:: People get energy by eating food while robots obtain energy from batteries or power supplies. <!--SR:!2026-04-09,19,343!2026-06-05,59,343-->
-- DC vs AC ::@:: Direct current (DC) has constant polarity and amplitude; alternating current (AC) oscillates and reverses direction periodically. <!--SR:!2026-06-29,83,363!2026-04-08,18,343-->
-- household AC frequency ::@:: Mains electricity typically alternates at $50\,\text{Hz}$ (Hong Kong) or $60\,\text{Hz}$ (some other countries). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-08,18,343!2026-04-09,19,343-->
-- energy formula circuit ::@:: Electrical energy delivered to charge $q$ through a voltage $V$ is $E = qV$, with $q$ measured in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-08,18,343!2026-04-09,19,343-->
+- DC vs AC ::@:: Direct current (DC) has constant polarity and amplitude; alternating current (AC) oscillates and reverses direction periodically. <!--SR:!2026-06-29,83,363!2026-07-02,85,363-->
+- household AC frequency ::@:: Mains electricity typically alternates at $50\,\text{Hz}$ (Hong Kong) or $60\,\text{Hz}$ (some other countries). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-03,86,363!2026-04-09,19,343-->
+- energy formula circuit ::@:: Electrical energy delivered to charge $q$ through a voltage $V$ is $E = qV$, with $q$ measured in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-05,88,363!2026-04-09,19,343-->
 - power definition ::@:: Power is the rate of energy consumption; $P = E/\Delta t = IV$ and for resistors $P = I^2R = V^2/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-29,83,363!2026-04-09,19,343-->
 
 ### energy sources in lab
@@ -192,7 +192,7 @@ At the HKUST electronics lab you will typically power circuits from bench suppli
 Flashcards for lab sources are as follows:
 
 - lab DC supply ::@:: A DC power supply provides a regulated constant voltage for breadboard experiments. <!--SR:!2026-04-09,19,343!2026-04-09,19,343-->
-- function generator ::@:: A function generator produces AC waveforms of selectable frequency and amplitude. <!--SR:!2026-04-08,18,343!2026-04-09,19,343-->
+- function generator ::@:: A function generator produces AC waveforms of selectable frequency and amplitude. <!--SR:!2026-07-05,88,363!2026-04-09,19,343-->
 - robot battery ::@:: Project robots use rechargeable LiPo batteries monitored by a battery monitor. <!--SR:!2026-06-29,83,363!2026-04-09,19,343-->
 
 ### energy conversion
@@ -203,8 +203,8 @@ One way to visualise energy is by considering gravitational potential becoming k
 
 Flashcards for energy conversion are as follows:
 
-- energy conversion example ::@:: Galileo’s falling objects experiment shows $v=\sqrt{2gh}$, relating potential $mgh$ to kinetic $\tfrac12 mv^{2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
-- gravitational acceleration ::@:: The acceleration due to gravity is independent of mass, so all objects fall at the same rate neglecting air resistance. <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
+- energy conversion example ::@:: Galileo’s falling objects experiment shows $v=\sqrt{2gh}$, relating potential $mgh$ to kinetic $\tfrac12 mv^{2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-09,19,343!2026-07-02,85,363-->
+- gravitational acceleration ::@:: The acceleration due to gravity is independent of mass, so all objects fall at the same rate neglecting air resistance. <!--SR:!2026-04-09,19,343!2026-07-05,88,363-->
 
 ### human body energy
 
@@ -232,14 +232,14 @@ Resistors dissipate electrical power as heat, which is why excessive current can
 
 Flashcards for this section are as follows:
 
-- series resistors formula ::@:: Resistors in series simply add: $R_{\text{eq}} = R_1 + R_2 + \cdots$ (same current through each). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-08,18,343!2026-06-29,83,363-->
+- series resistors formula ::@:: Resistors in series simply add: $R_{\text{eq}} = R_1 + R_2 + \cdots$ (same current through each). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-04,87,363!2026-06-29,83,363-->
 - voltage divider ::@:: A voltage divider is two series resistors; assuming an ideal wire and ground, setup the circuit as V → RS → N → RL → GND → (V), then the voltage at node N is $V\cdot\frac{R_L}{R_S + R_L}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-09,19,343!2026-06-29,83,363-->
-- series divider assumptions ::@:: The voltage-divider formula assumes an ideal wire (zero resistance) and that the reference node is ground ($0\,\text{V}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-08,18,343!2026-04-09,19,343-->
-- parallel resistors formula ::@:: Resistors in parallel satisfy $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1 / R$ with unit siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
-- conductance units ::@:: Conductance $G=1/R$ is measured in siemens (S); older units mho or ℧ are equivalent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
+- series divider assumptions ::@:: The voltage-divider formula assumes an ideal wire (zero resistance) and that the reference node is ground ($0\,\text{V}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-05,88,363!2026-04-09,19,343-->
+- parallel resistors formula ::@:: Resistors in parallel satisfy $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1 / R$ with unit siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-09,19,343!2026-07-03,86,363-->
+- conductance units ::@:: Conductance $G=1/R$ is measured in siemens (S); older units mho or ℧ are equivalent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-09,19,343!2026-07-05,88,363-->
 - infinite ladder concept: Given an infinite resistor ladder built by repeating a small series/parallel cell, how can you model the resistance of the “tail” of the network in terms of an unknown $R_{\text{eq}}$? ::@:: Because the part of the ladder to the right of any cell looks identical to the whole, you can replace the infinite tail by a single unknown equivalent resistance $R_{\text{eq}}$ and solve for it. <!--SR:!2026-04-09,19,343!2026-06-27,81,363-->
-- ELEC 1100 infinite ladder example: Given the ELEC 1100 ladder made from repeating a $2R$ series resistor with a $1.5R$ shunt to ground, how do you find its equivalent resistance? ::@:: Write the equation $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ using the usual parallel formula and solve to obtain $R_{\text{eq}} = 3R$. <!--SR:!2026-04-08,18,343!2026-04-08,18,343-->
-- network calculation example: A $5\,\textrm{V}$ source drives $30\,\Omega$ in series with parallel $40\,\Omega$ and $60\,\Omega$ branches; what are $R_{\text{eq}}$ and total current? ::@:: $R_{\parallel}=24\,\Omega$, $R_{\text{eq}}=54\,\Omega$, $I=5/54\approx0.093\,\textrm{A}$. <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
+- ELEC 1100 infinite ladder example: Given the ELEC 1100 ladder made from repeating a $2R$ series resistor with a $1.5R$ shunt to ground, how do you find its equivalent resistance? ::@:: Write the equation $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ using the usual parallel formula and solve to obtain $R_{\text{eq}} = 3R$. <!--SR:!2026-07-02,85,363!2026-07-02,85,363-->
+- network calculation example: A $5\,\textrm{V}$ source drives $30\,\Omega$ in series with parallel $40\,\Omega$ and $60\,\Omega$ branches; what are $R_{\text{eq}}$ and total current? ::@:: $R_{\parallel}=24\,\Omega$, $R_{\text{eq}}=54\,\Omega$, $I=5/54\approx0.093\,\textrm{A}$. <!--SR:!2026-04-09,19,343!2026-07-02,85,363-->
 - short circuit danger ::@:: A short circuit is a near-zero-resistance path (close to zero, like through a metal wire) causing very high current and has the potential to damage components. <!--SR:!2026-04-09,19,343!2026-06-28,82,363-->
 
 ### worked calculations
@@ -252,7 +252,7 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- example power calculation: Given a $200\,\Omega$ resistor with $5\text{ V}$ across it, what power is dissipated? ::@:: Use $P=V^{2}/R$ to get $0.125\text{ W}$. <!--SR:!2026-04-08,18,343!2026-04-08,18,343-->
-- parallel circuit current: Two $2\,\Omega$ resistors are in parallel with $10\,\text{V}$ applied; find the total current. ::@:: First compute $R_{\text{eq}}=(1/2+1/2)^{-1}=1\,\Omega$ then $I=V/R_{\text{eq}}=10\,\text{A}$. <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
-- 10&nbsp;V series-plus-parallel network: A $10\text{ V}$ source drives a $2\,\Omega$ resistor in series with a parallel combination of a single $2\,\Omega$ branch and another branch composed of two $2\,\Omega$ resistors in series; what is the total current? ::@:: Equivalent resistance $10/3\,\Omega$ gives $I=3\text{ A}$. <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
-- series/parallel power: A $5\text{ V}$ source drives two equal resistors $R_S=R_L=2.4\text{ k}\Omega$ in series; calculate the power dissipated by $R_L$. ::@:: The answer is about $2.6\text{ mW}$ (use $I=1.04\text{ mA}$, then $I^{2}R$, or halve the total power). <!--SR:!2026-04-09,19,343!2026-04-08,18,343-->
+- example power calculation: Given a $200\,\Omega$ resistor with $5\text{ V}$ across it, what power is dissipated? ::@:: Use $P=V^{2}/R$ to get $0.125\text{ W}$. <!--SR:!2026-07-02,85,363!2026-07-03,86,363-->
+- parallel circuit current: Two $2\,\Omega$ resistors are in parallel with $10\,\text{V}$ applied; find the total current. ::@:: First compute $R_{\text{eq}}=(1/2+1/2)^{-1}=1\,\Omega$ then $I=V/R_{\text{eq}}=10\,\text{A}$. <!--SR:!2026-04-09,19,343!2026-07-02,85,363-->
+- 10&nbsp;V series-plus-parallel network: A $10\text{ V}$ source drives a $2\,\Omega$ resistor in series with a parallel combination of a single $2\,\Omega$ branch and another branch composed of two $2\,\Omega$ resistors in series; what is the total current? ::@:: Equivalent resistance $10/3\,\Omega$ gives $I=3\text{ A}$. <!--SR:!2026-04-09,19,343!2026-07-05,88,363-->
+- series/parallel power: A $5\text{ V}$ source drives two equal resistors $R_S=R_L=2.4\text{ k}\Omega$ in series; calculate the power dissipated by $R_L$. ::@:: The answer is about $2.6\text{ mW}$ (use $I=1.04\text{ mA}$, then $I^{2}R$, or halve the total power). <!--SR:!2026-04-09,19,343!2026-06-11,64,343-->

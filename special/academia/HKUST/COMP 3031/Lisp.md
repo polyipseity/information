@@ -22,7 +22,7 @@ tags:
 
 ## Lisp
 
-{@{_Lisp_}@} is {@{the oldest functional language}@}, created by {@{John McCarthy in 1959–60as a _List processor_}@}. It was designed to manipulate {@{symbolic data structures—trees and lists}@}—while other early languages {@{handled only arrays or records}@}. {@{Lisp’s simplicity}@} enabled {@{many landmark applications}@} such as {@{Macsyma, Emacs, AutoCAD and the ITA flight‑information system}@}. <!--SR:!2026-12-31,271,340!2026-04-16,72,320!2026-04-12,68,320!2027-01-05,276,340!2026-12-26,267,340!2026-04-17,74,320!2026-04-08,65,320!2026-12-25,266,340-->
+{@{_Lisp_}@} is {@{the oldest functional language}@}, created by {@{John McCarthy in 1959–60as a _List processor_}@}. It was designed to manipulate {@{symbolic data structures—trees and lists}@}—while other early languages {@{handled only arrays or records}@}. {@{Lisp’s simplicity}@} enabled {@{many landmark applications}@} such as {@{Macsyma, Emacs, AutoCAD and the ITA flight‑information system}@}. <!--SR:!2026-12-31,271,340!2026-04-16,72,320!2026-04-12,68,320!2027-01-05,276,340!2026-12-26,267,340!2026-04-17,74,320!2027-01-27,294,340!2026-12-25,266,340-->
 
 Over {@{five decades}@} the language has {@{branched into several dialects}@}: {@{Common Lisp (full–blown), Scheme (minimalist teaching language)}@}, {@{Racket, Clojure on the JVM, and Elisp for Emacs}@}. The version used here is {@{a small subset of Scheme}@}. Compared with Scala, Lisp has {@{no complex syntax, no static types}@}, builds {@{everything from cons cells, and treats programs as lists that can be manipulated by code}@}. <!--SR:!2026-04-13,69,320!2026-04-11,68,320!2026-04-18,74,320!2026-12-25,266,340!2026-12-06,254,330!2026-04-13,69,320!2027-01-05,276,340-->
 
@@ -264,7 +264,7 @@ Finally, {@{treating programs as data}@} enables {@{powerful macro systems and m
 
 ## evaluator
 
-{@{The evaluator for Scheme--}@} is {@{a small interpreter written in Scala}@} that takes {@{a value of type `Data` (a number, string, symbol or list)}@} and returns {@{another `Data`}@}. For instance, evaluating {@{`List('*, 2, 7)`}@} yields {@{the numeric literal `14`}@}. It can be implemented by {@{a recursive function that walks the abstract syntax tree of a Scheme-- expression}@} and produces {@{a `Data` value}@}. It takes two arguments: {@{the expression to evaluate and an `Environment`}@}. <!--SR:!2026-04-14,70,320!2026-12-24,264,340!2026-04-18,74,320!2026-04-14,70,320!2026-04-15,71,320!2026-04-08,65,320!2026-12-21,263,340!2026-12-26,266,340!2026-12-19,259,340-->
+{@{The evaluator for Scheme--}@} is {@{a small interpreter written in Scala}@} that takes {@{a value of type `Data` (a number, string, symbol or list)}@} and returns {@{another `Data`}@}. For instance, evaluating {@{`List('*, 2, 7)`}@} yields {@{the numeric literal `14`}@}. It can be implemented by {@{a recursive function that walks the abstract syntax tree of a Scheme-- expression}@} and produces {@{a `Data` value}@}. It takes two arguments: {@{the expression to evaluate and an `Environment`}@}. <!--SR:!2026-04-14,70,320!2026-12-24,264,340!2026-04-18,74,320!2026-04-14,70,320!2026-04-15,71,320!2027-01-27,294,340!2026-12-21,263,340!2026-12-26,266,340!2026-12-19,259,340-->
 
 ### environment
 
@@ -280,7 +280,7 @@ Finally, {@{treating programs as data}@} enables {@{powerful macro systems and m
 > ```
 <!--SR:!2027-01-12,281,340!2026-12-28,268,340!2026-04-17,74,320-->
 
-{@{A simple implementation}@} uses {@{a linked list of bindings, similar to a `List`}@}. {@{The class `Environment`}@} is defined as an abstract base that returns {@{a value for a name or throws if the name is unknown}@}. {@{Each call to `extend` (later extended to `extendRec`)}@} creates {@{a new environment whose latest binding shadows any previous one}@}. <!--SR:!2026-12-28,268,340!2026-12-26,267,340!2026-04-12,68,320!2026-04-16,72,320!2026-04-18,74,320!2026-04-08,65,320-->
+{@{A simple implementation}@} uses {@{a linked list of bindings, similar to a `List`}@}. {@{The class `Environment`}@} is defined as an abstract base that returns {@{a value for a name or throws if the name is unknown}@}. {@{Each call to `extend` (later extended to `extendRec`)}@} creates {@{a new environment whose latest binding shadows any previous one}@}. <!--SR:!2026-12-28,268,340!2026-12-26,267,340!2026-04-12,68,320!2026-04-16,72,320!2026-04-18,74,320!2027-01-27,294,340-->
 
 > [!example] __environment implementation__
 >
@@ -380,7 +380,7 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 > ```
 <!--SR:!2026-04-13,70,320!2026-04-16,72,320-->
 
-{@{__`lambda`__}@} creates {@{a closure that remembers the surrounding environment}@}. <!--SR:!2026-12-23,264,340!2026-04-08,65,320-->
+{@{__`lambda`__}@} creates {@{a closure that remembers the surrounding environment}@}. <!--SR:!2026-12-23,264,340!2027-01-27,294,340-->
 
 > [!example] __`lambda` special form__
 >
@@ -539,7 +539,7 @@ With {@{the newly defined `extendRec`}@}, {@{a `def` is evaluated}@} as <!--SR:!
 
 ### global environment  
 
-The interpreter starts from {@{a _global_ environment}@} that contains {@{the built-in operators and constants used by most programs}@}. It is built by {@{chaining calls to `extend` on an empty base}@}: <!--SR:!2026-04-17,74,320!2026-12-25,267,340!2026-04-08,65,320-->
+The interpreter starts from {@{a _global_ environment}@} that contains {@{the built-in operators and constants used by most programs}@}. It is built by {@{chaining calls to `extend` on an empty base}@}: <!--SR:!2026-04-17,74,320!2026-12-25,267,340!2027-01-27,294,340-->
 
 > [!example] __minimal global env__
 >
@@ -556,7 +556,7 @@ The interpreter starts from {@{a _global_ environment}@} that contains {@{the bu
 >   .extend("cons", Closure { case List(h, t) => h :: asList(t) })
 >   // ...
 > ```
-<!--SR:!2026-04-12,69,320!2026-04-08,65,320!2026-04-16,72,320-->
+<!--SR:!2026-04-12,69,320!2027-01-27,294,340!2026-04-16,72,320-->
 
 {@{The environment}@} maps {@{identifiers such as `+` or `*`}@} to {@{`Closure` objects}@} that know {@{how to perform the corresponding operation}@}. <!--SR:!2026-04-13,69,320!2026-04-12,68,320!2026-04-16,72,320!2026-04-17,74,320-->
 
@@ -573,7 +573,7 @@ To evaluate {@{a program}@}, {@{the function `evaluate`}@} is called with {@{an 
 > ```
 <!--SR:!2026-04-18,74,320!2026-04-14,70,320!2026-04-13,70,320!2026-12-20,261,340!2026-12-20,260,340-->
 
-{@{A convenience overload}@} lets {@{a user enter Scheme code as a string}@}: <!--SR:!2026-04-08,65,320!2026-04-11,68,320-->
+{@{A convenience overload}@} lets {@{a user enter Scheme code as a string}@}: <!--SR:!2027-01-27,294,340!2026-04-11,68,320-->
 
 > [!example] __string evaluation interface__
 >

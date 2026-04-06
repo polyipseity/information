@@ -246,7 +246,7 @@ The content is in teaching order.
   - accounts receivable vs. notes receivable ::@:: The former are connected to credit sale on open account i.e., no formal promissory notes. The latter has formal promissory notes with specified terms. <!--SR:!2026-09-30,535,403!2026-08-15,495,403-->
     - [accounts receivable](../../../../general/accounts%20receivable.md)
     - [notes receivable](../../../../general/notes%20receivable.md) ::@:: It represents claims for which formal instruments of credit are issued as evidence of debt, such as a promissory note. <!--SR:!2028-06-14,1005,376!2026-08-14,494,403-->
-  - trade receivable vs. non-trade receivable ::@:: The former is connected to normal course of business for credit sale of merchandise or services. The latter is connected to other than normal sale of merchandise or services. <!--SR:!2026-08-05,488,403!2026-04-08,385,383-->
+  - trade receivable vs. non-trade receivable ::@:: The former is connected to normal course of business for credit sale of merchandise or services. The latter is connected to other than normal sale of merchandise or services. <!--SR:!2026-08-05,488,403!2031-10-19,2020,403-->
   - current receivable vs. non-current receivable ::@:: It depends on when the cash is expected to be collected. Current usually means within 1 year. <!--SR:!2026-06-24,453,396!2026-10-09,542,403-->
 - [bad debt](../../../../general/bad%20debt.md) ::@:: It is a monetary amount owed to a creditor that is unlikely to be paid and for which the creditor is not willing to take action to collect for various reasons. <!--SR:!2026-08-29,506,396!2030-04-19,1580,403-->
   - [bad debt](../../../../general/bad%20debt.md) / accounting ::@:: There are two methods: direct write off method (non-GAAP) and allowance method (GAAP). <!--SR:!2026-06-29,457,396!2026-09-25,530,403-->
@@ -292,7 +292,7 @@ The content is in teaching order.
 - [inventory turnover](../../../../general/inventory%20turnover.md) ::@:: $$\frac {\text{cost of goods sold} } {\text{average inventory at cost} }$$ <p> Average inventory at cost is simply the average of the value of starting inventory and ending inventory. It is not time-weighted. <!--SR:!2027-01-30,604,363!2031-01-07,1781,396-->
   - inventory turnover / interpretation ::@:: This ratio reflects how many times average inventory was produced or purchased and sold during the period. <p> A higher ratio indicates that inventory moves more quickly (strong sales), thus reducing storage & obsolescence costs. <p> Caution: it could also mean ineffective buying (or without a good buying plan to meet the customers' demand). <!--SR:!2028-05-28,991,376!2027-05-23,689,363-->
   - average days to sell inventory ::@:: $$\frac {365} {\text{inventory turnover} }$$ <!--SR:!2026-08-09,489,403!2031-09-23,1998,403-->
-    - average days to sell inventory / interpretation ::@:: This ratio indicates the average time it takes to produce/buy and deliver inventory to customers, i.e., to change inventory to COGS. <!--SR:!2031-06-09,1913,403!2026-04-08,385,383-->
+    - average days to sell inventory / interpretation ::@:: This ratio indicates the average time it takes to produce/buy and deliver inventory to customers, i.e., to change inventory to COGS. <!--SR:!2031-06-09,1913,403!2031-10-18,2019,403-->
 - [inventory valuation](../../../../general/inventory%20valuation.md)
   - [perpetual inventory](../../../../general/perpetual%20inventory.md)
     - perpetual inventory / accounting ::@:: Purchased goods are directly added to asset "Inventory" on purchase. Sold goods are removed from asset "Inventory" on sale. <!--SR:!2028-06-25,1027,383!2030-04-17,1578,403-->
@@ -485,7 +485,7 @@ The content is in teaching order.
     - investing activities / inflows ::@:: - sale or disposal of property, plant and equipment <br/> - sale or maturity of investments in securities <br/> - investment related interest income <!--SR:!2031-04-11,1865,403!2027-03-06,622,356-->
     - investing activities / outflows ::@:: - purchase of property, plant and equipment <br/> - purchase of investments in securities <!--SR:!2031-08-24,1973,403!2026-04-13,371,383-->
   - financing activities ::@:: Cash inflows and outflows related to external sources of financing (owners and creditors) for the enterprise. <!--SR:!2028-08-31,1080,383!2028-07-29,1055,383-->
-    - financing activities / inflows ::@:: - borrowings on notes, mortgages, bonds, etc. from creditors <br/> - issuing stock to owners <!--SR:!2026-04-08,385,383!2030-07-16,1645,403-->
+    - financing activities / inflows ::@:: - borrowings on notes, mortgages, bonds, etc. from creditors <br/> - issuing stock to owners <!--SR:!2031-10-17,2018,403!2030-07-16,1645,403-->
     - financing activities / outflows ::@:: - repayment of principal to creditors <br/> - repurchasing stock from owners <br/> - dividends to owners <br/> - financing related interest expense <!--SR:!2031-04-09,1846,403!2028-03-25,875,363-->
 
 ## week 11 lecture 2

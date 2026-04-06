@@ -19,7 +19,7 @@ The framework consists of 4 aspects: {@{_people_, _process_, _technology_, and _
 - _people_ ::@:: how hiring, organization structure, people, roles, skills, etc. change <!--SR:!2030-06-14,1597,310!2026-04-13,501,310-->
 - _process_ ::@:: how internal and external organization activities change <!--SR:!2027-03-06,753,330!2031-02-02,1842,330-->
 - _technology_ ::@:: technologies necessary for the change <!--SR:!2030-02-20,1499,310!2028-06-27,1146,350-->
-- _governance_ ::@:: key performance indicators (KPIs), persons responsible for collecting the KPIs, and interpretation of the KPIs <!--SR:!2026-04-08,468,310!2029-03-25,1365,350-->
+- _governance_ ::@:: key performance indicators (KPIs), persons responsible for collecting the KPIs, and interpretation of the KPIs <!--SR:!2031-10-07,2008,330!2029-03-25,1365,350-->
 
 ## extensions
 

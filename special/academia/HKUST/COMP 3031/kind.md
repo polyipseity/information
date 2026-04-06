@@ -39,11 +39,11 @@ In Scala 3, {@{a _higher‑kinded type_}@} is written {@{`F[_]`}@} and represent
 > foo[List, Int](_ :: Nil, 1)          // List(1)
 > foo[Option, String](Some(_), "fuel") // Option("fuel")
 > ```
-<!--SR:!2026-11-16,246,330!2026-11-26,254,330!2026-04-08,67,310!2026-09-09,181,310-->
+<!--SR:!2026-11-16,246,330!2026-11-26,254,330!2027-01-22,289,330!2026-09-09,181,310-->
 
 ## type functions
 
-Scala 3 also supports {@{_type functions_}@} written as {@{`[X] =>> ...`}@}. They are equivalent to {@{a type alias with type parameters of its own}@}: <!--SR:!2027-01-05,281,330!2027-01-25,294,330!2026-04-08,67,310-->
+Scala 3 also supports {@{_type functions_}@} written as {@{`[X] =>> ...`}@}. They are equivalent to {@{a type alias with type parameters of its own}@}: <!--SR:!2027-01-05,281,330!2027-01-25,294,330!2027-01-20,287,330-->
 
 > [!example] __type functions__
 >
@@ -55,7 +55,7 @@ Scala 3 also supports {@{_type functions_}@} written as {@{`[X] =>> ...`}@}. The
 > ```
 <!--SR:!2026-04-09,74,330!2026-04-10,75,330!2026-04-11,76,330-->
 
-Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accepts {@{types as arguments and output a type}@}. <!--SR:!2026-04-16,75,330!2026-04-08,73,330!2026-04-09,74,330-->
+Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accepts {@{types as arguments and output a type}@}. <!--SR:!2026-04-16,75,330!2027-03-01,327,350!2026-04-09,74,330-->
 
 ## monad example
 
@@ -161,9 +161,9 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     def map[B](f: A => B): F[B] = ap(pure(f))(fa)
 > ```
 >
-> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2027-01-22,291,330!2026-11-16,246,330!2026-09-04,177,310!2026-12-18,266,330!2026-12-28,274,330!2026-04-08,67,310!2027-01-13,287,330!2026-12-07,257,330!2026-09-22,182,310!2026-11-03,235,330-->
+> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2027-01-22,291,330!2026-11-16,246,330!2026-09-04,177,310!2026-12-18,266,330!2026-12-28,274,330!2027-01-21,288,330!2027-01-13,287,330!2026-12-07,257,330!2026-09-22,182,310!2026-11-03,235,330-->
 
-{@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}: <!--SR:!2027-01-10,285,330!2026-04-08,67,310!2026-09-07,175,310!2026-12-23,270,330-->
+{@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}: <!--SR:!2027-01-10,285,330!2027-01-18,285,330!2026-09-07,175,310!2026-12-23,270,330-->
 
 > [!example] __traverse__
 >
@@ -197,9 +197,9 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 > ```
 <!--SR:!2026-12-30,276,330!2026-12-14,263,330!2027-01-04,280,330!2026-12-30,276,330-->
 
-{@{`m`}@} is {@{a type constructor of kind `* → *`}@}; {@{the two methods}@} capture {@{the same laws that Scala’s `Monad[F[_]]` encodes}@}. <!--SR:!2026-10-23,204,310!2026-10-29,230,330!2026-04-08,67,310!2027-01-15,289,330-->
+{@{`m`}@} is {@{a type constructor of kind `* → *`}@}; {@{the two methods}@} capture {@{the same laws that Scala’s `Monad[F[_]]` encodes}@}. <!--SR:!2026-10-23,204,310!2026-10-29,230,330!2027-01-27,294,330!2027-01-15,289,330-->
 
-{@{In _OCaml_}@} there are {@{no first‑class type classes}@}, but {@{the same idea can be encoded with modules}@}: <!--SR:!2026-04-08,67,310!2027-01-16,290,330!2026-12-17,265,330-->
+{@{In _OCaml_}@} there are {@{no first‑class type classes}@}, but {@{the same idea can be encoded with modules}@}: <!--SR:!2027-01-26,293,330!2027-01-16,290,330!2026-12-17,265,330-->
 
 > [!example] __OCaml monad module__
 >
@@ -214,6 +214,6 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 > ```
 <!--SR:!2026-12-10,259,330!2026-11-17,246,330!2027-01-23,292,330-->
 
-{@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2027-01-05,281,330!2027-01-10,285,330!2026-11-23,251,330!2026-04-08,67,310-->
+{@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2027-01-05,281,330!2027-01-10,285,330!2026-11-23,251,330!2027-01-19,286,330-->
 
 {@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!2026-11-10,241,330!2026-10-31,232,330!2026-12-10,255,330!2027-01-10,285,330!2026-12-09,259,330!2026-10-28,229,330!2026-11-21,250,330!2026-11-16,245,330-->

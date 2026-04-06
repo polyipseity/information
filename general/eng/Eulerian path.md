@@ -43,7 +43,7 @@ For {@{the existence of Eulerian trails}@} it is {@{necessary that zero or two v
 
 {@{An __Eulerian cycle__,<sup>[\[note 1\]](#^note-1)</sup> also called an __Eulerian circuit__ or __Euler tour__}@}, in {@{an undirected graph is a [cycle](cycle%20(graph%20theory).md) that uses each edge exactly once}@}. If {@{such a cycle exists}@}, the graph is {@{called __Eulerian__ or __unicursal__}@}.<sup>[\[4\]](#^ref-4)</sup> {@{The term "Eulerian graph"}@} is also sometimes {@{used in a weaker sense to denote a graph where every vertex has even degree}@}. For {@{finite [connected graphs](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs) the two definitions are equivalent}@}, while {@{a possibly unconnected graph is Eulerian in the weaker sense}@} {@{if and only if each connected component has an Eulerian cycle}@}. <!--SR:!2031-02-16,1814,382!2031-06-19,1912,382!2031-05-25,1893,382!2031-04-28,1871,382!2029-03-11,1228,362!2026-07-26,452,322!2028-08-15,1055,350!2031-07-08,1928,382!2030-02-18,1419,362-->
 
-For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced with _[directed path](path%20(graph%20theory).md)_ and "cycle" with _[directed cycle](cycle%20(graph%20theory).md)_}@}. <!--SR:!2031-05-03,1875,382!2026-04-08,398,362-->
+For {@{[directed graphs](directed%20graph.md)}@}, "path" has to be {@{replaced with _[directed path](path%20(graph%20theory).md)_ and "cycle" with _[directed cycle](cycle%20(graph%20theory).md)_}@}. <!--SR:!2031-05-03,1875,382!2031-09-03,1974,382-->
 
 {@{The definition and properties of Eulerian trails, cycles and graphs}@} are {@{valid for [multigraphs](multigraph.md)}@} as well. <!--SR:!2030-08-31,1666,370!2029-10-03,1388,356-->
 

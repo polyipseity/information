@@ -96,7 +96,7 @@ tags:
 >
 > - solution: {@{3 units per hour}@}
 > - explanation: {@{For people, each unit takes 5+15 = 20&nbsp;minutes. Its capacity is 3 units per hour. For transporter, each unit takes 15&nbsp;minutes. Its capacity is 4\*3 = 12 units per hour. For machine, each unit takes 60&nbsp;minutes. Its capacity is 1\*20 = 20 units per hour. So people is the bottleneck resource, thus its capacity is the process capacity.}@}
-> - annotation: {@{The person resource is explicitly set to 1 person to simplify the calculations.}@} <!--SR:!2029-07-28,1219,350!2026-04-08,279,330!2029-08-15,1235,350-->
+> - annotation: {@{The person resource is explicitly set to 1 person to simplify the calculations.}@} <!--SR:!2029-07-28,1219,350!2029-10-05,1276,350!2029-08-15,1235,350-->
 
 <!-- markdownlint MD028 -->
 

@@ -20,7 +20,7 @@ tags:
 
 This technique is {@{most often used for initial access or for the first uplink burst}@} (e.g., {@{PRACH in LTE}@}). Because {@{there is no feedback loop}@}, the {@{power setting}@} can only be {@{as accurate as the channel‑state information available at the transmitter}@}. It provides a {@{quick, low‑overhead way}@} to obtain a {@{reasonable transmit power}@} before {@{any active communication link is established}@}. <!--SR:!2026-11-22,238,330!2026-12-03,247,330!2026-11-24,240,330!2026-04-10,67,310!2026-04-09,66,310!2026-11-10,227,330!2026-12-03,247,330!2026-12-16,259,330-->
 
-Its {@{effectiveness hinges on the assumption}@} that {@{uplink and downlink experience identical large‑scale fading phenomena}@}—such as {@{shadowing, blockage, or distance‑dependent path loss}@}. In {@{frequency division duplex (FDD) systems}@} this assumption often {@{fails because the two bands propagate differently}@}, leading to {@{mismatched fading statistics}@}. <!--SR:!2026-11-25,241,330!2026-12-11,254,330!2026-11-24,240,330!2026-12-11,254,330!2026-04-08,65,310!2026-11-19,236,330-->
+Its {@{effectiveness hinges on the assumption}@} that {@{uplink and downlink experience identical large‑scale fading phenomena}@}—such as {@{shadowing, blockage, or distance‑dependent path loss}@}. In {@{frequency division duplex (FDD) systems}@} this assumption often {@{fails because the two bands propagate differently}@}, leading to {@{mismatched fading statistics}@}. <!--SR:!2026-11-25,241,330!2026-12-11,254,330!2026-11-24,240,330!2026-12-11,254,330!2027-01-11,278,330!2026-11-19,236,330-->
 
 ## closed-loop power control  
 
@@ -32,7 +32,7 @@ Its {@{effectiveness hinges on}@} that {@{the feedback must be timely}@}; if the
 
 ## advantages and disadvantages
 
-{@{Power control}@} is {@{simple to implement}@} and can {@{effectively counteract path loss and shadowing}@} when used in an {@{open‑loop fashion}@}. {@{Closed‑loop schemes}@} can {@{adapt to very slow fading}@} with {@{modest feedback overhead}@}, which, if successful, reduces {@{the channel to a fixed‑gain AWGN link}@} and simplifies {@{modem design}@}. <!--SR:!2026-04-08,65,310!2026-04-10,67,310!2026-12-05,249,330!2026-11-25,241,330!2026-04-09,66,310!2026-11-18,235,330!2026-12-12,255,330!2026-11-24,240,330!2026-11-13,230,330-->
+{@{Power control}@} is {@{simple to implement}@} and can {@{effectively counteract path loss and shadowing}@} when used in an {@{open‑loop fashion}@}. {@{Closed‑loop schemes}@} can {@{adapt to very slow fading}@} with {@{modest feedback overhead}@}, which, if successful, reduces {@{the channel to a fixed‑gain AWGN link}@} and simplifies {@{modem design}@}. <!--SR:!2027-01-12,279,330!2026-04-10,67,310!2026-12-05,249,330!2026-11-25,241,330!2026-04-09,66,310!2026-11-18,235,330!2026-12-12,255,330!2026-11-24,240,330!2026-11-13,230,330-->
 
 On {@{the downside}@}, power control cannot {@{track fast Rayleigh fading}@}. {@{The requirement for a feedback channel}@} adds {@{overhead}@}, and when a mobile is {@{near a cell boundary}@}, {@{increased transmit power}@} can {@{worsen co‑channel interference (CCI)}@}. These limitations make power control less attractive for {@{scenarios demanding rapid adaptation or low-latency communication}@}. <!--SR:!2026-12-04,248,330!2026-12-09,252,330!2026-12-07,251,330!2026-12-04,248,330!2026-11-28,243,330!2027-01-02,272,330!2026-11-25,241,330!2027-01-07,275,330-->
 

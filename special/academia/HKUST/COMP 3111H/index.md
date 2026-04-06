@@ -845,7 +845,7 @@ The content is in teaching order.
     - test case / taxonomy / white-box ::@:: "_Testing-in-the-small_": Uses internal knowledge; verifies component logic, requires source code. <!--SR:!2026-05-23,160,438!2026-05-14,152,438-->
     - test case / taxonomy / black-box ::@:: "_Testing-in-the-large_": Tests based on specification; no source access needed. <!--SR:!2026-05-08,147,440!2026-05-23,160,440-->
     - test case / taxonomy / regression ::@:: Re-tests after _changes_ to ensure _no new defects appear_; mixes white and black box techniques, with more emphasized on white box. <!--SR:!2026-05-18,156,438!2026-05-14,152,438-->
-  - test case / documentation ::@:: recommended fields: name, description → target component, target operation → test type, test value\(s\) → verification \(expected result\), notes on verification <p> It takes a lot of time and effort to generate these information!! <!--SR:!2026-04-08,115,418!2028-01-15,648,438-->
+  - test case / documentation ::@:: recommended fields: name, description → target component, target operation → test type, test value\(s\) → verification \(expected result\), notes on verification <p> It takes a lot of time and effort to generate these information!! <!--SR:!2028-01-23,655,438!2028-01-15,648,438-->
     - test case / documentation / test type ::@:: black/white box; valid/invalid input/output; etc. <!--SR:!2026-05-22,159,438!2026-05-06,145,438-->
 - [white-box testing](../../../../general/white-box%20testing.md) ::@:: It is a method of software testing that tests internal structures or workings of an application, as opposed to its functionality (i.e. black-box testing). <!--SR:!2026-05-08,147,438!2026-05-23,160,438-->
   - white-box testing / strategies ::@:: basis path testing, condition testing, data flow testing, loop testing, etc. <!--SR:!2026-05-26,163,440!2026-05-25,162,438-->
@@ -969,7 +969,7 @@ The content is in teaching order.
     - COMP 3111H / lab 7 / test framework ::@:: Uses JUnit 5; students must migrate any existing JUnit 4 code to version 5. <!--SR:!2026-05-16,154,438!2026-05-26,163,440-->
     - COMP 3111H / lab 7 / run tests ::@:: Execute all tests via IntelliJ's built-in runner or the command line. Review the test report to confirm that every test passes (100% success). Generate a coverage report; at least 10% of lines should be covered by your tests. <!--SR:!2026-05-16,154,438!2026-05-13,151,440-->
     - COMP 3111H / lab 7 / test-driven development \(TDD\) ::@:: Tests are written before implementing the corresponding code. <p> Benefits include fewer bugs, improved collaboration, and tests that double as documentation. <!--SR:!2026-05-26,163,440!2026-05-23,160,438-->
-      - COMP 3111H / lab 7 / test-driven development / steps ::@:: 1. Write a test first. <br/> 2. Implement minimal logic to make the test pass. <br/> 3. Refactor both code and test for clarity while ensuring all tests remain green. <!--SR:!2026-04-08,115,420!2026-05-13,151,440-->
+      - COMP 3111H / lab 7 / test-driven development / steps ::@:: 1. Write a test first. <br/> 2. Implement minimal logic to make the test pass. <br/> 3. Refactor both code and test for clarity while ensuring all tests remain green. <!--SR:!2028-01-26,658,440!2026-05-13,151,440-->
 - assignment: [lab 7](assignments/lab%207/index.md)
 
 ## week 9 pre-lecture

@@ -278,7 +278,7 @@ An actor processes {@{its mailbox _sequentially_}@}. When {@{a message arrives}@
 >
 > If two messages {@{“inc” arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt `n`}@}. <!--SR:!2026-04-10,74,331!2026-04-10,74,331!2026-04-12,76,331!2026-04-12,76,331!2026-04-13,74,331-->
 
-If two messages {@{arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt the actor state}@}. The actor’s {@{single‑threaded model}@} turns {@{locking into simple sequencing}@}. <!--SR:!2026-04-14,75,331!2026-04-14,75,331!2026-04-12,76,331!2026-04-08,72,331!2026-04-12,76,331-->
+If two messages {@{arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt the actor state}@}. The actor’s {@{single‑threaded model}@} turns {@{locking into simple sequencing}@}. <!--SR:!2026-04-14,75,331!2026-04-14,75,331!2026-04-12,76,331!2027-03-02,328,351!2026-04-12,76,331-->
 
 ## entry point
 

@@ -222,8 +222,8 @@ The content is in teaching order.
   - production–possibility frontier / trade
     - production–possibility frontier / trade / exchange ratio
 - [market economy](../../../../general/market%20economy.md)
-  - market economy / price signal ::@:: How does market economy facilitate trade? It uses __price signal__ to exchange information between buyers and sellers. It allocates _scarce_ resources this way. <!--SR:!2026-06-10,468,391!2026-04-08,417,391-->
-  - market economy / market structure ::@:: classified by the number of sellers (and buyers) <!--SR:!2026-04-08,418,391!2026-05-28,457,391-->
+  - market economy / price signal ::@:: How does market economy facilitate trade? It uses __price signal__ to exchange information between buyers and sellers. It allocates _scarce_ resources this way. <!--SR:!2026-06-10,468,391!2032-05-16,2230,411-->
+  - market economy / market structure ::@:: classified by the number of sellers (and buyers) <!--SR:!2032-05-18,2232,411!2026-05-28,457,391-->
 - [scarcity](../../../../general/scarcity.md)
   - scarcity / fundamental questions ::@:: what, how, and for whom to produce <!--SR:!2026-04-19,426,391!2026-07-07,493,399-->
 - [supply and demand](../../../../general/supply%20and%20demand.md) ::@:: An economic model of price determination in a market. <!--SR:!2026-06-30,487,398!2026-08-22,531,399-->
@@ -811,7 +811,7 @@ The content is in teaching order.
 - [Bertrand competition](../../../../general/Bertrand%20competition.md) (untaught) ::@:: (untaught) It describes interactions among firms (sellers) that set prices and their customers (buyers) that choose quantities at the prices set. <!--SR:!2027-01-07,610,423!2027-08-25,799,443-->
 - oligopoly
   - oligopoly / collusion
-    - oligopoly / collusion / game theory ::@:: Actually this is similar to prisoners' dilemma. Draw a payoff table and see it is very familiar... (Extension: Draw a table with more than 2 choices for each firm.) <p> The fact that the equilibrium is to renegade is bad for oligopoly firms: they cannot achieve monopoly profits; but this is good for the society: the quantity produced is closer to the competitive equilibrium quantity. <!--SR:!2026-04-08,380,403!2027-09-25,829,443-->
+    - oligopoly / collusion / game theory ::@:: Actually this is similar to prisoners' dilemma. Draw a payoff table and see it is very familiar... (Extension: Draw a table with more than 2 choices for each firm.) <p> The fact that the equilibrium is to renegade is bad for oligopoly firms: they cannot achieve monopoly profits; but this is good for the society: the quantity produced is closer to the competitive equilibrium quantity. <!--SR:!2031-12-28,2090,423!2027-09-25,829,443-->
 - [cooperative game theory](../../../../general/cooperative%20game%20theory.md) ::@:: The above games we have described assume players cannot cooperate. However, this seems to violate our observations that "cooperation" is possible... <p> The hint is that, in the real world, such "games" are played over and over again. This is called a _repeated game_: A game that is repeated among the same players for many times, so long-term relationships are valuable. In repeated games, cooperations are more likely to occur. <!--SR:!2026-09-28,529,423!2026-10-08,538,423-->
   - [tit for tat](../../../../general/tit%20for%20tat.md) ::@:: It is an English saying meaning "equivalent retaliation". <p> In game theory, it means you play the cooperative strategy in the first round (try to reach the cooperative equilibrium). In the following rounds, if the other player cooperates/cheats in the previous round, you cooperate/cheat, copying the other player's strategy in previous round (punishment for cheating). <!--SR:!2027-01-25,610,423!2026-11-28,570,423-->
 - [questions § chapter 17 lecture](questions.md#chapter%2017%20lecture)

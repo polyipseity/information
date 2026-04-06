@@ -56,7 +56,7 @@ return await memorize_table(
 - [antacids](antacid.md)→::@::←control of [soil pH](soil%20pH.md) <!--SR:!2034-03-16,3014,338!2028-12-30,1278,298-->
 - control of [soil pH](soil%20pH.md)→::@::←production of [fertilizer](fertilizer.md) <!--SR:!2030-12-16,1714,258!2031-12-07,2078,278-->
 - production of [fertilizer](fertilizer.md)→::@::←[wastewater treatment](water%20treatment.md) <!--SR:!2029-01-31,1417,298!2030-03-03,1856,318-->
-- [wastewater treatment](water%20treatment.md)→::@::←_(end)_ <!--SR:!2026-09-18,906,330!2026-04-08,765,318-->
+- [wastewater treatment](water%20treatment.md)→::@::←_(end)_ <!--SR:!2026-09-18,906,330!2035-06-21,3361,338-->
 
 <!--/pytextgen-->
 
