@@ -2217,10 +2217,7 @@ def topic_note_redundant_filename_prefix(
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
     parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
-    if (
-        name in {"index.md", "questions.md", "journal entries.md"}
-        or "questions" in parent_parts
-    ):
+    if name in {"index.md", "questions.md"} or "questions" in parent_parts:
         return errors
 
     stem = ctx.path.stem

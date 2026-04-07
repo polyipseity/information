@@ -386,7 +386,9 @@ then flashcards immediately after each section.
 
 ### Structure and naming
 
-- Use QA cards, not cloze, in topic notes other than `journal entries.md`.
+- Use QA cards by default in topic notes. Exception: accounting journal-entry
+  worked examples embedded in topical notes may use cloze inside quoted
+  scenarios, tables, calculations, and short explanations.
 - Prefer concise, concept-based headings rather than mechanically copying slide
   titles.
 - Use subsections only when they improve structure; if a subsection is tiny,
@@ -413,22 +415,31 @@ then flashcards immediately after each section.
 - When the prose gains a substantial cluster of distinctions, examples, or
   counterexamples, add new flashcards instead of overstuffing one old card.
 
-### Journal entries note for accounting courses
+### Journal entry examples in accounting topic notes
 
-Accounting courses should maintain a dedicated `journal entries.md` topic note.
+Accounting courses should place each journal-entry example in the most specific
+topical note rather than defaulting to a course-wide `journal entries.md`
+collector.
 
-- One journal-entry type per `##` section.
-- Each worked example lives in a single blockquote: scenario, journal-entry
-  table, then optional explanation or calculation.
+- Keep the explanatory concept prose and the worked journal-entry examples in
+  the same topical section whenever practical.
+- A worked example should usually live in a single blockquote: scenario,
+  journal-entry table, then optional explanation or calculation.
+- If one concept naturally needs several related entries (for example warranty
+  provision plus settlement, or bond issue between coupon dates plus first
+  coupon-date adjustment), keep that cluster together in the same topical
+  section.
 - Use markdown tables with right-aligned Dr/Cr columns.
 - Wrap the first-column header description and each account name in clozes.
-- Mask all debit and credit amounts with clozes and use `&nbsp;` as the
-  thousands separator.
+- Mask all debit and credit amounts in the worked example with clozes and use
+  `&nbsp;` as the thousands separator.
 - Keep punctuation outside the closing cloze token: `{@{text}@}.`
 - Warranty examples should allow settlement credits such as Cash, Inventory, or
   Accrued Payroll when appropriate.
 - Service-type warranty examples should reflect revenue recognized over the
   service period rather than at the assurance-warranty stage.
+- When distributing entries into topic notes, also update the relevant
+  `index.md` links so readers are routed directly to the topical home.
 
 ## Questions pages
 
@@ -536,8 +547,9 @@ Core rules:
   multiline clozes, and no `}}` pseudo-closing token.
 - Do **not** place clozes inside existing math delimiters. If you want to hide
   an equation, cloze the entire equation from outside.
-- Topic notes other than `journal entries.md` should prefer QA cards over cloze
-  in prose.
+- Topic notes should prefer QA cards over cloze in prose, except that embedded
+  accounting journal-entry worked examples may use cloze in their quoted
+  scenarios, tables, calculations, and short explanations.
 - Flashcards must be self-contained. Repeat givens, hypotheses, notation, and
   any relevant diagrams if the card would otherwise be ambiguous.
 - For mathematical prompts, LaTeX on the left-hand side is acceptable when it is

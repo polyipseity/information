@@ -898,6 +898,19 @@ def test_topic_note_redundant_filename_prefix():
         make_ctx(questions_txt, Path("/tmp/course/questions/week 2 tutorial.md"))
     )
 
+    journal_entries_txt = (
+        "# journal entries\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- journal entries / issuance ::@:: details\n"
+    )
+    msgs_journal_entries = topic_note_redundant_filename_prefix(
+        make_ctx(journal_entries_txt, Path("/tmp/course/journal entries.md"))
+    )
+    assert (
+        msgs_journal_entries
+        and msgs_journal_entries[0].rule_id == "topic_note_redundant_filename_prefix"
+    )
+
 
 def test_latex_spacing_before_paren():
     """Spacing rule allows '(' and '{' before dollar but not letters directly."""
