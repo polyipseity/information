@@ -77,12 +77,12 @@ Flashcards for this section are as follows:
 - non-cash share issue: primary measurement basis ::@:: Use the fair value of the goods or services received, if it can be measured reliably.
 - non-cash share issue: when to use share fair value? ::@:: When the fair value of the asset/service is not reliably measurable but the fair value of the shares (e.g. market price) is known.
 - non-cash share issue: last resort measurement ::@:: Use discounted cash flows (present value of expected future cash flows) when neither asset/service fair value nor share fair value is observable.
-- non-cash share issue (patent): general entry structure ::@:: Dr Patents (or other asset) at fair value; Cr Share capital — ordinary at par; Cr Share premium — ordinary for the excess over par.
+- non-cash share issue (patent): general entry structure ::@:: Dr _Patents_ (or other asset) at fair value; Cr _Share capital — ordinary_ at par; Cr _Share premium — ordinary_ for the excess over par.
 - non-cash share issue: measurement hierarchy in examples ::@:: Use (1) fair value of goods/services received, (2) if unavailable, fair value of shares issued, and (3) if neither is observable, discounted cash flow value of the asset/service.
-- non-cash share issue example (Scenario 1): patent for 10 000 shares, share FV 140 000, par 10—entry? ::@:: Dr Patents 140 000; Cr Share capital — ordinary 100 000; Cr Share premium — ordinary 40 000.
-- non-cash share issue example (Scenario 2): patent FV 150 000 for 10 000 shares, par 10—entry? ::@:: Dr Patents 150 000; Cr Share capital — ordinary 100 000; Cr Share premium — ordinary 50 000.
-- non-cash share issue example (Scenario 3): patent DCF value 125 000 for 10 000 shares, par 10—entry? ::@:: Dr Patents 125 000; Cr Share capital — ordinary 100 000; Cr Share premium — ordinary 25 000.
-- non-cash share issue: fair value below par—how to record? ::@:: Dr asset at fair value; Dr _Share premium — ordinary_ for the shortfall (debit balance); Cr _Share capital — ordinary_ at par. Example: patent FV 85 000, par total 100 000 → Dr Patents 85 000, Dr _Share premium — ordinary_ 15 000, Cr _Share capital — ordinary_ 100 000. Permissible under IFRS.
+- non-cash share issue example (Scenario 1): patent for 10 000 shares, share FV 140 000, par 10—entry? ::@:: Dr _Patents_ 140 000; Cr _Share capital — ordinary_ 100 000; Cr _Share premium — ordinary_ 40 000.
+- non-cash share issue example (Scenario 2): patent FV 150 000 for 10 000 shares, par 10—entry? ::@:: Dr _Patents_ 150 000; Cr _Share capital — ordinary_ 100 000; Cr _Share premium — ordinary_ 50 000.
+- non-cash share issue example (Scenario 3): patent DCF value 125 000 for 10 000 shares, par 10—entry? ::@:: Dr _Patents_ 125 000; Cr _Share capital — ordinary_ 100 000; Cr _Share premium — ordinary_ 25 000.
+- non-cash share issue: fair value below par—how to record? ::@:: Dr _Patents_ at fair value; Dr _Share premium — ordinary_ for the shortfall (debit balance); Cr _Share capital — ordinary_ at par. Example: patent FV 85 000, par total 100 000 → Dr _Patents_ 85 000, Dr _Share premium — ordinary_ 15 000, Cr _Share capital — ordinary_ 100 000. Permissible under IFRS.
 
 ## share issue costs: direct versus indirect
 
