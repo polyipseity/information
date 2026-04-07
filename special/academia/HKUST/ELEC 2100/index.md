@@ -121,11 +121,11 @@ The four Fourier notes are organized by two axes: continuous time versus discret
 - venue: Lecture Theater D
 - topic: course introduction; signals, systems, and core classifications
 - ELEC 2100
-  - ELEC 2100 / course scope ::@:: ELEC 2100 is a foundation course on signals and systems covering Fourier analysis, Laplace transform, LTI systems, sampling, differential/difference-equation models, and MATLAB-based analysis.
-  - ELEC 2100 / curricular role ::@:: ELEC 2100 is positioned as a foundation for later study in automatic control, digital signal processing, and artificial intelligence.
-  - ELEC 2100 / transform-domain motivation ::@:: Transform methods are introduced because they turn difficult signal-and-system operations into more structured algebraic or frequency-domain problems.
-  - ELEC 2100 / intended learning outcomes ::@:: Students should describe continuous-time and discrete-time signals, analyze LTI systems, and later apply the theory to sampling, differential/difference-equation models, and engineering communication problems.
-  - ELEC 2100 / assessment structure ::@:: The introductory deck gives the main weights as homework 18%, labs 12%, online quizzes 5%, midterm 25%, and final 40%.
+  - ELEC 2100 / course scope ::@:: ELEC 2100 is a foundation course on signals and systems covering Fourier analysis, Laplace transform, LTI systems, sampling, differential/difference-equation models, and MATLAB-based analysis. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+  - ELEC 2100 / curricular role ::@:: ELEC 2100 is positioned as a foundation for later study in automatic control, digital signal processing, and artificial intelligence. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+  - ELEC 2100 / transform-domain motivation ::@:: Transform methods are introduced because they turn difficult signal-and-system operations into more structured algebraic or frequency-domain problems. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+  - ELEC 2100 / intended learning outcomes ::@:: Students should describe continuous-time and discrete-time signals, analyze LTI systems, and later apply the theory to sampling, differential/difference-equation models, and engineering communication problems. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+  - ELEC 2100 / assessment structure ::@:: The introductory deck gives the main weights as homework 18%, labs 12%, online quizzes 5%, midterm 25%, and final 40%. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
 - [signal](signal.md)
   - [§ signal meaning and representation](signal.md#signal%20meaning%20and%20representation)
   - [§ signal classifications](signal.md#signal%20classifications)

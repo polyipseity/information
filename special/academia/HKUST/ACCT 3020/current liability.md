@@ -19,7 +19,7 @@ A liability has three essential components under the conceptual framework. First
 
 Flashcards for this section are as follows:
 
-- liability three components ::@:: Present obligation; arising from past events; settlement expected to require an outflow of resources (e.g. cash).
+- liability three components ::@:: Present obligation; arising from past events; settlement expected to require an outflow of resources (e.g. cash). <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
 - present obligation (liability) ::@:: The entity is obliged to transfer resources now, even if the actual payment occurs later.
 - outflow of resources (liability) ::@:: Settlement is expected to require a transfer of cash or goods from the entity.
 - past event and liability ::@:: A liability cannot exist without a past event that created the present obligation (e.g. borrowing or purchase on credit).
@@ -35,7 +35,7 @@ Current liabilities are those expected to be settled within the entity's __norma
 
 Flashcards for this section are as follows:
 
-- current liability two criteria ::@:: (1) Settled within the normal operating cycle, or (2) expected to be settled within 12 months after the reporting date; if either is met, the liability is current.
+- current liability two criteria ::@:: (1) Settled within the normal operating cycle, or (2) expected to be settled within 12 months after the reporting date; if either is met, the liability is current. <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
 - operating cycle definition ::@:: The time from purchasing inventory through selling it, collecting cash from customers, and paying suppliers.
 - operating cycle and current liability ::@:: The normal operating cycle (e.g. purchase inventory → sell → collect cash → pay supplier) is used first; liabilities due within that period are current.
 - operating cycle example (six months) ::@:: 1 month receive goods, 2 months sell, 1 month collect cash, 2 months pay supplier; liability due within that window is current.
@@ -55,8 +55,8 @@ Flashcards for this section are as follows:
 - accounts payable vs notes payable (contract) ::@:: Accounts payable: no stated interest, short terms; notes payable: separate contract with principal, interest rate, and due date.
 - accounts payable: key features ::@:: Amounts owed to suppliers with no stated interest and short credit terms (e.g. 30 days).
 - notes payable: key features ::@:: Arise from a separate contract (a note) that states the principal, interest rate, and due date.
-- when does supplier require AP to NP conversion? ::@:: When the amount is owed for too long; supplier may require conversion to a note payable (with interest).
-- conversion of AP to NP: journal entry at conversion? ::@:: Dr Accounts payable, Cr Notes payable.
+- when does supplier require AP to NP conversion? ::@:: When the amount is owed for too long; supplier may require conversion to a note payable (with interest). <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
+- conversion of AP to NP: journal entry at conversion? ::@:: Dr Accounts payable, Cr Notes payable. <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
 
 ### short-term interest-bearing notes
 
@@ -67,10 +67,10 @@ When the entity borrows cash and signs a short-term interest-bearing note, it re
 Flashcards for this section are as follows:
 
 - short-term interest-bearing note: Given principal P, annual rate r, months to year-end m, how is interest recorded at year-end? ::@:: Accrue interest P × r × m/12; Dr Interest expense, Cr Interest payable.
-- short-term interest-bearing note: journal entry at borrowing? ::@:: Dr Cash, Cr Notes payable.
-- short-term interest-bearing note: journal entry at settlement? ::@:: Dr Notes payable, Dr Interest payable, Cr Cash.
+- short-term interest-bearing note: journal entry at borrowing? ::@:: Dr Cash, Cr Notes payable. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
+- short-term interest-bearing note: journal entry at settlement? ::@:: Dr Notes payable, Dr Interest payable, Cr Cash. <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
 - stated interest rate is usually ::@:: Annual; interest for a fraction of a year is prorated (e.g. principal × rate × months/12).
-- why accrue interest at year-end? ::@:: Under the accrual concept, interest expense is recognised in the period it is incurred, even if cash is not yet paid.
+- why accrue interest at year-end? ::@:: Under the accrual concept, interest expense is recognised in the period it is incurred, even if cash is not yet paid. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
 
 ### conversion of accounts payable to notes payable
 
@@ -90,10 +90,10 @@ Some notes are issued at a discount: the entity receives less cash than the amou
 
 Flashcards for this section are as follows:
 
-- long-term note implicit interest: why credit Notes payable not Interest payable? ::@:: So the note's carrying amount increases to the maturity amount; if credited to Interest payable the note would stay at the original amount.
-- implicit (embedded) interest ::@:: The difference when a note is issued at discount (cash received &lt; maturity amount); allocated as interest expense over the term.
-- long-term note at discount: what is the difference between cash received and maturity amount? ::@:: Implicit (embedded) interest; allocated as interest expense over the term, Dr Interest expense, Cr Notes payable.
-- long-term note with implicit interest: journal entry at maturity? ::@:: Dr Notes payable (full maturity amount), Cr Cash.
+- long-term note implicit interest: why credit Notes payable not Interest payable? ::@:: So the note's carrying amount increases to the maturity amount; if credited to Interest payable the note would stay at the original amount. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
+- implicit (embedded) interest ::@:: The difference when a note is issued at discount (cash received &lt; maturity amount); allocated as interest expense over the term. <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
+- long-term note at discount: what is the difference between cash received and maturity amount? ::@:: Implicit (embedded) interest; allocated as interest expense over the term, Dr Interest expense, Cr Notes payable. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
+- long-term note with implicit interest: journal entry at maturity? ::@:: Dr Notes payable (full maturity amount), Cr Cash. <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
 - long-term note at discount: example 75&nbsp;000 received, 81&nbsp;000 at maturity ::@:: 6&nbsp;000 is implicit interest over 12 months; allocate over term (e.g. 6&nbsp;000 × 3/12 for three months), Dr Interest expense, Cr Notes payable.
 
 ---
@@ -116,10 +116,10 @@ Flashcards for this section are as follows:
 
 - exclude from current liabilities refinancing ::@:: Both must hold: (1) expect to refinance on a long-term basis (e.g. extend due date or replace with long-term financing), (2) unconditional right to defer settlement.
 - covenants (refinancing) ::@:: Conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, minimum cash); make the right to defer conditional.
-- conditional right to defer ::@:: If the refinancing agreement has conditions (e.g. maintain current ratio), the right to defer is conditional and the liability stays current.
-- refinancing before vs after balance sheet date ::@:: Finalised before balance sheet date → may classify as long-term; finalised after → at reporting date no right to defer → current.
+- conditional right to defer ::@:: If the refinancing agreement has conditions (e.g. maintain current ratio), the right to defer is conditional and the liability stays current. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
+- refinancing before vs after balance sheet date ::@:: Finalised before balance sheet date → may classify as long-term; finalised after → at reporting date no right to defer → current. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
 - why does current vs long-term classification matter? ::@:: Moving debt to current can reduce the current ratio and trigger liquidity concerns, supplier demands, or breach of loan covenants.
-- what makes the right to defer settlement conditional? ::@:: Covenants or conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, or minimum cash); lender can demand repayment if breached.
+- what makes the right to defer settlement conditional? ::@:: Covenants or conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, or minimum cash); lender can demand repayment if breached. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
 
 ## income tax payable
 
@@ -144,9 +144,9 @@ Flashcards for this section are as follows:
 
 - compensated absence ::@:: Paid absence (e.g. vacation pay) that may be convertible to cash; recognised when earned (vested), even if paid later.
 - vesting period (compensated absence) ::@:: The required period (e.g. one year) the employee must work before being entitled to the benefit.
-- vested right ::@:: After the vesting period has passed, the employee has a right to the benefit; the entity recognises expense and liability when the right is earned.
+- vested right ::@:: After the vesting period has passed, the employee has a right to the benefit; the entity recognises expense and liability when the right is earned. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
 - vesting and vacation pay ::@:: If employees must work a required period before being entitled to vacation pay, that period is the vesting period; after vesting, the entity recognises expense and wages payable when the right is earned.
 - compensated absence: when does the entity recognise expense and liability? ::@:: When the right is earned (e.g. at end of vesting period), even if payment is in a later period.
-- vacation pay example: 20 weeks at 480/week earned (end of year 1)—journal entry? ::@:: Dr Salaries and wages expense 9&nbsp;600, Cr Wages payable 9&nbsp;600 (i.e. 20 × 480).
+- vacation pay example: 20 weeks at 480/week earned (end of year 1)—journal entry? ::@:: Dr Salaries and wages expense 9&nbsp;600, Cr Wages payable 9&nbsp;600 (i.e. 20 × 480). <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
 - vacation pay example: Wages payable 9&nbsp;600 settled, employees paid at 540/week—journal entry? ::@:: Dr Wages payable 9&nbsp;600, Dr Salaries and wages expense (difference to current rate), Cr Cash; liability settled, remainder is expense of payment period.
-- vacation pay: when is it earned in example? ::@:: Employees earn two weeks at beginning of second year; company considers it earned during the first year.
+- vacation pay: when is it earned in example? ::@:: Employees earn two weeks at beginning of second year; company considers it earned during the first year. <!--SR:!2026-04-09,3,250!2000-01-01,1,250-->

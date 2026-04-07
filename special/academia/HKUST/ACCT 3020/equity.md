@@ -26,9 +26,9 @@ In all cases, the amount recorded for the asset or service equals the amount cre
 
 Flashcards for this section are as follows:
 
-- non-cash share issue: primary measurement basis ::@:: Use the fair value of the goods or services received, if it can be measured reliably.
-- non-cash share issue: when to use share fair value? ::@:: When the fair value of the asset/service is not reliably measurable but the fair value of the shares (e.g. market price) is known.
-- non-cash share issue: last resort measurement ::@:: Use discounted cash flows (present value of expected future cash flows) when neither asset/service fair value nor share fair value is observable.
+- non-cash share issue: primary measurement basis ::@:: Use the fair value of the goods or services received, if it can be measured reliably. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- non-cash share issue: when to use share fair value? ::@:: When the fair value of the asset/service is not reliably measurable but the fair value of the shares (e.g. market price) is known. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- non-cash share issue: last resort measurement ::@:: Use discounted cash flows (present value of expected future cash flows) when neither asset/service fair value nor share fair value is observable. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
 
 ## share issue costs: direct versus indirect
 
@@ -43,8 +43,8 @@ Direct share issue costs are deducted from equity: reduce share premium first (a
 
 Flashcards for this section are as follows:
 
-- direct share issue costs: examples and treatment ::@:: Underwriting, legal, accounting, and prospectus printing costs that relate specifically to a share issue; reduce share premium (and share capital if needed), not expensed.
-- indirect/allocated share issue costs: examples and treatment ::@:: Ongoing salaries or allocated overhead (e.g. investor relations, head office); not traceable to a specific issue, so expensed as incurred (e.g. administrative expense).
+- direct share issue costs: examples and treatment ::@:: Underwriting, legal, accounting, and prospectus printing costs that relate specifically to a share issue; reduce share premium (and share capital if needed), not expensed. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- indirect/allocated share issue costs: examples and treatment ::@:: Ongoing salaries or allocated overhead (e.g. investor relations, head office); not traceable to a specific issue, so expensed as incurred (e.g. administrative expense). <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
 
 ## preference shares: key features
 
@@ -79,12 +79,12 @@ However, even for cumulative preference shares, __dividends in arrears are not r
 
 Flashcards for this section are as follows:
 
-- preference vs ordinary shares: main economic difference ::@:: Preference shareholders have priority for dividends and often for liquidation proceeds; ordinary shareholders are residual claimants with voting control.
-- common features of preference shares ::@:: Fixed dividend, priority in dividends and liquidation, may be convertible or callable, often limited or no voting rights.
-- cumulative preference shares ::@:: If dividends are skipped in some years, the unpaid amounts (dividends in arrears) must be paid to preference shareholders before any ordinary dividend is paid in later years.
-- participating preference shares ::@:: After receiving their stated dividend (and any arrears if cumulative), participating preference shareholders also share in additional dividends with ordinary shareholders, typically in proportion to par value.
-- four preference share patterns: high-level allocation ::@:: Non-cumulative/non-participating: preference gets only this year's fixed dividend; cumulative/non-participating: pay arrears plus current fixed dividend before ordinary; non-cumulative/participating: pay fixed dividends on both classes, then share extra based on par; cumulative/participating: clear arrears and current preference, match current ordinary rate, then share any remaining dividend based on par.
-- dividends in arrears: liability or disclosure? ::@:: For cumulative preference shares, unpaid dividends accumulate as "dividends in arrears" and are disclosed in the notes, but no Dividends payable liability is recognised until the board declares the dividend.
+- preference vs ordinary shares: main economic difference ::@:: Preference shareholders have priority for dividends and often for liquidation proceeds; ordinary shareholders are residual claimants with voting control. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- common features of preference shares ::@:: Fixed dividend, priority in dividends and liquidation, may be convertible or callable, often limited or no voting rights. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- cumulative preference shares ::@:: If dividends are skipped in some years, the unpaid amounts (dividends in arrears) must be paid to preference shareholders before any ordinary dividend is paid in later years. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- participating preference shares ::@:: After receiving their stated dividend (and any arrears if cumulative), participating preference shareholders also share in additional dividends with ordinary shareholders, typically in proportion to par value. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- four preference share patterns: high-level allocation ::@:: Non-cumulative/non-participating: preference gets only this year's fixed dividend; cumulative/non-participating: pay arrears plus current fixed dividend before ordinary; non-cumulative/participating: pay fixed dividends on both classes, then share extra based on par; cumulative/participating: clear arrears and current preference, match current ordinary rate, then share any remaining dividend based on par. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- dividends in arrears: liability or disclosure? ::@:: For cumulative preference shares, unpaid dividends accumulate as "dividends in arrears" and are disclosed in the notes, but no Dividends payable liability is recognised until the board declares the dividend. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
 
 ## treasury shares (cost method)
 
@@ -101,9 +101,9 @@ Management often repurchases shares when they believe the shares are undervalued
 
 Flashcards for this section are as follows:
 
-- treasury shares (cost method): acquisition entry ::@:: Dr Treasury shares at cost, Cr Cash; Treasury shares is a contra-equity account, not an asset.
-- treasury shares reissued above cost: equity effect ::@:: Credit Treasury shares at cost and credit Share premium — treasury for the excess over cost.
-- treasury shares reissued below cost: equity effect ::@:: Debit Share premium — treasury first and then retained earnings for any remaining shortfall; no loss is recognised in profit or loss.
+- treasury shares (cost method): acquisition entry ::@:: Dr Treasury shares at cost, Cr Cash; Treasury shares is a contra-equity account, not an asset. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- treasury shares reissued above cost: equity effect ::@:: Credit Treasury shares at cost and credit Share premium — treasury for the excess over cost. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- treasury shares reissued below cost: equity effect ::@:: Debit Share premium — treasury first and then retained earnings for any remaining shortfall; no loss is recognised in profit or loss. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
 
 ## dividends: cash, property, liquidating, and share
 
@@ -134,12 +134,12 @@ Total equity is unchanged by a small share dividend, but the composition shifts 
 
 Flashcards for this section are as follows:
 
-- cash dividend: journal entries on declaration and payment ::@:: Date of declaration: Dr Retained earnings, Cr Dividends payable; date of payment: Dr Dividends payable, Cr Cash; no entry on date of record.
-- property dividend: two-step accounting ::@:: First remeasure the asset to fair value (recognise unrealised gain or loss); then Dr Retained earnings and Cr Property dividend payable at fair value, followed by Dr Property dividend payable and Cr Asset on distribution.
-- liquidating dividend: how to split? ::@:: Amount up to retained earnings is treated as a normal dividend; any excess is treated as a return of capital (reduce share premium first, then share capital).
-- share dividend (small): effect on equity ::@:: Total equity unchanged; Retained earnings decreases and Share capital increases by the par value of new shares via Ordinary share dividend distributable.
-- dividend types in this course ::@:: Cash dividends reduce total equity and working capital; property and liquidating dividends also reduce total equity; small share dividends do not change total equity but reclassify amounts within equity (Retained earnings to Share capital).
-- dividend calculations (overview) ::@:: Cash dividend = dividend per share × number of shares; property dividend measured at fair value of asset; liquidating dividend is split between Retained earnings (income portion) and Share premium/Share capital (return of capital); small share dividend amount = par value × number of new shares issued (e.g. % × existing shares × par).
+- cash dividend: journal entries on declaration and payment ::@:: Date of declaration: Dr Retained earnings, Cr Dividends payable; date of payment: Dr Dividends payable, Cr Cash; no entry on date of record. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- property dividend: two-step accounting ::@:: First remeasure the asset to fair value (recognise unrealised gain or loss); then Dr Retained earnings and Cr Property dividend payable at fair value, followed by Dr Property dividend payable and Cr Asset on distribution. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- liquidating dividend: how to split? ::@:: Amount up to retained earnings is treated as a normal dividend; any excess is treated as a return of capital (reduce share premium first, then share capital). <!--SR:!2026-04-11,4,270!2026-04-10,3,250-->
+- share dividend (small): effect on equity ::@:: Total equity unchanged; Retained earnings decreases and Share capital increases by the par value of new shares via Ordinary share dividend distributable. <!--SR:!2026-04-10,3,250!2026-04-11,4,270-->
+- dividend types in this course ::@:: Cash dividends reduce total equity and working capital; property and liquidating dividends also reduce total equity; small share dividends do not change total equity but reclassify amounts within equity (Retained earnings to Share capital). <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- dividend calculations (overview) ::@:: Cash dividend = dividend per share × number of shares; property dividend measured at fair value of asset; liquidating dividend is split between Retained earnings (income portion) and Share premium/Share capital (return of capital); small share dividend amount = par value × number of new shares issued (e.g. % × existing shares × par). <!--SR:!2026-04-11,4,270!2026-04-10,3,250-->
 
 ## return on ordinary shareholders' equity (ROE)
 
@@ -147,7 +147,7 @@ Return on ordinary shareholders' equity measures how efficiently a company gener
 
 The basic formula is:
 
-- __ROE__ = {@{(Profit for the year − Preference dividends) ÷ Average ordinary shareholders' equity}@}.
+- __ROE__ = {@{(Profit for the year − Preference dividends) ÷ Average ordinary shareholders' equity}@}. <!--SR:!2026-04-11,4,270-->
 
 Where:
 
@@ -164,10 +164,10 @@ Intuitively:
 
 Flashcards for this section are as follows:
 
-- ROE: formula in this course ::@:: (Profit for the year − Preference dividends) ÷ Average ordinary shareholders' equity.
-- ROE: why subtract preference dividends? ::@:: Because ROE is meant to measure the return available to ordinary shareholders after satisfying the fixed claims of preference shareholders.
-- ROE: what goes into ordinary shareholders' equity? ::@:: Ordinary share capital plus reserves and retained earnings attributable to ordinary shareholders, usually averaged over the period (beginning and ending).
-- ROE: intuitive interpretation ::@:: For each dollar of ordinary shareholders' equity invested in the company, ROE shows how many dollars of profit (after preference dividends) were generated during the year.
+- ROE: formula in this course ::@:: (Profit for the year − Preference dividends) ÷ Average ordinary shareholders' equity. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- ROE: why subtract preference dividends? ::@:: Because ROE is meant to measure the return available to ordinary shareholders after satisfying the fixed claims of preference shareholders. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- ROE: what goes into ordinary shareholders' equity? ::@:: Ordinary share capital plus reserves and retained earnings attributable to ordinary shareholders, usually averaged over the period (beginning and ending). <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- ROE: intuitive interpretation ::@:: For each dollar of ordinary shareholders' equity invested in the company, ROE shows how many dollars of profit (after preference dividends) were generated during the year. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
 
 ## share dividends versus share splits
 
@@ -180,8 +180,8 @@ Both share dividends and share splits increase the number of shares outstanding,
 
 Flashcards for this section are as follows:
 
-- share dividend vs share split: key accounting difference ::@:: Share dividend transfers retained earnings to share capital (par unchanged; shares ↑); share split changes par per share and number of shares but leaves share capital and retained earnings unchanged (no journal entry).
-- 2-for-1 share split: effect on par and shares ::@:: Par value per share halves and the number of shares doubles; total share capital remains the same.
+- share dividend vs share split: key accounting difference ::@:: Share dividend transfers retained earnings to share capital (par unchanged; shares ↑); share split changes par per share and number of shares but leaves share capital and retained earnings unchanged (no journal entry). <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- 2-for-1 share split: effect on par and shares ::@:: Par value per share halves and the number of shares doubles; total share capital remains the same. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
 
 ## retained earnings and reserves
 
@@ -191,5 +191,5 @@ Retained earnings represent cumulative profit not yet distributed as dividends; 
 
 Flashcards for this section are as follows:
 
-- retained earnings: practical meaning in dividend decisions ::@:: Cumulative profit not yet distributed; acts as an upper limit on ordinary dividends (company generally cannot declare dividends greater than retained earnings).
-- reserves within equity: why transfer from retained earnings? ::@:: To earmark part of retained earnings for a specific purpose (e.g. future capital expenditure) and signal that it is not intended for ordinary dividends.
+- retained earnings: practical meaning in dividend decisions ::@:: Cumulative profit not yet distributed; acts as an upper limit on ordinary dividends (company generally cannot declare dividends greater than retained earnings). <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- reserves within equity: why transfer from retained earnings? ::@:: To earmark part of retained earnings for a specific purpose (e.g. future capital expenditure) and signal that it is not intended for ordinary dividends. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->

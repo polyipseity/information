@@ -43,7 +43,7 @@ Interest is recognised in the period it is incurred (accrual basis). The stated 
 > | {@{Interest payable}@}            |              | {@{833.33}@} |
 >
 >
-> *Calculation.* {@{Interest}@} = {@{50 000 × 0.08 × 2/12}@} = {@{833.33}@}.
+> *Calculation.* {@{Interest}@} = {@{50 000 × 0.08 × 2/12}@} = {@{833.33}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-09,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -107,7 +107,7 @@ Flashcards for this section are as follows:
 - conversion of AP to note: journal entry at conversion? ::@:: Dr Accounts payable, Cr Notes payable (same amount).
 - after conversion to note: Given principal, rate, and months to reporting date, how is interest recorded? ::@:: Accrue interest (principal × rate × months/12); Dr Interest expense, Cr Interest payable.
 - conversion example: AP 10 000 → note 1 Oct, 8%—conversion entry? ::@:: Dr Accounts payable 10 000, Cr Notes payable 10 000.
-- conversion example: note 10 000, 8%, 3 months to year-end—accrual entry? ::@:: Dr Interest expense 200, Cr Interest payable 200.
+- conversion example: note 10 000, 8%, 3 months to year-end—accrual entry? ::@:: Dr Interest expense 200, Cr Interest payable 200. <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
 
 ## accruing implicit interest on a note issued at discount
 
@@ -189,7 +189,7 @@ The capitalized ARO amount in PPE is depreciated over the asset's useful life.
 > | {@{Accumulated depreciation — oil platform}@} |               | {@{124 184}@} |
 >
 >
-> *Calculation.* {@{620 921 ÷ 5}@} = {@{124 184}@} (rounded).
+> *Calculation.* {@{620 921 ÷ 5}@} = {@{124 184}@} (rounded). <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-09,3,250!2000-01-01,1,250-->
 
 ---
 
@@ -505,7 +505,7 @@ When a restructuring creates a present obligation (detailed formal plan + valid 
 
 Flashcards for this section are as follows:
 
-- restructuring provision: entry? ::@:: Dr Restructuring expense, Cr Restructuring liability (for qualifying direct/traceable costs once obligation exists).
+- restructuring provision: entry? ::@:: Dr Restructuring expense, Cr Restructuring liability (for qualifying direct/traceable costs once obligation exists). <!--SR:!2000-01-01,1,250!2026-04-09,3,250-->
 
 ## bond issued at discount (issuance)
 
@@ -665,7 +665,7 @@ When a bond is issued between interest payment dates, the investor pays the issu
 > | {@{Cash}@}                               |             | {@{4 000}@} |
 >
 >
-> *Explanation.* {@{Total interest expense over 2 months (from issue date to payment date) = 4 000 − 2 667 = 1 333 = 100 000 × 8% × 2/12}@}.
+> *Explanation.* {@{Total interest expense over 2 months (from issue date to payment date) = 4 000 − 2 667 = 1 333 = 100 000 × 8% × 2/12}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2026-04-09,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -699,7 +699,7 @@ If a bond is issued between interest payment dates at a discount or premium, the
 > | {@{Bonds payable (discount/premium amortization)}@} |             | {@{(balancing)}@} |
 >
 >
-> *Explanation.* Accrued interest at issue always uses {@{the coupon (stated) rate and the time since the last payment date}@}; discount/premium amortization still follows the {@{effective interest method using the market rate and the carrying amount, with any rounding absorbed in the final period}@}.
+> *Explanation.* Accrued interest at issue always uses {@{the coupon (stated) rate and the time since the last payment date}@}; discount/premium amortization still follows the {@{effective interest method using the market rate and the carrying amount, with any rounding absorbed in the final period}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-09,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-09,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -731,7 +731,7 @@ A zero-interest-bearing (implicit-interest) note has no periodic cash interest p
 > | {@{Notes payable}@}                     |           | {@{695}@} |
 >
 >
-> *Explanation.* Over time, {@{Notes payable increases each year by the interest expense so that the carrying amount grows from 7 721 to 10 000 by maturity}@}; at maturity the entry is {@{Dr Notes payable 10 000, Cr Cash 10 000}@}.
+> *Explanation.* Over time, {@{Notes payable increases each year by the interest expense so that the carrying amount grows from 7 721 to 10 000 by maturity}@}; at maturity the entry is {@{Dr Notes payable 10 000, Cr Cash 10 000}@}. <!--SR:!2026-04-09,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -761,7 +761,7 @@ An interest-bearing long-term note can also be issued at a discount (stated rate
 > | {@{Interest expense}@}                                | {@{951}@} |           |
 > | {@{Cash}@}                                            |           | {@{800}@} |
 > | {@{Notes payable}@}                                   |           | {@{151}@} |
->
+> <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-09,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -802,7 +802,7 @@ If the fair value of the noncash asset or service is not observable, use discoun
 > | ---------------------------------------------------------------- | ------------- | ------------- |
 > | {@{Construction in progress (or Building)}@}                     | {@{136 000}@} |               |
 > | {@{Notes payable}@}                                              |               | {@{136 000}@} |
->
+> <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-10,4,270-->
 
 ---
 
@@ -847,7 +847,7 @@ When a note or bond payable is settled by issuing the company's own shares (debt
 > | {@{Share premium — ordinary}@}                                |                  | {@{6 000 000}@}  |
 >
 >
-> *Explanation.* Shares are measured at fair value {@{16 000 000 (2 000 000 × 8)}@}; equity increases by that amount (par {@{10 000 000}@}, premium {@{6 000 000}@}). The liability's carrying amount exceeds consideration, so the debtor recognises a gain on extinguishment of {@{20 000 000 − 16 000 000 = 4 000 000}@}.
+> *Explanation.* Shares are measured at fair value {@{16 000 000 (2 000 000 × 8)}@}; equity increases by that amount (par {@{10 000 000}@}, premium {@{6 000 000}@}). The liability's carrying amount exceeds consideration, so the debtor recognises a gain on extinguishment of {@{20 000 000 − 16 000 000 = 4 000 000}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-09,3,250-->
 
 ---
 
@@ -877,7 +877,7 @@ If debt is settled by transferring a noncash asset (e.g. land or a building), th
 > | {@{Gain on extinguishment of debt}@}               |                  | {@{4 000 000}@}  |
 >
 >
-> *Explanation.* The asset loss equals {@{21 000 000 − 16 000 000 = 5 000 000}@}, and the extinguishment gain equals {@{liability 20 000 000 − asset fair value 16 000 000 = 4 000 000}@}; the two effects are reported separately.
+> *Explanation.* The asset loss equals {@{21 000 000 − 16 000 000 = 5 000 000}@}, and the extinguishment gain equals {@{liability 20 000 000 − asset fair value 16 000 000 = 4 000 000}@}; the two effects are reported separately. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2026-04-09,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-09,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -1026,7 +1026,7 @@ Cash dividends on ordinary shares are recorded in two stages: (1) declaration (c
 > | ---------------------------------- | ------------- | ------------- |
 > | {@{Dividends payable}@}            | {@{900 000}@} |               |
 > | {@{Cash}@}                         |               | {@{900 000}@} |
->
+> <!--SR:!2026-04-09,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -1055,7 +1055,7 @@ Property dividends are dividends payable in assets other than cash (e.g. investm
 > | ------------------------------------------------ | --------------- | --------------- |
 > | {@{Property dividends payable}@}                 | {@{2 000 000}@} |                 |
 > | {@{Equity investments}@}                         |                 | {@{2 000 000}@} |
->
+> <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-07,1,230!2000-01-01,1,250!2000-01-01,1,250!2026-04-09,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -1110,7 +1110,7 @@ Share dividends are pro rata issues of the company's own shares to existing shar
 > | ------------------------------------------- | ------------ | ------------ |
 > | {@{Ordinary share dividend distributable}@} | {@{10 000}@} |              |
 > | {@{Share capital — ordinary}@}              |              | {@{10 000}@} |
->
+> <!--SR:!2000-01-01,1,250!2026-04-10,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -1195,7 +1195,7 @@ Preference shareholders first receive their 6% preference dividend; ordinary sha
 
 Flashcards for this section are as follows:
 
-- non-cumulative, participating preference shares: allocation in example ::@:: Step 1 gives 6 000 to preference and 24 000 to ordinary; Step 2 splits the remaining 20 000 as 4 000 to preference and 16 000 to ordinary, so totals are 10 000 and 40 000 respectively.
+- non-cumulative, participating preference shares: allocation in example ::@:: Step 1 gives 6 000 to preference and 24 000 to ordinary; Step 2 splits the remaining 20 000 as 4 000 to preference and 16 000 to ordinary, so totals are 10 000 and 40 000 respectively. <!--SR:!2000-01-01,1,250!2026-04-09,3,250-->
 
 ### 4. Cumulative, participating preference shares
 

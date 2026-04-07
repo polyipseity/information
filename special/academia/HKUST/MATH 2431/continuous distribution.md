@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 - overview ::@:: In the density-based sense, a continuous distribution is an absolutely continuous probability measure on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$; it assigns probabilities to intervals by integration against a probability density function. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - absolutely continuous probability measure ::@:: A probability measure $\mu$ on $(\mathbb{R},\mathcal{B}(\mathbb{R}))$ is absolutely continuous if $\lambda(A)=0$ implies $\mu(A)=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - absolutely continuous probability measures versus PDFs ::@:: Specifying an absolutely continuous probability measure is equivalent to specifying a probability density function, up to almost-everywhere equality.
-- derivation of absolutely continuous probability measure-PDF correspondence ::@:: Forward direction: from a PDF $f$, define $\mu_f((a,b])=\int_a^b f(x)\,dx$, hence a probability measure. Reverse direction: from an absolutely continuous probability measure $\mu$ with CDF $F$, absolute continuity of $F$ gives a function $f\ge0$ with $F(x)=\int_{-\infty}^x f(t)\,dt$, so $\mu((a,b])=F(b)-F(a)=\int_a^b f(x)\,dx$. Since half-open intervals generate $\mathcal{B}(\mathbb{R})$, the two constructions are inverse up to almost-everywhere equality of densities. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- derivation of absolutely continuous probability measure-PDF correspondence ::@:: Forward direction: from a PDF $f$, define $\mu_f((a,b])=\int_a^b f(x)\,dx$, hence a probability measure. Reverse direction: from an absolutely continuous probability measure $\mu$ with CDF $F$, absolute continuity of $F$ gives a function $f\ge0$ with $F(x)=\int_{-\infty}^x f(t)\,dt$, so $\mu((a,b])=F(b)-F(a)=\int_a^b f(x)\,dx$. Since half-open intervals generate $\mathcal{B}(\mathbb{R})$, the two constructions are inverse up to almost-everywhere equality of densities. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
 
 ## probability density functions
 
@@ -81,10 +81,10 @@ Flashcards for this section are as follows:
 - left half-line probability ::@:: For a continuous distribution with density $f$, one has $P[(-\infty,a]] = P[(-\infty,a)) = \int_{-\infty}^a f(x)\,dx$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - right half-line probability ::@:: For a continuous distribution with density $f$, one has $P[[a,\infty)) = P[(a,\infty)) = \int_a^{\infty} f(x)\,dx$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - proof that singletons have probability zero ::@:: For $\varepsilon>0$, $\{a\}\subseteq[a,a+\varepsilon)$ gives $P[\{a\}]\le \int_a^{a+\varepsilon} f(x)\,dx$; this integral tends to $0$ as $\varepsilon\downarrow 0$, so $P[\{a\}]=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- why the singleton proof still works when $f$ blows up at an endpoint ::@:: Even if $f$ is unbounded near $a$, integrability of $f\ge 0$ implies the tail integrals $\int_{a+\varepsilon}^{a+1} f(x)\,dx$ increase to $\int_a^{a+1} f(x)\,dx$, so $\int_a^{a+\varepsilon} f(x)\,dx = \int_a^{a+1} f(x)\,dx - \int_{a+\varepsilon}^{a+1} f(x)\,dx \to 0$; for example $f(x)=\frac{1}{2\sqrt{x}}\mathbf{1}_{(0,1]}(x)$ is unbounded at $0$ but still integrable.
+- why the singleton proof still works when $f$ blows up at an endpoint ::@:: Even if $f$ is unbounded near $a$, integrability of $f\ge 0$ implies the tail integrals $\int_{a+\varepsilon}^{a+1} f(x)\,dx$ increase to $\int_a^{a+1} f(x)\,dx$, so $\int_a^{a+\varepsilon} f(x)\,dx = \int_a^{a+1} f(x)\,dx - \int_{a+\varepsilon}^{a+1} f(x)\,dx \to 0$; for example $f(x)=\frac{1}{2\sqrt{x}}\mathbf{1}_{(0,1]}(x)$ is unbounded at $0$ but still integrable. <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
 - continuous versus discrete viewpoint ::@:: In a discrete law, probabilities are assembled from point masses; in a continuous law, isolated points have probability $0$ and interval probabilities are obtained by integration. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - minibus example and point probabilities ::@:: In the minibus-arrival model, even though intervals near 1:15 PM can be more likely than intervals near 1 PM, the probability of any one exact arrival time is still $0$ because a continuous distribution spreads probability over intervals rather than points. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- minibus example and interval comparison ::@:: In a continuous model like the minibus example, comparing probabilities means comparing integrals over intervals; for the increasing density $f(x)=2x$ on $[0,1)$, intervals farther to the right have larger probability because the density is larger there. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- minibus example and interval comparison ::@:: In a continuous model like the minibus example, comparing probabilities means comparing integrals over intervals; for the increasing density $f(x)=2x$ on $[0,1)$, intervals farther to the right have larger probability because the density is larger there. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
 
 ## exponential and normal laws
 
@@ -94,7 +94,7 @@ Two especially important examples of continuous distributions are the exponentia
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Two fundamental examples of continuous distributions are the exponential distribution, which models waiting times, and the normal distribution, which models bell-shaped fluctuations around a center.
+- overview ::@:: Two fundamental examples of continuous distributions are the exponential distribution, which models waiting times, and the normal distribution, which models bell-shaped fluctuations around a center. <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
 - exponential versus normal distribution ::@:: The exponential law is distinguished by memorylessness, whereas the normal law is distinguished by its symmetric bell-shaped density centered at $\mu$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### uniform distribution
@@ -138,7 +138,7 @@ The normal density is symmetric about $\mu$, concentrated more tightly when $\si
 
 Flashcards for this section are as follows:
 
-- normal distribution ::@:: The normal distribution $\mathrm{N}(\mu,\sigma^2)$ has density $f(x)=\dfrac{1}{\sqrt{2\pi\sigma^2}}\exp\!\left(-\dfrac{(x-\mu)^2}{2\sigma^2}\right)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- normal distribution ::@:: The normal distribution $\mathrm{N}(\mu,\sigma^2)$ has density $f(x)=\dfrac{1}{\sqrt{2\pi\sigma^2}}\exp\!\left(-\dfrac{(x-\mu)^2}{2\sigma^2}\right)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
 - role of $\mu$ and $\sigma^2$ ::@:: In $\mathrm{N}(\mu,\sigma^2)$, $\mu$ is the center of the bell curve and $\sigma^2$ controls its spread.
 - standard normal density ::@:: The standard normal distribution $\mathrm{N}(0,1)$ has density $\varphi(x)=\dfrac{1}{\sqrt{2\pi}}e^{-x^2/2}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
@@ -156,7 +156,7 @@ This example is a good reminder that not all familiar continuous laws are bell-s
 Flashcards for this section are as follows:
 
 - Cauchy distribution ::@:: For location $m\in\mathbb{R}$ and scale $a>0$, the Cauchy distribution has density $f(x)=\dfrac{1}{\pi}\dfrac{a}{a^2+(x-m)^2}$ on $\mathbb{R}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- centered Cauchy distribution ::@:: In the centered case $m=0$, the Cauchy density is $f(x)=\dfrac{a}{\pi(a^2+x^2)}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- centered Cauchy distribution ::@:: In the centered case $m=0$, the Cauchy density is $f(x)=\dfrac{a}{\pi(a^2+x^2)}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-09,3,250!2026-04-10,4,270-->
 - light-source model for the Cauchy law ::@:: If $\theta\sim\mathrm{U}((-\pi/2,\pi/2))$ and $X=a\tan\theta$, then $X$ has the centered Cauchy density $f(x)=\dfrac{a}{\pi(a^2+x^2)}$. The derivation is: write $X=a\tan\theta$, invert as $\theta=\arctan(x/a)$, compute the CDF $F_X(x)=P(\theta\le\arctan(x/a))=\dfrac{\arctan(x/a)+\pi/2}{\pi}$, and differentiate to get $f_X(x)=F_X'(x)=\dfrac{a}{\pi(a^2+x^2)}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - light-source model derivation for the Cauchy law ::@:: Step 1: use the monotone change of variables $x=a\tan\theta$ with inverse $\theta(x)=\arctan(x/a)$. Step 2: CDF route gives $F_X(x)=P(\theta\le\theta(x))$ and then differentiate. Step 3 (alternative): apply change-of-variables density formula directly, $f_X(x)=f_\Theta(\theta(x))\left|\frac{d\theta}{dx}\right|$ with $f_\Theta=1/\pi$ and $\frac{d\theta}{dx}=\frac{a}{a^2+x^2}$, yielding $f_X(x)=\frac{a}{\pi(a^2+x^2)}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - heavy tails of the Cauchy law ::@:: The Cauchy density has heavy tails because $\tan\theta$ blows up near $\pm\pi/2$, so small angular changes near grazing rays produce very large spatial displacements. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
