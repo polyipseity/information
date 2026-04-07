@@ -29,7 +29,7 @@ Thus the measure is completely recovered from its point masses. Conversely, if w
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A discrete distribution is a probability measure on a countable sample space; specifying the measure is equivalent to specifying the singleton masses $p(\omega)=P[\{\omega\}]$, and the main named examples are the discrete uniform, Bernoulli, binomial, geometric, hypergeometric, and Poisson laws. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- discrete distribution / overview ::@:: A discrete distribution is a probability measure on a countable sample space; specifying the measure is equivalent to specifying the singleton masses $p(\omega)=P[\{\omega\}]$, and the main named examples are the discrete uniform, Bernoulli, binomial, geometric, hypergeometric, and Poisson laws. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## countable sample spaces and sums
 
@@ -68,7 +68,7 @@ In fact this equivalence is bijective at the space level: the space of discrete 
 
 Flashcards for this section are as follows:
 
-- definition ::@:: A discrete distribution is a probability measure on $(\Omega,\mathcal{P}(\Omega))$ when the sample space $\Omega$ is countable. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- discrete distribution / definition on a countable sample space ::@:: A discrete distribution is a probability measure on $(\Omega,\mathcal{P}(\Omega))$ when the sample space $\Omega$ is countable. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - probability mass function ::@:: For a discrete distribution, the probability mass function is $p(\omega)=P[\{\omega\}]$; it records the probability assigned to each single outcome. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - why singleton masses suffice ::@:: On a countable sample space $\Omega$, the motivation for introducing a probability mass function is that once we know every singleton mass $P[\{\omega\}]$, we can recover the probability of any event $A\subseteq\Omega$ by summing those masses over $\omega\in A$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - pmf determines measure ::@:: If $p\colon\Omega\to[0,1]$ satisfies $\sum_{\omega\in\Omega} p(\omega)=1$, then $P[A]=\sum_{\omega\in A} p(\omega)$ defines a probability measure on $(\Omega,\mathcal{P}(\Omega))$; on a countable sample space the measure is completely determined by singleton masses. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

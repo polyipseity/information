@@ -18,7 +18,7 @@ In this course the point is not to rebuild real analysis from scratch, but to ke
 
 Flashcards for this section are as follows:
 
-- overview ::@:: In this course, Riemann integration is the one-dimensional integration framework used to justify probability densities, interval probabilities, and improper integrals over tails or near singular endpoints.
+- Riemann integration / overview ::@:: In this course, Riemann integration is the one-dimensional integration framework used to justify probability densities, interval probabilities, and improper integrals over tails or near singular endpoints.
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ## Riemann sums and integrability

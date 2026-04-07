@@ -62,6 +62,39 @@ Flashcards for this section are as follows:
 
 When the entity borrows cash and signs a short-term interest-bearing note, it records Dr Cash, Cr Notes payable at the borrowing date. The stated interest rate is usually an __annual__ rate; interest for a fraction of a year is prorated (e.g. principal × rate × 4/12 for four months). Under the __accrual__ concept, interest expense is recognised in the period it is incurred. At year-end, the entity records Dr Interest expense, Cr Interest payable for the accrued interest even if cash is not yet paid. When the note is settled at the due date, the entity records Dr Notes payable, Dr Interest payable, Cr Cash.
 
+Representative journal entry examples:
+
+> *Scenario.* Entity {@{borrows 50 000 on 1 November, 8% annual rate}@}, due in {@{six months}@}.
+>
+>
+> | {@{Receive cash; record note}@} | Dr           | Cr           |
+> | ------------------------------- | ------------ | ------------ |
+> | {@{Cash}@}                      | {@{50 000}@} |              |
+> | {@{Notes payable}@}             |              | {@{50 000}@} |
+
+<!-- markdownlint-disable-next-line MD028 -->
+> *Scenario.* Same note: {@{50 000, 8% per year. At 31 December, two months have elapsed}@}.
+>
+>
+> | {@{Accrue interest to year-end}@} | Dr           | Cr           |
+> | --------------------------------- | ------------ | ------------ |
+> | {@{Interest expense}@}            | {@{833.33}@} |              |
+> | {@{Interest payable}@}            |              | {@{833.33}@} |
+>
+>
+> *Calculation.* {@{Interest}@} = {@{50 000 × 0.08 × 2/12}@} = {@{833.33}@}.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> *Scenario.* Note matures; {@{total cash paid 52 000 (principal 50 000 + interest 2 000)}@}. Assume {@{833.33 already accrued; remainder interest at settlement}@}.
+>
+>
+> | {@{Settle note and interest; pay cash}@} | Dr             | Cr           |
+> | ---------------------------------------- | -------------- | ------------ |
+> | {@{Notes payable}@}                      | {@{50 000}@}   |              |
+> | {@{Interest payable}@}                   | {@{833.33}@}   |              |
+> | {@{Interest expense}@}                   | {@{1 166.67}@} |              |
+> | {@{Cash}@}                               |                | {@{52 000}@} |
+
 ---
 
 Flashcards for this section are as follows:
@@ -71,38 +104,95 @@ Flashcards for this section are as follows:
 - short-term interest-bearing note: journal entry at settlement? ::@:: Dr Notes payable, Dr Interest payable, Cr Cash. <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
 - stated interest rate is usually ::@:: Annual; interest for a fraction of a year is prorated (e.g. principal × rate × months/12).
 - why accrue interest at year-end? ::@:: Under the accrual concept, interest expense is recognised in the period it is incurred, even if cash is not yet paid. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
+- short-term interest-bearing note: journal entry at borrowing? ::@:: Dr Cash, Cr Notes payable (amount = principal received).
+- borrowing on short-term note: Entity borrows 50 000 on 8% note—entry? ::@:: Dr Cash 50 000, Cr Notes payable 50 000.
+- short-term note: how is interest accrued at year-end? ::@:: Interest = principal × annual rate × (months to year-end / 12); Dr Interest expense, Cr Interest payable.
+- short-term note interest accrual: Given principal 50 000, 8% annual rate, 2 months elapsed—entry? ::@:: Dr Interest expense 833.33, Cr Interest payable 833.33 (i.e. 50 000 × 0.08 × 2/12).
+- short-term note: journal entry at settlement (due date)? ::@:: Dr Notes payable (principal), Dr Interest payable (accrued), Dr Interest expense (any remaining), Cr Cash (total paid).
+- settling short-term note: Pay 52 000 (principal 50 000 + interest), 833.33 already in Interest payable—entry? ::@:: Dr Notes payable 50 000, Dr Interest payable 833.33, Dr Interest expense 1 166.67, Cr Cash 52 000.
 
 ### conversion of accounts payable to notes payable
 
 If an account payable is replaced by a note (e.g. the supplier requires interest), the entity reclassifies the obligation: Dr Accounts payable, Cr Notes payable. Interest is then accrued from the note date to the next reporting date (e.g. 8% per year for three months: principal × 0.08 × 3/12), with Dr Interest expense, Cr Interest payable.
+
+Representative journal entry example:
+
+> *Scenario.* Account payable {@{10 000 converted to note on 1 October; 8% per year}@}. At 31 December, {@{accrue 3 months' interest}@}.
+>
+> __At conversion:__
+>
+>
+> | {@{Reclassify AP to note}@} | Dr           | Cr           |
+> | --------------------------- | ------------ | ------------ |
+> | {@{Accounts payable}@}      | {@{10 000}@} |              |
+> | {@{Notes payable}@}         |              | {@{10 000}@} |
+>
+>
+> __At year-end (accrual):__
+>
+>
+> | {@{Accrue interest to reporting date}@} | Dr        | Cr        |
+> | --------------------------------------- | --------- | --------- |
+> | {@{Interest expense}@}                  | {@{200}@} |           |
+> | {@{Interest payable}@}                  |           | {@{200}@} |
+>
+>
+> *Calculation.* {@{10 000 × 0.08 × 3/12}@} = {@{200}@}.
 
 ---
 
 Flashcards for this section are as follows:
 
 - conversion of account payable to note payable ::@:: Dr Accounts payable, Cr Notes payable; then accrue interest to reporting date (Dr Interest expense, Cr Interest payable).
+- conversion of AP to note: journal entry at conversion? ::@:: Dr Accounts payable, Cr Notes payable (same amount).
+- after conversion to note: Given principal, rate, and months to reporting date, how is interest recorded? ::@:: Accrue interest (principal × rate × months/12); Dr Interest expense, Cr Interest payable.
+- conversion example: AP 10 000 → note 1 Oct, 8%—conversion entry? ::@:: Dr Accounts payable 10 000, Cr Notes payable 10 000.
+- conversion example: note 10 000, 8%, 3 months to year-end—accrual entry? ::@:: Dr Interest expense 200, Cr Interest payable 200.
 
-### long-term interest-bearing note with implicit interest
+### implicit-interest notes (notes issued at a discount)
 
-Some notes are issued at a discount: the entity receives less cash than the amount it will repay at maturity. The difference represents __implicit (embedded) interest__. For example, the entity receives 75&nbsp;000 and must repay 81&nbsp;000 at the end of 12 months; the 6&nbsp;000 difference is interest over the 12 months. At each reporting date, interest expense is allocated over the term (e.g. 6&nbsp;000 × 3/12 for three months). Importantly, this accrual is credited to __Notes payable__, not Interest payable, so that the carrying amount of the note increases toward the maturity amount (81&nbsp;000). If it were credited to Interest payable, the note would remain at 75&nbsp;000 and would not reach the amount due at maturity. Subsequent periods continue to record Dr Interest expense, Cr Notes payable until the note reaches the maturity amount; at the due date, Dr Notes payable 81&nbsp;000, Cr Cash 81&nbsp;000.
+Some notes are issued at a discount: the entity receives less cash than the amount it will repay at maturity. No separate interest rate is stated; instead, the difference between the cash received and the maturity amount is __implicit (embedded) interest__. For example, the entity receives 75&nbsp;000 and must repay 81&nbsp;000 at the end of 12 months; the 6&nbsp;000 difference is interest over the 12 months. (The same concept applies to longer-term notes and zero-interest-bearing bonds; see [non-current liabilities](non-current%20liabilities.md#zero-interest-bearing-notes-and-implicit-interest-rate) for an extended treatment.) At each reporting date, interest expense is allocated over the term (e.g. 6&nbsp;000 × 3/12 for three months). Importantly, this accrual is credited to __Notes payable__, not Interest payable, so that the carrying amount of the note increases toward the maturity amount (81&nbsp;000). If it were credited to Interest payable, the note would remain at 75&nbsp;000 and would not reach the amount due at maturity. Subsequent periods continue to record Dr Interest expense, Cr Notes payable until the note reaches the maturity amount; at the due date, Dr Notes payable 81&nbsp;000, Cr Cash 81&nbsp;000.
+
+Representative journal entry examples:
+
+> *Scenario.* Entity {@{receives 75 000 and must repay 81 000 in 12 months. Implicit interest 6 000}@}. After 3 months, {@{allocate 3/12 of the discount}@}.
+>
+>
+> | {@{Allocate implicit interest; credit Notes payable}@} | Dr          | Cr          |
+> | ------------------------------------------------------ | ----------- | ----------- |
+> | {@{Interest expense}@}                                 | {@{1 500}@} |             |
+> | {@{Notes payable}@}                                    |             | {@{1 500}@} |
+>
+>
+> *Calculation.* {@{6 000 × 3/12}@} = {@{1 500}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> *Scenario.* Note matures; {@{carrying amount 81 000, pay 81 000 cash}@}.
+>
+>
+> | {@{Pay note at maturity}@} | Dr           | Cr           |
+> | -------------------------- | ------------ | ------------ |
+> | {@{Notes payable}@}        | {@{81 000}@} |              |
+> | {@{Cash}@}                 |              | {@{81 000}@} |
 
 ---
 
 Flashcards for this section are as follows:
 
-- long-term note implicit interest: why credit Notes payable not Interest payable? ::@:: So the note's carrying amount increases to the maturity amount; if credited to Interest payable the note would stay at the original amount. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
-- implicit (embedded) interest ::@:: The difference when a note is issued at discount (cash received &lt; maturity amount); allocated as interest expense over the term. <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
-- long-term note at discount: what is the difference between cash received and maturity amount? ::@:: Implicit (embedded) interest; allocated as interest expense over the term, Dr Interest expense, Cr Notes payable. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
-- long-term note with implicit interest: journal entry at maturity? ::@:: Dr Notes payable (full maturity amount), Cr Cash. <!--SR:!2026-04-10,4,270!2000-01-01,1,250-->
-- long-term note at discount: example 75&nbsp;000 received, 81&nbsp;000 at maturity ::@:: 6&nbsp;000 is implicit interest over 12 months; allocate over term (e.g. 6&nbsp;000 × 3/12 for three months), Dr Interest expense, Cr Notes payable.
+- implicit (embedded) interest ::@:: The difference when a note is issued at discount (cash received &lt; maturity amount); allocated as interest expense over the term.
+- when does implicit interest arise? ::@:: When a note is issued at a discount (cash received < amount due at maturity); no separate interest rate is stated.
+- implicit interest note: why credit Notes payable not Interest payable? ::@:: So the carrying amount of the note increases to the maturity amount; if credited to Interest payable the note would stay at the original amount.
+- implicit interest note: Given total discount and term, allocation formula and entry? ::@:: Allocate total implicit interest over term (e.g. discount × months elapsed / 12); Dr Interest expense, Cr Notes payable.
+- implicit interest note: receive 75 000, repay 81 000 in 12 months—accrual for 3 months? ::@:: Dr Interest expense 1 500, Cr Notes payable 1 500 (i.e. 6 000 × 3/12).
+- implicit interest note at maturity: journal entry? ::@:: Dr Notes payable (full maturity amount), Cr Cash.
+- settling note with implicit interest: carrying amount 81 000 at due date—entry? ::@:: Dr Notes payable 81 000, Cr Cash 81 000.
 
 ---
 
 Flashcards for this section are as follows:
 
 - notes payable vs accounts payable ::@:: Notes payable: separate contract with principal, interest rate, and due date; accounts payable: typically no interest, short credit terms.
-- short-term interest-bearing note: Given principal P, annual rate r, months to year-end m, how is interest recorded at year-end? ::@:: Accrue interest P × r × m/12; Dr Interest expense, Cr Interest payable.
-- long-term note with implicit interest: Given total implicit interest (discount) D and months elapsed m of total term, how is accrual recorded? ::@:: Allocate interest D × m/12 over the term; Dr Interest expense, Cr Notes payable so the note's carrying amount grows to the maturity amount.
+- implicit-interest note: Given total implicit interest (discount) D and months elapsed m of total term, how is accrual recorded? ::@:: Allocate interest D × m/12 over the term; Dr Interest expense, Cr Notes payable so the note's carrying amount grows to the maturity amount.
 
 ## refinancing and classification as current or long-term
 
@@ -125,12 +215,24 @@ Flashcards for this section are as follows:
 
 At the end of the reporting period, if the entity has determined that tax is owed but not yet paid, it recognises a current liability: Dr Tax expense (or similar), Cr Tax payable. The amount is typically due within a few months (e.g. three or four months) after the reporting date, so it is classified as current. Detailed treatment of income taxes (including deferred tax) is covered in Chapter 18.
 
+Representative journal entry example:
+
+> *Scenario.* Year-end: {@{income tax expense 120 000, payable within four months}@}.
+>
+>
+> | {@{Recognise tax expense and payable}@}   | Dr            | Cr            |
+> | ----------------------------------------- | ------------- | ------------- |
+> | {@{Tax expense (or Income tax expense)}@} | {@{120 000}@} |               |
+> | {@{Tax payable (or Income tax payable)}@} |               | {@{120 000}@} |
+
 ---
 
 Flashcards for this section are as follows:
 
 - income tax payable recognition ::@:: Dr Tax expense (or similar), Cr Tax payable when tax is owed but not yet paid at the reporting date; classified as current liability.
 - why is income tax payable usually current? ::@:: The amount is typically due within a few months (e.g. three or four months) after the reporting date.
+- income tax payable: when and what entry? ::@:: At reporting date when tax is owed but not yet paid; Dr Tax expense, Cr Tax payable; classified as current liability.
+- income tax example: tax expense 120 000 owed at year-end—entry? ::@:: Dr Tax expense 120 000, Cr Tax payable 120 000.
 
 ## compensated absence
 
@@ -138,15 +240,39 @@ Employee benefits such as __vacation pay__ or paid leave that can be converted i
 
 Example: employees earn two weeks of paid vacation at the beginning of their second year; the company considers the vacation pay to be earned during the first year. At the end of the first year, 10 employees have earned 20 unused vacation weeks at 480 per week. The entity records Dr Salaries and wages expense 9&nbsp;600 (20 × 480), Cr Wages payable 9&nbsp;600. In the next year when employees take the vacation and are paid, the wage rate may have increased (e.g. to 540 per week). The entity pays 20 × 540 and records Dr Wages payable 9&nbsp;600, Dr Salaries and wages expense (for the difference to current rate), Cr Cash. The liability is settled and the remainder is expense of the period in which payment occurs.
 
+Representative journal entry examples:
+
+> *Scenario.* End of year 1: {@{20 unused vacation weeks earned at 480 per week}@}. Total {@{9 600}@}.
+>
+>
+> | {@{Recognise expense and wages payable}@} | Dr          | Cr          |
+> | ----------------------------------------- | ----------- | ----------- |
+> | {@{Salaries and wages expense}@}          | {@{9 600}@} |             |
+> | {@{Wages payable}@}                       |             | {@{9 600}@} |
+
+<!-- markdownlint-disable-next-line MD028 -->
+> *Scenario.* Wages payable {@{9 600 (20 weeks at 480). Employees take vacation; current rate 540 per week}@}. Cash paid {@{10 800; difference 1 200 expense in payment period}@}.
+>
+>
+> | {@{Clear wages payable; expense difference; pay cash}@} | Dr          | Cr           |
+> | ------------------------------------------------------- | ----------- | ------------ |
+> | {@{Wages payable}@}                                     | {@{9 600}@} |              |
+> | {@{Salaries and wages expense}@}                        | {@{1 200}@} |              |
+> | {@{Cash}@}                                              |             | {@{10 800}@} |
+>
+>
+> *Explanation.* The liability is settled at the rate originally accrued {@{(20 weeks × 480 = 9 600)}@}. When cash is paid at the higher current rate {@{(20 weeks × 540 = 10 800)}@}, the extra {@{1 200}@} is current-period salaries and wages expense.
+
 ---
 
 Flashcards for this section are as follows:
 
-- compensated absence ::@:: Paid absence (e.g. vacation pay) that may be convertible to cash; recognised when earned (vested), even if paid later.
-- vesting period (compensated absence) ::@:: The required period (e.g. one year) the employee must work before being entitled to the benefit.
-- vested right ::@:: After the vesting period has passed, the employee has a right to the benefit; the entity recognises expense and liability when the right is earned. <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
-- vesting and vacation pay ::@:: If employees must work a required period before being entitled to vacation pay, that period is the vesting period; after vesting, the entity recognises expense and wages payable when the right is earned.
-- compensated absence: when does the entity recognise expense and liability? ::@:: When the right is earned (e.g. at end of vesting period), even if payment is in a later period.
-- vacation pay example: 20 weeks at 480/week earned (end of year 1)—journal entry? ::@:: Dr Salaries and wages expense 9&nbsp;600, Cr Wages payable 9&nbsp;600 (i.e. 20 × 480). <!--SR:!2000-01-01,1,250!2026-04-10,4,270-->
-- vacation pay example: Wages payable 9&nbsp;600 settled, employees paid at 540/week—journal entry? ::@:: Dr Wages payable 9&nbsp;600, Dr Salaries and wages expense (difference to current rate), Cr Cash; liability settled, remainder is expense of payment period.
-- vacation pay: when is it earned in example? ::@:: Employees earn two weeks at beginning of second year; company considers it earned during the first year. <!--SR:!2026-04-09,3,250!2000-01-01,1,250-->
+- compensated absence ::@:: Paid absence (e.g. vacation pay) recognised when earned, not when paid, if the employee has satisfied the vesting condition. <br/> Key: the right to the benefit doesn't depend on when it's used; usage restrictions alone don't delay recognition. <br/> Example: policy states "earned after one year of service but usable only from next February" → recognise at year-end when the year is complete, not in February.
+- vesting period (compensated absence) ::@:: The required service period the employee must complete before obtaining an unconditional right to the benefit. <br/> Once complete, the right is vested and must be recognised immediately at the earned wage rate, even if payment is deferred.
+- vacation pay example: 20 weeks at 480/week earned (end of year 1)—journal entry? ::@:: Dr Salaries and wages expense&emsp;9&nbsp;600 <br/> &emsp;Cr Wages payable&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;9&nbsp;600 <br/> (20 weeks × 480; recognised at year-end when the vesting period is complete.)
+- vacation pay example: Wages payable 9&nbsp;600 settled, employees paid at 540/week—journal entry? ::@:: Dr Wages payable&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;9&nbsp;600 <br/> Dr Salaries and wages expense&emsp;1&nbsp;200 <br/> &emsp;Cr Cash&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;10&nbsp;800 <br/> (Settled with cash 20 × 540 = 10&nbsp;800; wage increase 60/week generates extra 1&nbsp;200 expense in the payment period.)
+- vacation pay: what if wage decreases when paid (e.g. from 480 to 450/week)? ::@:: Dr Wages payable 9&nbsp;600, Cr Cash (20 × 450 = 9&nbsp;000), Cr Salaries and wages expense (600 credit/gain). <br/> The original liability was 9&nbsp;600 at the earned rate (480/week); settlement at lower rate (450/week) generates a credit to expense (reduces current-period expense).
+- compensated absence: when to recognise expense and liability? ::@:: When the right is earned (e.g. at end of vesting period), even if payment is in a later period; Dr Salaries and wages expense, Cr Wages payable.
+- vacation pay earned: 20 weeks at 480/week at end of year 1—entry? ::@:: Dr Salaries and wages expense 9 600, Cr Wages payable 9 600.
+- compensated absence: journal entry when vacation is paid (current rate > accrued rate)? ::@:: Dr Wages payable (accrued amount), Dr Salaries and wages expense (difference to current rate), Cr Cash (total paid).
+- vacation pay paid: Wages payable 9 600, pay 20 weeks at 540/week—entry? ::@:: Dr Wages payable 9 600, Dr Salaries and wages expense 1 200, Cr Cash 10 800.

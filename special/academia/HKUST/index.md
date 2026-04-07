@@ -100,6 +100,7 @@ tags:
 - [COMP 4211](COMP%204211/index.md): Machine Learning \(3 credits\)
 - [ELEC 1100](ELEC%201100/index.md): Introduction to Electro-Robot Design \(4 credits\)
 - [ELEC 2100](ELEC%202100/index.md): Signals and Systems \(4 credits\)
+- [HUMA 3810](HUMA%203810/index.md): Taoism and the Chinese Tradition \(3 credits\)
 - [MATH 2431](MATH%202431/index.md): Honors Probability \(4 credits\)
 
 <!-- future term sections should be inserted above this comment in strict chronological order -->

@@ -40,8 +40,9 @@ extension work.
   when the mathematics genuinely mirrors.
 - Do not automatically prune motivating historical or technology context if the
   lecture uses it to teach the core idea.
-- In topic notes other than `journal entries.md`, prefer QA cards rather than
-  cloze in prose.
+- In topic notes, prefer QA cards rather than cloze in prose, except that
+  accounting journal-entry worked examples may use cloze inside quoted
+  scenarios, tables, calculations, and short explanations.
 - Make flashcards standalone: restate givens, assumptions, notation, and any
   needed diagram context.
 - Keep math on one source line and use `$...$` / `$$...$$`; do not use `\(\)`
@@ -117,8 +118,9 @@ extension work.
   practice exams, solutions).
 - For detailed rules on quoted solutions, cloze coverage, MD028 handling, and
   subpart formatting, consult `../skills/academic-notes/SKILL.md`.
-- For accounting courses, keep journal-entry examples in `journal entries.md`;
-  the detailed table/cloze conventions live in `SKILL.md`.
+- For accounting courses, place each journal-entry example in the most specific
+  topical note rather than in a monolithic collector file; the detailed
+  table/cloze conventions live in `SKILL.md`.
 
 ## Suppressions and validation
 
@@ -169,7 +171,8 @@ work.
 2. Keep `index.md` order, chronology, and chosen-section metadata consistent.
 3. Deepen existing topic notes before creating overlapping new ones.
 4. Keep topic-note prose, flashcards, and index links synchronized.
-5. Use QA cards for topic notes except `journal entries.md`.
+5. Use QA cards for topic notes by default; allow cloze only inside embedded
+  accounting journal-entry worked examples.
 6. Route labs, tutorials, and large question collections through dedicated topic
    notes or child pages instead of bloating weekly entries.
 7. Validate the smallest relevant path.

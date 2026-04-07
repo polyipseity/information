@@ -24,7 +24,7 @@ tags:
 
 ---
 
-ACCT 3020 builds on ACCT 3010. The course covers accounting for liabilities and equity: current liabilities, provisions and contingencies, non-current liabilities, corporate bonds, equity and dividends, dilutive securities and earnings per share, investments, income taxes, pensions and postretirement benefits, and leases. Instruction combines a user's perspective (interpreting financial information) with a preparer's perspective (journal entries and financial statement presentation). Required textbook: Kieso, Weygandt, Warfield, _Intermediate Accounting: IFRS Edition_, 5th edition (2024), Wiley. Materials and homework are on Canvas; WileyPLUS is used for the e-text and practice.
+ACCT 3020 builds on ACCT 3010. The course covers accounting for liabilities and equity: current liabilities, provisions and contingencies, non-current liabilities, corporate bonds, equity and dividends, dilutive securities and earnings per share, investments, income taxes, pensions and postretirement benefits, and leases. Instruction combines a user's perspective (interpreting financial information) with a preparer's perspective (worked journal entries integrated into topical notes and financial statement presentation). Required textbook: Kieso, Weygandt, Warfield, _Intermediate Accounting: IFRS Edition_, 5th edition (2024), Wiley. Materials and homework are on Canvas; WileyPLUS is used for the e-text and practice.
 
 The content is in teaching order.
 
@@ -49,7 +49,6 @@ The content is in teaching order.
 - [ESG reporting](ESG%20reporting.md)
 - [current liability](current%20liability.md)
 - [equity](equity.md)
-- [journal entries](journal%20entries.md)
 - [non-current liabilities](non-current%20liabilities.md)
 - [provisions and contingencies](provisions%20and%20contingencies.md)
 - [questions](questions.md)
@@ -76,16 +75,6 @@ The content is in teaching order.
   - [§ refinancing and classification as current or long-term](current%20liability.md#refinancing-and-classification-as-current-or-long-term)
   - [§ income tax payable](current%20liability.md#income-tax-payable)
   - [§ compensated absence](current%20liability.md#compensated-absence)
-- [journal entries](journal%20entries.md)
-  - [§ borrowing on a short-term interest-bearing note](journal%20entries.md#borrowing-on-a-short-term-interest-bearing-note)
-  - [§ accruing interest on a short-term note](journal%20entries.md#accruing-interest-on-a-short-term-note)
-  - [§ settling a short-term interest-bearing note](journal%20entries.md#settling-a-short-term-interest-bearing-note)
-  - [§ conversion of accounts payable to notes payable](journal%20entries.md#conversion-of-accounts-payable-to-notes-payable)
-  - [§ accruing implicit interest on a note issued at discount](journal%20entries.md#accruing-implicit-interest-on-a-note-issued-at-discount)
-  - [§ settling a note with implicit interest at maturity](journal%20entries.md#settling-a-note-with-implicit-interest-at-maturity)
-  - [§ recognising income tax payable](journal%20entries.md#recognising-income-tax-payable)
-  - [§ compensated absence: recognising vacation pay when earned](journal%20entries.md#compensated-absence-recognising-vacation-pay-when-earned)
-  - [§ compensated absence: paying vacation when taken](journal%20entries.md#compensated-absence-paying-vacation-when-taken)
 
 ## week 1 lecture 2
 
@@ -102,14 +91,6 @@ The content is in teaching order.
   - [§ assurance-type warranty](provisions%20and%20contingencies.md#assurance-type-warranty)
   - [§ service-type warranty](provisions%20and%20contingencies.md#service-type-warranty)
   - [§ premiums and coupons](provisions%20and%20contingencies.md#premiums-and-coupons-consideration-payable)
-- [journal entries](journal%20entries.md)
-  - [§ warranty provision (assurance type)](journal%20entries.md#warranty-provision-assurance-type)
-  - [§ warranty claim (settlement)](journal%20entries.md#warranty-claim-settlement)
-  - [§ service-type warranty: recording cash as unearned revenue](journal%20entries.md#service-type-warranty-recording-cash-as-unearned-revenue)
-  - [§ service-type warranty: recognizing revenue over time](journal%20entries.md#service-type-warranty-recognizing-revenue-over-time)
-  - [§ premium liability: provision](journal%20entries.md#premium-liability-provision)
-  - [§ premium redemption](journal%20entries.md#premium-redemption)
-  - [§ premium expiry (no redemption)](journal%20entries.md#premium-expiry-no-redemption)
 
 ## week 2 lecture
 
@@ -122,13 +103,6 @@ The content is in teaching order.
   - [§ restructuring](provisions%20and%20contingencies.md#restructuring)
   - [§ contingent liabilities and contingent assets](provisions%20and%20contingencies.md#contingent-liabilities-and-contingent-assets)
   - [§ disclosure for provisions (high level)](provisions%20and%20contingencies.md#disclosure-for-provisions-high-level)
-- [journal entries](journal%20entries.md)
-  - [§ asset retirement obligation (decommissioning): initial recognition](journal%20entries.md#asset-retirement-obligation-decommissioning-initial-recognition)
-  - [§ asset retirement obligation: depreciation of capitalized ARO cost](journal%20entries.md#asset-retirement-obligation-depreciation-of-capitalized-aro-cost)
-  - [§ asset retirement obligation: accretion of liability (interest expense)](journal%20entries.md#asset-retirement-obligation-accretion-of-liability-interest-expense)
-  - [§ asset retirement obligation: settlement (gain or loss)](journal%20entries.md#asset-retirement-obligation-settlement-gain-or-loss)
-  - [§ onerous contract provision](journal%20entries.md#onerous-contract-provision)
-  - [§ restructuring provision](journal%20entries.md#restructuring-provision)
 - [non-current liabilities](non-current%20liabilities.md)
   - [§ definition and classification](non-current%20liabilities.md#definition-and-classification)
   - [§ covenants and restrictions](non-current%20liabilities.md#covenants-and-restrictions)
@@ -145,13 +119,6 @@ The content is in teaching order.
   - [§ bond price: present value calculation](non-current%20liabilities.md#bond-price-present-value-calculation)
   - [§ effective interest method (bonds)](non-current%20liabilities.md#effective-interest-method-bonds)
   - [§ year-end accrual between interest payment dates](non-current%20liabilities.md#year-end-accrual-between-interest-payment-dates)
-- [journal entries](journal%20entries.md)
-  - [§ bond issued at discount (issuance)](journal%20entries.md#bond-issued-at-discount-issuance)
-  - [§ bond interest payment (discount amortization)](journal%20entries.md#bond-interest-payment-discount-amortization)
-  - [§ bond issued at premium (issuance)](journal%20entries.md#bond-issued-at-premium-issuance)
-  - [§ bond interest payment (premium amortization)](journal%20entries.md#bond-interest-payment-premium-amortization)
-  - [§ bond repayment at maturity](journal%20entries.md#bond-repayment-at-maturity)
-  - [§ bond interest accrual at year-end (fraction of period)](journal%20entries.md#bond-interest-accrual-at-year-end-fraction-of-period)
 
 ## week 3 lecture
 
@@ -172,14 +139,6 @@ The content is in teaching order.
   - [§ notes for noncash transactions and fair value hierarchy](non-current%20liabilities.md#notes-for-noncash-transactions-and-fair-value-hierarchy)
   - [§ choosing a discount rate for notes payable](non-current%20liabilities.md#choosing-a-discount-rate-for-notes-payable)
   - [§ extinguishment of debt (overview)](non-current%20liabilities.md#extinguishment-of-debt-overview)
-- [journal entries](journal%20entries.md)
-  - [§ bond issued between interest payment dates (par)](journal%20entries.md#bond-issued-between-interest-payment-dates-par)
-  - [§ zero-interest-bearing note: issuance and interest](journal%20entries.md#zero-interest-bearing-note-issuance-and-interest)
-  - [§ interest-bearing long-term note issued at discount](journal%20entries.md#interest-bearing-long-term-note-issued-at-discount)
-  - [§ note issued for noncash asset (fair value known)](journal%20entries.md#note-issued-for-noncash-asset-fair-value-known)
-  - [§ note issued for noncash asset (fair value unknown; use present value)](journal%20entries.md#note-issued-for-noncash-asset-fair-value-unknown-use-present-value)
-  - [§ extinguishment of debt with cash (bond repurchase)](journal%20entries.md#extinguishment-of-debt-with-cash-bond-repurchase)
-  - [§ extinguishment of debt by transferring property](journal%20entries.md#extinguishment-of-debt-by-transferring-property)
 
 ## week 4 lecture
 
@@ -189,11 +148,6 @@ The content is in teaching order.
 - [non-current liabilities](non-current%20liabilities.md)
   - [§ extinguishment of debt (overview)](non-current%20liabilities.md#extinguishment-of-debt-overview)
   - [§ modification of debt terms](non-current%20liabilities.md#modification-of-debt-terms)
-- [journal entries](journal%20entries.md)
-  - [§ extinguishment of debt with cash (bond repurchase)](journal%20entries.md#extinguishment-of-debt-with-cash-bond-repurchase)
-  - [§ extinguishment of debt by transferring property](journal%20entries.md#extinguishment-of-debt-by-transferring-property)
-  - [§ extinguishment of debt by issuing shares](journal%20entries.md#extinguishment-of-debt-by-issuing-shares)
-  - [§ modification of debt terms (debtor)](journal%20entries.md#modification-of-debt-terms-debtor)
 - [equity](equity.md)
   - [§ issuing shares for non-cash consideration](equity.md#issuing-shares-for-non-cash-consideration)
   - [§ share issue costs: direct versus indirect](equity.md#share-issue-costs-direct-versus-indirect)
@@ -217,12 +171,6 @@ The content is in teaching order.
 - datetime: 2026-03-04T16:30:00+08:00/2026-03-04T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
 - topic: Ch 12 exercises (premium liabilities and compensated absences); introduction to ESG reporting (E, S, G, risks, Hong Kong framework)
-- [journal entries](journal%20entries.md)
-  - [§ premium liability: provision](journal%20entries.md#premium-liability-provision)
-  - [§ premium redemption](journal%20entries.md#premium-redemption)
-  - [§ premium expiry (no redemption)](journal%20entries.md#premium-expiry-no-redemption)
-  - [§ compensated absence: recognising vacation pay when earned](journal%20entries.md#compensated-absence-recognising-vacation-pay-when-earned)
-  - [§ compensated absence: paying vacation when taken](journal%20entries.md#compensated-absence-paying-vacation-when-taken)
 - [provisions and contingencies](provisions%20and%20contingencies.md)
   - [§ contingent liabilities and contingent assets](provisions%20and%20contingencies.md#contingent-liabilities-and-contingent-assets)
   - [§ disclosure for provisions (high level)](provisions%20and%20contingencies.md#disclosure-for-provisions-high-level)

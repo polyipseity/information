@@ -17,7 +17,7 @@ The cumulative distribution function is the most robust way to describe a probab
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A cumulative distribution function describes probability laws on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$ in a way that works for discrete, continuous, mixed, and singular continuous distributions. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- cumulative distribution function / overview ::@:: A cumulative distribution function describes probability laws on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$ in a way that works for discrete, continuous, mixed, and singular continuous distributions. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## definition and density relation
 
@@ -31,7 +31,7 @@ This is why cumulative distribution functions unify the discrete and continuous 
 
 Flashcards for this section are as follows:
 
-- definition ::@:: For a probability measure $P$ on $(\mathbb{R},\mathcal{B}(\mathbb{R}))$, the cumulative distribution function is $F_P(x)=P[(-\infty,x]]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- cumulative distribution function / definition from a probability measure ::@:: For a probability measure $P$ on $(\mathbb{R},\mathcal{B}(\mathbb{R}))$, the cumulative distribution function is $F_P(x)=P[(-\infty,x]]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - interpretation ::@:: The cumulative distribution function $F_P(x)$ measures how much probability has accumulated up to the point $x$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - cdf from density ::@:: If $P$ is characterized by a density $f$, then $F_P(x)=\int_{-\infty}^{x} f(t)\,dt$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - density from cdf ::@:: If $P$ has density $f$ and $f$ is continuous at $x$, then $f(x)=F_P'(x)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
@@ -76,11 +76,11 @@ To prove this jump formula, take any sequence $y_n \uparrow x$ with $y_n<x$. The
 
 Flashcards for this section are as follows:
 
-- value range ::@:: Every cumulative distribution function satisfies $0 \le F(x) \le 1$ for all $x$, because $F(x)=P[(-\infty,x]]$ and every probability lies between $0$ and $1$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- monotonicity ::@:: Every cumulative distribution function is nondecreasing: if $x \le y$, then $(-\infty,x] \subseteq (-\infty,y]$, so monotonicity of probability gives $F(x) \le F(y)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- right continuity ::@:: Every cumulative distribution function is right-continuous: if $x_n \downarrow x$, then $(-\infty,x_n] \downarrow (-\infty,x]$, so continuity of probability from above gives $F(x_n) \downarrow F(x)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- limits at infinity ::@:: Every cumulative distribution function satisfies $\lim_{x\to-\infty}F(x)=0$ and $\lim_{x\to\infty}F(x)=1$, because the half-lines $(-\infty,x]$ decrease to $\varnothing$ on the left and increase to $\mathbb{R}$ on the right. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- jump formula ::@:: If $F(x-)=\lim_{y\uparrow x}F(y)$, then $F(x-)=P[(-\infty,x))$ by continuity from below, and since $(-\infty,x]=(-\infty,x)\cup\{x\}$ is a disjoint union, one gets $F(x)-F(x-)=P[\{x\}]$; jumps of the cumulative distribution function are exactly atoms. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- cumulative distribution function / value range ::@:: Every cumulative distribution function satisfies $0 \le F(x) \le 1$ for all $x$, because $F(x)=P[(-\infty,x]]$ and every probability lies between $0$ and $1$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- cumulative distribution function / monotonicity ::@:: Every cumulative distribution function is nondecreasing: if $x \le y$, then $(-\infty,x] \subseteq (-\infty,y]$, so monotonicity of probability gives $F(x) \le F(y)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- cumulative distribution function / right continuity ::@:: Every cumulative distribution function is right-continuous: if $x_n \downarrow x$, then $(-\infty,x_n] \downarrow (-\infty,x]$, so continuity of probability from above gives $F(x_n) \downarrow F(x)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- cumulative distribution function / limits at infinity ::@:: Every cumulative distribution function satisfies $\lim_{x\to-\infty}F(x)=0$ and $\lim_{x\to\infty}F(x)=1$, because the half-lines $(-\infty,x]$ decrease to $\varnothing$ on the left and increase to $\mathbb{R}$ on the right. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- cumulative distribution function / jump formula for atoms ::@:: If $F(x-)=\lim_{y\uparrow x}F(y)$, then $F(x-)=P[(-\infty,x))$ by continuity from below, and since $(-\infty,x]=(-\infty,x)\cup\{x\}$ is a disjoint union, one gets $F(x)-F(x-)=P[\{x\}]$; jumps of the cumulative distribution function are exactly atoms. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## equality of distributions
 
