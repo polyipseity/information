@@ -23,7 +23,7 @@ Conversely, start from an absolutely continuous probability measure $\mu$ and le
 
 Flashcards for this section are as follows:
 
-- overview ::@:: In the density-based sense, a continuous distribution is an absolutely continuous probability measure on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$; it assigns probabilities to intervals by integration against a probability density function. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- continuous distribution / overview ::@:: In the density-based sense, a continuous distribution is an absolutely continuous probability measure on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$; it assigns probabilities to intervals by integration against a probability density function. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - absolutely continuous probability measure ::@:: A probability measure $\mu$ on $(\mathbb{R},\mathcal{B}(\mathbb{R}))$ is absolutely continuous if $\lambda(A)=0$ implies $\mu(A)=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - absolutely continuous probability measures versus PDFs ::@:: Specifying an absolutely continuous probability measure is equivalent to specifying a probability density function, up to almost-everywhere equality.
 - derivation of absolutely continuous probability measure-PDF correspondence ::@:: Forward direction: from a PDF $f$, define $\mu_f((a,b])=\int_a^b f(x)\,dx$, hence a probability measure. Reverse direction: from an absolutely continuous probability measure $\mu$ with CDF $F$, absolute continuity of $F$ gives a function $f\ge0$ with $F(x)=\int_{-\infty}^x f(t)\,dt$, so $\mu((a,b])=F(b)-F(a)=\int_a^b f(x)\,dx$. Since half-open intervals generate $\mathcal{B}(\mathbb{R})$, the two constructions are inverse up to almost-everywhere equality of densities. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
@@ -75,7 +75,7 @@ Returning to the minibus example, once we pass from the finite partition model t
 
 Flashcards for this section are as follows:
 
-- definition ::@:: A continuous distribution on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$ is a probability measure characterized by a density $f$, so probabilities are computed by integrating $f$ over Borel sets. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- continuous distribution / definition via a density ::@:: A continuous distribution on $(\mathbb{R}, \mathcal{B}(\mathbb{R}))$ is a probability measure characterized by a density $f$, so probabilities are computed by integrating $f$ over Borel sets. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - point mass in continuous distribution ::@:: If $P$ is characterized by a density, then $P[\{a\}] = 0$ for every $a \in \mathbb{R}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - interval endpoints do not matter ::@:: For a continuous distribution and $a < b$, one has $P[[a,b]] = P[(a,b]] = P[(a,b)] = \int_a^b f(x)\,dx$, because adding or removing finitely many endpoints changes probability by $0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - left half-line probability ::@:: For a continuous distribution with density $f$, one has $P[(-\infty,a]] = P[(-\infty,a)) = \int_{-\infty}^a f(x)\,dx$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
@@ -94,7 +94,7 @@ Two especially important examples of continuous distributions are the exponentia
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Two fundamental examples of continuous distributions are the exponential distribution, which models waiting times, and the normal distribution, which models bell-shaped fluctuations around a center.
+- continuous distributions / example overview ::@:: Two fundamental examples of continuous distributions are the exponential distribution, which models waiting times, and the normal distribution, which models bell-shaped fluctuations around a center.
 - exponential versus normal distribution ::@:: The exponential law is distinguished by memorylessness, whereas the normal law is distinguished by its symmetric bell-shaped density centered at $\mu$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### uniform distribution

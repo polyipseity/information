@@ -17,7 +17,7 @@ The joints are likely {@{pinned support}@}, so they can {@{resist translation bu
 
 ## analysis
 
-To {@{simplify analysis}@}, {@{2}@} assumptions are often made: {@{external forces and reaction are considered to act at joints only and the weights of truss members are negligible compared to the applied loads}@}.
+To {@{simplify analysis}@}, {@{2 assumptions}@} are often made: {@{external forces and reaction}@} are considered to {@{act at joints only}@} and {@{the weights of truss members}@} are {@{negligible compared to the applied loads}@}.
 
 Under these assumptions, each truss member {@{must have only 2 forces acting upon it at the end joints, which must be equal in magnitude and opposite in direction (but they are not [action—reaction pair](reaction%20(physics).md))}@}. By this, each truss member is {@{either a [zero force member](zero%20force%20member.md) (0), in tension (positive values), or in compression (negative values)}@}.
 

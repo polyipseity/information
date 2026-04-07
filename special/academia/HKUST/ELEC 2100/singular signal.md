@@ -83,7 +83,7 @@ Flashcards for this section are as follows:
 - What is the signum function? ::@:: It is $-1$ for negative time, $+1$ for positive time, and usually $0$ at the origin by convention.
 - How is the signum function related to the unit step? ::@:: Away from the origin, $\operatorname{sgn}(t)=2u(t)-1$.
 - What is another step-based expression for the signum function? ::@:: It may be written as $\operatorname{sgn}(t)=u(t)-u(-t)$, with care about the convention at the origin.
-- Worked example: Given $g(t)=u(t-1)-u(t-3)$, what is its graph? ::@:: Step 1: the first step turns on at $t=1$, so the signal jumps from $0$ to $1$ there. <br/> Step 2: the second step turns on at $t=3$ with a minus sign, so the signal drops back by $1$ there. <br/> Step 3: therefore $g(t)=0$ for $t<1$, $1$ for $1<t<3$, and $0$ for $t>3$, i.e. a rectangular pulse between $1$ and $3$.
+- Worked example (method: gate-decomposition graphing): Given $g(t)=u(t-1)-u(t-3)$, what is its graph? ::@:: Step 1: the first step turns on at $t=1$, so the signal jumps from $0$ to $1$ there. <br/> Step 2: the second step turns on at $t=3$ with a minus sign, so the signal drops back by $1$ there. <br/> Step 3: therefore $g(t)=0$ for $t<1$, $1$ for $1<t<3$, and $0$ for $t>3$, i.e. a rectangular pulse between $1$ and $3$.
 - Why does a gate differentiate to an impulse pair while a step differentiates to one impulse? ::@:: A step has one switching edge, whereas a gate has two switching edges.
 
 ## unit impulse: pulse limits and generalized functions
@@ -152,7 +152,7 @@ Flashcards for this section are as follows:
 - Why does substituting $\tau=-t$ prove the parity law? ::@:: It shows $\delta(-t)$ has the same action on every test function as $\delta(t)$.
 - Why does substituting $u=at$ prove the scaling law? ::@:: It produces the factor $1/|a|$ in the defining integral, giving $\delta(at)=\frac{1}{|a|}\delta(t)$.
 - Why does testing against a smooth probe prove the multiplication law? ::@:: Both sides give the same sampled value $f(t_0)g(t_0)$ in every integral against a test function. <!-- check: ignore-line[two_sided_calc_warning]: conceptual derivation card -->
-- Worked example: Given $f(t)=2t+1$, what is $\int_{-\infty}^{\infty}(2t+1)\delta(t-3)dt$? ::@:: Step 1: use the sifting property to sample the multiplier at $t=3$. <br/> Step 2: compute $2(3)+1=7$. <br/> Step 3: therefore the integral equals $7$.
+- Worked example (method: sifting): Given $f(t)=2t+1$, what is $\int_{-\infty}^{\infty}(2t+1)\delta(t-3)dt$? ::@:: Step 1: use the sifting property to sample the multiplier at $t=3$. <br/> Step 2: compute $2(3)+1=7$. <br/> Step 3: therefore the integral equals $7$.
 
 ## derivatives of singular signals
 
@@ -177,7 +177,7 @@ Flashcards for this section are as follows:
 - Why do switched signals acquire impulse terms when differentiated? ::@:: Differentiation gives the ordinary derivative on smooth intervals plus an impulse at the switching instant.
 - How should this course differentiate a piecewise-smooth signal with jump discontinuities? ::@:: Differentiate each smooth piece normally, then add a Dirac impulse at each jump with weight equal to the jump size $x(t_0^+)-x(t_0^-)$.
 - How is the derivative contribution of a jump drawn on a graph? ::@:: It is drawn as an impulse arrow at the jump location, because the singular contribution is a Dirac delta rather than an ordinary finite-height spike.
-- Worked example: Given $G_2(t)=u(t+1)-u(t-1)$, what is its derivative? ::@:: Step 1: differentiate the rising edge $u(t+1)$ to get $\delta(t+1)$. <br/> Step 2: differentiate the falling edge $-u(t-1)$ to get $-\delta(t-1)$. <br/> Step 3: add the two contributions to obtain $\delta(t+1)-\delta(t-1)$.
+- Worked example (method: gate-differentiation): Given $G_2(t)=u(t+1)-u(t-1)$, what is its derivative? ::@:: Step 1: differentiate the rising edge $u(t+1)$ to get $\delta(t+1)$. <br/> Step 2: differentiate the falling edge $-u(t-1)$ to get $-\delta(t-1)$. <br/> Step 3: add the two contributions to obtain $\delta(t+1)-\delta(t-1)$.
 
 ## doublet and higher impulse derivatives
 
@@ -217,7 +217,7 @@ Flashcards for this section are as follows:
 - Why does $f(0)\delta'(t)$ not contribute like ordinary area? ::@:: Because $\delta'$ annihilates constants, its integral against $1$ is $0$; the nonzero correction comes from the accompanying $-f'(0)\delta(t)$ term.
 - What do higher impulse derivatives do? ::@:: They satisfy $\int_{-\infty}^{\infty}\delta^{(n)}(t)f(t)dt=(-1)^n f^{(n)}(0)$, so they extract higher-order local derivative information.
 - Why are higher impulse derivatives more singular? ::@:: Each higher derivative reacts to finer local Taylor data of the test function rather than only to value or first slope.
-- Worked example: Given $f(t)=3t^2-1$, what is $\int_{-\infty}^{\infty}(3t^2-1)\delta'(t-2)dt$? ::@:: Step 1: use the doublet sampling rule $\int f(t)\delta'(t-t_0)dt=-f'(t_0)$. <br/> Step 2: differentiate $f(t)$ to get $f'(t)=6t$. <br/> Step 3: evaluate at $t_0=2$ to get $f'(2)=12$. <br/> Step 4: apply the minus sign, giving $-12$.
+- Worked example (method: doublet sampling and differentiation): Given $f(t)=3t^2-1$, what is $\int_{-\infty}^{\infty}(3t^2-1)\delta'(t-2)dt$? ::@:: Step 1: use the doublet sampling rule $\int f(t)\delta'(t-t_0)dt=-f'(t_0)$. <br/> Step 2: differentiate $f(t)$ to get $f'(t)=6t$. <br/> Step 3: evaluate at $t_0=2$ to get $f'(2)=12$. <br/> Step 4: apply the minus sign, giving $-12$.
 
 ## convolution with impulse and impulse derivatives
 
@@ -236,4 +236,4 @@ Flashcards for this section are as follows:
 - What does convolution with the doublet do? ::@:: It differentiates the signal: $f*\delta'=f'$.
 - What does convolution with the nth impulse derivative do? ::@:: It gives the order-$n$ derivative: $f*\delta^{(n)}=f^{(n)}$.
 - Why are impulse derivatives useful in convolution? ::@:: They convert convolution identities into compact differentiation rules, so they encode system calculus efficiently.
-- Worked example: Given $f(t)=e^{-t}u(t)$, what is $f*\delta'(t)$? ::@:: Step 1: use the rule $f*\delta'=f'$. <br/> Step 2: differentiate $e^{-t}u(t)$ using the product rule for switched signals. <br/> Step 3: the smooth part gives $-e^{-t}u(t)$ and the switching at $t=0$ contributes $\delta(t)$. <br/> Step 4: therefore $f*\delta'(t)=-e^{-t}u(t)+\delta(t)$.
+- Worked example (method: convolution-with-derivative identity): Given $f(t)=e^{-t}u(t)$, what is $f*\delta'(t)$? ::@:: Step 1: use the rule $f*\delta'=f'$. <br/> Step 2: differentiate $e^{-t}u(t)$ using the product rule for switched signals. <br/> Step 3: the smooth part gives $-e^{-t}u(t)$ and the switching at $t=0$ contributes $\delta(t)$. <br/> Step 4: therefore $f*\delta'(t)=-e^{-t}u(t)+\delta(t)$.

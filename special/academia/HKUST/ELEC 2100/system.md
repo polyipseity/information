@@ -117,7 +117,8 @@ Flashcards for this section are as follows:
 - memorylessness / example in input-output and impulse-response form ::@:: Example: $y(t)=3x(t)$. Impulse-response form: $h(t)=3\delta(t)$, so the response is concentrated at zero delay and the output uses only the present input.
 - memorylessness / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Impulse-response form: $h(t)=e^{-t}u(t)$. One input impulse creates a decaying tail, so past input values keep affecting the present output.
 - memorylessness / intuition ::@:: Memoryless means "look only at now"; dynamic means "an input now leaves a trace that survives into other times."
-- memorylessness / quick comparison examples ::@:: $y(t)=2x(t-1)+1$, $\tfrac12(x(t)+x(-t))$, $\max\{x[n],x[n-1]\}$, and $n\,x[2n]$ are not memoryless because they use a nonpresent sample, whereas $y(t)=\cos(x(t))$ is memoryless because it applies a pointwise map to the present sample only.
+- memorylessness / non-memoryless example set ::@:: $y(t)=2x(t-1)+1$ uses a past sample, $\tfrac12(x(t)+x(-t))$ uses a reflected future sample, $\max\{x[n],x[n-1]\}$ compares with a past sample, and $n\,x[2n]$ uses a different index altogether, so none are memoryless.
+- memorylessness / memoryless example despite nonlinearity ::@:: $y(t)=\cos(x(t))$ is memoryless because it applies a pointwise map to the present sample only, even though the cosine operation is nonlinear.
 
 ### lumped and distributed viewpoints
 
@@ -177,7 +178,8 @@ Flashcards for this section are as follows:
 - linearity / example in input-output and impulse-response form ::@:: Example: $y(t)=2x(t)-x(t-1)$. Impulse-response form: $h(t)=2\delta(t)-\delta(t-1)$, so the output is a fixed weighted sum of present and delayed inputs and superposition holds.
 - linearity / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=x^2(t)$. There is no single first-order impulse response $h$ with $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, because any such representation would already be linear; a nonlinear kernel description needs higher-order products such as $\iint \delta(t-\tau_1)\delta(t-\tau_2)x(\tau_1)x(\tau_2)\,d\tau_1d\tau_2$.
 - linearity / intuition ::@:: Linear means "add and scale outside or inside the system, and you get the same answer"; nonlinear means the system mixes amplitudes and creates extra interaction terms.
-- linearity / comparison example set ::@:: $y(t)=2x(t-1)+1$, $y(t)=\cos(x(t))$, and $y[n]=\max\{x[n],x[n-1]\}$ are nonlinear, while $y(t)=\tfrac12(x(t)+x(-t))$ and $y[n]=n\,x[2n]$ remain linear because averaging, fixed scaling, and reindexing still preserve superposition.
+- linearity / nonlinear systems comparison examples ::@:: $y(t)=2x(t-1)+1$ fails homogeneity due to the constant offset, $y(t)=\cos(x(t))$ fails superposition due to pointwise nonlinearity, and $y[n]=\max\{x[n],x[n-1]\}$ fails superposition because maximum of sums does not equal sum of maxima.
+- linearity / linear operations despite other failures ::@:: $y(t)=\tfrac12(x(t)+x(-t))$ (even-part operator) and $y[n]=n\,x[2n]$ (scaled-index rule) are linear because averaging, fixed scaling, and reindexing still preserve superposition even though other system properties fail.
 
 ### time invariance
 
@@ -200,7 +202,8 @@ Flashcards for this section are as follows:
 - time invariance / example in input-output and impulse-response form ::@:: Example: $y(t)=x(t)-x(t-1)$. Impulse-response form: $h(t)=\delta(t)-\delta(t-1)$. The same present-minus-delayed rule applies at every absolute time, so shifting the input just shifts the output.
 - time invariance / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\cos(\omega_0 t)x(t)$. Kernel form: $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$. Because the coefficient depends on absolute time, the system law changes with the clock and the shift test fails.
 - time invariance / intuition ::@:: Time invariant means "same rule at every clock time"; time varying means the system itself changes while the signal is passing through it.
-- time invariance / comparison example set ::@:: $y(t)=2x(t-1)+1$, $y(t)=\cos(x(t))$, and $y[n]=\max\{x[n],x[n-1]\}$ are time invariant, whereas the even-part operator and $y[n]=n\,x[2n]$ are not because they are tied to the origin or to absolute index value.
+- time invariance / time-invariant operations ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $y[n]=\max\{x[n],x[n-1]\}$ (windowed maximum) are all time invariant because the same algebraic rule applies at every absolute time.
+- time invariance / time-varying operations due to origin pinning or explicit indexing ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ is not time invariant because reflection is pinned to the origin, and $y[n]=n\,x[2n]$ is not time invariant because the explicit factor $n$ and index scaling $2n$ refer to absolute sample location.
 
 ## causality and stability
 
@@ -233,7 +236,8 @@ Flashcards for this section are as follows:
 - causality / example in input-output and impulse-response form ::@:: Example: $y(t)=x(t)+x(t-2)$. Impulse-response form: $h(t)=\delta(t)+\delta(t-2)$. The system uses only present and past input values.
 - causality / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=x(t+2)$. Impulse-response form: $h(t)=\delta(t+2)$. The negative-time support means the output depends on future input.
 - causality / intuition ::@:: Causal means the system can react only after information arrives; noncausal means some part of the rule reaches into the future.
-- causality / comparison example set ::@:: $y(t)=2x(t-1)+1$, $y(t)=\cos(x(t))$, and $y[n]=\max\{x[n],x[n-1]\}$ are causal, whereas the even-part operator and $y[n]=n\,x[2n]$ are not because they require reflected or future-index samples.
+- causality / causal operations ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $y[n]=\max\{x[n],x[n-1]\}$ (windowed maximum) are all causal because they use only present or past samples.
+- causality / noncausal operations ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ is noncausal because $x(-t_0)$ can lie in the future relative to positive time $t_0$, and $y[n]=n\,x[2n]$ is generally noncausal because for positive $n$ it asks for a future sample at index $2n$.
 
 ### boundedness (BIBO stability)
 
@@ -258,7 +262,8 @@ Flashcards for this section are as follows:
 - boundedness (BIBO stability) / rigorous intuition ::@:: BIBO stability means every finite-amplitude input cage is sent into some finite-amplitude output cage; the output bound may change with the input, but it must remain finite.
 - boundedness (BIBO stability) / nonlinear stable example ::@:: The non-LTI system $y[n]=e^{x[n]}$ is BIBO stable because $|x[n]|\le M$ implies $-M\le x[n]\le M$, hence $e^{-M}\le y[n]\le e^{M}$.
 - boundedness (BIBO stability) / time-varying unstable example ::@:: The non-LTI system $y[n]=(n+1)x[n]$ is not BIBO stable because the bounded input $x[n]\equiv 1$ gives $y[n]=n+1$, which is unbounded.
-- boundedness (BIBO stability) / comparison example set ::@:: $y(t)=2x(t-1)+1$, $y(t)=\cos(x(t))$, $\tfrac12(x(t)+x(-t))$, $\max\{x[n],x[n-1]\}$, and $y[n]=e^{x[n]}$ are BIBO stable for bounded inputs, whereas the integrator and $y[n]=(n+1)x[n]$ are not.
+- boundedness (BIBO stability) / stable linear and nonlinear examples ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (bounded cosine), $\tfrac12(x(t)+x(-t))$ (averaging), $\max\{x[n],x[n-1]\}$ (windowed maximum), and $y[n]=e^{x[n]}$ (bounded exponential when bounded inputs given) are all BIBO stable.
+- boundedness (BIBO stability) / unstable systems (integrator and time-growing multiplier) ::@:: The integrator $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$ with impulse response $h(t)=u(t)$ is not BIBO stable because the bounded input $x(t)=u(t)$ produces the unbounded output $y(t)=tu(t)$. Similarly, $y[n]=(n+1)x[n]$ is not BIBO stable because the bounded input $x[n]\equiv 1$ produces the unbounded output $y[n]=n+1$.
 
 ## linear time-invariant systems and response transfer
 

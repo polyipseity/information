@@ -10,7 +10,7 @@ tags:
 
 ## formal definition
 
-Area can be defined {@{from [axioms](axiom.md)}@}. Area is {@{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability}@}, to {@{the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}@}: (annotation: 6 items: {{congruence, nonnegativity, rectangle}}, {{squeezing, subtraction, union and intersection}})
+Area can be defined {@{from [axioms](axiom.md)}@}. Area is {@{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability}@}, to {@{the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}@}: (annotation: 6 items: {@{congruence, nonnegativity, rectangle}@}, {@{squeezing, subtraction, union and intersection}@})
 
 - [congruence](congruence%20(geometry).md) ::@:: If a set $S$ in $M$ is congruent (same shape and size) to $T$, then $T$ is in $M$ and $a(T) = a(S)$.
 - nonnegativity ::@:: For all set $S$ in $M$, $a(S) \ge 0$.
