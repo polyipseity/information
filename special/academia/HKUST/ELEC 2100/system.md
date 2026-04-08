@@ -31,7 +31,7 @@ This note keeps the general systems vocabulary in one place: what a system is, h
 
 Flashcards for this section are as follows:
 
-- What is a system? ::@:: A system is a rule or device that maps an input signal to an output signal.
+- What is a system in ELEC 2100? ::@:: A system is a rule or device that maps an input signal to an output signal.
 - Why is the systems viewpoint central in ELEC 2100? ::@:: It connects signal descriptions to later transform-based analysis of linear time-invariant systems.
 - How should this `system` note be used relative to the companion LTI notes? ::@:: Use this note for the core vocabulary and classification language of systems, then use `continuous-time LTI system.md`, `discrete-time LTI system.md`, and `convolution.md` for the detailed response mechanics and calculation workflows.
 
@@ -92,7 +92,7 @@ Property-testing exercises are easiest when those questions are tested one at a 
 
 Flashcards for this section are as follows:
 
-- What are the two different classification axes introduced in this section? ::@:: Memoryless versus dynamic asks whether other times matter to the output, whereas lumped versus distributed asks whether the model depends only on time or also on spatial coordinates.
+- What are the two different classification axes introduced here? ::@:: Memoryless versus dynamic asks whether other times matter to the output, whereas lumped versus distributed asks whether the model depends only on time or also on spatial coordinates.
 - What checklist makes system-property testing safer? ::@:: Test one property question at a time: present-only dependence for memorylessness, future-input dependence for causality, superposition for linearity, shift-commutation for time invariance, bounded-input behavior for stability, and one-to-one recovery for invertibility.
 
 ### memorylessness
@@ -111,14 +111,14 @@ Representative rules make the distinction concrete. The affine-delay rule $y(t)=
 
 Flashcards for this section are as follows:
 
-- memorylessness / definition ::@:: A system is memoryless if the output at time $t_0$ depends only on the input value at the same time $t_0$; any system whose output also depends on other times is dynamic.
-- memorylessness / present-only clarification ::@:: Memoryless means the present output depends on the present input only, so both past-input dependence and future-input dependence are excluded.
-- memorylessness / kernel test ::@:: In a linear kernel form $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, memorylessness means $h(t,\tau)=a(t)\delta(t-\tau)$, and in the LTI special case this becomes $h(t)=K\delta(t)$.
-- memorylessness / example in input-output and impulse-response form ::@:: Example: $y(t)=3x(t)$. Impulse-response form: $h(t)=3\delta(t)$, so the response is concentrated at zero delay and the output uses only the present input.
-- memorylessness / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Impulse-response form: $h(t)=e^{-t}u(t)$. One input impulse creates a decaying tail, so past input values keep affecting the present output.
-- memorylessness / intuition ::@:: Memoryless means "look only at now"; dynamic means "an input now leaves a trace that survives into other times."
-- memorylessness / non-memoryless example set ::@:: $y(t)=2x(t-1)+1$ uses a past sample, $\tfrac12(x(t)+x(-t))$ uses a reflected future sample, $\max\{x[n],x[n-1]\}$ compares with a past sample, and $n\,x[2n]$ uses a different index altogether, so none are memoryless.
-- memorylessness / memoryless example despite nonlinearity ::@:: $y(t)=\cos(x(t))$ is memoryless because it applies a pointwise map to the present sample only, even though the cosine operation is nonlinear.
+- What does memorylessness mean? ::@:: A system is memoryless if the output at time $t_0$ depends only on the input value at the same time $t_0$; any system whose output also depends on other times is dynamic.
+- What does the present-only clarification for memorylessness say? ::@:: Memoryless means the present output depends on the present input only, so both past-input dependence and future-input dependence are excluded.
+- What is the kernel test for memorylessness? ::@:: In a linear kernel form $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, memorylessness means $h(t,\tau)=a(t)\delta(t-\tau)$, and in the LTI special case this becomes $h(t)=K\delta(t)$.
+- What is the memoryless example $y(t)=3x(t)$ in impulse-response form? ::@:: Its impulse-response form is $h(t)=3\delta(t)$, so the response is concentrated at zero delay and the output uses only the present input.
+- What is the dynamic counterexample $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$ in impulse-response form? ::@:: Its impulse-response form is $h(t)=e^{-t}u(t)$, so one input impulse creates a decaying tail and past input values keep affecting the present output.
+- What is the intuition behind memorylessness? ::@:: Memoryless means "look only at now"; dynamic means "an input now leaves a trace that survives into other times."
+- Which example systems are not memoryless because they use other indices or times? ::@:: $y(t)=2x(t-1)+1$ uses a past sample, $\tfrac12(x(t)+x(-t))$ uses a reflected future sample, $\max\{x[n],x[n-1]\}$ compares with a past sample, and $n\,x[2n]$ uses a different index altogether, so none are memoryless.
+- Why is $y(t)=\cos(x(t))$ still memoryless? ::@:: It applies a pointwise map to the present sample only, even though the cosine operation is nonlinear.
 
 ### lumped and distributed viewpoints
 
@@ -130,9 +130,9 @@ This classification is independent of memorylessness. A system can be lumped yet
 
 Flashcards for this section are as follows:
 
-- lumped and distributed viewpoints / definition ::@:: Lumped systems depend only on time and are usually modeled by ordinary differential equations, whereas distributed systems depend on both time and space and are usually modeled by partial differential equations.
-- lumped and distributed viewpoints / standard examples ::@:: A low-frequency RLC circuit is a standard lumped example, whereas a transmission line or waveguide is a standard distributed example.
-- lumped and distributed viewpoints / intuition ::@:: Lumped means the system state can be summarized by time-varying variables only; distributed means the state is spread across space as well as time.
+- What is the lumped-versus-distributed distinction? ::@:: Lumped systems depend only on time and are usually modeled by ordinary differential equations, whereas distributed systems depend on both time and space and are usually modeled by partial differential equations.
+- What are standard examples of lumped and distributed systems? ::@:: A low-frequency RLC circuit is a standard lumped example, whereas a transmission line or waveguide is a standard distributed example.
+- What is the intuition behind lumped versus distributed systems? ::@:: Lumped means the system state can be summarized by time-varying variables only; distributed means the state is spread across space as well as time.
 
 ## invertibility, linearity, and time invariance
 
@@ -154,9 +154,9 @@ A representative comparison set shows several distinct failure modes. The affine
 
 Flashcards for this section are as follows:
 
-- invertibility / definition ::@:: A system is invertible if different inputs produce different outputs, so an inverse system can recover the original input from the output.
-- invertibility / non-invertible meaning ::@:: A system is non-invertible when different inputs can collapse to the same output, so unique recovery is impossible.
-- invertibility / comparison example set ::@:: $y(t)=2x(t-1)+1$ is invertible via $x(t)=\frac{y(t+1)-1}{2}$, whereas $\cos(x(t))$, the even-part operator, $\max\{x[n],x[n-1]\}$, and $n\,x[2n]$ are non-invertible because they merge distinct inputs into the same output in different ways.
+- What is invertibility? ::@:: A system is invertible if different inputs produce different outputs, so an inverse system can recover the original input from the output.
+- What does non-invertible mean? ::@:: A system is non-invertible when different inputs can collapse to the same output, so unique recovery is impossible.
+- Which example systems are invertible or non-invertible in the comparison set? ::@:: $y(t)=2x(t-1)+1$ is invertible via $x(t)=\frac{y(t+1)-1}{2}$, whereas $\cos(x(t))$, the even-part operator, $\max\{x[n],x[n-1]\}$, and $n\,x[2n]$ are non-invertible because they merge distinct inputs into the same output in different ways.
 
 ### linearity
 
@@ -174,12 +174,12 @@ The same comparison set is useful because it separates structure from surface ap
 
 Flashcards for this section are as follows:
 
-- linearity / definition ::@:: A system is linear if it satisfies homogeneity and superposition, meaning $H[c_1x_1+c_2x_2]=c_1H[x_1]+c_2H[x_2]$ for arbitrary signals and constants.
-- linearity / example in input-output and impulse-response form ::@:: Example: $y(t)=2x(t)-x(t-1)$. Impulse-response form: $h(t)=2\delta(t)-\delta(t-1)$, so the output is a fixed weighted sum of present and delayed inputs and superposition holds.
-- linearity / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=x^2(t)$. There is no single first-order impulse response $h$ with $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, because any such representation would already be linear; a nonlinear kernel description needs higher-order products such as $\iint \delta(t-\tau_1)\delta(t-\tau_2)x(\tau_1)x(\tau_2)\,d\tau_1d\tau_2$.
-- linearity / intuition ::@:: Linear means "add and scale outside or inside the system, and you get the same answer"; nonlinear means the system mixes amplitudes and creates extra interaction terms.
-- linearity / nonlinear systems comparison examples ::@:: $y(t)=2x(t-1)+1$ fails homogeneity due to the constant offset, $y(t)=\cos(x(t))$ fails superposition due to pointwise nonlinearity, and $y[n]=\max\{x[n],x[n-1]\}$ fails superposition because maximum of sums does not equal sum of maxima.
-- linearity / linear operations despite other failures ::@:: $y(t)=\tfrac12(x(t)+x(-t))$ (even-part operator) and $y[n]=n\,x[2n]$ (scaled-index rule) are linear because averaging, fixed scaling, and reindexing still preserve superposition even though other system properties fail.
+- What is linearity? ::@:: A system is linear if it satisfies homogeneity and superposition, meaning $H[c_1x_1+c_2x_2]=c_1H[x_1]+c_2H[x_2]$ for arbitrary signals and constants.
+- What is the linear example in input-output and impulse-response form? ::@:: Example: $y(t)=2x(t)-x(t-1)$. Impulse-response form: $h(t)=2\delta(t)-\delta(t-1)$, so the output is a fixed weighted sum of present and delayed inputs and superposition holds.
+- What is the nonlinear counterexample in input-output and impulse-response form? ::@:: Counterexample: $y(t)=x^2(t)$. There is no single first-order impulse response $h$ with $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, because any such representation would already be linear; a nonlinear kernel description needs higher-order products such as $\iint \delta(t-\tau_1)\delta(t-\tau_2)x(\tau_1)x(\tau_2)\,d\tau_1d\tau_2$.
+- What is the intuition behind linearity? ::@:: Linear means "add and scale outside or inside the system, and you get the same answer"; nonlinear means the system mixes amplitudes and creates extra interaction terms.
+- Which example systems fail superposition or homogeneity? ::@:: $y(t)=2x(t-1)+1$ fails homogeneity due to the constant offset, $y(t)=\cos(x(t))$ fails superposition due to pointwise nonlinearity, and $y[n]=\max\{x[n],x[n-1]\}$ fails superposition because maximum of sums does not equal sum of maxima.
+- Which example systems are linear despite other failures? ::@:: $y(t)=\tfrac12(x(t)+x(-t))$ (even-part operator) and $y[n]=n\,x[2n]$ (scaled-index rule) are linear because averaging, fixed scaling, and reindexing still preserve superposition even though other system properties fail.
 
 ### time invariance
 
@@ -197,13 +197,13 @@ Again, the same comparison set is a useful source of contrasts. The affine-delay
 
 Flashcards for this section are as follows:
 
-- time invariance / definition ::@:: A system is time invariant if delaying the input by $t_0$ simply delays the output by the same $t_0$, so $H[x(t-t_0)]=y(t-t_0)$ whenever $H[x(t)]=y(t)$.
-- time invariance / kernel test ::@:: In a linear kernel description, time invariance means the kernel depends only on the difference $t-\tau$, so it can be written as a one-variable impulse response $h(t-\tau)$.
-- time invariance / example in input-output and impulse-response form ::@:: Example: $y(t)=x(t)-x(t-1)$. Impulse-response form: $h(t)=\delta(t)-\delta(t-1)$. The same present-minus-delayed rule applies at every absolute time, so shifting the input just shifts the output.
-- time invariance / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\cos(\omega_0 t)x(t)$. Kernel form: $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$. Because the coefficient depends on absolute time, the system law changes with the clock and the shift test fails.
-- time invariance / intuition ::@:: Time invariant means "same rule at every clock time"; time varying means the system itself changes while the signal is passing through it.
-- time invariance / time-invariant operations ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $y[n]=\max\{x[n],x[n-1]\}$ (windowed maximum) are all time invariant because the same algebraic rule applies at every absolute time.
-- time invariance / time-varying operations due to origin pinning or explicit indexing ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ is not time invariant because reflection is pinned to the origin, and $y[n]=n\,x[2n]$ is not time invariant because the explicit factor $n$ and index scaling $2n$ refer to absolute sample location.
+- What is time invariance? ::@:: A system is time invariant if delaying the input by $t_0$ simply delays the output by the same $t_0$, so $H[x(t-t_0)]=y(t-t_0)$ whenever $H[x(t)]=y(t)$.
+- What is the kernel test for time invariance? ::@:: In a linear kernel description, time invariance means the kernel depends only on the difference $t-\tau$, so it can be written as a one-variable impulse response $h(t-\tau)$.
+- What is the time-invariant example in input-output and impulse-response form? ::@:: Example: $y(t)=x(t)-x(t-1)$. Impulse-response form: $h(t)=\delta(t)-\delta(t-1)$. The same present-minus-delayed rule applies at every absolute time, so shifting the input just shifts the output.
+- What is the time-varying counterexample in input-output and impulse-response form? ::@:: Counterexample: $y(t)=\cos(\omega_0 t)x(t)$. Kernel form: $h(t,\tau)=\cos(\omega_0 t)\delta(t-\tau)$. Because the coefficient depends on absolute time, the system law changes with the clock and the shift test fails.
+- What is the intuition behind time invariance? ::@:: Time invariant means "same rule at every clock time"; time varying means the system itself changes while the signal is passing through it.
+- Which example systems are time invariant? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $y[n]=\max\{x[n],x[n-1]\}$ (windowed maximum) are all time invariant because the same algebraic rule applies at every absolute time.
+- Which example systems are time varying due to origin pinning or explicit indexing? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ is not time invariant because reflection is pinned to the origin, and $y[n]=n\,x[2n]$ is not time invariant because the explicit factor $n$ and index scaling $2n$ refer to absolute sample location.
 
 ## causality and stability
 
@@ -213,7 +213,7 @@ A third cluster of properties asks whether the system can run in real time and w
 
 Flashcards for this section are as follows:
 
-- causality and boundedness / comparison ::@:: Causality asks whether future input is needed, whereas boundedness asks whether bounded input always produces bounded output.
+- What do causality and boundedness ask? ::@:: Causality asks whether future input is needed, whereas boundedness asks whether bounded input always produces bounded output.
 
 ### causality
 
@@ -231,13 +231,13 @@ The same comparison examples are useful here as well. The affine-delay rule, the
 
 Flashcards for this section are as follows:
 
-- causality / definition ::@:: A system is causal if the output at time $t$ depends only on input values at times $\tau\le t$ and never on future input values.
-- causality / impulse-response test ::@:: In a linear kernel description, causality means $h(t,\tau)=0$ for $\tau>t$; for an LTI system this becomes $h(t)=0$ for negative time.
-- causality / example in input-output and impulse-response form ::@:: Example: $y(t)=x(t)+x(t-2)$. Impulse-response form: $h(t)=\delta(t)+\delta(t-2)$. The system uses only present and past input values.
-- causality / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=x(t+2)$. Impulse-response form: $h(t)=\delta(t+2)$. The negative-time support means the output depends on future input.
-- causality / intuition ::@:: Causal means the system can react only after information arrives; noncausal means some part of the rule reaches into the future.
-- causality / causal operations ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $y[n]=\max\{x[n],x[n-1]\}$ (windowed maximum) are all causal because they use only present or past samples.
-- causality / noncausal operations ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ is noncausal because $x(-t_0)$ can lie in the future relative to positive time $t_0$, and $y[n]=n\,x[2n]$ is generally noncausal because for positive $n$ it asks for a future sample at index $2n$.
+- What is causality? ::@:: A system is causal if the output at time $t$ depends only on input values at times $\tau\le t$ and never on future input values.
+- What is the impulse-response test for causality? ::@:: In a linear kernel description, causality means $h(t,\tau)=0$ for $\tau>t$; for an LTI system this becomes $h(t)=0$ for negative time.
+- What is the causal example in input-output and impulse-response form? ::@:: Example: $y(t)=x(t)+x(t-2)$. Impulse-response form: $h(t)=\delta(t)+\delta(t-2)$. The system uses only present and past input values.
+- What is the noncausal counterexample in input-output and impulse-response form? ::@:: Counterexample: $y(t)=x(t+2)$. Impulse-response form: $h(t)=\delta(t+2)$. The negative-time support means the output depends on future input.
+- What is the intuition behind causality? ::@:: Causal means the system can react only after information arrives; noncausal means some part of the rule reaches into the future.
+- Which example systems are causal? ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (pointwise cosine), and $y[n]=\max\{x[n],x[n-1]\}$ (windowed maximum) are all causal because they use only present or past samples.
+- Which example systems are noncausal? ::@:: The even-part operator $\tfrac12(x(t)+x(-t))$ is noncausal because $x(-t_0)$ can lie in the future relative to positive time $t_0$, and $y[n]=n\,x[2n]$ is generally noncausal because for positive $n$ it asks for a future sample at index $2n$.
 
 ### boundedness (BIBO stability)
 
@@ -255,15 +255,15 @@ The same comparison examples add several quick recognition patterns, including n
 
 Flashcards for this section are as follows:
 
-- boundedness (BIBO stability) / rigorous definition ::@:: A system is BIBO stable if whenever there exists a finite constant $M_x$ with $|x(t)|\le M_x$ for all $t$ or $|x[n]|\le M_x$ for all $n$, there also exists a finite constant $M_y$ such that $|y(t)|\le M_y$ for all $t$ or $|y[n]|\le M_y$ for all $n$.
-- boundedness (BIBO stability) / LTI impulse-response test ::@:: For an LTI system, a key sufficient and standard recognition test is absolute integrability of the impulse response: if $\int_{-\infty}^{\infty}|h(t)|\,dt<\infty$, then bounded inputs stay bounded.
-- boundedness (BIBO stability) / example in input-output and impulse-response form ::@:: Example: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Impulse-response form: $h(t)=e^{-t}u(t)$. Its total impulse-response area is finite, so bounded inputs give bounded outputs.
-- boundedness (BIBO stability) / counterexample in input-output and impulse-response form ::@:: Counterexample: $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$. Impulse-response form: $h(t)=u(t)$. The bounded input $x(t)=u(t)$ produces the unbounded ramp $y(t)=tu(t)$, so the system is not BIBO stable.
-- boundedness (BIBO stability) / rigorous intuition ::@:: BIBO stability means every finite-amplitude input cage is sent into some finite-amplitude output cage; the output bound may change with the input, but it must remain finite.
-- boundedness (BIBO stability) / nonlinear stable example ::@:: The non-LTI system $y[n]=e^{x[n]}$ is BIBO stable because $|x[n]|\le M$ implies $-M\le x[n]\le M$, hence $e^{-M}\le y[n]\le e^{M}$.
-- boundedness (BIBO stability) / time-varying unstable example ::@:: The non-LTI system $y[n]=(n+1)x[n]$ is not BIBO stable because the bounded input $x[n]\equiv 1$ gives $y[n]=n+1$, which is unbounded.
-- boundedness (BIBO stability) / stable linear and nonlinear examples ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (bounded cosine), $\tfrac12(x(t)+x(-t))$ (averaging), $\max\{x[n],x[n-1]\}$ (windowed maximum), and $y[n]=e^{x[n]}$ (bounded exponential when bounded inputs given) are all BIBO stable.
-- boundedness (BIBO stability) / unstable systems (integrator and time-growing multiplier) ::@:: The integrator $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$ with impulse response $h(t)=u(t)$ is not BIBO stable because the bounded input $x(t)=u(t)$ produces the unbounded output $y(t)=tu(t)$. Similarly, $y[n]=(n+1)x[n]$ is not BIBO stable because the bounded input $x[n]\equiv 1$ produces the unbounded output $y[n]=n+1$.
+- What is the rigorous definition of BIBO stability? ::@:: A system is BIBO stable if whenever there exists a finite constant $M_x$ with $|x(t)|\le M_x$ for all $t$ or $|x[n]|\le M_x$ for all $n$, there also exists a finite constant $M_y$ such that $|y(t)|\le M_y$ for all $t$ or $|y[n]|\le M_y$ for all $n$.
+- What is the LTI impulse-response test for BIBO stability? ::@:: For an LTI system, a key sufficient and standard recognition test is absolute integrability of the impulse response: if $\int_{-\infty}^{\infty}|h(t)|\,dt<\infty$, then bounded inputs stay bounded.
+- What is the stable example in input-output and impulse-response form? ::@:: Example: $y(t)=\int_{-\infty}^{t} e^{-(t-\tau)}x(\tau)\,d\tau$. Impulse-response form: $h(t)=e^{-t}u(t)$. Its total impulse-response area is finite, so bounded inputs give bounded outputs.
+- What is the unstable counterexample in input-output and impulse-response form? ::@:: Counterexample: $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$. Impulse-response form: $h(t)=u(t)$. The bounded input $x(t)=u(t)$ produces the unbounded ramp $y(t)=tu(t)$, so the system is not BIBO stable.
+- What is the rigorous intuition behind BIBO stability? ::@:: BIBO stability means every finite-amplitude input cage is sent into some finite-amplitude output cage; the output bound may change with the input, but it must remain finite.
+- What is the nonlinear stable example? ::@:: The non-LTI system $y[n]=e^{x[n]}$ is BIBO stable because $|x[n]|\le M$ implies $-M\le x[n]\le M$, hence $e^{-M}\le y[n]\le e^{M}$.
+- What is the time-varying unstable example? ::@:: The non-LTI system $y[n]=(n+1)x[n]$ is not BIBO stable because the bounded input $x[n]\equiv 1$ gives $y[n]=n+1$, which is unbounded.
+- Which systems are BIBO stable in the comparison set? (affine delay, bounded cosine, averaging, windowed maximum, bounded exponential, integrator, $(n+1) \cdot$) ::@:: $y(t)=2x(t-1)+1$ (affine delay), $y(t)=\cos(x(t))$ (bounded cosine), $\tfrac12(x(t)+x(-t))$ (averaging), $\max\{x[n],x[n-1]\}$ (windowed maximum), and $y[n]=e^{x[n]}$ (bounded exponential when bounded inputs given) are all BIBO stable.
+- Which systems are not BIBO stable in the comparison set? (affine delay, bounded cosine, averaging, windowed maximum, bounded exponential, integrator, $(n+1) \cdot$) ::@:: The integrator $y(t)=\int_{-\infty}^{t}x(\tau)\,d\tau$ with impulse response $h(t)=u(t)$ is not BIBO stable because the bounded input $x(t)=u(t)$ produces the unbounded output $y(t)=tu(t)$. Similarly, $y[n]=(n+1)x[n]$ is not BIBO stable because the bounded input $x[n]\equiv 1$ produces the unbounded output $y[n]=n+1$.
 
 ## linear time-invariant systems and response transfer
 

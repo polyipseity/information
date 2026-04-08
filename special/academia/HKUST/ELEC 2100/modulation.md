@@ -28,9 +28,9 @@ Modulation moves a signal from its original baseband location to a new spectral 
 
 Flashcards for this section are as follows:
 
-- What is the main purpose of the modulation note in ELEC 2100? ::@:: It explains why signals are moved away from baseband, how that frequency translation is done mathematically and physically, and how demodulation and multiplexing recover or share information-bearing signals.
-- What is modulation in one sentence? ::@:: It is the process of embedding an information-carrying signal into another signal form, typically by moving its spectrum to a carrier-centered frequency region.
-- What is demodulation in one sentence? ::@:: It is the process of extracting the information-carrying signal from the modulated signal.
+- What core communication idea does the modulation note explain in ELEC 2100? ::@:: It explains how a baseband message is translated to a carrier-centered band so transmission, channel separation, and receiver recovery become practical.
+- What is modulation in one sentence? ::@:: It is the process of multiplying or otherwise combining an information-carrying signal with a carrier so the message spectrum moves into a more useful frequency region.
+- What is demodulation in one sentence? ::@:: It is the process of reversing that carrier translation so the original information-bearing signal is recovered at baseband.
 
 ## communication setting, channel constraints, and implementation overview
 
@@ -44,10 +44,10 @@ This already explains why modulation and demodulation are system-level ideas rat
 
 Flashcards for this section are as follows:
 
-- What is the basic communication-chain viewpoint behind modulation? ::@:: A message source produces a baseband signal, the transmitter modulates it for the channel, the channel carries it, and the receiver demodulates it to recover the original information.
-- What is the baseband signal in this note? ::@:: It is the original information-bearing signal before it is shifted to a carrier-centered band.
-- What is the carrier in this modulation note? ::@:: It is a higher-frequency reference waveform, typically $\cos(\omega_0 t)$, used to shift the baseband spectrum to a new frequency region.
-- Why does modulation not change the information content in principle? ::@:: Because its purpose is to relocate the signal spectrally for transmission, not to alter the underlying message.
+- What basic communication-chain picture underlies modulation and demodulation? ::@:: A message source produces a baseband signal, the transmitter translates it to a carrier band, the channel carries it, and the receiver translates it back to recover the original information.
+- What is the baseband signal in this note? ::@:: It is the original information-bearing waveform before it is shifted to a carrier-centered band.
+- What is the carrier in this modulation note? ::@:: It is a higher-frequency reference waveform, typically $\cos(\omega_0 t)$, used to move the baseband spectrum into a new frequency region.
+- Why does modulation not change the information content in principle? ::@:: Because its purpose is to relocate the signal spectrally for transmission, not to alter the message itself.
 - What blocks commonly appear in a practical modulation and demodulation chain? ::@:: A transmitter often uses a local oscillator, mixer or multiplier, filters, and sometimes an amplifier. A receiver often uses a front-end BPF, a mixer or product detector, a synchronized local oscillator, an LPF for baseband recovery, and then gain or decision circuitry.
 - Why are BPF and LPF blocks already conceptually present before the detailed formulas? ::@:: Because modulation is really spectrum placement and spectrum selection, so channel filters and baseband-recovery filters are part of the idea from the beginning.
 

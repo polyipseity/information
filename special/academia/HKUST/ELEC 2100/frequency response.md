@@ -27,8 +27,8 @@ Frequency response is the frequency-domain description of how an LTI system proc
 
 Flashcards for this section are as follows:
 
-- What is the main purpose of the frequency-response note in ELEC 2100? ::@:: It explains how an LTI system acts on spectral components in the frequency domain, so system analysis becomes multiplication by a system function rather than repeated time-domain convolution.
-- Why does frequency response naturally follow earlier Fourier-transform material? ::@:: Because once signals are decomposed into frequency components, the next question is how a system scales and phase-shifts each component.
+- What role does frequency response play in the system-side analysis of an LTI system? ::@:: It explains how an LTI system acts on spectral components in the frequency domain, so system analysis becomes multiplication by a system function rather than repeated time-domain convolution.
+- Why does frequency-response analysis naturally come after Fourier-transform analysis of signals? ::@:: Because once signals are decomposed into frequency components, the next question is how a system scales and phase-shifts each component.
 
 ## time-domain and frequency-domain zero-state viewpoints
 
@@ -44,7 +44,7 @@ Flashcards for this section are as follows:
 
 - How are the time-domain and frequency-domain zero-state viewpoints related for an LTI system? ::@:: They are the same law in different coordinates: time-domain analysis uses $y(t)=x*h$, while frequency-domain analysis uses $Y(\omega)=H(\omega)X(\omega)$ after Fourier transformation.
 - When is convolution usually the more natural viewpoint, and when is frequency response usually the more natural viewpoint? ::@:: Convolution is more natural when support, overlap, delays, and transient shape are the focus, whereas frequency response is more natural when the goal is to see how each sinusoidal component is amplified, attenuated, or phase shifted.
-- What is the bridge quantity that connects convolution with frequency response? ::@:: It is the system function $H(\omega)=\mathcal{F}\{h(t)\}$, the Fourier transform of the impulse response.
+- What quantity bridges convolution and frequency response? ::@:: It is the system function $H(\omega)=\mathcal{F}\{h(t)\}$, the Fourier transform of the impulse response.
 
 ## complex exponentials as LTI eigenfunctions
 

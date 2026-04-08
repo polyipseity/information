@@ -25,9 +25,9 @@ The note is slightly more ambitious than the previous version. Inside each Fouri
 
 Flashcards for this section are as follows:
 
-- What is the starting transform pair for `unified Fourier representations.md`? ::@:: The note starts from the non-unitary angular-frequency Fourier transform $F(\omega)=\int_{-\infty}^{\infty}f(t)e^{-j\omega t}\,dt$ and $f(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}F(\omega)e^{j\omega t}\,d\omega$.
+- What continuous-time Fourier pair does this bridge note start from? ::@:: It starts from the non-unitary angular-frequency Fourier transform $F(\omega)=\int_{-\infty}^{\infty}f(t)e^{-j\omega t}\,dt$ and $f(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}F(\omega)e^{j\omega t}\,d\omega$.
 - What fixed derivation pattern does this note follow whenever one axis is discretized? ::@:: First multiply by a Dirac comb in the domain being discretized. Then use the convolution theorem to identify the corresponding operation in the other domain. Only after that rescale variables to integer labels and fix the normalization to match course convention.
-- What extra material does this rewrite now include inside each representation? ::@:: It now keeps together the analysis formula, synthesis formula, convolution theorem, dual theorem, and the relevant Parseval or power relations for that representation.
+- What extra material does this rewrite now include inside each representation? ::@:: It keeps together the analysis formula, synthesis formula, convolution theorem, dual theorem, and the relevant Parseval or power relations for that representation.
 
 ## the comb identities used throughout
 

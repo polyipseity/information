@@ -28,7 +28,7 @@ This note is the continuous-time aperiodic member of the Fourier family. It grow
 
 Flashcards for this section are as follows:
 
-- What is the main purpose of the Fourier transform in ELEC 2100? ::@:: It extends frequency-domain analysis from periodic signals with line spectra to aperiodic signals with continuous spectra.
+- What core problem does the Fourier transform note solve in ELEC 2100? ::@:: It converts a continuous-time aperiodic signal into a continuous frequency spectrum so the signal’s spectral content can be analyzed, filtered, and reconstructed when needed.
 - Why is the Fourier transform more than just another formula pair? ::@:: It becomes a structural toolkit: many time-domain operations turn into simpler frequency-domain rules for shifting, scaling, differentiation, modulation, and convolution.
 - How should this note be positioned among the main Fourier notes in ELEC 2100? ::@:: This note is the continuous-time aperiodic case. Fourier series handles continuous-time periodic signals, DTFT handles general discrete-time sequences, and DFT handles finite-record or period-$N$ discrete data on a sampled digital-frequency grid.
 

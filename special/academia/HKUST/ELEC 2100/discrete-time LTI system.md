@@ -51,7 +51,7 @@ This is why the course keeps separate continuous-time and discrete-time notes in
 
 Flashcards for this section are as follows:
 
-- What is the quickest structural comparison between the continuous-time and discrete-time LTI notes? ::@:: Continuous time uses differential equations, Dirac-impulse responses, and convolution integrals, whereas discrete time uses difference equations, unit-sample responses, and convolution sums.
+- What is the quickest structural comparison between the two LTI notes? ::@:: Continuous time uses differential equations, Dirac-impulse responses, and convolution integrals, whereas discrete time uses difference equations, unit-sample responses, and convolution sums.
 - How do the causality and BIBO stability tests compare in continuous time and discrete time? ::@:: Continuous time uses $h(t)=0$ for $t<0$ and absolute integrability of $h(t)$, whereas discrete time uses $h[n]=0$ for $n<0$ and absolute summability of $h[n]$.
 - What is the right analogy between a first-order continuous-time impulse response and a first-order discrete-time impulse response? ::@:: A one-sided exponential such as $e^{-at}u(t)$ in continuous time corresponds structurally to a one-sided geometric sequence such as $a^n u[n]$ in discrete time.
 - Why does ELEC 2100 keep separate continuous-time and discrete-time LTI notes instead of forcing one merged treatment? ::@:: Because the conceptual map is shared, but the algebra, support language, and computational workflow are different enough that each medium deserves its own durable explanation.

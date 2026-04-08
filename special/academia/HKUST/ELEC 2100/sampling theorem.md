@@ -30,7 +30,7 @@ This note keeps both the time-domain and frequency-domain viewpoints visible. In
 
 Flashcards for this section are as follows:
 
-- What is the main purpose of the sampling-theorem note in ELEC 2100? ::@:: It explains when uniformly spaced samples retain all information in a bandlimited continuous-time signal and how exact or approximate reconstruction follows from that condition.
+- What core problem does the sampling theorem note solve in ELEC 2100? ::@:: It explains when uniformly spaced samples retain all information in a bandlimited continuous-time signal and what reconstruction rule recovers the original waveform from those samples.
 - What is the central frequency-domain idea behind the sampling theorem? ::@:: Sampling creates repeated spectral copies, and perfect recovery is possible exactly when those copies remain separated instead of overlapping.
 
 ## sampling model and notation
@@ -188,7 +188,7 @@ Flashcards for this section are as follows:
 - Worked example (method: spectral-folding and aliasing calculation): If $x(t)=\cos(10t)$ is sampled with angular sampling frequency $\omega_s=14\text{ rad/s}$, why does aliasing make it look like a lower-frequency cosine? ::@:: Step 1: the sampling interval is $T=2\pi/14$. <br/> Step 2: the samples are $x[n]=\cos(10nT)=\cos(10\pi n/7)$. <br/> Step 3: since $10\pi/7=2\pi-4\pi/7$, the same samples equal $\cos(4\pi n/7)$. <br/> Step 4: that normalized frequency corresponds to the analog alias at $\omega=14-10=4\text{ rad/s}$. <br/> Step 5: so undersampling makes the original $10\text{ rad/s}$ cosine indistinguishable from a reconstructed $4\text{ rad/s}$ cosine.
 - With an anti-aliasing filter, what error remains, and why is it better than no filter? ::@:: With the filter, only the removed high-frequency content is lost. Without the filter, those high-frequency components also fold into false low-frequency components, which is worse because spurious content is added where it should not exist.
 - How should you draw the anti-aliasing block diagram? ::@:: Draw $x(t)$ entering a block labeled _LPF (anti-aliasing filter)_, then a sampler block, and finally the discrete-time output $x_d[n]$. The LPF must appear before sampling.
-- What are three common anti-aliasing examples to remember? ::@:: Voice sampled at $8\text{ kHz}$ needs analog filtering above $4\text{ kHz}$; thumbnail generation needs low-pass filtering to avoid Moiré patterns; and digital cameras often blur the optical image slightly before sensor sampling to suppress spatial aliasing.
+- What are three common anti-aliasing examples to remember? ::@:: Voice sampled at $8\text{ kHz}$ needs analog filtering above $4\text{ kHz}$; thumbnail generation needs low-pass filtering to avoid Moir\'e patterns; and digital cameras often blur the optical image slightly before sensor sampling to suppress spatial aliasing.
 
 ## reading maximum sampling interval from a spectrum
 

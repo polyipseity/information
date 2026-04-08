@@ -35,7 +35,7 @@ This note is also the main home for the discrete-time Fourier series viewpoint, 
 
 Flashcards for this section are as follows:
 
-- What is the main purpose of the DFT in ELEC 2100? ::@:: It converts a finite sample block into a finite set of spectral coefficients so Fourier analysis can be carried out numerically and structurally on discrete data.
+- What core problem does the DFT note solve in ELEC 2100? ::@:: It converts a finite record of samples into a finite set of frequency-bin coefficients so discrete data can be analyzed, computed, and reconstructed on an $N$-point grid.
 - Why is the DFT not simply the DTFT with fewer plotted points? ::@:: Because the DFT treats a finite record as one period of a length-$N$ periodic extension, so circular shift and circular convolution are built into the transform model.
 - Why is DTFS/DFS mainly grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum.
 
