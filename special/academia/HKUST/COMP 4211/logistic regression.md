@@ -44,7 +44,7 @@ This hyperplane interpretation is essential for geometric intuition. The weight 
 
 Flashcards for this section are as follows:
 
-- sigmoid function $\sigma(z)=\frac{1}{1+e^{-z}}$ ::@:: The sigmoid activation is $\sigma(z)=\frac{1}{1+e^{-z}}$.
+- sigmoid function $\sigma(z)=\frac{1}{1+e^{-z}}$: Give the formula and state the range and key value ::@:: The sigmoid activation is $\sigma(z)=\frac{1}{1+e^{-z}}$, with range $(0,1)$, so it maps any real score to a number that can be interpreted as a probability. Key value: $\sigma(0)=0.5$; scores $z>0$ give $\sigma(z)>0.5$ (class-1 tendency) and $z<0$ give $\sigma(z)<0.5$.
 - logistic class probability $P(y=1\mid x,w)=\sigma(w^\top x)$ ::@:: In binary logistic regression, $P(y=1\mid x,w)=\sigma(w^\top x)$ and $P(y=0\mid x,w)=1-\sigma(w^\top x)$.
 - augmented feature vector in logistic regression ::@:: Writing the input as an augmented vector $x=(1,\tilde x^\top)^\top$ absorbs the intercept into $w$, so the score keeps the simple dot-product form $w^\top x$.
 - hyperplane geometry of the logistic score ::@:: The surface $w^\top x=0$ is a hyperplane whose normal vector is $w$; changing the intercept shifts the hyperplane, while changing the non-bias weights changes its orientation.
@@ -170,9 +170,9 @@ Entropy is also a special case of cross entropy. If the approximating distributi
 Flashcards for this section are as follows:
 
 - entropy formula ::@:: For a discrete random variable $X$, the entropy is $H(X) = -\sum_x P(x)\log P(x) = \mathbb{E}_P[-\log P(X)]$.
-- entropy interpretation ::@:: Entropy measures how uncertain or unpredictable a distribution is.
+- entropy interpretation: Binary entropy is $H(p)=-p\log p-(1-p)\log(1-p)$ for a Bernoulli($p$) variable. What does a high or low value of $H$ tell you about the distribution? ::@:: Entropy $H(p)$ measures how uncertain or unpredictable the distribution is. $H(p)=0$ at $p=0$ or $p=1$ (the outcome is certain, no information is gained); $H(p)$ is maximized at $p=0.5$ (complete uncertainty, both outcomes equally likely). More generally, a distribution with high entropy is spread out and hard to predict; one with low entropy is concentrated and easy to predict.
 - coin die card comparison: If the distributions are uniform on $2$, $6$, and $54$ outcomes, why is the entropy ordering $H_{\text{coin}}<H_{\text{die}}<H_{\text{deck}}$? ::@:: For a uniform distribution on $n$ outcomes, $H=-\sum_{k=1}^n \frac1n\log\frac1n=\log n$, so the three entropies are $\log 2$, $\log 6$, and $\log 54$; since $2<6<54$, one has $\log 2<\log 6<\log 54$.
-- what raises entropy ::@:: Entropy rises when probability mass is spread more evenly across more possible outcomes.
+- what raises entropy in a discrete distribution: The entropy of a discrete random variable $X$ is $H(X)=-\sum_x P(x)\log P(x)$. What properties of the distribution make entropy larger? ::@:: Entropy rises when probability mass is spread more evenly across a larger number of outcomes. Concentration (most mass on one outcome) lowers entropy toward $0$; dispersion (uniform mass across many outcomes) raises entropy toward $\log|\mathcal{X}|$ (log of the alphabet size). Two effects combine: more possible outcomes each carrying some mass, and those masses being closer to equal.
 - entropy as cross-entropy special case ::@:: Entropy is the special case $H(P)=H(P,P)$, namely cross entropy when the model distribution equals the true distribution.
 
 ### cross entropy and Kullback-Leibler divergence
@@ -363,7 +363,7 @@ Flashcards for this section are as follows:
 - vector gradient-descent update ::@:: For vector parameters, gradient descent updates by $w \leftarrow w - \alpha \nabla L(w)$ because the negative gradient is the local steepest-descent direction under the first-order approximation of the loss.
 - why negative gradient is chosen ::@:: Since $L(w+\Delta w)\approx L(w)+\nabla L(w)^\top\Delta w$, choosing $\Delta w=-\alpha\nabla L(w)$ gives approximate change $-\alpha\lVert\nabla L(w)\rVert^2\le 0$, so the loss locally decreases.
 - learning rate ::@:: The learning rate $\alpha$ controls how far each gradient-descent step moves in the descent direction, balancing progress against stability.
-- too-small learning rate ::@:: If the learning rate is too small, convergence can be extremely slow.
+- too-small learning rate in gradient descent: The gradient descent update is $w\leftarrow w-\alpha\nabla L(w)$. What happens when $\alpha$ is chosen too small? ::@:: If $\alpha$ is too small, each update step moves only a tiny distance in weight space; the number of iterations needed to reach a good solution grows, and convergence can be extremely slow. In practice this can mean the training budget (number of epochs) runs out before the loss reaches a satisfactory minimum, making the model appear to underfit even with sufficient capacity.
 - too-large learning rate ::@:: If the learning rate is too large, gradient descent can overshoot, oscillate, or fail to converge.
 - local minima and saddle points ::@:: Gradient descent can in principle be slowed or trapped by local minima or saddle points, although it often works well in practice.
 - scalar worked example ::@:: If $L(w)=w^2$, then $L'(w)=2w$ and the update becomes $w\leftarrow (1-2\alpha)w$, so repeated steps shrink $w$ toward $0$ when $0<\alpha<1$.
@@ -392,7 +392,7 @@ With learning rate $\alpha=0.1$, the update is $w_{\text{new}}=w-\alpha\nabla L(
 
 Flashcards for this section are as follows:
 
-- sigmoid derivative ::@:: The sigmoid derivative is $\sigma'(z)=\sigma(z)(1-\sigma(z))$.
+- sigmoid derivative: With $\sigma(z)=\frac{1}{1+e^{-z}}$, what is $\sigma'(z)$ and what convenient factored form does it take? ::@:: The sigmoid derivative is $\sigma'(z)=\sigma(z)(1-\sigma(z))$. Derivation sketch: $\sigma'(z)=\frac{e^{-z}}{(1+e^{-z})^2}=\frac{1}{1+e^{-z}}\cdot\frac{e^{-z}}{1+e^{-z}}=\sigma(z)(1-\sigma(z))$, where $(1-\sigma(z))=\frac{e^{-z}}{1+e^{-z}}$. This factored form is numerically convenient because, once $p=\sigma(z)$ is computed in the forward pass, the derivative is free as $p(1-p)$.
 - coordinate logistic gradient with notation ::@:: For one example, let $z_i=w^\top x_i$, $p_i=\sigma(z_i)$, and $\ell_i(w)=-\bigl(y_i\log p_i+(1-y_i)\log(1-p_i)\bigr)$. Then the coordinate gradient is $\frac{\partial \ell_i}{\partial w_j}=(p_i-y_i)x_{i,j}$, so each weight coordinate sees the residual $p_i-y_i$ scaled by the corresponding feature value $x_{i,j}$.
 - logistic-loss gradient vector ::@:: Writing $p_i=\sigma(w^\top x_i)$, the logistic-regression gradient is $\nabla L(w)=\frac{1}{N}\sum_{i=1}^N (p_i-y_i)x_i$, so each example contributes residual times feature vector.
 - batch update for logistic regression ::@:: A batch gradient-descent update for logistic regression is $w_j \leftarrow w_j + \alpha \frac{1}{N}\sum_{i=1}^N (y_i-p_i)x_{i,j}$, equivalently $w\leftarrow w-\alpha\nabla L(w)$.
@@ -450,7 +450,7 @@ The resulting update has the same form as batch descent except that the sum runs
 
 Flashcards for this section are as follows:
 
-- batch gradient descent ::@:: Batch gradient descent computes each update using all $N$ training examples.
+- batch gradient descent in logistic regression: The logistic loss is $L(w)=\frac{1}{N}\sum_{i=1}^N\ell_i(w)$. What does "batch" gradient descent mean and when is it expensive? ::@:: Batch gradient descent computes each parameter update using the full gradient $\nabla L(w)=\frac{1}{N}\sum_{i=1}^N(p_i-y_i)x_i$, which averages over all $N$ training examples. Each epoch requires one pass through the entire dataset, making each update $O(N)$ in time and memory. When $N$ is large (e.g., millions of examples), this is computationally costly, motivating stochastic or minibatch variants.
 - why batch updates can be costly ::@:: Batch updates can be expensive because each step requires a pass through the full dataset.
 - per-sample versus batch versus stochastic gradients: If the per-example logistic gradient is $g_i=(p_i-y_i)x_i$, how do per-sample, batch, and stochastic-gradient updates compare? ::@:: A per-sample update uses one $g_i$ from one training example; batch gradient descent uses the full average $\frac1N\sum_{i=1}^N g_i$; stochastic gradient descent uses a random example or a random minibatch $B$ to form $\frac1{|B|}\sum_{i\in B} g_i$, so minibatches are just the practical multi-example form of stochastic gradient descent.
 - why stochastic gradient descent is stochastic ::@:: Stochastic gradient descent is stochastic because the example index $i$ or minibatch $B$ used at each step is chosen randomly, so the update direction is a random vector and only a noisy estimate of the full gradient.

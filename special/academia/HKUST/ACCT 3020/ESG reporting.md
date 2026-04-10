@@ -98,7 +98,7 @@ ESG reporting in Hong Kong follows several reporting principles, especially:
 Flashcards for this section are as follows:
 
 - ESG reporting principle: materiality ::@:: Focus on ESG issues that are important both to the business and to stakeholders, typically identified using a materiality matrix.
-- materiality matrix axes ::@:: One axis measures impact on the business; the other measures impact on stakeholders; high–high issues are prioritised for disclosure.
+- materiality matrix axes ::@:: One axis (typically the _x_-axis) measures impact on the business; the other (typically the _y_-axis) measures impact on stakeholders; high–high issues are prioritised for disclosure.
 - ESG reporting principle: quantitative KPIs ::@:: Disclosures should include key performance indicators (e.g. emissions, energy use, accident rates), not just qualitative claims.
 - ESG reporting principle: consistency ::@:: Use consistent KPIs and methods over time; if they change, explain the reasons and, where possible, provide comparable data.
 

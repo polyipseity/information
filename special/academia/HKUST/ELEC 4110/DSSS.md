@@ -104,7 +104,7 @@ Compare three scenarios: {@{_BPSK_ without spreading}@}. {@{_BPSK + DSSS_ with a
 
 In {@{a DSSS receiver}@} {@{each incoming chip}@} is multiplied by the {@{locally stored spreading sequence}@} and {@{accumulated over one spread period (e.g., 64 chips, 1024 chips)}@}. {@{The multiplication}@} reduces to {@{sign inversion for the $\pm1$ chips}@}, so {@{no dedicated multiplier is required}@}; a {@{simple full‑adder suffices}@}. After {@{accumulation}@} the result is {@{right‑shifted six times to divide by 64}@}, exploiting that {@{$64=2^6$}@}. {@{Two or more parallel despreaders}@} can be {@{instantiated to process distinct multipath components (the “fingers” of a rake receiver)}@}, each producing {@{an observation $W_i$}@} that is later fed into a {@{diversity combiner operating at symbol rate}@}.
 
-{@{Practical receivers (e.g., 3G handsets)}@} often have {@{only four despreaders}@} because {@{each operates at a high clock rate}@}, yet can still {@{capture full diversity by selecting the strongest paths}@}. {@{This principle}@} underlies why {@{spread‑spectrum systems (3G and earlier)}@} remain {@{power‑efficient despite supporting many multipaths}@}.
+{@{Practical receivers (e.g., 3G handsets)}@} often have {@{only four despreaders}@} because {@{each operates at a high clock rate}@}, yet can still capture {@{_almost_ full diversity by selecting the strongest paths}@}. {@{This principle}@} underlies why {@{spread‑spectrum systems (3G and earlier)}@} remain {@{power‑efficient despite supporting many multipaths}@}.
 
 ### time and power considerations
 

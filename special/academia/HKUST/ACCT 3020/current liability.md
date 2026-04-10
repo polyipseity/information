@@ -29,18 +29,24 @@ Flashcards for this section are as follows:
 <!-- markdownlint-disable-next-line MD024 -->
 ## current liability
 
-Current liabilities are those expected to be settled within the entity's __normal operating cycle__ or within __12 months after the reporting date__, whichever criterion is relevant. The operating cycle is the time from purchasing inventory through selling it, collecting cash from customers, and paying suppliers. For example, if the cycle is six months (one month to receive goods, two months to sell, one month to collect cash, two months to pay the supplier), a liability due within that six-month window is current under the first criterion. If the liability is due outside the operating cycle (e.g. nine months after the purchase), the entity then applies the second criterion: is it expected to be settled within 12 months after the end of the reporting period? If the due date falls within that 12-month window, the liability is still current. In principles of accounting, the "12 months" rule is often emphasised; in intermediate accounting, the operating-cycle criterion is applied first, and the 12-month criterion is used when the obligation falls outside the operating cycle.
+Current liabilities are those expected to be settled within the entity's __normal operating cycle__ or within __12 months after the reporting date__, depending on why the obligation is current. The operating cycle is the time from purchasing inventory through selling it, collecting cash from customers, and paying suppliers. For operating or working-capital items, the __operating cycle__ is tested first because "current" here means __part of the normal turnover of current assets and current liabilities__, not necessarily "within one calendar year". For example, if the cycle is six months (one month to receive goods, two months to sell, one month to collect cash, two months to pay the supplier), a liability due within that six-month window is current under the first criterion. If the liability is not going to be settled as part of that normal cycle, the entity then applies the __12-month criterion__: is it expected to be settled within 12 months after the reporting date? If yes, it is still current.
+
+The longer-operating-cycle case is important. Suppose a shipbuilder or property developer has an __18-month operating cycle__: from buying materials, through construction, to collecting from the customer and paying suppliers. A liability expected to be settled in __15 months__ can still be __current__ if it is part of that normal 18-month operating cycle, because current classification is based on normal operating turnover in that case. By contrast, a liability that is __not__ part of the operating cycle is judged by the 12-month rule instead. So the key question is not just "Is it within 12 months?" but first "Is it part of the normal operating cycle?"
+
+This is why introductory and intermediate treatments can sound different. Principles courses often emphasize the easy memory rule "within 12 months = current." Intermediate accounting adds the more precise working-capital logic: operating-cycle items are current even when the cycle is longer than 12 months, and the 12-month test is the fallback for obligations outside that operating-cycle turnover.
 
 ---
 
 Flashcards for this section are as follows:
 
-- current liability two criteria ::@:: (1) Settled within the normal operating cycle, or (2) expected to be settled within 12 months after the reporting date; if either is met, the liability is current.
+- current liability two criteria ::@:: (1) Settled within the normal operating cycle, even if that cycle is longer than 12 months, or (2) if not tied to the operating cycle, expected to be settled within 12 months after the reporting date; if either applies, the liability is current.
 - operating cycle definition ::@:: The time from purchasing inventory through selling it, collecting cash from customers, and paying suppliers.
-- operating cycle and current liability ::@:: The normal operating cycle (e.g. purchase inventory → sell → collect cash → pay supplier) is used first; liabilities due within that period are current.
+- operating cycle and current liability ::@:: The normal operating cycle (e.g. purchase inventory → sell → collect cash → pay supplier) is used first for working-capital items; "current" here means part of normal operating turnover, not simply within one calendar year.
 - operating cycle example (six months) ::@:: 1 month receive goods, 2 months sell, 1 month collect cash, 2 months pay supplier; liability due within that window is current.
-- when is the 12-month criterion used for current liability? ::@:: When the obligation falls outside the operating cycle; then check if it is expected to be settled within 12 months after the reporting date.
-- principles vs intermediate: current liability ::@:: Principles: 12-month rule often emphasized; intermediate: operating-cycle criterion first, 12-month criterion when obligation falls outside cycle.
+- when is the 12-month criterion used for current liability? ::@:: Use the 12-month test when the obligation is not expected to be settled as part of the normal operating cycle. If the operating cycle itself is longer than 12 months, a liability settled within that longer cycle is still current under the operating-cycle criterion.
+- operating cycle longer than 12 months: what does current mean? ::@:: It means expected to be settled in the entity's normal working-capital turnover, even if that turnover takes more than 12 months; current does not automatically mean "within one year" in that case.
+- operating cycle example (18 months): liability due in 15 months—current or non-current? ::@:: Current, if the liability will be settled as part of the normal 18-month operating cycle (for example, a shipbuilding or property-development cycle).
+- principles vs intermediate: current liability ::@:: Principles courses often emphasize the simple memory rule "within 12 months = current." Intermediate accounting is more precise: apply the operating-cycle criterion first for working-capital items, and use the 12-month criterion as the fallback for obligations outside that cycle.
 
 ## notes payable
 
@@ -66,7 +72,6 @@ Representative journal entry examples:
 
 > _Scenario._ Entity {@{borrows 50 000 on 1 November, 8% annual rate}@}, due in {@{six months}@}.
 >
->
 > | {@{Receive cash; record note}@} | Dr           | Cr           |
 > | ------------------------------- | ------------ | ------------ |
 > | {@{Cash}@}                      | {@{50 000}@} |              |
@@ -75,18 +80,15 @@ Representative journal entry examples:
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Same note: {@{50 000, 8% per year. At 31 December, two months have elapsed}@}.
 >
->
 > | {@{Accrue interest to year-end}@} | Dr           | Cr           |
 > | --------------------------------- | ------------ | ------------ |
 > | {@{Interest expense}@}            | {@{833.33}@} |              |
 > | {@{Interest payable}@}            |              | {@{833.33}@} |
 >
->
 > _Calculation._ {@{Interest}@} = {@{50 000 × 0.08 × 2/12}@} = {@{833.33}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Note matures; {@{total cash paid 52 000 (principal 50 000 + interest 2 000)}@}. Assume {@{833.33 already accrued; remainder interest at settlement}@}.
->
 >
 > | {@{Settle note and interest; pay cash}@} | Dr             | Cr           |
 > | ---------------------------------------- | -------------- | ------------ |
@@ -121,21 +123,17 @@ Representative journal entry example:
 >
 > __At conversion:__
 >
->
 > | {@{Reclassify AP to note}@} | Dr           | Cr           |
 > | --------------------------- | ------------ | ------------ |
 > | {@{Accounts payable}@}      | {@{10 000}@} |              |
 > | {@{Notes payable}@}         |              | {@{10 000}@} |
 >
->
 > __At year-end (accrual):__
->
 >
 > | {@{Accrue interest to reporting date}@} | Dr        | Cr        |
 > | --------------------------------------- | --------- | --------- |
 > | {@{Interest expense}@}                  | {@{200}@} |           |
 > | {@{Interest payable}@}                  |           | {@{200}@} |
->
 >
 > _Calculation._ {@{10 000 × 0.08 × 3/12}@} = {@{200}@}.
 
@@ -157,18 +155,15 @@ Representative journal entry examples:
 
 > _Scenario._ Entity {@{receives 75 000 and must repay 81 000 in 12 months. Implicit interest 6 000}@}. After 3 months, {@{allocate 3/12 of the discount}@}.
 >
->
 > | {@{Allocate implicit interest; credit Notes payable}@} | Dr          | Cr          |
 > | ------------------------------------------------------ | ----------- | ----------- |
 > | {@{Interest expense}@}                                 | {@{1 500}@} |             |
 > | {@{Notes payable}@}                                    |             | {@{1 500}@} |
 >
->
 > _Calculation._ {@{6 000 × 3/12}@} = {@{1 500}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Note matures; {@{carrying amount 81 000, pay 81 000 cash}@}.
->
 >
 > | {@{Pay note at maturity}@} | Dr           | Cr           |
 > | -------------------------- | ------------ | ------------ |
@@ -219,7 +214,6 @@ Representative journal entry example:
 
 > _Scenario._ Year-end: {@{income tax expense 120 000, payable within four months}@}.
 >
->
 > | {@{Recognise tax expense and payable}@}   | Dr            | Cr            |
 > | ----------------------------------------- | ------------- | ------------- |
 > | {@{Tax expense (or Income tax expense)}@} | {@{120 000}@} |               |
@@ -244,7 +238,6 @@ Representative journal entry examples:
 
 > _Scenario._ End of year 1: {@{20 unused vacation weeks earned at 480 per week}@}. Total {@{9 600}@}.
 >
->
 > | {@{Recognise expense and wages payable}@} | Dr          | Cr          |
 > | ----------------------------------------- | ----------- | ----------- |
 > | {@{Salaries and wages expense}@}          | {@{9 600}@} |             |
@@ -253,13 +246,11 @@ Representative journal entry examples:
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Wages payable {@{9 600 (20 weeks at 480). Employees take vacation; current rate 540 per week}@}. Cash paid {@{10 800; difference 1 200 expense in payment period}@}.
 >
->
 > | {@{Clear wages payable; expense difference; pay cash}@} | Dr          | Cr           |
 > | ------------------------------------------------------- | ----------- | ------------ |
 > | {@{Wages payable}@}                                     | {@{9 600}@} |              |
 > | {@{Salaries and wages expense}@}                        | {@{1 200}@} |              |
 > | {@{Cash}@}                                              |             | {@{10 800}@} |
->
 >
 > _Explanation._ The liability is settled at the rate originally accrued {@{(20 weeks × 480 = 9 600)}@}. When cash is paid at the higher current rate {@{(20 weeks × 540 = 10 800)}@}, the extra {@{1 200}@} is current-period salaries and wages expense.
 

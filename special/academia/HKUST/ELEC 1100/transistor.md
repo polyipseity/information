@@ -17,7 +17,7 @@ A transistor is a three-terminal semiconductor device that can amplify or switch
 Flashcards for this section are as follows:
 
 - transistor definition: What is a transistor in terms of terminals and function? ::@:: A transistor is a three-terminal semiconductor device (collector, base, emitter) that can amplify or switch current between two terminals under control of the third.
-- bjt types: What are the two standard BJT types? ::@:: The two common BJTs are NPN and PNP, distinguished by the order of N and P semiconductor regions.
+- BJT types: What are the two standard BJT types? ::@:: The two common BJTs are NPN and PNP, distinguished by the order of N and P semiconductor regions.
 - controlled path in a BJT: Which path does the base current control in this course's circuits? ::@:: In our NPN/PNP examples the small base current (between base and emitter) controls a much larger current between collector and emitter.
 - transistor use in this course: switching ::@:: In ELEC 1100 we use BJTs as on/off switches to control current through motors and other loads.
 - transistor use in this course: current gain ::@:: In ELEC 1100 we also use BJTs for current gain: a small base current from logic/sensors can control a much larger collector current.
@@ -34,7 +34,7 @@ For analysis, a simple equivalent circuit models the base–emitter junction as 
 
 Flashcards for this section are as follows:
 
-- bjt terminals ::@:: The three BJT terminals are collector (C), base (B), and emitter (E); in the schematic symbol the base is the middle leg, the emitter is the leg with the arrow, and the collector is the remaining leg without an arrow.
+- BJT terminals ::@:: The three BJT terminals are collector (C), base (B), and emitter (E); in the schematic symbol the base is the middle leg, the emitter is the leg with the arrow, and the collector is the remaining leg without an arrow.
 - npn vs pnp arrow direction ::@:: In the standard symbols the NPN emitter arrow points out of the transistor (from emitter to base), while the PNP emitter arrow points into the transistor (toward the base); a mnemonic is "NPN: arrow Not Pointing iN".
 - emitter vs collector role ::@:: The emitter is heavily doped and acts as the source of carriers, the collector gathers those carriers, and the base is a thin control region that regulates how much emitter current reaches the collector.
 - schematic symbol: NPN BJT <p> ![NPN BJT symbol](attachments/symbol_npn.svg) ::@:: NPN transistor symbol with emitter arrow pointing out; terminals are base (B), collector (C), emitter (E).

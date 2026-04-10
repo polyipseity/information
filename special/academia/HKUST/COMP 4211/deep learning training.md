@@ -176,7 +176,7 @@ Flashcards for this section are as follows:
 
 - parameter initialization versus optimizer-state initialization ::@:: Parameter initialization chooses the starting model weights $\theta_0$, whereas optimizer-state initialization chooses any extra memory variables such as velocity or moment accumulators.
 - optimizer state for vanilla SGD ::@:: Vanilla SGD has essentially no extra optimizer state beyond the current parameter vector.
-- momentum-state initialization ::@:: Momentum introduces a velocity state and typically initializes it as $v_0=0$.
+- momentum-state initialization: Momentum-based SGD introduces a velocity (momentum) state $v_t$ in addition to the parameter $\theta_t$, with update $v_t=\mu v_{t-1}+g_t$; $\theta_t=\theta_{t-1}-\alpha v_t$. How is this extra state typically initialized? ::@:: Momentum introduces a velocity state $v_0$ and this state is typically initialized to $v_0=0$ (zero vector). This means the first update step is effectively just a vanilla SGD step ($v_1=\mu\cdot 0+g_1=g_1$), and the exponential accumulation of past gradients builds up only over subsequent iterations.
 - AdaGrad and RMSProp state initialization ::@:: AdaGrad and RMSProp use squared-gradient accumulators, typically initialized as $s_0=0$.
 - Adam state initialization ::@:: Adam introduces first- and second-moment states and typically initializes them as $m_0=0$ and $v_0=0$.
 - why zero state initialization matters in Adam ::@:: Zero initialization means the early moment estimates have not yet accumulated a full history, which is exactly why Adam needs bias correction in its first few steps.

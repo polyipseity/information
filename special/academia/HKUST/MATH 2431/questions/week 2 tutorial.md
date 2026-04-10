@@ -29,7 +29,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 <!-- markdownlint MD028 -->
 
-> Find the number of arrangements of `MIIIISSSSPP`.
+> Find the number of arrangements of "MIIIISSSSPP".
 >
 > Solution: Treat the word as a {@{multiset permutation problem}@} with {@{$11$ total symbols}@} and repeated counts {@{$1,4,4,2$}@}. You can count it by {@{direct multinomial reasoning}@}: choose which {@{position is the unique $M$}@}, then choose which {@{$4$ of the remaining 10 positions are $I$}@}, which {@{$4$ positions of what remains are $S$}@}, and the rest are {@{$P$}@}; equivalently, divide $11!$ by {@{factorials of repeated groups}@} to remove overcounting, yielding {@{$\dfrac{11!}{4!4!2!}=\binom{11}{1,4,4,2}$}@}.
 
@@ -37,13 +37,13 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > In an archer session, each round has three arrows and the session ends when one round hits the target three times. Build a sample space and identify $\bigcap_{n=1}^{\infty}A_n$, where $A_n$ is the event that the session lasts longer than $n$ rounds.
 >
-> Solution: Model each arrow by {@{$\{S,F\}$}@}, each round by {@{$\{S,F\}^3$}@}, and the whole experiment by {@{$(\{S,F\}^3)^{\mathbb{N}}$}@} with {@{stopping at first `SSS`}@}; this space contains {@{some extra infinite paths}@}, but that is {@{fine because it still describes every possible round-by-round history}@} and the stopping rule simply {@{ignores the impossible extra ones}@}. Since {@{$A_n$ means duration exceeds $n$ rounds}@}, the intersection over all $n$ is exactly the {@{infinite-duration event}@} {@{$\bigcap_{n=1}^{\infty}A_n=\{\text{no round is ever `SSS`}\}$}@}, i.e. the session {@{never terminates}@}.
+> Solution: Model each arrow by {@{$\{S,F\}$}@}, each round by {@{$\{S,F\}^3$}@}, and the whole experiment by {@{$(\{S,F\}^3)^{\mathbb{N}}$}@} with {@{stopping at first "SSS"}@}; this space contains {@{some extra infinite paths}@}, but that is {@{fine because it still describes every possible round-by-round history}@} and the stopping rule simply {@{ignores the impossible extra ones}@}. Since {@{$A_n$ means duration exceeds $n$ rounds}@}, the intersection over all $n$ is exactly the {@{infinite-duration event}@} {@{$\bigcap_{n=1}^{\infty}A_n=\{\text{no round is ever "SSS"}\}$}@}, i.e. the session {@{never terminates}@}.
 
 <!-- markdownlint MD028 -->
 
 > In the repeating coin-flip game where A, B, C flip in order and the first head wins, describe the events "A wins", "B wins", and the complement $(A\cup B)^c$ using the sample space $S=\{1,01,001,0001,\ldots,000\cdots\}$.
 >
-> Solution: Encode outcomes by {@{index of first head}@} (or the infinite all-tail sequence), observe winner is determined by {@{$\ell\bmod 3$}@}, so {@{$A=\{x\in S:\operatorname{len}(x)\equiv1\pmod3\}$}@} and {@{$B=\{x\in S:\operatorname{len}(x)\equiv2\pmod3\}$}@}; importantly, the process space includes {@{infinite sequences}@} as legitimate outcomes, so if no head ever appears that path is still an outcome, hence {@{$(A\cup B)^c$}@} is {@{`C wins' together with the no-winner infinite-tail outcome}@}.
+> Solution: Encode outcomes by {@{index of first head}@} (or the infinite all-tail sequence), observe winner is determined by {@{$\ell\bmod 3$}@}, so {@{$A=\{x\in S:\operatorname{len}(x)\equiv1\pmod3\}$}@} and {@{$B=\{x\in S:\operatorname{len}(x)\equiv2\pmod3\}$}@}; importantly, the process space includes {@{infinite sequences}@} as legitimate outcomes, so if no head ever appears that path is still an outcome, hence {@{$(A\cup B)^c$}@} is {@{'C wins' together with the no-winner infinite-tail outcome}@}.
 
 <!-- markdownlint MD028 -->
 

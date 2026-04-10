@@ -28,7 +28,6 @@ Representative journal entry examples:
 
 > _Scenario 1._ Company issues {@{10 000 ordinary shares, par 10}@} in exchange for a patent. The fair value of the patent is not reliably known, but the shares trade at {@{140 000}@}.
 >
->
 > | {@{Issue ordinary shares for patent (measure at share fair value)}@} | Dr            | Cr            |
 > | -------------------------------------------------------------------- | ------------- | ------------- |
 > | {@{Patents}@}                                                        | {@{140 000}@} |               |
@@ -37,7 +36,6 @@ Representative journal entry examples:
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario 2._ Fair value of the shares is not known, but the patent's fair value is {@{150 000}@}.
->
 >
 > | {@{Issue ordinary shares for patent (measure at patent fair value)}@} | Dr            | Cr            |
 > | --------------------------------------------------------------------- | ------------- | ------------- |
@@ -48,19 +46,16 @@ Representative journal entry examples:
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario 3._ Neither share nor patent fair value is observable; an independent consultant values the patent at {@{125 000}@} based on discounted expected cash flows.
 >
->
 > | {@{Issue ordinary shares for patent (measure at DCF value)}@} | Dr            | Cr            |
 > | ------------------------------------------------------------- | ------------- | ------------- |
 > | {@{Patents}@}                                                 | {@{125 000}@} |               |
 > | {@{Share capital — ordinary (10 000 × 10)}@}                  |               | {@{100 000}@} |
 > | {@{Share premium — ordinary}@}                                |               | {@{25 000}@}  |
 >
->
 > _Explanation._ In each case, the asset is recorded at its measured fair value and equity is credited for the same amount (par plus premium); only the measurement basis (shares, patent, or discounted cash flows) changes.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario 4: fair value below par._ Company issues {@{10 000 ordinary shares}@}, par {@{10}@}, for a patent whose fair value is only {@{85 000}@}. Total par value of the shares is {@{100 000}@}, so the fair value is {@{15 000 below par}@}.
->
 >
 > | {@{Issue shares for patent — fair value (85 000) below total par (100 000)}@} | Dr            | Cr            |
 > | ----------------------------------------------------------------------------- | ------------- | ------------- |
@@ -99,38 +94,32 @@ Representative journal entry examples:
 
 > _Scenario A._ Company issues {@{300 000 ordinary shares at 3 per share}@}; par value is {@{1 per share}@}. Underwriting costs are {@{20 000}@}. Net cash received is {@{880 000}@}.
 >
->
 > | {@{Issue ordinary shares for cash (net of underwriting costs)}@} | Dr            | Cr            |
 > | ---------------------------------------------------------------- | ------------- | ------------- |
 > | {@{Cash}@}                                                       | {@{880 000}@} |               |
 > | {@{Share capital — ordinary (300 000 × 1)}@}                     |               | {@{300 000}@} |
 > | {@{Share premium — ordinary}@}                                   |               | {@{580 000}@} |
->
 >
 > _Explanation._ Gross proceeds are {@{900 000 (300 000 × 3)}@}; underwriting costs of {@{20 000}@} reduce the amount credited to equity, so only {@{880 000}@} is recorded in Cash and Share premium is {@{580 000}@} instead of {@{600 000}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario B: direct costs exceed premium._ Company issues {@{200 000 ordinary shares at 1.50 per share}@}; par value is {@{1.00 per share}@}. Direct costs total {@{150 000}@}. Net cash received is {@{150 000}@}.
 >
->
 > | {@{Issue ordinary shares — direct costs (150 000) exceed premium (100 000)}@} | Dr            | Cr            |
 > | ----------------------------------------------------------------------------- | ------------- | ------------- |
 > | {@{Cash}@}                                                                    | {@{150 000}@} |               |
 > | {@{Share capital — ordinary (net: 200 000 − 50 000 excess costs)}@}           |               | {@{150 000}@} |
->
 >
 > _Explanation._ Gross proceeds are {@{300 000 (200 000 × 1.50)}@}; premium before costs is {@{100 000}@}. Direct costs of {@{150 000}@} first exhaust the {@{100 000}@} premium (reducing it to {@{zero}@}) and the remaining {@{50 000}@} reduces _Share capital_ from {@{200 000}@} to {@{150 000}@}. _Share premium_ ends at {@{zero, not negative}@}; the excess is borne by _Share capital_, not carried as a debit balance on _Share premium_.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Company issues {@{300 000 ordinary shares at 3 per share}@}; par value is {@{1 per share}@}. Underwriting costs are {@{20 000}@}. Net cash received is {@{880 000}@}.
 >
->
 > | {@{Issue ordinary shares for cash (net of underwriting costs)}@} | Dr            | Cr            |
 > | ---------------------------------------------------------------- | ------------- | ------------- |
 > | {@{Cash}@}                                                       | {@{880 000}@} |               |
 > | {@{Share capital — ordinary (300 000 × 1)}@}                     |               | {@{300 000}@} |
 > | {@{Share premium — ordinary}@}                                   |               | {@{580 000}@} |
->
 >
 > _Explanation._ Gross proceeds are {@{900 000 (300 000 × 3)}@}; underwriting costs of {@{20 000}@} reduce the amount credited to equity, so only {@{880 000}@} is recorded in Cash and Share premium is {@{580 000}@} instead of {@{600 000}@}.
 
@@ -187,7 +176,6 @@ Representative journal entry example at issuance:
 
 > _Scenario._ Company issues {@{10 000 preference shares, par 10, for 12 cash per share}@}.
 >
->
 > | {@{Issue preference shares for cash}@}         | Dr            | Cr            |
 > | ---------------------------------------------- | ------------- | ------------- |
 > | {@{Cash}@}                                     | {@{120 000}@} |               |
@@ -223,7 +211,6 @@ Representative journal entry examples:
 
 > _Scenario A: reissue above cost._ Company previously repurchased 1 000 treasury shares at {@{50 per share}@} (cost {@{50 000}@}). It reissues them for {@{60 per share}@} (proceeds {@{60 000}@}).
 >
->
 > | {@{Reissue treasury shares above cost}@}  | Dr           | Cr           |
 > | ----------------------------------------- | ------------ | ------------ |
 > | {@{Cash}@}                                | {@{60 000}@} |              |
@@ -232,7 +219,6 @@ Representative journal entry examples:
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario B: reissue below cost — Share premium — treasury balance sufficient._ Same treasury shares (cost {@{50 000}@}). Company reissues for {@{45 per share}@} (proceeds {@{45 000}@}). Existing _Share premium — treasury_ balance is {@{15 000}@}.
->
 >
 > | {@{Reissue treasury shares below cost (shortfall covered by premium)}@} | Dr           | Cr           |
 > | ----------------------------------------------------------------------- | ------------ | ------------ |
@@ -243,14 +229,12 @@ Representative journal entry examples:
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario C: reissue below cost — shortfall exceeds premium, hits retained earnings._ Same treasury shares (cost {@{50 000}@}). Company reissues for {@{30 per share}@} (proceeds {@{30 000}@}). Existing _Share premium — treasury_ balance is only {@{8 000}@}.
 >
->
 > | {@{Reissue treasury shares below cost (excess shortfall hits retained earnings)}@} | Dr           | Cr           |
 > | ---------------------------------------------------------------------------------- | ------------ | ------------ |
 > | {@{Cash}@}                                                                         | {@{30 000}@} |              |
 > | {@{Share premium — treasury (all available)}@}                                     | {@{8 000}@}  |              |
 > | {@{Retained earnings (remaining shortfall: 20 000 − 8 000)}@}                      | {@{12 000}@} |              |
 > | {@{Treasury shares (at cost)}@}                                                    |              | {@{50 000}@} |
->
 >
 > _Explanation._ Shortfall = {@{50 000 − 30 000 = 20 000}@}. The first {@{8 000}@} comes from _Share premium — treasury_ (exhausting it). The remaining {@{12 000}@} is debited to _Retained earnings_. If _Retained earnings_ was, say, only {@{5 000}@} before this entry, it would fall to {@{−7 000}@} — an accumulated deficit. The loss is absorbed by equity, not reported in profit or loss.
 
@@ -344,7 +328,6 @@ Representative journal entry examples:
 
 > _Scenario._ On June 10, Roadway Freight Corp. declares a cash dividend of {@{0.50 per share on 1.8 million ordinary shares}@}, payable July 16 to shareholders of record June 24. Total dividend is {@{900 000}@}.
 >
->
 > | {@{At date of declaration (June 10)}@}            | Dr            | Cr            |
 > | ------------------------------------------------- | ------------- | ------------- |
 > | {@{Retained earnings (Cash dividends declared)}@} | {@{900 000}@} |               |
@@ -362,7 +345,6 @@ Representative journal entry examples:
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Tsen Ltd. transfers to shareholders some of its investments in securities, with carrying amount {@{1 250 000}@}. On December 28, 2024, it declares a property dividend to shareholders of record January 15, 2025, to be distributed January 30, 2025. At the declaration date, the investments have fair value {@{2 000 000}@}.
 >
->
 > | {@{At date of declaration (remeasure and declare dividend)}@} | Dr              | Cr              |
 > | ------------------------------------------------------------- | --------------- | --------------- |
 > | {@{Equity investments}@}                                      | {@{750 000}@}   |                 |
@@ -378,7 +360,6 @@ Representative journal entry examples:
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ McChesney Mines issues a dividend to ordinary shareholders of {@{1 200 000}@}. The announcement states that {@{900 000}@} is income and {@{300 000}@} is a return of capital.
 >
->
 > | {@{At date of declaration}@}   | Dr            | Cr              |
 > | ------------------------------ | ------------- | --------------- |
 > | {@{Retained earnings}@}        | {@{900 000}@} |                 |
@@ -393,7 +374,6 @@ Representative journal entry examples:
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Vine plc has {@{100 000 ordinary shares, par 1}@}, retained earnings {@{50 000}@}, and declares a {@{10% share dividend}@}. It issues {@{10 000 additional shares}@}. Fair value at the time is {@{8 per share}@}, but the entry uses par value.
 >
->
 > | {@{At date of declaration (10% share dividend)}@} | Dr           | Cr           |
 > | ------------------------------------------------- | ------------ | ------------ |
 > | {@{Retained earnings (Share dividend declared)}@} | {@{10 000}@} |              |
@@ -406,7 +386,6 @@ Representative journal entry examples:
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario (IFRS — large share dividend at par)._ Zinc Corp. has {@{50 000 ordinary shares, par 2}@}, retained earnings {@{300 000}@}, and declares a {@{40% share dividend}@}. It issues {@{20 000 additional shares}@}. Fair value at the time is {@{18 per share}@}. Under IFRS the entry uses {@{par value}@}, not fair value.
->
 >
 > | {@{At date of declaration (40% share dividend — IFRS, at par)}@} | Dr           | Cr           |
 > | ---------------------------------------------------------------- | ------------ | ------------ |

@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 
 - overview ::@:: A feedforward neural network is a layered model that maps inputs to outputs by repeated affine-transform-plus-activation steps, such as $z^{(\ell)}=(W^{(\ell)})^\top a^{(\ell-1)}+b^{(\ell)}$ and $a^{(\ell)}=g^{(\ell)}(z^{(\ell)})$, without recurrent loops in one forward pass.
 - feedforward neural network versus earlier models ::@:: Earlier models often used hand-crafted features, whereas an FNN learns the feature transformation jointly with the prediction rule.
-- alternative name ::@:: Feedforward neural networks are also commonly called multilayer perceptrons (MLPs).
+- alternative name for feedforward neural networks ::@:: Feedforward neural networks are also commonly called multilayer perceptrons (MLPs). The name "multilayer" refers to having at least one hidden layer between input and output, and "perceptron" echoes the historical single-unit predecessor; despite the name, modern MLPs use smooth differentiable activations rather than the original threshold step function.
 - deep-learning transition ::@:: In the deep-learning viewpoint, one first learns a representation $h=f(x)$ and then models the output distribution conditioned on that learned representation.
 - simpler-model special case ::@:: If the learned representation is just the raw input or if there is no hidden layer, an FNN reduces to a familiar shallow model such as linear regression, logistic regression, or softmax regression.
 
@@ -65,7 +65,7 @@ Flashcards for this section are as follows:
 
 - unit computation $z=W^\top x+b$ and $g(z)$ ::@:: A standard neural-network unit computes the pre-activation $z=W^\top x+b$ and then outputs $g(z)$.
 - pre-activation or net input ::@:: The quantity $z=W^\top x+b$ is often called the pre-activation or net input of the unit.
-- parameters of a unit ::@:: The parameters of a standard unit are the incoming link weights and the bias term.
+- parameters of a standard neural-network unit: A unit computes $z=W^\top x+b$ and outputs $g(z)$. What are the learnable parameters and how many are there for a unit in a layer with $d$ inputs? ::@:: The learnable parameters are the incoming weight vector $W\in\mathbb{R}^d$ (one weight per input) and the scalar bias $b\in\mathbb{R}$, giving $d+1$ parameters in total. During training, gradient descent adjusts these parameters to minimize the overall network loss.
 - why repeated local computation creates depth ::@:: Depth arises because each layer takes the previous layer's outputs as its inputs, producing a repeated composition of simple computations.
 - affine-collapse proof ::@:: If $f_{1}(x)=A_{1}x+c_{1}$ and $f_{2}(u)=A_{2}u+c_{2}$, then $f_{2}(f_{1}(x))=A_{2}A_{1}x+(A_{2}c_{1}+c_{2})$, so composing affine maps still gives an affine map; induction extends this to any depth.
 - why affine maps alone are insufficient ::@:: Without nonlinear activations, a multilayer stack of affine maps would still be just one affine map, so depth would be only a reparameterization rather than a source of new expressive power.
@@ -104,6 +104,21 @@ Flashcards for this section are as follows:
 - forward-pass mnemonic ::@:: A useful forward-pass mnemonic is _mix, shift, bend, repeat_: $W^{(\ell)}$ mixes coordinates, $b^{(\ell)}$ shifts thresholds, $g^{(\ell)}$ bends the representation, and the result is passed to the next layer.
 - matrix interpretation in an FNN ::@:: The weight matrix recombines coordinates from the previous layer, so each new unit can detect a learned direction or pattern rather than copying a single old coordinate.
 - hierarchy of representations ::@:: The repeated-map view makes it clear that depth means applying the same affine-plus-nonlinearity template to increasingly abstract intermediate representations.
+
+### two-layer forward pass computed step by step
+
+Consider a two-layer network with $x=\begin{bmatrix}1\\0\end{bmatrix}$, $W^{(1)}=\begin{bmatrix}2&-1\\1&3\end{bmatrix}$, $b^{(1)}=\begin{bmatrix}0.5\\0.5\end{bmatrix}$, activation $g^{(1)}=\operatorname{ReLU}$, $W^{(2)}=\begin{bmatrix}1\\-1\end{bmatrix}$, $b^{(2)}=0$, and identity output.
+
+Layer 1 pre-activation: $(W^{(1)})^\top x+b^{(1)}=\begin{bmatrix}2\cdot 1+1\cdot 0\\-1\cdot 1+3\cdot 0\end{bmatrix}+\begin{bmatrix}0.5\\0.5\end{bmatrix}=\begin{bmatrix}2+0.5\\-1+0.5\end{bmatrix}=\begin{bmatrix}2.5\\-0.5\end{bmatrix}$. Layer 1 activation: $a^{(1)}=\operatorname{ReLU}\bigl(\begin{bmatrix}2.5\\-0.5\end{bmatrix}\bigr)=\begin{bmatrix}2.5\\0\end{bmatrix}$. The second unit receives a negative pre-activation and is switched off by ReLU — an explicit instance of a dead unit on this input.
+
+Layer 2 pre-activation: $(W^{(2)})^\top a^{(1)}+b^{(2)}=\begin{bmatrix}1&-1\end{bmatrix}\begin{bmatrix}2.5\\0\end{bmatrix}+0=2.5$. Identity output gives $f_\theta(x)=2.5$.
+
+---
+
+Flashcards for this section are as follows:
+
+- given $x=\begin{bmatrix}1\\0\end{bmatrix}$, $W^{(1)}=\begin{bmatrix}2&-1\\1&3\end{bmatrix}$, $b^{(1)}=\begin{bmatrix}0.5\\0.5\end{bmatrix}$, $g^{(1)}=\operatorname{ReLU}$, compute $z^{(1)}$ and $a^{(1)}$ ::@:: $z^{(1)}=(W^{(1)})^\top x+b^{(1)}=\begin{bmatrix}2\\-1\end{bmatrix}+\begin{bmatrix}0.5\\0.5\end{bmatrix}=\begin{bmatrix}2.5\\-0.5\end{bmatrix}$; $a^{(1)}=\operatorname{ReLU}(z^{(1)})=\begin{bmatrix}2.5\\0\end{bmatrix}$, so the second unit is switched off.
+- continuing from $a^{(1)}=\begin{bmatrix}2.5\\0\end{bmatrix}$, $W^{(2)}=\begin{bmatrix}1\\-1\end{bmatrix}$, $b^{(2)}=0$, identity output, compute $z^{(2)}$ and the network output $f_\theta(x)$ ::@:: $z^{(2)}=(W^{(2)})^\top a^{(1)}+b^{(2)}=\begin{bmatrix}1&-1\end{bmatrix}\begin{bmatrix}2.5\\0\end{bmatrix}=2.5$; identity output gives $f_\theta(x)=2.5$.
 
 ### universal approximation and why depth still helps
 
@@ -193,6 +208,7 @@ Flashcards for this section are as follows:
 - tanh derivative ::@:: The tanh derivative is $\tanh'(z)=1-\tanh^2(z)=4\sigma(2z)(1-\sigma(2z))$, so tanh also suffers saturation for large $|z|$.
 - why tanh is often preferable to sigmoid ::@:: Tanh is zero-centered and odd, so hidden activations are often easier to optimize than with sigmoid, although tanh still saturates for large $|z|$.
 - output-layer saturation nuance ::@:: Vanishing gradient at a sigmoid or tanh output unit is usually less concerning than in hidden layers, because it occurs only once and often means prediction error is already small.
+- given $z=1$, compute and compare $\sigma(z)$, $\sigma'(z)$, $\tanh(z)$, and $\tanh'(z)$ ::@:: $\sigma(1)=\frac{1}{1+e^{-1}}\approx 0.731$, $\sigma'(1)=0.731(1-0.731)\approx 0.197$; $\tanh(1)\approx 0.762$, $\tanh'(1)=1-0.762^2\approx 0.419$; tanh has roughly twice the derivative at $z=1$, confirming it flows gradient better in the linear range than sigmoid.
 
 ### rectifier family: ReLU, leaky ReLU, parametric ReLU, ELU, and softplus
 
@@ -245,9 +261,9 @@ Flashcards for this section are as follows:
 
 - smooth and gated activation overview ::@:: Smooth activations are differentiable and avoid hard corners, while gated activations multiply branches so one branch can modulate the information flow of another.
 - SiLU formula ::@:: SiLU can be written as $\operatorname{SiLU}(z)=z\sigma(z)=z\,\operatorname{softplus}'(z)$, so it is a self-gated linear activation closely related to Swish and softplus.
-- SiLU derivative ::@:: The SiLU derivative is $\operatorname{SiLU}'(z)=\sigma(z)+z\sigma(z)(1-\sigma(z))$.
+- SiLU derivative: SiLU is defined as $\operatorname{SiLU}(z)=z\sigma(z)$ where $\sigma(z)=\frac{1}{1+e^{-z}}$. Compute $\operatorname{SiLU}'(z)$ using the product rule. ::@:: By the product rule on $z\cdot\sigma(z)$: $\operatorname{SiLU}'(z)=1\cdot\sigma(z)+z\cdot\sigma'(z)=\sigma(z)+z\sigma(z)(1-\sigma(z))$, using $\sigma'(z)=\sigma(z)(1-\sigma(z))$. This can be factored as $\sigma(z)(1+z(1-\sigma(z)))=\sigma(z)(1+z-z\sigma(z))$.
 - swish activation ::@:: Swish generalizes SiLU as $\operatorname{Swish}_{\beta}(z)=z\sigma(\beta z)$ with fixed or learned $\beta$; the case $\beta=1$ is exactly SiLU.
-- swish derivative ::@:: The Swish derivative is $\sigma(\beta z)+\beta z\sigma(\beta z)(1-\sigma(\beta z))$.
+- Swish derivative: Swish is $\operatorname{Swish}_\beta(z)=z\sigma(\beta z)$ where $\sigma(t)=\frac{1}{1+e^{-t}}$. Compute $\operatorname{Swish}_\beta'(z)$ using the product rule. ::@:: By the product rule on $z\cdot\sigma(\beta z)$: $\operatorname{Swish}_\beta'(z)=\sigma(\beta z)+z\cdot\frac{d}{dz}\sigma(\beta z)=\sigma(\beta z)+z\cdot\beta\sigma(\beta z)(1-\sigma(\beta z))$. At $\beta=1$ this reduces to the SiLU derivative $\sigma(z)+z\sigma(z)(1-\sigma(z))$.
 - Mish formula and derivative ::@:: Mish uses $\operatorname{Mish}(z)=z\tanh(\operatorname{softplus}(z))$ with derivative $\tanh(\operatorname{softplus}(z))+z\,\operatorname{sech}^2(\operatorname{softplus}(z))\sigma(z)$.
 - GELU formula ::@:: GELU uses $\operatorname{GELU}(z)=z\Phi(z)$ and is often approximated by $\frac{z}{2}\bigl(1+\tanh(\sqrt{2/\pi}(z+0.044715z^3))\bigr)$, so it behaves like a Gaussian-smoothed gate.
 - GELU derivative ::@:: The GELU derivative is $\operatorname{GELU}'(z)=\Phi(z)+z\phi(z)$, where $\phi$ is the Gaussian density.
@@ -389,6 +405,7 @@ Flashcards for this section are as follows:
 - why sigmoid is acceptable at the output layer ::@:: Sigmoid is acceptable as an output unit because the negative log-likelihood supplies a useful supervised signal even though sigmoid is problematic as a hidden-layer activation.
 - sigmoid output-gradient formula ::@:: For Bernoulli negative log-likelihood, the output-logit gradient is $\partial\ell/\partial z=\sigma(z)-y$, so near-correct predictions naturally contribute small gradient.
 - interpretation of $\sigma(z)-y \approx 0$ ::@:: Having $\sigma(z)-y \approx 0$ means the output probability closely matches the true binary label.
+- given binary label $y=1$ and logit $z=0.5$, compute the binary cross-entropy loss $-\log\sigma(z)$ ::@:: $\sigma(0.5)\approx 0.622$; loss $=-\log(0.622)\approx 0.476$.
 
 ### softmax output for multiclass classification
 
@@ -407,6 +424,7 @@ Flashcards for this section are as follows:
 - multiclass cross entropy general and one-hot cases ::@:: For target distribution $r$, categorical NLL is $\ell=-\sum_{k=1}^{C} r_k\log p_k = -\sum_{c=1}^{C} r_c z_c + \log\sum_{c=1}^{C} e^{z_c}$; with one-hot $t$ this reduces to $-\log p_y=-z_y+\log\sum_{c=1}^{C} e^{z_c}$, the same as softmax regression.
 - softmax output-gradient formula ::@:: For softmax cross entropy with general target $r$, $\partial\ell/\partial z_k=p_k-r_k$ (one-hot special case $p_k-t_k$). Note this expression is a vector of length $C$, the number of classes.
 - deep-classifier interpretation ::@:: A deep multiclass classifier can be understood as a learned feature transformation followed by a softmax regression head.
+- given logits $z=(1,2,0)$ and one-hot target $t=(0,1,0)$ (class $2$ is correct), compute the softmax probabilities and multiclass cross-entropy loss ::@:: $Z=e^1+e^2+e^0\approx 2.718+7.389+1.000=11.107$; $p_1\approx 0.245$, $p_2\approx 0.665$, $p_3\approx 0.090$; loss $=-\log(p_2)\approx 0.407$.
 
 ## backpropagation
 

@@ -125,9 +125,9 @@ Flashcards for this section are as follows:
 
 - design matrix ::@:: The design matrix $X$ is formed by stacking the row vectors $x_i^\top$, so each training example occupies one row.
 - matrix loss $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$ ::@:: With design matrix $X$ and target vector $y$, the mean squared error becomes $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$.
-- residual vector ::@:: In matrix form, the residual vector is $y - Xw$, namely observed targets minus fitted values.
-- gradient of least squares ::@:: The gradient of the least-squares objective is $\nabla L(w)=\frac{2}{N}(X^\top Xw - X^\top y)$.
-- normal equation $X^\top Xw = X^\top y$ ::@:: Setting the least-squares gradient to zero gives the normal equation $X^\top Xw = X^\top y$.
+- residual vector in matrix-form least squares: With design matrix $X\in\mathbb{R}^{N\times d}$ and target vector $y\in\mathbb{R}^N$, what is the residual vector for parameters $w$? ::@:: The residual vector is $y - Xw\in\mathbb{R}^N$, whose $i$-th entry is $y_i - x_i^\top w$, i.e., observed target minus fitted value for example $i$. Minimizing $\lVert y-Xw\rVert_2^2$ is equivalent to minimizing the sum of squared residuals.
+- gradient of least squares, given the loss $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$ ::@:: The gradient of the least-squares objective is $\nabla L(w)=\frac{2}{N}(X^\top Xw - X^\top y)$.
+- normal equation $X^\top Xw = X^\top y$ ::@:: Setting the least-squares gradient $\nabla L(w)=\frac{2}{N}(X^\top Xw - X^\top y)$ to zero gives the normal equation $X^\top Xw = X^\top y$.
 - ordinary least squares solution $\hat w = (X^\top X)^{-1}X^\top y$ ::@:: When $X^\top X$ is invertible, the least-squares minimizer is $\hat w = (X^\top X)^{-1}X^\top y$.
 - why calculus appears in linear regression ::@:: Calculus enters because learning is posed as minimizing a differentiable loss, so the optimum is characterized by a zero gradient.
 - quadratic bowl intuition ::@:: The least-squares objective is a quadratic bowl in parameter space, which is why the optimization landscape is especially clean for linear regression.
@@ -152,7 +152,7 @@ Flashcards for this section are as follows:
 - coordinatewise reason that $\nabla_w(w^\top A w)=(A+A^\top)w$ ::@:: Since $w^\top A w = \sum_{j,k} a_{jk}w_jw_k$, differentiating with respect to $w_m$ collects the terms where $j=m$ and where $k=m$, giving $(Aw)_m+(A^\top w)_m$.
 - why the derivative of $w^\top X^\top Xw$ is $2X^\top Xw$ ::@:: Let $A=X^\top X$. Because $A$ is symmetric, $(A+A^\top)w = 2Aw$, so $\nabla_w(w^\top X^\top Xw)=2X^\top Xw$.
 - two-variable memory aid for differentiating a quadratic form ::@:: If $A=\begin{bmatrix}a&b\\ b&c\end{bmatrix}$, then $w^\top A w = aw_1^2 + 2bw_1w_2 + cw_2^2$, so differentiating gives $[2aw_1+2bw_2,\ 2bw_1+2cw_2]^\top = 2Aw$.
-- why the matrix derivation matters ::@:: The derivation shows that least squares balances feature geometry through $X^\top X$ against target-feature alignment through $X^\top y$.
+- why the matrix derivation matters ::@:: The derivation shows that least squares balances two terms: $X^\top Xw$, which comes from the geometry of the design matrix, and $X^\top y$, which comes from how the targets correlate with the features.
 
 ### tiny normal-equation computation
 
@@ -259,7 +259,7 @@ The effect of hypothesis-space size on error should therefore be read in layers.
 Flashcards for this section are as follows:
 
 - hypothesis space ::@:: The hypothesis space is the set of all functions a learning algorithm is allowed to choose as its solution.
-- model capacity ::@:: Model capacity is the expressive size or flexibility of the hypothesis space.
+- model capacity in the supervised-learning context ::@:: Model capacity is the expressive size or flexibility of the hypothesis space — the set of functions the learning algorithm is allowed to output. A larger hypothesis space (e.g., higher-degree polynomial features, more parameters) means higher capacity: the model can represent a wider variety of functions, which lowers bias but risks increasing variance.
 - generalization ::@:: Generalization is the ability of the learned model to perform well on future data drawn from the same underlying data-generating process.
 - iid assumption for train and test data ::@:: Training and test data are usually assumed to be independent and identically distributed samples from the same population.
 - why the iid assumption matters ::@:: If train, validation, and deployment data do not come from the same population or are not independent, then held-out error may no longer predict future performance reliably.
@@ -481,7 +481,7 @@ The ridge-versus-LASSO geometry gives a second kind of example. Ridge prefers sm
 Flashcards for this section are as follows:
 
 - degree-9 regularization example ::@:: In the lecture's degree-$9$ polynomial example, very small $\lambda$ overfits, very large $\lambda$ underfits, and a medium $\lambda$ recovers the right broad shape.
-- ridge-geometry example ::@:: Ridge's round geometry usually shrinks weights without setting them exactly to zero.
+- ridge-geometry example: In a 2D parameter space $(w_1, w_2)$ showing the OLS loss contours and the ridge penalty region $\{w:\lVert w\rVert_2^2\le t\}$, what shape does the penalty region have, and what does that imply about coefficient sparsity? ::@:: The ridge constraint region is a circle (sphere in higher dimensions), so it has no sharp corners. The OLS loss ellipse typically touches this circle at a point where neither $w_1$ nor $w_2$ is exactly zero, so ridge regression tends to shrink all coefficients toward zero but rarely produces exact zeros, unlike LASSO which uses an $L_1$ ball with corners at the axes.
 - LASSO-geometry example ::@:: LASSO's cornered $L_1$ geometry often makes the optimum land on an axis, so some coefficients become exactly zero.
 
 ## performance metrics for regression
@@ -519,7 +519,7 @@ RMSE keeps exactly the same model ranking as MSE because it is just a square roo
 Flashcards for this section are as follows:
 
 - intuitive meaning of MSE ::@:: MSE is the average squared residual, so it ignores error sign and makes large mistakes count more heavily than small ones.
-- why MSE is sensitive to outliers ::@:: Because residuals are squared, a few large errors can dominate the MSE.
+- why MSE is sensitive to outliers: MSE is $\mathrm{MSE}=\frac{1}{N}\sum_{i=1}^N(y_i-\hat y_i)^2$. Why does a small number of large residuals disproportionately inflate it? ::@:: Because residuals are squared before averaging, a single outlier with residual $10$ contributes $100$ to the sum, whereas ten ordinary points with residual $1$ each contribute $100$ combined. This squaring makes MSE non-robust: outliers dominate even when the model fits most points well. Mean absolute error (MAE) avoids this by using absolute values, which grows linearly with the residual rather than quadratically.
 - why RMSE preserves model ranking ::@:: RMSE is just the square root of MSE, so it orders models the same way while being easier to interpret in the target's original unit.
 
 ### r squared intuition and alternative formulas

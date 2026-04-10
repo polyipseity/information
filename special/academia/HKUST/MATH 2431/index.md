@@ -401,7 +401,7 @@ The content is in teaching order.
 - topic: midterm examination
 - [§ midterm examination](#midterm%20examination)
 - MATH 2431
-  - MATH 2431 / midterm examination proof emphasis ::@:: The midterm examination may draw on the compatibility-class method from [sigma-algebra § proof via compatibility classes](sigma-algebra.md#proof%20via%20compatibility%20classes) and its two-family extension in [sigma-algebra § extending a two-family property from two pi-systems](sigma-algebra.md#extending%20a%20two-family%20property%20from%20two%20pi-systems), especially for extending identities such as $P[A\\cap B]=P[A]P[B]$ from two generating pi-systems to their generated sigma-algebras. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+  - MATH 2431 / midterm examination proof emphasis ::@:: The midterm examination may draw on the compatibility-class method from [sigma-algebra § proof via compatibility classes](sigma-algebra.md#proof%20via%20compatibility%20classes) and its two-family extension in [sigma-algebra § extending a two-family property from two pi-systems](sigma-algebra.md#extending%20a%20two-family%20property%20from%20two%20pi-systems), especially for extending identities such as $P[A\cap B]=P[A]P[B]$ from two generating pi-systems to their generated sigma-algebras. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## midterm examination
 

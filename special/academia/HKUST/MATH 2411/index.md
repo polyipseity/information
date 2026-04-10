@@ -223,7 +223,7 @@ The content is in teaching order.
   - probability / event ::@:: A __probability__ of an uncertain outcome / event is the chance (or likelihood) that it will occur. It must be in between 0 and 1, inclusively.
 - random experiment ::@:: A __random experiment__ is a process that generates observations, and its outcome cannot be known beforehand and is only known after its performance.
 - sample space ::@:: A __sample space__ is a set of _all_ possible outcomes of a random experiment, often denoted by _S_. Each outcome is called  __sample point__, denoted by _s_.
-  - sample space / set-builder notation ::@:: To describe sample spaces for a large or infinite sample points, we can use the set-builder notation (__statement__ or __rule method__). It has the form: $$\set{x \mid P(x)} \,.$$, where _x_ is an indeterminate and _P_(_x_) is a predicate on the indeterminate. An element is in the set iff _P_(_x_) is true.
+  - sample space / set-builder notation ::@:: To describe sample spaces for a large or infinite sample points, we can use the set-builder notation (__statement__ or __rule method__). It has the form: $$\set{x \mid P(x)} \,.$$ where _x_ is an indeterminate and _P_(_x_) is a predicate on the indeterminate. An element is in the set iff _P_(_x_) is true.
 - event ::@:: An __event__ is any subset of the sample space, often denoted by capital letters. The set of all events is the __event space__. Equivalently, it is the power set of the sample space.
 - Venn diagram ::@:: A __Venn diagram__ is a graph that can illustrate relationships among events. A rectangle is often used to represent the _sample space_, while circles often represent _events_ we are interested in. The circles may overlap, or be inside of one another completely.
 - set theory

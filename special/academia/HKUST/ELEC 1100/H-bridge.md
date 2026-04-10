@@ -120,7 +120,7 @@ Flashcards for this section are as follows:
 
 ### function and pins
 
-The **L293** is an integrated circuit that contains two complete H-bridges, so one IC can drive two DC motors (e.g. left and right wheels of a robot car). Each H-bridge has enable (EN), input (IN_1, IN_2), and output (OUT_1, OUT_2) pins. For each motor, the two IN pins set the direction (and the inverter, if used, provides the complementary signal from a single DIR line); the EN pin enables that half of the chip. <p> ![L293 dual H-bridge IC pinout (16-pin DIP)](attachments/l293_block.svg)
+The **L293** is an integrated circuit that contains two complete H-bridges, so one IC can drive two DC motors (e.g. left and right wheels of a robot car). Each H-bridge has enable (EN), input (IN_1, IN_2), and output (OUT_1, OUT_2) pins. For each motor, the two IN pins set the direction (and the inverter, if used, provides the complementary signal from a single DIR line). The EN pin plays a different role: if EN is LOW, that H-bridge is disabled; if EN is HIGH, that H-bridge responds to its two IN pins. This also makes EN the natural place to apply PWM for speed control: keep the direction logic fixed on IN_1 and IN_2, and pulse EN on and off rapidly to vary the average motor voltage. <p> ![L293 dual H-bridge IC pinout (16-pin DIP)](attachments/l293_block.svg)
 
 ---
 
@@ -128,55 +128,57 @@ Flashcards for this section are as follows:
 
 - schematic: L293 pinout <p> ![L293 pinout](attachments/l293_block.svg) ::@:: L293 dual H-bridge: 16-pin DIP; pin 8 = VS (motor supply), pin 16 = VCC (logic); EN_12, IN_1, OUT_1, OUT_2, IN_2 for bridge 1; EN_34, IN_3, OUT_3, OUT_4, IN_4 for bridge 2.
 - L293 function: What is the L293 used for? ::@:: Dual H-bridge IC: it contains two complete H-bridges so one chip can drive two DC motors (e.g. left and right robot wheels).
-- L293 enable and inputs: What do EN and IN_1, IN_2 do per motor? ::@:: EN enables that H-bridge (that half of the chip); IN_1 and IN_2 set the direction (with an inverter, one DIR line can drive both so they are complementary).
+- L293 enable and inputs: What do EN and IN_1, IN_2 do per motor? ::@:: IN_1 and IN_2 determine direction by choosing which way current is driven through that motor. EN separately enables or disables that H-bridge half. In practical control, EN can be tied HIGH for always-on operation or driven by PWM for speed control while IN_1 and IN_2 keep the chosen direction.
 - L293 outputs: What do OUT_1 and OUT_2 connect to? ::@:: The two outputs of each H-bridge connect to the two terminals of that motor.
+- L293 PWM on EN: Why is the EN pin a convenient place to apply PWM? ::@:: Because EN turns that H-bridge on and off without changing the direction logic on IN_1 and IN_2. So PWM at EN changes the average motor voltage and speed, while the IN pins continue to define forward or reverse.
 
 ### supplies and bypass
 
-The L293 needs two supply voltages: **VS** (pin 8) for the motor supply (e.g. $12\text{ V}$) and **VCC** (pin 16) for the logic inputs (e.g. $5\text{ V}$). Ground pins and bypass capacitors (e.g. $0.1\,\mu\text{F}$) near the IC are required for stable operation.
+The L293 needs two supply voltages: **VS** (pin 8) for the motor supply (e.g. $12\text{ V}$) and **VCC** (pin 16) for the logic inputs (e.g. $5\text{ V}$). The distinction matters: the $12\text{ V}$ motor supply is only for the motor-driving output stage and the motor pins, whereas the logic/control side of the chip uses $5\text{ V}$ on VCC. So every logic-level connection — EN, IN_1, IN_2, IN_3, IN_4, and the 74HC14 interface — belongs to the $5\text{ V}$ logic domain, not to the $12\text{ V}$ motor rail. Ground pins and bypass capacitors (e.g. $0.1\,\mu\text{F}$) near the IC are required for stable operation, and the logic and motor supplies must share a common reference ground.
 
 ---
 
 Flashcards for this section are as follows:
 
-- L293 two supplies: What are VS and VCC on the L293? (pin 8, pin 16; $12\text{ V}$, $5\text{ V}$) ::@:: VS (e.g. pin 8) is the motor supply (e.g. $12\text{ V}$); VCC (e.g. pin 16) is the logic supply (e.g. $5\text{ V}$). Both must be connected for the IC to work.
+- L293 two supplies: What are VS and VCC on the L293? (pin 8, pin 16; $12\text{ V}$, $5\text{ V}$) ::@:: VS (pin 8) is the motor supply, e.g. $12\text{ V}$, and feeds the motor-driving stage only. VCC (pin 16) is the logic supply, e.g. $5\text{ V}$, and powers the input/control side of the IC. The $12\text{ V}$ motor rail is for motor power, while the other pins and control logic stay in the $5\text{ V}$ domain.
 - L293 bypass capacitors: Why use capacitors (e.g. $0.1\,\mu\text{F}$) near the L293? ::@:: For stable operation; they help filter supply noise and provide local charge when the motors draw current.
+- L293 common ground: Why must the $12\text{ V}$ motor supply and the $5\text{ V}$ logic supply still share ground? ::@:: Because the L293 input logic and the 74HC14 output levels are interpreted relative to ground. A common ground gives one shared voltage reference, so $0\text{ V}$ and $5\text{ V}$ logic levels are meaningful to the motor driver.
 
 ## connecting L293, 74HC14, and LM7805
 
 ### power sources ($12\text{ V}$ and $5\text{ V}$)
 
-In the course project the $12\text{ V}$ motor supply and regulated $5\text{ V}$ logic supply come from the **LM7805** regulator circuit (see [voltage regulator](voltage%20regulator.md)): a $12\text{ V}$ battery (or similar) feeds the LM7805 input, and the regulator output provides $5\text{ V}$ for the 74HC14 and L293 logic (VCC). The L293 motor supply (VS) is connected to the unregulated $12\text{ V}$ (before or from the same source as the regulator input). So one battery/input provides both $12\text{ V}$ for motors and $5\text{ V}$ (via LM7805) for logic.
+In the course project the $12\text{ V}$ motor supply and regulated $5\text{ V}$ logic supply come from the **LM7805** regulator circuit (see [voltage regulator](voltage%20regulator.md)): a $12\text{ V}$ battery (or similar) feeds the LM7805 input, and the regulator output provides $5\text{ V}$ for the 74HC14 and L293 logic (VCC). The L293 motor supply (VS) is connected to the unregulated $12\text{ V}$ (before or from the same source as the regulator input). So one battery/input provides both $12\text{ V}$ for motors and $5\text{ V}$ (via LM7805) for logic. The key separation is: the $12\text{ V}$ rail should go only to the motor-supply side (VS and the motor current path), while the logic/control side of the L293 and the 74HC14 should stay on the regulated $5\text{ V}$ rail.
 
 ---
 
 Flashcards for this section are as follows:
 
-- where 12V and 5V come from in the project: In the robot car circuit, where do $12\text{ V}$ and $5\text{ V}$ come from? ::@:: The LM7805 circuit: unregulated $12\text{ V}$ (e.g. battery) feeds the regulator and the L293 motor supply (VS); the LM7805 output provides regulated $5\text{ V}$ for the 74HC14 and L293 VCC.
+- where 12V and 5V come from in the project: In the robot car circuit, where do $12\text{ V}$ and $5\text{ V}$ come from? ::@:: The unregulated battery rail provides the motor supply and also feeds the LM7805 input. The LM7805 then generates the regulated $5\text{ V}$ rail for the 74HC14 and the L293 logic supply VCC. So $12\text{ V}$ is kept on the motor-power side, while $5\text{ V}$ is used for the logic/control side.
 - how many 74HC14 inverters for two motors: How many inverters are needed for left and right motor DIR, and how many 74HC14 ICs? ::@:: Two inverters (one per motor); one 74HC14 package has six inverters, so one physical IC is enough.
 
 ### wiring DIR and inverters
 
-Two **74HC14** inverters are needed for the two motors (left and right DIR). Connect each motor's DIR line to one inverter input; the inverter output goes to the appropriate L293 IN pins so that the two inputs to each H-bridge are complementary.
+Two **74HC14** inverters are needed for the two motors (left and right DIR). Connect each motor's DIR line to one inverter input. Then use the original DIR signal and the inverter output as the two complementary logic inputs for that motor's L293 half: for example, DIR may go directly to one L293 input and the inverted DIR to the other. In that way each motor gets one HIGH and one LOW direction input, and flipping DIR swaps those two logic levels. If PWM speed control is needed later, apply PWM to the corresponding EN pin rather than to the DIR line.
 
 ---
 
 Flashcards for this section are as follows:
 
-- connecting DIR to L293: How is each motor's DIR signal wired to the L293? ::@:: The DIR line goes to one inverter input; the inverter output goes to the appropriate L293 IN pins so that the two inputs to that H-bridge are complementary (one HIGH, one LOW).
+- connecting DIR to L293: How is each motor's DIR signal wired to the L293? ::@:: Feed that motor's DIR line into one 74HC14 inverter input. Then wire the original DIR signal to one L293 direction input and the inverted DIR output to the other direction input of the same H-bridge half. So each motor sees a complementary pair such as $(\text{IN}_1,\text{IN}_2)=(\text{DIR},\overline{\text{DIR}})$.
 
 ## breadboard layout
 
 ### rail labels and 74HC14 power
 
-When building the circuit on a breadboard, keep the $12\text{ V}$ and $5\text{ V}$ rails clearly identified so that nothing is accidentally connected to the wrong supply. Always connect VCC (to the positive supply; $5\text{ V}$ in the course robot) and GND (to ground) on the 74HC14; without them the inverter outputs are undefined. In the ELEC 1100 lab sequence you normally build the LM7805, L293 and 74HC14 circuits once on the provided breadboard and keep them for later labs rather than dismantling and rebuilding each time.
+When building the circuit on a breadboard, keep the $12\text{ V}$ and $5\text{ V}$ rails clearly identified so that nothing is accidentally connected to the wrong supply. Always connect VCC (to the positive supply; $5\text{ V}$ in the course robot) and GND (to the common ground of that $5\text{ V}$ logic supply) on the 74HC14; GND is *not* another $5\text{ V}$ pin. Without VCC and a proper ground reference the inverter outputs are undefined. In the ELEC 1100 lab sequence you normally build the LM7805, L293 and 74HC14 circuits once on the provided breadboard and keep them for later labs rather than dismantling and rebuilding each time.
 
 ---
 
 Flashcards for this section are as follows:
 
 - breadboard $12\text{ V}$ vs $5\text{ V}$: Why label the two rails on the breadboard? ::@:: To avoid connecting logic pins to the motor supply or vice versa; wrong connections can damage the ICs.
-- 74HC14 power on breadboard: What must be connected to the 74HC14 for it to work? (VCC, GND, $5\text{ V}$ in course) ::@:: VCC to the positive supply (in our course, $5\text{ V}$) and GND to ground; without them the outputs are undefined.
+- 74HC14 power on breadboard: What must be connected to the 74HC14 for it to work? (VCC, GND, $5\text{ V}$ in course) ::@:: Connect VCC to the regulated $+5\text{ V}$ logic rail and connect GND to the common ground used by that $5\text{ V}$ supply. GND must go to the ground reference, not to $+5\text{ V}$. Without both connections the inverter outputs are undefined.
 - keeping H-bridge circuits across labs: Why does the lab ask you to keep the LM7805, L293 and 74HC14 circuits on the same breadboard for future labs? ::@:: Reusing the existing LM7805, L293 and 74HC14 layout avoids repeated rewiring, reduces mistakes, and ensures a stable, known‑good motor‑driver circuit for later labs.
 
 ### pin counts and placement
