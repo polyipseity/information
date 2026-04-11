@@ -26,7 +26,7 @@ In {@{[mathematics](mathematics.md), specifically [category theory](category%20t
 
 > {@{![A category with objects X, Y, Z and morphisms f, g, g ∘ f](../../archives/Wikimedia%20Commons/Commutative%20diagram%20for%20morphism.svg)}@}
 >
-> {@{A category with objects X, Y, Z and morphisms f, g, g ∘ f}@}
+> {@{A category}@} with {@{objects X, Y, Z and morphisms f, g, g ∘ f}@}
 
 <!-- markdownlint MD028 -->
 

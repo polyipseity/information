@@ -17,7 +17,7 @@ If you try to {@{get the type of a list using `type(list)`}@}, {@{the returned t
 
 To define a list in Python, {@{enclose all items in square brackets `[]` and separate each item by a comma `,`, like `[1, 2, "item", 4.2, "ok", 'hey', False]`}@}. An empty list is {@{allowed and created using `[]`, and can be expanded later}@}. A trailing comma is {@{allowed and optional after the last item (but not if there are no items, i.e. `[,]` is invalid)}@}. Note that a list can {@{contain items of different types (including lists) like the example just now, though usually it is more useful for them to be the same type}@}.
 
-ISOM 2020 note: Note that {@{`(..., ...)`}@} is {@{creating a `tuple`, a type that is similar to a `list` but is immutable (not modifiable)}@}. But you {@{do not need to care or know about it}@}.
+ISOM 2020 note: Note that {@{`(..., ...)`}@} is creating {@{a `tuple`, a type that is similar to a `list` but is immutable (not modifiable)}@}. But you do not {@{need to care or know about it}@}.
 
 ## indexing
 

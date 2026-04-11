@@ -47,9 +47,9 @@ fmap (g . h) = (fmap g) . (fmap h)
 > <!-- <span class="nf"> --><span style="color: #0000FF;">fmap</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span>{@{<!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">g</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="o"> --><span style="color: #666666;">.</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="n"> --><span style="">h</span><!-- <span class="p"> --><span style="">)</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="ow"> --><span style="color: #AA22FF; font-weight: bold;">=</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">fmap</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="n"> --><span style="">g</span><!-- <span class="p"> --><span style="">)</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="o"> --><span style="color: #666666;">.</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="p"> --><span style="">(</span><!-- <span class="n"> --><span style="">fmap</span><!-- <span class="w"> --><span style="color: #bbbbbb;"> </span><!-- <span class="n"> --><span style="">h</span><!-- <span class="p"> --><span style="">)</span>}@}
 > </pre>
 
-\(where `.` {@{stands for [function composition](function%20composition.md)}@}\).
+\(where {@{`.`}@} stands for {@{[function composition](function%20composition.md)}@} in Haskell\).
 
-In {@{[Scala](scala%20(programming%20language).md)}@} {@{a [trait](trait%20(computer%20programming).md) can be used}@}:
+To define {@{a functor in [Scala](scala%20(programming%20language).md)}@}, {@{a [trait](trait%20(computer%20programming).md)}@} can be used:
 
 ```Scala
 trait Functor[F[_]] {
