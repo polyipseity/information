@@ -46,7 +46,7 @@ Flashcards for this section are as follows:
 
 - sigmoid function $\sigma(z)=\frac{1}{1+e^{-z}}$ ::@:: The sigmoid activation is $\sigma(z)=\frac{1}{1+e^{-z}}$.
 - logistic class probability $P(y=1\mid x,w)=\sigma(w^\top x)$ ::@:: In binary logistic regression, $P(y=1\mid x,w)=\sigma(w^\top x)$ and $P(y=0\mid x,w)=1-\sigma(w^\top x)$.
-- augmented feature vector in logistic regression ::@:: Writing the input as an augmented vector $x=(1,\tilde x^\top)^\top$ absorbs the intercept into $w$, so the score keeps the simple dot-product form $w^\top x$.
+- augmented feature vector in logistic regression ::@:: Writing the input as an augmented vector $x=(1,\tilde x^\top)^\top$ absorbs the intercept into $w$, so the score keeps the simple dot-product form $w^\top x$. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - hyperplane geometry of the logistic score ::@:: The surface $w^\top x=0$ is a hyperplane whose normal vector is $w$; changing the intercept shifts the hyperplane, while changing the non-bias weights changes its orientation.
 - why sigmoid is useful for classification ::@:: The sigmoid converts any real-valued score into a number between $0$ and $1$, making it suitable as a binary class probability.
 - binary labels in logistic regression ::@:: In the standard binary logistic-regression setup, the targets are encoded as $y \in \{0,1\}$ so the conditional model can be written as a Bernoulli distribution.
@@ -83,15 +83,15 @@ This creates a practical coefficient interpretation. Increasing feature $x_j$ by
 
 Flashcards for this section are as follows:
 
-- Bernoulli form of logistic regression ::@:: Binary logistic regression assumes $p(y\mid x,w)=\operatorname{Bernoulli}(y\mid \sigma(w^\top x))$.
-- Bernoulli likelihood in one formula ::@:: If $p=\sigma(w^\top x)$, then the binary-label likelihood can be written as $p(y\mid x,w)=p^y(1-p)^{1-y}$ for $y \in \{0,1\}$.
+- Bernoulli form of logistic regression ::@:: Binary logistic regression assumes $p(y\mid x,w)=\operatorname{Bernoulli}(y\mid \sigma(w^\top x))$. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
+- Bernoulli likelihood in one formula ::@:: If $p=\sigma(w^\top x)$, then the binary-label likelihood can be written as $p(y\mid x,w)=p^y(1-p)^{1-y}$ for $y \in \{0,1\}$. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - odds ::@:: If $p=P(y=1\mid x,w)$, then odds are $\frac{p}{1-p}=\frac{P(y=1\mid x,w)}{P(y=0\mid x,w)}$, which quantifies relative likelihood of class $1$ versus class $0$.
-- inverse-logit derivation: Given $p=\sigma(z)=\frac{1}{1+e^{-z}}$, solve for $z$ ::@:: Solving $p=\frac{1}{1+e^{-z}}$ gives $e^{-z}=\frac{1-p}{p}$ and hence $z=\log\frac{p}{1-p}$, so $\operatorname{logit}(p)=\sigma^{-1}(p)$ on $(0,1)$.
+- inverse-logit derivation: Given $p=\sigma(z)=\frac{1}{1+e^{-z}}$, solve for $z$ ::@:: Solving $p=\frac{1}{1+e^{-z}}$ gives $e^{-z}=\frac{1-p}{p}$ and hence $z=\log\frac{p}{1-p}$, so $\operatorname{logit}(p)=\sigma^{-1}(p)$ on $(0,1)$. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
 - logit or log-odds ::@:: The logit is $\operatorname{logit}(p)=\log \frac{p}{1-p}$, which maps probabilities from $(0,1)$ to $\mathbb{R}$, linearizes multiplicative odds effects, and is exactly the inverse of the sigmoid link.
 - why logistic regression is linear in the logit ::@:: Logistic regression satisfies $\log \frac{P(y=1\mid x,w)}{P(y=0\mid x,w)} = w^\top x$, so the log-odds are a linear function of the features.
-- meaning of a large positive score ::@:: A large positive value of $w^\top x$ means the model assigns class $1$ odds far above $1$ and therefore predicts a probability near $1$.
+- meaning of a large positive score ::@:: A large positive value of $w^\top x$ means the model assigns class $1$ odds far above $1$ and therefore predicts a probability near $1$. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - coefficient interpretation on odds scale ::@:: A one-unit increase in feature $x_j$ shifts log-odds by $w_j$, so the odds are multiplied by $e^{w_j}$ when other features are fixed.
-- odds-versus-logit memory cue ::@:: Odds answer the multiplicative question $\frac{p}{1-p}$, while logit answers the additive-linear question $\log\frac{p}{1-p}=w^\top x$.
+- odds-versus-logit memory cue ::@:: Odds answer the multiplicative question $\frac{p}{1-p}$, while logit answers the additive-linear question $\log\frac{p}{1-p}=w^\top x$. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 
 ### worked probability and log-odds computation
 
@@ -132,9 +132,9 @@ Flashcards for this section are as follows:
 - point-estimation rule in logistic regression ::@:: Logistic prediction chooses the action with smallest conditional risk; under zero-one loss this becomes $\hat y=\arg\max_{y\in\{0,1\}} P(y\mid x,w)$, so binary prediction uses the larger posterior probability.
 - threshold conventions at $0.5$ ::@:: In this course, the equal-cost convention is predict class $1$ when $P(y=1\mid x,w)>0.5$; many texts instead use $P(y=1\mid x,w)\ge 0.5$, so the only difference is how the exact tie case $P(y=1\mid x,w)=0.5$ is resolved.
 - equal-cost Bayes rule in score form ::@:: Under equal costs, predicting class $1$ when $P(y=1\mid x,w)>0.5$ is equivalent to predicting class $1$ when $w^\top x>0$, because the sigmoid is monotone increasing.
-- Bayes classifier remark with notation ::@:: Here $x$ is the observed input, $a$ is the action or predicted class, $y$ is the true class, $C(a,y)$ is the loss, and $R(a\mid x)=\sum_y C(a,y)P(y\mid x)$ is conditional risk; the Bayes classifier chooses the action with smallest conditional risk after seeing $x$.
+- Bayes classifier remark with notation ::@:: Here $x$ is the observed input, $a$ is the action or predicted class, $y$ is the true class, $C(a,y)$ is the loss, and $R(a\mid x)=\sum_y C(a,y)P(y\mid x)$ is conditional risk; the Bayes classifier chooses the action with smallest conditional risk after seeing $x$. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - zero-one Bayes derivation in binary form with context ::@:: Under zero-one loss $C(a,y)=\mathbf{1}[a\ne y]$, predicting class $1$ is wrong exactly when $y=0$, so $R(1\mid x)=P(y=0\mid x)$; similarly $R(0\mid x)=P(y=1\mid x)$, hence Bayes prediction chooses the larger posterior probability.
-- cost-sensitive Bayes threshold ::@:: If false-positive cost is $C_{FP}$ and false-negative cost is $C_{FN}$, then predict class $1$ when $C_{FP}P(y=0\mid x)<C_{FN}P(y=1\mid x)$, equivalently when $P(y=1\mid x)>\frac{C_{FP}}{C_{FP}+C_{FN}}$.
+- cost-sensitive Bayes threshold ::@:: If false-positive cost is $C_{FP}$ and false-negative cost is $C_{FN}$, then predict class $1$ when $C_{FP}P(y=0\mid x)<C_{FN}P(y=1\mid x)$, equivalently when $P(y=1\mid x)>\frac{C_{FP}}{C_{FP}+C_{FN}}$. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - estimation-versus-decision distinction ::@:: Logistic regression first fits posterior probabilities by likelihood or cross entropy, then converts them into class decisions by a Bayes rule determined by the chosen loss or cost structure.
 
 ## entropy, cross entropy, and maximum likelihood
@@ -150,9 +150,9 @@ The maximum-likelihood viewpoint states the same goal in product form: good para
 Flashcards for this section are as follows:
 
 - entropy intuition ::@:: Entropy measures the uncertainty of a distribution, while cross entropy measures the coding cost incurred when one uses the wrong distribution to represent outcomes.
-- unknown true distribution versus learned model ::@:: In supervised learning, one imagines an unknown true distribution $P(x,y)$ and learns a model conditional distribution $Q(y\mid x)$ from sampled data.
-- why likelihood matters ::@:: Likelihood measures how strongly a parameter choice explains the observed data, and taking negative logs turns it into an additive optimization objective.
-- true-versus-model memory rule ::@:: Keep the full triad $H(P)=\mathbb{E}_{Z\sim P}[-\log P(Z)]$, $H(P,Q)=\mathbb{E}_{Z\sim P}[-\log Q(Z)]$, and $D_{\mathrm{KL}}(P\Vert Q)=\mathbb{E}_{Z\sim P}[\log P(Z)-\log Q(Z)]$: the first argument always generates and weights the data, while the second argument is the model being scored.
+- unknown true distribution versus learned model ::@:: In supervised learning, one imagines an unknown true distribution $P(x,y)$ and learns a model conditional distribution $Q(y\mid x)$ from sampled data. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
+- why likelihood matters ::@:: Likelihood measures how strongly a parameter choice explains the observed data, and taking negative logs turns it into an additive optimization objective. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
+- true-versus-model memory rule ::@:: Keep the full triad $H(P)=\mathbb{E}_{Z\sim P}[-\log P(Z)]$, $H(P,Q)=\mathbb{E}_{Z\sim P}[-\log Q(Z)]$, and $D_{\mathrm{KL}}(P\Vert Q)=\mathbb{E}_{Z\sim P}[\log P(Z)-\log Q(Z)]$: the first argument always generates and weights the data, while the second argument is the model being scored. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - left-slot right-slot memory cue ::@:: Read $H(P,Q)$ and $D_{\mathrm{KL}}(P\Vert Q)$ left-to-right as _generator then scorer_: $P$ says what outcomes actually occur, and $Q$ is the distribution whose log-probabilities are evaluated on those outcomes.
 
 ### entropy and uncertainty
@@ -173,7 +173,7 @@ Flashcards for this section are as follows:
 - entropy interpretation ::@:: Entropy measures how uncertain or unpredictable a distribution is.
 - coin die card comparison: If the distributions are uniform on $2$, $6$, and $54$ outcomes, why is the entropy ordering $H_{\text{coin}}<H_{\text{die}}<H_{\text{deck}}$? ::@:: For a uniform distribution on $n$ outcomes, $H=-\sum_{k=1}^n \frac1n\log\frac1n=\log n$, so the three entropies are $\log 2$, $\log 6$, and $\log 54$; since $2<6<54$, one has $\log 2<\log 6<\log 54$.
 - what raises entropy ::@:: Entropy rises when probability mass is spread more evenly across more possible outcomes.
-- entropy as cross-entropy special case ::@:: Entropy is the special case $H(P)=H(P,P)$, namely cross entropy when the model distribution equals the true distribution.
+- entropy as cross-entropy special case ::@:: Entropy is the special case $H(P)=H(P,P)$, namely cross entropy when the model distribution equals the true distribution. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 
 ### cross entropy and Kullback-Leibler divergence
 
@@ -201,16 +201,16 @@ So the graph intuition is: entropy is flat when the true distribution is fixed, 
 
 Flashcards for this section are as follows:
 
-- Kullback-Leibler divergence with direction ::@:: The direction-specific divergence is $D_{\mathrm{KL}}(P\Vert Q)=\sum_x P(x)\log\frac{P(x)}{Q(x)}$, where $P$ supplies weights and $Q$ appears in the denominator as the approximating model.
+- Kullback-Leibler divergence with direction ::@:: The direction-specific divergence is $D_{\mathrm{KL}}(P\Vert Q)=\sum_x P(x)\log\frac{P(x)}{Q(x)}$, where $P$ supplies weights and $Q$ appears in the denominator as the approximating model. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - why direction in KL matters ::@:: Generally $D_{\mathrm{KL}}(P\Vert Q)\ne D_{\mathrm{KL}}(Q\Vert P)$ because swapping changes the expectation weights and therefore what kinds of mismatch are emphasized.
 - cross entropy with source/scorer interpretation ::@:: $H(P,Q)=\mathbb{E}_{x\sim P}[-\log Q(x)]$ means outcomes are drawn from true/source $P$, each outcome is charged surprise $-\log Q(x)$ by the model, and those charges are averaged using the true frequencies from $P$.
 - entropy-versus-cross-entropy-versus-KL ::@:: Entropy $H(P)=\mathbb{E}_{P}[-\log P]$ is the ideal self-scoring cost, cross entropy $H(P,Q)=\mathbb{E}_{P}[-\log Q]$ is the cost of scoring true data with model $Q$, and KL divergence $D_{\mathrm{KL}}(P\Vert Q)=H(P,Q)-H(P)$ is the extra mismatch penalty.
-- relation $H(P,Q)=H(P)+D_{\mathrm{KL}}(P\Vert Q)$ ::@:: Since $H(P)=\mathbb{E}_{x\sim P}[-\log P(x)]$, one has $H(P,Q)-H(P)=\mathbb{E}_{x\sim P}\bigl[\log P(x)-\log Q(x)\bigr]=D_{\mathrm{KL}}(P\Vert Q)$.
-- why minimizing cross entropy makes sense ::@:: Because $H(P)$ is constant with respect to model parameters, minimizing $H(P,Q)$ over $Q$ is equivalent to minimizing $D_{\mathrm{KL}}(P\Vert Q)$.
+- relation $H(P,Q)=H(P)+D_{\mathrm{KL}}(P\Vert Q)$ ::@:: Since $H(P)=\mathbb{E}_{x\sim P}[-\log P(x)]$, one has $H(P,Q)-H(P)=\mathbb{E}_{x\sim P}\bigl[\log P(x)-\log Q(x)\bigr]=D_{\mathrm{KL}}(P\Vert Q)$. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
+- why minimizing cross entropy makes sense ::@:: Because $H(P)$ is constant with respect to model parameters, minimizing $H(P,Q)$ over $Q$ is equivalent to minimizing $D_{\mathrm{KL}}(P\Vert Q)$. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - support mismatch consequence ::@:: If some event has $P(x)>0$ but $Q(x)=0$, then $D_{\mathrm{KL}}(P\Vert Q)=+\infty$ and cross entropy also diverges there because the model assigns zero probability to an event that truly occurs, so $-\log Q(x)$ is infinite.
 - do-not-swap memory cue with full formulas ::@:: Use the full cluster $H(P)=\mathbb{E}_{P}[-\log P]$, $H(P,Q)=\mathbb{E}_{P}[-\log Q]$, $D_{\mathrm{KL}}(P\Vert Q)=\mathbb{E}_{P}[\log P-\log Q]$: the expectation distribution is always the first argument, so the left slot is the generator and the right slot is the scorer.
 - Gaussian mean-shift graph intuition: If $P=\mathcal{N}(0,1)$ and $Q_\mu=\mathcal{N}(\mu,1)$, what are the shapes of entropy, cross entropy, and KL divergence as functions of $\mu$? ::@:: The true entropy is constant, $H(P)=\tfrac12\log(2\pi e)$; the divergence is $D_{\mathrm{KL}}(P\Vert Q_\mu)=\mu^2/2$, a parabola minimized at $\mu=0$; and the cross entropy is $H(P,Q_\mu)=H(P)+\mu^2/2$, the same parabola shifted upward by the constant entropy baseline.
-- Gaussian variance-mismatch graph intuition: If $P=\mathcal{N}(0,1)$ and $Q_\sigma=\mathcal{N}(0,\sigma^2)$, what shape does $D_{\mathrm{KL}}(P\Vert Q_\sigma)$ have as $\sigma$ varies? ::@:: One has $D_{\mathrm{KL}}(P\Vert Q_\sigma)=\log\sigma+\frac{1}{2\sigma^2}-\frac12$, which is minimized at $\sigma=1$, rises sharply as $\sigma\to 0$, and also grows as $\sigma\to\infty$; the cross entropy has the same shape, shifted upward by the constant entropy $H(P)$.
+- Gaussian variance-mismatch graph intuition: If $P=\mathcal{N}(0,1)$ and $Q_\sigma=\mathcal{N}(0,\sigma^2)$, what shape does $D_{\mathrm{KL}}(P\Vert Q_\sigma)$ have as $\sigma$ varies? ::@:: One has $D_{\mathrm{KL}}(P\Vert Q_\sigma)=\log\sigma+\frac{1}{2\sigma^2}-\frac12$, which is minimized at $\sigma=1$, rises sharply as $\sigma\to 0$, and also grows as $\sigma\to\infty$; the cross entropy has the same shape, shifted upward by the constant entropy $H(P)$. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 
 ### conditional cross entropy: derivation, interpretation, and use
 
@@ -234,14 +234,14 @@ Interpretation and use: conditional cross entropy naturally penalizes assigning 
 
 Flashcards for this section are as follows:
 
-- per-input cross entropy at fixed input $x$ ::@:: For a fixed input $x$, the label-prediction mismatch is $H\bigl(P(Y\mid x),Q(Y\mid x)\bigr)=\sum_y P(y\mid x)(-\log Q(y\mid x))$, which measures how costly it is to score the true label law at that input using model $Q$.
-- conditional cross-entropy definition ::@:: The population conditional cross entropy is $H_P(Y\mid X;Q)=\mathbb{E}_{(X,Y)\sim P}\bigl[-\log Q(Y\mid X)\bigr]=\mathbb{E}_{X\sim P}\Bigl[H\bigl(P(Y\mid X),Q(Y\mid X)\bigr)\Bigr]$.
+- per-input cross entropy at fixed input $x$ ::@:: For a fixed input $x$, the label-prediction mismatch is $H\bigl(P(Y\mid x),Q(Y\mid x)\bigr)=\sum_y P(y\mid x)(-\log Q(y\mid x))$, which measures how costly it is to score the true label law at that input using model $Q$. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
+- conditional cross-entropy definition ::@:: The population conditional cross entropy is $H_P(Y\mid X;Q)=\mathbb{E}_{(X,Y)\sim P}\bigl[-\log Q(Y\mid X)\bigr]=\mathbb{E}_{X\sim P}\Bigl[H\bigl(P(Y\mid X),Q(Y\mid X)\bigr)\Bigr]$. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - conditional cross-entropy derivation (per-input to joint) ::@:: Start with the per-input cross entropy $H\bigl(P(Y\mid x),Q(Y\mid x)\bigr)$, average it by $P(x)$, and then use $P(x,y)=P(x)P(y\mid x)$ to obtain $\sum_{x,y}P(x,y)(-\log Q(y\mid x))=\mathbb{E}_{(X,Y)\sim P}[-\log Q(Y\mid X)]$.
 - per-input interpretation with context ::@:: At each fixed input $x$, $H\bigl(P(Y\mid x),Q(Y\mid x)\bigr)$ measures label-distribution mismatch, and $P(x)$ tells how strongly that input region should influence total objective because common inputs should matter more than rare ones.
-- hybrid-joint decomposition with notation and derivation ::@:: Here $P_{X,Y}(x,y)=P(x,y)$ is the true joint law of input-label pairs, $P_X(x)=\sum_y P(x,y)$ is the input marginal, $Q(y\mid x)$ is the model conditional label law, and $(P_XQ_{Y\mid X})(x,y)=P_X(x)Q(y\mid x)$ is the hybrid joint that keeps true input frequencies but replaces true label conditionals by model conditionals. Then $H(P_{X,Y},P_XQ_{Y\mid X})=-\sum_{x,y}P(x,y)\log(P_X(x)Q(y\mid x))=-\sum_{x,y}P(x,y)\log P_X(x)-\sum_{x,y}P(x,y)\log Q(y\mid x)=H(P_X)+H_P(Y\mid X;Q)$, so joint coding cost decomposes into input entropy plus conditional cross entropy, and only the second term is trainable.
+- hybrid-joint decomposition with notation and derivation ::@:: Here $P_{X,Y}(x,y)=P(x,y)$ is the true joint law of input-label pairs, $P_X(x)=\sum_y P(x,y)$ is the input marginal, $Q(y\mid x)$ is the model conditional label law, and $(P_XQ_{Y\mid X})(x,y)=P_X(x)Q(y\mid x)$ is the hybrid joint that keeps true input frequencies but replaces true label conditionals by model conditionals. Then $H(P_{X,Y},P_XQ_{Y\mid X})=-\sum_{x,y}P(x,y)\log(P_X(x)Q(y\mid x))=-\sum_{x,y}P(x,y)\log P_X(x)-\sum_{x,y}P(x,y)\log Q(y\mid x)=H(P_X)+H_P(Y\mid X;Q)$, so joint coding cost decomposes into input entropy plus conditional cross entropy, and only the second term is trainable. <!--SR:!2000-01-01,1,250!2026-04-10,3,250-->
 - why conditional cross entropy is the natural objective ::@:: In a conditional classifier the learner controls $Q(Y\mid X)$ but not the input marginal $P_X$, so the right population objective is to average per-input label-prediction quality rather than to penalize the model for the distribution of inputs themselves.
 - when conditional cross entropy is used ::@:: Use it whenever prediction is conditional ($Q(y\mid x)$), such as binary logistic regression, multiclass softmax regression, and other conditional probabilistic classifiers.
-- anti-swap memory cue for conditional form ::@:: In $\mathbb{E}_{(X,Y)\sim P}[-\log Q(Y\mid X)]$, data are always sampled from true $P$ and model quality is always evaluated through $Q$ inside the logarithm.
+- anti-swap memory cue for conditional form ::@:: In $\mathbb{E}_{(X,Y)\sim P}[-\log Q(Y\mid X)]$, data are always sampled from true $P$ and model quality is always evaluated through $Q$ inside the logarithm. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - weighted-input example for conditional cross entropy ::@:: If $P_X(a)=0.9$, $P_X(b)=0.1$, and the per-input cross entropies are $0.2$ and $1.0$, then $H_P(Y\mid X;Q)=0.9\cdot 0.2+0.1\cdot 1.0=0.28$, so common inputs dominate the average more strongly than rare ones.
 
 ### likelihood and maximum likelihood
@@ -264,15 +264,15 @@ This toy problem transfers directly to logistic regression: i.i.d. product likel
 
 Flashcards for this section are as follows:
 
-- likelihood ::@:: The likelihood of a parameter value is the probability the model assigns to the observed dataset when that parameter value is used.
+- likelihood ::@:: The likelihood of a parameter value is the probability the model assigns to the observed dataset when that parameter value is used. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - maximum likelihood estimation ::@:: Maximum likelihood estimation chooses the parameter value that maximizes the likelihood of the observed data.
 - why the i.i.d. assumption matters ::@:: Under the i.i.d. assumption, the likelihood of the full dataset factors into a product of per-example probabilities.
 - thumbtack likelihood with lhs-rhs interpretation ::@:: $L(\theta\mid D)=\theta^{m_H}(1-\theta)^{m_T}$ means lhs is a function of unknown parameter $\theta$ with observed data $D$ fixed, while rhs is the i.i.d. Bernoulli product grouped by counts.
 - thumbtack log-likelihood ::@:: The thumbtack log-likelihood is $\ell(\theta\mid D)=m_H\log \theta + m_T\log(1-\theta)$, equivalent to likelihood maximization because $\log(\cdot)$ is strictly increasing.
 - thumbtack first-order condition ::@:: Setting $\frac{d\ell}{d\theta}=\frac{m_H}{\theta}-\frac{m_T}{1-\theta}=0$ gives $\theta^{\ast}=\frac{m_H}{m_H+m_T}$.
 - thumbtack second-order check ::@:: Since $\frac{d^2\ell}{d\theta^2}=-\frac{m_H}{\theta^2}-\frac{m_T}{(1-\theta)^2}<0$ on $(0,1)$, the stationary point is a maximum.
-- why the thumbtack MLE matches intuition ::@:: The MLE $\hat\theta=\frac{m_H}{m_H+m_T}$ equals the observed head proportion because any larger $\theta$ expects too many heads and any smaller $\theta$ expects too few, so the likelihood is maximized when model head rate matches empirical head rate.
-- thumbtack consistency as sample size grows ::@:: If $X_i\sim\mathrm{Bernoulli}(\theta_0)$ i.i.d., then $\hat\theta=\frac{m_H}{N}\to\theta_0$ as $N\to\infty$ by the law of large numbers, so the sample head fraction and the MLE both stabilize at the true parameter.
+- why the thumbtack MLE matches intuition ::@:: The MLE $\hat\theta=\frac{m_H}{m_H+m_T}$ equals the observed head proportion because any larger $\theta$ expects too many heads and any smaller $\theta$ expects too few, so the likelihood is maximized when model head rate matches empirical head rate. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- thumbtack consistency as sample size grows ::@:: If $X_i\sim\mathrm{Bernoulli}(\theta_0)$ i.i.d., then $\hat\theta=\frac{m_H}{N}\to\theta_0$ as $N\to\infty$ by the law of large numbers, so the sample head fraction and the MLE both stabilize at the true parameter. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - per-sample log-likelihood limit ::@:: Since $\frac{1}{N}\ell(\theta\mid D)=\frac{m_H}{N}\log \theta+\frac{m_T}{N}\log(1-\theta)$ and $\frac{m_H}{N}\to\theta_0$, the large-sample objective converges to $\theta_0\log \theta+(1-\theta_0)\log(1-\theta)$, whose maximizer is the true parameter $\theta_0$.
 
 ## cross entropy for logistic regression
@@ -297,12 +297,12 @@ Flashcards for this section are as follows:
 
 - per-example logistic loss with notation and derivation ::@:: For one example $(x_i,y_i)$ with score $z_i=w^\top x_i$ and predicted positive-class probability $p_i=\sigma(z_i)=P(y_i=1\mid x_i,w)$, the Bernoulli likelihood is $P(y_i\mid x_i,w)=p_i^{y_i}(1-p_i)^{1-y_i}$, so the per-example loss is $\ell_i(w)=-\log P(y_i\mid x_i,w)=-\log\bigl(p_i^{y_i}(1-p_i)^{1-y_i}\bigr)=-\bigl(y_i\log p_i+(1-y_i)\log(1-p_i)\bigr)$.
 - dataset logistic loss with notation and derivation ::@:: For a dataset of $N$ training examples, the dataset loss is the average per-example loss $L(w)=\frac{1}{N}\sum_{i=1}^N \ell_i(w)=-\frac{1}{N}\sum_{i=1}^N \log P(y_i\mid x_i,w)=-\frac{1}{N}\sum_{i=1}^N \bigl(y_i\log p_i+(1-y_i)\log(1-p_i)\bigr)$, where the factor $1/N$ turns total loss into average loss per example.
-- binary cross entropy definition and use: Given a true binary label distribution with parameter $y\in\{0,1\}$ (or Bernoulli mean $r$) and a model Bernoulli prediction $p$, what is binary cross entropy, what is it used for, and what is it a special case of? ::@:: Binary cross entropy is $-\bigl(y\log p+(1-y)\log(1-p)\bigr)$ in the observed-label form, or $-\bigl(r\log p+(1-r)\log(1-p)\bigr)$ for Bernoulli parameters. It is used for binary classification models such as logistic regression and sigmoid-output neural networks. It is the cross entropy between two Bernoulli distributions, hence a special case of ordinary cross entropy, of conditional cross entropy for binary labels, and of categorical cross entropy with two classes.
+- binary cross entropy definition and use: Given a true binary label distribution with parameter $y\in\{0,1\}$ (or Bernoulli mean $r$) and a model Bernoulli prediction $p$, what is binary cross entropy, what is it used for, and what is it a special case of? ::@:: Binary cross entropy is $-\bigl(y\log p+(1-y)\log(1-p)\bigr)$ in the observed-label form, or $-\bigl(r\log p+(1-r)\log(1-p)\bigr)$ for Bernoulli parameters. It is used for binary classification models such as logistic regression and sigmoid-output neural networks. It is the cross entropy between two Bernoulli distributions, hence a special case of ordinary cross entropy, of conditional cross entropy for binary labels, and of categorical cross entropy with two classes. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - why cross entropy equals negative log-likelihood ::@:: In logistic regression the Bernoulli label model makes the average negative log-likelihood exactly equal to the average cross-entropy loss.
 - case $y_i=1$ in logistic loss ::@:: When the true label is $1$, the per-example cross entropy reduces to $-\log p_i$, so the loss is small only if the model gives the positive class high probability.
 - case $y_i=0$ in logistic loss ::@:: When the true label is $0$, the per-example cross entropy reduces to $-\log (1-p_i)$, so the loss is small only if the model gives the positive class low probability.
 - penalty for confident mistakes ::@:: Cross entropy punishes confident wrong predictions heavily because $-\log p_i$ and $-\log(1-p_i)$ become very large when the model assigns tiny probability to the true label.
-- worked confident-mistake example for $y_i=1$ ::@:: If $y_i=1$, then predicting $p_i=0.9$ gives loss $-\log 0.9\approx 0.105$, but predicting $p_i=0.01$ gives loss $-\log 0.01\approx 4.605$, so a confident mistake is penalized far more than a mild error.
+- worked confident-mistake example for $y_i=1$ ::@:: If $y_i=1$, then predicting $p_i=0.9$ gives loss $-\log 0.9\approx 0.105$, but predicting $p_i=0.01$ gives loss $-\log 0.01\approx 4.605$, so a confident mistake is penalized far more than a mild error. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - worked confident-mistake example for $y_i=0$ ::@:: If $y_i=0$, then predicting $p_i=0.1$ gives loss $-\log 0.9\approx 0.105$, but predicting $p_i=0.99$ gives loss $-\log 0.01\approx 4.605$, so cross entropy strongly punishes assigning near-certainty to the wrong class.
 
 ### population risk versus empirical loss
@@ -321,15 +321,15 @@ This distinction is important conceptually. The theoretical goal is closeness to
 
 Flashcards for this section are as follows:
 
-- population conditional cross entropy ::@:: The population objective is $\mathbb{E}_P[-\log Q(y\mid x)]$, where $P$ is the unknown true distribution and $Q$ is the learned conditional model.
+- population conditional cross entropy ::@:: The population objective is $\mathbb{E}_P[-\log Q(y\mid x)]$, where $P$ is the unknown true distribution and $Q$ is the learned conditional model. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - empirical distribution ::@:: For data $D=\{(x_i,y_i)\}_{i=1}^N$, the empirical distribution is $\hat P_N=\frac{1}{N}\sum_{i=1}^N \delta_{(x_i,y_i)}$, which assigns equal mass $1/N$ to each observed example.
-- empirical expectation equals sample average ::@:: For any function $f$, one has $\mathbb{E}_{\hat P_N}[f(X,Y)] = \frac{1}{N}\sum_{i=1}^N f(x_i,y_i)$, so empirical risk is literally expectation under the empirical distribution.
-- empirical approximation of conditional cross entropy ::@:: In practice, conditional cross entropy is estimated by $\mathbb{E}_{\hat P_N}[-\log Q(Y\mid X)] = \frac{1}{N}\sum_{i=1}^N -\log Q(y_i\mid x_i)$.
+- empirical expectation equals sample average ::@:: For any function $f$, one has $\mathbb{E}_{\hat P_N}[f(X,Y)] = \frac{1}{N}\sum_{i=1}^N f(x_i,y_i)$, so empirical risk is literally expectation under the empirical distribution. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
+- empirical approximation of conditional cross entropy ::@:: In practice, conditional cross entropy is estimated by $\mathbb{E}_{\hat P_N}[-\log Q(Y\mid X)] = \frac{1}{N}\sum_{i=1}^N -\log Q(y_i\mid x_i)$. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - why the factor $1/N$ appears ::@:: The factor $1/N$ appears because the empirical distribution gives each of the $N$ observed examples equal probability mass $1/N$, so its expectation is an average rather than a raw sum.
-- consistency of empirical risk ::@:: If samples are i.i.d. from $P$, then by the law of large numbers the empirical average $\mathbb{E}_{\hat P_N}[f]$ converges to the population expectation $\mathbb{E}_P[f]$, so empirical conditional cross entropy consistently estimates the true population loss.
+- consistency of empirical risk ::@:: If samples are i.i.d. from $P$, then by the law of large numbers the empirical average $\mathbb{E}_{\hat P_N}[f]$ converges to the population expectation $\mathbb{E}_P[f]$, so empirical conditional cross entropy consistently estimates the true population loss. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - why logistic training is empirical risk minimization ::@:: Logistic training is empirical risk minimization because it minimizes a sample-average loss under $\hat P_N$ in order to approximate minimization of the population loss under $P$.
 - worked empirical-loss example ::@:: If the per-example losses are $0.2$, $0.4$, $0.1$, and $1.3$, then the empirical loss is their average $\frac{0.2+0.4+0.1+1.3}{4}=0.5$.
-- why finite-sample loss is only an estimate ::@:: The training loss is only an estimate of the population objective because it is computed from finitely many observations; as $N\to\infty$, the sample average is expected to settle toward the true expectation.
+- why finite-sample loss is only an estimate ::@:: The training loss is only an estimate of the population objective because it is computed from finitely many observations; as $N\to\infty$, the sample average is expected to settle toward the true expectation. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 
 ## gradient descent for logistic regression
 
@@ -341,8 +341,8 @@ This section stays focused on the binary model. The key pattern to remember is t
 
 Flashcards for this section are as follows:
 
-- why gradient descent is used in logistic regression ::@:: Logistic regression is trained numerically because its likelihood-based objective does not reduce to the simple normal-equation solution used in ordinary least squares.
-- why no normal equation appears ::@:: Logistic regression lacks the least-squares-style normal equation because the stationarity condition is nonlinear in the weights.
+- why gradient descent is used in logistic regression ::@:: Logistic regression is trained numerically because its likelihood-based objective does not reduce to the simple normal-equation solution used in ordinary least squares. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
+- why no normal equation appears ::@:: Logistic regression lacks the least-squares-style normal equation because the stationarity condition is nonlinear in the weights. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - output-layer training template ::@:: The reusable pattern is: compute scores, transform them into a valid probability model, write the negative log-likelihood, differentiate it, and update by gradients; multiclass softmax later reuses exactly this template.
 
 ### gradient descent basics
@@ -360,12 +360,12 @@ The slides also make a practical remark that remains important in deep learning:
 Flashcards for this section are as follows:
 
 - scalar gradient-descent update ::@:: For a scalar parameter, gradient descent updates by $w \leftarrow w - \alpha L'(w)$.
-- vector gradient-descent update ::@:: For vector parameters, gradient descent updates by $w \leftarrow w - \alpha \nabla L(w)$ because the negative gradient is the local steepest-descent direction under the first-order approximation of the loss.
+- vector gradient-descent update ::@:: For vector parameters, gradient descent updates by $w \leftarrow w - \alpha \nabla L(w)$ because the negative gradient is the local steepest-descent direction under the first-order approximation of the loss. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - why negative gradient is chosen ::@:: Since $L(w+\Delta w)\approx L(w)+\nabla L(w)^\top\Delta w$, choosing $\Delta w=-\alpha\nabla L(w)$ gives approximate change $-\alpha\lVert\nabla L(w)\rVert^2\le 0$, so the loss locally decreases.
 - learning rate ::@:: The learning rate $\alpha$ controls how far each gradient-descent step moves in the descent direction, balancing progress against stability.
 - too-small learning rate ::@:: If the learning rate is too small, convergence can be extremely slow.
 - too-large learning rate ::@:: If the learning rate is too large, gradient descent can overshoot, oscillate, or fail to converge.
-- local minima and saddle points ::@:: Gradient descent can in principle be slowed or trapped by local minima or saddle points, although it often works well in practice.
+- local minima and saddle points ::@:: Gradient descent can in principle be slowed or trapped by local minima or saddle points, although it often works well in practice. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - scalar worked example ::@:: If $L(w)=w^2$, then $L'(w)=2w$ and the update becomes $w\leftarrow (1-2\alpha)w$, so repeated steps shrink $w$ toward $0$ when $0<\alpha<1$.
 
 ### chain-rule derivation and hand computation
@@ -392,15 +392,15 @@ With learning rate $\alpha=0.1$, the update is $w_{\text{new}}=w-\alpha\nabla L(
 
 Flashcards for this section are as follows:
 
-- sigmoid derivative ::@:: The sigmoid derivative is $\sigma'(z)=\sigma(z)(1-\sigma(z))$.
+- sigmoid derivative ::@:: The sigmoid derivative is $\sigma'(z)=\sigma(z)(1-\sigma(z))$. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - coordinate logistic gradient with notation ::@:: For one example, let $z_i=w^\top x_i$, $p_i=\sigma(z_i)$, and $\ell_i(w)=-\bigl(y_i\log p_i+(1-y_i)\log(1-p_i)\bigr)$. Then the coordinate gradient is $\frac{\partial \ell_i}{\partial w_j}=(p_i-y_i)x_{i,j}$, so each weight coordinate sees the residual $p_i-y_i$ scaled by the corresponding feature value $x_{i,j}$.
 - logistic-loss gradient vector ::@:: Writing $p_i=\sigma(w^\top x_i)$, the logistic-regression gradient is $\nabla L(w)=\frac{1}{N}\sum_{i=1}^N (p_i-y_i)x_i$, so each example contributes residual times feature vector.
-- batch update for logistic regression ::@:: A batch gradient-descent update for logistic regression is $w_j \leftarrow w_j + \alpha \frac{1}{N}\sum_{i=1}^N (y_i-p_i)x_{i,j}$, equivalently $w\leftarrow w-\alpha\nabla L(w)$.
+- batch update for logistic regression ::@:: A batch gradient-descent update for logistic regression is $w_j \leftarrow w_j + \alpha \frac{1}{N}\sum_{i=1}^N (y_i-p_i)x_{i,j}$, equivalently $w\leftarrow w-\alpha\nabla L(w)$. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - why the update looks like error times input ::@:: Logistic-regression weight updates are driven by prediction error $(y_i-p_i)$ multiplied by the corresponding feature value, so they correct the score in the direction suggested by the data.
 - effect when the model underpredicts class $1$ ::@:: If $y_i=1$ and $p_i$ is too small, then $(y_i-p_i)$ is positive, so positively valued features push the relevant weights upward.
 - hand-computation workflow for one gradient step ::@:: Given current parameters $w$ and training pairs $(x_i,y_i)$, compute in order: (1) scores $z_i=w^\top x_i$, (2) probabilities $p_i=\sigma(z_i)$, (3) residuals $p_i-y_i$, (4) feature-weighted residuals $(p_i-y_i)x_{i,j}$ or vectors $(p_i-y_i)x_i$, (5) the average gradient $\nabla L(w)=\frac1N\sum_i (p_i-y_i)x_i$, and then (6) the update $w_{\text{new}}=w-\alpha\nabla L(w)$.
 - worked logistic-gradient step ::@:: If $x_1=(1,2)^\top$, $y_1=1$, $x_2=(1,-1)^\top$, $y_2=0$, and $w=(0,0)^\top$, then $p_1=p_2=0.5$ and $\nabla L(w)=\frac12\bigl((0.5-1)(1,2)^\top+(0.5-0)(1,-1)^\top\bigr)=(0,-0.75)^\top$.
-- worked logistic update from the tiny example ::@:: If $x_1=(1,2)^\top$, $y_1=1$, $x_2=(1,-1)^\top$, $y_2=0$, the current parameter is $w=(0,0)^\top$, and the learning rate is $\alpha=0.1$, then $z_1=z_2=0$, $p_1=p_2=0.5$, the average gradient is $\nabla L(w)=\frac12\bigl((0.5-1)(1,2)^\top+(0.5-0)(1,-1)^\top\bigr)=(0,-0.75)^\top$, and the update is $w_{\text{new}}=(0,0)^\top-0.1(0,-0.75)^\top=(0,0.075)^\top$.
+- worked logistic update from the tiny example ::@:: If $x_1=(1,2)^\top$, $y_1=1$, $x_2=(1,-1)^\top$, $y_2=0$, the current parameter is $w=(0,0)^\top$, and the learning rate is $\alpha=0.1$, then $z_1=z_2=0$, $p_1=p_2=0.5$, the average gradient is $\nabla L(w)=\frac12\bigl((0.5-1)(1,2)^\top+(0.5-0)(1,-1)^\top\bigr)=(0,-0.75)^\top$, and the update is $w_{\text{new}}=(0,0)^\top-0.1(0,-0.75)^\top=(0,0.075)^\top$. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 
 ### score-level cancellation and residual form
 
@@ -431,7 +431,7 @@ Flashcards for this section are as follows:
 - logistic-regression Hessian form ::@:: The Hessian of logistic cross entropy is $\nabla^2 L(w)=\frac{1}{N}\sum_i p_i(1-p_i)x_ix_i^\top = \frac{1}{N}X^\top R X$ with $R_{ii}=p_i(1-p_i)$.
 - Hessian derivation for logistic loss: Starting from $\nabla L(w)=\frac1N\sum_i (p_i-y_i)x_i$ with $p_i=\sigma(w^\top x_i)$, derive the Hessian ::@:: Since only $p_i$ depends on $w$, differentiate once more: $\nabla^2L(w)=\frac1N\sum_i \nabla p_i\,x_i^\top$. Using $\nabla p_i=\sigma'(w^\top x_i)x_i=p_i(1-p_i)x_i$ gives $\nabla^2L(w)=\frac1N\sum_i p_i(1-p_i)x_ix_i^\top=\frac1N X^\top R X$ with $R_{ii}=p_i(1-p_i)$.
 - why logistic loss is convex: Given $\nabla^2L(w)=\frac1N\sum_i p_i(1-p_i)x_ix_i^\top$, why is it positive semidefinite? ::@:: For any vector $v$, $v^\top\nabla^2L(w)v=\frac1N\sum_i p_i(1-p_i)(x_i^\top v)^2\ge 0$ because $p_i(1-p_i)\ge 0$ and squares are nonnegative; therefore the Hessian is positive semidefinite and the loss is convex.
-- curvature intuition from $p_i(1-p_i)$ ::@:: The curvature factor $p_i(1-p_i)$ is largest at $p_i=0.5$ and small near $p_i=0$ or $1$, so logistic loss bends most strongly when the classifier is uncertain and flattens when the sigmoid saturates.
+- curvature intuition from $p_i(1-p_i)$ ::@:: The curvature factor $p_i(1-p_i)$ is largest at $p_i=0.5$ and small near $p_i=0$ or $1$, so logistic loss bends most strongly when the classifier is uncertain and flattens when the sigmoid saturates. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - optimization implication of convex logistic loss ::@:: Convexity implies any stationary point is globally optimal, so training focuses on efficient numerical convergence rather than escaping local minima.
 
 ### batch and stochastic gradient descent
@@ -454,7 +454,7 @@ Flashcards for this section are as follows:
 - why batch updates can be costly ::@:: Batch updates can be expensive because each step requires a pass through the full dataset.
 - per-sample versus batch versus stochastic gradients: If the per-example logistic gradient is $g_i=(p_i-y_i)x_i$, how do per-sample, batch, and stochastic-gradient updates compare? ::@:: A per-sample update uses one $g_i$ from one training example; batch gradient descent uses the full average $\frac1N\sum_{i=1}^N g_i$; stochastic gradient descent uses a random example or a random minibatch $B$ to form $\frac1{|B|}\sum_{i\in B} g_i$, so minibatches are just the practical multi-example form of stochastic gradient descent.
 - why stochastic gradient descent is stochastic ::@:: Stochastic gradient descent is stochastic because the example index $i$ or minibatch $B$ used at each step is chosen randomly, so the update direction is a random vector and only a noisy estimate of the full gradient.
-- stochastic gradient descent and minibatches ::@:: Stochastic gradient descent updates parameters using randomly chosen data rather than the whole dataset; the single-example case uses one training pair, and the minibatch case uses a small random subset $B$ with update $\frac{1}{|B|}\sum_{i\in B}(y_i-p_i)x_{i,j}$.
+- stochastic gradient descent and minibatches ::@:: Stochastic gradient descent updates parameters using randomly chosen data rather than the whole dataset; the single-example case uses one training pair, and the minibatch case uses a small random subset $B$ with update $\frac{1}{|B|}\sum_{i\in B}(y_i-p_i)x_{i,j}$. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
 
 ### l2 regularization in logistic regression
 
@@ -471,11 +471,11 @@ Another useful intuition is to read the objective as a tug-of-war. The data-fit 
 Flashcards for this section are as follows:
 
 - L2-regularized logistic objective ::@:: The $L_2$-regularized logistic objective is $L_{\mathrm{reg}}(w)=L(w)+\frac{\lambda}{2}\lVert w\rVert_2^2$.
-- why L2 regularization helps logistic regression ::@:: $L_2$ regularization discourages large weights, which helps reduce overfitting and stabilizes the classifier.
+- why L2 regularization helps logistic regression ::@:: $L_2$ regularization discourages large weights, which helps reduce overfitting and stabilizes the classifier. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - why logistic notes use $\frac{\lambda}{2}\lVert w\rVert_2^2$: If logistic regression uses $L_{\mathrm{reg}}(w)=L(w)+\frac{\lambda}{2}\lVert w\rVert_2^2$ while the linear-regression note uses $J(w)+\lambda\lVert w\rVert_2^2$, what is the difference? ::@:: The factor $\frac12$ is only a convention to cancel the derivative of the square: $\nabla\bigl(\frac{\lambda}{2}\lVert w\rVert_2^2\bigr)=\lambda w$, whereas $\nabla\bigl(\lambda\lVert w\rVert_2^2\bigr)=2\lambda w$. The regularization geometry is the same after rescaling $\lambda$.
 - gradient derivation for logistic L2 regularization: If the penalty term is $\frac{\lambda}{2}\lVert w\rVert_2^2=\frac{\lambda}{2}\sum_j w_j^2$, what gradient does it contribute? ::@:: Differentiating coordinatewise gives $\frac{\partial}{\partial w_j}\frac{\lambda}{2}\sum_k w_k^2 = \lambda w_j$, so the vector gradient is $\nabla_w\bigl(\frac{\lambda}{2}\lVert w\rVert_2^2\bigr)=\lambda w$.
 - regularized logistic update ::@:: A regularized update can be written as $w_j \leftarrow w_j + \alpha \Bigl(\frac{1}{|B|}\sum_{i\in B}(y_i-p_i)x_{i,j} - \lambda w_j\Bigr)$.
-- why regularization is called weight decay ::@:: The term $-\alpha \lambda w_j$ shrinks weights toward zero at each step, which is why $L_2$ regularization is often described as weight decay.
+- why regularization is called weight decay ::@:: The term $-\alpha \lambda w_j$ shrinks weights toward zero at each step, which is why $L_2$ regularization is often described as weight decay. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - tug-of-war intuition for logistic L2 regularization ::@:: The data-fit term pulls weights toward values that explain the labels, while the $L_2$ term pulls the weight vector back toward the origin; larger $\lambda$ means stronger shrinkage toward smaller-norm solutions.
 
 ### why the intercept is usually not regularized
@@ -492,7 +492,7 @@ Flashcards for this section are as follows:
 
 - why the logistic intercept is often excluded from L2 penalty ::@:: The intercept is often unpenalized because it mainly sets baseline log-odds, whereas coefficient regularization is what controls boundary sensitivity to features.
 - baseline-probability interpretation of the intercept ::@:: If the score is $z=b+w^\top x$, then at $x=0$ the model predicts $P(y=1\mid x=0)=\sigma(b)$, so the intercept sets the baseline log-odds and baseline class probability before feature effects are added.
-- intercept regularization and class imbalance ::@:: Over-penalizing the intercept can distort baseline class probabilities, especially when the true positive rate is far from $50\%$.
+- intercept regularization and class imbalance ::@:: Over-penalizing the intercept can distort baseline class probabilities, especially when the true positive rate is far from $50\%$. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 
 ## softmax regression
 
@@ -518,14 +518,14 @@ For binary and multiclass evaluation after the probabilities are computed, see [
 
 Flashcards for this section are as follows:
 
-- softmax regression intuition ::@:: Softmax regression is the multiclass extension of logistic regression: for each class index $c\in\{1,\ldots,C\}$ it computes a score $z_c=w_c^\top x$, exponentiates those scores into positive weights, and normalizes them into a categorical distribution.
-- overarching matrix-index intuition for softmax computation ::@:: View $W\in\mathbb{R}^{C\times D}$ as a stack of class-specific row vectors: top index $c$ is class, bottom index $f$ is feature. For example $i$, compute $z_{i,c}=\sum_{f=1}^D W_{c,f}x_{i,f}=w_c^\top x_i$, then $p_{i,c}=\frac{e^{z_{i,c}}}{\sum_k e^{z_{i,k}}}$, then use a target distribution $r_{i,c}$ with $\sum_c r_{i,c}=1$ to form $\ell_i=-\sum_c r_{i,c}\log p_{i,c}$ and gradient row $\partial \ell_i/\partial w_c=(p_{i,c}-r_{i,c})x_i$; the hard-label one-hot special case is $r_{i,c}=\mathbf{1}[y_i=c]$.
+- softmax regression intuition ::@:: Softmax regression is the multiclass extension of logistic regression: for each class index $c\in\{1,\ldots,C\}$ it computes a score $z_c=w_c^\top x$, exponentiates those scores into positive weights, and normalizes them into a categorical distribution. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
+- overarching matrix-index intuition for softmax computation ::@:: View $W\in\mathbb{R}^{C\times D}$ as a stack of class-specific row vectors: top index $c$ is class, bottom index $f$ is feature. For example $i$, compute $z_{i,c}=\sum_{f=1}^D W_{c,f}x_{i,f}=w_c^\top x_i$, then $p_{i,c}=\frac{e^{z_{i,c}}}{\sum_k e^{z_{i,k}}}$, then use a target distribution $r_{i,c}$ with $\sum_c r_{i,c}=1$ to form $\ell_i=-\sum_c r_{i,c}\log p_{i,c}$ and gradient row $\partial \ell_i/\partial w_c=(p_{i,c}-r_{i,c})x_i$; the hard-label one-hot special case is $r_{i,c}=\mathbf{1}[y_i=c]$. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - interpretation of softmax terms with index meanings ::@:: In $P(y=c\mid x,W)=\frac{e^{z_c}}{\sum_k e^{z_k}}$, the index $c$ means the particular class being queried, while the index $k$ runs over all classes in the denominator. Thus $z_c$ is the evidence for class $c$, $e^{z_c}$ is its positive evidence mass, and $\sum_k e^{z_k}$ is the normalizer that forces all class probabilities to sum to $1$.
-- relative-odds interpretation in softmax with index meanings ::@:: In $\frac{P(y=c\mid x,W)}{P(y=d\mid x,W)}=e^{z_c-z_d}$, the indices $c$ and $d$ denote two specific classes being compared, so the formula says that pairwise class odds depend only on score differences.
+- relative-odds interpretation in softmax with index meanings ::@:: In $\frac{P(y=c\mid x,W)}{P(y=d\mid x,W)}=e^{z_c-z_d}$, the indices $c$ and $d$ denote two specific classes being compared, so the formula says that pairwise class odds depend only on score differences. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - inner-product interpretation of softmax with index meanings ::@:: Since $z_c=w_c^\top x$, where $c$ indexes the class and $w_c$ is that class's weight vector, each class competes through feature-template alignment, so larger inner product means stronger evidence for that class.
-- decision-boundary interpretation in softmax with index meanings ::@:: Softmax predicts by largest score, so the boundary between two specific classes $a$ and $b$ is $w_a^\top x=w_b^\top x$, equivalently $(w_a-w_b)^\top x=0$; here $a$ and $b$ are class labels, not feature indices.
-- logistic regression as the two-class special case of softmax: Show how $P(y=1\mid x,W)$ reduces to a sigmoid when $C=2$ ::@:: When there are only two classes, indexed by $1$ and $2$, one has $P(y=1\mid x,W)=\frac{e^{w_1^\top x}}{e^{w_1^\top x}+e^{w_2^\top x}}=\frac{1}{1+e^{-(w_1-w_2)^\top x}}=\sigma((w_1-w_2)^\top x)$, so logistic regression is exactly the two-class softmax case.
-- softmax score-shift invariance with index meanings ::@:: Adding the same vector to every class weight vector $w_c$ shifts every score $z_c$ by the same amount, so softmax probabilities stay unchanged because only relative score differences matter.
+- decision-boundary interpretation in softmax with index meanings ::@:: Softmax predicts by largest score, so the boundary between two specific classes $a$ and $b$ is $w_a^\top x=w_b^\top x$, equivalently $(w_a-w_b)^\top x=0$; here $a$ and $b$ are class labels, not feature indices. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
+- logistic regression as the two-class special case of softmax: Show how $P(y=1\mid x,W)$ reduces to a sigmoid when $C=2$ ::@:: When there are only two classes, indexed by $1$ and $2$, one has $P(y=1\mid x,W)=\frac{e^{w_1^\top x}}{e^{w_1^\top x}+e^{w_2^\top x}}=\frac{1}{1+e^{-(w_1-w_2)^\top x}}=\sigma((w_1-w_2)^\top x)$, so logistic regression is exactly the two-class softmax case. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
+- softmax score-shift invariance with index meanings ::@:: Adding the same vector to every class weight vector $w_c$ shifts every score $z_c$ by the same amount, so softmax probabilities stay unchanged because only relative score differences matter. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 
 ### softmax cross entropy and gradient
 
@@ -556,13 +556,13 @@ For implementation, use max-shifted logsumexp rather than naive exponentiation. 
 
 Flashcards for this section are as follows:
 
-- softmax cross-entropy definition with notation and index meanings ::@:: Here $i$ indexes the training example, $c$ indexes a class, and $k$ in the denominator runs over all classes. With scores $z_{i,c}=w_c^\top x_i$, probabilities $p_{i,c}=\frac{e^{z_{i,c}}}{\sum_k e^{z_{i,k}}}$, and target distribution $r_{i,c}$ satisfying $r_{i,c}\ge 0$ and $\sum_c r_{i,c}=1$, the one-example softmax cross entropy is $\ell_i(W)=-\sum_{c=1}^C r_{i,c}\log p_{i,c}$; the hard-label one-hot special case is $r_{i,c}=\mathbf{1}[y_i=c]$, which gives $\ell_i(W)=-\log p_{i,y_i}$.
+- softmax cross-entropy definition with notation and index meanings ::@:: Here $i$ indexes the training example, $c$ indexes a class, and $k$ in the denominator runs over all classes. With scores $z_{i,c}=w_c^\top x_i$, probabilities $p_{i,c}=\frac{e^{z_{i,c}}}{\sum_k e^{z_{i,k}}}$, and target distribution $r_{i,c}$ satisfying $r_{i,c}\ge 0$ and $\sum_c r_{i,c}=1$, the one-example softmax cross entropy is $\ell_i(W)=-\sum_{c=1}^C r_{i,c}\log p_{i,c}$; the hard-label one-hot special case is $r_{i,c}=\mathbf{1}[y_i=c]$, which gives $\ell_i(W)=-\log p_{i,y_i}$. <!--SR:!2000-01-01,1,250!2026-04-10,3,250-->
 - log-softmax derivation form of softmax loss with index meanings ::@:: Here $i$ indexes the example, $c$ indexes the class being summed, and $k$ runs over all classes in logsumexp. Using $\log p_{i,c}=z_{i,c}-\log\sum_k e^{z_{i,k}}$, one gets $\ell_i(W)=-\sum_c r_{i,c}z_{i,c}+\Bigl(\sum_c r_{i,c}\Bigr)\log\sum_k e^{z_{i,k}}=-\sum_c r_{i,c}z_{i,c}+\log\sum_k e^{z_{i,k}}$, since $\sum_c r_{i,c}=1$; the one-hot special case becomes $\ell_i(W)=-z_{i,y_i}+\log\sum_k e^{z_{i,k}}$.
 - mnemonic for softmax cross entropy with index meanings ::@:: Here $i$ indexes the training example, $c$ indexes a class, and $k$ runs over all classes. The general mnemonic is _weighted target scores up, logsumexp down_: the term $-\sum_c r_{i,c}z_{i,c}$ rewards scores according to target weights $r_{i,c}$, while $\log\sum_k e^{z_{i,k}}$ penalizes globally inflated scores across all classes; in the one-hot special case, this reduces to _true-class score up, logsumexp down_.
 - softmax score-gradient derivation with index meanings: If $\ell_i(W)=-\sum_c r_{i,c}\log p_{i,c}$ with $\log p_{i,c}=z_{i,c}-\log\sum_k e^{z_{i,k}}$, derive $\partial \ell_i/\partial z_{i,c}$ for one fixed class $c$ ::@:: Here $i$ indexes the example; $k$ is the dummy class index summed over all classes; and $c$ is the fixed class coordinate being differentiated. The target vector $r_i$ is a class-probability distribution, so $r_{i,c}\ge 0$ and $\sum_c r_{i,c}=1$; the one-hot special case is $r_{i,c}=\mathbf{1}[y_i=c]$. Rewrite as $\ell_i(W)=-\sum_c r_{i,c}z_{i,c}+\log\sum_k e^{z_{i,k}}$, then differentiate with respect to the fixed coordinate $z_{i,c}$ to get $\frac{\partial \ell_i}{\partial z_{i,c}}=-r_{i,c}+\frac{e^{z_{i,c}}}{\sum_k e^{z_{i,k}}}=p_{i,c}-r_{i,c}$.
 - softmax weight-gradient derivation with index meanings: If $z_{i,c}=w_c^\top x_i$ and $\partial \ell_i/\partial z_{i,c}=p_{i,c}-r_{i,c}$, derive $\partial L/\partial w_c$ ::@:: Here $i$ indexes the example, $c$ is the fixed class index, $w_c$ is the full weight vector for class $c$, and $x_i$ is the full feature vector of example $i$. The target coordinate $r_{i,c}$ is the target probability assigned to class $c$ for example $i$, with one-hot special case $r_{i,c}=\mathbf{1}[y_i=c]$. Since $z_{i,c}=w_c^\top x_i$, one has $\frac{\partial z_{i,c}}{\partial w_c}=x_i$, so $\frac{\partial \ell_i}{\partial w_c}=(p_{i,c}-r_{i,c})x_i$ and thus $\frac{\partial L(W)}{\partial w_c}=\frac1N\sum_i (p_{i,c}-r_{i,c})x_i$.
 - binary-versus-softmax cross-entropy relation with derivation ::@:: In the $C=2$ case, set target probabilities $r_{i,1}=r_i$ and $r_{i,2}=1-r_i$, and probabilities $p_{i,1}=p_i$, $p_{i,2}=1-p_i$. Then $-\sum_{c=1}^2 r_{i,c}\log p_{i,c}=-(r_i\log p_i+(1-r_i)\log(1-p_i))$, so binary cross entropy is exactly the two-class softmax cross entropy; the hard-label special case is $r_i=y_i\in\{0,1\}$.
-- unified output-layer mnemonic across binary and multiclass with explicit formulas ::@:: Binary formulas are $\frac{\partial \ell_i}{\partial s_i}=p_i-r_i$ and $\frac{\partial \ell_i}{\partial w}=(p_i-r_i)x_i$; multiclass formulas are $\frac{\partial \ell_i}{\partial z_{i,c}}=p_{i,c}-r_{i,c}$ and $\frac{\partial \ell_i}{\partial w_c}=(p_{i,c}-r_{i,c})x_i$. The explicit comparison shows the same template: output residual = prediction minus target, then multiply by input; for hard labels, $r_i=y_i$ in binary classification and $r_{i,c}=\mathbf{1}[y_i=c]$ in multiclass classification.
+- unified output-layer mnemonic across binary and multiclass with explicit formulas ::@:: Binary formulas are $\frac{\partial \ell_i}{\partial s_i}=p_i-r_i$ and $\frac{\partial \ell_i}{\partial w}=(p_i-r_i)x_i$; multiclass formulas are $\frac{\partial \ell_i}{\partial z_{i,c}}=p_{i,c}-r_{i,c}$ and $\frac{\partial \ell_i}{\partial w_c}=(p_{i,c}-r_{i,c})x_i$. The explicit comparison shows the same template: output residual = prediction minus target, then multiply by input; for hard labels, $r_i=y_i$ in binary classification and $r_{i,c}=\mathbf{1}[y_i=c]$ in multiclass classification. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 
 ### logsumexp and numeric stability in implementation
 
@@ -579,7 +579,7 @@ Implementation memory rule: _shift, softmax, and logsumexp_. First shift by max 
 Flashcards for this section are as follows:
 
 - stable softmax example with max-shift and index meanings: Given class scores $z_1=1000$, $z_2=1001$, and $z_3=999$, compute max-shifted scores and stable probabilities ::@:: Here the subscript $c\in\{1,2,3\}$ is the class index. With $m=\max\{z_1,z_2,z_3\}=1001$, shifted scores are $z_1-m=-1$, $z_2-m=0$, and $z_3-m=-2$, and stable softmax gives $p\approx\bigl[e^{-1},1,e^{-2}\bigr]/(e^{-1}+1+e^{-2})\approx[0.245,0.665,0.090]$.
-- stable logsumexp example with index meanings: Given class scores $z_1=1000$, $z_2=1001$, and $z_3=999$, compute $\log\sum_k e^{z_k}$ using max-shift ::@:: Here $k$ runs over the classes $1,2,3$. Using $m=1001$, $\log\sum_k e^{z_k}=m+\log\sum_k e^{z_k-m}=1001+\log(e^{-1}+1+e^{-2})\approx 1001.408$.
+- stable logsumexp example with index meanings: Given class scores $z_1=1000$, $z_2=1001$, and $z_3=999$, compute $\log\sum_k e^{z_k}$ using max-shift ::@:: Here $k$ runs over the classes $1,2,3$. Using $m=1001$, $\log\sum_k e^{z_k}=m+\log\sum_k e^{z_k-m}=1001+\log(e^{-1}+1+e^{-2})\approx 1001.408$. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - stable softmax-cross-entropy example with index meanings: Given class scores $z_1=1000$, $z_2=1001$, $z_3=999$, and true class index $2$ (1-based), compute the one-example loss stably ::@:: Here the subscript is the class index and $k$ in $\sum_k$ runs over all classes. First compute $\log\sum_k e^{z_k}=1001.408$ by max-shift; then $\ell=-z_2+\log\sum_k e^{z_k}=-1001+1001.408\approx 0.408$.
 - numeric-stability implementation checklist for softmax regression ::@:: Use max-shifted softmax and logsumexp, and prefer fused log-softmax plus negative-log-likelihood routines to avoid overflow/underflow and reduce roundoff error.
 
@@ -597,7 +597,7 @@ The same example also shows decision-boundary intuition. Class-$1$ versus class-
 
 Flashcards for this section are as follows:
 
-- worked softmax probability and loss example with index meanings: Given class scores $z_1=2$, $z_2=1$, $z_3=0$ and true class index $2$ (1-based), compute softmax probabilities and one-example cross entropy ::@:: Here the subscript gives the class index. Probabilities are approximately $p_1=0.665$, $p_2=0.245$, and $p_3=0.090$, and loss is $-\log p_2=-\log 0.245\approx 1.40$.
+- worked softmax probability and loss example with index meanings: Given class scores $z_1=2$, $z_2=1$, $z_3=0$ and true class index $2$ (1-based), compute softmax probabilities and one-example cross entropy ::@:: Here the subscript gives the class index. Probabilities are approximately $p_1=0.665$, $p_2=0.245$, and $p_3=0.090$, and loss is $-\log p_2=-\log 0.245\approx 1.40$. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - worked softmax residual-vector example with index meanings: Given class probabilities $p_1=0.665$, $p_2=0.245$, $p_3=0.090$ and target distribution coordinates $r_1=0$, $r_2=1$, $r_3=0$ (the hard-label one-hot special case), compute $p-r$ and interpret signs ::@:: Here the subscript is the class index. The residual vector is $p-r=[0.665,-0.755,0.090]$; the true class coordinate $2$ has negative residual (push its score up), and the other class coordinates have positive residuals (push their scores down).
 - worked softmax gradient example with full givens and index meanings: Given input $x=(1,0)^\top$, class weight vectors $w_1=(2,0)^\top$, $w_2=(1,0)^\top$, $w_3=(0,0)^\top$, target distribution $r=[0,1,0]$ (the hard-label one-hot special case corresponding to true class $y=2$), and probabilities $p_1=0.665$, $p_2=0.245$, $p_3=0.090$, compute one-example classwise gradients ::@:: Here the subscript on $w_c$, $p_c$, and $r_c$ is the class index $c$. With residuals $p-r=[0.665,-0.755,0.090]$, gradients are $\partial\ell/\partial w_1=(0.665,0)^\top$, $\partial\ell/\partial w_2=(-0.755,0)^\top$, and $\partial\ell/\partial w_3=(0.090,0)^\top$.
 - worked softmax update example with full givens and index meanings: Given input $x=(1,0)^\top$, class weight vectors $w_1=(2,0)^\top$, $w_2=(1,0)^\top$, $w_3=(0,0)^\top$, true class $y=2$, and learning rate $\alpha=0.1$, perform one gradient-descent step ::@:: Here the subscript on $w_c$ identifies class $c$. Using gradients $(0.665,0)^\top$, $(-0.755,0)^\top$, and $(0.090,0)^\top$, updates are $w_1^{\text{new}}=(1.9335,0)^\top$, $w_2^{\text{new}}=(1.0755,0)^\top$, and $w_3^{\text{new}}=(-0.009,0)^\top$.

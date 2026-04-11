@@ -24,10 +24,10 @@ The word _linear_ refers to linearity in the parameters, not necessarily lineari
 Flashcards for this section are as follows:
 
 - overview ::@:: Linear regression predicts a real-valued target with an affine score such as $\hat y = w^\top x$, and in COMP 4211 it serves as the prototype for later machine-learning models.
-- why linear regression matters early ::@:: Linear regression already exhibits the main machine-learning ideas of supervised learning, loss minimization, feature engineering, capacity control, regularization, and probabilistic interpretation.
+- why linear regression matters early ::@:: Linear regression already exhibits the main machine-learning ideas of supervised learning, loss minimization, feature engineering, capacity control, regularization, and probabilistic interpretation. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - course convention for the intercept term ::@:: In this course the bias/intercept is included by augmenting the features with $x_0 = 1$, so the predictor is written compactly as $\hat y = w^\top x$.
-- role of the weights ::@:: The entries of $w$ determine how strongly the corresponding features influence the predicted response.
-- linear in parameters versus linear in raw input ::@:: A model can be nonlinear in the raw input yet still count as a linear model if it is linear in the transformed features or parameters.
+- role of the weights ::@:: The entries of $w$ determine how strongly the corresponding features influence the predicted response. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
+- linear in parameters versus linear in raw input ::@:: A model can be nonlinear in the raw input yet still count as a linear model if it is linear in the transformed features or parameters. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
 
 ## supervised regression setup and ordinary least squares
 
@@ -49,12 +49,12 @@ When no closed-form solution is available, one usually switches from exact algeb
 
 Flashcards for this section are as follows:
 
-- supervised regression data ::@:: In linear regression the training data are pairs $(x_i,y_i)$ with augmented feature vectors $x_i \in \mathbb{R}^{D+1}$ and real-valued targets $y_i \in \mathbb{R}$.
-- prediction rule $\hat y_i = w^\top x_i$ ::@:: For each example $x_i$, linear regression predicts the response by the affine score $\hat y_i = w^\top x_i$.
-- mean squared error $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$ ::@:: The standard linear-regression objective is $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$.
+- supervised regression data ::@:: In linear regression the training data are pairs $(x_i,y_i)$ with augmented feature vectors $x_i \in \mathbb{R}^{D+1}$ and real-valued targets $y_i \in \mathbb{R}$. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
+- prediction rule $\hat y_i = w^\top x_i$ ::@:: For each example $x_i$, linear regression predicts the response by the affine score $\hat y_i = w^\top x_i$. <!--SR:!2026-04-12,4,270!2000-01-01,1,250-->
+- mean squared error $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$ ::@:: The standard linear-regression objective is $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - why squared error is used ::@:: Squaring residuals prevents sign cancellation and penalizes large mistakes more strongly than small ones.
-- ordinary least squares ::@:: Ordinary least squares chooses the parameter vector $w$ that minimizes the average squared residual over the training set.
-- why OLS is the default linear-regression method ::@:: OLS is the most common linear-regression method because it is analytically simple, computationally convenient, and coincides with Gaussian maximum likelihood.
+- ordinary least squares ::@:: Ordinary least squares chooses the parameter vector $w$ that minimizes the average squared residual over the training set. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
+- why OLS is the default linear-regression method ::@:: OLS is the most common linear-regression method because it is analytically simple, computationally convenient, and coincides with Gaussian maximum likelihood. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - closed-form OLS solution ::@:: Under the squared-loss setup, OLS often has the explicit solution $\hat w=(X^\top X)^{-1}X^\top y$ when $X^\top X$ is invertible.
 - what closed-form or analytic solution means ::@:: A closed-form or analytic solution means the optimizer can be written explicitly by a finite sequence of algebraic operations instead of being found only by iterative search.
 - why closed-form solutions are desirable ::@:: Closed-form solutions are desirable because they expose how the optimizer depends on the data, avoid convergence tuning, and in the OLS case identify the global optimum directly.
@@ -75,7 +75,7 @@ Flashcards for this section are as follows:
 - weighted least squares ::@:: Weighted least squares minimizes a weighted sum of squared residuals so more reliable observations can influence the fit more strongly than less reliable ones.
 - generalized least squares ::@:: Generalized least squares extends least squares to correlated or heteroscedastic noise by incorporating the error covariance structure into the fit.
 - least absolute deviations ::@:: Least absolute deviations minimizes absolute residuals instead of squared residuals, making the fit more robust to outliers.
-- ridge regression as a linear-regression method ::@:: Ridge regression is a linear-regression method that adds an $L_2$ penalty to shrink coefficients and stabilize ill-conditioned fits.
+- ridge regression as a linear-regression method ::@:: Ridge regression is a linear-regression method that adds an $L_2$ penalty to shrink coefficients and stabilize ill-conditioned fits. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - LASSO as a linear-regression method ::@:: LASSO is a linear-regression method that adds an $L_1$ penalty, often producing sparse solutions with some coefficients exactly zero.
 
 ### one-feature least-squares fit
@@ -90,7 +90,7 @@ Flashcards for this section are as follows:
 
 - one-feature fit setup ::@:: In the one-feature toy problem, linear regression fits a line $\hat y = w_0 + w_1x_1$ to the three points $(2,2)$, $(4,3)$, and $(6,4)$.
 - why a line need not pass through every point ::@:: In general, least squares chooses the line that minimizes average squared residuals, so it balances all observations rather than forcing perfect interpolation.
-- one-feature residuals ::@:: For $(x_1,y)=(2,2),(4,3),(6,4)$, the residuals are $2-(w_0+2w_1)$, $3-(w_0+4w_1)$, and $4-(w_0+6w_1)$.
+- one-feature residuals ::@:: For $(x_1,y)=(2,2),(4,3),(6,4)$, the residuals are $2-(w_0+2w_1)$, $3-(w_0+4w_1)$, and $4-(w_0+6w_1)$. <!--SR:!2026-04-12,4,270!2000-01-01,1,250-->
 
 ### solving the toy problem by differentiation
 
@@ -124,12 +124,12 @@ The closed-form ordinary least-squares solution is mathematically elegant, but i
 Flashcards for this section are as follows:
 
 - design matrix ::@:: The design matrix $X$ is formed by stacking the row vectors $x_i^\top$, so each training example occupies one row.
-- matrix loss $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$ ::@:: With design matrix $X$ and target vector $y$, the mean squared error becomes $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$.
+- matrix loss $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$ ::@:: With design matrix $X$ and target vector $y$, the mean squared error becomes $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
 - residual vector ::@:: In matrix form, the residual vector is $y - Xw$, namely observed targets minus fitted values.
-- gradient of least squares ::@:: The gradient of the least-squares objective is $\nabla L(w)=\frac{2}{N}(X^\top Xw - X^\top y)$.
+- gradient of least squares ::@:: The gradient of the least-squares objective is $\nabla L(w)=\frac{2}{N}(X^\top Xw - X^\top y)$. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
 - normal equation $X^\top Xw = X^\top y$ ::@:: Setting the least-squares gradient to zero gives the normal equation $X^\top Xw = X^\top y$.
 - ordinary least squares solution $\hat w = (X^\top X)^{-1}X^\top y$ ::@:: When $X^\top X$ is invertible, the least-squares minimizer is $\hat w = (X^\top X)^{-1}X^\top y$.
-- why calculus appears in linear regression ::@:: Calculus enters because learning is posed as minimizing a differentiable loss, so the optimum is characterized by a zero gradient.
+- why calculus appears in linear regression ::@:: Calculus enters because learning is posed as minimizing a differentiable loss, so the optimum is characterized by a zero gradient. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
 - quadratic bowl intuition ::@:: The least-squares objective is a quadratic bowl in parameter space, which is why the optimization landscape is especially clean for linear regression.
 
 ### derivation of the matrix gradient
@@ -148,11 +148,11 @@ Putting the pieces together gives $\nabla L(w)=\frac{1}{N}(2X^\top Xw - 2X^\top 
 
 Flashcards for this section are as follows:
 
-- matrix expansion of least squares ::@:: The matrix least-squares objective expands as $L(w)=\frac{1}{N}\bigl(y^\top y - 2y^\top Xw + w^\top X^\top Xw\bigr)$.
+- matrix expansion of least squares ::@:: The matrix least-squares objective expands as $L(w)=\frac{1}{N}\bigl(y^\top y - 2y^\top Xw + w^\top X^\top Xw\bigr)$. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - coordinatewise reason that $\nabla_w(w^\top A w)=(A+A^\top)w$ ::@:: Since $w^\top A w = \sum_{j,k} a_{jk}w_jw_k$, differentiating with respect to $w_m$ collects the terms where $j=m$ and where $k=m$, giving $(Aw)_m+(A^\top w)_m$.
 - why the derivative of $w^\top X^\top Xw$ is $2X^\top Xw$ ::@:: Let $A=X^\top X$. Because $A$ is symmetric, $(A+A^\top)w = 2Aw$, so $\nabla_w(w^\top X^\top Xw)=2X^\top Xw$.
-- two-variable memory aid for differentiating a quadratic form ::@:: If $A=\begin{bmatrix}a&b\\ b&c\end{bmatrix}$, then $w^\top A w = aw_1^2 + 2bw_1w_2 + cw_2^2$, so differentiating gives $[2aw_1+2bw_2,\ 2bw_1+2cw_2]^\top = 2Aw$.
-- why the matrix derivation matters ::@:: The derivation shows that least squares balances feature geometry through $X^\top X$ against target-feature alignment through $X^\top y$.
+- two-variable memory aid for differentiating a quadratic form ::@:: If $A=\begin{bmatrix}a&b\\ b&c\end{bmatrix}$, then $w^\top A w = aw_1^2 + 2bw_1w_2 + cw_2^2$, so differentiating gives $[2aw_1+2bw_2,\ 2bw_1+2cw_2]^\top = 2Aw$. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
+- why the matrix derivation matters ::@:: The derivation shows that least squares balances feature geometry through $X^\top X$ against target-feature alignment through $X^\top y$. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
 
 ### tiny normal-equation computation
 
@@ -184,16 +184,16 @@ So the correct correction to remember is this: $(X^\top X)^{-1}$ by itself is no
 
 Flashcards for this section are as follows:
 
-- normal equation as orthogonality condition $X^\top(y-Xw)=0$ ::@:: The normal equation is equivalent to $X^\top(y-Xw)=0$, meaning the residual is orthogonal to every column of the design matrix.
-- ordinary vector projection onto a nonunit vector ::@:: The projection of $y$ onto the line spanned by a nonzero vector $a$ is $\operatorname{proj}_{a}(y)=\frac{a^\top y}{a^\top a}a$.
-- why ordinary vector projection divides by $a^\top a$ ::@:: The denominator $a^\top a=\|a\|_2^2$ corrects for the length of $a$, so the projection coefficient measures direction alignment rather than raw scale.
+- normal equation as orthogonality condition $X^\top(y-Xw)=0$ ::@:: The normal equation is equivalent to $X^\top(y-Xw)=0$, meaning the residual is orthogonal to every column of the design matrix. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
+- ordinary vector projection onto a nonunit vector ::@:: The projection of $y$ onto the line spanned by a nonzero vector $a$ is $\operatorname{proj}_{a}(y)=\frac{a^\top y}{a^\top a}a$. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
+- why ordinary vector projection divides by $a^\top a$ ::@:: The denominator $a^\top a=\|a\|_2^2$ corrects for the length of $a$, so the projection coefficient measures direction alignment rather than raw scale. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - projection intuition for least squares ::@:: Least squares chooses $Xw$ as the orthogonal projection of $y$ onto the column space $\operatorname{col}(X)$.
 - projection matrix for full-column-rank linear regression ::@:: If the columns of $X$ are linearly independent, the projection of $y$ onto $\operatorname{col}(X)$ is $X(X^\top X)^{-1}X^\top y$.
-- why $(X^\top X)^{-1}$ appears in the projection formula ::@:: The factor $X^\top y$ gives raw inner products with the columns of $X$, and $(X^\top X)^{-1}$ corrects for nonunit lengths and nonorthogonality among those columns.
+- why $(X^\top X)^{-1}$ appears in the projection formula ::@:: The factor $X^\top y$ gives raw inner products with the columns of $X$, and $(X^\top X)^{-1}$ corrects for nonunit lengths and nonorthogonality among those columns. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - orthonormal-column special case ::@:: If the columns of $X$ are orthonormal, then $X^\top X=I$, so the projection simplifies to $XX^\top y$.
 - why projection is a good memory aid ::@:: The projection viewpoint says linear regression finds the closest vector to $y$ among all vectors that can be written as $Xw$.
 - when $X^\top X$ is singular ::@:: $X^\top X$ is singular when the columns of $X$ are linearly dependent, so the inverse formula cannot be used directly.
-- redundant-feature example ::@:: If the model uses both $x$ and $2x$ as separate features, then many pairs $(w_1,w_2)$ yield the same prediction because $w_1x + w_2(2x) = (w_1+2w_2)x$.
+- redundant-feature example ::@:: If the model uses both $x$ and $2x$ as separate features, then many pairs $(w_1,w_2)$ yield the same prediction because $w_1x + w_2(2x) = (w_1+2w_2)x$. <!--SR:!2026-04-12,4,270!2000-01-01,1,250-->
 - full-column-rank pseudoinverse formula ::@:: If $X$ has full column rank, then its pseudoinverse is $X^{+}=(X^\top X)^{-1}X^\top$, so $X^{+}y$ equals the usual ordinary least-squares solution.
 - why the pseudoinverse is not just $(X^\top X)^{-1}$ ::@:: The pseudoinverse used in least squares is the pseudoinverse of $X$, not of $X^\top X$ alone, so in the full-column-rank case it is $(X^\top X)^{-1}X^\top$.
 - dimension check for the pseudoinverse formula ::@:: $(X^\top X)^{-1}$ lives in parameter space, but $y$ lives in data space, so the factor $X^\top$ is needed to map data-space information into coefficient space before solving for $w$.
@@ -218,15 +218,15 @@ This is the first important feature-engineering lesson of the course. A model ma
 Flashcards for this section are as follows:
 
 - polynomial regression idea ::@:: Polynomial regression keeps the model linear in the parameters while using nonlinear features such as $1,x,x^2,\ldots,x^d$.
-- feature map viewpoint ::@:: Polynomial regression is linear regression performed on transformed features $\phi(x)$ rather than on the raw input directly.
+- feature map viewpoint ::@:: Polynomial regression is linear regression performed on transformed features $\phi(x)$ rather than on the raw input directly. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
 - general polynomial regression form ::@:: For $p$ variables and degree $d$, polynomial regression includes all monomials $x^{\alpha}=x_1^{\alpha_1}\cdots x_p^{\alpha_p}$ with $|\alpha|\le d$, so $\hat y = \sum_{|\alpha|\le d} w_{\alpha}x^{\alpha}$.
 - how to remember the polynomial feature map ::@:: A good memory aid is to list every product of input coordinates whose total exponent count is at most $d$, including the empty product $1$.
 - linear regression as a special case of polynomial regression ::@:: Ordinary linear regression is the degree-$1$ special case of polynomial regression, because the allowed monomials are only $1,x_1,\ldots,x_p$.
-- bias as a zeroth-order term ::@:: In polynomial regression the bias is the zeroth-order monomial, corresponding to exponent vector $(0,\ldots,0)$ and feature value $1$.
-- degree-2 feature map example ::@:: For $x = [1,x_1,x_2]^\top$, a degree-2 polynomial map can be $\phi(x) = [1,x_1,x_2,x_1^2,x_1x_2,x_2^2]^\top$.
-- interaction term ::@:: A feature such as $x_1x_2$ is an interaction term because it allows the model to depend on how two coordinates vary together.
-- why feature engineering matters ::@:: Feature engineering changes what functions the model can represent even when the optimization method remains the same.
-- neural-network analogy for polynomial regression ::@:: Polynomial regression uses a hand-designed feature transform followed by a linear model, while a neural network can be viewed as learning the feature transform and then applying a final linear layer on top.
+- bias as a zeroth-order term ::@:: In polynomial regression the bias is the zeroth-order monomial, corresponding to exponent vector $(0,\ldots,0)$ and feature value $1$. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
+- degree-2 feature map example ::@:: For $x = [1,x_1,x_2]^\top$, a degree-2 polynomial map can be $\phi(x) = [1,x_1,x_2,x_1^2,x_1x_2,x_2^2]^\top$. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
+- interaction term ::@:: A feature such as $x_1x_2$ is an interaction term because it allows the model to depend on how two coordinates vary together. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
+- why feature engineering matters ::@:: Feature engineering changes what functions the model can represent even when the optimization method remains the same. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
+- neural-network analogy for polynomial regression ::@:: Polynomial regression uses a hand-designed feature transform followed by a linear model, while a neural network can be viewed as learning the feature transform and then applying a final linear layer on top. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
 - linear in parameters ::@:: A polynomial regressor is still a linear model because it is linear in the coefficients multiplying the transformed features.
 
 ### worked polynomial-feature constructions
@@ -240,7 +240,7 @@ For two input variables, the lecture's mapping $\phi(x)=[1,x_1,x_2,x_1^2,x_1x_2,
 Flashcards for this section are as follows:
 
 - scalar degree-2 example: If $\phi(x)=[1,x,x^2]^\top$, $(w_0,w_1,w_2)=(1,-3,2)$, and $x=2$, what is $\hat y$? ::@:: The prediction is $\hat y = 1 - 3\cdot 2 + 2\cdot 2^2 = 3$.
-- two-variable degree-2 feature map example: If $x=[1,2,3]^\top$, what is $\phi(x)$ for degree $2$? ::@:: The transformed vector is $\phi(x)=[1,2,3,4,6,9]^\top$.
+- two-variable degree-2 feature map example: If $x=[1,2,3]^\top$, what is $\phi(x)$ for degree $2$? ::@:: The transformed vector is $\phi(x)=[1,2,3,4,6,9]^\top$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
 
 ## hypothesis space, capacity, and generalization
 
@@ -258,8 +258,8 @@ The effect of hypothesis-space size on error should therefore be read in layers.
 
 Flashcards for this section are as follows:
 
-- hypothesis space ::@:: The hypothesis space is the set of all functions a learning algorithm is allowed to choose as its solution.
-- model capacity ::@:: Model capacity is the expressive size or flexibility of the hypothesis space.
+- hypothesis space ::@:: The hypothesis space is the set of all functions a learning algorithm is allowed to choose as its solution. <!--SR:!2026-04-12,4,270!2000-01-01,1,250-->
+- model capacity ::@:: Model capacity is the expressive size or flexibility of the hypothesis space. <!--SR:!2026-04-12,4,270!2000-01-01,1,250-->
 - generalization ::@:: Generalization is the ability of the learned model to perform well on future data drawn from the same underlying data-generating process.
 - iid assumption for train and test data ::@:: Training and test data are usually assumed to be independent and identically distributed samples from the same population.
 - why the iid assumption matters ::@:: If train, validation, and deployment data do not come from the same population or are not independent, then held-out error may no longer predict future performance reliably.
@@ -276,7 +276,7 @@ These examples show why capacity is really about _available shapes_. A constant-
 
 Flashcards for this section are as follows:
 
-- constant-function hypothesis space example ::@:: If the hypothesis space contains only constant functions, the learner can choose only predictors of the form $\hat y = c$.
+- constant-function hypothesis space example ::@:: If the hypothesis space contains only constant functions, the learner can choose only predictors of the form $\hat y = c$. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - affine one-feature hypothesis space example ::@:: If the hypothesis space is all affine functions of one variable, the learner can choose any line $\hat y = w_0 + w_1x$.
 - quadratic hypothesis space example ::@:: If the hypothesis space is all degree-$2$ polynomials in one variable, the learner can choose any parabola $\hat y = w_0 + w_1x + w_2x^2$.
 - intuitive meaning of larger hypothesis space ::@:: A larger hypothesis space means the learner has more possible shapes available for fitting the data.
@@ -293,7 +293,7 @@ Flashcards for this section are as follows:
 
 - identically distributed part of iid ::@:: The identically distributed part means train, validation, test, and future deployment cases are sampled from the same population.
 - independent part of iid ::@:: The independent part means one example does not leak information about another, so evaluation is not artificially easy.
-- implication of distribution shift ::@:: If the deployment population differs from the training and test population, a low held-out error may fail to predict real deployment performance.
+- implication of distribution shift ::@:: If the deployment population differs from the training and test population, a low held-out error may fail to predict real deployment performance. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
 - implication of data leakage ::@:: If validation examples are not independent of training examples, the reported validation error is usually too optimistic.
 
 ### underfitting and overfitting
@@ -308,7 +308,7 @@ Flashcards for this section are as follows:
 
 - underfitting ::@:: Underfitting occurs when model capacity is too small, so both training and held-out error remain high because the model cannot represent the main signal.
 - overfitting ::@:: Overfitting occurs when capacity is too large, so training error can keep decreasing while held-out error worsens due to fitting sample-specific noise.
-- why the test-error curve is often U-shaped ::@:: As capacity increases, test error often falls first (better signal fit) and later rises (greater sensitivity to noise), producing a U-shaped curve.
+- why the test-error curve is often U-shaped ::@:: As capacity increases, test error often falls first (better signal fit) and later rises (greater sensitivity to noise), producing a U-shaped curve. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - bias-variance preview from the capacity curve ::@:: The underfitting-to-overfitting transition is an early manifestation of the bias-variance tradeoff discussed in later lectures.
 
 ### training error, test error, and the capacity curve
@@ -337,8 +337,8 @@ This example is a useful mental check for all later deep-learning lectures. When
 
 Flashcards for this section are as follows:
 
-- degree 14 versus degree 20 lesson ::@:: The degree-$20$ polynomial has more room to wiggle between training points than the degree-$14$ model, so it can reduce training MSE further by fitting sample-specific noise.
-- why the degree 14 model can still win ::@:: A degree-$14$ model can have slightly higher training error yet lower future error if it captures the broad trend while the degree-$20$ model overreacts to noise.
+- degree 14 versus degree 20 lesson ::@:: The degree-$20$ polynomial has more room to wiggle between training points than the degree-$14$ model, so it can reduce training MSE further by fitting sample-specific noise. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- why the degree 14 model can still win ::@:: A degree-$14$ model can have slightly higher training error yet lower future error if it captures the broad trend while the degree-$20$ model overreacts to noise. <!--SR:!2026-04-12,4,284!2026-04-12,4,270-->
 
 ## validation, cross-validation, and hyperparameter tuning
 
@@ -356,12 +356,12 @@ Cross-validation is not magic, however. It is computationally more expensive bec
 
 Flashcards for this section are as follows:
 
-- validation set ::@:: A validation set is a held-out subset used to choose hyperparameters such as polynomial degree without evaluating directly on the final test set.
+- validation set ::@:: A validation set is a held-out subset used to choose hyperparameters such as polynomial degree without evaluating directly on the final test set. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - model selection by validation ::@:: To choose a hyperparameter, train candidate models on the training subset and pick the value with the smallest validation error.
 - why degree is a hyperparameter ::@:: The polynomial degree is a hyperparameter because it controls the model family and is not directly solved for by ordinary least squares.
 - practical validation workflow for hyperparameters ::@:: Choose several candidate hyperparameter values, train one model per candidate on the training subset, compare their validation errors, then keep the best-performing candidate and leave the test set untouched until final evaluation.
 - training-versus-validation split trade-off ::@:: A larger training set helps fit parameters better, while a larger validation set gives a more reliable estimate of future performance.
-- why a single hold-out split wastes data ::@:: A single hold-out split leaves some labeled examples out of training, so parameter estimation is based on less data than necessary.
+- why a single hold-out split wastes data ::@:: A single hold-out split leaves some labeled examples out of training, so parameter estimation is based on less data than necessary. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - why a single hold-out score is unstable ::@:: A single hold-out validation score can change a lot from one split to another, so it may be a noisy estimate of future performance.
 - cross-validation ::@:: In $k$-fold cross-validation, the data are split into $k$ parts and the training-validation cycle is repeated $k$ times so every fold serves once as validation.
 - why cross-validation helps ::@:: Cross-validation gives a more stable estimate of generalization than a single hold-out split, especially when data are limited.
@@ -401,10 +401,10 @@ Flashcards for this section are as follows:
 - why start with a large hypothesis space ::@:: One can start with a rich model class and then use regularization to suppress unnecessary complexity instead of fixing a small class in advance.
 - ridge regression objective $L(w,w_0)=\frac{1}{N}\sum_{i=1}^N (y_i-(w_0+w^\top\phi(x_i)))^2 + \lambda\lVert w\rVert_2^2$ ::@:: Ridge regression adds an $L_2$ penalty: $L(w,w_0)=\frac{1}{N}\sum_{i=1}^N (y_i-(w_0+w^\top\phi(x_i)))^2 + \lambda\lVert w\rVert_2^2$.
 - why the bias term is usually not regularized ::@:: The bias term is usually excluded from regularization because shifting the predictor up or down does not increase model complexity in the same way as large slope or higher-order coefficients.
-- weight decay ::@:: Weight decay is another name for $L_2$ regularization because it discourages large coefficient magnitudes.
+- weight decay ::@:: Weight decay is another name for $L_2$ regularization because it discourages large coefficient magnitudes. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
 - effect of ridge regression ::@:: Ridge regression shrinks coefficients smoothly toward zero, which stabilizes the fit and reduces overfitting.
-- LASSO idea with $\lambda\lVert w\rVert_1$ ::@:: LASSO uses an $L_1$ penalty $\lambda\lVert w\rVert_1$, encouraging sparse models by driving some coefficients exactly to zero.
-- ridge versus LASSO ::@:: Ridge usually shrinks all coefficients, whereas LASSO can eliminate some coefficients entirely and thereby perform feature selection.
+- LASSO idea with $\lambda\lVert w\rVert_1$ ::@:: LASSO uses an $L_1$ penalty $\lambda\lVert w\rVert_1$, encouraging sparse models by driving some coefficients exactly to zero. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- ridge versus LASSO ::@:: Ridge usually shrinks all coefficients, whereas LASSO can eliminate some coefficients entirely and thereby perform feature selection. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
 - why LASSO yields sparsity ::@:: The $L_1$ geometry has corners on the coordinate axes, so the optimum often lands where one or more weights are exactly zero.
 - choosing $\lambda$ ::@:: The regularization strength $\lambda$ is itself a hyperparameter and is typically selected by validation or cross-validation.
 - regularization as a force in hypothesis space ::@:: Regularization can be viewed as a force pulling the solution away from overly complex regions of hypothesis space and back toward simpler functions with smaller coefficient norms.
@@ -435,20 +435,20 @@ In special settings this threshold picture becomes explicit. For example, with o
 
 Flashcards for this section are as follows:
 
-- what $\lVert w\rVert_2^2$ means ::@:: The squared $L_2$ penalty is $\lVert w\rVert_2^2 = \sum_j w_j^2$, the sum of squared coefficient magnitudes.
-- why squaring changes the ridge penalty ::@:: Squaring means large coefficients are punished disproportionately, so ridge strongly discourages a few very large weights.
-- ridge regularization gradient ::@:: Since $\|w\|_2^2=\sum_j w_j^2$, differentiating gives $\nabla_w\bigl(\lambda\|w\|_2^2\bigr)=2\lambda w$.
+- what $\lVert w\rVert_2^2$ means ::@:: The squared $L_2$ penalty is $\lVert w\rVert_2^2 = \sum_j w_j^2$, the sum of squared coefficient magnitudes. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
+- why squaring changes the ridge penalty ::@:: Squaring means large coefficients are punished disproportionately, so ridge strongly discourages a few very large weights. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- ridge regularization gradient ::@:: Since $\|w\|_2^2=\sum_j w_j^2$, differentiating gives $\nabla_w\bigl(\lambda\|w\|_2^2\bigr)=2\lambda w$. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
 - ridge gradient interpretation ::@:: The ridge term adds $2\lambda w$ to the data-fit gradient, so every coefficient feels a smooth pull directly toward zero.
-- why the bias has no regularization gradient ::@:: Because the bias term $w_0$ is excluded from the penalty, the regularizer contributes $0$ to the derivative with respect to $w_0$.
+- why the bias has no regularization gradient ::@:: Because the bias term $w_0$ is excluded from the penalty, the regularizer contributes $0$ to the derivative with respect to $w_0$. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - what $\lVert w\rVert_1$ means ::@:: The $L_1$ penalty is $\lVert w\rVert_1 = \sum_j |w_j|$, the sum of absolute coefficient magnitudes.
-- why the l1 penalty feels different from l2 squared ::@:: The $L_1$ penalty grows linearly with coefficient size, which makes exact zeros more competitive than under a smooth squared penalty.
+- why the l1 penalty feels different from l2 squared ::@:: The $L_1$ penalty grows linearly with coefficient size, which makes exact zeros more competitive than under a smooth squared penalty. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - LASSO gradient away from zero ::@:: For $w_j\neq 0$, the derivative of $\lambda|w_j|$ is $\lambda\operatorname{sign}(w_j)$, so LASSO applies a constant-magnitude pull toward zero on each nonzero coordinate.
 - LASSO subgradient at zero ::@:: At $w_j=0$, $|w_j|$ is not differentiable, so LASSO uses a subgradient and any value in $[-\lambda,\lambda]$ is allowed for that coordinate.
 - LASSO optimality condition ::@:: LASSO satisfies $0\in\nabla_w J(w,w_0)+\lambda\,\partial\|w\|_1$, which explains how a coefficient can remain exactly zero.
-- coordinatewise LASSO optimality rule ::@:: For each coefficient, LASSO optimality says: if $w_j>0$, then $\frac{\partial J}{\partial w_j}=-\lambda$; if $w_j<0$, then $\frac{\partial J}{\partial w_j}=+\lambda$; if $w_j=0$, then $\frac{\partial J}{\partial w_j}\in[-\lambda,+\lambda]$.
+- coordinatewise LASSO optimality rule ::@:: For each coefficient, LASSO optimality says: if $w_j>0$, then $\frac{\partial J}{\partial w_j}=-\lambda$; if $w_j<0$, then $\frac{\partial J}{\partial w_j}=+\lambda$; if $w_j=0$, then $\frac{\partial J}{\partial w_j}\in[-\lambda,+\lambda]$. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - why LASSO creates exact zeros ::@:: A coefficient can stay exactly zero whenever the data-fit derivative lies inside the interval $[-\lambda,+\lambda]$, so LASSO has a whole threshold zone that favors sparsity.
 - ridge versus LASSO optimality-condition difference ::@:: Ridge uses a smooth equality $\frac{\partial J}{\partial w_j}+2\lambda w_j=0$, whereas LASSO uses a threshold-type subgradient rule, which is why ridge usually shrinks and LASSO can delete coefficients.
-- soft-thresholding intuition for LASSO ::@:: In orthonormal designs, LASSO behaves like soft thresholding: least-squares coefficients are pulled toward zero, and sufficiently small ones become exactly zero.
+- soft-thresholding intuition for LASSO ::@:: In orthonormal designs, LASSO behaves like soft thresholding: least-squares coefficients are pulled toward zero, and sufficiently small ones become exactly zero. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
 
 ### ridge versus LASSO contour intuition
 
@@ -462,11 +462,11 @@ Because a circle has no corners, the ridge contact point is usually on a smooth 
 
 Flashcards for this section are as follows:
 
-- contour-line intuition for ridge and LASSO ::@:: Think of least-squares loss as ellipses and the regularizer as a norm ball; the optimum is where the smallest ellipse first touches the constraint boundary.
+- contour-line intuition for ridge and LASSO ::@:: Think of least-squares loss as ellipses and the regularizer as a norm ball; the optimum is where the smallest ellipse first touches the constraint boundary. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
 - algebraic form of ridge contour lines ::@:: In two dimensions, a ridge level set $\lambda\|w\|_2^2=c$ is $w_1^2+w_2^2=c/\lambda$, so its contour lines are circles centered at the origin.
 - algebraic form of LASSO contour lines ::@:: In two dimensions, a LASSO level set $\lambda\|w\|_1=c$ is $|w_1|+|w_2|=c/\lambda$, so its contour lines are diamonds with corners on the axes.
-- effect of increasing $\lambda$ on the regularized objective ::@:: A larger $\lambda$ makes low-norm regions more strongly preferred in the total objective, so the optimizer is pushed closer to the origin unless data fit strongly opposes it.
-- why ridge usually keeps coefficients nonzero ::@:: Ridge uses a round $L_2$ constraint, so the tangency point is usually on a smooth arc rather than exactly on a coordinate axis.
+- effect of increasing $\lambda$ on the regularized objective ::@:: A larger $\lambda$ makes low-norm regions more strongly preferred in the total objective, so the optimizer is pushed closer to the origin unless data fit strongly opposes it. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
+- why ridge usually keeps coefficients nonzero ::@:: Ridge uses a round $L_2$ constraint, so the tangency point is usually on a smooth arc rather than exactly on a coordinate axis. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
 - why LASSO often gives exact zeros ::@:: LASSO uses a diamond-shaped $L_1$ constraint whose corners lie on the axes, so tangency often occurs at a corner where some coefficients are exactly zero.
 - practical consequence of ridge versus LASSO geometry ::@:: Ridge is usually better thought of as smooth shrinkage, whereas LASSO is shrinkage plus built-in feature selection.
 
@@ -499,14 +499,14 @@ For ordinary least squares there is also a useful orthogonality interpretation. 
 Flashcards for this section are as follows:
 
 - mean squared error metric ::@:: The mean squared error is $\mathrm{MSE} = \frac{1}{N}\sum_{i=1}^N (y_i - \hat y_i)^2$, the average squared prediction error over a dataset.
-- why MSE can be used on validation and test sets ::@:: MSE is a dataset-level average error measure, so it can be computed on training, validation, or test data.
+- why MSE can be used on validation and test sets ::@:: MSE is a dataset-level average error measure, so it can be computed on training, validation, or test data. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - RMSE ::@:: The root mean squared error is $\mathrm{RMSE} = \sqrt{\mathrm{MSE}}$, which restores the error to the same unit as the target variable.
 - why RMSE is easier to interpret ::@:: RMSE is often easier to interpret than MSE because its unit matches the original response variable instead of squaring it.
 - $R^2$ score formula ::@:: The coefficient of determination is $R^2 = 1 - \frac{\sum_{i=1}^N (y_i - \hat y_i)^2}{\sum_{i=1}^N (y_i - \bar y)^2}$, where $\bar y$ is the sample mean.
 - meaning of $R^2 = 1$ ::@:: $R^2 = 1$ means the model predicts the targets perfectly, so the residual sum of squares is zero.
 - meaning of $R^2 = 0$ ::@:: $R^2 = 0$ means the model performs no better than the baseline predictor that always outputs the mean target value.
 - why $R^2$ can be negative ::@:: $R^2$ can be negative when the model performs worse than the mean-prediction baseline and therefore has an even larger residual sum of squares.
-- OLS orthogonality interpretation of residuals ::@:: At the least-squares solution the residual vector $e=y-\hat y$ satisfies $X^\top e=0$, so it is orthogonal to every regressor included in the design matrix.
+- OLS orthogonality interpretation of residuals ::@:: At the least-squares solution the residual vector $e=y-\hat y$ satisfies $X^\top e=0$, so it is orthogonal to every regressor included in the design matrix. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 
 ### mse and rmse interpretation
 
@@ -537,10 +537,10 @@ Flashcards for this section are as follows:
 - residual sum of squares and total sum of squares ::@:: In regression, $\mathrm{RSS}=\sum_i (y_i-\hat y_i)^2$ measures unexplained variation and $\mathrm{TSS}=\sum_i (y_i-\bar y)^2$ measures total variation around the mean.
 - explained sum of squares ::@:: The explained sum of squares is $\mathrm{ESS}=\sum_i(\hat y_i-\bar y)^2$, which measures how much variation of the targets around the mean is captured by the fitted values.
 - intuitive reading of $R^2 = 1-\mathrm{RSS}/\mathrm{TSS}$ ::@:: $R^2$ is one minus the unexplained fraction of total target variation, measured relative to the mean-prediction baseline.
-- alternative $R^2$ formula with intercept ::@:: When an intercept is included, OLS gives $\mathrm{TSS}=\mathrm{ESS}+\mathrm{RSS}$, so $R^2 = \mathrm{ESS}/\mathrm{TSS}$ with $\mathrm{ESS}=\sum_i(\hat y_i-\bar y)^2$.
+- alternative $R^2$ formula with intercept ::@:: When an intercept is included, OLS gives $\mathrm{TSS}=\mathrm{ESS}+\mathrm{RSS}$, so $R^2 = \mathrm{ESS}/\mathrm{TSS}$ with $\mathrm{ESS}=\sum_i(\hat y_i-\bar y)^2$. <!--SR:!2026-04-12,4,270!2000-01-01,1,250-->
 - intercept assumption behind the standard $R^2$ formulas ::@:: The usual mean-baseline interpretation of $R^2$ and the decomposition $\mathrm{TSS}=\mathrm{ESS}+\mathrm{RSS}$ assume that the regression model includes an intercept term.
 - relation between OLS residuals and regressors ::@:: OLS residuals are orthogonal to all included regressors because the normal equation gives $X^\top(y-\hat y)=0$, regardless of whether an intercept is present.
-- extra intercept consequence for residuals ::@:: If an intercept column is included in $X$, then $X^\top e=0$ implies the residuals sum to zero.
+- extra intercept consequence for residuals ::@:: If an intercept column is included in $X$, then $X^\top e=0$ implies the residuals sum to zero. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
 
 ## probabilistic formulation of linear regression
 
@@ -560,11 +560,11 @@ Flashcards for this section are as follows:
 
 - Gaussian-noise interpretation $y = w^\top x + \varepsilon$ ::@:: Linear regression can be interpreted probabilistically by assuming $y = w^\top x + \varepsilon$ with Gaussian noise $\varepsilon \sim \mathrm{N}(0,\sigma^2)$.
 - random variable in probabilistic linear regression ::@:: A random variable is a numerical quantity determined by the random data-generating process; in probabilistic linear regression, the response $Y$ is modeled as a random variable conditioned on the input $X$.
-- why add a noise term ::@:: The noise term $\varepsilon$ captures unmodeled effects, measurement error, and other random variation not explained by the chosen features.
-- conditional distribution of $y$ ::@:: Under the Gaussian-noise assumption, the conditional response model is $p(y\mid x,\theta) = \mathrm{N}(y\mid \mu(x),\sigma^2)$ with $\mu(x)=w^\top x$.
+- why add a noise term ::@:: The noise term $\varepsilon$ captures unmodeled effects, measurement error, and other random variation not explained by the chosen features. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
+- conditional distribution of $y$ ::@:: Under the Gaussian-noise assumption, the conditional response model is $p(y\mid x,\theta) = \mathrm{N}(y\mid \mu(x),\sigma^2)$ with $\mu(x)=w^\top x$. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
 - point prediction from the probabilistic model ::@:: The point estimate in probabilistic linear regression is the Gaussian mean $\hat y = \mu(x)=w^\top x$.
-- how random variables are used in the regression model ::@:: The probabilistic model describes the population-level relation between random input $X$ and random output $Y$ by specifying the conditional distribution of $Y$ given $X=x$.
-- probabilistic objective in linear regression ::@:: In probabilistic linear regression, the parameters are chosen to maximize the conditional likelihood of the observed outputs, or equivalently to minimize average negative log-likelihood.
+- how random variables are used in the regression model ::@:: The probabilistic model describes the population-level relation between random input $X$ and random output $Y$ by specifying the conditional distribution of $Y$ given $X=x$. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
+- probabilistic objective in linear regression ::@:: In probabilistic linear regression, the parameters are chosen to maximize the conditional likelihood of the observed outputs, or equivalently to minimize average negative log-likelihood. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 
 ### likelihood objective and maximum likelihood
 
@@ -576,10 +576,10 @@ Minimizing the average negative log-likelihood is the same optimization problem 
 
 Flashcards for this section are as follows:
 
-- likelihood of the regression dataset ::@:: Under conditional independence, the likelihood is $\mathcal{L}(\theta)=\prod_{i=1}^N p(y_i\mid x_i,\theta)$.
+- likelihood of the regression dataset ::@:: Under conditional independence, the likelihood is $\mathcal{L}(\theta)=\prod_{i=1}^N p(y_i\mid x_i,\theta)$. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
 - maximum likelihood in words ::@:: Maximum likelihood chooses the parameters that make the observed outputs most plausible under the assumed probabilistic model.
 - why use log-likelihood ::@:: Log-likelihood turns a product of conditional densities into a sum, which is easier to optimize and analyze.
-- why negative log-likelihood is minimized ::@:: Minimizing negative log-likelihood is equivalent to maximizing likelihood, but it matches the usual loss-minimization language of machine learning.
+- why negative log-likelihood is minimized ::@:: Minimizing negative log-likelihood is equivalent to maximizing likelihood, but it matches the usual loss-minimization language of machine learning. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
 
 ### from Gaussian likelihood to least squares
 
@@ -598,10 +598,10 @@ Seen this way, least squares is not just an arbitrary algebraic criterion. Under
 Flashcards for this section are as follows:
 
 - average Gaussian negative log-likelihood with explicit $1/N$ ::@:: The Gaussian average negative log-likelihood can be written as $\frac{1}{N}\sum_i\Bigl[\frac{1}{2}\log(2\pi\sigma^2)+\frac{(y_i-w^\top x_i)^2}{2\sigma^2}\Bigr]$, which makes the dataset average explicit.
-- interpretation of the inner Gaussian loss terms ::@:: In the per-example Gaussian negative log-likelihood, $\frac{1}{2}\log(2\pi\sigma^2)$ is the normalization term and $\frac{(y_i-w^\top x_i)^2}{2\sigma^2}$ is the scaled squared residual.
+- interpretation of the inner Gaussian loss terms ::@:: In the per-example Gaussian negative log-likelihood, $\frac{1}{2}\log(2\pi\sigma^2)$ is the normalization term and $\frac{(y_i-w^\top x_i)^2}{2\sigma^2}$ is the scaled squared residual. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->
 - why fixed $\sigma$ recovers least squares ::@:: If $\sigma$ is fixed, then $\arg\min_w\bigl[c + a\cdot \frac{1}{N}\sum_i (y_i-w^\top x_i)^2\bigr] = \arg\min_w \frac{1}{N}\sum_i (y_i-w^\top x_i)^2$ for constants $c$ and $a>0$, so Gaussian negative log-likelihood has the same minimizer as MSE.
 - least squares as maximum likelihood ::@:: Under Gaussian output noise, ordinary least squares is the maximum-likelihood estimator for the regression weights.
-- least squares as minimum cross entropy ::@:: The same Gaussian derivation shows that least squares can also be viewed as minimizing cross entropy between the empirical data and the conditional model.
+- least squares as minimum cross entropy ::@:: The same Gaussian derivation shows that least squares can also be viewed as minimizing cross entropy between the empirical data and the conditional model. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - what happens if $\sigma^2$ is also estimated ::@:: If the Gaussian variance is unknown, the same maximum-likelihood framework still gives the ordinary least-squares weights and then sets the variance according to the residual size.
 
 ### deriving least squares from the Gaussian density
@@ -618,10 +618,10 @@ Now the key observation is simple: if $\sigma$ is fixed, then the first term is 
 
 Flashcards for this section are as follows:
 
-- one-sample Gaussian negative log-likelihood ::@:: For one example with Gaussian output noise, $-\log p(y\mid x,\theta)=\frac{1}{2}\log(2\pi\sigma^2)+\frac{(y-w^\top x)^2}{2\sigma^2}$.
+- one-sample Gaussian negative log-likelihood ::@:: For one example with Gaussian output noise, $-\log p(y\mid x,\theta)=\frac{1}{2}\log(2\pi\sigma^2)+\frac{(y-w^\top x)^2}{2\sigma^2}$. <!--SR:!2000-01-01,1,250!2026-04-12,4,284-->
 - dataset Gaussian objective ::@:: Averaging Gaussian negative log-likelihood over the dataset gives $\frac{1}{2}\log(2\pi\sigma^2)+\frac{1}{2N\sigma^2}\sum_{i=1}^N (y_i-w^\top x_i)^2$.
 - why Gaussian likelihood penalizes squared residuals ::@:: In a Gaussian density the exponent is proportional to $-(y-w^\top x)^2$, so larger squared residuals directly reduce likelihood.
-- why the Gaussian derivation is important ::@:: It shows that MSE is not arbitrary; it is the natural objective induced by a Gaussian conditional output model.
+- why the Gaussian derivation is important ::@:: It shows that MSE is not arbitrary; it is the natural objective induced by a Gaussian conditional output model. <!--SR:!2026-04-12,4,270!2000-01-01,1,250-->
 
 ### likelihood derivation and cross entropy
 
@@ -635,4 +635,4 @@ Flashcards for this section are as follows:
 
 - probabilistic training template ::@:: The general template is: specify a conditional probability model, write the negative log-likelihood, and simplify it into the training objective.
 - cross-entropy viewpoint in linear regression ::@:: In Gaussian linear regression, minimizing negative log-likelihood is equivalent to minimizing a cross-entropy objective, which in turn reduces to MSE up to constants and positive scaling.
-- why this derivation matters later ::@:: The probabilistic derivation of linear regression prepares the way for later models such as logistic regression, where changing the output distribution changes the loss function.
+- why this derivation matters later ::@:: The probabilistic derivation of linear regression prepares the way for later models such as logistic regression, where changing the output distribution changes the loss function. <!--SR:!2026-04-12,4,284!2000-01-01,1,250-->

@@ -10,7 +10,7 @@ tags:
 
 ## formal definition
 
-Area can be defined {@{from [axioms](axiom.md)}@}. Area is {@{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability}@}, to {@{the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}@}: (annotation: 6 items: {@{congruence, nonnegativity, rectangle}@}, {@{squeezing, subtraction, union and intersection}@}) <!--SR:!2026-09-30,728,330!2031-06-13,1910,290!2026-07-01,84,347-->
+Area can be defined {@{from [axioms](axiom.md)}@}. Area is {@{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability}@}, to {@{the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}@}: (annotation: 6 items: {@{congruence, nonnegativity, rectangle}@}, {@{squeezing, subtraction, union and intersection}@}) <!--SR:!2026-09-30,728,330!2031-06-13,1910,290!2026-07-01,84,347!2026-04-12,4,325!2026-04-12,4,325-->
 
 - [congruence](congruence%20(geometry).md) ::@:: If a set $S$ in $M$ is congruent (same shape and size) to $T$, then $T$ is in $M$ and $a(T) = a(S)$. <!--SR:!2026-11-19,765,330!2026-07-01,84,347-->
 - nonnegativity ::@:: For all set $S$ in $M$, $a(S) \ge 0$. <!--SR:!2028-02-18,1147,350!2026-07-01,84,347-->

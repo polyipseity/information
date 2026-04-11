@@ -21,10 +21,10 @@ Let $\Omega \neq \emptyset$ and $\mathcal{F} \subseteq \mathcal{P}(\Omega)$ a $\
 
 Flashcards for this section are as follows:
 
-- Kolmogorov axiom (P1) / normalization ::@:: $P[\Omega] = 1$ (normalization). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- Kolmogorov axiom (P2) / $\sigma$-additivity on disjoint events ::@:: For pairwise disjoint $A_j \in \mathcal{F}$, $P[\bigcup_{j=1}^{\infty} A_j] = \sum_{j=1}^{\infty} P[A_j]$ ($\sigma$-additivity). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- probability space / defining triple $(\Omega,\mathcal{F},P)$ ::@:: The triple $(\Omega, \mathcal{F}, P)$: sample space, $\sigma$-algebra of events, and probability measure. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- pairwise disjoint family of events ::@:: Events $A_j$ are pairwise disjoint if $A_j \cap A_k = \emptyset$ for $j \neq k$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Kolmogorov axiom (P1) / normalization ::@:: $P[\Omega] = 1$ (normalization). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-12,4,283-->
+- Kolmogorov axiom (P2) / $\sigma$-additivity on disjoint events ::@:: For pairwise disjoint $A_j \in \mathcal{F}$, $P[\bigcup_{j=1}^{\infty} A_j] = \sum_{j=1}^{\infty} P[A_j]$ ($\sigma$-additivity). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-12,4,283-->
+- probability space / defining triple $(\Omega,\mathcal{F},P)$ ::@:: The triple $(\Omega, \mathcal{F}, P)$: sample space, $\sigma$-algebra of events, and probability measure. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,283!2026-04-12,4,283-->
+- pairwise disjoint family of events ::@:: Events $A_j$ are pairwise disjoint if $A_j \cap A_k = \emptyset$ for $j \neq k$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-12,4,283-->
 
 ## uniform distribution and Laplace space
 
@@ -34,10 +34,10 @@ When $\Omega$ is finite and $\mathcal{F} = \mathcal{P}(\Omega)$, the _uniform di
 
 Flashcards for this section are as follows:
 
-- uniform distribution on a finite sample space ::@:: $P[A] = |A|/|\Omega|$ for $A \subseteq \Omega$; each outcome has probability $1/|\Omega|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- Laplace probability space ::@:: Probability space with finite $\Omega$, $\mathcal{F} = \mathcal{P}(\Omega)$, and uniform $P$; "equally likely outcomes". <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- two-roll fair-die Laplace space ::@:: For two independent rolls of a fair die, $\Omega = \{1,\ldots,6\}^2$, $|\Omega| = 36$, and $P[A] = |A|/36$ under the uniform distribution. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- two-roll fair-die example / probability of at least one 6 ::@:: In the two-roll die experiment, the event $B$ ("at least one 6") has 11 outcomes, so $P[B] = 11/36$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- uniform distribution on a finite sample space ::@:: $P[A] = |A|/|\Omega|$ for $A \subseteq \Omega$; each outcome has probability $1/|\Omega|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,283!2026-04-11,4,270-->
+- Laplace probability space ::@:: Probability space with finite $\Omega$, $\mathcal{F} = \mathcal{P}(\Omega)$, and uniform $P$; "equally likely outcomes". <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-12,4,283-->
+- two-roll fair-die Laplace space ::@:: For two independent rolls of a fair die, $\Omega = \{1,\ldots,6\}^2$, $|\Omega| = 36$, and $P[A] = |A|/36$ under the uniform distribution. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,283!2026-04-11,4,270-->
+- two-roll fair-die example / probability of at least one 6 ::@:: In the two-roll die experiment, the event $B$ ("at least one 6") has 11 outcomes, so $P[B] = 11/36$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,283!2026-04-12,4,283-->
 
 ## elementary properties
 
@@ -59,13 +59,13 @@ For (v), define disjoint sets by $B_1 = A_1$ and $B_n = A_n \setminus \bigcup_{j
 
 Flashcards for this section are as follows:
 
-- probability measure / why $P[\emptyset]=0$ ::@:: $P[\emptyset] = 0$ (from $\sigma$-additivity: $P[\emptyset] = P[\emptyset \cup \emptyset \cup \cdots] = \sum P[\emptyset]$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- probability measure / complement rule ::@:: $P[A^c] = 1 - P[A]$ (since $A \cup A^c = \Omega$ and $A \cap A^c = \emptyset$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- probability measure / monotonicity ::@:: If $A \subseteq B$ then $P[A] \le P[B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- probability measure / monotonicity proof via $B=A\cup(B\setminus A)$ ::@:: From $A \subseteq B$ we write $B = A \cup (B \setminus A)$ as a disjoint union, so $P[B] = P[A] + P[B \setminus A] \ge P[A]$, hence $P[A] \le P[B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- probability measure / inclusion-exclusion for two sets ::@:: $P[A \cup B] = P[A] + P[B] - P[A \cap B]$, proved by writing $B = (A \cap B) \cup (B \setminus A)$ as a disjoint union, using additivity on $A \cup (B \setminus A)$ and on $(A \cap B) \cup (B \setminus A)$, and eliminating $P[B \setminus A]$ between the two equations. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- probability measure / countable subadditivity ::@:: For $A_j \in \mathcal{F}$ define disjoint $B_1=A_1$, $B_n = A_n \setminus \bigcup_{j=1}^{n-1} A_j$; then the $B_j$ are pairwise disjoint, $\bigcup_j A_j = \bigcup_j B_j$, and $B_j \subseteq A_j$, so $\sigma$-additivity gives $P[\bigcup_j A_j] = \sum_j P[B_j] \le \sum_j P[A_j]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- probability-measure proofs / why you look for disjoint decompositions ::@:: In general, the important axiom is $\sigma$-additivity. That means you should try to construct a disjoint family of sets to which you can apply $\sigma$-additivity, and then use the resulting equation(s) to solve for the desired quantity. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / why $P[\emptyset]=0$ ::@:: $P[\emptyset] = 0$ (from $\sigma$-additivity: $P[\emptyset] = P[\emptyset \cup \emptyset \cup \cdots] = \sum P[\emptyset]$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-12,4,283-->
+- probability measure / complement rule ::@:: $P[A^c] = 1 - P[A]$ (since $A \cup A^c = \Omega$ and $A \cap A^c = \emptyset$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- probability measure / monotonicity ::@:: If $A \subseteq B$ then $P[A] \le P[B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,283!2026-04-12,4,283-->
+- probability measure / monotonicity proof via $B=A\cup(B\setminus A)$ ::@:: From $A \subseteq B$ we write $B = A \cup (B \setminus A)$ as a disjoint union, so $P[B] = P[A] + P[B \setminus A] \ge P[A]$, hence $P[A] \le P[B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,283!2026-04-12,4,283-->
+- probability measure / inclusion-exclusion for two sets ::@:: $P[A \cup B] = P[A] + P[B] - P[A \cap B]$, proved by writing $B = (A \cap B) \cup (B \setminus A)$ as a disjoint union, using additivity on $A \cup (B \setminus A)$ and on $(A \cap B) \cup (B \setminus A)$, and eliminating $P[B \setminus A]$ between the two equations. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-12,4,283-->
+- probability measure / countable subadditivity ::@:: For $A_j \in \mathcal{F}$ define disjoint $B_1=A_1$, $B_n = A_n \setminus \bigcup_{j=1}^{n-1} A_j$; then the $B_j$ are pairwise disjoint, $\bigcup_j A_j = \bigcup_j B_j$, and $B_j \subseteq A_j$, so $\sigma$-additivity gives $P[\bigcup_j A_j] = \sum_j P[B_j] \le \sum_j P[A_j]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- probability-measure proofs / why you look for disjoint decompositions ::@:: In general, the important axiom is $\sigma$-additivity. That means you should try to construct a disjoint family of sets to which you can apply $\sigma$-additivity, and then use the resulting equation(s) to solve for the desired quantity. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,283!2026-04-12,4,283-->
 
 ### limit properties (continuity)
 
@@ -75,7 +75,7 @@ With the same probability space $(\Omega, \mathcal{F}, P)$ and events $A_j \in \
 
 Flashcards for this section are as follows:
 
-- probability measure / continuity from below ::@:: If $A_1 \subseteq A_2 \subseteq \cdots$ then $P[\bigcup_j A_j] = \lim_{n \to \infty} P[A_n]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- probability measure / continuity from above ::@:: If $A_1 \supseteq A_2 \supseteq \cdots$ then $P[\bigcap_j A_j] = \lim_{n \to \infty} P[A_n]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- continuity from below / increasing sequence of events ::@:: A sequence $(A_n)$ is increasing if $A_1\subseteq A_2\subseteq\cdots$; then its natural limit event is $\bigcup_{n=1}^{\infty}A_n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- continuity from above / decreasing sequence of events ::@:: A sequence $(A_n)$ is decreasing if $A_1\supseteq A_2\supseteq\cdots$; then its natural limit event is $\bigcap_{n=1}^{\infty}A_n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- probability measure / continuity from below ::@:: If $A_1 \subseteq A_2 \subseteq \cdots$ then $P[\bigcup_j A_j] = \lim_{n \to \infty} P[A_n]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,283!2026-04-12,4,283-->
+- probability measure / continuity from above ::@:: If $A_1 \supseteq A_2 \supseteq \cdots$ then $P[\bigcap_j A_j] = \lim_{n \to \infty} P[A_n]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-12,4,283-->
+- continuity from below / increasing sequence of events ::@:: A sequence $(A_n)$ is increasing if $A_1\subseteq A_2\subseteq\cdots$; then its natural limit event is $\bigcup_{n=1}^{\infty}A_n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,283!2026-04-12,4,283-->
+- continuity from above / decreasing sequence of events ::@:: A sequence $(A_n)$ is decreasing if $A_1\supseteq A_2\supseteq\cdots$; then its natural limit event is $\bigcap_{n=1}^{\infty}A_n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,283!2026-04-12,4,283-->

@@ -20,10 +20,10 @@ It also reframes model selection more carefully. Training error almost always de
 
 Flashcards for this section are as follows:
 
-- overview with formula ::@:: Under squared-error regression, the bias-variance decomposition writes expected prediction error as _noise + squared bias + variance_, separating irreducible randomness from the two error sources controlled by model choice.
-- two main controllable sources ::@:: In the decomposition, bias reflects systematic misspecification and variance reflects sensitivity to the random training set, while the noise term is irreducible.
-- why this decomposition matters for model selection ::@:: This decomposition explains why the best model is not the one with lowest training error, but the one with the best balance between bias and variance.
-- design-guide interpretation ::@:: The decomposition acts as a design guide: high bias suggests more expressive models or weaker regularization, whereas high variance suggests simpler models, stronger regularization, more data, or variance-reduction methods such as bagging.
+- overview with formula ::@:: Under squared-error regression, the bias-variance decomposition writes expected prediction error as _noise + squared bias + variance_, separating irreducible randomness from the two error sources controlled by model choice. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- two main controllable sources ::@:: In the decomposition, bias reflects systematic misspecification and variance reflects sensitivity to the random training set, while the noise term is irreducible. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why this decomposition matters for model selection ::@:: This decomposition explains why the best model is not the one with lowest training error, but the one with the best balance between bias and variance. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- design-guide interpretation ::@:: The decomposition acts as a design guide: high bias suggests more expressive models or weaker regularization, whereas high variance suggests simpler models, stronger regularization, more data, or variance-reduction methods such as bagging. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## bias and variance intuition
 
@@ -39,15 +39,15 @@ These are two descriptions of the same trade-off. High bias means the average le
 
 Flashcards for this section are as follows:
 
-- high bias intuition ::@:: High bias means the learning procedure performs poorly on most training samples because its assumptions are systematically too restrictive or mismatched, so even the average fitted predictor is wrong.
-- high variance intuition ::@:: High variance means the learned model changes too much across different training samples because it is overly sensitive to data fluctuations.
-- underfitting and bias ::@:: Underfitting is typically associated with high bias because the model family is too simple to capture the signal.
-- overfitting and variance ::@:: Overfitting is typically associated with high variance because the model adapts too strongly to accidental quirks in the training sample.
-- low capacity as limited expressive power ::@:: Low model capacity means the hypothesis class has limited expressive power, so even the best-fit predictor may be systematically too simple to match the true signal.
-- high capacity as parameter sensitivity ::@:: High model capacity usually means many adjustable parameters or degrees of freedom, so when data are limited relative to parameter count, small sample noise can move the fitted parameters substantially and create high variance.
-- two complementary views of capacity ::@:: The same bias-variance trade-off can be read as an expressive-power story (what shapes the model class can represent) and as a parameter-sensitivity story (how strongly random data perturb the fitted coefficients).
-- why the trade-off is hard ::@:: Reducing bias often requires a richer model class, but richer models can increase variance.
-- memorable operational wording ::@:: A useful memory cue is: high bias means poor performance on most occasions, while high variance means different performance on different occasions.
+- high bias intuition ::@:: High bias means the learning procedure performs poorly on most training samples because its assumptions are systematically too restrictive or mismatched, so even the average fitted predictor is wrong. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- high variance intuition ::@:: High variance means the learned model changes too much across different training samples because it is overly sensitive to data fluctuations. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- underfitting and bias ::@:: Underfitting is typically associated with high bias because the model family is too simple to capture the signal. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- overfitting and variance ::@:: Overfitting is typically associated with high variance because the model adapts too strongly to accidental quirks in the training sample. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- low capacity as limited expressive power ::@:: Low model capacity means the hypothesis class has limited expressive power, so even the best-fit predictor may be systematically too simple to match the true signal. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- high capacity as parameter sensitivity ::@:: High model capacity usually means many adjustable parameters or degrees of freedom, so when data are limited relative to parameter count, small sample noise can move the fitted parameters substantially and create high variance. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- two complementary views of capacity ::@:: The same bias-variance trade-off can be read as an expressive-power story (what shapes the model class can represent) and as a parameter-sensitivity story (how strongly random data perturb the fitted coefficients). <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why the trade-off is hard ::@:: Reducing bias often requires a richer model class, but richer models can increase variance. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- memorable operational wording ::@:: A useful memory cue is: high bias means poor performance on most occasions, while high variance means different performance on different occasions. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ### random training sets, empirical error, and generalization gap
 
@@ -67,15 +67,15 @@ This point is easy to miss when one trains a model only once. The central object
 
 Flashcards for this section are as follows:
 
-- notation $\mathcal D$ and $S\sim\mathcal D^m$: What do these symbols mean? ::@:: Here $\mathcal D$ is the population distribution over input-target pairs $(X,Y)$, and $S\sim\mathcal D^m$ means the training set $S=\{(x_i,y_i)\}_{i=1}^m$ contains $m$ independent draws from that distribution.
-- learned hypothesis $h_S$ ::@:: The notation $h_S$ means the learned predictor depends on the particular training set $S$ used for learning, so it is a random function when $S$ is random.
-- linear-model meaning of hypothesis notation: In this course, how should one interpret $h(x)$ in a linear-feature model? ::@:: In the linear-feature setting, $h(x)$ is often just shorthand for $h_w(x)=w^\top\phi(x)$ after choosing parameters $w$, and the hypothesis class is $\mathcal H=\{x\mapsto w^\top\phi(x):w\in\mathbb R^d\}$.
-- empirical squared-error notation: For a hypothesis $h$ and training set $S=\{(x_i,y_i)\}_{i=1}^m$, what is $\hat\epsilon_S(h)$? ::@:: The empirical squared error is $\hat\epsilon_S(h)=\frac{1}{m}\sum_{i=1}^m (y_i-h(x_i))^2$, a finite-sample average over the training set.
-- generalization error notation: For a hypothesis $h$, what are $\epsilon(h)$ and $\epsilon(h_S)$? ::@:: The population or generalization error is $\epsilon(h)=\mathbb{E}_{(x,y)\sim\mathcal D}[(y-h(x))^2]$; for the learned predictor this becomes $\epsilon(h_S)$.
-- sample-specific generalization gap notation: For a training set $S$, what is $\operatorname{Gap}(S)$? ::@:: The sample-specific generalization gap is $\operatorname{Gap}(S)=\epsilon(h_S)-\hat\epsilon_S(h_S)$, the amount by which population error exceeds training error for the predictor trained on that same $S$.
-- expected generalization gap notation: What is $\operatorname{Gap}_{\mathrm{exp}}$? ::@:: The expected generalization gap is $\operatorname{Gap}_{\mathrm{exp}}=\mathbb{E}_S[\operatorname{Gap}(S)]=\mathbb{E}_S[\epsilon(h_S)-\hat\epsilon_S(h_S)]$, the average optimism penalty over repeated random training sets.
-- expected-gap identity: How are $\mathbb{E}_S[\epsilon(h_S)]$, $\mathbb{E}_S[\hat\epsilon_S(h_S)]$, and $\operatorname{Gap}_{\mathrm{exp}}$ related? ::@:: They satisfy $\mathbb{E}_S[\epsilon(h_S)] = \mathbb{E}_S[\hat\epsilon_S(h_S)] + \operatorname{Gap}_{\mathrm{exp}}$, so expected test error equals expected training error plus expected generalization gap.
-- why $\epsilon(h_S)$ is random ::@:: Generalization error is random because the fitted predictor $h_S$ depends on the random training set.
+- notation $\mathcal D$ and $S\sim\mathcal D^m$: What do these symbols mean? ::@:: Here $\mathcal D$ is the population distribution over input-target pairs $(X,Y)$, and $S\sim\mathcal D^m$ means the training set $S=\{(x_i,y_i)\}_{i=1}^m$ contains $m$ independent draws from that distribution. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- learned hypothesis $h_S$ ::@:: The notation $h_S$ means the learned predictor depends on the particular training set $S$ used for learning, so it is a random function when $S$ is random. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- linear-model meaning of hypothesis notation: In this course, how should one interpret $h(x)$ in a linear-feature model? ::@:: In the linear-feature setting, $h(x)$ is often just shorthand for $h_w(x)=w^\top\phi(x)$ after choosing parameters $w$, and the hypothesis class is $\mathcal H=\{x\mapsto w^\top\phi(x):w\in\mathbb R^d\}$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- empirical squared-error notation: For a hypothesis $h$ and training set $S=\{(x_i,y_i)\}_{i=1}^m$, what is $\hat\epsilon_S(h)$? ::@:: The empirical squared error is $\hat\epsilon_S(h)=\frac{1}{m}\sum_{i=1}^m (y_i-h(x_i))^2$, a finite-sample average over the training set. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- generalization error notation: For a hypothesis $h$, what are $\epsilon(h)$ and $\epsilon(h_S)$? ::@:: The population or generalization error is $\epsilon(h)=\mathbb{E}_{(x,y)\sim\mathcal D}[(y-h(x))^2]$; for the learned predictor this becomes $\epsilon(h_S)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- sample-specific generalization gap notation: For a training set $S$, what is $\operatorname{Gap}(S)$? ::@:: The sample-specific generalization gap is $\operatorname{Gap}(S)=\epsilon(h_S)-\hat\epsilon_S(h_S)$, the amount by which population error exceeds training error for the predictor trained on that same $S$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- expected generalization gap notation: What is $\operatorname{Gap}_{\mathrm{exp}}$? ::@:: The expected generalization gap is $\operatorname{Gap}_{\mathrm{exp}}=\mathbb{E}_S[\operatorname{Gap}(S)]=\mathbb{E}_S[\epsilon(h_S)-\hat\epsilon_S(h_S)]$, the average optimism penalty over repeated random training sets. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- expected-gap identity: How are $\mathbb{E}_S[\epsilon(h_S)]$, $\mathbb{E}_S[\hat\epsilon_S(h_S)]$, and $\operatorname{Gap}_{\mathrm{exp}}$ related? ::@:: They satisfy $\mathbb{E}_S[\epsilon(h_S)] = \mathbb{E}_S[\hat\epsilon_S(h_S)] + \operatorname{Gap}_{\mathrm{exp}}$, so expected test error equals expected training error plus expected generalization gap. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why $\epsilon(h_S)$ is random ::@:: Generalization error is random because the fitted predictor $h_S$ depends on the random training set. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## decomposition of expected squared error
 
@@ -97,15 +97,15 @@ This formula has a complete interpretation. The noise term is the irreducible un
 
 Flashcards for this section are as follows:
 
-- average predictor $\bar h(x)$: What is it? ::@:: The average predictor is $\bar h(x)=\mathbb{E}_S[h_S(x)]$, the mean prediction obtained by averaging the learned predictor over all possible training sets.
-- target mean function $f^*(x)$: What is it? ::@:: The target mean function is $f^*(x)=\mathbb{E}[Y\mid X=x]$, the regression function that gives the conditional mean target at input $x$.
-- expected test error over random training sets: What quantity is decomposed when $\epsilon=\mathbb{E}_S\mathbb{E}_{(X,Y)\sim\mathcal D}[(Y-h_S(X))^2]$? ::@:: The decomposition studies $\epsilon=\mathbb{E}_S\mathbb{E}_{(X,Y)\sim\mathcal D}[(Y-h_S(X))^2]$, meaning average test error over both training-set randomness and a fresh test example.
-- full pointwise bias-variance-noise decomposition: For fixed input $x$, what is $\mathbb{E}_{S,Y\mid x}[(Y-h_S(x))^2]$? ::@:: For fixed input $x$, the expected squared error is $\mathbb{E}_{S,Y\mid x}[(Y-h_S(x))^2]=\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]+(\bar h(x)-f^*(x))^2+\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$, i.e. noise + squared bias + variance.
-- full interpretation of the decomposition: Interpret $\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]$, $(\bar h(x)-f^*(x))^2$, and $\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$ ::@:: In the decomposition, $\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]=\operatorname{Var}(Y\mid X=x)$ is irreducible noise, $(\bar h(x)-f^*(x))^2$ is squared bias of the average learner, and $\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$ is variance across training sets; only bias and variance are directly controlled by model choice.
-- squared bias term $(\bar h(x)-f^*(x))^2$: What does it measure? ::@:: The squared bias at input $x$ is $(\bar h(x)-f^*(x))^2$, the squared distance between the average learned predictor and the true regression function.
-- variance term $\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$: What does it measure? ::@:: The variance term is $\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$, which measures how much the learned predictor fluctuates across training sets.
-- irreducible noise term $\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]=\operatorname{Var}(Y\mid X=x)$ ::@:: This noise term is randomness already present in the target given the input, so it cannot be removed even by an ideal learner.
-- why training error can mislead ::@:: A model can have low training error yet poor generalization if the variance term is large.
+- average predictor $\bar h(x)$: What is it? ::@:: The average predictor is $\bar h(x)=\mathbb{E}_S[h_S(x)]$, the mean prediction obtained by averaging the learned predictor over all possible training sets. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- target mean function $f^*(x)$: What is it? ::@:: The target mean function is $f^*(x)=\mathbb{E}[Y\mid X=x]$, the regression function that gives the conditional mean target at input $x$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- expected test error over random training sets: What quantity is decomposed when $\epsilon=\mathbb{E}_S\mathbb{E}_{(X,Y)\sim\mathcal D}[(Y-h_S(X))^2]$? ::@:: The decomposition studies $\epsilon=\mathbb{E}_S\mathbb{E}_{(X,Y)\sim\mathcal D}[(Y-h_S(X))^2]$, meaning average test error over both training-set randomness and a fresh test example. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- full pointwise bias-variance-noise decomposition: For fixed input $x$, what is $\mathbb{E}_{S,Y\mid x}[(Y-h_S(x))^2]$? ::@:: For fixed input $x$, the expected squared error is $\mathbb{E}_{S,Y\mid x}[(Y-h_S(x))^2]=\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]+(\bar h(x)-f^*(x))^2+\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$, i.e. noise + squared bias + variance. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- full interpretation of the decomposition: Interpret $\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]$, $(\bar h(x)-f^*(x))^2$, and $\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$ ::@:: In the decomposition, $\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]=\operatorname{Var}(Y\mid X=x)$ is irreducible noise, $(\bar h(x)-f^*(x))^2$ is squared bias of the average learner, and $\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$ is variance across training sets; only bias and variance are directly controlled by model choice. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- squared bias term $(\bar h(x)-f^*(x))^2$: What does it measure? ::@:: The squared bias at input $x$ is $(\bar h(x)-f^*(x))^2$, the squared distance between the average learned predictor and the true regression function. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- variance term $\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$: What does it measure? ::@:: The variance term is $\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$, which measures how much the learned predictor fluctuates across training sets. <!--SR:!2026-04-12,4,270!2026-04-11,3,250-->
+- irreducible noise term $\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]=\operatorname{Var}(Y\mid X=x)$ ::@:: This noise term is randomness already present in the target given the input, so it cannot be removed even by an ideal learner. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why training error can mislead ::@:: A model can have low training error yet poor generalization if the variance term is large. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ### algebra of the decomposition
 
@@ -121,12 +121,12 @@ Substituting back gives $\operatorname{Err}(x)=\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2
 
 Flashcards for this section are as follows:
 
-- algebra roadmap at fixed $x$: If $A(x)=\mathbb{E}_{Y\mid x}[(Y-\bar h(x))^2]$, $V(x)=\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$, and $C_1(x)=\mathbb{E}_{S,Y\mid x}[(Y-\bar h(x))(\bar h(x)-h_S(x))]$, how does $\operatorname{Err}(x)=\mathbb{E}_{S,Y\mid x}[(Y-h_S(x))^2]$ expand? ::@:: The first expansion is $\operatorname{Err}(x)=A(x)+2C_1(x)+V(x)$, obtained by adding and subtracting $\bar h(x)$ inside $Y-h_S(x)$.
-- first cross-term cancellation in three steps: Why is $C_1(x)=0$? ::@:: Because $h_S(x)$ depends on $S$ but not on fresh $Y\mid X=x$, one gets $C_1(x)=\mathbb{E}_S[(\bar h(x)-h_S(x))\mathbb{E}_{Y\mid x}[Y-\bar h(x)]]=(f^*(x)-\bar h(x))\mathbb{E}_S[\bar h(x)-h_S(x)]$, and $\mathbb{E}_S[\bar h(x)-h_S(x)]=\bar h(x)-\mathbb{E}_S[h_S(x)]=0$.
-- second centering definition: If $C_2(x)=\mathbb{E}_{Y\mid x}[(Y-f^*(x))(f^*(x)-\bar h(x))]$, how does $A(x)=\mathbb{E}_{Y\mid x}[(Y-\bar h(x))^2]$ expand? ::@:: The second expansion is $A(x)=\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]+2C_2(x)+(f^*(x)-\bar h(x))^2$.
-- second cross-term cancellation: Why is $C_2(x)=0$? ::@:: Since $f^*(x)-\bar h(x)$ is constant with respect to $Y$, one has $C_2(x)=(f^*(x)-\bar h(x))\mathbb{E}_{Y\mid x}[Y-f^*(x)]$, and $\mathbb{E}_{Y\mid x}[Y-f^*(x)]=0$ by definition of $f^*(x)=\mathbb{E}[Y\mid X=x]$.
-- final pointwise decomposition from the two cancellations: What is $\operatorname{Err}(x)$ after using $C_1(x)=C_2(x)=0$? ::@:: One gets $\operatorname{Err}(x)=\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]+(\bar h(x)-f^*(x))^2+\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$, i.e. noise + squared bias + variance.
-- double-centering intuition with explicit setup: In deriving $\operatorname{Err}(x)=\mathbb{E}_{S,Y\mid x}[(Y-h_S(x))^2]$ using centers $\bar h(x)=\mathbb{E}_S[h_S(x)]$ and $f^*(x)=\mathbb{E}[Y\mid X=x]$, why do both cross terms vanish? ::@:: The proof works by centering once around $\bar h(x)$ to isolate learner fluctuations and once around $f^*(x)$ to isolate target noise; each cross term then vanishes because centered terms have zero mean.
+- algebra roadmap at fixed $x$: If $A(x)=\mathbb{E}_{Y\mid x}[(Y-\bar h(x))^2]$, $V(x)=\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$, and $C_1(x)=\mathbb{E}_{S,Y\mid x}[(Y-\bar h(x))(\bar h(x)-h_S(x))]$, how does $\operatorname{Err}(x)=\mathbb{E}_{S,Y\mid x}[(Y-h_S(x))^2]$ expand? ::@:: The first expansion is $\operatorname{Err}(x)=A(x)+2C_1(x)+V(x)$, obtained by adding and subtracting $\bar h(x)$ inside $Y-h_S(x)$. <!--SR:!2026-04-12,4,270!2026-04-11,3,250-->
+- first cross-term cancellation in three steps: Why is $C_1(x)=0$? ::@:: Because $h_S(x)$ depends on $S$ but not on fresh $Y\mid X=x$, one gets $C_1(x)=\mathbb{E}_S[(\bar h(x)-h_S(x))\mathbb{E}_{Y\mid x}[Y-\bar h(x)]]=(f^*(x)-\bar h(x))\mathbb{E}_S[\bar h(x)-h_S(x)]$, and $\mathbb{E}_S[\bar h(x)-h_S(x)]=\bar h(x)-\mathbb{E}_S[h_S(x)]=0$. <!--SR:!2026-04-09,1,230!2026-04-12,4,270-->
+- second centering definition: If $C_2(x)=\mathbb{E}_{Y\mid x}[(Y-f^*(x))(f^*(x)-\bar h(x))]$, how does $A(x)=\mathbb{E}_{Y\mid x}[(Y-\bar h(x))^2]$ expand? ::@:: The second expansion is $A(x)=\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]+2C_2(x)+(f^*(x)-\bar h(x))^2$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- second cross-term cancellation: Why is $C_2(x)=0$? ::@:: Since $f^*(x)-\bar h(x)$ is constant with respect to $Y$, one has $C_2(x)=(f^*(x)-\bar h(x))\mathbb{E}_{Y\mid x}[Y-f^*(x)]$, and $\mathbb{E}_{Y\mid x}[Y-f^*(x)]=0$ by definition of $f^*(x)=\mathbb{E}[Y\mid X=x]$. <!--SR:!2026-04-11,3,250!2026-04-11,3,250-->
+- final pointwise decomposition from the two cancellations: What is $\operatorname{Err}(x)$ after using $C_1(x)=C_2(x)=0$? ::@:: One gets $\operatorname{Err}(x)=\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]+(\bar h(x)-f^*(x))^2+\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$, i.e. noise + squared bias + variance. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- double-centering intuition with explicit setup: In deriving $\operatorname{Err}(x)=\mathbb{E}_{S,Y\mid x}[(Y-h_S(x))^2]$ using centers $\bar h(x)=\mathbb{E}_S[h_S(x)]$ and $f^*(x)=\mathbb{E}[Y\mid X=x]$, why do both cross terms vanish? ::@:: The proof works by centering once around $\bar h(x)$ to isolate learner fluctuations and once around $f^*(x)$ to isolate target noise; each cross term then vanishes because centered terms have zero mean. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ### two-term view and refined three-term view
 
@@ -146,13 +146,13 @@ In words, the coarse two-term decomposition says: _expected generalization error
 
 Flashcards for this section are as follows:
 
-- notation map for the two views: If $T(x)=\mathbb{E}_{Y\mid x}[(Y-\bar h(x))^2]$, $N(x)=\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]$, $B^2(x)=(\bar h(x)-f^*(x))^2$, and $V(x)=\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$, what are the two equivalent pointwise decompositions of $\operatorname{Err}(x)$? ::@:: They are $\operatorname{Err}(x)=T(x)+V(x)$ (coarse two-term) and $\operatorname{Err}(x)=N(x)+B^2(x)+V(x)$ (refined three-term).
-- exact bridge identity between the two views: How are $T(x)$, $N(x)$, and $B^2(x)$ related? ::@:: The bridge is $T(x)=N(x)+B^2(x)$, i.e. target-side error around $\bar h(x)$ equals irreducible noise plus squared bias.
-- global two-term decomposition with named pieces: Using $T(X)$ and $V(X)$, what is $\mathbb{E}_{X,S,Y}[(Y-h_S(X))^2]$? ::@:: The coarse global view is $\mathbb{E}_{X,S,Y}[(Y-h_S(X))^2]=\mathbb{E}_X[T(X)]+\mathbb{E}_X[V(X)]$.
-- global refined decomposition with named pieces: Using $N(X)$, $B^2(X)$, and $V(X)$, what is $\mathbb{E}_{X,S,Y}[(Y-h_S(X))^2]$? ::@:: The refined global view is $\mathbb{E}_{X,S,Y}[(Y-h_S(X))^2]=\mathbb{E}_X[N(X)]+\mathbb{E}_X[B^2(X)]+\mathbb{E}_X[V(X)]$.
-- expected generalization error in words from the two-term view ::@:: In words, the coarse two-term view says expected generalization error equals target-side error around the average learner plus variance from training-set randomness.
-- expected generalization error in words from the refined three-term view ::@:: In words, the refined three-term view says expected generalization error equals irreducible noise plus squared bias plus variance.
-- when to use two-term versus refined three-term view ::@:: Use the two-term view for a quick summary of target-side error versus learner instability; use the refined three-term view when you need to separate irreducible noise from controllable squared bias.
+- notation map for the two views: If $T(x)=\mathbb{E}_{Y\mid x}[(Y-\bar h(x))^2]$, $N(x)=\mathbb{E}_{Y\mid x}[(Y-f^*(x))^2]$, $B^2(x)=(\bar h(x)-f^*(x))^2$, and $V(x)=\mathbb{E}_S[(h_S(x)-\bar h(x))^2]$, what are the two equivalent pointwise decompositions of $\operatorname{Err}(x)$? ::@:: They are $\operatorname{Err}(x)=T(x)+V(x)$ (coarse two-term) and $\operatorname{Err}(x)=N(x)+B^2(x)+V(x)$ (refined three-term). <!--SR:!2026-04-08,1,230!2026-04-12,4,270-->
+- exact bridge identity between the two views: How are $T(x)$, $N(x)$, and $B^2(x)$ related? ::@:: The bridge is $T(x)=N(x)+B^2(x)$, i.e. target-side error around $\bar h(x)$ equals irreducible noise plus squared bias. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- global two-term decomposition with named pieces: Using $T(X)$ and $V(X)$, what is $\mathbb{E}_{X,S,Y}[(Y-h_S(X))^2]$? ::@:: The coarse global view is $\mathbb{E}_{X,S,Y}[(Y-h_S(X))^2]=\mathbb{E}_X[T(X)]+\mathbb{E}_X[V(X)]$. <!--SR:!2026-04-11,3,250!2026-04-11,3,250-->
+- global refined decomposition with named pieces: Using $N(X)$, $B^2(X)$, and $V(X)$, what is $\mathbb{E}_{X,S,Y}[(Y-h_S(X))^2]$? ::@:: The refined global view is $\mathbb{E}_{X,S,Y}[(Y-h_S(X))^2]=\mathbb{E}_X[N(X)]+\mathbb{E}_X[B^2(X)]+\mathbb{E}_X[V(X)]$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- expected generalization error in words from the two-term view ::@:: In words, the coarse two-term view says expected generalization error equals target-side error around the average learner plus variance from training-set randomness. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- expected generalization error in words from the refined three-term view ::@:: In words, the refined three-term view says expected generalization error equals irreducible noise plus squared bias plus variance. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- when to use two-term versus refined three-term view ::@:: Use the two-term view for a quick summary of target-side error versus learner instability; use the refined three-term view when you need to separate irreducible noise from controllable squared bias. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## illustrations with model capacity
 
@@ -170,13 +170,13 @@ An intermediate choice such as $d=3$ gives the best compromise in the classic pi
 
 Flashcards for this section are as follows:
 
-- polynomial illustration of bias and variance ::@:: In the polynomial-regression picture, low-degree models show high bias and low variance, while high-degree models show low bias and high variance.
-- model capacity and parameter count: In one-variable polynomial regression, how many coefficients does a degree-$d$ model have? ::@:: A degree-$d$ model has $d+1$ coefficients, so increasing model capacity also increases the number of adjustable parameters.
-- low capacity versus high capacity intuition ::@:: Low capacity means limited expressive power and relatively few parameters, so the model is stable but can be systematically wrong; high capacity means rich expressive power and many parameters, so the model can match the signal better but also becomes more sensitive to sample noise.
-- why parameter count relative to data matters ::@:: When parameter count is large relative to data size, many coefficient settings can fit the sample well, so random noise can move the fitted parameters strongly and produce high variance.
-- why test error is U-shaped ::@:: As model capacity increases, bias typically falls while variance rises, so generalization error often first decreases and then increases.
-- best capacity choice ::@:: The best model complexity is the one that minimizes expected generalization error, not necessarily the one that minimizes training error.
-- role of random noise in overfitting ::@:: A high-variance model can start fitting random noise in the sampled targets instead of the underlying signal.
+- polynomial illustration of bias and variance ::@:: In the polynomial-regression picture, low-degree models show high bias and low variance, while high-degree models show low bias and high variance. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- model capacity and parameter count: In one-variable polynomial regression, how many coefficients does a degree-$d$ model have? ::@:: A degree-$d$ model has $d+1$ coefficients, so increasing model capacity also increases the number of adjustable parameters. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- low capacity versus high capacity intuition ::@:: Low capacity means limited expressive power and relatively few parameters, so the model is stable but can be systematically wrong; high capacity means rich expressive power and many parameters, so the model can match the signal better but also becomes more sensitive to sample noise. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why parameter count relative to data matters ::@:: When parameter count is large relative to data size, many coefficient settings can fit the sample well, so random noise can move the fitted parameters strongly and produce high variance. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why test error is U-shaped ::@:: As model capacity increases, bias typically falls while variance rises, so generalization error often first decreases and then increases. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- best capacity choice ::@:: The best model complexity is the one that minimizes expected generalization error, not necessarily the one that minimizes training error. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- role of random noise in overfitting ::@:: A high-variance model can start fitting random noise in the sampled targets instead of the underlying signal. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ### low-degree, high-degree, and intermediate fits
 
@@ -192,12 +192,12 @@ This section is also a good place to connect the pictures back to the decomposit
 
 Flashcards for this section are as follows:
 
-- low-degree picture ::@:: In the low-degree case, the fitted models look similar across datasets, which means low variance, but their average remains far from the true function, which means high bias.
-- high-degree picture ::@:: In the high-degree case, the fitted models vary sharply across datasets, which means high variance, even though their average can track the true function fairly well.
-- intermediate-capacity picture ::@:: An intermediate-capacity model can achieve low generalization error by keeping both bias and variance at moderate levels.
-- stable but wrong ::@:: A high-bias method is often stable across training sets yet systematically misses the true pattern.
-- expressive but unstable ::@:: A high-variance method can represent the target well on average but fluctuate too much from one sampled dataset to another because its many adjustable parameters react strongly to sample noise.
-- which term dominates in each regime ::@:: In low-capacity regimes the squared-bias term usually dominates, in high-capacity regimes the variance term usually dominates, and intermediate capacity is where neither dominates too strongly.
+- low-degree picture ::@:: In the low-degree case, the fitted models look similar across datasets, which means low variance, but their average remains far from the true function, which means high bias. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- high-degree picture ::@:: In the high-degree case, the fitted models vary sharply across datasets, which means high variance, even though their average can track the true function fairly well. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- intermediate-capacity picture ::@:: An intermediate-capacity model can achieve low generalization error by keeping both bias and variance at moderate levels. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- stable but wrong ::@:: A high-bias method is often stable across training sets yet systematically misses the true pattern. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- expressive but unstable ::@:: A high-variance method can represent the target well on average but fluctuate too much from one sampled dataset to another because its many adjustable parameters react strongly to sample noise. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- which term dominates in each regime ::@:: In low-capacity regimes the squared-bias term usually dominates, in high-capacity regimes the variance term usually dominates, and intermediate capacity is where neither dominates too strongly. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ### graph intuition: training error, validation error, and generalization gap
 
@@ -215,13 +215,13 @@ Another common graphic shows many fitted curves from repeated resampling. A low-
 
 Flashcards for this section are as follows:
 
-- what the axes mean in the capacity graph ::@:: In the standard capacity graph, the horizontal axis is model complexity or capacity and the vertical axis is an error quantity such as training, validation, or test error.
-- training-error curve in the capacity graph ::@:: In a model-capacity graph, training error usually decreases as capacity increases because a richer hypothesis class can fit the observed sample at least as well as a simpler one.
-- why the validation/test curve is U-shaped ::@:: Validation or test error is often high at low capacity because of underfitting, lowest at intermediate capacity where bias and variance are balanced, and high again at large capacity because of overfitting.
-- generalization-gap graph intuition ::@:: The generalization gap is the vertical difference between training and validation/test curves at the same capacity; it is often small at low capacity and larger at high capacity because high-capacity models fit training data more aggressively than new data.
-- sample gap vs expected gap in graphs: If $\operatorname{Gap}(S)=\epsilon(h_S)-\hat\epsilon_S(h_S)$ and $\operatorname{Gap}_{\mathrm{exp}}=\mathbb{E}_S[\operatorname{Gap}(S)]$, how should a validation-curve gap be interpreted? ::@:: In one train/validation split, the plotted vertical distance estimates the sample-specific gap $\operatorname{Gap}(S)$; averaging that distance over repeated random splits estimates the expected generalization gap $\operatorname{Gap}_{\mathrm{exp}}$.
-- repeated-fit graph intuition ::@:: In repeated-fit graphs, low capacity appears as many similar but systematically wrong curves, high capacity appears as widely scattered curves, and intermediate capacity appears as moderate spread around the true trend.
-- how the two graph types correspond ::@:: The repeated-fit panels show bias and variance directly through average position and spread of fitted curves, while the training/validation graph shows the same trade-off indirectly through the U-shaped validation curve and widening generalization gap.
+- what the axes mean in the capacity graph ::@:: In the standard capacity graph, the horizontal axis is model complexity or capacity and the vertical axis is an error quantity such as training, validation, or test error. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- training-error curve in the capacity graph ::@:: In a model-capacity graph, training error usually decreases as capacity increases because a richer hypothesis class can fit the observed sample at least as well as a simpler one. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why the validation/test curve is U-shaped ::@:: Validation or test error is often high at low capacity because of underfitting, lowest at intermediate capacity where bias and variance are balanced, and high again at large capacity because of overfitting. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- generalization-gap graph intuition ::@:: The generalization gap is the vertical difference between training and validation/test curves at the same capacity; it is often small at low capacity and larger at high capacity because high-capacity models fit training data more aggressively than new data. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- sample gap vs expected gap in graphs: If $\operatorname{Gap}(S)=\epsilon(h_S)-\hat\epsilon_S(h_S)$ and $\operatorname{Gap}_{\mathrm{exp}}=\mathbb{E}_S[\operatorname{Gap}(S)]$, how should a validation-curve gap be interpreted? ::@:: In one train/validation split, the plotted vertical distance estimates the sample-specific gap $\operatorname{Gap}(S)$; averaging that distance over repeated random splits estimates the expected generalization gap $\operatorname{Gap}_{\mathrm{exp}}$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- repeated-fit graph intuition ::@:: In repeated-fit graphs, low capacity appears as many similar but systematically wrong curves, high capacity appears as widely scattered curves, and intermediate capacity appears as moderate spread around the true trend. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- how the two graph types correspond ::@:: The repeated-fit panels show bias and variance directly through average position and spread of fitted curves, while the training/validation graph shows the same trade-off indirectly through the U-shaped validation curve and widening generalization gap. <!--SR:!2026-04-12,4,270!2026-04-11,3,250-->
 
 ### regularization, cross-validation, and sample size
 
@@ -241,15 +241,15 @@ These three tools affect the decomposition in different ways. Cross-validation d
 
 Flashcards for this section are as follows:
 
-- why cross-validation helps with bias-variance trade-off ::@:: Cross-validation helps select model complexity or regularization strength by estimating expected generalization performance on held-out data rather than relying on training error.
-- regularization effect on bias and variance: What does increasing $\lambda$ in a penalty such as training loss $+\lambda\|w\|_2^2$ usually do? ::@:: Regularization usually increases bias somewhat but decreases variance, which can improve generalization when variance was the bigger problem.
-- danger of over-regularization ::@:: Too much regularization can raise bias so much that the model underfits and generalization worsens.
-- effect of more data on variance ::@:: Increasing sample size usually reduces variance because the learned model fluctuates less across different sampled training sets.
-- effect of more data on bias versus variance: For a fixed model class and learning rule, what usually changes when sample size increases? ::@:: For a fixed model class and the same learning procedure, increasing sample size usually reduces variance because the fitted model becomes more stable across resampled datasets, while bias remains roughly constant because the learner's structural assumptions have not changed.
-- more-data graph intuition ::@:: More data often narrows the generalization gap because each noisy sample point has less influence on the fitted parameters.
-- more-data effect on training error, generalization error, and gap ::@:: As sample size increases, training error often rises slightly because the model must fit a larger and more representative sample, expected generalization error often decreases because the learner becomes more stable, and the generalization gap shrinks because training performance becomes a more honest reflection of future performance.
-- interpretation of the whole more-data picture ::@:: More data usually make the learner less able to memorize quirks of one sample and more able to capture repeatable structure, so training fit may look a bit worse while future performance improves and the train-test gap narrows.
-- what cross-validation does and does not do ::@:: Cross-validation does not itself change bias or variance; it estimates which model complexity or regularization strength gives the best expected trade-off on held-out data.
+- why cross-validation helps with bias-variance trade-off ::@:: Cross-validation helps select model complexity or regularization strength by estimating expected generalization performance on held-out data rather than relying on training error. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- regularization effect on bias and variance: What does increasing $\lambda$ in a penalty such as training loss $+\lambda\|w\|_2^2$ usually do? ::@:: Regularization usually increases bias somewhat but decreases variance, which can improve generalization when variance was the bigger problem. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- danger of over-regularization ::@:: Too much regularization can raise bias so much that the model underfits and generalization worsens. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- effect of more data on variance ::@:: Increasing sample size usually reduces variance because the learned model fluctuates less across different sampled training sets. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- effect of more data on bias versus variance: For a fixed model class and learning rule, what usually changes when sample size increases? ::@:: For a fixed model class and the same learning procedure, increasing sample size usually reduces variance because the fitted model becomes more stable across resampled datasets, while bias remains roughly constant because the learner's structural assumptions have not changed. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- more-data graph intuition ::@:: More data often narrows the generalization gap because each noisy sample point has less influence on the fitted parameters. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- more-data effect on training error, generalization error, and gap ::@:: As sample size increases, training error often rises slightly because the model must fit a larger and more representative sample, expected generalization error often decreases because the learner becomes more stable, and the generalization gap shrinks because training performance becomes a more honest reflection of future performance. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- interpretation of the whole more-data picture ::@:: More data usually make the learner less able to memorize quirks of one sample and more able to capture repeatable structure, so training fit may look a bit worse while future performance improves and the train-test gap narrows. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- what cross-validation does and does not do ::@:: Cross-validation does not itself change bias or variance; it estimates which model complexity or regularization strength gives the best expected trade-off on held-out data. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 <!-- check: ignore-next-line[header_style]: PAC is a standard acronym -->
 ### PAC learning viewpoint
@@ -266,10 +266,10 @@ PAC theory is also more guarantee-oriented than decomposition-oriented. The deco
 
 Flashcards for this section are as follows:
 
-- PAC meaning: What does PAC stand for? ::@:: PAC stands for _probably approximately correct_.
-- PAC interpretation with $\epsilon$ and $\delta$: What do "approximately correct" and "probably" mean in PAC learning? ::@:: "Approximately correct" means the learned hypothesis has generalization error at most $\epsilon$, and "probably" means this happens with probability at least $1-\delta$ once the sample size is large enough.
-- PAC learning relation to bias-variance decomposition ::@:: Bias-variance decomposition explains why generalization error arises and what components dominate, whereas PAC learning gives finite-sample, worst-case-style guarantees about when a learner will probably generalize well.
-- model capacity in PAC versus bias-variance language ::@:: In bias-variance language, high capacity can raise variance; in PAC language, a richer hypothesis class usually requires more samples to guarantee small generalization error.
+- PAC meaning: What does PAC stand for? ::@:: PAC stands for _probably approximately correct_. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- PAC interpretation with $\epsilon$ and $\delta$: What do "approximately correct" and "probably" mean in PAC learning? ::@:: "Approximately correct" means the learned hypothesis has generalization error at most $\epsilon$, and "probably" means this happens with probability at least $1-\delta$ once the sample size is large enough. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- PAC learning relation to bias-variance decomposition ::@:: Bias-variance decomposition explains why generalization error arises and what components dominate, whereas PAC learning gives finite-sample, worst-case-style guarantees about when a learner will probably generalize well. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- model capacity in PAC versus bias-variance language ::@:: In bias-variance language, high capacity can raise variance; in PAC language, a richer hypothesis class usually requires more samples to guarantee small generalization error. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ### modern scaling-law remark
 
@@ -285,10 +285,10 @@ This is closely related to the ideas in this note. Increasing model size can red
 
 Flashcards for this section are as follows:
 
-- LLM scaling-law claim: Is it broadly true that larger language models improve with more parameters, more data, and more compute? ::@:: Broadly yes as an empirical scaling-law statement: language-model loss often improves approximately as a power law with model size, dataset size, and total training compute over wide regimes.
-- GPU power versus compute in scaling-law language ::@:: The more precise variable is total training compute rather than GPU power itself; GPUs matter because they provide the hardware needed to realize a larger compute budget or shorter wall-clock time.
-- Chinchilla-style correction to naive scaling intuition ::@:: Scaling is not just "make the model larger": under a fixed compute budget, model size and number of training tokens must be balanced, and overly large models can be undertrained if data do not scale with them.
-- relation between LLM scaling laws and bias-variance ideas ::@:: Larger models can reduce bias by increasing expressiveness, more data can reduce variance and improve generalization, and more compute supports larger effective training budgets; but the best capacity remains situation-dependent rather than universally maximal.
+- LLM scaling-law claim: Is it broadly true that larger language models improve with more parameters, more data, and more compute? ::@:: Broadly yes as an empirical scaling-law statement: language-model loss often improves approximately as a power law with model size, dataset size, and total training compute over wide regimes. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- GPU power versus compute in scaling-law language ::@:: The more precise variable is total training compute rather than GPU power itself; GPUs matter because they provide the hardware needed to realize a larger compute budget or shorter wall-clock time. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Chinchilla-style correction to naive scaling intuition ::@:: Scaling is not just "make the model larger": under a fixed compute budget, model size and number of training tokens must be balanced, and overly large models can be undertrained if data do not scale with them. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- relation between LLM scaling laws and bias-variance ideas ::@:: Larger models can reduce bias by increasing expressiveness, more data can reduce variance and improve generalization, and more compute supports larger effective training budgets; but the best capacity remains situation-dependent rather than universally maximal. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ### classification remark
 
@@ -304,11 +304,11 @@ So the key clarification is: in regression, the decomposition is about squared p
 
 Flashcards for this section are as follows:
 
-- why the classical derivation lives in regression rather than zero-one classification ::@:: The standard derivation works in regression because squared loss is quadratic, so centering produces cross terms that can cancel; zero-one classification loss uses an indicator after thresholding or argmax, so the same algebraic expansion does not go through.
-- threshold intuition for why zero-one loss resists the same decomposition ::@:: In classification, small changes in predicted probability can flip the hard class label near a decision boundary, so zero-one loss changes discontinuously even when squared probability error changes only slightly.
-- probabilistic classification analogue: If $\eta(x)=P(Y=1\mid X=x)$ is the true class probability and $\hat p_S(x)$ is the learner's predicted probability, what is the decomposition of $\mathbb{E}_S[(\hat p_S(x)-\eta(x))^2]$? ::@:: One has $\mathbb{E}_S[(\hat p_S(x)-\eta(x))^2] = (\mathbb{E}_S[\hat p_S(x)]-\eta(x))^2 + \mathbb{E}_S[(\hat p_S(x)-\mathbb{E}_S[\hat p_S(x)])^2]$, so squared probability estimation error itself has a bias-variance decomposition.
-- what is and is not being decomposed in classification ::@:: The clean algebra here does not decompose zero-one classification accuracy itself; the closest clean analogue usually decomposes squared error of estimated class probabilities instead.
-- lesson beyond regression ::@:: Even when the exact decomposed quantity changes from target values to class probabilities, the same bias-variance intuition about systematic error and sample sensitivity still applies.
+- why the classical derivation lives in regression rather than zero-one classification ::@:: The standard derivation works in regression because squared loss is quadratic, so centering produces cross terms that can cancel; zero-one classification loss uses an indicator after thresholding or argmax, so the same algebraic expansion does not go through. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- threshold intuition for why zero-one loss resists the same decomposition ::@:: In classification, small changes in predicted probability can flip the hard class label near a decision boundary, so zero-one loss changes discontinuously even when squared probability error changes only slightly. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- probabilistic classification analogue: If $\eta(x)=P(Y=1\mid X=x)$ is the true class probability and $\hat p_S(x)$ is the learner's predicted probability, what is the decomposition of $\mathbb{E}_S[(\hat p_S(x)-\eta(x))^2]$? ::@:: One has $\mathbb{E}_S[(\hat p_S(x)-\eta(x))^2] = (\mathbb{E}_S[\hat p_S(x)]-\eta(x))^2 + \mathbb{E}_S[(\hat p_S(x)-\mathbb{E}_S[\hat p_S(x)])^2]$, so squared probability estimation error itself has a bias-variance decomposition. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- what is and is not being decomposed in classification ::@:: The clean algebra here does not decompose zero-one classification accuracy itself; the closest clean analogue usually decomposes squared error of estimated class probabilities instead. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- lesson beyond regression ::@:: Even when the exact decomposed quantity changes from target values to class probabilities, the same bias-variance intuition about systematic error and sample sensitivity still applies. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## ensemble learning
 
@@ -326,10 +326,10 @@ The detailed procedures, formulas, and concrete examples are developed in the de
 
 Flashcards for this section are as follows:
 
-- what ensemble learning means ::@:: Ensemble learning means combining several base learners into one predictor so the final model can be more stable or more expressive than any single component.
-- base learner versus weak learner ::@:: A base learner is one component model inside an ensemble; a weak learner is a deliberately simple base learner that may be only slightly better than a trivial baseline but can still be powerful when combined with others.
-- decomposition as design guide ::@:: The bias-variance viewpoint helps diagnose whether a method needs more flexibility, more stability, or both.
-- bagging versus boosting intuition ::@:: Mechanically, bagging trains learners in parallel on perturbed datasets and averages them, while boosting trains learners sequentially so each new learner corrects earlier mistakes; bagging mainly adds stability, whereas boosting mainly adds strength.
+- what ensemble learning means ::@:: Ensemble learning means combining several base learners into one predictor so the final model can be more stable or more expressive than any single component. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- base learner versus weak learner ::@:: A base learner is one component model inside an ensemble; a weak learner is a deliberately simple base learner that may be only slightly better than a trivial baseline but can still be powerful when combined with others. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- decomposition as design guide ::@:: The bias-variance viewpoint helps diagnose whether a method needs more flexibility, more stability, or both. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- bagging versus boosting intuition ::@:: Mechanically, bagging trains learners in parallel on perturbed datasets and averages them, while boosting trains learners sequentially so each new learner corrects earlier mistakes; bagging mainly adds stability, whereas boosting mainly adds strength. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ### bagging as variance reduction
 
@@ -353,16 +353,16 @@ The everyday survey analogy captures the same idea. If one repeats a noisy estim
 
 Flashcards for this section are as follows:
 
-- bootstrap sample in bagging: What is it? ::@:: A bootstrap sample is drawn with replacement from the original training set, so some examples can appear multiple times while others may be absent in a given resample.
-- bagging regression formula: If bootstrap samples are $S^{(1)},\ldots,S^{(B)}$, what is $\hat f_{\mathrm{bag}}(x)$? ::@:: In regression, bagging forms the ensemble prediction $\hat f_{\mathrm{bag}}(x)=\frac{1}{B}\sum_{b=1}^B h_{S^{(b)}}(x)$ by averaging predictions from models trained on bootstrap samples.
-- bagging prediction rule in classification ::@:: In classification, bagging usually combines models by majority vote or by averaging class probabilities and then predicting the largest or thresholded probability.
-- bagging intuition in words ::@:: Bagging takes an unstable learner, trains it on many slightly different bootstrap versions of the data, and averages the resulting predictions so sample-specific quirks partly cancel while common signal remains.
-- bagging procedure steps ::@:: A standard bagging workflow is: (1) draw many bootstrap samples, (2) train the same base learner on each sample independently, (3) evaluate all learners on a new input, and (4) aggregate by averaging, voting, or probability averaging.
-- idealized variance reduction in bagging: If $B$ base predictions are independent and each has variance $\sigma^2$, what is the variance of their average? ::@:: If $B$ base predictions were independent and each had variance $\sigma^2$, then averaging them would give variance $\sigma^2/B$, which shows why aggregation reduces instability.
-- correlated-error variance formula for bagging: If common variance is $\sigma^2$ and pairwise correlation is $\rho$, what is $\operatorname{Var}(\frac{1}{B}\sum_{b=1}^B h_b)$? ::@:: If bagged base learners have common variance $\sigma^2$ and pairwise correlation $\rho$, then $\operatorname{Var}(\frac{1}{B}\sum_{b=1}^B h_b)=\rho\sigma^2+\frac{1-\rho}{B}\sigma^2$, so bagging helps most when base learners are unstable but not too strongly correlated.
-- bagging tax-survey analogy ::@:: Bagging is like repeating a noisy survey-based estimate many times and averaging the answers so the final estimate fluctuates less.
-- when bagging is most useful ::@:: Bagging is most useful for unstable base learners whose predictions vary noticeably across resampled datasets.
-- concrete bagging examples ::@:: Typical bagging examples are averaging many decision trees for house-price regression or using majority vote across many trees for classification tasks such as spam filtering or diagnosis.
+- bootstrap sample in bagging: What is it? ::@:: A bootstrap sample is drawn with replacement from the original training set, so some examples can appear multiple times while others may be absent in a given resample. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- bagging regression formula: If bootstrap samples are $S^{(1)},\ldots,S^{(B)}$, what is $\hat f_{\mathrm{bag}}(x)$? ::@:: In regression, bagging forms the ensemble prediction $\hat f_{\mathrm{bag}}(x)=\frac{1}{B}\sum_{b=1}^B h_{S^{(b)}}(x)$ by averaging predictions from models trained on bootstrap samples. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- bagging prediction rule in classification ::@:: In classification, bagging usually combines models by majority vote or by averaging class probabilities and then predicting the largest or thresholded probability. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- bagging intuition in words ::@:: Bagging takes an unstable learner, trains it on many slightly different bootstrap versions of the data, and averages the resulting predictions so sample-specific quirks partly cancel while common signal remains. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- bagging procedure steps ::@:: A standard bagging workflow is: (1) draw many bootstrap samples, (2) train the same base learner on each sample independently, (3) evaluate all learners on a new input, and (4) aggregate by averaging, voting, or probability averaging. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- idealized variance reduction in bagging: If $B$ base predictions are independent and each has variance $\sigma^2$, what is the variance of their average? ::@:: If $B$ base predictions were independent and each had variance $\sigma^2$, then averaging them would give variance $\sigma^2/B$, which shows why aggregation reduces instability. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- correlated-error variance formula for bagging: If common variance is $\sigma^2$ and pairwise correlation is $\rho$, what is $\operatorname{Var}(\frac{1}{B}\sum_{b=1}^B h_b)$? ::@:: If bagged base learners have common variance $\sigma^2$ and pairwise correlation $\rho$, then $\operatorname{Var}(\frac{1}{B}\sum_{b=1}^B h_b)=\rho\sigma^2+\frac{1-\rho}{B}\sigma^2$, so bagging helps most when base learners are unstable but not too strongly correlated. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- bagging tax-survey analogy ::@:: Bagging is like repeating a noisy survey-based estimate many times and averaging the answers so the final estimate fluctuates less. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- when bagging is most useful ::@:: Bagging is most useful for unstable base learners whose predictions vary noticeably across resampled datasets. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- concrete bagging examples ::@:: Typical bagging examples are averaging many decision trees for house-price regression or using majority vote across many trees for classification tasks such as spam filtering or diagnosis. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ### boosting as bias reduction
 
@@ -384,12 +384,12 @@ There is an important caveat: although boosting is often described as bias reduc
 
 Flashcards for this section are as follows:
 
-- initial weighting in boosting ::@:: Boosting typically begins by assigning equal weights to all training examples before any learner is trained.
-- why weights are increased on mistakes ::@:: Boosting raises the weights of misclassified or poorly fitted examples so later learners focus on cases the current ensemble still handles badly.
-- final form of a boosting model: What does a stagewise additive model $F_T(x)$ look like? ::@:: A boosting model is a weighted combination such as $F_T(x)=\sum_{t=1}^T \alpha_t h_t(x)$ of a sequence of base learners trained in successive rounds.
-- what a weak learner means in boosting ::@:: A weak learner is a base learner that may be only slightly better than naive guessing, but boosting can combine many such learners into a strong ensemble.
-- boosting intuition in words ::@:: Boosting works sequentially: after one learner makes mistakes, the next learner is pushed to focus on those hard cases, so the ensemble gradually corrects its own residual errors and becomes stronger.
-- boosting procedure steps ::@:: A standard boosting workflow is: (1) initialize equal example weights or residuals, (2) train a weak learner, (3) assign it a stage weight, (4) update weights or residuals to emphasize current mistakes, and (5) repeat to build a stagewise additive model.
-- examples of boosting methods with meanings ::@:: AdaBoost reweights examples to emphasize mistakes, gradient boosting fits new learners to residuals or negative gradients left by the current ensemble, and XGBoost is an efficient regularized implementation of gradient-boosted trees.
-- concrete boosting examples ::@:: Typical boosting examples are AdaBoost combining many decision stumps for binary classification and gradient-boosted trees that successively fit residuals for tabular regression or classification.
-- boosting caveat ::@:: Although boosting is often used to reduce bias, excessive boosting can still overfit if the ensemble is allowed to chase noise too aggressively.
+- initial weighting in boosting ::@:: Boosting typically begins by assigning equal weights to all training examples before any learner is trained. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why weights are increased on mistakes ::@:: Boosting raises the weights of misclassified or poorly fitted examples so later learners focus on cases the current ensemble still handles badly. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- final form of a boosting model: What does a stagewise additive model $F_T(x)$ look like? ::@:: A boosting model is a weighted combination such as $F_T(x)=\sum_{t=1}^T \alpha_t h_t(x)$ of a sequence of base learners trained in successive rounds. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- what a weak learner means in boosting ::@:: A weak learner is a base learner that may be only slightly better than naive guessing, but boosting can combine many such learners into a strong ensemble. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- boosting intuition in words ::@:: Boosting works sequentially: after one learner makes mistakes, the next learner is pushed to focus on those hard cases, so the ensemble gradually corrects its own residual errors and becomes stronger. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- boosting procedure steps ::@:: A standard boosting workflow is: (1) initialize equal example weights or residuals, (2) train a weak learner, (3) assign it a stage weight, (4) update weights or residuals to emphasize current mistakes, and (5) repeat to build a stagewise additive model. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- examples of boosting methods with meanings ::@:: AdaBoost reweights examples to emphasize mistakes, gradient boosting fits new learners to residuals or negative gradients left by the current ensemble, and XGBoost is an efficient regularized implementation of gradient-boosted trees. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- concrete boosting examples ::@:: Typical boosting examples are AdaBoost combining many decision stumps for binary classification and gradient-boosted trees that successively fit residuals for tabular regression or classification. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- boosting caveat ::@:: Although boosting is often used to reduce bias, excessive boosting can still overfit if the ensemble is allowed to chase noise too aggressively. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->

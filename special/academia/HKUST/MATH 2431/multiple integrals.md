@@ -19,7 +19,7 @@ In this course the main reason for learning these facts is probabilistic: joint 
 
 Flashcards for this section are as follows:
 
-- overview in $\mathbb{R}^n$ with geometric intuition ::@:: Multiple integrals are the multidimensional integration tools used to compute probabilities and expectations for joint densities over rectangles and more general regions in $\mathbb{R}^n$. In one variable, integration accumulates length-weighted height along an interval; in several variables, it accumulates volume-weighted height across a region, so probability mass is spread over areas, volumes, and higher-dimensional sets.
+- overview in $\mathbb{R}^n$ with geometric intuition ::@:: Multiple integrals are the multidimensional integration tools used to compute probabilities and expectations for joint densities over rectangles and more general regions in $\mathbb{R}^n$. In one variable, integration accumulates length-weighted height along an interval; in several variables, it accumulates volume-weighted height across a region, so probability mass is spread over areas, volumes, and higher-dimensional sets. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## rectangular Riemann integrals
 
@@ -41,15 +41,15 @@ The diameter matters because it controls the worst resolution of the partition. 
 
 Flashcards for this section are as follows:
 
-- rectangular set in $\mathbb{R}^n$ with intuition ::@:: A rectangular set has the form $Q=\prod_{j=1}^n [a_j,b_j]$; it is the multidimensional version of an interval, namely an axis-parallel rectangle in two dimensions, a box in three dimensions, and the analogous product region in higher dimensions.
-- diameter of $Q=\prod_{j=1}^n[a_j,b_j]$ with intuition ::@:: The diameter is $\operatorname{diam}(Q)=\sqrt{\sum_{j=1}^n (b_j-a_j)^2}$, and it measures the largest geometric scale present in the box, so in a partition it tells you the worst remaining resolution.
-- volume of $Q=\prod_{j=1}^n[a_j,b_j]$ with 1D comparison ::@:: The volume is $\operatorname{Vol}(Q)=\prod_{j=1}^n (b_j-a_j)$; it plays the role that length $b-a$ plays in one dimension, measuring how much $n$-dimensional space the rectangular region occupies.
-- lower multiple Riemann sum for partition $Z_N=(Q_\ell)$ ::@:: The lower sum is $S_-(Z_N,f)=\sum_{\ell=1}^N \operatorname{Vol}(Q_\ell)\inf_{z\in Q_\ell}f(z)$.
-- upper multiple Riemann sum for partition $Z_N=(Q_\ell)$ ::@:: The upper sum is $S_+(Z_N,f)=\sum_{\ell=1}^N \operatorname{Vol}(Q_\ell)\sup_{z\in Q_\ell}f(z)$.
-- Riemann-integrability on a rectangular set $Q$ ::@:: A bounded function on a rectangular set is Riemann-integrable when the supremum of all lower sums equals the infimum of all upper sums.
-- lower and upper sums using $\inf_{Q_\ell} f$ and $\sup_{Q_\ell} f$ as box heights ::@:: On each small rectangle, the lower sum uses the smallest height of $f$ and the upper sum uses the largest, so they give underestimates and overestimates of the total mass under the graph.
-- why the maximum diameter controls the approximation ::@:: The partition norm uses the largest diameter because one coarse rectangle can still hide large oscillation; requiring the maximum diameter to shrink forces every rectangle to become genuinely small.
-- comparison with the one-dimensional Riemann construction ::@:: In one dimension, a partition cuts an interval into short intervals and the sums use interval lengths; in several dimensions, a partition cuts a box into smaller boxes and the sums use their volumes, but the lower/upper approximation idea is exactly the same.
+- rectangular set in $\mathbb{R}^n$ with intuition ::@:: A rectangular set has the form $Q=\prod_{j=1}^n [a_j,b_j]$; it is the multidimensional version of an interval, namely an axis-parallel rectangle in two dimensions, a box in three dimensions, and the analogous product region in higher dimensions. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- diameter of $Q=\prod_{j=1}^n[a_j,b_j]$ with intuition ::@:: The diameter is $\operatorname{diam}(Q)=\sqrt{\sum_{j=1}^n (b_j-a_j)^2}$, and it measures the largest geometric scale present in the box, so in a partition it tells you the worst remaining resolution. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- volume of $Q=\prod_{j=1}^n[a_j,b_j]$ with 1D comparison ::@:: The volume is $\operatorname{Vol}(Q)=\prod_{j=1}^n (b_j-a_j)$; it plays the role that length $b-a$ plays in one dimension, measuring how much $n$-dimensional space the rectangular region occupies. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- lower multiple Riemann sum for partition $Z_N=(Q_\ell)$ ::@:: The lower sum is $S_-(Z_N,f)=\sum_{\ell=1}^N \operatorname{Vol}(Q_\ell)\inf_{z\in Q_\ell}f(z)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- upper multiple Riemann sum for partition $Z_N=(Q_\ell)$ ::@:: The upper sum is $S_+(Z_N,f)=\sum_{\ell=1}^N \operatorname{Vol}(Q_\ell)\sup_{z\in Q_\ell}f(z)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Riemann-integrability on a rectangular set $Q$ ::@:: A bounded function on a rectangular set is Riemann-integrable when the supremum of all lower sums equals the infimum of all upper sums. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- lower and upper sums using $\inf_{Q_\ell} f$ and $\sup_{Q_\ell} f$ as box heights ::@:: On each small rectangle, the lower sum uses the smallest height of $f$ and the upper sum uses the largest, so they give underestimates and overestimates of the total mass under the graph. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why the maximum diameter controls the approximation ::@:: The partition norm uses the largest diameter because one coarse rectangle can still hide large oscillation; requiring the maximum diameter to shrink forces every rectangle to become genuinely small. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- comparison with the one-dimensional Riemann construction ::@:: In one dimension, a partition cuts an interval into short intervals and the sums use interval lengths; in several dimensions, a partition cuts a box into smaller boxes and the sums use their volumes, but the lower/upper approximation idea is exactly the same. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## iterated integrals on rectangles
 
@@ -65,11 +65,11 @@ The most useful interpretation is the slicing picture. In two variables, fixing 
 
 Flashcards for this section are as follows:
 
-- iterated integral formula for continuous $f$ on rectangle $Q=\prod_{j=1}^n[a_j,b_j]$ ::@:: Then $\int_Q f(x)\,d^n x=\int_{a_1}^{b_1}\left(\int_{a_2}^{b_2}\cdots\left(\int_{a_n}^{b_n}f(x_1,\ldots,x_n)\,dx_n\right)\cdots dx_2\right)dx_1$, so the full value is obtained by integrating one variable at a time from the inside out.
-- inside-out interpretation ::@:: In an iterated integral, the innermost variable is integrated first while all outer variables are treated as constants.
-- geometric meaning of $\int f(x_1,x_2)\,d^2x$ for nonnegative $f$ ::@:: The double integral over a rectangle is the volume under the surface $z=f(x_1,x_2)$ above that base rectangle.
-- why rectangular iterated integrals matter for joint densities ::@:: When a joint density is integrated over a rectangular set, the theorem justifies computing the probability by repeated one-variable integrations.
-- slice interpretation of an iterated integral ::@:: In a double integral, the inner integral computes the area of one slice of the surface at fixed outer variable, and the outer integral then adds those slice-areas across the whole region.
+- iterated integral formula for continuous $f$ on rectangle $Q=\prod_{j=1}^n[a_j,b_j]$ ::@:: Then $\int_Q f(x)\,d^n x=\int_{a_1}^{b_1}\left(\int_{a_2}^{b_2}\cdots\left(\int_{a_n}^{b_n}f(x_1,\ldots,x_n)\,dx_n\right)\cdots dx_2\right)dx_1$, so the full value is obtained by integrating one variable at a time from the inside out. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- inside-out interpretation ::@:: In an iterated integral, the innermost variable is integrated first while all outer variables are treated as constants. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- geometric meaning of $\int f(x_1,x_2)\,d^2x$ for nonnegative $f$ ::@:: The double integral over a rectangle is the volume under the surface $z=f(x_1,x_2)$ above that base rectangle. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why rectangular iterated integrals matter for joint densities ::@:: When a joint density is integrated over a rectangular set, the theorem justifies computing the probability by repeated one-variable integrations. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- slice interpretation of an iterated integral ::@:: In a double integral, the inner integral computes the area of one slice of the surface at fixed outer variable, and the outer integral then adds those slice-areas across the whole region. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ## Fubini and improper multiple integrals
@@ -86,13 +86,13 @@ So the practical picture is: on rectangles, continuity gives existence; nonnegat
 
 Flashcards for this section are as follows:
 
-- Fubini on rectangles when $f\ge0$ or $|f|$ is integrable ::@:: Then the iterated integrals may be evaluated in any coordinate order.
-- why nonnegativity or absolute integrability allows order exchange ::@:: The order of integration can be exchanged when nonnegativity or absolute integrability prevents cancellation problems and guarantees the iterated integrals all represent the same total mass.
-- improper multiple integrals on $\mathbb{R}^n$ ::@:: One defines $\int_{\mathbb{R}^n} f(x)\,d^n x$ by truncating to larger and larger rectangles and taking the corresponding limit when it exists.
-- half-infinite boxes $(-\infty,b_1]\times\cdots\times(-\infty,b_n]$ ::@:: Integrals over such sets are defined by truncating only the infinite sides and then taking limits.
-- why half-infinite boxes encode events $\{X_1\le b_1,\ldots,X_n\le b_n\}$ ::@:: Half-infinite boxes are the natural domains for joint cumulative distribution functions, because events like $\{X_1\le b_1,\ldots,X_n\le b_n\}$ are exactly of that form.
-- intuition for Fubini's theorem ::@:: Fubini says the same total mass is being counted in different slicing orders; if nonnegativity or absolute integrability removes ambiguity from cancellation, then all coordinate orders must agree.
-- truncation intuition for improper multiple integrals ::@:: One first computes the mass inside a large finite observation window and then lets the window expand; if the values stabilize, that limiting total is the improper multiple integral.
+- Fubini on rectangles when $f\ge0$ or $|f|$ is integrable ::@:: Then the iterated integrals may be evaluated in any coordinate order. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why nonnegativity or absolute integrability allows order exchange ::@:: The order of integration can be exchanged when nonnegativity or absolute integrability prevents cancellation problems and guarantees the iterated integrals all represent the same total mass. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- improper multiple integrals on $\mathbb{R}^n$ ::@:: One defines $\int_{\mathbb{R}^n} f(x)\,d^n x$ by truncating to larger and larger rectangles and taking the corresponding limit when it exists. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- half-infinite boxes $(-\infty,b_1]\times\cdots\times(-\infty,b_n]$ ::@:: Integrals over such sets are defined by truncating only the infinite sides and then taking limits. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why half-infinite boxes encode events $\{X_1\le b_1,\ldots,X_n\le b_n\}$ ::@:: Half-infinite boxes are the natural domains for joint cumulative distribution functions, because events like $\{X_1\le b_1,\ldots,X_n\le b_n\}$ are exactly of that form. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- intuition for Fubini's theorem ::@:: Fubini says the same total mass is being counted in different slicing orders; if nonnegativity or absolute integrability removes ambiguity from cancellation, then all coordinate orders must agree. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- truncation intuition for improper multiple integrals ::@:: One first computes the mass inside a large finite observation window and then lets the window expand; if the values stabilize, that limiting total is the improper multiple integral. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## rectangle and cuboid calculations
 
@@ -108,11 +108,11 @@ These examples are not just drill. They are the model for the later probability 
 
 Flashcards for this section are as follows:
 
-- calculate $\int_{[0,2]\times[0,1]} x_1x_2^2\,d^2x$ with brief steps ::@:: (1) Inner integral: $\int_0^1 x_1x_2^2\,dx_2=x_1\left[\frac{x_2^3}{3}\right]_0^1=x_1/3$. <br/> (2) Outer integral: $\int_0^2 x_1/3\,dx_1=\frac13\left[\frac{x_1^2}{2}\right]_0^2=\frac23$. So the value is $\frac23$.
-- why $x_1$ is treated as constant in the first example ::@:: In the inner integral with respect to $x_2$, the variable $x_1$ is an outer variable and is therefore treated as a constant.
-- calculate $\int_{[0,1]\times[2,3]\times[1,4]} \cos(x_1)x_2\exp(x_2x_3)\,d^3x$ with brief steps ::@:: (1) Integrate in $x_3$: $\cos(x_1)x_2\left[\frac1{x_2}e^{x_2x_3}\right]_{1}^{4}=\cos(x_1)(e^{4x_2}-e^{x_2})$. <br/> (2) Integrate in $x_2$: $\cos(x_1)\left[\frac14 e^{4x_2}-e^{x_2}\right]_{2}^{3}$. <br/> (3) Integrate in $x_1$: $\int_0^1\cos(x_1)\,dx_1=[\sin(x_1)]_0^1$, giving $\left(\frac14 e^8(e^4-1)-(e-1)e^2\right)\sin(1)$.
-- why dividing by $x_2$ is legitimate in the cuboid example ::@:: The antiderivative with respect to $x_3$ introduces a factor $1/x_2$, and this is safe because on the domain one always has $x_2\in[2,3]$, so $x_2\neq0$.
-- strategy behind the rectangle and cuboid calculations ::@:: The method is always the same: choose the current integration variable, freeze the outer variables as constants, simplify that one-variable integral, and then move outward one layer at a time.
+- calculate $\int_{[0,2]\times[0,1]} x_1x_2^2\,d^2x$ with brief steps ::@:: (1) Inner integral: $\int_0^1 x_1x_2^2\,dx_2=x_1\left[\frac{x_2^3}{3}\right]_0^1=x_1/3$. <br/> (2) Outer integral: $\int_0^2 x_1/3\,dx_1=\frac13\left[\frac{x_1^2}{2}\right]_0^2=\frac23$. So the value is $\frac23$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why $x_1$ is treated as constant in the first example ::@:: In the inner integral with respect to $x_2$, the variable $x_1$ is an outer variable and is therefore treated as a constant. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- calculate $\int_{[0,1]\times[2,3]\times[1,4]} \cos(x_1)x_2\exp(x_2x_3)\,d^3x$ with brief steps ::@:: (1) Integrate in $x_3$: $\cos(x_1)x_2\left[\frac1{x_2}e^{x_2x_3}\right]_{1}^{4}=\cos(x_1)(e^{4x_2}-e^{x_2})$. <br/> (2) Integrate in $x_2$: $\cos(x_1)\left[\frac14 e^{4x_2}-e^{x_2}\right]_{2}^{3}$. <br/> (3) Integrate in $x_1$: $\int_0^1\cos(x_1)\,dx_1=[\sin(x_1)]_0^1$, giving $\left(\frac14 e^8(e^4-1)-(e-1)e^2\right)\sin(1)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why dividing by $x_2$ is legitimate in the cuboid example ::@:: The antiderivative with respect to $x_3$ introduces a factor $1/x_2$, and this is safe because on the domain one always has $x_2\in[2,3]$, so $x_2\neq0$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- strategy behind the rectangle and cuboid calculations ::@:: The method is always the same: choose the current integration variable, freeze the outer variables as constants, simplify that one-variable integral, and then move outward one layer at a time. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ## Jordan nullsets and Jordan-measurable sets
@@ -133,16 +133,16 @@ From this one gets the useful corollary for integration over regions. If $A$ is 
 
 Flashcards for this section are as follows:
 
-- Jordan nullset in $\mathbb{R}^n$ ::@:: A set $M\subseteq\mathbb{R}^n$ is a Jordan nullset if for every $\varepsilon>0$ it can be covered by finitely many rectangles whose total volume is less than $\varepsilon$.
-- Jordan-measurable set $S\subseteq\mathbb{R}^n$ ::@:: A bounded set $S\subseteq\mathbb{R}^n$ is Jordan-measurable if its boundary $\partial S$ is a Jordan nullset.
-- finite subsets of $\mathbb{R}^n$ are Jordan null ::@:: Every finite subset of $\mathbb{R}^n$ is Jordan null because each point can be covered by an arbitrarily small rectangle.
-- $(n-1)$-dimensional rectangles in $\mathbb{R}^n$ are Jordan null ::@:: Each can be thickened into a genuine $n$-dimensional rectangle with arbitrarily small volume.
-- graph $\Gamma(f)=\{(x,f(x)):x\in A\}$ of a continuous function on compact $A$ ::@:: It is Jordan null in the ambient higher-dimensional space.
-- integrability criterion when the discontinuity set $D_f$ is Jordan null ::@:: If a bounded function on a rectangle is discontinuous only on a Jordan nullset, then it is Riemann-integrable on that rectangle.
-- intuition for Jordan nullsets as sets of $n$-dimensional volume $0$ ::@:: A Jordan nullset is too thin to carry any genuine $n$-dimensional volume, so changing a bounded function only on such a set does not change the multiple integral.
-- comparison with one-dimensional negligible sets such as a single point in $\mathbb{R}$ ::@:: In one variable, a single point is negligible because it has no length; in higher dimensions, Jordan nullsets are the analogous negligible sets because they have no genuine $n$-dimensional volume.
-- intuition for Jordan-measurability via the boundary $\partial S$ ::@:: A bounded set is Jordan-measurable when its boundary is negligible enough that the region has a well-defined volume from the Riemann point of view.
-- corollary for bounded Jordan-measurable $A$ with proof idea ::@:: If $A$ is bounded and Jordan-measurable and $f$ is bounded with Jordan-null discontinuity set $D_f$, then $f$ is Riemann-integrable over $A$ because every discontinuity of $\mathbf{1}_Af$ lies in $D_f\cup\partial A$, and this union is Jordan null.
+- Jordan nullset in $\mathbb{R}^n$ ::@:: A set $M\subseteq\mathbb{R}^n$ is a Jordan nullset if for every $\varepsilon>0$ it can be covered by finitely many rectangles whose total volume is less than $\varepsilon$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Jordan-measurable set $S\subseteq\mathbb{R}^n$ ::@:: A bounded set $S\subseteq\mathbb{R}^n$ is Jordan-measurable if its boundary $\partial S$ is a Jordan nullset. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- finite subsets of $\mathbb{R}^n$ are Jordan null ::@:: Every finite subset of $\mathbb{R}^n$ is Jordan null because each point can be covered by an arbitrarily small rectangle. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- $(n-1)$-dimensional rectangles in $\mathbb{R}^n$ are Jordan null ::@:: Each can be thickened into a genuine $n$-dimensional rectangle with arbitrarily small volume. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- graph $\Gamma(f)=\{(x,f(x)):x\in A\}$ of a continuous function on compact $A$ ::@:: It is Jordan null in the ambient higher-dimensional space. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- integrability criterion when the discontinuity set $D_f$ is Jordan null ::@:: If a bounded function on a rectangle is discontinuous only on a Jordan nullset, then it is Riemann-integrable on that rectangle. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- intuition for Jordan nullsets as sets of $n$-dimensional volume $0$ ::@:: A Jordan nullset is too thin to carry any genuine $n$-dimensional volume, so changing a bounded function only on such a set does not change the multiple integral. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- comparison with one-dimensional negligible sets such as a single point in $\mathbb{R}$ ::@:: In one variable, a single point is negligible because it has no length; in higher dimensions, Jordan nullsets are the analogous negligible sets because they have no genuine $n$-dimensional volume. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- intuition for Jordan-measurability via the boundary $\partial S$ ::@:: A bounded set is Jordan-measurable when its boundary is negligible enough that the region has a well-defined volume from the Riemann point of view. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- corollary for bounded Jordan-measurable $A$ with proof idea ::@:: If $A$ is bounded and Jordan-measurable and $f$ is bounded with Jordan-null discontinuity set $D_f$, then $f$ is Riemann-integrable over $A$ because every discontinuity of $\mathbf{1}_Af$ lies in $D_f\cup\partial A$, and this union is Jordan null. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## integrating over subsets of rectangles
 
@@ -158,11 +158,11 @@ In probability language, this is the step that lets one interpret $$P[(X,Y)\in A
 
 Flashcards for this section are as follows:
 
-- integrating $\int_A f(x)\,d^n x$ over a subset $A\subseteq Q$ ::@:: One defines it by integrating the indicator-weighted function $\mathbf{1}_A f$ over the ambient rectangle $Q$, provided that function is Riemann-integrable.
-- why multiplying by $\mathbf{1}_A$ isolates the region $A$ ::@:: Multiplying by $\mathbf{1}_A$ forces the integrand to contribute only on $A$, so integrating over the ambient rectangle is equivalent to integrating over the region itself.
-- corollary for bounded Jordan-measurable $A$ ::@:: If $A$ is bounded and Jordan-measurable and $f$ is bounded with a Jordan-null discontinuity set, then $f$ is Riemann-integrable over $A$ because the discontinuities of $\mathbf{1}_Af$ lie inside $D_f\cup\partial A$, which is still Jordan null.
-- probability meaning of $P[(X,Y)\in A]$ for a joint density $f_{X,Y}$ ::@:: The probability of a non-rectangular event region $A$ is computed by $P[(X,Y)\in A]=\int_A f_{X,Y}(x,y)\,d^2x$.
-- indicator-function intuition for the factor $\mathbf{1}_A$ ::@:: The factor $\mathbf{1}_A$ acts like an on/off gate: it keeps the integrand inside the region of interest and turns it off outside, so integration over a curved domain is reduced to integration over a rectangle with a gated integrand.
+- integrating $\int_A f(x)\,d^n x$ over a subset $A\subseteq Q$ ::@:: One defines it by integrating the indicator-weighted function $\mathbf{1}_A f$ over the ambient rectangle $Q$, provided that function is Riemann-integrable. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why multiplying by $\mathbf{1}_A$ isolates the region $A$ ::@:: Multiplying by $\mathbf{1}_A$ forces the integrand to contribute only on $A$, so integrating over the ambient rectangle is equivalent to integrating over the region itself. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- corollary for bounded Jordan-measurable $A$ ::@:: If $A$ is bounded and Jordan-measurable and $f$ is bounded with a Jordan-null discontinuity set, then $f$ is Riemann-integrable over $A$ because the discontinuities of $\mathbf{1}_Af$ lie inside $D_f\cup\partial A$, which is still Jordan null. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- probability meaning of $P[(X,Y)\in A]$ for a joint density $f_{X,Y}$ ::@:: The probability of a non-rectangular event region $A$ is computed by $P[(X,Y)\in A]=\int_A f_{X,Y}(x,y)\,d^2x$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- indicator-function intuition for the factor $\mathbf{1}_A$ ::@:: The factor $\mathbf{1}_A$ acts like an on/off gate: it keeps the integrand inside the region of interest and turns it off outside, so integration over a curved domain is reduced to integration over a rectangle with a gated integrand. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## variable-bound regions and probability calculations
 
@@ -178,11 +178,11 @@ The appendix gives two important examples. First, the region $$V=\{(x,y,z):0\le 
 
 Flashcards for this section are as follows:
 
-- region $A=\{(x_1,x_2):x_1\in[a_1,b_1],\ u(x_1)\le x_2\le v(x_1)\}$ ::@:: Then $\int_A f(x_1,x_2)\,d^2x=\int_{a_1}^{b_1}\left(\int_{u(x_1)}^{v(x_1)} f(x_1,x_2)\,dx_2\right)dx_1$.
-- higher-dimensional nested-bound regions ::@:: In higher dimensions, one integrates over a region with nested variable bounds by reading the bounds from inside out and performing the corresponding iterated integral in that order.
-- area and volume when $f\equiv1$ ::@:: The multiple integral measures geometric size: area in two dimensions and volume in three dimensions.
-- calculate the volume of $V=\{(x,y,z):0\le x\le1,\ 0\le y\le2x,\ 0\le z\le x+y\}$ with brief steps ::@:: (1) Inner integral: $\int_0^{x+y}1\,dz=x+y$. <br/> (2) Next integral: $\int_0^{2x}(x+y)\,dy=\left[xy+\frac12 y^2\right]_0^{2x}=4x^2$. <br/> (3) Outer integral: $\int_0^1 4x^2\,dx=4\left[\frac{x^3}{3}\right]_0^1=\frac43$. So the volume is $\frac43$.
-- region for $P[X^2\le Y]$ ::@:: If $(X,Y)$ has joint density on $[0,1]^2$, then the event $\{X^2\le Y\}$ corresponds to the region $A=\{(x,y):0\le x\le1,\ x^2\le y\le1\}$.
-- probability of $X^2\le Y$ over $A=\{(x,y):0\le x\le1,\ x^2\le y\le1\}$ ::@:: One has $P[X^2\le Y]=\int_0^1\left(\int_{x^2}^1 f_{X,Y}(x,y)\,dy\right)dx$.
-- why variable-bound regions matter for joint-density problems ::@:: Joint-density probability problems are usually solved by translating the event into a geometric region and then writing the corresponding iterated integral with the correct variable bounds.
-- sweep interpretation for variable-bound regions ::@:: A variable-bound integral computes one slice of the region at a time and then sweeps those slice-contributions across the outer variable; probabilistically, this is the standard way to turn a curved event region into a formula.
+- region $A=\{(x_1,x_2):x_1\in[a_1,b_1],\ u(x_1)\le x_2\le v(x_1)\}$ ::@:: Then $\int_A f(x_1,x_2)\,d^2x=\int_{a_1}^{b_1}\left(\int_{u(x_1)}^{v(x_1)} f(x_1,x_2)\,dx_2\right)dx_1$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- higher-dimensional nested-bound regions ::@:: In higher dimensions, one integrates over a region with nested variable bounds by reading the bounds from inside out and performing the corresponding iterated integral in that order. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- area and volume when $f\equiv1$ ::@:: The multiple integral measures geometric size: area in two dimensions and volume in three dimensions. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- calculate the volume of $V=\{(x,y,z):0\le x\le1,\ 0\le y\le2x,\ 0\le z\le x+y\}$ with brief steps ::@:: (1) Inner integral: $\int_0^{x+y}1\,dz=x+y$. <br/> (2) Next integral: $\int_0^{2x}(x+y)\,dy=\left[xy+\frac12 y^2\right]_0^{2x}=4x^2$. <br/> (3) Outer integral: $\int_0^1 4x^2\,dx=4\left[\frac{x^3}{3}\right]_0^1=\frac43$. So the volume is $\frac43$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- region for $P[X^2\le Y]$ ::@:: If $(X,Y)$ has joint density on $[0,1]^2$, then the event $\{X^2\le Y\}$ corresponds to the region $A=\{(x,y):0\le x\le1,\ x^2\le y\le1\}$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- probability of $X^2\le Y$ over $A=\{(x,y):0\le x\le1,\ x^2\le y\le1\}$ ::@:: One has $P[X^2\le Y]=\int_0^1\left(\int_{x^2}^1 f_{X,Y}(x,y)\,dy\right)dx$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- why variable-bound regions matter for joint-density problems ::@:: Joint-density probability problems are usually solved by translating the event into a geometric region and then writing the corresponding iterated integral with the correct variable bounds. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- sweep interpretation for variable-bound regions ::@:: A variable-bound integral computes one slice of the region at a time and then sweeps those slice-contributions across the outer variable; probabilistically, this is the standard way to turn a curved event region into a formula. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->

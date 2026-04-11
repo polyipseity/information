@@ -21,7 +21,7 @@ Non-current liabilities (long-term liabilities) are obligations expected to be s
 
 Flashcards for this section are as follows:
 
-- non-current (long-term) liability ::@:: Obligation expected to be settled more than 12 months after the reporting date (e.g. mortgage, long-term loan).
+- non-current (long-term) liability ::@:: Obligation expected to be settled more than 12 months after the reporting date (e.g. mortgage, long-term loan). <!--SR:!2000-01-01,1,250!2026-04-12,4,287-->
 - long-term liabilities classification criterion (course) ::@:: Use the 12-month rule (more than 12 months after reporting date); operating cycle is not emphasized for long-term liabilities.
 
 ## covenants and restrictions
@@ -43,9 +43,9 @@ A bond is a way for a company to borrow money from many investors. The bond cont
 
 Flashcards for this section are as follows:
 
-- bond ::@:: A borrowing instrument where a company raises funds from investors and repays principal at maturity with periodic interest payments.
+- bond ::@:: A borrowing instrument where a company raises funds from investors and repays principal at maturity with periodic interest payments. <!--SR:!2026-04-12,4,287!2026-04-12,4,287-->
 - bond indenture ::@:: The bond contract specifying maturity date, interest payment schedule, and face value (principal) to be repaid.
-- face value (bond) ::@:: Principal amount repaid at maturity; commonly 1,000 per bond.
+- face value (bond) ::@:: Principal amount repaid at maturity; commonly 1,000 per bond. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
 - bond interest payment frequency ::@:: Often semiannual; can also be annual or quarterly depending on the bond terms.
 
 ## coupon rate versus market rate
@@ -58,9 +58,9 @@ The market (effective) interest rate is the required rate of return for investor
 
 Flashcards for this section are as follows:
 
-- coupon (stated) rate ::@:: Rate used to compute cash interest paid to bondholders (cash interest = face value × coupon rate, adjusted for period).
-- market (effective) interest rate ::@:: Investors' required return (opportunity cost) used to price the bond and compute interest expense.
-- bond cash interest vs interest expense ::@:: Cash interest uses face value × coupon rate; interest expense uses carrying amount × market (effective) rate.
+- coupon (stated) rate ::@:: Rate used to compute cash interest paid to bondholders (cash interest = face value × coupon rate, adjusted for period). <!--SR:!2000-01-01,1,250!2026-04-12,4,287-->
+- market (effective) interest rate ::@:: Investors' required return (opportunity cost) used to price the bond and compute interest expense. <!--SR:!2026-04-12,4,287!2000-01-01,1,250-->
+- bond cash interest vs interest expense ::@:: Cash interest uses face value × coupon rate; interest expense uses carrying amount × market (effective) rate. <!--SR:!2026-04-12,4,287!2000-01-01,1,250-->
 
 ## bond price intuition (par, discount, premium)
 
@@ -79,7 +79,7 @@ Representative journal entry examples at issuance:
 > | {@{Bonds payable}@}                       |              | {@{92 608}@} |
 >
 >
-> *Explanation.* Carrying amount equals {@{bond price; the discount (7 392) is not shown in a separate account under the net method but is embedded in Bonds payable}@}. At maturity, Bonds payable is {@{increased by amortization to face value}@}.
+> *Explanation.* Carrying amount equals {@{bond price; the discount (7 392) is not shown in a separate account under the net method but is embedded in Bonds payable}@}. At maturity, Bonds payable is {@{increased by amortization to face value}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,270!2026-04-12,4,287!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > *Scenario.* Company issues {@{5-year bonds, face 100 000, coupon 8% semi-annual, market 6% semi-annual; bond price 108 530}@}. Record issuance.
@@ -91,18 +91,18 @@ Representative journal entry examples at issuance:
 > | {@{Bonds payable}@}                      |               | {@{108 530}@} |
 >
 >
-> *Explanation.* Carrying amount {@{includes the premium at issuance}@}; that premium is amortized by debiting {@{Bonds payable each interest date so the carrying amount decreases to face value at maturity}@}.
+> *Explanation.* Carrying amount {@{includes the premium at issuance}@}; that premium is amortized by debiting {@{Bonds payable each interest date so the carrying amount decreases to face value at maturity}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,287!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- how is bond price determined? ::@:: Present value of future cash payments (interest and principal) discounted at the market (effective) interest rate.
+- how is bond price determined? ::@:: Present value of future cash payments (interest and principal) discounted at the market (effective) interest rate. <!--SR:!2026-04-12,4,287!2000-01-01,1,250-->
 - when does a bond sell at par? ::@:: When coupon (stated) rate equals market (effective) rate at issuance; price equals face value.
-- bond sells at discount vs premium ::@:: Coupon &lt; market → discount (price &lt; face); coupon &gt; market → premium (price &gt; face).
-- bond issued at discount: issuance entry (net method)? ::@:: Dr Cash (proceeds), Cr Bonds payable (carrying amount); no separate discount account.
+- bond sells at discount vs premium ::@:: Coupon &lt; market → discount (price &lt; face); coupon &gt; market → premium (price &gt; face). <!--SR:!2026-04-12,4,287!2000-01-01,1,250-->
+- bond issued at discount: issuance entry (net method)? ::@:: Dr Cash (proceeds), Cr Bonds payable (carrying amount); no separate discount account. <!--SR:!2000-01-01,1,250!2026-04-12,4,287-->
 - bond discount: why record at carrying amount (net)? ::@:: So Bonds payable on the balance sheet equals carrying amount; discount is amortized by crediting Bonds payable each interest date.
-- bond issued at premium: issuance entry (net method)? ::@:: Dr Cash (proceeds), Cr Bonds payable (carrying amount).
+- bond issued at premium: issuance entry (net method)? ::@:: Dr Cash (proceeds), Cr Bonds payable (carrying amount). <!--SR:!2000-01-01,1,250!2026-04-12,4,287-->
 - bond premium: how is it removed over time? ::@:: Each interest date, debit Bonds payable (premium amortized = coupon − interest expense); carrying amount decreases to face at maturity.
 
 ## bond price: present value calculation
@@ -140,7 +140,7 @@ Representative journal entry examples:
 > | {@{Bonds payable}@}                            |              | {@{1 187}@} |
 >
 >
-> *Explanation.* Interest expense equals {@{carrying amount × market rate and the discount amortized = interest expense − coupon}@}; credit {@{Bonds payable to increase carrying amount toward face value}@}. On payment date: Dr Interest payable 9 000, Cr Cash 9 000.
+> *Explanation.* Interest expense equals {@{carrying amount × market rate and the discount amortized = interest expense − coupon}@}; credit {@{Bonds payable to increase carrying amount toward face value}@}. On payment date: Dr Interest payable 9 000, Cr Cash 9 000. <!--SR:!2026-04-12,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,270!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,287!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > *Scenario.* First semi-annual period: {@{interest expense 3 256, coupon 4 000, premium amortized 744}@}. Cash paid on payment date.
@@ -153,7 +153,7 @@ Representative journal entry examples:
 > | {@{Interest payable}@}                        |             | {@{4 000}@} |
 >
 >
-> *Explanation.* Premium amortized equals {@{coupon − interest expense}@}; debit {@{Bonds payable to decrease carrying amount toward face value}@}. On payment date: Dr Interest payable 4 000, Cr Cash 4 000.
+> *Explanation.* Premium amortized equals {@{coupon − interest expense}@}; debit {@{Bonds payable to decrease carrying amount toward face value}@}. On payment date: Dr Interest payable 4 000, Cr Cash 4 000. <!--SR:!2026-04-12,4,287!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > *Scenario.* {@{5-year bond, face 100 000, matures; carrying amount equals face value}@}.
@@ -176,15 +176,15 @@ Flashcards for this section are as follows:
 - bond premium: why is interest expense &lt; coupon payment? ::@:: Premium is amortized to reduce interest expense each period.
 - discount amortization (bond) ::@:: Interest expense − coupon payment; increases carrying amount (Cr Bonds payable or reduce Discount on bonds payable).
 - premium amortization (bond) ::@:: Coupon payment − interest expense; decreases carrying amount (Dr Bonds payable or Premium on bonds payable).
-- rounding in bond interest schedule ::@:: Because interest and amortization are rounded, the last period's amounts may be adjusted slightly so that the final carrying amount equals the exact face value at maturity.
+- rounding in bond interest schedule ::@:: Because interest and amortization are rounded, the last period's amounts may be adjusted slightly so that the final carrying amount equals the exact face value at maturity. <!--SR:!2026-04-12,4,287!2026-04-12,4,270-->
 - bond (discount): interest date entry? ::@:: Dr Interest expense, Cr Interest payable (coupon), Cr Bonds payable (discount amortized).
 - bond discount amortization: how is it recorded? ::@:: Credit Bonds payable (or reduce Discount on bonds payable) each period; amount = interest expense − coupon payment.
 - bond (premium): interest date entry? ::@:: Dr Interest expense, Dr Bonds payable (premium amortized), Cr Interest payable (coupon).
-- bond premium amortization: how is it recorded? ::@:: Debit Bonds payable (or Premium on bonds payable) each period; amount = coupon payment − interest expense.
-- bond at maturity: journal entry? ::@:: Dr Bonds payable (face value), Cr Cash.
+- bond premium amortization: how is it recorded? ::@:: Debit Bonds payable (or Premium on bonds payable) each period; amount = coupon payment − interest expense. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
+- bond at maturity: journal entry? ::@:: Dr Bonds payable (face value), Cr Cash. <!--SR:!2026-04-12,4,287!2026-04-12,4,270-->
 - bond maturity: why no gain or loss (typical case)? ::@:: Carrying amount has been amortized to face value; payment equals liability.
 - bond schedule rounding: where is it fixed? ::@:: In the final period; interest expense and discount/premium amortization may be tweaked slightly so the ending carrying amount equals the exact face value.
-- bond redeemed between interest dates: what does the final payment include? ::@:: Principal plus prorated interest for the final partial period up to redemption/maturity; no later coupon payment because the bond has been settled.
+- bond redeemed between interest dates: what does the final payment include? ::@:: Principal plus prorated interest for the final partial period up to redemption/maturity; no later coupon payment because the bond has been settled. <!--SR:!2026-04-12,4,287!2026-04-12,4,270-->
 
 ## year-end accrual between interest payment dates
 
@@ -202,7 +202,7 @@ Representative journal entry examples:
 > | {@{Interest payable}@}                                         |             | {@{1 333}@} |
 >
 >
-> *Explanation.* Interest payable equals {@{4 000 × 2/6 = 1 333}@}, premium amortized equals {@{744 × 2/6 = 248}@}, and interest expense equals {@{1 333 − 248 = 1 085}@}. For a discount bond, credit Bonds payable (prorated discount amortization) instead of debiting.
+> *Explanation.* Interest payable equals {@{4 000 × 2/6 = 1 333}@}, premium amortized equals {@{744 × 2/6 = 248}@}, and interest expense equals {@{1 333 − 248 = 1 085}@}. For a discount bond, credit Bonds payable (prorated discount amortization) instead of debiting. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,270!2026-04-12,4,270!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > *Scenario.* Bond with face {@{100 000}@}, coupon {@{8%}@}, interest paid semi-annually (every 6 months). It is issued {@{4 months after the last interest date}@}. At issuance, investor pays accrued interest for 4 of 6 months: {@{100 000 × 8% × 4/12 = 2 667}@}. On the next interest date, issuer pays full coupon for 6 months: {@{100 000 × 8% × 6/12 = 4 000}@}.
@@ -220,7 +220,7 @@ Representative journal entry examples:
 > | {@{Cash}@}                               |             | {@{4 000}@} |
 >
 >
-> *Explanation.* {@{Total interest expense over 2 months (from issue date to payment date) = 4 000 − 2 667 = 1 333 = 100 000 × 8% × 2/12}@}.
+> *Explanation.* {@{Total interest expense over 2 months (from issue date to payment date) = 4 000 − 2 667 = 1 333 = 100 000 × 8% × 2/12}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,287!2000-01-01,1,250!2026-04-12,4,287!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > *Scenario.* Semi-annual bond with face {@{100 000}@}, coupon {@{8%}@}, market rate {@{10%}@}. Issue price (excluding accrued interest) is {@{96 000}@}; bond is issued {@{4 months after the last interest date}@}. At issuance the investor pays {@{accrued coupon for 4 of the 6 months: 100 000 × 8% × 4/12 = 2 667}@}. Total cash raised by issuer = {@{96 000 (carrying amount) + 2 667 (pre-collected interest) = 98 667}@}, split between Bonds payable {@{96 000}@} and a credit to Interest expense (pre-collected) {@{2 667}@}.
@@ -248,26 +248,26 @@ Representative journal entry examples:
 > | {@{Bonds payable}@}                               | {@{267}@}   |             |
 > | {@{Interest expense}@}                            |             | {@{267}@}   |
 >
-> *Explanation.* Accrued interest at issue always uses {@{the coupon (stated) rate and the time since the last payment date}@}. At each coupon date, the two entries work together: (1) record full coupon to cash as {@{Interest Expense Dr 4 000}@}, and (2) immediately adjust by {@{debiting Bonds Payable Dr 267 and crediting Interest Expense Cr 267}@}. Net interest expense from both entries = {@{4 000 − 267 = 3 733}@}. Combined with the pre-collected Interest Expense credit at issuance {@{Cr 2 667}@}, the final net effect for the 2-month holding period = {@{3 733 − 2 667 = 1 600}@}, which precisely equals the effective interest per the formula {@{carrying amount × market rate × time fraction = 96 000 × 10% × 2/12 = 1 600}@}. This demonstrates that the effective interest method produces the correct holding-period interest regardless of coupon frequency.
+> *Explanation.* Accrued interest at issue always uses {@{the coupon (stated) rate and the time since the last payment date}@}. At each coupon date, the two entries work together: (1) record full coupon to cash as {@{Interest Expense Dr 4 000}@}, and (2) immediately adjust by {@{debiting Bonds Payable Dr 267 and crediting Interest Expense Cr 267}@}. Net interest expense from both entries = {@{4 000 − 267 = 3 733}@}. Combined with the pre-collected Interest Expense credit at issuance {@{Cr 2 667}@}, the final net effect for the 2-month holding period = {@{3 733 − 2 667 = 1 600}@}, which precisely equals the effective interest per the formula {@{carrying amount × market rate × time fraction = 96 000 × 10% × 2/12 = 1 600}@}. This demonstrates that the effective interest method produces the correct holding-period interest regardless of coupon frequency. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,270!2026-04-12,4,270!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,270!2000-01-01,1,250-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- bond: year-end between payment dates ::@:: Accrue interest for fraction of period: prorate coupon to Interest payable and prorate discount/premium amortization; use months in period (e.g. ÷6 for semi-annual).
-- semi-annual coupon: prorate by months (e.g. 2 months of 6) ::@:: Use 2/6 of period coupon and 2/6 of period amortization; do not use 2/12 (period is 6 months, not 12).
-- bond matures between payment dates: how to handle final interest? ::@:: Compute interest for the final partial period using the same fraction-of-period prorating (e.g. months elapsed ÷ 6) and pay that amount together with redemption of principal; there is no extra coupon on the next scheduled date because the bond has been settled.
+- bond: year-end between payment dates ::@:: Accrue interest for fraction of period: prorate coupon to Interest payable and prorate discount/premium amortization; use months in period (e.g. ÷6 for semi-annual). <!--SR:!2000-01-01,1,250!2026-04-12,4,287-->
+- semi-annual coupon: prorate by months (e.g. 2 months of 6) ::@:: Use 2/6 of period coupon and 2/6 of period amortization; do not use 2/12 (period is 6 months, not 12). <!--SR:!2000-01-01,1,250!2026-04-12,4,287-->
+- bond matures between payment dates: how to handle final interest? ::@:: Compute interest for the final partial period using the same fraction-of-period prorating (e.g. months elapsed ÷ 6) and pay that amount together with redemption of principal; there is no extra coupon on the next scheduled date because the bond has been settled. <!--SR:!2000-01-01,1,250!2026-04-12,4,287-->
 - bond: year-end accrual between payment dates—what to prorate? ::@:: Prorate coupon (to Interest payable) and discount or premium amortization by fraction of period (e.g. months elapsed ÷ 6 for semi-annual).
 - semi-annual period: 2 months elapsed—divide by 6 or 12? ::@:: Divide by 6; the coupon period is 6 months, so 2 months = 2/6 of the period.
 - bond issued between interest dates (par): issuance entry? ::@:: Dr Cash (price + accrued coupon), Cr Bonds payable (face), Cr Interest expense (accrued coupon from last payment date to issue date). <br/> Why: the investor prepays the coupon that will be fully received at the next coupon date; this offset entry nets the issuer's expense to only the actual holding period.
-- bond issued between interest dates: why does the investor pay accrued interest at issuance? ::@:: The next full coupon will be paid to whoever holds the bond on the coupon date. The purchasing investor compensates the issuer for the coupon "earned" before the purchase; the investor's effective return then covers only the stub period held.
-- bond between interest dates: year-end accrual (par, discount, or premium) ::@:: If year-end falls between the issue date and the next coupon date, accrue interest for the stub from __issue date to year-end__ using the carrying amount (not face). <br/> General formula: interest expense = carrying amount × market rate × months-from-issue-to-year-end / 12. <br/> For discount/premium: also prorate the coupon and record discount or premium amortization. On the next coupon date, pay the full coupon; the portion from year-end to coupon is the new year's expense.
+- bond issued between interest dates: why does the investor pay accrued interest at issuance? ::@:: The next full coupon will be paid to whoever holds the bond on the coupon date. The purchasing investor compensates the issuer for the coupon "earned" before the purchase; the investor's effective return then covers only the stub period held. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
+- bond between interest dates: year-end accrual (par, discount, or premium) ::@:: If year-end falls between the issue date and the next coupon date, accrue interest for the stub from __issue date to year-end__ using the carrying amount (not face). <br/> General formula: interest expense = carrying amount × market rate × months-from-issue-to-year-end / 12. <br/> For discount/premium: also prorate the coupon and record discount or premium amortization. On the next coupon date, pay the full coupon; the portion from year-end to coupon is the new year's expense. <!--SR:!2026-04-12,4,270!2000-01-01,1,250-->
 - bond between interest dates (par): when is the final interest paid? ::@:: If the bond remains to a regular coupon date, the last payment includes a full-period coupon plus principal; if it is redeemed between coupon dates, the final payment includes principal plus prorated interest for the final partial period only (no later coupon).
-- bond issued between interest dates (discount/premium): what does investor pay at issue? ::@:: Carrying amount (issue price) + accrued coupon interest (using stated coupon rate and elapsed time since last payment date). <br/> The accrued portion compensates the issuer for the coupon that will be fully paid at the next coupon date, even though the investor only held it partway through the period.
-- bond between interest dates (discount/premium): issuance entry? ::@:: Dr Cash (carrying amount + accrued coupon), Cr Bonds payable (carrying amount), Cr Interest expense (accrued coupon pre-collected). <br/> The Pre-collected credit nets the issuer's later full-coupon debit so net expense = carrying × market rate × actual holding fraction.
-- bond between interest dates (discount/premium): post-issue interest using effective interest method? ::@:: Carrying amount at issue 96&nbsp;000. For the 2-month stub to next coupon: <br/> __Coupon payment entry__: Dr Interest expense 4&nbsp;000 (full 6-month coupon), Cr Cash 4&nbsp;000. <br/> __Amortization entry__: Dr Bonds payable 267 (discount reduces carrying amount), Cr Interest expense 267 (adjusts net expense). <br/> Net effect: Interest Expense = 4&nbsp;000 − 267 = 3&nbsp;733 from these entries + pre-collected 2&nbsp;667 (credit) = net 1&nbsp;600 for the 2-month holding period.
-- bond between interest dates (discount/premium): interaction with year-end interest accrual ::@:: If year-end falls between the issue date and the next coupon date, use Interest Payable only for the accrual: Dr Interest expense (carrying × market × months-from-issue-to-year-end / 12), Cr Interest payable (prorated coupon portion), Cr Bonds payable (prorated discount amortization). <br/> When the coupon is paid at the next date: Dr Interest expense (full coupon), Cr Cash; then Dr Bonds payable (remaining amortization from year-end to coupon date), Cr Interest expense. <br/> Note: the pre-collected Interest expense credit at issuance covers the pre-issue portion; year-end accruals cover the post-issuance stub.
-- bond between interest dates (discount/premium): final interest when redeemed between coupon dates? ::@:: Pay principal (face) plus prorated interest for the final partial period only (carrying × market × months / 12 for interest expense; coupon rate × face × months / 12 for cash coupon); no subsequent full coupon because the bond has been settled. Rounding is cleaned up in this final period so carrying equals face.
+- bond issued between interest dates (discount/premium): what does investor pay at issue? ::@:: Carrying amount (issue price) + accrued coupon interest (using stated coupon rate and elapsed time since last payment date). <br/> The accrued portion compensates the issuer for the coupon that will be fully paid at the next coupon date, even though the investor only held it partway through the period. <!--SR:!2026-04-12,4,270!2026-04-12,4,287-->
+- bond between interest dates (discount/premium): issuance entry? ::@:: Dr Cash (carrying amount + accrued coupon), Cr Bonds payable (carrying amount), Cr Interest expense (accrued coupon pre-collected). <br/> The Pre-collected credit nets the issuer's later full-coupon debit so net expense = carrying × market rate × actual holding fraction. <!--SR:!2000-01-01,1,250!2026-04-12,4,287-->
+- bond between interest dates (discount/premium): post-issue interest using effective interest method? ::@:: Carrying amount at issue 96&nbsp;000. For the 2-month stub to next coupon: <br/> __Coupon payment entry__: Dr Interest expense 4&nbsp;000 (full 6-month coupon), Cr Cash 4&nbsp;000. <br/> __Amortization entry__: Dr Bonds payable 267 (discount reduces carrying amount), Cr Interest expense 267 (adjusts net expense). <br/> Net effect: Interest Expense = 4&nbsp;000 − 267 = 3&nbsp;733 from these entries + pre-collected 2&nbsp;667 (credit) = net 1&nbsp;600 for the 2-month holding period. <!--SR:!2000-01-01,1,250!2026-04-12,4,287-->
+- bond between interest dates (discount/premium): interaction with year-end interest accrual ::@:: If year-end falls between the issue date and the next coupon date, use Interest Payable only for the accrual: Dr Interest expense (carrying × market × months-from-issue-to-year-end / 12), Cr Interest payable (prorated coupon portion), Cr Bonds payable (prorated discount amortization). <br/> When the coupon is paid at the next date: Dr Interest expense (full coupon), Cr Cash; then Dr Bonds payable (remaining amortization from year-end to coupon date), Cr Interest expense. <br/> Note: the pre-collected Interest expense credit at issuance covers the pre-issue portion; year-end accruals cover the post-issuance stub. <!--SR:!2026-04-12,4,270!2000-01-01,1,250-->
+- bond between interest dates (discount/premium): final interest when redeemed between coupon dates? ::@:: Pay principal (face) plus prorated interest for the final partial period only (carrying × market × months / 12 for interest expense; coupon rate × face × months / 12 for cash coupon); no subsequent full coupon because the bond has been settled. Rounding is cleaned up in this final period so carrying equals face. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
 - bond between interest dates: intuitive mental model for cash vs. expense ::@:: __Cash coupon__ (always the same amount): on every coupon date the issuer pays the same full-period cash coupon, regardless of when the bond was issued — it is always face × coupon rate × period length. <br/> __Actual interest expense__ (depends on partial method): the issuer only incurs borrowing cost from the issue date onward; the pre-collected accrued interest at issuance is a negative-interest-expense offset that zeroes out the pre-issue portion. <br/> __Discount/premium amortization__: in the partial-period (stub) after issue, the effective-interest method applies to the actual carrying amount and the actual fraction elapsed since issue; this is a real economic amortization, not just a pro-rata share of the full-period schedule.
 
 ## notes payable and bonds
@@ -292,16 +292,16 @@ Representative journal entry example for an interest-bearing long-term note at d
 > | ----------------------------------------------------- | --------- | --------- |
 > | {@{Interest expense}@}                                | {@{951}@} |           |
 > | {@{Cash}@}                                            |           | {@{800}@} |
-> | {@{Notes payable}@}                                   |           | {@{151}@} |
+> | {@{Notes payable}@}                                   |           | {@{151}@} | <!--SR:!2000-01-01,1,250!2026-04-12,4,287!2026-04-12,4,287!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- notes payable vs bonds (accounting) ::@:: Both are measured at present value and use the effective interest method to recognize interest expense and amortize discount/premium.
-- notes payable vs bonds (practical difference) ::@:: Bonds are widely traded instruments with many investors; long-term notes payable are usually private, non-tradable agreements with a single lender.
+- notes payable vs bonds (accounting) ::@:: Both are measured at present value and use the effective interest method to recognize interest expense and amortize discount/premium. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
+- notes payable vs bonds (practical difference) ::@:: Bonds are widely traded instruments with many investors; long-term notes payable are usually private, non-tradable agreements with a single lender. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
 - interest-bearing note at discount: issuance entry (net)? ::@:: Dr Cash (present value), Cr Notes payable (present value).
-- interest-bearing note at discount: first-year interest entry? ::@:: Dr Interest expense (carrying × market), Cr Cash (face × stated), Cr Notes payable (discount amortized).
+- interest-bearing note at discount: first-year interest entry? ::@:: Dr Interest expense (carrying × market), Cr Cash (face × stated), Cr Notes payable (discount amortized). <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## zero-interest-bearing notes and implicit interest rate
 
@@ -327,16 +327,16 @@ Representative journal entry example:
 > | {@{Notes payable}@}                     |           | {@{695}@} |
 >
 >
-> *Explanation.* Over time, {@{Notes payable increases each year by the interest expense so that the carrying amount grows from 7 721 to 10 000 by maturity}@}; at maturity the entry is {@{Dr Notes payable 10 000, Cr Cash 10 000}@}.
+> *Explanation.* Over time, {@{Notes payable increases each year by the interest expense so that the carrying amount grows from 7 721 to 10 000 by maturity}@}; at maturity the entry is {@{Dr Notes payable 10 000, Cr Cash 10 000}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,287!2000-01-01,1,250!2026-04-12,4,287!2026-04-12,4,270!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,287!2026-04-12,4,287!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,287!2000-01-01,1,250!2026-04-12,4,287!2000-01-01,1,250-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- zero-interest-bearing note ::@:: Note with no periodic interest payments; borrower receives less than face value and repays full face value at maturity; the difference is a discount.
-- implicit interest rate (note) ::@:: The discount rate that equates the maturity amount to the cash received (present value); used to compute interest expense on a zero-interest-bearing or implicit-interest note.
+- zero-interest-bearing note ::@:: Note with no periodic interest payments; borrower receives less than face value and repays full face value at maturity; the difference is a discount. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
+- implicit interest rate (note) ::@:: The discount rate that equates the maturity amount to the cash received (present value); used to compute interest expense on a zero-interest-bearing or implicit-interest note. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
 - interest on zero-interest-bearing note: how recognized? ::@:: As discount amortization using the implicit interest rate; no separate cash interest payments during the term.
-- zero-interest-bearing note: issuance entry? ::@:: Dr Cash (present value received), Cr Notes payable (present value); no separate discount account under net method.
+- zero-interest-bearing note: issuance entry? ::@:: Dr Cash (present value received), Cr Notes payable (present value); no separate discount account under net method. <!--SR:!2026-04-12,4,287!2000-01-01,1,250-->
 - zero-interest-bearing note: how is interest expense recorded? ::@:: Each period, Dr Interest expense, Cr Notes payable using the implicit interest rate; carrying amount increases to face value.
 
 ## notes for noncash transactions and fair value hierarchy
@@ -354,7 +354,7 @@ Representative journal entry examples:
 > | {@{Notes payable}@}                                   |               | {@{200 000}@} |
 >
 >
-> *Explanation.* Land is recorded at {@{fair value (its cash selling price) and the note payable is recorded at the same present value}@}; the difference between {@{220 000 face and 200 000 present value is a discount that will be amortized over the note's life}@}.
+> *Explanation.* Land is recorded at {@{fair value (its cash selling price) and the note payable is recorded at the same present value}@}; the difference between {@{220 000 face and 200 000 present value is a discount that will be amortized over the note's life}@}. <!--SR:!2000-01-01,1,250!2026-04-12,4,270!2026-04-12,4,270!2000-01-01,1,250!2026-04-12,4,287!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > *Scenario.* Company receives architectural services in exchange for a {@{5-year note with face 200 000}@} and no stated interest. No market price is available for the services, but an appropriate discount rate (after considering prime rate, covenants, collateral, and term) is {@{8%}@}. Present value of the note (discounted at 8%) is {@{136 000}@} (rounded).
@@ -369,7 +369,7 @@ Representative journal entry examples:
 
 Flashcards for this section are as follows:
 
-- note for noncash asset: which value to use? ::@:: Prefer the fair value of the asset or service received; record both the asset and the note at that fair value.
+- note for noncash asset: which value to use? ::@:: Prefer the fair value of the asset or service received; record both the asset and the note at that fair value. <!--SR:!2026-04-12,4,270!2000-01-01,1,250-->
 - when to use discounted cash flows for notes? ::@:: When fair value of the noncash asset/service is not observable; estimate future cash flows and discount at an appropriate rate to get present value.
 - present value of note in noncash deal: what does it measure? ::@:: Both the carrying amount of the note payable and the cost of the related asset (when fair value must be inferred).
 - note for noncash asset (fair value known): entry? ::@:: Dr Asset (fair value), Cr Notes payable (same fair value/present value).
@@ -404,7 +404,7 @@ Representative journal entry examples:
 > | {@{Cash}@}                                  |              | {@{101 000}@} |
 >
 >
-> *Explanation.* The loss equals {@{cash paid 101 000 − carrying amount 95 000 = 6 000}@}. If cash paid were less than carrying amount, the difference would instead be a gain.
+> *Explanation.* The loss equals {@{cash paid 101 000 − carrying amount 95 000 = 6 000}@}. If cash paid were less than carrying amount, the difference would instead be a gain. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,287!2026-04-12,4,270!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > *Scenario.* Note payable has carrying amount {@{20 000 000}@}. The lender agrees to accept {@{2 000 000 ordinary shares with par 5}@} to settle the note. On the issue date, the shares trade at {@{8}@} per share (fair value {@{16 000 000}@}). Record the settlement.
@@ -418,7 +418,7 @@ Representative journal entry examples:
 > | {@{Share premium — ordinary}@}                                |                  | {@{6 000 000}@}  |
 >
 >
-> *Explanation.* Shares are measured at fair value {@{16 000 000 (2 000 000 × 8)}@}; equity increases by that amount (par {@{10 000 000}@}, premium {@{6 000 000}@}). The liability's carrying amount exceeds consideration, so the debtor recognises a gain on extinguishment of {@{20 000 000 − 16 000 000 = 4 000 000}@}.
+> *Explanation.* Shares are measured at fair value {@{16 000 000 (2 000 000 × 8)}@}; equity increases by that amount (par {@{10 000 000}@}, premium {@{6 000 000}@}). The liability's carrying amount exceeds consideration, so the debtor recognises a gain on extinguishment of {@{20 000 000 − 16 000 000 = 4 000 000}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,270!2000-01-01,1,250!2026-04-12,4,287!2026-04-12,4,287!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > *Scenario.* Debtor has a building with carrying amount {@{21 000 000}@} and fair value {@{16 000 000}@}. A note payable has carrying amount {@{20 000 000}@}. The lender agrees to accept the building in full settlement of the note.
@@ -436,19 +436,19 @@ Representative journal entry examples:
 > | {@{Gain on extinguishment of debt}@}               |                  | {@{4 000 000}@}  |
 >
 >
-> *Explanation.* The asset loss equals {@{21 000 000 − 16 000 000 = 5 000 000}@}, and the extinguishment gain equals {@{liability 20 000 000 − asset fair value 16 000 000 = 4 000 000}@}; the two effects are reported separately.
+> *Explanation.* The asset loss equals {@{21 000 000 − 16 000 000 = 5 000 000}@}, and the extinguishment gain equals {@{liability 20 000 000 − asset fair value 16 000 000 = 4 000 000}@}; the two effects are reported separately. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,287!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
 Flashcards for this section are as follows:
 
 - extinguishment of debt: when does it occur? ::@:: When a long-term liability is settled before or at maturity, by paying cash, transferring other assets, or issuing equity instruments (e.g. shares) in full settlement.
-- gain vs loss on extinguishment of debt ::@:: Compare carrying amount of the liability with consideration given; consideration &lt; carrying → gain, consideration &gt; carrying → loss.
-- extinguishment using a noncash asset: two-step view ::@:: First remeasure the asset to fair value (gain or loss on asset), then compare liability carrying amount to asset fair value to find gain or loss on extinguishment.
+- gain vs loss on extinguishment of debt ::@:: Compare carrying amount of the liability with consideration given; consideration &lt; carrying → gain, consideration &gt; carrying → loss. <!--SR:!2026-04-12,4,287!2026-04-12,4,287-->
+- extinguishment using a noncash asset: two-step view ::@:: First remeasure the asset to fair value (gain or loss on asset), then compare liability carrying amount to asset fair value to find gain or loss on extinguishment. <!--SR:!2000-01-01,1,250!2026-04-12,4,287-->
 - early extinguishment of debt with cash: how to find gain or loss? ::@:: Compare cash paid with carrying amount; cash > carrying → loss, cash < carrying → gain.
 - debt settled by issuing shares: basic journal entry ::@:: Dr Notes/Bonds payable (carrying amount), Dr/Cr Gain or Loss on extinguishment (for the difference), Cr Share capital (par) and Cr Share premium (issue proceeds in excess of par) based on fair value of shares issued.
 - debt-for-equity swap: how to measure consideration? ::@:: Use the fair value of the shares issued when available; if not, use the fair value or present value of the liability's remaining cash flows.
-- extinguishment by transferring property: why two gains/losses? ::@:: One from remeasuring the asset to fair value; another from comparing liability carrying amount to asset fair value when settling the debt.
+- extinguishment by transferring property: why two gains/losses? ::@:: One from remeasuring the asset to fair value; another from comparing liability carrying amount to asset fair value when settling the debt. <!--SR:!2000-01-01,1,250!2026-04-12,4,270-->
 
 ## modification of debt terms
 
@@ -475,7 +475,7 @@ Representative journal entry example:
 > | {@{Notes payable (new)}@}                             |                  | {@{7 201 336}@} |
 >
 >
-> *Explanation.* The gain on extinguishment equals {@{old carrying amount 10 500 000 − fair value of new note 7 201 336 = 3 298 664}@}. After this entry, the new note {@{with initial carrying amount 7 201 336 is amortized using the new effective interest rate (15%), with interest expense recognised at 15%}@} and the difference between {@{interest expense and cash interest treated as discount amortization each period}@}.
+> *Explanation.* The gain on extinguishment equals {@{old carrying amount 10 500 000 − fair value of new note 7 201 336 = 3 298 664}@}. After this entry, the new note {@{with initial carrying amount 7 201 336 is amortized using the new effective interest rate (15%), with interest expense recognised at 15%}@} and the difference between {@{interest expense and cash interest treated as discount amortization each period}@}. <!--SR:!2026-04-12,4,287!2000-01-01,1,250!2026-04-12,4,270!2026-04-12,4,270!2000-01-01,1,250!2026-04-12,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-04-12,4,287-->
 
 ---
 

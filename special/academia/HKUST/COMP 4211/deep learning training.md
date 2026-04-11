@@ -30,7 +30,7 @@ Flashcards for this section are as follows:
 - four training questions ::@:: The lecture organizes deep-learning training around four linked questions: regularization, optimizer design, learning-rate scheduling, and normalization of hidden activations.
 - why deep training is harder than fitting a shallow model ::@:: Deep models are harder to train because large parameter counts, anisotropic loss geometry, stochastic gradients, and drifting hidden-layer statistics all interact.
 - coordinated-design viewpoint ::@:: Training deep networks well requires a coordinated design of objective, update rule, learning-rate schedule, and normalization layers rather than one isolated trick.
-- why L2, weight decay, Adam, and batch normalization must be separated carefully ::@:: These techniques affect different parts of the training pipeline — loss, update rule, adaptive scaling, or hidden-layer statistics — so conflating them hides important practical differences.
+- why L2, weight decay, Adam, and batch normalization must be separated carefully ::@:: These techniques affect different parts of the training pipeline — loss, update rule, adaptive scaling, or hidden-layer statistics — so conflating them hides important practical differences. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 
 ## weight decay, bagging intuition, and dropout
 
@@ -77,7 +77,7 @@ Flashcards for this section are as follows:
 - L2 regularization versus weight decay ::@:: L2 regularization changes the loss by adding a penalty term, whereas weight decay changes the update rule by directly shrinking parameters; they are conceptually distinct even when they coincide under plain gradient descent.
 - equivalence under plain gradient descent / factor $\frac{1}{2}$ convention ::@:: If $\tilde L(\theta)=L(\theta)+\frac{\lambda}{2}\lVert\theta\rVert_2^2$, then plain gradient descent gives $\theta_{t+1}=\theta_t-\eta(\nabla_\theta L(\theta_t)+\lambda\theta_t)=(1-\eta\lambda)\theta_t-\eta\nabla_\theta L(\theta_t)$, which is exactly weight decay.
 - equivalence under plain gradient descent / no factor $\frac{1}{2}$ convention ::@:: If $\tilde L(\theta)=L(\theta)+\lambda\lVert\theta\rVert_2^2$, then plain gradient descent gives $\theta_{t+1}=\theta_t-\eta(\nabla_\theta L(\theta_t)+2\lambda\theta_t)=(1-2\eta\lambda)\theta_t-\eta\nabla_\theta L(\theta_t)$, so it is still weight decay but with a different coefficient convention.
-- given scalar parameter $\theta_t=2$, learning rate $\eta=0.1$, regularization coefficient $\lambda=0.05$, and no data-gradient term, compare the plain-GD updates for (i) $\tilde L=L+\frac{\lambda}{2}\lVert\theta\rVert_2^2$ and (ii) $\tilde L=L+\lambda\lVert\theta\rVert_2^2$ ::@:: For (i), $\theta_{t+1}=(1-\eta\lambda)\theta_t=(1-0.005)\cdot 2=1.99$; for (ii), $\theta_{t+1}=(1-2\eta\lambda)\theta_t=(1-0.01)\cdot 2=1.98$.
+- given scalar parameter $\theta_t=2$, learning rate $\eta=0.1$, regularization coefficient $\lambda=0.05$, and no data-gradient term, compare the plain-GD updates for (i) $\tilde L=L+\frac{\lambda}{2}\lVert\theta\rVert_2^2$ and (ii) $\tilde L=L+\lambda\lVert\theta\rVert_2^2$ ::@:: For (i), $\theta_{t+1}=(1-\eta\lambda)\theta_t=(1-0.005)\cdot 2=1.99$; for (ii), $\theta_{t+1}=(1-2\eta\lambda)\theta_t=(1-0.01)\cdot 2=1.98$. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 
 ### bagging intuition and subnetworks
 
@@ -174,7 +174,7 @@ These zero initializations are natural because they encode "no history yet." But
 
 Flashcards for this section are as follows:
 
-- parameter initialization versus optimizer-state initialization ::@:: Parameter initialization chooses the starting model weights $\theta_0$, whereas optimizer-state initialization chooses any extra memory variables such as velocity or moment accumulators.
+- parameter initialization versus optimizer-state initialization ::@:: Parameter initialization chooses the starting model weights $\theta_0$, whereas optimizer-state initialization chooses any extra memory variables such as velocity or moment accumulators. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - optimizer state for vanilla SGD ::@:: Vanilla SGD has essentially no extra optimizer state beyond the current parameter vector.
 - momentum-state initialization ::@:: Momentum introduces a velocity state and typically initializes it as $v_0=0$.
 - AdaGrad and RMSProp state initialization ::@:: AdaGrad and RMSProp use squared-gradient accumulators, typically initialized as $s_0=0$.
@@ -340,7 +340,7 @@ The lecture associates batch normalization with three practical benefits: faster
 
 Flashcards for this section are as follows:
 
-- batch normalization purpose ::@:: Batch normalization stabilizes and accelerates training by controlling the scale and distribution of intermediate activations.
+- batch normalization purpose ::@:: Batch normalization stabilizes and accelerates training by controlling the scale and distribution of intermediate activations. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - how batch normalization works at a high level ::@:: It normalizes activations using minibatch statistics and then applies a learnable affine transformation so the network retains representational flexibility.
 - why batch normalization is not just preprocessing ::@:: Unlike fixed input preprocessing, batch normalization acts inside the network during training and still leaves learnable scaling and shifting parameters.
 - three practical benefits of batch normalization ::@:: Batch normalization can accelerate training, reduce initialization sensitivity, and add a regularizing effect because it improves conditioning while minibatch statistics inject mild noise.
@@ -358,7 +358,7 @@ Batch normalization is the deep-learning analogue of extending that idea inward.
 
 Flashcards for this section are as follows:
 
-- why feature-scale mismatch hurts training ::@:: Features on very different numeric scales create elongated loss contours and poorly balanced gradients, which slows optimization.
+- why feature-scale mismatch hurts training ::@:: Features on very different numeric scales create elongated loss contours and poorly balanced gradients, which slows optimization. <!--SR:!2026-04-11,4,270!2000-01-01,1,250-->
 - why normalization helps before deep modeling ::@:: Standardizing raw features makes the optimization geometry more balanced before the data enters the network, reducing avoidable anisotropy.
 - raw-input version of the feature-scale problem ::@:: Data normalization addresses at the input layer the same basic geometry problem that uneven feature scales cause for optimization and regularization more generally.
 - valley-geometry intuition for scale mismatch ::@:: Feature-scale mismatch stretches the loss into a long narrow valley, so one global learning rate must be small enough for the steep direction and therefore becomes slow in the shallow direction.
@@ -413,7 +413,7 @@ Flashcards for this section are as follows:
 - why the practical standardized minibatch variance is only approximately one / $\frac{1}{B}\sum_i \hat x_i^2=\frac{\sigma_{\mathcal B}^2}{\sigma_{\mathcal B}^2+\varepsilon}$ ::@:: With the practical $\varepsilon$-adjusted formula, the second moment becomes $\frac{\sigma_{\mathcal B}^2}{\sigma_{\mathcal B}^2+\varepsilon}\approx 1$, so standardization stays near-unit while gaining numeric stability.
 - role of $\gamma$ and $\beta$ ::@:: The learnable affine parameters $\gamma$ and $\beta$ restore flexibility after standardization by allowing the network to relearn an appropriate scale and shift.
 - effect of affine correction on batch mean and scale ::@:: Since $y_i=\gamma\hat x_i+\beta$, the batch mean becomes $\beta$ and the batch variance becomes approximately $\gamma^2$, so the network can relearn useful offset and scale after normalization.
-- which statistics are used during training ::@:: During training, batch normalization uses the current minibatch statistics $\mu_{\mathcal B}$ and $\sigma_{\mathcal B}^2$ and also updates running estimates for later inference.
+- which statistics are used during training ::@:: During training, batch normalization uses the current minibatch statistics $\mu_{\mathcal B}$ and $\sigma_{\mathcal B}^2$ and also updates running estimates for later inference. <!--SR:!2000-01-01,1,250!2026-04-11,4,270-->
 - which statistics are used during inference ::@:: During inference, batch normalization uses running or dataset-level statistics accumulated from training rather than statistics from the current test example or test minibatch.
 - running-statistics update in batch normalization ::@:: A common running update is $\mu_{\text{run}}\leftarrow \rho\mu_{\text{run}}+(1-\rho)\mu_{\mathcal B}$ and $\sigma^2_{\text{run}}\leftarrow \rho\sigma^2_{\text{run}}+(1-\rho)\sigma^2_{\mathcal B}$, after which inference normalizes with those running statistics.
 - why inference should not use fresh minibatch statistics ::@:: Test-time normalization should use training-distribution statistics so predictions remain stable and do not depend on the accidental composition of a test minibatch.
