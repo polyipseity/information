@@ -21,11 +21,11 @@ tags:
 ## description
 
 - title: Lab2 (Thu)
-- Due: Mar 19 by 1:30pm
+- Due: 2026-03-19T13:30:59+08:00
 - Points: 20
 - Submitting: a file upload
 - File Types: pdf
-- Available: until Mar 19 at 1:30pm
+- Available until: 2026-03-19T13:30:59+08:00
 
 This assignment was locked Mar 19 at 1:30pm.
 
@@ -51,4 +51,4 @@ This assignment was locked Mar 19 at 1:30pm.
 
 ## solution
 
-\(empty\)
+(empty)

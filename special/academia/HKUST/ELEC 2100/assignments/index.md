@@ -15,29 +15,18 @@ tags:
 
 ---
 
-Assignment-related pages live here.
+Homework-related pages live here.
 
 ## logistics
 
 - homework assignments: 18% collectively
-- online quizzes: 5% collectively
 
 ## children
 
-- [homework 1](homework%201/index.md)
-- [homework 2](homework%202/index.md)
-- [homework 3](homework%203/index.md)
-- [online quiz 1](online%20quiz%201/index.md)
-- [online quiz 2](online%20quiz%202/index.md)
-- [online quiz 3](online%20quiz%203/index.md)
-- [online quiz 4](online%20quiz%204/index.md)
-- [online quiz 5](online%20quiz%205/index.md)
-
-## confirmed dates
-
-- [online quiz 3](online%20quiz%203/index.md): 2026-03-31
+- [homework 1](homework%201/index.md): 2026-03-07
 - [homework 2](homework%202/index.md): 2026-04-11
+- [homework 3](homework%203/index.md)
 
 ## notes
 
-- The remaining child pages are minimal schedule-derived stubs until the official Canvas pages are archived.
+- Quiz pages live only under [questions](../questions/index.md); `assignments/` is for homework-style deliverables in this course.
