@@ -370,6 +370,11 @@ Use these defaults:
   paragraph.
 - Add diagram-recall flashcards for key symbols or circuits when the diagram is
   itself a learning target.
+- For signal-processing block-diagram questions, write the explanation as a
+  stage-by-stage chain: identify the operation (for example carrier
+  multiplication or filtering), name the resulting shifted or removed bands
+  using the actual frequency landmarks from the figure when available, then
+  state which component the LTI block preserves or rejects.
 - If the course keeps diagram-generation scripts, keep docstrings descriptive
   enough for future maintainers to reconstruct topology and style.
 - For common schemdraw-style circuit scripts, build the main rail first, save
@@ -474,11 +479,109 @@ Use these rules:
 - For consecutive quote blocks, prefer local MD028 control comments instead of a
   global suppression.
 
+### Canvas quiz conversions
+
+When a Canvas quiz is converted into notes, use a paired public/private layout
+rather than trying to make one page serve both goals.
+
+- Put the public pedagogical page at
+  `special/academia/<INSTITUTION>/<COURSE>/questions/quiz N.md` with an active
+  flashcard tag and a `## hints` section.
+- Put the private archival page at the mirrored private path with an archive
+  flashcard tag and a `## content` section.
+- Do not keep a parallel `assignments/online quiz N/index.md` stub once the
+  quiz has a home in `questions/`. Even if the LMS exposes the quiz through an
+  assignments-style route, the repository should keep quiz families together
+  under `questions/`.
+- Preserve the common quiz metadata in both pages when it is visible in the
+  source: due datetime, points, number of questions, availability window, time
+  limit, and allowed attempts.
+- Public quiz pages should transform the official quiz into review material:
+  recognition rules, conceptual hints, compact worked reminders, and active
+  recall prompts. Keep the public `## hints` in the same order as the
+  archived/private question order even if individual hints are later rewritten
+  to be more conceptual. Do **not** copy the full official question set
+  verbatim into the public page when a private archival page exists.
+- If only quiz timing or schedule metadata is known and the question content has
+  not been archived yet, keep a minimal placeholder page in `questions/quiz
+  N.md` rather than opening a separate assignments stub. Make the placeholder
+  explicit about the missing archived content.
+- Private quiz pages should preserve the official prompt text as faithfully as
+  practical, usually in blockquotes, together with the archived answer state.
+  Do not add a stock boilerplate paragraph at the start of `## content`; begin
+  directly with the questions unless the page needs a genuinely specific caveat
+  about missing source context.
+- If the archived source explicitly shows correctness, grading feedback, or an
+  official solution, label the answer line as `- solution:`.
+- If the archived source only shows a checked option or stored attempt state,
+  do **not** overclaim correctness. Use labels such as `- archived selection:`
+  or `- selected answer:` instead of asserting a solution.
+- If the user later confirms that the archived checked options are indeed
+  correct, you may promote those answer lines to `- solution:` even if the raw
+  screenshot itself only showed a checked state.
+- When a private quiz page records confirmed solutions, add a short explanation
+  bullet for each question. That explanation should carry meaningful cloze
+  coverage of the governing method, condition, distinction, or inference step;
+  do not stop at a bare clozed final option if the reasoning can be stated
+  concisely.
+- Once a private quiz page promotes an archived answer to a confirmed solution,
+  keep the prompt, `Solution:`, and `Explanation:` inside one continuous quoted
+  question block rather than placing `- solution:` or `- explanation:` bullets
+  outside the quote. This keeps the archival unit visually intact and matches
+  the normal quoted-solution style used elsewhere in official question pages.
+- Keep the explanatory cloze coverage even for image-based quiz questions.
+  Embedding the actual figure does not replace the flashcard duty of the text:
+  the quoted `Explanation:` should still cloze the governing method, landmark,
+  contrast, or decision rule that makes the pictured answer correct.
+- If the quoted `Solution:` line itself contains an embedded image, keep at
+  least one cloze on that same `Solution:` line as well. Cloze the chosen
+  option number, the correct branch or topology label, or a short structural
+  descriptor of the pictured answer so the solution is directly reviewable even
+  before the reader reaches the explanation.
+- For image-based quiz questions, prefer extracting the actual figure payloads
+  from archived HTML snapshots into a local quiz `attachments/` folder and
+  embedding them with Markdown image syntax inside the private archival page.
+  Preserve the original Canvas-exported filenames such as `Q2_1.jpg` when they
+  are available so the note remains traceable back to the source archive.
+  Replace placeholder lines like `prompt figure: Q2_1.jpg` with the real image
+  embed once extraction succeeds.
+- If multiple archived snapshots exist, prefer the one that still contains the
+  real question-body image payloads rather than a later protected-results shell.
+  Only fall back to textual figure identifiers when the archive truly lacks an
+  extractable image payload.
+- Keep the public quiz page pedagogical even when the private page embeds the
+  real figures: preserve conceptual hints and active-recall prompts on the
+  public side instead of copying the full official image-heavy prompt verbatim.
+  Keep those hints close enough to the original quiz that a reader can still
+  recognize the target question: preserve the option family, named theorem,
+  transform form, timing pattern, or essential band-edge geometry when that
+  anchor helps. When the user asks for more context, add it mainly on the left-
+  hand prompt itself: use option-family cues, mutated-but-equivalent givens, or
+  decisive spectral, timing, or topology landmarks without reproducing the
+  official choices verbatim. Prefer general reasoning cues first, and use
+  alternate-number toy equations only when they clarify the same method better
+  than a direct but still non-verbatim hint would.
+- If the validator still expects an activation flashcard tag on a private
+  archive-only quiz mirror, prefer a local
+  `ignore-file[metadata_flash_tag]: private archival quiz mirror` suppression
+  over adding a fake active tag.
+- If a quiz question is image-based and extraction is impossible, preserve the
+  available figure identifiers or a short description of the figure dependence
+  so the archival page still records what was shown.
+- Keep public and private basenames aligned, for example `quiz 1.md` on both
+  sides.
+- When a course accumulates multiple converted quizzes, add a public
+  `questions/index.md` collection page that lists the quiz review pages. The
+  private mirror usually stays as a flat quiz-file collection unless the user
+  asks for a private index explicitly.
+
 ## Assignment-style leaf index pages
 
 Some leaf folders represent a single Canvas or LMS assignment-like artifact,
-such as a lab round, homework, quiz handout, project milestone, or similar
-deliverable page with local attachments.
+such as a lab round, homework, project milestone, or similar deliverable page
+with local attachments. Canvas quizzes are the main exception: keep quiz notes
+in `questions/quiz N.md` (and the mirrored private quiz file when archived)
+rather than in `assignments/online quiz N/index.md`.
 
 Use these rules when the source is a Canvas assignment HTML page:
 
@@ -488,6 +591,20 @@ Use these rules when the source is a Canvas assignment HTML page:
 - Treat the Canvas title header as metadata inside `## description`, not as a
   Markdown heading. The first property in that section should be exactly
   `- title: <Canvas title header verbatim>`.
+- Normalize any Canvas-derived metadata value that contains a date, datetime,
+  or duration into ISO 8601. Use timezone-aware ISO datetimes for point events
+  such as `Due` or `locked at`; use an ISO datetime range and append `, <ISO
+  duration>` when both endpoints are known; use an ISO duration for pure
+  durations. If only the closing endpoint is known, prefer a key such as
+  `- Available until: 2026-04-09T13:30:59+08:00` rather than a human-readable
+  phrase. Canvas start timestamps should use seconds `:00`; Canvas end
+  timestamps should use seconds `:59`.
+- Apply that normalization to Canvas **metadata fields only**, not to the
+  ordinary prose body of `## description`. Keep description prose verbatim even
+  when it contains human-readable dates or times, such as `This assignment was
+  locked Mar 5 at 1:30pm.` or colored `Due on` notice text copied from Canvas.
+  The normalized metadata bullets should carry the machine-readable timing,
+  while the surrounding Canvas wording stays as originally shown.
 - For these assignment-style leaf indexes, use this section order:
   index metadata (with no extra `---` after the parent line), `## children`,
   `## description`, `## attachments`, `## submission`, and `## solution`.
@@ -496,6 +613,26 @@ Use these rules when the source is a Canvas assignment HTML page:
   files.
 - Leave `## submission` and `## solution` empty until actual repository
   content is provided.
+- If the user wants only the statement or public handouts exposed publicly,
+  keep those files in the public `attachments/` folder and move only
+  submission or solution artifacts into the mirrored `private/` subtree.
+- When a solution artifact exists, format `## solution` the same way as
+  `## attachments`: use a plain markdown file list such as
+  `- [HW1_Sol.pdf](solution/HW1_Sol.pdf)`.
+- If the submission section needs archived-filename provenance or similar
+  metadata, keep that extra structure only in `## submission`, for example
+  `- file: [submission.pdf](submission.pdf)` followed by nested metadata
+  bullets such as `- filename: ...`.
+- When the task still wants the public page to preserve the normal artifact
+  routes, keep standard relative links in public `## submission` /
+  `## solution` sections _as if the files were colocated_, for example
+  `[submission.pdf](submission.pdf)` or
+  `[HW1_Sol.pdf](solution/HW1_Sol.pdf)`. Do **not** rewrite those links to
+  `private/` paths in the public note.
+- Preserve the visible Canvas wording that mentions private-only or missing
+  artifacts. If a referenced file truly is absent from the archive, keep the
+  wording as plain text or add a short absence note rather than inventing a
+  fake file.
 
 When an assignment-style leaf folder also has companion pages such as
 `lab.md`, `prelab.md`, `submission.md`, or similar pages:
@@ -527,6 +664,10 @@ When an assignment-style leaf folder also has companion pages such as
   covers. Companion pages should read like normal subject-matter notes: start
   with the content itself, and use ordinary reference sentences when routing to
   durable topic notes.
+- Keep prelab pages restricted to preparation-stage knowledge and setup habits.
+  Move solved assignment-specific values, extracted peaks, chosen cutoffs,
+  reconstructed formulas, and post-hoc response interpretation into `lab.md`
+  instead of leaving those results in `prelab.md`.
 - If a concept already has a durable topic note, link to that note instead of
   re-teaching the theory in the companion page.
 - Do not add flashcards for theory that is already covered in the topic note;

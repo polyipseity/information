@@ -23,6 +23,7 @@ from check_mods.rules import (
     header_flashcard_presence,
     header_flashcard_separator,
     header_style,
+    index_canvas_metadata_iso_datetime,
     index_children,
     index_children_agents_link,
     index_children_format,
@@ -189,6 +190,55 @@ def test_index_rules():
     ctx = make_ctx(txt, path=Path("/tmp/index.md"))
     msgs = index_semester_order(ctx)
     assert msgs and "chronological" in msgs[0].msg
+
+
+def test_index_canvas_metadata_iso_datetime_rule():
+    """Canvas-derived leaf indexes should store time metadata in ISO form."""
+
+    bad_lab = "# index\n\n## description\n- title: Lab1 (Thu)\n- Due: Mar 5 by 1:30pm\n- Available: until Mar 5 at 1:30pm\n"
+    ctx_bad_lab = make_ctx(
+        bad_lab,
+        path=Path("/tmp/special/academia/HKUST/ELEC 2100/labs/lab 1/index.md"),
+    )
+    msgs_bad_lab = index_canvas_metadata_iso_datetime(ctx_bad_lab)
+    assert len(msgs_bad_lab) == 2
+    assert all(
+        msg.rule_id == "index_canvas_metadata_iso_datetime" for msg in msgs_bad_lab
+    )
+
+    good_lab = "# index\n\n## description\n- title: Lab1 (Thu)\n- Due: 2026-03-05T13:30:59+08:00\n- Available until: 2026-03-05T13:30:59+08:00\n"
+    ctx_good_lab = make_ctx(
+        good_lab,
+        path=Path("/tmp/special/academia/HKUST/ELEC 2100/labs/lab 1/index.md"),
+    )
+    assert not index_canvas_metadata_iso_datetime(ctx_good_lab)
+
+    bad_assignment = "# index\n\n## logistics\n- due: 2026-04-11\n- type: homework assignment\n- source: Canvas home page\n"
+    ctx_bad_assignment = make_ctx(
+        bad_assignment,
+        path=Path(
+            "/tmp/special/academia/HKUST/ELEC 2100/assignments/homework 2/index.md"
+        ),
+    )
+    msgs_bad_assignment = index_canvas_metadata_iso_datetime(ctx_bad_assignment)
+    assert len(msgs_bad_assignment) == 1
+    assert "ISO datetime" in msgs_bad_assignment[0].msg
+
+    good_assignment = "# index\n\n## logistics\n- due: 2026-04-11T23:59:59+08:00\n- type: homework assignment\n- source: Canvas home page\n"
+    ctx_good_assignment = make_ctx(
+        good_assignment,
+        path=Path(
+            "/tmp/special/academia/HKUST/ELEC 2100/assignments/homework 2/index.md"
+        ),
+    )
+    assert not index_canvas_metadata_iso_datetime(ctx_good_assignment)
+
+    good_description_prose = '# index\n\n## description\n- title: Lab1 (Thu)\n- Due: 2026-03-05T13:30:59+08:00\n\nThis assignment was locked Mar 5 at 1:30pm.\n\n**Due on** **<span style="color: #f4350b;">05 Mar (Thu), 1:30pm</span>**\n'
+    ctx_good_description_prose = make_ctx(
+        good_description_prose,
+        path=Path("/tmp/special/academia/HKUST/ELEC 2100/labs/lab 1/index.md"),
+    )
+    assert not index_canvas_metadata_iso_datetime(ctx_good_description_prose)
 
 
 @pytest.mark.anyio

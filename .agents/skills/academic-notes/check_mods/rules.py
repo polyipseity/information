@@ -189,10 +189,10 @@ def index_heading(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-def _extract_children_section(text: str) -> list[tuple[int, str]]:
-    """Return the lines contained within the `## children` section.
+def _extract_named_h2_section(text: str, heading: str) -> list[tuple[int, str]]:
+    """Return the lines contained within a named `## <heading>` section.
 
-    The section begins after a `## children` heading and ends at the next
+    The section begins after a matching level-2 heading and ends at the next
     header of the same or higher level (i.e. a line starting with `#`).
 
     Returns a list of (line_number, line_text) tuples.
@@ -201,7 +201,7 @@ def _extract_children_section(text: str) -> list[tuple[int, str]]:
     lines = text.splitlines()
     start_line = None
     for idx, line in enumerate(lines):
-        if re.match(r"^##\s+children\s*$", line, re.IGNORECASE):
+        if re.match(rf"^##\s+{re.escape(heading)}\s*$", line, re.IGNORECASE):
             start_line = idx + 1
             break
     if start_line is None:
@@ -213,6 +213,12 @@ def _extract_children_section(text: str) -> list[tuple[int, str]]:
             break
         section.append((idx + 1, lines[idx]))
     return section
+
+
+def _extract_children_section(text: str) -> list[tuple[int, str]]:
+    """Return the lines contained within the `## children` section."""
+
+    return _extract_named_h2_section(text, "children")
 
 
 async def _path_exists(href: str, base: Path) -> bool:
@@ -399,6 +405,90 @@ def index_non_suppression_html_comments(
                 col_end=col_end,
             )
         )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def index_canvas_metadata_iso_datetime(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Require ISO datetime and duration values in Canvas-derived leaf indexes.
+
+    Applies to assignment-style leaf ``index.md`` pages under ``assignments`` or
+    ``labs``. The rule inspects metadata bullets in ``## description`` and
+    ``## logistics`` and requires ISO 8601 values for due timestamps,
+    availability endpoints or ranges, and durations.
+    """
+
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    path_str = ctx.path.as_posix().casefold()
+    if not re.search(r"/(assignments|labs)/[^/]+/index\.md$", path_str):
+        return errors
+
+    iso_datetime = r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[+-]\d{2}:\d{2}"
+    iso_duration = (
+        r"P(?!$)(?:\d+Y)?(?:\d+M)?(?:\d+W)?(?:\d+D)?(?:T(?:\d+H)?(?:\d+M)?(?:\d+S)?)?"
+    )
+    iso_range = rf"{iso_datetime}/{iso_datetime}(?:,\s*{iso_duration})?"
+
+    def _push(line_no: int, line: str, msg: str) -> None:
+        errors.append(
+            ValidationMessage(
+                "index_canvas_metadata_iso_datetime",
+                msg,
+                line=line_no,
+                col=1,
+                col_end=len(line) if line else 1,
+            )
+        )
+
+    sections = _extract_named_h2_section(
+        ctx.text, "description"
+    ) + _extract_named_h2_section(ctx.text, "logistics")
+    for line_no, line in sections:
+        stripped = line.strip()
+        m = re.match(r"^-\s*([^:]+):\s*(.+)$", stripped)
+        if not m:
+            continue
+        key = m.group(1).strip().casefold()
+        value = m.group(2).strip()
+
+        if key == "due":
+            if value.casefold() == "tbd":
+                continue
+            if not re.fullmatch(iso_datetime, value):
+                _push(
+                    line_no,
+                    stripped,
+                    "Canvas-derived due metadata must use one ISO datetime with timezone",
+                )
+        elif key in {"available until", "locked at", "start", "end"}:
+            if not re.fullmatch(iso_datetime, value):
+                _push(
+                    line_no,
+                    stripped,
+                    f"Canvas-derived '{key}' metadata must use one ISO datetime with timezone",
+                )
+        elif key == "available":
+            if not (
+                re.fullmatch(rf"until\s+{iso_datetime}", value)
+                or re.fullmatch(iso_range, value)
+            ):
+                _push(
+                    line_no,
+                    stripped,
+                    "Canvas-derived availability metadata must use 'until <ISO datetime>' or '<ISO start>/<ISO end>, <ISO duration>'",
+                )
+        elif "duration" in key and not re.fullmatch(iso_duration, value):
+            _push(
+                line_no,
+                stripped,
+                "Canvas-derived duration metadata must use ISO duration syntax",
+            )
+
     return errors
 
 
