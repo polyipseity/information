@@ -18,7 +18,7 @@ In this course the point is not to rebuild real analysis from scratch, but to ke
 
 Flashcards for this section are as follows:
 
-- Riemann integration / overview ::@:: In this course, Riemann integration is the one-dimensional integration framework used to justify probability densities, interval probabilities, and improper integrals over tails or near singular endpoints.
+- overview ::@:: In this course, Riemann integration is the one-dimensional integration framework used to justify probability densities, interval probabilities, and improper integrals over tails or near singular endpoints.
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ## Riemann sums and integrability
@@ -147,7 +147,7 @@ If $f$ is continuous at $a$, the proof is direct. By continuity there exists $\d
 
 If $f$ is not continuous at $a$ but is piecewise continuous and nonnegative, one argues indirectly from the existence of the improper integral. Choose $b>a$ such that $f$ is continuous on $(a,b]$. Because the improper integral $\lim_{n\to\infty}\int_{a+1/n}^b f(x)\,dx$ exists, the sequence of truncated integrals is Cauchy. Therefore for every $\eta>0$ there exists $N\in\mathbb{N}$ such that for all $n\ge N$, one has $\left|\int_{a+1/n}^b f(x)\,dx-\int_{a+1/N}^b f(x)\,dx\right|<\eta$. Since $f\ge0$, the left-hand side is exactly $\int_{a+1/n}^{a+1/N} f(x)\,dx<\eta$.
 
-Now fix any $0<\delta<1/N$. For all large $n$ with $1/n<\delta$, nonnegativity gives $0\le\int_{a+1/n}^{a+\delta} f(x)\,dx\le\int_{a+1/n}^{a+1/N} f(x)\,dx<\eta$. Passing to the limit $n\to\infty$ yields $0\le\int_a^{a+\delta} f(x)\,dx\le\eta$. Since $\eta>0$ was arbitrary, this proves again that $\int_a^{a+\delta} f(x)\,dx\to0$ as $\delta\downarrow0$.
+Now fix any $0<\delta<1/N$. For all large $n$ with $1/n<\delta$, nonnegativity gives $0\le\int_{a+1/n}^{a+\delta} f(x)\,dx\le\int_{a+1/n}^{a+1/N} f(x)\,dx<\eta$. Passing to the limit $n\to\infty$ yields $0\le\int_a^{a+\delta} f(x)\,dx\le\eta$. The small detail is that the last inequality weakens from $<\eta$ to $\le\eta$ exactly at this limit step: strict inequalities need not survive taking limits (for example $1-1/n<1$ for all $n$ but $1-1/n\to1$), whereas non-strict inequalities do. Since $\eta>0$ was arbitrary, this proves again that $\int_a^{a+\delta} f(x)\,dx\to0$ as $\delta\downarrow0$.
 
 This is the rigorous reason that even an integrable singularity does not create positive probability at a single point. The density may become large near the point, but the total area over a shrinking interval still goes to zero.
 
@@ -158,5 +158,5 @@ Flashcards for this section are as follows:
 - shrinking interval integral $\int_a^{a+\delta} f(x)\,dx$ ::@:: If $f\colon\mathbb{R}\to[0,\infty)$ is piecewise continuous and improperly Riemann-integrable, then $\lim_{\delta\downarrow0}\int_a^{a+\delta} f(x)\,dx=0$ for every $a\in\mathbb{R}$.
 - proof when $f$ is continuous at $a$ / estimate ::@:: If $|f(x)-f(a)|<1$ near $a$, then $0\le\int_a^{a+\delta} f(x)\,dx\le\int_a^{a+\delta}|f(a)|\,dx+\int_a^{a+\delta}|f(x)-f(a)|\,dx<(|f(a)|+1)\delta$, so the integral tends to $0$ as $\delta\downarrow0$.
 - proof when $f$ is not continuous at $a$ / Cauchy step ::@:: If the improper integral $\int_a^b f(x)\,dx$ exists, then the truncated integrals $\int_{a+1/n}^b f(x)\,dx$ form a Cauchy sequence, so for every $\eta>0$ there is $N$ with $\int_{a+1/n}^{a+1/N} f(x)\,dx<\eta$ for all $n\ge N$.
-- proof when $f$ is not continuous at $a$ / squeezing step ::@:: After fixing $0<\delta<1/N$ and choosing $n$ with $1/n<\delta$, nonnegativity gives $0\le\int_{a+1/n}^{a+\delta} f(x)\,dx\le\int_{a+1/n}^{a+1/N} f(x)\,dx<\eta$; letting $n\to\infty$ yields $0\le\int_a^{a+\delta} f(x)\,dx\le\eta$, so the limit is $0$.
+- proof when $f$ is not continuous at $a$ / squeezing step ::@:: After fixing $0<\delta<1/N$ and choosing $n$ with $1/n<\delta$, nonnegativity gives $0\le\int_{a+1/n}^{a+\delta} f(x)\,dx\le\int_{a+1/n}^{a+1/N} f(x)\,dx<\eta$. Letting $n\to\infty$ gives $0\le\int_a^{a+\delta} f(x)\,dx\le\eta$; the rightmost inequality becomes non-strict exactly here, because strict inequalities need not survive limits, while non-strict ones do. So the limit is $0$.
 - why integrability still gives point probability $0$ ::@:: Even if a density blows up near a point, integrability forces the probability of a shrinking interval around that point to go to $0$, so a single point cannot carry positive mass in a continuous density model.

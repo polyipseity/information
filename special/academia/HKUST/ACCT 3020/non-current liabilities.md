@@ -134,7 +134,7 @@ Representative journal entry examples:
 > | {@{Interest payable}@}                         |              | {@{9 000}@} |
 > | {@{Bonds payable}@}                            |              | {@{1 187}@} |
 >
-> _Explanation._ Interest expense equals {@{carrying amount × market rate and the discount amortized = interest expense − coupon}@}; credit {@{Bonds payable to increase carrying amount toward face value}@}. On payment date: Dr Interest payable 9 000, Cr Cash 9 000.
+> _Explanation._ Interest expense equals {@{carrying amount × market rate and the discount amortized = interest expense − coupon}@}; credit {@{Bonds payable to increase carrying amount toward face value}@}. On payment date: {@{Dr Interest payable 9 000, Cr Cash 9 000}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ First semi-annual period: {@{interest expense 3 256, coupon 4 000, premium amortized 744}@}. Cash paid on payment date.
@@ -145,7 +145,7 @@ Representative journal entry examples:
 > | {@{Bonds payable}@}                           | {@{744}@}   |             |
 > | {@{Interest payable}@}                        |             | {@{4 000}@} |
 >
-> _Explanation._ Premium amortized equals {@{coupon − interest expense}@}; debit {@{Bonds payable to decrease carrying amount toward face value}@}. On payment date: Dr Interest payable 4 000, Cr Cash 4 000.
+> _Explanation._ Premium amortized equals {@{coupon − interest expense}@}; debit {@{Bonds payable to decrease carrying amount toward face value}@}. On payment date: {@{Dr Interest payable 4 000, Cr Cash 4 000}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ {@{5-year bond, face 100 000, matures; carrying amount equals face value}@}.
@@ -242,7 +242,7 @@ Flashcards for this section are as follows:
 - bond matures between payment dates: how to handle final interest? ::@:: Compute interest for the final partial period using the same fraction-of-period prorating (e.g. months elapsed ÷ 6) and pay that amount together with redemption of principal; there is no extra coupon on the next scheduled date because the bond has been settled.
 - bond: year-end accrual between payment dates—what to prorate? ::@:: Prorate coupon (to _Interest payable_) and discount or premium amortization by fraction of period (e.g. months elapsed ÷ 6 for semi-annual).
 - semi-annual period: 2 months elapsed—divide by 6 or 12? ::@:: Divide by 6; the coupon period is 6 months, so 2 months = 2/6 of the period.
-- bond issued between interest dates (par): issuance entry? ::@:: Dr _Cash_ (price + accrued coupon), Cr _Bonds payable_ (face), Cr _Interest expense_ (accrued coupon from last payment date to issue date). <br/> Why: the investor prepays the coupon that will be fully received at the next coupon date; this offset entry nets the issuer's expense to only the actual holding period.
+- bond issued between interest dates (par): issuance entry? ::@:: Dr _Cash_ (price + accrued coupon), Cr _Bonds payable_ (carrying amount), Cr _Interest expense_ (accrued coupon from last payment date to issue date). <br/> Why: the investor prepays the coupon that will be fully received at the next coupon date; this offset entry nets the issuer's expense to only the actual holding period.
 - bond issued between interest dates: why does the investor pay accrued interest at issuance? ::@:: The next full coupon will be paid to whoever holds the bond on the coupon date. The purchasing investor compensates the issuer for the coupon "earned" before the purchase; the investor's effective return then covers only the stub period held.
 - bond between interest dates: year-end accrual (par, discount, or premium) ::@:: If year-end falls between the issue date and the next coupon date, accrue interest for the stub from __issue date to year-end__ using the carrying amount (not face). <br/> General formula: interest expense = carrying amount × market rate × months-from-issue-to-year-end / 12. <br/> For discount/premium: also prorate the coupon and record discount or premium amortization. On the next coupon date, pay the full coupon; the portion from year-end to coupon is the new year's expense.
 - bond between interest dates (par): when is the final interest paid? ::@:: If the bond remains to a regular coupon date, the last payment includes a full-period coupon plus principal; if it is redeemed between coupon dates, the final payment includes principal plus prorated interest for the final partial period only (no later coupon).

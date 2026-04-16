@@ -83,7 +83,7 @@ In this framing, when {@{$x_{i}$ is not actually a [random variable](random%20va
 
 1. The regression line ::@:: goes through the _center of mass_ point, $({\bar {x} },\,{\bar {y} })$, if the model includes an intercept term \(i.e., not forced through the origin\).
 2. The sum of the residuals ::@:: is zero if the model includes an intercept term: $$\sum _{i=1}^{n}{\widehat {\varepsilon } }_{i}=0.$$
-3. The residuals and _x_ values ::@:: are uncorrelated \(whether or not there is an intercept term in the model\), meaning: $$\sum _{i=1}^{n}x_{i}{\widehat {\varepsilon } }_{i}\;=\;0$$
+3. The residuals and _x_ values ::@:: are uncorrelated \(whether or not there is an intercept term in the model\), meaning: $$\sum _{i=1}^{n}x_{i}{\widehat {\varepsilon } }_{i}\;=\;0$$ (annotation: This is intuitively seen by noting the OLS solution projects the vector of the _y_ values onto the vector of _x_ values, thus the vector of residuals is orthogonal to the vector of _x_ values.)
 4. The relationship between $\rho _{xy}$ \(the [correlation coefficient for the population](Pearson%20correlation%20coefficient.md#for%20a%20population)\) and the population variances of $y$ \($\sigma _{y}^{2}$\) and the error term of $\epsilon$ \($\sigma _{\epsilon }^{2}$\) is:<sup>[\[10\]](#^ref-10)</sup><sup>:&hairsp;401&hairsp;</sup> ::@:: $$\sigma _{\epsilon }^{2}=(1-\rho _{xy}^{2})\sigma _{y}^{2}$$ For extreme values of $\rho _{xy}$ this is self evident. Since when $\rho _{xy}=0$ then $\sigma _{\epsilon }^{2}=\sigma _{y}^{2}$. And when $\rho _{xy}=1$ then $\sigma _{\epsilon }^{2}=0$.
 
 ## statistical properties
