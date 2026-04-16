@@ -962,6 +962,26 @@ def test_topic_note_redundant_filename_prefix():
     )
 
 
+def test_topic_note_redundant_filename_prefix_reports_file_line_number():
+    """The reported location should be in full-file coordinates, not body-relative."""
+
+    txt = (
+        "---\n"
+        "aliases: [a]\n"
+        "tags: [language/in/English, flashcard/active/special/academia/test/topic]\n"
+        "---\n\n"
+        "# Topic\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- Topic / definition ::@:: details\n"
+    )
+    msgs = topic_note_redundant_filename_prefix(
+        make_ctx(txt, Path("/tmp/course/topic.md"))
+    )
+    assert msgs and msgs[0].rule_id == "topic_note_redundant_filename_prefix"
+    # 1-4 frontmatter, 5 blank, 6 title, 7 blank, 8 marker, 9 blank, 10 bullet
+    assert msgs[0].line == 10
+
+
 def test_latex_spacing_before_paren():
     """Spacing rule allows '(' and '{' before dollar but not letters directly."""
 

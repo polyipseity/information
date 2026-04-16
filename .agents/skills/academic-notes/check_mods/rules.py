@@ -2315,6 +2315,7 @@ def topic_note_redundant_filename_prefix(
     title = title_match.group(1).strip() if title_match else ""
     stem_lower = stem.casefold()
     title_lower = title.casefold()
+    body_start = len(ctx.text) - len(ctx.body)
     lines = ctx.body.splitlines(keepends=True)
     offset = 0
     in_flashcards = False
@@ -2358,7 +2359,7 @@ def topic_note_redundant_filename_prefix(
 
         if stem_redundant or title_redundant:
             repeated = title if title_redundant and title else stem
-            line_no, col_no = locate(ctx.body, offset)
+            line_no, col_no = locate(ctx.text, body_start + offset)
             errors.append(
                 ValidationMessage(
                     rule_id="topic_note_redundant_filename_prefix",
