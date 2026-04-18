@@ -1372,6 +1372,64 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
     return errors
 
 
+@RULE_REGISTRY.register()
+def header_flashcard_sections_duplicate(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Disallow duplicate flashcard sections within a single header block.
+
+    A header block should contain at most one flashcard section marker line:
+    ``Flashcards for this section are as follows:``. If duplicates are found,
+    authors should merge the sections and deduplicate overlapping cards.
+    """
+    errors: list[ValidationMessage] = []
+    name = ctx.path.name.lower()
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if (
+        name == "index.md"
+        or name == "questions.md"
+        or name == "agents.md"
+        or "questions" in parent_parts
+    ):
+        return errors
+
+    marker_re = re.compile(
+        r"^\s*Flashcards for this section are as follows:\s*$",
+        re.IGNORECASE | re.MULTILINE,
+    )
+
+    for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
+        start = h.end()
+        # For this rule, use the immediate next header (any level) so nested
+        # subsections are validated independently.
+        m = re.search(r"^#{1,6}\s+", ctx.text[start:], re.MULTILINE)
+        end = start + (m.start() if m else len(ctx.text) - start)
+        section = ctx.text[start:end]
+        occurrences = list(marker_re.finditer(section))
+        if len(occurrences) >= 2:
+            dup = occurrences[1]
+            abs_start = start + dup.start()
+            line, col, col_end = locate_range(ctx.text, abs_start, len(dup.group(0)))
+            hdr = h.group(0).strip()
+            errors.append(
+                ValidationMessage(
+                    rule_id="header_flashcard_sections_duplicate",
+                    msg=(
+                        f"header {hdr!r} contains multiple flashcard section blocks; "
+                        "merge duplicate flashcard sections into one '---' + "
+                        "'Flashcards for this section are as follows:' block and "
+                        "deduplicate cards when the flashcards overlap significantly, "
+                        "instead of deleting an entire duplicate section"
+                    ),
+                    line=line,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+
+    return errors
+
+
 # flashcard calculation sanity -------------------------------------------------
 
 
@@ -2637,6 +2695,78 @@ def cloze_no_nested(ctx: ValidationContext) -> list[ValidationMessage]:
 
 # split the original check into two specific rules; retain a wrapper
 # for backward compatibility.
+
+
+@RULE_REGISTRY.register()
+def no_consecutive_source_newlines(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag consecutive source newlines in markdown text.
+
+    This rule enforces that markdown source should not contain runs of
+    three or more consecutive newline tokens. It checks *actual*
+    newline characters and does not treat HTML line breaks such as ``<br/>``
+    as newlines.
+
+    Trailing whitespace is stripped from each source line before evaluating
+    blank-line runs so lines like ``"   \n"`` behave like empty lines.
+
+    To cover quoted content, lines that consist only of blockquote markers
+    (``>``, ``>>``, ``> >`` etc.) are treated as blank for this rule.
+    Mixed line endings (``\n``, ``\r\n``, and ``\r``) are handled explicitly.
+    """
+
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+
+    line_start = 0
+    newline_run = 0
+    in_violation_run = False
+
+    for raw_line in text.splitlines(keepends=True):
+        if raw_line.endswith("\r\n"):
+            line_content = raw_line[:-2]
+            line_ending = "\r\n"
+        elif raw_line.endswith("\n") or raw_line.endswith("\r"):
+            line_content = raw_line[:-1]
+            line_ending = raw_line[-1]
+        else:
+            line_content = raw_line
+            line_ending = ""
+
+        line_content = line_content.rstrip()
+        stripped_quote = re.sub(r"^\s*(?:>\s*)+", "", line_content)
+        is_effectively_blank = stripped_quote.strip() == ""
+
+        if line_ending:
+            if is_effectively_blank:
+                newline_run += 1
+            else:
+                newline_run = 1
+        else:
+            newline_run = 0
+
+        if newline_run >= 3:
+            if not in_violation_run:
+                line_no, col_no, col_end = locate_range(text, line_start, 1)
+                errors.append(
+                    ValidationMessage(
+                        rule_id="no_consecutive_source_newlines",
+                        msg=(
+                            "three or more consecutive source newlines detected; "
+                            "remove extra blank source lines (including quote-only blank lines) "
+                            "and use <br/> if a visual line break is required"
+                        ),
+                        line=line_no,
+                        col=col_no,
+                        col_end=col_end,
+                    )
+                )
+                in_violation_run = True
+        else:
+            in_violation_run = False
+
+        line_start += len(raw_line)
+
+    return errors
 
 
 @RULE_REGISTRY.register()

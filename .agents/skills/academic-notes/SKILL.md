@@ -169,8 +169,14 @@ Also follow these rules:
 - Do not flatten dense lecture material into a few broad summaries. Preserve the
   explicit distinctions, classifications, formulas, examples, counterexamples,
   and teaching caveats that make the lecture memorable.
-- Do not use unresolved chapter numbers as substitutes for links when no
-  chapter-page artifact exists in the repository.
+- Do not use chapter numbers as durable navigation, routing, or flashcard cues.
+  Source decks, `.tmp` extracts, and temporary teaching materials may later
+  disappear, so durable notes must refer to topic names, canonical note files,
+  and in-repo section links instead.
+- When tutorials, exams, or office-hours questions reveal a tricky question,
+  edge case, or "what if" variant, absorb it into the canonical topic note
+  under a descriptive subheading instead of leaving it in a detached collector
+  or as a chapter-based memory cue.
 - Keep companion notes at similar rigor when the mathematics genuinely mirrors,
   especially for continuous-time versus discrete-time analogues.
 - If a general topic note starts accumulating a coherent subcluster — for
@@ -434,6 +440,10 @@ collector.
   provision plus settlement, or bond issue between coupon dates plus first
   coupon-date adjustment), keep that cluster together in the same topical
   section.
+- Keep every journal-entry scenario, Dr/Cr table, and short calculation
+  explanation above that section's local flashcard block. Once `Flashcards for
+  this section are as follows:` begins, the remainder of the section should be
+  flashcards only until the next header.
 - Use markdown tables with right-aligned Dr/Cr columns.
 - Wrap the first-column header description and each account name in clozes.
 - Mask all debit and credit amounts in the worked example with clozes and use

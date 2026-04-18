@@ -21,6 +21,7 @@ from check_mods.rules import (
     cloze_wrong_closing_token,
     folder_link_trailing_slash,
     header_flashcard_presence,
+    header_flashcard_sections_duplicate,
     header_flashcard_separator,
     header_style,
     index_canvas_metadata_iso_datetime,
@@ -42,6 +43,7 @@ from check_mods.rules import (
     metadata_aliases_present,
     metadata_flash_tag,
     metadata_tags_present,
+    no_consecutive_source_newlines,
     no_control_characters,
     no_lecture_summary,
     no_smart_double_quotes,
@@ -430,6 +432,51 @@ def test_header_flashcard_rules_exempt_agents():
     ctx = make_ctx(txt, path=Path("/tmp/course/COMP 4211/AGENTS.md"))
     assert not header_flashcard_presence(ctx)
     assert not header_flashcard_separator(ctx)
+
+
+def test_header_flashcard_sections_duplicate_rule():
+    """A header block must not contain two or more flashcard section markers."""
+
+    single = (
+        "## expected warranty liability\n\n"
+        "Some explanatory prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card 1 ::@:: answer 1\n"
+    )
+    path = Path("/tmp/course/topic.md")
+    assert not header_flashcard_sections_duplicate(make_ctx(single, path=path))
+
+    duplicate = (
+        "## expected warranty liability\n\n"
+        "Some explanatory prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card 1 ::@:: answer 1\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card 2 ::@:: answer 2\n"
+    )
+    msgs_duplicate = header_flashcard_sections_duplicate(make_ctx(duplicate, path=path))
+    assert (
+        msgs_duplicate
+        and msgs_duplicate[0].rule_id == "header_flashcard_sections_duplicate"
+    )
+    assert "merge" in msgs_duplicate[0].msg.lower()
+    assert "deduplic" in msgs_duplicate[0].msg.lower()
+
+    # Nested subsection should be treated as an independent header block.
+    nested = (
+        "## warranty\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- parent card ::@:: parent answer\n\n"
+        "### expected warranty liability\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- child card ::@:: child answer\n"
+    )
+    assert not header_flashcard_sections_duplicate(make_ctx(nested, path=path))
 
 
 def test_agents_title_rule():
@@ -1245,6 +1292,55 @@ def test_no_soft_wrap_list():
     txt = "First line\nsecond line\n"
     ctx = make_ctx(txt)
     assert not no_soft_wrap_list(ctx)
+
+
+def test_no_consecutive_source_newlines_rule():
+    """Consecutive source newlines should be detected across line-ending styles."""
+
+    # No blank source line => no violation.
+    assert not no_consecutive_source_newlines(make_ctx("alpha\nbeta\n"))
+
+    # Two consecutive newline tokens should be allowed now.
+    assert not no_consecutive_source_newlines(make_ctx("alpha\n\nbeta\n"))
+
+    # Three consecutive newline tokens should be flagged.
+    plain_three = make_ctx("alpha\n\n\nbeta\n")
+    msgs_plain_three = no_consecutive_source_newlines(plain_three)
+    assert msgs_plain_three
+    assert msgs_plain_three[0].rule_id == "no_consecutive_source_newlines"
+    assert msgs_plain_three[0].line == 3
+
+    # Mixed line endings with only two newline tokens should be allowed.
+    assert not no_consecutive_source_newlines(make_ctx("alpha\r\n\r\nbeta\n"))
+
+    # Mixed line endings should be flagged at three consecutive newline tokens.
+    mixed_three = make_ctx("alpha\r\n\r\n\r\nbeta\n")
+    msgs_mixed_three = no_consecutive_source_newlines(mixed_three)
+    assert msgs_mixed_three
+    assert msgs_mixed_three[0].rule_id == "no_consecutive_source_newlines"
+    assert msgs_mixed_three[0].line == 3
+
+    # Trailing whitespace should be stripped before newline-run evaluation.
+    trailing_ws = make_ctx("alpha   \r\n\t   \r\n  \t\r\nbeta\n")
+    msgs_trailing_ws = no_consecutive_source_newlines(trailing_ws)
+    assert msgs_trailing_ws
+    assert msgs_trailing_ws[0].rule_id == "no_consecutive_source_newlines"
+    assert msgs_trailing_ws[0].line == 3
+
+    # Quote-only blank line with only two newline tokens should be allowed.
+    assert not no_consecutive_source_newlines(
+        make_ctx("> first line\n>\n> second line\n")
+    )
+
+    # Quote-only blank lines should count toward three-consecutive-newline spans.
+    quoted_three = make_ctx("> first line\n>\n>\n> second line\n")
+    msgs_quoted_three = no_consecutive_source_newlines(quoted_three)
+    assert msgs_quoted_three
+    assert msgs_quoted_three[0].rule_id == "no_consecutive_source_newlines"
+    assert msgs_quoted_three[0].line == 3
+
+    # <br/> is HTML, not a source newline token.
+    assert not no_consecutive_source_newlines(make_ctx("alpha<br/>beta\n"))
 
 
 @pytest.mark.anyio

@@ -34,8 +34,12 @@ extension work.
 - Keep technical notes at the lecture's real depth: preserve formulas,
   distinctions, derivation skeletons, and representative examples or
   counterexamples.
-- Do not use chapter numbers as stand-ins for links when the repository has no
-  chapter page to link to.
+- Do not use chapter numbers as durable references in prose, flashcards,
+  routes, or agent guidance. `.tmp` materials and source decks are not a
+  stable navigation layer; use topic names and in-repo section links instead.
+- When a tutorial, exam, or review question reveals a tricky case, exam trap,
+  or "what if" variant, fold it into the canonical topic note under a clear
+  subheading and update the relevant `index.md` route.
 - Keep companion continuous-time and discrete-time notes at comparable rigor
   when the mathematics genuinely mirrors.
 - Do not automatically prune motivating historical or technology context if the
@@ -43,6 +47,9 @@ extension work.
 - In topic notes, prefer QA cards rather than cloze in prose, except that
   accounting journal-entry worked examples may use cloze inside quoted
   scenarios, tables, calculations, and short explanations.
+- In accounting topic notes, keep every journal-entry scenario and Dr/Cr table
+  above the local `Flashcards for this section are as follows:` block; once
+  that rubric begins, only flashcards should remain until the next header.
 - Make flashcards standalone: restate givens, assumptions, notation, and any
   needed diagram context.
 - Keep math on one source line and use `$...$` / `$$...$$`; do not use `\(\)`
