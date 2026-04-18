@@ -435,6 +435,13 @@ def index_canvas_metadata_iso_datetime(
     iso_range = rf"{iso_datetime}/{iso_datetime}(?:,\s*{iso_duration})?"
 
     def _push(line_no: int, line: str, msg: str) -> None:
+        """Add a validation error message for ISO datetime validation.
+
+        Args:
+            line_no: Line number of the error.
+            line: The line content.
+            msg: The error message.
+        """
         errors.append(
             ValidationMessage(
                 "index_canvas_metadata_iso_datetime",
