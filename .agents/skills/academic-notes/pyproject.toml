@@ -1,7 +1,7 @@
 [tool.ty.environment]
 python-platform = "all"
 root = [".", "tests_a7392be"]
-extra-paths = ["typings"]
+extra-paths = []
 
 [tool.ty.rules]
 all = "error"
