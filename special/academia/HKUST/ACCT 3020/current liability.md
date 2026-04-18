@@ -9,7 +9,7 @@ tags:
 
 # current liability
 
-This note covers the definition of a liability, the classification of [current liability](../../../../general/Current%20liability.md) under IFRS (operating cycle and 12-month criteria), notes payable (short-term and long-term interest-bearing), refinancing and when debt is classified as current versus long-term, income tax payable, and compensated absence (e.g. vacation pay). The material aligns with Chapter 12; provisions and contingencies (liabilities of uncertain timing and amount) are covered in [provisions and contingencies](provisions%20and%20contingencies.md).
+This note covers the definition of a liability, the classification of [current liability](../../../../general/Current%20liability.md) under IFRS (operating cycle and 12-month criteria), notes payable (short-term and long-term interest-bearing), refinancing and when debt is classified as current versus long-term, income tax payable, and compensated absence (e.g. vacation pay). It is the short-term-liabilities home for ACCT 3020. Provisions and contingencies (liabilities of uncertain timing and amount) are covered in [provisions and contingencies](provisions%20and%20contingencies.md).
 
 ## definition of liability
 
@@ -50,6 +50,15 @@ Flashcards for this section are as follows:
 
 ## notes payable
 
+Notes payable are more formal than ordinary supplier balances because they are documented by a note that fixes the principal amount, maturity date, and sometimes an explicit interest rate. In this note, the topic is split into three recurring patterns: short-term interest-bearing borrowing, conversion of an overdue account payable into a note, and implicit-interest notes issued at a discount. The common accounting idea is that once the note exists, the entity must track not only the principal obligation but also the interest mechanism built into the contract, whether that interest is stated directly or hidden in the discount.
+
+---
+
+Flashcards for this section are as follows:
+
+- notes payable: three subtopics in this note ::@:: This section breaks notes payable into supplier-balance conversions, short-term interest-bearing borrowing, and implicit-interest notes issued at a discount.
+- notes payable: why is a note more structured than ordinary accounts payable? ::@:: A note is a formal contract that states principal, timing, and often interest, so later accounting must track accrual, settlement, and sometimes discount amortization.
+
 ### accounts payable versus notes payable
 
 Accounts payable typically involve amounts owed to suppliers with __no stated interest__ and short credit terms (e.g. 30 days). Notes payable arise from a __separate contract__ (a note) that states the principal, interest rate, and due date. A supplier may require the conversion of an account payable into a note payable (with interest) if the amount is owed for too long; the journal entry is Dr Accounts payable, Cr Notes payable.
@@ -68,6 +77,18 @@ Flashcards for this section are as follows:
 
 When the entity borrows cash and signs a short-term interest-bearing note, it records Dr Cash, Cr Notes payable at the borrowing date. The stated interest rate is usually an __annual__ rate; interest for a fraction of a year is prorated (e.g. principal × rate × 4/12 for four months). Under the __accrual__ concept, interest expense is recognised in the period it is incurred. At year-end, the entity records Dr Interest expense, Cr Interest payable for the accrued interest even if cash is not yet paid. When the note is settled at the due date, the entity records Dr Notes payable, Dr Interest payable, Cr Cash.
 
+---
+
+Flashcards for this section are as follows:
+
+- short-term interest-bearing notes: recurring three-stage pattern ::@:: Record the borrowing first, accrue interest to year-end as time passes, and then remove the note plus accrued interest when the note is settled.
+- short-term interest-bearing notes: why is year-end accrual necessary? ::@:: Because interest expense belongs to the period incurred even when the cash payment happens later at the maturity date.
+- short-term interest-bearing note: journal entry at borrowing? ::@:: Dr _Cash_, Cr _Notes payable_ (amount = principal received).
+- short-term interest-bearing note: journal entry at settlement (due date)? ::@:: Dr _Notes payable_ (principal), Dr _Interest payable_ (accrued), Dr _Interest expense_ (any remaining), Cr _Cash_ (total paid).
+- stated interest rate on a short-term note is usually ::@:: Annual; interest for a fraction of a year is prorated (e.g. principal × rate × months/12 or principal × rate × days/360 if the problem uses a day-count basis).
+
+#### basic accrual and settlement pattern
+
 Representative journal entry examples:
 
 > _Scenario._ Entity {@{borrows 50 000 on 1 November, 8% annual rate}@}, due in {@{six months}@}.
@@ -85,7 +106,7 @@ Representative journal entry examples:
 > | {@{Interest expense}@}            | {@{833.33}@} |              |
 > | {@{Interest payable}@}            |              | {@{833.33}@} |
 >
-> _Calculation._ {@{Interest}@} = {@{50 000 × 0.08 × 2/12}@} = {@{833.33}@}.
+> _Calculation._ Interest = {@{50 000 × 0.08 × 2/12 = 833.33}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Note matures; {@{total cash paid 52 000 (principal 50 000 + interest 2 000)}@}. Assume {@{833.33 already accrued; remainder interest at settlement}@}.
@@ -101,17 +122,35 @@ Representative journal entry examples:
 
 Flashcards for this section are as follows:
 
-- short-term interest-bearing note: Given principal P, annual rate r, months to year-end m, how is interest recorded at year-end? ::@:: Accrue interest P × r × m/12; Dr _Interest expense_, Cr _Interest payable_.
-- short-term interest-bearing note: journal entry at borrowing? ::@:: Dr _Cash_, Cr _Notes payable_.
-- short-term interest-bearing note: journal entry at settlement? ::@:: Dr _Notes payable_, Dr _Interest payable_, Cr _Cash_.
-- stated interest rate is usually ::@:: Annual; interest for a fraction of a year is prorated (e.g. principal × rate × months/12).
-- why accrue interest at year-end? ::@:: Under the accrual concept, interest expense is recognised in the period it is incurred, even if cash is not yet paid.
-- short-term interest-bearing note: journal entry at borrowing? ::@:: Dr _Cash_, Cr _Notes payable_ (amount = principal received).
+- short-term note basic accrual pattern: what is expensed at settlement? ::@:: Only the interest for the remaining period not already sitting in _Interest payable_; the earlier accrued amount is removed separately.
+- short-term note basic pattern: why is the maturity-date interest expense smaller than total note interest? ::@:: Because part of the total interest was already recognized through the year-end accrual entry.
 - borrowing on short-term note: Entity borrows 50 000 on 8% note—entry? ::@:: Dr _Cash_ 50 000, Cr _Notes payable_ 50 000.
-- short-term note: how is interest accrued at year-end? ::@:: Interest = principal × annual rate × (months to year-end / 12); Dr _Interest expense_, Cr _Interest payable_.
 - short-term note interest accrual: Given principal 50 000, 8% annual rate, 2 months elapsed—entry? ::@:: Dr _Interest expense_ 833.33, Cr _Interest payable_ 833.33 (i.e. 50 000 × 0.08 × 2/12).
-- short-term note: journal entry at settlement (due date)? ::@:: Dr _Notes payable_ (principal), Dr _Interest payable_ (accrued), Dr _Interest expense_ (any remaining), Cr _Cash_ (total paid).
 - settling short-term note: Pay 52 000 (principal 50 000 + interest), 833.33 already in Interest payable—entry? ::@:: Dr _Notes payable_ 50 000, Dr _Interest payable_ 833.33, Dr _Interest expense_ 1 166.67, Cr _Cash_ 52 000.
+
+#### odd-day maturity and day-count traps
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Odd-day maturity instead of a clean month-end note._ Entity {@{borrows 60 000 on 17 October on a 9% 120-day note}@}. The company uses a {@{360-day year for short notes}@}. By {@{31 December, 75 of the 120 days have elapsed}@}, so it has already accrued {@{60 000 × 0.09 × 75/360 = 1 125}@}. At maturity, the remaining {@{45 days of interest = 675}@} are settled together with principal.
+>
+<!-- markdownlint-disable MD060 -->
+> | {@{Settle odd-day note using accrued and remaining interest separately}@} | Dr        | Cr        |
+> | ------------------------------------------------------------------------ | --------- | --------- |
+> | {@{Notes payable}@}                                                       | {@{60 000}@} |         |
+> | {@{Interest payable}@}                                                    | {@{1 125}@} |         |
+> | {@{Interest expense}@}                                                    | {@{675}@} |           |
+> | {@{Cash}@}                                                                |           | {@{61 800}@} |
+<!-- markdownlint-enable MD060 -->
+>
+> _Explanation._ The final settlement uses only the {@{remaining 45-day interest}@}, because the first {@{75 days were already accumulated in Interest payable at year-end}@}.
+
+---
+
+Flashcards for this section are as follows:
+
+- odd-day note maturity: what is the core habit? ::@:: Use the actual elapsed fraction given in the problem, accrue the portion already passed at year-end, and settle only the remaining days at maturity.
+- odd-day maturity trap ::@:: Do not recompute the note's entire interest again at maturity; remove the accrued amount in _Interest payable_ and expense only the unaccrued remainder.
+- odd-day note example: 60 000, 9%, 120-day note with 75 days accrued by year-end—what is settled at maturity? ::@:: Remove _Interest payable_ 1 125 for the first 75 days, expense only the remaining 45-day interest of 675, and credit _Cash_ 61 800 together with removing _Notes payable_ 60 000.
 
 ### conversion of accounts payable to notes payable
 
@@ -177,17 +216,10 @@ Flashcards for this section are as follows:
 - implicit (embedded) interest ::@:: The difference when a note is issued at discount (cash received &lt; maturity amount); allocated as interest expense over the term.
 - when does implicit interest arise? ::@:: When a note is issued at a discount (cash received < amount due at maturity); no separate interest rate is stated.
 - implicit interest note: why credit Notes payable not Interest payable? ::@:: So the carrying amount of the note increases to the maturity amount; if credited to _Interest payable_ the note would stay at the original amount.
-- implicit interest note: Given total discount and term, allocation formula and entry? ::@:: Allocate total implicit interest over term (e.g. discount × months elapsed / 12); Dr _Interest expense_, Cr _Notes payable_.
+- implicit-interest note: Given total discount D and months elapsed m of total term, how is accrual recorded? ::@:: Allocate interest over the term (e.g. D × m/12); Dr _Interest expense_, Cr _Notes payable_ so the note's carrying amount grows to the maturity amount.
 - implicit interest note: receive 75 000, repay 81 000 in 12 months—accrual for 3 months? ::@:: Dr _Interest expense_ 1 500, Cr _Notes payable_ 1 500 (i.e. 6 000 × 3/12).
 - implicit interest note at maturity: journal entry? ::@:: Dr _Notes payable_ (full maturity amount), Cr _Cash_.
 - settling note with implicit interest: carrying amount 81 000 at due date—entry? ::@:: Dr _Notes payable_ 81 000, Cr _Cash_ 81 000.
-
----
-
-Flashcards for this section are as follows:
-
-- notes payable vs accounts payable ::@:: Notes payable: separate contract with principal, interest rate, and due date; accounts payable: typically no interest, short credit terms.
-- implicit-interest note: Given total implicit interest (discount) D and months elapsed m of total term, how is accrual recorded? ::@:: Allocate interest D × m/12 over the term; Dr _Interest expense_, Cr _Notes payable_ so the note's carrying amount grows to the maturity amount.
 
 ## refinancing and classification as current or long-term
 
@@ -208,7 +240,7 @@ Flashcards for this section are as follows:
 
 ## income tax payable
 
-At the end of the reporting period, if the entity has determined that tax is owed but not yet paid, it recognises a current liability: Dr Tax expense (or similar), Cr Tax payable. The amount is typically due within a few months (e.g. three or four months) after the reporting date, so it is classified as current. Detailed treatment of income taxes (including deferred tax) is covered in Chapter 18.
+At the end of the reporting period, if the entity has determined that tax is owed but not yet paid, it recognises a current liability: Dr Tax expense (or similar), Cr Tax payable. The amount is typically due within a few months (e.g. three or four months) after the reporting date, so it is classified as current. Detailed treatment of deferred tax, temporary differences, and interperiod tax allocation is covered in [accounting for income taxes](accounting%20for%20income%20taxes.md).
 
 Representative journal entry example:
 
@@ -234,6 +266,15 @@ Employee benefits such as __vacation pay__ or paid leave that can be converted i
 
 Example: employees earn two weeks of paid vacation at the beginning of their second year; the company considers the vacation pay to be earned during the first year. At the end of the first year, 10 employees have earned 20 unused vacation weeks at 480 per week. The entity records Dr Salaries and wages expense 9&nbsp;600 (20 × 480), Cr Wages payable 9&nbsp;600. In the next year when employees take the vacation and are paid, the wage rate may have increased (e.g. to 540 per week). The entity pays 20 × 540 and records Dr Wages payable 9&nbsp;600, Dr Salaries and wages expense (for the difference to current rate), Cr Cash. The liability is settled and the remainder is expense of the period in which payment occurs.
 
+---
+
+Flashcards for this section are as follows:
+
+- compensated absence: core recognition rule ::@:: Recognize the expense and liability when employees earn the vested right to the paid benefit, not only when the leave is later taken or paid.
+- compensated absence: why can later payment create extra expense? ::@:: Because the liability was accrued using the earned-period wage rate, while the actual settlement may happen at a different current wage rate.
+
+### vested rights, accrual, and settlement
+
 Representative journal entry examples:
 
 > _Scenario._ End of year 1: {@{20 unused vacation weeks earned at 480 per week}@}. Total {@{9 600}@}.
@@ -252,7 +293,64 @@ Representative journal entry examples:
 > | {@{Salaries and wages expense}@}                        | {@{1 200}@} |              |
 > | {@{Cash}@}                                              |             | {@{10 800}@} |
 >
-> _Explanation._ The liability is settled at the rate originally accrued {@{(20 weeks × 480 = 9 600)}@}. When cash is paid at the higher current rate {@{(20 weeks × 540 = 10 800)}@}, the extra {@{1 200}@} is current-period salaries and wages expense.
+> _Explanation._ The liability is settled at the rate originally accrued {@{(20 weeks × 480 = 9 600)}@}. When cash is paid at the higher current rate {@{(20 weeks × 540 = 10 800)}@}, the extra {@{1 200 is current-period salaries and wages expense caused by the higher payment-date wage rate}@}.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Weird flip: wages fall instead of rise._ The same {@{20 vested vacation weeks were accrued at 480 per week}@}, but when employees actually take the leave the current wage rate has fallen to {@{450 per week, so total cash paid is only 9 000}@}.
+>
+<!-- markdownlint-disable MD060 -->
+> | {@{Settle compensated absence when the current wage rate is lower than the accrued rate}@} | Dr        | Cr        |
+> | -------------------------------------------------------------------------------------------- | --------- | --------- |
+> | {@{Wages payable}@}                                                                         | {@{9 600}@} |         |
+> | {@{Cash}@}                                                                                  |           | {@{9 000}@} |
+> | {@{Salaries and wages expense}@}                                                            |           | {@{600}@} |
+<!-- markdownlint-enable MD060 -->
+>
+> _Explanation._ This deliberately produces a {@{credit to current-period salaries and wages expense}@} because the liability had been recorded using a {@{higher earned wage rate than the later payment rate}@}.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Only vested employees create the liability._ At year-end, {@{12 employees have completed the vesting period and earned 24 unused weeks at 500 per week}@}. Another {@{3 employees have worked only 9 months and are not yet vested}@}. The company accrues only the vested amount.
+>
+<!-- markdownlint-disable MD060 -->
+> | {@{Recognise compensated-absence liability only for vested employees}@} | Dr         | Cr         |
+> | ---------------------------------------------------------------------- | ---------- | ---------- |
+> | {@{Salaries and wages expense}@}                                       | {@{12 000}@} |          |
+> | {@{Wages payable}@}                                                    |            | {@{12 000}@} |
+<!-- markdownlint-enable MD060 -->
+>
+> _Explanation._ The non-vested employees do {@{not yet have an unconditional right to the benefit}@}, so they are {@{excluded from the year-end liability measurement}@}.
+
+---
+
+Flashcards for this section are as follows:
+
+- compensated absence vested-right test ::@:: Include only employees whose service has already created a vested entitlement, because only that earned portion is a present obligation at year-end.
+- compensated absence settlement: what happens when actual wages differ from the accrued rate? ::@:: Remove the old _Wages payable_ at the accrued amount and send the difference between that amount and current cash payment to current-period _Salaries and wages expense_ (or a credit to that expense if wages fell).
+
+### unused vacation carried forward beyond the first settlement period
+
+If employees do __not__ use all of the vacation already accrued, the company does not simply forget the remaining liability. The unused vested portion stays in _Wages payable_ until it is either used or paid out. If the company updates the year-end liability to the amount expected to be paid for that remaining entitlement, any increase caused by higher wage rates becomes an additional current-period expense.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Only part of the vested vacation is used._ A company begins the year with {@{Wages payable of 9&nbsp;600 for 20 vested vacation weeks accrued at 480 per week}@}. During the year, employees use only {@{14 of the 20 vested weeks}@}, and the current wage rate when used is {@{540 per week, so cash paid for the used portion is 7&nbsp;560}@}. The remaining {@{6 vested weeks are still unused at year-end}@}.
+>
+> | {@{Settle only the portion of vacation actually used during the year}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Wages payable}@} | {@{6&nbsp;720}@} | |
+> | {@{Salaries and wages expense}@} | {@{840}@} | |
+> | {@{Cash}@} | | {@{7&nbsp;560}@} |
+>
+> _Calculation._ The used portion removes {@{14 × 480 = 6&nbsp;720}@} from the old liability. Cash paid is {@{14 × 540 = 7&nbsp;560}@}, so the extra {@{840}@} is current-period salaries and wages expense. After this entry, the carrying balance left in {@{Wages payable is 2&nbsp;880 for the 6 unused weeks still outstanding}@}.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Year-end remeasurement of the unused portion._ If the company now expects those {@{6 unused vested weeks}@} to be paid at the current rate of {@{540 per week, so the remaining liability should be 3&nbsp;240 rather than 2&nbsp;880}@}.
+>
+> | {@{Increase the liability for the still-unused vested vacation to the expected settlement amount}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Salaries and wages expense}@} | {@{360}@} | |
+> | {@{Wages payable}@} | | {@{360}@} |
+>
+> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end.
 
 ---
 
@@ -263,7 +361,10 @@ Flashcards for this section are as follows:
 - vacation pay example: 20 weeks at 480/week earned (end of year 1)—journal entry? ::@:: Dr _Salaries and wages expense_&emsp;9&nbsp;600 <br/> &emsp;Cr _Wages payable_&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;9&nbsp;600 <br/> (20 weeks × 480; recognised at year-end when the vesting period is complete.)
 - vacation pay example: Wages payable 9&nbsp;600 settled, employees paid at 540/week—journal entry? ::@:: Dr _Wages payable_&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;9&nbsp;600 <br/> Dr _Salaries and wages expense_&emsp;1&nbsp;200 <br/> &emsp;Cr _Cash_&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;10&nbsp;800 <br/> (Settled with cash 20 × 540 = 10&nbsp;800; wage increase 60/week generates extra 1&nbsp;200 expense in the payment period.)
 - vacation pay: what if wage decreases when paid (e.g. from 480 to 450/week)? ::@:: Dr _Wages payable_ 9&nbsp;600, Cr _Cash_ (20 × 450 = 9&nbsp;000), Cr _Salaries and wages expense_ (600 credit/gain). <br/> The original liability was 9&nbsp;600 at the earned rate (480/week); settlement at lower rate (450/week) generates a credit to expense (reduces current-period expense).
+- compensated absence: who is included in the year-end accrual? ::@:: Only employees who have completed the vesting requirement and therefore already have a vested right to the future paid absence.
 - compensated absence: when to recognise expense and liability? ::@:: When the right is earned (e.g. at end of vesting period), even if payment is in a later period; Dr _Salaries and wages expense_, Cr _Wages payable_.
 - vacation pay earned: 20 weeks at 480/week at end of year 1—entry? ::@:: Dr _Salaries and wages expense_ 9 600, Cr _Wages payable_ 9 600.
 - compensated absence: journal entry when vacation is paid (current rate > accrued rate)? ::@:: Dr _Wages payable_ (accrued amount), Dr _Salaries and wages expense_ (difference to current rate), Cr _Cash_ (total paid).
 - vacation pay paid: Wages payable 9 600, pay 20 weeks at 540/week—entry? ::@:: Dr _Wages payable_ 9 600, Dr _Salaries and wages expense_ 1 200, Cr _Cash_ 10 800.
+- unused vested vacation at year-end: what happens if only part of the accrued leave was used? ::@:: Remove only the portion actually used from _Wages payable_; the unused vested portion stays as a liability until used or paid out.
+- unused vested vacation carried forward: when is an extra year-end expense needed? ::@:: If the remaining vested vacation is expected to be paid at a higher current wage rate than the amount still sitting in _Wages payable_, debit _Salaries and wages expense_ and credit _Wages payable_ for the remeasurement difference.

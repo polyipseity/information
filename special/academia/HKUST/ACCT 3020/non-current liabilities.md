@@ -124,9 +124,18 @@ The course uses the __effective interest method__ only (not straight-line amorti
 
 Why is interest expense different from the coupon? For a discount, the issuer effectively "lost" by selling below face; that cost is spread over the life of the bond as extra interest expense. For a premium, part of the premium is used to reduce interest expense each period. Because interest and amortization amounts are usually rounded in practice, small rounding differences may accumulate; the final period's interest expense and discount or premium amortization are adjusted slightly so the carrying amount equals the exact face value at maturity.
 
+---
+
+Flashcards for this section are as follows:
+
+- effective-interest method for bonds: two core calculations each period ::@:: Compute interest expense from beginning carrying amount × effective market rate, then compare it with the fixed coupon to determine discount or premium amortization.
+- effective-interest method: why does carrying amount move every period? ::@:: Because discount amortization increases carrying amount toward face value, while premium amortization decreases carrying amount toward face value.
+
+### discount bonds: carrying amount rises toward face value
+
 Representative journal entry examples:
 
-> _Scenario._ First interest period: {@{interest expense 10 187, coupon 9 000, discount amortized 1 187}@}. Coupon paid on payment date.
+> _Scenario._ First interest period for the {@{discount bond issued above with beginning carrying amount 92 608, face 100 000, coupon rate 9%, and market rate 11%}@}: {@{interest expense 10 187, coupon 9 000, discount amortized 1 187}@}. Coupon paid on payment date.
 >
 > | {@{Recognise interest and amortise discount}@} | Dr           | Cr          |
 > | ---------------------------------------------- | ------------ | ----------- |
@@ -137,7 +146,29 @@ Representative journal entry examples:
 > _Explanation._ Interest expense equals {@{carrying amount × market rate and the discount amortized = interest expense − coupon}@}; credit {@{Bonds payable to increase carrying amount toward face value}@}. On payment date: {@{Dr Interest payable 9 000, Cr Cash 9 000}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ First semi-annual period: {@{interest expense 3 256, coupon 4 000, premium amortized 744}@}. Cash paid on payment date.
+> _Second-period discount amortization gets bigger, not smaller._ After the first year's amortization, the bond's carrying amount rises to {@{93 795 = 92 608 + 1 187}@}. Using the same {@{11% market rate and 9% coupon}@}, the next year's interest expense rises to {@{10 317}@}, so the discount amortization also increases.
+>
+> | {@{Recognise second-period interest on the discount bond after the carrying amount has increased}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Interest expense}@} | {@{10 317}@} | |
+> | {@{Interest payable}@} | | {@{9 000}@} |
+> | {@{Bonds payable}@} | | {@{1 317}@} |
+>
+> _Explanation._ Under the effective-interest method, a discount bond often becomes more awkward each period because {@{interest expense is based on a carrying amount that keeps growing toward face value}@}.
+
+---
+
+Flashcards for this section are as follows:
+
+- discount bond: why does carrying amount rise over time? ::@:: Because each period's discount amortization is credited to the liability side, pushing the carrying amount upward until it reaches face value at maturity.
+- discount bond: why can later-period interest expense become larger? ::@:: Because effective interest is applied to a carrying amount that keeps growing after each round of discount amortization.
+
+### premium bonds: carrying amount falls toward face value
+
+For a premium bond, the coupon cash paid each period is larger than the effective-interest expense. The excess coupon over effective interest is the premium amortization, and that amortization reduces the bond's carrying amount over time.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Scenario._ First semi-annual period for the {@{premium bond issued above with beginning carrying amount 108 530, face 100 000, annual coupon rate 8% paid semi-annually, and per-period market rate 3%}@}: {@{coupon cash paid = 100 000 × 8% × 6/12 = 4 000}@}, {@{interest expense = 108 530 × 3% = 3 256}@}, so {@{premium amortized = 4 000 − 3 256 = 744}@}. Cash paid on payment date.
 >
 > | {@{Recognise interest and amortise premium}@} | Dr          | Cr          |
 > | --------------------------------------------- | ----------- | ----------- |
@@ -146,6 +177,46 @@ Representative journal entry examples:
 > | {@{Interest payable}@}                        |             | {@{4 000}@} |
 >
 > _Explanation._ Premium amortized equals {@{coupon − interest expense}@}; debit {@{Bonds payable to decrease carrying amount toward face value}@}. On payment date: {@{Dr Interest payable 4 000, Cr Cash 4 000}@}.
+
+---
+
+Flashcards for this section are as follows:
+
+- premium bond: why does carrying amount fall over time? ::@:: Because the issuer keeps amortizing the premium by applying part of each coupon payment against the liability instead of against interest expense.
+- premium bond: what is the sign pattern in the journal entry? ::@:: Debit _Interest expense_, debit _Bonds payable_ for premium amortization, and credit the full coupon to _Interest payable_ or _Cash_.
+
+### amortization tables: how to write one and how to use one
+
+An amortization table is just the effective-interest method written as a schedule instead of as isolated journal entries. For each period, keep five moving pieces in order:
+
+1. __Beginning carrying amount__.
+2. __Cash interest paid__ = face value × stated coupon rate.
+3. __Interest expense__ = beginning carrying amount × effective market rate.
+4. __Amortization__ = interest expense − cash interest for a discount, or cash interest − interest expense for a premium.
+5. __Ending carrying amount__ = beginning carrying amount ± amortization.
+
+For a discount bond, add the amortization to the carrying amount. For a premium bond, subtract it. The table should be built from the same rates and same carrying amounts that the journal entries use; the journal entry is then just the table row translated into debits and credits.
+
+> _Discount-bond amortization table._ Suppose a company issues a {@{3-year bond with face value 10&nbsp;000}@}, stated coupon {@{8% annually, and market yield 10% annually}@}. The issue price is approximately {@{9&nbsp;503, creating an initial discount from the 10&nbsp;000 face value}@}. The effective-interest schedule is:
+>
+> | Period | Beginning carrying amount | Cash interest paid | Interest expense at 10% | Discount amortized | Ending carrying amount |
+> | --- | ---: | ---: | ---: | ---: | ---: |
+> | {@{Year 1}@} | {@{9&nbsp;503}@} | {@{800}@} | {@{950}@} | {@{150}@} | {@{9&nbsp;653}@} |
+> | {@{Year 2}@} | {@{9&nbsp;653}@} | {@{800}@} | {@{965}@} | {@{165}@} | {@{9&nbsp;818}@} |
+> | {@{Year 3}@} | {@{9&nbsp;818}@} | {@{800}@} | {@{982}@} | {@{182}@} | {@{10&nbsp;000}@} |
+>
+> _How to read the table._ In year 1, the company pays only the stated {@{800 cash coupon}@}, but interest expense is {@{950 because 9&nbsp;503 × 10%}@}. The difference of {@{150 is the discount amortization for year 1}@}, so the carrying amount rises to {@{9&nbsp;653 after adding that year-1 discount amortization}@}. The same logic repeats every year. In the final period, a small rounding adjustment may be needed so the ending carrying amount reaches the exact {@{face value of 10&nbsp;000}@}.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Translate one row into a journal entry._ Using the year-2 row above:
+>
+> | {@{Record year-2 interest using the amortization table row}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Interest expense}@} | {@{965}@} | |
+> | {@{Cash / Interest payable}@} | | {@{800}@} |
+> | {@{Bonds payable}@} | | {@{165}@} |
+>
+> _Explanation._ The amortization table is not a second method. It is just the effective-interest method written in a way that makes the next journal entry and the next carrying amount obvious.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ {@{5-year bond, face 100 000, matures; carrying amount equals face value}@}.
@@ -161,18 +232,11 @@ Representative journal entry examples:
 
 Flashcards for this section are as follows:
 
+- amortization table: why is it not a separate accounting method? ::@:: Because it is just the effective-interest method displayed as a schedule of beginning carrying amount, cash interest, interest expense, amortization, and ending carrying amount.
+- amortization table row to journal entry ::@:: Use the row's interest expense as the debit, the coupon cash or interest payable as the fixed credit, and the amortization amount as the balancing debit or credit to _Bonds payable_.
+- amortization table for a bond: what columns should appear? ::@:: Period/date, beginning carrying amount, cash interest, interest expense using the effective rate, discount or premium amortization, and ending carrying amount.
+- amortization table: how do you tell whether the amortization is added or subtracted? ::@:: Add amortization for a discount bond because carrying amount must rise toward face value; subtract amortization for a premium bond because carrying amount must fall toward face value.
 - effective interest method (bonds) ::@:: _Interest expense_ = carrying amount × market (effective) rate; amortize discount or premium so carrying amount moves to face value at maturity; no straight-line in this course.
-- bond discount: why is interest expense &gt; coupon payment? ::@:: Discount is amortized to _interest expense_; the "loss" from issuing below face is spread over periods.
-- bond premium: why is interest expense &lt; coupon payment? ::@:: Premium is amortized to reduce _interest expense_ each period.
-- discount amortization (bond) ::@:: _Interest expense_ − coupon payment; increases carrying amount (Cr _Bonds payable_ or reduce _Discount on bonds payable_).
-- premium amortization (bond) ::@:: Coupon payment − _interest expense_; decreases carrying amount (Dr _Bonds payable_ or _Premium on bonds payable_).
-- rounding in bond interest schedule ::@:: Because interest and amortization are rounded, the last period's amounts may be adjusted slightly so that the final carrying amount equals the exact face value at maturity.
-- bond (discount): interest date entry? ::@:: Dr _Interest expense_, Cr _Interest payable_ (coupon), Cr _Bonds payable_ (discount amortized).
-- bond discount amortization: how is it recorded? ::@:: Credit _Bonds payable_ (or reduce _Discount on bonds payable_) each period; amount = interest expense − coupon payment.
-- bond (premium): interest date entry? ::@:: Dr _Interest expense_, Dr _Bonds payable_ (premium amortized), Cr _Interest payable_ (coupon).
-- bond premium amortization: how is it recorded? ::@:: Debit _Bonds payable_ (or _Premium on bonds payable_) each period; amount = coupon payment − interest expense.
-- bond at maturity: journal entry? ::@:: Dr _Bonds payable_ (face value), Cr _Cash_.
-- bond maturity: why no gain or loss (typical case)? ::@:: Carrying amount has been amortized to face value; payment equals _liability_.
 - bond schedule rounding: where is it fixed? ::@:: In the final period; _interest expense_ and discount/premium amortization may be tweaked slightly so the ending carrying amount equals the exact face value.
 - bond redeemed between interest dates: what does the final payment include? ::@:: Principal plus prorated interest for the final partial period up to redemption/maturity; no later coupon payment because the bond has been settled.
 
@@ -182,7 +246,7 @@ When the reporting date falls between two coupon payment dates, the entity accru
 
 Representative journal entry examples:
 
-> _Scenario._ Semi-annual bond; {@{year-end is 2 months into the current 6-month period}@}. Full-period coupon {@{4 000}@}, full-period premium amortization {@{744}@}. Prorate: 2/6.
+> _Scenario._ Using the {@{premium bond with face 100 000, annual coupon rate 8% paid semi-annually, beginning carrying amount 108 530, and per-period market rate 3%}@}, assume {@{year-end is 2 months into the current 6-month period}@}. Full-period coupon is {@{4 000 = 100 000 × 8% × 6/12}@}, full-period interest expense is {@{108 530 × 3% = 3 256}@}, and full-period premium amortization is {@{4 000 − 3 256 = 744}@}. Prorate the 6-month amounts by {@{2/6}@}.
 >
 > | {@{Accrue interest and premium amortization (2 months of 6)}@} | Dr          | Cr          |
 > | -------------------------------------------------------------- | ----------- | ----------- |
@@ -191,6 +255,17 @@ Representative journal entry examples:
 > | {@{Interest payable}@}                                         |             | {@{1 333}@} |
 >
 > _Explanation._ Interest payable equals {@{4 000 × 2/6 = 1 333}@}, premium amortized equals {@{744 × 2/6 = 248}@}, and interest expense equals {@{1 333 − 248 = 1 085}@}. For a discount bond, credit Bonds payable (prorated discount amortization) instead of debiting.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Irregular day-count accrual instead of a neat month fraction._ Suppose the same semi-annual premium bond has a coupon period containing {@{184 days in total}@}, and year-end falls after {@{107 of those 184 days}@}. Full-period coupon is still {@{4 000}@} and full-period premium amortization is still {@{744}@}, but the accrual must now use the actual day fraction rather than a clean month count.
+>
+> | {@{Accrue interest and premium amortization using actual days elapsed}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Interest expense}@} | {@{1 894}@} | |
+> | {@{Bonds payable}@} | {@{433}@} | |
+> | {@{Interest payable}@} | | {@{2 327}@} |
+>
+> _Calculation._ Interest payable = {@{4 000 × 107/184 ≈ 2 327}@}. Premium amortization = {@{744 × 107/184 ≈ 433}@}. Interest expense = {@{2 327 − 433 = 1 894}@}. The point is to use the {@{actual fraction of the coupon period given in the problem}@}, not a memorized {@{2/6 or 2/12}@} shortcut.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Bond with face {@{100 000}@}, coupon {@{8%}@}, interest paid semi-annually (every 6 months). It is issued {@{4 months after the last interest date}@}. At issuance, investor pays accrued interest for 4 of 6 months: {@{100 000 × 8% × 4/12 = 2 667}@}. On the next interest date, issuer pays full coupon for 6 months: {@{100 000 × 8% × 6/12 = 4 000}@}.
@@ -242,6 +317,8 @@ Flashcards for this section are as follows:
 - bond matures between payment dates: how to handle final interest? ::@:: Compute interest for the final partial period using the same fraction-of-period prorating (e.g. months elapsed ÷ 6) and pay that amount together with redemption of principal; there is no extra coupon on the next scheduled date because the bond has been settled.
 - bond: year-end accrual between payment dates—what to prorate? ::@:: Prorate coupon (to _Interest payable_) and discount or premium amortization by fraction of period (e.g. months elapsed ÷ 6 for semi-annual).
 - semi-annual period: 2 months elapsed—divide by 6 or 12? ::@:: Divide by 6; the coupon period is 6 months, so 2 months = 2/6 of the period.
+- premium bond year-end accrual (2 months into a 6-month period): how do you derive the accrued entry? ::@:: First compute the full-period amounts, then prorate them. Example: coupon = 100&nbsp;000 × 8% × 6/12 = 4&nbsp;000; interest expense = 108&nbsp;530 × 3% = 3&nbsp;256; premium amortization = 744. For 2/6 of the period: _Interest payable_ = 4&nbsp;000 × 2/6 = 1&nbsp;333, _Bonds payable_ debit = 744 × 2/6 = 248, and _Interest expense_ = 1&nbsp;333 − 248 = 1&nbsp;085.
+- irregular bond accrual dates: what fraction should be used? ::@:: Use the actual fraction of the coupon period provided in the problem, such as days elapsed divided by total days in that coupon period, rather than forcing everything into a neat month fraction.
 - bond issued between interest dates (par): issuance entry? ::@:: Dr _Cash_ (price + accrued coupon), Cr _Bonds payable_ (carrying amount), Cr _Interest expense_ (accrued coupon from last payment date to issue date). <br/> Why: the investor prepays the coupon that will be fully received at the next coupon date; this offset entry nets the issuer's expense to only the actual holding period.
 - bond issued between interest dates: why does the investor pay accrued interest at issuance? ::@:: The next full coupon will be paid to whoever holds the bond on the coupon date. The purchasing investor compensates the issuer for the coupon "earned" before the purchase; the investor's effective return then covers only the stub period held.
 - bond between interest dates: year-end accrual (par, discount, or premium) ::@:: If year-end falls between the issue date and the next coupon date, accrue interest for the stub from __issue date to year-end__ using the carrying amount (not face). <br/> General formula: interest expense = carrying amount × market rate × months-from-issue-to-year-end / 12. <br/> For discount/premium: also prorate the coupon and record discount or premium amortization. On the next coupon date, pay the full coupon; the portion from year-end to coupon is the new year's expense.
@@ -290,7 +367,7 @@ A zero-interest-bearing note has no periodic coupon payments; the borrower recei
 
 Representative journal entry example:
 
-> _Scenario._ Company issues {@{3-year zero-interest-bearing note with face 10 000}@}; receives cash {@{7 721}@}. Implicit interest rate is {@{9%}@} (so that {@{10 000}@} discounted at 9% for 3 years equals {@{7 721}@}).
+> _Scenario._ Company issues {@{3-year zero-interest-bearing note with face 10 000}@}; receives cash {@{7 721}@}. Implicit interest rate is {@{9%}@} because {@{10 000 ÷ 1.09^3 ≈ 7 721}@} (equivalently, {@{7 721 × 1.09^3 ≈ 10 000}@}).
 >
 > | {@{Issue zero-interest-bearing note}@} | Dr          | Cr          |
 > | -------------------------------------- | ----------- | ----------- |
@@ -312,6 +389,7 @@ Flashcards for this section are as follows:
 
 - zero-interest-bearing note ::@:: Note with no periodic interest payments; borrower receives less than face value and repays full face value at maturity; the difference is a discount.
 - implicit interest rate (note) ::@:: The discount rate that equates the maturity amount to the cash received (present value); used to compute interest expense on a zero-interest-bearing or implicit-interest note.
+- zero-interest-bearing note: how does the numeric implicit-rate relation work in the example? ::@:: The cash proceeds equal the present value of the maturity amount. Example: 10&nbsp;000 ÷ 1.09^3 ≈ 7&nbsp;721, so 9% is the implicit rate that links the 7&nbsp;721 issue price to the 10&nbsp;000 maturity amount.
 - interest on zero-interest-bearing note: how recognized? ::@:: As discount amortization using the implicit interest rate; no separate cash interest payments during the term.
 - zero-interest-bearing note: issuance entry? ::@:: Dr _Cash_ (present value received), Cr _Notes payable_ (present value); no separate discount account under net method.
 - zero-interest-bearing note: how is interest expense recorded? ::@:: Each period, Dr _Interest expense_, Cr _Notes payable_ using the implicit interest rate; carrying amount increases to face value.
@@ -366,12 +444,26 @@ Flashcards for this section are as follows:
 
 Extinguishment of long-term debt occurs when the obligation is settled before or at maturity, either by paying cash (e.g. repurchasing bonds), by transferring other assets (e.g. giving land to the lender), or by issuing equity instruments (e.g. shares) in full settlement. At the extinguishment date, the entity compares the carrying amount of the liability to the consideration paid or assets/equity transferred: if consideration &lt; carrying amount, there is a gain; if consideration &gt; carrying amount, there is a loss. When a noncash asset is transferred, remeasure the asset to fair value first (recognising any gain or loss on the asset), then compare the liability's carrying amount to the fair value of the asset to determine the gain or loss on extinguishment. When shares are issued to settle the debt, measure the consideration at the fair value of the shares (or, if that is not available, the fair value/present value of the liability).
 
-> | ------------------------------------------- | ------------ | ------------- |
-> | {@{Bonds payable}@}                         | {@{95 000}@} |               |
-> | {@{Loss on extinguishment of debt}@}        | {@{6 000}@}  |               |
-> | {@{Cash}@}                                  |              | {@{101 000}@} |
+> _Scenario._ Bonds payable has carrying amount {@{95 000}@}. The issuer repurchases the debt for {@{cash 101 000}@} before maturity. Record the extinguishment.
+>
+> |{@{Repurchase debt for cash; recognise loss}@}|Dr|Cr|
+> |---|---:|---:|
+> |{@{Bonds payable}@}|{@{95 000}@}||
+> |{@{Loss on extinguishment of debt}@}|{@{6 000}@}||
+> |{@{Cash}@}||{@{101 000}@}|
 >
 > _Explanation._ The loss equals {@{cash paid 101 000 − carrying amount 95 000 = 6 000}@}. If cash paid were less than carrying amount, the difference would instead be a gain.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Gain case for early cash repurchase._ Bonds payable has carrying amount {@{€98&nbsp;000}@}. The issuer repurchases the debt early for only {@{€92&nbsp;000 cash}@} because market conditions now allow settlement at a lower amount.
+>
+> | {@{Repurchase debt for cash; recognise gain}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Bonds payable}@} | {@{98&nbsp;000}@} | |
+> | {@{Cash}@} | | {@{92&nbsp;000}@} |
+> | {@{Gain on extinguishment of debt}@} | | {@{6&nbsp;000}@} |
+>
+> _Explanation._ The gain equals {@{carrying amount 98&nbsp;000 − cash paid 92&nbsp;000 = 6&nbsp;000}@}. This is the mirror image of the loss case above.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Note payable has carrying amount {@{20 000 000}@}. The lender agrees to accept {@{2 000 000 ordinary shares with par 5}@} to settle the note. On the issue date, the shares trade at {@{8}@} per share (fair value {@{16 000 000}@}). Record the settlement.
@@ -412,6 +504,7 @@ Flashcards for this section are as follows:
 - debt settled by issuing shares: basic journal entry ::@:: Dr _Notes/Bonds payable_ (carrying amount), Dr/Cr _Gain or Loss on extinguishment_ (for the difference), Cr _Share capital_ (par) and Cr _Share premium_ (issue proceeds in excess of par) based on fair value of shares issued.
 - debt-for-equity swap: how to measure consideration? ::@:: Use the fair value of the shares issued when available; if not, use the fair value or present value of the liability's remaining cash flows.
 - extinguishment by transferring property: why two gains/losses? ::@:: One from remeasuring the asset to fair value; another from comparing liability carrying amount to asset fair value when settling the debt.
+- early cash repurchase below carrying amount: journal-entry effect ::@:: Debit the liability at carrying amount, credit cash for the repurchase price, and credit gain on extinguishment for the difference.
 
 ## modification of debt terms
 

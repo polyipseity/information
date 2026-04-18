@@ -10,7 +10,7 @@ tags:
 
 # provisions and contingencies
 
-This note covers IFRS provisions: liabilities of uncertain timing and amount (e.g. warranty, litigation, premiums). It explains recognition criteria (past event, present obligation, probable, reliably estimated), legal versus constructive obligation, when not to recognize (e.g. no past event), litigation considerations, best estimate (expected value vs most likely outcome), assurance-type warranty, service-type warranty (unearned revenue), and premiums or coupons (consideration payable). Material aligns with Chapter 12, and the worked journal-entry examples are integrated directly into the relevant topic sections below.
+This note covers IFRS provisions: liabilities of uncertain timing and amount (e.g. warranty, litigation, premiums). It explains recognition criteria (past event, present obligation, probable, reliably estimated), legal versus constructive obligation, when not to recognize (e.g. no past event), litigation considerations, best estimate (expected value vs most likely outcome), assurance-type warranty, service-type warranty (unearned revenue), and premiums or coupons (consideration payable). It is the ACCT 3020 home for liabilities of uncertain timing and amount, and the worked journal-entry examples are integrated directly into the relevant topic sections below.
 
 ## definition and recognition criteria
 
@@ -77,6 +77,20 @@ Flashcards for this section are as follows:
 
 The amount recognized as a provision is the __best estimate__ of the expenditure required to settle the obligation at the reporting date. Estimation involves judgment. Two common approaches: (1) __Expected value__—when there are multiple outcomes with probabilities, use the probability-weighted sum (e.g. Toyota: 80% no cost, 12% substantial cost, 8% smaller cost; expected warranty cost = sum of probability × estimated cost for each outcome). (2) __Most likely outcome__—when there is a single obligation with essentially one outcome (e.g. lawsuit: win or lose; use the most likely outcome). In this course: if the question gives probabilities, use expected value; if not, use the most likely outcome.
 
+> _Expected-value versus most-likely litigation example._ A lawsuit has three possible outcomes at year-end: {@{30% chance of no loss}@}, {@{50% chance of a €500&nbsp;000 payment}@}, and {@{20% chance of a €1&nbsp;000&nbsp;000 payment}@}. If the lawsuit is one of a large pool of similar obligations, expected value gives a provision of {@{€450&nbsp;000 = 0.30 × 0 + 0.50 × 500&nbsp;000 + 0.20 × 1&nbsp;000&nbsp;000}@}. If instead the case is treated as a single one-off dispute, the most likely outcome is {@{€500&nbsp;000}@}.
+>
+> | {@{Recognise provision using expected value}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Litigation expense}@} | {@{450&nbsp;000}@} | |
+> | {@{Litigation liability}@} | | {@{450&nbsp;000}@} |
+>
+> | {@{Recognise provision using most likely outcome}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Litigation expense}@} | {@{500&nbsp;000}@} | |
+> | {@{Litigation liability}@} | | {@{500&nbsp;000}@} |
+>
+> _Explanation._ The numbers differ because {@{expected value uses probability weighting across outcomes}@}, while {@{most likely outcome picks the single dominant case}@}.
+
 ---
 
 Flashcards for this section are as follows:
@@ -85,12 +99,31 @@ Flashcards for this section are as follows:
 - expected value (provision) ::@:: When multiple outcomes with probabilities are given, use probability-weighted sum (e.g. Toyota: 80%×0 + 12%×substantial + 8%×small).
 - most likely outcome (provision) ::@:: When a single obligation has one dominant outcome (e.g. lawsuit win or lose), use the most likely outcome.
 - when to use expected value vs most likely? ::@:: If the question gives probabilities, use expected value; otherwise use the most likely outcome.
+- expected-value litigation example: why can the recorded provision be below the most likely outcome? ::@:: Because the expected-value method averages all outcomes by probability, including lower-loss or zero-loss cases.
 
 ## assurance-type warranty
 
 An _assurance-type warranty_ is the warranty that accompanies the sale of a product: the seller promises that if the product has defects, the customer can return it for repair (or similar). The __past event__ is the sale of the product with warranty; the __present obligation__ is legal (if in the contract) or constructive (if from policy/practice). The expense is recognized in the __period when the goods are sold__ (matching concept): match warranty expense to the revenue from the sale. At the end of the reporting period, the entity estimates the future warranty cost (e.g. using expected value) and records Dr Warranty expense, Cr Warranty liability (or "Provision for warranty liability"). The year-end provision is only for the __remaining future cost__ from current-period sales; any warranty work already performed is an actual expense of the current period, not part of the closing liability. When a customer later claims under the warranty, the entity records Dr Warranty liability, Cr Cash, Inventory, or Accrued Payroll (depending on how the repair is satisfied). Costs already incurred in the current period (e.g. repairs already done and paid) are not a provision—they are actual expenses (Dr Warranty expense, Cr Cash, Inventory, or Accrued Payroll as applicable); only the estimated future cost from current-year sales is recorded as a provision. The matching concept is the key principle: revenue and the associated warranty expense are recognized in the same period.
 
+---
+
+Flashcards for this section are as follows:
+
+- assurance-type warranty: overall accounting pattern ::@:: Recognize warranty expense and a warranty liability in the period of sale, then later use that liability when actual repair, replacement, or reimbursement occurs.
+- assurance-type warranty: why is it treated as a provision? ::@:: Because the sale already created a present obligation, but the later timing and amount of warranty claims remain uncertain and must be estimated.
+
+### initial measurement and matching
+
 The credit side of the claim-settlement entry depends on __how the warranty obligation is actually satisfied__. Use __Cash__ when the company reimburses the customer directly or pays an outside repair shop. Use __Inventory__ when the company satisfies the claim by giving replacement parts or replacement goods from stock; the inventory is credited at its carrying amount. Use __Accrued Payroll__ (or wages payable) when in-house technicians perform the warranty work and the labor component has been accumulated as a payable. In all three cases, the idea is the same: the warranty provision recognized earlier is now being __used up__ by the actual parts, labor, or cash outflow. That is why the year-end estimate should include expected parts cost, expected internal labor cost, and expected outside-service cash cost.
+
+---
+
+Flashcards for this section are as follows:
+
+- assurance-type warranty initial measurement: what belongs in the closing liability? ::@:: Only the remaining expected future cost from current-period sales after subtracting any warranty work already actually performed during the year.
+- assurance-type warranty and matching: why is the estimate recorded in the sale year? ::@:: Because the sale created both the revenue and the related warranty obligation, so the expected warranty cost must be matched to that same period's revenue.
+
+### settlement using the warranty liability
 
 Representative journal entry examples:
 
@@ -102,6 +135,16 @@ Representative journal entry examples:
 > | {@{Warranty liability}@}                       |                   | {@{16&nbsp;000}@} |
 >
 > _Calculation._ Total expected warranty cost = {@{1&nbsp;000 × 20 = 20&nbsp;000}@}; less actual 2025 warranty cost already incurred = {@{4&nbsp;000}@}; remaining future obligation = {@{16&nbsp;000}@}. Only the {@{remaining future cost}@} is recognized as the year-end provision because the {@{4&nbsp;000 already incurred is an actual current-year expense, not part of the closing liability}@}.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Tiered warranty mix instead of one flat cost per unit._ A company sells {@{800 standard machines with expected warranty cost 18 each}@} and {@{200 deluxe machines with expected warranty cost 45 each}@}. Actual warranty costs already incurred during the year are {@{5&nbsp;400}@}. The closing provision therefore depends on the {@{sales mix actually sold}@}, not on one average cost for all units.
+>
+> | {@{Recognise warranty provision using the weighted product mix sold}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Warranty expense}@} | {@{18&nbsp;000}@} | |
+> | {@{Warranty liability}@} | | {@{18&nbsp;000}@} |
+>
+> _Calculation._ Expected warranty cost = {@{(800 × 18) + (200 × 45) = 23&nbsp;400}@}. Less actual claims already incurred {@{5&nbsp;400}@}. Remaining future obligation = {@{18&nbsp;000}@}. The trick is that the warranty estimate must follow the {@{product mix that created the obligation}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ In 2026 a customer {@{makes a valid warranty claim, and the company settles it by paying cash of 100}@}. The cost relates to the {@{provision already recognized from earlier sales}@}.
@@ -121,22 +164,86 @@ Representative journal entry examples:
 > | {@{Warranty liability}@}                          | {@{80}@} |          |
 > | {@{Inventory}@}                                   |          | {@{80}@} |
 >
-> _Explanation._ Use {@{Inventory}@} when the warranty claim is satisfied by parts or replacement goods already held in stock. The provision is reduced because the parts cost was {@{already anticipated in Warranty expense when the sale occurred}@}.
+> _Explanation._ Use {@{Inventory when the warranty claim is satisfied by parts or replacement goods already held in stock}@}. The provision is reduced because the parts cost was {@{already anticipated in Warranty expense when the sale occurred}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ A valid warranty claim is repaired by the company's own technicians. The labor component attributable to this repair is {@{60}@}, and that labor cost is being settled through {@{Accrued Payroll}@}.
+> _Scenario._ A valid warranty claim is repaired by the company's own technicians. The labor component attributable to this repair is {@{60 and that cost is being settled through Accrued Payroll rather than cash or inventory}@}.
 >
 > | {@{Settle warranty claim using in-house labor accrual}@} | Dr       | Cr       |
 > | -------------------------------------------------------- | -------- | -------- |
 > | {@{Warranty liability}@}                                 | {@{60}@} |          |
 > | {@{Accrued Payroll}@}                                    |          | {@{60}@} |
 >
-> _Explanation._ Use {@{Accrued Payroll}@} when the warranty work is performed internally and the labor component is being settled through payroll-related payables. Again, no fresh warranty expense is created here because the labor cost had already been {@{included in the warranty provision estimate}@}.
+> _Explanation._ Use {@{Accrued Payroll when the warranty work is performed internally and the labor component is being settled through payroll-related payables}@}. Again, no fresh warranty expense is created here because the labor cost had already been {@{included in the warranty provision estimate}@}.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Actual repair takes longer than estimated._ The warranty provision included only {@{60 of expected in-house labor}@}, but the repair actually requires {@{75 of payroll cost rather than the 60 originally provided}@}. The overrun is a {@{current-period change in estimate, not a reopening of the old sale entry}@}.
+>
+> | {@{Settle warranty repair when actual labor exceeds the amount provided}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Warranty liability}@} | {@{60}@} | |
+> | {@{Warranty expense}@} | {@{15}@} | |
+> | {@{Accrued Payroll}@} | | {@{75}@} |
+>
+> _Explanation._ The original provision covers only the amount that had been {@{best-estimated earlier}@}. Any excess actual cost becomes a {@{new current-period warranty expense}@}.
 
 ---
 
 Flashcards for this section are as follows:
 
+- assurance-type warranty settlement: what is normally debited when a valid claim is honored? ::@:: Debit _Warranty liability_, because the company is using up a provision that was already recorded when the sale occurred.
+- warranty settlement: when does a fresh warranty expense appear? ::@:: Only when the actual repair or replacement cost exceeds the amount previously provided in the liability.
+
+### changes in the expected warranty liability
+
+Sometimes the issue is not that a particular repair costs more than expected. Instead, management revises the __remaining expected loss liability__ for the still-open warranty population. In that case the company adjusts the __Warranty liability__ itself to the newly required closing balance and sends the offset to __Warranty expense__.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Expected warranty losses increase after year-end review._ A company already carries a {@{Warranty liability of 18&nbsp;000}@} after recording current-year sales and current-year claim settlements. New information about failure rates shows that the required closing liability should now be {@{24&nbsp;000}@}.
+>
+> | {@{Increase warranty liability for a revised upward estimate of remaining warranty losses}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Warranty expense}@} | {@{6&nbsp;000}@} | |
+> | {@{Warranty liability}@} | | {@{6&nbsp;000}@} |
+>
+> _Explanation._ This is a {@{change in estimate of the remaining expected warranty obligation}@}. No customer claim is being settled here; the company is simply increasing the liability from {@{18&nbsp;000 to 24&nbsp;000}@}.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Expected warranty losses decrease after updated evidence._ Instead, suppose the same {@{Warranty liability still stands at 18&nbsp;000}@}, but improved evidence shows that only {@{13&nbsp;500}@} is still needed.
+>
+> | {@{Reduce warranty liability when the remaining expected warranty losses are revised downward}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Warranty liability}@} | {@{4&nbsp;500}@} | |
+> | {@{Warranty expense}@} | | {@{4&nbsp;500}@} |
+>
+> _Explanation._ The company reverses the excess provision because the remaining expected loss liability is now {@{lower than previously estimated}@}. The reduction goes to {@{Warranty expense rather than to revenue}@} because this is a measurement revision of the original warranty provision.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Refund instead of repair._ A machine originally sold for {@{5&nbsp;000}@} with carrying amount {@{3&nbsp;200}@} is returned for a refund while a related {@{warranty liability of 200}@} is still attached to that sale. The company refunds the customer in cash, restores the machine to inventory, and reverses the remaining warranty provision that is no longer needed because the sale itself has been unwound.
+>
+> | {@{Refund customer and reverse sale}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Sales returns and allowances}@} | {@{5&nbsp;000}@} | |
+> | {@{Cash}@} | | {@{5&nbsp;000}@} |
+>
+> | {@{Restore returned machine to inventory}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Inventory}@} | {@{3&nbsp;200}@} | |
+> | {@{Cost of goods sold}@} | | {@{3&nbsp;200}@} |
+>
+> | {@{Reverse remaining warranty provision tied to the cancelled sale}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Warranty liability}@} | {@{200}@} | |
+> | {@{Warranty expense}@} | | {@{200}@} |
+>
+> _Explanation._ Once the sale is {@{fully reversed, the company no longer expects future warranty service on that unit}@}, so the remaining warranty liability attached to that sale is {@{released rather than used for repair because the sale itself has been unwound}@}.
+
+---
+
+Flashcards for this section are as follows:
+
+- warranty liability remeasurement upward: what is the entry? ::@:: Debit _Warranty expense_ and credit _Warranty liability_ for the extra amount needed to reach the newly required closing balance.
+- warranty liability remeasurement downward: what is the entry? ::@:: Debit _Warranty liability_ and credit _Warranty expense_ for the portion of the provision no longer needed after the updated estimate.
 - assurance-type warranty ::@:: Warranty that accompanies the sale; seller promises to repair or fix if product has defects; expense in period of sale.
 - assurance warranty: past event and obligation ::@:: Past event = sale of product with warranty; present obligation = legal (contract) or constructive (policy).
 - assurance warranty: when is expense recognized? ::@:: In the period when the goods are sold (matching concept).
@@ -147,6 +254,7 @@ Flashcards for this section are as follows:
 - matching concept and warranty ::@:: Warranty expense is matched to the revenue from the sale in the same period; do not wait until cash is paid.
 - warranty provision (assurance): year-end entry? ::@:: Dr _Warranty expense_, Cr _Warranty liability_ (estimated future cost from current-year sales).
 - assurance warranty: total 20 000, 4 000 incurred in year, rest next year—provision amount and entry? ::@:: Remaining provision 16 000; Dr _Warranty expense_ 16 000, Cr _Warranty liability_ 16 000.
+- assurance-type warranty estimate: what if product lines have different claim costs? ::@:: Build the provision from the mix actually sold, because a deluxe-heavy sales mix can create a much larger obligation than a flat per-unit average would suggest.
 - warranty claim: journal entry when customer claims? ::@:: Dr _Warranty liability_, Cr _Cash_, _Inventory_, or _Accrued Payroll_ (depending on how repair is satisfied).
 - warranty claim: pay 100 cash to satisfy claim—entry? ::@:: Dr _Warranty liability_ 100, Cr _Cash_ 100 (or Cr _Inventory_ or _Accrued Payroll_, as applicable).
 - warranty claim settlement: why is no new warranty expense usually recognized? ::@:: Because the expected warranty cost was already matched to revenue and recorded through the provision when the original sale occurred; the later claim mainly reduces the liability.
@@ -154,6 +262,10 @@ Flashcards for this section are as follows:
 - warranty provision estimate: what should it include? ::@:: The expected mix of parts/goods from inventory, internal labor, and outside-service cash costs, so later claim settlement reduces _Warranty liability_ instead of creating fresh warranty expense.
 - warranty claim: replacement part with carrying amount 80 used to satisfy claim—entry? ::@:: Dr _Warranty liability_ 80, Cr _Inventory_ 80.
 - warranty claim: in-house technician labor 60 settled through accrued payroll—entry? ::@:: Dr _Warranty liability_ 60, Cr _Accrued Payroll_ 60.
+- warranty repair overrun: how is actual labor above the original estimate recorded? ::@:: Use the existing _Warranty liability_ for the amount already provided and debit fresh _Warranty expense_ for the excess actual repair cost in the current period.
+- expected warranty loss liability revised upward: what entry is needed? ::@:: Debit _Warranty expense_ and credit _Warranty liability_ for the amount needed to raise the existing provision to the new required closing balance.
+- expected warranty loss liability revised downward: what entry is needed? ::@:: Debit _Warranty liability_ and credit _Warranty expense_ for the excess portion of the provision that is no longer needed after the updated estimate.
+- refund instead of repair: what happens to the remaining warranty provision? ::@:: Reverse the portion tied to the cancelled sale, because once the sale is unwound there is no longer a future warranty obligation on that unit.
 
 ## service-type warranty
 
@@ -172,14 +284,24 @@ Representative journal entry examples:
 > _Explanation._ 900 is for the extended (service-type) coverage; {@{revenue is recognized only over the service-type period (e.g. straight-line over years 2–4), after the assurance-type warranty has expired}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Unearned warranty revenue {@{900 for three-year service-type warranty (years 2–4)}@}. {@{One year of the service period has passed (e.g. end of year 2); recognize 300 revenue}@}.
+> _Scenario._ Unearned warranty revenue is {@{900 for a separate three-year service-type warranty covering years 2–4 after the one-year assurance warranty}@}. {@{At the end of year 2, one of those three service years has passed, so recognize 300 of revenue}@}.
 >
 > | {@{Recognise warranty revenue (e.g. straight-line)}@} | Dr        | Cr        |
 > | ----------------------------------------------------- | --------- | --------- |
 > | {@{Unearned warranty revenue}@}                       | {@{300}@} |           |
 > | {@{Warranty revenue}@}                                |           | {@{300}@} |
 >
-> _Explanation._ Straight-line over the 3-year service period: {@{900 ÷ 3}@} = {@{300}@} per year; {@{revenue is earned only during the service-type period (after assurance-type warranty has expired)}@}.
+> _Explanation._ Straight-line over the 3-year service period: {@{900 ÷ 3 = 300 per year}@}; {@{revenue is earned only during the service-type period (after assurance-type warranty has expired)}@}.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> _Customer forfeits the remaining extended coverage early._ After the first service year has been recognized, the customer explicitly cancels the remaining {@{2 years of extended coverage}@}. The unearned balance of {@{600}@} is then released because the remaining performance obligation has lapsed.
+>
+> | {@{Recognise the remaining service-type warranty revenue after early forfeiture}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Unearned warranty revenue}@} | {@{600}@} | |
+> | {@{Warranty revenue}@} | | {@{600}@} |
+>
+> _Explanation._ This is weird on purpose: the company recognizes {@{the rest of the revenue not because it performed more service}@}, but because the customer has {@{given up the remaining contractual right to receive it}@}.
 
 ---
 
@@ -197,6 +319,7 @@ Flashcards for this section are as follows:
 - service-type warranty: when is revenue recognized? ::@:: As the entity satisfies the performance obligation over the service period (in the typical example, that period begins after the assurance-type warranty has expired).
 - service-type warranty: entry as time passes? ::@:: Dr _Unearned warranty revenue_, Cr _Warranty revenue_ (e.g. straight-line over the service-type term).
 - unearned warranty revenue 900, 3-year service period—recognize 1 year—entry? ::@:: Dr _Unearned warranty revenue_ 300, Cr _Warranty revenue_ 300.
+- service-type warranty forfeiture: what happens if the customer gives up the remaining coverage early? ::@:: Release the remaining _Unearned warranty revenue_ to _Warranty revenue_ because the company no longer has an outstanding performance obligation.
 
 ## premiums and coupons (consideration payable)
 
@@ -232,7 +355,7 @@ Representative journal entry examples:
 > | {@{Premium liability}@}                 | {@{1}@} |         |
 > | {@{Inventory of premiums}@}             |         | {@{2}@} |
 >
-> _Explanation._ Cash {@{1}@} offsets part of the bowl's carrying amount {@{2}@}; the remaining {@{1 net cost is absorbed by reducing Premium liability}@}. Redemption therefore uses the existing provision instead of recording a fresh premium expense for the same obligation.
+> _Explanation._ Cash {@{1 offsets part of the bowl's carrying amount of 2}@}; the remaining {@{1 net cost is absorbed by reducing Premium liability}@}. Redemption therefore uses the existing provision instead of recording a fresh premium expense for the same obligation.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ After recording current redemptions, {@{Premium liability still has a carrying amount of 4&nbsp;000}@}. Updated estimates show that the remaining obligation should be only {@{2&nbsp;500}@}. Record the adjustment because {@{future redemption is now expected to be less than previously estimated}@}.
