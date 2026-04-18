@@ -1,12 +1,7 @@
-[tool.pyright]
-extends = "../../../pyproject.toml"
-venv = ".venv"
-venvPath = "../../.."
+[tool.ty.environment]
+python-platform = "all"
+root = [".", "tests_a7392be"]
+extra-paths = ["typings"]
 
-[[tool.pyright.executionEnvironments]]
-extraPaths = ["."]
-reportPrivateUsage = "none"
-root = "tests_a7392be"
-
-[[tool.pyright.executionEnvironments]]
-root = "."
+[tool.ty.rules]
+all = "error"

@@ -51,64 +51,8 @@ dev = [
   "pytest-cov>=7.0.0",
   "pytest-xdist>=3.8.0",
   "ruff>=0.15.0",
+  "ty>=0.0.31",
 ]
-
-[tool.pyright]
-exclude = [
-  "**/node_modules",
-  "**/__pycache__",
-  "**/.*",
-  ".venv",
-  # self
-  "private/special/academia/HKUST/**/*assignment*/**/*.ipynb",
-  "private/special/academia/HKUST/**/*assignment*/**/*.py",
-  "private/special/academia/HKUST/**/*exercise*/**/*.ipynb",
-  "private/special/academia/HKUST/**/*exercise*/**/*.py",
-  "private/special/academia/HKUST/**/*homework*/**/*.ipynb",
-  "private/special/academia/HKUST/**/*homework*/**/*.py",
-  "private/special/academia/HKUST/**/*lab*/**/*.ipynb",
-  "private/special/academia/HKUST/**/*lab*/**/*.py",
-  "private/special/academia/HKUST/**/*tutorial*/**/*.ipynb",
-  "private/special/academia/HKUST/**/*tutorial*/**/*.py",
-  "special/academia/HKUST/**/*assignment*/**/*.ipynb",
-  "special/academia/HKUST/**/*assignment*/**/*.py",
-  "special/academia/HKUST/**/*exercise*/**/*.ipynb",
-  "special/academia/HKUST/**/*exercise*/**/*.py",
-  "special/academia/HKUST/**/*homework*/**/*.ipynb",
-  "special/academia/HKUST/**/*homework*/**/*.py",
-  "special/academia/HKUST/**/*lab*/**/*.ipynb",
-  "special/academia/HKUST/**/*lab*/**/*.py",
-  "special/academia/HKUST/**/*tutorial*/**/*.ipynb",
-  "special/academia/HKUST/**/*tutorial*/**/*.py",
-  # These contain their own pyright configurations, and are not intended to be type-checked as part of this project.
-  "self/arts",
-  "self/capture the flag",
-  "self/ledger",
-  "self/passwords",
-  "tools/pyarchivist",
-  "tools/pytextgen",
-]
-typeCheckingMode = "strict"
-venv = ".venv"
-venvPath = "."
-pythonPlatform = "All"
-pythonVersion = "3.12"
-deprecateTypingAliases = true
-enableReachabilityAnalysis = true
-strictDictionaryInference = true
-strictListInference = true
-strictSetInference = true
-
-[[tool.pyright.executionEnvironments]]
-extraPaths = ["src", "."]
-reportPrivateUsage = "none"
-root = "tests"
-
-[[tool.pyright.executionEnvironments]]
-root = "src"
-
-[[tool.pyright.executionEnvironments]]
-root = "."
 
 [tool.pytest.ini_options]
 addopts = ["--cov=./", "--cov-report=term-missing", "--dist=loadscope", "-n=auto", "--strict-markers"]
@@ -138,6 +82,50 @@ extend-exclude = [
 # Enable Pylint-derived rule that disallows imports outside module top-level
 # (import-outside-top-level / PLC0415). Ruff 0.12.0+ provides this rule.
 extend-select = ["I", "PLC0415"]
+
+[tool.ty.environment]
+python-platform = "all"
+root = [".", "src", "tests"]
+extra-paths = ["typings"]
+
+[tool.ty.rules]
+all = "error"
+
+[tool.ty.src]
+exclude = [
+  "**/node_modules",
+  "**/__pycache__",
+  "**/.*",
+  ".venv",
+  # self
+  "private/special/academia/HKUST/**/*assignment*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*assignment*/**/*.py",
+  "private/special/academia/HKUST/**/*exercise*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*exercise*/**/*.py",
+  "private/special/academia/HKUST/**/*homework*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*homework*/**/*.py",
+  "private/special/academia/HKUST/**/*lab*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*lab*/**/*.py",
+  "private/special/academia/HKUST/**/*tutorial*/**/*.ipynb",
+  "private/special/academia/HKUST/**/*tutorial*/**/*.py",
+  "special/academia/HKUST/**/*assignment*/**/*.ipynb",
+  "special/academia/HKUST/**/*assignment*/**/*.py",
+  "special/academia/HKUST/**/*exercise*/**/*.ipynb",
+  "special/academia/HKUST/**/*exercise*/**/*.py",
+  "special/academia/HKUST/**/*homework*/**/*.ipynb",
+  "special/academia/HKUST/**/*homework*/**/*.py",
+  "special/academia/HKUST/**/*lab*/**/*.ipynb",
+  "special/academia/HKUST/**/*lab*/**/*.py",
+  "special/academia/HKUST/**/*tutorial*/**/*.ipynb",
+  "special/academia/HKUST/**/*tutorial*/**/*.py",
+  # These contain their own ty configurations, and are not intended to be type-checked as part of this project.
+  "self/arts",
+  "self/capture*",
+  "self/ledger",
+  "self/passwords",
+  "tools/pyarchivist",
+  "tools/pytextgen",
+]
 
 [tool.uv]
 required-version = ">=0.9.0,<0.11.0"
