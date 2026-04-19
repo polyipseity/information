@@ -40,7 +40,22 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
   parent line. In `## description`, store the Canvas title header as the first
   list item `- title: <verbatim title>` rather than as a heading, keep the
   visible Canvas wording verbatim, and point the attachments list at local
-  `attachments/` files.
+  `attachments/` files. If submission or solution artifacts are intentionally
+  private but the page should still preserve the ordinary repository routes,
+  keep normal relative links in public `## submission` / `## solution`
+  sections as if the files were colocated, and do not rewrite those links to
+  `private/`. Keep `## solution` in the same plain file-list style as
+  `## attachments`, and use the more advanced nested `file:` plus metadata
+  layout only in `## submission` when archived filename details matter. Do not
+  invent links for files that are genuinely missing from the archive. Normalize any Canvas-
+  derived metadata value containing
+  a date, datetime, or duration to ISO 8601: use timezone-aware ISO datetimes
+  for `Due` or `locked at`, use an ISO datetime range plus `, <ISO duration>`
+  when both endpoints are known, and use ISO durations for pure durations.
+  Canvas starts use seconds `:00`; Canvas end timestamps use seconds `:59`.
+  Do not rewrite the ordinary Canvas prose body to ISO form; description
+  sentences such as `This assignment was locked Mar 5 at 1:30pm.` and colored
+  notice text should remain verbatim.
 - In a course-root `index.md`, order the main top-level sections as `## children`,
   then `## logistics`, then `## overview`; keep sessions and exams after those.
 - Prefer one `## overview` section for compact orientation material such as
@@ -131,11 +146,11 @@ The content is in teaching order.
 ## assignments
 
 - assignment 1
-  - due: 2025-09-30
+  - due: 2025-09-30T23:59:59+08:00
   - points: 100
   - link: [assignment 1](assignments/assignment%201/index.md)
 - assignment 2
-  - due: 2025-10-21
+  - due: 2025-10-21T23:59:59+08:00
   - points: 100
   - link: [assignment 2](assignments/assignment%202/index.md)
 

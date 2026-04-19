@@ -90,7 +90,7 @@ Flashcards for this section are as follows:
 
 - one-feature fit setup ::@:: In the one-feature toy problem, linear regression fits a line $\hat y = w_0 + w_1x_1$ to the three points $(2,2)$, $(4,3)$, and $(6,4)$. <!--SR:!2026-04-12,4,313!2026-04-12,4,313-->
 - why a line need not pass through every point ::@:: In general, least squares chooses the line that minimizes average squared residuals, so it balances all observations rather than forcing perfect interpolation. <!--SR:!2026-04-12,4,323!2026-04-12,4,301-->
-- one-feature residuals ::@:: For $(x_1,y)=(2,2),(4,3),(6,4)$, the residuals are $2-(w_0+2w_1)$, $3-(w_0+4w_1)$, and $4-(w_0+6w_1)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,313-->
+- one-feature residuals: For the one-feature linear regression model $\hat y=w_0+w_1x_1$ fitted to the three data points $(x_1,y)=(2,2),(4,3),(6,4)$, what are the three residuals observed minus predicted? ::@:: The residuals are $2-(w_0+2w_1)$, $3-(w_0+4w_1)$, and $4-(w_0+6w_1)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,313-->
 
 ### solving the toy problem by differentiation
 
@@ -106,7 +106,7 @@ Flashcards for this section are as follows:
 
 - one-feature example objective: For $(x_1,y)=(2,2),(4,3),(6,4)$ and $\hat y=w_0+w_1x_1$, what is the MSE objective? ::@:: $L(w_0,w_1)=\frac{1}{3}\Bigl[(2-(w_0+2w_1))^2+(3-(w_0+4w_1))^2+(4-(w_0+6w_1))^2\Bigr]$. <!--SR:!2026-04-12,4,323!2026-04-12,4,313-->
 - one-feature derivative conditions ::@:: The toy least-squares line is found by setting both partial derivatives $\frac{\partial L}{\partial w_0}$ and $\frac{\partial L}{\partial w_1}$ to zero. <!--SR:!2026-04-12,4,301!2026-04-12,4,301-->
-- one-feature example solution: For $(x_1,y)=(2,2),(4,3),(6,4)$, what least-squares line is obtained? ::@:: Solving the first-order conditions gives $w_0=1$ and $w_1=\tfrac{1}{2}$, so $\hat y = 1 + \tfrac{1}{2}x_1$. <!--SR:!2026-04-12,4,313!2026-04-11,3,302-->
+- one-feature example solution: For the one-feature least-squares model $\hat y=w_0+w_1x_1$ with data $(x_1,y)=(2,2),(4,3),(6,4)$, solve the first-order conditions and obtain the fitted line. ::@:: Step 1: start from $L(w_0,w_1)=\frac{1}{3}\Bigl[(2-(w_0+2w_1))^2+(3-(w_0+4w_1))^2+(4-(w_0+6w_1))^2\Bigr]$. <br/> Step 2: set $\partial L/\partial w_0=0$ and $\partial L/\partial w_1=0$, which gives the linear system $3w_0+12w_1=9$ and $12w_0+56w_1=40$. <br/> Step 3: solve the two equations to get $w_0=1$ and $w_1=\tfrac{1}{2}$. <br/> Therefore the least-squares line is $\hat y = 1 + \tfrac{1}{2}x_1$. <!--SR:!2026-04-12,4,313!2026-04-11,3,302-->
 - why the one-feature example is useful ::@:: It makes least squares concrete by turning learning into an explicit calculus problem in two unknowns. <!--SR:!2026-04-12,4,313!2026-04-12,4,313-->
 
 ### gradient, matrix form, and the normal equation
@@ -123,14 +123,14 @@ The closed-form ordinary least-squares solution is mathematically elegant, but i
 
 Flashcards for this section are as follows:
 
-- design matrix ::@:: The design matrix $X$ is formed by stacking the row vectors $x_i^\top$, so each training example occupies one row. <!--SR:!2026-04-12,4,301!2026-04-12,4,301-->
-- matrix loss $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$ ::@:: With design matrix $X$ and target vector $y$, the mean squared error becomes $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$. <!--SR:!2026-04-12,4,301!2026-04-12,4,270-->
-- residual vector ::@:: In matrix form, the residual vector is $y - Xw$, namely observed targets minus fitted values. <!--SR:!2026-04-12,4,313!2026-04-12,4,301-->
-- gradient of least squares ::@:: The gradient of the least-squares objective is $\nabla L(w)=\frac{2}{N}(X^\top Xw - X^\top y)$. <!--SR:!2026-04-12,4,313!2026-04-12,4,270-->
-- normal equation $X^\top Xw = X^\top y$ ::@:: Setting the least-squares gradient to zero gives the normal equation $X^\top Xw = X^\top y$. <!--SR:!2026-04-12,4,322!2026-04-12,4,323-->
-- ordinary least squares solution $\hat w = (X^\top X)^{-1}X^\top y$ ::@:: When $X^\top X$ is invertible, the least-squares minimizer is $\hat w = (X^\top X)^{-1}X^\top y$. <!--SR:!2026-04-12,4,313!2026-04-12,4,301-->
-- why calculus appears in linear regression ::@:: Calculus enters because learning is posed as minimizing a differentiable loss, so the optimum is characterized by a zero gradient. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- quadratic bowl intuition ::@:: The least-squares objective is a quadratic bowl in parameter space, which is why the optimization landscape is especially clean for linear regression. <!--SR:!2026-04-12,4,323!2026-04-12,4,301-->
+- design matrix ::@:: The design matrix $X$ is formed by stacking the row vectors $x_i^\top$, so each training example occupies one row.
+- matrix loss $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$ ::@:: With design matrix $X$ and target vector $y$, the mean squared error becomes $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$.
+- residual vector in matrix-form least squares: With design matrix $X\in\mathbb{R}^{N\times d}$ and target vector $y\in\mathbb{R}^N$, what is the residual vector for parameters $w$? ::@:: The residual vector is $y - Xw\in\mathbb{R}^N$, whose $i$-th entry is $y_i - x_i^\top w$, i.e., observed target minus fitted value for example $i$. Minimizing $\lVert y-Xw\rVert_2^2$ is equivalent to minimizing the sum of squared residuals.
+- gradient of least squares, given the loss $L(w)=\frac{1}{N}\lVert y-Xw\rVert_2^2$ ::@:: The gradient of the least-squares objective is $\nabla L(w)=\frac{2}{N}(X^\top Xw - X^\top y)$.
+- normal equation $X^\top Xw = X^\top y$ ::@:: Setting the least-squares gradient $\nabla L(w)=\frac{2}{N}(X^\top Xw - X^\top y)$ to zero gives the normal equation $X^\top Xw = X^\top y$.
+- ordinary least squares solution $\hat w = (X^\top X)^{-1}X^\top y$ ::@:: When $X^\top X$ is invertible, the least-squares minimizer is $\hat w = (X^\top X)^{-1}X^\top y$.
+- why calculus appears in linear regression ::@:: Calculus enters because learning is posed as minimizing a differentiable loss, so the optimum is characterized by a zero gradient.
+- quadratic bowl intuition ::@:: The least-squares objective is a quadratic bowl in parameter space, which is why the optimization landscape is especially clean for linear regression.
 
 ### derivation of the matrix gradient
 
@@ -152,7 +152,7 @@ Flashcards for this section are as follows:
 - coordinatewise reason that $\nabla_w(w^\top A w)=(A+A^\top)w$ ::@:: Since $w^\top A w = \sum_{j,k} a_{jk}w_jw_k$, differentiating with respect to $w_m$ collects the terms where $j=m$ and where $k=m$, giving $(Aw)_m+(A^\top w)_m$. <!--SR:!2026-04-12,4,301!2026-04-12,4,323-->
 - why the derivative of $w^\top X^\top Xw$ is $2X^\top Xw$ ::@:: Let $A=X^\top X$. Because $A$ is symmetric, $(A+A^\top)w = 2Aw$, so $\nabla_w(w^\top X^\top Xw)=2X^\top Xw$. <!--SR:!2026-04-12,4,301!2026-04-12,4,323-->
 - two-variable memory aid for differentiating a quadratic form ::@:: If $A=\begin{bmatrix}a&b\\ b&c\end{bmatrix}$, then $w^\top A w = aw_1^2 + 2bw_1w_2 + cw_2^2$, so differentiating gives $[2aw_1+2bw_2,\ 2bw_1+2cw_2]^\top = 2Aw$. <!--SR:!2026-04-12,4,301!2026-04-12,4,270-->
-- why the matrix derivation matters ::@:: The derivation shows that least squares balances feature geometry through $X^\top X$ against target-feature alignment through $X^\top y$. <!--SR:!2026-04-12,4,313!2026-04-12,4,270-->
+- why the matrix derivation matters ::@:: The derivation shows that least squares balances two terms: $X^\top Xw$, which comes from the geometry of the design matrix, and $X^\top y$, which comes from how the targets correlate with the features. <!--SR:!2026-04-12,4,313!2026-04-12,4,270-->
 
 ### tiny normal-equation computation
 
@@ -252,19 +252,20 @@ The slides emphasize that training and test data are assumed to be independent a
 
 Two parts of the i.i.d. assumption matter. _Identically distributed_ means the future cases we care about come from the same population as the training cases, so performance on held-out data is actually relevant to deployment. _Independent_ means one example does not secretly reveal another, so the evaluation is not contaminated by leakage. If either part fails, then a low validation or test error may stop meaning what we hoped it meant.
 
-The effect of hypothesis-space size on error should therefore be read in layers. In the most general sense, enlarging the hypothesis space can only help the learner fit the observed data, because the old functions are still available and new ones are added. So training error usually stays the same or decreases as the hypothesis space grows. Validation and test error behave differently: with too small a space the model underfits and all held-out errors remain high, but with too large a space the learner begins fitting sample-specific noise, so validation and test error can rise even while training error keeps falling. The goal of model selection is to find the part of this capacity scale where held-out error is smallest, not where training error is smallest.
+The effect of hypothesis-space size on error should therefore be read in layers. In the most general sense, enlarging the hypothesis space can only help the learner fit the observed data, because the old functions are still available and new ones are added. So training error usually stays the same or decreases as the hypothesis space grows. Validation and test error behave differently: with too small a space the model underfits and all held-out errors remain high, but with too large a space the learner begins fitting sample-specific noise, so validation and test error can rise even while training error keeps falling. The real objective of model selection is therefore to choose a model of appropriate capacity so as to minimize _generalization error_ — the future-data error we actually care about. In practice one does not observe true generalization error directly, so one uses validation or other held-out performance as its estimate. Thus model selection should be read as a capacity-selection problem aimed at the minimum of the generalization curve, not at the minimum of the training-error curve.
 
 ---
 
 Flashcards for this section are as follows:
 
-- hypothesis space ::@:: The hypothesis space is the set of all functions a learning algorithm is allowed to choose as its solution. <!--SR:!2026-04-12,4,270!2026-04-12,4,313-->
-- model capacity ::@:: Model capacity is the expressive size or flexibility of the hypothesis space. <!--SR:!2026-04-12,4,270!2026-04-12,4,313-->
-- generalization ::@:: Generalization is the ability of the learned model to perform well on future data drawn from the same underlying data-generating process. <!--SR:!2026-04-12,4,313!2026-04-12,4,301-->
-- iid assumption for train and test data ::@:: Training and test data are usually assumed to be independent and identically distributed samples from the same population. <!--SR:!2026-04-12,4,313!2026-04-12,4,323-->
-- why the iid assumption matters ::@:: If train, validation, and deployment data do not come from the same population or are not independent, then held-out error may no longer predict future performance reliably. <!--SR:!2026-04-12,4,313!2026-04-12,4,301-->
-- effect of larger hypothesis space on training error ::@:: As the hypothesis space grows, training error usually stays the same or decreases because the learner has more candidate functions available. <p> In the course material, training error is always non-increasing as capacity increases. <!--SR:!2026-04-12,4,301!2026-04-12,4,313-->
-- effect of larger hypothesis space on validation and test error ::@:: Validation and test error often first decrease and then increase as capacity grows, because extra flexibility eventually starts fitting noise rather than signal. <!--SR:!2026-04-12,4,301!2026-04-12,4,313-->
+- hypothesis space ::@:: The hypothesis space is the set of all functions a learning algorithm is allowed to choose as its solution.
+- model capacity in the supervised-learning context ::@:: Model capacity is the expressive size or flexibility of the hypothesis space — the set of functions the learning algorithm is allowed to output. A larger hypothesis space (e.g., higher-degree polynomial features, more parameters) means higher capacity: the model can represent a wider variety of functions, which lowers bias but risks increasing variance. Model selection then chooses an appropriate capacity level so as to minimize generalization error rather than merely training error.
+- model selection and capacity choice ::@:: In this course, model selection means choosing the model family or capacity level that minimizes generalization error on future data. Since true generalization error is not directly observable, validation or held-out error is used as its practical estimate.
+- generalization ::@:: Generalization is the ability of the learned model to perform well on future data drawn from the same underlying data-generating process.
+- iid assumption for train and test data ::@:: Training and test data are usually assumed to be independent and identically distributed samples from the same population.
+- why the iid assumption matters ::@:: If train, validation, and deployment data do not come from the same population or are not independent, then held-out error may no longer predict future performance reliably.
+- effect of larger hypothesis space on training error ::@:: As the hypothesis space grows, training error usually stays the same or decreases because the learner has more candidate functions available. <p> In the course material, training error is always non-increasing as capacity increases.
+- effect of larger hypothesis space on validation and test error ::@:: Validation and test error often first decrease and then increase as capacity grows, because extra flexibility eventually starts fitting noise rather than signal.
 
 ### small hypothesis spaces in practice
 
@@ -385,7 +386,7 @@ Flashcards for this section are as follows:
 
 Validation chooses among candidate model families, but regularization changes the optimization problem itself. The lecture's strategy is to begin with a richer hypothesis space, such as a high-degree polynomial model, and then penalize overly large coefficients so that unnecessary complexity becomes expensive.
 
-With ridge regularization, the objective becomes $L(w,w_0)=\frac{1}{N}\sum_{i=1}^N (y_i-(w_0+w^\top \phi(x_i)))^2 + \lambda \lVert w\rVert_2^2$. The extra $L_2$ penalty is often called _weight decay_. It suppresses large coefficients smoothly, which makes the fitted function less wiggly and less sensitive to noise. In this form the bias term $w_0$ is typically excluded from the penalty. The reason is that shifting the whole predictor up or down does not create extra wiggliness or local complexity in the same way that large slope or higher-order coefficients do.
+With ridge regularization, the objective becomes $L(w,w_0)=\frac{1}{N}\sum_{i=1}^N (y_i-(w_0+w^\top \phi(x_i)))^2 + \lambda \lVert w\rVert_2^2$. This is an _objective-level_ $L_2$ penalty: it changes the loss being minimized. Under plain gradient descent or plain stochastic gradient descent, that penalty produces the same shrinkage effect as the update rule commonly called _weight decay_, but the two ideas are not literally identical. Weight decay is an _update-level_ rule that directly shrinks parameters during the step, whereas $L_2$ regularization is a penalty term added to the objective. They coincide under plain GD / plain SGD because the gradient of the penalty becomes a linear shrinkage term, but they need not coincide once adaptive optimizers or other update modifications are introduced. It suppresses large coefficients smoothly, which makes the fitted function less wiggly and less sensitive to noise. In this form the bias term $w_0$ is typically excluded from the penalty. The reason is that shifting the whole predictor up or down does not create extra wiggliness or local complexity in the same way that large slope or higher-order coefficients do.
 
 LASSO replaces the squared $L_2$ norm by the $L_1$ norm, giving a penalty of the form $\lambda\lVert w\rVert_1$. The slides stress the practical difference: ridge usually keeps all coefficients but shrinks them, whereas LASSO can drive some coefficients exactly to zero. That makes LASSO useful when one wants a sparse model that effectively discards unimportant features.
 
@@ -397,17 +398,17 @@ Regularization strength is itself a hyperparameter. A very large $\lambda$ overs
 
 Flashcards for this section are as follows:
 
-- regularization idea ::@:: Regularization controls overfitting by adding a complexity penalty to the training objective rather than only switching to a smaller model family. <!--SR:!2026-04-12,4,323!2026-04-12,4,301-->
-- why start with a large hypothesis space ::@:: One can start with a rich model class and then use regularization to suppress unnecessary complexity instead of fixing a small class in advance. <!--SR:!2026-04-12,4,313!2026-04-12,4,313-->
-- ridge regression objective $L(w,w_0)=\frac{1}{N}\sum_{i=1}^N (y_i-(w_0+w^\top\phi(x_i)))^2 + \lambda\lVert w\rVert_2^2$ ::@:: Ridge regression adds an $L_2$ penalty: $L(w,w_0)=\frac{1}{N}\sum_{i=1}^N (y_i-(w_0+w^\top\phi(x_i)))^2 + \lambda\lVert w\rVert_2^2$. <!--SR:!2026-04-12,4,313!2026-04-12,4,323-->
-- why the bias term is usually not regularized ::@:: The bias term is usually excluded from regularization because shifting the predictor up or down does not increase model complexity in the same way as large slope or higher-order coefficients. <!--SR:!2026-04-12,4,323!2026-04-12,4,301-->
-- weight decay ::@:: Weight decay is another name for $L_2$ regularization because it discourages large coefficient magnitudes. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- effect of ridge regression ::@:: Ridge regression shrinks coefficients smoothly toward zero, which stabilizes the fit and reduces overfitting. <!--SR:!2026-04-12,4,313!2026-04-12,4,313-->
-- LASSO idea with $\lambda\lVert w\rVert_1$ ::@:: LASSO uses an $L_1$ penalty $\lambda\lVert w\rVert_1$, encouraging sparse models by driving some coefficients exactly to zero. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- ridge versus LASSO ::@:: Ridge usually shrinks all coefficients, whereas LASSO can eliminate some coefficients entirely and thereby perform feature selection. <!--SR:!2026-04-12,4,284!2026-04-12,4,301-->
-- why LASSO yields sparsity ::@:: The $L_1$ geometry has corners on the coordinate axes, so the optimum often lands where one or more weights are exactly zero. <!--SR:!2026-04-12,4,301!2026-04-12,4,301-->
-- choosing $\lambda$ ::@:: The regularization strength $\lambda$ is itself a hyperparameter and is typically selected by validation or cross-validation. <!--SR:!2026-04-12,4,313!2026-04-12,4,313-->
-- regularization as a force in hypothesis space ::@:: Regularization can be viewed as a force pulling the solution away from overly complex regions of hypothesis space and back toward simpler functions with smaller coefficient norms. <!--SR:!2026-04-12,4,313!2026-04-12,4,322-->
+- regularization idea ::@:: Regularization controls overfitting by adding a complexity penalty to the training objective rather than only switching to a smaller model family.
+- why start with a large hypothesis space ::@:: One can start with a rich model class and then use regularization to suppress unnecessary complexity instead of fixing a small class in advance.
+- ridge regression objective $L(w,w_0)=\frac{1}{N}\sum_{i=1}^N (y_i-(w_0+w^\top\phi(x_i)))^2 + \lambda\lVert w\rVert_2^2$ ::@:: Ridge regression adds an $L_2$ penalty: $L(w,w_0)=\frac{1}{N}\sum_{i=1}^N (y_i-(w_0+w^\top\phi(x_i)))^2 + \lambda\lVert w\rVert_2^2$.
+- why the bias term is usually not regularized ::@:: The bias term is usually excluded from regularization because shifting the predictor up or down does not increase model complexity in the same way as large slope or higher-order coefficients.
+- weight decay versus $L_2$ regularization ::@:: $L_2$ regularization is an objective-level penalty added to the loss, whereas weight decay is an update-level rule that directly shrinks parameters during optimization. They are equivalent under plain gradient descent or plain stochastic gradient descent, but they are not literally the same concept and can differ under adaptive optimizers.
+- effect of ridge regression ::@:: Ridge regression shrinks coefficients smoothly toward zero, which stabilizes the fit and reduces overfitting.
+- LASSO idea with $\lambda\lVert w\rVert_1$ ::@:: LASSO uses an $L_1$ penalty $\lambda\lVert w\rVert_1$, encouraging sparse models by driving some coefficients exactly to zero.
+- ridge versus LASSO ::@:: Ridge usually shrinks all coefficients, whereas LASSO can eliminate some coefficients entirely and thereby perform feature selection.
+- why LASSO yields sparsity ::@:: The $L_1$ geometry has corners on the coordinate axes, so the optimum often lands where one or more weights are exactly zero.
+- choosing $\lambda$ ::@:: The regularization strength $\lambda$ is itself a hyperparameter and is typically selected by validation or cross-validation.
+- regularization as a force in hypothesis space ::@:: Regularization can be viewed as a force pulling the solution away from overly complex regions of hypothesis space and back toward simpler functions with smaller coefficient norms.
 
 ### interpreting l2 squared and l1 penalties
 
@@ -480,9 +481,9 @@ The ridge-versus-LASSO geometry gives a second kind of example. Ridge prefers sm
 
 Flashcards for this section are as follows:
 
-- degree-9 regularization example ::@:: In the lecture's degree-$9$ polynomial example, very small $\lambda$ overfits, very large $\lambda$ underfits, and a medium $\lambda$ recovers the right broad shape. <!--SR:!2026-04-12,4,313!2026-04-12,4,323-->
-- ridge-geometry example ::@:: Ridge's round geometry usually shrinks weights without setting them exactly to zero. <!--SR:!2026-04-12,4,301!2026-04-12,4,301-->
-- LASSO-geometry example ::@:: LASSO's cornered $L_1$ geometry often makes the optimum land on an axis, so some coefficients become exactly zero. <!--SR:!2026-04-12,4,313!2026-04-12,4,313-->
+- degree-9 regularization example ::@:: In the lecture's degree-$9$ polynomial example, very small $\lambda$ overfits, very large $\lambda$ underfits, and a medium $\lambda$ recovers the right broad shape.
+- ridge-geometry example: In a 2D parameter space $(w_1, w_2)$ showing the OLS loss contours and the ridge penalty region $\{w:\lVert w\rVert_2^2\le t\}$, what shape does the penalty region have, and what does that imply about coefficient sparsity? ::@:: The ridge constraint region is a circle (sphere in higher dimensions), so it has no sharp corners. The OLS loss ellipse typically touches this circle at a point where neither $w_1$ nor $w_2$ is exactly zero, so ridge regression tends to shrink all coefficients toward zero but rarely produces exact zeros, unlike LASSO which uses an $L_1$ ball with corners at the axes.
+- LASSO-geometry example ::@:: LASSO's cornered $L_1$ geometry often makes the optimum land on an axis, so some coefficients become exactly zero.
 
 ## performance metrics for regression
 
@@ -518,9 +519,9 @@ RMSE keeps exactly the same model ranking as MSE because it is just a square roo
 
 Flashcards for this section are as follows:
 
-- intuitive meaning of MSE ::@:: MSE is the average squared residual, so it ignores error sign and makes large mistakes count more heavily than small ones. <!--SR:!2026-04-12,4,313!2026-04-12,4,301-->
-- why MSE is sensitive to outliers ::@:: Because residuals are squared, a few large errors can dominate the MSE. <!--SR:!2026-04-12,4,313!2026-04-12,4,313-->
-- why RMSE preserves model ranking ::@:: RMSE is just the square root of MSE, so it orders models the same way while being easier to interpret in the target's original unit. <!--SR:!2026-04-12,4,301!2026-04-12,4,301-->
+- intuitive meaning of MSE ::@:: MSE is the average squared residual, so it ignores error sign and makes large mistakes count more heavily than small ones.
+- why MSE is sensitive to outliers: MSE is $\mathrm{MSE}=\frac{1}{N}\sum_{i=1}^N(y_i-\hat y_i)^2$. Why does a small number of large residuals disproportionately inflate it? ::@:: Because residuals are squared before averaging, a single outlier with residual $10$ contributes $100$ to the sum, whereas ten ordinary points with residual $1$ each contribute $100$ combined. This squaring makes MSE non-robust: outliers dominate even when the model fits most points well. Mean absolute error (MAE) avoids this by using absolute values, which grows linearly with the residual rather than quadratically.
+- why RMSE preserves model ranking ::@:: RMSE is just the square root of MSE, so it orders models the same way while being easier to interpret in the target's original unit.
 
 ### r squared intuition and alternative formulas
 

@@ -13,9 +13,9 @@ tags:
 
 ## system calls
 
-In general, system calls can be roughly described as {@{an essential interface between a process and the operating system}@}. In MARS, you can use it to {@{read and write to the console I/O window}@}. <!--SR:!2029-04-07,1154,350!2029-05-29,1192,350-->
+In general, {@{system calls}@} can be roughly described as {@{an essential interface between a process and the operating system}@}. In MARS, you can use it to {@{read and write to the console I/O window}@}. <!--SR:!2029-04-07,1154,350!2029-05-29,1192,350-->
 
-To invoke a system call, {@{specify the service to be called in `$v0` \(`$2`\) and pass any additional arguments required in other registers}@}. Then {@{run the instruction `syscall`}@}. The inputs \(if any\) are usually {@{stored in the `$a0`–`$a3` \(`$4`–`$7`\) registers}@}, while the outputs \(if any\) are usually {@{stored in the `$v0`–`$v1` \(`$2`–`$3`\) registers}@}. <!--SR:!2029-09-06,1265,350!2029-08-11,1253,350!2029-09-24,1281,350!2029-11-05,1315,350-->
+To invoke {@{a system call}@}, specify {@{the service to be called in `$v0` \(`$2`\)}@} and pass {@{any additional arguments required in other registers}@}. Then run {@{the instruction `syscall`}@}. {@{The inputs \(if any\)}@} are usually {@{stored in the `$a0`–`$a3` \(`$4`–`$7`\) registers}@}, while {@{the outputs \(if any\)}@} are usually {@{stored in the `$v0`–`$v1` \(`$2`–`$3`\) registers}@}. <!--SR:!2029-09-06,1265,350!2029-08-11,1253,350!2029-09-24,1281,350!2029-11-05,1315,350-->
 
 Some common syscalls are provided below:
 

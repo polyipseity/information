@@ -43,7 +43,7 @@ Lab-related pages live here.
 
 ## overview
 
-These lab notes keep the logistics at the top-level `labs/index.md` and push the real content into the individual lab folders.  The archived materials currently support detailed notes for lab 1, lab 2, and the prelab of lab 3; lab 4 remains a logistics scaffold until its official materials are ingested.
+These lab notes keep the logistics at the top-level `labs/index.md` and push the real content into the individual lab folders.  The archived materials currently support detailed notes for lab 1, lab 2, and both the prelab and assignment reasoning of lab 3; lab 4 remains a logistics scaffold until its official materials are ingested.
 
 ## sections
 

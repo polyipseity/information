@@ -28,9 +28,9 @@ This note is the periodic continuous-time entry point of the Fourier family. For
 
 Flashcards for this section are as follows:
 
-- What is the main purpose of the Fourier series in ELEC 2100? ::@:: It decomposes a periodic signal into harmonically related sinusoidal or complex-exponential components so that the signal can be understood and reconstructed in the frequency domain. <!--SR:!2026-04-12,4,289!2026-04-11,4,270-->
+- What core problem does the Fourier series note solve in ELEC 2100? ::@:: It decomposes a continuous-time periodic signal into harmonically related sinusoidal or complex-exponential components so the periodic waveform can be analyzed and reconstructed from its line spectrum. <!--SR:!2026-04-12,4,289!2026-04-11,4,270-->
 - Why is the Fourier-series viewpoint important beyond formula manipulation? ::@:: It turns waveform shape into a structured list of frequency components, which makes symmetry, bandwidth, harmonic content, and physical interpretation easier to see. <!--SR:!2026-04-11,4,270!2026-04-12,4,289-->
-- How should this note be positioned inside the four main Fourier descriptions used in ELEC 2100? ::@:: This note is the continuous-time periodic case. The Fourier transform handles continuous-time aperiodic signals, the DTFT handles general sequences on a continuous digital-frequency axis, and the DFT handles finite-record or period-$N$ discrete data on a finite frequency grid. <!--SR:!2026-04-11,4,270!2026-04-12,4,295-->
+- How should this note be positioned among the four main Fourier descriptions used in ELEC 2100? ::@:: This note is the continuous-time periodic case. The Fourier transform handles continuous-time aperiodic signals, the DTFT handles general sequences on a continuous digital-frequency axis, and the DFT handles finite-record or period-$N$ discrete data on a finite frequency grid. <!--SR:!2026-04-11,4,270!2026-04-12,4,295-->
 
 ## spectrum concept and frequency-domain viewpoint
 

@@ -80,7 +80,7 @@ Repository gotchas & quick tips
 3. Tests, types, and CI
    - Add/modify tests under `tests/` mirroring source layout. Use `pytest` and `pytest.mark.anyio` for async tests when relevant.
    - Typing guidance: prefer PEP 585 built-in generics for concrete containers (e.g. `list[str]`, `dict[str, int]`) and use `collections.abc` for abstract interfaces (e.g. `collections.abc.Sequence[str]`, `collections.abc.Mapping[str, int]`). Avoid `typing.List`/`typing.Dict`/`typing.Sequence` in new code.
-   - Run `pyright`/`bun run check` and `bun run test` locally to reduce CI failures.
+   - Run `uv run --locked ty check`/`bun run check` and `bun run test` locally to reduce CI failures.
 
 4. When in doubt
    - Ask the user one short clarifying question before making non-trivial changes (e.g., “Should I modify `special/` or only add tests?”).

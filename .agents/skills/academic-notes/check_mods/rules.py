@@ -189,10 +189,10 @@ def index_heading(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
-def _extract_children_section(text: str) -> list[tuple[int, str]]:
-    """Return the lines contained within the `## children` section.
+def _extract_named_h2_section(text: str, heading: str) -> list[tuple[int, str]]:
+    """Return the lines contained within a named `## <heading>` section.
 
-    The section begins after a `## children` heading and ends at the next
+    The section begins after a matching level-2 heading and ends at the next
     header of the same or higher level (i.e. a line starting with `#`).
 
     Returns a list of (line_number, line_text) tuples.
@@ -201,7 +201,7 @@ def _extract_children_section(text: str) -> list[tuple[int, str]]:
     lines = text.splitlines()
     start_line = None
     for idx, line in enumerate(lines):
-        if re.match(r"^##\s+children\s*$", line, re.IGNORECASE):
+        if re.match(rf"^##\s+{re.escape(heading)}\s*$", line, re.IGNORECASE):
             start_line = idx + 1
             break
     if start_line is None:
@@ -213,6 +213,12 @@ def _extract_children_section(text: str) -> list[tuple[int, str]]:
             break
         section.append((idx + 1, lines[idx]))
     return section
+
+
+def _extract_children_section(text: str) -> list[tuple[int, str]]:
+    """Return the lines contained within the `## children` section."""
+
+    return _extract_named_h2_section(text, "children")
 
 
 async def _path_exists(href: str, base: Path) -> bool:
@@ -399,6 +405,97 @@ def index_non_suppression_html_comments(
                 col_end=col_end,
             )
         )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def index_canvas_metadata_iso_datetime(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Require ISO datetime and duration values in Canvas-derived leaf indexes.
+
+    Applies to assignment-style leaf ``index.md`` pages under ``assignments`` or
+    ``labs``. The rule inspects metadata bullets in ``## description`` and
+    ``## logistics`` and requires ISO 8601 values for due timestamps,
+    availability endpoints or ranges, and durations.
+    """
+
+    errors: list[ValidationMessage] = []
+    if ctx.path.name.lower() != "index.md":
+        return errors
+
+    path_str = ctx.path.as_posix().casefold()
+    if not re.search(r"/(assignments|labs)/[^/]+/index\.md$", path_str):
+        return errors
+
+    iso_datetime = r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[+-]\d{2}:\d{2}"
+    iso_duration = (
+        r"P(?!$)(?:\d+Y)?(?:\d+M)?(?:\d+W)?(?:\d+D)?(?:T(?:\d+H)?(?:\d+M)?(?:\d+S)?)?"
+    )
+    iso_range = rf"{iso_datetime}/{iso_datetime}(?:,\s*{iso_duration})?"
+
+    def _push(line_no: int, line: str, msg: str) -> None:
+        """Add a validation error message for ISO datetime validation.
+
+        Args:
+            line_no: Line number of the error.
+            line: The line content.
+            msg: The error message.
+        """
+        errors.append(
+            ValidationMessage(
+                "index_canvas_metadata_iso_datetime",
+                msg,
+                line=line_no,
+                col=1,
+                col_end=len(line) if line else 1,
+            )
+        )
+
+    sections = _extract_named_h2_section(
+        ctx.text, "description"
+    ) + _extract_named_h2_section(ctx.text, "logistics")
+    for line_no, line in sections:
+        stripped = line.strip()
+        m = re.match(r"^-\s*([^:]+):\s*(.+)$", stripped)
+        if not m:
+            continue
+        key = m.group(1).strip().casefold()
+        value = m.group(2).strip()
+
+        if key == "due":
+            if value.casefold() == "tbd":
+                continue
+            if not re.fullmatch(iso_datetime, value):
+                _push(
+                    line_no,
+                    stripped,
+                    "Canvas-derived due metadata must use one ISO datetime with timezone",
+                )
+        elif key in {"available until", "locked at", "start", "end"}:
+            if not re.fullmatch(iso_datetime, value):
+                _push(
+                    line_no,
+                    stripped,
+                    f"Canvas-derived '{key}' metadata must use one ISO datetime with timezone",
+                )
+        elif key == "available":
+            if not (
+                re.fullmatch(rf"until\s+{iso_datetime}", value)
+                or re.fullmatch(iso_range, value)
+            ):
+                _push(
+                    line_no,
+                    stripped,
+                    "Canvas-derived availability metadata must use 'until <ISO datetime>' or '<ISO start>/<ISO end>, <ISO duration>'",
+                )
+        elif "duration" in key and not re.fullmatch(iso_duration, value):
+            _push(
+                line_no,
+                stripped,
+                "Canvas-derived duration metadata must use ISO duration syntax",
+            )
+
     return errors
 
 
@@ -1279,6 +1376,64 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
                         col_end=col_end,
                     )
                 )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def header_flashcard_sections_duplicate(
+    ctx: ValidationContext,
+) -> list[ValidationMessage]:
+    """Disallow duplicate flashcard sections within a single header block.
+
+    A header block should contain at most one flashcard section marker line:
+    ``Flashcards for this section are as follows:``. If duplicates are found,
+    authors should merge the sections and deduplicate overlapping cards.
+    """
+    errors: list[ValidationMessage] = []
+    name = ctx.path.name.lower()
+    parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
+    if (
+        name == "index.md"
+        or name == "questions.md"
+        or name == "agents.md"
+        or "questions" in parent_parts
+    ):
+        return errors
+
+    marker_re = re.compile(
+        r"^\s*Flashcards for this section are as follows:\s*$",
+        re.IGNORECASE | re.MULTILINE,
+    )
+
+    for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
+        start = h.end()
+        # For this rule, use the immediate next header (any level) so nested
+        # subsections are validated independently.
+        m = re.search(r"^#{1,6}\s+", ctx.text[start:], re.MULTILINE)
+        end = start + (m.start() if m else len(ctx.text) - start)
+        section = ctx.text[start:end]
+        occurrences = list(marker_re.finditer(section))
+        if len(occurrences) >= 2:
+            dup = occurrences[1]
+            abs_start = start + dup.start()
+            line, col, col_end = locate_range(ctx.text, abs_start, len(dup.group(0)))
+            hdr = h.group(0).strip()
+            errors.append(
+                ValidationMessage(
+                    rule_id="header_flashcard_sections_duplicate",
+                    msg=(
+                        f"header {hdr!r} contains multiple flashcard section blocks; "
+                        "merge duplicate flashcard sections into one '---' + "
+                        "'Flashcards for this section are as follows:' block and "
+                        "deduplicate cards when the flashcards overlap significantly, "
+                        "instead of deleting an entire duplicate section"
+                    ),
+                    line=line,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+
     return errors
 
 
@@ -2225,6 +2380,7 @@ def topic_note_redundant_filename_prefix(
     title = title_match.group(1).strip() if title_match else ""
     stem_lower = stem.casefold()
     title_lower = title.casefold()
+    body_start = len(ctx.text) - len(ctx.body)
     lines = ctx.body.splitlines(keepends=True)
     offset = 0
     in_flashcards = False
@@ -2268,7 +2424,7 @@ def topic_note_redundant_filename_prefix(
 
         if stem_redundant or title_redundant:
             repeated = title if title_redundant and title else stem
-            line_no, col_no = locate(ctx.body, offset)
+            line_no, col_no = locate(ctx.text, body_start + offset)
             errors.append(
                 ValidationMessage(
                     rule_id="topic_note_redundant_filename_prefix",
@@ -2546,6 +2702,78 @@ def cloze_no_nested(ctx: ValidationContext) -> list[ValidationMessage]:
 
 # split the original check into two specific rules; retain a wrapper
 # for backward compatibility.
+
+
+@RULE_REGISTRY.register()
+def no_consecutive_source_newlines(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag consecutive source newlines in markdown text.
+
+    This rule enforces that markdown source should not contain runs of
+    three or more consecutive newline tokens. It checks *actual*
+    newline characters and does not treat HTML line breaks such as ``<br/>``
+    as newlines.
+
+    Trailing whitespace is stripped from each source line before evaluating
+    blank-line runs so lines like ``"   \n"`` behave like empty lines.
+
+    To cover quoted content, lines that consist only of blockquote markers
+    (``>``, ``>>``, ``> >`` etc.) are treated as blank for this rule.
+    Mixed line endings (``\n``, ``\r\n``, and ``\r``) are handled explicitly.
+    """
+
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+
+    line_start = 0
+    newline_run = 0
+    in_violation_run = False
+
+    for raw_line in text.splitlines(keepends=True):
+        if raw_line.endswith("\r\n"):
+            line_content = raw_line[:-2]
+            line_ending = "\r\n"
+        elif raw_line.endswith("\n") or raw_line.endswith("\r"):
+            line_content = raw_line[:-1]
+            line_ending = raw_line[-1]
+        else:
+            line_content = raw_line
+            line_ending = ""
+
+        line_content = line_content.rstrip()
+        stripped_quote = re.sub(r"^\s*(?:>\s*)+", "", line_content)
+        is_effectively_blank = stripped_quote.strip() == ""
+
+        if line_ending:
+            if is_effectively_blank:
+                newline_run += 1
+            else:
+                newline_run = 1
+        else:
+            newline_run = 0
+
+        if newline_run >= 3:
+            if not in_violation_run:
+                line_no, col_no, col_end = locate_range(text, line_start, 1)
+                errors.append(
+                    ValidationMessage(
+                        rule_id="no_consecutive_source_newlines",
+                        msg=(
+                            "three or more consecutive source newlines detected; "
+                            "remove extra blank source lines (including quote-only blank lines) "
+                            "and use <br/> if a visual line break is required"
+                        ),
+                        line=line_no,
+                        col=col_no,
+                        col_end=col_end,
+                    )
+                )
+                in_violation_run = True
+        else:
+            in_violation_run = False
+
+        line_start += len(raw_line)
+
+    return errors
 
 
 @RULE_REGISTRY.register()

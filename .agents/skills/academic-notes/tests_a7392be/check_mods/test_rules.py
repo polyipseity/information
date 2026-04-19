@@ -21,8 +21,10 @@ from check_mods.rules import (
     cloze_wrong_closing_token,
     folder_link_trailing_slash,
     header_flashcard_presence,
+    header_flashcard_sections_duplicate,
     header_flashcard_separator,
     header_style,
+    index_canvas_metadata_iso_datetime,
     index_children,
     index_children_agents_link,
     index_children_format,
@@ -41,6 +43,7 @@ from check_mods.rules import (
     metadata_aliases_present,
     metadata_flash_tag,
     metadata_tags_present,
+    no_consecutive_source_newlines,
     no_control_characters,
     no_lecture_summary,
     no_smart_double_quotes,
@@ -189,6 +192,55 @@ def test_index_rules():
     ctx = make_ctx(txt, path=Path("/tmp/index.md"))
     msgs = index_semester_order(ctx)
     assert msgs and "chronological" in msgs[0].msg
+
+
+def test_index_canvas_metadata_iso_datetime_rule():
+    """Canvas-derived leaf indexes should store time metadata in ISO form."""
+
+    bad_lab = "# index\n\n## description\n- title: Lab1 (Thu)\n- Due: Mar 5 by 1:30pm\n- Available: until Mar 5 at 1:30pm\n"
+    ctx_bad_lab = make_ctx(
+        bad_lab,
+        path=Path("/tmp/special/academia/HKUST/ELEC 2100/labs/lab 1/index.md"),
+    )
+    msgs_bad_lab = index_canvas_metadata_iso_datetime(ctx_bad_lab)
+    assert len(msgs_bad_lab) == 2
+    assert all(
+        msg.rule_id == "index_canvas_metadata_iso_datetime" for msg in msgs_bad_lab
+    )
+
+    good_lab = "# index\n\n## description\n- title: Lab1 (Thu)\n- Due: 2026-03-05T13:30:59+08:00\n- Available until: 2026-03-05T13:30:59+08:00\n"
+    ctx_good_lab = make_ctx(
+        good_lab,
+        path=Path("/tmp/special/academia/HKUST/ELEC 2100/labs/lab 1/index.md"),
+    )
+    assert not index_canvas_metadata_iso_datetime(ctx_good_lab)
+
+    bad_assignment = "# index\n\n## logistics\n- due: 2026-04-11\n- type: homework assignment\n- source: Canvas home page\n"
+    ctx_bad_assignment = make_ctx(
+        bad_assignment,
+        path=Path(
+            "/tmp/special/academia/HKUST/ELEC 2100/assignments/homework 2/index.md"
+        ),
+    )
+    msgs_bad_assignment = index_canvas_metadata_iso_datetime(ctx_bad_assignment)
+    assert len(msgs_bad_assignment) == 1
+    assert "ISO datetime" in msgs_bad_assignment[0].msg
+
+    good_assignment = "# index\n\n## logistics\n- due: 2026-04-11T23:59:59+08:00\n- type: homework assignment\n- source: Canvas home page\n"
+    ctx_good_assignment = make_ctx(
+        good_assignment,
+        path=Path(
+            "/tmp/special/academia/HKUST/ELEC 2100/assignments/homework 2/index.md"
+        ),
+    )
+    assert not index_canvas_metadata_iso_datetime(ctx_good_assignment)
+
+    good_description_prose = '# index\n\n## description\n- title: Lab1 (Thu)\n- Due: 2026-03-05T13:30:59+08:00\n\nThis assignment was locked Mar 5 at 1:30pm.\n\n**Due on** **<span style="color: #f4350b;">05 Mar (Thu), 1:30pm</span>**\n'
+    ctx_good_description_prose = make_ctx(
+        good_description_prose,
+        path=Path("/tmp/special/academia/HKUST/ELEC 2100/labs/lab 1/index.md"),
+    )
+    assert not index_canvas_metadata_iso_datetime(ctx_good_description_prose)
 
 
 @pytest.mark.anyio
@@ -380,6 +432,51 @@ def test_header_flashcard_rules_exempt_agents():
     ctx = make_ctx(txt, path=Path("/tmp/course/COMP 4211/AGENTS.md"))
     assert not header_flashcard_presence(ctx)
     assert not header_flashcard_separator(ctx)
+
+
+def test_header_flashcard_sections_duplicate_rule():
+    """A header block must not contain two or more flashcard section markers."""
+
+    single = (
+        "## expected warranty liability\n\n"
+        "Some explanatory prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card 1 ::@:: answer 1\n"
+    )
+    path = Path("/tmp/course/topic.md")
+    assert not header_flashcard_sections_duplicate(make_ctx(single, path=path))
+
+    duplicate = (
+        "## expected warranty liability\n\n"
+        "Some explanatory prose.\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card 1 ::@:: answer 1\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- card 2 ::@:: answer 2\n"
+    )
+    msgs_duplicate = header_flashcard_sections_duplicate(make_ctx(duplicate, path=path))
+    assert (
+        msgs_duplicate
+        and msgs_duplicate[0].rule_id == "header_flashcard_sections_duplicate"
+    )
+    assert "merge" in msgs_duplicate[0].msg.lower()
+    assert "deduplic" in msgs_duplicate[0].msg.lower()
+
+    # Nested subsection should be treated as an independent header block.
+    nested = (
+        "## warranty\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- parent card ::@:: parent answer\n\n"
+        "### expected warranty liability\n\n"
+        "---\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- child card ::@:: child answer\n"
+    )
+    assert not header_flashcard_sections_duplicate(make_ctx(nested, path=path))
 
 
 def test_agents_title_rule():
@@ -912,6 +1009,26 @@ def test_topic_note_redundant_filename_prefix():
     )
 
 
+def test_topic_note_redundant_filename_prefix_reports_file_line_number():
+    """The reported location should be in full-file coordinates, not body-relative."""
+
+    txt = (
+        "---\n"
+        "aliases: [a]\n"
+        "tags: [language/in/English, flashcard/active/special/academia/test/topic]\n"
+        "---\n\n"
+        "# Topic\n\n"
+        "Flashcards for this section are as follows:\n\n"
+        "- Topic / definition ::@:: details\n"
+    )
+    msgs = topic_note_redundant_filename_prefix(
+        make_ctx(txt, Path("/tmp/course/topic.md"))
+    )
+    assert msgs and msgs[0].rule_id == "topic_note_redundant_filename_prefix"
+    # 1-4 frontmatter, 5 blank, 6 title, 7 blank, 8 marker, 9 blank, 10 bullet
+    assert msgs[0].line == 10
+
+
 def test_latex_spacing_before_paren():
     """Spacing rule allows '(' and '{' before dollar but not letters directly."""
 
@@ -1175,6 +1292,55 @@ def test_no_soft_wrap_list():
     txt = "First line\nsecond line\n"
     ctx = make_ctx(txt)
     assert not no_soft_wrap_list(ctx)
+
+
+def test_no_consecutive_source_newlines_rule():
+    """Consecutive source newlines should be detected across line-ending styles."""
+
+    # No blank source line => no violation.
+    assert not no_consecutive_source_newlines(make_ctx("alpha\nbeta\n"))
+
+    # Two consecutive newline tokens should be allowed now.
+    assert not no_consecutive_source_newlines(make_ctx("alpha\n\nbeta\n"))
+
+    # Three consecutive newline tokens should be flagged.
+    plain_three = make_ctx("alpha\n\n\nbeta\n")
+    msgs_plain_three = no_consecutive_source_newlines(plain_three)
+    assert msgs_plain_three
+    assert msgs_plain_three[0].rule_id == "no_consecutive_source_newlines"
+    assert msgs_plain_three[0].line == 3
+
+    # Mixed line endings with only two newline tokens should be allowed.
+    assert not no_consecutive_source_newlines(make_ctx("alpha\r\n\r\nbeta\n"))
+
+    # Mixed line endings should be flagged at three consecutive newline tokens.
+    mixed_three = make_ctx("alpha\r\n\r\n\r\nbeta\n")
+    msgs_mixed_three = no_consecutive_source_newlines(mixed_three)
+    assert msgs_mixed_three
+    assert msgs_mixed_three[0].rule_id == "no_consecutive_source_newlines"
+    assert msgs_mixed_three[0].line == 3
+
+    # Trailing whitespace should be stripped before newline-run evaluation.
+    trailing_ws = make_ctx("alpha   \r\n\t   \r\n  \t\r\nbeta\n")
+    msgs_trailing_ws = no_consecutive_source_newlines(trailing_ws)
+    assert msgs_trailing_ws
+    assert msgs_trailing_ws[0].rule_id == "no_consecutive_source_newlines"
+    assert msgs_trailing_ws[0].line == 3
+
+    # Quote-only blank line with only two newline tokens should be allowed.
+    assert not no_consecutive_source_newlines(
+        make_ctx("> first line\n>\n> second line\n")
+    )
+
+    # Quote-only blank lines should count toward three-consecutive-newline spans.
+    quoted_three = make_ctx("> first line\n>\n>\n> second line\n")
+    msgs_quoted_three = no_consecutive_source_newlines(quoted_three)
+    assert msgs_quoted_three
+    assert msgs_quoted_three[0].rule_id == "no_consecutive_source_newlines"
+    assert msgs_quoted_three[0].line == 3
+
+    # <br/> is HTML, not a source newline token.
+    assert not no_consecutive_source_newlines(make_ctx("alpha<br/>beta\n"))
 
 
 @pytest.mark.anyio

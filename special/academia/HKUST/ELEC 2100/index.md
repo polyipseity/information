@@ -32,6 +32,7 @@ This page is a logistics-first scaffold for the chosen sections L1, T2, and LA3.
 
 - [assignments](assignments/index.md)
 - [labs](labs/index.md)
+- [questions](questions/index.md)
 - [AGENTS](AGENTS.md)
 - [Fourier series](Fourier%20series.md)
 - [Fourier transform](Fourier%20transform.md)
@@ -89,6 +90,8 @@ This page is a logistics-first scaffold for the chosen sections L1, T2, and LA3.
   - [lab 2](labs/lab%202/index.md): impulse response and convolution
   - [lab 3](labs/lab%203/index.md): Fourier series and filters
   - [lab 4](labs/lab%204/index.md): modulation, demodulation, and sampling
+- quiz pages
+  - [questions](questions/index.md): canonical public home for ELEC 2100 quizzes, including detailed review pages for archived quizzes and schedule-only placeholders when only quiz timing is known
 - basic signal language and graphical intuition
   - [signal](signal.md)
   - [singular signal](singular%20signal.md)
@@ -112,7 +115,7 @@ The four Fourier notes are organized by two axes: continuous time versus discret
 - communication applications
   - [modulation](modulation.md)
   - [sampling theorem](sampling%20theorem.md)
-- Detailed assignment and lab schedules live in the child index pages.
+- Detailed homework and lab schedules live in the child index pages; quiz pages live under [questions](questions/index.md).
 - Topic notes should be added only after the corresponding official materials are archived.
 
 ## week 1 lecture
@@ -682,7 +685,7 @@ This tutorial is the bridge from periodic Fourier analysis to full transform-dom
 
 ---
 
-This is the selected LA3 prelab slot for lab 3.  The archived materials cover FFT-based spectral reading, `fftshift`, and practical low-pass and band-pass filtering workflows.
+This is the selected LA3 prelab slot for lab 3.  The prelab note now stays on preparation-stage habits only: audio time indexing, FFT normalization, centered frequency axes, Butterworth normalization, and before/after response reading.
 
 ## week 8 lecture 2
 
@@ -807,10 +810,11 @@ No T2 tutorial was scheduled in this slot according to the provided timetable.
 - venue: Room 4225C
 - topic: lab 3 assignment; Fourier series and filters
 - [lab 3](labs/lab%203/index.md)
+  - [lab](labs/lab%203/lab.md)
 
 ---
 
-This is the selected LA3 graded lab-3 slot.  The official assignment workflow is evidenced by the schedule metadata, but the assignment live script itself has not yet been archived into the notes tree, so the durable routing currently remains at the lab-3 index and prelab note.
+This is the selected LA3 graded lab-3 slot.  The archived submission has now been distilled into the companion lab note, which records the lab-specific reasoning for peak identification, cosine reconstruction, Butterworth cutoff selection, datatip reading, and the difference between the Butterworth output and the ideal-filter picture.
 
 ## week 10 lecture 2
 

@@ -294,7 +294,7 @@ Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{t
 
 ## application to shortest path finding
 
-{@{The topological ordering}@} can also be used to {@{quickly compute [shortest paths](shortest%20path%20problem.md) through a [weighted](glossary%20of%20graph%20theory.md#weighted%20graph) directed acyclic graph}@}. Let {@{_V_ be the list of vertices in such a graph, in topological order}@}. Then {@{the following algorithm computes the shortest path from some source vertex _s_ to all other vertices}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-06-11,449,379!2029-03-10,1149,359!2026-06-24,460,379!2030-02-13,1421,371-->
+{@{The topological ordering}@} can also be used to {@{quickly compute [shortest paths](shortest%20path%20problem.md) through a [weighted](glossary%20of%20graph%20theory.md#weighted%20graph) directed acyclic graph}@}. Let {@{_V_ be the list of vertices in such a graph, in topological order}@}. Then the following algorithm computes {@{the shortest path from some source vertex _s_ to all other vertices}@}:<sup>[\[3\]](#^ref-3)</sup> (annotation: 2 items: {@{outgoing edge variant, incoming edge variant}@}) <!--SR:!2026-06-11,449,379!2029-03-10,1149,359!2026-06-24,460,379!2030-02-13,1421,371-->
 
 > __outgoing edge variant__
 >

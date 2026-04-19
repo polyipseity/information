@@ -16,7 +16,7 @@ tags:
 
 ---
 
-This folder collects question pages for `MATH 2431`. The official tutorial materials are split by tutorial week so the files stay navigable, while the self-generated honors review prompts are collected separately in the midterm review page.
+This folder collects question pages for MATH 2431. The official tutorial materials are split by tutorial week so the files stay navigable, while the self-generated honors review prompts are collected separately in the midterm review page.
 
 The same folder also stores official problem-set writeups and official practice-midterm material extracted from the released solution sheets, so tutorials, problem sets, practice exams, and review prompts all live in one canonical question bank instead of being scattered across unrelated pages.
 

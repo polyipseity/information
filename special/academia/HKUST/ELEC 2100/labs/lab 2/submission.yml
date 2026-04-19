@@ -1,0 +1,36 @@
+assignment:
+  comments:
+    3690609:
+      attachments: []
+      author: "[redacted]"
+      content: Part II (- 0.5)
+      datetime: 2026-03-23 14:53:00+08:00
+      id: 3690609
+  content:
+    "Due on 19 Mar (Thu), 1:30pm\nAny late submission will NOT be graded.\n\
+    Lab Instruction : \nPlease read\n\nActions\n\n\n\n\n\n\nAny incorrect format will\
+    \ NOT graded.\nLab files for download only : Please click\n\n\n\n\nDownload Please\
+    \ click"
+  grade:
+    entered: 19.5
+    graded anonymously: false
+    possible: 20
+  id: 428866
+  properties:
+    available:
+      end: 2026-03-19 13:30:00+08:00
+      start: null
+    due: 2026-03-19 13:30:00+08:00
+    file types:
+      - pdf
+    points: 20
+    submitting:
+      - a file upload
+  submissions:
+    - datetime: 2026-03-19 13:15:00+08:00
+      id: -1
+  title: Lab2 (Thu)
+course:
+  id: 68620
+  name: ELEC2100 (L1)
+type: submission/Canvas/canvas.ust.hk

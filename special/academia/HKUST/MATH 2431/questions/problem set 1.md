@@ -25,7 +25,7 @@ The questions on this page summarize the _official problem-set materials_ for pr
 > - (d) In a $6$-out-of-$49$ lottery, count outcomes with exactly $3$ correct guesses and the corresponding probability.
 > - (e) Form an $8$-person committee from $12$ female and $8$ male candidates with at least $3$ females and at most $5$ males.
 > - (f) Choose two of $n\ge 2$ equally spaced points on the unit circle and find the probability that they are neighbors.
-> - (g) Count anagrams and palindromes of `HANNAH`.
+> - (g) Count anagrams and palindromes of "HANNAH".
 > - (h) Order $n$ books when exactly $m$ of them are indistinguishable.
 >
 > Solution:
@@ -35,9 +35,9 @@ The questions on this page summarize the _official problem-set materials_ for pr
 > - (c) Each lamp has {@{2 states independently}@}, so by the {@{product rule}@} the count is {@{$2^{10}=1024$}@}.
 > - (d) Exact-$3$ lottery guesses require choosing {@{$3$ winning numbers out of $6$ and $3$ losing numbers out of $43$}@}, so the number of favorable outcomes is {@{$\binom{6}{3}\binom{43}{3}$}@} and the probability is {@{$\dfrac{\binom{6}{3}\binom{43}{3}}{\binom{49}{6}}\approx0.0176$}@}.
 > - (d) To have exactly {@{3 correct guesses}@}, first choose {@{$3$ of the $6$ winning numbers}@}, then choose {@{$3$ of the $43$ losing numbers}@}. This gives {@{$\binom{6}{3}\binom{43}{3}$ favorable tickets}@} out of {@{$\binom{49}{6}$ possible tickets}@}, so the probability is {@{$\dfrac{\binom{6}{3}\binom{43}{3}}{\binom{49}{6}}\approx0.0176$}@}.
-> - (e) If {@{$j$ females are chosen then $8-j$ males are chosen}@}, and the condition `at least 3 females, at most 5 males' means {@{$j=3,4,\dots,8$}@}, so the total is {@{$\sum_{j=3}^{8}\binom{12}{j}\binom{8}{8-j}=124025$}@}.
+> - (e) If {@{$j$ females are chosen then $8-j$ males are chosen}@}, and the condition 'at least 3 females, at most 5 males' means {@{$j=3,4,\dots,8$}@}, so the total is {@{$\sum_{j=3}^{8}\binom{12}{j}\binom{8}{8-j}=124025$}@}.
 > - (f) For {@{$n=2$}@} the two chosen points are automatically neighbors, so {@{$p_2=1$}@}; for {@{$n\ge3$}@} there are {@{$\binom{n}{2}$ unordered pairs}@} in total and exactly {@{$n$ neighboring pairs}@}, hence {@{$p_n=\dfrac{n}{\binom{n}{2}}=\dfrac{2}{n-1}$}@}.
-> - (g) The letters of `HANNAH` form a {@{multiset with three repeated pairs}@}, so the number of anagrams is {@{$\dfrac{6!}{2!2!2!}=90$}@}; a palindrome must look like {@{$X_1X_2X_3X_3X_2X_1$ with $X_1,X_2,X_3\in\{A,H,N\}$ distinct}@}, so {@{choosing the first half determines the whole word}@}, giving {@{$3!=6$ palindromes}@}.
+> - (g) The letters of "HANNAH" form a {@{multiset with three repeated pairs}@}, so the number of anagrams is {@{$\dfrac{6!}{2!2!2!}=90$}@}; a palindrome must look like {@{$X_1X_2X_3X_3X_2X_1$ with $X_1,X_2,X_3\in\{A,H,N\}$ distinct}@}, so {@{choosing the first half determines the whole word}@}, giving {@{$3!=6$ palindromes}@}.
 > - (h) Treat the identical books as repeated copies of one symbol, so the number of shelf orderings is {@{$\dfrac{n!}{m!}$}@} because {@{permuting the $m$ indistinguishable copies does not create a new arrangement}@}. <!--SR:!2026-04-12,4,288!2026-04-12,4,288!2026-04-12,4,288!2026-04-11,4,270!2026-04-11,4,270!2026-04-11,4,270!2026-04-11,4,270!2026-04-12,4,288!2026-04-12,4,288!2026-04-12,4,288!2026-04-11,4,270!2026-04-12,4,288!2026-04-11,4,270!2026-04-11,4,270!2026-04-10,3,250!2026-04-12,4,288!2026-04-11,4,270!2026-04-12,4,288!2026-04-11,4,270!2026-04-11,4,270!2026-04-11,4,270!2026-04-12,4,288!2026-04-11,4,270!2026-04-12,4,288!2026-04-12,4,288!2026-04-11,4,270!2026-04-12,4,288!2026-04-12,4,288!2026-04-11,4,270!2026-04-12,4,288!2026-04-11,4,270!2026-04-12,4,288!2026-04-12,4,288-->
 
 <!-- markdownlint MD028 -->

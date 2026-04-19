@@ -20,7 +20,7 @@ tags:
 
 ## description
 
-\(empty\)
+(empty)
 
 ## attachments
 
@@ -34,4 +34,4 @@ tags:
 
 ## solution
 
-\(empty\)
+(empty)

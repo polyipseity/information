@@ -1,0 +1,121 @@
+assignment:
+  comments:
+    3672815:
+      attachments: []
+      author: "[redacted]"
+      content: q1 -0
+      datetime: 2026-03-12 14:06:00+08:00
+      id: 3672815
+    3672911:
+      attachments: []
+      author: "[redacted]"
+      content: Q2 -0.5
+      datetime: 2026-03-12 14:52:00+08:00
+      id: 3672911
+    3673512:
+      attachments: []
+      author: "[redacted]"
+      content: q3 -0
+      datetime: 2026-03-12 17:03:00+08:00
+      id: 3673512
+    3673770:
+      attachments: []
+      author: "[redacted]"
+      content: q5 -0
+      datetime: 2026-03-12 19:20:00+08:00
+      id: 3673770
+    3673784:
+      attachments: []
+      author: "[redacted]"
+      content: q4 -0
+      datetime: 2026-03-12 19:32:00+08:00
+      id: 3673784
+    3674140:
+      attachments: []
+      author: "[redacted]"
+      content: q6 -0
+      datetime: 2026-03-12 22:05:00+08:00
+      id: 3674140
+    3674465:
+      attachments: []
+      author: "[redacted]"
+      content: q7 -0.5
+      datetime: 2026-03-13 10:27:00+08:00
+      id: 3674465
+  content: "Please write down your answer with reasonable font size.
+
+
+
+    Please check your pdf file before and after submission on Canvas.
+
+
+
+    Please limit file size below 5M.
+
+
+
+    No other file format will be considered.
+
+
+
+    No late submission will be allowed
+
+
+
+    HW1
+
+
+
+    Actions
+
+
+
+
+
+
+
+
+
+
+
+    Due on 07 Mar (Sat)
+
+
+
+    Solution
+
+
+
+    Actions
+
+
+
+
+
+
+
+
+    Q2 c) updated"
+  grade:
+    entered: 52
+    graded anonymously: false
+    possible: 53
+  id: 426506
+  properties:
+    available:
+      end: 2026-03-07 23:59:00+08:00
+      start: null
+    due: 2026-03-07 23:59:00+08:00
+    file types:
+      - pdf
+    points: 53
+    submitting:
+      - a file upload
+  submissions:
+    - datetime: 2026-03-07 23:49:00+08:00
+      id: -1
+  title: HW1
+course:
+  id: 68620
+  name: ELEC2100 (L1)
+type: submission/Canvas/canvas.ust.hk

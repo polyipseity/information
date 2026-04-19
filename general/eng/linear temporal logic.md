@@ -157,7 +157,7 @@ Let {@{φ, ψ, and ρ}@} be {@{LTL formulas}@}. The following tables list {@{som
 
 ## negation normal form
 
-All the formulas of LTL can be {@{transformed into _negation normal form_}@}, where <!--SR:!2031-04-18,1852,383-->
+{@{All the formulas}@} of LTL can be {@{transformed into _negation normal form_}@}, where <!--SR:!2031-04-18,1852,383--> (annotation: 3 items: {@{restricted negations, restricted logical operators, restricted temporal operators}@})
 
 - all negations ::@:: appear only in front of the atomic propositions, <!--SR:!2029-02-13,1196,357!2030-07-09,1614,370-->
 - only other logical operators ::@:: __true__, __false__, ∧, and ∨ can appear, and <!--SR:!2028-02-24,889,337!2029-01-10,1165,350-->
