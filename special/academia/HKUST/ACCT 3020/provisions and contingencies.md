@@ -77,7 +77,7 @@ Flashcards for this section are as follows:
 
 The amount recognized as a provision is the __best estimate__ of the expenditure required to settle the obligation at the reporting date. Estimation involves judgment. Two common approaches: (1) __Expected value__—when there are multiple outcomes with probabilities, use the probability-weighted sum (e.g. Toyota: 80% no cost, 12% substantial cost, 8% smaller cost; expected warranty cost = sum of probability × estimated cost for each outcome). (2) __Most likely outcome__—when there is a single obligation with essentially one outcome (e.g. lawsuit: win or lose; use the most likely outcome). In this course: if the question gives probabilities, use expected value; if not, use the most likely outcome.
 
-> _Expected-value versus most-likely litigation example._ A lawsuit has three possible outcomes at year-end: {@{30% chance of no loss}@}, {@{50% chance of a €500&nbsp;000 payment}@}, and {@{20% chance of a €1&nbsp;000&nbsp;000 payment}@}. If the lawsuit is one of a large pool of similar obligations, expected value gives a provision of {@{€450&nbsp;000 = 0.30 × 0 + 0.50 × 500&nbsp;000 + 0.20 × 1&nbsp;000&nbsp;000}@}. If instead the case is treated as a single one-off dispute, the most likely outcome is {@{€500&nbsp;000}@}.
+> _Expected-value versus most-likely litigation example._ Apex Consumer Products Ltd. faces a lawsuit with three possible outcomes at year-end: {@{30% chance of no loss}@}, {@{50% chance of a €500&nbsp;000 payment}@}, and {@{20% chance of a €1&nbsp;000&nbsp;000 payment}@}. If the lawsuit is one of a large pool of similar obligations, expected value gives a provision of {@{€450&nbsp;000 = 0.30 × 0 + 0.50 × 500&nbsp;000 + 0.20 × 1&nbsp;000&nbsp;000}@}. If instead the case is treated as a single one-off dispute, the most likely outcome is {@{€500&nbsp;000}@}.
 >
 > | {@{Recognise provision using expected value}@} | Dr | Cr |
 > | --- | ---: | ---: |
@@ -127,7 +127,7 @@ Flashcards for this section are as follows:
 
 Representative journal entry examples:
 
-> _Scenario._ Company sold {@{1&nbsp;000 machines in 2025; each carries a one-year assurance-type warranty. Estimated warranty cost is 20 per machine, so total expected warranty cost from the 2025 sales is 20&nbsp;000}@}. Actual warranty costs already incurred in 2025 were {@{4&nbsp;000}@}. Record the {@{31 December 2025 adjusting entry for the remaining future warranty obligation of 16&nbsp;000}@}.
+> _Scenario._ Northstar Appliances Ltd. sold {@{1&nbsp;000 countertop ovens in 2025; each carries a one-year assurance-type warranty. Estimated warranty cost is 20 per unit, so total expected warranty cost from the 2025 sales is 20&nbsp;000}@}. Actual warranty costs already incurred in 2025 were {@{4&nbsp;000}@}. Record the {@{31 December 2025 adjusting entry for the remaining future warranty obligation of 16&nbsp;000}@}.
 >
 > | {@{Recognise warranty expense and provision}@} | Dr                | Cr                |
 > | ---------------------------------------------- | ----------------- | ----------------- |
@@ -137,7 +137,7 @@ Representative journal entry examples:
 > _Calculation._ Total expected warranty cost = {@{1&nbsp;000 × 20 = 20&nbsp;000}@}; less actual 2025 warranty cost already incurred = {@{4&nbsp;000}@}; remaining future obligation = {@{16&nbsp;000}@}. Only the {@{remaining future cost}@} is recognized as the year-end provision because the {@{4&nbsp;000 already incurred is an actual current-year expense, not part of the closing liability}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Tiered warranty mix instead of one flat cost per unit._ A company sells {@{800 standard machines with expected warranty cost 18 each}@} and {@{200 deluxe machines with expected warranty cost 45 each}@}. Actual warranty costs already incurred during the year are {@{5&nbsp;400}@}. The closing provision therefore depends on the {@{sales mix actually sold}@}, not on one average cost for all units.
+> _Tiered warranty mix instead of one flat cost per unit._ Northstar sells {@{800 standard countertop ovens with expected warranty cost 18 each}@} and {@{200 deluxe countertop ovens with expected warranty cost 45 each}@}. Actual warranty costs already incurred during the year are {@{5&nbsp;400}@}. The closing provision therefore depends on the {@{sales mix actually sold}@}, not on one average cost for all units.
 >
 > | {@{Recognise warranty provision using the weighted product mix sold}@} | Dr | Cr |
 > | --- | ---: | ---: |
@@ -147,7 +147,7 @@ Representative journal entry examples:
 > _Calculation._ Expected warranty cost = {@{(800 × 18) + (200 × 45) = 23&nbsp;400}@}. Less actual claims already incurred {@{5&nbsp;400}@}. Remaining future obligation = {@{18&nbsp;000}@}. The trick is that the warranty estimate must follow the {@{product mix that created the obligation}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ In 2026 a customer {@{makes a valid warranty claim, and the company settles it by paying cash of 100}@}. The cost relates to the {@{provision already recognized from earlier sales}@}.
+> _Scenario._ In 2026 a Northstar customer {@{makes a valid warranty claim, and the company settles it by paying cash of 100}@}. The cost relates to the {@{provision already recognized from earlier sales}@}.
 >
 > | {@{Settle warranty claim using existing provision}@} | Dr        | Cr        |
 > | ---------------------------------------------------- | --------- | --------- |
@@ -157,7 +157,7 @@ Representative journal entry examples:
 > _Explanation._ The claim settlement {@{uses up part of the warranty liability instead of creating a fresh warranty expense}@}; the expense was already {@{matched to the sale when the provision was recognized}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ A valid warranty claim is settled by giving the customer {@{replacement parts from inventory with carrying amount 80}@}. The parts cost had already been {@{included in the earlier warranty estimate}@}.
+> _Scenario._ A valid Northstar warranty claim is settled by giving the customer {@{replacement parts from inventory with carrying amount 80}@}. The parts cost had already been {@{included in the earlier warranty estimate}@}.
 >
 > | {@{Settle warranty claim using inventory parts}@} | Dr       | Cr       |
 > | ------------------------------------------------- | -------- | -------- |
@@ -167,7 +167,7 @@ Representative journal entry examples:
 > _Explanation._ Use {@{Inventory when the warranty claim is satisfied by parts or replacement goods already held in stock}@}. The provision is reduced because the parts cost was {@{already anticipated in Warranty expense when the sale occurred}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ A valid warranty claim is repaired by the company's own technicians. The labor component attributable to this repair is {@{60 and that cost is being settled through Accrued Payroll rather than cash or inventory}@}.
+> _Scenario._ A valid Northstar warranty claim is repaired by the company's own technicians. The labor component attributable to this repair is {@{60 and that cost is being settled through Accrued Payroll rather than cash or inventory}@}.
 >
 > | {@{Settle warranty claim using in-house labor accrual}@} | Dr       | Cr       |
 > | -------------------------------------------------------- | -------- | -------- |
@@ -199,7 +199,7 @@ Flashcards for this section are as follows:
 Sometimes the issue is not that a particular repair costs more than expected. Instead, management revises the __remaining expected loss liability__ for the still-open warranty population. In that case the company adjusts the __Warranty liability__ itself to the newly required closing balance and sends the offset to __Warranty expense__.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Expected warranty losses increase after year-end review._ A company already carries a {@{Warranty liability of 18&nbsp;000}@} after recording current-year sales and current-year claim settlements. New information about failure rates shows that the required closing liability should now be {@{24&nbsp;000}@}.
+> _Expected warranty losses increase after year-end review._ Northstar already carries a {@{Warranty liability of 18&nbsp;000}@} after recording current-year sales and current-year claim settlements. New information about failure rates shows that the required closing liability should now be {@{24&nbsp;000}@}.
 >
 > | {@{Increase warranty liability for a revised upward estimate of remaining warranty losses}@} | Dr | Cr |
 > | --- | ---: | ---: |
@@ -209,7 +209,7 @@ Sometimes the issue is not that a particular repair costs more than expected. In
 > _Explanation._ This is a {@{change in estimate of the remaining expected warranty obligation}@}. No customer claim is being settled here; the company is simply increasing the liability from {@{18&nbsp;000 to 24&nbsp;000}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Expected warranty losses decrease after updated evidence._ Instead, suppose the same {@{Warranty liability still stands at 18&nbsp;000}@}, but improved evidence shows that only {@{13&nbsp;500}@} is still needed.
+> _Expected warranty losses decrease after updated evidence._ Instead, suppose Northstar's {@{Warranty liability still stands at 18&nbsp;000}@}, but improved evidence shows that only {@{13&nbsp;500}@} is still needed.
 >
 > | {@{Reduce warranty liability when the remaining expected warranty losses are revised downward}@} | Dr | Cr |
 > | --- | ---: | ---: |
@@ -219,7 +219,7 @@ Sometimes the issue is not that a particular repair costs more than expected. In
 > _Explanation._ The company reverses the excess provision because the remaining expected loss liability is now {@{lower than previously estimated}@}. The reduction goes to {@{Warranty expense rather than to revenue}@} because this is a measurement revision of the original warranty provision.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Refund instead of repair._ A machine originally sold for {@{5&nbsp;000}@} with carrying amount {@{3&nbsp;200}@} is returned for a refund while a related {@{warranty liability of 200}@} is still attached to that sale. The company refunds the customer in cash, restores the machine to inventory, and reverses the remaining warranty provision that is no longer needed because the sale itself has been unwound.
+> _Refund instead of repair._ A Northstar countertop oven originally sold for {@{5&nbsp;000}@} with carrying amount {@{3&nbsp;200}@} is returned for a refund while a related {@{warranty liability of 200}@} is still attached to that sale. The company refunds the customer in cash, restores the unit to inventory, and reverses the remaining warranty provision that is no longer needed because the sale itself has been unwound.
 >
 > | {@{Refund customer and reverse sale}@} | Dr | Cr |
 > | --- | ---: | ---: |
@@ -273,7 +273,7 @@ A _service-type warranty_ is an __extended or additional warranty__ that the cus
 
 Representative journal entry examples:
 
-> _Scenario._ Automobile sold with {@{one-year assurance-type warranty}@}; customer pays {@{900 for an additional three-year warranty (service-type)}@}, covering years 2–4. Total cash {@{30 900; only the 900 is deferred}@}. The 900 will be earned over the three-year service period (after year 1 assurance expires).
+> _Scenario._ Harbor Auto Ltd. sells a vehicle with a {@{one-year assurance-type warranty}@}; the customer pays {@{900 for an additional three-year warranty (service-type)}@}, covering years 2–4. Total cash is {@{30 900; only the 900 is deferred}@}. The 900 will be earned over the three-year service period (after year 1 assurance expires).
 >
 > | {@{Record cash; revenue and unearned warranty}@} | Dr           | Cr           |
 > | ------------------------------------------------ | ------------ | ------------ |
@@ -284,7 +284,7 @@ Representative journal entry examples:
 > _Explanation._ 900 is for the extended (service-type) coverage; {@{revenue is recognized only over the service-type period (e.g. straight-line over years 2–4), after the assurance-type warranty has expired}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Unearned warranty revenue is {@{900 for a separate three-year service-type warranty covering years 2–4 after the one-year assurance warranty}@}. {@{At the end of year 2, one of those three service years has passed, so recognize 300 of revenue}@}.
+> _Scenario._ Harbor Auto carries {@{Unearned warranty revenue of 900 for a separate three-year service-type warranty covering years 2–4 after the one-year assurance warranty}@}. {@{At the end of year 2, one of those three service years has passed, so recognize 300 of revenue}@}.
 >
 > | {@{Recognise warranty revenue (e.g. straight-line)}@} | Dr        | Cr        |
 > | ----------------------------------------------------- | --------- | --------- |
@@ -294,7 +294,7 @@ Representative journal entry examples:
 > _Explanation._ Straight-line over the 3-year service period: {@{900 ÷ 3 = 300 per year}@}; {@{revenue is earned only during the service-type period (after assurance-type warranty has expired)}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Customer forfeits the remaining extended coverage early._ After the first service year has been recognized, the customer explicitly cancels the remaining {@{2 years of extended coverage}@}. The unearned balance of {@{600}@} is then released because the remaining performance obligation has lapsed.
+> _Customer forfeits the remaining extended coverage early._ After the first service year has been recognized, a Harbor Auto customer explicitly cancels the remaining {@{2 years of extended coverage}@}. The unearned balance of {@{600}@} is then released because the remaining performance obligation has lapsed.
 >
 > | {@{Recognise the remaining service-type warranty revenue after early forfeiture}@} | Dr | Cr |
 > | --- | ---: | ---: |
@@ -327,7 +327,7 @@ Premiums and coupons (e.g. "10 box tops plus 1 dollar = one bowl") create an obl
 
 Representative journal entry examples:
 
-> _Scenario._ Company purchases {@{20&nbsp;000 bowls to be used only as premium items}@}. Purchase price is {@{2.00 per bowl}@}, and transport cost is {@{0.20 per bowl}@}. Record the initial cost of {@{Inventory of premiums before any redemption occurs}@}.
+> _Scenario._ Suncrest Foods Ltd. purchases {@{20&nbsp;000 ceramic mixing bowls to be used only as premium items}@}. Purchase price is {@{2.00 per bowl}@}, and transport cost is {@{0.20 per bowl}@}. Record the initial cost of {@{Inventory of premiums before any redemption occurs}@}.
 >
 > | {@{Record premium inventory including directly attributable costs}@} | Dr                | Cr                |
 > | -------------------------------------------------------------------- | ----------------- | ----------------- |
@@ -337,7 +337,7 @@ Representative journal entry examples:
 > _Calculation._ Total cost per bowl = {@{2.00 + 0.20 = 2.20}@}; total premium inventory = {@{20&nbsp;000 × 2.20 = 44&nbsp;000}@}. The {@{transport cost is capitalized into Inventory of premiums}@} because it is part of getting the bowls ready for redemption.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Company sells cake mix; {@{promotion: 10 box tops plus 1 dollar = one bowl. Each bowl has carrying amount 2, and the customer pays 1 on redemption}@}. Estimate {@{60% of box tops will be redeemed}@}. In 2025, {@{300&nbsp;000 boxes are sold and 60&nbsp;000 box tops are redeemed during 2025, so 6&nbsp;000 bowls have already been issued}@}. At 31 December 2025, record the {@{adjusting entry for the remaining expected obligation from 2025 sales}@}.
+> _Scenario._ Suncrest sells baking-mix cartons with a {@{promotion: 10 package seals plus 1 dollar = one ceramic bowl. Each bowl has carrying amount 2, and the customer pays 1 on redemption}@}. Estimate {@{60% of seals will be redeemed}@}. In 2025, {@{300&nbsp;000 cartons are sold and 60&nbsp;000 seals are redeemed during 2025, so 6&nbsp;000 bowls have already been issued}@}. At 31 December 2025, record the {@{adjusting entry for the remaining expected obligation from 2025 sales}@}.
 >
 > | {@{Recognise premium expense and provision}@} | Dr                | Cr                |
 > | --------------------------------------------- | ----------------- | ----------------- |
@@ -347,7 +347,7 @@ Representative journal entry examples:
 > _Calculation._ Expected total bowls from 2025 sales = {@{300&nbsp;000 × 0.60 ÷ 10 = 18&nbsp;000 bowls}@}; bowls already issued in 2025 = {@{60&nbsp;000 ÷ 10 = 6&nbsp;000 bowls}@}; bowls still expected = {@{12&nbsp;000}@}. Net cost per bowl = {@{2 − 1 = 1}@}; required year-end provision = {@{12&nbsp;000 × 1 = 12&nbsp;000}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Customer {@{redeems 10 box tops plus 1 dollar for one bowl carried in Inventory of premiums at 2}@}. The entity had already {@{provided for the 1 net cost of that redemption when the related sale was made}@}.
+> _Scenario._ A Suncrest customer {@{redeems 10 package seals plus 1 dollar for one bowl carried in Inventory of premiums at 2}@}. The entity had already {@{provided for the 1 net cost of that redemption when the related sale was made}@}.
 >
 > | {@{Record redemption of premium item}@} | Dr      | Cr      |
 > | --------------------------------------- | ------- | ------- |
@@ -358,7 +358,7 @@ Representative journal entry examples:
 > _Explanation._ Cash {@{1 offsets part of the bowl's carrying amount of 2}@}; the remaining {@{1 net cost is absorbed by reducing Premium liability}@}. Redemption therefore uses the existing provision instead of recording a fresh premium expense for the same obligation.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ After recording current redemptions, {@{Premium liability still has a carrying amount of 4&nbsp;000}@}. Updated estimates show that the remaining obligation should be only {@{2&nbsp;500}@}. Record the adjustment because {@{future redemption is now expected to be less than previously estimated}@}.
+> _Scenario._ After recording current redemptions, Suncrest's {@{Premium liability still has a carrying amount of 4&nbsp;000}@}. Updated estimates show that the remaining obligation should be only {@{2&nbsp;500}@}. Record the adjustment because {@{future redemption is now expected to be less than previously estimated}@}.
 >
 > | {@{Reduce excess premium liability}@} | Dr               | Cr               |
 > | ------------------------------------- | ---------------- | ---------------- |
@@ -368,7 +368,7 @@ Representative journal entry examples:
 > _Calculation._ Excess liability = {@{4&nbsp;000 − 2&nbsp;500 = 1&nbsp;500}@}. Because the rights have {@{not yet expired}@}, this is treated as a {@{change in estimate that reduces premium expense}@}, not as premium revenue.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ After recording current redemptions, {@{Premium liability still has a carrying amount of 4&nbsp;000}@}. Updated estimates show that the remaining obligation should be {@{6&nbsp;000}@}. Record the adjustment because {@{future redemption is now expected to be more than previously estimated}@}.
+> _Scenario._ After recording current redemptions, Suncrest's {@{Premium liability still has a carrying amount of 4&nbsp;000}@}. Updated estimates show that the remaining obligation should be {@{6&nbsp;000}@}. Record the adjustment because {@{future redemption is now expected to be more than previously estimated}@}.
 >
 > | {@{Increase premium liability for revised estimate}@} | Dr               | Cr               |
 > | ----------------------------------------------------- | ---------------- | ---------------- |
@@ -378,7 +378,7 @@ Representative journal entry examples:
 > _Calculation._ Additional liability required = {@{6&nbsp;000 − 4&nbsp;000 = 2&nbsp;000}@}. The entity records {@{extra premium expense now because the expected future obligation has increased}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ At the end of 2026, {@{5&nbsp;000 of Premium liability remains and the related redemption rights have actually expired unused}@}. Transfer the remaining balance {@{to income because the obligation no longer exists}@}.
+> _Scenario._ At the end of 2026, {@{5&nbsp;000 of Suncrest's Premium liability remains and the related redemption rights have actually expired unused}@}. Transfer the remaining balance {@{to income because the obligation no longer exists}@}.
 >
 > | {@{Remove liability; recognise revenue}@} | Dr               | Cr               |
 > | ----------------------------------------- | ---------------- | ---------------- |
@@ -428,7 +428,7 @@ Subsequently, the asset portion is depreciated over the useful life, and the lia
 
 Representative journal entry examples:
 
-> _Scenario._ Company erects an oil platform on day 1. It must dismantle it in {@{5 years}@} at an expected cost of {@{1 000 000}@}. Discount rate {@{10%}@}. Recognise the obligation on day 1.
+> _Scenario._ BlueTide Energy plc installs an offshore service platform on day 1. It must dismantle it in {@{5 years}@} at an expected cost of {@{1 000 000}@}. Discount rate {@{10%}@}. Recognise the obligation on day 1.
 >
 > | {@{Recognise ARO asset and liability}@} | Dr            | Cr            |
 > | --------------------------------------- | ------------- | ------------- |
@@ -438,7 +438,7 @@ Representative journal entry examples:
 > _Calculation._ PV = {@{1 000 000 ÷ (1.10^5)}@} = {@{620 921}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Capitalized ARO cost is {@{620 921}@}; useful life {@{5 years}@}; straight-line. Record year-end depreciation (for the ARO component).
+> _Scenario._ BlueTide's capitalized ARO cost is {@{620 921}@}; useful life {@{5 years}@}; straight-line. Record year-end depreciation (for the ARO component).
 >
 > | {@{Depreciate capitalized ARO cost}@}         | Dr            | Cr            |
 > | --------------------------------------------- | ------------- | ------------- |
@@ -448,7 +448,7 @@ Representative journal entry examples:
 > _Calculation._ {@{620 921 ÷ 5}@} = {@{124 184}@} (rounded).
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Beginning ARO liability {@{620 921}@}; discount rate {@{10%}@}. Record year 1 accretion.
+> _Scenario._ BlueTide's beginning ARO liability is {@{620 921}@}; discount rate {@{10%}@}. Record year 1 accretion.
 >
 > | {@{Accrete ARO liability (interest expense)}@} | Dr           | Cr           |
 > | ---------------------------------------------- | ------------ | ------------ |
@@ -458,7 +458,7 @@ Representative journal entry examples:
 > _Calculation._ {@{620 921 × 0.10}@} = {@{62 092}@} (rounded).
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ At the end of year 5, ARO liability carrying amount is {@{1 000 000}@}. Company pays contractor {@{995 000}@} to dismantle platform. Record settlement.
+> _Scenario._ At the end of year 5, BlueTide's ARO liability carrying amount is {@{1 000 000}@}. The company pays a marine contractor {@{995 000}@} to dismantle the platform. Record settlement.
 >
 > | {@{Settle ARO liability; recognize gain/loss}@} | Dr              | Cr            |
 > | ----------------------------------------------- | --------------- | ------------- |
@@ -497,7 +497,7 @@ This "lower of" rule reflects rational behavior: if the penalty to exit is lower
 
 Representative journal entry examples:
 
-> _Scenario._ Company must keep {@{paying unavoidable contract costs of 200 000}@} (cannot cancel and cannot sublet). Recognise the onerous contract provision.
+> _Scenario._ Meridian Cold Storage Ltd. must keep {@{paying unavoidable contract costs of 200 000}@} on an unused facility contract (it cannot cancel and cannot sublet). Recognise the onerous contract provision.
 >
 > | {@{Recognise onerous contract provision}@} | Dr            | Cr            |
 > | ------------------------------------------ | ------------- | ------------- |
@@ -507,7 +507,7 @@ Representative journal entry examples:
 > _Calculation._ Required provision = {@{200&nbsp;000}@} because the contract must still be fulfilled and there is {@{no cheaper exit option}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ {@{Same contract}@}, but the company can {@{cancel by paying a penalty of 80 000}@}. Recognise the onerous contract provision.
+> _Scenario._ {@{Same Meridian contract}@}, but the company can {@{cancel by paying a penalty of 80 000}@}. Recognise the onerous contract provision.
 >
 > | {@{Recognise onerous contract provision (use lower amount)}@} | Dr           | Cr           |
 > | ------------------------------------------------------------- | ------------ | ------------ |
@@ -537,7 +537,7 @@ So the practical question is: __Is this cost required to settle the old obligati
 
 Representative journal entry example:
 
-> _Scenario._ Company closes {@{a division and communicates the plan to affected parties (valid expectation)}@}. Estimated restructuring costs {@{500 000}@}. Recognise restructuring provision.
+> _Scenario._ SilverOak Retail Group closes {@{its home-decor division and communicates the plan to affected parties (valid expectation)}@}. Estimated restructuring costs are {@{500 000}@}. Recognise the restructuring provision.
 >
 > | {@{Recognise restructuring provision}@} | Dr            | Cr            |
 > | --------------------------------------- | ------------- | ------------- |

@@ -70,7 +70,7 @@ If coupon rate equals market rate at issuance, the bond sells at par (price equa
 
 Representative journal entry examples at issuance:
 
-> _Scenario._ Company issues {@{5-year bonds, face 100 000, coupon 9%, market 11%; bond price 92 608}@}. Record issuance.
+> _Scenario._ NorthBridge Transit plc issues {@{5-year bonds, face 100 000, coupon 9%, market 11%; bond price 92 608}@}. Record issuance.
 >
 > | {@{Issue bond at discount (net method)}@} | Dr           | Cr           |
 > | ----------------------------------------- | ------------ | ------------ |
@@ -80,7 +80,7 @@ Representative journal entry examples at issuance:
 > _Explanation._ Carrying amount equals {@{bond price; the discount (7 392) is not shown in a separate account under the net method but is embedded in Bonds payable}@}. At maturity, Bonds payable is {@{increased by amortization to face value}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Company issues {@{5-year bonds, face 100 000, coupon 8% semi-annual, market 6% semi-annual; bond price 108 530}@}. Record issuance.
+> _Scenario._ BlueHarbor Utilities plc issues {@{5-year bonds, face 100 000, coupon 8% semi-annual, market 6% semi-annual; bond price 108 530}@}. Record issuance.
 >
 > | {@{Issue bond at premium (net method)}@} | Dr            | Cr            |
 > | ---------------------------------------- | ------------- | ------------- |
@@ -135,7 +135,7 @@ Flashcards for this section are as follows:
 
 Representative journal entry examples:
 
-> _Scenario._ First interest period for the {@{discount bond issued above with beginning carrying amount 92 608, face 100 000, coupon rate 9%, and market rate 11%}@}: {@{interest expense 10 187, coupon 9 000, discount amortized 1 187}@}. Coupon paid on payment date.
+> _Scenario._ First interest period for NorthBridge Transit's {@{discount bond issued above with beginning carrying amount 92 608, face 100 000, coupon rate 9%, and market rate 11%}@}: {@{interest expense 10 187, coupon 9 000, discount amortized 1 187}@}. Coupon paid on payment date.
 >
 > | {@{Recognise interest and amortise discount}@} | Dr           | Cr          |
 > | ---------------------------------------------- | ------------ | ----------- |
@@ -168,7 +168,7 @@ Flashcards for this section are as follows:
 For a premium bond, the coupon cash paid each period is larger than the effective-interest expense. The excess coupon over effective interest is the premium amortization, and that amortization reduces the bond's carrying amount over time.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ First semi-annual period for the {@{premium bond issued above with beginning carrying amount 108 530, face 100 000, annual coupon rate 8% paid semi-annually, and per-period market rate 3%}@}: {@{coupon cash paid = 100 000 × 8% × 6/12 = 4 000}@}, {@{interest expense = 108 530 × 3% = 3 256}@}, so {@{premium amortized = 4 000 − 3 256 = 744}@}. Cash paid on payment date.
+> _Scenario._ First semi-annual period for BlueHarbor Utilities' {@{premium bond issued above with beginning carrying amount 108 530, face 100 000, annual coupon rate 8% paid semi-annually, and per-period market rate 3%}@}: {@{coupon cash paid = 100 000 × 8% × 6/12 = 4 000}@}, {@{interest expense = 108 530 × 3% = 3 256}@}, so {@{premium amortized = 4 000 − 3 256 = 744}@}. Cash paid on payment date.
 >
 > | {@{Recognise interest and amortise premium}@} | Dr          | Cr          |
 > | --------------------------------------------- | ----------- | ----------- |
@@ -197,7 +197,7 @@ An amortization table is just the effective-interest method written as a schedul
 
 For a discount bond, add the amortization to the carrying amount. For a premium bond, subtract it. The table should be built from the same rates and same carrying amounts that the journal entries use; the journal entry is then just the table row translated into debits and credits.
 
-> _Discount-bond amortization table._ Suppose a company issues a {@{3-year bond with face value 10&nbsp;000}@}, stated coupon {@{8% annually, and market yield 10% annually}@}. The issue price is approximately {@{9&nbsp;503, creating an initial discount from the 10&nbsp;000 face value}@}. The effective-interest schedule is:
+> _Discount-bond amortization table._ Suppose Harbor Infrastructure Ltd. issues a {@{3-year bond with face value 10&nbsp;000}@}, stated coupon {@{8% annually, and market yield 10% annually}@}. The issue price is approximately {@{9&nbsp;503, creating an initial discount from the 10&nbsp;000 face value}@}. The effective-interest schedule is:
 >
 > | Period | Beginning carrying amount | Cash interest paid | Interest expense at 10% | Discount amortized | Ending carrying amount |
 > | --- | ---: | ---: | ---: | ---: | ---: |
@@ -246,7 +246,7 @@ When the reporting date falls between two coupon payment dates, the entity accru
 
 Representative journal entry examples:
 
-> _Scenario._ Using the {@{premium bond with face 100 000, annual coupon rate 8% paid semi-annually, beginning carrying amount 108 530, and per-period market rate 3%}@}, assume {@{year-end is 2 months into the current 6-month period}@}. Full-period coupon is {@{4 000 = 100 000 × 8% × 6/12}@}, full-period interest expense is {@{108 530 × 3% = 3 256}@}, and full-period premium amortization is {@{4 000 − 3 256 = 744}@}. Prorate the 6-month amounts by {@{2/6}@}.
+> _Scenario._ Using BlueHarbor Utilities' {@{premium bond with face 100 000, annual coupon rate 8% paid semi-annually, beginning carrying amount 108 530, and per-period market rate 3%}@}, assume {@{year-end is 2 months into the current 6-month period}@}. Full-period coupon is {@{4 000 = 100 000 × 8% × 6/12}@}, full-period interest expense is {@{108 530 × 3% = 3 256}@}, and full-period premium amortization is {@{4 000 − 3 256 = 744}@}. Prorate the 6-month amounts by {@{2/6}@}.
 >
 > | {@{Accrue interest and premium amortization (2 months of 6)}@} | Dr          | Cr          |
 > | -------------------------------------------------------------- | ----------- | ----------- |
@@ -268,7 +268,7 @@ Representative journal entry examples:
 > _Calculation._ Interest payable = {@{4 000 × 107/184 ≈ 2 327}@}. Premium amortization = {@{744 × 107/184 ≈ 433}@}. Interest expense = {@{2 327 − 433 = 1 894}@}. The point is to use the {@{actual fraction of the coupon period given in the problem}@}, not a memorized {@{2/6 or 2/12}@} shortcut.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Bond with face {@{100 000}@}, coupon {@{8%}@}, interest paid semi-annually (every 6 months). It is issued {@{4 months after the last interest date}@}. At issuance, investor pays accrued interest for 4 of 6 months: {@{100 000 × 8% × 4/12 = 2 667}@}. On the next interest date, issuer pays full coupon for 6 months: {@{100 000 × 8% × 6/12 = 4 000}@}.
+> _Scenario._ Cedar Vista Rail plc issues a bond with face {@{100 000}@}, coupon {@{8%}@}, and semi-annual interest payments. It is issued {@{4 months after the last interest date}@}. At issuance, the investor pays accrued interest for 4 of 6 months: {@{100 000 × 8% × 4/12 = 2 667}@}. On the next interest date, the issuer pays the full coupon for 6 months: {@{100 000 × 8% × 6/12 = 4 000}@}.
 >
 > | {@{Issue bond at par between interest dates}@} | Dr            | Cr            |
 > | ---------------------------------------------- | ------------- | ------------- |
@@ -284,7 +284,7 @@ Representative journal entry examples:
 > _Explanation._ {@{Total interest expense over 2 months (from issue date to payment date) = 4 000 − 2 667 = 1 333 = 100 000 × 8% × 2/12}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Semi-annual bond with face {@{100 000}@}, coupon {@{8%}@}, market rate {@{10%}@}. Issue price (excluding accrued interest) is {@{96 000}@}; bond is issued {@{4 months after the last interest date}@}. At issuance the investor pays {@{accrued coupon for 4 of the 6 months: 100 000 × 8% × 4/12 = 2 667}@}. Total cash raised by issuer = {@{96 000 (carrying amount) + 2 667 (pre-collected interest) = 98 667}@}, split between Bonds payable {@{96 000}@} and a credit to Interest expense (pre-collected) {@{2 667}@}.
+> _Scenario._ Cedar Vista Rail plc also has a semi-annual bond with face {@{100 000}@}, coupon {@{8%}@}, and market rate {@{10%}@}. Issue price (excluding accrued interest) is {@{96 000}@}; the bond is issued {@{4 months after the last interest date}@}. At issuance the investor pays {@{accrued coupon for 4 of the 6 months: 100 000 × 8% × 4/12 = 2 667}@}. Total cash raised by the issuer = {@{96 000 (carrying amount) + 2 667 (pre-collected interest) = 98 667}@}, split between Bonds payable {@{96 000}@} and a credit to Interest expense (pre-collected) {@{2 667}@}.
 >
 > | {@{Issue bond at discount between interest dates}@} | Dr           | Cr           |
 > | --------------------------------------------------- | ------------ | ------------ |
@@ -336,7 +336,7 @@ Long-term notes payable are very similar to bonds from an accounting perspective
 
 Representative journal entry example for an interest-bearing long-term note at discount:
 
-> _Scenario._ Company issues {@{3-year note with face 10 000}@}, stated interest {@{8%}@} annually, market rate {@{10%}@}. Present value (issue price) is {@{9 510}@} (rounded).
+> _Scenario._ Riverstone Equipment Ltd. issues a {@{3-year note with face 10 000}@}, stated interest {@{8%}@} annually, and a market rate of {@{10%}@}. Present value (issue price) is {@{9 510}@} (rounded).
 >
 > | {@{Issue interest-bearing note at discount}@} | Dr          | Cr          |
 > | --------------------------------------------- | ----------- | ----------- |
@@ -366,7 +366,7 @@ A zero-interest-bearing note has no periodic coupon payments; the borrower recei
 
 Representative journal entry example:
 
-> _Scenario._ Company issues {@{3-year zero-interest-bearing note with face 10 000}@}; receives cash {@{7 721}@}. Implicit interest rate is {@{9%}@} because {@{10 000 ÷ 1.09^3 ≈ 7 721}@} (equivalently, {@{7 721 × 1.09^3 ≈ 10 000}@}).
+> _Scenario._ Riverstone Equipment Ltd. issues a {@{3-year zero-interest-bearing note with face 10 000}@} and receives cash of {@{7 721}@}. The implicit interest rate is {@{9%}@} because {@{10 000 ÷ 1.09^3 ≈ 7 721}@} (equivalently, {@{7 721 × 1.09^3 ≈ 10 000}@}).
 >
 > | {@{Issue zero-interest-bearing note}@} | Dr          | Cr          |
 > | -------------------------------------- | ----------- | ----------- |
@@ -398,7 +398,7 @@ When a long-term note is issued in exchange for a noncash asset or service (e.g.
 
 Representative journal entry examples:
 
-> _Scenario._ Company buys land and gives a {@{5-year, zero-interest-bearing note with face 220 000}@}. Land's cash selling price is {@{200 000}@}. Record the transaction in the buyer's books.
+> _Scenario._ Summit Land Development Ltd. buys land and gives a {@{5-year, zero-interest-bearing note with face 220 000}@}. The land's cash selling price is {@{200 000}@}. Record the transaction in the buyer's books.
 >
 > | {@{Acquire land by issuing note (fair value known)}@} | Dr            | Cr            |
 > | ----------------------------------------------------- | ------------- | ------------- |
@@ -408,7 +408,7 @@ Representative journal entry examples:
 > _Explanation._ Land is recorded at {@{fair value (its cash selling price) and the note payable is recorded at the same present value}@}; the difference between {@{220 000 face and 200 000 present value is a discount that will be amortized over the note's life}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Company receives architectural services in exchange for a {@{5-year note with face 200 000}@} and no stated interest. No market price is available for the services, but an appropriate discount rate (after considering prime rate, covenants, collateral, and term) is {@{8%}@}. Present value of the note (discounted at 8%) is {@{136 000}@} (rounded).
+> _Scenario._ Summit Design Build Ltd. receives architectural services in exchange for a {@{5-year note with face 200 000}@} and no stated interest. No market price is available for the services, but an appropriate discount rate (after considering prime rate, covenants, collateral, and term) is {@{8%}@}. Present value of the note (discounted at 8%) is {@{136 000}@} (rounded).
 >
 > | {@{Record architectural services and note (use present value)}@} | Dr            | Cr            |
 > | ---------------------------------------------------------------- | ------------- | ------------- |
@@ -442,7 +442,7 @@ Flashcards for this section are as follows:
 
 Extinguishment of long-term debt occurs when the obligation is settled before or at maturity, either by paying cash (e.g. repurchasing bonds), by transferring other assets (e.g. giving land to the lender), or by issuing equity instruments (e.g. shares) in full settlement. At the extinguishment date, the entity compares the carrying amount of the liability to the consideration paid or assets/equity transferred: if consideration &lt; carrying amount, there is a gain; if consideration &gt; carrying amount, there is a loss. When a noncash asset is transferred, remeasure the asset to fair value first (recognising any gain or loss on the asset), then compare the liability's carrying amount to the fair value of the asset to determine the gain or loss on extinguishment. When shares are issued to settle the debt, measure the consideration at the fair value of the shares (or, if that is not available, the fair value/present value of the liability).
 
-> _Scenario._ Bonds payable has carrying amount {@{95 000}@}. The issuer repurchases the debt for {@{cash 101 000}@} before maturity. Record the extinguishment.
+> _Scenario._ Granite Works plc has bonds payable with carrying amount {@{95 000}@}. The issuer repurchases the debt for {@{cash 101 000}@} before maturity. Record the extinguishment.
 >
 > |{@{Repurchase debt for cash; recognise loss}@}|Dr|Cr|
 > |---|---:|---:|
@@ -453,7 +453,7 @@ Extinguishment of long-term debt occurs when the obligation is settled before or
 > _Explanation._ The loss equals {@{cash paid 101 000 − carrying amount 95 000 = 6 000}@}. If cash paid were less than carrying amount, the difference would instead be a gain.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Gain case for early cash repurchase._ Bonds payable has carrying amount {@{€98&nbsp;000}@}. The issuer repurchases the debt early for only {@{€92&nbsp;000 cash}@} because market conditions now allow settlement at a lower amount.
+> _Gain case for early cash repurchase._ Granite Works plc also has bonds payable with carrying amount {@{€98&nbsp;000}@}. The issuer repurchases the debt early for only {@{€92&nbsp;000 cash}@} because market conditions now allow settlement at a lower amount.
 >
 > | {@{Repurchase debt for cash; recognise gain}@} | Dr | Cr |
 > | --- | ---: | ---: |
@@ -464,7 +464,7 @@ Extinguishment of long-term debt occurs when the obligation is settled before or
 > _Explanation._ The gain equals {@{carrying amount 98&nbsp;000 − cash paid 92&nbsp;000 = 6&nbsp;000}@}. This is the mirror image of the loss case above.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Note payable has carrying amount {@{20 000 000}@}. The lender agrees to accept {@{2 000 000 ordinary shares with par 5}@} to settle the note. On the issue date, the shares trade at {@{8}@} per share (fair value {@{16 000 000}@}). Record the settlement.
+> _Scenario._ Orion Marine plc has a note payable with carrying amount {@{20 000 000}@}. The lender agrees to accept {@{2 000 000 ordinary shares with par 5}@} to settle the note. On the issue date, the shares trade at {@{8}@} per share (fair value {@{16 000 000}@}). Record the settlement.
 >
 > | {@{Settle note payable by issuing shares (debt-for-equity)}@} | Dr               | Cr               |
 > | ------------------------------------------------------------- | ---------------- | ---------------- |
@@ -476,7 +476,7 @@ Extinguishment of long-term debt occurs when the obligation is settled before or
 > _Explanation._ Shares are measured at fair value {@{16 000 000 (2 000 000 × 8)}@}; equity increases by that amount (par {@{10 000 000}@}, premium {@{6 000 000}@}). The liability's carrying amount exceeds consideration, so the debtor recognises a gain on extinguishment of {@{20 000 000 − 16 000 000 = 4 000 000}@}.
 
 <!-- markdownlint-disable-next-line MD028 -->
-> _Scenario._ Debtor has a building with carrying amount {@{21 000 000}@} and fair value {@{16 000 000}@}. A note payable has carrying amount {@{20 000 000}@}. The lender agrees to accept the building in full settlement of the note.
+> _Scenario._ Orion Marine plc has a building with carrying amount {@{21 000 000}@} and fair value {@{16 000 000}@}. A note payable has carrying amount {@{20 000 000}@}. The lender agrees to accept the building in full settlement of the note.
 >
 > | {@{Remeasure building to fair value}@} | Dr              | Cr              |
 > | -------------------------------------- | --------------- | --------------- |
@@ -519,7 +519,7 @@ After the modification date, the new liability is amortized using the new effect
 
 Representative journal entry example:
 
-> _Scenario (based on lecture slide)._ On December 31, 2025, a company has a loan with carrying amount {@{10 500 000}@}. The lender agrees to restructure it by reducing principal, extending maturity, and lowering the stated interest rate. The fair value of the restructured note (based on a current market borrowing rate of 15%) is {@{7 201 336}@}. Record the modification in the debtor's books.
+> _Scenario (based on lecture slide)._ On December 31, 2025, Harbor Steel Ltd. has a loan with carrying amount {@{10 500 000}@}. The lender agrees to restructure it by reducing principal, extending maturity, and lowering the stated interest rate. The fair value of the restructured note (based on a current market borrowing rate of 15%) is {@{7 201 336}@}. Record the modification in the debtor's books.
 >
 > | {@{Record extinguishment and new restructured note}@} | Dr               | Cr              |
 > | ----------------------------------------------------- | ---------------- | --------------- |
