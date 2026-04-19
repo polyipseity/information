@@ -84,7 +84,7 @@ Flashcards for this section are as follows:
 - short-term interest-bearing notes: recurring three-stage pattern ::@:: Record the borrowing first, accrue interest to year-end as time passes, and then remove the note plus accrued interest when the note is settled.
 - short-term interest-bearing notes: why is year-end accrual necessary? ::@:: Because interest expense belongs to the period incurred even when the cash payment happens later at the maturity date.
 - short-term interest-bearing note: journal entry at borrowing? ::@:: Dr _Cash_, Cr _Notes payable_ (amount = principal received).
-- short-term interest-bearing note: journal entry at settlement (due date)? ::@:: Dr _Notes payable_ (principal), Dr _Interest payable_ (accrued), Dr _Interest expense_ (any remaining), Cr _Cash_ (total paid).
+- short-term interest-bearing note: journal entry at settlement (due date)? ::@:: One settlement entry: Dr _Notes payable_ (principal), Dr _Interest payable_ (accrued), Dr _Interest expense_ (any remaining), Cr _Cash_ (total paid).
 - stated interest rate on a short-term note is usually ::@:: Annual; interest for a fraction of a year is prorated (e.g. principal × rate × months/12 or principal × rate × days/360 if the problem uses a day-count basis).
 
 #### basic accrual and settlement pattern
@@ -126,7 +126,7 @@ Flashcards for this section are as follows:
 - short-term note basic pattern: why is the maturity-date interest expense smaller than total note interest? ::@:: Because part of the total interest was already recognized through the year-end accrual entry.
 - borrowing on short-term note: Entity borrows 50 000 on 8% note—entry? ::@:: Dr _Cash_ 50 000, Cr _Notes payable_ 50 000.
 - short-term note interest accrual: Given principal 50 000, 8% annual rate, 2 months elapsed—entry? ::@:: Dr _Interest expense_ 833.33, Cr _Interest payable_ 833.33 (i.e. 50 000 × 0.08 × 2/12).
-- settling short-term note: Pay 52 000 (principal 50 000 + interest), 833.33 already in Interest payable—entry? ::@:: Dr _Notes payable_ 50 000, Dr _Interest payable_ 833.33, Dr _Interest expense_ 1 166.67, Cr _Cash_ 52 000.
+- settling short-term note: Pay 52 000 (principal 50 000 + interest), 833.33 already in Interest payable—entry? ::@:: One settlement entry: Dr _Notes payable_ 50 000, Dr _Interest payable_ 833.33, Dr _Interest expense_ 1 166.67, Cr _Cash_ 52 000.
 
 #### odd-day maturity and day-count traps
 
@@ -180,7 +180,7 @@ Representative journal entry example:
 
 Flashcards for this section are as follows:
 
-- conversion of account payable to note payable ::@:: Dr _Accounts payable_, Cr _Notes payable_; then accrue interest to reporting date (Dr _Interest expense_, Cr _Interest payable_).
+- conversion of account payable to note payable ::@:: At conversion: Dr _Accounts payable_, Cr _Notes payable_. <br/> Then accrue interest to reporting date: Dr _Interest expense_, Cr _Interest payable_.
 - conversion of AP to note: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_ (same amount).
 - after conversion to note: Given principal, rate, and months to reporting date, how is interest recorded? ::@:: Accrue interest (principal × rate × months/12); Dr _Interest expense_, Cr _Interest payable_.
 - conversion example: AP 10 000 → note 1 Oct, 8%—conversion entry? ::@:: Dr _Accounts payable_ 10 000, Cr _Notes payable_ 10 000.
@@ -364,7 +364,7 @@ Flashcards for this section are as follows:
 - compensated absence: who is included in the year-end accrual? ::@:: Only employees who have completed the vesting requirement and therefore already have a vested right to the future paid absence.
 - compensated absence: when to recognise expense and liability? ::@:: When the right is earned (e.g. at end of vesting period), even if payment is in a later period; Dr _Salaries and wages expense_, Cr _Wages payable_.
 - vacation pay earned: 20 weeks at 480/week at end of year 1—entry? ::@:: Dr _Salaries and wages expense_ 9 600, Cr _Wages payable_ 9 600.
-- compensated absence: journal entry when vacation is paid (current rate > accrued rate)? ::@:: Dr _Wages payable_ (accrued amount), Dr _Salaries and wages expense_ (difference to current rate), Cr _Cash_ (total paid).
+- compensated absence: journal entry when vacation is paid (current rate > accrued rate)? ::@:: One payment entry: Dr _Wages payable_ (accrued amount), Dr _Salaries and wages expense_ (difference to current rate), Cr _Cash_ (total paid).
 - vacation pay paid: Wages payable 9 600, pay 20 weeks at 540/week—entry? ::@:: Dr _Wages payable_ 9 600, Dr _Salaries and wages expense_ 1 200, Cr _Cash_ 10 800.
 - unused vested vacation at year-end: what happens if only part of the accrued leave was used? ::@:: Remove only the portion actually used from _Wages payable_; the unused vested portion stays as a liability until used or paid out.
 - unused vested vacation carried forward: when is an extra year-end expense needed? ::@:: If the remaining vested vacation is expected to be paid at a higher current wage rate than the amount still sitting in _Wages payable_, debit _Salaries and wages expense_ and credit _Wages payable_ for the remeasurement difference.
