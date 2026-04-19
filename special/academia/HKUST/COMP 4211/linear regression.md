@@ -90,7 +90,7 @@ Flashcards for this section are as follows:
 
 - one-feature fit setup ::@:: In the one-feature toy problem, linear regression fits a line $\hat y = w_0 + w_1x_1$ to the three points $(2,2)$, $(4,3)$, and $(6,4)$.
 - why a line need not pass through every point ::@:: In general, least squares chooses the line that minimizes average squared residuals, so it balances all observations rather than forcing perfect interpolation.
-- one-feature residuals ::@:: For $(x_1,y)=(2,2),(4,3),(6,4)$, the residuals are $2-(w_0+2w_1)$, $3-(w_0+4w_1)$, and $4-(w_0+6w_1)$.
+- one-feature residuals: For the one-feature linear regression model $\hat y=w_0+w_1x_1$ fitted to the three data points $(x_1,y)=(2,2),(4,3),(6,4)$, what are the three residuals observed minus predicted? ::@:: The residuals are $2-(w_0+2w_1)$, $3-(w_0+4w_1)$, and $4-(w_0+6w_1)$.
 
 ### solving the toy problem by differentiation
 
@@ -106,7 +106,7 @@ Flashcards for this section are as follows:
 
 - one-feature example objective: For $(x_1,y)=(2,2),(4,3),(6,4)$ and $\hat y=w_0+w_1x_1$, what is the MSE objective? ::@:: $L(w_0,w_1)=\frac{1}{3}\Bigl[(2-(w_0+2w_1))^2+(3-(w_0+4w_1))^2+(4-(w_0+6w_1))^2\Bigr]$.
 - one-feature derivative conditions ::@:: The toy least-squares line is found by setting both partial derivatives $\frac{\partial L}{\partial w_0}$ and $\frac{\partial L}{\partial w_1}$ to zero.
-- one-feature example solution: For $(x_1,y)=(2,2),(4,3),(6,4)$, what least-squares line is obtained? ::@:: Solving the first-order conditions gives $w_0=1$ and $w_1=\tfrac{1}{2}$, so $\hat y = 1 + \tfrac{1}{2}x_1$.
+- one-feature example solution: For the one-feature least-squares model $\hat y=w_0+w_1x_1$ with data $(x_1,y)=(2,2),(4,3),(6,4)$, solve the first-order conditions and obtain the fitted line. ::@:: Step 1: start from $L(w_0,w_1)=\frac{1}{3}\Bigl[(2-(w_0+2w_1))^2+(3-(w_0+4w_1))^2+(4-(w_0+6w_1))^2\Bigr]$. <br/> Step 2: set $\partial L/\partial w_0=0$ and $\partial L/\partial w_1=0$, which gives the linear system $3w_0+12w_1=9$ and $12w_0+56w_1=40$. <br/> Step 3: solve the two equations to get $w_0=1$ and $w_1=\tfrac{1}{2}$. <br/> Therefore the least-squares line is $\hat y = 1 + \tfrac{1}{2}x_1$.
 - why the one-feature example is useful ::@:: It makes least squares concrete by turning learning into an explicit calculus problem in two unknowns.
 
 ### gradient, matrix form, and the normal equation
