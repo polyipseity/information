@@ -715,6 +715,10 @@ Core rules:
   removing data.
 - Keep the right-hand side single-line in source and use `<br/>` for internal
   structure.
+- In accounting QA cards, use `<br/>` to separate distinct journal entries,
+  dates, or accounting steps — not every individual Dr/Cr line inside one
+  journal entry. Keep one entry grouped together with commas or semicolons
+  unless line-by-line separation is itself the learning target.
 - Units should stay inside math delimiters, for example `$5\text{ V}$`.
 
 ## Validation suppressions
