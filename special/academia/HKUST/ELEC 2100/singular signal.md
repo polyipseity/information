@@ -33,9 +33,9 @@ Within the signal-family notes, this file is the specialized continuous-time gen
 
 Flashcards for this section are as follows:
 
-- Why do singular signals matter in ELEC 2100? ::@:: They model switching, sampling, and abruptly concentrated change, so they recur throughout later signal-and-system analysis.
-- Why are singular signals introduced so early in ELEC 2100? ::@:: Later convolution, LTI modeling, and transform methods depend on them.
-- How should `singular signal.md` be positioned relative to the other signal-family notes? ::@:: It is the specialized continuous-time generalized-signal toolkit for step, impulse, and derivative-type objects. The broader vocabulary stays in `signal.md`, and the sequence toolkit stays in `discrete-time signal.md`.
+- Why do singular signals matter in ELEC 2100? ::@:: They model switching, sampling, and abruptly concentrated change, so they recur throughout later signal-and-system analysis. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- Why are singular signals introduced so early in ELEC 2100? ::@:: Later convolution, LTI modeling, and transform methods depend on them. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- How should `singular signal.md` be positioned relative to the other signal-family notes? ::@:: It is the specialized continuous-time generalized-signal toolkit for step, impulse, and derivative-type objects. The broader vocabulary stays in `signal.md`, and the sequence toolkit stays in `discrete-time signal.md`. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
 
 ## singular-signal overview
 
@@ -49,12 +49,12 @@ This is why the phrase "infinitely tall narrow pulse" is only a heuristic. It is
 
 Flashcards for this section are as follows:
 
-- What are singular signals? ::@:: They are signals that either contain discontinuities themselves or produce concentrated discontinuities when differentiated or integrated.
-- What is the main singular-signal chain introduced in the early ELEC 2100 signal material? ::@:: It is $r(t) \to u(t) \to \delta(t) \to \delta'(t)$.
-- What is the difference between ordinary and generalized singular signals? ::@:: Ramp, step, gate, and signum are ordinary piecewise functions, whereas the impulse and doublet are generalized functions with symbolic graphs.
-- What does the graph of an impulse represent? ::@:: It represents location, sign, and area rather than an ordinary pointwise height.
-- What does the graph of a doublet represent? ::@:: It represents derivative action or slope extraction rather than an ordinary waveform amplitude.
-- Why is the phrase "infinitely tall narrow pulse" only heuristic? ::@:: It is useful limiting intuition, but the generalized impulse is defined by its action under integration rather than by ordinary pointwise height.
+- What are singular signals? ::@:: They are signals that either contain discontinuities themselves or produce concentrated discontinuities when differentiated or integrated. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- What is the main singular-signal chain introduced in the early ELEC 2100 signal material? ::@:: It is $r(t) \to u(t) \to \delta(t) \to \delta'(t)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- What is the difference between ordinary and generalized singular signals? ::@:: Ramp, step, gate, and signum are ordinary piecewise functions, whereas the impulse and doublet are generalized functions with symbolic graphs. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- What does the graph of an impulse represent? ::@:: It represents location, sign, and area rather than an ordinary pointwise height. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What does the graph of a doublet represent? ::@:: It represents derivative action or slope extraction rather than an ordinary waveform amplitude. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- Why is the phrase "infinitely tall narrow pulse" only heuristic? ::@:: It is useful limiting intuition, but the generalized impulse is defined by its action under integration rather than by ordinary pointwise height. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
 
 ## ramp, step, gate, and signum
 
@@ -72,19 +72,19 @@ The signum function belongs to the same family even though it is not pulse-shape
 
 Flashcards for this section are as follows:
 
-- What is the unit step? ::@:: It is $u(t)=0$ for $t<0$ and $u(t)=1$ for $t>0$, with the value at $t=0$ set by convention if needed.
-- What is the unit ramp? ::@:: It is $r(t)=tu(t)$, so it is $0$ for negative time and then grows linearly for positive time.
-- How do you draw $u(t-t_0)$? ::@:: Keep the graph at $0$ for $t<t_0$, place the jump at $t=t_0$, and draw the level $1$ for $t>t_0$.
-- How do you draw $r(t-t_0)$? ::@:: Keep the graph at $0$ until $t=t_0$, then start a line of slope $1$ measured from that switching time.
-- What is the difference between a step and a ramp? ::@:: A step jumps and then stays flat, whereas a ramp turns on at one instant and then continues to grow linearly.
-- How can a rectangular gate on $[a,b)$ be written using steps? ::@:: It can be written as $u(t-a)-u(t-b)$.
-- What is the symmetric gate of width $\tau$? ::@:: It is $G_\tau(t)=u(t+\tau/2)-u(t-\tau/2)$.
-- How do you draw the symmetric gate? ::@:: It equals $1$ for $|t|<\tau/2$ and $0$ for $|t|>\tau/2$, so its graph is a centered rectangular window.
-- What is the signum function? ::@:: It is $-1$ for negative time, $+1$ for positive time, and usually $0$ at the origin by convention.
-- How is the signum function related to the unit step? ::@:: Away from the origin, $\operatorname{sgn}(t)=2u(t)-1$.
-- What is another step-based expression for the signum function? ::@:: It may be written as $\operatorname{sgn}(t)=u(t)-u(-t)$, with care about the convention at the origin.
-- Worked example (method: gate-decomposition graphing): Given $g(t)=u(t-1)-u(t-3)$, what is its graph? ::@:: Step 1: the first step turns on at $t=1$, so the signal jumps from $0$ to $1$ there. <br/> Step 2: the second step turns on at $t=3$ with a minus sign, so the signal drops back by $1$ there. <br/> Step 3: therefore $g(t)=0$ for $t<1$, $1$ for $1<t<3$, and $0$ for $t>3$, i.e. a rectangular pulse between $1$ and $3$.
-- Why does a gate differentiate to an impulse pair while a step differentiates to one impulse? ::@:: A step has one switching edge, whereas a gate has two switching edges.
+- What is the unit step? ::@:: It is $u(t)=0$ for $t<0$ and $u(t)=1$ for $t>0$, with the value at $t=0$ set by convention if needed. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is the unit ramp? ::@:: It is $r(t)=tu(t)$, so it is $0$ for negative time and then grows linearly for positive time. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- How do you draw $u(t-t_0)$? ::@:: Keep the graph at $0$ for $t<t_0$, place the jump at $t=t_0$, and draw the level $1$ for $t>t_0$. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- How do you draw $r(t-t_0)$? ::@:: Keep the graph at $0$ until $t=t_0$, then start a line of slope $1$ measured from that switching time. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is the difference between a step and a ramp? ::@:: A step jumps and then stays flat, whereas a ramp turns on at one instant and then continues to grow linearly. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- How can a rectangular gate on $[a,b)$ be written using steps? ::@:: It can be written as $u(t-a)-u(t-b)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is the symmetric gate of width $\tau$? ::@:: It is $G_\tau(t)=u(t+\tau/2)-u(t-\tau/2)$. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- How do you draw the symmetric gate? ::@:: It equals $1$ for $|t|<\tau/2$ and $0$ for $|t|>\tau/2$, so its graph is a centered rectangular window. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- What is the signum function? ::@:: It is $-1$ for negative time, $+1$ for positive time, and usually $0$ at the origin by convention. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- How is the signum function related to the unit step? ::@:: Away from the origin, $\operatorname{sgn}(t)=2u(t)-1$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is another step-based expression for the signum function? ::@:: It may be written as $\operatorname{sgn}(t)=u(t)-u(-t)$, with care about the convention at the origin. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Worked example (method: gate-decomposition graphing): Given $g(t)=u(t-1)-u(t-3)$, what is its graph? ::@:: Step 1: the first step turns on at $t=1$, so the signal jumps from $0$ to $1$ there. <br/> Step 2: the second step turns on at $t=3$ with a minus sign, so the signal drops back by $1$ there. <br/> Step 3: therefore $g(t)=0$ for $t<1$, $1$ for $1<t<3$, and $0$ for $t>3$, i.e. a rectangular pulse between $1$ and $3$. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- Why does a gate differentiate to an impulse pair while a step differentiates to one impulse? ::@:: A step has one switching edge, whereas a gate has two switching edges. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## unit impulse: pulse limits and generalized functions
 
@@ -106,24 +106,24 @@ A final warning is that the ideal impulse does not fit the ordinary finite-energ
 
 Flashcards for this section are as follows:
 
-- What are the two main viewpoints on the unit impulse? ::@:: It is understood both as the limit of unit-area pulse families and as a generalized function defined by its action on test functions.
-- What is a standard rectangular delta sequence? ::@:: It is $\delta_\varepsilon(t)=1/\varepsilon$ for $|t|<\varepsilon/2$ and $0$ otherwise.
-- Why does the rectangular delta sequence have unit area? ::@:: Because $\int_{-\varepsilon/2}^{\varepsilon/2}(1/\varepsilon)dt=1$.
-- Why is unit area the crucial normalization in delta sequences? ::@:: Keeping total area equal to $1$ is what makes the limiting sampling action nontrivial and correctly normalized.
-- What is a triangular delta sequence? ::@:: One choice is $\delta_\varepsilon(t)=\frac{1}{\varepsilon}(1-|t|/\varepsilon)$ for $|t|<\varepsilon$ and $0$ otherwise.
-- Why does the triangular delta sequence have unit area? ::@:: Symmetry gives $2\int_0^{\varepsilon}\frac{1}{\varepsilon}(1-t/\varepsilon)dt=1$.
-- What is a double-sided exponential delta sequence? ::@:: One choice is $\delta_\varepsilon(t)=\frac{1}{2\varepsilon}e^{-|t|/\varepsilon}$.
-- Why does the double-sided exponential delta sequence have unit area? ::@:: Symmetry gives $2\int_0^{\infty}\frac{1}{2\varepsilon}e^{-t/\varepsilon}dt=1$.
-- What is a Gaussian delta sequence? ::@:: One choice is $\delta_\varepsilon(t)=\frac{1}{\sqrt{\pi}\varepsilon}e^{-(t/\varepsilon)^2}$.
-- Why does the Gaussian delta sequence have unit area? ::@:: Substituting $u=t/\varepsilon$ gives $\frac{1}{\sqrt{\pi}}\int_{-\infty}^{\infty}e^{-u^2}du=1$.
-- What is a sinc-shaped delta sequence? ::@:: One choice is $\delta_\varepsilon(t)=\frac{1}{\pi}\frac{\sin(t/\varepsilon)}{t}=\frac{1}{\pi\varepsilon}\operatorname{Sa}(t/\varepsilon)$.
-- What is the generalized-function definition of the impulse? ::@:: For a suitable test function $f(t)$, it is defined by $\int_{-\infty}^{\infty}\delta(t)f(t)dt=f(0)$.
-- What are test functions conceptually? ::@:: They are smooth localized probes used to define generalized functions through their action in integrals.
-- Why do test functions need smoothness and compact support? ::@:: Smoothness makes derivative rules legitimate, and compact support removes boundary terms in integration-by-parts arguments.
-- How do delta sequences lead to the sampling rule? ::@:: Writing $\int\delta_\varepsilon(t)f(t)dt=\int\delta_\varepsilon(t)(f(t)-f(0))dt+f(0)\int\delta_\varepsilon(t)dt$ shows the limit approaches $f(0)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual bridge card -->
-- How should the graph of $\delta(t-t_0)$ be interpreted? ::@:: It is a symbolic arrow at $t=t_0$ labeled by area $1$, not an ordinary finite-width pulse.
-- How should the graph of $A\delta(t-t_0)$ be interpreted? ::@:: It is a symbolic arrow at $t=t_0$ labeled by weight $A$.
-- Why does the ideal impulse not fit the ordinary finite-energy framework? ::@:: For the rectangular approximation, $E_\varepsilon=1/\varepsilon\to\infty$, so the energy blows up as the pulse concentrates.
+- What are the two main viewpoints on the unit impulse? ::@:: It is understood both as the limit of unit-area pulse families and as a generalized function defined by its action on test functions. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- What is a standard rectangular delta sequence? ::@:: It is $\delta_\varepsilon(t)=1/\varepsilon$ for $|t|<\varepsilon/2$ and $0$ otherwise. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Why does the rectangular delta sequence have unit area? ::@:: Because $\int_{-\varepsilon/2}^{\varepsilon/2}(1/\varepsilon)dt=1$. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- Why is unit area the crucial normalization in delta sequences? ::@:: Keeping total area equal to $1$ is what makes the limiting sampling action nontrivial and correctly normalized. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is a triangular delta sequence? ::@:: One choice is $\delta_\varepsilon(t)=\frac{1}{\varepsilon}(1-|t|/\varepsilon)$ for $|t|<\varepsilon$ and $0$ otherwise. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- Why does the triangular delta sequence have unit area? ::@:: Symmetry gives $2\int_0^{\varepsilon}\frac{1}{\varepsilon}(1-t/\varepsilon)dt=1$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is a double-sided exponential delta sequence? ::@:: One choice is $\delta_\varepsilon(t)=\frac{1}{2\varepsilon}e^{-|t|/\varepsilon}$. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- Why does the double-sided exponential delta sequence have unit area? ::@:: Symmetry gives $2\int_0^{\infty}\frac{1}{2\varepsilon}e^{-t/\varepsilon}dt=1$. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- What is a Gaussian delta sequence? ::@:: One choice is $\delta_\varepsilon(t)=\frac{1}{\sqrt{\pi}\varepsilon}e^{-(t/\varepsilon)^2}$. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- Why does the Gaussian delta sequence have unit area? ::@:: Substituting $u=t/\varepsilon$ gives $\frac{1}{\sqrt{\pi}}\int_{-\infty}^{\infty}e^{-u^2}du=1$. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- What is a sinc-shaped delta sequence? ::@:: One choice is $\delta_\varepsilon(t)=\frac{1}{\pi}\frac{\sin(t/\varepsilon)}{t}=\frac{1}{\pi\varepsilon}\operatorname{Sa}(t/\varepsilon)$. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- What is the generalized-function definition of the impulse? ::@:: For a suitable test function $f(t)$, it is defined by $\int_{-\infty}^{\infty}\delta(t)f(t)dt=f(0)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- What are test functions conceptually? ::@:: They are smooth localized probes used to define generalized functions through their action in integrals. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- Why do test functions need smoothness and compact support? ::@:: Smoothness makes derivative rules legitimate, and compact support removes boundary terms in integration-by-parts arguments. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- How do delta sequences lead to the sampling rule? ::@:: Writing $\int\delta_\varepsilon(t)f(t)dt=\int\delta_\varepsilon(t)(f(t)-f(0))dt+f(0)\int\delta_\varepsilon(t)dt$ shows the limit approaches $f(0)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual bridge card --> <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- How should the graph of $\delta(t-t_0)$ be interpreted? ::@:: It is a symbolic arrow at $t=t_0$ labeled by area $1$, not an ordinary finite-width pulse. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- How should the graph of $A\delta(t-t_0)$ be interpreted? ::@:: It is a symbolic arrow at $t=t_0$ labeled by weight $A$. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- Why does the ideal impulse not fit the ordinary finite-energy framework? ::@:: For the rectangular approximation, $E_\varepsilon=1/\varepsilon\to\infty$, so the energy blows up as the pulse concentrates. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
 
 ## impulse properties and graphing
 
@@ -141,18 +141,18 @@ A concrete worked example is $\int_{-\infty}^{\infty}(2t+1)\delta(t-3)dt=7$, bec
 
 Flashcards for this section are as follows:
 
-- What is the sifting property of the impulse? ::@:: It is $\int_{-\infty}^{\infty}f(t)\delta(t-t_0)dt=f(t_0)$.
-- What does a shifted impulse $\delta(t-t_0)$ do? ::@:: It samples the attached function at $t=t_0$ rather than at the origin.
-- What is the impulse multiplication law? ::@:: It is $f(t)\delta(t-t_0)=f(t_0)\delta(t-t_0)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual law -->
-- Why does the impulse multiplication law make sense? ::@:: Once an impulse concentrates all action at one instant, only the value of the multiplier at that same instant can matter.
-- What is the parity of the impulse? ::@:: The impulse is even, so $\delta(-t)=\delta(t)$.
-- What is the scaling law of the impulse? ::@:: For $a\neq 0$, $\delta(at)=\frac{1}{|a|}\delta(t)$.
-- How do you draw $\delta(t-t_0)$? ::@:: Move the symbolic impulse arrow from the origin to $t=t_0$.
-- How do you draw $\delta(at)$? ::@:: Keep the symbolic arrow at the origin and change its weight to $1/|a|$.
-- Why does substituting $\tau=-t$ prove the parity law? ::@:: It shows $\delta(-t)$ has the same action on every test function as $\delta(t)$.
-- Why does substituting $u=at$ prove the scaling law? ::@:: It produces the factor $1/|a|$ in the defining integral, giving $\delta(at)=\frac{1}{|a|}\delta(t)$.
-- Why does testing against a smooth probe prove the multiplication law? ::@:: Both sides give the same sampled value $f(t_0)g(t_0)$ in every integral against a test function. <!-- check: ignore-line[two_sided_calc_warning]: conceptual derivation card -->
-- Worked example (method: sifting): Given $f(t)=2t+1$, what is $\int_{-\infty}^{\infty}(2t+1)\delta(t-3)dt$? ::@:: Step 1: use the sifting property to sample the multiplier at $t=3$. <br/> Step 2: compute $2(3)+1=7$. <br/> Step 3: therefore the integral equals $7$.
+- What is the sifting property of the impulse? ::@:: It is $\int_{-\infty}^{\infty}f(t)\delta(t-t_0)dt=f(t_0)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What does a shifted impulse $\delta(t-t_0)$ do? ::@:: It samples the attached function at $t=t_0$ rather than at the origin. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- What is the impulse multiplication law? ::@:: It is $f(t)\delta(t-t_0)=f(t_0)\delta(t-t_0)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual law --> <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- Why does the impulse multiplication law make sense? ::@:: Once an impulse concentrates all action at one instant, only the value of the multiplier at that same instant can matter. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- What is the parity of the impulse? ::@:: The impulse is even, so $\delta(-t)=\delta(t)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is the scaling law of the impulse? ::@:: For $a\neq 0$, $\delta(at)=\frac{1}{|a|}\delta(t)$. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- How do you draw $\delta(t-t_0)$? ::@:: Move the symbolic impulse arrow from the origin to $t=t_0$. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- How do you draw $\delta(at)$? ::@:: Keep the symbolic arrow at the origin and change its weight to $1/|a|$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Why does substituting $\tau=-t$ prove the parity law? ::@:: It shows $\delta(-t)$ has the same action on every test function as $\delta(t)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- Why does substituting $u=at$ prove the scaling law? ::@:: It produces the factor $1/|a|$ in the defining integral, giving $\delta(at)=\frac{1}{|a|}\delta(t)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Why does testing against a smooth probe prove the multiplication law? ::@:: Both sides give the same sampled value $f(t_0)g(t_0)$ in every integral against a test function. <!-- check: ignore-line[two_sided_calc_warning]: conceptual derivation card --> <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Worked example (method: sifting): Given $f(t)=2t+1$, what is $\int_{-\infty}^{\infty}(2t+1)\delta(t-3)dt$? ::@:: Step 1: use the sifting property to sample the multiplier at $t=3$. <br/> Step 2: compute $2(3)+1=7$. <br/> Step 3: therefore the integral equals $7$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ## derivatives of singular signals
 
@@ -168,16 +168,16 @@ More generally, the course treats the derivative of a piecewise-smooth signal in
 
 Flashcards for this section are as follows:
 
-- What is the derivative of the unit ramp? ::@:: It is the unit step: $\frac{d}{dt}r(t)=u(t)$.
-- What is the derivative of the unit step? ::@:: It is the unit impulse: $\frac{d}{dt}u(t)=\delta(t)$.
-- What is the geometric meaning of differentiating a step? ::@:: Differentiating a jump concentrates the change at one instant, so the derivative becomes an impulse.
-- If $G_\tau(t)=u(t+\tau/2)-u(t-\tau/2)$, what is its derivative? ::@:: It is $\delta(t+\tau/2)-\delta(t-\tau/2)$.
-- Why does a differentiated gate produce a positive and a negative impulse? ::@:: The rising edge contributes a positive impulse, while the falling edge contributes a negative impulse.
-- What is the derivative of $e^{-t}u(t)$? ::@:: It is $-e^{-t}u(t)+\delta(t)$.
-- Why do switched signals acquire impulse terms when differentiated? ::@:: Differentiation gives the ordinary derivative on smooth intervals plus an impulse at the switching instant.
-- How should this course differentiate a piecewise-smooth signal with jump discontinuities? ::@:: Differentiate each smooth piece normally, then add a Dirac impulse at each jump with weight equal to the jump size $x(t_0^+)-x(t_0^-)$.
-- How is the derivative contribution of a jump drawn on a graph? ::@:: It is drawn as an impulse arrow at the jump location, because the singular contribution is a Dirac delta rather than an ordinary finite-height spike.
-- Worked example (method: gate-differentiation): Given $G_2(t)=u(t+1)-u(t-1)$, what is its derivative? ::@:: Step 1: differentiate the rising edge $u(t+1)$ to get $\delta(t+1)$. <br/> Step 2: differentiate the falling edge $-u(t-1)$ to get $-\delta(t-1)$. <br/> Step 3: add the two contributions to obtain $\delta(t+1)-\delta(t-1)$.
+- What is the derivative of the unit ramp? ::@:: It is the unit step: $\frac{d}{dt}r(t)=u(t)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is the derivative of the unit step? ::@:: It is the unit impulse: $\frac{d}{dt}u(t)=\delta(t)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- What is the geometric meaning of differentiating a step? ::@:: Differentiating a jump concentrates the change at one instant, so the derivative becomes an impulse. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- If $G_\tau(t)=u(t+\tau/2)-u(t-\tau/2)$, what is its derivative? ::@:: It is $\delta(t+\tau/2)-\delta(t-\tau/2)$. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- Why does a differentiated gate produce a positive and a negative impulse? ::@:: The rising edge contributes a positive impulse, while the falling edge contributes a negative impulse. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is the derivative of $e^{-t}u(t)$? ::@:: It is $-e^{-t}u(t)+\delta(t)$. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- Why do switched signals acquire impulse terms when differentiated? ::@:: Differentiation gives the ordinary derivative on smooth intervals plus an impulse at the switching instant. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- How should this course differentiate a piecewise-smooth signal with jump discontinuities? ::@:: Differentiate each smooth piece normally, then add a Dirac impulse at each jump with weight equal to the jump size $x(t_0^+)-x(t_0^-)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- How is the derivative contribution of a jump drawn on a graph? ::@:: It is drawn as an impulse arrow at the jump location, because the singular contribution is a Dirac delta rather than an ordinary finite-height spike. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Worked example (method: gate-differentiation): Given $G_2(t)=u(t+1)-u(t-1)$, what is its derivative? ::@:: Step 1: differentiate the rising edge $u(t+1)$ to get $\delta(t+1)$. <br/> Step 2: differentiate the falling edge $-u(t-1)$ to get $-\delta(t-1)$. <br/> Step 3: add the two contributions to obtain $\delta(t+1)-\delta(t-1)$. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
 
 ## doublet and higher impulse derivatives
 
@@ -201,23 +201,23 @@ Higher derivatives continue the same pattern. Their generalized-function rule is
 
 Flashcards for this section are as follows:
 
-- What is the doublet? ::@:: It is the derivative of the impulse and is written $\delta'(t)$.
-- What is the generalized-function definition of the doublet? ::@:: It satisfies $\int_{-\infty}^{\infty}\delta'(t)f(t)dt=-f'(0)$ for suitable test functions.
-- What is the shifted sampling rule for the doublet? ::@:: More generally, $\int_{-\infty}^{\infty}\delta'(t-t_0)f(t)dt=-f'(t_0)$.
-- Why does the doublet sampling rule produce a negative derivative? ::@:: In the direct sampling integral there is no time reversal, so for an increasing function the negative right lobe of the antisymmetric pulse pair samples larger values than the positive left lobe, making the signed result proportional to $-f'(t_0)$.
-- Why does integration by parts define the doublet correctly? ::@:: It transfers the derivative onto the test function, and the boundary terms vanish because the test function has compact support.
-- Why does convolution with a doublet produce a positive derivative even though direct doublet sampling gives a negative derivative? ::@:: Because convolution flips one factor first, and since $\delta'$ is odd that flip contributes an extra minus sign; this cancels the minus sign in the direct sampling rule, so $f*\delta'=f'$.
-- What is the short algebraic reason that $(f*\delta')(t)=f'(t)$ has a positive sign? ::@:: Write $(f*\delta')(t)=\int f(\tau)\delta'(t-\tau)\,d\tau$, use $\delta'(t-\tau)=-\frac{d}{d\tau}\delta(t-\tau)$, then integrate by parts in $\tau$ to get $\int f'(\tau)\delta(t-\tau)\,d\tau=f'(t)$.
-- What is the pulse-pair intuition for the doublet? ::@:: It is the limit of a very narrow positive-negative pulse pair whose total area is zero but whose first-moment effect remains finite.
-- What is a concrete pulse-pair approximation to the doublet? ::@:: One choice is $d_\varepsilon(t)=1/\varepsilon^2$ on $(-\varepsilon,0)$, $-1/\varepsilon^2$ on $(0,\varepsilon)$, and $0$ elsewhere. <!-- check: ignore-line[two_sided_calc_warning]: conceptual formula card -->
-- Why does the doublet have zero signed area? ::@:: The positive and negative parts of the pulse-pair approximation cancel, so the total signed area is zero in the generalized sense.
-- What is the parity of the doublet? ::@:: Since the impulse is even, its derivative $\delta'(t)$ is odd.
-- What is the multiplication law for the doublet? ::@:: It is $f(t)\delta'(t)=f(0)\delta'(t)-f'(0)\delta(t)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual law -->
-- Why does the doublet multiplication law contain both a doublet term and an impulse term? ::@:: The doublet is sensitive to both the local value and the local slope of the multiplier.
-- Why does $f(0)\delta'(t)$ not contribute like ordinary area? ::@:: Because $\delta'$ annihilates constants, its integral against $1$ is $0$; the nonzero correction comes from the accompanying $-f'(0)\delta(t)$ term.
-- What do higher impulse derivatives do? ::@:: They satisfy $\int_{-\infty}^{\infty}\delta^{(n)}(t)f(t)dt=(-1)^n f^{(n)}(0)$, so they extract higher-order local derivative information.
-- Why are higher impulse derivatives more singular? ::@:: Each higher derivative reacts to finer local Taylor data of the test function rather than only to value or first slope.
-- Worked example (method: doublet sampling and differentiation): Given $f(t)=3t^2-1$, what is $\int_{-\infty}^{\infty}(3t^2-1)\delta'(t-2)dt$? ::@:: Step 1: use the doublet sampling rule $\int f(t)\delta'(t-t_0)dt=-f'(t_0)$. <br/> Step 2: differentiate $f(t)$ to get $f'(t)=6t$. <br/> Step 3: evaluate at $t_0=2$ to get $f'(2)=12$. <br/> Step 4: apply the minus sign, giving $-12$.
+- What is the doublet? ::@:: It is the derivative of the impulse and is written $\delta'(t)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- What is the generalized-function definition of the doublet? ::@:: It satisfies $\int_{-\infty}^{\infty}\delta'(t)f(t)dt=-f'(0)$ for suitable test functions. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is the shifted sampling rule for the doublet? ::@:: More generally, $\int_{-\infty}^{\infty}\delta'(t-t_0)f(t)dt=-f'(t_0)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Why does the doublet sampling rule produce a negative derivative? ::@:: In the direct sampling integral there is no time reversal, so for an increasing function the negative right lobe of the antisymmetric pulse pair samples larger values than the positive left lobe, making the signed result proportional to $-f'(t_0)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Why does integration by parts define the doublet correctly? ::@:: It transfers the derivative onto the test function, and the boundary terms vanish because the test function has compact support. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
+- Why does convolution with a doublet produce a positive derivative even though direct doublet sampling gives a negative derivative? ::@:: Because convolution flips one factor first, and since $\delta'$ is odd that flip contributes an extra minus sign; this cancels the minus sign in the direct sampling rule, so $f*\delta'=f'$. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- What is the short algebraic reason that $(f*\delta')(t)=f'(t)$ has a positive sign? ::@:: Write $(f*\delta')(t)=\int f(\tau)\delta'(t-\tau)\,d\tau$, use $\delta'(t-\tau)=-\frac{d}{d\tau}\delta(t-\tau)$, then integrate by parts in $\tau$ to get $\int f'(\tau)\delta(t-\tau)\,d\tau=f'(t)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is the pulse-pair intuition for the doublet? ::@:: It is the limit of a very narrow positive-negative pulse pair whose total area is zero but whose first-moment effect remains finite. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- What is a concrete pulse-pair approximation to the doublet? ::@:: One choice is $d_\varepsilon(t)=1/\varepsilon^2$ on $(-\varepsilon,0)$, $-1/\varepsilon^2$ on $(0,\varepsilon)$, and $0$ elsewhere. <!-- check: ignore-line[two_sided_calc_warning]: conceptual formula card --> <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- Why does the doublet have zero signed area? ::@:: The positive and negative parts of the pulse-pair approximation cancel, so the total signed area is zero in the generalized sense. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- What is the parity of the doublet? ::@:: Since the impulse is even, its derivative $\delta'(t)$ is odd. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What is the multiplication law for the doublet? ::@:: It is $f(t)\delta'(t)=f(0)\delta'(t)-f'(0)\delta(t)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual law --> <!--SR:!2026-04-11,3,250!2026-04-12,4,270-->
+- Why does the doublet multiplication law contain both a doublet term and an impulse term? ::@:: The doublet is sensitive to both the local value and the local slope of the multiplier. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Why does $f(0)\delta'(t)$ not contribute like ordinary area? ::@:: Because $\delta'$ annihilates constants, its integral against $1$ is $0$; the nonzero correction comes from the accompanying $-f'(0)\delta(t)$ term. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What do higher impulse derivatives do? ::@:: They satisfy $\int_{-\infty}^{\infty}\delta^{(n)}(t)f(t)dt=(-1)^n f^{(n)}(0)$, so they extract higher-order local derivative information. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- Why are higher impulse derivatives more singular? ::@:: Each higher derivative reacts to finer local Taylor data of the test function rather than only to value or first slope. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Worked example (method: doublet sampling and differentiation): Given $f(t)=3t^2-1$, what is $\int_{-\infty}^{\infty}(3t^2-1)\delta'(t-2)dt$? ::@:: Step 1: use the doublet sampling rule $\int f(t)\delta'(t-t_0)dt=-f'(t_0)$. <br/> Step 2: differentiate $f(t)$ to get $f'(t)=6t$. <br/> Step 3: evaluate at $t_0=2$ to get $f'(2)=12$. <br/> Step 4: apply the minus sign, giving $-12$. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
 
 ## convolution with impulse and impulse derivatives
 
@@ -231,9 +231,9 @@ The switched exponential again provides a good check. If $f(t)=e^{-t}u(t)$, then
 
 Flashcards for this section are as follows:
 
-- Why is the impulse the identity element for continuous-time convolution? ::@:: Because $f*\delta=f$.
-- What does convolution with a shifted impulse do? ::@:: It shifts the signal: $f*\delta(t-t_0)=f(t-t_0)$.
-- What does convolution with the doublet do? ::@:: It differentiates the signal: $f*\delta'=f'$.
-- What does convolution with the nth impulse derivative do? ::@:: It gives the order-$n$ derivative: $f*\delta^{(n)}=f^{(n)}$.
-- Why are impulse derivatives useful in convolution? ::@:: They convert convolution identities into compact differentiation rules, so they encode system calculus efficiently.
-- Worked example (method: convolution-with-derivative identity): Given $f(t)=e^{-t}u(t)$, what is $f*\delta'(t)$? ::@:: Step 1: use the rule $f*\delta'=f'$. <br/> Step 2: differentiate $e^{-t}u(t)$ using the product rule for switched signals. <br/> Step 3: the smooth part gives $-e^{-t}u(t)$ and the switching at $t=0$ contributes $\delta(t)$. <br/> Step 4: therefore $f*\delta'(t)=-e^{-t}u(t)+\delta(t)$.
+- Why is the impulse the identity element for continuous-time convolution? ::@:: Because $f*\delta=f$. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
+- What does convolution with a shifted impulse do? ::@:: It shifts the signal: $f*\delta(t-t_0)=f(t-t_0)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- What does convolution with the doublet do? ::@:: It differentiates the signal: $f*\delta'=f'$. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- What does convolution with the nth impulse derivative do? ::@:: It gives the order-$n$ derivative: $f*\delta^{(n)}=f^{(n)}$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Why are impulse derivatives useful in convolution? ::@:: They convert convolution identities into compact differentiation rules, so they encode system calculus efficiently. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
+- Worked example (method: convolution-with-derivative identity): Given $f(t)=e^{-t}u(t)$, what is $f*\delta'(t)$? ::@:: Step 1: use the rule $f*\delta'=f'$. <br/> Step 2: differentiate $e^{-t}u(t)$ using the product rule for switched signals. <br/> Step 3: the smooth part gives $-e^{-t}u(t)$ and the switching at $t=0$ contributes $\delta(t)$. <br/> Step 4: therefore $f*\delta'(t)=-e^{-t}u(t)+\delta(t)$. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->

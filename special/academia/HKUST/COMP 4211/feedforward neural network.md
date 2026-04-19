@@ -23,11 +23,11 @@ This shift is one of the main conceptual transitions from classical machine lear
 
 Flashcards for this section are as follows:
 
-- overview ::@:: A feedforward neural network is a layered model that maps inputs to outputs by repeated affine-transform-plus-activation steps, such as $z^{(\ell)}=(W^{(\ell)})^\top a^{(\ell-1)}+b^{(\ell)}$ and $a^{(\ell)}=g^{(\ell)}(z^{(\ell)})$, without recurrent loops in one forward pass.
-- feedforward neural network versus earlier models ::@:: Earlier models often used hand-crafted features, whereas an FNN learns the feature transformation jointly with the prediction rule.
-- alternative name ::@:: Feedforward neural networks are also commonly called multilayer perceptrons (MLPs).
-- deep-learning transition ::@:: In the deep-learning viewpoint, one first learns a representation $h=f(x)$ and then models the output distribution conditioned on that learned representation.
-- simpler-model special case ::@:: If the learned representation is just the raw input or if there is no hidden layer, an FNN reduces to a familiar shallow model such as linear regression, logistic regression, or softmax regression.
+- overview ::@:: A feedforward neural network is a layered model that maps inputs to outputs by repeated affine-transform-plus-activation steps, such as $z^{(\ell)}=(W^{(\ell)})^\top a^{(\ell-1)}+b^{(\ell)}$ and $a^{(\ell)}=g^{(\ell)}(z^{(\ell)})$, without recurrent loops in one forward pass. <!--SR:!2026-04-12,4,270!2026-04-12,4,307-->
+- feedforward neural network versus earlier models ::@:: Earlier models often used hand-crafted features, whereas an FNN learns the feature transformation jointly with the prediction rule. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- alternative name ::@:: Feedforward neural networks are also commonly called multilayer perceptrons (MLPs). <!--SR:!2026-04-12,4,304!2026-04-12,4,270-->
+- deep-learning transition ::@:: In the deep-learning viewpoint, one first learns a representation $h=f(x)$ and then models the output distribution conditioned on that learned representation. <!--SR:!2026-04-12,4,304!2026-04-12,4,289-->
+- simpler-model special case ::@:: If the learned representation is just the raw input or if there is no hidden layer, an FNN reduces to a familiar shallow model such as linear regression, logistic regression, or softmax regression. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
 
 ## multilayer perceptron as function approximator
 
@@ -43,11 +43,11 @@ The remaining subsections unpack the same model at three different resolutions: 
 
 Flashcards for this section are as follows:
 
-- function view of an FNN ::@:: An FNN defines a parameterized composition $f_{\theta}(x)=\Psi_{L}\circ \cdots \circ \Psi_{1}(x)$, where each layer map has the form $\Psi_{\ell}(u)=g^{(\ell)}((W^{(\ell)})^\top u+b^{(\ell)})$.
-- learned feature map plus simple head ::@:: A feedforward neural network can be viewed as a learned feature map $x\mapsto a^{(L-1)}(x)$ followed by a comparatively simple output model on top of that learned representation.
-- target function $f^{\ast}(x)$ ::@:: In the function-approximation viewpoint, the network parameters are learned so that $f_{\theta}(x)$ approximates a target function $f^{\ast}(x)$.
-- shallow-model relation ::@:: Linear regression, logistic regression, and softmax regression are shallow special cases of the same general pattern: simple output heads on top of either the raw input or a fixed representation.
-- reproducing-kernel Hilbert space (RKHS) contrast ::@:: In a reproducing-kernel Hilbert space (RKHS), predictors are linear in a fixed feature map or kernel representation, such as $f(x)=\langle w,\phi(x)\rangle_{\mathcal H}$; an FNN differs by learning the feature map $\phi_{\theta}(x)$ itself from data.
+- function view of an FNN ::@:: An FNN defines a parameterized composition $f_{\theta}(x)=\Psi_{L}\circ \cdots \circ \Psi_{1}(x)$, where each layer map has the form $\Psi_{\ell}(u)=g^{(\ell)}((W^{(\ell)})^\top u+b^{(\ell)})$. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- learned feature map plus simple head ::@:: A feedforward neural network can be viewed as a learned feature map $x\mapsto a^{(L-1)}(x)$ followed by a comparatively simple output model on top of that learned representation. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- target function $f^{\ast}(x)$ ::@:: In the function-approximation viewpoint, the network parameters are learned so that $f_{\theta}(x)$ approximates a target function $f^{\ast}(x)$. <!--SR:!2026-04-12,4,307!2026-04-12,4,307-->
+- shallow-model relation ::@:: Linear regression, logistic regression, and softmax regression are shallow special cases of the same general pattern: simple output heads on top of either the raw input or a fixed representation. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- reproducing-kernel Hilbert space (RKHS) contrast ::@:: In a reproducing-kernel Hilbert space (RKHS), predictors are linear in a fixed feature map or kernel representation, such as $f(x)=\langle w,\phi(x)\rangle_{\mathcal H}$; an FNN differs by learning the feature map $\phi_{\theta}(x)$ itself from data. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
 
 ### units, layers, and nonlinear composition
 
@@ -63,13 +63,13 @@ Nonlinear activations break that collapse. Once $g$ is nonlinear, the layer map 
 
 Flashcards for this section are as follows:
 
-- unit computation $z=W^\top x+b$ and $g(z)$ ::@:: A standard neural-network unit computes the pre-activation $z=W^\top x+b$ and then outputs $g(z)$.
-- pre-activation or net input ::@:: The quantity $z=W^\top x+b$ is often called the pre-activation or net input of the unit.
-- parameters of a unit ::@:: The parameters of a standard unit are the incoming link weights and the bias term.
-- why repeated local computation creates depth ::@:: Depth arises because each layer takes the previous layer's outputs as its inputs, producing a repeated composition of simple computations.
-- affine-collapse proof ::@:: If $f_{1}(x)=A_{1}x+c_{1}$ and $f_{2}(u)=A_{2}u+c_{2}$, then $f_{2}(f_{1}(x))=A_{2}A_{1}x+(A_{2}c_{1}+c_{2})$, so composing affine maps still gives an affine map; induction extends this to any depth.
-- why affine maps alone are insufficient ::@:: Without nonlinear activations, a multilayer stack of affine maps would still be just one affine map, so depth would be only a reparameterization rather than a source of new expressive power.
-- what nonlinearity adds ::@:: A nonlinear activation lets different input regions be transformed differently, so the network can create curved decision boundaries and hierarchical feature maps.
+- unit computation $z=W^\top x+b$ and $g(z)$ ::@:: A standard neural-network unit computes the pre-activation $z=W^\top x+b$ and then outputs $g(z)$. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- pre-activation or net input ::@:: The quantity $z=W^\top x+b$ is often called the pre-activation or net input of the unit. <!--SR:!2026-04-12,4,307!2026-04-12,4,304-->
+- parameters of a unit ::@:: The parameters of a standard unit are the incoming link weights and the bias term. <!--SR:!2026-04-12,4,270!2026-04-12,4,289-->
+- why repeated local computation creates depth ::@:: Depth arises because each layer takes the previous layer's outputs as its inputs, producing a repeated composition of simple computations. <!--SR:!2026-04-12,4,270!2026-04-12,4,289-->
+- affine-collapse proof ::@:: If $f_{1}(x)=A_{1}x+c_{1}$ and $f_{2}(u)=A_{2}u+c_{2}$, then $f_{2}(f_{1}(x))=A_{2}A_{1}x+(A_{2}c_{1}+c_{2})$, so composing affine maps still gives an affine map; induction extends this to any depth. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- why affine maps alone are insufficient ::@:: Without nonlinear activations, a multilayer stack of affine maps would still be just one affine map, so depth would be only a reparameterization rather than a source of new expressive power. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- what nonlinearity adds ::@:: A nonlinear activation lets different input regions be transformed differently, so the network can create curved decision boundaries and hierarchical feature maps. <!--SR:!2026-04-12,4,270!2026-04-12,4,304-->
 
 ### layerwise notation and forward propagation
 
@@ -83,11 +83,11 @@ The worked forward-propagation examples are therefore less about memorizing one 
 
 Flashcards for this section are as follows:
 
-- layerwise notation $a^{(0)}, z^{(\ell)}, a^{(\ell)}$ ::@:: In layerwise notation, $a^{(0)}=x$, each pre-activation is $z^{(\ell)}=(W^{(\ell)})^\top a^{(\ell-1)}+b^{(\ell)}$, and each activation is $a^{(\ell)}=g^{(\ell)}(z^{(\ell)})$.
-- first hidden layer formula ::@:: A first hidden layer can be written as $z^{(1)}=(W^{(1)})^\top x+b^{(1)}$ and $a^{(1)}=g^{(1)}(z^{(1)})$.
-- recursive forward propagation ::@:: Forward propagation applies the same pattern repeatedly: matrix mixing plus bias shift to get $z^{(\ell)}$, then activation to get $a^{(\ell)}$, then pass $a^{(\ell)}$ forward.
-- why weight matrices are convenient ::@:: Matrix notation collects the weights of many units in one object, making forward propagation compact and efficient.
-- computational rhythm of forward propagation ::@:: Forward propagation proceeds as pre-activation $\to$ activation $\to$ next layer, repeated until the final output is produced.
+- layerwise notation $a^{(0)}, z^{(\ell)}, a^{(\ell)}$ ::@:: In layerwise notation, $a^{(0)}=x$, each pre-activation is $z^{(\ell)}=(W^{(\ell)})^\top a^{(\ell-1)}+b^{(\ell)}$, and each activation is $a^{(\ell)}=g^{(\ell)}(z^{(\ell)})$. <!--SR:!2026-04-12,4,304!2026-04-12,4,270-->
+- first hidden layer formula ::@:: A first hidden layer can be written as $z^{(1)}=(W^{(1)})^\top x+b^{(1)}$ and $a^{(1)}=g^{(1)}(z^{(1)})$. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- recursive forward propagation ::@:: Forward propagation applies the same pattern repeatedly: matrix mixing plus bias shift to get $z^{(\ell)}$, then activation to get $a^{(\ell)}$, then pass $a^{(\ell)}$ forward. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- why weight matrices are convenient ::@:: Matrix notation collects the weights of many units in one object, making forward propagation compact and efficient. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- computational rhythm of forward propagation ::@:: Forward propagation proceeds as pre-activation $\to$ activation $\to$ next layer, repeated until the final output is produced. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
 
 ### repeated matrix-nonlinearity viewpoint
 
@@ -101,9 +101,9 @@ It also gives an intuition for hierarchy. The first layers often detect relative
 
 Flashcards for this section are as follows:
 
-- forward-pass mnemonic ::@:: A useful forward-pass mnemonic is _mix, shift, bend, repeat_: $W^{(\ell)}$ mixes coordinates, $b^{(\ell)}$ shifts thresholds, $g^{(\ell)}$ bends the representation, and the result is passed to the next layer.
-- matrix interpretation in an FNN ::@:: The weight matrix recombines coordinates from the previous layer, so each new unit can detect a learned direction or pattern rather than copying a single old coordinate.
-- hierarchy of representations ::@:: The repeated-map view makes it clear that depth means applying the same affine-plus-nonlinearity template to increasingly abstract intermediate representations.
+- forward-pass mnemonic ::@:: A useful forward-pass mnemonic is _mix, shift, bend, repeat_: $W^{(\ell)}$ mixes coordinates, $b^{(\ell)}$ shifts thresholds, $g^{(\ell)}$ bends the representation, and the result is passed to the next layer. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- matrix interpretation in an FNN ::@:: The weight matrix recombines coordinates from the previous layer, so each new unit can detect a learned direction or pattern rather than copying a single old coordinate. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- hierarchy of representations ::@:: The repeated-map view makes it clear that depth means applying the same affine-plus-nonlinearity template to increasingly abstract intermediate representations. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
 
 ### universal approximation and why depth still helps
 
@@ -117,10 +117,10 @@ This resolves a common confusion. Universal approximation does _not_ imply that 
 
 Flashcards for this section are as follows:
 
-- universal approximation statement ::@:: A one-hidden-layer sigmoid network is a universal approximator in the existence sense: for continuous $f^{\ast}$ on compact $K$ and any $\varepsilon>0$, some sufficiently wide shallow network can achieve $\sup_{x\in K}|f_{\theta}(x)-f^{\ast}(x)|<\varepsilon$.
-- why universal approximation is not the end of the story ::@:: Universal approximation is only an existence statement and does not imply that shallow networks are the most efficient or easiest to train.
-- why depth can reduce parameter count ::@:: Depth can exploit compositional structure by reusing intermediate features, so some targets that are representable by shallow networks may require far fewer parameters when represented deeply.
-- shallow-versus-deep lesson ::@:: The practical value of depth is not just representability, but also parameter efficiency and more structured representation learning.
+- universal approximation statement ::@:: A one-hidden-layer sigmoid network is a universal approximator in the existence sense: for continuous $f^{\ast}$ on compact $K$ and any $\varepsilon>0$, some sufficiently wide shallow network can achieve $\sup_{x\in K}|f_{\theta}(x)-f^{\ast}(x)|<\varepsilon$. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- why universal approximation is not the end of the story ::@:: Universal approximation is only an existence statement and does not imply that shallow networks are the most efficient or easiest to train. <!--SR:!2026-04-12,4,307!2026-04-12,4,304-->
+- why depth can reduce parameter count ::@:: Depth can exploit compositional structure by reusing intermediate features, so some targets that are representable by shallow networks may require far fewer parameters when represented deeply. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- shallow-versus-deep lesson ::@:: The practical value of depth is not just representability, but also parameter efficiency and more structured representation learning. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
 
 ## initialization and activation functions
 
@@ -134,9 +134,9 @@ The architectural side of that story is the focus here. The training-side follow
 
 Flashcards for this section are as follows:
 
-- rigorous meaning of signal ::@:: In deep-learning initialization discussions, _signal_ means the scale of forward pre-activations/activations and backward gradients, often summarized by statistics such as mean, variance, or typical magnitude across layers.
-- why initialization matters ::@:: Initialization matters because forward activations and backward gradients can vanish if weights are too small and explode if weights are too large.
-- activation-initialization linkage ::@:: Initialization and activation choice must work together so that activations and gradients remain numerically useful across depth.
+- rigorous meaning of signal ::@:: In deep-learning initialization discussions, _signal_ means the scale of forward pre-activations/activations and backward gradients, often summarized by statistics such as mean, variance, or typical magnitude across layers. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- why initialization matters ::@:: Initialization matters because forward activations and backward gradients can vanish if weights are too small and explode if weights are too large. <!--SR:!2026-04-12,4,307!2026-04-12,4,307-->
+- activation-initialization linkage ::@:: Initialization and activation choice must work together so that activations and gradients remain numerically useful across depth. <!--SR:!2026-04-12,4,304!2026-04-12,4,307-->
 
 ### why initialization matters
 
@@ -158,18 +158,18 @@ These schemes are best understood as attempts to keep the flow of information nu
 
 Flashcards for this section are as follows:
 
-- fan-in and fan-out ::@:: Fan-in $n_{\mathrm{in}}$ is the number of inputs feeding one unit in a layer, and fan-out $n_{\mathrm{out}}$ is the number of outputs that layer sends forward to the next layer.
-- variance heuristic derivation ::@:: With $z_j^{(\ell)}=\sum_{i=1}^{n_{\mathrm{in}}}W_{ij}^{(\ell)}a_i^{(\ell-1)}+b_j^{(\ell)}$ and rough independence/zero-mean assumptions, $\operatorname{Var}(z_j^{(\ell)})\approx\sum_i\operatorname{Var}(W_{ij}^{(\ell)}a_i^{(\ell-1)})\approx n_{\mathrm{in}}\operatorname{Var}(W_{ij}^{(\ell)})\operatorname{Var}(a_i^{(\ell-1)})$ (plus a usually small bias-variance term).
-- too-small initial weights ::@:: If initial weights are too small, the activation and gradient scales shrink from layer to layer until they become too weak to support useful learning.
-- too-large initial weights ::@:: If initial weights are too large, the activation and gradient scales grow from layer to layer until they become too large for stable learning.
-- Xavier initialization ::@:: Xavier initialization balances fan-in and fan-out with variance of order $\frac{2}{n_{\mathrm{in}}+n_{\mathrm{out}}}$, using either a normal form $\mathcal N\bigl(0,\frac{2}{n_{\mathrm{in}}+n_{\mathrm{out}}}\bigr)$ or a variance-matched uniform form with bounds $\pm\sqrt{\frac{6}{n_{\mathrm{in}}+n_{\mathrm{out}}}}$.
-- Xavier mnemonic ::@:: A mnemonic for Xavier initialization is _balance both sides_: average fan-in and fan-out to keep scale stable across the layer.
-- normal versus uniform initialization intuition ::@:: The normal variant directly sets a target variance, while the uniform variant chooses bounds so the variance matches that target and very large draws, typically more than three standard deviations away, are excluded by bounded support.
-- normal-form versus bounded-uniform intuition for Xavier and He ::@:: For both Xavier and He, the normal form states the target variance directly; the uniform form is a variance-matched bounded surrogate often interpreted as clipping unlikely normal tails (roughly beyond the three-standard-deviation region) while keeping controlled spread.
-- course-slide Xavier convention ::@:: The course slides list a Xavier-style uniform rule $\operatorname{Unif}\bigl[-\sqrt{1/n_{\mathrm{in}}},\sqrt{1/n_{\mathrm{in}}}\bigr]$; although this is likely a simplified or inconsistent variant, use the course-stated form in assignments or exams when explicitly requested.
-- He initialization ::@:: He initialization for ReLU-like activations uses variance of order $\frac{2}{n_{\mathrm{in}}}$, commonly in normal form $\mathcal N\bigl(0,\frac{2}{n_{\mathrm{in}}}\bigr)$ (the form emphasized in this course), with a variance-matched uniform alternative also possible.
-- He mnemonic ::@:: A mnemonic for He initialization is _half-alive ReLUs_: because rectifiers often keep only about half the inputs active, the variance is doubled relative to the naive $1/n_{\mathrm{in}}$ scaling.
-- why initialization schemes exist ::@:: Initialization schemes are designed to preserve reasonable activation and gradient scale across layers rather than to provide arbitrary starting values.
+- fan-in and fan-out ::@:: Fan-in $n_{\mathrm{in}}$ is the number of inputs feeding one unit in a layer, and fan-out $n_{\mathrm{out}}$ is the number of outputs that layer sends forward to the next layer. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- variance heuristic derivation ::@:: With $z_j^{(\ell)}=\sum_{i=1}^{n_{\mathrm{in}}}W_{ij}^{(\ell)}a_i^{(\ell-1)}+b_j^{(\ell)}$ and rough independence/zero-mean assumptions, $\operatorname{Var}(z_j^{(\ell)})\approx\sum_i\operatorname{Var}(W_{ij}^{(\ell)}a_i^{(\ell-1)})\approx n_{\mathrm{in}}\operatorname{Var}(W_{ij}^{(\ell)})\operatorname{Var}(a_i^{(\ell-1)})$ (plus a usually small bias-variance term). <!--SR:!2026-04-12,4,307!2026-04-12,4,270-->
+- too-small initial weights ::@:: If initial weights are too small, the activation and gradient scales shrink from layer to layer until they become too weak to support useful learning. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- too-large initial weights ::@:: If initial weights are too large, the activation and gradient scales grow from layer to layer until they become too large for stable learning. <!--SR:!2026-04-12,4,270!2026-04-12,4,289-->
+- Xavier initialization ::@:: Xavier initialization balances fan-in and fan-out with variance of order $\frac{2}{n_{\mathrm{in}}+n_{\mathrm{out}}}$, using either a normal form $\mathcal N\bigl(0,\frac{2}{n_{\mathrm{in}}+n_{\mathrm{out}}}\bigr)$ or a variance-matched uniform form with bounds $\pm\sqrt{\frac{6}{n_{\mathrm{in}}+n_{\mathrm{out}}}}$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- Xavier mnemonic ::@:: A mnemonic for Xavier initialization is _balance both sides_: average fan-in and fan-out to keep scale stable across the layer. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- normal versus uniform initialization intuition ::@:: The normal variant directly sets a target variance, while the uniform variant chooses bounds so the variance matches that target and very large draws, typically more than three standard deviations away, are excluded by bounded support. <!--SR:!2026-04-12,4,307!2026-04-12,4,270-->
+- normal-form versus bounded-uniform intuition for Xavier and He ::@:: For both Xavier and He, the normal form states the target variance directly; the uniform form is a variance-matched bounded surrogate often interpreted as clipping unlikely normal tails (roughly beyond the three-standard-deviation region) while keeping controlled spread. <!--SR:!2026-04-12,4,270!2026-04-12,4,289-->
+- course-slide Xavier convention ::@:: The course slides list a Xavier-style uniform rule $\operatorname{Unif}\bigl[-\sqrt{1/n_{\mathrm{in}}},\sqrt{1/n_{\mathrm{in}}}\bigr]$; although this is likely a simplified or inconsistent variant, use the course-stated form in assignments or exams when explicitly requested. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- He initialization ::@:: He initialization for ReLU-like activations uses variance of order $\frac{2}{n_{\mathrm{in}}}$, commonly in normal form $\mathcal N\bigl(0,\frac{2}{n_{\mathrm{in}}}\bigr)$ (the form emphasized in this course), with a variance-matched uniform alternative also possible. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- He mnemonic ::@:: A mnemonic for He initialization is _half-alive ReLUs_: because rectifiers often keep only about half the inputs active, the variance is doubled relative to the naive $1/n_{\mathrm{in}}$ scaling. <!--SR:!2026-04-12,4,289!2026-04-11,3,269-->
+- why initialization schemes exist ::@:: Initialization schemes are designed to preserve reasonable activation and gradient scale across layers rather than to provide arbitrary starting values. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
 
 ### classical activations: sigmoid and tanh
 
@@ -185,14 +185,14 @@ The lecture's message is therefore nuanced: sigmoid and tanh are mathematically 
 
 Flashcards for this section are as follows:
 
-- sigmoid formula ::@:: The sigmoid activation can be written as $\sigma(z)=\frac{1}{1+e^{-z}}=\frac{e^z}{1+e^z}=\frac{1+\tanh(z/2)}{2}$, so it is a probability-squashing nonlinearity closely related to tanh.
-- classical activation overview ::@:: Sigmoid and tanh are classical smooth bounded saturating activations: mathematically clean and still useful at output heads, but often harder to optimize in deep hidden stacks than rectifier-style alternatives.
-- sigmoid derivative ::@:: The sigmoid derivative is $\sigma'(z)=\sigma(z)(1-\sigma(z))$, with maximum $1/4$, so gradients shrink strongly when $z$ is in saturation regions.
-- sigmoid characteristics ::@:: Sigmoid is bounded, monotone, and smooth, but it is not zero-centered and it saturates strongly in the tails, which is why hidden-layer training can be slow.
-- tanh formula and hyperbolic-trigonometric meaning ::@:: The hyperbolic tangent is defined as $\tanh(z)=\sinh(z)/\cosh(z)$ and can be written as $\frac{e^z-e^{-z}}{e^z+e^{-z}}=2\sigma(2z)-1$, so it is a recentered sigmoid-like activation.
-- tanh derivative ::@:: The tanh derivative is $\tanh'(z)=1-\tanh^2(z)=4\sigma(2z)(1-\sigma(2z))$, so tanh also suffers saturation for large $|z|$.
-- why tanh is often preferable to sigmoid ::@:: Tanh is zero-centered and odd, so hidden activations are often easier to optimize than with sigmoid, although tanh still saturates for large $|z|$.
-- output-layer saturation nuance ::@:: Vanishing gradient at a sigmoid or tanh output unit is usually less concerning than in hidden layers, because it occurs only once and often means prediction error is already small.
+- sigmoid formula ::@:: The sigmoid activation can be written as $\sigma(z)=\frac{1}{1+e^{-z}}=\frac{e^z}{1+e^z}=\frac{1+\tanh(z/2)}{2}$, so it is a probability-squashing nonlinearity closely related to tanh. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- classical activation overview ::@:: Sigmoid and tanh are classical smooth bounded saturating activations: mathematically clean and still useful at output heads, but often harder to optimize in deep hidden stacks than rectifier-style alternatives. <!--SR:!2026-04-12,4,270!2026-04-12,4,307-->
+- sigmoid derivative ::@:: The sigmoid derivative is $\sigma'(z)=\sigma(z)(1-\sigma(z))$, with maximum $1/4$, so gradients shrink strongly when $z$ is in saturation regions. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- sigmoid characteristics ::@:: Sigmoid is bounded, monotone, and smooth, but it is not zero-centered and it saturates strongly in the tails, which is why hidden-layer training can be slow. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- tanh formula and hyperbolic-trigonometric meaning ::@:: The hyperbolic tangent is defined as $\tanh(z)=\sinh(z)/\cosh(z)$ and can be written as $\frac{e^z-e^{-z}}{e^z+e^{-z}}=2\sigma(2z)-1$, so it is a recentered sigmoid-like activation. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- tanh derivative ::@:: The tanh derivative is $\tanh'(z)=1-\tanh^2(z)=4\sigma(2z)(1-\sigma(2z))$, so tanh also suffers saturation for large $|z|$. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- why tanh is often preferable to sigmoid ::@:: Tanh is zero-centered and odd, so hidden activations are often easier to optimize than with sigmoid, although tanh still saturates for large $|z|$. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- output-layer saturation nuance ::@:: Vanishing gradient at a sigmoid or tanh output unit is usually less concerning than in hidden layers, because it occurs only once and often means prediction error is already small. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
 
 ### rectifier family: ReLU, leaky ReLU, parametric ReLU, ELU, and softplus
 
@@ -208,18 +208,18 @@ The slides also mention smooth rectifier variants. Softplus is $\zeta(z)=\log(1+
 
 Flashcards for this section are as follows:
 
-- rectifier family overview ::@:: The rectifier family keeps positive-side behavior close to identity while suppressing negative inputs; the term _rectifier_ means turning signed inputs into mostly nonnegative outputs by clipping or attenuating negatives.
-- ReLU formula ::@:: ReLU can be written as $\operatorname{ReLU}(z)=\max\{0,z\}=\frac{z+|z|}{2}=z\mathbf{1}[z>0]$, so it is the canonical hard rectifier and the non-smooth relative of softplus.
-- ReLU derivative and corner behavior ::@:: ReLU has derivative $1$ for $z>0$ and $0$ for $z<0$; at $z=0$ it is not classically differentiable, so implementations adopt a subgradient convention.
-- why ReLU often learns faster ::@:: ReLU has constant positive-side slope and no positive-side saturation, which usually makes hidden-layer optimization easier than with sigmoid-like activations.
-- dead-neuron problem ::@:: A ReLU neuron is dead when it stays in the zero-output region for all training examples and therefore receives no useful gradient updates.
-- dead-neuron mitigation by bias initialization ::@:: A common mitigation for dead ReLUs is to initialize biases to small positive values so units start slightly active instead of immediately stuck on the zero side.
-- general leaky-ReLU form ::@:: The rectifier family $g(z,\alpha)=\max\{0,z\}+\alpha\min\{0,z\}=\begin{cases}z,&z\ge 0,\\ \alpha z,&z<0,\end{cases}$ becomes leaky ReLU for fixed small $\alpha$ and parametric ReLU when $\alpha$ is learned.
-- leaky or parametric ReLU derivative ::@:: Leaky and parametric ReLU have derivative $1$ for $z>0$ and $\alpha$ for $z<0$; at $z=0$ they are generally non-differentiable unless $\alpha=1$, so software uses a subgradient choice.
-- softplus formula ::@:: Softplus can be written as $\zeta(z)=\log(1+e^z)=\log(1+e^{-z})+z$, so it is a smooth approximation to ReLU and an antiderivative of sigmoid.
-- softplus derivative and sigmoid relation ::@:: Softplus is smooth with derivative $\zeta'(z)=\sigma(z)$, so it is directly linked to sigmoid while approximating ReLU.
-- ELU formula, mnemonic, and $\alpha$ intuition ::@:: $\operatorname{ELU}_{\alpha}(z)=\begin{cases}z,&z>0,\\ \alpha(e^z-1),&z\le 0,\end{cases}$ with derivative $1$ for $z>0$ and $\alpha e^z$ for $z<0$; mnemonic: _bend below zero toward a floor_; $\alpha$ controls both the negative saturation level $-\alpha$ and the negative-side slope near zero.
-- rectifier-family recall ::@:: ReLU, leaky ReLU, ELU, and softplus all keep an approximately identity positive side; they differ mainly in how they treat the negative side to balance sparsity, smoothness, and gradient flow.
+- rectifier family overview ::@:: The rectifier family keeps positive-side behavior close to identity while suppressing negative inputs; the term _rectifier_ means turning signed inputs into mostly nonnegative outputs by clipping or attenuating negatives. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- ReLU formula ::@:: ReLU can be written as $\operatorname{ReLU}(z)=\max\{0,z\}=\frac{z+|z|}{2}=z\mathbf{1}[z>0]$, so it is the canonical hard rectifier and the non-smooth relative of softplus. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- ReLU derivative and corner behavior ::@:: ReLU has derivative $1$ for $z>0$ and $0$ for $z<0$; at $z=0$ it is not classically differentiable, so implementations adopt a subgradient convention. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- why ReLU often learns faster ::@:: ReLU has constant positive-side slope and no positive-side saturation, which usually makes hidden-layer optimization easier than with sigmoid-like activations. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- dead-neuron problem ::@:: A ReLU neuron is dead when it stays in the zero-output region for all training examples and therefore receives no useful gradient updates. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- dead-neuron mitigation by bias initialization ::@:: A common mitigation for dead ReLUs is to initialize biases to small positive values so units start slightly active instead of immediately stuck on the zero side. <!--SR:!2026-04-12,4,307!2026-04-12,4,304-->
+- general leaky-ReLU form ::@:: The rectifier family $g(z,\alpha)=\max\{0,z\}+\alpha\min\{0,z\}=\begin{cases}z,&z\ge 0,\\ \alpha z,&z<0,\end{cases}$ becomes leaky ReLU for fixed small $\alpha$ and parametric ReLU when $\alpha$ is learned. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- leaky or parametric ReLU derivative ::@:: Leaky and parametric ReLU have derivative $1$ for $z>0$ and $\alpha$ for $z<0$; at $z=0$ they are generally non-differentiable unless $\alpha=1$, so software uses a subgradient choice. <!--SR:!2026-04-12,4,304!2026-04-12,4,307-->
+- softplus formula ::@:: Softplus can be written as $\zeta(z)=\log(1+e^z)=\log(1+e^{-z})+z$, so it is a smooth approximation to ReLU and an antiderivative of sigmoid. <!--SR:!2026-04-12,4,307!2026-04-12,4,307-->
+- softplus derivative and sigmoid relation ::@:: Softplus is smooth with derivative $\zeta'(z)=\sigma(z)$, so it is directly linked to sigmoid while approximating ReLU. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- ELU formula, mnemonic, and $\alpha$ intuition ::@:: $\operatorname{ELU}_{\alpha}(z)=\begin{cases}z,&z>0,\\ \alpha(e^z-1),&z\le 0,\end{cases}$ with derivative $1$ for $z>0$ and $\alpha e^z$ for $z<0$; mnemonic: _bend below zero toward a floor_; $\alpha$ controls both the negative saturation level $-\alpha$ and the negative-side slope near zero. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- rectifier-family recall ::@:: ReLU, leaky ReLU, ELU, and softplus all keep an approximately identity positive side; they differ mainly in how they treat the negative side to balance sparsity, smoothness, and gradient flow. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
 
 ### smooth and gated modern activations
 
@@ -243,20 +243,20 @@ The key lesson is not that one should memorize an ever-growing zoo of names. Rat
 
 Flashcards for this section are as follows:
 
-- smooth and gated activation overview ::@:: Smooth activations are differentiable and avoid hard corners, while gated activations multiply branches so one branch can modulate the information flow of another.
-- SiLU formula ::@:: SiLU can be written as $\operatorname{SiLU}(z)=z\sigma(z)=z\,\operatorname{softplus}'(z)$, so it is a self-gated linear activation closely related to Swish and softplus.
-- SiLU derivative ::@:: The SiLU derivative is $\operatorname{SiLU}'(z)=\sigma(z)+z\sigma(z)(1-\sigma(z))$.
-- swish activation ::@:: Swish generalizes SiLU as $\operatorname{Swish}_{\beta}(z)=z\sigma(\beta z)$ with fixed or learned $\beta$; the case $\beta=1$ is exactly SiLU.
-- swish derivative ::@:: The Swish derivative is $\sigma(\beta z)+\beta z\sigma(\beta z)(1-\sigma(\beta z))$.
-- Mish formula and derivative ::@:: Mish uses $\operatorname{Mish}(z)=z\tanh(\operatorname{softplus}(z))$ with derivative $\tanh(\operatorname{softplus}(z))+z\,\operatorname{sech}^2(\operatorname{softplus}(z))\sigma(z)$.
-- GELU formula ::@:: GELU uses $\operatorname{GELU}(z)=z\Phi(z)$ and is often approximated by $\frac{z}{2}\bigl(1+\tanh(\sqrt{2/\pi}(z+0.044715z^3))\bigr)$, so it behaves like a Gaussian-smoothed gate.
-- GELU derivative ::@:: The GELU derivative is $\operatorname{GELU}'(z)=\Phi(z)+z\phi(z)$, where $\phi$ is the Gaussian density.
-- Gaussian-CDF logistic approximation ::@:: A useful approximation in deep-learning practice is $\Phi(z)\approx\sigma(1.7z)$.
-- why gated activations are interesting ::@:: Gated activations are interesting because multiplicative control allows input-dependent gain modulation, which can improve conditional routing of information and represent richer feature interactions than a single fixed pointwise nonlinearity.
-- SwiGLU with five learnable scalars ::@:: In scalar form, $\operatorname{SwiGLU}(z)=\operatorname{Swish}_{\beta}(w_1z+b_1)(w_2z+b_2)$ has five learnable parameters $(w_1,b_1,\beta,w_2,b_2)$.
-- SwiGLU special-case collapse ::@:: If $w_1=1$, $b_1=0$, $\beta=1$, $w_2=1$, and $b_2=0$, then $\operatorname{SwiGLU}(z)=\operatorname{Swish}(z)z=z^2\sigma(z)$.
-- SwiGLU derivative ::@:: For $\operatorname{SwiGLU}(z)=\operatorname{Swish}_{\beta}(w_1z+b_1)(w_2z+b_2)$, the derivative is $w_1\operatorname{Swish}_{\beta}'(w_1z+b_1)(w_2z+b_2)+w_2\operatorname{Swish}_{\beta}(w_1z+b_1)$.
-- modern-activation design lesson ::@:: Many modern activations are designed to improve gradient flow, smoothness, mild non-monotonicity, or explicit information gating rather than merely to replace one formula with another.
+- smooth and gated activation overview ::@:: Smooth activations are differentiable and avoid hard corners, while gated activations multiply branches so one branch can modulate the information flow of another. <!--SR:!2026-04-12,4,304!2026-04-12,4,289-->
+- SiLU formula ::@:: SiLU can be written as $\operatorname{SiLU}(z)=z\sigma(z)=z\,\operatorname{softplus}'(z)$, so it is a self-gated linear activation closely related to Swish and softplus. <!--SR:!2026-04-12,4,289!2026-04-12,4,304-->
+- SiLU derivative ::@:: The SiLU derivative is $\operatorname{SiLU}'(z)=\sigma(z)+z\sigma(z)(1-\sigma(z))$. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- swish activation ::@:: Swish generalizes SiLU as $\operatorname{Swish}_{\beta}(z)=z\sigma(\beta z)$ with fixed or learned $\beta$; the case $\beta=1$ is exactly SiLU. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- swish derivative ::@:: The Swish derivative is $\sigma(\beta z)+\beta z\sigma(\beta z)(1-\sigma(\beta z))$. <!--SR:!2026-04-12,4,270!2026-04-12,4,307-->
+- Mish formula and derivative ::@:: Mish uses $\operatorname{Mish}(z)=z\tanh(\operatorname{softplus}(z))$ with derivative $\tanh(\operatorname{softplus}(z))+z\,\operatorname{sech}^2(\operatorname{softplus}(z))\sigma(z)$. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- GELU formula ::@:: GELU uses $\operatorname{GELU}(z)=z\Phi(z)$ and is often approximated by $\frac{z}{2}\bigl(1+\tanh(\sqrt{2/\pi}(z+0.044715z^3))\bigr)$, so it behaves like a Gaussian-smoothed gate. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- GELU derivative ::@:: The GELU derivative is $\operatorname{GELU}'(z)=\Phi(z)+z\phi(z)$, where $\phi$ is the Gaussian density. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- Gaussian-CDF logistic approximation ::@:: A useful approximation in deep-learning practice is $\Phi(z)\approx\sigma(1.7z)$. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- why gated activations are interesting ::@:: Gated activations are interesting because multiplicative control allows input-dependent gain modulation, which can improve conditional routing of information and represent richer feature interactions than a single fixed pointwise nonlinearity. <!--SR:!2026-04-12,4,304!2026-04-12,4,307-->
+- SwiGLU with five learnable scalars ::@:: In scalar form, $\operatorname{SwiGLU}(z)=\operatorname{Swish}_{\beta}(w_1z+b_1)(w_2z+b_2)$ has five learnable parameters $(w_1,b_1,\beta,w_2,b_2)$. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- SwiGLU special-case collapse ::@:: If $w_1=1$, $b_1=0$, $\beta=1$, $w_2=1$, and $b_2=0$, then $\operatorname{SwiGLU}(z)=\operatorname{Swish}(z)z=z^2\sigma(z)$. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- SwiGLU derivative ::@:: For $\operatorname{SwiGLU}(z)=\operatorname{Swish}_{\beta}(w_1z+b_1)(w_2z+b_2)$, the derivative is $w_1\operatorname{Swish}_{\beta}'(w_1z+b_1)(w_2z+b_2)+w_2\operatorname{Swish}_{\beta}(w_1z+b_1)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,304-->
+- modern-activation design lesson ::@:: Many modern activations are designed to improve gradient flow, smoothness, mild non-monotonicity, or explicit information gating rather than merely to replace one formula with another. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
 
 ### activation comparison: theoretical and empirical characteristics
 
@@ -272,11 +272,11 @@ So there is no universally best activation. A compact memory rule is: _sigmoid a
 
 Flashcards for this section are as follows:
 
-- activation-comparison axes ::@:: Common activation-comparison axes are bounded versus unbounded, monotone versus mildly non-monotone, smooth versus piecewise smooth, zero-centered versus not, saturation behavior, computational cost, and empirical training behavior.
-- classical smooth saturators versus rectifiers ::@:: Sigmoid and tanh are bounded smooth saturating activations, whereas ReLU-family activations are mostly unbounded hard rectifiers with better positive-side gradient flow.
-- ReLU-family tradeoff ::@:: ReLU is cheap and empirically strong but can create dead units; leaky ReLU and parametric ReLU trade a small negative slope for more reliable gradient flow.
-- softplus empirical caveat ::@:: Although softplus is a smooth ReLU approximation, many practical hidden-layer setups still find ReLU-family activations stronger in training speed or final performance.
-- modern smooth-or-gated tradeoff ::@:: SiLU, Swish, Mish, GELU, and SwiGLU are smoother or more strongly gated than ReLU and often perform better in modern deep models, though usually with more computation.
+- activation-comparison axes ::@:: Common activation-comparison axes are bounded versus unbounded, monotone versus mildly non-monotone, smooth versus piecewise smooth, zero-centered versus not, saturation behavior, computational cost, and empirical training behavior. <!--SR:!2026-04-12,4,307!2026-04-12,4,270-->
+- classical smooth saturators versus rectifiers ::@:: Sigmoid and tanh are bounded smooth saturating activations, whereas ReLU-family activations are mostly unbounded hard rectifiers with better positive-side gradient flow. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- ReLU-family tradeoff ::@:: ReLU is cheap and empirically strong but can create dead units; leaky ReLU and parametric ReLU trade a small negative slope for more reliable gradient flow. <!--SR:!2026-04-12,4,270!2026-04-12,4,289-->
+- softplus empirical caveat ::@:: Although softplus is a smooth ReLU approximation, many practical hidden-layer setups still find ReLU-family activations stronger in training speed or final performance. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- modern smooth-or-gated tradeoff ::@:: SiLU, Swish, Mish, GELU, and SwiGLU are smoother or more strongly gated than ReLU and often perform better in modern deep models, though usually with more computation. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
 
 ### vanishing-gradient problem
 
@@ -294,12 +294,12 @@ The practical interpretation is that optimization becomes front-heavy: later lay
 
 Flashcards for this section are as follows:
 
-- vanishing-gradient chain-rule form with notation ::@:: Let $L$ be scalar loss, $a^{(\ell)}$ layer activations, $W^{(\ell)}$ layer weights, and $D^{(\ell)}=\operatorname{diag}(g'^{(\ell)}(z^{(\ell)}))$; then recursion of $\nabla_{a^{(\ell-1)}}L=W^{(\ell)}D^{(\ell)}\nabla_{a^{(\ell)}}L$ gives $\nabla_{a^{(0)}}L=\bigl(\prod_{\ell=1}^{L}(W^{(\ell)}D^{(\ell)})\bigr)\nabla_{a^{(L)}}L$.
-- vanishing-gradient norm bound derivation ::@:: Using submultiplicativity $\|AB\|\le\|A\|\|B\|$ on $\|W^{(1)}D^{(1)}\cdots W^{(L)}D^{(L)}\nabla_{a^{(L)}}L\|$ repeatedly yields $\|\nabla_{a^{(0)}}L\|\le\bigl(\prod_{\ell=1}^{L}\|W^{(\ell)}\|\,\|D^{(\ell)}\|\bigr)\|\nabla_{a^{(L)}}L\|$.
-- why sigmoid causes vanishing gradients ::@:: Sigmoid satisfies $0<\sigma'(z)=\sigma(z)(1-\sigma(z))\le 1/4$, and in saturation regions the derivative is much smaller, so repeated chain-rule multiplication can shrink gradients very quickly.
-- tanh versus ReLU for vanishing gradients ::@:: Tanh can still vanish in saturation even though $\tanh'(0)=1$, whereas ReLU avoids positive-side shrinkage because its derivative is $1$ for $z>0$ but can die completely on the negative side.
-- why output-layer vanishing is usually less problematic ::@:: Output-layer saturation is usually less severe than hidden-layer vanishing because there is typically only one output derivative factor, and small output gradients often mean prediction error is already small.
-- practical meaning of vanishing gradients ::@:: Vanishing gradients make optimization front-heavy: late layers update while early representation layers barely move, causing slow learning, plateaus, and weak deep-feature formation.
+- vanishing-gradient chain-rule form with notation ::@:: Let $L$ be scalar loss, $a^{(\ell)}$ layer activations, $W^{(\ell)}$ layer weights, and $D^{(\ell)}=\operatorname{diag}(g'^{(\ell)}(z^{(\ell)}))$; then recursion of $\nabla_{a^{(\ell-1)}}L=W^{(\ell)}D^{(\ell)}\nabla_{a^{(\ell)}}L$ gives $\nabla_{a^{(0)}}L=\bigl(\prod_{\ell=1}^{L}(W^{(\ell)}D^{(\ell)})\bigr)\nabla_{a^{(L)}}L$. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- vanishing-gradient norm bound derivation ::@:: Using submultiplicativity $\|AB\|\le\|A\|\|B\|$ on $\|W^{(1)}D^{(1)}\cdots W^{(L)}D^{(L)}\nabla_{a^{(L)}}L\|$ repeatedly yields $\|\nabla_{a^{(0)}}L\|\le\bigl(\prod_{\ell=1}^{L}\|W^{(\ell)}\|\,\|D^{(\ell)}\|\bigr)\|\nabla_{a^{(L)}}L\|$. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- why sigmoid causes vanishing gradients ::@:: Sigmoid satisfies $0<\sigma'(z)=\sigma(z)(1-\sigma(z))\le 1/4$, and in saturation regions the derivative is much smaller, so repeated chain-rule multiplication can shrink gradients very quickly. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- tanh versus ReLU for vanishing gradients ::@:: Tanh can still vanish in saturation even though $\tanh'(0)=1$, whereas ReLU avoids positive-side shrinkage because its derivative is $1$ for $z>0$ but can die completely on the negative side. <!--SR:!2026-04-12,4,307!2026-04-12,4,307-->
+- why output-layer vanishing is usually less problematic ::@:: Output-layer saturation is usually less severe than hidden-layer vanishing because there is typically only one output derivative factor, and small output gradients often mean prediction error is already small. <!--SR:!2026-04-12,4,307!2026-04-12,4,304-->
+- practical meaning of vanishing gradients ::@:: Vanishing gradients make optimization front-heavy: late layers update while early representation layers barely move, causing slow learning, plateaus, and weak deep-feature formation. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
 
 ## probabilistic outputs and loss functions
 
@@ -313,11 +313,11 @@ The common training principle is negative log-likelihood. If the output head def
 
 Flashcards for this section are as follows:
 
-- hidden representation ::@:: In an FNN, the hidden layers produce a learned representation $h$ that is then passed to a probabilistic output layer.
-- representation-learning split ::@:: In the lecture's probabilistic view, the earlier layers learn $h=f(x)$ and the final layer defines the output distribution $P(y\mid h)$.
-- same backbone, different heads ::@:: The same learned representation $h$ can be paired with different output distributions, such as Gaussian regression heads, Bernoulli sigmoid heads, or categorical softmax heads.
-- FNN versus shallow probabilistic models ::@:: An FNN can be viewed as linear regression, logistic regression, or softmax regression applied after a learned feature transformation rather than directly on the raw input.
-- probabilistic-head training principle ::@:: If the output head defines $p_{\theta}(y\mid h)$, then the standard single-example training loss is negative log-likelihood, $\ell(\theta;x,y)=-\log p_{\theta}(y\mid h(x))$.
+- hidden representation ::@:: In an FNN, the hidden layers produce a learned representation $h$ that is then passed to a probabilistic output layer. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- representation-learning split ::@:: In the lecture's probabilistic view, the earlier layers learn $h=f(x)$ and the final layer defines the output distribution $P(y\mid h)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- same backbone, different heads ::@:: The same learned representation $h$ can be paired with different output distributions, such as Gaussian regression heads, Bernoulli sigmoid heads, or categorical softmax heads. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- FNN versus shallow probabilistic models ::@:: An FNN can be viewed as linear regression, logistic regression, or softmax regression applied after a learned feature transformation rather than directly on the raw input. <!--SR:!2026-04-12,4,289!2026-04-12,4,304-->
+- probabilistic-head training principle ::@:: If the output head defines $p_{\theta}(y\mid h)$, then the standard single-example training loss is negative log-likelihood, $\ell(\theta;x,y)=-\log p_{\theta}(y\mid h(x))$. <!--SR:!2026-04-12,4,270!2026-04-12,4,304-->
 
 ### feature extractor and logits
 
@@ -329,10 +329,10 @@ At this stage, the important structural idea is _where logits live_: they sit ex
 
 Flashcards for this section are as follows:
 
-- final affine head over learned representation ::@:: In an FNN, the logits are the last-layer affine outputs $z=W^\top h+b$, where the affine head acts on the learned representation $h$ rather than directly on the raw input.
-- backbone versus head ::@:: The hidden network acts as a feature extractor or backbone, while the final affine map and output unit form the prediction head.
-- logits as the bridge to prediction ::@:: Logits sit at the interface between representation learning and probabilistic prediction: they are the scores that the output unit converts into a conditional distribution.
-- why the same representation can support different tasks ::@:: A learned representation $h$ can be paired with different output heads, so the same feature extractor can support regression or different kinds of classification.
+- final affine head over learned representation ::@:: In an FNN, the logits are the last-layer affine outputs $z=W^\top h+b$, where the affine head acts on the learned representation $h$ rather than directly on the raw input. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- backbone versus head ::@:: The hidden network acts as a feature extractor or backbone, while the final affine map and output unit form the prediction head. <!--SR:!2026-04-12,4,289!2026-04-12,4,304-->
+- logits as the bridge to prediction ::@:: Logits sit at the interface between representation learning and probabilistic prediction: they are the scores that the output unit converts into a conditional distribution. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- why the same representation can support different tasks ::@:: A learned representation $h$ can be paired with different output heads, so the same feature extractor can support regression or different kinds of classification. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
 
 ### what a logit means
 
@@ -344,12 +344,12 @@ This is why logits are so reusable across models. Linear regression uses a raw a
 
 Flashcards for this section are as follows:
 
-- what a logit means ::@:: A logit is a pre-normalization score on the log-probability scale: in binary models it is the exact log-odds, and in softmax models it is an unnormalized log-probability score.
-- binary logit identity ::@:: If $p=\sigma(z)$, then $\log\frac{p}{1-p}=z$, so the sigmoid-output score is literally the binary logit.
-- binary logit odds-interpretation ::@:: In binary logistic models, increasing logit $z$ by $1$ multiplies odds $p/(1-p)$ by $e$, so logits measure additive changes on the log-odds scale.
-- softmax-logit identity ::@:: In softmax, $\log p_k = z_k-\log\sum_c e^{z_c}$, so each class logit is an unnormalized log-probability differing from the true log-probability by a shared normalization term.
-- softmax relative-score interpretation ::@:: Softmax probabilities depend on relative logits: adding the same constant to all $z_k$ does not change $p_k$, so only score differences matter.
-- logits across simple and deep models ::@:: Linear regression, logistic regression, softmax regression, and feedforward neural networks all use raw affine scores; the deep model differs mainly because the features fed into the score are learned.
+- what a logit means ::@:: A logit is a pre-normalization score on the log-probability scale: in binary models it is the exact log-odds, and in softmax models it is an unnormalized log-probability score. <!--SR:!2026-04-12,4,307!2026-04-12,4,307-->
+- binary logit identity ::@:: If $p=\sigma(z)$, then $\log\frac{p}{1-p}=z$, so the sigmoid-output score is literally the binary logit. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- binary logit odds-interpretation ::@:: In binary logistic models, increasing logit $z$ by $1$ multiplies odds $p/(1-p)$ by $e$, so logits measure additive changes on the log-odds scale. <!--SR:!2026-04-12,4,289!2026-04-12,4,304-->
+- softmax-logit identity ::@:: In softmax, $\log p_k = z_k-\log\sum_c e^{z_c}$, so each class logit is an unnormalized log-probability differing from the true log-probability by a shared normalization term. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- softmax relative-score interpretation ::@:: Softmax probabilities depend on relative logits: adding the same constant to all $z_k$ does not change $p_k$, so only score differences matter. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- logits across simple and deep models ::@:: Linear regression, logistic regression, softmax regression, and feedforward neural networks all use raw affine scores; the deep model differs mainly because the features fed into the score are learned. <!--SR:!2026-04-12,4,307!2026-04-12,4,307-->
 
 ### linear-Gaussian output for regression
 
@@ -365,11 +365,11 @@ So squared-error losses are not arbitrary penalties pasted onto neural-network r
 
 Flashcards for this section are as follows:
 
-- linear-Gaussian output unit ::@:: For real-valued targets, the linear-Gaussian head assumes $y\mid x \sim \mathcal{N}(z,\sigma^2)$, so the last-layer score $z$ plays the role of the predicted mean.
-- linear activation in linear-Gaussian head ::@:: In a linear-Gaussian output unit, the output activation is identity $g_{\text{out}}(z)=z$, so the network score is used directly as the Gaussian mean.
-- linear-Gaussian loss derivation ::@:: From $p(y\mid z)=\frac{1}{\sqrt{2\pi\sigma^2}}\exp\bigl(-\frac{(y-z)^2}{2\sigma^2}\bigr)$, one sample gives $-\log p(y\mid z)=\frac{(y-z)^2}{2\sigma^2}+\frac{1}{2}\log(2\pi\sigma^2)$, and summing over data gives $\sum_i\frac{(y_i-z_i)^2}{2\sigma^2}+\frac{N}{2}\log(2\pi\sigma^2)$.
-- why $\tfrac{1}{2}(y-z)^2$ is commonly used ::@:: With fixed $\sigma$, additive constants and positive scale factors from Gaussian NLL can be dropped, and using $\ell=\tfrac{1}{2}(y-z)^2$ is convenient because $\partial\ell/\partial z=z-y$ has no extra factor $2$.
-- role of the logit in Gaussian regression head ::@:: In a Gaussian regression head, the logit $z$ is not a log-odds; it is simply the predicted mean score, just as in ordinary linear regression.
+- linear-Gaussian output unit ::@:: For real-valued targets, the linear-Gaussian head assumes $y\mid x \sim \mathcal{N}(z,\sigma^2)$, so the last-layer score $z$ plays the role of the predicted mean. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- linear activation in linear-Gaussian head ::@:: In a linear-Gaussian output unit, the output activation is identity $g_{\text{out}}(z)=z$, so the network score is used directly as the Gaussian mean. <!--SR:!2026-04-12,4,304!2026-04-12,4,289-->
+- linear-Gaussian loss derivation ::@:: From $p(y\mid z)=\frac{1}{\sqrt{2\pi\sigma^2}}\exp\bigl(-\frac{(y-z)^2}{2\sigma^2}\bigr)$, one sample gives $-\log p(y\mid z)=\frac{(y-z)^2}{2\sigma^2}+\frac{1}{2}\log(2\pi\sigma^2)$, and summing over data gives $\sum_i\frac{(y_i-z_i)^2}{2\sigma^2}+\frac{N}{2}\log(2\pi\sigma^2)$. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- why $\tfrac{1}{2}(y-z)^2$ is commonly used ::@:: With fixed $\sigma$, additive constants and positive scale factors from Gaussian NLL can be dropped, and using $\ell=\tfrac{1}{2}(y-z)^2$ is convenient because $\partial\ell/\partial z=z-y$ has no extra factor $2$. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- role of the logit in Gaussian regression head ::@:: In a Gaussian regression head, the logit $z$ is not a log-odds; it is simply the predicted mean score, just as in ordinary linear regression. <!--SR:!2026-04-12,4,270!2026-04-12,4,307-->
 
 ### sigmoid output for binary classification
 
@@ -383,12 +383,12 @@ The lecture makes an important distinction here. Sigmoid units are often a poor 
 
 Flashcards for this section are as follows:
 
-- binary output model in an FNN ::@:: For one binary target, an FNN can use $P(y\mid x)=\operatorname{Ber}(y\mid \sigma(z))$ with scalar logit $z$.
-- binary cross entropy from sigmoid output ::@:: From the Bernoulli model $p(y\mid z)=\sigma(z)^y(1-\sigma(z))^{1-y}$, the negative log-likelihood becomes $-\bigl(y\log \sigma(z)+(1-y)\log(1-\sigma(z))\bigr)$.
-- sigmoid head versus logistic regression ::@:: A sigmoid output layer in an FNN uses exactly the same Bernoulli likelihood and binary cross-entropy loss as logistic regression; only the features defining $z$ change from raw $x$ to learned $h$.
-- why sigmoid is acceptable at the output layer ::@:: Sigmoid is acceptable as an output unit because the negative log-likelihood supplies a useful supervised signal even though sigmoid is problematic as a hidden-layer activation.
-- sigmoid output-gradient formula ::@:: For Bernoulli negative log-likelihood, the output-logit gradient is $\partial\ell/\partial z=\sigma(z)-y$, so near-correct predictions naturally contribute small gradient.
-- interpretation of $\sigma(z)-y \approx 0$ ::@:: Having $\sigma(z)-y \approx 0$ means the output probability closely matches the true binary label.
+- binary output model in an FNN ::@:: For one binary target, an FNN can use $P(y\mid x)=\operatorname{Ber}(y\mid \sigma(z))$ with scalar logit $z$. <!--SR:!2026-04-12,4,307!2026-04-12,4,307-->
+- binary cross entropy from sigmoid output ::@:: From the Bernoulli model $p(y\mid z)=\sigma(z)^y(1-\sigma(z))^{1-y}$, the negative log-likelihood becomes $-\bigl(y\log \sigma(z)+(1-y)\log(1-\sigma(z))\bigr)$. <!--SR:!2026-04-12,4,307!2026-04-12,4,270-->
+- sigmoid head versus logistic regression ::@:: A sigmoid output layer in an FNN uses exactly the same Bernoulli likelihood and binary cross-entropy loss as logistic regression; only the features defining $z$ change from raw $x$ to learned $h$. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- why sigmoid is acceptable at the output layer ::@:: Sigmoid is acceptable as an output unit because the negative log-likelihood supplies a useful supervised signal even though sigmoid is problematic as a hidden-layer activation. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- sigmoid output-gradient formula ::@:: For Bernoulli negative log-likelihood, the output-logit gradient is $\partial\ell/\partial z=\sigma(z)-y$, so near-correct predictions naturally contribute small gradient. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- interpretation of $\sigma(z)-y \approx 0$ ::@:: Having $\sigma(z)-y \approx 0$ means the output probability closely matches the true binary label. <!--SR:!2026-04-12,4,307!2026-04-12,4,304-->
 
 ### softmax output for multiclass classification
 
@@ -402,11 +402,11 @@ Again, the difference from the simpler model is not the head but the representat
 
 Flashcards for this section are as follows:
 
-- softmax output formula ::@:: For multiclass targets, the softmax head uses $P(y=k\mid x)=\frac{e^{z_k}}{\sum_{c=1}^C e^{z_c}}$.
-- why softmax defines a categorical distribution ::@:: Softmax outputs are nonnegative and sum to one, so they define a valid categorical distribution over classes.
-- multiclass cross entropy general and one-hot cases ::@:: For target distribution $r$, categorical NLL is $\ell=-\sum_{k=1}^{C} r_k\log p_k = -\sum_{c=1}^{C} r_c z_c + \log\sum_{c=1}^{C} e^{z_c}$; with one-hot $t$ this reduces to $-\log p_y=-z_y+\log\sum_{c=1}^{C} e^{z_c}$, the same as softmax regression.
-- softmax output-gradient formula ::@:: For softmax cross entropy with general target $r$, $\partial\ell/\partial z_k=p_k-r_k$ (one-hot special case $p_k-t_k$). Note this expression is a vector of length $C$, the number of classes.
-- deep-classifier interpretation ::@:: A deep multiclass classifier can be understood as a learned feature transformation followed by a softmax regression head.
+- softmax output formula ::@:: For multiclass targets, the softmax head uses $P(y=k\mid x)=\frac{e^{z_k}}{\sum_{c=1}^C e^{z_c}}$. <!--SR:!2026-04-12,4,270!2026-04-12,4,289-->
+- why softmax defines a categorical distribution ::@:: Softmax outputs are nonnegative and sum to one, so they define a valid categorical distribution over classes. <!--SR:!2026-04-12,4,304!2026-04-12,4,304-->
+- multiclass cross entropy general and one-hot cases ::@:: For target distribution $r$, categorical NLL is $\ell=-\sum_{k=1}^{C} r_k\log p_k = -\sum_{c=1}^{C} r_c z_c + \log\sum_{c=1}^{C} e^{z_c}$; with one-hot $t$ this reduces to $-\log p_y=-z_y+\log\sum_{c=1}^{C} e^{z_c}$, the same as softmax regression. <!--SR:!2026-04-12,4,304!2026-04-12,4,270-->
+- softmax output-gradient formula ::@:: For softmax cross entropy with general target $r$, $\partial\ell/\partial z_k=p_k-r_k$ (one-hot special case $p_k-t_k$). Note this expression is a vector of length $C$, the number of classes. <!--SR:!2026-04-12,4,289!2026-04-12,4,304-->
+- deep-classifier interpretation ::@:: A deep multiclass classifier can be understood as a learned feature transformation followed by a softmax regression head. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
 
 ## backpropagation
 
@@ -420,11 +420,11 @@ Conceptually, backpropagation is not a new objective; it is the differentiation 
 
 Flashcards for this section are as follows:
 
-- backpropagation purpose ::@:: Backpropagation computes the gradients of the loss with respect to all network parameters efficiently.
-- why backpropagation is efficient ::@:: It reuses intermediate derivative information instead of differentiating each parameter independently from scratch.
-- backpropagation stage mnemonic ::@:: A useful mnemonic is _store, compare, blame, update_: store forward activations, compare prediction with target, send blame backward, then update parameters from the resulting gradients.
-- backpropagation versus objective ::@:: Backpropagation is the gradient-computation procedure, not the loss function itself.
-- why deep learning needs backpropagation ::@:: Without backpropagation, training multilayer networks by gradient-based methods would be computationally impractical.
+- backpropagation purpose ::@:: Backpropagation computes the gradients of the loss with respect to all network parameters efficiently. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- why backpropagation is efficient ::@:: It reuses intermediate derivative information instead of differentiating each parameter independently from scratch. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- backpropagation stage mnemonic ::@:: A useful mnemonic is _store, compare, blame, update_: store forward activations, compare prediction with target, send blame backward, then update parameters from the resulting gradients. <!--SR:!2026-04-12,4,289!2026-04-12,4,304-->
+- backpropagation versus objective ::@:: Backpropagation is the gradient-computation procedure, not the loss function itself. <!--SR:!2026-04-12,4,304!2026-04-12,4,307-->
+- why deep learning needs backpropagation ::@:: Without backpropagation, training multilayer networks by gradient-based methods would be computationally impractical. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 
 ### chain rule and local error signals
 
@@ -446,12 +446,12 @@ A quick scalar worked example: let $z=wa+b$ with $a=2$, $w=0.5$, $b=0.1$, and su
 
 Flashcards for this section are as follows:
 
-- why the chain rule is central ::@:: Backpropagation is a repeated application of the chain rule to the layered composition defining the network.
-- local error signal $\delta = \frac{\partial L}{\partial z}$ ::@:: A backpropagation error signal measures how sensitive the loss is to the pre-activation of a unit.
-- weight-gradient derivation from local error ::@:: If $z_j^{(\ell)}=\sum_i W_{ij}^{(\ell)}a_i^{(\ell-1)}+b_j^{(\ell)}$ and $\delta_j^{(\ell)}=\partial L/\partial z_j^{(\ell)}$, then $\partial L/\partial W_{ij}^{(\ell)}=a_i^{(\ell-1)}\delta_j^{(\ell)}$.
-- bias-gradient derivation from local error ::@:: With $z_j^{(\ell)}=\sum_i W_{ij}^{(\ell)}a_i^{(\ell-1)}+b_j^{(\ell)}$ and $\delta_j^{(\ell)}=\partial L/\partial z_j^{(\ell)}$, we get $\partial L/\partial b_j^{(\ell)}=\delta_j^{(\ell)}$ because $\partial z_j^{(\ell)}/\partial b_j^{(\ell)}=1$.
-- backward-propagation derivation from local error ::@:: With the same notation, $\partial L/\partial a_i^{(\ell-1)}=\sum_j W_{ij}^{(\ell)}\delta_j^{(\ell)}$, so local errors are exactly the quantities needed to propagate blame backward.
-- given $z=wa+b$ with $a=2$, $w=0.5$, and downstream $\delta=\partial L/\partial z=-0.3$, compute $\partial L/\partial w$, $\partial L/\partial b$, and $\partial L/\partial a$ ::@:: We get $\partial L/\partial w=a\delta=-0.6$, $\partial L/\partial b=\delta=-0.3$, and $\partial L/\partial a=w\delta=-0.15$.
+- why the chain rule is central ::@:: Backpropagation is a repeated application of the chain rule to the layered composition defining the network. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- local error signal $\delta = \frac{\partial L}{\partial z}$ ::@:: A backpropagation error signal measures how sensitive the loss is to the pre-activation of a unit. <!--SR:!2026-04-12,4,304!2026-04-12,4,289-->
+- weight-gradient derivation from local error ::@:: If $z_j^{(\ell)}=\sum_i W_{ij}^{(\ell)}a_i^{(\ell-1)}+b_j^{(\ell)}$ and $\delta_j^{(\ell)}=\partial L/\partial z_j^{(\ell)}$, then $\partial L/\partial W_{ij}^{(\ell)}=a_i^{(\ell-1)}\delta_j^{(\ell)}$. <!--SR:!2026-04-12,4,304!2026-04-12,4,307-->
+- bias-gradient derivation from local error ::@:: With $z_j^{(\ell)}=\sum_i W_{ij}^{(\ell)}a_i^{(\ell-1)}+b_j^{(\ell)}$ and $\delta_j^{(\ell)}=\partial L/\partial z_j^{(\ell)}$, we get $\partial L/\partial b_j^{(\ell)}=\delta_j^{(\ell)}$ because $\partial z_j^{(\ell)}/\partial b_j^{(\ell)}=1$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- backward-propagation derivation from local error ::@:: With the same notation, $\partial L/\partial a_i^{(\ell-1)}=\sum_j W_{ij}^{(\ell)}\delta_j^{(\ell)}$, so local errors are exactly the quantities needed to propagate blame backward. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- given $z=wa+b$ with $a=2$, $w=0.5$, and downstream $\delta=\partial L/\partial z=-0.3$, compute $\partial L/\partial w$, $\partial L/\partial b$, and $\partial L/\partial a$ ::@:: We get $\partial L/\partial w=a\delta=-0.6$, $\partial L/\partial b=\delta=-0.3$, and $\partial L/\partial a=w\delta=-0.15$. <!--SR:!2026-04-12,4,289!2026-04-12,4,304-->
 
 ### repeated transposed-Jacobian viewpoint
 
@@ -473,12 +473,12 @@ This viewpoint also links directly to the existing $\delta$ formulas. The usual 
 
 Flashcards for this section are as follows:
 
-- repeated transposed-Jacobian viewpoint ::@:: If $a^{(\ell)}=\Psi_{\ell}(a^{(\ell-1)})$, then backpropagation uses $\nabla_{a^{(\ell-1)}}L = J_{\Psi_{\ell}}(a^{(\ell-1)})^\top \nabla_{a^{(\ell)}}L$, so the backward pass is repeated application of transposed local Jacobians in reverse order.
-- matrix form of local backpropagation ::@:: For one layer, the local error is $\delta^{(\ell)}=g'^{(\ell)}(z^{(\ell)})\odot \nabla_{a^{(\ell)}}L$ and the previous-layer gradient is $\nabla_{a^{(\ell-1)}}L=W^{(\ell)}\delta^{(\ell)}$.
-- notation in the Jacobian viewpoint ::@:: In $\nabla_{a^{(\ell-1)}}L = J_{\Psi_{\ell}}(a^{(\ell-1)})^\top \nabla_{a^{(\ell)}}L$, $\Psi_{\ell}:\mathbb R^{n_{\ell-1}}\to\mathbb R^{n_{\ell}}$ is the layer map and $J_{\Psi_{\ell}}$ is its local Jacobian matrix.
-- given $W=\begin{bmatrix}1&2\\0&1\end{bmatrix}$, $D=\operatorname{diag}(0.5,0.1)$, and upstream gradient $\nabla_{a^{(\ell)}}L=\begin{bmatrix}0.4\\-0.2\end{bmatrix}$, compute $\delta=D\nabla_{a^{(\ell)}}L$ and $\nabla_{a^{(\ell-1)}}L=W\delta$ ::@:: We get $\delta=\begin{bmatrix}0.2\\-0.02\end{bmatrix}$ and $\nabla_{a^{(\ell-1)}}L=\begin{bmatrix}0.16\\-0.02\end{bmatrix}$.
-- forward-backward mnemonic ::@:: A useful symmetry mnemonic is _forward: mix, shift, bend, repeat; backward: compare, slope, unmix, repeat_.
-- local-error view versus Jacobian view ::@:: The local-error recursion with $\delta$ and the repeated-transposed-Jacobian view are the same backpropagation algorithm written in coordinate form versus matrix form.
+- repeated transposed-Jacobian viewpoint ::@:: If $a^{(\ell)}=\Psi_{\ell}(a^{(\ell-1)})$, then backpropagation uses $\nabla_{a^{(\ell-1)}}L = J_{\Psi_{\ell}}(a^{(\ell-1)})^\top \nabla_{a^{(\ell)}}L$, so the backward pass is repeated application of transposed local Jacobians in reverse order. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- matrix form of local backpropagation ::@:: For one layer, the local error is $\delta^{(\ell)}=g'^{(\ell)}(z^{(\ell)})\odot \nabla_{a^{(\ell)}}L$ and the previous-layer gradient is $\nabla_{a^{(\ell-1)}}L=W^{(\ell)}\delta^{(\ell)}$. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- notation in the Jacobian viewpoint ::@:: In $\nabla_{a^{(\ell-1)}}L = J_{\Psi_{\ell}}(a^{(\ell-1)})^\top \nabla_{a^{(\ell)}}L$, $\Psi_{\ell}:\mathbb R^{n_{\ell-1}}\to\mathbb R^{n_{\ell}}$ is the layer map and $J_{\Psi_{\ell}}$ is its local Jacobian matrix. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- given $W=\begin{bmatrix}1&2\\0&1\end{bmatrix}$, $D=\operatorname{diag}(0.5,0.1)$, and upstream gradient $\nabla_{a^{(\ell)}}L=\begin{bmatrix}0.4\\-0.2\end{bmatrix}$, compute $\delta=D\nabla_{a^{(\ell)}}L$ and $\nabla_{a^{(\ell-1)}}L=W\delta$ ::@:: We get $\delta=\begin{bmatrix}0.2\\-0.02\end{bmatrix}$ and $\nabla_{a^{(\ell-1)}}L=\begin{bmatrix}0.16\\-0.02\end{bmatrix}$. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- forward-backward mnemonic ::@:: A useful symmetry mnemonic is _forward: mix, shift, bend, repeat; backward: compare, slope, unmix, repeat_. <!--SR:!2026-04-12,4,307!2026-04-12,4,289-->
+- local-error view versus Jacobian view ::@:: The local-error recursion with $\delta$ and the repeated-transposed-Jacobian view are the same backpropagation algorithm written in coordinate form versus matrix form. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
 
 ### output-layer derivatives
 
@@ -494,12 +494,12 @@ A tiny numeric binary example: if $u=0.8$, $y=1$, and current output is $\hat y=
 
 Flashcards for this section are as follows:
 
-- output-layer error term ::@:: At the output layer, a standard backpropagation error term is $\delta_k = \frac{\partial L}{\partial z_k}$.
-- output-layer weight gradient ::@:: If $u_j$ feeds output unit $k$, then $\frac{\partial L}{\partial W_{kj}} = u_j\delta_k$.
-- output-layer gradient interpretation ::@:: A neural-network output-layer weight gradient is _incoming activation times local blame_: the activation says how much signal arrived, and $\delta_k$ says how harmful or helpful that unit's pre-activation was for the loss.
-- common output-layer delta formulas ::@:: For sigmoid plus binary cross entropy, $\delta=\sigma(z)-y$; for softmax plus multiclass cross entropy with target $r$, $\delta_k=p_k-r_k$.
-- bias gradient at the output layer ::@:: Because $\partial z_k/\partial b_k=1$, the bias gradient at an output unit is just the local error: $\partial L/\partial b_k=\delta_k$.
-- given binary output with incoming activation $u=0.8$, prediction $\hat y=0.7$, and label $y=1$, compute $\delta=\hat y-y$, $\partial\ell/\partial W=u\delta$, and $\partial\ell/\partial b$ ::@:: We get $\delta=-0.3$, $\partial\ell/\partial W=-0.24$, and $\partial\ell/\partial b=-0.3$.
+- output-layer error term ::@:: At the output layer, a standard backpropagation error term is $\delta_k = \frac{\partial L}{\partial z_k}$. <!--SR:!2026-04-12,4,304!2026-04-12,4,289-->
+- output-layer weight gradient ::@:: If $u_j$ feeds output unit $k$, then $\frac{\partial L}{\partial W_{kj}} = u_j\delta_k$. <!--SR:!2026-04-12,4,307!2026-04-12,4,270-->
+- output-layer gradient interpretation ::@:: A neural-network output-layer weight gradient is _incoming activation times local blame_: the activation says how much signal arrived, and $\delta_k$ says how harmful or helpful that unit's pre-activation was for the loss. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- common output-layer delta formulas ::@:: For sigmoid plus binary cross entropy, $\delta=\sigma(z)-y$; for softmax plus multiclass cross entropy with target $r$, $\delta_k=p_k-r_k$. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- bias gradient at the output layer ::@:: Because $\partial z_k/\partial b_k=1$, the bias gradient at an output unit is just the local error: $\partial L/\partial b_k=\delta_k$. <!--SR:!2026-04-12,4,270!2026-04-12,4,307-->
+- given binary output with incoming activation $u=0.8$, prediction $\hat y=0.7$, and label $y=1$, compute $\delta=\hat y-y$, $\partial\ell/\partial W=u\delta$, and $\partial\ell/\partial b$ ::@:: We get $\delta=-0.3$, $\partial\ell/\partial W=-0.24$, and $\partial\ell/\partial b=-0.3$. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
 
 ### hidden-layer derivatives
 
@@ -517,13 +517,13 @@ The resulting hidden error term can then be used exactly like an output-layer er
 
 Flashcards for this section are as follows:
 
-- why hidden layers need backward propagation ::@:: Hidden units affect the loss only indirectly through later layers, so their error signals must be computed from downstream error terms.
-- hidden-layer backprop formula ::@:: If unit $j$ at layer $\ell$ feeds units $k$ in layer $\ell+1$, then $\delta_j^{(\ell)}=g'(z_j^{(\ell)})\sum_k W_{jk}^{(\ell+1)}\delta_k^{(\ell+1)}$.
-- hidden-layer backprop idea ::@:: A hidden-layer error term is obtained by weighting downstream errors by the relevant outgoing weights and multiplying by the local activation derivative, so hidden blame is downstream blame pulled back through one layer.
-- role of $g'(z_j)$ in hidden-layer backprop ::@:: The factor $g'(z_j)$ tells how strongly changes in the hidden pre-activation change that hidden unit's output.
-- hidden-layer vector recursion and bias gradient ::@:: In vector form, $\delta^{(\ell)}=D^{(\ell)}(W^{(\ell+1)}\delta^{(\ell+1)})$, then $\nabla_{W^{(\ell)}}L=a^{(\ell-1)}(\delta^{(\ell)})^\top$ and $\nabla_{b^{(\ell)}}L=\delta^{(\ell)}$.
-- given hidden unit with outgoing weights $(2,-1)$, downstream deltas $(0.3,-0.1)$, local derivative $g'(z_j)=0.25$, and incoming activation $a_i=0.8$, compute $\delta_j$, $\partial L/\partial W_{ij}$, and $\partial L/\partial b_j$ ::@:: We get $\delta_j=0.25(2\cdot0.3+(-1)\cdot(-0.1))=0.175$, then $\partial L/\partial W_{ij}=a_i\delta_j=0.14$ and $\partial L/\partial b_j=0.175$.
-- backpropagation as derivative dynamic programming ::@:: Backpropagation is efficient because it reuses downstream derivative information recursively instead of recomputing every chain-rule path from scratch.
+- why hidden layers need backward propagation ::@:: Hidden units affect the loss only indirectly through later layers, so their error signals must be computed from downstream error terms. <!--SR:!2026-04-12,4,304!2026-04-12,4,307-->
+- hidden-layer backprop formula ::@:: If unit $j$ at layer $\ell$ feeds units $k$ in layer $\ell+1$, then $\delta_j^{(\ell)}=g'(z_j^{(\ell)})\sum_k W_{jk}^{(\ell+1)}\delta_k^{(\ell+1)}$. <!--SR:!2026-04-12,4,304!2026-04-12,4,270-->
+- hidden-layer backprop idea ::@:: A hidden-layer error term is obtained by weighting downstream errors by the relevant outgoing weights and multiplying by the local activation derivative, so hidden blame is downstream blame pulled back through one layer. <!--SR:!2026-04-12,4,289!2026-04-12,4,270-->
+- role of $g'(z_j)$ in hidden-layer backprop ::@:: The factor $g'(z_j)$ tells how strongly changes in the hidden pre-activation change that hidden unit's output. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- hidden-layer vector recursion and bias gradient ::@:: In vector form, $\delta^{(\ell)}=D^{(\ell)}(W^{(\ell+1)}\delta^{(\ell+1)})$, then $\nabla_{W^{(\ell)}}L=a^{(\ell-1)}(\delta^{(\ell)})^\top$ and $\nabla_{b^{(\ell)}}L=\delta^{(\ell)}$. <!--SR:!2026-04-12,4,289!2026-04-12,4,307-->
+- given hidden unit with outgoing weights $(2,-1)$, downstream deltas $(0.3,-0.1)$, local derivative $g'(z_j)=0.25$, and incoming activation $a_i=0.8$, compute $\delta_j$, $\partial L/\partial W_{ij}$, and $\partial L/\partial b_j$ ::@:: We get $\delta_j=0.25(2\cdot0.3+(-1)\cdot(-0.1))=0.175$, then $\partial L/\partial W_{ij}=a_i\delta_j=0.14$ and $\partial L/\partial b_j=0.175$. <!--SR:!2026-04-12,4,307!2026-04-12,4,307-->
+- backpropagation as derivative dynamic programming ::@:: Backpropagation is efficient because it reuses downstream derivative information recursively instead of recomputing every chain-rule path from scratch. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
 
 ### algorithm and implementation notes
 
@@ -545,13 +545,13 @@ The final practical lesson is interpretive as well as computational. Backpropaga
 
 Flashcards for this section are as follows:
 
-- two-stage backpropagation algorithm ::@:: Backpropagation proceeds by first running a forward pass to store activations and pre-activations, then a backward pass to compute output errors, propagate them backward, and assemble gradients.
-- why SGD naturally pairs with backpropagation ::@:: Backpropagation provides the gradients needed by gradient-descent and stochastic-gradient-descent updates of network parameters.
-- per-sample, minibatch, and full-batch updates ::@:: Per-sample SGD uses $B=1$, minibatch SGD uses $1<B<N$, and full-batch gradient descent uses $B=N$.
-- averaged minibatch update rule ::@:: A common update is $\theta\leftarrow\theta-\eta\,\frac{1}{B}\sum_{i\in\mathcal B}\nabla_{\theta}\ell_i$, where averaging by $B$ keeps gradient scale more stable across batch sizes.
-- why divide by batch size ::@:: Dividing minibatch gradients by $B$ avoids implicit scaling of update magnitude with batch size; using summed gradients is equivalent only if the learning rate is rescaled accordingly.
-- tensors in deep-learning frameworks ::@:: Deep-learning frameworks store parameters and activations in tensors, meaning multidimensional arrays with shapes such as $(B,D)$, $(B,C,H,W)$, or $(B,T,D)$, so forward and backward computations can be carried out efficiently in bulk.
-- what a 1-D and 2-D tensor represent ::@:: A 1-D tensor is a vector, a 2-D tensor is a matrix, and higher-order tensors store structured batches such as images, sequences, or feature maps.
-- backpropagation interpretation ::@:: Backpropagation can be interpreted as systematic blame assignment: compare prediction with target at the output, assign local blame to each unit, and convert that blame into parameter gradients.
-- practical demo lesson about activations ::@:: The lecture demonstrations suggest that ReLU units are often easier to learn than sigmoid or tanh units in deep feedforward networks.
-- practical demo lesson about depth and learning rate ::@:: The demonstration slides emphasize that deeper structure can help but the learning rate still needs careful adjustment during training.
+- two-stage backpropagation algorithm ::@:: Backpropagation proceeds by first running a forward pass to store activations and pre-activations, then a backward pass to compute output errors, propagate them backward, and assemble gradients. <!--SR:!2026-04-12,4,270!2026-04-12,4,307-->
+- why SGD naturally pairs with backpropagation ::@:: Backpropagation provides the gradients needed by gradient-descent and stochastic-gradient-descent updates of network parameters. <!--SR:!2026-04-12,4,304!2026-04-12,4,270-->
+- per-sample, minibatch, and full-batch updates ::@:: Per-sample SGD uses $B=1$, minibatch SGD uses $1<B<N$, and full-batch gradient descent uses $B=N$. <!--SR:!2026-04-12,4,304!2026-04-12,4,289-->
+- averaged minibatch update rule ::@:: A common update is $\theta\leftarrow\theta-\eta\,\frac{1}{B}\sum_{i\in\mathcal B}\nabla_{\theta}\ell_i$, where averaging by $B$ keeps gradient scale more stable across batch sizes. <!--SR:!2026-04-12,4,289!2026-04-12,4,304-->
+- why divide by batch size ::@:: Dividing minibatch gradients by $B$ avoids implicit scaling of update magnitude with batch size; using summed gradients is equivalent only if the learning rate is rescaled accordingly. <!--SR:!2026-04-12,4,307!2026-04-12,4,270-->
+- tensors in deep-learning frameworks ::@:: Deep-learning frameworks store parameters and activations in tensors, meaning multidimensional arrays with shapes such as $(B,D)$, $(B,C,H,W)$, or $(B,T,D)$, so forward and backward computations can be carried out efficiently in bulk. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- what a 1-D and 2-D tensor represent ::@:: A 1-D tensor is a vector, a 2-D tensor is a matrix, and higher-order tensors store structured batches such as images, sequences, or feature maps. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- backpropagation interpretation ::@:: Backpropagation can be interpreted as systematic blame assignment: compare prediction with target at the output, assign local blame to each unit, and convert that blame into parameter gradients. <!--SR:!2026-04-12,4,270!2026-04-12,4,289-->
+- practical demo lesson about activations ::@:: The lecture demonstrations suggest that ReLU units are often easier to learn than sigmoid or tanh units in deep feedforward networks. <!--SR:!2026-04-12,4,289!2026-04-12,4,289-->
+- practical demo lesson about depth and learning rate ::@:: The demonstration slides emphasize that deeper structure can help but the learning rate still needs careful adjustment during training. <!--SR:!2026-04-12,4,270!2026-04-12,4,289-->
