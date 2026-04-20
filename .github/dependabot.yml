@@ -25,6 +25,10 @@ updates:
       bun:
         patterns:
           - "*"
+      bun-security:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
     exclude-paths:
       # Meant to be vulnerable
       - "special/academia/HKUST/COMP 3633/presentation 10/examples"
@@ -45,6 +49,10 @@ updates:
       github-actions:
         patterns:
           - "*"
+      github-actions-security:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
     registries:
       # Make all submodules clone successfully
       - github-private
@@ -62,6 +70,10 @@ updates:
       gitsubmodule:
         patterns:
           - "*"
+      gitsubmodule-security:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
     registries:
       # Make all submodules clone successfully
       - github-private
@@ -77,6 +89,10 @@ updates:
       include: "scope"
     groups:
       npm:
+        patterns:
+          - "*"
+      npm-security:
+        applies-to: "security-updates"
         patterns:
           - "*"
     exclude-paths:
@@ -97,6 +113,10 @@ updates:
       include: "scope"
     groups:
       uv:
+        patterns:
+          - "*"
+      uv-security:
+        applies-to: "security-updates"
         patterns:
           - "*"
     exclude-paths:
