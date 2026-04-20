@@ -150,6 +150,6 @@ pytextgen = { path = "tools/pytextgen" }
 
 [tool.uv.workspace]
 members = [
-  "private/special/academia/HKUST/COMP 2211",
-  "private/special/academia/HKUST/COMP 3211",
+  "special/academia/HKUST/COMP 2211",
+  "special/academia/HKUST/COMP 3211",
 ] # Do not use for submodules, otherwise `uv.lock` in children packages will be ignored.

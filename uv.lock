@@ -660,7 +660,7 @@ wheels = [
 [[package]]
 name = "hkust-comp-2211-4d8fbebf-9d5a-4915-bcd3-56445eaea66e"
 version = "0.0.0"
-source = { virtual = "private/special/academia/HKUST/COMP 2211" }
+source = { virtual = "special/academia/HKUST/COMP 2211" }
 dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
@@ -685,7 +685,7 @@ requires-dist = [
 [[package]]
 name = "hkust-comp-3211-1ad6d516-e1d3-40f5-94ed-59600c883158"
 version = "0.0.0"
-source = { virtual = "private/special/academia/HKUST/COMP 3211" }
+source = { virtual = "special/academia/HKUST/COMP 3211" }
 dependencies = [
     { name = "numpy" },
     { name = "pygame" },
