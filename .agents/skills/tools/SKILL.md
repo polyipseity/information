@@ -51,7 +51,7 @@ The `tools/` directory contains all helper scripts and utilities:
 - **`tools/special/`**: Academic LMS converters and course management (see `tools-special` skill)
   - Canvas/HKUST Zinc converters
   - Course catalog fetchers
-  
+
 - **`tools/templates/`**: Note scaffolding and pytextgen templates (see `tools-templates` skill)
   - `new wiki page.py`
   - `pytextgen generate *.md` templates
@@ -99,24 +99,28 @@ The `tools/` directory contains all helper scripts and utilities:
 
 ## Tool dependencies
 
-### Python requirements
+### Python dependency metadata
 
-See `requirements.txt` for package dependencies:
+Use `pyproject.toml` as the canonical source of Python dependencies:
 
-- `anyio`: Async I/O for init.py
-- `aiohttp`: HTTP client for downloads
-- `bs4` (BeautifulSoup): HTML parsing for convert wiki.py
-- `PyYAML`: YAML frontmatter parsing
-- `pytextgen`: Content generation library
-- Others as needed
+- `[project].dependencies`: shared runtime dependencies
+- `[dependency-groups].dev`: developer and test tooling
+- `[dependency-groups].scripts`: the full union of packages referenced by
+  inline `# /// script` metadata, even when a package also appears in
+  `[project].dependencies`
 
-Install: `pip install -r requirements.txt`
+For inline `# /// script` metadata, keep keys alphabetized
+(`dependencies`, `requires-python`, `timestamp`) and set
+`requires-python = ">=3.13.0"`.
+
+Install/update dependencies with `bun install` or
+`uv sync --all-extras --dev`.
 
 ### External tools
 
 - **git**: Required for all workflows
 - **git-filter-repo**: Required for `publish.py`
-- **Python 3.8+**: Minimum version for async features
+- **Python >=3.13.0**: Repository-wide minimum version
 
 ### Git submodules
 
@@ -126,9 +130,9 @@ Install: `pip install -r requirements.txt`
 ### Agent‑internal scripts policy
 
 The repository occasionally contains small helper scripts used internally by the
-AI agent (for example, `.github/scripts/validate-skills.py`).  These are
+AI agent (for example, `.github/scripts/validate-skills.py`). These are
 **not** meant to be installed as CI tools, exposed to users, or added to
-`package.json`/`requirements.txt`.
+`package.json` or the primary runtime dependency groups.
 
 - Avoid creating similar "agent‑only" utilities without explicit approval from
   the repository owner.
@@ -136,7 +140,9 @@ AI agent (for example, `.github/scripts/validate-skills.py`).  These are
   project, propose a formal PR and discuss with the owner before adding it to
   CI or packaging; the default assumption is that such tools belong in the
   `.github/scripts/` directory and are not executed in production workflows.
-- `self/**`: Personal metadata submodules
+- `self/arts/**`, `self/capture the flag/**`, `self/ledger/**`,
+  `self/passwords/**`, `self/polyipseity/**`: Personal metadata submodules
+- `self/stash/**`: Parent-repo scratch scripts rather than a git submodule
 - `private/**`: Private content submodule
 
 ## Tool architecture
@@ -210,19 +216,19 @@ If changes are needed, ask user for permission first.
 ## Common issues
 
 1. **Cache staleness**: Use `-C` / `--no-cached` if init.py skips changed files
-2. **Module import errors**: Ensure `requirements.txt` packages installed
+2. **Module import errors**: Ensure `pyproject.toml` dependencies are synced via `bun install` or `uv sync --all-extras --dev`
 3. **Git submodule out of date**: Run `git submodule update --remote`
 4. **Path encoding issues**: Ensure `%20` encoding for spaces in links
 5. **Clipboard access**: Some tools require clipboard support (may fail in headless environments)
 
-## Editing guidelines for tools/**/*.py
+## Editing guidelines for tools/\*_/_.py
 
 When editing Python helper scripts in `tools/`:
 
 - **Preserve CLI surfaces**: Keep argument names, defaults, and help text stable; avoid breaking `uv run -m init generate/clear`, `uv run -m pack`, `uv run -m publish`, and other tool entrypoints
-- **Maintain async/anyio patterns**: Preserve async patterns using AnyIO APIs such as `anyio.Path` and `anyio.Semaphore`, but prefer importing helpers from Asyncer (e.g. `from asyncer import create_task_group`, `soonify`, `asyncify`) for better typing and editor support.  The init wrapper has been refactored accordingly and includes its own thin `_gather`.
-- **Keep submodules read-only unless requested**: `tools/pytextgen`, `tools/pyarchivist`, `self/**`, `private/**` are git submodules; ask user before editing
+- **Maintain async/anyio patterns**: Preserve async patterns using AnyIO APIs such as `anyio.Path` and `anyio.Semaphore`, but prefer importing helpers from Asyncer (e.g. `from asyncer import create_task_group`, `soonify`, `asyncify`) for better typing and editor support. The init wrapper has been refactored accordingly and includes its own thin `_gather`.
+- **Keep submodules read-only unless requested**: `tools/pytextgen`, `tools/pyarchivist`, `private/**`, and the actual `self/*` submodules (`self/arts/**`, `self/capture the flag/**`, `self/ledger/**`, `self/passwords/**`, `self/polyipseity/**`) are git submodules; ask user before editing. `self/stash/**` is not a submodule.
 - **Normalize newlines**: When touching the init wrapper, normalize to `\n`; do not bypass its exclusion list (`.git`, `.obsidian`, `tools`)
 - **Favor relative imports**: Use relative imports within the tools package; do not hardcode absolute host paths
-- **Update requirements.txt**: When adding dependencies, update `requirements.txt` and note any non-pip prerequisites; prefer lightweight stdlib/typed solutions
+- **Keep inline script metadata synchronized**: When editing a standalone script with inline `# /// script` metadata: (1) ensure the file begins with `#!/usr/bin/env python` shebang on line 1, (2) update the metadata together with `[dependency-groups].scripts`, (3) keep metadata keys alphabetized, and (4) retain `requires-python = ">=3.13.0"`.
 - **Test thoroughly**: Python tools are critical infrastructure; test changes carefully before committing

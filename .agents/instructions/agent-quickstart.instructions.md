@@ -15,10 +15,10 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
      > **Warning:** `applyTo` is no longer valid in skill files. Do not include it when creating new skills; it remains allowed in instruction files only.
 
 2. First commands (safe startup)
-   - `bun install`  # installs Node deps and triggers Python dev extras install
-   - `bun run prepare`  # register Husky Git hooks
-   - `bun run format` && `bun run check`  # formatting & lint checks (when targeting specific files with `check:md` or `format:md`, remember to append `--no-globs` and list the explicit filenames to avoid accidentally processing the entire repo; in general, when running any bun script prefer supplying explicit paths to limit work and speed up the command)
-   - `bun run test`  # run tests locally (pre-push runs this automatically)
+   - `bun install` # installs Node deps and triggers Python dev extras install
+   - `bun run prepare` # register Husky Git hooks
+   - `bun run format` && `bun run check` # formatting & lint checks (when targeting specific files with `check:md` or `format:md`, remember to append `--no-globs` and list the explicit filenames to avoid accidentally processing the entire repo; in general, when running any bun script prefer supplying explicit paths to limit work and speed up the command)
+   - `bun run test` # run tests locally (pre-push runs this automatically)
 
 3. Common repository actions
    - Regenerate generated content: build workflows handle this automatically; manual `uv run -m init generate -C` is rarely needed and agents should not suggest it (see `core-workflows.instructions.md`).
@@ -28,30 +28,30 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
 
 Repository gotchas & quick tips
 
-- Preserve `# pytextgen` fences and flashcard markup.  There are three
+- Preserve `# pytextgen` fences and flashcard markup. There are three
   forms: cloze deletions `{@{...}@}` (common), two-sided pairs `::@::` (one
   line only, creates two cards), and one-sided pairs `:@:` (one line only,
-  single card).  These are parsed automatically; do not reflow, escape, or
+  single card). These are parsed automatically; do not reflow, escape, or
   split them across lines.
 - Async code should **not** import or use `asyncio` directly. The project is
   migrating to AnyIO for cross-platform structured concurrency; new code
   should use `anyio` idioms and the helper library **Asyncer** for enhanced
-  editor and typing support.  Key Asyncer helpers include:
+  editor and typing support. Key Asyncer helpers include:
   - `create_task_group` – structured concurrency (preferred over
-      `anyio.create_task_group`).
+    `anyio.create_task_group`).
   - `soonify` – schedule concurrent calls and optionally obtain return
-      values (`SoonValue` objects with `.value`/`.ready`).
+    values (`SoonValue` objects with `.value`/`.ready`).
   - `runnify` – wrap an async function for synchronous use. **All Python
-      scripts and modules use `runnify` for entry points; see
-      `.agents/instructions/python-entry-points.instructions.md` for the
-      complete convention.**  - `asyncify` – run blocking or CPU-bound sync code in a worker thread
-      from async context.
+    scripts and modules use `runnify` for entry points; see
+    `.agents/instructions/python-entry-points.instructions.md` for the
+    complete convention.** - `asyncify` – run blocking or CPU-bound sync code in a worker thread
+    from async context.
   - `syncify` – call async functions from mostly-sync code paths.
-  Prefer these utilities over manual event-loop manipulation or custom
-  gather helpers.  See the Asyncer docs or `tests/test_async_concurrency.py`
-  for examples; the repo’s tests now contain illustrations for each one.
+    Prefer these utilities over manual event-loop manipulation or custom
+    gather helpers. See the Asyncer docs or `tests/test_async_concurrency.py`
+    for examples; the repo’s tests now contain illustrations for each one.
 - When refactoring, convert any `asyncio`-based tests to `pytest.mark.anyio`
-  and use Asyncer helpers for clearer return-value handling.  Add short
+  and use Asyncer helpers for clearer return-value handling. Add short
   concurrency tests verifying behavior, as shown earlier.
 - Always prefer `bun run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
 - When writing shell commands for Python in a PowerShell terminal, use a here-string and pipe into `uv run python -`. For example:
@@ -65,6 +65,13 @@ Repository gotchas & quick tips
   This avoids syntax errors; the agent should detect the shell (PowerShell on
   Windows, POSIX otherwise) and format commands accordingly rather than using
   POSIX-style heredocs on Windows.
+
+- For standalone Python files that use inline `# /// script` metadata: (1) begin
+  with `#!/usr/bin/env python` shebang on line 1, (2) keep metadata keys
+  alphabetized (`dependencies`, `requires-python`, `timestamp`), (3) set
+  `requires-python = ">=3.13.0"`, and (4) mirror the union of every
+  inline-script dependency in `pyproject.toml`'s `[dependency-groups].scripts`
+  even when a package is also present in `[project].dependencies`.
 - Generated content is refreshed automatically; agents should not advise running `uv run -m init generate -C` before pack or publishing workflows.
 - Use the Todo List Tool for multi-step tasks and present the proposed commit message to the user before committing (see `commit-convention.instructions.md`).
 
@@ -74,7 +81,8 @@ Repository gotchas & quick tips
    - Run `bun run format` and `bun run check` before committing. Use the Todo List Tool for multi-step changes and show progress.
 
 2. Submodule & sensitive data rules
-   - **Do not** modify `private/`, `self/` or a submodule's contents without explicit owner approval; check the submodule `AGENTS.md` first.
+   - **Do not** modify `private/`, `tools/pytextgen/`, `tools/pyarchivist/`, or the actual `self/*` git submodules (`self/arts/`, `self/capture the flag/`, `self/ledger/`, `self/passwords/`, `self/polyipseity/`) without explicit owner approval; check the submodule `AGENTS.md` first.
+   - `self/stash/` is not a submodule, but it is still user-owned scratch space; only edit it when the user explicitly asks.
    - Avoid exposing or handling PII unless instructed and explicitly approved by the repository owner.
 
 3. Tests, types, and CI

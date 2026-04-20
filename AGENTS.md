@@ -5,11 +5,13 @@ Personal Markdown knowledgebase with flashcards, tutorials, and archived online 
 ## Quick reference
 
 - **`general/`**: Wikipedia encyclopedia articles (verbatim, flashcard-enabled)
-- **`special/`**: Coursework, tutorials, frameworks, language texts  
+- **`special/`**: Coursework, tutorials, frameworks, language texts
 - **`archives/`**: Archived media and web content (Wikimedia Commons, sparse)
 - **`tools/`**: Python scripts (init, convert wiki, pack, publish, templates)
 
-**Git submodules**: `self/`, `private/`, `tools/pytextgen/`, `tools/pyarchivist/`
+**Git submodules**: `self/arts/`, `self/capture the flag/`, `self/ledger/`, `self/passwords/`, `self/polyipseity/`, `private/`, `tools/pytextgen/`, `tools/pyarchivist/`
+
+**Not a submodule**: `self/stash/` remains part of this repository and stores user-managed scratch scripts.
 
 **Submodule hierarchy**: Innermost `AGENTS.md` takes priority. Many submodules (e.g., `self/ledger`) have their own `.agents/instructions/` and `.agents/skills/`.
 
@@ -63,6 +65,8 @@ For detailed workflows, see [core-workflows.instructions.md](.agents/instruction
 ## Developer tooling & testing conventions
 
 - Use `pyproject.toml` as the authoritative dependency source for Python. Do **not** reintroduce a long-lived `requirements.txt`; it is only a transient compatibility helper at best and the canonical metadata is maintained in `pyproject.toml`'s `[project]` and `[dependency-groups]` sections.
+- Keep runtime dependencies in `[project].dependencies`, developer/test tools in `[dependency-groups].dev`, and the full union of dependencies referenced by inline `# /// script` metadata in `[dependency-groups].scripts` even when a package also appears in `[project].dependencies`.
+- For inline `# /// script` metadata: (1) all files **must** begin with `#!/usr/bin/env python` shebang on line 1, (2) keep keys alphabetized (`dependencies`, `requires-python`, `timestamp`), (3) set `requires-python = ">=3.13.0"`.
 - `bun install` runs the `postinstall` hook which executes `uv sync --all-extras --dev` to install development extras declared under `[dependency-groups].dev`. Run `bun install` and then `bun run prepare` to install deps and register Husky hooks locally.
 - Formatting & linters: Use `prettier`, `markdownlint-cli2`, `ty`, and `ruff`. Ruff replaces Black and isort for code formatting and import sorting. `lint-staged` is configured to run relevant formatters/linters on staged files and Husky hooks enforce pre-commit and pre-push checks.
 - **Python entry points**: All Python scripts and modules must follow a strict convention for runnable entry points. See `.agents/instructions/python-entry-points.instructions.md` for comprehensive guidance on the `__name__ == "__main__"` pattern, async dispatch with `runnify`, and integration with Asyncer.
@@ -140,7 +144,7 @@ Instruction files auto-apply via glob patterns. See `.agents/instructions/` for 
 
 ### Submodule guards
 
-- [submodule-self.instructions.md](.agents/instructions/submodule-self.instructions.md) → `self/**`
+- [submodule-self.instructions.md](.agents/instructions/submodule-self.instructions.md) → `self/arts/**, self/capture the flag/**, self/ledger/**, self/passwords/**, self/polyipseity/**`
 - [submodule-private.instructions.md](.agents/instructions/submodule-private.instructions.md) → `private/**`
 - [submodule-pytextgen.instructions.md](.agents/instructions/submodule-pytextgen.instructions.md) → `tools/pytextgen/**`
 - [submodule-pyarchivist.instructions.md](.agents/instructions/submodule-pyarchivist.instructions.md) → `tools/pyarchivist/**`
@@ -163,6 +167,7 @@ Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.agents/skills/` 
 
 ## Recent updates (agent guidance)
 
+- 2026-04-20: Inline `# /// script` policy tightened — every package referenced by inline script metadata must also appear in `[dependency-groups].scripts`; inline metadata keys should stay alphabetized and include `requires-python = ">=3.13.0"`. Clarified that `self/stash/` is part of the parent repo while only specific `self/*` folders are git submodules.
 - 2026-02-09: Added `.agents/instructions/agent-quickstart.instructions.md` — a one-page checklist for AI agents (startup commands, quick gotchas, test/format sequence, and submodule guardrails). Linked core instruction files and submodule AGENTS.md to improve discoverability and cohesion.
 - 2026-02-09: Updated commit message guidance — agents should prefer wrapping commit body lines to **72 characters** (readability/buffer). Tooling (commitlint) continues to enforce a **100-character** hard limit, so ensure lines are ≤100 to pass.
 - 2026-03-02: Validation strictness increased — **all warnings must be addressed just like errors** (fix or suppress with a valid rationale). The validator message has been updated accordingly.
@@ -174,6 +179,7 @@ Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.agents/skills/` 
 - Recommended workspace settings: `chat.useAgentsMdFile = true`, `chat.useAgentSkills = true` to enable skill-based guidance and the root `AGENTS.md` for context.
 - Safe startup: `bun install` → `bun run prepare` → `bun run format` → `bun run check` → `bun run test`.
 - Regeneration of content happens automatically, so there's no need to run `uv run -m init generate -C`; use `uv run -m pack` and `uv run -m publish` only after tests pass and user approval for publishing sensitive content.
+- Keep inline `# /// script` metadata synchronized with `pyproject.toml`: every inline-script dependency belongs in `[dependency-groups].scripts`, files must begin with `#!/usr/bin/env python` shebang on line 1, metadata keys stay alphabetized, and `requires-python` stays at `>=3.13.0`.
 - Always follow `.agents/instructions/commit-convention.instructions.md` for agent-made commits (Conventional Commits, trailer rules); **prefer wrapping commit body lines to 72 characters or fewer for readability and buffer, but ensure lines are ≤100 to pass commitlint.**
-- Ask for explicit permission before editing `private/`, `self/`, or any submodule content; update that submodule's `AGENTS.md` and `.agents/instructions/` when you introduce new commands or workflows.
+- Ask for explicit permission before editing `private/`, any actual submodule under `self/`, or any other submodule content; `self/stash/` is not a submodule, but it is still user-owned scratch space and should only be changed when requested.
 - Use the Todo List Tool for multi-step tasks and include short, test-backed PRs with a clear rationale when making non-trivial changes.

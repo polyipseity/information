@@ -13,7 +13,7 @@ This index summarizes the repository instruction files under `.agents/instructio
 | `init-wrapper.instructions.md` | Guardrails for `init.py` (pytextgen wrapper) | `init.py` |
 | `commit-convention.instructions.md` | Commit/PR message rules and trailers for agents | `**` |
 | `latex-preamble.instructions.md` | Editing rules for `.obsidian` LaTeX preamble | `.obsidian/plugins/obsidian-latex/preamble.sty` |
-| `submodule-*.instructions.md` | Submodule guardrails (see submodule-specific AGENTS.md) | `self/**`, `private/**`, `tools/pytextgen/**` |
+| `submodule-*.instructions.md` | Submodule guardrails (see submodule-specific AGENTS.md) | `self/arts/**`, `self/capture the flag/**`, `self/ledger/**`, `self/passwords/**`, `self/polyipseity/**`, `private/**`, `tools/pytextgen/**`, `tools/pyarchivist/**` |
 
 Each instruction file contains its own metadata (`name`, `description`, `applyTo`, etc.) in the YAML frontmatter. Only `name`, `description`, and `applyTo` are supported keys – do not add other fields to instruction frontmatter, as they will be ignored.
 

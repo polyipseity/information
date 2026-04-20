@@ -24,19 +24,19 @@ applyTo: "general/**/*.md"
 Flashcards are produced by three distinct markup conventions; agents and
 authors should know which one they are using and keep the syntax exact.
 
-- **Cloze flashcards** use `{@{hidden text}@}`.  The text between the
+- **Cloze flashcards** use `{@{hidden text}@}`. The text between the
   delimiters is hidden during review and the card asks you to recall the
-  omitted portion.  This is the most common form and may appear anywhere in
+  omitted portion. This is the most common form and may appear anywhere in
   a paragraph.
 
 - **Two-sided flashcards** use a single line with a separator `::@::`.
-  Example: `term ::@:: definition`.  Two cards are generated: one that shows
+  Example: `term ::@:: definition`. Two cards are generated: one that shows
   the left side and asks for the right, and one that shows the right side
-  and asks for the left.  The source must remain on one Markdown line;
+  and asks for the left. The source must remain on one Markdown line;
   represent any needed visual breaks with `<br/>` or `<p>` tags.
 
-- **One-sided flashcards** use a single line with a separator `:@:`.  Only
-  a single card is created (recall the right-hand text from the left).  The
+- **One-sided flashcards** use a single line with a separator `:@:`. Only
+  a single card is created (recall the right-hand text from the left). The
   same single-line restriction applies.
 
 **Rules**:
@@ -81,7 +81,8 @@ authors should know which one they are using and keep the syntax exact.
 
 ## Submodules
 
-- **`self/**`, `private/**`, `tools/pytextgen/`, `tools/pyarchivist/`**: Treat as read-only unless user explicitly approves
+- **`self/arts/**`, `self/capture the flag/**`, `self/ledger/**`, `self/passwords/**`, `self/polyipseity/**`, `private/**`, `tools/pytextgen/`, `tools/pyarchivist/`**: Treat as read-only unless user explicitly approves
+- **`self/stash/`** is not a git submodule; if it is relevant to a notes task, still treat it as user-owned scratch space and avoid editing it unless requested.
 - **Policy**: Ask user before editing submodule content; follow submodule's own `AGENTS.md` after permission granted
 - **Testing**: Always test changes thoroughly before committing (see related skill documentation)
 
