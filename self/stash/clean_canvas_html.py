@@ -7,6 +7,7 @@
 #   "uvloop>=0.22.0; platform_system != 'Windows'",
 #   "winloop>=0.5.0; platform_system == 'Windows'",
 # ]
+# requires-python = ">=3.13.0"
 # timestamp = "2024-08-16T18:05:13+08:00"
 # ///
 

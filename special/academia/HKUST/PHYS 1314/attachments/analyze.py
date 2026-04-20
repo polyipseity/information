@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+# /// script
+# dependencies = [
+#   "pandas>=3.0.0",
+# ]
+# requires-python = ">=3.13.0"
+# ///
+
 from math import ceil
 
 from pandas import read_csv  # type: ignore

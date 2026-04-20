@@ -6,6 +6,7 @@
 #   "pillow>=10.3.0",
 #   "pyperclip>=1.9.0",
 # ]
+# requires-python = ">=3.13.0"
 # timestamp = "2025-07-14T09:07:57.990+08:00"
 # ///
 

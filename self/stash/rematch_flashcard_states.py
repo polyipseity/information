@@ -3,6 +3,7 @@
 # dependencies = [
 #   "pyperclip>=1.9.0",
 # ]
+# requires-python = ">=3.13.0"
 # timestamp = "2025-07-14T09:29:17.420+08:00"
 # ///
 
