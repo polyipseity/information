@@ -732,7 +732,7 @@ wheels = [
 [[package]]
 name = "information-beb48618-576e-45ea-bd50-9e47279f88dc"
 version = "0.0.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "aiohttp" },
     { name = "anyio" },
