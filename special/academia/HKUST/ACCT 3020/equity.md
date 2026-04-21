@@ -218,6 +218,30 @@ Flashcards for this section are as follows:
 - preference shares: parent-level economic idea ::@:: Preference shares give holders priority for dividends and often liquidation proceeds, but usually with less control than ordinary shareholders.
 - cumulative versus participating preference shares ::@:: Cumulative protects the preference holder in low-dividend years through arrears, while participating lets the preference holder join in surplus dividends when the pool is large enough.
 
+### liquidation preference and liquidation amount
+
+Liquidation preference tells you __who gets paid first__ if the company is wound up. The corresponding __liquidation amount__ tells you __how much__ must be set aside for preference shareholders before ordinary shareholders can claim the residual net assets.
+
+In this course, the safe habit is not to assume that the liquidation amount is just par value. Depending on the share terms, the preference claim on liquidation may equal:
+
+- par value only;
+- par value plus a stated liquidation premium; or
+- par value plus cumulative dividends in arrears (if the terms make those arrears part of the liquidation claim).
+
+So "liquidation preference" is the contractual priority feature, while "liquidation amount" is the actual dollar claim implied by the terms of the question. For participating preference shares, there can be a second layer: after receiving the basic liquidation amount, preference shareholders may also share additional residual assets with ordinary shareholders according to the participation formula.
+
+> _Liquidation amount example._ Harbor Crest plc has {@{100 000 cumulative preference shares with par 1 and a 6% dividend rate}@}. The terms say preference shareholders receive {@{par plus any dividends in arrears on liquidation}@}. If {@{two annual preference dividends are in arrears}@}, the liquidation amount is {@{100 000 + (100 000 × 6% × 2) = 112 000}@}.
+
+---
+
+Flashcards for this section are as follows:
+
+- liquidation preference (preference shares) ::@:: Liquidation preference is the contractual priority that gives preference shareholders a claim on net assets before ordinary shareholders on winding up.
+- liquidation amount (preference shares) ::@:: The liquidation amount is the actual dollar claim preference shareholders receive ahead of ordinary shareholders on liquidation; it may be par only, par plus liquidation premium, or par plus dividends in arrears if the terms require that.
+- liquidation preference versus liquidation amount ::@:: Liquidation preference is the priority feature; liquidation amount is the numeric claim implied by the terms. A question about book value or liquidation allocation needs the amount, not just the label.
+- liquidation amount example: 100 000 cumulative preference shares, par 1, 6% rate, two years in arrears, claim = par plus arrears—result? ::@:: Liquidation amount = 100 000 + (100 000 × 6% × 2) = 112 000.
+- why liquidation amount matters for ordinary shareholders ::@:: Because ordinary shareholders receive only the residual net assets left after the full preference liquidation claim has been satisfied.
+
 ### mixed preference classes and different par values
 
 When a company has more than one preference class, do __not__ collapse everything into a single generic preference line too early. Keep each class separate until the accounting logic is finished, because each class may have a different:
@@ -820,9 +844,15 @@ If the company has preference shares with a prior claim on net assets, the prefe
 - if the preference shares are __non-participating__, subtract the amount payable to preference shareholders on liquidation, often par plus any dividend arrears or liquidation premium if relevant;
 - if the preference shares are __participating__, the allocation must reflect the extra participation rights as well.
 
+So the safe calculation order is:
+
+1. compute the preference shareholders' liquidation amount from the share terms;
+2. subtract that preference claim from total equity to obtain the amount attributable to ordinary shareholders; and
+3. divide by ordinary shares outstanding.
+
 Book value per share is not the same as market price per share. Market price reflects investors' expectations about future profitability and risk. Book value per share reflects the accounting net assets currently attributable to ordinary shareholders.
 
-> _Book value per ordinary share example._ Total equity is {@{900 000}@}. Included within that total are {@{100 000 preference shares with par 1 and a liquidation preference of 120 000}@}. Ordinary shares outstanding are {@{260 000}@}. Ordinary equity is therefore {@{780 000}@}, so book value per ordinary share is {@{3.00}@}.
+> _Book value per ordinary share example._ Total equity is {@{900 000}@}. Included within that total are {@{100 000 preference shares with par 1, but their liquidation amount is 120 000}@}. Ordinary shares outstanding are {@{260 000}@}. The correct deduction is therefore the {@{full preference liquidation amount of 120 000, not merely the par amount of 100 000}@}. So ordinary equity is {@{900 000 − 120 000 = 780 000}@}, and book value per ordinary share is {@{780 000 / 260 000 = 3.00}@}. If one incorrectly subtracted only par, one would overstate book value per ordinary share.
 
 ---
 
@@ -830,8 +860,10 @@ Flashcards for this section are as follows:
 
 - book value per ordinary share: formula ::@:: Ordinary shareholders' equity divided by ordinary shares outstanding.
 - book value per ordinary share: why subtract preference claims first? ::@:: Because book value per ordinary share should measure only the net assets attributable to ordinary shareholders after satisfying prior preference claims.
+- book value per ordinary share: what is the safe step-by-step method when preference shares exist? ::@:: First compute the preference liquidation amount from the share terms, then subtract that amount from total equity to get ordinary equity, then divide by ordinary shares outstanding.
 - book value per share versus market price ::@:: Book value per share uses accounting net assets, while market price reflects investors' expectations about future profitability, growth, and risk.
 - book value per ordinary share example: total equity 900 000, preference liquidation amount 120 000, ordinary shares 260 000—result? ::@:: Ordinary equity is 780 000, so book value per ordinary share is 3.00.
+- book value per ordinary share: why is subtracting only preference par sometimes wrong? ::@:: Because the preference claim on liquidation may exceed par once liquidation premiums or cumulative dividends in arrears are included; book value per ordinary share must deduct the full liquidation amount, not just stated capital.
 
 ## restrictions on retained earnings
 

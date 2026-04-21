@@ -98,7 +98,7 @@ Representative journal entry examples:
 > | {@{Cash}@}                      | {@{48 000}@} |              |
 > | {@{Notes payable}@}             |              | {@{48 000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
 > _Scenario._ Same Maple Circuit note: {@{48 000 at 9% per year. At 31 December, two months have elapsed}@}.
 >
 > | {@{Accrue interest to year-end}@} | Dr           | Cr           |
@@ -108,7 +108,7 @@ Representative journal entry examples:
 >
 > _Calculation._ Interest = {@{48 000 × 0.09 × 2/12 = 720}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
 > _Scenario._ Maple Circuit's note matures; {@{total cash paid is 50 160 (principal 48 000 + interest 2 160)}@}. Assume {@{720 already accrued; remainder interest is recognized at settlement}@}.
 >
 > | {@{Settle note and interest; pay cash}@} | Dr           | Cr           |
@@ -130,17 +130,14 @@ Flashcards for this section are as follows:
 
 #### odd-day maturity and day-count traps
 
-<!-- markdownlint-disable-next-line MD028 -->
 > _Odd-day maturity instead of a clean month-end note._ Maple Circuit Ltd. {@{borrows 72 000 on 17 October on an 8% 120-day note}@}. The company uses a {@{360-day year for short notes}@}. By {@{31 December, 75 of the 120 days have elapsed}@}, so it has already accrued {@{72 000 × 0.08 × 75/360 = 1 200}@}. At maturity, the remaining {@{45 days of interest = 720}@} are settled together with principal.
 >
-<!-- markdownlint-disable MD060 -->
-> | {@{Settle odd-day note using accrued and remaining interest separately}@} | Dr        | Cr        |
-> | ------------------------------------------------------------------------ | --------- | --------- |
-> | {@{Notes payable}@}                                                       | {@{72 000}@} |         |
-> | {@{Interest payable}@}                                                    | {@{1 200}@} |         |
-> | {@{Interest expense}@}                                                    | {@{720}@} |           |
-> | {@{Cash}@}                                                                |           | {@{73 920}@} |
-<!-- markdownlint-enable MD060 -->
+> | {@{Settle odd-day note using accrued and remaining interest separately}@} | Dr           | Cr           |
+> | ------------------------------------------------------------------------- | ------------ | ------------ |
+> | {@{Notes payable}@}                                                       | {@{72 000}@} |              |
+> | {@{Interest payable}@}                                                    | {@{1 200}@}  |              |
+> | {@{Interest expense}@}                                                    | {@{720}@}    |              |
+> | {@{Cash}@}                                                                |              | {@{73 920}@} |
 >
 > _Explanation._ The final settlement uses only the {@{remaining 45-day interest}@}, because the first {@{75 days were already accumulated in Interest payable at year-end}@}.
 
@@ -201,7 +198,7 @@ Representative journal entry examples:
 >
 > _Calculation._ {@{7 200 × 3/12}@} = {@{1 800}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
 > _Scenario._ The Sunrise Packaging note matures; {@{carrying amount 75 600, pay 75 600 cash}@}.
 >
 > | {@{Pay note at maturity}@} | Dr           | Cr           |
@@ -284,7 +281,7 @@ Representative journal entry examples:
 > | {@{Salaries and wages expense}@}          | {@{12 480}@} |              |
 > | {@{Wages payable}@}                       |              | {@{12 480}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
 > _Scenario._ BrightWave carries {@{Wages payable of 12 480 (24 weeks at 520). Employees take vacation; current rate is 590 per week}@}. Cash paid is {@{14 160; difference 1 680 expense in the payment period}@}.
 >
 > | {@{Clear wages payable; expense difference; pay cash}@} | Dr           | Cr           |
@@ -295,28 +292,24 @@ Representative journal entry examples:
 >
 > _Explanation._ The liability is settled at the rate originally accrued {@{(24 weeks × 520 = 12 480)}@}. When cash is paid at the higher current rate {@{(24 weeks × 590 = 14 160)}@}, the extra {@{1 680 is current-period salaries and wages expense caused by the higher payment-date wage rate}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
 > _Weird flip: wages fall instead of rise._ The same BrightWave employees had {@{24 vested vacation weeks accrued at 520 per week}@}, but when employees actually take the leave the current wage rate has fallen to {@{470 per week, so total cash paid is only 11 280}@}.
 >
-<!-- markdownlint-disable MD060 -->
-> | {@{Settle compensated absence when the current wage rate is lower than the accrued rate}@} | Dr        | Cr        |
-> | -------------------------------------------------------------------------------------------- | --------- | --------- |
-> | {@{Wages payable}@}                                                                         | {@{12 480}@} |        |
-> | {@{Cash}@}                                                                                  |            | {@{11 280}@} |
-> | {@{Salaries and wages expense}@}                                                            |            | {@{1 200}@} |
-<!-- markdownlint-enable MD060 -->
+> | {@{Settle compensated absence when the current wage rate is lower than the accrued rate}@} | Dr           | Cr           |
+> | ------------------------------------------------------------------------------------------ | ------------ | ------------ |
+> | {@{Wages payable}@}                                                                        | {@{12 480}@} |              |
+> | {@{Cash}@}                                                                                 |              | {@{11 280}@} |
+> | {@{Salaries and wages expense}@}                                                           |              | {@{1 200}@}  |
 >
 > _Explanation._ This deliberately produces a {@{credit to current-period salaries and wages expense}@} because the liability had been recorded using a {@{higher earned wage rate than the later payment rate}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
 > _Only vested employees create the liability._ At year-end, BrightWave has {@{14 employees who have completed the vesting period and earned 28 unused weeks at 510 per week}@}. Another {@{4 employees have worked only 10 months and are not yet vested}@}. The company accrues only the vested amount.
 >
-<!-- markdownlint-disable MD060 -->
-> | {@{Recognise compensated-absence liability only for vested employees}@} | Dr         | Cr         |
-> | ---------------------------------------------------------------------- | ---------- | ---------- |
-> | {@{Salaries and wages expense}@}                                       | {@{14 280}@} |          |
-> | {@{Wages payable}@}                                                    |             | {@{14 280}@} |
-<!-- markdownlint-enable MD060 -->
+> | {@{Recognise compensated-absence liability only for vested employees}@} | Dr           | Cr           |
+> | ----------------------------------------------------------------------- | ------------ | ------------ |
+> | {@{Salaries and wages expense}@}                                        | {@{14 280}@} |              |
+> | {@{Wages payable}@}                                                     |              | {@{14 280}@} |
 >
 > _Explanation._ The non-vested employees do {@{not yet have an unconditional right to the benefit}@}, so they are {@{excluded from the year-end liability measurement}@}.
 
@@ -331,7 +324,6 @@ Flashcards for this section are as follows:
 
 If employees do __not__ use all of the vacation already accrued, the company does not simply forget the remaining liability. The unused vested portion stays in _Wages payable_ until it is either used or paid out. If the company updates the year-end liability to the amount expected to be paid for that remaining entitlement, any increase caused by higher wage rates becomes an additional current-period expense.
 
-<!-- markdownlint-disable-next-line MD028 -->
 > _Only part of the vested vacation is used._ BrightWave begins the year with {@{Wages payable of 12&nbsp;480 for 24 vested vacation weeks accrued at 520 per week}@}. During the year, employees use only {@{16 of the 24 vested weeks}@}, and the current wage rate when used is {@{590 per week, so cash paid for the used portion is 9&nbsp;440}@}. The remaining {@{8 vested weeks are still unused at year-end}@}.
 >
 > | {@{Settle only the portion of vacation actually used during the year}@} | Dr | Cr |
@@ -342,7 +334,7 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 >
 > _Calculation._ The used portion removes {@{16 × 520 = 8&nbsp;320}@} from the old liability. Cash paid is {@{16 × 590 = 9&nbsp;440}@}, so the extra {@{1&nbsp;120}@} is current-period salaries and wages expense. After this entry, the carrying balance left in {@{Wages payable is 4&nbsp;160 for the 8 unused weeks still outstanding}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
 > _Year-end remeasurement of the unused portion._ If BrightWave now expects those {@{8 unused vested weeks}@} to be paid at the current rate of {@{590 per week, so the remaining liability should be 4&nbsp;720 rather than 4&nbsp;160}@}.
 >
 > | {@{Increase the liability for the still-unused vested vacation to the expected settlement amount}@} | Dr | Cr |
