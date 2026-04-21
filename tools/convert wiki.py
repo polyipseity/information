@@ -16,7 +16,7 @@ from asyncer import SoonValue, create_task_group, runnify
 from bs4 import BeautifulSoup, Tag
 from bs4.element import NavigableString, PageElement, PreformattedString
 from country_converter import convert
-from jaraco.clipboard import paste_html  # type: ignore
+from jaraco.clipboard import paste_html
 from pyarchivist.Wikimedia_Commons.main import (
     Args as pyarchivist_Wikimedia_Commons_Args,
 )
@@ -722,7 +722,7 @@ async def main() -> None:
     refs = "--no-refs" not in argv[1:]
 
     input("HTML (will read from clipboard)? ")
-    html_text = paste_html()  # type: ignore
+    html_text = paste_html()
     assert isinstance(html_text, str)
 
     html = BeautifulSoup(html_text, "html.parser")

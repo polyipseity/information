@@ -1,0 +1,16 @@
+[project]
+name = "hkust-comp-2211-4d8fbebf-9d5a-4915-bcd3-56445eaea66e"
+version = "0.0.0"
+requires-python = ">=3.12.0"
+dependencies = [
+  "matplotlib>=3.9.0",
+  "numpy>=2.0.0",
+  "pandas>=3.0.0",
+  "scikit-learn>=1.7.0",
+  "seaborn>=0.13.0",
+  "tensorflow>=2.11.0",  # recommended `tensorflow==2.11.0`
+  "tqdm>=4.67.0",
+]
+
+[tool.uv]
+package = false

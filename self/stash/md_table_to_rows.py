@@ -3,6 +3,7 @@
 # dependencies = [
 #   "pyperclip>=1.9.0",
 # ]
+# requires-python = ">=3.13.0"
 # ///
 """parse_markdown_table.py — parse a Markdown table into row objects and a compact per-row
 markdown format.

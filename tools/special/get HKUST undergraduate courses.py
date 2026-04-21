@@ -101,7 +101,7 @@ async def main() -> None:
             headers={"Accept-Encoding": "gzip"},
         ) as session,
     ):
-        dest_readable = dest_file.readable()  # type: ignore
+        dest_readable = dest_file.readable()
 
         courses = dict[str, Subject]()
         if dest_readable:

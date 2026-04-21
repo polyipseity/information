@@ -25,6 +25,12 @@ updates:
       bun:
         patterns:
           - "*"
+      bun-security:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+    cooldown:
+      default-days: 5
     exclude-paths:
       # Meant to be vulnerable
       - "special/academia/HKUST/COMP 3633/presentation 10/examples"
@@ -45,6 +51,12 @@ updates:
       github-actions:
         patterns:
           - "*"
+      github-actions-security:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+    cooldown:
+      default-days: 5
     registries:
       # Make all submodules clone successfully
       - github-private
@@ -62,6 +74,12 @@ updates:
       gitsubmodule:
         patterns:
           - "*"
+      gitsubmodule-security:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+    cooldown:
+      default-days: 5
     registries:
       # Make all submodules clone successfully
       - github-private
@@ -79,6 +97,12 @@ updates:
       npm:
         patterns:
           - "*"
+      npm-security:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+    cooldown:
+      default-days: 5
     exclude-paths:
       # Meant to be vulnerable
       - "special/academia/HKUST/COMP 3633/presentation 10/examples"
@@ -99,6 +123,12 @@ updates:
       uv:
         patterns:
           - "*"
+      uv-security:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+    cooldown:
+      default-days: 5
     exclude-paths:
       # wtf: <https://github.com/dependabot/dependabot-core/issues/13960>
       - "LICENSE.txt"

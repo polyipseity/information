@@ -7,7 +7,7 @@ name = "information-beb48618-576e-45ea-bd50-9e47279f88dc"
 version = "0.0.0"
 requires-python = ">=3.13.0"
 description = "Personal Markdown knowledge base"
-license = {file = "LICENSE.txt"}
+license = { file = "LICENSE.txt" }
 readme = "README.md"
 dependencies = [
   "aiohttp>=3.9.0",
@@ -26,7 +26,6 @@ dependencies = [
   "pydantic-yaml>=1.6.0",
   "pytextgen>=9.0.0",
   "pyyaml>=6.0.0",
-  "requests>=2.32.0",
   "rich>=14.0.0",
   "uvloop>=0.22.0; platform_system != 'Windows'",
   "winloop>=0.5.0; platform_system == 'Windows'",
@@ -47,13 +46,31 @@ dev = [
   "ruff>=0.15.0",
   "ty>=0.0.31",
 ]
+scripts = [
+  "anyio>=3.6.0",
+  "asyncer>=0.0.17",
+  "beautifulsoup4>=4.12.0",
+  "matplotlib>=3.9.0",
+  "numpy>=2.0.0",
+  "opencv-python>=4.13.0",
+  "pandas>=3.0.0",
+  "pillow>=10.3.0",
+  "pyperclip>=1.9.0",
+  "requests>=2.32.0",
+  "schemdraw[matplotlib,svgmath]>=0.22",
+  "uvloop>=0.22.0; platform_system != 'Windows'",
+  "winloop>=0.5.0; platform_system == 'Windows'",
+]
 
 [tool.pytest.ini_options]
-addopts = ["--cov=./", "--cov-report=term-missing", "--dist=loadscope", "-n=auto", "--strict-markers"]
-testpaths = [
-  ".agents/skills/**/tests_*",
-  "tests",
+addopts = [
+  "--cov=./",
+  "--cov-report=term-missing",
+  "--dist=loadscope",
+  "-n=auto",
+  "--strict-markers",
 ]
+testpaths = [".agents/skills/**/tests_*", "tests"]
 python_files = "test_*.py"
 
 [tool.ruff]
@@ -120,6 +137,7 @@ exclude = [
 ]
 
 [tool.uv]
+package = false
 required-version = ">=0.9.0,<0.11.0"
 
 [tool.uv.build-backend]
@@ -132,4 +150,7 @@ pyarchivist = { path = "tools/pyarchivist" }
 pytextgen = { path = "tools/pytextgen" }
 
 [tool.uv.workspace]
-members = [] # Do not use, otherwise `uv.lock` in children packages will be ignored.
+members = [
+  "special/academia/HKUST/COMP 2211",
+  "special/academia/HKUST/COMP 3211",
+] # Do not use for submodules, otherwise `uv.lock` in children packages will be ignored.

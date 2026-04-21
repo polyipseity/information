@@ -1,7 +1,7 @@
 ---
 name: Submodule self
-description: self/* submodules prefer upstream edits; only edit when user explicitly requests
-applyTo: "self/**"
+description: self/* git submodules prefer upstream edits; only edit when user explicitly requests
+applyTo: "self/arts/**, self/capture the flag/**, self/ledger/**, self/passwords/**, self/polyipseity/**"
 ---
 
 # Submodule Self Guidelines
@@ -11,6 +11,7 @@ applyTo: "self/**"
 - **If editing is needed but not requested**: Ask the user for permission first
 - **When user approves edits**: Make changes here, then consider contributing upstream
 - Prefer `git submodule update --remote` workflows for syncing upstream changes
+- `self/stash/` is part of the parent repository and is intentionally **not** covered by this instruction file.
 
 ## Developer tooling & testing (self/ submodules)
 
@@ -18,4 +19,3 @@ applyTo: "self/**"
 - If a submodule requires different Python or tooling constraints (different Python version or unique CI steps), document them clearly in the submodule `AGENTS.md` and `.agents/instructions/` so agents and CI can pick up the correct settings.
 - When editing Python code in a `self/` submodule, continue to follow the parent repo’s Asyncer/AnyIO guidance: avoid `asyncio`, import helpers from Asyncer for concurrency and sync/async bridging.
 - **Submodule instructions**: Each submodule under `self/` may have its own `AGENTS.md` and `.agents/instructions/` and `.agents/skills/` files that take priority when working within that specific submodule
-- **`self/stash/`**: A workspace for miscellaneous, small Python utility scripts (stashed tools). These files are user-managed and may be created or edited only when the user explicitly requests it; consider adding an index (`index.md`) to document scripts placed here.

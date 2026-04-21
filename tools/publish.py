@@ -253,7 +253,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
 
 async def main0():
     """Entry point for running the script directly. Parses CLI arguments and invokes main()."""
-    __name__ = _FILE_PATH.stem  # noqa: F841
+    __name__ = _FILE_PATH.stem
     basicConfig(level=INFO)
     entry = parser().parse_args(argv[1:])
     await entry.invoke(entry)

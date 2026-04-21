@@ -8,6 +8,20 @@ applyTo: "**/*.py"
 
 This document establishes a repository-wide convention for how Python scripts and modules expose entry points for direct execution. All runnable Python files — whether scripts in `tools/`, `scripts/`, `special/`, or module `__main__.py` files — must follow this pattern.
 
+## Shebang Requirement
+
+All Python files with inline `# /// script` metadata **must** begin with the shebang `#!/usr/bin/env python` on the very first line (line 1). This enables direct execution on Unix-like systems and signals that the file is a runnable script.
+
+```python
+#!/usr/bin/env python
+# /// script
+# dependencies = ["package1", "package2"]
+# requires-python = ">=3.13.0"
+# ///
+
+# rest of code follows...
+```
+
 ## Overview
 
 The convention distinguishes between:
@@ -41,7 +55,7 @@ import anyio
 
 async def main(argv: Sequence[str] | None = None) -> None:
     """Main entry point (async).
-    
+
     Performs the primary logic of the script. Should accept optional argv
     for testing; if omitted, uses sys.argv[1:].
     """
@@ -51,7 +65,7 @@ async def main(argv: Sequence[str] | None = None) -> None:
 
 def __main__() -> None:
     """Entry point for running the script directly.
-    
+
     Wraps the async main() using runnify with uvloop backend.
     """
     runnify(main, backend_options={"use_uvloop": True})()
@@ -88,12 +102,12 @@ async def process_html(html: str) -> str:
 
 async def main(argv: list[str] | None = None) -> None:
     """Main async entry point.
-    
+
     Reads from clipboard (or file), processes, and outputs result.
     """
     if argv is None:
         argv = sys.argv[1:]
-    
+
     # Application logic
     print("Processing...")
     # ...
@@ -121,7 +135,7 @@ def main(argv: Sequence[str] | None = None) -> None:
     """Main entry point (sync)."""
     if argv is None:
         argv = sys.argv[1:]
-    
+
     # application logic
     pass
 
@@ -155,12 +169,12 @@ from asyncer import runnify
 
 async def main(argv: list[str] | None = None) -> None:
     """Main async dispatcher.
-    
+
     Routes to subcommands based on argv[0].
     """
     if argv is None:
         argv = sys.argv[1:]
-    
+
     # dispatch logic
     # ...
 
@@ -227,7 +241,7 @@ async def main(argv: list[str] | None = None) -> None:
     """Main entry point."""
     if argv is None:
         argv = sys.argv[1:]
-    
+
     args = parse_args(argv)
     # Application logic using args
     print(f"Input: {args.input}")
@@ -250,10 +264,10 @@ if __name__ == "__main__":
 
   ```python
   """Convert wiki HTML to Markdown.
-  
+
   Usage:
       python -m convert wiki
-  
+
   Reads HTML from clipboard, normalizes to Markdown, and outputs to stdout.
   """
   ```
@@ -274,9 +288,9 @@ if __name__ == "__main__":
       """Process a file."""
       if argv is None:
           argv = sys.argv[1:]
-      
+
       args = parse_args(argv)
-      
+
       try:
           result = await process_file(args.input)
           print(result)
@@ -286,7 +300,7 @@ if __name__ == "__main__":
       except ValueError as e:
           print(f"Validation error: {e}", file=sys.stderr)
           return exit(2)
-      
+
       return exit(0)  # explicit success
   ```
 

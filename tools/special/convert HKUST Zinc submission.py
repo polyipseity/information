@@ -432,7 +432,7 @@ async def convert(
         reference_datetime=saved_datetime,
     )
 
-    data: Mapping[str, object] = {  # type: ignore
+    data: Mapping[str, object] = {
         "type": "submission/HKUST Zinc",
         "course": {
             "id": -1,
