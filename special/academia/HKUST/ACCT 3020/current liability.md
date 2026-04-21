@@ -139,7 +139,7 @@ Flashcards for this section are as follows:
 > | {@{Interest expense}@}                                                    | {@{720}@}    |              |
 > | {@{Cash}@}                                                                |              | {@{73 920}@} |
 >
-> _Explanation._ The final settlement uses only the {@{remaining 45-day interest}@}, because the first {@{75 days were already accumulated in Interest payable at year-end}@}.
+> _Explanation._ The final settlement uses only the {@{remaining 45-day interest}@}, because the first {@{75 days were already accumulated in Interest payable at year-end}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
 
 ---
 
@@ -301,7 +301,7 @@ Representative journal entry examples:
 > | {@{Cash}@}                                                                                 |              | {@{11 280}@} |
 > | {@{Salaries and wages expense}@}                                                           |              | {@{1 200}@}  |
 >
-> _Explanation._ This deliberately produces a {@{credit to current-period salaries and wages expense}@} because the liability had been recorded using a {@{higher earned wage rate than the later payment rate}@}.
+> _Explanation._ This deliberately produces a {@{credit to current-period salaries and wages expense}@} because the liability had been recorded using a {@{higher earned wage rate than the later payment rate}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
 
 <!-- markdownlint MD028 -->
 > _Only vested employees create the liability._ At year-end, BrightWave has {@{14 employees who have completed the vesting period and earned 28 unused weeks at 510 per week}@}. Another {@{4 employees have worked only 10 months and are not yet vested}@}. The company accrues only the vested amount.
@@ -311,7 +311,7 @@ Representative journal entry examples:
 > | {@{Salaries and wages expense}@}                                        | {@{14 280}@} |              |
 > | {@{Wages payable}@}                                                     |              | {@{14 280}@} |
 >
-> _Explanation._ The non-vested employees do {@{not yet have an unconditional right to the benefit}@}, so they are {@{excluded from the year-end liability measurement}@}.
+> _Explanation._ The non-vested employees do {@{not yet have an unconditional right to the benefit}@}, so they are {@{excluded from the year-end liability measurement}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
 
 ---
 
@@ -332,7 +332,7 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 > | {@{Salaries and wages expense}@} | {@{1&nbsp;120}@} | |
 > | {@{Cash}@} | | {@{9&nbsp;440}@} |
 >
-> _Calculation._ The used portion removes {@{16 × 520 = 8&nbsp;320}@} from the old liability. Cash paid is {@{16 × 590 = 9&nbsp;440}@}, so the extra {@{1&nbsp;120}@} is current-period salaries and wages expense. After this entry, the carrying balance left in {@{Wages payable is 4&nbsp;160 for the 8 unused weeks still outstanding}@}. <!--SR:!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311-->
+> _Calculation._ The used portion removes {@{16 × 520 = 8&nbsp;320}@} from the old liability. Cash paid is {@{16 × 590 = 9&nbsp;440}@}, so the extra {@{1&nbsp;120}@} is current-period salaries and wages expense. After this entry, the carrying balance left in {@{Wages payable is 4&nbsp;160 for the 8 unused weeks still outstanding}@}. <!--SR:!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
 
 <!-- markdownlint MD028 -->
 > _Year-end remeasurement of the unused portion._ If BrightWave now expects those {@{8 unused vested weeks}@} to be paid at the current rate of {@{590 per week, so the remaining liability should be 4&nbsp;720 rather than 4&nbsp;160}@}.
