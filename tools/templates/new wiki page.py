@@ -5,7 +5,7 @@ from unicodedata import normalize
 
 from anyio import Path
 from asyncer import runnify
-from pyperclip import copy  # type: ignore
+from pyperclip import copy
 
 
 async def main() -> None:

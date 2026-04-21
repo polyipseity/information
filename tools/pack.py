@@ -1,30 +1,17 @@
 from argparse import ONE_OR_MORE, ZERO_OR_MORE, ArgumentParser, Namespace
-from collections.abc import (
-    AsyncIterator,
-    Callable,
-    Collection,
-    Mapping,
-    MutableSet,
-    Sequence,
-    Set,
-)
+from collections.abc import (AsyncIterator, Callable, Collection, Mapping,
+                             MutableSet, Sequence, Set)
 from dataclasses import asdict, dataclass, is_dataclass, replace
 from datetime import datetime, timezone
 from functools import reduce, wraps
 from itertools import chain, count
 from json import JSONEncoder, dumps
 from logging import INFO, basicConfig, info
-from os import PathLike, cpu_count
+from os import PathLike, cpu_count, fspath
 from pathlib import PurePath
 from re import compile
 from sys import argv
-from typing import (
-    Any,
-    AnyStr,
-    NamedTuple,
-    final,
-    override,
-)
+from typing import Any, NamedTuple, final, override
 from urllib.parse import unquote
 from zipfile import ZIP_DEFLATED, ZipFile
 
@@ -273,12 +260,11 @@ async def main(args: Arguments) -> None:
 
     class MetadataJSONEncoder(JSONEncoder):
         @override
-        def default(self, o: object):
+        def default(self, o: object) -> object:
             if isinstance(o, PathLike):
-                o2: PathLike[AnyStr] = o  # type: ignore
-                return o2.__fspath__()
-            if is_dataclass(o):
-                return asdict(o)  # type: ignore
+                return fspath(o)
+            if is_dataclass(o) and not isinstance(o, type):
+                return asdict(o)
             return super().default(o)
 
     with ZipFile(output, "w", compression=ZIP_DEFLATED, compresslevel=9) as output_zip:
@@ -432,7 +418,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
 
 async def main0():
     """Entry point for running the script directly. Parses CLI arguments and invokes main()."""
-    __name__ = _FILE_PATH.stem  # noqa: F841
+    __name__ = _FILE_PATH.stem
     basicConfig(level=INFO)
     entry = parser().parse_args(argv[1:])
     await entry.invoke(entry)

@@ -24,7 +24,7 @@ from sys import argv, exit, stdin
 from typing import Any, final
 
 from anyio import Path
-from appdirs import AppDirs  # type: ignore
+from appdirs import AppDirs
 from asyncer import SoonValue, asyncify, create_task_group, runnify
 from pytextgen.main import parser as pytextgen_parser
 from pytextgen.meta import OPEN_TEXT_OPTIONS
@@ -132,7 +132,7 @@ async def main(args: Arguments):
         )
 
         cache_folder = Path(
-            _LOCAL_APP_DIRS.user_cache_dir,  # type: ignore
+            _LOCAL_APP_DIRS.user_cache_dir,
         ) / str((await _lstat_a(folder)).st_ino)
         if not args.cached and await cache_folder.exists():
             await _rmtree(cache_folder, ignore_errors=False)
@@ -257,7 +257,7 @@ async def main(args: Arguments):
             info(f"Using {len(inputs)} input(s)")
             try:
                 entry = pytextgen_parser().parse_args(
-                    tuple(chain(args.arguments, ("--",), map(fspath, inputs)))
+                    tuple(chain(args.arguments, ("--",), (fspath(input) for input in inputs)))
                 )
                 await entry.invoke(entry)
                 success = True

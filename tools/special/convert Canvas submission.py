@@ -592,7 +592,7 @@ async def convert(
         soup, page_type=page_type, reference_datetime=saved_datetime
     )
 
-    data: Mapping[str, object] = {  # type: ignore
+    data: Mapping[str, object] = {
         "type": f"submission/Canvas/{host}",
         "course": {
             "id": course_id,
