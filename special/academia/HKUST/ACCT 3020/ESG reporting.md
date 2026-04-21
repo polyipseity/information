@@ -72,8 +72,8 @@ In Hong Kong, listed companies must follow the stock exchange's ESG reporting re
 
 Flashcards for this section are as follows:
 
-- Hong Kong ESG reporting framework: big-picture structure ::@:: Listed companies follow a stock-exchange ESG framework built around mandatory disclosures plus comply-or-explain disclosures.
-- Hong Kong ESG reporting framework: why does the split matter? ::@:: It tells users which disclosures every issuer must provide and where an issuer has flexibility only if it explains the gap clearly.
+- Hong Kong ESG reporting framework: big-picture structure ::@:: Listed companies follow a stock-exchange ESG framework built around mandatory disclosures plus comply-or-explain disclosures. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- Hong Kong ESG reporting framework: why does the split matter? ::@:: It tells users which disclosures every issuer must provide and where an issuer has flexibility only if it explains the gap clearly. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
 
 ### mandatory versus comply-or-explain
 
@@ -84,8 +84,8 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- mandatory ESG disclosure: what does it mean? ::@:: The issuer must provide the required item in its ESG reporting and cannot simply omit it.
-- comply-or-explain ESG disclosure: what does it mean? ::@:: The issuer should comply, but if it does not, it must explain the non-compliance rather than staying silent.
+- mandatory ESG disclosure: what does it mean? ::@:: The issuer must provide the required item in its ESG reporting and cannot simply omit it. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- comply-or-explain ESG disclosure: what does it mean? ::@:: The issuer should comply, but if it does not, it must explain the non-compliance rather than staying silent. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
 
 ### board statement and board oversight
 
@@ -99,8 +99,8 @@ A key mandatory element is a __board statement__ on ESG. This statement should:
 
 Flashcards for this section are as follows:
 
-- ESG board statement: what responsibility must the board acknowledge? ::@:: That the board itself is responsible for oversight of ESG issues.
-- ESG board statement: what three things should it cover? ::@:: Board responsibility, the board's ESG approach and processes, and how the board reviewed ESG performance during the year.
+- ESG board statement: what responsibility must the board acknowledge? ::@:: That the board itself is responsible for oversight of ESG issues. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- ESG board statement: what three things should it cover? ::@:: Board responsibility, the board's ESG approach and processes, and how the board reviewed ESG performance during the year. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
 - ESG reporting in Hong Kong: two requirement types ::@:: Mandatory disclosure (must disclose) and "comply or explain" disclosure (either comply or explain non‑compliance). <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 - ESG board statement: three key elements ::@:: (1) Board's responsibility for ESG oversight; (2) board's approach, strategy and processes for managing ESG; (3) how the board reviewed ESG performance during the year. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 - ESG: why "comply or explain" matters ::@:: Allows some flexibility, but weak or repeated explanations may signal poor ESG commitment to investors. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
@@ -130,8 +130,8 @@ The course slides organise Hong Kong ESG KPIs into aspect groups rather than tre
 
 Flashcards for this section are as follows:
 
-- ESG KPI aspect groups: why use them? ::@:: They force ESG reporting to move from vague claims to topic-specific, measurable evidence tied to each aspect area.
-- KPI aspect groups: what is the exam mindset? ::@:: Understand which category an ESG metric belongs to and why the framework expects quantitative support inside each category.
+- ESG KPI aspect groups: why use them? ::@:: They force ESG reporting to move from vague claims to topic-specific, measurable evidence tied to each aspect area. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- KPI aspect groups: what is the exam mindset? ::@:: Understand which category an ESG metric belongs to and why the framework expects quantitative support inside each category. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
 
 ### environmental aspects
 
@@ -146,8 +146,8 @@ For the __environmental__ category, common aspect groups are:
 
 Flashcards for this section are as follows:
 
-- environmental ESG aspects in Hong Kong: what are the four headline groups? ::@:: A1 emissions, A2 use of resources, A3 environment and natural resources, and A4 climate change.
-- A4 climate change: what belongs there? ::@:: Significant climate-related physical and transition risks together with the actions taken to address them.
+- environmental ESG aspects in Hong Kong: what are the four headline groups? ::@:: A1 emissions, A2 use of resources, A3 environment and natural resources, and A4 climate change. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- A4 climate change: what belongs there? ::@:: Significant climate-related physical and transition risks together with the actions taken to address them. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
 
 ### social aspects
 
@@ -173,10 +173,10 @@ The exam logic is not to memorise every possible metric word for word, but to un
 
 Flashcards for this section are as follows:
 
-- social ESG aspects in Hong Kong: what are the main B-series groups? ::@:: B1 employment, B2 health and safety, B3 development and training, B4 labour standards, B5 supply chain management, B6 product responsibility, B7 anti-corruption, and B8 community investment.
-- social KPI examples: what do B2, B3, and B7 typically quantify? ::@:: B2 tracks safety outcomes such as injuries or fatalities, B3 tracks training such as hours per employee, and B7 tracks concluded corruption cases.
-- ESG KPI framework: why are aspect groups useful? ::@:: They force disclosure to move from vague claims to topic-specific, measurable evidence.
-- B7 anti-corruption: example of a quantitative disclosure ::@:: The number of concluded legal cases regarding corrupt practices brought against the issuer or its employees.
+- social ESG aspects in Hong Kong: what are the main B-series groups? ::@:: B1 employment, B2 health and safety, B3 development and training, B4 labour standards, B5 supply chain management, B6 product responsibility, B7 anti-corruption, and B8 community investment. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- social KPI examples: what do B2, B3, and B7 typically quantify? ::@:: B2 tracks safety outcomes such as injuries or fatalities, B3 tracks training such as hours per employee, and B7 tracks concluded corruption cases. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- ESG KPI framework: why are aspect groups useful? ::@:: They force disclosure to move from vague claims to topic-specific, measurable evidence. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- B7 anti-corruption: example of a quantitative disclosure ::@:: The number of concluded legal cases regarding corrupt practices brought against the issuer or its employees. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
 
 ## applying the materiality matrix
 
@@ -200,10 +200,10 @@ The important exam point is that materiality is __entity-specific__. Data privac
 
 Flashcards for this section are as follows:
 
-- materiality matrix: what two viewpoints are combined? ::@:: The issue's impact on the business and its importance to stakeholders.
-- materiality matrix: which issues receive top disclosure priority? ::@:: Issues that rank high on both business impact and stakeholder concern.
-- why is materiality entity-specific? ::@:: Because the same ESG topic can matter very differently across industries, business models, and stakeholder groups.
-- logistics-company materiality example: which issues are likely to be high-high? ::@:: Fuel efficiency, greenhouse gas emissions, driver safety, and anti-corruption in procurement.
+- materiality matrix: what two viewpoints are combined? ::@:: The issue's impact on the business and its importance to stakeholders. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- materiality matrix: which issues receive top disclosure priority? ::@:: Issues that rank high on both business impact and stakeholder concern. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- why is materiality entity-specific? ::@:: Because the same ESG topic can matter very differently across industries, business models, and stakeholder groups. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- logistics-company materiality example: which issues are likely to be high-high? ::@:: Fuel efficiency, greenhouse gas emissions, driver safety, and anti-corruption in procurement. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
 
 ## materiality and boundary
 
@@ -247,7 +247,7 @@ For exam purposes, the important takeaway is that ESG disclosure in Hong Kong is
 
 Flashcards for this section are as follows:
 
-- HKFRS S1: focus ::@:: General requirements for disclosure of sustainability-related financial information.
-- HKFRS S2: focus ::@:: Climate-related disclosures.
-- what is the main reporting shift signalled by HKFRS S1 and S2? ::@:: Sustainability reporting is being integrated more closely with governance, strategy, risk management, and financial reporting rather than treated as a separate public-relations document.
-- HKFRS S2: common disclosure themes ::@:: Governance, strategy, climate-related physical and transition risks, and climate metrics and targets.
+- HKFRS S1: focus ::@:: General requirements for disclosure of sustainability-related financial information. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- HKFRS S2: focus ::@:: Climate-related disclosures. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- what is the main reporting shift signalled by HKFRS S1 and S2? ::@:: Sustainability reporting is being integrated more closely with governance, strategy, risk management, and financial reporting rather than treated as a separate public-relations document. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- HKFRS S2: common disclosure themes ::@:: Governance, strategy, climate-related physical and transition risks, and climate metrics and targets. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->

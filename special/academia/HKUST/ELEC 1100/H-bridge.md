@@ -126,11 +126,11 @@ The **L293** is an integrated circuit that contains two complete H-bridges, so o
 
 Flashcards for this section are as follows:
 
-- schematic: L293 pinout <p> ![L293 pinout](attachments/l293_block.svg) ::@:: L293 dual H-bridge: 16-pin DIP; pin 8 = VS (motor supply), pin 16 = VCC (logic); EN_12, IN_1, OUT_1, OUT_2, IN_2 for bridge 1; EN_34, IN_3, OUT_3, OUT_4, IN_4 for bridge 2.
-- L293 function: What is the L293 used for? ::@:: Dual H-bridge IC: it contains two complete H-bridges so one chip can drive two DC motors (e.g. left and right robot wheels).
-- L293 enable and inputs: What do EN and IN_1, IN_2 do per motor? ::@:: IN_1 and IN_2 determine direction by choosing which way current is driven through that motor. EN separately enables or disables that H-bridge half. In practical control, EN can be tied HIGH for always-on operation or driven by PWM for speed control while IN_1 and IN_2 keep the chosen direction.
-- L293 outputs: What do OUT_1 and OUT_2 connect to? ::@:: The two outputs of each H-bridge connect to the two terminals of that motor.
-- L293 PWM on EN: Why is the EN pin a convenient place to apply PWM? ::@:: Because EN turns that H-bridge on and off without changing the direction logic on IN_1 and IN_2. So PWM at EN changes the average motor voltage and speed, while the IN pins continue to define forward or reverse.
+- schematic: L293 pinout <p> ![L293 pinout](attachments/l293_block.svg) ::@:: L293 dual H-bridge: 16-pin DIP; pin 8 = VS (motor supply), pin 16 = VCC (logic); EN_12, IN_1, OUT_1, OUT_2, IN_2 for bridge 1; EN_34, IN_3, OUT_3, OUT_4, IN_4 for bridge 2. <!--SR:!2026-04-12,4,329!2026-04-12,4,329-->
+- L293 function: What is the L293 used for? ::@:: Dual H-bridge IC: it contains two complete H-bridges so one chip can drive two DC motors (e.g. left and right robot wheels). <!--SR:!2026-04-12,4,329!2026-04-12,4,329-->
+- L293 enable and inputs: What do EN and IN_1, IN_2 do per motor? ::@:: IN_1 and IN_2 determine direction by choosing which way current is driven through that motor. EN separately enables or disables that H-bridge half. In practical control, EN can be tied HIGH for always-on operation or driven by PWM for speed control while IN_1 and IN_2 keep the chosen direction. <!--SR:!2026-04-12,4,329!2026-04-12,4,329-->
+- L293 outputs: What do OUT_1 and OUT_2 connect to? ::@:: The two outputs of each H-bridge connect to the two terminals of that motor. <!--SR:!2026-04-12,4,329!2026-04-12,4,329-->
+- L293 PWM on EN: Why is the EN pin a convenient place to apply PWM? ::@:: Because EN turns that H-bridge on and off without changing the direction logic on IN_1 and IN_2. So PWM at EN changes the average motor voltage and speed, while the IN pins continue to define forward or reverse. <!--SR:!2026-04-12,4,329!2026-04-12,4,329-->
 
 ### supplies and bypass
 
@@ -140,9 +140,9 @@ The L293 needs two supply voltages: **VS** (pin 8) for the motor supply (e.g. $1
 
 Flashcards for this section are as follows:
 
-- L293 two supplies: What are VS and VCC on the L293? (pin 8, pin 16; $12\text{ V}$, $5\text{ V}$) ::@:: VS (pin 8) is the motor supply, e.g. $12\text{ V}$, and feeds the motor-driving stage only. VCC (pin 16) is the logic supply, e.g. $5\text{ V}$, and powers the input/control side of the IC. The $12\text{ V}$ motor rail is for motor power, while the other pins and control logic stay in the $5\text{ V}$ domain.
-- L293 bypass capacitors: Why use capacitors (e.g. $0.1\,\mu\text{F}$) near the L293? ::@:: For stable operation; they help filter supply noise and provide local charge when the motors draw current.
-- L293 common ground: Why must the $12\text{ V}$ motor supply and the $5\text{ V}$ logic supply still share ground? ::@:: Because the L293 input logic and the 74HC14 output levels are interpreted relative to ground. A common ground gives one shared voltage reference, so $0\text{ V}$ and $5\text{ V}$ logic levels are meaningful to the motor driver.
+- L293 two supplies: What are VS and VCC on the L293? (pin 8, pin 16; $12\text{ V}$, $5\text{ V}$) ::@:: VS (pin 8) is the motor supply, e.g. $12\text{ V}$, and feeds the motor-driving stage only. VCC (pin 16) is the logic supply, e.g. $5\text{ V}$, and powers the input/control side of the IC. The $12\text{ V}$ motor rail is for motor power, while the other pins and control logic stay in the $5\text{ V}$ domain. <!--SR:!2026-04-12,4,329!2026-04-12,4,329-->
+- L293 bypass capacitors: Why use capacitors (e.g. $0.1\,\mu\text{F}$) near the L293? ::@:: For stable operation; they help filter supply noise and provide local charge when the motors draw current. <!--SR:!2026-04-12,4,329!2026-04-12,4,329-->
+- L293 common ground: Why must the $12\text{ V}$ motor supply and the $5\text{ V}$ logic supply still share ground? ::@:: Because the L293 input logic and the 74HC14 output levels are interpreted relative to ground. A common ground gives one shared voltage reference, so $0\text{ V}$ and $5\text{ V}$ logic levels are meaningful to the motor driver. <!--SR:!2026-04-12,4,329!2026-04-12,4,329-->
 
 ## connecting L293, 74HC14, and LM7805
 

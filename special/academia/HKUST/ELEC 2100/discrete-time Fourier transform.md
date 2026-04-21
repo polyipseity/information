@@ -27,9 +27,9 @@ This note keeps the main focus on the general-sequence DTFT viewpoint. DTFS/DFS 
 
 Flashcards for this section are as follows:
 
-- What core problem does the DTFT note solve in ELEC 2100? ::@:: It describes a discrete-time sequence by a continuous periodic digital-frequency spectrum so the sequence’s frequency content can be analyzed before any finite-grid sampling.
-- Why is the DTFT naturally linked to sampling theory? ::@:: Because it is derived from the Fourier transform of the sampled impulse train $\sum_n x[n]\delta(t-nT)$ rather than being introduced as an isolated new formula.
-- Why is most DTFS/DFS discussion grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum.
+- What core problem does the DTFT note solve in ELEC 2100? ::@:: It describes a discrete-time sequence by a continuous periodic digital-frequency spectrum so the sequence’s frequency content can be analyzed before any finite-grid sampling. <!--SR:!2026-04-12,4,307!2026-04-12,4,307-->
+- Why is the DTFT naturally linked to sampling theory? ::@:: Because it is derived from the Fourier transform of the sampled impulse train $\sum_n x[n]\delta(t-nT)$ rather than being introduced as an isolated new formula. <!--SR:!2026-04-12,4,307!2026-04-12,4,307-->
+- Why is most DTFS/DFS discussion grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum. <!--SR:!2026-04-12,4,307!2026-04-12,4,307-->
 
 This note is the general discrete-time spectral note. For continuous-time periodic and aperiodic signals, see [Fourier series](Fourier%20series.md) and [Fourier transform](Fourier%20transform.md). For finite-grid computation or explicit period-$N$ coefficient work, move next to [discrete Fourier transform](discrete%20Fourier%20transform.md).
 

@@ -465,10 +465,10 @@ Prediction then uses Bayes' rule in factored form. One computes posterior scores
 
 Flashcards for this section are as follows:
 
-- conditional versus unconditional independence ::@:: Naive Bayes assumes independence of features only after conditioning on the class label, not unconditional independence of the features themselves.
-- naive Bayes factorization with parameters ::@:: The Naive Bayes factorization is $P(x\mid y=c,\theta)=\prod_{j=1}^D P(x_j\mid y=c,\theta_{jc})$, where $x=(x_1,\ldots,x_D)$ is the feature vector, $D$ is the number of features, $c$ is the candidate class, and $\theta_{jc}$ collects the parameters for feature $j$ given class $c$.
-- naive Bayes prediction score ::@:: Naive Bayes predicts by comparing scores proportional to $P(y=c)\prod_{j=1}^D P(x_j\mid y=c,\theta_{jc})$, where $c$ is the candidate class, $j$ indexes the $D$ features, and the class with the largest score is chosen.
-- why log-scores are useful in Naive Bayes ::@:: Log-scores turn products of many probabilities into sums, which are numerically more stable and easier to compute.
+- conditional versus unconditional independence ::@:: Naive Bayes assumes independence of features only after conditioning on the class label, not unconditional independence of the features themselves. <!--SR:!2026-04-12,4,308!2026-04-12,4,308-->
+- naive Bayes factorization with parameters ::@:: The Naive Bayes factorization is $P(x\mid y=c,\theta)=\prod_{j=1}^D P(x_j\mid y=c,\theta_{jc})$, where $x=(x_1,\ldots,x_D)$ is the feature vector, $D$ is the number of features, $c$ is the candidate class, and $\theta_{jc}$ collects the parameters for feature $j$ given class $c$. <!--SR:!2026-04-12,4,308!2026-04-12,4,308-->
+- naive Bayes prediction score ::@:: Naive Bayes predicts by comparing scores proportional to $P(y=c)\prod_{j=1}^D P(x_j\mid y=c,\theta_{jc})$, where $c$ is the candidate class, $j$ indexes the $D$ features, and the class with the largest score is chosen. <!--SR:!2026-04-12,4,308!2026-04-12,4,308-->
+- why log-scores are useful in Naive Bayes ::@:: Log-scores turn products of many probabilities into sums, which are numerically more stable and easier to compute. <!--SR:!2026-04-12,4,308!2026-04-12,4,308-->
 
 ### parameter estimation for discrete naive Bayes
 

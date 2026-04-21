@@ -41,7 +41,7 @@ For better physical meaning, it can be rewritten as:
 > - [function](function%20(mathematics).md) properties: $x$ is {@{the [displacement](displacement%20(geometry).md) from equilibrium}@} and $t$ is {@{the [time](time.md)}@}
 > - [oscillator](oscillation.md) properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural (undamped) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the _damping ratio_}@}, $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, $c$ is {@{the _viscous damping coefficient_}@}, and $F(t)$ is {@{the driving [force](force.md)}@} <!--SR:!2026-05-25,604,312!2027-05-18,960,352!2028-06-23,1108,270!2027-03-12,386,376!2027-04-12,410,376!2027-04-09,408,376!2026-08-11,208,356!2027-03-30,400,376!2027-04-17,413,376!2027-03-15,387,376!2027-02-23,371,376-->
 
-{@{The above [inhomogeneous ordinary differential equation](ordinary%20differential%20equation.md#^nonhomogeneous)}@} can always be {@{solved exactly for any driving [force](force.md)}@}, usually by first solving {@{the homogeneous counterpart of the above equation}@}. <!--SR:!2031-01-11,1749,312-->
+{@{The above [inhomogeneous ordinary differential equation](ordinary%20differential%20equation.md#^nonhomogeneous)}@} can always be {@{solved exactly for any driving [force](force.md)}@}, usually by first solving {@{the homogeneous counterpart of the above equation}@}. <!--SR:!2031-01-11,1749,312!2026-04-13,5,367!2026-04-13,5,367-->
 
 ### step input
 

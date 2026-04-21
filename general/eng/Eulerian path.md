@@ -78,7 +78,7 @@ While {@{the _graph traversal_ in Fleury's algorithm is linear in the number of 
 
 ### Hierholzer's algorithm
 
-{@{[Hierholzer](Carl%20Hierholzer.md)'s 1873 paper}@} provides {@{a different method for finding Euler cycles that is more efficient than Fleury's algorithm}@}: <!--SR:!2029-04-08,1252,362!2031-03-31,1849,382--> (annotation: 3 items: {@{choose any starting vertex, start trails from any traveled vertex with untraveled edges, repeat until all edges are exhausted}@})
+{@{[Hierholzer](Carl%20Hierholzer.md)'s 1873 paper}@} provides {@{a different method for finding Euler cycles that is more efficient than Fleury's algorithm}@}:  (annotation: 3 items: {@{choose any starting vertex, start trails from any traveled vertex with untraveled edges, repeat until all edges are exhausted}@}) <!--SR:!2029-04-08,1252,362!2031-03-31,1849,382!2026-04-13,5,382-->
 
 - Choose {@{any starting vertex _v_}@}, and {@{follow a trail of edges from that vertex until returning to _v_}@}. It is not {@{possible to get stuck at any vertex other than _v_}@}, because {@{the even degree of all vertices ensures that, when the trail enters another vertex _w_ there must be an unused edge leaving _w_}@}. {@{The tour formed in this way}@} is {@{a closed tour, but may not cover all the vertices and edges of the initial graph}@}.
 - As long as there exists {@{a vertex _u_ that belongs to the current tour but that has adjacent edges not part of the tour}@}, start {@{another trail from _u_, following unused edges until returning to _u_}@}, and join {@{the tour formed in this way to the previous tour}@}.
@@ -147,7 +147,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 {@{In this theorem}@} it {@{doesn't matter whether "connected" means "weakly connected" or "strongly connected"}@} since {@{they are equivalent for Eulerian graphs}@}. <!--SR:!2030-08-29,1665,370!2029-09-28,1384,356!2031-05-17,1886,382-->
 
-{@{Hierholzer's linear time algorithm}@} for {@{constructing an Eulerian tour}@} is also {@{applicable to directed graphs}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2030-02-10,1412,362!2030-12-12,1764,382-->
+{@{Hierholzer's linear time algorithm}@} for {@{constructing an Eulerian tour}@} is also {@{applicable to directed graphs}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2030-02-10,1412,362!2030-12-12,1764,382!2026-04-13,5,382-->
 
 ## mixed Eulerian graphs
 

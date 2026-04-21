@@ -89,7 +89,7 @@ The amount recognized as a provision is the __best estimate__ of the expenditure
 > | {@{Litigation expense}@} | {@{500&nbsp;000}@} | |
 > | {@{Litigation liability}@} | | {@{500&nbsp;000}@} |
 >
-> _Explanation._ The numbers differ because {@{expected value uses probability weighting across outcomes}@}, while {@{most likely outcome picks the single dominant case}@}.
+> _Explanation._ The numbers differ because {@{expected value uses probability weighting across outcomes}@}, while {@{most likely outcome picks the single dominant case}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,317!2026-04-12,4,316!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322-->
 
 ---
 
@@ -99,7 +99,7 @@ Flashcards for this section are as follows:
 - expected value (provision) ::@:: When multiple outcomes with probabilities are given, use probability-weighted sum (e.g. Toyota: 80%×0 + 12%×substantial + 8%×small). <!--SR:!2026-04-12,4,270!2026-04-12,4,302-->
 - most likely outcome (provision) ::@:: When a single obligation has one dominant outcome (e.g. lawsuit win or lose), use the most likely outcome. <!--SR:!2026-04-12,4,302!2026-04-12,4,302-->
 - when to use expected value vs most likely? ::@:: If the question gives probabilities, use expected value; otherwise use the most likely outcome. <!--SR:!2026-04-12,4,270!2026-04-12,4,302-->
-- expected-value litigation example: why can the recorded provision be below the most likely outcome? ::@:: Because the expected-value method averages all outcomes by probability, including lower-loss or zero-loss cases.
+- expected-value litigation example: why can the recorded provision be below the most likely outcome? ::@:: Because the expected-value method averages all outcomes by probability, including lower-loss or zero-loss cases. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
 
 ## assurance-type warranty
 
@@ -109,8 +109,8 @@ An _assurance-type warranty_ is the warranty that accompanies the sale of a prod
 
 Flashcards for this section are as follows:
 
-- assurance-type warranty: overall accounting pattern ::@:: Recognize warranty expense and a warranty liability in the period of sale, then later use that liability when actual repair, replacement, or reimbursement occurs.
-- assurance-type warranty: why is it treated as a provision? ::@:: Because the sale already created a present obligation, but the later timing and amount of warranty claims remain uncertain and must be estimated.
+- assurance-type warranty: overall accounting pattern ::@:: Recognize warranty expense and a warranty liability in the period of sale, then later use that liability when actual repair, replacement, or reimbursement occurs. <!--SR:!2026-04-12,4,317!2026-04-12,4,322-->
+- assurance-type warranty: why is it treated as a provision? ::@:: Because the sale already created a present obligation, but the later timing and amount of warranty claims remain uncertain and must be estimated. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
 
 ### initial measurement and matching
 
@@ -120,8 +120,8 @@ The credit side of the claim-settlement entry depends on __how the warranty obli
 
 Flashcards for this section are as follows:
 
-- assurance-type warranty initial measurement: what belongs in the closing liability? ::@:: Only the remaining expected future cost from current-period sales after subtracting any warranty work already actually performed during the year.
-- assurance-type warranty and matching: why is the estimate recorded in the sale year? ::@:: Because the sale created both the revenue and the related warranty obligation, so the expected warranty cost must be matched to that same period's revenue.
+- assurance-type warranty initial measurement: what belongs in the closing liability? ::@:: Only the remaining expected future cost from current-period sales after subtracting any warranty work already actually performed during the year. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- assurance-type warranty and matching: why is the estimate recorded in the sale year? ::@:: Because the sale created both the revenue and the related warranty obligation, so the expected warranty cost must be matched to that same period's revenue. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
 
 ### settlement using the warranty liability
 
@@ -134,7 +134,7 @@ Representative journal entry examples:
 > | {@{Warranty expense}@}                         | {@{16&nbsp;000}@} |                   |
 > | {@{Warranty liability}@}                       |                   | {@{16&nbsp;000}@} |
 >
-> _Calculation._ Total expected warranty cost = {@{1&nbsp;000 × 20 = 20&nbsp;000}@}; less actual 2025 warranty cost already incurred = {@{4&nbsp;000}@}; remaining future obligation = {@{16&nbsp;000}@}. Only the {@{remaining future cost}@} is recognized as the year-end provision because the {@{4&nbsp;000 already incurred is an actual current-year expense, not part of the closing liability}@}.
+> _Calculation._ Total expected warranty cost = {@{1&nbsp;000 × 20 = 20&nbsp;000}@}; less actual 2025 warranty cost already incurred = {@{4&nbsp;000}@}; remaining future obligation = {@{16&nbsp;000}@}. Only the {@{remaining future cost}@} is recognized as the year-end provision because the {@{4&nbsp;000 already incurred is an actual current-year expense, not part of the closing liability}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Tiered warranty mix instead of one flat cost per unit._ Northstar sells {@{800 standard countertop ovens with expected warranty cost 18 each}@} and {@{200 deluxe countertop ovens with expected warranty cost 45 each}@}. Actual warranty costs already incurred during the year are {@{5&nbsp;400}@}. The closing provision therefore depends on the {@{sales mix actually sold}@}, not on one average cost for all units.
@@ -144,7 +144,7 @@ Representative journal entry examples:
 > | {@{Warranty expense}@} | {@{18&nbsp;000}@} | |
 > | {@{Warranty liability}@} | | {@{18&nbsp;000}@} |
 >
-> _Calculation._ Expected warranty cost = {@{(800 × 18) + (200 × 45) = 23&nbsp;400}@}. Less actual claims already incurred {@{5&nbsp;400}@}. Remaining future obligation = {@{18&nbsp;000}@}. The trick is that the warranty estimate must follow the {@{product mix that created the obligation}@}.
+> _Calculation._ Expected warranty cost = {@{(800 × 18) + (200 × 45) = 23&nbsp;400}@}. Less actual claims already incurred {@{5&nbsp;400}@}. Remaining future obligation = {@{18&nbsp;000}@}. The trick is that the warranty estimate must follow the {@{product mix that created the obligation}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ In 2026 a Northstar customer {@{makes a valid warranty claim, and the company settles it by paying cash of 100}@}. The cost relates to the {@{provision already recognized from earlier sales}@}.
@@ -154,7 +154,7 @@ Representative journal entry examples:
 > | {@{Warranty liability}@}                             | {@{100}@} |           |
 > | {@{Cash}@}                                           |           | {@{100}@} |
 >
-> _Explanation._ The claim settlement {@{uses up part of the warranty liability instead of creating a fresh warranty expense}@}; the expense was already {@{matched to the sale when the provision was recognized}@}.
+> _Explanation._ The claim settlement {@{uses up part of the warranty liability instead of creating a fresh warranty expense}@}; the expense was already {@{matched to the sale when the provision was recognized}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,317!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ A valid Northstar warranty claim is settled by giving the customer {@{replacement parts from inventory with carrying amount 80}@}. The parts cost had already been {@{included in the earlier warranty estimate}@}.
@@ -164,7 +164,7 @@ Representative journal entry examples:
 > | {@{Warranty liability}@}                          | {@{80}@} |          |
 > | {@{Inventory}@}                                   |          | {@{80}@} |
 >
-> _Explanation._ Use {@{Inventory when the warranty claim is satisfied by parts or replacement goods already held in stock}@}. The provision is reduced because the parts cost was {@{already anticipated in Warranty expense when the sale occurred}@}.
+> _Explanation._ Use {@{Inventory when the warranty claim is satisfied by parts or replacement goods already held in stock}@}. The provision is reduced because the parts cost was {@{already anticipated in Warranty expense when the sale occurred}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ A valid Northstar warranty claim is repaired by the company's own technicians. The labor component attributable to this repair is {@{60 and that cost is being settled through Accrued Payroll rather than cash or inventory}@}.
@@ -174,7 +174,7 @@ Representative journal entry examples:
 > | {@{Warranty liability}@}                                 | {@{60}@} |          |
 > | {@{Accrued Payroll}@}                                    |          | {@{60}@} |
 >
-> _Explanation._ Use {@{Accrued Payroll when the warranty work is performed internally and the labor component is being settled through payroll-related payables}@}. Again, no fresh warranty expense is created here because the labor cost had already been {@{included in the warranty provision estimate}@}.
+> _Explanation._ Use {@{Accrued Payroll when the warranty work is performed internally and the labor component is being settled through payroll-related payables}@}. Again, no fresh warranty expense is created here because the labor cost had already been {@{included in the warranty provision estimate}@}. <!--SR:!2026-04-12,4,317!2026-04-12,4,317!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,317-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Actual repair takes longer than estimated._ The warranty provision included only {@{60 of expected in-house labor}@}, but the repair actually requires {@{75 of payroll cost rather than the 60 originally provided}@}. The overrun is a {@{current-period change in estimate, not a reopening of the old sale entry}@}.
@@ -185,14 +185,14 @@ Representative journal entry examples:
 > | {@{Warranty expense}@} | {@{15}@} | |
 > | {@{Accrued Payroll}@} | | {@{75}@} |
 >
-> _Explanation._ The original provision covers only the amount that had been {@{best-estimated earlier}@}. Any excess actual cost becomes a {@{new current-period warranty expense}@}.
+> _Explanation._ The original provision covers only the amount that had been {@{best-estimated earlier}@}. Any excess actual cost becomes a {@{new current-period warranty expense}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- assurance-type warranty settlement: what is normally debited when a valid claim is honored? ::@:: Debit _Warranty liability_, because the company is using up a provision that was already recorded when the sale occurred.
-- warranty settlement: when does a fresh warranty expense appear? ::@:: Only when the actual repair or replacement cost exceeds the amount previously provided in the liability.
+- assurance-type warranty settlement: what is normally debited when a valid claim is honored? ::@:: Debit _Warranty liability_, because the company is using up a provision that was already recorded when the sale occurred. <!--SR:!2026-04-12,4,322!2026-04-12,4,317-->
+- warranty settlement: when does a fresh warranty expense appear? ::@:: Only when the actual repair or replacement cost exceeds the amount previously provided in the liability. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
 
 ### changes in the expected warranty liability
 
@@ -206,7 +206,7 @@ Sometimes the issue is not that a particular repair costs more than expected. In
 > | {@{Warranty expense}@} | {@{6&nbsp;000}@} | |
 > | {@{Warranty liability}@} | | {@{6&nbsp;000}@} |
 >
-> _Explanation._ This is a {@{change in estimate of the remaining expected warranty obligation}@}. No customer claim is being settled here; the company is simply increasing the liability from {@{18&nbsp;000 to 24&nbsp;000}@}.
+> _Explanation._ This is a {@{change in estimate of the remaining expected warranty obligation}@}. No customer claim is being settled here; the company is simply increasing the liability from {@{18&nbsp;000 to 24&nbsp;000}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Expected warranty losses decrease after updated evidence._ Instead, suppose Northstar's {@{Warranty liability still stands at 18&nbsp;000}@}, but improved evidence shows that only {@{13&nbsp;500}@} is still needed.
@@ -216,7 +216,7 @@ Sometimes the issue is not that a particular repair costs more than expected. In
 > | {@{Warranty liability}@} | {@{4&nbsp;500}@} | |
 > | {@{Warranty expense}@} | | {@{4&nbsp;500}@} |
 >
-> _Explanation._ The company reverses the excess provision because the remaining expected loss liability is now {@{lower than previously estimated}@}. The reduction goes to {@{Warranty expense rather than to revenue}@} because this is a measurement revision of the original warranty provision.
+> _Explanation._ The company reverses the excess provision because the remaining expected loss liability is now {@{lower than previously estimated}@}. The reduction goes to {@{Warranty expense rather than to revenue}@} because this is a measurement revision of the original warranty provision. <!--SR:!2026-04-12,4,317!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,317!2026-04-12,4,317!2026-04-12,4,317-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Refund instead of repair._ A Northstar countertop oven originally sold for {@{5&nbsp;000}@} with carrying amount {@{3&nbsp;200}@} is returned for a refund while a related {@{warranty liability of 200}@} is still attached to that sale. The company refunds the customer in cash, restores the unit to inventory, and reverses the remaining warranty provision that is no longer needed because the sale itself has been unwound.
@@ -236,36 +236,36 @@ Sometimes the issue is not that a particular repair costs more than expected. In
 > | {@{Warranty liability}@} | {@{200}@} | |
 > | {@{Warranty expense}@} | | {@{200}@} |
 >
-> _Explanation._ Once the sale is {@{fully reversed, the company no longer expects future warranty service on that unit}@}, so the remaining warranty liability attached to that sale is {@{released rather than used for repair because the sale itself has been unwound}@}.
+> _Explanation._ Once the sale is {@{fully reversed, the company no longer expects future warranty service on that unit}@}, so the remaining warranty liability attached to that sale is {@{released rather than used for repair because the sale itself has been unwound}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,316!2026-04-12,4,317!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- warranty liability remeasurement upward: what is the entry? ::@:: Debit _Warranty expense_ and credit _Warranty liability_ for the extra amount needed to reach the newly required closing balance.
-- warranty liability remeasurement downward: what is the entry? ::@:: Debit _Warranty liability_ and credit _Warranty expense_ for the portion of the provision no longer needed after the updated estimate.
-- assurance-type warranty ::@:: Warranty that accompanies the sale; seller promises to repair or fix if product has defects; expense in period of sale.
-- assurance warranty: past event and obligation ::@:: Past event = sale of product with warranty; present obligation = legal (contract) or constructive (policy).
-- assurance warranty: when is expense recognized? ::@:: In the period when the goods are sold (matching concept).
-- assurance warranty: year-end entry for estimated future cost? ::@:: Dr _Warranty expense_, Cr _Warranty liability_ (provision for future claims from current-year sales).
-- assurance warranty: when customer claims? ::@:: Dr _Warranty liability_ and credit the account that reflects how the claim is settled: _Cash_ for reimbursement or outside repair, _Inventory_ for replacement parts/goods, or _Accrued Payroll_ / _Wages payable_ for in-house labor already being settled through payroll. In every case the entry uses up the warranty provision rather than creating a fresh warranty expense.
-- assurance warranty: costs already incurred vs provision ::@:: Costs already incurred are expensed as incurred (Dr _Warranty expense_, Cr _Cash_, _Inventory_, or _Accrued Payroll_ as applicable); only estimated future cost from current-year sales is a provision.
-- assurance warranty: estimate method ::@:: Estimate future warranty cost using expected value (or similar) at end of reporting period.
-- matching concept and warranty ::@:: Warranty expense is matched to the revenue from the sale in the same period; do not wait until cash is paid.
-- warranty provision (assurance): year-end entry? ::@:: Dr _Warranty expense_, Cr _Warranty liability_ (estimated future cost from current-year sales).
-- assurance warranty: total 20 000, 4 000 incurred in year, rest next year—provision amount and entry? ::@:: Remaining provision 16 000; Dr _Warranty expense_ 16 000, Cr _Warranty liability_ 16 000.
-- assurance-type warranty estimate: what if product lines have different claim costs? ::@:: Build the provision from the mix actually sold, because a deluxe-heavy sales mix can create a much larger obligation than a flat per-unit average would suggest.
-- warranty claim: journal entry when customer claims? ::@:: Dr _Warranty liability_, Cr _Cash_, _Inventory_, or _Accrued Payroll_ (depending on how repair is satisfied).
-- warranty claim: pay 100 cash to satisfy claim—entry? ::@:: Dr _Warranty liability_ 100, Cr _Cash_ 100 (or Cr _Inventory_ or _Accrued Payroll_, as applicable).
-- warranty claim settlement: why is no new warranty expense usually recognized? ::@:: Because the expected warranty cost was already matched to revenue and recorded through the provision when the original sale occurred; the later claim mainly reduces the liability.
-- warranty claim: when do you credit cash, inventory, or accrued payroll? ::@:: Credit _Cash_ when reimbursing the customer or paying an outside repairer; credit _Inventory_ when satisfying the claim with parts or replacement goods from stock; credit _Accrued Payroll_ / _Wages payable_ when in-house labor is being settled through payroll-related payables.
-- warranty provision estimate: what should it include? ::@:: The expected mix of parts/goods from inventory, internal labor, and outside-service cash costs, so later claim settlement reduces _Warranty liability_ instead of creating fresh warranty expense.
-- warranty claim: replacement part with carrying amount 80 used to satisfy claim—entry? ::@:: Dr _Warranty liability_ 80, Cr _Inventory_ 80.
-- warranty claim: in-house technician labor 60 settled through accrued payroll—entry? ::@:: Dr _Warranty liability_ 60, Cr _Accrued Payroll_ 60.
-- warranty repair overrun: how is actual labor above the original estimate recorded? ::@:: Use the existing _Warranty liability_ for the amount already provided and debit fresh _Warranty expense_ for the excess actual repair cost in the current period.
-- expected warranty loss liability revised upward: what entry is needed? ::@:: Debit _Warranty expense_ and credit _Warranty liability_ for the amount needed to raise the existing provision to the new required closing balance.
-- expected warranty loss liability revised downward: what entry is needed? ::@:: Debit _Warranty liability_ and credit _Warranty expense_ for the excess portion of the provision that is no longer needed after the updated estimate.
-- refund instead of repair: what happens to the remaining warranty provision? ::@:: Reverse the portion tied to the cancelled sale, because once the sale is unwound there is no longer a future warranty obligation on that unit.
+- warranty liability remeasurement upward: what is the entry? ::@:: Debit _Warranty expense_ and credit _Warranty liability_ for the extra amount needed to reach the newly required closing balance. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- warranty liability remeasurement downward: what is the entry? ::@:: Debit _Warranty liability_ and credit _Warranty expense_ for the portion of the provision no longer needed after the updated estimate. <!--SR:!2026-04-12,4,317!2026-04-12,4,322-->
+- assurance-type warranty ::@:: Warranty that accompanies the sale; seller promises to repair or fix if product has defects; expense in period of sale. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- assurance warranty: past event and obligation ::@:: Past event = sale of product with warranty; present obligation = legal (contract) or constructive (policy). <!--SR:!2026-04-12,4,317!2026-04-12,4,322-->
+- assurance warranty: when is expense recognized? ::@:: In the period when the goods are sold (matching concept). <!--SR:!2026-04-12,4,317!2026-04-12,4,317-->
+- assurance warranty: year-end entry for estimated future cost? ::@:: Dr _Warranty expense_, Cr _Warranty liability_ (provision for future claims from current-year sales). <!--SR:!2026-04-12,4,322!2026-04-12,4,317-->
+- assurance warranty: when customer claims? ::@:: Dr _Warranty liability_ and credit the account that reflects how the claim is settled: _Cash_ for reimbursement or outside repair, _Inventory_ for replacement parts/goods, or _Accrued Payroll_ / _Wages payable_ for in-house labor already being settled through payroll. In every case the entry uses up the warranty provision rather than creating a fresh warranty expense. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- assurance warranty: costs already incurred vs provision ::@:: Costs already incurred are expensed as incurred (Dr _Warranty expense_, Cr _Cash_, _Inventory_, or _Accrued Payroll_ as applicable); only estimated future cost from current-year sales is a provision. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- assurance warranty: estimate method ::@:: Estimate future warranty cost using expected value (or similar) at end of reporting period. <!--SR:!2026-04-12,4,322!2026-04-12,4,317-->
+- matching concept and warranty ::@:: Warranty expense is matched to the revenue from the sale in the same period; do not wait until cash is paid. <!--SR:!2026-04-12,4,322!2026-04-12,4,317-->
+- warranty provision (assurance): year-end entry? ::@:: Dr _Warranty expense_, Cr _Warranty liability_ (estimated future cost from current-year sales). <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- assurance warranty: total 20 000, 4 000 incurred in year, rest next year—provision amount and entry? ::@:: Remaining provision 16 000; Dr _Warranty expense_ 16 000, Cr _Warranty liability_ 16 000. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- assurance-type warranty estimate: what if product lines have different claim costs? ::@:: Build the provision from the mix actually sold, because a deluxe-heavy sales mix can create a much larger obligation than a flat per-unit average would suggest. <!--SR:!2026-04-12,4,317!2026-04-12,4,322-->
+- warranty claim: journal entry when customer claims? ::@:: Dr _Warranty liability_, Cr _Cash_, _Inventory_, or _Accrued Payroll_ (depending on how repair is satisfied). <!--SR:!2026-04-12,4,322!2026-04-12,4,316-->
+- warranty claim: pay 100 cash to satisfy claim—entry? ::@:: Dr _Warranty liability_ 100, Cr _Cash_ 100 (or Cr _Inventory_ or _Accrued Payroll_, as applicable). <!--SR:!2026-04-12,4,317!2026-04-12,4,322-->
+- warranty claim settlement: why is no new warranty expense usually recognized? ::@:: Because the expected warranty cost was already matched to revenue and recorded through the provision when the original sale occurred; the later claim mainly reduces the liability. <!--SR:!2026-04-12,4,317!2026-04-12,4,322-->
+- warranty claim: when do you credit cash, inventory, or accrued payroll? ::@:: Credit _Cash_ when reimbursing the customer or paying an outside repairer; credit _Inventory_ when satisfying the claim with parts or replacement goods from stock; credit _Accrued Payroll_ / _Wages payable_ when in-house labor is being settled through payroll-related payables. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- warranty provision estimate: what should it include? ::@:: The expected mix of parts/goods from inventory, internal labor, and outside-service cash costs, so later claim settlement reduces _Warranty liability_ instead of creating fresh warranty expense. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- warranty claim: replacement part with carrying amount 80 used to satisfy claim—entry? ::@:: Dr _Warranty liability_ 80, Cr _Inventory_ 80. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- warranty claim: in-house technician labor 60 settled through accrued payroll—entry? ::@:: Dr _Warranty liability_ 60, Cr _Accrued Payroll_ 60. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- warranty repair overrun: how is actual labor above the original estimate recorded? ::@:: Use the existing _Warranty liability_ for the amount already provided and debit fresh _Warranty expense_ for the excess actual repair cost in the current period. <!--SR:!2026-04-12,4,322!2026-04-12,4,317-->
+- expected warranty loss liability revised upward: what entry is needed? ::@:: Debit _Warranty expense_ and credit _Warranty liability_ for the amount needed to raise the existing provision to the new required closing balance. <!--SR:!2026-04-12,4,317!2026-04-12,4,322-->
+- expected warranty loss liability revised downward: what entry is needed? ::@:: Debit _Warranty liability_ and credit _Warranty expense_ for the excess portion of the provision that is no longer needed after the updated estimate. <!--SR:!2026-04-12,4,317!2026-04-12,4,322-->
+- refund instead of repair: what happens to the remaining warranty provision? ::@:: Reverse the portion tied to the cancelled sale, because once the sale is unwound there is no longer a future warranty obligation on that unit. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
 
 ## service-type warranty
 
@@ -302,7 +302,7 @@ Representative journal entry examples:
 > | {@{Unearned warranty revenue}@} | {@{600}@} | |
 > | {@{Warranty revenue}@} | | {@{600}@} |
 >
-> _Explanation._ This is weird on purpose: the company recognizes {@{the rest of the revenue not because it performed more service}@}, but because the customer has {@{given up the remaining contractual right to receive it}@}.
+> _Explanation._ This is weird on purpose: the company recognizes {@{the rest of the revenue not because it performed more service}@}, but because the customer has {@{given up the remaining contractual right to receive it}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
 
 ---
 
@@ -320,7 +320,7 @@ Flashcards for this section are as follows:
 - service-type warranty: when is revenue recognized? ::@:: As the entity satisfies the performance obligation over the service period (in the typical example, that period begins after the assurance-type warranty has expired). <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 - service-type warranty: entry as time passes? ::@:: Dr _Unearned warranty revenue_, Cr _Warranty revenue_ (e.g. straight-line over the service-type term). <!--SR:!2026-04-12,4,302!2026-04-12,4,302-->
 - unearned warranty revenue 900, 3-year service period—recognize 1 year—entry? ::@:: Dr _Unearned warranty revenue_ 300, Cr _Warranty revenue_ 300. <!--SR:!2026-04-12,4,302!2026-04-12,4,270-->
-- service-type warranty forfeiture: what happens if the customer gives up the remaining coverage early? ::@:: Release the remaining _Unearned warranty revenue_ to _Warranty revenue_ because the company no longer has an outstanding performance obligation.
+- service-type warranty forfeiture: what happens if the customer gives up the remaining coverage early? ::@:: Release the remaining _Unearned warranty revenue_ to _Warranty revenue_ because the company no longer has an outstanding performance obligation. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
 
 ## premiums and coupons (consideration payable)
 
@@ -335,7 +335,7 @@ Representative journal entry examples:
 > | {@{Inventory of premiums}@}                                          | {@{44&nbsp;000}@} |                   |
 > | {@{Cash / Accounts payable}@}                                        |                   | {@{44&nbsp;000}@} |
 >
-> _Calculation._ Total cost per bowl = {@{2.00 + 0.20 = 2.20}@}; total premium inventory = {@{20&nbsp;000 × 2.20 = 44&nbsp;000}@}. The {@{transport cost is capitalized into Inventory of premiums}@} because it is part of getting the bowls ready for redemption.
+> _Calculation._ Total cost per bowl = {@{2.00 + 0.20 = 2.20}@}; total premium inventory = {@{20&nbsp;000 × 2.20 = 44&nbsp;000}@}. The {@{transport cost is capitalized into Inventory of premiums}@} because it is part of getting the bowls ready for redemption. <!--SR:!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,317-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Suncrest sells baking-mix cartons with a {@{promotion: 10 package seals plus 1 dollar = one ceramic bowl. Each bowl has carrying amount 2, and the customer pays 1 on redemption}@}. Estimate {@{60% of seals will be redeemed}@}. In 2025, {@{300&nbsp;000 cartons are sold and 60&nbsp;000 seals are redeemed during 2025, so 6&nbsp;000 bowls have already been issued}@}. At 31 December 2025, record the {@{adjusting entry for the remaining expected obligation from 2025 sales}@}.
@@ -356,7 +356,7 @@ Representative journal entry examples:
 > | {@{Premium liability}@}                 | {@{1}@} |         |
 > | {@{Inventory of premiums}@}             |         | {@{2}@} |
 >
-> _Explanation._ Cash {@{1 offsets part of the bowl's carrying amount of 2}@}; the remaining {@{1 net cost is absorbed by reducing Premium liability}@}. Redemption therefore uses the existing provision instead of recording a fresh premium expense for the same obligation.
+> _Explanation._ Cash {@{1 offsets part of the bowl's carrying amount of 2}@}; the remaining {@{1 net cost is absorbed by reducing Premium liability}@}. Redemption therefore uses the existing provision instead of recording a fresh premium expense for the same obligation. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ After recording current redemptions, Suncrest's {@{Premium liability still has a carrying amount of 4&nbsp;000}@}. Updated estimates show that the remaining obligation should be only {@{2&nbsp;500}@}. Record the adjustment because {@{future redemption is now expected to be less than previously estimated}@}.
@@ -366,7 +366,7 @@ Representative journal entry examples:
 > | {@{Premium liability}@}               | {@{1&nbsp;500}@} |                  |
 > | {@{Premium expense}@}                 |                  | {@{1&nbsp;500}@} |
 >
-> _Calculation._ Excess liability = {@{4&nbsp;000 − 2&nbsp;500 = 1&nbsp;500}@}. Because the rights have {@{not yet expired}@}, this is treated as a {@{change in estimate that reduces premium expense}@}, not as premium revenue.
+> _Calculation._ Excess liability = {@{4&nbsp;000 − 2&nbsp;500 = 1&nbsp;500}@}. Because the rights have {@{not yet expired}@}, this is treated as a {@{change in estimate that reduces premium expense}@}, not as premium revenue. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ After recording current redemptions, Suncrest's {@{Premium liability still has a carrying amount of 4&nbsp;000}@}. Updated estimates show that the remaining obligation should be {@{6&nbsp;000}@}. Record the adjustment because {@{future redemption is now expected to be more than previously estimated}@}.
@@ -376,7 +376,7 @@ Representative journal entry examples:
 > | {@{Premium expense}@}                                 | {@{2&nbsp;000}@} |                  |
 > | {@{Premium liability}@}                               |                  | {@{2&nbsp;000}@} |
 >
-> _Calculation._ Additional liability required = {@{6&nbsp;000 − 4&nbsp;000 = 2&nbsp;000}@}. The entity records {@{extra premium expense now because the expected future obligation has increased}@}.
+> _Calculation._ Additional liability required = {@{6&nbsp;000 − 4&nbsp;000 = 2&nbsp;000}@}. The entity records {@{extra premium expense now because the expected future obligation has increased}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,317!2026-04-12,4,317-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ At the end of 2026, {@{5&nbsp;000 of Suncrest's Premium liability remains and the related redemption rights have actually expired unused}@}. Transfer the remaining balance {@{to income because the obligation no longer exists}@}.
@@ -386,35 +386,35 @@ Representative journal entry examples:
 > | {@{Premium liability}@}                   | {@{5&nbsp;000}@} |                  |
 > | {@{Premium revenue (or Other income)}@}   |                  | {@{5&nbsp;000}@} |
 >
-> _Explanation._ This is different from a mere {@{change in estimate}@}: the rights have {@{actually expired}@}, so the obligation is extinguished and the remaining balance can be {@{transferred to income}@}. <!--SR:!2026-04-12,4,302!2026-04-12,4,297!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302-->
+> _Explanation._ This is different from a mere {@{change in estimate}@}: the rights have {@{actually expired}@}, so the obligation is extinguished and the remaining balance can be {@{transferred to income}@}. <!--SR:!2026-04-12,4,302!2026-04-12,4,297!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,322!2026-04-12,4,322-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- premiums and coupons create ::@:: Obligation to deliver goods or benefits at a future date (e.g. "10 box tops plus 1 dollar = one bowl").
-- premiums/coupons: past event ::@:: The sale of the product that gives the right to redeem (e.g. sale of cake mix boxes).
-- inventory of premiums ::@:: Separate inventory (or specifically identified regular inventory) held to satisfy premium redemptions before customers actually redeem.
-- inventory of premiums: initial purchase entry ::@:: Dr _Inventory of premiums_, Cr _Cash_/_Accounts payable_; measure at purchase price plus directly attributable costs such as freight-in/transport.
-- premium inventory: what costs are included? ::@:: Purchase price plus directly attributable costs to bring premium items to their present location and condition (e.g. transport/freight-in, import duties).
-- premium: net cost per redemption ::@:: Carrying amount of the premium item plus any other directly attributable fulfilment cost, less cash collected from customer; expense recognized in period of related sales.
-- premiums: when is expense recognized? ::@:: In the period of the related sales (matching); estimate future redemptions and Dr _Premium expense_, Cr _Premium liability_.
-- premium provision: when and what entry? ::@:: At end of period, estimate future redemptions from current-year sales; Dr _Premium expense_, Cr _Premium liability_ (net cost per redemption × estimated future redemptions still outstanding).
-- premium redemption: why is liability debited? ::@:: Because the entity already recognized the expected net cost as a provision when the related sale occurred; redemption uses up that obligation.
-- premium redemption: entry? ::@:: Dr _Cash_ (from customer, if any), Dr _Premium liability_, Cr _Inventory of premiums_; expense was already recognized via the provision.
-- premium redemption: cost to entity ::@:: Often (carrying amount of premium item − cash received from customer) per redemption; any transport or similar cost already capitalized into premium inventory is part of that carrying amount.
-- premium: how are transport or other costs for premium items handled? ::@:: Capitalize them in _Inventory of premiums_; they increase the carrying amount of the premium item and therefore increase the net cost/provision per redemption.
-- premium expiry (no redemption) ::@:: Dr _Premium liability_, Cr _Premium revenue_ (or other income) when redemption rights actually expire unused.
-- premium: net cost per redemption? Given bowl cost 2 and customer pays 1, what is net cost? ::@:: Cost to provide item minus cash received from customer; net cost 1 (e.g. bowl cost 2, customer pays 1 → net cost 1).
-- premium inventory: 20 000 bowls at 2.00 plus 0.20 transport—entry? ::@:: Dr _Inventory of premiums_ 44 000, Cr _Cash_/_Accounts payable_ 44 000.
-- premium provision: 300 000 boxes sold, 60% expected redemption, 60 000 tops already redeemed in 2025—year-end provision? ::@:: Expected bowls = 18 000; already issued = 6 000; remaining = 12 000; net cost 1, so Dr _Premium expense_ 12 000 and Cr _Premium liability_ 12 000.
-- premium redemption: entry when customer redeems (e.g. 10 box tops plus 1 for bowl)? ::@:: Dr _Cash_ (from customer), Dr _Premium liability_, Cr _Inventory of premiums_ (cost of item given).
-- premium redemption: receive 1, give bowl cost 2, liability reduced 1 —entry? ::@:: Dr _Cash_ 1, Dr _Premium liability_ 1, Cr _Inventory of premiums_ 2.
-- premium: redemption less than expected before rights expire ::@:: If revised required liability is lower than carrying amount, Dr _Premium liability_, Cr _Premium expense_ (or recovery of premium expense) for the excess.
-- premium: redemption more than expected ::@:: If revised required liability is higher than carrying amount, Dr _Premium expense_, Cr _Premium liability_ for the shortfall.
-- premium expiry vs lower estimate ::@:: Lower estimate before expiry adjusts _Premium expense_; actual expiry releases remaining liability to _Premium revenue_/_Other income_ because the obligation has ended.
-- premium expiry: when redemption rights expire, entry? ::@:: Dr _Premium liability_, Cr _Premium revenue_ (or _Other income_).
-- premium liability 5 000 expires unused—entry? ::@:: Dr _Premium liability_ 5 000, Cr _Premium revenue_ (or _Other income_) 5 000.
+- premiums and coupons create ::@:: Obligation to deliver goods or benefits at a future date (e.g. "10 box tops plus 1 dollar = one bowl"). <!--SR:!2026-04-12,4,317!2026-04-12,4,316-->
+- premiums/coupons: past event ::@:: The sale of the product that gives the right to redeem (e.g. sale of cake mix boxes). <!--SR:!2026-04-12,4,322!2026-04-12,4,317-->
+- inventory of premiums ::@:: Separate inventory (or specifically identified regular inventory) held to satisfy premium redemptions before customers actually redeem. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- inventory of premiums: initial purchase entry ::@:: Dr _Inventory of premiums_, Cr _Cash_/_Accounts payable_; measure at purchase price plus directly attributable costs such as freight-in/transport. <!--SR:!2026-04-12,4,317!2026-04-12,4,317-->
+- premium inventory: what costs are included? ::@:: Purchase price plus directly attributable costs to bring premium items to their present location and condition (e.g. transport/freight-in, import duties). <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium: net cost per redemption ::@:: Carrying amount of the premium item plus any other directly attributable fulfilment cost, less cash collected from customer; expense recognized in period of related sales. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premiums: when is expense recognized? ::@:: In the period of the related sales (matching); estimate future redemptions and Dr _Premium expense_, Cr _Premium liability_. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium provision: when and what entry? ::@:: At end of period, estimate future redemptions from current-year sales; Dr _Premium expense_, Cr _Premium liability_ (net cost per redemption × estimated future redemptions still outstanding). <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium redemption: why is liability debited? ::@:: Because the entity already recognized the expected net cost as a provision when the related sale occurred; redemption uses up that obligation. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium redemption: entry? ::@:: Dr _Cash_ (from customer, if any), Dr _Premium liability_, Cr _Inventory of premiums_; expense was already recognized via the provision. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium redemption: cost to entity ::@:: Often (carrying amount of premium item − cash received from customer) per redemption; any transport or similar cost already capitalized into premium inventory is part of that carrying amount. <!--SR:!2026-04-12,4,322!2026-04-12,4,317-->
+- premium: how are transport or other costs for premium items handled? ::@:: Capitalize them in _Inventory of premiums_; they increase the carrying amount of the premium item and therefore increase the net cost/provision per redemption. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium expiry (no redemption) ::@:: Dr _Premium liability_, Cr _Premium revenue_ (or other income) when redemption rights actually expire unused. <!--SR:!2026-04-12,4,317!2026-04-12,4,317-->
+- premium: net cost per redemption? Given bowl cost 2 and customer pays 1, what is net cost? ::@:: Cost to provide item minus cash received from customer; net cost 1 (e.g. bowl cost 2, customer pays 1 → net cost 1). <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium inventory: 20 000 bowls at 2.00 plus 0.20 transport—entry? ::@:: Dr _Inventory of premiums_ 44 000, Cr _Cash_/_Accounts payable_ 44 000. <!--SR:!2026-04-12,4,317!2026-04-12,4,322-->
+- premium provision: 300 000 boxes sold, 60% expected redemption, 60 000 tops already redeemed in 2025—year-end provision? ::@:: Expected bowls = 18 000; already issued = 6 000; remaining = 12 000; net cost 1, so Dr _Premium expense_ 12 000 and Cr _Premium liability_ 12 000. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium redemption: entry when customer redeems (e.g. 10 box tops plus 1 for bowl)? ::@:: Dr _Cash_ (from customer), Dr _Premium liability_, Cr _Inventory of premiums_ (cost of item given). <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium redemption: receive 1, give bowl cost 2, liability reduced 1 —entry? ::@:: Dr _Cash_ 1, Dr _Premium liability_ 1, Cr _Inventory of premiums_ 2. <!--SR:!2026-04-12,4,317!2026-04-12,4,317-->
+- premium: redemption less than expected before rights expire ::@:: If revised required liability is lower than carrying amount, Dr _Premium liability_, Cr _Premium expense_ (or recovery of premium expense) for the excess. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium: redemption more than expected ::@:: If revised required liability is higher than carrying amount, Dr _Premium expense_, Cr _Premium liability_ for the shortfall. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium expiry vs lower estimate ::@:: Lower estimate before expiry adjusts _Premium expense_; actual expiry releases remaining liability to _Premium revenue_/_Other income_ because the obligation has ended. <!--SR:!2026-04-12,4,317!2026-04-12,4,322-->
+- premium expiry: when redemption rights expire, entry? ::@:: Dr _Premium liability_, Cr _Premium revenue_ (or _Other income_). <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- premium liability 5 000 expires unused—entry? ::@:: Dr _Premium liability_ 5 000, Cr _Premium revenue_ (or _Other income_) 5 000. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
 
 ## environmental provisions (asset retirement obligation / decommissioning)
 
@@ -465,9 +465,9 @@ Representative journal entry examples:
 > | ----------------------------------------------- | --------------- | ------------- |
 > | {@{Environmental liability (ARO)}@}             | {@{1 000 000}@} |               |
 > | {@{Cash / Accounts payable}@}                   |                 | {@{995 000}@} |
-> | {@{Gain on settlement}@}                        |                 | {@{5 000}@}   | <!--SR:!2026-04-12,4,286!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302-->
+> | {@{Gain on settlement}@}                        |                 | {@{5 000}@}   |
 >
-> _Calculation._ Carrying amount of liability {@{1&nbsp;000&nbsp;000}@} minus settlement cash {@{995&nbsp;000}@} = {@{5&nbsp;000 gain}@}. If the cash paid had been higher than the carrying amount, the difference would be a {@{loss on settlement}@} instead.
+> _Calculation._ Carrying amount of liability {@{1&nbsp;000&nbsp;000}@} minus settlement cash {@{995&nbsp;000}@} = {@{5&nbsp;000 gain}@}. If the cash paid had been higher than the carrying amount, the difference would be a {@{loss on settlement}@} instead. <!--SR:!2026-04-12,4,286!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,317!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,316-->
 
 ---
 
@@ -503,9 +503,9 @@ Representative journal entry examples:
 > | {@{Recognise onerous contract provision}@} | Dr            | Cr            |
 > | ------------------------------------------ | ------------- | ------------- |
 > | {@{Loss on onerous contract}@}             | {@{200 000}@} |               |
-> | {@{Onerous contract liability}@}           |               | {@{200 000}@} | <!--SR:!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,297!2026-04-12,4,302-->
+> | {@{Onerous contract liability}@}           |               | {@{200 000}@} | 
 >
-> _Calculation._ Required provision = {@{200&nbsp;000}@} because the contract must still be fulfilled and there is {@{no cheaper exit option}@}.
+> _Calculation._ Required provision = {@{200&nbsp;000}@} because the contract must still be fulfilled and there is {@{no cheaper exit option}@}. <!--SR:!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,297!2026-04-12,4,302!2026-04-12,4,322!2026-04-12,4,322-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ {@{Same Meridian contract}@}, but the company can {@{cancel by paying a penalty of 80 000}@}. Recognise the onerous contract provision.
@@ -513,9 +513,9 @@ Representative journal entry examples:
 > | {@{Recognise onerous contract provision (use lower amount)}@} | Dr           | Cr           |
 > | ------------------------------------------------------------- | ------------ | ------------ |
 > | {@{Loss on onerous contract}@}                                | {@{80 000}@} |              |
-> | {@{Onerous contract liability}@}                              |              | {@{80 000}@} | <!--SR:!2026-04-12,4,286!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302-->
+> | {@{Onerous contract liability}@}                              |              | {@{80 000}@} | 
 >
-> _Calculation._ Lower of fulfilment cost {@{200&nbsp;000}@} and exit penalty {@{80&nbsp;000}@} = {@{80&nbsp;000}@}, so the entity provides for the {@{cheaper unavoidable cost}@}.
+> _Calculation._ Lower of fulfilment cost {@{200&nbsp;000}@} and exit penalty {@{80&nbsp;000}@} = {@{80&nbsp;000}@}, so the entity provides for the {@{cheaper unavoidable cost}@}. <!--SR:!2026-04-12,4,286!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,302!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
 
 ---
 
@@ -543,23 +543,23 @@ Representative journal entry example:
 > | {@{Recognise restructuring provision}@} | Dr            | Cr            |
 > | --------------------------------------- | ------------- | ------------- |
 > | {@{Restructuring expense}@}             | {@{500 000}@} |               |
-> | {@{Restructuring liability}@}           |               | {@{500 000}@} | <!--SR:!2026-04-12,4,270!2026-04-12,4,270!2026-04-12,4,302!2026-04-12,4,270!2026-04-12,4,302!2026-04-12,4,286!2026-04-12,4,302-->
+> | {@{Restructuring liability}@}           |               | {@{500 000}@} |
 >
-> _Explanation._ The provision includes only {@{direct, traceable exit costs that become unavoidable once the restructuring plan creates a present obligation}@}. Costs such as {@{training, relocation of retained staff, marketing, or new systems for the new setup}@} are excluded because they are {@{costs of the future project / future operations, not costs of exiting the old structure}@}.
+> _Explanation._ The provision includes only {@{direct, traceable exit costs that become unavoidable once the restructuring plan creates a present obligation}@}. Costs such as {@{training, relocation of retained staff, marketing, or new systems for the new setup}@} are excluded because they are {@{costs of the future project / future operations, not costs of exiting the old structure}@}. <!--SR:!2026-04-12,4,270!2026-04-12,4,270!2026-04-12,4,302!2026-04-12,4,270!2026-04-12,4,302!2026-04-12,4,286!2026-04-12,4,302!2026-04-12,4,317!2026-04-12,4,317!2026-04-12,4,322-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- restructuring ::@:: Program planned and controlled by management that materially changes the scope of a business or how it is conducted (e.g. closing a division).
-- restructuring provision: two key conditions ::@:: (1) Detailed formal plan and (2) valid expectation created in affected parties (constructive obligation).
-- restructuring: what creates a valid expectation? ::@:: Communicating the decision or starting implementation (e.g. notices to employees, warnings to customers/suppliers), creating a constructive obligation.
-- restructuring provision: costs included ::@:: Direct/traceable costs arising from restructuring (e.g. employee termination, contract termination, onerous contract costs).
-- restructuring provision: costs excluded ::@:: Exclude costs of the new project or future operations—such as training, relocating retained staff, marketing, administration, and new systems—because they are not exit obligations created by the restructuring itself.
-- restructuring: avoidability test for included vs excluded costs ::@:: Include a cost only if it becomes unavoidable once the restructuring decision and valid expectation exist—that is, the cost can be avoided only by not restructuring at all. If management could still avoid or redesign the cost by changing the new project, exclude it.
-- restructuring costs: rationale for inclusion/exclusion ::@:: A restructuring provision should measure the liability to exit the old structure, not the cost of building or running the new one. So include unavoidable exit costs (e.g. severance, contract termination, onerous contracts) and exclude startup or future-operating costs (e.g. training, relocation, marketing, new systems) that belong to whatever comes next.
-- restructuring: exit costs vs new-project costs ::@:: Exit costs of the old structure belong in the provision if they are unavoidable once restructuring is committed. New-project or setup costs for the replacement structure do not; they are recognized later when the new activity is actually carried out.
-- restructuring provision: entry? ::@:: Dr _Restructuring expense_, Cr _Restructuring liability_ (for qualifying direct/traceable costs once obligation exists).
+- restructuring ::@:: Program planned and controlled by management that materially changes the scope of a business or how it is conducted (e.g. closing a division). <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- restructuring provision: two key conditions ::@:: (1) Detailed formal plan and (2) valid expectation created in affected parties (constructive obligation). <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- restructuring: what creates a valid expectation? ::@:: Communicating the decision or starting implementation (e.g. notices to employees, warnings to customers/suppliers), creating a constructive obligation. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- restructuring provision: costs included ::@:: Direct/traceable costs arising from restructuring (e.g. employee termination, contract termination, onerous contract costs). <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- restructuring provision: costs excluded ::@:: Exclude costs of the new project or future operations—such as training, relocating retained staff, marketing, administration, and new systems—because they are not exit obligations created by the restructuring itself. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- restructuring: avoidability test for included vs excluded costs ::@:: Include a cost only if it becomes unavoidable once the restructuring decision and valid expectation exist—that is, the cost can be avoided only by not restructuring at all. If management could still avoid or redesign the cost by changing the new project, exclude it. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- restructuring costs: rationale for inclusion/exclusion ::@:: A restructuring provision should measure the liability to exit the old structure, not the cost of building or running the new one. So include unavoidable exit costs (e.g. severance, contract termination, onerous contracts) and exclude startup or future-operating costs (e.g. training, relocation, marketing, new systems) that belong to whatever comes next. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- restructuring: exit costs vs new-project costs ::@:: Exit costs of the old structure belong in the provision if they are unavoidable once restructuring is committed. New-project or setup costs for the replacement structure do not; they are recognized later when the new activity is actually carried out. <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
+- restructuring provision: entry? ::@:: Dr _Restructuring expense_, Cr _Restructuring liability_ (for qualifying direct/traceable costs once obligation exists). <!--SR:!2026-04-12,4,322!2026-04-12,4,322-->
 
 ## contingent liabilities and contingent assets
 

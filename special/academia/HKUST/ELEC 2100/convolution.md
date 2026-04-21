@@ -157,7 +157,7 @@ These kernels are therefore reusable operators inside the convolution language i
 
 Flashcards for this section are as follows:
 
-- Why is treating a delay as a shifted impulse useful in convolution? ::@:: It lets delay be handled as an ordinary convolution factor, so the same swap and regroup logic applies.
+- Why is treating a delay as a shifted impulse useful in convolution? ::@:: It lets delay be handled as an ordinary convolution factor, so the same swap and regroup logic applies. <!--SR:!2026-04-12,4,304!2026-04-12,4,304-->
 - What delay identity does convolution satisfy when one factor is shifted by $t_0$? ::@:: If $g(t)=f_1(t)*f_2(t)$, then delaying either factor by $t_0$ delays the output by the same amount, so $f_1(t-t_0)*f_2(t)=g(t-t_0)$ and $f_1(t)*f_2(t-t_0)=g(t-t_0)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
 - Why does delaying one convolution factor simply delay the output of an LTI system? ::@:: Because delaying the excitation before the system should simply delay the response, and convolution preserves exactly that behaviour. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
 - How does the overlap picture explain why a delayed factor shifts the convolution output? ::@:: A pure delay slides one factor horizontally without changing its shape, so the overlap picture at time $t$ is exactly the old overlap picture at time $t-t_0$; the output graph is therefore shifted rigidly by the same amount. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
@@ -190,8 +190,8 @@ The main intuition is that convolution is built from shifting, weighting, and ad
 
 Flashcards for this section are as follows:
 
-- What two structural properties explain most later convolution shortcuts? ::@:: Commutativity and associativity.
-- Which basic kernel types keep reappearing in the note? ::@:: The unit impulse, the shifted impulse, the impulse derivative, and the unit step; together they model identity, delay, differentiation, and integration.
+- What two structural properties explain most later convolution shortcuts? ::@:: Commutativity and associativity. <!--SR:!2026-04-12,4,304!2026-04-12,4,304-->
+- Which basic kernel types keep reappearing in the note? ::@:: The unit impulse, the shifted impulse, the impulse derivative, and the unit step; together they model identity, delay, differentiation, and integration. <!--SR:!2026-04-12,4,304!2026-04-12,4,304-->
 - What derivative-transfer rule does convolution satisfy for $g=f*h$? ::@:: One may differentiate either factor: $g'(t)=f'(t)*h(t)=f(t)*h'(t)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,290-->
 - How do you derive $g'=f*h'$ by differentiating under the integral sign? ::@:: Differentiate under the integral sign: if $g(t)=\int f(\tau)h(t-\tau)\,d\tau$, then $g'(t)=\int f(\tau)h'(t-\tau)\,d\tau=(f*h')(t)$. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
 - What is the $k$-th-order derivative-transfer rule for convolution? ::@:: For every integer $k\ge 0$ for which the generalized derivatives exist, $g^{(k)}(t)=f^{(k)}(t)*h(t)=f(t)*h^{(k)}(t)$. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
@@ -200,7 +200,7 @@ Flashcards for this section are as follows:
 - How can integration be viewed as convolving with an antiderivative in zero-state form? ::@:: Integrating the output is equivalent to convolving one factor with the integrated form of the other factor in the same zero-state accumulation sense. <!--SR:!2026-04-12,4,290!2026-04-12,4,290-->
 - How can $f*h$ be rewritten as $f^{(-1)}*h'=f'*h^{(-1)}$ when zero-state antiderivatives exist? ::@:: It can be rewritten as $f*h=f^{(-1)}*h'=f'*h^{(-1)}$ whenever the relevant zero-state derivatives and antiderivatives exist. <!--SR:!2026-04-12,4,290!2026-04-12,4,270-->
 - Why do differentiation and integration commute with convolution under the usual regularity assumptions? ::@:: Because convolution is built from linear shifting, weighting, and addition, and differentiation and integration commute with those constructions under the usual regularity assumptions. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- Why do the derivative and unit-step kernels feel like operator shortcuts? ::@:: Because they let differentiation and accumulation be moved through the convolution sign without recomputing the whole integral.
+- Why do the derivative and unit-step kernels feel like operator shortcuts? ::@:: Because they let differentiation and accumulation be moved through the convolution sign without recomputing the whole integral. <!--SR:!2026-04-12,4,304!2026-04-12,4,304-->
 
 ## impulse-pair shortcut for a gate kernel
 
