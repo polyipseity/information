@@ -113,8 +113,7 @@ For inline `# /// script` metadata, keep keys alphabetized
 (`dependencies`, `requires-python`, `timestamp`) and set
 `requires-python = ">=3.13.0"`.
 
-Install/update dependencies with `bun install` or
-`uv sync --all-extras --dev`.
+Install/update dependencies with `bun install` or `uv sync`.
 
 ### External tools
 
@@ -216,7 +215,7 @@ If changes are needed, ask user for permission first.
 ## Common issues
 
 1. **Cache staleness**: Use `-C` / `--no-cached` if init.py skips changed files
-2. **Module import errors**: Ensure `pyproject.toml` dependencies are synced via `bun install` or `uv sync --all-extras --dev`
+2. **Module import errors**: Ensure `pyproject.toml` dependencies are synced via `bun install` or `uv sync`
 3. **Git submodule out of date**: Run `git submodule update --remote`
 4. **Path encoding issues**: Ensure `%20` encoding for spaces in links
 5. **Clipboard access**: Some tools require clipboard support (may fail in headless environments)
