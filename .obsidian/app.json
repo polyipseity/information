@@ -1,30 +1,13 @@
 {
-  "spellcheck": true,
-  "strictLineBreaks": true,
-  "showFrontmatter": true,
-  "foldIndent": true,
-  "foldHeading": true,
-  "defaultViewMode": "preview",
-  "showLineNumber": true,
-  "tabSize": 2,
-  "vimMode": true,
   "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": true,
-  "promptDelete": false,
+  "attachmentFolderPath": "./attachments",
+  "defaultViewMode": "preview",
+  "focusNewTab": false,
+  "foldHeading": true,
+  "foldIndent": true,
   "legacyEditor": false,
   "livePreview": true,
-  "newFileLocation": "current",
-  "attachmentFolderPath": "./attachments",
-  "useMarkdownLinks": true,
-  "pdfExportSettings": {
-    "includeName": false,
-    "pageSize": "A4",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 100
-  },
-  "newLinkFormat": "relative",
-  "rightToLeft": false,
+  "mobilePullAction": "command-palette:open",
   "mobileToolbarCommands": [
     "editor:cut",
     "editor:copy",
@@ -52,15 +35,32 @@
     "editor:configure-toolbar",
     "editor:toggle-source"
   ],
-  "mobilePullAction": "command-palette:open",
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "pdfExportSettings": {
+    "downscalePercent": 100,
+    "includeName": false,
+    "landscape": false,
+    "margin": "0",
+    "pageSize": "A4"
+  },
+  "promptDelete": false,
+  "readableLineLength": false,
+  "rightToLeft": false,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "showUnsupportedFiles": true,
+  "spellcheck": true,
+  "strictLineBreaks": true,
+  "tabSize": 2,
+  "uriCallbacks": true,
+  "useMarkdownLinks": true,
   "userIgnoreFilters": [
     "/(?:^|/)\\./",
     "/__pycache__/",
     "/node_modules/",
-    "tools/"
+    "scripts/"
   ],
-  "focusNewTab": false,
-  "readableLineLength": false,
   "useTab": false,
-  "uriCallbacks": true
+  "vimMode": true
 }

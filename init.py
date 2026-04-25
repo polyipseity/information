@@ -1,14 +1,7 @@
 from argparse import ONE_OR_MORE, ArgumentParser, Namespace
 from collections import defaultdict
-from collections.abc import (
-    AsyncIterator,
-    Awaitable,
-    Callable,
-    Collection,
-    Iterable,
-    MutableMapping,
-    Sequence,
-)
+from collections.abc import (AsyncIterator, Awaitable, Callable, Collection,
+                             Iterable, MutableMapping, Sequence)
 from dataclasses import dataclass
 from functools import wraps
 from inspect import currentframe, getframeinfo
@@ -292,7 +285,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
 
     parser = (ArgumentParser if parent is None else parent)(
         prog=prog,
-        description="input wrapper for tools",
+        description="input wrapper for scripts",
         add_help=True,
         allow_abbrev=False,
         exit_on_error=False,

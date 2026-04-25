@@ -81,7 +81,7 @@ Repository gotchas & quick tips
    - Run `bun run format` and `bun run check` before committing. Use the Todo List Tool for multi-step changes and show progress.
 
 2. Submodule & sensitive data rules
-   - **Do not** modify `private/`, `tools/pytextgen/`, `tools/pyarchivist/`, or the actual `self/*` git submodules (`self/arts/`, `self/capture the flag/`, `self/ledger/`, `self/passwords/`, `self/polyipseity/`) without explicit owner approval; check the submodule `AGENTS.md` first.
+   - **Do not** modify `private/`, `scripts/pytextgen/`, `scripts/pyarchivist/`, or the actual `self/*` git submodules (`self/arts/`, `self/capture the flag/`, `self/ledger/`, `self/passwords/`, `self/polyipseity/`) without explicit owner approval; check the submodule `AGENTS.md` first.
    - `self/stash/` is not a submodule, but it is still user-owned scratch space; only edit it when the user explicitly asks.
    - Avoid exposing or handling PII unless instructed and explicitly approved by the repository owner.
 

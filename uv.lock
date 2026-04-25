@@ -793,11 +793,11 @@ requires-dist = [
     { name = "jaraco-clipboard", specifier = ">=3.1.0" },
     { name = "markdown", specifier = ">=3.6.0" },
     { name = "numpy", specifier = ">=2.0.0" },
-    { name = "pyarchivist", directory = "tools/pyarchivist" },
+    { name = "pyarchivist", directory = "scripts/pyarchivist" },
     { name = "pydantic", specifier = ">=2.13.1" },
     { name = "pydantic-yaml", specifier = ">=1.6.0" },
     { name = "pyperclip", specifier = ">=1.9.0" },
-    { name = "pytextgen", directory = "tools/pytextgen" },
+    { name = "pytextgen", directory = "scripts/pytextgen" },
     { name = "pyyaml", specifier = ">=6.0.0" },
     { name = "rich", specifier = ">=15.0.0" },
     { name = "uvloop", marker = "sys_platform != 'win32'", specifier = ">=0.22.0" },
@@ -1736,7 +1736,7 @@ wheels = [
 [[package]]
 name = "pyarchivist"
 version = "3.1.0"
-source = { directory = "tools/pyarchivist" }
+source = { directory = "scripts/pyarchivist" }
 dependencies = [
     { name = "aiohttp" },
     { name = "anyio" },
@@ -4542,7 +4542,7 @@ wheels = [
 [[package]]
 name = "pytextgen"
 version = "9.0.1"
-source = { directory = "tools/pytextgen" }
+source = { directory = "scripts/pytextgen" }
 dependencies = [
     { name = "anyio" },
     { name = "asyncer" },

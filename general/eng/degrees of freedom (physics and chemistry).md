@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../scripts/utility.py.md
 ```
 
 ## thermodynamic degrees of freedom for gases
@@ -22,7 +22,7 @@ tags:
 
 ```Python
 # pytextgen generate data
-# import ../../tools/utility.py.md
+# import ../../scripts/utility.py.md
 from asyncer import create_task_group
 from itertools import chain
 headers = ("type", "[monoatomic](monoatomic%20gas.md)", "[linear molecules](linear%20molecular%20geometry.md)", "[non-linear molecules](molecular%20geometry.md)",)

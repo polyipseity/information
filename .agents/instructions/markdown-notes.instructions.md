@@ -81,7 +81,7 @@ authors should know which one they are using and keep the syntax exact.
 
 ## Submodules
 
-- **`self/arts/**`, `self/capture the flag/**`, `self/ledger/**`, `self/passwords/**`, `self/polyipseity/**`, `private/**`, `tools/pytextgen/`, `tools/pyarchivist/`**: Treat as read-only unless user explicitly approves
+- **`self/arts/**`, `self/capture the flag/**`, `self/ledger/**`, `self/passwords/**`, `self/polyipseity/**`, `private/**`, `scripts/pytextgen/`, `scripts/pyarchivist/`**: Treat as read-only unless user explicitly approves
 - **`self/stash/`** is not a git submodule; if it is relevant to a notes task, still treat it as user-owned scratch space and avoid editing it unless requested.
 - **Policy**: Ask user before editing submodule content; follow submodule's own `AGENTS.md` after permission granted
 - **Testing**: Always test changes thoroughly before committing (see related skill documentation)
@@ -94,5 +94,5 @@ authors should know which one they are using and keep the syntax exact.
 
 ## Developer tooling & testing (notes-related changes)
 
-- If you change code that modifies Markdown (`init.py`, `tools/pytextgen`, or converters), add tests that validate generated output and round-trip behaviour. Unit-tests should check small deterministic inputs; integration tests should run the generator end-to-end in `tmp_path: os.PathLike[str]` (annotate the `tmp_path` fixture as `PathLike[str]`) and assert output files and fence contents. When converting path-like objects to `str` in tests or code use `os.fspath(path_like)`.
+- If you change code that modifies Markdown (`init.py`, `scripts/pytextgen`, or converters), add tests that validate generated output and round-trip behaviour. Unit-tests should check small deterministic inputs; integration tests should run the generator end-to-end in `tmp_path: os.PathLike[str]` (annotate the `tmp_path` fixture as `PathLike[str]`) and assert output files and fence contents. When converting path-like objects to `str` in tests or code use `os.fspath(path_like)`.
 - For content edits, include a test that verifies generated output is stable without requiring the generator to be executed; avoid running `uv run -m init generate` during automated tests, and agents should not perform it.

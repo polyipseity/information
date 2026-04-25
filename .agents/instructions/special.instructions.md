@@ -88,7 +88,7 @@ special/academia/
 - **Institution-level `index.md`**: Lists all courses by semester (most recent first)
 - **Course-level `index.md`**: Overview, teaching order, week-by-week breakdown, assessments
 - **Cross-references**: Link to related `general/` articles for concepts (e.g., `[most vexing parse](../../../../general/most%20vexing%20parse.md)`)
-- **Academic converters** in `tools/special/` help maintain these indexes (see [§ Tools](#tools-in-toolsspecial))
+- **Academic converters** in `scripts/special/` help maintain these indexes (see [§ Tools](#tools-in-toolsspecial))
 
 ### 2. Online Course Materials
 
@@ -360,7 +360,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
    - Licensing: Some include `LICENSE.txt` files from upstream sources
 
 4. **Updates**:
-   - Academic: Manual editing or via `tools/special/` LMS converters
+   - Academic: Manual editing or via `scripts/special/` LMS converters
    - Online courses: Manual note-taking and synthesis
    - Programming refs: Manual extraction from documentation
    - Classical texts: Manual transcription with scholarly annotations
@@ -376,7 +376,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
    - Links between related `special/` content (e.g., prerequisites between courses)
    - Links to external sources (official docs, course websites)
 
-## Tools in tools/special/
+## Tools in scripts/special/
 
 **Academic converters** (LMS export processors):
 
@@ -471,10 +471,10 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
   - Common: `../../archives/Wikimedia%20Commons/` for IPA audio, images
   - Less common: `../../archives/sparse/` for specialized content
   
-- **`tools/`**:
-  - `tools/special/`: Academic LMS converters for maintaining `special/academia/`
-  - `tools/pytextgen/`: Content generation library used throughout `special/` for flashcards
-  - `tools/utility.py.md`: Utility module imported by many `special/` notes for pytextgen helpers
+- **`scripts/`**:
+  - `scripts/special/`: Academic LMS converters for maintaining `special/academia/`
+  - `scripts/pytextgen/`: Content generation library used throughout `special/` for flashcards
+  - `scripts/utility.py.md`: Utility module imported by many `special/` notes for pytextgen helpers
 
 For `pytextgen` usage patterns and regeneration guidance see `special-pytextgen.instructions.md` (keeps `special.instructions.md` focused on organization and editorial conventions).
 

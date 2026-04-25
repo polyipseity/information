@@ -23,10 +23,10 @@
 	url = ../information-private.git
 	branch = main
 [submodule "pyarchivist"]
-	path = tools/pyarchivist
+	path = scripts/pyarchivist
 	url = ../pyarchivist.git
 	branch = main
 [submodule "pytextgen"]
-	path = tools/pytextgen
+	path = scripts/pytextgen
 	url = ../pytextgen.git
 	branch = main

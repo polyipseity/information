@@ -6,7 +6,7 @@ applyTo: "**/*.py"
 
 # Python Entry Points Convention
 
-This document establishes a repository-wide convention for how Python scripts and modules expose entry points for direct execution. All runnable Python files — whether scripts in `tools/`, `scripts/`, `special/`, or module `__main__.py` files — must follow this pattern.
+This document establishes a repository-wide convention for how Python scripts and modules expose entry points for direct execution. All runnable Python files — whether scripts in `scripts/`, `scripts/`, `special/`, or module `__main__.py` files — must follow this pattern.
 
 ## Shebang Requirement
 
@@ -158,7 +158,7 @@ if __name__ == "__main__":
 
 ## Pattern: Module `__main__.py` (Multi-Module Dispatch)
 
-For packages with subcommands (e.g., `tools/pytextgen/`, where users can call `python -m pytextgen`, `python -m pytextgen.generate`, etc.), use the same pattern:
+For packages with subcommands (e.g., `scripts/pytextgen/`, where users can call `python -m pytextgen`, `python -m pytextgen.generate`, etc.), use the same pattern:
 
 ```python
 """pytextgen entry point."""
@@ -306,7 +306,7 @@ if __name__ == "__main__":
 
 ## Submodule & External Tool Scripts
 
-Scripts in Git submodules (`tools/pytextgen/`, `tools/pyarchivist/`, `self/ledger/`, `self/arts/`) must follow this convention within their own repositories. When updating those submodules:
+Scripts in Git submodules (`scripts/pytextgen/`, `scripts/pyarchivist/`, `self/ledger/`, `self/arts/`) must follow this convention within their own repositories. When updating those submodules:
 
 1. Check the submodule's own `.agents/instructions/python-entry-points.instructions.md` first (if it exists).
 2. If no entry-point instructions exist in the submodule, apply this repository's convention.
@@ -314,11 +314,11 @@ Scripts in Git submodules (`tools/pytextgen/`, `tools/pyarchivist/`, `self/ledge
 
 **Repository submodules with entry points**:
 
-- `tools/pytextgen/src/pytextgen/__main__.py` — already follows the pattern
-- `tools/pytextgen/src/pytextgen/generate/__main__.py` — already follows the pattern
-- `tools/pytextgen/src/pytextgen/clear/__main__.py` — already follows the pattern
-- `tools/pyarchivist/src/pyarchivist/__main__.py` — already follows the pattern
-- `tools/pyarchivist/src/pyarchivist/Wikimedia_Commons/__main__.py` — already follows the pattern
+- `scripts/pytextgen/src/pytextgen/__main__.py` — already follows the pattern
+- `scripts/pytextgen/src/pytextgen/generate/__main__.py` — already follows the pattern
+- `scripts/pytextgen/src/pytextgen/clear/__main__.py` — already follows the pattern
+- `scripts/pyarchivist/src/pyarchivist/__main__.py` — already follows the pattern
+- `scripts/pyarchivist/src/pyarchivist/Wikimedia_Commons/__main__.py` — already follows the pattern
 - `self/ledger/scripts/*.py` — follow this convention
 - `self/arts/scripts/*.py` — follow this convention
 
@@ -373,7 +373,7 @@ async def test_main_error_handling(tmp_path: Path):
 ## Related Guidance
 
 - **Async helpers**: See `.agents/instructions/agent-quickstart.instructions.md` for Asyncer usage (`runnify`, `asyncify`, `soonify`, `create_task_group`)
-- **Script templates**: See `tools/templates/` for scaffold examples
+- **Script templates**: See `scripts/templates/` for scaffold examples
 - **Error handling**: Follow the project's error conventions (exit codes, stderr output)
 - **Logging**: Use Python's `logging` module with `basicConfig(level=INFO)` in `main()` when appropriate
 

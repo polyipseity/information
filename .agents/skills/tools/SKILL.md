@@ -13,9 +13,9 @@ Use this skill when working with repository-wide tools, understanding tool archi
 
 ## Tool categories
 
-The `tools/` directory contains all helper scripts and utilities:
+The `scripts/` directory contains all helper scripts and utilities:
 
-### Core scripts (tools/)
+### Core scripts (scripts/)
 
 1. **`init.py`**: Async wrapper for pytextgen with mtime/inode caching
    - Discovers changed `.md` files (excludes `.git`, `.obsidian`, `tools`)
@@ -48,18 +48,18 @@ The `tools/` directory contains all helper scripts and utilities:
 
 ### Subfolder tools
 
-- **`tools/special/`**: Academic LMS converters and course management (see `tools-special` skill)
+- **`scripts/special/`**: Academic LMS converters and course management (see `tools-special` skill)
   - Canvas/HKUST Zinc converters
   - Course catalog fetchers
 
-- **`tools/templates/`**: Note scaffolding and pytextgen templates (see `tools-templates` skill)
+- **`scripts/templates/`**: Note scaffolding and pytextgen templates (see `tools-templates` skill)
   - `new wiki page.py`
   - `pytextgen generate *.md` templates
 
 ### Submodule tools
 
-- **`tools/pytextgen/`**: Git submodule for content generation library (see `pytextgen` skill)
-- **`tools/pyarchivist/`**: Git submodule for archiving tool (see `pyarchivist` skill)
+- **`scripts/pytextgen/`**: Git submodule for content generation library (see `pytextgen` skill)
+- **`scripts/pyarchivist/`**: Git submodule for archiving tool (see `pyarchivist` skill)
 
 ## When to use this skill
 
@@ -79,7 +79,7 @@ The `tools/` directory contains all helper scripts and utilities:
 
 ### Academic course organization
 
-1. Convert LMS export: `uv run -m tools.special."convert Canvas submission"` (tools-special)
+1. Convert LMS export: `uv run -m scripts.special."convert Canvas submission"` (tools-special)
 2. Update index: Edit `special/academia/<Institution>/index.md`
 3. Add pytextgen fences; regeneration is handled by the build system and
    should not be invoked manually.
@@ -124,8 +124,8 @@ Install/update dependencies with `bun install` or
 
 ### Git submodules
 
-- `tools/pytextgen/`: Content generation engine
-- `tools/pyarchivist/`: Archiving tool
+- `scripts/pytextgen/`: Content generation engine
+- `scripts/pyarchivist/`: Archiving tool
 
 ### Agent‑internal scripts policy
 
@@ -221,14 +221,14 @@ If changes are needed, ask user for permission first.
 4. **Path encoding issues**: Ensure `%20` encoding for spaces in links
 5. **Clipboard access**: Some tools require clipboard support (may fail in headless environments)
 
-## Editing guidelines for tools/\*_/_.py
+## Editing guidelines for scripts/\*_/_.py
 
-When editing Python helper scripts in `tools/`:
+When editing Python helper scripts in `scripts/`:
 
 - **Preserve CLI surfaces**: Keep argument names, defaults, and help text stable; avoid breaking `uv run -m init generate/clear`, `uv run -m pack`, `uv run -m publish`, and other tool entrypoints
 - **Maintain async/anyio patterns**: Preserve async patterns using AnyIO APIs such as `anyio.Path` and `anyio.Semaphore`, but prefer importing helpers from Asyncer (e.g. `from asyncer import create_task_group`, `soonify`, `asyncify`) for better typing and editor support. The init wrapper has been refactored accordingly and includes its own thin `_gather`.
-- **Keep submodules read-only unless requested**: `tools/pytextgen`, `tools/pyarchivist`, `private/**`, and the actual `self/*` submodules (`self/arts/**`, `self/capture the flag/**`, `self/ledger/**`, `self/passwords/**`, `self/polyipseity/**`) are git submodules; ask user before editing. `self/stash/**` is not a submodule.
-- **Normalize newlines**: When touching the init wrapper, normalize to `\n`; do not bypass its exclusion list (`.git`, `.obsidian`, `tools`)
+- **Keep submodules read-only unless requested**: `scripts/pytextgen`, `scripts/pyarchivist`, `private/**`, and the actual `self/*` submodules (`self/arts/**`, `self/capture the flag/**`, `self/ledger/**`, `self/passwords/**`, `self/polyipseity/**`) are git submodules; ask user before editing. `self/stash/**` is not a submodule.
+- **Normalize newlines**: When touching the init wrapper, normalize to `\n`; do not bypass its exclusion list (`.git`, `.obsidian`, `scripts`)
 - **Favor relative imports**: Use relative imports within the tools package; do not hardcode absolute host paths
 - **Keep inline script metadata synchronized**: When editing a standalone script with inline `# /// script` metadata: (1) ensure the file begins with `#!/usr/bin/env python` shebang on line 1, (2) update the metadata together with `[dependency-groups].scripts`, (3) keep metadata keys alphabetized, and (4) retain `requires-python = ">=3.13.0"`.
 - **Test thoroughly**: Python tools are critical infrastructure; test changes carefully before committing

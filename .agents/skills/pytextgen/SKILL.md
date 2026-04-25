@@ -17,7 +17,7 @@ Use this skill when working with pytextgen-powered content generation, including
 
 ## What pytextgen does
 
-pytextgen is a Python library (git submodule in `tools/pytextgen/`) that generates content programmatically in Markdown files:
+pytextgen is a Python library (git submodule in `scripts/pytextgen/`) that generates content programmatically in Markdown files:
 
 - **Flashcard generation**: Creates spaced-repetition cards from cloze markup (`{@{ }@}`, `::@::`, `:@:`)
 - **Sequence exports**: Exports data structures as Markdown lists, tables, or custom formats
@@ -63,14 +63,14 @@ Clears generated content blocks without regenerating. Useful for:
 - Resolving merge conflicts in generated regions
 - Debugging generation issues by starting fresh
 
-**Other ClearType values** (see `tools/pytextgen/io.py`):
+**Other ClearType values** (see `scripts/pytextgen/io.py`):
 
 - `CONTENT`: Clear generated text only
 - Additional types available in pytextgen documentation
 
 ### Scaffold new pytextgen sections
 
-Use templates in `tools/templates/` to create new pytextgen fences:
+Use templates in `scripts/templates/` to create new pytextgen fences:
 
 - `pytextgen generate flashcards.md`: Flashcard section template
 - `pytextgen generate code.md`: Code block template
@@ -180,12 +180,12 @@ grep -n "# pytextgen generate" path/to/file.md
 - **Cache management**: Use `-C` when unsure if cache is stale
 - **Incremental regeneration**: Pass specific paths to regenerate only changed files
 - **Flashcard initialization**: Use `--init-flashcards` when creating new flashcard-enabled notes
-- **Submodule updates**: If pytextgen behavior changes, check for submodule updates (`git submodule update --remote tools/pytextgen`)
+- **Submodule updates**: If pytextgen behavior changes, check for submodule updates (`git submodule update --remote scripts/pytextgen`)
 
 ## When to ask for help
 
 - If fence syntax seems correct but generation fails, ask user to check pytextgen submodule version
-- If editing is required in `tools/pytextgen/**`, ask user for permission (it's a submodule)
+- If editing is required in `scripts/pytextgen/**`, ask user for permission (it's a submodule)
 - If cache behavior is unexpected, clarify with user before deleting cache files
 
 ## Integration with other workflows

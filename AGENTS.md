@@ -7,9 +7,9 @@ Personal Markdown knowledgebase with flashcards, tutorials, and archived online 
 - **`general/`**: Wikipedia encyclopedia articles (verbatim, flashcard-enabled)
 - **`special/`**: Coursework, tutorials, frameworks, language texts
 - **`archives/`**: Archived media and web content (Wikimedia Commons, sparse)
-- **`tools/`**: Python scripts (init, convert wiki, pack, publish, templates)
+- **`scripts/`**: Python scripts (init, convert wiki, pack, publish, templates)
 
-**Git submodules**: `self/arts/`, `self/capture the flag/`, `self/ledger/`, `self/passwords/`, `self/polyipseity/`, `private/`, `tools/pytextgen/`, `tools/pyarchivist/`
+**Git submodules**: `self/arts/`, `self/capture the flag/`, `self/ledger/`, `self/passwords/`, `self/polyipseity/`, `private/`, `scripts/pytextgen/`, `scripts/pyarchivist/`
 
 **Not a submodule**: `self/stash/` remains part of this repository and stores user-managed scratch scripts.
 
@@ -73,7 +73,7 @@ For detailed workflows, see [core-workflows.instructions.md](.agents/instruction
 - Testing conventions:
   - Tests are placed under `tests/` and must mirror the working tree structure where applicable (for example, `scripts/foo.py` → `tests/scripts/test_foo.py`).
   - Use `pytest` (config in `pyproject.toml`) and name tests `test_*.py`. Use `pytest.mark.anyio` for async tests with the AnyIO plugin and prefer deterministic fixtures (use `monkeypatch`, `tmp_path: os.PathLike[str]` and the `conftest.py` fixtures provided). When writing tests, annotate the `tmp_path` fixture as `PathLike[str]` where possible and, when converting path-like objects to strings, **always** use `os.fspath(path_like)` rather than `str(path_like)` so the filesystem path protocol is correctly respected.  Prefer importing concurrency helpers from Asyncer (`create_task_group`, `soonify`, `asyncify`) instead of calling `anyio.create_task_group` directly.
-  - Include tests for all substantive behavior changes, especially for scripts and tools (`tools/` and `scripts/`). Add tests that exercise error paths and edge cases.
+  - Include tests for all substantive behavior changes, especially for scripts and tools (`scripts/` and `scripts/`). Add tests that exercise error paths and edge cases.
   - CI and local pre-push both run the test suite: Husky `pre-push` runs `bun run test` which invokes `uv run --locked pytest`. The GitHub Actions CI runs `bun install --frozen-lockfile --ignore-scripts && uv sync --locked --all-extras --dev` and then `bun run check` and `bun run test` to validate changes.
 - Type checking: The repo uses `ty` configured via `[tool.ty]` in `pyproject.toml`. Run `uv run --locked ty check` as part of local checks and in lint-staged if appropriate.
 
@@ -146,8 +146,8 @@ Instruction files auto-apply via glob patterns. See `.agents/instructions/` for 
 
 - [submodule-self.instructions.md](.agents/instructions/submodule-self.instructions.md) → `self/arts/**, self/capture the flag/**, self/ledger/**, self/passwords/**, self/polyipseity/**`
 - [submodule-private.instructions.md](.agents/instructions/submodule-private.instructions.md) → `private/**`
-- [submodule-pytextgen.instructions.md](.agents/instructions/submodule-pytextgen.instructions.md) → `tools/pytextgen/**`
-- [submodule-pyarchivist.instructions.md](.agents/instructions/submodule-pyarchivist.instructions.md) → `tools/pyarchivist/**`
+- [submodule-pytextgen.instructions.md](.agents/instructions/submodule-pytextgen.instructions.md) → `scripts/pytextgen/**`
+- [submodule-pyarchivist.instructions.md](.agents/instructions/submodule-pyarchivist.instructions.md) → `scripts/pyarchivist/**`
 
 ## Agent skills
 

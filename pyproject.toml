@@ -128,12 +128,12 @@ exclude = [
   "special/academia/HKUST/**/*tutorial*/**/*.ipynb",
   "special/academia/HKUST/**/*tutorial*/**/*.py",
   # These contain their own ty configurations, and are not intended to be type-checked as part of this project.
+  "scripts/pyarchivist",
+  "scripts/pytextgen",
   "self/arts",
   "self/capture*",
   "self/ledger",
   "self/passwords",
-  "tools/pyarchivist",
-  "tools/pytextgen",
 ]
 
 [tool.uv]
@@ -146,8 +146,8 @@ module-name = []
 source-include = ["py.typed"]
 
 [tool.uv.sources]
-pyarchivist = { path = "tools/pyarchivist" }
-pytextgen = { path = "tools/pytextgen" }
+pyarchivist = { path = "scripts/pyarchivist" }
+pytextgen = { path = "scripts/pytextgen" }
 
 [tool.uv.workspace]
 members = [

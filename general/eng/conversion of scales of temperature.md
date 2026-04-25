@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../scripts/utility.py.md
 from asyncer import create_task_group
 from itertools import chain
 from pytextgen.compat.util import Location, NULL_LOCATION
