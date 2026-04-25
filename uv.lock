@@ -756,15 +756,7 @@ dependencies = [
     { name = "yarl" },
 ]
 
-[package.dev-dependencies]
-dev = [
-    { name = "hypothesis" },
-    { name = "pytest" },
-    { name = "pytest-cov" },
-    { name = "pytest-xdist" },
-    { name = "ruff" },
-    { name = "ty" },
-]
+[package.optional-dependencies]
 scripts = [
     { name = "anyio" },
     { name = "asyncer" },
@@ -777,33 +769,56 @@ scripts = [
     { name = "pyperclip" },
     { name = "requests" },
     { name = "schemdraw", extra = ["matplotlib", "svgmath"] },
-    { name = "uvloop", marker = "sys_platform != 'win32'" },
-    { name = "winloop", marker = "sys_platform == 'win32'" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "hypothesis" },
+    { name = "pytest" },
+    { name = "pytest-cov" },
+    { name = "pytest-xdist" },
+    { name = "ruff" },
+    { name = "ty" },
+]
+scripts = [
+    { name = "information-beb48618-576e-45ea-bd50-9e47279f88dc", extra = ["scripts"] },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "aiohttp", specifier = ">=3.9.0" },
     { name = "anyio", specifier = ">=3.6.0" },
+    { name = "anyio", marker = "extra == 'scripts'", specifier = ">=3.6.0" },
     { name = "asyncer", specifier = ">=0.0.17" },
+    { name = "asyncer", marker = "extra == 'scripts'", specifier = ">=0.0.17" },
     { name = "asyncstdlib", specifier = ">=3.10.0" },
     { name = "beautifulsoup4", specifier = ">=4.12.0" },
+    { name = "beautifulsoup4", marker = "extra == 'scripts'", specifier = ">=4.12.0" },
     { name = "cihai", specifier = ">=0.36.0" },
     { name = "country-converter", specifier = ">=1.3.0" },
     { name = "jaraco-clipboard", specifier = ">=3.1.0" },
     { name = "markdown", specifier = ">=3.6.0" },
+    { name = "matplotlib", marker = "extra == 'scripts'", specifier = ">=3.9.0" },
     { name = "numpy", specifier = ">=2.0.0" },
+    { name = "numpy", marker = "extra == 'scripts'", specifier = ">=2.0.0" },
+    { name = "opencv-python", marker = "extra == 'scripts'", specifier = ">=4.13.0" },
+    { name = "pandas", marker = "extra == 'scripts'", specifier = ">=3.0.0" },
+    { name = "pillow", marker = "extra == 'scripts'", specifier = ">=10.3.0" },
     { name = "pyarchivist", directory = "scripts/pyarchivist" },
     { name = "pydantic", specifier = ">=2.13.1" },
     { name = "pydantic-yaml", specifier = ">=1.6.0" },
     { name = "pyperclip", specifier = ">=1.9.0" },
+    { name = "pyperclip", marker = "extra == 'scripts'", specifier = ">=1.9.0" },
     { name = "pytextgen", directory = "scripts/pytextgen" },
     { name = "pyyaml", specifier = ">=6.0.0" },
+    { name = "requests", marker = "extra == 'scripts'", specifier = ">=2.32.0" },
     { name = "rich", specifier = ">=15.0.0" },
+    { name = "schemdraw", extras = ["matplotlib", "svgmath"], marker = "extra == 'scripts'", specifier = ">=0.22" },
     { name = "uvloop", marker = "sys_platform != 'win32'", specifier = ">=0.22.0" },
     { name = "winloop", marker = "sys_platform == 'win32'", specifier = ">=0.6.2" },
     { name = "yarl", specifier = ">=1.9.0" },
 ]
+provides-extras = ["scripts"]
 
 [package.metadata.requires-dev]
 dev = [
@@ -814,21 +829,7 @@ dev = [
     { name = "ruff", specifier = ">=0.15.10" },
     { name = "ty", specifier = ">=0.0.31" },
 ]
-scripts = [
-    { name = "anyio", specifier = ">=3.6.0" },
-    { name = "asyncer", specifier = ">=0.0.17" },
-    { name = "beautifulsoup4", specifier = ">=4.12.0" },
-    { name = "matplotlib", specifier = ">=3.9.0" },
-    { name = "numpy", specifier = ">=2.0.0" },
-    { name = "opencv-python", specifier = ">=4.13.0" },
-    { name = "pandas", specifier = ">=3.0.0" },
-    { name = "pillow", specifier = ">=10.3.0" },
-    { name = "pyperclip", specifier = ">=1.9.0" },
-    { name = "requests", specifier = ">=2.32.0" },
-    { name = "schemdraw", extras = ["matplotlib", "svgmath"], specifier = ">=0.22" },
-    { name = "uvloop", marker = "sys_platform != 'win32'", specifier = ">=0.22.0" },
-    { name = "winloop", marker = "sys_platform == 'win32'", specifier = ">=0.6.2" },
-]
+scripts = [{ name = "information-beb48618-576e-45ea-bd50-9e47279f88dc", extras = ["scripts"] }]
 
 [[package]]
 name = "iniconfig"

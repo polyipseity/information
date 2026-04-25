@@ -32,6 +32,21 @@ dependencies = [
   "yarl>=1.9.0",
 ]
 
+[project.optional-dependencies]
+scripts = [
+  "anyio>=3.6.0",
+  "asyncer>=0.0.17",
+  "beautifulsoup4>=4.12.0",
+  "matplotlib>=3.9.0",
+  "numpy>=2.0.0",
+  "opencv-python>=4.13.0",
+  "pandas>=3.0.0",
+  "pillow>=10.3.0",
+  "pyperclip>=1.9.0",
+  "requests>=2.32.0",
+  "schemdraw[matplotlib,svgmath]>=0.22",
+]
+
 [project.scripts]
 
 [project.urls]
@@ -46,21 +61,7 @@ dev = [
   "ruff>=0.15.10",
   "ty>=0.0.31",
 ]
-scripts = [
-  "anyio>=3.6.0",
-  "asyncer>=0.0.17",
-  "beautifulsoup4>=4.12.0",
-  "matplotlib>=3.9.0",
-  "numpy>=2.0.0",
-  "opencv-python>=4.13.0",
-  "pandas>=3.0.0",
-  "pillow>=10.3.0",
-  "pyperclip>=1.9.0",
-  "requests>=2.32.0",
-  "schemdraw[matplotlib,svgmath]>=0.22",
-  "uvloop>=0.22.0; platform_system != 'Windows'",
-  "winloop>=0.6.2; platform_system == 'Windows'",
-]
+scripts = ["information-beb48618-576e-45ea-bd50-9e47279f88dc[scripts]"]
 
 [tool.pytest.ini_options]
 addopts = [
@@ -137,6 +138,7 @@ exclude = [
 ]
 
 [tool.uv]
+default-groups = ["dev", "scripts"]
 package = false
 required-version = ">=0.9.0,<0.11.0"
 
