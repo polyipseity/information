@@ -751,8 +751,6 @@ dependencies = [
     { name = "pytextgen" },
     { name = "pyyaml" },
     { name = "rich" },
-    { name = "uvloop", marker = "sys_platform != 'win32'" },
-    { name = "winloop", marker = "sys_platform == 'win32'" },
     { name = "yarl" },
 ]
 
@@ -770,6 +768,10 @@ scripts = [
     { name = "requests" },
     { name = "schemdraw", extra = ["matplotlib", "svgmath"] },
 ]
+uvloop = [
+    { name = "uvloop", marker = "sys_platform != 'win32'" },
+    { name = "winloop", marker = "sys_platform == 'win32'" },
+]
 
 [package.dev-dependencies]
 dev = [
@@ -782,6 +784,9 @@ dev = [
 ]
 scripts = [
     { name = "information-beb48618-576e-45ea-bd50-9e47279f88dc", extra = ["scripts"] },
+]
+uvloop = [
+    { name = "information-beb48618-576e-45ea-bd50-9e47279f88dc", extra = ["uvloop"] },
 ]
 
 [package.metadata]
@@ -814,11 +819,11 @@ requires-dist = [
     { name = "requests", marker = "extra == 'scripts'", specifier = ">=2.32.0" },
     { name = "rich", specifier = ">=15.0.0" },
     { name = "schemdraw", extras = ["matplotlib", "svgmath"], marker = "extra == 'scripts'", specifier = ">=0.22" },
-    { name = "uvloop", marker = "sys_platform != 'win32'", specifier = ">=0.22.0" },
-    { name = "winloop", marker = "sys_platform == 'win32'", specifier = ">=0.6.2" },
+    { name = "uvloop", marker = "sys_platform != 'win32' and extra == 'uvloop'", specifier = ">=0.22.0" },
+    { name = "winloop", marker = "sys_platform == 'win32' and extra == 'uvloop'", specifier = ">=0.6.2" },
     { name = "yarl", specifier = ">=1.9.0" },
 ]
-provides-extras = ["scripts"]
+provides-extras = ["scripts", "uvloop"]
 
 [package.metadata.requires-dev]
 dev = [
@@ -830,6 +835,7 @@ dev = [
     { name = "ty", specifier = ">=0.0.31" },
 ]
 scripts = [{ name = "information-beb48618-576e-45ea-bd50-9e47279f88dc", extras = ["scripts"] }]
+uvloop = [{ name = "information-beb48618-576e-45ea-bd50-9e47279f88dc", extras = ["uvloop"] }]
 
 [[package]]
 name = "iniconfig"
@@ -1744,8 +1750,6 @@ dependencies = [
     { name = "asyncer" },
     { name = "html2text" },
     { name = "pydantic" },
-    { name = "uvloop", marker = "sys_platform != 'win32'" },
-    { name = "winloop", marker = "sys_platform == 'win32'" },
     { name = "yarl" },
 ]
 
@@ -1756,10 +1760,11 @@ requires-dist = [
     { name = "asyncer", specifier = ">=0.0.17" },
     { name = "html2text", specifier = ">=2020.1.16" },
     { name = "pydantic", specifier = ">=2.12.0" },
-    { name = "uvloop", marker = "sys_platform != 'win32'", specifier = ">=0.22.0" },
-    { name = "winloop", marker = "sys_platform == 'win32'", specifier = ">=0.5.0" },
+    { name = "uvloop", marker = "sys_platform != 'win32' and extra == 'uvloop'", specifier = ">=0.22.0" },
+    { name = "winloop", marker = "sys_platform == 'win32' and extra == 'uvloop'", specifier = ">=0.5.0" },
     { name = "yarl", specifier = ">=1.9.2" },
 ]
+provides-extras = ["uvloop"]
 
 [package.metadata.requires-dev]
 dev = [
@@ -1772,6 +1777,7 @@ dev = [
     { name = "rumdl", specifier = ">=0.1.20" },
     { name = "ty", specifier = ">=0.0.31" },
 ]
+uvloop = [{ name = "pyarchivist", extras = ["uvloop"] }]
 
 [[package]]
 name = "pydantic"
@@ -4551,9 +4557,7 @@ dependencies = [
     { name = "more-itertools" },
     { name = "pydantic" },
     { name = "regex" },
-    { name = "uvloop", marker = "sys_platform != 'win32'" },
     { name = "wcwidth" },
-    { name = "winloop", marker = "sys_platform == 'win32'" },
 ]
 
 [package.metadata]
@@ -4564,10 +4568,11 @@ requires-dist = [
     { name = "more-itertools", specifier = ">=9.1.0" },
     { name = "pydantic", specifier = ">=2.12.0" },
     { name = "regex", specifier = ">=2022.10.31" },
-    { name = "uvloop", marker = "sys_platform != 'win32'", specifier = ">=0.22.0" },
+    { name = "uvloop", marker = "sys_platform != 'win32' and extra == 'uvloop'", specifier = ">=0.22.0" },
     { name = "wcwidth", specifier = ">=0.4.0" },
-    { name = "winloop", marker = "sys_platform == 'win32'", specifier = ">=0.5.0" },
+    { name = "winloop", marker = "sys_platform == 'win32' and extra == 'uvloop'", specifier = ">=0.5.0" },
 ]
+provides-extras = ["uvloop"]
 
 [package.metadata.requires-dev]
 dev = [
@@ -4580,6 +4585,7 @@ dev = [
     { name = "rumdl", specifier = ">=0.1.20" },
     { name = "ty", specifier = ">=0.0.31" },
 ]
+uvloop = [{ name = "pytextgen", extras = ["uvloop"] }]
 
 [[package]]
 name = "python-dateutil"

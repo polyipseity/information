@@ -27,8 +27,6 @@ dependencies = [
   "pytextgen>=9.0.0",
   "pyyaml>=6.0.0",
   "rich>=15.0.0",
-  "uvloop>=0.22.0; platform_system != 'Windows'",
-  "winloop>=0.6.2; platform_system == 'Windows'",
   "yarl>=1.9.0",
 ]
 
@@ -46,6 +44,10 @@ scripts = [
   "requests>=2.32.0",
   "schemdraw[matplotlib,svgmath]>=0.22",
 ]
+uvloop = [
+  "uvloop>=0.22.0; platform_system != 'Windows'",
+  "winloop>=0.6.2; platform_system == 'Windows'",
+]
 
 [project.scripts]
 
@@ -62,6 +64,7 @@ dev = [
   "ty>=0.0.31",
 ]
 scripts = ["information-beb48618-576e-45ea-bd50-9e47279f88dc[scripts]"]
+uvloop = ["information-beb48618-576e-45ea-bd50-9e47279f88dc[uvloop]"]
 
 [tool.pytest.ini_options]
 addopts = [
@@ -138,7 +141,7 @@ exclude = [
 ]
 
 [tool.uv]
-default-groups = ["dev", "scripts"]
+default-groups = ["dev", "scripts", "uvloop"]
 package = false
 required-version = ">=0.9.0,<0.11.0"
 

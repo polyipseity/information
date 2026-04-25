@@ -35,7 +35,8 @@ on:
   workflow_dispatch:
     inputs:
       fallback_submodules:
-        description: "Newline-separated list of submodule paths to initialize when the
+        description:
+          "Newline-separated list of submodule paths to initialize when the
           fallback checkout is used"
         required: false
 
@@ -138,7 +139,7 @@ jobs:
       - name: Install project
         run: |
           bun install --frozen-lockfile --ignore-scripts
-          uv sync --locked --all-extras --dev
+          uv sync --locked
 
       - name: Run tests
         run: bun run test
