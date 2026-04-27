@@ -49,6 +49,7 @@ class Arguments:
 @wraps(_sync_which)
 async def _which2(cmd: str) -> str:
     ret = await asyncify(_sync_which)(cmd)
+    assert not isinstance(ret, bytes)
     if ret is None:
         raise FileNotFoundError(cmd)
     return ret
@@ -382,6 +383,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
 
 async def main0() -> None:
     """Entry point for running the script directly. Parses CLI arguments and invokes main()."""
+    global __name__
     __name__ = _FILE_PATH.stem
     basicConfig(level=INFO)
     entry = parser().parse_args(argv[1:])

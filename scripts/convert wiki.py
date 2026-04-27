@@ -1,4 +1,4 @@
-from collections.abc import Awaitable, Mapping, MutableSet
+from collections.abc import Awaitable, Callable, Mapping, MutableSet
 from contextlib import contextmanager, suppress
 from copy import copy
 from json import load
@@ -160,9 +160,9 @@ def _fix_name_maybe(
 def _fix_filename(
     filename: str,
     *,
-    __BAD_CHARACTERS: Pattern[str] = compile(r"[/:\\]"),
+    _BAD_CHARACTERS: Pattern[str] = compile(r"[/:\\]"),
 ) -> str:
-    return __BAD_CHARACTERS.sub("_", filename)
+    return _BAD_CHARACTERS.sub("_", filename)
 
 
 def _markdown_fragment(fragment: str) -> str:
@@ -188,22 +188,22 @@ async def wiki_html_to_plaintext(
     escape: bool = True,
     refs: bool,
     session: ClientSession,
-    __HEADER_REGEX: Pattern[str] = compile(r"h(\d?)"),
-    __BOLD_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-weight: *bold"),
-    __ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic"),
-    __MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]"),
-    __PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)( *)$", DOTALL),
-    __REF_CONTENT_REGEX: Pattern[str] = compile(r"\[([^]]*)\]"),
-    __CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n+"),
-    __CONSECUTIVE_LEADING_WHITESPACES_REGEX: Pattern[str] = compile(
+    _HEADER_REGEX: Pattern[str] = compile(r"h(\d?)"),
+    _BOLD_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-weight: *bold"),
+    _ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic"),
+    _MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]"),
+    _PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)( *)$", DOTALL),
+    _REF_CONTENT_REGEX: Pattern[str] = compile(r"\[([^]]*)\]"),
+    _CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n+"),
+    _CONSECUTIVE_LEADING_WHITESPACES_REGEX: Pattern[str] = compile(
         r"^[ \t]+", MULTILINE
     ),
-    __TABLE_IN_TABLE_HEADER_REGEX: Pattern[str] = compile(r"\| (__.*?__) \|"),
-    __TABLE_IN_TABLE_LEADING_VERTICAL_REGEX: Pattern[str] = compile(r"\s*\|"),
-    __TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX: Pattern[str] = compile(r"\|\s*"),
+    _TABLE_IN_TABLE_HEADER_REGEX: Pattern[str] = compile(r"\| (__.*?__) \|"),
+    _TABLE_IN_TABLE_LEADING_VERTICAL_REGEX: Pattern[str] = compile(r"\s*\|"),
+    _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX: Pattern[str] = compile(r"\|\s*"),
 ) -> str:
-    def escape_markdown(text: str):
-        return __MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
+    def escape_markdown(text: str) -> str:
+        return _MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
 
     if not isinstance(ele, Tag):
         return (
@@ -221,35 +221,43 @@ async def wiki_html_to_plaintext(
     if "reference" in classes:
         if refs:
             ref_str = "".join(ele.stripped_strings)
-            if ref_content := __REF_CONTENT_REGEX.search(ref_str):
+            if ref_content := _REF_CONTENT_REGEX.search(ref_str):
                 ref_content = ref_content[1]
                 return f"<sup>[{escape_markdown(f'[{ref_content}]')}]({_markdown_fragment(f'^ref-{ref_content}')})</sup>"
         else:
             return ""
 
-    def process_strings(strings: str) -> str:
+    def process_strings_default(strings: str) -> str:
         return strings
+
+    process_strings: Callable[[str], str] = process_strings_default
 
     joiner, prefix, suffix = "", "", ""
     match ele.name:
         # newlines
         case "br":
 
-            def process_strings(strings: str):
+            def process_strings_br(strings: str) -> str:
                 return f"{strings}\n"
 
+            process_strings = process_strings_br
+
         # headers; should come before bold
-        case name if header_match := __HEADER_REGEX.match(name):
+        case name if header_match := _HEADER_REGEX.match(name):
             prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
 
-            def process_strings(strings: str):
+            def process_strings_header(strings: str) -> str:
                 return _fix_name_maybe(strings.strip())
+
+            process_strings = process_strings_header
 
         # links: self-links; should come before bold
         case _ if ele.name == "a" and "mw-selflink" in classes:
 
-            def process_strings(strings: str):
+            def process_strings_self_link(strings: str) -> str:
                 return strings.strip().replace("\n", " <br/> ")
+
+            process_strings = process_strings_self_link
 
             prefix, suffix = (
                 "[",
@@ -258,15 +266,15 @@ async def wiki_html_to_plaintext(
         # bold, italic, bold & italic
         case _ if (
             ele.name in {"b", "em", "i", "strong"}
-            or __BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
-            or __ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+            or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+            or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
         ):
             bold = (
                 ele.name in {"b", "strong"}
-                or __BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+                or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
                 and "mw-heading" not in classes
             )
-            italic = ele.name in {"em", "i"} or __ITALIC_FONT_STYLE_REGEX.search(
+            italic = ele.name in {"em", "i"} or _ITALIC_FONT_STYLE_REGEX.search(
                 str(ele.get("style", ""))
             )
             bold = "__" if bold else ""
@@ -288,9 +296,9 @@ async def wiki_html_to_plaintext(
             ):
                 suffix += _MARKDOWN_SEPARATOR
 
-            def process_strings_bi(strings: str):
+            def process_strings_bi(strings: str) -> str:
                 nonlocal prefix, suffix
-                match = __PROCESS_STRINGS_BI_REGEX.match(strings)
+                match = _PROCESS_STRINGS_BI_REGEX.match(strings)
                 assert match
                 prefix = f"{match[1]}{prefix}"
                 suffix += match[3]
@@ -306,7 +314,7 @@ async def wiki_html_to_plaintext(
         # code
         case "code":
 
-            def process_strings_code(strings: str):
+            def process_strings_code(strings: str) -> str:
                 nonlocal prefix, suffix
                 delimiter = "`"
                 while delimiter in strings:
@@ -377,11 +385,12 @@ async def wiki_html_to_plaintext(
             prefix, suffix = ("\n" if list_stack else "\n\n"), "\n\n"
             list_stack += (-1,)
         case "li":
-            if list_stack and (item := list_stack[-1]) >= 1:
+            item = list_stack[-1] if list_stack else -1
+            if item >= 1:
                 prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}{item}. ", "\n"
                 if str(ele.get("id", "")).startswith("cite_"):
 
-                    def process_strings_li_cite(strings: str):
+                    def process_strings_li_cite(strings: str, item: int = item) -> str:
                         try:
                             idx = strings.index("\n")
                         except ValueError:
@@ -451,11 +460,11 @@ async def wiki_html_to_plaintext(
 
         case "td" | "th":
 
-            def process_strings_tdh(strings: str):
+            def process_strings_tdh(strings: str) -> str:
                 strings = strings.strip()
 
-                strings = __CONSECUTIVE_NEWLINES_REGEX.sub("\n", strings)
-                strings = __CONSECUTIVE_LEADING_WHITESPACES_REGEX.sub(
+                strings = _CONSECUTIVE_NEWLINES_REGEX.sub("\n", strings)
+                strings = _CONSECUTIVE_LEADING_WHITESPACES_REGEX.sub(
                     lambda match: (
                         match[0].replace(" ", "&nbsp;").replace("\t", "&emsp;")
                     ),
@@ -464,14 +473,14 @@ async def wiki_html_to_plaintext(
 
                 # tables in tables
                 strings = strings.replace("| |", "|")  # empty cells
-                strings = __TABLE_IN_TABLE_HEADER_REGEX.sub(
+                strings = _TABLE_IN_TABLE_HEADER_REGEX.sub(
                     lambda match: f"|{match[1]} <p> ", strings
                 )
                 strings = strings.replace("|\n|", " <p> ")
-                strings = __TABLE_IN_TABLE_LEADING_VERTICAL_REGEX.sub(
+                strings = _TABLE_IN_TABLE_LEADING_VERTICAL_REGEX.sub(
                     lambda match: match[0][: -len("|")], strings
                 )
-                strings = __TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX.sub(
+                strings = _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX.sub(
                     lambda match: match[0][len("|") :], strings
                 )
                 strings = strings.replace("|", "&#124;")
@@ -485,7 +494,7 @@ async def wiki_html_to_plaintext(
         case _ if {"mw-tmh-play", "oo-ui-buttonElement-button"} & classes:
             if src := ele.get("href"):
 
-                def process_strings_audio(strings: str, ele: Tag = ele):
+                def process_strings_audio(strings: str) -> str:
                     src_url = _WIKI_HOST_URL.join(URL(str(src)))
                     src_url_str = str(src_url)
 
@@ -514,7 +523,7 @@ async def wiki_html_to_plaintext(
         ):
             if src := ele.get("src"):
 
-                def process_strings_img(strings: str, ele: Tag = ele):
+                def process_strings_img(strings: str, ele: Tag = ele) -> str:
 
                     src_url = _WIKI_HOST_URL.join(URL(str(src)))
                     src_url_str = str(src_url)
@@ -646,7 +655,7 @@ async def wiki_html_to_plaintext(
 
             if process:
 
-                def process_strings_a(strings: str):
+                def process_strings_a(strings: str) -> str:
                     return strings.strip().replace("\n", " <br/> ")
 
                 process_strings = process_strings_a
@@ -672,7 +681,7 @@ async def wiki_html_to_plaintext(
         & classes
     ):
 
-        def process_strings_blockquote(strings: str):
+        def process_strings_blockquote(strings: str) -> str:
             return "".join(
                 f">{line.strip() and ' '}{line}"
                 for line in strings.strip().splitlines(keepends=True)

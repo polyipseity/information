@@ -30,7 +30,7 @@ class ParseDatetimeResult(NamedTuple):
 def html_to_text(
     tag: Tag,
     *,
-    __NON_BREAKING_ELEMENTS: Collection[str] = (
+    _NON_BREAKING_ELEMENTS: Collection[str] = (
         "a",
         "abbr",
         "acronym",
@@ -89,7 +89,7 @@ def html_to_text(
 ) -> str:
     tag = copy(tag)
     for element in tag.find_all():
-        if element.name not in __NON_BREAKING_ELEMENTS:
+        if element.name not in _NON_BREAKING_ELEMENTS:
             match element.name:
                 case "br":
                     element.append("\n")
@@ -104,7 +104,7 @@ def parse_datetime(
     string: str,
     *,
     reference_datetime: datetime,
-    __FORMATS: Sequence[tuple[Callable[[str, datetime], str], str]] = (
+    _FORMATS: Sequence[tuple[Callable[[str, datetime], str], str]] = (
         (lambda s, dt: s, "%d/%m/%Y at %H:%M:%S%p"),
         (lambda s, dt: f"{dt.year} {s}", "%d %b %Y at %H:%M:%S"),
         (lambda s, dt: f"{dt.year} {s}", "%Y  %d %b at %H:%M:%S"),
@@ -125,7 +125,7 @@ def parse_datetime(
     if string.endswith("12am") or string.endswith("12pm"):
         delta -= timedelta(hours=12)
 
-    for transformer, format in __FORMATS:
+    for transformer, format in _FORMATS:
         string2 = transformer(string, reference_datetime)
         try:
             ret = datetime.strptime(string2, format)
@@ -389,14 +389,16 @@ def parse_properties(
 async def convert(
     html_text: str,
     *,
-    __URL_REGEX: Pattern[str] = re_compile(
+    _URL_REGEX: Pattern[str] = re_compile(
         r"url: https://zinc.cse.ust.hk/assignments/(\d+)"
     ),
-    __DATE_REGEX: Pattern[str] = re_compile(r"saved date: ([^(\n]*)"),
+    _DATE_REGEX: Pattern[str] = re_compile(r"saved date: ([^(\n]*)"),
 ) -> str | None:
-    if not (url_match := __URL_REGEX.search(html_text)) or not (
-        date_match := __DATE_REGEX.search(html_text)
-    ):
+    url_match = _URL_REGEX.search(html_text)
+    if not url_match:
+        return None
+    date_match = _DATE_REGEX.search(html_text)
+    if date_match is None:
         return None
     assign_id = int(url_match[1])
     try:
@@ -409,17 +411,19 @@ async def convert(
     page_type = AssignmentPageType.SUBMISSION
     soup = BeautifulSoup(html_text, "html.parser")
 
-    if (
-        (
-            selected_assign_ele := soup.select_one(
-                f'a[href="https://zinc.cse.ust.hk/assignments/{assign_id}"]'
-            )
-        )
-        is None
-        or (course_name_ele := selected_assign_ele.select_one(".font-semibold")) is None
-        or (title_content := parse_title_and_content(soup, page_type=page_type)) is None
-        or (grade := parse_grade(soup, page_type=page_type)) is None
-    ):
+    selected_assign_ele = soup.select_one(
+        f'a[href="https://zinc.cse.ust.hk/assignments/{assign_id}"]'
+    )
+    if selected_assign_ele is None:
+        return None
+    course_name_ele = selected_assign_ele.select_one(".font-semibold")
+    if course_name_ele is None:
+        return None
+    title_content = parse_title_and_content(soup, page_type=page_type)
+    if title_content is None:
+        return None
+    grade = parse_grade(soup, page_type=page_type)
+    if grade is None:
         return None
 
     course_name = course_name_ele.text.strip()
@@ -484,7 +488,7 @@ async def main() -> None:
     return exit(0)
 
 
-def __main__():
+def __main__() -> None:
     """Entry point for running the script directly."""
     runnify(main, backend_options={"use_uvloop": True})()
 

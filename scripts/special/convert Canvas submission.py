@@ -47,7 +47,7 @@ class ParseDatetimeResult(NamedTuple):
 def html_to_text(
     tag: Tag,
     *,
-    __NON_BREAKING_ELEMENTS: Collection[str] = (
+    _NON_BREAKING_ELEMENTS: Collection[str] = (
         "a",
         "abbr",
         "acronym",
@@ -106,7 +106,7 @@ def html_to_text(
 ) -> str:
     tag = copy(tag)
     for element in tag.find_all():
-        if element.name not in __NON_BREAKING_ELEMENTS:
+        if element.name not in _NON_BREAKING_ELEMENTS:
             match element.name:
                 case "br":
                     element.append("\n")
@@ -121,8 +121,8 @@ def parse_datetime(
     string: str,
     *,
     reference_datetime: datetime,
-    __TIME_REGEX: Pattern[str] = re_compile(r"\d+([ap]m)"),
-    __FORMATS: Sequence[tuple[Callable[[str, datetime], str], str]] = (
+    _TIME_REGEX: Pattern[str] = re_compile(r"\d+([ap]m)"),
+    _FORMATS: Sequence[tuple[Callable[[str, datetime], str], str]] = (
         (lambda s, dt: s, "%b %d, %Y at %H:%M:%S%p"),
         (lambda s, dt: s, "%b %d, %Y by %H:%M:%S%p"),
         (lambda s, dt: s, "%b %d, %Y at %H:%M%p"),
@@ -141,10 +141,11 @@ def parse_datetime(
     for month_name in _MONTH_NAMES:
         with suppress(ValueError):
             start_index = string.index(month_name)
-    if (
-        start_index == -1
-        or (time_match := __TIME_REGEX.search(string, pos=start_index)) is None
-    ):
+    if start_index == -1:
+        return None
+
+    time_match = _TIME_REGEX.search(string, pos=start_index)
+    if time_match is None:
         return None
     end_index = time_match.end()
 
@@ -153,7 +154,7 @@ def parse_datetime(
     if string.endswith("12am") or string.endswith("12pm"):
         delta -= timedelta(hours=12)
 
-    for transformer, format in __FORMATS:
+    for transformer, format in _FORMATS:
         string2 = transformer(string, reference_datetime)
         try:
             ret = datetime.strptime(string2, format)
@@ -261,12 +262,12 @@ def parse_grade(
             if (entered_grade_ele := soup.select_one(".entered_grade")) is None:
                 return None
             entered_grade = entered_grade_ele.text.strip()
-            possible_grade = (
-                ""
-                if (possible_grade_ele := entered_grade_ele.next_sibling) is None
-                or not (possible_grade_text := possible_grade_ele.text.strip())
-                else possible_grade_text.split(maxsplit=1)[-1]
-            )
+            possible_grade = ""
+            possible_grade_ele = entered_grade_ele.next_sibling
+            if possible_grade_ele is not None:
+                possible_grade_text = possible_grade_ele.text.strip()
+                if possible_grade_text:
+                    possible_grade = possible_grade_text.split(maxsplit=1)[-1]
             graded_anonymously = None
 
         case _:
@@ -544,14 +545,16 @@ def parse_comments(
 async def convert(
     html_text: str,
     *,
-    __URL_REGEX: Pattern[str] = re_compile(
+    _URL_REGEX: Pattern[str] = re_compile(
         r"url: https://([^/]+)/courses/(\d+)/assignments/(\d+)(?:/submissions/(\d+))?"
     ),
-    __DATE_REGEX: Pattern[str] = re_compile(r"saved date: ([^(\n]*)"),
+    _DATE_REGEX: Pattern[str] = re_compile(r"saved date: ([^(\n]*)"),
 ) -> str | None:
-    if not (url_match := __URL_REGEX.search(html_text)) or not (
-        date_match := __DATE_REGEX.search(html_text)
-    ):
+    url_match = _URL_REGEX.search(html_text)
+    if not url_match:
+        return None
+    date_match = _DATE_REGEX.search(html_text)
+    if date_match is None:
         return None
     host, course_id, assign_id, stu_id = (
         url_match[1],
@@ -571,13 +574,11 @@ async def convert(
     )
     soup = BeautifulSoup(html_text, "html.parser")
 
-    if (
-        course_name_ele := soup.select_one(
-            f'*[href="https://{host}/courses/{course_id}"]'
-        )
-    ) is None or (
-        title_content := parse_title_and_content(soup, page_type=page_type)
-    ) is None:
+    course_name_ele = soup.select_one(f'*[href="https://{host}/courses/{course_id}"]')
+    if course_name_ele is None:
+        return None
+    title_content = parse_title_and_content(soup, page_type=page_type)
+    if title_content is None:
         return None
     if (grade := parse_grade(soup, page_type=page_type)) is None:
         grade = ParseGradeResult("", "", None)
@@ -653,7 +654,7 @@ async def main() -> None:
     return exit(0)
 
 
-def __main__():
+def __main__() -> None:
     """Entry point for running the script directly."""
     runnify(main, backend_options={"use_uvloop": True})()
 

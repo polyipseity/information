@@ -99,6 +99,7 @@ extend-exclude = [
 extend-select = ["I", "PLC0415"]
 
 [tool.ty.environment]
+extra-paths = ["typings"]
 python-platform = "all"
 
 [tool.ty.rules]
