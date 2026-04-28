@@ -7,7 +7,7 @@ Personal Markdown knowledgebase with flashcards, tutorials, and archived online 
 - **`general/`**: Wikipedia encyclopedia articles (verbatim, flashcard-enabled)
 - **`special/`**: Coursework, tutorials, frameworks, language texts
 - **`archives/`**: Archived media and web content (Wikimedia Commons, sparse)
-- **`scripts/`**: Python scripts (init, convert wiki, pack, publish, templates)
+- **`scripts/`**: Python scripts (init, convert_wiki, pack, publish, templates)
 
 **Git submodules**: `self/arts/`, `self/capture the flag/`, `self/ledger/`, `self/passwords/`, `self/polyipseity/`, `private/`, `scripts/pytextgen/`, `scripts/pyarchivist/`
 
@@ -21,8 +21,8 @@ Personal Markdown knowledgebase with flashcards, tutorials, and archived online 
 
 ```bash
 # Scaffold new wiki-sourced note (see wiki-ingestion skill)
-uv run -m "templates.new wiki page"
-uv run -m "convert wiki"  # Paste Wikipedia HTML from clipboard
+uv run -m templates.new_wiki_page
+uv run -m convert_wiki  # Paste Wikipedia HTML from clipboard
 # Flashcards are created automatically by the build; do not run
 # `uv run -m init generate` yourself.
 ```

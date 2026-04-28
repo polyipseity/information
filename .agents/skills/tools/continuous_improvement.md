@@ -2,7 +2,7 @@
 
 This document describes the feedback loop for continuously improving the
 `tools` skill, which covers repository-wide utilities such as `init.py`,
-`convert wiki.py`, `pack.py`, and `publish.py`.
+`convert_wiki.py`, `pack.py`, and `publish.py`.
 
 ## Feedback loop
 

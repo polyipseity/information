@@ -24,13 +24,13 @@ The `scripts/` directory contains all helper scripts and utilities:
    - Passes through pytextgen flags (`-C`, `--no-code-cache`, `--init-flashcards`)
    - Commands: `uv run -m init generate`, `uv run -m init clear`
 
-2. **`convert wiki.py`**: Wikipedia HTML → Markdown converter
+2. **`convert_wiki.py`**: Wikipedia HTML → Markdown converter
    - Reads HTML from clipboard
    - Normalizes links (relative paths with `%20` encoding)
    - Downloads media to `archives/Wikimedia Commons/`
-   - Uses `convert wiki.py.names map.json` for filename renames
+   - Uses `convert_wiki.py.names_map.json` for filename renames
    - Preserves Wikipedia attribution
-   - Command: `uv run -m "convert wiki"`
+   - Command: `uv run -m convert_wiki`
 
 3. **`pack.py`**: PageRank-ordered zip bundling
    - Walks Markdown links to build dependency graph
@@ -53,7 +53,7 @@ The `scripts/` directory contains all helper scripts and utilities:
   - Course catalog fetchers
 
 - **`scripts/templates/`**: Note scaffolding and pytextgen templates (see `tools-templates` skill)
-  - `new wiki page.py`
+  - `new_wiki_page.py`
   - `pytextgen generate *.md` templates
 
 ### Submodule tools
@@ -72,14 +72,14 @@ The `scripts/` directory contains all helper scripts and utilities:
 
 ### End-to-end wiki ingestion
 
-1. Scaffold note: `uv run -m "templates.new wiki page"` (tools-templates)
-2. Ingest HTML: `uv run -m "convert wiki"` (convert wiki.py)
+1. Scaffold note: `uv run -m templates.new_wiki_page` (tools-templates)
+2. Ingest HTML: `uv run -m convert_wiki` (convert_wiki.py)
 3. Flashcard generation is automatic; do **not** run `uv run -m init generate`.
    Build workflows will handle it.
 
 ### Academic course organization
 
-1. Convert LMS export: `uv run -m scripts.special."convert Canvas submission"` (tools-special)
+1. Convert LMS export: `uv run -m scripts.special.convert_canvas_submission` (tools-special)
 2. Update index: Edit `special/academia/<Institution>/index.md`
 3. Add pytextgen fences; regeneration is handled by the build system and
    should not be invoked manually.
@@ -201,7 +201,7 @@ If changes are needed, ask user for permission first.
 ### Performance
 
 - Use init.py caching to skip unchanged files
-- Parallelize independent operations (e.g., multiple `convert wiki` runs)
+- Parallelize independent operations (e.g., multiple `convert_wiki` runs)
 - Limit PageRank iterations in `pack.py` for large graphs
 - Use `--exclude-extension` in pack.py to skip large assets
 

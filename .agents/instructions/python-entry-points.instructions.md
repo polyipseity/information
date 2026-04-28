@@ -266,7 +266,7 @@ if __name__ == "__main__":
   """Convert wiki HTML to Markdown.
 
   Usage:
-      python -m convert wiki
+      python -m convert_wiki
 
   Reads HTML from clipboard, normalizes to Markdown, and outputs to stdout.
   """

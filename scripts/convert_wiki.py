@@ -105,7 +105,7 @@ _ARCHIVE_REGEXES = {
 _CONVERTED_WIKI_DIRECTORY = Path("../general")
 _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 
-with open(f"{NAME}.names map.json", "rt", encoding="UTF-8") as names_map_file:
+with open(f"{NAME}.names_map.json", "rt", encoding="UTF-8") as names_map_file:
     _names_map_manual: dict[str, str] = load(names_map_file)
 _names_map = {
     key: val

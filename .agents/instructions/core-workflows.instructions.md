@@ -53,11 +53,11 @@ Agent quickstart note: Agents should consult `.agents/instructions/agent-quickst
 
 ## Wiki ingestion (3-step workflow)
 
-**Step 1**: `uv run -m "templates.new wiki page"`
+**Step 1**: `uv run -m templates.new_wiki_page`
 
 - Scaffolds frontmatter + Wikipedia link template, copies to clipboard
 
-**Step 2**: `uv run -m "convert wiki"`
+**Step 2**: `uv run -m convert_wiki`
 
 - Reads clipboard HTML, normalizes to Markdown, downloads media to `archives/Wikimedia Commons/`
 

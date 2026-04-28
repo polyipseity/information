@@ -13,7 +13,7 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 - **`general/`** — Encyclopedic content (mostly verbatim from Wikipedia).
   - Flat `.md` files with YAML frontmatter (`aliases`, `tags`, `language`).
   - Use **relative links** (encode spaces as `%20`) and store media under `archives/Wikimedia Commons/`.
-  - Updated primarily via: `uv run -m "convert wiki"`.
+  - Updated primarily via: `uv run -m convert_wiki`.
 
 - **`special/`** — Specialized materials: course notes, tutorials, and frameworks.
   - `academia/` is organized by **institution → semester/year → course**; each institution typically includes `reviews.md` and course folders.

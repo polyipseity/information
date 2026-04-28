@@ -22,7 +22,7 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
 
 3. Common repository actions
    - Regenerate generated content: build workflows handle this automatically; manual `uv run -m init generate -C` is rarely needed and agents should not suggest it (see `core-workflows.instructions.md`).
-   - Ingest a Wikipedia page: `uv run -m "templates.new wiki page"` → `uv run -m "convert wiki"` (flashcards are created by the build; no manual generation step)
+   - Ingest a Wikipedia page: `uv run -m templates.new_wiki_page` → `uv run -m convert_wiki` (flashcards are created by the build; no manual generation step)
    - Package: `uv run -m pack -o pack.zip ...` (generated content will already be fresh)
    - Publish (private→public): `uv run -m publish --paths-file <file>` (exercise caution)
 

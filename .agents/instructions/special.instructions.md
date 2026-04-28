@@ -315,8 +315,8 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
   - `{@{ ... }@}` for cloze deletions (hide the inner text)
   - `::@::` for two-sided Q/A pairs (one line only, generates two cards)
   - `:@:` for one-sided Q/A pairs (one line only, generates a single card)
-  These markers are parsed by pytextgen; do not reflow, escape, or split
-  them across lines.
+    These markers are parsed by pytextgen; do not reflow, escape, or split
+    them across lines.
 - **pytextgen fences**: Do not modify `# pytextgen generate ...` comments or `return export_seq(...)` signatures
   - Academic notes often use `await memorize_seq()` for ordered content
   - Classical Chinese texts use `gen.TextCode.compile()` with embedded notes
@@ -328,7 +328,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 
 ### Special-specific patterns
 
-- **Code blocks**: Command libraries, regex libraries, and programming references use fenced code blocks with language tags (```shell,```regex, ```Python, etc.)
+- **Code blocks**: Command libraries, regex libraries, and programming references use fenced code blocks with language tags (`shell,`regex, ```Python, etc.)
 - **Embedded notes** (Classical Chinese): `notes.embed('term', 'explanation')` within `gen.TextCode.compile()` blocks
 - **Difficulty markers**: `hard(...)` function in pytextgen blocks for challenging terms
 - **Parameter placeholders**: `$variable` format in command library templates
@@ -364,7 +364,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
    - Online courses: Manual note-taking and synthesis
    - Programming refs: Manual extraction from documentation
    - Classical texts: Manual transcription with scholarly annotations
-   - NOT updated via `convert wiki.py` (that's for `general/` only)
+   - NOT updated via `convert_wiki.py` (that's for `general/` only)
 
 5. **Flashcard status**: More varied than `general/`:
    - `flashcard/active/special/<path>`: Active learning materials
@@ -380,9 +380,9 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 
 **Academic converters** (LMS export processors):
 
-- `convert Canvas submission.py`: Canvas LMS submission exports → YAML frontmatter + formatted notes
-- `convert HKUST Zinc submission.py`: HKUST Zinc LMS submission files → YAML frontmatter
-- `get HKUST undergraduate courses.py`: Fetch HKUST course catalog from web → CSV file (`get HKUST undergraduate courses.py.csv`)
+- `convert_canvas_submission.py`: Canvas LMS submission exports → YAML frontmatter + formatted notes
+- `convert_hkust_zinc_submission.py`: HKUST Zinc LMS submission files → YAML frontmatter
+- `get_hkust_undergraduate_courses.py`: Fetch HKUST course catalog from web → CSV file (`get_hkust_undergraduate_courses.py.csv`)
 
 **Usage**: See the `tools` agent skill (templates & special/tooling sections) for detailed workflows and converter interfaces.
 
@@ -396,7 +396,7 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 **Files**:
 
 - Each tool has `.py`, `.bat`, `.sh`, and symlink variants for cross-platform support
-- Output files follow consistent naming (e.g., `get HKUST undergraduate courses.py.csv`)
+- Output files follow consistent naming (e.g., `get_hkust_undergraduate_courses.py.csv`)
 
 ## Editing Guidelines
 
@@ -414,9 +414,9 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 ### Developer tooling & tests (special/)
 
 - Any new tool or helper script that transforms or ingests `special/` content requires unit tests and integration tests; tests should be placed under `tests/` using `tmp_path: os.PathLike[str]` (annotate the `tmp_path` fixture as `PathLike[str]`) to avoid mutating the repo. For conversion tools, add regression tests that verify expected output for representative inputs and that guard against accidental format drift. When converting path-like objects to strings in tests or code, **always** use `os.fspath(path_like)`.
-- Async helpers in this directory should follow the repository-wide AnyIO/Asyncer conventions instead of using `asyncio`.  Agents should import from Asyncer (`create_task_group`, `soonify`, `asyncify`, `syncify`, `runnify`) when writing or refactoring scripts or tools here.
+- Async helpers in this directory should follow the repository-wide AnyIO/Asyncer conventions instead of using `asyncio`. Agents should import from Asyncer (`create_task_group`, `soonify`, `asyncify`, `syncify`, `runnify`) when writing or refactoring scripts or tools here.
 - For content changes that affect pytextgen fences, add round-trip tests that verify the fences remain unchanged except for intentional updates; these tests should not invoke `uv run -m init generate`, and agents are explicitly forbidden from running that command.
-- Ensure `bun run check`, `bun run format`, and `bun run test` pass locally before opening a PR.  Whenever possible include explicit file arguments (e.g. `bun run check:md --no-globs special/academia/...`) so commands complete faster and avoid touching unrelated content.
+- Ensure `bun run check`, `bun run format`, and `bun run test` pass locally before opening a PR. Whenever possible include explicit file arguments (e.g. `bun run check:md --no-globs special/academia/...`) so commands complete faster and avoid touching unrelated content.
 
 ### Academia-specific
 
@@ -455,9 +455,9 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 - **Structure**: Maintain three-part structure (problem, strategy, solution)
 - **Tagging**: Include `date/<year>/<month>/<day>` and `question/<domain>/<subdomain>`
 - **Flashcard format**: Strategy sections (and similar QA content)
-  should use the appropriate separator.  Use `::@::` for two-sided cards
+  should use the appropriate separator. Use `::@::` for two-sided cards
   (producing both question→answer and answer→question) or `:@:` for
-  one-sided cards (recall the right-hand text only).  Lines must remain
+  one-sided cards (recall the right-hand text only). Lines must remain
   single‑line; use `<br/>`/`<p>` for visual breaks.
 - **Math typesetting**: Use proper KaTeX for all mathematical expressions
 
@@ -466,11 +466,11 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 - **`general/`**: `special/` notes frequently reference `general/` encyclopedia articles for foundational concepts
   - Use relative paths: `../../general/article.md` or deeper as needed
   - `general/` articles may backlink to `special/` materials (e.g., course notes, detailed tutorials)
-  
+
 - **`archives/`**: Media files (images, audio, videos) referenced in `special/` notes
   - Common: `../../archives/Wikimedia%20Commons/` for IPA audio, images
   - Less common: `../../archives/sparse/` for specialized content
-  
+
 - **`scripts/`**:
   - `scripts/special/`: Academic LMS converters for maintaining `special/academia/`
   - `scripts/pytextgen/`: Content generation library used throughout `special/` for flashcards
