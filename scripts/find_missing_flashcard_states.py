@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Find missing flashcards."""
+"""Find missing flashcard states."""
 
 from re import compile as re_compile
 
