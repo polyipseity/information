@@ -1,6 +1,13 @@
 from argparse import ONE_OR_MORE, ZERO_OR_MORE, ArgumentParser, Namespace
-from collections.abc import (AsyncIterator, Callable, Collection, Mapping,
-                             MutableSet, Sequence, Set)
+from collections.abc import (
+    AsyncIterator,
+    Callable,
+    Collection,
+    Mapping,
+    MutableSet,
+    Sequence,
+    Set,
+)
 from dataclasses import asdict, dataclass, is_dataclass, replace
 from datetime import datetime, timezone
 from functools import reduce, wraps

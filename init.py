@@ -1,7 +1,14 @@
 from argparse import ONE_OR_MORE, ArgumentParser, Namespace
 from collections import defaultdict
-from collections.abc import (AsyncIterator, Awaitable, Callable, Collection,
-                             Iterable, MutableMapping, Sequence)
+from collections.abc import (
+    AsyncIterator,
+    Awaitable,
+    Callable,
+    Collection,
+    Iterable,
+    MutableMapping,
+    Sequence,
+)
 from dataclasses import dataclass
 from functools import wraps
 from inspect import currentframe, getframeinfo
@@ -250,7 +257,11 @@ async def main(args: Arguments):
             info(f"Using {len(inputs)} input(s)")
             try:
                 entry = pytextgen_parser().parse_args(
-                    tuple(chain(args.arguments, ("--",), (fspath(input) for input in inputs)))
+                    tuple(
+                        chain(
+                            args.arguments, ("--",), (fspath(input) for input in inputs)
+                        )
+                    )
                 )
                 await entry.invoke(entry)
                 success = True
