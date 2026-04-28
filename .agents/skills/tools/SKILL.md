@@ -28,7 +28,7 @@ The `scripts/` directory contains all helper scripts and utilities:
    - Reads HTML from clipboard
    - Normalizes links (relative paths with `%20` encoding)
    - Downloads media to `archives/Wikimedia Commons/`
-   - Uses `convert_wiki.py.names_map.json` for filename renames
+   - Uses `convert_wiki.filename_rename_map.json` for filename renames
    - Preserves Wikipedia attribution
    - Command: `uv run -m convert_wiki`
 

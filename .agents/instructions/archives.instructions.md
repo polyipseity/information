@@ -17,7 +17,7 @@ applyTo: "archives/**/*.md"
 
 - `archives/Wikimedia Commons/`: Media (images, audio, video) sourced from Wikimedia Commons
   - Filenames: Descriptive names for easy identification (e.g., `04 production-possibilities-frontier-1.png`)
-  - May be renamed via `convert_wiki.py.names_map.json` during Wikipedia ingestion
+  - May be renamed via `convert_wiki.filename_rename_map.json` during Wikipedia ingestion
   
 - `archives/sparse/`: Miscellaneous archived content with user-defined filenames
   - **Important**: Filenames are user-defined (descriptive or arbitrary), NOT automatically SHA-256 hashed

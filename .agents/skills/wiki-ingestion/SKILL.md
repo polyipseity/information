@@ -60,7 +60,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 - Tool reads from clipboard
 - Normalizes Markdown formatting (lists, tables, code, emphasis)
-- Downloads images to `archives/Wikimedia Commons/` using `convert_wiki.py.names_map.json` for filename renames
+- Downloads images to `archives/Wikimedia Commons/` using `convert_wiki.filename_rename_map.json` for filename renames
 - Normalizes links to relative paths with `%20` encoding (not `%3A` or other encodings)
 - Outputs Markdown that preserves Wikipedia structure
 - **Action**: Paste output below the frontmatter in your note file
