@@ -1,12 +1,4 @@
 #!/usr/bin/env python
-# /// script
-# dependencies = [
-#   "pyperclip>=1.9.0",
-# ]
-# requires-python = ">=3.13.0"
-# timestamp = "2025-07-14T09:29:17.420+08:00"
-# ///
-
 """Rematch flashcard states using paragraphing."""
 
 from functools import reduce
@@ -20,7 +12,7 @@ FLASHCARD_STATE_REGEX = compile(r"!\d{4}-\d{2}-\d{2},\d+,\d+")
 LINE_ENDINGS_REGEX = compile(r"\r\n|[\n\v\f\r\x85\u2028\u2029]")
 
 
-def normalize_line_endings(target: str = "\n"):
+def normalize_line_endings(target: str = "\n") -> str:
     return LINE_ENDINGS_REGEX.sub("\n", target)
 
 
@@ -29,10 +21,10 @@ def main() -> None:
     text = paste().strip()
     text = normalize_line_endings(text)
 
-    flashcard_states = list[str]()
+    flashcard_states = tuple[str, ...]()
     text = FLASHCARD_STATES_REGEX.sub(
         lambda match, flashcard_states=flashcard_states: (
-            flashcard_states.append(match[1]),
+            flashcard_states + (match[1],),
             "",
         )[-1],
         text,
@@ -64,7 +56,8 @@ def main() -> None:
     copy(result)
 
 
-def __main__():
+def __main__() -> None:
+    """Entry point for running the script directly."""
     main()
 
 

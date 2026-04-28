@@ -1,15 +1,4 @@
 #!/usr/bin/env python
-# /// script
-# dependencies = [
-#   "anyio>=3.6.0",
-#   "asyncer>=0.0.17",
-#   "uvloop>=0.22.0; platform_system != 'Windows'",
-#   "winloop>=0.5.0; platform_system == 'Windows'",
-# ]
-# requires-python = ">=3.13.0"
-# timestamp = "2025-07-05T01:01:45.317+08:00"
-# ///
-
 """Find missing flashcards."""
 
 from re import compile as re_compile
