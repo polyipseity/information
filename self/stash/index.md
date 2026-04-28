@@ -27,7 +27,7 @@ A small collection of ad-hoc Python utilities kept here as a personal "stash". T
 - `clean_canvas_html.py` — Clean and normalize HTML copied from Canvas LMS for Markdown conversion.
 - `d2l_mcq_to_md.py` — Convert exported D2L/Brightspace multiple-choice questions into Markdown.
 - `download_attachments.py` — Download linked attachment files from HTML/Markdown documents.
-- `missing_flashcards.py` — Inspect notes and flashcard metadata to locate missing cards.
+- `find_missing_flashcards.py` — Inspect notes and flashcard metadata to locate missing cards.
 - `median_filter_ignore_transparency.py` — Image‑processing helper: median filter that ignores transparent pixels.
 - `rematch_flashcard_states.py` — Recompute or rematch flashcard review states after metadata changes.
 - `tiling_puzzle_solver.py` — Puzzle solver used for experimenting with tiling algorithms (small utility script).
