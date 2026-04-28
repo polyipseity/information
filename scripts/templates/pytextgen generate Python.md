@@ -1,3 +1,0 @@
-```Python
-# pytextgen generate (action)
-```
