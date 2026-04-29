@@ -170,7 +170,7 @@ If {@{_F_ : _J_ → _C_ is a diagram in _C_ and _G_ : _C_ → _D_ is a [functor]
 
 ### preservation of limits
 
-{@{A functor _G_ : _C_ → _D_}@} {@{induces a map from Cone\(_F_\) to Cone\(_GF_\)}@}: {@{if _Ψ_ is a cone from _N_ to _F_ then _GΨ_ is a cone from _GN_ to _GF_}@}. {@{The functor _G_ is said to __preserve the limits of _F_<!-- markdown separator -->__}@} if {@{\(_GL_, _Gφ_\) is a limit of _GF_ whenever \(_L_, _φ_\) is a limit of _F_ (annotation: this is similar to lifting of limits, but the "whenever" clauses swap places)}@}. \(Note that {@{if the limit of _F_ does not exist, then _G_ [vacuously](vacuous%20truth.md) preserves the limits of _F_}@}.\)
+{@{A functor _G_ : _C_ → _D_}@} {@{induces a map from Cone\(_F_\) to Cone\(_GF_\)}@}: {@{if _Ψ_ is a cone from _N_ to _F_ then _GΨ_ is a cone from _GN_ to _GF_}@}. {@{The functor _G_ is said to __preserve the limits of _F_<!-- markdown separator -->__}@} if {@{\(_GL_, _Gφ_\) is a limit of _GF_ whenever \(_L_, _φ_\) is a limit of _F_}@}. (annotation: This is similar to {@{lifting of limits, but the "whenever" clauses swap places}@}.) \(Note that {@{if the limit of _F_ does not exist, then _G_ [vacuously](vacuous%20truth.md) preserves the limits of _F_}@}.\)
 
 {@{A functor _G_ is said to __preserve all limits of shape _J_<!-- markdown separator -->__}@} if {@{it preserves the limits of all diagrams _F_ : _J_ → _C_}@}. For example, one can say that {@{_G_ preserves products, equalizers, pullbacks, etc.}@} {@{A __continuous functor__}@} is {@{one that preserves all _small_ limits}@}.
 
@@ -186,7 +186,7 @@ For {@{a given diagram _F_ : _J_ → _C_ and functor _G_ : _C_ → _D_}@}, if {@
 
 ### lifting of limits
 
-{@{A functor _G_ : _C_ → _D_}@} is said to {@{__lift limits__ for a diagram _F_ : _J_ → _C_}@} if {@{whenever \(_L_, _φ_\) is a limit of _GF_ there exists a limit \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) of _F_ such that _G_\(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) = \(_L_, _φ_\) (annotation: this is similar to preservation of limits, but the "whenever" clauses swap places; note there can be multiple preimage cones, and _at least_ one is a limit)}@}. {@{A functor _G_ __lifts limits of shape _J_<!-- markdown separator -->__}@} if {@{it lifts limits for all diagrams of shape _J_}@}. One can therefore talk about {@{lifting products, equalizers, pullbacks, etc.}@} Finally, one says that {@{_G_ __lifts limits__ if it lifts all limits}@}. There are {@{dual definitions for the lifting of colimits}@}.
+{@{A functor _G_ : _C_ → _D_}@} is said to {@{__lift limits__ for a diagram _F_ : _J_ → _C_}@} if {@{whenever \(_L_, _φ_\) is a limit of _GF_ there exists a limit \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) of _F_ such that _G_\(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) = \(_L_, _φ_\)}@}. (annotation: This is similar to {@{preservation of limits, but the "whenever" clauses swap places; note there can be multiple preimage cones, and _at least_ one is a limit}@}.) {@{A functor _G_ __lifts limits of shape _J_<!-- markdown separator -->__}@} if {@{it lifts limits for all diagrams of shape _J_}@}. One can therefore talk about {@{lifting products, equalizers, pullbacks, etc.}@} Finally, one says that {@{_G_ __lifts limits__ if it lifts all limits}@}. There are {@{dual definitions for the lifting of colimits}@}.
 
 {@{A functor _G_ __lifts limits uniquely__ for a diagram _F_}@} if {@{there is a unique preimage cone \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) such that \(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) is a limit of _F_ and _G_\(_L_<!-- markdown separator -->′, _φ_<!-- markdown separator -->′\) = \(_L_, _φ_\) \(annotation: "unique" means there can be multiple preimage cones, and _exactly_ one is a limit\)}@}. One can show that {@{_G_ lifts limits uniquely if and only if it lifts limits and is [amnestic](amnestic%20functor.md)}@} \(annotation: that is, if {@{_Ff_ is an identity morphism then _f_ is an identity morphism}@}; or equivalently, {@{non-identity morphisms are never sent to identity morphisms \(note identity morphisms must be sent to identity morphisms\)}@}\).
 
@@ -195,7 +195,7 @@ For {@{a given diagram _F_ : _J_ → _C_ and functor _G_ : _C_ → _D_}@}, if {@
 - If _G_ lifts limits of all shape _J_ and _D_ has all limits of shape _J_, ::@:: then _C_ also has all limits of shape _J_ and _G_ preserves these limits.
 - If _G_ lifts all small limits and _D_ is complete, ::@:: then _C_ is also complete and _G_ is continuous.
 
-The dual statements {@{for colimits are equally valid}@}.
+{@{The dual statements (annotation: on relating lifting of colimits to preservation of colimits and cocompleteness)}@} for {@{colimits are equally valid}@}.
 
 ### creation and reflection of limits
 

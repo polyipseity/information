@@ -115,35 +115,35 @@ return await memorize_seq(
 
 #### hydrostatic load
 
-Hydrostatic load refers to load caused by {@{[water](water.md)}@}. The load can be caused by {@{pure water itself, or water in a material such as soil}@}.
+{@{Hydrostatic load}@} refers to load caused by {@{[water](water.md)}@}. The load can be caused by {@{pure water itself, or water in a material such as soil}@}.
 
-For example, when there is {@{water buildup in the soil}@}, there is {@{increased hydrostatic pressure on retaining walls}@}. For pure water, examples include a {@{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}@}.
+For example, when there is {@{water buildup in the soil}@}, there is {@{increased hydrostatic pressure on retaining walls}@}. For {@{pure water}@}, examples include a {@{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}@}.
 
 #### lateral load
 
-Lateral load may be caused by {@{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}@}.
+{@{Lateral load}@} may be caused by {@{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}@}.
 
-For example, there is lateral soil load on {@{retaining walls of a slope because the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. This lateral soil load can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}.
+For example, there is {@{lateral soil load on retaining walls of a slope}@} because {@{the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. {@{This lateral soil load}@} can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}.
 
-To protect against soil loads, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain can become man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}.
+To {@{protect against soil loads}@}, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain}@} can become {@{man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}.
 
 #### seismic load
 
-Seismic load are {@{caused by [earthquakes](earthquake.md)}@}. It can induce {@{both horizontal and vertical load on structures}@}.
+{@{Seismic load}@} are {@{caused by [earthquakes](earthquake.md)}@}. It can induce {@{both horizontal and vertical load on structures}@}.
 
-The consequences are {@{partial or complete collapse of structural elements or entire buildings}@}.
+{@{The consequences}@} are {@{partial or complete collapse}@} of {@{structural elements or entire buildings}@}.
 
 #### thermal load
 
-Thermal load refers to load {@{caused by [temperature](temperature.md) changes leading to [thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}@}.
+{@{Thermal load}@} refers to load {@{caused by [temperature](temperature.md) changes}@} leading to {@{[thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}@}.
 
-For example, {@{a beam in between two fixed support creates thermal load under heating as the beam expands}@}. A solution would be {@{making the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, {@{the beam can expand in the direction of the roller support, relieving the thermal load}@}.
+For example, {@{a beam in between two fixed support}@} creates {@{thermal load under heating as the beam expands}@}. {@{A solution}@} would be making {@{the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, the beam can {@{expand in the direction of the roller support, relieving the thermal load}@}.
 
 #### wind load
 
-[Wind](wind.md) is {@{movement of air}@}. When wind moves past a building, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. Positive pressure outside {@{causes inward forces while negative causes outward (uplift for roof) forces}@}. This is wind load. It also depends on {@{building shape, wind direction, and wind speed}@}.
+{@{[Wind](wind.md)}@} is {@{movement of air}@}. When wind {@{moves past a building}@}, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. {@{Positive pressure}@} outside causes {@{inward forces while negative causes outward (uplift for roof) forces}@}. This is {@{_wind load_}@}. It also depends on {@{building shape, wind direction, and wind speed}@}.
 
-Wind load causes {@{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}@}. Less serious consequences include {@{damage to individual structural elements such as roofs, walls, and windows; and causes excessive building vibrations}@}.
+{@{Wind load}@} causes {@{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}@}. {@{Less serious consequences}@} include damage to {@{individual structural elements such as roofs, walls, and windows}@}; and causes {@{excessive building vibrations}@}.
 
 ### other loads
 

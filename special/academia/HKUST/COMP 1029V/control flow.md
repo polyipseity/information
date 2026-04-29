@@ -85,9 +85,9 @@ Do
 Loop While condition
 ```
 
-The semantics of `Do...Loop While` is {@{that the statement block is executed first. Then the condition is executed. If the condition is `True`, we repeat the above process again. If the condition is `False`, the `Do...Loop While` statement ends its execution}@}.
+The semantics of {@{`Do...Loop While`}@} is that {@{the statement block is executed}@} first. Then {@{the condition is executed}@}. If {@{the condition is `True`, we repeat the above process again}@}. If {@{the condition is `False`, the `Do...Loop While` statement ends its execution}@}.
 
-As VBA is intended to be English like, it also provides the unconventional {@{`Do Until...Loop` and `Do...Loop Until` constructs}@}. The semantics is exactly the same except that {@{the loop stops if the condition is `True`}@}.
+As VBA is {@{intended to be English like}@}, it also provides the unconventional {@{`Do Until...Loop` and `Do...Loop Until` constructs}@}. The semantics is exactly the same except that {@{the loop stops if the condition is `True`}@}.
 
 ### `For`
 

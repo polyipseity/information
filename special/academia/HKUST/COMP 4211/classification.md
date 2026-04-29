@@ -188,7 +188,16 @@ Flashcards for this section are as follows:
 
 Let $m=yz$ denote the margin. Then the main surrogates can be compared directly on the same horizontal axis.
 
-The unscaled logistic-regression loss is $\tilde\phi_{\log}(m)=\log(1+e^{-m})$. It is exactly the binary logistic-regression or Bernoulli cross-entropy loss written in margin form. Indeed, if $r\in\{0,1\}$ is the original label, $z$ is the score, $p=\sigma(z)$, and $y=2r-1\in\{-1,1\}$, then $-\bigl(r\log p+(1-r)\log(1-p)\bigr)=\log(1+e^{-yz})=\log(1+e^{-m})$. The slides scale this to $\phi_{\log}(m)=\frac{1}{\log 2}\log(1+e^{-m})$ so that $\phi_{\log}(0)=1$ and the curve becomes a pointwise upper bound of zero-one loss. This scaling does _not_ change the optimizer, because multiplying an objective by a positive constant leaves its argmin unchanged: $\arg\min_w \sum_i \phi_{\log}(m_i)=\arg\min_w \sum_i \tilde\phi_{\log}(m_i)$.
+The unscaled logistic-regression loss is $\tilde\phi_{\log}(m)=\log(1+e^{-m})$. It is exactly the binary logistic-regression or Bernoulli cross-entropy loss written in margin form. To see the algebra explicitly, let $r\in\{0,1\}$ be the original label, let $z$ be the score, let $p=\sigma(z)=\frac{1}{1+e^{-z}}$, and encode the label as $y=2r-1\in\{-1,1\}$. Then
+
+- if $r=1$, so $y=1$, the BCE term is $-\log p=-\log\sigma(z)=\log(1+e^{-z})=\log(1+e^{-yz})$;
+- if $r=0$, so $y=-1$, then $1-p=\sigma(-z)$ and the BCE term is $-\log(1-p)=-\log\sigma(-z)=\log(1+e^z)=\log(1+e^{-yz})$.
+
+So the two label-specific BCE cases collapse into the single margin expression $-\bigl(r\log p+(1-r)\log(1-p)\bigr)=\log(1+e^{-yz})=\log(1+e^{-m})$.
+
+The slides scale this to $\phi_{\log}(m)=\frac{1}{\log 2}\log(1+e^{-m})$ so that $\phi_{\log}(0)=1$ and the curve becomes a pointwise upper bound of zero-one loss. Indeed, $\phi_{\log}(0)=\frac{1}{\log 2}\log(1+e^0)=\frac{1}{\log 2}\log 2=1$.
+
+This scaling does _not_ change the optimizer, because multiplying an objective by a positive constant leaves its argmin unchanged: $\arg\min_w \sum_i \phi_{\log}(m_i)=\arg\min_w \sum_i \tilde\phi_{\log}(m_i)$.
 
 Its derivative is $\phi_{\log}'(m)=-\frac{1}{\log 2}\frac{1}{1+e^{m}}=-\frac{\sigma(-m)}{\log 2}$, so the penalty decays smoothly rather than shutting off abruptly.
 
@@ -204,7 +213,8 @@ Each surrogate therefore encodes a different learning bias. Logistic loss behave
 
 Flashcards for this section are as follows:
 
-- logistic surrogate and logistic-regression BCE relation ::@:: If $r\in\{0,1\}$, $y=2r-1\in\{-1,1\}$, score is $z$, and $p=\sigma(z)$, then binary cross entropy is $-\bigl(r\log p+(1-r)\log(1-p)\bigr)=\log(1+e^{-yz})$. The slides use the scaled version $\frac{1}{\log 2}\log(1+e^{-yz})$, which equals $1$ at margin $0$ and has the same minimizer because it differs only by a positive constant factor.
+- logistic surrogate and logistic-regression BCE relation ::@:: If $r\in\{0,1\}$, $y=2r-1\in\{-1,1\}$, score is $z$, and $p=\sigma(z)$, then BCE is $-\bigl(r\log p+(1-r)\log(1-p)\bigr)$. When $r=1$ (so $y=1$), this is $-\log p=-\log\sigma(z)=\log(1+e^{-z})=\log(1+e^{-yz})$. When $r=0$ (so $y=-1$), this is $-\log(1-p)=-\log\sigma(-z)=\log(1+e^{z})=\log(1+e^{-yz})$. So BCE unifies into $\log(1+e^{-yz})$, and the scaled version $\frac{1}{\log 2}\log(1+e^{-yz})$ equals $1$ at margin $0$ while having the same minimizer because it differs only by a positive constant factor.
+- sigmoid logarithm identities used in the logistic-surrogate derivation ::@:: For $\sigma(z)=\frac{1}{1+e^{-z}}$, one has $\log\sigma(z)=-\log(1+e^{-z})$ and $\log(1-\sigma(z))=\log\sigma(-z)=-\log(1+e^{z})$.
 - why scaled logistic loss is used in the classification note ::@:: Scaling $\log(1+e^{-m})$ by $1/\log 2$ makes the loss equal to $1$ at $m=0$, so it becomes a pointwise upper bound of zero-one loss while remaining equivalent to ordinary logistic-regression cross entropy for optimization.
 - derivative of scaled logistic loss ::@:: If $\phi_{\log}(m)=\frac{1}{\log 2}\log(1+e^{-m})$, then $\phi_{\log}'(m)=-\frac{1}{\log 2}\frac{1}{1+e^m}=-\frac{\sigma(-m)}{\log 2}$.
 - hinge loss interpretation with subgradient ::@:: Hinge loss is $\phi_{\mathrm{hinge}}(m)=\max\{0,1-m\}$; it is $1-m$ for $m<1$, $0$ for $m>1$, and has subgradient interval $[-1,0]$ at $m=1$, so it becomes zero only after a unit margin is achieved.
