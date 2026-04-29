@@ -10,6 +10,7 @@ from contextlib import contextmanager, suppress
 from copy import copy
 from logging import INFO, basicConfig
 from os import chdir, getcwd, scandir, symlink
+from os.path import abspath
 from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
@@ -129,13 +130,17 @@ _ARCHIVE_REGEXES = {
         "../../archives/Wikimedia Commons/{}",
     ),
 }
+"Script directory for resolving relative data files."
+_SCRIPT_DIRECTORY = Path(abspath(__file__)).parent
 "Directory where converted Wikipedia Markdown notes are stored."
-_CONVERTED_WIKI_DIRECTORY = Path("../general")
+_CONVERTED_WIKI_DIRECTORY = _SCRIPT_DIRECTORY.parent / "general"
 "Subdirectory for non-English language Wikipedia notes."
 _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 
 with open(
-    f"{BASE_NAME}.filename_rename_map.jsonc", "rt", encoding="UTF-8"
+    _SCRIPT_DIRECTORY / f"{BASE_NAME}.filename_rename_map.jsonc",
+    "rt",
+    encoding="UTF-8",
 ) as names_map_file:
     "Manually curated filename rename map loaded from JSON5/JSONC."
     _names_map_manual: dict[str, str] = json5.load(names_map_file)
