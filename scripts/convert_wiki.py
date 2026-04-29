@@ -8,7 +8,6 @@ and prints the result ready to be pasted into a knowledge-base note.
 from collections.abc import Awaitable, Callable, Mapping, MutableSet
 from contextlib import contextmanager, suppress
 from copy import copy
-from json import load
 from logging import INFO, basicConfig
 from os import chdir, getcwd, scandir, symlink
 from pathlib import PurePath
@@ -17,6 +16,7 @@ from string import punctuation, whitespace
 from sys import argv, version
 from urllib.parse import quote, unquote
 
+import json5
 from aiohttp import ClientSession, TCPConnector
 from anyio import Path
 from asyncer import SoonValue, create_task_group, runnify
@@ -135,10 +135,10 @@ _CONVERTED_WIKI_DIRECTORY = Path("../general")
 _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 
 with open(
-    f"{BASE_NAME}.filename_rename_map.json", "rt", encoding="UTF-8"
+    f"{BASE_NAME}.filename_rename_map.jsonc", "rt", encoding="UTF-8"
 ) as names_map_file:
-    "Manually curated filename rename map loaded from JSON."
-    _names_map_manual: dict[str, str] = load(names_map_file)
+    "Manually curated filename rename map loaded from JSON5/JSONC."
+    _names_map_manual: dict[str, str] = json5.load(names_map_file)
 "Filename rename map derived from existing Markdown files in the wiki directory."
 _names_map = {
     key: val
@@ -837,5 +837,7 @@ def __main__() -> None:
     runnify(main, backend_options={"use_uvloop": True})()
 
 
+if __name__ == "__main__":
+    __main__()
 if __name__ == "__main__":
     __main__()

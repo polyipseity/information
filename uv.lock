@@ -742,6 +742,7 @@ dependencies = [
     { name = "cihai" },
     { name = "country-converter" },
     { name = "jaraco-clipboard" },
+    { name = "json5" },
     { name = "markdown" },
     { name = "numpy" },
     { name = "pyarchivist" },
@@ -802,6 +803,7 @@ requires-dist = [
     { name = "cihai", specifier = ">=0.36.0" },
     { name = "country-converter", specifier = ">=1.3.0" },
     { name = "jaraco-clipboard", specifier = ">=3.1.0" },
+    { name = "json5", specifier = ">=0.14.0" },
     { name = "markdown", specifier = ">=3.6.0" },
     { name = "matplotlib", marker = "extra == 'scripts'", specifier = ">=3.9.0" },
     { name = "numpy", specifier = ">=2.0.0" },
@@ -970,6 +972,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/41/f2/d34e8b3a08a9cc79a50b2208a93dce981fe615b64d5a4d4abee421d898df/joblib-1.5.3.tar.gz", hash = "sha256:8561a3269e6801106863fd0d6d84bb737be9e7631e33aaed3fb9ce5953688da3", size = 331603, upload-time = "2025-12-15T08:41:46.427Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7b/91/984aca2ec129e2757d1e4e3c81c3fcda9d0f85b74670a094cc443d9ee949/joblib-1.5.3-py3-none-any.whl", hash = "sha256:5fc3c5039fc5ca8c0276333a188bbd59d6b7ab37fe6632daa76bc7f9ec18e713", size = 309071, upload-time = "2025-12-15T08:41:44.973Z" },
+]
+
+[[package]]
+name = "json5"
+version = "0.14.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/9c/4b/6f8906aaf67d501e259b0adab4d312945bb7211e8b8d4dcc77c92320edaa/json5-0.14.0.tar.gz", hash = "sha256:b3f492fad9f6cdbced8b7d40b28b9b1c9701c5f561bef0d33b81c2ff433fefcb", size = 52656, upload-time = "2026-03-27T22:50:48.108Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b8/42/cf027b4ac873b076189d935b135397675dac80cb29acb13e1ab86ad6c631/json5-0.14.0-py3-none-any.whl", hash = "sha256:56cf861bab076b1178eb8c92e1311d273a9b9acea2ccc82c276abf839ebaef3a", size = 36271, upload-time = "2026-03-27T22:50:47.073Z" },
 ]
 
 [[package]]
