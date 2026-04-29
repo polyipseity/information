@@ -1,3 +1,5 @@
+"""Fetch the HKUST undergraduate course catalog and write it to a CSV file."""
+
 from collections.abc import AsyncIterator, Mapping
 from contextlib import asynccontextmanager
 from csv import DictReader, DictWriter
@@ -14,14 +16,23 @@ from asyncstdlib import tuple as a_tuple
 from bs4 import BeautifulSoup
 from yarl import URL
 
+"""Exported names from this module (none: standalone script, not importable as a library)."""
+__all__ = ()
+
+"CSV dialect to use when writing or reading the output file."
 _CSV_DIALECT = "excel"
+"Line terminator for CSV output."
 _CSV_LINE_TERMINATOR = "\n"
+"Maximum number of concurrent HTTP requests per host."
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
+"URL of the HKUST undergraduate course catalog page."
 _UNDERGRADUATE_COURSES_URL = URL("https://prog-crs.hkust.edu.hk/ugcourse")
 
 
 @dataclass(frozen=True, kw_only=True, slots=True)
 class Subject:
+    """Represents an undergraduate course subject entry from the HKUST catalog."""
+
     code: str
     name: str
     credit: str
@@ -31,6 +42,7 @@ async def fetch_subjects(
     *,
     session: ClientSession,
 ) -> Mapping[str, URL]:
+    """Fetch the list of subjects from the HKUST undergraduate course page."""
     async with session.get(_UNDERGRADUATE_COURSES_URL) as req:
         subjects_text = await req.text()
 
@@ -57,6 +69,7 @@ async def fetch_subject_courses(
     *,
     session: ClientSession,
 ) -> AsyncIterator[Subject]:
+    """Fetch and yield all courses for a given subject URL."""
     async with session.get(href) as req:
         text = await req.text()
     html = BeautifulSoup(text, "html.parser")
@@ -81,6 +94,7 @@ async def fetch_subject_courses(
 
 @asynccontextmanager
 async def open_dest(dest_filepath: Path | str) -> AsyncIterator[AsyncFile[str]]:
+    """Open the destination file for writing, or stdout if no path is given."""
     if dest_filepath:
         dest_filepath = Path(dest_filepath)
         if not await dest_filepath.exists():
@@ -92,6 +106,7 @@ async def open_dest(dest_filepath: Path | str) -> AsyncIterator[AsyncFile[str]]:
 
 
 async def main() -> None:
+    """Prompt for a destination path and write the HKUST course catalog to CSV."""
     dest_filepath = input("Destination? ")
 
     async with (

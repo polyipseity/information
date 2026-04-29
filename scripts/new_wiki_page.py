@@ -1,11 +1,21 @@
+"""Scaffold a new Wikipedia-sourced note with frontmatter and a template.
+
+Prompts for the article name, builds the YAML frontmatter and a skeleton
+note body, then copies the result to the system clipboard.
+"""
+
 from re import sub
 from unicodedata import normalize
 
 from asyncer import runnify
 from pyperclip import copy
 
+"""Exported names from this module (none: standalone script, not importable as a library)."""
+__all__ = ()
+
 
 async def main() -> None:
+    """Prompt for article name, build note skeleton, and copy it to clipboard."""
     name = normalize("NFC", input("Name? ")).strip()
 
     tag_replacements = {"–": "-", "—": "-"}

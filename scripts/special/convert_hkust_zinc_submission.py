@@ -1,3 +1,5 @@
+"""Convert HKUST Zinc LMS HTML submission pages to YAML/Markdown."""
+
 from collections.abc import Callable, Collection, Mapping, Sequence
 from contextlib import suppress
 from copy import copy
@@ -14,14 +16,21 @@ from asyncer import asyncify, runnify
 from bs4 import BeautifulSoup, Tag
 from yaml import safe_dump
 
+"""Exported names from this module (none: standalone script, not importable as a library)."""
+__all__ = ()
+
 
 @final
 class AssignmentPageType(StrEnum):
+    """Page type for a HKUST Zinc assignment submission HTML export."""
+
     SUBMISSION = "submission"
 
 
 @final
 class ParseDatetimeResult(NamedTuple):
+    """Result of parsing a datetime string, including its position in the source."""
+
     result: datetime
     start_index: int
     end_index: int
@@ -87,6 +96,7 @@ def html_to_text(
         "wbr",
     ),
 ) -> str:
+    """Convert an HTML tag to plain text, using newlines for block-level elements."""
     tag = copy(tag)
     for element in tag.find_all():
         if element.name not in _NON_BREAKING_ELEMENTS:
@@ -111,6 +121,7 @@ def parse_datetime(
         (lambda s, dt: s, "%d %b %Y"),
     ),
 ) -> ParseDatetimeResult | None:
+    """Parse a datetime string from a Zinc submission page."""
     string = string.replace(" Sept ", " Sep ")
     if "上午" in string:
         string = f"{string[: string.index('上午')]}{string[string.index('上午') + len('上午') :]}am"
@@ -142,6 +153,8 @@ def parse_datetime(
 
 @final
 class ParseTitleAndContentResult(NamedTuple):
+    """Result of parsing a submission title and content from a Zinc page."""
+
     title: str
     content: str
 
@@ -149,6 +162,7 @@ class ParseTitleAndContentResult(NamedTuple):
 def parse_title_and_content(
     soup: BeautifulSoup, *, page_type: AssignmentPageType
 ) -> ParseTitleAndContentResult | None:
+    """Parse the title and content from a Zinc submission page."""
     match page_type:
         case AssignmentPageType.SUBMISSION:
             if (title_ele := soup.select_one("h1")) is None:
@@ -166,6 +180,8 @@ def parse_title_and_content(
 
 @final
 class ParseGradeResult(NamedTuple):
+    """Result of parsing grade information from a Zinc submission page."""
+
     possible_grade: int | float | str
     entered_grade: int | float | str
     graded_anonymously: bool | None
@@ -175,6 +191,7 @@ class ParseGradeResult(NamedTuple):
 def parse_grade(
     soup: BeautifulSoup, *, page_type: AssignmentPageType
 ) -> ParseGradeResult | None:
+    """Parse grade information from a Zinc submission page."""
     match page_type:
         case AssignmentPageType.SUBMISSION:
             if (
@@ -235,6 +252,8 @@ def parse_grade(
 
 @final
 class ParsePropertiesResult(NamedTuple):
+    """Result of parsing submission properties from a Zinc page."""
+
     properties: Mapping[str, object]
     submission_datetime: datetime | str
     submission_id: int | str
@@ -247,6 +266,7 @@ def parse_properties(
     page_type: AssignmentPageType,
     reference_datetime: datetime,
 ) -> ParsePropertiesResult:
+    """Parse submission properties and metadata from a Zinc submission page."""
     properties_raw = dict[str, str]()
     match page_type:
         case AssignmentPageType.SUBMISSION:
@@ -358,6 +378,7 @@ def parse_properties(
         if generic:
 
             def parse_datetime0(val: str):
+                """Parse a value as a datetime, returning the result or None."""
                 if (
                     ret := parse_datetime(val, reference_datetime=reference_datetime)
                 ) is None:
@@ -394,6 +415,7 @@ async def convert(
     ),
     _DATE_REGEX: Pattern[str] = re_compile(r"saved date: ([^(\n]*)"),
 ) -> str | None:
+    """Convert Zinc LMS HTML page text to a YAML/Markdown string."""
     url_match = _URL_REGEX.search(html_text)
     if not url_match:
         return None
@@ -476,6 +498,7 @@ async def convert(
 
 
 async def main() -> None:
+    """Prompt for an HTML file path and print the converted YAML output."""
     file_path = input("HTML file? ")
 
     file_text = await Path(file_path).read_text()

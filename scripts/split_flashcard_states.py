@@ -1,7 +1,13 @@
+"""Split a combined flashcard state annotation string into individual per-card annotations."""
+
+"""Exported names from this module (none: standalone script, not importable as a library)."""
+__all__ = ()
+
 _PREFIX, _SUFFIX = "<!--SR:!", "-->"
 
 
 def main():
+    """Read a flashcard state string from stdin and print each state on its own line."""
     flashcard_states_string = (
         input("? ").strip().removeprefix(_PREFIX).removesuffix(_SUFFIX)
     )
@@ -17,6 +23,7 @@ def main():
 
 
 def __main__():
+    """Entry point for running the script directly."""
     main()
 
 

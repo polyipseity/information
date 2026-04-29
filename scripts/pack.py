@@ -1,3 +1,10 @@
+"""Create a PageRank-ordered zip bundle of knowledge-base notes.
+
+Walks the Markdown link graph, computes PageRank to rank files by
+importance, and writes a zip archive containing the top *N* files
+together with metadata about omitted notes and link closure.
+"""
+
 from argparse import ONE_OR_MORE, ZERO_OR_MORE, ArgumentParser, Namespace
 from collections.abc import (
     AsyncIterator,
@@ -32,12 +39,20 @@ from numpy import array, float64, full, zeros
 from numpy.linalg import matrix_power
 from numpy.typing import NDArray
 
+"""Exported names from this module (none: standalone script, not importable as a library)."""
+__all__ = ()
+
 # structural concurrency will be used instead of gather helper
 
+"Maximum number of concurrent file-processing workers."
 _CONCURRENCY = cpu_count() or 2
+"Immutable empty frozenset used as a placeholder for pages with no outbound links."
 _EMPTY_SET = frozenset[Any]()
+"Path to this script file."
 _FILE_PATH = PurePath(__file__)
+"Format string for the metadata JSON filename written into the zip archive."
 _METADATA_FILENAME_FORMAT = "metadata{}.json"
+"Version string for the pack script."
 _VERSION = "∞"
 
 
@@ -54,6 +69,8 @@ _VERSION = "∞"
     slots=True,
 )
 class Arguments:
+    """Parsed command-line arguments for the pack script."""
+
     output: Path
     root: Path | None
     count: int
@@ -63,11 +80,13 @@ class Arguments:
     files: Collection[Path]
 
     def __post_init__(self) -> None:
+        """Coerce mutable sequences to tuples to satisfy the frozen dataclass contract."""
         object.__setattr__(self, "files", tuple(self.files))
         object.__setattr__(self, "exclude_extensions", tuple(self.exclude_extensions))
 
 
 async def main(args: Arguments) -> None:
+    """Resolve inputs, build the Markdown link graph, rank files with PageRank, and write the zip."""
     if not args.files:
         raise ValueError("No files to pack")
     if 0 > args.damping_factor or args.damping_factor > 1:
@@ -76,9 +95,11 @@ async def main(args: Arguments) -> None:
         )
 
     async def resolve_root():
+        """Resolve the root directory, or return None if no root was supplied."""
         return await args.root.resolve(strict=True) if args.root else None
 
     async def resolve_file(file: Path) -> AsyncIterator[Path]:
+        """Yield resolved paths: expand directories recursively, yield files as-is."""
         file = await file.resolve(strict=True)
         if await file.is_dir():
             async for child in file.glob("**/*"):
@@ -112,6 +133,8 @@ async def main(args: Arguments) -> None:
         raise ValueError("The specified root does not contain all files to pack")
 
     class ProcessMarkdownFileResult(NamedTuple):
+        """Result of processing a single Markdown file: its resolved path plus sets of existing and missing link targets."""
+
         path: Path
         existing: MutableSet[Path]
         missing: MutableSet[Path]
@@ -119,6 +142,7 @@ async def main(args: Arguments) -> None:
     scheme_regex = compile(r"^[^:]+:")
 
     async def process_file(file: Path):
+        """Parse links from a Markdown file and return paths of reachable and missing link targets."""
         if file.suffix in exclude_extensions:
             return None
         if file.suffix != ".md":
@@ -138,6 +162,7 @@ async def main(args: Arguments) -> None:
             link_paths.append(file.parent / link_path)
 
         async def process_path(path: Path):
+            """Resolve a link path and yield (resolved_path, exists) pairs, expanding directories."""
             resolved = await path.resolve()
             if await resolved.exists():
                 if await resolved.is_dir():
@@ -152,6 +177,7 @@ async def main(args: Arguments) -> None:
         def reduce_ret(
             ret: ProcessMarkdownFileResult, path_and_existence: tuple[Path, bool]
         ):
+            """Accumulate a resolved path into the existing or missing set of the result."""
             (ret.existing if path_and_existence[1] else ret.missing).add(
                 path_and_existence[0]
             )
@@ -174,6 +200,7 @@ async def main(args: Arguments) -> None:
         limiter = CapacityLimiter(_CONCURRENCY)
 
         async def worker(path: Path) -> None:
+            """Process one file, record its links, and schedule newly discovered files for processing."""
             async with limiter:
                 ret = await process_file(path)
             if ret is None:
@@ -224,6 +251,7 @@ async def main(args: Arguments) -> None:
     page_rank_map = {path: page_ranks[idx] for idx, path in enumerate(ordered_paths)}
 
     def try_make_relative(path: Path):
+        """Return a root-relative POSIX string for path, or an absolute string if path is outside root."""
         try:
             return path.relative_to(root).__fspath__()
         except ValueError:
@@ -266,8 +294,11 @@ async def main(args: Arguments) -> None:
                 break
 
     class MetadataJSONEncoder(JSONEncoder):
+        """JSON encoder that serialises PathLike objects and dataclasses."""
+
         @override
         def default(self, o: object) -> object:
+            """Serialise PathLike objects to strings and dataclasses to dicts."""
             if isinstance(o, PathLike):
                 return fspath(o)
             if is_dataclass(o) and not isinstance(o, type):
@@ -304,6 +335,7 @@ def modified_page_rank_stochastic_mat(
     *,
     damping: float,
 ) -> tuple[Sequence[Path], NDArray[float64]]:
+    """Build a modified PageRank stochastic matrix that teleports to seed files with probability (1-damping)."""
     ordered_paths = tuple(
         frozenset(chain(initial, links, chain.from_iterable(links.values())))
     )
@@ -311,6 +343,7 @@ def modified_page_rank_stochastic_mat(
     size = len(path_indices)
 
     def make_link_array(links: Set[Path]):
+        """Return a column probability vector for the given outbound link set, or a uniform vector if empty."""
         if links:
             ret = zeros((size,), dtype=float64)
             ret[list(path_indices[link] for link in links)] = 1 / len(links)
@@ -330,6 +363,7 @@ def modified_page_rank_stochastic_mat(
 
 
 def parser(parent: Callable[..., ArgumentParser] | None = None):
+    """Build and return the argument parser for the pack script."""
     prog = __package__ or __name__
 
     parser = (ArgumentParser if parent is None else parent)(
@@ -407,6 +441,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
 
     @wraps(main)
     async def invoke(args: Namespace):
+        """Construct an Arguments instance from parsed namespace and call main."""
         await main(
             Arguments(
                 output=args.output,

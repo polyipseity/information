@@ -1,3 +1,10 @@
+"""Convert Wikipedia HTML from the clipboard into a Markdown note.
+
+Reads HTML from the system clipboard, normalises it to Markdown,
+downloads referenced media to ``archives/Wikimedia Commons/``,
+and prints the result ready to be pasted into a knowledge-base note.
+"""
+
 from collections.abc import Awaitable, Callable, Mapping, MutableSet
 from contextlib import contextmanager, suppress
 from copy import copy
@@ -26,9 +33,13 @@ from pyarchivist.Wikimedia_Commons.main import (
 from pyperclip import copy as clip_copy
 from yarl import URL
 
+"""Exported names from this module (none: standalone script, not importable as a library)."""
+__all__ = ()
+
 
 @contextmanager
 def _with_cwd(cwd: Path):
+    """Temporarily change the current working directory."""
     old_cwd = getcwd()
     chdir(cwd)
     try:
@@ -37,30 +48,44 @@ def _with_cwd(cwd: Path):
         chdir(old_cwd)
 
 
+"Script filename."
 NAME = PurePath(__file__).name
+"Script name without extension."
 BASE_NAME = PurePath(__file__).stem
+"Script authors."
 AUTHORS = (
     {
         "name": "William So",
         "email": "polyipseity@gmail.com",
     },
 )
+"Script version."
 VERSION = "∞"
+"User agent string for HTTP requests."
 USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
 
+"Base URL for the English Wikipedia wiki host."
 _WIKI_HOST_URL = URL.build(scheme="https", host="en.wikipedia.org")
+"Maximum concurrent HTTP requests per host."
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
+"Indentation string for nested Markdown lists."
 _LIST_INDENT = "    "
+"Characters considered as separators in Markdown formatting."
 _MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}\xa0".translate(
     {
         ord("/"): "",
         ord("_"): "",
     }
 )
+"HTML comment used as a Markdown formatting separator."
 _MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
+"Suffix appended to page titles that do not exist."
 _PAGE_DOES_NOT_EXIST_SUFFIX = " (page does not exist)"
+"Set of page titles to ignore when converting links."
 _BAD_TITLES = frozenset({"Edit this at Wikidata"})
+"Set of name prefixes to ignore when fixing link names."
 _IGNORED_NAME_PREFIXES = frozenset[str]()
+"Mapping of Wikipedia page prefixes to their external URL formats."
 _PRESERVED_PAGE_PREFIXES = {
     "Category:": f"{_WIKI_HOST_URL}/wiki/Category:{{}}",
     "File:": f"{_WIKI_HOST_URL}/wiki/File:{{}}",
@@ -88,6 +113,7 @@ _PRESERVED_PAGE_PREFIXES = {
     "wikt:": "https://en.wiktionary.org/wiki/{}",
     "wiktionary:": "https://en.wiktionary.org/wiki/{}",
 }
+"Mapping of URL regexes to archive filename and path format pairs."
 _ARCHIVE_REGEXES = {
     compile(
         r"^https://upload.wikimedia.org/wikipedia/[^/]*/[0-9a-f]/[0-9a-f]{2}/([^/]*)$"
@@ -103,13 +129,17 @@ _ARCHIVE_REGEXES = {
         "../../archives/Wikimedia Commons/{}",
     ),
 }
+"Directory where converted Wikipedia Markdown notes are stored."
 _CONVERTED_WIKI_DIRECTORY = Path("../general")
+"Subdirectory for non-English language Wikipedia notes."
 _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 
 with open(
     f"{BASE_NAME}.filename_rename_map.json", "rt", encoding="UTF-8"
 ) as names_map_file:
+    "Manually curated filename rename map loaded from JSON."
     _names_map_manual: dict[str, str] = load(names_map_file)
+"Filename rename map derived from existing Markdown files in the wiki directory."
 _names_map = {
     key: val
     for entry in scandir(_CONVERTED_WIKI_DIRECTORY)
@@ -129,10 +159,12 @@ _names_map = {
 }
 if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)
+"Combined filename rename map merging auto-detected and manual entries."
 _NAMES_MAP = _names_map | _names_map_manual
 
 
 def _bs4_new_element(tag_str: str) -> PageElement:
+    """Parse an HTML tag string and return the first element."""
     soup = BeautifulSoup(tag_str, "html.parser")
     return soup.contents[0].extract()
 
@@ -143,6 +175,7 @@ def _fix_name_maybe(
     normalize: bool = True,
     replace_underscores: bool = False,
 ) -> str:
+    """Normalise and map a Wikipedia page name to the local filename stem."""
     if normalize:
         name = name.replace("\u00a0", " ")
     if (ret := _NAMES_MAP.get(name)) is not None:
@@ -165,10 +198,12 @@ def _fix_filename(
     *,
     _BAD_CHARACTERS: Pattern[str] = compile(r"[/:\\]"),
 ) -> str:
+    """Replace filesystem-unsafe characters in a filename with underscores."""
     return _BAD_CHARACTERS.sub("_", filename)
 
 
 def _markdown_fragment(fragment: str) -> str:
+    """Return a URL fragment string suitable for a Markdown link anchor."""
     return (
         fragment
         and f"#{fragment.replace(':', '').replace(' ', '%20').replace('/', '%2F')}"
@@ -176,10 +211,12 @@ def _markdown_fragment(fragment: str) -> str:
 
 
 def _markdown_link_target(page: str, fragment: str) -> str:
+    """Build a relative Markdown link target for a given page name and fragment."""
     return f"{_fix_filename(page).replace(' ', '%20')}.md{_markdown_fragment(fragment)}"
 
 
 def _tag_affixes(name: str) -> tuple[str, str]:
+    """Return the opening and closing HTML tag strings for the given tag name."""
     return f"<{name}>", f"</{name}>"
 
 
@@ -205,7 +242,10 @@ async def wiki_html_to_plaintext(
     _TABLE_IN_TABLE_LEADING_VERTICAL_REGEX: Pattern[str] = compile(r"\s*\|"),
     _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX: Pattern[str] = compile(r"\|\s*"),
 ) -> str:
+    """Convert a Wikipedia HTML element tree to a Markdown string."""
+
     def escape_markdown(text: str) -> str:
+        """Escape special Markdown characters in the given text."""
         return _MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
 
     if not isinstance(ele, Tag):
@@ -231,6 +271,7 @@ async def wiki_html_to_plaintext(
             return ""
 
     def process_strings_default(strings: str) -> str:
+        """Return the strings unchanged."""
         return strings
 
     process_strings: Callable[[str], str] = process_strings_default
@@ -241,6 +282,7 @@ async def wiki_html_to_plaintext(
         case "br":
 
             def process_strings_br(strings: str) -> str:
+                """Append a newline after the string for a line break."""
                 return f"{strings}\n"
 
             process_strings = process_strings_br
@@ -250,6 +292,7 @@ async def wiki_html_to_plaintext(
             prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
 
             def process_strings_header(strings: str) -> str:
+                """Strip and normalise the header text."""
                 return _fix_name_maybe(strings.strip())
 
             process_strings = process_strings_header
@@ -258,6 +301,7 @@ async def wiki_html_to_plaintext(
         case _ if ele.name == "a" and "mw-selflink" in classes:
 
             def process_strings_self_link(strings: str) -> str:
+                """Strip and replace newlines with HTML line breaks for self-links."""
                 return strings.strip().replace("\n", " <br/> ")
 
             process_strings = process_strings_self_link
@@ -300,6 +344,7 @@ async def wiki_html_to_plaintext(
                 suffix += _MARKDOWN_SEPARATOR
 
             def process_strings_bi(strings: str) -> str:
+                """Adjust bold/italic prefix and suffix around surrounding whitespace."""
                 nonlocal prefix, suffix
                 match = _PROCESS_STRINGS_BI_REGEX.match(strings)
                 assert match
@@ -318,6 +363,7 @@ async def wiki_html_to_plaintext(
         case "code":
 
             def process_strings_code(strings: str) -> str:
+                """Wrap code strings in the appropriate backtick delimiter."""
                 nonlocal prefix, suffix
                 delimiter = "`"
                 while delimiter in strings:
@@ -394,6 +440,7 @@ async def wiki_html_to_plaintext(
                 if str(ele.get("id", "")).startswith("cite_"):
 
                     def process_strings_li_cite(strings: str, item: int = item) -> str:
+                        """Append citation anchors to the first line of a list item."""
                         try:
                             idx = strings.index("\n")
                         except ValueError:
@@ -464,6 +511,7 @@ async def wiki_html_to_plaintext(
         case "td" | "th":
 
             def process_strings_tdh(strings: str) -> str:
+                """Normalise table cell content for Markdown table syntax."""
                 strings = strings.strip()
 
                 strings = _CONSECUTIVE_NEWLINES_REGEX.sub("\n", strings)
@@ -498,6 +546,7 @@ async def wiki_html_to_plaintext(
             if src := ele.get("href"):
 
                 def process_strings_audio(strings: str) -> str:
+                    """Build a Markdown link for an audio element."""
                     src_url = _WIKI_HOST_URL.join(URL(str(src)))
                     src_url_str = str(src_url)
 
@@ -527,7 +576,7 @@ async def wiki_html_to_plaintext(
             if src := ele.get("src"):
 
                 def process_strings_img(strings: str, ele: Tag = ele) -> str:
-
+                    """Build a Markdown image link for an img element."""
                     src_url = _WIKI_HOST_URL.join(URL(str(src)))
                     src_url_str = str(src_url)
 
@@ -659,6 +708,7 @@ async def wiki_html_to_plaintext(
             if process:
 
                 def process_strings_a(strings: str) -> str:
+                    """Strip and replace newlines with HTML line breaks for anchor text."""
                     return strings.strip().replace("\n", " <br/> ")
 
                 process_strings = process_strings_a
@@ -685,6 +735,7 @@ async def wiki_html_to_plaintext(
     ):
 
         def process_strings_blockquote(strings: str) -> str:
+            """Prefix each line with a Markdown blockquote marker."""
             return "".join(
                 f">{line.strip() and ' '}{line}"
                 for line in strings.strip().splitlines(keepends=True)
@@ -694,6 +745,7 @@ async def wiki_html_to_plaintext(
         process_strings = process_strings_blockquote
 
     def process_children():
+        """Yield coroutines that convert each child element to Markdown text."""
         nonlocal list_stack
         for child in ele.children:
             if (
@@ -718,6 +770,7 @@ async def wiki_html_to_plaintext(
     async with create_task_group() as tg:
         # inline helper capturing the specific coroutine
         async def _identity(c: Awaitable[str]) -> str:
+            """Await and return the result of a coroutine."""
             return await c
 
         for coro in process_children():
@@ -731,6 +784,7 @@ async def wiki_html_to_plaintext(
 
 
 async def main() -> None:
+    """Read Wikipedia HTML from the clipboard and print its Markdown equivalent."""
     refs = "--no-refs" not in argv[1:]
 
     input("HTML (will read from clipboard)? ")

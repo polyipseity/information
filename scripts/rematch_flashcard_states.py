@@ -7,16 +7,24 @@ from re import DOTALL, compile
 
 from pyperclip import copy, paste
 
+"""Exported names from this module (none: standalone script, not importable as a library)."""
+__all__ = ()
+
+"""Regex matching all flashcard-state blocks (``<!--SR:...-->``)."""
 FLASHCARD_STATES_REGEX = compile(r"\s*<!--SR:(.+?)-->", flags=DOTALL)
+"""Regex matching a single flashcard-state date annotation (e.g. ``!2024-01-15,1,0``)."""
 FLASHCARD_STATE_REGEX = compile(r"!\d{4}-\d{2}-\d{2},\d+,\d+")
+"""Regex matching any line-ending sequence for normalization."""
 LINE_ENDINGS_REGEX = compile(r"\r\n|[\n\v\f\r\x85\u2028\u2029]")
 
 
 def normalize_line_endings(target: str = "\n") -> str:
+    """Replace all line-ending sequences in target with ``\n``."""
     return LINE_ENDINGS_REGEX.sub("\n", target)
 
 
 def main() -> None:
+    """Read text from clipboard, reattach flashcard states per paragraph, and copy result."""
     input("Text (will read from clipboard)? ")
     text = paste().strip()
     text = normalize_line_endings(text)

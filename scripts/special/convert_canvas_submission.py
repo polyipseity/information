@@ -1,3 +1,5 @@
+"""Convert Canvas LMS HTML submission pages to YAML/Markdown."""
+
 from collections.abc import Callable, Collection, Mapping, Sequence
 from contextlib import suppress
 from copy import copy
@@ -15,6 +17,10 @@ from bs4 import BeautifulSoup, Tag
 from bs4.element import AttributeValueList
 from yaml import safe_dump
 
+"""Exported names from this module (none: standalone script, not importable as a library)."""
+__all__ = ()
+
+"Month name abbreviations used for datetime parsing."
 _MONTH_NAMES = (
     "Jan",
     "Feb",
@@ -33,12 +39,16 @@ _MONTH_NAMES = (
 
 @final
 class AssignmentPageType(StrEnum):
+    """Page type for a Canvas assignment or submission HTML export."""
+
     ASSIGNMENT = "assignment"
     SUBMISSION = "submission"
 
 
 @final
 class ParseDatetimeResult(NamedTuple):
+    """Result of parsing a datetime string, including its position in the source."""
+
     result: datetime
     start_index: int
     end_index: int
@@ -104,6 +114,7 @@ def html_to_text(
         "wbr",
     ),
 ) -> str:
+    """Convert an HTML tag to plain text, using newlines for block-level elements."""
     tag = copy(tag)
     for element in tag.find_all():
         if element.name not in _NON_BREAKING_ELEMENTS:
@@ -137,6 +148,7 @@ def parse_datetime(
         (lambda s, dt: f"{dt.year} {s}", "%Y  %b %d by %H%p"),
     ),
 ) -> ParseDatetimeResult | None:
+    """Parse a datetime string, returning the result and its position in the source."""
     start_index = -1
     for month_name in _MONTH_NAMES:
         with suppress(ValueError):
@@ -171,6 +183,8 @@ def parse_datetime(
 
 @final
 class ParseTitleAndContentResult(NamedTuple):
+    """Result of parsing an assignment title and body content."""
+
     title: str
     content: str
 
@@ -178,6 +192,7 @@ class ParseTitleAndContentResult(NamedTuple):
 def parse_title_and_content(
     soup: BeautifulSoup, *, page_type: AssignmentPageType
 ) -> ParseTitleAndContentResult | None:
+    """Parse the assignment title and content from a Canvas submission page."""
     match page_type:
         case AssignmentPageType.ASSIGNMENT:
             if (
@@ -208,6 +223,8 @@ def parse_title_and_content(
 
 @final
 class ParseGradeResult(NamedTuple):
+    """Result of parsing grade information from a Canvas submission page."""
+
     possible_grade: int | float | str
     entered_grade: int | float | str
     graded_anonymously: bool | None
@@ -216,6 +233,7 @@ class ParseGradeResult(NamedTuple):
 def parse_grade(
     soup: BeautifulSoup, *, page_type: AssignmentPageType
 ) -> ParseGradeResult | None:
+    """Parse grade information from a Canvas assignment or submission page."""
     match page_type:
         case AssignmentPageType.ASSIGNMENT:
             module_eles = soup.select(".details .content .module")
@@ -293,6 +311,8 @@ def parse_grade(
 
 @final
 class ParsePropertiesResult(NamedTuple):
+    """Result of parsing submission properties from a Canvas page."""
+
     properties: Mapping[str, object]
     submission_datetime: datetime | str
 
@@ -303,6 +323,7 @@ def parse_properties(
     page_type: AssignmentPageType,
     reference_datetime: datetime,
 ) -> ParsePropertiesResult:
+    """Parse submission properties and datetime from a Canvas assignment page."""
     properties_raw = dict[str, str]()
     match page_type:
         case AssignmentPageType.ASSIGNMENT:
@@ -395,6 +416,7 @@ def parse_properties(
         if generic:
 
             def parse_datetime0(val: str):
+                """Parse a value as a datetime, returning the result or None."""
                 if (
                     ret := parse_datetime(val, reference_datetime=reference_datetime)
                 ) is None:
@@ -423,6 +445,8 @@ def parse_properties(
 
 @final
 class ParseCommentResult(NamedTuple):
+    """Result of parsing a single comment from a Canvas submission page."""
+
     id: int | str
     content: str
     author: str
@@ -436,6 +460,7 @@ def parse_comments(
     page_type: AssignmentPageType,
     reference_datetime: datetime,
 ) -> Sequence[ParseCommentResult]:
+    """Parse all comments from a Canvas assignment or submission page."""
     ret = list[ParseCommentResult]()
 
     match page_type:
@@ -550,6 +575,7 @@ async def convert(
     ),
     _DATE_REGEX: Pattern[str] = re_compile(r"saved date: ([^(\n]*)"),
 ) -> str | None:
+    """Convert Canvas LMS HTML page text to a YAML/Markdown string."""
     url_match = _URL_REGEX.search(html_text)
     if not url_match:
         return None
@@ -642,6 +668,7 @@ async def convert(
 
 
 async def main() -> None:
+    """Prompt for an HTML file path and print the converted YAML output."""
     file_path = input("HTML file? ")
 
     file_text = await Path(file_path).read_text()

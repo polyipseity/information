@@ -1,3 +1,5 @@
+"""Retract (remove) specified file paths from the public git repository by replaying history without them."""
+
 from argparse import ZERO_OR_MORE, ArgumentParser, Namespace
 from collections import defaultdict
 from collections.abc import Callable, MutableSet, Sequence
@@ -17,11 +19,20 @@ from typing import Any, final
 from anyio import AsyncFile, Path, Semaphore, run_process
 from asyncer import SoonValue, asyncify, create_task_group, runnify
 
+"""Exported names from this module (none: standalone script, not importable as a library)."""
+__all__ = ()
+
+"Path to this script file."
 _FILE_PATH = PurePath(__file__)
+"The null (all-zeros) SHA used by git to represent a non-existent object."
 _NULL_SHA = "0000000000000000000000000000000000000000"
+"PGP signature header line used to detect and strip signatures from tag messages."
 _PGP_SIGNATURE_HEADER = "-----BEGIN PGP SIGNATURE-----"
+"Path to the public repository's .git directory relative to this script."
 _PUBLIC_GIT_DIRECTORY = _FILE_PATH / "../../.git"
+"Semaphore that limits the number of concurrently running subprocesses."
 _SUBPROCESS_SEMAPHORE = Semaphore(cpu_count() or 4)
+"Version string for the retract script."
 _VERSION = "∞"
 
 
@@ -38,16 +49,20 @@ _VERSION = "∞"
     slots=True,
 )
 class Arguments:
+    """Parsed command-line arguments for the retract script."""
+
     allow_trailing_whitespaces_in_paths: bool
     paths_file: Path
     refs: Sequence[str]
 
     def __post_init__(self) -> None:
+        """Coerce the refs sequence to a tuple to satisfy the frozen dataclass contract."""
         object.__setattr__(self, "refs", tuple(self.refs))
 
 
 @wraps(_sync_which)
 async def _which2(cmd: str) -> str:
+    """Async wrapper around shutil.which that raises FileNotFoundError if the command is not found."""
     ret = await asyncify(_sync_which)(cmd)
     assert not isinstance(ret, bytes)
     if ret is None:
@@ -59,6 +74,7 @@ async def _which2(cmd: str) -> str:
 async def _exec(
     *args: Any, input: bytes | bytearray | memoryview | None = None, **kwargs: Any
 ) -> tuple[str, str]:
+    """Run a subprocess under the concurrency semaphore, logging stdout/stderr and raising on non-zero exit."""
     async with _SUBPROCESS_SEMAPHORE:
         proc = await run_process(
             *args,
@@ -82,7 +98,10 @@ async def _exec(
 
 
 async def main(args: Arguments) -> None:
+    """Clone the public repo, filter out retracted paths, re-sign commits, and splice the result back."""
+
     async def read_paths():
+        """Read and return the set of literal path patterns from the paths file, stripping comments."""
         ret = set(
             line.replace("\\", "/")
             for line in (await args.paths_file.read_text()).splitlines()
@@ -155,6 +174,7 @@ async def main(args: Arguments) -> None:
         old_commits_with_files_added = set(old_commits_with_files_added.splitlines())
 
         async def get_path(commit: str):
+            """Return the list of commits in the ancestry path from commit to HEAD."""
             return (
                 await _exec(
                     git_exe,
@@ -260,6 +280,7 @@ async def main(args: Arguments) -> None:
         commit_map2 = dict(line.split(" ", 1) for line in commit_map_text2.splitlines())
 
         def map_old_commit(old_commit: str):
+            """Map an original commit SHA through both filter stages to its final rewritten SHA."""
             return commit_map2.get(commit_map.get(old_commit, ""), "")
 
         for tag, old_commit in tuple(unmapped_tags.items()):
@@ -327,6 +348,7 @@ $ rm -fr {tmp_repo}"""
 
 
 def parser(parent: Callable[..., ArgumentParser] | None = None):
+    """Build and return the argument parser for the retract script."""
     prog = __package__ or __name__
 
     parser = (ArgumentParser if parent is None else parent)(
@@ -369,6 +391,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
 
     @wraps(main)
     async def invoke(args: Namespace):
+        """Construct an Arguments instance from parsed namespace and call main."""
         await main(
             Arguments(
                 allow_trailing_whitespaces_in_paths=args.allow_trailing_whitespaces_in_paths,

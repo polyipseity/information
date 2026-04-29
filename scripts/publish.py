@@ -1,3 +1,10 @@
+"""Mirror filtered commit history from the private repository to the public one.
+
+Uses ``git filter-repo`` to rewrite history, stripping commits marked with
+the ``Private-commit`` property, then splices the cleaned branch into the
+public ``.git`` so it can be pushed.
+"""
+
 from argparse import ArgumentParser, Namespace
 from collections import defaultdict
 from collections.abc import Callable, MutableSet
@@ -16,11 +23,20 @@ from typing import Any, final
 from anyio import AsyncFile, Path, Semaphore, run_process
 from asyncer import SoonValue, asyncify, create_task_group, runnify
 
+"""Exported names from this module (none: standalone script, not importable as a library)."""
+__all__ = ()
+
+"Path to this script file."
 _FILE_PATH = PurePath(__file__)
+"Git commit message property key used to mark public-mirror commits."
 _MESSAGE_PROPERTY_KEY = b"Private-commit"
+"Path to the private repository's .git directory relative to this script."
 _PRIVATE_GIT_DIRECTORY = _FILE_PATH / "../../private/.git"
+"Path to the public repository's .git directory relative to this script."
 _PUBLIC_GIT_DIRECTORY = _FILE_PATH / "../../.git"
+"Semaphore that limits the number of concurrently running subprocesses."
 _SUBPROCESS_SEMAPHORE = Semaphore(cpu_count() or 4)
+"Version string for the publish script."
 _VERSION = "∞"
 
 
@@ -37,12 +53,15 @@ _VERSION = "∞"
     slots=True,
 )
 class Arguments:
+    """Parsed command-line arguments for the publish script."""
+
     allow_trailing_whitespaces_in_paths: bool
     paths_file: Path
 
 
 @wraps(_sync_which)
 async def _which2(cmd: str) -> str:
+    """Async wrapper around shutil.which that raises FileNotFoundError if the command is not found."""
     ret = await asyncify(_sync_which)(cmd)
     assert not isinstance(ret, bytes)
     if ret is None:
@@ -54,6 +73,7 @@ async def _which2(cmd: str) -> str:
 async def _exec(
     *args: Any, input: bytes | bytearray | memoryview | None = None, **kwargs: Any
 ) -> tuple[str, str]:
+    """Run a subprocess under the concurrency semaphore, logging stdout/stderr and raising on non-zero exit."""
     async with _SUBPROCESS_SEMAPHORE:
         proc = await run_process(
             *args,
@@ -77,7 +97,10 @@ async def _exec(
 
 
 async def main(args: Arguments) -> None:
+    """Clone the private repo, filter its history, rebase with signatures, and splice into the public repo."""
+
     async def read_paths():
+        """Read and return the set of literal path patterns from the paths file, stripping comments."""
         ret = set(
             line.replace("\\", "/")
             for line in (await args.paths_file.read_text()).splitlines()
@@ -208,6 +231,7 @@ $ git remote remove {quote(remote_name)}"""
 
 
 def parser(parent: Callable[..., ArgumentParser] | None = None):
+    """Build and return the argument parser for the publish script."""
     prog = __package__ or __name__
 
     parser = (ArgumentParser if parent is None else parent)(
@@ -241,6 +265,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
 
     @wraps(main)
     async def invoke(args: Namespace):
+        """Construct an Arguments instance from parsed namespace and call main."""
         await main(
             Arguments(
                 allow_trailing_whitespaces_in_paths=args.allow_trailing_whitespaces_in_paths,
