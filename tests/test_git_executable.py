@@ -28,6 +28,11 @@ scripts/*.cmd
 scripts/*.ps1
 scripts/*.py
 scripts/*.sh
+scripts/special/*.bat
+scripts/special/*.cmd
+scripts/special/*.ps1
+scripts/special/*.py
+scripts/special/*.sh
 """
 
 
