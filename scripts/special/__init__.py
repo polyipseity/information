@@ -3,3 +3,5 @@
 Contains tools for converting academic content from various LMS platforms
 and course management systems into standardized Markdown format.
 """
+
+__all__ = ()
