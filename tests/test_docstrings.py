@@ -28,8 +28,6 @@ _GLOB_SPEC = """
 src/**/*.py
 tests/**/*.py
 scripts/**/*.py
-!scripts/pyarchivist/**/*.py
-!scripts/pytextgen/**/*.py
 """
 
 

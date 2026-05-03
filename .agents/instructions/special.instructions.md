@@ -473,7 +473,6 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 
 - **`scripts/`**:
   - `scripts/special/`: Academic LMS converters for maintaining `special/academia/`
-  - `scripts/pytextgen/`: Content generation library used throughout `special/` for flashcards
   - `scripts/utility.py.md`: Utility module imported by many `special/` notes for pytextgen helpers
 
 For `pytextgen` usage patterns and regeneration guidance see `special-pytextgen.instructions.md` (keeps `special.instructions.md` focused on organization and editorial conventions).

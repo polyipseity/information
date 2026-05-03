@@ -52,7 +52,7 @@ Additional archive categories may be added as needed:
   - Downloaded: 2024-01-20
 ```
 
-**Automation**: pyarchivist tool (`scripts/pyarchivist/`) can auto-update `index.md` when archiving new content
+**Automation**: Archive content can be manually indexed with `index.md` files.
 
 ## Best Practices
 

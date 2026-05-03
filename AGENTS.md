@@ -9,11 +9,11 @@ Personal Markdown knowledgebase with flashcards, tutorials, and archived online 
 - **`archives/`**: Archived media and web content (Wikimedia Commons, sparse)
 - **`scripts/`**: Python scripts (init, convert_wiki, pack, publish, templates)
 
-**Git submodules**: `self/arts/`, `self/capture the flag/`, `self/ledger/`, `self/passwords/`, `self/polyipseity/`, `private/`, `scripts/pytextgen/`, `scripts/pyarchivist/`
+**Git submodules**: `private/`
 
-**Not a submodule**: `self/stash/` remains part of this repository and stores user-managed scratch scripts.
+**Not submodules**: `self/stash/` remains part of this repository and stores user-managed scratch scripts.
 
-**Submodule hierarchy**: Innermost `AGENTS.md` takes priority. Many submodules (e.g., `self/ledger`) have their own `.agents/instructions/` and `.agents/skills/`.
+**Submodule hierarchy**: Innermost `AGENTS.md` takes priority.
 
 ## Quick start: Common workflows
 
@@ -144,10 +144,7 @@ Instruction files auto-apply via glob patterns. See `.agents/instructions/` for 
 
 ### Submodule guards
 
-- [submodule-self.instructions.md](.agents/instructions/submodule-self.instructions.md) → `self/arts/**, self/capture the flag/**, self/ledger/**, self/passwords/**, self/polyipseity/**`
 - [submodule-private.instructions.md](.agents/instructions/submodule-private.instructions.md) → `private/**`
-- [submodule-pytextgen.instructions.md](.agents/instructions/submodule-pytextgen.instructions.md) → `scripts/pytextgen/**`
-- [submodule-pyarchivist.instructions.md](.agents/instructions/submodule-pyarchivist.instructions.md) → `scripts/pyarchivist/**`
 
 ## Agent skills
 

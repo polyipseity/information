@@ -47,7 +47,7 @@ Agent quickstart note: Agents should consult `.agents/instructions/agent-quickst
 
 **Command**: `uv run -m init clear --type CONTENT <paths?>`
 
-- Other `ClearType` values available in `scripts/pytextgen` (check skill documentation)
+- Other `ClearType` values available; see documentation for details
 - Clears generated regions without regenerating; useful for resolving merge conflicts
 - **See**: [pytextgen](../skills/pytextgen/SKILL.md) skill for detailed options
 

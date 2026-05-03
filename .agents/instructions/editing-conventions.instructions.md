@@ -29,8 +29,7 @@ Agent quickstart pointer: See `.agents/instructions/agent-quickstart.instruction
 ## Submodule editing policy
 
 - **Default behavior**: Treat as read-only; ask user for permission if editing seems necessary
-- **`self/arts/**`**, **`self/capture the flag/**`**, **`self/ledger/**`**, **`self/passwords/**`**, **`self/polyipseity/**`**, **`private/**`**: Managed in separate upstream repositories
-- **`scripts/pytextgen/`**, **`scripts/pyarchivist/`**: External dependencies
+- **`private/**`**: Managed in separate upstream repository
 - **`self/stash/`**: Part of the parent repo rather than a git submodule; still treat it as user-owned scratch space and avoid editing it unless requested.
 - **When user approves edits**: Make changes here, test thoroughly, then contribute upstream
 - **Priority**: Follow the submodule's own `AGENTS.md` first (submodule instructions take priority)

@@ -134,12 +134,6 @@ exclude = [
   "special/academia/HKUST/**/*tutorial*/**/*.ipynb",
   "special/academia/HKUST/**/*tutorial*/**/*.py",
   # These contain their own ty configurations, and are not intended to be type-checked as part of this project.
-  "scripts/pyarchivist",
-  "scripts/pytextgen",
-  "self/arts",
-  "self/capture*",
-  "self/ledger",
-  "self/passwords",
 ]
 
 [tool.uv]
@@ -151,10 +145,6 @@ required-version = ">=0.9.0,<0.11.0"
 # Do not include any packages in the build, as this project is only a collection of tools and scripts.
 module-name = []
 source-include = ["py.typed"]
-
-[tool.uv.sources]
-pyarchivist = { path = "scripts/pyarchivist" }
-pytextgen = { path = "scripts/pytextgen" }
 
 [tool.uv.workspace]
 members = [

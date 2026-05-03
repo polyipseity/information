@@ -16,8 +16,7 @@
 #   submodule paths that will be `git submodule update --init --recursive`
 #   when the *fallback* checkout path runs (i.e. app-token checkout failed).
 #   - Format: one relative submodule path per line, for example:
-#       scripts/pytextgen
-#       self/ledger
+#       private
 #   - Default: defined in the fallback-init step's `FALLBACK_SUBMODULES_DEFAULT` (see that step).
 #   - Override via GitHub UI (Run workflow) or API/gh CLI `inputs.fallback_submodules`.
 #   - Note: this does not change the primary checkout behavior when a token is
@@ -97,13 +96,7 @@ jobs:
           # Raw workflow input (present only for workflow_dispatch)
           FALLBACK_SUBMODULES_INPUT: ${{ github.event.inputs.fallback_submodules }}
           # Repository default used for push / pull_request events (multiline YAML block)
-          FALLBACK_SUBMODULES_DEFAULT: |
-            scripts/pyarchivist
-            scripts/pytextgen
-            self/arts
-            self/capture the flag
-            self/ledger
-            self/polyipseity
+          FALLBACK_SUBMODULES_DEFAULT: ""
         run: |
           # Prefer explicit workflow_dispatch input when provided; otherwise use default
           if [ -n "$(printf '%s' "$FALLBACK_SUBMODULES_INPUT" | tr -d '[:space:]')" ]; then

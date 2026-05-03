@@ -158,7 +158,7 @@ if __name__ == "__main__":
 
 ## Pattern: Module `__main__.py` (Multi-Module Dispatch)
 
-For packages with subcommands (e.g., `scripts/pytextgen/`, where users can call `python -m pytextgen`, `python -m pytextgen.generate`, etc.), use the same pattern:
+For packages with subcommands (e.g., where users can call `python -m package`, `python -m package.subcommand`, etc.), use the same pattern:
 
 ```python
 """pytextgen entry point."""
@@ -306,21 +306,11 @@ if __name__ == "__main__":
 
 ## Submodule & External Tool Scripts
 
-Scripts in Git submodules (`scripts/pytextgen/`, `scripts/pyarchivist/`, `self/ledger/`, `self/arts/`) must follow this convention within their own repositories. When updating those submodules:
+Scripts in remaining Git submodules (`private/`) must follow this convention within their own repositories. When updating those submodules:
 
 1. Check the submodule's own `.agents/instructions/python-entry-points.instructions.md` first (if it exists).
 2. If no entry-point instructions exist in the submodule, apply this repository's convention.
 3. Submit changes upstream if the submodule maintainer agrees to adopt the convention.
-
-**Repository submodules with entry points**:
-
-- `scripts/pytextgen/src/pytextgen/__main__.py` — already follows the pattern
-- `scripts/pytextgen/src/pytextgen/generate/__main__.py` — already follows the pattern
-- `scripts/pytextgen/src/pytextgen/clear/__main__.py` — already follows the pattern
-- `scripts/pyarchivist/src/pyarchivist/__main__.py` — already follows the pattern
-- `scripts/pyarchivist/src/pyarchivist/Wikimedia_Commons/__main__.py` — already follows the pattern
-- `self/ledger/scripts/*.py` — follow this convention
-- `self/arts/scripts/*.py` — follow this convention
 
 ## Implementation Checklist
 

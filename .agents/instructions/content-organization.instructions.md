@@ -21,11 +21,10 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 
 - **`archives/`** — Downloaded online content (media, pages, documents).
   - Subfolders: `Wikimedia Commons/` (media), `sparse/` (misc files).
-  - Each archive directory should include an `index.md` with source URL, timestamp and description; `pyarchivist` can auto-update these.
+  - Each archive directory should include an `index.md` with source URL, timestamp and description.
 
 - **`scripts/`** — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
   - Prefer running wrappers (`bun run ...` or `uv run -m ...`) rather than hand-editing generated outputs.
-  - Notable submodules: `scripts/pytextgen/` and `scripts/pyarchivist/` (treat as external tools).
     Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.agents/instructions/agent-quickstart.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
 
 ---
@@ -37,9 +36,8 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 
 ## Git submodules
 
-- Common submodules: **`self/arts/`**, **`self/capture the flag/`**, **`self/ledger/`**, **`self/passwords/`**, **`self/polyipseity/`**, **`private/`**, **`scripts/pytextgen/`**, and **`scripts/pyarchivist/`**.
+- Common submodules: **`private/`**.
 - `self/stash/` is part of the parent repository and stores scratch scripts; treat it as ordinary repo content, not as a git submodule.
-- When working inside a submodule, check its local `AGENTS.md` and `.agents/instructions/` first — they take precedence.
 
 ## Course content & migrations
 

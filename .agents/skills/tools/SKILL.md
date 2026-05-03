@@ -56,11 +56,6 @@ The `scripts/` directory contains all helper scripts and utilities:
   - `new_wiki_page.py`
   - `pytextgen generate *.md` templates
 
-### Submodule tools
-
-- **`scripts/pytextgen/`**: Git submodule for content generation library (see `pytextgen` skill)
-- **`scripts/pyarchivist/`**: Git submodule for archiving tool (see `pyarchivist` skill)
-
 ## When to use this skill
 
 - Understanding tool relationships and dependencies
@@ -121,11 +116,6 @@ Install/update dependencies with `bun install` or `uv sync`.
 - **git-filter-repo**: Required for `publish.py`
 - **Python >=3.13.0**: Repository-wide minimum version
 
-### Git submodules
-
-- `scripts/pytextgen/`: Content generation engine
-- `scripts/pyarchivist/`: Archiving tool
-
 ### Agent‑internal scripts policy
 
 The repository occasionally contains small helper scripts used internally by the
@@ -139,8 +129,6 @@ AI agent (for example, `.github/scripts/validate-skills.py`). These are
   project, propose a formal PR and discuss with the owner before adding it to
   CI or packaging; the default assumption is that such tools belong in the
   `.github/scripts/` directory and are not executed in production workflows.
-- `self/arts/**`, `self/capture the flag/**`, `self/ledger/**`,
-  `self/passwords/**`, `self/polyipseity/**`: Personal metadata submodules
 - `self/stash/**`: Parent-repo scratch scripts rather than a git submodule
 - `private/**`: Private content submodule
 
@@ -226,7 +214,7 @@ When editing Python helper scripts in `scripts/`:
 
 - **Preserve CLI surfaces**: Keep argument names, defaults, and help text stable; avoid breaking `uv run -m init generate/clear`, `uv run -m pack`, `uv run -m publish`, and other tool entrypoints
 - **Maintain async/anyio patterns**: Preserve async patterns using AnyIO APIs such as `anyio.Path` and `anyio.Semaphore`, but prefer importing helpers from Asyncer (e.g. `from asyncer import create_task_group`, `soonify`, `asyncify`) for better typing and editor support. The init wrapper has been refactored accordingly and includes its own thin `_gather`.
-- **Keep submodules read-only unless requested**: `scripts/pytextgen`, `scripts/pyarchivist`, `private/**`, and the actual `self/*` submodules (`self/arts/**`, `self/capture the flag/**`, `self/ledger/**`, `self/passwords/**`, `self/polyipseity/**`) are git submodules; ask user before editing. `self/stash/**` is not a submodule.
+- **Keep submodules read-only unless requested**: `private/**` is a git submodule; ask user before editing.
 - **Normalize newlines**: When touching the init wrapper, normalize to `\n`; do not bypass its exclusion list (`.git`, `.obsidian`, `scripts`)
 - **Favor relative imports**: Use relative imports within the tools package; do not hardcode absolute host paths
 - **Keep inline script metadata synchronized**: When editing a standalone script with inline `# /// script` metadata: (1) ensure the file begins with `#!/usr/bin/env python` shebang on line 1, (2) update the metadata together with `[dependency-groups].scripts`, (3) keep metadata keys alphabetized, and (4) retain `requires-python = ">=3.13.0"`.

@@ -811,12 +811,12 @@ requires-dist = [
     { name = "opencv-python", marker = "extra == 'scripts'", specifier = ">=4.13.0" },
     { name = "pandas", marker = "extra == 'scripts'", specifier = ">=3.0.0" },
     { name = "pillow", marker = "extra == 'scripts'", specifier = ">=10.3.0" },
-    { name = "pyarchivist", directory = "scripts/pyarchivist" },
+    { name = "pyarchivist", specifier = ">=3.0.0" },
     { name = "pydantic", specifier = ">=2.13.1" },
     { name = "pydantic-yaml", specifier = ">=1.6.0" },
     { name = "pyperclip", specifier = ">=1.9.0" },
     { name = "pyperclip", marker = "extra == 'scripts'", specifier = ">=1.9.0" },
-    { name = "pytextgen", directory = "scripts/pytextgen" },
+    { name = "pytextgen", specifier = ">=9.0.0" },
     { name = "pyyaml", specifier = ">=6.0.0" },
     { name = "requests", marker = "extra == 'scripts'", specifier = ">=2.32.0" },
     { name = "rich", specifier = ">=15.0.0" },
@@ -1754,41 +1754,21 @@ wheels = [
 [[package]]
 name = "pyarchivist"
 version = "3.1.0"
-source = { directory = "scripts/pyarchivist" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
     { name = "anyio" },
     { name = "asyncer" },
     { name = "html2text" },
     { name = "pydantic" },
+    { name = "uvloop", marker = "sys_platform != 'win32'" },
+    { name = "winloop", marker = "sys_platform == 'win32'" },
     { name = "yarl" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "aiohttp", specifier = ">=3.8.4" },
-    { name = "anyio", specifier = ">=3.6.2" },
-    { name = "asyncer", specifier = ">=0.0.17" },
-    { name = "html2text", specifier = ">=2020.1.16" },
-    { name = "pydantic", specifier = ">=2.12.0" },
-    { name = "uvloop", marker = "sys_platform != 'win32' and extra == 'uvloop'", specifier = ">=0.22.0" },
-    { name = "winloop", marker = "sys_platform == 'win32' and extra == 'uvloop'", specifier = ">=0.5.0" },
-    { name = "yarl", specifier = ">=1.9.2" },
+sdist = { url = "https://files.pythonhosted.org/packages/cd/bd/b1abc048a8d4a47856183b34442c69a9c3a5b3708e3ff4a3cf5fb2840237/pyarchivist-3.1.0.tar.gz", hash = "sha256:1d28c27bc9a43873b38cdc276e12d75d806f60cc40dd47829028f5134e3b6157", size = 34077, upload-time = "2026-03-24T05:14:27.499Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8f/e8/f5a425a8f5f3797f6e8530be4592b4017436d48f31d62ef5bcf199da413a/pyarchivist-3.1.0-py3-none-any.whl", hash = "sha256:f7aab128dcedec5f53026bb8a981b01eab532002ad992452193a6582323ce8da", size = 25554, upload-time = "2026-03-24T05:14:26.154Z" },
 ]
-provides-extras = ["uvloop"]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "hypothesis", specifier = ">=6.151.0" },
-    { name = "prek", specifier = ">=0.3.0" },
-    { name = "pytest", specifier = ">=9.0.0" },
-    { name = "pytest-cov", specifier = ">=7.0.0" },
-    { name = "pytest-xdist", specifier = ">=3.8.0" },
-    { name = "ruff", specifier = ">=0.15.0" },
-    { name = "rumdl", specifier = ">=0.1.20" },
-    { name = "ty", specifier = ">=0.0.31" },
-]
-uvloop = [{ name = "pyarchivist", extras = ["uvloop"] }]
 
 [[package]]
 name = "pydantic"
@@ -4560,7 +4540,7 @@ wheels = [
 [[package]]
 name = "pytextgen"
 version = "9.0.1"
-source = { directory = "scripts/pytextgen" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
     { name = "asyncer" },
@@ -4568,35 +4548,14 @@ dependencies = [
     { name = "more-itertools" },
     { name = "pydantic" },
     { name = "regex" },
+    { name = "uvloop", marker = "sys_platform != 'win32'" },
     { name = "wcwidth" },
+    { name = "winloop", marker = "sys_platform == 'win32'" },
 ]
-
-[package.metadata]
-requires-dist = [
-    { name = "anyio", specifier = ">=3.6.2" },
-    { name = "asyncer", specifier = ">=0.0.17" },
-    { name = "asyncstdlib", specifier = ">=3.10.6" },
-    { name = "more-itertools", specifier = ">=9.1.0" },
-    { name = "pydantic", specifier = ">=2.12.0" },
-    { name = "regex", specifier = ">=2022.10.31" },
-    { name = "uvloop", marker = "sys_platform != 'win32' and extra == 'uvloop'", specifier = ">=0.22.0" },
-    { name = "wcwidth", specifier = ">=0.4.0" },
-    { name = "winloop", marker = "sys_platform == 'win32' and extra == 'uvloop'", specifier = ">=0.5.0" },
+sdist = { url = "https://files.pythonhosted.org/packages/70/41/fd5dcb25a911baa53c6c8b671ff4d007230426227f3dee65a40473ae9dd5/pytextgen-9.0.1.tar.gz", hash = "sha256:f57d6455b78f7fa75d12fb3ebb0d3070cbb1fc78c02ccedf5cc523960f67e26c", size = 67172, upload-time = "2026-03-22T14:22:04.915Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/16/99/f306b940af2aa7276f19a33b88b3950eccf671654b013d2430f443e2a242/pytextgen-9.0.1-py3-none-any.whl", hash = "sha256:4a477bcdff562aa9e730afb1e48b79df0c6463db13b5ab39ea1839df33a73b8f", size = 70985, upload-time = "2026-03-22T14:22:06.056Z" },
 ]
-provides-extras = ["uvloop"]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "hypothesis", specifier = ">=6.151.0" },
-    { name = "prek", specifier = ">=0.3.0" },
-    { name = "pytest", specifier = ">=9.0.0" },
-    { name = "pytest-cov", specifier = ">=7.0.0" },
-    { name = "pytest-xdist", specifier = ">=3.8.0" },
-    { name = "ruff", specifier = ">=0.15.0" },
-    { name = "rumdl", specifier = ">=0.1.20" },
-    { name = "ty", specifier = ">=0.0.31" },
-]
-uvloop = [{ name = "pytextgen", extras = ["uvloop"] }]
 
 [[package]]
 name = "python-dateutil"
