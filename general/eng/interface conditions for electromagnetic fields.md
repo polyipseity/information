@@ -1,12 +1,15 @@
+
 ---
 aliases:
-  - interface condition for electromagnetic field
-  - interface condition for electromagnetic fields
-  - interface conditions for electromagnetic field
-  - interface conditions for electromagnetic fields
+
+- interface condition for electromagnetic field
+- interface condition for electromagnetic fields
+- interface conditions for electromagnetic field
+- interface conditions for electromagnetic fields
 tags:
-  - flashcard/active/general/eng/interface_conditions_for_electromagnetic_fields
-  - language/in/English
+- flashcard/active/general/eng/interface_conditions_for_electromagnetic_fields
+- language/in/English
+
 ---
 
 # interface conditions for electromagnetic fields
@@ -80,11 +83,11 @@ Therefore, {@{the [tangential component](tangential%20component.md) of __H__}@} 
 
 ### if medium 1 & 2 are perfect [dielectrics](dielectrics.md)
 
-There are {@{no charges nor surface currents at the interface}@}, and so {@{the tangential component of __H__ and the normal component of __D__ are both continuous}@}.
+There are {@{no charges nor surface currents at the interface}@}, and so {@{the tangential component of __H__ and the normal component of __D__}@} are {@{both continuous}@}.
 
 ### if medium 1 is a perfect [dielectric](dielectric.md) and medium 2 is a perfect [metal](metal.md)
 
-There are {@{charges and surface currents at the interface}@}, and so {@{the tangential component of __H__ and the normal component of __D__ are not continuous}@}.<sup>[\[1\]](#^ref-1)</sup>
+There are {@{charges and surface currents at the interface}@}, and so {@{the tangential component of __H__ and the normal component of __D__}@} are {@{not continuous}@}.<sup>[\[1\]](#^ref-1)</sup>
 
 ## boundary conditions
 
