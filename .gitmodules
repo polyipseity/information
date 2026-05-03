@@ -2,11 +2,3 @@
 	path = private
 	url = ../information-private.git
 	branch = main
-[submodule "pyarchivist"]
-	path = scripts/pyarchivist
-	url = ../pyarchivist.git
-	branch = main
-[submodule "pytextgen"]
-	path = scripts/pytextgen
-	url = ../pytextgen.git
-	branch = main
