@@ -12,7 +12,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../scripts/utility.py.md
 ```
 
 In [data mining](data%20mining.md) and [statistics](statistics.md), __hierarchical clustering__ is {@{a method of [cluster analysis](cluster%20analysis.md) that builds a [hierarchy](hierarchy.md) of clusters}@}. The methods can be classified into two main types: {@{__agglomerative__, a [bottom-up](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster for each point, and then merge pairs of clusters repeatedly}@}; and {@{__divisive__, a [top-down](bottom–up%20and%20top–down%20design.md) approach that starts by making a cluster containing every point, and then splitting the cluster into two clusters repeatedly}@}. <!--SR:!2032-01-23,2173,335!2028-11-07,1229,315!2026-11-16,688,295-->
@@ -144,7 +144,7 @@ Note that [distance](distance.md) described below is {@{<!-- flashcard ID: a2c1b
 
 To perform agglomerative clustering, initially {@{create a cluster for each observation, containing the observation itself}@}. Then {@{find the pair of clusters that has the least [distance](distance.md) (arbitrarily choose one if there are multiple satisfying pairs) and merge them}@}. Keep track of the {@{merge history by drawing a [dendrogram](dendrogram.md), also noting the distance of the two clusters when merging in the dendrogram}@}. Repeat this until {@{you have only one cluster left}@}. Then your dendrogram is the result, and {@{you can choose to cut the dendrogram at any distance to get the desirable number of clusters}@}. <!--SR:!2029-09-15,1458,315!2026-07-30,534,275!2026-08-27,554,275!2028-01-06,1015,315!2031-01-18,1757,290-->
 
-One way to implement this is, after creating a cluster for each observation, {@{construct a [distance matrix](distance%20matrix.md) of all clusters, where the number in the _i_-th row and _j_-th column is the [distance](distance.md) between the _i_-th and _j_-th clusters}@}. Use the matrix to {@{identify the pair of clusters with the least distance}@}. After merging the pair of clusters, {@{the distance matrix}@} should decrease {@{in dimension by one in both axes}@}. Update {@{the distances to the new merged cluster from other untouched clusters}@}. Repeat this until {@{you have only one cluster left}@}. An optimization is that since distance is symmetric, we can use {@{a lower [triangular matrix](triangular%20matrix.md) to store the distances}@}. <!--SR:!2032-03-26,2157,315!2026-07-14,578,315!2030-04-16,1613,315!2026-05-21,568,315!2029-10-28,1546,335!2027-04-16,415,386!2027-04-16,416,386-->
+One way to implement this is, after creating a cluster for each observation, construct {@{a [distance matrix](distance%20matrix.md) of all clusters}@}, where the number in {@{the _i_-th row and _j_-th column is the [distance](distance.md) between the _i_-th and _j_-th clusters}@}. Use the matrix to identify {@{the pair of clusters with the least distance}@}. After merging {@{the pair of clusters}@}, {@{the distance matrix}@} should decrease {@{in dimension by one in both axes}@}. Update {@{the distances to the new merged cluster from other untouched clusters}@}. Repeat this until you have {@{only one cluster left}@}. An optimization is that since {@{distance is symmetric}@}, we can use {@{a lower [triangular matrix](triangular%20matrix.md) to store the distances}@}. <!--SR:!2032-03-26,2157,315!2026-07-14,578,315!2030-04-16,1613,315!2026-05-21,568,315!2029-10-28,1546,335!2027-04-16,415,386!2027-04-16,416,386-->
 
 ## divisive clustering
 

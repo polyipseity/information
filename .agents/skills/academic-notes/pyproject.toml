@@ -4,3 +4,6 @@ root = [".", "tests_a7392be"]
 
 [tool.ty.rules]
 all = "error"
+
+[tool.uv]
+package = false

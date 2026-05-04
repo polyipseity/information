@@ -381,7 +381,7 @@ The content is in teaching order.
   - multivariate normal distribution / notation and parameters ::@:: $${\mathcal {N} }({\boldsymbol {\mu } },\,{\boldsymbol {\Sigma } })$$ where <p> ___μ___ ∈ __R__<sup>_k_</sup> — [location](../../../../general/location%20parameter.md) <br/> __Σ__ ∈ __R__<sup>_k_ × _k_</sup> — [covariance](../../../../general/covariance%20matrix.md) \([positive semi-definite matrix](../../../../general/positive%20semi-definite%20matrix.md)\) <!--SR:!2027-05-31,470,389!2027-05-15,457,389-->
   - multivariate normal distribution / probability distribution function \(PDF\) ::@:: $$(2\pi )^{-k/2}\det({\boldsymbol {\Sigma } })^{-1/2}\,\exp \left(-{\frac {1}{2} }(\mathbf {x} -{\boldsymbol {\mu } })^{\mathrm {T} }{\boldsymbol {\Sigma } }^{-1}(\mathbf {x} -{\boldsymbol {\mu } })\right) \,,$$ <br/> exists only when __Σ__ is [positive-definite](../../../../general/positive-definite%20matrix.md) <!--SR:!2027-04-13,431,389!2026-05-07,138,329-->
     - multivariate normal distribution / probability distribution function \(PDF\) / bivariate ::@:: Start with a random vector $X=[x_{1},x_{2}]^{\top}$ with mean $\mu=[\mu _{1},\mu _{2}]^{\top}$ and covariance matrix $$\Sigma=\begin{bmatrix} \sigma _{1}^{2} & \sigma _{12}\\[4pt] \sigma _{12} & \sigma _{2}^{2} \end{bmatrix} \,.$$ The determinant is $|\Sigma|=\sigma_{1}^{2}\sigma_{2}^{2}-\sigma_{12}^{2}$, and the inverse is $$\Sigma^{-1}= \frac{1}{|\Sigma|} \begin{bmatrix} \sigma _{2}^{2} & -\,\sigma _{12}\\[4pt] -\sigma _{12} & \sigma _{1}^{2} \end{bmatrix} \,.$$ Substituting these into the general formula gives the joint Gaussian PDF: $$f_{X}(x_{1},x_{2})=\frac{1}{2\pi\,\sqrt{\sigma_{1}^{2}\sigma_{2}^{2}-\sigma_{12}^{2} } }\exp\!\Bigl(-\frac{\sigma _{2}^{2}(x_{1}-\mu _{1})^{2}-2\sigma _{12}(x_{1}-\mu _{1})(x_{2}-\mu _{2})+\sigma _{1}^{2}(x_{2}-\mu _{2})^{2} }{2(\sigma_{1}^{2}\sigma_{2}^{2}-\sigma_{12}^{2})}\Bigr).$$ <p> It may also be written, using correlation coefficient $\rho = \frac {\sigma_{12} } {\sigma_1 \sigma_2}$, as $$f_X(x_1, x_2) = \frac {1} {2 \pi \sigma_1 \sigma_2 \sqrt{1 - \rho^2} } \exp\left(- \frac 1 {2(1 - \rho^2)} \left(\left(\frac {x_1 - \mu_1} {\sigma_1} \right)^2 + \left(\frac {x_2 - \mu_2} {\sigma_2} \right)^2 - \frac {2 \rho (x_1 - \mu_1) (x_2 - \mu_2)} {\sigma_1 \sigma_2} \right)\right) \,.$$ <!--SR:!2026-06-21,183,349!2026-06-22,184,349-->
-- [independence](../../../../general/independence%20(probability%20theory).md) ::@:: Two events _A_ and _B_ are __independent__ iff $$P(A \cap B) = P(A) P(B) \,.$$ otherwise they are __dependent__. <p> Informally speaking, knowing either of the event has happened does not affect the probability of the other. <!--SR:!2027-05-04,448,389!2027-05-14,457,389-->
+- [independence](../../../../general/independence%20(probability%20theory).md) ::@:: Two events _A_ and _B_ are __independent__ iff $$P(A \cap B) = P(A) P(B) \,.$$ Otherwise they are __dependent__. <p> Informally speaking, knowing either of the event has happened does not affect the probability of the other. <!--SR:!2027-05-04,448,389!2027-05-14,457,389-->
   - independence / equivalence ::@:: The following statements are equivalent: <ul> <li>_A_ and _B_ are independent.</li> <li>_A_ and _B_<sup>c</sup> are independent.</li> <li>_A_<sup>c</sup> and _B_ are independent.</li> <li>_A_<sup>c</sup> and _B_<sup>c</sup> are independent.</li> </ul> The above can be seen by seeing that the complement of an event is uniquely defined by the event. There is a one-to-one correspondence between a set and its complement (unless the sample space is the empty set, which is impossible for probability). <!--SR:!2027-05-07,451,389!2027-03-20,411,389-->
   - independence / vs. disjoint ::@:: Independent is not disjoint. End of story. <!--SR:!2027-05-04,447,389!2027-04-12,431,389-->
   - independence / pairwise independence ::@:: A finite set of events is __pairwise independent__ iff any two events from the set is _independent_. <p> Pairwise independence does NOT automatically imply _mutual independence_. <!--SR:!2027-06-10,478,389!2027-04-08,426,389-->
@@ -969,7 +969,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 
 ## midterm examination
 
-- datetime: 2025‑11‑18T08:45:00+08:00/2025‑11‑18T10:20:00+08:00, PT1H35M  
+- datetime: 2025‑11‑18T08:45:00+08:00/2025‑11‑18T10:20:00+08:00, PT1H35M
 - venue: Room 4502, Academic Building
 - format
   - calculator: yes
@@ -1153,7 +1153,7 @@ __<big><big>Arrangement on Tue lecture (23/9)</big></big>__
 
 ## final examination
 
-- datetime: 2025‑12‑08T16:30:00+08:00/2025‑12‑08T19:30:00+08:00, PT3H  
+- datetime: 2025‑12‑08T16:30:00+08:00/2025‑12‑08T19:30:00+08:00, PT3H
 - venue: LG5 conference room, Academic Building
 - format
   - calculator: yes

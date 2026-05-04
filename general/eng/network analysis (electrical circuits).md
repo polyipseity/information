@@ -85,7 +85,7 @@ The above is {@{a sufficient definition for a [one-port](one-port.md) network}@}
 
 - Main article: ::@:: [Series and parallel circuits](series%20and%20parallel%20circuits.md) <!--SR:!2029-03-09,1131,350!2026-07-02,372,360-->
 
-{@{Some two terminal network of impedances}@} can {@{eventually be reduced to a single impedance by successive applications of impedances in series or impedances in parallel}@}. <!--SR:!2029-04-19,1164,350!2030-06-11,1505,369-->
+{@{Some two terminal network of impedances}@} can {@{eventually be reduced to a single impedance}@} by {@{successive applications of impedances in series or impedances in parallel}@}. <!--SR:!2029-04-19,1164,350!2030-06-11,1505,369-->
 
 - Impedances in [series](series%20and%20parallel%20circuits.md#series%20circuits): ::@:: $$Z_{\mathrm {eq} }=Z_{1}+Z_{2}+\,\cdots \,+Z_{n}.$$ <!--SR:!2026-07-07,376,360!2026-05-22,335,349-->
 - Impedances in [parallel](series%20and%20parallel%20circuits.md#parallel%20circuits): ::@:: $${\frac {1}{Z_{\mathrm {eq} } } }={\frac {1}{Z_{1} } }+{\frac {1}{Z_{2} } }+\,\cdots \,+{\frac {1}{Z_{n} } }.$$ <!--SR:!2026-07-16,384,360!2026-07-12,381,360-->

@@ -16,8 +16,7 @@
 #   submodule paths that will be `git submodule update --init --recursive`
 #   when the *fallback* checkout path runs (i.e. app-token checkout failed).
 #   - Format: one relative submodule path per line, for example:
-#       tools/pytextgen
-#       self/ledger
+#       private
 #   - Default: defined in the fallback-init step's `FALLBACK_SUBMODULES_DEFAULT` (see that step).
 #   - Override via GitHub UI (Run workflow) or API/gh CLI `inputs.fallback_submodules`.
 #   - Note: this does not change the primary checkout behavior when a token is
@@ -35,7 +34,9 @@ on:
   workflow_dispatch:
     inputs:
       fallback_submodules:
-        description: "Newline-separated list of submodule paths to initialize when the fallback checkout is used"
+        description:
+          "Newline-separated list of submodule paths to initialize when the
+          fallback checkout is used"
         required: false
 
 # Use concurrency to deduplicate runs.
@@ -45,7 +46,8 @@ on:
 #   commits don't trigger multiple concurrent workflows.
 # - Include the `github.workflow` name in the group to avoid cross-workflow collisions.
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || github.sha }}
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' &&
+    format('pr-{0}', github.event.pull_request.number) || github.sha }}
   cancel-in-progress: true
 
 permissions:
@@ -58,7 +60,7 @@ jobs:
     steps:
       # https://github.com/orgs/community/discussions/25516#discussioncomment-7888021
       - name: Get token from GitHub App
-        uses: actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859
+        uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3
         id: checkout-app-token
         continue-on-error: true # continue even if private repo access fails
         with:
@@ -69,7 +71,8 @@ jobs:
 
       # Path A: use the GitHub App token if the producer step succeeded and token is non-empty
       - name: Checkout repository (with app token)
-        if: ${{ steps.checkout-app-token.outcome == 'success' && steps.checkout-app-token.outputs.token != '' }}
+        if: ${{ steps.checkout-app-token.outcome == 'success' &&
+          steps.checkout-app-token.outputs.token != '' }}
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           submodules: "recursive" # Ensure submodules are checked out if used
@@ -77,7 +80,8 @@ jobs:
 
       # Path B: fallback to default GITHUB_TOKEN if app token isn't available
       - name: Checkout repository (fallback)
-        if: ${{ steps.checkout-app-token.outcome != 'success' || steps.checkout-app-token.outputs.token == '' }}
+        if: ${{ steps.checkout-app-token.outcome != 'success' ||
+          steps.checkout-app-token.outputs.token == '' }}
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         continue-on-error: true # continue even if private repo access fails
         with:
@@ -85,19 +89,14 @@ jobs:
           # No 'token' provided: checkout uses the default GITHUB_TOKEN
 
       - name: Initialize selected submodules (fallback)
-        if: ${{ steps.checkout-app-token.outcome != 'success' || steps.checkout-app-token.outputs.token == '' }}
+        if: ${{ steps.checkout-app-token.outcome != 'success' ||
+          steps.checkout-app-token.outputs.token == '' }}
         shell: bash
         env:
           # Raw workflow input (present only for workflow_dispatch)
           FALLBACK_SUBMODULES_INPUT: ${{ github.event.inputs.fallback_submodules }}
           # Repository default used for push / pull_request events (multiline YAML block)
-          FALLBACK_SUBMODULES_DEFAULT: |
-            self/arts
-            self/capture the flag
-            self/ledger
-            self/polyipseity
-            tools/pyarchivist
-            tools/pytextgen
+          FALLBACK_SUBMODULES_DEFAULT: ""
         run: |
           # Prefer explicit workflow_dispatch input when provided; otherwise use default
           if [ -n "$(printf '%s' "$FALLBACK_SUBMODULES_INPUT" | tr -d '[:space:]')" ]; then
@@ -128,12 +127,12 @@ jobs:
         uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
 
       - name: Setup uv
-        uses: astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b
 
       - name: Install project
         run: |
           bun install --frozen-lockfile --ignore-scripts
-          uv sync --locked --all-extras --dev
+          uv sync --locked
 
       - name: Run tests
         run: bun run test

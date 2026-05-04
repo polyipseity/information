@@ -29,8 +29,7 @@ Agent quickstart pointer: See `.agents/instructions/agent-quickstart.instruction
 ## Submodule editing policy
 
 - **Default behavior**: Treat as read-only; ask user for permission if editing seems necessary
-- **`self/arts/**`**, **`self/capture the flag/**`**, **`self/ledger/**`**, **`self/passwords/**`**, **`self/polyipseity/**`**, **`private/**`**: Managed in separate upstream repositories
-- **`tools/pytextgen/`**, **`tools/pyarchivist/`**: External dependencies
+- **`private/**`**: Managed in separate upstream repository
 - **`self/stash/`**: Part of the parent repo rather than a git submodule; still treat it as user-owned scratch space and avoid editing it unless requested.
 - **When user approves edits**: Make changes here, test thoroughly, then contribute upstream
 - **Priority**: Follow the submodule's own `AGENTS.md` first (submodule instructions take priority)
@@ -41,7 +40,7 @@ Agent quickstart pointer: See `.agents/instructions/agent-quickstart.instruction
 
 ## Formatting & linting
 
-- **markdownlint**: Configuration in `.markdownlint.json` (root, `tools/`, `special/`, `archives/`) disables MD013 (line length), MD033 (HTML blocks), MD051 (link spacing)
+- **markdownlint**: Configuration in `.markdownlint.json` (root, `scripts/`, `special/`, `archives/`) disables MD013 (line length), MD033 (HTML blocks), MD051 (link spacing)
 - **running markdownlint-cli2**: when invoking the CLI with explicit file paths or filenames (for example `bun run check:md file1.md file2.md` or `bun run format:md file1.md`), **always** include `--no-globs` and list the exact files you want to process. Without `--no-globs` markdownlint-cli2 will treat the arguments as a glob pattern, which may cause it to scan the entire repository instead of just the files you specified. This applies whether you call the command directly or via a bun script.
   - Respects and preserves existing formatting; avoid auto-reformatting unless requested
   - Useful for validating structure without breaking KaTeX or special layouts

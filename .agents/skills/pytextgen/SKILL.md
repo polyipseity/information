@@ -11,13 +11,13 @@ description: Regenerate programmatically-generated content blocks in knowledge b
 Use this skill when working with pytextgen-powered content generation, including regenerating flashcards, clearing generated regions, managing caches, and debugging generation issues.
 
 > **Agent note:** the examples below describe how the `init generate` tool works
-> when a human runs it.  Agents should **not** trigger this command on their
+> when a human runs it. Agents should **not** trigger this command on their
 > own while editing notes—flashcard and other generated content are rebuilt
 > automatically during normal build and packaging workflows.
 
 ## What pytextgen does
 
-pytextgen is a Python library (git submodule in `tools/pytextgen/`) that generates content programmatically in Markdown files:
+pytextgen is a Python library (git submodule in `scripts/pytextgen/`) that generates content programmatically in Markdown files:
 
 - **Flashcard generation**: Creates spaced-repetition cards from cloze markup (`{@{ }@}`, `::@::`, `:@:`)
 - **Sequence exports**: Exports data structures as Markdown lists, tables, or custom formats
@@ -63,14 +63,14 @@ Clears generated content blocks without regenerating. Useful for:
 - Resolving merge conflicts in generated regions
 - Debugging generation issues by starting fresh
 
-**Other ClearType values** (see `tools/pytextgen/io.py`):
+**Other ClearType values** (see `scripts/pytextgen/io.py`):
 
 - `CONTENT`: Clear generated text only
 - Additional types available in pytextgen documentation
 
 ### Scaffold new pytextgen sections
 
-Use templates in `tools/templates/` to create new pytextgen fences:
+Use templates in `scripts/templates/` to create new pytextgen fences:
 
 - `pytextgen generate flashcards.md`: Flashcard section template
 - `pytextgen generate code.md`: Code block template
@@ -108,20 +108,20 @@ Generated content appears here
 ### Cloze & Flashcard markup
 
 pytextgen recognises three distinct patterns that drive flashcard
-creation.  Keep them exactly as shown and understand their semantics:
+creation. Keep them exactly as shown and understand their semantics:
 
-- **Cloze flashcards** use `{@{hidden text}@}`.  The text between the
-delimiters is hidden during review and replaced with a blank that the user
-must recall.  Clozes may appear anywhere in a paragraph and multiple clozes
-can coexist on a single line.
+- **Cloze flashcards** use `{@{hidden text}@}`. The text between the
+  delimiters is hidden during review and replaced with a blank that the user
+  must recall. Clozes may appear anywhere in a paragraph and multiple clozes
+  can coexist on a single line.
 
-- **Two-sided cards** use a single line with a separator `::@::`.  Example:
-  `term ::@:: definition`.  Two cards are generated: one showing the left
-  side and asking for the right, and vice versa.  The entire source must be
+- **Two-sided cards** use a single line with a separator `::@::`. Example:
+  `term ::@:: definition`. Two cards are generated: one showing the left
+  side and asking for the right, and vice versa. The entire source must be
   on one Markdown line; visual breaks are represented with `<br/>` or `<p>`.
 
-- **One-sided cards** use a single line with separator `:@:`.  Only one card
-  is produced (recall right side from left).  The same single-line rule
+- **One-sided cards** use a single line with separator `:@:`. Only one card
+  is produced (recall right side from left). The same single-line rule
   applies.
 
 **Editing guidance**:
@@ -180,17 +180,17 @@ grep -n "# pytextgen generate" path/to/file.md
 - **Cache management**: Use `-C` when unsure if cache is stale
 - **Incremental regeneration**: Pass specific paths to regenerate only changed files
 - **Flashcard initialization**: Use `--init-flashcards` when creating new flashcard-enabled notes
-- **Submodule updates**: If pytextgen behavior changes, check for submodule updates (`git submodule update --remote tools/pytextgen`)
+- **Submodule updates**: If pytextgen behavior changes, check for submodule updates (`git submodule update --remote scripts/pytextgen`)
 
 ## When to ask for help
 
 - If fence syntax seems correct but generation fails, ask user to check pytextgen submodule version
-- If editing is required in `tools/pytextgen/**`, ask user for permission (it's a submodule)
+- If editing is required in `scripts/pytextgen/**`, ask user for permission (it's a submodule)
 - If cache behavior is unexpected, clarify with user before deleting cache files
 
 ## Integration with other workflows
 
-- **Wiki ingestion**: After running `convert wiki`, use `init generate` to create flashcards from cloze markup
+- **Wiki ingestion**: After running `convert_wiki`, use `init generate` to create flashcards from cloze markup
 - **Academic notes**: Use pytextgen to generate course indexes, assignment lists, or reference tables
 - **Pack/publish**: Regenerate all content before packaging or publishing to ensure consistency
 - **Note conventions**: See [markdown-notes](../../instructions/markdown-notes.instructions.md) for cloze markup preservation rules and the `templates` section of [tools/SKILL.md](../tools/SKILL.md) for fence templates

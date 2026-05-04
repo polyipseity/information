@@ -13,7 +13,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../scripts/utility.py.md
 ```
 
 > {@{![skeletal formula of aspirin](../../archives/Wikimedia%20Commons/Aspirin-skeletal.svg)}@}

@@ -230,7 +230,7 @@ async def _path_exists(href: str, base: Path) -> bool:
     # Decode percent-encoded components (e.g. %20 → space)
     unquoted = unquote(href)
     # Remove any fragment/query portion
-    unquoted = re.split(r"[#?]", unquoted, 1)[0]
+    unquoted = re.split(r"[#?]", unquoted, maxsplit=1)[0]
     if not unquoted:
         return False
 
@@ -256,7 +256,7 @@ async def _is_folder_without_index_md(href: str, base: Path) -> bool:
     """
     # Decode percent-encoded components
     unquoted = unquote(href)
-    unquoted = re.split(r"[#?]", unquoted, 1)[0]
+    unquoted = re.split(r"[#?]", unquoted, maxsplit=1)[0]
     if not unquoted:
         return False
 
@@ -337,7 +337,7 @@ async def index_children_agents_link(ctx: ValidationContext) -> list[ValidationM
             continue
         display = m.group(1).strip()
         href = m.group(2).strip()
-        href_clean = re.split(r"[#?]", href, 1)[0]
+        href_clean = re.split(r"[#?]", href, maxsplit=1)[0]
         if href_clean.casefold() == "agents.md":
             entries.append((line_no, display, href_clean))
 
@@ -636,7 +636,7 @@ async def _is_folder_link(
     # Decode percent-encoded components (e.g. %20 → space)
     unquoted = unquote(href)
     # Remove any fragment/query portion
-    unquoted = re.split(r"[#?]", unquoted, 1)[0]
+    unquoted = re.split(r"[#?]", unquoted, maxsplit=1)[0]
     if not unquoted:
         return False
 

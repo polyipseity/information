@@ -22,7 +22,7 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
 
 3. Common repository actions
    - Regenerate generated content: build workflows handle this automatically; manual `uv run -m init generate -C` is rarely needed and agents should not suggest it (see `core-workflows.instructions.md`).
-   - Ingest a Wikipedia page: `uv run -m "templates.new wiki page"` → `uv run -m "convert wiki"` (flashcards are created by the build; no manual generation step)
+   - Ingest a Wikipedia page: `uv run -m templates.new_wiki_page` → `uv run -m convert_wiki` (flashcards are created by the build; no manual generation step)
    - Package: `uv run -m pack -o pack.zip ...` (generated content will already be fresh)
    - Publish (private→public): `uv run -m publish --paths-file <file>` (exercise caution)
 
@@ -81,7 +81,7 @@ Repository gotchas & quick tips
    - Run `bun run format` and `bun run check` before committing. Use the Todo List Tool for multi-step changes and show progress.
 
 2. Submodule & sensitive data rules
-   - **Do not** modify `private/`, `tools/pytextgen/`, `tools/pyarchivist/`, or the actual `self/*` git submodules (`self/arts/`, `self/capture the flag/`, `self/ledger/`, `self/passwords/`, `self/polyipseity/`) without explicit owner approval; check the submodule `AGENTS.md` first.
+   - **Do not** modify `private/` without explicit owner approval; check the submodule `AGENTS.md` first.
    - `self/stash/` is not a submodule, but it is still user-owned scratch space; only edit it when the user explicitly asks.
    - Avoid exposing or handling PII unless instructed and explicitly approved by the repository owner.
 

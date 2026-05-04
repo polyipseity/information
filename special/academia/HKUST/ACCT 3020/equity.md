@@ -20,6 +20,8 @@ When a company issues shares and receives non-cash assets or services (e.g. land
 2. If that is not available, use the __fair value of the shares issued__ (e.g. market price on the issue date).
 3. If neither is observable, use a __discounted cash flow__ estimate: present value of expected future cash flows from the asset or service.
 
+__Clarification.__ This three-step order is a transaction-specific measurement-source sequence for non-cash share issuance in this topic. It differs from the IFRS 13 fair value input hierarchy (Level 1/Level 2/Level 3) discussed in `non-current liabilities.md`, which classifies valuation-input quality rather than choosing between measurement sources.
+
 In all cases, the amount recorded for the asset or service equals the amount credited to equity (share capital at par plus share premium).
 
 __Special case: Fair value below par.__ Occasionally, the fair value of the asset received is less than the par value of shares issued. Because _Share capital_ must be credited at par (the legal stated capital), any shortfall creates a debit balance on _Share premium — ordinary_. Under IFRS this is permissible for this specific scenario, though it is rare in practice.
@@ -80,16 +82,16 @@ Representative journal entry examples:
 
 Flashcards for this section are as follows:
 
-- non-cash share issue: primary measurement basis ::@:: Use the fair value of the goods or services received, if it can be measured reliably. <!--SR:!2026-05-06,14,290!2026-05-07,15,290-->
-- non-cash share issue: when to use share fair value? ::@:: When the fair value of the asset/service is not reliably measurable but the fair value of the shares (e.g. market price) is known. <!--SR:!2026-05-06,14,290!2026-05-06,14,290-->
-- non-cash share issue: last resort measurement ::@:: Use discounted cash flows (present value of expected future cash flows) when neither asset/service fair value nor share fair value is observable. <!--SR:!2026-05-07,15,290!2026-05-07,15,290-->
-- non-cash share issue (patent): general entry structure ::@:: Dr _Patents_ (or other asset) at fair value; Cr _Share capital — ordinary_ at par; Cr _Share premium — ordinary_ for the excess over par. <!--SR:!2026-05-07,15,308!2026-05-10,18,319-->
-- non-cash share issue: measurement hierarchy in examples ::@:: Use (1) fair value of goods/services received, (2) if unavailable, fair value of shares issued, and (3) if neither is observable, discounted cash flow value of the asset/service. <!--SR:!2026-05-08,16,319!2026-05-09,17,319-->
-- non-cash share issue example (Astera case 1): patent portfolio for 10 000 shares, share FV 140 000, par 10—entry? ::@:: Dr _Patents_ 140 000; Cr _Share capital — ordinary_ 100 000; Cr _Share premium — ordinary_ 40 000. <!--SR:!2026-05-10,18,319!2026-05-10,18,319-->
-- non-cash share issue example (Astera case 2): patent-portfolio FV 150 000 for 10 000 shares, par 10—entry? ::@:: Dr _Patents_ 150 000; Cr _Share capital — ordinary_ 100 000; Cr _Share premium — ordinary_ 50 000. <!--SR:!2026-05-10,18,319!2026-05-10,18,319-->
-- non-cash share issue example (Astera case 3): patent-portfolio DCF value 125 000 for 10 000 shares, par 10—entry? ::@:: Dr _Patents_ 125 000; Cr _Share capital — ordinary_ 100 000; Cr _Share premium — ordinary_ 25 000. <!--SR:!2026-05-07,15,308!2026-05-09,17,319-->
-- non-cash share issue: fair value below par—how to record? ::@:: General entry: Dr _Patents_ at fair value, Dr _Share premium — ordinary_ for the shortfall (debit balance), Cr _Share capital — ordinary_ at par. <br/> Example: patent FV 85 000, par total 100 000 → Dr _Patents_ 85 000, Dr _Share premium — ordinary_ 15 000, Cr _Share capital — ordinary_ 100 000. <br/> Permissible under IFRS. <!--SR:!2026-05-08,16,319!2026-05-08,16,319-->
-- negative share premium after a below-par non-cash issue: can it later shrink? ::@:: Yes. A later ordinary share issue that creates a positive premium balance offsets part or all of the earlier debit balance in _Share premium — ordinary_, because it is a running cumulative account. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
+- issuing shares for non-cash consideration: IFRS-first measurement sequence used in this section ::@:: Apply this order: (1) fair value of goods/services received if reliably measurable, (2) if not, fair value of shares issued, (3) if neither is observable, discounted cash flow estimate.
+- issuing shares for non-cash consideration: how is this hierarchy different from the fair value hierarchy in non-current liabilities? ::@:: This is a transaction-specific _measurement-source sequence_; it is not the IFRS 13 input-quality hierarchy (Level 1/2/3) used to classify valuation inputs.
+- non-cash share issue: equity-side structure regardless of measurement source ::@:: Credit _Share capital — ordinary_ at par, and use _Share premium — ordinary_ as the balancing amount so total equity credited equals the measured amount.
+- non-cash share issue for patent (10 000 shares, par 10, share fair value 140 000, patent fair value not reliable): entry? ::@:: Dr _Patents_ 140 000; Cr _Share capital — ordinary_ 100 000; Cr _Share premium — ordinary_ 40 000.
+- non-cash share issue for patent (10 000 shares, par 10, patent fair value 150 000, share fair value unavailable): entry? ::@:: Dr _Patents_ 150 000; Cr _Share capital — ordinary_ 100 000; Cr _Share premium — ordinary_ 50 000.
+- non-cash share issue for patent (10 000 shares, par 10, neither fair value observable, DCF 125 000): entry? ::@:: Dr _Patents_ 125 000; Cr _Share capital — ordinary_ 100 000; Cr _Share premium — ordinary_ 25 000.
+- below-par non-cash share issue (10 000 shares, par 10, measured amount 85 000): why is _Share premium — ordinary_ debited? ::@:: Because _Share capital — ordinary_ must still be credited at legal par 100 000, so the 15 000 shortfall is debited to _Share premium — ordinary_.
+- below-par non-cash issue in this IFRS course framing: is a debit balance in _Share premium — ordinary_ allowed? ::@:: Yes, in this specific below-par non-cash issuance scenario; it is unusual but permissible in this course treatment.
+- follow-on ordinary issue after a debit premium balance (existing debit 15 000; new issue creates premium 10 000): effect? ::@:: The new credit premium offsets part of the debit balance, reducing _Share premium — ordinary_ from a 15 000 debit to a 5 000 debit.
+- exam trap: what hierarchy confusion must be avoided? ::@:: Do not confuse this sequence (goods/services fair value → share fair value → DCF) with IFRS 13 Level 1/2/3 fair-value-input levels.
 
 ## share issue costs: direct versus indirect
 
@@ -359,24 +361,39 @@ Flashcards for this section are as follows:
 
 In a typical company with positive earnings and conservative dividend policies, most equity accounts have positive (credit) balances. However, specific equity accounts can have negative (debit) balances under certain circumstances. Understanding when and why this occurs is important for proper financial statement interpretation.
 
-__Share premium — can be negative?__ Only in one specific scenario permitted by this course:
+__Share premium — can be negative? IFRS-first decision map.__ In this ACCT 3020 note set, a negative premium balance is allowed in two narrowly defined cases: (1) _Share premium — ordinary_ is debited when shares are issued for non-cash consideration measured below par, and (2) _Share premium — ordinary_ is debited when debt is settled by issuing shares whose fair value is below total par. In both cases, _Share capital_ is still credited at par and the shortfall is recorded as a debit to _Share premium — ordinary_.
 
-- When a company issues shares for non-cash consideration and the fair value of the asset received is __below par value__, _Share premium — ordinary_ is debited for the shortfall, producing a negative balance. This is permissible under IFRS for non-cash share issuance only.
+| Scenario in ACCT 3020 notes                                                          | Premium account affected                   | Can that premium become negative?                       | Where any excess/shortfall goes                                                                                                                  |
+| ------------------------------------------------------------------------------------ | ------------------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Non-cash share issue measured above par                                              | _Share premium — ordinary_ (credit)        | No                                                      | Not applicable                                                                                                                                   |
+| Non-cash share issue measured exactly at par                                         | No premium created                         | No                                                      | Not applicable                                                                                                                                   |
+| Non-cash share issue measured below par                                              | _Share premium — ordinary_ (debit)         | __Yes — this is the only negative-premium case__        | Shortfall is debited to _Share premium — ordinary_ because _Share capital_ must be credited at par                                               |
+| Later ordinary issue with positive premium after an earlier debit premium balance    | _Share premium — ordinary_ (credit)        | Existing negative balance can remain until fully offset | New credit premium offsets the prior debit balance                                                                                               |
+| Direct ordinary share issue costs                                                    | _Share premium — ordinary_ reduced first   | No                                                      | Excess reduces _Share capital — ordinary_                                                                                                        |
+| Direct preference share issue costs                                                  | _Share premium — preference_ reduced first | No                                                      | Excess reduces _Share capital — preference_                                                                                                      |
+| Treasury-share reissue above cost                                                    | _Share premium — treasury_ (credit)        | No                                                      | Not applicable                                                                                                                                   |
+| Treasury-share reissue below cost                                                    | _Share premium — treasury_ reduced first   | No                                                      | After treasury premium is exhausted, remaining shortfall reduces _Retained earnings_ (not _Share premium — ordinary_)                            |
+| Liquidating dividend return-of-capital portion                                       | _Share premium_ reduced first              | No (course treatment)                                   | Any remaining amount reduces _Share capital_                                                                                                     |
+| IFRS share dividend (this course)                                                    | No premium created                         | No                                                      | Reclassification is between _Retained earnings_ and _Share capital_ only                                                                         |
+| US GAAP large share dividend (comparison in this note)                               | _Share premium — ordinary_ credited        | No                                                      | Not applicable                                                                                                                                   |
+| Debt settled by issuing shares (`non-current liabilities.md`) — fair value above par | _Share premium — ordinary_ credited        | No                                                      | Normal case: credit premium for fair-value excess over par; gain/loss on extinguishment still uses debt carrying amount vs share fair value      |
+| Debt settled by issuing shares (`non-current liabilities.md`) — fair value below par | _Share premium — ordinary_ debited         | __Yes — second allowed negative-premium case__          | _Share capital_ remains at par; debit premium for par shortfall; gain/loss on extinguishment still uses debt carrying amount vs share fair value |
 
-For treasury share reissuance below cost, the shortfall does __not__ go to _Share premium — ordinary_. Instead, once _Share premium — treasury_ is exhausted the remaining shortfall is charged to _Retained earnings_. _Share premium — ordinary_ is untouched and stays at its prior (non-negative) balance.
-
-For share issue costs that exceed premiums generated, the excess reduces _Share capital_ rather than creating a negative _Share premium_.
+__Exam rule.__ Ask two questions in order: (1) _Which premium account is this transaction using?_ (ordinary, preference, or treasury), and (2) _Is this one of the two below-par ordinary-share issuance cases (non-cash issuance below par, or debt-for-equity issuance below par)?_ If the answer to (2) is no, do not create a negative premium balance.
 
 ---
 
 Flashcards for this section are as follows:
 
-- negative equity balances: parent-level map ::@:: The common debit-balance concern is retained earnings, while share premium can be negative only in the specific below-par non-cash issue scenario taught here. <!--SR:!2026-05-09,17,335!2026-05-10,18,335-->
-- equity accounts and negative balances: what is the exam habit? ::@:: Identify which account is actually designed to absorb the shortfall, because different equity problems send the debit to different places. <!--SR:!2026-05-10,18,335!2026-05-11,19,341-->
-- share capital: can it be negative? ::@:: No. Share capital is the legal par amount and is always a credit balance. Severe capital reduction reduces par downward but does not create a negative share capital. <!--SR:!2026-05-11,19,341!2026-05-10,18,335-->
-- retained earnings: when is it negative (accumulated deficit)? ::@:: When cumulative losses exceed cumulative profits, or dividends exceed earned profits. A deficit signals the company has lost money over time or in recent years. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
-- treasury shares: is it ever negative? ::@:: No. Treasury shares is a contra-equity account with a debit balance; it cannot be "more" negative. It grows when shares are repurchased and shrinks when they are reissued or cancelled. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
-- reserves: can they be negative? ::@:: Typically no. Reserves are earmarked portions of retained earnings with debit balances. If no longer needed, they are eliminated or released back to retained earnings, not carried as negative balances. <!--SR:!2026-05-10,18,335!2026-05-10,18,335-->
+- share premium negative-balance decision gate (IFRS-first) ::@:: First identify the premium account (ordinary, preference, treasury), then ask whether this is one of the two below-par ordinary-share issuance cases (non-cash issuance below par, or debt-for-equity issuance below par); only those cases permit a negative _Share premium — ordinary_ in this ACCT 3020 set.
+- only allowed negative-premium cases in this note set ::@:: _Share premium — ordinary_ can be debited only for (1) non-cash ordinary-share issuance measured below par and (2) debt settlement by issuing ordinary shares when share fair value is below total par.
+- non-cash share issue measured at or above par: premium direction ::@:: At par creates no premium; above par creates a credit premium; neither case creates a negative premium balance.
+- follow-on issue after an earlier debit premium balance ::@:: A later issue with positive premium credits _Share premium — ordinary_ and offsets the prior debit balance progressively; it does not auto-reset the account.
+- direct ordinary/preference issue costs and premium exhaustion ::@:: Direct costs reduce the related class premium first, then reduce that class share capital; they do not create a negative premium balance.
+- treasury-share reissue below cost: premium and spillover rule ::@:: Use _Share premium — treasury_ first; after it is exhausted, debit _Retained earnings_ for the remaining shortfall; do not debit _Share premium — ordinary_.
+- liquidating dividend return-of-capital sequence ::@:: Reduce _Share premium_ first and then _Share capital_; the course treatment does not create a negative premium balance here.
+- IFRS vs US GAAP share-dividend premium effect (comparison) ::@:: Under IFRS (course method), share dividends do not create _Share premium_; in US GAAP comparison, a large share dividend credits _Share premium_ for the fair-value excess over par.
+- debt-for-equity settlement premium effect (from non-current liabilities note) ::@:: If share fair value exceeds par, credit _Share premium — ordinary_; if share fair value is below par, debit _Share premium — ordinary_ for the par shortfall. Extinguishment gain/loss still uses debt carrying amount versus share fair value.
 
 ### when equity premium is exhausted and when retained earnings is affected
 
@@ -405,7 +422,7 @@ __Reserves — can be negative?__ Reserves (such as capital redemption reserve, 
 - Some reserves may be written down (reduced) to zero or even reversed if the reason for the reserve no longer applies.
 - A reserve will not have a debit (negative) balance in normal circumstances; it would simply be eliminated.
 
-__Summary__: The most common equity account that can be negative is _Retained earnings_ (accumulated deficit), which signals historical losses. _Share premium — ordinary_ can be negative only in the non-cash share issuance below-par scenario; it is __not__ made negative by treasury reissue shortfalls (those hit _Retained earnings_) or by share issue costs (those reduce _Share capital_). _Share capital_ is never negative in normal circumstances; _Treasury shares_ and reserves are not carried as negative balances.
+__Summary__: The most common equity account that can be negative is _Retained earnings_ (accumulated deficit), which signals historical losses. _Share premium — ordinary_ can be negative only in two below-par issuance scenarios: non-cash share issuance below par and debt settlement by issuing shares below par. It is __not__ made negative by treasury reissue shortfalls (those hit _Retained earnings_) or by share issue costs (those reduce _Share capital_). _Share capital_ is never negative in normal circumstances; _Treasury shares_ and reserves are not carried as negative balances.
 
 > _Negative share-premium example._ Astera Biotech plc issues {@{1&nbsp;000 ordinary shares with par €10}@} for a patent portfolio with fair value only {@{€8&nbsp;500}@}. Because share capital must still be credited at {@{€10&nbsp;000}@}, the shortfall creates a debit balance in {@{Share premium — ordinary}@}.
 >
@@ -432,13 +449,12 @@ __Summary__: The most common equity account that can be negative is _Retained ea
 
 Flashcards for this section are as follows:
 
-- exhausted equity premium: what decides the next account hit? ::@:: The answer depends on which premium account is exhausted: ordinary and preference issue-cost excesses hit share capital, while treasury-share reissue shortfalls hit retained earnings after treasury premium is used up. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
-- retained earnings after premium exhaustion: when is it the spillover account? ::@:: Only for treasury-share reissues below cost after _Share premium — treasury_ has already been exhausted. <!--SR:!2026-05-10,18,335!2026-05-08,16,335-->
-- share premium: when can it be negative? ::@:: Only when shares are issued for non-cash consideration whose fair value is below par — _Share premium — ordinary_ takes the debit shortfall. It does __not__ go negative from treasury reissue shortfalls (those go to _Retained earnings_) or from share issue costs exceeding premium (those reduce _Share capital_). <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
-- share premium: treasury reissue shortfall — where does excess go? ::@:: To _Retained earnings_, not to _Share premium — ordinary_. Once _Share premium — treasury_ is exhausted, the remaining shortfall debits _Retained earnings_ only. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
-- equity premium exhausted: which cases reduce share capital instead of retained earnings? ::@:: Direct ordinary-share issue costs reduce _Share capital — ordinary_ after exhausting _Share premium — ordinary_, and direct preference-share issue costs reduce _Share capital — preference_ after exhausting _Share premium — preference_. <!--SR:!2026-05-11,19,341!2026-05-10,18,335-->
-- below-par non-cash share issue: which account absorbs the shortfall? ::@:: _Share premium — ordinary_ is debited for the shortfall because _Share capital_ must still be credited at par. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
-- treasury reissue shortfall with no treasury premium left: which account absorbs the loss? ::@:: _Retained earnings_, because the shortfall cannot be charged to _Share premium — ordinary_ or profit or loss. <!--SR:!2026-05-10,18,335!2026-05-11,19,341-->
+- exhausted premium: what determines the next account hit? ::@:: It depends on which premium account is being exhausted and the transaction type, not on a single universal rule.
+- ordinary issue-cost premium exhausted: where does excess go? ::@:: To _Share capital — ordinary_, not to _Retained earnings_ and not to a negative _Share premium — ordinary_.
+- preference issue-cost premium exhausted: where does excess go? ::@:: To _Share capital — preference_, not to _Retained earnings_ and not to a negative _Share premium — preference_.
+- treasury premium exhausted on reissue below cost: where does excess go? ::@:: To _Retained earnings_ after _Share premium — treasury_ is fully used.
+- below-par issuance versus premium exhaustion ::@:: Negative _Share premium — ordinary_ arises only in the two below-par ordinary-share issuance cases (non-cash issuance below par; debt-for-equity issuance below par). Premium exhaustion from share issue costs or treasury-share reissue follows different waterfalls and does not create this negative-premium pattern.
+- premium used up ≠ retained earnings by default ::@:: Retained earnings is the spillover account only in treasury reissue-below-cost shortfalls after treasury premium is exhausted.
 
 ## dividends: cash, property, liquidating, and share
 

@@ -419,11 +419,10 @@ Representative journal entry examples:
 
 Flashcards for this section are as follows:
 
-- note for noncash asset: which value to use? ::@:: Prefer the fair value of the asset or service received; record both the asset and the note at that fair value. <!--SR:!2026-05-16,14,290!2026-05-20,18,322-->
-- when to use discounted cash flows for notes? ::@:: When fair value of the noncash asset/service is not observable; estimate future cash flows and discount at an appropriate rate to get present value. <!--SR:!2026-05-20,18,336!2026-05-20,18,336-->
-- present value of note in noncash deal: what does it measure? ::@:: Both the carrying amount of the note payable and the cost of the related asset (when fair value must be inferred). <!--SR:!2026-05-20,18,322!2026-05-20,18,327-->
-- note for noncash asset (fair value known): entry? ::@:: Dr _Asset_ (fair value), Cr _Notes payable_ (same fair value/present value). <!--SR:!2026-05-20,18,336!2026-05-20,18,336-->
-- noncash note: fair value unknown—what amount to record? ::@:: Use present value of the note (discounted cash flows at an appropriate rate) for both the asset and the note payable. <!--SR:!2026-05-20,18,336!2026-05-20,18,327-->
+- note issued for a noncash asset/service: measurement sequence ::@:: Use fair value first when it is reliably observable for the asset/service received; if not observable, measure using the note's present value from discounted cash flows; record the asset/service and note payable at the same measured amount.
+- fair value hierarchy (full levels and definitions) ::@:: Level 1 = quoted prices in active markets for identical assets or liabilities. <br/> Level 2 = observable inputs other than Level 1 quotes (e.g. quoted prices for similar items, observable yield curves, market-corroborated data). <br/> Level 3 = unobservable inputs (entity-developed assumptions and model-based estimates) used when observable market inputs are unavailable.
+- noncash note transaction: journal-entry pattern (fair value known vs unknown) ::@:: If fair value is observable: Dr _Asset/Expense_ (fair value), Cr _Notes payable_ (same amount). <br/> If fair value is not observable: Dr _Asset/Expense_ (note present value), Cr _Notes payable_ (same present value).
+- noncash zero-interest note with face above initial carrying amount: what is the difference? ::@:: Face value minus initial carrying amount is a discount on the note that is amortized to interest expense using the effective-interest method over the term.
 
 ## choosing a discount rate for notes payable
 
@@ -440,7 +439,7 @@ Flashcards for this section are as follows:
 
 ## extinguishment of debt (overview)
 
-Extinguishment of long-term debt occurs when the obligation is settled before or at maturity, either by paying cash (e.g. repurchasing bonds), by transferring other assets (e.g. giving land to the lender), or by issuing equity instruments (e.g. shares) in full settlement. At the extinguishment date, the entity compares the carrying amount of the liability to the consideration paid or assets/equity transferred: if consideration &lt; carrying amount, there is a gain; if consideration &gt; carrying amount, there is a loss. When a noncash asset is transferred, remeasure the asset to fair value first (recognising any gain or loss on the asset), then compare the liability's carrying amount to the fair value of the asset to determine the gain or loss on extinguishment. When shares are issued to settle the debt, measure the consideration at the fair value of the shares (or, if that is not available, the fair value/present value of the liability).
+Extinguishment of long-term debt occurs when the obligation is settled before or at maturity, either by paying cash (e.g. repurchasing bonds), by transferring other assets (e.g. giving land to the lender), or by issuing equity instruments (e.g. shares) in full settlement. At the extinguishment date, the entity compares the carrying amount of the liability to the consideration paid or assets/equity transferred: if consideration &lt; carrying amount, there is a gain; if consideration &gt; carrying amount, there is a loss. When a noncash asset is transferred, remeasure the asset to fair value first (recognising any gain or loss on the asset), then compare the liability's carrying amount to the fair value of the asset to determine the gain or loss on extinguishment. When shares are issued to settle debt, apply an IFRS-first approach (IFRIC 19): measure the consideration at the fair value of the equity instruments issued when that fair value is reliably measurable; if not, use the fair value of the liability extinguished. The gain or loss on extinguishment is based on {@{carrying amount of debt minus measured consideration}@}. Share capital is still credited at par, and {@{Share premium — ordinary is the balancing equity line (credit if fair value exceeds par; debit if fair value is below par)}@}.
 
 > _Scenario._ Granite Works plc has bonds payable with carrying amount {@{95 000}@}. The issuer repurchases the debt for {@{cash 101 000}@} before maturity. Record the extinguishment.
 >
@@ -476,6 +475,18 @@ Extinguishment of long-term debt occurs when the obligation is settled before or
 > _Explanation._ Shares are measured at fair value {@{16 000 000 (2 000 000 × 8)}@}; equity increases by that amount (par {@{10 000 000}@}, premium {@{6 000 000}@}). The liability's carrying amount exceeds consideration, so the debtor recognises a gain on extinguishment of {@{20 000 000 − 16 000 000 = 4 000 000}@}. <!--SR:!2026-05-20,18,322!2026-05-20,18,336!2026-05-20,18,336!2026-05-17,15,290!2026-05-20,18,322!2026-05-19,17,307!2026-05-19,17,307!2026-05-20,18,336!2026-05-20,18,327!2026-05-20,18,327!2026-05-20,18,336!2026-05-20,18,336!2026-05-20,18,336-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+> _Scenario (below-par debt-for-equity)._ Orion Marine plc has a note payable with carrying amount {@{20 000 000}@}. The lender agrees to accept {@{2 000 000 ordinary shares with par 5}@} in full settlement. On the issue date, the shares trade at {@{4}@} per share, so fair value of shares issued is {@{8 000 000}@}, which is {@{below total par 10 000 000}@}.
+>
+> | {@{Settle note payable by issuing shares when fair value is below par}@} | Dr               | Cr               |
+> | ------------------------------------------------------------------------ | ---------------- | ---------------- |
+> | {@{Notes payable}@}                                                      | {@{20 000 000}@} |                  |
+> | {@{Share premium — ordinary (par shortfall)}@}                           | {@{2 000 000}@}  |                  |
+> | {@{Share capital — ordinary (2 000 000 × 5)}@}                           |                  | {@{10 000 000}@} |
+> | {@{Gain on extinguishment of debt}@}                                     |                  | {@{12 000 000}@} |
+>
+> _Explanation._ Consideration is measured at {@{fair value of shares issued = 8 000 000}@}. Extinguishment gain is {@{20 000 000 − 8 000 000 = 12 000 000}@}. Equity recognised is still {@{8 000 000 net}@} via {@{Share capital 10 000 000 minus Share premium debit 2 000 000}@}. Sign rule: {@{carrying amount &gt; fair value of shares → gain; carrying amount &lt; fair value of shares → loss}@}.
+
+<!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Orion Marine plc has a building with carrying amount {@{21 000 000}@} and fair value {@{16 000 000}@}. A note payable has carrying amount {@{20 000 000}@}. The lender agrees to accept the building in full settlement of the note.
 >
 > | {@{Remeasure building to fair value}@} | Dr              | Cr              |
@@ -499,8 +510,9 @@ Flashcards for this section are as follows:
 - gain vs loss on extinguishment of debt ::@:: Compare carrying amount of the liability with consideration given; consideration &lt; carrying → gain, consideration &gt; carrying → loss. <!--SR:!2026-05-19,17,307!2026-05-19,17,307-->
 - extinguishment using a noncash asset: two-step view ::@:: First remeasure the asset to fair value (gain or loss on asset), then compare liability carrying amount to asset fair value to find gain or loss on extinguishment. <!--SR:!2026-05-20,18,327!2026-05-19,17,307-->
 - early extinguishment of debt with cash: how to find gain or loss? ::@:: Compare cash paid with carrying amount; cash > carrying → loss, cash < carrying → gain. <!--SR:!2026-05-20,18,322!2026-05-20,18,336-->
-- debt settled by issuing shares: basic journal entry ::@:: Dr _Notes/Bonds payable_ (carrying amount), Dr/Cr _Gain or Loss on extinguishment_ (for the difference), Cr _Share capital_ (par) and Cr _Share premium_ (issue proceeds in excess of par) based on fair value of shares issued. <!--SR:!2026-05-20,18,327!2026-05-20,18,327-->
-- debt-for-equity swap: how to measure consideration? ::@:: Use the fair value of the shares issued when available; if not, use the fair value or present value of the liability's remaining cash flows. <!--SR:!2026-05-20,18,327!2026-05-20,18,327-->
+- debt-for-equity swap (IFRS/IFRIC 19): how to measure consideration? ::@:: Measure at fair value of shares issued when reliably measurable; if not, use fair value of the liability extinguished.
+- debt settled by issuing shares (including below-par fair value): journal-entry structure ::@:: Dr _Notes/Bonds payable_ (carrying amount), Dr/Cr _Gain or Loss on extinguishment_ for carrying amount versus fair value of shares issued, Cr _Share capital_ at par, and balancing _Share premium — ordinary_ (credit if fair value &gt; par; debit if fair value &lt; par). <!--SR:!2026-05-20,18,327!2026-05-20,18,327-->
+- debt-for-equity gain/loss sign rule ::@:: Carrying amount of debt &gt; fair value of shares issued → gain; carrying amount of debt &lt; fair value of shares issued → loss, regardless of whether share fair value is above or below par. <!--SR:!2026-05-20,18,327!2026-05-20,18,327-->
 - extinguishment by transferring property: why two gains/losses? ::@:: One from remeasuring the asset to fair value; another from comparing liability carrying amount to asset fair value when settling the debt. <!--SR:!2026-05-20,18,322!2026-05-18,16,290-->
 - early cash repurchase below carrying amount: journal-entry effect ::@:: Debit the liability at carrying amount, credit cash for the repurchase price, and credit gain on extinguishment for the difference. <!--SR:!2026-05-21,19,344!2026-05-21,19,344-->
 

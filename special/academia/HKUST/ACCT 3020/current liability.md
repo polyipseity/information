@@ -344,6 +344,16 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 >
 > _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end. <!--SR:!2026-05-16,16,314!2026-05-16,15,301!2026-05-18,17,314!2026-05-17,16,314!2026-05-16,15,314!2026-05-16,16,314-->
 
+<!-- markdownlint MD028 -->
+> _Downward remeasurement of the same unused vested portion (estimate revision in the opposite direction)._ Assume BrightWave still has {@{8 unused vested vacation weeks}@} at year-end, but updated expectations indicate settlement at {@{500 per week}@}. Required liability is {@{4&nbsp;000 (8 × 500)}@}, while carrying amount before remeasurement is {@{4&nbsp;160}@}. The liability must be {@{decreased by 160}@}.
+>
+> | {@{Decrease the liability when expected settlement of unused vested vacation falls}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Wages payable}@} | {@{160}@} | |
+> | {@{Salaries and wages expense}@} | | {@{160}@} |
+>
+> _Explanation._ Under {@{IAS 19 short-term employee benefits}@}, unused vested accumulating leave is measured at {@{the undiscounted amount expected to be paid}@}. A lower expected settlement amount reduces both {@{Wages payable and current-period Salaries and wages expense (credit to expense)}@}.
+
 ---
 
 Flashcards for this section are as follows:
@@ -360,3 +370,6 @@ Flashcards for this section are as follows:
 - vacation pay paid: Wages payable 12 480, pay 24 weeks at 590/week—entry? ::@:: Dr _Wages payable_ 12 480, Dr _Salaries and wages expense_ 1 680, Cr _Cash_ 14 160. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
 - unused vested vacation at year-end: what happens if only part of the accrued leave was used? ::@:: Remove only the portion actually used from _Wages payable_; the unused vested portion stays as a liability until used or paid out. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
 - unused vested vacation carried forward: when is an extra year-end expense needed? ::@:: If the remaining vested vacation is expected to be paid at a higher current wage rate than the amount still sitting in _Wages payable_, debit _Salaries and wages expense_ and credit _Wages payable_ for the remeasurement difference. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- IAS 19 unused vested vacation remeasurement basis ::@:: At reporting date, measure unused vested accumulating leave at the undiscounted amount expected to be paid.
+- unused vested vacation estimate revision upward (remaining entitlement) ::@:: If updated expected settlement exceeds carrying _Wages payable_, increase the liability with Dr _Salaries and wages expense_, Cr _Wages payable_.
+- unused vested vacation estimate revision downward (remaining entitlement) ::@:: If updated expected settlement is below carrying _Wages payable_, decrease the liability with Dr _Wages payable_, Cr _Salaries and wages expense_.

@@ -18,34 +18,20 @@ dependencies = [
   "cihai>=0.36.0",
   "country-converter>=1.3.0",
   "jaraco.clipboard>=3.1.0",
+  "json5>=0.14.0",
   "markdown>=3.6.0",
   "numpy>=2.0.0",
   "pyperclip>=1.9.0",
   "pyarchivist>=3.0.0",
-  "pydantic>=2.12.0",
+  "pydantic>=2.13.1",
   "pydantic-yaml>=1.6.0",
   "pytextgen>=9.0.0",
   "pyyaml>=6.0.0",
-  "rich>=14.0.0",
-  "uvloop>=0.22.0; platform_system != 'Windows'",
-  "winloop>=0.5.0; platform_system == 'Windows'",
+  "rich>=15.0.0",
   "yarl>=1.9.0",
 ]
 
-[project.scripts]
-
-[project.urls]
-repository = "https://github.com/polyipseity/information.git"
-
-[dependency-groups]
-dev = [
-  "hypothesis>=6.151.0",
-  "pytest>=9.0.3",
-  "pytest-cov>=7.0.0",
-  "pytest-xdist>=3.8.0",
-  "ruff>=0.15.0",
-  "ty>=0.0.31",
-]
+[project.optional-dependencies]
 scripts = [
   "anyio>=3.6.0",
   "asyncer>=0.0.17",
@@ -58,9 +44,28 @@ scripts = [
   "pyperclip>=1.9.0",
   "requests>=2.32.0",
   "schemdraw[matplotlib,svgmath]>=0.22",
-  "uvloop>=0.22.0; platform_system != 'Windows'",
-  "winloop>=0.5.0; platform_system == 'Windows'",
 ]
+uvloop = [
+  "uvloop>=0.22.0; platform_system != 'Windows'",
+  "winloop>=0.6.2; platform_system == 'Windows'",
+]
+
+[project.scripts]
+
+[project.urls]
+repository = "https://github.com/polyipseity/information.git"
+
+[dependency-groups]
+dev = [
+  "hypothesis>=6.152.1",
+  "pytest>=9.0.3",
+  "pytest-cov>=7.0.0",
+  "pytest-xdist>=3.8.0",
+  "ruff>=0.15.10",
+  "ty>=0.0.31",
+]
+scripts = ["information-beb48618-576e-45ea-bd50-9e47279f88dc[scripts]"]
+uvloop = ["information-beb48618-576e-45ea-bd50-9e47279f88dc[uvloop]"]
 
 [tool.pytest.ini_options]
 addopts = [
@@ -95,6 +100,7 @@ extend-exclude = [
 extend-select = ["I", "PLC0415"]
 
 [tool.ty.environment]
+extra-paths = ["typings"]
 python-platform = "all"
 
 [tool.ty.rules]
@@ -128,15 +134,10 @@ exclude = [
   "special/academia/HKUST/**/*tutorial*/**/*.ipynb",
   "special/academia/HKUST/**/*tutorial*/**/*.py",
   # These contain their own ty configurations, and are not intended to be type-checked as part of this project.
-  "self/arts",
-  "self/capture*",
-  "self/ledger",
-  "self/passwords",
-  "tools/pyarchivist",
-  "tools/pytextgen",
 ]
 
 [tool.uv]
+default-groups = ["dev", "scripts", "uvloop"]
 package = false
 required-version = ">=0.9.0,<0.11.0"
 
@@ -144,10 +145,6 @@ required-version = ">=0.9.0,<0.11.0"
 # Do not include any packages in the build, as this project is only a collection of tools and scripts.
 module-name = []
 source-include = ["py.typed"]
-
-[tool.uv.sources]
-pyarchivist = { path = "tools/pyarchivist" }
-pytextgen = { path = "tools/pytextgen" }
 
 [tool.uv.workspace]
 members = [

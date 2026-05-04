@@ -31,7 +31,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ### Step 1: Scaffold new note
 
-**Command**: `uv run -m "templates.new wiki page"`
+**Command**: `uv run -m templates.new_wiki_page`
 
 - Script prompts for Wikipedia article name (e.g., "Fourier Transform")
 - Generates YAML frontmatter template:
@@ -56,11 +56,11 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ### Step 3: Ingest HTML
 
-**Command**: `uv run -m "convert wiki"`
+**Command**: `uv run -m convert_wiki`
 
 - Tool reads from clipboard
 - Normalizes Markdown formatting (lists, tables, code, emphasis)
-- Downloads images to `archives/Wikimedia Commons/` using `convert wiki.py.names map.json` for filename renames
+- Downloads images to `archives/Wikimedia Commons/` using `convert_wiki.filename_rename_map.jsonc` for filename renames
 - Normalizes links to relative paths with `%20` encoding (not `%3A` or other encodings)
 - Outputs Markdown that preserves Wikipedia structure
 - **Action**: Paste output below the frontmatter in your note file
@@ -69,15 +69,15 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 Flashcard creation is managed automatically by the repository’s build
 workflows; agents and authors are not expected to run any commands to
-produce flashcards.  The generator scans for three kinds of markup:
+produce flashcards. The generator scans for three kinds of markup:
 
 - `{@{ hidden text }@}` for cloze deletions (hide text within a paragraph),
 - `::@::` for two-sided question/answer pairs (line-only, two cards), and
 - `:@:` for one-sided question/answer pairs (line-only, single card).
 
 The source must honour the single‑line restriction for the latter two
-formats; use `<br/>` or `<p>` for any desired visual breaks.  When you add
-these markers, the build updates pytextgen regions behind the scenes.  See
+formats; use `<br/>` or `<p>` for any desired visual breaks. When you add
+these markers, the build updates pytextgen regions behind the scenes. See
 [pytextgen](../pytextgen/SKILL.md) skill for additional details.
 
 ### Step 5: Review and finalize
@@ -102,7 +102,7 @@ these markers, the build updates pytextgen regions behind the scenes.  See
 
 ## Common issues
 
-1. **Media download failures**: Check if clipboard HTML is complete; retry `convert wiki`
+1. **Media download failures**: Check if clipboard HTML is complete; retry `convert_wiki`
 2. **Broken relative links**: Verify `%20` encoding for spaces (not `%3A` or other encodings)
 3. **Complex tables**: Some Wikipedia tables don't convert well; manually edit to simpler Markdown format
 4. **Cloze markup missing**: Manually add after generation; see [pytextgen](../pytextgen/SKILL.md) skill for syntax
@@ -117,8 +117,8 @@ these markers, the build updates pytextgen regions behind the scenes.  See
 
 ```bash
 # Ingest from clipboard
-uv run -m "convert wiki"
+uv run -m convert_wiki
 
 # Scaffold new wiki-sourced note
-uv run -m "templates.new wiki page"
+uv run -m templates.new_wiki_page
 ```

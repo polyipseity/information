@@ -257,7 +257,11 @@ async def main(args: Arguments):
             info(f"Using {len(inputs)} input(s)")
             try:
                 entry = pytextgen_parser().parse_args(
-                    tuple(chain(args.arguments, ("--",), (fspath(input) for input in inputs)))
+                    tuple(
+                        chain(
+                            args.arguments, ("--",), (fspath(input) for input in inputs)
+                        )
+                    )
                 )
                 await entry.invoke(entry)
                 success = True
@@ -292,7 +296,7 @@ def parser(parent: Callable[..., ArgumentParser] | None = None):
 
     parser = (ArgumentParser if parent is None else parent)(
         prog=prog,
-        description="input wrapper for tools",
+        description="input wrapper for scripts",
         add_help=True,
         allow_abbrev=False,
         exit_on_error=False,

@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../scripts/utility.py.md
 ```
 
 A __reactivity series__ is {@{a progression of series of [metals](metal.md) arranged by their [reactivity](reactivity%20(chemistry).md)}@}. <!--SR:!2026-08-16,874,290-->
@@ -329,9 +329,9 @@ return chain.from_iterable([r.value for r in results])
 
 ### reactions between water and acids
 
-More reactive [metals](metal.md) react with {@{cold [water](water.md) to form the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}@}. <!--SR:!2027-08-02,1066,290-->
+{@{More reactive [metals](metal.md)}@} react with {@{cold [water](water.md) to form the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}@}. <!--SR:!2027-08-02,1066,290-->
 
-Moderately reactive metals react with {@{[steam](steam.md) or [acids](acid.md) to form respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}@}. <!--SR:!2032-10-23,2375,270-->
+{@{Moderately reactive metals}@} react with {@{[steam](steam.md) or [acids](acid.md)}@} to form {@{respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}@}. <!--SR:!2032-10-23,2375,270-->
 
 ## references
 

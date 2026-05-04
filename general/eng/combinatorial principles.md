@@ -45,7 +45,7 @@ Generally, according to {@{this principle}@}, if {@{_A_<sub>1</sub>, …, _A<sub
 
 - see: ::@:: [bijective proof](bijective%20proof.md) <!--SR:!2028-03-20,689,426!2028-05-06,736,426-->
 
-{@{Bijective proofs}@} prove that {@{two sets have the same number of elements}@} by {@{finding a [bijective function](bijection.md) (one-to-one correspondence) from one set to the other}@}. <!--SR:!2029-07-08,1346,350!2028-02-23,925,330!2028-03-29,698,420-->
+{@{Bijective proofs}@} prove that {@{two sets have the same number of elements}@} by finding {@{a [bijective function](bijection.md) (one-to-one correspondence) from one set to the other}@}. <!--SR:!2029-07-08,1346,350!2028-02-23,925,330!2028-03-29,698,420-->
 
 ## double counting
 

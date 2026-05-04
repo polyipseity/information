@@ -11,7 +11,7 @@ tags:
 
 ```Python
 # pytextgen generate module
-# import ../../tools/utility.py.md
+# import ../../scripts/utility.py.md
 ```
 
 {@{__Rust__}@} is {@{a reddish-brown [iron oxide](iron%20oxide.md)}@} consisting of {@{[hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O)}@} created by {@{[corrosion](corrosion.md) of refined [iron](iron.md)}@}. <!--SR:!2030-04-27,1574,230!2026-05-16,95,376!2026-08-20,151,336!2026-05-23,101,376-->
@@ -20,7 +20,7 @@ tags:
 
 Rusting of iron begins with {@{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}@}. It is accelerated by {@{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}@}. It happens faster in {@{stressed areas like bent, scratched, or sharp areas}@}. <!--SR:!2032-10-05,2496,290!2028-11-20,1394,310!2026-07-29,752,250-->
 
-First, {@{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides](hydroxide.md) in water}@}. The {@{iron(II) ions may be further oxidized by air to iron(III) ions}@}: <!--SR:!2027-03-20,331,230!2032-11-12,2634,330-->
+First, {@{iron is oxidized to iron(II) ions}@} and {@{oxygen is reduced to [hydroxides](hydroxide.md) in water}@}. {@{The iron(II) ions}@} may be {@{further oxidized by air to iron(III) ions}@}: <!--SR:!2027-03-20,331,230!2032-11-12,2634,330-->
 
 > {@{__ion formation by redox__}@}
 >

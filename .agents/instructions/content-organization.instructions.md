@@ -13,7 +13,7 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 - **`general/`** — Encyclopedic content (mostly verbatim from Wikipedia).
   - Flat `.md` files with YAML frontmatter (`aliases`, `tags`, `language`).
   - Use **relative links** (encode spaces as `%20`) and store media under `archives/Wikimedia Commons/`.
-  - Updated primarily via: `uv run -m "convert wiki"`.
+  - Updated primarily via: `uv run -m convert_wiki`.
 
 - **`special/`** — Specialized materials: course notes, tutorials, and frameworks.
   - `academia/` is organized by **institution → semester/year → course**; each institution typically includes `reviews.md` and course folders.
@@ -21,11 +21,10 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 
 - **`archives/`** — Downloaded online content (media, pages, documents).
   - Subfolders: `Wikimedia Commons/` (media), `sparse/` (misc files).
-  - Each archive directory should include an `index.md` with source URL, timestamp and description; `pyarchivist` can auto-update these.
+  - Each archive directory should include an `index.md` with source URL, timestamp and description.
 
-- **`tools/`** — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
+- **`scripts/`** — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
   - Prefer running wrappers (`bun run ...` or `uv run -m ...`) rather than hand-editing generated outputs.
-  - Notable submodules: `tools/pytextgen/` and `tools/pyarchivist/` (treat as external tools).
     Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.agents/instructions/agent-quickstart.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
 
 ---
@@ -37,9 +36,8 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 
 ## Git submodules
 
-- Common submodules: **`self/arts/`**, **`self/capture the flag/`**, **`self/ledger/`**, **`self/passwords/`**, **`self/polyipseity/`**, **`private/`**, **`tools/pytextgen/`**, and **`tools/pyarchivist/`**.
+- Common submodules: **`private/`**.
 - `self/stash/` is part of the parent repository and stores scratch scripts; treat it as ordinary repo content, not as a git submodule.
-- When working inside a submodule, check its local `AGENTS.md` and `.agents/instructions/` first — they take precedence.
 
 ## Course content & migrations
 
@@ -63,7 +61,7 @@ uv run .agents/skills/academic-notes/check.py --content private/special/academia
 
 - Use `pyproject.toml` as the authoritative Python dependency manifest. Keep runtime dependencies in `[project].dependencies`, developer tools in `[dependency-groups].dev`, and the full union of packages referenced by inline `# /// script` metadata in `[dependency-groups].scripts`. Inline script metadata should (1) begin with `#!/usr/bin/env python` shebang on line 1, (2) keep keys alphabetized, and (3) set `requires-python = ">=3.13.0"`. Running `bun install` will trigger `prepare`, which runs `uv sync` to install dev extras from `pyproject.toml` using the project's `uv.lock`.
 - Tests: Place tests under `tests/`, mirror the source layout when possible, and use `pytest` (`test_*.py` naming). Add tests for any script, tool or instruction change (especially changes that affect content generation or publishing). Use `pytest.mark.anyio` for async tests (AnyIO pytest plugin).
-- Async helper code should use AnyIO/Asyncer (`create_task_group`, `soonify`, `asyncify`, `syncify`, `runnify`) rather than importing `asyncio` directly. See agent quickstart for examples; this applies to any Python utilities under `tools/` or `special/`.
+- Async helper code should use AnyIO/Asyncer (`create_task_group`, `soonify`, `asyncify`, `syncify`, `runnify`) rather than importing `asyncio` directly. See agent quickstart for examples; this applies to any Python utilities under `scripts/` or `special/`.
 - Hooks & automation: Register Husky hooks with `bun run prepare`. Pre-commit runs lint-staged which runs markdown and code formatters; pre-push runs the test suite to avoid broken pushes.
 - Local validation: Before committing or opening a PR run `bun run format` and `bun run check` and `bun run test` locally. When only a subset of files are affected, supply explicit paths to the commands (for example `bun run check:md --no-globs file1.md file2.md`) so they run quickly instead of scanning the whole repo.
 
