@@ -20,7 +20,7 @@ tags:
 
 Rusting of iron begins with {@{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}@}. It is accelerated by {@{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}@}. It happens faster in {@{stressed areas like bent, scratched, or sharp areas}@}. <!--SR:!2032-10-05,2496,290!2028-11-20,1394,310!2026-07-29,752,250-->
 
-First, {@{iron is oxidized to iron(II) ions}@} and {@{oxygen is reduced to [hydroxides](hydroxide.md) in water}@}. {@{The iron(II) ions}@} may be {@{further oxidized by air to iron(III) ions}@}: <!--SR:!2027-03-20,331,230!2032-11-12,2634,330-->
+First, {@{iron is oxidized to iron(II) ions}@} and {@{oxygen is reduced to [hydroxides](hydroxide.md) in water}@}. {@{The iron(II) ions}@} may be {@{further oxidized by air to iron(III) ions}@}: <!--SR:!2027-03-20,331,230!2032-11-12,2634,330!2026-05-08,4,338!2026-05-08,4,338-->
 
 > {@{__ion formation by redox__}@}
 >

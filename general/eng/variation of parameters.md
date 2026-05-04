@@ -42,7 +42,7 @@ It is okay to impose arbitrary conditions to get $n$ conditions to solve for the
 
 - see: [ordinary differential equation § reduction of order](ordinary%20differential%20equation.md#reduction%20of%20order)
 
-Variation of parameters {@{comes quite naturally}@} if one reduces {@{the inhomogeneous linear [ordinary differential equation](ordinary%20differential%20equation.md) into a first order system, convert it into [matrix](matrix%20(mathematics).md) form}@}, and use {@{the [fundamental matrix](fundamental%20matrix%20(linear%20differential%20equation).md)}@}, which is the same as {@{the [Wronskian](Wronskian.md) matrix of the solutions to the homogeneous equation for linear ordinary differential equations}@}, to solve {@{the resulting equation}@}. <!--SR:!2026-10-11,698,310!2033-03-09,2503,330-->
+Variation of parameters {@{comes quite naturally}@} if one reduces {@{the inhomogeneous linear [ordinary differential equation](ordinary%20differential%20equation.md) into a first order system, convert it into [matrix](matrix%20(mathematics).md) form}@}, and use {@{the [fundamental matrix](fundamental%20matrix%20(linear%20differential%20equation).md)}@}, which is the same as {@{the [Wronskian](Wronskian.md) matrix of the solutions to the homogeneous equation for linear ordinary differential equations}@}, to solve {@{the resulting equation}@}. <!--SR:!2026-10-11,698,310!2033-03-09,2503,330!2026-05-09,5,386!2026-05-09,5,386!2026-05-09,5,386-->
 
 ### osculating parameters
 
