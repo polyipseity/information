@@ -45,7 +45,7 @@ Else
 End If
 ```
 
-{@{The semantics of `If...Then...ElseIf...Then...Else...End If`}@} can be found by {@{considering the semantics of chaining `If...Then...Else...End If`}@}: {@{The statement block after the first `True` condition}@} is {@{executed}@}. If there are {@{no `True` conditions}@}, {@{the statement block after `Else` is executed if there is an `Else`}@}. Otherwise, {@{nothing is executed}@}. Note that {@{the conditions up until the first `True` condition (inclusive)}@} are themselves {@{always executed in the appearance order}@}, ignoring {@{statement blocks along the way}@}. If {@{there are no `True` conditions}@}, {@{all conditions}@} are always {@{executed in the appearance order}@}, followed by {@{the `Else` statement block if there is one}@}. <!--SR:!2030-10-23,1668,310!2026-11-23,766,329!2026-04-13,5,354!2026-04-13,5,354!2026-04-13,5,354!2026-04-13,5,354!2026-04-13,5,354!2026-04-13,5,354!2026-04-13,5,354!2026-04-13,5,354!2026-04-13,5,354!2026-04-13,5,354!2026-04-13,5,354!2026-04-13,5,354-->
+{@{The semantics of `If...Then...ElseIf...Then...Else...End If`}@} can be found by {@{considering the semantics of chaining `If...Then...Else...End If`}@}: {@{The statement block after the first `True` condition}@} is {@{executed}@}. If there are {@{no `True` conditions}@}, {@{the statement block after `Else` is executed if there is an `Else`}@}. Otherwise, {@{nothing is executed}@}. Note that {@{the conditions up until the first `True` condition (inclusive)}@} are themselves {@{always executed in the appearance order}@}, ignoring {@{statement blocks along the way}@}. If {@{there are no `True` conditions}@}, {@{all conditions}@} are always {@{executed in the appearance order}@}, followed by {@{the `Else` statement block if there is one}@}. <!--SR:!2030-10-23,1668,310!2026-11-23,766,329!2026-05-19,25,374!2026-05-18,24,374!2026-05-19,25,374!2026-05-19,25,374!2026-05-18,24,374!2026-05-19,25,374!2026-05-19,25,374!2026-05-19,25,374!2026-05-18,24,374!2026-05-18,24,374!2026-05-19,25,374!2026-05-19,25,374-->
 
 ## iteration
 
@@ -85,7 +85,7 @@ Do
 Loop While condition
 ```
 
-The semantics of `Do...Loop While` is {@{that the statement block is executed first. Then the condition is executed. If the condition is `True`, we repeat the above process again. If the condition is `False`, the `Do...Loop While` statement ends its execution}@}. <!--SR:!2026-04-11,548,310-->
+The semantics of `Do...Loop While` is {@{that the statement block is executed first. Then the condition is executed. If the condition is `True`, we repeat the above process again. If the condition is `False`, the `Do...Loop While` statement ends its execution}@}. <!--SR:!2032-09-27,2348,330-->
 
 As VBA is intended to be English like, it also provides the unconventional {@{`Do Until...Loop` and `Do...Loop Until` constructs}@}. The semantics is exactly the same except that {@{the loop stops if the condition is `True`}@}. <!--SR:!2027-03-15,793,321!2027-01-31,773,321-->
 

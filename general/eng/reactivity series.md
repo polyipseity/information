@@ -149,7 +149,7 @@ return chain.from_iterable([r.value for r in results])
 - [cobalt](cobalt.md)→::@::←[nickel](nickel.md) <!--SR:!2027-12-11,1164,270!2026-07-23,303,190-->
 - [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!2026-08-19,366,190-->
 - [tin](tin.md)→::@::←[lead](lead.md) <!--SR:!2028-01-08,1048,250!2030-09-16,1893,270-->
-- [lead](lead.md)→::@::←[antimony](antimony.md) <!--SR:!2028-10-07,1054,230!2026-04-13,667,250-->
+- [lead](lead.md)→::@::←[antimony](antimony.md) <!--SR:!2028-10-07,1054,230!2032-09-20,2342,270-->
 - [antimony](antimony.md)→::@::←[bismuth](bismuth.md) <!--SR:!2028-01-26,1121,270!2032-12-12,2591,310-->
 - [bismuth](bismuth.md)→::@::←[copper](copper.md) <!--SR:!2027-02-28,612,230!2027-10-15,993,250-->
 - [copper](copper.md)→::@::←[tungsten](tungsten.md) <!--SR:!2031-12-06,2236,290!2027-02-25,540,250-->
@@ -178,9 +178,9 @@ return chain.from_iterable([r.value for r in results])
 - [aluminium](aluminium.md):@:Al<sup>3+</sup> <!--SR:!2027-08-06,1232,350-->
 - [titanium](titanium.md):@:Ti<sup>4+</sup> <!--SR:!2031-01-22,2133,330-->
 - [manganese](manganese.md):@:Mn<sup>2+</sup> <!--SR:!2031-11-01,2350,330-->
-- [zinc](zinc.md):@:Zn<sup>2+</sup> <!--SR:!2026-04-22,848,330-->
+- [zinc](zinc.md):@:Zn<sup>2+</sup> <!--SR:!2036-11-18,3862,350-->
 - [chromium](chromium.md):@:Cr<sup>3+</sup> <!--SR:!2027-03-20,1123,350-->
-- [iron](iron.md):@:Fe<sup>2+</sup> <!--SR:!2026-04-29,853,330-->
+- [iron](iron.md):@:Fe<sup>2+</sup> <!--SR:!2036-12-12,3880,350-->
 - [cadmium](cadmium.md):@:Cd<sup>2+</sup> <!--SR:!2026-07-25,655,330-->
 - [cobalt](cobalt.md):@:Co<sup>2+</sup> <!--SR:!2028-03-17,1410,350-->
 - [nickel](nickel.md):@:Ni<sup>2+</sup> <!--SR:!2027-06-10,1190,350-->
@@ -239,11 +239,11 @@ return chain.from_iterable([r.value for r in results])
 - [rubidium](rubidium.md):@:reacts with cold [water](water.md) <!--SR:!2028-02-21,1389,350-->
 - [potassium](potassium.md):@:reacts with cold [water](water.md) <!--SR:!2027-03-25,1127,350-->
 - [sodium](sodium.md):@:reacts with cold [water](water.md) <!--SR:!2035-10-30,3517,350-->
-- [lithium](lithium.md):@:reacts with cold [water](water.md) <!--SR:!2026-04-15,831,330-->
+- [lithium](lithium.md):@:reacts with cold [water](water.md) <!--SR:!2036-08-29,3781,350-->
 - [barium](barium.md):@:reacts with cold [water](water.md) <!--SR:!2029-05-27,1534,310-->
 - [strontium](strontium.md):@:reacts with cold [water](water.md) <!--SR:!2029-06-08,1541,310-->
 - [calcium](calcium.md):@:reacts with cold [water](water.md) <!--SR:!2031-02-26,2032,290-->
-- [magnesium](magnesium.md):@:reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2026-04-22,214,150-->
+- [magnesium](magnesium.md):@:reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) <!--SR:!2027-08-11,475,170-->
 - [beryllium](beryllium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2027-02-11,471,170-->
 - [aluminium](aluminium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2028-01-07,691,190-->
 - [titanium](titanium.md):@:reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2028-01-01,1043,250-->
@@ -258,7 +258,7 @@ return chain.from_iterable([r.value for r in results])
 - [lead](lead.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2026-10-19,973,330-->
 - [antimony](antimony.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-12-24,751,290-->
 - [bismuth](bismuth.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2028-11-26,1306,310-->
-- [copper](copper.md):@:reacts slowly with [air](air.md) <!--SR:!2026-04-18,783,290-->
+- [copper](copper.md):@:reacts slowly with [air](air.md) <!--SR:!2034-12-12,3155,310-->
 - [tungsten](tungsten.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-05-29,824,330-->
 - [mercury](mercury%20(element).md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-08-19,883,330-->
 - [silver](silver.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2027-03-31,1132,350-->
@@ -285,7 +285,7 @@ return chain.from_iterable([r.value for r in results])
 
 - [caesium](caesium.md):@:[electrolysis](electrolysis.md) <!--SR:!2027-12-20,1337,350-->
 - [rubidium](rubidium.md):@:[electrolysis](electrolysis.md) <!--SR:!2026-12-20,972,330-->
-- [potassium](potassium.md):@:[electrolysis](electrolysis.md) <!--SR:!2026-04-28,801,330-->
+- [potassium](potassium.md):@:[electrolysis](electrolysis.md) <!--SR:!2036-04-21,3645,350-->
 - [sodium](sodium.md):@:[electrolysis](electrolysis.md) <!--SR:!2028-07-07,1498,350-->
 - [lithium](lithium.md):@:[electrolysis](electrolysis.md) <!--SR:!2035-11-01,3558,350-->
 - [barium](barium.md):@:[electrolysis](electrolysis.md) <!--SR:!2027-02-27,1025,330-->
@@ -317,7 +317,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="ee23"--><!-- The following content is generated at 2024-02-17T20:43:15.045911+08:00. Any edits will be overridden! -->
 
-- [electrolysis](electrolysis.md):@:[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2026-04-30,58,130-->
+- [electrolysis](electrolysis.md):@:[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2026-07-16,74,130-->
 - [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md):@:[titanium](titanium.md) <!--SR:!2028-02-06,993,287-->
 - [smelting](smelting.md) with [coke](coke%20(fuel).md):@:[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2026-05-28,114,150-->
 - [aluminothermic reaction](aluminothermic%20reaction.md):@:[chromium](chromium.md) <!--SR:!2027-05-03,750,267-->
@@ -331,7 +331,7 @@ return chain.from_iterable([r.value for r in results])
 
 More reactive [metals](metal.md) react with {@{cold [water](water.md) to form the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}@}. <!--SR:!2027-08-02,1066,290-->
 
-Moderately reactive metals react with {@{[steam](steam.md) or [acids](acid.md) to form respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}@}. <!--SR:!2026-04-14,677,250-->
+Moderately reactive metals react with {@{[steam](steam.md) or [acids](acid.md) to form respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}@}. <!--SR:!2032-10-23,2375,270-->
 
 ## references
 

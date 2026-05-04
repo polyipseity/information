@@ -78,15 +78,15 @@ While {@{the _graph traversal_ in Fleury's algorithm is linear in the number of 
 
 ### Hierholzer's algorithm
 
-{@{[Hierholzer](Carl%20Hierholzer.md)'s 1873 paper}@} provides {@{a different method for finding Euler cycles that is more efficient than Fleury's algorithm}@}:  (annotation: 3 items: {@{choose any starting vertex, start trails from any traveled vertex with untraveled edges, repeat until all edges are exhausted}@}) <!--SR:!2029-04-08,1252,362!2031-03-31,1849,382!2026-04-13,5,382-->
+{@{[Hierholzer](Carl%20Hierholzer.md)'s 1873 paper}@} provides {@{a different method for finding Euler cycles that is more efficient than Fleury's algorithm}@}:  (annotation: 3 items: {@{choose any starting vertex, start trails from any traveled vertex with untraveled edges, repeat until all edges are exhausted}@}) <!--SR:!2029-04-08,1252,362!2031-03-31,1849,382!2026-05-27,27,402-->
 
 - Choose {@{any starting vertex _v_}@}, and {@{follow a trail of edges from that vertex until returning to _v_}@}. It is not {@{possible to get stuck at any vertex other than _v_}@}, because {@{the even degree of all vertices ensures that, when the trail enters another vertex _w_ there must be an unused edge leaving _w_}@}. {@{The tour formed in this way}@} is {@{a closed tour, but may not cover all the vertices and edges of the initial graph}@}.
 - As long as there exists {@{a vertex _u_ that belongs to the current tour but that has adjacent edges not part of the tour}@}, start {@{another trail from _u_, following unused edges until returning to _u_}@}, and join {@{the tour formed in this way to the previous tour}@}.
 - Since we {@{assume the original graph is [connected](connectivity%20(graph%20theory).md#connected%20vertices%20and%20graphs)}@}, {@{repeating the previous step will exhaust all edges of the graph}@}. <!--SR:!2030-05-30,1594,370!2028-03-31,926,336!2031-05-26,1893,382!2031-04-10,1858,382!2031-05-30,1897,382!2029-04-02,1249,362!2026-10-09,196,342!2027-12-21,873,350!2029-09-23,1381,356!2030-09-17,1679,370!2028-10-19,1115,362-->
 
-By using {@{a data structure such as a [doubly linked list](doubly%20linked%20list.md)}@} to maintain {@{the set of unused edges incident to each vertex, to maintain the list of vertices on the current tour that have unused edges}@}, and to maintain {@{the tour itself}@}, {@{the individual operations of the algorithm}@} \(finding {@{unused edges exiting each vertex}@}, finding {@{a new starting vertex for a tour}@}, and connecting {@{two tours that share a vertex}@}\) may be {@{performed in constant time each}@}, so {@{the overall algorithm takes [linear time](time%20complexity.md#linear%20time), $O(|E|)$}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2031-04-04,1852,382!2026-06-29,436,322!2031-05-24,1892,382!2029-11-17,1350,362!2028-10-14,1111,362!2029-03-27,1243,362!2026-04-17,27,399!2026-04-17,27,399!2026-04-17,27,399-->
+By using {@{a data structure such as a [doubly linked list](doubly%20linked%20list.md)}@} to maintain {@{the set of unused edges incident to each vertex, to maintain the list of vertices on the current tour that have unused edges}@}, and to maintain {@{the tour itself}@}, {@{the individual operations of the algorithm}@} \(finding {@{unused edges exiting each vertex}@}, finding {@{a new starting vertex for a tour}@}, and connecting {@{two tours that share a vertex}@}\) may be {@{performed in constant time each}@}, so {@{the overall algorithm takes [linear time](time%20complexity.md#linear%20time), $O(|E|)$}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2031-04-04,1852,382!2026-06-29,436,322!2031-05-24,1892,382!2029-11-17,1350,362!2028-10-14,1111,362!2029-03-27,1243,362!2026-09-26,149,419!2026-09-25,148,419!2026-09-24,147,419-->
 
-This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md)}@}. Because it is only possible to {@{get stuck when the deque represents a closed tour}@}, one should {@{rotate the deque by removing edges from the tail and adding them to the head until unstuck}@}, and then {@{continue until all edges are accounted for}@}. This {@{also takes linear time}@}, as {@{the number of rotations performed is never larger than $|E|$}@} \(intuitively, {@{fresh edges are added to the head}@}, while {@{bad edges are shifted towards the tail}@}\) <!--SR:!2031-08-07,1953,382!2029-10-07,1392,356!2027-12-13,846,342!2031-08-21,1964,382!2027-04-05,662,342!2027-12-27,796,330!2029-04-03,1235,362!2026-04-12,141,409-->
+This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md)}@}. Because it is only possible to {@{get stuck when the deque represents a closed tour}@}, one should {@{rotate the deque by removing edges from the tail and adding them to the head until unstuck}@}, and then {@{continue until all edges are accounted for}@}. This {@{also takes linear time}@}, as {@{the number of rotations performed is never larger than $|E|$}@} \(intuitively, {@{fresh edges are added to the head}@}, while {@{bad edges are shifted towards the tail}@}\) <!--SR:!2031-08-07,1953,382!2029-10-07,1392,356!2027-12-13,846,342!2031-08-21,1964,382!2027-04-05,662,342!2027-12-27,796,330!2029-04-03,1235,362!2028-06-22,784,429-->
 
 > {@{![Hamiltonian platonic graphs](../../archives/Wikimedia%20Commons/Hamiltonian%20platonic%20graphs.svg)}@}
 >
@@ -133,7 +133,7 @@ In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the
 
 Euler stated {@{a necessary condition for a finite graph to be Eulerian as all vertices must have even degree}@}. {@{Hierholzer}@} {@{proved this is a sufficient condition}@} in {@{a paper published in 1873}@}. This leads to {@{the following necessary and sufficient statement for what a finite graph must have to be Eulerian}@}: {@{An undirected connected finite graph}@} is {@{Eulerian if and only if every vertex of G has even degree}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-01-20,1190,362!2031-04-19,1863,382!2031-06-12,1907,382!2029-03-14,1233,362!2031-08-20,1963,382!2029-10-06,1390,356!2029-07-27,1323,362-->
 
-The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connected graph is Eulerian}@} {@{if and only if it is the disjoint union of some cycles}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2026-05-03,394,322!2029-09-30,1387,356!2031-01-08,1782,382-->
+The following result was {@{proved by Veblen in 1912}@}: {@{An undirected connected graph is Eulerian}@} {@{if and only if it is the disjoint union of some cycles}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2031-02-18,1752,342!2029-09-30,1387,356!2031-01-08,1782,382-->
 
 {@{Hierholzer}@} developed {@{a linear time algorithm for constructing an Eulerian tour in an undirected graph}@}. <!--SR:!2028-11-07,1132,362!2030-10-01,1691,370-->
 
@@ -147,7 +147,7 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 {@{In this theorem}@} it {@{doesn't matter whether "connected" means "weakly connected" or "strongly connected"}@} since {@{they are equivalent for Eulerian graphs}@}. <!--SR:!2030-08-29,1665,370!2029-09-28,1384,356!2031-05-17,1886,382-->
 
-{@{Hierholzer's linear time algorithm}@} for {@{constructing an Eulerian tour}@} is also {@{applicable to directed graphs}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2030-02-10,1412,362!2030-12-12,1764,382!2026-04-13,5,382-->
+{@{Hierholzer's linear time algorithm}@} for {@{constructing an Eulerian tour}@} is also {@{applicable to directed graphs}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2030-02-10,1412,362!2030-12-12,1764,382!2026-05-27,27,402-->
 
 ## mixed Eulerian graphs
 
@@ -163,13 +163,13 @@ It is possible to {@{have a [directed graph](directed%20graph.md) that has all e
 
 > {@{![An even mixed graph that violates the balanced set condition and is therefore not Eulerian.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20that%20violates%20the%20balanced%20set%20condition%20and%20is%20therefore%20not%20Eulerian.svg)}@}
 >
-> {@{An even mixed graph}@} that {@{violates the balanced set condition and is therefore not Eulerian}@}. <!--SR:!2027-12-30,820,342!2029-02-23,1206,362!2026-04-20,142,410-->
+> {@{An even mixed graph}@} that {@{violates the balanced set condition and is therefore not Eulerian}@}. <!--SR:!2027-12-30,820,342!2029-02-23,1206,362!2028-07-01,793,430-->
 
 <!-- markdownlint MD028 -->
 
 > {@{![An even mixed graph that satisfies the balanced set condition and is therefore an Eulerian mixed graph.](../../archives/Wikimedia%20Commons/Even%20mixed%20graph%20satisfies%20the%20balanced%20set%20condition%20and%20is%20therefore%20an%20Eulerian%20mixed%20graph.svg)}@}
 >
-> {@{An even mixed graph}@} that {@{satisfies the balanced set condition and is therefore an Eulerian mixed graph}@}. <!--SR:!2028-11-05,1129,362!2028-04-18,902,342!2026-04-12,135,410-->
+> {@{An even mixed graph}@} that {@{satisfies the balanced set condition and is therefore an Eulerian mixed graph}@}. <!--SR:!2028-11-05,1129,362!2028-04-18,902,342!2028-05-24,755,430-->
 
 ## see also
 

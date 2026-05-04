@@ -15,7 +15,7 @@ In [accounting](accounting.md), _expense_ is {@{any specific outflow of cash or 
 
 > {@{...decreases in economic benefits during the accounting period in the form of outflows or depletions of assets or incurrences of liabilities}@} that result in {@{decreases in equity, other than those relating to distributions to equity participants}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-10-28,1368,310!2027-11-18,868,330-->
 
-Expense is a term also used in {@{[sociology](sociology.md)}@}, in which {@{a particular fortune or price is sacrificed voluntarily or involuntarily}@} by {@{something or someone to something or somebody else}@}, often in the context that {@{the latter is taking advantage of the former}@}. <!--SR:!2028-06-02,1050,350!2030-03-15,1463,310!2026-04-09,19,350!2026-04-09,19,350-->
+Expense is a term also used in {@{[sociology](sociology.md)}@}, in which {@{a particular fortune or price is sacrificed voluntarily or involuntarily}@} by {@{something or someone to something or somebody else}@}, often in the context that {@{the latter is taking advantage of the former}@}. <!--SR:!2028-06-02,1050,350!2030-03-15,1463,310!2026-07-25,93,370!2026-07-26,94,370-->
 
 ## references
 

@@ -143,7 +143,7 @@ The content is in teaching order.
     - individual presentation
 - presentation skills
 - [executive summary](../../../../general/executive%20summary.md)
-  - executive summary for startup investment ::@:: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2026-04-24,145,175!2028-09-13,1158,315-->
+  - executive summary for startup investment ::@:: company name, one-line pitch, problem, solution and product, market and market size, marketing strategy, business model, competition and advantage, team <!--SR:!2027-04-25,365,195!2028-09-13,1158,315-->
 - [assignment W7](assignment%20W7/assignment%20W7.md)
 
 ## week 8 lecture
@@ -174,7 +174,7 @@ The content is in teaching order.
     - consultant after 1 to 2 years ::@:: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2026-05-16,490,321!2027-10-12,939,361-->
     - consultant after 2 to 4 years ::@:: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2027-05-28,771,341!2031-11-14,2048,341-->
     - consultant after 4 to 6 years ::@:: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2029-10-12,1370,301!2030-03-11,1654,381-->
-    - consultant after 6 to 9 years ::@:: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2029-03-03,1281,321!2026-04-27,478,321-->
+    - consultant after 6 to 9 years ::@:: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2029-03-03,1281,321!2032-02-14,2119,341-->
     - consultant after 9 years or more ::@:: Director, Partner, VP: managing the business; exit to CEO or retire rich <!--SR:!2027-10-02,936,361!2029-12-15,1587,381-->
 - nature of complex problems ::@:: modeled by time-varying multi-variable optimization problems with constraints <!--SR:!2027-08-20,918,381!2032-05-23,2346,401-->
   - solving complex problems ::@:: MECE frameworks for patterns, 5-step persuasive selling for presentation <!--SR:!2032-01-29,2252,401!2026-05-05,528,341-->
@@ -276,7 +276,7 @@ The content is in teaching order.
   - abbreviations
     - R&D ::@:: research & development <!--SR:!2026-11-05,710,410!2027-05-09,860,410-->
     - S&M ::@:: sales & marketing <!--SR:!2027-06-21,895,410!2026-07-12,620,410-->
-    - G&A ::@:: general & administration <!--SR:!2026-04-30,555,410!2026-08-01,630,410-->
+    - G&A ::@:: general & administration <!--SR:!2034-10-27,3102,430!2026-08-01,630,410-->
     - CAGR ::@:: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2031-03-11,1993,410!2026-07-26,625,410-->
 - interview note-taking technique using 1 sheet of A4 paper
 - exam for part 2 review

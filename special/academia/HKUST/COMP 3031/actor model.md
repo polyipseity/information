@@ -97,9 +97,9 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 > }
 > ```
 >
-> Here {@{each message}@} is {@{processed sequentially by the actor}@}, so {@{no explicit locks are needed}@} and concurrent deposits cannot {@{interleave in a way that corrupts `balance`}@}. <!--SR:!2026-04-12,76,331!2026-04-12,76,331!2026-04-13,74,331!2026-04-09,73,331!2026-04-12,76,330!2026-04-12,76,330-->
+> Here {@{each message}@} is {@{processed sequentially by the actor}@}, so {@{no explicit locks are needed}@} and concurrent deposits cannot {@{interleave in a way that corrupts `balance`}@}. <!--SR:!2027-04-16,350,351!2027-04-17,351,351!2027-04-10,344,351!2027-04-06,340,351!2027-04-19,353,350!2027-04-18,352,350-->
 
-Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are needed}@}, and concurrent messages cannot {@{interleave in a way that corrupts the actor state}@}. <!--SR:!2026-04-12,76,331!2026-04-12,76,331!2026-04-12,76,331-->
+Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are needed}@}, and concurrent messages cannot {@{interleave in a way that corrupts the actor state}@}. <!--SR:!2027-04-17,351,351!2027-04-20,354,351!2027-04-18,352,351-->
 
 ## history
 
@@ -207,9 +207,9 @@ Actors may alter {@{their own behaviour at runtime with `context.become`}@}. Thi
 >   def receive: Receive = counter(0)
 > }
 > ```
-<!--SR:!2026-04-12,76,331!2026-04-12,76,331-->
+<!--SR:!2027-04-18,352,351!2027-04-16,350,351-->
 
-{@{Switching behaviour}@} is functionally equivalent to {@{mutating a field}@} but keeps {@{the state explicitly scoped}@}. <!--SR:!2026-04-15,76,331!2026-04-11,75,331!2026-04-11,75,331-->
+{@{Switching behaviour}@} is functionally equivalent to {@{mutating a field}@} but keeps {@{the state explicitly scoped}@}. <!--SR:!2027-04-20,354,351!2027-04-13,347,351!2027-04-13,347,351-->
 
 ### actor lifecycle
 
@@ -276,9 +276,9 @@ An actor processes {@{its mailbox _sequentially_}@}. When {@{a message arrives}@
 > }
 > ```
 >
-> If two messages {@{“inc” arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt `n`}@}. <!--SR:!2026-04-10,74,331!2026-04-10,74,331!2026-04-12,76,331!2026-04-12,76,331!2026-04-13,74,331-->
+> If two messages {@{“inc” arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt `n`}@}. <!--SR:!2027-04-10,344,351!2027-04-11,345,351!2027-04-16,350,351!2027-04-19,353,351!2027-04-11,345,351-->
 
-If two messages {@{arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt the actor state}@}. The actor’s {@{single‑threaded model}@} turns {@{locking into simple sequencing}@}. <!--SR:!2026-04-14,75,331!2026-04-14,75,331!2026-04-12,76,331!2027-03-02,328,351!2026-04-12,76,331-->
+If two messages {@{arrive concurrently}@}, they are {@{queued and executed one after the other}@}; {@{no interleaving can corrupt the actor state}@}. The actor’s {@{single‑threaded model}@} turns {@{locking into simple sequencing}@}. <!--SR:!2027-04-12,346,351!2027-04-14,348,351!2027-04-15,349,351!2027-03-02,328,351!2027-04-17,351,351-->
 
 ## entry point
 
@@ -570,4 +570,4 @@ Actors often have {@{several logical states (e.g., idle, processing)}@}. The {@{
 
 When an actor sends {@{a blocking message to another actor}@} or starts {@{a `Future`}@}, the original actor must not read {@{its own mutable fields until the callback completes}@}. Any required data should be {@{copied into the message}@} so that it remains {@{valid during the call}@}. <!--SR:!2026-12-13,261,330!2026-11-30,251,330!2027-01-15,288,330!2027-01-09,283,330!2026-11-18,246,330-->
 
-By following {@{these guidelines}@}, {@{Scala actors}@} can form {@{robust, scalable reactive applications}@} without {@{the pitfalls of shared‑memory synchronization}@}. <!--SR:!2026-12-14,262,330!2027-01-01,274,330!2026-11-15,245,330!2026-04-10,20,357-->
+By following {@{these guidelines}@}, {@{Scala actors}@} can form {@{robust, scalable reactive applications}@} without {@{the pitfalls of shared‑memory synchronization}@}. <!--SR:!2026-12-14,262,330!2027-01-01,274,330!2026-11-15,245,330!2026-08-07,98,377-->

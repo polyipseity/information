@@ -38,7 +38,7 @@ In {@{[category theory](category%20theory.md), a branch of [mathematics](mathema
 
 {@{The [dual](dual%20(category%20theory).md) notion}@} is that of {@{a __terminal object__ \(also called __terminal element__\)}@}: _T_ is {@{terminal if for every object _X_ in _C_ there exists exactly one morphism _X_ → _T_}@}. Initial objects are also called {@{__coterminal__ or __universal__}@}, and terminal objects are also called {@{__final__}@}. <!--SR:!2029-06-07,1243,357!2030-11-09,1683,372!2029-10-03,1340,350!2029-10-12,1356,357!2029-08-13,1310,357-->
 
-If {@{an object is both initial and terminal}@}, it is called {@{a __zero object__ or __null object__}@}. {@{A __pointed category__}@} is {@{one with a zero object}@}. <!--SR:!2029-12-23,1413,357!2028-01-02,821,337!2027-12-21,812,337!2026-04-17,362,357-->
+If {@{an object is both initial and terminal}@}, it is called {@{a __zero object__ or __null object__}@}. {@{A __pointed category__}@} is {@{one with a zero object}@}. <!--SR:!2029-12-23,1413,357!2028-01-02,821,337!2027-12-21,812,337!2031-03-11,1774,377-->
 
 {@{A [strict initial object](strict%20initial%20object.md) _I_}@} is one {@{for which every morphism into _I_ is an [isomorphism](isomorphism.md)}@}. <!--SR:!2029-04-06,1181,352!2026-12-06,487,337-->
 
@@ -50,9 +50,9 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 
 > {@{![Center: the zero object. <br/> Left half: all elements of an object maps to zero, the terminal morphism. <br/> Right half: 0 maps to 0, the initial monomorphism.](../../archives/Wikimedia%20Commons/Terminal%20and%20initial%20object.svg)}@}
 >
-> {@{Morphisms of pointed sets}@}. The image also {@{applies to algebraic zero objects}@} <!--SR:!2029-04-23,1221,357!2029-10-09,1353,357!2026-04-16,361,357-->
+> {@{Morphisms of pointed sets}@}. The image also {@{applies to algebraic zero objects}@} <!--SR:!2029-04-23,1221,357!2029-10-09,1353,357!2031-03-08,1771,377-->
 
-- In {@{the category of [pointed sets](pointed%20set.md)}@} \(whose {@{objects are non-empty sets together with a distinguished element; a morphism from \(_A_, <!-- markdown separator -->_a_\) to \(_B_, <!-- markdown separator -->_b_\) being a function _f_ : _A_ → _B_ with _f_\(_a_\) = _b_}@}\), {@{every singleton is a zero object}@}. Similarly, in {@{the category of [pointed topological spaces](pointed%20space.md)}@}, {@{every singleton is a zero object}@}. <!--SR:!2026-10-15,468,310!2026-11-27,513,317!2026-04-25,369,359!2026-04-18,363,357!2027-04-17,526,406-->
+- In {@{the category of [pointed sets](pointed%20set.md)}@} \(whose {@{objects are non-empty sets together with a distinguished element; a morphism from \(_A_, <!-- markdown separator -->_a_\) to \(_B_, <!-- markdown separator -->_b_\) being a function _f_ : _A_ → _B_ with _f_\(_a_\) = _b_}@}\), {@{every singleton is a zero object}@}. Similarly, in {@{the category of [pointed topological spaces](pointed%20space.md)}@}, {@{every singleton is a zero object}@}. <!--SR:!2026-10-15,468,310!2026-11-27,513,317!2031-04-29,1823,379!2031-03-16,1779,377!2027-04-17,526,406-->
 
 - In {@{__Grp__, the [category of groups](category%20of%20groups.md)}@}, {@{any [trivial group](trivial%20group.md) is a zero object}@}. The trivial object is also {@{a zero object in __Ab__, the [category of abelian groups](category%20of%20abelian%20groups.md), __Rng__ the [category of pseudo-rings](category%20of%20pseudo-rings.md#rings%20without%20identity)}@}, {@{__<!-- markdown separator -->_R_-Mod__, the [category of modules](category%20of%20modules.md) over a ring, and ___K_-Vect__, the [category of vector spaces](category%20of%20vector%20spaces.md) over a field}@}. See {@{_[Zero object \(algebra\)](zero%20object%20(algebra).md)_}@} for details. This is {@{the origin of the term "zero object"}@}. <!--SR:!2027-04-05,515,406!2027-05-01,537,406!2026-05-19,233,366!2026-12-06,393,386!2026-12-09,395,386!2027-04-25,532,406-->
 
@@ -80,7 +80,7 @@ If {@{an object is both initial and terminal}@}, it is called {@{a __zero object
 
 {@{Initial and terminal objects}@} are {@{not required to exist in a given category}@}. However, if {@{they do exist, they are essentially unique}@}. Specifically, if {@{_I_<sub>1</sub> and _I_<sub>2</sub> are two different initial objects}@}, then there is {@{a unique [isomorphism](isomorphism.md) between them}@}. Moreover, if {@{_I_ is an initial object}@} then {@{any object isomorphic to _I_ is also an initial object}@}. The same is {@{true for terminal objects}@}. <!--SR:!2029-08-29,1242,352!2030-01-11,1428,357!2029-04-02,1177,352!2030-01-12,1429,357!2029-05-05,1232,357!2029-12-16,1409,357!2030-11-21,1693,372!2026-07-24,153,427-->
 
-For {@{[complete categories](complete%20category.md)}@} there is {@{an existence theorem for initial objects}@}. Specifically, {@{a \([locally small](locally%20small%20category.md#small%20and%20large%20categories)\) complete category _C_ has an initial object}@} {@{if and only if there exist a set _I_ \(not a [proper class](proper%20class.md)\) and an _I_-[indexed family](indexed%20family.md) \(_K_<sub>_i_</sub>\) of objects of _C_}@} such that {@{for any object _X_ of _C_, there is at least one morphism _K_<sub>_i_</sub> → _X_ for some _i_ ∈ _I_}@}. <!--SR:!2029-05-30,1235,357!2026-04-19,364,357!2026-08-13,396,317!2028-05-05,916,337!2026-08-21,402,277-->
+For {@{[complete categories](complete%20category.md)}@} there is {@{an existence theorem for initial objects}@}. Specifically, {@{a \([locally small](locally%20small%20category.md#small%20and%20large%20categories)\) complete category _C_ has an initial object}@} {@{if and only if there exist a set _I_ \(not a [proper class](proper%20class.md)\) and an _I_-[indexed family](indexed%20family.md) \(_K_<sub>_i_</sub>\) of objects of _C_}@} such that {@{for any object _X_ of _C_, there is at least one morphism _K_<sub>_i_</sub> → _X_ for some _i_ ∈ _I_}@}. <!--SR:!2029-05-30,1235,357!2031-03-23,1786,377!2026-08-13,396,317!2028-05-05,916,337!2026-08-21,402,277-->
 
 ### equivalent formulations
 
@@ -95,7 +95,7 @@ Initial and terminal objects may also {@{be characterized in terms of [universal
 
 ### relation to other categorical constructions
 
-{@{Many natural constructions in category theory}@} can be {@{formulated in terms of finding an initial or terminal object}@} in {@{a suitable category}@}. <!--SR:!2029-12-03,1397,357!2027-11-03,734,332!2026-04-22,143,416-->
+{@{Many natural constructions in category theory}@} can be {@{formulated in terms of finding an initial or terminal object}@} in {@{a suitable category}@}. <!--SR:!2029-12-03,1397,357!2027-11-03,734,332!2028-07-25,815,436-->
 
 - {@{A [universal morphism](universal%20morphism.md) from an object _X_ to a functor _U_}@} can be defined as {@{an initial object in the [comma category](comma%20category.md) \(_X_ ↓ _U_\)}@}. Dually, {@{a universal morphism from _U_ to _X_}@} is {@{a terminal object in \(_U_ ↓ _X_\)}@}.
 - {@{The limit of a diagram _F_}@} is {@{a terminal object in Cone\(_F_\), the [category of cones](category%20of%20cones.md#category%20of%20cones) to _F_}@}. Dually, {@{a colimit of _F_}@} is {@{an initial object in the category of cones from _F_}@}.

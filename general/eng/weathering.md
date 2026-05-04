@@ -11,7 +11,7 @@ tags:
 # import ../../tools/utility.py.md
 ```
 
-__Weathering__ is {@{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}@}. It is distinct from {@{[erosion](erosion.md) which involves movement}@}. <!--SR:!2029-09-12,1436,250!2026-04-29,857,330-->
+__Weathering__ is {@{the deterioration of [material](material.md) through contact with external agents _[in situ](in%20situ.md)_}@}. It is distinct from {@{[erosion](erosion.md) which involves movement}@}. <!--SR:!2029-09-12,1436,250!2036-12-31,3899,350-->
 
 Weathering can be divided into {@{_[chemical weathering](#chemical%20weathering)_ and _[physical weathering](#physical%20weathering)_}@}. <!--SR:!2028-07-21,1509,350-->
 
@@ -19,7 +19,7 @@ Weathering can be divided into {@{_[chemical weathering](#chemical%20weathering)
 
 ### frost weathering
 
-_Frost weathering_ or _frost action_ is {@{weathering caused by formation of [ice](ice.md) in outcrops}@}. In {@{_frost wedging_}@}, {@{the expansion of pore [water](water.md) when it freezes fractures the surrounding rock}@}. <!--SR:!2026-04-19,611,230!2029-02-25,1459,310!2028-07-19,1314,270-->
+_Frost weathering_ or _frost action_ is {@{weathering caused by formation of [ice](ice.md) in outcrops}@}. In {@{_frost wedging_}@}, {@{the expansion of pore [water](water.md) when it freezes fractures the surrounding rock}@}. <!--SR:!2031-10-03,1985,250!2029-02-25,1459,310!2028-07-19,1314,270-->
 
 ### thermal stress
 

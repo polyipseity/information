@@ -17,7 +17,7 @@ The joints are likely {@{pinned support}@}, so they can {@{resist translation bu
 
 ## analysis
 
-To {@{simplify analysis}@}, {@{2 assumptions}@} are often made: {@{external forces and reaction}@} are considered to {@{act at joints only}@} and {@{the weights of truss members}@} are {@{negligible compared to the applied loads}@}. <!--SR:!2026-11-13,692,330!2028-01-03,1029,350!2030-08-03,1578,310!2026-04-12,4,339!2026-04-12,4,339!2026-04-12,4,339-->
+To {@{simplify analysis}@}, {@{2 assumptions}@} are often made: {@{external forces and reaction}@} are considered to {@{act at joints only}@} and {@{the weights of truss members}@} are {@{negligible compared to the applied loads}@}. <!--SR:!2026-11-13,692,330!2028-01-03,1029,350!2030-08-03,1578,310!2026-05-18,20,359!2026-05-18,20,359!2026-05-18,20,359-->
 
 Under these assumptions, each truss member {@{must have only 2 forces acting upon it at the end joints, which must be equal in magnitude and opposite in direction (but they are not [action—reaction pair](reaction%20(physics).md))}@}. By this, each truss member is {@{either a [zero force member](zero%20force%20member.md) (0), in tension (positive values), or in compression (negative values)}@}. <!--SR:!2027-03-09,733,330!2026-08-09,617,330-->
 
@@ -35,7 +35,7 @@ The principle is simple: {@{Consider the equilibrium of each joint one by one, s
 
 Note that when a truss member is in tension, it is actually {@{pulling on the two joints instead of pushing them}@}, and vice versa for compression. <!--SR:!2029-03-27,1380,350-->
 
-The steps are {@{label all joints, members, and the support reactions}@}. Then, {@{compute the support reactions by considering the entire truss}@}. Finally, use {@{the method of joints to determine forces in all members}@}. <!--SR:!2027-05-05,820,330!2028-05-12,1130,350!2026-04-20,488,310-->
+The steps are {@{label all joints, members, and the support reactions}@}. Then, {@{compute the support reactions by considering the entire truss}@}. Finally, use {@{the method of joints to determine forces in all members}@}. <!--SR:!2027-05-05,820,330!2028-05-12,1130,350!2032-01-20,2093,330-->
 
 Note that after finishing with the method of joints, there is {@{no need to consider the global (the entire truss) equilibrium again}@}. This is because {@{the global equilibrium is automatically satisfied afterwards}@}, given that {@{the calculations are done correctly}@}. So this can also serve as a way to {@{check the by-hand calculations}@}. <!--SR:!2028-06-25,1165,350!2027-12-05,1005,350!2027-05-01,824,330!2031-04-06,1909,330-->
 

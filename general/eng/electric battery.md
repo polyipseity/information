@@ -117,7 +117,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="aa92"--><!-- The following content is generated at 2024-01-04T20:17:51.686624+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[alkaline](alkaline%20battery.md) <!--SR:!2026-12-24,979,330!2028-09-26,1564,350-->
-- [alkaline](alkaline%20battery.md)→::@::←[silver oxide](silver%20oxide%20battery.md) <!--SR:!2035-12-29,3616,350!2026-04-11,843,330-->
+- [alkaline](alkaline%20battery.md)→::@::←[silver oxide](silver%20oxide%20battery.md) <!--SR:!2035-12-29,3616,350!2036-10-24,3833,350-->
 - [silver oxide](silver%20oxide%20battery.md)→::@::←[zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride <!--SR:!2035-05-12,3433,350!2030-08-30,1851,310-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride→::@::←_(end)_ <!--SR:!2028-01-02,1354,350!2027-03-29,397,310-->
 
@@ -148,7 +148,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="9583"--><!-- The following content is generated at 2024-03-06T23:33:30.525732+08:00. Any edits will be overridden! -->
 
 - [alkaline](alkaline%20battery.md):@:[KOH](potassium%20hydroxide.md) <!--SR:!2028-06-01,1126,363-->
-- [silver oxide](silver%20oxide%20battery.md):@:[KOH](potassium%20hydroxide.md) <!--SR:!2026-04-19,224,363-->
+- [silver oxide](silver%20oxide%20battery.md):@:[KOH](potassium%20hydroxide.md) <!--SR:!2029-05-15,1114,383-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride:@:[NH<sub>4</sub>Cl](ammonium%20chloride.md)/[ZnCl<sub>2</sub>](zinc%20chloride.md) <!--SR:!2027-03-22,529,343-->
 
 <!--/pytextgen-->
@@ -168,7 +168,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="bba9"--><!-- The following content is generated at 2024-03-06T23:36:40.572889+08:00. Any edits will be overridden! -->
 
 - [alkaline](alkaline%20battery.md):@:high discharge rate, longer [shelf life](shelf%20life.md), low [internal resistance](internal%20resistance.md), slightly more expensive <!--SR:!2027-10-06,795,283-->
-- [silver oxide](silver%20oxide%20battery.md):@:expensive, lightweight, small, wide operating temperature range <!--SR:!2026-04-23,536,323-->
+- [silver oxide](silver%20oxide%20battery.md):@:expensive, lightweight, small, wide operating temperature range <!--SR:!2032-11-11,2390,343-->
 - [zinc–carbon](zinc–carbon%20battery.md)/zinc–chloride:@:cheap, low performance in high-drain or continuous-use devices, short [shelf life](shelf%20life.md) <!--SR:!2032-01-03,2157,343-->
 
 <!--/pytextgen-->
@@ -216,7 +216,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="7801"--><!-- The following content is generated at 2024-03-06T23:33:30.574761+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md):@:[H](hydrogen.md)-absorbing [alloy](alloy.md) <!--SR:!2026-04-19,249,190-->
+- [NiMH](nickel–metal%20hydride%20battery.md):@:[H](hydrogen.md)-absorbing [alloy](alloy.md) <!--SR:!2028-03-14,687,210-->
 - [lead–acid](lead–acid%20battery.md):@:[Pb](lead.md) <!--SR:!2028-02-06,1023,303-->
 - [lithium-ion](lithium-ion%20battery.md):@:[C](carbon.md) ([graphite](graphite.md) [intercalated](intercalation.md) with [Li](lithium.md)) <!--SR:!2026-12-07,649,283-->
 

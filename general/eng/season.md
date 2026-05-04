@@ -17,7 +17,7 @@ The [Earth's orbit](Earth's%20orbit.md) exhibits {@{approximate [axial paralleli
 
 ### axial tilt
 
-The seasons result from {@{the [Earth](Earth.md)'s [axis of rotation](rotation%20around%20a%20fixed%20axis.md) being tilted with respect to its orbital plane by an angle of approximately 23.4 degrees}@}, known as [axial tilt](axial%20tilt.md) or {@{obliquity of the [ecliptic](ecliptic.md)}@}. <!--SR:!2028-02-16,1030,350!2026-04-22,460,310-->
+The seasons result from {@{the [Earth](Earth.md)'s [axis of rotation](rotation%20around%20a%20fixed%20axis.md) being tilted with respect to its orbital plane by an angle of approximately 23.4 degrees}@}, known as [axial tilt](axial%20tilt.md) or {@{obliquity of the [ecliptic](ecliptic.md)}@}. <!--SR:!2028-02-16,1030,350!2031-09-24,1973,330-->
 
 Regardless of {@{the time of year}@}, {@{the [northern](Northern%20Hemisphere.md) and [southern](Souther%20Hemisphere.md) hemispheres always experience opposite seasons}@}. <!--SR:!2028-09-09,1192,350!2028-02-21,1033,350-->
 

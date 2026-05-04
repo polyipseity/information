@@ -23,7 +23,7 @@ Depending on the 2 factors of {@{meeting the same customer needs and possessing 
 
 1. direct competitor ::@:: meeting the same customer needs and possessing the same capabilities to do so <!--SR:!2027-01-04,672,321!2029-05-08,1426,361-->
 2. indirect competitor ::@:: meeting the same customer needs but using different capabilities to do so <!--SR:!2028-01-31,974,301!2029-05-19,1436,361-->
-3. potential competitor ::@:: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2026-04-09,526,321!2028-12-30,1322,361-->
+3. potential competitor ::@:: not meeting the same customer needs but possessing the same capabilities to do so <!--SR:!2032-09-11,2335,341!2028-12-30,1322,361-->
 4. non-competitor ::@:: not meeting the same customer needs and not possessing the same capabilities to do so <!--SR:!2028-09-18,1244,361!2029-05-04,1422,361-->
 
 Direct competitors are not {@{necessarily more important than indirect or potential competitors, and instead it depends on the market}@}. <!--SR:!2027-09-20,925,334-->
@@ -71,8 +71,8 @@ why: Why are people using competitors' products?
 
 - _(begin)_→::@::←compare: Identify similarities and differences between our and their products. <!--SR:!2029-12-05,1392,281!2028-07-25,1197,354-->
 - compare: Identify similarities and differences between our and their products.→::@::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2026-08-10,523,274!2028-08-22,1173,321-->
-- copy: Identify advantages and capabilities our products lack compared to others.→::@::←discover: Identify unmet needs. <!--SR:!2026-04-20,389,241!2030-01-14,1378,261-->
-- discover: Identify unmet needs.→::@::←how: What is our strategy? <!--SR:!2026-04-16,379,221!2028-05-27,933,261-->
+- copy: Identify advantages and capabilities our products lack compared to others.→::@::←discover: Identify unmet needs. <!--SR:!2029-12-08,1327,261!2030-01-14,1378,261-->
+- discover: Identify unmet needs.→::@::←how: What is our strategy? <!--SR:!2029-07-22,1188,241!2028-05-27,933,261-->
 - how: What is our strategy?→::@::←pricing: Compare prices. <!--SR:!2026-12-06,425,190!2026-08-18,429,241-->
 - pricing: Compare prices.→::@::←who: Who are the competitors? 3 to 5 is usually enough. <!--SR:!2026-06-06,448,261!2028-12-05,1037,281-->
 - who: Who are the competitors? 3 to 5 is usually enough.→::@::←why: Why are people using competitors' products? <!--SR:!2030-09-27,1753,321!2026-10-24,594,261-->
@@ -180,7 +180,7 @@ number of features
 
 ### visualization
 
-It is very important to add {@{our own products to the visualization}@} and make it {@{obvious that the products are our own}@}. <!--SR:!2030-09-19,1644,321!2026-04-09,19,354-->
+It is very important to add {@{our own products to the visualization}@} and make it {@{obvious that the products are our own}@}. <!--SR:!2030-09-19,1644,321!2026-07-20,90,374-->
 
 If we are comparing two features only, we can {@{use a _xy_-grid and plot our and competitors' products}@}. If there are more features, {@{we can use a table, with the row headers being the features and the column headers being the products}@}. {@{A mix of both}@} is possible. <!--SR:!2029-03-06,1374,361!2028-04-16,1117,354!2026-09-16,659,330-->
 

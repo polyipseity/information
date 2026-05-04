@@ -66,7 +66,7 @@ The content is in teaching order.
 - relationship between workview & worldview ::@:: If they integrate with each other, great! If they do not, then you may find jobs unfulfilling and want to quit it. <!--SR:!2030-10-20,1738,372!2030-10-04,1722,372-->
 - course framework ::@:: design thinking, meaning-making, discovery & support <!--SR:!2027-08-05,795,352!2028-12-23,1190,352-->
 - warm-up activity: Choose a person from the picture that resonate with you the most. Explain why.
-- society identity theory ::@:: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2026-04-15,427,332!2027-06-07,761,352-->
+- society identity theory ::@:: Groups are part of our identity and self-esteem (Tajfel, 1970). 3 mental processes involved are social categorization, social identification, and social comparison. <!--SR:!2031-09-06,1954,352!2027-06-07,761,352-->
   - social categorization ::@:: Characterize people by their groups. Leads to prejudice. <!--SR:!2030-08-17,1701,372!2030-09-19,1707,372-->
   - social identification ::@:: Modify yourself to match the beliefs you have on your own groups. <!--SR:!2027-06-28,781,352!2030-09-24,1712,372-->
   - social comparison ::@:: Compare your groups with other groups. This maintains group differences. <!--SR:!2030-10-11,1729,372!2026-09-12,547,332-->
@@ -80,18 +80,18 @@ The content is in teaching order.
 
 - datetime: 2024-09-26T10:30:00+08:00/2024-09-26T12:20:00+08:00
 - assignments: [PERMA assessment and reflection](assignments/PERMA%20assessment%20and%20reflection/submission.md)
-- positive psychology ::@:: happiness, well-being, etc. <!--SR:!2032-03-07,2172,397!2026-04-14,436,377-->
+- positive psychology ::@:: happiness, well-being, etc. <!--SR:!2032-03-07,2172,397!2032-06-28,2250,397-->
 - PERMA ::@:: a portfolio approach to well-being: positive emotion, engagement (& motivation), relationships, meaning & purposes, accomplishment <!--SR:!2032-04-09,2199,397!2028-05-30,1016,357-->
-  - PERMA element properties ::@:: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2028-08-17,1031,357!2026-05-01,451,377-->
-  - positive emotion ::@:: hedonic treadmill, happiness returns to its baseline level <!--SR:!2030-03-25,1559,377!2026-04-30,450,377-->
-  - engagement (& motivation) ::@:: They drive you to do the things you want. <!--SR:!2032-01-30,2142,397!2026-04-19,440,377-->
-  - relationships ::@:: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80. <!--SR:!2026-04-25,445,377!2026-05-03,453,377-->
-  - meaning & purpose ::@:: For example, you probably want to have a job or two jobs that make both meaning and money. <!--SR:!2029-09-26,1431,377!2026-04-20,441,377-->
-  - accomplishment ::@:: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things. <!--SR:!2030-03-24,1559,377!2026-05-02,452,377-->
+  - PERMA element properties ::@:: contributes to well-being, being pursued for their own sakes, independent of other elements <!--SR:!2028-08-17,1031,357!2032-09-21,2335,397-->
+  - positive emotion ::@:: hedonic treadmill, happiness returns to its baseline level <!--SR:!2030-03-25,1559,377!2032-09-08,2322,397-->
+  - engagement (& motivation) ::@:: They drive you to do the things you want. <!--SR:!2032-01-30,2142,397!2032-07-19,2271,397-->
+  - relationships ::@:: According to a Harvard study of adult development, the people who were the most satisfied in their relationships at age 50 were the healthiest at age 80. <!--SR:!2032-08-15,2298,397!2032-09-25,2337,397-->
+  - meaning & purpose ::@:: For example, you probably want to have a job or two jobs that make both meaning and money. <!--SR:!2029-09-26,1431,377!2032-07-24,2276,397-->
+  - accomplishment ::@:: Accomplishment could be physical or emotional ones, which are obtained after successfully doing certain things. <!--SR:!2030-03-24,1559,377!2032-09-22,2335,397-->
   - PERMA limitations ::@:: Maybe there are other things that you feel are important to your own well-being but are not included... So feel free to add your own ones. <!--SR:!2032-03-14,2178,397!2030-03-18,1554,377-->
-- activity 1: PERMA assessment and reflection ::@:: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others <!--SR:!2026-04-23,443,377!2026-04-21,442,377-->
+- activity 1: PERMA assessment and reflection ::@:: PERMA assessment, energy engagement map (& flow), incremental changes, sharing with others <!--SR:!2032-08-04,2287,397!2032-07-31,2283,397-->
 - activity 2: STRONG debriefing
-  - STRONG debriefing / debrief ::@:: STRONG assess your job interests, NOT your job skills! <!--SR:!2026-04-13,435,377!2030-01-21,1510,377-->
+  - STRONG debriefing / debrief ::@:: STRONG assess your job interests, NOT your job skills! <!--SR:!2032-06-19,2241,397!2030-01-21,1510,377-->
 
 ## week 5 tutorial
 

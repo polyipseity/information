@@ -55,7 +55,7 @@ Ordinary differential equations are furthered classified:
 - [homogeneous](#^homogeneous)→::@::←[linear](#^linear) <!--SR:!2028-01-27,1223,350!2027-01-07,661,290-->
 - [linear](#^linear)→::@::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2026-07-30,742,330!2027-01-16,900,330-->
 - [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→::@::←[nonlinear](#^nonlinear) <!--SR:!2027-02-07,874,330!2027-11-07,1159,350-->
-- [nonlinear](#^nonlinear)→::@::←_(end)_ <!--SR:!2026-05-24,728,330!2026-04-18,698,330-->
+- [nonlinear](#^nonlinear)→::@::←_(end)_ <!--SR:!2026-05-24,728,330!2035-01-11,3181,350-->
 
 <!--/pytextgen-->
 
@@ -67,7 +67,7 @@ Ordinary differential equations are furthered classified:
 
 > [__homogeneous__](homogeneous%20differential%20equation.md) <a id="^homogeneous"></a>^homogeneous
 >
-> {@{An [linear](#^linear) ODE}@} where {@{there are no constant terms ($r(x)=0$)}@}. <!--SR:!2026-04-28,653,310!2027-07-06,459,394-->
+> {@{An [linear](#^linear) ODE}@} where {@{there are no constant terms ($r(x)=0$)}@}. <!--SR:!2034-01-02,2801,330!2027-07-06,459,394-->
 
 <!-- markdownlint MD028 -->
 
@@ -122,7 +122,7 @@ F_1(x)G_1(y)\,\mathrm{d}x+F_2(x)G_2(y)\,\mathrm{d}y&=0\\
 ##### first-order, homogeneous
 
 - form :@: $\frac{\mathrm{d}y}{\mathrm{d}x}=F\left(\frac{y}x\right)$, where $F$ is an [integrable](integraable.md) [function](function%20(mathematics).md). <!--SR:!2028-12-08,1347,340-->
-- solution :@: Substitute $y\overset{\mathrm{def} }=ux$, then [separate the variables](separation%20of%20variables.md), then integrate. <!--SR:!2026-04-20,412,300-->
+- solution :@: Substitute $y\overset{\mathrm{def} }=ux$, then [separate the variables](separation%20of%20variables.md), then integrate. <!--SR:!2031-01-05,1714,320-->
 
 The general solution is:
 

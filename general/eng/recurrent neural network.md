@@ -15,7 +15,7 @@ A __recurrent neural network__ (__RNN__) is {@{one of the two board types of [ne
 
 An RNN exhibits {@{temporal [dynamic behavior](dynamical%20system.md)}@}. This makes it suitable for datasets {@{with temporal relationship between the samples}@}. <!--SR:!2029-04-11,1369,350!2028-01-27,1024,350-->
 
-{@{The term "recurrent neural network"}@} is used to refer to {@{the class of networks with [infinite impulse response](infinite%20impulse%20response.md)}@} (annotation: {@{feedback loops}@} let past inputs {@{influence the state indefinitely}@}), while {@{"[convolutional neural network](convolutional%20neural%20network.md)"}@} refers to {@{the class of networks with [finite impulse response](finite%20impulse%20response.md)}@} (annotation: {@{fixed convolution windows (in time domain)}@} limit {@{influence to a finite history}@}). <!--SR:!2030-10-12,1742,330!2026-05-28,523,310!2026-05-12,91,357!2026-05-01,82,357!2026-05-06,86,357!2026-05-09,88,357!2026-05-06,86,357!2026-05-11,90,357-->
+{@{The term "recurrent neural network"}@} is used to refer to {@{the class of networks with [infinite impulse response](infinite%20impulse%20response.md)}@} (annotation: {@{feedback loops}@} let past inputs {@{influence the state indefinitely}@}), while {@{"[convolutional neural network](convolutional%20neural%20network.md)"}@} refers to {@{the class of networks with [finite impulse response](finite%20impulse%20response.md)}@} (annotation: {@{fixed convolution windows (in time domain)}@} limit {@{influence to a finite history}@}). <!--SR:!2030-10-12,1742,330!2026-05-28,523,310!2026-05-12,91,357!2027-06-14,409,377!2026-05-06,86,357!2026-05-09,88,357!2026-05-06,86,357!2026-05-11,90,357-->
 
 ## architectures
 
@@ -33,7 +33,7 @@ Elman and Jordan networks are also known as {@{"simple recurrent networks" (SRN)
 
 - see: [long short-term memory](long%20short-term%20memory.md)
 
-Long short-term memory (LSTM) is {@{a [deep learning](deep%20learning.md) system that avoids the [vanishing gradient problem](vanishing%20gradient%20problem.md)}@}. LSTMs are augmented with {@{recurrent gates like "forget gates", "input gates", and "output gates"}@}. LSTMs can learn {@{tasks that require memories of events thousands or even millions of time steps earlier}@}. LSTM works even if {@{there are long delays between significant events and can handle low and high-frequency components}@}. <!--SR:!2029-03-09,1257,310!2026-07-06,554,310!2026-04-13,490,310!2027-04-03,768,330-->
+Long short-term memory (LSTM) is {@{a [deep learning](deep%20learning.md) system that avoids the [vanishing gradient problem](vanishing%20gradient%20problem.md)}@}. LSTMs are augmented with {@{recurrent gates like "forget gates", "input gates", and "output gates"}@}. LSTMs can learn {@{tasks that require memories of events thousands or even millions of time steps earlier}@}. LSTM works even if {@{there are long delays between significant events and can handle low and high-frequency components}@}. <!--SR:!2029-03-09,1257,310!2026-07-06,554,310!2032-01-22,2101,330!2027-04-03,768,330-->
 
 ### gated recurrent unit
 

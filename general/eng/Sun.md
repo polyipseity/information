@@ -21,7 +21,7 @@ The __Sun__ is {@{the [star](star.md) at the center of the [Solar System](Solar%
 
 - see: [standard solar model](standard%20solar%20model.md)
 
-From the outside to inside, significant structures of the Sun are: {@{[solar wind](solar%20wind.md), [corona](stellar%20corona.md), [chromosphere](chromosphere.md), [photosphere](#photosphere)}@}, {@{[convective zone](#convective%20zone), [radiative zone](#radiative%20zone), and [core](#core)}@}. <!--SR:!2026-07-25,242,240!2026-04-16,164,354-->
+From the outside to inside, significant structures of the Sun are: {@{[solar wind](solar%20wind.md), [corona](stellar%20corona.md), [chromosphere](chromosphere.md), [photosphere](#photosphere)}@}, {@{[convective zone](#convective%20zone), [radiative zone](#radiative%20zone), and [core](#core)}@}. <!--SR:!2026-07-25,242,240!2028-06-28,799,374-->
 
 ### core
 
@@ -31,7 +31,7 @@ From the outside to inside, significant structures of the Sun are: {@{[solar win
 
 {@{The core}@} is {@{the only region of the Sun}@} that produces {@{an appreciable amount of [thermal energy](thermal%20energy.md) through [nuclear fusion](nuclear%20fusion.md)}@}; {@{99% of the power}@} is {@{generated within 24% of the Sun's radius}@}, and by {@{30% of the radius}@}, fusion has {@{stopped nearly entirely}@}. Through {@{most of the Sun's life}@}, energy has been produced by {@{nuclear fusion in the core region through the [proton–proton chain](proton–proton%20chain.md)}@}; this process {@{converts [hydrogen](hydrogen.md) into [helium](helium.md)}@}. Currently, {@{only about 0.8% of the energy generated}@} in the Sun comes from {@{another sequence of fusion reactions called the [CNO cycle](CNO%20cycle.md)}@}, though this proportion is {@{expected to increase as the Sun becomes older and more luminous}@}. <!--SR:!2027-10-24,915,340!2026-12-25,651,320!2028-08-31,1002,300!2026-07-22,489,300!2027-05-24,422,385!2027-05-18,417,385!2027-05-24,422,385!2027-05-24,422,385!2027-05-18,417,385!2027-06-17,442,385!2027-05-12,412,385!2027-05-11,410,385!2027-05-17,416,385-->
 
-{@{The fusion rate in the core}@} is {@{in a self-correcting equilibrium}@}: {@{a slightly higher rate of fusion}@} would cause {@{the core to heat up more and [expand](thermal%20expansion.md) slightly against the weight of the outer layers}@}, reducing {@{the density and hence the fusion rate and correcting the perturbation}@}; and {@{a slightly lower rate}@} would cause {@{the core to cool and shrink slightly}@}, increasing {@{the density and increasing the fusion rate and again reverting it to its present rate}@}. <!--SR:!2028-03-19,1024,340!2026-04-21,178,320!2026-04-10,420,300!2027-02-15,381,376!2027-01-22,363,376!2027-02-16,383,376!2027-01-13,354,376!2027-01-17,358,376-->
+{@{The fusion rate in the core}@} is {@{in a self-correcting equilibrium}@}: {@{a slightly higher rate of fusion}@} would cause {@{the core to heat up more and [expand](thermal%20expansion.md) slightly against the weight of the outer layers}@}, reducing {@{the density and hence the fusion rate and correcting the perturbation}@}; and {@{a slightly lower rate}@} would cause {@{the core to cool and shrink slightly}@}, increasing {@{the density and increasing the fusion rate and again reverting it to its present rate}@}. <!--SR:!2028-03-19,1024,340!2028-06-16,787,340!2031-02-01,1747,320!2027-02-15,381,376!2027-01-22,363,376!2027-02-16,383,376!2027-01-13,354,376!2027-01-17,358,376-->
 
 ## radiative zone
 

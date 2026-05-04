@@ -95,7 +95,7 @@ Moreover, {@{exceptions thrown inside callbacks}@} are not {@{caught by surround
 > def program(a: A): Future[B] = …
 > ```
 >
-> This is how one may obtain {@{`Future` in its most basic form}@}. <!--SR:!2026-04-14,76,330!2026-04-14,76,330!2026-04-14,76,330!2026-04-13,76,330-->
+> This is how one may obtain {@{`Future` in its most basic form}@}. <!--SR:!2027-04-03,344,350!2027-03-31,341,350!2027-04-04,345,350!2027-03-29,339,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -108,9 +108,9 @@ Moreover, {@{exceptions thrown inside callbacks}@} are not {@{caught by surround
 > def program(a: A): Future[B] = …
 > ```
 >
-> Our `Future` can be further {@{improved in other ways}@}. In practice Scala provides {@{the `Future` trait}@}. <!--SR:!2026-04-14,76,331!2026-04-13,76,331!2026-04-13,76,331!2026-04-13,76,330-->
+> Our `Future` can be further {@{improved in other ways}@}. In practice Scala provides {@{the `Future` trait}@}. <!--SR:!2027-04-06,347,351!2027-03-30,340,351!2027-04-07,348,351!2027-04-02,343,350-->
 
-In practice Scala provides {@{the `Future` trait}@}, which extends {@{a function that accepts a callback}@} and offers {@{convenient combinators}@}. <!--SR:!2026-04-14,76,330!2026-04-13,76,330!2026-04-13,76,330-->
+In practice Scala provides {@{the `Future` trait}@}, which extends {@{a function that accepts a callback}@} and offers {@{convenient combinators}@}. <!--SR:!2027-04-08,349,350!2027-04-01,342,350!2027-04-05,346,350-->
 
 > [!example] __Scala Future API__
 >

@@ -44,11 +44,11 @@ In {@{[Fischer–Speier esterification](Fischer–Speier%20esterification.md)}@}
 
 ### nucleophilic substitution
 
-Similar to {@{[alcohols](alcohol.md)}@}, carboxylic acids can {@{react with [phosphorous trihalide](phosphorous%20trihalide.md) to give [acyl chlorides](acyl%20chloride.md)}@}, and {@{[phosphorous pentabromide](phosphorous%20pentabromide.md) to give acyl bromides}@}. <!--SR:!2027-11-01,632,229!2026-04-30,51,316!2026-05-20,68,336-->
+Similar to {@{[alcohols](alcohol.md)}@}, carboxylic acids can {@{react with [phosphorous trihalide](phosphorous%20trihalide.md) to give [acyl chlorides](acyl%20chloride.md)}@}, and {@{[phosphorous pentabromide](phosphorous%20pentabromide.md) to give acyl bromides}@}. <!--SR:!2027-11-01,632,229!2026-12-14,226,336!2026-05-20,68,336-->
 
 ### reduction
 
-{@{Carboxylic acids}@} can be {@{reduced to primary [alcohols](alcohol.md) directly using [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md)}@} and then {@{add dilute [acid](acid.md)}@}. <!--SR:!2026-07-28,124,149!2026-04-12,4,299!2026-04-12,4,299-->
+{@{Carboxylic acids}@} can be {@{reduced to primary [alcohols](alcohol.md) directly using [lithium aluminium hydride](lithium%20aluminium%20hydride.md) in dry [diethyl ether](diethyl%20ether.md)}@} and then {@{add dilute [acid](acid.md)}@}. <!--SR:!2026-07-28,124,149!2026-05-15,18,319!2026-05-15,18,319-->
 
 ### reactions
 
@@ -76,7 +76,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="dd11"--><!-- The following content is generated at 2024-01-04T20:17:51.458466+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[dehydration](#dehydration) <!--SR:!2030-08-31,1885,289!2026-04-30,802,329-->
+- _(begin)_→::@::←[dehydration](#dehydration) <!--SR:!2030-08-31,1885,289!2036-04-18,3639,349-->
 - [dehydration](#dehydration)→::@::←[esterification](#esterification) <!--SR:!2026-08-21,811,293!2027-01-06,1029,333-->
 - [esterification](#esterification)→::@::←[nucleophilic substitution](#nucleophilic%20substitution) <!--SR:!2027-01-07,725,229!2026-12-06,289,170-->
 - [nucleophilic substitution](#nucleophilic%20substitution)→::@::←[reduction](#reduction) <!--SR:!2029-03-26,1489,309!2031-07-03,2241,329-->

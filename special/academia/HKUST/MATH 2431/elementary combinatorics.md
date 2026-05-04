@@ -20,9 +20,9 @@ If $N$ experiments with finite sample spaces $\Omega_1, \ldots, \Omega_N$ are pe
 
 Flashcards for this section are as follows:
 
-- combined experiment space ::@:: Cartesian product $\Omega = \Omega_1 \times \cdots \times \Omega_N$; outcomes are $N$-tuples $(\omega_1, \ldots, \omega_N)$ with $\omega_j \in \Omega_j$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,284!2026-04-11,4,270-->
-- product rule ::@:: $|\Omega_1 \times \cdots \times \Omega_N| = |\Omega_1| \cdots |\Omega_N|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- password: Four symbols: first two letters (26 each), last two digits (10 each). How many passwords? ::@:: $\Omega = \Omega_1 \times \Omega_2 \times \Omega_3 \times \Omega_4$ with $|\Omega_1|=|\Omega_2|=26$, $|\Omega_3|=|\Omega_4|=10$; $|\Omega| = 26 \cdot 26 \cdot 10 \cdot 10 = 67600$. <!-- check: ignore-line[two_sided_calc_warning]: left has givens 26, 10 --> <!--SR:!2026-04-11,4,270!2026-04-12,4,284-->
+- combined experiment space ::@:: Cartesian product $\Omega = \Omega_1 \times \cdots \times \Omega_N$; outcomes are $N$-tuples $(\omega_1, \ldots, \omega_N)$ with $\omega_j \in \Omega_j$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-16,17,304!2026-05-15,16,290-->
+- product rule ::@:: $|\Omega_1 \times \cdots \times \Omega_N| = |\Omega_1| \cdots |\Omega_N|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-15,16,290!2026-05-15,16,290-->
+- password: Four symbols: first two letters (26 each), last two digits (10 each). How many passwords? ::@:: $\Omega = \Omega_1 \times \Omega_2 \times \Omega_3 \times \Omega_4$ with $|\Omega_1|=|\Omega_2|=26$, $|\Omega_3|=|\Omega_4|=10$; $|\Omega| = 26 \cdot 26 \cdot 10 \cdot 10 = 67600$. <!-- check: ignore-line[two_sided_calc_warning]: left has givens 26, 10 --> <!--SR:!2026-05-15,16,290!2026-05-16,17,304-->
 
 ## samples of size r from n elements
 
@@ -43,14 +43,14 @@ For unordered with repetition, the stars-and-bars picture is worth visualizing. 
 
 Flashcards for this section are as follows:
 
-- ordered with repetition ::@:: Number of ordered $r$-tuples from $\{1,\ldots,n\}$ with repetition: $n^r$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,284!2026-04-11,4,270-->
-- ordered without repetition ::@:: Number of ordered $r$-tuples from $\{1,\ldots,n\}$ with distinct entries: $n(n-1)\cdots(n-r+1) = n!/(n-r)!$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,284!2026-04-11,4,270-->
-- unordered without repetition ::@:: Number of $r$-element subsets of $\{1,\ldots,n\}$: $\binom{n}{r} = n!/(r!(n-r)!)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- unordered with repetition ::@:: Number of multisets of size $r$ from $\{1,\ldots,n\}$ (non-decreasing $r$-tuples): $\binom{n+r-1}{r}$ (stars-and-bars). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why unordered without repetition divides by $r!$ ::@:: If one first counts ordered selections without repetition, then each unordered $r$-element sample is counted once for each of its $r!$ orderings, so dividing by $r!$ removes the overcounting. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- stars-and-bars encoding ::@:: A multiset of size $r$ from $\{1,\ldots,n\}$ can be encoded by $r$ dots and $n-1$ bars, where the dot counts between consecutive bars record how many copies of each value are chosen; choosing the dot positions among $n+r-1$ symbols gives $\binom{n+r-1}{r}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- binomial coefficient ::@:: $\binom{n}{k} = n!/(k!(n-k)!)$ for $0 \le k \le n$; number of $k$-element subsets of an $n$-element set. Equivalently, it is the multinomial coefficient with two groups, written as $\binom{n}{k,n-k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- committee: Subcommittee of 5 from 12: 1 from A (3), 2 from B (4), 2 from C (5). How many? ::@:: $\binom{3}{1} \binom{4}{2} \binom{5}{2} = 3 \cdot 6 \cdot 10 = 180$. <!-- check: ignore-line[two_sided_calc_warning]: left has group sizes 3,4,5 --> <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- ordered with repetition ::@:: Number of ordered $r$-tuples from $\{1,\ldots,n\}$ with repetition: $n^r$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-16,17,304!2026-05-15,16,290-->
+- ordered without repetition ::@:: Number of ordered $r$-tuples from $\{1,\ldots,n\}$ with distinct entries: $n(n-1)\cdots(n-r+1) = n!/(n-r)!$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-16,17,304!2026-05-15,16,290-->
+- unordered without repetition ::@:: Number of $r$-element subsets of $\{1,\ldots,n\}$: $\binom{n}{r} = n!/(r!(n-r)!)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-16,17,304!2026-05-15,16,304-->
+- unordered with repetition ::@:: Number of multisets of size $r$ from $\{1,\ldots,n\}$ (non-decreasing $r$-tuples): $\binom{n+r-1}{r}$ (stars-and-bars). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-16,17,304!2026-05-16,17,304-->
+- why unordered without repetition divides by $r!$ ::@:: If one first counts ordered selections without repetition, then each unordered $r$-element sample is counted once for each of its $r!$ orderings, so dividing by $r!$ removes the overcounting. <!--SR:!2026-05-15,16,290!2026-05-15,16,290-->
+- stars-and-bars encoding ::@:: A multiset of size $r$ from $\{1,\ldots,n\}$ can be encoded by $r$ dots and $n-1$ bars, where the dot counts between consecutive bars record how many copies of each value are chosen; choosing the dot positions among $n+r-1$ symbols gives $\binom{n+r-1}{r}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-15,16,304!2026-05-16,17,304-->
+- binomial coefficient ::@:: $\binom{n}{k} = n!/(k!(n-k)!)$ for $0 \le k \le n$; number of $k$-element subsets of an $n$-element set. Equivalently, it is the multinomial coefficient with two groups, written as $\binom{n}{k,n-k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-15,16,290!2026-05-15,16,290-->
+- committee: Subcommittee of 5 from 12: 1 from A (3), 2 from B (4), 2 from C (5). How many? ::@:: $\binom{3}{1} \binom{4}{2} \binom{5}{2} = 3 \cdot 6 \cdot 10 = 180$. <!-- check: ignore-line[two_sided_calc_warning]: left has group sizes 3,4,5 --> <!--SR:!2026-05-16,17,304!2026-05-16,17,304-->
 
 ## multinomial coefficient and division into groups
 
@@ -62,10 +62,10 @@ The denominator has a clear meaning. If one first writes all $n$ items in order,
 
 Flashcards for this section are as follows:
 
-- division into k groups ::@:: Number of ways to partition $n$ items into $k$ labeled groups of sizes $n_1, \ldots, n_k$: $n!/(n_1! \cdots n_k!)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- multinomial coefficient ::@:: $\binom{n}{n_1, \ldots, n_k} = n!/(n_1! \cdots n_k!)$ with $n_1 + \cdots + n_k = n$; generalizes $\binom{n}{k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- why the multinomial denominator appears ::@:: After ordering all $n$ items, permutations within the same labeled group do not change the final division, so one divides by $n_1!\cdots n_k!$ to remove those internal reorderings. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-12,4,284-->
-- employees to tasks: 10 employees, 5 for A, 3 for B, 2 for C. How many assignments? ::@:: $10!/(5!\,3!\,2!) = 2520$ (same as permutations of AAAAABBBCC). <!-- check: ignore-line[two_sided_calc_warning]: left has 10, 5, 3, 2 --> <!--SR:!2026-04-11,4,270!2026-04-12,4,284-->
+- division into k groups ::@:: Number of ways to partition $n$ items into $k$ labeled groups of sizes $n_1, \ldots, n_k$: $n!/(n_1! \cdots n_k!)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-15,16,290!2026-05-15,16,290-->
+- multinomial coefficient ::@:: $\binom{n}{n_1, \ldots, n_k} = n!/(n_1! \cdots n_k!)$ with $n_1 + \cdots + n_k = n$; generalizes $\binom{n}{k}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-15,16,290!2026-05-15,16,290-->
+- why the multinomial denominator appears ::@:: After ordering all $n$ items, permutations within the same labeled group do not change the final division, so one divides by $n_1!\cdots n_k!$ to remove those internal reorderings. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-15,16,290!2026-05-16,17,304-->
+- employees to tasks: 10 employees, 5 for A, 3 for B, 2 for C. How many assignments? ::@:: $10!/(5!\,3!\,2!) = 2520$ (same as permutations of AAAAABBBCC). <!-- check: ignore-line[two_sided_calc_warning]: left has 10, 5, 3, 2 --> <!--SR:!2026-05-15,16,290!2026-05-16,17,304-->
 
 ## multinomial and binomial theorems
 
@@ -75,5 +75,5 @@ For $x_1, \ldots, x_k \in \mathbb{R}$ and $n \in \mathbb{N}$, $(x_1 + \cdots + x
 
 Flashcards for this section are as follows:
 
-- multinomial theorem ::@:: $(x_1 + \cdots + x_k)^n = \sum_{n_1+\cdots+n_k=n} \binom{n}{n_1,\ldots,n_k} x_1^{n_1} \cdots x_k^{n_k}$; for $k=2$ this reduces to the binomial theorem. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-12,4,284-->
-- binomial theorem ::@:: $(x+y)^n = \sum_{k=0}^n \binom{n}{k} x^k y^{n-k}$ for $x, y \in \mathbb{R}$, $n \in \mathbb{N}$; special case of the multinomial theorem with two variables. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-12,4,284-->
+- multinomial theorem ::@:: $(x_1 + \cdots + x_k)^n = \sum_{n_1+\cdots+n_k=n} \binom{n}{n_1,\ldots,n_k} x_1^{n_1} \cdots x_k^{n_k}$; for $k=2$ this reduces to the binomial theorem. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-15,16,290!2026-05-16,17,304-->
+- binomial theorem ::@:: $(x+y)^n = \sum_{k=0}^n \binom{n}{k} x^k y^{n-k}$ for $x, y \in \mathbb{R}$, $n \in \mathbb{N}$; special case of the multinomial theorem with two variables. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-15,16,290!2026-05-16,17,304-->

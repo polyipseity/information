@@ -469,7 +469,7 @@ return chain.from_iterable([r.value for r in results])
 - iodide ion:@:colorless <!--SR:!2027-10-28,1427,307-->
 - hydroxide ion:@:colorless <!--SR:!2029-02-26,1712,327-->
 - nitrate ion:@:colorless <!--SR:!2027-09-23,1392,299-->
-- nitrite ion:@:_(n/a)_ <!--SR:!2026-04-14,626,256-->
+- nitrite ion:@:_(n/a)_ <!--SR:!2032-06-14,2246,276-->
 - hydrogencarbonate ion:@:colorless <!--SR:!2031-06-28,2573,330-->
 - hydrogensulfite ion:@:colorless <!--SR:!2026-11-15,1203,270-->
 - hydrogensulfate ion:@:colorless <!--SR:!2027-11-01,1341,270-->

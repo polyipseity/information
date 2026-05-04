@@ -166,7 +166,7 @@ The steps for naming an organic compound are:
 
 - _(begin)_→::@::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2027-04-01,991,255!2038-02-21,4384,365-->
 - [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→::@::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2029-03-07,1596,262!2029-03-21,1647,325-->
-- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→::@::←identify side-chains <!--SR:!2027-04-28,1021,264!2026-05-04,254,150-->
+- identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→::@::←identify side-chains <!--SR:!2027-04-28,1021,264!2027-11-18,563,170-->
 - identify side-chains→::@::←identify remaining functional groups <!--SR:!2026-06-02,852,230!2026-07-17,507,207-->
 - identify remaining functional groups→::@::←identify multiple bonds <!--SR:!2026-07-16,523,190!2026-06-27,690,207-->
 - identify multiple bonds→::@::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2030-10-14,1783,250!2027-04-24,580,210-->
@@ -236,7 +236,7 @@ The steps for naming an organic compound are:
 <!--pytextgen generate section="828019"--><!-- The following content is generated at 2024-02-17T20:15:49.262704+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←bond order: single bond, double bond, triple bond, ... <!--SR:!2036-05-11,3721,312!2029-09-13,1545,307-->
-- bond order: single bond, double bond, triple bond, ...→::@::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2026-05-03,802,250!2031-10-07,2502,342-->
+- bond order: single bond, double bond, triple bond, ...→::@::←prefix order: alphabetical order ignoring prefixes for type count <!--SR:!2034-01-15,2814,270!2031-10-07,2502,342-->
 - prefix order: alphabetical order ignoring prefixes for type count→::@::←_(end)_ <!--SR:!2034-03-24,2992,340!2027-02-10,664,302-->
 
 <!--/pytextgen-->
@@ -429,7 +429,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RX}@}
 > - prefix: {@{([prefix for halogen](#affixes%20for%20halogen))-, halo-}@}
 > - suffix: {@{([suffix for halogen](#affixes%20for%20halogen))}@}
-> - infix: {@{(locant)}@} <!--SR:!2026-11-16,1064,320!2033-10-31,3050,341!2030-07-23,2249,382!2028-03-22,1477,322!2026-04-24,903,305!2030-03-19,2152,387-->
+> - infix: {@{(locant)}@} <!--SR:!2026-11-16,1064,320!2033-10-31,3050,341!2030-07-23,2249,382!2028-03-22,1477,322!2036-10-14,3819,325!2030-03-19,2152,387-->
 
 <!-- markdownlint MD028 -->
 
@@ -519,7 +519,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RCONH<sub>2</sub>, RCONHR', RCONR'R''}@}
 > - prefix: {@{amido- (-(=O)NX<sub>2</sub>), carbamoyl- (-CONX<sub>2</sub>)}@}
 > - suffix: {@{-amide (-(=O)NX<sub>2</sub>), carboxamide- (-CONX<sub>2</sub>)}@}
-> - infix: {@{(locant) & _N_ (R', R'')}@} <!--SR:!2026-08-17,1073,365!2029-09-06,1991,385!2026-05-02,984,345!2027-01-22,374,265!2026-04-27,911,305!2027-08-26,1378,367-->
+> - infix: {@{(locant) & _N_ (R', R'')}@} <!--SR:!2026-08-17,1073,365!2029-09-06,1991,385!2039-02-07,4664,365!2027-01-22,374,265!2036-11-13,3849,325!2027-08-26,1378,367-->
 
 <!-- markdownlint MD028 -->
 
@@ -667,7 +667,7 @@ return await memorize_table(
 > | {@{[acetone](acetone.md)}@}                       | {@{propanone}@}        |
 > | {@{[chloroform](chloroform.md)}@}                 | {@{trichloromethane}@} |
 > | {@{[formaldehyde](formaldehyde.md)}@}             | {@{methanal}@}         |
-> | {@{[isopropyl alcohol](isopropyl%20alochol.md)}@} | {@{propan-2-ol}@}      | <!--SR:!2026-04-24,388,344!2033-09-23,2958,364!2030-03-29,1924,384!2027-11-15,1262,384!2027-05-02,1102,364!2028-01-10,1273,364!2031-07-01,2208,344!2027-08-06,1182,384!2026-10-12,956,364!2027-05-20,1116,364-->
+> | {@{[isopropyl alcohol](isopropyl%20alochol.md)}@} | {@{propan-2-ol}@}      | <!--SR:!2031-05-06,1831,364!2033-09-23,2958,364!2030-03-29,1924,384!2027-11-15,1262,384!2027-05-02,1102,364!2028-01-10,1273,364!2031-07-01,2208,344!2027-08-06,1182,384!2026-10-12,956,364!2027-05-20,1116,364-->
 
 <!--/pytextgen-->
 

@@ -79,18 +79,18 @@ for loop_variables in iterable:
   pass # required, otherwise error
 ```
 
-If {@{you want to stop a `for` loop early}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2031-12-27,2108,391!2032-03-27,2181,391!2026-04-12,434,371-->
+If {@{you want to stop a `for` loop early}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2031-12-27,2108,391!2032-03-27,2181,391!2032-05-21,2211,391-->
 
 ### while-iteration
 
-In Python, `while` can also perform iteration. A `while` statement consists of {@{a condition and a statement block}@}: <!--SR:!2026-04-17,438,371-->
+In Python, `while` can also perform iteration. A `while` statement consists of {@{a condition and a statement block}@}: <!--SR:!2032-06-05,2226,391-->
 
 ```Python
 while condition:
   statement_block
 ```
 
-The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2026-04-11,433,371!2028-08-14,862,442!2028-08-06,855,442!2028-08-07,856,442!2028-07-30,849,442-->
+The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2032-05-11,2201,391!2028-08-14,862,442!2028-08-06,855,442!2028-08-07,856,442!2028-07-30,849,442-->
 
 If there are {@{no statements to be executed in a `while`-iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2026-05-12,459,377!2026-05-06,454,377!2026-06-14,154,439-->
 
@@ -101,4 +101,4 @@ while condition:
 
 If {@{you want to stop a `while` loop early in the loop}@}, use {@{the `break` statement}@}. This will {@{stop the innermost `for` or `while` loop}@}. <!--SR:!2031-12-17,2100,391!2032-02-21,2153,391!2032-02-12,2145,391-->
 
-ISOM 2020 note: We have only {@{learnt `while True`}@}. ONLY USE {@{`while True` in your exercises, labs, and exams}@}. If you really need {@{a condition to stop the loop}@}, use {@{`break` under an `if` statement checking for said condition}@}. <!--SR:!2031-12-29,2109,391!2026-04-18,439,371!2032-01-25,2132,391!2026-04-13,5,415-->
+ISOM 2020 note: We have only {@{learnt `while True`}@}. ONLY USE {@{`while True` in your exercises, labs, and exams}@}. If you really need {@{a condition to stop the loop}@}, use {@{`break` under an `if` statement checking for said condition}@}. <!--SR:!2031-12-29,2109,391!2032-06-10,2231,391!2032-01-25,2132,391!2026-05-31,29,435-->

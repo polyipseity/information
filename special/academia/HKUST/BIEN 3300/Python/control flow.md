@@ -20,7 +20,7 @@ if condition:
   statement_block
 ```
 
-The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2026-04-24,149,310!2026-12-16,339,347!2026-12-21,344,347-->
+The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2028-01-22,634,330!2026-12-16,339,347!2026-12-21,344,347-->
 
 An `if...else` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!2026-08-21,245,330-->
 
@@ -46,7 +46,7 @@ else:
 
 {@{The semantics of `if...elif...else`}@} can be found by {@{considering the semantics of chaining `if...else`}@}: {@{The statement block after the first `true` condition}@} is {@{executed}@}. If there are {@{no `true` conditions}@}, {@{the statement block after `else` is executed}@} if {@{there is an `else`}@}. Otherwise, {@{nothing is executed}@}. Note that {@{the conditions up until the first `true` condition \(inclusive\)}@} are themselves {@{always executed in the appearance order}@}, ignoring {@{statement blocks along the way}@}. If {@{there are no `true` conditions}@}, {@{all conditions}@} are always {@{executed in the appearance order}@}, followed by {@{the `else` statement block if there is one}@}. <!--SR:!2026-10-01,263,330!2026-10-09,271,330!2026-08-31,253,330!2026-08-30,252,330!2026-10-08,270,330!2026-10-27,289,330!2026-10-15,277,330!2026-10-31,293,330!2026-08-31,253,330!2026-08-18,241,330!2026-10-29,291,330!2026-10-18,280,330!2026-10-23,285,330!2026-10-11,273,330!2026-10-20,282,330-->
 
-If there are {@{no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2026-10-28,290,330!2026-10-26,288,330!2026-08-10,235,330!2026-04-09,88,370-->
+If there are {@{no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2026-10-28,290,330!2026-10-26,288,330!2026-08-10,235,330!2027-07-09,443,390-->
 
 ```Python
 if condition:

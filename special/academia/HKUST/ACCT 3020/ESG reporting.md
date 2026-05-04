@@ -24,11 +24,11 @@ The course focuses on understanding what ESG is, why it matters for risk and val
 
 Flashcards for this section are as follows:
 
-- ESG: what the letters stand for ::@:: Environmental, social, and governance. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG: examples of environmental issues ::@:: Greenhouse gas emissions, energy consumption and efficiency, waste reduction and recycling, and climate-change strategies. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG: examples of social issues ::@:: Fair wages, employee benefits, occupational safety and health, training and development, diversity and inclusion, and community impact. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG: examples of governance issues ::@:: Board structure and oversight, internal control and risk management, anti–corruption and anti–bribery policies and procedures. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG in this course: main focus ::@:: Understand what ESG means, why it affects risk and valuation, and how it is reported and regulated in Hong Kong, rather than computing detailed emission factors. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- ESG: what the letters stand for ::@:: Environmental, social, and governance. <!--SR:!2026-05-09,14,290!2026-05-11,16,290-->
+- ESG: examples of environmental issues ::@:: Greenhouse gas emissions, energy consumption and efficiency, waste reduction and recycling, and climate-change strategies. <!--SR:!2026-05-10,15,290!2026-05-09,14,290-->
+- ESG: examples of social issues ::@:: Fair wages, employee benefits, occupational safety and health, training and development, diversity and inclusion, and community impact. <!--SR:!2026-05-10,15,290!2026-05-11,16,290-->
+- ESG: examples of governance issues ::@:: Board structure and oversight, internal control and risk management, anti–corruption and anti–bribery policies and procedures. <!--SR:!2026-05-11,16,290!2026-05-09,14,290-->
+- ESG in this course: main focus ::@:: Understand what ESG means, why it affects risk and valuation, and how it is reported and regulated in Hong Kong, rather than computing detailed emission factors. <!--SR:!2026-05-10,15,290!2026-05-09,14,290-->
 
 ## why ESG matters
 
@@ -40,10 +40,10 @@ Investors increasingly look at ESG scores or ratings when deciding which compani
 
 Flashcards for this section are as follows:
 
-- ESG: environmental reasons it matters ::@:: Climate change and extreme weather create physical risks for companies' assets and operations (e.g. typhoons, flooding, heatwaves). <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG: social reasons it matters ::@:: Demographic change (e.g. ageing workforce) and workplace safety issues affect labour supply, productivity, and potential legal liabilities. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG: governance reasons it matters ::@:: Weak governance and corruption/bribery scandals can lead to prosecution, fines, and long‑term reputational damage that hurts firm value. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG and investors ::@:: Many investors use ESG scores or ratings; poor ESG performance can increase a firm's cost of capital or lead to exclusion from certain portfolios. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- ESG: environmental reasons it matters ::@:: Climate change and extreme weather create physical risks for companies' assets and operations (e.g. typhoons, flooding, heatwaves). <!--SR:!2026-05-11,16,290!2026-05-10,15,290-->
+- ESG: social reasons it matters ::@:: Demographic change (e.g. ageing workforce) and workplace safety issues affect labour supply, productivity, and potential legal liabilities. <!--SR:!2026-05-09,14,290!2026-05-10,15,290-->
+- ESG: governance reasons it matters ::@:: Weak governance and corruption/bribery scandals can lead to prosecution, fines, and long‑term reputational damage that hurts firm value. <!--SR:!2026-05-09,14,290!2026-05-10,15,290-->
+- ESG and investors ::@:: Many investors use ESG scores or ratings; poor ESG performance can increase a firm's cost of capital or lead to exclusion from certain portfolios. <!--SR:!2026-05-11,16,290!2026-05-09,14,290-->
 
 ## types of ESG risk
 
@@ -58,10 +58,10 @@ The course highlights four broad categories of ESG‑related risk:
 
 Flashcards for this section are as follows:
 
-- ESG risk: reputation risk ::@:: Risk that repeated ESG failures (e.g. pollution, labour abuses, corruption) damage the firm's reputation, causing customers and investors to withdraw support. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG risk: regulatory/reporting risk ::@:: Risk of fines or enforcement actions if ESG disclosures are incomplete, misleading, or inconsistent with actual practices (greenwashing). <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG risk: physical risk ::@:: Risk that climate‑related events such as storms, flooding, or heatwaves physically damage assets or disrupt operations. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG risk: transition risk ::@:: Risk that, as regulation and markets move towards low‑carbon and sustainable models, certain assets or technologies lose value (e.g. become impaired or stranded). <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- ESG risk: reputation risk ::@:: Risk that repeated ESG failures (e.g. pollution, labour abuses, corruption) damage the firm's reputation, causing customers and investors to withdraw support. <!--SR:!2026-05-09,14,290!2026-05-10,15,290-->
+- ESG risk: regulatory/reporting risk ::@:: Risk of fines or enforcement actions if ESG disclosures are incomplete, misleading, or inconsistent with actual practices (greenwashing). <!--SR:!2026-05-11,16,290!2026-05-10,15,290-->
+- ESG risk: physical risk ::@:: Risk that climate‑related events such as storms, flooding, or heatwaves physically damage assets or disrupt operations. <!--SR:!2026-05-09,14,290!2026-05-09,14,290-->
+- ESG risk: transition risk ::@:: Risk that, as regulation and markets move towards low‑carbon and sustainable models, certain assets or technologies lose value (e.g. become impaired or stranded). <!--SR:!2026-05-09,14,290!2026-05-09,14,290-->
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ## ESG reporting in hong kong: framework
@@ -72,8 +72,8 @@ In Hong Kong, listed companies must follow the stock exchange's ESG reporting re
 
 Flashcards for this section are as follows:
 
-- Hong Kong ESG reporting framework: big-picture structure ::@:: Listed companies follow a stock-exchange ESG framework built around mandatory disclosures plus comply-or-explain disclosures. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- Hong Kong ESG reporting framework: why does the split matter? ::@:: It tells users which disclosures every issuer must provide and where an issuer has flexibility only if it explains the gap clearly. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- Hong Kong ESG reporting framework: big-picture structure ::@:: Listed companies follow a stock-exchange ESG framework built around mandatory disclosures plus comply-or-explain disclosures. <!--SR:!2026-05-10,15,308!2026-05-12,17,308-->
+- Hong Kong ESG reporting framework: why does the split matter? ::@:: It tells users which disclosures every issuer must provide and where an issuer has flexibility only if it explains the gap clearly. <!--SR:!2026-05-11,16,308!2026-05-11,16,308-->
 
 ### mandatory versus comply-or-explain
 
@@ -84,8 +84,8 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- mandatory ESG disclosure: what does it mean? ::@:: The issuer must provide the required item in its ESG reporting and cannot simply omit it. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- comply-or-explain ESG disclosure: what does it mean? ::@:: The issuer should comply, but if it does not, it must explain the non-compliance rather than staying silent. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- mandatory ESG disclosure: what does it mean? ::@:: The issuer must provide the required item in its ESG reporting and cannot simply omit it. <!--SR:!2026-05-11,16,308!2026-05-12,17,308-->
+- comply-or-explain ESG disclosure: what does it mean? ::@:: The issuer should comply, but if it does not, it must explain the non-compliance rather than staying silent. <!--SR:!2026-05-10,15,308!2026-05-11,16,308-->
 
 ### board statement and board oversight
 
@@ -99,11 +99,11 @@ A key mandatory element is a __board statement__ on ESG. This statement should:
 
 Flashcards for this section are as follows:
 
-- ESG board statement: what responsibility must the board acknowledge? ::@:: That the board itself is responsible for oversight of ESG issues. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- ESG board statement: what three things should it cover? ::@:: Board responsibility, the board's ESG approach and processes, and how the board reviewed ESG performance during the year. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- ESG reporting in Hong Kong: two requirement types ::@:: Mandatory disclosure (must disclose) and "comply or explain" disclosure (either comply or explain non‑compliance). <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG board statement: three key elements ::@:: (1) Board's responsibility for ESG oversight; (2) board's approach, strategy and processes for managing ESG; (3) how the board reviewed ESG performance during the year. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG: why "comply or explain" matters ::@:: Allows some flexibility, but weak or repeated explanations may signal poor ESG commitment to investors. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- ESG board statement: what responsibility must the board acknowledge? ::@:: That the board itself is responsible for oversight of ESG issues. <!--SR:!2026-05-12,17,308!2026-05-12,17,308-->
+- ESG board statement: what three things should it cover? ::@:: Board responsibility, the board's ESG approach and processes, and how the board reviewed ESG performance during the year. <!--SR:!2026-05-12,17,308!2026-05-11,16,308-->
+- ESG reporting in Hong Kong: two requirement types ::@:: Mandatory disclosure (must disclose) and "comply or explain" disclosure (either comply or explain non‑compliance). <!--SR:!2026-05-09,14,290!2026-05-10,15,290-->
+- ESG board statement: three key elements ::@:: (1) Board's responsibility for ESG oversight; (2) board's approach, strategy and processes for managing ESG; (3) how the board reviewed ESG performance during the year. <!--SR:!2026-05-10,15,290!2026-05-09,14,290-->
+- ESG: why "comply or explain" matters ::@:: Allows some flexibility, but weak or repeated explanations may signal poor ESG commitment to investors. <!--SR:!2026-05-09,14,290!2026-05-10,15,290-->
 
 ## reporting principles: materiality, KPIs, and consistency
 
@@ -117,10 +117,10 @@ ESG reporting in Hong Kong follows several reporting principles, especially:
 
 Flashcards for this section are as follows:
 
-- ESG reporting principle: materiality ::@:: Focus on ESG issues that are important both to the business and to stakeholders, typically identified using a materiality matrix. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- materiality matrix axes ::@:: One axis (typically the _x_-axis) measures impact on the business; the other (typically the _y_-axis) measures impact on stakeholders; high–high issues are prioritised for disclosure. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG reporting principle: quantitative KPIs ::@:: Disclosures should include key performance indicators (e.g. emissions, energy use, accident rates), not just qualitative claims. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG reporting principle: consistency ::@:: Use consistent KPIs and methods over time; if they change, explain the reasons and, where possible, provide comparable data. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- ESG reporting principle: materiality ::@:: Focus on ESG issues that are important both to the business and to stakeholders, typically identified using a materiality matrix. <!--SR:!2026-05-09,14,290!2026-05-11,16,290-->
+- materiality matrix axes ::@:: One axis (typically the _x_-axis) measures impact on the business; the other (typically the _y_-axis) measures impact on stakeholders; high–high issues are prioritised for disclosure. <!--SR:!2026-05-09,14,290!2026-05-10,15,290-->
+- ESG reporting principle: quantitative KPIs ::@:: Disclosures should include key performance indicators (e.g. emissions, energy use, accident rates), not just qualitative claims. <!--SR:!2026-05-09,14,290!2026-05-09,14,290-->
+- ESG reporting principle: consistency ::@:: Use consistent KPIs and methods over time; if they change, explain the reasons and, where possible, provide comparable data. <!--SR:!2026-05-09,14,290!2026-05-09,14,290-->
 
 ## key performance indicators by aspect
 
@@ -130,8 +130,8 @@ The course slides organise Hong Kong ESG KPIs into aspect groups rather than tre
 
 Flashcards for this section are as follows:
 
-- ESG KPI aspect groups: why use them? ::@:: They force ESG reporting to move from vague claims to topic-specific, measurable evidence tied to each aspect area. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- KPI aspect groups: what is the exam mindset? ::@:: Understand which category an ESG metric belongs to and why the framework expects quantitative support inside each category. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- ESG KPI aspect groups: why use them? ::@:: They force ESG reporting to move from vague claims to topic-specific, measurable evidence tied to each aspect area. <!--SR:!2026-05-12,17,308!2026-05-12,17,308-->
+- KPI aspect groups: what is the exam mindset? ::@:: Understand which category an ESG metric belongs to and why the framework expects quantitative support inside each category. <!--SR:!2026-05-11,16,308!2026-05-12,17,308-->
 
 ### environmental aspects
 
@@ -146,8 +146,8 @@ For the __environmental__ category, common aspect groups are:
 
 Flashcards for this section are as follows:
 
-- environmental ESG aspects in Hong Kong: what are the four headline groups? ::@:: A1 emissions, A2 use of resources, A3 environment and natural resources, and A4 climate change. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- A4 climate change: what belongs there? ::@:: Significant climate-related physical and transition risks together with the actions taken to address them. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- environmental ESG aspects in Hong Kong: what are the four headline groups? ::@:: A1 emissions, A2 use of resources, A3 environment and natural resources, and A4 climate change. <!--SR:!2026-05-11,16,308!2026-05-11,16,308-->
+- A4 climate change: what belongs there? ::@:: Significant climate-related physical and transition risks together with the actions taken to address them. <!--SR:!2026-05-12,17,308!2026-05-10,15,308-->
 
 ### social aspects
 
@@ -173,10 +173,10 @@ The exam logic is not to memorise every possible metric word for word, but to un
 
 Flashcards for this section are as follows:
 
-- social ESG aspects in Hong Kong: what are the main B-series groups? ::@:: B1 employment, B2 health and safety, B3 development and training, B4 labour standards, B5 supply chain management, B6 product responsibility, B7 anti-corruption, and B8 community investment. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- social KPI examples: what do B2, B3, and B7 typically quantify? ::@:: B2 tracks safety outcomes such as injuries or fatalities, B3 tracks training such as hours per employee, and B7 tracks concluded corruption cases. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- ESG KPI framework: why are aspect groups useful? ::@:: They force disclosure to move from vague claims to topic-specific, measurable evidence. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- B7 anti-corruption: example of a quantitative disclosure ::@:: The number of concluded legal cases regarding corrupt practices brought against the issuer or its employees. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- social ESG aspects in Hong Kong: what are the main B-series groups? ::@:: B1 employment, B2 health and safety, B3 development and training, B4 labour standards, B5 supply chain management, B6 product responsibility, B7 anti-corruption, and B8 community investment. <!--SR:!2026-05-12,17,308!2026-05-12,17,308-->
+- social KPI examples: what do B2, B3, and B7 typically quantify? ::@:: B2 tracks safety outcomes such as injuries or fatalities, B3 tracks training such as hours per employee, and B7 tracks concluded corruption cases. <!--SR:!2026-05-11,16,308!2026-05-10,15,308-->
+- ESG KPI framework: why are aspect groups useful? ::@:: They force disclosure to move from vague claims to topic-specific, measurable evidence. <!--SR:!2026-05-12,17,308!2026-05-12,17,308-->
+- B7 anti-corruption: example of a quantitative disclosure ::@:: The number of concluded legal cases regarding corrupt practices brought against the issuer or its employees. <!--SR:!2026-05-11,16,308!2026-05-12,17,308-->
 
 ## applying the materiality matrix
 
@@ -200,10 +200,10 @@ The important exam point is that materiality is __entity-specific__. Data privac
 
 Flashcards for this section are as follows:
 
-- materiality matrix: what two viewpoints are combined? ::@:: The issue's impact on the business and its importance to stakeholders. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- materiality matrix: which issues receive top disclosure priority? ::@:: Issues that rank high on both business impact and stakeholder concern. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- why is materiality entity-specific? ::@:: Because the same ESG topic can matter very differently across industries, business models, and stakeholder groups. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- logistics-company materiality example: which issues are likely to be high-high? ::@:: Fuel efficiency, greenhouse gas emissions, driver safety, and anti-corruption in procurement. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- materiality matrix: what two viewpoints are combined? ::@:: The issue's impact on the business and its importance to stakeholders. <!--SR:!2026-05-12,17,308!2026-05-10,15,308-->
+- materiality matrix: which issues receive top disclosure priority? ::@:: Issues that rank high on both business impact and stakeholder concern. <!--SR:!2026-05-11,16,308!2026-05-11,16,308-->
+- why is materiality entity-specific? ::@:: Because the same ESG topic can matter very differently across industries, business models, and stakeholder groups. <!--SR:!2026-05-12,17,308!2026-05-12,17,308-->
+- logistics-company materiality example: which issues are likely to be high-high? ::@:: Fuel efficiency, greenhouse gas emissions, driver safety, and anti-corruption in procurement. <!--SR:!2026-05-11,16,308!2026-05-10,15,308-->
 
 ## materiality and boundary
 
@@ -218,9 +218,9 @@ Clear disclosure of both material topics and reporting boundary helps users unde
 
 Flashcards for this section are as follows:
 
-- ESG: what is materiality assessment used for? ::@:: To identify which ESG topics are important enough to warrant detailed disclosure, based on impact on the business and stakeholders. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG: what is reporting boundary? ::@:: The set of operations, entities, or regions included in the ESG data (e.g. specific subsidiaries or countries). <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- ESG boundary: why disclosure is important ::@:: Without a clear boundary, readers might wrongly assume ESG numbers cover the whole group, making comparisons misleading. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- ESG: what is materiality assessment used for? ::@:: To identify which ESG topics are important enough to warrant detailed disclosure, based on impact on the business and stakeholders. <!--SR:!2026-05-10,15,290!2026-05-10,15,290-->
+- ESG: what is reporting boundary? ::@:: The set of operations, entities, or regions included in the ESG data (e.g. specific subsidiaries or countries). <!--SR:!2026-05-11,16,290!2026-05-10,15,290-->
+- ESG boundary: why disclosure is important ::@:: Without a clear boundary, readers might wrongly assume ESG numbers cover the whole group, making comparisons misleading. <!--SR:!2026-05-09,14,290!2026-05-09,14,290-->
 
 ## current developments: HKFRS S1 and HKFRS S2
 
@@ -247,7 +247,7 @@ For exam purposes, the important takeaway is that ESG disclosure in Hong Kong is
 
 Flashcards for this section are as follows:
 
-- HKFRS S1: focus ::@:: General requirements for disclosure of sustainability-related financial information. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- HKFRS S2: focus ::@:: Climate-related disclosures. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- what is the main reporting shift signalled by HKFRS S1 and S2? ::@:: Sustainability reporting is being integrated more closely with governance, strategy, risk management, and financial reporting rather than treated as a separate public-relations document. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
-- HKFRS S2: common disclosure themes ::@:: Governance, strategy, climate-related physical and transition risks, and climate metrics and targets. <!--SR:!2026-04-12,4,288!2026-04-12,4,288-->
+- HKFRS S1: focus ::@:: General requirements for disclosure of sustainability-related financial information. <!--SR:!2026-05-12,17,308!2026-05-10,15,308-->
+- HKFRS S2: focus ::@:: Climate-related disclosures. <!--SR:!2026-05-11,16,308!2026-05-11,16,308-->
+- what is the main reporting shift signalled by HKFRS S1 and S2? ::@:: Sustainability reporting is being integrated more closely with governance, strategy, risk management, and financial reporting rather than treated as a separate public-relations document. <!--SR:!2026-05-12,17,308!2026-05-12,17,308-->
+- HKFRS S2: common disclosure themes ::@:: Governance, strategy, climate-related physical and transition risks, and climate metrics and targets. <!--SR:!2026-05-12,17,308!2026-05-12,17,308-->

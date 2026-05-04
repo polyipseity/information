@@ -42,10 +42,10 @@ Product-specific segmentation divides the market by {@{product or service-specif
 
 ## benefits
 
-By segmenting the market, business {@{can clarify the requirements of their customers and tailor to them}@}. Strategy-wise, we can identify {@{the most profitable and least profitable customers, and the size of the market}@}. Marketers can {@{focus their effort}@}. <!--SR:!2026-04-20,520,310!2029-08-20,1453,325!2027-05-30,849,345-->
+By segmenting the market, business {@{can clarify the requirements of their customers and tailor to them}@}. Strategy-wise, we can identify {@{the most profitable and least profitable customers, and the size of the market}@}. Marketers can {@{focus their effort}@}. <!--SR:!2032-05-31,2230,330!2029-08-20,1453,325!2027-05-30,849,345-->
 
 ## strategy
 
-It is necessary for the company to decide {@{which segments to serve}@}. It can be {@{undifferentiated, ignoring segments; concentrated or focused, one segment}@}; {@{differentiated, two or more segments; or hypersegmented, thousands of or more segments}@}. <!--SR:!2032-06-30,2281,330!2029-02-16,1062,250!2026-04-12,4,327-->
+It is necessary for the company to decide {@{which segments to serve}@}. It can be {@{undifferentiated, ignoring segments; concentrated or focused, one segment}@}; {@{differentiated, two or more segments; or hypersegmented, thousands of or more segments}@}. <!--SR:!2032-06-30,2281,330!2029-02-16,1062,250!2026-05-12,19,347-->
 
 Undifferentiated marketing is {@{rare because customers are demanding nowadays}@}. Differentiated marketing is {@{used by most companies, but it incurs a greater cost than undifferentiated marketing}@}. Some companies use focused marketing, which {@{usually has high rate of return but also higher risk}@}. For startups, {@{focused marketing is more suitable as the cost is lower than differentiated marketing}@}. Hypersegmented marketing is {@{rather new and used by companies with data of individual customers. However, there are privacy concerns with this use of individual data}@}. <!--SR:!2028-06-08,1133,310!2029-06-24,1393,310!2028-02-02,1090,350!2026-05-13,537,310!2028-04-15,1044,290-->

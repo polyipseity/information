@@ -49,7 +49,7 @@ tags:
 > 2. The selling price is $60&nbsp;000 if the transmission works, otherwise $55&nbsp;000.
 >
 > - solution: {@{1: repair and sell; 2: sell}@}
-> - explanation: {@{Do not consider the already spent $10&nbsp;000 as it is a sunk cost. Only consider the marginal profit, which is the selling price, perhaps subtracted by the repair cost if you decide to repair the transmission. The decision for which the marginal profit is higher is what you should do.}@} <!--SR:!2026-04-24,427,310!2029-03-24,1274,350-->
+> - explanation: {@{Do not consider the already spent $10&nbsp;000 as it is a sunk cost. Only consider the marginal profit, which is the selling price, perhaps subtracted by the repair cost if you decide to repair the transmission. The decision for which the marginal profit is higher is what you should do.}@} <!--SR:!2031-05-04,1829,330!2029-03-24,1274,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -76,7 +76,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {@{3 (_theoretically_, and 1 from _empirical_ studies)}@}
-> - explanation: {@{Seat belt makes one less likely to be seriously injured in accidents, but the drivers may drive faster because they feel "safer", compensating for the risk reduction. We do not know if the resulting risk is lower or higher than the resulting one _theoretically_. But from our _empirical_ studies (studies of having seat belt laws vs. not having seat belt laws in the real world), compulsory use of seat belt does reduce the no. of causality.}@} <!--SR:!2029-03-19,1270,350!2026-04-20,411,310-->
+> - explanation: {@{Seat belt makes one less likely to be seriously injured in accidents, but the drivers may drive faster because they feel "safer", compensating for the risk reduction. We do not know if the resulting risk is lower or higher than the resulting one _theoretically_. But from our _empirical_ studies (studies of having seat belt laws vs. not having seat belt laws in the real world), compulsory use of seat belt does reduce the no. of causality.}@} <!--SR:!2029-03-19,1270,350!2031-02-26,1762,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -85,7 +85,7 @@ tags:
 > - Domestic (local) steel producers are threatened by foreign competition (imports). Let's impose a _tariff_ (fee) on importing steel. ::@:: The price of foreign steel may increase relative to domestic steel. Domestic steel producers may benefit from it. However, the average price of (domestic and imported) steel may rise, so downstream industries may have increased production cost and may pass them to consumers. <!--SR:!2028-05-11,947,330!2029-05-17,1316,350-->
 > - Rents are increasing. Let's freeze rents. (This is a form of rent control.) ::@:: In the short term, poor people may be less likely to be evicted for their inability to pay rent. However, landlords may reduce maintenance on rental units to adapt to decreased rents. They may, in the long term, also construct fewer rental units because they are less profitable. <!--SR:!2026-06-03,422,310!2029-09-14,1411,350-->
 > - Medical costs are high. The government decides to offset everyone's medical costs, especially for poor people. ::@:: People, especially the poor, may be able to benefit from more healthcare. However, medical cost may increase further due to increased demand. Taxes may go up to subsidize this increased spending, so people have less income after taxes. <!--SR:!2027-08-13,783,330!2026-11-10,567,310-->
-> - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::@:: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed (e.g. decrease in market share). Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above), but reversed, i.e. imposed on domestic producers instead.) <!--SR:!2027-10-24,841,330!2026-04-19,410,310-->
+> - Commercial fishing for tuna kills dolphins. Let's require domestic fisheries to use more expensive nets that lets dolphins escape. ::@:: It may protect the dolphins. However, the price of domestic tuna may increase relative to foreign tuna. This means domestic fisheries may be harmed (e.g. decrease in market share). Also, the average price of (domestic and imported) tuna may rise, so consumers may need to pay more. (The effects are similar to a _tariff_ (like above), but reversed, i.e. imposed on domestic producers instead.) <!--SR:!2027-10-24,841,330!2031-02-23,1759,330-->
 > - Drug addiction is a problem. Let's make it a non-problem by legalizing the use of drugs. ::@:: Drugs become more available. This lowers drug prices. People may get addicted to drugs more easily. However, it may decrease enforcement costs, regulate the drug market, and make rehabilitating drug addicts easier. <!--SR:!2028-07-02,1065,350!2028-06-27,1060,350-->
 > - Drug addiction is a problem. Let's enforce drug laws more strictly. ::@:: Drugs become less available. This increases drug prices. People may get addicted to drugs less easily. However, it may increase drug trafficking activity due to increased profits if succeeded, increasing enforcement costs. Drug addicts may also commit more crimes in order to get money for drugs. <!--SR:!2028-11-02,1162,350!2027-11-17,857,330-->
 
@@ -278,7 +278,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{3}@}
-> - explanation: {@{Tax burden depends on both the elasticities of the demand and supply curve. Since neither curves are very unlikely to be perfectly elastic in the real world, both sellers and consumers bear the tax burden. However, we cannot tell the distribution of tax burden unless we have more information.}@} <!--SR:!2026-05-19,446,381!2026-04-26,426,381-->
+> - explanation: {@{Tax burden depends on both the elasticities of the demand and supply curve. Since neither curves are very unlikely to be perfectly elastic in the real world, both sellers and consumers bear the tax burden. However, we cannot tell the distribution of tax burden unless we have more information.}@} <!--SR:!2026-05-19,446,381!2032-05-29,2220,401-->
 
 <!-- markdownlint MD028 -->
 
@@ -375,4 +375,4 @@ See [Hong Kong's waste problem: what is the new charging scheme and how can it c
 
 > Q4. What can the Hong Kong government do to ensure successful implementation of the waste charging scheme?
 >
-> - solution (for reference): {@{Introduce legislation against over-packaging and disposable utensils. Redesign public rubbish bins to discourage citizens from disposing their waste there to avoid the charge. Increase effort on education and enforcement. There are many more unmentioned here...}@} <!--SR:!2026-04-21,412,310-->
+> - solution (for reference): {@{Introduce legislation against over-packaging and disposable utensils. Redesign public rubbish bins to discourage citizens from disposing their waste there to avoid the charge. Increase effort on education and enforcement. There are many more unmentioned here...}@} <!--SR:!2031-02-28,1764,330-->

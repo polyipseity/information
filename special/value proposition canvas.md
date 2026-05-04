@@ -46,8 +46,8 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 - _(begin)_→::@::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2029-01-06,1196,309!2027-12-12,1021,349-->
 - idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→::@::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2028-01-27,994,309!2026-07-10,449,249-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→::@::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2028-08-15,992,269!2026-12-11,635,289-->
-- teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→::@::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2026-05-26,463,249!2026-04-14,456,269-->
-- value: overwhelmed by true value creation vs. understand patterns of value creation→::@::←_(end)_ <!--SR:!2027-07-12,831,329!2026-04-26,488,289-->
+- teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→::@::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2026-05-26,463,249!2031-01-09,1713,289-->
+- value: overwhelmed by true value creation vs. understand patterns of value creation→::@::←_(end)_ <!--SR:!2027-07-12,831,329!2031-09-11,1958,309-->
 
 <!--/pytextgen-->
 
@@ -73,7 +73,7 @@ Customer pains include {@{undesirable things, obstacles, and risks}@}. Make pain
 
 Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers}@}; {@{desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2029-09-08,1335,269!2027-02-02,794,349!2028-07-01,1206,350!2026-05-17,91,376-->
 
-Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order}@} can be {@{a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2027-02-15,804,349!2030-10-03,1861,385!2026-04-19,196,345!2028-09-27,1238,365!2026-10-04,678,344!2026-11-30,330,368-->
+Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order}@} can be {@{a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2027-02-15,804,349!2030-10-03,1861,385!2028-11-13,926,365!2028-09-27,1238,365!2026-10-04,678,344!2026-11-30,330,368-->
 
 There are several [common mistakes](#customer%20profile%20common%20mistakes) to be aware of. <!--SR:!2024-05-16,18,269-->
 
@@ -114,7 +114,7 @@ vagueness: vague jobs, pains, and gains
 - insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments <!--SR:!2026-05-17,348,189!2026-05-10,177,150-->
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2029-03-08,1297,309!2027-06-01,683,269-->
 - mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation <!--SR:!2027-08-23,710,245!2028-02-07,979,305-->
-- opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2026-04-30,468,269!2026-04-24,325,209-->
+- opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2031-02-22,1757,289!2028-12-22,965,229-->
 - reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2026-09-03,333,169!2028-06-12,808,229-->
 - vagueness: vague jobs, pains, and gains→::@::←_(end)_ <!--SR:!2027-04-27,774,329!2027-03-27,704,289-->
 
@@ -159,7 +159,7 @@ mix: mixing products and services with pain relievers and gain creators
 - _(begin)_→::@::←all: addressing all customer pains and gains <!--SR:!2027-09-11,778,269!2030-01-29,1669,369-->
 - all: addressing all customer pains and gains→::@::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2026-09-12,414,229!2026-11-29,544,249-->
 - irrelevance: listing all products and services without considering the customer segment→::@::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2026-08-29,478,229!2028-12-02,1125,289-->
-- irrelevance: offer irrelevant pain relievers and gain creators→::@::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2026-10-30,514,249!2026-04-26,465,269-->
+- irrelevance: offer irrelevant pain relievers and gain creators→::@::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2026-10-30,514,249!2031-02-12,1747,289-->
 - mix: mixing products and services with pain relievers and gain creators→::@::←_(end)_ <!--SR:!2029-04-26,1335,309!2026-11-19,338,169-->
 
 <!--/pytextgen-->
@@ -260,7 +260,7 @@ conclusion: make progress
 - hypothesis: extract hypotheses→::@::←hypothesis: prioritize hypotheses <!--SR:!2030-05-24,1756,369!2026-08-03,629,329-->
 - hypothesis: prioritize hypotheses→::@::←test: design tests <!--SR:!2026-07-28,572,309!2026-08-01,542,270-->
 - test: design tests→::@::←test: prioritize tests <!--SR:!2028-10-26,1201,329!2031-03-13,1931,330-->
-- test: prioritize tests→::@::←test: run tests <!--SR:!2026-12-27,705,329!2026-04-24,515,310-->
+- test: prioritize tests→::@::←test: run tests <!--SR:!2026-12-27,705,329!2032-05-19,2209,330-->
 - test: run tests→::@::←conclusion: capture findings <!--SR:!2028-09-16,1129,289!2030-08-24,1728,329-->
 - conclusion: capture findings→::@::←conclusion: make progress <!--SR:!2027-01-14,704,329!2030-08-10,1728,329-->
 - conclusion: make progress→::@::←_(end)_ <!--SR:!2027-10-31,989,349!2028-09-10,1135,290-->

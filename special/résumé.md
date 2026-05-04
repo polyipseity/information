@@ -25,7 +25,7 @@ To optimize the résumé for successful application and {@{[applicant tracking s
 - formatting ::@:: consistent, minimal <!--SR:!2032-08-15,2402,330!2029-12-15,1682,393-->
 - length ::@:: 1 single-sided page <!--SR:!2028-01-14,1205,350!2029-10-07,1629,393-->
 - line spacing ::@:: single <!--SR:!2028-03-20,1250,350!2030-09-09,1901,393-->
-- order ::@:: reverse chronological <!--SR:!2026-04-19,685,330!2030-04-19,1779,393-->
+- order ::@:: reverse chronological <!--SR:!2032-07-14,2263,330!2030-04-19,1779,393-->
 
 ## content
 

@@ -15,7 +15,7 @@ __Calcium hydroxide__, also known as {@{slaked lime}@} in its solid state and {@
 
 ## preparation
 
-Treating {@{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(chemistry).md) [precipitates](precipitate.md) out white calcium hydroxide}@}. {@{Weak bases result in no observation}@} because there are {@{insufficient [hydroxide ions](hydroxide.md) to saturate the [solution](solution%20(chemistry).md)}@}: <!--SR:!2034-12-03,3235,340!2031-04-02,1934,280!2026-04-10,76,332-->
+Treating {@{calcium [salts](salt%20(chemistry).md) with a strong [base](base%20(chemistry).md) [precipitates](precipitate.md) out white calcium hydroxide}@}. {@{Weak bases result in no observation}@} because there are {@{insufficient [hydroxide ions](hydroxide.md) to saturate the [solution](solution%20(chemistry).md)}@}: <!--SR:!2034-12-03,3235,340!2031-04-02,1934,280!2027-04-11,349,352-->
 
 > treating with [bases](base%20(chemistry).md)
 >

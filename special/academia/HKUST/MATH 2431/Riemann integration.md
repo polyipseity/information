@@ -18,7 +18,7 @@ In this course the point is not to rebuild real analysis from scratch, but to ke
 
 Flashcards for this section are as follows:
 
-- overview ::@:: In this course, Riemann integration is the one-dimensional integration framework used to justify probability densities, interval probabilities, and improper integrals over tails or near singular endpoints. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- overview ::@:: In this course, Riemann integration is the one-dimensional integration framework used to justify probability densities, interval probabilities, and improper integrals over tails or near singular endpoints. <!--SR:!2026-05-06,14,290!2026-05-10,15,290-->
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ## Riemann sums and integrability
@@ -35,12 +35,12 @@ This language is exactly what lies behind the density viewpoint in probability. 
 
 Flashcards for this section are as follows:
 
-- partition of $[a,b]$ ::@:: A partition of $[a,b]$ is a finite ordered tuple $Z_n=(x_0,\ldots,x_n)$ with $a=x_0<x_1<\cdots<x_n=b$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- norm of a partition $Z_n$ ::@:: The norm of a partition $Z_n$ is $|Z_n|=\max_{1\le j\le n}(x_j-x_{j-1})$; it measures the largest subinterval length. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- lower Riemann sum for $f$ on intervals $I_j=[x_{j-1},x_j]$ ::@:: The lower Riemann sum is $S_-(Z_n,f)=\sum_{j=1}^n (x_j-x_{j-1})\inf_{z\in I_j}f(z)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- upper Riemann sum for $f$ on intervals $I_j=[x_{j-1},x_j]$ ::@:: The upper Riemann sum is $S_+(Z_n,f)=\sum_{j=1}^n (x_j-x_{j-1})\sup_{z\in I_j}f(z)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- Riemann-integrability on $[a,b]$ ::@:: A bounded function on $[a,b]$ is Riemann-integrable when the supremum of all lower sums equals the infimum of all upper sums; the common value is $\int_a^b f(x)\,dx$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- why Riemann sums justify interval probabilities of width $\Delta x$ ::@:: The density heuristic "probability on a small interval is approximately density times width" becomes rigorous by passing from fine interval sums to the Riemann integral. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- partition of $[a,b]$ ::@:: A partition of $[a,b]$ is a finite ordered tuple $Z_n=(x_0,\ldots,x_n)$ with $a=x_0<x_1<\cdots<x_n=b$. <!--SR:!2026-05-06,14,290!2026-05-11,16,290-->
+- norm of a partition $Z_n$ ::@:: The norm of a partition $Z_n$ is $|Z_n|=\max_{1\le j\le n}(x_j-x_{j-1})$; it measures the largest subinterval length. <!--SR:!2026-05-07,14,290!2026-05-08,15,290-->
+- lower Riemann sum for $f$ on intervals $I_j=[x_{j-1},x_j]$ ::@:: The lower Riemann sum is $S_-(Z_n,f)=\sum_{j=1}^n (x_j-x_{j-1})\inf_{z\in I_j}f(z)$. <!--SR:!2026-05-10,15,290!2026-05-10,15,290-->
+- upper Riemann sum for $f$ on intervals $I_j=[x_{j-1},x_j]$ ::@:: The upper Riemann sum is $S_+(Z_n,f)=\sum_{j=1}^n (x_j-x_{j-1})\sup_{z\in I_j}f(z)$. <!--SR:!2026-05-06,14,290!2026-05-07,15,290-->
+- Riemann-integrability on $[a,b]$ ::@:: A bounded function on $[a,b]$ is Riemann-integrable when the supremum of all lower sums equals the infimum of all upper sums; the common value is $\int_a^b f(x)\,dx$. <!--SR:!2026-05-11,16,290!2026-05-10,15,290-->
+- why Riemann sums justify interval probabilities of width $\Delta x$ ::@:: The density heuristic "probability on a small interval is approximately density times width" becomes rigorous by passing from fine interval sums to the Riemann integral. <!--SR:!2026-05-07,14,290!2026-05-10,15,290-->
 
 ## continuous functions are Riemann-integrable
 
@@ -58,12 +58,12 @@ For MATH 2431 this is the bridge that justifies routine integral manipulations f
 
 Flashcards for this section are as follows:
 
-- continuous functions on a compact interval $[a,b]$ ::@:: Every continuous function on a compact interval $[a,b]$ is Riemann-integrable. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- why continuity on $[a,b]$ implies boundedness ::@:: A continuous function on the compact interval $[a,b]$ is bounded, so its lower and upper Riemann sums are well defined. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- oscillation on a subinterval $I_j=[x_{j-1},x_j]$ ::@:: In the proof, one measures variation on each subinterval by $\omega_j(f)=\sup_{x\in I_j}f(x)-\inf_{x\in I_j}f(x)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- proof idea for continuous functions on equal-mesh partitions ::@:: On a compact interval, continuity implies uniform continuity, so once the mesh is small, every oscillation $\omega_j(f)$ is small; since $S_+(Z_n,f)-S_-(Z_n,f)=\sum_j (x_j-x_{j-1})\omega_j(f)$, the gap between upper and lower sums becomes arbitrarily small. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- why uniform continuity is the key extra input ::@:: Ordinary continuity controls $f$ near one point at a time, but uniform continuity gives one single mesh size that works on every subinterval at once, which is exactly what the Riemann-sum estimate needs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- why $S_+(Z_n,f)-S_-(Z_n,f)\to0$ forces equal integrals ::@:: If the gap $S_+(Z_n,f)-S_-(Z_n,f)$ can be made arbitrarily small, then the upper integral minus the lower integral is squeezed between $0$ and that same small quantity, so the two integrals must be equal. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- continuous functions on a compact interval $[a,b]$ ::@:: Every continuous function on a compact interval $[a,b]$ is Riemann-integrable. <!--SR:!2026-05-07,15,290!2026-05-10,15,290-->
+- why continuity on $[a,b]$ implies boundedness ::@:: A continuous function on the compact interval $[a,b]$ is bounded, so its lower and upper Riemann sums are well defined. <!--SR:!2026-05-07,14,290!2026-05-08,15,290-->
+- oscillation on a subinterval $I_j=[x_{j-1},x_j]$ ::@:: In the proof, one measures variation on each subinterval by $\omega_j(f)=\sup_{x\in I_j}f(x)-\inf_{x\in I_j}f(x)$. <!--SR:!2026-05-09,14,290!2026-05-08,16,290-->
+- proof idea for continuous functions on equal-mesh partitions ::@:: On a compact interval, continuity implies uniform continuity, so once the mesh is small, every oscillation $\omega_j(f)$ is small; since $S_+(Z_n,f)-S_-(Z_n,f)=\sum_j (x_j-x_{j-1})\omega_j(f)$, the gap between upper and lower sums becomes arbitrarily small. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-08,16,290!2026-05-09,16,290-->
+- why uniform continuity is the key extra input ::@:: Ordinary continuity controls $f$ near one point at a time, but uniform continuity gives one single mesh size that works on every subinterval at once, which is exactly what the Riemann-sum estimate needs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-09,14,290!2026-05-10,15,290-->
+- why $S_+(Z_n,f)-S_-(Z_n,f)\to0$ forces equal integrals ::@:: If the gap $S_+(Z_n,f)-S_-(Z_n,f)$ can be made arbitrarily small, then the upper integral minus the lower integral is squeezed between $0$ and that same small quantity, so the two integrals must be equal. <!--SR:!2026-05-07,15,290!2026-05-10,15,290-->
 
 ## fundamental theorem of calculus
 
@@ -83,15 +83,15 @@ In probability this theorem explains why one recovers a density from a different
 
 Flashcards for this section are as follows:
 
-- fundamental theorem of calculus / if $F(x)=\int_a^x f(t)\,dt$ with continuous $f$ ::@:: Then $F$ is uniformly continuous on $[a,b]$, differentiable on $(a,b)$, and satisfies $F'(x)=f(x)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- fundamental theorem of calculus / why $F$ is uniformly continuous ::@:: If $|f(t)|\le M$ on $[a,b]$, then $|F(x)-F(y)|=\left|\int_x^y f(t)\,dt\right|\le M|x-y|$, so $F$ is Lipschitz and therefore uniformly continuous. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- fundamental theorem of calculus / can one replace "uniformly continuous" by "Lipschitz" in part I, given $|F(x)-F(y)|\le \sup_{t\in[a,b]}|f(t)|\,|x-y|$? ::@:: In this setting yes, because that estimate shows $F$ is Lipschitz. But the standard theorem statement uses the weaker conclusion "uniformly continuous", which is the more natural minimal claim; saying "Lipschitz" as the headline would be correct but unnecessarily strong. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- fundamental theorem of calculus / correct Riemann-theory hypothesis for part II: if $g$ is differentiable on $[a,b]$ and $g'$ is Riemann-integrable on $[a,b]$ ::@:: Then $\int_a^b g'(x)\,dx=g(b)-g(a)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- fundamental theorem of calculus / why differentiability of $g$ alone is not enough ::@:: A differentiable function can have a derivative that is not Riemann-integrable, for example because the derivative is unbounded or too badly behaved; so FTC II in the Riemann setting needs the extra hypothesis that $g'$ itself is Riemann-integrable. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- fundamental theorem of calculus / warning example with $g(x)=x^2\sin(1/x^2)$ for $x\neq0$, $g(0)=0$ ::@:: This $g$ is differentiable on $[-1,1]$, but $g'(x)=2x\sin(1/x^2)-2x^{-1}\cos(1/x^2)$ for $x\neq0$, which is unbounded near $0$; hence $g'$ is not Riemann-integrable. So differentiability of $g$ does not by itself imply the hypothesis needed for FTC II. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- fundamental theorem of calculus / intuition for $F(x)=\int_a^x f(t)\,dt$ ::@:: The function $F$ measures accumulated area from $a$ to $x$, so its derivative should be the local rate of accumulation; that rate is exactly the current height $f(x)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- fundamental theorem of calculus / intuition for $\int_a^b g'(x)\,dx=g(b)-g(a)$ once $g'$ is integrable ::@:: The derivative $g'$ is instantaneous change, so integrating it over $[a,b]$ adds up all infinitesimal changes and recovers the total net change $g(b)-g(a)$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- why $F(x)=\int_{-\infty}^x f(t)\,dt$ leads to $F'(x)=f(x)$ ::@:: If a cumulative distribution function has the form $F(x)=\int_{-\infty}^x f(t)\,dt$ with a continuous density $f$, then the fundamental theorem gives $F'(x)=f(x)$ at points of continuity of the density. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- fundamental theorem of calculus / if $F(x)=\int_a^x f(t)\,dt$ with continuous $f$ ::@:: Then $F$ is uniformly continuous on $[a,b]$, differentiable on $(a,b)$, and satisfies $F'(x)=f(x)$. <!--SR:!2026-05-08,15,290!2026-05-09,14,290-->
+- fundamental theorem of calculus / why $F$ is uniformly continuous ::@:: If $|f(t)|\le M$ on $[a,b]$, then $|F(x)-F(y)|=\left|\int_x^y f(t)\,dt\right|\le M|x-y|$, so $F$ is Lipschitz and therefore uniformly continuous. <!--SR:!2026-05-06,14,290!2026-05-08,15,290-->
+- fundamental theorem of calculus / can one replace "uniformly continuous" by "Lipschitz" in part I, given $|F(x)-F(y)|\le \sup_{t\in[a,b]}|f(t)|\,|x-y|$? ::@:: In this setting yes, because that estimate shows $F$ is Lipschitz. But the standard theorem statement uses the weaker conclusion "uniformly continuous", which is the more natural minimal claim; saying "Lipschitz" as the headline would be correct but unnecessarily strong. <!--SR:!2026-05-08,16,290!2026-05-09,14,290-->
+- fundamental theorem of calculus / correct Riemann-theory hypothesis for part II: if $g$ is differentiable on $[a,b]$ and $g'$ is Riemann-integrable on $[a,b]$ ::@:: Then $\int_a^b g'(x)\,dx=g(b)-g(a)$. <!--SR:!2026-05-09,16,290!2026-05-06,14,290-->
+- fundamental theorem of calculus / why differentiability of $g$ alone is not enough ::@:: A differentiable function can have a derivative that is not Riemann-integrable, for example because the derivative is unbounded or too badly behaved; so FTC II in the Riemann setting needs the extra hypothesis that $g'$ itself is Riemann-integrable. <!--SR:!2026-05-09,14,290!2026-05-08,15,290-->
+- fundamental theorem of calculus / warning example with $g(x)=x^2\sin(1/x^2)$ for $x\neq0$, $g(0)=0$ ::@:: This $g$ is differentiable on $[-1,1]$, but $g'(x)=2x\sin(1/x^2)-2x^{-1}\cos(1/x^2)$ for $x\neq0$, which is unbounded near $0$; hence $g'$ is not Riemann-integrable. So differentiability of $g$ does not by itself imply the hypothesis needed for FTC II. <!--SR:!2026-05-07,15,290!2026-05-07,14,290-->
+- fundamental theorem of calculus / intuition for $F(x)=\int_a^x f(t)\,dt$ ::@:: The function $F$ measures accumulated area from $a$ to $x$, so its derivative should be the local rate of accumulation; that rate is exactly the current height $f(x)$. <!--SR:!2026-05-07,14,290!2026-05-11,16,290-->
+- fundamental theorem of calculus / intuition for $\int_a^b g'(x)\,dx=g(b)-g(a)$ once $g'$ is integrable ::@:: The derivative $g'$ is instantaneous change, so integrating it over $[a,b]$ adds up all infinitesimal changes and recovers the total net change $g(b)-g(a)$. <!--SR:!2026-05-08,16,290!2026-05-07,15,290-->
+- why $F(x)=\int_{-\infty}^x f(t)\,dt$ leads to $F'(x)=f(x)$ ::@:: If a cumulative distribution function has the form $F(x)=\int_{-\infty}^x f(t)\,dt$ with a continuous density $f$, then the fundamental theorem gives $F'(x)=f(x)$ at points of continuity of the density. <!--SR:!2026-05-07,14,290!2026-05-07,14,290-->
 
 ## algebraic properties of the Riemann integral
 
@@ -109,13 +109,13 @@ These facts are what make density calculations behave like ordinary algebra. Pos
 
 Flashcards for this section are as follows:
 
-- positivity of $\int_a^b f(x)\,dx$ when $f\ge0$ ::@:: If $f\in R([a,b])$ and $f\ge0$, then $\int_a^b f(x)\,dx\ge0$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- linear subspace property of $R([a,b])$ ::@:: If $f,g\in R([a,b])$ and $\alpha,\beta\in\mathbb{R}$, then $\alpha f+\beta g\in R([a,b])$; in particular, $R([a,b])$ is a linear subspace of $B([a,b])$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- linearity of $\int_a^b (\alpha f+\beta g)$ once $\alpha f+\beta g\in R([a,b])$ ::@:: One has $\int_a^b (\alpha f(x)+\beta g(x))\,dx=\alpha\int_a^b f(x)\,dx+\beta\int_a^b g(x)\,dx$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- closure of $R([a,b])$ under $|f|$ and $fg$ ::@:: If $f,g\in R([a,b])$, then $|f|$ and $fg$ are also Riemann-integrable. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- absolute-value estimate and triangle inequality for $\int_a^b f(x)\,dx$ ::@:: For $f\in R([a,b])$, one has $\left|\int_a^b f(x)\,dx\right|\le\int_a^b |f(x)|\,dx$; this is the integral form of the triangle inequality because cancellation in the signed integral can only reduce total size. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- quotient counterexample with $f(x)\equiv1$ and $g(x)=x$ for $x\neq0$, $g(0)=1$ ::@:: Both $f$ and $g$ are Riemann-integrable and $g$ never vanishes, but $f/g$ equals $1/x$ for $x\neq0$ and is unbounded near $0$, so it is not Riemann-integrable on $[-1,1]$. Thus Riemann-integrable functions are not closed under arbitrary division. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- intuition for the algebraic properties ::@:: Positivity prevents negative probability mass, linearity says integrals respect superposition, and the absolute-value estimate says cancellations can only make a signed integral smaller in magnitude than the total unsigned mass. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- positivity of $\int_a^b f(x)\,dx$ when $f\ge0$ ::@:: If $f\in R([a,b])$ and $f\ge0$, then $\int_a^b f(x)\,dx\ge0$. <!--SR:!2026-05-07,14,290!2026-05-11,16,290-->
+- linear subspace property of $R([a,b])$ ::@:: If $f,g\in R([a,b])$ and $\alpha,\beta\in\mathbb{R}$, then $\alpha f+\beta g\in R([a,b])$; in particular, $R([a,b])$ is a linear subspace of $B([a,b])$. <!--SR:!2026-05-06,14,290!2026-05-09,16,290-->
+- linearity of $\int_a^b (\alpha f+\beta g)$ once $\alpha f+\beta g\in R([a,b])$ ::@:: One has $\int_a^b (\alpha f(x)+\beta g(x))\,dx=\alpha\int_a^b f(x)\,dx+\beta\int_a^b g(x)\,dx$. <!--SR:!2026-05-07,14,290!2026-05-08,16,290-->
+- closure of $R([a,b])$ under $|f|$ and $fg$ ::@:: If $f,g\in R([a,b])$, then $|f|$ and $fg$ are also Riemann-integrable. <!--SR:!2026-05-07,15,290!2026-05-09,16,290-->
+- absolute-value estimate and triangle inequality for $\int_a^b f(x)\,dx$ ::@:: For $f\in R([a,b])$, one has $\left|\int_a^b f(x)\,dx\right|\le\int_a^b |f(x)|\,dx$; this is the integral form of the triangle inequality because cancellation in the signed integral can only reduce total size. <!--SR:!2026-05-09,14,290!2026-05-07,14,290-->
+- quotient counterexample with $f(x)\equiv1$ and $g(x)=x$ for $x\neq0$, $g(0)=1$ ::@:: Both $f$ and $g$ are Riemann-integrable and $g$ never vanishes, but $f/g$ equals $1/x$ for $x\neq0$ and is unbounded near $0$, so it is not Riemann-integrable on $[-1,1]$. Thus Riemann-integrable functions are not closed under arbitrary division. <!--SR:!2026-05-09,16,290!2026-05-09,14,290-->
+- intuition for the algebraic properties ::@:: Positivity prevents negative probability mass, linearity says integrals respect superposition, and the absolute-value estimate says cancellations can only make a signed integral smaller in magnitude than the total unsigned mass. <!--SR:!2026-05-09,16,290!2026-05-10,15,290-->
 
 ## improper Riemann integrals
 
@@ -133,11 +133,11 @@ These definitions are exactly what justify statements such as $\int_{-\infty}^{\
 
 Flashcards for this section are as follows:
 
-- improper integral of the first kind on $[a,\infty)$ ::@:: If $f$ is Riemann-integrable on every $[a,c]$, then $\int_a^{\infty} f(x)\,dx$ is defined as $\lim_{c\to\infty}\int_a^c f(x)\,dx$ when this finite limit exists. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- improper integral of the first kind on $\mathbb{R}$ ::@:: One defines $\int_{-\infty}^{\infty} f(x)\,dx$ by a two-sided limiting process because the difficulty is the unbounded domain, not a singularity inside a bounded interval. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- improper integral of the second kind for $\int_a^b f(x)\,dx$ near endpoint $a$ ::@:: If $f$ is Riemann-integrable away from an endpoint singularity at $a$, then $\int_a^b f(x)\,dx$ is defined by $\lim_{\varepsilon\downarrow0}\int_{a+\varepsilon}^b f(x)\,dx$ when the finite limit exists. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- first kind versus second kind ::@:: First kind means the trouble comes from an infinite interval, while second kind means the interval is bounded but the integrand may blow up near an endpoint; in this course the distinction is mainly bookkeeping because both are handled by truncation and a finite-limit test. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- why improper integrals normalize densities on unbounded supports or near singularities ::@:: Unbounded supports and endpoint singularities in densities require improper integrals; exponential and Gaussian normalization are standard examples. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- improper integral of the first kind on $[a,\infty)$ ::@:: If $f$ is Riemann-integrable on every $[a,c]$, then $\int_a^{\infty} f(x)\,dx$ is defined as $\lim_{c\to\infty}\int_a^c f(x)\,dx$ when this finite limit exists. <!--SR:!2026-05-06,14,290!2026-05-06,14,290-->
+- improper integral of the first kind on $\mathbb{R}$ ::@:: One defines $\int_{-\infty}^{\infty} f(x)\,dx$ by a two-sided limiting process because the difficulty is the unbounded domain, not a singularity inside a bounded interval. <!--SR:!2026-05-09,14,290!2026-05-09,14,290-->
+- improper integral of the second kind for $\int_a^b f(x)\,dx$ near endpoint $a$ ::@:: If $f$ is Riemann-integrable away from an endpoint singularity at $a$, then $\int_a^b f(x)\,dx$ is defined by $\lim_{\varepsilon\downarrow0}\int_{a+\varepsilon}^b f(x)\,dx$ when the finite limit exists. <!--SR:!2026-05-07,14,290!2026-05-07,14,290-->
+- first kind versus second kind ::@:: First kind means the trouble comes from an infinite interval, while second kind means the interval is bounded but the integrand may blow up near an endpoint; in this course the distinction is mainly bookkeeping because both are handled by truncation and a finite-limit test. <!--SR:!2026-05-08,15,290!2026-05-08,15,290-->
+- why improper integrals normalize densities on unbounded supports or near singularities ::@:: Unbounded supports and endpoint singularities in densities require improper integrals; exponential and Gaussian normalization are standard examples. <!--SR:!2026-05-07,15,290!2026-05-08,15,290-->
 
 ## shrinking intervals near a point
 
@@ -155,8 +155,8 @@ This is the rigorous reason that even an integrable singularity does not create 
 
 Flashcards for this section are as follows:
 
-- shrinking interval integral $\int_a^{a+\delta} f(x)\,dx$ ::@:: If $f\colon\mathbb{R}\to[0,\infty)$ is piecewise continuous and improperly Riemann-integrable, then $\lim_{\delta\downarrow0}\int_a^{a+\delta} f(x)\,dx=0$ for every $a\in\mathbb{R}$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- proof when $f$ is continuous at $a$ / estimate ::@:: If $|f(x)-f(a)|<1$ near $a$, then $0\le\int_a^{a+\delta} f(x)\,dx\le\int_a^{a+\delta}|f(a)|\,dx+\int_a^{a+\delta}|f(x)-f(a)|\,dx<(|f(a)|+1)\delta$, so the integral tends to $0$ as $\delta\downarrow0$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- proof when $f$ is not continuous at $a$ / Cauchy step ::@:: If the improper integral $\int_a^b f(x)\,dx$ exists, then the truncated integrals $\int_{a+1/n}^b f(x)\,dx$ form a Cauchy sequence, so for every $\eta>0$ there is $N$ with $\int_{a+1/n}^{a+1/N} f(x)\,dx<\eta$ for all $n\ge N$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- proof when $f$ is not continuous at $a$ / squeezing step ::@:: After fixing $0<\delta<1/N$ and choosing $n$ with $1/n<\delta$, nonnegativity gives $0\le\int_{a+1/n}^{a+\delta} f(x)\,dx\le\int_{a+1/n}^{a+1/N} f(x)\,dx<\eta$. Letting $n\to\infty$ gives $0\le\int_a^{a+\delta} f(x)\,dx\le\eta$; the rightmost inequality becomes non-strict exactly here, because strict inequalities need not survive limits, while non-strict ones do. So the limit is $0$. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
-- why integrability still gives point probability $0$ ::@:: Even if a density blows up near a point, integrability forces the probability of a shrinking interval around that point to go to $0$, so a single point cannot carry positive mass in a continuous density model. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- shrinking interval integral $\int_a^{a+\delta} f(x)\,dx$ ::@:: If $f\colon\mathbb{R}\to[0,\infty)$ is piecewise continuous and improperly Riemann-integrable, then $\lim_{\delta\downarrow0}\int_a^{a+\delta} f(x)\,dx=0$ for every $a\in\mathbb{R}$. <!--SR:!2026-05-11,16,290!2026-05-10,15,290-->
+- proof when $f$ is continuous at $a$ / estimate ::@:: If $|f(x)-f(a)|<1$ near $a$, then $0\le\int_a^{a+\delta} f(x)\,dx\le\int_a^{a+\delta}|f(a)|\,dx+\int_a^{a+\delta}|f(x)-f(a)|\,dx<(|f(a)|+1)\delta$, so the integral tends to $0$ as $\delta\downarrow0$. <!--SR:!2026-05-11,16,290!2026-05-08,15,290-->
+- proof when $f$ is not continuous at $a$ / Cauchy step ::@:: If the improper integral $\int_a^b f(x)\,dx$ exists, then the truncated integrals $\int_{a+1/n}^b f(x)\,dx$ form a Cauchy sequence, so for every $\eta>0$ there is $N$ with $\int_{a+1/n}^{a+1/N} f(x)\,dx<\eta$ for all $n\ge N$. <!--SR:!2026-05-08,16,290!2026-05-09,14,290-->
+- proof when $f$ is not continuous at $a$ / squeezing step ::@:: After fixing $0<\delta<1/N$ and choosing $n$ with $1/n<\delta$, nonnegativity gives $0\le\int_{a+1/n}^{a+\delta} f(x)\,dx\le\int_{a+1/n}^{a+1/N} f(x)\,dx<\eta$. Letting $n\to\infty$ gives $0\le\int_a^{a+\delta} f(x)\,dx\le\eta$; the rightmost inequality becomes non-strict exactly here, because strict inequalities need not survive limits, while non-strict ones do. So the limit is $0$. <!--SR:!2026-05-08,16,290!2026-05-08,15,290-->
+- why integrability still gives point probability $0$ ::@:: Even if a density blows up near a point, integrability forces the probability of a shrinking interval around that point to go to $0$, so a single point cannot carry positive mass in a continuous density model. <!--SR:!2026-05-11,16,290!2026-05-11,16,290-->

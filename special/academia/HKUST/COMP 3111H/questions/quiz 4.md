@@ -29,5 +29,5 @@ tags:
 1. software development complexity sources ::@:: application domain \(e.g. nature, vocabulary, etc.\), organization, size, etc. <!--SR:!2026-08-04,230,330!2026-10-01,270,330-->
 2. software / types / uses / custom ::@:: copies in use: low <br/> development effort: high <br/> source of user requirements: client needs <!--SR:!2026-10-16,285,330!2026-08-27,250,330-->
 3. software development life cycle / milestone ::@:: It is a management _decision point_, where the management can make major decisions. <!--SR:!2026-09-26,265,330!2026-10-17,286,330-->
-4. project management / steps ::@:: scope → risks → schedule \(e.g. deliverables\) → implement <!--SR:!2026-08-12,237,330!2026-04-28,152,310-->
+4. project management / steps ::@:: scope → risks → schedule \(e.g. deliverables\) → implement <!--SR:!2026-08-12,237,330!2028-02-16,655,330-->
 5. project management / 4Ps ::@:: A _project_ involves _people_ \(input\) using _processes_ \(input\) to produce _products_ \(output\) according to requirements from the application domain \(input\). <!--SR:!2026-10-22,291,330!2026-09-16,255,330-->

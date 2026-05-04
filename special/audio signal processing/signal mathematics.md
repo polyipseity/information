@@ -28,7 +28,7 @@ tags:
 > - {@{$k$}@} is {@{angular wavenumber or angular spatial frequency}@}.
 > - {@{$\omega$}@} is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
 > - {@{$\phi$}@} is {@{initial phase offset}@}.
-> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2029-02-23,1104,290!2028-03-01,1011,350!2028-10-14,1201,350!2029-02-25,1303,350!2028-03-27,1037,350!2028-05-08,1071,350!2029-03-02,1308,350!2026-04-17,123,404!2026-05-03,137,404!2026-05-06,140,404!2026-05-04,138,404!2026-04-18,124,404!2026-05-05,139,404-->
+> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2029-02-23,1104,290!2028-03-01,1011,350!2028-10-14,1201,350!2029-02-25,1303,350!2028-03-27,1037,350!2028-05-08,1071,350!2029-03-02,1308,350!2028-03-08,680,424!2028-05-29,757,424!2026-05-06,140,404!2028-06-02,760,424!2028-03-11,683,424!2026-05-05,139,404-->
 
 In signal processing, apart from analog signals (continuous signals), we also deal with {@{digital signals (discrete signals)}@}. In that case, usually {@{the time is discretized}@}. So the equation becomes: <!--SR:!2028-08-08,1142,350!2029-03-01,1307,350-->
 
@@ -44,7 +44,7 @@ In signal processing, apart from analog signals (continuous signals), we also de
 > - {@{$k$}@} is {@{angular wavenumber or angular spatial frequency}@}.
 > - {@{$\omega$}@} is {@{angular frequency, which equals 2 pi times normal (linear) frequency $\omega = 2\pi f$}@}.
 > - {@{$\phi$}@} is {@{initial phase offset}@}.
-> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2026-07-29,498,310!2027-12-04,923,330!2027-10-24,882,330!2028-05-10,1073,350!2029-05-22,1372,350!2028-02-24,1005,350!2028-03-22,1032,350!2027-04-01,746,330!2026-05-04,138,404!2026-04-17,123,404!2026-04-20,126,404!2026-04-28,133,404!2026-04-23,128,404!2026-04-24,129,404!2026-04-25,130,404-->
+> - {@{$D$}@} is {@{equilibrium offset}@}. <!--SR:!2026-07-29,498,310!2027-12-04,923,330!2027-10-24,882,330!2028-05-10,1073,350!2029-05-22,1372,350!2028-02-24,1005,350!2028-03-22,1032,350!2027-04-01,746,330!2028-06-03,761,424!2028-03-09,681,424!2028-03-23,695,424!2028-05-04,737,424!2028-03-29,701,424!2028-04-07,710,424!2028-04-14,717,424-->
 
 For the two equations above, we will ignore {@{the $kx$ term and the $\pm$ operator as we care about time more}@}. <!--SR:!2029-05-20,1370,350-->
 
@@ -94,4 +94,4 @@ A sequence is {@{even or symmetric}@} iff {@{$f[-n] = f[n]$}@}. A sequence is {@
 
 The convolution of 2 sequences $x$ and $y$ is denoted {@{$x[n] * y[n]$ or $x * y$}@}. It is defined as {@{$$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y[n - m]\,.$$}@} <!--SR:!2029-06-10,1384,361!2029-02-16,1294,361-->
 
-It can be visualized as follows. Take 2 sequences $x$ and $y$. Then, {@{reflect the 2nd argument $y$ across $0$, i.e. $$y'[n] = y[-n]\,.$$}@} Then the convolution $x * y$ at {@{argument $n = 0$}@} is {@{the dot product of $x$ and $y'$ ($y$ reflected), i.e. $$(x * y) [0] = \sum_{m = 0}^{N - 1} x[m] y'[m] = \sum_{m = 0}^{N - 1} x[m] y[-m]\,.$$}@} When the argument $n$ is not $0$, then {@{the argument specifies how much $y'$ is shifted, with positive values shifting to the right}@}, i.e. {@{$$y'_n[m] = y'[m - n] = y[n - m]\,.$$}@} Then the convolution $x * y$ at {@{nonzero argument}@} is {@{the dot product of $x$ and $y'_n$ \($y$ reflected and shifted by $n$\)}@}, i.e. {@{$$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y'_n[m] = \sum_{m = 0}^{N - 1} x[m] y'[m - n] = \sum_{m = 0}^{N - 1} x[m] y[n - m] \,.$$}@} <!--SR:!2030-12-08,1841,381!2031-08-25,2047,381!2029-01-13,1198,361!2029-01-21,1202,361!2028-04-09,748,419!2028-01-31,692,419!2027-08-27,529,399!2026-04-17,27,401-->
+It can be visualized as follows. Take 2 sequences $x$ and $y$. Then, {@{reflect the 2nd argument $y$ across $0$, i.e. $$y'[n] = y[-n]\,.$$}@} Then the convolution $x * y$ at {@{argument $n = 0$}@} is {@{the dot product of $x$ and $y'$ ($y$ reflected), i.e. $$(x * y) [0] = \sum_{m = 0}^{N - 1} x[m] y'[m] = \sum_{m = 0}^{N - 1} x[m] y[-m]\,.$$}@} When the argument $n$ is not $0$, then {@{the argument specifies how much $y'$ is shifted, with positive values shifting to the right}@}, i.e. {@{$$y'_n[m] = y'[m - n] = y[n - m]\,.$$}@} Then the convolution $x * y$ at {@{nonzero argument}@} is {@{the dot product of $x$ and $y'_n$ \($y$ reflected and shifted by $n$\)}@}, i.e. {@{$$(x * y) [n] = \sum_{m = 0}^{N - 1} x[m] y'_n[m] = \sum_{m = 0}^{N - 1} x[m] y'[m - n] = \sum_{m = 0}^{N - 1} x[m] y[n - m] \,.$$}@} <!--SR:!2030-12-08,1841,381!2031-08-25,2047,381!2029-01-13,1198,361!2029-01-21,1202,361!2028-04-09,748,419!2028-01-31,692,419!2027-08-27,529,399!2026-09-23,148,421-->

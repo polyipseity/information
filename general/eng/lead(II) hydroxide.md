@@ -18,7 +18,7 @@ Treating {@{lead(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemis
 > treating with [bases](base%20(chemistry).md)
 >
 > 1. {@{Pb<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Pb(OH)<sub>2</sub>(s)}@}
-> 2. {@{Pb(OH)<sub>2</sub>(s) + 2OH<sup>-</sup>(aq) → \[Pb(OH)<sub>4</sub>\]<sup>2-</sup>(aq)}@} <!--SR:!2026-11-02,938,330!2026-04-29,857,330-->
+> 2. {@{Pb(OH)<sub>2</sub>(s) + 2OH<sup>-</sup>(aq) → \[Pb(OH)<sub>4</sub>\]<sup>2-</sup>(aq)}@} <!--SR:!2026-11-02,938,330!2037-01-03,3899,350-->
 
 ## references
 

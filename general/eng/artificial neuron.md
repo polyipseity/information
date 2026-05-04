@@ -19,7 +19,7 @@ The output of the _k_-th neuron is: {@{$$y_k = \varphi\left(\sum_{j = 0}^m w_{kj
 
 - see: [activation function](activation%20function.md)
 
-The [activation function](activation%20function.md) of a neurons is chosen {@{to have properties enhancing or simplifying the network}@}. Crucially, {@{any [multilayer perceptron](multilayer%20perceptron.md) using a _linear_ activation function has a equivalent single-layer network, which can be proved mathematically; thus, a non-linear function is needed to leverage the full power of a multilayer network}@}. <!--SR:!2029-02-12,1324,350!2026-04-25,471,310-->
+The [activation function](activation%20function.md) of a neurons is chosen {@{to have properties enhancing or simplifying the network}@}. Crucially, {@{any [multilayer perceptron](multilayer%20perceptron.md) using a _linear_ activation function has a equivalent single-layer network, which can be proved mathematically; thus, a non-linear function is needed to leverage the full power of a multilayer network}@}. <!--SR:!2029-02-12,1324,350!2031-11-11,2021,330-->
 
 Below, _u_, also called {@{the _net input_}@}, is {@{the weighted sum of all inputs to the neuron, including the bias}@}. For _m + 1_ inputs as described above: {@{$$u = \sum_{j = 0}^m w_{kj} x_j = b_k + \sum_{j = 1}^m w_{kj} x_j$$}@}. <!--SR:!2028-05-04,1102,350!2028-12-23,1284,350!2026-05-06,518,310-->
 
@@ -37,7 +37,7 @@ In this case, the output _y_ is {@{simply the net input _u_ multiplied by a cons
 
 - see: [sigmoid function](sigmoid%20function.md)
 
-[Sigmoid functions](sigmoid%20function.md) are {@{fairly simple non-linear activation functions}@}. Usually, it refers to the {@{[logistic function](logistic%20function.md) with _L_ = 1, _k_ = 1, and _x_<sub>0</sub> = 0}@}: {@{$$y = \frac L {1 + e^{-k(u - x_0)} } = \frac 1 {1 + e^{-u} }$$}@}. Its more practical counterpart is {@{the [hyperbolic tangent](hyperbolic%20function.md) ($\tanh$)}@}: {@{$$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$}@} <!--SR:!2026-07-29,587,330!2031-08-22,1999,330!2026-04-20,449,290!2030-03-10,1519,310!2026-04-29,443,270-->
+[Sigmoid functions](sigmoid%20function.md) are {@{fairly simple non-linear activation functions}@}. Usually, it refers to the {@{[logistic function](logistic%20function.md) with _L_ = 1, _k_ = 1, and _x_<sub>0</sub> = 0}@}: {@{$$y = \frac L {1 + e^{-k(u - x_0)} } = \frac 1 {1 + e^{-u} }$$}@}. Its more practical counterpart is {@{the [hyperbolic tangent](hyperbolic%20function.md) ($\tanh$)}@}: {@{$$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$}@} <!--SR:!2026-07-29,587,330!2031-08-22,1999,330!2031-04-05,1809,310!2030-03-10,1519,310!2030-11-27,1672,290-->
 
 ### rectifier
 

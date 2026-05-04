@@ -20,7 +20,7 @@ The operator precedence for the 3 types of operators introduced below is {@{[ari
 
 ### arithmetic operators
 
-Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2029-09-05,1436,362!2026-04-15,159,439!2026-04-18,162,439-->
+Below are common arithmetic operators. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2029-09-05,1436,362!2028-12-04,950,459!2028-12-21,967,459-->
 
 ```Python
 # pytextgen generate data
@@ -72,28 +72,28 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="f21a"--><!-- The following content is generated at 2025-09-21T20:03:37.135115+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`**` <!--SR:!2026-04-16,160,439!2026-04-15,159,439-->
-- `**`→::@::←`*` <br/> `/` <br/> `//` <br/> `%` <!--SR:!2026-04-16,160,439!2026-04-17,161,439-->
-- `*` <br/> `/` <br/> `//` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2026-04-17,161,439!2026-04-18,162,439-->
-- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2026-04-14,158,439!2026-04-14,158,439-->
+- _(begin)_→::@::←`**` <!--SR:!2028-12-09,955,459!2028-12-02,948,459-->
+- `**`→::@::←`*` <br/> `/` <br/> `//` <br/> `%` <!--SR:!2028-12-06,952,459!2028-12-19,965,459-->
+- `*` <br/> `/` <br/> `//` <br/> `%`→::@::←`+` <br/> `-` <!--SR:!2028-12-15,961,459!2028-12-20,966,459-->
+- `+` <br/> `-`→::@::←_(end)_ <!--SR:!2028-11-23,939,459!2028-11-26,942,459-->
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="9cda"--><!-- The following content is generated at 2025-09-21T20:03:37.106566+08:00. Any edits will be overridden! -->
 
-- `**`:@:power <!--SR:!2026-04-13,157,439-->
-- `*` <br/> `/` <br/> `//` <br/> `%`:@:multiplication <br/> division <br/> floor division <br/> remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2026-04-14,158,439-->
-- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2026-04-16,160,439-->
+- `**`:@:power <!--SR:!2028-11-14,930,459-->
+- `*` <br/> `/` <br/> `//` <br/> `%`:@:multiplication <br/> division <br/> floor division <br/> remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2028-11-24,940,459-->
+- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2028-12-08,954,459-->
 
 <!--/pytextgen-->
 
-For {@{the return type of operators}@}, {@{all of above \(if only `float` and `int` are considered\)}@}, with {@{three exceptions}@}, {@{returns `int` \(integer\)}@} if {@{both operands are `int`, and `float` otherwise}@}. The three exceptions are that {@{`/` \(division\)}@} {@{always return `float`, even if both operands are `int`}@}, {@{applying `**` \(power\) with a negative power}@} results in {@{a `float`}@}, and {@{applying `**` \(power\) on a negative base}@} results in {@{a `complex` \(complex number\) but not an error, which is not discussed here}@}. <!--SR:!2028-01-11,934,342!2029-07-14,1393,362!2028-09-18,1072,342!2026-04-20,159,444!2026-04-27,165,444!2026-04-26,164,444!2026-04-21,160,443!2026-04-26,164,444!2026-04-27,165,444!2026-04-21,160,444!2026-04-22,161,443-->
+For {@{the return type of operators}@}, {@{all of above \(if only `float` and `int` are considered\)}@}, with {@{three exceptions}@}, {@{returns `int` \(integer\)}@} if {@{both operands are `int`, and `float` otherwise}@}. The three exceptions are that {@{`/` \(division\)}@} {@{always return `float`, even if both operands are `int`}@}, {@{applying `**` \(power\) with a negative power}@} results in {@{a `float`}@}, and {@{applying `**` \(power\) on a negative base}@} results in {@{a `complex` \(complex number\) but not an error, which is not discussed here}@}. <!--SR:!2028-01-11,934,342!2029-07-14,1393,362!2028-09-18,1072,342!2028-12-14,960,464!2029-01-17,994,464!2029-01-08,985,464!2028-12-17,963,463!2029-01-07,984,464!2029-01-16,993,464!2028-12-19,965,464!2028-12-23,969,463-->
 
 A note regarding accuracy is that {@{there may be some inaccuracies involved when `float`s are involved}@}, such as {@{`0.1 + 0.2` is `0.30000000000000004` instead of `0.3`}@}. Also, regarding {@{zeros}@}, {@{`0.0` and `-0.0`}@} are {@{technically different `float`s}@}, but they are {@{equivalent for most purposes and even compare the same}@}, i.e. {@{`0.0 == -0.0` is `True`}@}. Finally, {@{a notable error}@} \({@{raising an error}@} causes {@{the program to stop and print out error messages}@}\) is that {@{`/` \(division\), `//` \(floor division\), and `%` \(remainder\)}@} {@{raises `ZeroDivisionError` if the second operand is zero}@}. {@{`**` \(power\)}@} also {@{raises `ZeroDivisionError` if the first operand is zero and the second operand is negative}@}. Finally, {@{`0 ** 0`}@} {@{returns `1` instead of being undefined or raising an error}@}. <!--SR:!2030-03-09,1581,362!2029-01-14,1249,362!2028-03-24,985,342!2029-05-17,1346,362!2027-07-19,803,360!2028-04-29,816,445!2028-04-24,811,445!2028-04-23,810,445!2028-05-04,821,445!2028-04-29,816,445!2028-05-01,818,445!2028-04-28,815,445!2028-04-30,817,445!2028-04-27,814,445!2028-04-01,794,445!2028-04-26,813,445-->
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2026-06-12,503,389!2026-04-18,162,439!2026-04-13,157,439!2026-04-17,161,439-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2026-06-12,503,389!2028-12-21,967,459!2028-11-17,933,459!2028-12-14,960,459-->
 
 ```Python
 # pytextgen generate data
@@ -168,7 +168,7 @@ Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other l
 
 ### logic operators
 
-Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2031-04-04,1886,389!2026-04-13,157,439!2026-04-19,163,439!2026-04-14,158,439-->
+Below are common logic operators, all of which {@{accept two booleans and return a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. Operators higher in the list {@{have higher precedence}@}: <!--SR:!2031-04-04,1886,389!2028-11-16,932,459!2028-12-26,972,459!2028-11-27,943,459-->
 
 ```Python
 # pytextgen generate data
@@ -215,7 +215,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
-- `not`:@:negate <!--SR:!2026-04-19,459,389-->
+- `not`:@:negate <!--SR:!2033-01-03,2441,409-->
 - `and`:@:and <!--SR:!2026-06-13,504,389-->
 - `or`:@:or <!--SR:!2026-05-23,487,389-->
 
@@ -244,7 +244,7 @@ Like lists, strings can be {@{indexed using the `string_var[n]`, which access th
 
 ## output
 
-In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content}@}, so each `print` {@{outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2030-02-20,1577,383!2026-04-11,458,383!2030-10-25,1748,383!2032-10-24,2394,403!2030-01-13,1553,383!2028-03-31,962,363!2029-02-23,1296,383!2026-05-20,491,383!2028-05-03,820,445-->
+In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content}@}, so each `print` {@{outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2030-02-20,1577,383!2032-11-19,2396,403!2030-10-25,1748,383!2032-10-24,2394,403!2030-01-13,1553,383!2028-03-31,962,363!2029-02-23,1296,383!2026-05-20,491,383!2028-05-03,820,445-->
 
 Note that strings are outputted, escaped {@{with `\` properly (without unnecessary escapes)}@}, and preferably {@{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}@}. <!--SR:!2026-06-25,516,394!2026-05-24,488,394-->
 
@@ -260,7 +260,7 @@ variableName = 1 + 2
 
 One does not need to {@{declare the variable and its type before assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2029-08-08,1412,362!2030-01-27,1548,362!2027-09-13,834,342!2028-01-02,925,342!2030-03-07,1578,362-->
 
-Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2026-11-16,608,330!2028-07-18,1097,350!2026-04-15,159,439!2026-04-13,157,439-->
+Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2026-11-16,608,330!2028-07-18,1097,350!2028-12-03,949,459!2028-11-18,934,459-->
 
 Variable name should be {@{descriptive of the values it is supposed to hold}@}. <!--SR:!2029-09-23,1449,362-->
 
@@ -282,7 +282,7 @@ To get the type of a value, {@{use `type(<any>)`, which will return the type of 
 
 ### data type conversion
 
-We can convert a value (`value`) into other data types using {@{`float(value)`, `int(value)`, and `str(value)`}@}. If {@{the data type of `value` and the resulting data type are the same}@}, {@{the same value is simply returned}@}. Note that not all {@{conversions are valid, and will throw a `ValueError` if it is invalid}@}. <!--SR:!2026-04-12,458,380!2026-05-07,479,380!2029-11-09,1497,380!2029-08-07,1423,380-->
+We can convert a value (`value`) into other data types using {@{`float(value)`, `int(value)`, and `str(value)`}@}. If {@{the data type of `value` and the resulting data type are the same}@}, {@{the same value is simply returned}@}. Note that not all {@{conversions are valid, and will throw a `ValueError` if it is invalid}@}. <!--SR:!2032-11-05,2382,400!2026-05-07,479,380!2029-11-09,1497,380!2029-08-07,1423,380-->
 
 - `bool(value)` ::@:: Converts `value` to a `bool`. If it is an `int` or `float`, converts to `True` unless `value` is zero, i.e. `value == 0`. If it is a `str` or `list`, converts to `True` unless `value` is empty, i.e. `value == ""` or `value == []`. There are also many other situations where `value` returns `True` unless `value` satisfies something, which will be unmentioned here. It is very difficult to get a `TypeError` or `ValueError` from this conversion, but possible with some very special types that will not be mentioned here. For exams, please use more explicit operations instead of this conversion, e.g. `len(list) == 0` instead of `not list`. <!--SR:!2029-06-27,1365,386!2030-08-18,1737,406-->
 - `float(value)` ::@:: Converts `value` to a `float`. If it is an `int`, the same value but in `float` is returned. If it is a `str`, it removes whitespaces (spaces) surrounding the string and then parse it as a `float`, and raises a `ValueError` if it is invalid, e.g. an empty string, the string `.` (but not `0.`, `.0`, etc.), contains alphabets (except for `e` as used in exponential notation, e.g. `1e+100` and `1.2e-100` are valid), etc. (But `float("1.")`, `float(".1")`, `float("  4.2  ")`, etc. are valid. In general, if the string is a valid `float` when treated as Python code, the string is valid.) <!--SR:!2028-03-04,987,360!2030-11-21,1733,340-->

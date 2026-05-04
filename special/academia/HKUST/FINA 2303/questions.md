@@ -100,7 +100,7 @@ tags:
 > 2. No.
 >
 > - solution: {@{2}@}
-> - explanation: {@{The new fact does not affect the present value.}@} <!--SR:!2026-04-15,329,339!2026-04-14,328,339-->
+> - explanation: {@{The new fact does not affect the present value.}@} <!--SR:!2030-07-12,1541,359!2030-07-02,1531,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -112,7 +112,7 @@ tags:
 > Which prize should you claim?
 >
 > - solution: {@{1}@}
-> - explanation: {@{Ignore face values. Use market prices, which in this case are eBay prices.}@} <!--SR:!2026-04-15,329,339!2026-04-13,327,339-->
+> - explanation: {@{Ignore face values. Use market prices, which in this case are eBay prices.}@} <!--SR:!2030-07-11,1540,359!2030-06-26,1525,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -124,7 +124,7 @@ tags:
 > 4. if the markets where the goods are trading are competitive.
 >
 > - solution: {@{4}@}
-> - explanation: {@{For 3, if arbitrage exists, this likely means there are some barriers preventing the arbitrage from being eliminated by itself, so the market is not competitive.}@} <!--SR:!2026-04-13,327,339!2026-04-09,323,339-->
+> - explanation: {@{For 3, if arbitrage exists, this likely means there are some barriers preventing the arbitrage from being eliminated by itself, so the market is not competitive.}@} <!--SR:!2030-06-27,1526,359!2030-06-08,1507,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -139,7 +139,7 @@ tags:
 > 2. benefit in 1 year
 > 3. cost in today's cash
 >
-> - solution: {@{1}@} <!--SR:!2026-04-14,328,339-->
+> - solution: {@{1}@} <!--SR:!2030-07-01,1530,359-->
 
 ## week 2 lecture
 

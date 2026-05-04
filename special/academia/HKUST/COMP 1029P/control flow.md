@@ -9,7 +9,7 @@ tags:
 
 # Python control flow
 
-Keep in mind a thing mostly unique to Python: {@{Indentation matters in Python, so do not omit the indentations shown below.}@} <!--SR:!2026-04-29,464,378-->
+Keep in mind a thing mostly unique to Python: {@{Indentation matters in Python, so do not omit the indentations shown below.}@} <!--SR:!2032-11-26,2400,398-->
 
 ## branching
 
@@ -46,7 +46,7 @@ else:
 
 {@{The semantics of `if...elif...else`}@} can be found by {@{considering the semantics of chaining `if...else`}@}: {@{The statement block after the first `true` condition}@} is {@{executed}@}. If there are {@{no `true` conditions}@}, {@{the statement block after `else` is executed}@} if {@{there is an `else`}@}. Otherwise, {@{nothing is executed}@}. Note that {@{the conditions up until the first `true` condition \(inclusive\)}@} are themselves {@{always executed in the appearance order}@}, ignoring {@{statement blocks along the way}@}. If {@{there are no `true` conditions}@}, {@{all conditions}@} are always {@{executed in the appearance order}@}, followed by {@{the `else` statement block if there is one}@}. <!--SR:!2026-07-11,611,310!2027-04-01,807,323!2027-06-17,519,405!2027-07-12,544,405!2027-07-09,541,405!2027-07-07,539,405!2027-07-11,543,405!2027-07-13,545,405!2027-07-14,546,405!2027-06-30,532,405!2027-07-10,542,405!2027-07-06,538,405!2027-07-01,533,405!2027-06-24,526,405!2027-07-08,540,405-->
 
-If there are {@{no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2026-05-02,467,378!2026-05-01,466,378!2026-05-03,468,378!2026-06-19,156,428-->
+If there are {@{no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2032-12-11,2415,398!2032-12-13,2417,398!2032-12-14,2417,398!2026-06-19,156,428-->
 
 ```Python
 if condition:
@@ -77,7 +77,7 @@ while condition:
 
 The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2027-07-18,903,330!2028-05-25,791,429!2028-05-14,781,429!2028-03-14,731,429!2028-05-24,790,429-->
 
-If there are {@{no statements to be executed in an iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2026-04-12,450,385!2030-05-09,1617,385!2026-06-09,146,428-->
+If there are {@{no statements to be executed in an iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2032-10-18,2369,405!2030-05-09,1617,385!2026-06-09,146,428-->
 
 ```Python
 for loop_variables in iterable:

@@ -157,7 +157,7 @@ The content is in teaching order.
 - [conditional entropy § definition](../../../../general/conditional%20entropy.md#definition)
 - [ID3 § properties](../../../../general/ID3%20algorithm.md#properties)
 - [C4.5 § algorithm](../../../../general/C4.5%20algorithm.md#algorithm)
-  - split information of an attribute ::@:: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2026-04-21,530,340!2029-10-29,1591,380-->
+  - split information of an attribute ::@:: It can be the entropy of the attribute in the entire set or the set of the decision node. The former is preferred. <!--SR:!2033-02-16,2484,360!2029-10-29,1591,380-->
 - [information gain ratio § definition](../../../../general/information%20gain%20ratio.md#definition)
 - [classification and regression tree § algorithm](../../../../general/classification%20and%20regression%20tree.md#algorithm)
 - [decision tree learning § Gini impurity](../../../../general/decision%20tree%20learning.md#Gini%20impurity)
@@ -380,7 +380,7 @@ The content is in teaching order.
       - [eigenvalues and eigenvectors § classical method](../../../../general/eigenvalues%20and%20eigenvectors.md#classical%20method)
         - eigenvalues and eigenvectors § classical method > eigenvector ::@:: The eigenvector is calculated from the eigenvalue using $(\mathbf{\Sigma} - \lambda \mathbf{I}) \mathbf{x} = \mathbf{0}$ instead of $\mathbf{\Sigma} \mathbf{x} = \lambda \mathbf{x}$. <!--SR:!2034-01-14,2849,417!2030-06-23,1770,397-->
     - § computing PCA using the covariance method > eigenvector matrix ::@:: The eigenvector matrix uses the symbol __Φ__. Instead of selecting a subset of the eigenvectors as the basis vectors first, the whole matrix is kept, and then the redundant coordinates are only discarded after transforming the original data. <!--SR:!2030-07-04,1755,397!2027-03-23,731,357-->
-    - § computing PCA using the covariance method > cumulative variance ::@:: Cumulative variance is ignored. So the step about computing the cumulative variance is ignored. Instead, the number of dimensions to be reduced to is specified beforehand instead of being chosen using the ignored step. <!--SR:!2027-05-17,773,357!2026-04-29,482,337-->
+    - § computing PCA using the covariance method > cumulative variance ::@:: Cumulative variance is ignored. So the step about computing the cumulative variance is ignored. Instead, the number of dimensions to be reduced to is specified beforehand instead of being chosen using the ignored step. <!--SR:!2027-05-17,773,357!2032-06-16,2239,357-->
     - § computing PCA using the covariance method > data transformation ::@:: Also, instead of transforming the mean-subtracted data using $\mathbf{T} = \mathbf{B} \mathbf{\Phi}$, the original data $\mathbf{Y} = \mathbf{X}^\intercal$ is transformed, and in a different way: $\mathbf{T}' = \mathbf{\Phi}^\intercal \mathbf{Y}$. Each column instead of each row of $\mathbf{T}'$ is a data point. Even more specifically, the data points are transformed one by one: $\mathbf{T}'_i = \mathbf{\Phi}^\intercal \mathbf{Y}_i$. <!--SR:!2026-10-23,611,337!2026-08-13,557,337-->
 - [Analytics Solver usage](../../../Analytic%20Solver%20usage.md): principal components
 - [data warehouse](../../../../general/data%20warehouse.md)
@@ -485,7 +485,7 @@ The content is in teaching order.
   - privacy issues ::@:: How to preserve data privacy while data mining? Minimize information loss while protect individual privacy. <!--SR:!2032-11-01,2482,417!2030-06-09,1734,397-->
   - graph data ::@:: How to analyze graphs? <!--SR:!2033-03-04,2591,417!2033-05-03,2640,417-->
   - decision making
-  - data streams ::@:: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2026-05-02,556,397!2029-09-12,1538,397-->
+  - data streams ::@:: How to data mine over real-time and possibly unbounded data streams? <!--SR:!2034-08-02,3014,417!2029-09-12,1538,397-->
   - chatbot
   - picture description
   - generative AI

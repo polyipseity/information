@@ -16,13 +16,13 @@ tags:
 
 ## high-rise buildings
 
-Buildings can be {@{categorized by height}@}: {@{single-storey, multi-storey with height less than 24 m}@}, {@{high-rise with height more than 24 m but less than 100 m}@}, {@{tall, and supertall}@}. <!--SR:!2026-08-02,617,335!2029-01-26,1140,295!2026-04-20,86,360!2026-05-15,92,362-->
+Buildings can be {@{categorized by height}@}: {@{single-storey, multi-storey with height less than 24 m}@}, {@{high-rise with height more than 24 m but less than 100 m}@}, {@{tall, and supertall}@}. <!--SR:!2026-08-02,617,335!2029-01-26,1140,295!2027-07-03,429,380!2026-05-15,92,362-->
 
 The structural system of a building only {@{consists of members designed to carry loads}@}, and all others are {@{non-structural}@}. <!--SR:!2032-01-17,2123,330!2028-07-26,1196,355-->
 
 The structural system of a high-rise building should support {@{vertical loads such as gravity and foundation settlement, and also lateral loads such as earthquake, wind}@}. The latter, {@{lateral loads, are especially important for tall buildings}@}. Otherwise, tall buildings may {@{slide (horizontal translation) or overturn (rotation about the base)}@}. Generally the higher up, {@{the larger the load}@}. <!--SR:!2028-04-04,1046,310!2026-05-23,543,315!2027-03-24,798,335!2027-07-31,878,330-->
 
-Hence, foundation-wise, low-rise buildings are {@{supported by shallow foundations (footings)}@}, while high-rise buildings are {@{supported by deep foundations (pipes), which may even reach the bedrock}@}. <!--SR:!2027-06-06,849,335!2026-04-25,520,315-->
+Hence, foundation-wise, low-rise buildings are {@{supported by shallow foundations (footings)}@}, while high-rise buildings are {@{supported by deep foundations (pipes), which may even reach the bedrock}@}. <!--SR:!2027-06-06,849,335!2032-07-12,2265,335-->
 
 The structural system affects {@{the load distribution}@}. For example, a {@{structural steel undergoing overturning due to wind}@} would experience {@{tension at the wind-facing side and compression on the other side}@}. A {@{reinforced concrete (concrete with steel bars)}@} would experience the same thing, but {@{steel bars bear most of the tension while concrete bears most of the compression and the heavy vertical loading}@}. <!--SR:!2027-05-04,818,335!2026-06-10,553,315!2029-03-16,1375,355!2026-05-27,547,315!2027-02-13,636,275-->
 

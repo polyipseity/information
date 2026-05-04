@@ -33,7 +33,7 @@ See also [Vim help files](https://vimhelp.org/).
 - end of current word ::@:: \[[repeat N](#^repeatN)\]e <!--SR:!2031-10-19,2198,333!2028-09-16,1605,353-->
 - beginning of line ::@:: 0 <!--SR:!2028-05-15,1501,350!2028-09-11,1601,353-->
 - end of line ::@:: $ <!--SR:!2028-05-19,1509,353!2028-09-06,1598,353-->
-- line \[N=(last)\] ::@:: \[N\]G <!--SR:!2028-12-01,1555,310!2026-04-17,810,313-->
+- line \[N=(last)\] ::@:: \[N\]G <!--SR:!2028-12-01,1555,310!2035-12-06,3506,333-->
 - line \[N=1\] ::@:: \[N\]gg <!--SR:!2027-02-14,1061,333!2031-09-21,2181,333-->
 - matching character ::@:: % <!--SR:!2028-07-13,1358,293!2032-12-08,2731,333-->
 
@@ -51,13 +51,13 @@ See also [Vim help files](https://vimhelp.org/).
 - insert after cursor ::@:: \[[repeat N](#^repeatN)\]a <!--SR:!2026-12-19,1073,333!2035-11-03,3584,348-->
 - insert after end of line ::@:: \[[repeat N](#^repeatN)\]A <!--SR:!2032-06-08,2438,293!2027-06-24,1158,333-->
 - change text from cursor to ([motion](#motion)) ::@:: c([motion](#motion)) <!--SR:!2033-08-15,2945,333!2033-03-07,2805,333-->
-- insert lines below cursor ::@:: \[[repeat N](#^repeatN)\]o <!--SR:!2026-05-03,766,273!2027-08-23,1220,313-->
+- insert lines below cursor ::@:: \[[repeat N](#^repeatN)\]o <!--SR:!2034-04-30,2919,293!2027-08-23,1220,313-->
 - insert lines above cursor ::@:: \[[repeat N](#^repeatN)\]O <!--SR:!2034-05-21,3146,333!2033-11-04,2996,333-->
 
 ## replace
 
 - exit replace mode ::@:: ([replace](#replace))\<Esc\> <!--SR:!2028-04-02,1472,353!2029-10-09,1932,368-->
-- replace with (char) ::@:: \[[repeat N](#^repeatN)\]r(char) <!--SR:!2027-11-02,1241,293!2026-05-03,822,313-->
+- replace with (char) ::@:: \[[repeat N](#^repeatN)\]r(char) <!--SR:!2027-11-02,1241,293!2036-01-29,3558,333-->
 - enter replace mode ::@:: \[[repeat N](#^repeatN)\]R <!--SR:!2033-11-25,3013,333!2034-09-28,3208,333-->
 
 ## visual
@@ -81,7 +81,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## search and substitute
 
-- search forward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2033-02-22,2800,333!2026-04-26,761,273-->
+- search forward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]/(pattern)\[/\]\[offset\]\<Enter\> <!--SR:!2033-02-22,2800,333!2034-04-08,2899,293-->
 - search backward for \[N=1\]th occurence of (pattern) with \[offset\] ::@:: \[N\]?(pattern)\[?\]\[offset\]\<Enter\> <!--SR:!2027-05-03,1066,270!2035-09-17,3537,348-->
 - repeat last search ::@:: n <!--SR:!2027-02-27,1125,333!2035-05-20,3470,348-->
 - repeat last search reversed ::@:: N <!--SR:!2032-11-23,2731,333!2027-07-07,1088,288-->

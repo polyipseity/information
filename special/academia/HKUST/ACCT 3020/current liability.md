@@ -19,12 +19,12 @@ A liability has three essential components under the conceptual framework. First
 
 Flashcards for this section are as follows:
 
-- liability three components ::@:: Present obligation; arising from past events; settlement expected to require an outflow of resources (e.g. cash). <!--SR:!2026-04-10,4,270!2026-04-12,4,294-->
-- present obligation (liability) ::@:: The entity is obliged to transfer resources now, even if the actual payment occurs later. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- outflow of resources (liability) ::@:: Settlement is expected to require a transfer of cash or goods from the entity. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- past event and liability ::@:: A liability cannot exist without a past event that created the present obligation (e.g. borrowing or purchase on credit). <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- claim "you owe me money" ::@:: Must be supported by a past event (e.g. loan or purchase) that gave rise to the obligation; without it, no liability. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- purchase on credit: what is the past event? ::@:: The purchase of merchandise; from that day the entity has a present obligation to pay the supplier. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
+- liability three components ::@:: Present obligation; arising from past events; settlement expected to require an outflow of resources (e.g. cash). <!--SR:!2026-05-15,14,290!2026-05-15,15,314-->
+- present obligation (liability) ::@:: The entity is obliged to transfer resources now, even if the actual payment occurs later. <!--SR:!2026-05-16,15,314!2026-05-18,17,314-->
+- outflow of resources (liability) ::@:: Settlement is expected to require a transfer of cash or goods from the entity. <!--SR:!2026-05-17,16,314!2026-05-18,17,314-->
+- past event and liability ::@:: A liability cannot exist without a past event that created the present obligation (e.g. borrowing or purchase on credit). <!--SR:!2026-05-18,17,314!2026-05-17,16,314-->
+- claim "you owe me money" ::@:: Must be supported by a past event (e.g. loan or purchase) that gave rise to the obligation; without it, no liability. <!--SR:!2026-05-16,15,314!2026-05-17,17,314-->
+- purchase on credit: what is the past event? ::@:: The purchase of merchandise; from that day the entity has a present obligation to pay the supplier. <!--SR:!2026-05-18,17,314!2026-05-16,15,314-->
 
 <!-- markdownlint-disable-next-line MD024 -->
 ## current liability
@@ -39,14 +39,14 @@ This is why introductory and intermediate treatments can sound different. Princi
 
 Flashcards for this section are as follows:
 
-- current liability two criteria ::@:: (1) Settled within the normal operating cycle, even if that cycle is longer than 12 months, or (2) if not tied to the operating cycle, expected to be settled within 12 months after the reporting date; if either applies, the liability is current. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- operating cycle definition ::@:: The time from purchasing inventory through selling it, collecting cash from customers, and paying suppliers. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- operating cycle and current liability ::@:: The normal operating cycle (e.g. purchase inventory → sell → collect cash → pay supplier) is used first for working-capital items; "current" here means part of normal operating turnover, not simply within one calendar year. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- operating cycle example (six months) ::@:: 1 month receive goods, 2 months sell, 1 month collect cash, 2 months pay supplier; liability due within that window is current. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- when is the 12-month criterion used for current liability? ::@:: Use the 12-month test when the obligation is not expected to be settled as part of the normal operating cycle. If the operating cycle itself is longer than 12 months, a liability settled within that longer cycle is still current under the operating-cycle criterion. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- operating cycle longer than 12 months: what does current mean? ::@:: It means expected to be settled in the entity's normal working-capital turnover, even if that turnover takes more than 12 months; current does not automatically mean "within one year" in that case. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- operating cycle example (18 months): liability due in 15 months—current or non-current? ::@:: Current, if the liability will be settled as part of the normal 18-month operating cycle (for example, a shipbuilding or property-development cycle). <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- principles vs intermediate: current liability ::@:: Principles courses often emphasize the simple memory rule "within 12 months = current." Intermediate accounting is more precise: apply the operating-cycle criterion first for working-capital items, and use the 12-month criterion as the fallback for obligations outside that cycle. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
+- current liability two criteria ::@:: (1) Settled within the normal operating cycle, even if that cycle is longer than 12 months, or (2) if not tied to the operating cycle, expected to be settled within 12 months after the reporting date; if either applies, the liability is current. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- operating cycle definition ::@:: The time from purchasing inventory through selling it, collecting cash from customers, and paying suppliers. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- operating cycle and current liability ::@:: The normal operating cycle (e.g. purchase inventory → sell → collect cash → pay supplier) is used first for working-capital items; "current" here means part of normal operating turnover, not simply within one calendar year. <!--SR:!2026-05-19,18,331!2026-05-18,18,331-->
+- operating cycle example (six months) ::@:: 1 month receive goods, 2 months sell, 1 month collect cash, 2 months pay supplier; liability due within that window is current. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- when is the 12-month criterion used for current liability? ::@:: Use the 12-month test when the obligation is not expected to be settled as part of the normal operating cycle. If the operating cycle itself is longer than 12 months, a liability settled within that longer cycle is still current under the operating-cycle criterion. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- operating cycle longer than 12 months: what does current mean? ::@:: It means expected to be settled in the entity's normal working-capital turnover, even if that turnover takes more than 12 months; current does not automatically mean "within one year" in that case. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- operating cycle example (18 months): liability due in 15 months—current or non-current? ::@:: Current, if the liability will be settled as part of the normal 18-month operating cycle (for example, a shipbuilding or property-development cycle). <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- principles vs intermediate: current liability ::@:: Principles courses often emphasize the simple memory rule "within 12 months = current." Intermediate accounting is more precise: apply the operating-cycle criterion first for working-capital items, and use the 12-month criterion as the fallback for obligations outside that cycle. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
 
 ## notes payable
 
@@ -56,8 +56,8 @@ Notes payable are more formal than ordinary supplier balances because they are d
 
 Flashcards for this section are as follows:
 
-- notes payable: three subtopics in this note ::@:: This section breaks notes payable into supplier-balance conversions, short-term interest-bearing borrowing, and implicit-interest notes issued at a discount. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- notes payable: why is a note more structured than ordinary accounts payable? ::@:: A note is a formal contract that states principal, timing, and often interest, so later accounting must track accrual, settlement, and sometimes discount amortization. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
+- notes payable: three subtopics in this note ::@:: This section breaks notes payable into supplier-balance conversions, short-term interest-bearing borrowing, and implicit-interest notes issued at a discount. <!--SR:!2026-05-18,18,331!2026-05-19,18,331-->
+- notes payable: why is a note more structured than ordinary accounts payable? ::@:: A note is a formal contract that states principal, timing, and often interest, so later accounting must track accrual, settlement, and sometimes discount amortization. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
 
 ### accounts payable versus notes payable
 
@@ -67,11 +67,11 @@ Accounts payable typically involve amounts owed to suppliers with __no stated in
 
 Flashcards for this section are as follows:
 
-- accounts payable vs notes payable (contract) ::@:: Accounts payable: no stated interest, short terms; notes payable: separate contract with principal, interest rate, and due date. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- accounts payable: key features ::@:: Amounts owed to suppliers with no stated interest and short credit terms (e.g. 30 days). <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- notes payable: key features ::@:: Arise from a separate contract (a note) that states the principal, interest rate, and due date. <!--SR:!2026-04-12,4,294!2026-04-12,4,281-->
-- when does supplier require AP to NP conversion? ::@:: When the amount is owed for too long; supplier may require conversion to a note payable (with interest). <!--SR:!2026-04-12,4,294!2026-04-10,4,270-->
-- conversion of AP to NP: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_. <!--SR:!2026-04-10,4,270!2026-04-12,4,294-->
+- accounts payable vs notes payable (contract) ::@:: Accounts payable: no stated interest, short terms; notes payable: separate contract with principal, interest rate, and due date. <!--SR:!2026-05-17,16,314!2026-05-17,16,314-->
+- accounts payable: key features ::@:: Amounts owed to suppliers with no stated interest and short credit terms (e.g. 30 days). <!--SR:!2026-05-16,15,314!2026-05-16,15,314-->
+- notes payable: key features ::@:: Arise from a separate contract (a note) that states the principal, interest rate, and due date. <!--SR:!2026-05-16,15,314!2026-05-16,15,301-->
+- when does supplier require AP to NP conversion? ::@:: When the amount is owed for too long; supplier may require conversion to a note payable (with interest). <!--SR:!2026-05-16,15,314!2026-05-14,14,290-->
+- conversion of AP to NP: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_. <!--SR:!2026-05-15,14,290!2026-05-17,16,314-->
 
 ### short-term interest-bearing notes
 
@@ -81,11 +81,11 @@ When the entity borrows cash and signs a short-term interest-bearing note, it re
 
 Flashcards for this section are as follows:
 
-- short-term interest-bearing notes: recurring three-stage pattern ::@:: Record the borrowing first, accrue interest to year-end as time passes, and then remove the note plus accrued interest when the note is settled. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- short-term interest-bearing notes: why is year-end accrual necessary? ::@:: Because interest expense belongs to the period incurred even when the cash payment happens later at the maturity date. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- short-term interest-bearing note: journal entry at borrowing? ::@:: Dr _Cash_, Cr _Notes payable_ (amount = principal received). <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- short-term interest-bearing note: journal entry at settlement (due date)? ::@:: One settlement entry: Dr _Notes payable_ (principal), Dr _Interest payable_ (accrued), Dr _Interest expense_ (any remaining), Cr _Cash_ (total paid). <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- stated interest rate on a short-term note is usually ::@:: Annual; interest for a fraction of a year is prorated (e.g. principal × rate × months/12 or principal × rate × days/360 if the problem uses a day-count basis). <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
+- short-term interest-bearing notes: recurring three-stage pattern ::@:: Record the borrowing first, accrue interest to year-end as time passes, and then remove the note plus accrued interest when the note is settled. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- short-term interest-bearing notes: why is year-end accrual necessary? ::@:: Because interest expense belongs to the period incurred even when the cash payment happens later at the maturity date. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- short-term interest-bearing note: journal entry at borrowing? ::@:: Dr _Cash_, Cr _Notes payable_ (amount = principal received). <!--SR:!2026-05-19,18,331!2026-05-18,18,331-->
+- short-term interest-bearing note: journal entry at settlement (due date)? ::@:: One settlement entry: Dr _Notes payable_ (principal), Dr _Interest payable_ (accrued), Dr _Interest expense_ (any remaining), Cr _Cash_ (total paid). <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- stated interest rate on a short-term note is usually ::@:: Annual; interest for a fraction of a year is prorated (e.g. principal × rate × months/12 or principal × rate × days/360 if the problem uses a day-count basis). <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
 
 #### basic accrual and settlement pattern
 
@@ -96,7 +96,7 @@ Representative journal entry examples:
 > | {@{Receive cash; record note}@} | Dr           | Cr           |
 > | ------------------------------- | ------------ | ------------ |
 > | {@{Cash}@}                      | {@{48 000}@} |              |
-> | {@{Notes payable}@}             |              | {@{48 000}@} | <!--SR:!2026-04-12,4,294!2026-04-12,4,281!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,281!2026-04-12,4,294!2026-04-12,4,294-->
+> | {@{Notes payable}@}             |              | {@{48 000}@} | <!--SR:!2026-05-18,17,314!2026-05-16,15,301!2026-05-16,15,314!2026-05-16,15,314!2026-05-18,17,301!2026-05-17,16,314!2026-05-18,17,314-->
 
 <!-- markdownlint MD028 -->
 > _Scenario._ Same Maple Circuit note: {@{48 000 at 9% per year. At 31 December, two months have elapsed}@}.
@@ -106,7 +106,7 @@ Representative journal entry examples:
 > | {@{Interest expense}@}            | {@{720}@}    |              |
 > | {@{Interest payable}@}            |              | {@{720}@}    |
 >
-> _Calculation._ Interest = {@{48 000 × 0.09 × 2/12 = 720}@}. <!--SR:!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311-->
+> _Calculation._ Interest = {@{48 000 × 0.09 × 2/12 = 720}@}. <!--SR:!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331-->
 
 <!-- markdownlint MD028 -->
 > _Scenario._ Maple Circuit's note matures; {@{total cash paid is 50 160 (principal 48 000 + interest 2 160)}@}. Assume {@{720 already accrued; remainder interest is recognized at settlement}@}.
@@ -116,17 +116,17 @@ Representative journal entry examples:
 > | {@{Notes payable}@}                      | {@{48 000}@} |              |
 > | {@{Interest payable}@}                   | {@{720}@}    |              |
 > | {@{Interest expense}@}                   | {@{1 440}@}  |              |
-> | {@{Cash}@}                               |              | {@{50 160}@} | <!--SR:!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311-->
+> | {@{Cash}@}                               |              | {@{50 160}@} | <!--SR:!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-18,18,331!2026-05-18,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-18,18,331-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- short-term note basic accrual pattern: what is expensed at settlement? ::@:: Only the interest for the remaining period not already sitting in _Interest payable_; the earlier accrued amount is removed separately. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- short-term note basic pattern: why is the maturity-date interest expense smaller than total note interest? ::@:: Because part of the total interest was already recognized through the year-end accrual entry. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- borrowing on short-term note: Maple Circuit borrows 48 000 on a 9% note—entry? ::@:: Dr _Cash_ 48 000, Cr _Notes payable_ 48 000. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- short-term note interest accrual: Given principal 48 000, 9% annual rate, 2 months elapsed—entry? ::@:: Dr _Interest expense_ 720, Cr _Interest payable_ 720 (i.e. 48 000 × 0.09 × 2/12). <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- settling short-term note: Pay 50 160 (principal 48 000 + interest), 720 already in Interest payable—entry? ::@:: One settlement entry: Dr _Notes payable_ 48 000, Dr _Interest payable_ 720, Dr _Interest expense_ 1 440, Cr _Cash_ 50 160. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
+- short-term note basic accrual pattern: what is expensed at settlement? ::@:: Only the interest for the remaining period not already sitting in _Interest payable_; the earlier accrued amount is removed separately. <!--SR:!2026-05-18,18,331!2026-05-19,18,331-->
+- short-term note basic pattern: why is the maturity-date interest expense smaller than total note interest? ::@:: Because part of the total interest was already recognized through the year-end accrual entry. <!--SR:!2026-05-19,18,331!2026-05-18,18,331-->
+- borrowing on short-term note: Maple Circuit borrows 48 000 on a 9% note—entry? ::@:: Dr _Cash_ 48 000, Cr _Notes payable_ 48 000. <!--SR:!2026-05-18,18,331!2026-05-19,18,331-->
+- short-term note interest accrual: Given principal 48 000, 9% annual rate, 2 months elapsed—entry? ::@:: Dr _Interest expense_ 720, Cr _Interest payable_ 720 (i.e. 48 000 × 0.09 × 2/12). <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- settling short-term note: Pay 50 160 (principal 48 000 + interest), 720 already in Interest payable—entry? ::@:: One settlement entry: Dr _Notes payable_ 48 000, Dr _Interest payable_ 720, Dr _Interest expense_ 1 440, Cr _Cash_ 50 160. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
 
 #### odd-day maturity and day-count traps
 
@@ -139,15 +139,15 @@ Flashcards for this section are as follows:
 > | {@{Interest expense}@}                                                    | {@{720}@}    |              |
 > | {@{Cash}@}                                                                |              | {@{73 920}@} |
 >
-> _Explanation._ The final settlement uses only the {@{remaining 45-day interest}@}, because the first {@{75 days were already accumulated in Interest payable at year-end}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
+> _Explanation._ The final settlement uses only the {@{remaining 45-day interest}@}, because the first {@{75 days were already accumulated in Interest payable at year-end}@}. <!--SR:!2026-05-20,19,342!2026-05-19,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-19,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-19,19,342!2026-05-20,19,342!2026-05-20,19,342-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- odd-day note maturity: what is the core habit? ::@:: Use the actual elapsed fraction given in the problem, accrue the portion already passed at year-end, and settle only the remaining days at maturity. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- odd-day maturity trap ::@:: Do not recompute the note's entire interest again at maturity; remove the accrued amount in _Interest payable_ and expense only the unaccrued remainder. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- odd-day note example: 72 000, 8%, 120-day note with 75 days accrued by year-end—what is settled at maturity? ::@:: Remove _Interest payable_ 1 200 for the first 75 days, expense only the remaining 45-day interest of 720, and credit _Cash_ 73 920 together with removing _Notes payable_ 72 000. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
+- odd-day note maturity: what is the core habit? ::@:: Use the actual elapsed fraction given in the problem, accrue the portion already passed at year-end, and settle only the remaining days at maturity. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- odd-day maturity trap ::@:: Do not recompute the note's entire interest again at maturity; remove the accrued amount in _Interest payable_ and expense only the unaccrued remainder. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- odd-day note example: 72 000, 8%, 120-day note with 75 days accrued by year-end—what is settled at maturity? ::@:: Remove _Interest payable_ 1 200 for the first 75 days, expense only the remaining 45-day interest of 720, and credit _Cash_ 73 920 together with removing _Notes payable_ 72 000. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
 
 ### conversion of accounts payable to notes payable
 
@@ -171,17 +171,17 @@ Representative journal entry example:
 > | {@{Interest expense}@}                  | {@{360}@} |           |
 > | {@{Interest payable}@}                  |           | {@{360}@} |
 >
-> _Calculation._ {@{12 000 × 0.09 × 4/12}@} = {@{360}@}. <!--SR:!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,281!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,281!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294-->
+> _Calculation._ {@{12 000 × 0.09 × 4/12}@} = {@{360}@}. <!--SR:!2026-05-17,17,314!2026-05-18,17,314!2026-05-16,15,314!2026-05-17,16,301!2026-05-17,16,314!2026-05-17,16,314!2026-05-18,17,314!2026-05-17,16,301!2026-05-15,15,314!2026-05-17,16,314!2026-05-17,16,314!2026-05-17,16,314!2026-05-17,16,314!2026-05-17,16,314-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- conversion of account payable to note payable ::@:: At conversion: Dr _Accounts payable_, Cr _Notes payable_. <br/> Then accrue interest to reporting date: Dr _Interest expense_, Cr _Interest payable_. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- conversion of AP to note: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_ (same amount). <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- after conversion to note: Given principal, rate, and months to reporting date, how is interest recorded? ::@:: Accrue interest (principal × rate × months/12); Dr _Interest expense_, Cr _Interest payable_. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- conversion example: AP 12 000 → note 1 Sept, 9%—conversion entry? ::@:: Dr _Accounts payable_ 12 000, Cr _Notes payable_ 12 000. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- conversion example: note 12 000, 9%, 4 months to year-end—accrual entry? ::@:: Dr _Interest expense_ 360, Cr _Interest payable_ 360. <!--SR:!2026-04-12,4,281!2026-04-12,4,281-->
+- conversion of account payable to note payable ::@:: At conversion: Dr _Accounts payable_, Cr _Notes payable_. <br/> Then accrue interest to reporting date: Dr _Interest expense_, Cr _Interest payable_. <!--SR:!2026-05-18,17,314!2026-05-15,15,314-->
+- conversion of AP to note: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_ (same amount). <!--SR:!2026-05-18,17,314!2026-05-16,16,314-->
+- after conversion to note: Given principal, rate, and months to reporting date, how is interest recorded? ::@:: Accrue interest (principal × rate × months/12); Dr _Interest expense_, Cr _Interest payable_. <!--SR:!2026-05-16,15,314!2026-05-18,17,314-->
+- conversion example: AP 12 000 → note 1 Sept, 9%—conversion entry? ::@:: Dr _Accounts payable_ 12 000, Cr _Notes payable_ 12 000. <!--SR:!2026-05-17,16,314!2026-05-18,17,314-->
+- conversion example: note 12 000, 9%, 4 months to year-end—accrual entry? ::@:: Dr _Interest expense_ 360, Cr _Interest payable_ 360. <!--SR:!2026-05-17,17,301!2026-05-17,16,301-->
 
 ### implicit-interest notes (notes issued at a discount)
 
@@ -196,7 +196,7 @@ Representative journal entry examples:
 > | {@{Interest expense}@}                                 | {@{1 800}@} |             |
 > | {@{Notes payable}@}                                    |             | {@{1 800}@} |
 >
-> _Calculation._ {@{7 200 × 3/12}@} = {@{1 800}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount. <!--SR:!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,281!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294-->
+> _Calculation._ {@{7 200 × 3/12}@} = {@{1 800}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount. <!--SR:!2026-05-16,16,314!2026-05-17,16,314!2026-05-18,17,314!2026-05-16,15,314!2026-05-18,17,301!2026-05-15,15,314!2026-05-16,15,314!2026-05-17,16,314!2026-05-16,15,314!2026-05-16,15,314-->
 
 <!-- markdownlint MD028 -->
 > _Scenario._ The Sunrise Packaging note matures; {@{carrying amount 75 600, pay 75 600 cash}@}.
@@ -204,19 +204,19 @@ Representative journal entry examples:
 > | {@{Pay note at maturity}@} | Dr           | Cr           |
 > | -------------------------- | ------------ | ------------ |
 > | {@{Notes payable}@}        | {@{75 600}@} |              |
-> | {@{Cash}@}                 |              | {@{75 600}@} | <!--SR:!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,281-->
+> | {@{Cash}@}                 |              | {@{75 600}@} | <!--SR:!2026-05-18,17,314!2026-05-16,15,314!2026-05-16,15,314!2026-05-18,17,314!2026-05-17,16,301-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- implicit (embedded) interest ::@:: The difference when a note is issued at discount (cash received &lt; maturity amount); allocated as interest expense over the term. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- when does implicit interest arise? ::@:: When a note is issued at a discount (cash received < amount due at maturity); no separate interest rate is stated. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- implicit interest note: why credit Notes payable not Interest payable? ::@:: So the carrying amount of the note increases to the maturity amount; if credited to _Interest payable_ the note would stay at the original amount. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- implicit-interest note: Given total discount D and months elapsed m of total term, how is accrual recorded? ::@:: Allocate interest over the term (e.g. D × m/12); Dr _Interest expense_, Cr _Notes payable_ so the note's carrying amount grows to the maturity amount. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- implicit interest note: receive 68 400, repay 75 600 in 12 months—accrual for 3 months? ::@:: Dr _Interest expense_ 1 800, Cr _Notes payable_ 1 800 (i.e. 7 200 × 3/12). <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- implicit interest note at maturity: journal entry? ::@:: Dr _Notes payable_ (full maturity amount), Cr _Cash_. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- settling note with implicit interest: carrying amount 75 600 at due date—entry? ::@:: Dr _Notes payable_ 75 600, Cr _Cash_ 75 600. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
+- implicit (embedded) interest ::@:: The difference when a note is issued at discount (cash received &lt; maturity amount); allocated as interest expense over the term. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- when does implicit interest arise? ::@:: When a note is issued at a discount (cash received < amount due at maturity); no separate interest rate is stated. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- implicit interest note: why credit Notes payable not Interest payable? ::@:: So the carrying amount of the note increases to the maturity amount; if credited to _Interest payable_ the note would stay at the original amount. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- implicit-interest note: Given total discount D and months elapsed m of total term, how is accrual recorded? ::@:: Allocate interest over the term (e.g. D × m/12); Dr _Interest expense_, Cr _Notes payable_ so the note's carrying amount grows to the maturity amount. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- implicit interest note: receive 68 400, repay 75 600 in 12 months—accrual for 3 months? ::@:: Dr _Interest expense_ 1 800, Cr _Notes payable_ 1 800 (i.e. 7 200 × 3/12). <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- implicit interest note at maturity: journal entry? ::@:: Dr _Notes payable_ (full maturity amount), Cr _Cash_. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- settling note with implicit interest: carrying amount 75 600 at due date—entry? ::@:: Dr _Notes payable_ 75 600, Cr _Cash_ 75 600. <!--SR:!2026-05-19,18,331!2026-05-18,18,331-->
 
 ## refinancing and classification as current or long-term
 
@@ -228,12 +228,12 @@ The __timing__ of refinancing also matters. If the refinancing (e.g. a new loan 
 
 Flashcards for this section are as follows:
 
-- exclude from current liabilities refinancing ::@:: Both must hold: (1) expect to refinance on a long-term basis (e.g. extend due date or replace with long-term financing), (2) unconditional right to defer settlement. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- covenants (refinancing) ::@:: Conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, minimum cash); make the right to defer conditional. <!--SR:!2026-04-12,4,281!2026-04-12,4,294-->
-- conditional right to defer ::@:: If the refinancing agreement has conditions (e.g. maintain current ratio), the right to defer is conditional and the liability stays current. <!--SR:!2026-04-12,4,294!2026-04-10,4,270-->
-- refinancing before vs after balance sheet date ::@:: Finalised before balance sheet date → may classify as long-term; finalised after → at reporting date no right to defer → current. <!--SR:!2026-04-12,4,294!2026-04-10,4,270-->
-- why does current vs long-term classification matter? ::@:: Moving debt to current can reduce the current ratio and trigger liquidity concerns, supplier demands, or breach of loan covenants. <!--SR:!2026-04-12,4,294!2026-04-12,4,281-->
-- what makes the right to defer settlement conditional? ::@:: Covenants or conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, or minimum cash); lender can demand repayment if breached. <!--SR:!2026-04-12,4,294!2026-04-10,4,270-->
+- exclude from current liabilities refinancing ::@:: Both must hold: (1) expect to refinance on a long-term basis (e.g. extend due date or replace with long-term financing), (2) unconditional right to defer settlement. <!--SR:!2026-05-17,16,314!2026-05-17,16,314-->
+- covenants (refinancing) ::@:: Conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, minimum cash); make the right to defer conditional. <!--SR:!2026-05-16,16,301!2026-05-17,16,314-->
+- conditional right to defer ::@:: If the refinancing agreement has conditions (e.g. maintain current ratio), the right to defer is conditional and the liability stays current. <!--SR:!2026-05-18,17,314!2026-05-14,14,290-->
+- refinancing before vs after balance sheet date ::@:: Finalised before balance sheet date → may classify as long-term; finalised after → at reporting date no right to defer → current. <!--SR:!2026-05-17,16,314!2026-05-15,14,290-->
+- why does current vs long-term classification matter? ::@:: Moving debt to current can reduce the current ratio and trigger liquidity concerns, supplier demands, or breach of loan covenants. <!--SR:!2026-05-17,17,314!2026-05-18,17,301-->
+- what makes the right to defer settlement conditional? ::@:: Covenants or conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, or minimum cash); lender can demand repayment if breached. <!--SR:!2026-05-17,16,314!2026-05-15,14,290-->
 
 ## income tax payable
 
@@ -246,16 +246,16 @@ Representative journal entry example:
 > | {@{Recognise tax expense and payable}@}   | Dr            | Cr            |
 > | ----------------------------------------- | ------------- | ------------- |
 > | {@{Tax expense (or Income tax expense)}@} | {@{135 000}@} |               |
-> | {@{Tax payable (or Income tax payable)}@} |               | {@{135 000}@} | <!--SR:!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294-->
+> | {@{Tax payable (or Income tax payable)}@} |               | {@{135 000}@} | <!--SR:!2026-05-18,17,314!2026-05-18,17,314!2026-05-16,15,314!2026-05-18,17,314!2026-05-18,17,314!2026-05-16,15,314-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- income tax payable recognition ::@:: Dr _Tax expense_ (or similar), Cr _Tax payable_ when tax is owed but not yet paid at the reporting date; classified as current liability. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- why is income tax payable usually current? ::@:: The amount is typically due within a few months (e.g. three or four months) after the reporting date. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- income tax payable: when and what entry? ::@:: At reporting date when tax is owed but not yet paid; Dr _Tax expense_, Cr _Tax payable_; classified as current liability. <!--SR:!2026-04-12,4,294!2026-04-12,4,294-->
-- income tax example: tax expense 135 000 owed at year-end—entry? ::@:: Dr _Tax expense_ 135 000, Cr _Tax payable_ 135 000. <!--SR:!2026-04-12,4,294!2026-04-12,4,281-->
+- income tax payable recognition ::@:: Dr _Tax expense_ (or similar), Cr _Tax payable_ when tax is owed but not yet paid at the reporting date; classified as current liability. <!--SR:!2026-05-16,15,314!2026-05-18,17,314-->
+- why is income tax payable usually current? ::@:: The amount is typically due within a few months (e.g. three or four months) after the reporting date. <!--SR:!2026-05-18,17,314!2026-05-16,15,314-->
+- income tax payable: when and what entry? ::@:: At reporting date when tax is owed but not yet paid; Dr _Tax expense_, Cr _Tax payable_; classified as current liability. <!--SR:!2026-05-17,17,314!2026-05-17,17,314-->
+- income tax example: tax expense 135 000 owed at year-end—entry? ::@:: Dr _Tax expense_ 135 000, Cr _Tax payable_ 135 000. <!--SR:!2026-05-16,15,314!2026-05-15,15,301-->
 
 ## compensated absence
 
@@ -267,8 +267,8 @@ Example: employees earn two weeks of paid vacation at the beginning of their sec
 
 Flashcards for this section are as follows:
 
-- compensated absence: core recognition rule ::@:: Recognize the expense and liability when employees earn the vested right to the paid benefit, not only when the leave is later taken or paid. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- compensated absence: why can later payment create extra expense? ::@:: Because the liability was accrued using the earned-period wage rate, while the actual settlement may happen at a different current wage rate. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
+- compensated absence: core recognition rule ::@:: Recognize the expense and liability when employees earn the vested right to the paid benefit, not only when the leave is later taken or paid. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- compensated absence: why can later payment create extra expense? ::@:: Because the liability was accrued using the earned-period wage rate, while the actual settlement may happen at a different current wage rate. <!--SR:!2026-05-19,18,331!2026-05-18,18,331-->
 
 ### vested rights, accrual, and settlement
 
@@ -279,7 +279,7 @@ Representative journal entry examples:
 > | {@{Recognise expense and wages payable}@} | Dr           | Cr           |
 > | ----------------------------------------- | ------------ | ------------ |
 > | {@{Salaries and wages expense}@}          | {@{12 480}@} |              |
-> | {@{Wages payable}@}                       |              | {@{12 480}@} | <!--SR:!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311-->
+> | {@{Wages payable}@}                       |              | {@{12 480}@} | <!--SR:!2026-05-19,18,331!2026-05-18,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-18,18,331!2026-05-18,18,331!2026-05-18,18,331-->
 
 <!-- markdownlint MD028 -->
 > _Scenario._ BrightWave carries {@{Wages payable of 12 480 (24 weeks at 520). Employees take vacation; current rate is 590 per week}@}. Cash paid is {@{14 160; difference 1 680 expense in the payment period}@}.
@@ -290,7 +290,7 @@ Representative journal entry examples:
 > | {@{Salaries and wages expense}@}                        | {@{1 680}@}  |              |
 > | {@{Cash}@}                                              |              | {@{14 160}@} |
 >
-> _Explanation._ The liability is settled at the rate originally accrued {@{(24 weeks × 520 = 12 480)}@}. When cash is paid at the higher current rate {@{(24 weeks × 590 = 14 160)}@}, the extra {@{1 680 is current-period salaries and wages expense caused by the higher payment-date wage rate}@}. <!--SR:!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311-->
+> _Explanation._ The liability is settled at the rate originally accrued {@{(24 weeks × 520 = 12 480)}@}. When cash is paid at the higher current rate {@{(24 weeks × 590 = 14 160)}@}, the extra {@{1 680 is current-period salaries and wages expense caused by the higher payment-date wage rate}@}. <!--SR:!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-18,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331-->
 
 <!-- markdownlint MD028 -->
 > _Weird flip: wages fall instead of rise._ The same BrightWave employees had {@{24 vested vacation weeks accrued at 520 per week}@}, but when employees actually take the leave the current wage rate has fallen to {@{470 per week, so total cash paid is only 11 280}@}.
@@ -301,7 +301,7 @@ Representative journal entry examples:
 > | {@{Cash}@}                                                                                 |              | {@{11 280}@} |
 > | {@{Salaries and wages expense}@}                                                           |              | {@{1 200}@}  |
 >
-> _Explanation._ This deliberately produces a {@{credit to current-period salaries and wages expense}@} because the liability had been recorded using a {@{higher earned wage rate than the later payment rate}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
+> _Explanation._ This deliberately produces a {@{credit to current-period salaries and wages expense}@} because the liability had been recorded using a {@{higher earned wage rate than the later payment rate}@}. <!--SR:!2026-05-19,19,342!2026-05-19,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342-->
 
 <!-- markdownlint MD028 -->
 > _Only vested employees create the liability._ At year-end, BrightWave has {@{14 employees who have completed the vesting period and earned 28 unused weeks at 510 per week}@}. Another {@{4 employees have worked only 10 months and are not yet vested}@}. The company accrues only the vested amount.
@@ -311,14 +311,14 @@ Representative journal entry examples:
 > | {@{Salaries and wages expense}@}                                        | {@{14 280}@} |              |
 > | {@{Wages payable}@}                                                     |              | {@{14 280}@} |
 >
-> _Explanation._ The non-vested employees do {@{not yet have an unconditional right to the benefit}@}, so they are {@{excluded from the year-end liability measurement}@}. <!--SR:!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
+> _Explanation._ The non-vested employees do {@{not yet have an unconditional right to the benefit}@}, so they are {@{excluded from the year-end liability measurement}@}. <!--SR:!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342!2026-05-20,19,342-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- compensated absence vested-right test ::@:: Include only employees whose service has already created a vested entitlement, because only that earned portion is a present obligation at year-end. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- compensated absence settlement: what happens when actual wages differ from the accrued rate? ::@:: Remove the old _Wages payable_ at the accrued amount and send the difference between that amount and current cash payment to current-period _Salaries and wages expense_ (or a credit to that expense if wages fell). <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
+- compensated absence vested-right test ::@:: Include only employees whose service has already created a vested entitlement, because only that earned portion is a present obligation at year-end. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- compensated absence settlement: what happens when actual wages differ from the accrued rate? ::@:: Remove the old _Wages payable_ at the accrued amount and send the difference between that amount and current cash payment to current-period _Salaries and wages expense_ (or a credit to that expense if wages fell). <!--SR:!2026-05-18,18,331!2026-05-19,18,331-->
 
 ### unused vacation carried forward beyond the first settlement period
 
@@ -332,7 +332,7 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 > | {@{Salaries and wages expense}@} | {@{1&nbsp;120}@} | |
 > | {@{Cash}@} | | {@{9&nbsp;440}@} |
 >
-> _Calculation._ The used portion removes {@{16 × 520 = 8&nbsp;320}@} from the old liability. Cash paid is {@{16 × 590 = 9&nbsp;440}@}, so the extra {@{1&nbsp;120}@} is current-period salaries and wages expense. After this entry, the carrying balance left in {@{Wages payable is 4&nbsp;160 for the 8 unused weeks still outstanding}@}. <!--SR:!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,311!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322!2026-04-12,4,322-->
+> _Calculation._ The used portion removes {@{16 × 520 = 8&nbsp;320}@} from the old liability. Cash paid is {@{16 × 590 = 9&nbsp;440}@}, so the extra {@{1&nbsp;120}@} is current-period salaries and wages expense. After this entry, the carrying balance left in {@{Wages payable is 4&nbsp;160 for the 8 unused weeks still outstanding}@}. <!--SR:!2026-05-18,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-19,18,331!2026-05-20,19,342!2026-05-20,19,342!2026-05-19,19,342!2026-05-19,19,342-->
 
 <!-- markdownlint MD028 -->
 > _Year-end remeasurement of the unused portion._ If BrightWave now expects those {@{8 unused vested weeks}@} to be paid at the current rate of {@{590 per week, so the remaining liability should be 4&nbsp;720 rather than 4&nbsp;160}@}.
@@ -342,21 +342,21 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 > | {@{Salaries and wages expense}@} | {@{560}@} | |
 > | {@{Wages payable}@} | | {@{560}@} |
 >
-> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end. <!--SR:!2026-04-12,4,294!2026-04-12,4,281!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294!2026-04-12,4,294-->
+> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end. <!--SR:!2026-05-16,16,314!2026-05-16,15,301!2026-05-18,17,314!2026-05-17,16,314!2026-05-16,15,314!2026-05-16,16,314-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- compensated absence ::@:: Paid absence (e.g. vacation pay) recognised when earned, not when paid, if the employee has satisfied the vesting condition. <br/> Key: the right to the benefit doesn't depend on when it's used; usage restrictions alone don't delay recognition. <br/> Example: policy states "earned after one year of service but usable only from next February" → recognise at year-end when the year is complete, not in February. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- vesting period (compensated absence) ::@:: The required service period the employee must complete before obtaining an unconditional right to the benefit. <br/> Once complete, the right is vested and must be recognised immediately at the earned wage rate, even if payment is deferred. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- vacation pay example: 24 weeks at 520/week earned (end of year 1)—journal entry? ::@:: Dr _Salaries and wages expense_&emsp;12&nbsp;480 <br/> &emsp;Cr _Wages payable_&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;12&nbsp;480 <br/> (24 weeks × 520; recognised at year-end when the vesting period is complete.) <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- vacation pay example: Wages payable 12&nbsp;480 settled, employees paid at 590/week—journal entry? ::@:: Dr _Wages payable_&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;12&nbsp;480 <br/> Dr _Salaries and wages expense_&emsp;1&nbsp;680 <br/> &emsp;Cr _Cash_&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;14&nbsp;160 <br/> (Settled with cash 24 × 590 = 14&nbsp;160; wage increase 70/week generates extra 1&nbsp;680 expense in the payment period.) <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- vacation pay: what if wage decreases when paid (e.g. from 520 to 470/week)? ::@:: Dr _Wages payable_ 12&nbsp;480, Cr _Cash_ (24 × 470 = 11&nbsp;280), Cr _Salaries and wages expense_ (1&nbsp;200 credit/gain). <br/> The original liability was 12&nbsp;480 at the earned rate (520/week); settlement at lower rate (470/week) generates a credit to expense (reduces current-period expense). <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- compensated absence: who is included in the year-end accrual? ::@:: Only employees who have completed the vesting requirement and therefore already have a vested right to the future paid absence. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- compensated absence: when to recognise expense and liability? ::@:: When the right is earned (e.g. at end of vesting period), even if payment is in a later period; Dr _Salaries and wages expense_, Cr _Wages payable_. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- vacation pay earned: 24 weeks at 520/week at end of year 1—entry? ::@:: Dr _Salaries and wages expense_ 12 480, Cr _Wages payable_ 12 480. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- compensated absence: journal entry when vacation is paid (current rate > accrued rate)? ::@:: One payment entry: Dr _Wages payable_ (accrued amount), Dr _Salaries and wages expense_ (difference to current rate), Cr _Cash_ (total paid). <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- vacation pay paid: Wages payable 12 480, pay 24 weeks at 590/week—entry? ::@:: Dr _Wages payable_ 12 480, Dr _Salaries and wages expense_ 1 680, Cr _Cash_ 14 160. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- unused vested vacation at year-end: what happens if only part of the accrued leave was used? ::@:: Remove only the portion actually used from _Wages payable_; the unused vested portion stays as a liability until used or paid out. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
-- unused vested vacation carried forward: when is an extra year-end expense needed? ::@:: If the remaining vested vacation is expected to be paid at a higher current wage rate than the amount still sitting in _Wages payable_, debit _Salaries and wages expense_ and credit _Wages payable_ for the remeasurement difference. <!--SR:!2026-04-12,4,311!2026-04-12,4,311-->
+- compensated absence ::@:: Paid absence (e.g. vacation pay) recognised when earned, not when paid, if the employee has satisfied the vesting condition. <br/> Key: the right to the benefit doesn't depend on when it's used; usage restrictions alone don't delay recognition. <br/> Example: policy states "earned after one year of service but usable only from next February" → recognise at year-end when the year is complete, not in February. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- vesting period (compensated absence) ::@:: The required service period the employee must complete before obtaining an unconditional right to the benefit. <br/> Once complete, the right is vested and must be recognised immediately at the earned wage rate, even if payment is deferred. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- vacation pay example: 24 weeks at 520/week earned (end of year 1)—journal entry? ::@:: Dr _Salaries and wages expense_&emsp;12&nbsp;480 <br/> &emsp;Cr _Wages payable_&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;12&nbsp;480 <br/> (24 weeks × 520; recognised at year-end when the vesting period is complete.) <!--SR:!2026-05-18,18,331!2026-05-19,18,331-->
+- vacation pay example: Wages payable 12&nbsp;480 settled, employees paid at 590/week—journal entry? ::@:: Dr _Wages payable_&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;12&nbsp;480 <br/> Dr _Salaries and wages expense_&emsp;1&nbsp;680 <br/> &emsp;Cr _Cash_&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;14&nbsp;160 <br/> (Settled with cash 24 × 590 = 14&nbsp;160; wage increase 70/week generates extra 1&nbsp;680 expense in the payment period.) <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- vacation pay: what if wage decreases when paid (e.g. from 520 to 470/week)? ::@:: Dr _Wages payable_ 12&nbsp;480, Cr _Cash_ (24 × 470 = 11&nbsp;280), Cr _Salaries and wages expense_ (1&nbsp;200 credit/gain). <br/> The original liability was 12&nbsp;480 at the earned rate (520/week); settlement at lower rate (470/week) generates a credit to expense (reduces current-period expense). <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- compensated absence: who is included in the year-end accrual? ::@:: Only employees who have completed the vesting requirement and therefore already have a vested right to the future paid absence. <!--SR:!2026-05-19,18,331!2026-05-18,18,331-->
+- compensated absence: when to recognise expense and liability? ::@:: When the right is earned (e.g. at end of vesting period), even if payment is in a later period; Dr _Salaries and wages expense_, Cr _Wages payable_. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- vacation pay earned: 24 weeks at 520/week at end of year 1—entry? ::@:: Dr _Salaries and wages expense_ 12 480, Cr _Wages payable_ 12 480. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- compensated absence: journal entry when vacation is paid (current rate > accrued rate)? ::@:: One payment entry: Dr _Wages payable_ (accrued amount), Dr _Salaries and wages expense_ (difference to current rate), Cr _Cash_ (total paid). <!--SR:!2026-05-19,18,331!2026-05-18,18,331-->
+- vacation pay paid: Wages payable 12 480, pay 24 weeks at 590/week—entry? ::@:: Dr _Wages payable_ 12 480, Dr _Salaries and wages expense_ 1 680, Cr _Cash_ 14 160. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- unused vested vacation at year-end: what happens if only part of the accrued leave was used? ::@:: Remove only the portion actually used from _Wages payable_; the unused vested portion stays as a liability until used or paid out. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->
+- unused vested vacation carried forward: when is an extra year-end expense needed? ::@:: If the remaining vested vacation is expected to be paid at a higher current wage rate than the amount still sitting in _Wages payable_, debit _Salaries and wages expense_ and credit _Wages payable_ for the remeasurement difference. <!--SR:!2026-05-19,18,331!2026-05-19,18,331-->

@@ -23,10 +23,10 @@ This note also sharpens a core distinction that recurs throughout machine learni
 
 Flashcards for this section are as follows:
 
-- overview with formulas ::@:: The note compares three classification viewpoints: probabilistic classification learns $Q(y\mid x)$ and predicts by $\hat y=\arg\max_y Q(y\mid x)$; optimization-based classification minimizes a surrogate risk such as $\frac{1}{N}\sum_i \phi(y_if(x_i))$; and generative classification models $P(y)$ together with $P(x\mid y)$ and predicts by $\hat y=\arg\max_y P(y)P(x\mid y)$. <!--SR:!2026-04-12,4,304!2026-04-12,4,284-->
-- why the note insists on three viewpoints ::@:: The three-viewpoint split makes clear that classification can be approached by posterior modeling, by direct loss minimization on a score function, or by modeling how each class generates data. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
-- why this lecture matters ::@:: Comparing probabilistic, optimization-based, and generative approaches clarifies the trade-off between calibrated posterior modeling, direct decision-boundary fitting, and stronger structural assumptions about how data are generated. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- error versus loss as a core theme with formulas ::@:: In classification one ultimately cares about error rates such as $\frac{1}{N}\sum_i \mathbf{1}[\hat y_i\ne y_i]$, but training usually minimizes a smoother surrogate loss such as cross entropy or $\frac{1}{N}\sum_i \phi(y_if(x_i))$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- overview with formulas ::@:: The note compares three classification viewpoints: probabilistic classification learns $Q(y\mid x)$ and predicts by $\hat y=\arg\max_y Q(y\mid x)$; optimization-based classification minimizes a surrogate risk such as $\frac{1}{N}\sum_i \phi(y_if(x_i))$; and generative classification models $P(y)$ together with $P(x\mid y)$ and predicts by $\hat y=\arg\max_y P(y)P(x\mid y)$. <!--SR:!2026-05-12,18,324!2026-05-10,16,304-->
+- why the note insists on three viewpoints ::@:: The three-viewpoint split makes clear that classification can be approached by posterior modeling, by direct loss minimization on a score function, or by modeling how each class generates data. <!--SR:!2026-05-15,16,304!2026-05-17,18,325-->
+- why this lecture matters ::@:: Comparing probabilistic, optimization-based, and generative approaches clarifies the trade-off between calibrated posterior modeling, direct decision-boundary fitting, and stronger structural assumptions about how data are generated. <!--SR:!2026-05-11,17,304!2026-05-15,16,304-->
+- error versus loss as a core theme with formulas ::@:: In classification one ultimately cares about error rates such as $\frac{1}{N}\sum_i \mathbf{1}[\hat y_i\ne y_i]$, but training usually minimizes a smoother surrogate loss such as cross entropy or $\frac{1}{N}\sum_i \phi(y_if(x_i))$. <!--SR:!2026-05-09,15,304!2026-05-16,17,304-->
 
 ## probabilistic approach to classification
 
@@ -42,12 +42,12 @@ The main strength of the probabilistic approach is that its scores have direct m
 
 Flashcards for this section are as follows:
 
-- probabilistic approach to classification ::@:: The probabilistic approach learns posterior class probabilities such as $Q(y\mid x)$ or $P(y\mid x)$ directly and then predicts by choosing the action that is best under those probabilities. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- multiclass posterior decision rule ::@:: In probabilistic multiclass classification, prediction is $\hat y=\arg\max_y Q(y\mid x)$, meaning choose the class with largest posterior probability. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- binary equal-cost threshold in the probabilistic approach ::@:: In binary equal-cost classification, the probabilistic decision rule predicts class $1$ when $Q(y=1\mid x)>0.5$ and class $0$ otherwise. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
-- probabilities first, decisions second ::@:: In the probabilistic approach, parameters are learned by likelihood or cross entropy to produce posterior probabilities first, and only then are those probabilities converted into actions by thresholding or argmax. <!--SR:!2026-04-12,4,284!2026-04-12,4,304-->
-- estimation layer versus decision layer in probabilistic classification ::@:: The estimation layer learns posterior probabilities $Q(y\mid x)$, while the decision layer converts them into actions according to the chosen threshold or loss structure. <!--SR:!2026-04-12,4,303!2026-04-12,4,284-->
-- why probabilistic classification is useful ::@:: Probabilistic classification is useful because posterior scores can be interpreted, thresholded, calibrated, and adapted to different cost structures without retraining the model. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- probabilistic approach to classification ::@:: The probabilistic approach learns posterior class probabilities such as $Q(y\mid x)$ or $P(y\mid x)$ directly and then predicts by choosing the action that is best under those probabilities. <!--SR:!2026-05-09,15,304!2026-05-16,17,304-->
+- multiclass posterior decision rule ::@:: In probabilistic multiclass classification, prediction is $\hat y=\arg\max_y Q(y\mid x)$, meaning choose the class with largest posterior probability. <!--SR:!2026-05-16,17,304!2026-05-16,17,304-->
+- binary equal-cost threshold in the probabilistic approach ::@:: In binary equal-cost classification, the probabilistic decision rule predicts class $1$ when $Q(y=1\mid x)>0.5$ and class $0$ otherwise. <!--SR:!2026-05-10,16,304!2026-05-17,18,325-->
+- probabilities first, decisions second ::@:: In the probabilistic approach, parameters are learned by likelihood or cross entropy to produce posterior probabilities first, and only then are those probabilities converted into actions by thresholding or argmax. <!--SR:!2026-05-15,16,304!2026-05-17,18,324-->
+- estimation layer versus decision layer in probabilistic classification ::@:: The estimation layer learns posterior probabilities $Q(y\mid x)$, while the decision layer converts them into actions according to the chosen threshold or loss structure. <!--SR:!2026-05-12,18,323!2026-05-11,17,304-->
+- why probabilistic classification is useful ::@:: Probabilistic classification is useful because posterior scores can be interpreted, thresholded, calibrated, and adapted to different cost structures without retraining the model. <!--SR:!2026-05-10,16,304!2026-05-10,16,304-->
 
 ### worked posterior-decision calculations
 
@@ -59,10 +59,10 @@ Binary thresholding shows the decision-theoretic layer more clearly. Suppose $Q(
 
 Flashcards for this section are as follows:
 
-- worked multiclass posterior-decision example with full givens: If $Q(y=1\mid x)=0.15$, $Q(y=2\mid x)=0.70$, and $Q(y=3\mid x)=0.15$, what class is predicted? ::@:: Predict class $2$ because it has the largest posterior probability. <!--SR:!2026-04-12,4,284!2026-04-12,4,304-->
-- worked binary posterior-threshold example with full givens: If $Q(y=1\mid x)=0.42$ and $Q(y=0\mid x)=0.58$, what is the prediction under equal costs? ::@:: Under equal costs the threshold is $0.5$, so predict class $0$ because $0.42<0.5$. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
-- worked cost-sensitive posterior-threshold example with full givens: If $Q(y=1\mid x)=0.42$, false-positive cost is $C_{FP}=1$, and false-negative cost is $C_{FN}=3$, what class is Bayes-optimal? ::@:: The threshold is $\frac{C_{FP}}{C_{FP}+C_{FN}}=\frac14$, and since $0.42>0.25$, predict class $1$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why the same posterior can yield different actions ::@:: A fixed posterior model can produce different optimal class decisions when the threshold or cost structure changes, because decision-making is separate from probability estimation. <!--SR:!2026-04-12,4,303!2026-04-12,4,284-->
+- worked multiclass posterior-decision example with full givens: If $Q(y=1\mid x)=0.15$, $Q(y=2\mid x)=0.70$, and $Q(y=3\mid x)=0.15$, what class is predicted? ::@:: Predict class $2$ because it has the largest posterior probability. <!--SR:!2026-05-11,17,304!2026-05-17,18,324-->
+- worked binary posterior-threshold example with full givens: If $Q(y=1\mid x)=0.42$ and $Q(y=0\mid x)=0.58$, what is the prediction under equal costs? ::@:: Under equal costs the threshold is $0.5$, so predict class $0$ because $0.42<0.5$. <!--SR:!2026-05-16,17,304!2026-05-12,18,325-->
+- worked cost-sensitive posterior-threshold example with full givens: If $Q(y=1\mid x)=0.42$, false-positive cost is $C_{FP}=1$, and false-negative cost is $C_{FN}=3$, what class is Bayes-optimal? ::@:: The threshold is $\frac{C_{FP}}{C_{FP}+C_{FN}}=\frac14$, and since $0.42>0.25$, predict class $1$. <!--SR:!2026-05-11,17,304!2026-05-16,17,304-->
+- why the same posterior can yield different actions ::@:: A fixed posterior model can produce different optimal class decisions when the threshold or cost structure changes, because decision-making is separate from probability estimation. <!--SR:!2026-05-12,18,323!2026-05-16,17,304-->
 
 ## zero-one loss and empirical risk minimization
 
@@ -76,12 +76,12 @@ This objective is attractive precisely because it is mathematically faithful to 
 
 Flashcards for this section are as follows:
 
-- optimization-view linear classifier with score: In the optimization-based binary classification viewpoint, labels are encoded as $y\in\{-1,+1\}$ and the model uses a linear score before any probability model is introduced. What score function and prediction rule are used? ::@:: In the optimization view, the score is $f_{w,b}(x)=w^\top x+b$ and the classifier is $\hat y=\operatorname{sign}(f_{w,b}(x))$ for labels encoded as $\{-1,1\}$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- zero-one empirical risk formula: For the optimization-view binary classifier with labels $y_i\in\{-1,+1\}$, score $f_{w,b}(x_i)=w^\top x_i+b$, and prediction $\hat y_i=\operatorname{sign}(f_{w,b}(x_i))$, what is the empirical zero-one risk over $N$ training examples? ::@:: The empirical zero-one risk is $R_{0/1}(w,b)=\frac{1}{N}\sum_{i=1}^N \mathbf{1}\bigl[y_i\ne\operatorname{sign}(w^\top x_i+b)\bigr]$. <!--SR:!2026-04-12,4,305!2026-04-12,4,284-->
-- empirical risk minimization ::@:: Empirical risk minimization means minimizing the average training loss or training error over the observed dataset. <!--SR:!2026-04-12,4,303!2026-04-12,4,284-->
-- explicit bias term in the optimization approach ::@:: In this linear-classifier formulation, the intercept is written explicitly as $b$ rather than absorbed through the convention $x_0=1$. <!--SR:!2026-04-12,4,305!2026-04-12,4,303-->
-- why zero-one loss is attractive ::@:: Zero-one loss is attractive because it measures exactly whether the classifier is correct or incorrect on each example. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why direct error minimization is hard ::@:: Zero-one error is the right task-level quantity, but it is too discontinuous and too flat to optimize conveniently by gradient descent. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- optimization-view linear classifier with score: In the optimization-based binary classification viewpoint, labels are encoded as $y\in\{-1,+1\}$ and the model uses a linear score before any probability model is introduced. What score function and prediction rule are used? ::@:: In the optimization view, the score is $f_{w,b}(x)=w^\top x+b$ and the classifier is $\hat y=\operatorname{sign}(f_{w,b}(x))$ for labels encoded as $\{-1,1\}$. <!--SR:!2026-05-10,16,304!2026-05-10,16,304-->
+- zero-one empirical risk formula: For the optimization-view binary classifier with labels $y_i\in\{-1,+1\}$, score $f_{w,b}(x_i)=w^\top x_i+b$, and prediction $\hat y_i=\operatorname{sign}(f_{w,b}(x_i))$, what is the empirical zero-one risk over $N$ training examples? ::@:: The empirical zero-one risk is $R_{0/1}(w,b)=\frac{1}{N}\sum_{i=1}^N \mathbf{1}\bigl[y_i\ne\operatorname{sign}(w^\top x_i+b)\bigr]$. <!--SR:!2026-05-17,18,325!2026-05-16,17,304-->
+- empirical risk minimization ::@:: Empirical risk minimization means minimizing the average training loss or training error over the observed dataset. <!--SR:!2026-05-17,18,323!2026-05-09,15,304-->
+- explicit bias term in the optimization approach ::@:: In this linear-classifier formulation, the intercept is written explicitly as $b$ rather than absorbed through the convention $x_0=1$. <!--SR:!2026-05-12,18,325!2026-05-17,18,323-->
+- why zero-one loss is attractive ::@:: Zero-one loss is attractive because it measures exactly whether the classifier is correct or incorrect on each example. <!--SR:!2026-05-10,16,304!2026-05-09,15,304-->
+- why direct error minimization is hard ::@:: Zero-one error is the right task-level quantity, but it is too discontinuous and too flat to optimize conveniently by gradient descent. <!--SR:!2026-05-11,17,304!2026-05-16,17,304-->
 
 ### sign function and margin formulation
 
@@ -99,12 +99,12 @@ The margin is also useful because it lets many losses be written as one scalar f
 
 Flashcards for this section are as follows:
 
-- sign function ::@:: The sign function satisfies $\operatorname{sign}(z)=1$ for $z>0$, $\operatorname{sign}(z)=0$ for $z=0$, and $\operatorname{sign}(z)=-1$ for $z<0$. <!--SR:!2026-04-12,4,303!2026-04-12,4,284-->
-- score in a linear classifier ::@:: In a linear classifier, the score is $z=w^\top x+b$, and the predicted class is determined by the sign of that score. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
-- margin formulation and meaning: For a binary classifier with labels $y\in\{-1,+1\}$, score $z=w^\top x+b$, and margin $m=yz$, rewrite zero-one loss in margin form and interpret the cases $m>0$, $m=0$, and $m<0$. ::@:: If $z=w^\top x+b$, then zero-one loss is $L_{0/1}(y,z)=\mathbf{1}(yz\le 0)$. Here $yz>0$ means correct classification, $yz=0$ means boundary or tie, and $yz<0$ means misclassification. <!--SR:!2026-04-12,4,284!2026-04-12,4,270-->
-- course convention for zero margin ::@:: In this course, zero-one loss is written as $\mathbf{1}(yz\le 0)$, so a margin of exactly $0$ counts as loss $1$; other texts may instead use conventions such as $\mathbf{1}(yz<0)$ or a separate tie rule. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why the margin removes case splits ::@:: Writing losses as functions of the margin $m=yz$ turns label-dependent cases such as $\max(0,1-z)$ for $y=1$ and $\max(0,1+z)$ for $y=-1$ into one formula $\max(0,1-yz)$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why the margin is useful ::@:: The margin $yz$ summarizes both correctness and confidence, which is why many surrogate losses are written as functions of $yz$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- sign function ::@:: The sign function satisfies $\operatorname{sign}(z)=1$ for $z>0$, $\operatorname{sign}(z)=0$ for $z=0$, and $\operatorname{sign}(z)=-1$ for $z<0$. <!--SR:!2026-05-12,18,323!2026-05-10,16,304-->
+- score in a linear classifier ::@:: In a linear classifier, the score is $z=w^\top x+b$, and the predicted class is determined by the sign of that score. <!--SR:!2026-05-09,15,304!2026-05-12,18,325-->
+- margin formulation and meaning: For a binary classifier with labels $y\in\{-1,+1\}$, score $z=w^\top x+b$, and margin $m=yz$, rewrite zero-one loss in margin form and interpret the cases $m>0$, $m=0$, and $m<0$. ::@:: If $z=w^\top x+b$, then zero-one loss is $L_{0/1}(y,z)=\mathbf{1}(yz\le 0)$. Here $yz>0$ means correct classification, $yz=0$ means boundary or tie, and $yz<0$ means misclassification. <!--SR:!2026-05-10,16,304!2026-05-15,16,290-->
+- course convention for zero margin ::@:: In this course, zero-one loss is written as $\mathbf{1}(yz\le 0)$, so a margin of exactly $0$ counts as loss $1$; other texts may instead use conventions such as $\mathbf{1}(yz<0)$ or a separate tie rule. <!--SR:!2026-05-11,17,304!2026-05-15,16,304-->
+- why the margin removes case splits ::@:: Writing losses as functions of the margin $m=yz$ turns label-dependent cases such as $\max(0,1-z)$ for $y=1$ and $\max(0,1+z)$ for $y=-1$ into one formula $\max(0,1-yz)$. <!--SR:!2026-05-09,15,304!2026-05-16,17,304-->
+- why the margin is useful ::@:: The margin $yz$ summarizes both correctness and confidence, which is why many surrogate losses are written as functions of $yz$. <!--SR:!2026-05-09,15,304!2026-05-10,16,304-->
 
 ### worked margin computation
 
@@ -118,9 +118,9 @@ During training, one should therefore read margins in layers: a negative margin 
 
 Flashcards for this section are as follows:
 
-- worked margin sign check with full interpretation: If $y=-1$ and $z=0.7$, what are $\hat y=\operatorname{sign}(z)$ and $yz$, and what do they mean? ::@:: $\hat y=+1$, so the prediction is wrong, and $yz=(-1)(0.7)=-0.7<0$, confirming a misclassified point. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- worked margin comparison with full givens: If $y=-1$, compare the cases $z=-0.7$ and $z=-0.05$ ::@:: For $z=-0.7$, the margin is $yz=0.7$, so the point is correctly classified with comfortable positive margin; for $z=-0.05$, the margin is only $0.05$, so the point is still correct but fragile because a tiny perturbation could flip the sign. <!--SR:!2026-04-12,4,284!2026-04-12,4,303-->
-- margin-based training diagnostic ::@:: Watching how $yz$ moves from negative to positive gives richer feedback than raw correctness because it tracks both sign and confidence. <!--SR:!2026-04-12,4,303!2026-04-12,4,284-->
+- worked margin sign check with full interpretation: If $y=-1$ and $z=0.7$, what are $\hat y=\operatorname{sign}(z)$ and $yz$, and what do they mean? ::@:: $\hat y=+1$, so the prediction is wrong, and $yz=(-1)(0.7)=-0.7<0$, confirming a misclassified point. <!--SR:!2026-05-16,17,304!2026-05-09,15,304-->
+- worked margin comparison with full givens: If $y=-1$, compare the cases $z=-0.7$ and $z=-0.05$ ::@:: For $z=-0.7$, the margin is $yz=0.7$, so the point is correctly classified with comfortable positive margin; for $z=-0.05$, the margin is only $0.05$, so the point is still correct but fragile because a tiny perturbation could flip the sign. <!--SR:!2026-05-09,15,304!2026-05-12,18,323-->
+- margin-based training diagnostic ::@:: Watching how $yz$ moves from negative to positive gives richer feedback than raw correctness because it tracks both sign and confidence. <!--SR:!2026-05-12,18,323!2026-05-11,17,304-->
 
 ### why zero-one loss resists gradient descent
 
@@ -134,11 +134,11 @@ The same problem appears at the dataset level: the empirical zero-one risk is a 
 
 Flashcards for this section are as follows:
 
-- intuitive problem with zero-one loss ::@:: Small parameter changes often leave all predicted labels unchanged, so the empirical zero-one loss stays flat and provides no local signal. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- derivative of margin-form zero-one loss ::@:: If $\phi_{0/1}(m)=\mathbf{1}(m\le 0)$, then $\phi'_{0/1}(m)=0$ for $m\ne 0$ and is undefined at $m=0$. <!--SR:!2026-04-12,4,284!2026-04-12,4,270-->
-- gradient problem for one example ::@:: For one example with margin $m_i=y_i(w^\top x_i+b)$, the chain rule gives $\nabla_w L_{0/1}^{(i)}=\phi'_{0/1}(m_i)\,y_i x_i$, so the gradient is $0$ whenever $m_i\ne 0$ and undefined on the boundary. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why gradient descent fails on zero-one loss ::@:: Gradient descent fails on zero-one loss because the objective is flat away from boundary crossings, so local derivatives do not reveal gradual improvement. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
-- why a surrogate is needed ::@:: A surrogate loss is needed because classification error itself is too discontinuous or flat to optimize effectively by gradient-based methods. <!--SR:!2026-04-12,4,305!2026-04-12,4,284-->
+- intuitive problem with zero-one loss ::@:: Small parameter changes often leave all predicted labels unchanged, so the empirical zero-one loss stays flat and provides no local signal. <!--SR:!2026-05-11,17,304!2026-05-09,15,304-->
+- derivative of margin-form zero-one loss ::@:: If $\phi_{0/1}(m)=\mathbf{1}(m\le 0)$, then $\phi'_{0/1}(m)=0$ for $m\ne 0$ and is undefined at $m=0$. <!--SR:!2026-05-10,16,304!2026-05-08,14,290-->
+- gradient problem for one example ::@:: For one example with margin $m_i=y_i(w^\top x_i+b)$, the chain rule gives $\nabla_w L_{0/1}^{(i)}=\phi'_{0/1}(m_i)\,y_i x_i$, so the gradient is $0$ whenever $m_i\ne 0$ and undefined on the boundary. <!--SR:!2026-05-10,16,304!2026-05-16,17,304-->
+- why gradient descent fails on zero-one loss ::@:: Gradient descent fails on zero-one loss because the objective is flat away from boundary crossings, so local derivatives do not reveal gradual improvement. <!--SR:!2026-05-10,16,304!2026-05-17,18,325-->
+- why a surrogate is needed ::@:: A surrogate loss is needed because classification error itself is too discontinuous or flat to optimize effectively by gradient-based methods. <!--SR:!2026-05-12,18,325!2026-05-11,17,304-->
 
 ## surrogate losses
 
@@ -156,12 +156,12 @@ The lecture lists several canonical surrogates: logistic loss, hinge loss, expon
 
 Flashcards for this section are as follows:
 
-- surrogate loss idea ::@:: A surrogate loss replaces the zero-one loss with an objective of the form $L_\phi(w,b)=\frac{1}{N}\sum_i \phi\bigl(y_i(w^\top x_i+b)\bigr)$ that is easier to optimize while still encouraging correct classification. <!--SR:!2026-04-12,4,284!2026-04-12,4,304-->
-- why surrogates are needed ::@:: Surrogate losses are needed because the zero-one loss is too flat for gradient-based optimization. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- upper-bound rationale for surrogates ::@:: If $\phi(m)\ge \mathbf{1}(m\le 0)$ for every margin $m$, then empirical error $\frac{1}{N}\sum_i \mathbf{1}(m_i\le 0)$ is bounded above by surrogate risk $\frac{1}{N}\sum_i \phi(m_i)$. <!--SR:!2026-04-12,4,305!2026-04-12,4,270-->
-- margin in linear classification ::@:: For a binary label $y\in\{-1,1\}$ and score $z=w^\top x+b$, the product $yz$ is the signed margin: large positive values indicate confident correct classification. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- common boundary normalization convention ::@:: It is conventional to define or scale a margin surrogate so that $\phi(0)=1$, matching the course convention that zero-one loss also equals $1$ at the boundary $m=0$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- what surrogate losses have in common ::@:: Surrogate losses are usually decreasing functions of the margin, so they become small for confidently correct predictions and large when the classifier has small or negative margin. <!--SR:!2026-04-12,4,270!2026-04-12,4,284-->
+- surrogate loss idea ::@:: A surrogate loss replaces the zero-one loss with an objective of the form $L_\phi(w,b)=\frac{1}{N}\sum_i \phi\bigl(y_i(w^\top x_i+b)\bigr)$ that is easier to optimize while still encouraging correct classification. <!--SR:!2026-05-16,17,304!2026-05-12,18,324-->
+- why surrogates are needed ::@:: Surrogate losses are needed because the zero-one loss is too flat for gradient-based optimization. <!--SR:!2026-05-16,17,304!2026-05-10,16,304-->
+- upper-bound rationale for surrogates ::@:: If $\phi(m)\ge \mathbf{1}(m\le 0)$ for every margin $m$, then empirical error $\frac{1}{N}\sum_i \mathbf{1}(m_i\le 0)$ is bounded above by surrogate risk $\frac{1}{N}\sum_i \phi(m_i)$. <!--SR:!2026-05-12,18,325!2026-05-15,16,290-->
+- margin in linear classification ::@:: For a binary label $y\in\{-1,1\}$ and score $z=w^\top x+b$, the product $yz$ is the signed margin: large positive values indicate confident correct classification. <!--SR:!2026-05-09,15,304!2026-05-09,15,304-->
+- common boundary normalization convention ::@:: It is conventional to define or scale a margin surrogate so that $\phi(0)=1$, matching the course convention that zero-one loss also equals $1$ at the boundary $m=0$. <!--SR:!2026-05-11,17,304!2026-05-11,17,304-->
+- what surrogate losses have in common ::@:: Surrogate losses are usually decreasing functions of the margin, so they become small for confidently correct predictions and large when the classifier has small or negative margin. <!--SR:!2026-05-08,14,290!2026-05-16,17,304-->
 
 ### convex upper bounds and margin shaping
 
@@ -177,12 +177,12 @@ Margin shaping is the second reason these surrogates matter. Zero-one loss treat
 
 Flashcards for this section are as follows:
 
-- convexity definition ::@:: A function is convex if $f(tx_1+(1-t)x_2)\le tf(x_1)+(1-t)f(x_2)$ for all $t\in[0,1]$ and all relevant points $x_1,x_2$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- visual intuition for convexity ::@:: Visually, a function is convex when every straight chord between two points on its graph lies above or on the graph, so the curve has a bowl-like rather than arching-upward shape. <!--SR:!2026-04-12,4,303!2026-04-12,4,284-->
-- why convexity is desirable in surrogate losses ::@:: Convex surrogate losses are easier to optimize and behave more predictably than highly discontinuous nonconvex objectives such as zero-one loss. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
-- why the surrogate should upper-bound zero-one loss ::@:: If the surrogate loss upper-bounds zero-one loss, then minimizing the surrogate also pushes down an upper envelope of the true classification error. <!--SR:!2026-04-12,4,304!2026-04-12,4,284-->
-- pointwise upper-bound check at negative margins ::@:: If $m\le 0$, then hinge gives $\max(0,1-m)\ge 1$, scaled logistic gives $\frac{1}{\log 2}\log(1+e^{-m})\ge 1$, exponential gives $e^{-m}\ge 1$, and squared-margin loss gives $(1-m)^2\ge 1$, so each upper-bounds zero-one loss on the error side. <!--SR:!2026-04-12,4,270!2026-04-12,4,284-->
-- margin shaping ::@:: Surrogate losses often keep decreasing as the positive margin grows, so they reward not only correctness but also confidence. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- convexity definition ::@:: A function is convex if $f(tx_1+(1-t)x_2)\le tf(x_1)+(1-t)f(x_2)$ for all $t\in[0,1]$ and all relevant points $x_1,x_2$. <!--SR:!2026-05-16,17,304!2026-05-09,15,304-->
+- visual intuition for convexity ::@:: Visually, a function is convex when every straight chord between two points on its graph lies above or on the graph, so the curve has a bowl-like rather than arching-upward shape. <!--SR:!2026-05-17,18,323!2026-05-15,16,304-->
+- why convexity is desirable in surrogate losses ::@:: Convex surrogate losses are easier to optimize and behave more predictably than highly discontinuous nonconvex objectives such as zero-one loss. <!--SR:!2026-05-11,17,304!2026-05-17,18,325-->
+- why the surrogate should upper-bound zero-one loss ::@:: If the surrogate loss upper-bounds zero-one loss, then minimizing the surrogate also pushes down an upper envelope of the true classification error. <!--SR:!2026-05-12,18,324!2026-05-16,17,304-->
+- pointwise upper-bound check at negative margins ::@:: If $m\le 0$, then hinge gives $\max(0,1-m)\ge 1$, scaled logistic gives $\frac{1}{\log 2}\log(1+e^{-m})\ge 1$, exponential gives $e^{-m}\ge 1$, and squared-margin loss gives $(1-m)^2\ge 1$, so each upper-bounds zero-one loss on the error side. <!--SR:!2026-05-08,14,290!2026-05-10,16,304-->
+- margin shaping ::@:: Surrogate losses often keep decreasing as the positive margin grows, so they reward not only correctness but also confidence. <!--SR:!2026-05-15,16,304!2026-05-10,16,304-->
 
 ### common surrogate losses
 
@@ -204,13 +204,13 @@ Each surrogate therefore encodes a different learning bias. Logistic loss behave
 
 Flashcards for this section are as follows:
 
-- logistic surrogate and logistic-regression BCE relation ::@:: If $r\in\{0,1\}$, $y=2r-1\in\{-1,1\}$, score is $z$, and $p=\sigma(z)$, then binary cross entropy is $-\bigl(r\log p+(1-r)\log(1-p)\bigr)=\log(1+e^{-yz})$. The slides use the scaled version $\frac{1}{\log 2}\log(1+e^{-yz})$, which equals $1$ at margin $0$ and has the same minimizer because it differs only by a positive constant factor. <!--SR:!2026-04-12,4,305!2026-04-12,4,284-->
-- why scaled logistic loss is used in the classification note ::@:: Scaling $\log(1+e^{-m})$ by $1/\log 2$ makes the loss equal to $1$ at $m=0$, so it becomes a pointwise upper bound of zero-one loss while remaining equivalent to ordinary logistic-regression cross entropy for optimization. <!--SR:!2026-04-12,4,284!2026-04-12,4,270-->
-- derivative of scaled logistic loss ::@:: If $\phi_{\log}(m)=\frac{1}{\log 2}\log(1+e^{-m})$, then $\phi_{\log}'(m)=-\frac{1}{\log 2}\frac{1}{1+e^m}=-\frac{\sigma(-m)}{\log 2}$. <!--SR:!2026-04-12,4,284!2026-04-12,4,270-->
-- hinge loss interpretation with subgradient ::@:: Hinge loss is $\phi_{\mathrm{hinge}}(m)=\max\{0,1-m\}$; it is $1-m$ for $m<1$, $0$ for $m>1$, and has subgradient interval $[-1,0]$ at $m=1$, so it becomes zero only after a unit margin is achieved. <!--SR:!2026-04-12,4,270!2026-04-12,4,305-->
-- exponential loss interpretation with derivative ::@:: Exponential loss is $\phi_{\exp}(m)=e^{-m}$ with derivative $-e^{-m}$, so it punishes negative margins very strongly because the penalty grows exponentially as $m$ decreases. <!--SR:!2026-04-12,4,270!2026-04-12,4,284-->
-- squared loss in margin form ::@:: For labels $y\in\{-1,1\}$ and score $z$, the regression-style squared loss satisfies $(y-z)^2=(1-yz)^2=(1-m)^2$ with $m=yz$, so it can be viewed as a margin-based surrogate, although it is less natural because it is minimized at $m=1$ rather than simply rewarding larger and larger positive margins. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why different surrogates lead to different classifiers ::@:: Different surrogate losses weight margins and mistakes differently, so they can lead to different fitted decision boundaries and training dynamics. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
+- logistic surrogate and logistic-regression BCE relation ::@:: If $r\in\{0,1\}$, $y=2r-1\in\{-1,1\}$, score is $z$, and $p=\sigma(z)$, then binary cross entropy is $-\bigl(r\log p+(1-r)\log(1-p)\bigr)=\log(1+e^{-yz})$. The slides use the scaled version $\frac{1}{\log 2}\log(1+e^{-yz})$, which equals $1$ at margin $0$ and has the same minimizer because it differs only by a positive constant factor. <!--SR:!2026-05-05,11,305!2026-05-09,15,304-->
+- why scaled logistic loss is used in the classification note ::@:: Scaling $\log(1+e^{-m})$ by $1/\log 2$ makes the loss equal to $1$ at $m=0$, so it becomes a pointwise upper bound of zero-one loss while remaining equivalent to ordinary logistic-regression cross entropy for optimization. <!--SR:!2026-05-10,16,304!2026-05-08,14,290-->
+- derivative of scaled logistic loss ::@:: If $\phi_{\log}(m)=\frac{1}{\log 2}\log(1+e^{-m})$, then $\phi_{\log}'(m)=-\frac{1}{\log 2}\frac{1}{1+e^m}=-\frac{\sigma(-m)}{\log 2}$. <!--SR:!2026-05-10,16,304!2026-05-08,14,290-->
+- hinge loss interpretation with subgradient ::@:: Hinge loss is $\phi_{\mathrm{hinge}}(m)=\max\{0,1-m\}$; it is $1-m$ for $m<1$, $0$ for $m>1$, and has subgradient interval $[-1,0]$ at $m=1$, so it becomes zero only after a unit margin is achieved. <!--SR:!2026-05-08,14,290!2026-05-12,18,325-->
+- exponential loss interpretation with derivative ::@:: Exponential loss is $\phi_{\exp}(m)=e^{-m}$ with derivative $-e^{-m}$, so it punishes negative margins very strongly because the penalty grows exponentially as $m$ decreases. <!--SR:!2026-05-08,14,290!2026-05-10,16,304-->
+- squared loss in margin form ::@:: For labels $y\in\{-1,1\}$ and score $z$, the regression-style squared loss satisfies $(y-z)^2=(1-yz)^2=(1-m)^2$ with $m=yz$, so it can be viewed as a margin-based surrogate, although it is less natural because it is minimized at $m=1$ rather than simply rewarding larger and larger positive margins. <!--SR:!2026-05-10,16,304!2026-05-11,17,304-->
+- why different surrogates lead to different classifiers ::@:: Different surrogate losses weight margins and mistakes differently, so they can lead to different fitted decision boundaries and training dynamics. <!--SR:!2026-05-11,17,304!2026-05-17,18,325-->
 
 ### worked margin-to-loss comparison
 
@@ -224,10 +224,10 @@ The explicit scaled-versus-unscaled logistic comparison is important. The two va
 
 Flashcards for this section are as follows:
 
-- surrogate comparison at positive margin with scaled logistic: If $m=yz=2$, what are the zero-one, hinge, scaled logistic, unscaled logistic-regression, exponential, and squared-margin losses? ::@:: $L_{0/1}=0$, hinge $=\max(0,1-2)=0$, scaled logistic $=\frac{1}{\log 2}\log(1+e^{-2})\approx 0.183$, unscaled logistic-regression loss $=\log(1+e^{-2})\approx 0.127$, exponential $=e^{-2}\approx 0.135$, and squared-margin loss $=(1-2)^2=1$. <!--SR:!2026-04-12,4,270!2026-04-12,4,284-->
-- surrogate comparison at negative margin with scaled logistic: If $m=yz=-1$, what are the zero-one, hinge, scaled logistic, unscaled logistic-regression, exponential, and squared-margin losses? ::@:: $L_{0/1}=1$, hinge $=\max(0,1-(-1))=2$, scaled logistic $=\frac{1}{\log 2}\log(1+e)\approx 1.895$, unscaled logistic-regression loss $=\log(1+e)\approx 1.313$, exponential $=e\approx 2.718$, and squared-margin loss $=(1-(-1))^2=4$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why the scaled-versus-unscaled logistic comparison matters ::@:: The classification-note logistic loss and the logistic-regression BCE have the same shape and differ only by the positive factor $1/\log 2$, so they are optimization-equivalent even though their numeric values differ. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why the numeric comparison matters ::@:: The same margin can produce very different penalties under different surrogates, which explains differences in training dynamics and robustness. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- surrogate comparison at positive margin with scaled logistic: If $m=yz=2$, what are the zero-one, hinge, scaled logistic, unscaled logistic-regression, exponential, and squared-margin losses? ::@:: $L_{0/1}=0$, hinge $=\max(0,1-2)=0$, scaled logistic $=\frac{1}{\log 2}\log(1+e^{-2})\approx 0.183$, unscaled logistic-regression loss $=\log(1+e^{-2})\approx 0.127$, exponential $=e^{-2}\approx 0.135$, and squared-margin loss $=(1-2)^2=1$. <!--SR:!2026-05-15,16,290!2026-05-16,17,304-->
+- surrogate comparison at negative margin with scaled logistic: If $m=yz=-1$, what are the zero-one, hinge, scaled logistic, unscaled logistic-regression, exponential, and squared-margin losses? ::@:: $L_{0/1}=1$, hinge $=\max(0,1-(-1))=2$, scaled logistic $=\frac{1}{\log 2}\log(1+e)\approx 1.895$, unscaled logistic-regression loss $=\log(1+e)\approx 1.313$, exponential $=e\approx 2.718$, and squared-margin loss $=(1-(-1))^2=4$. <!--SR:!2026-05-09,15,304!2026-05-11,17,304-->
+- why the scaled-versus-unscaled logistic comparison matters ::@:: The classification-note logistic loss and the logistic-regression BCE have the same shape and differ only by the positive factor $1/\log 2$, so they are optimization-equivalent even though their numeric values differ. <!--SR:!2026-05-11,17,304!2026-05-16,17,304-->
+- why the numeric comparison matters ::@:: The same margin can produce very different penalties under different surrogates, which explains differences in training dynamics and robustness. <!--SR:!2026-05-09,15,304!2026-05-16,17,304-->
 
 ### loss versus error
 
@@ -245,12 +245,12 @@ This is directly parallel to the regression case, where one optimizes a training
 
 Flashcards for this section are as follows:
 
-- empirical error versus empirical surrogate loss ::@:: If margins are $m_i=y_i(w^\top x_i+b)$, then empirical error is $\widehat{\operatorname{err}}(w,b)=\frac{1}{N}\sum_i \mathbf{1}(m_i\le 0)$, while empirical surrogate loss is $\widehat L_\phi(w,b)=\frac{1}{N}\sum_i \phi(m_i)$; error counts wrong signs only, whereas loss also measures confidence through the chosen surrogate. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
-- training loss versus training error ::@:: Training loss measures the surrogate objective on the training set, whereas training error measures the actual misclassification rate on the training set. <!--SR:!2026-04-12,4,303!2026-04-12,4,284-->
-- test loss versus test error ::@:: Test loss measures the surrogate objective on unseen data, whereas test error measures the fraction of unseen examples that are misclassified. <!--SR:!2026-04-12,4,305!2026-04-12,4,284-->
-- counterexample where error improves but loss worsens ::@:: Using scaled logistic loss, margins can move from $(10,-0.1)$ to $(0.01,0.01)$, changing error from $\frac12$ to $0$ while increasing average loss because one formerly very confident correct point becomes almost ambiguous. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
-- counterexample where loss improves but error worsens ::@:: Using scaled logistic loss, margins can move from $(10,-10)$ to $(-0.01,-0.01)$, changing error from $\frac12$ to $1$ while decreasing average loss because the surrogate heavily rewards removing an extreme negative margin even though both points become slightly wrong. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- role of regularization in classification ::@:: Regularization can improve test loss and test error by reducing overfitting to peculiarities of the training data. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- empirical error versus empirical surrogate loss ::@:: If margins are $m_i=y_i(w^\top x_i+b)$, then empirical error is $\widehat{\operatorname{err}}(w,b)=\frac{1}{N}\sum_i \mathbf{1}(m_i\le 0)$, while empirical surrogate loss is $\widehat L_\phi(w,b)=\frac{1}{N}\sum_i \phi(m_i)$; error counts wrong signs only, whereas loss also measures confidence through the chosen surrogate. <!--SR:!2026-05-09,15,304!2026-05-17,18,325-->
+- training loss versus training error ::@:: Training loss measures the surrogate objective on the training set, whereas training error measures the actual misclassification rate on the training set. <!--SR:!2026-05-12,18,323!2026-05-09,15,304-->
+- test loss versus test error ::@:: Test loss measures the surrogate objective on unseen data, whereas test error measures the fraction of unseen examples that are misclassified. <!--SR:!2026-05-17,18,325!2026-05-09,15,304-->
+- counterexample where error improves but loss worsens ::@:: Using scaled logistic loss, margins can move from $(10,-0.1)$ to $(0.01,0.01)$, changing error from $\frac12$ to $0$ while increasing average loss because one formerly very confident correct point becomes almost ambiguous. <!--SR:!2026-05-09,15,304!2026-05-17,18,325-->
+- counterexample where loss improves but error worsens ::@:: Using scaled logistic loss, margins can move from $(10,-10)$ to $(-0.01,-0.01)$, changing error from $\frac12$ to $1$ while decreasing average loss because the surrogate heavily rewards removing an extreme negative margin even though both points become slightly wrong. <!--SR:!2026-05-11,17,304!2026-05-16,17,304-->
+- role of regularization in classification ::@:: Regularization can improve test loss and test error by reducing overfitting to peculiarities of the training data. <!--SR:!2026-05-16,17,304!2026-05-16,17,304-->
 
 ### calibration and threshold choice
 
@@ -262,9 +262,9 @@ For probabilistic scores, one can tune the threshold on a validation set to opti
 
 Flashcards for this section are as follows:
 
-- why threshold tuning matters ::@:: Different decision thresholds on the same score model can trade precision against recall, especially under class imbalance. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why threshold $0.5$ is not always optimal ::@:: A $0.5$ threshold is conventional but may be suboptimal when class priors or error costs are asymmetric. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- training versus deployment distinction ::@:: Minimizing training loss and selecting an operating threshold are separate design decisions that should both be validated. <!--SR:!2026-04-12,4,305!2026-04-12,4,284-->
+- why threshold tuning matters ::@:: Different decision thresholds on the same score model can trade precision against recall, especially under class imbalance. <!--SR:!2026-05-16,17,304!2026-05-16,17,304-->
+- why threshold $0.5$ is not always optimal ::@:: A $0.5$ threshold is conventional but may be suboptimal when class priors or error costs are asymmetric. <!--SR:!2026-05-09,15,304!2026-05-16,17,304-->
+- training versus deployment distinction ::@:: Minimizing training loss and selecting an operating threshold are separate design decisions that should both be validated. <!--SR:!2026-05-12,18,325!2026-05-16,17,304-->
 
 ## performance metrics for classification
 
@@ -280,9 +280,9 @@ The first memory rule is: _loss trains parameters, metrics evaluate decisions_. 
 
 Flashcards for this section are as follows:
 
-- training loss versus evaluation metric ::@:: A classifier is often trained by minimizing cross entropy but evaluated by metrics such as accuracy, precision, recall, and $F_1$, so training objective and evaluation summary are distinct. <!--SR:!2026-04-12,4,304!2026-04-12,4,284-->
-- metric-design memory rule ::@:: A practical memory rule is _loss trains probabilities, metrics evaluate thresholded decisions_. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- confusion-first memory rule ::@:: Compute metrics from confusion counts first; then formulas become bookkeeping rather than memorization. <!--SR:!2026-04-12,4,270!2026-04-12,4,284-->
+- training loss versus evaluation metric ::@:: A classifier is often trained by minimizing cross entropy but evaluated by metrics such as accuracy, precision, recall, and $F_1$, so training objective and evaluation summary are distinct. <!--SR:!2026-05-12,18,324!2026-05-09,15,304-->
+- metric-design memory rule ::@:: A practical memory rule is _loss trains probabilities, metrics evaluate thresholded decisions_. <!--SR:!2026-05-09,15,304!2026-05-16,17,304-->
+- confusion-first memory rule ::@:: Compute metrics from confusion counts first; then formulas become bookkeeping rather than memorization. <!--SR:!2026-05-08,14,290!2026-05-10,16,304-->
 
 ### confusion matrix and accuracy
 
@@ -296,11 +296,11 @@ Accuracy is easy to read and communicate, but it can be misleading under class i
 
 Flashcards for this section are as follows:
 
-- binary confusion matrix entries with meanings ::@:: Binary confusion counts are $TP$ (true positive), $FP$ (false positive), $TN$ (true negative), and $FN$ (false negative), where "true/false" compares prediction against the real label and "positive/negative" refers to the predicted class. <!--SR:!2026-04-12,4,284!2026-04-12,4,270-->
-- binary accuracy formula with notation meaning ::@:: Binary accuracy is $\frac{TP+TN}{TP+TN+FP+FN}$ because $TP+TN$ counts correct predictions and $TP+TN+FP+FN$ counts all evaluated examples. <!--SR:!2026-04-12,4,305!2026-04-12,4,284-->
-- multiclass confusion matrix notation with row-column roles ::@:: In multiclass settings, $M_{a,b}$ denotes the number of examples whose true class is $a$ and predicted class is $b$, so rows are true classes, columns are predicted classes, and diagonal entries are correct predictions. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- multiclass accuracy formula with interpretation ::@:: Multiclass accuracy is $\frac{\sum_{c=1}^C M_{c,c}}{\sum_{a=1}^C\sum_{b=1}^C M_{a,b}}$ because the numerator sums all correct diagonal counts and the denominator sums all examples in the confusion matrix. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why accuracy may be misleading ::@:: Accuracy can look high on imbalanced data even when minority-class detection is poor. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- binary confusion matrix entries with meanings ::@:: Binary confusion counts are $TP$ (true positive), $FP$ (false positive), $TN$ (true negative), and $FN$ (false negative), where "true/false" compares prediction against the real label and "positive/negative" refers to the predicted class. <!--SR:!2026-05-10,16,304!2026-05-08,14,290-->
+- binary accuracy formula with notation meaning ::@:: Binary accuracy is $\frac{TP+TN}{TP+TN+FP+FN}$ because $TP+TN$ counts correct predictions and $TP+TN+FP+FN$ counts all evaluated examples. <!--SR:!2026-05-12,18,325!2026-05-15,16,304-->
+- multiclass confusion matrix notation with row-column roles ::@:: In multiclass settings, $M_{a,b}$ denotes the number of examples whose true class is $a$ and predicted class is $b$, so rows are true classes, columns are predicted classes, and diagonal entries are correct predictions. <!--SR:!2026-05-09,15,304!2026-05-11,17,304-->
+- multiclass accuracy formula with interpretation ::@:: Multiclass accuracy is $\frac{\sum_{c=1}^C M_{c,c}}{\sum_{a=1}^C\sum_{b=1}^C M_{a,b}}$ because the numerator sums all correct diagonal counts and the denominator sums all examples in the confusion matrix. <!--SR:!2026-05-11,17,304!2026-05-16,17,304-->
+- why accuracy may be misleading ::@:: Accuracy can look high on imbalanced data even when minority-class detection is poor. <!--SR:!2026-05-09,15,304!2026-05-16,17,304-->
 
 ### precision, recall, and F1: intuition and mnemonics
 
@@ -314,12 +314,12 @@ The $F_1$ score combines precision and recall by harmonic mean: $F_1=\frac{2PR}{
 
 Flashcards for this section are as follows:
 
-- precision formula and denominator meaning ::@:: Precision is $P=\frac{TP}{TP+FP}$ because the denominator $TP+FP$ counts all examples predicted positive, so precision asks what fraction of predicted positives were actually positive. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
-- recall formula and denominator meaning ::@:: Recall is $R=\frac{TP}{TP+FN}$ because the denominator $TP+FN$ counts all truly positive examples, so recall asks what fraction of real positives were successfully found. <!--SR:!2026-04-12,4,305!2026-04-12,4,305-->
-- F1 formula from precision and recall with purpose ::@:: $F_1=\frac{2PR}{P+R}$ is the harmonic mean of precision and recall, so it is high only when both are high. <!--SR:!2026-04-12,4,270!2026-04-12,4,284-->
-- F1 formula from confusion counts with notation ::@:: In binary classification, $F_1=\frac{2TP}{2TP+FP+FN}$, where $TP$ is true positives, $FP$ false positives, and $FN$ false negatives. <!--SR:!2026-04-12,4,305!2026-04-12,4,284-->
-- why F1 is harmonic mean with definition ::@:: Harmonic mean of $a$ and $b$ is $\frac{2ab}{a+b}$; it is always less than or equal to both arithmetic mean and geometric mean, so one weak metric pulls $F_1$ down strongly, requiring balance between precision and recall. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- precision-recall trade-off intuition ::@:: Lowering threshold usually increases recall and decreases precision, while raising threshold usually increases precision and decreases recall. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
+- precision formula and denominator meaning ::@:: Precision is $P=\frac{TP}{TP+FP}$ because the denominator $TP+FP$ counts all examples predicted positive, so precision asks what fraction of predicted positives were actually positive. <!--SR:!2026-05-16,17,304!2026-05-12,18,325-->
+- recall formula and denominator meaning ::@:: Recall is $R=\frac{TP}{TP+FN}$ because the denominator $TP+FN$ counts all truly positive examples, so recall asks what fraction of real positives were successfully found. <!--SR:!2026-05-12,18,325!2026-05-12,18,325-->
+- F1 formula from precision and recall with purpose ::@:: $F_1=\frac{2PR}{P+R}$ is the harmonic mean of precision and recall, so it is high only when both are high. <!--SR:!2026-05-08,14,290!2026-05-11,17,304-->
+- F1 formula from confusion counts with notation ::@:: In binary classification, $F_1=\frac{2TP}{2TP+FP+FN}$, where $TP$ is true positives, $FP$ false positives, and $FN$ false negatives. <!--SR:!2026-05-12,18,325!2026-05-16,17,304-->
+- why F1 is harmonic mean with definition ::@:: Harmonic mean of $a$ and $b$ is $\frac{2ab}{a+b}$; it is always less than or equal to both arithmetic mean and geometric mean, so one weak metric pulls $F_1$ down strongly, requiring balance between precision and recall. <!--SR:!2026-05-10,16,304!2026-05-11,17,304-->
+- precision-recall trade-off intuition ::@:: Lowering threshold usually increases recall and decreases precision, while raising threshold usually increases precision and decreases recall. <!--SR:!2026-05-10,16,304!2026-05-17,18,325-->
 
 ### multiclass precision, recall, and F1
 
@@ -337,13 +337,13 @@ For single-label multiclass classification, micro precision = micro recall = mic
 
 Flashcards for this section are as follows:
 
-- multiclass per-class precision formula with denominator meaning ::@:: With confusion matrix $M$, class-$c$ precision is $P_c=\frac{M_{c,c}}{\sum_a M_{a,c}}$ because the denominator is the total number of examples predicted as class $c$ (column $c$ total). <!--SR:!2026-04-12,4,305!2026-04-12,4,305-->
-- multiclass per-class recall formula with denominator meaning ::@:: With confusion matrix $M$, class-$c$ recall is $R_c=\frac{M_{c,c}}{\sum_b M_{c,b}}$ because the denominator is the total number of true class-$c$ examples (row $c$ total). <!--SR:!2026-04-12,4,304!2026-04-12,4,284-->
-- multiclass per-class F1 formula with setup ::@:: For class $c$, first compute one-vs-rest precision $P_c$ and recall $R_c$, then set $F1_c=\frac{2P_cR_c}{P_c+R_c}$. <!--SR:!2026-04-12,4,304!2026-04-12,4,284-->
-- macro averaging definition with meaning ::@:: Macro metrics compute unweighted class averages: $\text{macro }F_1=\frac{1}{C}\sum_c F1_c$, so each class contributes equally regardless of size. <!--SR:!2026-04-12,4,305!2026-04-12,4,284-->
-- weighted macro averaging definition with support ::@:: Weighted macro metrics weight each class by its support $n_c=\sum_b M_{c,b}$ (the number of true examples from class $c$), giving formula $\text{weighted }F_1=\frac{1}{\sum_c n_c}\sum_c n_c\,F1_c$. <!--SR:!2026-04-12,4,284!2026-04-12,4,270-->
-- micro averaging definition with meaning ::@:: Micro metrics first compute global $TP_{\text{global}}=\sum_c M_{c,c}$, $FP_{\text{global}}=\sum_c\sum_{b\neq c}M_{b,c}$, and $FN_{\text{global}}=\sum_c\sum_{b\neq c}M_{c,b}$, then apply the binary formulas. In single-label multiclass, every misclassified example appears as an off-diagonal entry once in a column (as $FP$) and once in a row (as $FN$), so $FP_{\text{global}}=FN_{\text{global}}$. This gives $P_{\text{micro}}=R_{\text{micro}}=\frac{TP_{\text{global}}}{N}$, and harmonic mean of two equal numbers equals that number, so micro $F_1 = P_{\text{micro}} = R_{\text{micro}}$. <!--SR:!2026-04-12,4,284!2026-04-12,4,305-->
-- single-label multiclass identity with explanation ::@:: In single-label multiclass, each example has exactly one true class and one predicted class, so every prediction either contributes to a diagonal element $M_{c,c}$ (correct, counted in global $TP$) or to exactly one off-diagonal element (incorrect). Every misclassification appears once in a column ($FP$) and once in a row ($FN$), so $FP_{\text{global}}=FN_{\text{global}}$. With this equality, micro precision $= \frac{TP}{TP+FP} = \frac{TP}{N}$, micro recall $= \frac{TP}{TP+FN} = \frac{TP}{N}$, and micro $F_1$ (the harmonic mean of two equal numbers) equals that same value $= \frac{TP}{N} =$ accuracy. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- multiclass per-class precision formula with denominator meaning ::@:: With confusion matrix $M$, class-$c$ precision is $P_c=\frac{M_{c,c}}{\sum_a M_{a,c}}$ because the denominator is the total number of examples predicted as class $c$ (column $c$ total). <!--SR:!2026-05-12,18,325!2026-05-12,18,325-->
+- multiclass per-class recall formula with denominator meaning ::@:: With confusion matrix $M$, class-$c$ recall is $R_c=\frac{M_{c,c}}{\sum_b M_{c,b}}$ because the denominator is the total number of true class-$c$ examples (row $c$ total). <!--SR:!2026-05-12,18,324!2026-05-10,16,304-->
+- multiclass per-class F1 formula with setup ::@:: For class $c$, first compute one-vs-rest precision $P_c$ and recall $R_c$, then set $F1_c=\frac{2P_cR_c}{P_c+R_c}$. <!--SR:!2026-05-12,18,324!2026-05-11,17,304-->
+- macro averaging definition with meaning ::@:: Macro metrics compute unweighted class averages: $\text{macro }F_1=\frac{1}{C}\sum_c F1_c$, so each class contributes equally regardless of size. <!--SR:!2026-05-17,18,325!2026-05-16,17,304-->
+- weighted macro averaging definition with support ::@:: Weighted macro metrics weight each class by its support $n_c=\sum_b M_{c,b}$ (the number of true examples from class $c$), giving formula $\text{weighted }F_1=\frac{1}{\sum_c n_c}\sum_c n_c\,F1_c$. <!--SR:!2026-05-16,17,304!2026-05-15,16,290-->
+- micro averaging definition with meaning ::@:: Micro metrics first compute global $TP_{\text{global}}=\sum_c M_{c,c}$, $FP_{\text{global}}=\sum_c\sum_{b\neq c}M_{b,c}$, and $FN_{\text{global}}=\sum_c\sum_{b\neq c}M_{c,b}$, then apply the binary formulas. In single-label multiclass, every misclassified example appears as an off-diagonal entry once in a column (as $FP$) and once in a row (as $FN$), so $FP_{\text{global}}=FN_{\text{global}}$. This gives $P_{\text{micro}}=R_{\text{micro}}=\frac{TP_{\text{global}}}{N}$, and harmonic mean of two equal numbers equals that number, so micro $F_1 = P_{\text{micro}} = R_{\text{micro}}$. <!--SR:!2026-05-09,15,304!2026-05-12,18,325-->
+- single-label multiclass identity with explanation ::@:: In single-label multiclass, each example has exactly one true class and one predicted class, so every prediction either contributes to a diagonal element $M_{c,c}$ (correct, counted in global $TP$) or to exactly one off-diagonal element (incorrect). Every misclassification appears once in a column ($FP$) and once in a row ($FN$), so $FP_{\text{global}}=FN_{\text{global}}$. With this equality, micro precision $= \frac{TP}{TP+FP} = \frac{TP}{N}$, micro recall $= \frac{TP}{TP+FN} = \frac{TP}{N}$, and micro $F_1$ (the harmonic mean of two equal numbers) equals that same value $= \frac{TP}{N} =$ accuracy. <!--SR:!2026-05-10,16,304!2026-05-11,17,304-->
 
 ### worked metric computations
 
@@ -355,11 +355,11 @@ Multiclass worked example: let $M=\begin{bmatrix}40&2&3\\4&30&6\\1&5&29\end{bmat
 
 Flashcards for this section are as follows:
 
-- binary worked-metrics example with full givens: If $TP=5$, $FN=5$, $FP=0$, and $TN=90$, compute accuracy, precision, recall, and $F_1$ ::@:: Accuracy $=\frac{TP+TN}{TP+TN+FP+FN}=\frac{95}{100}=0.95$; precision $=\frac{TP}{TP+FP}=\frac{5}{5}=1$; recall $=\frac{TP}{TP+FN}=\frac{5}{10}=0.5$; and $F_1=\frac{2PR}{P+R}=\frac{2\cdot 1\cdot 0.5}{1+0.5}=\frac{2}{3}\approx 0.667$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- binary worked-example interpretation mnemonic: If $TP=5$, $FN=5$, $FP=0$, and $TN=90$, what is the key takeaway? ::@:: Accuracy is high ($95\%$) but recall is only $50\%$, so the classifier is _precise but not sensitive_ on the positive class. <!--SR:!2026-04-12,4,270!2026-04-12,4,284-->
-- multiclass worked-accuracy example with full givens: Given $M=\begin{bmatrix}40&2&3\\4&30&6\\1&5&29\end{bmatrix}$, compute multiclass accuracy ::@:: Total is $120$, diagonal sum is $99$, so accuracy is $\frac{99}{120}=0.825$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- multiclass worked per-class metrics with full givens: Given $M=\begin{bmatrix}40&2&3\\4&30&6\\1&5&29\end{bmatrix}$, compute $(P_2,R_2,F1_2)$ for class $2$ (1-based) ::@:: Column-2 sum is $2+30+5=37$, row-2 sum is $4+30+6=40$, so $P_2=\frac{30}{37}\approx0.811$, $R_2=\frac{30}{40}=0.75$, and $F1_2=\frac{2P_2R_2}{P_2+R_2}\approx0.779$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- multiclass worked macro/micro relation with full givens: Given $M=\begin{bmatrix}40&2&3\\4&30&6\\1&5&29\end{bmatrix}$ with single-label classes, what are macro $F_1$ (approx) and micro $F_1$? ::@:: Per-class $F_1$ values are about $0.889,0.779,0.795$, so macro $F_1\approx\frac{0.889+0.779+0.795}{3}=0.821$; micro $F_1$ equals accuracy in single-label multiclass, so micro $F_1=0.825$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- binary worked-metrics example with full givens: If $TP=5$, $FN=5$, $FP=0$, and $TN=90$, compute accuracy, precision, recall, and $F_1$ ::@:: Accuracy $=\frac{TP+TN}{TP+TN+FP+FN}=\frac{95}{100}=0.95$; precision $=\frac{TP}{TP+FP}=\frac{5}{5}=1$; recall $=\frac{TP}{TP+FN}=\frac{5}{10}=0.5$; and $F_1=\frac{2PR}{P+R}=\frac{2\cdot 1\cdot 0.5}{1+0.5}=\frac{2}{3}\approx 0.667$. <!--SR:!2026-05-11,17,304!2026-05-10,16,304-->
+- binary worked-example interpretation mnemonic: If $TP=5$, $FN=5$, $FP=0$, and $TN=90$, what is the key takeaway? ::@:: Accuracy is high ($95\%$) but recall is only $50\%$, so the classifier is _precise but not sensitive_ on the positive class. <!--SR:!2026-05-15,16,290!2026-05-15,16,304-->
+- multiclass worked-accuracy example with full givens: Given $M=\begin{bmatrix}40&2&3\\4&30&6\\1&5&29\end{bmatrix}$, compute multiclass accuracy ::@:: Total is $120$, diagonal sum is $99$, so accuracy is $\frac{99}{120}=0.825$. <!--SR:!2026-05-11,17,304!2026-05-16,17,304-->
+- multiclass worked per-class metrics with full givens: Given $M=\begin{bmatrix}40&2&3\\4&30&6\\1&5&29\end{bmatrix}$, compute $(P_2,R_2,F1_2)$ for class $2$ (1-based) ::@:: Column-2 sum is $2+30+5=37$, row-2 sum is $4+30+6=40$, so $P_2=\frac{30}{37}\approx0.811$, $R_2=\frac{30}{40}=0.75$, and $F1_2=\frac{2P_2R_2}{P_2+R_2}\approx0.779$. <!--SR:!2026-05-11,17,304!2026-05-09,15,304-->
+- multiclass worked macro/micro relation with full givens: Given $M=\begin{bmatrix}40&2&3\\4&30&6\\1&5&29\end{bmatrix}$ with single-label classes, what are macro $F_1$ (approx) and micro $F_1$? ::@:: Per-class $F_1$ values are about $0.889,0.779,0.795$, so macro $F_1\approx\frac{0.889+0.779+0.795}{3}=0.821$; micro $F_1$ equals accuracy in single-label multiclass, so micro $F_1=0.825$. <!--SR:!2026-05-16,17,304!2026-05-11,17,304-->
 
 ## discriminative versus generative classification
 
@@ -373,10 +373,10 @@ The two families have complementary strengths. Discriminative models are often s
 
 Flashcards for this section are as follows:
 
-- discriminative classifier definition ::@:: A discriminative classifier maps features to labels by modeling $P(y\mid x)$ directly or by fitting a decision boundary through a score function. It never explains how each class generates data. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- generative classifier definition ::@:: A generative classifier models how each class produces features by learning $P(y)$ and $P(x\mid y)$, then derives the posterior $P(y\mid x)$ using Bayes' rule. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why discriminative versus generative matters ::@:: Discriminative models focus capacity on the decision boundary (often simpler and more accurate), while generative models require structural assumptions but can be more data-efficient and interpretable. <!--SR:!2026-04-12,4,305!2026-04-12,4,305-->
-- discriminative models in this note ::@:: In this note, both probabilistic classification (for example logistic regression) and optimization-based surrogate-loss methods are discriminative because they learn a direct feature-to-label mapping without modeling the full data-generation process. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- discriminative classifier definition ::@:: A discriminative classifier maps features to labels by modeling $P(y\mid x)$ directly or by fitting a decision boundary through a score function. It never explains how each class generates data. <!--SR:!2026-05-10,16,304!2026-05-16,17,304-->
+- generative classifier definition ::@:: A generative classifier models how each class produces features by learning $P(y)$ and $P(x\mid y)$, then derives the posterior $P(y\mid x)$ using Bayes' rule. <!--SR:!2026-05-16,17,304!2026-05-10,16,304-->
+- why discriminative versus generative matters ::@:: Discriminative models focus capacity on the decision boundary (often simpler and more accurate), while generative models require structural assumptions but can be more data-efficient and interpretable. <!--SR:!2026-05-12,18,325!2026-05-17,18,325-->
+- discriminative models in this note ::@:: In this note, both probabilistic classification (for example logistic regression) and optimization-based surrogate-loss methods are discriminative because they learn a direct feature-to-label mapping without modeling the full data-generation process. <!--SR:!2026-05-09,15,304!2026-05-15,16,304-->
 
 <!-- check: ignore-next-line[header_style]: Bayes is a proper noun -->
 ### Bayes-rule classification from a generative model
@@ -393,10 +393,10 @@ This decomposition is conceptually revealing. The prior $P(y=c)$ captures class 
 
 Flashcards for this section are as follows:
 
-- Bayes-rule posterior formula for classification with notation ::@:: In a generative classifier, the posterior is $P(y=c\mid x)=\frac{P(y=c)\,P(x\mid y=c)}{P(x)}$, where $P(x)=\sum_{c'}P(y=c')P(x\mid y=c')$ is the marginal likelihood. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why the normalizing constant $P(x)$ can be ignored and what rule remains ::@:: $P(x)$ is identical for every candidate class, so it cancels in pairwise comparisons; therefore prediction can use unnormalized scores and the argmax rule simplifies to $\hat y=\arg\max_c\,P(y=c)\,P(x\mid y=c)$. <!--SR:!2026-04-12,4,303!2026-04-12,4,303-->
-- what the prior and class-conditional each capture ::@:: The prior $P(y)$ captures how common each class is, while $P(x\mid y)$ describes what features typically look like inside each class. <!--SR:!2026-04-12,4,305!2026-04-12,4,284-->
-- why a rare class can still win ::@:: A rare class with small prior $P(y)$ can still have the largest posterior if its class-conditional likelihood $P(x\mid y)$ is much larger than competing classes for the observed input. <!--SR:!2026-04-12,4,305!2026-04-12,4,284-->
+- Bayes-rule posterior formula for classification with notation ::@:: In a generative classifier, the posterior is $P(y=c\mid x)=\frac{P(y=c)\,P(x\mid y=c)}{P(x)}$, where $P(x)=\sum_{c'}P(y=c')P(x\mid y=c')$ is the marginal likelihood. <!--SR:!2026-05-09,15,304!2026-05-09,15,304-->
+- why the normalizing constant $P(x)$ can be ignored and what rule remains ::@:: $P(x)$ is identical for every candidate class, so it cancels in pairwise comparisons; therefore prediction can use unnormalized scores and the argmax rule simplifies to $\hat y=\arg\max_c\,P(y=c)\,P(x\mid y=c)$. <!--SR:!2026-05-12,18,323!2026-05-17,18,323-->
+- what the prior and class-conditional each capture ::@:: The prior $P(y)$ captures how common each class is, while $P(x\mid y)$ describes what features typically look like inside each class. <!--SR:!2026-05-12,18,325!2026-05-15,16,304-->
+- why a rare class can still win ::@:: A rare class with small prior $P(y)$ can still have the largest posterior if its class-conditional likelihood $P(x\mid y)$ is much larger than competing classes for the observed input. <!--SR:!2026-05-12,18,325!2026-05-11,17,304-->
 
 ### posterior log-score decomposition
 
@@ -410,10 +410,10 @@ The decomposition also makes the prior-versus-evidence trade-off visible. A rare
 
 Flashcards for this section are as follows:
 
-- log-score form of Bayes classification and why it is valid ::@:: Since $\log$ is monotone, maximizing $f(c)$ and maximizing $\log f(c)$ give the same class. Applying $\log$ to $P(y=c)P(x\mid y=c)$ yields $\log P(y=c)+\log P(x\mid y=c)$, so the rule becomes $\hat y=\arg\max_c[\log P(y=c)+\log P(x\mid y=c)]$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why log-scores avoid numerical underflow ::@:: Multiplying many small probabilities can underflow to zero, but summing their logs keeps values in a manageable range. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- log-prior versus log-likelihood contributions ::@:: The log-prior $\log P(y=c)$ encodes class prevalence, and the log-likelihood $\log P(x\mid y=c)$ encodes how well features fit class $c$; the classification rule sums both terms. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- prior-dominance scenario ::@:: When all classes have similar log-likelihoods, the prior term dominates: the most common class wins. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- log-score form of Bayes classification and why it is valid ::@:: Since $\log$ is monotone, maximizing $f(c)$ and maximizing $\log f(c)$ give the same class. Applying $\log$ to $P(y=c)P(x\mid y=c)$ yields $\log P(y=c)+\log P(x\mid y=c)$, so the rule becomes $\hat y=\arg\max_c[\log P(y=c)+\log P(x\mid y=c)]$. <!--SR:!2026-05-11,17,304!2026-05-16,17,304-->
+- why log-scores avoid numerical underflow ::@:: Multiplying many small probabilities can underflow to zero, but summing their logs keeps values in a manageable range. <!--SR:!2026-05-11,17,304!2026-05-15,16,304-->
+- log-prior versus log-likelihood contributions ::@:: The log-prior $\log P(y=c)$ encodes class prevalence, and the log-likelihood $\log P(x\mid y=c)$ encodes how well features fit class $c$; the classification rule sums both terms. <!--SR:!2026-05-09,15,304!2026-05-11,17,304-->
+- prior-dominance scenario ::@:: When all classes have similar log-likelihoods, the prior term dominates: the most common class wins. <!--SR:!2026-05-11,17,304!2026-05-09,15,304-->
 
 ## naive Bayes and conditional independence
 
@@ -427,9 +427,9 @@ The word _naive_ refers to the independence assumption itself: once the class $y
 
 Flashcards for this section are as follows:
 
-- notation reminder: feature vector and class label ::@:: In Naive Bayes, $x=(x_1,\ldots,x_D)$ is a feature vector with $D$ components, each $x_j$ is the value of the $j$-th feature, and $y$ is a class label such as spam or not-spam. <!--SR:!2026-04-12,4,305!2026-04-12,4,284-->
-- why it is called naive with detail ::@:: The model is called naive because it assumes all features are independent once the class is known, which is much stronger than reality — in practice, features are usually correlated. <!--SR:!2026-04-12,4,303!2026-04-12,4,270-->
-- why Naive Bayes can still work despite wrong assumption ::@:: Even though the independence assumption is crude, Naive Bayes can perform well because (1) it drastically reduces the number of parameters, and (2) classification only requires comparing relative scores, so biases may cancel across classes. <!--SR:!2026-04-12,4,305!2026-04-12,4,305-->
+- notation reminder: feature vector and class label ::@:: In Naive Bayes, $x=(x_1,\ldots,x_D)$ is a feature vector with $D$ components, each $x_j$ is the value of the $j$-th feature, and $y$ is a class label such as spam or not-spam. <!--SR:!2026-05-12,18,325!2026-05-16,17,304-->
+- why it is called naive with detail ::@:: The model is called naive because it assumes all features are independent once the class is known, which is much stronger than reality — in practice, features are usually correlated. <!--SR:!2026-05-12,18,323!2026-05-15,16,290-->
+- why Naive Bayes can still work despite wrong assumption ::@:: Even though the independence assumption is crude, Naive Bayes can perform well because (1) it drastically reduces the number of parameters, and (2) classification only requires comparing relative scores, so biases may cancel across classes. <!--SR:!2026-05-17,18,325!2026-05-17,18,325-->
 
 ### parameter explosion without conditional independence
 
@@ -449,11 +449,11 @@ The lecture uses this counting argument to justify the independence assumption. 
 
 Flashcards for this section are as follows:
 
-- why $2^D-1$ instead of $2^D$ with normalization explanation ::@:: The full joint over $D$ binary features has $2^D$ possible outcomes. Because probabilities must sum to $1$, only $2^D-1$ are free — the last one is determined by normalization. <!--SR:!2026-04-12,4,303!2026-04-12,4,284-->
-- worked $D=1$ example ::@:: With one binary feature $x_1\in\{0,1\}$, the joint $P(x_1\mid y=c)$ has $2$ outcomes and $2^1-1=1$ free parameter: choose $P(x_1=0\mid y=c)=p$, then $P(x_1=1\mid y=c)=1-p$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- parameter count scaling for $D=20$ ::@:: With $D=20$ binary features, the full joint needs $2^{20}-1=1{,}048{,}575$ free parameters per class, which grows exponentially with $D$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why unrestricted generative models become impractical ::@:: The number of parameters in a full joint distribution grows exponentially with the number of features, making estimation difficult in high dimensions. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why conditional independence is introduced ::@:: Conditional independence replaces an exponentially large joint model by a factored model with only $D$ small one-feature tables per class, where $D$ is the number of features. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- why $2^D-1$ instead of $2^D$ with normalization explanation ::@:: The full joint over $D$ binary features has $2^D$ possible outcomes. Because probabilities must sum to $1$, only $2^D-1$ are free — the last one is determined by normalization. <!--SR:!2026-05-17,18,323!2026-05-11,17,304-->
+- worked $D=1$ example ::@:: With one binary feature $x_1\in\{0,1\}$, the joint $P(x_1\mid y=c)$ has $2$ outcomes and $2^1-1=1$ free parameter: choose $P(x_1=0\mid y=c)=p$, then $P(x_1=1\mid y=c)=1-p$. <!--SR:!2026-05-15,16,304!2026-05-16,17,304-->
+- parameter count scaling for $D=20$ ::@:: With $D=20$ binary features, the full joint needs $2^{20}-1=1{,}048{,}575$ free parameters per class, which grows exponentially with $D$. <!--SR:!2026-05-15,16,304!2026-05-15,16,304-->
+- why unrestricted generative models become impractical ::@:: The number of parameters in a full joint distribution grows exponentially with the number of features, making estimation difficult in high dimensions. <!--SR:!2026-05-11,17,304!2026-05-16,17,304-->
+- why conditional independence is introduced ::@:: Conditional independence replaces an exponentially large joint model by a factored model with only $D$ small one-feature tables per class, where $D$ is the number of features. <!--SR:!2026-05-11,17,304!2026-05-16,17,304-->
 
 ### naive Bayes factorization and prediction
 
@@ -465,10 +465,10 @@ Prediction then uses Bayes' rule in factored form. One computes posterior scores
 
 Flashcards for this section are as follows:
 
-- conditional versus unconditional independence ::@:: Naive Bayes assumes independence of features only after conditioning on the class label, not unconditional independence of the features themselves. <!--SR:!2026-04-12,4,308!2026-04-12,4,308-->
-- naive Bayes factorization with parameters ::@:: The Naive Bayes factorization is $P(x\mid y=c,\theta)=\prod_{j=1}^D P(x_j\mid y=c,\theta_{jc})$, where $x=(x_1,\ldots,x_D)$ is the feature vector, $D$ is the number of features, $c$ is the candidate class, and $\theta_{jc}$ collects the parameters for feature $j$ given class $c$. <!--SR:!2026-04-12,4,308!2026-04-12,4,308-->
-- naive Bayes prediction score ::@:: Naive Bayes predicts by comparing scores proportional to $P(y=c)\prod_{j=1}^D P(x_j\mid y=c,\theta_{jc})$, where $c$ is the candidate class, $j$ indexes the $D$ features, and the class with the largest score is chosen. <!--SR:!2026-04-12,4,308!2026-04-12,4,308-->
-- why log-scores are useful in Naive Bayes ::@:: Log-scores turn products of many probabilities into sums, which are numerically more stable and easier to compute. <!--SR:!2026-04-12,4,308!2026-04-12,4,308-->
+- conditional versus unconditional independence ::@:: Naive Bayes assumes independence of features only after conditioning on the class label, not unconditional independence of the features themselves. <!--SR:!2026-05-17,18,328!2026-05-12,18,328-->
+- naive Bayes factorization with parameters ::@:: The Naive Bayes factorization is $P(x\mid y=c,\theta)=\prod_{j=1}^D P(x_j\mid y=c,\theta_{jc})$, where $x=(x_1,\ldots,x_D)$ is the feature vector, $D$ is the number of features, $c$ is the candidate class, and $\theta_{jc}$ collects the parameters for feature $j$ given class $c$. <!--SR:!2026-05-12,18,328!2026-05-12,18,328-->
+- naive Bayes prediction score ::@:: Naive Bayes predicts by comparing scores proportional to $P(y=c)\prod_{j=1}^D P(x_j\mid y=c,\theta_{jc})$, where $c$ is the candidate class, $j$ indexes the $D$ features, and the class with the largest score is chosen. <!--SR:!2026-05-12,18,328!2026-05-12,18,328-->
+- why log-scores are useful in Naive Bayes ::@:: Log-scores turn products of many probabilities into sums, which are numerically more stable and easier to compute. <!--SR:!2026-05-17,18,328!2026-05-12,18,328-->
 
 ### parameter estimation for discrete naive Bayes
 
@@ -492,13 +492,13 @@ This makes the computational appeal of Naive Bayes especially clear. Once the in
 
 Flashcards for this section are as follows:
 
-- what is likelihood with full derivation ::@:: Let the dataset be $\mathcal{D}=\{(x_i,y_i)\}_{i=1}^N$, where $N$ is the number of examples, $x_i=(x_{i1},\ldots,x_{iD})$ is the feature vector of example $i$, $D$ is the number of features, $\pi_c=P(y=c)$ is the class prior, and $\mu_{j,c,k}=P(x_j=k\mid y=c)$ is the feature-conditional probability. The likelihood is $p(\mathcal{D}\mid\theta)=\prod_{i=1}^N p(x_i,y_i\mid\theta)$ by independence of examples.<br/>Step 1: apply chain rule $p(x_i,y_i\mid\theta)=p(y_i\mid\theta)p(x_i\mid y_i,\theta)$.<br/>Step 2: substitute $p(y_i\mid\theta)=\pi_{y_i}$ and the Naive Bayes factorization $p(x_i\mid y_i,\theta)=\prod_{j=1}^D \mu_{j,y_i,x_{ij}}$.<br/>Step 3: combine to get $p(\mathcal{D}\mid\theta)=\prod_{i=1}^N \pi_{y_i}\prod_{j=1}^D \mu_{j,y_i,x_{ij}}$. Higher likelihood means the observed dataset is more probable under the model. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- what is log-likelihood with derivation ::@:: Let $\mathcal{D}=\{(x_i,y_i)\}_{i=1}^N$ be the dataset and $\theta$ the model parameters. The log-likelihood is $\ell(\theta)=\log p(\mathcal{D}\mid\theta)$.<br/>Step 1: substitute the likelihood to get $\ell(\theta)=\log\bigl[\prod_{i=1}^N p(x_i,y_i\mid\theta)\bigr]$.<br/>Step 2: use $\log(\prod_i a_i)=\sum_i\log a_i$ to obtain $\ell(\theta)=\sum_{i=1}^N\log p(x_i,y_i\mid\theta)$. Taking the log turns products into sums, which is why maximum-likelihood estimation becomes easier to analyze. <!--SR:!2026-04-12,4,303!2026-04-12,4,305-->
-- Naive Bayes log-likelihood expansion with full derivation ::@:: Start from $\ell(\theta)=\sum_{i=1}^N\log p(x_i,y_i\mid\theta)$, where $\pi_c=P(y=c)$ is the class prior and $\mu_{j,c,k}=P(x_j=k\mid y=c)$ is the feature-conditional probability for feature $j$, class $c$, and value $k$.<br/>Step 1: substitute the Naive Bayes factorization to get $\ell(\theta)=\sum_{i=1}^N\log\bigl[\pi_{y_i}\prod_{j=1}^D\mu_{j,y_i,x_{ij}}\bigr]$.<br/>Step 2: apply $\log(ab)=\log a+\log b$ to obtain $\ell(\theta)=\sum_{i=1}^N\bigl[\log\pi_{y_i}+\log(\prod_{j=1}^D\mu_{j,y_i,x_{ij}})\bigr]$.<br/>Step 3: apply $\log(\prod_j a_j)=\sum_j\log a_j$ to get $\ell(\theta)=\sum_{i=1}^N\log\pi_{y_i}+\sum_{i=1}^N\sum_{j=1}^D\log\mu_{j,y_i,x_{ij}}$. The first sum depends only on the prior, while the second depends only on the feature-conditional parameters. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- prior estimate in Naive Bayes with reasoning ::@:: The class-prior MLE is $\hat\pi_c = \frac{n_c}{N}$, where $n_c=\sum_{i=1}^N\mathbf{1}(y_i=c)$. This is the fraction of training examples in class $c$ — it treats the observed frequency as the best estimate of the prior belief. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- prior estimate alternatives ::@:: Alternative priors include: informative priors from domain knowledge, Laplace-smoothed priors $\hat\pi_c=\frac{n_c+\alpha}{N+\alpha C}$ to avoid zero-frequency issues, or equal priors $\hat\pi_c=\frac{1}{C}$ when the training set is unbalanced but one believes classes should be equally likely. <!--SR:!2026-04-12,4,284!2026-04-12,4,303-->
-- conditional-feature estimate in Naive Bayes with derivation ::@:: The conditional-feature MLE is $\hat\mu_{jck}=\frac{n_{jck}}{n_c}$, where $n_{jck}=\sum_{i=1}^N\mathbf{1}(y_i=c)\mathbf{1}(x_{ij}=k)$. This is the fraction of class-$c$ examples whose feature $j$ takes value $k$ — a within-class relative frequency. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why Naive Bayes training reduces to counting ::@:: Under conditional independence, Naive Bayes parameter estimation is purely a counting problem: count class sizes $n_c$, count within-class feature-value frequencies $n_{jck}$, and divide. There is no iterative optimization to solve. <!--SR:!2026-04-12,4,304!2026-04-12,4,284-->
+- what is likelihood with full derivation ::@:: Let the dataset be $\mathcal{D}=\{(x_i,y_i)\}_{i=1}^N$, where $N$ is the number of examples, $x_i=(x_{i1},\ldots,x_{iD})$ is the feature vector of example $i$, $D$ is the number of features, $\pi_c=P(y=c)$ is the class prior, and $\mu_{j,c,k}=P(x_j=k\mid y=c)$ is the feature-conditional probability. The likelihood is $p(\mathcal{D}\mid\theta)=\prod_{i=1}^N p(x_i,y_i\mid\theta)$ by independence of examples.<br/>Step 1: apply chain rule $p(x_i,y_i\mid\theta)=p(y_i\mid\theta)p(x_i\mid y_i,\theta)$.<br/>Step 2: substitute $p(y_i\mid\theta)=\pi_{y_i}$ and the Naive Bayes factorization $p(x_i\mid y_i,\theta)=\prod_{j=1}^D \mu_{j,y_i,x_{ij}}$.<br/>Step 3: combine to get $p(\mathcal{D}\mid\theta)=\prod_{i=1}^N \pi_{y_i}\prod_{j=1}^D \mu_{j,y_i,x_{ij}}$. Higher likelihood means the observed dataset is more probable under the model. <!--SR:!2026-05-16,17,304!2026-05-16,17,304-->
+- what is log-likelihood with derivation ::@:: Let $\mathcal{D}=\{(x_i,y_i)\}_{i=1}^N$ be the dataset and $\theta$ the model parameters. The log-likelihood is $\ell(\theta)=\log p(\mathcal{D}\mid\theta)$.<br/>Step 1: substitute the likelihood to get $\ell(\theta)=\log\bigl[\prod_{i=1}^N p(x_i,y_i\mid\theta)\bigr]$.<br/>Step 2: use $\log(\prod_i a_i)=\sum_i\log a_i$ to obtain $\ell(\theta)=\sum_{i=1}^N\log p(x_i,y_i\mid\theta)$. Taking the log turns products into sums, which is why maximum-likelihood estimation becomes easier to analyze. <!--SR:!2026-05-12,18,323!2026-05-12,18,325-->
+- Naive Bayes log-likelihood expansion with full derivation ::@:: Start from $\ell(\theta)=\sum_{i=1}^N\log p(x_i,y_i\mid\theta)$, where $\pi_c=P(y=c)$ is the class prior and $\mu_{j,c,k}=P(x_j=k\mid y=c)$ is the feature-conditional probability for feature $j$, class $c$, and value $k$.<br/>Step 1: substitute the Naive Bayes factorization to get $\ell(\theta)=\sum_{i=1}^N\log\bigl[\pi_{y_i}\prod_{j=1}^D\mu_{j,y_i,x_{ij}}\bigr]$.<br/>Step 2: apply $\log(ab)=\log a+\log b$ to obtain $\ell(\theta)=\sum_{i=1}^N\bigl[\log\pi_{y_i}+\log(\prod_{j=1}^D\mu_{j,y_i,x_{ij}})\bigr]$.<br/>Step 3: apply $\log(\prod_j a_j)=\sum_j\log a_j$ to get $\ell(\theta)=\sum_{i=1}^N\log\pi_{y_i}+\sum_{i=1}^N\sum_{j=1}^D\log\mu_{j,y_i,x_{ij}}$. The first sum depends only on the prior, while the second depends only on the feature-conditional parameters. <!--SR:!2026-05-10,16,304!2026-05-10,16,304-->
+- prior estimate in Naive Bayes with reasoning ::@:: The class-prior MLE is $\hat\pi_c = \frac{n_c}{N}$, where $n_c=\sum_{i=1}^N\mathbf{1}(y_i=c)$. This is the fraction of training examples in class $c$ — it treats the observed frequency as the best estimate of the prior belief. <!--SR:!2026-05-16,17,304!2026-05-10,16,304-->
+- prior estimate alternatives ::@:: Alternative priors include: informative priors from domain knowledge, Laplace-smoothed priors $\hat\pi_c=\frac{n_c+\alpha}{N+\alpha C}$ to avoid zero-frequency issues, or equal priors $\hat\pi_c=\frac{1}{C}$ when the training set is unbalanced but one believes classes should be equally likely. <!--SR:!2026-05-15,16,304!2026-05-17,18,323-->
+- conditional-feature estimate in Naive Bayes with derivation ::@:: The conditional-feature MLE is $\hat\mu_{jck}=\frac{n_{jck}}{n_c}$, where $n_{jck}=\sum_{i=1}^N\mathbf{1}(y_i=c)\mathbf{1}(x_{ij}=k)$. This is the fraction of class-$c$ examples whose feature $j$ takes value $k$ — a within-class relative frequency. <!--SR:!2026-05-10,16,304!2026-05-11,17,304-->
+- why Naive Bayes training reduces to counting ::@:: Under conditional independence, Naive Bayes parameter estimation is purely a counting problem: count class sizes $n_c$, count within-class feature-value frequencies $n_{jck}$, and divide. There is no iterative optimization to solve. <!--SR:!2026-05-17,18,324!2026-05-16,17,304-->
 
 <!-- check: ignore-next-line[header_style]: Laplace is a proper noun -->
 ### Laplace smoothing and zero-frequency handling
@@ -517,11 +517,11 @@ Smoothing introduces a small bias toward uniformity but often lowers variance an
 
 Flashcards for this section are as follows:
 
-- zero-frequency failure mode with consequence ::@:: Without smoothing, if $n_{jck}=0$ then $\hat\mu_{jck}=0$. This forces the entire likelihood $P(y=c)\prod_j P(x_j\mid y=c)$ to zero whenever the test sample contains feature value $k$, regardless of other features. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- what is a pseudocount with intuition ::@:: A pseudocount is an artificial count $\alpha$ added to observed frequencies. With $\alpha=1$ we pretend to have seen each feature value exactly once more than observed, ensuring no probability is exactly zero. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- Laplace-smoothed estimate with normalization derivation ::@:: The smoothed estimate is $\hat\mu_{jck}^{(\alpha)}=\frac{n_{jck}+\alpha}{n_c+\alpha K_j}$, where $n_{jck}$ counts how often feature $j$ takes value $k$ in class $c$, $n_c$ is the number of training examples in class $c$, $K_j$ is the number of possible values of feature $j$, and $\alpha$ is the pseudocount.<br/>Normalization check: $\sum_k\hat\mu_{jck}^{(\alpha)}=\frac{\sum_k(n_{jck}+\alpha)}{n_c+\alpha K_j}=\frac{n_c+K_j\alpha}{n_c+\alpha K_j}=1$ because $\sum_k n_{jck}=n_c$ and there are $K_j$ terms each adding $\alpha$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why smoothing helps Naive Bayes ::@:: Smoothing avoids brittle zero probabilities, introduces a small bias toward uniformity, and usually improves robustness on sparse or limited training data. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- smoothing limit as data grows ::@:: Let $n_c$ be the class-$c$ sample count and $K_j$ the number of possible values for feature $j$. Then as $n_c\to\infty$, $\hat\mu_{jck}^{(\alpha)}=\frac{n_{jck}+\alpha}{n_c+\alpha K_j}\to\frac{n_{jck}}{n_c}$, so smoothing has most effect when the available class-specific data are sparse. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- zero-frequency failure mode with consequence ::@:: Without smoothing, if $n_{jck}=0$ then $\hat\mu_{jck}=0$. This forces the entire likelihood $P(y=c)\prod_j P(x_j\mid y=c)$ to zero whenever the test sample contains feature value $k$, regardless of other features. <!--SR:!2026-05-10,16,304!2026-05-09,15,304-->
+- what is a pseudocount with intuition ::@:: A pseudocount is an artificial count $\alpha$ added to observed frequencies. With $\alpha=1$ we pretend to have seen each feature value exactly once more than observed, ensuring no probability is exactly zero. <!--SR:!2026-05-15,16,304!2026-05-09,15,304-->
+- Laplace-smoothed estimate with normalization derivation ::@:: The smoothed estimate is $\hat\mu_{jck}^{(\alpha)}=\frac{n_{jck}+\alpha}{n_c+\alpha K_j}$, where $n_{jck}$ counts how often feature $j$ takes value $k$ in class $c$, $n_c$ is the number of training examples in class $c$, $K_j$ is the number of possible values of feature $j$, and $\alpha$ is the pseudocount.<br/>Normalization check: $\sum_k\hat\mu_{jck}^{(\alpha)}=\frac{\sum_k(n_{jck}+\alpha)}{n_c+\alpha K_j}=\frac{n_c+K_j\alpha}{n_c+\alpha K_j}=1$ because $\sum_k n_{jck}=n_c$ and there are $K_j$ terms each adding $\alpha$. <!--SR:!2026-05-09,15,304!2026-05-11,17,304-->
+- why smoothing helps Naive Bayes ::@:: Smoothing avoids brittle zero probabilities, introduces a small bias toward uniformity, and usually improves robustness on sparse or limited training data. <!--SR:!2026-05-11,17,304!2026-05-16,17,304-->
+- smoothing limit as data grows ::@:: Let $n_c$ be the class-$c$ sample count and $K_j$ the number of possible values for feature $j$. Then as $n_c\to\infty$, $\hat\mu_{jck}^{(\alpha)}=\frac{n_{jck}+\alpha}{n_c+\alpha K_j}\to\frac{n_{jck}}{n_c}$, so smoothing has most effect when the available class-specific data are sparse. <!--SR:!2026-05-16,17,304!2026-05-15,16,304-->
 
 ### worked Naive Bayes posterior computation
 
@@ -533,7 +533,7 @@ Then unnormalized class scores are $s_1=0.4\cdot 0.9\cdot 0.8=0.288$ and $s_0=0.
 
 Flashcards for this section are as follows:
 
-- worked Naive Bayes class-score computation with full givens: With priors $P(y=1)=0.4$, $P(y=0)=0.6$, $P(x_1=1\mid y=1)=0.9$, $P(x_2=0\mid y=1)=0.8$, $P(x_1=1\mid y=0)=0.3$, $P(x_2=0\mid y=0)=0.7$, compute unnormalized scores for $x=(1,0)$ ::@:: $s_1=P(y=1)\cdot P(x_1=1\mid y=1)\cdot P(x_2=0\mid y=1)=0.4\cdot 0.9\cdot 0.8=0.288$; $s_0=P(y=0)\cdot P(x_1=1\mid y=0)\cdot P(x_2=0\mid y=0)=0.6\cdot 0.3\cdot 0.7=0.126$. <!--SR:!2026-04-12,4,284!2026-04-12,4,303-->
-- worked Naive Bayes prediction decision with derivation: Given scores $s_1=0.288$ and $s_0=0.126$, what class is predicted? ::@:: Since $s_1=0.288>s_0=0.126$, predict class $1$ by the argmax rule $\hat y=\arg\max_c\,P(y=c)\prod_j P(x_j\mid y=c)$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- worked Naive Bayes posterior normalization with steps: Using scores $s_1=0.288$ and $s_0=0.126$, where $s_c=P(y=c)P(x\mid y=c)$ is the unnormalized class score for class $c$, compute $P(y=1\mid x)$ ::@:: First compute the normalization constant $P(x)=s_1+s_0=0.288+0.126=0.414$. <br/> Then $P(y=1\mid x)=\frac{s_1}{P(x)}=\frac{0.288}{0.414}\approx 0.696$ and $P(y=0\mid x)=\frac{s_0}{P(x)}\approx 0.304$. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
-- why unnormalized-score comparison works ::@:: Posterior class prediction uses unnormalized scores $P(y=c)P(x\mid y=c)$ because the normalization constant $P(x)$ is identical across candidate classes and cancels in pairwise comparisons. <!--SR:!2026-04-12,4,284!2026-04-12,4,284-->
+- worked Naive Bayes class-score computation with full givens: With priors $P(y=1)=0.4$, $P(y=0)=0.6$, $P(x_1=1\mid y=1)=0.9$, $P(x_2=0\mid y=1)=0.8$, $P(x_1=1\mid y=0)=0.3$, $P(x_2=0\mid y=0)=0.7$, compute unnormalized scores for $x=(1,0)$ ::@:: $s_1=P(y=1)\cdot P(x_1=1\mid y=1)\cdot P(x_2=0\mid y=1)=0.4\cdot 0.9\cdot 0.8=0.288$; $s_0=P(y=0)\cdot P(x_1=1\mid y=0)\cdot P(x_2=0\mid y=0)=0.6\cdot 0.3\cdot 0.7=0.126$. <!--SR:!2026-05-09,15,304!2026-05-12,18,323-->
+- worked Naive Bayes prediction decision with derivation: Given scores $s_1=0.288$ and $s_0=0.126$, what class is predicted? ::@:: Since $s_1=0.288>s_0=0.126$, predict class $1$ by the argmax rule $\hat y=\arg\max_c\,P(y=c)\prod_j P(x_j\mid y=c)$. <!--SR:!2026-05-16,17,304!2026-05-10,16,304-->
+- worked Naive Bayes posterior normalization with steps: Using scores $s_1=0.288$ and $s_0=0.126$, where $s_c=P(y=c)P(x\mid y=c)$ is the unnormalized class score for class $c$, compute $P(y=1\mid x)$ ::@:: First compute the normalization constant $P(x)=s_1+s_0=0.288+0.126=0.414$. <br/> Then $P(y=1\mid x)=\frac{s_1}{P(x)}=\frac{0.288}{0.414}\approx 0.696$ and $P(y=0\mid x)=\frac{s_0}{P(x)}\approx 0.304$. <!--SR:!2026-05-10,16,304!2026-05-10,16,304-->
+- why unnormalized-score comparison works ::@:: Posterior class prediction uses unnormalized scores $P(y=c)P(x\mid y=c)$ because the normalization constant $P(x)$ is identical across candidate classes and cancels in pairwise comparisons. <!--SR:!2026-05-16,17,304!2026-05-16,17,304-->

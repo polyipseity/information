@@ -16,7 +16,7 @@ Stochastic independence formalises the idea that the occurrence of one event doe
 
 Flashcards for this section are as follows:
 
-- independence / overview ::@:: Independence expresses that $P[A\cap B]$ factors as $P[A]P[B]$ and, more generally, that finite intersections of events have probability equal to the product of their individual probabilities. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- independence / overview ::@:: Independence expresses that $P[A\cap B]$ factors as $P[A]P[B]$ and, more generally, that finite intersections of events have probability equal to the product of their individual probabilities. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-13,16,290!2026-05-13,16,290-->
 
 ## definitions: pairwise and joint independence
 
@@ -28,11 +28,11 @@ For more than two events, there are two common notions. A family $(A_i)_{i\in I}
 
 Flashcards for this section are as follows:
 
-- independence of two events / factorization definition ::@:: Events $A,B$ are (stochastically) independent if $P[A \cap B] = P[A]P[B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- pairwise independence of a family of events ::@:: A family $(A_i)_{i\in I}$ is pairwise independent if every distinct pair $(A_i,A_j)$ with $i\neq j$ satisfies $P[A_i\cap A_j]=P[A_i]P[A_j]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- joint independence of a family of events ::@:: A family $(A_i)_{i\in I}$ is jointly independent if for every finite subset $\{i_1,\ldots,i_m\}$ one has $P[A_{i_1}\cap\cdots\cap A_{i_m}] = \prod_{\ell=1}^m P[A_{i_\ell}]$; this implies pairwise independence but not conversely. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- independence versus disjointness ::@:: Disjoint events with positive probability cannot be independent, because $P[A\cap B]=0$ while $P[A]P[B]>0$; independence is about factorisation of probabilities, not set disjointness. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- independence / factorization criterion versus conditional-probability heuristic ::@:: If $P[A]>0$ and $P[B]>0$, then $A$ and $B$ are independent in the factorisation sense $P[A \cap B]=P[A]P[B]$ **if and only if** $P[A\mid B]=P[A]$ and $P[B\mid A]=P[B]$: from $P[A \cap B]=P[A]P[B]$ we get $P[A\mid B]=P[A\cap B]/P[B]=P[A]$ and $P[B\mid A]=P[A\cap B]/P[A]=P[B]$, and conversely $P[A\mid B]=P[A]$ and $P[B\mid A]=P[B]$ imply $P[A\cap B]=P[B]P[A\mid B]=P[A]P[B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- independence of two events / factorization definition ::@:: Events $A,B$ are (stochastically) independent if $P[A \cap B] = P[A]P[B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-11,14,290!2026-05-12,15,290-->
+- pairwise independence of a family of events ::@:: A family $(A_i)_{i\in I}$ is pairwise independent if every distinct pair $(A_i,A_j)$ with $i\neq j$ satisfies $P[A_i\cap A_j]=P[A_i]P[A_j]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-11,14,290!2026-05-12,15,290-->
+- joint independence of a family of events ::@:: A family $(A_i)_{i\in I}$ is jointly independent if for every finite subset $\{i_1,\ldots,i_m\}$ one has $P[A_{i_1}\cap\cdots\cap A_{i_m}] = \prod_{\ell=1}^m P[A_{i_\ell}]$; this implies pairwise independence but not conversely. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-12,15,290!2026-05-11,14,290-->
+- independence versus disjointness ::@:: Disjoint events with positive probability cannot be independent, because $P[A\cap B]=0$ while $P[A]P[B]>0$; independence is about factorisation of probabilities, not set disjointness. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-11,14,290!2026-05-11,14,290-->
+- independence / factorization criterion versus conditional-probability heuristic ::@:: If $P[A]>0$ and $P[B]>0$, then $A$ and $B$ are independent in the factorisation sense $P[A \cap B]=P[A]P[B]$ **if and only if** $P[A\mid B]=P[A]$ and $P[B\mid A]=P[B]$: from $P[A \cap B]=P[A]P[B]$ we get $P[A\mid B]=P[A\cap B]/P[B]=P[A]$ and $P[B\mid A]=P[A\cap B]/P[A]=P[B]$, and conversely $P[A\mid B]=P[A]$ and $P[B\mid A]=P[B]$ imply $P[A\cap B]=P[B]P[A\mid B]=P[A]P[B]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-13,16,290!2026-05-12,15,290-->
 
 ### stability under complements
 
@@ -42,10 +42,10 @@ In practice we often work with complements of independent events. A useful closu
 
 Flashcards for this section are as follows:
 
-- joint independence / stability under complements ::@:: If $A_1,\ldots,A_n$ are jointly independent and $B_i$ is either $A_i$ or $A_i^c$ for each $i$, then the family $B_1,\ldots,B_n$ is also jointly independent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- independence and complements / step 1: split $A_1$ into $A_1\cap A_2$ and $A_1\cap A_2^c$ ::@:: For $n=2$, independence of $A_1$ and $A_2$ gives $P[A_1\cap A_2]=P[A_1]P[A_2]$; writing $A_1=(A_1\cap A_2)\cup(A_1\cap A_2^c)$ as a disjoint union and using additivity yields $P[A_1\cap A_2^c]=P[A_1](1-P[A_2])=P[A_1]P[A_2^c]$. <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- independence and complements / step 2: swap the roles of $A_1$ and $A_2$ ::@:: Swapping the roles of $A_1$ and $A_2$ gives $P[A_1^c\cap A_2]=P[A_1^c]P[A_2]$ by the same splitting argument applied to $A_2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- independence and complements / step 3: prove the both-complements case ::@:: Applying the same decomposition with $A_1^c$ in place of $A_1$ and $A_2^c$ in place of $A_2$ shows $P[A_1^c\cap A_2^c]=P[A_1^c]P[A_2^c]$; together with the previous steps this proves stability under complements for $n=2$, and the general $n$ follows by induction. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- joint independence / stability under complements ::@:: If $A_1,\ldots,A_n$ are jointly independent and $B_i$ is either $A_i$ or $A_i^c$ for each $i$, then the family $B_1,\ldots,B_n$ is also jointly independent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-12,15,290!2026-05-11,14,290-->
+- independence and complements / step 1: split $A_1$ into $A_1\cap A_2$ and $A_1\cap A_2^c$ ::@:: For $n=2$, independence of $A_1$ and $A_2$ gives $P[A_1\cap A_2]=P[A_1]P[A_2]$; writing $A_1=(A_1\cap A_2)\cup(A_1\cap A_2^c)$ as a disjoint union and using additivity yields $P[A_1\cap A_2^c]=P[A_1](1-P[A_2])=P[A_1]P[A_2^c]$. <!--SR:!2026-05-13,16,290!2026-05-13,16,290-->
+- independence and complements / step 2: swap the roles of $A_1$ and $A_2$ ::@:: Swapping the roles of $A_1$ and $A_2$ gives $P[A_1^c\cap A_2]=P[A_1^c]P[A_2]$ by the same splitting argument applied to $A_2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-11,14,290!2026-05-12,15,290-->
+- independence and complements / step 3: prove the both-complements case ::@:: Applying the same decomposition with $A_1^c$ in place of $A_1$ and $A_2^c$ in place of $A_2$ shows $P[A_1^c\cap A_2^c]=P[A_1^c]P[A_2^c]$; together with the previous steps this proves stability under complements for $n=2$, and the general $n$ follows by induction. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-12,15,290!2026-05-12,15,290-->
 
 ### independence via cards and coins
 
@@ -55,5 +55,5 @@ A standard card deck has sample space $\Omega = \{(i,j) : i \in \{\clubsuit,\spa
 
 Flashcards for this section are as follows:
 
-- card-deck example / hearts and aces are independent ::@:: In a uniform 52-card deck, $A=$"heart", $B=$"ace" satisfy $P[A]=1/4$, $P[B]=1/13$, $P[A\cap B]=1/52=P[A]P[B]$, so they are independent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
-- coin-toss example / pairwise independent but not jointly independent ::@:: For two fair coin tosses, take $A$="heads on first", $B$="heads on second", $C$="exactly one head"; each has $P[A]=P[B]=P[C]=1/2$ and every pair satisfies $P[A\cap B]=P[A]P[B]$, $P[A\cap C]=P[A]P[C]$, $P[B\cap C]=P[B]P[C]$, so the events are pairwise independent, but $P[A\cap B\cap C]=0$ while $P[A]P[B]P[C]=1/8$, so they are not jointly independent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-04-11,4,270!2026-04-11,4,270-->
+- card-deck example / hearts and aces are independent ::@:: In a uniform 52-card deck, $A=$"heart", $B=$"ace" satisfy $P[A]=1/4$, $P[B]=1/13$, $P[A\cap B]=1/52=P[A]P[B]$, so they are independent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-11,14,290!2026-05-13,16,290-->
+- coin-toss example / pairwise independent but not jointly independent ::@:: For two fair coin tosses, take $A$="heads on first", $B$="heads on second", $C$="exactly one head"; each has $P[A]=P[B]=P[C]=1/2$ and every pair satisfies $P[A\cap B]=P[A]P[B]$, $P[A\cap C]=P[A]P[C]$, $P[B\cap C]=P[B]P[C]$, so the events are pairwise independent, but $P[A\cap B\cap C]=0$ while $P[A]P[B]P[C]=1/8$, so they are not jointly independent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-13,16,290!2026-05-13,16,290-->

@@ -10,7 +10,7 @@ tags:
 
 # planetary nebula
 
-{@{A __planetary nebula__}@} is {@{a type of [emission nebula](emission%20nebula.md) consisting of an expanding, glowing shell of [ionized](ionization.md) gas}@} ejected from {@{[red giant](red%20giant.md) stars late in their lives}@}. <!--SR:!2029-08-22,1342,310!2026-04-10,77,334!2026-04-09,76,334-->
+{@{A __planetary nebula__}@} is {@{a type of [emission nebula](emission%20nebula.md) consisting of an expanding, glowing shell of [ionized](ionization.md) gas}@} ejected from {@{[red giant](red%20giant.md) stars late in their lives}@}. <!--SR:!2029-08-22,1342,310!2027-04-28,360,354!2027-04-23,355,354-->
 
 {@{The term "planetary nebula"}@} is {@{a [misnomer](misnomer.md) because they are unrelated to [planets](planet.md)}@}. The term originates from {@{the planet-like round shape of these [nebulae](nebula.md) observed by astronomers through early telescopes}@}. <!--SR:!2027-11-23,918,330!2028-08-23,1154,350!2027-03-19,345,354-->
 

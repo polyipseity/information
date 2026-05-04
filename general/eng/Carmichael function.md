@@ -43,7 +43,7 @@ This implies that {@{the order of every element of the multiplicative group of i
 
 > Theorem 2 ::@:: — For every positive integer _n_ there exists a primitive _λ_-root modulo _n_. Moreover, if _g_ is such a root, then there are $\varphi (\lambda (n))$ primitive _λ_-roots that are congruent to powers of _g_.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2027-04-05,613,321!2026-07-04,423,321-->
 
-If {@{_g_ is one of the primitive _λ_-roots guaranteed by the theorem}@}, then {@{$g^{m}\equiv 1{\pmod {n} }$ has no positive integer solutions _m_ less than _λ_\(_n_\)}@}, showing that {@{there is no positive _m_ \< _λ_\(_n_\) such that $a^{m}\equiv 1{\pmod {n} }$ for all _a_ relatively prime to _n_}@}. <!--SR:!2028-12-06,1123,350!2030-04-15,1521,361!2026-04-12,345,301-->
+If {@{_g_ is one of the primitive _λ_-roots guaranteed by the theorem}@}, then {@{$g^{m}\equiv 1{\pmod {n} }$ has no positive integer solutions _m_ less than _λ_\(_n_\)}@}, showing that {@{there is no positive _m_ \< _λ_\(_n_\) such that $a^{m}\equiv 1{\pmod {n} }$ for all _a_ relatively prime to _n_}@}. <!--SR:!2028-12-06,1123,350!2030-04-15,1521,361!2030-04-08,1438,321-->
 
 {@{The second statement of Theorem 2}@} does not imply that {@{all primitive _λ_-roots modulo _n_ are congruent to powers of a single root _g_}@}.<sup>[\[5\]](#^ref-5)</sup> For example, if {@{_n_ = 15}@}, then _λ_\(_n_\) = 4 while $\varphi (n)=8$ and $\varphi (\lambda (n))=2$. There are {@{four primitive _λ_-roots modulo 15}@}, namely {@{2, 7, 8, and 13 as $1\equiv 2^{4}\equiv 8^{4}\equiv 7^{4}\equiv 13^{4}$}@}. The roots 2 and 8 are {@{congruent to powers of each other and the roots 7 and 13 are congruent to powers of each other}@}, but {@{neither 7 nor 13 is congruent to a power of 2 or 8 and vice versa}@}. {@{The other four elements of the multiplicative group modulo 15}@}, namely {@{1, 4 \(which satisfies $4\equiv 2^{2}\equiv 8^{2}\equiv 7^{2}\equiv 13^{2}$\), 11, and 14}@}, are {@{not primitive _λ_-roots modulo 15}@}. <!--SR:!2030-02-28,1487,361!2027-01-14,552,310!2027-03-22,572,310!2030-05-23,1553,361!2026-07-02,385,301!2028-05-20,944,341!2027-10-16,781,330!2028-03-14,909,341!2027-07-02,673,301!2028-02-10,882,341-->
 
@@ -140,7 +140,7 @@ For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3<
 
 ### minimal order
 
-For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2026-06-03,326,261!2026-04-19,128,150-->
+For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers, any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2026-06-03,326,261!2026-11-05,188,150-->
 
 ### small values
 

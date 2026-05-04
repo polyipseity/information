@@ -153,7 +153,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←air sparging <!--SR:!2029-09-26,1509,375!2031-10-09,2146,395-->
 - air sparging→::@::←bioremediation <!--SR:!2030-02-12,1553,335!2026-10-01,593,335-->
-- bioremediation→::@::←catalytic oxidation <!--SR:!2026-04-21,507,335!2027-01-03,660,335-->
+- bioremediation→::@::←catalytic oxidation <!--SR:!2032-09-17,2338,355!2027-01-03,660,335-->
 - catalytic oxidation→::@::←ex-situ biopile <!--SR:!2026-11-13,581,295!2026-06-16,518,335-->
 - ex-situ biopile→::@::←ex-situ solidification or stabilization <!--SR:!2027-07-13,860,355!2026-06-11,515,335-->
 - ex-situ solidification or stabilization→::@::←_(end)_ <!--SR:!2031-09-07,2120,395!2026-09-12,580,335-->
@@ -184,7 +184,7 @@ Daily Domestic Waste Generation Rates per Capita Compared
 
 Landfills in Hong Kong
 
-- main landfills in Hong Kong (and saturation time) ::@:: North East New Territories Landfill (2024), South East New Territories Landfill (2022), West New Territories Landfill (2024) <!--SR:!2027-03-28,733,290!2026-04-22,480,310-->
+- main landfills in Hong Kong (and saturation time) ::@:: North East New Territories Landfill (2024), South East New Territories Landfill (2022), West New Territories Landfill (2024) <!--SR:!2027-03-28,733,290!2031-12-13,2059,330-->
 
 ## page 11
 
@@ -293,7 +293,7 @@ Noise Pollution: A serious problem in Hong Kong?
 
 Noise Levels and Causes
 
-- noise level measure ::@:: sound pressure level, in dB(A) <!--SR:!2026-04-29,494,310!2027-06-14,803,330-->
+- noise level measure ::@:: sound pressure level, in dB(A) <!--SR:!2032-02-16,2118,330!2027-06-14,803,330-->
   - airplane passing ::@:: 120 dB(A) <!--SR:!2027-05-25,827,330!2027-06-01,829,330-->
   - construction site ::@:: 110 dB(A) <!--SR:!2028-12-27,1225,310!2027-02-10,686,310-->
   - concert ::@:: 100 dB(A) <!--SR:!2027-09-22,918,330!2027-10-13,935,330-->
@@ -392,8 +392,8 @@ return await memorize_seq(
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2026-12-05,601,250!2027-08-27,842,290-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2026-11-26,519,270!2028-05-27,832,250-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2027-09-07,808,270!2030-05-25,1593,310-->
-- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2026-04-27,269,210!2027-05-05,416,190-->
-- perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2026-04-19,362,270!2026-07-31,505,270-->
+- nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2028-07-09,803,230!2027-05-05,416,190-->
+- perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2030-01-16,1363,290!2026-07-31,505,270-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2026-06-02,367,310!2027-02-16,688,310-->
 
 <!--/pytextgen-->

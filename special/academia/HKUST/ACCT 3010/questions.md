@@ -110,7 +110,7 @@ tags:
 >
 > ---
 >
-> - solution: \(for reference only\) The U.S. is {@{likely to remain solvent over the next decade, but its fiscal position will become increasingly precarious}@}. Current {@{spending patterns and entitlement obligations}@} suggest that without {@{substantial policy shifts—either in revenue growth or expenditure restraint}@}—the debt trajectory could {@{outpace economic growth, tightening the budgetary space for future priorities}@}. This scenario underscores {@{the need for structural reforms \(tax, spending, or both\)}@} if the U.S. wants to {@{avoid compromising its long-term economic resilience}@}. <!--SR:!2027-03-03,346,307!2026-04-12,4,312!2026-04-12,4,312!2026-04-12,4,312!2026-04-12,4,312!2026-04-12,4,312-->
+> - solution: \(for reference only\) The U.S. is {@{likely to remain solvent over the next decade, but its fiscal position will become increasingly precarious}@}. Current {@{spending patterns and entitlement obligations}@} suggest that without {@{substantial policy shifts—either in revenue growth or expenditure restraint}@}—the debt trajectory could {@{outpace economic growth, tightening the budgetary space for future priorities}@}. This scenario underscores {@{the need for structural reforms \(tax, spending, or both\)}@} if the U.S. wants to {@{avoid compromising its long-term economic resilience}@}. <!--SR:!2027-03-03,346,307!2026-05-16,17,332!2026-05-16,17,332!2026-05-17,18,332!2026-05-15,16,332!2026-05-17,18,332-->
 
 ## week 4 lecture 2
 

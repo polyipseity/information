@@ -84,7 +84,7 @@ There are {@{no charges nor surface currents at the interface}@}, and so {@{the 
 
 ### if medium 1 is a perfect [dielectric](dielectric.md) and medium 2 is a perfect [metal](metal.md)
 
-There are {@{charges and surface currents at the interface}@}, and so {@{the tangential component of __H__ and the normal component of __D__ are not continuous}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-07-24,303,338!2026-04-16,209,318-->
+There are {@{charges and surface currents at the interface}@}, and so {@{the tangential component of __H__ and the normal component of __D__ are not continuous}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2026-07-24,303,338!2028-11-09,922,338-->
 
 ## boundary conditions
 

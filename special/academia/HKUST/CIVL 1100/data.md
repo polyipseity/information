@@ -86,7 +86,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
-- completion time ::@:: 1994 <!--SR:!2027-05-10,766,336!2026-04-28,565,396-->
+- completion time ::@:: 1994 <!--SR:!2027-05-10,766,336!2034-09-10,3057,416-->
 - rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2026-08-16,196,196!2028-04-08,948,376-->
 
 ## China International Trust and Investment Plaza
@@ -103,11 +103,11 @@ See [CITIC Plaza](../../../../general/CITIC%20Plaza.md).
 See [Colosseum](../../../../general/Colosseum.md).
 
 - base widths ::@:: length: 189 m, width: 156 m <!--SR:!2030-04-26,1523,336!2029-11-16,1503,396-->
-- construction period ::@:: AD 72 to AD 80, 8 years <!--SR:!2026-04-17,384,236!2026-10-08,666,396-->
+- construction period ::@:: AD 72 to AD 80, 8 years <!--SR:!2029-10-28,1279,256!2026-10-08,666,396-->
 - description ::@:: elliptical amphitheater in the center of Rome <!--SR:!2029-03-11,1379,396!2031-11-15,2165,396-->
 - geographic location ::@:: Rome <!--SR:!2033-05-11,2640,416!2026-11-08,740,416-->
 - height ::@:: 48 m (4 storeys) <!--SR:!2029-01-17,1163,296!2026-12-23,772,416-->
-- importance ::@:: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2026-07-15,628,396!2026-04-16,555,396-->
+- importance ::@:: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2026-07-15,628,396!2034-07-16,3001,416-->
 
 ## Eiffel Tower
 
@@ -137,7 +137,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 - base width ::@:: 230.33 m <!--SR:!2028-06-25,1068,376!2026-05-26,569,396-->
 - construction period ::@:: 10~20 years around 2560 BC <!--SR:!2026-09-04,460,236!2033-05-10,2639,416-->
 - description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
-- height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2028-10-05,1094,356!2026-04-26,540,396-->
+- height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2028-10-05,1094,356!2034-04-26,2920,416-->
 - weight ::@:: 5.9 million tonnes <!--SR:!2027-08-02,832,376!2026-12-18,768,416-->
 - tomb for ::@:: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2032-07-15,2359,396!2029-01-24,1358,396-->
 

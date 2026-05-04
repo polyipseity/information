@@ -49,7 +49,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="0398da"--><!-- The following content is generated at 2024-01-04T20:17:52.269345+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[bauxite](bauxite.md) <!--SR:!2033-08-29,2855,330!2026-04-24,798,330-->
+- _(begin)_→::@::←[bauxite](bauxite.md) <!--SR:!2033-08-29,2855,330!2036-04-07,3631,350-->
 - [bauxite](bauxite.md)→::@::←[chalcopyrite](chalcopyrite.md), copper pyrite <!--SR:!2029-01-07,1472,310!2029-09-23,1801,330-->
 - [chalcopyrite](chalcopyrite.md), copper pyrite→::@::←[cinnabar](cinnabar.md), cinnabarite <!--SR:!2027-08-08,772,250!2031-02-22,1912,290-->
 - [cinnabar](cinnabar.md), cinnabarite→::@::←[galena](galena.md) <!--SR:!2032-06-24,2379,290!2028-06-09,1280,290-->

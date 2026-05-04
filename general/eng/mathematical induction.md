@@ -196,7 +196,7 @@ Sometimes, it is {@{more convenient to deduce backwards, proving the statement f
 
 - see: [all horses are the same color](all%20horses%20are%20the%20same%20color.md)
 
-The induction step {@{must be proved for all values of _n_}@}. To illustrate this, {@{Joel E. Cohen}@} proposed the following argument, which purports to {@{prove by mathematical induction that [all horses are of the same color](all%20horses%20are%20the%20same%20color.md)}@}:<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2028-10-29,1151,350!2026-04-10,406,310!2028-12-08,1182,350-->
+The induction step {@{must be proved for all values of _n_}@}. To illustrate this, {@{Joel E. Cohen}@} proposed the following argument, which purports to {@{prove by mathematical induction that [all horses are of the same color](all%20horses%20are%20the%20same%20color.md)}@}:<sup>[\[23\]](#^ref-23)</sup> <!--SR:!2028-10-29,1151,350!2031-02-11,1749,330!2028-12-08,1182,350-->
 
 _Base case_ ::@:: in a set of only _one_ horse, there is only one color. <!--SR:!2028-10-02,1129,350!2028-11-05,1157,350-->
 

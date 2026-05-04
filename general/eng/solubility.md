@@ -126,7 +126,7 @@ return (
 > acetates (ethanoates)
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{Ag<sup>+</sup> compounds}@} <!--SR:!2028-06-12,1334,242!2026-04-17,756,230-->
+> - exception(s): {@{Ag<sup>+</sup> compounds}@} <!--SR:!2028-06-12,1334,242!2033-01-18,2455,250-->
 
 <!-- markdownlint MD028 -->
 
@@ -154,7 +154,7 @@ return (
 > sulfates
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds}@} <!--SR:!2033-06-15,2910,281!2026-04-12,400,210-->
+> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Ca<sup>2+</sup> compounds}@} <!--SR:!2033-06-15,2910,281!2029-08-12,1200,230-->
 
 <!-- markdownlint MD028 -->
 
@@ -340,7 +340,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="b92d"--><!-- The following content is generated at 2024-01-04T20:17:52.642068+08:00. Any edits will be overridden! -->
 
-- [ammonium carbonate](ammonium%20carbonate.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-05-03,711,338-->
+- [ammonium carbonate](ammonium%20carbonate.md):@:<span style="color: green;">soluble</span> <!--SR:!2032-11-30,2403,338-->
 - [ammonium chloride](ammonium%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-10-02,829,338-->
 - [ammonium hydroxide](ammonia%20solution.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-02-05,320,298-->
 - [ammonium phosphate](ammonium%20phosphate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-01-19,307,298-->
@@ -348,12 +348,12 @@ return await memorize_map(
 - [ammonium sulfite](ammonium%20sulfite.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-12-15,887,338-->
 - [barium hydroxide](barium%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-09-20,659,238-->
 - [barium oxide](barium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2027-05-05,922,298-->
-- [barium sulfate](barium%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-04-22,96,130-->
+- [barium sulfate](barium%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-10-31,184,150-->
 - [calcium hydroxide](calcium%20hydroxide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2031-01-18,1943,318-->
 - [calcium oxide](calcium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2026-07-14,559,258-->
 - [calcium sulfate](calcium%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2027-05-15,607,198-->
 - [calcium sulfide](calcium%20sulfide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2026-10-22,284,150-->
-- [calcium sulfite](calcium%20sulfite.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-04-19,40,150-->
+- [calcium sulfite](calcium%20sulfite.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-07-29,90,170-->
 - [copper(I) bromide](copper(I)%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-12-24,1041,278-->
 - [copper(I) chloride](copper(I)%20chloride.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-02-13,776,278-->
 - [copper(I) iodide](copper(I)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2028-07-19,909,238-->
@@ -397,7 +397,7 @@ return await memorize_map(
 - [strontium sulfate](strontium%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-07-25,317,158-->
 - [thallium(I) hydroxide](thallium(I)%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2031-03-03,1820,278-->
 - [thallium(I) oxide](thallium(I)%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2029-12-23,1442,278-->
-- [thallium(III) oxide](thallium(III)%20oxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-05-02,142,178-->
+- [thallium(III) oxide](thallium(III)%20oxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-05-03,366,198-->
 - [uranyl carbonate](uranyl%20carbonate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-01-28,797,298-->
 
 <!--/pytextgen-->

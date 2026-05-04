@@ -23,11 +23,11 @@ PCA is most commonly used when {@{many of the variables are highly correlated wi
 
 ## intuition
 
-PCA can be thought of {@{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}@}, where each axis {@{of the ellipsoid (which are perpendicular to each other) represents a principal component}@}. The axis {@{length represents the variance of the data along that axis}@}. Axes with the least length means {@{the data does not differ much in said axis}@}, thus removing said axes {@{reduces dimensionality while minimizing information loss}@}. <!--SR:!2026-06-15,508,310!2028-07-06,1003,290!2026-04-11,484,310!2028-02-28,1051,350!2027-01-30,729,330-->
+PCA can be thought of {@{fitting an (hyper)[ellipsoid](ellipsoid.md) (a (hyper)[sphere](sphere.md) that are scaled differently along different axes) to the data}@}, where each axis {@{of the ellipsoid (which are perpendicular to each other) represents a principal component}@}. The axis {@{length represents the variance of the data along that axis}@}. Axes with the least length means {@{the data does not differ much in said axis}@}, thus removing said axes {@{reduces dimensionality while minimizing information loss}@}. <!--SR:!2026-06-15,508,310!2028-07-06,1003,290!2032-01-04,2076,330!2028-02-28,1051,350!2027-01-30,729,330-->
 
 ## computing PCA using the covariance method
 
-The following is a detailed description of PCA using {@{the covariance method as opposed to the correlation method}@}. <!--SR:!2026-05-01,475,310-->
+The following is a detailed description of PCA using {@{the covariance method as opposed to the correlation method}@}. <!--SR:!2031-11-29,2038,330-->
 
 The goal is to {@{transform a given data set __X__ of dimension _p_ to another data set __Y__ of dimension _l_, where $p \ge l$}@}. Equivalently, matrix __Y__ is {@{the [Karhunen–Loève transform](Kosambi–Karhunen–Loève%20theorem.md) (KLT) of matrix __X__}@}: {@{$$\mathbf{Y} = \mathbb{KLT}\{\mathbf{X}\}$$}@} <!--SR:!2026-06-01,524,310!2029-02-20,1332,350!2028-09-22,1210,350-->
 
@@ -117,7 +117,7 @@ return chain(
     - Make sure {@{the pairings between the 2 matrices are maintained}@}. <!--SR:!2028-11-11,1247,350!2026-10-13,648,330-->
 
 7. __<!--pytextgen generate section="dd01"--><!-- The following content is generated at 2024-06-11T22:43:08.410586+08:00. Any edits will be overridden! -->compute the cumulative variance for each eigenvector<!--/pytextgen-->__
-    - The eigenvalues {@{represent the distribution of the data's variance among each of the eigenvector}@}. The cumulative variance _g_ for the _j_-th eigenvector is {@{simply the sum of the eigenvalues from the 1st to the _j_-th eigenvector}@}: {@{$$g_j = \sum_{i = 1}^j \mathbf{D}_{ii} \quad \forall j \in \set{1, \ldots, p}$$}@} <!--SR:!2027-06-30,777,290!2026-05-02,511,310!2026-06-23,553,310-->
+    - The eigenvalues {@{represent the distribution of the data's variance among each of the eigenvector}@}. The cumulative variance _g_ for the _j_-th eigenvector is {@{simply the sum of the eigenvalues from the 1st to the _j_-th eigenvector}@}: {@{$$g_j = \sum_{i = 1}^j \mathbf{D}_{ii} \quad \forall j \in \set{1, \ldots, p}$$}@} <!--SR:!2027-06-30,777,290!2032-05-02,2191,330!2026-06-23,553,310-->
 
 8. __<!--pytextgen generate section="c123"--><!-- The following content is generated at 2024-06-25T17:37:48.434481+08:00. Any edits will be overridden! -->select a subset of the eigenvectors as the new basis vectors<!--/pytextgen-->__
     - Use the cumulative variances as {@{a guide for choosing an appropriate value for the number of reduced dimensions _l_}@}. The goal is to {@{choose the smallest _l_ possible while ensuring the _l_-th cumulative variance _g<sub>l</sub>_ is reasonably high on a percentage basis}@}. For example, {@{one can choose the smallest _l_ such that $\frac {g_l} {g_p} \ge 0.9$}@}.

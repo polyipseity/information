@@ -61,7 +61,7 @@ There are some elementary rules:
 - (annotation: [Euclid's lemma](Euclid's%20lemma.md)) ::@:: If $a\mid bc$, and $\gcd(a,b)=1$, then $a\mid c$.<sup>[\[b\]](#^ref-b)</sup> This is called [Euclid's lemma](Euclid's%20lemma.md). <!--SR:!2028-10-29,1085,350!2028-11-30,1110,350-->
 - (annotation: prime divisibility) ::@:: If $p$ is a prime number and $p\mid ab$ then $p\mid a$ or $p\mid b$ (annotation: or both). <!--SR:!2029-03-09,1188,350!2029-06-30,1273,350-->
 
-{@{A positive divisor of $n$ that is different from $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of $n$}@}. <!--SR:!2029-08-12,1305,350!2026-04-18,339,290!2029-06-13,1256,350!2028-11-17,1100,350!2029-01-28,1158,350!2027-10-14,765,330-->
+{@{A positive divisor of $n$ that is different from $n$}@} is called {@{a __proper divisor__ or an __aliquot part__ of $n$}@} \(for example, {@{the proper divisors of 6}@} are {@{1, 2, and 3}@}\). {@{A number that does not evenly divide $n$ but leaves a remainder}@} is sometimes called {@{an __aliquant part__ of $n$}@}. <!--SR:!2029-08-12,1305,350!2030-01-19,1366,310!2029-06-13,1256,350!2028-11-17,1100,350!2029-01-28,1158,350!2027-10-14,765,330-->
 
 {@{An integer $n>1$ whose only proper divisor is 1}@} is called {@{a [prime number](prime%20number.md)}@}. Equivalently, a prime number is {@{a positive integer that has exactly two positive factors: 1 and itself}@}. <!--SR:!2029-04-17,1218,350!2029-04-23,1223,350!2029-08-23,1316,350-->
 
@@ -75,7 +75,7 @@ If {@{the [prime factorization](integer%20factorization.md) of $n$ is given by $
 
 For every natural $n$, ::@:: $d(n)<2{\sqrt {n} }$. (annotation: Proof is by pairing positive divisors that multiplies to $n$ and observing $\lfloor \sqrt n \rfloor$ is the maximum number of pairs.) <!--SR:!2029-06-14,1257,350!2029-01-08,1143,350-->
 
-Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n} }),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}. <!--SR:!2027-12-04,623,250!2026-04-21,340,290!2026-09-15,458,310!2028-10-19,1078,350-->
+Also,<sup>[\[7\]](#^ref-7)</sup> {@{$$d(1)+d(2)+\cdots +d(n)=n\ln n+(2\gamma -1)n+O({\sqrt {n} }),$$}@} where {@{$\gamma$ is [Euler–Mascheroni constant](Euler's%20constant.md)}@}. One interpretation of this result is that {@{a randomly chosen positive integer _n_ has an average number of divisors of about $\ln n$}@}. However, this is {@{a result from the contributions of [numbers with "abnormally many" divisors](highly%20composite%20number.md)}@}. <!--SR:!2027-12-04,623,250!2030-01-23,1370,310!2026-09-15,458,310!2028-10-19,1078,350-->
 
 ## in abstract algebra
 

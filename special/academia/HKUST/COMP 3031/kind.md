@@ -53,9 +53,9 @@ Scala 3 also supports {@{_type functions_}@} written as {@{`[X] =>> ...`}@}. The
 > foo[[X] =>> (X, X), Int](x => (x, x), 1)         // (1, 1) : (Int, Int)
 > type G[X] = (X, X); foo[G, Int](x => (x, x), 1)  // (1, 1) : (Int, Int)
 > ```
-<!--SR:!2026-04-09,74,330!2026-04-10,75,330!2026-04-11,76,330-->
+<!--SR:!2027-03-30,339,350!2027-04-05,345,350!2027-04-08,348,350-->
 
-Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accepts {@{types as arguments and output a type}@}. <!--SR:!2026-04-16,75,330!2027-03-01,327,350!2026-04-09,74,330-->
+Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accepts {@{types as arguments and output a type}@}. <!--SR:!2027-04-06,346,350!2027-03-01,327,350!2027-03-29,338,350-->
 
 ## monad example
 

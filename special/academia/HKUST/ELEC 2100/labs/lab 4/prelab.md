@@ -24,4 +24,4 @@ The public tree currently preserves the lab-4 scaffold and archived submission s
 
 Flashcards for this section are as follows:
 
-- For ELEC 2100 lab 4 prelab, what does the current public-note status indicate? ::@:: It indicates that the scaffold exists but the official prelab content has not yet been ingested into a durable knowledge note. <!--SR:!2026-04-12,4,270!2026-04-12,4,270-->
+- For ELEC 2100 lab 4 prelab, what does the current public-note status indicate? ::@:: It indicates that the scaffold exists but the official prelab content has not yet been ingested into a durable knowledge note. <!--SR:!2026-05-13,16,290!2026-05-12,15,290-->

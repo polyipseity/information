@@ -11,7 +11,7 @@ tags:
 
 # `strcpy`
 
-- _defined in {@{[`<string.h>`](../../../../general/C%20string%20handling.md)}@}_ <!--SR:!2026-04-12,723,330-->
+- _defined in {@{[`<string.h>`](../../../../general/C%20string%20handling.md)}@}_ <!--SR:!2035-05-03,3290,350-->
 
 ```C
 // (1)

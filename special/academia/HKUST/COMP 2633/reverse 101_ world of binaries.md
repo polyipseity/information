@@ -24,7 +24,7 @@ Assuming {@{you are using Linux}@}. For developers, {@{compiling a C program}@} 
 
 However, we can go further than this. The program `<output>` is {@{actually a format called an _Executable and Linkable Format_ (ELF) file}@}. The property we can about here is that {@{you can execute it, as evident from the "executable" in its name}@}. Details will be mentioned in later lectures. <!--SR:!2031-06-12,1972,385!2030-10-21,1787,385-->
 
-Instead, we are more interested in {@{the compilation process itself}@}. We like to think of {@{compilation as a single process}@}, but it is {@{really composed of several steps}@}: {@{preprocessing \(`-E`\), then compilation \(`-S`\)}@}, then {@{assembly \(`-c`\), and finally linking \(none\)}@}. <!--SR:!2031-03-28,1902,385!2028-11-23,1121,343!2026-04-23,144,418!2026-04-25,146,418!2026-04-24,145,418-->
+Instead, we are more interested in {@{the compilation process itself}@}. We like to think of {@{compilation as a single process}@}, but it is {@{really composed of several steps}@}: {@{preprocessing \(`-E`\), then compilation \(`-S`\)}@}, then {@{assembly \(`-c`\), and finally linking \(none\)}@}. <!--SR:!2031-03-28,1902,385!2028-11-23,1121,343!2028-07-22,820,438!2028-08-08,828,438!2028-07-28,826,438-->
 
 Preprocessing transforms {@{source program (text) into modified source program (still text)}@}. GCC internally uses {@{the program `cpp`, which we can use by itself}@}, for this step. To only run this step with GCC, the command is {@{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}@}. <!--SR:!2031-02-26,1872,385!2028-11-26,1212,365!2026-05-09,415,303-->
 
@@ -104,11 +104,11 @@ A key idea in assembly that {@{code and data are treated the same}@}. Indeed, da
 - `resq <size>` ::@:: Reserve `<size>` number of qwords (8 bytes, quadruple word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2027-09-05,832,345!2031-05-23,1957,385-->
 - `resw <size>` ::@:: Reserve `<size>` number of word (2 bytes). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2026-08-10,501,323!2029-09-12,1454,377-->
 
-Since {@{a program requires a starting point}@}, usually we are required to {@{[label](#labels) the starting instruction with the name `_start`}@}, and make it {@{global by prepending the line `global _start` before the line with the `_start` label}@}. <!--SR:!2026-04-22,447,323!2029-01-10,1179,365!2026-04-10,143,417-->
+Since {@{a program requires a starting point}@}, usually we are required to {@{[label](#labels) the starting instruction with the name `_start`}@}, and make it {@{global by prepending the line `global _start` before the line with the `_start` label}@}. <!--SR:!2031-10-08,1993,343!2029-01-10,1179,365!2028-07-18,816,437-->
 
 ### labels
 
-{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can use {@{those names instead of raw addresses whenever referring to them}@}, such as {@{jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction}@}, e.g. {@{`my_int: dd 2633`, `my_uninit_int: resd 1`}@}. <!--SR:!2031-10-01,2062,385!2029-12-26,1524,363!2031-09-07,2042,385!2028-12-07,1144,357!2029-08-16,1419,363!2026-04-12,145,417!2026-04-10,143,417-->
+{@{Referencing code or data by their raw address}@} is {@{troublesome and error-prone}@}. We can instead {@{give names, called _labels_, to the code or data at particular addresses}@}. Then we can use {@{those names instead of raw addresses whenever referring to them}@}, such as {@{jump destination and data address}@}. The synax is {@{prepending `<label name>:` before the instruction}@}, e.g. {@{`my_int: dd 2633`, `my_uninit_int: resd 1`}@}. <!--SR:!2031-10-01,2062,385!2029-12-26,1524,363!2031-09-07,2042,385!2028-12-07,1144,357!2029-08-16,1419,363!2028-07-25,823,437!2028-07-17,815,437-->
 
 Label names are {@{global and unique across an assembly program, and appear in symbol tables of object files}@}. The assembler or linker will {@{transform them into constant addresses during assembly or linking}@}. {@{The loader (before execution of the program)}@} may {@{further modify those constant addresses}@}. <!--SR:!2028-04-06,1015,350!2029-10-13,1484,383!2030-10-09,1777,385!2026-06-11,151,422-->
 

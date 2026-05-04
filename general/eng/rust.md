@@ -20,7 +20,7 @@ tags:
 
 Rusting of iron begins with {@{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}@}. It is accelerated by {@{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}@}. It happens faster in {@{stressed areas like bent, scratched, or sharp areas}@}. <!--SR:!2032-10-05,2496,290!2028-11-20,1394,310!2026-07-29,752,250-->
 
-First, {@{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides](hydroxide.md) in water}@}. The {@{iron(II) ions may be further oxidized by air to iron(III) ions}@}: <!--SR:!2026-04-16,669,250!2032-11-12,2634,330-->
+First, {@{iron is oxidized to iron(II) ions and oxygen is reduced to [hydroxides](hydroxide.md) in water}@}. The {@{iron(II) ions may be further oxidized by air to iron(III) ions}@}: <!--SR:!2027-03-20,331,230!2032-11-12,2634,330-->
 
 > {@{__ion formation by redox__}@}
 >
@@ -90,7 +90,7 @@ Stainless steel {@{forms a [passivation](passivation%20(chemistry).md) layer of 
 
 Coating and painting {@{isolate iron from the environment}@}. <!--SR:!2027-03-03,1109,350-->
 
-[Paint](paint.md) can be used for {@{small structures and vehicle bodies}@}. It is {@{cheap but easy to scratch off}@}. [Plastic](plastic.md) can be used for {@{small objects}@}. It is {@{good-looking and long-lasting but relatively more expensive}@}. [Oil](oil.md) or [grease](grease.md) can be used for {@{machines and tools}@}. They are {@{sticky and can lubricate the moving parts}@}. <!--SR:!2030-09-20,1872,270!2031-12-18,2389,330!2027-10-21,1294,350!2026-04-17,679,250!2029-10-25,1640,310!2030-08-03,1895,290-->
+[Paint](paint.md) can be used for {@{small structures and vehicle bodies}@}. It is {@{cheap but easy to scratch off}@}. [Plastic](plastic.md) can be used for {@{small objects}@}. It is {@{good-looking and long-lasting but relatively more expensive}@}. [Oil](oil.md) or [grease](grease.md) can be used for {@{machines and tools}@}. They are {@{sticky and can lubricate the moving parts}@}. <!--SR:!2030-09-20,1872,270!2031-12-18,2389,330!2027-10-21,1294,350!2032-11-03,2386,270!2029-10-25,1640,310!2030-08-03,1895,290-->
 
 ### electroplating
 

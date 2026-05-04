@@ -23,7 +23,7 @@ $$\begin{aligned}
 & = -2
 \end{aligned}$$
 
-But the integral value is obviously 2, not -2. This is because {@{$u$ is not even defined at $x = 0$}@}. <!--SR:!2026-04-21,532,310-->
+But the integral value is obviously 2, not -2. This is because {@{$u$ is not even defined at $x = 0$}@}. <!--SR:!2032-08-05,2286,330-->
 
 ### integrand is non-rewritable
 

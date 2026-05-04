@@ -66,7 +66,7 @@ C$: [cost structure](#cost%20structure)
 - CR: [customer relationships](#customer%20relationships)→::@::←R$: [revenue streams](#revenue%20streams) <!--SR:!2026-12-04,394,214!2027-10-17,846,292-->
 - R$: [revenue streams](#revenue%20streams)→::@::←KR: [key resources](#key%20resources) <!--SR:!2028-08-17,1093,277!2028-01-07,928,277-->
 - KR: [key resources](#key%20resources)→::@::←KA: [key activities](#key%20activities) <!--SR:!2028-02-22,860,257!2026-11-03,599,274-->
-- KA: [key activities](#key%20activities)→::@::←KP: [key partnerships](#key%20partnerships) <!--SR:!2026-04-20,503,277!2026-04-10,357,234-->
+- KA: [key activities](#key%20activities)→::@::←KP: [key partnerships](#key%20partnerships) <!--SR:!2031-08-15,1942,297!2029-07-10,1176,254-->
 - KP: [key partnerships](#key%20partnerships)→::@::←C$: [cost structure](#cost%20structure) <!--SR:!2027-05-26,521,237!2028-03-22,1024,294-->
 - C$: [cost structure](#cost%20structure)→::@::←_(end)_ <!--SR:!2026-12-20,689,314!2026-10-26,650,314-->
 
@@ -180,7 +180,7 @@ risk reduction
 
 #### channels
 
-{@{The channels}@} building block shows {@{the ways to reach customers and deliver value propositions}@}. Channels phases are split into {@{five phases, in chronological order}@}: {@{awareness, evaluation, purchase, delivery, and after sales}@}. Channels can be classified into {@{own or partner, and direct or indirect. Partner channels are always indirect}@}. <!--SR:!2032-06-17,2270,334!2029-09-18,1379,297!2029-09-22,1477,314!2026-04-17,78,351!2026-06-13,82,353-->
+{@{The channels}@} building block shows {@{the ways to reach customers and deliver value propositions}@}. Channels phases are split into {@{five phases, in chronological order}@}: {@{awareness, evaluation, purchase, delivery, and after sales}@}. Channels can be classified into {@{own or partner, and direct or indirect. Partner channels are always indirect}@}. <!--SR:!2032-06-17,2270,334!2029-09-18,1379,297!2029-09-22,1477,314!2027-05-02,376,371!2026-06-13,82,353-->
 
 #### customer relationships
 
@@ -218,7 +218,7 @@ personal assistance
 
 - _(begin)_→::@::←automated services <!--SR:!2029-03-13,1314,314!2027-01-11,764,330-->
 - automated services→::@::←co-creation <!--SR:!2029-02-05,1200,274!2026-10-08,642,294-->
-- co-creation→::@::←communities <!--SR:!2028-08-03,1078,274!2026-04-09,539,314-->
+- co-creation→::@::←communities <!--SR:!2028-08-03,1078,274!2032-09-15,2339,334-->
 - communities→::@::←dedicated personal assistance <!--SR:!2026-12-12,626,277!2027-06-08,734,274-->
 - dedicated personal assistance→::@::←personal assistance <!--SR:!2026-11-24,658,317!2026-09-07,605,317-->
 - personal assistance→::@::←_(end)_ <!--SR:!2027-06-14,872,337!2027-01-23,701,317-->
@@ -276,7 +276,7 @@ subscription fee
 
 #### key resources
 
-{@{The key resources}@} building block shows {@{important assets required for the business model}@}. They can be categorized into {@{financial, human, intellectual, and physical}@} assets. <!--SR:!2026-04-10,533,314!2030-01-01,1373,257!2026-06-16,85,353-->
+{@{The key resources}@} building block shows {@{important assets required for the business model}@}. They can be categorized into {@{financial, human, intellectual, and physical}@} assets. <!--SR:!2032-08-21,2314,334!2030-01-01,1373,257!2026-06-16,85,353-->
 
 #### key activities
 
@@ -284,7 +284,7 @@ subscription fee
 
 #### key partnerships
 
-{@{The key partnerships}@} building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions}@}, {@{joint ventures, and strategic alliances between non-competitors}@}. {@{Partnerships}@} can acquire {@{particular activities and resources}@}, optimize {@{for economy of scale}@}, and reduce {@{risk and uncertainty}@}. <!--SR:!2026-06-17,573,294!2028-01-06,690,217!2029-11-19,1346,257!2026-04-14,38,313!2026-06-15,84,353!2026-06-17,86,353!2026-06-11,80,353!2026-06-11,80,353-->
+{@{The key partnerships}@} building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions}@}, {@{joint ventures, and strategic alliances between non-competitors}@}. {@{Partnerships}@} can acquire {@{particular activities and resources}@}, optimize {@{for economy of scale}@}, and reduce {@{risk and uncertainty}@}. <!--SR:!2026-06-17,573,294!2028-01-06,690,217!2029-11-19,1346,257!2026-10-06,168,333!2026-06-15,84,353!2026-06-17,86,353!2026-06-11,80,353!2026-06-11,80,353-->
 
 #### cost structure
 

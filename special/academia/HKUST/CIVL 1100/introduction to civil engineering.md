@@ -31,7 +31,7 @@ The content is in teaching order.
   - civil engineer characteristics ::@:: problem solvers <!--SR:!2031-01-16,1889,355!2027-05-22,879,372-->
   - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2026-12-29,714,321!2029-10-23,1611,400-->
   - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2028-04-09,1082,332!2027-09-20,994,350-->
-    - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2026-04-30,486,297!2028-04-12,1124,365-->
+    - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2031-10-26,2003,317!2028-04-12,1124,365-->
 - civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2031-06-13,2010,360!2027-04-22,866,372-->
   - [civil engineering examples](#civil%20engineering%20examples)
   - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
@@ -75,7 +75,7 @@ The content is in teaching order.
 - environmental engineering ::@:: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2030-11-19,1868,361!2028-12-31,1380,396-->
   - [environmental engineering areas](#environmental%20engineering%20areas)
     - air engineering ::@:: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2031-09-09,2130,375!2031-09-03,2182,410-->
-    - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2026-04-29,539,315!2029-11-27,1620,392-->
+    - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2032-10-05,2348,335!2029-11-27,1620,392-->
     - [water engineering](#water%20engineering)
     - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2030-08-02,1750,347!2030-01-07,1661,390-->
     - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2028-12-20,1106,250!2026-12-14,739,352-->
@@ -85,7 +85,7 @@ The content is in teaching order.
   - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2026-10-20,606,300!2032-03-31,2363,421-->
     - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
-  - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2026-04-18,565,357!2029-10-27,1605,387-->
+  - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2033-11-23,2769,377!2029-10-27,1605,387-->
   - materials engineer jobs ::@:: highly varied <!--SR:!2027-01-24,733,330!2032-12-07,2559,412-->
     - [materials engineer job examples](#materials%20engineer%20job%20examples)
   - materials engineering materials ::@:: development of improved or new materials <!--SR:!2026-10-19,636,317!2030-01-04,1674,370-->
@@ -150,7 +150,7 @@ quantity surveyor
 - consulting structural engineer→::@::←contracting civil engineer <!--SR:!2028-12-29,1209,335!2028-09-19,1202,335-->
 - contracting civil engineer→::@::←engineering geologist <!--SR:!2029-01-03,1250,317!2026-11-22,579,295-->
 - engineering geologist→::@::←environmental consultant <!--SR:!2030-04-08,1610,325!2028-08-25,1177,325-->
-- environmental consultant→::@::←quantity surveyor <!--SR:!2027-12-11,903,320!2026-04-23,456,280-->
+- environmental consultant→::@::←quantity surveyor <!--SR:!2027-12-11,903,320!2031-03-11,1781,300-->
 - quantity surveyor→::@::←_(end)_ <!--SR:!2027-06-02,873,360!2031-05-11,1913,360-->
 
 <!--/pytextgen-->
@@ -198,7 +198,7 @@ water and sewage treatment system
 - pipeline→::@::←power plant <!--SR:!2026-07-20,553,280!2029-01-14,1232,301-->
 - power plant→::@::←reservoir <!--SR:!2030-12-31,1730,295!2026-11-19,609,320-->
 - reservoir→::@::←sewage treatment <!--SR:!2027-08-18,690,217!2026-05-27,340,261-->
-- sewage treatment→::@::←transport <!--SR:!2026-04-09,388,230!2031-07-08,1935,321-->
+- sewage treatment→::@::←transport <!--SR:!2029-10-14,1268,250!2031-07-08,1935,321-->
 - transport→::@::←water and sewage treatment system <!--SR:!2032-01-29,2176,360!2027-08-28,568,190-->
 - water and sewage treatment system→::@::←_(end)_ <!--SR:!2031-05-04,1933,401!2028-09-09,1248,381-->
 
@@ -359,8 +359,8 @@ transportation
 - _(begin)_→::@::←construction <!--SR:!2027-10-18,1008,375!2027-02-18,827,395-->
 - construction→::@::←environmental <!--SR:!2029-09-27,1517,360!2033-03-21,2620,420-->
 - environmental→::@::←geo-technical <!--SR:!2031-01-15,1874,347!2026-12-16,708,345-->
-- geo-technical→::@::←hydraulic <!--SR:!2026-04-13,508,340!2026-05-27,519,360-->
-- hydraulic→::@::←material <!--SR:!2026-04-12,556,360!2032-02-26,2204,360-->
+- geo-technical→::@::←hydraulic <!--SR:!2032-10-27,2377,360!2026-05-27,519,360-->
+- hydraulic→::@::←material <!--SR:!2033-11-01,2747,380!2032-02-26,2204,360-->
 - material→::@::←structural <!--SR:!2030-07-13,1596,317!2030-08-02,1580,280-->
 - structural→::@::←transportation <!--SR:!2027-03-02,800,360!2026-11-27,724,347-->
 - transportation→::@::←_(end)_ <!--SR:!2027-07-23,926,370!2027-12-24,1056,401-->
@@ -541,7 +541,7 @@ wood
 - _(begin)_→::@::←brick <!--SR:!2028-04-23,1138,377!2026-12-30,786,332-->
 - brick→::@::←concrete <!--SR:!2027-04-26,782,325!2034-04-18,2971,417-->
 - concrete→::@::←new synthetic materials <!--SR:!2030-04-09,1595,321!2026-06-11,551,341-->
-- new synthetic materials→::@::←steel <!--SR:!2026-04-19,515,332!2030-06-24,1750,360-->
+- new synthetic materials→::@::←steel <!--SR:!2032-10-07,2357,352!2030-06-24,1750,360-->
 - steel→::@::←stone <!--SR:!2027-01-10,646,320!2026-12-18,745,360-->
 - stone→::@::←wood <!--SR:!2028-03-09,1063,341!2030-03-16,1652,352-->
 - wood→::@::←_(end)_ <!--SR:!2033-08-03,2755,414!2026-12-17,711,380-->
@@ -597,7 +597,7 @@ nuclear
 - ceramic→::@::←chemical <!--SR:!2026-10-29,681,340!2030-11-13,1843,355-->
 - chemical→::@::←civil <!--SR:!2031-11-11,2112,357!2027-08-02,951,377-->
 - civil→::@::←computer <!--SR:!2026-06-14,576,354!2027-06-17,912,372-->
-- computer→::@::←electrical <!--SR:!2026-08-12,643,347!2026-04-16,450,315-->
+- computer→::@::←electrical <!--SR:!2026-08-12,643,347!2031-09-07,1961,335-->
 - electrical→::@::←industrial <!--SR:!2030-04-08,1527,321!2026-07-16,442,250-->
 - industrial→::@::←manufacturing <!--SR:!2031-03-29,1949,357!2029-11-26,1560,352-->
 - manufacturing→::@::←mechanical <!--SR:!2031-01-21,1961,397!2026-07-28,643,357-->
@@ -848,7 +848,7 @@ Tsing Ma Bridge
 - Akashi Kaikyo Bridge→::@::←Hong Kong–Zhuhai–Macau Bridge <!--SR:!2028-02-29,983,327!2029-05-15,1365,327-->
 - Hong Kong–Zhuhai–Macau Bridge→::@::←Stonecutters Bridge <!--SR:!2028-07-19,1018,320!2029-12-06,1346,300-->
 - Stonecutters Bridge→::@::←Sutong Yangtze River Bridge <!--SR:!2031-07-08,2027,357!2030-12-05,1707,340-->
-- Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2026-04-26,519,335!2028-10-02,1199,327-->
+- Sutong Yangtze River Bridge→::@::←Tsing Ma Bridge <!--SR:!2032-11-18,2392,355!2028-10-02,1199,327-->
 - Tsing Ma Bridge→::@::←_(end)_ <!--SR:!2029-07-17,1503,384!2031-11-23,2180,350-->
 
 <!--/pytextgen-->
@@ -913,7 +913,7 @@ polypropylene fiber reinforced concrete
 <!--pytextgen generate section="eee1"--><!-- The following content is generated at 2024-02-16T21:59:47.859581+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←artificial stone <!--SR:!2028-07-09,1092,317!2031-01-18,1995,385-->
-- artificial stone→::@::←cellular concrete <!--SR:!2026-05-01,535,320!2029-10-08,1528,355-->
+- artificial stone→::@::←cellular concrete <!--SR:!2032-10-22,2365,340!2029-10-08,1528,355-->
 - cellular concrete→::@::←engineered cement composite <!--SR:!2030-03-18,1558,290!2026-06-02,544,330-->
 - engineered cement composite→::@::←fly ash concrete <!--SR:!2032-06-08,2283,357!2029-10-17,1506,340-->
 - fly ash concrete→::@::←polypropylene fiber reinforced concrete <!--SR:!2026-11-13,591,280!2028-10-09,1152,335-->
@@ -1148,7 +1148,7 @@ and the Structural Engineering Institute (SEI).
 - Other possible factors include corruption, insufficient reinforcing steel, and land subsidence.→::@::←The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place. <!--SR:!2030-03-13,1567,314!2028-08-21,1183,336-->
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2032-08-25,2339,357!2031-02-05,1906,355-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2032-03-02,2197,347!2028-08-26,1178,327-->
-- with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2026-05-02,523,334!2028-07-29,1160,330-->
+- with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2032-12-03,2407,354!2028-07-29,1160,330-->
 - the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2026-08-09,551,290!2026-06-04,602,357-->
 - the Geode Institute (GI),→::@::←and the Structural Engineering Institute (SEI). <!--SR:!2031-07-18,2088,377!2027-06-14,915,350-->
 - and the Structural Engineering Institute (SEI).→::@::←_(end)_ <!--SR:!2029-08-29,1574,370!2027-05-17,891,350-->
@@ -1229,7 +1229,7 @@ water treatment
 - _(begin)_→::@::←groundwater quality control <!--SR:!2031-04-03,1951,360!2027-04-06,857,377-->
 - groundwater quality control→::@::←wastewater recycling <!--SR:!2028-03-10,951,295!2029-07-21,1328,300-->
 - wastewater recycling→::@::←wastewater treatment <!--SR:!2030-12-25,1803,335!2027-04-11,815,337-->
-- wastewater treatment→::@::←water quality monitoring <!--SR:!2030-05-25,1577,300!2026-04-16,495,315-->
+- wastewater treatment→::@::←water quality monitoring <!--SR:!2030-05-25,1577,300!2032-03-19,2155,335-->
 - water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2030-09-18,1795,354-->
 - water treatment→::@::←_(end)_ <!--SR:!2028-05-23,1167,374!2026-05-18,524,286-->
 

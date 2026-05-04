@@ -9,13 +9,13 @@ tags:
 
 # extracellular fluid
 
-{@{__Extracellular fluid__ (__ECF__)}@} is {@{all [body fluid](body%20fluid.md) outside the cells of a [multicellular organism](multicellular%20organism.md)}@}. <!--SR:!2027-11-29,1175,290!2026-04-18,68,314-->
+{@{__Extracellular fluid__ (__ECF__)}@} is {@{all [body fluid](body%20fluid.md) outside the cells of a [multicellular organism](multicellular%20organism.md)}@}. <!--SR:!2027-11-29,1175,290!2027-02-16,293,334-->
 
 ## components
 
 ### interstitial fluid
 
-{@{Interstitial fluid or tissue fluid}@} provides {@{a constant environment for cells, a medium to exchange cellular materials, and forms [lymph](lymph.md)}@}. <!--SR:!2029-12-28,1443,250!2026-04-13,64,314-->
+{@{Interstitial fluid or tissue fluid}@} provides {@{a constant environment for cells, a medium to exchange cellular materials, and forms [lymph](lymph.md)}@}. <!--SR:!2029-12-28,1443,250!2027-01-30,276,334-->
 
 ## references
 
