@@ -15,7 +15,7 @@ tags:
 
 ## topic-specific notes (Traditional Chinese)
 
-- All four consolidated topic notes (道家概論、老子、莊子、魏晉玄學) must be written entirely in Traditional Chinese (Hong Kong register). Do not mix in English words, phrases, or labels anywhere in the note body or flashcards.
+- **請使用繁體中文和香港就地用語。** All four consolidated topic notes (道家概論、老子、莊子、魏晉玄學) must be written entirely in Traditional Chinese (Hong Kong register). Do not mix in English words, phrases, or labels anywhere in the note body or flashcards.
 - When English aliases are present for discoverability, include both `language/in/English` and `language/in/中文` tags in frontmatter.
 - Use only double-sided QA flashcard pairs (two-card format with `@` flanked by two colons on each side) in all topic-specific notes. Do not use single-sided QA pairs (the single-card format with `@` between one colon and two colons).
 - Use Hong Kong Traditional Chinese vocabulary and in-register phrasing throughout (e.g., 「公元前」 not 「BC」, 「課程」 not 「course」 in prose, 「考試」 not 「exam」 in prose).
