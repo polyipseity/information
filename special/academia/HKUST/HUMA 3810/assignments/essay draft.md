@@ -17,8 +17,8 @@ The syllabus lists an additional draft document for specific revision on 2026-04
 
 Flashcards for this section are as follows:
 
-- due date :@: The essay draft is due on 2026-04-10.
-- role in course workflow :@: The draft milestone exists so students can receive specific revision advice before final submission.
+- due date :@: The essay draft is due on 2026-04-10. <!--SR:!2026-05-08,4,270-->
+- role in course workflow :@: The draft milestone exists so students can receive specific revision advice before final submission. <!--SR:!2026-05-08,4,270-->
 
 ## logistics
 
@@ -32,5 +32,5 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- why the draft matters :@: It is the milestone for collecting targeted revision advice before the final essay is submitted.
-- page scope :@: Add draft-specific argument notes or bibliography notes only when real materials exist.
+- why the draft matters :@: It is the milestone for collecting targeted revision advice before the final essay is submitted. <!--SR:!2026-05-08,4,270-->
+- page scope :@: Add draft-specific argument notes or bibliography notes only when real materials exist. <!--SR:!2026-05-08,4,270-->

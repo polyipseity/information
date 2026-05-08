@@ -17,8 +17,8 @@ The syllabus requires an essay outline for comment on 2026-03-06.
 
 Flashcards for this section are as follows:
 
-- due date :@: The essay outline is due on 2026-03-06.
-- role in course workflow :@: It is the first essay milestone and exists so the instructor can comment before the later draft and final submission.
+- due date :@: The essay outline is due on 2026-03-06. <!--SR:!2026-05-08,4,270-->
+- role in course workflow :@: It is the first essay milestone and exists so the instructor can comment before the later draft and final submission. <!--SR:!2026-05-08,4,270-->
 
 ## logistics
 
@@ -32,5 +32,5 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- outline length context :@: The outline should support a final essay of around 3,000 words.
-- public-note scope :@: This page currently tracks only official milestone information; topic ideas or source notes should be added only when they exist.
+- outline length context :@: The outline should support a final essay of around 3,000 words. <!--SR:!2026-05-08,4,270-->
+- public-note scope :@: This page currently tracks only official milestone information; topic ideas or source notes should be added only when they exist. <!--SR:!2026-05-08,4,270-->
