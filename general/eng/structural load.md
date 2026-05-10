@@ -141,7 +141,7 @@ For example, {@{a beam in between two fixed support}@} creates {@{thermal load u
 
 #### wind load
 
-{@{[Wind](wind.md)}@} is {@{movement of air}@}. When wind {@{moves past a building}@}, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. {@{Positive pressure}@} outside causes {@{inward forces while negative causes outward (uplift for roof) forces}@}. This is {@{_wind load_}@}. It also depends on {@{building shape, wind direction, and wind speed}@}. <!--SR:!2028-01-09,1024,340!2027-03-28,798,330!2026-05-07,533,320!2027-11-20,985,340!2030-11-30,1834,340!2026-05-09,5,350!2026-05-09,5,350!2026-05-09,5,350!2026-05-09,5,350-->
+{@{[Wind](wind.md)}@} is {@{movement of air}@}. When wind {@{moves past a building}@}, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. {@{Positive pressure}@} outside causes {@{inward forces while negative causes outward (uplift for roof) forces}@}. This is {@{_wind load_}@}. It also depends on {@{building shape, wind direction, and wind speed}@}. <!--SR:!2028-01-09,1024,340!2027-03-28,798,330!2032-10-19,2356,340!2027-11-20,985,340!2030-11-30,1834,340!2026-05-09,5,350!2026-05-09,5,350!2026-05-09,5,350!2026-05-09,5,350-->
 
 {@{Wind load}@} causes {@{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}@}. {@{Less serious consequences}@} include damage to {@{individual structural elements such as roofs, walls, and windows}@}; and causes {@{excessive building vibrations}@}. <!--SR:!2026-11-28,644,320!2031-10-22,2001,320!2026-05-09,5,350!2026-05-09,5,350!2026-05-09,5,350-->
 

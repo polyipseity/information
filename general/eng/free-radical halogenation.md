@@ -13,7 +13,7 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-__Free-radical halogenation__ is {@{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}@}. <!--SR:!2026-05-08,815,299-->
+__Free-radical halogenation__ is {@{a type of [halogenation](halogentaion.md), which is a type of [substitution reaction](substitution%20reaction.md)}@}. <!--SR:!2035-08-09,3380,319-->
 
 ## general mechanism
 

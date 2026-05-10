@@ -34,7 +34,7 @@ Representative journal entry examples:
 > | -------------------------------------------------------------------- | ------------- | ------------- |
 > | {@{Patents}@}                                                        | {@{140 000}@} |               |
 > | {@{Share capital — ordinary (10 000 × 10)}@}                         |               | {@{100 000}@} |
-> | {@{Share premium — ordinary}@}                                       |               | {@{40 000}@}  | <!--SR:!2026-05-10,18,319!2026-05-09,17,319!2026-05-09,17,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,319!2026-05-08,16,319-->
+> | {@{Share premium — ordinary}@}                                       |               | {@{40 000}@}  | <!--SR:!2026-05-10,18,319!2026-05-09,17,319!2026-05-09,17,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,319!2026-07-21,74,339-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Astera case 2._ The fair value of Astera's shares is not known, but the patent portfolio's fair value is {@{150 000}@}.
@@ -43,7 +43,7 @@ Representative journal entry examples:
 > | --------------------------------------------------------------------- | ------------- | ------------- |
 > | {@{Patents}@}                                                         | {@{150 000}@} |               |
 > | {@{Share capital — ordinary (10 000 × 10)}@}                          |               | {@{100 000}@} |
-> | {@{Share premium — ordinary}@}                                        |               | {@{50 000}@}  | <!--SR:!2026-05-10,18,319!2026-05-08,16,319!2026-05-07,15,308!2026-05-08,16,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319-->
+> | {@{Share premium — ordinary}@}                                        |               | {@{50 000}@}  | <!--SR:!2026-05-10,18,319!2026-07-17,70,339!2026-07-11,64,328!2026-07-17,70,339!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Astera case 3._ Neither the share fair value nor the patent-portfolio fair value is observable; an independent consultant values the portfolio at {@{125 000}@} based on discounted expected cash flows.
@@ -54,7 +54,7 @@ Representative journal entry examples:
 > | {@{Share capital — ordinary (10 000 × 10)}@}                  |               | {@{100 000}@} |
 > | {@{Share premium — ordinary}@}                                |               | {@{25 000}@}  |
 >
-> _Explanation._ In each case, the asset is recorded at its measured fair value and equity is credited for the same amount (par plus premium); only the measurement basis (shares, patent, or discounted cash flows) changes. <!--SR:!2026-05-07,15,308!2026-05-10,18,319!2026-05-10,18,319!2026-05-08,16,308!2026-05-09,17,319!2026-05-10,18,319!2026-05-08,16,319-->
+> _Explanation._ In each case, the asset is recorded at its measured fair value and equity is credited for the same amount (par plus premium); only the measurement basis (shares, patent, or discounted cash flows) changes. <!--SR:!2026-07-13,66,328!2026-05-10,18,319!2026-05-10,18,319!2026-07-15,68,328!2026-05-09,17,319!2026-05-10,18,319!2026-07-19,72,339-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Astera case 4: fair value below par._ Astera Biotech plc issues {@{10 000 ordinary shares}@}, par {@{10 each, so total par value is 100 000}@}, for a patent portfolio whose fair value is only {@{85 000, leaving a 15 000 shortfall below par}@}.
@@ -65,7 +65,7 @@ Representative journal entry examples:
 > | {@{Share premium — ordinary (shortfall/discount)}@}                           | {@{15 000}@}  |               |
 > | {@{Share capital — ordinary (10 000 × 10)}@}                                  |               | {@{100 000}@} |
 >
-> _Explanation._ _Share capital_ is credited at the full par amount of {@{100 000 for the 10 000 ordinary shares issued}@}. The asset is recorded at its fair value of {@{85 000 for the patent received}@}. The balancing debit of {@{15 000 falls on Share premium — ordinary}@}, giving it a {@{debit (negative) balance instead of the usual credit premium balance}@}. Under IFRS this is permissible but unusual. <!--SR:!2026-05-09,17,319!2026-05-10,18,319!2026-05-07,15,308!2026-05-10,18,319!2026-05-08,16,308!2026-05-10,18,319!2026-05-09,17,319!2026-05-08,16,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-07,15,308-->
+> _Explanation._ _Share capital_ is credited at the full par amount of {@{100 000 for the 10 000 ordinary shares issued}@}. The asset is recorded at its fair value of {@{85 000 for the patent received}@}. The balancing debit of {@{15 000 falls on Share premium — ordinary}@}, giving it a {@{debit (negative) balance instead of the usual credit premium balance}@}. Under IFRS this is permissible but unusual. <!--SR:!2026-05-09,17,319!2026-05-10,18,319!2026-07-14,67,328!2026-05-10,18,319!2026-07-16,69,328!2026-05-10,18,319!2026-05-09,17,319!2026-07-20,73,339!2026-05-10,18,319!2026-05-10,18,319!2026-07-14,67,328-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Follow-on share issue that partly cures the negative premium._ After the below-par Astera patent issue above, the company later issues {@{5 000 additional ordinary shares with par 10 for cash of 60 000}@}. The new issue creates a normal premium of {@{10 000}@}, which offsets part of the earlier {@{15 000 debit balance in Share premium — ordinary}@}.
@@ -108,8 +108,8 @@ When direct costs are small relative to the issue premium the reduction simply l
 
 Flashcards for this section are as follows:
 
-- share issue costs: parent-level split ::@:: Separate direct, traceable share-issue costs from indirect overhead; direct costs reduce equity, while indirect costs are expensed. <!--SR:!2026-05-08,16,335!2026-05-11,19,341-->
-- share issue costs: what is the overall waterfall? ::@:: Direct issue costs reduce the relevant share premium first and, if that premium is exhausted, reduce the related share capital instead of creating a negative premium balance. <!--SR:!2026-05-11,19,341!2026-05-08,16,335-->
+- share issue costs: parent-level split ::@:: Separate direct, traceable share-issue costs from indirect overhead; direct costs reduce equity, while indirect costs are expensed. <!--SR:!2026-07-24,77,355!2026-05-11,19,341-->
+- share issue costs: what is the overall waterfall? ::@:: Direct issue costs reduce the relevant share premium first and, if that premium is exhausted, reduce the related share capital instead of creating a negative premium balance. <!--SR:!2026-05-11,19,341!2026-07-22,75,355-->
 
 ### ordinary and preference share issue costs
 
@@ -123,7 +123,7 @@ Representative journal entry examples:
 > | {@{Share capital — ordinary (300 000 × 1)}@}                     |               | {@{300 000}@} |
 > | {@{Share premium — ordinary}@}                                   |               | {@{580 000}@} |
 >
-> _Explanation._ Gross proceeds are {@{900 000 (300 000 × 3)}@}; underwriting costs of {@{20 000}@} reduce the amount credited to equity, so only {@{880 000}@} is recorded in Cash and Share premium is {@{580 000}@} instead of {@{600 000}@}. <!--SR:!2026-05-08,16,319!2026-05-07,15,308!2026-05-10,18,319!2026-05-09,17,308!2026-05-08,16,308!2026-05-10,18,319!2026-05-08,16,319!2026-05-08,16,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319-->
+> _Explanation._ Gross proceeds are {@{900 000 (300 000 × 3)}@}; underwriting costs of {@{20 000}@} reduce the amount credited to equity, so only {@{880 000}@} is recorded in Cash and Share premium is {@{580 000}@} instead of {@{600 000}@}. <!--SR:!2026-07-16,69,339!2026-07-12,65,328!2026-05-10,18,319!2026-05-09,17,308!2026-07-15,68,328!2026-05-10,18,319!2026-07-20,73,339!2026-07-20,73,339!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Harbor Glass case B: direct costs exceed premium._ Harbor Glass plc issues {@{200 000 ordinary shares at 1.50 per share}@}; par value is {@{1.00 per share}@}. Direct costs total {@{150 000}@}. Net cash received is {@{150 000}@}.
@@ -133,7 +133,7 @@ Representative journal entry examples:
 > | {@{Cash}@}                                                                    | {@{150 000}@} |               |
 > | {@{Share capital — ordinary (net: 200 000 − 50 000 excess costs)}@}           |               | {@{150 000}@} |
 >
-> _Explanation._ Gross proceeds are {@{300 000 (200 000 × 1.50)}@}; premium before costs is {@{100 000}@}. Direct costs of {@{150 000}@} first exhaust the {@{100 000 premium, reducing Share premium to zero}@}, and the remaining {@{50 000 reduces Share capital from 200 000 to 150 000}@}. _Share premium_ ends at {@{zero rather than a negative balance}@}; the excess is borne by _Share capital_, not carried as a debit balance on _Share premium_. <!--SR:!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-08,16,319!2026-05-07,15,308!2026-05-10,18,319!2026-05-08,16,319!2026-05-10,18,319!2026-05-09,17,319!2026-05-10,18,319!2026-05-08,16,319-->
+> _Explanation._ Gross proceeds are {@{300 000 (200 000 × 1.50)}@}; premium before costs is {@{100 000}@}. Direct costs of {@{150 000}@} first exhaust the {@{100 000 premium, reducing Share premium to zero}@}, and the remaining {@{50 000 reduces Share capital from 200 000 to 150 000}@}. _Share premium_ ends at {@{zero rather than a negative balance}@}; the excess is borne by _Share capital_, not carried as a debit balance on _Share premium_. <!--SR:!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-07-18,71,339!2026-07-14,67,328!2026-05-10,18,319!2026-07-19,72,339!2026-05-10,18,319!2026-05-09,17,319!2026-05-10,18,319!2026-07-21,74,339-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Harbor Glass preference issue costs can exhaust preference premium too._ Harbor Glass plc issues {@{40 000 preference shares at 5.20 per share}@}; par value is {@{5.00 per share}@}. Direct issue costs are {@{12 000}@}, so the original {@{8 000 preference premium is not enough}@}.
@@ -168,7 +168,7 @@ Flashcards for this section are as follows:
 
 - direct share issue costs: examples and treatment ::@:: Underwriting, legal, accounting, and prospectus printing costs that relate specifically to a share issue; reduce _Share premium_ (and then _Share capital_ if needed), not expensed. <!--SR:!2026-05-10,18,335!2026-05-10,18,335-->
 - share issue costs: can share premium go negative? ::@:: No. Direct costs reduce _Share premium_ first; when premium is exhausted the excess reduces _Share capital_, not a negative balance on _Share premium_. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
-- share issue costs exceeding premium (Harbor Glass case B): Harbor Glass issues 200 000 ordinary shares at 1.50, par 1.00, and direct share issue costs are 150 000. Gross proceeds are 300 000, initial share premium is 100 000, and net cash received is therefore 150 000. What is the net entry? ::@:: Dr _Cash_ 150 000; Cr _Share capital — ordinary_ 150 000. Explanation: the 100 000 premium created by the issue is first reduced to zero, then the remaining 50 000 of direct costs reduces _Share capital_ from 200 000 to 150 000. _Share premium — ordinary_ ends at zero, not negative. <!--SR:!2026-05-11,19,341!2026-05-08,16,335-->
+- share issue costs exceeding premium (Harbor Glass case B): Harbor Glass issues 200 000 ordinary shares at 1.50, par 1.00, and direct share issue costs are 150 000. Gross proceeds are 300 000, initial share premium is 100 000, and net cash received is therefore 150 000. What is the net entry? ::@:: Dr _Cash_ 150 000; Cr _Share capital — ordinary_ 150 000. Explanation: the 100 000 premium created by the issue is first reduced to zero, then the remaining 50 000 of direct costs reduces _Share capital_ from 200 000 to 150 000. _Share premium — ordinary_ ends at zero, not negative. <!--SR:!2026-05-11,19,341!2026-07-24,77,355-->
 - preference share issue costs exceeding preference premium: what is the class-specific rule? ::@:: Reduce _Share premium — preference_ first; if that premium is exhausted, the remaining direct issue cost reduces _Share capital — preference_ rather than retained earnings. <!--SR:!2026-05-09,17,335!2026-05-11,19,341-->
 - indirect/allocated share issue costs: examples and treatment ::@:: Ongoing salaries or allocated overhead (e.g. investor relations, head office); not traceable to a specific issue, so expensed as incurred (e.g. administrative expense) and do not reduce equity. <!--SR:!2026-05-09,17,335!2026-05-11,19,341-->
 - share issue with underwriting costs: equity effect (net method) ::@:: Record _Cash_ net of direct share issue costs; Cr _Share capital_ at par and Cr _Share premium_ for the remaining net proceeds; do not expense underwriting costs. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
@@ -283,7 +283,7 @@ That means both issuance entries and dividend-allocation calculations are usuall
 > | {@{Dividends payable — preference, Series B}@} | | {@{4 800}@} |
 > | {@{Dividends payable — ordinary}@} | | {@{16 200}@} |
 >
-> _Explanation._ Different par values matter because the fixed preference dividend for each class is based on that class's own {@{par amount and stated rate}@}, not on a blended shortcut. <!--SR:!2026-05-11,19,341!2026-05-08,16,335!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-10,18,335-->
+> _Explanation._ Different par values matter because the fixed preference dividend for each class is based on that class's own {@{par amount and stated rate}@}, not on a blended shortcut. <!--SR:!2026-05-11,19,341!2026-07-24,77,355!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-11,19,341!2026-05-10,18,335-->
 
 Representative journal entry example at issuance:
 
@@ -293,7 +293,7 @@ Representative journal entry example at issuance:
 > | ---------------------------------------------- | ------------- | ------------- |
 > | {@{Cash}@}                                     | {@{120 000}@} |               |
 > | {@{Share capital — preference (10 000 × 10)}@} |               | {@{100 000}@} |
-> | {@{Share premium — preference}@}               |               | {@{20 000}@}  | <!--SR:!2026-05-09,17,319!2026-05-10,18,319!2026-05-08,16,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319-->
+> | {@{Share premium — preference}@}               |               | {@{20 000}@}  | <!--SR:!2026-05-09,17,319!2026-05-10,18,319!2026-07-21,74,339!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319-->
 
 ---
 
@@ -302,7 +302,7 @@ Flashcards for this section are as follows:
 - mixed preference classes: why keep them separate at first? ::@:: Because each class can have its own par value, rate, cumulative status, participation rights, and premium balance, so the accounting must be computed class by class before summarizing. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
 - mixed preference classes and dividends: why is a blended shortcut dangerous? ::@:: Because each class's fixed dividend is based on that class's own par amount and stated rate rather than on one combined preference average. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
 - issuance of preference shares for cash: basic entry ::@:: Dr _Cash_ (issue price × number of shares), Cr _Share capital — preference_ at par, Cr _Share premium — preference_ for the excess over par. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
-- issuance of 10 000 preference shares, par 10, at 12—entry? ::@:: Dr _Cash_ 120 000; Cr _Share capital — preference_ 100 000; Cr _Share premium — preference_ 20 000. <!--SR:!2026-05-08,16,335!2026-05-11,19,341-->
+- issuance of 10 000 preference shares, par 10, at 12—entry? ::@:: Dr _Cash_ 120 000; Cr _Share capital — preference_ 100 000; Cr _Share premium — preference_ 20 000. <!--SR:!2026-07-23,76,355!2026-05-11,19,341-->
 
 ## treasury shares (cost method)
 
@@ -324,7 +324,7 @@ Representative journal entry examples:
 > | ----------------------------------------- | ------------ | ------------ |
 > | {@{Cash}@}                                | {@{60 000}@} |              |
 > | {@{Treasury shares (at cost)}@}           |              | {@{50 000}@} |
-> | {@{Share premium — treasury}@}            |              | {@{10 000}@} | <!--SR:!2026-05-10,18,319!2026-05-08,16,319!2026-05-09,17,319!2026-05-10,18,319!2026-05-08,16,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,319!2026-05-10,18,319-->
+> | {@{Share premium — treasury}@}            |              | {@{10 000}@} | <!--SR:!2026-05-10,18,319!2026-07-20,73,339!2026-05-09,17,319!2026-05-10,18,319!2026-07-18,71,339!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,319!2026-05-10,18,319-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _SilverPeak case B: reissue below cost — Share premium — treasury balance sufficient._ The same SilverPeak treasury shares (cost {@{50 000}@}) are reissued for {@{45 per share}@} (proceeds {@{45 000}@}). Existing _Share premium — treasury_ balance is {@{15 000}@}.
@@ -333,7 +333,7 @@ Representative journal entry examples:
 > | ----------------------------------------------------------------------- | ------------ | ------------ |
 > | {@{Cash}@}                                                              | {@{45 000}@} |              |
 > | {@{Share premium — treasury (shortfall: 50 000 − 45 000)}@}             | {@{5 000}@}  |              |
-> | {@{Treasury shares (at cost)}@}                                         |              | {@{50 000}@} | <!--SR:!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-07,15,308!2026-05-08,16,319!2026-05-09,17,319!2026-05-09,17,319-->
+> | {@{Treasury shares (at cost)}@}                                         |              | {@{50 000}@} | <!--SR:!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-07-11,64,328!2026-07-16,69,339!2026-05-09,17,319!2026-05-09,17,319-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _SilverPeak case C: reissue below cost — shortfall exceeds premium, hits retained earnings._ The same SilverPeak treasury shares (cost {@{50 000}@}) are reissued for {@{30 per share}@} (proceeds {@{30 000}@}). Existing _Share premium — treasury_ balance is only {@{8 000}@}.
@@ -345,7 +345,7 @@ Representative journal entry examples:
 > | {@{Retained earnings (remaining shortfall: 20 000 − 8 000)}@}                      | {@{12 000}@} |              |
 > | {@{Treasury shares (at cost)}@}                                                    |              | {@{50 000}@} |
 >
-> _Explanation._ Shortfall = {@{50 000 − 30 000 = 20 000}@}. The first {@{8 000}@} comes from _Share premium — treasury_ (exhausting it). The remaining {@{12 000}@} is debited to _Retained earnings_. If _Retained earnings_ was, say, only {@{5 000}@} before this entry, it would fall to {@{−7 000}@} — an accumulated deficit. The loss is absorbed by equity, not reported in profit or loss. <!--SR:!2026-05-10,18,319!2026-05-07,15,308!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-07,15,308!2026-05-10,18,319!2026-05-09,17,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-08,16,319-->
+> _Explanation._ Shortfall = {@{50 000 − 30 000 = 20 000}@}. The first {@{8 000}@} comes from _Share premium — treasury_ (exhausting it). The remaining {@{12 000}@} is debited to _Retained earnings_. If _Retained earnings_ was, say, only {@{5 000}@} before this entry, it would fall to {@{−7 000}@} — an accumulated deficit. The loss is absorbed by equity, not reported in profit or loss. <!--SR:!2026-05-10,18,319!2026-07-11,64,328!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-07-11,64,328!2026-05-10,18,319!2026-05-09,17,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-07-19,72,339-->
 
 ---
 
@@ -354,8 +354,8 @@ Flashcards for this section are as follows:
 - treasury shares (cost method): acquisition entry ::@:: Dr _Treasury shares_ at cost, Cr _Cash_; _Treasury shares_ is a contra-equity account, not an asset. <!--SR:!2026-05-10,18,319!2026-05-09,17,308-->
 - treasury shares reissued above cost: equity effect ::@:: Dr _Cash_, Cr _Treasury shares_ at cost, Cr _Share premium — treasury_ for the excess; total equity increases. <!--SR:!2026-05-10,18,319!2026-05-10,18,319-->
 - treasury shares reissued below cost: waterfall order ::@:: Shortfall (cost − proceeds) first absorbs any _Share premium — treasury_ balance; once that is exhausted, the remaining shortfall is debited to _Retained earnings_. The shortfall never goes to _Share premium — ordinary_ and is never expensed in profit or loss. <!--SR:!2026-05-09,17,319!2026-05-09,17,319-->
-- treasury reissue below cost: what if retained earnings is insufficient? ::@:: _Retained earnings_ can go to a negative balance (accumulated deficit). The debit simply pushes _Retained earnings_ below zero; this is permissible but signals the company has distributed or absorbed more than it has ever earned. <!--SR:!2026-05-09,17,319!2026-05-08,16,319-->
-- treasury reissue SilverPeak case C numbers: cost 50 000, proceeds 30 000, premium–treasury 8 000—entry? ::@:: Dr _Cash_ 30 000, Dr _Share premium — treasury_ 8 000 (all remaining), Dr _Retained earnings_ 12 000; Cr _Treasury shares_ 50 000. <!--SR:!2026-05-08,16,319!2026-05-10,18,319-->
+- treasury reissue below cost: what if retained earnings is insufficient? ::@:: _Retained earnings_ can go to a negative balance (accumulated deficit). The debit simply pushes _Retained earnings_ below zero; this is permissible but signals the company has distributed or absorbed more than it has ever earned. <!--SR:!2026-05-09,17,319!2026-07-20,73,339-->
+- treasury reissue SilverPeak case C numbers: cost 50 000, proceeds 30 000, premium–treasury 8 000—entry? ::@:: Dr _Cash_ 30 000, Dr _Share premium — treasury_ 8 000 (all remaining), Dr _Retained earnings_ 12 000; Cr _Treasury shares_ 50 000. <!--SR:!2026-07-21,74,339!2026-05-10,18,319-->
 
 ## equity accounts: when do accounts have negative balances?
 
@@ -386,12 +386,12 @@ __Exam rule.__ Ask two questions in order: (1) _Which premium account is this tr
 Flashcards for this section are as follows:
 
 - share premium negative-balance decision gate (IFRS-first) ::@:: First identify the premium account (ordinary, preference, treasury), then ask whether this is one of the two below-par ordinary-share issuance cases (non-cash issuance below par, or debt-for-equity issuance below par); only those cases permit a negative _Share premium — ordinary_ in this ACCT 3020 set. <!--SR:!2026-05-09,5,349!2026-05-09,5,349-->
-- only allowed negative-premium cases in this note set ::@:: _Share premium — ordinary_ can be debited only for (1) non-cash ordinary-share issuance measured below par and (2) debt settlement by issuing ordinary shares when share fair value is below total par. <!--SR:!2026-05-09,5,349!2026-05-07,3,329-->
+- only allowed negative-premium cases in this note set ::@:: _Share premium — ordinary_ can be debited only for (1) non-cash ordinary-share issuance measured below par and (2) debt settlement by issuing ordinary shares when share fair value is below total par. <!--SR:!2026-05-09,5,349!2026-05-23,15,349-->
 - non-cash share issue measured at or above par: premium direction ::@:: At par creates no premium; above par creates a credit premium; neither case creates a negative premium balance. <!--SR:!2026-05-09,5,349!2026-05-09,5,349-->
 - follow-on issue after an earlier debit premium balance ::@:: A later issue with positive premium credits _Share premium — ordinary_ and offsets the prior debit balance progressively; it does not auto-reset the account. <!--SR:!2026-05-09,5,349!2026-05-09,5,349-->
 - direct ordinary/preference issue costs and premium exhaustion ::@:: Direct costs reduce the related class premium first, then reduce that class share capital; they do not create a negative premium balance. <!--SR:!2026-05-09,5,349!2026-05-09,5,349-->
 - treasury-share reissue below cost: premium and spillover rule ::@:: Use _Share premium — treasury_ first; after it is exhausted, debit _Retained earnings_ for the remaining shortfall; do not debit _Share premium — ordinary_. <!--SR:!2026-05-09,5,349!2026-05-09,5,349-->
-- liquidating dividend return-of-capital sequence ::@:: Reduce _Share premium_ first and then _Share capital_; the course treatment does not create a negative premium balance here. <!--SR:!2026-05-07,3,329!2026-05-09,5,349-->
+- liquidating dividend return-of-capital sequence ::@:: Reduce _Share premium_ first and then _Share capital_; the course treatment does not create a negative premium balance here. <!--SR:!2026-05-23,15,349!2026-05-09,5,349-->
 - IFRS vs US GAAP share-dividend premium effect (comparison) ::@:: Under IFRS (course method), share dividends do not create _Share premium_; in US GAAP comparison, a large share dividend credits _Share premium_ for the fair-value excess over par. <!--SR:!2026-05-09,5,349!2026-05-09,5,349-->
 - debt-for-equity settlement premium effect (from non-current liabilities note) ::@:: If share fair value exceeds par, credit _Share premium — ordinary_; if share fair value is below par, debit _Share premium — ordinary_ for the par shortfall. Extinguishment gain/loss still uses debt carrying amount versus share fair value. <!--SR:!2026-05-09,5,349!2026-05-09,5,349-->
 
@@ -506,7 +506,7 @@ Representative journal entry examples:
 > | {@{At date of payment (July 16)}@} | Dr            | Cr            |
 > | ---------------------------------- | ------------- | ------------- |
 > | {@{Dividends payable}@}            | {@{900 000}@} |               |
-> | {@{Cash}@}                         |               | {@{900 000}@} | <!--SR:!2026-05-07,15,308!2026-05-08,16,319!2026-05-10,18,319!2026-05-09,17,308!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-08,16,319!2026-05-10,18,319!2026-05-09,17,308!2026-05-08,16,319!2026-05-10,18,319-->
+> | {@{Cash}@}                         |               | {@{900 000}@} | <!--SR:!2026-07-12,65,328!2026-07-18,71,339!2026-05-10,18,319!2026-05-09,17,308!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-07-21,74,339!2026-05-10,18,319!2026-05-09,17,308!2026-07-19,72,339!2026-05-10,18,319-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Lotus Capital Ltd. transfers to shareholders some of its investments in securities, with carrying amount {@{1 250 000}@}. On December 28, 2024, it declares a property dividend to shareholders of record January 15, 2025, to be distributed January 30, 2025. At the declaration date, the investments have fair value {@{2 000 000}@}.
@@ -521,7 +521,7 @@ Representative journal entry examples:
 > | {@{At date of distribution (January 30, 2025)}@} | Dr              | Cr              |
 > | ------------------------------------------------ | --------------- | --------------- |
 > | {@{Property dividends payable}@}                 | {@{2 000 000}@} |                 |
-> | {@{Equity investments}@}                         |                 | {@{2 000 000}@} | <!--SR:!2026-05-10,18,319!2026-05-09,17,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-08,16,319!2026-05-10,18,319!2026-05-09,17,319!2026-05-10,18,319!2026-05-08,16,319!2026-05-10,18,319!2026-05-08,16,319!2026-05-08,16,319!2026-05-10,18,319-->
+> | {@{Equity investments}@}                         |                 | {@{2 000 000}@} | <!--SR:!2026-05-10,18,319!2026-05-09,17,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-07-19,72,339!2026-05-10,18,319!2026-05-09,17,319!2026-05-10,18,319!2026-07-17,70,339!2026-05-10,18,319!2026-07-17,70,339!2026-07-16,69,339!2026-05-10,18,319-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Corporate tax consequence of the appreciated property dividend._ If the jurisdiction taxes the {@{750 000 gain created when the investment is remeasured from carrying amount 1 250 000 to fair value 2 000 000}@}, and the tax rate is {@{25%}@}, the company must also recognize the tax effect of that gain.
@@ -545,7 +545,7 @@ Representative journal entry examples:
 > | {@{At date of payment}@} | Dr              | Cr              |
 > | ------------------------ | --------------- | --------------- |
 > | {@{Dividends payable}@}  | {@{1 200 000}@} |                 |
-> | {@{Cash}@}               |                 | {@{1 200 000}@} | <!--SR:!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,308!2026-05-08,16,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-07,15,308!2026-05-07,15,308!2026-05-10,18,319-->
+> | {@{Cash}@}               |                 | {@{1 200 000}@} | <!--SR:!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,308!2026-07-20,73,339!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-07-14,67,328!2026-07-13,66,328!2026-05-10,18,319-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Willow Foods plc has {@{100 000 ordinary shares, par 1}@}, retained earnings {@{50 000}@}, and declares a {@{10% share dividend}@}. It issues {@{10 000 additional shares}@}. Fair value at the time is {@{8 per share}@}, but the entry uses par value.
@@ -558,7 +558,7 @@ Representative journal entry examples:
 > | {@{At date of distribution}@}               | Dr           | Cr           |
 > | ------------------------------------------- | ------------ | ------------ |
 > | {@{Ordinary share dividend distributable}@} | {@{10 000}@} |              |
-> | {@{Share capital — ordinary}@}              |              | {@{10 000}@} | <!--SR:!2026-05-09,17,319!2026-05-07,15,308!2026-05-10,18,319!2026-05-07,15,308!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-08,16,308!2026-05-10,18,319!2026-05-10,18,319-->
+> | {@{Share capital — ordinary}@}              |              | {@{10 000}@} | <!--SR:!2026-05-09,17,319!2026-07-13,66,328!2026-05-10,18,319!2026-07-13,66,328!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-07-15,68,328!2026-05-10,18,319!2026-05-10,18,319-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario (IFRS — large share dividend at par)._ Copperleaf Metals plc has {@{50 000 ordinary shares, par 2}@}, retained earnings {@{300 000}@}, and declares a {@{40% share dividend}@}. It issues {@{20 000 additional shares}@}. Fair value at the time is {@{18 per share}@}. Under IFRS the entry uses {@{par value}@}, not fair value.
@@ -573,7 +573,7 @@ Representative journal entry examples:
 > | {@{Ordinary share dividend distributable}@} | {@{40 000}@} |              |
 > | {@{Share capital — ordinary (20 000 × 2)}@} |              | {@{40 000}@} |
 >
-> _IFRS vs US GAAP comparison for the Copperleaf example._ Under __IFRS__ (this course), _Retained earnings_ decreases by only {@{40 000}@} (par 2 × 20 000 new shares) and _Share capital_ increases by the same {@{40 000}@}; _Share premium_ is unchanged. Under __US GAAP__ (large dividend, for comparison), _Retained earnings_ would decrease by {@{360 000}@} (fair value 18 × 20 000 shares), _Share capital_ would increase {@{40 000}@} (par), and _Share premium_ would increase {@{320 000}@} (excess). The IFRS par-value method results in a smaller reduction to _Retained earnings_ and no premium creation; the US GAAP fair-value method transfers more from _Retained earnings_ and recognises the economic significance of issuing a large block of new shares. <!--SR:!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,319!2026-05-07,15,308!2026-05-09,17,319!2026-05-09,17,308!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,319-->
+> _IFRS vs US GAAP comparison for the Copperleaf example._ Under __IFRS__ (this course), _Retained earnings_ decreases by only {@{40 000}@} (par 2 × 20 000 new shares) and _Share capital_ increases by the same {@{40 000}@}; _Share premium_ is unchanged. Under __US GAAP__ (large dividend, for comparison), _Retained earnings_ would decrease by {@{360 000}@} (fair value 18 × 20 000 shares), _Share capital_ would increase {@{40 000}@} (par), and _Share premium_ would increase {@{320 000}@} (excess). The IFRS par-value method results in a smaller reduction to _Retained earnings_ and no premium creation; the US GAAP fair-value method transfers more from _Retained earnings_ and recognises the economic significance of issuing a large block of new shares. <!--SR:!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,319!2026-07-12,65,328!2026-05-09,17,319!2026-05-09,17,308!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,319-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Post-declaration market-price collapse does not reopen the entry._ Using the same {@{40% share dividend on 20 000 new shares}@}, suppose the market price falls from {@{18 at declaration}@} to {@{11 before distribution}@}. Under __IFRS__, the entry still stays at {@{par value 40 000}@}. Under the __US GAAP comparison__, the fair-value-based declaration amount would still stay at the {@{declaration-date fair value of 360 000 rather than being remeasured down to 220 000}@}.
@@ -620,7 +620,7 @@ Representative journal entry examples:
 > | -------------------------------------------------- | ------------ | ------------ |
 > | {@{Retained earnings}@}                            | {@{50 000}@} |              |
 > | {@{Dividends payable — preference}@}               |              | {@{19 600}@} |
-> | {@{Dividends payable — ordinary}@}                 |              | {@{30 400}@} | <!--SR:!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-08,16,308!2026-05-08,16,308!2026-05-10,18,319!2026-05-08,16,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-08,16,308!2026-05-08,16,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-08,16,319!2026-05-07,15,308!2026-05-07,15,308!2026-05-10,18,319!2026-05-09,17,308!2026-05-10,18,319!2026-05-08,16,308!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,308!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,319!2026-05-08,16,319!2026-05-09,17,319-->
+> | {@{Dividends payable — ordinary}@}                 |              | {@{30 400}@} | <!--SR:!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-07-15,68,328!2026-07-15,68,328!2026-05-10,18,319!2026-07-21,74,339!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-07-18,71,328!2026-07-20,73,339!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-07-21,74,339!2026-07-12,65,328!2026-07-14,67,328!2026-05-10,18,319!2026-05-09,17,308!2026-05-10,18,319!2026-07-17,70,328!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,308!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-10,18,319!2026-05-09,17,319!2026-07-18,71,339!2026-05-09,17,319-->
 
 ---
 
@@ -647,7 +647,7 @@ Flashcards for this section are as follows:
 - large share dividend (40% Copperleaf example — IFRS): declaration entry? ::@:: IFRS declaration: Dr _Retained earnings_ 40 000 (par 2 × 20 000 new shares), Cr _Ordinary share dividend distributable_ 40 000. <br/> IFRS distribution: Dr _Ordinary share dividend distributable_ 40 000, Cr _Share capital — ordinary_ 40 000. <br/> Under US GAAP instead, declaration would be Dr _Retained earnings_ 360 000 (FV 18 × 20 000), Cr _Distributable_ 360 000; then distribution would be Dr _Distributable_ 360 000, Cr _Share capital_ 40 000, Cr _Share premium_ 320 000. <!--SR:!2026-05-10,18,335!2026-05-11,19,341-->
 - share dividend after declaration: does a later share-price change alter the recorded amount? ::@:: No. Once the dividend is declared, the accounting amount is already fixed. Under IFRS it stays at par; under the US-GAAP comparison a large dividend stays at the declaration-date fair value rather than being remeasured again before distribution. <!--SR:!2026-05-11,19,341!2026-05-09,17,335-->
 - when to use par vs fair value for share dividends ::@:: __IFRS__ (this course): always par value regardless of size. __US GAAP__: up to ~20–25% of shares outstanding → par value; over that threshold → fair value (material dilution recognised at economic cost). <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
-- share dividend vs share split: economic intuition (course IFRS first, but include US GAAP comparison) ::@:: Under __IFRS__ (the method used in this course), a share dividend is mainly a __par-value reclassification within equity__: retained earnings moves into share capital, share count rises, but no fair-value premium is created. So economically it feels closer to a bookkeeping capitalization than to a true new financing event. A __share split__ is even more mechanical: it increases share count and reduces par per share, but does __not__ reclassify retained earnings and usually needs no journal entry. For comparison, __US GAAP__ gives a different intuition for a __large__ share dividend because it uses fair value, so the entry capitalizes retained earnings at market significance and creates _Share premium_; that makes a large US-GAAP share dividend feel more like a material mini-issuance to existing shareholders than an IFRS par-only reclassification. <!--SR:!2026-05-11,19,341!2026-05-08,16,335-->
+- share dividend vs share split: economic intuition (course IFRS first, but include US GAAP comparison) ::@:: Under __IFRS__ (the method used in this course), a share dividend is mainly a __par-value reclassification within equity__: retained earnings moves into share capital, share count rises, but no fair-value premium is created. So economically it feels closer to a bookkeeping capitalization than to a true new financing event. A __share split__ is even more mechanical: it increases share count and reduces par per share, but does __not__ reclassify retained earnings and usually needs no journal entry. For comparison, __US GAAP__ gives a different intuition for a __large__ share dividend because it uses fair value, so the entry capitalizes retained earnings at market significance and creates _Share premium_; that makes a large US-GAAP share dividend feel more like a material mini-issuance to existing shareholders than an IFRS par-only reclassification. <!--SR:!2026-05-11,19,341!2026-06-30,53,335-->
 - non-cumulative, non-participating preference shares: allocation in example ::@:: Out of a 50 000 dividend, preference receives 6 000 (6% × 100 000) and ordinary receives 44 000. <!--SR:!2026-05-10,18,335!2026-05-09,17,335-->
 - cumulative, non-participating preference shares: allocation in example ::@:: With two years of arrears, preference receives 18 000 in total (12 000 arrears + 6 000 current) and ordinary receives 32 000 out of a 50 000 dividend. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
 - preference dividends: four patterns overview ::@:: Non-cumulative/non-participating (NC/NP), cumulative/non-participating (C/NP), non-cumulative/participating (NC/P), cumulative/participating (C/P). <br/> Each adds one feature: cumulative protects preference shareholders when dividends are low by accumulating arrears; participating protects them when dividends are high by letting them share the surplus. <br/> Intuitive tank model: think of the total dividend pool as water being poured into tanks — preference tank fills first (to its stated rate), then ordinary tank fills; the "participating" feature means any overflow after both tanks are at their stated level is shared proportionally, while the "cumulative" feature means the preference tank carries unpaid debt forward from prior years and must be filled first retroactively. <!--SR:!2026-05-11,19,341!2026-05-10,18,335-->
@@ -712,7 +712,7 @@ Flashcards for this section are as follows:
 - dividend reversal or correction after declaration: what is the stage-based decision rule? ::@:: Ask which stage has already happened. If the dividend has been declared but not yet paid, reverse or adjust the declaration-stage payable/distributable and restore the related equity amount. If the dividend has already been distributed, it is no longer a simple reversal of the original declaration entry; any recovery or correction is treated as a new transaction. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
 - multiple dividend declarations in same year to same preference class: allocation rule ::@:: Each new dividend declaration triggers a fresh allocation. Arrears accumulated up to the prior declaration are satisfied before the new allocation; any new arrears from a skipped prior period are reset. <!--SR:!2026-05-11,19,341!2026-05-10,18,335-->
 - cumulative preference: partial-year arrears on a mid-period declaration ::@:: If a dividend is declared in (say) June on a January–December year, arrears are usually prorated (e.g. 6 months ÷ 12 months × annual rate) unless the preference terms state otherwise. <!--SR:!2026-05-10,18,335!2026-05-11,19,341-->
-- share dividends on both ordinary and preference shares: separate accounting? ::@:: Yes, each class is handled separately. Ordinary shareholders receive _Share dividends — ordinary_; preference shareholders receive _Share dividends — preference_ (or ordinary shares if terms permit). Each class has its own declaration and distribution entries. <!--SR:!2026-05-08,16,335!2026-05-11,19,341-->
+- share dividends on both ordinary and preference shares: separate accounting? ::@:: Yes, each class is handled separately. Ordinary shareholders receive _Share dividends — ordinary_; preference shareholders receive _Share dividends — preference_ (or ordinary shares if terms permit). Each class has its own declaration and distribution entries. <!--SR:!2026-07-23,76,355!2026-05-11,19,341-->
 - large share dividend followed by share split (before distribution): how to account? ::@:: Record the share dividend at the declaration. If the share split occurs before distribution, usual practice is to re-measure the _Ordinary share dividend distributable_ based on the post-split share count and fair value, or to apply the split to the dividend amount pro-rata; exact treatment depends on the course's guidance or standard. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
 - foreign-currency dividend: exchange gain/loss at payment? ::@:: _Dividends payable_ is recorded in local currency at spot rate on declaration date. If the exchange rate moves before payment, the gain or loss on settlement is recorded as a _Foreign exchange gain/(loss)_ in income or OCI, depending on the nature of the transaction. <!--SR:!2026-05-10,18,335!2026-05-09,17,335-->
 - dividend after acquisition/change of control: which shareholders receive? ::@:: Only shareholders on the record date receive the dividend. If control changes after declaration but before record date, new owners must receive the dividend if they held shares on the record date. <!--SR:!2026-05-10,18,335!2026-05-10,18,335-->
@@ -741,10 +741,10 @@ Intuitively:
 
 Flashcards for this section are as follows:
 
-- ROE: formula in this course ::@:: (Profit for the year − Preference dividends) ÷ Average ordinary shareholders' equity. <!--SR:!2026-05-06,14,290!2026-05-06,14,290-->
-- ROE: why subtract preference dividends? ::@:: Because ROE is meant to measure the return available to ordinary shareholders after satisfying the fixed claims of preference shareholders. <!--SR:!2026-05-06,14,290!2026-05-06,14,290-->
-- ROE: what goes into ordinary shareholders' equity? ::@:: Ordinary _Share capital_ plus reserves and _Retained earnings_ attributable to ordinary shareholders, usually averaged over the period (beginning and ending). <!--SR:!2026-05-06,14,290!2026-05-06,14,290-->
-- ROE: intuitive interpretation ::@:: For each dollar of ordinary shareholders' equity invested in the company, ROE shows how many dollars of profit (after preference dividends) were generated during the year. <!--SR:!2026-05-06,14,290!2026-05-06,14,290-->
+- ROE: formula in this course ::@:: (Profit for the year − Preference dividends) ÷ Average ordinary shareholders' equity. <!--SR:!2026-07-03,56,310!2026-07-02,55,310-->
+- ROE: why subtract preference dividends? ::@:: Because ROE is meant to measure the return available to ordinary shareholders after satisfying the fixed claims of preference shareholders. <!--SR:!2026-07-03,56,310!2026-07-03,56,310-->
+- ROE: what goes into ordinary shareholders' equity? ::@:: Ordinary _Share capital_ plus reserves and _Retained earnings_ attributable to ordinary shareholders, usually averaged over the period (beginning and ending). <!--SR:!2026-07-02,55,310!2026-07-01,54,310-->
+- ROE: intuitive interpretation ::@:: For each dollar of ordinary shareholders' equity invested in the company, ROE shows how many dollars of profit (after preference dividends) were generated during the year. <!--SR:!2026-07-04,57,310!2026-07-05,58,310-->
 
 ## share dividends versus share splits
 
@@ -759,8 +759,8 @@ The numerical contrast matters. If a company with 100 000 shares at par 2 declar
 
 Flashcards for this section are as follows:
 
-- share dividend vs share split: key accounting difference ::@:: Share dividend transfers retained earnings to share capital (par unchanged; shares ↑); share split changes par per share and number of shares but leaves share capital and retained earnings unchanged (no journal entry). <!--SR:!2026-05-06,14,290!2026-05-07,15,290-->
-- 2-for-1 share split: effect on par and shares ::@:: Par value per share halves and the number of shares doubles; total share capital remains the same. <!--SR:!2026-05-06,14,290!2026-05-06,14,290-->
+- share dividend vs share split: key accounting difference ::@:: Share dividend transfers retained earnings to share capital (par unchanged; shares ↑); share split changes par per share and number of shares but leaves share capital and retained earnings unchanged (no journal entry). <!--SR:!2026-07-05,58,310!2026-07-10,63,310-->
+- 2-for-1 share split: effect on par and shares ::@:: Par value per share halves and the number of shares doubles; total share capital remains the same. <!--SR:!2026-07-01,54,310!2026-07-02,55,310-->
 - share dividend versus share split: why is a share dividend not just a small share split? ::@:: Because a share dividend reclassifies an amount from retained earnings into share capital, while a share split changes share count and par per share without reclassifying equity balances. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->
 - share dividend versus share split: numerical contrast in the example ::@:: Starting from 100 000 shares at par 2, a 20% share dividend issues 20 000 new shares and reclassifies 40 000 within equity, whereas a 2-for-1 share split raises shares to 200 000 and cuts par per share to 1 without moving any amount out of retained earnings. <!--SR:!2026-05-11,19,341!2026-05-09,17,335-->
 
@@ -772,8 +772,8 @@ Retained earnings represent cumulative profit not yet distributed as dividends; 
 
 Flashcards for this section are as follows:
 
-- retained earnings: practical meaning in dividend decisions ::@:: Cumulative profit not yet distributed; acts as an upper limit on ordinary dividends (company generally cannot declare dividends greater than _Retained earnings_). <!--SR:!2026-05-06,14,290!2026-05-07,15,290-->
-- reserves within equity: why transfer from retained earnings? ::@:: To earmark part of _Retained earnings_ for a specific purpose (e.g. future capital expenditure) and signal that it is not intended for ordinary dividends. <!--SR:!2026-05-06,14,290!2026-05-06,14,290-->
+- retained earnings: practical meaning in dividend decisions ::@:: Cumulative profit not yet distributed; acts as an upper limit on ordinary dividends (company generally cannot declare dividends greater than _Retained earnings_). <!--SR:!2026-07-01,54,310!2026-07-09,62,310-->
+- reserves within equity: why transfer from retained earnings? ::@:: To earmark part of _Retained earnings_ for a specific purpose (e.g. future capital expenditure) and signal that it is not intended for ordinary dividends. <!--SR:!2026-07-04,57,310!2026-07-05,58,310-->
 
 ## statement of changes in equity and overall equity presentation
 
@@ -874,10 +874,10 @@ Book value per share is not the same as market price per share. Market price ref
 
 Flashcards for this section are as follows:
 
-- book value per ordinary share: formula ::@:: Ordinary shareholders' equity divided by ordinary shares outstanding. <!--SR:!2026-05-08,16,335!2026-05-10,18,335-->
-- book value per ordinary share: why subtract preference claims first? ::@:: Because book value per ordinary share should measure only the net assets attributable to ordinary shareholders after satisfying prior preference claims. <!--SR:!2026-05-11,19,341!2026-05-08,16,335-->
+- book value per ordinary share: formula ::@:: Ordinary shareholders' equity divided by ordinary shares outstanding. <!--SR:!2026-07-23,76,355!2026-05-10,18,335-->
+- book value per ordinary share: why subtract preference claims first? ::@:: Because book value per ordinary share should measure only the net assets attributable to ordinary shareholders after satisfying prior preference claims. <!--SR:!2026-05-11,19,341!2026-07-22,75,355-->
 - book value per ordinary share: what is the safe step-by-step method when preference shares exist? ::@:: First compute the preference liquidation amount from the share terms, then subtract that amount from total equity to get ordinary equity, then divide by ordinary shares outstanding. <!--SR:!2026-05-11,19,348!2026-05-11,19,348-->
-- book value per share versus market price ::@:: Book value per share uses accounting net assets, while market price reflects investors' expectations about future profitability, growth, and risk. <!--SR:!2026-05-11,19,341!2026-05-08,16,335-->
+- book value per share versus market price ::@:: Book value per share uses accounting net assets, while market price reflects investors' expectations about future profitability, growth, and risk. <!--SR:!2026-05-11,19,341!2026-07-24,77,355-->
 - book value per ordinary share example: total equity 900 000, preference liquidation amount 120 000, ordinary shares 260 000—result? ::@:: Ordinary equity is 780 000, so book value per ordinary share is 3.00. <!--SR:!2026-05-11,19,341!2026-05-10,18,335-->
 - book value per ordinary share: why is subtracting only preference par sometimes wrong? ::@:: Because the preference claim on liquidation may exceed par once liquidation premiums or cumulative dividends in arrears are included; book value per ordinary share must deduct the full liquidation amount, not just stated capital. <!--SR:!2026-05-11,19,348!2026-05-11,19,348-->
 
@@ -914,5 +914,5 @@ Flashcards for this section are as follows:
 
 - restrictions on retained earnings: common sources ::@:: Legal restrictions, contractual restrictions such as loan covenants, board-designated appropriations, and practical liquidity constraints. <!--SR:!2026-05-11,19,341!2026-05-10,18,335-->
 - can a company have positive retained earnings but still face dividend limits? ::@:: Yes; legal, contractual, or internal restrictions may limit how much of retained earnings is actually available for distribution. <!--SR:!2026-05-11,19,341!2026-05-10,18,335-->
-- retained earnings appropriation: journal-entry effect ::@:: Debit retained earnings and credit a reserve within equity; total equity does not change. <!--SR:!2026-05-08,16,335!2026-05-10,18,335-->
+- retained earnings appropriation: journal-entry effect ::@:: Debit retained earnings and credit a reserve within equity; total equity does not change. <!--SR:!2026-07-24,77,355!2026-05-10,18,335-->
 - restrictions on retained earnings: why is disclosure important? ::@:: Because users may otherwise assume the full retained-earnings balance is freely available for dividends when part of it is legally or contractually restricted. <!--SR:!2026-05-11,19,341!2026-05-11,19,341-->

@@ -172,7 +172,7 @@ This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.m
 
 The game "21" is played as {@{a misère game with any number of players who take turns saying a number}@}. The first player {@{says "1" and each player in turn increases the number by 1, 2, or 3, but may not exceed 21}@}; the player {@{forced to say "21" loses}@}. This can be modeled as {@{a subtraction game with a heap of 21 − _n_ objects}@}. The winning strategy for {@{the two-player version of this game is to always say a multiple of 4}@}; it is then {@{guaranteed that the other player will ultimately have to say 21}@}; so in the standard version, wherein {@{the first player opens with "1", they start with a losing move}@}. <!--SR:!2030-04-04,1567,361!2029-08-27,1395,361!2029-10-22,1440,361!2029-09-30,1423,361!2029-08-11,1382,361!2029-09-24,1418,361!2026-12-25,617,341-->
 
-{@{The 21 game}@} can also be played with {@{different numbers}@}, e.g., {@{"Add at most 5; lose on 34"}@}. <!--SR:!2029-11-22,1464,361!2028-05-19,749,426!2026-05-05,139,406-->
+{@{The 21 game}@} can also be played with {@{different numbers}@}, e.g., {@{"Add at most 5; lose on 34"}@}. <!--SR:!2029-11-22,1464,361!2028-05-19,749,426!2028-06-19,773,426-->
 
 A sample game of 21 in which the second player follows the winning strategy:
 
@@ -192,7 +192,7 @@ A sample game of 21 in which the second player follows the winning strategy:
 
 ### the 100 game
 
-A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to reach {@{a number in which the digits are subsequent \(e.g., 01, 12, 23, 34,...\)}@} and control {@{the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99}@}, and {@{the next answer can in any case be 100}@}. <!--SR:!2026-12-13,608,341!2029-11-17,1461,361!2026-12-11,606,341!2029-09-01,1399,361!2026-05-06,140,406!2026-05-24,131,410-->
+A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to reach {@{a number in which the digits are subsequent \(e.g., 01, 12, 23, 34,...\)}@} and control {@{the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99}@}, and {@{the next answer can in any case be 100}@}. <!--SR:!2026-12-13,608,341!2029-11-17,1461,361!2026-12-11,606,341!2029-09-01,1399,361!2028-06-25,779,426!2026-05-24,131,410-->
 
 ### a multiple-heap rule
 

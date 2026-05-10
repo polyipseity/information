@@ -345,7 +345,7 @@ Indoor Air Quality
 
 - sick building syndrome ::@:: fatigue, headache, nasal congestion <!--SR:!2028-11-03,1252,350!2027-11-25,995,350-->
 - common indoor air pollutant ::@:: 12 parameters <!--SR:!2031-01-03,1816,330!2028-08-26,1207,350-->
-  - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2027-08-04,819,290!2026-05-06,490,310-->
+  - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2027-08-04,819,290!2032-02-07,2101,330-->
     - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2027-09-28,850,290!2029-12-25,1414,330-->
     - carbon monoxide limits ::@:: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2028-05-08,823,230!2026-06-19,518,310-->
     - respirable suspended particulate limits ::@:: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2027-09-15,837,290!2028-01-14,954,310-->
@@ -408,7 +408,7 @@ Observed Global Climate Change
 
 Observed climate change in Hong Kong
 
-- climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2026-05-07,523,310!2028-09-08,1220,350-->
+- climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2032-06-30,2245,330!2028-09-08,1220,350-->
   - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2028-06-04,1147,350!2027-09-11,909,330-->
   - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2028-02-21,1064,350!2027-02-05,754,330-->
   - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2028-09-30,1087,270!2027-08-02,880,330-->

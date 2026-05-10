@@ -71,7 +71,7 @@ Flashcards for this section are as follows:
 - If the impulse at time $\tau$ has weight $e(\tau)\,d\tau$, what output contribution does linearity predict? ::@:: The contribution is $e(\tau)h(t-\tau)\,d\tau$. <!--SR:!2026-05-10,17,310!2026-05-17,16,310-->
 - What is the continuous-time convolution integral for zero-state response? ::@:: It is $r_{\mathrm{zs}}(t)=\int_{-\infty}^{\infty} e(\tau)h(t-\tau)\,d\tau$. <!--SR:!2026-05-15,14,290!2026-05-17,16,310-->
 - How is the convolution integral derived directly from the operator viewpoint? ::@:: Write $e(t)=\int e(\tau)\delta(t-\tau)\,d\tau$, apply $H$, and use linearity plus time invariance to get $H[e](t)=\int e(\tau)H[\delta(t-\tau)]\,d\tau=\int e(\tau)h(t-\tau)\,d\tau$. <!--SR:!2026-05-17,16,290!2026-05-15,14,290-->
-- What compact notation is used for the convolution integral? ::@:: It is written as $r_{\mathrm{zs}}(t)=(e*h)(t)$. <!--SR:!2026-05-08,15,290!2026-05-09,16,290-->
+- What compact notation is used for the convolution integral? ::@:: It is written as $r_{\mathrm{zs}}(t)=(e*h)(t)$. <!--SR:!2026-06-22,45,290!2026-05-09,16,290-->
 - What do the two factors in the integrand $e(\tau)h(t-\tau)$ mean conceptually? ::@:: $e(\tau)$ gives the input weight contributed from source time $\tau$, while $h(t-\tau)$ gives how the system carries that unit impulse to the observation time $t$. <!--SR:!2026-05-15,14,290!2026-05-18,17,310-->
 - Why is convolution the natural tool for zero-state response of an LTI system? ::@:: Because it is exactly the formal sum of all shifted-impulse responses produced by decomposing the input into weighted impulses. <!--SR:!2026-05-10,17,310!2026-05-19,18,323-->
 
@@ -124,7 +124,7 @@ Flashcards for this section are as follows:
 - What is the commutative property of convolution? ::@:: It is $f_1*f_2=f_2*f_1$. <!--SR:!2026-05-17,16,310!2026-05-15,14,290-->
 - Which change of variables proves that convolution is commutative? ::@:: Use the substitution $\lambda=t-\tau$ in $(f_1*f_2)(t)=\int f_1(\tau)f_2(t-\tau)\,d\tau$ to rewrite it as $\int f_2(\lambda)f_1(t-\lambda)\,d\lambda=(f_2*f_1)(t)$. <!--SR:!2026-05-17,16,310!2026-05-16,15,290-->
 - How does convolution commutativity let you swap the roles of input and impulse response in response analysis? ::@:: It means one may view the input as being spread by the impulse response or the impulse response as being weighted by the input, and the same output results. <!--SR:!2026-05-18,17,310!2026-05-16,15,310-->
-- What is the distributive property of convolution? ::@:: It is $f*(h_1+h_2)=f*h_1+f*h_2$. <!--SR:!2026-05-07,14,290!2026-05-15,14,290-->
+- What is the distributive property of convolution? ::@:: It is $f*(h_1+h_2)=f*h_1+f*h_2$. <!--SR:!2026-07-01,54,310!2026-05-15,14,290-->
 - How does distributivity model two parallel LTI systems with impulse responses $h_1$ and $h_2$? ::@:: If the same input is fed into two parallel subsystems with impulse responses $h_1$ and $h_2$ and their outputs are added, the overall impulse response is $h=h_1+h_2$. <!--SR:!2026-05-16,15,290!2026-05-19,18,323-->
 - What is the associative property of convolution? ::@:: It is $(f*h_1)*h_2=f*(h_1*h_2)$. <!--SR:!2026-05-15,14,290!2026-05-16,15,310-->
 - How does associativity model a cascade of LTI subsystems with impulse responses $h_1$ then $h_2$? ::@:: If the input passes through subsystems with impulse responses $h_1$ and then $h_2$, the overall impulse response is $h=h_1*h_2$. <!--SR:!2026-05-17,16,290!2026-05-16,15,310-->

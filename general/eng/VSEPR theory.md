@@ -44,7 +44,7 @@ tags:
 >   - AX<sub>2</sub>E<sub>0</sub> / example(s) ::@:: [CO<sub>2</sub>](carbon%20dioxide.md) <!--SR:!2027-04-09,343,345!2026-10-11,203,325-->
 > - AX<sub>2</sub>E<sub>1</sub>
 >   - AX<sub>2</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [bent](bent%20molecular%20geometry.md)<br/>![bent](../../archives/Wikimedia%20Commons/AX2E1-3D-balls.png) <!--SR:!2027-04-02,336,345!2026-10-05,198,325-->
->   - AX<sub>2</sub>E<sub>1</sub> / ideal bond angle(s) :@: 120° <!--SR:!2026-05-08,75,285-->
+>   - AX<sub>2</sub>E<sub>1</sub> / ideal bond angle(s) :@: 120° <!--SR:!2027-02-28,296,305-->
 >   - AX<sub>2</sub>E<sub>1</sub> / example(s) ::@:: [SO<sub>2</sub>](sulfur%20dioxide.md) <!--SR:!2026-06-07,91,285!2026-08-07,139,305-->
 > - AX<sub>2</sub>E<sub>2</sub>
 >   - AX<sub>2</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [bent](bent%20molecular%20geometry.md)<br/>![bent](../../archives/Wikimedia%20Commons/AX2E2-3D-balls.png) <!--SR:!2026-05-27,76,305!2026-08-13,140,305-->

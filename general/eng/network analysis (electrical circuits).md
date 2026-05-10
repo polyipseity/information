@@ -93,7 +93,7 @@ The above is {@{a sufficient definition for a [one-port](one-port.md) network}@}
 
 ### delta-wye transformation
 
-- Main article: ::@:: [Y-Δ transform](Y-Δ%20transform.md) <!--SR:!2026-05-17,333,349!2026-05-05,325,349-->
+- Main article: ::@:: [Y-Δ transform](Y-Δ%20transform.md) <!--SR:!2026-05-17,333,349!2030-08-14,1559,369-->
 
 \(annotation: image\) ::@:: ![delta-star transformation](../../archives/Wikimedia%20Commons/Delta-Star%20Transformation.svg) <!--SR:!2026-07-17,385,360!2026-07-08,378,366-->
 
@@ -103,7 +103,7 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 #### delta-to-star transformation equations
 
-\(annotation: equations\) ::@:: $${\begin{aligned}R_{a}&={\frac {R_{\mathrm {ac} }R_{\mathrm {ab} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{b}&={\frac {R_{\mathrm {ab} }R_{\mathrm {bc} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{c}&={\frac {R_{\mathrm {bc} }R_{\mathrm {ac} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\end{aligned} }$$ \(annotation: mnemonic: 2 variables per term above, 1 below; 1 terms above, 3 below; inverse\) <!--SR:!2026-05-07,39,220!2026-08-01,223,280-->
+\(annotation: equations\) ::@:: $${\begin{aligned}R_{a}&={\frac {R_{\mathrm {ac} }R_{\mathrm {ab} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{b}&={\frac {R_{\mathrm {ab} }R_{\mathrm {bc} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{c}&={\frac {R_{\mathrm {bc} }R_{\mathrm {ac} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\end{aligned} }$$ \(annotation: mnemonic: 2 variables per term above, 1 below; 1 terms above, 3 below; inverse\) <!--SR:!2026-08-02,86,220!2026-08-01,223,280-->
 
 #### star-to-delta transformation equations
 
@@ -123,7 +123,7 @@ For {@{a dangling resistor \(_N_ = 1\)}@} it results in {@{the elimination of th
 
 ### source transformation
 
-> \(annotation: image\) ::@:: ![source transforamtion](../../archives/Wikimedia%20Commons/Sourcetransform.svg) <!--SR:!2026-05-06,324,349!2026-07-14,383,366-->
+> \(annotation: image\) ::@:: ![source transforamtion](../../archives/Wikimedia%20Commons/Sourcetransform.svg) <!--SR:!2029-06-07,1126,349!2026-07-14,383,366-->
 
 {@{A generator with an internal impedance \(i.e. non-ideal generator\)}@} can be represented as {@{either an ideal voltage generator or an ideal current generator plus the impedance}@}. These two forms are {@{equivalent and the transformations are given below}@}. If {@{the two networks are equivalent with respect to terminals ab}@}, then {@{_V_ and _I_ must be identical for both networks}@}. Thus, {@{$V_{\mathrm {s} }=RI_{\mathrm {s} }\,\!$ or $I_{\mathrm {s} }={\frac {V_{\mathrm {s} } }{R} }$}@} <!--SR:!2028-06-09,913,349!2026-06-09,352,349!2029-02-12,1110,350!2026-07-18,386,360!2029-04-13,1159,350!2026-06-29,369,360-->
 
@@ -179,7 +179,7 @@ For {@{some common elements where this is not possible}@}, {@{specialized method
 
 1. \(annotation: label, variables\) ::@:: Count the number of "window panes" in the circuit. Assign a mesh current to each window pane. <!--SR:!2030-06-16,1510,369!2029-12-04,1342,350-->
 2. \(annotation: KVL\) ::@:: Write a [KVL](Kirchhoff's%20circuit%20laws.md) equation for every mesh whose current is unknown. <!--SR:!2026-07-23,389,360!2026-05-16,332,349-->
-3. \(annotation: solving\) ::@:: Solve the resulting equations <!--SR:!2026-07-22,388,360!2026-05-05,323,349-->
+3. \(annotation: solving\) ::@:: Solve the resulting equations <!--SR:!2026-07-22,388,360!2030-08-09,1554,369-->
 
 ## superposition
 
@@ -191,11 +191,11 @@ There is {@{an underlying assumption to this method}@} that {@{the total current
 
 ## choice of method
 
-{@{Choice of method}@}<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;112–113&hairsp;</sup> is {@{to some extent a matter of taste}@}. If the network is {@{particularly simple or only a specific current or voltage is required}@} then {@{ad-hoc application of some simple equivalent circuits}@} may yield {@{the answer without recourse to the more systematic methods}@}. <!--SR:!2026-05-08,327,349!2026-07-18,386,360!2030-06-05,1499,369!2028-05-13,827,330!2026-07-31,131,412-->
+{@{Choice of method}@}<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;112–113&hairsp;</sup> is {@{to some extent a matter of taste}@}. If the network is {@{particularly simple or only a specific current or voltage is required}@} then {@{ad-hoc application of some simple equivalent circuits}@} may yield {@{the answer without recourse to the more systematic methods}@}. <!--SR:!2030-08-24,1569,369!2026-07-18,386,360!2030-06-05,1499,369!2028-05-13,827,330!2026-07-31,131,412-->
 
 - {@{[Nodal analysis](nodal%20analysis.md)}@}: {@{The number of voltage variables, and hence simultaneous equations}@} to solve, equals {@{the number of nodes minus one}@}. {@{Every voltage source connected to the reference node}@} {@{reduces the number of unknowns and equations by one}@}. <!--SR:!2026-07-23,389,360!2028-01-11,782,340!2026-09-10,394,309!2026-06-01,345,349!2026-06-19,361,360-->
 
-- {@{[Mesh analysis](mesh%20analysis.md)}@}: {@{The number of current variables, and hence simultaneous equations}@} to solve, equals {@{the number of meshes}@}. {@{Every current source in a mesh}@} {@{reduces the number of unknowns by one}@}. Mesh analysis can only be {@{used with networks which can be drawn as a [planar](planar%20graph.md) network}@}, that is, with {@{no crossing components}@}.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;94&hairsp;</sup> <!--SR:!2029-04-15,1161,350!2029-01-23,1093,350!2030-05-22,1485,369!2027-11-17,742,330!2026-05-05,325,349!2026-07-07,377,360!2028-01-10,750,423-->
+- {@{[Mesh analysis](mesh%20analysis.md)}@}: {@{The number of current variables, and hence simultaneous equations}@} to solve, equals {@{the number of meshes}@}. {@{Every current source in a mesh}@} {@{reduces the number of unknowns by one}@}. Mesh analysis can only be {@{used with networks which can be drawn as a [planar](planar%20graph.md) network}@}, that is, with {@{no crossing components}@}.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;94&hairsp;</sup> <!--SR:!2029-04-15,1161,350!2029-01-23,1093,350!2030-05-22,1485,369!2027-11-17,742,330!2030-08-12,1557,369!2026-07-07,377,360!2028-01-10,750,423-->
 
 - {@{[Superposition](superposition%20theorem.md)}@} is possibly {@{the most conceptually simple method}@} but {@{rapidly leads to a large number of equations and messy impedance combinations as the network becomes larger}@}. <!--SR:!2027-10-13,676,423!2027-10-14,677,423!2027-12-26,737,423-->
 
@@ -255,7 +255,7 @@ Finally, for {@{a network to which only steady dc is applied}@}, {@{s is replace
 
 {@{Transfer functions, in general, in control theory}@} are {@{given the symbol H\(s\)}@}. Most commonly in {@{electronics, transfer function}@} is defined as {@{the ratio of output voltage to input voltage and given the symbol A\(s\)}@}, or {@{more commonly \(because analysis is invariably done in terms of sine wave response\), _A_\(_jω_\)}@}, so that; {@{$$A(j\omega )={\frac {V_{o} }{V_{i} } }$$}@} <!--SR:!2029-11-22,1332,350!2026-06-27,367,360!2029-11-26,1336,350!2026-05-12,329,349!2029-03-21,1141,350!2028-09-14,978,349-->
 
-The _A_ standing for {@{attenuation, or amplification, depending on context}@}. In general, this will be {@{a complex function of _jω_}@}, which can be {@{derived from an analysis of the impedances in the network and their individual transfer functions}@}. Sometimes the analyst is {@{only interested in the magnitude of the gain and not the phase angle}@}. In this case {@{the complex numbers can be eliminated from the transfer function}@} and it might then be written as; {@{$$A(\omega )=\left|{\frac {V_{o} }{V_{i} } }\right|$$}@} <!--SR:!2029-06-25,1215,350!2029-07-11,1226,350!2028-06-02,874,330!2029-02-04,1102,350!2029-04-22,1167,350!2026-05-05,325,349-->
+The _A_ standing for {@{attenuation, or amplification, depending on context}@}. In general, this will be {@{a complex function of _jω_}@}, which can be {@{derived from an analysis of the impedances in the network and their individual transfer functions}@}. Sometimes the analyst is {@{only interested in the magnitude of the gain and not the phase angle}@}. In this case {@{the complex numbers can be eliminated from the transfer function}@} and it might then be written as; {@{$$A(\omega )=\left|{\frac {V_{o} }{V_{i} } }\right|$$}@} <!--SR:!2029-06-25,1215,350!2029-07-11,1226,350!2028-06-02,874,330!2029-02-04,1102,350!2029-04-22,1167,350!2030-08-15,1560,369-->
 
 #### two port parameters
 
@@ -281,7 +281,7 @@ Where {@{a network is composed of discrete components}@}, {@{analysis using two-
 
 {@{Most analysis methods}@} calculate {@{the voltage and current values for static networks}@}, which are {@{circuits consisting of memoryless components only but have difficulties with complex dynamic networks}@}. In general, {@{the equations that describe the behaviour of a dynamic circuit}@} are {@{in the form of a [differential-algebraic system of equations](differential-algebraic%20system%20of%20equations.md) \(DAEs\)}@}. DAEs are {@{challenging to solve and the methods for doing so are not yet fully understood and developed}@} \(as of 2010\). Also, there is {@{no general theorem that guarantees solutions to DAEs will exist and be unique}@}. <sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;204–205&hairsp;</sup> In {@{special cases}@}, {@{the equations of the dynamic circuit}@} will be {@{in the form of an [ordinary differential equations](ordinary%20differential%20equation.md) \(ODE\)}@}, which are {@{easier to solve, since numerical methods for solving ODEs have a rich history, dating back to the late 1800s}@}. {@{One strategy for adapting ODE solution methods to DAEs}@} is called {@{direct discretization and is the method of choice in circuit simulation}@}. <sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;204-205&hairsp;</sup> <!--SR:!2026-06-20,362,360!2026-06-25,365,360!2026-07-26,392,360!2029-03-24,1144,350!2030-07-16,1538,369!2026-07-25,391,360!2029-01-25,1095,350!2026-06-22,364,360!2026-07-12,381,360!2026-06-08,351,349!2026-06-06,349,349!2029-08-19,1259,350!2029-03-05,1127,350-->
 
-{@{Simulation-based methods for time-based network analysis}@} solve {@{a circuit that is posed as an [initial value problem](initial%20value%20problem.md) \(IVP\)}@}. That is, {@{the values of the components with memories \(for example, the voltages on capacitors and currents through inductors\)}@} are {@{given at an initial point of time t<sub>0</sub>}@}, and the analysis is {@{done for the time $t_{0}\leq t\leq t_{f}$}@}. <sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;206-207&hairsp;</sup> Since {@{finding numerical results for the infinite number of time points from t<sub>0</sub> to t<sub>f</sub> is not possible}@}, this time period is {@{discretized into discrete time instances}@}, and {@{the numerical solution is found for every instance}@}. {@{The time between the time instances}@} is called {@{the time step and can be fixed throughout the whole simulation or may be [adaptive](adaptive%20step%20size.md)}@}. <!--SR:!2030-02-28,1425,369!2026-05-23,336,349!2026-07-18,386,360!2026-05-10,329,349!2029-04-29,1170,350!2026-07-25,391,360!2026-06-26,366,360!2026-05-07,325,349!2030-04-17,1450,369!2026-07-25,391,360-->
+{@{Simulation-based methods for time-based network analysis}@} solve {@{a circuit that is posed as an [initial value problem](initial%20value%20problem.md) \(IVP\)}@}. That is, {@{the values of the components with memories \(for example, the voltages on capacitors and currents through inductors\)}@} are {@{given at an initial point of time t<sub>0</sub>}@}, and the analysis is {@{done for the time $t_{0}\leq t\leq t_{f}$}@}. <sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;206-207&hairsp;</sup> Since {@{finding numerical results for the infinite number of time points from t<sub>0</sub> to t<sub>f</sub> is not possible}@}, this time period is {@{discretized into discrete time instances}@}, and {@{the numerical solution is found for every instance}@}. {@{The time between the time instances}@} is called {@{the time step and can be fixed throughout the whole simulation or may be [adaptive](adaptive%20step%20size.md)}@}. <!--SR:!2030-02-28,1425,369!2026-05-23,336,349!2026-07-18,386,360!2026-05-10,329,349!2029-04-29,1170,350!2026-07-25,391,360!2026-06-26,366,360!2030-08-13,1558,369!2030-04-17,1450,369!2026-07-25,391,360-->
 
 In {@{an IVP, when finding a solution for time t<sub>n+1</sub>}@}, {@{the solution for time t<sub>n</sub> is already known}@}. Then, {@{[temporal discretization](temporal%20discretization.md)}@} is used to {@{replace the derivatives with differences}@}, such as {@{$$x'(t_{n+1})\approx {\frac {x_{n+1}-x_{n} }{h_{n+1} } }$$ for the [backward Euler method](backward%20Euler%20method.md)}@}, where {@{h<sub>n+1</sub> is the time step}@}. <sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;266&hairsp;</sup> <!--SR:!2026-06-26,366,360!2026-06-04,347,349!2029-03-18,1120,349!2026-06-18,360,360!2028-07-14,831,300!2027-07-23,648,329-->
 

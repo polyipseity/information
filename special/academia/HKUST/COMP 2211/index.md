@@ -911,8 +911,8 @@ ID: 23456789
 - [assignments/lab 7](assignments/lab%207/)
 - [digital image processing](../../../../general/digital%20image%20processing.md)
 - [data augmentation](../../../../general/data%20augmentation.md) ::@:: It has become fundamental in image classification, enriching training dataset _diversity_ to improve model _generalization_ and _performance_. The evolution of this practice has introduced a broad spectrum of techniques, including geometric transformations, color space adjustments, and noise injection. <!--SR:!2026-08-10,480,389!2028-04-20,945,369-->
-  - data augmentation / techniques ::@:: random cropping, random flipping, random _mixup_, random rotation, random transformation, etc. <!--SR:!2026-05-10,412,389!2026-05-07,409,389-->
-  - data augmentation / mixup ::@:: (See <https://arxiv.org/abs/1710.09412>) It is a relatively new technique of data augmentation. It mixes two images to produce a new image in random proportion. The new image's label's one-hot encoding is mixed in the same proportion. <!--SR:!2026-05-08,410,389!2026-05-09,411,389-->
+  - data augmentation / techniques ::@:: random cropping, random flipping, random _mixup_, random rotation, random transformation, etc. <!--SR:!2026-05-10,412,389!2032-04-19,2173,409-->
+  - data augmentation / mixup ::@:: (See <https://arxiv.org/abs/1710.09412>) It is a relatively new technique of data augmentation. It mixes two images to produce a new image in random proportion. The new image's label's one-hot encoding is mixed in the same proportion. <!--SR:!2030-09-24,1600,389!2026-05-09,411,389-->
 
 ## week 10 lecture 2
 

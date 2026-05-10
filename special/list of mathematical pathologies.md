@@ -64,6 +64,6 @@ The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = 
 
 The function is {@{$$f(x) = \begin{cases} x^2 \sin \frac 1 {x^2}, & x \ne 0 \\ 0, & x = 0 \end{cases}$$}@}. <!--SR:!2026-07-12,567,326-->
 
-- derivative ::@:: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2026-05-06,187,286!2026-10-21,650,326-->
+- derivative ::@:: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2027-10-21,531,286!2026-10-21,650,326-->
   - derivative integrability
     - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on any non-trivial interval containing 0, as it is [unbounded](../general/bounded%20function.md). The derivative is an example of an non-integrable function that has an [antiderivative](../general/antiderivative.md) everywhere. <!--SR:!2030-11-09,1763,326!2027-09-13,899,346-->

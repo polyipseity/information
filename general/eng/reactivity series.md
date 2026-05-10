@@ -293,7 +293,7 @@ return chain.from_iterable([r.value for r in results])
 - [calcium](calcium.md):@:[electrolysis](electrolysis.md) <!--SR:!2026-10-03,916,330-->
 - [magnesium](magnesium.md):@:[electrolysis](electrolysis.md) <!--SR:!2028-09-19,1137,270-->
 - [beryllium](beryllium.md):@:[electrolysis](electrolysis.md) <!--SR:!2029-03-06,1281,310-->
-- [aluminium](aluminium.md):@:[electrolysis](electrolysis.md) <!--SR:!2026-05-05,574,230-->
+- [aluminium](aluminium.md):@:[electrolysis](electrolysis.md) <!--SR:!2031-06-17,1866,250-->
 - [titanium](titanium.md):@:[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2026-10-19,258,150-->
 - [manganese](manganese.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2027-05-29,453,170-->
 - [zinc](zinc.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2029-01-20,1526,310-->
@@ -329,9 +329,9 @@ return chain.from_iterable([r.value for r in results])
 
 ### reactions between water and acids
 
-{@{More reactive [metals](metal.md)}@} react with {@{cold [water](water.md) to form the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}@}. <!--SR:!2027-08-02,1066,290!2026-05-08,4,322-->
+{@{More reactive [metals](metal.md)}@} react with {@{cold [water](water.md) to form the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}@}. <!--SR:!2027-08-02,1066,290!2026-05-22,14,322-->
 
-{@{Moderately reactive metals}@} react with {@{[steam](steam.md) or [acids](acid.md)}@} to form {@{respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}@}. <!--SR:!2032-10-23,2375,270!2026-05-08,4,322!2026-05-08,4,322-->
+{@{Moderately reactive metals}@} react with {@{[steam](steam.md) or [acids](acid.md)}@} to form {@{respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}@}. <!--SR:!2032-10-23,2375,270!2026-05-25,17,342!2026-05-25,17,342-->
 
 ## references
 

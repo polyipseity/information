@@ -100,7 +100,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="3984"--><!-- The following content is generated at 2024-01-04T20:17:52.568538+08:00. Any edits will be overridden! -->
 
-- [liqueified petroleum gas](liqueified%20petroleum%20gas.md):@:-40 to -1 °C <!--SR:!2026-05-07,462,270-->
+- [liqueified petroleum gas](liqueified%20petroleum%20gas.md):@:-40 to -1 °C <!--SR:!2029-10-09,1250,270-->
 - [butane](butane.md):@:-12 to -1 °C <!--SR:!2027-01-08,963,314-->
 - [gasoline/petrol](gasoline.md):@:-1 to 110 °C <!--SR:!2027-01-19,543,190-->
 - [naphtha](naphtha.md):@:30 to 200 °C <!--SR:!2026-10-02,387,190-->

@@ -31,7 +31,7 @@ tags:
 
 Subsequently, {@{the fitted model is used to predict samples}@} in a second data set called the __validation data set__. The validation data set provides {@{an unbiased evaluation of a model fit on the training data set}@}, so that {@{[hyperparameters](hyperparameter%20(machine%20learning).md) (e.g. number of layers and layer widths in [neural networks](neural%20network%20(machine%20learning).md)) can be tuned}@}. <!--SR:!2029-01-09,1297,350!2030-11-17,1778,330!2030-04-12,1548,310-->
 
-Finally, the __test data set__ is {@{a data set used to provide an unbiased evaluation of the _final_ model fit on the training data set}@}. <!--SR:!2026-05-05,511,310-->
+Finally, the __test data set__ is {@{a data set used to provide an unbiased evaluation of the _final_ model fit on the training data set}@}. <!--SR:!2032-05-07,2191,330-->
 
 When the model is put into actual use, the data provided is called the {@{__new data set__}@} and {@{do not contain the actual values of attributes being predicted to compare against}@}. <!--SR:!2028-04-01,1075,350!2027-09-28,891,310-->
 

@@ -338,7 +338,7 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 
 ##### variance and inheritance
 
-{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations}@} on {@{their own type parameters}@}. Consider {@{the following class hierarchy}@}: <!--SR:!2028-10-23,904,460!2028-12-23,964,460!2026-05-06,163,440!2027-07-09,480,420!2028-10-17,898,460!2026-08-09,208,475-->
+{@{The following}@} illustrates {@{how variance behaves}@} when {@{inheriting a generic trait}@} and when using {@{concrete classes that declare different variance annotations}@} on {@{their own type parameters}@}. Consider {@{the following class hierarchy}@}: <!--SR:!2028-10-23,904,460!2028-12-23,964,460!2029-01-09,977,460!2027-07-09,480,420!2028-10-17,898,460!2026-08-09,208,475-->
 
 > [!example] __hierarchy__
 >
@@ -354,7 +354,7 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 
 We see:
 
-- `Parent[+T]` ::@:: is declared covariant (`+T`). Because `Parent` is covariant, any subtype of `Parent[S]` may be used where a `Parent[T]` is expected provided that `S <: T`. <!--SR:!2028-11-15,927,460!2026-05-05,162,440-->
+- `Parent[+T]` ::@:: is declared covariant (`+T`). Because `Parent` is covariant, any subtype of `Parent[S]` may be used where a `Parent[T]` is expected provided that `S <: T`. <!--SR:!2028-11-15,927,460!2029-01-01,969,460-->
 - `ChildInvariant[T]` ::@:: declares its type parameter `T` _invariant_ (no annotation), passed to but distinct from the covariant type parameter `T` of `Parent`. <!--SR:!2028-10-04,885,460!2028-11-27,939,460-->
 - `ChildCovariant[+T]` ::@:: declares its type parameter `T` as _covariant_, passed to but distinct from the covariant type parameter `T` of `Parent`. <!--SR:!2028-11-18,933,460!2028-12-20,961,460-->
 - `ChildContravariant[-T]` ::@:: causes compilation error, as `T` is passed to the covariant type parameter `T` of `Parent`. <!--SR:!2027-07-04,477,420!2028-11-20,932,460-->
@@ -376,7 +376,7 @@ Consider assigning {@{concrete instances of subclasses}@} to {@{a covariant pare
 >
 > {@{All assignments}@} {@{compile}@}. <!--SR:!2028-11-22,937,460!2028-11-23,938,460!2028-12-13,955,460!2028-11-20,935,460-->
 
-{@{All assignments}@} {@{compile}@}. Because {@{`Parent` is covariant}@}, {@{a `ChildInvariant[T]` or `ChildCovariant[T]`}@} can be treated as {@{a `Parent[U]` whenever `T <: U`}@}. {@{The variance of the _child_'s own type parameter}@} does not {@{affect this relationship}@}. <!--SR:!2028-12-22,963,460!2028-10-25,909,460!2026-05-05,162,440!2028-11-16,931,460!2026-05-05,162,440!2028-11-15,927,460!2028-12-24,965,460-->
+{@{All assignments}@} {@{compile}@}. Because {@{`Parent` is covariant}@}, {@{a `ChildInvariant[T]` or `ChildCovariant[T]`}@} can be treated as {@{a `Parent[U]` whenever `T <: U`}@}. {@{The variance of the _child_'s own type parameter}@} does not {@{affect this relationship}@}. <!--SR:!2028-12-22,963,460!2028-10-25,909,460!2029-01-02,970,460!2028-11-16,931,460!2029-01-03,971,460!2028-11-15,927,460!2028-12-24,965,460-->
 
 Consider assigning {@{concrete instances of subclasses}@} to {@{itself}@}: <!--SR:!2028-10-22,903,460!2028-11-11,926,460-->
 
@@ -402,11 +402,11 @@ Consider assigning {@{concrete instances of subclasses}@} to {@{itself}@}: <!--S
 > Note: Int <: Any, but class ChildInvariant is invariant in type T.
 > You may wish to define T as +T instead. (SLS 4.5)
 > ```
-<!--SR:!2026-05-06,163,440!2028-12-21,962,460!2028-10-05,889,460!2028-12-18,960,460-->
+<!--SR:!2029-01-06,974,460!2028-12-21,962,460!2028-10-05,889,460!2028-12-18,960,460-->
 
-{@{The compiler}@} rejects {@{the second last line}@}. {@{`ChildInvariant`}@} is {@{invariant in its own `T`}@}; therefore {@{`ChildInvariant[Int]`}@} is {@{_not_ a subtype of `ChildInvariant[Any]`}@}. In contrast, because {@{`ChildCovariant`}@} is {@{covariant in its own `T`}@}, {@{the assignment}@} follows {@{the same rule as with `Parent`}@}. <!--SR:!2028-11-09,924,460!2028-11-24,939,460!2028-12-12,954,460!2028-10-19,903,460!2026-05-05,162,440!2028-10-10,891,460!2026-05-06,163,440!2028-11-24,936,460!2028-10-31,912,460!2026-05-05,162,440-->
+{@{The compiler}@} rejects {@{the second last line}@}. {@{`ChildInvariant`}@} is {@{invariant in its own `T`}@}; therefore {@{`ChildInvariant[Int]`}@} is {@{_not_ a subtype of `ChildInvariant[Any]`}@}. In contrast, because {@{`ChildCovariant`}@} is {@{covariant in its own `T`}@}, {@{the assignment}@} follows {@{the same rule as with `Parent`}@}. <!--SR:!2028-11-09,924,460!2028-11-24,939,460!2028-12-12,954,460!2028-10-19,903,460!2028-12-27,964,460!2028-10-10,891,460!2029-01-07,975,460!2028-11-24,936,460!2028-10-31,912,460!2028-12-29,966,460-->
 
-Attempting to {@{declare a contravariant child}@} results in {@{a compilation error}@}: <!--SR:!2028-12-19,960,460!2026-05-06,163,440-->
+Attempting to {@{declare a contravariant child}@} results in {@{a compilation error}@}: <!--SR:!2028-12-19,960,460!2028-12-31,968,460-->
 
 > [!example] __declaring a contravariant child__
 >
@@ -423,7 +423,7 @@ Attempting to {@{declare a contravariant child}@} results in {@{a compilation er
 > ```
 <!--SR:!2028-12-17,959,460!2028-12-16,958,460-->
 
-{@{The problem}@} is that {@{the `Parent` trait}@} declares {@{its own type parameter as _covariant_ (`+T`)}@}. {@{A child class}@} cannot make {@{the same type parameter contravariant}@} because that would place {@{a contravariant occurrence in a covariant context}@}, violating {@{Scala's variance safety rules}@}. To intuitively see this, if {@{contravariance were allowed here}@}, then {@{`ChildContravariant[Any] <: ChildContravariant[Int] <: Parent[Int]`}@}, implying {@{`ChildContravariant[Any] <: Parent[Int]`}@} which is {@{forbidden as `Any >: Int`}@}. The same holds for {@{a covariant occurrence \(child type parameter\) in a contravariant context \(parent type parameter\)}@}. <!--SR:!2028-10-12,896,460!2026-05-06,163,440!2028-11-19,934,460!2028-12-09,951,460!2026-05-05,162,440!2026-05-05,162,440!2028-11-28,940,460!2028-11-10,925,460!2028-12-14,956,460!2028-12-18,959,460!2026-05-05,162,440!2028-12-15,957,460-->
+{@{The problem}@} is that {@{the `Parent` trait}@} declares {@{its own type parameter as _covariant_ (`+T`)}@}. {@{A child class}@} cannot make {@{the same type parameter contravariant}@} because that would place {@{a contravariant occurrence in a covariant context}@}, violating {@{Scala's variance safety rules}@}. To intuitively see this, if {@{contravariance were allowed here}@}, then {@{`ChildContravariant[Any] <: ChildContravariant[Int] <: Parent[Int]`}@}, implying {@{`ChildContravariant[Any] <: Parent[Int]`}@} which is {@{forbidden as `Any >: Int`}@}. The same holds for {@{a covariant occurrence \(child type parameter\) in a contravariant context \(parent type parameter\)}@}. <!--SR:!2028-10-12,896,460!2029-01-05,973,460!2028-11-19,934,460!2028-12-09,951,460!2028-12-28,965,460!2028-12-31,968,460!2028-11-28,940,460!2028-11-10,925,460!2028-12-14,956,460!2028-12-18,959,460!2028-12-30,967,460!2028-12-15,957,460-->
 
 To {@{summarize}@}: \(annotation: 3 items: {@{variance of supertype, variance of subtype, opposite variances}@}\) <!--SR:!2028-11-22,934,460!2028-10-04,888,460-->
 
@@ -1008,7 +1008,7 @@ For-expressions also support {@{pattern matching in _generator_ positions}@}. Th
 >
 > {@{The resulting sequence}@} contains {@{phone numbers beginning with the country code `"852"`}@}. <!--SR:!2028-05-09,766,440!2028-07-18,810,440!2028-09-30,884,449!2028-11-23,935,449-->
 
-Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elements matching the specified pattern}@}. <!--SR:!2028-10-10,894,449!2028-02-18,689,420!2026-05-06,163,440-->
+Here, {@{the `case` prefixes}@} act as {@{guards}@} that keep {@{only those elements matching the specified pattern}@}. <!--SR:!2028-10-10,894,449!2028-02-18,689,420!2029-01-04,972,460-->
 
 {@{A __filter__}@} is written as {@{`if cond`}@}, where {@{`cond`}@} is {@{a boolean expression evaluated for each element of the preceding generators}@}. Filters prune {@{the intermediate results before they reach the final expression}@}. <!--SR:!2028-11-10,922,449!2028-09-18,872,449!2028-05-07,764,435!2028-06-04,789,440!2028-11-06,918,449-->
 

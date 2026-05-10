@@ -11,7 +11,7 @@ tags:
 
 In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful __combinatorial rules__ or __combinatorial principles__}@} are {@{commonly recognized and used}@}. <!--SR:!2029-06-13,1325,350!2028-08-16,1006,330!2028-02-15,655,414-->
 
-{@{The [rule of sum](addition%20principle.md), [rule of product](rule%20of%20product.md), and [inclusion–exclusion principle](inclusion–exclusion%20principle.md)}@} are often used for {@{[enumerative](enumerative%20combinatorics.md) purposes}@}. {@{[Bijective proofs](bijective%20proof.md)}@} are utilized to {@{demonstrate that two sets have the same [number of elements](cardinality.md)}@}. {@{The [pigeonhole principle](pigeonhole%20principle.md)}@} often {@{ascertains the existence of something or is used to determine the minimum or maximum number of something in a [discrete](discrete%20mathematics.md) context}@}. <!--SR:!2029-09-24,1407,350!2029-06-11,1324,350!2029-09-09,1394,350!2029-10-03,1414,350!2029-06-01,1315,350!2026-05-06,381,290-->
+{@{The [rule of sum](addition%20principle.md), [rule of product](rule%20of%20product.md), and [inclusion–exclusion principle](inclusion–exclusion%20principle.md)}@} are often used for {@{[enumerative](enumerative%20combinatorics.md) purposes}@}. {@{[Bijective proofs](bijective%20proof.md)}@} are utilized to {@{demonstrate that two sets have the same [number of elements](cardinality.md)}@}. {@{The [pigeonhole principle](pigeonhole%20principle.md)}@} often {@{ascertains the existence of something or is used to determine the minimum or maximum number of something in a [discrete](discrete%20mathematics.md) context}@}. <!--SR:!2029-09-24,1407,350!2029-06-11,1324,350!2029-09-09,1394,350!2029-10-03,1414,350!2029-06-01,1315,350!2029-05-16,1104,290-->
 
 {@{Many combinatorial identities}@} arise from {@{[double counting](double%20counting%20(proof%20technique).md) methods or the [method of distinguished element](method%20of%20distinguished%20element.md)}@}. {@{[Generating functions](generating%20function.md) and [recurrence relations](recurrence%20relation.md)}@} are {@{powerful tools that can be used to manipulate sequences}@}, and can {@{describe if not resolve many combinatorial situations}@}. <!--SR:!2029-10-11,1421,350!2029-05-10,1297,350!2029-10-17,1426,350!2029-10-04,1415,350!2028-05-30,758,426-->
 
@@ -23,7 +23,7 @@ In {@{proving results in [combinatorics](combinatorics.md)}@} {@{several useful 
 
 ## rule of product
 
-- see: ::@:: [rule of product](rule%20of%20product.md) <!--SR:!2028-05-05,735,426!2026-05-06,140,406-->
+- see: ::@:: [rule of product](rule%20of%20product.md) <!--SR:!2028-05-05,735,426!2028-06-27,781,426-->
 
 {@{The rule of product}@} is {@{another intuitive principle}@} stating that if there are {@{_a_ ways to do something and _b_ ways to do another thing}@}, then there are {@{_a_ · _b_ ways to do both things}@}. <!--SR:!2026-12-28,613,330!2028-02-26,927,330!2029-10-18,1427,350!2027-06-18,489,404-->
 
@@ -57,11 +57,11 @@ Generally, according to {@{this principle}@}, if {@{_A_<sub>1</sub>, …, _A<sub
 
 - see: :;@:: [pigeonhole principle](pigeonhole%20principle.md)
 
-{@{The pigeonhole principle}@} states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, demonstrate {@{the existence of some element in a set}@} with {@{some specific properties}@}. <!--SR:!2029-06-29,1338,350!2027-01-11,622,330!2029-09-07,1393,350!2028-02-06,646,414!2026-05-05,139,406-->
+{@{The pigeonhole principle}@} states that if {@{_a_ items are each put into one of _b_ boxes, where _a_ > _b_}@}, then {@{one of the boxes contains more than one item}@}. Using this one can, for example, demonstrate {@{the existence of some element in a set}@} with {@{some specific properties}@}. <!--SR:!2029-06-29,1338,350!2027-01-11,622,330!2029-09-07,1393,350!2028-02-06,646,414!2028-06-17,771,426-->
 
 ## method of distinguished element
 
-- see: ::@:: [method of distinguished element](method%20of%20distinguished%20element.md) <!--SR:!2026-05-06,140,406!2028-06-13,771,426-->
+- see: ::@:: [method of distinguished element](method%20of%20distinguished%20element.md) <!--SR:!2028-06-26,780,426!2028-06-13,771,426-->
 
 {@{The method of distinguished element}@} {@{singles out a "distinguished element" of a set}@} to {@{prove some result}@}. <!--SR:!2029-09-15,1399,350!2028-05-28,757,426!2028-03-21,690,420-->
 
@@ -69,7 +69,7 @@ Generally, according to {@{this principle}@}, if {@{_A_<sub>1</sub>, …, _A<sub
 
 - see: ::@:: [generating function](generating%20function.md) <!--SR:!2028-05-18,748,426!2028-04-30,730,420-->
 
-{@{Generating functions}@} can be thought of as {@{polynomials with infinitely many terms whose coefficients correspond to terms of a sequence}@}. This new representation of the sequence {@{opens up new methods for finding identities and closed forms pertaining to certain sequences}@}. {@{The (ordinary) generating function of a sequence _a_<sub>_n_</sub>}@} is {@{$$G(a_{n};x)=\sum _{n=0}^{\infty }a_{n}x^{n}.$$}@} <!--SR:!2026-05-06,417,310!2028-01-12,903,330!2029-10-12,1422,350!2029-09-21,1404,350!2028-03-02,671,420-->
+{@{Generating functions}@} can be thought of as {@{polynomials with infinitely many terms whose coefficients correspond to terms of a sequence}@}. This new representation of the sequence {@{opens up new methods for finding identities and closed forms pertaining to certain sequences}@}. {@{The (ordinary) generating function of a sequence _a_<sub>_n_</sub>}@} is {@{$$G(a_{n};x)=\sum _{n=0}^{\infty }a_{n}x^{n}.$$}@} <!--SR:!2031-03-30,1787,330!2028-01-12,903,330!2029-10-12,1422,350!2029-09-21,1404,350!2028-03-02,671,420-->
 
 ## recurrence relation
 

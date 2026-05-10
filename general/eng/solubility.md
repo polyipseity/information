@@ -371,7 +371,7 @@ return await memorize_map(
 - [lead(II) chloride](lead(II)%20chloride.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-11-22,727,278-->
 - [lead(II) iodide](lead(II)%20iodide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-06-09,175,150-->
 - [lead(II) sulfate](lead(II)%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-06-19,159,170-->
-- [lithium phosphate](lithium%20phosphate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-05-08,78,158-->
+- [lithium phosphate](lithium%20phosphate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-09-05,120,158-->
 - [mercury(I) bromide](mercury(I)%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-02-26,336,298-->
 - [mercury(I) chloride](mercury(I)%20chloride.md):@:<span style="color: red;">insoluble</span> <!--SR:!2028-08-27,880,238-->
 - [mercury(I) iodide](mercury(I)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-06-08,880,298-->

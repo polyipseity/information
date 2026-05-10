@@ -177,7 +177,7 @@ patchelf --set-interpreter 'ld-<version>.so' 'my_elf' # This sets the dynamic lo
 patchelf --set-rpath './' 'my_elf' # This sets the path to be searched for `glibc` to the current directory, so the `libc.so.6` in the current directory will be used isntead of the system one.
 ```
 
-To {@{verify `patchelf` has successfully patched the executable}@}, run {@{`ldd <patched ELF file>`}@}. You should see {@{`libc.so.6` being linked (`=>`) to the one in the current directory, and `ld-<version>.so` in the current directory replacing (`=>`) the system one}@}. For example: <!--SR:!2027-02-19,668,330!2028-04-16,1008,350!2026-05-08,416,310-->
+To {@{verify `patchelf` has successfully patched the executable}@}, run {@{`ldd <patched ELF file>`}@}. You should see {@{`libc.so.6` being linked (`=>`) to the one in the current directory, and `ld-<version>.so` in the current directory replacing (`=>`) the system one}@}. For example: <!--SR:!2027-02-19,668,330!2028-04-16,1008,350!2031-04-04,1792,330-->
 
 ```shell
 $ ldd 'my_elf'

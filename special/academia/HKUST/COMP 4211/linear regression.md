@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 - why linear regression matters early ::@:: Linear regression already exhibits the main machine-learning ideas of supervised learning, loss minimization, feature engineering, capacity control, regularization, and probabilistic interpretation. <!--SR:!2026-05-18,19,343!2026-05-16,17,304-->
 - course convention for the intercept term ::@:: In this course the bias/intercept is included by augmenting the features with $x_0 = 1$, so the predictor is written compactly as $\hat y = w^\top x$. <!--SR:!2026-05-17,18,333!2026-05-12,18,333-->
 - role of the weights ::@:: The entries of $w$ determine how strongly the corresponding features influence the predicted response. <!--SR:!2026-05-12,18,321!2026-05-16,17,304-->
-- linear in parameters versus linear in raw input ::@:: A model can be nonlinear in the raw input yet still count as a linear model if it is linear in the transformed features or parameters. <!--SR:!2026-05-12,18,321!2026-05-08,14,290-->
+- linear in parameters versus linear in raw input ::@:: A model can be nonlinear in the raw input yet still count as a linear model if it is linear in the transformed features or parameters. <!--SR:!2026-05-12,18,321!2026-07-03,56,310-->
 
 ## supervised regression setup and ordinary least squares
 
@@ -50,7 +50,7 @@ When no closed-form solution is available, one usually switches from exact algeb
 Flashcards for this section are as follows:
 
 - supervised regression data ::@:: In linear regression the training data are pairs $(x_i,y_i)$ with augmented feature vectors $x_i \in \mathbb{R}^{D+1}$ and real-valued targets $y_i \in \mathbb{R}$. <!--SR:!2026-05-16,17,304!2026-05-12,18,333-->
-- prediction rule $\hat y_i = w^\top x_i$ ::@:: For each example $x_i$, linear regression predicts the response by the affine score $\hat y_i = w^\top x_i$. <!--SR:!2026-05-08,14,290!2026-05-13,19,343-->
+- prediction rule $\hat y_i = w^\top x_i$ ::@:: For each example $x_i$, linear regression predicts the response by the affine score $\hat y_i = w^\top x_i$. <!--SR:!2026-07-02,55,310!2026-05-13,19,343-->
 - mean squared error $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$ ::@:: The standard linear-regression objective is $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$. <!--SR:!2026-05-17,18,321!2026-05-16,17,304-->
 - why squared error is used ::@:: Squaring residuals prevents sign cancellation and penalizes large mistakes more strongly than small ones. <!--SR:!2026-05-18,19,343!2026-05-12,18,333-->
 - ordinary least squares ::@:: Ordinary least squares chooses the parameter vector $w$ that minimizes the average squared residual over the training set. <!--SR:!2026-05-16,17,304!2026-05-16,17,321-->
@@ -151,8 +151,8 @@ Flashcards for this section are as follows:
 - matrix expansion of least squares ::@:: The matrix least-squares objective expands as $L(w)=\frac{1}{N}\bigl(y^\top y - 2y^\top Xw + w^\top X^\top Xw\bigr)$. <!--SR:!2026-05-17,18,321!2026-05-10,16,304-->
 - coordinatewise reason that $\nabla_w(w^\top A w)=(A+A^\top)w$ ::@:: Since $w^\top A w = \sum_{j,k} a_{jk}w_jw_k$, differentiating with respect to $w_m$ collects the terms where $j=m$ and where $k=m$, giving $(Aw)_m+(A^\top w)_m$. <!--SR:!2026-05-17,18,321!2026-05-18,19,343-->
 - why the derivative of $w^\top X^\top Xw$ is $2X^\top Xw$ ::@:: Let $A=X^\top X$. Because $A$ is symmetric, $(A+A^\top)w = 2Aw$, so $\nabla_w(w^\top X^\top Xw)=2X^\top Xw$. <!--SR:!2026-05-17,18,321!2026-05-13,19,343-->
-- two-variable memory aid for differentiating a quadratic form ::@:: If $A=\begin{bmatrix}a&b\\ b&c\end{bmatrix}$, then $w^\top A w = aw_1^2 + 2bw_1w_2 + cw_2^2$, so differentiating gives $[2aw_1+2bw_2,\ 2bw_1+2cw_2]^\top = 2Aw$. <!--SR:!2026-05-12,18,321!2026-05-08,14,290-->
-- why the matrix derivation matters ::@:: The derivation shows that least squares balances two terms: $X^\top Xw$, which comes from the geometry of the design matrix, and $X^\top y$, which comes from how the targets correlate with the features. <!--SR:!2026-05-12,18,333!2026-05-08,14,290-->
+- two-variable memory aid for differentiating a quadratic form ::@:: If $A=\begin{bmatrix}a&b\\ b&c\end{bmatrix}$, then $w^\top A w = aw_1^2 + 2bw_1w_2 + cw_2^2$, so differentiating gives $[2aw_1+2bw_2,\ 2bw_1+2cw_2]^\top = 2Aw$. <!--SR:!2026-05-12,18,321!2026-07-05,58,310-->
+- why the matrix derivation matters ::@:: The derivation shows that least squares balances two terms: $X^\top Xw$, which comes from the geometry of the design matrix, and $X^\top y$, which comes from how the targets correlate with the features. <!--SR:!2026-05-12,18,333!2026-06-20,43,290-->
 
 ### tiny normal-equation computation
 
@@ -193,7 +193,7 @@ Flashcards for this section are as follows:
 - orthonormal-column special case ::@:: If the columns of $X$ are orthonormal, then $X^\top X=I$, so the projection simplifies to $XX^\top y$. <!--SR:!2026-05-17,18,333!2026-05-18,19,343-->
 - why projection is a good memory aid ::@:: The projection viewpoint says linear regression finds the closest vector to $y$ among all vectors that can be written as $Xw$. <!--SR:!2026-05-12,18,321!2026-05-17,18,321-->
 - when $X^\top X$ is singular ::@:: $X^\top X$ is singular when the columns of $X$ are linearly dependent, so the inverse formula cannot be used directly. <!--SR:!2026-05-12,18,333!2026-05-16,17,333-->
-- redundant-feature example ::@:: If the model uses both $x$ and $2x$ as separate features, then many pairs $(w_1,w_2)$ yield the same prediction because $w_1x + w_2(2x) = (w_1+2w_2)x$. <!--SR:!2026-05-08,14,290!2026-05-17,18,321-->
+- redundant-feature example ::@:: If the model uses both $x$ and $2x$ as separate features, then many pairs $(w_1,w_2)$ yield the same prediction because $w_1x + w_2(2x) = (w_1+2w_2)x$. <!--SR:!2026-07-02,55,310!2026-05-17,18,321-->
 - full-column-rank pseudoinverse formula ::@:: If $X$ has full column rank, then its pseudoinverse is $X^{+}=(X^\top X)^{-1}X^\top$, so $X^{+}y$ equals the usual ordinary least-squares solution. <!--SR:!2026-05-12,18,333!2026-05-17,18,321-->
 - why the pseudoinverse is not just $(X^\top X)^{-1}$ ::@:: The pseudoinverse used in least squares is the pseudoinverse of $X$, not of $X^\top X$ alone, so in the full-column-rank case it is $(X^\top X)^{-1}X^\top$. <!--SR:!2026-05-17,18,333!2026-05-12,18,333-->
 - dimension check for the pseudoinverse formula ::@:: $(X^\top X)^{-1}$ lives in parameter space, but $y$ lives in data space, so the factor $X^\top$ is needed to map data-space information into coefficient space before solving for $w$. <!--SR:!2026-05-12,18,321!2026-05-17,18,333-->
@@ -437,7 +437,7 @@ In special settings this threshold picture becomes explicit. For example, with o
 Flashcards for this section are as follows:
 
 - what $\lVert w\rVert_2^2$ means ::@:: The squared $L_2$ penalty is $\lVert w\rVert_2^2 = \sum_j w_j^2$, the sum of squared coefficient magnitudes. <!--SR:!2026-05-16,17,304!2026-05-17,18,321-->
-- why squaring changes the ridge penalty ::@:: Squaring means large coefficients are punished disproportionately, so ridge strongly discourages a few very large weights. <!--SR:!2026-05-08,14,290!2026-05-15,16,290-->
+- why squaring changes the ridge penalty ::@:: Squaring means large coefficients are punished disproportionately, so ridge strongly discourages a few very large weights. <!--SR:!2026-07-04,57,310!2026-05-15,16,290-->
 - ridge regularization gradient ::@:: Since $\|w\|_2^2=\sum_j w_j^2$, differentiating gives $\nabla_w\bigl(\lambda\|w\|_2^2\bigr)=2\lambda w$. <!--SR:!2026-05-09,15,304!2026-05-12,18,321-->
 - ridge gradient interpretation ::@:: The ridge term adds $2\lambda w$ to the data-fit gradient, so every coefficient feels a smooth pull directly toward zero. <!--SR:!2026-05-12,18,333!2026-05-17,18,333-->
 - why the bias has no regularization gradient ::@:: Because the bias term $w_0$ is excluded from the penalty, the regularizer contributes $0$ to the derivative with respect to $w_0$. <!--SR:!2026-05-12,18,333!2026-05-11,17,304-->
@@ -538,7 +538,7 @@ Flashcards for this section are as follows:
 - residual sum of squares and total sum of squares ::@:: In regression, $\mathrm{RSS}=\sum_i (y_i-\hat y_i)^2$ measures unexplained variation and $\mathrm{TSS}=\sum_i (y_i-\bar y)^2$ measures total variation around the mean. <!--SR:!2026-05-17,18,333!2026-05-17,18,333-->
 - explained sum of squares ::@:: The explained sum of squares is $\mathrm{ESS}=\sum_i(\hat y_i-\bar y)^2$, which measures how much variation of the targets around the mean is captured by the fitted values. <!--SR:!2026-05-12,18,333!2026-05-18,19,343-->
 - intuitive reading of $R^2 = 1-\mathrm{RSS}/\mathrm{TSS}$ ::@:: $R^2$ is one minus the unexplained fraction of total target variation, measured relative to the mean-prediction baseline. <!--SR:!2026-05-12,18,321!2026-05-12,18,321-->
-- alternative $R^2$ formula with intercept ::@:: When an intercept is included, OLS gives $\mathrm{TSS}=\mathrm{ESS}+\mathrm{RSS}$, so $R^2 = \mathrm{ESS}/\mathrm{TSS}$ with $\mathrm{ESS}=\sum_i(\hat y_i-\bar y)^2$. <!--SR:!2026-05-08,14,290!2026-05-16,17,333-->
+- alternative $R^2$ formula with intercept ::@:: When an intercept is included, OLS gives $\mathrm{TSS}=\mathrm{ESS}+\mathrm{RSS}$, so $R^2 = \mathrm{ESS}/\mathrm{TSS}$ with $\mathrm{ESS}=\sum_i(\hat y_i-\bar y)^2$. <!--SR:!2026-07-01,54,310!2026-05-16,17,333-->
 - intercept assumption behind the standard $R^2$ formulas ::@:: The usual mean-baseline interpretation of $R^2$ and the decomposition $\mathrm{TSS}=\mathrm{ESS}+\mathrm{RSS}$ assume that the regression model includes an intercept term. <!--SR:!2026-05-17,18,321!2026-05-17,18,321-->
 - relation between OLS residuals and regressors ::@:: OLS residuals are orthogonal to all included regressors because the normal equation gives $X^\top(y-\hat y)=0$, regardless of whether an intercept is present. <!--SR:!2026-05-17,18,321!2026-05-12,18,333-->
 - extra intercept consequence for residuals ::@:: If an intercept column is included in $X$, then $X^\top e=0$ implies the residuals sum to zero. <!--SR:!2026-05-11,17,304!2026-05-13,19,343-->
@@ -622,7 +622,7 @@ Flashcards for this section are as follows:
 - one-sample Gaussian negative log-likelihood ::@:: For one example with Gaussian output noise, $-\log p(y\mid x,\theta)=\frac{1}{2}\log(2\pi\sigma^2)+\frac{(y-w^\top x)^2}{2\sigma^2}$. <!--SR:!2026-05-17,18,321!2026-05-16,17,304-->
 - dataset Gaussian objective ::@:: Averaging Gaussian negative log-likelihood over the dataset gives $\frac{1}{2}\log(2\pi\sigma^2)+\frac{1}{2N\sigma^2}\sum_{i=1}^N (y_i-w^\top x_i)^2$. <!--SR:!2026-05-12,18,333!2026-05-13,19,342-->
 - why Gaussian likelihood penalizes squared residuals ::@:: In a Gaussian density the exponent is proportional to $-(y-w^\top x)^2$, so larger squared residuals directly reduce likelihood. <!--SR:!2026-05-12,18,333!2026-05-17,18,333-->
-- why the Gaussian derivation is important ::@:: It shows that MSE is not arbitrary; it is the natural objective induced by a Gaussian conditional output model. <!--SR:!2026-05-08,14,290!2026-05-17,18,333-->
+- why the Gaussian derivation is important ::@:: It shows that MSE is not arbitrary; it is the natural objective induced by a Gaussian conditional output model. <!--SR:!2026-07-04,57,310!2026-05-17,18,333-->
 
 ### likelihood derivation and cross entropy
 

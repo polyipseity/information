@@ -15,7 +15,7 @@ The __law of supply__ is {@{a fundamental principle of [economic theory](economi
 
 In short, the law of supply is {@{a positive relationship between quantity supplied and price}@}, and is {@{the reason for the upward slope of the supply curve}@}. <!--SR:!2029-07-20,1333,350!2029-08-01,1344,350-->
 
-{@{Some [heterodox economists](heterodox%20economics.md)}@}, such as [Steve Keen](Steve%20Keen.md) and [Dirk Ehnts](Dirk%20Ehnts.md), {@{dispute the law of supply}@}, arguing that {@{the supply curve for mass-produced goods is often downward-sloping}@}: as {@{production increases, unit prices go down}@}, and conversely, if {@{demand is very low, unit prices go up}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-06-23,1313,350!2029-07-19,1332,350!2029-07-31,1343,350!2026-05-06,116,389!2026-05-07,117,392-->
+{@{Some [heterodox economists](heterodox%20economics.md)}@}, such as [Steve Keen](Steve%20Keen.md) and [Dirk Ehnts](Dirk%20Ehnts.md), {@{dispute the law of supply}@}, arguing that {@{the supply curve for mass-produced goods is often downward-sloping}@}: as {@{production increases, unit prices go down}@}, and conversely, if {@{demand is very low, unit prices go up}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-06-23,1313,350!2029-07-19,1332,350!2029-07-31,1343,350!2028-01-15,617,409!2028-01-25,627,412-->
 
 ## definition
 
@@ -29,7 +29,7 @@ For example, a job paying £20/hr attracts {@{more interest than a job paying £
 
 There are {@{various non-price determinants that can cause a shift in a supply curve}@}.<sup>[\[6\]](#^ref-6)</sup> For example, if {@{the costs of production, such as wages, decrease}@}, then {@{the manufacturers can produce more goods for the same price, so the quantity supplied will increase}@}. If {@{the number of suppliers increases, or if the capacity of a factory producing the goods increases}@}, {@{the quantity supplied will increase}@}. <!--SR:!2027-07-08,739,330!2029-06-26,1315,350!2029-07-02,1320,350!2029-07-03,1321,350!2029-07-04,1321,350-->
 
-{@{Other factors \(annotation: affecting supply\)}@} can include {@{government policy}@}—{@{government subsidies}@} to {@{encourage certain products decreases the overall cost of production}@}. However, {@{government [taxation](tax.md)}@} can {@{cause the cost of production to rise}@}. For {@{some products, such as in agriculture}@}, {@{the quantity supplied}@} is {@{dependent on the weather}@}. <!--SR:!2029-06-07,1299,350!2029-07-30,1342,350!2029-07-21,1334,350!2029-07-18,1331,350!2026-05-10,120,392!2026-05-14,124,392!2026-05-09,119,392!2026-05-08,118,392!2026-05-16,126,389-->
+{@{Other factors \(annotation: affecting supply\)}@} can include {@{government policy}@}—{@{government subsidies}@} to {@{encourage certain products decreases the overall cost of production}@}. However, {@{government [taxation](tax.md)}@} can {@{cause the cost of production to rise}@}. For {@{some products, such as in agriculture}@}, {@{the quantity supplied}@} is {@{dependent on the weather}@}. <!--SR:!2029-06-07,1299,350!2029-07-30,1342,350!2029-07-21,1334,350!2029-07-18,1331,350!2026-05-10,120,392!2026-05-14,124,392!2026-05-09,119,392!2028-01-30,632,412!2026-05-16,126,389-->
 
 ## see also
 

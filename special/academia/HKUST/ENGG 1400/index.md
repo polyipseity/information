@@ -182,7 +182,7 @@ The content is in teaching order.
 - design thinking
   - design thinking / discernment ::@:: __Discernment__ is integrating _multiple_ ways of knowing, which includes cognitive/intellectual, emotional/affective, physical/kinesthetic, and social. <!--SR:!2026-12-15,627,414!2027-01-11,650,414-->
     - design thinking / discernment / cognitive ::@:: decision matrix, pro–con list, logical reasoning <!--SR:!2027-01-30,662,414!2027-03-07,695,414-->
-    - design thinking / discernment / emotional ::@:: feeling, intuition, spiritual knowing <!--SR:!2027-01-21,657,414!2026-05-05,440,394-->
+    - design thinking / discernment / emotional ::@:: feeling, intuition, spiritual knowing <!--SR:!2027-01-21,657,414!2031-02-06,1735,394-->
     - design thinking / discernment / physical ::@:: physical message (e.g. feeling light, headache, stomachache, etc.) <!--SR:!2026-12-27,638,414!2027-01-15,654,414-->
     - design thinking / discernment / social ::@:: collective knowing/shared insight, trusted community, wisdom of mentors <!--SR:!2030-09-05,1685,394!2027-02-04,667,414-->
     - design thinking / discernment / indicator ::@:: body sign, collective confirmation, epiphany (aha), insight, internal affect, recognition, simultaneity <!--SR:!2027-02-15,678,414!2030-11-21,1752,394-->

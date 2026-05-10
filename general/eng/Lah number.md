@@ -65,7 +65,7 @@ In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [St
 
 - alternative ways to write the formula ::@:: $$L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }={n \choose k}{\frac {(n-1)!}{(k-1)!} }={n \choose k}{n-1 \choose k-1}(n-k)!$$ <!--SR:!2027-10-06,680,270!2027-06-26,667,310-->
 - formula with square ::@:: $$L(n,k)={\frac {n!(n-1)!}{k!(k-1)!} }\cdot {\frac {1}{(n-k)!} }=\left({\frac {n!}{k!} }\right)^{2}{\frac {k}{n(n-k)!} }$$ <!--SR:!2027-11-21,708,270!2026-07-14,415,290-->
-- recurrence formula deviation ::@:: $$k(k+1)L(n,k+1)=(n-k)L(n,k) \,,$$ for $k>0$. <!--SR:!2026-05-05,313,230!2026-08-06,98,230-->
+- recurrence formula deviation ::@:: $$k(k+1)L(n,k+1)=(n-k)L(n,k) \,,$$ for $k>0$. <!--SR:!2028-04-24,717,230!2026-08-06,98,230-->
 
 ### recurrence relations
 
@@ -77,13 +77,13 @@ The Lah numbers satisfy {@{the recurrence relations $${\begin{aligned}L(n+1,k)&=
 
 ### derivative of exp(1/_x_)
 
-{@{The _n_-th [derivative](derivative.md) (including _n_ = 0) of the function $e^{\frac {1}{x} }$}@} can be {@{expressed with the Lah numbers}@}, as follows<sup>[\[7\]](#^ref-7)</sup> {@{$${\frac { {\textrm {d} }^{n} }{ {\textrm {d} }x^{n} } }e^{\frac {1}{x} }=(-x)^{-n}\sum _{k=0}^{n}{\frac {L(n,k)}{x^{k} } }\cdot e^{\frac {1}{x} }.$$}@} <!--SR:!2026-08-14,437,290!2026-05-28,280,250!2026-05-07,7,130-->
+{@{The _n_-th [derivative](derivative.md) (including _n_ = 0) of the function $e^{\frac {1}{x} }$}@} can be {@{expressed with the Lah numbers}@}, as follows<sup>[\[7\]](#^ref-7)</sup> {@{$${\frac { {\textrm {d} }^{n} }{ {\textrm {d} }x^{n} } }e^{\frac {1}{x} }=(-x)^{-n}\sum _{k=0}^{n}{\frac {L(n,k)}{x^{k} } }\cdot e^{\frac {1}{x} }.$$}@} <!--SR:!2026-08-14,437,290!2026-05-28,280,250!2026-05-16,8,130-->
 
 For example, $$\begin{aligned} {\frac {\textrm {d} }{ {\textrm {d} }x} }e^{\frac {1}{x} } & = -{\frac {1}{x^{2} } }\cdot e^{\frac {1}{x} } \\ {\frac { {\textrm {d} }^{2} }{ {\textrm {d} }x^{2} } }e^{\frac {1}{x} } & = {\frac {\textrm {d} }{ {\textrm {d} }x} }\left(-{\frac {1}{x^{2} } }e^{\frac {1}{x} }\right)=-{\frac {-2}{x^{3} } }\cdot e^{\frac {1}{x} }-{\frac {1}{x^{2} } }\cdot {\frac {-1}{x^{2} } }\cdot e^{\frac {1}{x} }=\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot e^{\frac {1}{x} } \\ {\frac { {\textrm {d} }^{3} }{ {\textrm {d} }x^{3} } }e^{\frac {1}{x} } & ={\frac {\textrm {d} }{ {\textrm {d} }x} }\left(\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot e^{\frac {1}{x} }\right)=\left({\frac {-6}{x^{4} } }+{\frac {-4}{x^{5} } }\right)\cdot e^{\frac {1}{x} }+\left({\frac {2}{x^{3} } }+{\frac {1}{x^{4} } }\right)\cdot {\frac {-1}{x^{2} } }\cdot e^{\frac {1}{x} }=-\left({\frac {6}{x^{4} } }+{\frac {6}{x^{5} } }+{\frac {1}{x^{6} } }\right)\cdot e^{\frac {1}{x} } \,. \end{aligned}$$
 
 ## link to Laguerre polynomials
 
-{@{Generalized [Laguerre polynomials](Laguerre%20polynomials.md) $L_{n}^{(\alpha )}(x)$}@} are {@{linked to Lah numbers upon setting $\alpha =-1$}@} {@{$$n!L_{n}^{(-1)}(x)=\sum_{k=0}^{n}L(n,k)(-x)^{k}$$}@} This formula is {@{the default [Laguerre polynomial](Laguerre%20polynomials.md) in [umbral calculus](umbral%20calculus.md) convention}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-07-18,462,310!2027-09-18,745,290!2026-05-08,163,190!2028-04-05,944,330-->
+{@{Generalized [Laguerre polynomials](Laguerre%20polynomials.md) $L_{n}^{(\alpha )}(x)$}@} are {@{linked to Lah numbers upon setting $\alpha =-1$}@} {@{$$n!L_{n}^{(-1)}(x)=\sum_{k=0}^{n}L(n,k)(-x)^{k}$$}@} This formula is {@{the default [Laguerre polynomial](Laguerre%20polynomials.md) in [umbral calculus](umbral%20calculus.md) convention}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2026-07-18,462,310!2027-09-18,745,290!2027-03-08,304,190!2028-04-05,944,330-->
 
 ## practical application
 
