@@ -106,7 +106,7 @@ The input voltage at which the transistor just enters saturation is called $V_{\
 
 Flashcards for this section are as follows:
 
-- inverter: how are logical HIGH and logical LOW defined? ($V_C$, $V_E$) ::@:: By comparing $V_C$ and $V_E$: large $V_C - V_E$ is logical HIGH; small difference (about $0.2\text{ V}$) is logical LOW. <!--SR:!2026-05-16,42,290!2026-06-09,64,310-->
+- inverter: how are logical HIGH and logical LOW defined? ($V_C$, $V_E$) ::@:: By comparing $V_C$ and $V_E$: large $V_C - V_E$ is logical HIGH; small difference (about $0.2\text{ V}$) is logical LOW. <!--SR:!2026-10-30,167,310!2026-06-09,64,310-->
 - NPN circuit as inverter: what is the logic behaviour? (input LOW vs HIGH; $V_C$, $V_E$, output level) ::@:: Input LOW (transistor off): $V_C$ high, $V_E$ at ground, so output is logical HIGH. Input HIGH (transistor saturated): $V_C$ only slightly above $V_E$, so output is logical LOW. <!--SR:!2026-06-12,67,310!2026-05-30,56,310-->
 - saturation voltage $V_{\text{sat}}$: how is it found? (equate $\beta I_B$ and $I_{C,\max}$) ::@:: Set $\beta I_B = I_{C,\max}$. Use $I_B = (V_{\text{sat}} - 0.7\text{ V})/R_B$ and $I_{C,\max} = (V_{CC} - 0.2\text{ V})/R_C$; solve for $V_{\text{sat}}$. <!--SR:!2026-06-06,62,310!2026-05-17,43,290-->
 - lecture $V_{\text{sat}}$ example: $R_B = 10\text{ k}\Omega$, $R_C = 1\text{ k}\Omega$, $V_{CC} = 5\text{ V}$, $\beta = 100$. What is $V_{\text{sat}}$? ::@:: $V_{\text{sat}} = 1.18\text{ V}$; for input above that the transistor is saturated and output is low. <!--SR:!2026-05-17,43,290!2026-06-03,59,310-->

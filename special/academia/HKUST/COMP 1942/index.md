@@ -316,7 +316,7 @@ The content is in teaching order.
   - [§ basic structure](../../../../general/artificial%20neuron.md#basic%20structure)
   - [§ types of activation functions](../../../../general/artificial%20neuron.md#types%20of%20activation%20function)
   - [§ step function](../../../../general/artificial%20neuron.md#step%20function)
-    - step function threshold ::@:: _θ_ = 0 <!--SR:!2034-01-17,2852,417!2026-05-10,562,397-->
+    - step function threshold ::@:: _θ_ = 0 <!--SR:!2034-01-17,2852,417!2034-09-13,3047,417-->
   - [§ rectifier](../../../../general/artificial%20neuron.md#rectifier)
   - [§ sigmoid](../../../../general/artificial%20neuron.md#sigmoid)
     - sigmoid function variants ::@:: [logistic function](../../../../general/logistic%20function.md) with _L_ = 1, _k = 1_, and _x_<sub>0</sub> = 0: $$y = \frac L {1 + e^{-k(u - x_0)} } = \frac 1 {1 + e^{-u} }$$ <p> [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ($\tanh$): $$y = \frac {\sinh u} {\cosh u} = \frac {e^u - e^{-u} } {e^u + e^{-u} } = \frac {e^{2u} - 1} {e^{2u} + 1}$$ <!--SR:!2029-12-04,1408,337!2027-03-19,728,357-->

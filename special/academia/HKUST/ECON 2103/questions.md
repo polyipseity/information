@@ -299,7 +299,7 @@ tags:
 >
 > Note: You are using your office space.
 >
-> - solution: {@{In 1, explicit cost increases by \$500/month. In 2, implicit cost increases by \$500/month, because you are using the office space that could have been rented out to the market.}@} <!--SR:!2026-05-14,411,394-->
+> - solution: {@{In 1, explicit cost increases by \$500/month. In 2, implicit cost increases by \$500/month, because you are using the office space that could have been rented out to the market.}@} <!--SR:!2032-05-31,2208,414-->
 
 <!-- markdownlint MD028 -->
 
@@ -332,7 +332,7 @@ tags:
 > 3. no effect on the profit-maximizing price or quantity
 > 4. possibly increase, decrease or not effect profit-maximizing price and quantity, depending on the elasticity of demand.
 >
-> - solution: {@{3}@} <!--SR:!2026-05-13,410,394-->
+> - solution: {@{3}@} <!--SR:!2032-05-23,2200,414-->
 
 ### chapter 17 lecture
 

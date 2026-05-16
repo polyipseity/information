@@ -68,7 +68,7 @@ In {@{English, this first-order sentence}@} reads: <!--SR:!2026-12-15,371,364!20
 &emsp; {@{the elements of $X$ are not pairwise disjoint}@} or <br/>
 &emsp; there {@{exists a set $C$ such that its intersection with any of the elements of $X$ contains exactly one element}@}. <!--SR:!2026-12-08,366,364!2026-12-09,367,364!2026-12-25,380,364!2026-09-09,289,347-->
 
-This guarantees for {@{any [partition of a set](partition%20of%20a%20set.md) $X$}@} {@{the existence of a subset $C$ of $X$}@} containing {@{exactly one element from each part of the partition}@}. <!--SR:!2026-11-24,355,364!2026-09-14,294,347!2026-05-15,131,409-->
+This guarantees for {@{any [partition of a set](partition%20of%20a%20set.md) $X$}@} {@{the existence of a subset $C$ of $X$}@} containing {@{exactly one element from each part of the partition}@}. <!--SR:!2026-11-24,355,364!2026-09-14,294,347!2028-05-19,734,429-->
 
 Another equivalent axiom {@{only considers collections $X$}@} that are {@{essentially powersets of other sets}@}: <!--SR:!2026-09-27,305,347!2026-12-12,369,364-->
 
@@ -236,7 +236,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - \(annotation: {@{weaker than}@} AC\) {@{The [union](union%20(set%20theory).md)}@} of {@{any countable family of [countable sets](countable%20sets.md)}@} is {@{countable}@} \(this requires {@{[countable choice](axiom%20of%20countable%20choice.md) but not the full axiom of choice}@}\). <!--SR:!2027-01-13,395,364!2026-12-25,379,364!2026-10-10,315,347!2026-05-26,200,327!2026-06-15,135,415-->
 
-  - \(annotation: {@{weaker than}@} AC\) If {@{the set _A_ is [infinite](infinite%20set.md)}@}, then there exists {@{an [injection](injective%20function.md) from the [natural numbers](natural%20number.md) __N__ to _A_}@} \(see {@{[Dedekind infinite](Dedekind%20infinite.md)}@}\).<sup>[\[29\]](#^ref-29)</sup> <!--SR:!2026-10-08,314,347!2026-12-23,378,364!2026-11-15,347,364!2026-05-16,105,395-->
+  - \(annotation: {@{weaker than}@} AC\) If {@{the set _A_ is [infinite](infinite%20set.md)}@}, then there exists {@{an [injection](injective%20function.md) from the [natural numbers](natural%20number.md) __N__ to _A_}@} \(see {@{[Dedekind infinite](Dedekind%20infinite.md)}@}\).<sup>[\[29\]](#^ref-29)</sup> <!--SR:!2026-10-08,314,347!2026-12-23,378,364!2026-11-15,347,364!2027-12-03,566,415-->
 
   - \(annotation: {@{weaker than}@} AC\) {@{Eight definitions of a [finite set](finite%20set.md#other%20concepts%20of%20finiteness)}@} are {@{equivalent}@}.<sup>[\[30\]](#^ref-30)</sup> <!--SR:!2026-12-06,364,364!2026-12-28,381,364!2026-06-20,140,415-->
 
@@ -298,7 +298,7 @@ There are {@{several historically important set-theoretic statements}@} {@{impli
 
 - [Set theory](set%20theory.md)
 
-  - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) {@{Partition principle}@}: if there is {@{a [surjection](surjective%20function.md) from _A_ to _B_}@}, there is an {@{[injection](injective%20function.md) from _B_ to _A_}@}. Equivalently, {@{every [partition](partition%20of%20a%20set.md) _P_ of a set _S_}@} \(annotation: corresponds to {@{a surjection from _S_ to _P_}@}\) is {@{less than or equal to _S_ in size}@}. \(annotation: Implies {@{the converse Schröder–Bernstein theorem and the weak partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-11-12,344,364!2026-11-24,355,364!2026-09-06,288,347!2026-09-06,287,347!2028-07-14,807,347!2026-05-14,178,324!2027-12-21,670,411!2026-05-15,131,409!2026-06-17,137,415-->
+  - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) {@{Partition principle}@}: if there is {@{a [surjection](surjective%20function.md) from _A_ to _B_}@}, there is an {@{[injection](injective%20function.md) from _B_ to _A_}@}. Equivalently, {@{every [partition](partition%20of%20a%20set.md) _P_ of a set _S_}@} \(annotation: corresponds to {@{a surjection from _S_ to _P_}@}\) is {@{less than or equal to _S_ in size}@}. \(annotation: Implies {@{the converse Schröder–Bernstein theorem and the weak partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-11-12,344,364!2026-11-24,355,364!2026-09-06,288,347!2026-09-06,287,347!2028-07-14,807,347!2028-07-23,801,344!2027-12-21,670,411!2028-05-18,733,429!2026-06-17,137,415-->
 
   - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) {@{Converse [Schröder–Bernstein theorem](Schröder–Bernstein%20theorem.md)}@}: if {@{two sets have surjections to each other}@}, {@{they are equinumerous}@}. \(annotation: Implied by {@{the partition principle}@}. Implies {@{the weak partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-12-06,364,364!2027-12-24,650,344!2027-01-01,385,364!2026-10-20,323,347!2026-09-06,286,347!2027-11-06,633,411!2026-06-29,149,415-->
 

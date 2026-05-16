@@ -17,11 +17,11 @@ tags:
 >
 > {@{An M/M/1 queueing node}@} <!--SR:!2026-08-09,311,350!2026-06-02,252,330-->
 
-In {@{[queueing theory](queueing%20theory.md), a discipline within the mathematical [theory of probability](probability%20theory.md)}@}, {@{an __M/M/1 queue__}@} represents {@{the queue length in a system having a single server}@}, where {@{arrivals are determined by a [Poisson process](Poisson%20process.md) and job service times have an [exponential distribution](exponential%20distribution.md)}@}. The model name is written in {@{[Kendall's notation](Kendall's%20notation.md)}@}. The model is {@{the most elementary of queueing models<sup>[\[1\]](#^ref-1)</sup> and an attractive object of study}@} as {@{[closed-form expressions](closed-form%20expression.md) can be obtained for many metrics of interest in this model}@}. {@{An extension of this model with more than one server}@} is {@{the [M/M/c queue](M_M_c%20queue.md)}@}. <!--SR:!2026-08-08,310,350!2026-06-05,255,330!2026-05-30,249,330!2026-07-24,298,350!2026-08-05,307,350!2026-06-02,252,330!2026-05-30,249,330!2026-05-25,244,330!2026-05-13,235,330-->
+In {@{[queueing theory](queueing%20theory.md), a discipline within the mathematical [theory of probability](probability%20theory.md)}@}, {@{an __M/M/1 queue__}@} represents {@{the queue length in a system having a single server}@}, where {@{arrivals are determined by a [Poisson process](Poisson%20process.md) and job service times have an [exponential distribution](exponential%20distribution.md)}@}. The model name is written in {@{[Kendall's notation](Kendall's%20notation.md)}@}. The model is {@{the most elementary of queueing models<sup>[\[1\]](#^ref-1)</sup> and an attractive object of study}@} as {@{[closed-form expressions](closed-form%20expression.md) can be obtained for many metrics of interest in this model}@}. {@{An extension of this model with more than one server}@} is {@{the [M/M/c queue](M_M_c%20queue.md)}@}. <!--SR:!2026-08-08,310,350!2026-06-05,255,330!2026-05-30,249,330!2026-07-24,298,350!2026-08-05,307,350!2026-06-02,252,330!2026-05-30,249,330!2026-05-25,244,330!2029-04-22,1075,350-->
 
 ## model definition
 
-{@{An M/M/1 queue}@} is {@{a stochastic process}@} whose {@{[state space](state%20space.md) is the set {0,1,2,3,...}<!-- flashcard separator -->}@} where {@{the value corresponds to the number of customers in the system}@}, including {@{any currently in service}@}. <!--SR:!2026-07-24,298,350!2029-03-13,1040,350!2026-08-20,317,350!2026-05-09,231,330!2026-05-28,247,330-->
+{@{An M/M/1 queue}@} is {@{a stochastic process}@} whose {@{[state space](state%20space.md) is the set {0,1,2,3,...}<!-- flashcard separator -->}@} where {@{the value corresponds to the number of customers in the system}@}, including {@{any currently in service}@}. <!--SR:!2026-07-24,298,350!2029-03-13,1040,350!2026-08-20,317,350!2029-03-27,1051,350!2026-05-28,247,330-->
 
 - Arrivals ::@:: occur at rate λ according to a [Poisson process](Poisson%20process.md) and move the process from state _i_ to _i_ + 1. <!--SR:!2026-05-27,246,330!2026-05-27,246,330-->
 - Service times ::@:: have an [exponential distribution](exponential%20distribution.md) with rate parameter μ in the M/M/1 queue, where 1/μ is the mean service time. <!--SR:!2028-12-19,962,350!2029-02-25,1028,350-->
@@ -43,7 +43,7 @@ The model is considered {@{stable only if λ \< μ}@}. If, {@{on average, arriva
 
 ### average number of customers in the system
 
-We see that {@{the number of customers in the system}@} is {@{[geometrically distributed](geometric%20distribution.md) \(annotation: unshifted, i.e. includes $i = 0$\) with parameter 1 − _ρ_}@}. Thus {@{the average number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)}@} and {@{the variance of number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)<sup>2</sup>}@}. This result holds for {@{any work conserving service regime, such as processor sharing}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-05-31,251,330!2026-06-04,254,330!2026-05-15,238,330!2026-08-02,305,350!2028-05-19,786,330!2026-06-05,255,330!2026-05-28,248,330-->
+We see that {@{the number of customers in the system}@} is {@{[geometrically distributed](geometric%20distribution.md) \(annotation: unshifted, i.e. includes $i = 0$\) with parameter 1 − _ρ_}@}. Thus {@{the average number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)}@} and {@{the variance of number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)<sup>2</sup>}@}. This result holds for {@{any work conserving service regime, such as processor sharing}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-05-31,251,330!2026-06-04,254,330!2029-05-04,1085,350!2026-08-02,305,350!2028-05-19,786,330!2026-06-05,255,330!2026-05-28,248,330-->
 
 ### busy period of server
 
@@ -71,7 +71,7 @@ We can write {@{a [probability mass function](probability%20mass%20function.md) 
 
 ## diffusion approximation
 
-When {@{the utilization _ρ_ is close to 1}@} the process can be {@{approximated by a [reflected Brownian motion](reflected%20Brownian%20motion.md)}@} with {@{drift parameter _λ_ – _μ_ and variance parameter _λ_ + _μ_}@}. {@{This heavy traffic limit}@} was first {@{introduced by [John Kingman](John%20Kingman.md)}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-03-21,1048,350!2026-06-05,255,330!2026-05-14,236,330!2026-06-04,254,330!2026-05-25,246,330-->
+When {@{the utilization _ρ_ is close to 1}@} the process can be {@{approximated by a [reflected Brownian motion](reflected%20Brownian%20motion.md)}@} with {@{drift parameter _λ_ – _μ_ and variance parameter _λ_ + _μ_}@}. {@{This heavy traffic limit}@} was first {@{introduced by [John Kingman](John%20Kingman.md)}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-03-21,1048,350!2026-06-05,255,330!2029-04-23,1075,350!2026-06-04,254,330!2026-05-25,246,330-->
 
 ## references
 

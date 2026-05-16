@@ -25,7 +25,7 @@ For two-dimensional arrays, one can initialize the content by {@{separating elem
 
 ## bounds
 
-One can obtain the lower bound and upper bound, both inclusive, via {@{`LBound(array[, rank])` and `UBound(array[, rank])` respectively}@}. The `rank` means {@{the bound for which inner array to return. It is by default `1`, meaning it returns the bounds for the outermost array}@}. <!--SR:!2032-03-21,2238,330!2026-05-10,406,290-->
+One can obtain the lower bound and upper bound, both inclusive, via {@{`LBound(array[, rank])` and `UBound(array[, rank])` respectively}@}. The `rank` means {@{the bound for which inner array to return. It is by default `1`, meaning it returns the bounds for the outermost array}@}. <!--SR:!2032-03-21,2238,330!2030-11-02,1636,310-->
 
 ## interaction with range
 

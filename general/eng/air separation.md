@@ -13,7 +13,7 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-__Air separation__ {@{separates [atmospheric air](atmosphere%20of%20Earth.md) into its components}@}. It is carried out in {@{air separation plants}@}. <!--SR:!2026-05-12,806,290!2027-03-23,1132,350-->
+__Air separation__ {@{separates [atmospheric air](atmosphere%20of%20Earth.md) into its components}@}. It is carried out in {@{air separation plants}@}. <!--SR:!2035-04-04,3249,310!2027-03-23,1132,350-->
 
 The most common method is [cryogenic distillation](#cryogenic%20distillation).
 

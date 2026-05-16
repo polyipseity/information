@@ -116,7 +116,7 @@ float aFloat = 3.14; // compilation error
 double aDouble = 3.14; // okay
 ```
 
-In some circumstances, the value can be {@{implicitly converted to the type of the variable, since there is no loss of data}@}: <!--SR:!2026-05-08,617,330-->
+In some circumstances, the value can be {@{implicitly converted to the type of the variable, since there is no loss of data}@}: <!--SR:!2034-01-14,2805,350-->
 
 ```Java
 float aFloat = 3; // the `int` of value 3 is implicitly converted into a `float` of value 3

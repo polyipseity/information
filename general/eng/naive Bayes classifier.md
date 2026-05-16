@@ -27,7 +27,7 @@ In practice, there is only {@{interest in the numerator but not the denominator}
 
 The joint probability model can {@{be rewritten as follows, using the [chain rule](chain%20rule%20(probability).md) arising from repeated applications of the definition of [conditional probability](conditional%20probability.md)}@}: {@{$$\begin{aligned} p(C_k, x_1, \ldots, x_n) & = p(x_1, \ldots, x_n, C_k) \\ & = p(x_1 \mid x_2, \ldots, x_n, C_k) p(x_2, \ldots, x_n, C_k) \\ & = \cdots \\ & = p(x_1, \mid x_2, \ldots, x_n, C_k) p(x_2 \mid x_3, \ldots, x_n, C_k) \cdots p(x_n \mid C_k) p(C_k) \end{aligned}$$}@} <!--SR:!2026-10-27,649,330!2027-01-17,684,290-->
 
-After rewriting {@{the joint probability model}@}, {@{the "naive" assumptions}@} come into play: Assume that {@{all features of $\mathbf{x}$}@} are {@{[mutually independent](independence%20(probability%20theory).md), conditional on the class $C_k$}@}, written mathematically as: {@{$$p(x_i \mid x_{i + 1}, \ldots, x_n, C_k) = p(x_i \mid C_k) \,.$$}@} <!--SR:!2031-10-22,2002,330!2026-10-25,652,330!2026-05-08,4,333!2026-05-08,4,333!2026-05-08,4,333-->
+After rewriting {@{the joint probability model}@}, {@{the "naive" assumptions}@} come into play: Assume that {@{all features of $\mathbf{x}$}@} are {@{[mutually independent](independence%20(probability%20theory).md), conditional on the class $C_k$}@}, written mathematically as: {@{$$p(x_i \mid x_{i + 1}, \ldots, x_n, C_k) = p(x_i \mid C_k) \,.$$}@} <!--SR:!2031-10-22,2002,330!2026-10-25,652,330!2026-05-27,17,353!2026-05-28,18,353!2026-05-29,19,353-->
 
 With the assumption, the joint probability model can {@{be simplified}@}: {@{$$\begin{aligned} p(C_k \mid \mathbf{x}) & \propto p(C_k, x_1, \ldots, x_n) && (p(\mathbf{x}) = \text{const.}) \\ & = p(C_k) p(x_1 \mid C_k) p(x_2 \mid C_k) \cdots p(x_n \mid C_k) \\ & = p(C_k) \prod_{i = 1}^n p(x_i \mid C_k) \end{aligned}$$}@}. <!--SR:!2026-11-06,665,330!2027-09-16,848,290-->
 
@@ -35,7 +35,7 @@ To conclude, {@{with the above assumptions}@}, {@{the conditional probability of
 
 The {@{prior for a given class, i.e. $p(C_k)$}@}, can be obtained from {@{the training dataset (empirical distribution)}@}, or {@{assumed equiprobable, i.e. $p(C_k) = \frac 1 K$}@}. For empirical distribution: {@{$$p(C_k) = \frac {\text{number of samples of class }C_k} {\text{number of samples} }$$}@}. <!--SR:!2028-12-25,1283,350!2029-10-23,1423,310!2028-06-09,1130,350!2027-11-01,927,330-->
 
-The {@{conditional probabilities of a feature having a specific value given a class, i.e. $p(x_i = v \mid C_k)$}@} required for calculations above can also be obtained from {@{the training dataset}@}. For discrete values: {@{$$p(x_i = v \mid C_k) = \frac {\text{number of samples of class }C_k\text{ and feature }x_i = v} {\text{number of samples of class }C_k}$$}@}, and for continuous values, {@{[Gaussian naive Bayes](#Gaussian%20naive%20Bayes)}@} is usually used. <!--SR:!2026-05-11,519,310!2026-06-04,527,310!2027-05-22,726,290!2028-11-29,1265,350-->
+The {@{conditional probabilities of a feature having a specific value given a class, i.e. $p(x_i = v \mid C_k)$}@} required for calculations above can also be obtained from {@{the training dataset}@}. For discrete values: {@{$$p(x_i = v \mid C_k) = \frac {\text{number of samples of class }C_k\text{ and feature }x_i = v} {\text{number of samples of class }C_k}$$}@}, and for continuous values, {@{[Gaussian naive Bayes](#Gaussian%20naive%20Bayes)}@} is usually used. <!--SR:!2032-06-15,2227,330!2026-06-04,527,310!2027-05-22,726,290!2028-11-29,1265,350-->
 
 ## references
 

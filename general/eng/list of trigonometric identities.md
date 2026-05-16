@@ -82,7 +82,7 @@ return await memorize_map(
 
 - normal:@:$$\sin^2 \theta + \cos^2 \theta = 1$$ <!--SR:!2030-07-30,1910,380-->
 - divided by sine:@:$$1 + \cot^2 \theta = \csc^2 \theta$$ <!--SR:!2029-09-21,1660,380-->
-- divided by cosine:@:$$1 + \tan^2 \theta = \sec^2 \theta$$ <!--SR:!2026-05-11,653,340-->
+- divided by cosine:@:$$1 + \tan^2 \theta = \sec^2 \theta$$ <!--SR:!2034-09-22,3056,360-->
 - divided by sine and cosine:@:$$\sec^2 \theta + \csc^2 \theta = \sec^2 \theta \csc^2 \theta$$ <!--SR:!2030-04-01,1813,380-->
 
 <!--/pytextgen-->
@@ -128,7 +128,7 @@ return await memorize_map(
 >
 > - $\sin(1.73 \mp 2.45)$ ::@:: $\sin 1.73 \cos 2.45 \mp \sin 2.45 \cos 1.73$ <!--SR:!2027-11-26,1038,307!2026-10-10,724,327-->
 > - $\cos(-0.56 \pm 9.23)$ ::@:: $\cos(-0.56) \cos 9.23 \mp \sin(-0.56) \sin 9.23$ <!--SR:!2030-10-19,1739,287!2027-11-08,603,287-->
-> - $\tan(7.22 \mp 2.38)$ ::@:: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 2.38 \tan 7.22}$ <!--SR:!2026-05-11,474,247!2027-03-18,772,287-->
+> - $\tan(7.22 \mp 2.38)$ ::@:: $\frac{\tan 7.22 \mp \tan 2.38}{1 \pm \tan 2.38 \tan 7.22}$ <!--SR:!2030-11-04,1638,267!2027-03-18,772,287-->
 
 ## multiple-angle
 
@@ -335,7 +335,7 @@ return await memorize_map(
 >
 > - $-2.64 \cos 3x + 3.22 \sin 3x$ (arctangent variant) ::@:: $-\sqrt{2.64^2 + 3.22^2} \cos(3x + \arctan(3.22 / 2.64))$ <!--SR:!2026-11-29,708,289!2027-03-29,425,189-->
 > - $-9.29 \cos(-2x) - 9.11 \sin(-2x)$ ([atan2](atan2.md) variant) ::@:: $\sqrt{9.29^2 + 9.11^2} \cos(2x - \operatorname{atan2}(9.11, -9.29))$ <!--SR:!2027-12-31,866,269!2026-12-15,530,229-->
-> - $0 \cos 5x - 1.23 \sin 5x$ (arctangent variant, [atan2](atan2.md) variant) ::@:: $1.23 \cos(5x + \pi / 2)$ <!--SR:!2026-10-04,717,329!2026-05-11,396,309-->
+> - $0 \cos 5x - 1.23 \sin 5x$ (arctangent variant, [atan2](atan2.md) variant) ::@:: $1.23 \cos(5x + \pi / 2)$ <!--SR:!2026-10-04,717,329!2030-12-27,1691,329-->
 > - $0 \cos 4.2x + 0 \sin 4.2x$ ::@:: $0$ <!--SR:!2030-05-12,1660,379!2032-04-30,2278,399-->
 
 ## references

@@ -330,14 +330,14 @@ return chain.from_iterable([r.value for r in results])
 - copper(I) ion:@:_(n/a)_ <!--SR:!2027-06-23,1081,276-->
 - silver ion:@:colorless <!--SR:!2027-03-01,1295,279-->
 - mercury(I) ion:@:_(n/a)_ <!--SR:!2028-04-14,1415,296-->
-- ammonium ion:@:colorless <!--SR:!2026-05-12,1149,339-->
+- ammonium ion:@:colorless <!--SR:!2041-01-15,5362,359-->
 - magnesium ion:@:colorless <!--SR:!2029-10-22,1810,274-->
 - calcium ion:@:colorless <!--SR:!2029-05-08,1893,292-->
 - barium ion:@:colorless <!--SR:!2031-04-27,2407,294-->
 - lead(II) ion:@:colorless <!--SR:!2029-01-17,1506,253-->
 - iron(II) ion:@:<span style="color: green;">green</span> <!--SR:!2027-07-17,1228,254-->
 - nickel(II) ion:@:<span style="color: green;">green</span> <!--SR:!2027-08-19,876,207-->
-- copper(II) ion:@:<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2026-05-13,148,150-->
+- copper(II) ion:@:<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2026-12-19,220,150-->
 - zinc ion:@:colorless <!--SR:!2030-07-03,2322,334-->
 - manganese(II) ion:@:<span style="color: lightPink;">very pale pink</span> <!--SR:!2026-07-30,1000,250-->
 - mercury(II) ion:@:_(n/a)_ <!--SR:!2028-01-30,1312,276-->

@@ -85,9 +85,9 @@ Do
 Loop While condition
 ```
 
-The semantics of {@{`Do...Loop While`}@} is that {@{the statement block is executed}@} first. Then {@{the condition is executed}@}. If {@{the condition is `True`, we repeat the above process again}@}. If {@{the condition is `False`, the `Do...Loop While` statement ends its execution}@}. <!--SR:!2032-09-27,2348,330!2026-05-09,5,367!2026-05-09,5,367!2026-05-09,5,367!2026-05-09,5,367-->
+The semantics of {@{`Do...Loop While`}@} is that {@{the statement block is executed}@} first. Then {@{the condition is executed}@}. If {@{the condition is `True`, we repeat the above process again}@}. If {@{the condition is `False`, the `Do...Loop While` statement ends its execution}@}. <!--SR:!2032-09-27,2348,330!2026-06-04,24,387!2026-06-04,24,387!2026-06-06,26,387!2026-06-05,25,387-->
 
-As VBA is {@{intended to be English like}@}, it also provides the unconventional {@{`Do Until...Loop` and `Do...Loop Until` constructs}@}. The semantics is exactly the same except that {@{the loop stops if the condition is `True`}@}. <!--SR:!2027-03-15,793,321!2027-01-31,773,321!2026-05-09,5,367-->
+As VBA is {@{intended to be English like}@}, it also provides the unconventional {@{`Do Until...Loop` and `Do...Loop Until` constructs}@}. The semantics is exactly the same except that {@{the loop stops if the condition is `True`}@}. <!--SR:!2027-03-15,793,321!2027-01-31,773,321!2026-06-06,26,387-->
 
 ### `For`
 
@@ -99,7 +99,7 @@ For LoopVariable = start To end Step step ' `Step step` optional
 Next LoopVariable
 ```
 
-{@{The semantics of `For...To...Step...Next`}@} is {@{a bit complicated}@}. First, {@{the loop variable}@} is assigned {@{the starting point}@}. Then {@{the loop variable is checked}@}. If the loop variable is {@{in between start and end, both ends inclusive}@}, {@{the statement block is executed}@}. Otherwise, {@{the `For...To...Step...Next` statement finishes}@}. Each time {@{the statement block has finished execution}@}, the loop {@{variable is incremented by `step`}@}. Then we go {@{back to checking the loop variable and repeat}@}. <!--SR:!2031-07-03,1995,321!2027-10-28,1036,341!2026-05-18,89,369!2026-05-21,91,369!2026-05-17,88,369!2026-05-16,87,369!2026-05-20,90,369!2026-05-18,89,369!2026-05-21,91,369!2026-05-24,94,369!2026-05-22,92,369-->
+{@{The semantics of `For...To...Step...Next`}@} is {@{a bit complicated}@}. First, {@{the loop variable}@} is assigned {@{the starting point}@}. Then {@{the loop variable is checked}@}. If the loop variable is {@{in between start and end, both ends inclusive}@}, {@{the statement block is executed}@}. Otherwise, {@{the `For...To...Step...Next` statement finishes}@}. Each time {@{the statement block has finished execution}@}, the loop {@{variable is incremented by `step`}@}. Then we go {@{back to checking the loop variable and repeat}@}. <!--SR:!2031-07-03,1995,321!2027-10-28,1036,341!2026-05-18,89,369!2026-05-21,91,369!2026-05-17,88,369!2027-07-30,440,389!2026-05-20,90,369!2026-05-18,89,369!2026-05-21,91,369!2026-05-24,94,369!2026-05-22,92,369-->
 
 ### ending iteration early
 

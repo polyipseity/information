@@ -50,7 +50,7 @@ The content is in teaching order.
 - datetime: 2024-02-20T18:00:00+08:00/2024-02-20T20:30:00+08:00
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
-  - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::@:: "The purpose of a business is to create and keep a customer." <!--SR:!2026-09-02,634,335!2026-05-10,562,355-->
+  - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::@:: "The purpose of a business is to create and keep a customer." <!--SR:!2026-09-02,634,335!2033-11-10,2740,375-->
   - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::@:: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2026-07-15,597,335!2030-08-15,1719,335-->
   - [§ importance](../../../../general/customer%20development.md#importance)
   - [§ customer discovery](../../../../general/customer%20development.md#customer%20discovery)
@@ -171,7 +171,7 @@ The content is in teaching order.
   - time limit: 6 minutes
 - [consultant](../../../../general/consultant.md)
   - consultant job prospects
-    - consultant after 1 to 2 years ::@:: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2026-05-16,490,321!2027-10-12,939,361-->
+    - consultant after 1 to 2 years ::@:: Analyst, Associate, Specialist: doing the work; enter from BA, BS, MPhil, or MSc <!--SR:!2032-04-26,2172,341!2027-10-12,939,361-->
     - consultant after 2 to 4 years ::@:: As. Consultant, Consultant, Sr. Consultant: doing the work; enter from JD, MBA, MD, or PhD, exit to project member of big firms or manager in small firms, and further top MBA <!--SR:!2027-05-28,771,341!2031-11-14,2048,341-->
     - consultant after 4 to 6 years ::@:: Eng. Manager, Mg. Consultant, Project Leader: managing the work; exit to manager of big firms or director of small firms, and further top EMBA <!--SR:!2029-10-12,1370,301!2030-03-11,1654,381-->
     - consultant after 6 to 9 years ::@:: As. Partner, Principal: selling the work; exit to director of big firms or general manager (GM) of small firms, and further top EMBA <!--SR:!2029-03-03,1281,321!2032-02-14,2119,341-->

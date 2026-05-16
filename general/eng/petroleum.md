@@ -88,7 +88,7 @@ return chain.from_iterable([r.value for r in results])
 - [gasoline/petrol](gasoline.md)→::@::←[naphtha](naphtha.md) <!--SR:!2032-10-08,2458,294!2027-08-20,557,190-->
 - [naphtha](naphtha.md)→::@::←[jet fuel](jet%20fuel.md) <!--SR:!2027-08-02,460,190!2027-10-23,876,234-->
 - [jet fuel](jet%20fuel.md)→::@::←[kerosene](kerosene.md) <!--SR:!2028-05-10,1202,274!2027-04-11,728,194-->
-- [kerosene](kerosene.md)→::@::←[fuel oil](fuel%20oil.md) <!--SR:!2029-03-29,1169,234!2026-05-14,163,150-->
+- [kerosene](kerosene.md)→::@::←[fuel oil](fuel%20oil.md) <!--SR:!2029-03-29,1169,234!2027-05-14,365,170-->
 - [fuel oil](fuel%20oil.md)→::@::←[diesel fuel](diesel%20fuel.md) <!--SR:!2028-03-11,1228,294!2026-06-08,573,254-->
 - [diesel fuel](diesel%20fuel.md)→::@::←[paraffin wax](paraffin%20wax.md) <!--SR:!2026-09-03,959,334!2027-11-02,656,214-->
 - [paraffin wax](paraffin%20wax.md)→::@::←[bitumen](bitumen.md) <!--SR:!2027-03-30,656,294!2029-12-17,1686,314-->

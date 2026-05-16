@@ -77,7 +77,7 @@ The content is in teaching order.
 - topic: logistics; introduction; elements of programming; termination; evaluation strategy; scoping
 - COMP 3031
   - COMP 3031 / logistics
-  - COMP 3031 / objectives ::@:: Scala, functional programming, programming language constructs, programming language paradigms <!--SR:!2026-08-22,261,330!2026-05-10,175,310-->
+  - COMP 3031 / objectives ::@:: Scala, functional programming, programming language constructs, programming language paradigms <!--SR:!2026-08-22,261,330!2028-05-31,751,330-->
 - [programming paradigm](../../../../general/programming%20paradigm.md) ::@:: It is a relatively high-level way to conceptualize and structure the implementation of a computer program. <!--SR:!2026-09-19,285,330!2028-04-27,725,330-->
   - programming paradigm / common ::@:: concurrent, dependently-typed, functional, imperative, logic, object-oriented, parallel, etc. <!--SR:!2026-08-10,254,330!2026-09-30,294,330-->
 - [imperative programming](../../../../general/imperative%20programming.md) ::@:: It is a programming paradigm of software that uses statements that change a program's state. <!--SR:!2026-08-24,263,330!2026-08-20,260,330-->
@@ -100,7 +100,7 @@ The content is in teaching order.
   - Scala / Scala 3: [Scala 3](Scala%203.md)
 - [programming language](../../../../general/programming%20language.md) ::@:: It is an artificial language for expressing computer programs. <!--SR:!2026-08-05,250,330!2026-09-17,283,330-->
   - programming language / elements ::@:: primitive expressions, composition of expressions, abstraction of expressions \(giving names to expressions\) <!--SR:!2026-08-21,260,330!2026-09-01,271,330-->
-- [read–eval–print loop](../../../../general/read–eval–print%20loop.md) \(REPL\) ::@:: It is a simple interactive computer programming environment that takes single user inputs, executes them, and returns the result to the user; a program written in a REPL environment is executed piecewise. <!--SR:!2026-05-05,171,310!2026-09-06,275,330-->
+- [read–eval–print loop](../../../../general/read–eval–print%20loop.md) \(REPL\) ::@:: It is a simple interactive computer programming environment that takes single user inputs, executes them, and returns the result to the user; a program written in a REPL environment is executed piecewise. <!--SR:!2028-05-14,734,330!2026-09-06,275,330-->
 - Scala
   - Scala / Scala 3
     - [§ primitive types](Scala%203.md#primitive%20types): `Boolean`, `Int`, `Double`
@@ -144,13 +144,13 @@ The content is in teaching order.
 - [tail call](../../../../general/tail%20call.md) ::@:: It is a subroutine call performed as the final action of a procedure. <!--SR:!2027-05-26,480,387!2027-05-19,473,387-->
   - tail call / tail recursion ::@:: If the target of a tail is the same subroutine, the subroutine is said to be __tail recursive__, which is a special case of direct recursion. __Tail recursion__ \(or __tail-end recursion__\) is particularly useful, and is often easy to optimize in implementations. <!--SR:!2027-04-30,454,387!2027-05-18,472,387-->
     - tail call / tail recursion / substitution model ::@:: Assume _no side effects_. Under the substitution model, a tail-recursive function, when it calls itself, the expression _only contains_ a function call to itself. No matter how many times recursion occurs, the expression "_size_" will not explode. <!--SR:!2027-05-08,462,387!2026-11-28,328,367-->
-  - tail call / tail-call elimination ::@:: Tail calls can be implemented without adding a new stack frame to the call stack. Most of the frame of the current procedure is no longer needed, and can be replaced by the frame of the tail call, modified as appropriate \(similar to overlay for processes, but for function calls\). The program can then jump to the called subroutine. Producing such code instead of a standard call sequence is called __tail-call elimination__ or __tail-call optimization__. <!--SR:!2026-11-27,327,367!2026-05-16,174,347-->
+  - tail call / tail-call elimination ::@:: Tail calls can be implemented without adding a new stack frame to the call stack. Most of the frame of the current procedure is no longer needed, and can be replaced by the frame of the tail call, modified as appropriate \(similar to overlay for processes, but for function calls\). The program can then jump to the called subroutine. Producing such code instead of a standard call sequence is called __tail-call elimination__ or __tail-call optimization__. <!--SR:!2026-11-27,327,367!2028-08-23,830,367-->
     - tail call / tail-call elimination / Scala 3 ::@:: In a function, only tail calls to itself are _optimized_. To ensure this is the case \(or emit a compiler error otherwise\), use the _annotation_ `@scala.annotation.tailrec`. <!--SR:!2026-11-29,329,367!2027-05-22,476,387-->
 - Scala
   - Scala / Scala 3
     - [§ tail recursion](Scala%203.md#tail%20recursion): tail recursion
 - [higher-order function](../../../../general/higher-order%20function.md) \(HOL\) ::@:: It is a function that does at least one of the following: <p> - takes one or more functions as arguments \(i.e. a procedural parameter, which is a parameter of a procedure that is itself a procedure\), <br/> - returns a function as its result. <!--SR:!2027-05-11,465,387!2026-09-25,283,367-->
-  - higher-order function / functional language ::@:: Functional language treat functions as first-class citizens. They are treated as with other primitive types. It provides a flexible way to _compose_ programs. <!--SR:!2026-05-09,168,347!2027-05-06,460,387-->
+  - higher-order function / functional language ::@:: Functional language treat functions as first-class citizens. They are treated as with other primitive types. It provides a flexible way to _compose_ programs. <!--SR:!2028-07-21,802,367!2027-05-06,460,387-->
 - Scala
   - Scala / 3
     - [§ function types](Scala%203.md#function%20types): function types, no arguments

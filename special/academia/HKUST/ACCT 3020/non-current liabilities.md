@@ -77,7 +77,7 @@ Representative journal entry examples at issuance:
 > | {@{Cash}@}                                | {@{92 608}@} |              |
 > | {@{Bonds payable}@}                       |              | {@{92 608}@} |
 >
-> _Explanation._ Carrying amount equals {@{bond price; the discount (7 392) is not shown in a separate account under the net method but is embedded in Bonds payable}@}. At maturity, Bonds payable is {@{increased by amortization to face value}@}. <!--SR:!2026-05-20,18,319!2026-05-20,18,327!2026-05-16,14,290!2026-05-19,17,307!2026-05-20,18,336!2026-05-20,18,319!2026-05-20,18,336!2026-05-20,18,327-->
+> _Explanation._ Carrying amount equals {@{bond price; the discount (7 392) is not shown in a separate account under the net method but is embedded in Bonds payable}@}. At maturity, Bonds payable is {@{increased by amortization to face value}@}. <!--SR:!2026-05-20,18,319!2026-05-20,18,327!2026-07-12,57,310!2026-05-19,17,307!2026-05-20,18,336!2026-05-20,18,319!2026-05-20,18,336!2026-05-20,18,327-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ BlueHarbor Utilities plc issues {@{5-year bonds, face 100 000, coupon 8% semi-annual, market 6% semi-annual; bond price 108 530}@}. Record issuance.
@@ -112,7 +112,7 @@ Flashcards for this section are as follows:
 - bond price formula (concept) ::@:: PV of face value + PV of coupon payments; discount at market (effective) rate. <!--SR:!2026-05-20,18,319!2026-05-20,18,327-->
 - which rate to use for bond price discounting? ::@:: Market (effective) interest rate only; do not use coupon rate. <!--SR:!2026-05-20,18,327!2026-05-20,18,336-->
 - present value of one dollar (bond tables) ::@:: Used for a single future amount (e.g. face value at maturity); look up periods and rate. <!--SR:!2026-05-20,18,322!2026-05-20,18,319-->
-- present value of ordinary annuity (bond tables) ::@:: Used for equal payments at the end of each period (coupon payments); look up periods and rate. <!--SR:!2026-05-20,18,336!2026-05-13,11,316-->
+- present value of ordinary annuity (bond tables) ::@:: Used for equal payments at the end of each period (coupon payments); look up periods and rate. <!--SR:!2026-05-20,18,336!2026-07-01,49,336-->
 - semi-annual bond: periods and rate ::@:: Number of periods = years × 2; use half-year rate (annual market rate ÷ 2, annual coupon rate ÷ 2 for coupon payment). <!--SR:!2026-05-20,18,322!2026-05-20,18,327-->
 
 ## effective interest method (bonds)
@@ -358,7 +358,7 @@ Flashcards for this section are as follows:
 - notes payable vs bonds (accounting) ::@:: Both are measured at present value and use the effective interest method to recognize interest expense and amortize discount/premium. <!--SR:!2026-05-20,18,336!2026-05-17,15,290-->
 - notes payable vs bonds (practical difference) ::@:: Bonds are widely traded instruments with many investors; long-term notes payable are usually private, non-tradable agreements with a single lender. <!--SR:!2026-05-20,18,336!2026-05-17,15,290-->
 - interest-bearing note at discount: issuance entry (net)? ::@:: Dr _Cash_ (present value), Cr _Notes payable_ (present value). <!--SR:!2026-05-20,18,336!2026-05-20,18,327-->
-- interest-bearing note at discount: first-year interest entry? ::@:: Dr _Interest expense_ (carrying × market), Cr _Cash_ (face × stated), Cr _Notes payable_ (discount amortized). <!--SR:!2026-05-16,14,290!2026-05-18,16,290-->
+- interest-bearing note at discount: first-year interest entry? ::@:: Dr _Interest expense_ (carrying × market), Cr _Cash_ (face × stated), Cr _Notes payable_ (discount amortized). <!--SR:!2026-07-13,58,310!2026-05-18,16,290-->
 
 ## zero-interest-bearing notes and implicit interest rate
 
@@ -380,14 +380,14 @@ Representative journal entry example:
 > | {@{Interest expense}@}                  | {@{695}@} |           |
 > | {@{Notes payable}@}                     |           | {@{695}@} |
 >
-> _Explanation._ Over time, {@{Notes payable increases each year by the interest expense so that the carrying amount grows from 7 721 to 10 000 by maturity}@}; at maturity the entry is {@{Dr Notes payable 10 000, Cr Cash 10 000}@}. <!--SR:!2026-05-20,18,336!2026-05-20,18,319!2026-05-20,18,327!2026-05-19,17,307!2026-05-20,18,336!2026-05-19,17,307!2026-05-16,14,290!2026-05-20,18,336!2026-05-20,18,336!2026-05-19,17,307!2026-05-19,17,307!2026-05-20,18,336!2026-05-20,18,327!2026-05-20,18,327!2026-05-20,18,336!2026-05-19,17,307!2026-05-20,18,327!2026-05-19,17,307!2026-05-20,18,336-->
+> _Explanation._ Over time, {@{Notes payable increases each year by the interest expense so that the carrying amount grows from 7 721 to 10 000 by maturity}@}; at maturity the entry is {@{Dr Notes payable 10 000, Cr Cash 10 000}@}. <!--SR:!2026-05-20,18,336!2026-05-20,18,319!2026-05-20,18,327!2026-05-19,17,307!2026-05-20,18,336!2026-05-19,17,307!2026-07-10,55,310!2026-05-20,18,336!2026-05-20,18,336!2026-05-19,17,307!2026-05-19,17,307!2026-05-20,18,336!2026-05-20,18,327!2026-05-20,18,327!2026-05-20,18,336!2026-05-19,17,307!2026-05-20,18,327!2026-05-19,17,307!2026-05-20,18,336-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- zero-interest-bearing note ::@:: Note with no periodic interest payments; borrower receives less than face value and repays full face value at maturity; the difference is a discount. <!--SR:!2026-05-20,18,336!2026-05-16,14,290-->
-- implicit interest rate (note) ::@:: The discount rate that equates the maturity amount to the cash received (present value); used to compute interest expense on a zero-interest-bearing or implicit-interest note. <!--SR:!2026-05-20,18,327!2026-05-16,14,290-->
+- zero-interest-bearing note ::@:: Note with no periodic interest payments; borrower receives less than face value and repays full face value at maturity; the difference is a discount. <!--SR:!2026-05-20,18,336!2026-07-09,54,310-->
+- implicit interest rate (note) ::@:: The discount rate that equates the maturity amount to the cash received (present value); used to compute interest expense on a zero-interest-bearing or implicit-interest note. <!--SR:!2026-05-20,18,327!2026-07-11,56,310-->
 - interest on zero-interest-bearing note: how recognized? ::@:: As discount amortization using the implicit interest rate; no separate cash interest payments during the term. <!--SR:!2026-05-20,18,327!2026-05-20,18,336-->
 - zero-interest-bearing note: issuance entry? ::@:: Dr _Cash_ (present value received), Cr _Notes payable_ (present value); no separate discount account under net method. <!--SR:!2026-05-19,17,307!2026-05-20,18,327-->
 - zero-interest-bearing note: how is interest expense recorded? ::@:: Each period, Dr _Interest expense_, Cr _Notes payable_ using the implicit interest rate; carrying amount increases to face value. <!--SR:!2026-05-20,18,327!2026-05-20,18,319-->
@@ -419,10 +419,10 @@ Representative journal entry examples:
 
 Flashcards for this section are as follows:
 
-- note issued for a noncash asset/service: measurement sequence ::@:: Use fair value first when it is reliably observable for the asset/service received; if not observable, measure using the note's present value from discounted cash flows; record the asset/service and note payable at the same measured amount. <!--SR:!2026-05-09,5,353!2026-05-09,5,353-->
-- fair value hierarchy (full levels and definitions) ::@:: Level 1 = quoted prices in active markets for identical assets or liabilities. <br/> Level 2 = observable inputs other than Level 1 quotes (e.g. quoted prices for similar items, observable yield curves, market-corroborated data). <br/> Level 3 = unobservable inputs (entity-developed assumptions and model-based estimates) used when observable market inputs are unavailable. <!--SR:!2026-05-09,5,353!2026-05-09,5,353-->
-- noncash note transaction: journal-entry pattern (fair value known vs unknown) ::@:: If fair value is observable: Dr _Asset/Expense_ (fair value), Cr _Notes payable_ (same amount). <br/> If fair value is not observable: Dr _Asset/Expense_ (note present value), Cr _Notes payable_ (same present value). <!--SR:!2026-05-09,5,353!2026-05-09,5,353-->
-- noncash zero-interest note with face above initial carrying amount: what is the difference? ::@:: Face value minus initial carrying amount is a discount on the note that is amortized to interest expense using the effective-interest method over the term. <!--SR:!2026-05-09,5,353!2026-05-09,5,353-->
+- note issued for a noncash asset/service: measurement sequence ::@:: Use fair value first when it is reliably observable for the asset/service received; if not observable, measure using the note's present value from discounted cash flows; record the asset/service and note payable at the same measured amount. <!--SR:!2026-06-04,24,373!2026-06-05,25,373-->
+- fair value hierarchy (full levels and definitions) ::@:: Level 1 = quoted prices in active markets for identical assets or liabilities. <br/> Level 2 = observable inputs other than Level 1 quotes (e.g. quoted prices for similar items, observable yield curves, market-corroborated data). <br/> Level 3 = unobservable inputs (entity-developed assumptions and model-based estimates) used when observable market inputs are unavailable. <!--SR:!2026-06-05,25,373!2026-06-05,25,373-->
+- noncash note transaction: journal-entry pattern (fair value known vs unknown) ::@:: If fair value is observable: Dr _Asset/Expense_ (fair value), Cr _Notes payable_ (same amount). <br/> If fair value is not observable: Dr _Asset/Expense_ (note present value), Cr _Notes payable_ (same present value). <!--SR:!2026-06-03,23,373!2026-06-05,25,373-->
+- noncash zero-interest note with face above initial carrying amount: what is the difference? ::@:: Face value minus initial carrying amount is a discount on the note that is amortized to interest expense using the effective-interest method over the term. <!--SR:!2026-06-03,23,373!2026-06-05,25,373-->
 
 ## choosing a discount rate for notes payable
 
@@ -439,7 +439,7 @@ Flashcards for this section are as follows:
 
 ## extinguishment of debt (overview)
 
-Extinguishment of long-term debt occurs when the obligation is settled before or at maturity, either by paying cash (e.g. repurchasing bonds), by transferring other assets (e.g. giving land to the lender), or by issuing equity instruments (e.g. shares) in full settlement. At the extinguishment date, the entity compares the carrying amount of the liability to the consideration paid or assets/equity transferred: if consideration &lt; carrying amount, there is a gain; if consideration &gt; carrying amount, there is a loss. When a noncash asset is transferred, remeasure the asset to fair value first (recognising any gain or loss on the asset), then compare the liability's carrying amount to the fair value of the asset to determine the gain or loss on extinguishment. When shares are issued to settle debt, apply an IFRS-first approach (IFRIC 19): measure the consideration at the fair value of the equity instruments issued when that fair value is reliably measurable; if not, use the fair value of the liability extinguished. The gain or loss on extinguishment is based on {@{carrying amount of debt minus measured consideration}@}. Share capital is still credited at par, and {@{Share premium — ordinary is the balancing equity line (credit if fair value exceeds par; debit if fair value is below par)}@}. <!--SR:!2026-05-09,5,353!2026-05-09,5,353-->
+Extinguishment of long-term debt occurs when the obligation is settled before or at maturity, either by paying cash (e.g. repurchasing bonds), by transferring other assets (e.g. giving land to the lender), or by issuing equity instruments (e.g. shares) in full settlement. At the extinguishment date, the entity compares the carrying amount of the liability to the consideration paid or assets/equity transferred: if consideration &lt; carrying amount, there is a gain; if consideration &gt; carrying amount, there is a loss. When a noncash asset is transferred, remeasure the asset to fair value first (recognising any gain or loss on the asset), then compare the liability's carrying amount to the fair value of the asset to determine the gain or loss on extinguishment. When shares are issued to settle debt, apply an IFRS-first approach (IFRIC 19): measure the consideration at the fair value of the equity instruments issued when that fair value is reliably measurable; if not, use the fair value of the liability extinguished. The gain or loss on extinguishment is based on {@{carrying amount of debt minus measured consideration}@}. Share capital is still credited at par, and {@{Share premium — ordinary is the balancing equity line (credit if fair value exceeds par; debit if fair value is below par)}@}. <!--SR:!2026-06-05,25,373!2026-06-05,25,373-->
 
 > _Scenario._ Granite Works plc has bonds payable with carrying amount {@{95 000}@}. The issuer repurchases the debt for {@{cash 101 000}@} before maturity. Record the extinguishment.
 >
@@ -484,7 +484,7 @@ Extinguishment of long-term debt occurs when the obligation is settled before or
 > | {@{Share capital — ordinary (2 000 000 × 5)}@}                           |                  | {@{10 000 000}@} |
 > | {@{Gain on extinguishment of debt}@}                                     |                  | {@{12 000 000}@} |
 >
-> _Explanation._ Consideration is measured at {@{fair value of shares issued = 8 000 000}@}. Extinguishment gain is {@{20 000 000 − 8 000 000 = 12 000 000}@}. Equity recognised is still {@{8 000 000 net}@} via {@{Share capital 10 000 000 minus Share premium debit 2 000 000}@}. Sign rule: {@{carrying amount &gt; fair value of shares → gain; carrying amount &lt; fair value of shares → loss}@}. <!--SR:!2026-05-09,5,353!2026-05-09,5,353!2026-05-09,5,353!2026-05-09,5,353!2026-05-09,5,353!2026-05-09,5,353!2026-05-09,5,353!2026-05-09,5,353!2026-05-23,15,353!2026-05-09,5,353!2026-05-09,5,353!2026-05-09,5,353!2026-05-09,5,353!2026-05-09,5,353-->
+> _Explanation._ Consideration is measured at {@{fair value of shares issued = 8 000 000}@}. Extinguishment gain is {@{20 000 000 − 8 000 000 = 12 000 000}@}. Equity recognised is still {@{8 000 000 net}@} via {@{Share capital 10 000 000 minus Share premium debit 2 000 000}@}. Sign rule: {@{carrying amount &gt; fair value of shares → gain; carrying amount &lt; fair value of shares → loss}@}. <!--SR:!2026-06-05,25,373!2026-06-05,25,373!2026-06-05,25,373!2026-06-05,25,373!2026-06-04,24,373!2026-06-04,24,373!2026-06-05,25,373!2026-06-05,25,373!2026-05-23,15,353!2026-06-04,24,373!2026-06-03,23,373!2026-06-05,25,373!2026-06-05,25,373!2026-06-03,23,373-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Orion Marine plc has a building with carrying amount {@{21 000 000}@} and fair value {@{16 000 000}@}. A note payable has carrying amount {@{20 000 000}@}. The lender agrees to accept the building in full settlement of the note.
@@ -510,7 +510,7 @@ Flashcards for this section are as follows:
 - gain vs loss on extinguishment of debt ::@:: Compare carrying amount of the liability with consideration given; consideration &lt; carrying → gain, consideration &gt; carrying → loss. <!--SR:!2026-05-19,17,307!2026-05-19,17,307-->
 - extinguishment using a noncash asset: two-step view ::@:: First remeasure the asset to fair value (gain or loss on asset), then compare liability carrying amount to asset fair value to find gain or loss on extinguishment. <!--SR:!2026-05-20,18,327!2026-05-19,17,307-->
 - early extinguishment of debt with cash: how to find gain or loss? ::@:: Compare cash paid with carrying amount; cash > carrying → loss, cash < carrying → gain. <!--SR:!2026-05-20,18,322!2026-05-20,18,336-->
-- debt-for-equity swap (IFRS/IFRIC 19): how to measure consideration? ::@:: Measure at fair value of shares issued when reliably measurable; if not, use fair value of the liability extinguished. <!--SR:!2026-05-09,5,353!2026-05-09,5,353-->
+- debt-for-equity swap (IFRS/IFRIC 19): how to measure consideration? ::@:: Measure at fair value of shares issued when reliably measurable; if not, use fair value of the liability extinguished. <!--SR:!2026-06-03,23,373!2026-06-04,24,373-->
 - debt settled by issuing shares (including below-par fair value): journal-entry structure ::@:: Dr _Notes/Bonds payable_ (carrying amount), Dr/Cr _Gain or Loss on extinguishment_ for carrying amount versus fair value of shares issued, Cr _Share capital_ at par, and balancing _Share premium — ordinary_ (credit if fair value &gt; par; debit if fair value &lt; par). <!--SR:!2026-05-20,18,327!2026-05-20,18,327-->
 - debt-for-equity gain/loss sign rule ::@:: Carrying amount of debt &gt; fair value of shares issued → gain; carrying amount of debt &lt; fair value of shares issued → loss, regardless of whether share fair value is above or below par. <!--SR:!2026-05-20,18,327!2026-05-20,18,327-->
 - extinguishment by transferring property: why two gains/losses? ::@:: One from remeasuring the asset to fair value; another from comparing liability carrying amount to asset fair value when settling the debt. <!--SR:!2026-05-20,18,322!2026-05-18,16,290-->
@@ -539,7 +539,7 @@ Representative journal entry example:
 > | {@{Gain on extinguishment of debt}@}                  |                  | {@{3 298 664}@} |
 > | {@{Notes payable (new)}@}                             |                  | {@{7 201 336}@} |
 >
-> _Explanation._ The gain on extinguishment equals {@{old carrying amount 10 500 000 − fair value of new note 7 201 336 = 3 298 664}@}. After this entry, the new note {@{with initial carrying amount 7 201 336 is amortized using the new effective interest rate (15%), with interest expense recognised at 15%}@} and the difference between {@{interest expense and cash interest treated as discount amortization each period}@}. <!--SR:!2026-05-19,17,307!2026-05-20,18,322!2026-05-17,15,290!2026-05-16,14,290!2026-05-20,18,327!2026-05-17,15,290!2026-05-20,18,322!2026-05-20,18,336!2026-05-20,18,322!2026-05-20,18,327!2026-05-20,18,327!2026-05-19,17,307-->
+> _Explanation._ The gain on extinguishment equals {@{old carrying amount 10 500 000 − fair value of new note 7 201 336 = 3 298 664}@}. After this entry, the new note {@{with initial carrying amount 7 201 336 is amortized using the new effective interest rate (15%), with interest expense recognised at 15%}@} and the difference between {@{interest expense and cash interest treated as discount amortization each period}@}. <!--SR:!2026-05-19,17,307!2026-05-20,18,322!2026-05-17,15,290!2026-06-25,40,290!2026-05-20,18,327!2026-05-17,15,290!2026-05-20,18,322!2026-05-20,18,336!2026-05-20,18,322!2026-05-20,18,327!2026-05-20,18,327!2026-05-19,17,307-->
 
 ---
 

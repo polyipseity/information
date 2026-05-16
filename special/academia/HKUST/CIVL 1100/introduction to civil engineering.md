@@ -63,7 +63,7 @@ The content is in teaching order.
   - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2029-11-20,1639,370!2030-11-12,1925,397-->
     - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2029-05-31,1398,325!2028-08-04,1252,387-->
-  - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2026-05-15,509,320!2027-02-24,759,350-->
+  - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2032-07-08,2246,340!2027-02-24,759,350-->
     - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
   - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
     - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2027-01-02,758,360!2030-04-08,1730,397-->
@@ -1053,7 +1053,7 @@ Hong Kong Code
 
 - _(begin)_→::@::←American Code <!--SR:!2031-03-05,1992,400!2031-08-12,2169,414-->
 - American Code→::@::←Australian Standard <!--SR:!2027-07-26,941,375!2033-02-22,2627,415-->
-- Australian Standard→::@::←Chinese Code <!--SR:!2026-05-09,520,327!2028-04-01,1140,377-->
+- Australian Standard→::@::←Chinese Code <!--SR:!2032-10-11,2346,347!2028-04-01,1140,377-->
 - Chinese Code→::@::←Eurocode <!--SR:!2031-05-09,1969,355!2028-08-16,1235,377-->
 - Eurocode→::@::←Hong Kong Code <!--SR:!2028-11-05,1334,396!2026-07-19,600,357-->
 - Hong Kong Code→::@::←_(end)_ <!--SR:!2031-09-02,2176,407!2027-08-29,919,350-->

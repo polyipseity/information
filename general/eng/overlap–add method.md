@@ -62,7 +62,7 @@ end
 >     {@{y(position+(1:N))}@} = {@{y(position+(1:N)) + IDFT(DFT(x(position+(1:step_size)), N) × H)}@}
 >     position = {@{position + step_size}@}
 > <b>end</b>
-> </pre> <!--SR:!2026-08-29,334,348!2026-07-30,309,338!2026-09-01,337,348!2026-05-09,226,328!2026-08-25,331,348!2026-09-05,340,348!2026-07-24,306,348!2028-12-24,969,348!2026-08-30,335,348!2026-06-06,249,328!2026-09-07,342,348!2026-09-01,337,348!2026-05-08,225,328!2026-06-12,270,338-->
+> </pre> <!--SR:!2026-08-29,334,348!2026-07-30,309,338!2026-09-01,337,348!2029-02-21,1017,348!2026-08-25,331,348!2026-09-05,340,348!2026-07-24,306,348!2028-12-24,969,348!2026-08-30,335,348!2026-06-06,249,328!2026-09-07,342,348!2026-09-01,337,348!2029-02-18,1014,348!2026-06-12,270,338-->
 
 ## efficiency considerations
 
@@ -70,7 +70,7 @@ end
 >
 > Fig 2: A graph of {@{the values of N \(an integer power of 2\)}@} that {@{minimize the cost function ${\tfrac {N\left(\log _{2}N+1\right)}{N-M+1} }$}@} <!--SR:!2026-08-10,317,348!2026-08-26,332,348!2026-06-04,265,338-->
 
-When {@{the DFT and IDFT are implemented by the FFT algorithm}@}, the pseudocode above requires {@{about __N \(log<sub>2</sub>\(N\) + 1\)__ complex multiplications}@} for {@{the FFT, product of arrays, and IFFT}@}.<sup>[\[B\]](#^ref-B)</sup> Each iteration {@{produces __N-M+1__ output samples}@}, so {@{the number of complex multiplications per output sample}@} is about: {@{$${\frac {N(\log _{2}(N)+1)}{N-M+1} }.\,$$}@} __<a id="math Eq.3">Eq.3</a>__ <p> <!--SR:!2026-08-30,335,348!2026-09-03,338,348!2026-08-08,315,348!2026-09-06,341,348!2026-05-12,245,330!2026-09-07,342,348-->
+When {@{the DFT and IDFT are implemented by the FFT algorithm}@}, the pseudocode above requires {@{about __N \(log<sub>2</sub>\(N\) + 1\)__ complex multiplications}@} for {@{the FFT, product of arrays, and IFFT}@}.<sup>[\[B\]](#^ref-B)</sup> Each iteration {@{produces __N-M+1__ output samples}@}, so {@{the number of complex multiplications per output sample}@} is about: {@{$${\frac {N(\log _{2}(N)+1)}{N-M+1} }.\,$$}@} __<a id="math Eq.3">Eq.3</a>__ <p> <!--SR:!2026-08-30,335,348!2026-09-03,338,348!2026-08-08,315,348!2026-09-06,341,348!2029-06-01,1116,350!2026-09-07,342,348-->
 
 For example, when {@{$M=201$ and $N=1024$}@}, __[Eq.3](#math%20Eq.3)__ {@{equals $13.67$}@}, whereas {@{direct evaluation of __[Eq.1](#math%20Eq.1)__ \(annotation: applying the convolution definition directly\)}@} would {@{require up to $201$ complex multiplications per output sample}@}, the worst case being when {@{both $x$ and $h$ are complex-valued}@}. Also note that for {@{any given $M$}@}, __[Eq.3](#math%20Eq.3)__ has {@{a minimum with respect to $N$}@}. Figure 2 is a graph of {@{the values of $N$ that minimize __[Eq.3](#math%20Eq.3)__ for a range of filter lengths \($M$\)}@}. <!--SR:!2026-08-26,332,348!2026-07-20,303,348!2029-01-22,995,348!2026-08-25,331,348!2026-08-26,332,348!2026-08-07,314,348!2026-09-10,344,348!2026-08-08,317,348-->
 

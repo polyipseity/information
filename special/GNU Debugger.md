@@ -15,7 +15,7 @@ tags:
 
 ## commands
 
-Command names can be {@{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}@}. For example, `disassemble` can be {@{abbreviated to `disass` or even the more ugly `disassem`}@}. <!--SR:!2026-05-16,424,325!2031-12-25,2115,385-->
+Command names can be {@{truncated at the end to produce an abbreviation if the abbreviation is unambiguous, i.e. there is only exactly one command name starting with the abbreviation}@}. For example, `disassemble` can be {@{abbreviated to `disass` or even the more ugly `disassem`}@}. <!--SR:!2031-07-30,1901,345!2031-12-25,2115,385-->
 
 ### common commands
 
@@ -39,7 +39,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2028-11-15,1196,350!2027-05-10,707,290-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2028-06-24,997,330!2026-10-03,555,310-->
 - `step` ::@:: go to the next (source) line stepping into functions <!--SR:!2027-04-25,717,330!2026-06-16,487,310-->
-- `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-01-30,931,330!2026-05-14,413,290-->
+- `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-01-30,931,330!2030-12-02,1663,310-->
 
 ### reverse debugging
 

@@ -207,7 +207,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←`not` <!--SR:!2026-06-14,505,389!2026-06-17,508,389-->
-- `not`→::@::←`and` <!--SR:!2026-06-15,506,389!2026-05-16,480,389-->
+- `not`→::@::←`and` <!--SR:!2026-06-15,506,389!2033-05-16,2557,409-->
 - `and`→::@::←`or` <!--SR:!2028-03-19,1002,369!2026-06-16,507,389-->
 - `or`→::@::←_(end)_ <!--SR:!2026-05-19,483,389!2028-09-14,1159,389-->
 
@@ -292,4 +292,4 @@ We can convert a value (`value`) into other data types using {@{`float(value)`, 
 
 ## input
 
-We can {@{request user input using `input(prompt)`}@}, where `prompt` is {@{an (optional) value (not necessarily a `str`) to be printed}@} \(like {@{`print(...)`}@}, but {@{without automatically printing a newline and only accepts a single argument}@}\) before {@{asking for input}@}. Note that {@{some Juypter notebooks}@} {@{automatically adds a space after printing the string}@}, while {@{other environments do not}@}. {@{The user input ends}@} when user enters {@{a newline to confirm the input, i.e. presses enter}@}. Then, it will {@{return a string, keeping any leading or trailing spaces}@}, but not {@{the newline the user typed at the end to confirm the input}@}. <!--SR:!2026-05-28,478,340!2029-09-11,1451,380!2029-11-03,1487,380!2029-01-25,1181,360!2026-05-11,161,446!2026-05-16,165,446!2026-05-10,160,446!2026-05-17,166,446!2026-05-09,159,446!2026-05-10,160,446!2026-05-16,165,446!2026-05-12,162,446-->
+We can {@{request user input using `input(prompt)`}@}, where `prompt` is {@{an (optional) value (not necessarily a `str`) to be printed}@} \(like {@{`print(...)`}@}, but {@{without automatically printing a newline and only accepts a single argument}@}\) before {@{asking for input}@}. Note that {@{some Juypter notebooks}@} {@{automatically adds a space after printing the string}@}, while {@{other environments do not}@}. {@{The user input ends}@} when user enters {@{a newline to confirm the input, i.e. presses enter}@}. Then, it will {@{return a string, keeping any leading or trailing spaces}@}, but not {@{the newline the user typed at the end to confirm the input}@}. <!--SR:!2026-05-28,478,340!2029-09-11,1451,380!2029-11-03,1487,380!2029-01-25,1181,360!2029-01-12,977,466!2029-02-07,998,466!2028-12-29,963,466!2026-05-17,166,446!2028-12-22,956,466!2028-12-28,962,466!2029-02-06,997,466!2029-01-17,981,466-->

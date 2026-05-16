@@ -26,7 +26,7 @@ However, we can go further than this. The program `<output>` is {@{actually a fo
 
 Instead, we are more interested in {@{the compilation process itself}@}. We like to think of {@{compilation as a single process}@}, but it is {@{really composed of several steps}@}: {@{preprocessing \(`-E`\), then compilation \(`-S`\)}@}, then {@{assembly \(`-c`\), and finally linking \(none\)}@}. <!--SR:!2031-03-28,1902,385!2028-11-23,1121,343!2028-07-22,820,438!2028-08-08,828,438!2028-07-28,826,438-->
 
-Preprocessing transforms {@{source program (text) into modified source program (still text)}@}. GCC internally uses {@{the program `cpp`, which we can use by itself}@}, for this step. To only run this step with GCC, the command is {@{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}@}. <!--SR:!2031-02-26,1872,385!2028-11-26,1212,365!2026-05-09,415,303-->
+Preprocessing transforms {@{source program (text) into modified source program (still text)}@}. GCC internally uses {@{the program `cpp`, which we can use by itself}@}, for this step. To only run this step with GCC, the command is {@{`gcc -E <input>.c > <output>.i`, which writes to `<output>.i`}@}. <!--SR:!2031-02-26,1872,385!2028-11-26,1212,365!2031-02-20,1746,323-->
 
 Compilation transforms {@{modified source program (text) into assembly program (still text)}@}. GCC internally uses {@{the program `cc1`, part of the GCC}@}, for this step. To only run this step, the command is {@{`gcc -S <input>.i`, which outputs a `.s` file}@}. <!--SR:!2029-05-13,1357,377!2029-03-12,1296,363!2029-06-26,1302,323-->
 

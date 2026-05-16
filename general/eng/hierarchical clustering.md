@@ -23,7 +23,7 @@ The merges and splits are {@{usually [greedy](greedy%20algorithm.md)}@}. The res
 
 To determine the distance between two observations, {@{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}@} is needed. To decide how to merge or split clusters, {@{a measure of _dissimilarity_ between clusters}@} is required. The metric is {@{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}@}. <!--SR:!2028-12-28,1343,355!2026-09-12,675,335!2029-03-19,1326,315-->
 
-Both the choice of the metric and the linkage criterion {@{affects the clustering results significantly}@}. The metric affects {@{which observations are similar}@} more, while the linkage affects {@{the cluster shapes}@} more. <!--SR:!2026-05-16,564,315!2032-04-18,2239,335!2029-06-21,1481,355-->
+Both the choice of the metric and the linkage criterion {@{affects the clustering results significantly}@}. The metric affects {@{which observations are similar}@} more, while the linkage affects {@{the cluster shapes}@} more. <!--SR:!2033-02-05,2457,335!2032-04-18,2239,335!2029-06-21,1481,355-->
 
 Some commonly used linkage criterion given two clusters _A_ and _B_ and a _[distance](distance.md)_ function $d$ are:
 
@@ -122,7 +122,7 @@ return chain.from_iterable([r.value for r in results])
 - median linkage clustering:@:$d(A \cup B, *) = d\left( \frac {m_A + m_B} 2, m_* \right)$, where $m_*$ is the [medoid](medoid.md) of the cluster $*$ <!--SR:!2028-04-28,1051,295-->
 - [single-linkage clustering](single-linkage%20clustering.md):@:$d(A, B) = \min_{a \in A, b \in B} d(a, b)$ <!--SR:!2027-05-18,814,335-->
 - unweighted average linkage clustering:@:$d(A, B) = \frac 1 {\lvert A \rvert \cdot \lvert B \rvert} \sum_{a \in A} \sum_{b \in B} d(a, b)$ <!--SR:!2030-11-03,1734,295-->
-- weighted average linkage clustering:@:$d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ <!--SR:!2026-05-13,575,315-->
+- weighted average linkage clustering:@:$d(A \cup B, *) = \frac {d(A, *) + d(B, *)} 2$ <!--SR:!2033-03-24,2506,335-->
 
 <!--/pytextgen-->
 

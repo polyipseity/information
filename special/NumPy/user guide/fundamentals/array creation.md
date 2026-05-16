@@ -279,7 +279,7 @@ This is {@{the most common case of large array creation}@}. The details {@{depen
 
 ### standard binary formats
 
-{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} \(there may be {@{others for which it is possible to read and convert to NumPy arrays}@} so check {@{the last section}@} as well\) <!--SR:!2029-02-11,1215,350!2030-09-12,1693,370!2029-06-12,1310,350!2029-07-16,1338,350!2026-05-08,142,410-->
+{@{Various fields}@} have {@{standard formats for array data}@}. The following lists {@{the ones with known Python libraries to read them and return NumPy arrays}@} \(there may be {@{others for which it is possible to read and convert to NumPy arrays}@} so check {@{the last section}@} as well\) <!--SR:!2029-02-11,1215,350!2030-09-12,1693,370!2029-06-12,1310,350!2029-07-16,1338,350!2028-07-13,794,430-->
 
 - HDF5 ::@:: h5py <!--SR:!2030-07-02,1631,370!2029-06-19,1317,350-->
 - FITS ::@:: Astropy <!--SR:!2027-12-08,851,330!2030-04-19,1557,370-->

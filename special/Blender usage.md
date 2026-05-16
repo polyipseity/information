@@ -22,7 +22,7 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - redo::@::⇧Shift+Ctrl+Z <!--SR:!2033-08-31,3008,350!2026-07-06,665,236-->
 - quit::@::Ctrl+Q <!--SR:!2028-12-14,1506,310!2028-02-25,1436,336-->
 - help::@::F1 <!--SR:!2028-12-22,1513,310!2028-05-26,1213,290-->
-- rename active::@::F2 <!--SR:!2026-05-10,876,296!2027-09-27,769,196-->
+- rename active::@::F2 <!--SR:!2036-03-18,3600,316!2027-09-27,769,196-->
 - menu search::@::F3 <!--SR:!2030-01-18,1804,316!2031-09-22,2062,276-->
 - file context menu::@::F4 <!--SR:!2027-09-12,645,190!2026-08-27,855,276-->
 - show render window::@::F11 <!--SR:!2034-04-23,3154,335!2033-03-30,2607,296-->
@@ -56,5 +56,5 @@ See also [Blender manual](https://docs.blender.org/manual/en/dev/interface/keyma
 - toggle vertex/edge/face mode::@::1/2/3 <!--SR:!2034-10-07,3346,356!2027-10-09,1153,296-->
 - toggle vertex/edge/face mode + multiple modes::@::+⇧Shift <!--SR:!2027-05-26,420,270!2033-10-25,3007,336-->
 - toggle vertex/edge/face mode + expand/contract selection::@::+Ctrl <!--SR:!2030-06-08,1832,296!2029-09-16,1423,256-->
-- toggle gizmos::@::Ctrl+\` <!--SR:!2026-05-09,300,170!2026-08-05,404,196-->
+- toggle gizmos::@::Ctrl+\` <!--SR:!2028-05-27,748,190!2026-08-05,404,196-->
 - start walk/fly navigation::@::⇧Shift+\` <!--SR:!2027-12-15,899,250!2027-12-10,626,190-->

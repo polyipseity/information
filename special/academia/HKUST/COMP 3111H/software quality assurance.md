@@ -101,7 +101,7 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 {@{Halstead’s software science}@} assigns {@{numeric values to operators and operands}@}: let {@{$n_1$ be unique operators, $n_2$ be unique operands}@}, {@{$N_1$ be total operators, and $N_2$ be total operands}@}. {@{The component length}@} is {@{$L=N_1+N_2$}@}. {@{Volume, difficulty, and their product, effort}@}, is {@{calculated from these}@}. <!--SR:!2027-02-10,310,356!2027-02-01,300,334!2027-02-28,326,356!2027-04-16,349,356!2027-02-13,313,356!2027-04-09,342,356!2027-04-05,338,356!2027-04-29,362,356-->
 
 - _Volume_: ::@:: $\displaystyle V=L\,\log_{2}(n_1+n_2)$ (bits). <!--SR:!2026-09-19,185,314!2027-03-29,331,356-->
-- _Difficulty_: ::@:: $\displaystyle D=\frac{n_1}{2}\,\frac{N_2}{n_2}$. <!--SR:!2027-04-15,348,356!2026-05-12,34,316-->
+- _Difficulty_: ::@:: $\displaystyle D=\frac{n_1}{2}\,\frac{N_2}{n_2}$. <!--SR:!2027-04-15,348,356!2026-10-10,151,336-->
 - _Effort_: ::@:: $\displaystyle E=V\times D$. <!--SR:!2027-04-27,360,356!2027-04-12,345,356-->
 
 {@{McCabe’s cyclomatic complexity}@} counts the {@{number of linearly independent paths through a control‑flow graph}@}; {@{higher values}@} correlate with {@{more defects and greater testing effort}@}. <!--SR:!2026-11-28,255,334!2027-04-05,338,356!2026-12-11,261,334!2027-04-15,348,356-->
