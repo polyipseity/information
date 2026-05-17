@@ -240,7 +240,7 @@ To define a string in Python, {@{enclose the string in either double quotes `"ex
 
 To {@{find the length of a string}@}, use {@{`len(str)`, which returns an `int` representing the number of characters in `str`}@}. To {@{concatenate/join two strings}@}, use {@{the `+` operator}@}. If {@{the `+` operator is applied between a `str` and another (incompatible) type}@}, then {@{a `TypeError` will be raised}@}. <!--SR:!2033-06-11,2566,409!2030-04-06,1613,389!fsrs,2032-11-13T00:00:00.000Z,2338,2337.91372861,1,2,10,0,0,2026-06-20T00:00:00.000Z!fsrs,2032-10-24T02:34:58.926Z,2322,2322.00772364,1,2,10,0,0,2026-06-16T02:34:58.926Z!2026-08-11,554,406!2033-10-12,2689,426-->
 
-Like lists, strings can be {@{indexed using the `string_var[n]`, which access the _n_+1-th character of the string \(i.e. `string_var[0]` is the 1st character\)}@}. If {@{the index is out of range}@}, then {@{an `IndexError` will be raised}@}. But unlike lists, strings {@{cannot be modified using the indexing notation, because strings in Python are immutable (not modifiable)}@}. <!--SR:!2026-07-28,496,397!2027-02-06,687,417!2027-01-20,672,417!2027-01-14,667,417-->
+Like lists, strings can be {@{indexed using the `string_var[n]`, which access the _n_+1-th character of the string \(i.e. `string_var[0]` is the 1st character\)}@}. If {@{the index is out of range}@}, then {@{an `IndexError` will be raised}@}. But unlike lists, strings {@{cannot be modified using the indexing notation, because strings in Python are immutable (not modifiable)}@}. <!--SR:!fsrs,2032-10-23T00:00:00.000Z,2278,2278.18510575,1,2,10,0,0,2026-07-29T00:00:00.000Z!2027-02-06,687,417!2027-01-20,672,417!2027-01-14,667,417-->
 
 ## output
 

@@ -200,7 +200,7 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - divide double ::@:: `div.d $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2027-11-03,706,424!2027-10-22,700,424-->
 - divide single ::@:: `div.s $fd, $fs, $ft`: `$fd = $fs / $ft;` <!--SR:!2027-10-10,689,424!2027-11-02,709,424-->
 - load double coprocessor 1 ::@:: `ldc1 $ft, offset($s)`: `$ft = *((*float64_t) (&MEM[$s + offset]));` <!--SR:!2027-09-27,678,424!2027-10-31,707,424-->
-- load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));` <!--SR:!2027-10-30,707,424!2026-07-28,303,384-->
+- load word coprocessor 1 ::@:: `lwc1 $ft, offset($s)`: `$ft = *((*float32_t) (&MEM[$s + offset]));` <!--SR:!2027-10-30,707,424!fsrs,2030-08-23T00:00:00.000Z,1486,1485.95975269,1,2,9,0,0,2026-07-29T00:00:00.000Z-->
 - multiply double ::@:: `mul.d $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2027-10-26,703,424!2027-11-15,717,424-->
 - multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2027-11-01,708,424!2027-11-16,717,424-->
 - negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2027-11-11,717,424!2027-12-04,733,424-->

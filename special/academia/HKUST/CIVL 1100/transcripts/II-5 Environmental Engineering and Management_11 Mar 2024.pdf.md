@@ -450,7 +450,7 @@ Concentration Units for Gases
 
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
-- relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::@:: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2027-12-03,970,330!2026-07-28,609,330-->
+- relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::@:: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2027-12-03,970,330!fsrs,2033-02-28T00:00:00.000Z,2406,2405.97286236,1,2,10,0,0,2026-07-29T00:00:00.000Z-->
     - ideal gas law equation ::@:: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!fsrs,2032-04-26T00:00:00.000Z,2117,2117.35503106,1,2,10,0,0,2026-07-10T00:00:00.000Z!2028-10-24,1242,350-->
 
 ## page 38

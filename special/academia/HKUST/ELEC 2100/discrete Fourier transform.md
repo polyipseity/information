@@ -45,7 +45,7 @@ This note is the finite-grid computational member of the Fourier family. For the
 
 Flashcards for this section are as follows:
 
-- How should this note be positioned among the main Fourier notes in ELEC 2100? ::@:: This note is the finite-grid computational transform for discrete data. The DTFT keeps a continuous digital-frequency variable for general sequences, while Fourier series and Fourier transform are the continuous-time periodic and aperiodic counterparts. <!--SR:!2026-08-13,76,329!2026-07-28,60,321-->
+- How should this note be positioned among the main Fourier notes in ELEC 2100? ::@:: This note is the finite-grid computational transform for discrete data. The DTFT keeps a continuous digital-frequency variable for general sequences, while Fourier series and Fourier transform are the continuous-time periodic and aperiodic counterparts. <!--SR:!2026-08-13,76,329!fsrs,2027-06-07T00:00:00.000Z,313,312.79509453,1,2,7,0,0,2026-07-29T00:00:00.000Z-->
 
 ## definition and inverse transform
 

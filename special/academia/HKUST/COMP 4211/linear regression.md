@@ -49,9 +49,9 @@ When no closed-form solution is available, one usually switches from exact algeb
 
 Flashcards for this section are as follows:
 
-- supervised regression data ::@:: In linear regression the training data are pairs $(x_i,y_i)$ with augmented feature vectors $x_i \in \mathbb{R}^{D+1}$ and real-valued targets $y_i \in \mathbb{R}$. <!--SR:!2026-07-28,73,324!2026-08-05,85,353-->
+- supervised regression data ::@:: In linear regression the training data are pairs $(x_i,y_i)$ with augmented feature vectors $x_i \in \mathbb{R}^{D+1}$ and real-valued targets $y_i \in \mathbb{R}$. <!--SR:!fsrs,2027-08-07T00:00:00.000Z,374,374.15574843,1,2,7,0,0,2026-07-29T00:00:00.000Z!2026-08-05,85,353-->
 - prediction rule $\hat y_i = w^\top x_i$ ::@:: For each example $x_i$, linear regression predicts the response by the affine score $\hat y_i = w^\top x_i$. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!2026-08-14,93,363-->
-- mean squared error $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$ ::@:: The standard linear-regression objective is $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$. <!--SR:!2026-08-07,82,341!2026-07-28,73,324-->
+- mean squared error $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$ ::@:: The standard linear-regression objective is $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$. <!--SR:!2026-08-07,82,341!fsrs,2027-08-07T00:00:00.000Z,374,374.15574843,1,2,7,0,0,2026-07-29T00:00:00.000Z-->
 - why squared error is used ::@:: Squaring residuals prevents sign cancellation and penalizes large mistakes more strongly than small ones. <!--SR:!2026-08-26,88,363!2026-08-06,86,353-->
 - ordinary least squares ::@:: Ordinary least squares chooses the parameter vector $w$ that minimizes the average squared residual over the training set. <!--SR:!fsrs,2027-08-02T00:00:00.000Z,370,369.75349055,1,2,7,0,0,2026-07-28T00:00:00.000Z!2026-08-02,78,341-->
 - why OLS is the default linear-regression method ::@:: OLS is the most common linear-regression method because it is analytically simple, computationally convenient, and coincides with Gaussian maximum likelihood. <!--SR:!2026-08-11,86,353!fsrs,2027-07-12T00:00:00.000Z,356,356.49943311,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
@@ -225,7 +225,7 @@ Flashcards for this section are as follows:
 - bias as a zeroth-order term ::@:: In polynomial regression the bias is the zeroth-order monomial, corresponding to exponent vector $(0,\ldots,0)$ and feature value $1$. <!--SR:!fsrs,2027-07-29T00:00:00.000Z,370,369.75349055,1,2,7,0,0,2026-07-24T00:00:00.000Z!2026-08-04,79,341-->
 - degree-2 feature map example ::@:: For $x = [1,x_1,x_2]^\top$, a degree-2 polynomial map can be $\phi(x) = [1,x_1,x_2,x_1^2,x_1x_2,x_2^2]^\top$. <!--SR:!2026-08-11,86,353!fsrs,2027-08-02T00:00:00.000Z,370,369.75349055,1,2,7,0,0,2026-07-28T00:00:00.000Z-->
 - interaction term ::@:: A feature such as $x_1x_2$ is an interaction term because it allows the model to depend on how two coordinates vary together. <!--SR:!2026-08-13,92,362!fsrs,2027-07-27T00:00:00.000Z,365,365.34342854,1,2,7,0,0,2026-07-27T00:00:00.000Z-->
-- why feature engineering matters ::@:: Feature engineering changes what functions the model can represent even when the optimization method remains the same. <!--SR:!2026-07-28,73,324!2026-08-06,86,353-->
+- why feature engineering matters ::@:: Feature engineering changes what functions the model can represent even when the optimization method remains the same. <!--SR:!fsrs,2027-08-07T00:00:00.000Z,374,374.15574843,1,2,7,0,0,2026-07-29T00:00:00.000Z!2026-08-06,86,353-->
 - neural-network analogy for polynomial regression ::@:: Polynomial regression uses a hand-designed feature transform followed by a linear model, while a neural network can be viewed as learning the feature transform and then applying a final linear layer on top. <!--SR:!2026-08-02,82,341!fsrs,2027-06-06T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
 - linear in parameters ::@:: A polynomial regressor is still a linear model because it is linear in the coefficients multiplying the transformed features. <!--SR:!2026-08-11,86,353!2026-08-05,85,353-->
 
@@ -277,7 +277,7 @@ These examples show why capacity is really about _available shapes_. A constant-
 
 Flashcards for this section are as follows:
 
-- constant-function hypothesis space example ::@:: If the hypothesis space contains only constant functions, the learner can choose only predictors of the form $\hat y = c$. <!--SR:!2026-08-11,86,353!2026-07-28,73,324-->
+- constant-function hypothesis space example ::@:: If the hypothesis space contains only constant functions, the learner can choose only predictors of the form $\hat y = c$. <!--SR:!2026-08-11,86,353!fsrs,2027-08-07T00:00:00.000Z,374,374.15574843,1,2,7,0,0,2026-07-29T00:00:00.000Z-->
 - affine one-feature hypothesis space example ::@:: If the hypothesis space is all affine functions of one variable, the learner can choose any line $\hat y = w_0 + w_1x$. <!--SR:!2026-08-05,80,341!2026-08-06,81,341-->
 - quadratic hypothesis space example ::@:: If the hypothesis space is all degree-$2$ polynomials in one variable, the learner can choose any parabola $\hat y = w_0 + w_1x + w_2x^2$. <!--SR:!2026-08-03,83,341!2026-08-11,86,353-->
 - intuitive meaning of larger hypothesis space ::@:: A larger hypothesis space means the learner has more possible shapes available for fitting the data. <!--SR:!2026-08-03,83,341!2026-08-11,86,353-->
@@ -444,7 +444,7 @@ Flashcards for this section are as follows:
 - what $\lVert w\rVert_1$ means ::@:: The $L_1$ penalty is $\lVert w\rVert_1 = \sum_j |w_j|$, the sum of absolute coefficient magnitudes. <!--SR:!2026-08-11,86,353!2026-08-11,86,353-->
 - why the l1 penalty feels different from l2 squared ::@:: The $L_1$ penalty grows linearly with coefficient size, which makes exact zeros more competitive than under a smooth squared penalty. <!--SR:!2026-08-11,86,353!fsrs,2027-07-22T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-26T00:00:00.000Z-->
 - LASSO gradient away from zero ::@:: For $w_j\neq 0$, the derivative of $\lambda|w_j|$ is $\lambda\operatorname{sign}(w_j)$, so LASSO applies a constant-magnitude pull toward zero on each nonzero coordinate. <!--SR:!2026-08-11,86,353!2026-08-02,82,341-->
-- LASSO subgradient at zero ::@:: At $w_j=0$, $|w_j|$ is not differentiable, so LASSO uses a subgradient and any value in $[-\lambda,\lambda]$ is allowed for that coordinate. <!--SR:!2026-07-28,77,341!2026-08-02,82,353-->
+- LASSO subgradient at zero ::@:: At $w_j=0$, $|w_j|$ is not differentiable, so LASSO uses a subgradient and any value in $[-\lambda,\lambda]$ is allowed for that coordinate. <!--SR:!fsrs,2027-09-18T00:00:00.000Z,416,415.93271051,1,2,7,0,0,2026-07-29T00:00:00.000Z!2026-08-02,82,353-->
 - LASSO optimality condition ::@:: LASSO satisfies $0\in\nabla_w J(w,w_0)+\lambda\,\partial\|w\|_1$, which explains how a coefficient can remain exactly zero. <!--SR:!2026-08-02,78,341!2026-08-11,86,353-->
 - coordinatewise LASSO optimality rule ::@:: For each coefficient, LASSO optimality says: if $w_j>0$, then $\frac{\partial J}{\partial w_j}=-\lambda$; if $w_j<0$, then $\frac{\partial J}{\partial w_j}=+\lambda$; if $w_j=0$, then $\frac{\partial J}{\partial w_j}\in[-\lambda,+\lambda]$. <!--SR:!2026-08-02,77,341!fsrs,2027-07-27T00:00:00.000Z,365,365.34342854,1,2,7,0,0,2026-07-27T00:00:00.000Z-->
 - why LASSO creates exact zeros ::@:: A coefficient can stay exactly zero whenever the data-fit derivative lies inside the interval $[-\lambda,+\lambda]$, so LASSO has a whole threshold zone that favors sparsity. <!--SR:!2026-08-02,82,341!2026-08-03,83,341-->
