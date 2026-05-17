@@ -507,7 +507,7 @@ Flashcards for this section are as follows:
 - meaning of $R^2 = 1$ ::@:: $R^2 = 1$ means the model predicts the targets perfectly, so the residual sum of squares is zero.
 - meaning of $R^2 = 0$ ::@:: $R^2 = 0$ means the model performs no better than the baseline predictor that always outputs the mean target value.
 - why $R^2$ can be negative ::@:: $R^2$ can be negative when the model performs worse than the mean-prediction baseline and therefore has an even larger residual sum of squares.
-- OLS orthogonality interpretation of residuals ::@:: At the least-squares solution the residual vector $e=y-\hat y$ satisfies $X^\top e=0$, so it is orthogonal to every regressor included in the design matrix.
+- OLS orthogonality interpretation of residuals ::@:: At the least-squares solution the residual vector $e=y-\hat y$ satisfies $X^\top e=0$, so it is orthogonal to every regressor included in the design matrix. <p> In particular, if an intercept is included, which corresponds to a column of all ones, this implies that the residuals sum to zero.
 
 ### mse and rmse interpretation
 
