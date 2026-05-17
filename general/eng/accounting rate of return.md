@@ -46,7 +46,7 @@ tags:
 
 where:
 
-- \(annotation: average investment\) ::@:: $${\text{Average investment} }={\frac {\text{Book value at beginning of year 1 + Book value at end of useful life} }{\text{2} } }$$ <!--SR:!2026-07-19,270,330!fsrs,2029-08-22T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-07-07T00:00:00.000Z-->
+- \(annotation: average investment\) ::@:: $${\text{Average investment} }={\frac {\text{Book value at beginning of year 1 + Book value at end of useful life} }{\text{2} } }$$ <!--SR:!fsrs,2029-10-16T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-07-20T00:00:00.000Z!fsrs,2029-08-22T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-07-07T00:00:00.000Z-->
 - \(annotation: average return during period\) ::@:: $${\text{Average return during period} }={ {\text{Incremental revenue} }-{\text{ Incremental expenses (including depreciation)} } \over {\text{Number of Years} } }$$ <!--SR:!2026-07-24,273,330!2026-07-30,278,330-->
 - \(annotation: average profit; this seems to be unused by the above formulas\) ::@:: $${\text{Average profit} }={ {\text{Profit after tax} } \over {\text{Life of investment} } }$$ <!--SR:!2026-07-24,274,330!2026-07-25,274,330-->
 

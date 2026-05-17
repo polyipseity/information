@@ -340,7 +340,7 @@ async with create_task_group() as tg:
 - _(begin)_→::@::←`AVERAGE(numbers...)` <!--SR:!2031-05-27,1957,310!2027-11-05,1067,350-->
 - `AVERAGE(numbers...)`→::@::←`COUNTIF(values, criteria)` <!--SR:!2027-03-19,750,290!2027-05-21,751,290-->
 - `COUNTIF(values, criteria)`→::@::←`IF(boolean, value_if_true[, value_if_false = FALSE])` <!--SR:!fsrs,2032-09-01T00:00:00.000Z,2244,2244.17705852,1,2,10,0,0,2026-07-11T00:00:00.000Z!2027-09-26,931,310-->
-- `IF(boolean, value_if_true[, value_if_false = FALSE])`→::@::←`MAX(numbers...)` <!--SR:!2026-07-19,579,250!2026-07-24,575,270-->
+- `IF(boolean, value_if_true[, value_if_false = FALSE])`→::@::←`MAX(numbers...)` <!--SR:!fsrs,2031-03-10T00:00:00.000Z,1694,1693.87942829,3.98153807,2,10,0,0,2026-07-20T00:00:00.000Z!2026-07-24,575,270-->
 - `MAX(numbers...)`→::@::←`MIN(numbers...)` <!--SR:!2028-03-02,1160,350!2027-11-18,1078,350-->
 - `MIN(numbers...)`→::@::←`RANK(number, numbers...)` <!--SR:!2029-01-11,1075,230!2028-04-21,1095,290-->
 - `RANK(number, numbers...)`→::@::←`STDEV(numbers...)` <!--SR:!2027-12-23,972,270!2029-05-02,1349,290-->

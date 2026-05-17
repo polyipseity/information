@@ -148,7 +148,7 @@ Putting the pieces together gives $\nabla L(w)=\frac{1}{N}(2X^\top Xw - 2X^\top 
 
 Flashcards for this section are as follows:
 
-- matrix expansion of least squares ::@:: The matrix least-squares objective expands as $L(w)=\frac{1}{N}\bigl(y^\top y - 2y^\top Xw + w^\top X^\top Xw\bigr)$. <!--SR:!2026-08-07,82,341!2026-07-19,68,324-->
+- matrix expansion of least squares ::@:: The matrix least-squares objective expands as $L(w)=\frac{1}{N}\bigl(y^\top y - 2y^\top Xw + w^\top X^\top Xw\bigr)$. <!--SR:!2026-08-07,82,341!fsrs,2027-07-07T00:00:00.000Z,352,352.06522277,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
 - coordinatewise reason that $\nabla_w(w^\top A w)=(A+A^\top)w$ ::@:: Since $w^\top A w = \sum_{j,k} a_{jk}w_jw_k$, differentiating with respect to $w_m$ collects the terms where $j=m$ and where $k=m$, giving $(Aw)_m+(A^\top w)_m$. <!--SR:!2026-08-06,81,341!2026-08-30,92,363-->
 - why the derivative of $w^\top X^\top Xw$ is $2X^\top Xw$ ::@:: Let $A=X^\top X$. Because $A$ is symmetric, $(A+A^\top)w = 2Aw$, so $\nabla_w(w^\top X^\top Xw)=2X^\top Xw$. <!--SR:!2026-08-05,80,341!2026-08-14,93,363-->
 - two-variable memory aid for differentiating a quadratic form ::@:: If $A=\begin{bmatrix}a&b\\ b&c\end{bmatrix}$, then $w^\top A w = aw_1^2 + 2bw_1w_2 + cw_2^2$, so differentiating gives $[2aw_1+2bw_2,\ 2bw_1+2cw_2]^\top = 2Aw$. <!--SR:!2026-08-03,83,341!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
@@ -226,7 +226,7 @@ Flashcards for this section are as follows:
 - degree-2 feature map example ::@:: For $x = [1,x_1,x_2]^\top$, a degree-2 polynomial map can be $\phi(x) = [1,x_1,x_2,x_1^2,x_1x_2,x_2^2]^\top$. <!--SR:!2026-08-11,86,353!2026-07-27,72,324-->
 - interaction term ::@:: A feature such as $x_1x_2$ is an interaction term because it allows the model to depend on how two coordinates vary together. <!--SR:!2026-08-13,92,362!2026-07-26,71,324-->
 - why feature engineering matters ::@:: Feature engineering changes what functions the model can represent even when the optimization method remains the same. <!--SR:!2026-07-28,73,324!2026-08-06,86,353-->
-- neural-network analogy for polynomial regression ::@:: Polynomial regression uses a hand-designed feature transform followed by a linear model, while a neural network can be viewed as learning the feature transform and then applying a final linear layer on top. <!--SR:!2026-08-02,82,341!2026-07-19,65,310-->
+- neural-network analogy for polynomial regression ::@:: Polynomial regression uses a hand-designed feature transform followed by a linear model, while a neural network can be viewed as learning the feature transform and then applying a final linear layer on top. <!--SR:!2026-08-02,82,341!fsrs,2027-06-06T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
 - linear in parameters ::@:: A polynomial regressor is still a linear model because it is linear in the coefficients multiplying the transformed features. <!--SR:!2026-08-11,86,353!2026-08-05,85,353-->
 
 ### worked polynomial-feature constructions

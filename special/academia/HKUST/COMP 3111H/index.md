@@ -99,7 +99,7 @@ The content is in teaching order.
 - topic: logistics; introduction
 - COMP 3111H
   - COMP 3111H / logistics
-  - COMP 3111H / textbook ::@:: _Object-Oriented Software Engineering: Using UML, Patterns, and Java, 3/E_, B. Bruegge and A.H. Dutoit, Pearson Education, Inc., 2010. <!--SR:!2026-07-26,237,330!2026-07-19,231,330-->
+  - COMP 3111H / textbook ::@:: _Object-Oriented Software Engineering: Using UML, Patterns, and Java, 3/E_, B. Bruegge and A.H. Dutoit, Pearson Education, Inc., 2010. <!--SR:!2026-07-26,237,330!fsrs,2029-05-19T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
   - COMP 3111H / tools ::@:: Git, GitHub, Java, <https://app.diagrams.net/>; lab notes, web resources <!--SR:!2026-09-04,269,330!2026-08-09,249,330-->
   - COMP 3111H / grading
   - COMP 3111H / objectives ::@:: _disciplined_ approach to software development, theoretical and practical aspects of software engineering <!--SR:!fsrs,2029-05-14T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-07-19T00:00:00.000Z!2026-09-08,272,330-->

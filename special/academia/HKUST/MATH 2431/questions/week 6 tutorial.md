@@ -46,7 +46,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > Show that Dynkin's pi-lambda theorem is equivalent to the statement that if $\mathcal{E}$ is a pi-system then $\sigma(\mathcal{E})=\delta(\mathcal{E})$.
 >
-> Solution: Apply Dynkin's theorem to a pi-system $\mathcal E$ and its Dynkin closure $\delta(\mathcal E)$. This gives {@{the inclusion $\sigma(\mathcal E)\subseteq\delta(\mathcal E)$}@}, while the reverse inclusion is automatic because {@{every sigma-algebra is a Dynkin system}@}. Hence {@{we obtain the equality $\sigma(\mathcal E)=\delta(\mathcal E)$}@}. Conversely, if this equality holds for every pi-system, then {@{any Dynkin system containing $\mathcal E$ must also contain $\delta(\mathcal E)=\sigma(\mathcal E)$, which is exactly Dynkin's pi-lambda theorem}@}. <!--SR:!2026-07-19,64,321!2026-07-25,69,327!2026-08-15,75,327!2026-08-15,75,327-->
+> Solution: Apply Dynkin's theorem to a pi-system $\mathcal E$ and its Dynkin closure $\delta(\mathcal E)$. This gives {@{the inclusion $\sigma(\mathcal E)\subseteq\delta(\mathcal E)$}@}, while the reverse inclusion is automatic because {@{every sigma-algebra is a Dynkin system}@}. Hence {@{we obtain the equality $\sigma(\mathcal E)=\delta(\mathcal E)$}@}. Conversely, if this equality holds for every pi-system, then {@{any Dynkin system containing $\mathcal E$ must also contain $\delta(\mathcal E)=\sigma(\mathcal E)$, which is exactly Dynkin's pi-lambda theorem}@}. <!--SR:!fsrs,2027-06-16T00:00:00.000Z,331,330.56968839,1,2,7,0,0,2026-07-20T00:00:00.000Z!2026-07-25,69,327!2026-08-15,75,327!2026-08-15,75,327-->
 
 <!-- markdownlint MD028 -->
 

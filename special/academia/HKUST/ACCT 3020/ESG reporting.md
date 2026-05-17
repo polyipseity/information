@@ -103,7 +103,7 @@ In Hong Kong, listed companies must follow the stock exchange's ESG reporting re
 Flashcards for this section are as follows:
 
 - Hong Kong ESG reporting framework: big-picture structure ::@:: Listed companies follow a stock-exchange ESG framework built around mandatory disclosures plus comply-or-explain disclosures. <!--SR:!fsrs,2027-06-25T00:00:00.000Z,344,343.6736239,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-07-24,73,328-->
-- Hong Kong ESG reporting framework: why does the split matter? ::@:: It tells users which disclosures every issuer must provide and where an issuer has flexibility only if it explains the gap clearly. <!--SR:!2026-07-19,69,328!2026-07-21,71,328-->
+- Hong Kong ESG reporting framework: why does the split matter? ::@:: It tells users which disclosures every issuer must provide and where an issuer has flexibility only if it explains the gap clearly. <!--SR:!fsrs,2027-07-17T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-20T00:00:00.000Z!2026-07-21,71,328-->
 
 ### mandatory versus comply-or-explain
 
@@ -204,7 +204,7 @@ The exam logic is not to memorise every possible metric word for word, but to un
 Flashcards for this section are as follows:
 
 - social ESG aspects in Hong Kong: what are the main B-series groups? ::@:: B1 employment, B2 health and safety, B3 development and training, B4 labour standards, B5 supply chain management, B6 product responsibility, B7 anti-corruption, and B8 community investment. <!--SR:!2026-07-26,75,328!2026-07-25,74,328-->
-- social KPI examples: what do B2, B3, and B7 typically quantify? ::@:: B2 tracks safety outcomes such as injuries or fatalities, B3 tracks training such as hours per employee, and B7 tracks concluded corruption cases. <!--SR:!2026-07-19,69,328!fsrs,2027-07-06T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
+- social KPI examples: what do B2, B3, and B7 typically quantify? ::@:: B2 tracks safety outcomes such as injuries or fatalities, B3 tracks training such as hours per employee, and B7 tracks concluded corruption cases. <!--SR:!fsrs,2027-07-17T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - ESG KPI framework: why are aspect groups useful? ::@:: They force disclosure to move from vague claims to topic-specific, measurable evidence. <!--SR:!2026-07-24,73,328!2026-07-24,73,328-->
 - B7 anti-corruption: example of a quantitative disclosure ::@:: The number of concluded legal cases regarding corrupt practices brought against the issuer or its employees. <!--SR:!2026-07-20,70,328!2026-07-21,70,328-->
 
@@ -231,7 +231,7 @@ The important exam point is that materiality is __entity-specific__. Data privac
 Flashcards for this section are as follows:
 
 - materiality matrix: what two viewpoints are combined? ::@:: The issue's impact on the business and its importance to stakeholders. <!--SR:!2026-07-24,73,328!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
-- materiality matrix: which issues receive top disclosure priority? ::@:: Issues that rank high on both business impact and stakeholder concern. <!--SR:!fsrs,2027-07-11T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-19T00:00:00.000Z!2026-07-19,69,328-->
+- materiality matrix: which issues receive top disclosure priority? ::@:: Issues that rank high on both business impact and stakeholder concern. <!--SR:!fsrs,2027-07-11T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-07-17T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
 - why is materiality entity-specific? ::@:: Because the same ESG topic can matter very differently across industries, business models, and stakeholder groups. <!--SR:!2026-07-22,71,328!2026-07-21,70,328-->
 - logistics-company materiality example: which issues are likely to be high-high? ::@:: Fuel efficiency, greenhouse gas emissions, driver safety, and anti-corruption in procurement. <!--SR:!fsrs,2027-07-11T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 

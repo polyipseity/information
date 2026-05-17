@@ -183,7 +183,7 @@ The content is in recommended learning order.
 ## module 10
 
 - signal processing
-  - signal processing / other topics ::@:: multi-resolution, partial tracking, residual analysis, sinusoid detection and estimation, synthesis, transient modeling <!--SR:!2026-07-20,299,332!2026-07-19,298,332-->
+  - signal processing / other topics ::@:: multi-resolution, partial tracking, residual analysis, sinusoid detection and estimation, synthesis, transient modeling <!--SR:!2026-07-20,299,332!fsrs,2030-02-07T00:00:00.000Z,1298,1298.45780529,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
   - signal processing / multi-resolution ::@:: Instead of using a fixed window size for all frequencies, use smaller window sizes for higher frequencies. <!--SR:!2026-07-21,300,332!2028-10-18,868,332-->
   - signal processing / partial tracking ::@:: Track movement of partials. <!--SR:!2029-07-03,1131,352!2026-07-20,299,332-->
   - signal processing / residual analysis ::@:: Model residual using more advanced methods. <!--SR:!fsrs,2030-01-29T00:00:00.000Z,1291,1290.87492949,1,2,9,0,0,2026-07-18T00:00:00.000Z!fsrs,2029-11-14T00:00:00.000Z,1234,1233.79953842,1,2,9,0,0,2026-06-29T00:00:00.000Z-->
@@ -193,12 +193,12 @@ The content is in recommended learning order.
   - signal processing / topics beyond ::@:: data processing, other signal types apart from sounds, semantic technologies, user-centered studies <!--SR:!fsrs,2029-08-22T09:43:19.576Z,1171,1171.09503227,1,2,9,0,0,2026-06-08T09:43:19.576Z!fsrs,2029-10-03T00:00:00.000Z,1203,1203.2075684,1,2,9,0,0,2026-06-18T00:00:00.000Z-->
 - review
 - [Music Technology Group](../../general/Music%20Technology%20Group.md) \(MTG\) ::@:: It is a research group of the Department of Information and Communication Technologies of the Universitat Pompeu Fabra, Barcelona. It was founded in 1994 by Xavier Serra, and it specializes in sound and music computing research. <!--SR:!fsrs,2029-08-24T09:43:20.437Z,1173,1172.50534866,1,2,9,0,0,2026-06-08T09:43:20.437Z!2029-07-29,1157,352-->
-  - Music Technology Group / research ::@:: audio signal processing \(e.g. Vocaloid\), musical and advanced interaction \(e.g. Reactable\), semantic technologies, sound and music description <!--SR:!2028-04-27,777,332!2026-07-19,298,332-->
+  - Music Technology Group / research ::@:: audio signal processing \(e.g. Vocaloid\), musical and advanced interaction \(e.g. Reactable\), semantic technologies, sound and music description <!--SR:!2028-04-27,777,332!fsrs,2030-02-07T00:00:00.000Z,1298,1298.45780529,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
 - [Reactable](../../general/Reactable.md) ::@:: It is an electronic musical instrument with a tabletop tangible user interface that was developed within the Music Technology Group at the Universitat Pompeu Fabra in Barcelona, Spain. <!--SR:!2029-05-22,1107,352!2029-05-23,1108,352-->
 - Sound and Music Computing Network \(SMCN\) ::@:: <https://smcnetwork.org/> <p> It is a web portal dedicated to sound and music computing. <!--SR:!2029-05-21,1106,352!fsrs,2029-09-16T13:34:44.218Z,1190,1190.29842946,1,2,9,0,0,2026-06-14T13:34:44.218Z-->
 - [International Computer Music Conference](../../general/International%20Computer%20Music%20Conference.md) \(ICMC\) ::@:: It is a yearly international conference for computer music researchers and composers. It is the annual conference of the International Computer Music Association \(ICMA\). <p> It was a pioneer of conferences dedicated to computer music \(started 1974\). <!--SR:!fsrs,2030-02-03T00:00:00.000Z,1295,1294.66717524,1,2,9,0,0,2026-07-19T00:00:00.000Z!2028-10-13,897,332-->
 - goodbye
-- Dunya ::@:: <https://dunya.compmusic.upf.edu/> <p> It is a music corpora and related software tools. They are for studying particular music traditions: Andalusian, Carnatic, Hindustani, Jingju, and Makam. <!--SR:!2026-07-19,298,332!2029-09-10,1196,352-->
+- Dunya ::@:: <https://dunya.compmusic.upf.edu/> <p> It is a music corpora and related software tools. They are for studying particular music traditions: Andalusian, Carnatic, Hindustani, Jingju, and Makam. <!--SR:!fsrs,2030-02-07T00:00:00.000Z,1298,1298.45780529,1,2,9,0,0,2026-07-20T00:00:00.000Z!2029-09-10,1196,352-->
 - [AcousticBrainz](../../general/AcousticBrainz.md) ::@:: <https://acousticbrainz.org/> <p> It is a database of acoustic characteristics of music and includes low-level spectral information and information for genres, moods, keys, scales, etc. \(In 2022, it decided to stop collecting new data, but existing data remains available.\) <!--SR:!2029-03-13,1048,350!2029-06-20,1130,352-->
 
 ## references

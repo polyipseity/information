@@ -327,7 +327,7 @@ return await memorize_map(
 >
 > where
 >
-> - {@{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}@}, assuming {@{$\arctan(\pm \infty) = \pm \pi / 2$}@} <!--SR:!2031-07-27,2065,329!2026-07-19,619,289!2027-06-07,957,349!2027-04-23,414,375-->
+> - {@{$c = \operatorname{sgn}(a) \sqrt{a^2 + b^2}, \varphi = \arctan(-b / a)$ or $c = \sqrt{a^2 + b^2}, \varphi = \operatorname{atan2}(-b, a)$}@}, assuming {@{$\arctan(\pm \infty) = \pm \pi / 2$}@} <!--SR:!2031-07-27,2065,329!fsrs,2030-06-05T00:00:00.000Z,1416,1415.6360076,4.02869087,2,10,0,0,2026-07-20T00:00:00.000Z!2027-06-07,957,349!2027-04-23,414,375-->
 
 <!-- markdownlint MD028 -->
 

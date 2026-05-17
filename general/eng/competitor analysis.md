@@ -116,7 +116,7 @@ pricing: Find suitable prices catering to different market segment and economies
 - differentiate: Differentiate our products to make it a hit with customers.→::@::←discover: Find holes in existing products. <!--SR:!2030-11-14,1695,301!2027-03-20,723,321-->
 - discover: Find holes in existing products.→::@::←know ourselves: See if our products are sticky. <!--SR:!2027-07-24,641,221!2028-06-02,946,261-->
 - know ourselves: See if our products are sticky.→::@::←know them: See how big of a threat competitors pose. <!--SR:!2026-10-11,650,321!2026-10-24,615,314-->
-- know them: See how big of a threat competitors pose.→::@::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!2026-07-19,482,261!2029-09-27,1354,281-->
+- know them: See how big of a threat competitors pose.→::@::←pricing: Find suitable prices catering to different market segment and economies. <!--SR:!fsrs,2030-09-08T00:00:00.000Z,1511,1510.91399469,3.43119979,2,10,0,0,2026-07-20T00:00:00.000Z!2029-09-27,1354,281-->
 - pricing: Find suitable prices catering to different market segment and economies.→::@::←_(end)_ <!--SR:!2028-09-14,1239,361!2029-12-05,1423,301-->
 
 <!--/pytextgen-->
