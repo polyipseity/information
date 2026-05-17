@@ -88,7 +88,7 @@ For data such as $(x_1,y) = (2,2), (4,3), (6,4)$, the residual terms are $2 - (w
 
 Flashcards for this section are as follows:
 
-- one-feature fit setup ::@:: In the one-feature toy problem, linear regression fits a line $\hat y = w_0 + w_1x_1$ to the three points $(2,2)$, $(4,3)$, and $(6,4)$. <!--SR:!2026-07-14,63,333!2026-08-11,86,353-->
+- one-feature fit setup ::@:: In the one-feature toy problem, linear regression fits a line $\hat y = w_0 + w_1x_1$ to the three points $(2,2)$, $(4,3)$, and $(6,4)$. <!--SR:!fsrs,2027-06-21T00:00:00.000Z,341,340.64659884,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-08-11,86,353-->
 - why a line need not pass through every point ::@:: In general, least squares chooses the line that minimizes average squared residuals, so it balances all observations rather than forcing perfect interpolation. <!--SR:!2026-08-14,93,363!2026-08-03,78,341-->
 - one-feature residuals: For the one-feature linear regression model $\hat y=w_0+w_1x_1$ fitted to the three data points $(x_1,y)=(2,2),(4,3),(6,4)$, what are the three residuals observed minus predicted? ::@:: The residuals are $2-(w_0+2w_1)$, $3-(w_0+4w_1)$, and $4-(w_0+6w_1)$. <!--SR:!2026-07-20,66,310!2026-08-11,86,353-->
 

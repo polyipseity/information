@@ -88,7 +88,7 @@ Flashcards for this section are as follows:
 - Starting from $x_s(t)=x(t)p_T(t)$, what sampled-spectrum formula follows from the multiplication theorem? ::@:: It is $X_s(\omega)=\frac{1}{2\pi}(X*P_T)(\omega)=\frac{1}{T}\sum_{k=-\infty}^{\infty}X(\omega-k\omega_s)$. <!--SR:!2026-07-31,77,337!2026-07-20,67,310-->
 - What does the sampled-spectrum formula mean geometrically? ::@:: The original spectrum is copied and shifted every $\omega_s$, so the sampled spectrum is a periodic train of replicated spectral shapes. <!--SR:!2026-07-20,66,310!2026-07-19,66,310-->
 - Why is spectral overlap the decisive issue in sampling? ::@:: Because once replicated copies overlap, several different original continuous-time frequencies contribute to the same sampled-spectrum region and can no longer be separated uniquely. <!--SR:!2026-08-06,83,340!2026-07-19,66,310-->
-- Why does increasing $f_s$ make exact recovery easier from the spectrum picture? ::@:: Because increasing $f_s$ increases the copy spacing $\omega_s=2\pi/T$, so the replicated spectra are pushed farther apart and are less likely to overlap. <!--SR:!2026-07-19,66,310!2026-07-14,61,310-->
+- Why does increasing $f_s$ make exact recovery easier from the spectrum picture? ::@:: Because increasing $f_s$ increases the copy spacing $\omega_s=2\pi/T$, so the replicated spectra are pushed farther apart and are less likely to overlap. <!--SR:!2026-07-19,66,310!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 
 ## sampling theorem and Nyquist limit
 

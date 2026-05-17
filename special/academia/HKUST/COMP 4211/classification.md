@@ -118,8 +118,8 @@ During training, one should therefore read margins in layers: a negative margin 
 
 Flashcards for this section are as follows:
 
-- worked margin sign check with full interpretation: If $y=-1$ and $z=0.7$, what are $\hat y=\operatorname{sign}(z)$ and $yz$, and what do they mean? ::@:: $\hat y=+1$, so the prediction is wrong, and $yz=(-1)(0.7)=-0.7<0$, confirming a misclassified point. <!--SR:!2026-07-30,75,324!2026-07-14,64,324-->
-- worked margin comparison with full givens: If $y=-1$, compare the cases $z=-0.7$ and $z=-0.05$ ::@:: For $z=-0.7$, the margin is $yz=0.7$, so the point is correctly classified with comfortable positive margin; for $z=-0.05$, the margin is only $0.05$, so the point is still correct but fragile because a tiny perturbation could flip the sign. <!--SR:!2026-07-14,64,324!2026-08-02,81,343-->
+- worked margin sign check with full interpretation: If $y=-1$ and $z=0.7$, what are $\hat y=\operatorname{sign}(z)$ and $yz$, and what do they mean? ::@:: $\hat y=+1$, so the prediction is wrong, and $yz=(-1)(0.7)=-0.7<0$, confirming a misclassified point. <!--SR:!2026-07-30,75,324!fsrs,2027-06-14T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
+- worked margin comparison with full givens: If $y=-1$, compare the cases $z=-0.7$ and $z=-0.05$ ::@:: For $z=-0.7$, the margin is $yz=0.7$, so the point is correctly classified with comfortable positive margin; for $z=-0.05$, the margin is only $0.05$, so the point is still correct but fragile because a tiny perturbation could flip the sign. <!--SR:!fsrs,2027-06-14T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-08-02,81,343-->
 - margin-based training diagnostic ::@:: Watching how $yz$ moves from negative to positive gives richer feedback than raw correctness because it tracks both sign and confidence. <!--SR:!2026-08-03,83,343!2026-07-22,72,324-->
 
 ### why zero-one loss resists gradient descent
@@ -255,8 +255,8 @@ This is directly parallel to the regression case, where one optimizes a training
 
 Flashcards for this section are as follows:
 
-- empirical error versus empirical surrogate loss ::@:: If margins are $m_i=y_i(w^\top x_i+b)$, then empirical error is $\widehat{\operatorname{err}}(w,b)=\frac{1}{N}\sum_i \mathbf{1}(m_i\le 0)$, while empirical surrogate loss is $\widehat L_\phi(w,b)=\frac{1}{N}\sum_i \phi(m_i)$; error counts wrong signs only, whereas loss also measures confidence through the chosen surrogate. <!--SR:!2026-07-14,64,324!2026-08-09,84,345-->
-- training loss versus training error ::@:: Training loss measures the surrogate objective on the training set, whereas training error measures the actual misclassification rate on the training set. <!--SR:!2026-08-01,80,343!2026-07-14,64,324-->
+- empirical error versus empirical surrogate loss ::@:: If margins are $m_i=y_i(w^\top x_i+b)$, then empirical error is $\widehat{\operatorname{err}}(w,b)=\frac{1}{N}\sum_i \mathbf{1}(m_i\le 0)$, while empirical surrogate loss is $\widehat L_\phi(w,b)=\frac{1}{N}\sum_i \phi(m_i)$; error counts wrong signs only, whereas loss also measures confidence through the chosen surrogate. <!--SR:!fsrs,2027-06-14T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-08-09,84,345-->
+- training loss versus training error ::@:: Training loss measures the surrogate objective on the training set, whereas training error measures the actual misclassification rate on the training set. <!--SR:!2026-08-01,80,343!fsrs,2027-06-14T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 - test loss versus test error ::@:: Test loss measures the surrogate objective on unseen data, whereas test error measures the fraction of unseen examples that are misclassified. <!--SR:!2026-08-09,84,345!2026-07-15,66,324-->
 - counterexample where error improves but loss worsens ::@:: Using scaled logistic loss, margins can move from $(10,-0.1)$ to $(0.01,0.01)$, changing error from $\frac12$ to $0$ while increasing average loss because one formerly very confident correct point becomes almost ambiguous. <!--SR:!2026-07-16,66,324!2026-08-09,84,345-->
 - counterexample where loss improves but error worsens ::@:: Using scaled logistic loss, margins can move from $(10,-10)$ to $(-0.01,-0.01)$, changing error from $\frac12$ to $1$ while decreasing average loss because the surrogate heavily rewards removing an extreme negative margin even though both points become slightly wrong. <!--SR:!2026-07-21,71,324!2026-07-29,74,324-->
@@ -291,7 +291,7 @@ The first memory rule is: _loss trains parameters, metrics evaluate decisions_. 
 Flashcards for this section are as follows:
 
 - training loss versus evaluation metric ::@:: A classifier is often trained by minimizing cross entropy but evaluated by metrics such as accuracy, precision, recall, and $F_1$, so training objective and evaluation summary are distinct. <!--SR:!2026-07-29,77,344!2026-07-16,66,324-->
-- metric-design memory rule ::@:: A practical memory rule is _loss trains probabilities, metrics evaluate thresholded decisions_. <!--SR:!2026-07-14,64,324!2026-07-30,75,324-->
+- metric-design memory rule ::@:: A practical memory rule is _loss trains probabilities, metrics evaluate thresholded decisions_. <!--SR:!fsrs,2027-06-14T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-07-30,75,324-->
 - confusion-first memory rule ::@:: Compute metrics from confusion counts first; then formulas become bookkeeping rather than memorization. <!--SR:!fsrs,2027-04-20T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-19,69,324-->
 
 ### confusion matrix and accuracy
@@ -386,7 +386,7 @@ Flashcards for this section are as follows:
 - discriminative classifier definition ::@:: A discriminative classifier maps features to labels by modeling $P(y\mid x)$ directly or by fitting a decision boundary through a score function. It never explains how each class generates data. <!--SR:!2026-07-20,70,324!2026-07-29,74,324-->
 - generative classifier definition ::@:: A generative classifier models how each class produces features by learning $P(y)$ and $P(x\mid y)$, then derives the posterior $P(y\mid x)$ using Bayes' rule. <!--SR:!2026-07-24,69,324!2026-07-18,69,324-->
 - why discriminative versus generative matters ::@:: Discriminative models focus capacity on the decision boundary (often simpler and more accurate), while generative models require structural assumptions but can be more data-efficient and interpretable. <!--SR:!2026-08-04,83,345!2026-08-09,84,345-->
-- discriminative models in this note ::@:: In this note, both probabilistic classification (for example logistic regression) and optimization-based surrogate-loss methods are discriminative because they learn a direct feature-to-label mapping without modeling the full data-generation process. <!--SR:!2026-07-14,64,324!2026-07-22,68,324-->
+- discriminative models in this note ::@:: In this note, both probabilistic classification (for example logistic regression) and optimization-based surrogate-loss methods are discriminative because they learn a direct feature-to-label mapping without modeling the full data-generation process. <!--SR:!fsrs,2027-06-14T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-07-22,68,324-->
 
 <!-- check: ignore-next-line[header_style]: Bayes is a proper noun -->
 ### Bayes-rule classification from a generative model

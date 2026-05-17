@@ -37,13 +37,13 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > In an archer session, each round has three arrows and the session ends when one round hits the target three times. Build a sample space and identify $\bigcap_{n=1}^{\infty}A_n$, where $A_n$ is the event that the session lasts longer than $n$ rounds.
 >
-> Solution: Model each arrow by {@{$\{S,F\}$}@}, each round by {@{$\{S,F\}^3$}@}, and the whole experiment by {@{$(\{S,F\}^3)^{\mathbb{N}}$}@} with {@{stopping at first "SSS"}@}; this space contains {@{some extra infinite paths}@}, but that is {@{fine because it still describes every possible round-by-round history}@} and the stopping rule simply {@{ignores the probability-zero extra ones}@}. Since {@{$A_n$ means duration exceeds $n$ rounds}@}, the intersection over all $n$ is exactly the {@{infinite-duration event}@} {@{$\bigcap_{n=1}^{\infty}A_n=\{\text{no round is ever "SSS"}\}$}@}, i.e. the session {@{never terminates}@}. <!--SR:!2026-08-02,61,310!2026-08-08,67,310!2026-08-05,64,310!2026-07-14,58,310!2026-08-08,67,310!2026-07-14,58,310!2026-08-03,62,310!2026-08-07,66,310!2026-08-05,64,310!2026-07-31,59,310!2026-07-31,59,310-->
+> Solution: Model each arrow by {@{$\{S,F\}$}@}, each round by {@{$\{S,F\}^3$}@}, and the whole experiment by {@{$(\{S,F\}^3)^{\mathbb{N}}$}@} with {@{stopping at first "SSS"}@}; this space contains {@{some extra infinite paths}@}, but that is {@{fine because it still describes every possible round-by-round history}@} and the stopping rule simply {@{ignores the probability-zero extra ones}@}. Since {@{$A_n$ means duration exceeds $n$ rounds}@}, the intersection over all $n$ is exactly the {@{infinite-duration event}@} {@{$\bigcap_{n=1}^{\infty}A_n=\{\text{no round is ever "SSS"}\}$}@}, i.e. the session {@{never terminates}@}. <!--SR:!2026-08-02,61,310!2026-08-08,67,310!2026-08-05,64,310!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-08-08,67,310!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-08-03,62,310!2026-08-07,66,310!2026-08-05,64,310!2026-07-31,59,310!2026-07-31,59,310-->
 
 <!-- markdownlint MD028 -->
 
 > In the repeating coin-flip game where A, B, C flip in order and the first head wins, describe the events "A wins", "B wins", and the complement $(A\cup B)^c$ using the sample space $S=\{1,01,001,0001,\ldots,000\cdots\}$.
 >
-> Solution: Encode outcomes by {@{index of first head}@} (or the infinite all-tail sequence), observe winner is determined by {@{$\ell\bmod 3$}@}, so {@{$A=\{x\in S:\operatorname{len}(x)\equiv1\pmod3\}$}@} and {@{$B=\{x\in S:\operatorname{len}(x)\equiv2\pmod3\}$}@}; importantly, the process space includes {@{infinite sequences}@} as legitimate outcomes, so if no head ever appears that path is still an outcome, hence {@{$(A\cup B)^c$}@} is {@{'C wins' together with the no-winner infinite-tail outcome}@}. <!--SR:!2026-08-07,66,310!2026-07-14,58,310!2026-08-08,67,310!2026-07-14,58,310!2026-07-31,59,310!2026-08-08,67,310!2026-08-08,67,310-->
+> Solution: Encode outcomes by {@{index of first head}@} (or the infinite all-tail sequence), observe winner is determined by {@{$\ell\bmod 3$}@}, so {@{$A=\{x\in S:\operatorname{len}(x)\equiv1\pmod3\}$}@} and {@{$B=\{x\in S:\operatorname{len}(x)\equiv2\pmod3\}$}@}; importantly, the process space includes {@{infinite sequences}@} as legitimate outcomes, so if no head ever appears that path is still an outcome, hence {@{$(A\cup B)^c$}@} is {@{'C wins' together with the no-winner infinite-tail outcome}@}. <!--SR:!2026-08-07,66,310!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-08-08,67,310!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-07-31,59,310!2026-08-08,67,310!2026-08-08,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -65,13 +65,13 @@ The questions on this page summarize the _official tutorial materials_ for week 
 > - (a) {@{No restriction}@} gives {@{$\binom{10}{5}=252$}@}.
 > - (b) {@{Include the designated person first}@}, then choose 4 of the remaining 9, giving {@{$\binom{9}{4}=126$}@}.
 > - (c) {@{Exactly 3 men and 2 women}@} gives {@{$\binom{6}{3}\binom{4}{2}=120$}@}.
-> - (d) {@{Majority women means either 3W2M or 4W1M}@}, so the total is {@{$\binom{4}{3}\binom{6}{2}+\binom{4}{4}\binom{6}{1}=60+6=66$}@}. <!--SR:!2026-07-14,58,310!2026-07-31,59,310!2026-08-05,64,310!2026-08-08,67,310!2026-08-08,67,310!2026-07-29,57,310!2026-07-29,57,310!2026-07-14,58,310-->
+> - (d) {@{Majority women means either 3W2M or 4W1M}@}, so the total is {@{$\binom{4}{3}\binom{6}{2}+\binom{4}{4}\binom{6}{1}=60+6=66$}@}. <!--SR:!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-07-31,59,310!2026-08-05,64,310!2026-08-08,67,310!2026-08-08,67,310!2026-07-29,57,310!2026-07-29,57,310!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
 > Ten Oreo pieces are sprinkled onto 3 distinguishable scoops of ice cream. How many distributions are possible?
 >
-> Solution: Let {@{$u_i$}@} denote {@{pieces on scoop $i$}@} so the constraint is {@{$u_1+u_2+u_3=10$ with $u_i\ge0$}@}; apply {@{stars-and-bars}@} using {@{$10$ stars and $2$ bars}@} to count non-negative solutions, obtaining {@{$\binom{10+3-1}{3-1}=\binom{12}{2}=66$}@}. <!--SR:!2026-07-14,58,310!2026-08-05,64,310!2026-08-05,64,310!2026-08-04,63,310!fsrs,2027-04-16T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-14,58,310-->
+> Solution: Let {@{$u_i$}@} denote {@{pieces on scoop $i$}@} so the constraint is {@{$u_1+u_2+u_3=10$ with $u_i\ge0$}@}; apply {@{stars-and-bars}@} using {@{$10$ stars and $2$ bars}@} to count non-negative solutions, obtaining {@{$\binom{10+3-1}{3-1}=\binom{12}{2}=66$}@}. <!--SR:!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-08-05,64,310!2026-08-05,64,310!2026-08-04,63,310!fsrs,2027-04-16T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-12T00:00:00.000Z!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

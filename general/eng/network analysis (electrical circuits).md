@@ -123,7 +123,7 @@ For {@{a dangling resistor \(_N_ = 1\)}@} it results in {@{the elimination of th
 
 ### source transformation
 
-> \(annotation: image\) ::@:: ![source transforamtion](../../archives/Wikimedia%20Commons/Sourcetransform.svg) <!--SR:!2029-06-07,1126,349!2026-07-14,383,366-->
+> \(annotation: image\) ::@:: ![source transforamtion](../../archives/Wikimedia%20Commons/Sourcetransform.svg) <!--SR:!2029-06-07,1126,349!fsrs,2031-06-18T00:00:00.000Z,1799,1798.78260336,1,2,10,0,0,2026-07-15T00:00:00.000Z-->
 
 {@{A generator with an internal impedance \(i.e. non-ideal generator\)}@} can be represented as {@{either an ideal voltage generator or an ideal current generator plus the impedance}@}. These two forms are {@{equivalent and the transformations are given below}@}. If {@{the two networks are equivalent with respect to terminals ab}@}, then {@{_V_ and _I_ must be identical for both networks}@}. Thus, {@{$V_{\mathrm {s} }=RI_{\mathrm {s} }\,\!$ or $I_{\mathrm {s} }={\frac {V_{\mathrm {s} } }{R} }$}@} <!--SR:!2028-06-09,913,349!fsrs,2030-10-30T02:18:46.101Z,1599,1598.85385917,1,2,9,0,0,2026-06-14T02:18:46.101Z!2029-02-12,1110,350!2026-07-18,386,360!2029-04-13,1159,350!fsrs,2031-03-06T00:00:00.000Z,1710,1710.2621335,1,2,10,0,0,2026-06-30T00:00:00.000Z-->
 

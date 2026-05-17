@@ -106,7 +106,7 @@ tags:
 >   - AX<sub>8</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [square antiprismatic](square%20antiprismatic%20molecular%20geometry.md)<br/>![square antiprismatic](../../archives/Wikimedia%20Commons/AX8E0-3D-balls.png) <!--SR:!2027-03-14,317,345!2027-02-07,282,341-->
 >   - AX<sub>8</sub>E<sub>0</sub> / example(s) ::@:: XeF<sub>8</sub><sup>2-</sup> <!--SR:!2027-02-02,276,341!2026-10-08,200,325-->
 > - AX<sub>9</sub>E<sub>0</sub>
->   - AX<sub>9</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [tricapped trigonal antiprismatic](tricapped%20trigonal%20antiprismatic%20molecular%20geometry.md)<br/>![tricapped trigonal antiprismatic](../../archives/Wikimedia%20Commons/AX9E0-3D-balls.png) <!--SR:!2026-10-05,198,325!2026-07-14,74,285-->
+>   - AX<sub>9</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [tricapped trigonal antiprismatic](tricapped%20trigonal%20antiprismatic%20molecular%20geometry.md)<br/>![tricapped trigonal antiprismatic](../../archives/Wikimedia%20Commons/AX9E0-3D-balls.png) <!--SR:!2026-10-05,198,325!fsrs,2027-06-05T00:00:00.000Z,325,324.72497743,2.23046173,2,7,0,0,2026-07-15T00:00:00.000Z-->
 >   - AX<sub>9</sub>E<sub>0</sub> / example(s) ::@:: ReH<sub>9</sub><sup>2-</sup> <!--SR:!2026-08-10,141,305!2026-10-04,197,325-->
 
 ## references

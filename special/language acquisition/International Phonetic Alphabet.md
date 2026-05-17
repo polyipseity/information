@@ -499,7 +499,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [nasalized open-mid back rounded vowel](nasal%20vowel.md):@:\[ɔ̃\] <!--SR:!2027-08-05,703,337-->
 - [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md):@:\[ø\] <!--SR:!2027-03-01,448,237-->
 - [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md):@:\[ɵ\] <!--SR:!2026-10-20,560,314-->
-- [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md):@:\[œ\] <!--SR:!2026-07-14,621,293-->
+- [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md):@:\[œ\] <!--SR:!fsrs,2030-06-21T00:00:00.000Z,1437,1436.98642089,3.87884087,2,10,0,0,2026-07-15T00:00:00.000Z-->
 - [nasalized open-mid front rounded vowel](nasal%20vowel.md):@:\[œ̃\] <!--SR:!2026-08-16,133,281-->
 - [open front rounded vowel](open%20front%20rounded%20vowel.md):@:\[ɶ\] <!--SR:!2027-03-07,334,311-->
 - [voiceless bilabial plosive](voiceless%20bilabial%20plosive.md):@:\[p\] <!--SR:!2030-02-23,1391,251-->
@@ -823,7 +823,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced dental fricative](../../archives/Wikimedia%20Commons/Voiced%20dental%20fricative.ogg):@:[voiced dental fricative](voiced%20dental%20fricative.md) <!--SR:!2026-08-12,100,190-->
 - ![voiced alveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20sibilant%20affricate.ogg):@:[voiced alveolar affricate](voiced%20alveolar%20affricate.md) <!--SR:!2026-07-25,69,130-->
 - ![voiced postalveolar affricate](../../archives/Wikimedia%20Commons/Voiced%20palato-alveolar%20affricate.ogg):@:[voiced postalveolar affricate](voiced%20postalveolar%20affricate.md) <!--SR:!2026-07-16,162,130-->
-- ![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg):@:[voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md) <!--SR:!fsrs,2026-07-15T00:00:00.000Z,17,16.76590028,9.97047151,2,5,0,0,2026-06-28T00:00:00.000Z-->
+- ![voiced alveolo-palatal affricate](../../archives/Wikimedia%20Commons/Voiced%20alveolo-palatal%20affricate.ogg):@:[voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md) <!--SR:!fsrs,2026-08-07T00:00:00.000Z,23,22.63770578,9.95572941,2,6,0,0,2026-07-15T00:00:00.000Z-->
 - ![voiced retroflex affricate](../../archives/Wikimedia%20Commons/Voiced%20retroflex%20affricate.ogg):@:[voiced retroflex affricate](voiced%20retroflex%20affricate.md) <!--SR:!2026-11-11,486,214-->
 - ![close-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20unrounded%20vowel.ogg):@:[close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md) <!--SR:!2026-10-18,658,251-->
 - ![close-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20unrounded%20vowel.ogg):@:[close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md) <!--SR:!fsrs,2026-08-11T00:00:00.000Z,32,32.36622591,9.97047151,2,6,0,0,2026-07-10T00:00:00.000Z-->

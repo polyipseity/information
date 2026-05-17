@@ -22,7 +22,7 @@ A _sample space_ is a non-empty set $\Omega$ whose elements represent the possib
 Flashcards for this section are as follows:
 
 - definition / non-empty set of outcomes ::@:: A non-empty set $\Omega$ of possible realizations of a random experiment; each $\omega \in \Omega$ is an outcome. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-20,70,321!2026-07-17,67,310-->
-- definition / outcome ::@:: An element $\omega \in \Omega$; one possible realization or measurement of the random experiment. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-14,64,321!fsrs,2027-06-05T00:00:00.000Z,326,326.1396648,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
+- definition / outcome ::@:: An element $\omega \in \Omega$; one possible realization or measurement of the random experiment. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-06-11T00:00:00.000Z,331,330.56968839,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-06-05T00:00:00.000Z,326,326.1396648,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
 - definition / role in a probability space ::@:: The sample space is the first of three ingredients (with events and probability measure) in a probability space $(\Omega, \mathcal{F}, P)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-24,74,321!2026-07-16,66,321-->
 
 ## finite and countable sample spaces

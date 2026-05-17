@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 
 - legal obligation (provision) ::@:: Obligation imposed by law or contract (e.g. warranty terms in the sales contract). <!--SR:!2026-08-07,82,342!2026-08-08,83,342-->
 - constructive obligation ::@:: Arises from past practice, stated policy, or pattern of behaviour that creates valid expectation; no legal requirement. <!--SR:!2026-08-05,80,342!2026-07-28,73,326-->
-- constructive obligation example ::@:: Company policy of refunding dissatisfied customers (e.g. Christian Dior); not in contract but creates expectation. <!--SR:!2026-08-03,79,342!2026-07-14,61,310-->
+- constructive obligation example ::@:: Company policy of refunding dissatisfied customers (e.g. Christian Dior); not in contract but creates expectation. <!--SR:!2026-08-03,79,342!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 - constructive obligation: employer example ::@:: Employer consistently paying employee creates expectation; past pattern creates constructive obligation even without legal requirement. <!--SR:!2026-08-07,82,342!2026-07-31,76,342-->
 
 ## when not to recognize a provision

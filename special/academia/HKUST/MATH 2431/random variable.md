@@ -33,7 +33,7 @@ This is exactly the pattern behind the general definition: a random variable is 
 
 Flashcards for this section are as follows:
 
-- two-dice sum model ::@:: In the two-dice example, the full sample space is $\Omega=\{1,2,3,4,5,6\}^2$ with $36$ equally likely outcomes, while the sum is captured by the function $S(\omega)=\omega_1+\omega_2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-14,60,323!2026-07-25,69,323-->
+- two-dice sum model ::@:: In the two-dice example, the full sample space is $\Omega=\{1,2,3,4,5,6\}^2$ with $36$ equally likely outcomes, while the sum is captured by the function $S(\omega)=\omega_1+\omega_2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-05-26T00:00:00.000Z,315,315.11786722,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-07-25,69,323-->
 - probability that the sum is $3$ ::@:: In the two-dice model, $P[S=3]=P[\{(1,2),(2,1)\}]=2/36=1/18$. <!--SR:!2026-07-27,71,323!2026-07-23,68,323-->
 - why the sum example motivates the definition ::@:: The event "the random variable lies in a Borel set $B$ " is the preimage $S^{-1}(B)$, so the quantity of interest is usable in probability only when those preimages are events. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-23,68,323!2026-07-25,70,323-->
 
@@ -191,7 +191,7 @@ Flashcards for this section are as follows:
 - equality in distribution ::@:: The notation $X \stackrel{d}{=} Y$ means that the laws are equal, $P_X=P_Y$; for real random variables this is equivalent to $F_X(x)=F_Y(x)$ for every $x\in\mathbb{R}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-19,65,323!2026-07-24,69,323-->
 - equality in distribution is not pointwise equality ::@:: The statement $X \stackrel{d}{=} Y$ compares the transported probability measures on the value space; it does _not_ mean that $X(\omega)=Y(\omega)$ for each outcome $\omega$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-19T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-10T00:00:00.000Z!2026-07-27,71,323-->
 - first die and second die example: On the two-dice space, let $X(\omega_1,\omega_2)=\omega_1$ and $Y(\omega_1,\omega_2)=\omega_2$. Why can $X \stackrel{d}{=} Y$ hold even though $X\neq Y$? ::@:: Both random variables are uniform on $\{1,\ldots,6\}$, so they have the same law, but they are not equal as functions because, for example, $X(1,2)=1\neq 2=Y(1,2)$. <!--SR:!fsrs,2027-04-19T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-10T00:00:00.000Z!2026-07-20,66,323-->
-- even-density symmetry: If a continuous random variable $X$ has density satisfying $f_X(x)=f_X(-x)$ for all $x$, what is the relation between $X$ and $-X$ in distribution? ::@:: Then $X \stackrel{d}{=} -X$; in particular, if $X\sim\mathrm{N}(0,\sigma^2)$, then $-X\sim\mathrm{N}(0,\sigma^2)$ as well. <!--SR:!2026-07-18,64,323!2026-07-14,60,323-->
+- even-density symmetry: If a continuous random variable $X$ has density satisfying $f_X(x)=f_X(-x)$ for all $x$, what is the relation between $X$ and $-X$ in distribution? ::@:: Then $X \stackrel{d}{=} -X$; in particular, if $X\sim\mathrm{N}(0,\sigma^2)$, then $-X\sim\mathrm{N}(0,\sigma^2)$ as well. <!--SR:!2026-07-18,64,323!fsrs,2027-05-26T00:00:00.000Z,315,315.11786722,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 
 ## transformation of random variables
 

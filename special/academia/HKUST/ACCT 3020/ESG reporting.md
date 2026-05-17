@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 - ESG: what the letters stand for ::@:: Environmental, social, and governance. <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-05-23T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
 - ESG: examples of environmental issues ::@:: Greenhouse gas emissions, energy consumption and efficiency, waste reduction and recycling, and climate-change strategies. <!--SR:!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
 - ESG: examples of social issues ::@:: Fair wages, employee benefits, occupational safety and health, training and development, diversity and inclusion, and community impact. <!--SR:!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z!2026-07-15,65,310-->
-- ESG: examples of governance issues ::@:: Board structure and oversight, internal control and risk management, anti–corruption and anti–bribery policies and procedures. <!--SR:!2026-07-14,64,310!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
+- ESG: examples of governance issues ::@:: Board structure and oversight, internal control and risk management, anti–corruption and anti–bribery policies and procedures. <!--SR:!fsrs,2027-05-28T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - ESG in this course: main focus ::@:: Understand what ESG means, why it affects risk and valuation, and how it is reported and regulated in Hong Kong, rather than computing detailed emission factors. <!--SR:!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 
 ## international ESG frameworks
@@ -70,7 +70,7 @@ Investors increasingly look at ESG scores or ratings when deciding which compani
 
 Flashcards for this section are as follows:
 
-- ESG: environmental reasons it matters ::@:: Climate change and extreme weather create physical risks for companies' assets and operations (e.g. typhoons, flooding, heatwaves). <!--SR:!2026-07-14,64,310!fsrs,2027-05-12T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
+- ESG: environmental reasons it matters ::@:: Climate change and extreme weather create physical risks for companies' assets and operations (e.g. typhoons, flooding, heatwaves). <!--SR:!fsrs,2027-05-28T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-05-12T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - ESG: social reasons it matters ::@:: Demographic change (e.g. ageing workforce) and workplace safety issues affect labour supply, productivity, and potential legal liabilities. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-05-23T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
 - ESG: governance reasons it matters ::@:: Weak governance and corruption/bribery scandals can lead to prosecution, fines, and long‑term reputational damage that hurts firm value. <!--SR:!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - ESG and investors ::@:: Many investors use ESG scores or ratings; poor ESG performance can increase a firm's cost of capital or lead to exclusion from certain portfolios. <!--SR:!2026-07-17,67,310!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
@@ -177,7 +177,7 @@ For the __environmental__ category, common aspect groups are:
 Flashcards for this section are as follows:
 
 - environmental ESG aspects in Hong Kong: what are the four headline groups? ::@:: A1 emissions, A2 use of resources, A3 environment and natural resources, and A4 climate change. <!--SR:!2026-07-20,70,328!fsrs,2027-03-07T00:00:00.000Z,250,250.30629619,1.07975443,2,7,0,0,2026-06-30T00:00:00.000Z-->
-- A4 climate change: what belongs there? ::@:: Significant climate-related physical and transition risks together with the actions taken to address them. <!--SR:!2026-07-25,74,328!2026-07-14,64,328-->
+- A4 climate change: what belongs there? ::@:: Significant climate-related physical and transition risks together with the actions taken to address them. <!--SR:!2026-07-25,74,328!fsrs,2027-06-19T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 
 ### social aspects
 

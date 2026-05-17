@@ -163,7 +163,7 @@ It is named after {@{[George Green](George%20Green%20(mathematician).md)}@}, who
 
 > ___![icon](../../archives/Wikimedia%20Commons/Nuvola%20apps%20edu%20mathematics%20blue-p.svg) [Mathematics portal](https://en.wikipedia.org/wiki/Portal:Mathematics)___
 
-- [Planimeter](planimeter.md) ::@:: – Tool for measuring area <!--SR:!2026-07-14,283,330!2029-06-26,1125,350-->
+- [Planimeter](planimeter.md) ::@:: – Tool for measuring area <!--SR:!fsrs,2029-11-29T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-07-15T00:00:00.000Z!2029-06-26,1125,350-->
 - [Method of image charges](method%20of%20image%20charges.md) ::@:: – A method used in electrostatics that takes advantage of the uniqueness theorem \(derived from Green's theorem\) <!--SR:!2029-05-07,1087,350!2026-07-26,293,330-->
 - [Shoelace formula](shoelace%20formula.md) ::@:: – A special case of Green's theorem for simple polygons <!--SR:!2029-07-14,1141,350!2029-06-07,1106,350-->
 - [Desmos](desmos.md) ::@:: - A web based graphing calculator <!--SR:!2026-07-21,289,330!2026-07-25,292,330-->
