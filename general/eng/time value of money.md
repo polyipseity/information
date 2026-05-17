@@ -148,7 +148,7 @@ Notes:
 > - __find__: Future value \(F\) <br/> __given__: Present value \(P\) ::@:: $F=P\cdot (1+i)^{n}$ <!--SR:!2029-05-11,1201,350!2029-01-05,1090,350-->
 > - __find__: Present value \(P\) <br/> __given__: Future value \(F\) ::@:: $P=F\cdot (1+i)^{-n}$ <!--SR:!2029-01-22,1107,350!2029-11-04,1340,350-->
 > - __find__: Repeating payment \(A\) <br/> __given__: Future value \(F\) ::@:: $A=F\cdot {\frac {i}{(1+i)^{n}-1} }$ <!--SR:!2028-10-07,951,330!2026-12-29,505,310-->
-> - __find__: Repeating payment \(A\) <br/> __given__: Present value \(P\) ::@:: $A=P\cdot {\frac {i(1+i)^{n} }{(1+i)^{n}-1} }$ <!--SR:!2027-04-20,505,270!2026-06-29,353,290-->
+> - __find__: Repeating payment \(A\) <br/> __given__: Present value \(P\) ::@:: $A=P\cdot {\frac {i(1+i)^{n} }{(1+i)^{n}-1} }$ <!--SR:!2027-04-20,505,270!fsrs,2030-01-13T00:00:00.000Z,1293,1293.16613641,1.98030797,2,9,0,0,2026-06-30T00:00:00.000Z-->
 > - __find__: Future value \(F\) <br/> __given__: Repeating payment \(A\) ::@:: $F=A\cdot {\frac {(1+i)^{n}-1}{i} }$ <!--SR:!2029-10-26,1332,350!2029-02-03,1119,350-->
 > - __find__: Present value \(P\) <br/> __given__: Repeating payment \(A\) ::@:: $P=A\cdot {\frac {(1+i)^{n}-1}{i(1+i)^{n} } }$ <!--SR:!2027-03-25,523,310!2027-05-31,570,310-->
 > - __find__: Future value \(F\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $F=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2} } }$ <!--SR:!2027-09-04,601,270!2026-07-02,276,250-->

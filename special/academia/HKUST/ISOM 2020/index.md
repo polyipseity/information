@@ -253,7 +253,7 @@ The content is in teaching order.
   - `//` vs `%` ::@:: Do not mix up the floor division operator and remainder operator. <!--SR:!fsrs,2032-09-27T00:00:00.000Z,2282,2282.17391221,1,2,10,0,0,2026-06-29T00:00:00.000Z!2033-03-04,2470,406-->
   - `print(...)` multiple arguments ::@:: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2033-02-06,2444,406!2026-08-12,536,400-->
   - indentation ::@:: Indentation matters in Python!!! <!--SR:!fsrs,2032-09-10T00:00:00.000Z,2270,2270.20442073,1,2,10,0,0,2026-06-24T00:00:00.000Z!fsrs,2032-08-06T00:00:00.000Z,2242,2242.24024358,1,2,10,0,0,2026-06-17T00:00:00.000Z-->
-  - `break` notes ::@:: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops. <!--SR:!2026-06-29,498,386!fsrs,2032-09-05T00:00:00.000Z,2266,2266.2125374,1,2,10,0,0,2026-06-23T00:00:00.000Z-->
+  - `break` notes ::@:: Do not forget to add `break` when needed to exit the loop. The indentation of `break` matters. Also, `break` only exits the innermost loop and does not affect outer loops. <!--SR:!fsrs,2032-10-02T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-06-30T00:00:00.000Z!fsrs,2032-09-05T00:00:00.000Z,2266,2266.2125374,1,2,10,0,0,2026-06-23T00:00:00.000Z-->
 - week 7 lecture materials
 - integrated question set (week 7 practice question set): 0/0, ungraded
 

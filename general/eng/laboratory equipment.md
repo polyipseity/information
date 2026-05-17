@@ -150,7 +150,7 @@ return chain.from_iterable([r.value for r in results])
 - [clamp](clamp.md)→::@::←[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2032-02-02,2187,270!2026-08-15,412,210-->
 - [conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md)→::@::←[crucible](crucible.md) <!--SR:!2028-05-02,770,170!2026-08-16,782,270-->
 - [crucible](crucible.md)→::@::←[crucible tongs](crucible%20tongs.md) <!--SR:!2026-09-07,902,330!2027-08-07,1237,350-->
-- [crucible tongs](crucible%20tongs.md)→::@::←[desiccator](desiccator.md) <!--SR:!2033-03-06,2707,330!2026-06-29,517,190-->
+- [crucible tongs](crucible%20tongs.md)→::@::←[desiccator](desiccator.md) <!--SR:!2033-03-06,2707,330!fsrs,2029-07-21T00:00:00.000Z,1117,1116.5417091,6.98338322,2,10,0,0,2026-06-30T00:00:00.000Z-->
 - [desiccator](desiccator.md)→::@::←[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2031-04-27,1809,290!2026-12-20,580,270-->
 - [(eye) dropper/Pasteur pipette](eye%20dropper.md)→::@::←dropping bottle <!--SR:!2031-02-14,1969,310!2026-11-04,940,330-->
 - dropping bottle→::@::←[electronic balance](weighing%20scale.md) <!--SR:!2027-08-29,1055,290!2026-08-17,355,170-->
@@ -175,7 +175,7 @@ return chain.from_iterable([r.value for r in results])
 - [test tube](test%20tube.md), boiling tube→::@::←[test tube brush](test%20tube%20brush.md) <!--SR:!2028-07-27,1514,350!2028-08-13,1528,350-->
 - [test tube brush](test%20tube%20brush.md)→::@::←[test tube holder](test%20tube%20holder.md) <!--SR:!2032-08-23,2372,290!2031-02-04,1897,330-->
 - [test tube holder](test%20tube%20holder.md)→::@::←[test tube rack](test%20tube%20rack.md) <!--SR:!2027-06-05,1029,290!2029-09-27,1724,310-->
-- [test tube rack](test%20tube%20rack.md)→::@::←[thermometer](thermometer.md) <!--SR:!2026-06-29,289,170!2027-12-30,864,230-->
+- [test tube rack](test%20tube%20rack.md)→::@::←[thermometer](thermometer.md) <!--SR:!fsrs,2028-01-24T00:00:00.000Z,573,573.33963821,7.98399827,2,9,0,0,2026-06-30T00:00:00.000Z!2027-12-30,864,230-->
 - [thermometer](thermometer.md)→::@::←[tripod](tripod.md) <!--SR:!2029-01-10,1335,290!2027-06-03,1008,290-->
 - [tripod](tripod.md)→::@::←[volumetric flask](volumetric%20flask.md) <!--SR:!2026-11-30,358,170!2029-08-06,1584,310-->
 - [volumetric flask](volumetric%20flask.md)→::@::←[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2027-07-11,651,230!2028-11-11,1208,270-->

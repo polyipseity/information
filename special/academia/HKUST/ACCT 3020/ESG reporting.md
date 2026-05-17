@@ -176,7 +176,7 @@ For the __environmental__ category, common aspect groups are:
 
 Flashcards for this section are as follows:
 
-- environmental ESG aspects in Hong Kong: what are the four headline groups? ::@:: A1 emissions, A2 use of resources, A3 environment and natural resources, and A4 climate change. <!--SR:!2026-07-20,70,328!2026-06-29,49,308-->
+- environmental ESG aspects in Hong Kong: what are the four headline groups? ::@:: A1 emissions, A2 use of resources, A3 environment and natural resources, and A4 climate change. <!--SR:!2026-07-20,70,328!fsrs,2027-03-07T00:00:00.000Z,250,250.30629619,1.07975443,2,7,0,0,2026-06-30T00:00:00.000Z-->
 - A4 climate change: what belongs there? ::@:: Significant climate-related physical and transition risks together with the actions taken to address them. <!--SR:!2026-07-25,74,328!2026-07-14,64,328-->
 
 ### social aspects

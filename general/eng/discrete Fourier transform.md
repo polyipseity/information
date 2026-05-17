@@ -85,7 +85,7 @@ The vectors {@{$u_{k}=\left[\left.e^{ {\frac {i2\pi }{N} }kn}\;\right|\;n=0,1,\l
 
 ### The Plancherel theorem and Parseval's theorem
 
-If {@{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}@} then {@{[Parseval's theorem](parseval's%20theorem.md)}@} states: {@{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}@} where the star denotes [complex conjugation](complex%20conjugate.md). {@{The [Plancherel theorem](plancherel%20theorem.md)}@} is {@{a special case of Parseval's theorem}@} and states: {@{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}@}. <!--SR:!2028-06-30,1108,356!2026-11-27,629,336!2026-06-29,486,336!2029-01-30,1218,316!2027-07-31,842,356!2029-11-01,1515,376-->
+If {@{$X_{k}$ and $Y_{k}$ are the DFTs of $x_{n}$ and $y_{n}$ respectively}@} then {@{[Parseval's theorem](parseval's%20theorem.md)}@} states: {@{$$\sum _{n=0}^{N-1}x_{n}y_{n}^{*}={\frac {1}{N} }\sum _{k=0}^{N-1}X_{k}Y_{k}^{*}$$}@} where the star denotes [complex conjugation](complex%20conjugate.md). {@{The [Plancherel theorem](plancherel%20theorem.md)}@} is {@{a special case of Parseval's theorem}@} and states: {@{$$\sum _{n=0}^{N-1}|x_{n}|^{2}={\frac {1}{N} }\sum _{k=0}^{N-1}|X_{k}|^{2}$$}@}. <!--SR:!2028-06-30,1108,356!2026-11-27,629,336!fsrs,2032-01-05T00:00:00.000Z,2015,2014.83051435,1,2,10,0,0,2026-06-30T00:00:00.000Z!2029-01-30,1218,316!2027-07-31,842,356!2029-11-01,1515,376-->
 
 These theorems are {@{also equivalent to the unitary condition below}@}. <!--SR:!2027-02-09,686,336-->
 

@@ -35,10 +35,10 @@ Flashcards for this section are as follows:
 - passive vs active examples ::@:: Passive elements like resistors and capacitors contrast with active semiconductor devices such as diodes and transistors. <!--SR:!2027-03-05,275,330!2027-01-27,255,330-->
 - course context ::@:: In ELEC 1100, electronic components also include basic electrical concepts needed to understand how components operate. <!--SR:!2027-01-20,250,330!2027-01-12,243,330-->
 - active device examples ::@:: Active semiconductor devices include diodes and transistors, distinguishing them from passive elements. <!--SR:!2027-01-10,241,330!2027-03-04,274,330-->
-- power/energy context ::@:: In ELEC 1100, electronic components also encompass power sources and delivery systems such as batteries and supplies that provide energy. <!--SR:!2026-06-29,83,363!2027-02-26,268,363-->
-- schematic symbol: resistor <p> ![resistor symbol](attachments/symbol_resistor.svg) ::@:: Resistor symbol (zigzag/box style depending on standard) representing a component that limits current and creates voltage drops. <!--SR:!2026-06-29,83,363!fsrs,2027-09-26T00:00:00.000Z,457,457.21784112,1,2,7,0,0,2026-06-26T00:00:00.000Z-->
+- power/energy context ::@:: In ELEC 1100, electronic components also encompass power sources and delivery systems such as batteries and supplies that provide energy. <!--SR:!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z!2027-02-26,268,363-->
+- schematic symbol: resistor <p> ![resistor symbol](attachments/symbol_resistor.svg) ::@:: Resistor symbol (zigzag/box style depending on standard) representing a component that limits current and creates voltage drops. <!--SR:!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z!fsrs,2027-09-26T00:00:00.000Z,457,457.21784112,1,2,7,0,0,2026-06-26T00:00:00.000Z-->
 - schematic symbol: capacitor <p> ![capacitor symbol](attachments/symbol_capacitor.svg) ::@:: Capacitor symbol (two plates) representing a component that stores charge/energy in an electric field. <!--SR:!fsrs,2027-10-02T00:00:00.000Z,462,462.16102535,1,2,7,0,0,2026-06-27T00:00:00.000Z!2026-07-04,87,363-->
-- schematic symbol: DC voltage source <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) ::@:: Ideal DC voltage source symbol representing a supply that maintains a fixed potential difference. <!--SR:!2026-07-05,88,363!2026-06-29,83,363-->
+- schematic symbol: DC voltage source <p> ![voltage source symbol](attachments/symbol_voltage_source.svg) ::@:: Ideal DC voltage source symbol representing a supply that maintains a fixed potential difference. <!--SR:!2026-07-05,88,363!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z-->
 - schematic symbol: ground (GND, $0\text{ V}$ reference) <p> ![ground symbol](attachments/symbol_ground.svg) ::@:: Ground/reference node symbol ( $0\text{ V}$ reference) used as the circuit's common return. <!--SR:!2026-07-31,93,363!2026-07-04,87,363-->
 
 ## electrical fundamentals
@@ -90,7 +90,7 @@ Flashcards for this section are as follows:
 - current definition ::@:: Current is the orderly movement of charged particles; $I = \Delta q/\Delta t$, measured in amperes (1&nbsp;A = 1&nbsp;C/s). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-01,84,363!fsrs,2027-10-14T00:00:00.000Z,472,472.02320206,1,2,7,0,0,2026-06-29T00:00:00.000Z-->
 - current unit ::@:: The unit of current is the ampere, defined as one coulomb of charge passing a point per second. <!--SR:!2026-07-01,84,363!fsrs,2027-09-26T00:00:00.000Z,457,457.21784112,1,2,7,0,0,2026-06-26T00:00:00.000Z-->
 - electron vs conventional direction ::@:: In metal wires only electrons move; by convention current direction is the direction positive charges would move (opposite electron flow). <!--SR:!fsrs,2027-10-02T00:00:00.000Z,462,462.16102535,1,2,7,0,0,2026-06-27T00:00:00.000Z!fsrs,2027-10-02T00:00:00.000Z,462,462.16102535,1,2,7,0,0,2026-06-27T00:00:00.000Z-->
-- current example heater: A heater draws $8.5\times10^{20}$ electrons in $10\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and $I$. ::@:: $q=Ne\approx136\,\textrm{C}$ and $I=q/t\approx13.6\,\textrm{A}$. <!--SR:!2026-06-29,83,363!2027-02-22,264,363-->
+- current example heater: A heater draws $8.5\times10^{20}$ electrons in $10\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and $I$. ::@:: $q=Ne\approx136\,\textrm{C}$ and $I=q/t\approx13.6\,\textrm{A}$. <!--SR:!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z!2027-02-22,264,363-->
 - battery example: A battery supplies $50\,\textrm{A}$ for $4\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and number of electrons. ::@:: $q=It=200\,\textrm{C}$, electrons = $q/e\approx1.25\times10^{21}$. <!--SR:!2026-07-28,90,363!fsrs,2027-06-09T16:21:12.572Z,362,362.27942965,1,2,7,0,0,2026-06-12T16:21:12.572Z-->
 
 ### voltage and potential difference
@@ -116,8 +116,8 @@ Flashcards for this section are as follows:
 - resistance definition ::@:: Resistance is a measure of the difficulty in passing current through a substance. <!--SR:!2026-07-29,91,363!2026-07-03,86,363-->
 - unit of resistance ::@:: The unit of resistance is the ohm ($\Omega$), symbol $R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-03-29T00:00:00.000Z,278,277.83253638,1.25646587,2,7,0,0,2026-06-24T00:00:00.000Z!2026-07-30,93,363-->
 - resistivity formula ::@:: $R = \rho\frac{L}{A}$ for a wire of length $L$ and area $A$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-29,91,363!2026-07-29,91,363-->
-- resistivity depends on material ::@:: The resistivity ρ in the resistance formula depends on the material of the conductor; different materials have different resistivities. <!--SR:!2026-07-04,87,363!2026-06-29,83,363-->
-- ideal wire ::@:: An ideal wire is treated as a perfect conductor and therefore has no resistance. <!--SR:!2026-07-04,87,363!2026-06-29,83,363-->
+- resistivity depends on material ::@:: The resistivity ρ in the resistance formula depends on the material of the conductor; different materials have different resistivities. <!--SR:!2026-07-04,87,363!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z-->
+- ideal wire ::@:: An ideal wire is treated as a perfect conductor and therefore has no resistance. <!--SR:!2026-07-04,87,363!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z-->
 - ideal insulator ::@:: An ideal insulator has infinite resistance and does not allow current to flow. <!--SR:!fsrs,2027-10-14T00:00:00.000Z,472,472.02320206,1,2,7,0,0,2026-06-29T00:00:00.000Z!2026-07-05,88,363-->
 - resistor definition ::@:: A resistor is a device that limits or regulates current flow in a circuit; colour bands on a resistor encode its resistance value. <!--SR:!2026-07-31,93,363!2026-07-30,92,363-->
 - resistor usage ::@:: Resistors control current and create voltage drops; all loads and even connecting wires inherently have resistance. <!--SR:!fsrs,2027-09-13T00:00:00.000Z,447,447.3065659,1,2,7,0,0,2026-06-23T00:00:00.000Z!fsrs,2027-10-08T00:00:00.000Z,467,467.0961472,1,2,7,0,0,2026-06-28T00:00:00.000Z-->
@@ -176,12 +176,12 @@ Electrical sources may deliver either direct current (DC) or alternating current
 Flashcards for this section are as follows:
 
 - energy definition ::@:: Energy is the ability to do work and can take forms like mechanical, thermal, electrical, or chemical; it is conserved during conversion. <!--SR:!2026-07-03,86,363!2026-07-29,91,363-->
-- battery energy role ::@:: Batteries supply electrical energy through electrochemical reactions and provide DC power with long storage times. <!--SR:!2026-06-29,83,363!2026-07-03,86,363-->
+- battery energy role ::@:: Batteries supply electrical energy through electrochemical reactions and provide DC power with long storage times. <!--SR:!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z!2026-07-03,86,363-->
 - human/robot analogy ::@:: People get energy by eating food while robots obtain energy from batteries or power supplies. <!--SR:!2026-07-28,90,363!fsrs,2027-05-05T05:24:21.824Z,334,333.5282588,1,2,7,0,0,2026-06-05T05:24:21.824Z-->
-- DC vs AC ::@:: Direct current (DC) has constant polarity and amplitude; alternating current (AC) oscillates and reverses direction periodically. <!--SR:!2026-06-29,83,363!2026-07-02,85,363-->
+- DC vs AC ::@:: Direct current (DC) has constant polarity and amplitude; alternating current (AC) oscillates and reverses direction periodically. <!--SR:!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z!2026-07-02,85,363-->
 - household AC frequency ::@:: Mains electricity typically alternates at $50\,\text{Hz}$ (Hong Kong) or $60\,\text{Hz}$ (some other countries). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-03,86,363!2026-07-28,90,363-->
 - energy formula circuit ::@:: Electrical energy delivered to charge $q$ through a voltage $V$ is $E = qV$, with $q$ measured in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-05,88,363!2026-07-30,92,363-->
-- power definition ::@:: Power is the rate of energy consumption; $P = E/\Delta t = IV$ and for resistors $P = I^2R = V^2/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-29,83,363!2026-07-30,92,363-->
+- power definition ::@:: Power is the rate of energy consumption; $P = E/\Delta t = IV$ and for resistors $P = I^2R = V^2/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z!2026-07-30,92,363-->
 
 ### energy sources in lab
 
@@ -193,7 +193,7 @@ Flashcards for lab sources are as follows:
 
 - lab DC supply ::@:: A DC power supply provides a regulated constant voltage for breadboard experiments. <!--SR:!2026-07-31,93,363!2026-07-30,92,363-->
 - function generator ::@:: A function generator produces AC waveforms of selectable frequency and amplitude. <!--SR:!2026-07-05,88,363!2026-07-31,93,363-->
-- robot battery ::@:: Project robots use rechargeable LiPo batteries monitored by a battery monitor. <!--SR:!2026-06-29,83,363!2026-07-30,92,363-->
+- robot battery ::@:: Project robots use rechargeable LiPo batteries monitored by a battery monitor. <!--SR:!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z!2026-07-30,92,363-->
 
 ### energy conversion
 
@@ -214,7 +214,7 @@ For context, the human body itself uses electrical, chemical and mechanical powe
 
 Flashcards for human body energy are as follows:
 
-- human body energy ::@:: A human body expends a few watts for heartbeat and thermal output, and tens of watts for limb motion, much larger than the power dissipated in small resistors. <!--SR:!2026-06-29,83,363!2026-07-31,93,363-->
+- human body energy ::@:: A human body expends a few watts for heartbeat and thermal output, and tens of watts for limb motion, much larger than the power dissipated in small resistors. <!--SR:!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z!2026-07-31,93,363-->
 
 ### resistor networks
 
@@ -232,8 +232,8 @@ Resistors dissipate electrical power as heat, which is why excessive current can
 
 Flashcards for this section are as follows:
 
-- series resistors formula ::@:: Resistors in series simply add: $R_{\text{eq}} = R_1 + R_2 + \cdots$ (same current through each). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-04,87,363!2026-06-29,83,363-->
-- voltage divider ::@:: A voltage divider is two series resistors; assuming an ideal wire and ground, setup the circuit as V → RS → N → RL → GND → (V), then the voltage at node N is $V\cdot\frac{R_L}{R_S + R_L}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-28,90,363!2026-06-29,83,363-->
+- series resistors formula ::@:: Resistors in series simply add: $R_{\text{eq}} = R_1 + R_2 + \cdots$ (same current through each). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-04,87,363!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z-->
+- voltage divider ::@:: A voltage divider is two series resistors; assuming an ideal wire and ground, setup the circuit as V → RS → N → RL → GND → (V), then the voltage at node N is $V\cdot\frac{R_L}{R_S + R_L}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-28,90,363!fsrs,2027-10-20T00:00:00.000Z,477,476.94241946,1,2,7,0,0,2026-06-30T00:00:00.000Z-->
 - series divider assumptions ::@:: The voltage-divider formula assumes an ideal wire (zero resistance) and that the reference node is ground ($0\,\text{V}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-05,88,363!2026-07-30,92,363-->
 - parallel resistors formula ::@:: Resistors in parallel satisfy $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$; conductance $G = 1 / R$ with unit siemens. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-31,93,363!2026-07-03,86,363-->
 - conductance units ::@:: Conductance $G=1/R$ is measured in siemens (S); older units mho or ℧ are equivalent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-28,90,363!2026-07-05,88,363-->

@@ -19,7 +19,7 @@ This sinusoidal model can be fit using {@{[nonlinear least squares](nonlinear%20
 
 ### good starting value for the mean
 
-{@{A good starting value for _C_}@} can be obtained by {@{calculating the [mean](mean.md) of the data}@}. If {@{the data show a [trend](trend%20estimation.md), i.e., the assumption of constant location is violated}@}, one can {@{replace _C_ with a linear or quadratic [least squares](least%20squares.md) fit}@}. That is, the model becomes {@{$$Y_{i}=(B_{0}+B_{1}T_{i})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} or {@{$$Y_{i}=(B_{0}+B_{1}T_{i}+B_{2}T_{i}^{2})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} <!--SR:!2027-10-29,651,330!2029-06-23,1133,350!2029-05-04,1092,350!2026-06-29,282,330!fsrs,2029-08-07T00:34:07.052Z,1158,1158.46761415,1,2,9,0,0,2026-06-06T00:34:07.052Z!fsrs,2029-08-09T00:34:19.908Z,1160,1160.33732895,1,2,9,0,0,2026-06-06T00:34:19.908Z-->
+{@{A good starting value for _C_}@} can be obtained by {@{calculating the [mean](mean.md) of the data}@}. If {@{the data show a [trend](trend%20estimation.md), i.e., the assumption of constant location is violated}@}, one can {@{replace _C_ with a linear or quadratic [least squares](least%20squares.md) fit}@}. That is, the model becomes {@{$$Y_{i}=(B_{0}+B_{1}T_{i})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} or {@{$$Y_{i}=(B_{0}+B_{1}T_{i}+B_{2}T_{i}^{2})+\alpha \sin( \omega T_{i}+\phi )+E_{i}$$}@} <!--SR:!2027-10-29,651,330!2029-06-23,1133,350!2029-05-04,1092,350!fsrs,2029-11-10T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-06-30T00:00:00.000Z!fsrs,2029-08-07T00:34:07.052Z,1158,1158.46761415,1,2,9,0,0,2026-06-06T00:34:07.052Z!fsrs,2029-08-09T00:34:19.908Z,1160,1160.33732895,1,2,9,0,0,2026-06-06T00:34:19.908Z-->
 
 ### good starting value for frequency
 

@@ -137,7 +137,7 @@ __Fundamental group__
 <!-- markdownlint-disable-next-line MD036 -->
 __Algebra of continuous functions__
 
-&emsp; {@{A contravariant (annotation: _not_ covariant) functor}@} from {@{the category of [topological spaces](topology.md) \(with continuous maps as morphisms\) to the category of real [associative algebras](associative%20algebra.md)}@} is given by {@{assigning to every topological space _X_ the algebra C\(_X_\) of all real-valued continuous functions on that space}@}. {@{Every continuous map _f_ : _X_ → _Y_}@} induces {@{an [algebra homomorphism](algebra%20homomorphism.md#algebra%20homomorphisms) C\(_f_\) : C\(_Y_\) → C\(_X_\)}@} by {@{the rule C\(_f_\)\(_φ_\) = _φ_ ∘ _f_ for every _φ_ in C\(_Y_\)}@}. <!--SR:!2030-08-13,1622,377!2026-06-29,373,306!2027-10-23,724,326!2030-09-17,1652,377!2029-01-27,1142,357!2030-06-27,1508,326-->
+&emsp; {@{A contravariant (annotation: _not_ covariant) functor}@} from {@{the category of [topological spaces](topology.md) \(with continuous maps as morphisms\) to the category of real [associative algebras](associative%20algebra.md)}@} is given by {@{assigning to every topological space _X_ the algebra C\(_X_\) of all real-valued continuous functions on that space}@}. {@{Every continuous map _f_ : _X_ → _Y_}@} induces {@{an [algebra homomorphism](algebra%20homomorphism.md#algebra%20homomorphisms) C\(_f_\) : C\(_Y_\) → C\(_X_\)}@} by {@{the rule C\(_f_\)\(_φ_\) = _φ_ ∘ _f_ for every _φ_ in C\(_Y_\)}@}. <!--SR:!2030-08-13,1622,377!fsrs,2030-06-11T00:00:00.000Z,1442,1441.61155169,1.17981593,2,10,0,0,2026-06-30T00:00:00.000Z!2027-10-23,724,326!2030-09-17,1652,377!2029-01-27,1142,357!2030-06-27,1508,326-->
 
 <!-- markdownlint-disable-next-line MD036 -->
 __Tangent and cotangent bundles__

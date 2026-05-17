@@ -75,7 +75,7 @@ Suppose {@{otherwise, that _B_ is not linearly independent}@}. Then {@{there exi
 
 {@{The hypothesis of Zorn's lemma}@} has been checked, and thus {@{there is a maximal element in _P_}@}, in other words {@{a maximal linearly independent subset _B_ of _V_}@}. <!--SR:!2028-02-12,879,338!2029-05-22,1264,358!2030-10-02,1668,370-->
 
-Finally, we show that {@{_B_ is indeed a basis of _V_}@}. It {@{suffices to show that _B_ is a [spanning set](linear%20span.md) of _V_}@}. Suppose {@{for the sake of contradiction that _B_ is not spanning}@}. Then {@{there exists some __v__ ∈ _V_ not covered by the span of _B_}@}. This says that {@{_B_ ∪ {__v__} is a linearly independent subset of _V_ that is larger than _B_}@}, contradicting {@{the maximality of _B_}@}. Therefore, {@{_B_ is a spanning set of _V_, and thus, a basis of _V_}@}. <!--SR:!2027-03-07,575,330!2027-05-28,665,330!2030-09-04,1646,370!2030-10-27,1687,370!2026-06-29,403,310!2030-02-15,1484,370!2029-01-05,1078,350-->
+Finally, we show that {@{_B_ is indeed a basis of _V_}@}. It {@{suffices to show that _B_ is a [spanning set](linear%20span.md) of _V_}@}. Suppose {@{for the sake of contradiction that _B_ is not spanning}@}. Then {@{there exists some __v__ ∈ _V_ not covered by the span of _B_}@}. This says that {@{_B_ ∪ {__v__} is a linearly independent subset of _V_ that is larger than _B_}@}, contradicting {@{the maximality of _B_}@}. Therefore, {@{_B_ is a spanning set of _V_, and thus, a basis of _V_}@}. <!--SR:!2027-03-07,575,330!2027-05-28,665,330!2030-09-04,1646,370!2030-10-27,1687,370!fsrs,2030-10-12T00:00:00.000Z,1565,1565.10484637,1,2,10,0,0,2026-06-30T00:00:00.000Z!2030-02-15,1484,370!2029-01-05,1078,350-->
 
 ### every nontrivial ring with unity contains a maximal ideal
 
