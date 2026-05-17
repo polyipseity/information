@@ -35,7 +35,7 @@ This language is exactly what lies behind the density viewpoint in probability. 
 
 Flashcards for this section are as follows:
 
-- partition of $[a,b]$ ::@:: A partition of $[a,b]$ is a finite ordered tuple $Z_n=(x_0,\ldots,x_n)$ with $a=x_0<x_1<\cdots<x_n=b$. <!--SR:!2026-07-01,54,310!2026-07-13,63,310-->
+- partition of $[a,b]$ ::@:: A partition of $[a,b]$ is a finite ordered tuple $Z_n=(x_0,\ldots,x_n)$ with $a=x_0<x_1<\cdots<x_n=b$. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-07-13,63,310-->
 - norm of a partition $Z_n$ ::@:: The norm of a partition $Z_n$ is $|Z_n|=\max_{1\le j\le n}(x_j-x_{j-1})$; it measures the largest subinterval length. <!--SR:!2026-07-05,58,310!2026-07-09,62,310-->
 - lower Riemann sum for $f$ on intervals $I_j=[x_{j-1},x_j]$ ::@:: The lower Riemann sum is $S_-(Z_n,f)=\sum_{j=1}^n (x_j-x_{j-1})\inf_{z\in I_j}f(z)$. <!--SR:!2026-07-09,59,310!2026-07-13,63,310-->
 - upper Riemann sum for $f$ on intervals $I_j=[x_{j-1},x_j]$ ::@:: The upper Riemann sum is $S_+(Z_n,f)=\sum_{j=1}^n (x_j-x_{j-1})\sup_{z\in I_j}f(z)$. <!--SR:!2026-07-05,58,310!2026-07-10,63,310-->
@@ -86,14 +86,14 @@ In probability this theorem explains why one recovers a density from a different
 Flashcards for this section are as follows:
 
 - fundamental theorem of calculus / if $F(x)=\int_a^x f(t)\,dt$ with continuous $f$ ::@:: Then $F$ is uniformly continuous on $[a,b]$, differentiable on $(a,b)$, and satisfies $F'(x)=f(x)$. <!--SR:!2026-07-08,61,310!2026-07-06,56,310-->
-- fundamental theorem of calculus / why $F$ is uniformly continuous ::@:: If $|f(t)|\le M$ on $[a,b]$, then $|F(x)-F(y)|=\left|\int_x^y f(t)\,dt\right|\le M|x-y|$, so $F$ is Lipschitz and therefore uniformly continuous. <!--SR:!2026-07-01,54,310!2026-07-10,63,310-->
+- fundamental theorem of calculus / why $F$ is uniformly continuous ::@:: If $|f(t)|\le M$ on $[a,b]$, then $|F(x)-F(y)|=\left|\int_x^y f(t)\,dt\right|\le M|x-y|$, so $F$ is Lipschitz and therefore uniformly continuous. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-07-10,63,310-->
 - fundamental theorem of calculus / can one replace "uniformly continuous" by "Lipschitz" in part I, given $|F(x)-F(y)|\le \sup_{t\in[a,b]}|f(t)|\,|x-y|$? ::@:: In this setting yes, because that estimate shows $F$ is Lipschitz. But the standard theorem statement uses the weaker conclusion "uniformly continuous", which is the more natural minimal claim; saying "Lipschitz" as the headline would be correct but unnecessarily strong. <!--SR:!2026-07-14,67,310!2026-07-08,58,310-->
 - fundamental theorem of calculus / correct Riemann-theory hypothesis for part II: if $g$ is differentiable on $[a,b]$ and $g'$ is Riemann-integrable on $[a,b]$ ::@:: Then $\int_a^b g'(x)\,dx=g(b)-g(a)$. <!--SR:!2026-07-14,64,310!2026-07-02,55,310-->
 - fundamental theorem of calculus / why differentiability of $g$ alone is not enough ::@:: A differentiable function can have a derivative that is not Riemann-integrable, for example because the derivative is unbounded or too badly behaved; so FTC II in the Riemann setting needs the extra hypothesis that $g'$ itself is Riemann-integrable. <!--SR:!2026-07-07,57,310!2026-07-10,63,310-->
 - fundamental theorem of calculus / warning example with $g(x)=x^2\sin(1/x^2)$ for $x\neq0$, $g(0)=0$ ::@:: This $g$ is differentiable on $[-1,1]$, but $g'(x)=2x\sin(1/x^2)-2x^{-1}\cos(1/x^2)$ for $x\neq0$, which is unbounded near $0$; hence $g'$ is not Riemann-integrable. So differentiability of $g$ does not by itself imply the hypothesis needed for FTC II. <!--SR:!2026-07-08,61,310!2026-07-05,58,310-->
 - fundamental theorem of calculus / intuition for $F(x)=\int_a^x f(t)\,dt$ ::@:: The function $F$ measures accumulated area from $a$ to $x$, so its derivative should be the local rate of accumulation; that rate is exactly the current height $f(x)$. <!--SR:!2026-07-03,56,310!2026-07-11,61,310-->
 - fundamental theorem of calculus / intuition for $\int_a^b g'(x)\,dx=g(b)-g(a)$ once $g'$ is integrable ::@:: The derivative $g'$ is instantaneous change, so integrating it over $[a,b]$ adds up all infinitesimal changes and recovers the total net change $g(b)-g(a)$. <!--SR:!2026-07-13,66,310!2026-07-07,60,310-->
-- why $F(x)=\int_{-\infty}^x f(t)\,dt$ leads to $F'(x)=f(x)$ ::@:: If a cumulative distribution function has the form $F(x)=\int_{-\infty}^x f(t)\,dt$ with a continuous density $f$, then the fundamental theorem gives $F'(x)=f(x)$ at points of continuity of the density. <!--SR:!2026-07-01,54,310!2026-07-05,58,310-->
+- why $F(x)=\int_{-\infty}^x f(t)\,dt$ leads to $F'(x)=f(x)$ ::@:: If a cumulative distribution function has the form $F(x)=\int_{-\infty}^x f(t)\,dt$ with a continuous density $f$, then the fundamental theorem gives $F'(x)=f(x)$ at points of continuity of the density. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-07-05,58,310-->
 
 ## algebraic properties of the Riemann integral
 
@@ -113,7 +113,7 @@ Flashcards for this section are as follows:
 
 - positivity of $\int_a^b f(x)\,dx$ when $f\ge0$ ::@:: If $f\in R([a,b])$ and $f\ge0$, then $\int_a^b f(x)\,dx\ge0$. <!--SR:!2026-07-02,55,310!2026-07-16,66,310-->
 - linear subspace property of $R([a,b])$ ::@:: If $f,g\in R([a,b])$ and $\alpha,\beta\in\mathbb{R}$, then $\alpha f+\beta g\in R([a,b])$; in particular, $R([a,b])$ is a linear subspace of $B([a,b])$. <!--SR:!2026-07-03,56,310!2026-07-15,65,310-->
-- linearity of $\int_a^b (\alpha f+\beta g)$ once $\alpha f+\beta g\in R([a,b])$ ::@:: One has $\int_a^b (\alpha f(x)+\beta g(x))\,dx=\alpha\int_a^b f(x)\,dx+\beta\int_a^b g(x)\,dx$. <!--SR:!2026-07-01,54,310!2026-07-13,66,310-->
+- linearity of $\int_a^b (\alpha f+\beta g)$ once $\alpha f+\beta g\in R([a,b])$ ::@:: One has $\int_a^b (\alpha f(x)+\beta g(x))\,dx=\alpha\int_a^b f(x)\,dx+\beta\int_a^b g(x)\,dx$. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-07-13,66,310-->
 - closure of $R([a,b])$ under $|f|$ and $fg$ ::@:: If $f,g\in R([a,b])$, then $|f|$ and $fg$ are also Riemann-integrable. <!--SR:!2026-07-08,61,310!2026-07-14,64,310-->
 - absolute-value estimate and triangle inequality for $\int_a^b f(x)\,dx$ ::@:: For $f\in R([a,b])$, one has $\left|\int_a^b f(x)\,dx\right|\le\int_a^b |f(x)|\,dx$; this is the integral form of the triangle inequality because cancellation in the signed integral can only reduce total size. <!--SR:!2026-07-07,57,310!2026-07-04,57,310-->
 - quotient counterexample with $f(x)\equiv1$ and $g(x)=x$ for $x\neq0$, $g(0)=1$ ::@:: Both $f$ and $g$ are Riemann-integrable and $g$ never vanishes, but $f/g$ equals $1/x$ for $x\neq0$ and is unbounded near $0$, so it is not Riemann-integrable on $[-1,1]$. Thus Riemann-integrable functions are not closed under arbitrary division. <!--SR:!2026-07-15,65,310!2026-07-04,54,310-->

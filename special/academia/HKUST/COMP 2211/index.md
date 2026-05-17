@@ -107,7 +107,7 @@ The content is in teaching order.
   - artificial intelligence / disadvantages ::@:: high cost of creation and maintenance, lack out-of-the-box thinking, make humans lazy, unemotional, unemployment <!--SR:!2026-11-21,570,330!2029-09-07,1398,370-->
   - artificial intelligence / prerequisites ::@:: algorithms, data analysis, mathematics, programming, will to learn <!--SR:!2030-07-01,1632,370!2028-12-10,1170,352-->
   - artificial intelligence / periods
-    - artificial intelligence / periods / 1950–1956 ::@:: birth of artificial intelligence <!--SR:!2026-07-01,444,310!2026-08-01,466,312-->
+    - artificial intelligence / periods / 1950–1956 ::@:: birth of artificial intelligence <!--SR:!fsrs,2031-03-02T00:00:00.000Z,1704,1703.62752039,1,2,10,0,0,2026-07-02T00:00:00.000Z!2026-08-01,466,312-->
     - artificial intelligence / periods / 1956–1974 ::@:: symbolic AI <!--SR:!2029-10-12,1347,330!fsrs,2030-08-22T00:00:00.000Z,1516,1515.7886458,1.98030797,2,10,0,0,2026-06-28T00:00:00.000Z-->
     - artificial intelligence / periods / 1974–1980 ::@:: the first AI winter <!--SR:!2027-02-01,610,330!fsrs,2031-01-15T10:14:58.423Z,1676,1675.8653818,1,2,10,0,0,2026-06-14T10:14:58.423Z-->
     - artificial intelligence / periods / 1980–1987 ::@:: AI boom <!--SR:!2026-07-09,451,310!2026-07-18,457,310-->
@@ -1080,7 +1080,7 @@ ID: 23456789
     - game / characteristics / poker ::@:: non-deterministic, imperfect information, zero-sum <!--SR:!2029-03-06,1219,386!2026-09-14,518,402-->
 - [tic-tac-toe](../../../../general/tic-tac-toe.md)
   - tic-tac-toe / AI agent
-    - tic-tac-toe / naive approach ::@:: If there is a winning play, play it. If there is play to block the opponent's win, play it. Otherwise, randomly play. <p> Funny non-optimal approach... <!--SR:!2026-08-04,484,405!2026-07-01,455,402-->
+    - tic-tac-toe / naive approach ::@:: If there is a winning play, play it. If there is play to block the opponent's win, play it. Otherwise, randomly play. <p> Funny non-optimal approach... <!--SR:!2026-08-04,484,405!fsrs,2032-04-15T00:00:00.000Z,2114,2113.75154719,1,2,10,0,0,2026-07-02T00:00:00.000Z-->
     - tic-tac-toe / brute force ::@:: Represent all possible states and all possible moves using a tree. Choose the move using minimax,  a decision rule. <p> A rough calculation would yield 9\! = 986409 states. This is a upper bound, since multiple move sets can lead to the same state, and the game can end before there are no more empty spaces in the board. <!--SR:!2026-07-14,466,399!2030-11-27,1751,402-->
 - [minimax](../../../../general/minimax.md) ::@:: It is a _recursive algorithm_ which is used to _choose an optimal move_ for a player assuming that _the other player is also playing optimally_. <p> The two players are called _maximizer_ (denoted as MAX) and _minimizer_ (denoted as MIN), and define a scoring method from the standpoint of the MAX player. The maximizer (the _AI_) tries to maximize its score while the minimizer (the _human_) tries to minimize the score of AI. <!--SR:!2026-08-25,501,402!2030-05-04,1574,398-->
   - minimax / names ::@:: It is called "minimax" because it helps in _minimizing_ the _loss_ the other players can force us to receive. It may also be called "maxmini" if we want to _maximize_ the _gain_ that others players try to minimize. <!--SR:!2026-10-02,533,402!2026-08-31,508,406-->

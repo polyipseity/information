@@ -58,7 +58,7 @@ return chain.from_iterable([r.value for r in results])
 
 - [translation](translation%20(geometry).md) ($x, y, z$):@:[monoatomic](monoatomic%20gas.md): 3, [linear molecules](linear%20molecular%20geometry.md): 3, [non-linear molecules](molecular%20geometry.md): 3 <!--SR:!2027-08-21,964,330-->
 - [rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md)):@:[monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): 2, [non-linear molecules](molecular%20geometry.md): 3 <!--SR:!2027-05-24,973,350-->
-- [vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md)):@:[monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$ <!--SR:!2026-07-01,622,290-->
+- [vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md)):@:[monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$ <!--SR:!fsrs,2032-04-29T00:00:00.000Z,2128,2128.1035648,1.98030797,2,10,0,0,2026-07-02T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

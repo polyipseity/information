@@ -196,7 +196,7 @@ The content is in teaching order.
 - [net income](../../../../general/net%20income.md) ::@:: Also known as __net profit__. Simply add all revenues and subtract all expenses, except for dividends (which is not an expense by definition in the first place). <!--SR:!2026-07-17,471,403!2029-11-16,1405,383-->
 - [net sales](../../../../general/sales%20(accounting).md#gross%20sales%20and%20net%20sales) ::@:: $${\text{gross sales} }-{\text{(customer discounts, returns, allowances)} }$$ For the service industry, the latter does not really exist, so it's simply gross sales, or operating revenues. <!--SR:!2026-09-13,520,403!2026-10-05,539,403-->
 - [profit margin](../../../../general/profit%20margin.md)
-  - net profit margin ::@:: $$100\% \cdot \frac {\text{net income} } {\text{net sales} }$$ (Expressing it as a fraction or ratio, i.e. not multiplying by 100%, is also okay!) <!--SR:!2026-08-02,485,396!2026-07-01,460,403-->
+  - net profit margin ::@:: $$100\% \cdot \frac {\text{net income} } {\text{net sales} }$$ (Expressing it as a fraction or ratio, i.e. not multiplying by 100%, is also okay!) <!--SR:!2026-08-02,485,396!fsrs,2032-05-05T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-07-02T00:00:00.000Z-->
     - net profit margin / interpretation ::@:: It can be used to assess how effective the directors are in generating net income (profit) on every dollar of sales. A rising ratio signals more efficient management of sales and expenses. <!--SR:!2030-12-30,1775,396!2031-04-14,1858,396-->
 - [§ week 3 review](questions.md#week%203%20review)
 

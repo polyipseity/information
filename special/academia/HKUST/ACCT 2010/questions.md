@@ -464,7 +464,7 @@ tags:
 > 3. LIFO
 >
 > - solution: {@{2}@}
-> - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@} <!--SR:!2026-07-01,455,381!fsrs,2030-01-08T10:16:15.462Z,1304,1303.9323265,1,2,10,0,0,2026-06-14T10:16:15.462Z-->
+> - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@} <!--SR:!fsrs,2032-04-15T00:00:00.000Z,2114,2113.75154719,1,2,10,0,0,2026-07-02T00:00:00.000Z!fsrs,2030-01-08T10:16:15.462Z,1304,1303.9323265,1,2,10,0,0,2026-06-14T10:16:15.462Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -779,7 +779,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{3}@} <!--SR:!2026-07-01,455,381-->
+> - solution: {@{3}@} <!--SR:!fsrs,2032-04-15T00:00:00.000Z,2114,2113.75154719,1,2,10,0,0,2026-07-02T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

@@ -105,7 +105,7 @@ Suppose {@{_x_ is an element of _I_}@}. Then there exists {@{an ideal _J_ ∈ _T
 
 Now, we show that {@{_I_ is a _proper_ ideal}@}. An ideal is {@{equal to _R_}@} {@{[if and only if](if%20and%20only%20if.md) it contains 1}@}. \(It is clear that {@{if it is _R_ then it contains 1}@}; on the other hand, if {@{it contains 1 and _r_ is an arbitrary element of _R_}@}, then {@{_r_<!-- markdown separator -->1 = _r_ is an element of the ideal}@}, and so {@{the ideal is equal to _R_}@}.\) So, if {@{_I_ were equal to _R_}@}, then {@{it would contain 1}@}, and that means {@{one of the members of _T_ would contain 1}@} and would thus {@{be equal to _R_}@} – but {@{_R_ is explicitly excluded from _P_}@}. <!--SR:!2030-08-12,1628,370!2029-09-05,1333,358!2030-07-31,1618,370!2030-11-07,1696,370!2028-03-10,843,330!2030-10-07,1672,370!2030-08-13,1628,370!2030-11-03,1693,370!2030-02-17,1486,370!2029-07-17,1222,350!2026-10-20,264,381!2028-06-15,749,422-->
 
-{@{The hypothesis of Zorn's lemma has been checked}@}, and thus {@{there is a maximal element in _P_}@}, in other words {@{a maximal ideal in _R_}@}. <!--SR:!2030-07-20,1609,370!2026-07-01,405,310!2028-06-02,976,350-->
+{@{The hypothesis of Zorn's lemma has been checked}@}, and thus {@{there is a maximal element in _P_}@}, in other words {@{a maximal ideal in _R_}@}. <!--SR:!2030-07-20,1609,370!fsrs,2030-10-21T00:00:00.000Z,1572,1571.89912512,1,2,10,0,0,2026-07-02T00:00:00.000Z!2028-06-02,976,350-->
 
 ## proof sketch
 

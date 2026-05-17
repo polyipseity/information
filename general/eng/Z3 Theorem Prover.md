@@ -39,7 +39,7 @@ Z3 was {@{open sourced in the beginning of 2015}@}.<sup>[\[3\]](#^ref-3)</sup> T
 
 ### propositional and predicate logic
 
-In this example {@{propositional logic assertions}@} are {@{checked using functions}@} to {@{represent the propositions a and b}@}. The following Z3 script checks to see if {@{${\overline {a\land b} }\equiv {\overline {a} }\lor {\overline {b} }$ \(annotation: De Morgan's law\)}@}: <!--SR:!2026-07-01,284,330!2029-06-11,1124,350!2029-09-07,1192,350!2029-04-13,1076,350-->
+In this example {@{propositional logic assertions}@} are {@{checked using functions}@} to {@{represent the propositions a and b}@}. The following Z3 script checks to see if {@{${\overline {a\land b} }\equiv {\overline {a} }\lor {\overline {b} }$ \(annotation: De Morgan's law\)}@}: <!--SR:!fsrs,2029-11-20T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-07-02T00:00:00.000Z!2029-06-11,1124,350!2029-09-07,1192,350!2029-04-13,1076,350-->
 
 ```Z3
 (declare-fun a () Bool)

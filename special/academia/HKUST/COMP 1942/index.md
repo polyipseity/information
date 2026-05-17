@@ -426,7 +426,7 @@ The content is in teaching order.
   - [§ algorithm](../../../../general/PageRank.md#algorithm)
     - PageRank self-links ::@:: Self-links are considered. <!--SR:!2026-10-13,690,408!2026-07-28,627,408-->
     - PageRank initialization ::@:: We initialize all PageRank values to 1 instead of 1 divided by number of pages. <!--SR:!2031-11-17,2161,397!2029-07-25,1495,397-->
-    - PageRank termination ::@:: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2033-12-10,2832,428!2026-07-01,612,408-->
+    - PageRank termination ::@:: Terminate the PageRank algorithm when after rounding the values to a certain number of digits, the values have not changed. <!--SR:!2033-12-10,2832,428!fsrs,2033-12-27T00:00:00.000Z,2735,2734.74901937,1,2,10,0,0,2026-07-02T00:00:00.000Z-->
   - [§ simplified algorithm](../../../../general/PageRank.md#simplified%20algorithm)
   - [§ damping factor](../../../../general/PageRank.md#damping%20factor)
     - PageRank damping factor variation ::@:: We use the "wrong" algorithm in the original paper, where the PageRank is added $1 - d$ instead of $\frac {1 - d} N$. <!--SR:!2033-08-08,2716,417!2029-03-13,1388,397-->

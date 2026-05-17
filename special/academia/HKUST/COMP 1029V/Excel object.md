@@ -21,7 +21,7 @@ The `Cells` object can refer to {@{a cell}@}. We pass {@{the 1-based row and the
 
 ### `Worksheets`
 
-The `Worksheets` object can refer to {@{a worksheet}@}. We get a worksheet {@{by name: `Worksheets(name)`, such as `Worksheets("Sheet1")`}@}. We can also access `Range` and `Cells` in a specific worksheet by accessing them under the `Worksheets` object, like {@{`Worksheets("Sheet1").Range("A1")`}@}. <!--SR:!2028-07-12,1262,350!2026-10-30,750,330!2026-07-01,660,330-->
+The `Worksheets` object can refer to {@{a worksheet}@}. We get a worksheet {@{by name: `Worksheets(name)`, such as `Worksheets("Sheet1")`}@}. We can also access `Range` and `Cells` in a specific worksheet by accessing them under the `Worksheets` object, like {@{`Worksheets("Sheet1").Range("A1")`}@}. <!--SR:!2028-07-12,1262,350!2026-10-30,750,330!fsrs,2033-07-26T00:00:00.000Z,2581,2581.36586655,1,2,10,0,0,2026-07-02T00:00:00.000Z-->
 
 One can make a worksheet active using {@{the `Activate` method, like `Worksheets("My Potential").Activate`}@}. <!--SR:!2029-03-25,1308,290-->
 
