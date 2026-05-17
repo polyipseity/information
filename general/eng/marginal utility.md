@@ -87,7 +87,7 @@ Under {@{the [special case](special%20case.md) in which usefulness can be quanti
 
 ## history
 
-Economists sought to {@{explain how prices are determined}@}, and in this pursuit, they {@{developed the concept of marginal utility}@}. The term "marginal utility", credited to {@{the [Austrian](Austrian%20school%20of%20economics.md) economist [Friedrich von Wieser](Friedrich%20von%20Wieser.md) by [Alfred Marshall](Alfred%20Marshall.md)}@},<sup>[\[24\]](#^ref-24)</sup> was {@{a translation of Wieser's term _Grenznutzen_ ("border-use")}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2029-03-22,1238,350!2029-04-18,1260,350!2026-07-31,459,310!2029-04-11,1255,350-->
+Economists sought to {@{explain how prices are determined}@}, and in this pursuit, they {@{developed the concept of marginal utility}@}. The term "marginal utility", credited to {@{the [Austrian](Austrian%20school%20of%20economics.md) economist [Friedrich von Wieser](Friedrich%20von%20Wieser.md) by [Alfred Marshall](Alfred%20Marshall.md)}@},<sup>[\[24\]](#^ref-24)</sup> was {@{a translation of Wieser's term _Grenznutzen_ ("border-use")}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2029-03-22,1238,350!2029-04-18,1260,350!fsrs,2031-05-21T00:00:00.000Z,1754,1753.92639196,1,2,10,0,0,2026-08-01T00:00:00.000Z!2029-04-11,1255,350-->
 
 ### proto-marginalist approaches
 

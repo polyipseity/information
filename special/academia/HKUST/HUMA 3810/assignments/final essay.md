@@ -34,4 +34,4 @@ Flashcards for this section are as follows:
 Flashcards for this section are as follows:
 
 - expected length :@: The final essay should be around 3,000 words. <!--SR:!fsrs,2027-05-26T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
-- AI policy for the essay :@: Generative AI may help with brainstorming or source-finding, but it must not compose the essay in whole or in part. <!--SR:!2026-07-31,62,310-->
+- AI policy for the essay :@: Generative AI may help with brainstorming or source-finding, but it must not compose the essay in whole or in part. <!--SR:!fsrs,2027-06-06T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-08-01T00:00:00.000Z-->

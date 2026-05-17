@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 - why linear regression matters early ::@:: Linear regression already exhibits the main machine-learning ideas of supervised learning, loss minimization, feature engineering, capacity control, regularization, and probabilistic interpretation. <!--SR:!2026-08-25,87,363!fsrs,2027-08-18T00:00:00.000Z,383,382.93736419,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
 - course convention for the intercept term ::@:: In this course the bias/intercept is included by augmenting the features with $x_0 = 1$, so the predictor is written compactly as $\hat y = w^\top x$. <!--SR:!2026-08-11,86,353!2026-08-04,84,353-->
 - role of the weights ::@:: The entries of $w$ determine how strongly the corresponding features influence the predicted response. <!--SR:!2026-08-03,83,341!fsrs,2027-08-02T00:00:00.000Z,370,369.75349055,1,2,7,0,0,2026-07-28T00:00:00.000Z-->
-- linear in parameters versus linear in raw input ::@:: A model can be nonlinear in the raw input yet still count as a linear model if it is linear in the transformed features or parameters. <!--SR:!2026-07-31,80,341!fsrs,2026-12-28T00:00:00.000Z,177,177.09411292,3.24197837,2,7,0,0,2026-07-04T00:00:00.000Z-->
+- linear in parameters versus linear in raw input ::@:: A model can be nonlinear in the raw input yet still count as a linear model if it is linear in the transformed features or parameters. <!--SR:!fsrs,2027-10-05T00:00:00.000Z,430,429.78281268,1,2,7,0,0,2026-08-01T00:00:00.000Z!fsrs,2026-12-28T00:00:00.000Z,177,177.09411292,3.24197837,2,7,0,0,2026-07-04T00:00:00.000Z-->
 
 ## supervised regression setup and ordinary least squares
 
@@ -323,7 +323,7 @@ This picture also explains why it is dangerous to compare two models only by tra
 Flashcards for this section are as follows:
 
 - U-shaped test-error curve ::@:: As model capacity increases, test error often first decreases and then increases, producing the familiar U-shaped generalization curve. <!--SR:!2026-08-11,86,353!2026-08-05,85,353-->
-- why low training error can mislead ::@:: A model can have very low training error yet poor generalization because it may have learned training-set noise instead of the underlying pattern. <!--SR:!2026-08-05,85,353!2026-07-31,80,341-->
+- why low training error can mislead ::@:: A model can have very low training error yet poor generalization because it may have learned training-set noise instead of the underlying pattern. <!--SR:!2026-08-05,85,353!fsrs,2027-10-05T00:00:00.000Z,430,429.78281268,1,2,7,0,0,2026-08-01T00:00:00.000Z-->
 - capacity sweet spot ::@:: The best capacity is usually an intermediate one that balances expressiveness against sensitivity to noise. <!--SR:!2026-08-08,83,341!2026-08-06,81,341-->
 
 ### capacity comparison: degree 14 versus degree 20
@@ -501,7 +501,7 @@ Flashcards for this section are as follows:
 
 - mean squared error metric ::@:: The mean squared error is $\mathrm{MSE} = \frac{1}{N}\sum_{i=1}^N (y_i - \hat y_i)^2$, the average squared prediction error over a dataset. <!--SR:!2026-08-06,86,353!2026-08-31,93,363-->
 - why MSE can be used on validation and test sets ::@:: MSE is a dataset-level average error measure, so it can be computed on training, validation, or test data. <!--SR:!2026-08-11,86,353!fsrs,2027-08-13T00:00:00.000Z,379,378.55033956,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
-- RMSE ::@:: The root mean squared error is $\mathrm{RMSE} = \sqrt{\mathrm{MSE}}$, which restores the error to the same unit as the target variable. <!--SR:!2026-07-31,80,341!2026-08-03,78,341-->
+- RMSE ::@:: The root mean squared error is $\mathrm{RMSE} = \sqrt{\mathrm{MSE}}$, which restores the error to the same unit as the target variable. <!--SR:!fsrs,2027-10-05T00:00:00.000Z,430,429.78281268,1,2,7,0,0,2026-08-01T00:00:00.000Z!2026-08-03,78,341-->
 - why RMSE is easier to interpret ::@:: RMSE is often easier to interpret than MSE because its unit matches the original response variable instead of squaring it. <!--SR:!2026-08-05,85,353!2026-08-06,86,353-->
 - $R^2$ score formula ::@:: The coefficient of determination is $R^2 = 1 - \frac{\sum_{i=1}^N (y_i - \hat y_i)^2}{\sum_{i=1}^N (y_i - \bar y)^2}$, where $\bar y$ is the sample mean. <!--SR:!2026-08-03,83,341!2026-08-05,80,341-->
 - meaning of $R^2 = 1$ ::@:: $R^2 = 1$ means the model predicts the targets perfectly, so the residual sum of squares is zero. <!--SR:!2026-08-11,86,353!2026-08-02,82,341-->

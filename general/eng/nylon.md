@@ -17,7 +17,7 @@ tags:
 
 ### nomenclature
 
-{@{One number}@} indicates {@{a homopolymer}@} based on {@{one type of [amino acid](amino%20acid.md)}@} with {@{the specified number of [carbons](carbon.md)}@}. <!--SR:!2026-07-31,654,250!2027-02-16,334,341!2027-02-11,330,341!2027-02-17,335,341-->
+{@{One number}@} indicates {@{a homopolymer}@} based on {@{one type of [amino acid](amino%20acid.md)}@} with {@{the specified number of [carbons](carbon.md)}@}. <!--SR:!fsrs,2031-10-02T00:00:00.000Z,1888,1887.82254704,3.98153807,2,10,0,0,2026-08-01T00:00:00.000Z!2027-02-16,334,341!2027-02-11,330,341!2027-02-17,335,341-->
 
 {@{Two numbers}@} indicate {@{a dyadic homopolymer}@} based on {@{one type of [diamine](amine.md) and one type of [dicarboxylic acid](carboxylic%20acid.md)}@}. {@{The first number}@} indicates {@{the number of [carbons](carbon.md) in the diamine}@}, while {@{the second one indicates in the dicarboxylic acid}@}. <!--SR:!2027-04-18,498,190!2027-02-11,330,341!2027-02-12,331,341!2027-02-06,326,341!2027-02-05,325,341!2027-02-05,325,341-->
 

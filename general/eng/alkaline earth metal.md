@@ -59,7 +59,7 @@ return await memorize_map(
 - [magnesium](magnesium.md):@:reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas <!--SR:!2027-05-17,489,190-->
 - [calcium](calcium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2031-10-14,1974,270-->
 - [strontium](strontium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2030-08-29,1635,250-->
-- [barium](barium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2026-07-31,464,190-->
+- [barium](barium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!fsrs,2028-08-27T00:00:00.000Z,757,756.56763448,7.73747837,2,10,0,0,2026-08-01T00:00:00.000Z-->
 - [radium](radium.md):@:unknown <!--SR:!2028-08-19,1537,350-->
 
 <!--/pytextgen-->

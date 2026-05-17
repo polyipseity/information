@@ -93,7 +93,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-10T09:00:00+08:00/2025-02-10T10:20:00+08:00
 - topic: Maxwell equations of electrostatics
-- [field line](../../../../general/field%20line.md) ::@:: It is a graphical visual aid for visualizing vector fields. It consists of an imaginary integral curve which is tangent to the field vector at each point along its length. <!--SR:!2030-12-07,1665,382!2026-07-31,421,382-->
+- [field line](../../../../general/field%20line.md) ::@:: It is a graphical visual aid for visualizing vector fields. It consists of an imaginary integral curve which is tangent to the field vector at each point along its length. <!--SR:!2030-12-07,1665,382!fsrs,2031-12-29T00:00:00.000Z,1976,1975.98530461,1,2,10,0,0,2026-08-01T00:00:00.000Z-->
     - field line / examples
         - field line / examples / point source ::@:: The field lines radiate outwards/inwards. <!--SR:!2026-09-28,459,382!2026-08-08,428,382-->
         - field line / examples / parallel plate capacitor ::@:: The field lines are roughly straight from one plate to another when far away from the capacitor edges. Close to the edges, the field lines start bending. <!--SR:!2026-09-27,458,382!2026-08-07,427,382-->

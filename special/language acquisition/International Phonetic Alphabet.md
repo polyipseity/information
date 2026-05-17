@@ -476,7 +476,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [close central unrounded vowel](close%20central%20unrounded%20vowel.md):@:\[ɨ\] <!--SR:!2028-06-11,1261,372-->
 - [voiced palatal approximant](voiced%20palatal%20approximant.md):@:\[j\] <!--SR:!2027-06-25,963,331-->
 - [palatalization](palatalization%20(phonetics).md):@:\[ʲ\] <!--SR:!2032-12-28,2715,381-->
-- [voiced palatal fricative](voiced%20palatal%20fricative.md):@:\[ʝ\] <!--SR:!2026-07-31,343,201-->
+- [voiced palatal fricative](voiced%20palatal%20fricative.md):@:\[ʝ\] <!--SR:!fsrs,2028-03-22T00:00:00.000Z,599,599.44477648,7.32539087,2,9,0,0,2026-08-01T00:00:00.000Z-->
 - [voiced palatal plosive](voiced%20palatal%20plosive.md):@:\[ɟ\] <!--SR:!2027-05-13,978,341-->
 - [voiced palatal implosive](voiced%20palatal%20implosive.md):@:\[ʄ\] <!--SR:!2026-11-13,813,351-->
 - [voiceless velar plosive](voiceless%20velar%20plosive.md):@:\[k\] <!--SR:!2026-08-24,810,339-->
@@ -897,7 +897,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![close back unrounded vowel](../../archives/Wikimedia%20Commons/Close%20back%20unrounded%20vowel.ogg):@:[close back unrounded vowel](close%20back%20unrounded%20vowel.md) <!--SR:!fsrs,2026-08-26T00:00:00.000Z,64,64.23813052,9.98522837,2,7,0,0,2026-06-23T00:00:00.000Z-->
 - ![voiced velar approximant](../../archives/Wikimedia%20Commons/Voiced%20velar%20approximant.ogg):@:[voiced velar approximant](voiced%20velar%20approximant.md) <!--SR:!2026-08-04,67,291-->
 - ![voiceless velar fricative](../../archives/Wikimedia%20Commons/Voiceless%20velar%20fricative.ogg):@:[voiceless velar fricative](voiceless%20velar%20fricative.md) <!--SR:!fsrs,2026-09-16T03:48:49.327Z,92,92.48987238,6.47513947,2,6,0,0,2026-06-16T03:48:49.327Z-->
-- ![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg):@:[voiceless uvular fricative](voiceless%20uvular%20fricative.md) <!--SR:!fsrs,2026-08-01T00:00:00.000Z,25,25.41404429,9.97542228,2,6,0,0,2026-07-07T00:00:00.000Z-->
+- ![voiceless uvular fricative](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20fricative.ogg):@:[voiceless uvular fricative](voiceless%20uvular%20fricative.md) <!--SR:!fsrs,2026-08-31T00:00:00.000Z,30,30.27797364,9.96891253,2,7,0,0,2026-08-01T00:00:00.000Z-->
 - ![close front rounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20rounded%20vowel.ogg):@:[close front rounded vowel](close%20front%20rounded%20vowel.md) <!--SR:!fsrs,2026-11-30T06:00:51.610Z,168,167.58447547,6.50003372,2,7,0,0,2026-06-15T06:00:51.610Z-->
 - ![near-close near-front rounded vowel](../../archives/Wikimedia%20Commons/Near-close%20near-front%20rounded%20vowel.ogg):@:[near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md) <!--SR:!2026-08-04,92,230-->
 - ![voiced velar fricative](../../archives/Wikimedia%20Commons/Voiced%20velar%20fricative.ogg):@:[voiced velar fricative](voiced%20velar%20fricative.md) <!--SR:!fsrs,2026-10-16T00:00:00.000Z,96,95.55744238,8.98945847,2,7,0,0,2026-07-12T00:00:00.000Z-->
@@ -1005,7 +1005,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced uvular fricative](voiced%20uvular%20fricative.md):@:[French](French%20language.md) _**r**ester_ \[ʁɛste\] "to stay" <!--SR:!fsrs,2026-10-08T00:00:00.000Z,109,108.9618966,8.98461332,2,7,0,0,2026-06-21T00:00:00.000Z-->
 - [voiceless alveolar fricative](voiceless%20alveolar%20fricative.md):@:[English](English%20language.md) _**s**it_ \[sɪt\] <!--SR:!2026-08-31,504,271-->
 - [voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md):@:[English](English%20language.md) _**sh**eep_ \[ˈʃiːp\] <!--SR:!2026-08-04,265,191-->
-- [voiceless retroflex fricative](voiceless%20retroflex%20fricative.md):@:[Polish](Polish%20language.md) _**sz**um_ \[ʂ̻um\] "rustle" <!--SR:!2026-07-31,84,130-->
+- [voiceless retroflex fricative](voiceless%20retroflex%20fricative.md):@:[Polish](Polish%20language.md) _**sz**um_ \[ʂ̻um\] "rustle" <!--SR:!fsrs,2026-11-06T00:00:00.000Z,97,97.11973007,9.98522837,2,7,0,0,2026-08-01T00:00:00.000Z-->
 - [voiceless alveolar plosive](voiceless%20alveolar%20plosive.md):@:[English](English%20language.md) _**t**ick_ \[tʰɪk\] <!--SR:!fsrs,2029-12-26T05:59:30.974Z,1290,1289.92569925,4.70301587,2,10,0,0,2026-06-15T05:59:30.974Z-->
 - [voiceless retroflex plosive](voiceless%20retroflex%20plosive.md):@:[Norwegian](Norwegian%20language.md) _ko**rt**_ \[kɔʈː\] "card" <!--SR:!fsrs,2026-09-22T00:00:00.000Z,83,82.94106728,8.44926587,2,7,0,0,2026-07-01T00:00:00.000Z-->
 - [voiceless alveolar affricate](voiceless%20alveolar%20affricate.md):@:[English](English%20language.md) _**t**ea_ \[ˈt͡sɪˑi̯\] <!--SR:!fsrs,2026-08-12T05:59:53.885Z,58,57.66052468,8.96456423,2,6,0,0,2026-06-15T05:59:53.885Z-->

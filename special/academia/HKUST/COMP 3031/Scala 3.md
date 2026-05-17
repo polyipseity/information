@@ -805,7 +805,7 @@ Traits therefore provide {@{a flexible way}@} to {@{compose behavior}@}, enablin
 
 ## expressions
 
-Scala supports {@{expressions}@}, including {@{arithmetic expressions}@}. {@{Parentheses \(`()`\)}@} can be used to {@{prioritize evaluating some expressions over others first}@}. {@{Semicolons \(`;`\) to end an expression}@} are {@{optional in most cases}@}. You need it if you {@{put multiple expressions in one line}@}. <!--SR:!2026-08-21,260,330!2026-09-02,272,330!2026-08-26,264,330!2026-08-01,246,330!2026-07-31,246,330!2026-09-01,270,330!2026-08-05,250,330-->
+Scala supports {@{expressions}@}, including {@{arithmetic expressions}@}. {@{Parentheses \(`()`\)}@} can be used to {@{prioritize evaluating some expressions over others first}@}. {@{Semicolons \(`;`\) to end an expression}@} are {@{optional in most cases}@}. You need it if you {@{put multiple expressions in one line}@}. <!--SR:!2026-08-21,260,330!2026-09-02,272,330!2026-08-26,264,330!2026-08-01,246,330!fsrs,2029-07-28T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-01T00:00:00.000Z!2026-09-01,270,330!2026-08-05,250,330-->
 
 Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> then <expr if true> else <expr if false>`}@}. `<predicate>` is {@{always evaluated}@}. If {@{it is `true`}@}, then {@{`<expr if true>` is evaluated}@}. Else, {@{`<expr if false>` is evaluated}@}. <!--SR:!2026-09-17,283,330!2026-09-19,285,330!2026-08-19,259,330!fsrs,2029-06-12T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-21T00:00:00.000Z!2026-08-03,248,330!2026-09-05,273,330-->
 
@@ -1293,7 +1293,7 @@ Scala 3 optimizes {@{_direct_ tail calls to the _current_ function}@} by {@{reus
 
 ## scoping
 
-Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}, {@{indentation after `=`, `then`, `else`, etc. can be used as well \(like Python\)}@}. The {@{last element \(statement\) of a scope}@} is {@{the expression that determines the value of that scope}@}. The motivation of scoping is to {@{avoid _namespace pollution_}@}. <!--SR:!fsrs,2029-06-18T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-23T00:00:00.000Z!2026-07-31,246,330!2026-08-09,253,330!2026-08-20,260,330!2026-08-21,261,330!fsrs,2029-06-27T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-25T00:00:00.000Z!2026-09-03,272,330-->
+Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}, {@{indentation after `=`, `then`, `else`, etc. can be used as well \(like Python\)}@}. The {@{last element \(statement\) of a scope}@} is {@{the expression that determines the value of that scope}@}. The motivation of scoping is to {@{avoid _namespace pollution_}@}. <!--SR:!fsrs,2029-06-18T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-23T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-01T00:00:00.000Z!2026-08-09,253,330!2026-08-20,260,330!2026-08-21,261,330!fsrs,2029-06-27T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-25T00:00:00.000Z!2026-09-03,272,330-->
 
 Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\)}@} according to {@{the _source code_ \(lexical scoping\)}@}. <!--SR:!2026-09-13,280,330!2026-08-30,268,330!fsrs,2029-07-23T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-31T00:00:00.000Z!fsrs,2028-09-01T15:40:06.042Z,812,812.23824198,1,2,9,0,0,2026-06-12T15:40:06.042Z!2026-08-27,225,475-->
 

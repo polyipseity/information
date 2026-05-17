@@ -246,7 +246,7 @@ The content is in teaching order.
 - datetime: 2025-02-21T16:30:00+08:00/2025-02-21T17:50:00+08:00, PT1H20M
 - topic: interest rates
 - interest rate
-    - interest rate / quoted in ::@:: annual percentage rate (APR), effective annual rate (EAR); both are _nominal_ <!--SR:!2026-07-31,401,381!2030-08-07,1563,383-->
+    - interest rate / quoted in ::@:: annual percentage rate (APR), effective annual rate (EAR); both are _nominal_ <!--SR:!fsrs,2031-10-08T00:00:00.000Z,1894,1894.29887739,1,2,10,0,0,2026-08-01T00:00:00.000Z!2030-08-07,1563,383-->
 - [annual percentage rate](../../../../general/annual%20percentage%20rate.md) (APR) ::@:: the _simple-interest_ rate for a _whole year_ (annualized), rather than just a monthly fee/rate <!--SR:!fsrs,2031-09-18T00:00:00.000Z,1878,1877.90101299,1,2,10,0,0,2026-07-28T00:00:00.000Z!2029-12-28,1400,381-->
     - annual percentage rate / prevalence ::@:: It is almost always the rate quoted in industry. <p> _Important_: Unless otherwise specified, interest rates given in questions are always this. <!--SR:!2026-10-07,469,383!2026-09-27,459,383-->
     - annual percentage rate / conversion between durations ::@:: If the time duration is multiplied by $k$, multiply the interest rate by $k$ as well: $$r_{\text{new} } = k r_{\text{old} } \,.$$ <p> Note: APR requires the duration to be a year. If not, it would be just annual \(something\) rate. <!--SR:!fsrs,2031-08-23T00:00:00.000Z,1857,1857.3742419,1,2,10,0,0,2026-07-23T00:00:00.000Z!2026-08-12,413,383-->

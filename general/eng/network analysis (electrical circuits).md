@@ -191,7 +191,7 @@ There is {@{an underlying assumption to this method}@} that {@{the total current
 
 ## choice of method
 
-{@{Choice of method}@}<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;112–113&hairsp;</sup> is {@{to some extent a matter of taste}@}. If the network is {@{particularly simple or only a specific current or voltage is required}@} then {@{ad-hoc application of some simple equivalent circuits}@} may yield {@{the answer without recourse to the more systematic methods}@}. <!--SR:!2030-08-24,1569,369!fsrs,2031-06-01T00:00:00.000Z,1778,1778.44744092,1,2,10,0,0,2026-07-19T00:00:00.000Z!2030-06-05,1499,369!2028-05-13,827,330!2026-07-31,131,412-->
+{@{Choice of method}@}<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;112–113&hairsp;</sup> is {@{to some extent a matter of taste}@}. If the network is {@{particularly simple or only a specific current or voltage is required}@} then {@{ad-hoc application of some simple equivalent circuits}@} may yield {@{the answer without recourse to the more systematic methods}@}. <!--SR:!2030-08-24,1569,369!fsrs,2031-06-01T00:00:00.000Z,1778,1778.44744092,1,2,10,0,0,2026-07-19T00:00:00.000Z!2030-06-05,1499,369!2028-05-13,827,330!fsrs,2028-07-22T00:00:00.000Z,721,720.93701642,1,2,8,0,0,2026-08-01T00:00:00.000Z-->
 
 - {@{[Nodal analysis](nodal%20analysis.md)}@}: {@{The number of voltage variables, and hence simultaneous equations}@} to solve, equals {@{the number of nodes minus one}@}. {@{Every voltage source connected to the reference node}@} {@{reduces the number of unknowns and equations by one}@}. <!--SR:!fsrs,2031-06-18T00:00:00.000Z,1790,1790.44084262,1,2,10,0,0,2026-07-24T00:00:00.000Z!2028-01-11,782,340!2026-09-10,394,309!2030-12-11,1654,369!fsrs,2031-01-22T00:00:00.000Z,1678,1678.04002437,1,2,9,0,0,2026-06-19T00:00:00.000Z-->
 
