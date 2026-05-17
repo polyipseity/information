@@ -28,7 +28,7 @@ Flashcards for this section are as follows:
 - provision: present obligation ::@:: Legal (if in contract) or constructive (if from policy/practice); must arise from the past event. <!--SR:!2026-08-02,78,342!2026-08-08,83,342-->
 - provision recognition: four criteria ::@:: (1) Past event, (2) present obligation (legal or constructive), (3) probable outflow (>50%), (4) reliably estimated amount. <!--SR:!2026-07-30,75,342!2026-07-27,72,337-->
 - provisions add to liability definition ::@:: Provisions add probable outflow and reliably estimated amount to the general liability definition (past event, present obligation). <!--SR:!2026-07-28,73,335!2026-07-31,76,342-->
-- probable in provision context ::@:: More than 50% chance that an outflow will be required; instructor uses clear-cut percentages (e.g. 58%, 42%), not 50.1%. <!--SR:!2026-07-23,68,337!fsrs,2027-07-31T00:00:00.000Z,373,373.43671089,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
+- probable in provision context ::@:: More than 50% chance that an outflow will be required; instructor uses clear-cut percentages (e.g. 58%, 42%), not 50.1%. <!--SR:!fsrs,2027-07-28T00:00:00.000Z,369,368.80018302,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-31T00:00:00.000Z,373,373.43671089,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
 - reliably estimated (provision) ::@:: There must be a reasonable basis for the estimate (e.g. lawyer advice, past experience for litigation). <!--SR:!2026-07-29,74,326!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
 
 ## legal versus constructive obligation

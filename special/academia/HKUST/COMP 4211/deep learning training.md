@@ -158,7 +158,7 @@ The lecture then studies how to modify this update. Momentum changes how the pas
 Flashcards for this section are as follows:
 
 - SGD in deep learning / update $\theta_{t+1}=\theta_t-\eta g_t$ ::@:: If $g_t=\frac{1}{B}\sum_{i\in\mathcal B_t}\nabla_\theta \ell_i(\theta_t)$ is the minibatch gradient, then vanilla SGD updates by $\theta_{t+1}=\theta_t-\eta g_t$. <!--SR:!2026-08-17,77,336!2026-08-09,69,319-->
-- why deep optimization is hard ::@:: Deep-learning optimization is hard because the loss landscape is high-dimensional, noisy, and often poorly conditioned. <!--SR:!2026-07-23,68,319!2026-08-25,85,352-->
+- why deep optimization is hard ::@:: Deep-learning optimization is hard because the loss landscape is high-dimensional, noisy, and often poorly conditioned. <!--SR:!fsrs,2027-07-05T00:00:00.000Z,346,345.6286996,1,2,7,0,0,2026-07-24T00:00:00.000Z!2026-08-25,85,352-->
 - two layers of optimizer design ::@:: Optimizer design has an inner layer that changes direction or coordinatewise scaling inside one step, and an outer layer that changes the global learning rate across training. <!--SR:!2026-08-13,73,336!2026-08-12,72,336-->
 - optimizer choice matters ::@:: Different optimizers can produce very different training behavior even when the model and data are unchanged. <!--SR:!2026-08-17,77,336!2026-08-17,77,336-->
 
@@ -281,7 +281,7 @@ So it is useful to separate two questions: _what direction should we move?_ and 
 
 Flashcards for this section are as follows:
 
-- what a learning-rate schedule changes ::@:: A learning-rate schedule changes the global step size over training time, whereas the optimizer determines how the current gradient is transformed into a direction. <!--SR:!2026-07-23,68,319!2026-08-17,77,336-->
+- what a learning-rate schedule changes ::@:: A learning-rate schedule changes the global step size over training time, whereas the optimizer determines how the current gradient is transformed into a direction. <!--SR:!fsrs,2027-07-05T00:00:00.000Z,346,345.6286996,1,2,7,0,0,2026-07-24T00:00:00.000Z!2026-08-17,77,336-->
 - why learning-rate schedules matter ::@:: Early training often benefits from larger exploratory steps, while late training usually benefits from smaller steps for fine-grained refinement. <!--SR:!2026-08-17,77,336!2026-08-22,82,352-->
 - optimizer versus schedule ::@:: The optimizer answers how to use the gradient inside one step, and the schedule answers how large steps should be at different training stages. <!--SR:!2026-08-16,76,336!2026-08-16,76,336-->
 

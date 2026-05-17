@@ -20,11 +20,11 @@ A liability has three essential components under the conceptual framework. First
 Flashcards for this section are as follows:
 
 - liability three components ::@:: Present obligation; arising from past events; settlement expected to require an outflow of resources (e.g. cash). <!--SR:!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
-- present obligation (liability) ::@:: The entity is obliged to transfer resources now, even if the actual payment occurs later. <!--SR:!2026-07-23,68,334!fsrs,2026-12-04T05:55:03.430Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:03.430Z-->
+- present obligation (liability) ::@:: The entity is obliged to transfer resources now, even if the actual payment occurs later. <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2026-12-04T05:55:03.430Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:03.430Z-->
 - outflow of resources (liability) ::@:: Settlement is expected to require a transfer of cash or goods from the entity. <!--SR:!2026-07-28,72,334!fsrs,2026-12-04T05:55:19.135Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:19.135Z-->
 - past event and liability ::@:: A liability cannot exist without a past event that created the present obligation (e.g. borrowing or purchase on credit). <!--SR:!fsrs,2026-12-04T05:51:06.114Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:06.114Z!2026-07-25,69,334-->
-- claim "you owe me money" ::@:: Must be supported by a past event (e.g. loan or purchase) that gave rise to the obligation; without it, no liability. <!--SR:!2026-07-23,68,334!2026-08-02,77,334-->
-- purchase on credit: what is the past event? ::@:: The purchase of merchandise; from that day the entity has a present obligation to pay the supplier. <!--SR:!fsrs,2026-12-04T05:54:55.883Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:55.883Z!2026-07-23,68,334-->
+- claim "you owe me money" ::@:: Must be supported by a past event (e.g. loan or purchase) that gave rise to the obligation; without it, no liability. <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!2026-08-02,77,334-->
+- purchase on credit: what is the past event? ::@:: The purchase of merchandise; from that day the entity has a present obligation to pay the supplier. <!--SR:!fsrs,2026-12-04T05:54:55.883Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:55.883Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
 
 <!-- markdownlint-disable-next-line MD024 -->
 ## current liability
@@ -70,9 +70,9 @@ Accounts payable typically involve amounts owed to suppliers with __no stated in
 Flashcards for this section are as follows:
 
 - accounts payable vs notes payable (contract) ::@:: Accounts payable: no stated interest, short terms; notes payable: separate contract with principal, interest rate, and due date. <!--SR:!2026-07-28,72,334!2026-07-28,72,334-->
-- accounts payable: key features ::@:: Amounts owed to suppliers with no stated interest and short credit terms (e.g. 30 days). <!--SR:!2026-07-23,68,334!2026-07-23,68,334-->
-- notes payable: key features ::@:: Arise from a separate contract (a note) that states the principal, interest rate, and due date. <!--SR:!2026-07-23,68,334!fsrs,2027-06-26T00:00:00.000Z,339,339.4035091,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
-- when does supplier require AP to NP conversion? ::@:: When the amount is owed for too long; supplier may require conversion to a note payable (with interest). <!--SR:!2026-07-23,68,334!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
+- accounts payable: key features ::@:: Amounts owed to suppliers with no stated interest and short credit terms (e.g. 30 days). <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
+- notes payable: key features ::@:: Arise from a separate contract (a note) that states the principal, interest rate, and due date. <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-06-26T00:00:00.000Z,339,339.4035091,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
+- when does supplier require AP to NP conversion? ::@:: When the amount is owed for too long; supplier may require conversion to a note payable (with interest). <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - conversion of AP to NP: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_. <!--SR:!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-24,68,334-->
 
 ### short-term interest-bearing notes
@@ -98,7 +98,7 @@ Representative journal entry examples:
 > | {@{Receive cash; record note}@} | Dr           | Cr           |
 > | ------------------------------- | ------------ | ------------ |
 > | {@{Cash}@}                      | {@{48 000}@} |              |
-> | {@{Notes payable}@}             |              | {@{48 000}@} | <!--SR:!fsrs,2026-12-04T05:54:22.969Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:22.969Z!fsrs,2027-06-05T00:00:00.000Z,322,321.70066909,1,2,7,0,0,2026-07-18T00:00:00.000Z!2026-07-23,68,334!2026-07-23,68,334!fsrs,2026-11-25T05:44:34.690Z,164,163.64094464,1.42996969,2,5,0,0,2026-06-14T05:44:34.690Z!2026-07-25,69,334!fsrs,2026-12-04T05:51:34.168Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:34.168Z-->
+> | {@{Notes payable}@}             |              | {@{48 000}@} | <!--SR:!fsrs,2026-12-04T05:54:22.969Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:22.969Z!fsrs,2027-06-05T00:00:00.000Z,322,321.70066909,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2026-11-25T05:44:34.690Z,164,163.64094464,1.42996969,2,5,0,0,2026-06-14T05:44:34.690Z!2026-07-25,69,334!fsrs,2026-12-04T05:51:34.168Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:34.168Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -175,7 +175,7 @@ Representative journal entry example:
 > | {@{Interest expense}@}                  | {@{360}@} |           |
 > | {@{Interest payable}@}                  |           | {@{360}@} |
 >
-> _Calculation._ {@{12 000 × 0.09 × 4/12}@} = {@{360}@}. <!--SR:!2026-08-02,77,334!fsrs,2026-12-04T05:50:24.994Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:50:24.994Z!2026-07-23,68,334!2026-07-24,68,321!2026-07-27,71,334!2026-07-28,72,334!fsrs,2026-12-04T05:49:17.772Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:17.772Z!2026-07-25,69,321!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-07-25,69,334!2026-07-26,70,334!2026-07-27,71,334!2026-07-24,68,334!2026-07-28,72,334-->
+> _Calculation._ {@{12 000 × 0.09 × 4/12}@} = {@{360}@}. <!--SR:!2026-08-02,77,334!fsrs,2026-12-04T05:50:24.994Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:50:24.994Z!fsrs,2027-03-08T00:00:00.000Z,227,226.54464687,2.34287837,2,7,0,0,2026-07-24T00:00:00.000Z!2026-07-24,68,321!2026-07-27,71,334!2026-07-28,72,334!fsrs,2026-12-04T05:49:17.772Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:17.772Z!2026-07-25,69,321!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-07-25,69,334!2026-07-26,70,334!2026-07-27,71,334!2026-07-24,68,334!2026-07-28,72,334-->
 
 ---
 
@@ -183,7 +183,7 @@ Flashcards for this section are as follows:
 
 - conversion of account payable to note payable ::@:: At conversion: Dr _Accounts payable_, Cr _Notes payable_. <br/> Then accrue interest to reporting date: Dr _Interest expense_, Cr _Interest payable_. <!--SR:!fsrs,2026-12-04T05:49:00.999Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:00.999Z!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
 - conversion of AP to note: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_ (same amount). <!--SR:!fsrs,2026-12-04T05:49:09.721Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:09.721Z!2026-07-24,69,334-->
-- after conversion to note: Given principal, rate, and months to reporting date, how is interest recorded? ::@:: Accrue interest (principal × rate × months/12); Dr _Interest expense_, Cr _Interest payable_. <!--SR:!2026-07-23,68,334!fsrs,2026-12-04T05:55:08.197Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:08.197Z-->
+- after conversion to note: Given principal, rate, and months to reporting date, how is interest recorded? ::@:: Accrue interest (principal × rate × months/12); Dr _Interest expense_, Cr _Interest payable_. <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2026-12-04T05:55:08.197Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:08.197Z-->
 - conversion example: AP 12 000 → note 1 Sept, 9%—conversion entry? ::@:: Dr _Accounts payable_ 12 000, Cr _Notes payable_ 12 000. <!--SR:!2026-07-27,71,334!fsrs,2026-12-04T05:54:57.102Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:57.102Z-->
 - conversion example: note 12 000, 9%, 4 months to year-end—accrual entry? ::@:: Dr _Interest expense_ 360, Cr _Interest payable_ 360. <!--SR:!2026-07-29,73,321!2026-07-26,70,321-->
 
@@ -200,7 +200,7 @@ Representative journal entry examples:
 > | {@{Interest expense}@}                                 | {@{1 800}@} |             |
 > | {@{Notes payable}@}                                    |             | {@{1 800}@} |
 >
-> _Calculation._ {@{7 200 × 3/12}@} = {@{1 800}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount. <!--SR:!2026-07-25,70,334!2026-07-26,70,334!fsrs,2026-12-04T05:51:35.597Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:35.597Z!2026-07-23,68,334!fsrs,2026-11-25T05:49:48.632Z,164,163.64094464,1.42996969,2,5,0,0,2026-06-14T05:49:48.632Z!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-07-23,68,334!2026-07-27,71,334!2026-07-23,68,334!2026-07-23,68,334-->
+> _Calculation._ {@{7 200 × 3/12}@} = {@{1 800}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount. <!--SR:!2026-07-25,70,334!2026-07-26,70,334!fsrs,2026-12-04T05:51:35.597Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:35.597Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2026-11-25T05:49:48.632Z,164,163.64094464,1.42996969,2,5,0,0,2026-06-14T05:49:48.632Z!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!2026-07-27,71,334!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -209,7 +209,7 @@ Representative journal entry examples:
 > | {@{Pay note at maturity}@} | Dr           | Cr           |
 > | -------------------------- | ------------ | ------------ |
 > | {@{Notes payable}@}        | {@{75 600}@} |              |
-> | {@{Cash}@}                 |              | {@{75 600}@} | <!--SR:!fsrs,2026-12-04T05:54:26.440Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:26.440Z!2026-07-23,68,334!2026-07-23,68,334!fsrs,2026-12-04T05:49:23.129Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:23.129Z!2026-07-24,68,321!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> | {@{Cash}@}                 |              | {@{75 600}@} | <!--SR:!fsrs,2026-12-04T05:54:26.440Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:26.440Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2026-12-04T05:49:23.129Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:23.129Z!2026-07-24,68,321!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 ---
 
@@ -277,16 +277,16 @@ Representative journal entry example:
 > | {@{Recognise tax expense and payable}@}   | Dr            | Cr            |
 > | ----------------------------------------- | ------------- | ------------- |
 > | {@{Tax expense (or Income tax expense)}@} | {@{135 000}@} |               |
-> | {@{Tax payable (or Income tax payable)}@} |               | {@{135 000}@} | <!--SR:!fsrs,2026-12-04T05:50:31.345Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:50:31.345Z!fsrs,2026-12-04T05:51:32.714Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:32.714Z!2026-07-23,68,334!fsrs,2026-12-04T05:54:33.600Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:33.600Z!fsrs,2026-12-04T05:44:27.120Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:44:27.120Z!2026-07-23,68,334-->
+> | {@{Tax payable (or Income tax payable)}@} |               | {@{135 000}@} | <!--SR:!fsrs,2026-12-04T05:50:31.345Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:50:31.345Z!fsrs,2026-12-04T05:51:32.714Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:32.714Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2026-12-04T05:54:33.600Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:33.600Z!fsrs,2026-12-04T05:44:27.120Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:44:27.120Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- income tax payable recognition ::@:: Dr _Tax expense_ (or similar), Cr _Tax payable_ when tax is owed but not yet paid at the reporting date; classified as current liability. <!--SR:!2026-07-23,68,334!fsrs,2026-12-04T05:51:30.055Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:30.055Z-->
-- why is income tax payable usually current? ::@:: The amount is typically due within a few months (e.g. three or four months) after the reporting date. <!--SR:!fsrs,2026-12-04T05:54:59.404Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:59.404Z!2026-07-23,68,334-->
+- income tax payable recognition ::@:: Dr _Tax expense_ (or similar), Cr _Tax payable_ when tax is owed but not yet paid at the reporting date; classified as current liability. <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2026-12-04T05:51:30.055Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:30.055Z-->
+- why is income tax payable usually current? ::@:: The amount is typically due within a few months (e.g. three or four months) after the reporting date. <!--SR:!fsrs,2026-12-04T05:54:59.404Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:59.404Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
 - income tax payable: when and what entry? ::@:: At reporting date when tax is owed but not yet paid; Dr _Tax expense_, Cr _Tax payable_; classified as current liability. <!--SR:!2026-08-02,77,334!2026-08-02,77,334-->
-- income tax example: tax expense 135 000 owed at year-end—entry? ::@:: Dr _Tax expense_ 135 000, Cr _Tax payable_ 135 000. <!--SR:!2026-07-23,68,334!fsrs,2027-06-25T00:00:00.000Z,339,339.4035091,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
+- income tax example: tax expense 135 000 owed at year-end—entry? ::@:: Dr _Tax expense_ 135 000, Cr _Tax payable_ 135 000. <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-06-25T00:00:00.000Z,339,339.4035091,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
 
 ## compensated absence
 
@@ -377,7 +377,7 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 > | {@{Salaries and wages expense}@} | {@{560}@} | |
 > | {@{Wages payable}@} | | {@{560}@} |
 >
-> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end. <!--SR:!2026-07-25,70,334!fsrs,2027-05-30T00:00:00.000Z,317,317.25254381,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2026-12-04T05:49:44.884Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:44.884Z!2026-07-26,70,334!2026-07-23,68,334!2026-07-24,69,334!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end. <!--SR:!2026-07-25,70,334!fsrs,2027-05-30T00:00:00.000Z,317,317.25254381,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2026-12-04T05:49:44.884Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:44.884Z!2026-07-26,70,334!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!2026-07-24,69,334!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

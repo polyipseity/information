@@ -114,7 +114,7 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- mandatory ESG disclosure: what does it mean? ::@:: The issuer must provide the required item in its ESG reporting and cannot simply omit it. <!--SR:!fsrs,2027-07-28T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-22T00:00:00.000Z!2026-07-23,72,328-->
+- mandatory ESG disclosure: what does it mean? ::@:: The issuer must provide the required item in its ESG reporting and cannot simply omit it. <!--SR:!fsrs,2027-07-28T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-08-03T00:00:00.000Z,375,375.15083479,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
 - comply-or-explain ESG disclosure: what does it mean? ::@:: The issuer should comply, but if it does not, it must explain the non-compliance rather than staying silent. <!--SR:!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-07-11T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 
 ### board statement and board oversight
@@ -129,7 +129,7 @@ A key mandatory element is a __board statement__ on ESG. This statement should:
 
 Flashcards for this section are as follows:
 
-- ESG board statement: what responsibility must the board acknowledge? ::@:: That the board itself is responsible for oversight of ESG issues. <!--SR:!2026-07-23,72,328!2026-07-23,72,328-->
+- ESG board statement: what responsibility must the board acknowledge? ::@:: That the board itself is responsible for oversight of ESG issues. <!--SR:!fsrs,2027-08-03T00:00:00.000Z,375,375.15083479,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-08-03T00:00:00.000Z,375,375.15083479,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
 - ESG board statement: what three things should it cover? ::@:: Board responsibility, the board's ESG approach and processes, and how the board reviewed ESG performance during the year. <!--SR:!fsrs,2027-07-29T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-23T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - ESG reporting in Hong Kong: two requirement types ::@:: Mandatory disclosure (must disclose) and "comply or explain" disclosure (either comply or explain non‑compliance). <!--SR:!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z-->
 - ESG board statement: three key elements ::@:: (1) Board's responsibility for ESG oversight; (2) board's approach, strategy and processes for managing ESG; (3) how the board reviewed ESG performance during the year. <!--SR:!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
@@ -161,7 +161,7 @@ The course slides organise Hong Kong ESG KPIs into aspect groups rather than tre
 Flashcards for this section are as follows:
 
 - ESG KPI aspect groups: why use them? ::@:: They force ESG reporting to move from vague claims to topic-specific, measurable evidence tied to each aspect area. <!--SR:!fsrs,2027-07-23T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-22T00:00:00.000Z!2026-07-26,75,328-->
-- KPI aspect groups: what is the exam mindset? ::@:: Understand which category an ESG metric belongs to and why the framework expects quantitative support inside each category. <!--SR:!fsrs,2027-07-22T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-21T00:00:00.000Z!2026-07-23,72,328-->
+- KPI aspect groups: what is the exam mindset? ::@:: Understand which category an ESG metric belongs to and why the framework expects quantitative support inside each category. <!--SR:!fsrs,2027-07-22T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-08-03T00:00:00.000Z,375,375.15083479,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
 
 ### environmental aspects
 

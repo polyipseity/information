@@ -75,7 +75,7 @@ Flashcards for this section are as follows:
 - weighted least squares ::@:: Weighted least squares minimizes a weighted sum of squared residuals so more reliable observations can influence the fit more strongly than less reliable ones. <!--SR:!2026-08-14,93,363!2026-08-11,86,353-->
 - generalized least squares ::@:: Generalized least squares extends least squares to correlated or heteroscedastic noise by incorporating the error covariance structure into the fit. <!--SR:!2026-08-29,91,362!2026-08-06,86,353-->
 - least absolute deviations ::@:: Least absolute deviations minimizes absolute residuals instead of squared residuals, making the fit more robust to outliers. <!--SR:!2026-08-30,92,363!2026-08-12,91,362-->
-- ridge regression as a linear-regression method ::@:: Ridge regression is a linear-regression method that adds an $L_2$ penalty to shrink coefficients and stabilize ill-conditioned fits. <!--SR:!2026-08-05,80,341!2026-07-23,72,324-->
+- ridge regression as a linear-regression method ::@:: Ridge regression is a linear-regression method that adds an $L_2$ penalty to shrink coefficients and stabilize ill-conditioned fits. <!--SR:!2026-08-05,80,341!fsrs,2027-07-29T00:00:00.000Z,370,369.75349055,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
 - LASSO as a linear-regression method ::@:: LASSO is a linear-regression method that adds an $L_1$ penalty, often producing sparse solutions with some coefficients exactly zero. <!--SR:!2026-08-14,93,363!2026-08-11,86,353-->
 
 ### one-feature least-squares fit
@@ -222,7 +222,7 @@ Flashcards for this section are as follows:
 - general polynomial regression form ::@:: For $p$ variables and degree $d$, polynomial regression includes all monomials $x^{\alpha}=x_1^{\alpha_1}\cdots x_p^{\alpha_p}$ with $|\alpha|\le d$, so $\hat y = \sum_{|\alpha|\le d} w_{\alpha}x^{\alpha}$. <!--SR:!2026-08-11,86,353!2026-08-02,82,341-->
 - how to remember the polynomial feature map ::@:: A good memory aid is to list every product of input coordinates whose total exponent count is at most $d$, including the empty product $1$. <!--SR:!2026-08-11,86,353!2026-08-11,86,353-->
 - linear regression as a special case of polynomial regression ::@:: Ordinary linear regression is the degree-$1$ special case of polynomial regression, because the allowed monomials are only $1,x_1,\ldots,x_p$. <!--SR:!2026-07-30,79,341!2026-08-04,84,353-->
-- bias as a zeroth-order term ::@:: In polynomial regression the bias is the zeroth-order monomial, corresponding to exponent vector $(0,\ldots,0)$ and feature value $1$. <!--SR:!2026-07-23,72,324!2026-08-04,79,341-->
+- bias as a zeroth-order term ::@:: In polynomial regression the bias is the zeroth-order monomial, corresponding to exponent vector $(0,\ldots,0)$ and feature value $1$. <!--SR:!fsrs,2027-07-29T00:00:00.000Z,370,369.75349055,1,2,7,0,0,2026-07-24T00:00:00.000Z!2026-08-04,79,341-->
 - degree-2 feature map example ::@:: For $x = [1,x_1,x_2]^\top$, a degree-2 polynomial map can be $\phi(x) = [1,x_1,x_2,x_1^2,x_1x_2,x_2^2]^\top$. <!--SR:!2026-08-11,86,353!2026-07-27,72,324-->
 - interaction term ::@:: A feature such as $x_1x_2$ is an interaction term because it allows the model to depend on how two coordinates vary together. <!--SR:!2026-08-13,92,362!2026-07-26,71,324-->
 - why feature engineering matters ::@:: Feature engineering changes what functions the model can represent even when the optimization method remains the same. <!--SR:!2026-07-28,73,324!2026-08-06,86,353-->
