@@ -48,11 +48,13 @@ The content is in teaching order.
 - [AGENTS](AGENTS.md)
 - [ESG reporting](ESG%20reporting.md)
 - [accounting for income taxes](accounting%20for%20income%20taxes.md)
+- [accounting for leases](accounting%20for%20leases.md)
 - [current liability](current%20liability.md)
 - [dilutive securities and earnings per share](dilutive%20securities%20and%20earnings%20per%20share.md)
 - [equity](equity.md)
 - [investments](investments.md)
 - [non-current liabilities](non-current%20liabilities.md)
+- [pensions and postretirement benefits](pensions%20and%20postretirement%20benefits.md)
 - [provisions and contingencies](provisions%20and%20contingencies.md)
 - [questions](questions.md)
 
@@ -318,19 +320,29 @@ The content is in teaching order.
 
 - datetime: 2026-04-22T16:30:00+08:00/2026-04-22T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
-- topic: Ch 19 — accounting for pensions and postretirement benefits
+- topic: accounting for pensions and postretirement benefits
+- [pensions and postretirement benefits](pensions%20and%20postretirement%20benefits.md)
+  - [§ defined contribution versus defined benefit plans](pensions%20and%20postretirement%20benefits.md#defined-contribution-versus-defined-benefit-plans)
+  - [§ key pension concepts](pensions%20and%20postretirement%20benefits.md#key-pension-concepts)
+  - [§ components of pension cost](pensions%20and%20postretirement%20benefits.md#components-of-pension-cost)
 
 ## week 12 lecture 2
 
 - datetime: 2026-04-24T16:30:00+08:00/2026-04-24T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
-- topic: Ch 19 — pensions and postretirement benefits
+- topic: pension worksheet and funded status
+- [pensions and postretirement benefits](pensions%20and%20postretirement%20benefits.md)
+  - [§ pension worksheet](pensions%20and%20postretirement%20benefits.md#pension-worksheet)
 
 ## week 13 lecture
 
 - datetime: 2026-04-29T16:30:00+08:00/2026-04-29T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
-- topic: Ch 19 — pensions and postretirement benefits
+- topic: past service cost, remeasurements, and OCI
+- [pensions and postretirement benefits](pensions%20and%20postretirement%20benefits.md)
+  - [§ past service cost](pensions%20and%20postretirement%20benefits.md#past-service-cost)
+  - [§ remeasurements and other comprehensive income](pensions%20and%20postretirement%20benefits.md#remeasurements-and-other-comprehensive-income)
+  - [§ financial statement presentation](pensions%20and%20postretirement%20benefits.md#financial-statement-presentation)
 
 ## week 13 lecture 2
 
@@ -342,13 +354,25 @@ The content is in teaching order.
 
 - datetime: 2026-05-06T16:30:00+08:00/2026-05-06T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
-- topic: Ch 20 — accounting for leases
+- topic: lessee accounting for leases
+- [accounting for leases](accounting%20for%20leases.md)
+  - [§ leasing environment](accounting%20for%20leases.md#leasing-environment)
+  - [§ lease term and lease payments](accounting%20for%20leases.md#lease-term-and-lease-payments)
+  - [§ lessee accounting — finance lease](accounting%20for%20leases.md#lessee-accounting--finance-lease)
+  - [§ guaranteed versus unguaranteed residual value — lessee](accounting%20for%20leases.md#guaranteed-versus-unguaranteed-residual-value--lessee)
+  - [§ bargain purchase option](accounting%20for%20leases.md#bargain-purchase-option)
 
 ## week 14 lecture 2
 
 - datetime: 2026-05-08T16:30:00+08:00/2026-05-08T17:50:00+08:00, PT1H20M
 - venue: LSK Room 1014
-- topic: Ch 20 — accounting for leases
+- topic: lessor accounting, sale-leaseback
+- [accounting for leases](accounting%20for%20leases.md)
+  - [§ lessor classification tests](accounting%20for%20leases.md#lessor-classification-tests)
+  - [§ lessor accounting — operating lease](accounting%20for%20leases.md#lessor-accounting--operating-lease)
+  - [§ lessee and lessor asymmetry in classification](accounting%20for%20leases.md#lessee-and-lessor-asymmetry-in-classification)
+  - [§ special lease features](accounting%20for%20leases.md#special-lease-features)
+  - [§ sale-leaseback transactions](accounting%20for%20leases.md#sale-leaseback-transactions)
 
 ## midterm examination 1
 

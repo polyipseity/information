@@ -77,6 +77,8 @@ Flashcards for this section are as follows:
 
 The amount recognized as a provision is the __best estimate__ of the expenditure required to settle the obligation at the reporting date. Estimation involves judgment. Two common approaches: (1) __Expected value__—when there are multiple outcomes with probabilities, use the probability-weighted sum (e.g. Toyota: 80% no cost, 12% substantial cost, 8% smaller cost; expected warranty cost = sum of probability × estimated cost for each outcome). (2) __Most likely outcome__—when there is a single obligation with essentially one outcome (e.g. lawsuit: win or lose; use the most likely outcome). In this course: if the question gives probabilities, use expected value; if not, use the most likely outcome.
 
+When a provision relates to a __long-term obligation__ (settlement expected well beyond one year), IAS 37 requires the use of __present value__: the provision is measured at the present value of the expected cash outflows. The discount rate should be a __pre-tax rate__ reflecting current market assessments of the time value of money and the risks specific to the liability (in practice, commonly a pre-tax risk-free rate). As each period passes, the unwinding of the discount is recognised as __finance cost__ (interest expense), increasing the carrying amount of the provision toward the undiscounted settlement amount. Short-term provisions (e.g. typical warranty claims due within months) are usually not discounted because the effect is immaterial. The environmental provisions / ARO examples below illustrate discounting in practice.
+
 > _Expected-value versus most-likely litigation example._ Apex Consumer Products Ltd. faces a lawsuit with three possible outcomes at year-end: {@{30% chance of no loss}@}, {@{50% chance of a €500&nbsp;000 payment}@}, and {@{20% chance of a €1&nbsp;000&nbsp;000 payment}@}. If the lawsuit is one of a large pool of similar obligations, expected value gives a provision of {@{€450&nbsp;000 = 0.30 × 0 + 0.50 × 500&nbsp;000 + 0.20 × 1&nbsp;000&nbsp;000}@}. If instead the case is treated as a single one-off dispute, the most likely outcome is {@{€500&nbsp;000}@}.
 >
 > | {@{Recognise provision using expected value}@} | Dr | Cr |
@@ -100,10 +102,15 @@ Flashcards for this section are as follows:
 - most likely outcome (provision) ::@:: When a single obligation has one dominant outcome (e.g. lawsuit win or lose), use the most likely outcome. <!--SR:!2026-08-01,77,342!2026-08-01,77,342-->
 - when to use expected value vs most likely? ::@:: If the question gives probabilities, use expected value; otherwise use the most likely outcome. <!--SR:!2026-07-20,65,310!2026-08-06,81,342-->
 - expected-value litigation example: why can the recorded provision be below the most likely outcome? ::@:: Because the expected-value method averages all outcomes by probability, including lower-loss or zero-loss cases. <!--SR:!2026-05-18,19,342!2026-05-18,19,342-->
+- provision: long-term obligation and PV measurement ::@:: When settlement is expected well beyond one year, IAS 37 requires the provision to be measured at the present value of the expected cash outflows.
+- provision: discount rate for PV measurement ::@:: Pre-tax rate reflecting current market assessments of the time value of money and the risks specific to the liability (commonly a pre-tax risk-free rate in practice).
+- provision: unwinding of discount ::@:: Recognised as finance cost (interest expense) each period, increasing the carrying amount of the provision toward the undiscounted settlement amount.
+- provision: short-term obligations and discounting ::@:: Short-term provisions (e.g. typical warranty claims due within months) are usually not discounted because the time-value effect is immaterial.
+- Apex: 30% no loss, 50% chance €500&nbsp;000, 20% chance €1&nbsp;000&nbsp;000—expected-value provision? ::@:: 0.30 × 0 + 0.50 × 500&nbsp;000 + 0.20 × 1&nbsp;000&nbsp;000 = €450&nbsp;000.
 
 ## assurance-type warranty
 
-An _assurance-type warranty_ is the warranty that accompanies the sale of a product: the seller promises that if the product has defects, the customer can return it for repair (or similar). The __past event__ is the sale of the product with warranty; the __present obligation__ is legal (if in the contract) or constructive (if from policy/practice). The expense is recognized in the __period when the goods are sold__ (matching concept): match warranty expense to the revenue from the sale. At the end of the reporting period, the entity estimates the future warranty cost (e.g. using expected value) and records Dr Warranty expense, Cr Warranty liability (or "Provision for warranty liability"). The year-end provision is only for the __remaining future cost__ from current-period sales; any warranty work already performed is an actual expense of the current period, not part of the closing liability. When a customer later claims under the warranty, the entity records Dr Warranty liability, Cr Cash, Inventory, or Accrued Payroll (depending on how the repair is satisfied). Costs already incurred in the current period (e.g. repairs already done and paid) are not a provision—they are actual expenses (Dr Warranty expense, Cr Cash, Inventory, or Accrued Payroll as applicable); only the estimated future cost from current-year sales is recorded as a provision. The matching concept is the key principle: revenue and the associated warranty expense are recognized in the same period.
+An _assurance-type warranty_ is the warranty that accompanies the sale of a product: the seller promises that if the product has defects, the customer can return it for repair (or similar). The __past event__ is the sale of the product with warranty; the __present obligation__ is legal (if in the contract) or constructive (if from policy/practice). The expense is recognized in the __period when the goods are sold__ (matching concept): match warranty expense to the revenue from the sale. At the end of the reporting period, the entity estimates the future warranty cost (e.g. using expected value) and records Dr _Warranty expense_, Cr _Warranty liability_ (or "Provision for warranty liability"). The year-end provision is only for the __remaining future cost__ from current-period sales; any warranty work already performed is an actual expense of the current period, not part of the closing liability. When a customer later claims under the warranty, the entity records Dr _Warranty liability_, Cr _Cash_, _Inventory_, or _Accrued Payroll_ (depending on how the repair is satisfied). Costs already incurred in the current period (e.g. repairs already done and paid) are not a provision—they are actual expenses (Dr _Warranty expense_, Cr _Cash_, _Inventory_, or _Accrued Payroll_ as applicable); only the estimated future cost from current-year sales is recorded as a provision. The matching concept is the key principle: revenue and the associated warranty expense are recognized in the same period.
 
 ---
 
@@ -269,7 +276,7 @@ Flashcards for this section are as follows:
 
 ## service-type warranty
 
-A _service-type warranty_ is an __extended or additional warranty__ that the customer purchases separately (e.g. extra years of coverage). It is handled __separately and differently__ from the assurance-type warranty: the product has an assurance-type warranty (expense + provision in period of sale, as above); the service-type warranty is a separate __performance obligation__. The cash received for the service-type warranty is not earned in the year of sale; it is deferred as __Unearned warranty revenue__ (a liability). Revenue is recognized as the entity __satisfies the performance obligation__ over the service period (e.g. straight-line). In the typical case, that period begins after the assurance-type warranty has expired—for example, if the product has a one-year assurance warranty and the customer buys a three-year extended warranty, the extended amount is earned over those three years (years 2–4), not from the sale date. As each period elapses: Dr Unearned warranty revenue, Cr Warranty revenue. If at the end of the service period some customers did not claim and the related assurance-type provision is no longer needed, the entity may reduce the warranty liability and credit Warranty revenue (or other income). The important distinction: assurance-type = expense + provision in period of sale; service-type = defer cash as unearned revenue, then recognize revenue as the performance obligation is satisfied over the service period.
+A _service-type warranty_ is an __extended or additional warranty__ that the customer purchases separately (e.g. extra years of coverage). It is handled __separately and differently__ from the assurance-type warranty: the product has an assurance-type warranty (expense + provision in period of sale, as above); the service-type warranty is a separate __performance obligation__. The cash received for the service-type warranty is not earned in the year of sale; it is deferred as __Unearned warranty revenue__ (a liability). Revenue is recognized as the entity __satisfies the performance obligation__ over the service period (e.g. straight-line). In the typical case, that period begins after the assurance-type warranty has expired—for example, if the product has a one-year assurance warranty and the customer buys a three-year extended warranty, the extended amount is earned over those three years (years 2–4), not from the sale date. As each period elapses: Dr _Unearned warranty revenue_, Cr _Warranty revenue_. If at the end of the service period some customers did not claim and the related assurance-type provision is no longer needed, the entity may reduce the _warranty liability_ and credit _Warranty revenue_ (or other income). The important distinction: assurance-type = expense + provision in period of sale; service-type = defer cash as unearned revenue, then recognize revenue as the performance obligation is satisfied over the service period.
 
 Representative journal entry examples:
 
@@ -280,7 +287,6 @@ Representative journal entry examples:
 > | {@{Cash}@}                                       | {@{30 900}@} |              |
 > | {@{Sales revenue}@}                              |              | {@{30 000}@} |
 > | {@{Unearned warranty revenue}@}                  |              | {@{900}@}    |
->
 >
 > _Explanation._ 900 is for the extended (service-type) coverage; {@{revenue is recognized only over the service-type period (e.g. straight-line over years 2–4), after the assurance-type warranty has expired}@}. <!--SR:!2026-07-28,73,342!2026-07-19,64,310!2026-08-06,81,342!2026-07-31,76,342!2026-07-27,72,326!2026-07-31,76,342!2026-08-02,78,342!2026-08-02,78,342!2027-04-27,346,362!2026-07-16,63,310!2026-08-08,83,342-->
 
@@ -324,7 +330,7 @@ Flashcards for this section are as follows:
 
 ## premiums and coupons (consideration payable)
 
-Premiums and coupons (e.g. "10 box tops plus 1 dollar = one bowl") create an obligation to deliver goods or benefits at a future date. The __past event__ is the sale of the product that entitles the customer to redeem (e.g. sale of boxes of cake mix). The accounting usually involves two related balances: __Inventory of premiums__ (the bowls or other items to be given out) and __Premium liability__ (the net cost still expected from outstanding rights). The entity must __estimate the cost of premiums__ that will be redeemed as a result of current-period sales and recognize that cost as expense in the period of sale (matching). Record Dr Premium expense, Cr Premium liability (or Provision for premium liability). If the entity buys premium items in advance, record them in _Inventory of premiums_ at cost before redemption occurs. That cost includes not only purchase price but also __other directly attributable costs__ needed to bring the premium item to its present location and condition, such as transport/freight-in, import duties, and similar costs. When a customer redeems (e.g. 10 box tops plus 1 dollar for one bowl), the entity receives cash, removes _Inventory of premiums_ at carrying amount, and reduces the provision for the __net cost__ already provided: Dr Cash (amount received from customer), Dr Premium liability, Cr Inventory of premiums (carrying amount of bowl). The net cost to the entity is usually carrying amount of the premium item less cash received from the customer; any extra transport or similar cost capitalized into the inventory of premium items also becomes part of that carrying amount. If updated estimates show that future redemption will be __less than expected__, reduce the excess liability and credit Premium expense (or recovery of premium expense); if redemption will be __more than expected__, record extra Premium expense and increase the liability. If rights actually expire unused, the entity reduces the liability and credits Premium revenue or other income because the obligation has lapsed. The cost of premiums is expensed in the period of the related sales, not when redemption occurs.
+Premiums and coupons (e.g. "10 box tops plus 1 dollar = one bowl") create an obligation to deliver goods or benefits at a future date. The __past event__ is the sale of the product that entitles the customer to redeem (e.g. sale of boxes of cake mix). The accounting usually involves two related balances: __Inventory of premiums__ (the bowls or other items to be given out) and __Premium liability__ (the net cost still expected from outstanding rights). The entity must __estimate the cost of premiums__ that will be redeemed as a result of current-period sales and recognize that cost as expense in the period of sale (matching). Record Dr _Premium expense_, Cr _Premium liability_ (or Provision for premium liability). If the entity buys premium items in advance, record them in _Inventory of premiums_ at cost before redemption occurs. That cost includes not only purchase price but also __other directly attributable costs__ needed to bring the premium item to its present location and condition, such as transport/freight-in, import duties, and similar costs. When a customer redeems (e.g. 10 box tops plus 1 dollar for one bowl), the entity receives cash, removes _Inventory of premiums_ at carrying amount, and reduces the provision for the __net cost__ already provided: Dr _Cash_ (amount received from customer), Dr _Premium liability_, Cr _Inventory of premiums_ (carrying amount of bowl). The net cost to the entity is usually carrying amount of the premium item less cash received from the customer; any extra transport or similar cost capitalized into the inventory of premium items also becomes part of that carrying amount. If updated estimates show that future redemption will be __less than expected__, reduce the excess liability and credit _Premium expense_ (or recovery of premium expense); if redemption will be __more than expected__, record extra _Premium expense_ and increase the liability. If rights actually expire unused, the entity reduces the liability and credits _Premium revenue_ or other income because the obligation has lapsed. The cost of premiums is expensed in the period of the related sales, not when redemption occurs.
 
 Representative journal entry examples:
 
@@ -484,6 +490,39 @@ Flashcards for this section are as follows:
 - ARO: accretion entry? ::@:: Dr _Interest expense_; Cr _Environmental liability_ (ARO) (interest = carrying amount × discount rate). <!--SR:!2026-08-08,83,342!2026-07-24,69,337-->
 - ARO accretion: economic rationale for interest? ::@:: The liability was initially recorded at a discounted present value below the expected future payment; accretion unwinds that discount over time as interest expense so the carrying amount reaches the full settlement amount. <!--SR:!2026-08-07,82,342!2026-08-05,80,342-->
 - ARO: settlement entry (general form)? ::@:: Dr _Environmental liability_ (carrying amount); Cr _Cash_/Payable (amount paid); Cr _Gain on settlement_ (or Dr _Loss_) for difference. <!--SR:!2026-08-08,83,342!2026-07-31,76,342-->
+- BlueTide: cost 1&nbsp;000&nbsp;000, 5 years, 10%—ARO day 1 entry and amount? ::@:: PV = 1&nbsp;000&nbsp;000 ÷ (1.10)^5 = 620&nbsp;921; Dr _Oil platform (PPE)_ 620&nbsp;921, Cr _Environmental liability (ARO)_ 620&nbsp;921.
+- BlueTide: capitalized ARO 620&nbsp;921, 5-year straight-line—year-end depreciation entry? ::@:: 620&nbsp;921 ÷ 5 = 124&nbsp;184; Dr _Depreciation expense_ 124&nbsp;184, Cr _Accumulated depreciation_ 124&nbsp;184.
+- BlueTide: opening ARO liability 620&nbsp;921, rate 10%—year 1 accretion entry? ::@:: 620&nbsp;921 × 10% = 62&nbsp;092; Dr _Interest expense_ 62&nbsp;092, Cr _Environmental liability (ARO)_ 62&nbsp;092.
+- BlueTide: ARO carrying amount 1&nbsp;000&nbsp;000 at settlement, contractor paid 995&nbsp;000—entry and gain? ::@:: Dr _Environmental liability (ARO)_ 1&nbsp;000&nbsp;000, Cr _Cash_ 995&nbsp;000, Cr _Gain on settlement_ 5&nbsp;000.
+
+### revision of ARO estimates
+
+When new information changes the expected dismantlement or restoration cost, the entity revises both the provision and the carrying amount of the related asset:
+
+- __Upward revision__: increase the provision by the present value of the additional expected cost (discounted at the discount rate used in the original measurement) and add the same amount to the asset carrying amount; depreciate the additional asset cost over the __remaining__ useful life only.
+- __Downward revision__: decrease the provision by the present value of the reduction and reduce the asset carrying amount by the same amount. If the present value of the reduction __exceeds__ the remaining carrying amount of the capitalized ARO cost, the excess is recognized immediately as income in profit or loss.
+
+Representative journal entry example:
+
+> _Scenario._ At the start of year 3 of a 5-year ARO, BlueTide revises its estimate of dismantlement cost __upward__ by {@{100&nbsp;000}@}. Discount rate {@{10%}@}, remaining life {@{3 years}@}. Present value of increase = {@{100&nbsp;000 ÷ (1.10)³ = 75&nbsp;131}@} (rounded).
+>
+> | {@{Recognise upward revision of ARO estimate}@} | Dr                | Cr                |
+> | ----------------------------------------------- | ----------------- | ----------------- |
+> | {@{Oil platform (PPE) — ARO component}@}        | {@{75&nbsp;131}@} |                   |
+> | {@{Environmental liability (ARO)}@}             |                   | {@{75&nbsp;131}@} |
+>
+> _Explanation._ The additional capitalized cost {@{75&nbsp;131}@} is depreciated over the __remaining__ {@{3 years}@}: {@{25&nbsp;044 per year}@}. The liability accretes from its new carrying amount to the revised expected settlement amount of {@{1&nbsp;100&nbsp;000}@} over the remaining 3 years.
+
+---
+
+Flashcards for this section are as follows:
+
+- ARO upward revision: effect on PPE and liability? ::@:: Increase both by the PV of the additional expected cost; depreciate the additional asset amount over the remaining useful life only.
+- ARO downward revision: what if PV of reduction exceeds asset carrying amount? ::@:: Reduce the asset to zero and recognise the excess reduction as a gain in profit or loss immediately.
+- ARO revision: why use remaining life for additional depreciation, not original life? ::@:: The revision occurs mid-life; the new cost is prospectively allocated only to the remaining years, not restated over the full original life.
+- ARO upward revision: entry? ::@:: Dr _PPE_ (ARO component), Cr _Environmental liability_ (ARO) [both at PV of the increase in expected dismantlement cost].
+- ARO downward revision: general entry? ::@:: Dr _Environmental liability_ (ARO) [PV of decrease]; Cr _PPE_ (ARO component) [up to carrying amount]; Cr _Gain on ARO revision_ [any excess].
+- BlueTide: cost increase 100&nbsp;000, 3 remaining years, 10%—PV and upward-revision entry? ::@:: PV = 100&nbsp;000 ÷ (1.10)^3 = 75&nbsp;131; Dr _Oil platform (PPE) — ARO component_ 75&nbsp;131, Cr _Environmental liability (ARO)_ 75&nbsp;131.
 
 ## onerous contracts
 
@@ -525,6 +564,8 @@ Flashcards for this section are as follows:
 - onerous contract provision: measurement basis ::@:: Lower of (1) cost to fulfil the contract and (2) compensation/penalty to exit the contract. <!--SR:!2026-07-22,67,310!2026-08-08,83,342-->
 - why "lower of" for onerous contracts? ::@:: A reasonable entity chooses the cheaper way to avoid further losses (pay penalty vs continue paying fulfilment costs). <!--SR:!2026-07-29,74,337!2026-08-07,82,342-->
 - onerous contract provision: entry? ::@:: Dr _Loss_ (onerous contract), Cr _Onerous contract liability_ (amount = lower of fulfilment cost and exit penalty). <!--SR:!2026-07-10,58,310!2026-08-07,82,342-->
+- Meridian: fulfilment cost 200&nbsp;000, no exit option—onerous contract provision and entry? ::@:: Provision = 200&nbsp;000 (lower of fulfilment cost and exit penalty; no cheaper exit exists); Dr _Loss on onerous contract_ 200&nbsp;000, Cr _Onerous contract liability_ 200&nbsp;000.
+- Meridian: fulfilment cost 200&nbsp;000, exit penalty 80&nbsp;000—onerous contract provision and entry? ::@:: Lower of 200&nbsp;000 and 80&nbsp;000 = 80&nbsp;000; Dr _Loss on onerous contract_ 80&nbsp;000, Cr _Onerous contract liability_ 80&nbsp;000.
 
 ## restructuring
 
@@ -560,12 +601,13 @@ Flashcards for this section are as follows:
 - restructuring costs: rationale for inclusion/exclusion ::@:: A restructuring provision should measure the liability to exit the old structure, not the cost of building or running the new one. So include unavoidable exit costs (e.g. severance, contract termination, onerous contracts) and exclude startup or future-operating costs (e.g. training, relocation, marketing, new systems) that belong to whatever comes next. <!--SR:!2026-05-18,19,342!2026-05-18,19,342-->
 - restructuring: exit costs vs new-project costs ::@:: Exit costs of the old structure belong in the provision if they are unavoidable once restructuring is committed. New-project or setup costs for the replacement structure do not; they are recognized later when the new activity is actually carried out. <!--SR:!2026-05-18,19,342!2026-05-18,19,342-->
 - restructuring provision: entry? ::@:: Dr _Restructuring expense_, Cr _Restructuring liability_ (for qualifying direct/traceable costs once obligation exists). <!--SR:!2026-05-18,19,342!2026-05-18,19,342-->
+- SilverOak: estimated restructuring costs 500&nbsp;000—entry? ::@:: Dr _Restructuring expense_ 500&nbsp;000, Cr _Restructuring liability_ 500&nbsp;000.
 
 ## contingent liabilities and contingent assets
 
 A _contingent liability_ is a possible obligation (or a present obligation) that is not recognized because the outflow is not probable (or the amount cannot be measured reliably). Instead, the entity discloses it in the notes when the possibility is significant. In this course convention: probable (>50%) → recognize as provision; possible (about 5%–50%) → disclose as contingent liability; remote (<5%) → ignore.
 
-A _contingent asset_ is a possible asset arising from past events whose existence will be confirmed only by uncertain future events (e.g. a lawsuit with a favorable outcome). The recognition threshold is higher because of conservatism: in this course convention, probable inflow (about >50%–90%) → disclose as a contingent asset; recognize as an asset only when it is virtually certain (about >90%).
+A _contingent asset_ is a possible asset arising from past events whose existence will be confirmed only by uncertain future events (e.g. a lawsuit with a favorable outcome). The recognition threshold is higher because of conservatism: __recognize as an asset only when virtually certain__ (about >90%); __disclose as a contingent asset__ when an inflow is probable but not virtually certain (about >50%–90%); __do not disclose at all__ when inflow is remote (<~5%). Contingent gains must never be recognized until virtually certain; recording them earlier would contravene the principle against anticipating profits.
 
 ---
 
@@ -573,7 +615,8 @@ Flashcards for this section are as follows:
 
 - contingent liability ::@:: Possible obligation (or present obligation) not recognized because outflow is not probable or cannot be reliably measured; disclose if significant. <!--SR:!2026-07-21,66,310!2026-07-20,67,326-->
 - provision vs contingent liability (course convention) ::@:: Probable outflow (>50%) → recognize provision; possible (~5%–50%) → disclose contingent liability; remote (<5%) → ignore. <!--SR:!2026-08-03,79,342!2026-08-06,81,342-->
-- contingent asset ::@:: Possible asset whose existence depends on uncertain future events; disclose when probable (about >50%–90%) but recognize only when virtually certain (about >90%). <!--SR:!2026-07-27,72,326!2026-08-05,80,342-->
+- contingent asset ::@:: Possible asset whose existence depends on uncertain future events; recognize only when virtually certain (~>90%); disclose when probable (>50% but not virtually certain); do not disclose at all if inflow is remote.
+- contingent gain: recognition rule? ::@:: Never recognize until virtually certain; disclose when probable; do not disclose if remote. Recognizing contingent gains early is not permitted under IFRS.
 - why higher threshold for contingent assets? ::@:: Conservatism: avoid recognizing gains/asset inflows until virtually certain. <!--SR:!2026-07-26,71,342!2026-08-02,78,342-->
 
 ## disclosure for provisions (high level)
@@ -585,3 +628,71 @@ In financial reports, provisions are presented as single line items (e.g. on the
 Flashcards for this section are as follows:
 
 - provisions: where are details disclosed? ::@:: Statement of financial position shows the line item; notes disclose breakdown (opening, changes, closing), expected timing, and uncertainties. <!--SR:!2026-08-07,82,342!2026-08-06,81,342-->
+
+## worked exercise: ARO with upward revision mid-life
+
+_This exercise combines initial ARO recognition, annual depreciation, accretion, and a mid-life upward revision—the aspect most frequently tested in this topic._
+
+> _Facts._ Eastcheap Energy Ltd. constructs an offshore gas terminal on {@{1 January 2025}@}. It is legally required to decommission the terminal at the end of its {@{6-year}@} useful life. Original estimated decommissioning cost = {@{1&nbsp;800&nbsp;000}@}. Discount rate = {@{8%}@}. PV factor for 6 years at 8% = {@{0.6302}@}. Initial fair value of the ARO = {@{1&nbsp;800&nbsp;000 × 0.6302 = 1&nbsp;134&nbsp;360}@}.
+>
+> At {@{1 January 2027}@} (start of year 3), the entity revises its estimate upward to {@{2&nbsp;200&nbsp;000}@} (an increase of {@{400&nbsp;000}@}). Remaining life at that point = {@{4 years}@}. PV factor for 4 years at 8% = {@{0.7350}@}. PV of the increase = {@{400&nbsp;000 × 0.7350 = 294&nbsp;000}@}.
+>
+> _Required._ Prepare journal entries for: (a) initial recognition on 1 January 2025; (b) year 1 depreciation and accretion (year ended 31 December 2025); (c) upward revision on 1 January 2027; (d) additional depreciation for year 3 (year ended 31 December 2027).
+
+<!-- markdownlint-disable-next-line MD028 -->
+> (a) Initial recognition — 1 January 2025:
+>
+> | {@{Recognise ARO: record asset and liability at PV}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Gas terminal (PPE)}@} | {@{1&nbsp;134&nbsp;360}@} | |
+> | {@{Environmental liability (ARO)}@} | | {@{1&nbsp;134&nbsp;360}@} |
+
+<!-- markdownlint-disable-next-line MD028 -->
+> (b) Year 1 entries — 31 December 2025:
+>
+> | {@{Depreciate ARO capitalized cost — straight-line over 6 years}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Depreciation expense}@} | {@{189&nbsp;060}@} | |
+> | {@{Accumulated depreciation — gas terminal}@} | | {@{189&nbsp;060}@} |
+>
+> _Calculation._ {@{1&nbsp;134&nbsp;360 ÷ 6 = 189&nbsp;060}@}.
+>
+> | {@{Accrete ARO liability — interest on opening balance}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Finance cost (interest expense)}@} | {@{90&nbsp;749}@} | |
+> | {@{Environmental liability (ARO)}@} | | {@{90&nbsp;749}@} |
+>
+> _Calculation._ {@{1&nbsp;134&nbsp;360 × 8% = 90&nbsp;749}@} (rounded).
+
+<!-- markdownlint-disable-next-line MD028 -->
+> (c) Upward revision — 1 January 2027:
+>
+> _Liability carrying amount at 1 January 2027 (after 2 years of accretion):_ Year 1 closing: {@{1&nbsp;134&nbsp;360 + 90&nbsp;749 = 1&nbsp;225&nbsp;109}@}. Year 2 accretion: {@{1&nbsp;225&nbsp;109 × 8% = 98&nbsp;009}@}. Liability at 1 Jan 2027: {@{1&nbsp;225&nbsp;109 + 98&nbsp;009 = 1&nbsp;323&nbsp;118}@}.
+>
+> PV of cost increase {@{400&nbsp;000}@} at 8% over {@{4 remaining years}@} = {@{294&nbsp;000}@}.
+>
+> | {@{Record upward revision of ARO estimate}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Gas terminal (PPE) — ARO revision}@} | {@{294&nbsp;000}@} | |
+> | {@{Environmental liability (ARO)}@} | | {@{294&nbsp;000}@} |
+
+<!-- markdownlint-disable-next-line MD028 -->
+> (d) Additional depreciation in year 3 on the revised ARO cost:
+>
+> | {@{Depreciate additional ARO cost over remaining 4 years}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Depreciation expense}@} | {@{73&nbsp;500}@} | |
+> | {@{Accumulated depreciation — gas terminal}@} | | {@{73&nbsp;500}@} |
+>
+> _Calculation._ {@{294&nbsp;000 ÷ 4 = 73&nbsp;500}@}. This is the _extra_ depreciation from the revision; the original {@{189&nbsp;060}@} is also still recorded, so total year-3 depreciation = {@{189&nbsp;060 + 73&nbsp;500 = 262&nbsp;560}@}.
+
+---
+
+Flashcards for this section are as follows:
+
+- ARO worked exercise: initial recognition — cost 1&nbsp;800&nbsp;000, 6 years, 8%, PV factor 0.6302? ::@:: Dr _Gas terminal (PPE)_ 1&nbsp;134&nbsp;360; Cr _Environmental liability_ 1&nbsp;134&nbsp;360.
+- ARO worked exercise: year 1 depreciation — initial ARO PV 1&nbsp;134&nbsp;360, 6-year straight-line? ::@:: Dr _Depreciation expense_ 189&nbsp;060; Cr _Accumulated depreciation_ 189&nbsp;060.
+- ARO worked exercise: year 1 accretion — opening liability 1&nbsp;134&nbsp;360 at 8%? ::@:: Dr _Finance cost_ 90&nbsp;749; Cr _Environmental liability_ 90&nbsp;749.
+- ARO worked exercise: upward revision entry — PV of increase = 294&nbsp;000? ::@:: Dr _PPE_ (ARO revision) 294&nbsp;000; Cr _Environmental liability_ 294&nbsp;000.
+- ARO worked exercise: why is additional depreciation spread over remaining 4 years only? ::@:: The revision occurs at the start of year 3 (2 years into a 6-year life); the additional cost is allocated prospectively, not restated over the original 6 years.
+- ARO worked exercise: additional annual depreciation from revision 294&nbsp;000 over 4 remaining years? ::@:: 73&nbsp;500 per year (294&nbsp;000 ÷ 4); total year-3 depreciation = 189&nbsp;060 (original) + 73&nbsp;500 (revision) = 262&nbsp;560.

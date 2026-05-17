@@ -1,0 +1,341 @@
+---
+aliases:
+  - DBO
+  - defined benefit obligation
+  - defined benefit plan
+  - pension expense
+  - pension worksheet
+  - pensions and postretirement benefits
+tags:
+  - flashcard/active/special/academia/HKUST/ACCT_3020/pensions_and_postretirement_benefits
+  - language/in/English
+---
+
+# pensions and postretirement benefits
+
+This note covers defined benefit pension accounting under IFRS (IAS 19): defined benefit versus defined contribution plans, the defined benefit obligation, plan assets, components of pension cost (service cost, net interest, remeasurements), the pension worksheet approach, and presentation on the financial statements. All monetary examples use fictional companies and amounts.
+
+## defined contribution versus defined benefit plans
+
+Under a __defined contribution plan__ the employer contributes a fixed amount to a separately administered pension fund each period. Once that contribution is made, the employer's obligation ends. The employee bears all investment risk; if the fund underperforms, the employee receives smaller benefits. Hong Kong's Mandatory Provident Fund (MPF) is a defined contribution arrangement. Accounting is straightforward: expense equals contribution.
+
+Under a __defined benefit plan__ the employer promises a specific retirement benefit — often based on years of service and final salary. The employer bears the investment risk and must fund the plan sufficiently. Because the ultimate obligation depends on long-term assumptions (employee turnover, salary growth, life expectancy, discount rates), companies employ independent actuaries to estimate the cost.
+
+---
+
+Flashcards for this section are as follows:
+
+- defined contribution plan: what happens after the employer contributes? ::@:: The employer's obligation ends; the employee bears the investment risk and receives whatever the fund earns.
+- defined benefit plan: who bears the investment risk? ::@:: The employer, because it has promised a specific future benefit regardless of how the fund performs.
+- why do defined benefit plans require actuaries? ::@:: The obligation depends on long-term assumptions (life expectancy, salary growth, discount rate, employee turnover) that only actuaries can reliably estimate.
+- Mandatory Provident Fund (Hong Kong): defined contribution or defined benefit? ::@:: Defined contribution — the employer contributes a fixed percentage; the employee bears the investment risk.
+
+## key pension concepts
+
+The __defined benefit obligation (DBO)__ is the present value of all future pension payments that employees have earned to date, discounted at the yield on high-quality corporate bonds with maturity matching the obligation. The DBO rises each year because:
+
+- employees earn more benefits through another year of service (__current service cost__);
+- the obligation is one year closer to payment, so the discount unwinds (__interest cost__ = DBO × discount rate); and
+- actuaries may revise their assumptions about mortality, salary growth, and similar factors, creating __actuarial gains or losses__.
+
+__Plan assets__ are the fair value of investments held in a legally separate trust to fund the plan. They increase when the employer makes cash contributions and when the portfolio earns a return, and decrease when benefits are paid to retirees.
+
+The __expected return on plan assets__ is computed as opening plan assets × discount rate (IAS 19 uses the same rate for both the DBO and the expected return). Differences between the actual return and the expected return are __asset gains or losses__.
+
+The __funded status__ (net defined benefit obligation or net defined benefit asset) equals $\text{DBO} - \text{Fair value of plan assets}$.
+
+A positive funded status means the plan is underfunded, which results in a __net defined benefit liability__ on the statement of financial position. A negative funded status means the plan is overfunded, which results in a __net defined benefit asset__ (subject to an asset ceiling test under IAS 19). The net defined benefit asset cannot exceed the present value of economic benefits available from refunds or reductions in future contributions (the __asset ceiling__ under IAS 19.64).
+
+> _Illustration._ Suppose DBO is {@{€100&nbsp;000}@} and plan assets are {@{€130&nbsp;000}@} — an overfunding of {@{€30&nbsp;000}@}. If the present value of available future contribution reductions is only {@{€20&nbsp;000}@}, the recognized net defined benefit asset is {@{capped at €20&nbsp;000}@}; the remaining {@{€10&nbsp;000}@} is an asset ceiling effect that reduces equity via OCI.
+
+---
+
+Flashcards for this section are as follows:
+
+- defined benefit obligation: what does it represent? ::@:: The present value of all future retirement payments that employees have already earned, discounted at the high-quality corporate bond yield.
+- what discount rate does IAS 19 use for both the DBO and the expected return on plan assets? ::@:: The yield on high-quality corporate bonds with duration matching the obligation.
+- plan assets: four movements that change the balance ::@:: (1) Employer contributions increase; (2) actual return on investments increases; (3) benefits paid to retirees decrease; (4) plan amendments do not change plan assets directly.
+- funded status formula ::@:: DBO minus fair value of plan assets; a positive result is a net liability, a negative result is a net asset.
+- when is a pension plan overfunded? ::@:: When the fair value of plan assets exceeds the DBO, resulting in a net defined benefit asset on the balance sheet.
+- asset ceiling (IAS 19.64): what does it limit? ::@:: The recognized net defined benefit asset cannot exceed the PV of economic benefits available through refunds or future contribution reductions. _Example_: overfunding €30 000, but PV of available savings is only €20 000 → recognized asset = €20 000; the €10 000 excess is an asset ceiling effect reducing equity via OCI.
+- current service cost: definition ::@:: The increase in the DBO from employees earning one additional year of benefit credit during the current period.
+- interest cost on the DBO: formula ::@:: Opening DBO × discount rate; represents the unwinding of the discount as the obligation is one year closer to payment.
+- expected return on plan assets under IAS 19: formula ::@:: Opening fair value of plan assets × discount rate; IAS 19 uses the same rate for both the DBO and the expected return on plan assets.
+
+## components of pension cost
+
+Under IAS 19, total pension cost has three components that are reported in different places:
+
+| Component | Description | Income statement line |
+| --- | --- | --- |
+| __Current service cost__ | Increase in DBO from employees earning one more year of benefit | Operating (employee benefits expense) |
+| __Past service cost__ | Change in DBO from a plan amendment or curtailment | Immediately in P&amp;L (operating or separately disclosed) |
+| __Net interest on the net defined benefit obligation__ | Funded-status balance × discount rate | Finance costs (or income if asset) |
+| __Remeasurements__ | (a) Asset gain/loss: actual minus expected return; (b) Liability gain/loss: actuarial assumption changes | Other comprehensive income (OCI) — never recycled to P&amp;L |
+
+The net interest component equals (DBO − plan assets) × discount rate, which also equals interest cost on the DBO minus expected return on plan assets. Remeasurements accumulate in accumulated other comprehensive income (AOCI) within equity.
+
+---
+
+Flashcards for this section are as follows:
+
+- IAS 19 pension cost: three components and where each goes ::@:: (1) Service cost (current and past) → P&L as operating; (2) net interest on the net DBO → P&L as finance; (3) remeasurements → OCI, not P&L.
+- net interest on the net defined benefit obligation: formula ::@:: (DBO − plan assets) × discount rate, which also equals interest cost on the DBO less expected return on plan assets.
+- remeasurements: what two items do they capture? ::@:: (1) Asset gains/losses (actual vs expected return); (2) liability gains/losses from actuarial assumption changes.
+- remeasurements and OCI: can they be recycled to P&L? ::@:: No — under IAS 19, remeasurements are recognized in OCI and accumulate in AOCI permanently; they are never recycled to profit or loss.
+- past service cost: when is it recognized? ::@:: Immediately in the period of the plan amendment or curtailment, as an increase in pension cost in P&L.
+
+## pension worksheet
+
+The __pension worksheet__ is a multi-column working tool (not a formal accounting record) that helps reconcile the DBO, plan assets, pension expense, OCI, and the pension asset/liability balance simultaneously. The worksheet has two sides:
+
+- __Left (journal entry columns)__: Pension expense, OCI, Cash, Pension asset/liability.
+- __Right (memo columns)__: Plan assets and DBO.
+
+The balance in the Pension asset/liability column always equals DBO minus plan assets (funded status). The worksheet enables one to prepare the annual journal entry without separately computing each column.
+
+---
+
+Flashcards for this section are as follows:
+
+- pension worksheet: what two sides does it have? ::@:: Left side: journal entry columns (pension expense, OCI, cash, pension asset/liability); right side: memo columns (plan assets, DBO).
+- pension worksheet: what does the pension asset/liability column always equal? ::@:: The funded status: DBO minus fair value of plan assets.
+- benefits paid: how do they affect the pension worksheet? ::@:: Benefits paid reduce both plan assets and the DBO by the same amount, so they have no net effect on the funded status or the pension liability balance.
+- how to read the annual journal entry from the pension worksheet ::@:: Sum each left-side column: Pension expense total → Dr _Pension expense_; Cash total → Cr _Cash_; OCI total → Dr/Cr _OCI_ for remeasurements; the Pension asset/liability total is the balancing entry (Dr/Cr _Net defined benefit liability_).
+
+### year 1: Aldgate AG (2025)
+
+> Aldgate AG sponsors a defined benefit pension plan. On 1 January 2025, both the {@{DBO and the plan assets stand at €120&nbsp;000}@}; the plan is fully funded. The discount rate is {@{10%}@}. During 2025: current service cost €11&nbsp;000, employer cash contributions €9&nbsp;600, benefits paid to retirees €8&nbsp;400. Assume the actual return on plan assets equals the expected return.
+>
+> | Pension worksheet — 2025 | Pension expense | OCI | Cash | Pension asset/liability | Plan assets | DBO |
+> | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+> | Opening balance (1 Jan 2025) | | | | 0 | 120&nbsp;000 | (120&nbsp;000) |
+> | Current service cost | {@{11&nbsp;000}@} | | | {@{(11&nbsp;000)}@} | | {@{(11&nbsp;000)}@} |
+> | Interest on DBO (10% × 120&nbsp;000) | {@{12&nbsp;000}@} | | | {@{(12&nbsp;000)}@} | | {@{(12&nbsp;000)}@} |
+> | Expected return on assets (10% × 120&nbsp;000) | {@{(12&nbsp;000)}@} | | | {@{12&nbsp;000}@} | {@{12&nbsp;000}@} | |
+> | Benefits paid | | | | {@{0}@} | {@{(8&nbsp;400)}@} | {@{8&nbsp;400}@} |
+> | Employer contributions | | | {@{(9&nbsp;600)}@} | {@{9&nbsp;600}@} | {@{9&nbsp;600}@} | |
+> | __Subtotals / year-end balance__ | __{@{11&nbsp;000}@}__ | __{@{0}@}__ | __{@{(9&nbsp;600)}@}__ | __{@{(1&nbsp;400)}@}__ | __{@{133&nbsp;200}@}__ | __{@{(134&nbsp;600)}@}__ |
+>
+> _Funded status check:_ DBO €134&nbsp;600 − Plan assets €133&nbsp;200 = {@{€1&nbsp;400 net liability}@}, matching the Pension asset/liability column.
+>
+> The annual journal entry is:
+>
+> | {@{Record 2025 pension expense and funding}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Pension expense}@} | {@{11&nbsp;000}@} | |
+> | {@{Cash}@} | | {@{9&nbsp;600}@} |
+> | {@{Net defined benefit liability}@} | | {@{1&nbsp;400}@} |
+>
+> _Explanation._ Because the plan is fully funded at the start, the {@{net interest component is zero}@}. Pension expense equals current service cost only. The employer's contribution of €9&nbsp;600 is less than the expense of €11&nbsp;000, so the funded status worsens by {@{€1&nbsp;400}@}, creating a net liability on the balance sheet.
+
+---
+
+Flashcards for this section are as follows:
+
+- Aldgate AG 2025: why is the net interest component zero? ::@:: Because the plan is fully funded at the start of the year (DBO = plan assets = €120 000), so the net defined benefit obligation is zero.
+- pension expense when plan is fully funded at the start of the year ::@:: Pension expense equals current service cost only; the net interest component is zero because the funded status is zero.
+- why does the pension liability arise even when the plan starts fully funded? ::@:: Because pension expense (service cost) exceeds cash contributions for the year, the funded status deteriorates and a liability is recognized.
+- Aldgate AG 2025 (opening DBO €120 000, service cost €11 000, rate 10%, benefits paid €8 400): year-end DBO? ::@:: €134 600 = opening €120 000 + service cost €11 000 + interest €12 000 − benefits paid €8 400.
+- Aldgate AG 2025 (opening plan assets €120 000, rate 10%, benefits paid €8 400, contributions €9 600): year-end plan assets? ::@:: €133 200 = opening €120 000 + expected return €12 000 − benefits paid €8 400 + contributions €9 600.
+- Aldgate AG 2025 (year-end DBO €134 600, year-end plan assets €133 200): net pension liability? ::@:: €1 400 = DBO €134 600 − plan assets €133 200. Equivalently: pension expense €11 000 − contributions €9 600 = €1 400.
+- Aldgate AG 2025 (pension expense €11 000, contributions €9 600, net liability created €1 400): journal entry? ::@:: Dr _Pension expense_ €11 000; Cr _Cash_ €9 600; Cr _Net defined benefit liability_ €1 400.
+
+## past service cost
+
+__Past service cost__ arises when an employer amends the plan — for example, by granting employees credit for prior service or increasing the benefit formula retroactively. It represents the increase (or decrease) in the DBO caused by the amendment. Under IAS 19, past service cost is recognized immediately in profit or loss in the period of the amendment; no deferral is permitted.
+
+A curtailment (significant reduction in employees covered) also produces immediate recognition of the change in DBO as a gain or loss.
+
+---
+
+Flashcards for this section are as follows:
+
+- past service cost: when is it recognized under IAS 19? ::@:: Immediately in P&L in the period of the plan amendment; no deferral is allowed.
+- past service cost: what does it represent? ::@:: The change in the DBO resulting from a plan amendment (e.g., granting credit for prior service), recognized immediately as an expense in the period.
+- curtailment versus plan amendment: IAS 19 treatment ::@:: Both are recognized immediately in P&L in the period they occur; no amortization or deferral is permitted under IAS 19.
+
+### past service cost: Aldgate AG (2026)
+
+> On 1 January 2026 Aldgate AG amends its pension plan, granting retroactive benefits to employees. The amendment increases the DBO immediately by {@{€96&nbsp;600}@} (past service cost). Opening balances carried forward from 2025: DBO €134&nbsp;600; plan assets €133&nbsp;200; net pension liability €1&nbsp;400.
+>
+> After the amendment on 1 January 2026: DBO = {@{€231&nbsp;200}@}; net funded status = {@{€231&nbsp;200}@} − €133&nbsp;200 = {@{€98&nbsp;000 net liability}@}. Discount rate: 10%. Service cost: €11&nbsp;400; contributions: €24&nbsp;000; benefits paid: €9&nbsp;600; actual return equals expected return.
+>
+> | Pension worksheet — 2026 | Pension expense | OCI | Cash | Pension asset/liability | Plan assets | DBO |
+> | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+> | Opening (after amendment, 1 Jan 2026) | | | | (98&nbsp;000) | 133&nbsp;200 | (231&nbsp;200) |
+>
+> Simplified Year 2 entry including all components:
+>
+> Net interest = opening funded status after amendment × 10% = €98&nbsp;000 × {@{10%}@} = {@{€9&nbsp;800}@}
+>
+> (Equivalently: interest on DBO €231&nbsp;200 × 10% = {@{€23&nbsp;120}@} minus expected return on plan assets €133&nbsp;200 × 10% = {@{€13&nbsp;320}@}; net interest = {@{€9&nbsp;800}@}.)
+>
+> Total pension expense in P&amp;L = current service cost €11&nbsp;400 + net interest {@{€9&nbsp;800}@} + past service cost {@{€96&nbsp;600}@} = {@{€117&nbsp;800}@}.
+>
+> | {@{Record 2026 pension expense, past service cost, and funding}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Pension expense (service + net interest + past service cost)}@} | {@{117&nbsp;800}@} | |
+> | {@{Cash}@} | | {@{24&nbsp;000}@} |
+> | {@{Net defined benefit liability}@} | | {@{93&nbsp;800}@} |
+>
+> _Year-end check._ DBO = €231&nbsp;200 + €11&nbsp;400 + €23&nbsp;120 − €9&nbsp;600 = {@{€256&nbsp;120}@}. Plan assets = €133&nbsp;200 + €24&nbsp;000 − €9&nbsp;600 + €13&nbsp;320 = {@{€160&nbsp;920}@}. Funded status = €256&nbsp;120 − €160&nbsp;920 = {@{€95&nbsp;200 net liability}@}. Previous liability €1&nbsp;400 + €93&nbsp;800 = {@{€95&nbsp;200}@} ✓.
+
+---
+
+Flashcards for this section are as follows:
+
+- Aldgate AG 2026 (PSC €96 600): how does past service cost affect pension expense? ::@:: The full past service cost (€96 600) is added to pension expense in the year of the amendment, significantly increasing the total charge.
+- after a plan amendment increases the DBO, what happens to the net interest component? ::@:: Net interest rises because the net funded status (DBO − plan assets) is now larger, increasing the interest charge in P&L.
+- Aldgate AG 2026 (service cost €11 400, net liability after PSC €98 000, rate 10%, PSC €96 600): total pension expense? ::@:: €117 800 = current service cost €11 400 + net interest €9 800 (€98 000 × 10%) + past service cost €96 600.
+- Aldgate AG 2026 (opening DBO €134 600, PSC €96 600, plan assets €133 200): funded status after amendment? ::@:: €98 000 net liability = amended DBO €231 200 (€134 600 + PSC €96 600) − plan assets €133 200.
+- Aldgate AG 2026 (amended DBO €231 200, service cost €11 400, rate 10%, benefits paid €9 600): year-end DBO? ::@:: €256 120 = amended DBO €231 200 + service cost €11 400 + interest €23 120 (€231 200 × 10%) − benefits paid €9 600.
+- Aldgate AG 2026 (opening plan assets €133 200, rate 10%, contributions €24 000, benefits paid €9 600): year-end plan assets? ::@:: €160 920 = opening plan assets €133 200 + expected return €13 320 (€133 200 × 10%) + contributions €24 000 − benefits paid €9 600.
+- Aldgate AG 2026 (pension expense €117 800, contributions €24 000, net liability increase €93 800): journal entry? ::@:: Dr _Pension expense_ €117 800; Cr _Cash_ €24 000; Cr _Net defined benefit liability_ €93 800.
+
+## remeasurements and other comprehensive income
+
+__Remeasurements__ capture two types of experience adjustments that cannot be forecast reliably:
+
+1. __Asset gains and losses__: the difference between the actual return on plan assets and the expected return (opening plan assets × discount rate). If actual > expected, it is an asset gain; if actual < expected, it is an asset loss.
+2. __Liability gains and losses__: changes in the DBO due to revisions in actuarial assumptions (mortality, salary growth, turnover, discount rate). If the actuary's year-end estimate of the DBO is higher than the rolled-forward DBO, there is a liability loss; if lower, a liability gain.
+
+Under IAS 19, both types of remeasurement go to __other comprehensive income (OCI)__. They are never recycled to profit or loss. They accumulate in __accumulated OCI (AOCI)__ within equity.
+
+> Brixton SE has plan assets of €180&nbsp;000 at the start of 2025. The discount rate is 6%, so the {@{expected return on plan assets}@} is {@{€10&nbsp;800}@}. The actual return for the year is {@{€13&nbsp;200}@}, giving an asset gain of {@{€2&nbsp;400}@}.
+>
+> | {@{Record remeasurement asset gain in OCI}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Plan assets (memo account)}@} | {@{2&nbsp;400}@} | |
+> | {@{OCI — remeasurement gain (pension)}@} | | {@{2&nbsp;400}@} |
+>
+> _Explanation._ The €2&nbsp;400 excess of actual return over expected return is {@{not recognized in profit or loss; it is a credit to OCI}@} because IAS 19 classifies all remeasurements as OCI items that accumulate permanently in equity.
+
+---
+
+Flashcards for this section are as follows:
+
+- asset gain on pension plan assets: definition ::@:: The excess of the actual return on plan assets over the expected return (opening plan assets × discount rate); recognized in OCI, not P&L.
+- asset loss on pension plan assets: what triggers it? ::@:: The actual return on plan assets is less than the expected return; recognized as a debit to _OCI_.
+- liability gain/loss on pensions: what causes it? ::@:: Revisions to actuarial assumptions (e.g., changes in mortality rates, salary assumptions, or the discount rate) that alter the actuary's estimate of the DBO at year-end.
+- remeasurements and OCI: can the balance be reclassified to P&L in a later year? ::@:: No — IAS 19 prohibits recycling of pension remeasurements; they remain in AOCI permanently.
+- rolled-forward DBO: how is it computed and why does it differ from the actuary's figure? ::@:: Opening DBO + service cost + interest cost − benefits paid; it differs from the actuary's year-end estimate by the actuarial gain or loss (actual experience vs assumptions).
+- Brixton SE (opening plan assets €180 000, rate 6%, actual return €13 200): asset gain and OCI treatment? ::@:: Actual return €13 200 − expected return €10 800 (€180 000 × 6%) = asset gain €2 400, recognized as a credit to _OCI_ (remeasurement).
+
+### remeasurement: Aldgate AG (2027)
+
+> 2027 opening: DBO €256&nbsp;120; plan assets €160&nbsp;920; net liability €95&nbsp;200. Service cost: €15&nbsp;600. Discount rate: 10%. Cash contributions: €28&nbsp;800. Benefits paid: €12&nbsp;600. Actual return on plan assets: €14&nbsp;400 (expected return: €160&nbsp;920 × 10% = {@{€16&nbsp;092}@}; asset loss = {@{€1&nbsp;692}@}). At year-end, the actuary revises the DBO to {@{€318&nbsp;000}@}; the worksheet-computed DBO is only {@{€284&nbsp;732}@} = €256&nbsp;120 + €15&nbsp;600 − €12&nbsp;600 + {@{€25&nbsp;612}@} (interest on DBO); the difference is a liability loss of {@{€33&nbsp;268}@}. Total remeasurement loss in OCI: €1&nbsp;692 + €33&nbsp;268 = {@{€34&nbsp;960}@}.
+>
+> Net interest = €95&nbsp;200 × 10% = {@{€9&nbsp;520}@}. Pension expense = service €15&nbsp;600 + net interest €9&nbsp;520 = {@{€25&nbsp;120}@}.
+>
+> | {@{Record 2027 pension expense and remeasurements}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Pension expense}@} | {@{25&nbsp;120}@} | |
+> | {@{OCI — remeasurement loss (pension)}@} | {@{34&nbsp;960}@} | |
+> | {@{Cash}@} | | {@{28&nbsp;800}@} |
+> | {@{Net defined benefit liability}@} | | {@{31&nbsp;280}@} |
+>
+> _Year-end check._ Plan assets = €160&nbsp;920 + €28&nbsp;800 − €12&nbsp;600 + €14&nbsp;400 = {@{€191&nbsp;520}@}. DBO (per actuary) = €318&nbsp;000. Funded status = {@{€126&nbsp;480 net liability}@}. Prior liability €95&nbsp;200 + €31&nbsp;280 = €126&nbsp;480 ✓.
+
+---
+
+Flashcards for this section are as follows:
+
+- Aldgate AG 2027 (actual return €14 400, expected return €16 092; actuarial DBO €318 000, rolled-forward DBO €284 732): total OCI remeasurement? ::@:: Asset loss €1 692 (actual return €14 400 < expected €16 092) plus liability loss €33 268 (actuarial DBO €318 000 > rolled-forward DBO €284 732) = €34 960 total debit to _OCI_.
+- Aldgate AG 2027 (opening plan assets €160 920, contributions €28 800, benefits €12 600, actual return €14 400; actuary's DBO €318 000): year-end DBO and plan assets? ::@:: DBO €318 000 (per actuary); plan assets €191 520 (€160 920 + contributions €28 800 − benefits €12 600 + actual return €14 400).
+- Aldgate AG 2027 (service cost €15 600, opening net liability €95 200, rate 10%): pension expense? ::@:: €25 120 = service cost €15 600 + net interest (€95 200 × 10% = €9 520).
+
+## financial statement presentation
+
+The employer presents a single net amount on the statement of financial position: either a __net defined benefit liability__ (DBO > plan assets) or a __net defined benefit asset__ (plan assets > DBO, subject to asset ceiling), classified as non-current.
+
+Under IAS 1 presentation, pension cost in P&L comprises:
+
+- Current service cost and past service cost (operating section, typically within employee benefits expense).
+- Net interest on the net defined benefit obligation (finance costs; or finance income if overfunded).
+
+Remeasurements (asset gains/losses and actuarial gains/losses) are presented in other comprehensive income. IAS 19 requires disclosure of the components separately.
+
+---
+
+Flashcards for this section are as follows:
+
+- net defined benefit liability: where is it shown on the balance sheet? ::@:: As a single non-current liability (DBO minus fair value of plan assets); separately from other current liabilities.
+- pension cost in the income statement: two line items under IAS 1 ::@:: (1) Service cost (current + past) in operating expenses; (2) net interest on net DBO in finance costs.
+- pension remeasurements: where in the financial statements? ::@:: In other comprehensive income (OCI), accumulating in AOCI within equity; never in profit or loss.
+- AOCI and pensions: what does the balance represent? ::@:: The cumulative net remeasurement losses (or gains) from asset gain/loss and actuarial changes recognized in OCI since the plan's inception, which reduce (or increase) equity permanently.
+- how does the net defined benefit liability change from year to year? ::@:: Opening liability + pension expense recognized in P&L + remeasurements recognized in OCI − cash contributions paid.
+
+### three-year summary: Aldgate AG
+
+> After the three-year Aldgate AG sequence: net defined benefit liability = {@{€126&nbsp;480}@} on the statement of financial position. The AOCI balance in equity holds the {@{cumulative net remeasurement loss of €34&nbsp;960}@} from 2027 (years 2025 and 2026 had no remeasurements in this example).
+>
+> 2027 statement of comprehensive income presentation:
+>
+> | | Amount |
+> | --- | ---: |
+> | Profit or loss: pension expense (service €15&nbsp;600 + net interest €9&nbsp;520) | {@{(25&nbsp;120)}@} |
+> | OCI: remeasurement loss (asset loss €1&nbsp;692 + actuarial liability loss €33&nbsp;268) | {@{(34&nbsp;960)}@} |
+> | __Total comprehensive income impact__ | __({@{60&nbsp;080}@})__ |
+
+---
+
+Flashcards for this section are as follows:
+
+- Aldgate AG year 3 (DBO €318 000, plan assets €191 520): net defined benefit liability? ::@:: €126 480 = DBO €318 000 − plan assets €191 520.
+- Aldgate AG year 3 (pension expense €25 120, OCI remeasurement loss €34 960): total comprehensive income impact? ::@:: P&L pension expense −€25 120 (service €15 600 + net interest €9 520) plus OCI remeasurement loss −€34 960 = total comprehensive income impact −€60 080.
+
+## difficult exercise
+
+The following exercise combines a mid-year plan amendment (past service cost), remeasurement gains on both the DBO and plan assets, and the standard service and net interest components. Work through each step before consulting the solution.
+
+### plan amendment with remeasurement gains
+
+> Dalston Consulting AG sponsors a defined benefit pension plan. Opening balances (1 January 2026): DBO {@{480&nbsp;000}@}; plan assets {@{390&nbsp;000}@}; net defined benefit liability {@{90&nbsp;000}@}. Discount rate: {@{8%}@}. During the year: current service cost {@{36&nbsp;000}@}; employer contributions {@{45&nbsp;000}@}; benefits paid to retirees {@{28&nbsp;800}@}.
+>
+> On 1 July 2026, the plan is amended; past service cost is {@{72&nbsp;000}@}, recognized immediately in P&L. Post-amendment DBO for interest purposes: 480&nbsp;000 + 72&nbsp;000 = {@{552&nbsp;000}@}. Actual return on plan assets: {@{36&nbsp;000}@}; expected return: 390&nbsp;000 × 8% = {@{31&nbsp;200}@}; asset gain: {@{4&nbsp;800}@}. At year-end the actuary revises DBO to {@{570&nbsp;000}@}.
+>
+> __Rolled-forward DBO (before actuarial revision):__ 552&nbsp;000 + 44&nbsp;160 (interest) + 36&nbsp;000 (service) − 28&nbsp;800 (benefits) = {@{603&nbsp;360}@}. Actuary's DBO 570&nbsp;000 < 603&nbsp;360 → liability gain = {@{33&nbsp;360}@}.
+>
+> __Net interest:__ post-amendment net liability (90&nbsp;000 + 72&nbsp;000) × 8% = {@{12&nbsp;960}@}. Equivalently: interest on DBO {@{44&nbsp;160}@} (552&nbsp;000 × 8%) minus expected return {@{31&nbsp;200}@} = {@{12&nbsp;960}@}.
+>
+> __Pension expense (P&L):__ service {@{36&nbsp;000}@} + net interest {@{12&nbsp;960}@} + past service cost {@{72&nbsp;000}@} = {@{120&nbsp;960}@}.
+>
+> __Net OCI (remeasurements):__ asset gain {@{4&nbsp;800}@} + liability gain {@{33&nbsp;360}@} = {@{38&nbsp;160}@} net gain → credited to _OCI_.
+>
+> | Pension worksheet — 2026 | Pension expense | OCI | Cash | Pension asset/liability | Plan assets | DBO |
+> | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+> | Opening (1 Jan 2026) | | | | (90&nbsp;000) | 390&nbsp;000 | (480&nbsp;000) |
+> | Past service cost | {@{72&nbsp;000}@} | | | {@{(72&nbsp;000)}@} | | {@{(72&nbsp;000)}@} |
+> | Current service cost | {@{36&nbsp;000}@} | | | {@{(36&nbsp;000)}@} | | {@{(36&nbsp;000)}@} |
+> | Interest on DBO (8% × 552&nbsp;000) | {@{44&nbsp;160}@} | | | {@{(44&nbsp;160)}@} | | {@{(44&nbsp;160)}@} |
+> | Expected return (8% × 390&nbsp;000) | ({@{31&nbsp;200}@}) | | | {@{31&nbsp;200}@} | {@{31&nbsp;200}@} | |
+> | Employer contributions | | | {@{(45&nbsp;000)}@} | {@{45&nbsp;000}@} | {@{45&nbsp;000}@} | |
+> | Benefits paid | | | | {@{0}@} | {@{(28&nbsp;800)}@} | {@{28&nbsp;800}@} |
+> | Asset gain — OCI | | ({@{4&nbsp;800}@}) | | {@{4&nbsp;800}@} | {@{4&nbsp;800}@} | |
+> | Liability gain — OCI | | ({@{33&nbsp;360}@}) | | {@{33&nbsp;360}@} | | {@{33&nbsp;360}@} |
+> | __Year-end balance__ | __{@{120&nbsp;960}@}__ | __{@{(38&nbsp;160)}@}__ | __{@{(45&nbsp;000)}@}__ | __{@{(127&nbsp;800)}@}__ | __{@{442&nbsp;200}@}__ | __{@{(570&nbsp;000)}@}__ |
+>
+> _Funded status check:_ DBO {@{570&nbsp;000}@} − plan assets {@{442&nbsp;200}@} = {@{127&nbsp;800 net liability}@} ✓. Net liability movement: 90&nbsp;000 + 120&nbsp;960 − 45&nbsp;000 − 38&nbsp;160 = {@{127&nbsp;800}@} ✓.
+
+<!-- markdownlint-disable-next-line MD028 -->
+> Dalston Consulting AG 2026 — defined benefit pension journal entry: pension expense (P&L) = {@{120&nbsp;960}@}; cash contributions = {@{45&nbsp;000}@}; OCI remeasurement gain = {@{38&nbsp;160}@}; net liability increase = {@{37&nbsp;800}@}.
+>
+> | {@{Record 2026 pension cost, contributions, and remeasurements — Dalston Consulting AG}@} | Dr | Cr |
+> | --- | ---: | ---: |
+> | {@{Pension expense (P&L)}@} | {@{120&nbsp;960}@} | |
+> | {@{Cash}@} | | {@{45&nbsp;000}@} |
+> | {@{OCI — remeasurement gain}@} | | {@{38&nbsp;160}@} |
+> | {@{Net defined benefit liability}@} | | {@{37&nbsp;800}@} |
+>
+> Pension expense {@{120&nbsp;960}@} increases the liability; contributions {@{45&nbsp;000}@} and the OCI gain {@{38&nbsp;160}@} reduce it. Net increase = {@{37&nbsp;800}@}; closing liability: 90&nbsp;000 + 37&nbsp;800 = {@{127&nbsp;800}@} ✓.
+
+---
+
+Flashcards for this section are as follows:
+
+- Dalston 2026 (service cost 36&nbsp;000, opening net liability 90&nbsp;000, PSC 72&nbsp;000, rate 8%): total pension expense in P&L? ::@:: 120&nbsp;960 = current service cost 36&nbsp;000 + net interest 12&nbsp;960 [(90&nbsp;000 + 72&nbsp;000) × 8%] + past service cost 72&nbsp;000.
+- Dalston 2026 (opening net liability 90&nbsp;000, PSC 72&nbsp;000, rate 8%; DBO after amendment 552&nbsp;000, opening plan assets 390&nbsp;000): net interest? ::@:: (90&nbsp;000 + 72&nbsp;000) × 8% = 12&nbsp;960; equivalently interest on adjusted DBO 552&nbsp;000 × 8% = 44&nbsp;160 minus expected return 390&nbsp;000 × 8% = 31&nbsp;200.
+- Dalston 2026 (actual return 36&nbsp;000, expected return 31&nbsp;200; rolled-forward DBO 603&nbsp;360, actuary's DBO 570&nbsp;000): total OCI remeasurement gain? ::@:: Net gain 38&nbsp;160 = asset gain 4&nbsp;800 (actual return 36&nbsp;000 minus expected 31&nbsp;200) + liability gain 33&nbsp;360 (rolled-forward DBO 603&nbsp;360 minus actuary's DBO 570&nbsp;000).
+- Dalston 2026 (pension expense 120&nbsp;960, contributions 45&nbsp;000, OCI gain 38&nbsp;160): journal entry — which accounts are credited? ::@:: _Cash_ 45&nbsp;000 (contributions); _OCI — remeasurement gain_ 38&nbsp;160; _net defined benefit liability_ 37&nbsp;800.
+- Dalston 2026 (DBO 570&nbsp;000, plan assets 442&nbsp;200): closing net defined benefit liability? ::@:: 127&nbsp;800 = DBO 570&nbsp;000 − plan assets 442&nbsp;200; verified as 90&nbsp;000 + 120&nbsp;960 − 45&nbsp;000 − 38&nbsp;160.
