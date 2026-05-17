@@ -147,7 +147,7 @@ In this approach, {@{every non-logical symbol}@} is {@{of one of the following t
 
 - A _predicate symbol_ \(or _relation symbol_\) with some _valence_ \(or _arity_, number of arguments\) greater than or equal to 0. ::@:: These are often denoted by uppercase letters such as _P_, _Q_ and _R_. Examples: <!--SR:!2026-10-23,361,364!2027-02-16,455,382-->
   - In _P_\(_x_\), ::@:: _P_ is a predicate symbol of valence 1. One possible interpretation is "_x_ is a man". <!--SR:!2026-10-23,357,364!2026-12-14,400,364-->
-  - In _Q_\(_x_,_y_\), ::@:: _Q_ is a predicate symbol of valence 2. Possible interpretations include "_x_ is greater than _y_" and "_x_ is the father of _y_". <!--SR:!2026-06-19,251,334!2026-12-06,393,364-->
+  - In _Q_\(_x_,_y_\), ::@:: _Q_ is a predicate symbol of valence 2. Possible interpretations include "_x_ is greater than _y_" and "_x_ is the father of _y_". <!--SR:!fsrs,2029-07-19T00:00:00.000Z,1126,1126.0868747,1,2,9,0,0,2026-06-19T00:00:00.000Z!2026-12-06,393,364-->
   - Relations of valence 0 ::@:: can be identified with [propositional variables](propositional%20variable.md), which can stand for any statement. One possible interpretation of _R_ is "Socrates is a man". <!--SR:!2027-01-28,439,382!2026-11-27,386,364-->
 - A _function symbol_, with some valence greater than or equal to 0. ::@:: These are often denoted by lowercase [roman letters](Latin%20script.md) such as _f_, _g_ and _h_. Examples: <!--SR:!2026-12-06,393,364!2026-11-18,379,364-->
   - _f_\(_x_\) ::@:: may be interpreted as "the father of _x_". In [arithmetic](arithmetic.md), it may stand for "-x". In set theory, it may stand for "the [power set](power%20set.md) of x". <!--SR:!2026-11-08,369,364!2026-11-19,379,364-->
@@ -516,7 +516,7 @@ For instance, {@{first-order logic is undecidable}@}, meaning {@{a sound, comple
 
 ### formalizing natural languages
 
-- Main article: ::@:: [Logic translation § Natural language formalization](logic%20translation.md#natural%20language%20formalization) <!--SR:!2026-06-19,254,334!2027-02-14,455,382-->
+- Main article: ::@:: [Logic translation § Natural language formalization](logic%20translation.md#natural%20language%20formalization) <!--SR:!fsrs,2029-07-31T00:00:00.000Z,1138,1137.76531831,1,2,9,0,0,2026-06-19T00:00:00.000Z!2027-02-14,455,382-->
 
 First-order logic is able to {@{formalize many simple quantifier constructions in natural language}@}, such as {@{"every person who lives in Perth lives in Australia"}@}. Hence, first-order logic is used as {@{a basis for [knowledge representation languages](knowledge%20representation%20language.md)}@}, such as {@{[FO\(.\)](FO(.).md)}@}. <!--SR:!2026-12-05,392,364!2026-12-08,395,364!2027-01-26,439,382!2027-02-25,464,382-->
 

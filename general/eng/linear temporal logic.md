@@ -97,7 +97,7 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 >   - __G__ _φ_ / symbolic ::@:: $\Box \varphi$ <!--SR:!fsrs,2028-05-27T10:03:07.943Z,713,713.10510302,1,2,8,0,0,2026-06-14T10:03:07.943Z!fsrs,2028-05-24T10:02:23.740Z,710,709.96517871,1,2,8,0,0,2026-06-14T10:02:23.740Z-->
 >   - __G__ _φ_ / explanation ::@:: __G__<!-- markdown separator -->lobally: _φ_ has to hold on the entire subsequent path. <!--SR:!fsrs,2028-05-26T10:02:52.690Z,712,711.54011426,1,2,8,0,0,2026-06-14T10:02:52.690Z!fsrs,2028-05-27T10:02:40.480Z,713,713.10510302,1,2,8,0,0,2026-06-14T10:02:40.480Z-->
 >   - __G__ _φ_ / diagram ::@:: ![LTI globally diagram](../../archives/Wikimedia%20Commons/Ltlalways.svg) <!--SR:!2026-06-28,142,410!2026-06-28,142,410-->
-> - [binary operators](binary%20operation.md) ::@:: - _ψ_ __U__ _φ_ <br/> - _ψ_ __R__ _φ_ <br/> - _ψ_ __W__ _φ_ <br/> - _ψ_ __M__ _φ_ <!--SR:!fsrs,2028-05-26T10:02:48.193Z,712,711.54011426,1,2,8,0,0,2026-06-14T10:02:48.193Z!2026-06-19,134,410-->
+> - [binary operators](binary%20operation.md) ::@:: - _ψ_ __U__ _φ_ <br/> - _ψ_ __R__ _φ_ <br/> - _ψ_ __W__ _φ_ <br/> - _ψ_ __M__ _φ_ <!--SR:!fsrs,2028-05-26T10:02:48.193Z,712,711.54011426,1,2,8,0,0,2026-06-14T10:02:48.193Z!fsrs,2028-06-23T00:00:00.000Z,735,735.10222202,1,2,8,0,0,2026-06-19T00:00:00.000Z-->
 > - _ψ_ __U__ _φ_
 >   - _ψ_ __U__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {U} }\,\varphi$ <!--SR:!fsrs,2028-05-30T10:02:25.338Z,716,716.20587414,1,2,8,0,0,2026-06-14T10:02:25.338Z!fsrs,2028-05-24T10:02:48.947Z,710,709.96517871,1,2,8,0,0,2026-06-14T10:02:48.947Z-->
 >   - _ψ_ __U__ _φ_ / explanation ::@:: __U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position. <!--SR:!fsrs,2028-05-24T10:02:28.404Z,710,709.96517871,1,2,8,0,0,2026-06-14T10:02:28.404Z!fsrs,2028-05-29T10:02:51.730Z,715,714.66030858,1,2,8,0,0,2026-06-14T10:02:51.730Z-->
@@ -113,7 +113,7 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 > - _ψ_ __M__ _φ_
 >   - _ψ_ __M__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {M} }\,\varphi$ <!--SR:!fsrs,2028-05-27T10:02:27.206Z,713,713.10510302,1,2,8,0,0,2026-06-14T10:02:27.206Z!fsrs,2028-06-05T03:29:58.381Z,721,720.93701642,1,2,8,0,0,2026-06-15T03:29:58.381Z-->
 >   - _ψ_ __M__ _φ_ / explanation ::@:: Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position. <!--SR:!fsrs,2027-09-01T03:29:56.454Z,443,442.9936858,1,2,8,0,0,2026-06-15T03:29:56.454Z!fsrs,2028-06-05T03:29:57.829Z,721,720.93701642,1,2,8,0,0,2026-06-15T03:29:57.829Z-->
->   - _ψ_ __M__ _φ_ / diagram ::@:: ![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <!--SR:!2026-06-19,134,410!fsrs,2028-05-24T10:03:09.110Z,710,709.96517871,1,2,8,0,0,2026-06-14T10:03:09.110Z-->
+>   - _ψ_ __M__ _φ_ / diagram ::@:: ![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <!--SR:!fsrs,2028-06-23T00:00:00.000Z,735,735.10222202,1,2,8,0,0,2026-06-19T00:00:00.000Z!fsrs,2028-05-24T10:03:09.110Z,710,709.96517871,1,2,8,0,0,2026-06-14T10:03:09.110Z-->
 
 ## equivalences
 

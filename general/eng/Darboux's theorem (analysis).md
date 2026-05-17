@@ -12,13 +12,13 @@ tags:
 
 # Darboux's theorem (analysis)
 
-In {@{[mathematics](mathematics.md)}@}, {@{__Darboux's theorem__}@} is {@{a [theorem](theorem.md) in [real analysis](real%20analysis.md), named after [Jean Gaston Darboux](Jean%20Gaston%20Darboux.md)}@}. <!--SR:!2031-01-27,1982,330!2031-08-30,2120,330!2026-06-19,73,326-->
+In {@{[mathematics](mathematics.md)}@}, {@{__Darboux's theorem__}@} is {@{a [theorem](theorem.md) in [real analysis](real%20analysis.md), named after [Jean Gaston Darboux](Jean%20Gaston%20Darboux.md)}@}. <!--SR:!2031-01-27,1982,330!2031-08-30,2120,330!fsrs,2027-07-01T00:00:00.000Z,377,376.88525672,1,2,7,0,0,2026-06-19T00:00:00.000Z-->
 
 ## Darboux's theorem
 
 > {@{__Darboux's theorem__}@}
 >
-> Let $f$ be {@{a [real-valued function](real-valued%20function.md) [differentiable](differentiable%20function.md) on the closed [interval](interval%20(mathematics).md) $[a,b]$}@} (annotation: {@{_not_ $(a, b)$}@}). Then $f'$ has {@{the __intermediate value property__}@}: for {@{every $y$ satisfying $\min(f'(a),f'(b))<y<\max(f'(a),f'(b))$, there exists an $x\in(a,b)$ such that $f'(x)=y$}@}. <!--SR:!2029-08-24,1260,250!fsrs,2027-06-25T00:00:00.000Z,372,372.45216267,1,2,7,0,0,2026-06-18T00:00:00.000Z!2026-06-21,75,326!2026-06-20,74,326!2026-06-19,73,326-->
+> Let $f$ be {@{a [real-valued function](real-valued%20function.md) [differentiable](differentiable%20function.md) on the closed [interval](interval%20(mathematics).md) $[a,b]$}@} (annotation: {@{_not_ $(a, b)$}@}). Then $f'$ has {@{the __intermediate value property__}@}: for {@{every $y$ satisfying $\min(f'(a),f'(b))<y<\max(f'(a),f'(b))$, there exists an $x\in(a,b)$ such that $f'(x)=y$}@}. <!--SR:!2029-08-24,1260,250!fsrs,2027-06-25T00:00:00.000Z,372,372.45216267,1,2,7,0,0,2026-06-18T00:00:00.000Z!2026-06-21,75,326!2026-06-20,74,326!fsrs,2027-07-01T00:00:00.000Z,377,376.88525672,1,2,7,0,0,2026-06-19T00:00:00.000Z-->
 
 ## references
 

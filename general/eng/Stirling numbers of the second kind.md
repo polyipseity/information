@@ -61,7 +61,7 @@ As with {@{the [binomial coefficients](binomial%20coefficient.md)}@}, this table
 
 ### recurrence relation
 
-Stirling numbers of the second kind {@{obey the recurrence relation $$\left\{ {n+1 \atop k}\right\}=k\left\{ {n \atop k}\right\}+\left\{ {n \atop k-1}\right\}\quad {\text{for} }\;0<k<n$$}@} with {@{initial conditions $$\left\{ {n \atop n}\right\}=1\quad {\text{ for} }\;n\geq 0\quad {\text{ and } }\quad \left\{ {n \atop 0}\right\}=\left\{ {0 \atop n}\right\}=0\quad {\text{ for } }n>0{\text{.} }$$}@} <!--SR:!2026-06-19,395,290!2029-10-24,1418,350-->
+Stirling numbers of the second kind {@{obey the recurrence relation $$\left\{ {n+1 \atop k}\right\}=k\left\{ {n \atop k}\right\}+\left\{ {n \atop k-1}\right\}\quad {\text{for} }\;0<k<n$$}@} with {@{initial conditions $$\left\{ {n \atop n}\right\}=1\quad {\text{ for} }\;n\geq 0\quad {\text{ and } }\quad \left\{ {n \atop 0}\right\}=\left\{ {0 \atop n}\right\}=0\quad {\text{ for } }n>0{\text{.} }$$}@} <!--SR:!fsrs,2030-05-16T00:00:00.000Z,1427,1427.28592429,1.98030797,2,10,0,0,2026-06-19T00:00:00.000Z!2029-10-24,1418,350-->
 
 For instance, the number 25 in column _k_ = 3 and row _n_ = 5 is given by 25 = 7 + (3×6), where 7 is the number above and to the left of 25, 6 is the number above 25 and 3 is the column containing the 6.
 

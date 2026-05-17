@@ -144,7 +144,7 @@ The content is in teaching order.
 
 - datetime: 2025-01-20T08:30:00-05:00/2025-01-20T09:50:00-05:00, PT1H20M
   - local: 2025-01-20T21:30:00+08:00/2025-01-20T22:50:00+08:00, PT1H20M
-- [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre <!--SR:!2026-06-19,381,360!2026-10-01,451,320-->
+- [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre <!--SR:!fsrs,2031-04-12T00:00:00.000Z,1758,1758.43253061,1,2,10,0,0,2026-06-19T00:00:00.000Z!2026-10-01,451,320-->
   - blues / characteristics ::@:: call and response, sadness <!--SR:!2031-02-27,1764,380!2031-05-13,1826,380-->
   - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2028-01-13,779,340!fsrs,2031-03-14T05:22:32.444Z,1734,1734.07818821,1,2,10,0,0,2026-06-14T05:22:32.444Z-->
   - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2026-06-22,384,360!2031-04-07,1793,380-->

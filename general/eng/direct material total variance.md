@@ -20,7 +20,7 @@ In {@{[variance analysis \(accounting\)](variance%20analysis%20(accounting).md)}
 
 ## example
 
-Let us assume that {@{standard direct material cost of [widget](widget%20(economics).md)}@} is as follows: <p> &emsp; {@{2 kg}@} of [unobtainium](unobtainium.md) at {@{\$ 60 per kg}@} \( = {@{\$ 120 per unit}@}\). <!--SR:!2026-07-14,266,330!2026-07-09,262,330!2026-07-06,259,330!2026-06-19,246,330-->
+Let us assume that {@{standard direct material cost of [widget](widget%20(economics).md)}@} is as follows: <p> &emsp; {@{2 kg}@} of [unobtainium](unobtainium.md) at {@{\$ 60 per kg}@} \( = {@{\$ 120 per unit}@}\). <!--SR:!2026-07-14,266,330!2026-07-09,262,330!2026-07-06,259,330!fsrs,2029-06-15T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-06-19T00:00:00.000Z-->
 
 Let us assume further that during the given period, {@{100 widgets were manufactured}@}, using {@{212 kg of [unobtainium](unobtainium.md) which cost \$ 13,144}@}. <!--SR:!fsrs,2029-04-24T00:57:54.445Z,1053,1053.01305103,1,2,9,0,0,2026-06-06T00:57:54.445Z!2026-07-03,257,330-->
 

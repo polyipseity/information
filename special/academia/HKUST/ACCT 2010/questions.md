@@ -307,7 +307,7 @@ tags:
 > 3. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@} <!--SR:!2026-07-10,462,381!2026-06-19,443,381-->
+> - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@} <!--SR:!2026-07-10,462,381!fsrs,2032-02-13T00:00:00.000Z,2065,2065.28037757,1,2,10,0,0,2026-06-19T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

@@ -64,7 +64,7 @@ Below, the accompanying code to the right is {@{a piece of pseudo C code showing
 - `$s`, `$t`, and `$d` \(in order of instruction encoding\) ::@:: It can be any 32-bit named/numbered register \(5 bits to encode\). <!--SR:!fsrs,2030-11-17T14:16:20.129Z,1619,1619.11630335,1,2,9,0,0,2026-06-12T14:16:20.129Z!fsrs,2030-10-13T05:09:01.172Z,1591,1590.86906995,1,2,9,0,0,2026-06-05T05:09:01.172Z-->
 - `imm` ::@:: It can be any 16-bit constant, which may be unextended, sign-extended, or zero-extended depending on the instruction. <!--SR:!2030-09-22,1590,375!2030-10-04,1601,375-->
 - `offset` ::@:: It can be any 16-bit signed constant. It can represent a signed 16-bit byte offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction. <!--SR:!2029-03-03,1125,355!2026-06-21,362,355-->
-- `target` ::@:: It can be any 26-bit unsigned constant. It can represent an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\). <!--SR:!fsrs,2030-09-30T05:08:55.960Z,1578,1578.17620593,1,2,9,0,0,2026-06-05T05:08:55.960Z!2026-06-19,360,355-->
+- `target` ::@:: It can be any 26-bit unsigned constant. It can represent an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\). <!--SR:!fsrs,2030-09-30T05:08:55.960Z,1578,1578.17620593,1,2,9,0,0,2026-06-05T05:08:55.960Z!fsrs,2030-12-23T00:00:00.000Z,1648,1648.40853155,1,2,9,0,0,2026-06-19T00:00:00.000Z-->
 - `PC` ::@:: It is the 32-bit address of the current instruction \(program counter\). <!--SR:!fsrs,2030-10-25T08:13:42.682Z,1601,1600.60130072,1,2,9,0,0,2026-06-07T08:13:42.682Z!fsrs,2030-09-25T01:08:58.181Z,1572,1571.78143325,1,2,9,0,0,2026-06-06T01:08:58.181Z-->
   - `nPC` ::@:: It is a _concept_ \(_not_ a real register\) containing the 32-bit address of the _next_ instruction \(next program counter\), i.e. `PC+4`. <!--SR:!2026-11-28,483,401!2026-12-17,495,401-->
 - `h` ::@:: It can be any 5-bit unsigned constant. It is used for bit-shit instructions. <!--SR:!fsrs,2030-12-18T00:00:00.000Z,1644,1644.43224944,1,2,9,0,0,2026-06-18T00:00:00.000Z!fsrs,2030-11-14T14:16:20.606Z,1616,1616.2494261,1,2,9,0,0,2026-06-12T14:16:20.606Z-->
@@ -83,7 +83,7 @@ The program counter {@{cannot be read or written directly}@}. However, it can be
 
 ### operands
 
-There are {@{3 types of operands}@} \(at least in this course\) in MIPS: {@{immediate \(constant\) operand, memory operand, and register operand}@}. Note that the first one is {@{limited to 16 bits \(see instruction encoding\)}@}, and {@{for _arithmetic_ operations \(e.g. excludes _bitwise_ operations), is always _sign-extended_}@}. <!--SR:!2026-06-19,360,355!fsrs,2030-10-05T05:09:57.334Z,1583,1582.53817916,1,2,9,0,0,2026-06-05T05:09:57.334Z!2030-08-20,1563,375!fsrs,2030-09-30T08:13:41.730Z,1576,1575.71518216,1,2,9,0,0,2026-06-07T08:13:41.730Z-->
+There are {@{3 types of operands}@} \(at least in this course\) in MIPS: {@{immediate \(constant\) operand, memory operand, and register operand}@}. Note that the first one is {@{limited to 16 bits \(see instruction encoding\)}@}, and {@{for _arithmetic_ operations \(e.g. excludes _bitwise_ operations), is always _sign-extended_}@}. <!--SR:!fsrs,2030-12-23T00:00:00.000Z,1648,1648.40853155,1,2,9,0,0,2026-06-19T00:00:00.000Z!fsrs,2030-10-05T05:09:57.334Z,1583,1582.53817916,1,2,9,0,0,2026-06-05T05:09:57.334Z!2030-08-20,1563,375!fsrs,2030-09-30T08:13:41.730Z,1576,1575.71518216,1,2,9,0,0,2026-06-07T08:13:41.730Z-->
 
 In terms of {@{execution time}@}, {@{immediate \(constant\) operands}@} are {@{the fastest as they are encoded in the instruction}@}. {@{Register operands}@} are {@{still fast since registers are inside to the processor}@}. {@{Memory operands}@} are {@{extremely slow comparatively since they are very far comparatively from the processor}@}. This is why {@{there are multiple variants of the same operation, but with one accepting immediate operands}@}. <!--SR:!2029-12-07,1324,350!2029-11-09,1313,350!2029-08-13,1256,350!2029-09-11,1278,350!2029-07-23,1238,350!2029-04-04,1151,350!2029-06-07,1200,350!2029-04-10,1156,350-->
 
@@ -154,7 +154,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 ### jump instructions
 
-- branch on equal ::@:: `beq $s, $t, offset`: `if ($s == $t) { goto nPC + offset << 2; }` <!--SR:!2030-07-29,1541,375!2026-06-19,360,355-->
+- branch on equal ::@:: `beq $s, $t, offset`: `if ($s == $t) { goto nPC + offset << 2; }` <!--SR:!2030-07-29,1541,375!fsrs,2030-12-23T00:00:00.000Z,1648,1648.40853155,1,2,9,0,0,2026-06-19T00:00:00.000Z-->
 - branch on greater than or equal to zero ::@:: `bgez $s, offset`: `if ($s >= 0) { goto nPC + offset << 2; }` <!--SR:!fsrs,2030-09-18T05:07:21.865Z,1566,1566.40930025,1,2,9,0,0,2026-06-05T05:07:21.865Z!2028-08-30,969,355-->
 - branch on greater than or equal to zero and link ::@:: `bgezal $s, offset`: `if ($s >= 0) { $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2029-05-13,1154,350!fsrs,2030-09-23T05:07:30.669Z,1571,1570.84524539,1,2,9,0,0,2026-06-05T05:07:30.669Z-->
 - branch on greater than zero ::@:: `bgtz $s, offset`: `if ($s > 0) { goto nPC + offset << 2; }` <!--SR:!2028-08-12,951,350!2029-01-14,1086,355-->
@@ -356,7 +356,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 
 Note that some pseudo-instructions have {@{the same name as some of the _real_ instructions}@}. Whether the instruction or the pseudo-instruction is {@{used depends on the operands}@}. For example, {@{the load word `lw` instruction}@} has {@{several related pseudo-instructions of the same name that does the same thing}@} but {@{for operands not following the format `lw $t, $s(offset)`}@}, which are provided for {@{convenience, e.g. loading data addressed by a label (`lw $t, label`), etc.}@}. <!--SR:!2026-10-19,458,383!2026-10-03,443,383!2026-11-04,470,383!2030-07-24,1545,383!2026-09-24,438,383!2026-10-30,465,383-->
 
-\(__this course__: Some questions may {@{require you to not use any pseudo-instructions}@}.\) <!--SR:!2026-06-19,360,355-->
+\(__this course__: Some questions may {@{require you to not use any pseudo-instructions}@}.\) <!--SR:!fsrs,2030-12-23T00:00:00.000Z,1648,1648.40853155,1,2,9,0,0,2026-06-19T00:00:00.000Z-->
 
 ## procedures
 
