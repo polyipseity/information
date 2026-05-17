@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 
 - what is the time-domain Dirac comb of spacing $T$? ::@:: It is $\operatorname{III}_T(t)=\sum_{n=-\infty}^{\infty}\delta(t-nT)$. <!--SR:!2026-07-27,72,326!2026-07-29,75,326-->
 - what Fourier-transform pair does the time comb satisfy in this convention? ::@:: It satisfies $\operatorname{III}_T(t)\longleftrightarrow \frac{2\pi}{T}\operatorname{III}_{2\pi/T}(\omega)$. <!--SR:!2026-07-23,69,326!2026-07-26,72,326-->
-- what is the inverse-transform partner of the frequency comb $\operatorname{III}_{\omega_0}(\omega)$? ::@:: It is $\operatorname{III}_{\omega_0}(\omega)\longleftrightarrow \frac{1}{\omega_0}\operatorname{III}_{2\pi/\omega_0}(t)$. <!--SR:!2026-07-13,58,320!2026-08-07,83,340-->
+- what is the inverse-transform partner of the frequency comb $\operatorname{III}_{\omega_0}(\omega)$? ::@:: It is $\operatorname{III}_{\omega_0}(\omega)\longleftrightarrow \frac{1}{\omega_0}\operatorname{III}_{2\pi/\omega_0}(t)$. <!--SR:!fsrs,2027-05-13T00:00:00.000Z,303,302.72211226,1,2,7,0,0,2026-07-14T00:00:00.000Z!2026-08-07,83,340-->
 - which two transform rules are used most often in this note? ::@:: Time multiplication gives frequency convolution with the factor $1/(2\pi)$, and time convolution gives ordinary multiplication in frequency. <!--SR:!2026-07-27,73,326!2026-07-29,75,326-->
 
 ## the parent corner: Fourier transform

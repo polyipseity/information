@@ -364,7 +364,7 @@ Flashcards for this section are as follows:
 - training-versus-validation split trade-off ::@:: A larger training set helps fit parameters better, while a larger validation set gives a more reliable estimate of future performance. <!--SR:!2026-08-29,91,362!2026-08-03,83,341-->
 - why a single hold-out split wastes data ::@:: A single hold-out split leaves some labeled examples out of training, so parameter estimation is based on less data than necessary. <!--SR:!2026-08-05,85,353!2026-07-30,75,324-->
 - why a single hold-out score is unstable ::@:: A single hold-out validation score can change a lot from one split to another, so it may be a noisy estimate of future performance. <!--SR:!2026-08-12,91,362!2026-08-11,86,353-->
-- cross-validation ::@:: In $k$-fold cross-validation, the data are split into $k$ parts and the training-validation cycle is repeated $k$ times so every fold serves once as validation. <!--SR:!2026-08-05,85,353!2026-07-13,62,333-->
+- cross-validation ::@:: In $k$-fold cross-validation, the data are split into $k$ parts and the training-validation cycle is repeated $k$ times so every fold serves once as validation. <!--SR:!2026-08-05,85,353!fsrs,2027-06-15T00:00:00.000Z,336,336.01801072,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
 - why cross-validation helps ::@:: Cross-validation gives a more stable estimate of generalization than a single hold-out split, especially when data are limited. <!--SR:!2026-08-04,79,341!2026-08-08,83,341-->
 - why cross-validation is still not perfect ::@:: Cross-validation is more computationally expensive, and after using it for model selection one still wants a final untouched test set for unbiased reporting. <!--SR:!2026-08-02,82,341!2026-08-11,86,353-->
 
@@ -507,7 +507,7 @@ Flashcards for this section are as follows:
 - meaning of $R^2 = 1$ ::@:: $R^2 = 1$ means the model predicts the targets perfectly, so the residual sum of squares is zero. <!--SR:!2026-08-11,86,353!2026-08-02,82,341-->
 - meaning of $R^2 = 0$ ::@:: $R^2 = 0$ means the model performs no better than the baseline predictor that always outputs the mean target value. <!--SR:!2026-08-11,86,353!2026-08-30,92,362-->
 - why $R^2$ can be negative ::@:: $R^2$ can be negative when the model performs worse than the mean-prediction baseline and therefore has an even larger residual sum of squares. <!--SR:!2026-08-02,82,341!2026-08-08,83,341-->
-- OLS orthogonality interpretation of residuals ::@:: At the least-squares solution the residual vector $e=y-\hat y$ satisfies $X^\top e=0$, so it is orthogonal to every regressor included in the design matrix. <!--SR:!2026-07-13,57,321!2026-07-25,70,324--> <p> In particular, if an intercept is included, which corresponds to a column of all ones, this implies that the residuals sum to zero.
+- OLS orthogonality interpretation of residuals ::@:: At the least-squares solution the residual vector $e=y-\hat y$ satisfies $X^\top e=0$, so it is orthogonal to every regressor included in the design matrix.  <p> In particular, if an intercept is included, which corresponds to a column of all ones, this implies that the residuals sum to zero. <!--SR:!fsrs,2027-05-09T00:00:00.000Z,299,299.36513198,1,2,7,0,0,2026-07-14T00:00:00.000Z!2026-07-25,70,324-->
 
 ### mse and rmse interpretation
 

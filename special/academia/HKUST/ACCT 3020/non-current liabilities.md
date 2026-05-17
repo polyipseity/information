@@ -398,7 +398,7 @@ Flashcards for this section are as follows:
 - notes payable vs bonds (accounting) ::@:: Both are measured at present value and use the effective interest method to recognize interest expense and amortize discount/premium. <!--SR:!fsrs,2026-12-19T05:25:20.919Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:25:20.919Z!2026-07-14,58,310-->
 - notes payable vs bonds (practical difference) ::@:: Bonds are widely traded instruments with many investors; long-term notes payable are usually private, non-tradable agreements with a single lender. <!--SR:!fsrs,2026-12-19T05:39:55.863Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:39:55.863Z!2026-07-16,60,310-->
 - interest-bearing note at discount: issuance entry (net)? ::@:: Dr _Cash_ (present value), Cr _Notes payable_ (present value). <!--SR:!fsrs,2026-12-19T05:24:33.386Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:24:33.386Z!fsrs,2026-12-12T04:56:34.091Z,182,182.36945546,1,2,5,0,0,2026-06-13T04:56:34.091Z-->
-- interest-bearing note at discount: first-year interest entry? ::@:: Dr _Interest expense_ (carrying × market), Cr _Cash_ (face × stated), Cr _Notes payable_ (discount amortized). <!--SR:!2026-07-13,58,310!fsrs,2026-11-09T05:00:44.794Z,149,148.75262818,1.98030797,2,5,0,0,2026-06-13T05:00:44.794Z-->
+- interest-bearing note at discount: first-year interest entry? ::@:: Dr _Interest expense_ (carrying × market), Cr _Cash_ (face × stated), Cr _Notes payable_ (discount amortized). <!--SR:!fsrs,2027-05-01T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-11-09T05:00:44.794Z,149,148.75262818,1.98030797,2,5,0,0,2026-06-13T05:00:44.794Z-->
 
 ### installment notes
 

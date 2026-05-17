@@ -37,7 +37,7 @@ If the index does not refer to values inside the array, like {@{the index being 
 
 ## multi-dimensional array
 
-A multi-dimensional array is simply {@{an array with lower-dimensional arrays as its elements}@}: <!--SR:!2026-07-13,620,310-->
+A multi-dimensional array is simply {@{an array with lower-dimensional arrays as its elements}@}: <!--SR:!fsrs,2032-10-13T00:00:00.000Z,2283,2283.00843169,1,2,10,0,0,2026-07-14T00:00:00.000Z-->
 
 ```Java
 boolean[][] threeByThreeSquare = {

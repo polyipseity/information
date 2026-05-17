@@ -23,7 +23,7 @@ This sinusoidal model can be fit using {@{[nonlinear least squares](nonlinear%20
 
 ### good starting value for frequency
 
-{@{The starting value for the frequency}@} can be obtained from {@{the dominant frequency in a [periodogram](periodogram.md)}@}. {@{A [complex demodulation](complex%20demodulation.md) phase plot}@} can be used to {@{refine this initial estimate for the frequency}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!fsrs,2029-08-10T00:34:17.828Z,1161,1160.74715681,1,2,9,0,0,2026-06-06T00:34:17.828Z!fsrs,2029-08-02T00:34:14.098Z,1153,1153.09239039,1,2,9,0,0,2026-06-06T00:34:14.098Z!fsrs,2029-08-02T00:34:15.867Z,1153,1152.50647262,1,2,9,0,0,2026-06-06T00:34:15.867Z!2026-07-13,294,330-->
+{@{The starting value for the frequency}@} can be obtained from {@{the dominant frequency in a [periodogram](periodogram.md)}@}. {@{A [complex demodulation](complex%20demodulation.md) phase plot}@} can be used to {@{refine this initial estimate for the frequency}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!fsrs,2029-08-10T00:34:17.828Z,1161,1160.74715681,1,2,9,0,0,2026-06-06T00:34:17.828Z!fsrs,2029-08-02T00:34:14.098Z,1153,1153.09239039,1,2,9,0,0,2026-06-06T00:34:14.098Z!fsrs,2029-08-02T00:34:15.867Z,1153,1152.50647262,1,2,9,0,0,2026-06-06T00:34:15.867Z!fsrs,2030-01-09T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-07-14T00:00:00.000Z-->
 
 ### good starting values for amplitude
 

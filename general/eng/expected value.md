@@ -97,7 +97,7 @@ For this reason, {@{many mathematical textbooks}@} only consider {@{the case tha
 <!-- markdownlint-disable-next-line MD024 -->
 #### examples
 
-- Suppose {@{$x_{i}=i$ and $p_{i}={\tfrac {c}{i\cdot 2^{i} } }$ for $i=1,2,3,\ldots ,$}@} where {@{$c={\tfrac {1}{\ln 2} }$ is the scaling factor which makes the probabilities sum to 1}@}. Then we have {@{$$\operatorname {E} [X]\,=\sum _{i}x_{i}p_{i}=1({\tfrac {c}{2} })+2({\tfrac {c}{8} })+3({\tfrac {c}{24} })+\cdots \,=\,{\tfrac {c}{2} }+{\tfrac {c}{4} }+{\tfrac {c}{8} }+\cdots \,=\,c\,=\,{\tfrac {1}{\ln 2} }.$$}@} <!--SR:!2027-06-10,644,290!2026-07-13,419,310!fsrs,2030-05-28T00:00:00.000Z,1440,1440.09446601,1.12978518,2,10,0,0,2026-06-18T00:00:00.000Z-->
+- Suppose {@{$x_{i}=i$ and $p_{i}={\tfrac {c}{i\cdot 2^{i} } }$ for $i=1,2,3,\ldots ,$}@} where {@{$c={\tfrac {1}{\ln 2} }$ is the scaling factor which makes the probabilities sum to 1}@}. Then we have {@{$$\operatorname {E} [X]\,=\sum _{i}x_{i}p_{i}=1({\tfrac {c}{2} })+2({\tfrac {c}{8} })+3({\tfrac {c}{24} })+\cdots \,=\,{\tfrac {c}{2} }+{\tfrac {c}{4} }+{\tfrac {c}{8} }+\cdots \,=\,c\,=\,{\tfrac {1}{\ln 2} }.$$}@} <!--SR:!2027-06-10,644,290!fsrs,2030-12-19T00:00:00.000Z,1619,1619.35010041,1,2,10,0,0,2026-07-14T00:00:00.000Z!fsrs,2030-05-28T00:00:00.000Z,1440,1440.09446601,1.12978518,2,10,0,0,2026-06-18T00:00:00.000Z-->
 
 ### random variables with density
 

@@ -329,7 +329,7 @@ return chain.from_iterable([r.value for r in results])
 
 ### reactions between water and acids
 
-{@{More reactive [metals](metal.md)}@} react with {@{cold [water](water.md)}@} to form {@{the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}@}. <!--SR:!2027-08-02,1066,290!fsrs,2027-03-04T00:00:00.000Z,236,236.27546921,1,2,6,0,0,2026-07-11T00:00:00.000Z!fsrs,2026-07-11T16:57:33.023Z,8,8.2956,1,2,1,0,0,2026-07-03T16:57:33.023Z-->
+{@{More reactive [metals](metal.md)}@} react with {@{cold [water](water.md)}@} to form {@{the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}@}. <!--SR:!2027-08-02,1066,290!fsrs,2027-03-04T00:00:00.000Z,236,236.27546921,1,2,6,0,0,2026-07-11T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 {@{Moderately reactive metals}@} react with {@{[steam](steam.md) or [acids](acid.md)}@} to form {@{respectively the metal [oxide](oxide.md) or [salt](<salt%20(chemistry).md>), along with [hydrogen](hydrogen.md)}@}. <!--SR:!2032-10-23,2375,270!2026-08-13,77,362!2026-08-13,77,362-->
 

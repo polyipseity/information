@@ -259,7 +259,7 @@ The content is in teaching order.
   - variable cost / cost behavior ::@:: Assume we are within the _relevant range_. Total cost of this type is proportional to activity. Per unit cost of this type is constant with regards to activity. <!--SR:!2027-01-01,537,406!2027-01-04,540,406-->
 - fixed cost
   - fixed cost / cost behavior ::@:: Assume we are within the _relevant range_. Total cost of this type is constant with regards to activity. Per unit cost of this type is inversely proportional to activity. <!--SR:!2026-11-08,497,406!2026-11-10,498,406-->
-- mixed cost ::@:: fixed cost + variable cost, e.g. a cell phone plan with monthly charge plus usage charge <!--SR:!2026-07-13,382,386!2026-10-31,489,406-->
+- mixed cost ::@:: fixed cost + variable cost, e.g. a cell phone plan with monthly charge plus usage charge <!--SR:!fsrs,2031-07-04T00:00:00.000Z,1816,1816.2214364,1,2,10,0,0,2026-07-14T00:00:00.000Z!2026-10-31,489,406-->
 - cost behavior
   - cost behavior / linear equation ::@:: $$y = a + bx \,,$$ where $y$ is the total cost, $a$ is the _total_ fixed cost, $b$ is the _unit_ variable cost, $x$ is activity/cost driver. <!--SR:!2026-12-19,524,406!2026-10-18,479,406-->
   - cost behavior / graph ::@:: $y$ is plotted on the vertical axis, called the _dependent variable_. $x$ is plotted on the horizontal axis, called the _independent variable_. <!--SR:!2026-12-18,523,406!2026-12-11,524,406-->

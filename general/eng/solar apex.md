@@ -11,9 +11,9 @@ tags:
 
 ## direction
 
-{@{The solar apex}@} is in {@{the constellation of [Hercules](<Hercules%20(constellation).md>)}@} near {@{the star [Vega](Vega.md)}@}. <!--SR:!fsrs,2030-03-29T16:16:04.354Z,1391,1391.21966604,2.98092302,2,10,0,0,2026-06-07T16:16:04.354Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+{@{The solar apex}@} is in {@{the constellation of [Hercules](<Hercules%20(constellation).md>)}@} near {@{the star [Vega](Vega.md)}@}. <!--SR:!fsrs,2030-03-29T16:16:04.354Z,1391,1391.21966604,2.98092302,2,10,0,0,2026-06-07T16:16:04.354Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
-For {@{more than 30 years before 1986}@}, {@{the speed of the [Sun](Sun.md) towards the solar apex}@} was {@{taken to be about 20 km/s}@} but all later studies give {@{a smaller component in the vector toward galactic longitude 90°, reducing overall speed to about 13.4 km/s}@}. <!--SR:!2029-05-06,1318,310!2030-01-10,1460,310!2027-03-25,702,290!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+For {@{more than 30 years before 1986}@}, {@{the speed of the [Sun](Sun.md) towards the solar apex}@} was {@{taken to be about 20 km/s}@} but all later studies give {@{a smaller component in the vector toward galactic longitude 90°, reducing overall speed to about 13.4 km/s}@}. <!--SR:!2029-05-06,1318,310!2030-01-10,1460,310!2027-03-25,702,290!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 ## references
 

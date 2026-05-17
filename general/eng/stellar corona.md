@@ -15,7 +15,7 @@ tags:
 
 A __corona__ (pl.: coronas or coronae) is {@{the outermost layer of a [star](star.md)'s [atmosphere](stellar%20atmosphere.md)}@}. It is {@{a hot but relatively [dim](luminosity.md) region of [plasma](<plasma%20(physics).md>) populated by intermittent __coronal__ structures known as [solar prominences](solar%20prominence.md) or filaments}@}. <!--SR:!2030-01-25,1475,310!2031-11-29,2011,310-->
 
-[Spectroscopic](spectroscopy.md) measurements indicate {@{strong [ionization](ionization.md) in the corona}@} and a plasma temperature {@{in excess of 1 million [kelvins](Kelvin.md)}@}, much hotter than {@{the surface of the [Sun](Sun.md), known as the [photosphere](photosphere.md)}@}. <!--SR:!2027-10-20,900,334!fsrs,2032-02-11T00:00:00.000Z,2041,2041.10581949,1,2,10,0,0,2026-07-11T00:00:00.000Z!fsrs,2026-07-11T19:03:39.494Z,8,8.2956,1,2,1,0,0,2026-07-03T19:03:39.494Z-->
+[Spectroscopic](spectroscopy.md) measurements indicate {@{strong [ionization](ionization.md) in the corona}@} and a plasma temperature {@{in excess of 1 million [kelvins](Kelvin.md)}@}, much hotter than {@{the surface of the [Sun](Sun.md), known as the [photosphere](photosphere.md)}@}. <!--SR:!2027-10-20,900,334!fsrs,2032-02-11T00:00:00.000Z,2041,2041.10581949,1,2,10,0,0,2026-07-11T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 ## references
 

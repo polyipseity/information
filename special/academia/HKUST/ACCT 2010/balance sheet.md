@@ -27,7 +27,7 @@ tags:
 - header ::@:: company name, `(Consolidated) Balance Sheet`, date, (monetary unit) <!--SR:!2026-12-30,548,310!2027-09-17,759,330-->
   - header / date ::@:: example: `December 31, 2019` <!--SR:!2027-04-25,661,330!2026-08-09,431,310-->
   - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars, except per share data)` <!--SR:!2029-04-08,1230,350!2027-11-07,798,330-->
-- dollar sign ::@:: Add it before the first number and the last number (under `Total ...`) in each section under (root). The rest can be omitted. <!--SR:!2026-07-13,432,310!2027-06-12,694,330-->
+- dollar sign ::@:: Add it before the first number and the last number (under `Total ...`) in each section under (root). The rest can be omitted. <!--SR:!fsrs,2031-02-01T00:00:00.000Z,1663,1663.24569896,1,2,10,0,0,2026-07-14T00:00:00.000Z!2027-06-12,694,330-->
 - totals ::@:: It's somewhat arbitrary. At least calculate: <br/> total current assets <br/> total cost: property and equipment <br/> net property and equipment: total cost less accumulated depreciation <br/> total assets <br/> total current liabilities <br/> total liabilities <br/> total stockholders' equity <br/> total liabilities and stockholders' equity <!--SR:!2029-09-02,1243,310!2027-02-08,539,270-->
   - totals / format ::@:: Indent totals at least twice. <p> Add a (over)line above totals. <p> For the two totals under assets, and liabilities and stockholders' equity, no need to indent, and additionally add double (under)lines below the totals. <!--SR:!2030-04-20,1418,310!2026-08-04,426,310-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2029-03-14,1210,350!2029-01-15,1167,350-->

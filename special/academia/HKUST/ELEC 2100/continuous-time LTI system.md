@@ -72,7 +72,7 @@ These three pairs answer different questions: zero-input vs zero-state asks what
 
 Flashcards for this section are as follows:
 
-- What is the zero-input response? ::@:: It is the response produced when the external input is set to zero and only the system's initial stored energy remains. <!--SR:!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z!2026-07-13,63,310-->
+- What is the zero-input response? ::@:: It is the response produced when the external input is set to zero and only the system's initial stored energy remains. <!--SR:!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-05-23T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
 - What is the zero-state response? ::@:: It is the response produced when the initial state is set to zero and only the external excitation acts. <!--SR:!2026-07-26,75,337!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z-->
 - What is the mathematical model for zero-input response in the differential-equation viewpoint? ::@:: It is the solution of the homogeneous differential equation with nonzero initial conditions. <!--SR:!2026-07-28,75,337!2026-07-26,73,337-->
 - If the system equation is written as $L[r]=M[e]$, what equations define $r_{\mathrm{zi}}$ and $r_{\mathrm{zs}}$? ::@:: Zero-input response satisfies $L[r_{\mathrm{zi}}]=0$ with the original stored-energy conditions, while zero-state response satisfies $L[r_{\mathrm{zs}}]=M[e]$ with zero initial conditions. <!--SR:!fsrs,2027-01-28T00:00:00.000Z,216,216.23934371,1.98030797,2,7,0,0,2026-06-26T00:00:00.000Z!2026-07-28,77,337-->
@@ -142,7 +142,7 @@ The lecture stresses why zero-state analysis becomes the practical default. In m
 
 Flashcards for this section are as follows:
 
-- How is the zero-input response solved in the differential-equation viewpoint? ::@:: Set the input to zero, solve the homogeneous equation, and determine the coefficients from the initial conditions. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-13,63,310-->
+- How is the zero-input response solved in the differential-equation viewpoint? ::@:: Set the input to zero, solve the homogeneous equation, and determine the coefficients from the initial conditions. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-05-23T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
 - Why does the zero-input solution contain only the homogeneous part? ::@:: Because once the external excitation is removed, no forcing term remains in the differential equation. <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-28,77,337-->
 - Under ordinary nonimpulsive excitation, what continuity conditions are usually imposed at the initial instant? ::@:: State variables such as capacitor voltage and inductor current are usually continuous at the initial instant. <!--SR:!2026-07-25,74,337!2026-07-27,76,330-->
 - How is the zero-state response solved conceptually before convolution is introduced? ::@:: Set the initial conditions to zero, keep the original forced equation, and solve for the response that satisfies those zero-state constraints. <!--SR:!2026-07-28,77,337!2026-07-27,74,337-->
@@ -215,7 +215,7 @@ Flashcards for this section are as follows:
 
 - What is the unit impulse response $h(t)$? ::@:: It is the zero-state response of the system to the unit impulse input $\delta(t)$. <!--SR:!2026-07-22,71,330!2026-07-22,71,330-->
 - Why is the impulse response fundamental for LTI systems? ::@:: Because responses to shifted impulses can be transferred by time invariance and then superposed by linearity to build responses to more complicated inputs. <!--SR:!2026-07-22,71,337!2026-07-24,71,330-->
-- What is the unit step response $g(t)$? ::@:: It is the zero-state response of the system to the unit step input $u(t)$. <!--SR:!2026-07-13,63,310!2026-07-23,72,330-->
+- What is the unit step response $g(t)$? ::@:: It is the zero-state response of the system to the unit step input $u(t)$. <!--SR:!fsrs,2027-05-23T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-14T00:00:00.000Z!2026-07-23,72,330-->
 - Why is the step response often easier to visualize experimentally than the impulse response? ::@:: A step is a practical switched input, whereas an impulse is an idealized singular pulse. <!--SR:!2026-07-28,77,337!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z-->
 - What is the relation between the unit step and the unit impulse? ::@:: The step is the accumulated impulse: $u(t)=\int_{-\infty}^{t}\delta(\tau)\,d\tau$. <!--SR:!2026-07-16,66,310!2026-07-16,66,310-->
 - Why does the operator viewpoint imply $h(t)=\frac{d}{dt}g(t)$ for a constant-coefficient LTI system? ::@:: Because $\delta(t)=\frac{d}{dt}u(t)$ and an LTI differential operator commutes with differentiation, so $h=H[\delta]=H[u']=(H[u])'=g'$. <!--SR:!2026-07-28,77,337!2026-07-27,74,337-->
@@ -244,7 +244,7 @@ These examples are worth memorizing as a family rather than as isolated formulas
 
 Flashcards for this section are as follows:
 
-- What is the impulse response of a scalar multiplier $r(t)=ae(t)$, and what does it mean physically? ::@:: Its impulse response is $h(t)=a\delta(t)$, meaning the system simply scales the input instant by the gain $a$. <!--SR:!2026-07-13,63,310!2026-07-27,76,330-->
+- What is the impulse response of a scalar multiplier $r(t)=ae(t)$, and what does it mean physically? ::@:: Its impulse response is $h(t)=a\delta(t)$, meaning the system simply scales the input instant by the gain $a$. <!--SR:!fsrs,2027-05-23T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-14T00:00:00.000Z!2026-07-27,76,330-->
 - What is the impulse response of the differentiator $r(t)=\frac{d}{dt}e(t)$, and what does it tell you conceptually? ::@:: Its impulse response is $h(t)=\delta'(t)$, showing that ideal differentiation is a singular operation that reacts to how sharply the input changes. <!--SR:!2026-07-24,71,337!2026-07-17,67,310-->
 - What is the impulse response of the integrator $r(t)=\int_{-\infty}^{t} e(\tau)\,d\tau$, and what intuition does it encode? ::@:: Its impulse response is $h(t)=u(t)$, meaning a unit impulse becomes a unit step because integration accumulates incoming area. <!--SR:!2026-07-26,75,337!2026-07-14,64,310-->
 - What is the impulse response of the delay element $r(t)=e(t-\tau_0)$, and what does it mean physically? ::@:: Its impulse response is $h(t)=\delta(t-\tau_0)$, meaning the system preserves the impulse shape and only shifts it later in time. <!--SR:!2026-07-28,77,337!2026-07-22,71,330-->

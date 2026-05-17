@@ -46,7 +46,7 @@ The content is in teaching order.
     - derivative / elements / tradeable item ::@:: an item \(the "underlier"\) that can or must be bought or sold, e.g. commodity, event, financial asset, intangible good, natural condition index, etc. <!--SR:!fsrs,2029-05-15T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-07-09T00:00:00.000Z!fsrs,2028-09-08T02:06:53.172Z,823,823.37893849,1,2,9,0,0,2026-06-08T02:06:53.172Z-->
     - derivative / elements / future act ::@:: a future act which must occur \(such as a sale or purchase of the underlier\) <!--SR:!2026-08-02,254,330!2026-08-03,255,330-->
     - derivative / elements / future act price ::@:: a price at which the future transaction must take place <!--SR:!2026-07-29,251,330!2026-09-05,280,330-->
-    - derivative / elements / future act time ::@:: a future date by which the act \(such as a purchase or sale\) must take place <!--SR:!2026-07-13,237,330!2026-07-19,242,330-->
+    - derivative / elements / future act time ::@:: a future date by which the act \(such as a purchase or sale\) must take place <!--SR:!fsrs,2029-06-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-14T00:00:00.000Z!2026-07-19,242,330-->
   - derivative / examples ::@:: exotic option, forward/future, option, etc. <!--SR:!2026-08-21,268,330!2026-07-17,241,330-->
 - [economics](../../../../general/economics.md) ::@:: It is a behavioral science that studies the production, distribution, and consumption of goods and services. <!--SR:!2026-07-18,241,330!2026-08-04,255,330-->
   - economics / objectives ::@:: Maximize _utility_, subject to _constraints_. Constraints are important because people have _limited_ resources. <!--SR:!2026-08-11,260,330!2026-08-26,272,330-->
