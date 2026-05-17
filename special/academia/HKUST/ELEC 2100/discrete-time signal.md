@@ -33,7 +33,7 @@ This note is the dedicated sequence toolkit of the signal family. The broader co
 
 Flashcards for this section are as follows:
 
-- What is a discrete-time signal? ::@:: It is a signal indexed by integers, so it is written as a sequence such as $x[n]$ rather than as a continuous-time function $x(t)$. <!--SR:!2026-07-18,64,310!fsrs,2027-05-16T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
+- What is a discrete-time signal? ::@:: It is a signal indexed by integers, so it is written as a sequence such as $x[n]$ rather than as a continuous-time function $x(t)$. <!--SR:!fsrs,2027-06-01T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-05-16T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
 - Why are discrete-time signals important in ELEC 2100? ::@:: They arise both from sampling continuous-time signals and from native sequence models, so they need their own representation methods, common signal families, and periodicity rules. <!--SR:!2026-08-07,67,310!2026-08-07,67,310-->
 - How should `discrete-time signal.md` be used relative to `signal.md` and `singular signal.md`? ::@:: Use this note for the sequence toolkit: sequence notation, unit sample and step sequences, discrete-time periodicity, reshaping, and sequence energy/power. Use `signal.md` for the broader signal vocabulary and `singular signal.md` for the continuous-time generalized-signal toolkit. <!--SR:!fsrs,2027-05-16T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 
@@ -49,7 +49,7 @@ The lecture's example $x[n]=2^n$ for $n\ge 0$ and $x[n]=0$ for $n<0$ shows how s
 
 Flashcards for this section are as follows:
 
-- What are the main representation methods for a discrete-time signal? ::@:: A discrete-time signal may be represented by its sequence values, by an explicit formula for $x[n]$, or by a waveform/stem plot indexed by $n$. <!--SR:!2026-07-18,64,310!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
+- What are the main representation methods for a discrete-time signal? ::@:: A discrete-time signal may be represented by its sequence values, by an explicit formula for $x[n]$, or by a waveform/stem plot indexed by $n$. <!--SR:!fsrs,2027-06-01T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 - In a discrete-time waveform, what does the length of each line segment represent? ::@:: It represents the magnitude of the corresponding sequence value. <!--SR:!2026-07-19,65,310!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - What does the upward arrow mean in sequence notation? ::@:: It marks the sample at $n=0$. <!--SR:!2026-08-01,61,310!2026-07-19,65,310-->
 - How is a uniformly sampled continuous-time signal represented as a discrete-time sequence? ::@:: If the sampling interval is $T_s$, then the sequence is $x[n]=x_s(nT_s)$. <!--SR:!2026-08-06,66,310!2026-08-04,64,310-->
@@ -178,7 +178,7 @@ Flashcards for this section are as follows:
 - Worked example: Why is $x[n]=\sin(0.4n)$ aperiodic? ::@:: Step 1: periodicity would require $0.4N=2\pi m$ for integers $N,m$. <br/> Step 2: equivalently, $0.4/(2\pi)=m/N$ would have to be rational. <br/> Step 3: since $0.4/(2\pi)$ is irrational, no such positive integer $N$ exists, so the sequence is aperiodic. <!--SR:!2026-07-20,66,310!2026-08-05,65,310-->
 - What is the discrete-time complex exponential sequence? ::@:: It is $x[n]=e^{j\omega n}=\cos(\omega n)+j\sin(\omega n)$. <!--SR:!fsrs,2027-05-21T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-08-07,67,310-->
 - What are the magnitude and phase of $e^{j\omega n}$? ::@:: Its magnitude is $1$, and its phase is $\omega n$. <!--SR:!2026-08-06,66,310!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
-- When is a discrete-time complex exponential sequence periodic? ::@:: It is periodic if and only if $\omega/(2\pi)$ is rational. <!--SR:!fsrs,2027-05-27T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-18T00:00:00.000Z!2026-07-18,64,310-->
+- When is a discrete-time complex exponential sequence periodic? ::@:: It is periodic if and only if $\omega/(2\pi)$ is rational. <!--SR:!fsrs,2027-05-27T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-06-01T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 - What is the effect of irrationality on the periodicity of $e^{j\omega n}$? ::@:: If $\omega/(2\pi)$ is irrational, the phasor never returns exactly to the same complex value after any positive integer number of samples, so the sequence is aperiodic. <!--SR:!2026-08-02,62,310!2026-08-01,61,310-->
 
 ## pointwise operations and index transformations
@@ -199,7 +199,7 @@ Flashcards for this section are as follows:
 
 - What is pointwise summation of two sequences? ::@:: It forms $z[n]=x[n]+y[n]$ by adding samples at the same index. <!--SR:!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-05,65,310-->
 - What is pointwise multiplication of two sequences? ::@:: It forms $z[n]=x[n]y[n]$ by multiplying samples at the same index. <!--SR:!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
-- What is scaling of a discrete-time sequence? ::@:: It forms $z[n]=ax[n]$, multiplying every sample value by the same constant $a$. <!--SR:!2026-08-01,61,310!2026-07-18,64,310-->
+- What is scaling of a discrete-time sequence? ::@:: It forms $z[n]=ax[n]$, multiplying every sample value by the same constant $a$. <!--SR:!2026-08-01,61,310!fsrs,2027-06-01T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 - Why must indices be aligned before adding or multiplying sequences? ::@:: Because pointwise operations combine values at the same index rather than values that merely appear next to each other in a list. <!--SR:!2026-08-02,62,310!2026-08-05,65,310-->
 - What is the difference between scaling and shifting? ::@:: Scaling changes sample values without moving their positions, whereas shifting moves sample positions without changing the underlying sample values. <!--SR:!2026-08-07,67,310!2026-08-02,62,310-->
 - For $m>0$, what do $x[n-m]$ and $x[n+m]$ do? ::@:: $x[n-m]$ shifts the sequence right by $m$ samples, whereas $x[n+m]$ shifts it left by $m$ samples. <!--SR:!fsrs,2027-05-10T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-14T00:00:00.000Z!2026-08-03,63,310-->
@@ -226,7 +226,7 @@ Flashcards for this section are as follows:
 - What is the backward difference of a sequence? ::@:: It is $\nabla x[n]=x[n]-x[n-1]$. <!--SR:!2026-07-21,67,310!2026-08-01,61,310-->
 - What is the difference between forward and backward difference? ::@:: Forward difference compares the current sample with the next one, whereas backward difference compares the current sample with the previous one. <!--SR:!2026-07-19,65,310!2026-08-07,67,310-->
 - What is the running sum of a discrete-time sequence? ::@:: It is $y[n]=\sum_{k=-\infty}^{n}x[k]$, the cumulative sum of all samples up to index $n$. <!--SR:!2026-07-20,66,310!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
-- Why is the running sum not a pointwise operation? ::@:: Because each output value depends on many past samples rather than only on the sample at the same index. <!--SR:!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-07-18,64,310-->
+- Why is the running sum not a pointwise operation? ::@:: Because each output value depends on many past samples rather than only on the sample at the same index. <!--SR:!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-06-01T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 - Worked example: If $x[0]=1$, $x[1]=2$, $x[2]=3$, and $x[3]=4$ with earlier samples zero, what are the first four running-sum values? ::@:: Step 1: $y[0]=x[0]=1$. <br/> Step 2: $y[1]=x[0]+x[1]=1+2=3$. <br/> Step 3: $y[2]=x[0]+x[1]+x[2]=1+2+3=6$. <br/> Step 4: $y[3]=x[0]+x[1]+x[2]+x[3]=1+2+3+4=10$. <!--SR:!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z!fsrs,2027-05-21T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
 
 ## decimation and interpolation

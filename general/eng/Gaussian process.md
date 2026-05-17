@@ -95,9 +95,9 @@ Its {@{autocovariation function}@} {@{$${\mathbb {E} }[X_{t}X_{t+h}]=\sum _{n=1}
 
 {@{A [Wiener process](Wiener%20process.md) \(also known as Brownian motion\)}@} is {@{the integral of a [white noise generalized Gaussian process](white%20noise.md#continuous-time%20white%20noise)}@}. It is {@{not [stationary](stationary%20process.md), but it has [stationary increments](stationary%20increments.md)}@}. <!--SR:!2027-01-15,264,330!2027-06-18,398,365!2027-05-11,365,361-->
 
-{@{The [Ornstein–Uhlenbeck process](Ornstein–Uhlenbeck%20process.md)}@} is {@{a [stationary](stationary%20process.md)}@} {@{Gaussian process}@}. <!--SR:!2027-04-27,361,356!2027-01-29,274,330!2026-07-18,119,389-->
+{@{The [Ornstein–Uhlenbeck process](Ornstein–Uhlenbeck%20process.md)}@} is {@{a [stationary](stationary%20process.md)}@} {@{Gaussian process}@}. <!--SR:!2027-04-27,361,356!2027-01-29,274,330!fsrs,2028-05-13T00:00:00.000Z,664,663.84023351,1,2,8,0,0,2026-07-19T00:00:00.000Z-->
 
-{@{The [Brownian bridge](Brownian%20bridge.md)}@} is \(like {@{the Ornstein–Uhlenbeck process}@}\) an example of {@{a Gaussian process whose increments}@} are {@{not [independent](statistical%20independence.md)}@}. <!--SR:!2027-04-05,344,348!2027-02-04,280,330!2027-05-29,382,361!2026-07-18,119,389-->
+{@{The [Brownian bridge](Brownian%20bridge.md)}@} is \(like {@{the Ornstein–Uhlenbeck process}@}\) an example of {@{a Gaussian process whose increments}@} are {@{not [independent](statistical%20independence.md)}@}. <!--SR:!2027-04-05,344,348!2027-02-04,280,330!2027-05-29,382,361!fsrs,2028-05-13T00:00:00.000Z,664,663.84023351,1,2,8,0,0,2026-07-19T00:00:00.000Z-->
 
 {@{The [fractional Brownian motion](fractional%20Brownian%20motion.md)}@} is {@{a Gaussian process whose covariance function}@} is {@{a generalisation of that of the Wiener process}@}. <!--SR:!2027-01-30,275,330!2027-02-05,280,345!fsrs,2028-05-07T00:00:00.000Z,659,659.04910028,1,2,8,0,0,2026-07-18T00:00:00.000Z-->
 

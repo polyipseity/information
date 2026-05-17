@@ -115,7 +115,7 @@ Flashcards for this section are as follows:
 Flashcards for this section are as follows:
 
 - mandatory ESG disclosure: what does it mean? ::@:: The issuer must provide the required item in its ESG reporting and cannot simply omit it. <!--SR:!2026-07-21,71,328!2026-07-23,72,328-->
-- comply-or-explain ESG disclosure: what does it mean? ::@:: The issuer should comply, but if it does not, it must explain the non-compliance rather than staying silent. <!--SR:!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-07-18,68,328-->
+- comply-or-explain ESG disclosure: what does it mean? ::@:: The issuer should comply, but if it does not, it must explain the non-compliance rather than staying silent. <!--SR:!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-07-11T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 
 ### board statement and board oversight
 
@@ -231,9 +231,9 @@ The important exam point is that materiality is __entity-specific__. Data privac
 Flashcards for this section are as follows:
 
 - materiality matrix: what two viewpoints are combined? ::@:: The issue's impact on the business and its importance to stakeholders. <!--SR:!2026-07-24,73,328!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
-- materiality matrix: which issues receive top disclosure priority? ::@:: Issues that rank high on both business impact and stakeholder concern. <!--SR:!2026-07-18,68,328!2026-07-19,69,328-->
+- materiality matrix: which issues receive top disclosure priority? ::@:: Issues that rank high on both business impact and stakeholder concern. <!--SR:!fsrs,2027-07-11T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-19T00:00:00.000Z!2026-07-19,69,328-->
 - why is materiality entity-specific? ::@:: Because the same ESG topic can matter very differently across industries, business models, and stakeholder groups. <!--SR:!2026-07-22,71,328!2026-07-21,70,328-->
-- logistics-company materiality example: which issues are likely to be high-high? ::@:: Fuel efficiency, greenhouse gas emissions, driver safety, and anti-corruption in procurement. <!--SR:!2026-07-18,68,328!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
+- logistics-company materiality example: which issues are likely to be high-high? ::@:: Fuel efficiency, greenhouse gas emissions, driver safety, and anti-corruption in procurement. <!--SR:!fsrs,2027-07-11T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 
 ## materiality and boundary
 

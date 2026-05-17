@@ -53,7 +53,7 @@ With {@{some protocols, such as [HDMI](HDMI.md)}@}, {@{a reference clock}@} is s
 
 ### integration
 
-{@{The samples}@} are then accumulated {@{into a two-dimensional [histogram](histogram.md)}@}, with {@{the X axis representing time within the UI and the Y axis representing voltage}@}. This is {@{then [normalized](feature%20scaling.md)}@} by dividing {@{the value in each histogram bin by the value in the largest bin}@}. {@{[Tone mapping](tone%20mapping.md), logarithmic scaling}@}, or other {@{mathematical transformations}@} may be applied in order to emphasize {@{different portions of the distribution}@}, and {@{a color gradient}@} is applied to {@{the final eye for display}@}. <!--SR:!2026-08-24,269,330!2026-08-01,253,330!2026-07-18,241,330!2026-08-29,275,330!2026-08-13,262,330!2026-08-20,265,330!2026-09-12,285,330!fsrs,2029-06-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-18T00:00:00.000Z!2026-08-23,270,330!2026-07-21,244,330-->
+{@{The samples}@} are then accumulated {@{into a two-dimensional [histogram](histogram.md)}@}, with {@{the X axis representing time within the UI and the Y axis representing voltage}@}. This is {@{then [normalized](feature%20scaling.md)}@} by dividing {@{the value in each histogram bin by the value in the largest bin}@}. {@{[Tone mapping](tone%20mapping.md), logarithmic scaling}@}, or other {@{mathematical transformations}@} may be applied in order to emphasize {@{different portions of the distribution}@}, and {@{a color gradient}@} is applied to {@{the final eye for display}@}. <!--SR:!2026-08-24,269,330!2026-08-01,253,330!fsrs,2029-06-25T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-19T00:00:00.000Z!2026-08-29,275,330!2026-08-13,262,330!2026-08-20,265,330!2026-09-12,285,330!fsrs,2029-06-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-18T00:00:00.000Z!2026-08-23,270,330!2026-07-21,244,330-->
 
 {@{Large amounts of data}@} may be needed to provide {@{an accurate representation of the signal}@}; {@{tens to hundreds of millions of UIs}@} are frequently {@{used for a single eye pattern}@}. In the example below, {@{the eye using twelve thousand UIs}@} only shows {@{the basic shape of the eye}@}, while {@{the eye using eight million UIs}@} shows {@{far more nuance on the rising and falling edges}@}. <!--SR:!2026-08-22,269,330!2026-08-18,266,330!2026-08-20,268,330!2026-08-05,255,330!2026-08-14,263,330!2026-08-02,254,330!2026-08-17,265,330!2026-07-29,251,330-->
 
@@ -85,7 +85,7 @@ The eye pattern of {@{a [MLT-3](MLT-3%20encoding.md) \(annotation: multi-level t
 
 > {@{![Eye pattern of a 125 Mbit/s MLT-3 signal](../../archives/Wikimedia%20Commons/Eye%20pattern%20MLT3.png)}@}
 >
-> {@{Eye pattern}@} of {@{a 125 Mbit/s MLT-3 signal}@} <!--SR:!2026-08-30,275,330!2026-07-18,241,330!2026-08-27,273,330-->
+> {@{Eye pattern}@} of {@{a 125 Mbit/s MLT-3 signal}@} <!--SR:!2026-08-30,275,330!fsrs,2029-06-25T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-19T00:00:00.000Z!2026-08-27,273,330-->
 
 ### PAM
 

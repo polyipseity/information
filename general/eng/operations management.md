@@ -234,7 +234,7 @@ A more recent approach, introduced by Terry Hill,<sup>[\[46\]](#^ref-46)</sup> i
 
 > {@{![An ABC cumulated curve. Typically one curve is constructed for revenue \(consumption\) and another for inventory \(stock\).](../../archives/Wikimedia%20Commons/ABC%20class.jpg)}@}
 >
-> An {@{ABC cumulated curve}@}. Typically one curve is {@{constructed for revenue \(consumption\) and another for inventory \(stock\)}@}. <!--SR:!2026-07-18,398,310!2028-02-26,838,330!2029-08-06,1280,350-->
+> An {@{ABC cumulated curve}@}. Typically one curve is {@{constructed for revenue \(consumption\) and another for inventory \(stock\)}@}. <!--SR:!fsrs,2030-10-14T00:00:00.000Z,1548,1548.10182333,1,2,10,0,0,2026-07-19T00:00:00.000Z!2028-02-26,838,330!2029-08-06,1280,350-->
 
 {@{[ABC analysis](ABC%20analysis.md)}@} is {@{a method for analyzing inventory based on [Pareto distribution](Pareto%20distribution.md)}@}, it posits that since {@{revenue from items on inventory will be [power law](power%20law.md) distributed}@} then it makes sense to {@{manage items differently based on their position on a revenue-inventory level matrix}@}, 3 classes are {@{constructed \(A, B and C\) from cumulative item revenues}@}, so in a matrix each item will have {@{a letter \(A, B or C\) assigned for revenue and inventory}@}. This method posits that {@{items away from the diagonal should be managed differently}@}: {@{items in the upper part}@} are {@{subject to risk of obsolescence}@}, {@{items in the lower part}@} are {@{subject to risk of [stockout](stockout.md)}@}. <!--SR:!2028-11-16,1073,350!2029-06-29,1244,350!2029-07-21,1266,350!2027-12-18,748,330!2028-12-15,1097,350!2029-09-24,1319,350!2029-10-02,1326,350!2028-11-12,1070,350!2027-05-04,624,330!2029-10-27,1345,350!2029-09-23,1318,350-->
 

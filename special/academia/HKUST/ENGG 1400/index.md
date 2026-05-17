@@ -146,7 +146,7 @@ The content is in teaching order.
   - ways of thinking / blocks ::@:: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual. <!--SR:!2026-07-22,504,402!fsrs,2032-08-17T00:00:00.000Z,2242,2242.24024358,1,2,10,0,0,2026-06-28T00:00:00.000Z-->
     - ways of thinking / blocks / cultural ::@:: embarrassment, fear of failure, uncomfortable with fantasy or intuition <!--SR:!2026-08-23,533,402!2026-08-31,540,402-->
     - ways of thinking / blocks / emotional ::@:: control is good and chaos is bad, no support for new ideas, not supposed to have fun <!--SR:!2026-08-22,532,402!2033-05-01,2524,422-->
-    - ways of thinking / blocks / intellectual ::@:: expert belief, inflexible style, wrong information <!--SR:!2026-08-01,514,402!2026-07-18,500,402-->
+    - ways of thinking / blocks / intellectual ::@:: expert belief, inflexible style, wrong information <!--SR:!2026-08-01,514,402!fsrs,2032-10-29T00:00:00.000Z,2294,2294.13440223,1,2,10,0,0,2026-07-19T00:00:00.000Z-->
     - ways of thinking / blocks / perceptual ::@:: choosing too tight a view, difficulty isolating, stereotyping <!--SR:!2026-08-25,535,402!2026-07-23,505,402-->
 
 ## week 8 tutorial

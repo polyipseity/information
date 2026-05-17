@@ -70,7 +70,7 @@ Flashcards for this section are as follows:
 - litigation: two things to consider when deciding whether current-year litigation needs a provision ::@:: (1) Whether an unfavorable outcome is probable enough to require recognition rather than mere disclosure; and (2) whether the cause of action belongs to the current reporting period or only arises after year-end, because only current-period obligations are recognized now. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,273,272.64702251,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-20,67,326-->
 - litigation: probability of unfavorable outcome ::@:: Whether the entity will lose the case; must be probable for provision. <!--SR:!2026-08-03,79,342!2026-08-06,81,342-->
 - litigation: time period ::@:: When the cause of action arose relative to the reporting date; lawsuit filed before vs after balance sheet date. <!--SR:!2026-08-06,81,342!2026-07-30,75,342-->
-- lawsuit filed after balance sheet date ::@:: No provision in current year; obligation arises next period; provision in next year if criteria met. <!--SR:!2026-07-18,65,326!2026-07-26,71,326-->
+- lawsuit filed after balance sheet date ::@:: No provision in current year; obligation arises next period; provision in next year if criteria met. <!--SR:!fsrs,2027-06-25T00:00:00.000Z,341,341.1928498,1,2,7,0,0,2026-07-19T00:00:00.000Z!2026-07-26,71,326-->
 - litigation provision: when recognized? ::@:: When lawsuit is before balance sheet date, probable loss, and amount reliably estimated. <!--SR:!2026-07-27,72,342!2026-08-01,77,342-->
 
 ## best estimate of the amount
@@ -324,7 +324,7 @@ Representative journal entry examples:
 
 Flashcards for this section are as follows:
 
-- service-type warranty ::@:: Extended or additional warranty purchased separately (e.g. extra years); separate performance obligation; not part of initial product sale; handled separately from assurance-type. <!--SR:!2026-08-06,81,342!2026-07-18,65,326-->
+- service-type warranty ::@:: Extended or additional warranty purchased separately (e.g. extra years); separate performance obligation; not part of initial product sale; handled separately from assurance-type. <!--SR:!2026-08-06,81,342!fsrs,2027-06-25T00:00:00.000Z,341,341.1928498,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 - service-type warranty: when does revenue get earned? ::@:: As the entity satisfies the performance obligation over the service period (in the typical example, that period begins after the assurance-type warranty has expired, e.g. years 2–4 if assurance is year 1). <!--SR:!2026-07-26,71,342!2026-08-05,80,342-->
 - unearned warranty revenue ::@:: Cash received for service-type warranty is recorded as a liability; recognized as revenue as the performance obligation is satisfied over the service period. <!--SR:!2026-08-06,81,342!2026-08-08,83,342-->
 - service-type warranty: where is cash recorded initially? ::@:: As _Unearned warranty revenue_ (liability); not as sales revenue in year of sale. <!--SR:!2026-08-05,80,342!2026-08-05,80,342-->

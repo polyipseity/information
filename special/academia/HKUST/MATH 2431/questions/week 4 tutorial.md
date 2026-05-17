@@ -37,19 +37,19 @@ The questions on this page summarize the _official tutorial materials_ for week 
 > Solution:
 >
 > - (a) Use the {@{ordered equally likely sample space $\Omega=\{BB,BG,GB,GG\}$}@}. Conditioning on {@{at least one boy reduces the space to $\{BB,BG,GB\}$, so $P(BB\mid\text{at least one boy})=1/3$}@}.
-> - (b) Conditioning on {@{the younger child being a boy reduces the space to $\{BB,BG\}$, so $P(BB\mid\text{younger boy})=1/2$}@}. The difference from part (a) is that {@{the statement "younger child is a boy" singles out a specific coordinate, whereas "at least one boy" does not}@}. <!--SR:!2026-07-18,65,320!2026-07-23,68,320!fsrs,2027-06-12T00:00:00.000Z,329,329.34501907,1,2,7,0,0,2026-07-18T00:00:00.000Z!2026-07-24,70,320-->
+> - (b) Conditioning on {@{the younger child being a boy reduces the space to $\{BB,BG\}$, so $P(BB\mid\text{younger boy})=1/2$}@}. The difference from part (a) is that {@{the statement "younger child is a boy" singles out a specific coordinate, whereas "at least one boy" does not}@}. <!--SR:!fsrs,2027-06-18T00:00:00.000Z,334,333.7505275,1,2,7,0,0,2026-07-19T00:00:00.000Z!2026-07-23,68,320!fsrs,2027-06-12T00:00:00.000Z,329,329.34501907,1,2,7,0,0,2026-07-18T00:00:00.000Z!2026-07-24,70,320-->
 
 <!-- markdownlint MD028 -->
 
 > In the Monty Hall problem, after you choose door $D_1$ and the host opens goat door $D_3$, should you switch to $D_2$?
 >
-> Solution: {@{Switch to $D_2$}@}. Before any reveal, $P(\text{car at }D_1)=1/3$ and $P(\text{car in }\{D_2,D_3\})=2/3$. The host's rule is informative: {@{he never opens your chosen door and never opens a car door}@}, so after he opens $D_3$ the full $2/3$ probability on the unchosen pair concentrates on $D_2$. Equivalently, the posterior probabilities are {@{$P(\text{car at }D_1\mid H=D_3)=1/3$ and $P(\text{car at }D_2\mid H=D_3)=2/3$}@}. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-18,65,320!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
+> Solution: {@{Switch to $D_2$}@}. Before any reveal, $P(\text{car at }D_1)=1/3$ and $P(\text{car in }\{D_2,D_3\})=2/3$. The host's rule is informative: {@{he never opens your chosen door and never opens a car door}@}, so after he opens $D_3$ the full $2/3$ probability on the unchosen pair concentrates on $D_2$. Equivalently, the posterior probabilities are {@{$P(\text{car at }D_1\mid H=D_3)=1/3$ and $P(\text{car at }D_2\mid H=D_3)=2/3$}@}. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-06-18T00:00:00.000Z,334,333.7505275,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
 > There are 15 tennis balls in a box, of which 9 are new. Three are chosen, played with, and returned; later another 3 are chosen. Find the probability that none of the second batch has ever been used before.
 >
-> Solution: Let $U$ be the {@{number of new balls used in the first sample of size 3}@} so that $P(U=u)=\dfrac{\binom{9}{u}\binom{6}{3-u}}{\binom{15}{3}}$ for $u=0,1,2,3$. Conditional on $U=u$, the second sample is all new with probability {@{$\dfrac{\binom{9-u}{3}}{\binom{15}{3}}$}@} because {@{only $9-u$ unused new balls remain available}@}. Therefore, by {@{conditioning and total probability}@}, {@{$P(\text{second sample all new})=\sum_{u=0}^3\frac{\binom{9}{u}\binom{6}{3-u}}{\binom{15}{3}}\cdot\frac{\binom{9-u}{3}}{\binom{15}{3}}\approx0.0893$}@}. <!--SR:!2026-07-24,70,320!2026-07-29,74,320!2026-07-23,69,320!2026-07-23,69,320!2026-07-18,65,320-->
+> Solution: Let $U$ be the {@{number of new balls used in the first sample of size 3}@} so that $P(U=u)=\dfrac{\binom{9}{u}\binom{6}{3-u}}{\binom{15}{3}}$ for $u=0,1,2,3$. Conditional on $U=u$, the second sample is all new with probability {@{$\dfrac{\binom{9-u}{3}}{\binom{15}{3}}$}@} because {@{only $9-u$ unused new balls remain available}@}. Therefore, by {@{conditioning and total probability}@}, {@{$P(\text{second sample all new})=\sum_{u=0}^3\frac{\binom{9}{u}\binom{6}{3-u}}{\binom{15}{3}}\cdot\frac{\binom{9-u}{3}}{\binom{15}{3}}\approx0.0893$}@}. <!--SR:!2026-07-24,70,320!2026-07-29,74,320!2026-07-23,69,320!2026-07-23,69,320!fsrs,2027-06-18T00:00:00.000Z,334,333.7505275,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

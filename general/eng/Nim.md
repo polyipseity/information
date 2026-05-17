@@ -10,7 +10,7 @@ tags:
 
 # Nim
 
-- This article is about {@{the mathematical game of strategy}@}. For {@{the programming language}@}, see {@{[Nim (programming language)](Nim%20(programming%20language).md)}@}. For {@{other uses}@}, see {@{[Nim (disambiguation)](NIM.md)}@}. <!--SR:!2029-08-10,1381,361!2026-07-22,137,415!2026-07-19,134,415!2026-07-18,133,415!2026-07-21,136,415-->
+- This article is about {@{the mathematical game of strategy}@}. For {@{the programming language}@}, see {@{[Nim (programming language)](Nim%20(programming%20language).md)}@}. For {@{other uses}@}, see {@{[Nim (disambiguation)](NIM.md)}@}. <!--SR:!2029-08-10,1381,361!2026-07-22,137,415!2026-07-19,134,415!fsrs,2028-07-18T00:00:00.000Z,730,730.38507953,1,2,8,0,0,2026-07-19T00:00:00.000Z!2026-07-21,136,415-->
 
 __Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object}@}, and may {@{remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}. <!--SR:!2027-11-19,788,321!2028-01-22,666,341!2029-12-26,1493,361!2028-03-16,709,420-->
 
@@ -164,7 +164,7 @@ Bouton's analysis {@{carries over easily to the general multiple-heap version of
 - 0 = _n_ (mod _k_ + 1) ::@:: (in normal play), or <!--SR:!2027-12-02,734,310!2029-12-13,1482,361-->
 - 1 = _n_ (mod _k_ + 1) ::@:: (in misère play). <!--SR:!2028-09-28,1101,341!2029-07-21,1285,321-->
 
-This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_)}@}, {@{$$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} from which {@{the strategy above follows}@} by {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}. <!--SR:!2028-07-01,900,301!2029-09-13,1409,361!2026-07-18,145,414!fsrs,2028-08-26T00:00:00.000Z,773,772.6769129,1,2,8,0,0,2026-07-15T00:00:00.000Z-->
+This follows from {@{calculating the [nim-sequence](Sprague–Grundy%20theorem.md) of _S_(1, 2, ..., _k_)}@}, {@{$$0.123\ldots k0123\ldots k0123\ldots ={\dot {0} }.123\ldots {\dot {k} },$$}@} from which {@{the strategy above follows}@} by {@{the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}. <!--SR:!2028-07-01,900,301!2029-09-13,1409,361!fsrs,2028-09-13T00:00:00.000Z,787,786.69562815,1,2,8,0,0,2026-07-19T00:00:00.000Z!fsrs,2028-08-26T00:00:00.000Z,773,772.6769129,1,2,8,0,0,2026-07-15T00:00:00.000Z-->
 
 ### the 21 game
 

@@ -48,7 +48,7 @@ The content is in teaching order.
     - derivative / elements / future act price ::@:: a price at which the future transaction must take place <!--SR:!2026-07-29,251,330!2026-09-05,280,330-->
     - derivative / elements / future act time ::@:: a future date by which the act \(such as a purchase or sale\) must take place <!--SR:!fsrs,2029-06-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-14T00:00:00.000Z!2026-07-19,242,330-->
   - derivative / examples ::@:: exotic option, forward/future, option, etc. <!--SR:!2026-08-21,268,330!fsrs,2029-06-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-18T00:00:00.000Z-->
-- [economics](../../../../general/economics.md) ::@:: It is a behavioral science that studies the production, distribution, and consumption of goods and services. <!--SR:!2026-07-18,241,330!2026-08-04,255,330-->
+- [economics](../../../../general/economics.md) ::@:: It is a behavioral science that studies the production, distribution, and consumption of goods and services. <!--SR:!fsrs,2028-06-03T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-07-19T00:00:00.000Z!2026-08-04,255,330-->
   - economics / objectives ::@:: Maximize _utility_, subject to _constraints_. Constraints are important because people have _limited_ resources. <!--SR:!2026-08-11,260,330!2026-08-26,272,330-->
   - economics / finance ::@:: a subfield of economics <p> _utility_: _expected_ return <br/> _constraint_: _affordable_ risk <!--SR:!2026-07-28,250,330!2026-08-04,255,330-->
     - economics / finance / risk ::@:: It is important because we assume people are _risk-averse_. <!--SR:!2026-08-20,268,330!2026-09-06,281,330-->

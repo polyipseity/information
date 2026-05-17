@@ -138,7 +138,7 @@ Representative journal entry examples:
 > | {@{Cash}@}                                                                    | {@{150 000}@} |               |
 > | {@{Share capital — ordinary (net: 200 000 − 50 000 excess costs)}@}           |               | {@{150 000}@} |
 >
-> _Explanation._ Gross proceeds are {@{300 000 (200 000 × 1.50)}@}; premium before costs is {@{100 000}@}. Direct costs of {@{150 000}@} first exhaust the {@{100 000 premium, reducing Share premium to zero}@}, and the remaining {@{50 000 reduces Share capital from 200 000 to 150 000}@}. _Share premium_ ends at {@{zero rather than a negative balance}@}; the excess is borne by _Share capital_, not carried as a debit balance on _Share premium_. <!--SR:!2026-07-31,81,339!2026-07-30,80,339!2026-07-29,79,339!2026-07-18,71,339!fsrs,2027-07-03T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-08-01,82,339!2026-07-19,72,339!2026-08-01,82,339!2026-07-30,78,339!2026-08-01,82,339!2026-07-21,74,339!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
+> _Explanation._ Gross proceeds are {@{300 000 (200 000 × 1.50)}@}; premium before costs is {@{100 000}@}. Direct costs of {@{150 000}@} first exhaust the {@{100 000 premium, reducing Share premium to zero}@}, and the remaining {@{50 000 reduces Share capital from 200 000 to 150 000}@}. _Share premium_ ends at {@{zero rather than a negative balance}@}; the excess is borne by _Share capital_, not carried as a debit balance on _Share premium_. <!--SR:!2026-07-31,81,339!2026-07-30,80,339!2026-07-29,79,339!fsrs,2027-08-08T00:00:00.000Z,385,385.35166764,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-08-01,82,339!2026-07-19,72,339!2026-08-01,82,339!2026-07-30,78,339!2026-08-01,82,339!2026-07-21,74,339!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -332,7 +332,7 @@ Representative journal entry examples:
 > | ----------------------------------------- | ------------ | ------------ |
 > | {@{Cash}@}                                | {@{60 000}@} |              |
 > | {@{Treasury shares (at cost)}@}           |              | {@{50 000}@} |
-> | {@{Share premium — treasury}@}            |              | {@{10 000}@} | <!--SR:!2026-08-01,82,339!2026-07-20,73,339!2026-07-30,78,339!2026-08-01,82,339!2026-07-18,71,339!2026-07-29,79,339!2026-08-03,82,339!2026-07-28,78,339!2026-07-28,78,339!2026-07-30,80,339-->
+> | {@{Share premium — treasury}@}            |              | {@{10 000}@} | <!--SR:!2026-08-01,82,339!2026-07-20,73,339!2026-07-30,78,339!2026-08-01,82,339!fsrs,2027-08-08T00:00:00.000Z,385,385.35166764,1,2,7,0,0,2026-07-19T00:00:00.000Z!2026-07-29,79,339!2026-08-03,82,339!2026-07-28,78,339!2026-07-28,78,339!2026-07-30,80,339-->
 
 <!-- markdownlint MD028 -->
 
@@ -442,7 +442,7 @@ __Summary__: The most common equity account that can be negative is _Retained ea
 > | {@{Share premium — ordinary}@} | {@{1&nbsp;500}@} | |
 > | {@{Share capital — ordinary}@} | | {@{10&nbsp;000}@} |
 >
-> _Explanation._ This is the rare IFRS case in this course where {@{Share premium — ordinary carries a debit balance}@}. <!--SR:!2026-07-18,68,341!2026-08-05,86,355!2026-08-05,86,355!2026-08-10,89,361!2026-08-06,87,361!2026-08-10,91,361!2026-08-05,86,355!2026-08-08,89,361!2026-08-07,86,355!2026-08-13,92,361!2026-08-04,85,355!2026-08-06,87,361-->
+> _Explanation._ This is the rare IFRS case in this course where {@{Share premium — ordinary carries a debit balance}@}. <!--SR:!fsrs,2027-07-28T00:00:00.000Z,374,373.94940156,1,2,7,0,0,2026-07-19T00:00:00.000Z!2026-08-05,86,355!2026-08-05,86,355!2026-08-10,89,361!2026-08-06,87,361!2026-08-10,91,361!2026-08-05,86,355!2026-08-08,89,361!2026-08-07,86,355!2026-08-13,92,361!2026-08-04,85,355!2026-08-06,87,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -517,7 +517,7 @@ Representative journal entry examples:
 > | {@{At date of payment (July 16)}@} | Dr            | Cr            |
 > | ---------------------------------- | ------------- | ------------- |
 > | {@{Dividends payable}@}            | {@{900 000}@} |               |
-> | {@{Cash}@}                         |               | {@{900 000}@} | <!--SR:!fsrs,2027-06-22T00:00:00.000Z,344,343.6736239,1,2,7,0,0,2026-07-13T00:00:00.000Z!2026-07-18,71,339!2026-08-01,82,339!2026-07-25,75,328!2026-08-01,82,339!2026-07-28,78,339!2026-07-31,81,339!2026-07-30,80,339!2026-08-03,82,339!2026-07-21,74,339!2026-07-28,78,339!2026-07-23,73,328!2026-07-19,72,339!2026-07-31,79,339-->
+> | {@{Cash}@}                         |               | {@{900 000}@} | <!--SR:!fsrs,2027-06-22T00:00:00.000Z,344,343.6736239,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-08-08T00:00:00.000Z,385,385.35166764,1,2,7,0,0,2026-07-19T00:00:00.000Z!2026-08-01,82,339!2026-07-25,75,328!2026-08-01,82,339!2026-07-28,78,339!2026-07-31,81,339!2026-07-30,80,339!2026-08-03,82,339!2026-07-21,74,339!2026-07-28,78,339!2026-07-23,73,328!2026-07-19,72,339!2026-07-31,79,339-->
 
 <!-- markdownlint MD028 -->
 
@@ -642,7 +642,7 @@ Representative journal entry examples:
 > | -------------------------------------------------- | ------------ | ------------ |
 > | {@{Retained earnings}@}                            | {@{50 000}@} |              |
 > | {@{Dividends payable — preference}@}               |              | {@{19 600}@} |
-> | {@{Dividends payable — ordinary}@}                 |              | {@{30 400}@} | <!--SR:!2026-07-30,80,339!2026-08-01,82,339!2026-07-29,79,339!2026-07-31,81,339!2026-07-27,77,339!2026-07-29,79,339!2026-07-31,81,339!2026-07-29,79,339!2026-07-29,79,339!2026-07-29,79,339!2026-07-27,77,339!2026-07-27,77,339!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-07-30,80,339!2026-07-21,74,339!2026-07-27,77,339!2026-08-01,80,339!2026-07-28,78,339!2026-07-31,81,339!2026-07-18,71,328!2026-07-20,73,339!2026-07-30,80,339!2026-08-01,82,339!2026-07-31,81,339!2026-08-01,80,339!2026-07-30,80,339!2026-07-21,74,339!fsrs,2027-06-22T00:00:00.000Z,344,343.6736239,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
+> | {@{Dividends payable — ordinary}@}                 |              | {@{30 400}@} | <!--SR:!2026-07-30,80,339!2026-08-01,82,339!2026-07-29,79,339!2026-07-31,81,339!2026-07-27,77,339!2026-07-29,79,339!2026-07-31,81,339!2026-07-29,79,339!2026-07-29,79,339!2026-07-29,79,339!2026-07-27,77,339!2026-07-27,77,339!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-07-30,80,339!2026-07-21,74,339!2026-07-27,77,339!2026-08-01,80,339!2026-07-28,78,339!2026-07-31,81,339!fsrs,2027-07-25T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-19T00:00:00.000Z!2026-07-20,73,339!2026-07-30,80,339!2026-08-01,82,339!2026-07-31,81,339!2026-08-01,80,339!2026-07-30,80,339!2026-07-21,74,339!fsrs,2027-06-22T00:00:00.000Z,344,343.6736239,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 
 ---
 
@@ -656,7 +656,7 @@ Flashcards for this section are as follows:
 - dividend calculations (overview) ::@:: _Cash_ dividend = dividend per share × number of shares; property dividend measured at fair value of asset; liquidating dividend is split between _Retained earnings_ (income portion) and _Share premium_/_Share capital_ (return of capital); small share dividend amount = par value × number of new shares issued (e.g. % × existing shares × par). <!--SR:!2026-08-06,87,361!2026-07-20,68,341-->
 - cash dividend on ordinary shares: key dates and entries ::@:: Date of declaration: Dr _Retained earnings_, Cr _Dividends payable_; date of record: no entry; date of payment: Dr _Dividends payable_, Cr _Cash_. <!--SR:!2026-08-12,91,361!2026-08-12,91,361-->
 - Harbor Freight cash dividend example: 0.50 on 1.8 million shares—amount and declaration entry? ::@:: Amount 900 000; Dr _Retained earnings_ (Cash dividends declared) 900 000, Cr _Dividends payable_ 900 000. <!--SR:!2026-08-06,87,361!2026-08-11,92,361-->
-- property dividend: two journal steps ::@:: First remeasure asset to fair value and recognise unrealised gain or loss; then Dr _Retained earnings_ and Cr _Property dividends payable_ at fair value, followed by Dr _Property dividends payable_ and Cr asset on distribution. <!--SR:!2026-07-18,68,341!2026-08-06,87,361-->
+- property dividend: two journal steps ::@:: First remeasure asset to fair value and recognise unrealised gain or loss; then Dr _Retained earnings_ and Cr _Property dividends payable_ at fair value, followed by Dr _Property dividends payable_ and Cr asset on distribution. <!--SR:!fsrs,2027-07-28T00:00:00.000Z,374,373.94940156,1,2,7,0,0,2026-07-19T00:00:00.000Z!2026-08-06,87,361-->
 - Lotus Capital property dividend example: FV 2 000 000, CV 1 250 000—remeasurement entry? ::@:: Dr _Equity investments_ 750 000, Cr _Unrealised holding gain or loss — income_ 750 000. <!--SR:!2026-08-04,85,355!2026-08-09,90,361-->
 - property dividend of an appreciated asset: what extra entry may appear if the jurisdiction taxes the gain? ::@:: Recognize current tax on the gain created by remeasuring the asset to fair value before distribution, for example Dr _Income tax expense_, Cr _Income taxes payable_. <!--SR:!2026-08-03,84,355!2026-08-03,84,355-->
 - liquidating dividend: how to split between income and capital? ::@:: Dr _Retained earnings_ for the income portion and Dr _Share premium_ (then _Share capital_ if needed) for the capital portion; Cr _Dividends payable_ for the total. <!--SR:!2026-07-19,67,341!2026-08-04,85,355-->
@@ -870,7 +870,7 @@ Flashcards for this section are as follows:
 - equity presentation cleanliness: what should not be lumped together? ::@:: Do not collapse ordinary and preference capital, different series, treasury-share balances, reserves, or retained earnings into one generic equity line when the problem distinguishes them. <!--SR:!2026-08-09,90,361!2026-08-05,86,355-->
 - journal-entry view versus statement-of-changes view ::@:: The journal entry shows account-by-account movement from the transaction, while the statement of changes in equity shows the ending balances after all those movements are reconciled. <!--SR:!2026-08-13,92,361!2026-08-11,92,361-->
 - comprehensive equity presentation: how should a journal entry show multiple equity classes? ::@:: Put each equity account on its own line—such as _Share capital — ordinary_, _Share premium — ordinary_, _Share capital — preference_, and _Share premium — preference_—instead of netting unlike equity components together. <!--SR:!2026-08-07,88,361!2026-08-05,86,355-->
-- equity section presentation: which balances should usually stay visibly separate? ::@:: Ordinary share capital, ordinary share premium, preference share capital, preference share premium, retained earnings, reserves or accumulated OCI, and treasury shares as a deduction. <!--SR:!2026-07-31,81,355!2026-07-18,68,341-->
+- equity section presentation: which balances should usually stay visibly separate? ::@:: Ordinary share capital, ordinary share premium, preference share capital, preference share premium, retained earnings, reserves or accumulated OCI, and treasury shares as a deduction. <!--SR:!2026-07-31,81,355!fsrs,2027-07-28T00:00:00.000Z,374,373.94940156,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 
 ## book value per ordinary share
 

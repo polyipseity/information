@@ -414,7 +414,7 @@ It also has its own {@{instructions}@}. They are listed in [§ floating-point in
 
 - arithmetic operations ::@:: Multiplication and division store the result into the destination register instead of special registers, similar to other arithmetic operations. <!--SR:!2027-10-11,691,424!2027-10-04,684,424-->
 - comparison ::@:: There is a boolean flag storing the result of the last comparison instruction `c.*.s` or `c.*.d`, which are then used by `b1ct` \(branch if the flag is true\) and `b1cf` \(branch if the flag is false\). <!--SR:!2027-10-20,699,424!2027-10-25,702,424-->
-- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2027-11-22,722,424!2026-07-18,295,384-->
+- data transfer ::@:: Since immediate operands cannot store floating point numbers, registers are transferred using `ldc1`, `lwc1`, `sdc1`, and `swc1`. Constants are stored somewhere in the main memory, and then referenced by `offset($gp)`. <!--SR:!2027-11-22,722,424!fsrs,2030-07-10T00:00:00.000Z,1452,1451.94584468,1,2,9,0,0,2026-07-19T00:00:00.000Z-->
 - immediate operands ::@:: They cannot be used to represent floating point numbers because they are too small \(16 bits is less than 32 bits\). <!--SR:!2027-11-02,705,424!2027-10-13,692,424-->
 - signedness ::@:: All operations are always signed. <!--SR:!2027-10-15,694,424!2027-11-04,710,424-->
 

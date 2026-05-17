@@ -65,7 +65,7 @@ The content is in teaching order.
 - FINA 3103
   - FINA 3103 / objectives ::@:: Investigate asset pricing and market \(micro\)structure. Invest _wisely_ under different market structures, different trading rules, and uncertainty. <!--SR:!2026-08-26,265,330!2026-09-08,276,330-->
 - [security](../../../../general/security%20(finance).md) ::@:: It is a tradable financial asset. The term commonly refers to any form of financial instrument, but its legal definition varies by jurisdiction. <!--SR:!2026-07-24,240,330!2026-09-01,269,330-->
-  - security / assets ::@:: 2 main categories: safe assets, risky assets <!--SR:!2026-09-03,272,330!2026-07-18,235,330-->
+  - security / assets ::@:: 2 main categories: safe assets, risky assets <!--SR:!2026-09-03,272,330!fsrs,2029-06-02T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-07-19T00:00:00.000Z-->
     - security / assets / safe assets ::@:: bank savings, corporate bonds \(AAA\), government bonds, etc. <!--SR:!2026-08-26,265,330!2026-08-08,252,330-->
     - security / assets / risky assets ::@:: commodities, cryptocurrencies, currencies, derivatives, digital tokens \(e.g. NFTs\), high-yield bonds, stocks/equities, real estates, etc. <!--SR:!2026-09-05,274,330!2026-09-12,279,330-->
   - security / type of holder ::@:: retail: members of the public investing personally, other than by way of business <br/> wholesale: by financial institutions acting on their own account, or on behalf of clients <!--SR:!2026-09-07,276,330!fsrs,2027-11-20T08:11:46.304Z,531,530.83098798,3.24197837,2,9,0,0,2026-06-07T08:11:46.304Z-->
@@ -82,7 +82,7 @@ The content is in teaching order.
 - [dark pool](../../../../general/dark%20pool.md) ::@:: \(__this course__: "off exchange"\) It is a private forum \(alternative trading system or ATS\) for trading securities, derivatives, and other financial instruments. <!--SR:!2026-07-30,245,330!2026-09-04,273,330-->
 - [market microstructure](../../../../general/market%20microstructure.md) ::@:: It is a branch of finance concerned with the details of how exchange occurs in markets. <!--SR:!2026-09-06,274,330!2026-08-06,251,330-->
 - [risk–return spectrum](../../../../general/risk–return%20spectrum.md) ::@:: It is the relationship between the amount of return gained on an investment and the amount of risk undertaken in that investment. The more return sought, the more risk that must be undertaken. <!--SR:!2026-09-19,285,330!2028-03-29,695,330-->
-  - risk–return spectrum / examples ::@:: gambling: high return \(if you win\), high risk \(of losing\) <br/> saving: low return, low-to-no risk <!--SR:!2026-08-28,268,330!2026-07-18,235,330-->
+  - risk–return spectrum / examples ::@:: gambling: high return \(if you win\), high risk \(of losing\) <br/> saving: low return, low-to-no risk <!--SR:!2026-08-28,268,330!fsrs,2029-06-02T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-07-19T00:00:00.000Z-->
 - [risk aversion](../../../../general/risk%20aversion.md) ::@:: It is the tendency of people to prefer outcomes with low uncertainty to those outcomes with high uncertainty, even if the average outcome of the latter is equal to or higher in monetary value than the more certain outcome. <!--SR:!2026-09-09,276,330!2026-08-29,268,330-->
   - risk aversion / examples ::@:: receive \$1 with certainty vs. receive either \$0 or \$2 with equal probability \(50%\) <!--SR:!2026-07-30,245,330!2026-09-14,281,330-->
 - [risk-seeking](../../../../general/risk-seeking.md) ::@:: It is a person who has a preference _for_ risk. <!--SR:!2026-09-13,280,330!2026-09-15,281,330-->

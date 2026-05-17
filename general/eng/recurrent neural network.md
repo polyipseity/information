@@ -23,7 +23,7 @@ An RNN exhibits {@{temporal [dynamic behavior](dynamical%20system.md)}@}. This m
 
 ### Elman networks and Jordan networks
 
-An [Elman](Jeffrey%20Elman.md) network is {@{a 3-layer network with the addition of a context layer}@}. The middle hidden layer is {@{connected to the context layer with a fixed weight of 1}@}. The context layer connects {@{back to the middle hidden layer}@}. <!--SR:!2030-06-12,1592,310!2026-07-18,534,310!2032-06-23,2218,330-->
+An [Elman](Jeffrey%20Elman.md) network is {@{a 3-layer network with the addition of a context layer}@}. The middle hidden layer is {@{connected to the context layer with a fixed weight of 1}@}. The context layer connects {@{back to the middle hidden layer}@}. <!--SR:!2030-06-12,1592,310!fsrs,2032-01-12T00:00:00.000Z,2003,2002.68468336,1,2,10,0,0,2026-07-19T00:00:00.000Z!2032-06-23,2218,330-->
 
 [Jordan](Michael%20I.%20Jordan.md) network are {@{similar to Elman networks}@}. The exception is {@{that the context layer is fed from the output layer instead of the middle hidden layer}@}. <!--SR:!2030-04-23,1478,310!2028-03-11,779,270-->
 
