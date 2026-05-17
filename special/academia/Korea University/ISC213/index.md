@@ -46,7 +46,7 @@ The content is in teaching order.
 - datetime: 2025-07-01T09:00:00+09:00/2025-07-01T10:40:00+09:00, PT1H40M
   - local: 2025-07-01T08:00:00+08:00/2025-07-01T09:40:00+08:00, PT1H40M
 - topic: information systems in global business today
-- [information system](../../../../general/information%20system.md) \(IS\) ::@:: It is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information. <!--SR:!2026-07-18,294,330!2026-06-21,272,330-->
+- [information system](../../../../general/information%20system.md) \(IS\) ::@:: It is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information. <!--SR:!2026-07-18,294,330!fsrs,2029-09-24T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-06-21T00:00:00.000Z-->
   - information system / firm ::@:: A digital firm digitalizes core business processes, key corporate assets, and significant business relations. It offers greater flexibility in management and organization. <!--SR:!2026-07-18,294,330!2029-03-08,1042,350-->
     - information system / firm / role ::@:: emerging trend to use information technology to implement corporate strategy to achieve corporate goals <!--SR:!2029-05-17,1099,350!2029-04-13,1071,350-->
     - information system / firm / goals ::@:: business model, competitive advantage, customer and supplier intimacy, decision making, operational excellence, survival, etc. <!--SR:!fsrs,2029-08-15T01:56:02.897Z,1159,1158.91993301,1,2,9,0,0,2026-06-13T01:56:02.897Z!2028-07-02,821,330-->
@@ -65,7 +65,7 @@ The content is in teaching order.
     - complementary assets / organizational / examples ::@:: IS development team, business model, business process, decentralization, decision making, organizational culture, etc. <!--SR:!2026-07-18,294,330!2026-07-18,294,330-->
   - complementary assets / managerial ::@:: people of the firm <!--SR:!2026-07-18,294,330!fsrs,2029-08-20T01:55:57.167Z,1164,1164.15719961,1,2,9,0,0,2026-06-13T01:55:57.167Z-->
     - complementary assets / managerial / examples ::@:: management culture, management innovation, management support, management training, work environment, etc. <!--SR:!2026-07-18,294,330!fsrs,2029-07-21T06:11:15.169Z,1141,1140.77285745,1,2,9,0,0,2026-06-06T06:11:15.169Z-->
-  - complementary assets / social ::@:: environments the firm are in <!--SR:!2026-07-18,294,330!2026-06-21,272,330-->
+  - complementary assets / social ::@:: environments the firm are in <!--SR:!2026-07-18,294,330!fsrs,2029-09-24T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-06-21T00:00:00.000Z-->
     - complementary assets / social / examples ::@:: IT infrastructure, education, firms in adjacent markets to support implementation, laws and regulations, standards \(both government and private\), etc. <!--SR:!2029-05-16,1098,350!2026-07-18,294,330-->
 - information system
   - information system / academic ::@:: IS covers both behavioral of technical aspects of IT, and thus is adjacent to many academic disciplines. <p> Behavioral ones include economics, psychology, sociology, etc. Technical ones include computer science, management science, operations research, etc. <!--SR:!2026-07-18,294,330!2029-05-11,1093,350-->

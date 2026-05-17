@@ -33,7 +33,7 @@ This property is especially {@{useful in maintaining a graph with a two-fold [re
 
 > {@{![A biconnected graph on four vertices and four edges](../../archives/Wikimedia%20Commons/4%20Node%20Biconnected.svg)}@}
 >
-> {@{A biconnected graph}@} on {@{four vertices and four edges}@} <!--SR:!2029-06-18,1277,352!2029-10-15,1368,352!2026-06-21,125,391-->
+> {@{A biconnected graph}@} on {@{four vertices and four edges}@} <!--SR:!2029-06-18,1277,352!2029-10-15,1368,352!fsrs,2028-05-13T00:00:00.000Z,692,692.47822021,1,2,8,0,0,2026-06-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

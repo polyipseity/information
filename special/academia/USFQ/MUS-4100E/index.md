@@ -217,7 +217,7 @@ The content is in teaching order.
   - [Hot Five](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Five.md) (1925–1928) ::@:: It was Louis Armstrong's first jazz recording band led under his own name. <!--SR:!2029-09-21,1345,375!2029-09-21,1345,375-->
   - [Hot Seven](../../../../general/Louis%20Armstrong%20and%20His%20Hot%20Seven.md) (1927) ::@:: It was a jazz studio group organized to make a series of recordings for Okeh Records in Chicago, Illinois, in May 1927. <!--SR:!2029-10-05,1356,375!2026-07-29,421,375-->
   - Louis Armstrong / claim to fame ::@:: A series of recordings from 1925 to 1928 made by Louis Armstrong under Hot Five and Hot Seven made Louis famous. <!--SR:!2029-07-07,1272,375!2029-09-24,1346,375-->
-  - Louis Armstrong / jazz after him ::@:: becoming an art form, becoming more serious, embraced by White America, moved to center from New Orleans to New York, swing <!--SR:!2027-11-03,784,355!2026-06-21,383,375-->
+  - Louis Armstrong / jazz after him ::@:: becoming an art form, becoming more serious, embraced by White America, moved to center from New Orleans to New York, swing <!--SR:!2027-11-03,784,355!fsrs,2031-06-15T00:00:00.000Z,1820,1820.34274452,1,2,10,0,0,2026-06-21T00:00:00.000Z-->
 - assignment: (none)
 
 ## week 3 lecture 2

@@ -328,7 +328,7 @@ tags:
 > 2. deferred revenue
 > 3. current asset
 >
-> - solution: {@{2}@} <!--SR:!2026-06-21,445,381-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-02-23T00:00:00.000Z,2073,2073.37029021,1,2,10,0,0,2026-06-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -595,7 +595,7 @@ tags:
 > 2. it carries only balance sheet effect
 > 3. it carries only income statement effect
 >
-> - solution: {@{1}@} <!--SR:!2026-06-21,445,381-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-02-23T00:00:00.000Z,2073,2073.37029021,1,2,10,0,0,2026-06-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

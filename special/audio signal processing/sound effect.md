@@ -29,7 +29,7 @@ After {@{analyzing a sound using models}@}, we can {@{modify model data and para
 
 ## sinusoidal spectral modeling
 
-Using {@{a sinusoidal model to analyze a sound}@}, we obtain {@{the frequencies, amplitudes, and \(initial\) phases of each sinusoid in each STFT frame}@}. Common effects include {@{amplitude scaling, pitch scaling, and time stretching}@}. If {@{a residual model is used in combination}@}, often {@{no effects or only frequency transformations are applied \(time stretching is difficult to apply\)}@}. If {@{a stochastic model used in combination}@}, it is {@{often transformed by the same effect or a different simpler effect \(e.g. only amplitude scaling\)}@}. <!--SR:!2029-08-24,1180,350!2026-07-14,294,330!2026-06-21,275,330!2029-03-15,1051,350!2029-09-07,1191,350!2029-04-08,1072,350!2029-05-28,1109,350-->
+Using {@{a sinusoidal model to analyze a sound}@}, we obtain {@{the frequencies, amplitudes, and \(initial\) phases of each sinusoid in each STFT frame}@}. Common effects include {@{amplitude scaling, pitch scaling, and time stretching}@}. If {@{a residual model is used in combination}@}, often {@{no effects or only frequency transformations are applied \(time stretching is difficult to apply\)}@}. If {@{a stochastic model used in combination}@}, it is {@{often transformed by the same effect or a different simpler effect \(e.g. only amplitude scaling\)}@}. <!--SR:!2029-08-24,1180,350!2026-07-14,294,330!fsrs,2029-10-06T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-06-21T00:00:00.000Z!2029-03-15,1051,350!2029-09-07,1191,350!2029-04-08,1072,350!2029-05-28,1109,350-->
 
 ### amplitude scaling \(sinusoidal\)
 

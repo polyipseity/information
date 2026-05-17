@@ -48,7 +48,7 @@ To facilitate its educational objectives, the Institute has {@{accredited a numb
 
 {@{The Association of International Certified Professional Accountants (AICPA)}@} states management accounting as {@{a practice that extends to the following three areas: [strategic management](strategic%20management.md), [performance management](business%20performance%20management.md), and [risk management](risk%20management.md)}@}. <!--SR:!2028-06-19,952,270!2027-07-29,743,290-->
 
-- [strategic management](strategic%20management.md) ::@:: advancing the role of the management accountant as a strategic partner in the organization <!--SR:!2027-03-26,652,290!2026-06-21,465,290-->
+- [strategic management](strategic%20management.md) ::@:: advancing the role of the management accountant as a strategic partner in the organization <!--SR:!2027-03-26,652,290!fsrs,2030-12-24T00:00:00.000Z,1647,1647.31530403,1.98030797,2,10,0,0,2026-06-21T00:00:00.000Z-->
 - [performance management](business%20performance%20management.md) ::@:: developing the practice of business decision-making and managing the performance of the organization <!--SR:!2028-10-10,1160,350!2026-07-30,504,310-->
 - [risk management](risk%20management.md) ::@:: contributing to frameworks and practices for identifying, measuring, managing and reporting risks to the achievement of the objectives of the organization <!--SR:!2027-05-07,694,290!2027-10-13,799,290-->
 

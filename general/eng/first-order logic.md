@@ -109,7 +109,7 @@ It is common to {@{divide the symbols of the alphabet into _logical symbols_, wh
 
 #### logical symbols
 
-- Main article: ::@:: [List of logical symbols](list%20of%20logical%20symbols.md) <!--SR:!2026-09-11,321,364!2026-06-21,255,334-->
+- Main article: ::@:: [List of logical symbols](list%20of%20logical%20symbols.md) <!--SR:!2026-09-11,321,364!fsrs,2029-08-06T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-06-21T00:00:00.000Z-->
 
 {@{Logical symbols}@} are {@{a set of characters that vary by author}@}, but usually include the following:<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2027-01-30,440,382!2026-12-10,396,364-->
 

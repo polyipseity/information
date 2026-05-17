@@ -43,7 +43,7 @@ In {@{the foreword to his treatise}@}, Huygens wrote: <!--SR:!2029-06-25,1261,35
 >
 > —&hairsp;Edwards \(2002\) <!--SR:!2029-08-23,1320,350!2030-08-30,1632,367!2028-05-29,894,330!2027-12-01,815,330!2029-07-15,1279,350!2029-08-28,1323,350!fsrs,2028-06-12T00:00:00.000Z,726,725.66338141,1,2,8,0,0,2026-06-17T00:00:00.000Z!fsrs,2028-06-17T00:00:00.000Z,730,730.38507953,1,2,8,0,0,2026-06-18T00:00:00.000Z-->
 
-In {@{the mid-nineteenth century, [Pafnuty Chebyshev](Pafnuty%20Chebyshev.md)}@} became {@{the first person to think systematically in terms of the expectations of [random variables](random%20variable.md)}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-06-21,365,290!2029-07-30,1296,350-->
+In {@{the mid-nineteenth century, [Pafnuty Chebyshev](Pafnuty%20Chebyshev.md)}@} became {@{the first person to think systematically in terms of the expectations of [random variables](random%20variable.md)}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!fsrs,2030-02-12T00:00:00.000Z,1332,1331.66337792,1.98030797,2,10,0,0,2026-06-21T00:00:00.000Z!2029-07-30,1296,350-->
 
 ### etymology
 

@@ -35,7 +35,7 @@ Below are some questions or question tips.
 
 ## activity-based costing & cost management
 
-- activity-based costing insights ::@:: For each activity pool, give suggestions \(ideally 3\) to reduce the activity or the activity rate \(price\) and briefly explain them. Even "obvious", "stupid", or "trivial" suggestions count! <!--SR:!2029-07-29,1156,350!2026-06-21,279,330-->
+- activity-based costing insights ::@:: For each activity pool, give suggestions \(ideally 3\) to reduce the activity or the activity rate \(price\) and briefly explain them. Even "obvious", "stupid", or "trivial" suggestions count! <!--SR:!2029-07-29,1156,350!fsrs,2029-10-21T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-06-21T00:00:00.000Z-->
 - activity-based costing & pricing ::@:: For job orders, you can determine the job price more accurately. You are less likely to overcharge or undercharge customers, increasing customer satisfaction. Profitability of the company may be hurt or enhanced, depending on how the previous traditional costing assigns MOH. <!--SR:!2029-07-20,1147,350!2029-06-21,1133,350-->
 - just-in-time manufacturing advantages & disadvantages ::@:: Inventory costs are lower. Obsolete inventory are less likely. <p> More sensitive to supply chain issues, as there are little to no inventory for buffering. <!--SR:!2026-06-22,280,330!2029-03-29,1069,350-->
 - markup method vs. target cost method ::@:: The former starts from the cost and gives a price. It ignores market demand and supply. You are more prone to producing a product or service that is too expensive to have a market. <p> The latter starts from the market price and gives the target cost. It considers market supply and demand. <!--SR:!2026-06-28,285,330!2029-07-04,1147,350-->

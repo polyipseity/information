@@ -76,7 +76,7 @@ When coupled with {@{a complete [search algorithm](search%20algorithm.md)}@}, th
 
 Here x is {@{a variable}@} and b is {@{a constant}@}. {@{$${\frac {P(x),Q(x)\,\,\,\,\neg P(b)}{Q(b)} }[b/x]$$}@} Here we see that <!--SR:!2029-07-19,1148,350!2029-06-17,1128,350!2026-07-08,290,330-->
 
-- The clauses $P(x),Q(x)$ and $\neg P(b)$ ::@:: are the inference's premises <!--SR:!2026-06-25,279,330!2026-06-21,276,330-->
+- The clauses $P(x),Q(x)$ and $\neg P(b)$ ::@:: are the inference's premises <!--SR:!2026-06-25,279,330!fsrs,2029-10-09T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-21T00:00:00.000Z-->
 - $Q(b)$ \(the resolvent of the premises\) ::@:: is its conclusion. <!--SR:!2029-08-20,1179,350!fsrs,2029-09-18T03:25:45.760Z,1191,1191.26470738,1,2,9,0,0,2026-06-15T03:25:45.760Z-->
 - The literal $P(x)$ ::@:: is the left resolved literal, <!--SR:!fsrs,2029-09-29T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-06-18T00:00:00.000Z!fsrs,2029-09-03T14:27:10.949Z,1179,1179.41935434,1,2,9,0,0,2026-06-12T14:27:10.949Z-->
 - The literal $\neg P(b)$ ::@:: is the right resolved literal, <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-20T00:00:00.000Z!fsrs,2029-09-11T03:25:43.350Z,1184,1183.64577796,1,2,9,0,0,2026-06-15T03:25:43.350Z-->
@@ -159,7 +159,7 @@ In CNF, the antecedents become:
 
 \(The variable in the second clause was renamed to make it clear that variables in different clauses are distinct.\)
 
-Now, unifying {@{_Q_\(_X_\) in the first clause with ¬<!-- markdown separator -->_Q_\(_Y_\) in the second clause}@} means that {@{_X_ and _Y_ become the same variable anyway}@}. Substituting this into {@{the remaining clauses and combining them}@} gives the conclusion: \(annotation: {@{¬<!-- markdown separator -->_P_\(_X_\) ∨ _R_\(_X_\)}@}\) <!--SR:!fsrs,2029-09-29T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-06-18T00:00:00.000Z!2026-06-21,276,330!fsrs,2029-09-20T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-06-17T00:00:00.000Z!2029-05-27,1112,350-->
+Now, unifying {@{_Q_\(_X_\) in the first clause with ¬<!-- markdown separator -->_Q_\(_Y_\) in the second clause}@} means that {@{_X_ and _Y_ become the same variable anyway}@}. Substituting this into {@{the remaining clauses and combining them}@} gives the conclusion: \(annotation: {@{¬<!-- markdown separator -->_P_\(_X_\) ∨ _R_\(_X_\)}@}\) <!--SR:!fsrs,2029-09-29T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-06-18T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-21T00:00:00.000Z!fsrs,2029-09-20T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-06-17T00:00:00.000Z!2029-05-27,1112,350-->
 
 &emsp; ¬<!-- markdown separator -->_P_\(_X_\) ∨ _R_\(_X_\)
 
