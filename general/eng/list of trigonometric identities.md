@@ -172,7 +172,7 @@ return await memorize_map(
 >
 > - $\sin 7.42$ ([angle sum](#angle%20sum%20and%20difference) variant) ::@:: $2 \cos 3.71 \sin 3.71$ <!--SR:!2027-01-06,296,307!2027-11-11,1085,347-->
 > - $\sin(-0.36)$ (square variant) ::@:: $(\cos 0.18 - \sin 0.18)^2 - 1$ <!--SR:!2027-02-07,307,247!2026-06-21,375,267-->
-> - $\sin 6.24$ (tangent variant) ::@:: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2030-01-22,1655,327!2026-06-05,140,187-->
+> - $\sin 6.24$ (tangent variant) ::@:: $\frac{2 \tan 3.12}{1 + \tan^2 3.12}$ <!--SR:!2030-01-22,1655,327!fsrs,2027-05-09T00:31:33.151Z,337,336.55126548,7.13347548,2,8,0,0,2026-06-06T00:31:33.151Z-->
 > - $\cos(-3.68)$ ([angle sum](#angle%20sum%20and%20difference) variant) ::@:: $\cos^2 1.84 - \sin^2 1.84$ <!--SR:!2027-06-03,919,347!2026-09-24,658,287-->
 > - $\cos 9.98$ (cosine variant) ::@:: $2\cos^2 4.99 - 1$ <!--SR:!2027-01-29,795,327!2027-08-28,982,347-->
 > - $\cos 5.54$ (sine variant) ::@:: $1 - 2\sin^2 2.77$ <!--SR:!2027-10-02,1008,347!2026-07-20,660,327-->
@@ -220,7 +220,7 @@ return await memorize_map(
 
 > [!example] examples
 >
-> - $\sin 4.2$ ::@:: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$ <!--SR:!2026-07-12,486,296!2026-05-27,362,336-->
+> - $\sin 4.2$ ::@:: $\operatorname{sgn}(\sin 4.2) \sqrt{\frac {1 - \cos 8.4} 2}$ <!--SR:!2026-07-12,486,296!fsrs,2029-03-15T00:31:37.496Z,1013,1013.405193,2.26795337,2,10,0,0,2026-06-06T00:31:37.496Z-->
 > - $\cos (-3.6)$ ::@:: $\operatorname{sgn}(\cos 3.6) \sqrt{\frac {1 + \cos 7.2} 2}$ <!--SR:!2027-09-23,503,296!2028-08-04,1079,356-->
 > - $\tan (-3.14)$ (sine and cosine) ::@:: $\frac {\cos 6.28 - 1} {\sin 6.28} = -\frac {\sin 6.28} {1 + \cos 6.28}$ <!--SR:!2027-10-17,746,276!2028-05-18,964,316-->
 > - $\tan 3.42$ (cosine) ::@:: $\operatorname{sgn}(\sin 6.82) \sqrt{\frac {1 - \cos 6.82} {1 + \cos 6.82} }$ <!--SR:!2026-08-02,308,276!2026-10-13,202,256-->
@@ -261,7 +261,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="3213"--><!-- The following content is generated at 2024-07-10T23:14:22.138589+08:00. Any edits will be overridden! -->
 
-- sine cosine:@:$$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$$ <!--SR:!2026-05-23,450,190-->
+- sine cosine:@:$$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$$ <!--SR:!fsrs,2029-02-26T00:31:31.606Z,996,995.91275061,6.98338322,2,10,0,0,2026-06-06T00:31:31.606Z-->
 - cosine sine:@:$$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$$ <!--SR:!2026-06-12,463,190-->
 - sine sine:@:$$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$$ <!--SR:!2026-09-13,242,190-->
 - cosine cosine:@:$$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$$ <!--SR:!2027-02-24,853,250-->

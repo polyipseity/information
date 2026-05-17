@@ -29,7 +29,7 @@ tags:
 > ---
 >
 > - solution: {@{about 12.433199%}@}
-> - explanation: {@{Assume the par value is \$1. The current price of the bond is: $$\frac {0.03} {0.025} \left(1 - \frac 1 {{1.025}^{20} } \right) + \frac 1 {{1.025}^{20} } \approx \$1.07794581 \,.$$ The price after 2 years is: $$\frac {0.03} {0.015} \left(1 - \frac 1 {{1.015}^{16} } \right) + \frac 1 {{1.015}^{16} } \approx \$1.21196896 \,.$$ The capital gain rate is $$\frac {1.21196896 - 1.07794581} {1.07794581} \approx 0.12433199 = 12.433199\% \,.$$}@} <!--SR:!2029-03-24,1057,350!2026-05-31,272,330-->
+> - explanation: {@{Assume the par value is \$1. The current price of the bond is: $$\frac {0.03} {0.025} \left(1 - \frac 1 {{1.025}^{20} } \right) + \frac 1 {{1.025}^{20} } \approx \$1.07794581 \,.$$ The price after 2 years is: $$\frac {0.03} {0.015} \left(1 - \frac 1 {{1.015}^{16} } \right) + \frac 1 {{1.015}^{16} } \approx \$1.21196896 \,.$$ The capital gain rate is $$\frac {1.21196896 - 1.07794581} {1.07794581} \approx 0.12433199 = 12.433199\% \,.$$}@} <!--SR:!2029-03-24,1057,350!fsrs,2029-09-24T01:11:15.430Z,1206,1205.6109384,1,2,9,0,0,2026-06-06T01:11:15.430Z-->
 
 ---
 

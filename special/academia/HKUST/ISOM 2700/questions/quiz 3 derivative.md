@@ -53,7 +53,7 @@ tags:
 > ---
 >
 > - solution: {@{MAD=3.25 <br/> TS=−4}@}
-> - explanation: {@{MAD=\(2+5+5+1\)/4=3.25 <br/> TS=\(−2−5−5−1\)/3.25=−4}@} <!--SR:!2026-06-05,275,330!2028-07-10,843,330-->
+> - explanation: {@{MAD=\(2+5+5+1\)/4=3.25 <br/> TS=\(−2−5−5−1\)/3.25=−4}@} <!--SR:!fsrs,2029-09-20T05:03:20.972Z,1203,1202.68030072,1,2,9,0,0,2026-06-05T05:03:20.972Z!2028-07-10,843,330-->
 
 ---
 
@@ -69,7 +69,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{2, 3, 4}@} <!--SR:!2026-05-24,264,330-->
+> - solution: {@{2, 3, 4}@} <!--SR:!fsrs,2029-09-06T05:03:05.492Z,1189,1189.40989388,1,2,9,0,0,2026-06-05T05:03:05.492Z-->
 
 ---
 
@@ -82,7 +82,7 @@ tags:
 > ---
 >
 > - solution: {@{200}@}
-> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 100 \cdot 200} {1} } = 200 \,.$$ <p> The purchasing cost discount does not affect the result. It does not change the optimal order quantity. Increasing the number of order quantity must be suboptimal. Decreasing the number of order quantity must also be suboptimal, and losing the purchasing cost discount makes it even more suboptimal.}@} <!--SR:!2026-06-06,276,330!2028-08-06,825,330-->
+> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 100 \cdot 200} {1} } = 200 \,.$$ <p> The purchasing cost discount does not affect the result. It does not change the optimal order quantity. Increasing the number of order quantity must be suboptimal. Decreasing the number of order quantity must also be suboptimal, and losing the purchasing cost discount makes it even more suboptimal.}@} <!--SR:!fsrs,2029-09-24T05:23:46.452Z,1206,1206.48213635,1,2,9,0,0,2026-06-06T05:23:46.452Z!2028-08-06,825,330-->
 
 ---
 
@@ -95,7 +95,7 @@ tags:
 > ---
 >
 > - solution: {@{\$255&nbsp;675}@}
-> - explanation: {@{From above, the optimal order quantity is 200. Thus the purchasing cost discount applies. <p> Calculate the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$ Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$}@} <!--SR:!2027-05-21,518,310!2026-05-21,261,330-->
+> - explanation: {@{From above, the optimal order quantity is 200. Thus the purchasing cost discount applies. <p> Calculate the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$ Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$}@} <!--SR:!2027-05-21,518,310!fsrs,2029-09-02T05:03:24.488Z,1185,1185.06110203,1,2,9,0,0,2026-06-05T05:03:24.488Z-->
 
 ---
 
@@ -157,7 +157,7 @@ tags:
 > ---
 >
 > - solution: {@{100}@}
-> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 25 \cdot 200} {1} } = 100 \,.$$}@} <!--SR:!2026-05-22,262,330!2026-05-30,270,330-->
+> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 25 \cdot 200} {1} } = 100 \,.$$}@} <!--SR:!fsrs,2029-09-04T05:03:03.730Z,1187,1186.51440941,1,2,9,0,0,2026-06-05T05:03:03.730Z!fsrs,2029-09-15T05:03:06.670Z,1198,1198.00877281,1,2,9,0,0,2026-06-05T05:03:06.670Z-->
 
 ---
 
@@ -170,4 +170,4 @@ tags:
 > ---
 >
 > - solution: {@{75}@}
-> - explanation: {@{25\*3=75}@} <!--SR:!2029-07-06,1153,350!2026-05-26,266,330-->
+> - explanation: {@{25\*3=75}@} <!--SR:!2029-07-06,1153,350!fsrs,2029-09-09T05:03:19.369Z,1192,1192.29051934,1,2,9,0,0,2026-06-05T05:03:19.369Z-->

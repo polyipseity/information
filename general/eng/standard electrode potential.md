@@ -205,15 +205,15 @@ return (
 
 - K<sup>+</sup>(aq) + e<sup>-</sup> ⇌ K(s):@:-2.931 <!--SR:!2027-01-05,400,190-->
 - Ca<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ca(s):@:-2.868 <!--SR:!2027-04-23,537,150-->
-- Na<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Na(s):@:-2.71 <!--SR:!2026-05-29,271,150-->
-- Mg<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Mg(s):@:-2.372 <!--SR:!2026-06-07,76,130-->
+- Na<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Na(s):@:-2.71 <!--SR:!fsrs,2027-09-11T10:13:27.302Z,463,463.12681546,8.98461332,2,9,0,0,2026-06-05T10:13:27.302Z-->
+- Mg<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Mg(s):@:-2.372 <!--SR:!fsrs,2026-09-30T01:40:58.471Z,114,113.96836278,9.98522837,2,7,0,0,2026-06-08T01:40:58.471Z-->
 - Al<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Al(s):@:-1.662 <!--SR:!2026-08-04,175,130-->
 - 2H<sub>2</sub>O(l) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g) + 2OH<sup>-</sup>:@:-0.8277 <!--SR:!2026-10-19,219,150-->
 - Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s):@:-0.7618 <!--SR:!2027-01-28,256,150-->
 - Cr<sup>3+</sup>(aq) + 3e<sup>-</sup> ⇌ Cr(s):@:-0.744 <!--SR:!2027-02-15,340,156-->
 - Fe<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Fe(s):@:-0.44 <!--SR:!2026-08-27,217,150-->
-- Cr<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Cr<sup>2+</sup>(aq):@:-0.407 <!--SR:!2026-05-19,52,130-->
-- Co<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Co(s):@:-0.28 <!--SR:!2026-06-01,222,150-->
+- Cr<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Cr<sup>2+</sup>(aq):@:-0.407 <!--SR:!fsrs,2026-08-29T10:13:40.298Z,85,85.34797567,9.98522837,2,7,0,0,2026-06-05T10:13:40.298Z-->
+- Co<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Co(s):@:-0.28 <!--SR:!fsrs,2027-06-24T10:13:39.566Z,384,383.91889324,8.98461332,2,9,0,0,2026-06-05T10:13:39.566Z-->
 - Ni<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ni(s):@:-0.257 <!--SR:!2026-11-29,369,170-->
 - Sn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn(s):@:-0.13 <!--SR:!2026-07-07,262,150-->
 - Pb<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Pb(s):@:-0.126 <!--SR:!2026-06-11,219,150-->
@@ -225,7 +225,7 @@ return (
 - SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l):@:0.17 <!--SR:!2026-10-25,210,190-->
 - Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Cu(s):@:0.337 <!--SR:!2026-07-13,168,130-->
 - O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> ⇌ 4OH<sup>-</sup>(aq):@:0.401 <!--SR:!2026-09-06,703,210-->
-- SO<sub>2</sub>(aq) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ S(s) + 2H<sub>2</sub>O(l):@:0.5 <!--SR:!2026-05-25,94,130-->
+- SO<sub>2</sub>(aq) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ S(s) + 2H<sub>2</sub>O(l):@:0.5 <!--SR:!fsrs,2026-10-25T10:13:43.226Z,142,142.42709455,9.98522837,2,8,0,0,2026-06-05T10:13:43.226Z-->
 - CO(g) + 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ C(s) + H<sub>2</sub>O(l):@:0.52 <!--SR:!2026-09-05,184,170-->
 - I<sub>3</sub><sup>-</sup>(aq) + 2e<sup>-</sup> ⇌ 3I<sup>-</sup>(aq):@:0.53 <!--SR:!2030-09-23,1613,219-->
 - I<sub>2</sub>(s) + 2e<sup>-</sup> ⇌ 2I<sup>-</sup>(aq):@:0.54 <!--SR:!2027-04-10,396,150-->
@@ -237,9 +237,9 @@ return (
 - Br<sub>2</sub>(aq) + 2e<sup>-</sup> ⇌ 2Br<sup>-</sup>(aq):@:1.0873 <!--SR:!2028-02-07,822,190-->
 - 2IO<sub>3</sub><sup>-</sup>(aq) + 12H<sup>+</sup>(aq) + 10e<sup>-</sup> ⇌ I<sub>2</sub>(s) + 6H<sub>2</sub>O(l):@:1.2 <!--SR:!2026-10-14,308,170-->
 - O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2H<sub>2</sub>O(l):@:1.229 <!--SR:!2026-08-07,145,150-->
-- Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>(aq) + 14H<sup>+</sup>(aq) + 6e<sup>-</sup> ⇌ 2Cr<sup>3+</sup>(aq) + 7H<sub>2</sub>O(l):@:1.33 <!--SR:!2026-05-28,62,130-->
+- Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>(aq) + 14H<sup>+</sup>(aq) + 6e<sup>-</sup> ⇌ 2Cr<sup>3+</sup>(aq) + 7H<sub>2</sub>O(l):@:1.33 <!--SR:!fsrs,2026-08-24T10:13:26.047Z,80,80.47505449,9.98522837,2,7,0,0,2026-06-05T10:13:26.047Z-->
 - Cl<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2Cl<sup>-</sup>(aq):@:1.36 <!--SR:!2026-08-11,320,150-->
-- MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l):@:1.51 <!--SR:!2026-05-18,43,130-->
+- MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l):@:1.51 <!--SR:!fsrs,2026-08-03T10:13:47.033Z,59,58.90048103,9.98522837,2,6,0,0,2026-06-05T10:13:47.033Z-->
 - Co<sup>3+</sup>(aq) + e<sup>-</sup> ⇌ Co<sup>2+</sup>(aq):@:1.92 <!--SR:!2028-06-21,789,210-->
 - S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq):@:2.01 <!--SR:!2026-10-05,150,130-->
 - F<sub>2</sub>(g) + 2e<sup>-</sup> ⇌ 2F<sup>-</sup>(aq):@:2.87 <!--SR:!2027-09-11,538,170-->
@@ -271,7 +271,7 @@ return (
 - Ni::@::Ni<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ni(s) <!--SR:!2032-11-10,2679,336!2026-07-23,929,336-->
 - O::@::O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> ⇌ 4OH<sup>-</sup>(aq)<br/>O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2H<sub>2</sub>O(l)<br/>S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq) <!--SR:!2028-11-02,914,210!2030-04-13,2078,330-->
 - Pb::@::Pb<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Pb(s) <!--SR:!2028-04-13,1424,270!2029-03-29,1891,330-->
-- S::@::S<sub>4</sub>O<sub>6</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq)<br/>HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)<br/>SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)<br/>SO<sub>2</sub>(aq) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ S(s) + 2H<sub>2</sub>O(l)<br/>S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq) + 6H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2S(s) + 3H<sub>2</sub>O(l) <!--SR:!2026-05-18,42,130!2033-05-08,2632,290-->
+- S::@::S<sub>4</sub>O<sub>6</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq)<br/>HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)<br/>SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)<br/>SO<sub>2</sub>(aq) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ S(s) + 2H<sub>2</sub>O(l)<br/>S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq) + 6H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2S(s) + 3H<sub>2</sub>O(l) <!--SR:!fsrs,2026-08-02T10:13:38.464Z,58,57.66576903,9.98522837,2,6,0,0,2026-06-05T10:13:38.464Z!2033-05-08,2632,290-->
 - Sn::@::Sn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn(s)<br/>Sn<sup>4+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn<sup>2+</sup>(aq) <!--SR:!2027-06-21,1050,296!2034-09-25,3272,356-->
 - Zn::@::Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s) <!--SR:!2026-09-12,1023,250!2029-04-23,1912,330-->
 

@@ -270,7 +270,7 @@ return chain.from_iterable([r.value for r in results])
 - `LEN(string)`→::@::←`LOWER(string)` <!--SR:!2027-01-21,722,290!2028-03-08,1036,310-->
 - `LOWER(string)`→::@::←`RIGHT(string, length)` <!--SR:!2026-10-18,388,170!2030-03-07,1495,270-->
 - `RIGHT(string, length)`→::@::←`SUBSTITUTE(string, old, new)` <!--SR:!2026-10-07,618,270!2030-04-06,1509,270-->
-- `SUBSTITUTE(string, old, new)`→::@::←`UPPER(string)` <!--SR:!2028-03-10,946,250!2026-06-05,327,190-->
+- `SUBSTITUTE(string, old, new)`→::@::←`UPPER(string)` <!--SR:!2028-03-10,946,250!fsrs,2028-06-12T01:54:36.701Z,737,737.49905737,6.98338322,2,9,0,0,2026-06-06T01:54:36.701Z-->
 - `UPPER(string)`→::@::←_(end)_ <!--SR:!2026-11-06,757,330!2027-09-15,964,310-->
 
 <!--/pytextgen-->

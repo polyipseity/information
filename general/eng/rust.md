@@ -14,13 +14,13 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-{@{__Rust__}@} is {@{a reddish-brown [iron oxide](iron%20oxide.md)}@} consisting of {@{[hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O)}@} created by {@{[corrosion](corrosion.md) of refined [iron](iron.md)}@}. <!--SR:!2030-04-27,1574,230!2027-09-24,496,396!2026-08-20,151,336!2026-05-23,101,376-->
+{@{__Rust__}@} is {@{a reddish-brown [iron oxide](iron%20oxide.md)}@} consisting of {@{[hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O)}@} created by {@{[corrosion](corrosion.md) of refined [iron](iron.md)}@}. <!--SR:!2030-04-27,1574,230!2027-09-24,496,396!2026-08-20,151,336!fsrs,2028-02-18T00:59:49.530Z,622,621.716141,1,2,8,0,0,2026-06-06T00:59:49.530Z-->
 
 ## chemical reactions
 
 Rusting of iron begins with {@{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}@}. It is accelerated by {@{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}@}. It happens faster in {@{stressed areas like bent, scratched, or sharp areas}@}. <!--SR:!2032-10-05,2496,290!2028-11-20,1394,310!2026-07-29,752,250-->
 
-First, {@{iron is oxidized to iron(II) ions}@} and {@{oxygen is reduced to [hydroxides](hydroxide.md) in water}@}. {@{The iron(II) ions}@} may be {@{further oxidized by air to iron(III) ions}@}: <!--SR:!2027-03-20,331,230!2032-11-12,2634,330!2026-05-27,19,358!2026-05-23,15,338-->
+First, {@{iron is oxidized to iron(II) ions}@} and {@{oxygen is reduced to [hydroxides](hydroxide.md) in water}@}. {@{The iron(II) ions}@} may be {@{further oxidized by air to iron(III) ions}@}: <!--SR:!2027-03-20,331,230!2032-11-12,2634,330!fsrs,2026-11-25T00:59:50.580Z,172,171.66330443,1,2,5,0,0,2026-06-06T00:59:50.580Z!fsrs,2026-11-02T00:59:51.712Z,149,148.63118492,1,2,5,0,0,2026-06-06T00:59:51.712Z-->
 
 > {@{__ion formation by redox__}@}
 >
@@ -44,7 +44,7 @@ After forming iron hydroxides, {@{[dehydration](dehydration%20reaction.md) occur
 > - {@{Fe(OH)<sub>3</sub>(s)}@} ⇌ {@{FeO(OH)(s) + H<sub>2</sub>O(l)}@}
 > - {@{2FeO(OH)(s)}@} ⇌ {@{Fe<sub>2</sub>O<sub>3</sub>(s) + H<sub>2</sub>O(l)}@} <!--SR:!2035-07-03,3467,350!2027-02-04,947,290!2026-07-15,860,330!2026-10-02,359,373!2026-08-25,304,353!2026-08-22,301,353!2026-08-07,308,363-->
 
-{@{[Ferroxyl indicator solution](ferroxyl%20indicator%20solution.md)}@} can be used to detect rusting. {@{Place the iron and indicator in a warm gel containing [sodium chloride](sodium%20chloride.md)}@} to speed up the reaction. <!--SR:!2026-06-01,480,270!2028-01-19,1055,250-->
+{@{[Ferroxyl indicator solution](ferroxyl%20indicator%20solution.md)}@} can be used to detect rusting. {@{Place the iron and indicator in a warm gel containing [sodium chloride](sodium%20chloride.md)}@} to speed up the reaction. <!--SR:!fsrs,2030-09-25T00:59:48.593Z,1572,1571.91841976,2.98092302,2,10,0,0,2026-06-06T00:59:48.593Z!2028-01-19,1055,250-->
 
 ## prevention
 

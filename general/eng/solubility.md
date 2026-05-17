@@ -378,7 +378,7 @@ return await memorize_map(
 - [mercury(II) bromide](mercury(II)%20bromide.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-08-05,490,258-->
 - [mercury(II) chloride](mercury(II)%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2029-02-22,1302,298-->
 - [mercury(II) iodide](mercury(II)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-08-15,440,190-->
-- [silver bromide](silver%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-06-07,514,278-->
+- [silver bromide](silver%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!fsrs,2031-02-17T16:37:33.846Z,1716,1716.47070567,2.580677,2,10,0,0,2026-06-07T16:37:33.846Z-->
 - [silver chloride](silver%20chloride.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-08-31,939,298-->
 - [silver ethanoate](silver%20ethanoate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2029-05-10,1356,298-->
 - [silver iodide](silver%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2028-09-27,1204,298-->

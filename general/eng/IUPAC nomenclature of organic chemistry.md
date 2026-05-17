@@ -173,7 +173,7 @@ The steps for naming an organic compound are:
 - [identify numbering direction](#identify%20numbering%20direction)→::@::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2030-05-18,1582,210!2033-10-06,2776,285-->
 - number and [prefix](#prefix%20for%20type%20count) substituents and bonds→::@::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2028-10-04,964,227!2027-03-29,824,230-->
 - [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→::@::←(optional) omit unnecessary locants <!--SR:!2027-10-04,1037,230!2026-06-29,450,207-->
-- (optional) omit unnecessary locants→::@::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2026-09-17,770,230!2026-06-08,527,225-->
+- (optional) omit unnecessary locants→::@::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2026-09-17,770,230!fsrs,2030-03-21T01:41:00.190Z,1382,1382.18779673,5.23230688,2,10,0,0,2026-06-08T01:41:00.190Z-->
 - [modify words for pronunciation](#modify%20words%20for%20pronunciation)→::@::←[modify punctuations](#modify%20punctuations) <!--SR:!2029-09-16,1877,312!2031-09-03,2097,287-->
 - [modify punctuations](#modify%20punctuations)→::@::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2029-12-26,1328,253!2027-10-24,1227,307-->
 - prefix notation for _cis_–_trans_ isomerism→::@::←_(end)_ <!--SR:!2029-08-16,1975,382!2027-07-03,1153,307-->
@@ -632,7 +632,7 @@ return (
 - cation→::@::←carboxylic acid <!--SR:!2028-03-22,1421,275!2035-09-05,3517,296-->
 - carboxylic acid→::@::←carboxylic acid derivative <!--SR:!2028-08-04,1590,306!2026-10-25,1301,346-->
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2027-06-14,720,247-->
-- nitrile→::@::←aldehyde <!--SR:!2026-06-05,82,130!2026-07-31,148,170-->
+- nitrile→::@::←aldehyde <!--SR:!fsrs,2026-10-06T00:34:27.994Z,122,122.39659819,9.98522837,2,7,0,0,2026-06-06T00:34:27.994Z!2026-07-31,148,170-->
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2027-09-06,698,230-->
 - ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2026-07-31,128,150-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->

@@ -11,7 +11,7 @@ tags:
 
 # convolutional neural network
 
-A __convolutional neural network__ (__CNN__) is {@{a [regularized](regularization%20(mathematics).md) type of [feedforward neural network](feedforward%20neural%20network.md) that learns [feature engineering](feature%20engineering.md) via [filters](filter%20(signal%20processing).md) or kernels optimization}@}. The filters {@{combine several pixels into one, regularizing weights with fewer connections to the subsequent neurons}@}. <!--SR:!2026-06-08,503,310!2028-12-16,1193,310-->
+A __convolutional neural network__ (__CNN__) is {@{a [regularized](regularization%20(mathematics).md) type of [feedforward neural network](feedforward%20neural%20network.md) that learns [feature engineering](feature%20engineering.md) via [filters](filter%20(signal%20processing).md) or kernels optimization}@}. The filters {@{combine several pixels into one, regularizing weights with fewer connections to the subsequent neurons}@}. <!--SR:!fsrs,2031-08-18T16:14:34.882Z,1898,1898.40996036,1,2,10,0,0,2026-06-07T16:14:34.882Z!2028-12-16,1193,310-->
 
 An CNN exhibits {@{spatial [dynamic behavior](dynamical%20system.md)}@}. This makes it suitable for datasets {@{with spatial relationship between the samples, such as images}@}. <!--SR:!2027-05-24,806,330!2028-10-08,1225,350-->
 

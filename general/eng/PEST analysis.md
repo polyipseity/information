@@ -16,7 +16,7 @@ The basic PEST analysis includes {@{4 factors: _political_, _economic_, _social_
 
 - (P) _political_ factors ::@:: They relate to how the government policy and actions intervene in the economy. For example, they include bureaucracy, trade restrictions, tariffs, tax policies, etc. <!--SR:!2027-11-05,882,290!2026-10-26,666,330-->
 - (E) _economic_ factors ::@:: They relate to aspects and outlook of the economy. For example, they include economic growth, exchange rates, inflation rate, interest rates, etc. <!--SR:!2026-10-16,562,270!2030-05-19,1576,310-->
-- (S) _social_ factors ::@:: They relate to society. For example, they include demographics, lifestyles, population growth, etc. <!--SR:!2026-06-07,502,310!2028-02-06,1042,350-->
+- (S) _social_ factors ::@:: They relate to society. For example, they include demographics, lifestyles, population growth, etc. <!--SR:!fsrs,2031-08-20T01:22:06.876Z,1899,1899.06033807,1,2,10,0,0,2026-06-08T01:22:06.876Z!2028-02-06,1042,350-->
 - (T) _technological_ factors ::@:: They relate to technological aspects. For example, they include R&D activity, automation, barriers to entry, technological incentives, etc. <!--SR:!2031-09-01,1982,330!2027-05-22,821,330-->
 
 Variants may additionally include the following factors:

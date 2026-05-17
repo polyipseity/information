@@ -63,7 +63,7 @@ return await memorize_seq(
 - [experience](#experience)→::@::←[achievements](#achievements) <!--SR:!2026-08-05,545,250!2027-04-09,892,310-->
 - [achievements](#achievements)→::@::←[skills](#skills) <!--SR:!2027-08-05,977,290!2031-05-28,1891,310-->
 - [skills](#skills)→::@::←[others](#others) <!--SR:!2026-07-27,725,330!2028-03-26,1166,310-->
-- [others](#others)→::@::←_(end)_ <!--SR:!2028-08-27,1383,350!2026-05-29,715,330-->
+- [others](#others)→::@::←_(end)_ <!--SR:!2028-08-27,1383,350!fsrs,2034-01-20T01:11:16.055Z,2785,2785.08444009,1,2,10,0,0,2026-06-06T01:11:16.055Z-->
 
 <!--/pytextgen-->
 

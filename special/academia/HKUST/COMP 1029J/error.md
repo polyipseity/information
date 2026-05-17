@@ -15,7 +15,7 @@ There are two types of errors: {@{syntax errors and runtime errors}@}. The forme
 
 ## exceptions
 
-Java calls runtime errors {@{_exceptions_}@}. They occur when {@{something exceptional or unexpected}@} happens. The program {@{generally crashes}@} when an exception occurs. There are {@{many types of exceptions, such as `ArithmeticException`, `ArrayIndexOutOfBoundsException`, etc.}@} The most general runtime error type is {@{`Exception`}@}. <!--SR:!2028-02-13,1146,350!2028-12-02,1374,350!2027-08-24,1010,350!2026-06-08,596,310!2028-08-03,1280,350-->
+Java calls runtime errors {@{_exceptions_}@}. They occur when {@{something exceptional or unexpected}@} happens. The program {@{generally crashes}@} when an exception occurs. There are {@{many types of exceptions, such as `ArithmeticException`, `ArrayIndexOutOfBoundsException`, etc.}@} The most general runtime error type is {@{`Exception`}@}. <!--SR:!2028-02-13,1146,350!2028-12-02,1374,350!2027-08-24,1010,350!fsrs,2032-06-21T02:02:22.059Z,2205,2205.25763698,1,2,10,0,0,2026-06-08T02:02:22.059Z!2028-08-03,1280,350-->
 
 ## catching exceptions
 

@@ -195,7 +195,7 @@ For a more sophisticated example: $${\begin{aligned}&\phi :\mathbb {R} ^{4}\to \
 
 If {@{_f_\(_x_<sub>1</sub>, …, _x<sub>n</sub>_\) is such a complex valued function}@}, it may be {@{decomposed as $$f(x_{1},\ldots ,x_{n})=g(x_{1},\ldots ,x_{n})+ih(x_{1},\ldots ,x_{n}),$$}@} where {@{_g_ and _h_ are real-valued functions}@}. In other words, {@{the study of the complex valued functions}@} {@{reduces easily to the study of the pairs of real valued functions}@}. <!--SR:!2030-07-31,1555,361!2030-06-11,1505,361!2030-01-30,1426,361!2030-04-22,1481,361!2030-03-24,1455,361-->
 
-This reduction {@{works for the general properties}@}. However, for {@{an explicitly given function}@}, such as: $$z(x,y,\alpha ,a,q)={\frac {q}{2\pi } }\left[\ln \left(x+iy-ae^{i\alpha }\right)-\ln \left(x+iy+ae^{-i\alpha }\right)\right]$$ {@{the computation of the real and the imaginary part}@} may {@{be difficult}@}. <!--SR:!2029-12-09,1386,361!2029-12-03,1381,361!2028-05-15,906,341!2026-05-19,126,399-->
+This reduction {@{works for the general properties}@}. However, for {@{an explicitly given function}@}, such as: $$z(x,y,\alpha ,a,q)={\frac {q}{2\pi } }\left[\ln \left(x+iy-ae^{i\alpha }\right)-\ln \left(x+iy+ae^{-i\alpha }\right)\right]$$ {@{the computation of the real and the imaginary part}@} may {@{be difficult}@}. <!--SR:!2029-12-09,1386,361!2029-12-03,1381,361!2028-05-15,906,341!fsrs,2028-06-28T00:58:37.543Z,753,752.96539095,1,2,8,0,0,2026-06-06T00:58:37.543Z-->
 
 ## applications
 

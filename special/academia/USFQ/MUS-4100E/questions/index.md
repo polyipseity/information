@@ -157,7 +157,7 @@ tags:
 >
 > What was the name of the song that Charlie Parker was playing when he had a "musical epiphany" that allowed him to help create this new style of music?
 >
-> - solution: {@{Cherokee}@} <!--SR:!2026-06-05,344,360-->
+> - solution: {@{Cherokee}@} <!--SR:!fsrs,2030-10-31T04:13:06.880Z,1609,1609.26828655,1,2,9,0,0,2026-06-05T04:13:06.880Z-->
 
 <!-- markdownlint MD028 -->
 

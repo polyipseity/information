@@ -15,10 +15,10 @@ An H-bridge is a circuit that allows reversible control of a [brushed DC motor](
 
 Flashcards for this section are as follows:
 
-- H-bridge purpose: What does an H-bridge let you do with a DC motor? ::@:: Control the direction of current through the motor so it can spin forward or backward; reversible drive from a single supply without switching wires. <!--SR:!2026-05-29,55,310!2026-05-28,54,310-->
+- H-bridge purpose: What does an H-bridge let you do with a DC motor? ::@:: Control the direction of current through the motor so it can spin forward or backward; reversible drive from a single supply without switching wires. <!--SR:!fsrs,2027-03-30T05:33:47.296Z,298,297.72694097,1,2,7,0,0,2026-06-05T05:33:47.296Z!fsrs,2027-03-28T05:33:02.595Z,296,296.09099135,1,2,7,0,0,2026-06-05T05:33:02.595Z-->
 - H-bridge single supply: Why is "one supply" useful? ::@:: You do not need two power sources or to physically swap motor leads; one supply and the right switch pattern give either direction. <!--SR:!2026-06-09,64,310!2026-06-11,66,310-->
-- H-bridge name origin ::@:: The circuit layout looks like an "H": supply and ground are the two vertical rails, the load is the horizontal bar, and four switches sit at the corners. <!--SR:!2026-06-10,65,310!2026-05-30,56,310-->
-- H-bridge robot use: How is the H-bridge used in a robot? ::@:: To drive a wheel or tread forward or reverse (e.g. left and right wheels) so the robot can move in either direction. <!--SR:!2026-06-06,62,310!2026-06-05,61,310-->
+- H-bridge name origin ::@:: The circuit layout looks like an "H": supply and ground are the two vertical rails, the load is the horizontal bar, and four switches sit at the corners. <!--SR:!2026-06-10,65,310!fsrs,2027-03-31T05:31:45.928Z,299,299.33956763,1,2,7,0,0,2026-06-05T05:31:45.928Z-->
+- H-bridge robot use: How is the H-bridge used in a robot? ::@:: To drive a wheel or tread forward or reverse (e.g. left and right wheels) so the robot can move in either direction. <!--SR:!fsrs,2027-04-11T01:12:41.191Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:12:41.191Z!fsrs,2027-04-05T05:31:41.350Z,304,304.30256839,1,2,7,0,0,2026-06-05T05:31:41.350Z-->
 
 ## four-switch topology and direction control
 
@@ -30,9 +30,9 @@ The basic H-bridge uses four switches (S1–S4) arranged around the motor: one p
 
 Flashcards for this section are as follows:
 
-- schematic: H-bridge (four switches S1–S4, motor) <p> ![H-bridge schematic](attachments/h_bridge.svg) ::@:: H-bridge: four switches S1–S4 at the corners, motor between the two mid nodes; Vcc at top, GND at bottom; close one diagonal to drive the motor one way. <!--SR:!2026-06-10,65,310!2026-06-06,62,310-->
-- H-bridge four switches (S1–S4): which pair for one direction? ::@:: Close one diagonal pair (e.g. S1 and S3) for one direction; close the other diagonal (S2 and S4) for the opposite direction. <!--SR:!2026-06-05,61,310!2026-05-28,54,310-->
-- H-bridge current path (one direction): With S1 and S3 closed, how does current flow? (supply, motor, ground) ::@:: From supply through S1, through the motor (e.g. $+$ to $-$ terminal), through S3 to ground. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-28,54,310!2026-05-31,57,310-->
+- schematic: H-bridge (four switches S1–S4, motor) <p> ![H-bridge schematic](attachments/h_bridge.svg) ::@:: H-bridge: four switches S1–S4 at the corners, motor between the two mid nodes; Vcc at top, GND at bottom; close one diagonal to drive the motor one way. <!--SR:!2026-06-10,65,310!fsrs,2027-04-11T01:15:12.421Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:15:12.421Z-->
+- H-bridge four switches (S1–S4): which pair for one direction? ::@:: Close one diagonal pair (e.g. S1 and S3) for one direction; close the other diagonal (S2 and S4) for the opposite direction. <!--SR:!fsrs,2027-04-05T05:33:28.280Z,304,304.30256839,1,2,7,0,0,2026-06-05T05:33:28.280Z!fsrs,2027-03-28T05:33:36.427Z,296,296.09099135,1,2,7,0,0,2026-06-05T05:33:36.427Z-->
+- H-bridge current path (one direction): With S1 and S3 closed, how does current flow? (supply, motor, ground) ::@:: From supply through S1, through the motor (e.g. $+$ to $-$ terminal), through S3 to ground. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-03-28T05:33:26.521Z,296,296.09099135,1,2,7,0,0,2026-06-05T05:33:26.521Z!fsrs,2027-04-02T05:31:37.998Z,301,300.9298194,1,2,7,0,0,2026-06-05T05:31:37.998Z-->
 
 ### hazards
 
@@ -42,8 +42,8 @@ Only one diagonal pair must be closed at a time. Closing both diagonals would sh
 
 Flashcards for this section are as follows:
 
-- H-bridge short hazard: Why must only one diagonal be closed at a time? ::@:: Closing both diagonals or two switches on the same rail would short the supply to ground and damage the circuit. <!--SR:!2026-05-31,57,310!2026-06-05,61,310-->
-- H-bridge same-side hazard: What happens if you close two switches on the same side (e.g. S1 and S2)? ::@:: That shorts the supply to ground; only one diagonal pair must be closed at a time. <!--SR:!2026-06-01,58,310!2026-05-28,54,310-->
+- H-bridge short hazard: Why must only one diagonal be closed at a time? ::@:: Closing both diagonals or two switches on the same rail would short the supply to ground and damage the circuit. <!--SR:!fsrs,2027-04-02T05:33:40.327Z,301,300.9298194,1,2,7,0,0,2026-06-05T05:33:40.327Z!fsrs,2027-04-05T05:33:24.695Z,304,304.30256839,1,2,7,0,0,2026-06-05T05:33:24.695Z-->
+- H-bridge same-side hazard: What happens if you close two switches on the same side (e.g. S1 and S2)? ::@:: That shorts the supply to ground; only one diagonal pair must be closed at a time. <!--SR:!fsrs,2027-04-03T05:33:46.291Z,302,302.49864392,1,2,7,0,0,2026-06-05T05:33:46.291Z!fsrs,2027-03-28T05:33:04.967Z,296,296.09099135,1,2,7,0,0,2026-06-05T05:33:04.967Z-->
 
 ## building an H-bridge with transistors
 
@@ -57,12 +57,12 @@ An **NPN** bipolar junction transistor (BJT) has three terminals: collector (C),
 
 Flashcards for this section are as follows:
 
-- H-bridge transistors: why use saturation? ::@:: Brushed motors need high current; operating the transistors in saturation (fully on) gives maximum collector current for driving the motor. <!--SR:!2026-05-31,57,310!2026-05-31,57,310-->
-- H-bridge layout (course): Where are the PNP and NPN transistors in the course H-bridge? ::@:: Top side of the H (supply to motor): both PNP. Bottom side (motor to ground): both NPN. Left leg has one PNP and one NPN; right leg has one PNP and one NPN. <!--SR:!2026-05-30,56,310!2026-06-07,63,310-->
-- H-bridge why NPN and PNP: Why use two NPN and two PNP (not four of one type)? ::@:: One current path goes from supply (through a PNP on top) to the motor to ground (through an NPN on the bottom). So we need both types: top row PNPs switch the positive rail, bottom row NPNs switch to ground. <!--SR:!2026-05-31,57,310!2026-06-12,67,310-->
+- H-bridge transistors: why use saturation? ::@:: Brushed motors need high current; operating the transistors in saturation (fully on) gives maximum collector current for driving the motor. <!--SR:!fsrs,2027-04-02T05:31:42.192Z,301,300.9298194,1,2,7,0,0,2026-06-05T05:31:42.192Z!fsrs,2027-04-02T05:33:29.080Z,301,300.9298194,1,2,7,0,0,2026-06-05T05:33:29.080Z-->
+- H-bridge layout (course): Where are the PNP and NPN transistors in the course H-bridge? ::@:: Top side of the H (supply to motor): both PNP. Bottom side (motor to ground): both NPN. Left leg has one PNP and one NPN; right leg has one PNP and one NPN. <!--SR:!fsrs,2027-03-31T05:33:10.288Z,299,299.33956763,1,2,7,0,0,2026-06-05T05:33:10.288Z!fsrs,2027-04-16T11:17:33.945Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:33.945Z-->
+- H-bridge why NPN and PNP: Why use two NPN and two PNP (not four of one type)? ::@:: One current path goes from supply (through a PNP on top) to the motor to ground (through an NPN on the bottom). So we need both types: top row PNPs switch the positive rail, bottom row NPNs switch to ground. <!--SR:!fsrs,2027-04-02T05:33:01.351Z,301,300.9298194,1,2,7,0,0,2026-06-05T05:33:01.351Z!2026-06-12,67,310-->
 - NPN in H-bridge: What is an NPN and where is it in the course H-bridge? (C, B, E; bottom) ::@:: NPN: three terminals C, B, E; emitter arrow out. Base HIGH (vs emitter) turns it on; current flows C $\rightarrow$ E. In the course H-bridge both transistors on the **bottom** side (motor to ground) are NPN. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-11,66,310!2026-08-09,103,290-->
-- PNP in H-bridge: What is a PNP and where is it in the course H-bridge? (C, B, E; top) ::@:: PNP: three terminals C, B, E; emitter arrow in. Base LOW (vs emitter) turns it on; current flows E $\rightarrow$ C. In the course H-bridge both transistors on the **top** side (supply to motor) are PNP. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-04,60,310!2026-06-07,63,310-->
-- H-bridge one diagonal path: For one motor direction, what is the current path? (top PNP, bottom NPN) ::@:: Supply $\rightarrow$ PNP (top) $\rightarrow$ motor $\rightarrow$ NPN (bottom) $\rightarrow$ ground. One diagonal (one top PNP and one bottom NPN) is on; the other diagonal is off. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-07,63,310!2026-05-29,55,310-->
+- PNP in H-bridge: What is a PNP and where is it in the course H-bridge? (C, B, E; top) ::@:: PNP: three terminals C, B, E; emitter arrow in. Base LOW (vs emitter) turns it on; current flows E $\rightarrow$ C. In the course H-bridge both transistors on the **top** side (supply to motor) are PNP. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-04T05:33:47.914Z,303,302.80941501,1,2,7,0,0,2026-06-05T05:33:47.914Z!fsrs,2027-04-16T11:17:30.601Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:30.601Z-->
+- H-bridge one diagonal path: For one motor direction, what is the current path? (top PNP, bottom NPN) ::@:: Supply $\rightarrow$ PNP (top) $\rightarrow$ motor $\rightarrow$ NPN (bottom) $\rightarrow$ ground. One diagonal (one top PNP and one bottom NPN) is on; the other diagonal is off. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-16T11:17:33.376Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:33.376Z!fsrs,2027-03-30T05:33:42.042Z,298,297.72694097,1,2,7,0,0,2026-06-05T05:33:42.042Z-->
 
 ### base voltage pattern
 
@@ -72,8 +72,8 @@ The control voltages at the bases (Va, Vb, Vc, Vd) are set as follows: for one d
 
 Flashcards for this section are as follows:
 
-- H-bridge base voltages (Va, Vb, Vc, Vd) for one direction vs opposite: what pattern? ($5\text{ V}$ / $0\text{ V}$) ::@:: One direction: Va and Vd HIGH ($5\text{ V}$), Vb and Vc LOW ($0\text{ V}$). Opposite direction: Vb and Vc HIGH, Va and Vd LOW. <!--SR:!2026-06-07,63,310!2026-06-10,65,310-->
-- H-bridge complementary pairs: What do the four bases need? ::@:: Two complementary pairs of signals: one pair at $5\text{ V}$ / $0\text{ V}$ and the other at $0\text{ V}$ / $5\text{ V}$, so one diagonal is on and the other off. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-07,63,310!2026-06-09,64,310-->
+- H-bridge base voltages (Va, Vb, Vc, Vd) for one direction vs opposite: what pattern? ($5\text{ V}$ / $0\text{ V}$) ::@:: One direction: Va and Vd HIGH ($5\text{ V}$), Vb and Vc LOW ($0\text{ V}$). Opposite direction: Vb and Vc HIGH, Va and Vd LOW. <!--SR:!fsrs,2027-04-16T11:17:29.459Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:29.459Z!2026-06-10,65,310-->
+- H-bridge complementary pairs: What do the four bases need? ::@:: Two complementary pairs of signals: one pair at $5\text{ V}$ / $0\text{ V}$ and the other at $0\text{ V}$ / $5\text{ V}$, so one diagonal is on and the other off. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-16T11:17:31.567Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:31.567Z!2026-06-09,64,310-->
 
 ## single direction (DIR) signal and the need for an inverter
 
@@ -85,9 +85,9 @@ To control the H-bridge with a single **direction (DIR)** signal (e.g. $5\text{ 
 
 Flashcards for this section are as follows:
 
-- why inverter in H-bridge: Why is an inverter needed when controlling the H-bridge with one DIR signal? (one DIR = $5\text{ V}$ or $0\text{ V}$) ::@:: One DIR value drives one diagonal pair; the other diagonal needs the opposite logic level. A single DIR line gives only one level, so an inverter is used to produce the complementary level from that same DIR. <!--SR:!2026-06-05,61,310!2026-06-01,58,310-->
+- why inverter in H-bridge: Why is an inverter needed when controlling the H-bridge with one DIR signal? (one DIR = $5\text{ V}$ or $0\text{ V}$) ::@:: One DIR value drives one diagonal pair; the other diagonal needs the opposite logic level. A single DIR line gives only one level, so an inverter is used to produce the complementary level from that same DIR. <!--SR:!fsrs,2027-04-05T05:33:35.616Z,304,304.30256839,1,2,7,0,0,2026-06-05T05:33:35.616Z!fsrs,2027-04-03T05:33:20.701Z,302,302.49864392,1,2,7,0,0,2026-06-05T05:33:20.701Z-->
 - DIR signal meaning: What do the two values of DIR ($5\text{ V}$ and $0\text{ V}$) represent? ::@:: DIR = $5\text{ V}$ selects one motor direction; DIR = $0\text{ V}$ selects the opposite direction (current through the motor flows the other way). <!--SR:!2026-06-11,66,310!2026-06-10,65,310-->
-- inverter role with DIR: What does the inverter output feed? ::@:: When DIR goes to one diagonal's bases, the inverter output (the opposite logic level) goes to the other diagonal's bases, so both $5\text{ V}$ and $0\text{ V}$ are available from one DIR line. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-09,64,310!2026-06-06,62,310-->
+- inverter role with DIR: What does the inverter output feed? ::@:: When DIR goes to one diagonal's bases, the inverter output (the opposite logic level) goes to the other diagonal's bases, so both $5\text{ V}$ and $0\text{ V}$ are available from one DIR line. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-09,64,310!fsrs,2027-04-11T01:12:40.472Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:12:40.472Z-->
 
 ## 74HC14 hex inverter
 
@@ -99,9 +99,9 @@ The course uses the **74HC14** integrated circuit, a hex inverter: it contains s
 
 Flashcards for this section are as follows:
 
-- 74HC14 what it is: What is the 74HC14? (hex, inverters) ::@:: A hex inverter IC: six independent inverters in one package; each converts LOW $\Rightarrow$ HIGH and HIGH $\Rightarrow$ LOW at its output. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-05-29,55,310!2026-05-30,56,310-->
-- 74HC14 logic: What does each inverter do to its input? (LOW, HIGH) ::@:: INPUT LOW $\Rightarrow$ OUTPUT HIGH; INPUT HIGH $\Rightarrow$ OUTPUT LOW. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-05,61,310!2026-06-06,62,310-->
-- 74HC14 how many inverters needed for two motors: For left and right motor DIR, how many of the six inverters do you use? ::@:: Two (one per motor); the remaining four are unused; choose any two that suit the breadboard layout. <!--SR:!2026-06-06,62,310!2026-06-12,67,310-->
+- 74HC14 what it is: What is the 74HC14? (hex, inverters) ::@:: A hex inverter IC: six independent inverters in one package; each converts LOW $\Rightarrow$ HIGH and HIGH $\Rightarrow$ LOW at its output. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-03-30T05:33:09.286Z,298,297.72694097,1,2,7,0,0,2026-06-05T05:33:09.286Z!fsrs,2027-03-31T05:33:03.856Z,299,299.33956763,1,2,7,0,0,2026-06-05T05:33:03.856Z-->
+- 74HC14 logic: What does each inverter do to its input? (LOW, HIGH) ::@:: INPUT LOW $\Rightarrow$ OUTPUT HIGH; INPUT HIGH $\Rightarrow$ OUTPUT LOW. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-05T05:33:45.475Z,304,304.30256839,1,2,7,0,0,2026-06-05T05:33:45.475Z!fsrs,2027-04-11T01:15:14.318Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:15:14.318Z-->
+- 74HC14 how many inverters needed for two motors: For left and right motor DIR, how many of the six inverters do you use? ::@:: Two (one per motor); the remaining four are unused; choose any two that suit the breadboard layout. <!--SR:!fsrs,2027-04-11T01:15:13.660Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:15:13.660Z!2026-06-12,67,310-->
 
 ### power and pinout
 
@@ -111,10 +111,10 @@ The IC does not generate power: **VCC** (pin 14 for the standard 14-pin package)
 
 Flashcards for this section are as follows:
 
-- schematic: 74HC14 pinout <p> ![74HC14 pinout](attachments/74hc14_pinout.svg) ::@:: 74HC14 hex inverter: 14-pin DIP; pin $7$ = GND, pin $14$ = VCC; pins 1A/1Y, 2A/2Y, etc. for the six inverters. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-11,66,310!2026-06-06,62,310-->
+- schematic: 74HC14 pinout <p> ![74HC14 pinout](attachments/74hc14_pinout.svg) ::@:: 74HC14 hex inverter: 14-pin DIP; pin $7$ = GND, pin $14$ = VCC; pins 1A/1Y, 2A/2Y, etc. for the six inverters. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-11,66,310!fsrs,2027-04-11T01:15:13.004Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:15:13.004Z-->
 - 74HC14 power: Does the 74HC14 generate its own power? What must be connected? (VCC, GND, $5\text{ V}$ in course) ::@:: No; VCC connects to the positive supply (in our course robot, $5\text{ V}$); GND connects to ground. The IC does not generate power. <!--SR:!2026-06-12,67,310!2026-06-10,65,310-->
 - 74HC14 VCC and GND: Can VCC be any voltage? What about GND? ($5\text{ V}$ in course) ::@:: VCC can be connected to any valid supply voltage for the IC (in our course we use $5\text{ V}$); GND must be connected to ground. <!--SR:!2026-06-12,67,310!2026-06-11,66,310-->
-- 74HC14 pin numbering: How are pins identified on the 74HC14? ::@:: Identify the top (e.g. "U" notch); pin 1 is top left; pins run down the left (1–7) and up the right (8–14). <!--SR:!2026-06-10,65,310!2026-05-30,56,310-->
+- 74HC14 pin numbering: How are pins identified on the 74HC14? ::@:: Identify the top (e.g. "U" notch); pin 1 is top left; pins run down the left (1–7) and up the right (8–14). <!--SR:!2026-06-10,65,310!fsrs,2027-03-31T05:33:37.529Z,299,299.33956763,1,2,7,0,0,2026-06-05T05:33:37.529Z-->
 
 ## dual H-bridge motor driver (L293)
 
@@ -154,7 +154,7 @@ In the course project the $12\text{ V}$ motor supply and regulated $5\text{ V}$ 
 
 Flashcards for this section are as follows:
 
-- where 12V and 5V come from in the project: In the robot car circuit, where do $12\text{ V}$ and $5\text{ V}$ come from? ::@:: The unregulated battery rail provides the motor supply and also feeds the LM7805 input. The LM7805 then generates the regulated $5\text{ V}$ rail for the 74HC14 and the L293 logic supply VCC. <!--SR:!2026-05-29,55,310!2026-06-07,63,310--> So $12\text{ V}$ is kept on the motor-power side, while $5\text{ V}$ is used for the logic/control side.
+- where 12V and 5V come from in the project: In the robot car circuit, where do $12\text{ V}$ and $5\text{ V}$ come from? ::@:: The unregulated battery rail provides the motor supply and also feeds the LM7805 input. The LM7805 then generates the regulated $5\text{ V}$ rail for the 74HC14 and the L293 logic supply VCC.  So $12\text{ V}$ is kept on the motor-power side, while $5\text{ V}$ is used for the logic/control side. <!--SR:!fsrs,2027-03-30T05:33:50.813Z,298,297.72694097,1,2,7,0,0,2026-06-05T05:33:50.813Z!fsrs,2027-04-16T11:17:32.238Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:32.238Z-->
 - how many 74HC14 inverters for two motors: How many inverters are needed for left and right motor DIR, and how many 74HC14 ICs? ::@:: Two inverters (one per motor); one 74HC14 package has six inverters, so one physical IC is enough. <!--SR:!2026-11-03,170,310!2026-06-12,67,310-->
 
 ### wiring DIR and inverters
@@ -165,7 +165,7 @@ Two **74HC14** inverters are needed for the two motors (left and right DIR). Con
 
 Flashcards for this section are as follows:
 
-- connecting DIR to L293: How is each motor's DIR signal wired to the L293? ::@:: Feed that motor's DIR line into one 74HC14 inverter input. Then wire the original DIR signal to one L293 direction input and the inverted DIR output to the other direction input of the same H-bridge half. So each motor sees a complementary pair such as $(\text{IN}_1,\text{IN}_2)=(\text{DIR},\overline{\text{DIR}})$. <!--SR:!2026-06-01,58,310!2026-06-10,65,310-->
+- connecting DIR to L293: How is each motor's DIR signal wired to the L293? ::@:: Feed that motor's DIR line into one 74HC14 inverter input. Then wire the original DIR signal to one L293 direction input and the inverted DIR output to the other direction input of the same H-bridge half. So each motor sees a complementary pair such as $(\text{IN}_1,\text{IN}_2)=(\text{DIR},\overline{\text{DIR}})$. <!--SR:!fsrs,2027-04-03T05:31:40.654Z,302,302.49864392,1,2,7,0,0,2026-06-05T05:31:40.654Z!2026-06-10,65,310-->
 
 ## breadboard layout
 
@@ -177,8 +177,8 @@ When building the circuit on a breadboard, keep the $12\text{ V}$ and $5\text{ V
 
 Flashcards for this section are as follows:
 
-- breadboard $12\text{ V}$ vs $5\text{ V}$: Why label the two rails on the breadboard? ::@:: To avoid connecting logic pins to the motor supply or vice versa; wrong connections can damage the ICs. <!--SR:!2026-06-07,63,310!2026-06-07,63,310-->
-- 74HC14 power on breadboard: What must be connected to the 74HC14 for it to work? (VCC, GND, $5\text{ V}$ in course) ::@:: Connect VCC to the regulated $+5\text{ V}$ logic rail and connect GND to the common ground used by that $5\text{ V}$ supply. GND must go to the ground reference, not to $+5\text{ V}$. Without both connections the inverter outputs are undefined. <!--SR:!2026-06-11,66,310!2026-05-29,55,310-->
+- breadboard $12\text{ V}$ vs $5\text{ V}$: Why label the two rails on the breadboard? ::@:: To avoid connecting logic pins to the motor supply or vice versa; wrong connections can damage the ICs. <!--SR:!fsrs,2027-04-16T11:17:32.853Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:32.853Z!fsrs,2027-04-16T11:17:30.042Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:30.042Z-->
+- 74HC14 power on breadboard: What must be connected to the 74HC14 for it to work? (VCC, GND, $5\text{ V}$ in course) ::@:: Connect VCC to the regulated $+5\text{ V}$ logic rail and connect GND to the common ground used by that $5\text{ V}$ supply. GND must go to the ground reference, not to $+5\text{ V}$. Without both connections the inverter outputs are undefined. <!--SR:!2026-06-11,66,310!fsrs,2027-03-30T05:31:44.478Z,298,297.72694097,1,2,7,0,0,2026-06-05T05:31:44.478Z-->
 - keeping H-bridge circuits across labs: Why does the lab ask you to keep the LM7805, L293 and 74HC14 circuits on the same breadboard for future labs? ::@:: Reusing the existing LM7805, L293 and 74HC14 layout avoids repeated rewiring, reduces mistakes, and ensures a stable, known‑good motor‑driver circuit for later labs. <!--SR:!2026-06-12,67,310!2026-11-08,175,310-->
 
 ### pin counts and placement
@@ -189,4 +189,4 @@ The L293 has 8 pins on each side (16 pins total); the 74HC14 has 7 pins on each 
 
 Flashcards for this section are as follows:
 
-- breadboard pin counts: How many pins does the L293 have on each side? The 74HC14? ::@:: L293: 8 pins on each side (16 total). 74HC14: 7 pins on each side (14 total). <!--SR:!2026-06-06,62,310!2026-06-05,61,310-->
+- breadboard pin counts: How many pins does the L293 have on each side? The 74HC14? ::@:: L293: 8 pins on each side (16 total). 74HC14: 7 pins on each side (14 total). <!--SR:!fsrs,2026-12-17T01:12:39.355Z,194,193.65488775,3.24197837,2,7,0,0,2026-06-06T01:12:39.355Z!fsrs,2027-04-05T05:33:08.336Z,304,304.30256839,1,2,7,0,0,2026-06-05T05:33:08.336Z-->

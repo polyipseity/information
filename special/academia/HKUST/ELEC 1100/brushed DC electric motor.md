@@ -21,7 +21,7 @@ A brushed DC electric motor is an electromechanical device that converts electri
 
 Flashcards for this section are as follows:
 
-- motor definition: What does a motor do? ::@:: A motor converts electrical energy into mechanical energy (e.g. rotation). <!--SR:!2026-06-07,63,310!2026-06-10,65,310-->
+- motor definition: What does a motor do? ::@:: A motor converts electrical energy into mechanical energy (e.g. rotation). <!--SR:!fsrs,2027-04-20T02:02:24.728Z,316,315.61032191,1,2,7,0,0,2026-06-08T02:02:24.728Z!2026-06-10,65,310-->
 - generator vs motor: What is the reverse of a motor? ::@:: A generator converts mechanical energy into electrical energy; same device principle, opposite energy flow. <!--SR:!2026-06-12,67,310!2026-06-11,66,310-->
 - power equivalence: Electrical power is voltage $\times$ current; mechanical power is rotating speed $\times$ torque. ::@:: $P_{\text{elec}}=VI$; $P_{\text{mech}}=\omega\times\tau$ (speed $\times$ torque) for rotational output. <!--SR:!2027-01-23,238,330!2026-06-12,67,310-->
 - brushed DC motor in ELEC 1100: Which motor type is used in labs and project? ::@:: Brushed DC motors are used in ELEC 1100 labs and the robot project. <!--SR:!2027-02-17,258,330!2027-01-31,246,330-->
@@ -48,7 +48,7 @@ Electric motors are classified by power source: **DC motors** are powered by dir
 Flashcards for this section are as follows:
 
 - classification by power source: How are motors classified by power source? ::@:: DC motors use direct current; AC motors use alternating current. <!--SR:!2027-01-17,232,330!2026-06-12,67,310-->
-- DC motor types: What are the main DC motor types? ::@:: Brushed (commutator and brushes), brushless (electronic commutation), and stepper motors. <!--SR:!2026-06-07,63,310!2027-02-10,252,330-->
+- DC motor types: What are the main DC motor types? ::@:: Brushed (commutator and brushes), brushless (electronic commutation), and stepper motors. <!--SR:!fsrs,2027-04-20T02:05:04.877Z,316,315.61032191,1,2,7,0,0,2026-06-08T02:05:04.877Z!2027-02-10,252,330-->
 - ELEC 1100 motor choice: Why use brushed DC motors in the course? ::@:: Brushed DC motors are straightforward to drive with an H-bridge and a single DC supply; they are used in labs and the robot project. <!--SR:!2027-01-28,243,330!2026-06-11,66,310-->
 
 ## origin and history
@@ -60,7 +60,7 @@ The first DC motor was demonstrated by Michael Faraday in 1821, one year after H
 Flashcards for this section are as follows:
 
 - Faraday DC motor: When and by whom was the first DC motor demonstrated? ::@:: Michael Faraday demonstrated the first DC motor in 1821, one year after Oersted's discovery of electromagnetism. <!--SR:!2026-06-10,65,310!2026-06-12,67,310-->
-- AC motors and Tesla: When did AC motors become practical and who is associated with their principle? ::@:: AC motors became practical in the 1890s with AC power; Nikola Tesla identified the principle of the rotating magnetic field for AC motors. <!--SR:!2027-02-12,255,330!2026-06-06,62,310-->
+- AC motors and Tesla: When did AC motors become practical and who is associated with their principle? ::@:: AC motors became practical in the 1890s with AC power; Nikola Tesla identified the principle of the rotating magnetic field for AC motors. <!--SR:!2027-02-12,255,330!fsrs,2027-04-11T01:08:45.478Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:08:45.478Z-->
 
 ## magnetic basics
 
@@ -86,7 +86,7 @@ A **permanent magnet** has fixed N and S positions and produces a magnetic field
 
 Flashcards for this section are as follows:
 
-- permanent magnet: What is a permanent magnet and can it be turned off? ::@:: A permanent magnet has fixed N and S poles and a fixed field from N to S; it cannot be turned off. <!--SR:!2027-01-30,245,330!2026-06-05,61,310-->
+- permanent magnet: What is a permanent magnet and can it be turned off? ::@:: A permanent magnet has fixed N and S poles and a fixed field from N to S; it cannot be turned off. <!--SR:!2027-01-30,245,330!fsrs,2027-04-05T11:18:54.909Z,304,304.30256839,1,2,7,0,0,2026-06-05T11:18:54.909Z-->
 
 ### electromagnet and right-hand rule
 
@@ -96,9 +96,9 @@ An **electromagnet** is made by passing current through a wire (often wound as a
 
 Flashcards for this section are as follows:
 
-- electromagnet: How does an electromagnet differ from a permanent magnet? ::@:: An electromagnet's N/S poles are set by the direction of current through the wire; it can be turned on/off and its polarity reversed by changing the current. <!--SR:!2026-06-10,65,310!2026-06-06,62,310-->
-- right-hand rule: What is the right-hand rule used for in motor context? ::@:: To find the direction of the magnetic field produced by a current-carrying wire (or solenoid). <!--SR:!2026-06-06,62,310!2027-02-10,253,330-->
-- applying the right-hand rule (straight wire): How do you use the right-hand rule for a straight current-carrying wire? ::@:: Point the right thumb in the direction of conventional current; the fingers curl in the direction of the magnetic field around the wire. <!--SR:!2026-06-05,61,310!2026-06-06,62,310-->
+- electromagnet: How does an electromagnet differ from a permanent magnet? ::@:: An electromagnet's N/S poles are set by the direction of current through the wire; it can be turned on/off and its polarity reversed by changing the current. <!--SR:!2026-06-10,65,310!fsrs,2027-04-11T01:08:46.473Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:08:46.473Z-->
+- right-hand rule: What is the right-hand rule used for in motor context? ::@:: To find the direction of the magnetic field produced by a current-carrying wire (or solenoid). <!--SR:!fsrs,2027-04-11T01:08:44.507Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:08:44.507Z!2027-02-10,253,330-->
+- applying the right-hand rule (straight wire): How do you use the right-hand rule for a straight current-carrying wire? ::@:: Point the right thumb in the direction of conventional current; the fingers curl in the direction of the magnetic field around the wire. <!--SR:!fsrs,2027-04-05T11:18:52.151Z,304,304.30256839,1,2,7,0,0,2026-06-05T11:18:52.151Z!fsrs,2027-04-11T01:08:48.501Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:08:48.501Z-->
 - applying the right-hand rule (solenoid): How do you use the right-hand rule for a solenoid to find which end is north? ::@:: Grip the coil with the right hand so the fingers follow the current direction along the turns; the thumb points toward the north pole of the electromagnet. <!--SR:!2027-02-14,255,330!2027-01-22,237,330-->
 
 ## stator and rotor interaction
@@ -121,8 +121,8 @@ When power is applied, current in the rotor creates a magnetic field; the rotor'
 
 Flashcards for this section are as follows:
 
-- why rotor turns: Why does the rotor rotate when power is applied? ::@:: The rotor's magnetic field interacts with the stator's; opposite poles attract and like poles repel, producing a torque that rotates the rotor. <!--SR:!2026-06-07,63,310!2026-06-07,63,310-->
-- reversing rotor polarity: Why do we reverse the current (and thus polarity) in the rotor? ::@:: After the rotor overshoots (due to inertia), reversing the rotor's polarity keeps the torque in the same rotational direction so the motor continues spinning. <!--SR:!2026-06-05,61,310!2026-06-12,67,310-->
+- why rotor turns: Why does the rotor rotate when power is applied? ::@:: The rotor's magnetic field interacts with the stator's; opposite poles attract and like poles repel, producing a torque that rotates the rotor. <!--SR:!fsrs,2027-04-20T02:05:02.096Z,316,315.61032191,1,2,7,0,0,2026-06-08T02:05:02.096Z!fsrs,2027-04-20T02:05:03.340Z,316,315.61032191,1,2,7,0,0,2026-06-08T02:05:03.340Z-->
+- reversing rotor polarity: Why do we reverse the current (and thus polarity) in the rotor? ::@:: After the rotor overshoots (due to inertia), reversing the rotor's polarity keeps the torque in the same rotational direction so the motor continues spinning. <!--SR:!fsrs,2027-04-05T11:18:56.646Z,304,304.30256839,1,2,7,0,0,2026-06-05T11:18:56.646Z!2026-06-12,67,310-->
 - inertia in motor: What role does inertia play in a simple motor? ::@:: The rotor overshoots the aligned position; then reversing the rotor's magnetic polarity keeps it spinning in the same direction. <!--SR:!2027-01-21,236,330!2026-06-10,65,310-->
 
 ## commutation and brushed construction
@@ -136,7 +136,7 @@ The switching of the magnetic field in the rotor (reversing current direction) i
 Flashcards for this section are as follows:
 
 - commutation definition: What is commutation in a DC motor? ::@:: Commutation is the switching of the magnetic field in the rotor by reversing the current direction in the rotor windings at the right moments. <!--SR:!2026-06-12,67,310!2026-06-11,66,310-->
-- why mechanical commutation: Why can't a DC source alone reverse the rotor current? ::@:: A DC source provides current in one direction; we need a mechanism (commutator and brushes) to switch which part of the rotor sees which polarity so the rotor keeps turning. <!--SR:!2027-02-05,248,330!2026-06-06,62,310-->
+- why mechanical commutation: Why can't a DC source alone reverse the rotor current? ::@:: A DC source provides current in one direction; we need a mechanism (commutator and brushes) to switch which part of the rotor sees which polarity so the rotor keeps turning. <!--SR:!2027-02-05,248,330!fsrs,2027-04-11T01:08:47.299Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:08:47.299Z-->
 - commutator and brushes: What are the commutator and brushes in a brushed motor? ::@:: The commutator is a rotating part (e.g. copper sleeve with segments) that rotates with the rotor; the brushes are fixed carbon contacts that slide on the commutator and connect the supply to different segments as the rotor turns. <!--SR:!2027-01-24,239,330!2027-01-26,241,330-->
 - brushed motor current path: Where is the current from the DC supply in one direction, and where is it switched? ::@:: At the brushes the current from the DC source is in one direction; the commutator and brushes switch which rotor segments are connected so that the effective current in the rotor windings reverses as it rotates. <!--SR:!2026-12-01,185,310!2026-06-11,66,310-->
 
@@ -149,7 +149,7 @@ To change the rotation direction of a brushed DC motor we change the direction o
 Flashcards for this section are as follows:
 
 - how to reverse motor direction: How do we change the rotation direction of a brushed DC motor? ::@:: Change the direction of current through the motor (reverse the applied voltage polarity); the rotor's magnetic field then opposes the stator in the opposite sense, so the motor reverses. <!--SR:!2026-06-10,65,310!2027-01-30,245,330-->
-- H-bridge and direction: How does the H-bridge change motor direction? ::@:: The H-bridge reverses the voltage (and current) across the motor by closing one diagonal pair of switches for one direction and the other diagonal for the opposite direction. <!--SR:!2026-06-07,63,310!2027-02-15,256,330-->
+- H-bridge and direction: How does the H-bridge change motor direction? ::@:: The H-bridge reverses the voltage (and current) across the motor by closing one diagonal pair of switches for one direction and the other diagonal for the opposite direction. <!--SR:!fsrs,2027-04-20T02:02:25.812Z,316,315.61032191,1,2,7,0,0,2026-06-08T02:02:25.812Z!2027-02-15,256,330-->
 - DIR signal: What does the DIR signal (e.g. $5\text{ V}$ or $0\text{ V}$) control in the H-bridge motor circuit? ::@:: DIR selects which diagonal of the H-bridge is on, hence the direction of current through the motor and thus the rotation direction (clockwise or anti-clockwise). <!--SR:!2027-02-12,255,330!2027-01-16,231,330-->
 
 ## speed control and limitations of variable resistor
@@ -163,7 +163,7 @@ Besides direction, we need to control **motor speed**. Speed can be influenced b
 Flashcards for this section are as follows:
 
 - how to control motor speed: What two factors affect motor speed in principle? ::@:: Strength of the magnetic field: more coils or higher voltage (larger current) generally give higher speed. <!--SR:!2027-02-18,259,330!2027-02-06,249,330-->
-- why control voltage for speed: Why is motor speed usually controlled by changing voltage? ::@:: The number of coils in a built motor is fixed; changing the supply voltage (and thus current) is the practical way to vary speed. <!--SR:!2026-06-05,61,310!2026-06-11,66,310-->
+- why control voltage for speed: Why is motor speed usually controlled by changing voltage? ::@:: The number of coils in a built motor is fixed; changing the supply voltage (and thus current) is the practical way to vary speed. <!--SR:!fsrs,2027-04-05T11:18:50.640Z,304,304.30256839,1,2,7,0,0,2026-06-05T11:18:50.640Z!2026-06-11,66,310-->
 
 ### variable resistor, drawbacks, and PWM
 
@@ -174,5 +174,5 @@ One simple method is a **variable resistor** in series with the motor: reducing 
 Flashcards for this section are as follows:
 
 - variable resistor for speed: How does a variable resistor in series with the motor affect speed? ::@:: A smaller series resistor leaves more voltage across the motor, so current and speed increase; a larger resistor reduces voltage across the motor and slows it down. <!--SR:!2026-06-11,66,310!2027-01-25,240,330-->
-- disadvantages of variable resistor speed control: What are the drawbacks of using a variable resistor for motor speed control? ::@:: Inefficient (energy wasted as heat in the resistor, especially at low speeds); difficult to control precisely; requires mechanical adjustment, not computer-friendly. <!--SR:!2026-06-05,61,310!2027-01-29,244,330-->
+- disadvantages of variable resistor speed control: What are the drawbacks of using a variable resistor for motor speed control? ::@:: Inefficient (energy wasted as heat in the resistor, especially at low speeds); difficult to control precisely; requires mechanical adjustment, not computer-friendly. <!--SR:!fsrs,2027-04-05T11:18:49.328Z,304,304.30256839,1,2,7,0,0,2026-06-05T11:18:49.328Z!2027-01-29,244,330-->
 - next topic (PWM): What is used in the course for efficient motor speed control? ::@:: Pulse-width modulation (PWM), covered in the next lecture; it is efficient, precise, and software-controllable. <!--SR:!2026-06-12,67,310!2026-11-20,174,310-->

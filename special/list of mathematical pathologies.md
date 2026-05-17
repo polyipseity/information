@@ -40,7 +40,7 @@ The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = 
 
 - derivative
   - derivative integrability
-    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on $[0, 1]$. Pathologically, the derivative exists everywhere and is [bounded](bounded%20function.md). <!--SR:!2027-06-07,716,306!2026-06-08,552,326-->
+    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on $[0, 1]$. Pathologically, the derivative exists everywhere and is [bounded](bounded%20function.md). <!--SR:!2027-06-07,716,306!fsrs,2032-05-26T09:43:18.563Z,2179,2178.64779769,1,2,10,0,0,2026-06-08T09:43:18.563Z-->
 
 ### empty function
 

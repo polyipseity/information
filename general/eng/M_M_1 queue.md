@@ -17,7 +17,7 @@ tags:
 >
 > {@{An M/M/1 queueing node}@} <!--SR:!2026-08-09,311,350!2029-07-24,1148,350-->
 
-In {@{[queueing theory](queueing%20theory.md), a discipline within the mathematical [theory of probability](probability%20theory.md)}@}, {@{an __M/M/1 queue__}@} represents {@{the queue length in a system having a single server}@}, where {@{arrivals are determined by a [Poisson process](Poisson%20process.md) and job service times have an [exponential distribution](exponential%20distribution.md)}@}. The model name is written in {@{[Kendall's notation](Kendall's%20notation.md)}@}. The model is {@{the most elementary of queueing models<sup>[\[1\]](#^ref-1)</sup> and an attractive object of study}@} as {@{[closed-form expressions](closed-form%20expression.md) can be obtained for many metrics of interest in this model}@}. {@{An extension of this model with more than one server}@} is {@{the [M/M/c queue](M_M_c%20queue.md)}@}. <!--SR:!2026-08-08,310,350!2026-06-05,255,330!2029-07-07,1134,350!2026-07-24,298,350!2026-08-05,307,350!2029-07-20,1144,350!2029-07-04,1131,350!2029-06-04,1103,350!2029-04-22,1075,350-->
+In {@{[queueing theory](queueing%20theory.md), a discipline within the mathematical [theory of probability](probability%20theory.md)}@}, {@{an __M/M/1 queue__}@} represents {@{the queue length in a system having a single server}@}, where {@{arrivals are determined by a [Poisson process](Poisson%20process.md) and job service times have an [exponential distribution](exponential%20distribution.md)}@}. The model name is written in {@{[Kendall's notation](Kendall's%20notation.md)}@}. The model is {@{the most elementary of queueing models<sup>[\[1\]](#^ref-1)</sup> and an attractive object of study}@} as {@{[closed-form expressions](closed-form%20expression.md) can be obtained for many metrics of interest in this model}@}. {@{An extension of this model with more than one server}@} is {@{the [M/M/c queue](M_M_c%20queue.md)}@}. <!--SR:!2026-08-08,310,350!fsrs,2029-07-05T11:16:29.174Z,1126,1126.27892251,1,2,9,0,0,2026-06-05T11:16:29.174Z!2029-07-07,1134,350!2026-07-24,298,350!2026-08-05,307,350!2029-07-20,1144,350!2029-07-04,1131,350!2029-06-04,1103,350!2029-04-22,1075,350-->
 
 ## model definition
 
@@ -43,7 +43,7 @@ The model is considered {@{stable only if λ \< μ}@}. If, {@{on average, arriva
 
 ### average number of customers in the system
 
-We see that {@{the number of customers in the system}@} is {@{[geometrically distributed](geometric%20distribution.md) \(annotation: unshifted, i.e. includes $i = 0$\) with parameter 1 − _ρ_}@}. Thus {@{the average number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)}@} and {@{the variance of number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)<sup>2</sup>}@}. This result holds for {@{any work conserving service regime, such as processor sharing}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-07-17,1142,350!2029-08-10,1163,350!2029-05-04,1085,350!2026-08-02,305,350!2028-05-19,786,330!2026-06-05,255,330!2029-07-05,1134,350-->
+We see that {@{the number of customers in the system}@} is {@{[geometrically distributed](geometric%20distribution.md) \(annotation: unshifted, i.e. includes $i = 0$\) with parameter 1 − _ρ_}@}. Thus {@{the average number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)}@} and {@{the variance of number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)<sup>2</sup>}@}. This result holds for {@{any work conserving service regime, such as processor sharing}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-07-17,1142,350!2029-08-10,1163,350!2029-05-04,1085,350!2026-08-02,305,350!2028-05-19,786,330!fsrs,2029-07-05T11:16:32.525Z,1126,1126.27892251,1,2,9,0,0,2026-06-05T11:16:32.525Z!2029-07-05,1134,350-->
 
 ### busy period of server
 
@@ -53,7 +53,7 @@ We see that {@{the number of customers in the system}@} is {@{[geometrically dis
 
 ### response time
 
-{@{The average response time or sojourn time}@} \(total time {@{a customer spends in the system}@}\) {@{does not depend on scheduling discipline}@} and can be {@{computed using [Little's law](Little's%20law.md)}@} as {@{1/\(_μ_ − _λ_\)}@}. {@{The average time spent waiting}@} is {@{1/\(_μ_ − _λ_\) − 1/<!-- markdown separator -->_μ_ = _ρ_<!-- markdown separator -->/\(_μ_ − _λ_\)}@}. {@{The distribution of response times experienced}@} {@{does depend on scheduling discipline}@}. <!--SR:!2026-07-29,302,350!2026-08-01,304,350!2026-08-07,309,350!2026-07-01,276,330!2029-07-18,1143,350!2029-07-05,1132,350!2026-06-05,255,330!2029-06-19,1118,350!2029-07-13,1138,350-->
+{@{The average response time or sojourn time}@} \(total time {@{a customer spends in the system}@}\) {@{does not depend on scheduling discipline}@} and can be {@{computed using [Little's law](Little's%20law.md)}@} as {@{1/\(_μ_ − _λ_\)}@}. {@{The average time spent waiting}@} is {@{1/\(_μ_ − _λ_\) − 1/<!-- markdown separator -->_μ_ = _ρ_<!-- markdown separator -->/\(_μ_ − _λ_\)}@}. {@{The distribution of response times experienced}@} {@{does depend on scheduling discipline}@}. <!--SR:!2026-07-29,302,350!2026-08-01,304,350!2026-08-07,309,350!2026-07-01,276,330!2029-07-18,1143,350!2029-07-05,1132,350!fsrs,2029-07-05T11:16:30.660Z,1126,1126.27892251,1,2,9,0,0,2026-06-05T11:16:30.660Z!2029-06-19,1118,350!2029-07-13,1138,350-->
 
 #### first-come, first-served discipline
 
@@ -71,7 +71,7 @@ We can write {@{a [probability mass function](probability%20mass%20function.md) 
 
 ## diffusion approximation
 
-When {@{the utilization _ρ_ is close to 1}@} the process can be {@{approximated by a [reflected Brownian motion](reflected%20Brownian%20motion.md)}@} with {@{drift parameter _λ_ – _μ_ and variance parameter _λ_ + _μ_}@}. {@{This heavy traffic limit}@} was first {@{introduced by [John Kingman](John%20Kingman.md)}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-03-21,1048,350!2026-06-05,255,330!2029-04-23,1075,350!2029-08-10,1163,350!2029-06-17,1116,350-->
+When {@{the utilization _ρ_ is close to 1}@} the process can be {@{approximated by a [reflected Brownian motion](reflected%20Brownian%20motion.md)}@} with {@{drift parameter _λ_ – _μ_ and variance parameter _λ_ + _μ_}@}. {@{This heavy traffic limit}@} was first {@{introduced by [John Kingman](John%20Kingman.md)}@}.<sup>[\[20\]](#^ref-20)</sup> <!--SR:!2029-03-21,1048,350!fsrs,2029-07-05T11:16:31.587Z,1126,1126.27892251,1,2,9,0,0,2026-06-05T11:16:31.587Z!2029-04-23,1075,350!2029-08-10,1163,350!2029-06-17,1116,350-->
 
 ## references
 

@@ -75,7 +75,7 @@ See also [Vim help files](https://vimhelp.org/).
 - delete lines ::@:: \[[repeat N](#^repeatN)\]dd <!--SR:!2028-09-23,1610,353!2035-11-25,3606,348-->
 - undo ::@:: \[[repeat N](#^repeatN)\]u <!--SR:!2028-12-13,1627,333!2031-11-11,2215,333-->
 - restore last changed line ::@:: U <!--SR:!2036-02-15,3570,333!2036-08-30,3836,348-->
-- copy from cursor to (motion) into \["register=(latest)\] ::@:: \["register\]y(motion) <!--SR:!2026-06-07,783,273!2026-08-30,921,328-->
+- copy from cursor to (motion) into \["register=(latest)\] ::@:: \["register\]y(motion) <!--SR:!fsrs,2033-02-14T02:05:44.891Z,2443,2442.56315879,2.83083076,2,11,0,0,2026-06-08T02:05:44.891Z!2026-08-30,921,328-->
 - paste \["register=(latest)\] after cursor ::@:: \[[repeat N](#^repeatN)\]\["register\]p <!--SR:!2035-09-08,3528,347!2029-05-25,1822,368-->
 - paste \["register=(latest)\] before cursor ::@:: \[[repeat N](#^repeatN)\]\["register\]P <!--SR:!2026-12-25,1077,333!2035-07-25,3505,347-->
 

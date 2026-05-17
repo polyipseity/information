@@ -80,7 +80,7 @@ Important: the cash flow statement {@{only considers the exchange of __actual__ 
 
 The statement of financial performance is also called {@{income statement, profit & loss (p&l) statement, or statement of operations}@}. <!--SR:!2028-07-11,1070,355-->
 
-The statement of profit or income statement represents {@{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2028-05-05,957,330!2026-09-05,532,310!2026-05-21,461,310-->
+The statement of profit or income statement represents {@{the changes in value of a company's [accounts](account%20(bookkeeping).md) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2028-05-05,957,330!2026-09-05,532,310!fsrs,2031-05-01T05:24:24.537Z,1791,1790.51063212,1,2,10,0,0,2026-06-05T05:24:24.537Z-->
 
 The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}@} <!--SR:!2026-09-02,472,250-->
 
@@ -152,7 +152,7 @@ Objectives include:
 
 The {@{[accounting equation](accounting%20equation.md) ([Assets](asset.md) = [Liabilities](liability%20(financial%20accounting).md) + [Owners' Equity](equity%20(finance).md)) and financial statements}@} are the main topics of financial accounting. <!--SR:!2029-02-15,1258,350-->
 
-{@{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}@}, forms {@{the basis for preparing the financial statements}@}. All the figures in the trial balance are {@{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}@}. Accounting standards {@{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}@}. Financial statements display {@{the income and expenditure for the company}@} and a summary of {@{the assets, liabilities, and shareholders' or owners' equity of the company}@} on {@{the date to which the accounts were prepared}@}. <!--SR:!2027-04-04,712,330!2026-05-21,463,310!2027-02-08,671,330!2026-11-14,606,330!2026-11-18,296,250!2030-04-24,1492,388!2027-07-24,518,406-->
+{@{The [trial balance](trial%20balance.md) (i.e. finding the current balances of all accounts), which is usually prepared using the [double-entry accounting system](double-entry%20bookkeeping.md)}@}, forms {@{the basis for preparing the financial statements}@}. All the figures in the trial balance are {@{rearranged to prepare a [profit & loss statement](income%20statement.md) and [balance sheet](balance%20sheet.md)}@}. Accounting standards {@{determine the format for these accounts ([SSAP](Generally%20Accepted%20Accounting%20Practice%20(UK).md), FRS, [IFRS](International%20Financial%20Reporting%20Standards.md))}@}. Financial statements display {@{the income and expenditure for the company}@} and a summary of {@{the assets, liabilities, and shareholders' or owners' equity of the company}@} on {@{the date to which the accounts were prepared}@}. <!--SR:!2027-04-04,712,330!fsrs,2031-05-07T05:24:22.735Z,1797,1797.17880737,1,2,10,0,0,2026-06-05T05:24:22.735Z!2027-02-08,671,330!2026-11-14,606,330!2026-11-18,296,250!2030-04-24,1492,388!2027-07-24,518,406-->
 
 {@{[Asset](asset.md), [expense](expense.md), and [dividend](dividend.md) accounts}@} have {@{normal debit balances (i.e., debiting these types of accounts increases them)}@}. <!--SR:!2029-03-24,1288,350!2030-05-02,1560,330-->
 
@@ -199,7 +199,7 @@ However, there are {@{instances of accounts, known as contra-accounts}@} \({@{co
 - [DIRTI 5](DIRTI%205.md)
 - [historical cost accounting](historical%20cost.md)
 - [philosophy of accounting](philosophy%20of%20accounting.md)
-- [accounting analyst](accounting%20analyst.md), ... ::@:: whose job involves evaluating public company financial statements <!--SR:!2026-06-08,475,310!2031-03-30,1819,330-->
+- [accounting analyst](accounting%20analyst.md), ... ::@:: whose job involves evaluating public company financial statements <!--SR:!fsrs,2031-05-17T16:35:40.797Z,1805,1805.36715485,1,2,10,0,0,2026-06-07T16:35:40.797Z!2031-03-30,1819,330-->
 - [management accounting](management%20accounting.md), ... ::@:: the other main division of accounting <!--SR:!2028-05-30,1054,350!2027-09-22,842,330-->
 - [bookkeeping](bookkeeping.md)
 

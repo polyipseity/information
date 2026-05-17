@@ -72,7 +72,7 @@ In this example, we have
 The algorithm has {@{two steps, \(1\) a value update and \(2\) a policy update}@}, which are {@{repeated in some order for all the states until no further changes take place}@}. Both {@{recursively update a new estimation of the optimal policy and state value}@} using {@{an older estimation of those values}@}. <!--SR:!2030-02-12,1488,369!2030-01-04,1449,369!2030-07-17,1618,369!2029-11-16,1426,369-->
 
 - value update ::@:: $$V(s):=\sum _{s'}P_{\pi (s)}(s,s')\left(R_{\pi (s)}(s,s')+\gamma V(s')\right)$$ <!--SR:!2027-02-12,545,272!2029-06-07,1219,312-->
-- policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$ <!--SR:!2026-06-08,362,270!2026-09-04,462,312-->
+- policy update ::@:: $$\pi (s):=\operatorname {argmax} _{a}\left\{\sum _{s'}P_{a}(s,s')\left(R_{a}(s,s')+\gamma V(s')\right)\right\}$$ <!--SR:!fsrs,2029-10-09T01:35:23.595Z,1219,1219.18997406,2.98092302,2,10,0,0,2026-06-08T01:35:23.595Z!2026-09-04,462,312-->
 
 {@{Their order}@} depends on {@{the variant of the algorithm}@}; one can also {@{do them for all states at once or state by state}@}, and {@{more often to some states than others}@}. As long as {@{no state is permanently excluded from either of the steps}@}, {@{the algorithm will eventually arrive at the correct solution}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2030-08-03,1631,369!2027-11-10,762,329!2030-05-04,1557,369!2030-01-17,1462,369!2028-05-07,774,425!2028-03-14,729,425-->
 

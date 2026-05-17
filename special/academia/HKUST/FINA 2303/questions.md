@@ -244,7 +244,7 @@ tags:
 > 2. No
 >
 > - solution: {@{2}@}
-> - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@} <!--SR:!2026-06-10,370,373!2026-06-07,367,373-->
+> - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@} <!--SR:!2026-06-10,370,373!fsrs,2031-03-31T10:11:18.730Z,1757,1756.92682354,1,2,10,0,0,2026-06-08T10:11:18.730Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -302,7 +302,7 @@ tags:
 > 2. Bank B
 > 3. They are the same
 >
-> - solution: {@{1}@} <!--SR:!2026-06-08,368,373-->
+> - solution: {@{1}@} <!--SR:!fsrs,2031-04-01T10:11:14.885Z,1758,1758.37829393,1,2,10,0,0,2026-06-08T10:11:14.885Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -315,7 +315,7 @@ tags:
 > 3. 360
 > 4. 372
 >
-> - solution: {@{3}@} <!--SR:!2026-06-05,365,373-->
+> - solution: {@{3}@} <!--SR:!fsrs,2031-03-21T01:12:36.383Z,1749,1748.64073829,1,2,10,0,0,2026-06-06T01:12:36.383Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -327,7 +327,7 @@ tags:
 > 4. 6.00%
 >
 > - solution: {@{3}@}
-> - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@} <!--SR:!2026-06-06,366,373!2026-06-12,372,373-->
+> - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@} <!--SR:!fsrs,2031-03-22T01:11:23.053Z,1750,1750.09259066,1,2,10,0,0,2026-06-06T01:11:23.053Z!2026-06-12,372,373-->
 
 ## week 4 lecture
 

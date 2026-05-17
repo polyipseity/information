@@ -33,7 +33,7 @@ Z3 was developed in {@{the _Research in Software Engineering_ \(RiSE\) group}@} 
 
 Z3 was {@{open sourced in the beginning of 2015}@}.<sup>[\[3\]](#^ref-3)</sup> The source code is licensed under {@{[MIT License](MIT%20License.md)}@} and hosted on {@{[GitHub](GitHub.md)}@}.<sup>[\[4\]](#^ref-4)</sup> The solver can be built using {@{[Visual Studio](Visual%20Studio.md), a [makefile](makefile.md#makefile) or using [CMake](CMake.md)}@} and runs on {@{[Windows](Microsoft%20Windows.md), [FreeBSD](FreeBSD.md), [Linux](Linux.md), and [macOS](macOS.md)}@}. <!--SR:!2026-06-26,279,330!2029-02-19,1032,350!2029-06-12,1125,350!2026-06-11,268,330!2029-09-16,1200,350-->
 
-{@{The default input format}@} for Z3 is {@{[SMTLIB2](smt2%20(file%20format).md#verification)}@}. It also has officially supported {@{[bindings](language%20binding.md) for several [programming languages](programming%20language.md)}@}, including {@{[C](C%20(programming%20language).md), [C++](C++.md), [Python](Python%20(programming%20language).md), [.NET](.NET.md), [Java](Java%20(programming%20language).md), and [OCaml](OCaml.md)}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-07-02,285,330!2026-06-19,275,330!2028-09-19,879,330!2026-06-08,266,330-->
+{@{The default input format}@} for Z3 is {@{[SMTLIB2](smt2%20(file%20format).md#verification)}@}. It also has officially supported {@{[bindings](language%20binding.md) for several [programming languages](programming%20language.md)}@}, including {@{[C](C%20(programming%20language).md), [C++](C++.md), [Python](Python%20(programming%20language).md), [.NET](.NET.md), [Java](Java%20(programming%20language).md), and [OCaml](OCaml.md)}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-07-02,285,330!2026-06-19,275,330!2028-09-19,879,330!fsrs,2029-08-19T01:22:04.048Z,1168,1168.38706892,1,2,9,0,0,2026-06-08T01:22:04.048Z-->
 
 ## examples
 
@@ -87,7 +87,7 @@ The following script solves {@{the two given equations}@}, finding {@{suitable v
 > {@{(assert (= (+ a (* 2 b)) 10))}@}
 > {@{(check-sat)}@}
 > {@{(get-model)}@}
-> </pre> <!--SR:!2029-04-23,1085,350!2026-06-07,265,330!2029-07-19,1147,350!2029-07-02,1140,350!2026-06-21,276,330!2029-08-15,1174,350-->
+> </pre> <!--SR:!2029-04-23,1085,350!fsrs,2029-08-15T11:18:11.321Z,1165,1164.5679841,1,2,9,0,0,2026-06-07T11:18:11.321Z!2029-07-19,1147,350!2029-07-02,1140,350!2026-06-21,276,330!2029-08-15,1174,350-->
 
 Result: \(annotation: {@{`sat`}@}\) <!--SR:!2029-07-25,1153,350-->
 

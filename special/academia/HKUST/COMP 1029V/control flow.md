@@ -31,9 +31,9 @@ Else
 End If
 ```
 
-{@{The semantics of `If...Then...Else...End If`}@} is also obvious: If {@{the condition is `True`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that {@{the condition itself is always executed}@}. <!--SR:!2027-12-22,1081,341!2026-06-05,96,381!2026-06-05,96,381!2027-10-08,493,401-->
+{@{The semantics of `If...Then...Else...End If`}@} is also obvious: If {@{the condition is `True`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that {@{the condition itself is always executed}@}. <!--SR:!2027-12-22,1081,341!fsrs,2027-12-09T11:16:02.050Z,552,552.195452,1,2,8,0,0,2026-06-05T11:16:02.050Z!fsrs,2027-12-09T11:16:04.011Z,552,552.195452,1,2,8,0,0,2026-06-05T11:16:04.011Z!2027-10-08,493,401-->
 
-In VBA, one usually does not {@{chain `If...Then...Else...End If`}@}. Instead, VBA provides {@{the keyword `ElseIf...Then`}@} so that {@{`If...Then...ElseIf...Then...Else...End If` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2031-08-25,2032,321!2026-06-06,97,381!2026-06-05,96,381-->
+In VBA, one usually does not {@{chain `If...Then...Else...End If`}@}. Instead, VBA provides {@{the keyword `ElseIf...Then`}@} so that {@{`If...Then...ElseIf...Then...Else...End If` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2031-08-25,2032,321!fsrs,2027-12-15T05:57:08.226Z,557,557.11747818,1,2,8,0,0,2026-06-06T05:57:08.226Z!fsrs,2027-12-09T11:16:04.997Z,552,552.195452,1,2,8,0,0,2026-06-05T11:16:04.997Z-->
 
 ```VB
 If condition1 Then
@@ -85,9 +85,9 @@ Do
 Loop While condition
 ```
 
-The semantics of {@{`Do...Loop While`}@} is that {@{the statement block is executed}@} first. Then {@{the condition is executed}@}. If {@{the condition is `True`, we repeat the above process again}@}. If {@{the condition is `False`, the `Do...Loop While` statement ends its execution}@}. <!--SR:!2032-09-27,2348,330!2026-10-12,130,407!2026-10-12,130,407!2026-06-06,26,387!2026-06-05,25,387-->
+The semantics of {@{`Do...Loop While`}@} is that {@{the statement block is executed}@} first. Then {@{the condition is executed}@}. If {@{the condition is `True`, we repeat the above process again}@}. If {@{the condition is `False`, the `Do...Loop While` statement ends its execution}@}. <!--SR:!2032-09-27,2348,330!2026-10-12,130,407!2026-10-12,130,407!fsrs,2026-12-06T05:57:07.745Z,183,182.60853552,1,2,6,0,0,2026-06-06T05:57:07.745Z!fsrs,2026-11-29T11:16:03.097Z,177,176.73131765,1,2,6,0,0,2026-06-05T11:16:03.097Z-->
 
-As VBA is {@{intended to be English like}@}, it also provides the unconventional {@{`Do Until...Loop` and `Do...Loop Until` constructs}@}. The semantics is exactly the same except that {@{the loop stops if the condition is `True`}@}. <!--SR:!2027-03-15,793,321!2027-01-31,773,321!2026-06-06,26,387-->
+As VBA is {@{intended to be English like}@}, it also provides the unconventional {@{`Do Until...Loop` and `Do...Loop Until` constructs}@}. The semantics is exactly the same except that {@{the loop stops if the condition is `True`}@}. <!--SR:!2027-03-15,793,321!2027-01-31,773,321!fsrs,2026-12-06T05:57:08.750Z,183,182.60853552,1,2,6,0,0,2026-06-06T05:57:08.750Z-->
 
 ### `For`
 

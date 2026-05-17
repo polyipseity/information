@@ -9,7 +9,7 @@ tags:
 
 # zeroth law of thermodynamics
 
-The __zeroth law of thermodynamics__ states that {@{if two [thermodynamic systems](thermodynamic%20system.md) A and B are in [thermal equilibrium](thermal%20equilibrium.md) with a third [thermodynamic system](thermodynamic%20system.md) C, then A and B are in [thermal equilibrium](thermal%20equilibrium.md) with each other}@}. <!--SR:!2026-05-31,685,330-->
+The __zeroth law of thermodynamics__ states that {@{if two [thermodynamic systems](thermodynamic%20system.md) A and B are in [thermal equilibrium](thermal%20equilibrium.md) with a third [thermodynamic system](thermodynamic%20system.md) C, then A and B are in [thermal equilibrium](thermal%20equilibrium.md) with each other}@}. <!--SR:!fsrs,2033-10-06T01:08:15.288Z,2679,2679.10935432,1,2,10,0,0,2026-06-06T01:08:15.288Z-->
 
 ## references
 

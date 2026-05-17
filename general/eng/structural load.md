@@ -115,35 +115,35 @@ return await memorize_seq(
 
 #### hydrostatic load
 
-{@{Hydrostatic load}@} refers to load caused by {@{[water](water.md)}@}. The load can be caused by {@{pure water itself, or water in a material such as soil}@}. <!--SR:!2028-05-10,1132,350!2027-05-18,786,330!2026-06-05,25,370-->
+{@{Hydrostatic load}@} refers to load caused by {@{[water](water.md)}@}. The load can be caused by {@{pure water itself, or water in a material such as soil}@}. <!--SR:!2028-05-10,1132,350!2027-05-18,786,330!fsrs,2026-12-04T00:59:38.693Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:38.693Z-->
 
-For example, when there is {@{water buildup in the soil}@}, there is {@{increased hydrostatic pressure on retaining walls}@}. For {@{pure water}@}, examples include a {@{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}@}. <!--SR:!2028-07-19,1185,350!2027-12-15,1005,340!2028-07-28,1195,350!2026-06-05,25,370-->
+For example, when there is {@{water buildup in the soil}@}, there is {@{increased hydrostatic pressure on retaining walls}@}. For {@{pure water}@}, examples include a {@{[dam](dam.md), where deeper waters exert more horizontal hydrostatic pressure on the dam}@}. <!--SR:!2028-07-19,1185,350!2027-12-15,1005,340!2028-07-28,1195,350!fsrs,2026-12-04T00:59:41.261Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:41.261Z-->
 
 #### lateral load
 
 {@{Lateral load}@} may be caused by {@{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}@}. <!--SR:!2027-08-07,897,330!2026-10-01,120,390-->
 
-For example, there is {@{lateral soil load on retaining walls of a slope}@} because {@{the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. {@{This lateral soil load}@} can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}. <!--SR:!2031-08-16,1937,320!2026-10-01,645,320!2026-06-05,25,370!2026-08-31,93,370-->
+For example, there is {@{lateral soil load on retaining walls of a slope}@} because {@{the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. {@{This lateral soil load}@} can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}. <!--SR:!2031-08-16,1937,320!2026-10-01,645,320!fsrs,2026-12-04T00:59:39.554Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:39.554Z!2026-08-31,93,370-->
 
 To {@{protect against soil loads}@}, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain}@} can become {@{man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}. <!--SR:!2027-12-02,924,300!2026-07-07,581,320!2026-10-07,125,390!2026-10-07,125,390-->
 
 #### seismic load
 
-{@{Seismic load}@} are {@{caused by [earthquakes](earthquake.md)}@}. It can induce {@{both horizontal and vertical load on structures}@}. <!--SR:!2032-06-22,2245,330!2026-12-20,729,340!2026-06-05,25,370-->
+{@{Seismic load}@} are {@{caused by [earthquakes](earthquake.md)}@}. It can induce {@{both horizontal and vertical load on structures}@}. <!--SR:!2032-06-22,2245,330!2026-12-20,729,340!fsrs,2026-12-04T00:59:38.106Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:38.106Z-->
 
 {@{The consequences}@} are {@{partial or complete collapse}@} of {@{structural elements or entire buildings}@}. <!--SR:!2027-10-16,939,330!2026-09-30,119,390!2026-10-07,125,390-->
 
 #### thermal load
 
-{@{Thermal load}@} refers to load {@{caused by [temperature](temperature.md) changes}@} leading to {@{[thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}@}. <!--SR:!2031-12-04,2047,328!2026-06-05,25,370!2026-09-30,119,390-->
+{@{Thermal load}@} refers to load {@{caused by [temperature](temperature.md) changes}@} leading to {@{[thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}@}. <!--SR:!2031-12-04,2047,328!fsrs,2026-12-04T00:59:36.690Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:36.690Z!2026-09-30,119,390-->
 
-For example, {@{a beam in between two fixed support}@} creates {@{thermal load under heating as the beam expands}@}. {@{A solution}@} would be making {@{the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, the beam can {@{expand in the direction of the roller support, relieving the thermal load}@}. <!--SR:!2026-12-12,698,328!2027-09-15,916,330!2029-02-16,1362,360!2026-10-01,120,390!2026-06-05,25,370-->
+For example, {@{a beam in between two fixed support}@} creates {@{thermal load under heating as the beam expands}@}. {@{A solution}@} would be making {@{the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, the beam can {@{expand in the direction of the roller support, relieving the thermal load}@}. <!--SR:!2026-12-12,698,328!2027-09-15,916,330!2029-02-16,1362,360!2026-10-01,120,390!fsrs,2026-12-04T00:59:40.496Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:40.496Z-->
 
 #### wind load
 
 {@{[Wind](wind.md)}@} is {@{movement of air}@}. When wind {@{moves past a building}@}, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. {@{Positive pressure}@} outside causes {@{inward forces while negative causes outward (uplift for roof) forces}@}. This is {@{_wind load_}@}. It also depends on {@{building shape, wind direction, and wind speed}@}. <!--SR:!2028-01-09,1024,340!2027-03-28,798,330!2032-10-19,2356,340!2027-11-20,985,340!2030-11-30,1834,340!2026-10-07,125,390!2026-09-28,117,390!2026-10-07,125,390!2026-10-07,125,390-->
 
-{@{Wind load}@} causes {@{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}@}. {@{Less serious consequences}@} include damage to {@{individual structural elements such as roofs, walls, and windows}@}; and causes {@{excessive building vibrations}@}. <!--SR:!2026-11-28,644,320!2031-10-22,2001,320!2026-06-05,25,370!2026-10-07,125,390!2026-09-29,118,390-->
+{@{Wind load}@} causes {@{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}@}. {@{Less serious consequences}@} include damage to {@{individual structural elements such as roofs, walls, and windows}@}; and causes {@{excessive building vibrations}@}. <!--SR:!2026-11-28,644,320!2031-10-22,2001,320!fsrs,2026-12-04T00:59:37.366Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:37.366Z!2026-10-07,125,390!2026-09-29,118,390-->
 
 ### other loads
 

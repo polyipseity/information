@@ -17,7 +17,7 @@ tags:
 
 This seems more like a pedagogical tool...
 
-- good compromises ::@:: Instructions are 32 bits long, to make instruction fetching and decoding simpler. <!--SR:!2026-06-17,358,355!2026-06-02,343,350-->
+- good compromises ::@:: Instructions are 32 bits long, to make instruction fetching and decoding simpler. <!--SR:!2026-06-17,358,355!fsrs,2030-09-16T05:09:12.974Z,1564,1563.57150551,1,2,9,0,0,2026-06-05T05:09:12.974Z-->
 - make common cases fast ::@:: Variants of instructions that accept _immediate_ operands instead of register or memory operands are available. <!--SR:!2029-12-16,1333,350!2029-06-27,1216,350-->
 - simplicity favors regularity \(less cases\) ::@:: Each instruction is 32 bits long, and has a fixed number of operands. It makes CPU implementations simpler and allows better performance. <!--SR:!2029-07-14,1231,350!2029-01-12,1083,350-->
   - simplicity favors regularity / comparison ::@:: x86, a _complex_ instruction set computer \(CISC\) ISA, supports a variable number of operands. <!--SR:!2029-04-16,1161,350!2029-07-08,1226,350-->
@@ -53,25 +53,25 @@ When {@{addressing multiple bytes}@}, it is important to {@{take note of _endian
 
 For {@{assembly instructions that store multi-byte data}@}, it {@{uses the endianness of the underlying machine, so that you do not need to worry about endianness when defining data}@}. <!--SR:!2026-08-30,413,383!2026-08-19,408,383-->
 
-Note that it does not make sense to {@{talk about the endianness of a register, as they have no memory addresses}@}. When transferring multiple bytes from and to the main memory, big-endian systems {@{stores them in the main memory in big-endian, transfers them to registers by interpreting them in big-endian, and receives them from registers by writing them in big-endian}@}, and {@{vice versa for little-endian}@}. In both cases, {@{the data transfer instructions are agnostic of the endianness, i.e. does not need to care about the endianness}@}. <!--SR:!2026-06-21,362,355!2026-06-18,359,355!2026-05-22,332,355!2030-08-26,1569,375-->
+Note that it does not make sense to {@{talk about the endianness of a register, as they have no memory addresses}@}. When transferring multiple bytes from and to the main memory, big-endian systems {@{stores them in the main memory in big-endian, transfers them to registers by interpreting them in big-endian, and receives them from registers by writing them in big-endian}@}, and {@{vice versa for little-endian}@}. In both cases, {@{the data transfer instructions are agnostic of the endianness, i.e. does not need to care about the endianness}@}. <!--SR:!2026-06-21,362,355!2026-06-18,359,355!fsrs,2030-09-24T05:07:31.665Z,1572,1572.3176042,1,2,9,0,0,2026-06-05T05:07:31.665Z!2030-08-26,1569,375-->
 
 ## instructions
 
 Each instruction is written as {@{`ins op_1, op_2, ..., op_n`, where `ins` is the instruction and `op_i` are its operands}@}. Each line {@{contain at most one instruction}@}. Comments {@{start with `#` and end with a newline}@}. <!--SR:!2029-12-09,1326,350!2029-11-04,1308,350!2028-03-04,818,330-->
 
-Below, the accompanying code to the right is {@{a piece of pseudo C code showing its semantics}@}. For placeholders: <!--SR:!2026-05-27,337,355-->
+Below, the accompanying code to the right is {@{a piece of pseudo C code showing its semantics}@}. For placeholders: <!--SR:!fsrs,2030-10-02T05:07:27.904Z,1580,1579.63312619,1,2,9,0,0,2026-06-05T05:07:27.904Z-->
 
-- `$s`, `$t`, and `$d` \(in order of instruction encoding\) ::@:: It can be any 32-bit named/numbered register \(5 bits to encode\). <!--SR:!2026-06-11,352,355!2026-06-01,343,355-->
+- `$s`, `$t`, and `$d` \(in order of instruction encoding\) ::@:: It can be any 32-bit named/numbered register \(5 bits to encode\). <!--SR:!2026-06-11,352,355!fsrs,2030-10-13T05:09:01.172Z,1591,1590.86906995,1,2,9,0,0,2026-06-05T05:09:01.172Z-->
 - `imm` ::@:: It can be any 16-bit constant, which may be unextended, sign-extended, or zero-extended depending on the instruction. <!--SR:!2030-09-22,1590,375!2030-10-04,1601,375-->
 - `offset` ::@:: It can be any 16-bit signed constant. It can represent a signed 16-bit byte offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction. <!--SR:!2029-03-03,1125,355!2026-06-21,362,355-->
-- `target` ::@:: It can be any 26-bit unsigned constant. It can represent an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\). <!--SR:!2026-05-26,336,355!2026-06-19,360,355-->
-- `PC` ::@:: It is the 32-bit address of the current instruction \(program counter\). <!--SR:!2026-06-07,348,355!2026-06-06,347,350-->
+- `target` ::@:: It can be any 26-bit unsigned constant. It can represent an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\). <!--SR:!fsrs,2030-09-30T05:08:55.960Z,1578,1578.17620593,1,2,9,0,0,2026-06-05T05:08:55.960Z!2026-06-19,360,355-->
+- `PC` ::@:: It is the 32-bit address of the current instruction \(program counter\). <!--SR:!fsrs,2030-10-25T08:13:42.682Z,1601,1600.60130072,1,2,9,0,0,2026-06-07T08:13:42.682Z!fsrs,2030-09-25T01:08:58.181Z,1572,1571.78143325,1,2,9,0,0,2026-06-06T01:08:58.181Z-->
   - `nPC` ::@:: It is a _concept_ \(_not_ a real register\) containing the 32-bit address of the _next_ instruction \(next program counter\), i.e. `PC+4`. <!--SR:!2026-11-28,483,401!2026-12-17,495,401-->
 - `h` ::@:: It can be any 5-bit unsigned constant. It is used for bit-shit instructions. <!--SR:!2026-06-18,359,355!2026-06-09,350,355-->
 
-Common instruction variants include {@{immediate `_i`, unsigned `_u` \(`_i` comes before `_u`\)}@}. The former {@{indicates that the instruction takes an 16-bit immediate operand in place of a register operand}@}. The latter {@{indicates that the instruction interprets the operands as unsigned integers, and additionally does not _trap_ on _overflow_}@}. Note that {@{signed integers in MIPS are always encoded using two's complement}@}. <!--SR:!2026-06-21,362,355!2026-06-07,348,350!2026-06-16,357,355!2026-08-23,416,372-->
+Common instruction variants include {@{immediate `_i`, unsigned `_u` \(`_i` comes before `_u`\)}@}. The former {@{indicates that the instruction takes an 16-bit immediate operand in place of a register operand}@}. The latter {@{indicates that the instruction interprets the operands as unsigned integers, and additionally does not _trap_ on _overflow_}@}. Note that {@{signed integers in MIPS are always encoded using two's complement}@}. <!--SR:!2026-06-21,362,355!fsrs,2030-09-30T08:13:27.857Z,1576,1575.71518216,1,2,9,0,0,2026-06-07T08:13:27.857Z!2026-06-16,357,355!2026-08-23,416,372-->
 
-One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise}@} between {@{expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2029-07-17,1233,350!2026-09-15,145,310!2026-06-07,28,416-->
+One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise}@} between {@{expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2029-07-17,1233,350!2026-09-15,145,310!fsrs,2026-12-18T08:13:43.291Z,194,194.27342385,1,2,6,0,0,2026-06-07T08:13:43.291Z-->
 
 ### program counter
 
@@ -83,7 +83,7 @@ The program counter {@{cannot be read or written directly}@}. However, it can be
 
 ### operands
 
-There are {@{3 types of operands}@} \(at least in this course\) in MIPS: {@{immediate \(constant\) operand, memory operand, and register operand}@}. Note that the first one is {@{limited to 16 bits \(see instruction encoding\)}@}, and {@{for _arithmetic_ operations \(e.g. excludes _bitwise_ operations), is always _sign-extended_}@}. <!--SR:!2026-06-19,360,355!2026-05-29,339,355!2030-08-20,1563,375!2026-06-07,348,350-->
+There are {@{3 types of operands}@} \(at least in this course\) in MIPS: {@{immediate \(constant\) operand, memory operand, and register operand}@}. Note that the first one is {@{limited to 16 bits \(see instruction encoding\)}@}, and {@{for _arithmetic_ operations \(e.g. excludes _bitwise_ operations), is always _sign-extended_}@}. <!--SR:!2026-06-19,360,355!fsrs,2030-10-05T05:09:57.334Z,1583,1582.53817916,1,2,9,0,0,2026-06-05T05:09:57.334Z!2030-08-20,1563,375!fsrs,2030-09-30T08:13:41.730Z,1576,1575.71518216,1,2,9,0,0,2026-06-07T08:13:41.730Z-->
 
 In terms of {@{execution time}@}, {@{immediate \(constant\) operands}@} are {@{the fastest as they are encoded in the instruction}@}. {@{Register operands}@} are {@{still fast since registers are inside to the processor}@}. {@{Memory operands}@} are {@{extremely slow comparatively since they are very far comparatively from the processor}@}. This is why {@{there are multiple variants of the same operation, but with one accepting immediate operands}@}. <!--SR:!2029-12-07,1324,350!2029-11-09,1313,350!2029-08-13,1256,350!2029-09-11,1278,350!2029-07-23,1238,350!2029-04-04,1151,350!2029-06-07,1200,350!2029-04-10,1156,350-->
 
@@ -91,42 +91,42 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 
 ### arithmetic instructions
 
-- add ::@:: `add $d, $s, $t`: `$d = $s + $t;`, signed, traps on overflow <!--SR:!2026-06-16,357,355!2026-05-21,331,355-->
-- add immediate ::@:: `addi $t, $s, imm`: `$t = $s + imm;`, signed, traps on overflow; `imm` is sign-extended <!--SR:!2026-05-18,328,355!2026-06-21,362,355-->
-- add immediate unsigned ::@:: `addiu $t, $s, imm`: `$t = $s + imm;`, unsigned, does not trap on overflow; `imm` is sign-extended \(_surprise_!\) <!--SR:!2026-05-30,340,355!2026-05-24,334,355-->
-  - add immediate unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addiu` can be used in place of `addi` to avoid trapping on overflow. <!--SR:!2026-05-30,340,355!2030-08-30,1572,375-->
-- add unsigned ::@:: `addu $d, $s, $t`: `$d = $s + $t;`, unsigned, does not trap on overflow <!--SR:!2026-05-21,331,355!2026-06-17,358,355-->
+- add ::@:: `add $d, $s, $t`: `$d = $s + $t;`, signed, traps on overflow <!--SR:!2026-06-16,357,355!fsrs,2030-09-23T05:04:32.425Z,1571,1570.84524539,1,2,9,0,0,2026-06-05T05:04:32.425Z-->
+- add immediate ::@:: `addi $t, $s, imm`: `$t = $s + imm;`, signed, traps on overflow; `imm` is sign-extended <!--SR:!fsrs,2030-09-18T05:09:02.480Z,1566,1566.40930025,1,2,9,0,0,2026-06-05T05:09:02.480Z!2026-06-21,362,355-->
+- add immediate unsigned ::@:: `addiu $t, $s, imm`: `$t = $s + imm;`, unsigned, does not trap on overflow; `imm` is sign-extended \(_surprise_!\) <!--SR:!fsrs,2030-10-06T05:07:18.930Z,1584,1583.98624549,1,2,9,0,0,2026-06-05T05:07:18.930Z!fsrs,2030-09-27T05:07:38.967Z,1575,1575.25310397,1,2,9,0,0,2026-06-05T05:07:38.967Z-->
+  - add immediate unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addiu` can be used in place of `addi` to avoid trapping on overflow. <!--SR:!fsrs,2030-10-06T05:09:11.910Z,1584,1583.98624549,1,2,9,0,0,2026-06-05T05:09:11.910Z!2030-08-30,1572,375-->
+- add unsigned ::@:: `addu $d, $s, $t`: `$d = $s + $t;`, unsigned, does not trap on overflow <!--SR:!fsrs,2030-09-23T05:06:37.622Z,1571,1570.84524539,1,2,9,0,0,2026-06-05T05:06:37.622Z!2026-06-17,358,355-->
   - add unsigned / note ::@:: Recall that in two's complement, at a bit level, addition is the same as that for unsigned integers. Thus, for two's complement, `addu` can be used in place of `add` to avoid trapping on overflow. <!--SR:!2027-09-23,697,335!2028-09-16,986,355-->
 - divide ::@:: `div $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, signed; `$LO` \(quotient\) is rounded towards zero, while `$HI` \(remainder\) is such that `$s == $t * $LO + $HI` <!--SR:!2030-08-10,1553,375!2026-06-13,355,355-->
 - divide immediate ::@:: `divi` does not exist. <!--SR:!2026-06-21,362,355!2026-06-12,353,355-->
 - divide immediate unsigned ::@:: `diviu` does not exist. <!--SR:!2026-06-21,362,355!2026-06-17,358,355-->
 - divide unsigned ::@:: `divu $s, $t`: `$LO = $s / $t; $HI = $s % $t;`, unsigned; `$LO` \(quotient\) is rounded towards zero <!--SR:!2026-06-14,355,355!2030-08-09,1552,375-->
-  - divide unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent. <!--SR:!2026-05-27,337,355!2030-09-19,1587,375-->
+  - divide unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent. <!--SR:!fsrs,2030-10-02T05:04:31.758Z,1580,1579.63312619,1,2,9,0,0,2026-06-05T05:04:31.758Z!2030-09-19,1587,375-->
 - multiply \(lower 32 bits\) ::@:: `mul $d, $s, $t`: `$d = $s * $t`, signed, lower 32 bits; `$LO` and `$HI` may or may not be cobbled \(MARS cobbles them\); for this course, treat it as a _pseudo-instruction_ \(even though it is not\) <!-- <https://stackoverflow.com/a/52748907> --> <!--SR:!2028-12-03,1057,372!2028-09-14,933,352-->
 - multiply unsigned \(lower 32 bits\) ::@:: `mulu` does not exist. <!--SR:!2026-08-02,399,372!2026-08-17,411,372-->
 - multiply ::@:: `mult $s, $t`: `$HI:$LO = $s * $t;`, signed ; note the register placeholder `$d` is unused <!--SR:!2026-06-11,352,355!2030-08-23,1565,375-->
-  - multiply / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(__this course__: No overflow occurs if every bit of `$HI` equals the sign bit of `$LO`.\) <!--SR:!2027-01-17,521,401!2026-06-07,340,381-->
-- multiply immediate ::@:: `multi` does not exist. <!--SR:!2026-06-03,344,355!2026-06-06,347,350-->
+  - multiply / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(__this course__: No overflow occurs if every bit of `$HI` equals the sign bit of `$LO`.\) <!--SR:!2027-01-17,521,401!fsrs,2030-12-05T08:13:39.875Z,1642,1641.84464192,1,2,9,0,0,2026-06-07T08:13:39.875Z-->
+- multiply immediate ::@:: `multi` does not exist. <!--SR:!fsrs,2030-10-12T05:07:16.805Z,1590,1589.74927005,1,2,9,0,0,2026-06-05T05:07:16.805Z!fsrs,2030-09-25T01:08:59.570Z,1572,1571.78143325,1,2,9,0,0,2026-06-06T01:08:59.570Z-->
 - multiply immediate unsigned ::@:: `multiu` does not exist. <!--SR:!2030-08-27,1569,375!2030-08-30,1572,375-->
-- multiply unsigned ::@:: `multu $s, $t`: `$HI:$LO = $s * $t;`, unsigned; note the register placeholder `$d` is unused <!--SR:!2026-05-29,339,355!2026-05-21,331,355-->
+- multiply unsigned ::@:: `multu $s, $t`: `$HI:$LO = $s * $t;`, unsigned; note the register placeholder `$d` is unused <!--SR:!fsrs,2030-10-05T05:07:11.422Z,1583,1582.53817916,1,2,9,0,0,2026-06-05T05:07:11.422Z!fsrs,2030-09-23T05:07:19.927Z,1571,1570.84524539,1,2,9,0,0,2026-06-05T05:07:19.927Z-->
   - multiply unsigned / note ::@:: Unlike addition and subtraction, two's complement signed division and unsigned division are not equivalent. <!--SR:!2028-06-26,919,350!2030-05-13,1473,370-->
   - multiply unsigned / overflow ::@:: Overflow is not possible if you consider `$HI:$LO` together. \(__this course__: No overflow occurs if every bit of `$HI` is 0.\) <!--SR:!2026-12-12,490,401!2027-01-24,524,401-->
-- subtract ::@:: `sub $d, $s, $t`: `$d = $s - $t;`, signed, traps on overflow <!--SR:!2026-06-17,358,355!2026-05-24,335,355-->
+- subtract ::@:: `sub $d, $s, $t`: `$d = $s - $t;`, signed, traps on overflow <!--SR:!2026-06-17,358,355!fsrs,2030-10-01T05:08:35.796Z,1579,1579.25091907,1,2,9,0,0,2026-06-05T05:08:35.796Z-->
 - subtract immediate ::@:: `subi` does not exist. Use `addi` with a negative constant instead. <!--SR:!2026-06-10,351,355!2026-06-21,362,355-->
-- subtract immediate unsigned ::@:: `subiu` does not exist. Use `addiu` with a negative constant instead. <!--SR:!2030-09-17,1585,375!2026-05-19,329,355-->
-- subtract unsigned ::@:: `subu $d, $s, $t`: `$d = $s - $t;`, unsigned, does not trap on overflow <!--SR:!2026-06-02,343,350!2030-08-11,1554,375-->
+- subtract immediate unsigned ::@:: `subiu` does not exist. Use `addiu` with a negative constant instead. <!--SR:!2030-09-17,1585,375!fsrs,2030-09-20T05:08:34.891Z,1568,1567.89119273,1,2,9,0,0,2026-06-05T05:08:34.891Z-->
+- subtract unsigned ::@:: `subu $d, $s, $t`: `$d = $s - $t;`, unsigned, does not trap on overflow <!--SR:!fsrs,2030-09-16T05:09:03.880Z,1564,1563.57150551,1,2,9,0,0,2026-06-05T05:09:03.880Z!2030-08-11,1554,375-->
   - subtract unsigned / note ::@:: Recall that in two's complement, at a bit level, subtraction is the same as that for unsigned integers. Thus, for two's complement, `subu` can be used in place of `sub` to avoid trapping on overflow. <!--SR:!2030-05-02,1462,370!2030-08-24,1566,375-->
 
 ### bitwise instructions
 
-- bitwise and ::@:: `and $d, $s, $t`: `$d = $s & $t;` <!--SR:!2026-06-10,351,355!2026-05-18,328,355-->
+- bitwise and ::@:: `and $d, $s, $t`: `$d = $s & $t;` <!--SR:!2026-06-10,351,355!fsrs,2030-09-18T05:08:59.493Z,1566,1566.40930025,1,2,9,0,0,2026-06-05T05:08:59.493Z-->
 - bitwise and immediate ::@:: `andi $t, $s, imm`: `$t = $s & imm;`; `imm` is zero-extended <!--SR:!2030-05-12,1472,370!2026-06-10,352,350-->
-- bitwise exclusive or ::@:: `xor $d, $s, $t`: `$d = $s ^ $t;` <!--SR:!2030-07-11,1523,370!2026-06-07,348,350-->
+- bitwise exclusive or ::@:: `xor $d, $s, $t`: `$d = $s ^ $t;` <!--SR:!2030-07-11,1523,370!fsrs,2030-09-30T08:13:40.838Z,1576,1575.71518216,1,2,9,0,0,2026-06-07T08:13:40.838Z-->
 - bitwise exclusive or immediate ::@:: `xori $t, $s, imm`: `$t = $s ^ imm;`; `imm` is zero-extended <!--SR:!2030-09-04,1572,370!2030-08-17,1560,375-->
 - bitwise nor ::@:: `nor $d, $s, $t`: `$d = ~($s | $t);` <!--SR:!2030-08-24,1567,375!2026-06-12,354,355-->
-- bitwise nor immediate ::@:: `nori` does not exist. Unfortunately, it cannot be replaced by a single instruction. It can be replaced by `ori` and then a `nor` with `$0`. <!--SR:!2026-05-31,342,355!2026-05-26,336,350-->
+- bitwise nor immediate ::@:: `nori` does not exist. Unfortunately, it cannot be replaced by a single instruction. It can be replaced by `ori` and then a `nor` with `$0`. <!--SR:!fsrs,2030-10-11T05:07:26.787Z,1589,1589.42706439,1,2,9,0,0,2026-06-05T05:07:26.787Z!fsrs,2030-09-05T05:07:24.658Z,1553,1553.49720846,1,2,9,0,0,2026-06-05T05:07:24.658Z-->
 - bitwise or ::@:: `or $d, $s, $t`: `$d = $s | $t;` <!--SR:!2030-08-21,1563,375!2026-06-17,358,355-->
-- bitwise or immediate ::@:: `ori $t, $s, imm`: `$t = $s | imm;`; `imm` is zero-extended <!--SR:!2026-06-06,347,350!2030-08-22,1564,375-->
+- bitwise or immediate ::@:: `ori $t, $s, imm`: `$t = $s | imm;`; `imm` is zero-extended <!--SR:!fsrs,2030-09-25T01:08:58.910Z,1572,1571.78143325,1,2,9,0,0,2026-06-06T01:08:58.910Z!2030-08-22,1564,375-->
 - shift left arithmetic ::@:: `sla` does not exist. It would have been equivalent to `sll`. <!--SR:!2030-07-06,1525,375!2026-06-14,355,355-->
 - shift left logical ::@:: `sll $d, $t, h`: `$d = $t << h;`, padded by 0 <!--SR:!2026-06-15,356,355!2028-09-24,994,355-->
   - shift left logical / arithmetic ::@:: Assuming _no overflow_, it has the same effect as multiplying a _signed_/_unsigned_ integer by 2<sup>_h_</sup>. <!--SR:!2027-01-10,515,401!2026-12-19,497,401-->
@@ -134,46 +134,46 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - shift right arithmetic ::@:: `sra $d, $t, h`: `$d = $t >> h;`, sign-extended <!--SR:!2030-03-11,1418,370!2030-03-12,1419,370-->
   - shift right arithmetic / arithmetic ::@:: It has the same effect as floor dividing \(i.e. rounded towards negative infinity\) a _signed_ integer by 2<sup>_h_</sup>. Overflow is impossible. <!--SR:!2030-03-13,1420,401!2026-12-01,485,401-->
 - shift right arithmetic variable ::@:: `srav $d, $t, $s`: `$d = $t >> $s;`, sign-extended; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2026-08-10,404,372!2027-08-05,673,352-->
-- shift right logical ::@:: `srl $d, $t, h`: `$d = $t >> h;`, padded by 0 <!--SR:!2026-06-02,343,350!2026-06-03,344,350-->
+- shift right logical ::@:: `srl $d, $t, h`: `$d = $t >> h;`, padded by 0 <!--SR:!fsrs,2030-09-16T05:09:46.970Z,1564,1563.57150551,1,2,9,0,0,2026-06-05T05:09:46.970Z!fsrs,2030-09-17T05:07:14.880Z,1565,1564.99928455,1,2,9,0,0,2026-06-05T05:07:14.880Z-->
   - shift right logical / arithmetic ::@:: It has the same effect as floor dividing \(i.e. rounded towards negative infinity\) an _unsigned_ integer by 2<sup>_h_</sup>. Overflow is impossible. <!--SR:!2026-12-29,509,401!2026-11-11,463,401-->
 - shift right logical variable ::@:: `srlv $d, $t, $s`: `$d = $t >> $s;`, padded by 0; if `$s >= 32`, MIPS IV does not define it, while MIPS32 takes the lower 5 bits <!--SR:!2030-07-18,1530,370!2028-06-15,923,355-->
 
 ### data instructions
 
-- load byte ::@:: `lb $t, offset($s)`: `$t = *((*int8_t) &MEM[$s + offset]);`; the loaded 8 bits are sign-extended <!--SR:!2026-05-22,332,355!2028-08-16,955,355-->
-- load byte unsigned ::@:: `lbu $t, offset($s)`: `$t = *((*uint8_t) &MEM[$s + offset]);`; the loaded 8 bits are zero-extended <!--SR:!2029-04-13,1159,355!2026-05-26,336,350-->
+- load byte ::@:: `lb $t, offset($s)`: `$t = *((*int8_t) &MEM[$s + offset]);`; the loaded 8 bits are sign-extended <!--SR:!fsrs,2030-09-24T05:08:58.211Z,1572,1572.3176042,1,2,9,0,0,2026-06-05T05:08:58.211Z!2028-08-16,955,355-->
+- load byte unsigned ::@:: `lbu $t, offset($s)`: `$t = *((*uint8_t) &MEM[$s + offset]);`; the loaded 8 bits are zero-extended <!--SR:!2029-04-13,1159,355!fsrs,2030-09-05T05:09:10.911Z,1553,1553.49720846,1,2,9,0,0,2026-06-05T05:09:10.911Z-->
 - load upper immediate ::2:: `lui $t, imm`: `$t = imm << 16;`; `imm` is unextended; note the lower 16 bits are 0s
 - load halfword ::@:: `lh $t, offset($s)`: `$t = *((*int16_t) &MEM[$s + offset]);`; the loaded 16 bits are sign-extended <!--SR:!2028-12-19,1066,355!2030-08-11,1554,375-->
-- load halfword unsigned ::@:: `lhu $t, offset($s)`: `$t = *((*uint16_t) &MEM[$s + offset]);`; the loaded 16 bits are zero-extended <!--SR:!2028-09-04,974,350!2026-05-21,331,355-->
+- load halfword unsigned ::@:: `lhu $t, offset($s)`: `$t = *((*uint16_t) &MEM[$s + offset]);`; the loaded 16 bits are zero-extended <!--SR:!2028-09-04,974,350!fsrs,2030-09-23T05:08:32.481Z,1571,1570.84524539,1,2,9,0,0,2026-06-05T05:08:32.481Z-->
 - load word ::@:: `lw $t, offset($s)`: `$t = *((*uint32_t) (&MEM[$s + offset]));` <!--SR:!2026-06-12,354,355!2030-08-07,1550,375-->
-- move from HI ::@:: `mfhi $d`: `$d = $HI;`; note the register placeholder is `$d` instead of `$s` <!--SR:!2030-08-29,1571,375!2026-06-08,349,355-->
+- move from HI ::@:: `mfhi $d`: `$d = $HI;`; note the register placeholder is `$d` instead of `$s` <!--SR:!2030-08-29,1571,375!fsrs,2030-10-30T09:12:46.962Z,1605,1604.59291616,1,2,9,0,0,2026-06-08T09:12:46.962Z-->
 - move from LO ::2:: `mflo $d`: `$d = $LO;`; note the register placeholder is `$d` instead of `$s`
 - store byte ::@:: `sb $t, offset($s)`: `*((*uint8_t) (&MEM[$s + offset])) = 0xff & $t;` <!--SR:!2028-09-04,974,350!2028-09-08,978,350-->
-- store halfword ::@:: `sh $t, offset($s)`: `*((*uint16_t) (&MEM[$s + offset])) = 0xffff & $t;` <!--SR:!2026-05-22,332,355!2026-06-11,353,350-->
+- store halfword ::@:: `sh $t, offset($s)`: `*((*uint16_t) (&MEM[$s + offset])) = 0xffff & $t;` <!--SR:!fsrs,2030-09-24T05:09:56.211Z,1572,1572.3176042,1,2,9,0,0,2026-06-05T05:09:56.211Z!2026-06-11,353,350-->
 - store word ::@:: `sw $t, offset($s)`: `*((*uint32_t) (&MEM[$s + offset])) = $t;` <!--SR:!2028-06-21,915,350!2029-02-11,1110,355-->
 
 ### jump instructions
 
 - branch on equal ::@:: `beq $s, $t, offset`: `if ($s == $t) { goto nPC + offset << 2; }` <!--SR:!2030-07-29,1541,375!2026-06-19,360,355-->
-- branch on greater than or equal to zero ::@:: `bgez $s, offset`: `if ($s >= 0) { goto nPC + offset << 2; }` <!--SR:!2026-05-18,328,355!2028-08-30,969,355-->
-- branch on greater than or equal to zero and link ::@:: `bgezal $s, offset`: `if ($s >= 0) { $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2029-05-13,1154,350!2026-05-21,331,355-->
+- branch on greater than or equal to zero ::@:: `bgez $s, offset`: `if ($s >= 0) { goto nPC + offset << 2; }` <!--SR:!fsrs,2030-09-18T05:07:21.865Z,1566,1566.40930025,1,2,9,0,0,2026-06-05T05:07:21.865Z!2028-08-30,969,355-->
+- branch on greater than or equal to zero and link ::@:: `bgezal $s, offset`: `if ($s >= 0) { $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2029-05-13,1154,350!fsrs,2030-09-23T05:07:30.669Z,1571,1570.84524539,1,2,9,0,0,2026-06-05T05:07:30.669Z-->
 - branch on greater than zero ::@:: `bgtz $s, offset`: `if ($s > 0) { goto nPC + offset << 2; }` <!--SR:!2028-08-12,951,350!2029-01-14,1086,355-->
-- branch on greater than zero and link ::@:: `bgtzal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2026-06-02,343,355!2029-03-04,1126,355-->
+- branch on greater than zero and link ::@:: `bgtzal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!fsrs,2030-10-10T05:07:16.000Z,1588,1588.31281981,1,2,9,0,0,2026-06-05T05:07:16.000Z!2029-03-04,1126,355-->
 - branch on less than or equal to zero ::@:: `blez $s, offset`: `if ($s <= 0) { goto nPC + offset << 2; }` <!--SR:!2026-06-10,351,350!2030-04-12,1450,370-->
 - branch on less than or equal to zero and link ::@:: `blezal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2029-01-05,1060,355!2026-06-18,359,355-->
-- branch on less than zero ::@:: `bltz $s, offset`: `if ($s < 0) { goto nPC + offset << 2; }` <!--SR:!2026-05-21,332,355!2027-08-02,644,335-->
-- branch on less than zero and link ::@:: `bltzal $s, offset`: `if ($s < 0) { goto offset $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2026-06-08,349,355!2027-03-26,554,350-->
+- branch on less than zero ::@:: `bltz $s, offset`: `if ($s < 0) { goto nPC + offset << 2; }` <!--SR:!fsrs,2030-09-27T05:07:37.541Z,1575,1574.84419039,1,2,9,0,0,2026-06-05T05:07:37.541Z!2027-08-02,644,335-->
+- branch on less than zero and link ::@:: `bltzal $s, offset`: `if ($s < 0) { goto offset $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!fsrs,2030-10-30T09:12:37.316Z,1605,1604.59291616,1,2,9,0,0,2026-06-08T09:12:37.316Z!2027-03-26,554,350-->
 - branch on not equal ::@:: `bne $s, $t, offset`: `if ($s != $t) { goto nPC + offset << 2; }` <!--SR:!2030-08-27,1564,370!2030-07-16,1528,370-->
 - jump ::@:: `j target`: `goto (nPC & 0xf0000000) | (target << 2);` <!--SR:!2026-06-14,355,355!2028-08-27,966,355-->
 - jump and link ::@:: `jal target`: `$ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2);` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2030-08-17,1560,375!2030-08-25,1567,375-->
-- jump register ::@:: `jr $s`: `goto $s;` <!--SR:!2026-06-02,344,355!2030-08-19,1562,375-->
+- jump register ::@:: `jr $s`: `goto $s;` <!--SR:!fsrs,2030-10-14T05:07:29.157Z,1592,1592.30809802,1,2,9,0,0,2026-06-05T05:07:29.157Z!2030-08-19,1562,375-->
 
 ### comparison instructions
 
 - set on less than ::@:: `slt $d, $s, $t`: `$d = $s < $t;`, signed <!--SR:!2028-09-01,971,355!2026-06-12,353,355-->
 - set on less than immediate ::@:: `slti $t, $s, imm`: `$t = $s < imm;`, signed; `imm` is sign-extended <!--SR:!2030-09-21,1589,375!2030-08-28,1570,375-->
 - set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(_surprise_!\) <!--SR:!2026-10-30,409,310!2030-09-18,1586,375-->
-- set on less than unsigned ::@:: `sltu $d, $s, $t`: `$d = $s < $t;`, unsigned <!--SR:!2026-06-08,349,350!2030-07-26,1538,370-->
+- set on less than unsigned ::@:: `sltu $d, $s, $t`: `$d = $s < $t;`, unsigned <!--SR:!fsrs,2030-10-05T09:12:45.269Z,1580,1579.64736153,1,2,9,0,0,2026-06-08T09:12:45.269Z!2030-07-26,1538,370-->
 
 ## floating-point instructions
 
@@ -205,7 +205,7 @@ Note that the floating-point register operands must be {@{even numbered for doub
 - multiply single ::@:: `mul.s $fd, $fs, $ft`: `$fd = $fs * $ft;` <!--SR:!2027-11-01,708,424!2027-11-16,717,424-->
 - negate double ::@:: `neg.d $fd, $fs`: `$fd = -$fs;` <!--SR:!2027-11-11,717,424!2027-12-04,733,424-->
 - negate single ::@:: `neg.s $fd, $fs`: `$fd = -$fs;` <!--SR:!2027-10-20,698,424!2027-10-29,706,424-->
-- store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2027-03-25,492,404!2026-06-07,275,384-->
+- store double coprocessor 1 ::@:: `sdc1 $ft, offset($s)`: `*((*float64_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2027-03-25,492,404!fsrs,2030-03-04T08:13:38.607Z,1366,1366.38858908,1,2,9,0,0,2026-06-07T08:13:38.607Z-->
 - store word coprocessor 1 ::@:: `swc1 $ft, offset($s)`: `*((*float32_t) (&MEM[$s + offset])) = $ft;` <!--SR:!2027-05-19,535,404!2027-12-09,737,424-->
 - subtract double ::@:: `sub.d $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2027-12-15,742,424!2027-10-24,701,424-->
 - subtract single ::@:: `sub.s $fd, $fs, $ft`: `$fd = $fs - $ft;` <!--SR:!2027-09-26,677,424!2027-11-12,718,424-->
@@ -221,24 +221,24 @@ All instructions are {@{4 bytes \(32 bits\) long}@}. This is an example of {@{th
 
 - R format ::@:: all operands are registers \(ignoring the "immediate" operand in bit-shift instructions\) without offsets <p> opcode: 6 bits → rs: 5 bits → rt: 5 bits → rd: 5 bits → shift \(shamt\): 5 bits → funct: 6 bits <!--SR:!2030-09-20,1588,375!2030-08-08,1551,375-->
 - I format ::@:: one operand is immediate \(the "immediate" operand in bit-shift instructions is not really immediate\) or an offset is present <p> opcode: 6 bits → rs: 5 bits → rt: 5 bits → imm: 16 bits <!--SR:!2030-04-19,1457,370!2030-08-21,1564,375-->
-- J format ::@:: the only operand is an pseudo-address <p> opcode: 6 bits → pseudo-address: 26 bits <!--SR:!2026-06-08,349,355!2030-08-23,1566,375-->
+- J format ::@:: the only operand is an pseudo-address <p> opcode: 6 bits → pseudo-address: 26 bits <!--SR:!fsrs,2030-10-30T09:12:48.888Z,1605,1604.59291616,1,2,9,0,0,2026-06-08T09:12:48.888Z!2030-08-23,1566,375-->
 
 The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, and pseudo-address}@}. They mean: <!--SR:!2026-06-20,361,355-->
 
 - opcode ::@:: 6 bits; opcode of the instruction <p> - R format: this is almost always 0, since the funct field is used instead <!--SR:!2026-06-13,354,355!2030-08-05,1548,375-->
-- rs ::@:: 5 bits <p> - R format: first source register operand <br/> - I format: source or memory register operand <!--SR:!2028-09-29,999,355!2026-05-23,334,355-->
+- rs ::@:: 5 bits <p> - R format: first source register operand <br/> - I format: source or memory register operand <!--SR:!2028-09-29,999,355!fsrs,2030-09-30T05:07:23.652Z,1578,1577.78509629,1,2,9,0,0,2026-06-05T05:07:23.652Z-->
 - rt ::@:: 5 bits <p> - R format: second source register operand <br/> - I format: destination or non-memory register operand <!--SR:!2026-06-10,352,350!2026-06-10,351,355-->
-- rd ::@:: 5 bits <p> - R format: destination register operand <!--SR:!2030-07-28,1540,370!2026-06-03,344,350-->
-- shift \(shamt\) ::@:: 5 bits <p> - R format: number of bits to shift, ranging from 0 to 31 \(i.e. unsigned\), and should almost always be 0 for non-bit-shift instructions <!--SR:!2026-06-06,347,350!2027-08-06,658,335-->
-- funct ::@:: 6 bits <p> - R format: opcode of the instruction, and is almost always used instead of the opcode field <!--SR:!2026-05-23,333,350!2030-05-01,1461,370-->
-- imm ::@:: 16 bits <p> - I format: a 16-bit immediate constant that may be unextended, sign-extended, or zero-extended depending on the instruction, a signed 16-bit offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction <!--SR:!2028-08-29,968,355!2026-05-23,333,355-->
+- rd ::@:: 5 bits <p> - R format: destination register operand <!--SR:!2030-07-28,1540,370!fsrs,2030-09-17T05:06:38.847Z,1565,1564.99928455,1,2,9,0,0,2026-06-05T05:06:38.847Z-->
+- shift \(shamt\) ::@:: 5 bits <p> - R format: number of bits to shift, ranging from 0 to 31 \(i.e. unsigned\), and should almost always be 0 for non-bit-shift instructions <!--SR:!fsrs,2030-09-25T01:09:00.670Z,1572,1571.78143325,1,2,9,0,0,2026-06-06T01:09:00.670Z!2027-08-06,658,335-->
+- funct ::@:: 6 bits <p> - R format: opcode of the instruction, and is almost always used instead of the opcode field <!--SR:!fsrs,2030-09-01T05:07:22.893Z,1549,1549.13546323,1,2,9,0,0,2026-06-05T05:07:22.893Z!2030-05-01,1461,370-->
+- imm ::@:: 16 bits <p> - I format: a 16-bit immediate constant that may be unextended, sign-extended, or zero-extended depending on the instruction, a signed 16-bit offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction <!--SR:!2028-08-29,968,355!fsrs,2030-09-26T05:07:13.216Z,1574,1573.78685775,1,2,9,0,0,2026-06-05T05:07:13.216Z-->
 - pseudo-address ::@:: 26 bits <p> - J format: a 26-bit unsigned constant, representing an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\) <!--SR:!2027-03-30,505,315!2026-06-20,361,355-->
 
 The register fields are encoded {@{by the named registers' corresponding number name}@}. <!--SR:!2030-03-13,1420,370-->
 
 For {@{bit-shift instructions}@}, note that {@{unlike other instructions, for variable bit-shift instructions, `$s` \(the rs field\) is on the right hand side instead of the left hand side, and `$t` \(the rt field\) is on the left hand side instead of the right hand side}@}. Also, {@{for "immediate" bit-shift instructions, `$s` \(the rs field\) is unused}@}. For {@{instructions taking a single register operand only}@}, {@{`$s` is usually used, and `$d` \(R format\) or `$t` \(I format\) is used if the register is to be written \(e.g. `lui`, `mfhi`, `mflo`\)}@}. For {@{instructions without operands \(e.g. `syscall`\)}@}, {@{they are in R format}@}. <!--SR:!2029-07-31,1259,372!2030-02-27,1406,372!2026-08-08,404,372!2026-07-30,396,372!2026-08-22,415,372!2027-07-03,653,412!2027-07-02,652,412-->
 
-Notice that {@{some fields are unused}@}. Sometimes, they can be {@{any value \(and we would not care\), but sometimes not}@}, so it is {@{best to always set unused fields to all 0s \(unless otherwise specified\)}@}. <!--SR:!2026-05-26,336,355!2028-03-28,794,335!2026-07-25,393,372-->
+Notice that {@{some fields are unused}@}. Sometimes, they can be {@{any value \(and we would not care\), but sometimes not}@}, so it is {@{best to always set unused fields to all 0s \(unless otherwise specified\)}@}. <!--SR:!fsrs,2030-09-30T05:07:20.688Z,1578,1578.17620593,1,2,9,0,0,2026-06-05T05:07:20.688Z!2028-03-28,794,335!2026-07-25,393,372-->
 
 ## calling conventions
 
@@ -331,7 +331,7 @@ To convert {@{an `if...else if...else` statement}@}, a common pattern is {@{a bu
 
 ## pseudo-instructions
 
-Since {@{MIPS have few instructions}@}, some common code {@{requires multiple instructions}@}. Pseudo-instructions are {@{_assembler macros_ that help replace these multiple instructions with a single line}@}. Since {@{these instructions are not real}@}, they are {@{replaced by multiple instructions implementing the pseudo-instruction during assembly}@}, and thus {@{does not appear in the resulting program file}@}. Note that this also means {@{the set of pseudo-instructions available is not standardized and may vary across different assemblers}@}. That means {@{some pseudo-instructions below may not be usable in your assembler}@}. It also means {@{different assemblers may use different implementations \(in particular, different from that given below\) to replace the same pseudo-instruction}@}. <!--SR:!2026-05-25,336,355!2026-06-08,349,350!2030-08-22,1565,375!2030-08-02,1544,370!2030-08-16,1559,375!2030-09-03,1571,370!2027-01-11,516,401!2027-01-14,523,401!2027-07-04,654,412-->
+Since {@{MIPS have few instructions}@}, some common code {@{requires multiple instructions}@}. Pseudo-instructions are {@{_assembler macros_ that help replace these multiple instructions with a single line}@}. Since {@{these instructions are not real}@}, they are {@{replaced by multiple instructions implementing the pseudo-instruction during assembly}@}, and thus {@{does not appear in the resulting program file}@}. Note that this also means {@{the set of pseudo-instructions available is not standardized and may vary across different assemblers}@}. That means {@{some pseudo-instructions below may not be usable in your assembler}@}. It also means {@{different assemblers may use different implementations \(in particular, different from that given below\) to replace the same pseudo-instruction}@}. <!--SR:!fsrs,2030-10-03T05:07:12.348Z,1581,1580.71365749,1,2,9,0,0,2026-06-05T05:07:12.348Z!fsrs,2030-10-05T09:12:47.761Z,1580,1579.64736153,1,2,9,0,0,2026-06-08T09:12:47.761Z!2030-08-22,1565,375!2030-08-02,1544,370!2030-08-16,1559,375!2030-09-03,1571,370!2027-01-11,516,401!2027-01-14,523,401!2027-07-04,654,412-->
 
 The benefit of pseudo-instructions is that {@{they simplify your code to make it more understandable}@}. The _only_ cost is that {@{a register, `$at`, is reserved for use to replace pseudo-instructions with real instructions by the assembler}@}. \({@{Requiring multiple instructions is _not_ a cost}@} since {@{with or without pseudo-instructions, you still need multiple instructions unless the architecture makes it a real instruction}@}.\) <!--SR:!2027-02-05,536,401!2026-10-25,449,401!2027-01-02,513,401!2027-01-25,525,401-->
 
@@ -343,7 +343,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2026-11-24,479,401!2028-09-27,997,381-->
 - branch on not equal to zero ::@:: `bnez $s, offset`: `if ($s != 0) { goto nPC + offset << 2; }`; implemented by `bne $s, $zero, offset;` <!--SR:!2028-03-26,812,436!2028-02-07,781,436-->
 - load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];` <!--SR:!2030-08-06,1549,375!2028-05-30,896,350-->
-- load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2030-05-03,1463,370!2026-06-08,349,350-->
+- load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2030-05-03,1463,370!fsrs,2030-10-05T09:12:46.038Z,1580,1579.64736153,1,2,9,0,0,2026-06-08T09:12:46.038Z-->
 - move ::@:: `mov $d, $s`: `$d = $s;`; implemented by `or $d, $zero, $s;` <!--SR:!2027-01-12,517,401!2026-12-21,497,401-->
 - negate ::@:: `neg $d, $s`: `$d = -$s;`; implemented by `subu $d, $zero, $s;` <!--SR:!2026-11-01,456,401!2026-12-30,506,401-->
 - not ::@:: `not $d, $s`: `$d = ~$s;`; implemented by `nor $d, $zero, $s;` <!--SR:!2027-05-11,597,335!2026-06-12,353,355-->

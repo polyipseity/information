@@ -90,7 +90,7 @@ In Einstein notation, {@{the usual element reference $A_{mn}$}@} for {@{the $m$-
 
 ### inner product
 
-{@{The [inner product](inner%20product.md) of two vectors}@} is {@{the sum of the products of their corresponding components}@}, with {@{the indices of one vector lowered}@} \(see {@{[\#Raising and lowering indices](#raising%20and%20lowering%20indices)}@}\): {@{$$\langle \mathbf {u} ,\mathbf {v} \rangle =\langle \mathbf {e} _{i},\mathbf {e} _{j}\rangle u^{i}v^{j}=u_{j}v^{j}$$}@} In the case of {@{an [orthonormal basis](orthonormal%20basis.md)}@}, we have {@{$u^{j}=u_{j}$}@}, and {@{the expression simplifies to}@}: {@{$$\langle \mathbf {u} ,\mathbf {v} \rangle =\sum _{j}u^{j}v^{j}=u_{j}v^{j}$$}@} <!--SR:!2026-08-31,253,330!2026-10-22,291,330!2026-10-12,281,330!2026-09-19,258,330!2026-06-07,171,310!2026-10-06,275,330!2026-10-06,275,330!2026-08-24,247,330!2026-10-06,275,330-->
+{@{The [inner product](inner%20product.md) of two vectors}@} is {@{the sum of the products of their corresponding components}@}, with {@{the indices of one vector lowered}@} \(see {@{[\#Raising and lowering indices](#raising%20and%20lowering%20indices)}@}\): {@{$$\langle \mathbf {u} ,\mathbf {v} \rangle =\langle \mathbf {e} _{i},\mathbf {e} _{j}\rangle u^{i}v^{j}=u_{j}v^{j}$$}@} In the case of {@{an [orthonormal basis](orthonormal%20basis.md)}@}, we have {@{$u^{j}=u_{j}$}@}, and {@{the expression simplifies to}@}: {@{$$\langle \mathbf {u} ,\mathbf {v} \rangle =\sum _{j}u^{j}v^{j}=u_{j}v^{j}$$}@} <!--SR:!2026-08-31,253,330!2026-10-22,291,330!2026-10-12,281,330!2026-09-19,258,330!fsrs,2028-06-21T01:59:13.420Z,744,743.53030884,1,2,8,0,0,2026-06-08T01:59:13.420Z!2026-10-06,275,330!2026-10-06,275,330!2026-08-24,247,330!2026-10-06,275,330-->
 
 ### vector cross product
 

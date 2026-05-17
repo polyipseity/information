@@ -36,13 +36,13 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Corporate%20finance) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Corporate%20finance) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3ACorporate%20finance) | -->
 
-{@{__Profitability index__ \(__PI__\)}@}, also known as {@{__profit investment ratio__ \(__PIR__\) and __value investment ratio__ \(__VIR__\)}@}, is {@{the [ratio](ratio.md) of payoff to investment of a proposed project}@}. It is a useful tool for {@{ranking projects}@} because it allows you to {@{quantify the amount of value created per unit of investment}@}. Under {@{capital rationing}@}, {@{PI method is suitable}@} because PI method indicates {@{relative figure i.e. ratio instead of absolute figure}@}. <!--SR:!2026-06-18,246,330!2026-06-17,245,330!2026-06-19,246,330!2026-06-29,255,330!2026-06-16,244,330!2026-06-23,250,330!2029-05-03,1064,350!2026-06-08,237,330-->
+{@{__Profitability index__ \(__PI__\)}@}, also known as {@{__profit investment ratio__ \(__PIR__\) and __value investment ratio__ \(__VIR__\)}@}, is {@{the [ratio](ratio.md) of payoff to investment of a proposed project}@}. It is a useful tool for {@{ranking projects}@} because it allows you to {@{quantify the amount of value created per unit of investment}@}. Under {@{capital rationing}@}, {@{PI method is suitable}@} because PI method indicates {@{relative figure i.e. ratio instead of absolute figure}@}. <!--SR:!2026-06-18,246,330!2026-06-17,245,330!2026-06-19,246,330!2026-06-29,255,330!2026-06-16,244,330!2026-06-23,250,330!2029-05-03,1064,350!fsrs,2029-04-26T16:37:22.772Z,1054,1054.42431992,1,2,9,0,0,2026-06-07T16:37:22.772Z-->
 
 {@{The ratio is calculated}@} as follows: {@{$${\text{Profitability index} }={\frac {\text{PV of future cash flows} }{\text{Initial investment} } }=1+{\frac {\text{NPV} }{\text{Initial investment} } }$$}@} <!--SR:!2026-06-22,249,330!2026-06-26,252,330-->
 
 Assuming that {@{the [cash flow](cash%20flow.md) calculated}@} does not {@{include the investment made in the project}@}, {@{a profitability index of 1}@} indicates {@{break-even}@}. {@{Any value lower than one}@} would indicate that {@{the project's present value \([PV](present%20value.md)\) is less than the initial investment}@}. As {@{the value of the profitability index increases}@}, so does {@{the financial attractiveness of the proposed project}@}. <!--SR:!2026-06-13,241,330!2026-06-27,253,330!2026-06-10,239,330!2029-04-13,1047,350!2026-06-24,251,330!2026-06-09,238,330!2026-06-12,241,330!2026-06-11,240,330-->
 
-{@{The PI}@} is similar to {@{the [Return on Investment \(ROI\)](return%20on%20investment.md)}@}, except that {@{the net profit is [discounted](discounted%20cash%20flow.md)}@}. <!--SR:!2026-06-28,254,330!2029-04-10,1046,350!2026-06-05,235,330-->
+{@{The PI}@} is similar to {@{the [Return on Investment \(ROI\)](return%20on%20investment.md)}@}, except that {@{the net profit is [discounted](discounted%20cash%20flow.md)}@}. <!--SR:!2026-06-28,254,330!2029-04-10,1046,350!fsrs,2029-04-23T00:36:15.324Z,1052,1051.5976939,1,2,9,0,0,2026-06-06T00:36:15.324Z-->
 
 ## example
 

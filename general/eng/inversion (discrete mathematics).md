@@ -22,7 +22,7 @@ In {@{[computer science](computer%20science.md) and [discrete mathematics](discr
 <!-- markdownlint-disable-next-line MD024 -->
 ### inversion
 
-Let {@{$\pi$ be a [permutation](permutation.md)}@}. There is {@{an __inversion__ of $\pi$ between $i$ and $j$}@} if {@{$i<j$ and $\pi (i)>\pi (j)$}@}. The inversion is indicated by {@{an ordered pair}@} containing {@{either the places $(i,j)$<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> or the elements ${\bigl (}\pi (i),\pi (j){\bigr )}$}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2029-09-23,1373,352!2029-08-12,1341,352!2029-09-11,1363,352!2028-07-17,956,332!2026-05-21,130,397-->
+Let {@{$\pi$ be a [permutation](permutation.md)}@}. There is {@{an __inversion__ of $\pi$ between $i$ and $j$}@} if {@{$i<j$ and $\pi (i)>\pi (j)$}@}. The inversion is indicated by {@{an ordered pair}@} containing {@{either the places $(i,j)$<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> or the elements ${\bigl (}\pi (i),\pi (j){\bigr )}$}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2029-09-23,1373,352!2029-08-12,1341,352!2029-09-11,1363,352!2028-07-17,956,332!fsrs,2028-07-11T00:35:03.783Z,766,765.73264614,1,2,8,0,0,2026-06-06T00:35:03.783Z-->
 
 {@{The [inversion set](#example%20all%20permutations%20of%20four%20elements)}@} is {@{the set of all inversions}@}. {@{A permutation's inversion set using place-based notation}@} is {@{the same as the [inverse permutation's](permutation.md#definition) inversion set using element-based notation}@} with {@{the two components of each ordered pair exchanged}@}. Likewise, {@{a permutation's inversion set using element-based notation}@} is {@{the same as the inverse permutation's inversion set using place-based notation}@} with {@{the two components of each ordered pair exchanged}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2029-08-16,1345,350!2027-01-28,580,312!2029-08-29,1352,352!2027-07-08,655,312!2027-11-14,816,332!2027-08-21,761,332!2029-05-08,1266,352!2028-03-06,900,332-->
 
@@ -32,7 +32,7 @@ For sequences, {@{inversions according to the element-based definition are not u
 
 ### inversion number
 
-{@{The __inversion number__ ${\mathtt {inv} }(X)$<sup>[\[10\]](#^ref-10)</sup>}@} of {@{a sequence $X=\langle x_{1},\dots ,x_{n}\rangle$}@}, is {@{the [cardinality](cardinality.md) of the inversion set}@}. It is {@{a common measure of sortedness \(sometimes called presortedness\)}@} of {@{a permutation<sup>[\[5\]](#^ref-5)</sup> or sequence}@}.<sup>[\[9\]](#^ref-9)</sup> The inversion number is {@{between 0 and ${\frac {n(n-1)}{2} }$ inclusive}@}. {@{A permutation and its inverse}@} have {@{the same inversion number}@}. <!--SR:!2029-05-17,1274,352!2029-04-19,1250,352!2027-10-28,812,332!2029-06-03,1287,352!2029-05-05,1265,352!2029-04-30,1260,352!2029-09-01,1355,352!2026-05-25,134,397-->
+{@{The __inversion number__ ${\mathtt {inv} }(X)$<sup>[\[10\]](#^ref-10)</sup>}@} of {@{a sequence $X=\langle x_{1},\dots ,x_{n}\rangle$}@}, is {@{the [cardinality](cardinality.md) of the inversion set}@}. It is {@{a common measure of sortedness \(sometimes called presortedness\)}@} of {@{a permutation<sup>[\[5\]](#^ref-5)</sup> or sequence}@}.<sup>[\[9\]](#^ref-9)</sup> The inversion number is {@{between 0 and ${\frac {n(n-1)}{2} }$ inclusive}@}. {@{A permutation and its inverse}@} have {@{the same inversion number}@}. <!--SR:!2029-05-17,1274,352!2029-04-19,1250,352!2027-10-28,812,332!2029-06-03,1287,352!2029-05-05,1265,352!2029-04-30,1260,352!2029-09-01,1355,352!fsrs,2028-07-17T00:35:32.400Z,772,772.37146072,1,2,8,0,0,2026-06-06T00:35:32.400Z-->
 
 For example {@{${\mathtt {inv} }(\langle 1,2,\dots ,n\rangle )=0$}@} since {@{the sequence is ordered}@}. Also, {@{when $n=2m$ is even}@}, {@{${\mathtt {inv} }(\langle m+1,m+2,\dots ,2m,1,2,\dots ,m\rangle )=m^{2}$}@} \(because {@{each pair $(1\leq i\leq m<j\leq 2m)$ is an inversion}@}\). This last example shows that {@{a set that is intuitively "nearly sorted" can still have a quadratic number of inversions}@}. <!--SR:!2027-03-31,599,312!2029-08-20,1345,352!2029-08-22,1347,352!2027-12-08,842,332!2028-03-21,911,332!2029-05-30,1284,352-->
 
@@ -60,14 +60,14 @@ __Inversion vector $v$:__ ::@:: With the _element-based_ definition $v(i)$ is th
 - inversion vector, in words ::@:: $v(i)$ is the number of elements in $\pi$ greater than $i$ before $i$. <!--SR:!2026-08-11,332,272!2027-02-13,566,312-->
 - inversion vector, symbolically ::@:: $$v(i)~~=~~\#\{k\mid k>i~\land ~\pi ^{-1}(k)<\pi ^{-1}(i)\}$$ <!--SR:!2026-06-21,391,292!2026-11-19,532,312-->
 
-__Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is the number of inversions whose _bigger_ \(right\) component is $i$. <!--SR:!2026-06-05,339,252!2027-04-30,607,312-->
+__Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is the number of inversions whose _bigger_ \(right\) component is $i$. <!--SR:!fsrs,2028-06-01T00:35:29.408Z,726,726.37957881,5.41480337,2,9,0,0,2026-06-06T00:35:29.408Z!2027-04-30,607,312-->
 
 - left inversion count, in words ::@:: $l(i)$ is the number of elements in $\pi$ greater than $\pi (i)$ before $\pi (i)$. <!--SR:!2027-10-13,751,292!2027-05-13,618,312-->
-- left inversion count, symbolically ::@:: $$l(i)~~=~~\#\left\{k\mid k<i~\land ~\pi (k)>\pi (i)\right\}$$ <!--SR:!2027-03-25,583,312!2026-05-31,335,252-->
+- left inversion count, symbolically ::@:: $$l(i)~~=~~\#\left\{k\mid k<i~\land ~\pi (k)>\pi (i)\right\}$$ <!--SR:!2027-03-25,583,312!fsrs,2029-05-02T00:35:45.402Z,1061,1060.99608848,3.88147656,2,9,0,0,2026-06-06T00:35:45.402Z-->
 
 __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2027-05-29,579,272!2027-09-07,653,292-->
 
-- right inversion count, in words ::@:: $r(i)$ is the number of elements in $\pi$ smaller than $\pi (i)$ after $\pi (i)$. <!--SR:!2026-05-25,359,292!2026-12-10,544,312-->
+- right inversion count, in words ::@:: $r(i)$ is the number of elements in $\pi$ smaller than $\pi (i)$ after $\pi (i)$. <!--SR:!fsrs,2030-02-10T00:35:33.588Z,1345,1345.39597255,1.88024646,2,9,0,0,2026-06-06T00:35:33.588Z!2026-12-10,544,312-->
 - right inversion count, symbolically ::@:: $$r(i)~~=~~\#\{k\mid k>i~\land ~\pi (k)<\pi (i)\}$$ <!--SR:!2026-08-14,414,292!2026-10-20,508,312-->
 
 {@{Both $v$ and $r$}@} can be {@{found with the help of a [Rothe diagram](permutation.md#numbering%20permutations)}@}, which is {@{a [permutation matrix](permutation%20matrix.md)}@} with {@{the 1s represented by dots}@}, and {@{an inversion \(often represented by a cross\) in every position that has a dot to the right and below it}@}. $r(i)$ is the sum of inversions in row $i$ of the Rothe diagram, while $v(i)$ is the sum of inversions in column $i$. The permutation matrix of the inverse is the transpose, therefore $v$ of a permutation is $r$ of its inverse, and vice versa. <!--SR:!2029-06-02,1286,352!2027-12-01,842,332!2030-02-01,1371,312!2029-05-02,1261,352!2027-01-12,568,312-->

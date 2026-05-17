@@ -233,7 +233,7 @@ tags:
 > 3. income from principal business activities
 >
 > - solution: {@{3}@}
-> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2026-06-08,436,381!2032-08-07,2256,401-->
+> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!fsrs,2032-01-05T02:05:48.201Z,2037,2036.92992657,1,2,10,0,0,2026-06-08T02:05:48.201Z!2032-08-07,2256,401-->
 
 <!-- markdownlint MD028 -->
 
@@ -244,7 +244,7 @@ tags:
 > 3. income from peripheral activities
 >
 > - solution: {@{3}@}
-> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!2026-06-08,435,381!2032-07-22,2242,401-->
+> - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!fsrs,2032-01-01T02:05:52.775Z,2033,2032.87519052,1,2,10,0,0,2026-06-08T02:05:52.775Z!2032-07-22,2242,401-->
 
 <!-- markdownlint MD028 -->
 
@@ -264,7 +264,7 @@ tags:
 > 2. Seller discharged all the obligations under contract
 > 3. Seller received the cash from customers
 >
-> - solution: {@{2}@} <!--SR:!2026-06-06,434,381-->
+> - solution: {@{2}@} <!--SR:!fsrs,2031-12-26T01:45:59.798Z,2029,2028.81925912,1,2,10,0,0,2026-06-06T01:45:59.798Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -545,7 +545,7 @@ tags:
 > 2. how well a company is utilizing its fixed assets and resources
 > 3. the amount of capital that comes from debt
 >
-> - solution: {@{2}@} <!--SR:!2026-06-08,436,381-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-01-05T02:06:01.570Z,2037,2036.92992657,1,2,10,0,0,2026-06-08T02:06:01.570Z-->
 
 ## week 9 review
 
@@ -605,7 +605,7 @@ tags:
 > 2. A sum of money is worth more now than the same sum will be at a future date due to its earning potential
 > 3. Both of them are correct
 >
-> - solution: {@{3}@} <!--SR:!2026-06-07,434,381-->
+> - solution: {@{3}@} <!--SR:!fsrs,2031-12-30T02:05:57.972Z,2031,2031.43671375,1,2,10,0,0,2026-06-08T02:05:57.972Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -707,7 +707,7 @@ tags:
 > 2. stock splits change both the par value of each share and the total par value
 > 3. stock splits change only the par value of each share, but total par value remains unchanged
 >
-> - solution: {@{3}@} <!--SR:!2026-06-07,435,381-->
+> - solution: {@{3}@} <!--SR:!fsrs,2032-01-03T02:05:59.244Z,2035,2035.49152764,1,2,10,0,0,2026-06-08T02:05:59.244Z-->
 
 <!-- markdownlint MD028 -->
 

@@ -19,13 +19,13 @@ After {@{analyzing a sound using models}@}, we can {@{modify model data and para
 
 ### equalization
 
-{@{_Equalization_}@} is {@{simply a frequency filter that does not modify phase}@}, i.e. {@{it consists of real numbers in the frequency domain}@}. Common special cases include {@{band pass filters, which pass through a certain range of frequencies and disallow others}@}. The band pass filter is {@{often a window function \(i.e. not boxcar\) to minimize distortion}@}. <!--SR:!2026-07-13,293,330!2026-06-05,262,330!2026-07-07,287,330!2029-04-11,1074,350!2029-07-05,1133,350-->
+{@{_Equalization_}@} is {@{simply a frequency filter that does not modify phase}@}, i.e. {@{it consists of real numbers in the frequency domain}@}. Common special cases include {@{band pass filters, which pass through a certain range of frequencies and disallow others}@}. The band pass filter is {@{often a window function \(i.e. not boxcar\) to minimize distortion}@}. <!--SR:!2026-07-13,293,330!fsrs,2029-08-05T06:11:12.888Z,1156,1155.51731222,1,2,9,0,0,2026-06-06T06:11:12.888Z!2026-07-07,287,330!2029-04-11,1074,350!2029-07-05,1133,350-->
 
 ## morphing
 
 {@{_Morphing_}@} uses {@{the DFT magnitude of another sound \(but not its phase\) as a frequency filter}@}. Often, {@{the DFT magnitude is smoothened}@} first. The effect is that {@{the resulting sound is similar to the input sound but with characteristics of the other sound used to derive the filter}@}. Note that the magnitude mainly determines {@{the "content" while the phase mainly determines the "feeling"}@}. <!--SR:!2026-07-10,290,330!2029-04-14,1076,350!2026-07-11,291,330!2026-07-12,292,330!2029-08-20,1176,350-->
 
-{@{_Morphing_}@} may also refer to {@{analyzing two sounds with the same model\(s\)}@}, and then {@{interpolate the model data and/or parameters between the resulting two models}@}, and finally {@{re-synthesizing the sound}@}. Often, an {@{interpolation function \(taking time as input and outputting a value between 0 and 1\)}@} is used to {@{control how much of one sound is mixed compared to the other over time}@}. The sounds may be {@{smoothened}@} first. <!--SR:!2029-04-24,1078,350!2026-06-06,263,330!2026-07-11,291,330!2029-05-06,1090,350!2029-04-02,1066,350!2026-07-11,291,330!2029-04-30,1084,350-->
+{@{_Morphing_}@} may also refer to {@{analyzing two sounds with the same model\(s\)}@}, and then {@{interpolate the model data and/or parameters between the resulting two models}@}, and finally {@{re-synthesizing the sound}@}. Often, an {@{interpolation function \(taking time as input and outputting a value between 0 and 1\)}@} is used to {@{control how much of one sound is mixed compared to the other over time}@}. The sounds may be {@{smoothened}@} first. <!--SR:!2029-04-24,1078,350!fsrs,2029-08-06T06:11:12.061Z,1157,1156.92457827,1,2,9,0,0,2026-06-06T06:11:12.061Z!2026-07-11,291,330!2029-05-06,1090,350!2029-04-02,1066,350!2026-07-11,291,330!2029-04-30,1084,350-->
 
 ## sinusoidal spectral modeling
 

@@ -14,7 +14,7 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-__Intermolecular forces__ are {@{attractive or replusive [forces](force.md) between [molecules](molecule.md)}@}. They are {@{relatively weak}@} compared to [intramolecular forces](intramolecular%20force.md). <!--SR:!2033-02-24,2747,330!2026-05-29,878,330-->
+__Intermolecular forces__ are {@{attractive or replusive [forces](force.md) between [molecules](molecule.md)}@}. They are {@{relatively weak}@} compared to [intramolecular forces](intramolecular%20force.md). <!--SR:!2033-02-24,2747,330!fsrs,2035-07-16T10:02:01.801Z,3328,3328.49093326,1,2,11,0,0,2026-06-05T10:02:01.801Z-->
 
 Attractive forces include {@{[van der Waals forces](van%20der%20Waals%20force.md), [hydrogen bond](hydrogen%20bond.md), and [ion](ion.md)–(induced) dipole forces}@}. <!--SR:!2026-11-15,797,250-->
 

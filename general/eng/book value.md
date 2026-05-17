@@ -74,7 +74,7 @@ To {@{clearly distinguish the [market price](market%20value.md) of shares}@} fro
 
 1. The sale of shares/units by the business ::@:: increases the total book value. Book/sh will increase if the additional shares are issued at a price higher than the pre-existing book/sh. <!--SR:!2027-12-13,812,330!2029-05-18,1218,350-->
 2. The purchase of its own shares by the business ::@:: will decrease total book value. Book/shares will decrease if more is paid for them than was received when originally issued \(pre-existing book/sh\). <!--SR:!2027-12-22,820,330!2028-02-04,839,330-->
-3. Dividends paid out ::@:: will decrease book value and book/sh. <!--SR:!2026-06-07,381,310!2029-06-10,1241,350-->
+3. Dividends paid out ::@:: will decrease book value and book/sh. <!--SR:!fsrs,2030-07-06T08:29:05.618Z,1490,1490.10151815,1,2,10,0,0,2026-06-07T08:29:05.618Z!2029-06-10,1241,350-->
 4. {@{Comprehensive earnings/losses}@} will {@{increase/decrease book value and book/sh}@}. {@{Comprehensive earnings, in this case}@}, includes {@{net income from the Income Statement, foreign exchange translation changes to Balance Sheet items}@}, {@{accounting changes applied retroactively, and the [opportunity cost](opportunity%20cost.md) of options exercised}@}. <!--SR:!2029-09-03,1320,350!2029-06-29,1260,350!2029-06-22,1253,350!2027-04-01,564,310!2027-01-29,378,310-->
 
 ### new share issues and dilution

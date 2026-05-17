@@ -117,7 +117,7 @@ The content is in teaching order.
   - [§ dead load](../../../../general/structural%20load.md#dead%20load)
   - [§ live load](../../../../general/structural%20load.md#live%20load)
   - [§ wind load](../../../../general/structural%20load.md#wind%20load)
-  - soil load ::@:: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2026-06-06,567,330!2029-03-24,1391,370-->
+  - soil load ::@:: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!fsrs,2032-08-13T01:45:50.502Z,2260,2260.22733814,1,2,10,0,0,2026-06-06T01:45:50.502Z!2029-03-24,1391,370-->
   - water load ::@:: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2030-03-01,1663,370!2027-10-21,949,341-->
   - [§ thermal load](../../../../general/structural%20load.md#thermal%20load)
   - earthquake load ::@:: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2026-11-11,647,330!2029-10-19,1549,361-->
@@ -131,7 +131,7 @@ The content is in teaching order.
 - wall-frame ::@:: shear-walled frame: [rigid frame](../../../../general/rigid%20frame.md) + [shear wall](../../../../general/shear%20wall.md), see [shear wall § description](../../../../general/shear%20wall.md#description) <!--SR:!2026-12-17,670,330!2026-11-30,660,330-->
   - wall-frame stiffness ::@:: stiffer than rigid frame or shear wall alone <!--SR:!2028-04-25,946,290!2030-07-19,1779,370-->
   - wall-frame economic limit ::@:: up to about 50 stories <!--SR:!2030-01-25,1637,370!2027-09-03,933,350-->
-- framed tube ::@:: [tube](../../../../general/tube%20(structure).md) <!--SR:!2026-05-20,519,330!2027-11-24,983,350-->
+- framed tube ::@:: [tube](../../../../general/tube%20(structure).md) <!--SR:!fsrs,2032-03-31T10:13:24.756Z,2126,2126.38392422,1,2,10,0,0,2026-06-05T10:13:24.756Z!2027-11-24,983,350-->
   - [§ variation](../../../../general/tube%20(structure).md#variation)
 - core walls with outriggers ::@:: [structural system § outrigger](../../../../general/structural%20system.md#outrigger) <!--SR:!2028-07-14,1164,350!2028-04-28,967,301-->
 

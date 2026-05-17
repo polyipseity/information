@@ -11,7 +11,7 @@ tags:
 
 # covalent bond
 
-__Covalent bonding__ is {@{a type of [chemical bonding](chemical%20bond.md) involving the sharing of [electrons](electron.md) to form [electron pairs](electron%20pair.md) between [atoms](atom.md)}@}. <!--SR:!2026-05-23,602,210-->
+__Covalent bonding__ is {@{a type of [chemical bonding](chemical%20bond.md) involving the sharing of [electrons](electron.md) to form [electron pairs](electron%20pair.md) between [atoms](atom.md)}@}. <!--SR:!fsrs,2030-05-29T00:56:57.458Z,1453,1453.34713869,5.98276817,2,10,0,0,2026-06-06T00:56:57.458Z-->
 
 ## see also
 

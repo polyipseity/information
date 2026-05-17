@@ -116,4 +116,4 @@ do
 while (condition);
 ```
 
-The semantics of {@{`do...while`}@} is that {@{the statement block is executed}@} first. Then {@{the condition is executed}@}. If {@{the condition is `true`, we repeat the above process again}@}. If {@{the condition is `false`, the `do...while` statement ends its execution}@}. <!--SR:!2027-02-18,851,330!2026-06-05,25,392!2026-06-05,25,392!2026-06-06,26,392!2026-06-06,26,392-->
+The semantics of {@{`do...while`}@} is that {@{the statement block is executed}@} first. Then {@{the condition is executed}@}. If {@{the condition is `true`, we repeat the above process again}@}. If {@{the condition is `false`, the `do...while` statement ends its execution}@}. <!--SR:!2027-02-18,851,330!fsrs,2026-11-29T05:28:21.579Z,177,176.73131765,1,2,6,0,0,2026-06-05T05:28:21.579Z!fsrs,2026-11-29T05:28:20.718Z,177,176.73131765,1,2,6,0,0,2026-06-05T05:28:20.718Z!fsrs,2026-12-16T09:10:28.219Z,191,190.67066968,1,2,6,0,0,2026-06-08T09:10:28.219Z!fsrs,2026-12-16T09:10:26.881Z,191,190.67066968,1,2,6,0,0,2026-06-08T09:10:26.881Z-->

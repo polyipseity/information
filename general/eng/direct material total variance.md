@@ -22,7 +22,7 @@ In {@{[variance analysis \(accounting\)](variance%20analysis%20(accounting).md)}
 
 Let us assume that {@{standard direct material cost of [widget](widget%20(economics).md)}@} is as follows: <p> &emsp; {@{2 kg}@} of [unobtainium](unobtainium.md) at {@{\$ 60 per kg}@} \( = {@{\$ 120 per unit}@}\). <!--SR:!2026-07-14,266,330!2026-07-09,262,330!2026-07-06,259,330!2026-06-19,246,330-->
 
-Let us assume further that during the given period, {@{100 widgets were manufactured}@}, using {@{212 kg of [unobtainium](unobtainium.md) which cost \$ 13,144}@}. <!--SR:!2026-06-06,236,330!2026-07-03,257,330-->
+Let us assume further that during the given period, {@{100 widgets were manufactured}@}, using {@{212 kg of [unobtainium](unobtainium.md) which cost \$ 13,144}@}. <!--SR:!fsrs,2029-04-24T00:57:54.445Z,1053,1053.01305103,1,2,9,0,0,2026-06-06T00:57:54.445Z!2026-07-03,257,330-->
 
 Under those assumptions direct material total variance can be calculated as:
 
@@ -30,7 +30,7 @@ Under those assumptions direct material total variance can be calculated as:
 | ------------------------------------------------------ | --- | ------------------------------: | --------------- |
 | {@{100 units should have cost \(× \$ 120 per unit\)}@} |     |                  {@{€ 12,000}@} |                 |
 | &emsp; {@{but did cost}@}                              |     |           {@{<u>€ 13,144</u>}@} |                 |
-| {@{Direct material total variance}@}                   |     | {@{__<u><u>€ 1,144</u></u>__}@} | {@{__\(A\)__}@} | <!--SR:!2026-06-13,241,330!2026-07-22,272,330!2026-07-05,259,330!2026-06-06,235,330!2026-06-18,246,330!2026-08-12,288,330!2026-06-20,247,330-->
+| {@{Direct material total variance}@}                   |     | {@{__<u><u>€ 1,144</u></u>__}@} | {@{__\(A\)__}@} | <!--SR:!2026-06-13,241,330!2026-07-22,272,330!2026-07-05,259,330!fsrs,2029-04-20T00:57:53.438Z,1049,1049.13725568,1,2,9,0,0,2026-06-06T00:57:53.438Z!2026-06-18,246,330!2026-08-12,288,330!2026-06-20,247,330-->
 
 Direct material total variance can be reconciled to {@{[direct material price variance](direct%20material%20price%20variance.md) and [direct material usage variance](direct%20material%20usage%20variance.md)}@} by: <!--SR:!2026-07-04,258,330-->
 
@@ -38,9 +38,9 @@ Direct material total variance can be reconciled to {@{[direct material price va
 | ------------------------------------ | --- | --------------------------: | ----------- |
 | {@{Direct material usage variance}@} |     |                 {@{€ 720}@} | {@{\(A\)}@} |
 | {@{Direct material price variance}@} |     |          {@{<u>€ 424</u>}@} | {@{\(A\)}@} |
-| {@{Direct material total variance}@} |     | {@{<u><u>€ 1,144</u></u>}@} | {@{\(A\)}@} | <!--SR:!2026-06-25,251,330!2026-07-13,265,330!2026-08-11,287,330!2026-05-28,227,330!2026-07-10,263,330!2026-08-16,292,330!2026-06-26,252,330!2026-06-29,255,330!2026-08-14,290,330-->
+| {@{Direct material total variance}@} |     | {@{<u><u>€ 1,144</u></u>}@} | {@{\(A\)}@} | <!--SR:!2026-06-25,251,330!2026-07-13,265,330!2026-08-11,287,330!fsrs,2029-04-08T05:09:59.706Z,1038,1037.69718359,1,2,9,0,0,2026-06-05T05:09:59.706Z!2026-07-10,263,330!2026-08-16,292,330!2026-06-26,252,330!2026-06-29,255,330!2026-08-14,290,330-->
 
-See {@{[direct material usage variance\#Example](direct%20material%20usage%20variance.md#example) and [direct material price variance\#Example](direct%20material%20price%20variance.md#example)}@} for {@{computations of both components}@}. <!--SR:!2026-08-15,291,330!2026-06-08,237,330-->
+See {@{[direct material usage variance\#Example](direct%20material%20usage%20variance.md#example) and [direct material price variance\#Example](direct%20material%20price%20variance.md#example)}@} for {@{computations of both components}@}. <!--SR:!2026-08-15,291,330!fsrs,2029-04-30T01:59:51.587Z,1057,1056.88673602,1,2,9,0,0,2026-06-08T01:59:51.587Z-->
 
 ## see also
 

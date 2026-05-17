@@ -47,11 +47,11 @@ tags:
 > - small category ::@:: associative, identity <!--SR:!2027-06-08,608,310!2029-08-31,1324,350-->
 > - groupoid ::@:: associative, identity, divisible <!--SR:!2026-11-11,496,310!2028-01-16,668,250-->
 > - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2027-04-01,483,230!2027-06-06,608,310-->
-> - magma ::@:: total <!--SR:!2029-10-05,1345,350!2026-06-04,140,310-->
+> - magma ::@:: total <!--SR:!2029-10-05,1345,350!fsrs,2028-02-21T05:24:14.944Z,626,625.50511792,1,2,8,0,0,2026-06-05T05:24:14.944Z-->
 > - commutative magma ::@:: total, commutative <!--SR:!2029-10-05,1345,350!2028-08-25,953,330-->
 > - quasigroup ::@:: total, divisible <!--SR:!2027-03-04,500,270!2026-06-22,326,250-->
-> - commutative quasigroup ::@:: total, divisible, commutative <!--SR:!2026-06-01,337,290!2026-07-30,380,290-->
-> - unital magma ::@:: total, identity <!--SR:!2028-10-01,1060,350!2026-05-28,337,290-->
+> - commutative quasigroup ::@:: total, divisible, commutative <!--SR:!fsrs,2028-09-06T05:24:20.732Z,824,824.06537946,3.99122837,2,9,0,0,2026-06-05T05:24:20.732Z!2026-07-30,380,290-->
+> - unital magma ::@:: total, identity <!--SR:!2028-10-01,1060,350!fsrs,2029-11-13T05:24:14.266Z,1257,1256.80125559,1.98030797,2,9,0,0,2026-06-05T05:24:14.266Z-->
 > - commutative unital magma ::@:: total, identity, commutative <!--SR:!2028-03-25,846,330!2027-08-23,733,330-->
 > - loop ::@:: total, identity, divisible <!--SR:!2027-06-19,415,250!2028-01-22,675,250-->
 > - semigroup ::@:: total, associative <!--SR:!2028-01-23,673,250!2027-06-26,418,230-->

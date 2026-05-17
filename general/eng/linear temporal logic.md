@@ -129,7 +129,7 @@ Let {@{φ, ψ, and ρ}@} be {@{LTL formulas}@}. The following tables list {@{som
 >
 > - next distributivity ::@:: __X__ \(φ ∨ ψ\) ≡ \(<!-- markdown separator -->__X__ φ\) ∨ \(<!-- markdown separator -->__X__ ψ\) <br/> __X__ \(φ ∧ ψ\) ≡ \(<!-- markdown separator -->__X__ φ\) ∧ \(<!-- markdown separator -->__X__ ψ\) <br/> __X__ \(φ __U__ ψ\)≡ \(<!-- markdown separator -->__X__ φ\) __U__ \(<!-- markdown separator -->__X__ ψ\) <!--SR:!2030-01-03,1453,370!2030-07-15,1617,370-->
 > - finally and globally distributivity ::@:: __F__ \(φ ∨ ψ\) ≡ \(<!-- markdown separator -->__F__ φ\) ∨ \(<!-- markdown separator -->__F__ ψ\) <br/> __G__ \(φ ∧ ψ\) ≡ \(<!-- markdown separator -->__G__ φ\) ∧ \(<!-- markdown separator -->__G__ ψ\) <!--SR:!2026-11-09,527,317!2027-08-16,746,343-->
-> - until distributivity ::@:: ρ __U__ \(φ ∨ ψ\) ≡ \(ρ __U__ φ\) ∨ \(ρ __U__ ψ\) <br/> \(φ ∧ ψ\) __U__ ρ ≡ \(φ __U__ ρ\) ∧ \(ψ __U__ ρ\) <!--SR:!2026-08-04,446,323!2026-06-03,400,310-->
+> - until distributivity ::@:: ρ __U__ \(φ ∨ ψ\) ≡ \(ρ __U__ φ\) ∨ \(ρ __U__ ψ\) <br/> \(φ ∧ ψ\) __U__ ρ ≡ \(φ __U__ ρ\) ∧ \(ψ __U__ ρ\) <!--SR:!2026-08-04,446,323!fsrs,2030-09-14T00:35:52.342Z,1561,1561.06592105,1,2,10,0,0,2026-06-06T00:35:52.342Z-->
 
 | Negation propagation                            |                                                       |                                                       |                                                       |
 | ----------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
@@ -153,11 +153,11 @@ Let {@{φ, ψ, and ρ}@} be {@{LTL formulas}@}. The following tables list {@{som
 > __flashcards__
 >
 > - temporal idempotency ::@:: __F__ φ ≡ __F__ __F__ φ <br/> __G__ φ ≡ __G__ __G__ φ <br/> φ __U__ ψ ≡ φ __U__ \(φ __U__ ψ\) <!--SR:!2028-04-17,952,350!2026-06-29,417,310-->
-> - temporal expansion ::@:: φ __U__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __U__ ψ\) \) <br/> φ __W__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __W__ ψ\) \) <br/> φ __R__ ψ ≡ ψ ∧ \(φ ∨ __X__<!-- markdown separator -->\(φ __R__ ψ\) \) <!--SR:!2026-05-19,358,303!2026-12-23,473,270-->
+> - temporal expansion ::@:: φ __U__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __U__ ψ\) \) <br/> φ __W__ ψ ≡ ψ ∨ \( φ ∧ __X__<!-- markdown separator -->\(φ __W__ ψ\) \) <br/> φ __R__ ψ ≡ ψ ∧ \(φ ∨ __X__<!-- markdown separator -->\(φ __R__ ψ\) \) <!--SR:!fsrs,2030-04-17T00:36:09.734Z,1411,1411.44373963,1.32990818,2,9,0,0,2026-06-06T00:36:09.734Z!2026-12-23,473,270-->
 
 ## negation normal form
 
-{@{All the formulas}@} of LTL can be {@{transformed into _negation normal form_}@}, where  (annotation: 3 items: {@{restricted negations, restricted logical operators, restricted temporal operators}@}) <!--SR:!2031-04-18,1852,383!2026-05-25,26,411!2026-05-26,27,411-->
+{@{All the formulas}@} of LTL can be {@{transformed into _negation normal form_}@}, where  (annotation: 3 items: {@{restricted negations, restricted logical operators, restricted temporal operators}@}) <!--SR:!2031-04-18,1852,383!fsrs,2027-01-19T00:36:10.606Z,227,226.8972499,1,2,6,0,0,2026-06-06T00:36:10.606Z!fsrs,2027-01-21T00:35:53.717Z,229,229.3010143,1,2,6,0,0,2026-06-06T00:35:53.717Z-->
 
 - all negations ::@:: appear only in front of the atomic propositions, <!--SR:!2029-02-13,1196,357!2030-07-09,1614,370-->
 - only other logical operators ::@:: __true__, __false__, ∧, and ∨ can appear, and <!--SR:!2028-02-24,889,337!2029-01-10,1165,350-->

@@ -21,7 +21,7 @@ tags:
 > where
 >
 > - {@{$v$}@} is {@{the speed of a circular orbit of [radius](radius.md) $r$ from the center of a spherically symmetric primary body of [mass](mass.md) $M$}@}, and {@{$g=\frac{GM}{r^2}$}@} is {@{the [gravitational acceleration](gravitational%20acceleration.md) at said [radius](radius.md)}@}
-> - {@{$G = 6.674\,30(15) \times 10^{−11} \mathrm{\ m^3 \cdot kg^{-1} \cdot s^{−2} }$}@} is {@{the [gravitational constant](gravitational%20constant.md)}@} <!--SR:!2028-11-28,1199,290!2029-10-25,1349,270!2027-03-31,674,230!2026-05-26,73,350!2026-05-29,76,350!2026-06-03,80,350!2026-06-03,80,350-->
+> - {@{$G = 6.674\,30(15) \times 10^{−11} \mathrm{\ m^3 \cdot kg^{-1} \cdot s^{−2} }$}@} is {@{the [gravitational constant](gravitational%20constant.md)}@} <!--SR:!2028-11-28,1199,290!2029-10-25,1349,270!2027-03-31,674,230!fsrs,2027-08-24T00:31:30.254Z,444,443.97855541,1,2,7,0,0,2026-06-06T00:31:30.254Z!fsrs,2027-08-29T00:31:29.136Z,449,449.08800028,1,2,7,0,0,2026-06-06T00:31:29.136Z!fsrs,2027-09-02T00:31:26.702Z,453,452.51944214,1,2,7,0,0,2026-06-06T00:31:26.702Z!fsrs,2027-09-02T00:31:27.475Z,453,452.51944214,1,2,7,0,0,2026-06-06T00:31:27.475Z-->
 
 ## references
 

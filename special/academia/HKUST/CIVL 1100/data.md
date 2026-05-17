@@ -136,7 +136,7 @@ See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
 - base width ::@:: 230.33 m <!--SR:!2028-06-25,1068,376!2034-11-04,3077,416-->
 - construction period ::@:: 10~20 years around 2560 BC <!--SR:!2026-09-04,460,236!2033-05-10,2639,416-->
-- description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
+- description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!fsrs,2033-11-13T09:12:54.908Z,2715,2714.95019577,1,2,10,0,0,2026-06-08T09:12:54.908Z!2026-11-12,742,416-->
 - height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2028-10-05,1094,356!2034-04-26,2920,416-->
 - weight ::@:: 5.9 million tonnes <!--SR:!2027-08-02,832,376!2026-12-18,768,416-->
 - tomb for ::@:: Egypt's 4th dynasty pharaoh Khufu <!--SR:!2032-07-15,2359,396!2029-01-24,1358,396-->

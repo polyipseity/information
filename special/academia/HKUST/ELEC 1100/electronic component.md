@@ -177,7 +177,7 @@ Flashcards for this section are as follows:
 
 - energy definition ::@:: Energy is the ability to do work and can take forms like mechanical, thermal, electrical, or chemical; it is conserved during conversion. <!--SR:!2026-07-03,86,363!2026-07-29,91,363-->
 - battery energy role ::@:: Batteries supply electrical energy through electrochemical reactions and provide DC power with long storage times. <!--SR:!2026-06-29,83,363!2026-07-03,86,363-->
-- human/robot analogy ::@:: People get energy by eating food while robots obtain energy from batteries or power supplies. <!--SR:!2026-07-28,90,363!2026-06-05,59,343-->
+- human/robot analogy ::@:: People get energy by eating food while robots obtain energy from batteries or power supplies. <!--SR:!2026-07-28,90,363!fsrs,2027-05-05T05:24:21.824Z,334,333.5282588,1,2,7,0,0,2026-06-05T05:24:21.824Z-->
 - DC vs AC ::@:: Direct current (DC) has constant polarity and amplitude; alternating current (AC) oscillates and reverses direction periodically. <!--SR:!2026-06-29,83,363!2026-07-02,85,363-->
 - household AC frequency ::@:: Mains electricity typically alternates at $50\,\text{Hz}$ (Hong Kong) or $60\,\text{Hz}$ (some other countries). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-03,86,363!2026-07-28,90,363-->
 - energy formula circuit ::@:: Electrical energy delivered to charge $q$ through a voltage $V$ is $E = qV$, with $q$ measured in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-05,88,363!2026-07-30,92,363-->
