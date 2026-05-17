@@ -286,7 +286,7 @@ Flashcards for this section are as follows:
 - income tax payable recognition ::@:: Dr _Tax expense_ (or similar), Cr _Tax payable_ when tax is owed but not yet paid at the reporting date; classified as current liability. <!--SR:!2026-07-23,68,334!fsrs,2026-12-04T05:51:30.055Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:30.055Z-->
 - why is income tax payable usually current? ::@:: The amount is typically due within a few months (e.g. three or four months) after the reporting date. <!--SR:!fsrs,2026-12-04T05:54:59.404Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:59.404Z!2026-07-23,68,334-->
 - income tax payable: when and what entry? ::@:: At reporting date when tax is owed but not yet paid; Dr _Tax expense_, Cr _Tax payable_; classified as current liability. <!--SR:!2026-08-02,77,334!2026-08-02,77,334-->
-- income tax example: tax expense 135 000 owed at year-end—entry? ::@:: Dr _Tax expense_ 135 000, Cr _Tax payable_ 135 000. <!--SR:!2026-07-23,68,334!2026-07-20,66,321-->
+- income tax example: tax expense 135 000 owed at year-end—entry? ::@:: Dr _Tax expense_ 135 000, Cr _Tax payable_ 135 000. <!--SR:!2026-07-23,68,334!fsrs,2027-06-25T00:00:00.000Z,339,339.4035091,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
 
 ## compensated absence
 

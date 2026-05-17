@@ -13,7 +13,7 @@ tags:
 
 > {@{![The competitive price system according to Paul Samuelson](../../archives/Wikimedia%20Commons/The%20competitive%20price%20system%20adapted%20from%20Samuelson,%201961.jpg)}@}
 >
-> {@{The competitive price system according to [Paul Samuelson](Paul%20Samuelson.md)}@} <!--SR:!2026-07-20,456,310!2029-07-31,1339,350-->
+> {@{The competitive price system according to [Paul Samuelson](Paul%20Samuelson.md)}@} <!--SR:!fsrs,2031-04-30T00:00:00.000Z,1744,1743.88224673,1,2,10,0,0,2026-07-21T00:00:00.000Z!2029-07-31,1339,350-->
 
 <!-- markdownlint MD028 -->
 

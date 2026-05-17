@@ -54,7 +54,7 @@ Flashcards for this section are as follows:
 - mean squared error $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$ ::@:: The standard linear-regression objective is $L(w)=\frac{1}{N}\sum_{i=1}^N (y_i-w^\top x_i)^2$. <!--SR:!2026-08-07,82,341!2026-07-28,73,324-->
 - why squared error is used ::@:: Squaring residuals prevents sign cancellation and penalizes large mistakes more strongly than small ones. <!--SR:!2026-08-26,88,363!2026-08-06,86,353-->
 - ordinary least squares ::@:: Ordinary least squares chooses the parameter vector $w$ that minimizes the average squared residual over the training set. <!--SR:!2026-07-27,72,324!2026-08-02,78,341-->
-- why OLS is the default linear-regression method ::@:: OLS is the most common linear-regression method because it is analytically simple, computationally convenient, and coincides with Gaussian maximum likelihood. <!--SR:!2026-08-11,86,353!2026-07-20,69,324-->
+- why OLS is the default linear-regression method ::@:: OLS is the most common linear-regression method because it is analytically simple, computationally convenient, and coincides with Gaussian maximum likelihood. <!--SR:!2026-08-11,86,353!fsrs,2027-07-12T00:00:00.000Z,356,356.49943311,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
 - closed-form OLS solution ::@:: Under the squared-loss setup, OLS often has the explicit solution $\hat w=(X^\top X)^{-1}X^\top y$ when $X^\top X$ is invertible. <!--SR:!2026-08-05,85,353!2026-08-05,85,353-->
 - what closed-form or analytic solution means ::@:: A closed-form or analytic solution means the optimizer can be written explicitly by a finite sequence of algebraic operations instead of being found only by iterative search. <!--SR:!2026-08-27,89,363!2026-08-03,83,341-->
 - why closed-form solutions are desirable ::@:: Closed-form solutions are desirable because they expose how the optimizer depends on the data, avoid convergence tuning, and in the OLS case identify the global optimum directly. <!--SR:!2026-08-05,85,353!2026-08-14,93,363-->
@@ -90,7 +90,7 @@ Flashcards for this section are as follows:
 
 - one-feature fit setup ::@:: In the one-feature toy problem, linear regression fits a line $\hat y = w_0 + w_1x_1$ to the three points $(2,2)$, $(4,3)$, and $(6,4)$. <!--SR:!fsrs,2027-06-21T00:00:00.000Z,341,340.64659884,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-08-11,86,353-->
 - why a line need not pass through every point ::@:: In general, least squares chooses the line that minimizes average squared residuals, so it balances all observations rather than forcing perfect interpolation. <!--SR:!2026-08-14,93,363!2026-08-03,78,341-->
-- one-feature residuals: For the one-feature linear regression model $\hat y=w_0+w_1x_1$ fitted to the three data points $(x_1,y)=(2,2),(4,3),(6,4)$, what are the three residuals observed minus predicted? ::@:: The residuals are $2-(w_0+2w_1)$, $3-(w_0+4w_1)$, and $4-(w_0+6w_1)$. <!--SR:!2026-07-20,66,310!2026-08-11,86,353-->
+- one-feature residuals: For the one-feature linear regression model $\hat y=w_0+w_1x_1$ fitted to the three data points $(x_1,y)=(2,2),(4,3),(6,4)$, what are the three residuals observed minus predicted? ::@:: The residuals are $2-(w_0+2w_1)$, $3-(w_0+4w_1)$, and $4-(w_0+6w_1)$. <!--SR:!fsrs,2027-06-12T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-07-21T00:00:00.000Z!2026-08-11,86,353-->
 
 ### solving the toy problem by differentiation
 
@@ -620,7 +620,7 @@ Now the key observation is simple: if $\sigma$ is fixed, then the first term is 
 Flashcards for this section are as follows:
 
 - one-sample Gaussian negative log-likelihood ::@:: For one example with Gaussian output noise, $-\log p(y\mid x,\theta)=\frac{1}{2}\log(2\pi\sigma^2)+\frac{(y-w^\top x)^2}{2\sigma^2}$. <!--SR:!2026-08-08,83,341!2026-07-25,70,324-->
-- dataset Gaussian objective ::@:: Averaging Gaussian negative log-likelihood over the dataset gives $\frac{1}{2}\log(2\pi\sigma^2)+\frac{1}{2N\sigma^2}\sum_{i=1}^N (y_i-w^\top x_i)^2$. <!--SR:!2026-08-04,84,353!2026-07-20,68,342-->
+- dataset Gaussian objective ::@:: Averaging Gaussian negative log-likelihood over the dataset gives $\frac{1}{2}\log(2\pi\sigma^2)+\frac{1}{2N\sigma^2}\sum_{i=1}^N (y_i-w^\top x_i)^2$. <!--SR:!2026-08-04,84,353!fsrs,2027-07-31T00:00:00.000Z,375,375.2367062,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
 - why Gaussian likelihood penalizes squared residuals ::@:: In a Gaussian density the exponent is proportional to $-(y-w^\top x)^2$, so larger squared residuals directly reduce likelihood. <!--SR:!2026-08-04,84,353!2026-08-11,86,353-->
 - why the Gaussian derivation is important ::@:: It shows that MSE is not arbitrary; it is the natural objective induced by a Gaussian conditional output model. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-08-11,86,353-->
 

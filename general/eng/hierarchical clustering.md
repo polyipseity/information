@@ -175,7 +175,7 @@ We define the _chi-squared measure_ between two binary variables $A$ and $B$, de
 > | __1__     | $a$   | $b$   |
 > | __0__     | $c$   | $d$   |
 >
-> The _chi-squared measure_ of $A$ and $B$ (symbol: $\chi_{AB}^2$ or $\chi_{BA}^2$) is defined as {@{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(a + b + c + d)(ad - bc)^2} {(a + b)(b + d)(d + c)(c + a)}$$}@}. The equation in words, which may be easier to remember, is {@{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(\text{total})((\text{true positive})(\text{true negative}) - (\text{false positive})(\text{false negative}))^2} {(A\text{ is true})(A\text{ is false})(B\text{ is true})(B\text{ is false})}$$}@}. <!--SR:!2028-08-02,1041,295!2026-07-20,446,275!2026-12-16,395,235-->
+> The _chi-squared measure_ of $A$ and $B$ (symbol: $\chi_{AB}^2$ or $\chi_{BA}^2$) is defined as {@{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(a + b + c + d)(ad - bc)^2} {(a + b)(b + d)(d + c)(c + a)}$$}@}. The equation in words, which may be easier to remember, is {@{$$\chi_{AB}^2 = \chi_{BA}^2 = \frac {(\text{total})((\text{true positive})(\text{true negative}) - (\text{false positive})(\text{false negative}))^2} {(A\text{ is true})(A\text{ is false})(B\text{ is true})(B\text{ is false})}$$}@}. <!--SR:!2028-08-02,1041,295!fsrs,2030-08-25T00:00:00.000Z,1496,1496.22238585,2.73076926,2,10,0,0,2026-07-21T00:00:00.000Z!2026-12-16,395,235-->
 
 The chi-squared measure describes {@{the degree of correlation between two variables}@}. <!--SR:!2032-06-17,2240,335-->
 

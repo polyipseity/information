@@ -102,7 +102,7 @@ Although {@{indicator functions are not smooth}@}, they {@{admit [weak derivativ
 
 ## notes
 
-1. a. The [Greek letter](Greek%20alphabet.md) _χ_ appears because ::@:: it is the initial letter of the Greek word χαρακτήρ, which is the ultimate origin of the word _characteristic_. <a id="^ref-a"></a>^ref-a <!--SR:!2026-07-20,416,310!2029-01-31,1160,350-->
+1. a. The [Greek letter](Greek%20alphabet.md) _χ_ appears because ::@:: it is the initial letter of the Greek word χαρακτήρ, which is the ultimate origin of the word _characteristic_. <a id="^ref-a"></a>^ref-a <!--SR:!fsrs,2030-12-16T00:00:00.000Z,1609,1609.19787452,1,2,10,0,0,2026-07-21T00:00:00.000Z!2029-01-31,1160,350-->
 2. b. The set of all indicator functions on _X_ can be {@{identified with ${\mathcal {P} }(X)$, the [power set](power%20set.md) of _X_}@}. Consequently, {@{both sets are sometimes denoted by $2^{X}$}@}. This is a special case {@{\( $Y=\{0,1\}=2$\) of the notation $Y^{X}$ for the set of all functions $f:X\to Y$}@}. <a id="^ref-b"></a>^ref-b <!--SR:!2029-09-16,1338,350!2029-07-09,1269,350!2028-11-06,1092,350-->
 
 ## references

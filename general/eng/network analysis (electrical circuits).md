@@ -51,7 +51,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 
 - {@{__[Component](electronic%20component.md)__}@}: {@{A device with two or more [terminals](<terminal%20(electronics).md>) into which, or out of which, current may flow.}@} <!--SR:!2029-02-26,1122,350!2029-11-15,1321,360-->
 
-- {@{__[Node](<node%20(circuits).md>)__}@}: {@{A point at which terminals of more than two components are joined}@}. {@{A conductor with a substantially zero resistance}@} is considered to be {@{a node for the purpose of analysis}@}. <!--SR:!2029-08-14,1255,350!2030-11-13,1631,369!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
+- {@{__[Node](<node%20(circuits).md>)__}@}: {@{A point at which terminals of more than two components are joined}@}. {@{A conductor with a substantially zero resistance}@} is considered to be {@{a node for the purpose of analysis}@}. <!--SR:!2029-08-14,1255,350!2030-11-13,1631,369!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z-->
 
 - {@{__Branch__}@}: {@{The component\(s\) joining two nodes.}@} <!--SR:!2028-11-28,1053,360!fsrs,2031-05-06T00:00:00.000Z,1758,1758.43253061,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
 
@@ -61,7 +61,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 
 - {@{__[Circuit](electrical%20circuit.md)__}@}: {@{A current from one terminal of a [generator](<generator%20(circuit%20theory).md>)}@}, through {@{load component\(s\) and back into the other terminal}@}. A circuit is, in this sense, {@{a one-port network and is a trivial case to analyse}@}. If {@{there is any connection to any other circuits}@} then {@{a non-trivial network has been formed and at least two ports must exist}@}. Often, {@{"circuit" and "network" are used interchangeably}@}, but {@{many analysts reserve "network" to mean an idealised model consisting of ideal components}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!fsrs,2031-01-02T06:06:42.865Z,1662,1661.89560483,1,2,9,0,0,2026-06-15T06:06:42.865Z!2028-01-27,797,330!2030-10-21,1608,369!fsrs,2031-03-31T00:00:00.000Z,1730,1730.35650125,1,2,10,0,0,2026-07-05T00:00:00.000Z!2026-07-23,389,360!fsrs,2031-04-26T00:00:00.000Z,1750,1750.41742438,1,2,10,0,0,2026-07-11T00:00:00.000Z!fsrs,2031-03-01T00:00:00.000Z,1706,1706.23910791,1,2,10,0,0,2026-06-29T00:00:00.000Z!fsrs,2031-02-03T00:00:00.000Z,1686,1686.10380103,1,2,10,0,0,2026-06-23T00:00:00.000Z-->
 
-- {@{__[Transfer function](transfer%20function.md)__}@}: The relationship of {@{the currents and/or voltages between two ports}@}. Most often, {@{an input port and an output port are discussed}@} and {@{the transfer function}@} is {@{described as gain or attenuation}@}. <!--SR:!2026-07-20,386,360!2026-07-29,395,360!2029-07-21,1235,350!2027-11-13,701,423!2028-02-06,757,423-->
+- {@{__[Transfer function](transfer%20function.md)__}@}: The relationship of {@{the currents and/or voltages between two ports}@}. Most often, {@{an input port and an output port are discussed}@} and {@{the transfer function}@} is {@{described as gain or attenuation}@}. <!--SR:!fsrs,2031-06-03T00:00:00.000Z,1778,1778.44744092,1,2,10,0,0,2026-07-21T00:00:00.000Z!2026-07-29,395,360!2029-07-21,1235,350!2027-11-13,701,423!2028-02-06,757,423-->
 
 - {@{__Component transfer function__}@}: For {@{a two-terminal component \(i.e. one-port component\)}@}, {@{the current and voltage}@} are taken as {@{the input and output}@} and {@{the transfer function}@} will {@{have units of impedance or admittance \(it is usually a matter of arbitrary convenience whether voltage or current is considered the input\)}@}. {@{A three \(or more\) terminal component}@} effectively has {@{two \(or more\) ports}@} and {@{the transfer function cannot be expressed as a single impedance}@}. The usual approach is to {@{express the transfer function as a matrix of parameters}@}. These parameters can be {@{impedances}@}, but there is {@{a large number of other approaches \(see [two-port network](two-port%20network.md)\)}@}. <!--SR:!2026-09-16,352,403!2027-06-13,541,403!2027-11-16,704,423!2027-11-15,703,423!2027-12-31,741,423!2027-06-07,536,403!2028-01-11,751,423!2027-10-12,675,423!2027-11-18,706,423!fsrs,2028-05-29T02:18:51.018Z,715,714.66030858,1,2,8,0,0,2026-06-14T02:18:51.018Z!fsrs,2028-04-30T01:59:35.094Z,692,692.47822021,1,2,8,0,0,2026-06-08T01:59:35.094Z!fsrs,2028-04-29T01:59:33.490Z,691,690.92847746,1,2,8,0,0,2026-06-08T01:59:33.490Z-->
 
@@ -150,7 +150,7 @@ Consider {@{n admittances that are connected in __parallel__}@}. {@{The current 
 
 \(annotation: $I_1$\) ::@:: $$I_{1}=\left({\frac {Z_{2} }{Z_{1}+Z_{2} } }\right)I$$ <!--SR:!2030-07-15,1535,369!2029-03-12,1133,350-->
 
-\(annotation: $I_2$\) ::@:: $$I_{2}=\left({\frac {Z_{1} }{Z_{1}+Z_{2} } }\right)I$$ <!--SR:!2029-01-20,1090,350!2026-07-20,386,360-->
+\(annotation: $I_2$\) ::@:: $$I_{2}=\left({\frac {Z_{1} }{Z_{1}+Z_{2} } }\right)I$$ <!--SR:!2029-01-20,1090,350!fsrs,2031-06-03T00:00:00.000Z,1778,1778.44744092,1,2,10,0,0,2026-07-21T00:00:00.000Z-->
 
 ## nodal analysis
 

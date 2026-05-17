@@ -188,7 +188,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------- | --------------------:|
 > | {@{Beginning Inventory}@}       | {@{420}@}            |
 > | {@{Started This Period}@}       | {@{690}@}            |
-> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2026-07-22,394,361!2031-02-02,1706,381!fsrs,2031-04-02T00:00:00.000Z,1740,1739.66758985,1,2,10,0,0,2026-06-27T00:00:00.000Z!2026-07-20,392,361!fsrs,2031-04-28T00:00:00.000Z,1760,1759.78062992,1,2,10,0,0,2026-07-03T00:00:00.000Z!fsrs,2031-04-18T00:00:00.000Z,1752,1751.7393707,1,2,10,0,0,2026-07-01T00:00:00.000Z!2031-02-02,1706,381!fsrs,2031-06-18T00:00:00.000Z,1796,1795.90100175,1,2,10,0,0,2026-07-18T00:00:00.000Z!fsrs,2031-04-02T00:00:00.000Z,1740,1739.66758985,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
+> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2026-07-22,394,361!2031-02-02,1706,381!fsrs,2031-04-02T00:00:00.000Z,1740,1739.66758985,1,2,10,0,0,2026-06-27T00:00:00.000Z!fsrs,2031-07-03T00:00:00.000Z,1808,1807.91786124,1,2,10,0,0,2026-07-21T00:00:00.000Z!fsrs,2031-04-28T00:00:00.000Z,1760,1759.78062992,1,2,10,0,0,2026-07-03T00:00:00.000Z!fsrs,2031-04-18T00:00:00.000Z,1752,1751.7393707,1,2,10,0,0,2026-07-01T00:00:00.000Z!2031-02-02,1706,381!fsrs,2031-06-18T00:00:00.000Z,1796,1795.90100175,1,2,10,0,0,2026-07-18T00:00:00.000Z!fsrs,2031-04-02T00:00:00.000Z,1740,1739.66758985,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -296,7 +296,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
     - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion <!--SR:!2027-10-27,733,330!2030-10-15,1613,370-->
     - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total <!--SR:!2027-04-11,571,330!2029-02-05,1103,350-->
   - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total <!--SR:!2029-07-01,1222,350!2029-01-29,1097,350-->
-  - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2026-07-20,363,310!2027-10-16,677,330-->
+  - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!fsrs,2030-06-18T00:00:00.000Z,1428,1428.35630732,1,2,10,0,0,2026-07-21T00:00:00.000Z!2027-10-16,677,330-->
   - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit <!--SR:!2030-11-09,1621,370!2031-01-09,1682,370-->
   - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total <!--SR:!2026-10-11,432,310!2029-02-15,1098,350-->
 - production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!fsrs,2031-04-11T00:00:00.000Z,1749,1749.00092967,1,2,10,0,0,2026-06-27T00:00:00.000Z!fsrs,2031-03-27T00:00:00.000Z,1737,1736.88579623,1,2,10,0,0,2026-06-24T00:00:00.000Z-->

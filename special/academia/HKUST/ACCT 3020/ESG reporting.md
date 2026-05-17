@@ -161,7 +161,7 @@ The course slides organise Hong Kong ESG KPIs into aspect groups rather than tre
 Flashcards for this section are as follows:
 
 - ESG KPI aspect groups: why use them? ::@:: They force ESG reporting to move from vague claims to topic-specific, measurable evidence tied to each aspect area. <!--SR:!2026-07-21,70,328!2026-07-26,75,328-->
-- KPI aspect groups: what is the exam mindset? ::@:: Understand which category an ESG metric belongs to and why the framework expects quantitative support inside each category. <!--SR:!2026-07-20,70,328!2026-07-23,72,328-->
+- KPI aspect groups: what is the exam mindset? ::@:: Understand which category an ESG metric belongs to and why the framework expects quantitative support inside each category. <!--SR:!fsrs,2027-07-22T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-21T00:00:00.000Z!2026-07-23,72,328-->
 
 ### environmental aspects
 
@@ -176,7 +176,7 @@ For the __environmental__ category, common aspect groups are:
 
 Flashcards for this section are as follows:
 
-- environmental ESG aspects in Hong Kong: what are the four headline groups? ::@:: A1 emissions, A2 use of resources, A3 environment and natural resources, and A4 climate change. <!--SR:!2026-07-20,70,328!fsrs,2027-03-07T00:00:00.000Z,250,250.30629619,1.07975443,2,7,0,0,2026-06-30T00:00:00.000Z-->
+- environmental ESG aspects in Hong Kong: what are the four headline groups? ::@:: A1 emissions, A2 use of resources, A3 environment and natural resources, and A4 climate change. <!--SR:!fsrs,2027-07-22T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-03-07T00:00:00.000Z,250,250.30629619,1.07975443,2,7,0,0,2026-06-30T00:00:00.000Z-->
 - A4 climate change: what belongs there? ::@:: Significant climate-related physical and transition risks together with the actions taken to address them. <!--SR:!2026-07-25,74,328!fsrs,2027-06-19T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 
 ### social aspects
@@ -206,7 +206,7 @@ Flashcards for this section are as follows:
 - social ESG aspects in Hong Kong: what are the main B-series groups? ::@:: B1 employment, B2 health and safety, B3 development and training, B4 labour standards, B5 supply chain management, B6 product responsibility, B7 anti-corruption, and B8 community investment. <!--SR:!2026-07-26,75,328!2026-07-25,74,328-->
 - social KPI examples: what do B2, B3, and B7 typically quantify? ::@:: B2 tracks safety outcomes such as injuries or fatalities, B3 tracks training such as hours per employee, and B7 tracks concluded corruption cases. <!--SR:!fsrs,2027-07-17T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - ESG KPI framework: why are aspect groups useful? ::@:: They force disclosure to move from vague claims to topic-specific, measurable evidence. <!--SR:!2026-07-24,73,328!2026-07-24,73,328-->
-- B7 anti-corruption: example of a quantitative disclosure ::@:: The number of concluded legal cases regarding corrupt practices brought against the issuer or its employees. <!--SR:!2026-07-20,70,328!2026-07-21,70,328-->
+- B7 anti-corruption: example of a quantitative disclosure ::@:: The number of concluded legal cases regarding corrupt practices brought against the issuer or its employees. <!--SR:!fsrs,2027-07-22T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-21T00:00:00.000Z!2026-07-21,70,328-->
 
 ## applying the materiality matrix
 
