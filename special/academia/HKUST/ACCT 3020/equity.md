@@ -744,9 +744,9 @@ Intuitively:
 
 Flashcards for this section are as follows:
 
-- ROE: formula in this course ::@:: (Profit for the year − Preference dividends) ÷ Average ordinary shareholders' equity. <!--SR:!2026-07-03,56,310!2026-07-02,55,310-->
+- ROE: formula in this course ::@:: (Profit for the year − Preference dividends) ÷ Average ordinary shareholders' equity. <!--SR:!2026-07-03,56,310!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
 - ROE: why subtract preference dividends? ::@:: Because ROE is meant to measure the return available to ordinary shareholders after satisfying the fixed claims of preference shareholders. <!--SR:!2026-07-03,56,310!2026-07-03,56,310-->
-- ROE: what goes into ordinary shareholders' equity? ::@:: Ordinary _Share capital_ plus reserves and _Retained earnings_ attributable to ordinary shareholders, usually averaged over the period (beginning and ending). <!--SR:!2026-07-02,55,310!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z-->
+- ROE: what goes into ordinary shareholders' equity? ::@:: Ordinary _Share capital_ plus reserves and _Retained earnings_ attributable to ordinary shareholders, usually averaged over the period (beginning and ending). <!--SR:!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z-->
 - ROE: intuitive interpretation ::@:: For each dollar of ordinary shareholders' equity invested in the company, ROE shows how many dollars of profit (after preference dividends) were generated during the year. <!--SR:!2026-07-04,57,310!2026-07-05,58,310-->
 
 ## share dividends versus share splits
@@ -763,7 +763,7 @@ The numerical contrast matters. If a company with 100 000 shares at par 2 declar
 Flashcards for this section are as follows:
 
 - share dividend vs share split: key accounting difference ::@:: Share dividend transfers retained earnings to share capital (par unchanged; shares ↑); share split changes par per share and number of shares but leaves share capital and retained earnings unchanged (no journal entry). <!--SR:!2026-07-05,58,310!2026-07-10,63,310-->
-- 2-for-1 share split: effect on par and shares ::@:: Par value per share halves and the number of shares doubles; total share capital remains the same. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-07-02,55,310-->
+- 2-for-1 share split: effect on par and shares ::@:: Par value per share halves and the number of shares doubles; total share capital remains the same. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
 - share dividend versus share split: why is a share dividend not just a small share split? ::@:: Because a share dividend reclassifies an amount from retained earnings into share capital, while a share split changes share count and par per share without reclassifying equity balances. <!--SR:!2026-08-09,90,361!2026-08-07,88,361-->
 - share dividend versus share split: numerical contrast in the example ::@:: Starting from 100 000 shares at par 2, a 20% share dividend issues 20 000 new shares and reclassifies 40 000 within equity, whereas a 2-for-1 share split raises shares to 200 000 and cuts par per share to 1 without moving any amount out of retained earnings. <!--SR:!2026-08-09,90,361!2026-07-31,81,355-->
 

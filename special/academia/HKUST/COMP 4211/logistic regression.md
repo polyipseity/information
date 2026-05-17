@@ -90,7 +90,7 @@ Flashcards for this section are as follows:
 - logit or log-odds ::@:: The logit is $\operatorname{logit}(p)=\log \frac{p}{1-p}$, which maps probabilities from $(0,1)$ to $\mathbb{R}$, linearizes multiplicative odds effects, and is exactly the inverse of the sigmoid link. <!--SR:!2026-08-02,80,343!2026-07-17,67,329-->
 - why logistic regression is linear in the logit ::@:: Logistic regression satisfies $\log \frac{P(y=1\mid x,w)}{P(y=0\mid x,w)} = w^\top x$, so the log-odds are a linear function of the features. <!--SR:!2026-08-02,83,343!2026-07-26,76,351-->
 - meaning of a large positive score ::@:: A large positive value of $w^\top x$ means the model assigns class $1$ odds far above $1$ and therefore predicts a probability near $1$. <!--SR:!2026-07-26,76,351!2026-07-07,57,310-->
-- coefficient interpretation on odds scale ::@:: A one-unit increase in feature $x_j$ shifts log-odds by $w_j$, so the odds are multiplied by $e^{w_j}$ when other features are fixed. <!--SR:!2026-07-02,52,317!2026-08-04,85,351-->
+- coefficient interpretation on odds scale ::@:: A one-unit increase in feature $x_j$ shifts log-odds by $w_j$, so the odds are multiplied by $e^{w_j}$ when other features are fixed. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,273,272.64702251,1,2,7,0,0,2026-07-03T00:00:00.000Z!2026-08-04,85,351-->
 - odds-versus-logit memory cue ::@:: Odds answer the multiplicative question $\frac{p}{1-p}$, while logit answers the additive-linear question $\log\frac{p}{1-p}=w^\top x$. <!--SR:!2026-07-06,56,310!2026-07-30,80,343-->
 
 ### worked probability and log-odds computation

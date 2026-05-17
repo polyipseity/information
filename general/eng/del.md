@@ -122,7 +122,7 @@ For {@{[matrix calculus](matrix%20calculus.md) \(for which $\mathbf {u} \cdot \m
 > - $\nabla \cdot (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {v} \cdot (\nabla \times \mathbf {u} )-\mathbf {u} \cdot (\nabla \times \mathbf {v} )$ <!--SR:!2026-07-24,190,210!2027-05-13,555,270-->
 > - $\nabla \times (f\mathbf {v} )$ ::@:: $=(\nabla f)\times \mathbf {v} +f(\nabla \times \mathbf {v} )$ <!--SR:!2027-09-04,664,290!2029-10-14,1322,350-->
 > - $\nabla \times (\mathbf {u} \times \mathbf {v} )$ ::@:: $=\mathbf {u} \,(\nabla \cdot \mathbf {v} )-\mathbf {v} \,(\nabla \cdot \mathbf {u} )+(\mathbf {v} \cdot \nabla )\,\mathbf {u} -(\mathbf {u} \cdot \nabla )\,\mathbf {v}$ <!--SR:!2026-10-21,335,250!fsrs,2026-08-22T13:31:05.471Z,69,69.4580777,8.49157352,2,6,0,0,2026-06-14T13:31:05.471Z-->
-> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!fsrs,2026-07-02T00:32:36.201Z,26,25.54526343,9.23597837,2,5,0,0,2026-06-06T00:32:36.201Z!2027-02-20,377,230-->
+> - $\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u}$ ::@:: $=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u}$ <!--SR:!fsrs,2026-08-12T00:00:00.000Z,40,40.26282923,9.22197076,2,6,0,0,2026-07-03T00:00:00.000Z!2027-02-20,377,230-->
 > - $\nabla \cdot (\mathbf {u} \otimes \mathbf {v} )$ ::@:: $=(\nabla \cdot \mathbf {u} )\mathbf {v} +(\mathbf {u} \cdot \nabla )\mathbf {v}$ <!--SR:!2029-03-21,1040,310!2026-07-16,138,270-->
 
 ## second derivatives

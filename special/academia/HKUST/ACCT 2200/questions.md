@@ -70,7 +70,7 @@ Below are some questions or question tips.
 - current loan balance ::@:: The instructor handles the current loan balance by adding an extra row showing the current loan balance after the ending cash balance. <!--SR:!2029-07-19,1160,350!2029-07-26,1167,350-->
 - depreciation :;@:: Remember to "less: depreciation" from cash disbursements, as they are not cash outflows, but likely included in fixed manufacturing overhead.
 - preliminary cash balance ::@:: The instructor uses this cash balance to include everything \(including interest expense\) except for cash borrowed or \(repaid\). <!--SR:!2029-06-29,1143,350!2029-07-01,1141,350-->
-- merging formats ::@:: Honestly you do not need to separate budgets exactly like outlined in the lecture slides, e.g. separating cash collection and receipt. Give what the question asks for with minimum effort. <!--SR:!2026-07-02,288,330!fsrs,2029-09-15T15:32:04.662Z,1191,1191.26470738,1,2,9,0,0,2026-06-12T15:32:04.662Z-->
+- merging formats ::@:: Honestly you do not need to separate budgets exactly like outlined in the lecture slides, e.g. separating cash collection and receipt. Give what the question asks for with minimum effort. <!--SR:!fsrs,2029-12-06T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-07-03T00:00:00.000Z!fsrs,2029-09-15T15:32:04.662Z,1191,1191.26470738,1,2,9,0,0,2026-06-12T15:32:04.662Z-->
 - rounding ::@:: Some numbers, e.g. production units, may need rounding. Some numbers, e.g. direct materials inventory, do not. See what the question asks for, else use common sense. <p> Dollar amounts are rounded to 2 decimal places. For further calculations, no need to keep extra decimal places \(otherwise it would be painful\). <!--SR:!2029-08-04,1162,350!2029-07-19,1146,350-->
 
 ## variance analysis

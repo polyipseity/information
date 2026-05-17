@@ -11,7 +11,7 @@ tags:
 
 # `strcat`
 
-- _defined in {@{[`<string.h>`](../../../../general/C%20string%20handling.md)}@}_ <!--SR:!2026-07-02,787,330-->
+- _defined in {@{[`<string.h>`](../../../../general/C%20string%20handling.md)}@}_ <!--SR:!fsrs,2034-09-30T00:00:00.000Z,3011,3011.49640457,1,2,11,0,0,2026-07-03T00:00:00.000Z-->
 
 ```C
 // (1)

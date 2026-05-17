@@ -13,11 +13,11 @@ An {@{__audio feature__}@} captures {@{specific aspects of audio signals}@}. The
 
 ## descriptors
 
-They are {@{many different descriptors}@}. They can be mostly categorized into {@{spectral, time-domain, tonal}@}, {@{rhythm, SFX, and high-level descriptors}@} \(this is used by {@{[Essentia](https://essentia.upf.edu/)}@}\). <!--SR:!2026-07-02,283,330!2028-03-31,754,330!2029-07-21,1149,350!2027-06-20,520,400-->
+They are {@{many different descriptors}@}. They can be mostly categorized into {@{spectral, time-domain, tonal}@}, {@{rhythm, SFX, and high-level descriptors}@} \(this is used by {@{[Essentia](https://essentia.upf.edu/)}@}\). <!--SR:!fsrs,2029-11-17T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-07-03T00:00:00.000Z!2028-03-31,754,330!2029-07-21,1149,350!2027-06-20,520,400-->
 
 ## spectral features
 
-In a {@{STFT frame}@}, we can describe {@{many different spectral features}@}. We can also {@{describe spectral features across frames}@}. <!--SR:!2026-07-07,288,330!2026-07-02,283,330!fsrs,2029-09-15T02:34:52.725Z,1187,1187.45608877,1,2,9,0,0,2026-06-16T02:34:52.725Z-->
+In a {@{STFT frame}@}, we can describe {@{many different spectral features}@}. We can also {@{describe spectral features across frames}@}. <!--SR:!2026-07-07,288,330!fsrs,2029-11-17T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-07-03T00:00:00.000Z!fsrs,2029-09-15T02:34:52.725Z,1187,1187.45608877,1,2,9,0,0,2026-06-16T02:34:52.725Z-->
 
 ### energy
 
@@ -89,7 +89,7 @@ We can also describe {@{features of the overall sound instead of each STFT frame
 
 {@{Rhythm features}@} describe {@{the beats and their patterns}@}, e.g. {@{beat, downbeat, measure, metric cycle, patterns, tempo, etc.}@} <!--SR:!fsrs,2029-09-02T13:29:05.631Z,1176,1175.60646788,1,2,9,0,0,2026-06-14T13:29:05.631Z!fsrs,2029-08-31T13:29:13.238Z,1174,1174.19039405,1,2,9,0,0,2026-06-14T13:29:13.238Z!fsrs,2029-09-03T13:27:57.690Z,1177,1176.58438079,1,2,9,0,0,2026-06-14T13:27:57.690Z-->
 
-{@{Structure features}@} describe {@{how the music is segmented}@}, e.g. {@{movements, sections, etc.}@} <!--SR:!2029-07-16,1144,350!2026-07-02,284,330!2029-05-07,1093,350-->
+{@{Structure features}@} describe {@{how the music is segmented}@}, e.g. {@{movements, sections, etc.}@} <!--SR:!2029-07-16,1144,350!fsrs,2029-11-21T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-07-03T00:00:00.000Z!2029-05-07,1093,350-->
 
 ## collection features
 

@@ -257,7 +257,7 @@ The __timing__ of refinancing also matters. If the refinancing (e.g. a new loan 
 Flashcards for this section are as follows:
 
 - exclude from current liabilities refinancing ::@:: Both must hold: (1) expect to refinance on a long-term basis (e.g. extend due date or replace with long-term financing), (2) unconditional right to defer settlement for at least 12 months after the reporting date. <!--SR:!2026-07-24,68,334!2026-07-25,69,334-->
-- covenants (refinancing) ::@:: Conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, minimum cash); make the right to defer conditional. <!--SR:!2026-07-02,47,301!2026-07-25,69,334-->
+- covenants (refinancing) ::@:: Conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, minimum cash); make the right to defer conditional. <!--SR:!fsrs,2027-02-23T00:00:00.000Z,235,234.89854493,1.42996969,2,7,0,0,2026-07-03T00:00:00.000Z!2026-07-25,69,334-->
 - conditional right to defer ::@:: If the refinancing agreement has conditions (e.g. maintain current ratio), the right to defer is conditional and the liability stays current. <!--SR:!fsrs,2026-12-04T05:50:28.573Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:50:28.573Z!2026-07-11,58,310-->
 - refinancing before vs after balance sheet date ::@:: Finalised before balance sheet date → may classify as long-term; finalised after → at reporting date no right to defer → current. <!--SR:!2026-07-27,71,334!2026-07-09,55,310-->
 - why does current vs long-term classification matter? ::@:: Moving debt to current can reduce the current ratio and trigger liquidity concerns, supplier demands, or breach of loan covenants. <!--SR:!2026-08-02,77,334!fsrs,2026-11-25T05:55:13.500Z,164,163.64094464,1.42996969,2,5,0,0,2026-06-14T05:55:13.500Z-->

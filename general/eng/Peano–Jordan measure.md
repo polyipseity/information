@@ -23,7 +23,7 @@ Then, like how you calculate {@{the length, area, or volume of the above familia
 
 > {@{![finite union of 2D rectangles](../../archives/Wikimedia%20Commons/Simple%20set1.png)}@}
 >
-> {@{finite union of 2D rectangles}@} <!--SR:!2026-07-02,660,330!2028-05-21,1203,363-->
+> {@{finite union of 2D rectangles}@} <!--SR:!fsrs,2033-07-27T00:00:00.000Z,2581,2581.36586655,1,2,10,0,0,2026-07-03T00:00:00.000Z!2028-05-21,1203,363-->
 
 The above can be fixed by rewriting {@{any simple set as the union of mutually [disjoint](disjoint%20sets.md) rectangles}@}. {@{The half-open interval requirement}@} makes {@{this possible}@}. In fact, this {@{rewriting is always allowed}@}. This can be seen by drawing {@{several overlapping rectangles on a paper}@}, then one can always find {@{a way to cover the same area with non-overlapping rectangles}@}. Then {@{the Jordan measure of a simple set}@} can be defined as {@{the sum of measures of disjoint rectangles}@}. <!--SR:!2032-07-11,2308,330!2026-09-04,707,330!fsrs,2033-07-04T00:00:00.000Z,2564,2564.24305872,1,2,10,0,0,2026-06-27T00:00:00.000Z!2026-10-04,123,389!2026-10-10,128,389!2026-09-28,118,389!2026-09-29,119,389!2026-09-28,118,389-->
 

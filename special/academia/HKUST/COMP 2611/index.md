@@ -106,7 +106,7 @@ The content is in teaching order.
 - [numeral system](../../../../general/numeral%20system.md)
 - [positional notation](../../../../general/positional%20notation.md)
   - positional notation / integral conversion
-    - positional notation / integral conversion / base 2, base 16 ::@:: 4 base 2 digits can be grouped together, which _directly_ corresponds to 1 base 16 digit, and vice versa. This can help ease conversion between these two bases. <p> Note that you may need to add or remove padding zeros to make the original or resulting base 2 number have digit count that is a multiple of 4. <!--SR:!2026-07-02,393,365!2026-07-13,404,365-->
+    - positional notation / integral conversion / base 2, base 16 ::@:: 4 base 2 digits can be grouped together, which _directly_ corresponds to 1 base 16 digit, and vice versa. This can help ease conversion between these two bases. <p> Note that you may need to add or remove padding zeros to make the original or resulting base 2 number have digit count that is a multiple of 4. <!--SR:!fsrs,2031-07-11T00:00:00.000Z,1834,1833.94824259,1,2,10,0,0,2026-07-03T00:00:00.000Z!2026-07-13,404,365-->
 
 ## week 1 lecture 2
 
@@ -129,7 +129,7 @@ The content is in teaching order.
   - logic gate / NOR, joint denial ::@:: $(0, 0) \mapsto 1; (0, 1) \mapsto 0; (1, 0) \mapsto 0; (1, 1) \mapsto 0$ <br/> ${\overline {A+B} }$ or $A\downarrow B$ <br/> ![NOR symbol](../../../../archives/Wikimedia%20Commons/NOR%20ANSI%20Labelled.svg) <!--SR:!2030-01-18,1395,365!fsrs,2031-04-16T13:31:28.874Z,1767,1767.28550826,1,2,10,0,0,2026-06-14T13:31:28.874Z-->
   - logic gate / XOR, exclusive or ::@:: $(0, 0) \mapsto 0; (0, 1) \mapsto 1; (1, 0) \mapsto 1; (1, 1) \mapsto 0$ <br/> $A\oplus B$ or $A\veebar B$ <br/> ![XOR symbol](../../../../archives/Wikimedia%20Commons/XOR%20ANSI%20Labelled.svg) <!--SR:!2026-07-08,399,365!2026-07-12,403,365-->
   - logic gate / logic function ::@:: It is a function on binary variables whose output is also a binary variable. It can be represented by logic gates. AND, NOT, and OR are fundamental to all operations in modern computers. <!--SR:!fsrs,2031-07-06T00:00:00.000Z,1830,1829.89847486,1,2,10,0,0,2026-07-02T00:00:00.000Z!2026-07-15,406,365-->
-    - logic gate / logic function / representations ::@:: graphics (e.g. Karnaugh map), logical expressions, truth table <!--SR:!2031-05-18,1812,385!2026-07-02,393,365-->
+    - logic gate / logic function / representations ::@:: graphics (e.g. Karnaugh map), logical expressions, truth table <!--SR:!2031-05-18,1812,385!fsrs,2031-07-11T00:00:00.000Z,1834,1833.94824259,1,2,10,0,0,2026-07-03T00:00:00.000Z-->
   - logic gate / example ::@:: 1-bit half adder: given _A_ and _B_, outputs _S_ and _C_. _S_ = _A_ XOR _B_, _C_ = _A_ AND _B_. <p> So _S_ is interpreted as the resulting bit after addition, while _C_ is the carry bit (e.g. to be connected to another 1-bit half adder). <!--SR:!2031-06-08,1830,385!2026-07-11,402,365-->
   - logic gate / circuit types ::@:: 2 main ones: combinational logic circuit, sequential logic circuit <!--SR:!2026-07-05,396,365!fsrs,2031-04-10T13:31:29.729Z,1761,1760.85259772,1,2,10,0,0,2026-06-14T13:31:29.729Z-->
 - [combinational logic](../../../../general/combinational%20logic.md) ::@:: It has no memory. The outputs depend entirely on the _current_ inputs and noting else. It is essentially the same as a logic function, so can be represented by a truth table. <!--SR:!2026-07-09,400,365!2026-07-08,399,365-->

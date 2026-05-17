@@ -90,7 +90,7 @@ It follows that {@{any [functor](functor.md) which preserves limits will take te
 
 Initial and terminal objects may also {@{be characterized in terms of [universal properties](universal%20property.md) and [adjoint functors](adjoint%20functors.md)}@}. Let {@{__1__ be the discrete category with a single object \(denoted by •\)}@}, and let {@{_U_ : _C_ → __1__ be the unique \(constant\) functor to __1__}@}. Then <!--SR:!2027-12-14,806,337!2029-12-04,1397,357!2030-12-03,1702,372-->
 
-- An initial object _I_ in _C_ is ::@:: a [universal morphism](universal%20morphism.md) from • to _U_. (annotation: That every object has an unique morphism from the initial object corresponds to the unique morphism requirement in a universal morphism.) The functor which sends • to _I_ is left adjoint to _U_. <!--SR:!2026-07-14,338,257!2026-07-02,366,297-->
+- An initial object _I_ in _C_ is ::@:: a [universal morphism](universal%20morphism.md) from • to _U_. (annotation: That every object has an unique morphism from the initial object corresponds to the unique morphism requirement in a universal morphism.) The functor which sends • to _I_ is left adjoint to _U_. <!--SR:!2026-07-14,338,257!fsrs,2030-04-04T00:00:00.000Z,1371,1371.19724397,1.6300927,2,10,0,0,2026-07-03T00:00:00.000Z-->
 - A terminal object _T_ in _C_ is ::@:: a universal morphism from _U_ to •. (annotation: That every object has an unique morphism to the terminal object corresponds to the unique morphism requirement in a universal morphism.) The functor which sends • to _T_ is right adjoint to _U_. <!--SR:!2028-01-10,702,277!2026-10-31,421,277-->
 
 ### relation to other categorical constructions

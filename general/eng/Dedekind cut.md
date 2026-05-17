@@ -70,7 +70,7 @@ This allows {@{the basic arithmetic operations on the real numbers to be defined
 
 ### arbitrary linearly ordered sets
 
-In the general case of {@{an arbitrary linearly ordered set _X_}@}, a __cut__ is {@{a pair $(A,B)$ such that $A\cup B=X$ and $a\in A$, $b\in B$ imply $a<b$}@}. Some authors {@{add the requirement that both _A_ and _B_ are nonempty}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-07-02,413,310!2029-04-29,1236,350!2029-08-23,1327,350-->
+In the general case of {@{an arbitrary linearly ordered set _X_}@}, a __cut__ is {@{a pair $(A,B)$ such that $A\cup B=X$ and $a\in A$, $b\in B$ imply $a<b$}@}. Some authors {@{add the requirement that both _A_ and _B_ are nonempty}@}.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!fsrs,2030-11-18T00:00:00.000Z,1599,1599.03710332,1,2,10,0,0,2026-07-03T00:00:00.000Z!2029-04-29,1236,350!2029-08-23,1327,350-->
 
 If {@{neither _A_ has a maximum, nor _B_ has a minimum}@}, {@{the cut is called a __gap__}@}. {@{A linearly ordered set endowed with the order topology is compact}@} {@{if and only if it has no gap}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2029-03-18,1203,350!2029-03-21,1205,350!2029-03-04,1192,350!2029-04-01,1215,350-->
 

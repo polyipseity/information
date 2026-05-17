@@ -437,7 +437,7 @@ The content is in teaching order.
   - par value / interpretation ::@:: Par value does not equal market value. It is misleading to a certain extent. It is arbitrarily assigned to each share of stock in the memorandum of association (corporate charter). <!--SR:!2026-08-04,487,403!2026-09-20,526,403-->
   - par value / legislation ::@:: In the US, most states allow the issue of no-par stock. But, corporations must state whether the shares are with par value or without par value. <p> With effect from 2014-03-03, effective date of the new Companies Ordinance (Cap.622), HK retires the concept of par value. <!--SR:!2031-05-31,1905,403!2026-07-15,441,343-->
 - initial public offering (IPO) ::@:: first time sells its stock to the public <!--SR:!2026-10-06,540,403!2026-09-28,533,403-->
-- seasoned equity issue (SEO) ::@:: new equity issue by an already publicly traded company <!--SR:!2026-07-02,460,396!2026-09-18,524,403-->
+- seasoned equity issue (SEO) ::@:: new equity issue by an already publicly traded company <!--SR:!fsrs,2032-05-06T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-07-03T00:00:00.000Z!2026-09-18,524,403-->
 - share capital
   - share capital / trade ::@:: Transactions between two investors (in the secondary markets) that do not affect the corporation's accounting records (entity concept). <!--SR:!2026-09-27,532,403!2026-09-09,518,403-->
   - share capital / accounting

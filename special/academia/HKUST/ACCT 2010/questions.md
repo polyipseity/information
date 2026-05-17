@@ -829,4 +829,4 @@ tags:
 > 2. subtracted from the net income when we prepare cash flow statement using indirect method
 > 3. no adjustment is needed using indirect method
 >
-> - solution: {@{1}@} <!--SR:!2026-07-02,456,381-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-04-20T00:00:00.000Z,2118,2117.78354417,1,2,10,0,0,2026-07-03T00:00:00.000Z-->

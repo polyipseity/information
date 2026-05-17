@@ -40,7 +40,7 @@ Flashcards for this section are as follows:
 - lower Riemann sum for $f$ on intervals $I_j=[x_{j-1},x_j]$ ::@:: The lower Riemann sum is $S_-(Z_n,f)=\sum_{j=1}^n (x_j-x_{j-1})\inf_{z\in I_j}f(z)$. <!--SR:!2026-07-09,59,310!2026-07-13,63,310-->
 - upper Riemann sum for $f$ on intervals $I_j=[x_{j-1},x_j]$ ::@:: The upper Riemann sum is $S_+(Z_n,f)=\sum_{j=1}^n (x_j-x_{j-1})\sup_{z\in I_j}f(z)$. <!--SR:!2026-07-05,58,310!2026-07-10,63,310-->
 - Riemann-integrability on $[a,b]$ ::@:: A bounded function on $[a,b]$ is Riemann-integrable when the supremum of all lower sums equals the infimum of all upper sums; the common value is $\int_a^b f(x)\,dx$. <!--SR:!2026-07-17,67,310!2026-07-09,59,310-->
-- why Riemann sums justify interval probabilities of width $\Delta x$ ::@:: The density heuristic "probability on a small interval is approximately density times width" becomes rigorous by passing from fine interval sums to the Riemann integral. <!--SR:!2026-07-02,55,310!2026-07-12,62,310-->
+- why Riemann sums justify interval probabilities of width $\Delta x$ ::@:: The density heuristic "probability on a small interval is approximately density times width" becomes rigorous by passing from fine interval sums to the Riemann integral. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!2026-07-12,62,310-->
 
 ## continuous functions are Riemann-integrable
 
@@ -88,7 +88,7 @@ Flashcards for this section are as follows:
 - fundamental theorem of calculus / if $F(x)=\int_a^x f(t)\,dt$ with continuous $f$ ::@:: Then $F$ is uniformly continuous on $[a,b]$, differentiable on $(a,b)$, and satisfies $F'(x)=f(x)$. <!--SR:!2026-07-08,61,310!2026-07-06,56,310-->
 - fundamental theorem of calculus / why $F$ is uniformly continuous ::@:: If $|f(t)|\le M$ on $[a,b]$, then $|F(x)-F(y)|=\left|\int_x^y f(t)\,dt\right|\le M|x-y|$, so $F$ is Lipschitz and therefore uniformly continuous. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-07-10,63,310-->
 - fundamental theorem of calculus / can one replace "uniformly continuous" by "Lipschitz" in part I, given $|F(x)-F(y)|\le \sup_{t\in[a,b]}|f(t)|\,|x-y|$? ::@:: In this setting yes, because that estimate shows $F$ is Lipschitz. But the standard theorem statement uses the weaker conclusion "uniformly continuous", which is the more natural minimal claim; saying "Lipschitz" as the headline would be correct but unnecessarily strong. <!--SR:!2026-07-14,67,310!2026-07-08,58,310-->
-- fundamental theorem of calculus / correct Riemann-theory hypothesis for part II: if $g$ is differentiable on $[a,b]$ and $g'$ is Riemann-integrable on $[a,b]$ ::@:: Then $\int_a^b g'(x)\,dx=g(b)-g(a)$. <!--SR:!2026-07-14,64,310!2026-07-02,55,310-->
+- fundamental theorem of calculus / correct Riemann-theory hypothesis for part II: if $g$ is differentiable on $[a,b]$ and $g'$ is Riemann-integrable on $[a,b]$ ::@:: Then $\int_a^b g'(x)\,dx=g(b)-g(a)$. <!--SR:!2026-07-14,64,310!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
 - fundamental theorem of calculus / why differentiability of $g$ alone is not enough ::@:: A differentiable function can have a derivative that is not Riemann-integrable, for example because the derivative is unbounded or too badly behaved; so FTC II in the Riemann setting needs the extra hypothesis that $g'$ itself is Riemann-integrable. <!--SR:!2026-07-07,57,310!2026-07-10,63,310-->
 - fundamental theorem of calculus / warning example with $g(x)=x^2\sin(1/x^2)$ for $x\neq0$, $g(0)=0$ ::@:: This $g$ is differentiable on $[-1,1]$, but $g'(x)=2x\sin(1/x^2)-2x^{-1}\cos(1/x^2)$ for $x\neq0$, which is unbounded near $0$; hence $g'$ is not Riemann-integrable. So differentiability of $g$ does not by itself imply the hypothesis needed for FTC II. <!--SR:!2026-07-08,61,310!2026-07-05,58,310-->
 - fundamental theorem of calculus / intuition for $F(x)=\int_a^x f(t)\,dt$ ::@:: The function $F$ measures accumulated area from $a$ to $x$, so its derivative should be the local rate of accumulation; that rate is exactly the current height $f(x)$. <!--SR:!2026-07-03,56,310!2026-07-11,61,310-->
@@ -111,7 +111,7 @@ These facts are what make density calculations behave like ordinary algebra. Pos
 
 Flashcards for this section are as follows:
 
-- positivity of $\int_a^b f(x)\,dx$ when $f\ge0$ ::@:: If $f\in R([a,b])$ and $f\ge0$, then $\int_a^b f(x)\,dx\ge0$. <!--SR:!2026-07-02,55,310!2026-07-16,66,310-->
+- positivity of $\int_a^b f(x)\,dx$ when $f\ge0$ ::@:: If $f\in R([a,b])$ and $f\ge0$, then $\int_a^b f(x)\,dx\ge0$. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!2026-07-16,66,310-->
 - linear subspace property of $R([a,b])$ ::@:: If $f,g\in R([a,b])$ and $\alpha,\beta\in\mathbb{R}$, then $\alpha f+\beta g\in R([a,b])$; in particular, $R([a,b])$ is a linear subspace of $B([a,b])$. <!--SR:!2026-07-03,56,310!2026-07-15,65,310-->
 - linearity of $\int_a^b (\alpha f+\beta g)$ once $\alpha f+\beta g\in R([a,b])$ ::@:: One has $\int_a^b (\alpha f(x)+\beta g(x))\,dx=\alpha\int_a^b f(x)\,dx+\beta\int_a^b g(x)\,dx$. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-07-13,66,310-->
 - closure of $R([a,b])$ under $|f|$ and $fg$ ::@:: If $f,g\in R([a,b])$, then $|f|$ and $fg$ are also Riemann-integrable. <!--SR:!2026-07-08,61,310!2026-07-14,64,310-->
@@ -135,7 +135,7 @@ These definitions are exactly what justify statements such as $\int_{-\infty}^{\
 
 Flashcards for this section are as follows:
 
-- improper integral of the first kind on $[a,\infty)$ ::@:: If $f$ is Riemann-integrable on every $[a,c]$, then $\int_a^{\infty} f(x)\,dx$ is defined as $\lim_{c\to\infty}\int_a^c f(x)\,dx$ when this finite limit exists. <!--SR:!2026-07-02,55,310!2026-07-05,58,310-->
+- improper integral of the first kind on $[a,\infty)$ ::@:: If $f$ is Riemann-integrable on every $[a,c]$, then $\int_a^{\infty} f(x)\,dx$ is defined as $\lim_{c\to\infty}\int_a^c f(x)\,dx$ when this finite limit exists. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!2026-07-05,58,310-->
 - improper integral of the first kind on $\mathbb{R}$ ::@:: One defines $\int_{-\infty}^{\infty} f(x)\,dx$ by a two-sided limiting process because the difficulty is the unbounded domain, not a singularity inside a bounded interval. <!--SR:!2026-07-04,54,310!2026-07-08,58,310-->
 - improper integral of the second kind for $\int_a^b f(x)\,dx$ near endpoint $a$ ::@:: If $f$ is Riemann-integrable away from an endpoint singularity at $a$, then $\int_a^b f(x)\,dx$ is defined by $\lim_{\varepsilon\downarrow0}\int_{a+\varepsilon}^b f(x)\,dx$ when the finite limit exists. <!--SR:!2026-07-03,56,310!2026-07-04,57,310-->
 - first kind versus second kind ::@:: First kind means the trouble comes from an infinite interval, while second kind means the interval is bounded but the integrand may blow up near an endpoint; in this course the distinction is mainly bookkeeping because both are handled by truncation and a finite-limit test. <!--SR:!2026-07-07,60,310!2026-07-08,61,310-->
