@@ -234,7 +234,7 @@ For example: {@{$$\forall x\forall y(P(f(x))\rightarrow \neg (P(x)\rightarrow Q(
 
 #### notational conventions
 
-For {@{convenience}@}, {@{conventions have been developed}@} about {@{the precedence of the logical operators}@}, to {@{avoid the need to write parentheses in some cases}@}. These rules are similar to {@{the [order of operations](order%20of%20operations.md) in arithmetic}@}. A common convention is: \(annotation: 4 ordered items: {@{$\lnot$ &gt; $\land$, $\lor$ &gt; quantifiers &gt; $\to$}@}\) <!--SR:!2026-12-10,396,364!2027-02-22,461,382!2026-08-13,299,346!2027-01-30,441,382!2026-11-18,378,364!2026-06-18,253,334-->
+For {@{convenience}@}, {@{conventions have been developed}@} about {@{the precedence of the logical operators}@}, to {@{avoid the need to write parentheses in some cases}@}. These rules are similar to {@{the [order of operations](order%20of%20operations.md) in arithmetic}@}. A common convention is: \(annotation: 4 ordered items: {@{$\lnot$ &gt; $\land$, $\lor$ &gt; quantifiers &gt; $\to$}@}\) <!--SR:!2026-12-10,396,364!2027-02-22,461,382!2026-08-13,299,346!2027-01-30,441,382!2026-11-18,378,364!fsrs,2029-07-26T00:00:00.000Z,1134,1133.87442138,1,2,9,0,0,2026-06-18T00:00:00.000Z-->
 
 - $\lnot$ is evaluated first
 - $\land$ and $\lor$ are evaluated next

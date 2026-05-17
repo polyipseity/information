@@ -18,7 +18,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{__Darboux's theorem__}@} is {@{a [the
 
 > {@{__Darboux's theorem__}@}
 >
-> Let $f$ be {@{a [real-valued function](real-valued%20function.md) [differentiable](differentiable%20function.md) on the closed [interval](interval%20(mathematics).md) $[a,b]$}@} (annotation: {@{_not_ $(a, b)$}@}). Then $f'$ has {@{the __intermediate value property__}@}: for {@{every $y$ satisfying $\min(f'(a),f'(b))<y<\max(f'(a),f'(b))$, there exists an $x\in(a,b)$ such that $f'(x)=y$}@}. <!--SR:!2029-08-24,1260,250!2026-06-18,72,326!2026-06-21,75,326!2026-06-20,74,326!2026-06-19,73,326-->
+> Let $f$ be {@{a [real-valued function](real-valued%20function.md) [differentiable](differentiable%20function.md) on the closed [interval](interval%20(mathematics).md) $[a,b]$}@} (annotation: {@{_not_ $(a, b)$}@}). Then $f'$ has {@{the __intermediate value property__}@}: for {@{every $y$ satisfying $\min(f'(a),f'(b))<y<\max(f'(a),f'(b))$, there exists an $x\in(a,b)$ such that $f'(x)=y$}@}. <!--SR:!2029-08-24,1260,250!fsrs,2027-06-25T00:00:00.000Z,372,372.45216267,1,2,7,0,0,2026-06-18T00:00:00.000Z!2026-06-21,75,326!2026-06-20,74,326!2026-06-19,73,326-->
 
 ## references
 

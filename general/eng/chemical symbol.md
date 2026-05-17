@@ -10,7 +10,7 @@ tags:
 
 # chemical symbol
 
-__Chemical symbols__ are {@{abbreviations for [chemical substances](chemical%20substance.md)}@}. __Element symbols__ are {@{abbreviations for [chemical elements](chemical%20element.md) consisting of one or two letters from the [Latin alphabet](Latin%20alphabet.md) with the first letter capitalized}@}. <!--SR:!2029-06-27,1697,310!2026-06-18,782,290-->
+__Chemical symbols__ are {@{abbreviations for [chemical substances](chemical%20substance.md)}@}. __Element symbols__ are {@{abbreviations for [chemical elements](chemical%20element.md) consisting of one or two letters from the [Latin alphabet](Latin%20alphabet.md) with the first letter capitalized}@}. <!--SR:!2029-06-27,1697,310!fsrs,2033-08-04T00:00:00.000Z,2604,2604.24394784,1.98030797,2,11,0,0,2026-06-18T00:00:00.000Z-->
 
 ## extensions
 

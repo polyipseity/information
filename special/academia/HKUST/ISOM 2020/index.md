@@ -52,7 +52,7 @@ The content is in teaching order.
   - [§ data types](basics.md#data%20types)
     - [basics § data types](basics.md#data%20types) / note ::@:: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2030-06-13,1607,332!2028-11-12,1191,352-->
 - week 1 exercise: 1/1, graded
-  - Can variables be used to save user input? ::@:: Yes, variables can be used to save user input (store in a variable). <!--SR:!2026-06-18,488,386!2033-04-01,2495,406-->
+  - Can variables be used to save user input? ::@:: Yes, variables can be used to save user input (store in a variable). <!--SR:!fsrs,2032-08-11T00:00:00.000Z,2246,2246.2381643,1,2,10,0,0,2026-06-18T00:00:00.000Z!2033-04-01,2495,406-->
   - Can `print(...)` be used to save data? ::@:: No, `print(...)` cannot be used to save data (store in a variable), only display data. <!--SR:!2033-03-25,2491,406!fsrs,2032-07-17T14:27:48.830Z,2227,2227.37727181,1,2,10,0,0,2026-06-12T14:27:48.830Z-->
 
 ## week 1 lecture

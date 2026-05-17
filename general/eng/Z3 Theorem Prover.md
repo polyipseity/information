@@ -25,7 +25,7 @@ tags:
 | __[License](software%20license.md)__                             | [MIT License](MIT%20License.md)                                                                                                                                                                                      |
 | __Website__                                                      | [github.com/Z3Prover](https://github.com/Z3Prover)                                                                                                                                                                   |
 
-{@{__Z3__, also known as the __Z3 Theorem Prover__}@}, is {@{a [satisfiability modulo theories](satisfiability%20modulo%20theories.md) \(SMT\) solver developed by [Microsoft](Microsoft.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-07-31,1159,350!2026-06-18,274,330-->
+{@{__Z3__, also known as the __Z3 Theorem Prover__}@}, is {@{a [satisfiability modulo theories](satisfiability%20modulo%20theories.md) \(SMT\) solver developed by [Microsoft](Microsoft.md)}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2029-07-31,1159,350!fsrs,2029-09-29T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-06-18T00:00:00.000Z-->
 
 ## overview
 

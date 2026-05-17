@@ -84,7 +84,7 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 
 > __flashcards__
 >
-> - [unary operators](unary%20operation.md) ::@:: - __X__ _φ_ <br/> - __F__ _φ_ <br/> - __G__ _φ_ <!--SR:!2026-06-28,142,410!2026-06-18,133,410-->
+> - [unary operators](unary%20operation.md) ::@:: - __X__ _φ_ <br/> - __F__ _φ_ <br/> - __G__ _φ_ <!--SR:!2026-06-28,142,410!fsrs,2028-06-17T00:00:00.000Z,730,730.38507953,1,2,8,0,0,2026-06-18T00:00:00.000Z-->
 > - __X__ _φ_
 >   - __X__ _φ_ / symbolic ::@:: $\bigcirc \varphi$ <!--SR:!fsrs,2028-05-30T10:02:37.741Z,716,716.20587414,1,2,8,0,0,2026-06-14T10:02:37.741Z!fsrs,2028-05-26T10:02:24.544Z,712,711.54011426,1,2,8,0,0,2026-06-14T10:02:24.544Z-->
 >   - __X__ _φ_ / explanation ::@:: ne<!-- markdown separator -->__X__<!-- markdown separator -->t: _φ_ has to hold at the next state. <!--SR:!2026-06-20,135,410!fsrs,2028-05-29T10:02:55.210Z,715,714.66030858,1,2,8,0,0,2026-06-14T10:02:55.210Z-->

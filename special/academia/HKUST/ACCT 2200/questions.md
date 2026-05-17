@@ -30,7 +30,7 @@ Below are some questions or question tips.
 
 ## process costing
 
-- rounding <!-- flashcard ID: 94474d74-075a-471e-8be3-09083d78a597 -->::@:: In general, round to 2 decimal places. But when doing further calculations, keep more decimal places. <!--SR:!2029-08-21,1179,350!2026-06-18,276,330-->
+- rounding <!-- flashcard ID: 94474d74-075a-471e-8be3-09083d78a597 -->::@:: In general, round to 2 decimal places. But when doing further calculations, keep more decimal places. <!--SR:!2029-08-21,1179,350!fsrs,2029-10-06T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-18T00:00:00.000Z-->
 - weighted average method vs. first-in first-out \(FIFO\) method ::@:: In the former, costs and units last period and this period are grouped in the completion period. Cost per equivalent unit is the weighted average of the costs last period and this period. Since these two costs can differ significantly, calculation is inaccurate. Managers cannot evaluate costs by period independently. <p> In the latter, costs and units last period and this period are separated. Cost per equivalent unit is the average cost this period. Even if the average cost last period differs significantly, calculation is accurate. Managers can evaluate costs by period independently. <p> Managers care about which method is used because they provide different cost information. <!--SR:!2027-10-03,586,310!2029-07-27,1154,350-->
 
 ## activity-based costing & cost management

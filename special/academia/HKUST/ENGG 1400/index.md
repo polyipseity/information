@@ -116,7 +116,7 @@ The content is in teaching order.
 - information interview ::@:: Not a job interview, but a conversation looking for others' stories. <!--SR:!fsrs,2032-05-20T11:18:09.179Z,2174,2174.1163828,1,2,10,0,0,2026-06-07T11:18:09.179Z!fsrs,2032-06-12T14:05:12.062Z,2190,2189.57341426,1,2,10,0,0,2026-06-14T14:05:12.062Z-->
   - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2026-07-05,493,402!2026-08-21,531,402-->
   - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!fsrs,2032-05-15T06:11:14.624Z,2170,2170.09977723,1,2,10,0,0,2026-06-06T06:11:14.624Z!2033-06-02,2556,422-->
-  - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2026-08-08,520,402!2026-06-18,479,402-->
+  - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2026-08-08,520,402!fsrs,2032-07-06T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-06-18T00:00:00.000Z-->
   - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2026-07-16,502,402!2026-06-19,480,402-->
 
 ## week 6 tutorial

@@ -178,7 +178,7 @@ Daily Domestic Waste Generation Rates per Capita Compared
 
 - daily domestic waste generation rate per capita (DPWGR per capita)
   - DPWGR per capita in Hong Kong ::@:: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2027-06-01,780,290!2027-05-29,790,330-->
-  - DPWGR per capita other locations ::@:: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!2026-06-18,554,310!2027-04-21,802,330-->
+  - DPWGR per capita other locations ::@:: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!fsrs,2032-02-15T00:00:00.000Z,2068,2068.31345621,1,2,10,0,0,2026-06-18T00:00:00.000Z!2027-04-21,802,330-->
 
 ## page 10
 

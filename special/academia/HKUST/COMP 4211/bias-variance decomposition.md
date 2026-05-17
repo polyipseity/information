@@ -246,7 +246,7 @@ Flashcards for this section are as follows:
 - more-data graph intuition ::@:: More data often narrows the generalization gap because each noisy sample point has less influence on the fitted parameters. <!--SR:!2026-07-09,62,310!2026-07-08,61,310-->
 - more-data effect on training error, generalization error, and gap ::@:: As sample size increases, training error often rises slightly because the model must fit a larger and more representative sample, expected generalization error often decreases because the learner becomes more stable, and the generalization gap shrinks because training performance becomes a more honest reflection of future performance. <!--SR:!2026-06-25,48,290!2026-07-11,64,310-->
 - interpretation of the whole more-data picture ::@:: More data usually make the learner less able to memorize quirks of one sample and more able to capture repeatable structure, so training fit may look a bit worse while future performance improves and the train-test gap narrows. <!--SR:!2026-07-09,62,310!2026-07-10,63,310-->
-- what cross-validation does and does not do ::@:: Cross-validation does not itself change bias or variance; it estimates which model complexity or regularization strength gives the best expected trade-off on held-out data. <!--SR:!2026-07-12,65,310!2026-06-18,41,290-->
+- what cross-validation does and does not do ::@:: Cross-validation does not itself change bias or variance; it estimates which model complexity or regularization strength gives the best expected trade-off on held-out data. <!--SR:!2026-07-12,65,310!fsrs,2027-01-04T00:00:00.000Z,200,199.69543576,1.98030797,2,6,0,0,2026-06-18T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: PAC is a standard acronym -->
 ### PAC learning viewpoint
