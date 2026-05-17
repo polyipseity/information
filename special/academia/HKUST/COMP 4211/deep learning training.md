@@ -30,7 +30,7 @@ Flashcards for this section are as follows:
 - four training questions ::@:: The lecture organizes deep-learning training around four linked questions: regularization, optimizer design, learning-rate scheduling, and normalization of hidden activations. <!--SR:!2026-08-24,84,352!2026-08-17,77,336-->
 - why deep training is harder than fitting a shallow model ::@:: Deep models are harder to train because large parameter counts, anisotropic loss geometry, stochastic gradients, and drifting hidden-layer statistics all interact. <!--SR:!2026-08-17,77,336!2026-08-24,84,352-->
 - coordinated-design viewpoint ::@:: Training deep networks well requires a coordinated design of objective, update rule, learning-rate schedule, and normalization layers rather than one isolated trick. <!--SR:!2026-08-23,83,352!2026-08-17,77,336-->
-- why L2, weight decay, Adam, and batch normalization must be separated carefully ::@:: These techniques affect different parts of the training pipeline — loss, update rule, adaptive scaling, or hidden-layer statistics — so conflating them hides important practical differences. <!--SR:!2026-08-16,76,336!2026-07-10,54,310-->
+- why L2, weight decay, Adam, and batch normalization must be separated carefully ::@:: These techniques affect different parts of the training pipeline — loss, update rule, adaptive scaling, or hidden-layer statistics — so conflating them hides important practical differences. <!--SR:!2026-08-16,76,336!fsrs,2027-04-11T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-11T00:00:00.000Z-->
 
 ## weight decay, bagging intuition, and dropout
 

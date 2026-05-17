@@ -15,7 +15,7 @@ A {@{__stochastic signal__}@} is {@{a signal that is random}@}. It can be descri
 
 ## frequency domain
 
-Stochastic signal can be {@{described in the frequency domain}@}. Two important ones are {@{autocorrelation and power spectral density}@}. <!--SR:!2026-07-10,290,330!fsrs,2029-11-28T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-07-06T00:00:00.000Z-->
+Stochastic signal can be {@{described in the frequency domain}@}. Two important ones are {@{autocorrelation and power spectral density}@}. <!--SR:!fsrs,2029-12-22T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-07-11T00:00:00.000Z!fsrs,2029-11-28T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-07-06T00:00:00.000Z-->
 
 {@{_Autocorrelation_}@} is defined as: {@{$$Z_{xx}[k] = \sum_{n = 0}^{N - 1} x[n] x[n + k] \qquad k = -N + 1, \ldots, N - 1 \,,$$}@} where {@{$x[n]$ is the \(stochastic\) signal and $k$ is the _time lag_}@}. It can help {@{identify repeating patterns or hidden periodicities}@}. <!--SR:!2029-03-04,1042,350!2029-03-02,1040,350!fsrs,2029-09-02T14:56:33.192Z,1177,1177.01902368,1,2,9,0,0,2026-06-13T14:56:33.192Z!2029-06-01,1113,350-->
 
@@ -39,7 +39,7 @@ For denoising in {@{the time domain}@}, we can {@{apply DFT}@}, then {@{apply a 
 
 ## combining with other models
 
-Given a signal, often {@{other models \(e.g. sinusoidal models, harmonic models\) are used to approximate it}@}. Then, subtracting {@{the original signal by the signal produced by the model}@} in the {@{time or frequency domain \(due to linearity of DFT\)}@}, we obtain {@{the _residual_ respectively in the time or frequency domain}@}. <!--SR:!2026-07-10,290,330!2026-07-11,291,330!fsrs,2029-09-01T14:56:47.952Z,1176,1175.60646788,1,2,9,0,0,2026-06-13T14:56:47.952Z!2029-06-04,1115,350-->
+Given a signal, often {@{other models \(e.g. sinusoidal models, harmonic models\) are used to approximate it}@}. Then, subtracting {@{the original signal by the signal produced by the model}@} in the {@{time or frequency domain \(due to linearity of DFT\)}@}, we obtain {@{the _residual_ respectively in the time or frequency domain}@}. <!--SR:!fsrs,2029-12-22T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-07-11T00:00:00.000Z!2026-07-11,291,330!fsrs,2029-09-01T14:56:47.952Z,1176,1175.60646788,1,2,9,0,0,2026-06-13T14:56:47.952Z!2029-06-04,1115,350-->
 
 The simplest way to {@{handle this residual}@} is to {@{simply add the residual albeit to the output by the other model}@}, which is called {@{a _residual model_}@}. By linearity, its DFT {@{is also added as-is}@}. This also means the original signal can be {@{recovered perfectly}@}. However, this means {@{the residual is always the same and highly specific to the sample used to obtain the residual model}@} when we want to {@{create a similar signal}@}. <!--SR:!2026-07-14,294,330!fsrs,2029-11-23T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-07-05T00:00:00.000Z!2029-02-20,1030,350!fsrs,2029-11-13T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-07-03T00:00:00.000Z!2029-05-18,1103,350!2029-03-20,1054,350!2029-08-27,1182,350-->
 

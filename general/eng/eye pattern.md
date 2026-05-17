@@ -81,7 +81,7 @@ The eye pattern of {@{a [NRZ](non-return-to-zero.md) \(annotation: non-return-to
 
 ### MLT-3
 
-The eye pattern of {@{a [MLT-3](MLT-3%20encoding.md) \(annotation: multi-level transmit\) signal}@} should consist of {@{three clearly distinct levels \(nominally -1, 0, +1 from bottom to top\)}@}. {@{The 0 level}@} should be located {@{at zero volts}@} and {@{the overall shape}@} should be {@{symmetric about the horizontal axis}@}. {@{The +1 and -1 states}@} should {@{have equal amplitude}@}. There should be {@{smooth transitions from the 0 state to the +1 and -1 states}@}, however there should be {@{no direct transitions from the -1 to +1 state}@} \(which would indicate the signal is {@{PAM-3 rather than MLT-3}@}\). <!--SR:!2026-07-17,241,330!2026-07-27,249,330!2026-08-13,262,330!2026-08-13,262,330!2026-08-08,257,330!2026-07-10,235,330!2026-09-04,279,330!2026-08-28,274,330!2026-08-30,273,330!2026-09-22,294,330!2026-08-14,263,330-->
+The eye pattern of {@{a [MLT-3](MLT-3%20encoding.md) \(annotation: multi-level transmit\) signal}@} should consist of {@{three clearly distinct levels \(nominally -1, 0, +1 from bottom to top\)}@}. {@{The 0 level}@} should be located {@{at zero volts}@} and {@{the overall shape}@} should be {@{symmetric about the horizontal axis}@}. {@{The +1 and -1 states}@} should {@{have equal amplitude}@}. There should be {@{smooth transitions from the 0 state to the +1 and -1 states}@}, however there should be {@{no direct transitions from the -1 to +1 state}@} \(which would indicate the signal is {@{PAM-3 rather than MLT-3}@}\). <!--SR:!2026-07-17,241,330!2026-07-27,249,330!2026-08-13,262,330!2026-08-13,262,330!2026-08-08,257,330!fsrs,2029-05-25T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-07-11T00:00:00.000Z!2026-09-04,279,330!2026-08-28,274,330!2026-08-30,273,330!2026-09-22,294,330!2026-08-14,263,330-->
 
 > {@{![Eye pattern of a 125 Mbit/s MLT-3 signal](../../archives/Wikimedia%20Commons/Eye%20pattern%20MLT3.png)}@}
 >
@@ -129,7 +129,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 ### high-frequency loss
 
-{@{Loss \(annotation: power loss\)}@} of {@{printed circuit board traces and cables}@} {@{increases with frequency due to [dielectric loss](dielectric%20loss.md)}@}, which causes {@{the channel}@} to {@{behave as a [low-pass filter](low-pass%20filter.md)}@}. {@{The effect of this}@} is {@{an increase in signal rise/fall time}@}. If {@{the data rate is high enough or the channel is lossy enough}@}, the signal {@{may not even reach its full value}@} during {@{a fast 0–1–0 or 1–0–1 transition}@}, and only {@{stabilize after a run of several identical bits}@}. This results in {@{vertical closure of the eye}@}. <!--SR:!2026-09-08,282,330!2026-07-10,235,330!2026-08-22,267,330!2026-07-11,236,330!2026-09-21,293,330!2026-07-13,237,330!2026-08-29,274,330!2026-08-28,274,330!2026-09-06,280,330!2026-08-12,261,330!2026-07-26,248,330!2026-08-27,273,330-->
+{@{Loss \(annotation: power loss\)}@} of {@{printed circuit board traces and cables}@} {@{increases with frequency due to [dielectric loss](dielectric%20loss.md)}@}, which causes {@{the channel}@} to {@{behave as a [low-pass filter](low-pass%20filter.md)}@}. {@{The effect of this}@} is {@{an increase in signal rise/fall time}@}. If {@{the data rate is high enough or the channel is lossy enough}@}, the signal {@{may not even reach its full value}@} during {@{a fast 0–1–0 or 1–0–1 transition}@}, and only {@{stabilize after a run of several identical bits}@}. This results in {@{vertical closure of the eye}@}. <!--SR:!2026-09-08,282,330!fsrs,2029-05-25T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-07-11T00:00:00.000Z!2026-08-22,267,330!2026-07-11,236,330!2026-09-21,293,330!2026-07-13,237,330!2026-08-29,274,330!2026-08-28,274,330!2026-09-06,280,330!2026-08-12,261,330!2026-07-26,248,330!2026-08-27,273,330-->
 
 The image below shows {@{a 1.25 Gbit/s NRZ signal}@} after passing {@{through a lossy channel}@} – {@{an RG-188 coaxial cable}@} {@{approximately 12 feet \(3.7 m\) in length}@}. {@{This channel}@} has {@{loss increasing in a fairly linear fashion}@} {@{from 0.1 dB at DC to 9 dB at 6 GHz}@}. <!--SR:!2026-08-01,253,330!2026-07-29,251,330!2026-09-02,277,330!2026-07-14,238,330!2026-08-29,274,330!2026-08-07,257,330!2026-09-20,292,330-->
 
@@ -159,7 +159,7 @@ In the image below, {@{an additional three inches of cable}@} is {@{added to the
 
 ## measurements
 
-There are {@{many measurements}@} that can be {@{obtained from an eye diagram}@}:<sup>[\[4\]](#^ref-4)</sup> \(annotation: 2 items: {@{amplitude measurements, time measurements}@}\) <!--SR:!2026-07-28,250,330!2026-09-17,290,330!2026-07-10,235,330-->
+There are {@{many measurements}@} that can be {@{obtained from an eye diagram}@}:<sup>[\[4\]](#^ref-4)</sup> \(annotation: 2 items: {@{amplitude measurements, time measurements}@}\) <!--SR:!2026-07-28,250,330!2026-09-17,290,330!fsrs,2029-05-25T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-07-11T00:00:00.000Z-->
 
 Amplitude measurements
 

@@ -273,7 +273,7 @@ For probabilistic scores, one can tune the threshold on a validation set to opti
 Flashcards for this section are as follows:
 
 - why threshold tuning matters ::@:: Different decision thresholds on the same score model can trade precision against recall, especially under class imbalance. <!--SR:!2026-07-25,70,324!2026-07-29,74,324-->
-- why threshold $0.5$ is not always optimal ::@:: A $0.5$ threshold is conventional but may be suboptimal when class priors or error costs are asymmetric. <!--SR:!2026-07-10,60,324!2026-07-30,75,324-->
+- why threshold $0.5$ is not always optimal ::@:: A $0.5$ threshold is conventional but may be suboptimal when class priors or error costs are asymmetric. <!--SR:!fsrs,2027-05-23T00:00:00.000Z,316,316.27925357,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-30,75,324-->
 - training versus deployment distinction ::@:: Minimizing training loss and selecting an operating threshold are separate design decisions that should both be validated. <!--SR:!2026-08-02,81,345!2026-07-29,74,324-->
 
 ## performance metrics for classification
@@ -403,7 +403,7 @@ This decomposition is conceptually revealing. The prior $P(y=c)$ captures class 
 
 Flashcards for this section are as follows:
 
-- Bayes-rule posterior formula for classification with notation ::@:: In a generative classifier, the posterior is $P(y=c\mid x)=\frac{P(y=c)\,P(x\mid y=c)}{P(x)}$, where $P(x)=\sum_{c'}P(y=c')P(x\mid y=c')$ is the marginal likelihood. <!--SR:!2026-07-10,60,324!2026-07-12,62,324-->
+- Bayes-rule posterior formula for classification with notation ::@:: In a generative classifier, the posterior is $P(y=c\mid x)=\frac{P(y=c)\,P(x\mid y=c)}{P(x)}$, where $P(x)=\sum_{c'}P(y=c')P(x\mid y=c')$ is the marginal likelihood. <!--SR:!fsrs,2027-05-23T00:00:00.000Z,316,316.27925357,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-12,62,324-->
 - why the normalizing constant $P(x)$ can be ignored and what rule remains ::@:: $P(x)$ is identical for every candidate class, so it cancels in pairwise comparisons; therefore prediction can use unnormalized scores and the argmax rule simplifies to $\hat y=\arg\max_c\,P(y=c)\,P(x\mid y=c)$. <!--SR:!2026-07-29,77,343!2026-08-07,82,343-->
 - what the prior and class-conditional each capture ::@:: The prior $P(y)$ captures how common each class is, while $P(x\mid y)$ describes what features typically look like inside each class. <!--SR:!2026-08-04,83,345!2026-07-22,68,324-->
 - why a rare class can still win ::@:: A rare class with small prior $P(y)$ can still have the largest posterior if its class-conditional likelihood $P(x\mid y)$ is much larger than competing classes for the observed input. <!--SR:!2026-08-04,84,345!2026-07-21,71,324-->

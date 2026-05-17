@@ -476,7 +476,7 @@ The content is in teaching order.
   - Charlie Parker / & Dizzy Gillespie ::@:: countless melodic possibilities, fluidity, rhythmic excitement <p> "Hot House" <!--SR:!2027-11-22,800,434!2027-10-19,772,434-->
 - bebop
   - bebop / chord ::@:: They made use of _extended chords_. Compare to normal chords, which usually have no more than 4 notes. <!--SR:!2027-10-09,763,434!2027-11-11,790,434-->
-  - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well. <!--SR:!2026-07-10,380,394!2027-10-23,775,434-->
+  - bebop / idea ::@:: It is about creating melody from harmony. Hundreds of years ago, Bach composed many of his music using this idea as well. <!--SR:!fsrs,2031-06-23T00:00:00.000Z,1808,1807.9747787,1,2,10,0,0,2026-07-11T00:00:00.000Z!2027-10-23,775,434-->
 - [extended chord](../../../../general/extended%20chord.md) ::@:: They are certain chords (built from thirds) or triads with notes extended, or added, beyond the seventh. <!--SR:!2027-11-12,791,434!2027-12-11,812,434-->
 - bebop
   - bebop / critics ::@:: Many people did not like this music. <p> "It has no melody or beat to dance to" — Louis Armstrong <br/> "Bebop is like playing scrabble with all of the vowels missing" — Duke Ellington <!--SR:!2027-01-23,539,414!2027-12-02,804,434-->

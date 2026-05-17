@@ -18,7 +18,7 @@ tags:
 
 ### boiling and melting points
 
-Due to [hydrogen bonding](hydrogen%20bond.md), amides have {@{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [carboxylic acids](carboxylic%20acid.md)}@}. <!--SR:!2026-07-10,788,290-->
+Due to [hydrogen bonding](hydrogen%20bond.md), amides have {@{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [carboxylic acids](carboxylic%20acid.md)}@}. <!--SR:!fsrs,2033-09-14T00:00:00.000Z,2622,2621.87585919,1.98030797,2,11,0,0,2026-07-11T00:00:00.000Z-->
 
 ### density
 

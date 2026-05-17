@@ -96,7 +96,7 @@ Two especially important examples of continuous distributions are the exponentia
 
 Flashcards for this section are as follows:
 
-- continuous distributions / example overview ::@:: Two fundamental examples of continuous distributions are the exponential distribution, which models waiting times, and the normal distribution, which models bell-shaped fluctuations around a center. <!--SR:!2026-07-10,60,310!2026-07-21,69,318-->
+- continuous distributions / example overview ::@:: Two fundamental examples of continuous distributions are the exponential distribution, which models waiting times, and the normal distribution, which models bell-shaped fluctuations around a center. <!--SR:!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-21,69,318-->
 - exponential versus normal distribution ::@:: The exponential law is distinguished by memorylessness, whereas the normal law is distinguished by its symmetric bell-shaped density centered at $\mu$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-30,77,335!2026-07-19,68,318-->
 
 ### uniform distribution

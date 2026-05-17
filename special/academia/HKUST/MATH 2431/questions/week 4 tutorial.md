@@ -25,7 +25,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 > Solution:
 >
 > - (a) One approach is {@{induction plus inclusion-exclusion using $P(A\cap B)=P(A)+P(B)-P(A\cup B)$: if $P(A)=P(B)=1$, then $P(A\cap B)=1$, so $P(\bigcap_{i=1}^N A_i)=1$ for every finite $N$}@}.
-> - (b) Let {@{$C_N=\bigcap_{i=1}^N A_i$}@}. Then {@{the decreasing-limit relation $C_N\downarrow\bigcap_{i=1}^{\infty}A_i$ lets continuity from above give $P(\bigcap_{i=1}^{\infty}A_i)=1$}@}. Equivalently, one can use {@{de Morgan on complements}@}: since {@{$P(A_i^c)=0$}@}, countable subadditivity {@{yields $P((\bigcap_i A_i)^c)=P(\bigcup_i A_i^c)\le\sum_iP(A_i^c)=0$}@}. <!--SR:!2026-07-23,69,320!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-17,64,320!2026-07-25,70,320!2026-07-10,58,310!2026-07-25,70,320-->
+> - (b) Let {@{$C_N=\bigcap_{i=1}^N A_i$}@}. Then {@{the decreasing-limit relation $C_N\downarrow\bigcap_{i=1}^{\infty}A_i$ lets continuity from above give $P(\bigcap_{i=1}^{\infty}A_i)=1$}@}. Equivalently, one can use {@{de Morgan on complements}@}: since {@{$P(A_i^c)=0$}@}, countable subadditivity {@{yields $P((\bigcap_i A_i)^c)=P(\bigcup_i A_i^c)\le\sum_iP(A_i^c)=0$}@}. <!--SR:!2026-07-23,69,320!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-17,64,320!2026-07-25,70,320!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-25,70,320-->
 
 <!-- markdownlint MD028 -->
 
@@ -43,7 +43,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > In the Monty Hall problem, after you choose door $D_1$ and the host opens goat door $D_3$, should you switch to $D_2$?
 >
-> Solution: {@{Switch to $D_2$}@}. Before any reveal, $P(\text{car at }D_1)=1/3$ and $P(\text{car in }\{D_2,D_3\})=2/3$. The host's rule is informative: {@{he never opens your chosen door and never opens a car door}@}, so after he opens $D_3$ the full $2/3$ probability on the unchosen pair concentrates on $D_2$. Equivalently, the posterior probabilities are {@{$P(\text{car at }D_1\mid H=D_3)=1/3$ and $P(\text{car at }D_2\mid H=D_3)=2/3$}@}. <!--SR:!2026-07-10,58,310!2026-07-18,65,320!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
+> Solution: {@{Switch to $D_2$}@}. Before any reveal, $P(\text{car at }D_1)=1/3$ and $P(\text{car in }\{D_2,D_3\})=2/3$. The host's rule is informative: {@{he never opens your chosen door and never opens a car door}@}, so after he opens $D_3$ the full $2/3$ probability on the unchosen pair concentrates on $D_2$. Equivalently, the posterior probabilities are {@{$P(\text{car at }D_1\mid H=D_3)=1/3$ and $P(\text{car at }D_2\mid H=D_3)=2/3$}@}. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-18,65,320!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

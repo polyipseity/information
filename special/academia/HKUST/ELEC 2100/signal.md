@@ -57,7 +57,7 @@ Flashcards for this section are as follows:
 - How can the same signal appear in different forms? ::@:: The same signal may be shown as a waveform plot, a formula, or a table, depending on which description is most convenient. <!--SR:!2026-07-20,64,314!2026-07-17,61,314-->
 - How can the same message appear as different signals? ::@:: The same message may be carried successively by an acoustic wave, a microphone voltage, and a digital bitstream. <!--SR:!2026-08-14,76,336!2026-07-11,57,314-->
 - Why does the same waveform not necessarily imply the same meaning? ::@:: Meaning depends on the encoding rule used by the system, so the same waveform shape can represent different messages in different contexts. <!--SR:!2026-08-13,75,336!2026-07-25,71,336-->
-- Why process a signal at all? ::@:: A signal is processed so that useful structure becomes easier to detect, measure, transmit, or interpret rather than to change the underlying message itself. <!--SR:!2026-08-06,68,314!2026-07-10,56,314-->
+- Why process a signal at all? ::@:: A signal is processed so that useful structure becomes easier to detect, measure, transmit, or interpret rather than to change the underlying message itself. <!--SR:!2026-08-06,68,314!fsrs,2027-04-24T00:00:00.000Z,287,287.18678662,1,2,7,0,0,2026-07-11T00:00:00.000Z-->
 - How does noise reduction motivate signal processing? ::@:: Filtering suppresses the unwanted noise component so that the useful signal becomes easier to hear or analyze. <!--SR:!2026-08-06,68,314!2026-08-14,76,336-->
 - Why is noise still treated as a signal in ELEC 2100? ::@:: Because it is an unwanted random component carried by the same mathematical signal framework, so analysis often starts from a useful signal plus noise model. <!--SR:!2026-07-12,59,314!2026-08-12,74,336-->
 
@@ -111,7 +111,7 @@ Two standard worked examples capture the distinction. If $x(t)=1$ for $0\le t\le
 
 Flashcards for this section are as follows:
 
-- When is a continuous-time signal periodic? ::@:: It is periodic if there exists $T>0$ such that $x(t+T)=x(t)$ for all $t$; the smallest such positive $T$ is the fundamental period. <!--SR:!2026-07-13,58,314!2026-07-10,55,314-->
+- When is a continuous-time signal periodic? ::@:: It is periodic if there exists $T>0$ such that $x(t+T)=x(t)$ for all $t$; the smallest such positive $T$ is the fundamental period. <!--SR:!2026-07-13,58,314!fsrs,2027-04-20T00:00:00.000Z,283,282.79278566,1,2,7,0,0,2026-07-11T00:00:00.000Z-->
 - Given a continuous-time signal with fundamental period $T$, what is its fundamental angular frequency? ::@:: Its fundamental angular frequency is $\omega_0=2\pi/T$. <!--SR:!2026-08-05,67,314!2026-08-14,76,334-->
 - For a continuous-time periodic signal with fundamental period $T_0$, what sign convention is used for the fundamental frequencies? ::@:: The fundamental angular frequency and ordinary fundamental frequency are taken as the positive values $\omega_0=2\pi/T_0$ and $f_0=1/T_0$. <!--SR:!2026-08-05,67,314!2026-08-15,77,336-->
 - Is there a highest distinct continuous-time fundamental frequency in general? ::@:: No. Continuous-time frequencies are not identified modulo $2\pi$, so there is no aliasing-based maximum distinct fundamental frequency. <!--SR:!2026-07-19,63,314!2026-07-14,59,314-->
@@ -191,7 +191,7 @@ Comparing inside and outside operations prevents a common mistake. The expressio
 
 Flashcards for this section are as follows:
 
-- What is the difference between dependent-variable and independent-variable signal operations? ::@:: Operations outside the function act on the signal value directly, whereas operations inside the function act on the argument and therefore reshape the time axis. <!--SR:!2026-07-10,55,314!2026-08-13,75,336-->
+- What is the difference between dependent-variable and independent-variable signal operations? ::@:: Operations outside the function act on the signal value directly, whereas operations inside the function act on the argument and therefore reshape the time axis. <!--SR:!fsrs,2027-04-20T00:00:00.000Z,283,282.79278566,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-08-13,75,336-->
 - What do $x(t-t_0)$ and $x(t+t_0)$ do geometrically? ::@:: $x(t-t_0)$ delays a signal by shifting it right, whereas $x(t+t_0)$ advances it by shifting it left. <!--SR:!2026-08-13,75,336!2026-07-14,59,314-->
 - What does time reversal do? ::@:: $x(-t)$ reflects the waveform across the vertical axis. <!--SR:!2026-08-15,77,336!2026-08-06,68,314-->
 - How does time scaling work in $x(at)$? ::@:: If $|a|>1$ it compresses time, if $0<|a|<1$ it expands time, and if $a<0$ it also introduces reversal. <!--SR:!2026-07-12,59,314!2026-08-13,75,336-->

@@ -30,7 +30,7 @@ Flashcards for this section are as follows:
 
 - What core communication idea does the modulation note explain in ELEC 2100? ::@:: It explains how a baseband message is translated to a carrier-centered band so transmission, channel separation, and receiver recovery become practical. <!--SR:!2026-07-15,60,310!2026-08-18,76,330-->
 - What is modulation in one sentence? ::@:: It is the process of multiplying or otherwise combining an information-carrying signal with a carrier so the message spectrum moves into a more useful frequency region. <!--SR:!2026-07-18,63,310!2026-08-18,76,330-->
-- What is demodulation in one sentence? ::@:: It is the process of reversing that carrier translation so the original information-bearing signal is recovered at baseband. <!--SR:!2026-07-10,56,310!2026-08-18,76,330-->
+- What is demodulation in one sentence? ::@:: It is the process of reversing that carrier translation so the original information-bearing signal is recovered at baseband. <!--SR:!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-08-18,76,330-->
 
 ## communication setting, channel constraints, and implementation overview
 
@@ -46,7 +46,7 @@ Flashcards for this section are as follows:
 
 - What basic communication-chain picture underlies modulation and demodulation? ::@:: A message source produces a baseband signal, the transmitter translates it to a carrier band, the channel carries it, and the receiver translates it back to recover the original information. <!--SR:!2026-07-21,65,310!2026-07-18,62,310-->
 - What is the baseband signal in this note? ::@:: It is the original information-bearing waveform before it is shifted to a carrier-centered band. <!--SR:!2026-08-18,76,330!2026-07-16,61,310-->
-- What is the carrier in this modulation note? ::@:: It is a higher-frequency reference waveform, typically $\cos(\omega_0 t)$, used to move the baseband spectrum into a new frequency region. <!--SR:!2026-07-10,56,310!2026-07-16,61,310-->
+- What is the carrier in this modulation note? ::@:: It is a higher-frequency reference waveform, typically $\cos(\omega_0 t)$, used to move the baseband spectrum into a new frequency region. <!--SR:!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-16,61,310-->
 - Why does modulation not change the information content in principle? ::@:: Because its purpose is to relocate the signal spectrally for transmission, not to alter the message itself. <!--SR:!2026-08-18,76,330!2026-08-18,76,330-->
 - What blocks commonly appear in a practical modulation and demodulation chain? ::@:: A transmitter often uses a local oscillator, mixer or multiplier, filters, and sometimes an amplifier. A receiver often uses a front-end BPF, a mixer or product detector, a synchronized local oscillator, an LPF for baseband recovery, and then gain or decision circuitry. <!--SR:!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-08-18,76,330-->
 - Why are BPF and LPF blocks already conceptually present before the detailed formulas? ::@:: Because modulation is really spectrum placement and spectrum selection, so channel filters and baseband-recovery filters are part of the idea from the beginning. <!--SR:!2026-07-23,67,310!2026-08-18,76,330-->
@@ -89,7 +89,7 @@ Flashcards for this section are as follows:
 - What is the transmitted waveform and physical interpretation of FSK? ::@:: FSK uses $s_i(t)=A\cos(\omega_i t)$, so the amplitude stays fixed but the oscillation rate changes from one symbol to another. The information rides on which frequency is present. <!--SR:!2026-08-18,76,330!2026-07-17,61,310-->
 - What is the transmitted waveform and physical interpretation of PSK? ::@:: PSK uses $s_i(t)=A\cos(\omega_c t+\phi_i)$, so amplitude and frequency stay fixed while the phase changes. The information rides on phase offsets or phase jumps. <!--SR:!fsrs,2027-04-14T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-10T00:00:00.000Z!2026-07-19,63,310-->
 - How should you compare analog AM with ASK? ::@:: Analog AM uses a continuous message waveform to vary carrier amplitude, while ASK uses a finite set of amplitude levels chosen by digital symbols. <!--SR:!2026-08-18,76,330!2026-08-18,76,330-->
-- What quick comparison helps distinguish ASK, FSK, and PSK? ::@:: ASK changes how tall the carrier is, FSK changes how fast it oscillates, and PSK changes where on the cycle the carrier starts or flips. <!--SR:!2026-07-10,56,310!2026-07-18,62,310-->
+- What quick comparison helps distinguish ASK, FSK, and PSK? ::@:: ASK changes how tall the carrier is, FSK changes how fast it oscillates, and PSK changes where on the cycle the carrier starts or flips. <!--SR:!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-18,62,310-->
 
 ## trigonometric identities behind modulation
 
@@ -133,7 +133,7 @@ Flashcards for this section are as follows:
 - What is the most important geometric picture to remember for AM-SC in frequency? ::@:: The baseband spectrum is copied twice and shifted to be centered at $+\omega_0$ and $-\omega_0$, with each copy scaled by $1/2$. <!--SR:!2026-07-12,58,310!2026-08-18,76,330-->
 - If $g(t)=A\cos(\omega_m t)$, what transmitted waveform does AM-SC produce, and how should you interpret it? ::@:: It gives $f(t)=\frac{A}{2}\cos((\omega_0+\omega_m)t)+\frac{A}{2}\cos((\omega_0-\omega_m)t)$. <br/> So the passband signal is the sum of an upper sideband and a lower sideband, each with amplitude $A/2$. <!--SR:!2026-07-22,67,310!fsrs,2027-01-18T00:00:00.000Z,208,207.99125421,1.98030797,2,6,0,0,2026-06-24T00:00:00.000Z-->
 - Why does modulation by a unit-amplitude cosine produce one-half scaling in each sideband? ::@:: Because $\cos(\omega_0 t)=\frac12 e^{j\omega_0 t}+\frac12 e^{-j\omega_0 t}$ already contains two half-weight complex exponentials, so the message is split into two translated copies rather than copied once at full strength. <!--SR:!2026-08-18,76,330!2026-08-18,76,330-->
-- How do practical transmitters compensate for the one-half scaling introduced by normalized modulation? ::@:: They use later gain stages, active mixers with conversion gain, or a larger effective local-oscillator scaling, so the transmitted passband level is restored to the desired power. <!--SR:!2026-07-10,56,310!fsrs,2027-04-14T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
+- How do practical transmitters compensate for the one-half scaling introduced by normalized modulation? ::@:: They use later gain stages, active mixers with conversion gain, or a larger effective local-oscillator scaling, so the transmitted passband level is restored to the desired power. <!--SR:!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-04-14T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 
 ## coherent demodulation, low-pass recovery, and implementation
 

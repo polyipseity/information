@@ -442,7 +442,7 @@ Representative journal entry examples:
 > | {@{Oil platform (PPE)}@}                | {@{620 921}@} |               |
 > | {@{Environmental liability (ARO)}@}     |               | {@{620 921}@} |
 >
-> _Calculation._ PV = {@{1 000 000 ÷ (1.10^5)}@} = {@{620 921}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-08,83,342!2026-08-02,78,342!2026-07-10,58,310!2026-07-31,76,342!fsrs,2027-04-23T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-10T00:00:00.000Z!2026-07-26,71,342!2026-07-29,74,337!2026-08-07,82,342-->
+> _Calculation._ PV = {@{1 000 000 ÷ (1.10^5)}@} = {@{620 921}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-08,83,342!2026-08-02,78,342!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-31,76,342!fsrs,2027-04-23T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-10T00:00:00.000Z!2026-07-26,71,342!2026-07-29,74,337!2026-08-07,82,342-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ BlueTide's capitalized ARO cost is {@{620 921}@}; useful life {@{5 years}@}; straight-line. Record year-end depreciation (for the ARO component).
@@ -563,7 +563,7 @@ Flashcards for this section are as follows:
 - onerous contract ::@:: Contract where unavoidable cost of meeting obligations exceeds economic benefits expected to be received; recognize a provision when it becomes onerous. <!--SR:!2026-08-06,81,342!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
 - onerous contract provision: measurement basis ::@:: Lower of (1) cost to fulfil the contract and (2) compensation/penalty to exit the contract. <!--SR:!2026-07-22,67,310!2026-08-08,83,342-->
 - why "lower of" for onerous contracts? ::@:: A reasonable entity chooses the cheaper way to avoid further losses (pay penalty vs continue paying fulfilment costs). <!--SR:!2026-07-29,74,337!2026-08-07,82,342-->
-- onerous contract provision: entry? ::@:: Dr _Loss_ (onerous contract), Cr _Onerous contract liability_ (amount = lower of fulfilment cost and exit penalty). <!--SR:!2026-07-10,58,310!2026-08-07,82,342-->
+- onerous contract provision: entry? ::@:: Dr _Loss_ (onerous contract), Cr _Onerous contract liability_ (amount = lower of fulfilment cost and exit penalty). <!--SR:!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-08-07,82,342-->
 - Meridian: fulfilment cost 200&nbsp;000, no exit option—onerous contract provision and entry? ::@:: Provision = 200&nbsp;000 (lower of fulfilment cost and exit penalty; no cheaper exit exists); Dr _Loss on onerous contract_ 200&nbsp;000, Cr _Onerous contract liability_ 200&nbsp;000. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
 - Meridian: fulfilment cost 200&nbsp;000, exit penalty 80&nbsp;000—onerous contract provision and entry? ::@:: Lower of 200&nbsp;000 and 80&nbsp;000 = 80&nbsp;000; Dr _Loss on onerous contract_ 80&nbsp;000, Cr _Onerous contract liability_ 80&nbsp;000. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
 

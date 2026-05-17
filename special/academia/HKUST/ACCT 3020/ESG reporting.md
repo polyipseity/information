@@ -89,7 +89,7 @@ The course highlights four broad categories of ESG‑related risk:
 Flashcards for this section are as follows:
 
 - ESG risk: reputation risk ::@:: Risk that repeated ESG failures (e.g. pollution, labour abuses, corruption) damage the firm's reputation, causing customers and investors to withdraw support. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
-- ESG risk: regulatory/reporting risk ::@:: Risk of fines or enforcement actions if ESG disclosures are incomplete, misleading, or inconsistent with actual practices (greenwashing). <!--SR:!2026-07-17,67,310!2026-07-10,60,310-->
+- ESG risk: regulatory/reporting risk ::@:: Risk of fines or enforcement actions if ESG disclosures are incomplete, misleading, or inconsistent with actual practices (greenwashing). <!--SR:!2026-07-17,67,310!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z-->
 - ESG risk: physical risk ::@:: Risk that climate‑related events such as storms, flooding, or heatwaves physically damage assets or disrupt operations. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - ESG risk: transition risk ::@:: Risk that, as regulation and markets move towards low‑carbon and sustainable models, certain assets or technologies lose value (e.g. become impaired or stranded). <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-01-02T00:00:00.000Z,196,195.52879015,1.98030797,2,6,0,0,2026-06-20T00:00:00.000Z-->
 
@@ -133,7 +133,7 @@ Flashcards for this section are as follows:
 - ESG board statement: what three things should it cover? ::@:: Board responsibility, the board's ESG approach and processes, and how the board reviewed ESG performance during the year. <!--SR:!2026-07-22,71,328!2026-07-21,71,328-->
 - ESG reporting in Hong Kong: two requirement types ::@:: Mandatory disclosure (must disclose) and "comply or explain" disclosure (either comply or explain non‑compliance). <!--SR:!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-12,62,310-->
 - ESG board statement: three key elements ::@:: (1) Board's responsibility for ESG oversight; (2) board's approach, strategy and processes for managing ESG; (3) how the board reviewed ESG performance during the year. <!--SR:!2026-07-12,62,310!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
-- ESG: why "comply or explain" matters ::@:: Allows some flexibility, but weak or repeated explanations may signal poor ESG commitment to investors. <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-10,60,310-->
+- ESG: why "comply or explain" matters ::@:: Allows some flexibility, but weak or repeated explanations may signal poor ESG commitment to investors. <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z-->
 
 ## reporting principles: materiality, KPIs, and consistency
 
@@ -248,7 +248,7 @@ Clear disclosure of both material topics and reporting boundary helps users unde
 
 Flashcards for this section are as follows:
 
-- ESG: what is materiality assessment used for? ::@:: To identify which ESG topics are important enough to warrant detailed disclosure, based on impact on the business and stakeholders. <!--SR:!2026-07-10,60,310!2026-07-11,61,310-->
+- ESG: what is materiality assessment used for? ::@:: To identify which ESG topics are important enough to warrant detailed disclosure, based on impact on the business and stakeholders. <!--SR:!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-11,61,310-->
 - ESG: what is reporting boundary? ::@:: The set of operations, entities, or regions included in the ESG data (e.g. specific subsidiaries or countries). <!--SR:!2026-07-15,65,310!2026-07-13,63,310-->
 - ESG boundary: why disclosure is important ::@:: Without a clear boundary, readers might wrongly assume ESG numbers cover the whole group, making comparisons misleading. <!--SR:!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
 

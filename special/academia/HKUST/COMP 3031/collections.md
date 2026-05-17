@@ -75,7 +75,7 @@ Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` 
 
 By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}. <!--SR:!2026-10-26,282,330!2026-09-21,249,330!2026-10-18,276,330!2026-10-11,269,330-->
 
-However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}: <!--SR:!2026-07-10,176,310!2026-09-19,247,330!2026-09-25,253,330!2026-09-21,249,330!2026-10-15,273,330!2027-06-11,464,383-->
+However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}: <!--SR:!fsrs,2028-08-09T00:00:00.000Z,760,759.95962134,1,2,8,0,0,2026-07-11T00:00:00.000Z!2026-09-19,247,330!2026-09-25,253,330!2026-09-21,249,330!2026-10-15,273,330!2027-06-11,464,383-->
 
 > [!example] __implementing `prepend` on `List`__
 >

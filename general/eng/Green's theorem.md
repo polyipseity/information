@@ -127,7 +127,7 @@ Suppose {@{$p:{\overline {D} }\to \mathbb {R}$ and $q:{\overline {D} }\to \mathb
 
 ## relationship to Stokes' theorem
 
-Green's theorem is {@{a special case of the [Kelvin–Stokes theorem](Stokes'%20theorem.md#theorem)}@}, when {@{applied to a region in the $xy$-plane}@}. <!--SR:!2026-07-10,279,330!fsrs,2029-10-15T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-07-04T00:00:00.000Z-->
+Green's theorem is {@{a special case of the [Kelvin–Stokes theorem](Stokes'%20theorem.md#theorem)}@}, when {@{applied to a region in the $xy$-plane}@}. <!--SR:!fsrs,2029-11-10T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-07-11T00:00:00.000Z!fsrs,2029-10-15T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-07-04T00:00:00.000Z-->
 
 We can {@{augment the two-dimensional field into a three-dimensional field}@} with {@{a _z_ component that is always 0}@}. Write __F__ for {@{the [vector](Euclidean%20vector.md)-valued function $\mathbf {F} =(L,M,0)$}@}. Start with {@{the left side of Green's theorem}@}: {@{$$\oint _{C}(L\,dx+M\,dy)=\oint _{C}(L,M,0)\cdot (dx,dy,dz)=\oint _{C}\mathbf {F} \cdot d\mathbf {r} .$$}@} <!--SR:!2029-06-12,1111,350!fsrs,2029-09-15T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-06-23T00:00:00.000Z!fsrs,2029-10-06T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-06-29T00:00:00.000Z!fsrs,2029-09-30T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-06-27T00:00:00.000Z!2029-05-08,1087,350-->
 

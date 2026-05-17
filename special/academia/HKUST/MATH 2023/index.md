@@ -81,7 +81,7 @@ The content is in teaching order.
   - dot product / geometrically ::@:: It is the product of the Euclidean magnitudes of the two vectors and the cosine of the angle between them. Algebraic and geometric definitions are equivalent when using Cartesian coordinates. <!--SR:!2026-07-14,408,367!2028-06-26,967,367-->
   - dot product / properties
     - dot product / properties / magnitude ::@:: $\vec v \cdot \vec v = \lvert \vec v \rvert^2$ <!--SR:!2026-07-13,407,367!2026-07-13,407,367-->
-    - dot product / properties / commutativity ::@:: $\vec v \cdot \vec w = \vec w \cdot \vec v$ <!--SR:!2026-07-11,405,367!2026-07-10,404,367-->
+    - dot product / properties / commutativity ::@:: $\vec v \cdot \vec w = \vec w \cdot \vec v$ <!--SR:!2026-07-11,405,367!fsrs,2031-09-13T00:00:00.000Z,1890,1889.67979161,1,2,10,0,0,2026-07-11T00:00:00.000Z-->
     - dot product / properties / distributivity ::@:: $\vec u \cdot (\vec v + \vec w) = \vec u \cdot \vec v + \vec u \cdot \vec w \qquad (\vec u + \vec v) \cdot \vec w = \vec u \cdot \vec w + \vec v \cdot \vec w$ <!--SR:!2026-07-13,407,367!2026-07-14,408,367-->
     - dot product / properties / homogeneity ::@:: $(c \vec u) \cdot \vec v = c (\vec u \cdot \vec v) = \vec u \cdot (c \vec v)$ <!--SR:!fsrs,2031-08-18T00:00:00.000Z,1869,1869.37261436,1,2,10,0,0,2026-07-06T00:00:00.000Z!fsrs,2031-08-28T00:00:00.000Z,1877,1877.49926502,1,2,10,0,0,2026-07-08T00:00:00.000Z-->
 - [polarization identity](../../../../general/polarization%20identity.md) ::@:: $2 \lVert \vec x \rVert^2 + 2 \lVert \vec y \rVert^2 = \lVert \vec x + \vec y \rVert^2 - \lVert \vec x - \vec y \rVert^2$ <!--SR:!fsrs,2031-09-03T00:00:00.000Z,1882,1881.5607887,1,2,10,0,0,2026-07-09T00:00:00.000Z!fsrs,2031-09-08T00:00:00.000Z,1886,1885.62086045,1,2,10,0,0,2026-07-10T00:00:00.000Z-->
@@ -98,7 +98,7 @@ The content is in teaching order.
     - cross product / properties / zero element ::@:: $\mathbf a \times \mathbf 0 = \mathbf 0 \times \mathbf a = \mathbf 0$ <!--SR:!2026-07-14,408,367!2026-07-13,407,367-->
     - cross product / properties / parallel ::@:: $\mathbf a \times \mathbf a = \mathbf 0$ <!--SR:!fsrs,2031-08-23T00:00:00.000Z,1873,1873.43659271,1,2,10,0,0,2026-07-07T00:00:00.000Z!2029-08-25,1299,367-->
   - cross product / calculation
-    - cross product / calculation / element-wise ::@:: $\mathbf a \times \mathbf b = \langle a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1 \rangle$ <!--SR:!2027-06-08,641,346!2026-07-10,404,367-->
+    - cross product / calculation / element-wise ::@:: $\mathbf a \times \mathbf b = \langle a_2 b_3 - a_3 b_2, a_3 b_1 - a_1 b_3, a_1 b_2 - a_2 b_1 \rangle$ <!--SR:!2027-06-08,641,346!fsrs,2031-09-13T00:00:00.000Z,1890,1889.67979161,1,2,10,0,0,2026-07-11T00:00:00.000Z-->
     - cross product / calculation / matrix determinant ::@:: $\mathbf a \times \mathbf b = \begin{vmatrix} \mathbf i & \mathbf j & \mathbf k \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \end{vmatrix}$ <!--SR:!2026-07-11,405,367!2026-07-14,408,367-->
 
 ## week 2 lecture

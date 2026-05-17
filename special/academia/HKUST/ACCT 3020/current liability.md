@@ -19,7 +19,7 @@ A liability has three essential components under the conceptual framework. First
 
 Flashcards for this section are as follows:
 
-- liability three components ::@:: Present obligation; arising from past events; settlement expected to require an outflow of resources (e.g. cash). <!--SR:!2026-07-10,56,310!2026-07-22,68,334-->
+- liability three components ::@:: Present obligation; arising from past events; settlement expected to require an outflow of resources (e.g. cash). <!--SR:!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-22,68,334-->
 - present obligation (liability) ::@:: The entity is obliged to transfer resources now, even if the actual payment occurs later. <!--SR:!2026-07-23,68,334!fsrs,2026-12-04T05:55:03.430Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:03.430Z-->
 - outflow of resources (liability) ::@:: Settlement is expected to require a transfer of cash or goods from the entity. <!--SR:!2026-07-28,72,334!fsrs,2026-12-04T05:55:19.135Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:19.135Z-->
 - past event and liability ::@:: A liability cannot exist without a past event that created the present obligation (e.g. borrowing or purchase on credit). <!--SR:!fsrs,2026-12-04T05:51:06.114Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:06.114Z!2026-07-25,69,334-->

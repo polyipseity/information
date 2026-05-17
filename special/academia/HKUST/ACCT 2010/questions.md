@@ -307,7 +307,7 @@ tags:
 > 3. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@} <!--SR:!2026-07-10,462,381!fsrs,2032-02-13T00:00:00.000Z,2065,2065.28037757,1,2,10,0,0,2026-06-19T00:00:00.000Z-->
+> - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@} <!--SR:!fsrs,2032-05-22T00:00:00.000Z,2142,2141.95223489,1,2,10,0,0,2026-07-11T00:00:00.000Z!fsrs,2032-02-13T00:00:00.000Z,2065,2065.28037757,1,2,10,0,0,2026-06-19T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -421,7 +421,7 @@ tags:
 > 3. both of them
 >
 > - solution: {@{3}@}
-> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@} <!--SR:!2026-07-10,462,381!fsrs,2032-04-10T00:00:00.000Z,2110,2109.71841691,1,2,10,0,0,2026-07-01T00:00:00.000Z-->
+> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@} <!--SR:!fsrs,2032-05-22T00:00:00.000Z,2142,2141.95223489,1,2,10,0,0,2026-07-11T00:00:00.000Z!fsrs,2032-04-10T00:00:00.000Z,2110,2109.71841691,1,2,10,0,0,2026-07-01T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
