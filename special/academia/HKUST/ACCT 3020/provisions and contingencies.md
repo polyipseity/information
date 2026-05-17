@@ -351,7 +351,7 @@ Representative journal entry examples:
 > | {@{Premium expense}@}                         | {@{12&nbsp;000}@} |                   |
 > | {@{Premium liability}@}                       |                   | {@{12&nbsp;000}@} |
 >
-> _Calculation._ Expected total bowls from 2025 sales = {@{300&nbsp;000 × 0.60 ÷ 10 = 18&nbsp;000 bowls}@}; bowls already issued in 2025 = {@{60&nbsp;000 ÷ 10 = 6&nbsp;000 bowls}@}; bowls still expected = {@{12&nbsp;000}@}. Net cost per bowl = {@{2 − 1 = 1}@}; required year-end provision = {@{12&nbsp;000 × 1 = 12&nbsp;000}@}. <!--SR:!2026-08-02,78,342!2026-08-07,82,342!2026-07-15,62,310!2026-07-05,50,322!2026-07-26,71,342!2026-07-19,66,326!2026-08-06,81,342!2026-08-07,82,342!fsrs,2026-12-27T00:00:00.000Z,191,191.3492133,1.98030797,2,6,0,0,2026-06-19T00:00:00.000Z!2026-07-08,56,310-->
+> _Calculation._ Expected total bowls from 2025 sales = {@{300&nbsp;000 × 0.60 ÷ 10 = 18&nbsp;000 bowls}@}; bowls already issued in 2025 = {@{60&nbsp;000 ÷ 10 = 6&nbsp;000 bowls}@}; bowls still expected = {@{12&nbsp;000}@}. Net cost per bowl = {@{2 − 1 = 1}@}; required year-end provision = {@{12&nbsp;000 × 1 = 12&nbsp;000}@}. <!--SR:!2026-08-02,78,342!2026-08-07,82,342!2026-07-15,62,310!fsrs,2026-12-20T00:00:00.000Z,167,166.75267024,2.79242837,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-26,71,342!2026-07-19,66,326!2026-08-06,81,342!2026-08-07,82,342!fsrs,2026-12-27T00:00:00.000Z,191,191.3492133,1.98030797,2,6,0,0,2026-06-19T00:00:00.000Z!2026-07-08,56,310-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ A Suncrest customer {@{redeems 10 package seals plus 1 dollar for one bowl carried in Inventory of premiums at 2}@}. The entity had already {@{provided for the 1 net cost of that redemption when the related sale was made}@}.

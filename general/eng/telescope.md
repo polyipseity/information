@@ -9,7 +9,7 @@ tags:
 
 # telescope
 
-A __telescope__ is {@{a device used to observe distant objects by their emission, [absorption](absorption%20(electromagnetic%20radiation).md), or [reflection](reflection%20(physics).md) of [electromagnetic radiation](electromagnetic%20radiation.md)}@}. <!--SR:!2026-07-05,520,310-->
+A __telescope__ is {@{a device used to observe distant objects by their emission, [absorption](absorption%20(electromagnetic%20radiation).md), or [reflection](reflection%20(physics).md) of [electromagnetic radiation](electromagnetic%20radiation.md)}@}. <!--SR:!fsrs,2031-11-14T00:00:00.000Z,1957,1956.57558674,1,2,10,0,0,2026-07-06T00:00:00.000Z-->
 
 ## in space
 

@@ -227,7 +227,7 @@ The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expresse
 > ```
 <!--SR:!2026-08-31,229,330!2026-11-02,289,330!2026-10-24,280,330-->
 
-ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a systematic way to {@{validate program behaviour without hand-crafted test data}@}. <!--SR:!2026-10-14,273,330!2026-07-05,172,310-->
+ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a systematic way to {@{validate program behaviour without hand-crafted test data}@}. <!--SR:!2026-10-14,273,330!fsrs,2028-07-20T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-06T00:00:00.000Z-->
 
 ## definition
 

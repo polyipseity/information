@@ -38,7 +38,7 @@ In this file the sampling rate is $f_s = 100000\,\text{Hz}$ and the record lengt
 Flashcards for this section are as follows:
 
 - Why should a phase plot of FFT coefficients be masked by a magnitude threshold before angles are interpreted? ::@:: Because bins with nearly zero magnitude do not carry a stable physical phase, so the threshold suppresses meaningless angle values caused mainly by numerical noise. <!--SR:!2026-07-08,59,310!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z-->
-- For an FFT coefficient table computed as `fft(sample) ./ N`, why divide by the record length before reading amplitudes and phases? ::@:: Because the raw FFT sum has to be normalized by the record length so that the spectral lines can be interpreted on the same Fourier-series-style coefficient scale used in the course notes. <!--SR:!2026-07-05,58,310!2026-07-08,61,310-->
+- For an FFT coefficient table computed as `fft(sample) ./ N`, why divide by the record length before reading amplitudes and phases? ::@:: Because the raw FFT sum has to be normalized by the record length so that the spectral lines can be interpreted on the same Fourier-series-style coefficient scale used in the course notes. <!--SR:!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-08,61,310-->
 - If a centered DFT frequency axis is built as `((0:N-1) - floor(N/2)) .* fs ./ N` and a record has $f_s = N = 100000$, why are the spectral peaks readable directly in hertz? ::@:: Because the bin spacing is $f_s/N = 1\,\text{Hz}$, so each shifted DFT bin already lines up with an integer-hertz frequency label. <!--SR:!2026-07-14,67,310!2026-07-07,58,310-->
 
 ## fundamental frequency from the common divisor of visible tones

@@ -15,7 +15,7 @@ A __harmonic__ is {@{a sinusoidal wave with a frequency that is a positive integ
 
 ## harmonic model
 
-A harmonic model is {@{very similar to a [sinusoidal model](sinusoidal%20model.md)}@}, additionally {@{requiring the sinusoidal frequencies to be positive integer multiples of the fundamental frequency $f_0$}@}. {@{The fundamental frequency}@} is often {@{the lowest frequency}@}, and is known as {@{the _pitch_}@} of an instrument. <!--SR:!fsrs,2029-11-18T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-07-04T00:00:00.000Z!2029-07-18,1146,350!2026-07-05,285,330!2029-06-11,1121,350!2029-08-08,1167,350-->
+A harmonic model is {@{very similar to a [sinusoidal model](sinusoidal%20model.md)}@}, additionally {@{requiring the sinusoidal frequencies to be positive integer multiples of the fundamental frequency $f_0$}@}. {@{The fundamental frequency}@} is often {@{the lowest frequency}@}, and is known as {@{the _pitch_}@} of an instrument. <!--SR:!fsrs,2029-11-18T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-07-04T00:00:00.000Z!2029-07-18,1146,350!fsrs,2029-11-28T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-07-06T00:00:00.000Z!2029-06-11,1121,350!2029-08-08,1167,350-->
 
 {@{Not all instruments}@} produce timbre that can be modeled by a harmonic model, i.e. {@{their partials are not all integer multiples of its fundamental frequency}@}. <!--SR:!2026-07-13,293,330!2029-07-15,1143,350-->
 

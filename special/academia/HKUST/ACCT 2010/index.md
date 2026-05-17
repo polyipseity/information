@@ -403,7 +403,7 @@ The content is in teaching order.
 - notes payable
   - long-term notes payable ::@:: They are relatively small debt, usually filled from single source, e.g. banks. <!--SR:!2031-10-10,2012,403!2026-10-02,536,403-->
 - [bond](../../../../general/bond%20(finance).md) ::@:: This is a type of security under which the issuer (debtor) owes the holder (creditor) a debt, and is obliged – depending on the terms – to provide cash flow to the creditor (e.g. repay the principal i.e. amount borrowed) of the bond at the maturity date as well as interest (called the coupon) over a specified amount of time. <!--SR:!2031-05-07,1886,403!2028-10-27,1115,383-->
-  - bond / usage ::@:: Significant (say projects) debt needs are often filled by issuing bonds. They are issued to public, i.e., individuals as well as institutions. Issuers include companies, states & governments. <!--SR:!2027-07-26,739,363!2026-07-05,463,403-->
+  - bond / usage ::@:: Significant (say projects) debt needs are often filled by issuing bonds. They are issued to public, i.e., individuals as well as institutions. Issuers include companies, states & governments. <!--SR:!2027-07-26,739,363!fsrs,2032-05-21T00:00:00.000Z,2146,2145.97655349,1,2,10,0,0,2026-07-06T00:00:00.000Z-->
 
 ## week 9 lecture 2
 

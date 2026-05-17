@@ -103,7 +103,7 @@ The content is in teaching order.
     - job costing / vs. process costing / approach ::@:: customized to the needs of clients or customers; mass produced using standardized processes <!--SR:!2026-07-07,401,368!2031-07-27,1880,388-->
     - job costing / vs. process costing / cost accumulation ::@:: accumulates per customer/project/job; accumulates per process <!--SR:!2026-07-08,402,368!2029-07-21,1274,368-->
     - job costing / vs. process costing / product type ::@:: unique products and services (e.g. construction projects); homogeneous products and services (e.g. soft drinks) <!--SR:!2027-12-19,808,348!2029-11-01,1356,368-->
-    - job costing / vs. process costing / report types ::@:: job cost sheet per customer/project/job; production report per process <!--SR:!2026-07-05,399,368!2031-07-05,1860,388-->
+    - job costing / vs. process costing / report types ::@:: job cost sheet per customer/project/job; production report per process <!--SR:!fsrs,2031-08-24T00:00:00.000Z,1875,1874.9492488,1,2,10,0,0,2026-07-06T00:00:00.000Z!2031-07-05,1860,388-->
   - job cost / manufacturing costs ::@:: direct materials, direct labor, manufacturing overhead; add them together <!--SR:!2031-08-06,1889,388!2028-11-21,1085,368-->
   - job cost / source documents ::@:: documents to assign direct costs to jobs; direct materials: materials requisition form, direct labor: labor time ticket <!--SR:!2029-07-09,1264,368!fsrs,2031-07-02T00:00:00.000Z,1838,1838.21073839,1,2,10,0,0,2026-06-20T00:00:00.000Z-->
   - job cost / materials requisition form: [formats § materials requisition form](formats.md#materials%20requisition%20form)

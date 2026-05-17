@@ -58,7 +58,7 @@ The recall picture is therefore: Fourier transform is the continuous-continuous 
 
 Flashcards for this section are as follows:
 
-- what are the analysis and synthesis formulas for the parent Fourier-transform corner? ::@:: They are $F(\omega)=\int_{-\infty}^{\infty}f(t)e^{-j\omega t}\,dt$ and $f(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}F(\omega)e^{j\omega t}\,d\omega$. <!--SR:!2026-08-05,81,340!2026-07-05,50,306-->
+- what are the analysis and synthesis formulas for the parent Fourier-transform corner? ::@:: They are $F(\omega)=\int_{-\infty}^{\infty}f(t)e^{-j\omega t}\,dt$ and $f(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}F(\omega)e^{j\omega t}\,d\omega$. <!--SR:!2026-08-05,81,340!fsrs,2027-03-16T00:00:00.000Z,253,252.66611931,1.17981593,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - what is the convolution theorem for the ordinary Fourier transform in course convention? ::@:: If $y(t)=(f*g)(t)$, then $Y(\omega)=F(\omega)G(\omega)$. <!--SR:!2026-08-07,83,340!2026-07-26,72,326-->
 - what is the time-multiplication theorem for the ordinary Fourier transform in course convention? ::@:: If $y(t)=f(t)g(t)$, then $Y(\omega)=\frac{1}{2\pi}(F*G)(\omega)$. <!--SR:!2026-08-07,83,340!2026-08-07,83,340-->
 - what is the relevant Parseval formula for the ordinary Fourier transform? ::@:: For an energy signal, $\int_{-\infty}^{\infty}|f(t)|^2\,dt=\frac{1}{2\pi}\int_{-\infty}^{\infty}|F(\omega)|^2\,d\omega$. <!--SR:!2026-07-30,75,326!2026-07-17,64,310-->

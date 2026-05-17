@@ -41,7 +41,7 @@ If {@{only a small number of ω are desired}@}, or if {@{the STFT is desired to 
 
 ## inverse STFT
 
-The STFT is {@{[invertible](invertible%20function.md)}@}, that is, {@{the original signal can be recovered from the transform by the inverse STFT}@}. {@{The most widely accepted way of inverting the STFT}@} is by using {@{the [overlap-add \(OLA\) method](overlap–add%20method.md)}@}, which also allows for {@{modifications to the STFT complex spectrum}@}. This makes for {@{a versatile signal processing method}@},<sup>[\[3\]](#^ref-3)</sup> referred to as {@{the _overlap and add with modifications_ method}@}. <!--SR:!2026-07-05,287,330!2026-09-14,347,349!2026-09-18,351,349!2026-08-30,335,349!2026-07-12,297,349!fsrs,2029-09-18T03:22:52.356Z,1191,1191.26470738,1,2,9,0,0,2026-06-15T03:22:52.356Z!2026-09-14,347,349-->
+The STFT is {@{[invertible](invertible%20function.md)}@}, that is, {@{the original signal can be recovered from the transform by the inverse STFT}@}. {@{The most widely accepted way of inverting the STFT}@} is by using {@{the [overlap-add \(OLA\) method](overlap–add%20method.md)}@}, which also allows for {@{modifications to the STFT complex spectrum}@}. This makes for {@{a versatile signal processing method}@},<sup>[\[3\]](#^ref-3)</sup> referred to as {@{the _overlap and add with modifications_ method}@}. <!--SR:!fsrs,2029-12-05T00:00:00.000Z,1248,1248.19227538,1,2,9,0,0,2026-07-06T00:00:00.000Z!2026-09-14,347,349!2026-09-18,351,349!2026-08-30,335,349!2026-07-12,297,349!fsrs,2029-09-18T03:22:52.356Z,1191,1191.26470738,1,2,9,0,0,2026-06-15T03:22:52.356Z!2026-09-14,347,349-->
 
 <!-- markdownlint-disable-next-line MD024 -->
 ### continuous-time STFT
@@ -72,7 +72,7 @@ One of {@{the pitfalls of the STFT}@} is that {@{it has a fixed resolution}@}. {
 >
 > Comparison of {@{STFT resolution}@}. Left has {@{better time resolution}@}, and {@{right has better frequency resolution}@}. <!--SR:!2029-05-31,1115,350!2026-08-14,321,349!2026-09-11,345,349!2026-08-27,333,349-->
 
-This is one of {@{the reasons for the creation of the [wavelet transform](wavelet%20transform.md) and [multiresolution analysis](multiresolution%20analysis.md)}@}, which can give {@{good time resolution for high-frequency events and good frequency resolution for low-frequency events}@}, the combination {@{best suited for many real signals}@}. <!--SR:!2026-09-18,351,349!2026-07-05,290,349!2026-09-08,343,349-->
+This is one of {@{the reasons for the creation of the [wavelet transform](wavelet%20transform.md) and [multiresolution analysis](multiresolution%20analysis.md)}@}, which can give {@{good time resolution for high-frequency events and good frequency resolution for low-frequency events}@}, the combination {@{best suited for many real signals}@}. <!--SR:!2026-09-18,351,349!fsrs,2030-03-08T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-07-06T00:00:00.000Z!2026-09-08,343,349-->
 
 This property is related to {@{the [Heisenberg](Werner%20Heisenberg.md) [uncertainty principle](uncertainty%20principle.md)}@}, but {@{not directly – see [Gabor limit](Gabor%20limit.md#signal%20processing) for discussion}@}. {@{The product of the standard deviation in time and frequency}@} is {@{limited}@}. {@{The boundary of the uncertainty principle}@} \(best {@{simultaneous resolution of both}@}\) is reached with {@{a Gaussian window function \(or mask function\)}@}, as {@{the Gaussian minimizes the [Fourier uncertainty principle](Fourier%20uncertainty%20principle.md#uncertainty%20principle)}@}. This is called {@{the [Gabor transform](Gabor%20transform.md)}@} \(and with {@{modifications for multiresolution}@} becomes {@{the [Morlet wavelet](Morlet%20wavelet.md) transform}@}\). <!--SR:!2029-05-07,1095,350!2026-08-23,329,349!2026-09-02,338,349!fsrs,2029-10-10T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-22T00:00:00.000Z!2026-08-27,333,349!2026-08-30,335,349!2026-09-12,346,349!fsrs,2029-11-15T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-07-01T00:00:00.000Z!2026-09-13,347,349!2026-09-15,348,349!2026-09-08,343,349-->
 
@@ -127,7 +127,7 @@ As {@{the [Nyquist frequency](Nyquist%20frequency.md) is a limitation in the max
 
 Given {@{a time window that is Τ seconds long}@}, the minimum frequency {@{that can be resolved is 1/Τ Hz}@}. <!--SR:!2026-07-23,306,349!2026-09-01,337,349-->
 
-The Rayleigh frequency is {@{an important consideration in applications of the short-time Fourier transform \(STFT\)}@}, as well as {@{any other method of harmonic analysis on a signal of finite record-length}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-07-05,286,330!2026-08-22,329,349-->
+The Rayleigh frequency is {@{an important consideration in applications of the short-time Fourier transform \(STFT\)}@}, as well as {@{any other method of harmonic analysis on a signal of finite record-length}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!fsrs,2029-12-01T00:00:00.000Z,1244,1244.40857912,1,2,9,0,0,2026-07-06T00:00:00.000Z!2026-08-22,329,349-->
 
 ## application
 

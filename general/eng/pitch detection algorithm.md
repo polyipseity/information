@@ -12,7 +12,7 @@ tags:
 
 # pitch detection algorithm
 
-- {@{"Pitch tracking"}@} redirects here. For {@{the baseball term}@}, see {@{[Glossary of baseball \(P\) § pitch tracking](glossary%20of%20baseball%20(P).md#pitch%20tracking)}@}. <!--SR:!2026-07-05,287,330!2029-03-31,1065,350!fsrs,2029-09-02T15:38:02.171Z,1178,1178.42810815,1,2,9,0,0,2026-06-12T15:38:02.171Z-->
+- {@{"Pitch tracking"}@} redirects here. For {@{the baseball term}@}, see {@{[Glossary of baseball \(P\) § pitch tracking](glossary%20of%20baseball%20(P).md#pitch%20tracking)}@}. <!--SR:!fsrs,2029-12-05T00:00:00.000Z,1248,1248.19227538,1,2,9,0,0,2026-07-06T00:00:00.000Z!2029-03-31,1065,350!fsrs,2029-09-02T15:38:02.171Z,1178,1178.42810815,1,2,9,0,0,2026-06-12T15:38:02.171Z-->
 
 {@{A __pitch detection algorithm__ \(__PDA__\)}@} is {@{an [algorithm](algorithm.md) designed to estimate the [pitch](pitch%20(music).md) or [fundamental frequency](fundamental%20frequency.md) of a [quasiperiodic](quasiperiodic.md) or [oscillating](oscillation.md) signal}@}, usually {@{a [digital recording](digital%20recording.md) of [speech](speech%20processing.md) or a musical note or tone}@}. This can be done in {@{the [time domain](time%20domain.md), the [frequency domain](frequency%20domain.md), or both}@}. <!--SR:!fsrs,2029-10-04T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-06-19T00:00:00.000Z!fsrs,2029-09-19T02:44:42.803Z,1191,1191.26470738,1,2,9,0,0,2026-06-16T02:44:42.803Z!fsrs,2029-08-08T00:31:12.773Z,1159,1159.34014939,1,2,9,0,0,2026-06-06T00:31:12.773Z!2026-07-07,289,330-->
 

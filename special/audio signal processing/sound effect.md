@@ -15,7 +15,7 @@ After {@{analyzing a sound using models}@}, we can {@{modify model data and para
 
 ## frequency filter
 
-{@{A _frequency filter_}@} is {@{a function in the frequency domain}@}. After {@{transforming a sound into frequency domain}@}, we simply {@{element-wise multiply with the filter}@}. Equivalently, {@{their magnitudes are multiplied together}@} and {@{their phases are added together}@}. The effect of the filter in the time domain is to {@{convolute the time signal with the impulse response \(IDFT\) of the filter}@}. <!--SR:!2029-07-26,1154,350!2026-07-14,294,330!fsrs,2029-10-01T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-06-20T00:00:00.000Z!2026-07-05,285,330!2026-07-10,290,330!2029-07-13,1141,350!2029-02-24,1032,350-->
+{@{A _frequency filter_}@} is {@{a function in the frequency domain}@}. After {@{transforming a sound into frequency domain}@}, we simply {@{element-wise multiply with the filter}@}. Equivalently, {@{their magnitudes are multiplied together}@} and {@{their phases are added together}@}. The effect of the filter in the time domain is to {@{convolute the time signal with the impulse response \(IDFT\) of the filter}@}. <!--SR:!2029-07-26,1154,350!2026-07-14,294,330!fsrs,2029-10-01T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-06-20T00:00:00.000Z!fsrs,2029-11-28T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-07-06T00:00:00.000Z!2026-07-10,290,330!2029-07-13,1141,350!2029-02-24,1032,350-->
 
 ### equalization
 

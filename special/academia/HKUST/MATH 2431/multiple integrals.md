@@ -47,7 +47,7 @@ Flashcards for this section are as follows:
 - lower multiple Riemann sum for partition $Z_N=(Q_\ell)$ ::@:: The lower sum is $S_-(Z_N,f)=\sum_{\ell=1}^N \operatorname{Vol}(Q_\ell)\inf_{z\in Q_\ell}f(z)$. <!--SR:!2026-07-14,64,310!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 - upper multiple Riemann sum for partition $Z_N=(Q_\ell)$ ::@:: The upper sum is $S_+(Z_N,f)=\sum_{\ell=1}^N \operatorname{Vol}(Q_\ell)\sup_{z\in Q_\ell}f(z)$. <!--SR:!2026-07-10,60,310!2026-07-15,65,310-->
 - Riemann-integrability on a rectangular set $Q$ ::@:: A bounded function on a rectangular set is Riemann-integrable when the supremum of all lower sums equals the infimum of all upper sums. <!--SR:!2026-07-17,67,310!2026-07-07,57,310-->
-- lower and upper sums using $\inf_{Q_\ell} f$ and $\sup_{Q_\ell} f$ as box heights ::@:: On each small rectangle, the lower sum uses the smallest height of $f$ and the upper sum uses the largest, so they give underestimates and overestimates of the total mass under the graph. <!--SR:!2026-07-12,62,310!2026-07-05,55,310-->
+- lower and upper sums using $\inf_{Q_\ell} f$ and $\sup_{Q_\ell} f$ as box heights ::@:: On each small rectangle, the lower sum uses the smallest height of $f$ and the upper sum uses the largest, so they give underestimates and overestimates of the total mass under the graph. <!--SR:!2026-07-12,62,310!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - why the maximum diameter controls the approximation ::@:: The partition norm uses the largest diameter because one coarse rectangle can still hide large oscillation; requiring the maximum diameter to shrink forces every rectangle to become genuinely small. <!--SR:!2026-07-08,58,310!2026-07-07,57,310-->
 - comparison with the one-dimensional Riemann construction ::@:: In one dimension, a partition cuts an interval into short intervals and the sums use interval lengths; in several dimensions, a partition cuts a box into smaller boxes and the sums use their volumes, but the lower/upper approximation idea is exactly the same. <!--SR:!2026-07-12,62,310!2026-07-13,63,310-->
 
@@ -86,7 +86,7 @@ So the practical picture is: on rectangles, continuity gives existence; nonnegat
 
 Flashcards for this section are as follows:
 
-- Fubini on rectangles when $f\ge0$ or $|f|$ is integrable ::@:: Then the iterated integrals may be evaluated in any coordinate order. <!--SR:!2026-07-05,55,310!2026-07-08,58,310-->
+- Fubini on rectangles when $f\ge0$ or $|f|$ is integrable ::@:: Then the iterated integrals may be evaluated in any coordinate order. <!--SR:!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-08,58,310-->
 - why nonnegativity or absolute integrability allows order exchange ::@:: The order of integration can be exchanged when nonnegativity or absolute integrability prevents cancellation problems and guarantees the iterated integrals all represent the same total mass. <!--SR:!2026-07-08,58,310!2026-07-08,58,310-->
 - improper multiple integrals on $\mathbb{R}^n$ ::@:: One defines $\int_{\mathbb{R}^n} f(x)\,d^n x$ by truncating to larger and larger rectangles and taking the corresponding limit when it exists. <!--SR:!2026-07-17,67,310!2026-07-15,65,310-->
 - half-infinite boxes $(-\infty,b_1]\times\cdots\times(-\infty,b_n]$ ::@:: Integrals over such sets are defined by truncating only the infinite sides and then taking limits. <!--SR:!2026-07-07,57,310!2026-07-17,67,310-->
@@ -158,10 +158,10 @@ In probability language, this is the step that lets one interpret $$P[(X,Y)\in A
 
 Flashcards for this section are as follows:
 
-- integrating $\int_A f(x)\,d^n x$ over a subset $A\subseteq Q$ ::@:: One defines it by integrating the indicator-weighted function $\mathbf{1}_A f$ over the ambient rectangle $Q$, provided that function is Riemann-integrable. <!--SR:!2026-07-17,67,310!2026-07-05,55,310-->
+- integrating $\int_A f(x)\,d^n x$ over a subset $A\subseteq Q$ ::@:: One defines it by integrating the indicator-weighted function $\mathbf{1}_A f$ over the ambient rectangle $Q$, provided that function is Riemann-integrable. <!--SR:!2026-07-17,67,310!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - why multiplying by $\mathbf{1}_A$ isolates the region $A$ ::@:: Multiplying by $\mathbf{1}_A$ forces the integrand to contribute only on $A$, so integrating over the ambient rectangle is equivalent to integrating over the region itself. <!--SR:!2026-07-15,65,310!2026-07-08,58,310-->
 - corollary for bounded Jordan-measurable $A$ ::@:: If $A$ is bounded and Jordan-measurable and $f$ is bounded with a Jordan-null discontinuity set, then $f$ is Riemann-integrable over $A$ because the discontinuities of $\mathbf{1}_Af$ lie inside $D_f\cup\partial A$, which is still Jordan null. <!--SR:!2026-07-15,65,310!2026-07-13,63,310-->
-- probability meaning of $P[(X,Y)\in A]$ for a joint density $f_{X,Y}$ ::@:: The probability of a non-rectangular event region $A$ is computed by $P[(X,Y)\in A]=\int_A f_{X,Y}(x,y)\,d^2x$. <!--SR:!2026-07-05,55,310!2026-07-09,59,310-->
+- probability meaning of $P[(X,Y)\in A]$ for a joint density $f_{X,Y}$ ::@:: The probability of a non-rectangular event region $A$ is computed by $P[(X,Y)\in A]=\int_A f_{X,Y}(x,y)\,d^2x$. <!--SR:!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-09,59,310-->
 - indicator-function intuition for the factor $\mathbf{1}_A$ ::@:: The factor $\mathbf{1}_A$ acts like an on/off gate: it keeps the integrand inside the region of interest and turns it off outside, so integration over a curved domain is reduced to integration over a rectangle with a gated integrand. <!--SR:!2026-07-14,64,310!2026-07-15,65,310-->
 
 ## variable-bound regions and probability calculations
@@ -178,7 +178,7 @@ The appendix gives two important examples. First, the region $$V=\{(x,y,z):0\le 
 
 Flashcards for this section are as follows:
 
-- region $A=\{(x_1,x_2):x_1\in[a_1,b_1],\ u(x_1)\le x_2\le v(x_1)\}$ ::@:: Then $\int_A f(x_1,x_2)\,d^2x=\int_{a_1}^{b_1}\left(\int_{u(x_1)}^{v(x_1)} f(x_1,x_2)\,dx_2\right)dx_1$. <!--SR:!2026-07-08,58,310!2026-07-05,55,310-->
+- region $A=\{(x_1,x_2):x_1\in[a_1,b_1],\ u(x_1)\le x_2\le v(x_1)\}$ ::@:: Then $\int_A f(x_1,x_2)\,d^2x=\int_{a_1}^{b_1}\left(\int_{u(x_1)}^{v(x_1)} f(x_1,x_2)\,dx_2\right)dx_1$. <!--SR:!2026-07-08,58,310!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - higher-dimensional nested-bound regions ::@:: In higher dimensions, one integrates over a region with nested variable bounds by reading the bounds from inside out and performing the corresponding iterated integral in that order. <!--SR:!2026-07-11,61,310!2026-07-13,63,310-->
 - area and volume when $f\equiv1$ ::@:: The multiple integral measures geometric size: area in two dimensions and volume in three dimensions. <!--SR:!2026-07-06,56,310!2026-07-17,67,310-->
 - calculate the volume of $V=\{(x,y,z):0\le x\le1,\ 0\le y\le2x,\ 0\le z\le x+y\}$ with brief steps ::@:: (1) Inner integral: $\int_0^{x+y}1\,dz=x+y$. <br/> (2) Next integral: $\int_0^{2x}(x+y)\,dy=\left[xy+\frac12 y^2\right]_0^{2x}=4x^2$. <br/> (3) Outer integral: $\int_0^1 4x^2\,dx=4\left[\frac{x^3}{3}\right]_0^1=\frac43$. So the volume is $\frac43$. <!--SR:!2026-07-10,60,310!2026-07-14,64,310-->

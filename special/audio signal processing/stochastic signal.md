@@ -15,7 +15,7 @@ A {@{__stochastic signal__}@} is {@{a signal that is random}@}. It can be descri
 
 ## frequency domain
 
-Stochastic signal can be {@{described in the frequency domain}@}. Two important ones are {@{autocorrelation and power spectral density}@}. <!--SR:!2026-07-10,290,330!2026-07-05,285,330-->
+Stochastic signal can be {@{described in the frequency domain}@}. Two important ones are {@{autocorrelation and power spectral density}@}. <!--SR:!2026-07-10,290,330!fsrs,2029-11-28T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-07-06T00:00:00.000Z-->
 
 {@{_Autocorrelation_}@} is defined as: {@{$$Z_{xx}[k] = \sum_{n = 0}^{N - 1} x[n] x[n + k] \qquad k = -N + 1, \ldots, N - 1 \,,$$}@} where {@{$x[n]$ is the \(stochastic\) signal and $k$ is the _time lag_}@}. It can help {@{identify repeating patterns or hidden periodicities}@}. <!--SR:!2029-03-04,1042,350!2029-03-02,1040,350!fsrs,2029-09-02T14:56:33.192Z,1177,1177.01902368,1,2,9,0,0,2026-06-13T14:56:33.192Z!2029-06-01,1113,350-->
 

@@ -140,7 +140,7 @@ was {@{seen as paradoxical in the early days of set theory}@}; see {@{[Skolem's 
 
 ## total orders
 
-Countable sets can be {@{[totally ordered](total%20order.md) in various ways}@}, for example: <!--SR:!2026-07-05,415,310-->
+Countable sets can be {@{[totally ordered](total%20order.md) in various ways}@}, for example: <!--SR:!fsrs,2030-11-28T00:00:00.000Z,1606,1605.81193158,1,2,10,0,0,2026-07-06T00:00:00.000Z-->
 
 - [Well-orders](well-order.md) \(see also {@{[ordinal number](ordinal%20number.md)}@}\):
   - The usual order of {@{natural numbers}@} \(0, 1, 2, 3, 4, 5, ...\)

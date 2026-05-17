@@ -72,7 +72,7 @@ Assets are {@{all the things the business owns}@}. This will include {@{property
 
 <!-- list separator -->
 
-1. [accounts receivable](accounts%20receivable.md) ::@:: legally enforceable claims for payment held by a business for goods supplied or services rendered that customers have ordered but not paid for <!--SR:!2030-07-22,1543,310!2026-07-05,482,310-->
+1. [accounts receivable](accounts%20receivable.md) ::@:: legally enforceable claims for payment held by a business for goods supplied or services rendered that customers have ordered but not paid for <!--SR:!2030-07-22,1543,310!fsrs,2031-07-11T00:00:00.000Z,1831,1830.68219177,1,2,10,0,0,2026-07-06T00:00:00.000Z-->
 2. [cash and cash equivalents](cash%20and%20cash%20equivalents.md) ::@:: the most liquid current assets found on a business's balance sheet <!--SR:!2028-01-09,907,330!2026-07-07,483,310-->
 3. [inventories](inventory.md) ::@:: goods and materials that a business holds for the ultimate goal of resale, production or utilization <!--SR:!2027-09-02,819,330!2028-01-01,904,330-->
 4. cash at bank, [petty cash](petty%20cash.md), cash on hand ::@:: small amount of discretionary funds in the form of cash used for minor expenditures <!--SR:!2027-07-16,783,330!2028-08-29,1119,350-->

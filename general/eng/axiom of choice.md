@@ -86,7 +86,7 @@ which is equivalent to <p> &emsp; For {@{any set $A$}@} there is {@{a function $
 
 ## usage
 
-Until {@{the late 19th century, the axiom of choice}@} was {@{often used implicitly}@}, although it {@{had not yet been formally stated}@}. For example, after having established that {@{the set _X_ contains only non-empty sets}@}, {@{a mathematician}@} might have said "let _F_\(_s_\) be {@{one of the members of _s_ for all _s_ in _X_}@}" to {@{define a function _F_}@}. In general, it is {@{impossible to prove that _F_ exists without the axiom of choice}@}, but this seems to {@{have gone unnoticed until [Zermelo](Zermelo.md)}@}. <!--SR:!2026-12-21,376,364!2026-12-31,384,364!2026-11-25,356,364!2026-10-05,311,347!2026-12-27,381,364!2027-01-02,386,364!2026-07-05,235,330!2026-12-18,374,364!2026-09-28,306,347-->
+Until {@{the late 19th century, the axiom of choice}@} was {@{often used implicitly}@}, although it {@{had not yet been formally stated}@}. For example, after having established that {@{the set _X_ contains only non-empty sets}@}, {@{a mathematician}@} might have said "let _F_\(_s_\) be {@{one of the members of _s_ for all _s_ in _X_}@}" to {@{define a function _F_}@}. In general, it is {@{impossible to prove that _F_ exists without the axiom of choice}@}, but this seems to {@{have gone unnoticed until [Zermelo](Zermelo.md)}@}. <!--SR:!2026-12-21,376,364!2026-12-31,384,364!2026-11-25,356,364!2026-10-05,311,347!2026-12-27,381,364!2027-01-02,386,364!fsrs,2029-05-20T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-07-06T00:00:00.000Z!2026-12-18,374,364!2026-09-28,306,347-->
 
 ## examples
 
