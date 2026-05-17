@@ -12,7 +12,7 @@ tags:
 
 ## examples
 
-{@{Two common examples}@} are caused by {@{C-style casts and unnamed temporary}@}. <!--SR:!2026-06-23,634,330!2027-02-17,399,387-->
+{@{Two common examples}@} are caused by {@{C-style casts and unnamed temporary}@}. <!--SR:!fsrs,2033-04-19T00:00:00.000Z,2492,2492.1577035,1,2,10,0,0,2026-06-23T00:00:00.000Z!2027-02-17,399,387-->
 
 ### C-style casts
 

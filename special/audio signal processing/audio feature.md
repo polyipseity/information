@@ -73,7 +73,7 @@ We can also describe {@{features of the overall sound instead of each STFT frame
 
 {@{Timbre features}@} describe {@{the quality of a sound to the ears}@}, e.g. {@{high-frequency content, spectral centroid, spectral flux, etc.}@} <!--SR:!2029-08-27,1181,350!2026-06-27,279,330!2026-06-28,281,330-->
 
-{@{Dynamic features}@} describe {@{the energy of a sound}@}, e.g. {@{average level, loudness, etc.}@} <!--SR:!2026-06-23,276,330!fsrs,2029-09-01T13:28:47.795Z,1175,1175.1616206,1,2,9,0,0,2026-06-14T13:28:47.795Z!2026-07-01,283,330-->
+{@{Dynamic features}@} describe {@{the energy of a sound}@}, e.g. {@{average level, loudness, etc.}@} <!--SR:!fsrs,2029-10-11T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-23T00:00:00.000Z!fsrs,2029-09-01T13:28:47.795Z,1175,1175.1616206,1,2,9,0,0,2026-06-14T13:28:47.795Z!2026-07-01,283,330-->
 
 {@{Pitch features}@} describe {@{pitch}@}, e.g. {@{pitch, pitch salience, etc.}@} <!--SR:!fsrs,2029-10-10T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-22T00:00:00.000Z!2029-07-03,1131,350!2026-07-14,294,330-->
 

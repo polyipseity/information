@@ -9,7 +9,7 @@ tags:
 
 # white dwarf
 
-A __white dwarf__ is {@{a [stellar core remnant](compact%20object.md) composed mostly of [electron-degenerate matter](degenerate%20matter.md#degenerate%20gases)}@}. A white dwarf is {@{very [dense](density.md): its mass is comparable to the [Sun](Sun.md)'s, while its volume is comparable to [Earth](Earth.md)'s}@}. A white dwarf's low [luminosity](luminosity.md) comes from {@{the [emission](thermal%20radiation.md) of residual [thermal energy](heat.md); no fusion takes place in a white dwarf}@}. <!--SR:!2028-06-12,1095,350!2027-07-02,801,330!2026-06-23,513,310-->
+A __white dwarf__ is {@{a [stellar core remnant](compact%20object.md) composed mostly of [electron-degenerate matter](degenerate%20matter.md#degenerate%20gases)}@}. A white dwarf is {@{very [dense](density.md): its mass is comparable to the [Sun](Sun.md)'s, while its volume is comparable to [Earth](Earth.md)'s}@}. A white dwarf's low [luminosity](luminosity.md) comes from {@{the [emission](thermal%20radiation.md) of residual [thermal energy](heat.md); no fusion takes place in a white dwarf}@}. <!--SR:!2028-06-12,1095,350!2027-07-02,801,330!fsrs,2031-10-08T00:00:00.000Z,1933,1933.46726387,1,2,10,0,0,2026-06-23T00:00:00.000Z-->
 
 ## formation
 

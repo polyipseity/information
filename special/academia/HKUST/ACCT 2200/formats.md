@@ -236,7 +236,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total <!--SR:!2028-03-25,864,350!2027-12-26,762,330-->
   - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit <!--SR:!2026-07-26,378,310!2030-12-16,1658,370-->
   - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total <!--SR:!2031-01-02,1675,370!2028-08-01,888,330-->
-- production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2026-06-23,372,361!2026-07-04,382,361-->
+- production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!fsrs,2031-03-17T00:00:00.000Z,1728,1727.58383068,1,2,10,0,0,2026-06-23T00:00:00.000Z!2026-07-04,382,361-->
   - production report \(weighted average\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2027-01-31,480,310!2028-09-05,989,350-->
   - production report \(weighted average\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!fsrs,2031-02-24T00:00:00.000Z,1711,1711.45302651,1,2,10,0,0,2026-06-19T00:00:00.000Z!2026-07-01,379,361-->
 
@@ -250,7 +250,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------- | --------------------:|
 > | {@{Beginning Inventory}@}       | {@{420}@}            |
 > | {@{Started This Period}@}       | {@{690}@}            |
-> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2026-07-26,398,362!2026-07-24,396,362!2026-06-25,374,362!2026-06-23,372,362!2026-06-27,376,362!2026-07-23,395,362!2026-07-21,393,362!2026-07-03,381,362!2026-07-21,393,362-->
+> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2026-07-26,398,362!2026-07-24,396,362!2026-06-25,374,362!fsrs,2031-03-22T00:00:00.000Z,1733,1732.84482873,1,2,10,0,0,2026-06-23T00:00:00.000Z!2026-06-27,376,362!2026-07-23,395,362!2026-07-21,393,362!2026-07-03,381,362!2026-07-21,393,362-->
 
 <!-- markdownlint MD028 -->
 

@@ -73,7 +73,7 @@ Flashcards for this section are as follows:
 - What is the main limitation of the iterative method? ::@:: It may produce output values without yielding a clean analytical expression for the full sequence. <!--SR:!2026-08-01,82,339!2026-08-12,71,326-->
 - What general linear difference-equation form underlies the classical discrete-time method? ::@:: A standard form is $a_0y[n]+a_1y[n-1]+\cdots+a_Ny[n-N]=b_0x[n]+b_1x[n-1]+\cdots+b_Mx[n-M]$. <!--SR:!2026-07-23,67,310!2026-08-10,69,326-->
 - How does the classical time-domain method for difference equations parallel the continuous-time method? ::@:: It splits the response into homogeneous and particular parts, solves the homogeneous recursion from the characteristic equation, picks a particular form compatible with the input, and then determines constants from initial conditions. <!--SR:!2026-08-22,81,344!2026-07-26,76,339-->
-- Do zero-input and zero-state viewpoints still apply to difference equations? ::@:: Yes; zero-input still comes from stored initial conditions, and zero-state still comes from the external input with zero initial state. <!--SR:!2026-07-04,54,319!2026-06-23,46,306-->
+- Do zero-input and zero-state viewpoints still apply to difference equations? ::@:: Yes; zero-input still comes from stored initial conditions, and zero-state still comes from the external input with zero initial state. <!--SR:!2026-07-04,54,319!fsrs,2027-02-13T00:00:00.000Z,235,235.29021988,1.17981593,2,7,0,0,2026-06-23T00:00:00.000Z-->
 - What later transform-domain method is previewed for discrete-time response? ::@:: The z-transform method, followed by inverse transform to recover $y[n]$. <!--SR:!2026-07-17,67,326!2026-08-01,82,344-->
 
 ## mapping the response labels to difference-equation solutions

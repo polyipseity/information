@@ -686,7 +686,7 @@ tags:
 > 2. the legal capital required by the respective Companies Ordinance or Act
 > 3. all of the above
 >
-> - solution: {@{3}@} <!--SR:!2026-06-23,447,381-->
+> - solution: {@{3}@} <!--SR:!fsrs,2032-03-04T00:00:00.000Z,2081,2081.45554851,1,2,10,0,0,2026-06-23T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -728,7 +728,7 @@ tags:
 > 3. Dividend Yield
 >
 > - solution: {@{2}@}
-> - explanation: {@{2 is the only one that does not involve market price per share. <p> \(Actually the professor uses "market-to-book ratio" oddly... Instead, "market ratio" is a better term.\)}@} <!--SR:!2026-06-23,447,381!2027-11-12,757,341-->
+> - explanation: {@{2 is the only one that does not involve market price per share. <p> \(Actually the professor uses "market-to-book ratio" oddly... Instead, "market ratio" is a better term.\)}@} <!--SR:!fsrs,2032-03-04T00:00:00.000Z,2081,2081.45554851,1,2,10,0,0,2026-06-23T00:00:00.000Z!2027-11-12,757,341-->
 
 ## week 12 review
 

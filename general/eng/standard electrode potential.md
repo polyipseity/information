@@ -221,7 +221,7 @@ return (
 - 2H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ H<sub>2</sub>(g):@:0 <!--SR:!fsrs,2035-11-29T11:08:29.532Z,3456,3455.93347059,1,2,11,0,0,2026-06-13T11:08:29.532Z-->
 - S<sub>4</sub>O<sub>6</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq):@:0.08 <!--SR:!2026-10-07,145,150-->
 - Sn<sup>4+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn<sup>2+</sup>(aq):@:0.151 <!--SR:!2026-11-06,212,150-->
-- HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l):@:0.16 <!--SR:!2026-06-23,152,130-->
+- HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l):@:0.16 <!--SR:!fsrs,2027-01-28T00:00:00.000Z,219,218.726085,9.98522837,2,8,0,0,2026-06-23T00:00:00.000Z-->
 - SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l):@:0.17 <!--SR:!2026-10-25,210,190-->
 - Cu<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Cu(s):@:0.337 <!--SR:!2026-07-13,168,130-->
 - O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> ⇌ 4OH<sup>-</sup>(aq):@:0.401 <!--SR:!2026-09-06,703,210-->

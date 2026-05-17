@@ -331,7 +331,7 @@ The content is in teaching order.
     - own price elasticity ::@:: Another name for __price elasticity of demand__. It is the _percentage_ change in _quantity of a good_ demanded in response to a _percentage_ change in _price of the same good_. <!--SR:!2026-06-24,482,398!2031-03-23,1860,402-->
     - income elasticity ::@:: Another name for __income elasticity of demand__. It is the _percentage_ change in _quantity demanded of a good_ in response to a _percentage_ change in _income_. <!--SR:!2031-02-25,1836,399!2026-07-31,513,402-->
     - cross-price elasticity ::@:: Another name for __cross elasticity of demand__. It is the _percentage_ change in _quantity demanded of a good_ in response to a _percentage_ change in _price of another good_. <!--SR:!2032-09-01,2314,411!2032-12-01,2392,411-->
-  - elasticity / perfectly inelastic ::@:: It means the absolute value of elasticity is 0, i.e. |_ε_| = 0. <!--SR:!2026-07-31,512,402!2026-06-23,482,399-->
+  - elasticity / perfectly inelastic ::@:: It means the absolute value of elasticity is 0, i.e. |_ε_| = 0. <!--SR:!2026-07-31,512,402!fsrs,2032-07-23T00:00:00.000Z,2222,2222.23508615,1,2,10,0,0,2026-06-23T00:00:00.000Z-->
   - elasticity / inelastic ::@:: It means the absolute value of elasticity is less than 1, i.e. |_ε_| < 1. <!--SR:!2032-08-27,2309,411!2032-05-08,2223,411-->
   - elasticity / unit elastic ::@:: it means the absolute value of elasticity is 1, i.e. |_ε_| = 1. <!--SR:!2032-08-11,2293,410!2032-07-19,2280,411-->
   - elasticity / elastic ::@:: it means the absolute value of elasticity is more than 1, i.e. |_ε_| > 1. <!--SR:!2032-12-04,2394,410!fsrs,2032-06-25T00:00:00.000Z,2198,2198.19462525,1,2,10,0,0,2026-06-19T00:00:00.000Z-->

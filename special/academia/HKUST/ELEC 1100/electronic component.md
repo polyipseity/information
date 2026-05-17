@@ -120,7 +120,7 @@ Flashcards for this section are as follows:
 - ideal wire ::@:: An ideal wire is treated as a perfect conductor and therefore has no resistance. <!--SR:!2026-07-04,87,363!2026-06-29,83,363-->
 - ideal insulator ::@:: An ideal insulator has infinite resistance and does not allow current to flow. <!--SR:!2026-06-28,82,363!2026-07-05,88,363-->
 - resistor definition ::@:: A resistor is a device that limits or regulates current flow in a circuit; colour bands on a resistor encode its resistance value. <!--SR:!2026-07-31,93,363!2026-07-30,92,363-->
-- resistor usage ::@:: Resistors control current and create voltage drops; all loads and even connecting wires inherently have resistance. <!--SR:!2026-06-23,77,363!2026-06-27,81,363-->
+- resistor usage ::@:: Resistors control current and create voltage drops; all loads and even connecting wires inherently have resistance. <!--SR:!fsrs,2027-09-13T00:00:00.000Z,447,447.3065659,1,2,7,0,0,2026-06-23T00:00:00.000Z!2026-06-27,81,363-->
 - Ohm's law ::@:: $V = IR$; an I–V plot for a resistor is a straight line with slope $1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-05,88,363!2026-07-31,93,363-->
 - Ohm's law example: Given $V = 5\,\textrm{V}$ across a resistor $R = 200\,\Omega$, what is the current? ::@:: Use $I = V/R$ to calculate $25\,\textrm{mA}$. <!--SR:!2026-07-04,87,363!2026-07-31,93,363-->
 - multimeter use ::@:: Digital multimeters may be used to measure resistance, voltage, or current in laboratory circuits. <!--SR:!2026-06-27,81,363!2026-07-03,86,363-->

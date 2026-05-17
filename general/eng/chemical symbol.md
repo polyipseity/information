@@ -16,7 +16,7 @@ __Chemical symbols__ are {@{abbreviations for [chemical substances](chemical%20s
 
 > {@{![Annotated element symbol](../../archives/Wikimedia%20Commons/Atomic%20Symbol%20Mg.svg)}@}
 >
-> Annotated element symbol <!--SR:!2026-06-23,850,330-->
+> Annotated element symbol <!--SR:!fsrs,2035-04-19T00:00:00.000Z,3222,3221.78291096,1,2,11,0,0,2026-06-23T00:00:00.000Z-->
 
 - {@{The [mass number](mass%20number.md)}@} is shown in {@{the left superscript position}@}. This specifies {@{the [isotope](isotope.md)}@}.
 - {@{The [atomic number](atomic%20number.md)}@} may be shown in {@{the left subscript position}@}.

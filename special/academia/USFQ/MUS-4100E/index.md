@@ -161,7 +161,7 @@ The content is in teaching order.
   - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2031-01-27,1740,380!2030-01-04,1333,360-->
   - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2027-04-23,628,340!2028-05-06,935,360-->
 - [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2029-03-06,1176,360!2031-05-08,1823,380-->
-  - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2026-06-23,385,360!2031-05-25,1836,380-->
+  - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!fsrs,2031-05-02T00:00:00.000Z,1774,1774.4470415,1,2,10,0,0,2026-06-23T00:00:00.000Z!2031-05-25,1836,380-->
   - [syncopation](../../../../general/syncopation.md)
   - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2026-09-30,455,320!fsrs,2030-04-28T05:22:33.459Z,1414,1413.74543025,1,2,9,0,0,2026-06-14T05:22:33.459Z-->
 - [jazz](../../../../general/jazz.md)
@@ -187,7 +187,7 @@ The content is in teaching order.
   - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythm commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2026-08-13,423,335!2029-09-29,1351,375-->
   - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions <!--SR:!2028-02-06,858,355!2029-09-11,1333,375-->
 - [jazz](../../../../general/jazz.md)
-  - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories... <!--SR:!2026-06-23,385,375!2026-07-19,411,375-->
+  - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories... <!--SR:!fsrs,2031-06-26T00:00:00.000Z,1829,1828.58134182,1,2,10,0,0,2026-06-23T00:00:00.000Z!2026-07-19,411,375-->
     - jazz (word) / older spelling ::@:: It used to be called this, but it could be changed to "ass" without the "j". <!--SR:!fsrs,2029-08-18T00:00:00.000Z,1153,1153.10823388,1,2,10,0,0,2026-06-22T00:00:00.000Z!2026-08-03,426,375-->
     - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans, a word meaning "procreation" <!--SR:!2029-08-26,1322,375!2026-07-15,407,375-->
 - Victrola ::@:: The first recordings on the Victrola came out in 1901. Jazz recording did not come up until 1917. <!--SR:!2029-08-18,1314,375!2028-01-04,832,355-->
