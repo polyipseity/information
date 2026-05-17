@@ -430,7 +430,7 @@ The resolution method {@{works only with formulas that are disjunctions of atomi
 - \(annotation: negate there exists\) ::@:: $$\lnot \exists x\,P(x)\Leftrightarrow \forall x\,\lnot P(x)$$ <!--SR:!2027-02-23,463,382!2027-01-11,424,382-->
 - \(annotation: swap for all\) ::@:: $$\forall x\,\forall y\,P(x,y)\Leftrightarrow \forall y\,\forall x\,P(x,y)$$ <!--SR:!fsrs,2029-08-11T00:00:00.000Z,1146,1145.54159115,1,2,9,0,0,2026-06-22T00:00:00.000Z!2026-10-14,353,364-->
 - \(annotation: swap there exists\) ::@:: $$\exists x\,\exists y\,P(x,y)\Leftrightarrow \exists y\,\exists x\,P(x,y)$$ <!--SR:!2026-11-17,381,364!2027-01-13,426,382-->
-- \(annotation: and for all\) ::@:: $$\forall x\,P(x)\land \forall x\,Q(x)\Leftrightarrow \forall x\,(P(x)\land Q(x))$$ <!--SR:!2026-10-05,343,364!2026-06-27,261,334-->
+- \(annotation: and for all\) ::@:: $$\forall x\,P(x)\land \forall x\,Q(x)\Leftrightarrow \forall x\,(P(x)\land Q(x))$$ <!--SR:!2026-10-05,343,364!fsrs,2029-09-05T00:00:00.000Z,1165,1164.94946392,1,2,9,0,0,2026-06-28T00:00:00.000Z-->
 - \(annotation: or there exists\) ::@:: $$\exists x\,P(x)\lor \exists x\,Q(x)\Leftrightarrow \exists x\,(P(x)\lor Q(x))$$ <!--SR:!2026-08-07,291,346!2026-11-12,374,364-->
 - \(annotation: move inside there exists; note the "or" case is already covered by above\) ::@:: $P\land \exists x\,Q(x)\Leftrightarrow \exists x\,(P\land Q(x))$ \(where $x$ must not occur free in $P$\) <!--SR:!2026-11-23,382,364!2026-09-30,338,364-->
 - \(annotation: move inside for all; note the "and" case is already covered by above\) ::@:: $P\lor \forall x\,Q(x)\Leftrightarrow \forall x\,(P\lor Q(x))$ \(where $x$ must not occur free in $P$\) <!--SR:!2027-02-14,454,382!2027-02-11,453,382-->

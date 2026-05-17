@@ -150,9 +150,9 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
   - \(annotation: {@{equivalent to}@} AC\) {@{[Tarski's theorem about choice](Tarski's%20theorem%20about%20choice.md)}@}: For {@{every infinite set _A_}@}, there is {@{a [bijective map](bijective%20map.md) between the sets _A_ and _A_<!-- markdown separator -->×<!-- markdown separator -->_A_}@}. <!--SR:!2026-09-24,303,347!2027-01-07,390,364!2027-01-16,397,364!fsrs,2028-06-24T03:27:12.527Z,740,739.81467051,1,2,8,0,0,2026-06-15T03:27:12.527Z-->
 
-  - \(annotation: {@{equivalent to}@} AC\) {@{[Trichotomy](trichotomy%20(mathematics).md)}@}: If {@{two sets are given}@}, then {@{either they have the same cardinality, or one has a smaller cardinality than the other}@}. <!--SR:!2026-12-17,372,364!2026-12-23,377,364!2026-08-23,276,347!2026-06-27,147,415-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Trichotomy](trichotomy%20(mathematics).md)}@}: If {@{two sets are given}@}, then {@{either they have the same cardinality, or one has a smaller cardinality than the other}@}. <!--SR:!2026-12-17,372,364!2026-12-23,377,364!2026-08-23,276,347!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
-  - \(annotation: {@{equivalent to}@} AC\) Given {@{two non-empty sets}@}, one has {@{a surjection to the other}@}. <!--SR:!2027-01-18,399,364!2026-12-28,381,364!2026-06-27,147,415-->
+  - \(annotation: {@{equivalent to}@} AC\) Given {@{two non-empty sets}@}, one has {@{a surjection to the other}@}. <!--SR:!2027-01-18,399,364!2026-12-28,381,364!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
   - \(annotation: {@{equivalent to}@} AC\) {@{Every [surjective function](surjective%20function.md)}@} has {@{a [right inverse](inverse%20function.md#left%20and%20right%20inverses)}@}. <!--SR:!2026-12-17,373,364!2026-10-22,325,347!fsrs,2028-08-03T00:00:00.000Z,773,772.6769129,1,2,8,0,0,2026-06-22T00:00:00.000Z-->
 
@@ -182,9 +182,9 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
   - \(annotation: {@{equivalent to}@} AC\) {@{Every [free abelian group](free%20abelian%20group.md)}@} is {@{[projective](projective%20module.md) \(annotation: projective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-07-24,251,330!2026-12-31,384,364!fsrs,2028-06-17T02:14:05.312Z,734,733.55974119,1,2,8,0,0,2026-06-14T02:14:05.312Z-->
 
-  - \(annotation: {@{equivalent to}@} AC\) {@{Baer's criterion}@}: {@{Every [divisible abelian group](divisible%20group.md)}@} is {@{[injective](injective%20module.md) \(annotation: injective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-10-07,313,347!fsrs,2028-12-17T02:13:56.515Z,917,916.92530114,1,2,9,0,0,2026-06-14T02:13:56.515Z!2028-01-01,657,344!2026-06-27,147,415-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{Baer's criterion}@}: {@{Every [divisible abelian group](divisible%20group.md)}@} is {@{[injective](injective%20module.md) \(annotation: injective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-10-07,313,347!fsrs,2028-12-17T02:13:56.515Z,917,916.92530114,1,2,9,0,0,2026-06-14T02:13:56.515Z!2028-01-01,657,344!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
-  - \(annotation: {@{equivalent to}@} AC\) {@{Every set}@} is {@{a [projective object](projective%20object.md)}@} in {@{the [category](category%20(mathematics).md) __[Set](category%20of%20sets.md)__ of sets}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2027-01-09,391,364!2026-07-04,238,344!2026-09-18,297,347!2026-06-27,147,415-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{Every set}@} is {@{a [projective object](projective%20object.md)}@} in {@{the [category](category%20(mathematics).md) __[Set](category%20of%20sets.md)__ of sets}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2027-01-09,391,364!2026-07-04,238,344!2026-09-18,297,347!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
 - [Functional analysis](functional%20analysis.md)
 
@@ -196,7 +196,7 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
   - \(annotation: {@{equivalent to}@} AC\) {@{[Tychonoff's theorem](Tychonoff's%20theorem.md)}@}: {@{The Cartesian product}@} of {@{any family of [compact](compact%20space.md) topological spaces}@} is {@{compact}@}. <!--SR:!2026-12-20,376,364!2026-12-11,367,364!2026-08-20,273,347!2026-09-21,300,347!2026-06-28,148,415-->
 
-  - \(annotation: {@{equivalent to}@} AC\) In {@{the product topology}@}, {@{the [closure](closure%20(topology).md) of a product of subsets}@} is {@{equal to the product of the closures}@}. <!--SR:!2026-12-03,362,364!2026-12-15,370,364!2026-11-21,351,364!2026-06-27,147,415-->
+  - \(annotation: {@{equivalent to}@} AC\) In {@{the product topology}@}, {@{the [closure](closure%20(topology).md) of a product of subsets}@} is {@{equal to the product of the closures}@}. <!--SR:!2026-12-03,362,364!2026-12-15,370,364!2026-11-21,351,364!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
 - [Mathematical logic](mathematical%20logic.md)
 
@@ -246,7 +246,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
 - [Measure theory](measure%20theory.md)
 
-  - \(annotation: {@{weaker than}@} AC\) {@{The [Vitali theorem](Vitali%20set.md)}@} on {@{the existence of [non-measurable sets](non-measurable%20set.md)}@}, which states that there {@{exists a subset of the [real numbers](real%20numbers.md) that is not [Lebesgue measurable](Lebesgue%20measurable.md)}@}. <!--SR:!2026-09-08,289,347!2026-10-28,329,347!2026-12-20,376,364!2026-06-27,147,415-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Vitali theorem](Vitali%20set.md)}@} on {@{the existence of [non-measurable sets](non-measurable%20set.md)}@}, which states that there {@{exists a subset of the [real numbers](real%20numbers.md) that is not [Lebesgue measurable](Lebesgue%20measurable.md)}@}. <!--SR:!2026-09-08,289,347!2026-10-28,329,347!2026-12-20,376,364!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
   - \(annotation: {@{weaker than}@} AC\) There {@{exist Lebesgue-measurable subsets of the real numbers}@} that are {@{not [Borel sets](Borel%20set.md)}@}. That is, {@{the Borel σ-algebra on the real numbers}@} \(which is generated by {@{all real intervals}@}\) is {@{strictly included in the Lebesgue-measure σ-algebra on the real numbers}@}. (annotation: {@{ZF alone}@} is {@{consistent with the statement that all subsets of the real numbers are Borel sets}@}, and thus that {@{the Borel σ-algebra on the real numbers}@} is equal to {@{the Lebesgue-measure σ-algebra on the real numbers}@}.) <!--SR:!fsrs,2028-12-19T02:14:07.975Z,919,919.40560294,1,2,9,0,0,2026-06-14T02:14:07.975Z!2026-08-18,256,344!2027-12-04,634,344!2026-11-18,350,364!2026-12-19,375,364!fsrs,2028-06-17T02:14:09.255Z,734,733.55974119,1,2,8,0,0,2026-06-14T02:14:09.255Z!2026-10-24,148,421!2026-10-18,142,421!2026-10-18,142,421!2026-10-23,147,421-->
 
@@ -264,7 +264,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - \(annotation: {@{weaker than}@} AC\) {@{[Stone's representation theorem for Boolean algebras](Stone's%20representation%20theorem%20for%20Boolean%20algebras.md)}@} needs {@{the [Boolean prime ideal theorem](Boolean%20prime%20ideal%20theorem.md)}@}. <!--SR:!2026-12-24,378,364!2026-09-03,284,347!fsrs,2028-06-24T03:27:13.376Z,740,739.81467051,1,2,8,0,0,2026-06-15T03:27:13.376Z-->
 
-  - \(annotation: {@{weaker than}@} AC\) {@{The [Nielsen–Schreier theorem](Nielsen–Schreier%20theorem.md)}@}, that {@{every subgroup of a free group}@} is {@{free}@}. <!--SR:!2026-06-28,166,344!2026-08-05,260,344!2026-12-31,384,364!2026-06-27,147,415-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Nielsen–Schreier theorem](Nielsen–Schreier%20theorem.md)}@}, that {@{every subgroup of a free group}@} is {@{free}@}. <!--SR:!2026-06-28,166,344!2026-08-05,260,344!2026-12-31,384,364!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
   - \(annotation: {@{weaker than}@} AC\) {@{The additive groups of __[R](real%20numbers.md)__ and __[C](complex%20number.md)__}@} are {@{isomorphic}@}.<sup>[\[32\]](#^ref-32)</sup><sup>[\[33\]](#^ref-33)</sup> <!--SR:!2026-09-26,305,347!2026-07-12,241,330!fsrs,2028-06-30T02:43:35.307Z,745,744.52265934,1,2,8,0,0,2026-06-16T02:43:35.307Z-->
 

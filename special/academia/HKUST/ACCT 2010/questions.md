@@ -432,7 +432,7 @@ tags:
 > 3. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@} <!--SR:!2029-03-29,1247,381!2026-06-27,451,381-->
+> - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@} <!--SR:!2029-03-29,1247,381!fsrs,2032-03-26T00:00:00.000Z,2098,2097.61236858,1,2,10,0,0,2026-06-28T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -759,7 +759,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{1}@} <!--SR:!2026-06-27,451,381-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-03-26T00:00:00.000Z,2098,2097.61236858,1,2,10,0,0,2026-06-28T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

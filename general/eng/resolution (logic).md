@@ -36,7 +36,7 @@ We have the following terminology:
 - The clauses $\Gamma _{1}\cup \left\{\ell \right\}$ and $\Gamma _{2}\cup \left\{ {\overline {\ell } }\right\}$ ::@:: are the inference's premises <!--SR:!2029-06-22,1130,350!2026-07-06,287,330-->
 - $\Gamma _{1}\cup \Gamma _{2}$ \(the resolvent of the premises\) ::@:: is its conclusion. <!--SR:!2029-07-23,1152,350!fsrs,2029-09-05T14:27:11.749Z,1181,1180.83166378,1,2,9,0,0,2026-06-12T14:27:11.749Z-->
 - The literal $\ell$ ::@:: is the left resolved literal, <!--SR:!2029-03-29,1064,350!fsrs,2029-08-15T08:13:24.021Z,1165,1164.5679841,1,2,9,0,0,2026-06-07T08:13:24.021Z-->
-- The literal ${\overline {\ell } }$ ::@:: is the right resolved literal, <!--SR:!2027-07-04,514,330!2026-06-27,281,330-->
+- The literal ${\overline {\ell } }$ ::@:: is the right resolved literal, <!--SR:!2027-07-04,514,330!fsrs,2029-11-04T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-06-28T00:00:00.000Z-->
 - $|\ell |$ ::@:: is the resolved atom or pivot. <!--SR:!2029-09-09,1195,350!2029-06-09,1122,350-->
 
 {@{The clause produced by the resolution rule}@} is called {@{the _resolvent_ of the two input clauses}@}. It is {@{the principle of _[consensus](consensus%20theorem.md)_}@} applied to {@{clauses rather than terms}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-02-20,1027,350!2026-07-07,288,330!fsrs,2029-10-31T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-06-27T00:00:00.000Z!2029-07-26,1155,350-->
@@ -51,7 +51,7 @@ When coupled with {@{a complete [search algorithm](search%20algorithm.md)}@}, th
 
 {@{This resolution technique}@} uses {@{[proof by contradiction](proof%20by%20contradiction.md)}@} and is based on the fact that any sentence in propositional logic can be {@{transformed into an equivalent sentence in [conjunctive normal form](conjunctive%20normal%20form.md)}@}.<sup>[\[4\]](#^ref-4)</sup> The steps are as follows. <!--SR:!2029-09-20,1204,350!2026-07-01,284,330!2029-03-14,1049,350-->
 
-- All sentences in the knowledge base and the _negation_ of the sentence to be proved \(the _conjecture_\) ::@:: are conjunctively connected. <!--SR:!2026-06-27,281,330!2029-05-01,1089,350-->
+- All sentences in the knowledge base and the _negation_ of the sentence to be proved \(the _conjecture_\) ::@:: are conjunctively connected. <!--SR:!fsrs,2029-11-04T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-06-28T00:00:00.000Z!2029-05-01,1089,350-->
 - The resulting sentence ::@:: is transformed into a conjunctive normal form with the conjuncts viewed as elements in a set, _S_, of clauses.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!fsrs,2029-09-18T03:25:44.673Z,1191,1191.26470738,1,2,9,0,0,2026-06-15T03:25:44.673Z!2029-08-07,1167,350-->
   - For example, $(A_{1}\lor A_{2})\land (B_{1}\lor B_{2}\lor B_{3})\land (C_{1})$ ::@:: gives rise to the set $S=\{A_{1}\lor A_{2},B_{1}\lor B_{2}\lor B_{3},C_{1}\}$. <!--SR:!2028-07-12,796,330!2026-07-03,285,330-->
 - The resolution rule is applied to {@{all possible pairs of clauses that contain complementary literals}@}. After {@{each application of the resolution rule}@}, the resulting sentence is {@{simplified by removing repeated literals}@}. If {@{the clause contains complementary literals}@}, it is {@{discarded \(as a tautology\)}@}. If {@{not, and if it is not yet present in the clause set _S_}@}, it is {@{added to _S_, and is considered for further resolution inferences}@}.
@@ -93,7 +93,7 @@ To understand {@{how resolution works}@}, consider {@{the following example syll
 >
 > All Greeks are Europeans. <br/>
 > Homer is a Greek. <br/>
-> Therefore, Homer is a European. <!--SR:!2026-06-27,281,330-->
+> Therefore, Homer is a European. <!--SR:!fsrs,2029-11-04T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-06-28T00:00:00.000Z-->
 
 Or, more generally:
 
@@ -122,7 +122,7 @@ To {@{apply this rule to the above example}@}, we find {@{the predicate _P_ occu
 
 &emsp; ¬<!-- markdown separator -->_P_\(_X_\)
 
-in the first clause, and in {@{non-negated form}@} <!--SR:!2026-06-27,281,330-->
+in the first clause, and in {@{non-negated form}@} <!--SR:!fsrs,2028-08-21T00:00:00.000Z,785,785.28000147,2.49272837,2,9,0,0,2026-06-28T00:00:00.000Z-->
 
 &emsp; _P_\(_a_\)
 

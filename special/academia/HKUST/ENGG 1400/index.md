@@ -51,7 +51,7 @@ The content is in teaching order.
 - 4 typical kinds of thinking ::@:: business thinking (optimize), design thinking (build), engineering thinking (solve), research thinking (analyze) <!--SR:!2028-06-09,1053,350!2028-12-22,1208,350-->
 - design thinking
   - design thinking video: <https://youtu.be/_r0VX-aU_T8>
-  - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!2026-06-27,479,310!2029-08-10,1386,350-->
+  - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!fsrs,2031-06-23T00:00:00.000Z,1821,1820.69516224,1,2,10,0,0,2026-06-28T00:00:00.000Z!2029-08-10,1386,350-->
   - design thinking use ::@:: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2028-03-09,981,350!2026-12-01,612,330-->
 - class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2027-08-04,794,330!2028-10-18,1157,350-->
 - activity 1: art to building community
@@ -143,7 +143,7 @@ The content is in teaching order.
 - activity 1: reframing a problem ::@:: We are going to reframe your problem 3 times. In each round, state your problem on a idea board. With other people, add ideas to each others' boards. After each round, reframe your question based on the ideas given by others. <!--SR:!2026-08-24,534,402!2033-02-09,2463,422-->
   - activity 1: reframing a problem / takeaways ::@:: You can reframe your questions using ideation with others to get better results! Also, idea boards are a great way to help introverts participate. <!--SR:!2033-04-14,2507,422!2026-07-26,508,402-->
 - ways of thinking
-  - ways of thinking / blocks ::@:: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual. <!--SR:!2026-07-22,504,402!2026-06-27,487,402-->
+  - ways of thinking / blocks ::@:: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual. <!--SR:!2026-07-22,504,402!fsrs,2032-08-17T00:00:00.000Z,2242,2242.24024358,1,2,10,0,0,2026-06-28T00:00:00.000Z-->
     - ways of thinking / blocks / cultural ::@:: embarrassment, fear of failure, uncomfortable with fantasy or intuition <!--SR:!2026-08-23,533,402!2026-08-31,540,402-->
     - ways of thinking / blocks / emotional ::@:: control is good and chaos is bad, no support for new ideas, not supposed to have fun <!--SR:!2026-08-22,532,402!2033-05-01,2524,422-->
     - ways of thinking / blocks / intellectual ::@:: expert belief, inflexible style, wrong information <!--SR:!2026-08-01,514,402!2026-07-18,500,402-->

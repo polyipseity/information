@@ -42,7 +42,7 @@ tags:
 
 ## basic formulas
 
-\(annotation: accounting rate of return\) ::@:: $${\text{ARR} }={\frac {\text{Average return during period} }{\text{Average investment} } }$$ \(annotation: Some use initial investment as the denominator instead.\) <!--SR:!2029-04-16,1050,350!2026-06-27,253,330-->
+\(annotation: accounting rate of return\) ::@:: $${\text{ARR} }={\frac {\text{Average return during period} }{\text{Average investment} } }$$ \(annotation: Some use initial investment as the denominator instead.\) <!--SR:!2029-04-16,1050,350!fsrs,2029-07-21T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-06-28T00:00:00.000Z-->
 
 where:
 

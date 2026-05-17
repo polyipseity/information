@@ -68,7 +68,7 @@ The content is in teaching order.
   - manufacturing company ::@:: purchase raw material from suppliers, manufacture finished products, sell finished products <!--SR:!2028-04-23,882,330!2029-10-06,1327,350-->
   - merchandising company ::@:: sell manufactured goods <p> - _wholesalers_: to other businesses <br/> - _retailers_: to the general public <!--SR:!2029-10-06,1327,350!2028-04-25,883,330-->
   - service company ::@:: provide service to clients or customers <!--SR:!2029-10-15,1333,350!2029-09-17,1310,350-->
-- cost classifications ::@:: manufacturing, relevance, timing, traceability, variability <!--SR:!2026-06-27,366,310!2029-09-14,1308,350-->
+- cost classifications ::@:: manufacturing, relevance, timing, traceability, variability <!--SR:!fsrs,2030-06-06T00:00:00.000Z,1439,1438.67175776,1,2,10,0,0,2026-06-28T00:00:00.000Z!2029-09-14,1308,350-->
   - types of costs / manufacturing ::@:: manufacturing vs. non-manufacturing <!--SR:!2029-10-06,1327,350!2029-10-16,1335,350-->
   - types of costs / relevance ::@:: relevance vs. irrelevance <!--SR:!2029-09-08,1304,350!2029-09-18,1311,350-->
   - types of costs / timing ::@:: product vs. period <!--SR:!2028-04-17,876,330!2028-05-20,904,330-->

@@ -108,7 +108,7 @@ The content is in teaching order.
   - artificial intelligence / prerequisites ::@:: algorithms, data analysis, mathematics, programming, will to learn <!--SR:!2030-07-01,1632,370!2028-12-10,1170,352-->
   - artificial intelligence / periods
     - artificial intelligence / periods / 1950–1956 ::@:: birth of artificial intelligence <!--SR:!2026-07-01,444,310!2026-08-01,466,312-->
-    - artificial intelligence / periods / 1956–1974 ::@:: symbolic AI <!--SR:!2029-10-12,1347,330!2026-06-27,423,290-->
+    - artificial intelligence / periods / 1956–1974 ::@:: symbolic AI <!--SR:!2029-10-12,1347,330!fsrs,2030-08-22T00:00:00.000Z,1516,1515.7886458,1.98030797,2,10,0,0,2026-06-28T00:00:00.000Z-->
     - artificial intelligence / periods / 1974–1980 ::@:: the first AI winter <!--SR:!2027-02-01,610,330!fsrs,2031-01-15T10:14:58.423Z,1676,1675.8653818,1,2,10,0,0,2026-06-14T10:14:58.423Z-->
     - artificial intelligence / periods / 1980–1987 ::@:: AI boom <!--SR:!2026-07-09,451,310!2026-07-18,457,310-->
     - artificial intelligence / periods / 1987–1993 ::@:: the second AI winter <!--SR:!2026-08-24,481,312!2026-07-13,407,272-->
@@ -1169,7 +1169,7 @@ ID: 23456789
       - ethics of artificial intelligence / AI principles / common grounds / beneficence ::@:: Society at large should benefit <!--SR:!2026-07-26,475,402!2026-08-10,489,402-->
       - ethics of artificial intelligence / AI principles / common grounds / non-maleficence ::@:: Harmful consequences should be avoided, e.g. systems should be robust <!--SR:!2028-11-08,1119,381!2026-10-16,545,405-->
       - ethics of artificial intelligence / AI principles / common grounds / justice ::@:: Diversity, non-discrimination and fairness <!--SR:!2026-07-27,476,402!2026-09-15,516,398-->
-      - ethics of artificial intelligence / AI principles / common grounds / explicability ::@:: Transparency and explainability <!--SR:!2026-07-15,467,401!2026-06-27,451,402-->
+      - ethics of artificial intelligence / AI principles / common grounds / explicability ::@:: Transparency and explainability <!--SR:!2026-07-15,467,401!fsrs,2032-03-26T00:00:00.000Z,2098,2097.61236858,1,2,10,0,0,2026-06-28T00:00:00.000Z-->
     - ethics of artificial intelligence / AI principles / problems ::@:: These principles can create problem due to their _high-levelness_. <p> They can be interpreted in different ways (Are AI soldiers ethical?), conflict with each other in concrete cases (health science: data collection, privacy), and has different priorities in practice (excellent diagnosis is preferable even if unexplainable). <!--SR:!2031-03-03,1826,399!2026-08-13,491,402-->
     - ethics of artificial intelligence / AI principles / use ::@:: It is nevertheless good to have such principles as orientation points and to evaluate solutions. <!--SR:!2029-10-04,1386,386!2026-08-04,484,406-->
   - ethics of artificial intelligence / fairness ::@:: Why care? What kinds? What causes? What concepts? <!--SR:!2026-10-06,537,406!2026-08-01,481,402-->

@@ -67,7 +67,7 @@ Note that the script {@{asserts the _negation_ of the proposition of interest}@}
 
 ### solving equations
 
-The following script solves {@{the two given equations}@}, finding {@{suitable values for the variables a and b}@}: <!--SR:!2026-06-27,281,330!fsrs,2029-10-09T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-21T00:00:00.000Z-->
+The following script solves {@{the two given equations}@}, finding {@{suitable values for the variables a and b}@}: <!--SR:!fsrs,2029-11-04T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-06-28T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-21T00:00:00.000Z-->
 
 ```Z3
 (declare-const a Int)

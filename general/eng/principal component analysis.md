@@ -124,7 +124,7 @@ return chain(
     - After choosing _l_ (or _l_ is given beforehand), only keep {@{the first _l_ columns of the eigenvector _V_ to make a _p_ × _l_ matrix __W__ and discard the rest}@}. <!--SR:!2029-03-21,1327,330!2029-09-19,1314,310!2032-01-06,2102,330!2029-07-15,1264,270-->
 
 9. __<!--pytextgen generate section="f098"--><!-- The following content is generated at 2024-11-12T13:56:48.778590+08:00. Any edits will be overridden! -->project the data (deviations from the mean) onto the new basis<!--/pytextgen-->__
-    - The projected data points are {@{the rows of the _n_ × _l_ matrix __T__}@}, computed by {@{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}@}. Note that {@{the deviations from the mean instead of the original data points are used}@}. Using the latter is {@{also acceptable as a variant}@}. <!--SR:!2026-06-27,474,270!2027-06-27,774,290!2030-10-10,1596,381!2030-02-25,1495,381-->
+    - The projected data points are {@{the rows of the _n_ × _l_ matrix __T__}@}, computed by {@{$$\mathbf{T} = \mathbf{B} \mathbf{W}$$}@}. Note that {@{the deviations from the mean instead of the original data points are used}@}. Using the latter is {@{also acceptable as a variant}@}. <!--SR:!fsrs,2030-09-22T00:00:00.000Z,1547,1546.60800697,2.98092302,2,10,0,0,2026-06-28T00:00:00.000Z!2027-06-27,774,290!2030-10-10,1596,381!2030-02-25,1495,381-->
 
 ## references
 
