@@ -188,13 +188,13 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
 - [Functional analysis](functional%20analysis.md)
 
-  - \(annotation: {@{equivalent to}@} AC\) {@{The closed unit ball}@} of {@{the dual of a [normed vector space](normed%20vector%20space.md) over the reals}@} has {@{an [extreme point](extreme%20point.md)}@}. <!--SR:!2026-11-19,349,364!2026-08-17,256,344!2026-08-20,273,347!2026-06-28,148,415-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{The closed unit ball}@} of {@{the dual of a [normed vector space](normed%20vector%20space.md) over the reals}@} has {@{an [extreme point](extreme%20point.md)}@}. <!--SR:!2026-11-19,349,364!2026-08-17,256,344!2026-08-20,273,347!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
 
 - [Point-set topology](point-set%20topology.md)
 
   - \(annotation: {@{equivalent to}@} AC\) {@{The [Cartesian product](product%20topology.md)}@} of {@{any family of [connected](connected%20space.md) [topological spaces](topological%20space.md)}@} is {@{connected}@}. <!--SR:!2026-09-09,290,347!2026-11-30,360,364!2026-12-18,374,364!2028-01-06,587,415-->
 
-  - \(annotation: {@{equivalent to}@} AC\) {@{[Tychonoff's theorem](Tychonoff's%20theorem.md)}@}: {@{The Cartesian product}@} of {@{any family of [compact](compact%20space.md) topological spaces}@} is {@{compact}@}. <!--SR:!2026-12-20,376,364!2026-12-11,367,364!2026-08-20,273,347!2026-09-21,300,347!2026-06-28,148,415-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{[Tychonoff's theorem](Tychonoff's%20theorem.md)}@}: {@{The Cartesian product}@} of {@{any family of [compact](compact%20space.md) topological spaces}@} is {@{compact}@}. <!--SR:!2026-12-20,376,364!2026-12-11,367,364!2026-08-20,273,347!2026-09-21,300,347!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
 
   - \(annotation: {@{equivalent to}@} AC\) In {@{the product topology}@}, {@{the [closure](closure%20(topology).md) of a product of subsets}@} is {@{equal to the product of the closures}@}. <!--SR:!2026-12-03,362,364!2026-12-15,370,364!2026-11-21,351,364!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
@@ -240,9 +240,9 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - \(annotation: {@{weaker than}@} AC\) {@{Eight definitions of a [finite set](finite%20set.md#other%20concepts%20of%20finiteness)}@} are {@{equivalent}@}.<sup>[\[30\]](#^ref-30)</sup> <!--SR:!2026-12-06,364,364!2026-12-28,381,364!fsrs,2028-07-22T00:00:00.000Z,763,763.30968033,1,2,8,0,0,2026-06-20T00:00:00.000Z-->
 
-  - \(annotation: {@{weaker than}@} AC\) {@{Every infinite [game](determinacy.md#basic%20notions) $G_{S}$}@} in which $S$ is {@{a [Borel](Borel%20set.md) subset of [Baire space](Baire%20space%20(set%20theory).md)}@} is {@{[determined](determinacy.md#basic%20notions)}@}. <!--SR:!2026-11-19,350,364!2026-07-26,236,327!2026-10-23,326,347!2026-06-28,148,415-->
+  - \(annotation: {@{weaker than}@} AC\) {@{Every infinite [game](determinacy.md#basic%20notions) $G_{S}$}@} in which $S$ is {@{a [Borel](Borel%20set.md) subset of [Baire space](Baire%20space%20(set%20theory).md)}@} is {@{[determined](determinacy.md#basic%20notions)}@}. <!--SR:!2026-11-19,350,364!2026-07-26,236,327!2026-10-23,326,347!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
 
-- \(annotation: {@{weaker than}@} AC\) {@{Every infinite [cardinal](cardinal%20number.md) _κ_}@} satisfies {@{2×<!-- markdown separator -->_κ_ = _κ_}@}.<sup>[\[31\]](#^ref-31)</sup> <!--SR:!2026-11-11,340,347!2026-09-20,299,347!2026-06-28,148,415-->
+- \(annotation: {@{weaker than}@} AC\) {@{Every infinite [cardinal](cardinal%20number.md) _κ_}@} satisfies {@{2×<!-- markdown separator -->_κ_ = _κ_}@}.<sup>[\[31\]](#^ref-31)</sup> <!--SR:!2026-11-11,340,347!2026-09-20,299,347!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
 
 - [Measure theory](measure%20theory.md)
 
@@ -264,7 +264,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - \(annotation: {@{weaker than}@} AC\) {@{[Stone's representation theorem for Boolean algebras](Stone's%20representation%20theorem%20for%20Boolean%20algebras.md)}@} needs {@{the [Boolean prime ideal theorem](Boolean%20prime%20ideal%20theorem.md)}@}. <!--SR:!2026-12-24,378,364!2026-09-03,284,347!fsrs,2028-06-24T03:27:13.376Z,740,739.81467051,1,2,8,0,0,2026-06-15T03:27:13.376Z-->
 
-  - \(annotation: {@{weaker than}@} AC\) {@{The [Nielsen–Schreier theorem](Nielsen–Schreier%20theorem.md)}@}, that {@{every subgroup of a free group}@} is {@{free}@}. <!--SR:!2026-06-28,166,344!2026-08-05,260,344!2026-12-31,384,364!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Nielsen–Schreier theorem](Nielsen–Schreier%20theorem.md)}@}, that {@{every subgroup of a free group}@} is {@{free}@}. <!--SR:!fsrs,2028-09-20T00:00:00.000Z,814,813.83081457,1,2,8,0,0,2026-06-29T00:00:00.000Z!2026-08-05,260,344!2026-12-31,384,364!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
   - \(annotation: {@{weaker than}@} AC\) {@{The additive groups of __[R](real%20numbers.md)__ and __[C](complex%20number.md)__}@} are {@{isomorphic}@}.<sup>[\[32\]](#^ref-32)</sup><sup>[\[33\]](#^ref-33)</sup> <!--SR:!2026-09-26,305,347!2026-07-12,241,330!fsrs,2028-06-30T02:43:35.307Z,745,744.52265934,1,2,8,0,0,2026-06-16T02:43:35.307Z-->
 
@@ -274,11 +274,11 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - \(annotation: {@{weaker than}@} AC\) {@{The theorem}@} that {@{every [Hilbert space](Hilbert%20space.md)}@} has {@{an orthonormal basis}@}. <!--SR:!2026-11-08,337,347!2026-10-21,324,347!2027-01-03,386,364!fsrs,2028-06-18T02:14:04.684Z,735,735.10222202,1,2,8,0,0,2026-06-14T02:14:04.684Z-->
 
-  - \(annotation: {@{weaker than}@} AC\) {@{The [Banach–Alaoglu theorem](Banach–Alaoglu%20theorem.md)}@} about {@{[compactness](compactness.md)}@} of {@{sets of functionals}@}. <!--SR:!2026-07-04,234,330!2026-11-30,359,364!2026-09-30,308,347!2026-06-28,148,415-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Banach–Alaoglu theorem](Banach–Alaoglu%20theorem.md)}@} about {@{[compactness](compactness.md)}@} of {@{sets of functionals}@}. <!--SR:!2026-07-04,234,330!2026-11-30,359,364!2026-09-30,308,347!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
 
   - \(annotation: {@{weaker than}@} AC\) {@{The [Baire category theorem](Baire%20category%20theorem.md)}@} about {@{[complete](complete%20space.md) [metric spaces](metric%20space.md)}@}, and {@{its consequences}@}, such as {@{the [open mapping theorem](open%20mapping%20theorem%20(functional%20analysis).md) and the [closed graph theorem](closed%20graph%20theorem.md)}@}. <!--SR:!2026-09-30,308,347!2027-01-09,391,364!2026-11-10,339,347!2026-07-16,179,344!2026-06-29,149,415-->
 
-  - \(annotation: {@{weaker than}@} AC\) On {@{every infinite-dimensional}@} {@{topological vector space}@} there is {@{a [discontinuous linear map](discontinuous%20linear%20map.md)}@}. <!--SR:!fsrs,2028-12-18T02:13:54.317Z,918,918.34606314,1,2,9,0,0,2026-06-14T02:13:54.317Z!2026-11-26,355,364!2028-06-25,788,347!2026-06-28,148,415-->
+  - \(annotation: {@{weaker than}@} AC\) On {@{every infinite-dimensional}@} {@{topological vector space}@} there is {@{a [discontinuous linear map](discontinuous%20linear%20map.md)}@}. <!--SR:!fsrs,2028-12-18T02:13:54.317Z,918,918.34606314,1,2,9,0,0,2026-06-14T02:13:54.317Z!2026-11-26,355,364!2028-06-25,788,347!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
 
 - [General topology](general%20topology.md)
 
@@ -302,7 +302,7 @@ There are {@{several historically important set-theoretic statements}@} {@{impli
 
   - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) {@{Converse [Schröder–Bernstein theorem](Schröder–Bernstein%20theorem.md)}@}: if {@{two sets have surjections to each other}@}, {@{they are equinumerous}@}. \(annotation: Implied by {@{the partition principle}@}. Implies {@{the weak partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-12-06,364,364!2027-12-24,650,344!2027-01-01,385,364!2026-10-20,323,347!2026-09-06,286,347!2027-11-06,633,411!2026-06-29,149,415-->
 
-  - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) {@{Weak partition principle}@}: if there is {@{an [injection](injective%20function.md) and a [surjection](surjective%20function.md) \(annotation: these two functions may be distinct\) from _A_ to _B_}@}, then {@{_A_ and _B_ are equinumerous}@}. Equivalently, {@{a partition of a set _S_}@} \(annotation: corresponds to {@{a surjection from _S_ to the partition}@}\) cannot be {@{strictly larger than _S_}@}. If {@{WPP holds}@}, this already {@{implies the existence of a non-measurable set}@}. {@{Each of the previous three statements}@} is {@{implied by the preceding one}@}, but it is {@{unknown if any of these implications can be reversed}@}. \(annotation: Implied by {@{the converse Schröder–Bernstein theorem or the partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-12-09,367,364!2026-10-31,300,307!2026-08-26,278,347!2026-12-20,376,364!2026-12-01,361,364!2026-12-01,361,364!2026-09-07,288,347!2026-10-23,326,347!2026-08-17,257,344!2026-12-27,381,364!2026-08-29,281,347!2027-05-26,487,391!2028-06-10,753,429!2026-06-28,148,415-->
+  - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) {@{Weak partition principle}@}: if there is {@{an [injection](injective%20function.md) and a [surjection](surjective%20function.md) \(annotation: these two functions may be distinct\) from _A_ to _B_}@}, then {@{_A_ and _B_ are equinumerous}@}. Equivalently, {@{a partition of a set _S_}@} \(annotation: corresponds to {@{a surjection from _S_ to the partition}@}\) cannot be {@{strictly larger than _S_}@}. If {@{WPP holds}@}, this already {@{implies the existence of a non-measurable set}@}. {@{Each of the previous three statements}@} is {@{implied by the preceding one}@}, but it is {@{unknown if any of these implications can be reversed}@}. \(annotation: Implied by {@{the converse Schröder–Bernstein theorem or the partition principle}@}. It is {@{unknown if any of the converses hold}@}.\) <!--SR:!2026-12-09,367,364!2026-10-31,300,307!2026-08-26,278,347!2026-12-20,376,364!2026-12-01,361,364!2026-12-01,361,364!2026-09-07,288,347!2026-10-23,326,347!2026-08-17,257,344!2026-12-27,381,364!2026-08-29,281,347!2027-05-26,487,391!2028-06-10,753,429!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
 
   - \(annotation: {@{weaker than and _possibly_ equivalent to}@} AC\) There is {@{no infinite decreasing sequence of cardinals}@}. The equivalence was {@{conjectured by Schoenflies in 1905}@}. <!--SR:!2027-01-03,386,364!2026-11-15,348,364!fsrs,2028-06-24T03:27:11.831Z,740,739.81467051,1,2,8,0,0,2026-06-15T03:27:11.831Z-->
 

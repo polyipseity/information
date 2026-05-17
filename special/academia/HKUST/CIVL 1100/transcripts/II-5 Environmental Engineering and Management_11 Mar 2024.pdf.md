@@ -23,7 +23,7 @@ Environmental Engineering and Management
 
 What is Environmental Engineering?
 
-- What is environmental engineering? ::@:: Apply science and engineering principles to solve environmental problems. <!--SR:!2028-03-10,1079,350!2026-06-28,585,330-->
+- What is environmental engineering? ::@:: Apply science and engineering principles to solve environmental problems. <!--SR:!2028-03-10,1079,350!fsrs,2032-11-07T00:00:00.000Z,2323,2322.84090808,1,2,10,0,0,2026-06-29T00:00:00.000Z-->
   - environmental engineering relevance ::@:: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2031-08-12,1969,330!2027-02-26,770,330-->
 
 ## page 3

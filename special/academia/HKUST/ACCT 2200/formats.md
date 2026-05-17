@@ -74,7 +74,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 - direct labor time ticket ::@:: information, table, authorized signature <!--SR:!2030-12-06,1648,370!2029-01-06,1078,350-->
   - direct labor time ticket / information ::@:: dates, ticket number, employee <!--SR:!2031-01-16,1689,370!2030-08-28,1581,370-->
   - direct labor time ticket / table
-    - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number <!--SR:!2026-06-28,377,362!2027-06-12,636,342-->
+    - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number <!--SR:!fsrs,2031-04-17T00:00:00.000Z,1753,1753.03649587,1,2,10,0,0,2026-06-29T00:00:00.000Z!2027-06-12,636,342-->
     - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total <!--SR:!2029-02-09,1102,350!2029-11-29,1344,350-->
 
 ## job cost sheet

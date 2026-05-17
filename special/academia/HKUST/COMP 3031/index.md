@@ -836,7 +836,7 @@ The content is in teaching order.
     - COMP 3031 / exercise 4 / global environment ::@:: A sequence of `(String, Expr)` bindings; each definition can reference any name in the environment (mutually recursive bindings supported). Example: `div` defined via recursion using `LessEq` and subtraction. <!--SR:!2026-07-05,155,436!2026-06-30,150,436-->
     - COMP 3031 / exercise 4 / implement `gcd` ::@:: Implement Euclid’s algorithm: if `b == 0` then `a` else `gcd(b, a % b)`. <p> Encode recursion using `Fun` + `Call`; condition uses `IfNonzero(Name("b"), ...)` with `modulo`. <p> Curried calls: `Call(Call(Name("gcd"), arg1), arg2)`. <!--SR:!2026-07-13,160,436!2026-07-14,161,436-->
     - COMP 3031 / exercise 4 / implement `map` ::@:: Apply `f` to each element; rebuild list. <!--SR:!2026-07-06,156,436!2026-07-01,151,436-->
-    - COMP 3031 / exercise 4 / implement `foldLeft` ::@:: Accumulate left-to-right using a binary function `f`. <p> Functions are curried; compute `f(acc, x)` as `Call(Call(Name("f"), Name("acc")), Name("x"))`. <!--SR:!2026-07-12,159,436!2026-06-28,148,436-->
+    - COMP 3031 / exercise 4 / implement `foldLeft` ::@:: Accumulate left-to-right using a binary function `f`. <p> Functions are curried; compute `f(acc, x)` as `Call(Call(Name("f"), Name("acc")), Name("x"))`. <!--SR:!2026-07-12,159,436!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
     - COMP 3031 / exercise 4 / implement `cas` ::@:: Compare-and-swap returns `1` on success (write performed) or `0` if the current value differs from `old`. <p> In `Expr`: use `Read` to fetch, `Write` to store and then continue with `andThen`. `IfNonzero(minus(Read(idx), old), ...)` effectively tests `mem(idx) != old`. `Write(idx, nw, Constant(1))` performs the write, then evaluates to `1`. <p> In this toy language, execution is sequential; real CAS is atomic in concurrent settings. <!--SR:!2026-07-02,152,436!2026-07-14,161,436-->
 
 ## week 11 lecture
@@ -878,7 +878,7 @@ The content is in teaching order.
 - datetime: 2025-11-17T15:00:00+08:00/2025-11-17T16:20:00+08:00, PT1H20M
 - topic: Bloxorz; lazy evaluation; `LazyList`
 - COMP 3031
-  - COMP 3031 / lab 5 ::@:: Solve a simplified Bloxorz puzzle in Scala using lazy evaluation and breadth‑first search (BFS) to find the shortest move sequence. <!--SR:!2026-06-28,148,436!2026-07-05,155,436-->
+  - COMP 3031 / lab 5 ::@:: Solve a simplified Bloxorz puzzle in Scala using lazy evaluation and breadth‑first search (BFS) to find the shortest move sequence. <!--SR:!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z!2026-07-05,155,436-->
     - COMP 3031 / lab 5 / problem ::@:: In a Bloxorz puzzle, explore a state space of block positions on a terrain; generate legal neighbors by rolling the block; search for a shortest path from start to goal using lazy streams (`LazyList`). <!--SR:!2026-07-15,162,436!2026-07-14,161,436-->
     - COMP 3031 / lab 5 / setup ::@:: The logic is split across `GameDef.scala` (positions, terrain, block, moves) and `Solver.scala` (lazy BFS over block states). <!--SR:!2026-07-04,154,436!2026-07-02,152,436-->
      COMP 3031 / lab 5 / `Pos` ::@:: `case class Pos(row: Int, y: Int)` where `row` increases downward (vertical axis) and `y` increases rightward (horizontal axis). <!--SR:!2026-07-12,159,436!2026-07-14,161,436-->

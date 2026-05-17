@@ -87,7 +87,7 @@ By convention, the direction of current is taken to be the direction in which po
 
 Flashcards for this section are as follows:
 
-- current definition ::@:: Current is the orderly movement of charged particles; $I = \Delta q/\Delta t$, measured in amperes (1&nbsp;A = 1&nbsp;C/s). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-01,84,363!2026-06-28,82,363-->
+- current definition ::@:: Current is the orderly movement of charged particles; $I = \Delta q/\Delta t$, measured in amperes (1&nbsp;A = 1&nbsp;C/s). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-01,84,363!fsrs,2027-10-14T00:00:00.000Z,472,472.02320206,1,2,7,0,0,2026-06-29T00:00:00.000Z-->
 - current unit ::@:: The unit of current is the ampere, defined as one coulomb of charge passing a point per second. <!--SR:!2026-07-01,84,363!fsrs,2027-09-26T00:00:00.000Z,457,457.21784112,1,2,7,0,0,2026-06-26T00:00:00.000Z-->
 - electron vs conventional direction ::@:: In metal wires only electrons move; by convention current direction is the direction positive charges would move (opposite electron flow). <!--SR:!fsrs,2027-10-02T00:00:00.000Z,462,462.16102535,1,2,7,0,0,2026-06-27T00:00:00.000Z!fsrs,2027-10-02T00:00:00.000Z,462,462.16102535,1,2,7,0,0,2026-06-27T00:00:00.000Z-->
 - current example heater: A heater draws $8.5\times10^{20}$ electrons in $10\,\textrm{s}$ ($e=1.6\times10^{-19}\,\textrm{C}$); find $q$ and $I$. ::@:: $q=Ne\approx136\,\textrm{C}$ and $I=q/t\approx13.6\,\textrm{A}$. <!--SR:!2026-06-29,83,363!2027-02-22,264,363-->
@@ -118,13 +118,13 @@ Flashcards for this section are as follows:
 - resistivity formula ::@:: $R = \rho\frac{L}{A}$ for a wire of length $L$ and area $A$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-29,91,363!2026-07-29,91,363-->
 - resistivity depends on material ::@:: The resistivity ρ in the resistance formula depends on the material of the conductor; different materials have different resistivities. <!--SR:!2026-07-04,87,363!2026-06-29,83,363-->
 - ideal wire ::@:: An ideal wire is treated as a perfect conductor and therefore has no resistance. <!--SR:!2026-07-04,87,363!2026-06-29,83,363-->
-- ideal insulator ::@:: An ideal insulator has infinite resistance and does not allow current to flow. <!--SR:!2026-06-28,82,363!2026-07-05,88,363-->
+- ideal insulator ::@:: An ideal insulator has infinite resistance and does not allow current to flow. <!--SR:!fsrs,2027-10-14T00:00:00.000Z,472,472.02320206,1,2,7,0,0,2026-06-29T00:00:00.000Z!2026-07-05,88,363-->
 - resistor definition ::@:: A resistor is a device that limits or regulates current flow in a circuit; colour bands on a resistor encode its resistance value. <!--SR:!2026-07-31,93,363!2026-07-30,92,363-->
 - resistor usage ::@:: Resistors control current and create voltage drops; all loads and even connecting wires inherently have resistance. <!--SR:!fsrs,2027-09-13T00:00:00.000Z,447,447.3065659,1,2,7,0,0,2026-06-23T00:00:00.000Z!fsrs,2027-10-08T00:00:00.000Z,467,467.0961472,1,2,7,0,0,2026-06-28T00:00:00.000Z-->
 - Ohm's law ::@:: $V = IR$; an I–V plot for a resistor is a straight line with slope $1/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-05,88,363!2026-07-31,93,363-->
 - Ohm's law example: Given $V = 5\,\textrm{V}$ across a resistor $R = 200\,\Omega$, what is the current? ::@:: Use $I = V/R$ to calculate $25\,\textrm{mA}$. <!--SR:!2026-07-04,87,363!2026-07-31,93,363-->
 - multimeter use ::@:: Digital multimeters may be used to measure resistance, voltage, or current in laboratory circuits. <!--SR:!fsrs,2027-10-08T00:00:00.000Z,467,467.0961472,1,2,7,0,0,2026-06-28T00:00:00.000Z!2026-07-03,86,363-->
-- metric prefixes ::@:: Prefixes such as kilo ($k=10^{3}$) and milli ($m=10^{-3}$) are applied to ohms and amperes (e.g. $10\,\text{k}\Omega = 10000\,\Omega$; $50\,\text{mA} = 0.05\,\text{A}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-29,91,363!2026-06-28,82,363-->
+- metric prefixes ::@:: Prefixes such as kilo ($k=10^{3}$) and milli ($m=10^{-3}$) are applied to ohms and amperes (e.g. $10\,\text{k}\Omega = 10000\,\Omega$; $50\,\text{mA} = 0.05\,\text{A}$). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-29,91,363!fsrs,2027-10-14T00:00:00.000Z,472,472.02320206,1,2,7,0,0,2026-06-29T00:00:00.000Z-->
 
 ## capacitors
 
@@ -240,7 +240,7 @@ Flashcards for this section are as follows:
 - infinite ladder concept: Given an infinite resistor ladder built by repeating a small series/parallel cell, how can you model the resistance of the "tail" of the network in terms of an unknown $R_{\text{eq}}$? ::@:: Because the part of the ladder to the right of any cell looks identical to the whole, you can replace the infinite tail by a single unknown equivalent resistance $R_{\text{eq}}$ and solve for it. <!--SR:!2026-07-31,93,363!fsrs,2027-10-08T00:00:00.000Z,467,467.0961472,1,2,7,0,0,2026-06-28T00:00:00.000Z-->
 - ELEC 1100 infinite ladder example: Given the ELEC 1100 ladder made from repeating a $2R$ series resistor with a $1.5R$ shunt to ground, how do you find its equivalent resistance? ::@:: Write the equation $R_{\text{eq}} = 2R + (1.5R\parallel R_{\text{eq}})$ using the usual parallel formula and solve to obtain $R_{\text{eq}} = 3R$. <!--SR:!2026-07-02,85,363!2026-07-02,85,363-->
 - network calculation example: A $5\,\textrm{V}$ source drives $30\,\Omega$ in series with parallel $40\,\Omega$ and $60\,\Omega$ branches; what are $R_{\text{eq}}$ and total current? ::@:: $R_{\parallel}=24\,\Omega$, $R_{\text{eq}}=54\,\Omega$, $I=5/54\approx0.093\,\textrm{A}$. <!--SR:!2026-07-29,91,363!2026-07-02,85,363-->
-- short circuit danger ::@:: A short circuit is a near-zero-resistance path (close to zero, like through a metal wire) causing very high current and has the potential to damage components. <!--SR:!2026-07-30,92,363!2026-06-28,82,363-->
+- short circuit danger ::@:: A short circuit is a near-zero-resistance path (close to zero, like through a metal wire) causing very high current and has the potential to damage components. <!--SR:!2026-07-30,92,363!fsrs,2027-10-14T00:00:00.000Z,472,472.02320206,1,2,7,0,0,2026-06-29T00:00:00.000Z-->
 
 ### worked calculations
 

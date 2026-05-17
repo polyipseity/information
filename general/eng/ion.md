@@ -412,7 +412,7 @@ return chain.from_iterable([r.value for r in results])
 - hydroxide ion::@::OH<sup>-</sup> <!--SR:!2026-10-24,1364,352!2040-08-08,5300,374-->
 - nitrate ion::@::NO<sub>3</sub><sup>-</sup> <!--SR:!2028-09-18,1780,312!2027-05-30,1441,314-->
 - nitrite ion::@::NO<sub>2</sub><sup>-</sup> <!--SR:!2030-08-14,1839,259!2026-11-11,1286,310-->
-- hydrogencarbonate ion::@::HCO<sub>3</sub><sup>-</sup> <!--SR:!2026-06-28,1170,299!2029-07-09,2040,332-->
+- hydrogencarbonate ion::@::HCO<sub>3</sub><sup>-</sup> <!--SR:!fsrs,2037-01-03T00:00:00.000Z,3841,3841.4847892,1.5300312,2,11,0,0,2026-06-29T00:00:00.000Z!2029-07-09,2040,332-->
 - hydrogensulfite ion::@::HSO<sub>3</sub><sup>-</sup> <!--SR:!2028-02-10,1564,290!2027-04-29,1416,314-->
 - hydrogensulfate ion::@::HSO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-19,1641,367!2040-11-25,5426,370-->
 - permanganate ion::@::MnO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-07,1459,293!2026-09-01,1005,253-->
