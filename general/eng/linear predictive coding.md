@@ -35,7 +35,7 @@ LPC is the basis for [voice-over-IP](Voice-over-IP.md) \(VoIP\) technology.<sup>
 
 ## LPC coefficient representations
 
-LPC is frequently used for {@{transmitting spectral envelope information}@}, and as such it has to be {@{tolerant of transmission errors}@}. {@{Transmission of the filter coefficients directly}@} \(see {@{[linear prediction](linear%20prediction.md)}@} for {@{a definition of coefficients}@}\) is {@{undesirable}@}, since {@{they are very sensitive to errors}@}. In other words, {@{a very small error}@} can {@{distort the whole spectrum}@}, or worse, {@{a small error might make the prediction filter unstable}@}. <!--SR:!2026-07-12,293,330!fsrs,2029-08-19T01:41:09.446Z,1168,1168.38706892,1,2,9,0,0,2026-06-08T01:41:09.446Z!2029-08-01,1162,350!2026-06-17,273,330!2029-04-16,1081,350!2026-07-12,293,330!fsrs,2029-09-07T08:38:03.122Z,1182,1182.2404257,1,2,9,0,0,2026-06-13T08:38:03.122Z!2026-07-10,291,330!2028-10-03,892,330!2027-11-15,640,410-->
+LPC is frequently used for {@{transmitting spectral envelope information}@}, and as such it has to be {@{tolerant of transmission errors}@}. {@{Transmission of the filter coefficients directly}@} \(see {@{[linear prediction](linear%20prediction.md)}@} for {@{a definition of coefficients}@}\) is {@{undesirable}@}, since {@{they are very sensitive to errors}@}. In other words, {@{a very small error}@} can {@{distort the whole spectrum}@}, or worse, {@{a small error might make the prediction filter unstable}@}. <!--SR:!2026-07-12,293,330!fsrs,2029-08-19T01:41:09.446Z,1168,1168.38706892,1,2,9,0,0,2026-06-08T01:41:09.446Z!2029-08-01,1162,350!fsrs,2029-09-24T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-06-17T00:00:00.000Z!2029-04-16,1081,350!2026-07-12,293,330!fsrs,2029-09-07T08:38:03.122Z,1182,1182.2404257,1,2,9,0,0,2026-06-13T08:38:03.122Z!2026-07-10,291,330!2028-10-03,892,330!2027-11-15,640,410-->
 
 There are {@{more advanced representations}@} such as {@{[log area ratios](log%20area%20ratio.md) \(LAR\), [line spectral pairs](line%20spectral%20pairs.md) \(LSP\) decomposition and [reflection coefficients](reflection%20coefficient.md)}@}. Of these, especially {@{LSP decomposition}@} has {@{gained popularity}@} since it {@{ensures the stability of the predictor}@}, and {@{spectral errors}@} are {@{local for small coefficient deviations}@}. <!--SR:!2026-07-13,294,330!2026-07-13,294,330!fsrs,2029-09-09T08:38:01.990Z,1184,1183.64577796,1,2,9,0,0,2026-06-13T08:38:01.990Z!2029-04-17,1081,350!fsrs,2029-09-06T08:38:01.375Z,1181,1180.83166378,1,2,9,0,0,2026-06-13T08:38:01.375Z!2026-07-13,294,330!2026-07-11,292,330-->
 
@@ -47,7 +47,7 @@ LPC is the most {@{widely used method in [speech coding](speech%20coding.md) and
 
 {@{LPC predictors}@} are used in {@{[Shorten](Shorten%20(file%20format).md), [MPEG-4 ALS](MPEG-4%20ALS.md), [FLAC](FLAC.md), [SILK](SILK.md) [audio codec](audio%20codec.md)}@}, and other {@{[lossless](lossless%20compression.md) audio codecs}@}. <!--SR:!2026-07-12,293,330!2029-06-23,1131,350!2029-07-22,1152,350-->
 
-LPC has {@{received some attention as a tool}@} for use in {@{the tonal analysis of violins and other stringed musical instruments}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2026-07-11,292,330!2026-06-17,273,330-->
+LPC has {@{received some attention as a tool}@} for use in {@{the tonal analysis of violins and other stringed musical instruments}@}.<sup>[\[19\]](#^ref-19)</sup> <!--SR:!2026-07-11,292,330!fsrs,2029-09-24T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-06-17T00:00:00.000Z-->
 
 ## see also
 

@@ -19,7 +19,7 @@ tags:
 
 ## canvas
 
-{@{The business model canvas}@} consists of {@{9 [building blocks](#building%20blocks)}@}. It can be used for {@{new or existing business models}@}. It works best when {@{it is on a large surface and groups of people can contribute and discuss}@}. <!--SR:!2027-12-14,992,314!2029-03-09,1315,314!fsrs,2027-09-25T03:38:08.875Z,467,466.53211024,1,2,7,0,0,2026-06-15T03:38:08.875Z!2026-06-17,86,353-->
+{@{The business model canvas}@} consists of {@{9 [building blocks](#building%20blocks)}@}. It can be used for {@{new or existing business models}@}. It works best when {@{it is on a large surface and groups of people can contribute and discuss}@}. <!--SR:!2027-12-14,992,314!2029-03-09,1315,314!fsrs,2027-09-25T03:38:08.875Z,467,466.53211024,1,2,7,0,0,2026-06-15T03:38:08.875Z!fsrs,2027-10-06T00:00:00.000Z,476,476.03165621,1,2,7,0,0,2026-06-17T00:00:00.000Z-->
 
 ### building blocks
 
@@ -123,7 +123,7 @@ segmented: splitting slightly different customer segments
 
 ##### value sources
 
-{@{Values}@} can come {@{from many things}@}: <!--SR:!2026-06-17,86,353!fsrs,2027-09-19T10:17:18.726Z,462,461.77133783,1,2,7,0,0,2026-06-14T10:17:18.726Z-->
+{@{Values}@} can come {@{from many things}@}: <!--SR:!fsrs,2027-10-06T00:00:00.000Z,476,476.03165621,1,2,7,0,0,2026-06-17T00:00:00.000Z!fsrs,2027-09-19T10:17:18.726Z,462,461.77133783,1,2,7,0,0,2026-06-14T10:17:18.726Z-->
 
 ```Python
 # pytextgen generate data
@@ -188,7 +188,7 @@ risk reduction
 
 ##### customer relationship examples
 
-There are {@{different types}@} of {@{customer relationships}@}. Examples include: <!--SR:!2026-06-17,86,353!fsrs,2027-09-17T10:17:11.192Z,460,460.21315055,1,2,7,0,0,2026-06-14T10:17:11.192Z-->
+There are {@{different types}@} of {@{customer relationships}@}. Examples include: <!--SR:!fsrs,2027-10-06T00:00:00.000Z,476,476.03165621,1,2,7,0,0,2026-06-17T00:00:00.000Z!fsrs,2027-09-17T10:17:11.192Z,460,460.21315055,1,2,7,0,0,2026-06-14T10:17:11.192Z-->
 
 ```Python
 # pytextgen generate data
@@ -284,11 +284,11 @@ subscription fee
 
 #### key partnerships
 
-{@{The key partnerships}@} building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions}@}, {@{joint ventures, and strategic alliances between non-competitors}@}. {@{Partnerships}@} can acquire {@{particular activities and resources}@}, optimize {@{for economy of scale}@}, and reduce {@{risk and uncertainty}@}. <!--SR:!2026-06-17,573,294!2028-01-06,690,217!2029-11-19,1346,257!2026-10-06,168,333!fsrs,2027-09-25T03:38:05.925Z,467,466.53211024,1,2,7,0,0,2026-06-15T03:38:05.925Z!2026-06-17,86,353!fsrs,2027-09-14T10:17:20.390Z,457,457.050084,1,2,7,0,0,2026-06-14T10:17:20.390Z!fsrs,2027-09-14T10:17:22.935Z,457,457.050084,1,2,7,0,0,2026-06-14T10:17:22.935Z-->
+{@{The key partnerships}@} building block shows {@{important suppliers and networks required for the business model}@}. They can be categorized into {@{buyer–seller relationships, coopetitions}@}, {@{joint ventures, and strategic alliances between non-competitors}@}. {@{Partnerships}@} can acquire {@{particular activities and resources}@}, optimize {@{for economy of scale}@}, and reduce {@{risk and uncertainty}@}. <!--SR:!fsrs,2031-12-18T00:00:00.000Z,2010,2009.8340033,1.78018496,2,10,0,0,2026-06-17T00:00:00.000Z!2028-01-06,690,217!2029-11-19,1346,257!2026-10-06,168,333!fsrs,2027-09-25T03:38:05.925Z,467,466.53211024,1,2,7,0,0,2026-06-15T03:38:05.925Z!fsrs,2027-10-06T00:00:00.000Z,476,476.03165621,1,2,7,0,0,2026-06-17T00:00:00.000Z!fsrs,2027-09-14T10:17:20.390Z,457,457.050084,1,2,7,0,0,2026-06-14T10:17:20.390Z!fsrs,2027-09-14T10:17:22.935Z,457,457.050084,1,2,7,0,0,2026-06-14T10:17:22.935Z-->
 
 #### cost structure
 
-{@{The cost structure}@} building block shows {@{all costs required to run the business model}@}. Business models, with respect to the cost structure, can be categorized into {@{cost-driven and value-driven, though most organizations fall somewhere between these two}@}. <!--SR:!2030-03-26,1657,334!2026-08-22,397,274!2026-06-17,86,353-->
+{@{The cost structure}@} building block shows {@{all costs required to run the business model}@}. Business models, with respect to the cost structure, can be categorized into {@{cost-driven and value-driven, though most organizations fall somewhere between these two}@}. <!--SR:!2030-03-26,1657,334!2026-08-22,397,274!fsrs,2027-10-06T00:00:00.000Z,476,476.03165621,1,2,7,0,0,2026-06-17T00:00:00.000Z-->
 
 In {@{cost structures}@}, costs can be {@{fixed costs or variable costs}@}. Costs can be reduced by {@{economies of scale and economies of scope}@}. <!--SR:!2028-03-05,1032,310!2026-07-11,581,294!fsrs,2027-09-17T10:17:17.059Z,460,460.21315055,1,2,7,0,0,2026-06-14T10:17:17.059Z-->
 

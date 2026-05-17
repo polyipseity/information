@@ -233,7 +233,7 @@ For {@{a network to which only steady ac signals are applied}@}, {@{s is replace
 
 > __flashcards__
 >
-> - resistor, steady AC ::@:: $Z(j\omega) = R$ <!--SR:!2030-09-26,1594,369!2026-06-17,359,360-->
+> - resistor, steady AC ::@:: $Z(j\omega) = R$ <!--SR:!2030-09-26,1594,369!fsrs,2031-01-12T00:00:00.000Z,1670,1669.9706385,1,2,9,0,0,2026-06-17T00:00:00.000Z-->
 > - inductor, steady AC ::@:: $Z(j\omega) = j\omega L$ <!--SR:!2026-07-16,384,360!2026-07-21,387,360-->
 > - capacitor, steady AC ::@:: $Z(j\omega) = \frac 1 {j\omega C}$ <!--SR:!2029-06-14,1205,350!2026-07-05,375,360-->
 
@@ -357,13 +357,13 @@ There will {@{always be dependent generators in a two-port parameter equivalent 
 
 #### piecewise linear method
 
-In this method, {@{the transfer function of the non-linear device}@} is {@{broken up into regions}@}. Each of these regions is {@{approximated by a straight line}@}. Thus, the transfer function will be {@{linear up to a particular point where there will be a discontinuity}@}. Past this point {@{the transfer function will again be linear but with a different slope}@}. <!--SR:!2030-11-08,1626,369!2029-02-14,1111,350!2029-01-21,1091,350!2030-02-21,1419,369!2026-06-17,359,360-->
+In this method, {@{the transfer function of the non-linear device}@} is {@{broken up into regions}@}. Each of these regions is {@{approximated by a straight line}@}. Thus, the transfer function will be {@{linear up to a particular point where there will be a discontinuity}@}. Past this point {@{the transfer function will again be linear but with a different slope}@}. <!--SR:!2030-11-08,1626,369!2029-02-14,1111,350!2029-01-21,1091,350!2030-02-21,1419,369!fsrs,2031-01-12T00:00:00.000Z,1670,1669.9706385,1,2,9,0,0,2026-06-17T00:00:00.000Z-->
 
 {@{A well known application of this method}@} is {@{the approximation of the transfer function of a pn junction diode}@}. {@{The transfer function of an ideal diode}@} has been {@{given at the top of this \(non-linear\) section}@}. However, this formula is {@{rarely used in network analysis, a piecewise approximation being used instead}@}. It can be seen that {@{the diode current rapidly diminishes to -I<sub>o</sub> as the voltage falls}@}. This current, {@{for most purposes, is so small it can be ignored}@}. With {@{increasing voltage, the current increases exponentially}@}. The diode is modelled as {@{an open circuit up to the knee of the exponential curve}@}, then {@{past this point as a resistor equal to the [bulk resistance](bulk%20resistance.md) of the semiconducting material}@}. <!--SR:!2026-07-17,385,360!2030-04-25,1458,369!2030-05-19,1482,369!2026-07-04,374,360!2029-04-28,1170,350!2029-03-12,1134,350!2029-02-08,1106,350!2030-12-28,1669,369!2029-06-30,1219,350!2028-06-24,844,290-->
 
 {@{The commonly accepted values for the transition point voltage}@} are {@{0.7V for silicon devices and 0.3V for germanium devices}@}. {@{An even simpler model of the diode, sometimes used in switching applications}@}, is {@{short circuit for forward voltages and open circuit for reverse voltages}@}. <!--SR:!2026-07-17,385,360!2029-01-17,1087,350!2030-04-22,1455,369!2030-05-05,1468,369-->
 
-{@{The model of a forward biased pn junction having an approximately constant 0.7V}@} is also {@{a much used approximation}@} for {@{transistor base-emitter junction voltage in amplifier design}@}. <!--SR:!2030-09-27,1592,369!2027-11-22,708,340!2026-06-17,133,408-->
+{@{The model of a forward biased pn junction having an approximately constant 0.7V}@} is also {@{a much used approximation}@} for {@{transistor base-emitter junction voltage in amplifier design}@}. <!--SR:!2030-09-27,1592,369!2027-11-22,708,340!fsrs,2028-06-16T00:00:00.000Z,730,730.38507953,1,2,8,0,0,2026-06-17T00:00:00.000Z-->
 
 The piecewise method is {@{similar to the small signal method}@} in that {@{linear network analysis techniques can only be applied if the signal stays within certain bounds}@}. If {@{the signal crosses a discontinuity point then the model is no longer valid for linear analysis purposes}@}. The model does {@{have the advantage over small signal}@} however, in that it is {@{equally applicable to signal and dc bias}@}. These can therefore {@{both be analysed in the same operations and will be linearly superimposable}@}. <!--SR:!2031-01-01,1672,369!2030-11-02,1620,369!2026-07-19,385,360!2029-02-13,1111,350!2029-02-11,1109,350!fsrs,2030-10-07T01:59:36.819Z,1582,1582.49479994,1,2,9,0,0,2026-06-08T01:59:36.819Z-->
 

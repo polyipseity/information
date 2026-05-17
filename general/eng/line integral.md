@@ -78,7 +78,7 @@ Substituting {@{this in the above Riemann sum}@} yields {@{$$I=\lim _{\Delta t\t
 
 For {@{a [vector field](vector%20field.md) __F__: _U_ ⊆ __R__<sup>_n_</sup> → __R__<sup>_n_</sup>}@}, {@{the line integral along a [piecewise smooth](piecewise%20smooth.md) [curve](curve.md) _C_ ⊂ _U_, in the direction of __r__}@}, is defined as {@{$$\int _{C}\mathbf {F} (\mathbf {r} )\cdot d\mathbf {r} =\int _{a}^{b}\mathbf {F} (\mathbf {r} (t))\cdot \mathbf {r} '(t)\,dt$$}@} where · is {@{the [dot product](dot%20product.md)}@}, and __r__: \[_a_, _b_\] → _C_ is {@{a regular [parametrization](parametric%20equation.md) \(i.e: $||\mathbf {r} '(t)||\neq 0\;\;\forall t\in [a,b]$\) of the curve _C_}@} such that {@{__r__\(_a_\) and __r__\(_b_\) give the endpoints of _C_}@}. <!--SR:!2029-07-23,1151,350!2026-09-11,343,350!2026-09-12,344,350!2026-07-07,285,330!2026-07-02,281,330!2026-07-07,285,330-->
 
-{@{A line integral of a scalar field}@} is thus {@{a line integral of a vector field}@}, where {@{the vectors are always [tangential](tangential.md) to the line of the integration}@}. <!--SR:!2026-06-19,271,330!2029-08-07,1165,350!2026-06-17,269,330-->
+{@{A line integral of a scalar field}@} is thus {@{a line integral of a vector field}@}, where {@{the vectors are always [tangential](tangential.md) to the line of the integration}@}. <!--SR:!2026-06-19,271,330!2029-08-07,1165,350!fsrs,2029-09-09T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-06-17T00:00:00.000Z-->
 
 {@{Line integrals of vector fields}@} are {@{independent of the parametrization __r__ in [absolute value](absolute%20value.md)}@}, but they do depend on {@{its [orientation](curve%20orientation.md)}@}. Specifically, {@{a reversal in the orientation of the parametrization}@} changes {@{the sign of the line integral}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-07-01,281,330!2029-08-10,1167,350!2029-07-22,1150,350!fsrs,2029-07-30T08:21:24.526Z,1149,1149.27403969,1,2,9,0,0,2026-06-07T08:21:24.526Z!fsrs,2029-09-03T03:25:04.901Z,1176,1176.0199518,1,2,9,0,0,2026-06-15T03:25:04.901Z-->
 
@@ -95,7 +95,7 @@ From {@{the viewpoint of [differential geometry](differential%20geometry.md)}@},
 
 By {@{the [mean value theorem](mean%20value%20theorem.md)}@}, we see that {@{the displacement vector between adjacent points on the curve}@} is {@{$$\Delta \mathbf {r} _{i}=\mathbf {r} (t_{i}+\Delta t)-\mathbf {r} (t_{i})\approx \mathbf {r} '(t_{i})\,\Delta t.$$}@} <!--SR:!2029-08-22,1176,350!2026-07-03,282,330!2026-07-02,281,330-->
 
-Substituting {@{this in the above Riemann sum}@} yields {@{$$I=\lim _{\Delta t\to 0}\sum _{i=1}^{n}\mathbf {F} (\mathbf {r} (t_{i}))\cdot \mathbf {r} '(t_{i})\,\Delta t,$$}@} which is {@{the Riemann sum for the integral defined above}@}. <!--SR:!fsrs,2029-08-22T15:10:03.321Z,1166,1165.5706412,1,2,9,0,0,2026-06-13T15:10:03.321Z!2026-06-17,269,330!2026-07-15,292,330-->
+Substituting {@{this in the above Riemann sum}@} yields {@{$$I=\lim _{\Delta t\to 0}\sum _{i=1}^{n}\mathbf {F} (\mathbf {r} (t_{i}))\cdot \mathbf {r} '(t_{i})\,\Delta t,$$}@} which is {@{the Riemann sum for the integral defined above}@}. <!--SR:!fsrs,2029-08-22T15:10:03.321Z,1166,1165.5706412,1,2,9,0,0,2026-06-13T15:10:03.321Z!fsrs,2029-09-09T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-06-17T00:00:00.000Z!2026-07-15,292,330-->
 
 ### path independence
 
@@ -145,7 +145,7 @@ By {@{[Green's theorem](Green's%20theorem.md)}@}, {@{the area of a region enclos
 
 ## quantum mechanics
 
-{@{The [path integral formulation](path%20integral%20formulation.md) of [quantum mechanics](quantum%20mechanics.md)}@} actually refers {@{not to path integrals in this sense but to [functional integrals](functional%20integration.md)}@}, that is, {@{integrals over a space of paths, of a function _of_ a possible path}@}. However, {@{path integrals in the sense of this article}@} are {@{important in quantum mechanics}@}; for example, {@{complex contour integration}@} is often {@{used in evaluating [probability amplitudes](probability%20amplitude.md) in quantum [scattering](scattering.md) theory}@}. <!--SR:!2026-06-17,269,330!2026-07-04,283,330!2028-08-19,848,330!2029-07-08,1136,350!2029-07-16,1144,350!fsrs,2029-08-23T15:10:07.329Z,1167,1166.9806433,1,2,9,0,0,2026-06-13T15:10:07.329Z!fsrs,2029-09-04T02:36:02.912Z,1176,1176.0199518,1,2,9,0,0,2026-06-16T02:36:02.912Z-->
+{@{The [path integral formulation](path%20integral%20formulation.md) of [quantum mechanics](quantum%20mechanics.md)}@} actually refers {@{not to path integrals in this sense but to [functional integrals](functional%20integration.md)}@}, that is, {@{integrals over a space of paths, of a function _of_ a possible path}@}. However, {@{path integrals in the sense of this article}@} are {@{important in quantum mechanics}@}; for example, {@{complex contour integration}@} is often {@{used in evaluating [probability amplitudes](probability%20amplitude.md) in quantum [scattering](scattering.md) theory}@}. <!--SR:!fsrs,2029-09-09T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-06-17T00:00:00.000Z!2026-07-04,283,330!2028-08-19,848,330!2029-07-08,1136,350!2029-07-16,1144,350!fsrs,2029-08-23T15:10:07.329Z,1167,1166.9806433,1,2,9,0,0,2026-06-13T15:10:07.329Z!fsrs,2029-09-04T02:36:02.912Z,1176,1176.0199518,1,2,9,0,0,2026-06-16T02:36:02.912Z-->
 
 ## see also
 

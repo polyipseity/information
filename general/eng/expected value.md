@@ -41,7 +41,7 @@ In {@{the foreword to his treatise}@}, Huygens wrote: <!--SR:!2029-06-25,1261,35
 
 > It should be said, also, that for {@{some time some of the best mathematicians of France}@} have occupied {@{themselves with this kind of calculus}@} so that no one should {@{attribute to me the honour of the first invention. This does not belong to me}@}. But these savants, although they put {@{each other to the test by proposing to each other many questions difficult to solve}@}, have {@{hidden their methods}@}. I have had therefore to {@{examine and go deeply for myself into this matter by beginning with the elements}@}, and it is {@{impossible for me for this reason to affirm that I have even started from the same principle}@}. But finally I have found that {@{my answers in many cases do not differ from theirs}@}.
 >
-> —&hairsp;Edwards \(2002\) <!--SR:!2029-08-23,1320,350!2030-08-30,1632,367!2028-05-29,894,330!2027-12-01,815,330!2029-07-15,1279,350!2029-08-28,1323,350!2026-06-17,132,405!2026-06-18,133,405-->
+> —&hairsp;Edwards \(2002\) <!--SR:!2029-08-23,1320,350!2030-08-30,1632,367!2028-05-29,894,330!2027-12-01,815,330!2029-07-15,1279,350!2029-08-28,1323,350!fsrs,2028-06-12T00:00:00.000Z,726,725.66338141,1,2,8,0,0,2026-06-17T00:00:00.000Z!2026-06-18,133,405-->
 
 In {@{the mid-nineteenth century, [Pafnuty Chebyshev](Pafnuty%20Chebyshev.md)}@} became {@{the first person to think systematically in terms of the expectations of [random variables](random%20variable.md)}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-06-21,365,290!2029-07-30,1296,350-->
 
@@ -179,7 +179,7 @@ The following table gives {@{the expected values of some commonly occurring [pro
 >   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Notation ::@:: $X\sim \mathrm {Par} (\alpha ,k)$ <!--SR:!fsrs,2028-05-22T10:12:17.514Z,708,708.38005338,1,2,8,0,0,2026-06-14T10:12:17.514Z!2026-06-28,140,405-->
 >   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Mean E\(X\) ::@:: $\int _{k}^{\infty }\alpha k^{\alpha }x^{-\alpha }\,dx={\begin{cases}{\frac {\alpha k}{\alpha -1} }&{\text{if  } }\alpha >1\\\infty &{\text{if } }0<\alpha \leq 1\end{cases} }$ <!--SR:!fsrs,2028-02-26T10:08:07.260Z,631,631.37577862,1,2,8,0,0,2026-06-05T10:08:07.260Z!fsrs,2027-11-20T00:59:23.622Z,532,532.13913177,1,2,8,0,0,2026-06-06T00:59:23.622Z-->
 > - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup>
->   - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Notation ::@:: $X\sim \mathrm {Cauchy} (x_{0},\gamma )$ <!--SR:!2026-06-28,140,405!2026-06-17,132,405-->
+>   - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Notation ::@:: $X\sim \mathrm {Cauchy} (x_{0},\gamma )$ <!--SR:!2026-06-28,140,405!fsrs,2028-06-12T00:00:00.000Z,726,725.66338141,1,2,8,0,0,2026-06-17T00:00:00.000Z-->
 >   - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\pi } }\int _{-\infty }^{\infty }{\frac {\gamma x}{(x-x_{0})^{2}+\gamma ^{2} } }\,dx$ is [undefined](indeterminate%20form.md) <!--SR:!fsrs,2028-02-25T10:08:09.184Z,630,629.64285573,1,2,8,0,0,2026-06-05T10:08:09.184Z!2027-10-05,512,405-->
 
 ## properties

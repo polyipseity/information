@@ -107,7 +107,7 @@ The content is in teaching order.
   - design thinking / life design: prototype ::@:: You build simply and accessibly. <!--SR:!fsrs,2032-06-25T03:27:31.096Z,2202,2202.20400893,1,2,10,0,0,2026-06-15T03:27:31.096Z!2026-07-10,497,402-->
   - design thinking / life design: test ::@:: You try things curiously and courageously. <!--SR:!2026-08-29,538,402!2026-07-19,501,402-->
   - design thinking / reframing ::@:: Framing defines the boundaries and constraints of the solution set to your problem. __Reframing__ state the original problem but in a different perspective to expand the solution set. There may be unexpected innovation. <!--SR:!2026-07-14,500,402!2026-08-13,524,402-->
-- job hunting ::@:: Finding a job... or pursuing possibilities that give me choices and freedom (reframing)? <!--SR:!2026-08-02,515,402!2026-06-17,478,402-->
+- job hunting ::@:: Finding a job... or pursuing possibilities that give me choices and freedom (reframing)? <!--SR:!2026-08-02,515,402!fsrs,2032-07-01T00:00:00.000Z,2206,2206.21232104,1,2,10,0,0,2026-06-17T00:00:00.000Z-->
   - job hunting / iceberg problem ::@:: visible job market (agency, jobs board, social media): 30%; hidden market (HR connection, direct application, networking): 70% <!--SR:!2026-08-06,518,402!2026-08-15,526,402-->
 - design thinking
   - design thinking / curiosity ::@:: Curiosity makes everything new and invites exploration. It helps us notice new opportunities and connect with people. It allows us to look beyond preconceptions and be open to possibilities. <!--SR:!2026-07-30,512,402!fsrs,2032-06-13T14:05:11.378Z,2191,2191.01561853,1,2,10,0,0,2026-06-14T14:05:11.378Z-->

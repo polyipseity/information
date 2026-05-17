@@ -165,7 +165,7 @@ The content is in teaching order.
   - [syncopation](../../../../general/syncopation.md)
   - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2026-09-30,455,320!fsrs,2030-04-28T05:22:33.459Z,1414,1413.74543025,1,2,9,0,0,2026-06-14T05:22:33.459Z-->
 - [jazz](../../../../general/jazz.md)
-  - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2026-06-17,379,360!2029-02-23,1166,360-->
+  - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!fsrs,2031-04-02T00:00:00.000Z,1750,1750.41742438,1,2,10,0,0,2026-06-17T00:00:00.000Z!2029-02-23,1166,360-->
 - quiz \(attendance\): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)
 
 ## week 2 lecture 2
