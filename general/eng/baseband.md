@@ -43,7 +43,7 @@ A baseband signal may have {@{frequency components}@} going {@{all the way down 
 
 ### baseband processor
 
-{@{A [baseband processor](baseband%20processor.md) also known as BP or BBP}@} is used to process {@{the down-converted digital signal}@} to retrieve {@{essential data for a wireless digital system}@}. {@{The baseband processing block}@} in {@{[GNSS](satellite%20navigation.md) receivers}@} is responsible for providing {@{observable data}@}: that is, {@{code pseudo-ranges and carrier phase measurements, as well as navigation data}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-09-13,286,330!2026-08-03,254,330!2026-08-14,263,330!2026-08-09,259,330!2026-07-09,234,330!2026-08-01,253,330!2026-09-03,278,330-->
+{@{A [baseband processor](baseband%20processor.md) also known as BP or BBP}@} is used to process {@{the down-converted digital signal}@} to retrieve {@{essential data for a wireless digital system}@}. {@{The baseband processing block}@} in {@{[GNSS](satellite%20navigation.md) receivers}@} is responsible for providing {@{observable data}@}: that is, {@{code pseudo-ranges and carrier phase measurements, as well as navigation data}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-09-13,286,330!2026-08-03,254,330!2026-08-14,263,330!2026-08-09,259,330!fsrs,2029-05-20T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-10T00:00:00.000Z!2026-08-01,253,330!2026-09-03,278,330-->
 
 ### equivalent baseband signal
 

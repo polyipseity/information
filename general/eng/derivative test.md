@@ -103,7 +103,7 @@ tags:
 
 ### concavity test
 
-{@{The [second derivative](second%20derivative.md) of a [function](function%20(mathematics).md)}@} can determine {@{whether the [function](function%20(mathematics).md) is [concave up](convex%20function.md) or [concave down](concave%20function.md)}@}. {@{A [twice-differentiable function](differentiable%20function.md)}@} is {@{[concave up](convex%20function.md) if $f''(x)\ge0$, [_strictly_ concave up](convex%20function.md) if $f''(x)>0$}@}, {@{[concave down](concave%20function.md) if $f''(x)\le0$, and [_strictly_ concave down](concave%20function.md) if $f''(x)<0$}@}. <!--SR:!2027-10-02,1094,354!2026-07-09,663,319!2027-04-26,446,386!2027-05-15,465,386!2027-03-17,423,386-->
+{@{The [second derivative](second%20derivative.md) of a [function](function%20(mathematics).md)}@} can determine {@{whether the [function](function%20(mathematics).md) is [concave up](convex%20function.md) or [concave down](concave%20function.md)}@}. {@{A [twice-differentiable function](differentiable%20function.md)}@} is {@{[concave up](convex%20function.md) if $f''(x)\ge0$, [_strictly_ concave up](convex%20function.md) if $f''(x)>0$}@}, {@{[concave down](concave%20function.md) if $f''(x)\le0$, and [_strictly_ concave down](concave%20function.md) if $f''(x)<0$}@}. <!--SR:!2027-10-02,1094,354!fsrs,2033-05-12T00:00:00.000Z,2498,2498.03679289,1,2,10,0,0,2026-07-10T00:00:00.000Z!2027-04-26,446,386!2027-05-15,465,386!2027-03-17,423,386-->
 
 ### second derivative test
 

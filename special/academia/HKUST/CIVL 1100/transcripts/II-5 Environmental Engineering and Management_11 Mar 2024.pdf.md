@@ -418,7 +418,7 @@ Observed climate change in Hong Kong
 Concentration Units for Liquids
 
 - concentration units for liquids ::@:: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2027-12-20,912,290!2032-02-18,2144,330-->
-  - mass of substance per unit volume of mixture units for liquids ::@:: mol/L (mol is not strictly mass), mg/L <!--SR:!2026-07-09,592,330!2026-09-02,573,310-->
+  - mass of substance per unit volume of mixture units for liquids ::@:: mol/L (mol is not strictly mass), mg/L <!--SR:!fsrs,2032-12-12T00:00:00.000Z,2347,2347.1286463,1,2,10,0,0,2026-07-10T00:00:00.000Z!2026-09-02,573,310-->
   - mass of substance per unit mass of mixture units for liquids ::@:: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2026-12-05,636,310!2029-04-12,1391,350-->
 
 ## page 34
@@ -451,7 +451,7 @@ Concentration Units for Gases
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::@:: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2027-12-03,970,330!2026-07-28,609,330-->
-  - ideal gas law equation ::@:: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!2026-07-09,569,310!2028-10-24,1242,350-->
+  - ideal gas law equation ::@:: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!fsrs,2032-04-26T00:00:00.000Z,2117,2117.35503106,1,2,10,0,0,2026-07-10T00:00:00.000Z!2028-10-24,1242,350-->
 
 ## page 38
 

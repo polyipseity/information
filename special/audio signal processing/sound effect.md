@@ -11,7 +11,7 @@ tags:
 
 - see: [general/sound effect](../../general/sound%20effect.md)
 
-After {@{analyzing a sound using models}@}, we can {@{modify model data and parameters}@} before {@{re-synthesizing the sound using the model}@}. This can {@{create __sound effects__}@}. <!--SR:!2026-07-09,289,330!2029-06-30,1128,350!2029-07-04,1132,350!2029-03-10,1046,350-->
+After {@{analyzing a sound using models}@}, we can {@{modify model data and parameters}@} before {@{re-synthesizing the sound using the model}@}. This can {@{create __sound effects__}@}. <!--SR:!fsrs,2029-12-17T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-07-10T00:00:00.000Z!2029-06-30,1128,350!2029-07-04,1132,350!2029-03-10,1046,350-->
 
 ## frequency filter
 

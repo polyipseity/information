@@ -254,7 +254,7 @@ tags:
 > 2. Cash based accounting
 > 3. Both of them would
 >
-> - solution: {@{1}@} <!--SR:!2026-07-09,461,381-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-05-17T00:00:00.000Z,2138,2137.92680333,1,2,10,0,0,2026-07-10T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

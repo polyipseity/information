@@ -775,7 +775,7 @@ Retained earnings represent cumulative profit not yet distributed as dividends; 
 
 Flashcards for this section are as follows:
 
-- retained earnings: practical meaning in dividend decisions ::@:: Cumulative profit not yet distributed; acts as an upper limit on ordinary dividends (company generally cannot declare dividends greater than _Retained earnings_). <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-07-09,62,310-->
+- retained earnings: practical meaning in dividend decisions ::@:: Cumulative profit not yet distributed; acts as an upper limit on ordinary dividends (company generally cannot declare dividends greater than _Retained earnings_). <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - reserves within equity: why transfer from retained earnings? ::@:: To earmark part of _Retained earnings_ for a specific purpose (e.g. future capital expenditure) and signal that it is not intended for ordinary dividends. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 
 ## statement of changes in equity and overall equity presentation

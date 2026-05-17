@@ -325,7 +325,7 @@ Flashcards for this section are as follows:
 - automobile 30 000 + 900 extended warranty (service-type, years 2–4)—entry at sale? ::@:: Dr _Cash_ 30 900, Cr _Sales revenue_ 30 000, Cr _Unearned warranty revenue_ 900. <!--SR:!2026-08-05,80,342!2026-08-07,82,342-->
 - service-type warranty: when is revenue recognized? ::@:: As the entity satisfies the performance obligation over the service period (in the typical example, that period begins after the assurance-type warranty has expired). <!--SR:!2026-07-19,64,310!2026-07-21,66,310-->
 - service-type warranty: entry as time passes? ::@:: Dr _Unearned warranty revenue_, Cr _Warranty revenue_ (e.g. straight-line over the service-type term). <!--SR:!2026-08-03,79,342!2026-08-08,83,342-->
-- unearned warranty revenue 900, 3-year service period—recognize 1 year—entry? ::@:: Dr _Unearned warranty revenue_ 300, Cr _Warranty revenue_ 300. <!--SR:!2026-08-08,83,342!2026-07-09,57,310-->
+- unearned warranty revenue 900, 3-year service period—recognize 1 year—entry? ::@:: Dr _Unearned warranty revenue_ 300, Cr _Warranty revenue_ 300. <!--SR:!2026-08-08,83,342!fsrs,2027-04-23T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - service-type warranty forfeiture: what happens if the customer gives up the remaining coverage early? ::@:: Release the remaining _Unearned warranty revenue_ to _Warranty revenue_ because the company no longer has an outstanding performance obligation. <!--SR:!fsrs,2027-01-03T10:59:23.178Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:59:23.178Z!fsrs,2027-01-03T09:40:01.128Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:40:01.128Z-->
 
 ## premiums and coupons (consideration payable)
@@ -442,7 +442,7 @@ Representative journal entry examples:
 > | {@{Oil platform (PPE)}@}                | {@{620 921}@} |               |
 > | {@{Environmental liability (ARO)}@}     |               | {@{620 921}@} |
 >
-> _Calculation._ PV = {@{1 000 000 ÷ (1.10^5)}@} = {@{620 921}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-08,83,342!2026-08-02,78,342!2026-07-10,58,310!2026-07-31,76,342!2026-07-09,57,310!2026-07-26,71,342!2026-07-29,74,337!2026-08-07,82,342-->
+> _Calculation._ PV = {@{1 000 000 ÷ (1.10^5)}@} = {@{620 921}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-08,83,342!2026-08-02,78,342!2026-07-10,58,310!2026-07-31,76,342!fsrs,2027-04-23T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-10T00:00:00.000Z!2026-07-26,71,342!2026-07-29,74,337!2026-08-07,82,342-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ BlueTide's capitalized ARO cost is {@{620 921}@}; useful life {@{5 years}@}; straight-line. Record year-end depreciation (for the ARO component).

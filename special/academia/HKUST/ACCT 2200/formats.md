@@ -474,7 +474,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - constrained optimization using contribution margin ::@:: column headers, row headers <!--SR:!2026-12-23,492,401!2027-02-01,525,401-->
   - constrained optimization using contribution margin / column headers ::@:: priority, \(items in decreasing priorities\) <!--SR:!2026-12-10,488,401!2026-12-10,488,401-->
-  - constrained optimization using contribution margin / row headers ::@:: contribution margin per capacity or resource, units produced, capacity or resource required per unit, total required capacity or resource, total contribution margin <!--SR:!2026-07-09,357,381!2027-01-22,517,401-->
+  - constrained optimization using contribution margin / row headers ::@:: contribution margin per capacity or resource, units produced, capacity or resource required per unit, total required capacity or resource, total contribution margin <!--SR:!fsrs,2031-03-19T00:00:00.000Z,1713,1712.73569333,1,2,9,0,0,2026-07-10T00:00:00.000Z!2027-01-22,517,401-->
   - constrained optimization using contribution margin / note ::@:: Do not multiply contribution margin per capacity or resource by units produced to get total contribution margin! Multiply it by total required capacity or resouce instead. <!--SR:!2026-11-21,473,401!2026-12-07,487,401-->
 
 ## budget

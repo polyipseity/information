@@ -153,7 +153,7 @@ The support factors also match in role. In continuous time, the causal exponenti
 
 Flashcards for this section are as follows:
 
-- What is the discrete-time unit impulse response $h[n]$? ::@:: It is the zero-state response of the system to the unit impulse input $\delta[n]$. <!--SR:!2026-07-17,62,310!2026-07-09,54,310-->
+- What is the discrete-time unit impulse response $h[n]$? ::@:: It is the zero-state response of the system to the unit impulse input $\delta[n]$. <!--SR:!2026-07-17,62,310!fsrs,2027-04-10T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - Why is discrete-time impulse response structurally important? ::@:: Because once $h[n]$ is known, zero-state outputs can be built later through convolution sums. <!--SR:!2026-08-10,69,326!2026-08-14,73,326-->
 - Worked example: For the feedforward system $y[n]=x[n]+\frac{1}{2}x[n-1]$, what is the unit impulse response? ::@:: Step 1: set the input to $x[n]=\delta[n]$. <br/> Step 2: substitute into the system equation to get $h[n]=\delta[n]+\frac{1}{2}\delta[n-1]$. <br/> Step 3: read this as one direct unit sample plus one delayed copy scaled by $1/2$. <!--SR:!2026-07-14,67,326!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
 - Why does the impulse response of $y[n]=x[n]+\frac{1}{2}x[n-1]$ have two shifted impulses? ::@:: Because the unit sample travels through a direct branch and a one-sample-delayed branch with gain $1/2$. <!--SR:!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z!2026-08-02,83,344-->
@@ -189,7 +189,7 @@ Flashcards for this section are as follows:
 - What impulse-response condition characterizes BIBO stability for a discrete-time LTI system? ::@:: The system is BIBO stable if $\sum_{n=-\infty}^{\infty}|h[n]|<\infty$. <!--SR:!2026-07-19,69,326!2026-07-26,76,344-->
 - Why does absolute summability of $h[n]$ guarantee bounded-input bounded-output stability? ::@:: Because the total absolute weight of all shifted impulse contributions is finite, so bounded inputs cannot accumulate into an unbounded output. <!--SR:!2026-07-18,68,326!2026-08-13,72,326-->
 - What convolution-sum inequality proves that absolute summability of $h[n]$ implies BIBO stability? ::@:: If $|x[m]|\le B$, then $|y[n]|=\left|\sum_m x[m]h[n-m]\right|\le B\sum_k |h[k]|$, so the output is uniformly bounded whenever the absolute sum of $h$ is finite. <!--SR:!2026-08-14,73,326!2026-07-23,67,310-->
-- For $h[n]=a^n u[n]$, why is the system automatically causal? ::@:: Because the factor $u[n]$ makes the impulse response one-sided, so it vanishes for all negative indices. <!--SR:!2026-07-09,62,310!2026-07-22,72,339-->
+- For $h[n]=a^n u[n]$, why is the system automatically causal? ::@:: Because the factor $u[n]$ makes the impulse response one-sided, so it vanishes for all negative indices. <!--SR:!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z!2026-07-22,72,339-->
 - For $h[n]=a^n u[n]$, what absolute sum determines stability? ::@:: It is $\sum_{n=-\infty}^{\infty}|h[n]|=\sum_{n=0}^{\infty}|a|^n$, which is geometric. <!--SR:!2026-08-11,70,326!2026-07-22,72,326-->
 - For $h[n]=a^n u[n]$, when is the system stable? ::@:: It is stable exactly when $|a|<1$, because only then does the geometric series of absolute values converge. <!--SR:!2026-08-24,83,344!2026-07-22,66,310-->
 
@@ -207,7 +207,7 @@ This interconnection example is useful because it combines all three structural 
 
 Flashcards for this section are as follows:
 
-- Worked example: Given the accumulator $y[n]=\sum_{k=-\infty}^{n}x[k]$, what is its unit impulse response? ::@:: Step 1: set $x[k]=\delta[k]$. <br/> Step 2: substitute into the running sum to get $h[n]=\sum_{k=-\infty}^{n}\delta[k]$. <br/> Step 3: this sum is $0$ for $n<0$ and $1$ for $n\ge 0$. <br/> Step 4: therefore $h[n]=u[n]$. <!--SR:!2026-08-16,75,326!2026-07-09,54,310-->
+- Worked example: Given the accumulator $y[n]=\sum_{k=-\infty}^{n}x[k]$, what is its unit impulse response? ::@:: Step 1: set $x[k]=\delta[k]$. <br/> Step 2: substitute into the running sum to get $h[n]=\sum_{k=-\infty}^{n}\delta[k]$. <br/> Step 3: this sum is $0$ for $n<0$ and $1$ for $n\ge 0$. <br/> Step 4: therefore $h[n]=u[n]$. <!--SR:!2026-08-16,75,326!fsrs,2027-04-10T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - Worked example: Why is the accumulator $y[n]=\sum_{k=-\infty}^{n}x[k]$ causal? ::@:: Step 1: compute the impulse response as $h[n]=u[n]$. <br/> Step 2: check negative indices: $u[n]=0$ for all $n<0$. <br/> Step 3: therefore the causality criterion is satisfied. <!--SR:!2026-07-21,65,310!2026-07-11,56,310-->
 - Worked example: Why is the accumulator $y[n]=\sum_{k=-\infty}^{n}x[k]$ not BIBO stable? ::@:: Step 1: use $h[n]=u[n]$. <br/> Step 2: test absolute summability: $\sum_{n=-\infty}^{\infty}|h[n]|=\sum_{n=0}^{\infty}1$. <br/> Step 3: the sum diverges, so the impulse response is not absolutely summable and the system is not BIBO stable. <!--SR:!2026-08-16,75,326!2026-07-15,60,310-->
 - What lesson does the accumulator example teach about causality and stability? ::@:: A system may be perfectly causal and still be unstable if its memory keeps accumulating forever without enough decay. <!--SR:!2026-08-10,69,326!2026-08-24,83,344-->

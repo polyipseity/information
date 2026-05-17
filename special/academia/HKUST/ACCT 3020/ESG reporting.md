@@ -25,7 +25,7 @@ The course focuses on understanding what ESG is, why it matters for risk and val
 Flashcards for this section are as follows:
 
 - ESG: what the letters stand for ::@:: Environmental, social, and governance. <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-13,63,310-->
-- ESG: examples of environmental issues ::@:: Greenhouse gas emissions, energy consumption and efficiency, waste reduction and recycling, and climate-change strategies. <!--SR:!2026-07-09,59,310!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
+- ESG: examples of environmental issues ::@:: Greenhouse gas emissions, energy consumption and efficiency, waste reduction and recycling, and climate-change strategies. <!--SR:!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
 - ESG: examples of social issues ::@:: Fair wages, employee benefits, occupational safety and health, training and development, diversity and inclusion, and community impact. <!--SR:!2026-07-12,62,310!2026-07-15,65,310-->
 - ESG: examples of governance issues ::@:: Board structure and oversight, internal control and risk management, anti–corruption and anti–bribery policies and procedures. <!--SR:!2026-07-14,64,310!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - ESG in this course: main focus ::@:: Understand what ESG means, why it affects risk and valuation, and how it is reported and regulated in Hong Kong, rather than computing detailed emission factors. <!--SR:!2026-07-12,62,310!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
@@ -72,7 +72,7 @@ Flashcards for this section are as follows:
 
 - ESG: environmental reasons it matters ::@:: Climate change and extreme weather create physical risks for companies' assets and operations (e.g. typhoons, flooding, heatwaves). <!--SR:!2026-07-14,64,310!2026-07-11,61,310-->
 - ESG: social reasons it matters ::@:: Demographic change (e.g. ageing workforce) and workplace safety issues affect labour supply, productivity, and potential legal liabilities. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-13,63,310-->
-- ESG: governance reasons it matters ::@:: Weak governance and corruption/bribery scandals can lead to prosecution, fines, and long‑term reputational damage that hurts firm value. <!--SR:!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-09,59,310-->
+- ESG: governance reasons it matters ::@:: Weak governance and corruption/bribery scandals can lead to prosecution, fines, and long‑term reputational damage that hurts firm value. <!--SR:!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - ESG and investors ::@:: Many investors use ESG scores or ratings; poor ESG performance can increase a firm's cost of capital or lead to exclusion from certain portfolios. <!--SR:!2026-07-17,67,310!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
 
 ## types of ESG risk
@@ -88,7 +88,7 @@ The course highlights four broad categories of ESG‑related risk:
 
 Flashcards for this section are as follows:
 
-- ESG risk: reputation risk ::@:: Risk that repeated ESG failures (e.g. pollution, labour abuses, corruption) damage the firm's reputation, causing customers and investors to withdraw support. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-09,59,310-->
+- ESG risk: reputation risk ::@:: Risk that repeated ESG failures (e.g. pollution, labour abuses, corruption) damage the firm's reputation, causing customers and investors to withdraw support. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - ESG risk: regulatory/reporting risk ::@:: Risk of fines or enforcement actions if ESG disclosures are incomplete, misleading, or inconsistent with actual practices (greenwashing). <!--SR:!2026-07-17,67,310!2026-07-10,60,310-->
 - ESG risk: physical risk ::@:: Risk that climate‑related events such as storms, flooding, or heatwaves physically damage assets or disrupt operations. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - ESG risk: transition risk ::@:: Risk that, as regulation and markets move towards low‑carbon and sustainable models, certain assets or technologies lose value (e.g. become impaired or stranded). <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-01-02T00:00:00.000Z,196,195.52879015,1.98030797,2,6,0,0,2026-06-20T00:00:00.000Z-->

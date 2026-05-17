@@ -449,7 +449,7 @@ Representative journal entry example:
 
 Flashcards for this section are as follows:
 
-- zero-interest-bearing note ::@:: Note with no periodic interest payments; borrower receives less than face value and repays full face value at maturity; the difference is a discount. <!--SR:!fsrs,2026-12-19T05:53:53.535Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:53:53.535Z!2026-07-09,54,310-->
+- zero-interest-bearing note ::@:: Note with no periodic interest payments; borrower receives less than face value and repays full face value at maturity; the difference is a discount. <!--SR:!fsrs,2026-12-19T05:53:53.535Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:53:53.535Z!fsrs,2027-04-10T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - implicit interest rate (note) ::@:: The discount rate that equates the maturity amount to the cash received (present value); used to compute interest expense on a zero-interest-bearing or implicit-interest note. <!--SR:!fsrs,2026-12-12T08:30:43.583Z,182,182.36945546,1,2,5,0,0,2026-06-13T08:30:43.583Z!2026-07-11,56,310-->
 - interest on zero-interest-bearing note: how recognized? ::@:: As discount amortization using the implicit interest rate; no separate cash interest payments during the term. <!--SR:!fsrs,2026-12-12T05:32:22.906Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:32:22.906Z!fsrs,2026-12-19T08:31:54.057Z,189,188.98342759,1,2,5,0,0,2026-06-13T08:31:54.057Z-->
 - zero-interest-bearing note: issuance entry? ::@:: Dr _Cash_ (present value received), Cr _Notes payable_ (present value); no separate discount account under net method. <!--SR:!fsrs,2026-11-24T05:31:45.985Z,164,164.35174153,1.12978518,2,5,0,0,2026-06-13T05:31:45.985Z!fsrs,2026-12-12T05:00:36.814Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:00:36.814Z-->

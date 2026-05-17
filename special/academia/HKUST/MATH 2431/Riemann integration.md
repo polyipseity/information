@@ -18,7 +18,7 @@ In this course the point is not to rebuild real analysis from scratch, but to ke
 
 Flashcards for this section are as follows:
 
-- overview ::@:: In this course, Riemann integration is the one-dimensional integration framework used to justify probability densities, interval probabilities, and improper integrals over tails or near singular endpoints. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-09,59,310-->
+- overview ::@:: In this course, Riemann integration is the one-dimensional integration framework used to justify probability densities, interval probabilities, and improper integrals over tails or near singular endpoints. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ## Riemann sums and integrability
@@ -36,10 +36,10 @@ This language is exactly what lies behind the density viewpoint in probability. 
 Flashcards for this section are as follows:
 
 - partition of $[a,b]$ ::@:: A partition of $[a,b]$ is a finite ordered tuple $Z_n=(x_0,\ldots,x_n)$ with $a=x_0<x_1<\cdots<x_n=b$. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-07-13,63,310-->
-- norm of a partition $Z_n$ ::@:: The norm of a partition $Z_n$ is $|Z_n|=\max_{1\le j\le n}(x_j-x_{j-1})$; it measures the largest subinterval length. <!--SR:!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-09,62,310-->
-- lower Riemann sum for $f$ on intervals $I_j=[x_{j-1},x_j]$ ::@:: The lower Riemann sum is $S_-(Z_n,f)=\sum_{j=1}^n (x_j-x_{j-1})\inf_{z\in I_j}f(z)$. <!--SR:!2026-07-09,59,310!2026-07-13,63,310-->
+- norm of a partition $Z_n$ ::@:: The norm of a partition $Z_n$ is $|Z_n|=\max_{1\le j\le n}(x_j-x_{j-1})$; it measures the largest subinterval length. <!--SR:!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
+- lower Riemann sum for $f$ on intervals $I_j=[x_{j-1},x_j]$ ::@:: The lower Riemann sum is $S_-(Z_n,f)=\sum_{j=1}^n (x_j-x_{j-1})\inf_{z\in I_j}f(z)$. <!--SR:!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z!2026-07-13,63,310-->
 - upper Riemann sum for $f$ on intervals $I_j=[x_{j-1},x_j]$ ::@:: The upper Riemann sum is $S_+(Z_n,f)=\sum_{j=1}^n (x_j-x_{j-1})\sup_{z\in I_j}f(z)$. <!--SR:!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-10,63,310-->
-- Riemann-integrability on $[a,b]$ ::@:: A bounded function on $[a,b]$ is Riemann-integrable when the supremum of all lower sums equals the infimum of all upper sums; the common value is $\int_a^b f(x)\,dx$. <!--SR:!2026-07-17,67,310!2026-07-09,59,310-->
+- Riemann-integrability on $[a,b]$ ::@:: A bounded function on $[a,b]$ is Riemann-integrable when the supremum of all lower sums equals the infimum of all upper sums; the common value is $\int_a^b f(x)\,dx$. <!--SR:!2026-07-17,67,310!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - why Riemann sums justify interval probabilities of width $\Delta x$ ::@:: The density heuristic "probability on a small interval is approximately density times width" becomes rigorous by passing from fine interval sums to the Riemann integral. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!2026-07-12,62,310-->
 
 ## continuous functions are Riemann-integrable
@@ -61,11 +61,11 @@ For MATH 2431 this is the bridge that justifies routine integral manipulations f
 Flashcards for this section are as follows:
 
 - continuous functions on a compact interval $[a,b]$ ::@:: Every continuous function on a compact interval $[a,b]$ is Riemann-integrable. <!--SR:!fsrs,2027-01-19T00:00:00.000Z,212,212.12111008,1.98030797,2,6,0,0,2026-06-21T00:00:00.000Z!2026-07-10,60,310-->
-- why continuity on $[a,b]$ implies boundedness ::@:: A continuous function on the compact interval $[a,b]$ is bounded, so its lower and upper Riemann sums are well defined. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-09,62,310-->
+- why continuity on $[a,b]$ implies boundedness ::@:: A continuous function on the compact interval $[a,b]$ is bounded, so its lower and upper Riemann sums are well defined. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - oscillation on a subinterval $I_j=[x_{j-1},x_j]$ ::@:: In the proof, one measures variation on each subinterval by $\omega_j(f)=\sup_{x\in I_j}f(x)-\inf_{x\in I_j}f(x)$. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-12,65,310-->
 - proof idea for continuous functions on equal-mesh partitions ::@:: On a compact interval, continuity implies uniform continuity, so once the mesh is small, every oscillation $\omega_j(f)$ is small; since $S_+(Z_n,f)-S_-(Z_n,f)=\sum_j (x_j-x_{j-1})\omega_j(f)$, the gap between upper and lower sums becomes arbitrarily small. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-13,66,310!2026-07-12,62,310-->
 - why uniform continuity is the key extra input to Riemann integrability ::@:: The estimate for Riemann integrability needs all oscillations $\omega_j(f)$ to be small at the same time so that $S_+(Z_n,f)-S_-(Z_n,f)$ becomes small. Ordinary continuity controls $f$ near one point at a time, but uniform continuity supplies one single $\delta$ that works on every subinterval simultaneously once the mesh is below $\delta$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-11,61,310-->
-- why $S_+(Z_n,f)-S_-(Z_n,f)\to0$ forces equal integrals ::@:: If the gap $S_+(Z_n,f)-S_-(Z_n,f)$ can be made arbitrarily small, then the upper integral minus the lower integral is squeezed between $0$ and that same small quantity, so the two integrals must be equal. <!--SR:!2026-07-09,62,310!2026-07-13,63,310-->
+- why $S_+(Z_n,f)-S_-(Z_n,f)\to0$ forces equal integrals ::@:: If the gap $S_+(Z_n,f)-S_-(Z_n,f)$ can be made arbitrarily small, then the upper integral minus the lower integral is squeezed between $0$ and that same small quantity, so the two integrals must be equal. <!--SR:!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z!2026-07-13,63,310-->
 
 ## fundamental theorem of calculus
 

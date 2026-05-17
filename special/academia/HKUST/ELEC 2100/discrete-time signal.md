@@ -113,7 +113,7 @@ Flashcards for this section are as follows:
 - What is the discrete-time unit step sequence? ::@:: It is $u[n]=1$ for $n\ge 0$ and $u[n]=0$ for $n<0$. <!--SR:!2026-08-07,67,310!2026-08-04,64,310-->
 - How can the discrete-time unit step be written as a sum of unit samples? ::@:: It can be written as $u[n]=\sum_{k=0}^{\infty}\delta[n-k]$. <!--SR:!2026-07-16,62,310!2026-08-06,66,310-->
 - What is the relation between the unit sample and the unit step in discrete time? ::@:: They satisfy $\delta[n]=u[n]-u[n-1]$. <!--SR:!2026-07-13,60,310!2026-07-17,46,290-->
-- What is a rectangular sequence of length $N$, including its endpoint convention? ::@:: It is $R_N[n]=1$ for $0\le n\le N-1$ and $0$ otherwise, so $n=0$ is included and $n=N$ is excluded. <!--SR:!2026-08-05,65,310!2026-07-09,56,310-->
+- What is a rectangular sequence of length $N$, including its endpoint convention? ::@:: It is $R_N[n]=1$ for $0\le n\le N-1$ and $0$ otherwise, so $n=0$ is included and $n=N$ is excluded. <!--SR:!2026-08-05,65,310!fsrs,2027-04-19T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - How can the rectangular sequence be written using unit steps? ::@:: It can be written as $R_N[n]=u[n]-u[n-N]$. <!--SR:!2026-08-03,63,310!2026-07-19,65,310-->
 - How can the rectangular sequence be written using unit samples? ::@:: It can be written as $R_N[n]=\sum_{k=0}^{N-1}\delta[n-k]$. <!--SR:!2026-08-03,63,310!2026-08-03,63,310-->
 - Why is the endpoint convention of $R_N[n]=u[n]-u[n-N]$ easy to misread? ::@:: Because the step form shows switch-on at $n=0$ and switch-off starting at $n=N$, so the support includes $0$ through $N-1$ but excludes $N$. <!--SR:!2026-07-20,66,310!2026-08-04,64,310-->
