@@ -151,7 +151,7 @@ If {@{_φ_ is a scalar valued function and __F__ is a vector field}@}, then {@{$
 
 ## generalizations
 
-{@{The vector calculus operations of [grad](gradient.md), curl, and [div](divergence.md)}@} are {@{most easily generalized in the context of differential forms}@}, which involves {@{a number of steps}@}. In short, they correspond to {@{the derivatives of 0-forms, 1-forms, and 2-forms, respectively}@}. {@{The geometric interpretation of curl as rotation}@} corresponds to {@{identifying [bivectors](bivector.md) \(2-vectors\) in 3 dimensions}@} with {@{the [special orthogonal Lie algebra](special%20orthogonal%20Lie%20algebra.md#Lie%20algebra) ${\mathfrak {so} }(3)$ of infinitesimal rotations}@} \(in coordinates, {@{skew-symmetric 3 × 3 matrices}@}\), while representing {@{rotations by vectors}@} corresponds to {@{identifying 1-vectors \(equivalently, 2-vectors\) and ${\mathfrak {so} }(3)$}@}, these {@{all being 3-dimensional spaces}@}. <!--SR:!2026-07-27,299,342!2026-10-26,377,374!2026-10-09,360,362!2026-09-20,345,362!2026-10-31,379,362!2026-07-29,298,342!2026-10-12,363,362!2026-07-25,297,342!2026-10-25,374,362!2026-12-23,425,374!2026-10-18,370,374-->
+{@{The vector calculus operations of [grad](gradient.md), curl, and [div](divergence.md)}@} are {@{most easily generalized in the context of differential forms}@}, which involves {@{a number of steps}@}. In short, they correspond to {@{the derivatives of 0-forms, 1-forms, and 2-forms, respectively}@}. {@{The geometric interpretation of curl as rotation}@} corresponds to {@{identifying [bivectors](bivector.md) \(2-vectors\) in 3 dimensions}@} with {@{the [special orthogonal Lie algebra](special%20orthogonal%20Lie%20algebra.md#Lie%20algebra) ${\mathfrak {so} }(3)$ of infinitesimal rotations}@} \(in coordinates, {@{skew-symmetric 3 × 3 matrices}@}\), while representing {@{rotations by vectors}@} corresponds to {@{identifying 1-vectors \(equivalently, 2-vectors\) and ${\mathfrak {so} }(3)$}@}, these {@{all being 3-dimensional spaces}@}. <!--SR:!2026-07-27,299,342!2026-10-26,377,374!2026-10-09,360,362!2026-09-20,345,362!2026-10-31,379,362!2026-07-29,298,342!2026-10-12,363,362!fsrs,2030-03-25T00:00:00.000Z,1338,1338.29693509,1,2,9,0,0,2026-07-26T00:00:00.000Z!2026-10-25,374,362!2026-12-23,425,374!2026-10-18,370,374-->
 
 ### differential forms
 
@@ -173,8 +173,8 @@ Thus, denoting {@{the space of _k_-forms by $\Omega ^{k}(\mathbb {R} ^{3})$}@} a
 Thus, identifying {@{0-forms and 3-forms with scalar fields}@}, and {@{1-forms and 2-forms with vector fields}@}: <!--SR:!2026-10-25,374,362!2026-07-30,299,342-->
 
 - grad takes ::@:: a scalar field \(0-form\) to a vector field \(1-form\); <!--SR:!2026-11-23,400,374!2026-12-17,420,374-->
-- curl takes ::@:: a vector field \(1-form\) to a pseudovector field \(2-form\); <!--SR:!2026-07-26,298,342!2026-07-25,297,342-->
-- div takes ::@:: a pseudovector field \(2-form\) to a pseudoscalar field \(3-form\) <!--SR:!2026-07-25,294,342!2026-12-08,412,374-->
+- curl takes ::@:: a vector field \(1-form\) to a pseudovector field \(2-form\); <!--SR:!2026-07-26,298,342!fsrs,2030-03-25T00:00:00.000Z,1338,1338.29693509,1,2,9,0,0,2026-07-26T00:00:00.000Z-->
+- div takes ::@:: a pseudovector field \(2-form\) to a pseudoscalar field \(3-form\) <!--SR:!fsrs,2030-03-14T00:00:00.000Z,1327,1326.54889029,1,2,9,0,0,2026-07-26T00:00:00.000Z!2026-12-08,412,374-->
 
 On {@{the other hand}@}, the fact that {@{_d_<sup>2</sup> = 0}@} corresponds to the identities {@{$$\nabla \times (\nabla f)=\mathbf {0}$$ for any scalar field _f_}@}, and {@{$$\nabla \cdot (\nabla \times \mathbf {v} )=0$$ for any vector field __v__}@}. <!--SR:!2026-11-21,398,374!2026-10-19,371,374!2026-11-01,379,362!2026-11-17,393,362-->
 

@@ -499,7 +499,7 @@ Flashcards for this section are as follows:
 
 - asset retirement obligation (ARO) / decommissioning provision ::@:: Provision for dismantling/removing/restoring an asset site at end of useful life; recognized when obligation arises from constructing/installing the asset. <!--SR:!fsrs,2027-07-23T00:00:00.000Z,366,366.22557375,1,2,7,0,0,2026-07-22T00:00:00.000Z!2026-08-03,79,342-->
 - ARO initial measurement ::@:: Best-estimate future cash outflow discounted to present value (use expected value if probabilities are given). <!--SR:!2026-08-05,80,342!2026-07-26,71,342-->
-- ARO initial recognition: why record an asset? ::@:: Because the obligation is necessary to operate the asset and generates future benefits over its useful life; allocate via depreciation, not immediate expense. <!--SR:!2026-07-25,70,335!2026-08-08,83,342-->
+- ARO initial recognition: why record an asset? ::@:: Because the obligation is necessary to operate the asset and generates future benefits over its useful life; allocate via depreciation, not immediate expense. <!--SR:!fsrs,2027-08-05T00:00:00.000Z,375,375.42777546,1,2,7,0,0,2026-07-26T00:00:00.000Z!2026-08-08,83,342-->
 - ARO subsequent accounting ::@:: Depreciate the capitalized ARO cost over useful life; increase the liability via interest expense so it accretes to the expected settlement amount. <!--SR:!2026-07-28,73,342!2026-07-30,75,342-->
 - asset retirement obligation (ARO): initial recognition entry? ::@:: Recognize liability at PV and capitalize same amount in _PPE_ (Dr _PPE_; Cr _Environmental liability_ (ARO)). <!--SR:!2026-08-08,83,342!fsrs,2027-07-26T00:00:00.000Z,369,368.80018302,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - ARO: why record an asset at initial recognition? ::@:: Because the dismantling/restoration obligation is necessary to operate the asset and provides future benefits; allocate via depreciation over useful life. <!--SR:!2026-07-26,71,342!2026-08-05,80,342-->
@@ -562,7 +562,7 @@ Representative journal entry examples:
 > | {@{Loss on onerous contract}@}             | {@{200 000}@} |               |
 > | {@{Onerous contract liability}@}           |               | {@{200 000}@} |
 >
-> _Calculation._ Required provision = {@{200&nbsp;000}@} because the contract must still be fulfilled and there is {@{no cheaper exit option}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-01,77,342!2026-07-30,75,342!2026-07-25,70,337!2026-07-27,72,342!fsrs,2027-01-03T09:57:27.912Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:57:27.912Z!fsrs,2027-01-03T09:39:11.324Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:39:11.324Z-->
+> _Calculation._ Required provision = {@{200&nbsp;000}@} because the contract must still be fulfilled and there is {@{no cheaper exit option}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-01,77,342!2026-07-30,75,342!fsrs,2027-08-08T00:00:00.000Z,378,378.06456201,1,2,7,0,0,2026-07-26T00:00:00.000Z!2026-07-27,72,342!fsrs,2027-01-03T09:57:27.912Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:57:27.912Z!fsrs,2027-01-03T09:39:11.324Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:39:11.324Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -605,7 +605,7 @@ Representative journal entry example:
 > | {@{Restructuring expense}@}             | {@{500 000}@} |               |
 > | {@{Restructuring liability}@}           |               | {@{500 000}@} |
 >
-> _Explanation._ The provision includes only {@{direct, traceable exit costs that become unavoidable once the restructuring plan creates a present obligation}@}. Costs such as {@{training, relocation of retained staff, marketing, or new systems for the new setup}@} are excluded because they are {@{costs of the future project / future operations, not costs of exiting the old structure}@}. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-06-07T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-21T00:00:00.000Z!2026-08-01,77,342!fsrs,2027-06-18T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-08-02,78,342!2026-07-27,72,326!2026-07-25,70,342!fsrs,2026-12-30T09:43:32.597Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:43:32.597Z!fsrs,2026-12-30T09:42:35.245Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:42:35.245Z!fsrs,2027-01-03T10:54:53.685Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:54:53.685Z-->
+> _Explanation._ The provision includes only {@{direct, traceable exit costs that become unavoidable once the restructuring plan creates a present obligation}@}. Costs such as {@{training, relocation of retained staff, marketing, or new systems for the new setup}@} are excluded because they are {@{costs of the future project / future operations, not costs of exiting the old structure}@}. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-06-07T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-21T00:00:00.000Z!2026-08-01,77,342!fsrs,2027-06-18T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-08-02,78,342!2026-07-27,72,326!fsrs,2027-08-15T00:00:00.000Z,385,384.65652839,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2026-12-30T09:43:32.597Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:43:32.597Z!fsrs,2026-12-30T09:42:35.245Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:42:35.245Z!fsrs,2027-01-03T10:54:53.685Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:54:53.685Z-->
 
 ---
 

@@ -151,7 +151,7 @@ The following table lists out transformation from other [indeterminate forms](in
 - $\frac00$:@:$\lim_{x\to{c} }\frac{f(x)}{g(x)}=\lim_{x\to{c} }\frac{1/g(x)}{1/f(x)}$ <!--SR:!2027-03-13,932,350-->
 - $0\cdot\infty$:@:$\lim_{x\to{c} }f(x)g(x)=\lim_{x\to{c} }\frac{g(x)}{1/f(x)}$ <!--SR:!2027-10-31,1111,350-->
 - $\infty-\infty$:@:$\lim_{x\to{c} }(f(x)-g(x))=\ln\lim_{x\to{c} }\frac{e^{f(x)} }{e^{g(x)} }$ <!--SR:!2028-06-09,1287,350-->
-- $0^0$:@:$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$ <!--SR:!2026-07-25,728,330-->
+- $0^0$:@:$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$ <!--SR:!fsrs,2034-04-08T00:00:00.000Z,2813,2812.77203471,1,2,11,0,0,2026-07-26T00:00:00.000Z-->
 - $1^\infty$:@:$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{g(x)}{1/\ln{f(x)} }$ <!--SR:!2028-02-03,1188,350-->
 - $\infty^0$:@:$\lim_{x\to{c} }f(x)^{g(x)}=\exp\lim_{x\to{c} }\frac{\ln{f(x)} }{1/g(x)}$ <!--SR:!2027-04-20,888,330-->
 

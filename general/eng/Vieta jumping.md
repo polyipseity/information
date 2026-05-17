@@ -50,7 +50,7 @@ The method of {@{__constant descent Vieta jumping__}@} is used when we wish to p
 
 1. (annotation: equality case) ::@:: The equality case is proven so that it may be assumed that _a_ \> _b_. <!--SR:!2027-01-15,260,330!2026-12-16,253,330-->
 2. (annotation: quadratic) ::@:: _b_ and _k_ are fixed and the expression relating _a_, _b_, and _k_ is rearranged to form a quadratic with coefficients in terms of _b_ and _k_, one of whose roots is _a_. The other root, _x_<sub>2</sub> is determined using Vieta's formulas. <!--SR:!2027-02-14,290,330!2027-02-15,291,330-->
-3. (annotation: smaller root) ::@:: For all \(_a_, _b_\) above a certain base case, show that 0 \< _x_<sub>2</sub> \< _b_ \< _a_ and that _x_<sub>2</sub> is an integer. Thus, while maintaining the same _k_, we may replace \(_a_, _b_\) with \(_b_, _x_<sub>2</sub>\) and repeat this process until we arrive at the base case. <!--SR:!2027-02-02,278,330!2026-07-25,128,290-->
+3. (annotation: smaller root) ::@:: For all \(_a_, _b_\) above a certain base case, show that 0 \< _x_<sub>2</sub> \< _b_ \< _a_ and that _x_<sub>2</sub> is an integer. Thus, while maintaining the same _k_, we may replace \(_a_, _b_\) with \(_b_, _x_<sub>2</sub>\) and repeat this process until we arrive at the base case. <!--SR:!2027-02-02,278,330!fsrs,2028-01-10T00:00:00.000Z,533,533.11055153,1.98030797,2,8,0,0,2026-07-26T00:00:00.000Z-->
 4. (annotation: base case) ::@:: Prove the statement for the base case, and as _k_ has remained constant through this process, this is sufficient to prove the statement for all ordered pairs. <!--SR:!2026-11-19,231,330!2026-11-20,232,330-->
 
 __Example__

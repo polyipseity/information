@@ -6,7 +6,7 @@ tags:
 
 # Rutherford model
 
-The __{@{Rutherford}@} model__ is {@{a historical scientific model of the [atom](atom.md)}@}. The model has {@{[electrons](electron.md) orbiting around a tiny and heavy central positive charge called the "[nucleus](nucleus.md)"}@}. It was first proposed by {@{[Ernest Rutherford](Ernest%20Rutherford.md) in 1911}@}. <!--SR:!2027-07-15,1305,350!2037-03-03,4048,355!2026-07-25,775,235!2026-12-19,1096,315-->
+The __{@{Rutherford}@} model__ is {@{a historical scientific model of the [atom](atom.md)}@}. The model has {@{[electrons](electron.md) orbiting around a tiny and heavy central positive charge called the "[nucleus](nucleus.md)"}@}. It was first proposed by {@{[Ernest Rutherford](Ernest%20Rutherford.md) in 1911}@}. <!--SR:!2027-07-15,1305,350!2037-03-03,4048,355!fsrs,2032-03-07T00:00:00.000Z,2051,2050.74737164,4.73199936,2,11,0,0,2026-07-26T00:00:00.000Z!2026-12-19,1096,315-->
 
 ## problems
 
