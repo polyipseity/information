@@ -54,7 +54,7 @@ return await memorize_seq(
 
 ### empathize
 
-Empathy is {@{the foundation of human-centered design}@}. To empathize: {@{observe, view users and their behaviors in their lives; engage, interact and interview users in scheduled or short intercept counters; and immerse, experience in users' shoes for some time}@}. <!--SR:!2026-07-21,616,310!2027-03-14,647,250-->
+Empathy is {@{the foundation of human-centered design}@}. To empathize: {@{observe, view users and their behaviors in their lives; engage, interact and interview users in scheduled or short intercept counters; and immerse, experience in users' shoes for some time}@}. <!--SR:!fsrs,2032-10-08T00:00:00.000Z,2270,2270.07436973,1,2,10,0,0,2026-07-22T00:00:00.000Z!2027-03-14,647,250-->
 
 ### define
 

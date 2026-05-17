@@ -189,7 +189,7 @@ Flashcards for this section are as follows:
 - why ordinary vector projection divides by $a^\top a$ ::@:: The denominator $a^\top a=\|a\|_2^2$ corrects for the length of $a$, so the projection coefficient measures direction alignment rather than raw scale. <!--SR:!2026-08-11,86,353!2026-07-29,74,324-->
 - projection intuition for least squares ::@:: Least squares chooses $Xw$ as the orthogonal projection of $y$ onto the column space $\operatorname{col}(X)$. <!--SR:!2026-08-06,86,353!2026-08-06,81,341-->
 - projection matrix for full-column-rank linear regression ::@:: If the columns of $X$ are linearly independent, the projection of $y$ onto $\operatorname{col}(X)$ is $X(X^\top X)^{-1}X^\top y$. <!--SR:!2026-08-06,86,353!2026-08-02,82,341-->
-- why $(X^\top X)^{-1}$ appears in the projection formula ::@:: The factor $X^\top y$ gives raw inner products with the columns of $X$, and $(X^\top X)^{-1}$ corrects for nonunit lengths and nonorthogonality among those columns. <!--SR:!2026-08-01,81,341!2026-07-21,70,324-->
+- why $(X^\top X)^{-1}$ appears in the projection formula ::@:: The factor $X^\top y$ gives raw inner products with the columns of $X$, and $(X^\top X)^{-1}$ corrects for nonunit lengths and nonorthogonality among those columns. <!--SR:!2026-08-01,81,341!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - orthonormal-column special case ::@:: If the columns of $X$ are orthonormal, then $X^\top X=I$, so the projection simplifies to $XX^\top y$. <!--SR:!2026-08-11,86,353!2026-08-31,93,363-->
 - why projection is a good memory aid ::@:: The projection viewpoint says linear regression finds the closest vector to $y$ among all vectors that can be written as $Xw$. <!--SR:!2026-08-03,83,341!2026-08-03,78,341-->
 - when $X^\top X$ is singular ::@:: $X^\top X$ is singular when the columns of $X$ are linearly dependent, so the inverse formula cannot be used directly. <!--SR:!2026-08-03,83,353!2026-08-05,81,353-->
@@ -309,7 +309,7 @@ Flashcards for this section are as follows:
 
 - underfitting ::@:: Underfitting occurs when model capacity is too small, so both training and held-out error remain high because the model cannot represent the main signal. <!--SR:!2026-08-01,81,341!2026-08-06,81,341-->
 - overfitting ::@:: Overfitting occurs when capacity is too large, so training error can keep decreasing while held-out error worsens due to fitting sample-specific noise. <!--SR:!2026-08-14,93,363!2026-08-05,85,353-->
-- why the test-error curve is often U-shaped ::@:: As capacity increases, test error often falls first (better signal fit) and later rises (greater sensitivity to noise), producing a U-shaped curve. <!--SR:!2026-08-04,84,353!2026-07-21,70,324-->
+- why the test-error curve is often U-shaped ::@:: As capacity increases, test error often falls first (better signal fit) and later rises (greater sensitivity to noise), producing a U-shaped curve. <!--SR:!2026-08-04,84,353!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - bias-variance preview from the capacity curve ::@:: The underfitting-to-overfitting transition is an early manifestation of the bias-variance tradeoff discussed in later lectures. <!--SR:!2026-08-01,81,341!2026-08-05,80,341-->
 
 ### training error, test error, and the capacity curve
@@ -338,7 +338,7 @@ This example is a useful mental check for all later deep-learning lectures. When
 
 Flashcards for this section are as follows:
 
-- degree 14 versus degree 20 lesson ::@:: The degree-$20$ polynomial has more room to wiggle between training points than the degree-$14$ model, so it can reduce training MSE further by fitting sample-specific noise. <!--SR:!2026-07-21,70,324!2026-07-21,70,324-->
+- degree 14 versus degree 20 lesson ::@:: The degree-$20$ polynomial has more room to wiggle between training points than the degree-$14$ model, so it can reduce training MSE further by fitting sample-specific noise. <!--SR:!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - why the degree 14 model can still win ::@:: A degree-$14$ model can have slightly higher training error yet lower future error if it captures the broad trend while the degree-$20$ model overreacts to noise. <!--SR:!2026-07-29,74,324!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 
 ## validation, cross-validation, and hyperparameter tuning
@@ -565,7 +565,7 @@ Flashcards for this section are as follows:
 - conditional distribution of $y$ ::@:: Under the Gaussian-noise assumption, the conditional response model is $p(y\mid x,\theta) = \mathrm{N}(y\mid \mu(x),\sigma^2)$ with $\mu(x)=w^\top x$. <!--SR:!2026-07-26,71,324!2026-08-04,79,341-->
 - point prediction from the probabilistic model ::@:: The point estimate in probabilistic linear regression is the Gaussian mean $\hat y = \mu(x)=w^\top x$. <!--SR:!2026-08-11,86,353!2026-08-11,86,353-->
 - how random variables are used in the regression model ::@:: The probabilistic model describes the population-level relation between random input $X$ and random output $Y$ by specifying the conditional distribution of $Y$ given $X=x$. <!--SR:!2026-07-29,74,324!2026-08-30,92,362-->
-- probabilistic objective in linear regression ::@:: In probabilistic linear regression, the parameters are chosen to maximize the conditional likelihood of the observed outputs, or equivalently to minimize average negative log-likelihood. <!--SR:!2026-08-05,85,353!2026-07-21,70,324-->
+- probabilistic objective in linear regression ::@:: In probabilistic linear regression, the parameters are chosen to maximize the conditional likelihood of the observed outputs, or equivalently to minimize average negative log-likelihood. <!--SR:!2026-08-05,85,353!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 
 ### likelihood objective and maximum likelihood
 
@@ -577,7 +577,7 @@ Minimizing the average negative log-likelihood is the same optimization problem 
 
 Flashcards for this section are as follows:
 
-- likelihood of the regression dataset ::@:: Under conditional independence, the likelihood is $\mathcal{L}(\theta)=\prod_{i=1}^N p(y_i\mid x_i,\theta)$. <!--SR:!2026-07-21,70,324!2026-08-05,85,353-->
+- likelihood of the regression dataset ::@:: Under conditional independence, the likelihood is $\mathcal{L}(\theta)=\prod_{i=1}^N p(y_i\mid x_i,\theta)$. <!--SR:!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z!2026-08-05,85,353-->
 - maximum likelihood in words ::@:: Maximum likelihood chooses the parameters that make the observed outputs most plausible under the assumed probabilistic model. <!--SR:!2026-08-04,84,353!2026-08-29,91,362-->
 - why use log-likelihood ::@:: Log-likelihood turns a product of conditional densities into a sum, which is easier to optimize and analyze. <!--SR:!2026-08-04,84,353!2026-08-30,92,363-->
 - why negative log-likelihood is minimized ::@:: Minimizing negative log-likelihood is equivalent to maximizing likelihood, but it matches the usual loss-minimization language of machine learning. <!--SR:!fsrs,2027-06-26T00:00:00.000Z,343,343.17170448,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-06-26T00:00:00.000Z,343,343.17170448,1,2,7,0,0,2026-07-18T00:00:00.000Z-->

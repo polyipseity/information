@@ -147,7 +147,7 @@ return (
 > iodides
 >
 > - general solubility: {@{<span style="color: green;">soluble</span>}@}
-> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, Hg<sub>2</sub><sup>2+</sup>, and Hg<sup>2+</sup> compounds}@} <!--SR:!2026-07-21,1056,262!2029-02-01,1060,210-->
+> - exception(s): {@{Ag<sup>+</sup>, Pb<sup>2+</sup>, Cu<sup>+</sup>, Hg<sub>2</sub><sup>2+</sup>, and Hg<sup>2+</sup> compounds}@} <!--SR:!fsrs,2034-11-22T00:00:00.000Z,3045,3045.04952705,3.38116904,2,11,0,0,2026-07-22T00:00:00.000Z!2029-02-01,1060,210-->
 
 <!-- markdownlint MD028 -->
 

@@ -10,7 +10,7 @@ tags:
 
 # Nim
 
-- This article is about {@{the mathematical game of strategy}@}. For {@{the programming language}@}, see {@{[Nim (programming language)](Nim%20(programming%20language).md)}@}. For {@{other uses}@}, see {@{[Nim (disambiguation)](NIM.md)}@}. <!--SR:!2029-08-10,1381,361!2026-07-22,137,415!fsrs,2028-07-24T00:00:00.000Z,735,735.10222202,1,2,8,0,0,2026-07-20T00:00:00.000Z!fsrs,2028-07-18T00:00:00.000Z,730,730.38507953,1,2,8,0,0,2026-07-19T00:00:00.000Z!2026-07-21,136,415-->
+- This article is about {@{the mathematical game of strategy}@}. For {@{the programming language}@}, see {@{[Nim (programming language)](Nim%20(programming%20language).md)}@}. For {@{other uses}@}, see {@{[Nim (disambiguation)](NIM.md)}@}. <!--SR:!2029-08-10,1381,361!2026-07-22,137,415!fsrs,2028-07-24T00:00:00.000Z,735,735.10222202,1,2,8,0,0,2026-07-20T00:00:00.000Z!fsrs,2028-07-18T00:00:00.000Z,730,730.38507953,1,2,8,0,0,2026-07-19T00:00:00.000Z!fsrs,2028-08-05T00:00:00.000Z,745,744.52265934,1,2,8,0,0,2026-07-22T00:00:00.000Z-->
 
 __Nim__ is {@{a [mathematical](mathematical%20game.md) [game of strategy](strategy%20game.md) in which two players take turns removing (or "nimming") objects from distinct heaps or piles}@}. On each turn, {@{a player must remove at least one object}@}, and may {@{remove any number of objects provided they all come from the same heap or pile}@}. Depending on the version being played, the goal of the game is {@{either to avoid taking the last object or to take the last object}@}. <!--SR:!2027-11-19,788,321!2028-01-22,666,341!2029-12-26,1493,361!2028-03-16,709,420-->
 

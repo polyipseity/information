@@ -71,7 +71,7 @@ Flashcards for this section are as follows:
 
 - accounts payable vs notes payable (contract) ::@:: Accounts payable: no stated interest, short terms; notes payable: separate contract with principal, interest rate, and due date. <!--SR:!2026-07-28,72,334!2026-07-28,72,334-->
 - accounts payable: key features ::@:: Amounts owed to suppliers with no stated interest and short credit terms (e.g. 30 days). <!--SR:!2026-07-23,68,334!2026-07-23,68,334-->
-- notes payable: key features ::@:: Arise from a separate contract (a note) that states the principal, interest rate, and due date. <!--SR:!2026-07-23,68,334!2026-07-21,66,321-->
+- notes payable: key features ::@:: Arise from a separate contract (a note) that states the principal, interest rate, and due date. <!--SR:!2026-07-23,68,334!fsrs,2027-06-26T00:00:00.000Z,339,339.4035091,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - when does supplier require AP to NP conversion? ::@:: When the amount is owed for too long; supplier may require conversion to a note payable (with interest). <!--SR:!2026-07-23,68,334!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - conversion of AP to NP: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_. <!--SR:!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-24,68,334-->
 

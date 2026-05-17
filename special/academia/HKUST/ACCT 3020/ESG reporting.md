@@ -103,7 +103,7 @@ In Hong Kong, listed companies must follow the stock exchange's ESG reporting re
 Flashcards for this section are as follows:
 
 - Hong Kong ESG reporting framework: big-picture structure ::@:: Listed companies follow a stock-exchange ESG framework built around mandatory disclosures plus comply-or-explain disclosures. <!--SR:!fsrs,2027-06-25T00:00:00.000Z,344,343.6736239,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-07-24,73,328-->
-- Hong Kong ESG reporting framework: why does the split matter? ::@:: It tells users which disclosures every issuer must provide and where an issuer has flexibility only if it explains the gap clearly. <!--SR:!fsrs,2027-07-17T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-20T00:00:00.000Z!2026-07-21,71,328-->
+- Hong Kong ESG reporting framework: why does the split matter? ::@:: It tells users which disclosures every issuer must provide and where an issuer has flexibility only if it explains the gap clearly. <!--SR:!fsrs,2027-07-17T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 
 ### mandatory versus comply-or-explain
 
@@ -114,7 +114,7 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- mandatory ESG disclosure: what does it mean? ::@:: The issuer must provide the required item in its ESG reporting and cannot simply omit it. <!--SR:!2026-07-21,71,328!2026-07-23,72,328-->
+- mandatory ESG disclosure: what does it mean? ::@:: The issuer must provide the required item in its ESG reporting and cannot simply omit it. <!--SR:!fsrs,2027-07-28T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-22T00:00:00.000Z!2026-07-23,72,328-->
 - comply-or-explain ESG disclosure: what does it mean? ::@:: The issuer should comply, but if it does not, it must explain the non-compliance rather than staying silent. <!--SR:!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-07-11T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 
 ### board statement and board oversight
@@ -130,7 +130,7 @@ A key mandatory element is a __board statement__ on ESG. This statement should:
 Flashcards for this section are as follows:
 
 - ESG board statement: what responsibility must the board acknowledge? ::@:: That the board itself is responsible for oversight of ESG issues. <!--SR:!2026-07-23,72,328!2026-07-23,72,328-->
-- ESG board statement: what three things should it cover? ::@:: Board responsibility, the board's ESG approach and processes, and how the board reviewed ESG performance during the year. <!--SR:!2026-07-22,71,328!2026-07-21,71,328-->
+- ESG board statement: what three things should it cover? ::@:: Board responsibility, the board's ESG approach and processes, and how the board reviewed ESG performance during the year. <!--SR:!2026-07-22,71,328!fsrs,2027-07-28T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - ESG reporting in Hong Kong: two requirement types ::@:: Mandatory disclosure (must disclose) and "comply or explain" disclosure (either comply or explain non‑compliance). <!--SR:!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z-->
 - ESG board statement: three key elements ::@:: (1) Board's responsibility for ESG oversight; (2) board's approach, strategy and processes for managing ESG; (3) how the board reviewed ESG performance during the year. <!--SR:!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 - ESG: why "comply or explain" matters ::@:: Allows some flexibility, but weak or repeated explanations may signal poor ESG commitment to investors. <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z-->
@@ -160,7 +160,7 @@ The course slides organise Hong Kong ESG KPIs into aspect groups rather than tre
 
 Flashcards for this section are as follows:
 
-- ESG KPI aspect groups: why use them? ::@:: They force ESG reporting to move from vague claims to topic-specific, measurable evidence tied to each aspect area. <!--SR:!2026-07-21,70,328!2026-07-26,75,328-->
+- ESG KPI aspect groups: why use them? ::@:: They force ESG reporting to move from vague claims to topic-specific, measurable evidence tied to each aspect area. <!--SR:!fsrs,2027-07-23T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-22T00:00:00.000Z!2026-07-26,75,328-->
 - KPI aspect groups: what is the exam mindset? ::@:: Understand which category an ESG metric belongs to and why the framework expects quantitative support inside each category. <!--SR:!fsrs,2027-07-22T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-21T00:00:00.000Z!2026-07-23,72,328-->
 
 ### environmental aspects
@@ -206,7 +206,7 @@ Flashcards for this section are as follows:
 - social ESG aspects in Hong Kong: what are the main B-series groups? ::@:: B1 employment, B2 health and safety, B3 development and training, B4 labour standards, B5 supply chain management, B6 product responsibility, B7 anti-corruption, and B8 community investment. <!--SR:!2026-07-26,75,328!2026-07-25,74,328-->
 - social KPI examples: what do B2, B3, and B7 typically quantify? ::@:: B2 tracks safety outcomes such as injuries or fatalities, B3 tracks training such as hours per employee, and B7 tracks concluded corruption cases. <!--SR:!fsrs,2027-07-17T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - ESG KPI framework: why are aspect groups useful? ::@:: They force disclosure to move from vague claims to topic-specific, measurable evidence. <!--SR:!2026-07-24,73,328!2026-07-24,73,328-->
-- B7 anti-corruption: example of a quantitative disclosure ::@:: The number of concluded legal cases regarding corrupt practices brought against the issuer or its employees. <!--SR:!fsrs,2027-07-22T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-21T00:00:00.000Z!2026-07-21,70,328-->
+- B7 anti-corruption: example of a quantitative disclosure ::@:: The number of concluded legal cases regarding corrupt practices brought against the issuer or its employees. <!--SR:!fsrs,2027-07-22T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-07-23T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 
 ## applying the materiality matrix
 
@@ -232,7 +232,7 @@ Flashcards for this section are as follows:
 
 - materiality matrix: what two viewpoints are combined? ::@:: The issue's impact on the business and its importance to stakeholders. <!--SR:!2026-07-24,73,328!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 - materiality matrix: which issues receive top disclosure priority? ::@:: Issues that rank high on both business impact and stakeholder concern. <!--SR:!fsrs,2027-07-11T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-07-17T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
-- why is materiality entity-specific? ::@:: Because the same ESG topic can matter very differently across industries, business models, and stakeholder groups. <!--SR:!2026-07-22,71,328!2026-07-21,70,328-->
+- why is materiality entity-specific? ::@:: Because the same ESG topic can matter very differently across industries, business models, and stakeholder groups. <!--SR:!2026-07-22,71,328!fsrs,2027-07-23T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - logistics-company materiality example: which issues are likely to be high-high? ::@:: Fuel efficiency, greenhouse gas emissions, driver safety, and anti-corruption in procurement. <!--SR:!fsrs,2027-07-11T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 
 ## materiality and boundary

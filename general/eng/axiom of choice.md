@@ -144,7 +144,7 @@ The axiom of choice is not {@{the only significant statement that is independent
 
 ## equivalents
 
-There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermelo–Fraenkel%20set%20theory.md) but neither AC nor ¬AC}@}, are {@{equivalent to the axiom of choice}@}.<sup>[\[21\]](#^ref-21)</sup> {@{The most important among them}@} are {@{[Zorn's lemma](Zorn's%20lemma.md) and the [well-ordering theorem](well-ordering%20theorem.md)}@}. In fact, {@{Zermelo initially introduced the axiom of choice}@} in order to {@{formalize his proof of the well-ordering theorem}@}. <!--SR:!2026-09-28,306,347!2026-12-20,376,364!2026-07-21,248,330!2026-11-11,344,364!2026-12-13,370,364!2026-09-04,285,347!2026-11-30,360,364-->
+There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermelo–Fraenkel%20set%20theory.md) but neither AC nor ¬AC}@}, are {@{equivalent to the axiom of choice}@}.<sup>[\[21\]](#^ref-21)</sup> {@{The most important among them}@} are {@{[Zorn's lemma](Zorn's%20lemma.md) and the [well-ordering theorem](well-ordering%20theorem.md)}@}. In fact, {@{Zermelo initially introduced the axiom of choice}@} in order to {@{formalize his proof of the well-ordering theorem}@}. <!--SR:!2026-09-28,306,347!2026-12-20,376,364!fsrs,2029-07-25T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-07-22T00:00:00.000Z!2026-11-11,344,364!2026-12-13,370,364!2026-09-04,285,347!2026-11-30,360,364-->
 
 - [Set theory](set%20theory.md)
 

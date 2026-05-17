@@ -338,7 +338,7 @@ If {@{a sentence φ evaluates to _true_}@} under {@{a given interpretation _M_}@
 {@{An alternate approach to the semantics}@} of first-order logic proceeds via {@{[abstract algebra](abstract%20algebra.md)}@}. This approach {@{generalizes the [Lindenbaum–Tarski algebras](Lindenbaum–Tarski%20algebra.md) of propositional logic}@}. There are {@{three ways}@} of eliminating {@{quantified variables from first-order logic}@} that do not involve {@{replacing quantifiers with other variable binding term operators}@}: \(annotation: 3 items: {@{cylindric algebra, polyadic algebra, predicate functor logic}@}\) <!--SR:!2027-02-24,463,382!2027-01-30,441,382!2027-02-05,448,382!2026-07-30,289,346!2028-04-29,729,364!2026-11-03,365,364!2028-06-30,792,432-->
 
 - [Cylindric algebra](cylindric%20algebra.md), ::@:: by [Alfred Tarski](Alfred%20Tarski.md), et al.; <!--SR:!2026-10-05,346,364!2026-11-22,381,364-->
-- [Polyadic algebra](polyadic%20algebra.md), ::@:: by [Paul Halmos](Paul%20Halmos.md); <!--SR:!2026-07-21,281,346!2026-12-09,395,364-->
+- [Polyadic algebra](polyadic%20algebra.md), ::@:: by [Paul Halmos](Paul%20Halmos.md); <!--SR:!fsrs,2030-02-03T00:00:00.000Z,1292,1292.13420403,1,2,9,0,0,2026-07-22T00:00:00.000Z!2026-12-09,395,364-->
 - [Predicate functor logic](predicate%20functor%20logic.md), ::@:: primarily by [Willard Quine](Willard%20Van%20Orman%20Quine.md). <!--SR:!2026-11-23,382,364!2026-10-11,351,364-->
 
 {@{These [algebras](algebra.md)}@} are {@{all [lattices](lattice%20(order).md)}@} that {@{properly extend the [two-element Boolean algebra](Two-element%20Boolean%20algebra.md)}@}. <!--SR:!2027-01-29,442,382!2026-11-21,381,364!2026-11-17,377,364-->
