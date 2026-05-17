@@ -17,7 +17,7 @@ The __octet rule__ is {@{a [chemical](chemistry.md) [rule of thumb](rule%20of%20
 
 ## exceptions
 
-{@{[Electron deficit](electron%20deficiency.md) molecules like [boron trifluoride](boron%20trifluoride.md) (BF<sub>3</sub>)}@} {@{do not obey the octet rule}@}. <!--SR:!2026-09-24,632,270!2026-07-30,373,370-->
+{@{[Electron deficit](electron%20deficiency.md) molecules like [boron trifluoride](boron%20trifluoride.md) (BF<sub>3</sub>)}@} {@{do not obey the octet rule}@}. <!--SR:!2026-09-24,632,270!fsrs,2031-06-14T00:00:00.000Z,1779,1779.06783117,1,2,10,0,0,2026-07-31T00:00:00.000Z-->
 
 [Main-group elements](main-group%20element.md) {@{in third [period](period%20(periodic%20table).md) or later can form [hypervalent molecules](hypervalent%20molecule.md)}@} such as {@{[phosphorous pentachloride](phosphorous%20pentachloride.md) (PCl<sub>5</sub>) and [sulfur hexafluoride](sulfur%20hexafluoride.md) (SF<sub>6</sub>)}@}. <!--SR:!2027-11-12,948,250!2028-02-29,816,350-->
 

@@ -199,7 +199,7 @@ The content is in teaching order.
 - datetime: 2025-01-27T08:30:00-05:00/2025-01-27T09:50:00-05:00, PT1H20M
     - local: 2025-01-27T21:30:00+08:00/2025-01-27T22:50:00+08:00, PT1H20M
 - [jazz](../../../../general/jazz.md)
-    - jazz / 1900s ::@:: still fun music, not art, mostly restricted to New Orleans, and not embraced by White Americans <!--SR:!2029-09-11,1338,375!2026-07-30,422,375-->
+    - jazz / 1900s ::@:: still fun music, not art, mostly restricted to New Orleans, and not embraced by White Americans <!--SR:!2029-09-11,1338,375!fsrs,2032-01-01T00:00:00.000Z,1980,1980.05659057,1,2,10,0,0,2026-07-31T00:00:00.000Z-->
 - [King Oliver](../../../../general/King%20Oliver.md) (1881–1938) ::@:: A trumpet/cornet player from Savannah, Georgia, but moved to New Orleans as a child. Then he left for Chicago, like many others going to cities in the north, and started the Creole Jazz Band. <!--SR:!2027-04-14,576,335!2029-11-30,1317,335-->
     - King Oliver / influence ::@:: helped young musicians get out of New Orleans and start their careers outside, usually Chicago; the young musicians included Jelly Roll Morton, Sidney Bechet, and Louis Armstrong and his first wife Lil Harden <!--SR:!2027-02-22,566,335!2027-02-21,565,335-->
     - King Oliver / works ::@:: "Dipper Mouth Blues" (1923) — King Oliver <!--SR:!2029-09-01,1328,375!2027-06-01,612,335-->

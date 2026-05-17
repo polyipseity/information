@@ -33,4 +33,4 @@ Flashcards for this section are as follows:
 Flashcards for this section are as follows:
 
 - why the draft matters :@: It is the milestone for collecting targeted revision advice before the final essay is submitted. <!--SR:!fsrs,2027-05-03T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-29T00:00:00.000Z-->
-- page scope :@: Add draft-specific argument notes or bibliography notes only when real materials exist. <!--SR:!2026-07-30,57,310-->
+- page scope :@: Add draft-specific argument notes or bibliography notes only when real materials exist. <!--SR:!fsrs,2027-05-14T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-31T00:00:00.000Z-->

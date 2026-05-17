@@ -54,7 +54,7 @@ For {@{the full derivation}@} see {@{[Modern portfolio theory](modern%20portfoli
 
 ## modified betas
 
-There has also been research into {@{a mean-reverting beta often referred to as the adjusted beta}@}, as well as {@{the consumption beta}@}. However, in {@{empirical tests}@} {@{the traditional CAPM}@} has been found to {@{do as well as or outperform the modified beta models}@}. <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-10-02,352,350!fsrs,2030-04-26T00:00:00.000Z,1373,1373.20074297,1,2,9,0,0,2026-07-23T00:00:00.000Z!2026-07-30,299,350!2029-03-02,1034,350!fsrs,2029-10-20T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-07-05T00:00:00.000Z-->
+There has also been research into {@{a mean-reverting beta often referred to as the adjusted beta}@}, as well as {@{the consumption beta}@}. However, in {@{empirical tests}@} {@{the traditional CAPM}@} has been found to {@{do as well as or outperform the modified beta models}@}. <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-10-02,352,350!fsrs,2030-04-26T00:00:00.000Z,1373,1373.20074297,1,2,9,0,0,2026-07-23T00:00:00.000Z!fsrs,2030-05-12T00:00:00.000Z,1381,1381.21972037,1,2,9,0,0,2026-07-31T00:00:00.000Z!2029-03-02,1034,350!fsrs,2029-10-20T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-07-05T00:00:00.000Z-->
 
 ## security market line
 

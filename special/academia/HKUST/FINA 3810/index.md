@@ -59,7 +59,7 @@ The content is in teaching order.
         - FINA 3810 / current topics / heartbeat trades ::@:: What are heartbeat trades? How do they affect ETFs? What can be done about them \(e.g. reforming taxation\)? <!--SR:!2026-09-30,290,330!2026-09-03,268,330-->
 - Bloomberg Terminal
     - Bloomberg Terminal / login
-    - Bloomberg Terminal / Bloomberg Market Concepts \(BMC\) ::@:: A 10-hour, self-paced e-learning course. It is split into 3 sections: core concepts → getting started on the terminal → portfolio management. <p> \(__this course__: Only need to do the 4 modules in the section "core concepts".\) <!--SR:!2026-07-30,241,330!2028-05-30,746,330-->
+    - Bloomberg Terminal / Bloomberg Market Concepts \(BMC\) ::@:: A 10-hour, self-paced e-learning course. It is split into 3 sections: core concepts → getting started on the terminal → portfolio management. <p> \(__this course__: Only need to do the 4 modules in the section "core concepts".\) <!--SR:!fsrs,2029-07-07T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-31T00:00:00.000Z!2028-05-30,746,330-->
 - FINA 3810
     - FINA 3810 / trading strategy ::@:: Join the 2025 Bloomberg Global Trading Challenge or the course-level internal trading challenge. <!--SR:!2026-08-25,261,330!2026-09-12,275,330-->
         - FINA 3810 / trading strategy / tips ::@:: Apply theory to trading, realizing that theories can be wrong to some extent. Combine expert knowledge and technical skills. Timing is everything \(e.g. instrument, timing, trade, etc.\). Read and interpret more financial news. <!--SR:!2026-10-05,294,330!2026-08-12,251,330-->

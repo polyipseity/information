@@ -181,7 +181,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3 hours
 >
 > - solution: {@{3}@}
-> - explanation: {@{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}@} <!--SR:!2026-07-30,565,332!2028-09-03,1162,352-->
+> - explanation: {@{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}@} <!--SR:!fsrs,2032-10-15T00:00:00.000Z,2268,2268.15206452,1,2,10,0,0,2026-07-31T00:00:00.000Z!2028-09-03,1162,352-->
 
 <!-- markdownlint MD028 -->
 
