@@ -11,7 +11,7 @@ tags:
 
 # non-current liabilities
 
-This note covers non-current (long-term) liabilities in ACCT 3020: bond and note fundamentals (indenture, face value, coupon/stated rate vs market/effective rate, par/discount/premium pricing); detailed journal entries for the effective interest method (discount and premium amortization, year-end accruals, bonds issued between payment dates); long-term notes payable (interest-bearing notes at discount, zero-interest-bearing notes, notes issued for noncash assets); and extinguishment and modification of debt (cash repurchase, equity/property exchange, and debtor-side accounting for modified terms).
+This note covers non-current (long-term) liabilities in ACCT 3020: bond and note fundamentals (indenture, face value, coupon/stated rate vs market/effective rate, par/discount/premium pricing, callable bonds, fair value option under IFRS 9); bond issuance costs (deducted from carrying amount under IFRS 9, effect on EIR); detailed journal entries for the effective interest method (discount and premium amortization, year-end accruals, bonds issued between payment dates); long-term notes payable (interest-bearing notes at discount, zero-interest-bearing notes, installment notes, notes issued for noncash assets); covenant violations (current reclassification); and extinguishment and modification of debt (cash repurchase, equity/property exchange, callable bond call, in-substance defeasance under IFRS, 10% modification test, and debtor-side accounting for modified terms).
 
 ## definition and classification
 
@@ -28,16 +28,23 @@ Flashcards for this section are as follows:
 
 Long-term debt agreements often contain covenants (restrictions) that limit what the company can do (e.g. restricting dividends). The purpose is to protect creditors: if the company pays out too much to shareholders, it may not have enough resources to repay debt.
 
+If a covenant is violated at the reporting date, the loan must normally be __reclassified as a current liability__ because the lender has the right to demand immediate repayment. The loan may remain non-current only if the lender has agreed in writing to waive or cure the violation before the reporting date (or grants a grace period of at least 12 months after the reporting date).
+
 ---
 
 Flashcards for this section are as follows:
 
 - debt covenants ::@:: Restrictions in debt agreements (e.g. limits on dividends) designed to protect creditors and reduce default risk.
 - why do lenders restrict dividends? ::@:: To prevent the company from paying out cash to shareholders that would reduce its ability to repay creditors.
+- covenant violation at reporting date: classification? ::@:: The loan is reclassified as a current liability unless the lender has waived the violation before the reporting date (or granted a grace period of at least 12 months).
 
 ## bonds: overview and key terms
 
 A bond is a way for a company to borrow money from many investors. The bond contract is the bond indenture, which specifies key terms such as the maturity date, interest payment schedule, and the principal (face value) to be repaid at maturity. A common face value is 1,000 per bond, and interest payments are often semiannual (though annual or quarterly payments can also occur).
+
+Common bond types include: __secured__ bonds (backed by specific assets) vs. __unsecured (debenture)__ bonds; __term bonds__ (all mature on one date) vs. __serial bonds__ (mature in instalments); __callable bonds__ (issuer has the right to redeem early at a specified call price, often above par); and __convertible bonds__ (holder can convert to equity). Deep-discount (zero-coupon) and commodity-backed bonds also exist.
+
+Under IFRS 9, an entity may elect the __fair value option__ at initial recognition: designating bonds payable at fair value through profit or loss (FVTPL). Under this election, the liability is remeasured to fair value at each reporting date, with changes recognized in P&L (or partly in OCI for own-credit-risk changes). This election is irrevocable.
 
 ---
 
@@ -47,6 +54,8 @@ Flashcards for this section are as follows:
 - bond indenture ::@:: The bond contract specifying maturity date, interest payment schedule, and face value (principal) to be repaid.
 - face value (bond) ::@:: Principal amount repaid at maturity; commonly 1,000 per bond.
 - bond interest payment frequency ::@:: Often semiannual; can also be annual or quarterly depending on the bond terms.
+- callable bond ::@:: A bond that the issuer can redeem before maturity at a specified call price (usually above par); gives the issuer flexibility but requires accounting for any gain or loss on early extinguishment.
+- fair value option for bonds (IFRS 9) ::@:: At initial recognition, an entity may irrevocably designate bonds payable at FVTPL; the liability is then remeasured each period with changes in P&L (own-credit-risk portion goes to OCI).
 
 ## coupon rate versus market rate
 
@@ -115,12 +124,35 @@ Flashcards for this section are as follows:
 - present value of ordinary annuity (bond tables) ::@:: Used for equal payments at the end of each period (coupon payments); look up periods and rate.
 - semi-annual bond: periods and rate ::@:: Number of periods = years × 2; use half-year rate (annual market rate ÷ 2, annual coupon rate ÷ 2 for coupon payment).
 
+## bond issuance costs (IFRS 9)
+
+Under IFRS 9, transaction costs incurred to issue a bond (e.g. underwriting fees, legal fees, registration costs) are __deducted from the carrying amount__ of the bond at inception rather than being capitalized as a separate asset or expensed immediately. As a result, the bond is initially recognized at __net proceeds__ = gross proceeds − issuance costs. The __effective interest rate__ (EIR) is then computed using the net proceeds as the present value of future cash flows, which means the EIR is slightly higher than the rate implied by gross proceeds alone — because the issuer receives less cash up front but must still repay the same face value and coupons.
+
+Representative journal entry example:
+
+> _Scenario._ Cheltenham Rail plc issues 5-year bonds with face {@{100&nbsp;000}@}. Gross proceeds are {@{97&nbsp;000}@} (bond sold at a discount). Bond issuance costs (underwriting, legal, and registration fees) total {@{1&nbsp;500}@}. Net proceeds = {@{97&nbsp;000 − 1&nbsp;500 = 95&nbsp;500}@}. Record the issuance.
+>
+> | {@{Issue bonds; deduct issuance costs from carrying amount}@} | Dr                | Cr                |
+> | ------------------------------------------------------------- | ----------------- | ----------------- |
+> | {@{Cash}@}                                                    | {@{95&nbsp;500}@} |                   |
+> | {@{Bonds payable}@}                                           |                   | {@{95&nbsp;500}@} |
+>
+> _Explanation._ Under IFRS 9, the {@{1&nbsp;500 issuance cost reduces the initial carrying amount}@}; it is not capitalized as a separate deferred charge. The EIR is computed on {@{net proceeds 95&nbsp;500, which gives a slightly higher rate than the rate implied by gross proceeds 97&nbsp;000}@}. This higher EIR is then applied to the carrying amount each period to determine interest expense.
+
+---
+
+Flashcards for this section are as follows:
+
+- bond issuance costs under IFRS 9: how treated? ::@:: Deducted from the carrying amount of the bond at inception; bond initially measured at net proceeds (gross proceeds minus issuance costs); no separate deferred-charge asset.
+- bond issuance costs: effect on EIR? ::@:: Net proceeds are lower than gross proceeds, so EIR computed on net proceeds is slightly higher than the rate implied by gross proceeds alone.
+- bond issuance costs: are they expensed immediately? ::@:: No; under IFRS 9 they reduce the initial carrying amount and are effectively amortized over the bond's life as part of the interest expense recognized at the EIR.
+
 ## effective interest method (bonds)
 
 The course uses the __effective interest method__ only (not straight-line amortization). Interest expense each period = __carrying amount at start of period × market (effective) rate__ (use the per-period rate for semi-annual). Cash paid to investors = face value × coupon rate (coupon payment; constant each period for fixed-rate bonds).
 
-- __Discount__: Bond sold below face value. Interest expense &gt; coupon payment; the difference is __discount amortization__, which is credited to Bonds payable (or to a separate Discount on bonds payable account if the book shows face value separately). Carrying amount increases each period and reaches face value at maturity.
-- __Premium__: Bond sold above face value. Interest expense &lt; coupon payment; the difference is __premium amortization__, which is debited to Bonds payable (or to Premium on bonds payable). Carrying amount decreases each period to face value at maturity.
+- __Discount__: Bond sold below face value. _Interest expense_ &gt; coupon payment; the difference is __discount amortization__, which is credited to _Bonds payable_ (or to a separate _Discount on bonds payable_ account if the book shows face value separately). Carrying amount increases each period and reaches face value at maturity.
+- __Premium__: Bond sold above face value. _Interest expense_ &lt; coupon payment; the difference is __premium amortization__, which is debited to _Bonds payable_ (or to _Premium on bonds payable_). Carrying amount decreases each period to face value at maturity.
 
 Why is interest expense different from the coupon? For a discount, the issuer effectively "lost" by selling below face; that cost is spread over the life of the bond as extra interest expense. For a premium, part of the premium is used to reduce interest expense each period. Because interest and amortization amounts are usually rounded in practice, small rounding differences may accumulate; the final period's interest expense and discount or premium amortization are adjusted slightly so the carrying amount equals the exact face value at maturity.
 
@@ -242,7 +274,7 @@ Flashcards for this section are as follows:
 
 ## year-end accrual between interest payment dates
 
-When the reporting date falls between two coupon payment dates, the entity accrues interest for the __fraction of the period__ that has elapsed. Prorate (1) the coupon payment (e.g. months elapsed ÷ 6 for semi-annual) and (2) the discount or premium amortization for that period the same way. Record Dr Interest expense (prorated, net of premium or plus discount amortization), Cr Interest payable (prorated coupon), and Cr Bonds payable (prorated discount amortization) or Dr Bonds payable (prorated premium amortization). The same prorating logic applies if the bond is redeemed or matures between payment dates: the final interest payment covers only the fraction of the period up to the redemption/maturity date.
+When the reporting date falls between two coupon payment dates, the entity accrues interest for the __fraction of the period__ that has elapsed. Prorate (1) the coupon payment (e.g. months elapsed ÷ 6 for semi-annual) and (2) the discount or premium amortization for that period the same way. Record Dr _Interest expense_ (prorated, net of premium or plus discount amortization), Cr _Interest payable_ (prorated coupon), and Cr _Bonds payable_ (prorated discount amortization) or Dr _Bonds payable_ (prorated premium amortization). The same prorating logic applies if the bond is redeemed or matures between payment dates: the final interest payment covers only the fraction of the period up to the redemption/maturity date.
 
 Representative journal entry examples:
 
@@ -254,7 +286,7 @@ Representative journal entry examples:
 > | {@{Bonds payable}@}                                            | {@{248}@}   |             |
 > | {@{Interest payable}@}                                         |             | {@{1 333}@} |
 >
-> _Explanation._ Interest payable equals {@{4 000 × 2/6 = 1 333}@}, premium amortized equals {@{744 × 2/6 = 248}@}, and interest expense equals {@{1 333 − 248 = 1 085}@}. For a discount bond, credit Bonds payable (prorated discount amortization) instead of debiting.
+> _Explanation._ Interest payable equals {@{4 000 × 2/6 = 1 333}@}, premium amortized equals {@{744 × 2/6 = 248}@}, and interest expense equals {@{1 333 − 248 = 1 085}@}. For a discount bond, credit _Bonds payable_ (prorated discount amortization) instead of debiting.
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Irregular day-count accrual instead of a neat month fraction._ Suppose the same semi-annual premium bond has a coupon period containing {@{184 days in total}@}, and year-end falls after {@{107 of those 184 days}@}. Full-period coupon is still {@{4 000}@} and full-period premium amortization is still {@{744}@}, but the accrual must now use the actual day fraction rather than a clean month count.
@@ -294,7 +326,7 @@ Representative journal entry examples:
 >
 > _Next interest date (2 months of the 6-month period for this holder)._ Carrying amount at issue is {@{96 000}@}. Using the effective interest method, interest expense for the issuer's 2-month holding period = {@{96 000 × 10% (market rate) × 2/12 (time fraction) = 1 600}@}. The full coupon paid at this date = {@{100 000 × 8% (stated coupon) × 6/12 (full period) = 4 000}@}, but only {@{4 000 × 2/6 = 1 333}@} belongs to the issuer's post-issue 2-month holding period. Therefore, discount amortized in this 2-month stub = {@{1 600 − 1 333 = 267}@}; for a discount bond under the net method, this amortization {@{increases the carrying amount}@}.
 >
-> For bonds issued between coupon dates, we do not use Interest Payable. Instead, record the coupon payment in full, then adjust Interest Expense via the discount/premium amortization:
+> For bonds issued between coupon dates, we do not use _Interest Payable_. Instead, record the coupon payment in full, then adjust _Interest Expense_ via the discount/premium amortization:
 >
 > | {@{First interest date — coupon payment}@}        | Dr          | Cr          |
 > | ------------------------------------------------- | ----------- | ----------- |
@@ -359,6 +391,35 @@ Flashcards for this section are as follows:
 - notes payable vs bonds (practical difference) ::@:: Bonds are widely traded instruments with many investors; long-term notes payable are usually private, non-tradable agreements with a single lender.
 - interest-bearing note at discount: issuance entry (net)? ::@:: Dr _Cash_ (present value), Cr _Notes payable_ (present value).
 - interest-bearing note at discount: first-year interest entry? ::@:: Dr _Interest expense_ (carrying × market), Cr _Cash_ (face × stated), Cr _Notes payable_ (discount amortized).
+
+### installment notes
+
+An __installment note__ is repaid through periodic fixed payments, each covering both interest and principal. Because the outstanding principal decreases after each payment, the interest portion of each payment falls over time while the principal repayment portion rises. The effective interest method applies: interest expense = beginning carrying amount × market rate; the remainder of the fixed payment is principal repayment (which reduces the carrying amount directly).
+
+> _Scenario._ Harrogate Logistics Ltd. borrows {@{10&nbsp;000}@} via a {@{3-year installment note}@} at {@{10% annual interest}@}. Annual payment = {@{10&nbsp;000 ÷ PV annuity factor = 4&nbsp;021}@} (fixed each year). Amortization schedule:
+>
+> | Year | Beginning balance | Interest at 10% | Principal repaid | Payment | Ending balance |
+> | ---: | ---: | ---: | ---: | ---: | ---: |
+> | {@{1}@} | {@{10&nbsp;000}@} | {@{1&nbsp;000}@} | {@{3&nbsp;021}@} | {@{4&nbsp;021}@} | {@{6&nbsp;979}@} |
+> | {@{2}@} | {@{6&nbsp;979}@} | {@{698}@} | {@{3&nbsp;323}@} | {@{4&nbsp;021}@} | {@{3&nbsp;656}@} |
+> | {@{3}@} | {@{3&nbsp;656}@} | {@{366}@} | {@{3&nbsp;655}@} | {@{4&nbsp;021}@} | {@{1}@} |
+>
+> Year 1 journal entry:
+>
+> | {@{Year-1 installment payment}@} | Dr               | Cr               |
+> | -------------------------------- | ---------------- | ---------------- |
+> | {@{Interest expense}@}           | {@{1&nbsp;000}@} |                  |
+> | {@{Notes payable}@}              | {@{3&nbsp;021}@} |                  |
+> | {@{Cash}@}                       |                  | {@{4&nbsp;021}@} |
+>
+> _Explanation._ Unlike a bond, {@{there are no separate "discount" or "premium" accounts; each payment reduces the note's carrying amount by the principal repayment portion}@}. Interest decreases each period because it is applied to a {@{steadily shrinking principal balance}@}. A small rounding difference in the final period brings the balance to exactly {@{zero}@}.
+
+---
+
+Flashcards for this section are as follows:
+
+- installment note: why does interest expense decrease each period? ::@:: Because interest is applied to the beginning outstanding balance, which shrinks after each principal repayment; fixed payment = interest + principal repayment.
+- installment note journal entry ::@:: Dr _Interest expense_ (beginning balance × rate), Dr _Notes payable_ (principal repayment = fixed payment − interest), Cr _Cash_ (fixed payment).
 
 ## zero-interest-bearing notes and implicit interest rate
 
@@ -441,6 +502,10 @@ Flashcards for this section are as follows:
 
 Extinguishment of long-term debt occurs when the obligation is settled before or at maturity, either by paying cash (e.g. repurchasing bonds), by transferring other assets (e.g. giving land to the lender), or by issuing equity instruments (e.g. shares) in full settlement. At the extinguishment date, the entity compares the carrying amount of the liability to the consideration paid or assets/equity transferred: if consideration &lt; carrying amount, there is a gain; if consideration &gt; carrying amount, there is a loss. When a noncash asset is transferred, remeasure the asset to fair value first (recognising any gain or loss on the asset), then compare the liability's carrying amount to the fair value of the asset to determine the gain or loss on extinguishment. When shares are issued to settle debt, apply an IFRS-first approach (IFRIC 19): measure the consideration at the fair value of the equity instruments issued when that fair value is reliably measurable; if not, use the fair value of the liability extinguished. The gain or loss on extinguishment is based on {@{carrying amount of debt minus measured consideration}@}. Share capital is still credited at par, and {@{Share premium — ordinary is the balancing equity line (credit if fair value exceeds par; debit if fair value is below par)}@}.
 
+For __callable bonds__, the issuer must first amortize any remaining discount or premium up to the call date (using the effective interest method), then derecognize the bond at its resulting carrying amount. The call price paid to investors is compared to this carrying amount; any excess of call price over carrying amount is a loss, and any shortfall is a gain.
+
+__In-substance defeasance__ (where the debtor places assets in a trust dedicated to paying the debt) does __not__ qualify for derecognition under IFRS 9 unless the debtor has been legally released from its primary obligation by the creditor. Merely segregating assets in a trust is insufficient.
+
 > _Scenario._ Granite Works plc has bonds payable with carrying amount {@{95 000}@}. The issuer repurchases the debt for {@{cash 101 000}@} before maturity. Record the extinguishment.
 >
 > |{@{Repurchase debt for cash; recognise loss}@}|Dr|Cr|
@@ -515,12 +580,14 @@ Flashcards for this section are as follows:
 - debt-for-equity gain/loss sign rule ::@:: Carrying amount of debt &gt; fair value of shares issued → gain; carrying amount of debt &lt; fair value of shares issued → loss, regardless of whether share fair value is above or below par.
 - extinguishment by transferring property: why two gains/losses? ::@:: One from remeasuring the asset to fair value; another from comparing liability carrying amount to asset fair value when settling the debt.
 - early cash repurchase below carrying amount: journal-entry effect ::@:: Debit the liability at carrying amount, credit cash for the repurchase price, and credit gain on extinguishment for the difference.
+- callable bond: accounting on call? ::@:: Derecognize the bond at its carrying amount at the call date (after accruing interest and amortizing discount/premium up to that date); compare carrying amount to cash paid (call price); difference is gain or loss on extinguishment in P&L.
+- in-substance defeasance under IFRS ::@:: Not sufficient for derecognition unless the debtor is legally released from the obligation; merely placing assets in a trust dedicated to paying the debt does NOT remove the liability from the balance sheet under IFRS 9.
 
 ## modification of debt terms
 
-Sometimes a long-term liability is not repaid in cash but its terms are changed instead (e.g. principal reduced, maturity extended, or interest rate lowered) because the borrower is in financial difficulty. Under IFRS, when the change in terms is significant, the restructuring is treated as an __extinguishment__ of the old debt and the recognition of a __new__ liability measured at fair value.
+Sometimes a long-term liability is not repaid in cash but its terms are changed instead (e.g. principal reduced, maturity extended, or interest rate lowered) because the borrower is in financial difficulty. Under IFRS 9, whether the modification is treated as an extinguishment depends on the __quantitative 10% test__: compute the present value of the modified cash flows discounted at the __original EIR__; if this present value differs from the old liability's carrying amount by __10% or more__, the modification is treated as a __substantial modification__ (extinguishment of the old liability and recognition of a new one). If the difference is less than 10%, the modification is not an extinguishment; instead the carrying amount is adjusted and a revised EIR is computed. This course focuses on the extinguishment treatment (significant / substantial modification).
 
-Conceptually, the steps are:
+Conceptually, the steps for a substantial modification are:
 
 1. Measure the fair value of the restructured (new) note based on the revised terms and a current market-based borrowing rate for the debtor.
 2. Derecognise the old liability at its carrying amount.
@@ -548,3 +615,95 @@ Flashcards for this section are as follows:
 - modification of debt terms (IFRS course focus) ::@:: Treat a significant change of terms as extinguishment of the old debt and recognition of a new liability measured at fair value; recognise a gain or loss equal to old carrying amount minus fair value of new debt.
 - modified debt: which rate for new effective interest? ::@:: Use the current market-based borrowing rate used to measure the fair value of the restructured note; apply it to the new carrying amount to compute interest expense.
 - modification of debt terms (debtor, lecture slide) ::@:: Derecognise the old note at its carrying amount, recognise the new restructured note at fair value, and record the difference as a gain or loss on extinguishment of debt.
+- IFRS 9 quantitative 10% test for debt modification ::@:: PV of modified cash flows (discounted at original EIR) differs from old carrying amount by ≥10% → substantial modification → derecognize old debt and recognize new debt at fair value. &lt;10% difference → non-substantial modification; adjust carrying amount and revise EIR instead.
+
+## representative exercises
+
+### bond issuance at discount with amortization schedule and early extinguishment
+
+> _Exercise._ Northwick plc issues on 1 January 2025 a {@{5-year bond, face 50&nbsp;000, coupon 8% paid annually, at a market yield of 10%}@}. Bond issuance costs are {@{600}@}; therefore net proceeds = {@{bond price − 600}@}. The bond price (PV of cash flows at 10%) is approximately {@{50&nbsp;000 × 0.6209 + 4&nbsp;000 × 3.7908 ≈ 31&nbsp;045 + 15&nbsp;163 = 46&nbsp;208}@}. Net proceeds after issuance costs = {@{46&nbsp;208 − 600 = 45&nbsp;608}@}. The effective interest rate on net proceeds is slightly above 10% (course approximation: treat EIR ≈ 10% for simplicity). Record: (a) issuance, (b) year-1 interest, (c) early cash repurchase on 1 January 2027 at 103 (call price 103% × 50&nbsp;000 = 51&nbsp;500) using carrying amount from the schedule below.
+>
+> Amortization schedule (at EIR ≈ 10%, starting from net proceeds 45&nbsp;608):
+>
+> | Year | Beginning CA | Cash coupon | Interest expense at 10% | Discount amortized | Ending CA |
+> | ---: | ---: | ---: | ---: | ---: | ---: |
+> | {@{2025}@} | {@{45&nbsp;608}@} | {@{4&nbsp;000}@} | {@{4&nbsp;561}@} | {@{561}@} | {@{46&nbsp;169}@} |
+> | {@{2026}@} | {@{46&nbsp;169}@} | {@{4&nbsp;000}@} | {@{4&nbsp;617}@} | {@{617}@} | {@{46&nbsp;786}@} |
+> | {@{2027}@} | {@{46&nbsp;786}@} | {@{4&nbsp;000}@} | {@{4&nbsp;679}@} | {@{679}@} | {@{47&nbsp;465}@} |
+> | {@{2028}@} | {@{47&nbsp;465}@} | {@{4&nbsp;000}@} | {@{4&nbsp;747}@} | {@{747}@} | {@{48&nbsp;212}@} |
+> | {@{2029}@} | {@{48&nbsp;212}@} | {@{4&nbsp;000}@} | {@{4&nbsp;788}@} | {@{1&nbsp;788}@} | {@{50&nbsp;000}@} |
+>
+> (a) Issuance on 1 January 2025:
+>
+> | {@{Issue bond at discount (net proceeds after issuance costs)}@} | Dr                | Cr                |
+> | ---------------------------------------------------------------- | ----------------- | ----------------- |
+> | {@{Cash}@}                                                       | {@{45&nbsp;608}@} |                   |
+> | {@{Bonds payable}@}                                              |                   | {@{45&nbsp;608}@} |
+>
+> (b) Year-1 interest (31 December 2025):
+>
+> | {@{Recognise interest and amortise discount (year 1)}@} | Dr               | Cr               |
+> | ------------------------------------------------------- | ---------------- | ---------------- |
+> | {@{Interest expense}@}                                  | {@{4&nbsp;561}@} |                  |
+> | {@{Interest payable}@}                                  |                  | {@{4&nbsp;000}@} |
+> | {@{Bonds payable}@}                                     |                  | {@{561}@}        |
+>
+> (c) Early repurchase on 1 January 2027 (after year-2 amortization; carrying amount = 46&nbsp;786):
+>
+> | {@{Early extinguishment of bond at call price 51&nbsp;500}@} | Dr                | Cr                |
+> | ------------------------------------------------------------ | ----------------- | ----------------- |
+> | {@{Bonds payable}@}                                          | {@{46&nbsp;786}@} |                   |
+> | {@{Loss on extinguishment of debt}@}                         | {@{4&nbsp;714}@}  |                   |
+> | {@{Cash}@}                                                   |                   | {@{51&nbsp;500}@} |
+>
+> _Explanation._ The loss = {@{call price 51&nbsp;500 − carrying amount 46&nbsp;786 = 4&nbsp;714}@}. Carrying amount at the call date already reflects {@{issuance costs (deducted at inception) and two years of discount amortization}@}. The bond is derecognized at carrying amount, not at face.
+
+---
+
+Flashcards for this section are as follows:
+
+- bond early extinguishment (callable at premium): how to find gain or loss? ::@:: Carrying amount at call date (face − unamortized discount, or after net-proceeds approach) compared to call price paid; call price &gt; carrying → loss; call price &lt; carrying → gain.
+- bond issuance costs + discount: initial carrying amount? ::@:: Gross proceeds minus issuance costs; so net proceeds become the starting carrying amount; amortize the combined discount (from both below-par issue and issuance costs) using the EIR computed on net proceeds.
+
+### zero-coupon note issued for property: initial measurement and interest schedule
+
+> _Exercise._ Ruislip SA purchases equipment and gives a {@{4-year, zero-interest-bearing note, face 80&nbsp;000}@}. The equipment has no observable market price. Ruislip's incremental borrowing rate is {@{9%}@}. PV of the note = {@{80&nbsp;000 × (1/1.09^4) = 80&nbsp;000 × 0.7084 = 56&nbsp;672}@} (rounded). Record (a) the purchase and (b) year-1 and year-2 interest.
+>
+> (a) Purchase of equipment:
+>
+> | {@{Acquire equipment via zero-coupon note; measure at PV}@} | Dr                | Cr                |
+> | ----------------------------------------------------------- | ----------------- | ----------------- |
+> | {@{Equipment}@}                                             | {@{56&nbsp;672}@} |                   |
+> | {@{Notes payable}@}                                         |                   | {@{56&nbsp;672}@} |
+>
+> Interest schedule:
+>
+> | Year | Beginning CA | Interest at 9% | Ending CA |
+> | ---: | ---: | ---: | ---: |
+> | {@{1}@} | {@{56&nbsp;672}@} | {@{5&nbsp;101}@} | {@{61&nbsp;773}@} |
+> | {@{2}@} | {@{61&nbsp;773}@} | {@{5&nbsp;560}@} | {@{67&nbsp;333}@} |
+> | {@{3}@} | {@{67&nbsp;333}@} | {@{6&nbsp;060}@} | {@{73&nbsp;393}@} |
+> | {@{4}@} | {@{73&nbsp;393}@} | {@{6&nbsp;607}@} | {@{80&nbsp;000}@} |
+>
+> (b) Year-1 interest (no cash paid):
+>
+> | {@{Accrue implicit interest (year 1)}@} | Dr               | Cr               |
+> | --------------------------------------- | ---------------- | ---------------- |
+> | {@{Interest expense}@}                  | {@{5&nbsp;101}@} |                  |
+> | {@{Notes payable}@}                     |                  | {@{5&nbsp;101}@} |
+>
+> (b) Year-2 interest:
+>
+> | {@{Accrue implicit interest (year 2)}@} | Dr               | Cr               |
+> | --------------------------------------- | ---------------- | ---------------- |
+> | {@{Interest expense}@}                  | {@{5&nbsp;560}@} |                  |
+> | {@{Notes payable}@}                     |                  | {@{5&nbsp;560}@} |
+>
+> _Explanation._ {@{Equipment is recorded at PV of the note because fair value of the equipment is not observable}@}. The implicit discount (80&nbsp;000 − 56&nbsp;672 = 23&nbsp;328) is {@{amortized as interest expense using the 9% implicit rate applied to the beginning carrying amount each year}@}; no cash interest is paid during the term. At maturity, {@{Dr Notes payable 80&nbsp;000, Cr Cash 80&nbsp;000}@}.
+
+---
+
+Flashcards for this section are as follows:
+
+- zero-coupon note for property (no observable price): initial measurement? ::@:: Measure note at PV of maturity amount using the imputed/incremental borrowing rate; record the asset (e.g. equipment or building) at the same PV; the difference from face value is a discount amortized as interest expense.
+- zero-coupon note: does interest expense increase each period? ::@:: Yes; because the carrying amount grows each period as discount is amortized, and interest expense = beginning carrying amount × implicit rate (effective interest method).
