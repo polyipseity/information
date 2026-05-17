@@ -721,7 +721,7 @@ tags:
 > 5. \$0
 >
 > - solution: {@{3}@}
-> - annotation: {@{What if the alternative option \(if not reused in a new project\) is to leave the equipment to be depreciated \(i.e. assume that no firms want to buy it\)? In that case, the initial cost is \$0. Additionally, you need to be careful when handling the depreciation of that asset for the new project. The principle is that you should compare the cash flows between taking and not taking the project.}@} <!--SR:!2027-08-19,706,429!2026-06-20,332,389-->
+> - annotation: {@{What if the alternative option \(if not reused in a new project\) is to leave the equipment to be depreciated \(i.e. assume that no firms want to buy it\)? In that case, the initial cost is \$0. Additionally, you need to be careful when handling the depreciation of that asset for the new project. The principle is that you should compare the cash flows between taking and not taking the project.}@} <!--SR:!2027-08-19,706,429!fsrs,2029-03-29T00:00:00.000Z,1013,1013.47265631,1,2,9,0,0,2026-06-20T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

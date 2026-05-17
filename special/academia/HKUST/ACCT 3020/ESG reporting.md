@@ -91,7 +91,7 @@ Flashcards for this section are as follows:
 - ESG risk: reputation risk ::@:: Risk that repeated ESG failures (e.g. pollution, labour abuses, corruption) damage the firm's reputation, causing customers and investors to withdraw support. <!--SR:!2026-07-06,56,310!2026-07-09,59,310-->
 - ESG risk: regulatory/reporting risk ::@:: Risk of fines or enforcement actions if ESG disclosures are incomplete, misleading, or inconsistent with actual practices (greenwashing). <!--SR:!2026-07-17,67,310!2026-07-10,60,310-->
 - ESG risk: physical risk ::@:: Risk that climate‑related events such as storms, flooding, or heatwaves physically damage assets or disrupt operations. <!--SR:!2026-07-06,56,310!2026-07-05,55,310-->
-- ESG risk: transition risk ::@:: Risk that, as regulation and markets move towards low‑carbon and sustainable models, certain assets or technologies lose value (e.g. become impaired or stranded). <!--SR:!2026-07-08,58,310!2026-06-20,40,290-->
+- ESG risk: transition risk ::@:: Risk that, as regulation and markets move towards low‑carbon and sustainable models, certain assets or technologies lose value (e.g. become impaired or stranded). <!--SR:!2026-07-08,58,310!fsrs,2027-01-02T00:00:00.000Z,196,195.52879015,1.98030797,2,6,0,0,2026-06-20T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ## ESG reporting in hong kong: framework

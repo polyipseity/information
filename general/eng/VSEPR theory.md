@@ -97,7 +97,7 @@ tags:
 > - AX<sub>6</sub>E<sub>1</sub>
 >   - AX<sub>6</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal pyramidal](pentagonal%20pyramidal%20molecular%20geometry.md)<br/>![pentagonal pyramidal](../../archives/Wikimedia%20Commons/AX6E1-3D-balls.png) <!--SR:!2027-04-07,341,345!2026-08-11,102,305-->
 >   - AX<sub>6</sub>E<sub>1</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2027-03-13,316,345-->
->   - AX<sub>6</sub>E<sub>1</sub> / example(s) ::@:: XeOF<sub>5</sub><sup>-</sup> <!--SR:!2026-10-19,171,281!2026-06-20,88,265-->
+>   - AX<sub>6</sub>E<sub>1</sub> / example(s) ::@:: XeOF<sub>5</sub><sup>-</sup> <!--SR:!2026-10-19,171,281!fsrs,2027-01-31T00:00:00.000Z,225,225.43113824,4.92779087,2,7,0,0,2026-06-20T00:00:00.000Z-->
 > - AX<sub>7</sub>E<sub>0</sub>
 >   - AX<sub>7</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal bipyramidal](pentagonal%20bipyramidal%20molecular%20geometry.md)<br/>![pentagonal bipyramidal](../../archives/Wikimedia%20Commons/AX7E0-3D-balls.png) <!--SR:!2026-08-06,138,305!2026-09-27,149,265-->
 >   - AX<sub>7</sub>E<sub>0</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2026-08-06,138,305-->

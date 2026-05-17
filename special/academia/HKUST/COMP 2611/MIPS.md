@@ -223,7 +223,7 @@ All instructions are {@{4 bytes \(32 bits\) long}@}. This is an example of {@{th
 - I format ::@:: one operand is immediate \(the "immediate" operand in bit-shift instructions is not really immediate\) or an offset is present <p> opcode: 6 bits → rs: 5 bits → rt: 5 bits → imm: 16 bits <!--SR:!2030-04-19,1457,370!2030-08-21,1564,375-->
 - J format ::@:: the only operand is an pseudo-address <p> opcode: 6 bits → pseudo-address: 26 bits <!--SR:!fsrs,2030-11-13T14:16:24.418Z,1615,1614.81188325,1,2,9,0,0,2026-06-12T14:16:24.418Z!2030-08-23,1566,375-->
 
-The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, and pseudo-address}@}. They mean: <!--SR:!2026-06-20,361,355-->
+The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, and pseudo-address}@}. They mean: <!--SR:!fsrs,2030-12-28T00:00:00.000Z,1652,1652.38340052,1,2,9,0,0,2026-06-20T00:00:00.000Z-->
 
 - opcode ::@:: 6 bits; opcode of the instruction <p> - R format: this is almost always 0, since the funct field is used instead <!--SR:!fsrs,2030-11-24T11:08:27.742Z,1625,1624.53001068,1,2,9,0,0,2026-06-13T11:08:27.742Z!2030-08-05,1548,375-->
 - rs ::@:: 5 bits <p> - R format: first source register operand <br/> - I format: source or memory register operand <!--SR:!2028-09-29,999,355!fsrs,2030-09-30T05:07:23.652Z,1578,1577.78509629,1,2,9,0,0,2026-06-05T05:07:23.652Z-->
@@ -232,7 +232,7 @@ The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, an
 - shift \(shamt\) ::@:: 5 bits <p> - R format: number of bits to shift, ranging from 0 to 31 \(i.e. unsigned\), and should almost always be 0 for non-bit-shift instructions <!--SR:!fsrs,2030-09-25T01:09:00.670Z,1572,1571.78143325,1,2,9,0,0,2026-06-06T01:09:00.670Z!2027-08-06,658,335-->
 - funct ::@:: 6 bits <p> - R format: opcode of the instruction, and is almost always used instead of the opcode field <!--SR:!fsrs,2030-09-01T05:07:22.893Z,1549,1549.13546323,1,2,9,0,0,2026-06-05T05:07:22.893Z!2030-05-01,1461,370-->
 - imm ::@:: 16 bits <p> - I format: a 16-bit immediate constant that may be unextended, sign-extended, or zero-extended depending on the instruction, a signed 16-bit offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction <!--SR:!2028-08-29,968,355!fsrs,2030-09-26T05:07:13.216Z,1574,1573.78685775,1,2,9,0,0,2026-06-05T05:07:13.216Z-->
-- pseudo-address ::@:: 26 bits <p> - J format: a 26-bit unsigned constant, representing an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\) <!--SR:!2027-03-30,505,315!2026-06-20,361,355-->
+- pseudo-address ::@:: 26 bits <p> - J format: a 26-bit unsigned constant, representing an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\) <!--SR:!2027-03-30,505,315!fsrs,2030-12-28T00:00:00.000Z,1652,1652.38340052,1,2,9,0,0,2026-06-20T00:00:00.000Z-->
 
 The register fields are encoded {@{by the named registers' corresponding number name}@}. <!--SR:!2030-03-13,1420,370-->
 

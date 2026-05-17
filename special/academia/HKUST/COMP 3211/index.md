@@ -130,7 +130,7 @@ The content is in teaching order.
   - activation function / examples ::@:: ReLU (rectified linear unit), logistic (sigmoid), hyperbolic tangent (tanh) <!--SR:!2030-08-21,1571,373!2028-10-03,1021,353-->
 - [ReLU](../../../../general/rectifier%20(neural%20networks).md) ::@:: $$f(x) = \max(0, x)$$ <!--SR:!fsrs,2031-03-31T03:26:02.786Z,1750,1750.26009378,1,2,10,0,0,2026-06-15T03:26:02.786Z!2030-07-18,1537,373-->
   - ReLU / properties ::@:: continuous, linear, piecewise, differentiable almost everywhere <!--SR:!2031-02-07,1711,373!fsrs,2031-04-05T02:44:54.512Z,1754,1754.30892296,1,2,10,0,0,2026-06-16T02:44:54.512Z-->
-- [sigmoid](../../../../general/logistic%20function.md) ::@:: $$f(x) = \frac 1 {1 + e^{-x} }$$ <!--SR:!2026-06-20,380,363!2026-06-21,381,363-->
+- [sigmoid](../../../../general/logistic%20function.md) ::@:: $$f(x) = \frac 1 {1 + e^{-x} }$$ <!--SR:!fsrs,2031-04-25T00:00:00.000Z,1770,1770.49044076,1,2,10,0,0,2026-06-20T00:00:00.000Z!2026-06-21,381,363-->
 - [hyperbolic tangent](../../../../general/hyperbolic%20functions.md) ::@:: $$f(x) = \frac {e^{x} - e^{-x} } {e^x + e^{-x} } = \frac {e^{2x} - 1} {e^{2x} + 1}$$ <!--SR:!2026-06-26,386,363!2027-05-05,616,343-->
 - [identity (activation)](../../../../general/identity%20function.md) (linear) ::@:: $$f(x) = x$$ <!--SR:!2031-03-01,1751,383!2030-08-30,1580,373-->
   - identity (activation) / use ::@:: For output layers, target values used to train a model with such an activation function in the output layer are typically scaled before modeling using normalization or standardization transforms. Useful for _regression problems_. <!--SR:!2027-06-05,642,343!2027-05-02,615,343-->
@@ -163,7 +163,7 @@ The content is in teaching order.
     - genetic programming / reproduction / copy ::@:: Copy some programs from the previous generation. They are called the _parents_. A _tournament selection_ is used: randomly select some programs and choose the best one to copy. Other methods are possible. <p> A typical percentage of the new generation copied is 10%. <!--SR:!2027-01-30,539,333!2031-03-14,1763,383-->
     - genetic programming / reproduction / crossover ::@:: From the copied _parents_, select 2 programs. A randomly chosen subtree of one parent is used to replace (including the subtree root node) a randomly selected subtree of another parent. <p> A typical percentage of the new generation crossover-ed is 90%. <!--SR:!2029-02-05,1106,353!2029-01-31,1101,353-->
     - genetic programming / reproduction / mutate ::@:: From the copied _parents_, select 1 program. Replace a randomly selected subtree by a new randomly generated subtree. <p> A typical percentage of the new generation mutated is 1% \(i.e. rarely occurs\). <!--SR:!2028-10-23,1046,363!2031-01-31,1704,373-->
-  - genetic programming / performance ::@:: It depends on the initial generation size, copy/crossover/mutate rates, and tournament selection parameters. <p> The wall-following example in the slides generates a perfect tree after 10 generations. <!--SR:!2026-06-30,390,363!2026-06-20,380,363-->
+  - genetic programming / performance ::@:: It depends on the initial generation size, copy/crossover/mutate rates, and tournament selection parameters. <p> The wall-following example in the slides generates a perfect tree after 10 generations. <!--SR:!2026-06-30,390,363!fsrs,2031-04-25T00:00:00.000Z,1770,1770.49044076,1,2,10,0,0,2026-06-20T00:00:00.000Z-->
 
 ## week 3 tutorial
 

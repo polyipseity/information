@@ -24,7 +24,7 @@ The _discrete Fourier transform_ {@{transforms a [sequence](sequence.md) of _N_ 
 
 > {@{__discrete Fourier transform (Eq. 1)__}@}
 >
-> {@{$$X_k = \sum_{n = 0}^{N - 1} x_n \cdot e^{-i2\pi \frac k N n}$$}@} <!--SR:!2029-05-25,1365,350!2026-06-20,456,290-->
+> {@{$$X_k = \sum_{n = 0}^{N - 1} x_n \cdot e^{-i2\pi \frac k N n}$$}@} <!--SR:!2029-05-25,1365,350!fsrs,2030-11-25T00:00:00.000Z,1619,1619.24848092,1.98030797,2,10,0,0,2026-06-20T00:00:00.000Z-->
 
 The transform is sometimes denoted by {@{$\mathcal F$, as in $\mathbf X = \mathcal F\set{\mathbf x}$ or $\mathcal F(\mathbf x)$ or $\mathcal F \mathbf x$}@}. <!--SR:!2028-12-31,1249,350-->
 

@@ -152,7 +152,7 @@ Flashcards for this section are as follows:
 - coordinatewise reason that $\nabla_w(w^\top A w)=(A+A^\top)w$ ::@:: Since $w^\top A w = \sum_{j,k} a_{jk}w_jw_k$, differentiating with respect to $w_m$ collects the terms where $j=m$ and where $k=m$, giving $(Aw)_m+(A^\top w)_m$. <!--SR:!2026-08-06,81,341!2026-08-30,92,363-->
 - why the derivative of $w^\top X^\top Xw$ is $2X^\top Xw$ ::@:: Let $A=X^\top X$. Because $A$ is symmetric, $(A+A^\top)w = 2Aw$, so $\nabla_w(w^\top X^\top Xw)=2X^\top Xw$. <!--SR:!2026-08-05,80,341!2026-08-14,93,363-->
 - two-variable memory aid for differentiating a quadratic form ::@:: If $A=\begin{bmatrix}a&b\\ b&c\end{bmatrix}$, then $w^\top A w = aw_1^2 + 2bw_1w_2 + cw_2^2$, so differentiating gives $[2aw_1+2bw_2,\ 2bw_1+2cw_2]^\top = 2Aw$. <!--SR:!2026-08-03,83,341!2026-07-05,58,310-->
-- why the matrix derivation matters ::@:: The derivation shows that least squares balances two terms: $X^\top Xw$, which comes from the geometry of the design matrix, and $X^\top y$, which comes from how the targets correlate with the features. <!--SR:!2026-08-06,86,353!2026-06-20,43,290-->
+- why the matrix derivation matters ::@:: The derivation shows that least squares balances two terms: $X^\top Xw$, which comes from the geometry of the design matrix, and $X^\top y$, which comes from how the targets correlate with the features. <!--SR:!2026-08-06,86,353!fsrs,2027-01-14T00:00:00.000Z,208,207.99125421,1.98030797,2,6,0,0,2026-06-20T00:00:00.000Z-->
 
 ### tiny normal-equation computation
 

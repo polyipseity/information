@@ -18,7 +18,7 @@ An __alkene__ is {@{an [acyclic](open-chain%20compound.md) [unsaturated hydrocar
 
 ## physical properties
 
-Alkenes have similar [physical properties](physical%20property.md) to [alkanes](alkane.md). Some physical properties gradually change along the [homologous series](homologous%20series.md). Increasingly long alkene has {@{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md), and [viscosity](viscosity.md)}@}. <!--SR:!2026-06-20,709,250-->
+Alkenes have similar [physical properties](physical%20property.md) to [alkanes](alkane.md). Some physical properties gradually change along the [homologous series](homologous%20series.md). Increasingly long alkene has {@{increasing [melting point](melting%20point.md), [boiling point](boiling%20point.md), [density](density.md), and [viscosity](viscosity.md)}@}. <!--SR:!fsrs,2032-01-09T00:00:00.000Z,2029,2028.59918206,3.98153807,2,10,0,0,2026-06-20T00:00:00.000Z-->
 
 ## chemical properties
 

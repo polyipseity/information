@@ -107,7 +107,7 @@ All investors:<sup>[\[7\]](#^ref-7)</sup>
 3. \(annotation: diversification\) ::@:: Are broadly diversified across a range of investments. <!--SR:!2029-07-07,1135,350!2026-09-15,338,350-->
 4. \(annotation: price\) ::@:: Are price takers, i.e., they cannot influence prices. <!--SR:!2029-05-14,1093,350!2029-07-27,1152,350-->
 5. \(annotation: loan\) ::@:: Can lend and borrow unlimited amounts under the risk free rate of interest. <!--SR:!2026-07-22,297,350!2026-08-26,320,350-->
-6. \(annotation: cost\) ::@:: Trade without transaction or taxation costs. <!--SR:!2026-06-20,262,330!2026-07-27,297,350-->
+6. \(annotation: cost\) ::@:: Trade without transaction or taxation costs. <!--SR:!fsrs,2029-08-16T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-06-20T00:00:00.000Z!2026-07-27,297,350-->
 7. \(annotation: divisibility\) ::@:: Deal with securities that are all highly divisible into small parcels \(All assets are perfectly divisible and liquid\). <!--SR:!2029-05-12,1092,350!2026-10-02,352,350-->
 8. \(annotation: homogeneity\) ::@:: Have homogeneous expectations. <!--SR:!2026-09-23,344,350!2026-08-06,305,350-->
 9. \(annotation: information\) ::@:: Assume all information is available at the same time to all investors. <!--SR:!2029-07-15,1143,350!2026-08-27,322,350-->

@@ -348,7 +348,7 @@ The content is in teaching order.
 - [Stéphane Grappelli](../../../../general/Stéphane%20Grappelli.md) (1908–1997) ::@:: French/Italian violinist; led the first _string_ jazz band; first violinist to improvise in jazz, and this (improvisation on string instruments) would not exist if it was not for him <!--SR:!2026-11-16,481,356!2031-05-05,1797,396-->
   - Stéphane Grappelli / works ::@:: "Limehouse Blues" (1936) — Stéphane Grappelli <!--SR:!2028-07-10,987,396!2027-06-20,687,416-->
 - [Django Reinhardt](../../../../general/Django%20Reinhardt.md) (1910–1953) ::@:: Belgian-Romani guitarist. He lost his pinky and ring finger in a fire, so learned to play (again) with 3 fingers. He was introduced and attracted to jazz while hearing Paul Whiteman in Paris. <!--SR:!2031-05-20,1812,396!2026-11-28,493,356-->
-  - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." — Frank Vignola, jazz guitarist <!--SR:!2026-06-20,382,396!2027-05-22,666,416-->
+  - Django Reinhardt / quotes from others ::@:: "There isn't a guitarist in the world who isn't influenced by Django." — Frank Vignola, jazz guitarist <!--SR:!fsrs,2031-06-10T00:00:00.000Z,1816,1816.2214364,1,2,10,0,0,2026-06-20T00:00:00.000Z!2027-05-22,666,416-->
   - Django Reinhardt / later life ::@:: During the World War II he hid from the Nazis. After the war, he went on tours with Duke Ellington. He died of stroke at 43. <!--SR:!2027-05-03,649,416!2027-05-08,654,416-->
 - gypsy jazz
   - gypsy jazz / now ::@:: After the death of Django, it lost its popularity. It has never become popular in the United States. Today, it has a small following in Europe. <!--SR:!2027-08-17,736,422!2027-08-14,732,422-->

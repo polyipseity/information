@@ -171,7 +171,7 @@ return chain.from_iterable([r.value for r in results])
 - [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→::@::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!fsrs,2027-08-17T08:41:19.939Z,430,429.62634343,8.98461332,2,9,0,0,2026-06-13T08:41:19.939Z!2028-04-30,1044,230-->
 - [safety spectacles/safety glasses/goggles](goggles.md)→::@::←[spatula](spatula.md) <!--SR:!2026-06-23,750,270!2027-06-17,1037,290-->
 - [spatula](spatula.md)→::@::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2031-04-01,1895,250!2027-07-23,807,270-->
-- [stand/retort stand/ring stand/support stand](retort%20stand.md)→::@::←[test tube](test%20tube.md), boiling tube <!--SR:!2026-06-20,358,190!2026-11-22,377,190-->
+- [stand/retort stand/ring stand/support stand](retort%20stand.md)→::@::←[test tube](test%20tube.md), boiling tube <!--SR:!fsrs,2028-08-28T00:00:00.000Z,800,799.63997737,6.98338322,2,9,0,0,2026-06-20T00:00:00.000Z!2026-11-22,377,190-->
 - [test tube](test%20tube.md), boiling tube→::@::←[test tube brush](test%20tube%20brush.md) <!--SR:!2028-07-27,1514,350!2028-08-13,1528,350-->
 - [test tube brush](test%20tube%20brush.md)→::@::←[test tube holder](test%20tube%20holder.md) <!--SR:!2032-08-23,2372,290!2031-02-04,1897,330-->
 - [test tube holder](test%20tube%20holder.md)→::@::←[test tube rack](test%20tube%20rack.md) <!--SR:!2027-06-05,1029,290!2029-09-27,1724,310-->

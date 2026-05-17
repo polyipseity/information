@@ -555,7 +555,7 @@ tags:
 > 2. Debt financing is borrowing obtained from creditors, it represents a liability to a company.
 > 3. Equity financing is riskier than debt.
 >
-> - solution: {@{2}@} <!--SR:!2026-06-20,444,381-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-02-18T00:00:00.000Z,2069,2069.32583277,1,2,10,0,0,2026-06-20T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
