@@ -249,7 +249,7 @@ The content is in teaching order.
 - status: unscheduled, public holiday: Chung Yeung Festival
 - common mistakes
   - `=` vs `==` ::@:: Do not mix up the assignment operator and comparison operator. <!--SR:!fsrs,2032-06-25T08:13:20.758Z,2210,2210.21956418,1,2,10,0,0,2026-06-07T08:13:20.758Z!2033-03-18,2484,406-->
-  - `input(...)` return type ::@:: `input(...)` returns a `str` and may require further conversions. <!--SR:!2026-06-25,494,386!2033-02-27,2465,406-->
+  - `input(...)` return type ::@:: `input(...)` returns a `str` and may require further conversions. <!--SR:!fsrs,2032-09-12T00:00:00.000Z,2270,2270.20442073,1,2,10,0,0,2026-06-26T00:00:00.000Z!2033-02-27,2465,406-->
   - `//` vs `%` ::@:: Do not mix up the floor division operator and remainder operator. <!--SR:!2026-06-28,497,386!2033-03-04,2470,406-->
   - `print(...)` multiple arguments ::@:: Note that if multiple arguments are passed to `print(...)`, the outputted strings are separated by a space in between arguments. <!--SR:!2033-02-06,2444,406!2026-08-12,536,400-->
   - indentation ::@:: Indentation matters in Python!!! <!--SR:!fsrs,2032-09-10T00:00:00.000Z,2270,2270.20442073,1,2,10,0,0,2026-06-24T00:00:00.000Z!fsrs,2032-08-06T00:00:00.000Z,2242,2242.24024358,1,2,10,0,0,2026-06-17T00:00:00.000Z-->

@@ -76,7 +76,7 @@ The divergence is roughly {@{a measure of a vector field's increase in the direc
 
 {@{The [curl](curl%20(mathematics).md) of a vector field $\mathbf {v} (x,y,z)=v_{x}{\hat {\mathbf {x} } }+v_{y}{\hat {\mathbf {y} } }+v_{z}{\hat {\mathbf {z} } }$}@} is {@{a [vector](vector%20field.md) function that can be represented as}@}: {@{$$\operatorname {curl} \mathbf {v} =\left({\partial v_{z} \over \partial y}-{\partial v_{y} \over \partial z}\right){\hat {\mathbf {x} } }+\left({\partial v_{x} \over \partial z}-{\partial v_{z} \over \partial x}\right){\hat {\mathbf {y} } }+\left({\partial v_{y} \over \partial x}-{\partial v_{x} \over \partial y}\right){\hat {\mathbf {z} } }=\nabla \times \mathbf {v}$$}@} <!--SR:!2029-10-18,1322,350!2029-05-11,1193,350!2027-12-27,782,330-->
 
-{@{The curl at a point}@} is {@{proportional to the on-axis torque}@} that {@{a tiny pinwheel would be subjected to if it were centered at that point}@}. <!--SR:!2029-03-05,1145,350!2028-05-09,842,330!2026-06-25,127,389-->
+{@{The curl at a point}@} is {@{proportional to the on-axis torque}@} that {@{a tiny pinwheel would be subjected to if it were centered at that point}@}. <!--SR:!2029-03-05,1145,350!2028-05-09,842,330!fsrs,2028-05-28T00:00:00.000Z,702,701.98388208,1,2,8,0,0,2026-06-26T00:00:00.000Z-->
 
 {@{The vector product operation}@} can be visualized as {@{a pseudo-[determinant](determinant.md)}@}: {@{$$\nabla \times \mathbf {v} =\left|{\begin{matrix}{\hat {\mathbf {x} } }&{\hat {\mathbf {y} } }&{\hat {\mathbf {z} } }\\[2pt]{\frac {\partial }{\partial x} }&{\frac {\partial }{\partial y} }&{\frac {\partial }{\partial z} }\\[2pt]v_{x}&v_{y}&v_{z}\end{matrix} }\right|$$}@} <!--SR:!2029-01-24,1105,350!2029-07-03,1236,350!2028-10-08,1028,350-->
 
@@ -112,7 +112,7 @@ For {@{[vector calculus](vector%20calculus.md)}@}: $${\begin{aligned}\nabla (fg)
 
 For {@{[matrix calculus](matrix%20calculus.md) \(for which $\mathbf {u} \cdot \mathbf {v}$ can be written $\mathbf {u} ^{\text{T} }\mathbf {v}$\)}@}: {@{$${\begin{aligned}\left(\mathbf {A} \nabla \right)^{\text{T} }\mathbf {u} &=\nabla ^{\text{T} }\left(\mathbf {A} ^{\text{T} }\mathbf {u} \right)-\left(\nabla ^{\text{T} }\mathbf {A} ^{\text{T} }\right)\mathbf {u} \end{aligned} }$$}@} <!--SR:!2026-10-11,399,290!2027-06-21,552,286-->
 
-{@{Another relation of interest \(see e.g. _[Euler equations](Euler%20equations.md#equations)_\)}@} is the following, where {@{$\mathbf {u} \otimes \mathbf {v}$ is the [outer product](outer%20product.md) tensor}@}: {@{$${\begin{aligned}\nabla \cdot (\mathbf {u} \otimes \mathbf {v} )=(\nabla \cdot \mathbf {u} )\mathbf {v} +(\mathbf {u} \cdot \nabla )\mathbf {v} \end{aligned} }$$}@} <!--SR:!2028-01-19,789,330!2026-06-25,349,290!2027-05-05,618,346-->
+{@{Another relation of interest \(see e.g. _[Euler equations](Euler%20equations.md#equations)_\)}@} is the following, where {@{$\mathbf {u} \otimes \mathbf {v}$ is the [outer product](outer%20product.md) tensor}@}: {@{$${\begin{aligned}\nabla \cdot (\mathbf {u} \otimes \mathbf {v} )=(\nabla \cdot \mathbf {u} )\mathbf {v} +(\mathbf {u} \cdot \nabla )\mathbf {v} \end{aligned} }$$}@} <!--SR:!2028-01-19,789,330!fsrs,2029-12-27T00:00:00.000Z,1280,1280.30070603,1.98030797,2,9,0,0,2026-06-26T00:00:00.000Z!2027-05-05,618,346-->
 
 > __flashcards__
 >

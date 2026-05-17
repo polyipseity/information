@@ -149,7 +149,7 @@ The maximum-likelihood viewpoint states the same goal in product form: good para
 
 Flashcards for this section are as follows:
 
-- entropy intuition ::@:: Entropy measures the uncertainty of a distribution, while cross entropy measures the coding cost incurred when one uses the wrong distribution to represent outcomes. <!--SR:!2026-06-25,45,309!2026-07-27,77,337-->
+- entropy intuition ::@:: Entropy measures the uncertainty of a distribution, while cross entropy measures the coding cost incurred when one uses the wrong distribution to represent outcomes. <!--SR:!fsrs,2027-02-15T00:00:00.000Z,234,233.66906262,1.02972367,2,7,0,0,2026-06-26T00:00:00.000Z!2026-07-27,77,337-->
 - unknown true distribution versus learned model ::@:: In supervised learning, one imagines an unknown true distribution $P(x,y)$ and learns a model conditional distribution $Q(y\mid x)$ from sampled data. <!--SR:!2026-07-05,55,310!2026-07-27,77,337-->
 - why likelihood matters ::@:: Likelihood measures how strongly a parameter choice explains the observed data, and taking negative logs turns it into an additive optimization objective. <!--SR:!2026-07-26,76,329!2026-07-08,58,310-->
 - true-versus-model memory rule ::@:: Keep the full triad $H(P)=\mathbb{E}_{Z\sim P}[-\log P(Z)]$, $H(P,Q)=\mathbb{E}_{Z\sim P}[-\log Q(Z)]$, and $D_{\mathrm{KL}}(P\Vert Q)=\mathbb{E}_{Z\sim P}[\log P(Z)-\log Q(Z)]$: the first argument always generates and weights the data, while the second argument is the model being scored. <!--SR:!2026-07-13,63,310!2026-07-28,78,343-->

@@ -244,7 +244,7 @@ The cross product {@{conveniently describes}@} {@{the infinitesimal generators o
 
 {@{The columns \[__a__\]<sub>×,i</sub>}@} of {@{the skew-symmetric matrix for a vector __a__}@} can be also obtained by {@{calculating the cross product with [unit vectors](unit%20vectors.md)}@}. That is, {@{$$[\mathbf {a} ]_{\times ,i}=\mathbf {a} \times \mathbf { {\hat {e} }_{i} } ,\;i\in \{1,2,3\}$$}@} or {@{$$[\mathbf {a} ]_{\times }=\sum _{i=1}^{3}\left(\mathbf {a} \times \mathbf { {\hat {e} }_{i} } \right)\otimes \mathbf { {\hat {e} }_{i} } ,$$}@} where {@{$\otimes$ is the [outer product](outer%20product.md) operator}@}. <!--SR:!2026-08-16,296,347!2027-08-06,548,327!2026-08-29,306,347!2026-10-15,343,347!2026-09-23,326,347!2026-08-20,299,347-->
 
-Also, if __a__ is {@{itself expressed as a cross product}@}: {@{$$\mathbf {a} =\mathbf {c} \times \mathbf {d}$$}@} then {@{$$[\mathbf {a} ]_{\times }=\mathbf {d} \mathbf {c} ^{\mathrm {T} }-\mathbf {c} \mathbf {d} ^{\mathrm {T} }.$$}@} <!--SR:!2026-06-25,251,330!2026-09-15,319,347!2026-09-10,314,347-->
+Also, if __a__ is {@{itself expressed as a cross product}@}: {@{$$\mathbf {a} =\mathbf {c} \times \mathbf {d}$$}@} then {@{$$[\mathbf {a} ]_{\times }=\mathbf {d} \mathbf {c} ^{\mathrm {T} }-\mathbf {c} \mathbf {d} ^{\mathrm {T} }.$$}@} <!--SR:!fsrs,2029-07-11T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-06-26T00:00:00.000Z!2026-09-15,319,347!2026-09-10,314,347-->
 
 > {@{__Proof by substitution__}@}
 >

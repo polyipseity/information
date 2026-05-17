@@ -349,7 +349,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-04T12:00:00+08:00/2024-10-04T13:20:00+08:00
 - [price elasticity of demand](../../../../general/price%20elasticity%20of%20demand.md)
-  - price elasticity of demand / factors ::@:: In general, the easier a consumer can "escape" from consuming a good, the higher the price elasticity of demand. Four major factors are: broadness of definition, substitution effect, time frame, and type of goods. <!--SR:!2033-05-04,2527,418!2026-06-25,481,391-->
+  - price elasticity of demand / factors ::@:: In general, the easier a consumer can "escape" from consuming a good, the higher the price elasticity of demand. Four major factors are: broadness of definition, substitution effect, time frame, and type of goods. <!--SR:!2033-05-04,2527,418!fsrs,2032-07-22T00:00:00.000Z,2218,2218.23103427,1,2,10,0,0,2026-06-26T00:00:00.000Z-->
     - price elasticity of demand / factors / substitution effect ::@:: If a good is easily substituted by other goods, its elasticity is higher, and vice versa. <!--SR:!2030-05-28,1596,391!2026-07-21,503,399-->
       - [substitution effect](../../../../general/substitution%20effect.md)
     - price elasticity of demand / factors / type of goods ::@:: If a good is _luxurious_, its elasticity is higher. If a good is _necessary_, its elasticity is lower. <p> An example is even if water price is high, you will still try to buy (almost) as much water. <!--SR:!2031-06-25,1957,402!2032-06-06,2237,410-->

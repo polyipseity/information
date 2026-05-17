@@ -150,7 +150,7 @@ The category {@{__[Cat](category%20of%20small%20categories.md)__}@} consists of 
 
 ### dual category
 
-{@{Any category _C_}@} can {@{itself be considered as a new category in a different way}@}: {@{the objects}@} are {@{the same as those in the original category}@} but {@{the arrows are those of the original category reversed}@}. This is called {@{the [_dual_ or _opposite category_](opposite%20category.md) and is denoted _C_<sup>op</sup>}@}. <!--SR:!2029-05-07,1233,350!2028-09-09,965,330!2028-02-14,855,330!2026-07-01,134,406!2026-07-02,135,406!2026-06-25,129,406-->
+{@{Any category _C_}@} can {@{itself be considered as a new category in a different way}@}: {@{the objects}@} are {@{the same as those in the original category}@} but {@{the arrows are those of the original category reversed}@}. This is called {@{the [_dual_ or _opposite category_](opposite%20category.md) and is denoted _C_<sup>op</sup>}@}. <!--SR:!2029-05-07,1233,350!2028-09-09,965,330!2028-02-14,855,330!2026-07-01,134,406!2026-07-02,135,406!fsrs,2028-06-06T00:00:00.000Z,711,711.47002587,1,2,8,0,0,2026-06-26T00:00:00.000Z-->
 
 ### product categories
 

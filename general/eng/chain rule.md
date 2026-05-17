@@ -13,7 +13,7 @@ tags:
 > __chain rule for {@{[real-valued functions](real-valued%20function.md) of one [real](real%20number.md) variable}@}__
 >
 > 1. Given {@{$f, g: \mathbb{R} \to \mathbb{R}$ and $c \in \mathbb{R}$, if $g'(c)$ and $f'(g(c))$ exists}@},
-> 2. then {@{$(f \circ g)'(c)$ exists and $(f \circ g)'(c) = f'(g(c)) \cdot g'(c)$}@}. <!--SR:!2032-01-01,2162,332!2027-03-17,860,332!2026-06-25,612,312-->
+> 2. then {@{$(f \circ g)'(c)$ exists and $(f \circ g)'(c) = f'(g(c)) \cdot g'(c)$}@}. <!--SR:!2032-01-01,2162,332!2027-03-17,860,332!fsrs,2032-09-15T00:00:00.000Z,2273,2273.05110766,1,2,10,0,0,2026-06-26T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

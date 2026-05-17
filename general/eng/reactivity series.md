@@ -145,7 +145,7 @@ return chain.from_iterable([r.value for r in results])
 - [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2028-12-27,944,230!2027-10-04,881,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2026-07-23,460,190-->
 - [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2027-01-30,391,210-->
-- [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2026-06-25,459,210!2026-09-02,232,150-->
+- [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!fsrs,2029-07-27T00:00:00.000Z,1127,1127.34910553,5.98276817,2,10,0,0,2026-06-26T00:00:00.000Z!2026-09-02,232,150-->
 - [cobalt](cobalt.md)→::@::←[nickel](nickel.md) <!--SR:!2027-12-11,1164,270!2026-07-23,303,190-->
 - [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!2026-08-19,366,190-->
 - [tin](tin.md)→::@::←[lead](lead.md) <!--SR:!2028-01-08,1048,250!2030-09-16,1893,270-->

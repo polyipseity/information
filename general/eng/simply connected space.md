@@ -97,7 +97,7 @@ If {@{$X$ and $Y$ are [homotopy equivalent](homotopy%20equivalent.md#homotopy%20
 
 ## see also
 
-- [Deformation retract](deformation%20retract.md) ::@:: – Continuous, position-preserving \(annotation: in the subspace\) mapping from a topological space into a subspace <!--SR:!2026-06-25,279,330!fsrs,2029-09-19T02:41:52.432Z,1191,1191.26470738,1,2,9,0,0,2026-06-16T02:41:52.432Z-->
+- [Deformation retract](deformation%20retract.md) ::@:: – Continuous, position-preserving \(annotation: in the subspace\) mapping from a topological space into a subspace <!--SR:!fsrs,2029-10-26T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-06-26T00:00:00.000Z!fsrs,2029-09-19T02:41:52.432Z,1191,1191.26470738,1,2,9,0,0,2026-06-16T02:41:52.432Z-->
 - [Locally simply connected space](locally%20simply%20connected%20space.md)
 - [n-connected space](n-connected%20space.md)
 - [Unicoherent space](unicoherent%20space.md)

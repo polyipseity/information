@@ -799,7 +799,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{1}@} <!--SR:!2026-06-25,449,381-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-03-16T00:00:00.000Z,2090,2089.53617638,1,2,10,0,0,2026-06-26T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -819,7 +819,7 @@ tags:
 > 2. subtracted from the net income when we prepare cash flow statement using indirect method
 > 3. no adjustment is needed using indirect method
 >
-> - solution: {@{2}@} <!--SR:!2026-06-25,449,381-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-03-16T00:00:00.000Z,2090,2089.53617638,1,2,10,0,0,2026-06-26T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
