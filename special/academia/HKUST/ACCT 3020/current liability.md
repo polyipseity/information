@@ -73,7 +73,7 @@ Flashcards for this section are as follows:
 - accounts payable: key features ::@:: Amounts owed to suppliers with no stated interest and short credit terms (e.g. 30 days). <!--SR:!2026-07-23,68,334!2026-07-23,68,334-->
 - notes payable: key features ::@:: Arise from a separate contract (a note) that states the principal, interest rate, and due date. <!--SR:!2026-07-23,68,334!2026-07-21,66,321-->
 - when does supplier require AP to NP conversion? ::@:: When the amount is owed for too long; supplier may require conversion to a note payable (with interest). <!--SR:!2026-07-23,68,334!2026-07-11,58,310-->
-- conversion of AP to NP: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_. <!--SR:!2026-07-08,54,310!2026-07-24,68,334-->
+- conversion of AP to NP: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_. <!--SR:!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-24,68,334-->
 
 ### short-term interest-bearing notes
 

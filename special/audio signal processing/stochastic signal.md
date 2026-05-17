@@ -11,7 +11,7 @@ tags:
 
 - see: [general/stochastic process](../../general/stochastic%20process.md)
 
-A {@{__stochastic signal__}@} is {@{a signal that is random}@}. It can be described by {@{statistics}@}: {@{mean, variance, probability distributions, etc.}@} <!--SR:!2029-06-03,1114,350!2029-02-21,1031,350!2029-06-27,1125,350!2026-07-08,288,330-->
+A {@{__stochastic signal__}@} is {@{a signal that is random}@}. It can be described by {@{statistics}@}: {@{mean, variance, probability distributions, etc.}@} <!--SR:!2029-06-03,1114,350!2029-02-21,1031,350!2029-06-27,1125,350!fsrs,2029-12-12T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-07-09T00:00:00.000Z-->
 
 ## frequency domain
 

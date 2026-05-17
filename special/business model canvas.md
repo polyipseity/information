@@ -294,7 +294,7 @@ In {@{cost structures}@}, costs can be {@{fixed costs or variable costs}@}. Cost
 
 ### fit
 
-{@{Business model fit}@} can be achieved by {@{reiteration between changing the value propositions and the rest of the business model}@}, because these two {@{are interdependent on each other: changing one entails changing the other}@}. The changes can be {@{big or small}@}: pivot {@{means making radical changes to the business model because your code idea requires more exploration}@}, while iteration {@{means reorienting the business model slightly but still closely related to the original}@}. <!--SR:!2028-08-16,1125,309!2026-07-08,589,329!2027-12-08,1012,349!2026-08-15,590,329!2026-12-14,709,329!fsrs,2027-09-25T03:38:06.980Z,467,466.53211024,1,2,7,0,0,2026-06-15T03:38:06.980Z-->
+{@{Business model fit}@} can be achieved by {@{reiteration between changing the value propositions and the rest of the business model}@}, because these two {@{are interdependent on each other: changing one entails changing the other}@}. The changes can be {@{big or small}@}: pivot {@{means making radical changes to the business model because your code idea requires more exploration}@}, while iteration {@{means reorienting the business model slightly but still closely related to the original}@}. <!--SR:!2028-08-16,1125,309!fsrs,2032-11-23T00:00:00.000Z,2329,2329.01322668,1,2,10,0,0,2026-07-09T00:00:00.000Z!2027-12-08,1012,349!2026-08-15,590,329!2026-12-14,709,329!fsrs,2027-09-25T03:38:06.980Z,467,466.53211024,1,2,7,0,0,2026-06-15T03:38:06.980Z-->
 
 ## comparison with other models
 

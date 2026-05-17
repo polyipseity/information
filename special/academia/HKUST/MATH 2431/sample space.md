@@ -68,7 +68,7 @@ Some natural experiments have too many outcomes to be listed in a sequence. A li
 
 Flashcards for this section are as follows:
 
-- uncountable sample space / infinite coin-toss sequences ::@:: The space $\{H,T\}^{\mathbb{N}}$ of infinite coin-toss sequences is uncountable; it has the cardinality of the continuum rather than that of $\mathbb{N}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-08,58,310!2026-07-21,71,321-->
+- uncountable sample space / infinite coin-toss sequences ::@:: The space $\{H,T\}^{\mathbb{N}}$ of infinite coin-toss sequences is uncountable; it has the cardinality of the continuum rather than that of $\mathbb{N}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-21,71,321-->
 - uncountable sample space / lifetime model ::@:: A lifetime or waiting time is naturally modelled on an interval such as $[0,\infty)$, which is uncountable because its points cannot be listed in a sequence. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-23,73,321!2026-07-18,68,321-->
 - sample space / countably infinite versus uncountable ::@:: The difference is not merely "infinite versus finite": $\mathbb{N}_0$ is infinite but countable, whereas $[0,\infty)$ and $\{H,T\}^{\mathbb{N}}$ are uncountable, so later we cannot simply treat every subset as an event. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-19,69,321-->
 

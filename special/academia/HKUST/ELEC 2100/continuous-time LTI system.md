@@ -32,7 +32,7 @@ Continuous-time response analysis asks how a linear time-invariant system reacts
 
 Flashcards for this section are as follows:
 
-- What is the main question of the continuous-time LTI system note? ::@:: It asks how a continuous-time linear time-invariant system reacts to excitation directly in the time domain before transform methods are used. <!--SR:!2026-07-30,77,337!2026-07-08,58,310-->
+- What is the main question of the continuous-time LTI system note? ::@:: It asks how a continuous-time linear time-invariant system reacts to excitation directly in the time domain before transform methods are used. <!--SR:!2026-07-30,77,337!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
 - Why is continuous-time response analysis important early in ELEC 2100? ::@:: It organizes response classifications, initial-state effects, impulse and step response, and the first causality/stability tests that can be read directly from $h(t)$. <!--SR:!2026-07-21,70,330!2026-07-30,77,337-->
 
 ## time-domain analysis roadmap
@@ -82,7 +82,7 @@ Flashcards for this section are as follows:
 - What is the transient response? ::@:: It is the part of the response that dies away or changes significantly during the adjustment process. <!--SR:!2026-07-29,76,337!2026-07-26,75,337-->
 - What is the steady-state response? ::@:: It is the long-time behaviour that remains after the transient has settled. <!--SR:!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-15,65,310-->
 - Why can a zero-state response still contain both transient and steady-state parts? ::@:: Because zero-state only says the response is caused by the external input, not that the response is already at its long-time form. <!--SR:!2026-07-24,73,337!2026-07-22,71,337-->
-- What question does each of the three response-classification pairs answer? ::@:: Zero-input vs zero-state asks what caused the response, natural vs forced asks which dynamical component it represents, and transient vs steady-state asks how it behaves as time evolves. <!--SR:!2026-07-26,75,337!2026-07-08,58,310-->
+- What question does each of the three response-classification pairs answer? ::@:: Zero-input vs zero-state asks what caused the response, natural vs forced asks which dynamical component it represents, and transient vs steady-state asks how it behaves as time evolves. <!--SR:!2026-07-26,75,337!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
 
 ## mapping the response labels to ODE solutions
 
@@ -143,7 +143,7 @@ The lecture stresses why zero-state analysis becomes the practical default. In m
 Flashcards for this section are as follows:
 
 - How is the zero-input response solved in the differential-equation viewpoint? ::@:: Set the input to zero, solve the homogeneous equation, and determine the coefficients from the initial conditions. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-13,63,310-->
-- Why does the zero-input solution contain only the homogeneous part? ::@:: Because once the external excitation is removed, no forcing term remains in the differential equation. <!--SR:!2026-07-08,58,310!2026-07-28,77,337-->
+- Why does the zero-input solution contain only the homogeneous part? ::@:: Because once the external excitation is removed, no forcing term remains in the differential equation. <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-28,77,337-->
 - Under ordinary nonimpulsive excitation, what continuity conditions are usually imposed at the initial instant? ::@:: State variables such as capacitor voltage and inductor current are usually continuous at the initial instant. <!--SR:!2026-07-25,74,337!2026-07-27,76,330-->
 - How is the zero-state response solved conceptually before convolution is introduced? ::@:: Set the initial conditions to zero, keep the original forced equation, and solve for the response that satisfies those zero-state constraints. <!--SR:!2026-07-28,77,337!2026-07-27,74,337-->
 - Why can the zero-state solution still contain a homogeneous-looking term? ::@:: Because a transient piece is often needed so the total forced response satisfies the zero initial conditions. <!--SR:!2026-07-27,76,337!fsrs,2027-03-27T00:00:00.000Z,265,265.41833691,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
@@ -181,7 +181,7 @@ The right intuition is not merely "impulses make jumps." The deeper point is tha
 
 Flashcards for this section are as follows:
 
-- Why are capacitor voltage and inductor current treated as state variables? ::@:: Because they directly represent stored electric and magnetic energy and therefore determine part of the system's internal state. <!--SR:!2026-07-23,73,337!2026-07-08,58,310-->
+- Why are capacitor voltage and inductor current treated as state variables? ::@:: Because they directly represent stored electric and magnetic energy and therefore determine part of the system's internal state. <!--SR:!2026-07-23,73,337!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
 - Why are capacitor voltage and inductor current usually continuous under ordinary excitation? ::@:: A capacitor resists instantaneous voltage change and an inductor resists instantaneous current change, so finite excitation does not change those state variables abruptly. <!--SR:!2026-07-23,72,337!2026-07-25,74,337-->
 - How does integrating $i_C(t)=C\frac{dv_C(t)}{dt}$ across $[0^-,0^+]$ prove capacitor-voltage continuity under nonimpulsive current? ::@:: It gives $\int_{0^-}^{0^+}i_C(t)\,dt=C\bigl(v_C(0^+)-v_C(0^-)\bigr)$; if $i_C(t)$ is finite and nonimpulsive, the integral is $0$, so $v_C(0^+)=v_C(0^-)$. <!--SR:!2026-07-28,75,337!2026-07-23,72,330-->
 - How does integrating $v_L(t)=L\frac{di_L(t)}{dt}$ across $[0^-,0^+]$ prove inductor-current continuity under nonimpulsive voltage? ::@:: It gives $\int_{0^-}^{0^+}v_L(t)\,dt=L\bigl(i_L(0^+)-i_L(0^-)\bigr)$; if $v_L(t)$ is finite and nonimpulsive, the integral is $0$, so $i_L(0^+)=i_L(0^-)$. <!--SR:!2026-07-24,71,330!2026-07-24,73,330-->

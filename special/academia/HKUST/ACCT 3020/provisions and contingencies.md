@@ -351,7 +351,7 @@ Representative journal entry examples:
 > | {@{Premium expense}@}                         | {@{12&nbsp;000}@} |                   |
 > | {@{Premium liability}@}                       |                   | {@{12&nbsp;000}@} |
 >
-> _Calculation._ Expected total bowls from 2025 sales = {@{300&nbsp;000 × 0.60 ÷ 10 = 18&nbsp;000 bowls}@}; bowls already issued in 2025 = {@{60&nbsp;000 ÷ 10 = 6&nbsp;000 bowls}@}; bowls still expected = {@{12&nbsp;000}@}. Net cost per bowl = {@{2 − 1 = 1}@}; required year-end provision = {@{12&nbsp;000 × 1 = 12&nbsp;000}@}. <!--SR:!2026-08-02,78,342!2026-08-07,82,342!2026-07-15,62,310!fsrs,2026-12-20T00:00:00.000Z,167,166.75267024,2.79242837,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-26,71,342!2026-07-19,66,326!2026-08-06,81,342!2026-08-07,82,342!fsrs,2026-12-27T00:00:00.000Z,191,191.3492133,1.98030797,2,6,0,0,2026-06-19T00:00:00.000Z!2026-07-08,56,310-->
+> _Calculation._ Expected total bowls from 2025 sales = {@{300&nbsp;000 × 0.60 ÷ 10 = 18&nbsp;000 bowls}@}; bowls already issued in 2025 = {@{60&nbsp;000 ÷ 10 = 6&nbsp;000 bowls}@}; bowls still expected = {@{12&nbsp;000}@}. Net cost per bowl = {@{2 − 1 = 1}@}; required year-end provision = {@{12&nbsp;000 × 1 = 12&nbsp;000}@}. <!--SR:!2026-08-02,78,342!2026-08-07,82,342!2026-07-15,62,310!fsrs,2026-12-20T00:00:00.000Z,167,166.75267024,2.79242837,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-26,71,342!2026-07-19,66,326!2026-08-06,81,342!2026-08-07,82,342!fsrs,2026-12-27T00:00:00.000Z,191,191.3492133,1.98030797,2,6,0,0,2026-06-19T00:00:00.000Z!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ A Suncrest customer {@{redeems 10 package seals plus 1 dollar for one bowl carried in Inventory of premiums at 2}@}. The entity had already {@{provided for the 1 net cost of that redemption when the related sale was made}@}.
@@ -560,7 +560,7 @@ Representative journal entry examples:
 
 Flashcards for this section are as follows:
 
-- onerous contract ::@:: Contract where unavoidable cost of meeting obligations exceeds economic benefits expected to be received; recognize a provision when it becomes onerous. <!--SR:!2026-08-06,81,342!2026-07-08,56,310-->
+- onerous contract ::@:: Contract where unavoidable cost of meeting obligations exceeds economic benefits expected to be received; recognize a provision when it becomes onerous. <!--SR:!2026-08-06,81,342!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
 - onerous contract provision: measurement basis ::@:: Lower of (1) cost to fulfil the contract and (2) compensation/penalty to exit the contract. <!--SR:!2026-07-22,67,310!2026-08-08,83,342-->
 - why "lower of" for onerous contracts? ::@:: A reasonable entity chooses the cheaper way to avoid further losses (pay penalty vs continue paying fulfilment costs). <!--SR:!2026-07-29,74,337!2026-08-07,82,342-->
 - onerous contract provision: entry? ::@:: Dr _Loss_ (onerous contract), Cr _Onerous contract liability_ (amount = lower of fulfilment cost and exit penalty). <!--SR:!2026-07-10,58,310!2026-08-07,82,342-->
@@ -586,7 +586,7 @@ Representative journal entry example:
 > | {@{Restructuring expense}@}             | {@{500 000}@} |               |
 > | {@{Restructuring liability}@}           |               | {@{500 000}@} |
 >
-> _Explanation._ The provision includes only {@{direct, traceable exit costs that become unavoidable once the restructuring plan creates a present obligation}@}. Costs such as {@{training, relocation of retained staff, marketing, or new systems for the new setup}@} are excluded because they are {@{costs of the future project / future operations, not costs of exiting the old structure}@}. <!--SR:!2026-07-08,56,310!2026-07-20,65,310!2026-08-01,77,342!2026-07-22,67,310!2026-08-02,78,342!2026-07-27,72,326!2026-07-25,70,342!fsrs,2026-12-30T09:43:32.597Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:43:32.597Z!fsrs,2026-12-30T09:42:35.245Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:42:35.245Z!fsrs,2027-01-03T10:54:53.685Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:54:53.685Z-->
+> _Explanation._ The provision includes only {@{direct, traceable exit costs that become unavoidable once the restructuring plan creates a present obligation}@}. Costs such as {@{training, relocation of retained staff, marketing, or new systems for the new setup}@} are excluded because they are {@{costs of the future project / future operations, not costs of exiting the old structure}@}. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-20,65,310!2026-08-01,77,342!2026-07-22,67,310!2026-08-02,78,342!2026-07-27,72,326!2026-07-25,70,342!fsrs,2026-12-30T09:43:32.597Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:43:32.597Z!fsrs,2026-12-30T09:42:35.245Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:42:35.245Z!fsrs,2027-01-03T10:54:53.685Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:54:53.685Z-->
 
 ---
 

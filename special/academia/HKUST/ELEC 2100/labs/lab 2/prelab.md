@@ -32,8 +32,8 @@ stem(ny, y, 'filled')
 
 Flashcards for this section are as follows:
 
-- In the MATLAB fragment `y = conv(x, h); ny = nx(1) + nh(1) : nx(end) + nh(end);`, why is `conv` by itself not enough to describe the output signal? ::@:: Because `conv` gives only the output sample values, while `ny` is still needed to identify the correct sample indices and support range of the result. <!--SR:!2026-07-08,54,310!2026-07-10,56,310-->
-- After the MATLAB line `y = conv(x, h)`, what additional MATLAB object has to be built if the input signals were labeled by explicit index vectors `nx` and `nh`? ::@:: The output index vector must be built so the convolution result can be plotted and interpreted on the correct support rather than against a misleading horizontal axis. <!--SR:!2026-07-08,54,310!2026-07-18,62,310-->
+- In the MATLAB fragment `y = conv(x, h); ny = nx(1) + nh(1) : nx(end) + nh(end);`, why is `conv` by itself not enough to describe the output signal? ::@:: Because `conv` gives only the output sample values, while `ny` is still needed to identify the correct sample indices and support range of the result. <!--SR:!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-10,56,310-->
+- After the MATLAB line `y = conv(x, h)`, what additional MATLAB object has to be built if the input signals were labeled by explicit index vectors `nx` and `nh`? ::@:: The output index vector must be built so the convolution result can be plotted and interpreted on the correct support rather than against a misleading horizontal axis. <!--SR:!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-18,62,310-->
 - In the MATLAB fragment `ny = nx(1) + nh(1) : nx(end) + nh(end)`, what do the first and last entries of the constructed index vector `ny` represent? ::@:: They represent the first and last sample indices on which the convolution output can be nonzero, obtained by adding the endpoint indices of the two input supports. <!--SR:!2026-07-11,56,310!2026-08-09,67,310-->
 
 ## delays become sample offsets
@@ -53,7 +53,7 @@ z = [x zeros(1, delay)] + alpha*y;
 Flashcards for this section are as follows:
 
 - In the MATLAB fragment `delay = round(tau * fs); y = [zeros(1, delay) x];`, why must the physical delay parameter be converted into a sample offset first? ::@:: Because the array model of the sampled signal can only implement the delay after the time shift has been expressed as an integer number of sample positions. <!--SR:!2026-07-09,55,310!2026-07-19,63,310-->
-- In the MATLAB fragment `delay = round(tau * fs)`, why is the multiplication by `fs` the correct way to convert the delay? ::@:: Because `fs` converts seconds into samples, so multiplying the physical delay by samples-per-second yields the discrete-time offset needed by the array model. <!--SR:!2026-07-08,54,310!2026-07-09,54,310-->
+- In the MATLAB fragment `delay = round(tau * fs)`, why is the multiplication by `fs` the correct way to convert the delay? ::@:: Because `fs` converts seconds into samples, so multiplying the physical delay by samples-per-second yields the discrete-time offset needed by the array model. <!--SR:!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-09,54,310-->
 - In the MATLAB fragment `[zeros(1, delay) x]`, why does the prelab prepend zeros before the original samples? ::@:: Because a delayed copy in discrete time is formed by shifting the sequence to the right, and the newly created early sample positions must be filled with zeros. <!--SR:!2026-08-09,67,310!2026-07-10,56,310-->
 - In the MATLAB fragment `z = [x zeros(1, delay)] + alpha*y`, what role does the factor `alpha` play in that summed output model? ::@:: It controls the gain of the delayed branch relative to the original branch, so it sets how strong the echo contribution is in the summed output. <!--SR:!2026-08-09,67,310!2026-07-11,57,310-->
 

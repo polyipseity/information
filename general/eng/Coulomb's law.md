@@ -57,7 +57,7 @@ Based on experiments with [electrically charged](electrically%20charged.md) sphe
 
 > {@{![Coulomb's [torsion balance](torsion%20balance.md#torsion%20balance)](../../archives/Wikimedia%20Commons/Bcoulomb.png)}@}
 >
-> {@{Coulomb's [torsion balance](torsion%20balance.md#torsion%20balance)}@} <!--SR:!2026-07-08,412,370!2031-06-28,1856,379-->
+> {@{Coulomb's [torsion balance](torsion%20balance.md#torsion%20balance)}@} <!--SR:!fsrs,2031-10-30T00:00:00.000Z,1939,1939.28817485,1,2,10,0,0,2026-07-09T00:00:00.000Z!2031-06-28,1856,379-->
 
 In 1769, Scottish physicist [John Robison](John%20Robison%20(physicist).md) announced that, according to his measurements, the force of repulsion between two spheres with charges of the same sign varied as _x_<sup>−2.06</sup>.<sup>[\[17\]](#^ref-17)</sup>
 
@@ -176,7 +176,7 @@ Since {@{Coulomb's law only applies to stationary charges}@}, there is {@{no rea
 
 ### deriving Coulomb's law from Gauss's law
 
-Strictly speaking, {@{Coulomb's law cannot be derived from Gauss's law alone}@}, since {@{Gauss's law does not give any information regarding the [curl](curl%20(mathematics).md) of __E__}@} \(see {@{[Helmholtz decomposition](Helmholtz%20decomposition.md) and [Faraday's law](Faraday's%20law%20of%20induction.md)}@}\). However, {@{Coulomb's law _can_ be proven from Gauss's law}@} if it is assumed, in addition, that {@{the electric field from a [point charge](point%20charge.md#point%20charge) is spherically symmetric}@} \(this assumption, like {@{Coulomb's law}@} itself, is {@{exactly true if the charge is stationary, and approximately true if the charge is in motion}@}\). <!--SR:!2026-07-10,414,370!2029-05-26,1230,370!fsrs,2031-10-25T00:00:00.000Z,1935,1935.20445991,1,2,10,0,0,2026-07-08T00:00:00.000Z!2031-04-05,1788,379!2028-05-01,867,350!fsrs,2028-09-20T00:00:00.000Z,805,805.32875921,1,2,8,0,0,2026-07-08T00:00:00.000Z!2026-07-08,150,421-->
+Strictly speaking, {@{Coulomb's law cannot be derived from Gauss's law alone}@}, since {@{Gauss's law does not give any information regarding the [curl](curl%20(mathematics).md) of __E__}@} \(see {@{[Helmholtz decomposition](Helmholtz%20decomposition.md) and [Faraday's law](Faraday's%20law%20of%20induction.md)}@}\). However, {@{Coulomb's law _can_ be proven from Gauss's law}@} if it is assumed, in addition, that {@{the electric field from a [point charge](point%20charge.md#point%20charge) is spherically symmetric}@} \(this assumption, like {@{Coulomb's law}@} itself, is {@{exactly true if the charge is stationary, and approximately true if the charge is in motion}@}\). <!--SR:!2026-07-10,414,370!2029-05-26,1230,370!fsrs,2031-10-25T00:00:00.000Z,1935,1935.20445991,1,2,10,0,0,2026-07-08T00:00:00.000Z!2031-04-05,1788,379!2028-05-01,867,350!fsrs,2028-09-20T00:00:00.000Z,805,805.32875921,1,2,8,0,0,2026-07-08T00:00:00.000Z!fsrs,2028-09-26T00:00:00.000Z,810,809.97683048,1,2,8,0,0,2026-07-09T00:00:00.000Z-->
 
 > __Outline of proof__
 >

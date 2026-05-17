@@ -43,7 +43,7 @@ The content is in teaching order.
   - FINA 3203 / logistics
 - [derivative](../../../../general/derivative%20(finance).md) ::@:: It is a contract between a buyer and a seller. The derivative can take various forms, depending on the transaction, but every derivative has the following four elements: ... <!--SR:!2026-09-16,289,330!2026-09-04,278,330-->
   - derivative / elements ::@:: tradeable item, future act, future act price, future act time <!--SR:!2026-09-06,280,330!2026-08-27,272,330-->
-    - derivative / elements / tradeable item ::@:: an item \(the "underlier"\) that can or must be bought or sold, e.g. commodity, event, financial asset, intangible good, natural condition index, etc. <!--SR:!2026-07-08,233,330!fsrs,2028-09-08T02:06:53.172Z,823,823.37893849,1,2,9,0,0,2026-06-08T02:06:53.172Z-->
+    - derivative / elements / tradeable item ::@:: an item \(the "underlier"\) that can or must be bought or sold, e.g. commodity, event, financial asset, intangible good, natural condition index, etc. <!--SR:!fsrs,2029-05-15T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-07-09T00:00:00.000Z!fsrs,2028-09-08T02:06:53.172Z,823,823.37893849,1,2,9,0,0,2026-06-08T02:06:53.172Z-->
     - derivative / elements / future act ::@:: a future act which must occur \(such as a sale or purchase of the underlier\) <!--SR:!2026-08-02,254,330!2026-08-03,255,330-->
     - derivative / elements / future act price ::@:: a price at which the future transaction must take place <!--SR:!2026-07-29,251,330!2026-09-05,280,330-->
     - derivative / elements / future act time ::@:: a future date by which the act \(such as a purchase or sale\) must take place <!--SR:!2026-07-13,237,330!2026-07-19,242,330-->

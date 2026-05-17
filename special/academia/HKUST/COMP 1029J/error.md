@@ -19,7 +19,7 @@ Java calls runtime errors {@{_exceptions_}@}. They occur when {@{something excep
 
 ## catching exceptions
 
-Sometimes, we can {@{handle some exceptions using `try...catch`}@}. It consists of {@{a statement block, and one or more exception types, exception names, and exception handler statement blocks}@}: <!--SR:!2028-02-16,1147,350!2026-07-08,621,310-->
+Sometimes, we can {@{handle some exceptions using `try...catch`}@}. It consists of {@{a statement block, and one or more exception types, exception names, and exception handler statement blocks}@}: <!--SR:!2028-02-16,1147,350!fsrs,2032-10-11T00:00:00.000Z,2286,2286.24042174,1,2,10,0,0,2026-07-09T00:00:00.000Z-->
 
 ```Java
 try {

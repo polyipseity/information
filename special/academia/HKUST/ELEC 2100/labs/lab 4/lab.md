@@ -26,4 +26,4 @@ The public tree currently preserves the lab-4 scaffold and submission slots, but
 
 Flashcards for this section are as follows:
 
-- For ELEC 2100 lab 4, what does the current public lab-note status indicate? ::@:: It indicates that the scaffold exists but the official assignment reasoning has not yet been ingested into a durable public lab note. <!--SR:!2026-07-08,54,310!2026-07-23,67,310-->
+- For ELEC 2100 lab 4, what does the current public lab-note status indicate? ::@:: It indicates that the scaffold exists but the official assignment reasoning has not yet been ingested into a durable public lab note. <!--SR:!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-23,67,310-->

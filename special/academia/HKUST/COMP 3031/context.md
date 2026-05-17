@@ -489,7 +489,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252
 
 {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built-in}@}, Haskell's {@{type-class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2027-04-02,404,371!2027-03-22,395,371!2027-04-12,413,371!2026-12-21,301,351!2027-04-10,411,371!2027-03-23,396,371-->
 
-{@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2026-12-24,321,349!2026-11-29,299,349!2026-07-08,175,310!2027-01-29,350,349!2026-11-18,292,349!2027-01-22,343,349-->
+{@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2026-12-24,321,349!2026-11-29,299,349!fsrs,2028-08-03T00:00:00.000Z,756,756.20650093,1,2,8,0,0,2026-07-09T00:00:00.000Z!2027-01-29,350,349!2026-11-18,292,349!2027-01-22,343,349-->
 
 > [!example] __type class in Rust__
 >

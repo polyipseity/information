@@ -646,7 +646,7 @@ tags:
 > 2. unissued shares
 > 3. authorized shares
 >
-> - solution: {@{1}@} <!--SR:!2026-07-08,460,381-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-05-12T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-07-09T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
