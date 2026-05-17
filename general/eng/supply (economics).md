@@ -79,7 +79,7 @@ By convention in {@{the context of [supply and demand](supply%20and%20demand.md)
 
 {@{The market supply curve}@} is {@{the horizontal summation of firm supply curves}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2028-10-21,1115,350!2029-06-21,1307,350-->
 
-The market supply curve can be translated into {@{an equation}@}. For {@{a factor j}@} for example the market supply function is {@{$$S_{j}=S^{j}(p,r)$$}@} where {@{$S_{j}=\sum _{k=1}^{j}S_{jk}$ and $S^{j}(p,r)=\sum _{k=1}^{j}S^{jk}(p,r)$ for all p \> 0 and r \> 0}@}. <!--SR:!2029-01-30,1193,350!2027-10-22,813,330!2029-05-29,1288,350!2026-06-22,386,290-->
+The market supply curve can be translated into {@{an equation}@}. For {@{a factor j}@} for example the market supply function is {@{$$S_{j}=S^{j}(p,r)$$}@} where {@{$S_{j}=\sum _{k=1}^{j}S_{jk}$ and $S^{j}(p,r)=\sum _{k=1}^{j}S^{jk}(p,r)$ for all p \> 0 and r \> 0}@}. <!--SR:!2029-01-30,1193,350!2027-10-22,813,330!2029-05-29,1288,350!fsrs,2030-04-21T00:00:00.000Z,1399,1398.68904794,1.98030797,2,10,0,0,2026-06-22T00:00:00.000Z-->
 
 Note: not all assumptions that can be made for individual supply functions ::@:: translate over to market supply functions directly. <!--SR:!2028-03-07,909,330!2029-05-01,1267,350-->
 

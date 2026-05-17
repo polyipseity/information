@@ -147,7 +147,7 @@ The content is in teaching order.
 - [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre <!--SR:!fsrs,2031-04-12T00:00:00.000Z,1758,1758.43253061,1,2,10,0,0,2026-06-19T00:00:00.000Z!2026-10-01,451,320-->
   - blues / characteristics ::@:: call and response, sadness <!--SR:!2031-02-27,1764,380!2031-05-13,1826,380-->
   - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2028-01-13,779,340!fsrs,2031-03-14T05:22:32.444Z,1734,1734.07818821,1,2,10,0,0,2026-06-14T05:22:32.444Z-->
-  - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2026-06-22,384,360!2031-04-07,1793,380-->
+  - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!fsrs,2031-04-27T00:00:00.000Z,1770,1770.44545581,1,2,10,0,0,2026-06-22T00:00:00.000Z!2031-04-07,1793,380-->
   - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2026-09-15,443,320!2027-08-04,704,340-->
   - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!fsrs,2031-03-11T05:22:32.940Z,1731,1731.19391569,1,2,10,0,0,2026-06-14T05:22:32.940Z!2031-05-02,1818,380-->
   - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2029-04-28,1202,360!2028-11-06,1076,360-->
@@ -188,7 +188,7 @@ The content is in teaching order.
   - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions <!--SR:!2028-02-06,858,355!2029-09-11,1333,375-->
 - [jazz](../../../../general/jazz.md)
   - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories... <!--SR:!2026-06-23,385,375!2026-07-19,411,375-->
-    - jazz (word) / older spelling ::@:: It used to be called this, but it could be changed to "ass" without the "j". <!--SR:!2026-06-22,384,375!2026-08-03,426,375-->
+    - jazz (word) / older spelling ::@:: It used to be called this, but it could be changed to "ass" without the "j". <!--SR:!fsrs,2029-08-18T00:00:00.000Z,1153,1153.10823388,1,2,10,0,0,2026-06-22T00:00:00.000Z!2026-08-03,426,375-->
     - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans, a word meaning "procreation" <!--SR:!2029-08-26,1322,375!2026-07-15,407,375-->
 - Victrola ::@:: The first recordings on the Victrola came out in 1901. Jazz recording did not come up until 1917. <!--SR:!2029-08-18,1314,375!2028-01-04,832,355-->
 - [Livery Stable Blues](../../../../general/Livery%20Stable%20Blues.md) ::@:: first ever jazz recording by the Original Dixieland Jass Band (all white musicians) in 1917, composed by Nick LaRocca <!--SR:!2026-06-24,386,375!2029-10-06,1350,375-->

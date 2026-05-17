@@ -113,7 +113,7 @@ For {@{a fixed integer _k_}@}, {@{the Stirling numbers of the second kind}@} hav
 
 ### lower and upper bounds
 
-If {@{$n\geq 2$ (annotation: notice if $n < 2$ then the latter condition is unsatisfiable) and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2030-02-03,1422,310!2026-06-22,60,130-->
+If {@{$n\geq 2$ (annotation: notice if $n < 2$ then the latter condition is unsatisfiable) and $1\leq k\leq n-1$}@}, then {@{$${\frac {1}{2} }(k^{2}+k+2)k^{n-k-1}-1\leq \left\{ {n \atop k}\right\}\leq {\frac {1}{2} }{n \choose k}k^{n-k}$$}@} <sup>[\[12\]](#^ref-12)</sup> <!--SR:!2030-02-03,1422,310!fsrs,2026-08-31T00:00:00.000Z,70,69.94475944,9.98522837,2,7,0,0,2026-06-22T00:00:00.000Z-->
 
 ### asymptotic approximation
 

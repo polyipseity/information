@@ -16,7 +16,7 @@ tags:
 
 ## variable
 
-Before using a variable, it needs to be {@{declared using the keyword `Dim` first}@}. The syntax is {@{`Dim VariableName As Type`}@}. You can also declare multiple variables in one line, like {@{`Dim VariableName1 As Type1, VariableName2 As Type2`}@}. <!--SR:!2027-07-05,895,330!2027-01-18,820,330!2026-06-22,651,330-->
+Before using a variable, it needs to be {@{declared using the keyword `Dim` first}@}. The syntax is {@{`Dim VariableName As Type`}@}. You can also declare multiple variables in one line, like {@{`Dim VariableName1 As Type1, VariableName2 As Type2`}@}. <!--SR:!2027-07-05,895,330!2027-01-18,820,330!fsrs,2033-06-16T00:00:00.000Z,2551,2550.5339088,1,2,10,0,0,2026-06-22T00:00:00.000Z-->
 
 To assign variables, use {@{the equals operator `=`, like `Variable = Value`}@}. For object types (basically anything that are not simple types like numbers, strings, booleans), you need to {@{prepend `Set` before the variable as well, like `Set ObjectVariable = Value`}@}. <!--SR:!2028-11-02,1349,350!2031-08-06,2040,330-->
 

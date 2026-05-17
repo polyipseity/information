@@ -148,7 +148,7 @@ Like {@{[variance](variance.md)}@}, mean squared error has {@{the disadvantage o
 
 ## notes
 
-1. This can be proved by {@{[Jensen's inequality](Jensen's%20inequality.md)}@} as follows. {@{The fourth [central moment](central%20moment.md)}@} is {@{an upper bound for the square of variance (annotation: $\operatorname E\left[X^4\right] \ge \left(\operatorname E\left[X^2\right]\right)^2$)}@}, so that {@{the least value for their ratio is one}@}, therefore, {@{the least value for the [excess kurtosis](kurtosis.md#excess%20kurtosis) is −2}@}, achieved, for instance, by {@{a Bernoulli with _p_=1/2}@}. <a id="^ref-1"></a>^ref-1 <!--SR:!2026-06-22,361,290!2030-08-05,1614,367!2028-04-15,934,347!2028-04-03,924,347!2026-11-25,514,310!2030-06-26,1583,367-->
+1. This can be proved by {@{[Jensen's inequality](Jensen's%20inequality.md)}@} as follows. {@{The fourth [central moment](central%20moment.md)}@} is {@{an upper bound for the square of variance (annotation: $\operatorname E\left[X^4\right] \ge \left(\operatorname E\left[X^2\right]\right)^2$)}@}, so that {@{the least value for their ratio is one}@}, therefore, {@{the least value for the [excess kurtosis](kurtosis.md#excess%20kurtosis) is −2}@}, achieved, for instance, by {@{a Bernoulli with _p_=1/2}@}. <a id="^ref-1"></a>^ref-1 <!--SR:!fsrs,2030-01-31T00:00:00.000Z,1319,1318.84729045,1.98030797,2,9,0,0,2026-06-22T00:00:00.000Z!2030-08-05,1614,367!2028-04-15,934,347!2028-04-03,924,347!2026-11-25,514,310!2030-06-26,1583,367-->
 
 ## references
 

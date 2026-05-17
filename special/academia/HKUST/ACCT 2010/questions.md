@@ -616,7 +616,7 @@ tags:
 > 3. net sales / average accounts payable
 >
 > - solution: {@{2}@}
-> - explanation: {@{Funny history... The book has 1 as the definition instead. Anyways, in the exam, use 2.}@} <!--SR:!2026-07-04,458,381!2026-06-22,446,381-->
+> - explanation: {@{Funny history... The book has 1 as the definition instead. Anyways, in the exam, use 2.}@} <!--SR:!2026-07-04,458,381!fsrs,2032-02-28T00:00:00.000Z,2077,2077.41341492,1,2,10,0,0,2026-06-22T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -769,7 +769,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{2}@} <!--SR:!2026-06-22,446,381-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-02-28T00:00:00.000Z,2077,2077.41341492,1,2,10,0,0,2026-06-22T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

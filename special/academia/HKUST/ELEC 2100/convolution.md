@@ -71,7 +71,7 @@ Flashcards for this section are as follows:
 - If the impulse at time $\tau$ has weight $e(\tau)\,d\tau$, what output contribution does linearity predict? ::@:: The contribution is $e(\tau)h(t-\tau)\,d\tau$. <!--SR:!2026-07-26,76,330!2026-07-26,70,330-->
 - What is the continuous-time convolution integral for zero-state response? ::@:: It is $r_{\mathrm{zs}}(t)=\int_{-\infty}^{\infty} e(\tau)h(t-\tau)\,d\tau$. <!--SR:!2026-07-11,57,310!2026-07-26,70,330-->
 - How is the convolution integral derived directly from the operator viewpoint? ::@:: Write $e(t)=\int e(\tau)\delta(t-\tau)\,d\tau$, apply $H$, and use linearity plus time invariance to get $H[e](t)=\int e(\tau)H[\delta(t-\tau)]\,d\tau=\int e(\tau)h(t-\tau)\,d\tau$. <!--SR:!2026-07-17,61,310!2026-07-10,56,310-->
-- What compact notation is used for the convolution integral? ::@:: It is written as $r_{\mathrm{zs}}(t)=(e*h)(t)$. <!--SR:!2026-06-22,45,290!2026-07-17,67,310-->
+- What compact notation is used for the convolution integral? ::@:: It is written as $r_{\mathrm{zs}}(t)=(e*h)(t)$. <!--SR:!fsrs,2027-01-24T00:00:00.000Z,216,216.23934371,1.98030797,2,7,0,0,2026-06-22T00:00:00.000Z!2026-07-17,67,310-->
 - What do the two factors in the integrand $e(\tau)h(t-\tau)$ mean conceptually? ::@:: $e(\tau)$ gives the input weight contributed from source time $\tau$, while $h(t-\tau)$ gives how the system carries that unit impulse to the observation time $t$. <!--SR:!2026-07-08,54,310!2026-08-13,72,330-->
 - Why is convolution the natural tool for zero-state response of an LTI system? ::@:: Because it is exactly the formal sum of all shifted-impulse responses produced by decomposing the input into weighted impulses. <!--SR:!2026-07-26,76,330!2026-08-22,81,343-->
 

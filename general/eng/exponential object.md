@@ -27,7 +27,7 @@ Alternatively, the exponential object may be {@{defined through equations}@}: <!
 
 - Existence of $\lambda g$ ::@:: is guaranteed by existence of the operation $\lambda -$. (annotation: the operation is defined for any morphism $g$) <!--SR:!2029-05-17,1220,350!2029-07-02,1256,350-->
 - Commutativity of the diagrams above ::@:: is guaranteed by the equality $\forall g\colon X\times Y\to Z,\ \mathrm {eval} \circ (\lambda g\times \mathrm {id} _{Y})=g$. <!--SR:!2026-11-15,487,310!2027-06-06,543,270-->
-- Uniqueness of $\lambda g$ ::@:: is guaranteed by the equality $\forall h\colon X\to Z^{Y},\ \lambda (\mathrm {eval} \circ (h\times \mathrm {id} _{Y}))=h$. (annotation: an abuse of notation to help with understanding: $\mathrm{eval} \circ (h \times \mathrm {id}_Y) = \lambda^{-1} h$) <!--SR:!2026-06-22,308,250!2028-03-13,792,290-->
+- Uniqueness of $\lambda g$ ::@:: is guaranteed by the equality $\forall h\colon X\to Z^{Y},\ \lambda (\mathrm {eval} \circ (h\times \mathrm {id} _{Y}))=h$. (annotation: an abuse of notation to help with understanding: $\mathrm{eval} \circ (h \times \mathrm {id}_Y) = \lambda^{-1} h$) <!--SR:!fsrs,2028-04-12T00:00:00.000Z,660,660.148144,5.48972837,2,9,0,0,2026-06-22T00:00:00.000Z!2028-03-13,792,290-->
 
 ### universal property
 

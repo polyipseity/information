@@ -75,7 +75,7 @@ value proposition canvas
 - business model canvas→::@::←competitor analysis <!--SR:!fsrs,2030-10-27T05:57:06.783Z,1604,1604.12776295,2.98092302,2,10,0,0,2026-06-06T05:57:06.783Z!2028-04-02,982,270-->
 - competitor analysis→::@::←customer discovery <!--SR:!2026-09-14,502,230!2027-11-06,917,290-->
 - customer discovery→::@::←customer segmentation <!--SR:!2032-03-01,2183,330!2032-04-28,2230,330-->
-- customer segmentation→::@::←customer validation <!--SR:!2026-11-22,594,270!2026-06-22,558,290-->
+- customer segmentation→::@::←customer validation <!--SR:!2026-11-22,594,270!fsrs,2031-10-08T00:00:00.000Z,1934,1933.97963477,1.98030797,2,10,0,0,2026-06-22T00:00:00.000Z-->
 - customer validation→::@::←design thinking <!--SR:!2026-08-18,472,230!2027-10-10,893,290-->
 - design thinking→::@::←idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one. <!--SR:!2028-01-14,667,190!2027-06-29,696,250-->
 - idea generation: Put oneself in customers' shoes. For example, examine old mousetraps and build a better one.→::@::←product validation <!--SR:!2027-06-25,722,250!2027-03-19,516,210-->

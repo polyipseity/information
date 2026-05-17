@@ -1001,7 +1001,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced uvular trill](voiced%20uvular%20trill.md):@:[German](German%20language.md) _**r**ot_ \[ʀoːt\] "red" <!--SR:!2029-12-24,1496,291-->
 - [voiced retroflex flap](voiced%20retroflex%20flap.md):@:[Swedish](Swedish%20language.md) _b**l**ad_ \[bɽɑː(d)\] "leaf" <!--SR:!2026-10-07,149,130-->
 - [voiced alveolar approximant](voiced%20alveolar%20approximant.md):@:[Swedish](Swedish%20language.md) _sta**r**kast_ \[ˈs̪t̪äɹːkäs̪t̪\] "strongest" <!--SR:!2026-09-08,127,130-->
-- [voiced retroflex approximant](voiced%20retroflex%20approximant.md):@:[Chinese](Chinese%20language.md) 肉/_**r**òu_ \[ɻ̺oʊ̯˥˩\] "meat" <!--SR:!fsrs,2026-06-21T02:05:16.015Z,13,12.65364884,9.98522837,2,4,0,0,2026-06-08T02:05:16.015Z-->
+- [voiced retroflex approximant](voiced%20retroflex%20approximant.md):@:[Chinese](Chinese%20language.md) 肉/_**r**òu_ \[ɻ̺oʊ̯˥˩\] "meat" <!--SR:!fsrs,2026-07-10T00:00:00.000Z,18,17.52185681,9.97047151,2,5,0,0,2026-06-22T00:00:00.000Z-->
 - [voiced uvular fricative](voiced%20uvular%20fricative.md):@:[French](French%20language.md) _**r**ester_ \[ʁɛste\] "to stay" <!--SR:!fsrs,2026-10-08T00:00:00.000Z,109,108.9618966,8.98461332,2,7,0,0,2026-06-21T00:00:00.000Z-->
 - [voiceless alveolar fricative](voiceless%20alveolar%20fricative.md):@:[English](English%20language.md) _**s**it_ \[sɪt\] <!--SR:!2026-08-31,504,271-->
 - [voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md):@:[English](English%20language.md) _**sh**eep_ \[ˈʃiːp\] <!--SR:!2026-08-04,265,191-->
@@ -1011,7 +1011,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless alveolar affricate](voiceless%20alveolar%20affricate.md):@:[English](English%20language.md) _**t**ea_ \[ˈt͡sɪˑi̯\] <!--SR:!fsrs,2026-08-12T05:59:53.885Z,58,57.66052468,8.96456423,2,6,0,0,2026-06-15T05:59:53.885Z-->
 - [voiceless postalveolar affricate](voiceless%20postalveolar%20affricate.md):@:[English](English%20language.md) _bea**ch**_ \[biːt͡ʃ\] <!--SR:!2026-10-15,253,231-->
 - [voiceless alveolo-palatal affricate](voiceless%20alveolo-palatal%20affricate.md):@:[Chinese](Chinese%20language.md) 北京/_Běi**j**īng_ \[peɪ˨˩ t͡ɕiŋ˥\] "[Beijing](Beijing.md)" <!--SR:!fsrs,2026-07-11T05:59:51.276Z,26,26.32780859,9.23597837,2,5,0,0,2026-06-15T05:59:51.276Z-->
-- [voiceless retroflex affricate](voiceless%20retroflex%20affricate.md):@:[Chinese](Chinese%20language.md) 中文/_**Zh**ōngwén_ \[ʈ̺͡ʂ̺ʊŋ˥ u̯ən˧˥\] "[Chinese language](Chinese%20language.md)" <!--SR:!fsrs,2026-06-21T02:05:13.255Z,13,12.8680194,9.98522837,2,4,0,0,2026-06-08T02:05:13.255Z-->
+- [voiceless retroflex affricate](voiceless%20retroflex%20affricate.md):@:[Chinese](Chinese%20language.md) 中文/_**Zh**ōngwén_ \[ʈ̺͡ʂ̺ʊŋ˥ u̯ən˧˥\] "[Chinese language](Chinese%20language.md)" <!--SR:!fsrs,2026-07-08T00:00:00.000Z,16,15.80236504,9.97542228,2,5,0,0,2026-06-22T00:00:00.000Z-->
 - [close back rounded vowel](close%20back%20rounded%20vowel.md):@:[English](English%20language.md) _b**oo**t_ \[bu̟ːt\] <!--SR:!2027-01-15,476,191-->
 - [near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md):@:[English](English%20language.md) _h**oo**k_ \[hʊʔk\] <!--SR:!2026-09-10,131,150-->
 - [close central rounded vowel](close%20central%20rounded%20vowel.md):@:[English](English%20language.md) _g**oo**se_ \[ɡʉːs\] <!--SR:!2026-10-22,146,130-->

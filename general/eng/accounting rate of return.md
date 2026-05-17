@@ -56,7 +56,7 @@ where:
 
 1. This technique is based on {@{profits rather than [cash flow](cash%20flow.md)}@}. It {@{ignores cash flow from investment}@}. Therefore, it can be {@{affected by non-cash items}@} such as {@{[bad debts](bad%20debt.md) and [depreciation](depreciation.md) when calculating profits}@}. {@{The change of methods for depreciation}@} can be {@{manipulated and lead to higher profits}@}.
 2. This technique does not {@{adjust for the risk}@} to {@{long term [forecasts](forecasting.md)}@}.
-3. ARR doesn't {@{take into account}@} {@{the [time value of money](time%20value%20of%20money.md)}@}. <!--SR:!2026-07-22,272,330!2026-06-23,250,330!2026-07-26,275,330!2026-07-07,260,330!2026-07-23,273,330!2026-07-18,269,330!2026-06-22,249,330!2029-05-02,1064,350!2026-07-23,272,330!2026-06-29,255,330-->
+3. ARR doesn't {@{take into account}@} {@{the [time value of money](time%20value%20of%20money.md)}@}. <!--SR:!2026-07-22,272,330!2026-06-23,250,330!2026-07-26,275,330!2026-07-07,260,330!2026-07-23,273,330!2026-07-18,269,330!fsrs,2029-06-29T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-06-22T00:00:00.000Z!2029-05-02,1064,350!2026-07-23,272,330!2026-06-29,255,330-->
 
 ## see also
 
