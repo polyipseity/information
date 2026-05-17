@@ -416,7 +416,7 @@ return chain.from_iterable([r.value for r in results])
 - hydrogensulfite ion::@::HSO<sub>3</sub><sup>-</sup> <!--SR:!2028-02-10,1564,290!2027-04-29,1416,314-->
 - hydrogensulfate ion::@::HSO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-19,1641,367!2040-11-25,5426,370-->
 - permanganate ion::@::MnO<sub>4</sub><sup>-</sup> <!--SR:!2027-09-07,1459,293!2026-09-01,1005,253-->
-- oxide ion::@::O<sup>2-</sup> <!--SR:!2032-05-06,2826,330!2026-06-30,1200,313-->
+- oxide ion::@::O<sup>2-</sup> <!--SR:!2032-05-06,2826,330!fsrs,2037-10-15T00:00:00.000Z,4124,4123.62865948,1,2,11,0,0,2026-07-01T00:00:00.000Z-->
 - sulfide ion::@::S<sup>2-</sup> <!--SR:!2029-01-11,1794,287!2030-05-27,2286,330-->
 - sulfate ion::@::SO<sub>4</sub><sup>2-</sup> <!--SR:!2030-11-15,2375,319!2035-09-11,3620,345-->
 - sulfite ion::@::SO<sub>3</sub><sup>2-</sup> <!--SR:!2028-08-21,1757,313!2026-07-16,1061,274-->

@@ -17,7 +17,7 @@ tags:
 - move window::@::Alt+Space, M, ↑/↓/←/→, ↵Enter <!--SR:!2027-02-20,979,270!2036-03-01,3725,350-->
 - resize window::@::Alt+Space, S, ↑/↓/←/→, ↵Enter <!--SR:!2026-12-03,410,170!2032-06-13,2547,310-->
 - move window to bottom::@::Alt+Esc <!--SR:!2027-03-20,610,230!2029-01-04,1271,270-->
-- minimize window::@::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!2026-06-30,495,190!2029-02-05,1442,270-->
+- minimize window::@::<ul><li>Alt+Space, N</li><li>⊞Win+↓</li></ul> <!--SR:!fsrs,2029-06-08T00:00:00.000Z,1073,1073.23846471,6.98338322,2,10,0,0,2026-07-01T00:00:00.000Z!2029-02-05,1442,270-->
 - maximize window::@::<ul><li>Alt+Space, X</li><li>⊞Win+↑</li></ul> <!--SR:!2026-10-28,433,210!2029-12-06,1597,270-->
 - maximize window vertically::@::⊞Win+⇧Shift+↑ <!--SR:!2027-07-25,712,250!2027-05-24,631,230-->
 - minimize all windows::@::<ul><li>⊞Win+M</li><li>⊞Win+D</li></ul> <!--SR:!2026-11-05,546,190!2028-08-12,1293,270-->
@@ -30,6 +30,6 @@ tags:
 - close dialog::@::Esc <!--SR:!2027-03-17,1187,350!2027-04-22,1164,310-->
 - toggle program on taskbar::@::⊞Win+(taskbar #) <!--SR:!2031-02-02,2126,290!2026-08-17,894,270-->
 - open new program on taskbar::@::⊞Win+⇧Shift+(taskbar #) <!--SR:!2027-03-25,610,230!2027-08-17,643,250-->
-- cycle taskbar::@::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2027-11-04,997,230!2026-06-30,570,210-->
+- cycle taskbar::@::⊞Win+T, ⊞Win+T/←/→ <!--SR:!2027-11-04,997,230!fsrs,2030-04-01T00:00:00.000Z,1370,1370.31956247,5.98276817,2,10,0,0,2026-07-01T00:00:00.000Z-->
 - peek at desktop::@::⊞Win+Comma <!--SR:!2027-11-01,1058,270!2031-06-02,2164,290-->
 - manage external displays::@::⊞Win+P <!--SR:!2027-08-05,1009,250!2029-04-01,1303,250-->

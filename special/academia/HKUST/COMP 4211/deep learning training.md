@@ -205,7 +205,7 @@ Flashcards for this section are as follows:
 - why Adam's first moment is not literally classical momentum ::@:: Adam's $m_t$ is not itself the final step because it must still be bias-corrected and divided by the adaptive denominator $\sqrt{\hat v_t}+\varepsilon$. <!--SR:!2026-08-17,77,336!2026-08-16,76,336-->
 - typical momentum coefficients $0.5$, $0.9$, and $0.99$ ::@:: The lecture notes typical momentum hyperparameters such as $0.5$, $0.9$, and $0.99$. <!--SR:!2026-08-09,69,319!2026-07-27,56,316-->
 - given $\beta=0.9$, previous velocity $v_{t-1}=-0.4$, gradient $g_t=3$, learning rate $\eta=0.1$, and parameter $\theta_t=5$, compute $v_t$ and $\theta_{t+1}$ for momentum SGD ::@:: We get $v_t=0.9(-0.4)-0.1(3)=-0.66$ and $\theta_{t+1}=5-0.66=4.34$. <!--SR:!fsrs,2026-11-09T10:17:24.548Z,148,147.87140556,2.53064624,2,6,0,0,2026-06-14T10:17:24.548Z!2026-08-17,77,336-->
-- given $\beta_1=0.9$, previous Adam first moment $m_{t-1}=0.6$, and current gradient $g_t=3$, compute the new first moment $m_t$ ::@:: We get $m_t=0.9(0.6)+0.1(3)=0.84$. <!--SR:!2026-06-30,47,316!2026-08-17,77,336-->
+- given $\beta_1=0.9$, previous Adam first moment $m_{t-1}=0.6$, and current gradient $g_t=3$, compute the new first moment $m_t$ ::@:: We get $m_t=0.9(0.6)+0.1(3)=0.84$. <!--SR:!fsrs,2027-03-07T00:00:00.000Z,249,249.1572878,1,2,7,0,0,2026-07-01T00:00:00.000Z!2026-08-17,77,336-->
 
 ### adaptive learning rates: AdaGrad and RMSProp
 

@@ -993,7 +993,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md):@:[English](English%20language.md) _f**oo**t_ \[fɵʔt\] <!--SR:!2026-12-20,222,170-->
 - [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _j**eu**ne_ \[ʒœn\] "young" <!--SR:!fsrs,2026-08-27T03:37:47.546Z,73,72.59289718,9.98522837,2,7,0,0,2026-06-15T03:37:47.546Z-->
 - [nasalized open-mid front rounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _br**un**_ \[bʁœ̃\] "brown" <!--SR:!fsrs,2026-08-21T00:00:00.000Z,59,58.56281169,9.98522837,2,7,0,0,2026-06-23T00:00:00.000Z-->
-- [open front rounded vowel](open%20front%20rounded%20vowel.md):@:[Danish](Danish%20language.md) _gr**ø**n_ \[ˈkʁɶ̝nˀ\] "green" <!--SR:!fsrs,2026-06-30T15:30:47.311Z,16,15.90144213,9.98522837,2,4,0,0,2026-06-14T15:30:47.311Z-->
+- [open front rounded vowel](open%20front%20rounded%20vowel.md):@:[Danish](Danish%20language.md) _gr**ø**n_ \[ˈkʁɶ̝nˀ\] "green" <!--SR:!fsrs,2026-07-28T00:00:00.000Z,27,26.6694074,9.96552075,2,5,0,0,2026-07-01T00:00:00.000Z-->
 - [voiceless bilabial plosive](voiceless%20bilabial%20plosive.md):@:[English](English%20language.md) _**p**ack_ \[pʰæk\] <!--SR:!2028-04-13,1043,271-->
 - [voiceless uvular plosive](voiceless%20uvular%20plosive.md):@:[Arabic](Arabic%20language.md) قط/_**q**iṭṭ_ \[qitˤː\] "cat" <!--SR:!fsrs,2026-07-07T00:00:00.000Z,12,11.69806686,9.97542228,2,5,0,0,2026-06-25T00:00:00.000Z-->
 - [voiced alveolar trill](voiced%20alveolar%20trill.md):@:[Spanish](Spanish%20language.md) _pe**rr**o_ \[ˈpe̞ro̞\] "dog" <!--SR:!2026-07-29,86,171-->
@@ -1007,7 +1007,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md):@:[English](English%20language.md) _**sh**eep_ \[ˈʃiːp\] <!--SR:!2026-08-04,265,191-->
 - [voiceless retroflex fricative](voiceless%20retroflex%20fricative.md):@:[Polish](Polish%20language.md) _**sz**um_ \[ʂ̻um\] "rustle" <!--SR:!2026-07-31,84,130-->
 - [voiceless alveolar plosive](voiceless%20alveolar%20plosive.md):@:[English](English%20language.md) _**t**ick_ \[tʰɪk\] <!--SR:!fsrs,2029-12-26T05:59:30.974Z,1290,1289.92569925,4.70301587,2,10,0,0,2026-06-15T05:59:30.974Z-->
-- [voiceless retroflex plosive](voiceless%20retroflex%20plosive.md):@:[Norwegian](Norwegian%20language.md) _ko**rt**_ \[kɔʈː\] "card" <!--SR:!2026-06-30,48,171-->
+- [voiceless retroflex plosive](voiceless%20retroflex%20plosive.md):@:[Norwegian](Norwegian%20language.md) _ko**rt**_ \[kɔʈː\] "card" <!--SR:!fsrs,2026-09-22T00:00:00.000Z,83,82.94106728,8.44926587,2,7,0,0,2026-07-01T00:00:00.000Z-->
 - [voiceless alveolar affricate](voiceless%20alveolar%20affricate.md):@:[English](English%20language.md) _**t**ea_ \[ˈt͡sɪˑi̯\] <!--SR:!fsrs,2026-08-12T05:59:53.885Z,58,57.66052468,8.96456423,2,6,0,0,2026-06-15T05:59:53.885Z-->
 - [voiceless postalveolar affricate](voiceless%20postalveolar%20affricate.md):@:[English](English%20language.md) _bea**ch**_ \[biːt͡ʃ\] <!--SR:!2026-10-15,253,231-->
 - [voiceless alveolo-palatal affricate](voiceless%20alveolo-palatal%20affricate.md):@:[Chinese](Chinese%20language.md) 北京/_Běi**j**īng_ \[peɪ˨˩ t͡ɕiŋ˥\] "[Beijing](Beijing.md)" <!--SR:!fsrs,2026-07-11T05:59:51.276Z,26,26.32780859,9.23597837,2,5,0,0,2026-06-15T05:59:51.276Z-->

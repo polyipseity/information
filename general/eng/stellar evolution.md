@@ -63,7 +63,7 @@ In {@{massive stars}@}, the core is {@{already large enough at the onset of the 
 
 #### supernova
 
-- see: ::@:: [supernova](supernova.md) <!--SR:!2026-06-30,98,384!fsrs,2027-12-13T00:00:00.000Z,537,537.38840954,1,2,8,0,0,2026-06-24T00:00:00.000Z-->
+- see: ::@:: [supernova](supernova.md) <!--SR:!fsrs,2028-01-14T00:00:00.000Z,562,562.03288223,1,2,8,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-12-13T00:00:00.000Z,537,537.38840954,1,2,8,0,0,2026-06-24T00:00:00.000Z-->
 
 When {@{the core of a massive star collapses}@}, it will {@{form a [neutron star](neutron%20star.md), or in the case of cores that exceed the Tolman–Oppenheimer–Volkoff limit, a [black hole](black%20hole.md)}@}. Through {@{a process that is not completely understood}@}, some of the [gravitational potential energy](gravitational%20energy.md) {@{released by this core collapse is converted into a Type Ib, Type Ic, or Type II [supernova](supernova.md)}@}. It is known that the core collapse produces {@{a massive surge of [neutrinos](neutrino.md)}@}, as observed with supernova [SN 1987A](SN%201987A.md). <!--SR:!fsrs,2032-04-16T00:00:00.000Z,2117,2116.64503113,1,2,10,0,0,2026-06-30T00:00:00.000Z!2027-07-25,820,330!2028-01-27,986,348!2028-09-27,1110,308!2027-08-17,847,330-->
 

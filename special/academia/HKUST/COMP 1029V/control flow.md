@@ -77,7 +77,7 @@ Loop
 
 The semantics of `Do While...Loop` is {@{that the condition is executed first. If the condition is `True`, the statement is executed and then we repeat the above process again. If the condition is `False`, the `Do While...Loop` statement ends its execution}@}. You can see it is exactly {@{the same as that for [`While...Wend`](#`While`)}@}. The only difference is that you cannot {@{prematurely end a loop in `While...Wend`, while you can do so for `Do While...Loop`}@}. <!--SR:!2027-03-11,790,321!2027-10-08,1020,341!2027-04-20,800,301-->
 
-One can also first run the statement block instead of the condition by using a `Do...Loop While` statement, which consists of {@{a statement block and a condition}@}: <!--SR:!2026-06-30,650,321-->
+One can also first run the statement block instead of the condition by using a `Do...Loop While` statement, which consists of {@{a statement block and a condition}@}: <!--SR:!fsrs,2033-04-07T00:00:00.000Z,2472,2471.7787706,1,2,10,0,0,2026-07-01T00:00:00.000Z-->
 
 ```VB
 Do

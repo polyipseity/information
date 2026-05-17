@@ -85,7 +85,7 @@ The content is in teaching order.
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
 - week 2 exercise: 1/1, graded
-  - Can a list be sliced? ::@:: Yes! But you cannot use this in exercises or exams. <!--SR:!fsrs,2032-07-31T03:29:39.606Z,2238,2238.24127719,1,2,10,0,0,2026-06-15T03:29:39.606Z!2026-06-30,499,386-->
+  - Can a list be sliced? ::@:: Yes! But you cannot use this in exercises or exams. <!--SR:!fsrs,2032-07-31T03:29:39.606Z,2238,2238.24127719,1,2,10,0,0,2026-06-15T03:29:39.606Z!fsrs,2032-10-07T00:00:00.000Z,2290,2290.14865099,1,2,10,0,0,2026-07-01T00:00:00.000Z-->
 - [week 3 lab attendance waiver](assignments/lab%202/lab%202%20waiver%20submission.ipynb): 1/1, graded
 
 ## week 2 lab

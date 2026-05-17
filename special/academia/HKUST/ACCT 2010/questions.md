@@ -421,7 +421,7 @@ tags:
 > 3. both of them
 >
 > - solution: {@{3}@}
-> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@} <!--SR:!2026-07-10,462,381!2026-06-30,454,381-->
+> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@} <!--SR:!2026-07-10,462,381!fsrs,2032-04-10T00:00:00.000Z,2110,2109.71841691,1,2,10,0,0,2026-07-01T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -656,7 +656,7 @@ tags:
 > 2. unissued shares
 > 3. authorized shares
 >
-> - solution: {@{2}@} <!--SR:!2026-06-30,454,381-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-04-10T00:00:00.000Z,2110,2109.71841691,1,2,10,0,0,2026-07-01T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
