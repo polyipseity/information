@@ -167,7 +167,7 @@ Since {@{the log likelihood of a normal vector}@} is {@{a [quadratic form](quadr
 
 ### differential entropy
 
-{@{The [differential entropy](differential%20entropy.md)}@} of the multivariate normal distribution is<sup>[\[19\]](#^ref-19)</sup> {@{$${\begin{aligned}h\left(f\right)&=-\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }\cdots \int _{-\infty }^{\infty }f(\mathbf {x} )\ln f(\mathbf {x} )\,d\mathbf {x} \\[1ex]&={\frac {1}{2} }\ln \left|2\pi e{\boldsymbol {\Sigma } }\right|={\frac {k}{2} }\left(1+\ln 2\pi \right)+{\frac {1}{2} }\ln \left|{\boldsymbol {\Sigma } }\right|,\end{aligned} }$$}@} where the bars denote {@{the [matrix determinant](determinant.md)}@}, _k_ is {@{the dimensionality of the vector space}@}, and the result has {@{units of [nats](nat%20(unit).md)}@}. <!--SR:!2027-07-19,431,382!2026-07-12,129,322!2027-06-19,403,368!2027-07-21,434,382!2027-02-09,285,342-->
+{@{The [differential entropy](differential%20entropy.md)}@} of the multivariate normal distribution is<sup>[\[19\]](#^ref-19)</sup> {@{$${\begin{aligned}h\left(f\right)&=-\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }\cdots \int _{-\infty }^{\infty }f(\mathbf {x} )\ln f(\mathbf {x} )\,d\mathbf {x} \\[1ex]&={\frac {1}{2} }\ln \left|2\pi e{\boldsymbol {\Sigma } }\right|={\frac {k}{2} }\left(1+\ln 2\pi \right)+{\frac {1}{2} }\ln \left|{\boldsymbol {\Sigma } }\right|,\end{aligned} }$$}@} where the bars denote {@{the [matrix determinant](determinant.md)}@}, _k_ is {@{the dimensionality of the vector space}@}, and the result has {@{units of [nats](nat%20(unit).md)}@}. <!--SR:!2027-07-19,431,382!fsrs,2028-03-11T00:00:00.000Z,607,606.62542121,1,2,8,0,0,2026-07-13T00:00:00.000Z!2027-06-19,403,368!2027-07-21,434,382!2027-02-09,285,342-->
 
 ### Kullback–Leibler divergence
 

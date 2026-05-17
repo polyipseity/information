@@ -29,7 +29,7 @@ One can obtain the lower bound and upper bound, both inclusive, via {@{`LBound(a
 
 ## interaction with range
 
-Assigning `Range` values from an array {@{can be done using simple assignment}@}: <!--SR:!2026-07-12,612,310-->
+Assigning `Range` values from an array {@{can be done using simple assignment}@}: <!--SR:!fsrs,2032-09-16T00:00:00.000Z,2257,2257.13049001,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
 
 ```VB
 Dim NumberArray(0 To 2) As Integer

@@ -355,7 +355,7 @@ Indoor Air Quality
 Climate Change — Greenhouse Gas Emission (Global Air Pollution)
 
 - [greenhouse gases](#greenhouse%20gases)
-- climate change consequences for animals ::@:: polar bears losing their natural habitats <!--SR:!2026-07-12,596,330!2028-07-15,1178,350-->
+- climate change consequences for animals ::@:: polar bears losing their natural habitats <!--SR:!fsrs,2032-12-29T00:00:00.000Z,2361,2360.99224701,1,2,10,0,0,2026-07-13T00:00:00.000Z!2028-07-15,1178,350-->
 
 ### greenhouse gases
 

@@ -283,7 +283,7 @@ The content is in teaching order.
     - cost behavior / linear regression / disadvantages ::@:: scattergraph: inexact, subjective <br/> high—low method: uses only two data points at the extreme but not at the middle <br/> least squares: requires proper interpretation, uses more assumptions and data <!--SR:!2026-12-27,532,406!2026-11-30,514,406-->
 - [contribution margin](../../../../general/contribution%20margin.md) ::@:: the selling price per unit minus the variable cost per unit <p> \(__this course__: sales revenue minus variable costs\) <!--SR:!2026-10-25,485,406!2027-01-11,547,406-->
   - contribution margin / ratio ::@:: contribution margin per unit / selling price per unit <p> \(__this course__: contribution margin / sales revenue\) <!--SR:!fsrs,2031-03-09T05:07:08.293Z,1729,1729.13709443,1,2,9,0,0,2026-06-14T05:07:08.293Z!fsrs,2031-06-28T00:00:00.000Z,1812,1812.0987331,1,2,10,0,0,2026-07-12T00:00:00.000Z-->
-  - contribution margin / increased ::@:: It can also be used to account for increased sales. <p> You may use a _table_: <p> increased sales <br/> less: increased variable costs <br/> \(subtotal:\) increased contribution margin <br/> less: increased fixed costs <br/> \(total:\) increased net operating income <!--SR:!2026-07-12,383,386!2027-12-09,785,366-->
+  - contribution margin / increased ::@:: It can also be used to account for increased sales. <p> You may use a _table_: <p> increased sales <br/> less: increased variable costs <br/> \(subtotal:\) increased contribution margin <br/> less: increased fixed costs <br/> \(total:\) increased net operating income <!--SR:!fsrs,2031-07-07T00:00:00.000Z,1820,1820.34274452,1,2,10,0,0,2026-07-13T00:00:00.000Z!2027-12-09,785,366-->
 
 ## week 6 lecture
 

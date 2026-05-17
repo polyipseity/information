@@ -41,7 +41,7 @@ If {@{only a small number of ω are desired}@}, or if {@{the STFT is desired to 
 
 ## inverse STFT
 
-The STFT is {@{[invertible](invertible%20function.md)}@}, that is, {@{the original signal can be recovered from the transform by the inverse STFT}@}. {@{The most widely accepted way of inverting the STFT}@} is by using {@{the [overlap-add \(OLA\) method](overlap–add%20method.md)}@}, which also allows for {@{modifications to the STFT complex spectrum}@}. This makes for {@{a versatile signal processing method}@},<sup>[\[3\]](#^ref-3)</sup> referred to as {@{the _overlap and add with modifications_ method}@}. <!--SR:!fsrs,2029-12-05T00:00:00.000Z,1248,1248.19227538,1,2,9,0,0,2026-07-06T00:00:00.000Z!2026-09-14,347,349!2026-09-18,351,349!2026-08-30,335,349!2026-07-12,297,349!fsrs,2029-09-18T03:22:52.356Z,1191,1191.26470738,1,2,9,0,0,2026-06-15T03:22:52.356Z!2026-09-14,347,349-->
+The STFT is {@{[invertible](invertible%20function.md)}@}, that is, {@{the original signal can be recovered from the transform by the inverse STFT}@}. {@{The most widely accepted way of inverting the STFT}@} is by using {@{the [overlap-add \(OLA\) method](overlap–add%20method.md)}@}, which also allows for {@{modifications to the STFT complex spectrum}@}. This makes for {@{a versatile signal processing method}@},<sup>[\[3\]](#^ref-3)</sup> referred to as {@{the _overlap and add with modifications_ method}@}. <!--SR:!fsrs,2029-12-05T00:00:00.000Z,1248,1248.19227538,1,2,9,0,0,2026-07-06T00:00:00.000Z!2026-09-14,347,349!2026-09-18,351,349!2026-08-30,335,349!fsrs,2030-04-12T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-07-13T00:00:00.000Z!fsrs,2029-09-18T03:22:52.356Z,1191,1191.26470738,1,2,9,0,0,2026-06-15T03:22:52.356Z!2026-09-14,347,349-->
 
 <!-- markdownlint-disable-next-line MD024 -->
 ### continuous-time STFT
@@ -143,7 +143,7 @@ Original function {@{$$X(t,f)=\int _{-\infty }^{\infty }w(t-\tau )x(\tau )e^{-j2
 
 Converting into {@{the discrete form}@}: {@{$$t=n\Delta _{t},f=m\Delta _{f},\tau =p\Delta _{t}$$}@} <br/> {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{-\infty }^{\infty }w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!fsrs,2029-09-15T03:23:50.568Z,1188,1188.45162933,1,2,9,0,0,2026-06-15T03:23:50.568Z!2028-05-07,744,349!2026-07-31,238,381-->
 
-Suppose that {@{$$w(t)\cong 0{\text{ for } }|t|>B,{\frac {B}{\Delta _{t} } }=Q$$ \(annotation: the window function has finite support around zero\)}@} Then we can write the original function into {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!2026-08-27,333,349!2026-07-12,244,270-->
+Suppose that {@{$$w(t)\cong 0{\text{ for } }|t|>B,{\frac {B}{\Delta _{t} } }=Q$$ \(annotation: the window function has finite support around zero\)}@} Then we can write the original function into {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!2026-08-27,333,349!fsrs,2028-11-21T00:00:00.000Z,862,861.60807309,2.98092302,2,9,0,0,2026-07-13T00:00:00.000Z-->
 
 ### direct implementation
 

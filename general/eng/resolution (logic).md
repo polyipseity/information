@@ -80,7 +80,7 @@ Here x is {@{a variable}@} and b is {@{a constant}@}. {@{$${\frac {P(x),Q(x)\,\,
 - $Q(b)$ \(the resolvent of the premises\) ::@:: is its conclusion. <!--SR:!2029-08-20,1179,350!fsrs,2029-09-18T03:25:45.760Z,1191,1191.26470738,1,2,9,0,0,2026-06-15T03:25:45.760Z-->
 - The literal $P(x)$ ::@:: is the left resolved literal, <!--SR:!fsrs,2029-09-29T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-06-18T00:00:00.000Z!fsrs,2029-09-03T14:27:10.949Z,1179,1179.41935434,1,2,9,0,0,2026-06-12T14:27:10.949Z-->
 - The literal $\neg P(b)$ ::@:: is the right resolved literal, <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-20T00:00:00.000Z!fsrs,2029-09-11T03:25:43.350Z,1184,1183.64577796,1,2,9,0,0,2026-06-15T03:25:43.350Z-->
-- $P$ ::@:: is the resolved atom or pivot. <!--SR:!2029-08-28,1185,350!2026-07-12,293,330-->
+- $P$ ::@:: is the resolved atom or pivot. <!--SR:!2029-08-28,1185,350!fsrs,2030-01-04T00:00:00.000Z,1271,1270.8605613,1,2,9,0,0,2026-07-13T00:00:00.000Z-->
 - $[b/x]$ ::@:: is the most general unifier of the resolved literals. <!--SR:!fsrs,2029-09-24T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-06-17T00:00:00.000Z!2029-06-04,1117,350-->
 
 ### informal explanation
@@ -103,7 +103,7 @@ Or, more generally:
 > $P(a)$ <br/>
 > Therefore, $Q(a)$ <!--SR:!fsrs,2029-10-26T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-06-26T00:00:00.000Z-->
 
-To {@{recast the reasoning using the resolution technique}@}, first the clauses must be {@{converted to [conjunctive normal form](conjunctive%20normal%20form.md) \(CNF\)}@}. In this form, {@{all [quantification](quantification%20(logic).md) becomes implicit}@}: {@{[universal quantifiers](universal%20quantification.md) on variables \(_X_, _Y_, ...\)}@} are {@{simply omitted as understood}@}, while {@{[existentially-quantified](existential%20quantification.md) variables}@} are {@{replaced by [Skolem functions](Skolem%20function.md)}@}. <!--SR:!fsrs,2029-09-13T02:19:51.560Z,1187,1187.45608877,1,2,9,0,0,2026-06-14T02:19:51.560Z!2029-04-11,1076,350!2026-07-12,293,330!fsrs,2029-09-12T02:19:47.816Z,1186,1186.0509745,1,2,9,0,0,2026-06-14T02:19:47.816Z!fsrs,2029-09-13T02:19:13.229Z,1187,1187.45608877,1,2,9,0,0,2026-06-14T02:19:13.229Z!2029-09-04,1190,350!fsrs,2029-09-18T03:25:42.117Z,1191,1191.26470738,1,2,9,0,0,2026-06-15T03:25:42.117Z-->
+To {@{recast the reasoning using the resolution technique}@}, first the clauses must be {@{converted to [conjunctive normal form](conjunctive%20normal%20form.md) \(CNF\)}@}. In this form, {@{all [quantification](quantification%20(logic).md) becomes implicit}@}: {@{[universal quantifiers](universal%20quantification.md) on variables \(_X_, _Y_, ...\)}@} are {@{simply omitted as understood}@}, while {@{[existentially-quantified](existential%20quantification.md) variables}@} are {@{replaced by [Skolem functions](Skolem%20function.md)}@}. <!--SR:!fsrs,2029-09-13T02:19:51.560Z,1187,1187.45608877,1,2,9,0,0,2026-06-14T02:19:51.560Z!2029-04-11,1076,350!fsrs,2030-01-04T00:00:00.000Z,1271,1270.8605613,1,2,9,0,0,2026-07-13T00:00:00.000Z!fsrs,2029-09-12T02:19:47.816Z,1186,1186.0509745,1,2,9,0,0,2026-06-14T02:19:47.816Z!fsrs,2029-09-13T02:19:13.229Z,1187,1187.45608877,1,2,9,0,0,2026-06-14T02:19:13.229Z!2029-09-04,1190,350!fsrs,2029-09-18T03:25:42.117Z,1191,1191.26470738,1,2,9,0,0,2026-06-15T03:25:42.117Z-->
 
 > \(annotation: {@{example 1 in symbols with implicit quantification}@}\)
 >

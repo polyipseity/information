@@ -271,7 +271,7 @@ The content is in teaching order.
   - inventory / types ::@:: Two main types depending on if you are a merchandiser or a manufacturer. <!--SR:!2026-09-25,531,403!2026-07-27,481,403-->
     - inventory / types / merchandiser ::@:: merchandise inventory <!--SR:!2031-06-08,1912,403!2026-09-08,515,396-->
     - inventory / types / manufacturer ::@:: raw materials inventory → work-in-process inventory → finished goods inventory <!--SR:!2031-09-08,1986,403!2027-10-08,763,363-->
-- [inventory valuation](../../../../general/inventory%20valuation.md) ::@:: 2 main methods to value your inventory: perpetual inventory, periodic inventory <!--SR:!2026-08-31,510,403!2026-07-12,469,403-->
+- [inventory valuation](../../../../general/inventory%20valuation.md) ::@:: 2 main methods to value your inventory: perpetual inventory, periodic inventory <!--SR:!2026-08-31,510,403!fsrs,2032-06-21T00:00:00.000Z,2170,2170.09977723,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
   - [periodic inventory](../../../../general/periodic%20inventory.md) ::@:: A physical inventory (counting the entire inventory) is taken at year end to determine the cost of goods sold. <!--SR:!2026-08-12,492,403!2026-09-22,528,403-->
   - [perpetual inventory](../../../../general/perpetual%20inventory.md) ::@:: Inventory is updated each time a quantity is added or taken-out. Still, a physical inventory (counting the entire inventory) is recommended at year end for inventory control, discovering lost goods, goods receipt problems, etc. <!--SR:!2026-08-20,499,396!2026-08-13,493,403-->
     - perpetual inventory / methods ::@:: 4 main methods: <br/> specific identification <br/> first-in, first-out (FIFO) <br/> last-in, first-out (LIFO) <br/> weighted average <!--SR:!2026-09-19,525,403!2026-08-09,489,396-->

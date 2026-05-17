@@ -62,7 +62,7 @@ The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = 
 
 ##### $x^2 \sin(1 / x^2)$
 
-The function is {@{$$f(x) = \begin{cases} x^2 \sin \frac 1 {x^2}, & x \ne 0 \\ 0, & x = 0 \end{cases}$$}@}. <!--SR:!2026-07-12,567,326-->
+The function is {@{$$f(x) = \begin{cases} x^2 \sin \frac 1 {x^2}, & x \ne 0 \\ 0, & x = 0 \end{cases}$$}@}. <!--SR:!fsrs,2032-08-20T00:00:00.000Z,2230,2230.3468557,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
 
 - derivative ::@:: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2027-10-21,531,286!2026-10-21,650,326-->
   - derivative integrability

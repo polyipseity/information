@@ -27,11 +27,11 @@ From {@{a mathematical perspective}@}, an eye pattern is a visualization of {@{t
 
 ### source data
 
-{@{The first step of computing an eye pattern}@} is normally to {@{obtain the waveform being analyzed in a quantized form}@}. This may be done by {@{measuring an actual electrical system}@} with {@{an oscilloscope of sufficient bandwidth}@}, or by creating {@{synthetic data with a [circuit simulator](circuit%20simulator.md)}@} in order to {@{evaluate the signal integrity of a proposed design}@}. {@{A combination of the two approaches}@} may be used as well: simulating the effects of {@{an arbitrary circuit or [transmission line](transmission%20line.md) on a measured signal}@}, perhaps to determine {@{whether a signal will still be intelligible after passing through a long cable}@}. {@{[Interpolation](interpolation.md)}@} may also be applied at this time in order to {@{increase the number of samples per unit interval \(UI\)}@} and produce {@{a smooth, gap-free plot}@} which is {@{more visually appealing and easier to understand}@}. <!--SR:!2026-08-25,272,330!2026-09-05,279,330!2026-08-23,268,330!2026-08-27,272,330!2026-07-31,251,330!2026-09-15,288,330!2026-09-16,289,330!2026-08-25,270,330!fsrs,2029-05-30T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-07-12T00:00:00.000Z!2026-08-08,258,330!2026-07-15,239,330!2026-09-07,281,330!2026-07-12,237,330-->
+{@{The first step of computing an eye pattern}@} is normally to {@{obtain the waveform being analyzed in a quantized form}@}. This may be done by {@{measuring an actual electrical system}@} with {@{an oscilloscope of sufficient bandwidth}@}, or by creating {@{synthetic data with a [circuit simulator](circuit%20simulator.md)}@} in order to {@{evaluate the signal integrity of a proposed design}@}. {@{A combination of the two approaches}@} may be used as well: simulating the effects of {@{an arbitrary circuit or [transmission line](transmission%20line.md) on a measured signal}@}, perhaps to determine {@{whether a signal will still be intelligible after passing through a long cable}@}. {@{[Interpolation](interpolation.md)}@} may also be applied at this time in order to {@{increase the number of samples per unit interval \(UI\)}@} and produce {@{a smooth, gap-free plot}@} which is {@{more visually appealing and easier to understand}@}. <!--SR:!2026-08-25,272,330!2026-09-05,279,330!2026-08-23,268,330!2026-08-27,272,330!2026-07-31,251,330!2026-09-15,288,330!2026-09-16,289,330!2026-08-25,270,330!fsrs,2029-05-30T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-07-12T00:00:00.000Z!2026-08-08,258,330!2026-07-15,239,330!2026-09-07,281,330!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z-->
 
 ### slicing
 
-Next, {@{the position of each sample within the UI}@} must be {@{determined}@}. There are {@{several methods for doing this}@} depending on {@{the characteristics of the signal and the capabilities of the oscilloscope and software}@} in use. This step is {@{critically important}@} for {@{accurate visualization of [jitter](jitter.md) in the eye}@}. <!--SR:!2026-08-30,276,330!2026-08-29,275,330!2026-08-20,268,330!2026-08-22,269,330!2026-07-12,237,330!2026-07-25,247,330-->
+Next, {@{the position of each sample within the UI}@} must be {@{determined}@}. There are {@{several methods for doing this}@} depending on {@{the characteristics of the signal and the capabilities of the oscilloscope and software}@} in use. This step is {@{critically important}@} for {@{accurate visualization of [jitter](jitter.md) in the eye}@}. <!--SR:!2026-08-30,276,330!2026-08-29,275,330!2026-08-20,268,330!2026-08-22,269,330!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z!2026-07-25,247,330-->
 
 #### triggering
 
@@ -77,7 +77,7 @@ The eye pattern of {@{a [NRZ](non-return-to-zero.md) \(annotation: non-return-to
 
 > {@{![Eye pattern of a 1.25 Gbit/s NRZ signal](../../archives/Wikimedia%20Commons/Eye%20pattern%20example.png)}@}
 >
-> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} <!--SR:!2026-08-10,259,330!2026-07-16,240,330!2026-07-12,237,330-->
+> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} <!--SR:!2026-08-10,259,330!2026-07-16,240,330!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z-->
 
 ### MLT-3
 
@@ -117,7 +117,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 {@{The eye pattern for a signal with emphasis}@} may be mistaken for that of {@{a PAM signal}@} at first glance, however {@{closer inspection}@} reveals {@{some key differences}@}. Most notably, {@{an emphasized signal}@} has {@{a limited set of legal transitions}@}: <!--SR:!2026-08-16,264,330!2026-08-28,273,330!2026-09-15,288,330!2026-07-14,238,330!2026-07-22,245,330!2026-07-16,240,330-->
 
-- Strong state to corresponding weak state ::@:: \(1-1 or 0-0 bit pattern\) <!--SR:!2026-07-12,237,330!2026-09-01,276,330-->
+- Strong state to corresponding weak state ::@:: \(1-1 or 0-0 bit pattern\) <!--SR:!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z!2026-09-01,276,330-->
 - Strong state to opposite strong state ::@:: \(second transition of a 1-0-1 or 0-1-0 bit pattern\) <!--SR:!fsrs,2029-05-30T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-07-12T00:00:00.000Z!2026-09-18,290,330-->
 - Weak state to opposite strong state ::@:: \(second transition of a 1-1-0 or 0-0-1 bit pattern\) <!--SR:!2026-08-02,254,330!2026-08-23,270,330-->
 

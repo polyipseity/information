@@ -358,7 +358,7 @@ Batch normalization is the deep-learning analogue of extending that idea inward.
 
 Flashcards for this section are as follows:
 
-- why feature-scale mismatch hurts training ::@:: Features on very different numeric scales create elongated loss contours and poorly balanced gradients, which slows optimization. <!--SR:!2026-07-12,56,310!2026-08-14,74,336-->
+- why feature-scale mismatch hurts training ::@:: Features on very different numeric scales create elongated loss contours and poorly balanced gradients, which slows optimization. <!--SR:!fsrs,2027-04-22T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-13T00:00:00.000Z!2026-08-14,74,336-->
 - why normalization helps before deep modeling ::@:: Standardizing raw features makes the optimization geometry more balanced before the data enters the network, reducing avoidable anisotropy. <!--SR:!2026-08-13,75,336!2026-08-17,77,336-->
 - raw-input version of the feature-scale problem ::@:: Data normalization addresses at the input layer the same basic geometry problem that uneven feature scales cause for optimization and regularization more generally. <!--SR:!2026-08-10,70,319!2026-08-15,77,336-->
 - valley-geometry intuition for scale mismatch ::@:: Feature-scale mismatch stretches the loss into a long narrow valley, so one global learning rate must be small enough for the steep direction and therefore becomes slow in the shallow direction. <!--SR:!2026-08-17,77,336!2026-08-17,77,336-->

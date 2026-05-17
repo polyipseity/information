@@ -61,7 +61,7 @@ When the term _generating function_ is used without qualification, it is usually
 
 ### Poisson generating function
 
-The _Poisson generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$\operatorname {PG} (a_{n};x)=\sum _{n=0}^{\infty }a_{n}e^{-x}{\frac {x^{n} }{n!} }=e^{-x}\,\operatorname {EG} (a_{n};x)\,.$$}@} <!--SR:!2026-07-12,443,310!2026-07-16,407,270-->
+The _Poisson generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is {@{$$\operatorname {PG} (a_{n};x)=\sum _{n=0}^{\infty }a_{n}e^{-x}{\frac {x^{n} }{n!} }=e^{-x}\,\operatorname {EG} (a_{n};x)\,.$$}@} <!--SR:!fsrs,2031-03-09T00:00:00.000Z,1700,1700.26729261,1,2,10,0,0,2026-07-13T00:00:00.000Z!2026-07-16,407,270-->
 
 ### Lambert series
 

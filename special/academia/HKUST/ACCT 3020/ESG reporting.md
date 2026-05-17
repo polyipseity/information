@@ -26,9 +26,9 @@ Flashcards for this section are as follows:
 
 - ESG: what the letters stand for ::@:: Environmental, social, and governance. <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-13,63,310-->
 - ESG: examples of environmental issues ::@:: Greenhouse gas emissions, energy consumption and efficiency, waste reduction and recycling, and climate-change strategies. <!--SR:!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
-- ESG: examples of social issues ::@:: Fair wages, employee benefits, occupational safety and health, training and development, diversity and inclusion, and community impact. <!--SR:!2026-07-12,62,310!2026-07-15,65,310-->
+- ESG: examples of social issues ::@:: Fair wages, employee benefits, occupational safety and health, training and development, diversity and inclusion, and community impact. <!--SR:!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z!2026-07-15,65,310-->
 - ESG: examples of governance issues ::@:: Board structure and oversight, internal control and risk management, anti–corruption and anti–bribery policies and procedures. <!--SR:!2026-07-14,64,310!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
-- ESG in this course: main focus ::@:: Understand what ESG means, why it affects risk and valuation, and how it is reported and regulated in Hong Kong, rather than computing detailed emission factors. <!--SR:!2026-07-12,62,310!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
+- ESG in this course: main focus ::@:: Understand what ESG means, why it affects risk and valuation, and how it is reported and regulated in Hong Kong, rather than computing detailed emission factors. <!--SR:!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 
 ## international ESG frameworks
 
@@ -131,8 +131,8 @@ Flashcards for this section are as follows:
 
 - ESG board statement: what responsibility must the board acknowledge? ::@:: That the board itself is responsible for oversight of ESG issues. <!--SR:!2026-07-23,72,328!2026-07-23,72,328-->
 - ESG board statement: what three things should it cover? ::@:: Board responsibility, the board's ESG approach and processes, and how the board reviewed ESG performance during the year. <!--SR:!2026-07-22,71,328!2026-07-21,71,328-->
-- ESG reporting in Hong Kong: two requirement types ::@:: Mandatory disclosure (must disclose) and "comply or explain" disclosure (either comply or explain non‑compliance). <!--SR:!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-12,62,310-->
-- ESG board statement: three key elements ::@:: (1) Board's responsibility for ESG oversight; (2) board's approach, strategy and processes for managing ESG; (3) how the board reviewed ESG performance during the year. <!--SR:!2026-07-12,62,310!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
+- ESG reporting in Hong Kong: two requirement types ::@:: Mandatory disclosure (must disclose) and "comply or explain" disclosure (either comply or explain non‑compliance). <!--SR:!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z-->
+- ESG board statement: three key elements ::@:: (1) Board's responsibility for ESG oversight; (2) board's approach, strategy and processes for managing ESG; (3) how the board reviewed ESG performance during the year. <!--SR:!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 - ESG: why "comply or explain" matters ::@:: Allows some flexibility, but weak or repeated explanations may signal poor ESG commitment to investors. <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z-->
 
 ## reporting principles: materiality, KPIs, and consistency

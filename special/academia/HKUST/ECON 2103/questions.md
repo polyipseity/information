@@ -321,7 +321,7 @@ tags:
 > 3. Marginal revenue can be calculated as total revenue divided by the quantity sold
 > 4. Only for competitive firms does average revenue equal marginal revenue
 >
-> - solution: {@{2}@} <!--SR:!2026-07-12,460,394-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-05-16T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
 
 ### chapter 15 lecture
 
