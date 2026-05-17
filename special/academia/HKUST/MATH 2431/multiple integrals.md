@@ -41,7 +41,7 @@ The diameter matters because it controls the worst resolution of the partition. 
 
 Flashcards for this section are as follows:
 
-- rectangular set in $\mathbb{R}^n$ with intuition ::@:: A rectangular set has the form $Q=\prod_{j=1}^n [a_j,b_j]$; it is the multidimensional version of an interval, namely an axis-parallel rectangle in two dimensions, a box in three dimensions, and the analogous product region in higher dimensions. <!--SR:!2026-07-06,56,310!2026-07-10,60,310-->
+- rectangular set in $\mathbb{R}^n$ with intuition ::@:: A rectangular set has the form $Q=\prod_{j=1}^n [a_j,b_j]$; it is the multidimensional version of an interval, namely an axis-parallel rectangle in two dimensions, a box in three dimensions, and the analogous product region in higher dimensions. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-10,60,310-->
 - diameter of $Q=\prod_{j=1}^n[a_j,b_j]$ with intuition ::@:: The diameter is $\operatorname{diam}(Q)=\sqrt{\sum_{j=1}^n (b_j-a_j)^2}$, and it measures the largest geometric scale present in the box, so in a partition it tells you the worst remaining resolution. <!--SR:!2026-07-10,60,310!2026-07-14,64,310-->
 - volume of $Q=\prod_{j=1}^n[a_j,b_j]$ with 1D comparison ::@:: The volume is $\operatorname{Vol}(Q)=\prod_{j=1}^n (b_j-a_j)$; it plays the role that length $b-a$ plays in one dimension, measuring how much $n$-dimensional space the rectangular region occupies. <!--SR:!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-16,66,310-->
 - lower multiple Riemann sum for partition $Z_N=(Q_\ell)$ ::@:: The lower sum is $S_-(Z_N,f)=\sum_{\ell=1}^N \operatorname{Vol}(Q_\ell)\inf_{z\in Q_\ell}f(z)$. <!--SR:!2026-07-14,64,310!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
@@ -92,7 +92,7 @@ Flashcards for this section are as follows:
 - half-infinite boxes $(-\infty,b_1]\times\cdots\times(-\infty,b_n]$ ::@:: Integrals over such sets are defined by truncating only the infinite sides and then taking limits. <!--SR:!2026-07-07,57,310!2026-07-17,67,310-->
 - why half-infinite boxes encode events $\{X_1\le b_1,\ldots,X_n\le b_n\}$ ::@:: Half-infinite boxes are the natural domains for joint cumulative distribution functions, because events like $\{X_1\le b_1,\ldots,X_n\le b_n\}$ are exactly of that form. <!--SR:!2026-07-12,62,310!2026-07-14,64,310-->
 - intuition for Fubini's theorem ::@:: Fubini says the same total mass is being counted in different slicing orders; if nonnegativity or absolute integrability removes ambiguity from cancellation, then all coordinate orders must agree. <!--SR:!2026-07-14,64,310!2026-07-08,58,310-->
-- truncation intuition for improper multiple integrals ::@:: One first computes the mass inside a large finite observation window and then lets the window expand; if the values stabilize, that limiting total is the improper multiple integral. <!--SR:!2026-07-15,65,310!2026-07-06,56,310-->
+- truncation intuition for improper multiple integrals ::@:: One first computes the mass inside a large finite observation window and then lets the window expand; if the values stabilize, that limiting total is the improper multiple integral. <!--SR:!2026-07-15,65,310!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
 
 ## rectangle and cuboid calculations
 
@@ -133,10 +133,10 @@ From this one gets the useful corollary for integration over regions. If $A$ is 
 
 Flashcards for this section are as follows:
 
-- Jordan nullset in $\mathbb{R}^n$ ::@:: A set $M\subseteq\mathbb{R}^n$ is a Jordan nullset if for every $\varepsilon>0$ it can be covered by finitely many rectangles whose total volume is less than $\varepsilon$. <!--SR:!2026-07-06,56,310!2026-07-13,63,310-->
+- Jordan nullset in $\mathbb{R}^n$ ::@:: A set $M\subseteq\mathbb{R}^n$ is a Jordan nullset if for every $\varepsilon>0$ it can be covered by finitely many rectangles whose total volume is less than $\varepsilon$. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-13,63,310-->
 - Jordan-measurable set $S\subseteq\mathbb{R}^n$ ::@:: A bounded set $S\subseteq\mathbb{R}^n$ is Jordan-measurable if its boundary $\partial S$ is a Jordan nullset. <!--SR:!2026-07-16,66,310!2026-07-17,67,310-->
 - finite subsets of $\mathbb{R}^n$ are Jordan null ::@:: Every finite subset of $\mathbb{R}^n$ is Jordan null because each point can be covered by an arbitrarily small rectangle. <!--SR:!2026-07-12,62,310!2026-07-13,63,310-->
-- $(n-1)$-dimensional rectangles in $\mathbb{R}^n$ are Jordan null ::@:: Each can be thickened into a genuine $n$-dimensional rectangle with arbitrarily small volume. <!--SR:!2026-07-08,58,310!2026-07-06,56,310-->
+- $(n-1)$-dimensional rectangles in $\mathbb{R}^n$ are Jordan null ::@:: Each can be thickened into a genuine $n$-dimensional rectangle with arbitrarily small volume. <!--SR:!2026-07-08,58,310!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
 - graph $\Gamma(f)=\{(x,f(x)):x\in A\}$ of a continuous function on compact $A$ ::@:: It is Jordan null in the ambient higher-dimensional space. <!--SR:!2026-07-10,60,310!2026-07-16,66,310-->
 - integrability criterion when the discontinuity set $D_f$ is Jordan null ::@:: If a bounded function on a rectangle is discontinuous only on a Jordan nullset, then it is Riemann-integrable on that rectangle. <!--SR:!2026-07-11,61,310!2026-07-17,67,310-->
 - intuition for Jordan nullsets as sets of $n$-dimensional volume $0$ ::@:: A Jordan nullset is too thin to carry any genuine $n$-dimensional volume, so changing a bounded function only on such a set does not change the multiple integral. <!--SR:!2026-07-17,67,310!2026-07-11,61,310-->
@@ -180,7 +180,7 @@ Flashcards for this section are as follows:
 
 - region $A=\{(x_1,x_2):x_1\in[a_1,b_1],\ u(x_1)\le x_2\le v(x_1)\}$ ::@:: Then $\int_A f(x_1,x_2)\,d^2x=\int_{a_1}^{b_1}\left(\int_{u(x_1)}^{v(x_1)} f(x_1,x_2)\,dx_2\right)dx_1$. <!--SR:!2026-07-08,58,310!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - higher-dimensional nested-bound regions ::@:: In higher dimensions, one integrates over a region with nested variable bounds by reading the bounds from inside out and performing the corresponding iterated integral in that order. <!--SR:!2026-07-11,61,310!2026-07-13,63,310-->
-- area and volume when $f\equiv1$ ::@:: The multiple integral measures geometric size: area in two dimensions and volume in three dimensions. <!--SR:!2026-07-06,56,310!2026-07-17,67,310-->
+- area and volume when $f\equiv1$ ::@:: The multiple integral measures geometric size: area in two dimensions and volume in three dimensions. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-17,67,310-->
 - calculate the volume of $V=\{(x,y,z):0\le x\le1,\ 0\le y\le2x,\ 0\le z\le x+y\}$ with brief steps ::@:: (1) Inner integral: $\int_0^{x+y}1\,dz=x+y$. <br/> (2) Next integral: $\int_0^{2x}(x+y)\,dy=\left[xy+\frac12 y^2\right]_0^{2x}=4x^2$. <br/> (3) Outer integral: $\int_0^1 4x^2\,dx=4\left[\frac{x^3}{3}\right]_0^1=\frac43$. So the volume is $\frac43$. <!--SR:!2026-07-10,60,310!2026-07-14,64,310-->
 - region for $P[X^2\le Y]$ ::@:: If $(X,Y)$ has joint density on $[0,1]^2$, then the event $\{X^2\le Y\}$ corresponds to the region $A=\{(x,y):0\le x\le1,\ x^2\le y\le1\}$. <!--SR:!2026-07-08,58,310!2026-07-15,65,310-->
 - probability of $X^2\le Y$ over $A=\{(x,y):0\le x\le1,\ x^2\le y\le1\}$ ::@:: One has $P[X^2\le Y]=\int_0^1\left(\int_{x^2}^1 f_{X,Y}(x,y)\,dy\right)dx$. <!--SR:!2026-07-13,63,310!2026-07-17,67,310-->

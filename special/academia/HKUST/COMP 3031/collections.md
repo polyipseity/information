@@ -229,7 +229,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 
 ## higher-order methods
 
-{@{Typical list algorithms}@} fall into {@{three broad categories}@}: \(annotation: 3 items: {@{map, filter, reduce/fold}@}\) <!--SR:!2026-07-06,172,310!2026-09-28,256,330!2026-09-17,245,330-->
+{@{Typical list algorithms}@} fall into {@{three broad categories}@}: \(annotation: 3 items: {@{map, filter, reduce/fold}@}\) <!--SR:!fsrs,2028-07-21T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-07T00:00:00.000Z!2026-09-28,256,330!2026-09-17,245,330-->
 
 - __Mapping__ ::@:: – transform every element in a list. <!--SR:!2026-09-14,242,330!2026-09-30,258,330-->
 - __Filtering__ ::@:: – extract all elements that satisfy a predicate. <!--SR:!2026-08-31,228,330!2026-09-21,249,330-->

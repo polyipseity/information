@@ -144,8 +144,8 @@ The content is in teaching order.
 
 - datetime: 2025-02-10T13:30:00+08:00/2025-02-10T14:50:00+08:00
 - topic: decoder, two-level logic, programmable logic array
-- [binary decoder](../../../../general/binary%20decoder.md), encoder ::@:: (former) a combinational logic circuit that converts binary information from the n coded inputs to a maximum of 2<sup>_n_</sup> unique outputs <p> (latter) does the reverse <!--SR:!2026-07-06,397,365!2026-07-08,399,365-->
-  - binary decoder / _n_-to-2<sup>_n_</sup> decoder ::@:: _n_ data inputs, 2<sup>_n_</sup> data outputs <p> Each unique combination of inputs activates exactly one output. For machine learning people: This is just an _one hot_ encoder. <!--SR:!2026-07-15,406,365!2026-07-06,397,365-->
+- [binary decoder](../../../../general/binary%20decoder.md), encoder ::@:: (former) a combinational logic circuit that converts binary information from the n coded inputs to a maximum of 2<sup>_n_</sup> unique outputs <p> (latter) does the reverse <!--SR:!fsrs,2031-07-31T00:00:00.000Z,1850,1850.13411899,1,2,10,0,0,2026-07-07T00:00:00.000Z!2026-07-08,399,365-->
+  - binary decoder / _n_-to-2<sup>_n_</sup> decoder ::@:: _n_ data inputs, 2<sup>_n_</sup> data outputs <p> Each unique combination of inputs activates exactly one output. For machine learning people: This is just an _one hot_ encoder. <!--SR:!2026-07-15,406,365!fsrs,2031-07-31T00:00:00.000Z,1850,1850.13411899,1,2,10,0,0,2026-07-07T00:00:00.000Z-->
     - binary decoder / _n_-to-2<sup>_n_</sup> decoder / implementation ::@:: Use an AND gate for each data output. Connect the data output to its corresponding AND gate. Then connect the _n_ selection inputs to the AND gates, adding NOT gates as needed, such that each unique combination of _n_ selection inputs makes exactly one AND gate output 1. <!--SR:!fsrs,2031-07-06T00:00:00.000Z,1830,1829.89847486,1,2,10,0,0,2026-07-02T00:00:00.000Z!2026-07-07,398,365-->
 - [logic gate](../../../../general/logic%20gate.md)
   - logic gate / design process ::@:: problem specification, truth table, logical expression, simplification, implementation <!--SR:!2026-07-15,406,365!2026-07-15,406,365-->

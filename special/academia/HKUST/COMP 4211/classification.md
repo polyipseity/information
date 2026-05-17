@@ -161,7 +161,7 @@ Flashcards for this section are as follows:
 - upper-bound rationale for surrogates ::@:: If $\phi(m)\ge \mathbf{1}(m\le 0)$ for every margin $m$, then empirical error $\frac{1}{N}\sum_i \mathbf{1}(m_i\le 0)$ is bounded above by surrogate risk $\frac{1}{N}\sum_i \phi(m_i)$. <!--SR:!2026-08-03,83,345!2026-07-15,61,310-->
 - margin in linear classification ::@:: For a binary label $y\in\{-1,1\}$ and score $z=w^\top x+b$, the product $yz$ is the signed margin: large positive values indicate confident correct classification. <!--SR:!2026-07-15,66,324!2026-07-15,65,324-->
 - common boundary normalization convention ::@:: It is conventional to define or scale a margin surrogate so that $\phi(0)=1$, matching the course convention that zero-one loss also equals $1$ at the boundary $m=0$. <!--SR:!2026-07-25,75,324!2026-07-23,73,324-->
-- what surrogate losses have in common ::@:: Surrogate losses are usually decreasing functions of the margin, so they become small for confidently correct predictions and large when the classifier has small or negative margin. <!--SR:!2026-07-06,56,310!2026-07-27,72,324-->
+- what surrogate losses have in common ::@:: Surrogate losses are usually decreasing functions of the margin, so they become small for confidently correct predictions and large when the classifier has small or negative margin. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-27,72,324-->
 
 ### convex upper bounds and margin shaping
 
@@ -181,7 +181,7 @@ Flashcards for this section are as follows:
 - visual intuition for convexity ::@:: Visually, a function is convex when every straight chord between two points on its graph lies above or on the graph, so the curve has a bowl-like rather than arching-upward shape. <!--SR:!2026-08-07,82,343!2026-07-22,68,324-->
 - why convexity is desirable in surrogate losses ::@:: Convex surrogate losses are easier to optimize and behave more predictably than highly discontinuous nonconvex objectives such as zero-one loss. <!--SR:!2026-07-24,74,324!2026-08-09,84,345-->
 - why the surrogate should upper-bound zero-one loss ::@:: If the surrogate loss upper-bounds zero-one loss, then minimizing the surrogate also pushes down an upper envelope of the true classification error. <!--SR:!2026-07-31,79,344!2026-07-24,69,324-->
-- pointwise upper-bound check at negative margins ::@:: If $m\le 0$, then hinge gives $\max(0,1-m)\ge 1$, scaled logistic gives $\frac{1}{\log 2}\log(1+e^{-m})\ge 1$, exponential gives $e^{-m}\ge 1$, and squared-margin loss gives $(1-m)^2\ge 1$, so each upper-bounds zero-one loss on the error side. <!--SR:!2026-07-06,56,310!fsrs,2027-03-13T00:00:00.000Z,255,254.94949226,1.27987743,2,7,0,0,2026-07-01T00:00:00.000Z-->
+- pointwise upper-bound check at negative margins ::@:: If $m\le 0$, then hinge gives $\max(0,1-m)\ge 1$, scaled logistic gives $\frac{1}{\log 2}\log(1+e^{-m})\ge 1$, exponential gives $e^{-m}\ge 1$, and squared-margin loss gives $(1-m)^2\ge 1$, so each upper-bounds zero-one loss on the error side. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-03-13T00:00:00.000Z,255,254.94949226,1.27987743,2,7,0,0,2026-07-01T00:00:00.000Z-->
 - margin shaping ::@:: Surrogate losses often keep decreasing as the positive margin grows, so they reward not only correctness but also confidence. <!--SR:!fsrs,2027-03-07T00:00:00.000Z,246,246.37197118,1.27987743,2,7,0,0,2026-07-04T00:00:00.000Z!2026-07-20,70,324-->
 
 ### common surrogate losses
@@ -292,7 +292,7 @@ Flashcards for this section are as follows:
 
 - training loss versus evaluation metric ::@:: A classifier is often trained by minimizing cross entropy but evaluated by metrics such as accuracy, precision, recall, and $F_1$, so training objective and evaluation summary are distinct. <!--SR:!2026-07-29,77,344!2026-07-16,66,324-->
 - metric-design memory rule ::@:: A practical memory rule is _loss trains probabilities, metrics evaluate thresholded decisions_. <!--SR:!2026-07-14,64,324!2026-07-30,75,324-->
-- confusion-first memory rule ::@:: Compute metrics from confusion counts first; then formulas become bookkeeping rather than memorization. <!--SR:!2026-07-06,57,310!2026-07-19,69,324-->
+- confusion-first memory rule ::@:: Compute metrics from confusion counts first; then formulas become bookkeeping rather than memorization. <!--SR:!fsrs,2027-04-20T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-19,69,324-->
 
 ### confusion matrix and accuracy
 
@@ -306,7 +306,7 @@ Accuracy is easy to read and communicate, but it can be misleading under class i
 
 Flashcards for this section are as follows:
 
-- binary confusion matrix entries with meanings ::@:: Binary confusion counts are $TP$ (true positive), $FP$ (false positive), $TN$ (true negative), and $FN$ (false negative), where "true/false" compares prediction against the real label and "positive/negative" refers to the predicted class. <!--SR:!2026-07-17,68,324!2026-07-06,57,310-->
+- binary confusion matrix entries with meanings ::@:: Binary confusion counts are $TP$ (true positive), $FP$ (false positive), $TN$ (true negative), and $FN$ (false negative), where "true/false" compares prediction against the real label and "positive/negative" refers to the predicted class. <!--SR:!2026-07-17,68,324!fsrs,2027-04-20T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
 - binary accuracy formula with notation meaning ::@:: Binary accuracy is $\frac{TP+TN}{TP+TN+FP+FN}$ because $TP+TN$ counts correct predictions and $TP+TN+FP+FN$ counts all evaluated examples. <!--SR:!2026-08-01,80,345!2026-07-22,68,324-->
 - multiclass confusion matrix notation with row-column roles ::@:: In multiclass settings, $M_{a,b}$ denotes the number of examples whose true class is $a$ and predicted class is $b$, so rows are true classes, columns are predicted classes, and diagonal entries are correct predictions. <!--SR:!2026-07-15,65,324!2026-07-22,72,324-->
 - multiclass accuracy formula with interpretation ::@:: Multiclass accuracy is $\frac{\sum_{c=1}^C M_{c,c}}{\sum_{a=1}^C\sum_{b=1}^C M_{a,b}}$ because the numerator sums all correct diagonal counts and the denominator sums all examples in the confusion matrix. <!--SR:!2026-07-22,72,324!2026-07-26,71,324-->

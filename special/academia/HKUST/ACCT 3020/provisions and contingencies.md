@@ -57,7 +57,7 @@ Flashcards for this section are as follows:
 - no past event (provision) ::@:: The company did nothing that gave rise to the obligation; e.g. labour strike, war, recession—company did not cause these. <!--SR:!2026-08-05,80,342!2026-07-27,72,342-->
 - why no provision for labour strike or war? ::@:: No past event—the company did not cause the strike or war; no present obligation. <!--SR:!2026-07-29,74,342!2026-08-05,80,342-->
 - lawsuit: when is no provision recognized? ::@:: When probability of unfavorable outcome is not probable (e.g. &lt;50%); may still require disclosure in notes. <!--SR:!2026-08-08,83,342!2026-08-01,77,342-->
-- provision vs disclosure ::@:: Recognize a provision only when there is a present obligation, outflow is probable, and the amount is reliably estimated; then record it in the accounts (typically Dr expense, Cr liability). If the obligation is only possible, or present but not probable enough / not reliably measurable, do not recognize it—disclose it in the notes as a contingent liability instead. If the chance of outflow is remote, usually do nothing. <!--SR:!2026-07-06,54,310!2026-08-08,83,342-->
+- provision vs disclosure ::@:: Recognize a provision only when there is a present obligation, outflow is probable, and the amount is reliably estimated; then record it in the accounts (typically Dr expense, Cr liability). If the obligation is only possible, or present but not probable enough / not reliably measurable, do not recognize it—disclose it in the notes as a contingent liability instead. If the chance of outflow is remote, usually do nothing. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-08-08,83,342-->
 
 ## litigation
 
@@ -462,7 +462,7 @@ Representative journal entry examples:
 > | {@{Interest expense}@}                         | {@{62 092}@} |              |
 > | {@{Environmental liability (ARO)}@}            |              | {@{62 092}@} |
 >
-> _Calculation._ {@{620 921 × 0.10}@} = {@{62 092}@} (rounded). <!--SR:!2026-07-28,73,326!2026-08-03,79,342!2026-07-27,72,326!2026-07-06,54,310!2026-07-26,71,342!2026-08-07,82,342!2026-08-06,81,342-->
+> _Calculation._ {@{620 921 × 0.10}@} = {@{62 092}@} (rounded). <!--SR:!2026-07-28,73,326!2026-08-03,79,342!2026-07-27,72,326!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-26,71,342!2026-08-07,82,342!2026-08-06,81,342-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ At the end of year 5, BlueTide's ARO liability carrying amount is {@{1 000 000}@}. The company pays a marine contractor {@{995 000}@} to dismantle the platform. Record settlement.

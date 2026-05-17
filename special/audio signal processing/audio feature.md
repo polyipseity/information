@@ -69,7 +69,7 @@ We can also describe {@{features of the overall sound instead of each STFT frame
 
 ### sound
 
-{@{A _sound_}@} is {@{a note or simple melody played by an instrument}@}. It is {@{easily characterized due to its simple structure}@}. Its features can be grouped into {@{4 main groups}@}: {@{dynamics, morphology, pitch, and timbre}@}. <!--SR:!fsrs,2029-10-10T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-22T00:00:00.000Z!fsrs,2029-10-10T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-22T00:00:00.000Z!fsrs,2029-09-04T13:29:04.732Z,1178,1178.00364035,1,2,9,0,0,2026-06-14T13:29:04.732Z!fsrs,2029-12-01T00:00:00.000Z,1244,1244.40857912,1,2,9,0,0,2026-07-06T00:00:00.000Z!2026-07-06,287,330-->
+{@{A _sound_}@} is {@{a note or simple melody played by an instrument}@}. It is {@{easily characterized due to its simple structure}@}. Its features can be grouped into {@{4 main groups}@}: {@{dynamics, morphology, pitch, and timbre}@}. <!--SR:!fsrs,2029-10-10T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-22T00:00:00.000Z!fsrs,2029-10-10T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-22T00:00:00.000Z!fsrs,2029-09-04T13:29:04.732Z,1178,1178.00364035,1,2,9,0,0,2026-06-14T13:29:04.732Z!fsrs,2029-12-01T00:00:00.000Z,1244,1244.40857912,1,2,9,0,0,2026-07-06T00:00:00.000Z!fsrs,2029-12-06T00:00:00.000Z,1248,1248.19227538,1,2,9,0,0,2026-07-07T00:00:00.000Z-->
 
 {@{Timbre features}@} describe {@{the quality of a sound to the ears}@}, e.g. {@{high-frequency content, spectral centroid, spectral flux, etc.}@} <!--SR:!2029-08-27,1181,350!fsrs,2029-10-28T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-06-28T00:00:00.000Z!fsrs,2029-11-05T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-06-29T00:00:00.000Z-->
 

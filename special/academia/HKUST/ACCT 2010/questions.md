@@ -749,7 +749,7 @@ tags:
 > 2. Cash Flow Statement is linked to Income Statement by Net Profit under Indirect Method.
 > 3. Both of them are relevant.
 >
-> - solution: {@{3}@} <!--SR:!2026-07-06,458,381-->
+> - solution: {@{3}@} <!--SR:!fsrs,2032-05-02T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-07-07T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

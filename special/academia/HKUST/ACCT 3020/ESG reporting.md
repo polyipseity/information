@@ -71,7 +71,7 @@ Investors increasingly look at ESG scores or ratings when deciding which compani
 Flashcards for this section are as follows:
 
 - ESG: environmental reasons it matters ::@:: Climate change and extreme weather create physical risks for companies' assets and operations (e.g. typhoons, flooding, heatwaves). <!--SR:!2026-07-14,64,310!2026-07-11,61,310-->
-- ESG: social reasons it matters ::@:: Demographic change (e.g. ageing workforce) and workplace safety issues affect labour supply, productivity, and potential legal liabilities. <!--SR:!2026-07-06,56,310!2026-07-13,63,310-->
+- ESG: social reasons it matters ::@:: Demographic change (e.g. ageing workforce) and workplace safety issues affect labour supply, productivity, and potential legal liabilities. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-13,63,310-->
 - ESG: governance reasons it matters ::@:: Weak governance and corruption/bribery scandals can lead to prosecution, fines, and long‑term reputational damage that hurts firm value. <!--SR:!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-09,59,310-->
 - ESG and investors ::@:: Many investors use ESG scores or ratings; poor ESG performance can increase a firm's cost of capital or lead to exclusion from certain portfolios. <!--SR:!2026-07-17,67,310!2026-07-07,57,310-->
 
@@ -88,9 +88,9 @@ The course highlights four broad categories of ESG‑related risk:
 
 Flashcards for this section are as follows:
 
-- ESG risk: reputation risk ::@:: Risk that repeated ESG failures (e.g. pollution, labour abuses, corruption) damage the firm's reputation, causing customers and investors to withdraw support. <!--SR:!2026-07-06,56,310!2026-07-09,59,310-->
+- ESG risk: reputation risk ::@:: Risk that repeated ESG failures (e.g. pollution, labour abuses, corruption) damage the firm's reputation, causing customers and investors to withdraw support. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-09,59,310-->
 - ESG risk: regulatory/reporting risk ::@:: Risk of fines or enforcement actions if ESG disclosures are incomplete, misleading, or inconsistent with actual practices (greenwashing). <!--SR:!2026-07-17,67,310!2026-07-10,60,310-->
-- ESG risk: physical risk ::@:: Risk that climate‑related events such as storms, flooding, or heatwaves physically damage assets or disrupt operations. <!--SR:!2026-07-06,56,310!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
+- ESG risk: physical risk ::@:: Risk that climate‑related events such as storms, flooding, or heatwaves physically damage assets or disrupt operations. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - ESG risk: transition risk ::@:: Risk that, as regulation and markets move towards low‑carbon and sustainable models, certain assets or technologies lose value (e.g. become impaired or stranded). <!--SR:!2026-07-08,58,310!fsrs,2027-01-02T00:00:00.000Z,196,195.52879015,1.98030797,2,6,0,0,2026-06-20T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
@@ -149,7 +149,7 @@ Flashcards for this section are as follows:
 
 - ESG reporting principle: materiality ::@:: Focus on ESG issues that are important both to the business and to stakeholders, typically identified using a materiality matrix. <!--SR:!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-16,66,310-->
 - materiality matrix axes ::@:: One axis (typically the _x_-axis) measures impact on the business; the other (typically the _y_-axis) measures impact on stakeholders; high–high issues are prioritised for disclosure. <!--SR:!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-11,61,310-->
-- ESG reporting principle: quantitative KPIs ::@:: Disclosures should include key performance indicators (e.g. emissions, energy use, accident rates), not just qualitative claims. <!--SR:!2026-07-06,56,310!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
+- ESG reporting principle: quantitative KPIs ::@:: Disclosures should include key performance indicators (e.g. emissions, energy use, accident rates), not just qualitative claims. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 - ESG reporting principle: consistency ::@:: Use consistent KPIs and methods over time; if they change, explain the reasons and, where possible, provide comparable data. <!--SR:!2026-07-07,57,310!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 
 ## key performance indicators by aspect

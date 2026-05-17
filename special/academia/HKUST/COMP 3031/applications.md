@@ -251,4 +251,4 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 > books.flatMap(b =>
 >   b.authors.withFilter(a => a.startsWith("Bird")).map(_ => b.title))
 > ```
-<!--SR:!2026-09-05,237,330!2026-09-07,239,330!2026-07-06,176,310-->
+<!--SR:!2026-09-05,237,330!2026-09-07,239,330!fsrs,2028-08-05T00:00:00.000Z,760,759.95962134,1,2,8,0,0,2026-07-07T00:00:00.000Z-->
