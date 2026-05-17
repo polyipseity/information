@@ -43,7 +43,7 @@ In {@{[digital communications](digital%20communications.md)}@}, {@{the equalizer
 
 - {@{Linear equalizer}@}: {@{processes the incoming signal}@} with {@{a linear filter}@}
   - {@{[MMSE](minimum%20mean%20square%20error.md) equalizer}@}: designs the filter to {@{minimize E\[\|e\|<sup>2</sup>\]}@}, where e is {@{the error signal, which is the filter output minus the transmitted signal}@}.<sup>[\[1\]](#^ref-1)</sup>
-  - {@{[Zero-forcing equalizer](zero-forcing%20equalizer.md)}@}: {@{approximates the inverse of the channel}@} with {@{a linear filter}@}. <!--SR:!2026-08-21,272,330!2026-09-04,281,330!2026-08-11,264,330!2026-09-04,281,330!2026-07-07,237,330!2026-08-25,276,330!2026-07-23,250,330!2026-07-17,245,330!2026-09-06,283,330-->
+  - {@{[Zero-forcing equalizer](zero-forcing%20equalizer.md)}@}: {@{approximates the inverse of the channel}@} with {@{a linear filter}@}. <!--SR:!2026-08-21,272,330!2026-09-04,281,330!2026-08-11,264,330!2026-09-04,281,330!fsrs,2028-05-13T00:00:00.000Z,675,674.76322068,2.49272837,2,9,0,0,2026-07-08T00:00:00.000Z!2026-08-25,276,330!2026-07-23,250,330!2026-07-17,245,330!2026-09-06,283,330-->
 
 - {@{[Decision feedback equalizer](decision%20feedback%20equalizer.md)}@}: {@{augments a linear equalizer}@} by adding {@{a filtered version of previous symbol estimates}@} to {@{the original filter output}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-09-09,286,330!2026-07-22,249,330!2026-07-20,247,330!2026-09-05,282,330-->
 

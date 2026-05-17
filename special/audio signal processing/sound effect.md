@@ -19,7 +19,7 @@ After {@{analyzing a sound using models}@}, we can {@{modify model data and para
 
 ### equalization
 
-{@{_Equalization_}@} is {@{simply a frequency filter that does not modify phase}@}, i.e. {@{it consists of real numbers in the frequency domain}@}. Common special cases include {@{band pass filters, which pass through a certain range of frequencies and disallow others}@}. The band pass filter is {@{often a window function \(i.e. not boxcar\) to minimize distortion}@}. <!--SR:!2026-07-13,293,330!fsrs,2029-08-05T06:11:12.888Z,1156,1155.51731222,1,2,9,0,0,2026-06-06T06:11:12.888Z!2026-07-07,287,330!2029-04-11,1074,350!2029-07-05,1133,350-->
+{@{_Equalization_}@} is {@{simply a frequency filter that does not modify phase}@}, i.e. {@{it consists of real numbers in the frequency domain}@}. Common special cases include {@{band pass filters, which pass through a certain range of frequencies and disallow others}@}. The band pass filter is {@{often a window function \(i.e. not boxcar\) to minimize distortion}@}. <!--SR:!2026-07-13,293,330!fsrs,2029-08-05T06:11:12.888Z,1156,1155.51731222,1,2,9,0,0,2026-06-06T06:11:12.888Z!fsrs,2029-12-07T00:00:00.000Z,1248,1248.19227538,1,2,9,0,0,2026-07-08T00:00:00.000Z!2029-04-11,1074,350!2029-07-05,1133,350-->
 
 ## morphing
 
@@ -49,4 +49,4 @@ Using {@{a harmonic model to analyze a sound}@}, we obtain {@{the frequencies, a
 
 ### pitch scaling \(harmonic\)
 
-There are {@{3 commons ways to scale pitch}@}: {@{_transposition_, _shifting_, and _stretching_}@}. The first one {@{simply multiplies the frequencies}@}, which {@{preserves harmonics}@}. The second one {@{simply adds to the frequencies}@}, which {@{does not preserve harmonics}@}. The third one {@{scales the frequencies by $h^{s - 1}$, where $h$ is the harmonic number and $s$ is the scaling factor}@}, which {@{also does not preserve harmonics but rather stretches them}@}. <!--SR:!2026-07-14,294,330!2026-07-12,292,330!2026-07-07,287,330!2029-05-13,1097,350!2029-05-29,1111,350!2026-07-13,293,330!2029-07-19,1147,350!2026-07-08,288,330-->
+There are {@{3 commons ways to scale pitch}@}: {@{_transposition_, _shifting_, and _stretching_}@}. The first one {@{simply multiplies the frequencies}@}, which {@{preserves harmonics}@}. The second one {@{simply adds to the frequencies}@}, which {@{does not preserve harmonics}@}. The third one {@{scales the frequencies by $h^{s - 1}$, where $h$ is the harmonic number and $s$ is the scaling factor}@}, which {@{also does not preserve harmonics but rather stretches them}@}. <!--SR:!2026-07-14,294,330!2026-07-12,292,330!fsrs,2029-12-07T00:00:00.000Z,1248,1248.19227538,1,2,9,0,0,2026-07-08T00:00:00.000Z!2029-05-13,1097,350!2029-05-29,1111,350!2026-07-13,293,330!2029-07-19,1147,350!2026-07-08,288,330-->

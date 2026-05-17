@@ -83,9 +83,9 @@ The content is in teaching order.
     - dot product / properties / magnitude ::@:: $\vec v \cdot \vec v = \lvert \vec v \rvert^2$ <!--SR:!2026-07-13,407,367!2026-07-13,407,367-->
     - dot product / properties / commutativity ::@:: $\vec v \cdot \vec w = \vec w \cdot \vec v$ <!--SR:!2026-07-11,405,367!2026-07-10,404,367-->
     - dot product / properties / distributivity ::@:: $\vec u \cdot (\vec v + \vec w) = \vec u \cdot \vec v + \vec u \cdot \vec w \qquad (\vec u + \vec v) \cdot \vec w = \vec u \cdot \vec w + \vec v \cdot \vec w$ <!--SR:!2026-07-13,407,367!2026-07-14,408,367-->
-    - dot product / properties / homogeneity ::@:: $(c \vec u) \cdot \vec v = c (\vec u \cdot \vec v) = \vec u \cdot (c \vec v)$ <!--SR:!fsrs,2031-08-18T00:00:00.000Z,1869,1869.37261436,1,2,10,0,0,2026-07-06T00:00:00.000Z!2026-07-07,401,367-->
+    - dot product / properties / homogeneity ::@:: $(c \vec u) \cdot \vec v = c (\vec u \cdot \vec v) = \vec u \cdot (c \vec v)$ <!--SR:!fsrs,2031-08-18T00:00:00.000Z,1869,1869.37261436,1,2,10,0,0,2026-07-06T00:00:00.000Z!fsrs,2031-08-28T00:00:00.000Z,1877,1877.49926502,1,2,10,0,0,2026-07-08T00:00:00.000Z-->
 - [polarization identity](../../../../general/polarization%20identity.md) ::@:: $2 \lVert \vec x \rVert^2 + 2 \lVert \vec y \rVert^2 = \lVert \vec x + \vec y \rVert^2 - \lVert \vec x - \vec y \rVert^2$ <!--SR:!2026-07-08,402,367!2026-07-09,403,367-->
-  - polarization identity / variant ::@:: $\langle \vec x, \vec y \rangle = \frac 1 4 \left(\lVert x + y \rVert^2 - \lVert x - y \rVert^2 \right)$ <!--SR:!2026-07-14,408,367!2026-07-07,401,366-->
+  - polarization identity / variant ::@:: $\langle \vec x, \vec y \rangle = \frac 1 4 \left(\lVert x + y \rVert^2 - \lVert x - y \rVert^2 \right)$ <!--SR:!2026-07-14,408,367!fsrs,2031-08-23T00:00:00.000Z,1872,1871.89939423,1,2,10,0,0,2026-07-08T00:00:00.000Z-->
 - [dot product](../../../../general/dot%20product.md)
   - dot product / cosine ::@:: $\cos \theta = \frac {\vec u \cdot \vec v} {\lVert \vec u \rVert \lVert \vec v \rVert}$ <!--SR:!2026-07-14,408,367!2026-07-12,406,367-->
     - dot product / cosine / applications ::@:: inscribed triangle with diameter has a right angle, law of cosine/generalized Pythagoras theorem <!--SR:!2026-07-12,406,367!2027-07-04,672,347-->

@@ -26,7 +26,7 @@ tags:
 
 ## hints
 
-1. For a DT sinusoid equality, what must the digital-frequency gap satisfy relative to $2\pi$? ::@:: Cosine and sine repeat every $2\pi$, so if two sinusoids differ by a non-integer multiple of $2\pi$, they are not the same signal. <!--SR:!2026-07-07,54,310!2026-07-22,67,310-->
+1. For a DT sinusoid equality, what must the digital-frequency gap satisfy relative to $2\pi$? ::@:: Cosine and sine repeat every $2\pi$, so if two sinusoids differ by a non-integer multiple of $2\pi$, they are not the same signal. <!--SR:!fsrs,2027-04-08T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-22,67,310-->
 2. Among options built from a constant offset, a pointwise nonlinearity, a shifted-sample sum, and signal multiplication, which pattern should look LTI? ::@:: The shifted-sample sum is the LTI-looking candidate because superposition survives and a time shift just moves both referenced samples together. <!--SR:!2026-07-22,67,310!2026-07-14,59,310-->
 3. For the graph question built around $x(-2t+6)=x(-2(t-3))$, what is the safest geometric workflow? ::@:: Start from the inside form $-2(t-3)$: center the action at $t=3$, use the minus sign for reversal, then compress horizontally by a factor of $2$. <!--SR:!2026-07-22,67,310!2026-07-14,59,310-->
 4. Among a time-scaled CT rule, a running sum, an even-part operator, and a one-sample delay, which option has the usual causal-and-stable signature? ::@:: The one-sample delay is the standard safe choice because it uses only a past input value and preserves boundedness. <!--SR:!2026-07-08,55,310!2026-07-13,58,310-->

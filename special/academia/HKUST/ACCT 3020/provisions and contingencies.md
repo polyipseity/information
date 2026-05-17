@@ -29,7 +29,7 @@ Flashcards for this section are as follows:
 - provision recognition: four criteria ::@:: (1) Past event, (2) present obligation (legal or constructive), (3) probable outflow (>50%), (4) reliably estimated amount. <!--SR:!2026-07-30,75,342!2026-07-27,72,337-->
 - provisions add to liability definition ::@:: Provisions add probable outflow and reliably estimated amount to the general liability definition (past event, present obligation). <!--SR:!2026-07-28,73,335!2026-07-31,76,342-->
 - probable in provision context ::@:: More than 50% chance that an outflow will be required; instructor uses clear-cut percentages (e.g. 58%, 42%), not 50.1%. <!--SR:!2026-07-23,68,337!2026-07-22,69,337-->
-- reliably estimated (provision) ::@:: There must be a reasonable basis for the estimate (e.g. lawyer advice, past experience for litigation). <!--SR:!2026-07-29,74,326!2026-07-07,55,310-->
+- reliably estimated (provision) ::@:: There must be a reasonable basis for the estimate (e.g. lawyer advice, past experience for litigation). <!--SR:!2026-07-29,74,326!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
 
 ## legal versus constructive obligation
 
@@ -67,7 +67,7 @@ For litigation, the entity must consider (1) the __probability of an unfavorable
 
 Flashcards for this section are as follows:
 
-- litigation: two things to consider when deciding whether current-year litigation needs a provision ::@:: (1) Whether an unfavorable outcome is probable enough to require recognition rather than mere disclosure; and (2) whether the cause of action belongs to the current reporting period or only arises after year-end, because only current-period obligations are recognized now. <!--SR:!2026-07-07,52,317!2026-07-20,67,326-->
+- litigation: two things to consider when deciding whether current-year litigation needs a provision ::@:: (1) Whether an unfavorable outcome is probable enough to require recognition rather than mere disclosure; and (2) whether the cause of action belongs to the current reporting period or only arises after year-end, because only current-period obligations are recognized now. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,273,272.64702251,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-20,67,326-->
 - litigation: probability of unfavorable outcome ::@:: Whether the entity will lose the case; must be probable for provision. <!--SR:!2026-08-03,79,342!2026-08-06,81,342-->
 - litigation: time period ::@:: When the cause of action arose relative to the reporting date; lawsuit filed before vs after balance sheet date. <!--SR:!2026-08-06,81,342!2026-07-30,75,342-->
 - lawsuit filed after balance sheet date ::@:: No provision in current year; obligation arises next period; provision in next year if criteria met. <!--SR:!2026-07-18,65,326!2026-07-26,71,326-->
@@ -485,7 +485,7 @@ Flashcards for this section are as follows:
 - ARO subsequent accounting ::@:: Depreciate the capitalized ARO cost over useful life; increase the liability via interest expense so it accretes to the expected settlement amount. <!--SR:!2026-07-28,73,342!2026-07-30,75,342-->
 - asset retirement obligation (ARO): initial recognition entry? ::@:: Recognize liability at PV and capitalize same amount in _PPE_ (Dr _PPE_; Cr _Environmental liability_ (ARO)). <!--SR:!2026-08-08,83,342!2026-07-21,68,337-->
 - ARO: why record an asset at initial recognition? ::@:: Because the dismantling/restoration obligation is necessary to operate the asset and provides future benefits; allocate via depreciation over useful life. <!--SR:!2026-07-26,71,342!2026-08-05,80,342-->
-- ARO: depreciation of capitalized cost (entry)? ::@:: Dr _Depreciation expense_; Cr _Accumulated depreciation_ (depreciate the capitalized ARO amount over useful life). <!--SR:!2026-08-06,81,342!2026-07-07,55,310-->
+- ARO: depreciation of capitalized cost (entry)? ::@:: Dr _Depreciation expense_; Cr _Accumulated depreciation_ (depreciate the capitalized ARO amount over useful life). <!--SR:!2026-08-06,81,342!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
 - ARO: why does the liability increase over time? ::@:: Accretion/interest expense increases the liability from PV at recognition to the expected cash outflow at settlement. <!--SR:!2026-08-08,83,342!2026-08-02,78,342-->
 - ARO: accretion entry? ::@:: Dr _Interest expense_; Cr _Environmental liability_ (ARO) (interest = carrying amount × discount rate). <!--SR:!2026-08-08,83,342!2026-07-24,69,337-->
 - ARO accretion: economic rationale for interest? ::@:: The liability was initially recorded at a discounted present value below the expected future payment; accretion unwinds that discount over time as interest expense so the carrying amount reaches the full settlement amount. <!--SR:!2026-08-07,82,342!2026-08-05,80,342-->

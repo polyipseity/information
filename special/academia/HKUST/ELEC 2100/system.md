@@ -53,14 +53,14 @@ Flashcards for this section are as follows:
 
 - What does the lecture mean by a system as an integrated entity? ::@:: It means a collection of interacting components that together perform a stable function. <!--SR:!2026-07-15,62,310!2026-07-10,58,310-->
 - What do $e(t)$ and $r(t)$ denote in the lecture notation? ::@:: $e(t)$ denotes excitation or input, while $r(t)$ denotes response or output. <!--SR:!2026-07-16,63,310!2026-07-16,62,310-->
-- What is the central systems question in this topic? ::@:: It is how the system transforms the input signal into the output signal. <!--SR:!2026-07-07,55,310!2026-07-09,57,310-->
+- What is the central systems question in this topic? ::@:: It is how the system transforms the input signal into the output signal. <!--SR:!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-09,57,310-->
 - Why do communication examples belong in this systems topic? ::@:: They show that useful information is carried by signals and shaped by systems at every stage of a transmission chain. <!--SR:!2026-07-14,61,310!2026-07-16,63,310-->
 - What historical examples are used to make the communication-systems viewpoint concrete? ::@:: The lecture highlights Morse's 1844 telegraph transmission and Bell's 1876 telephone transmission as early engineered systems for carrying messages over distance. <!--SR:!2026-07-12,59,310!2026-07-12,59,310-->
 - Why are the telegraph, telephone, and later communication-technology examples more than decorative history? ::@:: They show that systems theory is motivated by real engineered mechanisms whose performance depends on how signals are encoded, transmitted, filtered, and recovered. <!--SR:!2026-07-15,61,310!2026-07-19,65,310-->
 - What broad mobile-generation sequence is used in the introductory systems survey? ::@:: The survey moves from 1G analog systems to 2G and 2.5G, then to 3G, 4G, and 5G, with 6G identified as the next horizon. <!--SR:!2026-07-10,58,310!2026-07-12,59,310-->
 - What modern engineering targets are emphasized in the communication-systems survey? ::@:: High speed, wide bandwidth, high reliability, and low latency are emphasized as key modern communication-system targets. <!--SR:!2026-07-12,59,310!2026-07-17,63,310-->
 - What is the difference between signal theory and system theory? ::@:: Signal theory studies the signals themselves, whereas system theory studies how systems act on signals. <!--SR:!2026-07-09,57,310!2026-07-16,62,310-->
-- What is the difference between system analysis and system synthesis? ::@:: System analysis studies the output of a given system, whereas system synthesis designs a system to achieve desired behavior. <!--SR:!2026-07-07,55,310!2026-07-13,60,310-->
+- What is the difference between system analysis and system synthesis? ::@:: System analysis studies the output of a given system, whereas system synthesis designs a system to achieve desired behavior. <!--SR:!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-13,60,310-->
 
 ## continuous-time, discrete-time, and mathematical models
 
@@ -111,7 +111,7 @@ Representative rules make the distinction concrete. The affine-delay rule $y(t)=
 
 Flashcards for this section are as follows:
 
-- What does memorylessness mean? ::@:: A system is memoryless if the output at time $t_0$ depends only on the input value at the same time $t_0$; any system whose output also depends on other times is dynamic. <!--SR:!2026-07-07,55,310!2026-07-09,57,310-->
+- What does memorylessness mean? ::@:: A system is memoryless if the output at time $t_0$ depends only on the input value at the same time $t_0$; any system whose output also depends on other times is dynamic. <!--SR:!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-09,57,310-->
 - What does the present-only clarification for memorylessness say? ::@:: Memoryless means the present output depends on the present input only, so both past-input dependence and future-input dependence are excluded. <!--SR:!2026-07-16,62,310!2026-07-12,59,310-->
 - What is the kernel test for memorylessness? ::@:: In a linear kernel form $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, memorylessness means $h(t,\tau)=a(t)\delta(t-\tau)$, and in the LTI special case this becomes $h(t)=K\delta(t)$. <!--SR:!2026-07-14,61,310!2026-07-09,57,310-->
 - What is the memoryless example $y(t)=3x(t)$ in impulse-response form? ::@:: Its impulse-response form is $h(t)=3\delta(t)$, so the response is concentrated at zero delay and the output uses only the present input. <!--SR:!2026-07-12,59,310!2026-07-13,60,310-->
@@ -175,7 +175,7 @@ The same comparison set is useful because it separates structure from surface ap
 Flashcards for this section are as follows:
 
 - What is linearity? ::@:: A system is linear if it satisfies homogeneity and superposition, meaning $H[c_1x_1+c_2x_2]=c_1H[x_1]+c_2H[x_2]$ for arbitrary signals and constants. <!--SR:!2026-07-09,57,310!2026-07-10,58,310-->
-- What is the linear example in input-output and impulse-response form? ::@:: Example: $y(t)=2x(t)-x(t-1)$. Impulse-response form: $h(t)=2\delta(t)-\delta(t-1)$, so the output is a fixed weighted sum of present and delayed inputs and superposition holds. <!--SR:!2026-07-07,55,310!2026-07-08,56,310-->
+- What is the linear example in input-output and impulse-response form? ::@:: Example: $y(t)=2x(t)-x(t-1)$. Impulse-response form: $h(t)=2\delta(t)-\delta(t-1)$, so the output is a fixed weighted sum of present and delayed inputs and superposition holds. <!--SR:!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-08,56,310-->
 - What is the nonlinear counterexample in input-output and impulse-response form? ::@:: Counterexample: $y(t)=x^2(t)$. There is no single first-order impulse response $h$ with $y(t)=\int h(t,\tau)x(\tau)\,d\tau$, because any such representation would already be linear; a nonlinear kernel description needs higher-order products such as $\iint \delta(t-\tau_1)\delta(t-\tau_2)x(\tau_1)x(\tau_2)\,d\tau_1d\tau_2$. <!--SR:!2026-07-14,61,310!2026-07-12,59,310-->
 - What is the intuition behind linearity? ::@:: Linear means "add and scale outside or inside the system, and you get the same answer"; nonlinear means the system mixes amplitudes and creates extra interaction terms. <!--SR:!2026-07-13,60,310!2026-07-15,61,310-->
 - Which example systems fail superposition or homogeneity? ::@:: $y(t)=2x(t-1)+1$ fails homogeneity due to the constant offset, $y(t)=\cos(x(t))$ fails superposition due to pointwise nonlinearity, and $y[n]=\max\{x[n],x[n-1]\}$ fails superposition because maximum of sums does not equal sum of maxima. <!--SR:!2026-07-15,62,310!2026-07-13,60,310-->
@@ -275,7 +275,7 @@ The same structural cleanliness explains why differentiation, integration, convo
 
 Flashcards for this section are as follows:
 
-- Why are LTI systems central in the course? ::@:: Because known responses can be transferred systematically to shifted and linearly combined inputs. <!--SR:!2026-07-07,55,310!2026-07-12,59,310-->
+- Why are LTI systems central in the course? ::@:: Because known responses can be transferred systematically to shifted and linearly combined inputs. <!--SR:!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z!2026-07-12,59,310-->
 - What is the response-transfer principle for an LTI system? ::@:: If an LTI system maps $x_1$ to $y_1$, then shifted and linearly combined versions of $x_1$ map to the corresponding shifted and linearly combined versions of $y_1$. <!--SR:!2026-07-15,62,310!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
 - What broad operator behaviors make LTI systems especially tractable? ::@:: Linearity and time invariance let known responses be shifted and recombined systematically, and under zero-state assumptions they also let differentiation, integration, convolution, and transform methods interact cleanly with the system. <!--SR:!2026-07-16,63,310!2026-07-14,61,310-->
 - Where should the detailed worked response-transfer examples for LTIs be studied in this course? ::@:: Use `continuous-time LTI system.md` and `convolution.md` for the detailed examples; this note keeps only the high-level transfer principle. <!--SR:!2026-07-12,59,310!2026-07-10,58,310-->
@@ -347,7 +347,7 @@ Flashcards for this section are as follows:
 - Why is the input-output viewpoint natural for SISO systems? ::@:: Because one nth-order differential or difference equation can often relate the single input and single output directly. <!--SR:!2026-07-15,62,310!2026-07-15,62,310-->
 - What is the state-variable viewpoint? ::@:: It tracks both the overall response and internal variables such as capacitor voltages or inductor currents. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-09,57,310-->
 - What does MIMO mean? ::@:: It means multiple-input multiple-output, so the system may have several input channels and several output channels. <!--SR:!2026-07-13,60,310!2026-07-12,59,310-->
-- Why is the state-variable viewpoint useful for MIMO systems? ::@:: Because it naturally represents multiple interacting inputs, outputs, and internal variables through coupled first-order equations. <!--SR:!2026-07-09,57,310!2026-07-07,55,310-->
+- Why is the state-variable viewpoint useful for MIMO systems? ::@:: Because it naturally represents multiple interacting inputs, outputs, and internal variables through coupled first-order equations. <!--SR:!2026-07-09,57,310!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
 - What belongs to time-domain analysis? ::@:: Direct solution of differential equations, difference equations, and convolution integrals or sums. <!--SR:!2026-07-13,60,310!2026-07-09,57,310-->
 - Why are transform-domain methods introduced? ::@:: They convert many system calculations into simpler algebraic forms. <!--SR:!2026-07-15,62,310!2026-07-12,59,310-->
 - What transform-domain viewpoints are highlighted in the lecture summary? ::@:: Fourier, Laplace, and z-transform viewpoints. <!--SR:!2026-07-09,57,310!2026-07-12,59,310-->

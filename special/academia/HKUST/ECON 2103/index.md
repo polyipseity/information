@@ -225,7 +225,7 @@ The content is in teaching order.
   - market economy / price signal ::@:: How does market economy facilitate trade? It uses __price signal__ to exchange information between buyers and sellers. It allocates _scarce_ resources this way. <!--SR:!fsrs,2032-06-02T06:07:39.869Z,2179,2178.97857671,1,2,10,0,0,2026-06-15T06:07:39.869Z!2032-05-16,2230,411-->
   - market economy / market structure ::@:: classified by the number of sellers (and buyers) <!--SR:!2032-05-18,2232,411!2033-02-08,2443,411-->
 - [scarcity](../../../../general/scarcity.md)
-  - scarcity / fundamental questions ::@:: what, how, and for whom to produce <!--SR:!2032-07-22,2283,411!2026-07-07,493,399-->
+  - scarcity / fundamental questions ::@:: what, how, and for whom to produce <!--SR:!2032-07-22,2283,411!fsrs,2032-09-20T00:00:00.000Z,2266,2266.2125374,1,2,10,0,0,2026-07-08T00:00:00.000Z-->
 - [supply and demand](../../../../general/supply%20and%20demand.md) ::@:: An economic model of price determination in a market. <!--SR:!fsrs,2032-08-20T00:00:00.000Z,2242,2242.24024358,1,2,10,0,0,2026-07-01T00:00:00.000Z!2026-08-22,531,399-->
   - supply and demand / demand ::@:: It describes how much buyers are willing to buy given a price level. It can also be interpreted as the _maximum_ price buyers are willing to pay (__willingness to pay__, __WTP__) for a marginal unit given the buyers have already bought a certain quantity of units. <!--SR:!fsrs,2032-06-13T06:07:38.849Z,2190,2189.88258063,1,2,10,0,0,2026-06-15T06:07:38.849Z!2026-07-09,497,406-->
     - [willingness to pay](../../../../general/willingness%20to%20pay.md) (WTP) ::@:: It is the maximum price at or below which a consumer will definitely buy one unit of a product. <!--SR:!2027-02-02,664,407!2027-02-18,678,407-->

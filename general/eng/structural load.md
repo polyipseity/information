@@ -125,7 +125,7 @@ For example, when there is {@{water buildup in the soil}@}, there is {@{increase
 
 For example, there is {@{lateral soil load on retaining walls of a slope}@} because {@{the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. {@{This lateral soil load}@} can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}. <!--SR:!2031-08-16,1937,320!2026-10-01,645,320!fsrs,2026-12-04T00:59:39.554Z,181,180.82294193,1,2,6,0,0,2026-06-06T00:59:39.554Z!2026-08-31,93,370-->
 
-To {@{protect against soil loads}@}, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain}@} can become {@{man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}. <!--SR:!2027-12-02,924,300!2026-07-07,581,320!2026-10-07,125,390!2026-10-07,125,390-->
+To {@{protect against soil loads}@}, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain}@} can become {@{man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}. <!--SR:!2027-12-02,924,300!fsrs,2032-08-18T00:00:00.000Z,2233,2232.71383121,1,2,10,0,0,2026-07-08T00:00:00.000Z!2026-10-07,125,390!2026-10-07,125,390-->
 
 #### seismic load
 

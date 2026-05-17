@@ -67,7 +67,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 
 ## equivalent circuits
 
-\(annotation: image\) ::@:: ![circuit equivalence](../../archives/Wikimedia%20Commons/Circuit%20equivalence.png) <!--SR:!2026-07-07,377,360!fsrs,2031-03-22T00:00:00.000Z,1729,1729.3312018,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
+\(annotation: image\) ::@:: ![circuit equivalence](../../archives/Wikimedia%20Commons/Circuit%20equivalence.png) <!--SR:!fsrs,2031-04-15T00:00:00.000Z,1742,1742.39703843,1,2,10,0,0,2026-07-08T00:00:00.000Z!fsrs,2031-03-22T00:00:00.000Z,1729,1729.3312018,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
 
 - Main article: ::@:: [Equivalent impedance transforms](equivalent%20impedance%20transforms.md) <!--SR:!2029-03-17,1138,350!2030-12-26,1667,369-->
 
@@ -87,7 +87,7 @@ The above is {@{a sufficient definition for a [one-port](one-port.md) network}@}
 
 {@{Some two terminal network of impedances}@} can {@{eventually be reduced to a single impedance}@} by {@{successive applications of impedances in series or impedances in parallel}@}. <!--SR:!2029-04-19,1164,350!2030-06-11,1505,369!fsrs,2026-12-10T00:44:15.277Z,187,186.67821532,1,2,6,0,0,2026-06-06T00:44:15.277Z-->
 
-- Impedances in [series](series%20and%20parallel%20circuits.md#series%20circuits): ::@:: $$Z_{\mathrm {eq} }=Z_{1}+Z_{2}+\,\cdots \,+Z_{n}.$$ <!--SR:!2026-07-07,376,360!2030-10-22,1609,369-->
+- Impedances in [series](series%20and%20parallel%20circuits.md#series%20circuits): ::@:: $$Z_{\mathrm {eq} }=Z_{1}+Z_{2}+\,\cdots \,+Z_{n}.$$ <!--SR:!fsrs,2031-04-11T00:00:00.000Z,1738,1738.3849431,1,2,10,0,0,2026-07-08T00:00:00.000Z!2030-10-22,1609,369-->
 - Impedances in [parallel](series%20and%20parallel%20circuits.md#parallel%20circuits): ::@:: $${\frac {1}{Z_{\mathrm {eq} } } }={\frac {1}{Z_{1} } }+{\frac {1}{Z_{2} } }+\,\cdots \,+{\frac {1}{Z_{n} } }.$$ <!--SR:!2026-07-16,384,360!2026-07-12,381,360-->
   - The above simplified for only two impedances in parallel: ::@:: $$Z_{\mathrm {eq} }={\frac {Z_{1}Z_{2} }{Z_{1}+Z_{2} } }.$$ <!--SR:!2030-09-28,1593,369!2026-07-11,380,360-->
 
@@ -195,7 +195,7 @@ There is {@{an underlying assumption to this method}@} that {@{the total current
 
 - {@{[Nodal analysis](nodal%20analysis.md)}@}: {@{The number of voltage variables, and hence simultaneous equations}@} to solve, equals {@{the number of nodes minus one}@}. {@{Every voltage source connected to the reference node}@} {@{reduces the number of unknowns and equations by one}@}. <!--SR:!2026-07-23,389,360!2028-01-11,782,340!2026-09-10,394,309!2030-12-11,1654,369!fsrs,2031-01-22T00:00:00.000Z,1678,1678.04002437,1,2,9,0,0,2026-06-19T00:00:00.000Z-->
 
-- {@{[Mesh analysis](mesh%20analysis.md)}@}: {@{The number of current variables, and hence simultaneous equations}@} to solve, equals {@{the number of meshes}@}. {@{Every current source in a mesh}@} {@{reduces the number of unknowns by one}@}. Mesh analysis can only be {@{used with networks which can be drawn as a [planar](planar%20graph.md) network}@}, that is, with {@{no crossing components}@}.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;94&hairsp;</sup> <!--SR:!2029-04-15,1161,350!2029-01-23,1093,350!2030-05-22,1485,369!2027-11-17,742,330!2030-08-12,1557,369!2026-07-07,377,360!2028-01-10,750,423-->
+- {@{[Mesh analysis](mesh%20analysis.md)}@}: {@{The number of current variables, and hence simultaneous equations}@} to solve, equals {@{the number of meshes}@}. {@{Every current source in a mesh}@} {@{reduces the number of unknowns by one}@}. Mesh analysis can only be {@{used with networks which can be drawn as a [planar](planar%20graph.md) network}@}, that is, with {@{no crossing components}@}.<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;94&hairsp;</sup> <!--SR:!2029-04-15,1161,350!2029-01-23,1093,350!2030-05-22,1485,369!2027-11-17,742,330!2030-08-12,1557,369!fsrs,2031-04-15T00:00:00.000Z,1742,1742.39703843,1,2,10,0,0,2026-07-08T00:00:00.000Z!2028-01-10,750,423-->
 
 - {@{[Superposition](superposition%20theorem.md)}@} is possibly {@{the most conceptually simple method}@} but {@{rapidly leads to a large number of equations and messy impedance combinations as the network becomes larger}@}. <!--SR:!2027-10-13,676,423!2027-10-14,677,423!2027-12-26,737,423-->
 
@@ -267,7 +267,7 @@ These concepts are {@{capable of being extended to networks of more than two por
 
 #### distributed components
 
-Where {@{a network is composed of discrete components}@}, {@{analysis using two-port networks}@} is {@{a matter of choice, not essential}@}. The network can always {@{alternatively be analysed in terms of its individual component transfer functions}@}. However, if {@{a network contains [distributed components](distributed-element%20model.md)}@}, such as {@{in the case of a [transmission line](transmission%20line.md)}@}, then it is {@{not possible to analyse in terms of individual components since they do not exist}@}. {@{The most common approach}@} to this is to {@{model the line as a two-port network and characterise it using two-port parameters \(or something equivalent to them\)}@}. Another example of this technique is {@{modelling the carriers crossing the base region in a high frequency transistor}@}. {@{The base region}@} has to be {@{modelled as distributed resistance and capacitance rather than [lumped components](lumped%20parameters.md)}@}. <!--SR:!2030-09-08,1580,369!2026-07-29,395,360!2030-07-13,1535,369!2030-07-09,1530,369!2029-02-27,1123,350!2026-07-07,377,360!2029-03-27,1146,350!fsrs,2031-02-14T00:00:00.000Z,1694,1694.16214464,1,2,10,0,0,2026-06-26T00:00:00.000Z!2026-07-11,380,360!2026-07-29,395,360!2030-08-31,1573,369!2028-04-18,809,330-->
+Where {@{a network is composed of discrete components}@}, {@{analysis using two-port networks}@} is {@{a matter of choice, not essential}@}. The network can always {@{alternatively be analysed in terms of its individual component transfer functions}@}. However, if {@{a network contains [distributed components](distributed-element%20model.md)}@}, such as {@{in the case of a [transmission line](transmission%20line.md)}@}, then it is {@{not possible to analyse in terms of individual components since they do not exist}@}. {@{The most common approach}@} to this is to {@{model the line as a two-port network and characterise it using two-port parameters \(or something equivalent to them\)}@}. Another example of this technique is {@{modelling the carriers crossing the base region in a high frequency transistor}@}. {@{The base region}@} has to be {@{modelled as distributed resistance and capacitance rather than [lumped components](lumped%20parameters.md)}@}. <!--SR:!2030-09-08,1580,369!2026-07-29,395,360!2030-07-13,1535,369!2030-07-09,1530,369!2029-02-27,1123,350!fsrs,2031-04-15T00:00:00.000Z,1742,1742.39703843,1,2,10,0,0,2026-07-08T00:00:00.000Z!2029-03-27,1146,350!fsrs,2031-02-14T00:00:00.000Z,1694,1694.16214464,1,2,10,0,0,2026-06-26T00:00:00.000Z!2026-07-11,380,360!2026-07-29,395,360!2030-08-31,1573,369!2028-04-18,809,330-->
 
 #### image analysis
 
