@@ -198,7 +198,7 @@ One can use {@{the [generalised Stokes' theorem](generalized%20Stokes'%20theorem
 
 When {@{_n_ = 2}@}, this is equivalent to {@{[Green's theorem](Green's%20theorem.md)}@}. <!--SR:!fsrs,2029-12-09T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-07-17T00:00:00.000Z!fsrs,2029-10-20T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-07-05T00:00:00.000Z-->
 
-When {@{_n_ = 1}@}, it reduces to {@{the [fundamental theorem of calculus](fundamental%20theorem%20of%20calculus.md), part 2}@}. <!--SR:!2026-07-17,285,330!2026-07-21,289,330-->
+When {@{_n_ = 1}@}, it reduces to {@{the [fundamental theorem of calculus](fundamental%20theorem%20of%20calculus.md), part 2}@}. <!--SR:!fsrs,2029-12-10T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-07-18T00:00:00.000Z!2026-07-21,289,330-->
 
 ### tensor fields
 

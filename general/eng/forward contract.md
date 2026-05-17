@@ -156,7 +156,7 @@ Note: {@{The term _outright_}@} is used in {@{the futures markets in a similar w
 
 ## rational pricing
 
-If {@{$S_{t}$}@} is {@{the [spot price](spot%20price.md) of an asset at time $t$}@}, and {@{$r$}@} is {@{the continuously compounded rate}@}, then {@{the forward price at a future time $T$}@} must {@{satisfy $F_{t,T}=S_{t}e^{r(T-t)}$}@}. <!--SR:!2026-07-17,194,310!2026-09-28,267,330!2026-10-06,275,330!2026-10-20,289,330!2026-09-17,256,330!2026-10-07,276,330-->
+If {@{$S_{t}$}@} is {@{the [spot price](spot%20price.md) of an asset at time $t$}@}, and {@{$r$}@} is {@{the continuously compounded rate}@}, then {@{the forward price at a future time $T$}@} must {@{satisfy $F_{t,T}=S_{t}e^{r(T-t)}$}@}. <!--SR:!fsrs,2028-10-22T00:00:00.000Z,827,827.08781523,1,2,9,0,0,2026-07-18T00:00:00.000Z!2026-09-28,267,330!2026-10-06,275,330!2026-10-20,289,330!2026-09-17,256,330!2026-10-07,276,330-->
 
 To {@{prove this}@}, {@{suppose not}@}. Then we have {@{two possible cases}@}. <!--SR:!2026-10-21,290,330!2026-08-13,237,330!2026-09-24,263,330-->
 

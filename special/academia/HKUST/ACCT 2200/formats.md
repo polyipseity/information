@@ -188,7 +188,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------- | --------------------:|
 > | {@{Beginning Inventory}@}       | {@{420}@}            |
 > | {@{Started This Period}@}       | {@{690}@}            |
-> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2026-07-22,394,361!2031-02-02,1706,381!fsrs,2031-04-02T00:00:00.000Z,1740,1739.66758985,1,2,10,0,0,2026-06-27T00:00:00.000Z!2026-07-20,392,361!fsrs,2031-04-28T00:00:00.000Z,1760,1759.78062992,1,2,10,0,0,2026-07-03T00:00:00.000Z!fsrs,2031-04-18T00:00:00.000Z,1752,1751.7393707,1,2,10,0,0,2026-07-01T00:00:00.000Z!2031-02-02,1706,381!2026-07-17,389,361!fsrs,2031-04-02T00:00:00.000Z,1740,1739.66758985,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
+> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2026-07-22,394,361!2031-02-02,1706,381!fsrs,2031-04-02T00:00:00.000Z,1740,1739.66758985,1,2,10,0,0,2026-06-27T00:00:00.000Z!2026-07-20,392,361!fsrs,2031-04-28T00:00:00.000Z,1760,1759.78062992,1,2,10,0,0,2026-07-03T00:00:00.000Z!fsrs,2031-04-18T00:00:00.000Z,1752,1751.7393707,1,2,10,0,0,2026-07-01T00:00:00.000Z!2031-02-02,1706,381!fsrs,2031-06-18T00:00:00.000Z,1796,1795.90100175,1,2,10,0,0,2026-07-18T00:00:00.000Z!fsrs,2031-04-02T00:00:00.000Z,1740,1739.66758985,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -412,7 +412,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - incremental analysis \(unit\) ::@:: "incremental analysis of \(decision\)", column headers, row headers <!--SR:!2026-12-31,498,401!2026-12-17,494,401-->
   - incremental analysis \(unit\) / column headers ::@:: \(empty\), per unit, total <!--SR:!2026-11-10,464,401!2027-01-19,514,401-->
-  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2026-07-17,346,381!2028-06-30,900,381-->
+  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!fsrs,2031-02-09T00:00:00.000Z,1667,1666.91498885,1,2,9,0,0,2026-07-18T00:00:00.000Z!2028-06-30,900,381-->
 
 ## incremental analysis (comparative)
 

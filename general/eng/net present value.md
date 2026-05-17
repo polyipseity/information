@@ -60,7 +60,7 @@ where:
 
 The NPV method can be {@{slightly adjusted to calculate how much money is contributed to a project's investment per dollar invested}@}. This is known as {@{the capital efficiency ratio}@}. {@{The formula for the net present value per dollar investment \(NPVI\)}@} is given below: {@{$$\mathrm {NPVI} (i,N)={\frac {\sum _{t=1}^{N}{\frac {R_{t} }{(1+i)^{t} } } }{\sum _{t=1}^{N}{\frac {C_{t} }{(1+i)^{t} } } } }$$}@} where: <!--SR:!fsrs,2031-06-08T00:00:00.000Z,1810,1809.63053704,1,2,10,0,0,2026-06-24T00:00:00.000Z!2029-03-26,1164,350!fsrs,2031-08-13T00:00:00.000Z,1862,1862.26008252,1,2,10,0,0,2026-07-08T00:00:00.000Z!2029-10-07,1328,365-->
 
-- $R_{t}$ <!-- flashcard ID: 6db1aa57-6f77-48d3-a995-9699c9b82171 -->::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_. <!--SR:!2026-07-17,408,374!2026-08-10,424,374-->
+- $R_{t}$ <!-- flashcard ID: 6db1aa57-6f77-48d3-a995-9699c9b82171 -->::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_. <!--SR:!fsrs,2031-10-23T00:00:00.000Z,1923,1922.9461018,1,2,10,0,0,2026-07-18T00:00:00.000Z!2026-08-10,424,374-->
 - $C_{t}$ ::@:: are the net cash outflows, at time _t_. <!--SR:!fsrs,2031-04-30T00:00:00.000Z,1773,1773.02232102,1,2,10,0,0,2026-06-22T00:00:00.000Z!fsrs,2031-08-08T00:00:00.000Z,1858,1858.21934548,1,2,10,0,0,2026-07-07T00:00:00.000Z-->
 
 ### example

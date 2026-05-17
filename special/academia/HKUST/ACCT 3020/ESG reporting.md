@@ -73,7 +73,7 @@ Flashcards for this section are as follows:
 - ESG: environmental reasons it matters ::@:: Climate change and extreme weather create physical risks for companies' assets and operations (e.g. typhoons, flooding, heatwaves). <!--SR:!fsrs,2027-05-28T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-05-12T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - ESG: social reasons it matters ::@:: Demographic change (e.g. ageing workforce) and workplace safety issues affect labour supply, productivity, and potential legal liabilities. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-05-23T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
 - ESG: governance reasons it matters ::@:: Weak governance and corruption/bribery scandals can lead to prosecution, fines, and long‑term reputational damage that hurts firm value. <!--SR:!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
-- ESG and investors ::@:: Many investors use ESG scores or ratings; poor ESG performance can increase a firm's cost of capital or lead to exclusion from certain portfolios. <!--SR:!2026-07-17,67,310!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
+- ESG and investors ::@:: Many investors use ESG scores or ratings; poor ESG performance can increase a firm's cost of capital or lead to exclusion from certain portfolios. <!--SR:!fsrs,2027-06-13T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
 
 ## types of ESG risk
 
@@ -89,7 +89,7 @@ The course highlights four broad categories of ESG‑related risk:
 Flashcards for this section are as follows:
 
 - ESG risk: reputation risk ::@:: Risk that repeated ESG failures (e.g. pollution, labour abuses, corruption) damage the firm's reputation, causing customers and investors to withdraw support. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
-- ESG risk: regulatory/reporting risk ::@:: Risk of fines or enforcement actions if ESG disclosures are incomplete, misleading, or inconsistent with actual practices (greenwashing). <!--SR:!2026-07-17,67,310!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z-->
+- ESG risk: regulatory/reporting risk ::@:: Risk of fines or enforcement actions if ESG disclosures are incomplete, misleading, or inconsistent with actual practices (greenwashing). <!--SR:!fsrs,2027-06-13T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z-->
 - ESG risk: physical risk ::@:: Risk that climate‑related events such as storms, flooding, or heatwaves physically damage assets or disrupt operations. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - ESG risk: transition risk ::@:: Risk that, as regulation and markets move towards low‑carbon and sustainable models, certain assets or technologies lose value (e.g. become impaired or stranded). <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-01-02T00:00:00.000Z,196,195.52879015,1.98030797,2,6,0,0,2026-06-20T00:00:00.000Z-->
 
@@ -204,7 +204,7 @@ The exam logic is not to memorise every possible metric word for word, but to un
 Flashcards for this section are as follows:
 
 - social ESG aspects in Hong Kong: what are the main B-series groups? ::@:: B1 employment, B2 health and safety, B3 development and training, B4 labour standards, B5 supply chain management, B6 product responsibility, B7 anti-corruption, and B8 community investment. <!--SR:!2026-07-26,75,328!2026-07-25,74,328-->
-- social KPI examples: what do B2, B3, and B7 typically quantify? ::@:: B2 tracks safety outcomes such as injuries or fatalities, B3 tracks training such as hours per employee, and B7 tracks concluded corruption cases. <!--SR:!2026-07-19,69,328!2026-07-17,67,328-->
+- social KPI examples: what do B2, B3, and B7 typically quantify? ::@:: B2 tracks safety outcomes such as injuries or fatalities, B3 tracks training such as hours per employee, and B7 tracks concluded corruption cases. <!--SR:!2026-07-19,69,328!fsrs,2027-07-06T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - ESG KPI framework: why are aspect groups useful? ::@:: They force disclosure to move from vague claims to topic-specific, measurable evidence. <!--SR:!2026-07-24,73,328!2026-07-24,73,328-->
 - B7 anti-corruption: example of a quantitative disclosure ::@:: The number of concluded legal cases regarding corrupt practices brought against the issuer or its employees. <!--SR:!2026-07-20,70,328!2026-07-21,70,328-->
 
@@ -278,7 +278,7 @@ For exam purposes, the important takeaway is that ESG disclosure in Hong Kong is
 
 Flashcards for this section are as follows:
 
-- HKFRS S1: focus ::@:: General requirements for disclosure of sustainability-related financial information; applies to all companies in Hong Kong from August 2025. <!--SR:!2026-07-25,74,328!2026-07-17,67,328-->
+- HKFRS S1: focus ::@:: General requirements for disclosure of sustainability-related financial information; applies to all companies in Hong Kong from August 2025. <!--SR:!2026-07-25,74,328!fsrs,2027-07-06T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - HKFRS S2: focus ::@:: Climate-related disclosures; structured around four pillars (governance, strategy, risk management, metrics and targets) aligned with TCFD. <!--SR:!2026-07-22,71,328!2026-07-22,71,328-->
 - HKFRS S2: four disclosure pillars ::@:: (1) Governance — board and management oversight of climate risks; (2) Strategy — impacts on business model and financial planning; (3) Risk management — identifying and assessing climate risks; (4) Metrics and targets — quantitative performance data such as Scope 1, 2, and 3 emissions. <!--SR:!fsrs,2026-09-10T14:04:17.792Z,88,87.54441264,1,2,3,0,0,2026-06-14T14:04:17.792Z!fsrs,2026-09-10T14:04:19.839Z,88,87.54441264,1,2,3,0,0,2026-06-14T14:04:19.839Z-->
 - what is the main reporting shift signalled by HKFRS S1 and S2? ::@:: Sustainability reporting is being integrated more closely with governance, strategy, risk management, and financial reporting rather than treated as a separate public-relations document; and coverage is extending from listed companies to all companies. <!--SR:!2026-07-26,75,328!2026-07-26,75,328-->

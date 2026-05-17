@@ -184,7 +184,7 @@ So the correct correction to remember is this: $(X^\top X)^{-1}$ by itself is no
 
 Flashcards for this section are as follows:
 
-- normal equation as orthogonality condition $X^\top(y-Xw)=0$ ::@:: The normal equation is equivalent to $X^\top(y-Xw)=0$, meaning the residual is orthogonal to every column of the design matrix. <!--SR:!2026-08-11,86,353!2026-07-17,63,310-->
+- normal equation as orthogonality condition $X^\top(y-Xw)=0$ ::@:: The normal equation is equivalent to $X^\top(y-Xw)=0$, meaning the residual is orthogonal to every column of the design matrix. <!--SR:!2026-08-11,86,353!fsrs,2027-05-27T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - ordinary vector projection onto a nonunit vector ::@:: The projection of $y$ onto the line spanned by a nonzero vector $a$ is $\operatorname{proj}_{a}(y)=\frac{a^\top y}{a^\top a}a$. <!--SR:!2026-08-05,85,353!2026-07-30,75,324-->
 - why ordinary vector projection divides by $a^\top a$ ::@:: The denominator $a^\top a=\|a\|_2^2$ corrects for the length of $a$, so the projection coefficient measures direction alignment rather than raw scale. <!--SR:!2026-08-11,86,353!2026-07-29,74,324-->
 - projection intuition for least squares ::@:: Least squares chooses $Xw$ as the orthogonal projection of $y$ onto the column space $\operatorname{col}(X)$. <!--SR:!2026-08-06,86,353!2026-08-06,81,341-->
@@ -218,7 +218,7 @@ This is the first important feature-engineering lesson of the course. A model ma
 Flashcards for this section are as follows:
 
 - polynomial regression idea ::@:: Polynomial regression keeps the model linear in the parameters while using nonlinear features such as $1,x,x^2,\ldots,x^d$. <!--SR:!2026-08-11,86,353!2026-08-26,88,363-->
-- feature map viewpoint ::@:: Polynomial regression is linear regression performed on transformed features $\phi(x)$ rather than on the raw input directly. <!--SR:!2026-07-17,66,324!2026-08-05,85,353-->
+- feature map viewpoint ::@:: Polynomial regression is linear regression performed on transformed features $\phi(x)$ rather than on the raw input directly. <!--SR:!fsrs,2027-06-26T00:00:00.000Z,343,343.17170448,1,2,7,0,0,2026-07-18T00:00:00.000Z!2026-08-05,85,353-->
 - general polynomial regression form ::@:: For $p$ variables and degree $d$, polynomial regression includes all monomials $x^{\alpha}=x_1^{\alpha_1}\cdots x_p^{\alpha_p}$ with $|\alpha|\le d$, so $\hat y = \sum_{|\alpha|\le d} w_{\alpha}x^{\alpha}$. <!--SR:!2026-08-11,86,353!2026-08-02,82,341-->
 - how to remember the polynomial feature map ::@:: A good memory aid is to list every product of input coordinates whose total exponent count is at most $d$, including the empty product $1$. <!--SR:!2026-08-11,86,353!2026-08-11,86,353-->
 - linear regression as a special case of polynomial regression ::@:: Ordinary linear regression is the degree-$1$ special case of polynomial regression, because the allowed monomials are only $1,x_1,\ldots,x_p$. <!--SR:!2026-07-30,79,341!2026-08-04,84,353-->
@@ -580,7 +580,7 @@ Flashcards for this section are as follows:
 - likelihood of the regression dataset ::@:: Under conditional independence, the likelihood is $\mathcal{L}(\theta)=\prod_{i=1}^N p(y_i\mid x_i,\theta)$. <!--SR:!2026-07-21,70,324!2026-08-05,85,353-->
 - maximum likelihood in words ::@:: Maximum likelihood chooses the parameters that make the observed outputs most plausible under the assumed probabilistic model. <!--SR:!2026-08-04,84,353!2026-08-29,91,362-->
 - why use log-likelihood ::@:: Log-likelihood turns a product of conditional densities into a sum, which is easier to optimize and analyze. <!--SR:!2026-08-04,84,353!2026-08-30,92,363-->
-- why negative log-likelihood is minimized ::@:: Minimizing negative log-likelihood is equivalent to maximizing likelihood, but it matches the usual loss-minimization language of machine learning. <!--SR:!2026-07-17,66,324!2026-07-17,66,324-->
+- why negative log-likelihood is minimized ::@:: Minimizing negative log-likelihood is equivalent to maximizing likelihood, but it matches the usual loss-minimization language of machine learning. <!--SR:!fsrs,2027-06-26T00:00:00.000Z,343,343.17170448,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-06-26T00:00:00.000Z,343,343.17170448,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 
 ### from Gaussian likelihood to least squares
 

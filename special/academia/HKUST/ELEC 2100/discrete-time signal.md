@@ -53,7 +53,7 @@ Flashcards for this section are as follows:
 - In a discrete-time waveform, what does the length of each line segment represent? ::@:: It represents the magnitude of the corresponding sequence value. <!--SR:!2026-07-19,65,310!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - What does the upward arrow mean in sequence notation? ::@:: It marks the sample at $n=0$. <!--SR:!2026-08-01,61,310!2026-07-19,65,310-->
 - How is a uniformly sampled continuous-time signal represented as a discrete-time sequence? ::@:: If the sampling interval is $T_s$, then the sequence is $x[n]=x_s(nT_s)$. <!--SR:!2026-08-06,66,310!2026-08-04,64,310-->
-- Why is $n$ the independent variable in a discrete-time sequence? ::@:: Because the signal is described sample by sample at integer indices rather than at every continuous-time instant. <!--SR:!2026-07-17,63,310!fsrs,2027-05-11T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
+- Why is $n$ the independent variable in a discrete-time sequence? ::@:: Because the signal is described sample by sample at integer indices rather than at every continuous-time instant. <!--SR:!fsrs,2027-05-27T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-05-11T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 - Worked example: If $x[n]=2^n$ for $n\ge 0$ and $x[n]=0$ for $n<0$, how does its sequence begin around the origin? ::@:: Step 1: for negative indices the formula says $x[n]=0$. <br/> Step 2: evaluate the first nonnegative samples: $x[0]=1$, $x[1]=2$, $x[2]=4$, $x[3]=8$. <br/> Step 3: therefore the sequence begins as $\{\ldots,0,0,0,1,2,4,8,\ldots\}$ with the arrow under the $1$ at $n=0$. <!--SR:!2026-08-05,65,310!2026-07-21,67,310-->
 - Worked example: How should the waveform of $x[n]=2^n u[n]$ be drawn? ::@:: Step 1: mark integer sample locations on the $n$ axis. <br/> Step 2: for $n<0$, the factor $u[n]$ makes every stem height $0$. <br/> Step 3: for $n=0,1,2,3,\ldots$, draw stem heights $2^0,2^1,2^2,2^3,\ldots=1,2,4,8,\ldots$. <!--SR:!2026-08-02,62,310!fsrs,2027-05-16T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
 
@@ -68,7 +68,7 @@ These support patterns matter because they help one read formulas quickly. A fac
 Flashcards for this section are as follows:
 
 - What is a one-sided sequence? ::@:: It is a sequence whose nonzero samples lie only on one side of the index axis, typically for $n\ge 0$. <!--SR:!fsrs,2027-05-21T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-08-06,66,310-->
-- What is a two-sided sequence? ::@:: It is a sequence that may have nonzero samples for both negative and positive indices. <!--SR:!fsrs,2027-05-10T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-14T00:00:00.000Z!2026-07-17,63,310-->
+- What is a two-sided sequence? ::@:: It is a sequence that may have nonzero samples for both negative and positive indices. <!--SR:!fsrs,2027-05-10T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-05-27T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - What is a finite-length sequence? ::@:: It is a sequence that is nonzero only over a bounded set of indices. <!--SR:!2026-08-07,67,310!2026-07-19,48,290-->
 - Why do support patterns matter? ::@:: They help you read quickly whether a sequence extends indefinitely, starts at one side, or is confined to a finite window. <!--SR:!2026-08-04,64,310!fsrs,2027-05-16T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
 - What does a factor such as $u[n]$ usually signal about a sequence? ::@:: It usually signals that the sequence is one-sided and starts at or after $n=0$. <!--SR:!2026-08-01,61,310!2026-08-03,63,310-->
@@ -112,12 +112,12 @@ Flashcards for this section are as follows:
 
 - What is the discrete-time unit step sequence? ::@:: It is $u[n]=1$ for $n\ge 0$ and $u[n]=0$ for $n<0$. <!--SR:!2026-08-07,67,310!2026-08-04,64,310-->
 - How can the discrete-time unit step be written as a sum of unit samples? ::@:: It can be written as $u[n]=\sum_{k=0}^{\infty}\delta[n-k]$. <!--SR:!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-06,66,310-->
-- What is the relation between the unit sample and the unit step in discrete time? ::@:: They satisfy $\delta[n]=u[n]-u[n-1]$. <!--SR:!fsrs,2027-05-10T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-14T00:00:00.000Z!2026-07-17,46,290-->
+- What is the relation between the unit sample and the unit step in discrete time? ::@:: They satisfy $\delta[n]=u[n]-u[n-1]$. <!--SR:!fsrs,2027-05-10T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-02-23T00:00:00.000Z,220,220.34625515,1.98030797,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - What is a rectangular sequence of length $N$, including its endpoint convention? ::@:: It is $R_N[n]=1$ for $0\le n\le N-1$ and $0$ otherwise, so $n=0$ is included and $n=N$ is excluded. <!--SR:!2026-08-05,65,310!fsrs,2027-04-19T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - How can the rectangular sequence be written using unit steps? ::@:: It can be written as $R_N[n]=u[n]-u[n-N]$. <!--SR:!2026-08-03,63,310!2026-07-19,65,310-->
 - How can the rectangular sequence be written using unit samples? ::@:: It can be written as $R_N[n]=\sum_{k=0}^{N-1}\delta[n-k]$. <!--SR:!2026-08-03,63,310!2026-08-03,63,310-->
 - Why is the endpoint convention of $R_N[n]=u[n]-u[n-N]$ easy to misread? ::@:: Because the step form shows switch-on at $n=0$ and switch-off starting at $n=N$, so the support includes $0$ through $N-1$ but excludes $N$. <!--SR:!2026-07-20,66,310!2026-08-04,64,310-->
-- What three viewpoints are useful for understanding the rectangular sequence? ::@:: The step view emphasizes switching on and off, the impulse-sum view emphasizes finite support, and the graph view emphasizes a flat run of ones over a fixed index interval. <!--SR:!2026-07-19,64,310!2026-07-17,63,310-->
+- What three viewpoints are useful for understanding the rectangular sequence? ::@:: The step view emphasizes switching on and off, the impulse-sum view emphasizes finite support, and the graph view emphasizes a flat run of ones over a fixed index interval. <!--SR:!2026-07-19,64,310!fsrs,2027-05-27T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 
 ## ramp and one-sided exponential sequences
 
@@ -178,7 +178,7 @@ Flashcards for this section are as follows:
 - Worked example: Why is $x[n]=\sin(0.4n)$ aperiodic? ::@:: Step 1: periodicity would require $0.4N=2\pi m$ for integers $N,m$. <br/> Step 2: equivalently, $0.4/(2\pi)=m/N$ would have to be rational. <br/> Step 3: since $0.4/(2\pi)$ is irrational, no such positive integer $N$ exists, so the sequence is aperiodic. <!--SR:!2026-07-20,66,310!2026-08-05,65,310-->
 - What is the discrete-time complex exponential sequence? ::@:: It is $x[n]=e^{j\omega n}=\cos(\omega n)+j\sin(\omega n)$. <!--SR:!fsrs,2027-05-21T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-08-07,67,310-->
 - What are the magnitude and phase of $e^{j\omega n}$? ::@:: Its magnitude is $1$, and its phase is $\omega n$. <!--SR:!2026-08-06,66,310!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
-- When is a discrete-time complex exponential sequence periodic? ::@:: It is periodic if and only if $\omega/(2\pi)$ is rational. <!--SR:!2026-07-17,63,310!2026-07-18,64,310-->
+- When is a discrete-time complex exponential sequence periodic? ::@:: It is periodic if and only if $\omega/(2\pi)$ is rational. <!--SR:!fsrs,2027-05-27T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-18T00:00:00.000Z!2026-07-18,64,310-->
 - What is the effect of irrationality on the periodicity of $e^{j\omega n}$? ::@:: If $\omega/(2\pi)$ is irrational, the phasor never returns exactly to the same complex value after any positive integer number of samples, so the sequence is aperiodic. <!--SR:!2026-08-02,62,310!2026-08-01,61,310-->
 
 ## pointwise operations and index transformations
@@ -267,7 +267,7 @@ The lecture's sample energy calculation uses a sequence with nonzero values $1,2
 
 Flashcards for this section are as follows:
 
-- What is the energy of a discrete-time sequence over the finite interval $-K\le n\le K$? ::@:: It is $E_K=\sum_{n=-K}^{K}|x[n]|^2$. <!--SR:!2026-07-17,63,310!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
+- What is the energy of a discrete-time sequence over the finite interval $-K\le n\le K$? ::@:: It is $E_K=\sum_{n=-K}^{K}|x[n]|^2$. <!--SR:!fsrs,2027-05-27T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 - What is the total energy of a discrete-time sequence? ::@:: It is $E=\sum_{n=-\infty}^{\infty}|x[n]|^2$ when the infinite sum converges. <!--SR:!2026-08-06,66,310!2026-08-04,64,310-->
 - What is the average power of an aperiodic discrete-time sequence? ::@:: It is $P=\lim_{K\to\infty}\frac{1}{2K+1}\sum_{n=-K}^{K}|x[n]|^2$. <!--SR:!2026-08-07,67,310!2026-08-03,63,310-->
 - What is the average power of a periodic sequence with period $N$? ::@:: It is $P=\frac{1}{N}\sum_{n=0}^{N-1}|x[n]|^2$. <!--SR:!2026-08-06,66,310!2026-08-05,65,310-->

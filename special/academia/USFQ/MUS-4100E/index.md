@@ -183,7 +183,7 @@ The content is in teaching order.
   - Storyville, New Orleans / closure ::@:: closed down by the military in 1917 because it was too distracting to the soldiers <!--SR:!2029-07-22,1287,375!2031-10-11,1956,395-->
 - [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, pianist, singer; first jazz composer to notate jazz <!--SR:!2028-01-21,847,355!2026-08-23,433,335-->
   - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz <!--SR:!2031-10-22,1967,395!2026-07-18,410,375-->
-  - Jelly Roll Morton / claims ::@:: claimed all his ancestors came from France (not true), claimed he "invented" jazz in 1902 (criticized) <!--SR:!2026-07-17,409,375!2026-07-28,420,375-->
+  - Jelly Roll Morton / claims ::@:: claimed all his ancestors came from France (not true), claimed he "invented" jazz in 1902 (criticized) <!--SR:!fsrs,2031-10-27T00:00:00.000Z,1927,1927.03350629,1,2,10,0,0,2026-07-18T00:00:00.000Z!2026-07-28,420,375-->
   - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythm commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2026-08-13,423,335!2029-09-29,1351,375-->
   - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions <!--SR:!2028-02-06,858,355!2029-09-11,1333,375-->
 - [jazz](../../../../general/jazz.md)

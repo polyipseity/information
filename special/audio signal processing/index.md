@@ -186,7 +186,7 @@ The content is in recommended learning order.
   - signal processing / other topics ::@:: multi-resolution, partial tracking, residual analysis, sinusoid detection and estimation, synthesis, transient modeling <!--SR:!2026-07-20,299,332!2026-07-19,298,332-->
   - signal processing / multi-resolution ::@:: Instead of using a fixed window size for all frequencies, use smaller window sizes for higher frequencies. <!--SR:!2026-07-21,300,332!2028-10-18,868,332-->
   - signal processing / partial tracking ::@:: Track movement of partials. <!--SR:!2029-07-03,1131,352!2026-07-20,299,332-->
-  - signal processing / residual analysis ::@:: Model residual using more advanced methods. <!--SR:!2026-07-17,296,332!fsrs,2029-11-14T00:00:00.000Z,1234,1233.79953842,1,2,9,0,0,2026-06-29T00:00:00.000Z-->
+  - signal processing / residual analysis ::@:: Model residual using more advanced methods. <!--SR:!fsrs,2030-01-29T00:00:00.000Z,1291,1290.87492949,1,2,9,0,0,2026-07-18T00:00:00.000Z!fsrs,2029-11-14T00:00:00.000Z,1234,1233.79953842,1,2,9,0,0,2026-06-29T00:00:00.000Z-->
   - signal processing / sinusoid detection and estimation ::@:: Detect and estimate sinusoids using more advanced methods. <!--SR:!2029-05-17,1103,352!2026-07-21,300,332-->
   - signal processing / synthesis ::@:: Synthesize new sounds rather than simply re-synthesizing. <!--SR:!fsrs,2029-10-24T00:00:00.000Z,1219,1218.51706667,1,2,9,0,0,2026-06-23T00:00:00.000Z!2029-08-17,1176,352-->
   - signal processing / transient modeling ::@:: Model transient \(short\) sounds more accurately. <!--SR:!2029-05-13,1099,352!2029-08-16,1175,352-->

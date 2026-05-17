@@ -972,7 +972,7 @@ The content is in teaching order. Extra information and corrections are included
 - [Milky Way](../../../../general/Milky%20Way.md) / [galaxy class](../../../../general/galaxy%20morphological%20classification.md)
 - [galactic plane](../../../../general/galactic%20plane.md)
 - Messier M51a ::@:: [Whirlpool Galaxy](../../../../general/Whirlpool%20Galaxy.md) <!--SR:!2026-09-30,645,427!fsrs,2032-08-31T10:39:32.433Z,2279,2279.40256149,1,2,10,0,0,2026-06-05T10:39:32.433Z-->
-  - Messier M51a / properties ::@:: grand-design spiral galaxy; discovered by Charles Messier, 1773; ~31 million ly away (revised to be ~23.5 million ly) <!--SR:!2026-07-17,479,307!2032-04-05,2166,367-->
+  - Messier M51a / properties ::@:: grand-design spiral galaxy; discovered by Charles Messier, 1773; ~31 million ly away (revised to be ~23.5 million ly) <!--SR:!fsrs,2031-06-23T00:00:00.000Z,1801,1801.21894214,1.12978518,2,10,0,0,2026-07-18T00:00:00.000Z!2032-04-05,2166,367-->
 - [Hubble Ultra-Deep Field](../../../../general/Hubble%20Ultra-Deep%20Field.md)
 - [Milky Way](../../../../general/Milky%20Way.md)
   - [Milky Way](../../../../general/Milky%20Way.md) / [galaxy class](../../../../general/galaxy%20morphological%20classification.md)

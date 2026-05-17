@@ -43,7 +43,7 @@ In {@{[digital communications](digital%20communications.md)}@}, {@{the equalizer
 
 - {@{Linear equalizer}@}: {@{processes the incoming signal}@} with {@{a linear filter}@}
   - {@{[MMSE](minimum%20mean%20square%20error.md) equalizer}@}: designs the filter to {@{minimize E\[\|e\|<sup>2</sup>\]}@}, where e is {@{the error signal, which is the filter output minus the transmitted signal}@}.<sup>[\[1\]](#^ref-1)</sup>
-  - {@{[Zero-forcing equalizer](zero-forcing%20equalizer.md)}@}: {@{approximates the inverse of the channel}@} with {@{a linear filter}@}. <!--SR:!2026-08-21,272,330!2026-09-04,281,330!2026-08-11,264,330!2026-09-04,281,330!fsrs,2028-05-13T00:00:00.000Z,675,674.76322068,2.49272837,2,9,0,0,2026-07-08T00:00:00.000Z!2026-08-25,276,330!2026-07-23,250,330!2026-07-17,245,330!2026-09-06,283,330-->
+  - {@{[Zero-forcing equalizer](zero-forcing%20equalizer.md)}@}: {@{approximates the inverse of the channel}@} with {@{a linear filter}@}. <!--SR:!2026-08-21,272,330!2026-09-04,281,330!2026-08-11,264,330!2026-09-04,281,330!fsrs,2028-05-13T00:00:00.000Z,675,674.76322068,2.49272837,2,9,0,0,2026-07-08T00:00:00.000Z!2026-08-25,276,330!2026-07-23,250,330!fsrs,2029-07-10T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-18T00:00:00.000Z!2026-09-06,283,330-->
 
 - {@{[Decision feedback equalizer](decision%20feedback%20equalizer.md)}@}: {@{augments a linear equalizer}@} by adding {@{a filtered version of previous symbol estimates}@} to {@{the original filter output}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-09-09,286,330!2026-07-22,249,330!2026-07-20,247,330!2026-09-05,282,330-->
 
@@ -55,7 +55,7 @@ In {@{[digital communications](digital%20communications.md)}@}, {@{the equalizer
 
 - {@{[BCJR equalizer](BCJR.md)}@}: {@{uses the BCJR algorithm \(also called the [Forward-backward algorithm](forward-backward%20algorithm.md)\)}@} to {@{find the [maximum _a posteriori_](maximum%20a%20posteriori.md) \(MAP\) solution}@}. Its goal is to {@{minimize the probability that a given bit was incorrectly estimated}@}. <!--SR:!2026-08-10,263,330!2026-08-16,268,330!2026-08-17,269,330!2026-08-14,267,330-->
 
-- {@{[Turbo equalizer](turbo%20equalizer.md)}@}: {@{applies turbo decoding}@} while {@{treating the channel as a convolutional code}@}. <!--SR:!2026-08-14,267,330!2026-07-17,245,330!2026-08-20,272,330-->
+- {@{[Turbo equalizer](turbo%20equalizer.md)}@}: {@{applies turbo decoding}@} while {@{treating the channel as a convolutional code}@}. <!--SR:!2026-08-14,267,330!fsrs,2029-07-10T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-18T00:00:00.000Z!2026-08-20,272,330-->
 
 ## see also
 

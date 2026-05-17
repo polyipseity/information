@@ -27,7 +27,7 @@ Frequency response is the frequency-domain description of how an LTI system proc
 
 Flashcards for this section are as follows:
 
-- What role does frequency response play in the system-side analysis of an LTI system? ::@:: It explains how an LTI system acts on spectral components in the frequency domain, so system analysis becomes multiplication by a system function rather than repeated time-domain convolution. <!--SR:!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-17,62,310-->
+- What role does frequency response play in the system-side analysis of an LTI system? ::@:: It explains how an LTI system acts on spectral components in the frequency domain, so system analysis becomes multiplication by a system function rather than repeated time-domain convolution. <!--SR:!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z!fsrs,2027-05-23T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - Why does frequency-response analysis naturally come after Fourier-transform analysis of signals? ::@:: Because once signals are decomposed into frequency components, the next question is how a system scales and phase-shifts each component. <!--SR:!2026-07-30,74,327!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 
 ## time-domain and frequency-domain zero-state viewpoints
