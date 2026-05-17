@@ -138,7 +138,7 @@ return chain.from_iterable([r.value for r in results])
 - _n_ = 1:@:$pV = C$; under [ideal gas law](ideal%20gas%20law.md), equivalent to [isothermic process](isothermic%20process.md), and [heat](heat.md) and [work](work%20(physics).md) flow in opposite direction <!--SR:!2027-05-14,892,330-->
 - 1 < _n_ < _γ_:@:under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the opposite direction; when [volume](volume.md) increases, [temperature](temperature.md) decreases <!--SR:!2026-12-22,533,250-->
 - _n_ = _γ_:@:under [ideal gas law](ideal%20gas%20law.md), equivalent to [isentropic process](isentropic%20process.md), and there is no [heat](heat.md) flow <!--SR:!2027-11-17,1112,350-->
-- _γ_ < _n_ < +∞:@:under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction <!--SR:!2026-05-24,622,310-->
+- _γ_ < _n_ < +∞:@:under [ideal gas law](ideal%20gas%20law.md), [heat](heat.md) and [work](work%20(physics).md) flow in the same direction <!--SR:!2033-09-16,2668,330-->
 - _n_ = +∞:@:$V = C$, equivalent to [isochoric process](isochoric%20process.md); there is no [work](work%20(physics).md) <!--SR:!2027-11-16,1112,350-->
 
 <!--/pytextgen-->

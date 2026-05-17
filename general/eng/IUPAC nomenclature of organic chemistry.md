@@ -167,7 +167,7 @@ The steps for naming an organic compound are:
 - _(begin)_→::@::←[identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain) <!--SR:!2027-04-01,991,255!2038-02-21,4384,365-->
 - [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→::@::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2029-03-07,1596,262!2029-03-21,1647,325-->
 - identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→::@::←identify side-chains <!--SR:!2027-04-28,1021,264!2027-11-18,563,170-->
-- identify side-chains→::@::←identify remaining functional groups <!--SR:!2026-06-02,852,230!2026-07-17,507,207-->
+- identify side-chains→::@::←identify remaining functional groups <!--SR:!2033-12-31,2769,250!2026-07-17,507,207-->
 - identify remaining functional groups→::@::←identify multiple bonds <!--SR:!2026-07-16,523,190!2026-06-27,690,207-->
 - identify multiple bonds→::@::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2030-10-14,1783,250!2027-04-24,580,210-->
 - [identify numbering direction](#identify%20numbering%20direction)→::@::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2030-05-18,1582,210!2033-10-06,2776,285-->
@@ -280,11 +280,11 @@ The steps for naming an organic compound are:
 
 ### prefix for type count
 
-See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the first one is no prefix}@}. <!--SR:!2029-02-08,1692,383!2026-05-26,102,379-->
+See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the first one is no prefix}@}. <!--SR:!2029-02-08,1692,383!2027-11-06,528,399-->
 
 ### prefix for carbon count
 
-See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the last character _a-_ is trimmed away}@} and {@{the first four are _meth-_, _eth-_, _prop-_, and _but-_}@}. <!--SR:!2033-01-23,2562,343!2026-05-25,101,379!2026-05-26,102,379-->
+See {@{[IUPAC numerical multiplier § data](IUPAC%20numerical%20multiplier.md#data)}@} except that {@{the last character _a-_ is trimmed away}@} and {@{the first four are _meth-_, _eth-_, _prop-_, and _but-_}@}. <!--SR:!2033-01-23,2562,343!2027-10-30,521,399!2027-11-07,529,399-->
 
 ## functional groups
 

@@ -142,7 +142,7 @@ return chain.from_iterable([r.value for r in results])
 - [aluminium](aluminium.md)→::@::←[titanium](titanium.md) <!--SR:!2027-08-18,718,230!2028-05-15,832,230-->
 - [titanium](titanium.md)→::@::←[manganese](manganese.md) <!--SR:!2027-06-25,930,250!2029-05-18,1277,270-->
 - [manganese](manganese.md)→::@::←[zinc](zinc.md) <!--SR:!2026-11-29,448,190!2026-10-22,560,210-->
-- [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2026-05-24,317,210!2027-10-04,881,230-->
+- [zinc](zinc.md)→::@::←[chromium](chromium.md) <!--SR:!2028-12-27,944,230!2027-10-04,881,230-->
 - [chromium](chromium.md)→::@::←[iron](iron.md) <!--SR:!2026-09-04,811,290!2026-07-23,460,190-->
 - [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2027-01-30,391,210-->
 - [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!2026-06-25,459,210!2026-09-02,232,150-->
@@ -259,7 +259,7 @@ return chain.from_iterable([r.value for r in results])
 - [antimony](antimony.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-12-24,751,290-->
 - [bismuth](bismuth.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2028-11-26,1306,310-->
 - [copper](copper.md):@:reacts slowly with [air](air.md) <!--SR:!2034-12-12,3155,310-->
-- [tungsten](tungsten.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-05-29,824,330-->
+- [tungsten](tungsten.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2036-09-07,3754,350-->
 - [mercury](mercury%20(element).md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-08-19,883,330-->
 - [silver](silver.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2027-03-31,1132,350-->
 - [gold](gold.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2027-05-25,1177,350-->
@@ -273,7 +273,7 @@ return chain.from_iterable([r.value for r in results])
 - reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md):@:[magnesium](magnesium.md) <!--SR:!2026-12-20,785,345-->
 - reacts with [steam](steam.md) and [acids](acid.md):@:[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2026-08-27,299,170-->
 - reacts with concentrated [mineral acids](mineral%20acid.md):@:[titanium](titanium.md) <!--SR:!2031-11-20,2146,345-->
-- reacts with [acids](acid.md), poorly with [steam](steam.md):@:[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2026-05-20,156,150-->
+- reacts with [acids](acid.md), poorly with [steam](steam.md):@:[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2027-01-19,236,150-->
 - may react with some strong [oxidizing agents](oxidizing%20agent.md):@:[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2026-06-17,554,285-->
 - reacts slowly with [air](air.md):@:[copper](copper.md) <!--SR:!2028-04-09,1171,365-->
 
@@ -298,7 +298,7 @@ return chain.from_iterable([r.value for r in results])
 - [manganese](manganese.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2027-05-29,453,170-->
 - [zinc](zinc.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2029-01-20,1526,310-->
 - [chromium](chromium.md):@:[aluminothermic reaction](aluminothermic%20reaction.md) <!--SR:!2029-10-27,1507,270-->
-- [iron](iron.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-05-18,777,310-->
+- [iron](iron.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2035-07-04,3333,330-->
 - [cadmium](cadmium.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2032-10-21,2617,330-->
 - [cobalt](cobalt.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2032-04-03,2458,330-->
 - [nickel](nickel.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-12-25,976,330-->
@@ -319,7 +319,7 @@ return chain.from_iterable([r.value for r in results])
 
 - [electrolysis](electrolysis.md):@:[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2026-07-16,74,130-->
 - [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md):@:[titanium](titanium.md) <!--SR:!2028-02-06,993,287-->
-- [smelting](smelting.md) with [coke](coke%20(fuel).md):@:[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2026-05-28,114,150-->
+- [smelting](smelting.md) with [coke](coke%20(fuel).md):@:[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2026-11-12,168,150-->
 - [aluminothermic reaction](aluminothermic%20reaction.md):@:[chromium](chromium.md) <!--SR:!2027-05-03,750,267-->
 - heat or physical extraction:@:[antimony](antimony.md), [bismuth](bismuth.md), [copper](copper.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2026-12-05,664,285-->
 
@@ -329,9 +329,9 @@ return chain.from_iterable([r.value for r in results])
 
 ### reactions between water and acids
 
-{@{More reactive [metals](metal.md)}@} react with {@{cold [water](water.md) to form the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}@}. <!--SR:!2027-08-02,1066,290!2026-05-22,14,322-->
+{@{More reactive [metals](metal.md)}@} react with {@{cold [water](water.md) to form the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}@}. <!--SR:!2027-08-02,1066,290!2026-07-10,43,322-->
 
-{@{Moderately reactive metals}@} react with {@{[steam](steam.md) or [acids](acid.md)}@} to form {@{respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}@}. <!--SR:!2032-10-23,2375,270!2026-05-25,17,342!2026-05-25,17,342-->
+{@{Moderately reactive metals}@} react with {@{[steam](steam.md) or [acids](acid.md)}@} to form {@{respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}@}. <!--SR:!2032-10-23,2375,270!2026-08-13,77,362!2026-08-13,77,362-->
 
 ## references
 

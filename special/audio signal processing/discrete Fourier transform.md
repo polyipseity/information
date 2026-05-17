@@ -77,7 +77,7 @@ To understand this convolution theorem, imagine two $N$-length signals {@{decomp
 
 Usually, the original sequence is {@{in the time domain, i.e. it represents the (complex) amplitude as a function of time}@}. Then, the transformed sequence is {@{in the frequency domain, i.e. it represents the (complex) amplitude as a function of frequency}@}. The $k$-th value of the transformed sequence represents a frequency of {@{$\frac k {TN}$ or $\frac {k f_s} N$}@}. That is, each value of the transformed value is separated by {@{$\frac 1 {TN}$ (the reciprocal of the duration of the input sequence) or $\frac {f_s} N$ (the ratio of sampling frequency over the number of sequences)}@}. <!--SR:!2028-06-04,1079,350!2027-02-23,695,330!2028-06-23,959,270!2028-01-10,933,330-->
 
-Each element $x[n]$ in the original sequence represents {@{the (complex) amplitude at time $nT$}@}. Likewise, each {@{element $X[k]$ in the transformed sequence}@} represents {@{the (complex) amplitude of the complex sinusoid $\left(e^{j 2\pi (k / N) n} \right)$ of cycle frequency $k / N$}@} (__cycle frequency__: {@{$k$ cycles of the complex sinusoid per $N$ sample}@}; the __actual frequency__ is {@{$\frac k {TN}$ or $\frac {k f_s} N$}@}) in {@{the original sequence}@}. This also shows a $N$-periodic discrete signal can always be represented by {@{the sum of $N$ complex sinusoidal components via DFT}@}. <!--SR:!2028-11-23,1219,350!2028-12-09,1060,270!2028-11-22,1218,350!2026-07-19,145,413!2026-06-07,103,393!2026-05-20,94,393!2026-07-20,146,413-->
+Each element $x[n]$ in the original sequence represents {@{the (complex) amplitude at time $nT$}@}. Likewise, each {@{element $X[k]$ in the transformed sequence}@} represents {@{the (complex) amplitude of the complex sinusoid $\left(e^{j 2\pi (k / N) n} \right)$ of cycle frequency $k / N$}@} (__cycle frequency__: {@{$k$ cycles of the complex sinusoid per $N$ sample}@}; the __actual frequency__ is {@{$\frac k {TN}$ or $\frac {k f_s} N$}@}) in {@{the original sequence}@}. This also shows a $N$-periodic discrete signal can always be represented by {@{the sum of $N$ complex sinusoidal components via DFT}@}. <!--SR:!2028-11-23,1219,350!2028-12-09,1060,270!2028-11-22,1218,350!2026-07-19,145,413!2026-06-07,103,393!2027-10-15,504,413!2026-07-20,146,413-->
 
 ### components
 
@@ -107,7 +107,7 @@ It is often more helpful to plot the magnitude spectrum in {@{a logarithmic scal
 
 - see: [`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html)
 
-To make the phase spectrum {@{less jumpy (more continuous)}@}, the phase may be {@{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$}@} \(see {@{[`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html)}@}\). <!--SR:!2030-07-04,1717,393!2029-09-15,1380,373!2026-05-30,136,412-->
+To make the phase spectrum {@{less jumpy (more continuous)}@}, the phase may be {@{wrapped around $2\pi$ such that the difference from the previous phase is not more than $\pi$}@} \(see {@{[`np.unwrap`](https://numpy.org/doc/stable/reference/generated/numpy.unwrap.html)}@}\). <!--SR:!2030-07-04,1717,393!2029-09-15,1380,373!2028-06-28,757,432-->
 
 ## zero padding
 

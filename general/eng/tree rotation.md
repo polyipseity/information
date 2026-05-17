@@ -15,7 +15,7 @@ tags:
 
 In {@{[discrete mathematics](discrete%20mathematics.md)}@}, __tree rotation__ is {@{an operation on a [binary tree](binary%20tree.md) that changes the structure without interfering with the order of the elements}@}. A tree rotation {@{moves one node up in the tree and one node down}@}. It is used to {@{change the shape of the tree}@}, and in particular {@{to decrease its height by moving smaller subtrees down and larger subtrees up}@}, resulting in {@{improved performance of many tree operations}@}. <!--SR:!2029-01-17,1158,350!2027-04-08,635,330!2029-08-15,1313,350!2029-01-03,1146,350!2029-03-07,1195,350!2028-01-11,800,330-->
 
-There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while others say that {@{the direction of rotation}@} reflects {@{which subtree is rotating}@} \({@{a left subtree rotating into its parent's location}@} is {@{a left rotation, the opposite of the former}@}\). This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2028-08-27,1043,350!2026-05-31,393,310!2029-02-08,1174,350!2026-06-07,353,290!2028-02-10,641,411!2028-01-16,618,411!2028-02-05,636,411-->
+There exists {@{an inconsistency in different descriptions as to the definition of the __direction of rotations__}@}. Some say that {@{the direction of rotation reflects the direction that a node is moving upon rotation \(a left child rotating into its parent's location is a right rotation\)}@} while others say that {@{the direction of rotation}@} reflects {@{which subtree is rotating}@} \({@{a left subtree rotating into its parent's location}@} is {@{a left rotation, the opposite of the former}@}\). This article takes {@{the approach of the directional movement of the rotating node (annotation: the former one)}@}. <!--SR:!2028-08-27,1043,350!2031-01-12,1687,330!2029-02-08,1174,350!2026-06-07,353,290!2028-02-10,641,411!2028-01-16,618,411!2028-02-05,636,411-->
 
 ## illustration
 
@@ -65,7 +65,7 @@ The programmer must also make sure that {@{the root's parent points to the pivot
 
 ## inorder invariance
 
-The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder%20traversal) of the binary tree [invariant](invariant%20(mathematics).md#invariants%20in%20computer%20science)}@}. This implies {@{the order of the elements is not affected when a rotation is performed in any part of the tree}@}. Here are the inorder traversals of the trees shown above: <!--SR:!2027-09-02,752,330!2026-05-27,390,310-->
+The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder%20traversal) of the binary tree [invariant](invariant%20(mathematics).md#invariants%20in%20computer%20science)}@}. This implies {@{the order of the elements is not affected when a rotation is performed in any part of the tree}@}. Here are the inorder traversals of the trees shown above: <!--SR:!2027-09-02,752,330!2031-01-02,1680,330-->
 
 ```text
 Left tree: ((A, P, B), Q, C)        Right tree: (A, P, (B, Q, C))

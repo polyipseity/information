@@ -30,7 +30,7 @@ An economic equilibrium is {@{a situation when the economic agent cannot change 
 
 > {@{![Competitive Equilibrium: Price equates supply and demand.](../../archives/Wikimedia%20Commons/Price%20of%20market%20balance.gif)}@}
 >
-> {@{Competitive Equilibrium}@}: {@{Price equates supply and demand}@}. <!--SR:!2027-11-05,694,417!2027-04-01,483,397!2026-05-20,130,404-->
+> {@{Competitive Equilibrium}@}: {@{Price equates supply and demand}@}. <!--SR:!2027-11-05,694,417!2027-04-01,483,397!2028-05-14,717,424-->
 
 <!-- markdownlint MD028 -->
 
@@ -72,7 +72,7 @@ In terms of {@{the equilibrium properties}@}, we can see that {@{P2 (annotation:
 
 {@{Most economists, for example [Paul Samuelson](Paul%20Samuelson.md)}@},<sup>[\[6\]](#^ref-6)</sup> caution against {@{attaching a [normative](positive%20and%20normative%20economics.md) meaning (value judgement) to the equilibrium price}@}. For example, food markets may be {@{in equilibrium at the same time that people are starving (because they cannot afford to pay the high equilibrium price)}@}. <!--SR:!2030-06-21,1608,365!2030-05-10,1579,365!2029-02-22,1217,350-->
 
-Indeed, this occurred during {@{the [Great Famine](Great%20Famine%20(Ireland).md) in [Ireland](Ireland.md) in 1845–52}@}, where {@{[food was exported](Great%20Famine%20(Ireland).md#food%20exports%20during%20Famine) though people were starving}@}, due to {@{the greater profits in selling to the English}@} – {@{the equilibrium price of the Irish-British market for potatoes}@} was {@{above the price that Irish farmers could afford}@}, and thus {@{(among other reasons) they starved}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2027-07-01,678,305!2027-03-09,630,325!2028-05-08,969,345!2030-03-13,1523,365!2026-10-20,501,404!2026-06-02,377,384-->
+Indeed, this occurred during {@{the [Great Famine](Great%20Famine%20(Ireland).md) in [Ireland](Ireland.md) in 1845–52}@}, where {@{[food was exported](Great%20Famine%20(Ireland).md#food%20exports%20during%20Famine) though people were starving}@}, due to {@{the greater profits in selling to the English}@} – {@{the equilibrium price of the Irish-British market for potatoes}@} was {@{above the price that Irish farmers could afford}@}, and thus {@{(among other reasons) they starved}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2027-07-01,678,305!2027-03-09,630,325!2028-05-08,969,345!2030-03-13,1523,365!2026-10-20,501,404!2031-11-06,1983,404-->
 
 ## interpretations
 

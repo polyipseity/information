@@ -46,7 +46,7 @@ value: overwhelmed by true value creation vs. understand patterns of value creat
 - _(begin)_→::@::←idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas <!--SR:!2029-01-06,1196,309!2027-12-12,1021,349-->
 - idea quality: involved in failed bold shiny projects vs. avoid wasting time in bad ideas→::@::←implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want <!--SR:!2028-01-27,994,309!2026-07-10,449,249-->
 - implementation: disappointed by failure of a good idea vs. design, test, and deliver what customers want→::@::←teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully <!--SR:!2028-08-15,992,269!2026-12-11,635,289-->
-- teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→::@::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2026-05-26,463,249!2031-01-09,1713,289-->
+- teamwork: frustrated by unproductive meetings and teams vs. leverage the team fully→::@::←value: overwhelmed by true value creation vs. understand patterns of value creation <!--SR:!2030-11-03,1619,269!2031-01-09,1713,289-->
 - value: overwhelmed by true value creation vs. understand patterns of value creation→::@::←_(end)_ <!--SR:!2027-07-12,831,329!2031-09-11,1958,309-->
 
 <!--/pytextgen-->
@@ -126,7 +126,7 @@ Products and services is {@{simply a list of what you offer}@}, and can also inc
 
 Pain relievers describe {@{how the products or services alleviate customer pains}@}. There is no need to {@{alleviate every identified pain}@}, and instead {@{it is better to alleviate some extreme pains extremely well}@}. Like products and services, pain relievers {@{can have different relevance to your customers}@}. <!--SR:!2027-08-09,939,349!2026-08-09,632,329!2028-07-25,1148,310!2032-02-28,2154,330-->
 
-Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2029-10-03,1562,369!2027-07-17,907,349!2026-08-29,658,329!2026-05-21,520,309-->
+Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2029-10-03,1562,369!2027-07-17,907,349!2026-08-29,658,329!2032-06-29,2223,329-->
 
 There are several [common mistakes](#value%20map%20common%20mistakes) to be aware of.
 

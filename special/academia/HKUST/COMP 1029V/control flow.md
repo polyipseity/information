@@ -31,7 +31,7 @@ Else
 End If
 ```
 
-{@{The semantics of `If...Then...Else...End If`}@} is also obvious: If {@{the condition is `True`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that {@{the condition itself is always executed}@}. <!--SR:!2027-12-22,1081,341!2026-06-05,96,381!2026-06-05,96,381!2026-06-02,94,381-->
+{@{The semantics of `If...Then...Else...End If`}@} is also obvious: If {@{the condition is `True`, then the first statement block is executed}@}. Otherwise, {@{the second statement block is executed}@}. Note that {@{the condition itself is always executed}@}. <!--SR:!2027-12-22,1081,341!2026-06-05,96,381!2026-06-05,96,381!2027-10-08,493,401-->
 
 In VBA, one usually does not {@{chain `If...Then...Else...End If`}@}. Instead, VBA provides {@{the keyword `ElseIf...Then`}@} so that {@{`If...Then...ElseIf...Then...Else...End If` represents the chained `if...else if...else` in most programming languages}@}: <!--SR:!2031-08-25,2032,321!2026-06-06,97,381!2026-06-05,96,381-->
 
@@ -45,7 +45,7 @@ Else
 End If
 ```
 
-{@{The semantics of `If...Then...ElseIf...Then...Else...End If`}@} can be found by {@{considering the semantics of chaining `If...Then...Else...End If`}@}: {@{The statement block after the first `True` condition}@} is {@{executed}@}. If there are {@{no `True` conditions}@}, {@{the statement block after `Else` is executed if there is an `Else`}@}. Otherwise, {@{nothing is executed}@}. Note that {@{the conditions up until the first `True` condition (inclusive)}@} are themselves {@{always executed in the appearance order}@}, ignoring {@{statement blocks along the way}@}. If {@{there are no `True` conditions}@}, {@{all conditions}@} are always {@{executed in the appearance order}@}, followed by {@{the `Else` statement block if there is one}@}. <!--SR:!2030-10-23,1668,310!2026-11-23,766,329!2026-05-19,25,374!2026-05-18,24,374!2026-05-19,25,374!2026-05-19,25,374!2026-05-18,24,374!2026-05-19,25,374!2026-05-19,25,374!2026-05-19,25,374!2026-05-18,24,374!2026-05-18,24,374!2026-05-19,25,374!2026-05-19,25,374-->
+{@{The semantics of `If...Then...ElseIf...Then...Else...End If`}@} can be found by {@{considering the semantics of chaining `If...Then...Else...End If`}@}: {@{The statement block after the first `True` condition}@} is {@{executed}@}. If there are {@{no `True` conditions}@}, {@{the statement block after `Else` is executed if there is an `Else`}@}. Otherwise, {@{nothing is executed}@}. Note that {@{the conditions up until the first `True` condition (inclusive)}@} are themselves {@{always executed in the appearance order}@}, ignoring {@{statement blocks along the way}@}. If {@{there are no `True` conditions}@}, {@{all conditions}@} are always {@{executed in the appearance order}@}, followed by {@{the `Else` statement block if there is one}@}. <!--SR:!2030-10-23,1668,310!2026-11-23,766,329!2026-10-09,129,394!2026-10-06,126,394!2026-10-10,130,394!2026-10-11,131,394!2026-10-06,126,394!2026-10-09,129,394!2026-10-11,131,394!2026-10-10,130,394!2026-10-06,126,394!2026-10-06,126,394!2026-10-08,128,394!2026-10-11,131,394-->
 
 ## iteration
 
@@ -85,7 +85,7 @@ Do
 Loop While condition
 ```
 
-The semantics of {@{`Do...Loop While`}@} is that {@{the statement block is executed}@} first. Then {@{the condition is executed}@}. If {@{the condition is `True`, we repeat the above process again}@}. If {@{the condition is `False`, the `Do...Loop While` statement ends its execution}@}. <!--SR:!2032-09-27,2348,330!2026-06-04,24,387!2026-06-04,24,387!2026-06-06,26,387!2026-06-05,25,387-->
+The semantics of {@{`Do...Loop While`}@} is that {@{the statement block is executed}@} first. Then {@{the condition is executed}@}. If {@{the condition is `True`, we repeat the above process again}@}. If {@{the condition is `False`, the `Do...Loop While` statement ends its execution}@}. <!--SR:!2032-09-27,2348,330!2026-10-12,130,407!2026-10-12,130,407!2026-06-06,26,387!2026-06-05,25,387-->
 
 As VBA is {@{intended to be English like}@}, it also provides the unconventional {@{`Do Until...Loop` and `Do...Loop Until` constructs}@}. The semantics is exactly the same except that {@{the loop stops if the condition is `True`}@}. <!--SR:!2027-03-15,793,321!2027-01-31,773,321!2026-06-06,26,387-->
 
@@ -99,7 +99,7 @@ For LoopVariable = start To end Step step ' `Step step` optional
 Next LoopVariable
 ```
 
-{@{The semantics of `For...To...Step...Next`}@} is {@{a bit complicated}@}. First, {@{the loop variable}@} is assigned {@{the starting point}@}. Then {@{the loop variable is checked}@}. If the loop variable is {@{in between start and end, both ends inclusive}@}, {@{the statement block is executed}@}. Otherwise, {@{the `For...To...Step...Next` statement finishes}@}. Each time {@{the statement block has finished execution}@}, the loop {@{variable is incremented by `step`}@}. Then we go {@{back to checking the loop variable and repeat}@}. <!--SR:!2031-07-03,1995,321!2027-10-28,1036,341!2026-05-18,89,369!2026-05-21,91,369!2027-08-05,445,389!2027-07-30,440,389!2026-05-20,90,369!2026-05-18,89,369!2026-05-21,91,369!2026-05-24,94,369!2026-05-22,92,369-->
+{@{The semantics of `For...To...Step...Next`}@} is {@{a bit complicated}@}. First, {@{the loop variable}@} is assigned {@{the starting point}@}. Then {@{the loop variable is checked}@}. If the loop variable is {@{in between start and end, both ends inclusive}@}, {@{the statement block is executed}@}. Otherwise, {@{the `For...To...Step...Next` statement finishes}@}. Each time {@{the statement block has finished execution}@}, the loop {@{variable is incremented by `step`}@}. Then we go {@{back to checking the loop variable and repeat}@}. <!--SR:!2031-07-03,1995,321!2027-10-28,1036,341!2027-08-30,454,389!2027-09-06,461,389!2027-08-05,445,389!2027-07-30,440,389!2027-08-31,455,389!2027-08-27,451,389!2027-09-07,462,389!2027-09-27,482,389!2027-09-17,472,389-->
 
 ### ending iteration early
 

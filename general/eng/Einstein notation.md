@@ -49,7 +49,7 @@ Einstein notation can be {@{applied in slightly different ways}@}. Typically, {@
 In terms of {@{[covariance and contravariance of vectors](covariance%20and%20contravariance%20of%20vectors.md)}@}, <!--SR:!2026-10-25,294,330-->
 
 - upper indices ::@:: represent components of [contravariant vectors](covariance%20and%20contravariance%20of%20vectors.md) \([vectors](coordinate%20vector.md)\), <!--SR:!2026-10-18,287,330!2026-10-09,278,330-->
-- lower indices ::@:: represent components of [covariant](covariant%20vector.md) vectors \([covectors](covector.md)\). <!--SR:!2026-06-03,177,310!2026-09-21,260,330-->
+- lower indices ::@:: represent components of [covariant](covariant%20vector.md) vectors \([covectors](covector.md)\). <!--SR:!2028-07-03,761,330!2026-09-21,260,330-->
 
 They {@{transform contravariantly or covariantly}@}, respectively, with respect to {@{[change of basis](change%20of%20basis.md)}@}. <!--SR:!2026-10-20,289,330!2026-10-19,288,330-->
 
@@ -98,7 +98,7 @@ In {@{three dimensions}@}, {@{the [cross product](cross%20product.md) of two vec
 
 ### matrix-vector multiplication
 
-{@{The product of a matrix _A<sub>ij</sub>_ with a column vector _v<sub>j</sub>_}@} is: {@{$$\mathbf {u} _{i}=(\mathbf {A} \mathbf {v} )_{i}=\sum _{j=1}^{N}A_{ij}v_{j}$$}@} equivalent to {@{$$u^{i}={A^{i} }_{j}v^{j}$$}@} This is {@{a special case}@} of {@{matrix multiplication}@}. <!--SR:!2026-05-28,173,310!2026-09-25,264,330!2026-10-21,290,330!2026-10-25,294,330!2026-10-06,275,330-->
+{@{The product of a matrix _A<sub>ij</sub>_ with a column vector _v<sub>j</sub>_}@} is: {@{$$\mathbf {u} _{i}=(\mathbf {A} \mathbf {v} )_{i}=\sum _{j=1}^{N}A_{ij}v_{j}$$}@} equivalent to {@{$$u^{i}={A^{i} }_{j}v^{j}$$}@} This is {@{a special case}@} of {@{matrix multiplication}@}. <!--SR:!2028-06-13,746,330!2026-09-25,264,330!2026-10-21,290,330!2026-10-25,294,330!2026-10-06,275,330-->
 
 ### matrix multiplication
 

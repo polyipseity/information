@@ -151,7 +151,7 @@ tags:
 > 4. to receive \$133.1 at the end of year 2016
 > 5. choices 1, 2, 3 and 4 are equally attractive
 >
-> - solution: {@{5}@} <!--SR:!2026-05-22,355,357-->
+> - solution: {@{5}@} <!--SR:!2031-03-10,1743,377-->
 
 <!-- markdownlint MD028 -->
 
@@ -165,7 +165,7 @@ tags:
 > 4. \$145&nbsp;998
 >
 > - solution: {@{1}@}
-> - explanation: {@{$$\$120\,000 \times \left((1 + 4\%)^5 - (1 + 3\%)^5\right) \approx \$6885.45937$$}@} <!--SR:!2026-05-26,359,357!2026-05-21,354,357-->
+> - explanation: {@{$$\$120\,000 \times \left((1 + 4\%)^5 - (1 + 3\%)^5\right) \approx \$6885.45937$$}@} <!--SR:!2031-03-29,1762,377!2031-02-27,1732,377-->
 
 <!-- markdownlint MD028 -->
 
@@ -177,7 +177,7 @@ tags:
 > 4. 9%
 >
 > - solution: {@{2}@}
-> - explanation: {@{Use the rule of 72 for quick calculation.}@} <!--SR:!2026-05-24,357,357!2026-05-25,358,357-->
+> - explanation: {@{Use the rule of 72 for quick calculation.}@} <!--SR:!2031-03-17,1750,377!2031-03-27,1760,377-->
 
 <!-- markdownlint MD028 -->
 
@@ -189,7 +189,7 @@ tags:
 > 4. 40
 >
 > - solution: {@{2}@}
-> - explanation: {@{Beware of off-by-one errors!}@} <!--SR:!2026-05-22,355,357!2026-05-23,356,357-->
+> - explanation: {@{Beware of off-by-one errors!}@} <!--SR:!2031-03-08,1741,377!2031-03-12,1745,377-->
 
 ## week 2 lecture 2
 
@@ -234,7 +234,7 @@ tags:
 > 3. 6%
 > 4. Cannot be determined
 >
-> - solution: {@{2}@} <!--SR:!2026-06-03,364,373-->
+> - solution: {@{2}@} <!--SR:!2031-07-07,1860,393-->
 
 <!-- markdownlint MD028 -->
 
@@ -256,7 +256,7 @@ tags:
 > 4. PV of a growing perpetuity with payment starting in year 0 and PV of a growing perpetuity with payment starting in year 11
 >
 > - solution: {@{3}@}
-> - explanation: {@{Note that the option says "payment starting", which is one year after the annuity starts.}@} <!--SR:!2026-06-11,371,373!2026-06-04,365,373-->
+> - explanation: {@{Note that the option says "payment starting", which is one year after the annuity starts.}@} <!--SR:!2026-06-11,371,373!2031-07-13,1865,393-->
 
 <!-- markdownlint MD028 -->
 

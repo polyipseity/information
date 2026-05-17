@@ -11,7 +11,7 @@ tags:
 
 ## red ocean vs. blue ocean
 
-Red ocean is about {@{competing in existing market space and exploiting existing demand}@}. {@{Either differentiation or low cost}@} can be satisfied. <!--SR:!2030-01-27,1499,310!2026-05-30,525,310-->
+Red ocean is about {@{competing in existing market space and exploiting existing demand}@}. {@{Either differentiation or low cost}@} can be satisfied. <!--SR:!2030-01-27,1499,310!2032-08-02,2254,330-->
 
 Blue ocean is about {@{creating uncontested market space and capturing new demand}@}. {@{Both differentiation and low cost, i.e. value innovation}@}, can be satisfied simultaneously. Value innovation can be represented by {@{2 triangles pointing towards each other, with the 2 triangle tips overlapping in the middle}@}. The upper triangle represents {@{cost reduction while the lower triangle represents value creation}@}, with the overlap {@{representing satisfying both at the same time, hence value creation}@}. <!--SR:!2027-02-19,742,330!2030-07-06,1614,310!2030-05-08,1694,364!2030-01-19,1604,364!2029-11-22,1557,364-->
 
@@ -27,7 +27,7 @@ To visualize the industry, one can make use of a {@{capture strategy canvas}@}. 
 
 ### imagine "to be"
 
-In the 2nd step, imagine "to be", the goal is to {@{imagine where we could be}@}. You should {@{understand pains and look for non-customers}@}. <!--SR:!2029-10-18,1533,364!2026-05-22,475,304-->
+In the 2nd step, imagine "to be", the goal is to {@{imagine where we could be}@}. You should {@{understand pains and look for non-customers}@}. <!--SR:!2029-10-18,1533,364!2031-11-20,2001,324-->
 
 To understand pains, we can use {@{a customer journey map, which is similar to a [buyer utility map](buyer%20utility%20map.md) but with the column headers replaced with custom steps}@}. Only {@{note down the customer pains}@} on the map, and then {@{prioritize some customer pains by making them red}@}. Finally, {@{decide which pains are worth-solving by reducing or eliminating existing features}@}. <!--SR:!2027-07-02,801,304!2026-10-18,601,304!2028-12-05,1180,304!2028-07-20,1140,344-->
 

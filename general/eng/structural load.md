@@ -71,7 +71,7 @@ Generally, dead load (and live load) internally {@{deflects beams and floors}@}.
 
 ### live load
 
-The live load includes {@{loads that are temporary or moving}@}. This includes {@{moving things, such as moving vehicles, people, and storage}@}; {@{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}@}. The load can vary in {@{location and magnitude}@}. In building codes such as {@{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}@}, the live load is {@{tabulated and usually assumed uniform on building floors}@}. <!--SR:!2027-05-14,833,330!2026-10-11,676,340!2029-04-17,1185,290!2026-05-31,566,330!2029-01-31,1209,290!2026-09-20,659,340-->
+The live load includes {@{loads that are temporary or moving}@}. This includes {@{moving things, such as moving vehicles, people, and storage}@}; {@{non-permanent fixtures such as ceiling lights, furniture, and pipe ducts}@}. The load can vary in {@{location and magnitude}@}. In building codes such as {@{_Minimum Design Load for Buildings and Other Structures_, ASCE 7-05}@}, the live load is {@{tabulated and usually assumed uniform on building floors}@}. <!--SR:!2027-05-14,833,330!2026-10-11,676,340!2029-04-17,1185,290!2033-06-16,2573,350!2029-01-31,1209,290!2026-09-20,659,340-->
 
 Generally, live load has {@{similar effects to dead load}@}. <!--SR:!2028-02-24,1069,350-->
 
@@ -104,7 +104,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="ab92"--><!-- The following content is generated at 2024-05-14T21:09:52.106487+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2026-05-23,515,310!2029-11-30,1587,360-->
+- _(begin)_→::@::←[hydrostatic load](#hydrostatic%20load) <!--SR:!2032-06-18,2214,330!2029-11-30,1587,360-->
 - [hydrostatic load](#hydrostatic%20load)→::@::←[lateral load](#lateral%20load) <!--SR:!2028-08-02,1116,308!2030-02-17,1548,320-->
 - [lateral load](#lateral%20load)→::@::←[seismic load](#seismic%20load) <!--SR:!2028-02-10,989,308!2031-01-02,1785,320-->
 - [seismic load](#seismic%20load)→::@::←[thermal load](#thermal%20load) <!--SR:!2028-02-25,938,280!2028-03-14,970,280-->
@@ -121,29 +121,29 @@ For example, when there is {@{water buildup in the soil}@}, there is {@{increase
 
 #### lateral load
 
-{@{Lateral load}@} may be caused by {@{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}@}. <!--SR:!2027-08-07,897,330!2026-06-03,23,370-->
+{@{Lateral load}@} may be caused by {@{bulk materials, [groundwater](groundwater.md), or [soil](soil.md)}@}. <!--SR:!2027-08-07,897,330!2026-10-01,120,390-->
 
-For example, there is {@{lateral soil load on retaining walls of a slope}@} because {@{the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. {@{This lateral soil load}@} can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}. <!--SR:!2031-08-16,1937,320!2026-10-01,645,320!2026-06-05,25,370!2026-05-30,19,350-->
+For example, there is {@{lateral soil load on retaining walls of a slope}@} because {@{the soil of a slope on the retained side tends to slip down, pushing the walls towards the excavated side}@}. {@{This lateral soil load}@} can cause {@{lateral deflection, toppling of the retaining structure, or even a landslide}@}. <!--SR:!2031-08-16,1937,320!2026-10-01,645,320!2026-06-05,25,370!2026-08-31,93,370-->
 
-To {@{protect against soil loads}@}, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain}@} can become {@{man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}. <!--SR:!2027-12-02,924,300!2026-07-07,581,320!2026-06-04,24,370!2026-06-04,24,370-->
+To {@{protect against soil loads}@}, {@{retaining structures are built and weep holes may be installed}@}. Alternatively, {@{slopes on natural terrain}@} can become {@{man-made slopes, such as cut slopes, fill slopes, or retaining walls}@}. <!--SR:!2027-12-02,924,300!2026-07-07,581,320!2026-10-07,125,390!2026-10-07,125,390-->
 
 #### seismic load
 
 {@{Seismic load}@} are {@{caused by [earthquakes](earthquake.md)}@}. It can induce {@{both horizontal and vertical load on structures}@}. <!--SR:!2032-06-22,2245,330!2026-12-20,729,340!2026-06-05,25,370-->
 
-{@{The consequences}@} are {@{partial or complete collapse}@} of {@{structural elements or entire buildings}@}. <!--SR:!2027-10-16,939,330!2026-06-03,23,370!2026-06-04,24,370-->
+{@{The consequences}@} are {@{partial or complete collapse}@} of {@{structural elements or entire buildings}@}. <!--SR:!2027-10-16,939,330!2026-09-30,119,390!2026-10-07,125,390-->
 
 #### thermal load
 
-{@{Thermal load}@} refers to load {@{caused by [temperature](temperature.md) changes}@} leading to {@{[thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}@}. <!--SR:!2031-12-04,2047,328!2026-06-05,25,370!2026-06-03,23,370-->
+{@{Thermal load}@} refers to load {@{caused by [temperature](temperature.md) changes}@} leading to {@{[thermal expansion](thermal%20expansion.md) (contraction) of structural and non-structural members}@}. <!--SR:!2031-12-04,2047,328!2026-06-05,25,370!2026-09-30,119,390-->
 
-For example, {@{a beam in between two fixed support}@} creates {@{thermal load under heating as the beam expands}@}. {@{A solution}@} would be making {@{the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, the beam can {@{expand in the direction of the roller support, relieving the thermal load}@}. <!--SR:!2026-12-12,698,328!2027-09-15,916,330!2029-02-16,1362,360!2026-06-03,23,370!2026-06-05,25,370-->
+For example, {@{a beam in between two fixed support}@} creates {@{thermal load under heating as the beam expands}@}. {@{A solution}@} would be making {@{the beam a simply supported beam instead, with one side a pinned support and the other side a roller support}@}. Then when thermal expansion occurs, the beam can {@{expand in the direction of the roller support, relieving the thermal load}@}. <!--SR:!2026-12-12,698,328!2027-09-15,916,330!2029-02-16,1362,360!2026-10-01,120,390!2026-06-05,25,370-->
 
 #### wind load
 
-{@{[Wind](wind.md)}@} is {@{movement of air}@}. When wind {@{moves past a building}@}, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. {@{Positive pressure}@} outside causes {@{inward forces while negative causes outward (uplift for roof) forces}@}. This is {@{_wind load_}@}. It also depends on {@{building shape, wind direction, and wind speed}@}. <!--SR:!2028-01-09,1024,340!2027-03-28,798,330!2032-10-19,2356,340!2027-11-20,985,340!2030-11-30,1834,340!2026-06-04,24,370!2026-06-03,23,370!2026-06-04,24,370!2026-06-04,24,370-->
+{@{[Wind](wind.md)}@} is {@{movement of air}@}. When wind {@{moves past a building}@}, {@{wind changes in velocity}@}. Then, {@{the pressure of air changes}@}. {@{Positive pressure}@} outside causes {@{inward forces while negative causes outward (uplift for roof) forces}@}. This is {@{_wind load_}@}. It also depends on {@{building shape, wind direction, and wind speed}@}. <!--SR:!2028-01-09,1024,340!2027-03-28,798,330!2032-10-19,2356,340!2027-11-20,985,340!2030-11-30,1834,340!2026-10-07,125,390!2026-09-28,117,390!2026-10-07,125,390!2026-10-07,125,390-->
 
-{@{Wind load}@} causes {@{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}@}. {@{Less serious consequences}@} include damage to {@{individual structural elements such as roofs, walls, and windows}@}; and causes {@{excessive building vibrations}@}. <!--SR:!2026-11-28,644,320!2031-10-22,2001,320!2026-06-05,25,370!2026-06-04,24,370!2026-06-03,23,370-->
+{@{Wind load}@} causes {@{lateral deflection, which may further lead to toppling of the structure, such as collapse of bridges}@}. {@{Less serious consequences}@} include damage to {@{individual structural elements such as roofs, walls, and windows}@}; and causes {@{excessive building vibrations}@}. <!--SR:!2026-11-28,644,320!2031-10-22,2001,320!2026-06-05,25,370!2026-10-07,125,390!2026-09-29,118,390-->
 
 ### other loads
 

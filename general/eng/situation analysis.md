@@ -15,7 +15,7 @@ tags:
 
 ### company
 
-Company involves {@{evaluating the company's capabilities, objectives, and strategies}@}. <!--SR:!2026-05-19,524,310-->
+Company involves {@{evaluating the company's capabilities, objectives, and strategies}@}. <!--SR:!2030-10-29,1624,310-->
 
 ### competitors
 
@@ -27,7 +27,7 @@ Customers are {@{potential buyers, defined by their needs which the company inte
 
 ### collaborators
 
-Collaborators are {@{entities working together with the company to fulfill customer needs}@}. For example, it includes {@{distributors, manufacturers, service providers, suppliers, etc.}@} <!--SR:!2026-05-24,545,330!2026-07-15,486,270-->
+Collaborators are {@{entities working together with the company to fulfill customer needs}@}. For example, it includes {@{distributors, manufacturers, service providers, suppliers, etc.}@} <!--SR:!2033-03-12,2480,350!2026-07-15,486,270-->
 
 ### climate
 

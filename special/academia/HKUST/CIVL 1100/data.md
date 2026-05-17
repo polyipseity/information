@@ -128,13 +128,13 @@ See [Empire State Building](../../../../general/Empire%20State%20Building.md).
 
 See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 
-- image ::@:: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg) <!--SR:!2026-05-30,599,416!2026-11-19,747,416-->
+- image ::@:: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg) <!--SR:!2035-09-18,3395,436!2026-11-19,747,416-->
 
 ## Great Pyramid of Giza
 
 See [Great Pyramid of Giza](../../../../general/Great%20Pyramid%20of%20Giza.md).
 
-- base width ::@:: 230.33 m <!--SR:!2028-06-25,1068,376!2026-05-26,569,396-->
+- base width ::@:: 230.33 m <!--SR:!2028-06-25,1068,376!2034-11-04,3077,416-->
 - construction period ::@:: 10~20 years around 2560 BC <!--SR:!2026-09-04,460,236!2033-05-10,2639,416-->
 - description ::@:: largest pyramid in the Giza Necropolis, Egypt <!--SR:!2026-06-05,605,416!2026-11-12,742,416-->
 - height ::@:: current: 138.5 m, original: 146.6 m <!--SR:!2028-10-05,1094,356!2034-04-26,2920,416-->
@@ -198,7 +198,7 @@ See [International Commerce Centre](International%20Commerce%20Centre.md).
 
 See [Itaipu Dam](../../../../general/Itaipu%20Dam.md).
 
-- image ::@:: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg) <!--SR:!2027-02-03,806,416!2026-05-19,206,376-->
+- image ::@:: ![Itaipu Dam image](../../../../archives/Wikimedia%20Commons/Itaipu%20geral.jpg) <!--SR:!2027-02-03,806,416!2029-04-27,1060,396-->
 
 ## John Hancock Center
 
@@ -289,7 +289,7 @@ See [Taipei 101](Taipei%20101.md).
 See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 
 - [dam type](../../../../general/dam.md#types) ::@:: [barrage](barrage%20(dam).md) <!--SR:!2031-12-22,2153,361!2032-03-14,2347,417-->
-- height ::@:: 20.1 m <!--SR:!2026-05-25,489,281!2029-07-15,1409,380-->
+- height ::@:: 20.1 m <!--SR:!2031-08-28,1913,301!2029-07-15,1409,380-->
 - image ::@:: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2028-03-18,1126,380!2033-02-04,2604,420-->
 - length ::@:: 520 m <!--SR:!2026-12-03,550,280!2026-09-13,645,330-->
 

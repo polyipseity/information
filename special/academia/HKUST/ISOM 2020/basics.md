@@ -145,7 +145,7 @@ return chain.from_iterable([r.value for r in results])
 - `<=`→::@::←`>` <!--SR:!2028-02-11,717,369!2029-11-12,1507,389-->
 - `>`→::@::←`>=` <!--SR:!2029-06-22,1388,389!2026-06-19,510,389-->
 - `>=`→::@::←`!=` <!--SR:!2029-04-23,1339,389!2031-04-18,1856,349-->
-- `!=`→::@::←`==` <!--SR:!2029-12-20,1537,389!2026-05-21,485,389-->
+- `!=`→::@::←`==` <!--SR:!2029-12-20,1537,389!2033-06-28,2583,409-->
 - `==`→::@::←_(end)_ <!--SR:!2028-10-19,1185,389!2030-11-13,1790,389-->
 
 <!--/pytextgen-->
@@ -162,7 +162,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--/pytextgen-->
 
-Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2026-05-18,482,389-->
+Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2033-06-07,2562,409-->
 
 Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2029-01-15,1259,389!2028-04-13,804,445!2028-04-07,798,445!2028-05-05,822,445!2028-04-22,809,445!2028-05-02,819,445!2028-05-06,823,445!2028-04-25,812,445-->
 
@@ -209,7 +209,7 @@ return chain.from_iterable([r.value for r in results])
 - _(begin)_→::@::←`not` <!--SR:!2026-06-14,505,389!2026-06-17,508,389-->
 - `not`→::@::←`and` <!--SR:!2026-06-15,506,389!2033-05-16,2557,409-->
 - `and`→::@::←`or` <!--SR:!2028-03-19,1002,369!2026-06-16,507,389-->
-- `or`→::@::←_(end)_ <!--SR:!2026-05-19,483,389!2028-09-14,1159,389-->
+- `or`→::@::←_(end)_ <!--SR:!2033-06-12,2567,409!2028-09-14,1159,389-->
 
 <!--/pytextgen-->
 
@@ -217,7 +217,7 @@ return chain.from_iterable([r.value for r in results])
 
 - `not`:@:negate <!--SR:!2033-01-03,2441,409-->
 - `and`:@:and <!--SR:!2026-06-13,504,389-->
-- `or`:@:or <!--SR:!2026-05-23,487,389-->
+- `or`:@:or <!--SR:!2033-07-04,2589,409-->
 
 <!--/pytextgen-->
 
@@ -238,17 +238,17 @@ To define a string in Python, {@{enclose the string in either double quotes `"ex
 
 `\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2030-11-19,1773,383!2030-03-26,1603,383!2029-06-23,1389,383-->
 
-To {@{find the length of a string}@}, use {@{`len(str)`, which returns an `int` representing the number of characters in `str`}@}. To {@{concatenate/join two strings}@}, use {@{the `+` operator}@}. If {@{the `+` operator is applied between a `str` and another (incompatible) type}@}, then {@{a `TypeError` will be raised}@}. <!--SR:!2026-05-20,484,389!2030-04-06,1613,389!2026-06-20,511,389!2026-06-16,507,389!2026-08-11,554,406!2026-05-22,486,406-->
+To {@{find the length of a string}@}, use {@{`len(str)`, which returns an `int` representing the number of characters in `str`}@}. To {@{concatenate/join two strings}@}, use {@{the `+` operator}@}. If {@{the `+` operator is applied between a `str` and another (incompatible) type}@}, then {@{a `TypeError` will be raised}@}. <!--SR:!2033-06-11,2566,409!2030-04-06,1613,389!2026-06-20,511,389!2026-06-16,507,389!2026-08-11,554,406!2033-10-12,2689,426-->
 
 Like lists, strings can be {@{indexed using the `string_var[n]`, which access the _n_+1-th character of the string \(i.e. `string_var[0]` is the 1st character\)}@}. If {@{the index is out of range}@}, then {@{an `IndexError` will be raised}@}. But unlike lists, strings {@{cannot be modified using the indexing notation, because strings in Python are immutable (not modifiable)}@}. <!--SR:!2026-07-28,496,397!2027-02-06,687,417!2027-01-20,672,417!2027-01-14,667,417-->
 
 ## output
 
-In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content}@}, so each `print` {@{outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2030-02-20,1577,383!2032-11-19,2396,403!2030-10-25,1748,383!2032-10-24,2394,403!2030-01-13,1553,383!2028-03-31,962,363!2029-02-23,1296,383!2026-05-20,491,383!2028-05-03,820,445-->
+In {@{a Jupyter notebook}@}, it outputs {@{the value of the last expression (and prints nothing if the last expression is `None`)}@}. Note that {@{assignments are not expressions, and do not produce output as the last expression}@}. To get it to print more things, {@{use `print(<any>...)`}@}. It can {@{print anything (and prints `None` if the last expression is `None`)}@}. Note that it automatically {@{adds a newline after the printed content}@}, so each `print` {@{outputs on a new line instead of being glued together in a single line}@}. Also, when multiple arguments are passed, {@{each argument is joined into a single string, separated by a space in between}@}. When {@{no arguments are passed, only a newline is printed}@}. <!--SR:!2030-02-20,1577,383!2032-11-19,2396,403!2030-10-25,1748,383!2032-10-24,2394,403!2030-01-13,1553,383!2028-03-31,962,363!2029-02-23,1296,383!2033-06-13,2568,403!2028-05-03,820,445-->
 
-Note that strings are outputted, escaped {@{with `\` properly (without unnecessary escapes)}@}, and preferably {@{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}@}. <!--SR:!2026-06-25,516,394!2026-05-24,488,394-->
+Note that strings are outputted, escaped {@{with `\` properly (without unnecessary escapes)}@}, and preferably {@{wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`}@}. <!--SR:!2026-06-25,516,394!2033-08-12,2628,414-->
 
-If {@{you do not want a newline to be printed automatically afterwards}@}, `print` has {@{the `end` argument, which is used like `print(..., end=...)`}@}. The value passed to it {@{must be either a `str` or `None`, and `None` is the default value if you do not specify `end` and represents a newline, explaining why a newline is automatically printed without using `end`}@}. If `end` is used, then after {@{printing the passed objects as strings}@}, {@{the string passed to `end`}@} is also {@{printed (or if `end` is `None`, a newline is printed)}@}. For example, {@{`print(..., end="")`}@} {@{disables automatically printing a newline afterwards}@}, while {@{`print(..., end=" ")`}@} {@{automatically prints a space instead of a newline afterwards}@}. <!--SR:!2027-10-14,890,412!2026-10-17,590,392!2027-10-08,884,412!2028-08-07,1000,352!2026-10-13,587,392!2026-05-29,169,450!2026-05-28,168,450!2026-05-30,170,450!2026-05-27,167,450!2026-05-27,167,450-->
+If {@{you do not want a newline to be printed automatically afterwards}@}, `print` has {@{the `end` argument, which is used like `print(..., end=...)`}@}. The value passed to it {@{must be either a `str` or `None`, and `None` is the default value if you do not specify `end` and represents a newline, explaining why a newline is automatically printed without using `end`}@}. If `end` is used, then after {@{printing the passed objects as strings}@}, {@{the string passed to `end`}@} is also {@{printed (or if `end` is `None`, a newline is printed)}@}. For example, {@{`print(..., end="")`}@} {@{disables automatically printing a newline afterwards}@}, while {@{`print(..., end=" ")`}@} {@{automatically prints a space instead of a newline afterwards}@}. <!--SR:!2027-10-14,890,412!2026-10-17,590,392!2027-10-08,884,412!2028-08-07,1000,352!2026-10-13,587,392!2029-03-31,1033,470!2029-03-20,1022,470!2029-04-10,1043,470!2029-03-19,1021,470!2029-03-17,1019,470-->
 
 ## variable
 
@@ -292,4 +292,4 @@ We can convert a value (`value`) into other data types using {@{`float(value)`, 
 
 ## input
 
-We can {@{request user input using `input(prompt)`}@}, where `prompt` is {@{an (optional) value (not necessarily a `str`) to be printed}@} \(like {@{`print(...)`}@}, but {@{without automatically printing a newline and only accepts a single argument}@}\) before {@{asking for input}@}. Note that {@{some Juypter notebooks}@} {@{automatically adds a space after printing the string}@}, while {@{other environments do not}@}. {@{The user input ends}@} when user enters {@{a newline to confirm the input, i.e. presses enter}@}. Then, it will {@{return a string, keeping any leading or trailing spaces}@}, but not {@{the newline the user typed at the end to confirm the input}@}. <!--SR:!2026-05-28,478,340!2029-09-11,1451,380!2029-11-03,1487,380!2029-01-25,1181,360!2029-01-12,977,466!2029-02-07,998,466!2028-12-29,963,466!2029-02-13,1003,466!2028-12-22,956,466!2028-12-28,962,466!2029-02-06,997,466!2029-01-17,981,466-->
+We can {@{request user input using `input(prompt)`}@}, where `prompt` is {@{an (optional) value (not necessarily a `str`) to be printed}@} \(like {@{`print(...)`}@}, but {@{without automatically printing a newline and only accepts a single argument}@}\) before {@{asking for input}@}. Note that {@{some Juypter notebooks}@} {@{automatically adds a space after printing the string}@}, while {@{other environments do not}@}. {@{The user input ends}@} when user enters {@{a newline to confirm the input, i.e. presses enter}@}. Then, it will {@{return a string, keeping any leading or trailing spaces}@}, but not {@{the newline the user typed at the end to confirm the input}@}. <!--SR:!2032-07-16,2236,360!2029-09-11,1451,380!2029-11-03,1487,380!2029-01-25,1181,360!2029-01-12,977,466!2029-02-07,998,466!2028-12-29,963,466!2029-02-13,1003,466!2028-12-22,956,466!2028-12-28,962,466!2029-02-06,997,466!2029-01-17,981,466-->

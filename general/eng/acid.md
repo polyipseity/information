@@ -11,7 +11,7 @@ tags:
 
 # acid
 
-An __acid__ is {@{a [molecule](molecule.md) or [ion](ion.md) that can donate a [proton](proton.md), known as a [Brønsted–Lowry acid](Brønsted–Lowry%20acid–base%20theory.md)}@}, or {@{form a [coordinate covalent bond](coordinate%20covalent%20bond.md) by accepting an [electron pair](electron%20pair.md), known as a [Lewis acid](Lewis%20acids%20and%20bases.md)}@}. <!--SR:!2034-06-15,3050,310!2026-05-30,77,355-->
+An __acid__ is {@{a [molecule](molecule.md) or [ion](ion.md) that can donate a [proton](proton.md), known as a [Brønsted–Lowry acid](Brønsted–Lowry%20acid–base%20theory.md)}@}, or {@{form a [coordinate covalent bond](coordinate%20covalent%20bond.md) by accepting an [electron pair](electron%20pair.md), known as a [Lewis acid](Lewis%20acids%20and%20bases.md)}@}. <!--SR:!2034-06-15,3050,310!2027-03-01,275,355-->
 
 It is {@{an [electrolyte](electrolyte.md)}@}, tastes {@{sour}@}, turns {@{blue [litmus](litmus.md) red}@}, reacts with some [metals](metal.md) to {@{form [salts](salt%20(chemistry).md)}@}, and [neutralizes](neutralization%20(chemistry).md) {@{[bases](base%20(chemistry).md) to form [salts](salt%20(chemistry).md)}@}. {@{[Strong acids](acid%20strength.md) and some concentrated weak acids}@} are [corrosive](corrsive%20substance.md). <!--SR:!2032-12-23,2672,330!2028-04-14,1437,350!2031-11-08,2401,330!2032-04-22,2355,290!2028-12-07,1555,310!2028-06-05,1418,310-->
 
@@ -21,7 +21,7 @@ Common aqueous acids include {@{[hydrochloric acid](hydrochloric%20acid) (HCl), 
 
 [Arrhenius acids](#Arrhenius%20acids) are named {@{according to their [anions](ion.md)}@}. In the classical naming system, {@{the anion is named as if it were an [cation](ion.md) and then appended _acid_}@}. If the anion is a simple ion, {@{the anion is prefixed with _hydro-_ and suffixed with _-ic acid_}@}. <!--SR:!2029-05-09,1694,330!2031-01-07,2017,290!2029-09-11,1621,270-->
 
-In {@{the [IUPAC](International%20Union%20of%20Pure%20and%20Applied%20Chemistry.md) naming system}@}, {@{_aqueous_ is added}@} {@{before the name of the [ionic compound](ionic%20compound.md)}@}. <!--SR:!2032-01-04,2084,270!2026-05-25,17,339!2026-05-25,17,339-->
+In {@{the [IUPAC](International%20Union%20of%20Pure%20and%20Applied%20Chemistry.md) naming system}@}, {@{_aqueous_ is added}@} {@{before the name of the [ionic compound](ionic%20compound.md)}@}. <!--SR:!2032-01-04,2084,270!2026-08-12,76,359!2026-08-12,76,359-->
 
 ## characteristics
 

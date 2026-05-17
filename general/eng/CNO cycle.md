@@ -30,12 +30,12 @@ The CN-cycle, named as {@{it contains no stable isotope of oxygen}@}, involves t
 This cycle is now understood as {@{being the first part of a larger process, the CNO-cycle}@}, and the main reactions in this part of the cycle (CNO-I) are: <!--SR:!2028-08-26,1157,350-->
 
 - 1st step ::@:: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2027-11-08,753,270!2030-08-29,1612,310-->
-  - 1st step / energy release (& half-life if available) ::@:: 1.95 MeV <!--SR:!2026-05-19,424,270!2027-06-06,769,310-->
+  - 1st step / energy release (& half-life if available) ::@:: 1.95 MeV <!--SR:!2030-10-08,1603,290!2027-06-06,769,310-->
 - 2nd step ::@:: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2026-06-14,317,190!2027-01-19,621,310-->
   - 2nd step / energy release (& half-life if available) ::@:: 1.20 Mev, 9.965 minutes <!--SR:!2027-02-09,418,190!2029-07-01,1306,310-->
 - 3rd step ::@:: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2027-06-12,739,290!2029-02-02,1042,310-->
   - 3rd step / energy release (& half-life if available) ::@:: 7.54 MeV <!--SR:!2027-12-31,882,290!2027-04-13,569,270-->
-- 4th step ::@:: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2026-05-29,340,210!2029-05-06,1157,290-->
+- 4th step ::@:: $${}_{\phantom{0}7}^{14}\mathrm{N} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}8}^{15}\mathrm{O} + \gamma + 7.35~\mathrm{MeV}$$ <!--SR:!2028-05-12,714,210!2029-05-06,1157,290-->
   - 4th step / energy release (& half-life if available) ::@:: 7.35 MeV <!--SR:!2027-07-07,644,250!2026-10-05,462,270-->
 - 5th step ::@:: $${}_{\phantom{0}8}^{15}\mathrm{O} \rightarrow {}_{\phantom{0}7}^{15}\mathrm{N} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.73~\mathrm{MeV} \quad (\text{half life of 122.24 seconds})$$ <!--SR:!2028-01-21,767,250!2028-02-27,868,290-->
   - 5th step / energy release (& half-life if available) ::@:: 1.73 MeV, 122.24 seconds <!--SR:!2027-03-02,489,210!2027-05-15,701,310-->

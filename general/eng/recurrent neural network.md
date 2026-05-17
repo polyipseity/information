@@ -15,7 +15,7 @@ A __recurrent neural network__ (__RNN__) is {@{one of the two board types of [ne
 
 An RNN exhibits {@{temporal [dynamic behavior](dynamical%20system.md)}@}. This makes it suitable for datasets {@{with temporal relationship between the samples}@}. <!--SR:!2029-04-11,1369,350!2028-01-27,1024,350-->
 
-{@{The term "recurrent neural network"}@} is used to refer to {@{the class of networks with [infinite impulse response](infinite%20impulse%20response.md)}@} (annotation: {@{feedback loops}@} let past inputs {@{influence the state indefinitely}@}), while {@{"[convolutional neural network](convolutional%20neural%20network.md)"}@} refers to {@{the class of networks with [finite impulse response](finite%20impulse%20response.md)}@} (annotation: {@{fixed convolution windows (in time domain)}@} limit {@{influence to a finite history}@}). <!--SR:!2030-10-12,1742,330!2026-05-28,523,310!2027-07-30,444,377!2027-06-14,409,377!2027-07-02,420,377!2027-07-15,431,377!2027-07-03,421,377!2027-07-26,441,377-->
+{@{The term "recurrent neural network"}@} is used to refer to {@{the class of networks with [infinite impulse response](infinite%20impulse%20response.md)}@} (annotation: {@{feedback loops}@} let past inputs {@{influence the state indefinitely}@}), while {@{"[convolutional neural network](convolutional%20neural%20network.md)"}@} refers to {@{the class of networks with [finite impulse response](finite%20impulse%20response.md)}@} (annotation: {@{fixed convolution windows (in time domain)}@} limit {@{influence to a finite history}@}). <!--SR:!2030-10-12,1742,330!2032-07-23,2248,330!2027-07-30,444,377!2027-06-14,409,377!2027-07-02,420,377!2027-07-15,431,377!2027-07-03,421,377!2027-07-26,441,377-->
 
 ## architectures
 
@@ -23,7 +23,7 @@ An RNN exhibits {@{temporal [dynamic behavior](dynamical%20system.md)}@}. This m
 
 ### Elman networks and Jordan networks
 
-An [Elman](Jeffrey%20Elman.md) network is {@{a 3-layer network with the addition of a context layer}@}. The middle hidden layer is {@{connected to the context layer with a fixed weight of 1}@}. The context layer connects {@{back to the middle hidden layer}@}. <!--SR:!2030-06-12,1592,310!2026-07-18,534,310!2026-05-22,517,310-->
+An [Elman](Jeffrey%20Elman.md) network is {@{a 3-layer network with the addition of a context layer}@}. The middle hidden layer is {@{connected to the context layer with a fixed weight of 1}@}. The context layer connects {@{back to the middle hidden layer}@}. <!--SR:!2030-06-12,1592,310!2026-07-18,534,310!2032-06-23,2218,330-->
 
 [Jordan](Michael%20I.%20Jordan.md) network are {@{similar to Elman networks}@}. The exception is {@{that the context layer is fed from the output layer instead of the middle hidden layer}@}. <!--SR:!2030-04-23,1478,310!2028-03-11,779,270-->
 

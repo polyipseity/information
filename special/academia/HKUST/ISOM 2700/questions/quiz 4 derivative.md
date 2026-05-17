@@ -22,7 +22,7 @@ tags:
 > ---
 >
 > - solution: {@{\$618}@}
-> - explanation: {@{Find critical fractile and corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {10 - 3} {(10 - 3) + (3 - 0)} = 0.7 \implies z^* \approx 0.53 \,.$$ Optimal quantity: $$Q^* = 100 + 0.53 \cdot 25 = 113.25 \approx 114 \,.$$ Expected sales: $$\text{expected sales} = 114 - I(0.53) \cdot 25 = 114 - 0.7187 \cdot 25 = 96.0325 \approx 96 \,.$$ Expected profit: $$\operatorname E[P] = 96 \cdot 10 - 114 \cdot 3 = \$618 \,.$$}@} <!--SR:!2029-07-14,1156,350!2026-05-25,257,330-->
+> - explanation: {@{Find critical fractile and corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {10 - 3} {(10 - 3) + (3 - 0)} = 0.7 \implies z^* \approx 0.53 \,.$$ Optimal quantity: $$Q^* = 100 + 0.53 \cdot 25 = 113.25 \approx 114 \,.$$ Expected sales: $$\text{expected sales} = 114 - I(0.53) \cdot 25 = 114 - 0.7187 \cdot 25 = 96.0325 \approx 96 \,.$$ Expected profit: $$\operatorname E[P] = 96 \cdot 10 - 114 \cdot 3 = \$618 \,.$$}@} <!--SR:!2029-07-14,1156,350!2029-08-17,1173,350-->
 
 ---
 
@@ -37,7 +37,7 @@ tags:
 > ---
 >
 > - solution: {@{120}@}
-> - explanation: {@{Find critical fractile and corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {10 - 3} {(10 - 3) + (3 - 1)} \approx 0.7778 \implies z^* \approx 0.77 \,.$$ Optimal quantity: $$Q^* = 100 + 0.77 \cdot 25 = 119.25 \approx 120 \,.$$}@} <!--SR:!2028-05-04,785,330!2026-05-26,257,330-->
+> - explanation: {@{Find critical fractile and corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {10 - 3} {(10 - 3) + (3 - 1)} \approx 0.7778 \implies z^* \approx 0.77 \,.$$ Optimal quantity: $$Q^* = 100 + 0.77 \cdot 25 = 119.25 \approx 120 \,.$$}@} <!--SR:!2028-05-04,785,330!2029-08-18,1174,350-->
 
 ---
 
@@ -52,7 +52,7 @@ tags:
 > ---
 >
 > - solution: {@{mean=200 <br/> standard deviation≈35.3553390593}@}
-> - explanation: {@{mean=2\*100=200 <br/> standard deviation=25\*√\(2\)≈35.3553390593}@} <!--SR:!2026-05-21,254,330!2029-06-28,1138,350-->
+> - explanation: {@{mean=2\*100=200 <br/> standard deviation=25\*√\(2\)≈35.3553390593}@} <!--SR:!2029-08-03,1159,350!2029-06-28,1138,350-->
 
 ---
 
@@ -111,7 +111,7 @@ tags:
 > ---
 >
 > - solution: {@{200: 98, 150: 48, 100: 0, 50: 0}@}
-> - explanation: {@{Critical fractile and its corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {4000 - (2000 - 200)} {(4000 - (2000 - 200)) + (2000 - 200)} = 0.55 \implies z^* \approx 0.13 \,.$$ Optimal protection level: $$Q^* = 100 + 10 \cdot 0.13 = 101.3 \approx 102 \,.$$ <p> If the capacity is less than the optimal protection level, then the entire capacity should be reserved for _expensive_ tickets, i.e. no _cheap_ tickets.}@} <!--SR:!2029-06-27,1137,350!2026-05-20,253,330-->
+> - explanation: {@{Critical fractile and its corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {4000 - (2000 - 200)} {(4000 - (2000 - 200)) + (2000 - 200)} = 0.55 \implies z^* \approx 0.13 \,.$$ Optimal protection level: $$Q^* = 100 + 10 \cdot 0.13 = 101.3 \approx 102 \,.$$ <p> If the capacity is less than the optimal protection level, then the entire capacity should be reserved for _expensive_ tickets, i.e. no _cheap_ tickets.}@} <!--SR:!2029-06-27,1137,350!2029-07-31,1156,350-->
 
 ---
 

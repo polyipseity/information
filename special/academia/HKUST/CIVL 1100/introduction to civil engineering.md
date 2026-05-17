@@ -39,7 +39,7 @@ The content is in teaching order.
   - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
   - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2028-09-18,1181,320!2027-05-07,867,372-->
     - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2027-08-08,938,372!2030-03-21,1726,387-->
-    - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2026-05-23,508,270!2030-09-08,1863,394-->
+    - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2031-08-29,1915,290!2030-09-08,1863,394-->
     - [structural failure example](#structural%20failure%20example)
   - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2032-03-16,2224,360!2030-11-20,1931,397-->
     - [complex shape examples](#complex%20shape%20examples)
@@ -51,7 +51,7 @@ The content is in teaching order.
 - civil engineering solutions ::@:: smart cities <!--SR:!2034-04-29,2976,420!2030-12-09,1925,396-->
   - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2029-01-25,1403,355!2033-07-20,2741,420-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
-- structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2026-05-20,589,360!2027-06-07,897,367-->
+- structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2034-05-20,2910,380!2027-06-07,897,367-->
   - [structural engineering examples](#structural%20engineering%20examples)
   - [natural disasters examples](#natural%20disaster%20examples)
   - structural engineering goals ::@:: - _safety_: no collapse without warning <br/> - _serviceability_: deformation does not disrupt use <!--SR:!2030-05-10,1601,312!2030-05-01,1767,370-->
@@ -197,7 +197,7 @@ water and sewage treatment system
 - dam→::@::←pipeline <!--SR:!2027-01-05,615,244!2032-11-06,2431,361-->
 - pipeline→::@::←power plant <!--SR:!2026-07-20,553,280!2029-01-14,1232,301-->
 - power plant→::@::←reservoir <!--SR:!2030-12-31,1730,295!2026-11-19,609,320-->
-- reservoir→::@::←sewage treatment <!--SR:!2027-08-18,690,217!2026-05-27,340,261-->
+- reservoir→::@::←sewage treatment <!--SR:!2027-08-18,690,217!2029-11-01,1249,281-->
 - sewage treatment→::@::←transport <!--SR:!2029-10-14,1268,250!2031-07-08,1935,321-->
 - transport→::@::←water and sewage treatment system <!--SR:!2032-01-29,2176,360!2027-08-28,568,190-->
 - water and sewage treatment system→::@::←_(end)_ <!--SR:!2031-05-04,1933,401!2028-09-09,1248,381-->
@@ -236,7 +236,7 @@ water security
 - climate change→::@::←extreme weather <!--SR:!2029-12-28,1592,357!2026-12-09,704,350-->
 - extreme weather→::@::←food security <!--SR:!2032-05-05,2239,350!2028-03-31,1121,367-->
 - food security→::@::←mega-cities <!--SR:!2032-05-03,2344,392!2029-06-12,1409,340-->
-- mega-cities→::@::←water security <!--SR:!2028-04-09,1131,380!2026-06-04,428,354-->
+- mega-cities→::@::←water security <!--SR:!2028-04-09,1131,380!2032-02-13,2080,374-->
 - water security→::@::←_(end)_ <!--SR:!2029-07-09,1531,370!2032-10-12,2438,377-->
 
 <!--/pytextgen-->
@@ -278,7 +278,7 @@ workmanship
 <!--pytextgen generate section="1e12"--><!-- The following content is generated at 2024-05-01T19:22:34.848790+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←budgeting <!--SR:!2027-06-08,878,361!2034-04-16,2965,420-->
-- budgeting→::@::←construction management <!--SR:!2026-05-29,483,320!2031-12-02,2199,375-->
+- budgeting→::@::←construction management <!--SR:!2032-04-04,2134,340!2031-12-02,2199,375-->
 - construction management→::@::←economics <!--SR:!2028-12-24,1196,275!2028-01-11,997,320-->
 - economics→::@::←impacts to surrounding <!--SR:!2026-12-20,645,300!2027-03-28,697,280-->
 - impacts to surrounding→::@::←lifecycle <!--SR:!2027-05-03,762,320!2028-07-28,1159,340-->
@@ -318,7 +318,7 @@ We Engineer Hong Kong’s Development
 
 - _(begin)_→::@::←興土木 利民生 齊拓展 創明天 <!--SR:!2028-02-29,1052,334!2027-07-27,950,350-->
 - 興土木 利民生 齊拓展 創明天→::@::←We Bring The Best Engineering To Life <!--SR:!2031-01-23,1878,344!2027-05-09,703,307-->
-- We Bring The Best Engineering To Life→::@::←卓越工程 建設香港 <!--SR:!2027-02-25,706,312!2026-05-26,490,297-->
+- We Bring The Best Engineering To Life→::@::←卓越工程 建設香港 <!--SR:!2027-02-25,706,312!2031-12-11,2019,317-->
 - 卓越工程 建設香港→::@::←We Engineer Hong Kong’s Development <!--SR:!2027-11-11,942,357!2031-07-26,2016,350-->
 - We Engineer Hong Kong’s Development→::@::←_(end)_ <!--SR:!2032-11-11,2540,412!2030-07-27,1813,400-->
 
@@ -359,7 +359,7 @@ transportation
 - _(begin)_→::@::←construction <!--SR:!2027-10-18,1008,375!2027-02-18,827,395-->
 - construction→::@::←environmental <!--SR:!2029-09-27,1517,360!2033-03-21,2620,420-->
 - environmental→::@::←geo-technical <!--SR:!2031-01-15,1874,347!2026-12-16,708,345-->
-- geo-technical→::@::←hydraulic <!--SR:!2032-10-27,2377,360!2026-05-27,519,360-->
+- geo-technical→::@::←hydraulic <!--SR:!2032-10-27,2377,360!2033-06-08,2564,380-->
 - hydraulic→::@::←material <!--SR:!2033-11-01,2747,380!2032-02-26,2204,360-->
 - material→::@::←structural <!--SR:!2030-07-13,1596,317!2030-08-02,1580,280-->
 - structural→::@::←transportation <!--SR:!2027-03-02,800,360!2026-11-27,724,347-->
@@ -462,7 +462,7 @@ testing materials
 - quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
 - quality control→::@::←safety engineering <!--SR:!2026-09-22,587,301!2026-12-04,557,255-->
 - safety engineering→::@::←scheduling <!--SR:!2028-07-27,1158,340!2031-02-03,1909,360-->
-- scheduling→::@::←surveying building site <!--SR:!2026-06-04,506,261!2031-11-09,2103,340-->
+- scheduling→::@::←surveying building site <!--SR:!2031-06-29,1851,281!2031-11-09,2103,340-->
 - surveying building site→::@::←testing materials <!--SR:!2027-05-31,687,260!2027-07-25,790,292-->
 - testing materials→::@::←_(end)_ <!--SR:!2027-05-21,819,347!2028-02-19,1041,327-->
 
@@ -635,7 +635,7 @@ water
 <!--pytextgen generate section="736f"--><!-- The following content is generated at 2024-02-16T21:59:47.573916+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←air <!--SR:!2027-05-11,854,361!2033-04-30,2660,421-->
-- air→::@::←environmental impact assessment (EIA) <!--SR:!2026-05-27,535,318!2030-04-29,1694,358-->
+- air→::@::←environmental impact assessment (EIA) <!--SR:!2032-11-07,2351,338!2030-04-29,1694,358-->
 - environmental impact assessment (EIA)→::@::←noise <!--SR:!2029-12-14,1574,347!2033-06-26,2717,420-->
 - noise→::@::←waste <!--SR:!2032-02-16,2203,380!2027-07-08,926,375-->
 - waste→::@::←water <!--SR:!2027-10-08,990,377!2028-08-19,1238,380-->
@@ -914,7 +914,7 @@ polypropylene fiber reinforced concrete
 
 - _(begin)_→::@::←artificial stone <!--SR:!2028-07-09,1092,317!2031-01-18,1995,385-->
 - artificial stone→::@::←cellular concrete <!--SR:!2032-10-22,2365,340!2029-10-08,1528,355-->
-- cellular concrete→::@::←engineered cement composite <!--SR:!2030-03-18,1558,290!2026-06-02,544,330-->
+- cellular concrete→::@::←engineered cement composite <!--SR:!2030-03-18,1558,290!2033-03-13,2475,350-->
 - engineered cement composite→::@::←fly ash concrete <!--SR:!2032-06-08,2283,357!2029-10-17,1506,340-->
 - fly ash concrete→::@::←polypropylene fiber reinforced concrete <!--SR:!2026-11-13,591,280!2028-10-09,1152,335-->
 - polypropylene fiber reinforced concrete→::@::←_(end)_ <!--SR:!2029-10-26,1588,392!2029-01-24,1194,320-->
@@ -1149,7 +1149,7 @@ and the Structural Engineering Institute (SEI).
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2032-08-25,2339,357!2031-02-05,1906,355-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2032-03-02,2197,347!2028-08-26,1178,327-->
 - with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2032-12-03,2407,354!2028-07-29,1160,330-->
-- the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2026-08-09,551,290!2026-06-04,602,357-->
+- the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2026-08-09,551,290!2034-07-02,2950,377-->
 - the Geode Institute (GI),→::@::←and the Structural Engineering Institute (SEI). <!--SR:!2031-07-18,2088,377!2027-06-14,915,350-->
 - and the Structural Engineering Institute (SEI).→::@::←_(end)_ <!--SR:!2029-08-29,1574,370!2027-05-17,891,350-->
 
@@ -1231,6 +1231,6 @@ water treatment
 - wastewater recycling→::@::←wastewater treatment <!--SR:!2030-12-25,1803,335!2027-04-11,815,337-->
 - wastewater treatment→::@::←water quality monitoring <!--SR:!2030-05-25,1577,300!2032-03-19,2155,335-->
 - water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2030-09-18,1795,354-->
-- water treatment→::@::←_(end)_ <!--SR:!2028-05-23,1167,374!2026-05-18,524,286-->
+- water treatment→::@::←_(end)_ <!--SR:!2028-05-23,1167,374!2032-02-14,2084,306-->
 
 <!--/pytextgen-->

@@ -153,9 +153,9 @@ Notes:
 > - __find__: Present value \(P\) <br/> __given__: Repeating payment \(A\) ::@:: $P=A\cdot {\frac {(1+i)^{n}-1}{i(1+i)^{n} } }$ <!--SR:!2027-03-25,523,310!2027-05-31,570,310-->
 > - __find__: Future value \(F\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $F=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2} } }$ <!--SR:!2027-09-04,601,270!2026-07-02,276,250-->
 > - __find__: Present value \(P\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $P=G\cdot {\frac {(1+i)^{n}-in-1}{i^{2}(1+i)^{n} } }$ <!--SR:!2026-07-16,186,170!2028-01-26,677,270-->
-> - __find__: Fixed payment \(A\) \(annotation: i.e. converting gradient payments to fixed payments of equivalent value\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $A=G\cdot \left[{\frac {1}{i} }-{\frac {n}{(1+i)^{n}-1} }\right]$ <!--SR:!2026-06-09,195,190!2026-05-18,44,150-->
+> - __find__: Fixed payment \(A\) \(annotation: i.e. converting gradient payments to fixed payments of equivalent value\) <br/> __given__: Initial gradient payment \(G\) \(annotation: note that the first payment at year end is 0\) ::@:: $A=G\cdot \left[{\frac {1}{i} }-{\frac {n}{(1+i)^{n}-1} }\right]$ <!--SR:!2026-06-09,195,190!2026-07-27,69,150-->
 > - __find__: Future value \(F\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $F=D\cdot {\frac {(1+g)^{n}-(1+i)^{n} }{g-i} }$   \(for _i_ ≠ _g_\) <br/> $F=D\cdot {\frac {n(1+i)^{n} }{1+g} }$   \(for _i_ = _g_\) <!--SR:!2027-06-22,612,290!2029-12-20,1313,310-->
-> - __find__: Present value \(P\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $P=D\cdot {\frac {\left({1+g \over 1+i}\right)^{n}-1}{g-i} }$   \(for _i_ ≠ _g_\) <br/> $P=D\cdot {\frac {n}{1+g} }$   \(for _i_ = _g_\) <!--SR:!2026-05-26,281,250!2028-10-31,954,290-->
+> - __find__: Present value \(P\) <br/> __given__: Initial exponentially increasing payment \(D\) <br/> Increasing percentage \(g\) ::@:: $P=D\cdot {\frac {\left({1+g \over 1+i}\right)^{n}-1}{g-i} }$   \(for _i_ ≠ _g_\) <br/> $P=D\cdot {\frac {n}{1+g} }$   \(for _i_ = _g_\) <!--SR:!2029-02-05,984,270!2028-10-31,954,290-->
 
 ## derivations
 
@@ -187,7 +187,7 @@ __Perpetuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A \over e^{r}-1}$$ <!--SR:!2026-11-1
 
 __Growing annuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g}(1-e^{-(r-g)t}) \over e^{(r-g)}-1}$$ <!--SR:!2026-12-14,418,250!2026-07-07,274,230-->
 
-__Growing perpetuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g} \over e^{(r-g)}-1}$$ <!--SR:!2026-05-20,325,290!2026-06-24,325,290-->
+__Growing perpetuity__ <p> ::@:: $$\ PV\ =\ {Ae^{-g} \over e^{(r-g)}-1}$$ <!--SR:!2029-12-31,1313,310!2026-06-24,325,290-->
 
 __Annuity with continuous payments__ <p> ::@:: $$\ PV\ =\ {1-e^{(-rt)} \over r}$$ <!--SR:!2026-09-09,388,270!2027-01-20,456,270-->
 
@@ -205,7 +205,7 @@ Formally, {@{the statement that "value decreases over time"}@} is given by {@{de
 
 {@{The Green's function for the value at time _t_ of a £1 cash flow at time _u_}@} is {@{$$b(t;u):=H(u-t)\cdot \exp \left(-\int _{t}^{u}r(v)\,dv\right)$$}@} where {@{_H_ is the [Heaviside step function](Heaviside%20step%20function.md)}@}. {@{The notation "$;u$"}@} is to {@{emphasize that _u_ is a _parameter_ \(fixed in any instance—the time when the cash flow will occur\)}@}, while {@{_t_ is a _variable_ \(time\)}@}. In other words, {@{future cash flows}@} are {@{exponentially discounted \(exp\) by the sum \(integral, $\textstyle {\int }$\) of the future discount rates \($\textstyle {\int _{t}^{u} }$ for future, _r_\(_v_\) for discount rates\)}@}, while {@{past cash flows are worth 0 \($H(u-t)=1{\text{ if } }t<u,0{\text{ if } }t>u$\), because they have already occurred}@}. Note that {@{the value _at_ the moment of a cash flow is not well-defined}@}—there is {@{a discontinuity at that point}@}, and one can {@{use a convention \(assume cash flows have already occurred, or not already occurred\), or simply not define the value at that point}@}. <!--SR:!2029-02-06,1122,350!2029-02-13,1088,310!2029-07-23,1254,350!2029-11-03,1339,350!2029-05-08,1198,350!2029-05-01,1193,350!2029-02-16,1132,350!2028-04-29,833,330!2029-06-06,1215,350!2027-12-23,791,330!2027-10-18,742,330!2027-12-13,781,330-->
 
-In case {@{the discount rate is constant, $r(v)\equiv r$}@}, this simplifies to {@{$$b(t;u)=H(u-t)\cdot e^{-(u-t)r}={\begin{cases}e^{-(u-t)r}&t<u\\0&t>u,\end{cases} }$$}@} where {@{$(u-t)$ is "time remaining until cash flow"}@}. <!--SR:!2029-10-06,1316,350!2026-05-28,332,290!2027-07-19,669,330-->
+In case {@{the discount rate is constant, $r(v)\equiv r$}@}, this simplifies to {@{$$b(t;u)=H(u-t)\cdot e^{-(u-t)r}={\begin{cases}e^{-(u-t)r}&t<u\\0&t>u,\end{cases} }$$}@} where {@{$(u-t)$ is "time remaining until cash flow"}@}. <!--SR:!2029-10-06,1316,350!2030-01-18,1331,310!2027-07-19,669,330-->
 
 Thus for {@{a stream of cash flows _f_\(_u_\) ending by time _T_ \(which can be set to $T=+\infty$ for no time horizon\)}@} {@{the value at time _t_, $V(t;T)$}@} is given by {@{combining the values of these individual cash flows}@}: {@{$$V(t;T)=\int _{t}^{T}f(u)b(t;u)\,du.$$}@} This formalizes {@{time value of money to future values of cash flows with varying discount rates}@}, and is {@{the basis of many formulas in financial mathematics}@}, such as {@{the [Black–Scholes formula](Black–Scholes%20formula.md#Black–Scholes%20formula) with [varying interest rates](Black–Scholes.md#interest%20rate%20curve)}@}. <!--SR:!2027-03-26,534,310!2027-05-01,561,310!2029-05-06,1196,350!2027-12-06,649,270!2028-11-19,1064,350!2029-11-02,1338,350!2029-06-06,1215,350-->
 

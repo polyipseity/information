@@ -97,7 +97,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-03T10:30:00+08:00/2024-10-03T12:20:00+08:00
 - activity 1: practice ideation through 3 things ::@:: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas. <!--SR:!2026-08-28,537,402!2026-07-24,506,402-->
-- success ::@:: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional? <!--SR:!2026-07-17,499,402!2026-06-04,467,402-->
+- success ::@:: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional? <!--SR:!2026-07-17,499,402!2033-06-09,2562,422-->
   - success / dysfunctional belief ::@:: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age) <!--SR:!2026-07-11,498,402!2026-07-16,498,402-->
   - success / idea board ::@:: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found. <!--SR:!2029-11-07,1360,382!2026-07-02,490,402-->
 - design thinking
@@ -115,7 +115,7 @@ The content is in teaching order.
   - design thinking / flare & focus ::@:: flare: create options, divergent thinking; focus: select options, convergent thinking <!--SR:!2026-08-30,539,402!2026-07-15,501,402-->
 - information interview ::@:: Not a job interview, but a conversation looking for others' stories. <!--SR:!2026-06-07,470,402!2026-06-08,470,402-->
   - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!2026-07-05,493,402!2026-08-21,531,402-->
-  - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!2026-06-06,469,402!2026-06-03,466,402-->
+  - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!2026-06-06,469,402!2033-06-02,2556,422-->
   - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2026-08-08,520,402!2026-06-18,479,402-->
   - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2026-07-16,502,402!2026-06-19,480,402-->
 
@@ -134,18 +134,18 @@ The content is in teaching order.
 - datetime: 2024-10-17T10:30:00+08:00/2024-10-17T12:20:00+08:00
 - design thinking
   - design thinking / reframing
-    - design thinking / reframing / motivation ::@:: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem? <!--SR:!2026-06-20,481,402!2026-06-02,465,402-->
+    - design thinking / reframing / motivation ::@:: In design thinking, we put as much emphasis on _problem finding_ as we do on problem solving. What is the point if you are solving the wrong problem? <!--SR:!2026-06-20,481,402!2033-05-21,2544,422-->
 - sticky problem ::@:: anchor problem, gravity problem, unclear problem <!--SR:!2031-04-28,1907,402!2026-08-16,527,402-->
   - anchor problem ::@:: Problems that _you think_ have only one possible solution. <p> Try to release the anchor to open up more solution possibilities. <!--SR:!2026-07-25,507,402!2026-08-05,517,402-->
   - gravity problem ::@:: Problems that are _not actionable_ objectively. (Sometimes it may be an anchor problem but it seems like a gravity problem because your mind is so anchored on the solution...) <p> Try to accept and reframe the problem. Accept does not mean give up, however. There may be a possibility that the problem becomes actionable later. And you can always try to reframe the problem. <!--SR:!2026-07-08,495,402!2026-08-14,525,402-->
   - unclear problem ::@:: compound/unfocused, inappropriately scoped, insufficient context, problems with only 2 to 3 solutions (yes/no, either/or) <!--SR:!2029-06-15,1322,382!2026-07-31,513,402-->
-  - sticky problem / reframing ::@:: See what kind of sticky problem you have. Reframe appropriately. Best if the reframed problem starts with "How might I..." <p> Reframing helps with getting the "right" solutions, because the solutions you get highly depends on your framing. <!--SR:!2026-07-27,509,402!2026-05-24,458,402-->
+  - sticky problem / reframing ::@:: See what kind of sticky problem you have. Reframe appropriately. Best if the reframed problem starts with "How might I..." <p> Reframing helps with getting the "right" solutions, because the solutions you get highly depends on your framing. <!--SR:!2026-07-27,509,402!2033-04-19,2512,422-->
 - activity 1: reframing a problem ::@:: We are going to reframe your problem 3 times. In each round, state your problem on a idea board. With other people, add ideas to each others' boards. After each round, reframe your question based on the ideas given by others. <!--SR:!2026-08-24,534,402!2033-02-09,2463,422-->
-  - activity 1: reframing a problem / takeaways ::@:: You can reframe your questions using ideation with others to get better results! Also, idea boards are a great way to help introverts participate. <!--SR:!2026-05-23,457,402!2026-07-26,508,402-->
+  - activity 1: reframing a problem / takeaways ::@:: You can reframe your questions using ideation with others to get better results! Also, idea boards are a great way to help introverts participate. <!--SR:!2033-04-14,2507,422!2026-07-26,508,402-->
 - ways of thinking
   - ways of thinking / blocks ::@:: There are ways of thinking that may get you stuck on a problem. They could be cultural/milieu, emotional, intellectual, or perceptual. <!--SR:!2026-07-22,504,402!2026-06-27,487,402-->
     - ways of thinking / blocks / cultural ::@:: embarrassment, fear of failure, uncomfortable with fantasy or intuition <!--SR:!2026-08-23,533,402!2026-08-31,540,402-->
-    - ways of thinking / blocks / emotional ::@:: control is good and chaos is bad, no support for new ideas, not supposed to have fun <!--SR:!2026-08-22,532,402!2026-05-28,460,402-->
+    - ways of thinking / blocks / emotional ::@:: control is good and chaos is bad, no support for new ideas, not supposed to have fun <!--SR:!2026-08-22,532,402!2033-05-01,2524,422-->
     - ways of thinking / blocks / intellectual ::@:: expert belief, inflexible style, wrong information <!--SR:!2026-08-01,514,402!2026-07-18,500,402-->
     - ways of thinking / blocks / perceptual ::@:: choosing too tight a view, difficulty isolating, stereotyping <!--SR:!2026-08-25,535,402!2026-07-23,505,402-->
 

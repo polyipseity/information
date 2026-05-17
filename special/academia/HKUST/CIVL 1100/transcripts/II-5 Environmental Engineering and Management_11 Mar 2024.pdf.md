@@ -255,8 +255,8 @@ HATS Stage 2 Overview
 
 - Hong Kong Harbour Area Treatment Scheme Stage II ::@:: HATS Stage 2 <!--SR:!2028-05-16,1133,350!2028-10-29,1247,350-->
   - HATS Stage 2 phases ::@:: 2 phases, stage 2A and stage 2B <!--SR:!2028-05-10,1124,350!2028-08-02,1183,350-->
-  - HATS Stage 2A ::@:: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2026-06-03,474,270!2028-08-03,1117,310-->
-  - HATS Stage 2B ::@:: biological treatment <!--SR:!2026-08-29,577,310!2026-05-27,505,310-->
+  - HATS Stage 2A ::@:: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2031-04-25,1787,290!2028-08-03,1117,310-->
+  - HATS Stage 2B ::@:: biological treatment <!--SR:!2026-08-29,577,310!2032-05-05,2167,330-->
 
 ## page 19
 
@@ -328,7 +328,7 @@ Air Pollution: A serious problem in Hong Kong?
 Air Quality Health Index
 
 - Air Quality Health Index ::@:: AQHI <!--SR:!2027-04-30,807,330!2029-03-02,1350,350-->
-  - AQHI history ::@:: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2026-05-27,464,270!2028-08-23,1204,350-->
+  - AQHI history ::@:: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2031-03-14,1749,290!2028-08-23,1204,350-->
   - AQHI scale ::@:: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2028-02-17,1060,350!2028-01-04,1028,350-->
   - AQHI health risk categories ::@:: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2027-06-28,851,330!2027-04-02,750,330-->
 
@@ -394,7 +394,7 @@ return await memorize_seq(
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2027-09-07,808,270!2030-05-25,1593,310-->
 - nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2028-07-09,803,230!2027-05-05,416,190-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2030-01-16,1363,290!2026-07-31,505,270-->
-- sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2026-06-02,367,310!2027-02-16,688,310-->
+- sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2030-09-24,1574,330!2027-02-16,688,310-->
 
 <!--/pytextgen-->
 
@@ -435,7 +435,7 @@ Relationship between PPM and mg/L
 
 - relationship between ppm<sub>w</sub> and mg/L for other solutions
   - relationship between ppm<sub>w</sub> and mg/L examples
-  - relationship between ppm<sub>w</sub> and mg/L for other solutions ::@:: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2028-05-11,956,290!2026-06-04,512,310-->
+  - relationship between ppm<sub>w</sub> and mg/L for other solutions ::@:: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2028-05-11,956,290!2032-06-09,2197,330-->
 - specific gravity (SG) of a mixture ::@:: density of mixture divided by density of water <!--SR:!2028-04-23,1115,350!2028-11-16,1265,350-->
 
 ## page 36

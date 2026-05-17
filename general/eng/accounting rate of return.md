@@ -17,7 +17,7 @@ tags:
 
 # accounting rate of return
 
-- This article is about {@{a capital budgeting concept}@}. For other uses, see [ARR](ARR%20(disambiguation).md). <!--SR:!2026-06-02,232,330-->
+- This article is about {@{a capital budgeting concept}@}. For other uses, see [ARR](ARR%20(disambiguation).md). <!--SR:!2029-04-28,1061,350-->
 
 |                                                                                                                                                                                                                                                 Part of [a series](https://en.wikipedia.org/wiki/Category:Accounting) on <br/> __[Accounting](accounting.md)__                                                                                                                                                                                                                                                  |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -42,7 +42,7 @@ tags:
 
 ## basic formulas
 
-\(annotation: accounting rate of return\) ::@:: $${\text{ARR} }={\frac {\text{Average return during period} }{\text{Average investment} } }$$ \(annotation: Some use initial investment as the denominator instead.\) <!--SR:!2026-06-01,231,330!2026-06-27,253,330-->
+\(annotation: accounting rate of return\) ::@:: $${\text{ARR} }={\frac {\text{Average return during period} }{\text{Average investment} } }$$ \(annotation: Some use initial investment as the denominator instead.\) <!--SR:!2029-04-16,1050,350!2026-06-27,253,330-->
 
 where:
 
@@ -56,7 +56,7 @@ where:
 
 1. This technique is based on {@{profits rather than [cash flow](cash%20flow.md)}@}. It {@{ignores cash flow from investment}@}. Therefore, it can be {@{affected by non-cash items}@} such as {@{[bad debts](bad%20debt.md) and [depreciation](depreciation.md) when calculating profits}@}. {@{The change of methods for depreciation}@} can be {@{manipulated and lead to higher profits}@}.
 2. This technique does not {@{adjust for the risk}@} to {@{long term [forecasts](forecasting.md)}@}.
-3. ARR doesn't {@{take into account}@} {@{the [time value of money](time%20value%20of%20money.md)}@}. <!--SR:!2026-07-22,272,330!2026-06-23,250,330!2026-07-26,275,330!2026-07-07,260,330!2026-07-23,273,330!2026-07-18,269,330!2026-06-22,249,330!2026-06-03,233,330!2026-07-23,272,330!2026-06-29,255,330-->
+3. ARR doesn't {@{take into account}@} {@{the [time value of money](time%20value%20of%20money.md)}@}. <!--SR:!2026-07-22,272,330!2026-06-23,250,330!2026-07-26,275,330!2026-07-07,260,330!2026-07-23,273,330!2026-07-18,269,330!2026-06-22,249,330!2029-05-02,1064,350!2026-07-23,272,330!2026-06-29,255,330-->
 
 ## see also
 

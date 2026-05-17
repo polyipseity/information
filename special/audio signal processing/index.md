@@ -184,21 +184,21 @@ The content is in recommended learning order.
 
 - signal processing
   - signal processing / other topics ::@:: multi-resolution, partial tracking, residual analysis, sinusoid detection and estimation, synthesis, transient modeling <!--SR:!2026-07-20,299,332!2026-07-19,298,332-->
-  - signal processing / multi-resolution ::@:: Instead of using a fixed window size for all frequencies, use smaller window sizes for higher frequencies. <!--SR:!2026-07-21,300,332!2026-06-03,261,332-->
-  - signal processing / partial tracking ::@:: Track movement of partials. <!--SR:!2026-05-18,248,332!2026-07-20,299,332-->
+  - signal processing / multi-resolution ::@:: Instead of using a fixed window size for all frequencies, use smaller window sizes for higher frequencies. <!--SR:!2026-07-21,300,332!2028-10-18,868,332-->
+  - signal processing / partial tracking ::@:: Track movement of partials. <!--SR:!2029-07-03,1131,352!2026-07-20,299,332-->
   - signal processing / residual analysis ::@:: Model residual using more advanced methods. <!--SR:!2026-07-17,296,332!2026-06-28,281,332-->
   - signal processing / sinusoid detection and estimation ::@:: Detect and estimate sinusoids using more advanced methods. <!--SR:!2029-05-17,1103,352!2026-07-21,300,332-->
-  - signal processing / synthesis ::@:: Synthesize new sounds rather than simply re-synthesizing. <!--SR:!2026-06-23,277,332!2026-05-28,256,332-->
-  - signal processing / transient modeling ::@:: Model transient \(short\) sounds more accurately. <!--SR:!2029-05-13,1099,352!2026-05-28,256,332-->
+  - signal processing / synthesis ::@:: Synthesize new sounds rather than simply re-synthesizing. <!--SR:!2026-06-23,277,332!2029-08-17,1176,352-->
+  - signal processing / transient modeling ::@:: Model transient \(short\) sounds more accurately. <!--SR:!2029-05-13,1099,352!2029-08-16,1175,352-->
   - signal processing / topics beyond ::@:: data processing, other signal types apart from sounds, semantic technologies, user-centered studies <!--SR:!2026-06-07,264,332!2026-06-18,273,332-->
 - review
-- [Music Technology Group](../../general/Music%20Technology%20Group.md) \(MTG\) ::@:: It is a research group of the Department of Information and Communication Technologies of the Universitat Pompeu Fabra, Barcelona. It was founded in 1994 by Xavier Serra, and it specializes in sound and music computing research. <!--SR:!2026-06-08,265,332!2026-05-23,252,332-->
+- [Music Technology Group](../../general/Music%20Technology%20Group.md) \(MTG\) ::@:: It is a research group of the Department of Information and Communication Technologies of the Universitat Pompeu Fabra, Barcelona. It was founded in 1994 by Xavier Serra, and it specializes in sound and music computing research. <!--SR:!2026-06-08,265,332!2029-07-29,1157,352-->
   - Music Technology Group / research ::@:: audio signal processing \(e.g. Vocaloid\), musical and advanced interaction \(e.g. Reactable\), semantic technologies, sound and music description <!--SR:!2028-04-27,777,332!2026-07-19,298,332-->
 - [Reactable](../../general/Reactable.md) ::@:: It is an electronic musical instrument with a tabletop tangible user interface that was developed within the Music Technology Group at the Universitat Pompeu Fabra in Barcelona, Spain. <!--SR:!2029-05-22,1107,352!2029-05-23,1108,352-->
 - Sound and Music Computing Network \(SMCN\) ::@:: <https://smcnetwork.org/> <p> It is a web portal dedicated to sound and music computing. <!--SR:!2029-05-21,1106,352!2026-06-13,269,332-->
 - [International Computer Music Conference](../../general/International%20Computer%20Music%20Conference.md) \(ICMC\) ::@:: It is a yearly international conference for computer music researchers and composers. It is the annual conference of the International Computer Music Association \(ICMA\). <p> It was a pioneer of conferences dedicated to computer music \(started 1974\). <!--SR:!2026-07-18,297,332!2028-10-13,897,332-->
 - goodbye
-- Dunya ::@:: <https://dunya.compmusic.upf.edu/> <p> It is a music corpora and related software tools. They are for studying particular music traditions: Andalusian, Carnatic, Hindustani, Jingju, and Makam. <!--SR:!2026-07-19,298,332!2026-06-02,260,332-->
+- Dunya ::@:: <https://dunya.compmusic.upf.edu/> <p> It is a music corpora and related software tools. They are for studying particular music traditions: Andalusian, Carnatic, Hindustani, Jingju, and Makam. <!--SR:!2026-07-19,298,332!2029-09-10,1196,352-->
 - [AcousticBrainz](../../general/AcousticBrainz.md) ::@:: <https://acousticbrainz.org/> <p> It is a database of acoustic characteristics of music and includes low-level spectral information and information for genres, moods, keys, scales, etc. \(In 2022, it decided to stop collecting new data, but existing data remains available.\) <!--SR:!2029-03-13,1048,350!2029-06-20,1130,352-->
 
 ## references

@@ -150,7 +150,7 @@ return chain.from_iterable([r.value for r in results])
 
 - `in`:@:membership test <!--SR:!2028-02-24,1151,350-->
 - `<`:@:lesser than <!--SR:!2028-10-16,1335,350-->
-- `<=`:@:lesser than or equal to <!--SR:!2026-05-25,634,330-->
+- `<=`:@:lesser than or equal to <!--SR:!2034-04-19,2878,350-->
 - `>`:@:greater than <!--SR:!2027-01-01,762,330-->
 - `>=`:@:greater than or equal to <!--SR:!2028-10-07,1330,350-->
 - `!=`:@:not equal to <!--SR:!2027-07-14,978,350-->
@@ -217,7 +217,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--/pytextgen-->
 
-In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)`}@} instead of {@{`(True or False) and False`}@}. The former \(the correct one\) {@{is `True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2026-11-20,485,396!2027-06-01,650,416!2027-05-30,648,416!2026-06-02,140,423-->
+In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)`}@} instead of {@{`(True or False) and False`}@}. The former \(the correct one\) {@{is `True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2026-11-20,485,396!2027-06-01,650,416!2027-05-30,648,416!2028-08-16,806,443-->
 
 ## variable
 

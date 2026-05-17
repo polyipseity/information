@@ -51,7 +51,7 @@ Let $k$ be {@{the current number of iterations}@}, and $\mathbf{A}_k$ and $\math
 
 ### authority update rule
 
-For each $p$, we {@{update $a(p)$ to $a(p) = \sum_{q \in p_{\text{to} } } h(q)$ where $p_{\text{to} }$ are all pages linking to $p$}@}. That is, a page's authority value is {@{the sum of the hub values of nodes pointing to it}@}. This can also be expressed {@{using [matrix multiplication](matrix%20multiplication.md)}@}: {@{$\mathbf{A}_k \gets \mathbf{M}^\intercal \mathbf{H}_{k - 1}$}@}. <!--SR:!2027-08-17,889,334!2026-05-31,491,310!2028-10-10,1229,354!2026-09-19,581,314-->
+For each $p$, we {@{update $a(p)$ to $a(p) = \sum_{q \in p_{\text{to} } } h(q)$ where $p_{\text{to} }$ are all pages linking to $p$}@}. That is, a page's authority value is {@{the sum of the hub values of nodes pointing to it}@}. This can also be expressed {@{using [matrix multiplication](matrix%20multiplication.md)}@}: {@{$\mathbf{A}_k \gets \mathbf{M}^\intercal \mathbf{H}_{k - 1}$}@}. <!--SR:!2027-08-17,889,334!2032-03-06,2106,330!2028-10-10,1229,354!2026-09-19,581,314-->
 
 Consider the authority vector after several updates (without normalization):
 
@@ -70,7 +70,7 @@ Consider the authority vector after several updates (without normalization):
 
 From the table above, we can obtain {@{a closed expression and a recursive expression}@}. Let {@{$\mathbf{A}_1 \gets \mathbf{M}^\intercal \mathbf{H}_0$}@}. For async iteration, the expressions are {@{$$\begin{aligned} \mathbf{A}_k & \gets \left(\mathbf{M}^\intercal \mathbf{M}\right)^{k - 1} \mathbf{A}_1 \\ \mathbf{A}_k & \gets \mathbf{M}^\intercal \mathbf{M} \mathbf{A}_{k - 1} \end{aligned}$$}@}. For sync iteration, the expressions are {@{$$\begin{aligned} \mathbf{A}_{2k} & \gets \left(\mathbf{M}^\intercal \mathbf{M}\right)^k \mathbf{A}_0 \\ \mathbf{A}_{2k + 1} & \gets \left(\mathbf{M}^\intercal \mathbf{M}\right)^k \mathbf{A}_1 \\ \mathbf{A}_k & \gets \mathbf{M}^\intercal \mathbf{M} \mathbf{A}_{k - 2} \end{aligned}$$}@}. <!--SR:!2028-10-19,1238,354!2027-06-03,692,274!2029-10-10,1290,294!2031-01-04,1708,294-->
 
-Notice that both iterations involve {@{left multiplying the authority vector by $\mathbf{M}^\intercal \mathbf{M}$ repeatedly}@}. This is how computation is done in practice. Mathematically, this is also known as {@{[power iteration](power%20iteration.md)}@}. By this, if {@{the authority vector is [normalized](#normalization) after each iteration}@}, then the authority vector tends to {@{the normalized principal [eigenvector](eigenvalues%20and%20eigenvectors.md) (the normalized eigenvector with the largest eigenvalue)}@} of {@{$\mathbf{M}^\intercal \mathbf{M}$ regardless of the starting initial values}@}. <!--SR:!2028-05-14,1114,354!2029-04-14,1373,354!2028-12-03,1271,354!2026-05-23,460,274!2026-08-24,118,396-->
+Notice that both iterations involve {@{left multiplying the authority vector by $\mathbf{M}^\intercal \mathbf{M}$ repeatedly}@}. This is how computation is done in practice. Mathematically, this is also known as {@{[power iteration](power%20iteration.md)}@}. By this, if {@{the authority vector is [normalized](#normalization) after each iteration}@}, then the authority vector tends to {@{the normalized principal [eigenvector](eigenvalues%20and%20eigenvectors.md) (the normalized eigenvector with the largest eigenvalue)}@} of {@{$\mathbf{M}^\intercal \mathbf{M}$ regardless of the starting initial values}@}. <!--SR:!2028-05-14,1114,354!2029-04-14,1373,354!2028-12-03,1271,354!2031-03-21,1758,294!2026-08-24,118,396-->
 
 ### hub update rule
 

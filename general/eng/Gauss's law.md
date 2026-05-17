@@ -113,7 +113,7 @@ Although {@{microscopically all charge is fundamentally the same}@}, there are o
 <!-- markdownlint-disable-next-line MD024 -->
 ### integral form
 
-{@{This formulation of Gauss's law}@} states the total charge form: {@{$$\Phi _{D}=Q_{\mathrm {free} }$$}@} where {@{Φ<sub>_D_</sub> is the [__D__-field](electric%20displacement%20field.md) flux through a surface _S_ which encloses a volume _V_, and _Q_<sub>free</sub> is the free charge contained in _V_}@}. {@{The flux Φ<sub>_D_</sub>}@} is defined {@{analogously to the flux Φ<sub>_E_</sub> of the electric field __E__ through _S_}@}: {@{$$\Phi _{D} = \oiint_S \mathbf {D} \cdot \mathrm {d} \mathbf {A}$$}@} <!--SR:!2029-07-29,1256,350!2029-11-12,1344,350!2026-05-20,331,290!2029-09-20,1302,350!2029-07-18,1248,350!2029-08-05,1264,350-->
+{@{This formulation of Gauss's law}@} states the total charge form: {@{$$\Phi _{D}=Q_{\mathrm {free} }$$}@} where {@{Φ<sub>_D_</sub> is the [__D__-field](electric%20displacement%20field.md) flux through a surface _S_ which encloses a volume _V_, and _Q_<sub>free</sub> is the free charge contained in _V_}@}. {@{The flux Φ<sub>_D_</sub>}@} is defined {@{analogously to the flux Φ<sub>_E_</sub> of the electric field __E__ through _S_}@}: {@{$$\Phi _{D} = \oiint_S \mathbf {D} \cdot \mathrm {d} \mathbf {A}$$}@} <!--SR:!2029-07-29,1256,350!2029-11-12,1344,350!2030-01-19,1332,310!2029-09-20,1302,350!2029-07-18,1248,350!2029-08-05,1264,350-->
 
 <!-- markdownlint-disable-next-line MD024 -->
 ### differential form

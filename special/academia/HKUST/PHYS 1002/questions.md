@@ -235,7 +235,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 11 km/s
 >
 > - solution: {@{3}@}
-> - explanation: {@{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}@} <!--SR:!2027-08-29,843,321!2026-05-24,478,321-->
+> - explanation: {@{Equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {9.8} {1000} \cdot 6400} = \sqrt{62.72} \approx 7.91959595\text{ km/s}$$. Therefore, the answer is 7.9 km/s.}@} <!--SR:!2027-08-29,843,321!2032-03-22,2119,341-->
 
 <!-- markdownlint MD028 -->
 
@@ -373,7 +373,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^7 L_Sun
 >
 > - solution: {@{1}@}
-> - explanation: Notice that {@{$C$ is not given for two cases}@}. So the main problem is {@{calculating $C$}@}. The main thing to realize is that we expect {@{for masses in the boundary points between two equations, the two equations should predict the same value}@}, i.e. {@{a continuous function}@}. We only need {@{the $C$ for the third case}@}: {@{$$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004 \,.$$}@} Then the rest is a simple matter of {@{applying the formula}@}: {@{$$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity} \,.$$}@} So the answer is {@{2×10<sup>6</sup> L<sub>Sun</sub>}@}. <!--SR:!2028-09-05,1085,351!2029-05-17,1256,331!2026-05-27,137,404!2028-04-10,695,424!2026-05-27,137,404!2028-04-13,697,424!2026-05-20,130,404!2026-05-19,129,404!2026-05-21,131,404!2026-05-27,137,404-->
+> - explanation: Notice that {@{$C$ is not given for two cases}@}. So the main problem is {@{calculating $C$}@}. The main thing to realize is that we expect {@{for masses in the boundary points between two equations, the two equations should predict the same value}@}, i.e. {@{a continuous function}@}. We only need {@{the $C$ for the third case}@}: {@{$$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004 \,.$$}@} Then the rest is a simple matter of {@{applying the formula}@}: {@{$$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity} \,.$$}@} So the answer is {@{2×10<sup>6</sup> L<sub>Sun</sub>}@}. <!--SR:!2028-09-05,1085,351!2029-05-17,1256,331!2028-06-25,753,424!2028-04-10,695,424!2028-06-28,756,424!2028-04-13,697,424!2028-05-20,717,424!2028-05-12,709,424!2028-05-25,722,424!2028-06-24,752,424-->
 
 <!-- markdownlint MD028 -->
 
@@ -385,7 +385,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 24 AU
 >
 > - solution: {@{3}@}
-> - explanation: {@{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}@} <!--SR:!2026-05-28,414,271!2027-03-22,702,311-->
+> - explanation: {@{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}@} <!--SR:!2030-09-15,1565,291!2027-03-22,702,311-->
 
 <!-- markdownlint MD028 -->
 

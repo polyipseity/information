@@ -40,7 +40,7 @@ return await memorize_table(
 <!--pytextgen generate section="aaee9e"--><!-- The following content is generated at 2024-01-04T20:17:52.289866+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←breathing <!--SR:!2034-05-05,3146,350!2027-03-19,1122,350-->
-- breathing→::@::←burning of fuels <!--SR:!2027-08-19,1060,290!2026-05-31,883,330-->
+- breathing→::@::←burning of fuels <!--SR:!2027-08-19,1060,290!2037-05-31,4018,350-->
 - burning of fuels→::@::←medical use <!--SR:!2026-10-15,928,330!2031-04-29,2250,330-->
 - medical use→::@::←_(end)_ <!--SR:!2028-05-23,1460,350!2035-08-05,3449,350-->
 

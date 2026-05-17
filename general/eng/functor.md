@@ -26,7 +26,7 @@ In {@{[mathematics](mathematics.md), specifically [category theory](category%20t
 
 > {@{![A category with objects X, Y, Z and morphisms f, g, g ∘ f](../../archives/Wikimedia%20Commons/Commutative%20diagram%20for%20morphism.svg)}@}
 >
-> {@{A category}@} with {@{objects X, Y, Z and morphisms f, g, g ∘ f}@} <!--SR:!2029-09-24,1340,350!2030-11-07,1691,377!2026-05-21,27,395-->
+> {@{A category}@} with {@{objects X, Y, Z and morphisms f, g, g ∘ f}@} <!--SR:!2029-09-24,1340,350!2030-11-07,1691,377!2026-10-21,146,415-->
 
 <!-- markdownlint MD028 -->
 
@@ -40,7 +40,7 @@ Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __funct
 - (annotation: morphism) ::@:: associates each [morphism](morphism.md) $f\colon X\to Y$ in _C_ to a morphism $F(f)\colon F(X)\to F(Y)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2030-04-18,1518,366!2027-02-17,565,310-->
   - (annotation: identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2029-09-16,1332,350!2031-02-06,1766,377-->
   - (annotation: composition) ::@:: $F(g\circ f)=F(g)\circ F(f)$ for all morphisms $f\colon X\to Y\,\!$ and $g\colon Y\to Z$ in _C_. <!--SR:!2030-10-22,1679,377!2029-09-17,1333,350-->
-- (annotation: functor, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2026-05-30,403,367!2026-05-26,399,367-->
+- (annotation: functor, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2031-12-17,2027,387!2031-11-25,2007,387-->
 
 That is, functors must {@{preserve [identity morphisms](morphism.md#definition) and [composition](function%20composition.md) of morphisms}@}. <!--SR:!2031-01-02,1735,377-->
 
@@ -101,7 +101,7 @@ __[\(Category theoretical\) presheaf](presheaf%20(category%20theory).md)__ <p> :
 
 __Presheaves \(over a topological space\)__
 
-&emsp; If {@{_X_ is a [topological space](topological%20space.md)}@}, then {@{the [open sets](open%20set.md) in _X_}@} form {@{a [partially ordered set](partially%20ordered%20set.md) Open\(_X_\) under inclusion}@}. Like {@{every partially ordered set}@}, {@{Open\(_X_\) forms a small category}@} by {@{adding a single arrow _U_ → _V_ if and only if $U\subseteq V$}@}. {@{Contravariant functors on Open\(_X_\) \(annotation: as the domain\)}@} are called {@{_[presheaves](presheaf.md#presheaves)_ on _X_}@}. For instance, by {@{assigning to every open set _U_ the [associative algebra](associative%20algebra.md) of real-valued continuous functions on _U_}@}, one obtains {@{a presheaf of algebras on _X_}@}. <!--SR:!2029-09-25,1341,350!2029-08-14,1239,357!2029-09-29,1345,350!2029-03-10,1111,346!2030-03-27,1500,366!2029-01-17,1071,346!2030-12-06,1715,377!2027-11-09,782,337!2029-06-16,1213,317!2026-05-20,26,395-->
+&emsp; If {@{_X_ is a [topological space](topological%20space.md)}@}, then {@{the [open sets](open%20set.md) in _X_}@} form {@{a [partially ordered set](partially%20ordered%20set.md) Open\(_X_\) under inclusion}@}. Like {@{every partially ordered set}@}, {@{Open\(_X_\) forms a small category}@} by {@{adding a single arrow _U_ → _V_ if and only if $U\subseteq V$}@}. {@{Contravariant functors on Open\(_X_\) \(annotation: as the domain\)}@} are called {@{_[presheaves](presheaf.md#presheaves)_ on _X_}@}. For instance, by {@{assigning to every open set _U_ the [associative algebra](associative%20algebra.md) of real-valued continuous functions on _U_}@}, one obtains {@{a presheaf of algebras on _X_}@}. <!--SR:!2029-09-25,1341,350!2029-08-14,1239,357!2029-09-29,1345,350!2029-03-10,1111,346!2030-03-27,1500,366!2029-01-17,1071,346!2030-12-06,1715,377!2027-11-09,782,337!2029-06-16,1213,317!2026-10-16,141,415-->
 
 __Constant functor__ <p> ::@:: &emsp; The functor _C_ → _D_ which maps every object of _C_ to a fixed object _X_ in _D_ and every morphism in _C_ to the identity morphism on _X_. Such a functor is called a _constant_ or _selection_ functor. (annotation: note that functors are not required to be injective or surjective) <!--SR:!2030-12-08,1716,377!2030-06-30,1577,366-->
 
@@ -213,7 +213,7 @@ Functors sometimes {@{appear in [functional programming](functional%20programmin
 8. <a id="CITEREFHazewinkelGubareniGubareniKirichenko2004"></a> [Hazewinkel, Michiel](Michiel%20Hazewinkel.md); [Gubareni, Nadezhda Mikhaĭlovna](Nadezhda%20Mikhaĭlovna.md); [Gubareni, Nadiya](Nadiya%20Gubareni.md); [Kirichenko, Vladimir V.](Vladimir%20V.%20Kirichenko.md) \(2004\), _Algebras, rings and modules_, Springer, [ISBN](ISBN%20(identifier).md) [978-1-4020-2690-4](https://en.wikipedia.org/wiki/Special:BookSources/978-1-4020-2690-4) <a id="^ref-8"></a>^ref-8
 9. [Jacobson \(2009\)](#CITEREFJacobson2009), p. 20, ex. 2. <a id="^ref-9"></a>^ref-9
 10. It's {@{not entirely clear that Haskell datatypes truly form a category}@}. See [https://wiki.haskell.org/Hask](https://wiki.haskell.org/Hask) for more details. <a id="^ref-10"></a>^ref-10
-11. See [https://wiki.haskell.org/Category\_theory/Functor\#Functors\_in\_Haskell](https://wiki.haskell.org/Category_theory/Functor#Functors_in_Haskell) for more information. <a id="^ref-11"></a>^ref-11 <!--SR:!2026-05-22,396,367-->
+11. See [https://wiki.haskell.org/Category\_theory/Functor\#Functors\_in\_Haskell](https://wiki.haskell.org/Category_theory/Functor#Functors_in_Haskell) for more information. <a id="^ref-11"></a>^ref-11 <!--SR:!2031-11-10,1992,387-->
 
 ## references
 

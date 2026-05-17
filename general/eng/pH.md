@@ -18,13 +18,13 @@ It is defined as {@{the negative [logarithm](logarithmic%20scale.md) of the [act
 >
 > where {@{\[H<sup>+</sup>(aq)\] is the [equilibrium](equilibrium%20chemistry.md) [molar concentration](molar%20concentration.md) of H<sup>+</sup>}@}. <!--SR:!2027-03-27,1019,310!2027-06-05,997,352-->
 
-Solutions where {@{\[H<sup>+</sup>(aq)\] equals \[OH<sup>-</sup>(aq)\] are neutral}@}, {@{the former is greater than the latter are [acidic](acid.md)}@}, and {@{the former is lesser than the latter are [basic](base%20(chemistry).md)}@}. At {@{25 °C (77 °F), pH 7}@} is neutral. <!--SR:!2033-03-02,2587,330!2027-03-26,791,250!2026-05-30,91,360!2026-05-22,84,360-->
+Solutions where {@{\[H<sup>+</sup>(aq)\] equals \[OH<sup>-</sup>(aq)\] are neutral}@}, {@{the former is greater than the latter are [acidic](acid.md)}@}, and {@{the former is lesser than the latter are [basic](base%20(chemistry).md)}@}. At {@{25 °C (77 °F), pH 7}@} is neutral. <!--SR:!2033-03-02,2587,330!2027-03-26,791,250!2027-08-26,453,380!2027-07-11,410,380-->
 
 ## measurement
 
 - see: [pH indicator](pH%20indicator.md)
 
-{@{pH indicators}@} are used to {@{measure pH by measuring their color}@}. {@{A [universal indicator](universal%20indicator.md)}@} contains {@{several indicators}@} such that {@{its color changes continuously from about pH 2 to pH 10}@}. It can be {@{impregnated onto a paper to make pH papers}@}. For {@{higher accuracy}@}, {@{a [pH meter](pH%20meter.md)}@} can be used instead. <!--SR:!2028-11-25,1573,330!2026-06-03,256,210!2028-03-25,1417,350!2027-01-22,383,362!2027-01-20,381,362!2027-01-21,382,362!2027-01-30,391,362!2027-01-29,390,362-->
+{@{pH indicators}@} are used to {@{measure pH by measuring their color}@}. {@{A [universal indicator](universal%20indicator.md)}@} contains {@{several indicators}@} such that {@{its color changes continuously from about pH 2 to pH 10}@}. It can be {@{impregnated onto a paper to make pH papers}@}. For {@{higher accuracy}@}, {@{a [pH meter](pH%20meter.md)}@} can be used instead. <!--SR:!2028-11-25,1573,330!2028-07-07,765,230!2028-03-25,1417,350!2027-01-22,383,362!2027-01-20,381,362!2027-01-21,382,362!2027-01-30,391,362!2027-01-29,390,362-->
 
 ## references
 

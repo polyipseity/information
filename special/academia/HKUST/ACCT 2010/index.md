@@ -174,7 +174,7 @@ The content is in teaching order.
 - [income statement](../../../../general/income%20statement.md)
   - [ACCT 2010/income statement](income%20statement.md)
   - [net income](../../../../general/net%20income.md)
-  - [earnings per share](../../../../general/earnings%20per%20share.md) ::@:: $$\frac {\text{net income} - \text{preferred dividends} } {\text{(time-)weighted average outstanding common shares} }$$ <!--SR:!2026-08-28,505,396!2026-05-18,398,383-->
+  - [earnings per share](../../../../general/earnings%20per%20share.md) ::@:: $$\frac {\text{net income} - \text{preferred dividends} } {\text{(time-)weighted average outstanding common shares} }$$ <!--SR:!2026-08-28,505,396!2032-02-12,2085,403-->
   - [cash basis accounting](../../../../general/cash%20method%20of%20accounting) ::@:: Receiving cash or cash equivalents is revenue. Paying cash or cash equivalents is expense. There are no concepts of accruals, deferrals, etc. <p> Usually not used because it presents a distorted and misleading picture. Not relevant for external decision makers. _Not permissible_ under GAAP. <!--SR:!2026-09-19,526,403!2027-07-22,736,363-->
   - [accrual accounting](../../../../general/basis%20of%20accounting.md#accrual%20basis) ::@:: Performing the work for others to earn (earning) is revenue. Having others perform the work (incurring) is expense. When the cash or cash equivalent is received or paid is irrelevant. <p> It is relevant to external decision makers. _Required_ under GAAP. <!--SR:!2026-09-29,534,403!2026-09-21,527,403-->
   - [revenue recognition](../../../../general/revenue%20recognition.md) ::@:: It states that revenues are earned and recognized when they are realized or realizable, no matter when cash is received. <p> Note that it does not say anything about expenses. This requires the _matching principle_. <!--SR:!2026-08-29,508,403!2028-09-06,1087,383-->
@@ -333,11 +333,11 @@ The content is in teaching order.
     - high: 58
 - report
   - What should you do if you firmly believe that your marks should not be that low? ::@:: Check your paper! The TA forgot to add the 8 marks in the last page... This is why one should paper checking. <!--SR:!2032-07-29,2282,409!2026-06-24,475,389-->
-  - word formulas ::@:: The original word formulas are required to be written as well before substituting numbers onto it. <!--SR:!2026-06-10,457,391!2026-06-04,452,391-->
+  - word formulas ::@:: The original word formulas are required to be written as well before substituting numbers onto it. <!--SR:!2026-06-10,457,391!2033-01-13,2415,411-->
   - Need to recheck the textbook when will a recording mistake of transaction be found...
     - transaction analysis & mistake finding (-1, MCQ) ::@:: In non-electronic transaction analysis, errors are unlikely to be found during the recording of a transaction. The first likely opportunity is preparation of the trial balance. We only consider this case in this course. <p> In electronic transaction analysis, errors are much more likely to be found during recording of a transaction. <!--SR:!2029-04-29,1305,389!2030-09-08,1699,389-->
   - Forgot, something related to accrued expense, insurance, insurance premium...
-    - insurance premium (-1, MCQ) ::@:: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you! <!--SR:!2026-05-20,447,389!2030-05-13,1583,389-->
+    - insurance premium (-1, MCQ) ::@:: Insurance premium is a cost that you pay for the insurance, not a benefit that the insurance gives you! <!--SR:!2031-03-01,1737,389!2030-05-13,1583,389-->
   - Need to remember 5 reasons why a financial analyst uses the quick ratio... (-2, LQ)
 - check
   - note: Send an email to TA by yourself to appoint a timing.

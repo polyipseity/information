@@ -45,7 +45,7 @@ return await memorize_table(
 
 <!--pytextgen generate section="2939"--><!-- The following content is generated at 2024-01-04T20:17:52.393394+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←availability <!--SR:!2026-06-04,867,332!2027-04-29,1152,352-->
+- _(begin)_→::@::←availability <!--SR:!2037-04-14,3967,352!2027-04-29,1152,352-->
 - availability→::@::←formation of [by-products](by-product.md) <!--SR:!2026-11-24,577,292!2027-02-27,1022,332-->
 - formation of [by-products](by-product.md)→::@::←number of steps <!--SR:!2028-02-06,977,292!2027-01-07,746,332-->
 - number of steps→::@::←[reaction rate](reaction%20rate.md) <!--SR:!2031-12-06,2115,332!2027-12-25,839,292-->
