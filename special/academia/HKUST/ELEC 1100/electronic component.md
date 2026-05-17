@@ -114,7 +114,7 @@ Resistance describes how strongly a material opposes the flow of current. For a 
 Flashcards for this section are as follows:
 
 - resistance definition ::@:: Resistance is a measure of the difficulty in passing current through a substance. <!--SR:!2026-07-29,91,363!2026-07-03,86,363-->
-- unit of resistance ::@:: The unit of resistance is the ohm ($\Omega$), symbol $R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-24,78,363!2026-07-31,93,363-->
+- unit of resistance ::@:: The unit of resistance is the ohm ($\Omega$), symbol $R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-03-29T00:00:00.000Z,278,277.83253638,1.25646587,2,7,0,0,2026-06-24T00:00:00.000Z!2026-07-30,93,363-->
 - resistivity formula ::@:: $R = \rho\frac{L}{A}$ for a wire of length $L$ and area $A$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-29,91,363!2026-07-29,91,363-->
 - resistivity depends on material ::@:: The resistivity ρ in the resistance formula depends on the material of the conductor; different materials have different resistivities. <!--SR:!2026-07-04,87,363!2026-06-29,83,363-->
 - ideal wire ::@:: An ideal wire is treated as a perfect conductor and therefore has no resistance. <!--SR:!2026-07-04,87,363!2026-06-29,83,363-->

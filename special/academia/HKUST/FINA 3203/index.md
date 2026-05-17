@@ -62,7 +62,7 @@ The content is in teaching order.
     - derivative / examples / call option ::@:: A CEO is compensated with firm shares that cannot be easily sold to motivate the CEO. But this may make the CEO not take profitable but _risky_ projects. Adding _call options_ to the firm shares allow the CEO to _earn more_ if a risky project succeeds, and _lose less_ if it fails. <!--SR:!2026-08-23,268,330!2026-08-09,259,330-->
   - derivative / returns relation ::@:: Investing in a stock \(_long position_\) is assumed to have _linear_ returns. Shorting a stock \(_short position_\) is assumed to also have linear returns but in the _opposite direction_ \(negate the slope\). <p> Derivatives generally have _nonlinear_ returns. This may allow better matching to _risk aversion_, which models the utility function as nonlinear. <!--SR:!2026-07-09,234,330!2028-09-03,824,330-->
   - derivative / history ::@:: Even in ancient times \(e.g. BC\), people already have this concept... <!--SR:!2026-09-16,288,330!2026-08-19,267,330-->
-  - derivative / popularity ::@:: Most sectors use derivatives, forex \(foreign exchange\), and interest rate. Only some sectors use commodity, credit, and equity. <!--SR:!2026-06-24,205,310!2026-09-14,286,330-->
+  - derivative / popularity ::@:: Most sectors use derivatives, forex \(foreign exchange\), and interest rate. Only some sectors use commodity, credit, and equity. <!--SR:!fsrs,2028-11-08T00:00:00.000Z,868,867.73563853,1,2,9,0,0,2026-06-24T00:00:00.000Z!2026-09-14,286,330-->
 
 ## week 1 lecture 2
 

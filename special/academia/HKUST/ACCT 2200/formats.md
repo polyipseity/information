@@ -299,7 +299,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
   - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total <!--SR:!2026-07-20,363,310!2027-10-16,677,330-->
   - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit <!--SR:!2030-11-09,1621,370!2031-01-09,1682,370-->
   - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total <!--SR:!2026-10-11,432,310!2029-02-15,1098,350-->
-- production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2026-06-27,376,362!2026-06-24,373,362-->
+- production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4 <!--SR:!2026-06-26,376,362!fsrs,2031-03-27T00:00:00.000Z,1737,1736.88579623,1,2,10,0,0,2026-06-24T00:00:00.000Z-->
   - production report \(first-in, first-out\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\) <!--SR:!2029-03-01,1122,350!2028-10-30,957,330-->
   - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3. <!--SR:!2031-03-11,1743,382!2026-07-25,397,362-->
 

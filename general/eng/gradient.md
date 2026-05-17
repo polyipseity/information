@@ -9,7 +9,7 @@ tags:
 
 # gradient
 
-- This article is about {@{a generalized derivative of a multivariate function}@}. For {@{another use in mathematics}@}, see {@{[Slope](slope.md)}@}. For {@{a similarly spelled unit of angle}@}, see {@{[Gradian](gradian.md)}@}. For other uses, see [Gradient \(disambiguation\)](gradient%20(disambiguation).md). <!--SR:!2026-07-11,288,330!2026-06-24,275,330!2026-06-25,276,330!fsrs,2029-07-30T16:17:26.844Z,1149,1149.27403969,1,2,9,0,0,2026-06-07T16:17:26.844Z!2026-07-08,286,330-->
+- This article is about {@{a generalized derivative of a multivariate function}@}. For {@{another use in mathematics}@}, see {@{[Slope](slope.md)}@}. For {@{a similarly spelled unit of angle}@}, see {@{[Gradian](gradian.md)}@}. For other uses, see [Gradient \(disambiguation\)](gradient%20(disambiguation).md). <!--SR:!2026-07-11,288,330!fsrs,2029-10-09T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-06-24T00:00:00.000Z!2026-06-25,276,330!fsrs,2029-07-30T16:17:26.844Z,1149,1149.27403969,1,2,9,0,0,2026-06-07T16:17:26.844Z!2026-07-08,286,330-->
 
 <!-- | ![](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This article __needs additional citations for [verification](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this article](https://en.wikipedia.org/wiki/Special:EditPage/Gradient) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and removed._Find sources:_ ["Gradient"](https://www.google.com/search?as_eq=wikipedia&q=%22Gradient%22) – [news](https://www.google.com/search?tbm=nws&q=%22Gradient%22+-wikipedia&tbs=ar:1) __·__ [newspapers](https://www.google.com/search?&q=%22Gradient%22&tbs=bkt:s&tbm=bks) __·__ [books](https://www.google.com/search?tbs=bks:1&q=%22Gradient%22+-wikipedia) __·__ [scholar](https://scholar.google.com/scholar?q=%22Gradient%22) __·__ [JSTOR](https://www.jstor.org/action/doBasicSearch?Query=%22Gradient%22&acc=on&wc=on) _\(January 2018\)__\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ | -->
 
@@ -60,7 +60,7 @@ More generally, if {@{the hill height function _H_ is [differentiable](different
 
 {@{The gradient of a function $f$ at point $a$}@} is usually written as {@{$\nabla f(a)$}@}. It may also be denoted by any of the following: <!--SR:!2026-08-28,329,349!fsrs,2029-07-19T10:45:38.209Z,1140,1139.79197949,1,2,9,0,0,2026-06-05T10:45:38.209Z-->
 
-- ${\vec {\nabla } }f(a)$ : ::@:: to emphasize the vector nature of the result. <!--SR:!2026-06-24,275,330!2026-06-28,278,330-->
+- ${\vec {\nabla } }f(a)$ : ::@:: to emphasize the vector nature of the result. <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-06-24T00:00:00.000Z!2026-06-28,278,330-->
 - \(annotation: text\) ::@:: $$\operatorname {grad} f$$ <!--SR:!2026-09-04,336,349!fsrs,2029-07-21T11:04:39.306Z,1142,1141.61620684,1,2,9,0,0,2026-06-05T11:04:39.306Z-->
 - $\partial _{i}f$ and $f_{i}$ : ::@:: Written with [Einstein notation](Einstein%20notation.md), where repeated indices \(i\) are summed over. <!--SR:!2026-09-01,334,349!2026-09-16,346,349-->
 
@@ -164,7 +164,7 @@ Similarly, {@{an [affine algebraic hypersurface](affine%20algebraic%20variety.md
 
 ### gradient is direction of steepest ascent
 
-{@{The gradient of a function $f\colon \mathbb {R} ^{n}\to \mathbb {R}$ at point _x_}@} is also {@{the direction of its steepest ascent}@}, i.e. it {@{maximizes its [directional derivative](directional%20derivative.md)}@}: <!--SR:!2026-07-15,292,330!fsrs,2029-10-04T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-06-23T00:00:00.000Z!2026-06-24,275,330-->
+{@{The gradient of a function $f\colon \mathbb {R} ^{n}\to \mathbb {R}$ at point _x_}@} is also {@{the direction of its steepest ascent}@}, i.e. it {@{maximizes its [directional derivative](directional%20derivative.md)}@}: <!--SR:!2026-07-15,292,330!fsrs,2029-10-04T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-06-23T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-06-24T00:00:00.000Z-->
 
 Let {@{$v\in \mathbb {R} ^{n}$ be an arbitrary unit vector}@}. With {@{the directional derivative}@} defined as {@{$$\nabla _{v}f(x)=\lim _{h\rightarrow 0}{\frac {f(x+vh)-f(x)}{h} },$$}@} we get, by {@{substituting the function $f(x+vh)$ with its [Taylor series](Taylor%20series.md)}@}, {@{$$\nabla _{v}f(x)=\lim _{h\rightarrow 0}{\frac {(f(x)+\nabla f\cdot vh+R)-f(x)}{h} },$$}@} where {@{$R$ denotes higher order terms in $vh$}@}. <!--SR:!2026-09-21,350,349!fsrs,2029-07-19T11:15:01.321Z,1140,1139.79197949,1,2,9,0,0,2026-06-05T11:15:01.321Z!2026-07-16,293,330!2028-09-19,875,330!2029-05-02,1087,350!2029-04-16,1074,350-->
 

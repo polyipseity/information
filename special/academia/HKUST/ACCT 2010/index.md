@@ -247,7 +247,7 @@ The content is in teaching order.
     - [accounts receivable](../../../../general/accounts%20receivable.md)
     - [notes receivable](../../../../general/notes%20receivable.md) ::@:: It represents claims for which formal instruments of credit are issued as evidence of debt, such as a promissory note. <!--SR:!2028-06-14,1005,376!2026-08-14,494,403-->
   - trade receivable vs. non-trade receivable ::@:: The former is connected to normal course of business for credit sale of merchandise or services. The latter is connected to other than normal sale of merchandise or services. <!--SR:!2026-08-05,488,403!2031-10-19,2020,403-->
-  - current receivable vs. non-current receivable ::@:: It depends on when the cash is expected to be collected. Current usually means within 1 year. <!--SR:!2026-06-24,453,396!2026-10-09,542,403-->
+  - current receivable vs. non-current receivable ::@:: It depends on when the cash is expected to be collected. Current usually means within 1 year. <!--SR:!fsrs,2032-03-30T00:00:00.000Z,2106,2105.68415047,1,2,10,0,0,2026-06-24T00:00:00.000Z!2026-10-08,542,403-->
 - [bad debt](../../../../general/bad%20debt.md) ::@:: It is a monetary amount owed to a creditor that is unlikely to be paid and for which the creditor is not willing to take action to collect for various reasons. <!--SR:!2026-08-29,506,396!2030-04-19,1580,403-->
   - [bad debt](../../../../general/bad%20debt.md) / accounting ::@:: There are two methods: direct write off method (non-GAAP) and allowance method (GAAP). <!--SR:!2026-06-29,457,396!2026-09-25,530,403-->
   - [bad debt](../../../../general/bad%20debt.md) / allowance method ::@:: At year-end adjustments, bad debts are _estimated_, and then a transaction credits a contra-asset called "Allowance for doubtful accounts" and debits a expense called "Bad debt expense". <p> When bad debts are known throughout the year, they are debited from "Accounts receivable" and credited to the contra-asset mentioned above. If a bad debt is later unexpectedly recovered, the reverse happens. <!--SR:!2027-08-07,746,363!2027-02-15,603,356-->
@@ -332,7 +332,7 @@ The content is in teaching order.
     - upper quartile: 44
     - high: 58
 - report
-  - What should you do if you firmly believe that your marks should not be that low? ::@:: Check your paper! The TA forgot to add the 8 marks in the last page... This is why one should paper checking. <!--SR:!2032-07-29,2282,409!2026-06-24,475,389-->
+  - What should you do if you firmly believe that your marks should not be that low? ::@:: Check your paper! The TA forgot to add the 8 marks in the last page... This is why one should paper checking. <!--SR:!2032-07-28,2282,409!fsrs,2032-06-26T00:00:00.000Z,2194,2194.18434604,1,2,10,0,0,2026-06-24T00:00:00.000Z-->
   - word formulas ::@:: The original word formulas are required to be written as well before substituting numbers onto it. <!--SR:!fsrs,2032-04-15T06:07:50.971Z,2132,2132.17771145,1,2,10,0,0,2026-06-14T06:07:50.971Z!2033-01-13,2415,411-->
   - Need to recheck the textbook when will a recording mistake of transaction be found...
     - transaction analysis & mistake finding (-1, MCQ) ::@:: In non-electronic transaction analysis, errors are unlikely to be found during the recording of a transaction. The first likely opportunity is preparation of the trial balance. We only consider this case in this course. <p> In electronic transaction analysis, errors are much more likely to be found during recording of a transaction. <!--SR:!2029-04-29,1305,389!2030-09-08,1699,389-->

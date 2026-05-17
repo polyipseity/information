@@ -191,7 +191,7 @@ The content is in teaching order.
     - jazz (word) / older spelling ::@:: It used to be called this, but it could be changed to "ass" without the "j". <!--SR:!fsrs,2029-08-18T00:00:00.000Z,1153,1153.10823388,1,2,10,0,0,2026-06-22T00:00:00.000Z!2026-08-03,426,375-->
     - jazz (word) / theories ::@:: an African word that means "speed up", jasmine perfume that prostitutes wore in the red-light district of New Orleans, a word meaning "procreation" <!--SR:!2029-08-26,1322,375!2026-07-15,407,375-->
 - Victrola ::@:: The first recordings on the Victrola came out in 1901. Jazz recording did not come up until 1917. <!--SR:!2029-08-18,1314,375!2028-01-04,832,355-->
-- [Livery Stable Blues](../../../../general/Livery%20Stable%20Blues.md) ::@:: first ever jazz recording by the Original Dixieland Jass Band (all white musicians) in 1917, composed by Nick LaRocca <!--SR:!2026-06-24,386,375!2029-10-06,1350,375-->
+- [Livery Stable Blues](../../../../general/Livery%20Stable%20Blues.md) ::@:: first ever jazz recording by the Original Dixieland Jass Band (all white musicians) in 1917, composed by Nick LaRocca <!--SR:!fsrs,2031-07-01T00:00:00.000Z,1833,1832.69863991,1,2,10,0,0,2026-06-24T00:00:00.000Z!2029-10-05,1350,375-->
 - assignment \(attendance\): [Sydney Bechet](questions/index.md#Sydney%20Bechet)
 
 ## week 3 lecture

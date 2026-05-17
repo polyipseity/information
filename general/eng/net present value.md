@@ -58,7 +58,7 @@ where:
 
 ## capital efficiency
 
-The NPV method can be {@{slightly adjusted to calculate how much money is contributed to a project's investment per dollar invested}@}. This is known as {@{the capital efficiency ratio}@}. {@{The formula for the net present value per dollar investment \(NPVI\)}@} is given below: {@{$$\mathrm {NPVI} (i,N)={\frac {\sum _{t=1}^{N}{\frac {R_{t} }{(1+i)^{t} } } }{\sum _{t=1}^{N}{\frac {C_{t} }{(1+i)^{t} } } } }$$}@} where: <!--SR:!2026-06-24,387,365!2029-03-26,1164,350!2026-07-07,400,365!2029-10-07,1328,365-->
+The NPV method can be {@{slightly adjusted to calculate how much money is contributed to a project's investment per dollar invested}@}. This is known as {@{the capital efficiency ratio}@}. {@{The formula for the net present value per dollar investment \(NPVI\)}@} is given below: {@{$$\mathrm {NPVI} (i,N)={\frac {\sum _{t=1}^{N}{\frac {R_{t} }{(1+i)^{t} } } }{\sum _{t=1}^{N}{\frac {C_{t} }{(1+i)^{t} } } } }$$}@} where: <!--SR:!fsrs,2031-06-08T00:00:00.000Z,1810,1809.63053704,1,2,10,0,0,2026-06-24T00:00:00.000Z!2029-03-26,1164,350!2026-07-07,400,365!2029-10-07,1328,365-->
 
 - $R_{t}$ <!-- flashcard ID: 6db1aa57-6f77-48d3-a995-9699c9b82171 -->::@:: is the net cash flow i.e. cash inflow – cash outflow, at time _t_. <!--SR:!2026-07-17,408,374!2026-08-10,424,374-->
 - $C_{t}$ ::@:: are the net cash outflows, at time _t_. <!--SR:!fsrs,2031-04-30T00:00:00.000Z,1773,1773.02232102,1,2,10,0,0,2026-06-22T00:00:00.000Z!2026-07-06,399,365-->
@@ -209,7 +209,7 @@ A more simple example of {@{the net present value of incoming cash flow over a s
 
 {@{Net present value as a valuation methodology}@} {@{dates at least to the 19th century}@}. {@{[Karl Marx](Karl%20Marx.md)}@} refers to NPV as {@{[fictitious capital](fictitious%20capital.md), and the calculation as "capitalising," writing}@}:<sup>[\[22\]](#^ref-22)</sup> <!--SR:!2029-04-20,1184,350!2026-07-13,405,365!fsrs,2031-04-02T00:55:54.870Z,1761,1760.85259772,1,2,10,0,0,2026-06-06T00:55:54.870Z!2026-07-12,404,365-->
 
-> {@{The forming of a fictitious capital}@} is called {@{capitalising}@}. {@{Every periodically repeated income}@} is {@{capitalised by calculating it on the average rate of interest}@}, as {@{an income which would be realised by a capital at this rate of interest}@}. <!--SR:!fsrs,2031-02-22T08:12:04.150Z,1721,1721.06753313,1,2,10,0,0,2026-06-07T08:12:04.150Z!2026-06-24,388,359!2028-11-20,1065,350!2028-10-16,1036,350!2026-07-07,399,365-->
+> {@{The forming of a fictitious capital}@} is called {@{capitalising}@}. {@{Every periodically repeated income}@} is {@{capitalised by calculating it on the average rate of interest}@}, as {@{an income which would be realised by a capital at this rate of interest}@}. <!--SR:!fsrs,2031-02-22T08:12:04.150Z,1721,1721.06753313,1,2,10,0,0,2026-06-07T08:12:04.150Z!fsrs,2031-05-10T00:00:00.000Z,1781,1780.99578064,1,2,10,0,0,2026-06-24T00:00:00.000Z!2028-11-20,1065,350!2028-10-16,1036,350!2026-07-07,399,365-->
 
 In {@{[mainstream](mainstream%20economics.md) [neo-classical economics](neo-classical%20economics.md)}@}, NPV was formalized and popularized by {@{[Irving Fisher](Irving%20Fisher.md), in his 1907 _The Rate of Interest_}@} and became {@{included in textbooks from the 1950s onwards, starting in finance texts}@}.<sup>[\[23\]](#^ref-23)</sup><sup>[\[24\]](#^ref-24)</sup> <!--SR:!2030-08-02,1553,369!2029-10-16,1318,359!fsrs,2031-02-14T00:55:48.527Z,1714,1714.19507386,1,2,10,0,0,2026-06-06T00:55:48.527Z-->
 

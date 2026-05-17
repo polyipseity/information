@@ -443,7 +443,7 @@ tags:
 > 3. all of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{1 affects expense "Cost of goods sold". 2 is not directly considered when preparing the income statement: without 1, it alone does nothing.}@} <!--SR:!2026-06-24,448,381!2032-08-08,2257,401-->
+> - explanation: {@{1 affects expense "Cost of goods sold". 2 is not directly considered when preparing the income statement: without 1, it alone does nothing.}@} <!--SR:!fsrs,2032-03-09T00:00:00.000Z,2085,2085.49635471,1,2,10,0,0,2026-06-24T00:00:00.000Z!2032-08-07,2257,401-->
 
 <!-- markdownlint MD028 -->
 
@@ -697,7 +697,7 @@ tags:
 > 3. Dr. Dividend (R/E); Cr. Common Stock
 >
 > - solution: {@{1}@}
-> - explanation: {@{Dividends are not expenses, by the definition of expense.}@} <!--SR:!2030-06-04,1575,381!2026-06-24,448,381-->
+> - explanation: {@{Dividends are not expenses, by the definition of expense.}@} <!--SR:!2030-06-03,1575,381!fsrs,2032-03-09T00:00:00.000Z,2085,2085.49635471,1,2,10,0,0,2026-06-24T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

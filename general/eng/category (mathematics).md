@@ -171,7 +171,7 @@ A [morphism](morphism.md) {@{_f_ : _a_ → _b_}@} is called <!--SR:!2029-04-17,1
 
 {@{Every retraction is an epimorphism (annotation: $h_1 \circ f = h_2 \circ f \implies h_1 \circ (f \circ g) = h_2 \circ (f \circ g) \implies h_1 = h_2$)}@}. {@{Every section is a monomorphism (annotation: $f \circ h_1 = f \circ h_2 \implies (g \circ f) \circ h_1 = (g \circ f) \circ h_2 \implies h_1 = h_2$)}@}. The following three statements are equivalent: (annotation: the statements are equivalent to {@{isomorphism}@}) <!--SR:!2027-01-22,522,310!2028-02-05,849,330!2029-06-13,1256,350-->
 
-- (annotation: isomorphism & retraction) ::@:: _f_ is a monomorphism and a retraction; (annotation: we just need to additionally prove that $g \circ f = 1_a$: $f \circ g = 1_b \implies f \circ (g \circ f) = f \circ 1_a \implies g \circ f = 1_a$) <!--SR:!2026-06-24,398,310!2030-01-23,1362,310-->
+- (annotation: isomorphism & retraction) ::@:: _f_ is a monomorphism and a retraction; (annotation: we just need to additionally prove that $g \circ f = 1_a$: $f \circ g = 1_b \implies f \circ (g \circ f) = f \circ 1_a \implies g \circ f = 1_a$) <!--SR:!fsrs,2030-09-19T00:00:00.000Z,1548,1548.10182333,1,2,10,0,0,2026-06-24T00:00:00.000Z!2030-01-23,1362,310-->
 - (annotation: isomorphism & section) ::@:: _f_ is an epimorphism and a section; (annotation: we just need to additionally prove that $f \circ g = 1_b$: $g \circ f = 1_a \implies (f \circ g) \circ f = 1_b \circ f \implies f \circ g = 1_b$) <!--SR:!2028-09-20,971,330!2026-12-03,487,310-->
 - (annotation: isomorphism) ::@:: _f_ is an isomorphism. <!--SR:!2029-06-07,1250,350!2028-11-28,1107,350-->
 

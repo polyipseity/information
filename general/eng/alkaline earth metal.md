@@ -55,7 +55,7 @@ return await memorize_map(
 
 <!--pytextgen generate section="1d5e"--><!-- The following content is generated at 2024-01-04T20:17:51.324357+08:00. Any edits will be overridden! -->
 
-- [beryllium](beryllium.md):@:no reaction with water or steam <!--SR:!2026-06-24,307,170-->
+- [beryllium](beryllium.md):@:no reaction with water or steam <!--SR:!fsrs,2028-02-20T00:00:00.000Z,606,605.98094735,7.98399827,2,9,0,0,2026-06-24T00:00:00.000Z-->
 - [magnesium](magnesium.md):@:reacts with steam to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas <!--SR:!2027-05-17,489,190-->
 - [calcium](calcium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2031-10-14,1974,270-->
 - [strontium](strontium.md):@:reacts with cold water to form [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md) gas; more vigorous than elements above <!--SR:!2030-08-29,1635,250-->

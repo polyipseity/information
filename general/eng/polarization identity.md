@@ -103,7 +103,7 @@ If {@{$A:H\to Z$ is instead an [antilinear](antilinear%20map.md) isometry}@} the
 
 This is {@{essentially a vector form of the [law of cosines](law%20of%20cosines.md)}@} for {@{the [triangle](triangle.md) formed by the vectors ⁠${\textbf {u} }$⁠, ⁠${\textbf {v} }$⁠, and ⁠${\textbf {u} }-{\textbf {v} }$}@}⁠. In particular, {@{$${\textbf {u} }\cdot {\textbf {v} }=\|{\textbf {u} }\|\,\|{\textbf {v} }\|\cos \theta ,$$}@} where {@{$\theta$ is the angle between the vectors ${\textbf {u} }$ and ⁠${\textbf {v} }$}@}⁠. <!--SR:!2028-11-12,1057,350!2029-01-19,1103,350!2029-08-06,1263,350!2029-10-11,1317,350-->
 
-{@{The equation (annotation: $\|{\textbf {u} }-{\textbf {v} }\|^{2}=\|{\textbf {u} }\|^{2}+\|{\textbf {v} }\|^{2}-2({\textbf {u} }\cdot {\textbf {v} })$)}@} is {@{numerically unstable}@} if {@{u and v are similar because of [catastrophic cancellation](catastrophic%20cancellation.md)}@} and should be {@{avoided for numeric computation}@}. <!--SR:!2029-05-24,1200,350!2029-01-23,1107,350!fsrs,2028-04-04T03:24:16.104Z,659,659.04910028,1,2,8,0,0,2026-06-15T03:24:16.104Z!2026-06-24,126,394-->
+{@{The equation (annotation: $\|{\textbf {u} }-{\textbf {v} }\|^{2}=\|{\textbf {u} }\|^{2}+\|{\textbf {v} }\|^{2}-2({\textbf {u} }\cdot {\textbf {v} })$)}@} is {@{numerically unstable}@} if {@{u and v are similar because of [catastrophic cancellation](catastrophic%20cancellation.md)}@} and should be {@{avoided for numeric computation}@}. <!--SR:!2029-05-23,1200,350!2029-01-22,1107,350!fsrs,2028-04-04T03:24:16.104Z,659,659.04910028,1,2,8,0,0,2026-06-15T03:24:16.104Z!fsrs,2028-05-21T00:00:00.000Z,697,697.23354019,1,2,8,0,0,2026-06-24T00:00:00.000Z-->
 
 ### derivation
 

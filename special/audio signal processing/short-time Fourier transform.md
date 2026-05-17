@@ -47,7 +47,7 @@ There are {@{many factors}@} affecting the result of STFT: {@{window function, w
 
 ## inverse STFT
 
-The STFT is {@{invertible}@}, that is, the original signal can be {@{recovered from the transform by the inverse STFT}@}. <!--SR:!2026-06-24,277,330!2029-06-09,1119,350-->
+The STFT is {@{invertible}@}, that is, the original signal can be {@{recovered from the transform by the inverse STFT}@}. <!--SR:!fsrs,2029-10-16T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-06-24T00:00:00.000Z!2029-06-09,1119,350-->
 
 Remember that STFT is {@{simply applying DFT to the time signal weighted by a analysis window for each hop}@}. So you can simply {@{use the IDFT to get the windowed time signal for each hop}@}, and then {@{add the windowed time signals together from all hops}@}. The resulting time signal is {@{the original time signal modulated by the total weights in time \(adding the shifted window functions together\)}@}. \(If {@{the hop size is set ideally}@}, {@{the total weight should sum up to 1 for all time}@}.\) The above steps are usually implemented using {@{_overlap–add method_}@}. The overlapping is determined by {@{the window size minus the hop size}@}. <!--SR:!2029-04-19,1081,350!fsrs,2029-07-29T05:23:28.031Z,1149,1148.89604352,1,2,9,0,0,2026-06-06T05:23:28.031Z!2029-05-30,1111,350!2029-05-22,1105,350!2029-04-30,1085,350!2029-05-29,1110,350!2029-05-12,1097,350!fsrs,2029-07-30T05:21:56.429Z,1150,1150.33930012,1,2,9,0,0,2026-06-06T05:21:56.429Z-->
 

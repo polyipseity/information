@@ -294,7 +294,7 @@ Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{t
 
 ## application to shortest path finding
 
-{@{The topological ordering}@} can also be used to {@{quickly compute [shortest paths](shortest%20path%20problem.md) through a [weighted](glossary%20of%20graph%20theory.md#weighted%20graph) directed acyclic graph}@}. Let {@{_V_ be the list of vertices in such a graph, in topological order}@}. Then the following algorithm computes {@{the shortest path from some source vertex _s_ to all other vertices}@}:<sup>[\[3\]](#^ref-3)</sup> (annotation: 2 items: {@{outgoing edge variant, incoming edge variant}@}) <!--SR:!fsrs,2032-03-08T08:42:01.947Z,2095,2094.73868484,1,2,10,0,0,2026-06-13T08:42:01.947Z!2029-03-10,1149,359!2026-06-24,460,379!2030-02-13,1421,371!2026-10-28,152,431-->
+{@{The topological ordering}@} can also be used to {@{quickly compute [shortest paths](shortest%20path%20problem.md) through a [weighted](glossary%20of%20graph%20theory.md#weighted%20graph) directed acyclic graph}@}. Let {@{_V_ be the list of vertices in such a graph, in topological order}@}. Then the following algorithm computes {@{the shortest path from some source vertex _s_ to all other vertices}@}:<sup>[\[3\]](#^ref-3)</sup> (annotation: 2 items: {@{outgoing edge variant, incoming edge variant}@}) <!--SR:!fsrs,2032-03-08T08:42:01.947Z,2095,2094.73868484,1,2,10,0,0,2026-06-13T08:42:01.947Z!2029-03-09,1149,359!fsrs,2032-04-27T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-06-24T00:00:00.000Z!2030-02-12,1421,371!2026-10-27,152,431-->
 
 > __outgoing edge variant__
 >
