@@ -38,7 +38,7 @@ In {@{modern presentations of [Euclidean geometry](Euclidean%20geometry.md)}@}, 
 
 If {@{vectors are identified with [column vectors](column%20matrix.md)}@}, the dot product can {@{also be written as a [matrix product](matrix%20multiplication.md)}@} {@{$$\mathbf {a} \cdot \mathbf {b} =\mathbf {a} ^{\mathsf {T} }\mathbf {b} ,$$ where $\mathbf {a} {^{\mathsf {T} } }$ denotes the [transpose](transpose.md) of $\mathbf {a}$}@}. <!--SR:!2026-09-06,452,383!2026-08-31,447,383!2026-09-19,463,383-->
 
-{@{Expressing the above example}@} in this way, {@{a 1 × 3 matrix \([row vector](row%20vector.md)\) is multiplied by a 3 × 1 matrix \([column vector](column%20vector.md)\)}@} to {@{get a 1 × 1 matrix that is identified with its unique entry}@}: {@{$${\begin{bmatrix}1&3&-5\end{bmatrix} }{\begin{bmatrix}4\\-2\\-1\end{bmatrix} }=3\,.$$}@} <!--SR:!2026-07-24,418,383!fsrs,2031-10-19T00:00:00.000Z,1923,1922.9461018,1,2,10,0,0,2026-07-14T00:00:00.000Z!2026-09-14,458,383!fsrs,2031-11-30T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-07-23T00:00:00.000Z-->
+{@{Expressing the above example}@} in this way, {@{a 1 × 3 matrix \([row vector](row%20vector.md)\) is multiplied by a 3 × 1 matrix \([column vector](column%20vector.md)\)}@} to {@{get a 1 × 1 matrix that is identified with its unique entry}@}: {@{$${\begin{bmatrix}1&3&-5\end{bmatrix} }{\begin{bmatrix}4\\-2\\-1\end{bmatrix} }=3\,.$$}@} <!--SR:!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z!fsrs,2031-10-19T00:00:00.000Z,1923,1922.9461018,1,2,10,0,0,2026-07-14T00:00:00.000Z!2026-09-14,458,383!fsrs,2031-11-30T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-07-23T00:00:00.000Z-->
 
 ### geometric definition
 
@@ -76,13 +76,13 @@ The dot product is thus {@{characterized geometrically by<sup>[\[5\]](#^ref-5)</
 
 ### equivalence of the definitions
 
-If {@{$\mathbf {e} _{1},\cdots ,\mathbf {e} _{n}$ are the [standard basis vectors](standard%20basis.md) in $\mathbf {R} ^{n}$}@}, then we may write {@{$${\begin{aligned}\mathbf {a} &=[a_{1},\dots ,a_{n}]=\sum _{i}a_{i}\mathbf {e} _{i}\\\mathbf {b} &=[b_{1},\dots ,b_{n}]=\sum _{i}b_{i}\mathbf {e} _{i}.\end{aligned} }$$}@} {@{The vectors $\mathbf {e} _{i}$ }@}are {@{an [orthonormal basis](orthonormal%20basis.md), which means that they have unit length and are at right angles to each other}@}. Since {@{these vectors have unit length}@}, {@{$$\mathbf {e} _{i}\cdot \mathbf {e} _{i}=1$$}@} and since {@{they form right angles with each other}@}, {@{if $i\neq j$, $$\mathbf {e} _{i}\cdot \mathbf {e} _{j}=0.$$}@} Thus in general, we can say that: {@{$$\mathbf {e} _{i}\cdot \mathbf {e} _{j}=\delta _{ij},$$ where $\delta _{ij}$ is the [Kronecker delta](Kronecker%20delta.md)}@}. <!--SR:!fsrs,2031-11-30T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-07-23T00:00:00.000Z!2026-08-28,443,383!2026-08-10,431,383!2026-08-26,441,383!2026-08-22,437,383!2026-08-29,444,383!2026-07-24,418,383!2026-08-31,446,383!2026-08-05,427,383-->
+If {@{$\mathbf {e} _{1},\cdots ,\mathbf {e} _{n}$ are the [standard basis vectors](standard%20basis.md) in $\mathbf {R} ^{n}$}@}, then we may write {@{$${\begin{aligned}\mathbf {a} &=[a_{1},\dots ,a_{n}]=\sum _{i}a_{i}\mathbf {e} _{i}\\\mathbf {b} &=[b_{1},\dots ,b_{n}]=\sum _{i}b_{i}\mathbf {e} _{i}.\end{aligned} }$$}@} {@{The vectors $\mathbf {e} _{i}$ }@}are {@{an [orthonormal basis](orthonormal%20basis.md), which means that they have unit length and are at right angles to each other}@}. Since {@{these vectors have unit length}@}, {@{$$\mathbf {e} _{i}\cdot \mathbf {e} _{i}=1$$}@} and since {@{they form right angles with each other}@}, {@{if $i\neq j$, $$\mathbf {e} _{i}\cdot \mathbf {e} _{j}=0.$$}@} Thus in general, we can say that: {@{$$\mathbf {e} _{i}\cdot \mathbf {e} _{j}=\delta _{ij},$$ where $\delta _{ij}$ is the [Kronecker delta](Kronecker%20delta.md)}@}. <!--SR:!fsrs,2031-11-30T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-07-23T00:00:00.000Z!2026-08-28,443,383!2026-08-10,431,383!2026-08-26,441,383!2026-08-22,437,383!2026-08-29,444,383!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z!2026-08-31,446,383!2026-08-05,427,383-->
 
 > {@{![Vector components in an orthonormal basis](../../archives/Wikimedia%20Commons/Skalarprodukt%20geometrisch.svg)}@}
 >
 > {@{Vector components in an orthonormal basis}@} <!--SR:!fsrs,2031-11-30T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-07-23T00:00:00.000Z!2026-08-25,440,383-->
 
-Also, by {@{the geometric definition}@}, {@{for any vector $\mathbf {e} _{i}$ and a vector $\mathbf {a}$}@}, we note that {@{$$\mathbf {a} \cdot \mathbf {e} _{i}=\left\|\mathbf {a} \right\|\left\|\mathbf {e} _{i}\right\|\cos \theta _{i}=\left\|\mathbf {a} \right\|\cos \theta _{i}=a_{i},$$}@} where {@{$a_{i}$ is the component of vector $\mathbf {a}$ in the direction of $\mathbf {e} _{i}$}@}. {@{The last step in the equality}@} can be seen from the figure. <!--SR:!2026-07-26,420,383!2026-07-28,420,383!2026-08-31,446,383!2026-09-22,466,383!2026-07-24,418,383-->
+Also, by {@{the geometric definition}@}, {@{for any vector $\mathbf {e} _{i}$ and a vector $\mathbf {a}$}@}, we note that {@{$$\mathbf {a} \cdot \mathbf {e} _{i}=\left\|\mathbf {a} \right\|\left\|\mathbf {e} _{i}\right\|\cos \theta _{i}=\left\|\mathbf {a} \right\|\cos \theta _{i}=a_{i},$$}@} where {@{$a_{i}$ is the component of vector $\mathbf {a}$ in the direction of $\mathbf {e} _{i}$}@}. {@{The last step in the equality}@} can be seen from the figure. <!--SR:!2026-07-26,420,383!2026-07-28,420,383!2026-08-31,446,383!2026-09-22,466,383!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z-->
 
 Now applying {@{the distributivity of the geometric version of the dot product}@} gives {@{$$\mathbf {a} \cdot \mathbf {b} =\mathbf {a} \cdot \sum _{i}b_{i}\mathbf {e} _{i}=\sum _{i}b_{i}(\mathbf {a} \cdot \mathbf {e} _{i})=\sum _{i}b_{i}a_{i}=\sum _{i}a_{i}b_{i},$$}@} which is {@{precisely the algebraic definition of the dot product}@}. So {@{the geometric dot product equals the algebraic dot product}@}. <!--SR:!2026-09-13,459,383!2026-08-23,438,383!2026-09-16,460,383!2026-08-27,442,383-->
 
@@ -104,7 +104,7 @@ __[Orthogonal](orthogonal.md)__ <p> ::@:: &emsp; Two non-zero vectors $\mathbf {
 
 __No [cancellation](cancellation%20law.md)__
 
-&emsp; Unlike {@{multiplication of ordinary numbers}@}, where {@{if $ab=ac$, then $b$ always equals $c$ unless $a$ is zero}@}, {@{the dot product does not obey the [cancellation law](cancellation%20law.md)}@}: <!--SR:!2026-09-11,457,383!2026-07-24,417,383!2026-08-26,441,383-->
+&emsp; Unlike {@{multiplication of ordinary numbers}@}, where {@{if $ab=ac$, then $b$ always equals $c$ unless $a$ is zero}@}, {@{the dot product does not obey the [cancellation law](cancellation%20law.md)}@}: <!--SR:!2026-09-11,457,383!fsrs,2031-12-06T00:00:00.000Z,1960,1959.6876961,1,2,10,0,0,2026-07-25T00:00:00.000Z!2026-08-26,441,383-->
 
 &emsp; If {@{$\mathbf {a} \cdot \mathbf {b} =\mathbf {a} \cdot \mathbf {c}$ and $\mathbf {a} \neq \mathbf {0}$}@}, then {@{we can write: $\mathbf {a} \cdot (\mathbf {b} -\mathbf {c} )=0$ by the [distributive law](distributive%20law.md)}@}; the result above says {@{this just means that $\mathbf {a}$ is perpendicular to $(\mathbf {b} -\mathbf {c} )$}@}, which {@{still allows $(\mathbf {b} -\mathbf {c} )\neq \mathbf {0}$}@}, and therefore {@{allows $\mathbf {b} \neq \mathbf {c}$}@}. <!--SR:!fsrs,2031-12-01T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-07-24T00:00:00.000Z!fsrs,2031-11-09T00:00:00.000Z,1939,1939.28817485,1,2,10,0,0,2026-07-19T00:00:00.000Z!2026-09-21,465,383!2026-08-30,445,383!2026-08-19,439,383-->
 
@@ -137,7 +137,7 @@ In {@{[physics](physics.md)}@}, the dot product {@{takes two vectors and returns
 For example:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup>
 
 - [Mechanical work](mechanical%20work.md) ::@:: is the dot product of [force](force.md) and [displacement](displacement%20(vector).md) vectors, <!--SR:!2030-10-17,1639,383!2026-08-02,424,383-->
-- [Power](power%20(physics).md) ::@:: is the dot product of [force](force.md) and [velocity](velocity.md). <!--SR:!2026-08-05,427,383!2026-07-24,418,383-->
+- [Power](power%20(physics).md) ::@:: is the dot product of [force](force.md) and [velocity](velocity.md). <!--SR:!2026-08-05,427,383!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z-->
 
 ## generalizations
 
@@ -163,7 +163,7 @@ The complex dot product leads to {@{the notions of [Hermitian forms](Hermitian%2
 
 The dot product is defined for {@{vectors that have a finite number of [entries](coordinate%20vector.md)}@}. Thus these vectors can be {@{regarded as [discrete functions](discrete%20function.md)}@}: {@{a length-$n$ vector $u$}@} is, then, {@{a function with [domain](domain%20of%20a%20function.md) $\{k\in \mathbb {N} :1\leq k\leq n\}$}@}, and {@{$u_{i}$ is a notation for the image of $i$ by the function/vector $u$}@}. <!--SR:!2026-08-13,434,383!2026-07-25,419,383!fsrs,2031-11-19T00:00:00.000Z,1947,1947.45162419,1,2,10,0,0,2026-07-21T00:00:00.000Z!2026-08-09,430,383!2026-09-07,453,383-->
 
-This notion can be {@{generalized to [square-integrable functions](square-integrable%20function.md)}@}: just as {@{the inner product on vectors uses a sum over corresponding components}@}, {@{the inner product on functions}@} is defined as {@{an integral over some [measure space](measure%20space.md) $(X,{\mathcal {A} },\mu )$}@}:<sup>[\[2\]](#^ref-2)</sup> {@{$$\left\langle u,v\right\rangle =\int _{X}uv\,{\text{d} }\mu .$$}@} <!--SR:!2026-08-18,438,383!2026-07-24,418,383!fsrs,2031-11-25T00:00:00.000Z,1952,1951.53152462,1,2,10,0,0,2026-07-22T00:00:00.000Z!2026-09-12,458,383!2026-09-17,461,383-->
+This notion can be {@{generalized to [square-integrable functions](square-integrable%20function.md)}@}: just as {@{the inner product on vectors uses a sum over corresponding components}@}, {@{the inner product on functions}@} is defined as {@{an integral over some [measure space](measure%20space.md) $(X,{\mathcal {A} },\mu )$}@}:<sup>[\[2\]](#^ref-2)</sup> {@{$$\left\langle u,v\right\rangle =\int _{X}uv\,{\text{d} }\mu .$$}@} <!--SR:!2026-08-18,438,383!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z!fsrs,2031-11-25T00:00:00.000Z,1952,1951.53152462,1,2,10,0,0,2026-07-22T00:00:00.000Z!2026-09-12,458,383!2026-09-17,461,383-->
 
 For example, if {@{$f$ and $g$ are [continuous functions](continuous%20function.md)}@} over {@{a [compact subset](compact%20space.md) $K$ of $\mathbb {R} ^{n}$ with the standard [Lebesgue measure](Lebesgue%20measure.md)}@}, the above definition becomes: {@{$$\left\langle f,g\right\rangle =\int _{K}f(\mathbf {x} )g(\mathbf {x} )\,\operatorname {d} ^{n}\mathbf {x} .$$}@} <!--SR:!2026-08-22,437,383!fsrs,2031-12-05T00:00:00.000Z,1960,1959.6876961,1,2,10,0,0,2026-07-24T00:00:00.000Z!fsrs,2031-12-05T00:00:00.000Z,1960,1959.6876961,1,2,10,0,0,2026-07-24T00:00:00.000Z-->
 
@@ -171,7 +171,7 @@ Generalized further to {@{[complex continuous functions](complex%20function.md) 
 
 ### weight function
 
-Inner products can {@{have a [weight function](weight%20function.md) \(i.e., a function which weights each term of the inner product with a value\)}@}. Explicitly, {@{the inner product of functions $u(x)$ and $v(x)$ with respect to the weight function $r(x)>0$}@} is {@{$$\left\langle u,v\right\rangle _{r}=\int _{a}^{b}r(x)u(x)v(x)\,dx.$$}@} <!--SR:!2026-07-24,418,383!2026-09-08,454,383!2026-09-19,463,383-->
+Inner products can {@{have a [weight function](weight%20function.md) \(i.e., a function which weights each term of the inner product with a value\)}@}. Explicitly, {@{the inner product of functions $u(x)$ and $v(x)$ with respect to the weight function $r(x)>0$}@} is {@{$$\left\langle u,v\right\rangle _{r}=\int _{a}^{b}r(x)u(x)v(x)\,dx.$$}@} <!--SR:!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z!2026-09-08,454,383!2026-09-19,463,383-->
 
 ### dyadics and matrices
 
@@ -207,7 +207,7 @@ A dot product function is included in:
 - [Cauchy–Schwarz inequality](Cauchy–Schwarz%20inequality.md)
 - [Cross product](cross%20product.md)
 - [Dot product representation of a graph](dot%20product%20representation%20of%20a%20graph.md)
-- [Euclidean norm](Euclidean%20norm.md#Euclidean%20norm), ::@:: the square-root of the self dot product <!--SR:!2026-07-24,418,383!2026-07-24,418,383-->
+- [Euclidean norm](Euclidean%20norm.md#Euclidean%20norm), ::@:: the square-root of the self dot product <!--SR:!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z-->
 - [Matrix multiplication](matrix%20multiplication.md)
 - [Metric tensor](metric%20tensor.md)
 - [Multiplication of vectors](multiplication%20of%20vectors.md)
@@ -215,7 +215,7 @@ A dot product function is included in:
 
 ## notes
 
-1. {@{The term _scalar product_}@} means {@{literally "product with a [scalar](scalar%20(mathematics).md) as a result"}@}. It is also used for {@{other [symmetric bilinear forms](symmetric%20bilinear%20form.md)}@}, for example in {@{a [pseudo-Euclidean space](pseudo-Euclidean%20space.md)}@}. Not to be confused with {@{[scalar multiplication](scalar%20multiplication.md)}@}. <a id="^ref-note-1"></a>^ref-note-1 <!--SR:!2026-07-26,420,383!2026-09-03,449,383!2026-07-24,418,383!2026-09-01,447,383!2026-07-26,420,383-->
+1. {@{The term _scalar product_}@} means {@{literally "product with a [scalar](scalar%20(mathematics).md) as a result"}@}. It is also used for {@{other [symmetric bilinear forms](symmetric%20bilinear%20form.md)}@}, for example in {@{a [pseudo-Euclidean space](pseudo-Euclidean%20space.md)}@}. Not to be confused with {@{[scalar multiplication](scalar%20multiplication.md)}@}. <a id="^ref-note-1"></a>^ref-note-1 <!--SR:!2026-07-26,420,383!2026-09-03,449,383!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z!2026-09-01,447,383!2026-07-26,420,383-->
 
 ## references
 

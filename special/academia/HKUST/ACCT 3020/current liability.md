@@ -73,7 +73,7 @@ Flashcards for this section are as follows:
 - accounts payable: key features ::@:: Amounts owed to suppliers with no stated interest and short credit terms (e.g. 30 days). <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
 - notes payable: key features ::@:: Arise from a separate contract (a note) that states the principal, interest rate, and due date. <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-06-26T00:00:00.000Z,339,339.4035091,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - when does supplier require AP to NP conversion? ::@:: When the amount is owed for too long; supplier may require conversion to a note payable (with interest). <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
-- conversion of AP to NP: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_. <!--SR:!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z!2026-07-24,68,334-->
+- conversion of AP to NP: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_. <!--SR:!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-07-25T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-25T00:00:00.000Z-->
 
 ### short-term interest-bearing notes
 
@@ -175,14 +175,14 @@ Representative journal entry example:
 > | {@{Interest expense}@}                  | {@{360}@} |           |
 > | {@{Interest payable}@}                  |           | {@{360}@} |
 >
-> _Calculation._ {@{12 000 × 0.09 × 4/12}@} = {@{360}@}. <!--SR:!2026-08-02,77,334!fsrs,2026-12-04T05:50:24.994Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:50:24.994Z!fsrs,2027-03-08T00:00:00.000Z,227,226.54464687,2.34287837,2,7,0,0,2026-07-24T00:00:00.000Z!2026-07-24,68,321!2026-07-27,71,334!2026-07-28,72,334!fsrs,2026-12-04T05:49:17.772Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:17.772Z!2026-07-25,69,321!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-07-25,69,334!2026-07-26,70,334!2026-07-27,71,334!2026-07-24,68,334!2026-07-28,72,334-->
+> _Calculation._ {@{12 000 × 0.09 × 4/12}@} = {@{360}@}. <!--SR:!2026-08-02,77,334!fsrs,2026-12-04T05:50:24.994Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:50:24.994Z!fsrs,2027-03-08T00:00:00.000Z,227,226.54464687,2.34287837,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,348,348.20330887,1,2,7,0,0,2026-07-25T00:00:00.000Z!2026-07-27,71,334!2026-07-28,72,334!fsrs,2026-12-04T05:49:17.772Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:17.772Z!2026-07-25,69,321!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-07-25,69,334!2026-07-26,70,334!2026-07-27,71,334!fsrs,2027-07-25T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-25T00:00:00.000Z!2026-07-28,72,334-->
 
 ---
 
 Flashcards for this section are as follows:
 
 - conversion of account payable to note payable ::@:: At conversion: Dr _Accounts payable_, Cr _Notes payable_. <br/> Then accrue interest to reporting date: Dr _Interest expense_, Cr _Interest payable_. <!--SR:!fsrs,2026-12-04T05:49:00.999Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:00.999Z!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
-- conversion of AP to note: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_ (same amount). <!--SR:!fsrs,2026-12-04T05:49:09.721Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:09.721Z!2026-07-24,69,334-->
+- conversion of AP to note: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_ (same amount). <!--SR:!fsrs,2026-12-04T05:49:09.721Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:09.721Z!fsrs,2027-07-30T00:00:00.000Z,370,369.52810833,1,2,7,0,0,2026-07-25T00:00:00.000Z-->
 - after conversion to note: Given principal, rate, and months to reporting date, how is interest recorded? ::@:: Accrue interest (principal × rate × months/12); Dr _Interest expense_, Cr _Interest payable_. <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2026-12-04T05:55:08.197Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:08.197Z-->
 - conversion example: AP 12 000 → note 1 Sept, 9%—conversion entry? ::@:: Dr _Accounts payable_ 12 000, Cr _Notes payable_ 12 000. <!--SR:!2026-07-27,71,334!fsrs,2026-12-04T05:54:57.102Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:57.102Z-->
 - conversion example: note 12 000, 9%, 4 months to year-end—accrual entry? ::@:: Dr _Interest expense_ 360, Cr _Interest payable_ 360. <!--SR:!2026-07-29,73,321!2026-07-26,70,321-->
@@ -209,7 +209,7 @@ Representative journal entry examples:
 > | {@{Pay note at maturity}@} | Dr           | Cr           |
 > | -------------------------- | ------------ | ------------ |
 > | {@{Notes payable}@}        | {@{75 600}@} |              |
-> | {@{Cash}@}                 |              | {@{75 600}@} | <!--SR:!fsrs,2026-12-04T05:54:26.440Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:26.440Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2026-12-04T05:49:23.129Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:23.129Z!2026-07-24,68,321!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> | {@{Cash}@}                 |              | {@{75 600}@} | <!--SR:!fsrs,2026-12-04T05:54:26.440Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:26.440Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2026-12-04T05:49:23.129Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:23.129Z!fsrs,2027-07-08T00:00:00.000Z,348,348.20330887,1,2,7,0,0,2026-07-25T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 ---
 
@@ -259,7 +259,7 @@ The __timing__ of refinancing also matters. If the refinancing (e.g. a new loan 
 
 Flashcards for this section are as follows:
 
-- exclude from current liabilities refinancing ::@:: Both must hold: (1) expect to refinance on a long-term basis (e.g. extend due date or replace with long-term financing), (2) unconditional right to defer settlement for at least 12 months after the reporting date. <!--SR:!2026-07-24,68,334!2026-07-25,69,334-->
+- exclude from current liabilities refinancing ::@:: Both must hold: (1) expect to refinance on a long-term basis (e.g. extend due date or replace with long-term financing), (2) unconditional right to defer settlement for at least 12 months after the reporting date. <!--SR:!fsrs,2027-07-25T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-25T00:00:00.000Z!2026-07-25,69,334-->
 - covenants (refinancing) ::@:: Conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, minimum cash); make the right to defer conditional. <!--SR:!fsrs,2027-02-23T00:00:00.000Z,235,234.89854493,1.42996969,2,7,0,0,2026-07-03T00:00:00.000Z!2026-07-25,69,334-->
 - conditional right to defer ::@:: If the refinancing agreement has conditions (e.g. maintain current ratio), the right to defer is conditional and the liability stays current. <!--SR:!fsrs,2026-12-04T05:50:28.573Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:50:28.573Z!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - refinancing before vs after balance sheet date ::@:: Finalised before balance sheet date → may classify as long-term; finalised after → at reporting date no right to defer → current. <!--SR:!2026-07-27,71,334!fsrs,2027-04-14T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
@@ -377,7 +377,7 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 > | {@{Salaries and wages expense}@} | {@{560}@} | |
 > | {@{Wages payable}@} | | {@{560}@} |
 >
-> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end. <!--SR:!2026-07-25,70,334!fsrs,2027-05-30T00:00:00.000Z,317,317.25254381,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2026-12-04T05:49:44.884Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:44.884Z!2026-07-26,70,334!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!2026-07-24,69,334!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end. <!--SR:!2026-07-25,70,334!fsrs,2027-05-30T00:00:00.000Z,317,317.25254381,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2026-12-04T05:49:44.884Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:44.884Z!2026-07-26,70,334!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-30T00:00:00.000Z,370,369.52810833,1,2,7,0,0,2026-07-25T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

@@ -9,7 +9,7 @@ tags:
 
 # diurnal motion
 
-{@{__Diurnal motion__}@} (from [Latin](Latin.md) _diurnus_ 'daily', from [Latin](Latin.md) _diēs_ 'day') is {@{an [astronomical](astronomy.md) term referring to the apparent [motion](motion.md) of [celestial objects](astronomical%20object.md) (e.g. the [Sun](Sun.md) and [stars](star.md)) around [Earth](Earth.md), or more precisely around the two [celestial poles](celestial%20pole.md), over the course of one day}@}. <!--SR:!2026-07-24,533,317!2027-02-12,618,277-->
+{@{__Diurnal motion__}@} (from [Latin](Latin.md) _diurnus_ 'daily', from [Latin](Latin.md) _diēs_ 'day') is {@{an [astronomical](astronomy.md) term referring to the apparent [motion](motion.md) of [celestial objects](astronomical%20object.md) (e.g. the [Sun](Sun.md) and [stars](star.md)) around [Earth](Earth.md), or more precisely around the two [celestial poles](celestial%20pole.md), over the course of one day}@}. <!--SR:!fsrs,2032-03-04T00:00:00.000Z,2049,2049.0640904,1,2,10,0,0,2026-07-25T00:00:00.000Z!2027-02-12,618,277-->
 
 ## relative motion
 

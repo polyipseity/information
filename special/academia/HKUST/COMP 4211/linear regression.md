@@ -294,7 +294,7 @@ Flashcards for this section are as follows:
 
 - identically distributed part of iid ::@:: The identically distributed part means train, validation, test, and future deployment cases are sampled from the same population. <!--SR:!2026-08-29,91,362!2026-08-11,86,353-->
 - independent part of iid ::@:: The independent part means one example does not leak information about another, so evaluation is not artificially easy. <!--SR:!2026-08-04,84,353!2026-08-06,86,353-->
-- implication of distribution shift ::@:: If the deployment population differs from the training and test population, a low held-out error may fail to predict real deployment performance. <!--SR:!2026-07-24,69,324!2026-08-03,78,341-->
+- implication of distribution shift ::@:: If the deployment population differs from the training and test population, a low held-out error may fail to predict real deployment performance. <!--SR:!fsrs,2027-07-16T00:00:00.000Z,356,356.49943311,1,2,7,0,0,2026-07-25T00:00:00.000Z!2026-08-03,78,341-->
 - implication of data leakage ::@:: If validation examples are not independent of training examples, the reported validation error is usually too optimistic. <!--SR:!2026-08-11,86,353!2026-08-04,84,353-->
 
 ### underfitting and overfitting
@@ -436,7 +436,7 @@ In special settings this threshold picture becomes explicit. For example, with o
 
 Flashcards for this section are as follows:
 
-- what $\lVert w\rVert_2^2$ means ::@:: The squared $L_2$ penalty is $\lVert w\rVert_2^2 = \sum_j w_j^2$, the sum of squared coefficient magnitudes. <!--SR:!2026-07-24,69,324!2026-08-06,81,341-->
+- what $\lVert w\rVert_2^2$ means ::@:: The squared $L_2$ penalty is $\lVert w\rVert_2^2 = \sum_j w_j^2$, the sum of squared coefficient magnitudes. <!--SR:!fsrs,2027-07-16T00:00:00.000Z,356,356.49943311,1,2,7,0,0,2026-07-25T00:00:00.000Z!2026-08-06,81,341-->
 - why squaring changes the ridge penalty ::@:: Squaring means large coefficients are punished disproportionately, so ridge strongly discourages a few very large weights. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-05-16T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
 - ridge regularization gradient ::@:: Since $\|w\|_2^2=\sum_j w_j^2$, differentiating gives $\nabla_w\bigl(\lambda\|w\|_2^2\bigr)=2\lambda w$. <!--SR:!fsrs,2027-06-15T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-07-29,78,341-->
 - ridge gradient interpretation ::@:: The ridge term adds $2\lambda w$ to the data-fit gradient, so every coefficient feels a smooth pull directly toward zero. <!--SR:!2026-08-05,85,353!2026-08-11,86,353-->
@@ -449,7 +449,7 @@ Flashcards for this section are as follows:
 - coordinatewise LASSO optimality rule ::@:: For each coefficient, LASSO optimality says: if $w_j>0$, then $\frac{\partial J}{\partial w_j}=-\lambda$; if $w_j<0$, then $\frac{\partial J}{\partial w_j}=+\lambda$; if $w_j=0$, then $\frac{\partial J}{\partial w_j}\in[-\lambda,+\lambda]$. <!--SR:!2026-08-02,77,341!2026-07-26,71,324-->
 - why LASSO creates exact zeros ::@:: A coefficient can stay exactly zero whenever the data-fit derivative lies inside the interval $[-\lambda,+\lambda]$, so LASSO has a whole threshold zone that favors sparsity. <!--SR:!2026-08-02,82,341!2026-08-03,83,341-->
 - ridge versus LASSO optimality-condition difference ::@:: Ridge uses a smooth equality $\frac{\partial J}{\partial w_j}+2\lambda w_j=0$, whereas LASSO uses a threshold-type subgradient rule, which is why ridge usually shrinks and LASSO can delete coefficients. <!--SR:!2026-08-29,91,363!2026-08-06,81,341-->
-- soft-thresholding intuition for LASSO ::@:: In orthonormal designs, LASSO behaves like soft thresholding: least-squares coefficients are pulled toward zero, and sufficiently small ones become exactly zero. <!--SR:!2026-07-24,73,324!2026-08-01,81,341-->
+- soft-thresholding intuition for LASSO ::@:: In orthonormal designs, LASSO behaves like soft thresholding: least-squares coefficients are pulled toward zero, and sufficiently small ones become exactly zero. <!--SR:!fsrs,2027-08-03T00:00:00.000Z,374,374.15574843,1,2,7,0,0,2026-07-25T00:00:00.000Z!2026-08-01,81,341-->
 
 ### ridge versus LASSO contour intuition
 
@@ -463,7 +463,7 @@ Because a circle has no corners, the ridge contact point is usually on a smooth 
 
 Flashcards for this section are as follows:
 
-- contour-line intuition for ridge and LASSO ::@:: Think of least-squares loss as ellipses and the regularizer as a norm ball; the optimum is where the smallest ellipse first touches the constraint boundary. <!--SR:!2026-07-24,73,324!2026-08-29,91,363-->
+- contour-line intuition for ridge and LASSO ::@:: Think of least-squares loss as ellipses and the regularizer as a norm ball; the optimum is where the smallest ellipse first touches the constraint boundary. <!--SR:!fsrs,2027-08-03T00:00:00.000Z,374,374.15574843,1,2,7,0,0,2026-07-25T00:00:00.000Z!2026-08-29,91,363-->
 - algebraic form of ridge contour lines ::@:: In two dimensions, a ridge level set $\lambda\|w\|_2^2=c$ is $w_1^2+w_2^2=c/\lambda$, so its contour lines are circles centered at the origin. <!--SR:!2026-08-07,82,341!2026-08-11,86,353-->
 - algebraic form of LASSO contour lines ::@:: In two dimensions, a LASSO level set $\lambda\|w\|_1=c$ is $|w_1|+|w_2|=c/\lambda$, so its contour lines are diamonds with corners on the axes. <!--SR:!2026-08-12,91,362!2026-08-05,85,353-->
 - effect of increasing $\lambda$ on the regularized objective ::@:: A larger $\lambda$ makes low-norm regions more strongly preferred in the total objective, so the optimizer is pushed closer to the origin unless data fit strongly opposes it. <!--SR:!fsrs,2027-06-21T00:00:00.000Z,339,338.7120757,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-11,86,353-->

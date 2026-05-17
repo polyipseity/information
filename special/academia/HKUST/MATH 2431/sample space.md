@@ -23,7 +23,7 @@ Flashcards for this section are as follows:
 
 - definition / non-empty set of outcomes ::@:: A non-empty set $\Omega$ of possible realizations of a random experiment; each $\omega \in \Omega$ is an outcome. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-07-13T00:00:00.000Z,357,356.97026961,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-06-13T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - definition / outcome ::@:: An element $\omega \in \Omega$; one possible realization or measurement of the random experiment. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-06-11T00:00:00.000Z,331,330.56968839,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-06-05T00:00:00.000Z,326,326.1396648,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
-- definition / role in a probability space ::@:: The sample space is the first of three ingredients (with events and probability measure) in a probability space $(\Omega, \mathcal{F}, P)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-24,74,321!fsrs,2027-06-21T00:00:00.000Z,339,339.4035091,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
+- definition / role in a probability space ::@:: The sample space is the first of three ingredients (with events and probability measure) in a probability space $(\Omega, \mathcal{F}, P)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-08-03T00:00:00.000Z,374,374.40992709,1,2,7,0,0,2026-07-25T00:00:00.000Z!fsrs,2027-06-21T00:00:00.000Z,339,339.4035091,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 
 ## finite and countable sample spaces
 
@@ -57,7 +57,7 @@ Typical countably infinite sample spaces arise when the outcome is a nonnegative
 
 Flashcards for this section are as follows:
 
-- countably infinite sample space / number-of-customers model ::@:: A typical countably infinite sample space is $\mathbb{N}_0=\{0,1,2,\ldots\}$, used when the outcome is a count such as the number of customers or the number of arrivals in a time window. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-03-11T00:00:00.000Z,252,251.90041347,1.42996969,2,7,0,0,2026-07-02T00:00:00.000Z!2026-07-24,74,321-->
+- countably infinite sample space / number-of-customers model ::@:: A typical countably infinite sample space is $\mathbb{N}_0=\{0,1,2,\ldots\}$, used when the outcome is a count such as the number of customers or the number of arrivals in a time window. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-03-11T00:00:00.000Z,252,251.90041347,1.42996969,2,7,0,0,2026-07-02T00:00:00.000Z!fsrs,2027-03-16T00:00:00.000Z,234,234.39827385,2.82989087,2,7,0,0,2026-07-25T00:00:00.000Z-->
 - countably infinite sample space / first-success trial model ::@:: The trial number of the first success in repeated Bernoulli trials has sample space $\mathbb{N}$; this is infinite but countable because the possible values can be listed as $1,2,3,\ldots$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
 
 ## uncountable sample spaces

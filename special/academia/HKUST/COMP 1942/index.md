@@ -476,7 +476,7 @@ The content is in teaching order.
     - [§ finitely many events](../../../../general/chain%20rule%20(probability).md#finitely%20many%20events)
 - common core requirements ::@:: mathematical models, quantitative data, quantitative methods <!--SR:!2028-11-15,1263,377!2033-07-01,2685,417-->
 - other topics
-    - association thresholding ::@:: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2029-05-09,1435,397!2026-07-24,543,337-->
+    - association thresholding ::@:: Instead of thresholding by frequency, we can threshold by number of frequent item sets found, which may be easier to choose. <!--SR:!2029-05-09,1435,397!fsrs,2032-08-29T00:00:00.000Z,2227,2226.81561118,1,2,10,0,0,2026-07-25T00:00:00.000Z-->
     - [clustering high-dimensional data § subspace clustering](../../../../general/clustering%20high-dimensional%20data.md#subspace%20clustering) ::@:: By removing some dimensions of the data, more interesting clusters may be found. It mitigates [curse of dimensionality](../../../../general/curse%20of%20dimensionality.md), where [distances between different pairs of points become similar](../../../../general/curse%20of%20dimensionality.md#distance%20function). <!--SR:!2031-12-24,2115,357!2029-08-11,1512,397-->
     - ensemble of classifiers ::@:: We can output the prediction based on the majority prediction of the classifiers. <!--SR:!2030-07-20,1791,397!2028-11-07,1255,377-->
     - data warehouse questions ::@:: How to create the data warehouse over different types of data, such as a graph? <!--SR:!2033-01-28,2559,417!2031-04-01,1992,397-->

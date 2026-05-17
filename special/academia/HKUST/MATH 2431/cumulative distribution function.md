@@ -36,7 +36,7 @@ Flashcards for this section are as follows:
 - definition from a probability measure ::@:: For a probability measure $P$ on $(\mathbb{R},\mathcal{B}(\mathbb{R}))$, the cumulative distribution function is $F_P(x)=P[(-\infty,x]]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-08-04,81,344!2026-07-29,75,327-->
 - interpretation ::@:: The cumulative distribution function $F_P(x)$ measures how much probability has accumulated up to the point $x$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-31,77,337!fsrs,2027-06-14T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 - cdf from density ::@:: If $P$ is characterized by a density $f$, then $F_P(x)=\int_{-\infty}^{x} f(t)\,dt$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-08-08,85,350!2026-07-31,77,337-->
-- density from cdf ::@:: If $P$ has density $f$ and $f$ is continuous at $x$, then $f(x)=F_P'(x)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-08-05,82,344!2026-07-24,70,327-->
+- density from cdf ::@:: If $P$ has density $f$ and $f$ is continuous at $x$, then $f(x)=F_P'(x)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-08-05,82,344!fsrs,2027-07-25T00:00:00.000Z,365,364.88062926,1,2,7,0,0,2026-07-25T00:00:00.000Z-->
 - why cdfs unify probability laws ::@:: A cumulative distribution function works for discrete laws, density-based continuous laws, mixed laws, and more pathological laws, so it is more general than a density. <!--SR:!2026-07-29,75,327!2026-07-31,77,337-->
 
 ## standard normal notation
