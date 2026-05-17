@@ -285,7 +285,7 @@ tags:
 > 3. Normally, the smaller the better
 >
 > - solution: {@{2}@}
-> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@} <!--SR:!fsrs,2032-01-24T10:15:15.224Z,2050,2049.97605758,1,2,10,0,0,2026-06-14T10:15:15.224Z!2026-07-03,457,381-->
+> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@} <!--SR:!fsrs,2032-01-24T10:15:15.224Z,2050,2049.97605758,1,2,10,0,0,2026-06-14T10:15:15.224Z!fsrs,2032-04-25T00:00:00.000Z,2122,2121.81441071,1,2,10,0,0,2026-07-04T00:00:00.000Z-->
 
 ## week 4 review
 

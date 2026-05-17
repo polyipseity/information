@@ -351,7 +351,7 @@ Representative journal entry examples:
 
 Flashcards for this section are as follows:
 
-- treasury shares (cost method): acquisition entry ::@:: Dr _Treasury shares_ at cost, Cr _Cash_; _Treasury shares_ is a contra-equity account, not an asset. <!--SR:!2026-07-29,79,339!2026-07-03,51,308-->
+- treasury shares (cost method): acquisition entry ::@:: Dr _Treasury shares_ at cost, Cr _Cash_; _Treasury shares_ is a contra-equity account, not an asset. <!--SR:!2026-07-29,79,339!fsrs,2027-03-20T00:00:00.000Z,259,259.01493064,1.07975443,2,7,0,0,2026-07-04T00:00:00.000Z-->
 - treasury shares reissued above cost: equity effect ::@:: Dr _Cash_, Cr _Treasury shares_ at cost, Cr _Share premium — treasury_ for the excess; total equity increases. <!--SR:!2026-07-29,79,339!2026-07-29,79,339-->
 - treasury shares reissued below cost: waterfall order ::@:: Shortfall (cost − proceeds) first absorbs any _Share premium — treasury_ balance; once that is exhausted, the remaining shortfall is debited to _Retained earnings_. The shortfall never goes to _Share premium — ordinary_ and is never expensed in profit or loss. <!--SR:!2026-07-27,77,339!2026-07-27,77,339-->
 - treasury reissue below cost: what if retained earnings is insufficient? ::@:: _Retained earnings_ can go to a negative balance (accumulated deficit). The debit simply pushes _Retained earnings_ below zero; this is permissible but signals the company has distributed or absorbed more than it has ever earned. <!--SR:!2026-07-27,77,339!2026-07-20,73,339-->
@@ -744,8 +744,8 @@ Intuitively:
 
 Flashcards for this section are as follows:
 
-- ROE: formula in this course ::@:: (Profit for the year − Preference dividends) ÷ Average ordinary shareholders' equity. <!--SR:!2026-07-03,56,310!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
-- ROE: why subtract preference dividends? ::@:: Because ROE is meant to measure the return available to ordinary shareholders after satisfying the fixed claims of preference shareholders. <!--SR:!2026-07-03,56,310!2026-07-03,56,310-->
+- ROE: formula in this course ::@:: (Profit for the year − Preference dividends) ÷ Average ordinary shareholders' equity. <!--SR:!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
+- ROE: why subtract preference dividends? ::@:: Because ROE is meant to measure the return available to ordinary shareholders after satisfying the fixed claims of preference shareholders. <!--SR:!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z-->
 - ROE: what goes into ordinary shareholders' equity? ::@:: Ordinary _Share capital_ plus reserves and _Retained earnings_ attributable to ordinary shareholders, usually averaged over the period (beginning and ending). <!--SR:!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z-->
 - ROE: intuitive interpretation ::@:: For each dollar of ordinary shareholders' equity invested in the company, ROE shows how many dollars of profit (after preference dividends) were generated during the year. <!--SR:!2026-07-04,57,310!2026-07-05,58,310-->
 

@@ -115,7 +115,7 @@ As {@{a corollary of this}@}, we get {@{the Cauchy Integral Theorem for rectifia
 
 > __Proof__
 >
-> We regard {@{the complex plane as $\mathbb {R} ^{2}$}@}. Now, define {@{$u,v:{\overline {R} }\to \mathbb {R}$}@} to be such that {@{$f(x+iy)=u(x,y)+iv(x,y)$}@}. These functions are {@{clearly continuous}@}. It is well known that $u$ and $v$ are {@{Fréchet-differentiable and that they satisfy the Cauchy-Riemann equations}@}: {@{$D_{1}v+D_{2}u=D_{1}u-D_{2}v={\text{zero function} }$ \(annotation: which is obviously Riemann-integrable\)}@}. <!--SR:!2026-07-21,291,330!2026-07-05,276,330!2029-05-01,1083,350!2026-07-20,288,330!2026-07-03,274,330!2027-10-08,564,310-->
+> We regard {@{the complex plane as $\mathbb {R} ^{2}$}@}. Now, define {@{$u,v:{\overline {R} }\to \mathbb {R}$}@} to be such that {@{$f(x+iy)=u(x,y)+iv(x,y)$}@}. These functions are {@{clearly continuous}@}. It is well known that $u$ and $v$ are {@{Fréchet-differentiable and that they satisfy the Cauchy-Riemann equations}@}: {@{$D_{1}v+D_{2}u=D_{1}u-D_{2}v={\text{zero function} }$ \(annotation: which is obviously Riemann-integrable\)}@}. <!--SR:!2026-07-21,291,330!2026-07-05,276,330!2029-05-01,1083,350!2026-07-20,288,330!fsrs,2029-10-15T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-07-04T00:00:00.000Z!2027-10-08,564,310-->
 
 Now, analyzing {@{the sums used to define the complex contour integral in question}@}, it is easy to realize that {@{$$\int _{\Gamma }f=\int _{\Gamma }u\,dx-v\,dy\quad +i\int _{\Gamma }v\,dx+u\,dy,$$}@} {@{the integrals on the RHS}@} being {@{usual line integrals}@}. These remarks allow us to {@{apply Green's Theorem to each one of these line integrals}@}, {@{finishing the proof}@}. <!--SR:!fsrs,2029-08-05T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-06-17T00:00:00.000Z!2028-08-17,837,330!2029-07-21,1147,350!fsrs,2029-09-22T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-06-26T00:00:00.000Z!2028-08-16,836,330!2029-08-13,1166,350-->
 
@@ -127,7 +127,7 @@ Suppose {@{$p:{\overline {D} }\to \mathbb {R}$ and $q:{\overline {D} }\to \mathb
 
 ## relationship to Stokes' theorem
 
-Green's theorem is {@{a special case of the [Kelvin–Stokes theorem](Stokes'%20theorem.md#theorem)}@}, when {@{applied to a region in the $xy$-plane}@}. <!--SR:!2026-07-10,279,330!2026-07-03,274,330-->
+Green's theorem is {@{a special case of the [Kelvin–Stokes theorem](Stokes'%20theorem.md#theorem)}@}, when {@{applied to a region in the $xy$-plane}@}. <!--SR:!2026-07-10,279,330!fsrs,2029-10-15T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-07-04T00:00:00.000Z-->
 
 We can {@{augment the two-dimensional field into a three-dimensional field}@} with {@{a _z_ component that is always 0}@}. Write __F__ for {@{the [vector](Euclidean%20vector.md)-valued function $\mathbf {F} =(L,M,0)$}@}. Start with {@{the left side of Green's theorem}@}: {@{$$\oint _{C}(L\,dx+M\,dy)=\oint _{C}(L,M,0)\cdot (dx,dy,dz)=\oint _{C}\mathbf {F} \cdot d\mathbf {r} .$$}@} <!--SR:!2029-06-12,1111,350!fsrs,2029-09-15T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-06-23T00:00:00.000Z!fsrs,2029-10-06T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-06-29T00:00:00.000Z!fsrs,2029-09-30T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-06-27T00:00:00.000Z!2029-05-08,1087,350-->
 

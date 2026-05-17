@@ -53,7 +53,7 @@ For {@{a transmitted '1'}@}: {@{$$P_e^{(1)} = P(N_T < -AT) = Q\!\left(\frac{AT}{
 
 For {@{a transmitted '0'}@}: {@{$$P_e^{(0)} = P(N_T > AT) = Q\!\left(\frac{AT}{\sigma_{n_T} }\right) = Q\!\left(\sqrt{\frac{2A^2T}{N_0} }\right) = Q\left(\sqrt {\frac{2E_b} {N_0} } \right) \,,$$}@} where {@{$E_b = A^2 T$}@} is {@{the signal \(excluding the noise\) power \(see below\)}@}. <!--SR:!2026-10-05,266,330!2028-04-08,679,330!2026-11-02,289,330!2026-11-04,290,330-->
 
-Hence {@{the BER with arbitrary priors}@} is {@{$$\boxed{P_e = p_0\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)+p_1\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)} \,.$$}@} Notice how {@{the input bit probabilities}@} do not {@{affect the BER}@}. <!--SR:!2026-10-07,268,330!2026-07-03,180,310!2026-10-14,273,330!2026-10-09,270,330-->
+Hence {@{the BER with arbitrary priors}@} is {@{$$\boxed{P_e = p_0\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)+p_1\,Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right) = Q\!\left(\sqrt{\tfrac{2E_b}{N_0} }\right)} \,.$$}@} Notice how {@{the input bit probabilities}@} do not {@{affect the BER}@}. <!--SR:!2026-10-07,268,330!fsrs,2028-08-17T00:00:00.000Z,775,774.94624713,1,2,8,0,0,2026-07-04T00:00:00.000Z!2026-10-14,273,330!2026-10-09,270,330-->
 
 ### bit error rate with arbitrary threshold
 

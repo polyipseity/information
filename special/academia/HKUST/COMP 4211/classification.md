@@ -182,7 +182,7 @@ Flashcards for this section are as follows:
 - why convexity is desirable in surrogate losses ::@:: Convex surrogate losses are easier to optimize and behave more predictably than highly discontinuous nonconvex objectives such as zero-one loss. <!--SR:!2026-07-24,74,324!2026-08-09,84,345-->
 - why the surrogate should upper-bound zero-one loss ::@:: If the surrogate loss upper-bounds zero-one loss, then minimizing the surrogate also pushes down an upper envelope of the true classification error. <!--SR:!2026-07-31,79,344!2026-07-24,69,324-->
 - pointwise upper-bound check at negative margins ::@:: If $m\le 0$, then hinge gives $\max(0,1-m)\ge 1$, scaled logistic gives $\frac{1}{\log 2}\log(1+e^{-m})\ge 1$, exponential gives $e^{-m}\ge 1$, and squared-margin loss gives $(1-m)^2\ge 1$, so each upper-bounds zero-one loss on the error side. <!--SR:!2026-07-06,56,310!fsrs,2027-03-13T00:00:00.000Z,255,254.94949226,1.27987743,2,7,0,0,2026-07-01T00:00:00.000Z-->
-- margin shaping ::@:: Surrogate losses often keep decreasing as the positive margin grows, so they reward not only correctness but also confidence. <!--SR:!2026-07-03,49,304!2026-07-20,70,324-->
+- margin shaping ::@:: Surrogate losses often keep decreasing as the positive margin grows, so they reward not only correctness but also confidence. <!--SR:!fsrs,2027-03-07T00:00:00.000Z,246,246.37197118,1.27987743,2,7,0,0,2026-07-04T00:00:00.000Z!2026-07-20,70,324-->
 
 ### common surrogate losses
 

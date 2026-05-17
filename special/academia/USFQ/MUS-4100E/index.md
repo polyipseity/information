@@ -179,7 +179,7 @@ The content is in teaching order.
   - jazz / locations ::@:: exclusively in New Orleans, parades ("second line" parades), riverboats/steamboats <!--SR:!2029-10-04,1355,375!2029-07-02,1267,375-->
 - [Storyville, New Orleans](../../../../general/Storyville,%20New%20Orleans.md) (1897–1917) ::@:: red-light district (area of the city in which prostitution, although still nominally illegal, was tolerated or regulated) of New Orleans, Louisiana <!--SR:!2030-01-07,1355,335!2029-09-03,1330,375-->
   - Storyville, New Orleans / summary ::@:: brothels + music = jazz <!--SR:!2031-09-23,1938,395!2029-09-12,1338,375-->
-  - Storyville, New Orleans / activities ::@:: musicians would play to the choreography of prostitutes and make tips, e.g. Jelly Roll Morton <!--SR:!2026-07-15,407,375!2026-07-03,395,375-->
+  - Storyville, New Orleans / activities ::@:: musicians would play to the choreography of prostitutes and make tips, e.g. Jelly Roll Morton <!--SR:!2026-07-15,407,375!fsrs,2031-08-17T00:00:00.000Z,1870,1869.69417756,1,2,10,0,0,2026-07-04T00:00:00.000Z-->
   - Storyville, New Orleans / closure ::@:: closed down by the military in 1917 because it was too distracting to the soldiers <!--SR:!2029-07-22,1287,375!2031-10-11,1956,395-->
 - [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, pianist, singer; first jazz composer to notate jazz <!--SR:!2028-01-21,847,355!2026-08-23,433,335-->
   - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz <!--SR:!2031-10-22,1967,395!2026-07-18,410,375-->

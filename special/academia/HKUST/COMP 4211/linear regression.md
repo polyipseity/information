@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 - why linear regression matters early ::@:: Linear regression already exhibits the main machine-learning ideas of supervised learning, loss minimization, feature engineering, capacity control, regularization, and probabilistic interpretation. <!--SR:!2026-08-25,87,363!2026-07-30,75,324-->
 - course convention for the intercept term ::@:: In this course the bias/intercept is included by augmenting the features with $x_0 = 1$, so the predictor is written compactly as $\hat y = w^\top x$. <!--SR:!2026-08-11,86,353!2026-08-04,84,353-->
 - role of the weights ::@:: The entries of $w$ determine how strongly the corresponding features influence the predicted response. <!--SR:!2026-08-03,83,341!2026-07-27,72,324-->
-- linear in parameters versus linear in raw input ::@:: A model can be nonlinear in the raw input yet still count as a linear model if it is linear in the transformed features or parameters. <!--SR:!2026-07-31,80,341!2026-07-03,56,310-->
+- linear in parameters versus linear in raw input ::@:: A model can be nonlinear in the raw input yet still count as a linear model if it is linear in the transformed features or parameters. <!--SR:!2026-07-31,80,341!fsrs,2026-12-28T00:00:00.000Z,177,177.09411292,3.24197837,2,7,0,0,2026-07-04T00:00:00.000Z-->
 
 ## supervised regression setup and ordinary least squares
 

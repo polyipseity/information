@@ -50,7 +50,7 @@ In {@{the [category of commutative rings](category%20of%20commutative%20rings.md
 
 ### groups and modules
 
-In {@{complete analogy to the example of commutative rings above}@}, one can show that {@{all pullbacks exist}@} in {@{the [category of groups](category%20of%20groups.md) and in the [category of modules](category%20of%20modules.md) over some fixed ring}@}. <!--SR:!2026-07-03,386,310!2029-10-20,1344,350!2030-01-22,1350,310-->
+In {@{complete analogy to the example of commutative rings above}@}, one can show that {@{all pullbacks exist}@} in {@{the [category of groups](category%20of%20groups.md) and in the [category of modules](category%20of%20modules.md) over some fixed ring}@}. <!--SR:!fsrs,2030-08-19T00:00:00.000Z,1507,1507.19144593,1,2,10,0,0,2026-07-04T00:00:00.000Z!2029-10-20,1344,350!2030-01-22,1350,310-->
 
 ### sets
 

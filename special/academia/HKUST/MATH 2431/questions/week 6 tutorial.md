@@ -58,7 +58,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > Let $f(x)=cx^2\mathbf{1}_{[0,1]}(x)$. Find $c$, the CDF, and $P([0.1,0.5))$.
 >
-> Solution: Normalize first via $1=\int_{-\infty}^{\infty}f(x)dx=\int_0^1cx^2dx=c/3$, so {@{$c=3$}@}. Then the CDF is {@{$F(x)=0$ for $x<0$, $F(x)=x^3$ for $0\le x\le1$, and $F(x)=1$ for $x>1$}@}, hence {@{$P([0.1,0.5))=F(0.5)-F(0.1)=0.124$}@}. Since this law has a density, it is {@{continuous}@}, so {@{endpoint inclusion/exclusion does not change interval probabilities}@}. <!--SR:!2026-08-15,75,327!2026-07-03,47,307!2026-07-10,56,310!2026-08-15,75,327!2026-07-08,54,310-->
+> Solution: Normalize first via $1=\int_{-\infty}^{\infty}f(x)dx=\int_0^1cx^2dx=c/3$, so {@{$c=3$}@}. Then the CDF is {@{$F(x)=0$ for $x<0$, $F(x)=x^3$ for $0\le x\le1$, and $F(x)=1$ for $x>1$}@}, hence {@{$P([0.1,0.5))=F(0.5)-F(0.1)=0.124$}@}. Since this law has a density, it is {@{continuous}@}, so {@{endpoint inclusion/exclusion does not change interval probabilities}@}. <!--SR:!2026-08-15,75,327!fsrs,2027-03-02T00:00:00.000Z,241,240.60204208,1.12978518,2,7,0,0,2026-07-04T00:00:00.000Z!2026-07-10,56,310!2026-08-15,75,327!2026-07-08,54,310-->
 
 <!-- markdownlint MD028 -->
 

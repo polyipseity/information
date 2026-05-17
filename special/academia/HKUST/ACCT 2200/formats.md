@@ -250,7 +250,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | ------------------------------- | --------------------:|
 > | {@{Beginning Inventory}@}       | {@{420}@}            |
 > | {@{Started This Period}@}       | {@{690}@}            |
-> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2026-07-26,398,362!2026-07-24,396,362!fsrs,2031-04-02T00:00:00.000Z,1741,1740.92551295,1,2,10,0,0,2026-06-26T00:00:00.000Z!fsrs,2031-03-22T00:00:00.000Z,1733,1732.84482873,1,2,10,0,0,2026-06-23T00:00:00.000Z!fsrs,2031-04-12T00:00:00.000Z,1749,1749.00092967,1,2,10,0,0,2026-06-28T00:00:00.000Z!2026-07-23,395,362!2026-07-21,393,362!2026-07-03,381,362!2026-07-21,393,362-->
+> | {@{Total}@}                     | {@{1&nbsp;110}@}     | <!--SR:!2026-07-26,398,362!2026-07-24,396,362!fsrs,2031-04-02T00:00:00.000Z,1741,1740.92551295,1,2,10,0,0,2026-06-26T00:00:00.000Z!fsrs,2031-03-22T00:00:00.000Z,1733,1732.84482873,1,2,10,0,0,2026-06-23T00:00:00.000Z!fsrs,2031-04-12T00:00:00.000Z,1749,1749.00092967,1,2,10,0,0,2026-06-28T00:00:00.000Z!2026-07-23,395,362!2026-07-21,393,362!fsrs,2031-05-08T00:00:00.000Z,1769,1769.1657711,1,2,10,0,0,2026-07-04T00:00:00.000Z!2026-07-21,393,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -433,7 +433,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - incremental analysis \(comparative\) ::@:: column headers, row headers <!--SR:!2027-01-09,506,401!2026-11-06,461,401-->
   - incremental analysis \(comparative\) / column headers ::@:: \(empty\), option 1: \(description\), option 2: \(description\), difference: \(cost\) or benefit of \(option 2 description\) <!--SR:!2027-01-14,510,401!2026-11-16,468,401-->
-  - incremental analysis \(comparative\) / row headers ::@:: incremental revenue, less: + subitems, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2027-01-10,507,401!2026-07-03,352,381-->
+  - incremental analysis \(comparative\) / row headers ::@:: incremental revenue, less: + subitems, \(other costs and benefits\), incremental profit \(loss\) <!--SR:!2027-01-10,507,401!fsrs,2031-02-20T00:00:00.000Z,1692,1691.9306026,1,2,9,0,0,2026-07-04T00:00:00.000Z-->
 
 ## incremental analysis (incremental)
 

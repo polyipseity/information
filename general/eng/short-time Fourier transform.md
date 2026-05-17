@@ -17,7 +17,7 @@ The {@{__short-time Fourier transform__ \(__STFT__\)}@} is {@{a [Fourier-related
 
 > {@{![A spectrogram visualizing the results of a STFT of the words "nineteenth century".](../../archives/Wikimedia%20Commons/Spectrogram-19thC.png)}@}
 >
-> {@{A spectrogram}@} visualizing {@{the results of a STFT of the words "nineteenth century"}@}. Here, {@{frequencies}@} are shown {@{increasing up the vertical axis}@}, and {@{time}@} on {@{the horizontal axis}@}. {@{The legend to the right}@} shows that {@{the color intensity increases with the density}@}. <!--SR:!fsrs,2029-07-29T11:18:34.981Z,1150,1150.15794126,1,2,9,0,0,2026-06-05T11:18:34.981Z!fsrs,2029-08-02T11:18:34.366Z,1154,1153.64404968,1,2,9,0,0,2026-06-05T11:18:34.366Z!2026-09-17,350,349!2026-08-25,331,349!2026-09-11,345,349!2026-09-11,345,349!2029-05-11,1099,350!2026-07-03,285,330!2026-09-07,342,349-->
+> {@{A spectrogram}@} visualizing {@{the results of a STFT of the words "nineteenth century"}@}. Here, {@{frequencies}@} are shown {@{increasing up the vertical axis}@}, and {@{time}@} on {@{the horizontal axis}@}. {@{The legend to the right}@} shows that {@{the color intensity increases with the density}@}. <!--SR:!fsrs,2029-07-29T11:18:34.981Z,1150,1150.15794126,1,2,9,0,0,2026-06-05T11:18:34.981Z!fsrs,2029-08-02T11:18:34.366Z,1154,1153.64404968,1,2,9,0,0,2026-06-05T11:18:34.366Z!2026-09-17,350,349!2026-08-25,331,349!2026-09-11,345,349!2026-09-11,345,349!2029-05-11,1099,350!fsrs,2029-11-26T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-07-04T00:00:00.000Z!2026-09-07,342,349-->
 
 ## forward STFT
 

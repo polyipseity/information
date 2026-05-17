@@ -63,7 +63,7 @@ See also [Vim help files](https://vimhelp.org/).
 ## visual
 
 - exit visual mode ::@:: ([visual](#visual))\<Esc\> <!--SR:!2028-02-04,1339,348!2029-08-21,1893,368-->
-- highlight characters ::@:: v <!--SR:!2026-07-03,967,348!2035-12-17,3624,348-->
+- highlight characters ::@:: v <!--SR:!fsrs,2036-12-15T00:00:00.000Z,3817,3817.32655493,1,2,11,0,0,2026-07-04T00:00:00.000Z!2035-12-17,3624,348-->
 - highlight lines ::@:: V <!--SR:!2027-05-17,1126,293!2030-11-26,1882,288-->
 - highlight block ::@:: \<Ctrl\>+v <!--SR:!2028-10-22,1218,273!2027-12-19,1304,348-->
 - copy highlight into \["register=(latest)\] ::@:: ([visual](#visual))\["register\]y <!--SR:!2028-02-01,1235,293!2027-07-07,1059,288-->

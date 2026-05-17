@@ -99,7 +99,7 @@ To {@{get the PV of a growing [annuity due](annuity%20(finance%20theory).md#annu
 
 ### present value of a growing perpetuity
 
-When {@{the perpetual annuity payment grows at a fixed rate \(_g_, with _g_ \< _i_\)}@} the value is {@{determined according to the following formula}@}, obtained by setting {@{_n_ to infinity in the earlier formula for a growing perpetuity}@}: {@{$$PV(A)\,=\,{A \over i-g}$$}@} <!--SR:!2029-04-12,1174,350!2028-05-25,852,330!2029-01-12,1097,350!2026-07-03,120,394-->
+When {@{the perpetual annuity payment grows at a fixed rate \(_g_, with _g_ \< _i_\)}@} the value is {@{determined according to the following formula}@}, obtained by setting {@{_n_ to infinity in the earlier formula for a growing perpetuity}@}: {@{$$PV(A)\,=\,{A \over i-g}$$}@} <!--SR:!2029-04-12,1174,350!2028-05-25,852,330!2029-01-12,1097,350!fsrs,2028-05-03T00:00:00.000Z,669,668.62609436,1,2,8,0,0,2026-07-04T00:00:00.000Z-->
 
 In practice, there are {@{few securities with precise characteristics}@}, and the application of this valuation approach is {@{subject to various qualifications and modifications}@}. Most importantly, it is {@{rare to find a growing perpetual annuity with fixed rates of growth and true perpetual cash flow generation}@}. Despite these qualifications, the general approach may be {@{used in valuations of real estate, equities, and other assets}@}. <!--SR:!2029-08-18,1275,350!2029-02-12,1128,350!2029-06-16,1223,350!2029-10-10,1319,350-->
 

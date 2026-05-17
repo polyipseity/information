@@ -52,7 +52,7 @@ The content is in teaching order.
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::@:: We are concerned with uniaxial tension only. <!--SR:!2029-11-19,1587,370!2028-12-27,1304,361-->
   - tension examples in structures ::@:: cable, hanging column, rope, swing, tie <!--SR:!2030-06-30,1570,290!2026-07-16,564,330-->
-  - tension conventions ::@:: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2027-11-03,925,330!2026-07-03,577,330-->
+  - tension conventions ::@:: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2027-11-03,925,330!fsrs,2032-10-15T00:00:00.000Z,2295,2295.04128623,1,2,10,0,0,2026-07-04T00:00:00.000Z-->
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::@:: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2028-05-03,1119,350!2032-01-15,2120,341-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)
 - stress and strain
