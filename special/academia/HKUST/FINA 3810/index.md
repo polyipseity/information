@@ -42,7 +42,7 @@ The content is in teaching order.
 - topic: logistics; introduction; Bloomberg account; Bloomberg Market Concepts; 2025 Bloomberg Global Trading Challenge
 - FINA 3810
     - FINA 3810 / logistics
-    - FINA 3810 / current topics ::@:: artificial intelligence \(AI\), heartbeat trades, zero-day options, etc. <!--SR:!2026-08-06,246,330!2026-07-26,237,330-->
+    - FINA 3810 / current topics ::@:: artificial intelligence \(AI\), heartbeat trades, zero-day options, etc. <!--SR:!2026-08-06,246,330!fsrs,2029-06-18T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-27T00:00:00.000Z-->
         - FINA 3810 / current topics / artificial intelligence \(AI\) ::@:: Is AI coming for finance jobs? Agentic AI, e.g. AlphaGPT, and so much more! <!--SR:!2026-07-31,241,330!2026-08-29,264,330-->
         - FINA 3810 / current topics / zero-day options ::@:: Why did S&P 500 suddenly drop? How did Goldman Sachs \(GS\) and Bank of America \(BoA\) interpret it differently? What are zero-day options and how they may cause a sudden drop? <!--SR:!2026-09-09,273,330!fsrs,2029-05-28T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-07-22T00:00:00.000Z-->
 - [Bloomberg Terminal](../../../../general/Bloomberg%20Terminal.md) ::@:: It is a computer software system provided by the financial data vendor Bloomberg L.P. that enables professionals in the financial service sector and other industries to access Bloomberg Professional Services through which users can monitor and analyze real-time financial market data and place trades on the electronic trading platform. <!--SR:!2026-09-05,270,330!2026-08-22,259,330-->

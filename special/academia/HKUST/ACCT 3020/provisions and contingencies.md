@@ -70,7 +70,7 @@ Flashcards for this section are as follows:
 - litigation: two things to consider when deciding whether current-year litigation needs a provision ::@:: (1) Whether an unfavorable outcome is probable enough to require recognition rather than mere disclosure; and (2) whether the cause of action belongs to the current reporting period or only arises after year-end, because only current-period obligations are recognized now. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,273,272.64702251,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,350,350.16609236,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
 - litigation: probability of unfavorable outcome ::@:: Whether the entity will lose the case; must be probable for provision. <!--SR:!2026-08-03,79,342!2026-08-06,81,342-->
 - litigation: time period ::@:: When the cause of action arose relative to the reporting date; lawsuit filed before vs after balance sheet date. <!--SR:!2026-08-06,81,342!2026-07-30,75,342-->
-- lawsuit filed after balance sheet date ::@:: No provision in current year; obligation arises next period; provision in next year if criteria met. <!--SR:!fsrs,2027-06-25T00:00:00.000Z,341,341.1928498,1,2,7,0,0,2026-07-19T00:00:00.000Z!2026-07-26,71,326-->
+- lawsuit filed after balance sheet date ::@:: No provision in current year; obligation arises next period; provision in next year if criteria met. <!--SR:!fsrs,2027-06-25T00:00:00.000Z,341,341.1928498,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-07-30T00:00:00.000Z,368,368.01119375,1,2,7,0,0,2026-07-27T00:00:00.000Z-->
 - litigation provision: when recognized? ::@:: When lawsuit is before balance sheet date, probable loss, and amount reliably estimated. <!--SR:!2026-07-27,72,342!2026-08-01,77,342-->
 
 ## best estimate of the amount
@@ -325,7 +325,7 @@ Representative journal entry examples:
 Flashcards for this section are as follows:
 
 - service-type warranty ::@:: Extended or additional warranty purchased separately (e.g. extra years); separate performance obligation; not part of initial product sale; handled separately from assurance-type. <!--SR:!2026-08-06,81,342!fsrs,2027-06-25T00:00:00.000Z,341,341.1928498,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
-- service-type warranty: when does revenue get earned? ::@:: As the entity satisfies the performance obligation over the service period (in the typical example, that period begins after the assurance-type warranty has expired, e.g. years 2–4 if assurance is year 1). <!--SR:!2026-07-26,71,342!2026-08-05,80,342-->
+- service-type warranty: when does revenue get earned? ::@:: As the entity satisfies the performance obligation over the service period (in the typical example, that period begins after the assurance-type warranty has expired, e.g. years 2–4 if assurance is year 1). <!--SR:!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-08-05,80,342-->
 - unearned warranty revenue ::@:: Cash received for service-type warranty is recorded as a liability; recognized as revenue as the performance obligation is satisfied over the service period. <!--SR:!2026-08-06,81,342!2026-08-08,83,342-->
 - service-type warranty: where is cash recorded initially? ::@:: As _Unearned warranty revenue_ (liability); not as sales revenue in year of sale. <!--SR:!2026-08-05,80,342!2026-08-05,80,342-->
 - service-type warranty: how is revenue recognized? ::@:: As the performance obligation is satisfied over the service period, typically straight-line; Dr _Unearned warranty revenue_, Cr _Warranty revenue_. <!--SR:!2026-08-05,80,342!2026-07-28,73,342-->
@@ -362,7 +362,7 @@ Representative journal entry examples:
 > | {@{Premium expense}@}                         | {@{12&nbsp;000}@} |                   |
 > | {@{Premium liability}@}                       |                   | {@{12&nbsp;000}@} |
 >
-> _Calculation._ Expected total bowls from 2025 sales = {@{300&nbsp;000 × 0.60 ÷ 10 = 18&nbsp;000 bowls}@}; bowls already issued in 2025 = {@{60&nbsp;000 ÷ 10 = 6&nbsp;000 bowls}@}; bowls still expected = {@{12&nbsp;000}@}. Net cost per bowl = {@{2 − 1 = 1}@}; required year-end provision = {@{12&nbsp;000 × 1 = 12&nbsp;000}@}. <!--SR:!2026-08-02,78,342!2026-08-07,82,342!fsrs,2027-05-21T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2026-12-20T00:00:00.000Z,167,166.75267024,2.79242837,2,7,0,0,2026-07-06T00:00:00.000Z!2026-07-26,71,342!fsrs,2027-07-01T00:00:00.000Z,346,345.68383473,1,2,7,0,0,2026-07-20T00:00:00.000Z!2026-08-06,81,342!2026-08-07,82,342!fsrs,2026-12-27T00:00:00.000Z,191,191.3492133,1.98030797,2,6,0,0,2026-06-19T00:00:00.000Z!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Calculation._ Expected total bowls from 2025 sales = {@{300&nbsp;000 × 0.60 ÷ 10 = 18&nbsp;000 bowls}@}; bowls already issued in 2025 = {@{60&nbsp;000 ÷ 10 = 6&nbsp;000 bowls}@}; bowls still expected = {@{12&nbsp;000}@}. Net cost per bowl = {@{2 − 1 = 1}@}; required year-end provision = {@{12&nbsp;000 × 1 = 12&nbsp;000}@}. <!--SR:!2026-08-02,78,342!2026-08-07,82,342!fsrs,2027-05-21T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2026-12-20T00:00:00.000Z,167,166.75267024,2.79242837,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!fsrs,2027-07-01T00:00:00.000Z,346,345.68383473,1,2,7,0,0,2026-07-20T00:00:00.000Z!2026-08-06,81,342!2026-08-07,82,342!fsrs,2026-12-27T00:00:00.000Z,191,191.3492133,1.98030797,2,6,0,0,2026-06-19T00:00:00.000Z!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -457,7 +457,7 @@ Representative journal entry examples:
 > | {@{Oil platform (PPE)}@}                | {@{620 921}@} |               |
 > | {@{Environmental liability (ARO)}@}     |               | {@{620 921}@} |
 >
-> _Calculation._ PV = {@{1 000 000 ÷ (1.10^5)}@} = {@{620 921}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-08,83,342!2026-08-02,78,342!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-31,76,342!fsrs,2027-04-23T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-10T00:00:00.000Z!2026-07-26,71,342!2026-07-29,74,337!2026-08-07,82,342-->
+> _Calculation._ PV = {@{1 000 000 ÷ (1.10^5)}@} = {@{620 921}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-08,83,342!2026-08-02,78,342!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-31,76,342!fsrs,2027-04-23T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-07-29,74,337!2026-08-07,82,342-->
 
 <!-- markdownlint MD028 -->
 
@@ -479,7 +479,7 @@ Representative journal entry examples:
 > | {@{Interest expense}@}                         | {@{62 092}@} |              |
 > | {@{Environmental liability (ARO)}@}            |              | {@{62 092}@} |
 >
-> _Calculation._ {@{620 921 × 0.10}@} = {@{62 092}@} (rounded). <!--SR:!2026-07-28,73,326!2026-08-03,79,342!2026-07-27,72,326!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-07-26,71,342!2026-08-07,82,342!2026-08-06,81,342!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Calculation._ {@{620 921 × 0.10}@} = {@{62 092}@} (rounded). <!--SR:!2026-07-28,73,326!2026-08-03,79,342!2026-07-27,72,326!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-08-07,82,342!2026-08-06,81,342!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -498,11 +498,11 @@ Representative journal entry examples:
 Flashcards for this section are as follows:
 
 - asset retirement obligation (ARO) / decommissioning provision ::@:: Provision for dismantling/removing/restoring an asset site at end of useful life; recognized when obligation arises from constructing/installing the asset. <!--SR:!fsrs,2027-07-23T00:00:00.000Z,366,366.22557375,1,2,7,0,0,2026-07-22T00:00:00.000Z!2026-08-03,79,342-->
-- ARO initial measurement ::@:: Best-estimate future cash outflow discounted to present value (use expected value if probabilities are given). <!--SR:!2026-08-05,80,342!2026-07-26,71,342-->
+- ARO initial measurement ::@:: Best-estimate future cash outflow discounted to present value (use expected value if probabilities are given). <!--SR:!2026-08-05,80,342!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z-->
 - ARO initial recognition: why record an asset? ::@:: Because the obligation is necessary to operate the asset and generates future benefits over its useful life; allocate via depreciation, not immediate expense. <!--SR:!fsrs,2027-08-05T00:00:00.000Z,375,375.42777546,1,2,7,0,0,2026-07-26T00:00:00.000Z!2026-08-08,83,342-->
 - ARO subsequent accounting ::@:: Depreciate the capitalized ARO cost over useful life; increase the liability via interest expense so it accretes to the expected settlement amount. <!--SR:!2026-07-28,73,342!2026-07-30,75,342-->
 - asset retirement obligation (ARO): initial recognition entry? ::@:: Recognize liability at PV and capitalize same amount in _PPE_ (Dr _PPE_; Cr _Environmental liability_ (ARO)). <!--SR:!2026-08-08,83,342!fsrs,2027-07-26T00:00:00.000Z,369,368.80018302,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
-- ARO: why record an asset at initial recognition? ::@:: Because the dismantling/restoration obligation is necessary to operate the asset and provides future benefits; allocate via depreciation over useful life. <!--SR:!2026-07-26,71,342!2026-08-05,80,342-->
+- ARO: why record an asset at initial recognition? ::@:: Because the dismantling/restoration obligation is necessary to operate the asset and provides future benefits; allocate via depreciation over useful life. <!--SR:!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-08-05,80,342-->
 - ARO: depreciation of capitalized cost (entry)? ::@:: Dr _Depreciation expense_; Cr _Accumulated depreciation_ (depreciate the capitalized ARO amount over useful life). <!--SR:!2026-08-06,81,342!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
 - ARO: why does the liability increase over time? ::@:: Accretion/interest expense increases the liability from PV at recognition to the expected cash outflow at settlement. <!--SR:!2026-08-08,83,342!2026-08-02,78,342-->
 - ARO: accretion entry? ::@:: Dr _Interest expense_; Cr _Environmental liability_ (ARO) (interest = carrying amount × discount rate). <!--SR:!2026-08-08,83,342!fsrs,2027-08-02T00:00:00.000Z,373,373.43671089,1,2,7,0,0,2026-07-25T00:00:00.000Z-->
@@ -573,7 +573,7 @@ Representative journal entry examples:
 > | {@{Loss on onerous contract}@}                                | {@{80 000}@} |              |
 > | {@{Onerous contract liability}@}                              |              | {@{80 000}@} |
 >
-> _Calculation._ Lower of fulfilment cost {@{200&nbsp;000}@} and exit penalty {@{80&nbsp;000}@} = {@{80&nbsp;000}@}, so the entity provides for the {@{cheaper unavoidable cost}@}. <!--SR:!2026-07-26,71,326!2026-08-07,82,342!2026-08-07,82,342!2026-08-07,82,342!2026-07-30,75,342!fsrs,2027-01-03T11:01:04.639Z,204,203.8653807,1,2,5,0,0,2026-06-13T11:01:04.639Z!fsrs,2027-01-03T10:59:14.517Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:59:14.517Z!fsrs,2027-01-03T10:58:37.503Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:58:37.503Z!fsrs,2027-01-03T09:57:52.183Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:57:52.183Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Calculation._ Lower of fulfilment cost {@{200&nbsp;000}@} and exit penalty {@{80&nbsp;000}@} = {@{80&nbsp;000}@}, so the entity provides for the {@{cheaper unavoidable cost}@}. <!--SR:!fsrs,2027-07-30T00:00:00.000Z,368,368.01119375,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-08-07,82,342!2026-08-07,82,342!2026-08-07,82,342!2026-07-30,75,342!fsrs,2027-01-03T11:01:04.639Z,204,203.8653807,1,2,5,0,0,2026-06-13T11:01:04.639Z!fsrs,2027-01-03T10:59:14.517Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:59:14.517Z!fsrs,2027-01-03T10:58:37.503Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:58:37.503Z!fsrs,2027-01-03T09:57:52.183Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:57:52.183Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 ---
 
@@ -636,7 +636,7 @@ Flashcards for this section are as follows:
 - provision vs contingent liability (course convention) ::@:: Probable outflow (>50%) → recognize provision; possible (~5%–50%) → disclose contingent liability; remote (<5%) → ignore. <!--SR:!2026-08-03,79,342!2026-08-06,81,342-->
 - contingent asset ::@:: Possible asset whose existence depends on uncertain future events; recognize only when virtually certain (~>90%); disclose when probable (>50% but not virtually certain); do not disclose at all if inflow is remote. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
 - contingent gain: recognition rule? ::@:: Never recognize until virtually certain; disclose when probable; do not disclose if remote. Recognizing contingent gains early is not permitted under IFRS. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
-- why higher threshold for contingent assets? ::@:: Conservatism: avoid recognizing gains/asset inflows until virtually certain. <!--SR:!2026-07-26,71,342!2026-08-02,78,342-->
+- why higher threshold for contingent assets? ::@:: Conservatism: avoid recognizing gains/asset inflows until virtually certain. <!--SR:!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-08-02,78,342-->
 
 ## disclosure for provisions (high level)
 

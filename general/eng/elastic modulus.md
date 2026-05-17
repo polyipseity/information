@@ -59,7 +59,7 @@ There are many types of elastic moduli that can be defined. The {@{<!--pytextgen
 - _(begin)_→::@::←_[Young's modulus](Young's%20modulus.md)_ ($E$) <!--SR:!fsrs,2031-12-13T00:00:00.000Z,1999,1999.39584407,1,2,10,0,0,2026-06-23T00:00:00.000Z!2028-11-21,1279,350-->
 - _[Young's modulus](Young's%20modulus.md)_ ($E$)→::@::←_[bulk modulus](bulk%20modulus.md)_ ($K$) <!--SR:!2027-01-27,705,330!2027-05-01,772,330-->
 - _[bulk modulus](bulk%20modulus.md)_ ($K$)→::@::←_[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$) <!--SR:!2028-04-08,938,290!2026-09-18,595,310-->
-- _[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$)→::@::←_[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$) <!--SR:!fsrs,2030-11-19T00:00:00.000Z,1598,1598.38737974,2.98092302,2,10,0,0,2026-07-05T00:00:00.000Z!2026-07-26,558,310-->
+- _[flexural modulus](flexural%20modulus.md)_ ($E_{\text{flex} }$)→::@::←_[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$) <!--SR:!fsrs,2030-11-19T00:00:00.000Z,1598,1598.38737974,2.98092302,2,10,0,0,2026-07-05T00:00:00.000Z!fsrs,2032-04-07T00:00:00.000Z,2081,2081.40602421,1,2,10,0,0,2026-07-27T00:00:00.000Z-->
 - _[shear modulus](shear%20modulus.md)_ or _modulus of rigidity_ ($G$, $S$, or $\mu$)→::@::←_(end)_ <!--SR:!2032-01-21,2089,330!fsrs,2032-02-20T01:43:13.370Z,2075,2074.86104671,1,2,10,0,0,2026-06-16T01:43:13.370Z-->
 
 <!--/pytextgen-->

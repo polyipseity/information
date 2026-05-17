@@ -99,7 +99,7 @@ The content is in teaching order.
 - topic: logistics; introduction
 - COMP 3111H
     - COMP 3111H / logistics
-    - COMP 3111H / textbook ::@:: _Object-Oriented Software Engineering: Using UML, Patterns, and Java, 3/E_, B. Bruegge and A.H. Dutoit, Pearson Education, Inc., 2010. <!--SR:!2026-07-26,237,330!fsrs,2029-05-19T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
+    - COMP 3111H / textbook ::@:: _Object-Oriented Software Engineering: Using UML, Patterns, and Java, 3/E_, B. Bruegge and A.H. Dutoit, Pearson Education, Inc., 2010. <!--SR:!fsrs,2029-06-18T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-27T00:00:00.000Z!fsrs,2029-05-19T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
     - COMP 3111H / tools ::@:: Git, GitHub, Java, <https://app.diagrams.net/>; lab notes, web resources <!--SR:!2026-09-04,269,330!2026-08-09,249,330-->
     - COMP 3111H / grading
     - COMP 3111H / objectives ::@:: _disciplined_ approach to software development, theoretical and practical aspects of software engineering <!--SR:!fsrs,2029-05-14T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-07-19T00:00:00.000Z!2026-09-08,272,330-->
@@ -291,7 +291,7 @@ The content is in teaching order.
     - project management / activities & tasks ::@:: A _task_ is a _well-defined_ work assignment for a role. An _activity_ is a group of _related_ tasks. <!--SR:!2027-06-05,487,398!2027-06-21,502,398-->
         - project management / activities & tasks / principles ::@:: - agile-driven: details are _incrementally_ planned as the project progresses <br/> - plan-driven: details are planned at project _start_ <p> Which one to use highly depends on the project. Often, a combination is the best. <!--SR:!2027-07-06,515,398!2027-05-12,463,383-->
     - project management / schedule ::@:: deliverables \(outputs\), milestones \(_important_ management decision points\), resources assignment, time estimates, ordering \(dependency\) <!--SR:!2027-06-04,486,391!2027-01-21,369,378-->
-        - project management / schedule / levels ::@:: \(high level, rigid\) <br/> - master: client, management <br/> - macro: day-to-day management; e.g. Gantt chart, burndown chart <br/> - micro: team management <br/> \(low level, flexible\) <!--SR:!fsrs,2028-10-25T03:53:40.064Z,872,871.56531267,1,2,8,0,0,2026-06-06T03:53:40.064Z!2026-07-26,217,371-->
+        - project management / schedule / levels ::@:: \(high level, rigid\) <br/> - master: client, management <br/> - macro: day-to-day management; e.g. Gantt chart, burndown chart <br/> - micro: team management <br/> \(low level, flexible\) <!--SR:!fsrs,2028-10-25T03:53:40.064Z,872,871.56531267,1,2,8,0,0,2026-06-06T03:53:40.064Z!fsrs,2029-08-13T00:00:00.000Z,1113,1113.48961531,1,2,9,0,0,2026-07-27T00:00:00.000Z-->
         - project management / schedule / tools ::@:: charts \(Gantt charts, burndown charts, etc.\), graphs \(dependency graphs, etc.\) <!--SR:!2027-07-23,529,398!2027-06-16,498,398-->
     - project management / estimates ::@:: Quantify something before it occurs. It carries inherent _risk_. Ideally, you should have someone with _experience_ on similar projects to estimate them. <p> For a project, things to estimate include cost, duration, effort, productivity, size, etc. <!--SR:!2027-01-18,368,378!2027-07-11,519,398-->
         - project management / estimates / skills ::@:: _courage_, experience, historical data, model <!--SR:!2027-06-18,499,398!2027-04-05,434,383-->

@@ -112,7 +112,7 @@ This can be interpreted as the {@{decomposition of __a__ × __b__}@} into {@{the
 
 - In {@{any basis}@}, {@{the cross-product $a\times b$}@} is given by {@{the tensorial formula $E_{ijk}a^{i}b^{j}$}@} where {@{$E_{ijk}$ is the covariant [Levi-Civita](Levi-Civita%20symbol.md#Levi-Civita%20tensors) tensor}@} \(we note {@{the position of the indices}@}\). That corresponds to {@{the intrinsic formula given [here](#as%20an%20external%20product)}@}.
 - In {@{an orthonormal basis _having the same orientation as the space_}@}, {@{$a\times b$}@} is given by {@{the pseudo-tensorial formula $\varepsilon _{ijk}a^{i}b^{j}$}@} where {@{$\varepsilon _{ijk}$ is the Levi-Civita symbol \(which is a pseudo-tensor\)}@}. That is the formula used {@{for everyday physics}@} but it {@{works only for this special choice of basis}@}.
-- In {@{any orthonormal basis}@}, {@{$a\times b$}@} is given by {@{the pseudo-tensorial formula $(-1)^{B}\varepsilon _{ijk}a^{i}b^{j}$}@} where {@{$(-1)^{B}=\pm 1$ indicates whether the basis has the same orientation as the space or not}@}. <!--SR:!2026-08-30,307,347!2026-09-20,322,347!2026-08-13,291,347!2026-10-17,345,347!2026-09-03,309,347!2026-09-14,318,347!2026-09-07,312,347!2026-09-01,309,347!2026-08-26,302,347!2028-06-26,819,347!2026-10-05,335,347!2026-08-06,287,347!2026-09-17,321,347!2026-09-30,331,347!2026-07-26,278,347!2028-09-29,879,347-->
+- In {@{any orthonormal basis}@}, {@{$a\times b$}@} is given by {@{the pseudo-tensorial formula $(-1)^{B}\varepsilon _{ijk}a^{i}b^{j}$}@} where {@{$(-1)^{B}=\pm 1$ indicates whether the basis has the same orientation as the space or not}@}. <!--SR:!2026-08-30,307,347!2026-09-20,322,347!2026-08-13,291,347!2026-10-17,345,347!2026-09-03,309,347!2026-09-14,318,347!2026-09-07,312,347!2026-09-01,309,347!2026-08-26,302,347!2028-06-26,819,347!2026-10-05,335,347!2026-08-06,287,347!2026-09-17,321,347!2026-09-30,331,347!fsrs,2030-01-31T00:00:00.000Z,1284,1284.28671657,1,2,9,0,0,2026-07-27T00:00:00.000Z!2028-09-29,879,347-->
 
 <!-- markdownlint-restore -->
 
@@ -405,7 +405,7 @@ There are {@{several ways}@} to {@{generalize the cross product to higher dimens
 
 The cross product can be seen as {@{one of the simplest Lie products}@}, and is thus generalized by {@{[Lie algebras](Lie%20algebra.md)}@}, which are {@{axiomatized as binary products}@} satisfying the axioms of {@{multilinearity, skew-symmetry, and the Jacobi identity}@}. {@{Many Lie algebras}@} exist, and {@{their study}@} is {@{a major field of mathematics, called [Lie theory](Lie%20theory.md)}@}. <!--SR:!2026-09-21,324,347!2026-08-23,301,347!2026-07-31,282,347!2026-08-14,292,347!2026-09-25,327,347!2026-09-21,324,347!2026-08-10,291,347-->
 
-For example, {@{the [Heisenberg algebra](Heisenberg%20algebra.md#Heisenberg%20algebra)}@} gives {@{another Lie algebra structure on $\mathbf {R} ^{3}$}@}. In {@{the basis $\{x,y,z\}$}@}, {@{the product}@} is {@{$[x,y]=z,[x,z]=[y,z]=0$}@}. <!--SR:!2026-09-20,322,347!2026-08-15,295,347!2026-10-08,337,347!2026-07-26,278,347!2026-08-15,295,347-->
+For example, {@{the [Heisenberg algebra](Heisenberg%20algebra.md#Heisenberg%20algebra)}@} gives {@{another Lie algebra structure on $\mathbf {R} ^{3}$}@}. In {@{the basis $\{x,y,z\}$}@}, {@{the product}@} is {@{$[x,y]=z,[x,z]=[y,z]=0$}@}. <!--SR:!2026-09-20,322,347!2026-08-15,295,347!2026-10-08,337,347!fsrs,2030-01-31T00:00:00.000Z,1284,1284.28671657,1,2,9,0,0,2026-07-27T00:00:00.000Z!2026-08-15,295,347-->
 
 ### quaternions
 

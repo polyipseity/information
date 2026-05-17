@@ -69,7 +69,7 @@ Since customer jobs has {@{functional and non-functional aspects}@}, the resulti
 
 The concept of customer jobs is based on {@{the jobs to be done theory}@}, which states that {@{customers "hire" a product to do a "job" instead of simply buying a product}@}. <!--SR:!2028-06-16,1177,365!2027-08-22,914,345-->
 
-Customer pains include {@{undesirable things, obstacles, and risks}@}. Make pains {@{concrete}@}. Note that pains {@{can have different severity}@}. <!--SR:!2029-10-15,1480,310!2027-12-17,1025,349!2026-07-26,620,329-->
+Customer pains include {@{undesirable things, obstacles, and risks}@}. Make pains {@{concrete}@}. Note that pains {@{can have different severity}@}. <!--SR:!2029-10-15,1480,310!2027-12-17,1025,349!fsrs,2033-03-28T00:00:00.000Z,2436,2435.89791654,1,2,10,0,0,2026-07-27T00:00:00.000Z-->
 
 Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers}@}; {@{desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2029-09-08,1335,269!2027-02-02,794,349!2028-07-01,1206,350!2027-09-04,475,396-->
 
