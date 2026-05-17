@@ -27,7 +27,7 @@ Customers are {@{potential buyers, defined by their needs which the company inte
 
 ### collaborators
 
-Collaborators are {@{entities working together with the company to fulfill customer needs}@}. For example, it includes {@{distributors, manufacturers, service providers, suppliers, etc.}@} <!--SR:!2033-03-12,2480,350!2026-07-15,486,270-->
+Collaborators are {@{entities working together with the company to fulfill customer needs}@}. For example, it includes {@{distributors, manufacturers, service providers, suppliers, etc.}@} <!--SR:!2033-03-12,2480,350!fsrs,2030-11-13T00:00:00.000Z,1581,1581.15079824,2.98092302,2,10,0,0,2026-07-16T00:00:00.000Z-->
 
 ### climate
 

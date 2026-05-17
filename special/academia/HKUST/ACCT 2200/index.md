@@ -97,9 +97,9 @@ The content is in teaching order.
 
 - datetime: 2025-02-05T12:00:00+08:00/2025-02-05T13:20:00+08:00
 - topic: job order costing
-- [job costing](../../../../general/job%20costing.md) ::@:: accounting which tracks the costs and revenues by "job" and enables standardized reporting of profitability by job <!--SR:!2026-07-15,409,368!2028-08-24,1015,368-->
-  - job costing / the other costing method ::@:: process costing <!--SR:!2031-06-30,1855,388!2026-07-15,409,368-->
-  - job costing / vs. process costing ::@:: approach, cost accumulation, product type, report types <!--SR:!fsrs,2031-05-02T10:15:59.498Z,1789,1789.05958646,1,2,10,0,0,2026-06-08T10:15:59.498Z!2026-07-15,409,368-->
+- [job costing](../../../../general/job%20costing.md) ::@:: accounting which tracks the costs and revenues by "job" and enables standardized reporting of profitability by job <!--SR:!fsrs,2031-10-14T00:00:00.000Z,1916,1915.648255,1,2,10,0,0,2026-07-16T00:00:00.000Z!2028-08-24,1015,368-->
+  - job costing / the other costing method ::@:: process costing <!--SR:!2031-06-30,1855,388!fsrs,2031-10-14T00:00:00.000Z,1916,1915.648255,1,2,10,0,0,2026-07-16T00:00:00.000Z-->
+  - job costing / vs. process costing ::@:: approach, cost accumulation, product type, report types <!--SR:!fsrs,2031-05-02T10:15:59.498Z,1789,1789.05958646,1,2,10,0,0,2026-06-08T10:15:59.498Z!fsrs,2031-10-14T00:00:00.000Z,1916,1915.648255,1,2,10,0,0,2026-07-16T00:00:00.000Z-->
     - job costing / vs. process costing / approach ::@:: customized to the needs of clients or customers; mass produced using standardized processes <!--SR:!fsrs,2031-09-03T00:00:00.000Z,1883,1883.09913581,1,2,10,0,0,2026-07-08T00:00:00.000Z!2031-07-27,1880,388-->
     - job costing / vs. process costing / cost accumulation ::@:: accumulates per customer/project/job; accumulates per process <!--SR:!fsrs,2031-09-08T00:00:00.000Z,1887,1887.17227083,1,2,10,0,0,2026-07-09T00:00:00.000Z!2029-07-21,1274,368-->
     - job costing / vs. process costing / product type ::@:: unique products and services (e.g. construction projects); homogeneous products and services (e.g. soft drinks) <!--SR:!2027-12-19,808,348!2029-11-01,1356,368-->

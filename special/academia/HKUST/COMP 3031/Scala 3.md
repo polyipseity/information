@@ -76,7 +76,7 @@ Every piece of data in Scala has {@{a type}@}. <!--SR:!2026-08-06,251,330-->
 - `Boolean` ::@:: Either true or false. Example: `true`, `false` <!--SR:!2026-09-08,276,330!2026-08-11,255,330-->
 - `Char` ::@:: A single character. Example: `'a'`, `'3'`, `' '` <!--SR:!2026-07-25,241,330!2026-09-29,293,330-->
 - `Double` ::@:: A floating point number with double precision \(15 to 17 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42d`, `5.`, `6.29d`, `3.12D`, `3.14` <!--SR:!2026-08-02,247,330!2026-09-24,289,330-->
-- `Float` ::@:: A floating point number with single precision \(6 to 9 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2026-09-09,276,330!2026-07-15,232,330-->
+- `Float` ::@:: A floating point number with single precision \(6 to 9 significant figures\). One can effectively treat it as a decimal number for most purposes. Example: `42f`, `1.f`, `3.14f`, `9.20F` <!--SR:!2026-09-09,276,330!fsrs,2029-05-18T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-07-16T00:00:00.000Z-->
 - `Int` ::@:: An integer. Example: `42` <!--SR:!2026-09-08,276,330!2026-08-29,267,330-->
 
 {@{This categorization of "primitive types"}@} is not {@{very _rigorous_}@}. See {@{_top types_}@} instead. <!--SR:!2028-07-17,809,435!2028-09-02,856,449!2028-05-19,775,440-->

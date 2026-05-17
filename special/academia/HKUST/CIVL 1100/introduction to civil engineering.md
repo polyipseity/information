@@ -22,7 +22,7 @@ The content is in teaching order.
     - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2027-07-20,938,370!2031-06-29,2090,397-->
     - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2032-08-01,2335,357!2030-03-21,1632,385-->
   - engineer, according to the World Federation of Engineering Organizations (WFEO)
-    - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!2026-07-15,628,355!2028-04-08,1138,350-->
+    - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!fsrs,2033-11-11T00:00:00.000Z,2675,2674.83899648,1,2,10,0,0,2026-07-16T00:00:00.000Z!2028-04-08,1138,350-->
     - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2027-09-11,974,365!2028-12-01,1346,385-->
   - [engineer types](#engineer%20types)
   - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2029-12-19,1593,319!2026-08-28,633,330-->

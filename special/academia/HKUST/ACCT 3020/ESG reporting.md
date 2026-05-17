@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 
 - ESG: what the letters stand for ::@:: Environmental, social, and governance. <!--SR:!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-05-23T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
 - ESG: examples of environmental issues ::@:: Greenhouse gas emissions, energy consumption and efficiency, waste reduction and recycling, and climate-change strategies. <!--SR:!fsrs,2027-05-02T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-04-26T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
-- ESG: examples of social issues ::@:: Fair wages, employee benefits, occupational safety and health, training and development, diversity and inclusion, and community impact. <!--SR:!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z!2026-07-15,65,310-->
+- ESG: examples of social issues ::@:: Fair wages, employee benefits, occupational safety and health, training and development, diversity and inclusion, and community impact. <!--SR:!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-06-02T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
 - ESG: examples of governance issues ::@:: Board structure and oversight, internal control and risk management, anti–corruption and anti–bribery policies and procedures. <!--SR:!fsrs,2027-05-28T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 - ESG in this course: main focus ::@:: Understand what ESG means, why it affects risk and valuation, and how it is reported and regulated in Hong Kong, rather than computing detailed emission factors. <!--SR:!fsrs,2027-05-18T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-04-10T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 
@@ -102,7 +102,7 @@ In Hong Kong, listed companies must follow the stock exchange's ESG reporting re
 
 Flashcards for this section are as follows:
 
-- Hong Kong ESG reporting framework: big-picture structure ::@:: Listed companies follow a stock-exchange ESG framework built around mandatory disclosures plus comply-or-explain disclosures. <!--SR:!2026-07-15,65,328!2026-07-24,73,328-->
+- Hong Kong ESG reporting framework: big-picture structure ::@:: Listed companies follow a stock-exchange ESG framework built around mandatory disclosures plus comply-or-explain disclosures. <!--SR:!fsrs,2027-06-25T00:00:00.000Z,344,343.6736239,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-07-24,73,328-->
 - Hong Kong ESG reporting framework: why does the split matter? ::@:: It tells users which disclosures every issuer must provide and where an issuer has flexibility only if it explains the gap clearly. <!--SR:!2026-07-19,69,328!2026-07-21,71,328-->
 
 ### mandatory versus comply-or-explain
@@ -249,7 +249,7 @@ Clear disclosure of both material topics and reporting boundary helps users unde
 Flashcards for this section are as follows:
 
 - ESG: what is materiality assessment used for? ::@:: To identify which ESG topics are important enough to warrant detailed disclosure, based on impact on the business and stakeholders. <!--SR:!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-05-12T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
-- ESG: what is reporting boundary? ::@:: The set of operations, entities, or regions included in the ESG data (e.g. specific subsidiaries or countries). <!--SR:!2026-07-15,65,310!fsrs,2027-05-23T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
+- ESG: what is reporting boundary? ::@:: The set of operations, entities, or regions included in the ESG data (e.g. specific subsidiaries or countries). <!--SR:!fsrs,2027-06-02T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-05-23T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
 - ESG boundary: why disclosure is important ::@:: Without a clear boundary, readers might wrongly assume ESG numbers cover the whole group, making comparisons misleading. <!--SR:!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
 
 ## current developments: HKFRS S1 and HKFRS S2

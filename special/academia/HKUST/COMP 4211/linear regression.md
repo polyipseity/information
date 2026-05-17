@@ -240,7 +240,7 @@ For two input variables, the lecture's mapping $\phi(x)=[1,x_1,x_2,x_1^2,x_1x_2,
 Flashcards for this section are as follows:
 
 - scalar degree-2 example: If $\phi(x)=[1,x,x^2]^\top$, $(w_0,w_1,w_2)=(1,-3,2)$, and $x=2$, what is $\hat y$? ::@:: The prediction is $\hat y = 1 - 3\cdot 2 + 2\cdot 2^2 = 3$. <!--SR:!2026-08-03,83,341!2026-08-11,86,353-->
-- two-variable degree-2 feature map example: If $x=[1,2,3]^\top$, what is $\phi(x)$ for degree $2$? ::@:: The transformed vector is $\phi(x)=[1,2,3,4,6,9]^\top$. <!--SR:!2026-07-15,64,324!2026-07-16,65,324-->
+- two-variable degree-2 feature map example: If $x=[1,2,3]^\top$, what is $\phi(x)$ for degree $2$? ::@:: The transformed vector is $\phi(x)=[1,2,3,4,6,9]^\top$. <!--SR:!fsrs,2027-06-15T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-07-16,65,324-->
 
 ## hypothesis space, capacity, and generalization
 
@@ -437,8 +437,8 @@ In special settings this threshold picture becomes explicit. For example, with o
 Flashcards for this section are as follows:
 
 - what $\lVert w\rVert_2^2$ means ::@:: The squared $L_2$ penalty is $\lVert w\rVert_2^2 = \sum_j w_j^2$, the sum of squared coefficient magnitudes. <!--SR:!2026-07-24,69,324!2026-08-06,81,341-->
-- why squaring changes the ridge penalty ::@:: Squaring means large coefficients are punished disproportionately, so ridge strongly discourages a few very large weights. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-15,61,310-->
-- ridge regularization gradient ::@:: Since $\|w\|_2^2=\sum_j w_j^2$, differentiating gives $\nabla_w\bigl(\lambda\|w\|_2^2\bigr)=2\lambda w$. <!--SR:!2026-07-15,64,324!2026-07-29,78,341-->
+- why squaring changes the ridge penalty ::@:: Squaring means large coefficients are punished disproportionately, so ridge strongly discourages a few very large weights. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-05-16T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
+- ridge regularization gradient ::@:: Since $\|w\|_2^2=\sum_j w_j^2$, differentiating gives $\nabla_w\bigl(\lambda\|w\|_2^2\bigr)=2\lambda w$. <!--SR:!fsrs,2027-06-15T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-07-29,78,341-->
 - ridge gradient interpretation ::@:: The ridge term adds $2\lambda w$ to the data-fit gradient, so every coefficient feels a smooth pull directly toward zero. <!--SR:!2026-08-05,85,353!2026-08-11,86,353-->
 - why the bias has no regularization gradient ::@:: Because the bias term $w_0$ is excluded from the penalty, the regularizer contributes $0$ to the derivative with respect to $w_0$. <!--SR:!2026-08-06,86,353!2026-07-26,75,324-->
 - what $\lVert w\rVert_1$ means ::@:: The $L_1$ penalty is $\lVert w\rVert_1 = \sum_j |w_j|$, the sum of absolute coefficient magnitudes. <!--SR:!2026-08-11,86,353!2026-08-11,86,353-->

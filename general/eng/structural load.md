@@ -149,7 +149,7 @@ For example, {@{a beam in between two fixed support}@} creates {@{thermal load u
 
 ### load combinations
 
-{@{Load (amplifying) factors}@} are used in {@{design equations to increase the design loads}@}, to {@{account for uncertainties involved when estimating loads}@}. An example is {@{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}@}. <!--SR:!2028-10-11,1253,350!2028-03-24,1096,350!2026-07-15,560,320!2027-09-12,936,340-->
+{@{Load (amplifying) factors}@} are used in {@{design equations to increase the design loads}@}, to {@{account for uncertainties involved when estimating loads}@}. An example is {@{_U_ = 1.2 _D_ + 1.6 _L_, where _D_ is the dead load and _L_ is the live load}@}. <!--SR:!2028-10-11,1253,350!2028-03-24,1096,350!fsrs,2032-06-16T00:00:00.000Z,2162,2161.8812223,1,2,10,0,0,2026-07-16T00:00:00.000Z!2027-09-12,936,340-->
 
 ## references
 

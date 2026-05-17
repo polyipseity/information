@@ -51,7 +51,7 @@ The content is in teaching order.
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
   - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::@:: "The purpose of a business is to create and keep a customer." <!--SR:!2026-09-02,634,335!2033-11-10,2740,375-->
-  - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::@:: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!2026-07-15,597,335!2030-08-15,1719,335-->
+  - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::@:: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!fsrs,2033-02-12T00:00:00.000Z,2403,2403.44426229,1,2,10,0,0,2026-07-16T00:00:00.000Z!2030-08-15,1719,335-->
   - [§ importance](../../../../general/customer%20development.md#importance)
   - [§ customer discovery](../../../../general/customer%20development.md#customer%20discovery)
   - [§ customer validation](../../../../general/customer%20development.md#customer%20validation)

@@ -107,7 +107,7 @@ See [Colosseum](../../../../general/Colosseum.md).
 - description ::@:: elliptical amphitheater in the center of Rome <!--SR:!2029-03-11,1379,396!2031-11-15,2165,396-->
 - geographic location ::@:: Rome <!--SR:!2033-05-11,2640,416!2026-11-08,740,416-->
 - height ::@:: 48 m (4 storeys) <!--SR:!2029-01-17,1163,296!2026-12-23,772,416-->
-- importance ::@:: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!2026-07-15,628,396!2034-07-16,3001,416-->
+- importance ::@:: largest amphitheater in the Roman Empire, greatest works of Roman architecture and engineering <!--SR:!fsrs,2034-03-13T00:00:00.000Z,2797,2796.83602276,1,2,10,0,0,2026-07-16T00:00:00.000Z!2034-07-16,3001,416-->
 
 ## Eiffel Tower
 

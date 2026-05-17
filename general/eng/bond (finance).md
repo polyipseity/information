@@ -51,7 +51,7 @@ Bonds are often identified by {@{their international securities identification n
 
 ## etymology
 
-In {@{[English](English%20language.md)}@}, {@{the word "[bond](https://en.wiktionary.org/wiki/bond)"}@} relates to {@{the etymology of "bind"}@}. {@{The use of the word "bond"}@} in this sense of {@{an "instrument binding one to pay a sum to another"}@} dates {@{from at least the 1590s}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-09-14,342,361!2027-01-03,435,383!2029-05-19,1100,354!2026-12-16,420,383!2026-07-15,211,363!2027-01-09,440,383-->
+In {@{[English](English%20language.md)}@}, {@{the word "[bond](https://en.wiktionary.org/wiki/bond)"}@} relates to {@{the etymology of "bind"}@}. {@{The use of the word "bond"}@} in this sense of {@{an "instrument binding one to pay a sum to another"}@} dates {@{from at least the 1590s}@}.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup> <!--SR:!2026-09-14,342,361!2027-01-03,435,383!2029-05-19,1100,354!2026-12-16,420,383!fsrs,2029-06-14T00:00:00.000Z,1064,1063.87353392,1,2,9,0,0,2026-07-16T00:00:00.000Z!2027-01-09,440,383-->
 
 ## issuance
 

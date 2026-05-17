@@ -44,7 +44,7 @@ __Optimal product mix__ ::@:: <p> The combination of products produced by the ec
 
 ### a numerical example of allocative efficiency
 
-{@{Allocation efficiency occurs}@} when {@{there is an optimal distribution of goods and services, considering consumer's preference}@}. When {@{the price equals marginal cost of production}@}, {@{the allocation efficiency is at the output level}@}. This is because {@{the optimal distribution is achieved when the marginal utility of good equals the marginal cost}@}. {@{The price that consumer is willing to pay}@} is {@{same as the marginal utility of the consumer}@}. <!--SR:!2028-10-18,1119,354!2029-08-20,1282,356!2026-07-15,449,314!fsrs,2031-02-17T00:00:00.000Z,1704,1704.14694164,1,2,10,0,0,2026-06-19T00:00:00.000Z!2027-12-23,885,356!2029-08-25,1362,354!2030-12-19,1767,376-->
+{@{Allocation efficiency occurs}@} when {@{there is an optimal distribution of goods and services, considering consumer's preference}@}. When {@{the price equals marginal cost of production}@}, {@{the allocation efficiency is at the output level}@}. This is because {@{the optimal distribution is achieved when the marginal utility of good equals the marginal cost}@}. {@{The price that consumer is willing to pay}@} is {@{same as the marginal utility of the consumer}@}. <!--SR:!2028-10-18,1119,354!2029-08-20,1282,356!fsrs,2031-04-26T00:00:00.000Z,1745,1745.02357934,1,2,10,0,0,2026-07-16T00:00:00.000Z!fsrs,2031-02-17T00:00:00.000Z,1704,1704.14694164,1,2,10,0,0,2026-06-19T00:00:00.000Z!2027-12-23,885,356!2029-08-25,1362,354!2030-12-19,1767,376-->
 
 > {@{![allocative efficiency example](../../archives/Wikimedia%20Commons/Allocative-efficiency-numbers.png)}@}
 >
