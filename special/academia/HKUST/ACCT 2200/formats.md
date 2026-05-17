@@ -386,7 +386,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - contribution margin income statement ::@:: headers, products & overall, row headers <!--SR:!2026-11-09,463,401!2027-01-11,507,401-->
   - contribution margin income statement / headers ::@:: \(company name\), contribution margin income statement, based on breakeven/target profit of &dollar;\(target profit\) <!--SR:!2026-11-17,469,401!2026-11-19,471,401-->
-  - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both <!--SR:!2026-07-16,363,381!2026-10-31,455,401-->
+  - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both <!--SR:!fsrs,2031-04-20T00:00:00.000Z,1738,1737.65329977,1,2,10,0,0,2026-07-17T00:00:00.000Z!2026-10-31,455,401-->
   - contribution margin income statement / row headers ::@:: sales revenue, less: variable costs, contribution margin, less: fixed costs, net operating income <!--SR:!2026-12-05,474,401!2027-01-05,502,401-->
   - contribution margin income statement / sub-formats ::@:: Only using overall gives the income statement under variable costing. <!--SR:!2026-11-04,459,401!2026-11-18,470,401-->
 

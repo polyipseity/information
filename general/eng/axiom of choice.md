@@ -46,7 +46,7 @@ Although {@{originally controversial}@}, the axiom of choice is {@{now used with
 
 In {@{this article and other discussions of the Axiom of Choice}@} {@{the following abbreviations are common}@}: <!--SR:!2026-12-13,370,364!2026-12-14,371,364-->
 
-- AC – ::@:: the Axiom of Choice. More rarely, AoC is used.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-07-16,244,330!2026-10-01,309,347-->
+- AC – ::@:: the Axiom of Choice. More rarely, AoC is used.<sup>[\[5\]](#^ref-5)</sup> <!--SR:!fsrs,2029-07-05T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-07-17T00:00:00.000Z!2026-10-01,309,347-->
 - ZF – ::@:: [Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md) omitting the Axiom of Choice. <!--SR:!2026-12-22,376,364!2026-10-26,327,347-->
 - ZFC – ::@:: Zermelo–Fraenkel set theory, extended to include the Axiom of Choice. <!--SR:!2026-11-13,344,364!2027-01-10,392,364-->
 
@@ -276,7 +276,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - \(annotation: {@{weaker than}@} AC\) {@{The [Banach–Alaoglu theorem](Banach–Alaoglu%20theorem.md)}@} about {@{[compactness](compactness.md)}@} of {@{sets of functionals}@}. <!--SR:!fsrs,2029-05-15T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-05T00:00:00.000Z!2026-11-30,359,364!2026-09-30,308,347!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
 
-  - \(annotation: {@{weaker than}@} AC\) {@{The [Baire category theorem](Baire%20category%20theorem.md)}@} about {@{[complete](complete%20space.md) [metric spaces](metric%20space.md)}@}, and {@{its consequences}@}, such as {@{the [open mapping theorem](open%20mapping%20theorem%20(functional%20analysis).md) and the [closed graph theorem](closed%20graph%20theorem.md)}@}. <!--SR:!2026-09-30,308,347!2027-01-09,391,364!2026-11-10,339,347!2026-07-16,179,344!fsrs,2028-09-12T00:00:00.000Z,805,805.32875921,1,2,8,0,0,2026-06-30T00:00:00.000Z-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Baire category theorem](Baire%20category%20theorem.md)}@} about {@{[complete](complete%20space.md) [metric spaces](metric%20space.md)}@}, and {@{its consequences}@}, such as {@{the [open mapping theorem](open%20mapping%20theorem%20(functional%20analysis).md) and the [closed graph theorem](closed%20graph%20theorem.md)}@}. <!--SR:!2026-09-30,308,347!2027-01-09,391,364!2026-11-10,339,347!fsrs,2028-12-02T00:00:00.000Z,869,868.63038952,1,2,8,0,0,2026-07-17T00:00:00.000Z!fsrs,2028-09-12T00:00:00.000Z,805,805.32875921,1,2,8,0,0,2026-06-30T00:00:00.000Z-->
 
   - \(annotation: {@{weaker than}@} AC\) On {@{every infinite-dimensional}@} {@{topological vector space}@} there is {@{a [discontinuous linear map](discontinuous%20linear%20map.md)}@}. <!--SR:!fsrs,2028-12-18T02:13:54.317Z,918,918.34606314,1,2,9,0,0,2026-06-14T02:13:54.317Z!2026-11-26,355,364!2028-06-25,788,347!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
 

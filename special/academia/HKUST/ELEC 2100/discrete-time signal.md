@@ -89,7 +89,7 @@ Flashcards for this section are as follows:
 
 - What is the unit sample sequence? ::@:: It is the discrete-time impulse $\delta[n]$, equal to $1$ at $n=0$ and $0$ for all other indices. <!--SR:!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-08-07,67,310-->
 - Why is the discrete-time impulse different from the continuous-time impulse? ::@:: The discrete-time impulse is an ordinary sequence, whereas the continuous-time impulse is a generalized function. <!--SR:!2026-08-07,67,310!2026-07-21,67,310-->
-- What does $\delta[n-j]$ represent? ::@:: It is a shifted unit sample located at index $n=j$. <!--SR:!2026-07-16,62,310!2026-08-07,67,310-->
+- What does $\delta[n-j]$ represent? ::@:: It is a shifted unit sample located at index $n=j$. <!--SR:!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-07,67,310-->
 - What does $c\,\delta[n-j]$ represent? ::@:: It is a shifted unit sample at index $n=j$ with value $c$ instead of $1$. <!--SR:!2026-08-01,61,310!2026-07-20,66,310-->
 - What is the sampling property of the discrete-time impulse at the origin? ::@:: It is $f[n]\delta[n]=f[0]\delta[n]$. <!--SR:!2026-07-20,66,310!2026-07-21,67,310-->
 - How can an arbitrary discrete-time sequence be represented using shifted unit samples? ::@:: It can be written as $x[n]=\sum_{m=-\infty}^{\infty}x[m]\delta[n-m]$. <!--SR:!2026-08-06,66,310!2026-08-02,62,310-->
@@ -111,7 +111,7 @@ These formulas show three useful viewpoints at once: the step view emphasizes sw
 Flashcards for this section are as follows:
 
 - What is the discrete-time unit step sequence? ::@:: It is $u[n]=1$ for $n\ge 0$ and $u[n]=0$ for $n<0$. <!--SR:!2026-08-07,67,310!2026-08-04,64,310-->
-- How can the discrete-time unit step be written as a sum of unit samples? ::@:: It can be written as $u[n]=\sum_{k=0}^{\infty}\delta[n-k]$. <!--SR:!2026-07-16,62,310!2026-08-06,66,310-->
+- How can the discrete-time unit step be written as a sum of unit samples? ::@:: It can be written as $u[n]=\sum_{k=0}^{\infty}\delta[n-k]$. <!--SR:!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-06,66,310-->
 - What is the relation between the unit sample and the unit step in discrete time? ::@:: They satisfy $\delta[n]=u[n]-u[n-1]$. <!--SR:!fsrs,2027-05-10T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-14T00:00:00.000Z!2026-07-17,46,290-->
 - What is a rectangular sequence of length $N$, including its endpoint convention? ::@:: It is $R_N[n]=1$ for $0\le n\le N-1$ and $0$ otherwise, so $n=0$ is included and $n=N$ is excluded. <!--SR:!2026-08-05,65,310!fsrs,2027-04-19T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - How can the rectangular sequence be written using unit steps? ::@:: It can be written as $R_N[n]=u[n]-u[n-N]$. <!--SR:!2026-08-03,63,310!2026-07-19,65,310-->
@@ -138,7 +138,7 @@ Flashcards for this section are as follows:
 - How does $x[n]=a^n u[n]$ behave when $a>1$? ::@:: It stays positive and grows without bound. <!--SR:!2026-08-06,66,310!fsrs,2027-05-16T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
 - How does $x[n]=a^n u[n]$ behave when $-1<a<0$? ::@:: It alternates sign while its magnitude decays toward zero. <!--SR:!fsrs,2027-05-10T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - How does $x[n]=a^n u[n]$ behave when $a<-1$? ::@:: It alternates sign while its magnitude grows. <!--SR:!fsrs,2027-04-24T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-08-07,67,310-->
-- Why is the sign of $a$ important in a one-sided exponential sequence $x[n]=a^n u[n]$? ::@:: Magnitude $|a|$ determines decay/growth independently of sign: $|a|<1$ decays, $|a|>1$ grows. <br/> Sign determines oscillation: $a>0$ means all samples have the same sign (monotone); $a<0$ means $a^n=(-|a|)^n=|a|^n\cdot(-1)^n$, so sign flips every step (alternating). <br/> Examples: $a=0.5$ → $1,0.5,0.25,\ldots$ (monotone decay); $a=-0.5$ → $1,-0.5,0.25,-0.125,\ldots$ (alternating decay); $a=-1.5$ → $1,-1.5,2.25,-3.375,\ldots$ (alternating growth). <!--SR:!fsrs,2027-04-24T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-16,62,310-->
+- Why is the sign of $a$ important in a one-sided exponential sequence $x[n]=a^n u[n]$? ::@:: Magnitude $|a|$ determines decay/growth independently of sign: $|a|<1$ decays, $|a|>1$ grows. <br/> Sign determines oscillation: $a>0$ means all samples have the same sign (monotone); $a<0$ means $a^n=(-|a|)^n=|a|^n\cdot(-1)^n$, so sign flips every step (alternating). <br/> Examples: $a=0.5$ → $1,0.5,0.25,\ldots$ (monotone decay); $a=-0.5$ → $1,-0.5,0.25,-0.125,\ldots$ (alternating decay); $a=-1.5$ → $1,-1.5,2.25,-3.375,\ldots$ (alternating growth). <!--SR:!fsrs,2027-04-24T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 
 ## sinusoidal and complex exponential sequences
 
@@ -162,11 +162,11 @@ The comparison between the real sinusoid and the complex exponential is importan
 
 Flashcards for this section are as follows:
 
-- What is a discrete-time sinusoidal sequence? ::@:: It is a sequence such as $x[n]=\sin(\omega n)$ or more generally $x[n]=A\sin(\omega n+\phi)$. <!--SR:!2026-07-16,62,310!2026-07-19,65,310-->
+- What is a discrete-time sinusoidal sequence? ::@:: It is a sequence such as $x[n]=\sin(\omega n)$ or more generally $x[n]=A\sin(\omega n+\phi)$. <!--SR:!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-07-19,65,310-->
 - How does sampling a continuous-time sinusoid produce a discrete-time sinusoid? ::@:: Sampling $x(t)=A\sin(\omega_0 t+\phi)$ at interval $T_s$ gives $x[n]=A\sin(\omega_0 T_s n+\phi)=A\sin(\omega n+\phi)$. <!--SR:!2026-08-06,66,310!2026-08-07,67,310-->
 - What is the digital angular frequency $\omega$? ::@:: It is the discrete-time angular frequency in radians per sample, with $\omega=\omega_0 T_s=2\pi f_0/f_s$ for a sampled sinusoid. <!--SR:!2026-08-03,63,310!2026-08-07,67,310-->
 - When is a discrete-time sinusoidal sequence periodic? ::@:: It is periodic only if there exists a positive integer $N$ such that $\omega N=2\pi m$ for some integer $m$, equivalently if $\omega/(2\pi)$ is rational. <!--SR:!2026-08-07,67,310!fsrs,2027-05-10T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
-- If $\omega/(2\pi)=m/N_0$ is in lowest terms, what are the sequence's fundamental period and fundamental digital frequency? ::@:: The fundamental period is $N_0$ samples, and the fundamental digital frequency is $2\pi/N_0$ radians per sample; the sinusoid itself is the harmonic with index $m$. <!--SR:!2026-07-16,63,310!2026-08-06,66,310-->
+- If $\omega/(2\pi)=m/N_0$ is in lowest terms, what are the sequence's fundamental period and fundamental digital frequency? ::@:: The fundamental period is $N_0$ samples, and the fundamental digital frequency is $2\pi/N_0$ radians per sample; the sinusoid itself is the harmonic with index $m$. <!--SR:!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-06,66,310-->
 - Why should the written angular parameter in a discrete-time cosine not be confused automatically with the sequence's fundamental digital frequency? ::@:: Because digital frequency is defined modulo $2\pi$, and the displayed cosine may be a higher harmonic on the sequence's fundamental grid rather than the fundamental itself. <!--SR:!2026-08-06,66,310!2026-08-04,64,310-->
 - Why can a discrete-time sinusoid be aperiodic even though a continuous-time sinusoid is always periodic? ::@:: Because discrete time requires an integer period in samples, so periodicity depends on whether $\omega/(2\pi)$ is rational or irrational. <!--SR:!fsrs,2027-05-21T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - How should one select one full period from a finite displayed periodic sequence? ::@:: Start at the smallest valid displayed signal index and count one block of $N_0$ consecutive samples, where $N_0$ is the fundamental period. <!--SR:!2026-08-07,67,310!2026-08-07,67,310-->
@@ -177,7 +177,7 @@ Flashcards for this section are as follows:
 - Worked example: Given $x[n]=\sin((4\pi/11)n)$, what is its period and how many cycles occur in that period? ::@:: Step 1: solve $(4\pi/11)N=2\pi m$. <br/> Step 2: choose $m=2$, which gives $N=11$. <br/> Step 3: over $11$ samples the phase advance is $4\pi$, i.e. two full cycles, so the period is $11$ and the sequence completes two cycles in that period. <!--SR:!fsrs,2027-05-10T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-05-05T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-13T00:00:00.000Z-->
 - Worked example: Why is $x[n]=\sin(0.4n)$ aperiodic? ::@:: Step 1: periodicity would require $0.4N=2\pi m$ for integers $N,m$. <br/> Step 2: equivalently, $0.4/(2\pi)=m/N$ would have to be rational. <br/> Step 3: since $0.4/(2\pi)$ is irrational, no such positive integer $N$ exists, so the sequence is aperiodic. <!--SR:!2026-07-20,66,310!2026-08-05,65,310-->
 - What is the discrete-time complex exponential sequence? ::@:: It is $x[n]=e^{j\omega n}=\cos(\omega n)+j\sin(\omega n)$. <!--SR:!fsrs,2027-05-21T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-08-07,67,310-->
-- What are the magnitude and phase of $e^{j\omega n}$? ::@:: Its magnitude is $1$, and its phase is $\omega n$. <!--SR:!2026-08-06,66,310!2026-07-16,63,310-->
+- What are the magnitude and phase of $e^{j\omega n}$? ::@:: Its magnitude is $1$, and its phase is $\omega n$. <!--SR:!2026-08-06,66,310!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 - When is a discrete-time complex exponential sequence periodic? ::@:: It is periodic if and only if $\omega/(2\pi)$ is rational. <!--SR:!2026-07-17,63,310!2026-07-18,64,310-->
 - What is the effect of irrationality on the periodicity of $e^{j\omega n}$? ::@:: If $\omega/(2\pi)$ is irrational, the phasor never returns exactly to the same complex value after any positive integer number of samples, so the sequence is aperiodic. <!--SR:!2026-08-02,62,310!2026-08-01,61,310-->
 
@@ -197,8 +197,8 @@ As a simple arithmetic example, if $x[n]=\{1,2,3,4\}$ and $y[n]=\{1,1,1,0\}$, th
 
 Flashcards for this section are as follows:
 
-- What is pointwise summation of two sequences? ::@:: It forms $z[n]=x[n]+y[n]$ by adding samples at the same index. <!--SR:!2026-07-16,62,310!2026-08-05,65,310-->
-- What is pointwise multiplication of two sequences? ::@:: It forms $z[n]=x[n]y[n]$ by multiplying samples at the same index. <!--SR:!2026-07-16,63,310!2026-07-16,63,310-->
+- What is pointwise summation of two sequences? ::@:: It forms $z[n]=x[n]+y[n]$ by adding samples at the same index. <!--SR:!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-05,65,310-->
+- What is pointwise multiplication of two sequences? ::@:: It forms $z[n]=x[n]y[n]$ by multiplying samples at the same index. <!--SR:!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 - What is scaling of a discrete-time sequence? ::@:: It forms $z[n]=ax[n]$, multiplying every sample value by the same constant $a$. <!--SR:!2026-08-01,61,310!2026-07-18,64,310-->
 - Why must indices be aligned before adding or multiplying sequences? ::@:: Because pointwise operations combine values at the same index rather than values that merely appear next to each other in a list. <!--SR:!2026-08-02,62,310!2026-08-05,65,310-->
 - What is the difference between scaling and shifting? ::@:: Scaling changes sample values without moving their positions, whereas shifting moves sample positions without changing the underlying sample values. <!--SR:!2026-08-07,67,310!2026-08-02,62,310-->
@@ -222,10 +222,10 @@ For example, if $x[n]=0$ for $n<0$ and $x[0]=1$, $x[1]=2$, $x[2]=3$, $x[3]=4$, t
 
 Flashcards for this section are as follows:
 
-- What is the forward difference of a sequence? ::@:: It is $\Delta x[n]=x[n+1]-x[n]$. <!--SR:!2026-08-06,66,310!2026-07-16,62,310-->
+- What is the forward difference of a sequence? ::@:: It is $\Delta x[n]=x[n+1]-x[n]$. <!--SR:!2026-08-06,66,310!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 - What is the backward difference of a sequence? ::@:: It is $\nabla x[n]=x[n]-x[n-1]$. <!--SR:!2026-07-21,67,310!2026-08-01,61,310-->
 - What is the difference between forward and backward difference? ::@:: Forward difference compares the current sample with the next one, whereas backward difference compares the current sample with the previous one. <!--SR:!2026-07-19,65,310!2026-08-07,67,310-->
-- What is the running sum of a discrete-time sequence? ::@:: It is $y[n]=\sum_{k=-\infty}^{n}x[k]$, the cumulative sum of all samples up to index $n$. <!--SR:!2026-07-20,66,310!2026-07-16,63,310-->
+- What is the running sum of a discrete-time sequence? ::@:: It is $y[n]=\sum_{k=-\infty}^{n}x[k]$, the cumulative sum of all samples up to index $n$. <!--SR:!2026-07-20,66,310!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 - Why is the running sum not a pointwise operation? ::@:: Because each output value depends on many past samples rather than only on the sample at the same index. <!--SR:!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-07-18,64,310-->
 - Worked example: If $x[0]=1$, $x[1]=2$, $x[2]=3$, and $x[3]=4$ with earlier samples zero, what are the first four running-sum values? ::@:: Step 1: $y[0]=x[0]=1$. <br/> Step 2: $y[1]=x[0]+x[1]=1+2=3$. <br/> Step 3: $y[2]=x[0]+x[1]+x[2]=1+2+3=6$. <br/> Step 4: $y[3]=x[0]+x[1]+x[2]+x[3]=1+2+3+4=10$. <!--SR:!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z!fsrs,2027-05-21T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
 
@@ -271,5 +271,5 @@ Flashcards for this section are as follows:
 - What is the total energy of a discrete-time sequence? ::@:: It is $E=\sum_{n=-\infty}^{\infty}|x[n]|^2$ when the infinite sum converges. <!--SR:!2026-08-06,66,310!2026-08-04,64,310-->
 - What is the average power of an aperiodic discrete-time sequence? ::@:: It is $P=\lim_{K\to\infty}\frac{1}{2K+1}\sum_{n=-K}^{K}|x[n]|^2$. <!--SR:!2026-08-07,67,310!2026-08-03,63,310-->
 - What is the average power of a periodic sequence with period $N$? ::@:: It is $P=\frac{1}{N}\sum_{n=0}^{N-1}|x[n]|^2$. <!--SR:!2026-08-06,66,310!2026-08-05,65,310-->
-- How do energy sequences and power sequences differ in discrete time? ::@:: A finite-length sequence is typically an energy sequence with zero average power, whereas a nonzero periodic sequence is typically a power sequence with infinite total energy. <!--SR:!2026-08-04,64,310!2026-07-16,63,310-->
+- How do energy sequences and power sequences differ in discrete time? ::@:: A finite-length sequence is typically an energy sequence with zero average power, whereas a nonzero periodic sequence is typically a power sequence with infinite total energy. <!--SR:!2026-08-04,64,310!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 - Worked example: If the nonzero samples of a sequence are $1,2,3,4$, what is its energy? ::@:: Step 1: square the nonzero samples to get $1,4,9,16$. <br/> Step 2: add them to obtain $1+4+9+16=30$. <br/> Step 3: therefore the sequence energy is $30$. <!--SR:!2026-08-02,62,310!2026-08-02,62,310-->

@@ -77,7 +77,7 @@ The eye pattern of {@{a [NRZ](non-return-to-zero.md) \(annotation: non-return-to
 
 > {@{![Eye pattern of a 1.25 Gbit/s NRZ signal](../../archives/Wikimedia%20Commons/Eye%20pattern%20example.png)}@}
 >
-> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} <!--SR:!2026-08-10,259,330!2026-07-16,240,330!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z-->
+> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} <!--SR:!2026-08-10,259,330!fsrs,2029-06-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-17T00:00:00.000Z!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z-->
 
 ### MLT-3
 
@@ -115,7 +115,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 {@{[Emphasis](emphasis%20(telecommunications).md)}@} applied to a signal produces {@{an additional level for each value of the signal}@} which is {@{higher \(for pre-emphasis\) or lower \(for de-emphasis\) than the nominal value}@}. <!--SR:!2026-07-28,250,330!2026-08-31,276,330!2026-08-25,272,330-->
 
-{@{The eye pattern for a signal with emphasis}@} may be mistaken for that of {@{a PAM signal}@} at first glance, however {@{closer inspection}@} reveals {@{some key differences}@}. Most notably, {@{an emphasized signal}@} has {@{a limited set of legal transitions}@}: <!--SR:!2026-08-16,264,330!2026-08-28,273,330!2026-09-15,288,330!fsrs,2029-06-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-15T00:00:00.000Z!2026-07-22,245,330!2026-07-16,240,330-->
+{@{The eye pattern for a signal with emphasis}@} may be mistaken for that of {@{a PAM signal}@} at first glance, however {@{closer inspection}@} reveals {@{some key differences}@}. Most notably, {@{an emphasized signal}@} has {@{a limited set of legal transitions}@}: <!--SR:!2026-08-16,264,330!2026-08-28,273,330!2026-09-15,288,330!fsrs,2029-06-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-15T00:00:00.000Z!2026-07-22,245,330!fsrs,2029-06-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-17T00:00:00.000Z-->
 
 - Strong state to corresponding weak state ::@:: \(1-1 or 0-0 bit pattern\) <!--SR:!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z!2026-09-01,276,330-->
 - Strong state to opposite strong state ::@:: \(second transition of a 1-0-1 or 0-1-0 bit pattern\) <!--SR:!fsrs,2029-05-30T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-07-12T00:00:00.000Z!2026-09-18,290,330-->
@@ -133,7 +133,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 The image below shows {@{a 1.25 Gbit/s NRZ signal}@} after passing {@{through a lossy channel}@} – {@{an RG-188 coaxial cable}@} {@{approximately 12 feet \(3.7 m\) in length}@}. {@{This channel}@} has {@{loss increasing in a fairly linear fashion}@} {@{from 0.1 dB at DC to 9 dB at 6 GHz}@}. <!--SR:!2026-08-01,253,330!2026-07-29,251,330!2026-09-02,277,330!fsrs,2029-06-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-15T00:00:00.000Z!2026-08-29,274,330!2026-08-07,257,330!2026-09-20,292,330-->
 
-{@{The top and bottom "rails"}@} of {@{the eye}@} show {@{the final voltage the signal reaches}@} after {@{several consecutive bits with the same value}@}. Since the channel has {@{minimal loss at DC}@}, {@{the maximum signal amplitude}@} is {@{largely unaffected}@}. Looking at {@{the rising edge of the signal \(a 0–1 pattern\)}@} we can see that {@{the signal starts to level off}@} {@{around −300 [ps](picosecond.md)}@}, but {@{continues to rise slowly over the duration of the UI}@}. At {@{around +300 ps}@}, the signal {@{either begins falling again \(a 0–1–0 pattern\)}@} or {@{continues rising slowly \(a 0–1–1 pattern\)}@}. <!--SR:!2026-07-26,248,330!2026-09-06,281,330!2026-08-21,268,330!2026-08-14,263,330!2026-08-03,254,330!2026-09-04,278,330!2026-08-22,269,330!2026-09-02,277,330!2026-07-16,240,330!2026-08-22,269,330!2026-09-11,285,330!2026-09-17,290,330!fsrs,2029-06-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-14T00:00:00.000Z!2026-07-20,243,330-->
+{@{The top and bottom "rails"}@} of {@{the eye}@} show {@{the final voltage the signal reaches}@} after {@{several consecutive bits with the same value}@}. Since the channel has {@{minimal loss at DC}@}, {@{the maximum signal amplitude}@} is {@{largely unaffected}@}. Looking at {@{the rising edge of the signal \(a 0–1 pattern\)}@} we can see that {@{the signal starts to level off}@} {@{around −300 [ps](picosecond.md)}@}, but {@{continues to rise slowly over the duration of the UI}@}. At {@{around +300 ps}@}, the signal {@{either begins falling again \(a 0–1–0 pattern\)}@} or {@{continues rising slowly \(a 0–1–1 pattern\)}@}. <!--SR:!2026-07-26,248,330!2026-09-06,281,330!2026-08-21,268,330!2026-08-14,263,330!2026-08-03,254,330!2026-09-04,278,330!2026-08-22,269,330!2026-09-02,277,330!fsrs,2029-06-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-17T00:00:00.000Z!2026-08-22,269,330!2026-09-11,285,330!2026-09-17,290,330!fsrs,2029-06-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-14T00:00:00.000Z!2026-07-20,243,330-->
 
 > {@{![Eye pattern of a 1.25 Gbit/s NRZ signal through a lossy channel](../../archives/Wikimedia%20Commons/Eye%20pattern%20LPF.png)}@}
 >

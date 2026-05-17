@@ -290,7 +290,7 @@ The content is in teaching order.
 - datetime: 2025-03-10T12:00:00+08:00/2025-03-10T13:20:00+08:00
 - topic: cost behavior
 - [variable costing](../../../../general/variable%20costing.md) ::@:: Under this method, manufacturing overhead is incurred in the period that a product is produced. This addresses the issue of absorption costing that allows income to rise as production rises. <p> Variable costing is generally not used for external reporting purposes. Under the Tax Reform Act of 1986, income statements must use absorption costing to comply with GAAP. <!--SR:!2026-07-17,387,386!fsrs,2031-04-18T00:00:00.000Z,1754,1754.236174,1,2,10,0,0,2026-06-29T00:00:00.000Z-->
-  - variable costing / purpose ::@:: cost accounting for internal decision making <!--SR:!2026-07-16,385,386!2026-11-28,512,406-->
+  - variable costing / purpose ::@:: cost accounting for internal decision making <!--SR:!fsrs,2031-07-20T00:00:00.000Z,1829,1828.58134182,1,2,10,0,0,2026-07-17T00:00:00.000Z!2026-11-28,512,406-->
   - variable costing / cost classification ::@:: costs are mainly split into fixed costs, variable costs <!--SR:!fsrs,2031-06-13T00:00:00.000Z,1800,1799.72250525,1,2,10,0,0,2026-07-09T00:00:00.000Z!2026-11-29,513,406-->
   - variable costing / manufacturing overhead ::@:: incurred in the period that a product is produced <!--SR:!2026-11-03,492,406!2026-12-30,535,406-->
   - variable costing / formula ::@:: (net) sales, less: variable costs, (subtotal:) _contribution margin_, less: fixed costs, (total:) net operating income <!--SR:!2026-10-17,478,406!2027-08-10,694,366-->

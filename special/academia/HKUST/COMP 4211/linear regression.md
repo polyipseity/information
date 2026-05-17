@@ -240,7 +240,7 @@ For two input variables, the lecture's mapping $\phi(x)=[1,x_1,x_2,x_1^2,x_1x_2,
 Flashcards for this section are as follows:
 
 - scalar degree-2 example: If $\phi(x)=[1,x,x^2]^\top$, $(w_0,w_1,w_2)=(1,-3,2)$, and $x=2$, what is $\hat y$? ::@:: The prediction is $\hat y = 1 - 3\cdot 2 + 2\cdot 2^2 = 3$. <!--SR:!2026-08-03,83,341!2026-08-11,86,353-->
-- two-variable degree-2 feature map example: If $x=[1,2,3]^\top$, what is $\phi(x)$ for degree $2$? ::@:: The transformed vector is $\phi(x)=[1,2,3,4,6,9]^\top$. <!--SR:!fsrs,2027-06-15T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-07-16,65,324-->
+- two-variable degree-2 feature map example: If $x=[1,2,3]^\top$, what is $\phi(x)$ for degree $2$? ::@:: The transformed vector is $\phi(x)=[1,2,3,4,6,9]^\top$. <!--SR:!fsrs,2027-06-15T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-06-21T00:00:00.000Z,339,338.7120757,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 
 ## hypothesis space, capacity, and generalization
 
@@ -339,7 +339,7 @@ This example is a useful mental check for all later deep-learning lectures. When
 Flashcards for this section are as follows:
 
 - degree 14 versus degree 20 lesson ::@:: The degree-$20$ polynomial has more room to wiggle between training points than the degree-$14$ model, so it can reduce training MSE further by fitting sample-specific noise. <!--SR:!2026-07-21,70,324!2026-07-21,70,324-->
-- why the degree 14 model can still win ::@:: A degree-$14$ model can have slightly higher training error yet lower future error if it captures the broad trend while the degree-$20$ model overreacts to noise. <!--SR:!2026-07-29,74,324!2026-07-16,62,310-->
+- why the degree 14 model can still win ::@:: A degree-$14$ model can have slightly higher training error yet lower future error if it captures the broad trend while the degree-$20$ model overreacts to noise. <!--SR:!2026-07-29,74,324!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 
 ## validation, cross-validation, and hyperparameter tuning
 
@@ -466,8 +466,8 @@ Flashcards for this section are as follows:
 - contour-line intuition for ridge and LASSO ::@:: Think of least-squares loss as ellipses and the regularizer as a norm ball; the optimum is where the smallest ellipse first touches the constraint boundary. <!--SR:!2026-07-24,73,324!2026-08-29,91,363-->
 - algebraic form of ridge contour lines ::@:: In two dimensions, a ridge level set $\lambda\|w\|_2^2=c$ is $w_1^2+w_2^2=c/\lambda$, so its contour lines are circles centered at the origin. <!--SR:!2026-08-07,82,341!2026-08-11,86,353-->
 - algebraic form of LASSO contour lines ::@:: In two dimensions, a LASSO level set $\lambda\|w\|_1=c$ is $|w_1|+|w_2|=c/\lambda$, so its contour lines are diamonds with corners on the axes. <!--SR:!2026-08-12,91,362!2026-08-05,85,353-->
-- effect of increasing $\lambda$ on the regularized objective ::@:: A larger $\lambda$ makes low-norm regions more strongly preferred in the total objective, so the optimizer is pushed closer to the origin unless data fit strongly opposes it. <!--SR:!2026-07-16,65,324!2026-08-11,86,353-->
-- why ridge usually keeps coefficients nonzero ::@:: Ridge uses a round $L_2$ constraint, so the tangency point is usually on a smooth arc rather than exactly on a coordinate axis. <!--SR:!2026-07-16,65,324!2026-08-06,86,353-->
+- effect of increasing $\lambda$ on the regularized objective ::@:: A larger $\lambda$ makes low-norm regions more strongly preferred in the total objective, so the optimizer is pushed closer to the origin unless data fit strongly opposes it. <!--SR:!fsrs,2027-06-21T00:00:00.000Z,339,338.7120757,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-11,86,353-->
+- why ridge usually keeps coefficients nonzero ::@:: Ridge uses a round $L_2$ constraint, so the tangency point is usually on a smooth arc rather than exactly on a coordinate axis. <!--SR:!fsrs,2027-06-21T00:00:00.000Z,339,338.7120757,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-06,86,353-->
 - why LASSO often gives exact zeros ::@:: LASSO uses a diamond-shaped $L_1$ constraint whose corners lie on the axes, so tangency often occurs at a corner where some coefficients are exactly zero. <!--SR:!2026-08-30,92,362!2026-08-06,86,353-->
 - practical consequence of ridge versus LASSO geometry ::@:: Ridge is usually better thought of as smooth shrinkage, whereas LASSO is shrinkage plus built-in feature selection. <!--SR:!2026-08-02,78,341!2026-08-05,81,353-->
 

@@ -39,7 +39,7 @@ The equations assume {@{the interface between the media is flat and that the med
 
 > {@{![The plane of incidence is defined by the incoming radiation's propagation vector and the normal vector of the surface.](../../archives/Wikimedia%20Commons/Plane%20of%20incidence.svg)}@}
 >
-> {@{The plane of incidence}@} is defined by {@{the incoming radiation's propagation vector and the normal vector of the surface}@}. <!--SR:!2026-07-16,333,349!2026-09-01,376,360!2026-09-06,381,364-->
+> {@{The plane of incidence}@} is defined by {@{the incoming radiation's propagation vector and the normal vector of the surface}@}. <!--SR:!fsrs,2030-09-06T00:00:00.000Z,1512,1511.76240127,1,2,9,0,0,2026-07-17T00:00:00.000Z!2026-09-01,376,360!2026-09-06,381,364-->
 
 There are {@{two sets of Fresnel coefficients}@} for {@{two different linear [polarization](<polarization%20(waves).md>) components of the incident wave}@}. Since {@{any [polarization state](<polarization%20(waves).md#polarization%20state>) can be resolved into a combination of two orthogonal linear polarizations}@}, this is {@{sufficient for any problem}@}. Likewise, {@{[unpolarized](<polarization%20(waves).md#unpolarized%20and%20partially%20polarized%20light>) \(or "randomly polarized"\) light}@} has {@{an equal amount of power in each of two linear polarizations}@}. <!--SR:!fsrs,2030-06-12T00:00:00.000Z,1441,1440.55400055,1,2,9,0,0,2026-07-02T00:00:00.000Z!2026-09-23,395,366!2030-03-19,1387,369!2026-09-04,379,366!2026-09-09,383,364!2026-08-25,361,360-->
 

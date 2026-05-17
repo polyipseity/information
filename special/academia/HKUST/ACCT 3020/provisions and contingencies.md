@@ -296,7 +296,7 @@ Representative journal entry examples:
 > | {@{Sales revenue}@}                              |              | {@{30 000}@} |
 > | {@{Unearned warranty revenue}@}                  |              | {@{900}@}    |
 >
-> _Explanation._ 900 is for the extended (service-type) coverage; {@{revenue is recognized only over the service-type period (e.g. straight-line over years 2–4), after the assurance-type warranty has expired}@}. <!--SR:!2026-07-28,73,342!2026-07-19,64,310!2026-08-06,81,342!2026-07-31,76,342!2026-07-27,72,326!2026-07-31,76,342!2026-08-02,78,342!2026-08-02,78,342!2027-04-27,346,362!2026-07-16,63,310!2026-08-08,83,342-->
+> _Explanation._ 900 is for the extended (service-type) coverage; {@{revenue is recognized only over the service-type period (e.g. straight-line over years 2–4), after the assurance-type warranty has expired}@}. <!--SR:!2026-07-28,73,342!2026-07-19,64,310!2026-08-06,81,342!2026-07-31,76,342!2026-07-27,72,326!2026-07-31,76,342!2026-08-02,78,342!2026-08-02,78,342!2027-04-27,346,362!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-08,83,342-->
 
 <!-- markdownlint MD028 -->
 

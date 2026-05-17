@@ -168,7 +168,7 @@ The steps for naming an organic compound are:
 - [identify parent hydrocarbon chain](#identify%20parent%20hydrocarbon%20chain)→::@::←identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups) <!--SR:!2029-03-07,1596,262!2029-03-21,1647,325-->
 - identify parent functional group of [highest group precedence](#precedence%20of%20functional%20groups)→::@::←identify side-chains <!--SR:!2027-04-28,1021,264!2027-11-18,563,170-->
 - identify side-chains→::@::←identify remaining functional groups <!--SR:!2033-12-31,2769,250!2026-07-17,507,207-->
-- identify remaining functional groups→::@::←identify multiple bonds <!--SR:!2026-07-16,523,190!fsrs,2030-11-16T00:00:00.000Z,1602,1601.86398252,6.13286042,2,10,0,0,2026-06-28T00:00:00.000Z-->
+- identify remaining functional groups→::@::←identify multiple bonds <!--SR:!fsrs,2029-08-18T00:00:00.000Z,1128,1128.32530805,6.98338322,2,10,0,0,2026-07-17T00:00:00.000Z!fsrs,2030-11-16T00:00:00.000Z,1602,1601.86398252,6.13286042,2,10,0,0,2026-06-28T00:00:00.000Z-->
 - identify multiple bonds→::@::←[identify numbering direction](#identify%20numbering%20direction) <!--SR:!2030-10-14,1783,250!2027-04-24,580,210-->
 - [identify numbering direction](#identify%20numbering%20direction)→::@::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2030-05-18,1582,210!2033-10-06,2776,285-->
 - number and [prefix](#prefix%20for%20type%20count) substituents and bonds→::@::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2028-10-04,964,227!2027-03-29,824,230-->

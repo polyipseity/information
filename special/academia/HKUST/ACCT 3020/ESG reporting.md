@@ -115,7 +115,7 @@ Flashcards for this section are as follows:
 Flashcards for this section are as follows:
 
 - mandatory ESG disclosure: what does it mean? ::@:: The issuer must provide the required item in its ESG reporting and cannot simply omit it. <!--SR:!2026-07-21,71,328!2026-07-23,72,328-->
-- comply-or-explain ESG disclosure: what does it mean? ::@:: The issuer should comply, but if it does not, it must explain the non-compliance rather than staying silent. <!--SR:!2026-07-16,66,328!2026-07-18,68,328-->
+- comply-or-explain ESG disclosure: what does it mean? ::@:: The issuer should comply, but if it does not, it must explain the non-compliance rather than staying silent. <!--SR:!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-07-18,68,328-->
 
 ### board statement and board oversight
 
@@ -147,7 +147,7 @@ ESG reporting in Hong Kong follows several reporting principles, especially:
 
 Flashcards for this section are as follows:
 
-- ESG reporting principle: materiality ::@:: Focus on ESG issues that are important both to the business and to stakeholders, typically identified using a materiality matrix. <!--SR:!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-16,66,310-->
+- ESG reporting principle: materiality ::@:: Focus on ESG issues that are important both to the business and to stakeholders, typically identified using a materiality matrix. <!--SR:!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-06-08T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 - materiality matrix axes ::@:: One axis (typically the _x_-axis) measures impact on the business; the other (typically the _y_-axis) measures impact on stakeholders; high–high issues are prioritised for disclosure. <!--SR:!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-05-12T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - ESG reporting principle: quantitative KPIs ::@:: Disclosures should include key performance indicators (e.g. emissions, energy use, accident rates), not just qualitative claims. <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 - ESG reporting principle: consistency ::@:: Use consistent KPIs and methods over time; if they change, explain the reasons and, where possible, provide comparable data. <!--SR:!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
@@ -230,10 +230,10 @@ The important exam point is that materiality is __entity-specific__. Data privac
 
 Flashcards for this section are as follows:
 
-- materiality matrix: what two viewpoints are combined? ::@:: The issue's impact on the business and its importance to stakeholders. <!--SR:!2026-07-24,73,328!2026-07-16,66,328-->
+- materiality matrix: what two viewpoints are combined? ::@:: The issue's impact on the business and its importance to stakeholders. <!--SR:!2026-07-24,73,328!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 - materiality matrix: which issues receive top disclosure priority? ::@:: Issues that rank high on both business impact and stakeholder concern. <!--SR:!2026-07-18,68,328!2026-07-19,69,328-->
 - why is materiality entity-specific? ::@:: Because the same ESG topic can matter very differently across industries, business models, and stakeholder groups. <!--SR:!2026-07-22,71,328!2026-07-21,70,328-->
-- logistics-company materiality example: which issues are likely to be high-high? ::@:: Fuel efficiency, greenhouse gas emissions, driver safety, and anti-corruption in procurement. <!--SR:!2026-07-18,68,328!2026-07-16,66,328-->
+- logistics-company materiality example: which issues are likely to be high-high? ::@:: Fuel efficiency, greenhouse gas emissions, driver safety, and anti-corruption in procurement. <!--SR:!2026-07-18,68,328!fsrs,2027-06-30T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 
 ## materiality and boundary
 

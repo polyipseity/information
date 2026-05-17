@@ -48,10 +48,10 @@ The content is in teaching order.
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
   - compression types ::@:: We are concerned with uniaxial compression only. <!--SR:!2029-09-04,1525,370!2029-07-05,1473,370-->
   - compression examples in structures ::@:: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2026-07-30,547,310!2027-09-13,927,350-->
-  - compression conventions ::@:: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2028-03-01,1057,350!2026-07-16,541,310-->
+  - compression conventions ::@:: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2028-03-01,1057,350!fsrs,2032-02-02T00:00:00.000Z,2026,2025.68645662,1,2,10,0,0,2026-07-17T00:00:00.000Z-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
   - tension types ::@:: We are concerned with uniaxial tension only. <!--SR:!2029-11-19,1587,370!2028-12-27,1304,361-->
-  - tension examples in structures ::@:: cable, hanging column, rope, swing, tie <!--SR:!2030-06-30,1570,290!2026-07-16,564,330-->
+  - tension examples in structures ::@:: cable, hanging column, rope, swing, tie <!--SR:!2030-06-30,1570,290!fsrs,2032-09-13T00:00:00.000Z,2250,2249.76892528,1,2,10,0,0,2026-07-17T00:00:00.000Z-->
   - tension conventions ::@:: __positive__; arrows pointing outwards for forces applied on the object in tension <!--SR:!2027-11-03,925,330!fsrs,2032-10-15T00:00:00.000Z,2295,2295.04128623,1,2,10,0,0,2026-07-04T00:00:00.000Z-->
 - [reaction](../../../../general/reaction%20(physics).md) of compression and tension ::@:: Note that when another object exerts compression/tension on an object, the object applies an opposing pushing/pulling (reaction) force on the other object. <!--SR:!2028-05-03,1119,350!2032-01-15,2120,341-->
 - [Hooke's law § linear springs](../../../../general/Hooke's%20law.md#linear%20springs)

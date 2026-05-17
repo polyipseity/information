@@ -377,7 +377,7 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 > | {@{Salaries and wages expense}@} | {@{560}@} | |
 > | {@{Wages payable}@} | | {@{560}@} |
 >
-> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end. <!--SR:!2026-07-25,70,334!2026-07-16,61,321!fsrs,2026-12-04T05:49:44.884Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:44.884Z!2026-07-26,70,334!2026-07-23,68,334!2026-07-24,69,334!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end. <!--SR:!2026-07-25,70,334!fsrs,2027-05-30T00:00:00.000Z,317,317.25254381,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2026-12-04T05:49:44.884Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:44.884Z!2026-07-26,70,334!2026-07-23,68,334!2026-07-24,69,334!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

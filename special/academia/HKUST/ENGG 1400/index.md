@@ -98,7 +98,7 @@ The content is in teaching order.
 - datetime: 2024-10-03T10:30:00+08:00/2024-10-03T12:20:00+08:00
 - activity 1: practice ideation through 3 things ::@:: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas. <!--SR:!2026-08-28,537,402!2026-07-24,506,402-->
 - success ::@:: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional? <!--SR:!2026-07-17,499,402!2033-06-09,2562,422-->
-  - success / dysfunctional belief ::@:: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age) <!--SR:!fsrs,2032-10-14T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-07-12T00:00:00.000Z!2026-07-16,498,402-->
+  - success / dysfunctional belief ::@:: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age) <!--SR:!fsrs,2032-10-14T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-07-12T00:00:00.000Z!fsrs,2032-10-19T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-07-17T00:00:00.000Z-->
   - success / idea board ::@:: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found. <!--SR:!2029-11-07,1360,382!fsrs,2032-09-03T00:00:00.000Z,2254,2254.23087863,1,2,10,0,0,2026-07-03T00:00:00.000Z-->
 - design thinking
   - design thinking / life design: empathize ::@:: The amazing people you meet and the understanding/perspectives you give _and_ receive. <!--SR:!fsrs,2032-10-15T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-07-13T00:00:00.000Z!2026-08-04,517,402-->
@@ -117,7 +117,7 @@ The content is in teaching order.
   - information interview / invitation ::@:: Who are you? How do you relate to them? Why them? What do you want to find out? And finally, ask them. <!--SR:!fsrs,2032-09-18T00:00:00.000Z,2266,2266.2125374,1,2,10,0,0,2026-07-06T00:00:00.000Z!2026-08-21,531,402-->
   - information interview / best practices ::@:: ask for 3 more referrals; be genuinely curious; buy coffee; in person > virtual > by phone; thank you note <!--SR:!fsrs,2032-05-15T06:11:14.624Z,2170,2170.09977723,1,2,10,0,0,2026-06-06T06:11:14.624Z!2033-06-02,2556,422-->
   - information interview / culture ::@:: Be aware of cultural differences. Ask and observe. <!--SR:!2026-08-08,520,402!fsrs,2032-07-06T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-06-18T00:00:00.000Z-->
-  - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!2026-07-16,502,402!fsrs,2032-07-11T00:00:00.000Z,2214,2214.22574091,1,2,10,0,0,2026-06-19T00:00:00.000Z-->
+  - information interview / takeaways ::@:: People will help (refer) you if you ask. You will help (refer) someone back eventually... <!--SR:!fsrs,2032-11-04T00:00:00.000Z,2302,2302.10323962,1,2,10,0,0,2026-07-17T00:00:00.000Z!fsrs,2032-07-11T00:00:00.000Z,2214,2214.22574091,1,2,10,0,0,2026-06-19T00:00:00.000Z-->
 
 ## week 6 tutorial
 
