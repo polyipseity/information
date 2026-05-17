@@ -290,7 +290,7 @@ subscription fee
 
 {@{The cost structure}@} building block shows {@{all costs required to run the business model}@}. Business models, with respect to the cost structure, can be categorized into {@{cost-driven and value-driven, though most organizations fall somewhere between these two}@}. <!--SR:!2030-03-26,1657,334!2026-08-22,397,274!fsrs,2027-10-06T00:00:00.000Z,476,476.03165621,1,2,7,0,0,2026-06-17T00:00:00.000Z-->
 
-In {@{cost structures}@}, costs can be {@{fixed costs or variable costs}@}. Costs can be reduced by {@{economies of scale and economies of scope}@}. <!--SR:!2028-03-05,1032,310!2026-07-11,581,294!fsrs,2027-09-17T10:17:17.059Z,460,460.21315055,1,2,7,0,0,2026-06-14T10:17:17.059Z-->
+In {@{cost structures}@}, costs can be {@{fixed costs or variable costs}@}. Costs can be reduced by {@{economies of scale and economies of scope}@}. <!--SR:!2028-03-05,1032,310!fsrs,2032-02-06T00:00:00.000Z,2035,2034.50817146,1.78018496,2,10,0,0,2026-07-12T00:00:00.000Z!fsrs,2027-09-17T10:17:17.059Z,460,460.21315055,1,2,7,0,0,2026-06-14T10:17:17.059Z-->
 
 ### fit
 

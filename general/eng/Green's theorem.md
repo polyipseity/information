@@ -59,7 +59,7 @@ With {@{_C_<sub>3</sub>}@}, use {@{the parametric equations: _x_ = _x_, _y_ = _g
 
 Therefore, {@{$${\begin{aligned}\oint _{C}L\,dx&=\int _{C_{1} }L(x,y)\,dx+\int _{C_{2} }L(x,y)\,dx+\int _{C_{3} }L(x,y)\,dx+\int _{C_{4} }L(x,y)\,dx\\&=\int _{a}^{b}L(x,g_{1}(x))\,dx-\int _{a}^{b}L(x,g_{2}(x))\,dx.\end{aligned} }$$}@} __<a id="math 4">\(4\)</a>__ <p> <!--SR:!fsrs,2029-09-15T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-06-23T00:00:00.000Z-->
 
-Combining {@{\(__[3](#math%203)__\) with \(__[4](#math%204)__\)}@}, we {@{get \(__[1](#math%201)__\) for regions of type I}@}. {@{A similar treatment using the same endpoints}@} yields {@{\(__[2](#math%202)__\) for regions of type II}@}. Putting {@{the two together}@}, we get {@{the result for regions of type III}@}. <!--SR:!2029-07-16,1143,350!2029-06-02,1101,350!2026-07-12,281,330!2026-07-11,280,330!fsrs,2029-11-05T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-07-10T00:00:00.000Z!2028-08-09,829,330-->
+Combining {@{\(__[3](#math%203)__\) with \(__[4](#math%204)__\)}@}, we {@{get \(__[1](#math%201)__\) for regions of type I}@}. {@{A similar treatment using the same endpoints}@} yields {@{\(__[2](#math%202)__\) for regions of type II}@}. Putting {@{the two together}@}, we get {@{the result for regions of type III}@}. <!--SR:!2029-07-16,1143,350!2029-06-02,1101,350!2026-07-12,281,330!fsrs,2029-11-15T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-07-12T00:00:00.000Z!fsrs,2029-11-05T00:00:00.000Z,1214,1214.08066657,1,2,9,0,0,2026-07-10T00:00:00.000Z!2028-08-09,829,330-->
 
 ## proof for rectifiable Jordan curves
 

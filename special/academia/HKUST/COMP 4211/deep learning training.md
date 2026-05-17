@@ -340,7 +340,7 @@ The lecture associates batch normalization with three practical benefits: faster
 
 Flashcards for this section are as follows:
 
-- batch normalization purpose ::@:: Batch normalization stabilizes and accelerates training by controlling the scale and distribution of intermediate activations. <!--SR:!2026-08-16,76,336!2026-07-11,55,310-->
+- batch normalization purpose ::@:: Batch normalization stabilizes and accelerates training by controlling the scale and distribution of intermediate activations. <!--SR:!2026-08-16,76,336!fsrs,2027-04-16T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - how batch normalization works at a high level ::@:: It normalizes activations using minibatch statistics and then applies a learnable affine transformation so the network retains representational flexibility. <!--SR:!2026-08-14,74,336!2026-08-24,84,352-->
 - why batch normalization is not just preprocessing ::@:: Unlike fixed input preprocessing, batch normalization acts inside the network during training and still leaves learnable scaling and shifting parameters. <!--SR:!2026-08-17,77,336!2026-08-17,77,336-->
 - three practical benefits of batch normalization ::@:: Batch normalization can accelerate training, reduce initialization sensitivity, and add a regularizing effect because it improves conditioning while minibatch statistics inject mild noise. <!--SR:!2026-08-17,77,336!2026-08-16,76,336-->

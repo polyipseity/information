@@ -263,7 +263,7 @@ As derived above, {@{the ordinary generating function for the sequence of square
 
 - see: [Catalan number](catalan%20number.md)
 
-The {@{ordinary generating function for the [Catalan numbers](catalan%20number.md)}@} is {@{$$G(C_{n};x)={\frac {1-{\sqrt {1-4x} } }{2x} }\,.$$}@} With {@{_r_ = ⁠1/4⁠, _α_ = 1, _β_ = −⁠1/2⁠, _A_(_x_) = ⁠1/2⁠, and _B_(_x_) = −⁠1/2⁠}@}, we can conclude that, for the Catalan numbers: {@{$$C_{n}\sim {\frac {B(r)}{r^{\alpha }\Gamma (\beta )} }\,n^{\beta -1}\left({\frac {1}{r} }\right)^{n}={\frac {-{\frac {1}{2} } }{\left({\frac {1}{4} }\right)^{1}\Gamma \left(-{\frac {1}{2} }\right)} }\,n^{-{\frac {1}{2} }-1}\left({\frac {1}{\,{\frac {1}{4} }\,} }\right)^{n}={\frac {4^{n} }{n^{\frac {3}{2} }{\sqrt {\pi } } } }\,.$$}@} <!--SR:!2029-02-13,1164,310!2026-08-05,252,250!2027-03-20,307,230!2026-07-11,388,250-->
+The {@{ordinary generating function for the [Catalan numbers](catalan%20number.md)}@} is {@{$$G(C_{n};x)={\frac {1-{\sqrt {1-4x} } }{2x} }\,.$$}@} With {@{_r_ = ⁠1/4⁠, _α_ = 1, _β_ = −⁠1/2⁠, _A_(_x_) = ⁠1/2⁠, and _B_(_x_) = −⁠1/2⁠}@}, we can conclude that, for the Catalan numbers: {@{$$C_{n}\sim {\frac {B(r)}{r^{\alpha }\Gamma (\beta )} }\,n^{\beta -1}\left({\frac {1}{r} }\right)^{n}={\frac {-{\frac {1}{2} } }{\left({\frac {1}{4} }\right)^{1}\Gamma \left(-{\frac {1}{2} }\right)} }\,n^{-{\frac {1}{2} }-1}\left({\frac {1}{\,{\frac {1}{4} }\,} }\right)^{n}={\frac {4^{n} }{n^{\frac {3}{2} }{\sqrt {\pi } } } }\,.$$}@} <!--SR:!2029-02-13,1164,310!2026-08-05,252,250!2027-03-20,307,230!fsrs,2028-10-04T00:00:00.000Z,815,814.6704087,5.48972837,2,10,0,0,2026-07-12T00:00:00.000Z-->
 
 ### bivariate and multivariate generating functions
 

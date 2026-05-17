@@ -108,7 +108,7 @@ tags:
 > 5. Revenue management
 > 6. Supply chain management
 >
-> - solution: {@{1/2/3/4/5/6}@} <!--SR:!2026-07-11,299,351-->
+> - solution: {@{1/2/3/4/5/6}@} <!--SR:!fsrs,2030-04-28T00:00:00.000Z,1386,1385.60709761,1,2,9,0,0,2026-07-12T00:00:00.000Z-->
 
 ## week 14 lecture
 

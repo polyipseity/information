@@ -98,7 +98,7 @@ The content is in teaching order.
 - datetime: 2024-10-03T10:30:00+08:00/2024-10-03T12:20:00+08:00
 - activity 1: practice ideation through 3 things ::@:: Person A names a category, and then person B names 3 things that fit into the category. Afterwards, everyone shouts "Three things!". Repeat this to practice ideation and avoid filtering ideas. <!--SR:!2026-08-28,537,402!2026-07-24,506,402-->
 - success ::@:: What is your definition of __success__? Where does your belief come from? Are some of them dysfunctional? <!--SR:!2026-07-17,499,402!2033-06-09,2562,422-->
-  - success / dysfunctional belief ::@:: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age) <!--SR:!2026-07-11,498,402!2026-07-16,498,402-->
+  - success / dysfunctional belief ::@:: An example is "You should know where you are going by now." Yet, life stages have lengthened and delayed compared to before... (except for retirement age) <!--SR:!fsrs,2032-10-14T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-07-12T00:00:00.000Z!2026-07-16,498,402-->
   - success / idea board ::@:: With other people, ideate your definitions of success and their sources if known. Post them on sticky notes on an idea board. Then, categorize the definitions. Finally, look at the idea board together and discuss about any interesting thing you have found. <!--SR:!2029-11-07,1360,382!fsrs,2032-09-03T00:00:00.000Z,2254,2254.23087863,1,2,10,0,0,2026-07-03T00:00:00.000Z-->
 - design thinking
   - design thinking / life design: empathize ::@:: The amazing people you meet and the understanding/perspectives you give _and_ receive. <!--SR:!2026-07-12,498,402!2026-08-04,517,402-->

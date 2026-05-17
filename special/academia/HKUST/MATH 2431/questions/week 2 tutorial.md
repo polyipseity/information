@@ -71,7 +71,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > Ten Oreo pieces are sprinkled onto 3 distinguishable scoops of ice cream. How many distributions are possible?
 >
-> Solution: Let {@{$u_i$}@} denote {@{pieces on scoop $i$}@} so the constraint is {@{$u_1+u_2+u_3=10$ with $u_i\ge0$}@}; apply {@{stars-and-bars}@} using {@{$10$ stars and $2$ bars}@} to count non-negative solutions, obtaining {@{$\binom{10+3-1}{3-1}=\binom{12}{2}=66$}@}. <!--SR:!2026-07-14,58,310!2026-08-05,64,310!2026-08-05,64,310!2026-08-04,63,310!2026-07-11,55,310!2026-07-14,58,310-->
+> Solution: Let {@{$u_i$}@} denote {@{pieces on scoop $i$}@} so the constraint is {@{$u_1+u_2+u_3=10$ with $u_i\ge0$}@}; apply {@{stars-and-bars}@} using {@{$10$ stars and $2$ bars}@} to count non-negative solutions, obtaining {@{$\binom{10+3-1}{3-1}=\binom{12}{2}=66$}@}. <!--SR:!2026-07-14,58,310!2026-08-05,64,310!2026-08-05,64,310!2026-08-04,63,310!fsrs,2027-04-16T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-14,58,310-->
 
 <!-- markdownlint MD028 -->
 

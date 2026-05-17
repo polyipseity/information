@@ -39,7 +39,7 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Financial%20markets) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Financial%20markets) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AFinancial%20markets) | -->
 
-In {@{[economics](economics.md) and [accounting](accounting.md)}@}, {@{the __cost of capital__}@} is {@{the cost of a company's funds \(both [debt](debt.md) and [equity](equity%20(finance).md)\)}@}, or from {@{an investor's point of view}@} is {@{"the [required rate of return](required%20rate%20of%20return.md#discount%20rate) on a portfolio company's existing securities"}@}.<sup>[\[1\]](#^ref-1)</sup> It is used to {@{evaluate new projects of a company}@}. It is the minimum {@{return that investors expect for providing capital to the company}@}, thus setting {@{a benchmark that a new project has to meet}@}. <!--SR:!2026-09-27,348,350!fsrs,2029-08-28T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-06-20T00:00:00.000Z!fsrs,2029-07-03T00:40:05.495Z,1123,1123.03290235,1,2,9,0,0,2026-06-06T00:40:05.495Z!fsrs,2029-09-22T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-06-26T00:00:00.000Z!2026-07-22,292,330!2026-09-20,342,350!2029-04-28,1081,350!2026-07-11,283,330-->
+In {@{[economics](economics.md) and [accounting](accounting.md)}@}, {@{the __cost of capital__}@} is {@{the cost of a company's funds \(both [debt](debt.md) and [equity](equity%20(finance).md)\)}@}, or from {@{an investor's point of view}@} is {@{"the [required rate of return](required%20rate%20of%20return.md#discount%20rate) on a portfolio company's existing securities"}@}.<sup>[\[1\]](#^ref-1)</sup> It is used to {@{evaluate new projects of a company}@}. It is the minimum {@{return that investors expect for providing capital to the company}@}, thus setting {@{a benchmark that a new project has to meet}@}. <!--SR:!2026-09-27,348,350!fsrs,2029-08-28T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-06-20T00:00:00.000Z!fsrs,2029-07-03T00:40:05.495Z,1123,1123.03290235,1,2,9,0,0,2026-06-06T00:40:05.495Z!fsrs,2029-09-22T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-06-26T00:00:00.000Z!2026-07-22,292,330!2026-09-20,342,350!2029-04-28,1081,350!fsrs,2029-11-26T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-07-12T00:00:00.000Z-->
 
 ## basic concept
 
@@ -78,7 +78,7 @@ When companies {@{borrow funds from outside lenders}@}, {@{the interest paid on 
 > \(annotation: with risk premium\) Cost of equity ::@:: = Risk free rate of return + Premium expected for risk <br/> <!--SR:!2026-07-20,290,330!fsrs,2029-06-27T00:39:02.428Z,1117,1117.29852883,1,2,9,0,0,2026-06-06T00:39:02.428Z-->
 > \(annotation: with beta\) Cost of equity ::@:: = Risk free rate of return + Beta × \(market rate of return – risk free rate of return\) <!--SR:!2026-07-21,291,330!fsrs,2029-07-09T00:40:09.501Z,1129,1128.70672332,1,2,9,0,0,2026-06-06T00:40:09.501Z-->
 
-where Beta = {@{sensitivity to movements in the relevant market}@}. Thus in symbols we have {@{$$E_{s}=R_{f}+\beta _{s}(R_{m}-R_{f})$$}@} <!--SR:!fsrs,2029-09-01T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-06-21T00:00:00.000Z!2026-07-11,283,330-->
+where Beta = {@{sensitivity to movements in the relevant market}@}. Thus in symbols we have {@{$$E_{s}=R_{f}+\beta _{s}(R_{m}-R_{f})$$}@} <!--SR:!fsrs,2029-09-01T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-06-21T00:00:00.000Z!fsrs,2029-11-26T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-07-12T00:00:00.000Z-->
 
 where:
 

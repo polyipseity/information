@@ -614,7 +614,7 @@ ID: 23456789
     - macro F1 ::@:: It calculates metrics for each class individually and then take unweighted mean of the measures. <!--SR:!2026-09-15,471,389!2029-10-23,1418,389-->
     - weighted F1 ::@:: It calculates metrics for each class individually and then take weighted mean of the measures, weighted by numbers of samples of each class. <!--SR:!2026-07-13,458,389!2026-07-21,464,389-->
     - [Matthews correlation coefficient](../../../../general/phi%20coefficient.md) (MCC) ::@:: $$\frac {\text{TP} \times \text{TN} - \text{FP} \times \text{FN} } {\sqrt{(\text{TP} + \text{FP}) (\text{TP} + \text{FN}) (\text{TN} + \text{FP}) (\text{TN} + \text{FN})} }$$ <!--SR:!2027-06-27,663,349!2029-01-15,1094,369-->
-      - Matthews correlation coefficient / interpretation ::@:: It is a _best single-value classification metric_ which helps to _summarize_ a confusion matrix or error matrix. <p> It ranges between +1 and -1 as, where +1 is the best agreement between the predicted and actual values; 0 is no agreement, meaning that prediction is random according to the actual values; and -1 means the predicted values are always opposite of the actual values. <!--SR:!2026-07-11,457,389!2027-03-23,660,409-->
+      - Matthews correlation coefficient / interpretation ::@:: It is a _best single-value classification metric_ which helps to _summarize_ a confusion matrix or error matrix. <p> It ranges between +1 and -1 as, where +1 is the best agreement between the predicted and actual values; 0 is no agreement, meaning that prediction is random according to the actual values; and -1 means the predicted values are always opposite of the actual values. <!--SR:!fsrs,2032-05-03T00:00:00.000Z,2122,2121.81441071,1,2,10,0,0,2026-07-12T00:00:00.000Z!2027-03-23,660,409-->
 
 ## week 6 lecture
 
@@ -747,7 +747,7 @@ ID: 23456789
 ## week 8 lecture 2
 
 - datetime: 2024-10-25T13:30:00+08:00/2024-10-25T14:50:00+08:00
-- implementing backpropagation from scratch in Python ::@:: Remember to use vectorization. <p> The one they have shown on the lecture slide is very primitive and is not very flexible... <!--SR:!2026-07-11,465,401!2026-08-20,498,402-->
+- implementing backpropagation from scratch in Python ::@:: Remember to use vectorization. <p> The one they have shown on the lecture slide is very primitive and is not very flexible... <!--SR:!fsrs,2032-06-04T00:00:00.000Z,2154,2154.0218629,1,2,10,0,0,2026-07-12T00:00:00.000Z!2026-08-20,498,402-->
 - [multilayer perceptron](../../../../general/multilayer%20perceptron.md)
   - multilayer perceptron / training data ::@:: The data the multilayer perceptron learns from. <!--SR:!2026-08-06,486,405!2026-10-18,547,405-->
   - multilayer perceptron / testing data ::@:: The data that is kept secret from the multilayer perceptron before it has finished learning. Then it can be used to evaluate the model. <!--SR:!2026-09-21,522,398!2026-08-17,495,401-->

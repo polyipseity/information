@@ -83,7 +83,7 @@ This creates a practical coefficient interpretation. Increasing feature $x_j$ by
 
 Flashcards for this section are as follows:
 
-- Bernoulli form of logistic regression ::@:: Binary logistic regression assumes $p(y\mid x,w)=\operatorname{Bernoulli}(y\mid \sigma(w^\top x))$. <!--SR:!2026-08-01,82,343!2026-07-11,61,310-->
+- Bernoulli form of logistic regression ::@:: Binary logistic regression assumes $p(y\mid x,w)=\operatorname{Bernoulli}(y\mid \sigma(w^\top x))$. <!--SR:!2026-08-01,82,343!fsrs,2027-05-12T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - Bernoulli likelihood in one formula ::@:: If $p=\sigma(w^\top x)$, then the binary-label likelihood can be written as $p(y\mid x,w)=p^y(1-p)^{1-y}$ for $y \in \{0,1\}$. <!--SR:!2026-07-31,81,343!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 - odds ::@:: If $p=P(y=1\mid x,w)$, then odds are $\frac{p}{1-p}=\frac{P(y=1\mid x,w)}{P(y=0\mid x,w)}$, which quantifies relative likelihood of class $1$ versus class $0$. <!--SR:!2026-08-01,79,343!2026-08-04,85,351-->
 - inverse-logit derivation: Given $p=\sigma(z)=\frac{1}{1+e^{-z}}$, solve for $z$ ::@:: Solving $p=\frac{1}{1+e^{-z}}$ gives $e^{-z}=\frac{1-p}{p}$ and hence $z=\log\frac{p}{1-p}$, so $\operatorname{logit}(p)=\sigma^{-1}(p)$ on $(0,1)$. <!--SR:!fsrs,2027-04-21T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-01-14T00:00:00.000Z,208,207.99125421,1.98030797,2,6,0,0,2026-06-20T00:00:00.000Z-->
@@ -234,7 +234,7 @@ Interpretation and use: conditional cross entropy naturally penalizes assigning 
 
 Flashcards for this section are as follows:
 
-- per-input cross entropy at fixed input $x$ ::@:: For a fixed input $x$, the label-prediction mismatch is $H\bigl(P(Y\mid x),Q(Y\mid x)\bigr)=\sum_y P(y\mid x)(-\log Q(y\mid x))$, which measures how costly it is to score the true label law at that input using model $Q$. <!--SR:!2026-07-11,61,310!2026-07-20,70,337-->
+- per-input cross entropy at fixed input $x$ ::@:: For a fixed input $x$, the label-prediction mismatch is $H\bigl(P(Y\mid x),Q(Y\mid x)\bigr)=\sum_y P(y\mid x)(-\log Q(y\mid x))$, which measures how costly it is to score the true label law at that input using model $Q$. <!--SR:!fsrs,2027-05-12T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-20,70,337-->
 - conditional cross-entropy definition ::@:: The population conditional cross entropy is $H_P(Y\mid X;Q)=\mathbb{E}_{(X,Y)\sim P}\bigl[-\log Q(Y\mid X)\bigr]=\mathbb{E}_{X\sim P}\Bigl[H\bigl(P(Y\mid X),Q(Y\mid X)\bigr)\Bigr]$. <!--SR:!2026-08-01,81,343!fsrs,2026-12-24T00:00:00.000Z,172,171.53328362,3.24197837,2,7,0,0,2026-07-05T00:00:00.000Z-->
 - conditional cross-entropy derivation (per-input to joint) ::@:: Start with the per-input cross entropy $H\bigl(P(Y\mid x),Q(Y\mid x)\bigr)$, average it by $P(x)$, and then use $P(x,y)=P(x)P(y\mid x)$ to obtain $\sum_{x,y}P(x,y)(-\log Q(y\mid x))=\mathbb{E}_{(X,Y)\sim P}[-\log Q(Y\mid X)]$. <!--SR:!2026-08-07,85,351!2026-07-25,75,329-->
 - per-input interpretation with context ::@:: At each fixed input $x$, $H\bigl(P(Y\mid x),Q(Y\mid x)\bigr)$ measures label-distribution mismatch, and $P(x)$ tells how strongly that input region should influence total objective because common inputs should matter more than rare ones. <!--SR:!2026-08-04,85,351!2026-07-18,68,337-->
@@ -329,7 +329,7 @@ Flashcards for this section are as follows:
 - consistency of empirical risk ::@:: If samples are i.i.d. from $P$, then by the law of large numbers the empirical average $\mathbb{E}_{\hat P_N}[f]$ converges to the population expectation $\mathbb{E}_P[f]$, so empirical conditional cross entropy consistently estimates the true population loss. <!--SR:!2026-07-16,66,310!2026-07-31,78,343-->
 - why logistic training is empirical risk minimization ::@:: Logistic training is empirical risk minimization because it minimizes a sample-average loss under $\hat P_N$ in order to approximate minimization of the population loss under $P$. <!--SR:!2026-08-04,85,351!2026-07-26,76,329-->
 - worked empirical-loss example ::@:: If the per-example losses are $0.2$, $0.4$, $0.1$, and $1.3$, then the empirical loss is their average $\frac{0.2+0.4+0.1+1.3}{4}=0.5$. <!--SR:!2026-07-27,77,337!2026-08-06,84,351-->
-- why finite-sample loss is only an estimate ::@:: The training loss is only an estimate of the population objective because it is computed from finitely many observations; as $N\to\infty$, the sample average is expected to settle toward the true expectation. <!--SR:!2026-08-04,85,351!2026-07-11,61,310-->
+- why finite-sample loss is only an estimate ::@:: The training loss is only an estimate of the population objective because it is computed from finitely many observations; as $N\to\infty$, the sample average is expected to settle toward the true expectation. <!--SR:!2026-08-04,85,351!fsrs,2027-05-12T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 
 ## gradient descent for logistic regression
 
@@ -471,7 +471,7 @@ Another useful intuition is to read the objective as a tug-of-war. The data-fit 
 Flashcards for this section are as follows:
 
 - L2-regularized logistic objective ::@:: The $L_2$-regularized logistic objective is $L_{\mathrm{reg}}(w)=L(w)+\frac{\lambda}{2}\lVert w\rVert_2^2$. <!--SR:!2026-07-31,78,343!2026-07-27,77,337-->
-- why L2 regularization helps logistic regression ::@:: $L_2$ regularization discourages large weights, which helps reduce overfitting and stabilizes the classifier. <!--SR:!2026-08-04,84,351!2026-07-11,61,310-->
+- why L2 regularization helps logistic regression ::@:: $L_2$ regularization discourages large weights, which helps reduce overfitting and stabilizes the classifier. <!--SR:!2026-08-04,84,351!fsrs,2027-05-12T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - why logistic notes use $\frac{\lambda}{2}\lVert w\rVert_2^2$: If logistic regression uses $L_{\mathrm{reg}}(w)=L(w)+\frac{\lambda}{2}\lVert w\rVert_2^2$ while the linear-regression note uses $J(w)+\lambda\lVert w\rVert_2^2$, what is the difference? ::@:: The factor $\frac12$ is only a convention to cancel the derivative of the square: $\nabla\bigl(\frac{\lambda}{2}\lVert w\rVert_2^2\bigr)=\lambda w$, whereas $\nabla\bigl(\lambda\lVert w\rVert_2^2\bigr)=2\lambda w$. The regularization geometry is the same after rescaling $\lambda$. <!--SR:!2026-07-30,79,343!2026-08-03,84,351-->
 - gradient derivation for logistic L2 regularization: If the penalty term is $\frac{\lambda}{2}\lVert w\rVert_2^2=\frac{\lambda}{2}\sum_j w_j^2$, what gradient does it contribute? ::@:: Differentiating coordinatewise gives $\frac{\partial}{\partial w_j}\frac{\lambda}{2}\sum_k w_k^2 = \lambda w_j$, so the vector gradient is $\nabla_w\bigl(\frac{\lambda}{2}\lVert w\rVert_2^2\bigr)=\lambda w$. <!--SR:!2026-08-05,83,351!2026-07-20,70,329-->
 - regularized logistic update ::@:: A regularized update can be written as $w_j \leftarrow w_j + \alpha \Bigl(\frac{1}{|B|}\sum_{i\in B}(y_i-p_i)x_{i,j} - \lambda w_j\Bigr)$. <!--SR:!2026-07-17,67,329!2026-07-31,81,351-->

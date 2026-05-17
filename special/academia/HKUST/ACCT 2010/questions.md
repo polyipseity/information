@@ -338,7 +338,7 @@ tags:
 > 2. deferred expense
 > 3. contractual liability
 >
-> - solution: {@{2}@} <!--SR:!2026-07-11,463,381-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-05-27T00:00:00.000Z,2146,2145.97655349,1,2,10,0,0,2026-07-12T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -390,7 +390,7 @@ tags:
 > 3. a three-year post-purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer
 >
 > - solution: {@{3}@}
-> - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@} <!--SR:!2027-12-09,843,361!2026-07-11,463,381-->
+> - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@} <!--SR:!2027-12-09,843,361!fsrs,2032-05-27T00:00:00.000Z,2146,2145.97655349,1,2,10,0,0,2026-07-12T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
