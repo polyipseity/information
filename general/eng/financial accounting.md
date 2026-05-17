@@ -111,7 +111,7 @@ Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and 
 
 Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2027-09-16,837,330-->
 
-- _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2026-10-14,542,290!2026-07-27,428,270-->
+- _current liabilities_ ::@:: trade accounts payable, dividends payable, employee salaries payable, interest (e.g. on debt) payable <!--SR:!2026-10-14,542,290!fsrs,2030-06-10T00:00:00.000Z,1413,1413.28710796,2.98092302,2,10,0,0,2026-07-28T00:00:00.000Z-->
 - _long-term liabilities_ ::@:: mortgage notes payable, bonds payable <!--SR:!2028-09-20,1142,350!2027-08-03,807,330-->
 
 {@{Owner's equity, sometimes referred to as net assets}@}, is {@{represented differently depending on the type of business ownership}@}. Business ownership can be in the form of {@{a sole proprietorship, partnership, or a [corporation](corporation.md)}@}. For {@{a corporation}@}, the owner's equity portion {@{usually shows common stock, and retained earnings (earnings kept in the company)}@}. Retained earnings come from {@{the retained earnings statement, prepared prior to the balance sheet}@}.<sup>[\[8\]](#^ref-8)</sup> <!--SR:!2027-05-01,731,330!2026-11-23,590,310!2027-11-30,841,330!2027-12-09,905,330!2027-03-24,704,330!2026-10-09,559,310-->
