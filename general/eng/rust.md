@@ -18,7 +18,7 @@ tags:
 
 ## chemical reactions
 
-Rusting of iron begins with {@{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}@}. It is accelerated by {@{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}@}. It happens faster in {@{stressed areas like bent, scratched, or sharp areas}@}. <!--SR:!2032-10-05,2496,290!2028-11-20,1394,310!2026-07-29,752,250-->
+Rusting of iron begins with {@{the transfer of [electrons](electron.md) from [iron](iron.md) to [oxygen](oxygen.md) in [water](water.md)}@}. It is accelerated by {@{[acids](acid.md) like [acid rain](acid%20rain.md) and [electrolytes](electrolyte.md) like [sodium chloride](sodium%20chloride.md)}@}. It happens faster in {@{stressed areas like bent, scratched, or sharp areas}@}. <!--SR:!2032-10-05,2496,290!2028-11-20,1394,310!fsrs,2032-06-06T00:00:00.000Z,2138,2137.88886696,3.98153807,2,11,0,0,2026-07-30T00:00:00.000Z-->
 
 First, {@{iron is oxidized to iron(II) ions}@} and {@{oxygen is reduced to [hydroxides](hydroxide.md) in water}@}. {@{The iron(II) ions}@} may be {@{further oxidized by air to iron(III) ions}@}: <!--SR:!2027-03-20,331,230!2032-11-12,2634,330!fsrs,2026-11-25T00:59:50.580Z,172,171.66330443,1,2,5,0,0,2026-06-06T00:59:50.580Z!fsrs,2026-11-02T00:59:51.712Z,149,148.63118492,1,2,5,0,0,2026-06-06T00:59:51.712Z-->
 

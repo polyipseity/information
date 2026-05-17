@@ -24,12 +24,12 @@ Flashcards for this section are as follows:
 
 - provision definition ::@:: A liability of uncertain timing and amount (e.g. lawsuit, warranty). <!--SR:!2026-08-03,79,342!2026-07-30,75,337-->
 - provision current vs non-current ::@:: If settlement expected within 12 months after reporting date, current; otherwise non-current. <!--SR:!2026-08-08,83,342!fsrs,2027-07-26T00:00:00.000Z,369,368.80018302,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
-- provision: past event ::@:: Something that already happened (e.g. sale of product with warranty, incident giving rise to lawsuit). <!--SR:!2026-07-29,74,342!fsrs,2027-07-06T00:00:00.000Z,350,350.16609236,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
+- provision: past event ::@:: Something that already happened (e.g. sale of product with warranty, incident giving rise to lawsuit). <!--SR:!fsrs,2027-09-06T00:00:00.000Z,403,403.39281439,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,350,350.16609236,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
 - provision: present obligation ::@:: Legal (if in contract) or constructive (if from policy/practice); must arise from the past event. <!--SR:!2026-08-02,78,342!2026-08-08,83,342-->
 - provision recognition: four criteria ::@:: (1) Past event, (2) present obligation (legal or constructive), (3) probable outflow (>50%), (4) reliably estimated amount. <!--SR:!2026-07-30,75,342!fsrs,2027-08-19T00:00:00.000Z,387,387.29485933,1,2,7,0,0,2026-07-28T00:00:00.000Z-->
 - provisions add to liability definition ::@:: Provisions add probable outflow and reliably estimated amount to the general liability definition (past event, present obligation). <!--SR:!fsrs,2027-08-22T00:00:00.000Z,389,389.16804405,1,2,7,0,0,2026-07-29T00:00:00.000Z!2026-07-31,76,342-->
 - probable in provision context ::@:: More than 50% chance that an outflow will be required; instructor uses clear-cut percentages (e.g. 58%, 42%), not 50.1%. <!--SR:!fsrs,2027-07-28T00:00:00.000Z,369,368.80018302,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-31T00:00:00.000Z,373,373.43671089,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
-- reliably estimated (provision) ::@:: There must be a reasonable basis for the estimate (e.g. lawyer advice, past experience for litigation). <!--SR:!2026-07-29,74,326!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
+- reliably estimated (provision) ::@:: There must be a reasonable basis for the estimate (e.g. lawyer advice, past experience for litigation). <!--SR:!fsrs,2027-08-15T00:00:00.000Z,381,381.31061454,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
 
 ## legal versus constructive obligation
 
@@ -55,7 +55,7 @@ The practical recognition-versus-disclosure rule is therefore: __recognize__ a p
 Flashcards for this section are as follows:
 
 - no past event (provision) ::@:: The company did nothing that gave rise to the obligation; e.g. labour strike, war, recession—company did not cause these. <!--SR:!2026-08-05,80,342!fsrs,2027-08-26T00:00:00.000Z,394,394.04153963,1,2,7,0,0,2026-07-28T00:00:00.000Z-->
-- why no provision for labour strike or war? ::@:: No past event—the company did not cause the strike or war; no present obligation. <!--SR:!2026-07-29,74,342!2026-08-05,80,342-->
+- why no provision for labour strike or war? ::@:: No past event—the company did not cause the strike or war; no present obligation. <!--SR:!fsrs,2027-09-06T00:00:00.000Z,403,403.39281439,1,2,7,0,0,2026-07-30T00:00:00.000Z!2026-08-05,80,342-->
 - lawsuit: when is no provision recognized? ::@:: When probability of unfavorable outcome is not probable (e.g. &lt;50%); may still require disclosure in notes. <!--SR:!2026-08-08,83,342!2026-08-01,77,342-->
 - provision vs disclosure ::@:: Recognize a provision only when there is a present obligation, outflow is probable, and the amount is reliably estimated; then record it in the accounts (typically Dr expense, Cr liability). If the obligation is only possible, or present but not probable enough / not reliably measurable, do not recognize it—disclose it in the notes as a contingent liability instead. If the chance of outflow is remote, usually do nothing. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-08-08,83,342-->
 
@@ -307,7 +307,7 @@ Representative journal entry examples:
 > | {@{Unearned warranty revenue}@}                       | {@{300}@} |           |
 > | {@{Warranty revenue}@}                                |           | {@{300}@} |
 >
-> _Explanation._ Straight-line over the 3-year service period: {@{900 ÷ 3 = 300 per year}@}; {@{revenue is earned only during the service-type period (after assurance-type warranty has expired)}@}. <!--SR:!2026-08-08,83,342!2026-08-05,80,342!2026-08-08,83,342!2026-07-29,74,342!2026-08-03,79,342!2026-07-31,76,342!2026-07-29,74,337!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Explanation._ Straight-line over the 3-year service period: {@{900 ÷ 3 = 300 per year}@}; {@{revenue is earned only during the service-type period (after assurance-type warranty has expired)}@}. <!--SR:!2026-08-08,83,342!2026-08-05,80,342!2026-08-08,83,342!fsrs,2027-09-06T00:00:00.000Z,403,403.39281439,1,2,7,0,0,2026-07-30T00:00:00.000Z!2026-08-03,79,342!2026-07-31,76,342!fsrs,2027-08-30T00:00:00.000Z,396,396.49212694,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -457,7 +457,7 @@ Representative journal entry examples:
 > | {@{Oil platform (PPE)}@}                | {@{620 921}@} |               |
 > | {@{Environmental liability (ARO)}@}     |               | {@{620 921}@} |
 >
-> _Calculation._ PV = {@{1 000 000 ÷ (1.10^5)}@} = {@{620 921}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-08,83,342!2026-08-02,78,342!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-31,76,342!fsrs,2027-04-23T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-07-29,74,337!2026-08-07,82,342-->
+> _Calculation._ PV = {@{1 000 000 ÷ (1.10^5)}@} = {@{620 921}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-08,83,342!2026-08-02,78,342!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-31,76,342!fsrs,2027-04-23T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!fsrs,2027-08-30T00:00:00.000Z,396,396.49212694,1,2,7,0,0,2026-07-30T00:00:00.000Z!2026-08-07,82,342-->
 
 <!-- markdownlint MD028 -->
 
@@ -581,7 +581,7 @@ Flashcards for this section are as follows:
 
 - onerous contract ::@:: Contract where unavoidable cost of meeting obligations exceeds economic benefits expected to be received; recognize a provision when it becomes onerous. <!--SR:!2026-08-06,81,342!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
 - onerous contract provision: measurement basis ::@:: Lower of (1) cost to fulfil the contract and (2) compensation/penalty to exit the contract. <!--SR:!fsrs,2027-06-18T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-08-08,83,342-->
-- why "lower of" for onerous contracts? ::@:: A reasonable entity chooses the cheaper way to avoid further losses (pay penalty vs continue paying fulfilment costs). <!--SR:!2026-07-29,74,337!2026-08-07,82,342-->
+- why "lower of" for onerous contracts? ::@:: A reasonable entity chooses the cheaper way to avoid further losses (pay penalty vs continue paying fulfilment costs). <!--SR:!fsrs,2027-08-30T00:00:00.000Z,396,396.49212694,1,2,7,0,0,2026-07-30T00:00:00.000Z!2026-08-07,82,342-->
 - onerous contract provision: entry? ::@:: Dr _Loss_ (onerous contract), Cr _Onerous contract liability_ (amount = lower of fulfilment cost and exit penalty). <!--SR:!fsrs,2027-04-28T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-08-07,82,342-->
 - Meridian: fulfilment cost 200&nbsp;000, no exit option—onerous contract provision and entry? ::@:: Provision = 200&nbsp;000 (lower of fulfilment cost and exit penalty; no cheaper exit exists); Dr _Loss on onerous contract_ 200&nbsp;000, Cr _Onerous contract liability_ 200&nbsp;000. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
 - Meridian: fulfilment cost 200&nbsp;000, exit penalty 80&nbsp;000—onerous contract provision and entry? ::@:: Lower of 200&nbsp;000 and 80&nbsp;000 = 80&nbsp;000; Dr _Loss on onerous contract_ 80&nbsp;000, Cr _Onerous contract liability_ 80&nbsp;000. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->

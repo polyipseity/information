@@ -185,7 +185,7 @@ Flashcards for this section are as follows:
 - conversion of AP to note: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_ (same amount). <!--SR:!fsrs,2026-12-04T05:49:09.721Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:09.721Z!fsrs,2027-07-30T00:00:00.000Z,370,369.52810833,1,2,7,0,0,2026-07-25T00:00:00.000Z-->
 - after conversion to note: Given principal, rate, and months to reporting date, how is interest recorded? ::@:: Accrue interest (principal × rate × months/12); Dr _Interest expense_, Cr _Interest payable_. <!--SR:!fsrs,2027-07-24T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2026-12-04T05:55:08.197Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:08.197Z-->
 - conversion example: AP 12 000 → note 1 Sept, 9%—conversion entry? ::@:: Dr _Accounts payable_ 12 000, Cr _Notes payable_ 12 000. <!--SR:!fsrs,2027-08-11T00:00:00.000Z,379,378.6822546,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2026-12-04T05:54:57.102Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:57.102Z-->
-- conversion example: note 12 000, 9%, 4 months to year-end—accrual entry? ::@:: Dr _Interest expense_ 360, Cr _Interest payable_ 360. <!--SR:!2026-07-29,73,321!fsrs,2027-03-07T00:00:00.000Z,223,223.22241957,2.82989087,2,7,0,0,2026-07-27T00:00:00.000Z-->
+- conversion example: note 12 000, 9%, 4 months to year-end—accrual entry? ::@:: Dr _Interest expense_ 360, Cr _Interest payable_ 360. <!--SR:!fsrs,2027-08-04T00:00:00.000Z,370,370.06148599,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2027-03-07T00:00:00.000Z,223,223.22241957,2.82989087,2,7,0,0,2026-07-27T00:00:00.000Z-->
 
 ### implicit-interest notes (notes issued at a discount)
 
