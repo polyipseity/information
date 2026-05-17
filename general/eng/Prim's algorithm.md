@@ -66,7 +66,7 @@ As described above, {@{the starting vertex for the algorithm}@} will {@{be chose
 > __flashcards__
 >
 > - [adjacency matrix](adjacency%20matrix.md), searching ::@:: $O(\lvert V \rvert^{2})$ <!--SR:!2026-12-13,547,310!2030-05-24,1484,330-->
-> - [binary heap](binary%20heap.md) and [adjacency list](adjacency%20list.md) ::@:: $O((\lvert V \rvert + \lvert E \rvert)\log \lvert V \rvert)=O(\lvert E \rvert \log \lvert V \rvert)$ <!--SR:!2026-06-16,203,210!2028-11-30,969,290-->
+> - [binary heap](binary%20heap.md) and [adjacency list](adjacency%20list.md) ::@:: $O((\lvert V \rvert + \lvert E \rvert)\log \lvert V \rvert)=O(\lvert E \rvert \log \lvert V \rvert)$ <!--SR:!fsrs,2027-12-10T03:49:16.144Z,542,542.28523544,5.98276817,2,9,0,0,2026-06-16T03:49:16.144Z!2028-11-30,969,290-->
 > - [Fibonacci heap](Fibonacci%20heap.md) and [adjacency list](adjacency%20list.md) ::@:: $O(\lvert E \rvert + \lvert V \rvert \log \lvert V \rvert)$ <!--SR:!2027-02-16,378,270!2027-12-12,578,210-->
 
 A simple implementation of Prim's, using {@{an [adjacency matrix](adjacency%20matrix.md) or an [adjacency list](adjacency%20list.md) graph representation}@} and {@{linearly searching an array of weights to find the minimum weight edge to add}@}, requires {@{[O](big%20O%20notation.md)\(\|V\|<sup>2</sup>\) running time}@}. However, {@{this running time can be greatly improved}@} by {@{using [heaps](heap%20(data%20structure).md) to implement finding minimum weight edges in the algorithm's inner loop}@}. <!--SR:!2027-02-06,552,310!2028-02-09,842,330!2029-08-15,1345,350!2029-07-29,1330,350!2026-10-16,338,381-->

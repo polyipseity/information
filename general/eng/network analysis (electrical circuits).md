@@ -297,7 +297,7 @@ If {@{all circuit components were linear or the circuit was linearized beforehan
 
 - _i_ and _v_ ::@:: are the instantaneous current and voltage. <!--SR:!2026-07-04,374,360!2026-07-06,375,360-->
 - _I<sub>o</sub>_ ::@:: is an arbitrary parameter called the reverse leakage current whose value depends on the construction of the device. <!--SR:!2026-06-22,362,360!2030-08-04,1553,369-->
-- _V<sub>T</sub>_ ::@:: is a parameter proportional to temperature called the thermal voltage and equal to about 25mV at room temperature. <!--SR:!2026-06-16,358,360!2029-08-16,1257,350-->
+- _V<sub>T</sub>_ ::@:: is a parameter proportional to temperature called the thermal voltage and equal to about 25mV at room temperature. <!--SR:!fsrs,2031-01-07T01:43:40.592Z,1666,1665.93377913,1,2,9,0,0,2026-06-16T01:43:40.592Z!2029-08-16,1257,350-->
 
 There are {@{many other ways that non-linearity can appear in a network}@}. {@{All methods utilising linear superposition}@} will {@{fail when non-linear components are present}@}. There are {@{several options for dealing with non-linearity}@} depending on {@{the type of circuit and the information the analyst wishes to obtain}@}. <!--SR:!2026-07-28,394,360!2026-06-27,367,360!2030-09-23,1592,369!2029-02-10,1108,350!2029-02-01,1099,350-->
 

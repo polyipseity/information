@@ -32,7 +32,7 @@ Often the volume integral is represented in terms of {@{a differential volume el
 
 ## example
 
-Integrating {@{the equation $f(x,y,z)=1$ over a unit cube}@} yields the following result: {@{$$\int _{0}^{1}\int _{0}^{1}\int _{0}^{1}1\,dx\,dy\,dz=\int _{0}^{1}\int _{0}^{1}(1-0)\,dy\,dz=\int _{0}^{1}\left(1-0\right)dz=1-0=1$$}@} <!--SR:!2026-06-16,268,330!fsrs,2029-08-29T05:56:45.814Z,1172,1172.20432607,1,2,9,0,0,2026-06-14T05:56:45.814Z-->
+Integrating {@{the equation $f(x,y,z)=1$ over a unit cube}@} yields the following result: {@{$$\int _{0}^{1}\int _{0}^{1}\int _{0}^{1}1\,dx\,dy\,dz=\int _{0}^{1}\int _{0}^{1}(1-0)\,dy\,dz=\int _{0}^{1}\left(1-0\right)dz=1-0=1$$}@} <!--SR:!fsrs,2029-09-04T02:34:15.005Z,1176,1176.0199518,1,2,9,0,0,2026-06-16T02:34:15.005Z!fsrs,2029-08-29T05:56:45.814Z,1172,1172.20432607,1,2,9,0,0,2026-06-14T05:56:45.814Z-->
 
 So {@{the volume of the unit cube is 1}@} as expected. This is {@{rather trivial however}@}, and a volume integral is {@{far more powerful}@}. For instance if we have {@{a scalar density function on the unit cube}@} then {@{the volume integral will give the total mass of the cube}@}. For example for density function: {@{$${\begin{cases}f:\mathbb {R} ^{3}\to \mathbb {R} \\f:(x,y,z)\mapsto x+y+z\end{cases} }$$}@} {@{the total mass of the cube}@} is: {@{$$\int _{0}^{1}\int _{0}^{1}\int _{0}^{1}(x+y+z)\,dx\,dy\,dz=\int _{0}^{1}\int _{0}^{1}\left({\frac {1}{2} }+y+z\right)dy\,dz=\int _{0}^{1}(1+z)\,dz={\frac {3}{2} }$$}@} <!--SR:!2026-07-09,287,330!2026-06-18,270,330!2029-07-05,1134,350!2026-07-17,294,330!2026-07-17,294,330!2026-06-25,276,330!fsrs,2029-07-25T00:59:44.626Z,1145,1145.44606232,1,2,9,0,0,2026-06-06T00:59:44.626Z!fsrs,2029-09-03T03:29:33.695Z,1176,1176.0199518,1,2,9,0,0,2026-06-15T03:29:33.695Z-->
 

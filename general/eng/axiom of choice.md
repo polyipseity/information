@@ -200,7 +200,7 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
 - [Mathematical logic](mathematical%20logic.md)
 
-  - \(annotation: {@{equivalent to}@} AC\) If _S_ is {@{a set of sentences of [first-order logic](first-order%20logic.md)}@} and _B_ is {@{a consistent subset of _S_}@}, then _B_ is {@{included in a set that is maximal among consistent subsets of _S_}@}. {@{The special case}@} where _S_ is {@{the set of __all__ first-order sentences in a given [signature](signature%20(logic).md)}@} is {@{weaker, equivalent to the [Boolean prime ideal theorem](Boolean%20prime%20ideal%20theorem.md)}@}; see the section {@{"Weaker forms" below}@}. <!--SR:!fsrs,2028-06-17T02:13:52.437Z,734,733.55974119,1,2,8,0,0,2026-06-14T02:13:52.437Z!2026-06-18,138,415!2026-06-21,141,415!2026-06-23,143,415!2026-06-16,136,415!2026-06-18,138,415!2026-06-17,137,415!2026-06-29,149,415-->
+  - \(annotation: {@{equivalent to}@} AC\) If _S_ is {@{a set of sentences of [first-order logic](first-order%20logic.md)}@} and _B_ is {@{a consistent subset of _S_}@}, then _B_ is {@{included in a set that is maximal among consistent subsets of _S_}@}. {@{The special case}@} where _S_ is {@{the set of __all__ first-order sentences in a given [signature](signature%20(logic).md)}@} is {@{weaker, equivalent to the [Boolean prime ideal theorem](Boolean%20prime%20ideal%20theorem.md)}@}; see the section {@{"Weaker forms" below}@}. <!--SR:!fsrs,2028-06-17T02:13:52.437Z,734,733.55974119,1,2,8,0,0,2026-06-14T02:13:52.437Z!2026-06-18,138,415!2026-06-21,141,415!2026-06-23,143,415!fsrs,2028-06-30T02:43:34.268Z,745,744.52265934,1,2,8,0,0,2026-06-16T02:43:34.268Z!2026-06-18,138,415!2026-06-17,137,415!2026-06-29,149,415-->
 
   - \(annotation: {@{equivalent to}@} AC\) {@{[Lowenheim-Skolem theorem](Lowenheim-Skolem%20theorem.md)}@}: If {@{first-order theory has infinite model}@}, then it has {@{infinite model of every possible cardinality greater than cardinality of language of this theory}@}. <!--SR:!2026-12-22,376,364!2026-12-26,380,364!2027-01-18,399,364!2027-11-03,544,415-->
 
@@ -266,7 +266,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - \(annotation: {@{weaker than}@} AC\) {@{The [Nielsen–Schreier theorem](Nielsen–Schreier%20theorem.md)}@}, that {@{every subgroup of a free group}@} is {@{free}@}. <!--SR:!2026-06-28,166,344!2026-08-05,260,344!2026-12-31,384,364!2026-06-27,147,415-->
 
-  - \(annotation: {@{weaker than}@} AC\) {@{The additive groups of __[R](real%20numbers.md)__ and __[C](complex%20number.md)__}@} are {@{isomorphic}@}.<sup>[\[32\]](#^ref-32)</sup><sup>[\[33\]](#^ref-33)</sup> <!--SR:!2026-09-26,305,347!2026-07-12,241,330!2026-06-16,136,415-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The additive groups of __[R](real%20numbers.md)__ and __[C](complex%20number.md)__}@} are {@{isomorphic}@}.<sup>[\[32\]](#^ref-32)</sup><sup>[\[33\]](#^ref-33)</sup> <!--SR:!2026-09-26,305,347!2026-07-12,241,330!fsrs,2028-06-30T02:43:35.307Z,745,744.52265934,1,2,8,0,0,2026-06-16T02:43:35.307Z-->
 
 - [Functional analysis](functional%20analysis.md)
 
@@ -332,7 +332,7 @@ There are {@{models of Zermelo-Fraenkel set theory}@} in which {@{the axiom of c
 
 - \(annotation: {@{implies negation of}@} AC\) There is {@{a field}@} with {@{no algebraic closure}@}. <!--SR:!2028-11-08,894,347!2026-12-23,377,364!2026-06-17,137,415-->
 
-- \(annotation: {@{implies negation of}@} AC\) In {@{all models of ZF¬C}@} there is {@{a vector space with no basis}@}. <!--SR:!2026-10-20,323,347!2026-09-28,306,347!2026-06-16,136,415-->
+- \(annotation: {@{implies negation of}@} AC\) In {@{all models of ZF¬C}@} there is {@{a vector space with no basis}@}. <!--SR:!2026-10-20,323,347!2026-09-28,306,347!fsrs,2028-06-30T02:43:33.152Z,745,744.52265934,1,2,8,0,0,2026-06-16T02:43:33.152Z-->
 
 - \(annotation: {@{implies negation of}@} AC\) There is {@{a vector space}@} with {@{two bases of different cardinalities}@}. <!--SR:!2026-12-22,377,364!2027-01-16,397,364!2027-11-04,545,415-->
 

@@ -154,7 +154,7 @@ return await memorize_seq(
 - _(begin)_→::@::←air sparging <!--SR:!2029-09-26,1509,375!2031-10-09,2146,395-->
 - air sparging→::@::←bioremediation <!--SR:!2030-02-12,1553,335!2026-10-01,593,335-->
 - bioremediation→::@::←catalytic oxidation <!--SR:!2032-09-17,2338,355!2027-01-03,660,335-->
-- catalytic oxidation→::@::←ex-situ biopile <!--SR:!2026-11-13,581,295!2026-06-16,518,335-->
+- catalytic oxidation→::@::←ex-situ biopile <!--SR:!2026-11-13,581,295!fsrs,2032-04-08T02:37:59.514Z,2123,2123.1997676,1,2,10,0,0,2026-06-16T02:37:59.514Z-->
 - ex-situ biopile→::@::←ex-situ solidification or stabilization <!--SR:!2027-07-13,860,355!fsrs,2032-04-02T09:16:21.020Z,2119,2119.0862237,1,2,10,0,0,2026-06-14T09:16:21.020Z-->
 - ex-situ solidification or stabilization→::@::←_(end)_ <!--SR:!2031-09-07,2120,395!2026-09-12,580,335-->
 

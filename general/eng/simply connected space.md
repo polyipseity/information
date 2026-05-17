@@ -55,7 +55,7 @@ In {@{[complex analysis](complex%20analysis.md)}@}: {@{an open subset $X\subsete
 
 ## informal discussion
 
-Informally, {@{an object in our space is simply connected}@} if it {@{consists of one piece and does not have any "holes" that pass all the way through it}@}. For example, {@{neither a doughnut nor a coffee cup \(with a handle\)}@} is simply connected, but {@{a hollow rubber ball}@} is simply connected. In {@{two dimensions}@}, {@{a circle}@} is not simply connected, but {@{a disk and a line}@} are. {@{Spaces that are [connected](connected%20space.md) but not simply connected}@} are called {@{__non-simply connected__ or __multiply connected__}@}. <!--SR:!2026-06-19,275,330!2026-06-16,272,330!2026-06-27,280,330!2029-03-25,1061,350!2029-06-01,1116,350!2026-07-02,285,330!2026-06-21,276,330!2026-07-07,288,330!fsrs,2029-08-02T05:29:46.509Z,1154,1153.64404968,1,2,9,0,0,2026-06-05T05:29:46.509Z-->
+Informally, {@{an object in our space is simply connected}@} if it {@{consists of one piece and does not have any "holes" that pass all the way through it}@}. For example, {@{neither a doughnut nor a coffee cup \(with a handle\)}@} is simply connected, but {@{a hollow rubber ball}@} is simply connected. In {@{two dimensions}@}, {@{a circle}@} is not simply connected, but {@{a disk and a line}@} are. {@{Spaces that are [connected](connected%20space.md) but not simply connected}@} are called {@{__non-simply connected__ or __multiply connected__}@}. <!--SR:!2026-06-19,275,330!fsrs,2029-09-19T02:41:50.096Z,1191,1191.26470738,1,2,9,0,0,2026-06-16T02:41:50.096Z!2026-06-27,280,330!2029-03-25,1061,350!2029-06-01,1116,350!2026-07-02,285,330!2026-06-21,276,330!2026-07-07,288,330!fsrs,2029-08-02T05:29:46.509Z,1154,1153.64404968,1,2,9,0,0,2026-06-05T05:29:46.509Z-->
 
 > {@{![A [sphere](sphere.md) is simply connected because every loop can be contracted \(on the surface\) to a point.](../../archives/Wikimedia%20Commons/P1S2all.jpg)}@}
 >
@@ -67,7 +67,7 @@ The definition rules out {@{only [handle](handle%20decomposition.md)-shaped hole
 
 > {@{![A torus is not a simply connected surface.](../../archives/Wikimedia%20Commons/Torus%20cycles.png)}@}
 >
-> {@{A torus}@} is {@{not a simply connected surface}@}. {@{Neither of the two colored loops shown here}@} can be {@{contracted to a point without leaving the surface}@}. {@{A [solid torus](solid%20torus.md) is also not simply connected}@} because {@{the purple loop cannot contract to a point without leaving the solid}@}. <!--SR:!2026-07-08,290,330!2029-06-03,1117,350!2029-06-04,1118,350!2026-07-06,287,330!2029-05-09,1097,350!2026-06-16,272,330!fsrs,2029-08-03T05:30:06.081Z,1155,1155.09793684,1,2,9,0,0,2026-06-05T05:30:06.081Z-->
+> {@{A torus}@} is {@{not a simply connected surface}@}. {@{Neither of the two colored loops shown here}@} can be {@{contracted to a point without leaving the surface}@}. {@{A [solid torus](solid%20torus.md) is also not simply connected}@} because {@{the purple loop cannot contract to a point without leaving the solid}@}. <!--SR:!2026-07-08,290,330!2029-06-03,1117,350!2029-06-04,1118,350!2026-07-06,287,330!2029-05-09,1097,350!fsrs,2029-09-19T02:41:51.456Z,1191,1191.26470738,1,2,9,0,0,2026-06-16T02:41:51.456Z!fsrs,2029-08-03T05:30:06.081Z,1155,1155.09793684,1,2,9,0,0,2026-06-05T05:30:06.081Z-->
 
 - {@{The [Euclidean plane](Euclidean%20space.md) $\mathbb {R} ^{2}$}@} is {@{simply connected}@}, but {@{$\mathbb {R} ^{2}$ minus the origin $(0,0)$ is not}@}. If {@{$n>2$}@}, then {@{both $\mathbb {R} ^{n}$ and $\mathbb {R} ^{n}$ minus the origin are simply connected}@}.
 - Analogously: {@{the [_n_-dimensional sphere](n-sphere.md) $S^{n}$}@} is {@{simply connected if and only if $n\geq 2$}@}.
@@ -97,7 +97,7 @@ If {@{$X$ and $Y$ are [homotopy equivalent](homotopy%20equivalent.md#homotopy%20
 
 ## see also
 
-- [Deformation retract](deformation%20retract.md) ::@:: – Continuous, position-preserving \(annotation: in the subspace\) mapping from a topological space into a subspace <!--SR:!2026-06-25,279,330!2026-06-16,272,330-->
+- [Deformation retract](deformation%20retract.md) ::@:: – Continuous, position-preserving \(annotation: in the subspace\) mapping from a topological space into a subspace <!--SR:!2026-06-25,279,330!fsrs,2029-09-19T02:41:52.432Z,1191,1191.26470738,1,2,9,0,0,2026-06-16T02:41:52.432Z-->
 - [Locally simply connected space](locally%20simply%20connected%20space.md)
 - [n-connected space](n-connected%20space.md)
 - [Unicoherent space](unicoherent%20space.md)

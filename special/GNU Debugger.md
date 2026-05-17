@@ -38,7 +38,7 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 - `set args <args>...` ::@:: set program args <!--SR:!2029-08-27,1415,350!2028-03-16,999,350-->
 - `si` ::@:: go to the next instruction stepping into functions <!--SR:!2028-11-15,1196,350!2027-05-10,707,290-->
 - `starti [<args>...]` ::@:: start program and stop at its first instruction <!--SR:!2028-06-24,997,330!2026-10-03,555,310-->
-- `step` ::@:: go to the next (source) line stepping into functions <!--SR:!2027-04-25,717,330!2026-06-16,487,310-->
+- `step` ::@:: go to the next (source) line stepping into functions <!--SR:!2027-04-25,717,330!fsrs,2031-07-07T02:44:27.198Z,1847,1847.31118877,1,2,10,0,0,2026-06-16T02:44:27.198Z-->
 - `x/<format> <address>` ::@:: examine memory at the given address in the given format (see `help x`) <!--SR:!2028-01-30,931,330!2030-12-02,1663,310-->
 
 ### reverse debugging

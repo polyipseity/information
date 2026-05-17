@@ -208,7 +208,7 @@ return chain.from_iterable([r.value for r in results])
 
 - _(begin)_→::@::←`not` <!--SR:!fsrs,2032-10-14T14:06:52.732Z,2314,2314.0489373,1,2,10,0,0,2026-06-14T14:06:52.732Z!2026-06-17,508,389-->
 - `not`→::@::←`and` <!--SR:!fsrs,2032-10-19T03:38:22.286Z,2318,2318.02883016,1,2,10,0,0,2026-06-15T03:38:22.286Z!2033-05-16,2557,409-->
-- `and`→::@::←`or` <!--SR:!2028-03-19,1002,369!2026-06-16,507,389-->
+- `and`→::@::←`or` <!--SR:!2028-03-19,1002,369!fsrs,2032-10-24T02:34:59.737Z,2322,2322.00772364,1,2,10,0,0,2026-06-16T02:34:59.737Z-->
 - `or`→::@::←_(end)_ <!--SR:!2033-06-12,2567,409!2028-09-14,1159,389-->
 
 <!--/pytextgen-->
@@ -238,7 +238,7 @@ To define a string in Python, {@{enclose the string in either double quotes `"ex
 
 `\` is {@{the escape character}@}. Apart from {@{escaping quotes (`\"`, `\'`) and itself (`\\`)}@}, it can also {@{represent a newline using `\n` and a tab character (kinda like a wider space, but not exactly) using `\t`}@}. <!--SR:!2030-11-19,1773,383!2030-03-26,1603,383!2029-06-23,1389,383-->
 
-To {@{find the length of a string}@}, use {@{`len(str)`, which returns an `int` representing the number of characters in `str`}@}. To {@{concatenate/join two strings}@}, use {@{the `+` operator}@}. If {@{the `+` operator is applied between a `str` and another (incompatible) type}@}, then {@{a `TypeError` will be raised}@}. <!--SR:!2033-06-11,2566,409!2030-04-06,1613,389!2026-06-20,511,389!2026-06-16,507,389!2026-08-11,554,406!2033-10-12,2689,426-->
+To {@{find the length of a string}@}, use {@{`len(str)`, which returns an `int` representing the number of characters in `str`}@}. To {@{concatenate/join two strings}@}, use {@{the `+` operator}@}. If {@{the `+` operator is applied between a `str` and another (incompatible) type}@}, then {@{a `TypeError` will be raised}@}. <!--SR:!2033-06-11,2566,409!2030-04-06,1613,389!2026-06-20,511,389!fsrs,2032-10-24T02:34:58.926Z,2322,2322.00772364,1,2,10,0,0,2026-06-16T02:34:58.926Z!2026-08-11,554,406!2033-10-12,2689,426-->
 
 Like lists, strings can be {@{indexed using the `string_var[n]`, which access the _n_+1-th character of the string \(i.e. `string_var[0]` is the 1st character\)}@}. If {@{the index is out of range}@}, then {@{an `IndexError` will be raised}@}. But unlike lists, strings {@{cannot be modified using the indexing notation, because strings in Python are immutable (not modifiable)}@}. <!--SR:!2026-07-28,496,397!2027-02-06,687,417!2027-01-20,672,417!2027-01-14,667,417-->
 

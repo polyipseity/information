@@ -80,7 +80,7 @@ C$: [cost structure](#cost%20structure)
 
 ##### customer segment examples
 
-There are {@{different types}@} of {@{customer segments}@}. Examples include: <!--SR:!fsrs,2027-09-19T10:17:21.816Z,462,461.77133783,1,2,7,0,0,2026-06-14T10:17:21.816Z!2026-06-16,85,353-->
+There are {@{different types}@} of {@{customer segments}@}. Examples include: <!--SR:!fsrs,2027-09-19T10:17:21.816Z,462,461.77133783,1,2,7,0,0,2026-06-14T10:17:21.816Z!fsrs,2027-09-30T02:43:44.242Z,471,471.28554544,1,2,7,0,0,2026-06-16T02:43:44.242Z-->
 
 ```Python
 # pytextgen generate data
@@ -119,7 +119,7 @@ segmented: splitting slightly different customer segments
 
 #### value propositions
 
-{@{The value propositions}@} building block shows {@{products and services that create value for customer segments}@}. Value propositions can be {@{disruptive or an improvement over existing products}@}. <!--SR:!2028-10-14,1169,294!2028-01-08,929,274!2026-06-16,85,353-->
+{@{The value propositions}@} building block shows {@{products and services that create value for customer segments}@}. Value propositions can be {@{disruptive or an improvement over existing products}@}. <!--SR:!2028-10-14,1169,294!2028-01-08,929,274!fsrs,2027-09-30T02:43:46.355Z,471,471.28554544,1,2,7,0,0,2026-06-16T02:43:46.355Z-->
 
 ##### value sources
 
@@ -276,11 +276,11 @@ subscription fee
 
 #### key resources
 
-{@{The key resources}@} building block shows {@{important assets required for the business model}@}. They can be categorized into {@{financial, human, intellectual, and physical}@} assets. <!--SR:!2032-08-21,2314,334!2030-01-01,1373,257!2026-06-16,85,353-->
+{@{The key resources}@} building block shows {@{important assets required for the business model}@}. They can be categorized into {@{financial, human, intellectual, and physical}@} assets. <!--SR:!2032-08-21,2314,334!2030-01-01,1373,257!fsrs,2027-09-30T02:43:44.945Z,471,471.28554544,1,2,7,0,0,2026-06-16T02:43:44.945Z-->
 
 #### key activities
 
-{@{The key activities}@} building block shows {@{important activities required for the business model}@}. They can be categorized into {@{platform or network, problem solving, and production}@} activities. <!--SR:!2030-07-09,1732,334!2028-08-19,1095,277!2026-06-16,85,353-->
+{@{The key activities}@} building block shows {@{important activities required for the business model}@}. They can be categorized into {@{platform or network, problem solving, and production}@} activities. <!--SR:!2030-07-09,1732,334!2028-08-19,1095,277!fsrs,2027-09-30T02:43:45.611Z,471,471.28554544,1,2,7,0,0,2026-06-16T02:43:45.611Z-->
 
 #### key partnerships
 

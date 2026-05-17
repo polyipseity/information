@@ -367,7 +367,7 @@ return await memorize_map(
 - [copper(II) phosphate](copper(II)%20phosphate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-12-02,500,258-->
 - [copper(II) sulfate](copper(II)%20sulfate.md):@:<span style="color: green;">soluble</span> <!--SR:!2028-04-21,1096,298-->
 - [copper(II) sulfide](copper(II)%20sulfide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-07-28,777,258-->
-- [lead(II) bromide](lead(II)%20bromide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-06-16,354,198-->
+- [lead(II) bromide](lead(II)%20bromide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!fsrs,2027-11-05T02:34:19.149Z,507,507.46351821,8.29241954,2,9,0,0,2026-06-16T02:34:19.149Z-->
 - [lead(II) chloride](lead(II)%20chloride.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-11-22,727,278-->
 - [lead(II) iodide](lead(II)%20iodide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!fsrs,2027-04-16T14:27:15.457Z,308,307.82991074,8.98461332,2,8,0,0,2026-06-12T14:27:15.457Z-->
 - [lead(II) sulfate](lead(II)%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-06-19,159,170-->

@@ -206,7 +206,7 @@ Generalizing {@{the case _M_ = __R__<sup>_n_</sup>}@}, {@{the gradient of a func
 
 - [Curl](curl%20(mathematics).md) ::@:: – Circulation density in a vector field <!--SR:!2026-09-21,350,349!2029-05-11,1095,350-->
 - [Divergence](divergence.md) ::@:: – Vector operator in vector calculus <!--SR:!2026-09-11,342,349!2026-08-07,311,349-->
-- [Four-gradient](four-gradient.md) ::@:: – Four-vector analogue of the gradient operation <!--SR:!2026-08-27,329,349!2026-06-16,268,330-->
+- [Four-gradient](four-gradient.md) ::@:: – Four-vector analogue of the gradient operation <!--SR:!2026-08-27,329,349!fsrs,2029-09-04T03:49:27.007Z,1176,1176.0199518,1,2,9,0,0,2026-06-16T03:49:27.007Z-->
 - [Hessian matrix](Hessian%20matrix.md) ::@:: – Matrix of second derivatives <!--SR:!2026-06-22,273,330!2026-07-14,291,330-->
 - [Skew gradient](skew%20gradient.md)
 - [Spatial gradient](spatial%20gradient.md) ::@:: – Gradient whose components are spatial derivatives <!--SR:!2026-06-27,277,330!2026-09-05,337,349-->

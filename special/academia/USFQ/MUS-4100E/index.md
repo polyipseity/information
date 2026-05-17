@@ -154,7 +154,7 @@ The content is in teaching order.
 - [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2028-10-14,1058,360!2031-04-17,1803,380-->
   - gospel music / contribution to jazz ::@:: call and response, a tradition from Africa <!--SR:!2031-03-04,1769,380!fsrs,2031-02-11T08:11:57.535Z,1710,1710.2621335,1,2,10,0,0,2026-06-07T08:11:57.535Z-->
   - [call and response](../../../../general/call%20and%20response.md) ::@:: the idea of having some musicians playing the background while the main instruments improvise; in gospel music, Latin music, etc. <!--SR:!2031-05-21,1833,380!2031-04-22,1808,380-->
-    - call and response / examples ::@:: Little Richard, prison songs <!--SR:!2031-03-03,1768,380!2026-06-16,378,360-->
+    - call and response / examples ::@:: Little Richard, prison songs <!--SR:!2031-03-03,1768,380!fsrs,2031-03-28T02:43:42.790Z,1746,1746.4079113,1,2,10,0,0,2026-06-16T02:43:42.790Z-->
 - [march](../../../../general/march%20(music).md)
   - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war. <!--SR:!fsrs,2031-03-16T05:22:33.989Z,1736,1735.5164296,1,2,10,0,0,2026-06-14T05:22:33.989Z!2031-03-25,1786,380-->
   - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2029-07-04,1264,360!2028-04-01,907,360-->

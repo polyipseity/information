@@ -16,7 +16,7 @@ tags:
 
 In {@{[differential calculus](differential%20calculus.md)}@}, {@{the __domain-straightening theorem__}@} states that, given {@{a [vector field](vector%20field.md) $X$ on a [manifold](manifold.md)}@}, there {@{exist local coordinates $y_{1},\dots ,y_{n}$ such that $X=\partial /\partial y_{1}$ in a neighborhood of a point where $X$ is nonzero}@}. The theorem is also known as {@{__straightening out of a vector field__}@}. <!--SR:!2029-05-16,1093,350!2029-07-04,1132,350!2029-06-16,1114,350!2028-07-21,794,330!2029-04-10,1065,350-->
 
-{@{The [Frobenius theorem](Frobenius%20theorem%20(differential%20topology).md) in [differential geometry](differential%20geometry.md)}@} can be {@{considered as a higher-dimensional generalization of this theorem}@}. <!--SR:!2029-07-17,1142,350!2026-06-16,262,330-->
+{@{The [Frobenius theorem](Frobenius%20theorem%20(differential%20topology).md) in [differential geometry](differential%20geometry.md)}@} can be {@{considered as a higher-dimensional generalization of this theorem}@}. <!--SR:!2029-07-17,1142,350!fsrs,2029-08-12T02:43:04.601Z,1153,1153.10014712,1,2,9,0,0,2026-06-16T02:43:04.601Z-->
 
 ## proof
 

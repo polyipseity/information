@@ -809,7 +809,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{2}@} <!--SR:!2026-06-16,443,381-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-02-10T01:44:27.198Z,2065,2065.28037757,1,2,10,0,0,2026-06-16T01:44:27.198Z-->
 
 <!-- markdownlint MD028 -->
 

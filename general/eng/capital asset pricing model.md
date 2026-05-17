@@ -58,7 +58,7 @@ There has also been research into {@{a mean-reverting beta often referred to as 
 
 ## security market line
 
-{@{The [SML](security%20market%20line.md)}@} graphs {@{the results from the capital asset pricing model \(CAPM\) formula}@}. {@{The _x_-axis}@} represents {@{the risk \(beta\)}@}, and {@{the _y_-axis}@} represents {@{the expected return}@}. {@{The market risk premium}@} is {@{determined from the slope of the SML}@}. <!--SR:!2029-04-18,1073,350!2029-06-13,1111,350!2026-08-07,306,350!2026-06-16,259,330!2026-07-23,298,350!2029-05-26,1103,350!2026-08-08,311,350!2029-05-05,1086,350-->
+{@{The [SML](security%20market%20line.md)}@} graphs {@{the results from the capital asset pricing model \(CAPM\) formula}@}. {@{The _x_-axis}@} represents {@{the risk \(beta\)}@}, and {@{the _y_-axis}@} represents {@{the expected return}@}. {@{The market risk premium}@} is {@{determined from the slope of the SML}@}. <!--SR:!2029-04-18,1073,350!2029-06-13,1111,350!2026-08-07,306,350!fsrs,2029-08-01T01:43:31.052Z,1142,1141.61620684,1,2,9,0,0,2026-06-16T01:43:31.052Z!2026-07-23,298,350!2029-05-26,1103,350!2026-08-08,311,350!2029-05-05,1086,350-->
 
 {@{The relationship between β and required return}@} is {@{plotted on the _security market line_ \(SML\)}@}, which {@{shows expected return as a function of β}@}. {@{The intercept}@} is {@{the nominal risk-free rate available for the market}@}, while {@{the slope}@} is {@{the market premium, E\(_R_<sub>_m_</sub>\)− _R_<sub>_f_</sub>}@}. {@{The security market line}@} can be regarded as {@{representing a single-factor model of the asset price}@}, where {@{β is the exposure to changes in the value of the Market}@}. {@{The equation of the SML}@} is thus: {@{$$\mathrm {SML} :E(R_{i})=R_{f}+\beta _{i}(E(R_{M})-R_{f}).~$$}@} <!--SR:!2026-07-27,301,350!2026-07-05,276,330!2026-07-31,300,350!2026-07-28,302,350!2026-08-03,303,350!2026-07-26,293,330!2026-07-13,282,330!2026-09-14,337,350!2029-06-10,1108,350!2026-10-03,353,350!2026-08-22,316,350!2026-07-21,296,350-->
 
@@ -102,7 +102,7 @@ Because {@{the unsystematic risk is [diversifiable](diversification%20(finance).
 
 All investors:<sup>[\[7\]](#^ref-7)</sup>
 
-1. \(annotation: objective\) ::@:: Aim to maximize economic utilities \(Asset quantities are given and fixed\). <!--SR:!2026-06-16,260,330!2029-05-22,1089,350-->
+1. \(annotation: objective\) ::@:: Aim to maximize economic utilities \(Asset quantities are given and fixed\). <!--SR:!fsrs,2029-08-04T01:43:31.850Z,1145,1145.44606232,1,2,9,0,0,2026-06-16T01:43:31.850Z!2029-05-22,1089,350-->
 2. \(annotation: utility function\) ::@:: Are rational and risk-averse. <!--SR:!2026-07-14,283,330!2026-08-30,323,350-->
 3. \(annotation: diversification\) ::@:: Are broadly diversified across a range of investments. <!--SR:!2029-07-07,1135,350!2026-09-15,338,350-->
 4. \(annotation: price\) ::@:: Are price takers, i.e., they cannot influence prices. <!--SR:!2029-05-14,1093,350!2029-07-27,1152,350-->

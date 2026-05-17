@@ -17,7 +17,7 @@ They are {@{many different descriptors}@}. They can be mostly categorized into {
 
 ## spectral features
 
-In a {@{STFT frame}@}, we can describe {@{many different spectral features}@}. We can also {@{describe spectral features across frames}@}. <!--SR:!2026-07-07,288,330!2026-07-02,283,330!2026-06-16,271,330-->
+In a {@{STFT frame}@}, we can describe {@{many different spectral features}@}. We can also {@{describe spectral features across frames}@}. <!--SR:!2026-07-07,288,330!2026-07-02,283,330!fsrs,2029-09-15T02:34:52.725Z,1187,1187.45608877,1,2,9,0,0,2026-06-16T02:34:52.725Z-->
 
 ### energy
 
@@ -39,7 +39,7 @@ After {@{measuring the pitch salience}@}, we can {@{create _pitch contours_}@}. 
 
 ### multiple frames
 
-{@{Features across frames}@} can be used for {@{detecting event onsets or segmenting events}@}. <!--SR:!2026-07-14,294,330!2026-06-16,271,330-->
+{@{Features across frames}@} can be used for {@{detecting event onsets or segmenting events}@}. <!--SR:!2026-07-14,294,330!fsrs,2029-09-15T02:34:50.877Z,1187,1187.45608877,1,2,9,0,0,2026-06-16T02:34:50.877Z-->
 
 A measure used to {@{segment events \(based on event onsets\)}@} is {@{_spectral flux_}@}, defined as: {@{$$\operatorname{SF}[l] = \sum_{k = 0}^{N / 2} \max\set{0, \lvert X[l, k] \rvert - \lvert X[l - 1, k] \rvert}$$}@} where {@{$l$ is the frame number}@}. It can be interpreted as {@{how much the total spectrum magnitude increases \(detects onset\), ignoring the decreases \(ignores offsets\)}@}. Whenever {@{this value exceeds a certain threshold}@}, we can say {@{a new event starts}@}, so we {@{segment the audio starting from this frame}@}. Another method is based on {@{_high-frequency content_ \(HFC\)}@}, defined as: {@{$$\operatorname{HFC}[l] = \sum_{k = 0}^{N / 2} k^2 \lvert X[l, k] \rvert \,,$$}@} which {@{weighs high-frequency magnitudes much more than low-frequency ones}@} due to {@{the factor $k^2$}@}. Then onset is detected by {@{finding the HFC difference for each two consecutive frames}@}, and then {@{say a new event starts when this difference is higher than a \(positive\) threshold}@}. The main difference between these two method is {@{the former weighs all frequencies evenly while the latter weighs high frequencies much more}@}, and which one is better {@{depends on the use case}@}. <!--SR:!2029-07-07,1135,350!2026-07-14,294,330!2029-08-26,1180,350!2029-07-10,1138,350!fsrs,2029-09-03T13:30:02.465Z,1177,1177.01902368,1,2,9,0,0,2026-06-14T13:30:02.465Z!2029-07-02,1130,350!2026-06-27,280,330!2026-07-14,294,330!2029-04-30,1088,350!2029-04-24,1082,350!2029-05-06,1092,350!2026-06-25,278,330!fsrs,2029-08-09T08:21:38.602Z,1159,1159.34014939,1,2,9,0,0,2026-06-07T08:21:38.602Z!2029-04-15,1077,350!2029-05-21,1104,350!2029-03-05,1037,350-->
 

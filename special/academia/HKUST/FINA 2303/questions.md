@@ -209,7 +209,7 @@ tags:
 > 2. PV of an annuity due
 >
 > - solution: {@{2}@}
-> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2026-06-16,376,362!fsrs,2031-03-19T04:45:30.931Z,1739,1739.20198001,1,2,10,0,0,2026-06-14T04:45:30.931Z-->
+> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!fsrs,2031-03-31T02:43:32.195Z,1749,1749.00092967,1,2,10,0,0,2026-06-16T02:43:32.195Z!fsrs,2031-03-19T04:45:30.931Z,1739,1739.20198001,1,2,10,0,0,2026-06-14T04:45:30.931Z-->
 
 <!-- markdownlint MD028 -->
 

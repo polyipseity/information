@@ -29,7 +29,7 @@ tags:
 
 ## overview
 
-Z3 was developed in {@{the _Research in Software Engineering_ \(RiSE\) group}@} at {@{[Microsoft Research Redmond](Microsoft%20Research%20Redmond.md#laboratories)}@} and is targeted at {@{solving problems that arise in [software verification](software%20verification.md) and [program analysis](program%20analysis.md)}@}. Z3 supports {@{arithmetic, fixed-size bit-vectors, extensional arrays}@}, {@{datatypes, uninterpreted functions, and [quantifiers](quantifier%20(logic).md)}@}. Its main applications are {@{[extended static checking](extended%20static%20checking.md), test case generation, and [predicate abstraction](predicate%20abstraction.md)}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-06-16,272,330!2029-06-18,1128,350!2026-06-17,273,330!2027-06-25,505,330!2029-08-29,1185,350!2027-06-05,506,398-->
+Z3 was developed in {@{the _Research in Software Engineering_ \(RiSE\) group}@} at {@{[Microsoft Research Redmond](Microsoft%20Research%20Redmond.md#laboratories)}@} and is targeted at {@{solving problems that arise in [software verification](software%20verification.md) and [program analysis](program%20analysis.md)}@}. Z3 supports {@{arithmetic, fixed-size bit-vectors, extensional arrays}@}, {@{datatypes, uninterpreted functions, and [quantifiers](quantifier%20(logic).md)}@}. Its main applications are {@{[extended static checking](extended%20static%20checking.md), test case generation, and [predicate abstraction](predicate%20abstraction.md)}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!fsrs,2029-09-19T02:36:44.448Z,1191,1191.26470738,1,2,9,0,0,2026-06-16T02:36:44.448Z!2029-06-18,1128,350!2026-06-17,273,330!2027-06-25,505,330!2029-08-29,1185,350!2027-06-05,506,398-->
 
 Z3 was {@{open sourced in the beginning of 2015}@}.<sup>[\[3\]](#^ref-3)</sup> The source code is licensed under {@{[MIT License](MIT%20License.md)}@} and hosted on {@{[GitHub](GitHub.md)}@}.<sup>[\[4\]](#^ref-4)</sup> The solver can be built using {@{[Visual Studio](Visual%20Studio.md), a [makefile](makefile.md#makefile) or using [CMake](CMake.md)}@} and runs on {@{[Windows](Microsoft%20Windows.md), [FreeBSD](FreeBSD.md), [Linux](Linux.md), and [macOS](macOS.md)}@}. <!--SR:!2026-06-26,279,330!2029-02-19,1032,350!2029-06-12,1125,350!fsrs,2029-09-02T15:40:07.340Z,1178,1178.42810815,1,2,9,0,0,2026-06-12T15:40:07.340Z!2029-09-16,1200,350-->
 
@@ -55,7 +55,7 @@ In this example {@{propositional logic assertions}@} are {@{checked using functi
 > {@{(declare-fun b () Bool)}@}
 > {@{(assert (not (= (not (and a b)) (or (not a)(not b)))))}@}
 > {@{(check-sat)}@}
-> </pre> <!--SR:!2026-06-16,272,330!fsrs,2029-09-04T15:40:08.167Z,1180,1179.83367202,1,2,9,0,0,2026-06-12T15:40:08.167Z!fsrs,2029-09-09T15:10:12.034Z,1184,1183.64577796,1,2,9,0,0,2026-06-13T15:10:12.034Z!2026-07-11,292,330-->
+> </pre> <!--SR:!fsrs,2029-09-19T02:36:45.438Z,1191,1191.26470738,1,2,9,0,0,2026-06-16T02:36:45.438Z!fsrs,2029-09-04T15:40:08.167Z,1180,1179.83367202,1,2,9,0,0,2026-06-12T15:40:08.167Z!fsrs,2029-09-09T15:10:12.034Z,1184,1183.64577796,1,2,9,0,0,2026-06-13T15:10:12.034Z!2026-07-11,292,330-->
 
 Result: \(annotaion: {@{`unsat`}@}\) <!--SR:!2026-06-26,280,330-->
 
