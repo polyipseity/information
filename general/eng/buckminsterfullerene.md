@@ -10,7 +10,7 @@ tags:
 
 # buckministerfullerene
 
-__Buckministerfullerene__ is {@{a [fullerene](fullerene.md) with the [chemical formula](chemical%20formula.md) __C<sub>60</sub>__}@}. It has a structure of {@{[truncated icosahedron](truncated%20icosahedron.md) with 20 [hexagons](hexagon.md) and 12 [pentagons](pentagon.md)}@}. <!--SR:!2032-02-03,2448,330!2026-06-09,278,190-->
+__Buckministerfullerene__ is {@{a [fullerene](fullerene.md) with the [chemical formula](chemical%20formula.md) __C<sub>60</sub>__}@}. It has a structure of {@{[truncated icosahedron](truncated%20icosahedron.md) with 20 [hexagons](hexagon.md) and 12 [pentagons](pentagon.md)}@}. <!--SR:!2032-02-03,2448,330!fsrs,2028-03-15T13:47:00.136Z,640,640.47264316,6.98338322,2,9,0,0,2026-06-14T13:47:00.136Z-->
 
 ## properties
 

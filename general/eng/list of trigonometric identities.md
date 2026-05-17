@@ -262,7 +262,7 @@ return await memorize_map(
 <!--pytextgen generate section="3213"--><!-- The following content is generated at 2024-07-10T23:14:22.138589+08:00. Any edits will be overridden! -->
 
 - sine cosine:@:$$\sin\theta\cos\varphi=\frac{\sin(\theta+\varphi)+\sin(\theta-\varphi)}2$$ <!--SR:!fsrs,2029-02-26T00:31:31.606Z,996,995.91275061,6.98338322,2,10,0,0,2026-06-06T00:31:31.606Z-->
-- cosine sine:@:$$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$$ <!--SR:!2026-06-12,463,190-->
+- cosine sine:@:$$\cos\theta\sin\varphi=\frac{\sin(\theta+\varphi)-\sin(\theta-\varphi)}2$$ <!--SR:!fsrs,2029-03-22T13:34:37.445Z,1012,1011.64972471,6.98338322,2,10,0,0,2026-06-14T13:34:37.445Z-->
 - sine sine:@:$$\sin\theta\sin\varphi=\frac{\cos(\theta-\varphi)-\cos(\theta+\varphi)}2$$ <!--SR:!2026-09-13,242,190-->
 - cosine cosine:@:$$\cos\theta\cos\varphi=\frac{\cos(\theta-\varphi)+\cos(\theta+\varphi)}2$$ <!--SR:!2027-02-24,853,250-->
 

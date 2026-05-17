@@ -15,7 +15,7 @@ In {@{[axiomatic set theory](set%20theory.md#formalized%20set%20theory) and the 
 
 ## formal statement
 
-In {@{the [formal language](formal%20language.md) of the Zermelo–Fraenkel axioms}@}, the axiom is expressed as follows:<sup>[\[2\]](#^ref-2)</sup> {@{$$\exists I\ (\exists o\ (o\in I\ \land \ \lnot \exists n\ \ (n\in o))\ \land \ \forall x\ (x\in I\Rightarrow \exists y\ (y\in I\ \land \ \forall a\ (a\in y\Leftrightarrow (a\in x\ \lor \ a=x))))).$$}@} <!--SR:!2029-03-21,1206,350!2026-06-09,323,250-->
+In {@{the [formal language](formal%20language.md) of the Zermelo–Fraenkel axioms}@}, the axiom is expressed as follows:<sup>[\[2\]](#^ref-2)</sup> {@{$$\exists I\ (\exists o\ (o\in I\ \land \ \lnot \exists n\ \ (n\in o))\ \land \ \forall x\ (x\in I\Rightarrow \exists y\ (y\in I\ \land \ \forall a\ (a\in y\Leftrightarrow (a\in x\ \lor \ a=x))))).$$}@} <!--SR:!2029-03-21,1206,350!fsrs,2029-03-27T05:57:31.385Z,1017,1016.65940257,3.98153807,2,9,0,0,2026-06-14T05:57:31.385Z-->
 
 In {@{technical language, this formal expression}@} is interpreted as "{@{[there exists](existential%20quantification.md) a [set](set%20(mathematics).md) 𝐼 \(the set that is postulated to be infinite\)}@} such that {@{the [empty set](empty%20set.md) is an element of it}@} and, for {@{every element $x$ of 𝐼, there exists an element $y$ of 𝐼 consisting of just the elements of $x$ and $x$ itself}@}." <!--SR:!2029-03-08,1196,350!2026-10-09,483,310!2028-02-23,650,413!2027-03-11,372,393-->
 

@@ -53,7 +53,7 @@ See [Burj Al Arab](../../../../general/Burj%20Al%20Arab.md).
 
 See [Burj Khalifa](../../../../general/Burj%20Khalifa.md).
 
-- description ::@:: skyscraper in Dubai, United Arab Emirates <!--SR:!2026-06-15,574,317!2030-08-04,1823,394-->
+- description ::@:: skyscraper in Dubai, United Arab Emirates <!--SR:!fsrs,2030-05-20T06:02:55.037Z,1435,1434.96236912,2.97974087,2,10,0,0,2026-06-15T06:02:55.037Z!2030-08-04,1823,394-->
 - height ::@:: architectural: 828 m, tip: 829.8 m, top floor: 585.4 m <!--SR:!2026-10-17,441,261!2029-09-04,1448,377-->
 - image ::@:: ![Burj Khalifa image](../../../../archives/Wikimedia%20Commons/Burj%20Khalifa.jpg) <!--SR:!2030-02-17,1680,400!2029-02-25,1409,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: e75e9185-3454-4c54-a9c9-5a05c6b26732 -->::@:: aluminum, reinforced concrete, steel <!--SR:!2031-01-07,1910,361!2027-03-07,764,330-->
@@ -78,7 +78,7 @@ See [CN Tower](../../../../general/CN%20Tower.md).
 See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Kong).md).
 
 - description ::@:: super tall skyscraper in Wan Chai, Hong Kong <!--SR:!2027-03-06,830,375!2029-11-14,1504,377-->
-- height ::@:: architectural: 373.9 m, top floor: 299 m <!--SR:!2026-06-12,401,241!2031-04-04,2017,396-->
+- height ::@:: architectural: 373.9 m, top floor: 299 m <!--SR:!fsrs,2029-09-01T14:07:36.930Z,1175,1174.65170876,4.43181484,2,10,0,0,2026-06-14T14:07:36.930Z!2031-04-04,2017,396-->
 - image ::@:: ![Central Plaza (Hong Kong) image](../../../../archives/Wikimedia%20Commons/Hong%20Kong%20Convention%20and%20Exhibition%20Centre%20200906(cropped).jpg) <!--SR:!2027-03-26,781,380!2032-07-08,2435,420-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 90e284d1-1940-43c0-b5d7-1b8bea6e3c3e -->::@:: reinforced concrete <!--SR:!2026-08-09,590,341!2030-04-01,1720,401-->
 
@@ -157,7 +157,7 @@ See [HSBC Building (Hong Kong)](HSBC%20Building%20(Hong%20Kong).md).
 - description ::@:: headquarters building of [The Hongkong and Shanghai Banking Corporation](HSBC%20(Hong%20Kong).md) <!--SR:!2026-12-08,692,354!2028-05-14,1166,350-->
 - height ::@:: roof: 178.8 m <!--SR:!2027-01-05,324,201!2029-08-17,1563,370-->
 - image ::@:: ![HSBC Main Building image](../../../../archives/Wikimedia%20Commons/HK%20HSBC%20Main%20Building%202008%20(cropped).jpg) <!--SR:!2029-11-13,1622,400!2033-11-01,2827,420-->
-- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: b5c46b64-11cf-4605-a97e-3a159f12185f -->::@:: steel [suspended structure](../../../../general/suspended%20structure.md) <!--SR:!2026-06-14,601,341!2032-04-15,2367,421-->
+- [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: b5c46b64-11cf-4605-a97e-3a159f12185f -->::@:: steel [suspended structure](../../../../general/suspended%20structure.md) <!--SR:!fsrs,2033-03-14T14:07:35.855Z,2465,2464.55767698,1,2,10,0,0,2026-06-14T14:07:35.855Z!2032-04-15,2367,421-->
 
 ## Hong Kong Convention and Exhibition Centre
 
@@ -280,7 +280,7 @@ See [Sutong Yangtze River Bridge](../../../../general/Sutong%20Yangtze%20River%2
 See [Taipei 101](Taipei%20101.md).
 
 - description ::@:: skyscraper in Taipei, Taiwan <!--SR:!2029-02-18,1419,370!2034-02-20,2921,420-->
-- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!2026-06-15,185,150!2026-07-06,594,330-->
+- height ::@:: architectural: 508.2 m, tip: 509.2 m, top floor: 438 m <!--SR:!fsrs,2027-05-03T06:02:58.098Z,322,322.43096925,8.98461332,2,9,0,0,2026-06-15T06:02:58.098Z!2026-07-06,594,330-->
 - image ::@:: ![Taipei 101 image](../../../../archives/Wikimedia%20Commons/Tower%20of%20Taipei%20101(cropped).jpg) <!--SR:!2027-02-01,724,360!2030-01-28,1669,400-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: 16556e6f-00ca-4a87-845c-f0ea2f56807a -->::@:: concrete–steel composite <!--SR:!2026-10-14,580,320!2030-06-20,1783,400-->
 

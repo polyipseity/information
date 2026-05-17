@@ -31,7 +31,7 @@ Alternatively, the exponential object may be {@{defined through equations}@}: <!
 
 ### universal property
 
-{@{The exponential $Z^{Y}$}@} is given by {@{a [universal morphism](universal%20morphism.md) from the product functor $-\times Y$ to the object $Z$}@}. This universal morphism consists of {@{an object $Z^{Y}$ and a morphism $\mathrm {eval} \colon (Z^{Y}\times Y)\to Z$}@}. <!--SR:!2028-08-10,922,330!2026-06-11,333,290!2029-04-04,1179,350-->
+{@{The exponential $Z^{Y}$}@} is given by {@{a [universal morphism](universal%20morphism.md) from the product functor $-\times Y$ to the object $Z$}@}. This universal morphism consists of {@{an object $Z^{Y}$ and a morphism $\mathrm {eval} \colon (Z^{Y}\times Y)\to Z$}@}. <!--SR:!2028-08-10,922,330!fsrs,2029-10-30T06:07:43.070Z,1234,1234.40006931,1.98030797,2,9,0,0,2026-06-14T06:07:43.070Z!2029-04-04,1179,350-->
 
 ## examples
 

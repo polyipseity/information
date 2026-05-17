@@ -209,7 +209,7 @@ tags:
 > 2. PV of an annuity due
 >
 > - solution: {@{2}@}
-> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2026-06-16,376,362!2026-06-10,371,362-->
+> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!2026-06-16,376,362!fsrs,2031-03-19T04:45:30.931Z,1739,1739.20198001,1,2,10,0,0,2026-06-14T04:45:30.931Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -223,7 +223,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2031-02-19,1739,382!2026-06-12,356,322-->
+> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2031-02-19,1739,382!fsrs,2030-06-23T04:46:26.304Z,1470,1469.54519307,1,2,9,0,0,2026-06-14T04:46:26.304Z-->
 
 ## week 3 lecture
 
@@ -244,7 +244,7 @@ tags:
 > 2. No
 >
 > - solution: {@{2}@}
-> - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@} <!--SR:!2026-06-10,370,373!2026-06-07,367,373-->
+> - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@} <!--SR:!fsrs,2031-04-26T04:46:32.102Z,1777,1777.38425222,1,2,10,0,0,2026-06-14T04:46:32.102Z!fsrs,2031-04-22T04:46:31.324Z,1773,1772.99187706,1,2,10,0,0,2026-06-14T04:46:31.324Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -256,7 +256,7 @@ tags:
 > 4. PV of a growing perpetuity with payment starting in year 0 and PV of a growing perpetuity with payment starting in year 11
 >
 > - solution: {@{3}@}
-> - explanation: {@{Note that the option says "payment starting", which is one year after the annuity starts.}@} <!--SR:!2026-06-11,371,373!2031-07-13,1865,393-->
+> - explanation: {@{Note that the option says "payment starting", which is one year after the annuity starts.}@} <!--SR:!fsrs,2031-04-28T04:46:24.066Z,1779,1778.84269938,1,2,10,0,0,2026-06-14T04:46:24.066Z!2031-07-13,1865,393-->
 
 <!-- markdownlint MD028 -->
 
@@ -281,7 +281,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2026-06-09,369,373-->
+> - solution: {@{1}@} <!--SR:!fsrs,2031-04-25T04:45:29.229Z,1776,1775.92302042,1,2,10,0,0,2026-06-14T04:45:29.229Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -290,7 +290,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2026-06-13,373,373-->
+> - solution: {@{1}@} <!--SR:!fsrs,2031-05-01T04:46:30.074Z,1782,1781.75141873,1,2,10,0,0,2026-06-14T04:46:30.074Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -302,7 +302,7 @@ tags:
 > 2. Bank B
 > 3. They are the same
 >
-> - solution: {@{1}@} <!--SR:!2026-06-08,368,373-->
+> - solution: {@{1}@} <!--SR:!fsrs,2029-07-07T04:46:21.131Z,1119,1118.95249216,1,2,10,0,0,2026-06-14T04:46:21.131Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -327,7 +327,7 @@ tags:
 > 4. 6.00%
 >
 > - solution: {@{3}@}
-> - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@} <!--SR:!fsrs,2031-03-22T01:11:23.053Z,1750,1750.09259066,1,2,10,0,0,2026-06-06T01:11:23.053Z!2026-06-12,372,373-->
+> - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@} <!--SR:!fsrs,2031-03-22T01:11:23.053Z,1750,1750.09259066,1,2,10,0,0,2026-06-06T01:11:23.053Z!fsrs,2031-04-29T04:46:28.773Z,1780,1780.29844318,1,2,10,0,0,2026-06-14T04:46:28.773Z-->
 
 ## week 4 lecture
 

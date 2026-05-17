@@ -236,9 +236,9 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="863b"--><!-- The following content is generated at 2024-03-06T23:33:30.773973+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md):@:[KOH](potassium%20hydroxide.md) <!--SR:!2026-06-14,607,343-->
+- [NiMH](nickel–metal%20hydride%20battery.md):@:[KOH](potassium%20hydroxide.md) <!--SR:!fsrs,2033-04-20T14:05:17.032Z,2502,2501.84011094,1,2,10,0,0,2026-06-14T14:05:17.032Z-->
 - [lead–acid](lead–acid%20battery.md):@:[H<sub>2</sub>SO<sub>4</sub>](sulfuric%20acid.md) <!--SR:!2030-04-11,1715,363-->
-- [lithium-ion](lithium-ion%20battery.md):@:[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md) <!--SR:!2026-06-09,551,303-->
+- [lithium-ion](lithium-ion%20battery.md):@:[Li](lithium.md) [salt](salt%20(chemistry).md) in [organic compound](organic%20compound.md) [solvent](solvent.md) <!--SR:!fsrs,2031-12-16T15:59:33.423Z,2013,2013.07372968,1.32990818,2,10,0,0,2026-06-12T15:59:33.423Z-->
 
 <!--/pytextgen-->
 

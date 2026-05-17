@@ -156,10 +156,10 @@ The following table gives {@{the expected values of some commonly occurring [pro
 >   - [Bernoulli](Bernoulli%20distribution.md)<sup>[\[24\]](#^ref-24)</sup> / Mean E\(X\) ::@:: $0\cdot (1-p)+1\cdot p=p$ <!--SR:!2026-06-26,140,405!2026-06-27,139,405-->
 > - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup>
 >   - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup> / Notation ::@:: $X\sim B(n,p)$ <!--SR:!fsrs,2028-04-20T08:38:32.979Z,683,682.95260147,1,2,8,0,0,2026-06-07T08:38:32.979Z!2026-06-27,139,405-->
->   - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{n}i{n \choose i}p^{i}(1-p)^{n-i}=np$ <!--SR:!2026-06-10,126,405!2026-06-28,140,405-->
+>   - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{n}i{n \choose i}p^{i}(1-p)^{n-i}=np$ <!--SR:!fsrs,2028-05-24T10:12:18.963Z,710,709.96517871,1,2,8,0,0,2026-06-14T10:12:18.963Z!2026-06-28,140,405-->
 > - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup>
 >   - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup> / Notation ::@:: $X\sim \mathrm {Po} (\lambda )$ <!--SR:!2026-06-28,140,405!fsrs,2028-04-20T08:38:34.193Z,683,682.95260147,1,2,8,0,0,2026-06-07T08:38:34.193Z-->
->   - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{\infty }{\frac {ie^{-\lambda }\lambda ^{i} }{i!} }=\lambda$ <!--SR:!2026-06-12,128,405!2027-10-11,516,405-->
+>   - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{\infty }{\frac {ie^{-\lambda }\lambda ^{i} }{i!} }=\lambda$ <!--SR:!fsrs,2028-05-27T10:11:21.714Z,713,713.10510302,1,2,8,0,0,2026-06-14T10:11:21.714Z!2027-10-11,516,405-->
 > - [Geometric](geometric%20distribution.md)<sup>[\[27\]](#^ref-27)</sup>
 >   - [Geometric](geometric%20distribution.md)<sup>[\[27\]](#^ref-27)</sup> / Notation ::@:: $X\sim \mathrm {Geometric} (p)$ \(shifted\) <!--SR:!2026-06-26,140,405!2026-06-16,131,405-->
 >   - [Geometric](geometric%20distribution.md)<sup>[\[27\]](#^ref-27)</sup> / Mean E\(X\) ::@:: $\sum _{i=1}^{\infty }ip(1-p)^{i-1}={\frac {1}{p} }$ \(unshifted: $\frac {1 - p} p$\) <!--SR:!2026-06-28,140,405!2026-06-28,140,405-->
@@ -174,9 +174,9 @@ The following table gives {@{the expected values of some commonly occurring [pro
 >   - [Normal](normal%20distribution.md)<sup>[\[30\]](#^ref-30)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\sqrt {2\pi \sigma ^{2} } } }\int _{-\infty }^{\infty }x\,e^{-{\frac {1}{2} }\left({\frac {x-\mu }{\sigma } }\right)^{2} }\,dx=\mu$ <!--SR:!fsrs,2028-02-25T10:08:02.619Z,630,629.64285573,1,2,8,0,0,2026-06-05T10:08:02.619Z!2026-06-28,140,405-->
 > - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup>
 >   - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup> / Notation ::@:: $X\sim N(0,1)$ <!--SR:!2026-06-25,139,405!2026-06-28,140,405-->
->   - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\sqrt {2\pi } } }\int _{-\infty }^{\infty }xe^{-x^{2}/2}\,dx=0$ <!--SR:!2026-06-09,125,405!fsrs,2028-03-02T10:08:03.547Z,636,635.78738612,1,2,8,0,0,2026-06-05T10:08:03.547Z-->
+>   - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\sqrt {2\pi } } }\int _{-\infty }^{\infty }xe^{-x^{2}/2}\,dx=0$ <!--SR:!fsrs,2028-05-22T10:11:22.945Z,708,708.38005338,1,2,8,0,0,2026-06-14T10:11:22.945Z!fsrs,2028-03-02T10:08:03.547Z,636,635.78738612,1,2,8,0,0,2026-06-05T10:08:03.547Z-->
 > - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup>
->   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Notation ::@:: $X\sim \mathrm {Par} (\alpha ,k)$ <!--SR:!2026-06-09,125,405!2026-06-28,140,405-->
+>   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Notation ::@:: $X\sim \mathrm {Par} (\alpha ,k)$ <!--SR:!fsrs,2028-05-22T10:12:17.514Z,708,708.38005338,1,2,8,0,0,2026-06-14T10:12:17.514Z!2026-06-28,140,405-->
 >   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Mean E\(X\) ::@:: $\int _{k}^{\infty }\alpha k^{\alpha }x^{-\alpha }\,dx={\begin{cases}{\frac {\alpha k}{\alpha -1} }&{\text{if  } }\alpha >1\\\infty &{\text{if } }0<\alpha \leq 1\end{cases} }$ <!--SR:!fsrs,2028-02-26T10:08:07.260Z,631,631.37577862,1,2,8,0,0,2026-06-05T10:08:07.260Z!fsrs,2027-11-20T00:59:23.622Z,532,532.13913177,1,2,8,0,0,2026-06-06T00:59:23.622Z-->
 > - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup>
 >   - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Notation ::@:: $X\sim \mathrm {Cauchy} (x_{0},\gamma )$ <!--SR:!2026-06-28,140,405!2026-06-17,132,405-->

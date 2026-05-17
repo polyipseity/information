@@ -32,19 +32,19 @@ Additionally, if {@{$f$ is [Lebesgue integrable](Lebesgue%20integrable.md)}@}, t
 
 > __corollary of the first fundamental theorem of calculus__
 >
-> Given {@{a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$}@} and $F$ {@{an [antiderivative](antiderivative.md) of $f$ in $(a,b)$}@}, i.e. {@{$$F'(x)=f(x)\quad\forall{x}\in(a,b) \,,$$}@} then {@{$$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a) \,.$$}@} <!--SR:!2028-12-14,1038,230!2026-06-15,90,362!2026-06-14,89,362!2027-04-02,309,362-->
+> Given {@{a [real-valued function](real-valued%20function.md) $f$ [continuous](continuous%20function.md) on a closed [interval](interval%20(mathematics).md) $[a,b]$}@} and $F$ {@{an [antiderivative](antiderivative.md) of $f$ in $(a,b)$}@}, i.e. {@{$$F'(x)=f(x)\quad\forall{x}\in(a,b) \,,$$}@} then {@{$$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a) \,.$$}@} <!--SR:!2028-12-14,1038,230!fsrs,2027-11-07T03:24:14.830Z,510,509.54277244,1,2,8,0,0,2026-06-15T03:24:14.830Z!fsrs,2027-11-01T15:24:30.316Z,505,504.69081264,1,2,7,0,0,2026-06-14T15:24:30.316Z!2027-04-02,309,362-->
 
-The corollary requires {@{$f$ to be [continuous](continuous%20function.md) on the entire [interval](interval%20(mathematics).md)}@}. This condition is {@{relaxed in the [second part of the theorem](#second%20part)}@}. <!--SR:!2032-12-03,2457,330!2026-06-12,87,362-->
+The corollary requires {@{$f$ to be [continuous](continuous%20function.md) on the entire [interval](interval%20(mathematics).md)}@}. This condition is {@{relaxed in the [second part of the theorem](#second%20part)}@}. <!--SR:!2032-12-03,2457,330!fsrs,2027-10-29T15:21:34.111Z,502,501.53583562,1,2,7,0,0,2026-06-14T15:21:34.111Z-->
 
 ### second part
 
-{@{The second part}@} is sometimes called {@{the _second fundamental theorem of calculus_}@}, or {@{the __Newton-Leibniz theorem__}@}. <!--SR:!2026-11-18,737,290!2026-06-11,86,362!2026-06-14,89,362-->
+{@{The second part}@} is sometimes called {@{the _second fundamental theorem of calculus_}@}, or {@{the __Newton-Leibniz theorem__}@}. <!--SR:!2026-11-18,737,290!fsrs,2027-10-27T15:21:59.354Z,500,499.93591326,1,2,7,0,0,2026-06-14T15:21:59.354Z!fsrs,2027-11-01T15:21:34.827Z,505,504.69081264,1,2,7,0,0,2026-06-14T15:21:34.827Z-->
 
 > {@{__second fundamental theorem of calculus__}@}
 >
 > Given {@{a [real-valued function](real-valued%20function.md) $f$ [Riemann integrable](Riemann%20integral.md#Riemann%20integrable) on a closed [interval](interval%20(mathematics).md) $[a,b]$}@} and $F$ {@{a [continuous function](continuous%20function.md) on $[a,b]$ which is an [antiderivative](antiderivative.md) of $f$ in $(a,b)$}@}, i.e. {@{$$F'(x)=f(x)\quad\forall{x}\in(a,b)$$}@}, then {@{$$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$$}@}. <!--SR:!2027-08-05,619,190!2026-08-29,323,351!2026-08-31,325,351!2026-09-12,336,351!2026-08-28,323,351-->
 
-The second part is {@{stronger than the [corollary](#corollary)}@} because $f$ {@{may not be [continuous](continuous%20function.md)}@}. <!--SR:!2027-04-25,893,330!2026-06-13,88,362-->
+The second part is {@{stronger than the [corollary](#corollary)}@} because $f$ {@{may not be [continuous](continuous%20function.md)}@}. <!--SR:!2027-04-25,893,330!fsrs,2027-10-30T15:24:31.190Z,503,503.12065367,1,2,7,0,0,2026-06-14T15:24:31.190Z-->
 
 {@{The conditions above}@} can be relaxed. The result still holds if {@{$f$ is [Lebesgue integrable](Lebesgue%20integration.md) instead}@}. Continuing with the replaced definition, however, if {@{$F$ admits a derivative _[almost everywhere](almost%20everywhere.md)_ instead of everywhere}@}, this result may fail. Instead, if {@{$F$ is [absolutely continuous](absolute%20continuity.md)}@}, then it admits {@{a derivative $f$ almost everywhere, $f$ is Lebesgue integrable}@}, and {@{the above result holds}@} again. Note that we do not {@{need to show that $f$ is integrable first (when $F$ is absolutely continuous)}@}. <!--SR:!2030-08-22,1685,300!2028-05-08,1026,280!2030-07-03,1575,280!2027-02-14,279,362!2026-06-18,93,367!2026-06-17,92,367!2026-06-16,91,367-->
 

@@ -50,7 +50,7 @@ Ordinary differential equations are furthered classified:
 
 <!--pytextgen generate section="ff12"--><!-- The following content is generated at 2024-01-04T20:17:52.323867+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[autonomous](#^autonomous) <!--SR:!2026-06-10,741,330!2028-01-22,1218,350-->
+- _(begin)_→::@::←[autonomous](#^autonomous) <!--SR:!fsrs,2034-04-15T01:56:03.666Z,2863,2862.82133289,1,2,11,0,0,2026-06-13T01:56:03.666Z!2028-01-22,1218,350-->
 - [autonomous](#^autonomous)→::@::←[homogeneous](#^homogeneous) <!--SR:!2032-01-04,2254,330!2027-06-11,963,330-->
 - [homogeneous](#^homogeneous)→::@::←[linear](#^linear) <!--SR:!2028-01-27,1223,350!2027-01-07,661,290-->
 - [linear](#^linear)→::@::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2026-07-30,742,330!2027-01-16,900,330-->

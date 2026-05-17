@@ -26,7 +26,7 @@ Below are some questions or question tips.
 ## job order costing
 
 - profitability by job ::@:: You can calculate the operating profit _separately_ for each job. <!--SR:!2029-07-15,1157,350!2029-06-23,1134,350-->
-- rounding <!-- flashcard ID: 6450c70d-2bfe-47ce-bc52-39a179460870 -->::@:: In general, round to 2 decimal places. But when doing further calculations, keep more decimal places. <!--SR:!2029-07-26,1153,350!2026-06-13,272,330-->
+- rounding <!-- flashcard ID: 6450c70d-2bfe-47ce-bc52-39a179460870 -->::@:: In general, round to 2 decimal places. But when doing further calculations, keep more decimal places. <!--SR:!2029-07-26,1153,350!fsrs,2029-09-20T14:07:31.471Z,1194,1193.66708625,1,2,9,0,0,2026-06-14T14:07:31.471Z-->
 
 ## process costing
 
@@ -70,13 +70,13 @@ Below are some questions or question tips.
 - current loan balance ::@:: The instructor handles the current loan balance by adding an extra row showing the current loan balance after the ending cash balance. <!--SR:!2029-07-19,1160,350!2029-07-26,1167,350-->
 - depreciation :;@:: Remember to "less: depreciation" from cash disbursements, as they are not cash outflows, but likely included in fixed manufacturing overhead.
 - preliminary cash balance ::@:: The instructor uses this cash balance to include everything \(including interest expense\) except for cash borrowed or \(repaid\). <!--SR:!2029-06-29,1143,350!2029-07-01,1141,350-->
-- merging formats ::@:: Honestly you do not need to separate budgets exactly like outlined in the lecture slides, e.g. separating cash collection and receipt. Give what the question asks for with minimum effort. <!--SR:!2026-07-02,288,330!2026-06-12,272,330-->
+- merging formats ::@:: Honestly you do not need to separate budgets exactly like outlined in the lecture slides, e.g. separating cash collection and receipt. Give what the question asks for with minimum effort. <!--SR:!2026-07-02,288,330!fsrs,2029-09-15T15:32:04.662Z,1191,1191.26470738,1,2,9,0,0,2026-06-12T15:32:04.662Z-->
 - rounding ::@:: Some numbers, e.g. production units, may need rounding. Some numbers, e.g. direct materials inventory, do not. See what the question asks for, else use common sense. <p> Dollar amounts are rounded to 2 decimal places. For further calculations, no need to keep extra decimal places \(otherwise it would be painful\). <!--SR:!2029-08-04,1162,350!2029-07-19,1146,350-->
 
 ## variance analysis
 
 - actual vs. standard ::@:: Actual is actual... pretty easy. Standard can be considered how many direct materials or direct labor hours should have been used given the _actual_ units produced. <!--SR:!fsrs,2029-08-16T04:40:30.369Z,1168,1168.38706892,1,2,9,0,0,2026-06-05T04:40:30.369Z!2029-07-25,1166,350-->
-- aliases ::@:: efficiency/quantity variance, price/rate variance <!--SR:!2026-06-16,275,330!2026-06-15,274,330-->
+- aliases ::@:: efficiency/quantity variance, price/rate variance <!--SR:!2026-06-16,275,330!fsrs,2029-09-26T03:22:51.302Z,1199,1198.87680538,1,2,9,0,0,2026-06-15T03:22:51.302Z-->
 - order ::@:: arrow is subtraction direction: AQ \* AP ← \(change price\) ← AQ \* SP ← \(change quantity\) ← SQ \* SP <!--SR:!2027-04-06,446,270!2026-06-26,283,330-->
 
 ## decentralized performance evaluation
@@ -90,7 +90,7 @@ Below are some questions or question tips.
 - multiple performance measures ::@:: Different performance measures may give different rankings. State the rankings for each performance measure _separately_. <!--SR:!2026-07-06,291,330!2029-04-06,1077,350-->
 - mutually beneficial transfer price ::@:: This means the price is halfway in between the floor \(_variable_ cost\) and the ceiling \(market price\). <!--SR:!2029-06-06,1120,350!2029-07-18,1159,350-->
 - residual income vs. ROI ::@:: Residual income is generally what a company should maximize \(unless resource constrained\), because increasing it is equivalent to maximizing shareholder value \(which may not be the case for ROI\). Any project with residual income is viable. <p> Divisions of a company generally maximize whatever is used to measure its performance. For example, if ROI is used, then managers reject projects with lower ROI that the division's current ROI, regardless if it has positive residual income. Using residual income instead as performance measure can align divisions' goals with the company's. <!--SR:!2028-05-18,807,330!2029-07-28,1155,350-->
-- suitable transfer pricing ::@:: If there is no excess capacity, market price is the only suitable transfer price. Otherwise, anything in between the variable cost and the market price is suitable. The final price would depend on the relative bargaining power between the divisions. <!--SR:!2026-06-11,271,330!2029-07-16,1158,350-->
+- suitable transfer pricing ::@:: If there is no excess capacity, market price is the only suitable transfer price. Otherwise, anything in between the variable cost and the market price is suitable. The final price would depend on the relative bargaining power between the divisions. <!--SR:!fsrs,2029-09-14T15:32:04.115Z,1190,1189.85985823,1,2,9,0,0,2026-06-12T15:32:04.115Z!2029-07-16,1158,350-->
 
 ## capital budgeting
 
@@ -101,4 +101,4 @@ Below are some questions or question tips.
 
 ## examination 2
 
-- "allocate an additional \$..." ::@:: This is an irrelevant cost. Be aware of the meaning of "allocate"! It means the company has already planned to spend that money, the difference is where the company spends it. <!--SR:!2029-07-02,1142,350!2026-06-11,271,330-->
+- "allocate an additional \$..." ::@:: This is an irrelevant cost. Be aware of the meaning of "allocate"! It means the company has already planned to spend that money, the difference is where the company spends it. <!--SR:!2029-07-02,1142,350!fsrs,2029-09-14T15:32:03.576Z,1190,1189.85985823,1,2,9,0,0,2026-06-12T15:32:03.576Z-->

@@ -120,7 +120,7 @@ The content is in teaching order.
 - datetime: 2025-01-15T08:30:00-05:00/2025-01-15T09:50:00-05:00, PT1H20M
   - local: 2025-01-15T21:30:00+08:00/2025-01-15T22:50:00+08:00, PT1H20M
 - [jazz](../../../../general/jazz.md)
-  - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2031-03-28,1789,380!2026-06-08,370,360-->
+  - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2031-03-28,1789,380!fsrs,2031-03-10T05:22:31.840Z,1730,1729.7477296,1,2,10,0,0,2026-06-14T05:22:31.840Z-->
 - [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2027-05-19,601,335!2028-01-28,852,355-->
   - French and Indian War / result ::@:: hugh British victory, France ceded her colonies at American to the British Empire and Spain <!--SR:!2031-10-13,1958,395!2031-10-01,1946,395-->
   - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2027-12-16,818,355!2029-09-11,1337,375-->
@@ -146,24 +146,24 @@ The content is in teaching order.
   - local: 2025-01-20T21:30:00+08:00/2025-01-20T22:50:00+08:00, PT1H20M
 - [blues](../../../../general/blues.md) ::@:: a music style from the United States consisting of usually a 3 chords and a 12-bar form; all American music owes its origin to this genre <!--SR:!2026-06-19,381,360!2026-10-01,451,320-->
   - blues / characteristics ::@:: call and response, sadness <!--SR:!2031-02-27,1764,380!2031-05-13,1826,380-->
-  - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2028-01-13,779,340!2026-06-11,373,360-->
+  - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2028-01-13,779,340!fsrs,2031-03-14T05:22:32.444Z,1734,1734.07818821,1,2,10,0,0,2026-06-14T05:22:32.444Z-->
   - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!2026-06-22,384,360!2031-04-07,1793,380-->
   - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2026-09-15,443,320!2027-08-04,704,340-->
-  - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!2026-06-09,371,360!2031-05-02,1818,380-->
+  - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!fsrs,2031-03-11T05:22:32.940Z,1731,1731.19391569,1,2,10,0,0,2026-06-14T05:22:32.940Z!2031-05-02,1818,380-->
   - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2029-04-28,1202,360!2028-11-06,1076,360-->
 - [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2028-10-14,1058,360!2031-04-17,1803,380-->
   - gospel music / contribution to jazz ::@:: call and response, a tradition from Africa <!--SR:!2031-03-04,1769,380!fsrs,2031-02-11T08:11:57.535Z,1710,1710.2621335,1,2,10,0,0,2026-06-07T08:11:57.535Z-->
   - [call and response](../../../../general/call%20and%20response.md) ::@:: the idea of having some musicians playing the background while the main instruments improvise; in gospel music, Latin music, etc. <!--SR:!2031-05-21,1833,380!2031-04-22,1808,380-->
     - call and response / examples ::@:: Little Richard, prison songs <!--SR:!2031-03-03,1768,380!2026-06-16,378,360-->
 - [march](../../../../general/march%20(music).md)
-  - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war. <!--SR:!2026-06-12,374,360!2031-03-25,1786,380-->
+  - march / origins ::@:: Many instruments used by military bands for marching were left after the civil war. <!--SR:!fsrs,2031-03-16T05:22:33.989Z,1736,1735.5164296,1,2,10,0,0,2026-06-14T05:22:33.989Z!2031-03-25,1786,380-->
   - march / instruments ::@:: bass/snare drum, clarinet, sousaphone, trombone, trumpet <!--SR:!2029-07-04,1264,360!2028-04-01,907,360-->
   - march / characteristics ::@:: meant for soldiers so they could march in time; ragtime took these and added syncopation <!--SR:!2031-01-27,1740,380!2030-01-04,1333,360-->
   - march / examples ::@:: "Stars and Strips" — John Phillip Sousa; social events in parades <!--SR:!2027-04-23,628,340!2028-05-06,935,360-->
 - [ragtime](../../../../general/ragtime.md) ::@:: a music style during 1897–1917; mainly piano <!--SR:!2029-03-06,1176,360!2031-05-08,1823,380-->
   - ragtime / characteristics ::@:: marches but with syncopation <!--SR:!2026-06-23,385,360!2031-05-25,1836,380-->
   - [syncopation](../../../../general/syncopation.md)
-  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2026-09-30,455,320!2026-06-10,342,320-->
+  - [Scott Joplin](../../../../general/Scott%20Joplin.md) (1868–1917) ::@:: father of ragtime, wrote many classics: The Entertainer, Maple Leaf Rag (first music to sell over a million copies) <!--SR:!2026-09-30,455,320!fsrs,2030-04-28T05:22:33.459Z,1414,1413.74543025,1,2,9,0,0,2026-06-14T05:22:33.459Z-->
 - [jazz](../../../../general/jazz.md)
   - jazz / influences ::@:: primarily blues, gospel music, march, ragtime, coming together in New Orleans <!--SR:!2026-06-17,379,360!2029-02-23,1166,360-->
 - quiz \(attendance\): [African traits in early jazz](questions/index.md#African%20traits%20in%20early%20jazz)

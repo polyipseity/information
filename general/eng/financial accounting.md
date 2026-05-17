@@ -26,7 +26,7 @@ While financial accounting is {@{used to prepare accounting information for peop
 1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::@:: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-10-12,534,310!2028-02-20,889,290-->
 2. According to the European Accounting Association: ... ::@:: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2030-01-06,1441,310!2026-10-09,567,310-->
 
-Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!2026-06-09,447,310!2029-04-12,1301,350!2031-06-14,1878,330-->
+Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!fsrs,2031-03-04T15:29:59.588Z,1724,1723.77298778,1,2,10,0,0,2026-06-14T15:29:59.588Z!2029-04-12,1301,350!2031-06-14,1878,330-->
 
 __Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representation <!--SR:!2028-11-13,1185,350!2027-03-29,708,330-->
 
@@ -42,7 +42,7 @@ __Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, un
 
 ## three components of financial statements
 
-The three components of financial statements are {@{[statement of cash flows](cash%20flow%20statement.md) (cash flow statement), [statement of financial performance](income%20statement.md) (income statement), and [statement of financial position](balance%20sheet.md) (balance sheet); additionally, the last one is related to statement of retained earnings (statement of changes in equity)}@}. <!--SR:!2026-06-13,426,290-->
+The three components of financial statements are {@{[statement of cash flows](cash%20flow%20statement.md) (cash flow statement), [statement of financial performance](income%20statement.md) (income statement), and [statement of financial position](balance%20sheet.md) (balance sheet); additionally, the last one is related to statement of retained earnings (statement of changes in equity)}@}. <!--SR:!fsrs,2028-08-02T15:30:40.950Z,780,779.5601141,6.00214877,2,10,0,0,2026-06-14T15:30:40.950Z-->
 
 ### statement of cash flows
 
@@ -126,13 +126,13 @@ This statement is {@{additional to the three main statements described above}@}.
 
 ### the stable measuring assumption
 
-One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: "{@{The unit of measure in accounting}@} shall be {@{the base money unit of the most relevant currency}@}. This principle also assumes {@{the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-04-07,1299,350!2028-04-26,833,290!2026-09-10,426,389!2026-06-14,118,387-->
+One of the basic principles in accounting is {@{"The Measuring Unit principle"}@}: "{@{The unit of measure in accounting}@} shall be {@{the base money unit of the most relevant currency}@}. This principle also assumes {@{the unit of measure is stable; that is, changes in its general purchasing power are not considered sufficiently important to require adjustments to the basic financial statements}@}."<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-04-07,1299,350!2028-04-26,833,290!2026-09-10,426,389!fsrs,2028-04-03T15:30:44.994Z,659,659.04910028,1,2,8,0,0,2026-06-14T15:30:44.994Z-->
 
 This basic principle gives rise to the commonly used {@{[historical cost accounting](historical%20cost.md), i.e., financial capital maintenance in nominal monetary units}@}. It is based on {@{the stable measuring unit assumption}@} under which accountants {@{simply assume that money, the monetary unit of measure, is perfectly stable in real value}@}, for the purpose of measuring \(1\) {@{monetary items not inflation-indexed daily in terms of the Daily CPI}@} and \(2\) {@{constant real value non-monetary items not updated daily in terms of the Daily CPI}@}, during {@{low and high inflation and deflation}@}. <!--SR:!2027-11-11,884,330!2027-12-29,921,330!2027-05-22,627,290!2026-07-29,433,386!2027-08-24,676,346!2027-08-21,545,405-->
 
 ### units of constant purchasing power
 
-The stable monetary unit assumption is {@{not applied during hyperinflation}@}. {@{IFRS}@} requires {@{entities to implement capital maintenance in units of constant purchasing power}@} in terms of {@{IAS 29 Financial Reporting in Hyperinflationary Economies}@}. <!--SR:!2026-06-13,477,310!2029-05-20,1332,350!2027-04-29,606,270!2027-01-16,562,346-->
+The stable monetary unit assumption is {@{not applied during hyperinflation}@}. {@{IFRS}@} requires {@{entities to implement capital maintenance in units of constant purchasing power}@} in terms of {@{IAS 29 Financial Reporting in Hyperinflationary Economies}@}. <!--SR:!fsrs,2031-06-04T15:29:57.987Z,1816,1816.03023275,1,2,10,0,0,2026-06-14T15:29:57.987Z!2029-05-20,1332,350!2027-04-29,606,270!2027-01-16,562,346-->
 
 ## objectives
 

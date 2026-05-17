@@ -10,7 +10,7 @@ tags:
 
 # PPTG change impact framework
 
-An [operating model](../general/operating%20model.md) of an organization is commonly defined to be {@{_people_, _process_, and _technology_, and optionally _governance_}@}. Making a change in an organization will {@{impact these 4 elements together}@}, so the PPTG change impact framework can help visualize this. <!--SR:!2028-11-20,1265,350!2026-06-12,504,310-->
+An [operating model](../general/operating%20model.md) of an organization is commonly defined to be {@{_people_, _process_, and _technology_, and optionally _governance_}@}. Making a change in an organization will {@{impact these 4 elements together}@}, so the PPTG change impact framework can help visualize this. <!--SR:!2028-11-20,1265,350!fsrs,2031-09-04T05:57:34.653Z,1908,1907.65871197,1,2,10,0,0,2026-06-14T05:57:34.653Z-->
 
 ## the framework
 

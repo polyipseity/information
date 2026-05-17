@@ -53,7 +53,7 @@ The content is in teaching order.
     - [basics § data types](basics.md#data%20types) / note ::@:: They have not taught `bool` (values: `True`, `False`) and `NoneType` (value: `None`) up to this point... <!--SR:!2030-06-13,1607,332!2028-11-12,1191,352-->
 - week 1 exercise: 1/1, graded
   - Can variables be used to save user input? ::@:: Yes, variables can be used to save user input (store in a variable). <!--SR:!2026-06-18,488,386!2033-04-01,2495,406-->
-  - Can `print(...)` be used to save data? ::@:: No, `print(...)` cannot be used to save data (store in a variable), only display data. <!--SR:!2033-03-25,2491,406!2026-06-10,482,386-->
+  - Can `print(...)` be used to save data? ::@:: No, `print(...)` cannot be used to save data (store in a variable), only display data. <!--SR:!2033-03-25,2491,406!fsrs,2032-07-17T14:27:48.830Z,2227,2227.37727181,1,2,10,0,0,2026-06-12T14:27:48.830Z-->
 
 ## week 1 lecture
 
@@ -67,7 +67,7 @@ The content is in teaching order.
     - addition: string concatenation
 - week 1 lecture materials
 - week 1 practice question set: 10/10, ungraded
-  - Python becomes very popular due to the following reasons, except for... ::@:: It executes the fastest as compared to other programming languages. <!--SR:!2033-02-10,2448,406!2026-06-11,483,386-->
+  - Python becomes very popular due to the following reasons, except for... ::@:: It executes the fastest as compared to other programming languages. <!--SR:!2033-02-10,2448,406!fsrs,2032-07-19T14:27:45.508Z,2229,2228.80975737,1,2,10,0,0,2026-06-12T14:27:45.508Z-->
 
 ## week 2 pre-lecture
 
@@ -85,7 +85,7 @@ The content is in teaching order.
   - [§ length](list.md#length)
   - [§ aggregate functions](list.md#aggregate%20functions)
 - week 2 exercise: 1/1, graded
-  - Can a list be sliced? ::@:: Yes! But you cannot use this in exercises or exams. <!--SR:!2026-06-15,486,386!2026-06-30,499,386-->
+  - Can a list be sliced? ::@:: Yes! But you cannot use this in exercises or exams. <!--SR:!fsrs,2032-07-31T03:29:39.606Z,2238,2238.24127719,1,2,10,0,0,2026-06-15T03:29:39.606Z!2026-06-30,499,386-->
 - [week 3 lab attendance waiver](assignments/lab%202/lab%202%20waiver%20submission.ipynb): 1/1, graded
 
 ## week 2 lab
@@ -228,9 +228,9 @@ The content is in teaching order.
     - addition: `random.randint(a, b)`
 - week 6 lecture materials
 - week 6 practice question set: 10/10, ungraded
-  - How does a 'for' loop differ from a 'while' loop in Python? ::@:: 'for' loops iterate a fixed number of times. <!--SR:!2026-06-12,483,386!2026-06-13,484,386-->
+  - How does a 'for' loop differ from a 'while' loop in Python? ::@:: 'for' loops iterate a fixed number of times. <!--SR:!fsrs,2032-07-16T14:27:48.140Z,2226,2226.23807926,1,2,10,0,0,2026-06-12T14:27:48.140Z!fsrs,2032-07-25T09:56:59.172Z,2233,2232.81086844,1,2,10,0,0,2026-06-14T09:56:59.172Z-->
   - What can be a potential pitfall when using the 'while' loop? ::@:: It can lead to infinite loops if the loop termination condition is not met. <!--SR:!2028-11-23,1164,366!2026-06-27,496,386-->
-  - In a 'while' loop, under what circumstances could an infinite loop occur? ::@:: When the loop condition is always 'True'. <!--SR:!2026-06-22,492,386!2026-06-14,485,386-->
+  - In a 'while' loop, under what circumstances could an infinite loop occur? ::@:: When the loop condition is always 'True'. <!--SR:!2026-06-22,492,386!fsrs,2032-07-26T09:56:58.602Z,2234,2234.24126267,1,2,10,0,0,2026-06-14T09:56:58.602Z-->
 
 ## week 6 lab
 

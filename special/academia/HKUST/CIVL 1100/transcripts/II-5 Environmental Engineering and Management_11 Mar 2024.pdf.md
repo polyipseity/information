@@ -155,7 +155,7 @@ return await memorize_seq(
 - air sparging→::@::←bioremediation <!--SR:!2030-02-12,1553,335!2026-10-01,593,335-->
 - bioremediation→::@::←catalytic oxidation <!--SR:!2032-09-17,2338,355!2027-01-03,660,335-->
 - catalytic oxidation→::@::←ex-situ biopile <!--SR:!2026-11-13,581,295!2026-06-16,518,335-->
-- ex-situ biopile→::@::←ex-situ solidification or stabilization <!--SR:!2027-07-13,860,355!2026-06-11,515,335-->
+- ex-situ biopile→::@::←ex-situ solidification or stabilization <!--SR:!2027-07-13,860,355!fsrs,2032-04-02T09:16:21.020Z,2119,2119.0862237,1,2,10,0,0,2026-06-14T09:16:21.020Z-->
 - ex-situ solidification or stabilization→::@::←_(end)_ <!--SR:!2031-09-07,2120,395!2026-09-12,580,335-->
 
 <!--/pytextgen-->
@@ -300,7 +300,7 @@ Noise Levels and Causes
   - drilling ::@:: 90 dB(A) <!--SR:!2026-09-07,584,310!2027-12-04,955,310-->
   - train passing ::@:: 80 dB(A) <!--SR:!2026-11-09,619,310!2026-08-28,569,310-->
   - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2026-10-04,595,310!2030-03-06,1537,310-->
-  - home with TV on ::@:: 60 dB(A) <!--SR:!2027-03-21,789,330!2026-06-09,520,310-->
+  - home with TV on ::@:: 60 dB(A) <!--SR:!2027-03-21,789,330!fsrs,2031-11-01T09:16:20.243Z,1966,1966.40047023,1,2,10,0,0,2026-06-14T09:16:20.243Z-->
   - library ::@:: 40 dB(A) <!--SR:!2026-11-05,617,310!2031-09-06,1985,330-->
   - park ::@:: 30 dB(A) <!--SR:!2028-07-06,1170,350!2027-10-14,961,350-->
 
@@ -444,7 +444,7 @@ Concentration Units for Gases
 
 - concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2030-04-10,1548,310!2027-07-26,871,330-->
   - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2028-07-24,1174,350!2026-08-08,592,310-->
-  - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2026-10-08,598,310!2026-06-09,349,310-->
+  - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2026-10-08,598,310!fsrs,2030-04-05T09:16:21.904Z,1391,1390.56494601,1,2,9,0,0,2026-06-14T09:16:21.904Z-->
 
 ## page 37
 

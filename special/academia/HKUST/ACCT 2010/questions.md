@@ -285,7 +285,7 @@ tags:
 > 3. Normally, the smaller the better
 >
 > - solution: {@{2}@}
-> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@} <!--SR:!2026-06-09,436,381!2026-07-03,457,381-->
+> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@} <!--SR:!fsrs,2032-01-24T10:15:15.224Z,2050,2049.97605758,1,2,10,0,0,2026-06-14T10:15:15.224Z!2026-07-03,457,381-->
 
 ## week 4 review
 
@@ -348,7 +348,7 @@ tags:
 > 2. denotes how much net asset value is associated with one unit of common stock of a company
 > 3. represents the pre-tax income of a company
 >
-> - solution: {@{1}@} <!--SR:!2026-06-15,442,381-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-02-05T03:38:23.674Z,2061,2061.23375242,1,2,10,0,0,2026-06-15T03:38:23.674Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -368,7 +368,7 @@ tags:
 > 2. when seller discharged its obligations under contracts
 > 3. when goods have been loaded on vessel under FOB destination shipping terms
 >
-> - solution: {@{2}@} <!--SR:!2026-06-10,438,381-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-01-29T10:15:06.362Z,2055,2055.47106877,1,2,10,0,0,2026-06-14T10:15:06.362Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -400,7 +400,7 @@ tags:
 > 2. by ageing of accounts receivable \(ageing analysis\)
 > 3. both of them could be used
 >
-> - solution: {@{3}@} <!--SR:!2026-06-13,440,381-->
+> - solution: {@{3}@} <!--SR:!fsrs,2032-01-30T10:15:18.623Z,2056,2055.74852146,1,2,10,0,0,2026-06-14T10:15:18.623Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -464,7 +464,7 @@ tags:
 > 3. LIFO
 >
 > - solution: {@{2}@}
-> - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@} <!--SR:!2026-07-01,455,381!2026-06-14,441,381-->
+> - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@} <!--SR:!2026-07-01,455,381!fsrs,2030-01-08T10:16:15.462Z,1304,1303.9323265,1,2,10,0,0,2026-06-14T10:16:15.462Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -474,7 +474,7 @@ tags:
 > 2. weighted average
 > 3. LIFO
 >
-> - solution: {@{1}@} <!--SR:!2026-06-09,437,381-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-01-28T10:16:17.381Z,2054,2054.02485415,1,2,10,0,0,2026-06-14T10:16:17.381Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -484,7 +484,7 @@ tags:
 > 2. the above principle requires company to adjust market value movements of its inventories left unsold
 > 3. the inventory value is determined by the selling price of the last transaction done at the end of the year
 >
-> - solution: {@{1}@} <!--SR:!2026-06-12,439,381-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-01-28T10:15:19.440Z,2054,2054.30887136,1,2,10,0,0,2026-06-14T10:15:19.440Z-->
 
 ## week 8 review
 
@@ -626,7 +626,7 @@ tags:
 > 2. could also indicate the company is not reinvesting back into its business, which could result in a lower growth rate and lower earnings for the company in the long term
 > 3. both of them are relevant
 >
-> - solution: {@{3}@} <!--SR:!2026-06-09,437,381-->
+> - solution: {@{3}@} <!--SR:!fsrs,2032-01-28T10:15:03.713Z,2054,2054.02485415,1,2,10,0,0,2026-06-14T10:15:03.713Z-->
 
 ## week 10 review
 
@@ -676,7 +676,7 @@ tags:
 > 2. treasury shares
 > 3. ordinary shares or common stocks
 >
-> - solution: {@{2}@} <!--SR:!2026-06-10,437,381-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-01-25T10:15:08.306Z,2051,2051.42269549,1,2,10,0,0,2026-06-14T10:15:08.306Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -789,7 +789,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{1}@} <!--SR:!2026-06-10,438,381-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-01-29T10:15:05.181Z,2055,2055.47106877,1,2,10,0,0,2026-06-14T10:15:05.181Z-->
 
 <!-- markdownlint MD028 -->
 

@@ -253,7 +253,7 @@ The steps for naming an organic compound are:
 
 <!--pytextgen generate section="19fc21"--><!-- The following content is generated at 2024-01-04T20:17:51.994215+08:00. Any edits will be overridden! -->
 
-- suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u)::@::drop '-e' <!--SR:!2026-06-12,774,224!2029-06-07,1672,267-->
+- suffix ends in '-e' and next suffix starts with vowel (a, e, i, o, u)::@::drop '-e' <!--SR:!fsrs,2031-10-10T10:16:18.331Z,1944,1944.06204217,5.28233764,2,11,0,0,2026-06-14T10:16:18.331Z!2029-06-07,1672,267-->
 - bond suffix is followed by prefix for type count::@::keep '-e' <!--SR:!2027-07-16,1187,250!2028-10-02,947,201-->
 - prefix for carbon count is followed by prefix for type count::@::add '-a' <!--SR:!2029-09-01,1464,230!2028-03-12,928,210-->
 
@@ -634,7 +634,7 @@ return (
 - carboxylic acid derivative→::@::←nitrile <!--SR:!2027-06-13,896,210!2027-06-14,720,247-->
 - nitrile→::@::←aldehyde <!--SR:!fsrs,2026-10-06T00:34:27.994Z,122,122.39659819,9.98522837,2,7,0,0,2026-06-06T00:34:27.994Z!2026-07-31,148,170-->
 - aldehyde→::@::←ketone <!--SR:!2026-12-29,1065,252!2027-09-06,698,230-->
-- ketone→::@::←alcohol <!--SR:!2026-06-11,743,250!2026-07-31,128,150-->
+- ketone→::@::←alcohol <!--SR:!fsrs,2032-04-02T10:16:19.113Z,2119,2119.01654576,3.98153807,2,11,0,0,2026-06-14T10:16:19.113Z!2026-07-31,128,150-->
 - alcohol→::@::←hydroperoxide <!--SR:!2027-05-18,1057,226!2026-10-20,1068,272-->
 - hydroperoxide→::@::←amine <!--SR:!2026-08-28,494,224!2026-08-19,431,252-->
 - amine→::@::←_(lowest)_ <!--SR:!2030-03-08,1774,256!2028-08-29,1040,247-->

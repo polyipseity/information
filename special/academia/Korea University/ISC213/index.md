@@ -39,7 +39,7 @@ The content is in teaching order.
 - self-introduction ::@:: name, study location, _fun fact_ <!--SR:!2029-03-21,1053,350!2026-07-18,294,330-->
 - course logistics
   - course logistics / group formation: delayed
-  - course logistics / textbook ::@:: Kenneth C. Laudon & Jane P. Laudon. __Management Information Systems: Managing the Digital Firm__, Global Edition, 17th edition. Pearson, 2021. \(ISBN: 978-1292403281\) <!--SR:!2026-07-18,294,330!2026-06-10,262,330-->
+  - course logistics / textbook ::@:: Kenneth C. Laudon & Jane P. Laudon. __Management Information Systems: Managing the Digital Firm__, Global Edition, 17th edition. Pearson, 2021. \(ISBN: 978-1292403281\) <!--SR:!2026-07-18,294,330!fsrs,2029-08-16T01:56:01.192Z,1160,1160.33732895,1,2,9,0,0,2026-06-13T01:56:01.192Z-->
 
 ## week 1 lecture 2
 
@@ -49,8 +49,8 @@ The content is in teaching order.
 - [information system](../../../../general/information%20system.md) \(IS\) ::@:: It is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information. <!--SR:!2026-07-18,294,330!2026-06-21,272,330-->
   - information system / firm ::@:: A digital firm digitalizes core business processes, key corporate assets, and significant business relations. It offers greater flexibility in management and organization. <!--SR:!2026-07-18,294,330!2029-03-08,1042,350-->
     - information system / firm / role ::@:: emerging trend to use information technology to implement corporate strategy to achieve corporate goals <!--SR:!2029-05-17,1099,350!2029-04-13,1071,350-->
-    - information system / firm / goals ::@:: business model, competitive advantage, customer and supplier intimacy, decision making, operational excellence, survival, etc. <!--SR:!2026-06-09,261,330!2028-07-02,821,330-->
-  - information system / brief ::@:: A set of interconnected components to collect, process, store, and distribute information, as to support control, coordination, and decision making. <!--SR:!2026-06-11,263,330!2029-05-19,1101,350-->
+    - information system / firm / goals ::@:: business model, competitive advantage, customer and supplier intimacy, decision making, operational excellence, survival, etc. <!--SR:!fsrs,2029-08-15T01:56:02.897Z,1159,1158.91993301,1,2,9,0,0,2026-06-13T01:56:02.897Z!2028-07-02,821,330-->
+  - information system / brief ::@:: A set of interconnected components to collect, process, store, and distribute information, as to support control, coordination, and decision making. <!--SR:!fsrs,2029-08-18T01:55:58.834Z,1162,1161.75102421,1,2,9,0,0,2026-06-13T01:55:58.834Z!2029-05-19,1101,350-->
   - information system / architecture ::@:: normal: input → arrange, calculate, classify, process → output <br/> improve: output → feedback → input <p> It interacts with the organization and its environment, e.g. competitors, customers, regulators, stockholders, suppliers, etc. <!--SR:!2028-02-29,738,330!2026-07-18,294,330-->
   - information system / vs. IT infrastructure ::@:: The former includes people, processes, and documentation while the former excludes them. <p> The latter only includes the hardware, software, networks, facilities, etc. <!--SR:!2026-11-08,384,369!2026-12-10,411,369-->
   - information system / users ::@:: Senior management, middle management, and operational management may use it. <!--SR:!2026-12-14,414,369!2026-11-06,382,369-->
@@ -63,7 +63,7 @@ The content is in teaching order.
   - complementary assets / types ::@::  managerial, organizational, social <!--SR:!2028-08-26,849,330!2029-05-17,1097,350-->
   - complementary assets / organizational ::@:: structures of the firm <!--SR:!fsrs,2029-07-18T06:11:16.131Z,1138,1138.36935767,1,2,9,0,0,2026-06-06T06:11:16.131Z!fsrs,2029-07-21T06:12:39.551Z,1141,1140.77285745,1,2,9,0,0,2026-06-06T06:12:39.551Z-->
     - complementary assets / organizational / examples ::@:: IS development team, business model, business process, decentralization, decision making, organizational culture, etc. <!--SR:!2026-07-18,294,330!2026-07-18,294,330-->
-  - complementary assets / managerial ::@:: people of the firm <!--SR:!2026-07-18,294,330!2026-06-10,263,330-->
+  - complementary assets / managerial ::@:: people of the firm <!--SR:!2026-07-18,294,330!fsrs,2029-08-20T01:55:57.167Z,1164,1164.15719961,1,2,9,0,0,2026-06-13T01:55:57.167Z-->
     - complementary assets / managerial / examples ::@:: management culture, management innovation, management support, management training, work environment, etc. <!--SR:!2026-07-18,294,330!fsrs,2029-07-21T06:11:15.169Z,1141,1140.77285745,1,2,9,0,0,2026-06-06T06:11:15.169Z-->
   - complementary assets / social ::@:: environments the firm are in <!--SR:!2026-07-18,294,330!2026-06-21,272,330-->
     - complementary assets / social / examples ::@:: IT infrastructure, education, firms in adjacent markets to support implementation, laws and regulations, standards \(both government and private\), etc. <!--SR:!2029-05-16,1098,350!2026-07-18,294,330-->
@@ -340,7 +340,7 @@ The content is in teaching order.
 - [data hierarchy](../../../../general/data%20hierarchy.md) ::@:: It refers to the systematic organization of data, often in hierarchical form. Data organization involves characters, fields, records, files and so on. <!--SR:!2027-01-18,443,393!2027-02-28,477,393-->
   - data hierarchy / the hierarchy ::@:: database ← file ← record ← field ← byte \(8 bits; some ancient computers use 7 bits\) ← bit <!--SR:!2027-01-21,445,393!2026-09-05,312,373-->
 - [file system](../../../../general/file%20system.md) ::@:: It governs file organization and access. <!--SR:!2027-02-19,470,393!2027-02-27,477,393-->
-  - file system / problems ::@:: inconsistency, inflexibility, insecurity, missing features \(e.g. data availability, data sharing, etc.\), program dependant \(data interpretation depends on the program\), redundancy <!--SR:!2026-06-07,242,353!2027-01-15,439,393-->
+  - file system / problems ::@:: inconsistency, inflexibility, insecurity, missing features \(e.g. data availability, data sharing, etc.\), program dependant \(data interpretation depends on the program\), redundancy <!--SR:!fsrs,2029-09-02T01:56:00.142Z,1177,1176.97222371,1,2,9,0,0,2026-06-13T01:56:00.142Z!2027-01-15,439,393-->
 - [database](../../../../general/database.md) ::@:: It is an organized collection of data or a type of data store based on the use of a database management system \(DBMS\), the software that interacts with end users, applications, and the database itself to capture and analyze the data. <!--SR:!2027-01-27,450,393!2027-01-28,451,393-->
   - database / physical file systems ::@:: Before digital databases, databases were physical file systems. <p> \(__this course__: The instructor used his work at the New York State Department of Taxation and Finance to illustrate this.\) <!--SR:!2028-09-02,923,448!2028-05-21,837,448-->
   - database / uses ::@:: It centralizes data \(for better data security and easier management\), decouples data and programs, eliminate data inconsistency, and eliminate data redundancy. It can serve many other applications. <!--SR:!2027-02-05,458,393!2027-02-18,469,393-->

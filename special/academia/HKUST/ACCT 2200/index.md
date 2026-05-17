@@ -282,7 +282,7 @@ The content is in teaching order.
     - cost behavior / linear regression / advantages ::@:: scattergraph, high—low method: intuitive, simple <br/> least squares: easy using Excel, uses all data points <!--SR:!2026-12-31,536,406!2027-01-02,538,406-->
     - cost behavior / linear regression / disadvantages ::@:: scattergraph: inexact, subjective <br/> high—low method: uses only two data points at the extreme but not at the middle <br/> least squares: requires proper interpretation, uses more assumptions and data <!--SR:!2026-12-27,532,406!2026-11-30,514,406-->
 - [contribution margin](../../../../general/contribution%20margin.md) ::@:: the selling price per unit minus the variable cost per unit <p> \(__this course__: sales revenue minus variable costs\) <!--SR:!2026-10-25,485,406!2027-01-11,547,406-->
-  - contribution margin / ratio ::@:: contribution margin per unit / selling price per unit <p> \(__this course__: contribution margin / sales revenue\) <!--SR:!2026-06-11,359,386!2026-07-11,381,386-->
+  - contribution margin / ratio ::@:: contribution margin per unit / selling price per unit <p> \(__this course__: contribution margin / sales revenue\) <!--SR:!fsrs,2031-03-09T05:07:08.293Z,1729,1729.13709443,1,2,9,0,0,2026-06-14T05:07:08.293Z!2026-07-11,381,386-->
   - contribution margin / increased ::@:: It can also be used to account for increased sales. <p> You may use a _table_: <p> increased sales <br/> less: increased variable costs <br/> \(subtotal:\) increased contribution margin <br/> less: increased fixed costs <br/> \(total:\) increased net operating income <!--SR:!2026-07-12,383,386!2027-12-09,785,366-->
 
 ## week 6 lecture

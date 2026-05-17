@@ -31,7 +31,7 @@ This cycle is now understood as {@{being the first part of a larger process, the
 
 - 1st step ::@:: $${}_{\phantom{0}6}^{12}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{13}\mathrm{N} + \gamma + 1.95~\mathrm{MeV}$$ <!--SR:!2027-11-08,753,270!2030-08-29,1612,310-->
   - 1st step / energy release (& half-life if available) ::@:: 1.95 MeV <!--SR:!2030-10-08,1603,290!2027-06-06,769,310-->
-- 2nd step ::@:: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!2026-06-14,317,190!2027-01-19,621,310-->
+- 2nd step ::@:: $${}_{\phantom{0}7}^{13}\mathrm{N} \rightarrow {}_{\phantom{0}6}^{13}\mathrm{C} + \mathrm{e}^+ + \nu_{\mathrm{e} } + 1.20~\mathrm{MeV} \quad (\text{half life of 9.965 minutes})$$ <!--SR:!fsrs,2027-11-26T04:12:43.563Z,530,530.12883111,7.73747837,2,9,0,0,2026-06-14T04:12:43.563Z!2027-01-19,621,310-->
   - 2nd step / energy release (& half-life if available) ::@:: 1.20 Mev, 9.965 minutes <!--SR:!2027-02-09,418,190!2029-07-01,1306,310-->
 - 3rd step ::@:: $${}_{\phantom{0}6}^{13}\mathrm{C} + {}_1^1\mathrm{H} \rightarrow {}_{\phantom{0}7}^{14}\mathrm{N} + \gamma + 7.54~\mathrm{MeV}$$ <!--SR:!2027-06-12,739,290!2029-02-02,1042,310-->
   - 3rd step / energy release (& half-life if available) ::@:: 7.54 MeV <!--SR:!2027-12-31,882,290!2027-04-13,569,270-->

@@ -52,7 +52,7 @@ assert threeByThreeSquare[2][1];
 
 ## length
 
-The length of an array can be determined by {@{accessing the field `.length`}@}: <!--SR:!2026-06-15,651,330-->
+The length of an array can be determined by {@{accessing the field `.length`}@}: <!--SR:!fsrs,2033-06-09T03:28:40.424Z,2551,2550.5339088,1,2,10,0,0,2026-06-15T03:28:40.424Z-->
 
 ```Java
 int[] anIntArray = new int[123];

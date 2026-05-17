@@ -103,7 +103,7 @@ If {@{$A:H\to Z$ is instead an [antilinear](antilinear%20map.md) isometry}@} the
 
 This is {@{essentially a vector form of the [law of cosines](law%20of%20cosines.md)}@} for {@{the [triangle](triangle.md) formed by the vectors ⁠${\textbf {u} }$⁠, ⁠${\textbf {v} }$⁠, and ⁠${\textbf {u} }-{\textbf {v} }$}@}⁠. In particular, {@{$${\textbf {u} }\cdot {\textbf {v} }=\|{\textbf {u} }\|\,\|{\textbf {v} }\|\cos \theta ,$$}@} where {@{$\theta$ is the angle between the vectors ${\textbf {u} }$ and ⁠${\textbf {v} }$}@}⁠. <!--SR:!2028-11-12,1057,350!2029-01-19,1103,350!2029-08-06,1263,350!2029-10-11,1317,350-->
 
-{@{The equation (annotation: $\|{\textbf {u} }-{\textbf {v} }\|^{2}=\|{\textbf {u} }\|^{2}+\|{\textbf {v} }\|^{2}-2({\textbf {u} }\cdot {\textbf {v} })$)}@} is {@{numerically unstable}@} if {@{u and v are similar because of [catastrophic cancellation](catastrophic%20cancellation.md)}@} and should be {@{avoided for numeric computation}@}. <!--SR:!2029-05-24,1200,350!2029-01-23,1107,350!2026-06-15,118,394!2026-06-24,126,394-->
+{@{The equation (annotation: $\|{\textbf {u} }-{\textbf {v} }\|^{2}=\|{\textbf {u} }\|^{2}+\|{\textbf {v} }\|^{2}-2({\textbf {u} }\cdot {\textbf {v} })$)}@} is {@{numerically unstable}@} if {@{u and v are similar because of [catastrophic cancellation](catastrophic%20cancellation.md)}@} and should be {@{avoided for numeric computation}@}. <!--SR:!2029-05-24,1200,350!2029-01-23,1107,350!fsrs,2028-04-04T03:24:16.104Z,659,659.04910028,1,2,8,0,0,2026-06-15T03:24:16.104Z!2026-06-24,126,394-->
 
 ### derivation
 
@@ -131,7 +131,7 @@ Finally, in {@{any of these contexts}@} these identities may be {@{extended to [
 - [Law of cosines](law%20of%20cosines.md) ::@:: – Property of all triangles on a Euclidean plane <!--SR:!2029-05-18,1205,350!2028-12-30,1083,350-->
 - [Mazur–Ulam theorem](Mazur–Ulam%20theorem.md) ::@:: – Surjective isometries are affine mappings <!--SR:!2027-01-06,513,310!2028-02-29,778,330-->
 - [Minkowski distance](Minkowski%20distance.md) ::@:: – Mathematical metric in normed vector space <!--SR:!2028-06-13,870,330!2027-11-26,768,330-->
-- [Parallelogram law](parallelogram%20law.md) ::@:: – Sum of the squares of all 4 sides of a parallelogram equals that of the 2 diagonals <!--SR:!2029-01-26,1110,350!2026-06-09,243,290-->
+- [Parallelogram law](parallelogram%20law.md) ::@:: – Sum of the squares of all 4 sides of a parallelogram equals that of the 2 diagonals <!--SR:!2029-01-26,1110,350!fsrs,2029-01-11T10:16:38.925Z,942,942.39955117,1.98030797,2,9,0,0,2026-06-14T10:16:38.925Z-->
 - [Ptolemy's inequality](Ptolemy's%20inequality.md) ::@:: – inequality relating the six distances between four points on a plane <!--SR:!2029-02-19,1134,350!2027-08-23,698,330-->
 
 ## notes and references

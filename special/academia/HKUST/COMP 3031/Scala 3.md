@@ -1228,7 +1228,7 @@ Strictly speaking, {@{multiple parameter lists}@} is {@{distinct from _currying_
 
 ### extension methods
 
-{@{Extension methods}@} define {@{extra members to a class while being outside the class definition}@}. They are useful for {@{adding utility methods to a class}@}. To define an extension, start with the syntax {@{`extension (<arg name>: <arg type>)` \(no trailing colon\)}@}, and then {@{start a newline and indent}@} to {@{add the extra methods}@}. <!--SR:!2027-06-09,493,399!2026-10-04,293,379!2027-05-13,472,390!2026-06-15,196,359!2027-07-18,528,399!2027-05-07,466,390-->
+{@{Extension methods}@} define {@{extra members to a class while being outside the class definition}@}. They are useful for {@{adding utility methods to a class}@}. To define an extension, start with the syntax {@{`extension (<arg name>: <arg type>)` \(no trailing colon\)}@}, and then {@{start a newline and indent}@} to {@{add the extra methods}@}. <!--SR:!2027-06-09,493,399!2026-10-04,293,379!2027-05-13,472,390!fsrs,2029-02-25T06:01:36.692Z,986,985.8846373,1,2,9,0,0,2026-06-15T06:01:36.692Z!2027-07-18,528,399!2027-05-07,466,390-->
 
 When {@{defining extension methods}@}, they cannot {@{access `private` members of the class}@}. They also cannot {@{access `this`}@} but must use {@{the name defined in the starting `extension` line}@}. <!--SR:!2027-05-07,466,390!2027-06-29,513,399!2027-07-23,533,399!2027-07-19,530,399-->
 
@@ -1295,7 +1295,7 @@ Scala 3 optimizes {@{_direct_ tail calls to the _current_ function}@} by {@{reus
 
 Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}, {@{indentation after `=`, `then`, `else`, etc. can be used as well \(like Python\)}@}. The {@{last element \(statement\) of a scope}@} is {@{the expression that determines the value of that scope}@}. The motivation of scoping is to {@{avoid _namespace pollution_}@}. <!--SR:!2026-07-22,238,330!2026-07-31,246,330!2026-08-09,253,330!2026-08-20,260,330!2026-08-21,261,330!2026-07-24,240,330!2026-09-03,272,330-->
 
-Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\)}@} according to {@{the _source code_ \(lexical scoping\)}@}. <!--SR:!2026-09-13,280,330!2026-08-30,268,330!2026-07-30,245,330!2026-06-12,190,310!2026-08-27,225,475-->
+Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\)}@} according to {@{the _source code_ \(lexical scoping\)}@}. <!--SR:!2026-09-13,280,330!2026-08-30,268,330!2026-07-30,245,330!fsrs,2028-09-01T15:40:06.042Z,812,812.23824198,1,2,9,0,0,2026-06-12T15:40:06.042Z!2026-08-27,225,475-->
 
 Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2026-09-30,294,330!2026-08-31,269,330!2026-09-24,289,330!2027-07-07,519,399!2026-09-14,275,370!2027-05-12,471,390-->
 

@@ -28,7 +28,7 @@ Authority and hub are defined {@{in terms of one another in [mutual recursion](m
 
 The algorithm performs {@{a series of iterations}@}, consisting of {@{2 main steps, starting with the authority update}@}: <!--SR:!2027-06-07,821,334!2028-12-02,1276,354-->
 
-1. __authority update__ ::@:: Update each node's authority value to the sum of the hub values of nodes pointing to it. <!--SR:!2026-06-10,509,314!2029-01-15,1304,354-->
+1. __authority update__ ::@:: Update each node's authority value to the sum of the hub values of nodes pointing to it. <!--SR:!fsrs,2031-10-22T05:57:28.107Z,1956,1955.60461094,1,2,10,0,0,2026-06-14T05:57:28.107Z!2029-01-15,1304,354-->
 2. __hub update__ ::@:: Update each node's hub value to the sum of the authority values of nodes it points to. <!--SR:!2026-11-02,663,334!2028-12-20,1284,354-->
 
 There are {@{2 variants of the algorithm}@}: {@{async iteration and sync iteration}@}, with the former being more common. Both variants with other steps are described below: <!--SR:!2028-09-16,1211,354!2028-11-08,1252,354-->

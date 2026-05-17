@@ -93,7 +93,7 @@ A note regarding accuracy is that {@{there may be some inaccuracies involved whe
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!2026-06-12,503,389!2028-12-21,967,459!2028-11-17,933,459!2028-12-14,960,459-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below {@{have the same precedence}@}: <!--SR:!fsrs,2032-10-08T08:41:13.443Z,2309,2308.64058775,1,2,10,0,0,2026-06-13T08:41:13.443Z!2028-12-21,967,459!2028-11-17,933,459!2028-12-14,960,459-->
 
 ```Python
 # pytextgen generate data
@@ -154,7 +154,7 @@ return chain.from_iterable([r.value for r in results])
 
 - `in`:@:membership test <!--SR:!2026-06-19,510,389-->
 - `<`:@:lesser than <!--SR:!2030-11-20,1796,389-->
-- `<=`:@:lesser than or equal to <!--SR:!2026-06-11,502,389-->
+- `<=`:@:lesser than or equal to <!--SR:!fsrs,2032-10-06T08:41:14.142Z,2307,2307.21123377,1,2,10,0,0,2026-06-13T08:41:14.142Z-->
 - `>`:@:greater than <!--SR:!2026-06-18,509,389-->
 - `>=`:@:greater than or equal to <!--SR:!2026-06-17,508,389-->
 - `!=`:@:not equal to <!--SR:!2026-06-22,513,389-->
@@ -206,8 +206,8 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="d882"--><!-- The following content is generated at 2024-01-30T13:35:46.722323+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`not` <!--SR:!2026-06-14,505,389!2026-06-17,508,389-->
-- `not`→::@::←`and` <!--SR:!2026-06-15,506,389!2033-05-16,2557,409-->
+- _(begin)_→::@::←`not` <!--SR:!fsrs,2032-10-14T14:06:52.732Z,2314,2314.0489373,1,2,10,0,0,2026-06-14T14:06:52.732Z!2026-06-17,508,389-->
+- `not`→::@::←`and` <!--SR:!fsrs,2032-10-19T03:38:22.286Z,2318,2318.02883016,1,2,10,0,0,2026-06-15T03:38:22.286Z!2033-05-16,2557,409-->
 - `and`→::@::←`or` <!--SR:!2028-03-19,1002,369!2026-06-16,507,389-->
 - `or`→::@::←_(end)_ <!--SR:!2033-06-12,2567,409!2028-09-14,1159,389-->
 
@@ -216,7 +216,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
 - `not`:@:negate <!--SR:!2033-01-03,2441,409-->
-- `and`:@:and <!--SR:!2026-06-13,504,389-->
+- `and`:@:and <!--SR:!fsrs,2032-10-09T08:41:15.030Z,2310,2310.06785514,1,2,10,0,0,2026-06-13T08:41:15.030Z-->
 - `or`:@:or <!--SR:!2033-07-04,2589,409-->
 
 <!--/pytextgen-->

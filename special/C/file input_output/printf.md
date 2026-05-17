@@ -23,7 +23,7 @@ tags:
 
 # `printf`
 
-- _defined in {@{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}@}_ <!--SR:!2026-06-10,770,330-->
+- _defined in {@{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}@}_ <!--SR:!fsrs,2034-07-18T14:28:47.750Z,2958,2958.46752084,1,2,11,0,0,2026-06-12T14:28:47.750Z-->
 
 ```C
 // (1)

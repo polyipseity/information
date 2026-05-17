@@ -35,7 +35,7 @@ Like {@{all coequalizers}@}, {@{the cokernel _q_ : _Y_ → _Q_ is necessarily an
 
 ### examples
 
-In {@{the [category of groups](category%20of%20groups.md)}@}, {@{the cokernel of a [group homomorphism](group%20homomorphism.md) _f_ : _G_ → _H_}@} is {@{the [quotient](quotient%20group.md) of _H_ by the [normal closure](normal%20closure%20(group%20theory).md) of the image of _f_}@}. In {@{the case of [abelian groups](abelian%20group.md)}@}, since {@{every [subgroup](subgroup.md) is normal}@}, {@{the cokernel is just _H_ [modulo](ideal%20(ring%20theory).md) the image of _f_}@}: {@{$$\operatorname {coker} (f)=H/\operatorname {im} (f).$$}@} <!--SR:!2028-12-21,1103,350!2027-07-17,684,330!2026-06-10,297,250!2029-08-11,1284,350!2027-12-30,807,330!2029-01-22,1128,350!2029-06-14,1237,350-->
+In {@{the [category of groups](category%20of%20groups.md)}@}, {@{the cokernel of a [group homomorphism](group%20homomorphism.md) _f_ : _G_ → _H_}@} is {@{the [quotient](quotient%20group.md) of _H_ by the [normal closure](normal%20closure%20(group%20theory).md) of the image of _f_}@}. In {@{the case of [abelian groups](abelian%20group.md)}@}, since {@{every [subgroup](subgroup.md) is normal}@}, {@{the cokernel is just _H_ [modulo](ideal%20(ring%20theory).md) the image of _f_}@}: {@{$$\operatorname {coker} (f)=H/\operatorname {im} (f).$$}@} <!--SR:!2028-12-21,1103,350!2027-07-17,684,330!fsrs,2029-01-07T14:27:03.806Z,940,939.96489717,3.98153807,2,9,0,0,2026-06-12T14:27:03.806Z!2029-08-11,1284,350!2027-12-30,807,330!2029-01-22,1128,350!2029-06-14,1237,350-->
 
 ### special cases
 

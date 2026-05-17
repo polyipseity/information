@@ -99,7 +99,7 @@ for (int ii = 1; ii < 11; ++ii) {
 }
 ```
 
-A `while` statement consists of {@{a condition and a statement block}@}: <!--SR:!2026-06-09,642,330-->
+A `while` statement consists of {@{a condition and a statement block}@}: <!--SR:!fsrs,2033-05-15T15:02:11.811Z,2528,2527.98347305,1,2,10,0,0,2026-06-13T15:02:11.811Z-->
 
 ```Java
 while (condition)

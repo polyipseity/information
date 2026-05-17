@@ -22,11 +22,11 @@ __Catalytic converter__ is a {@{device that converts toxic pollutants into less-
 > - {@{C + 2NO<sub>2</sub> → CO<sub>2</sub> + 2NO}@}
 > - {@{CO + NO → CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>}@}
 > - {@{2CO + NO<sub>2</sub> → 2CO<sub>2</sub> + $\frac{1}{2}$N<sub>2</sub>}@}
-> - {@{H<sub>2</sub> + NO → H<sub>2</sub>O + $\frac{1}{2}$N<sub>2</sub>}@} <!--SR:!2028-04-17,887,190!2031-12-19,2135,250!2026-10-25,755,210!2026-06-10,276,150-->
+> - {@{H<sub>2</sub> + NO → H<sub>2</sub>O + $\frac{1}{2}$N<sub>2</sub>}@} <!--SR:!2028-04-17,887,190!2031-12-19,2135,250!2026-10-25,755,210!fsrs,2027-06-28T13:35:48.708Z,379,379.33601132,9.23597837,2,9,0,0,2026-06-14T13:35:48.708Z-->
 
 ### oxidation
 
-{@{Carbon, hydrocarbons, and carbon monoxide}@} are oxidized to {@{[carbon dioxide](carbon%20dioxide.md)}@}. <!--SR:!2026-06-09,1086,290!2030-07-13,2062,310-->
+{@{Carbon, hydrocarbons, and carbon monoxide}@} are oxidized to {@{[carbon dioxide](carbon%20dioxide.md)}@}. <!--SR:!fsrs,2036-01-02T13:34:46.024Z,3489,3489.15113185,1.98030797,2,11,0,0,2026-06-14T13:34:46.024Z!2030-07-13,2062,310-->
 
 > __oxidation in catalytic converter__
 >

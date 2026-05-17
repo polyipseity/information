@@ -149,7 +149,7 @@ The content is in teaching order.
 
 - datetime: 2024-03-11T09:00:00+08:00/2024-03-11T10:30:00+08:00
 - [entropy](../../../../general/entropy%20(information%20theory).md)
-- decision tree format ::@:: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!2026-06-09,556,357!2028-07-08,1017,317-->
+- decision tree format ::@:: All nodes show the percentage of actual labels in that decision nodes. The internal nodes show the attribute being split on. The terminal nodes show the predicted label. Arrows point from top to bottom, and each is labelled with an inequality operating on the attribute, which decides whether an sample being predicted should go through said arrow. <!--SR:!fsrs,2033-02-02T16:21:06.857Z,2427,2427.4429692,1,2,10,0,0,2026-06-12T16:21:06.857Z!2028-07-08,1017,317-->
 - [decision tree learning § algorithms](../../../../general/decision%20tree%20learning.md#algorithms)
   - decision tree learning algorithms ::@:: We only teach ID3 algorithm, C4.5 algorithm, and CART. <!--SR:!2030-08-28,1862,391!2027-03-19,781,347-->
 - [ID3 § algorithm](../../../../general/ID3%20algorithm.md#algorithm)
@@ -440,7 +440,7 @@ The content is in teaching order.
   - [§ statement of theorem](../../../../general/Bayes'%20theorem.md#statement%20of%20theorem)
   - [§ Bayes' theorem for 3 events](../../../../general/Bayes'%20theorem.md#Bayes'%20theorem%20for%203%20events)
 - [conditional probability § Kolmogorov definition](../../../../general/conditional%20probability.md#Kolmogorov%20definition)
-- Bayesian belief network ::@:: [Bayesian network](../../../../general/Bayesian%20network.md) <!--SR:!2027-01-03,754,408!2026-06-15,597,408-->
+- Bayesian belief network ::@:: [Bayesian network](../../../../general/Bayesian%20network.md) <!--SR:!2027-01-03,754,408!fsrs,2033-10-12T03:28:36.960Z,2676,2676.36030192,1,2,10,0,0,2026-06-15T03:28:36.960Z-->
   - [§ graphical model](../../../../general/Bayesian%20network.md#graphical%20model)
 - [conditional dependence](../../../../general/conditional%20dependence.md)
 - [conditional independence](../../../../general/conditional%20independence.md)

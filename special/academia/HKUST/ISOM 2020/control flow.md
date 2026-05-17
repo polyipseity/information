@@ -72,7 +72,7 @@ Iterables can be {@{ranges, strings, lists, and many more not mentioned here}@}.
 
 To emulate the traditional `for` loop, one uses {@{`range` and specifies the starting point (inclusive), ending point (exclusive), and step}@}. A `for` loop with code in the form of `for (int idx = begin; idx < end; idx += step)` translates to {@{`for idx in range(begin, end, step):` (if `step` is negative, then `idx < end` becomes `idx > end`)}@}. `range(begin, end, step)` has shorter forms: {@{`range(begin, end)` is equivalent to `range(begin, end, 1)` and `range(end)` is equivalent to `range(0, end, 1)`}@}. <!--SR:!2030-10-14,1737,372!2030-09-29,1722,372!2030-10-01,1724,372-->
 
-If there are {@{no statements to be executed in a `for`-iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2027-07-14,773,357!2028-08-11,1105,377!2026-06-10,150,439-->
+If there are {@{no statements to be executed in a `for`-iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2027-07-14,773,357!2028-08-11,1105,377!fsrs,2028-09-05T14:29:28.837Z,816,816.19353378,1,2,8,0,0,2026-06-12T14:29:28.837Z-->
 
 ```Python
 for loop_variables in iterable:
@@ -92,7 +92,7 @@ while condition:
 
 The semantics of `while` is that {@{the condition is executed first}@}. If {@{the condition is `true`}@}, the statement block is {@{executed and then we repeat the above process again}@}. If {@{the condition is `false`}@}, {@{the `while` statement ends its execution}@}. <!--SR:!2032-05-11,2201,391!2028-08-14,862,442!2028-08-06,855,442!2028-08-07,856,442!2028-07-30,849,442-->
 
-If there are {@{no statements to be executed in a `while`-iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2032-11-09,2373,397!2032-10-06,2343,397!2026-06-14,154,439-->
+If there are {@{no statements to be executed in a `while`-iteration}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that iteration}@}. For example: <!--SR:!2032-11-09,2373,397!2032-10-06,2343,397!fsrs,2028-09-20T09:16:18.028Z,829,828.52910619,1,2,8,0,0,2026-06-14T09:16:18.028Z-->
 
 ```Python
 while condition:

@@ -134,7 +134,7 @@ tags:
 >
 > What was the new style of music developed by Charlie Parker and Dizzy Gillespie in the 1940s?
 >
-> - solution: {@{bebop}@} <!--SR:!2026-06-09,348,360-->
+> - solution: {@{bebop}@} <!--SR:!fsrs,2030-12-01T14:27:51.550Z,1633,1633.3133052,1,2,9,0,0,2026-06-12T14:27:51.550Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -149,7 +149,7 @@ tags:
 > 5. John Coltrane
 >
 > - solution: {@{5}@}
-> - explanation: {@{He was not part of the movement, but he was influenced by it.}@} <!--SR:!2026-06-14,352,360!2031-01-13,1687,380-->
+> - explanation: {@{He was not part of the movement, but he was influenced by it.}@} <!--SR:!fsrs,2030-12-12T02:14:28.015Z,1642,1641.68320501,1,2,9,0,0,2026-06-14T02:14:28.015Z!2031-01-13,1687,380-->
 
 <!-- markdownlint MD028 -->
 

@@ -185,12 +185,12 @@ The content is in teaching order.
 
 - datetime: 2024-09-11T09:00:00+08:00/2024-09-11T10:20:00+08:00
 - topic: counting, permutations, combinations, balls and walls
-- [combinatorial principles](../../../../general/combinatorial%20principles.md) ::@:: principles commonly used to solve combinatorial problems: rule of sum, rule of product, permutation, combination, ... <!--SR:!fsrs,2032-07-11T11:18:10.529Z,2226,2226.23807926,1,2,10,0,0,2026-06-07T11:18:10.529Z!2026-06-11,487,393-->
+- [combinatorial principles](../../../../general/combinatorial%20principles.md) ::@:: principles commonly used to solve combinatorial problems: rule of sum, rule of product, permutation, combination, ... <!--SR:!fsrs,2032-07-11T11:18:10.529Z,2226,2226.23807926,1,2,10,0,0,2026-06-07T11:18:10.529Z!fsrs,2032-08-04T15:40:09.095Z,2245,2244.80831846,1,2,10,0,0,2026-06-12T15:40:09.095Z-->
   - [§ combinatorial principles](../../../../general/combinatorial%20principles.md#combinatorial%20principles)
   - [§ rule of sum](../../../../general/combinatorial%20principles.md#rule%20of%20sum) ::@:: Also known as the principle of addition or case work principle. If there are _A_ ways to do a thing and _B_ ways to do another thing, then there are _A_ + _B_ ways to do either one thing. <!--SR:!2026-06-30,503,393!2026-06-28,502,393-->
   - [§ rule of product](../../../../general/combinatorial%20principles.md#rule%20of%20product) ::@:: Also known as the principle of multiplication. If there are _A_ ways to do a thing and _B_ ways to do another thing, then there are _A_ \* _B_ ways to do both things. <!--SR:!2026-07-08,510,393!2026-06-29,503,393-->
 - [permutation](../../../../general/permutation.md) ::@:: the arrangement of $k$ things from $n$ things (order matters), calculated by $$P(n, k) = \frac {n!} {(n - k)!}$$ <!--SR:!2026-07-15,516,393!2026-07-01,504,393-->
-- [combination](../../../../general/combination.md) ::@:: choosing $k$ things from $n$ things (order does not matter), calculated by $$C(n, k) = \binom n k = \frac {n!} {(n - k)! k!}$$ <!--SR:!2026-06-15,490,393!2033-06-29,2583,413-->
+- [combination](../../../../general/combination.md) ::@:: choosing $k$ things from $n$ things (order does not matter), calculated by $$C(n, k) = \binom n k = \frac {n!} {(n - k)! k!}$$ <!--SR:!fsrs,2032-08-16T03:43:36.016Z,2254,2254.23087863,1,2,10,0,0,2026-06-15T03:43:36.016Z!2033-06-29,2583,413-->
 - [questions/2024-09-11](questions/2024-09-11.md)
 - [week 2 problem set](questions/week%202%20problem%20set.md)
 - materials

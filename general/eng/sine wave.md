@@ -24,7 +24,7 @@ tags:
 
 > [!tip] tips
 >
-> adding sine waves ::@:: one can use [phasors](phasor.md) to help with that, i.e. adding the [phase space](phase%20space.md) [vectors](vector%20(mathematics%20and%20physics).md) <!--SR:!2028-04-11,1231,356!2026-06-13,618,333-->
+> adding sine waves ::@:: one can use [phasors](phasor.md) to help with that, i.e. adding the [phase space](phase%20space.md) [vectors](vector%20(mathematics%20and%20physics).md) <!--SR:!2028-04-11,1231,356!fsrs,2033-03-09T14:56:04.568Z,2461,2461.1223669,1,2,10,0,0,2026-06-13T14:56:04.568Z-->
 
 ## references
 

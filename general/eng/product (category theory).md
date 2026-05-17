@@ -100,7 +100,7 @@ For {@{any objects $X,Y,{\text{ and } }Z$ of a category with finite products and
 ## see also
 
 - [Coproduct](coproduct.md) – ::@:: the [dual](dual%20(category%20theory).md) of the product <!--SR:!2027-12-25,819,330!2029-07-15,1276,350-->
-- [Diagonal functor](diagonal%20functor.md) – ::@:: the [left adjoint](left%20adjoint.md) of the product functor. <!--SR:!2028-06-16,882,290!2026-06-12,314,250-->
+- [Diagonal functor](diagonal%20functor.md) – ::@:: the [left adjoint](left%20adjoint.md) of the product functor. <!--SR:!2028-06-16,882,290!fsrs,2029-02-23T15:12:33.786Z,986,985.71731309,3.98153807,2,9,0,0,2026-06-13T15:12:33.786Z-->
 - [Limit and colimits](limit%20(category%20theory).md) – ::@:: Mathematical concept <!--SR:!2029-06-11,1246,350!2029-07-08,1273,350-->
 - [Equalizer](equaliser%20(mathematics).md) – ::@:: Set of arguments where two or more functions have the same value <!--SR:!2029-03-07,1177,350!2029-06-29,1264,350-->
 - [Inverse limit](inverse%20limit.md) – ::@:: Construction in category theory <!--SR:!2029-02-04,1155,350!2029-02-19,1167,350-->

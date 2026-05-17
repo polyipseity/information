@@ -86,34 +86,34 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 >
 > - [unary operators](unary%20operation.md) ::@:: - __X__ _φ_ <br/> - __F__ _φ_ <br/> - __G__ _φ_ <!--SR:!2026-06-28,142,410!2026-06-18,133,410-->
 > - __X__ _φ_
->   - __X__ _φ_ / symbolic ::@:: $\bigcirc \varphi$ <!--SR:!2026-06-14,130,410!2026-06-11,127,410-->
->   - __X__ _φ_ / explanation ::@:: ne<!-- markdown separator -->__X__<!-- markdown separator -->t: _φ_ has to hold at the next state. <!--SR:!2026-06-20,135,410!2026-06-13,129,410-->
->   - __X__ _φ_ / diagram ::@:: ![LTI next diagram](../../archives/Wikimedia%20Commons/Ltlnext.svg) <!--SR:!2026-06-17,132,410!2026-06-09,125,410-->
+>   - __X__ _φ_ / symbolic ::@:: $\bigcirc \varphi$ <!--SR:!fsrs,2028-05-30T10:02:37.741Z,716,716.20587414,1,2,8,0,0,2026-06-14T10:02:37.741Z!fsrs,2028-05-26T10:02:24.544Z,712,711.54011426,1,2,8,0,0,2026-06-14T10:02:24.544Z-->
+>   - __X__ _φ_ / explanation ::@:: ne<!-- markdown separator -->__X__<!-- markdown separator -->t: _φ_ has to hold at the next state. <!--SR:!2026-06-20,135,410!fsrs,2028-05-29T10:02:55.210Z,715,714.66030858,1,2,8,0,0,2026-06-14T10:02:55.210Z-->
+>   - __X__ _φ_ / diagram ::@:: ![LTI next diagram](../../archives/Wikimedia%20Commons/Ltlnext.svg) <!--SR:!2026-06-17,132,410!fsrs,2028-05-22T10:02:54.630Z,708,708.38005338,1,2,8,0,0,2026-06-14T10:02:54.630Z-->
 > - __F__ _φ_
->   - __F__ _φ_ / symbolic ::@:: $\Diamond \varphi$ <!--SR:!2026-06-28,142,410!2026-06-10,126,410-->
->   - __F__ _φ_ / explanation ::@:: __F__<!-- markdown separator -->inally: _φ_ eventually has to hold \(somewhere on the subsequent path\). <!--SR:!2026-06-28,142,410!2026-06-12,128,410-->
->   - __F__ _φ_ / diagram ::@:: ![LTI finally diagram](../../archives/Wikimedia%20Commons/Ltleventually.svg) <!--SR:!2026-06-12,128,410!2026-06-14,130,410-->
+>   - __F__ _φ_ / symbolic ::@:: $\Diamond \varphi$ <!--SR:!2026-06-28,142,410!fsrs,2028-05-24T10:02:56.316Z,710,709.96517871,1,2,8,0,0,2026-06-14T10:02:56.316Z-->
+>   - __F__ _φ_ / explanation ::@:: __F__<!-- markdown separator -->inally: _φ_ eventually has to hold \(somewhere on the subsequent path\). <!--SR:!2026-06-28,142,410!fsrs,2028-05-27T10:03:10.614Z,713,713.10510302,1,2,8,0,0,2026-06-14T10:03:10.614Z-->
+>   - __F__ _φ_ / diagram ::@:: ![LTI finally diagram](../../archives/Wikimedia%20Commons/Ltleventually.svg) <!--SR:!fsrs,2028-05-27T10:02:29.176Z,713,713.10510302,1,2,8,0,0,2026-06-14T10:02:29.176Z!fsrs,2028-05-30T10:02:29.885Z,716,716.20587414,1,2,8,0,0,2026-06-14T10:02:29.885Z-->
 > - __G__ _φ_
->   - __G__ _φ_ / symbolic ::@:: $\Box \varphi$ <!--SR:!2026-06-12,128,410!2026-06-10,126,410-->
->   - __G__ _φ_ / explanation ::@:: __G__<!-- markdown separator -->lobally: _φ_ has to hold on the entire subsequent path. <!--SR:!2026-06-11,127,410!2026-06-12,128,410-->
+>   - __G__ _φ_ / symbolic ::@:: $\Box \varphi$ <!--SR:!fsrs,2028-05-27T10:03:07.943Z,713,713.10510302,1,2,8,0,0,2026-06-14T10:03:07.943Z!fsrs,2028-05-24T10:02:23.740Z,710,709.96517871,1,2,8,0,0,2026-06-14T10:02:23.740Z-->
+>   - __G__ _φ_ / explanation ::@:: __G__<!-- markdown separator -->lobally: _φ_ has to hold on the entire subsequent path. <!--SR:!fsrs,2028-05-26T10:02:52.690Z,712,711.54011426,1,2,8,0,0,2026-06-14T10:02:52.690Z!fsrs,2028-05-27T10:02:40.480Z,713,713.10510302,1,2,8,0,0,2026-06-14T10:02:40.480Z-->
 >   - __G__ _φ_ / diagram ::@:: ![LTI globally diagram](../../archives/Wikimedia%20Commons/Ltlalways.svg) <!--SR:!2026-06-28,142,410!2026-06-28,142,410-->
-> - [binary operators](binary%20operation.md) ::@:: - _ψ_ __U__ _φ_ <br/> - _ψ_ __R__ _φ_ <br/> - _ψ_ __W__ _φ_ <br/> - _ψ_ __M__ _φ_ <!--SR:!2026-06-11,127,410!2026-06-19,134,410-->
+> - [binary operators](binary%20operation.md) ::@:: - _ψ_ __U__ _φ_ <br/> - _ψ_ __R__ _φ_ <br/> - _ψ_ __W__ _φ_ <br/> - _ψ_ __M__ _φ_ <!--SR:!fsrs,2028-05-26T10:02:48.193Z,712,711.54011426,1,2,8,0,0,2026-06-14T10:02:48.193Z!2026-06-19,134,410-->
 > - _ψ_ __U__ _φ_
->   - _ψ_ __U__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {U} }\,\varphi$ <!--SR:!2026-06-14,130,410!2026-06-10,126,410-->
->   - _ψ_ __U__ _φ_ / explanation ::@:: __U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position. <!--SR:!2026-06-10,126,410!2026-06-13,129,410-->
->   - _ψ_ __U__ _φ_ / diagram ::@:: ![LTI until diagram](../../archives/Wikimedia%20Commons/Ltluntil.svg) <!--SR:!2026-06-09,125,410!2026-06-28,142,410-->
+>   - _ψ_ __U__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {U} }\,\varphi$ <!--SR:!fsrs,2028-05-30T10:02:25.338Z,716,716.20587414,1,2,8,0,0,2026-06-14T10:02:25.338Z!fsrs,2028-05-24T10:02:48.947Z,710,709.96517871,1,2,8,0,0,2026-06-14T10:02:48.947Z-->
+>   - _ψ_ __U__ _φ_ / explanation ::@:: __U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position. <!--SR:!fsrs,2028-05-24T10:02:28.404Z,710,709.96517871,1,2,8,0,0,2026-06-14T10:02:28.404Z!fsrs,2028-05-29T10:02:51.730Z,715,714.66030858,1,2,8,0,0,2026-06-14T10:02:51.730Z-->
+>   - _ψ_ __U__ _φ_ / diagram ::@:: ![LTI until diagram](../../archives/Wikimedia%20Commons/Ltluntil.svg) <!--SR:!fsrs,2028-05-22T10:02:39.730Z,708,708.38005338,1,2,8,0,0,2026-06-14T10:02:39.730Z!2026-06-28,142,410-->
 > - _ψ_ __R__ _φ_
->   - _ψ_ __R__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {R} }\,\varphi$ <!--SR:!2026-06-09,125,410!2026-06-12,128,410-->
->   - _ψ_ __R__ _φ_ / explanation ::@:: __R__<!-- markdown separator -->elease: _φ_ has to be true until and including the point where _ψ_ first becomes true; if _ψ_ never becomes true, _φ_ must remain true forever. <!--SR:!2026-06-11,127,410!2026-06-15,131,410-->
->   - _ψ_ __R__ _φ_ / diagram ::@:: ![LTI release diagram with release](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <p> ![LTI release diagram without release](../../archives/Wikimedia%20Commons/Ltlrelease-nostop.svg) <!--SR:!2026-06-09,125,410!2026-06-11,127,410-->
+>   - _ψ_ __R__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {R} }\,\varphi$ <!--SR:!fsrs,2028-05-22T10:03:11.900Z,708,708.38005338,1,2,8,0,0,2026-06-14T10:03:11.900Z!fsrs,2028-05-27T10:02:43.041Z,713,713.10510302,1,2,8,0,0,2026-06-14T10:02:43.041Z-->
+>   - _ψ_ __R__ _φ_ / explanation ::@:: __R__<!-- markdown separator -->elease: _φ_ has to be true until and including the point where _ψ_ first becomes true; if _ψ_ never becomes true, _φ_ must remain true forever. <!--SR:!fsrs,2028-05-26T10:02:47.330Z,712,711.54011426,1,2,8,0,0,2026-06-14T10:02:47.330Z!fsrs,2028-06-05T03:29:55.329Z,721,720.93701642,1,2,8,0,0,2026-06-15T03:29:55.329Z-->
+>   - _ψ_ __R__ _φ_ / diagram ::@:: ![LTI release diagram with release](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <p> ![LTI release diagram without release](../../archives/Wikimedia%20Commons/Ltlrelease-nostop.svg) <!--SR:!fsrs,2028-05-22T10:02:22.180Z,708,708.38005338,1,2,8,0,0,2026-06-14T10:02:22.180Z!fsrs,2028-05-26T10:02:26.200Z,712,711.54011426,1,2,8,0,0,2026-06-14T10:02:26.200Z-->
 > - _ψ_ __W__ _φ_
->   - _ψ_ __W__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {W} }\,\varphi$ <!--SR:!2026-06-14,130,410!2026-06-09,125,410-->
->   - _ψ_ __W__ _φ_ / explanation ::@:: __W__<!-- markdown separator -->eak until: _ψ_ has to hold _at least_ until _φ_<!-- markdown separator -->; if _φ_ never becomes true, _ψ_ must remain true forever. <!--SR:!2026-06-13,129,410!2026-06-13,129,410-->
->   - _ψ_ __W__ _φ_ / diagram ::@:: ![LTI weak until diagram with until](../../archives/Wikimedia%20Commons/Ltluntil.svg) <p> ![LTI weak until diagram without until](../../archives/Wikimedia%20Commons/Ltlweakuntil2.svg) <!--SR:!2026-06-15,131,410!2026-06-13,129,410-->
+>   - _ψ_ __W__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {W} }\,\varphi$ <!--SR:!fsrs,2028-05-30T10:02:38.633Z,716,716.20587414,1,2,8,0,0,2026-06-14T10:02:38.633Z!fsrs,2028-05-22T10:03:13.177Z,708,708.38005338,1,2,8,0,0,2026-06-14T10:03:13.177Z-->
+>   - _ψ_ __W__ _φ_ / explanation ::@:: __W__<!-- markdown separator -->eak until: _ψ_ has to hold _at least_ until _φ_<!-- markdown separator -->; if _φ_ never becomes true, _ψ_ must remain true forever. <!--SR:!fsrs,2028-05-29T10:02:57.317Z,715,714.66030858,1,2,8,0,0,2026-06-14T10:02:57.317Z!fsrs,2028-05-29T10:02:46.183Z,715,714.66030858,1,2,8,0,0,2026-06-14T10:02:46.183Z-->
+>   - _ψ_ __W__ _φ_ / diagram ::@:: ![LTI weak until diagram with until](../../archives/Wikimedia%20Commons/Ltluntil.svg) <p> ![LTI weak until diagram without until](../../archives/Wikimedia%20Commons/Ltlweakuntil2.svg) <!--SR:!fsrs,2028-06-05T03:29:57.136Z,721,720.93701642,1,2,8,0,0,2026-06-15T03:29:57.136Z!fsrs,2028-05-29T10:02:53.815Z,715,714.66030858,1,2,8,0,0,2026-06-14T10:02:53.815Z-->
 > - _ψ_ __M__ _φ_
->   - _ψ_ __M__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {M} }\,\varphi$ <!--SR:!2026-06-12,128,410!2026-06-15,131,410-->
->   - _ψ_ __M__ _φ_ / explanation ::@:: Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position. <!--SR:!2026-06-15,130,410!2026-06-15,131,410-->
->   - _ψ_ __M__ _φ_ / diagram ::@:: ![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <!--SR:!2026-06-19,134,410!2026-06-10,126,410-->
+>   - _ψ_ __M__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {M} }\,\varphi$ <!--SR:!fsrs,2028-05-27T10:02:27.206Z,713,713.10510302,1,2,8,0,0,2026-06-14T10:02:27.206Z!fsrs,2028-06-05T03:29:58.381Z,721,720.93701642,1,2,8,0,0,2026-06-15T03:29:58.381Z-->
+>   - _ψ_ __M__ _φ_ / explanation ::@:: Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position. <!--SR:!fsrs,2027-09-01T03:29:56.454Z,443,442.9936858,1,2,8,0,0,2026-06-15T03:29:56.454Z!fsrs,2028-06-05T03:29:57.829Z,721,720.93701642,1,2,8,0,0,2026-06-15T03:29:57.829Z-->
+>   - _ψ_ __M__ _φ_ / diagram ::@:: ![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <!--SR:!2026-06-19,134,410!fsrs,2028-05-24T10:03:09.110Z,710,709.96517871,1,2,8,0,0,2026-06-14T10:03:09.110Z-->
 
 ## equivalences
 

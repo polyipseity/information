@@ -112,7 +112,7 @@ The content is in teaching order.
   - divergence / example ::@:: Scala 3: `def loop: Int = loop; loop` <!--SR:!2026-09-24,289,330!2026-08-27,264,330-->
 - [evaluation strategy](../../../../general/evaluation%20strategy.md) ::@:: It is a set of rules for evaluating expressions. <!--SR:!2026-08-07,251,330!2026-08-28,266,330-->
   - evaluation strategy / Scala 3 ::@:: 2 major evaluation strategies: call by name \(e.g., `def`, `=> <type>`\), call by value \(e.g., `val`\) <!--SR:!2026-09-07,275,330!2026-09-18,284,330-->
-  - evaluation strategy / call by value \(CBV\) ::@:: Each parameter to the function is evaluated first. Then, to evaluate a function, each occurrence of each parameter is replaced by its corresponding value. <p> The advantage is if a parameter is used multiple times, only one evaluation is needed. The disadvantage is if a parameter is unused, one evaluation is still needed. <!--SR:!2026-06-14,191,310!2026-09-05,274,330-->
+  - evaluation strategy / call by value \(CBV\) ::@:: Each parameter to the function is evaluated first. Then, to evaluate a function, each occurrence of each parameter is replaced by its corresponding value. <p> The advantage is if a parameter is used multiple times, only one evaluation is needed. The disadvantage is if a parameter is unused, one evaluation is still needed. <!--SR:!fsrs,2028-09-07T05:20:16.098Z,816,815.95420031,1,2,9,0,0,2026-06-14T05:20:16.098Z!2026-09-05,274,330-->
     - evaluation strategy / call by value / termination ::@:: If an expression terminates using CBN, it _may not_ terminate using CBV. This is because there may be some expressions evaluated by CBV are not evaluated by CBN. <p> Scala 3: Compare `def constant(x: Int) = 0; id(loop)` and `def constant(x: => Int) = 0; id(loop)`. <!--SR:!2026-08-23,262,330!2026-09-28,292,330-->
   - evaluation strategy / call by name \(CBN\) ::@:: Each parameter to the function is not evaluated. Rather, to evaluate a function, each occurrence of each parameter is replaced by its corresponding expression directly. <p> The advantage is if a parameter is used, no evaluation occurs. The disadvantage is each occurrence of a parameter evaluates the expression once. <!--SR:!2028-04-11,712,330!2026-08-21,261,330-->
     - evaluation strategy / call by name / termination ::@:: If an expression terminates using CBV, then it also terminates using CBN. This is because every expression evaluated by CBN is also evaluated by CBV. <!--SR:!2026-12-08,306,290!2026-07-20,184,270-->
@@ -855,7 +855,7 @@ The content is in teaching order.
     - [§ syntax](Lisp.md#syntax)
     - [§ syntactic sugar](Lisp.md#syntactic%20sugar)
     - [§ characteristics](Lisp.md#characteristics)
-  
+
 ## week 11 lecture 2
 
 - datetime: 2025-11-13T12:00:00+08:00/2025-11-13T13:20:00+08:00, PT1H20M
