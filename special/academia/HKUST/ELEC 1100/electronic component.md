@@ -32,7 +32,7 @@ Common schematic symbols used throughout the notes: <p> ![resistor symbol](attac
 Flashcards for this section are as follows:
 
 - electronic component definition ::@:: Electronic components are the building blocks used in electronic circuits that influence the behaviour of currents and voltages. <!--SR:!2027-01-02,235,330!2026-05-20,61,310-->
-- passive vs active examples ::@:: Passive elements like resistors and capacitors contrast with active semiconductor devices such as diodes and transistors. <!--SR:!2026-05-24,64,310!2026-05-17,58,310-->
+- passive vs active examples ::@:: Passive elements like resistors and capacitors contrast with active semiconductor devices such as diodes and transistors. <!--SR:!2026-05-24,64,310!2027-01-27,255,330-->
 - course context ::@:: In ELEC 1100, electronic components also include basic electrical concepts needed to understand how components operate. <!--SR:!2027-01-20,250,330!2027-01-12,243,330-->
 - active device examples ::@:: Active semiconductor devices include diodes and transistors, distinguishing them from passive elements. <!--SR:!2027-01-10,241,330!2026-05-24,64,310-->
 - power/energy context ::@:: In ELEC 1100, electronic components also encompass power sources and delivery systems such as batteries and supplies that provide energy. <!--SR:!2026-06-29,83,363!2026-05-28,56,343-->
@@ -49,8 +49,8 @@ Electricity arises from electric charge; when charges accumulate at rest the phe
 
 Flashcards for this section are as follows:
 
-- electricity ::@:: Electricity is the flow of electrical power or charge; static electricity occurs when charges gather in one place and current electricity is when they move. <!--SR:!2027-01-16,246,330!2026-05-17,58,310-->
-- static electricity ::@:: Electrical effects caused by an imbalance of positive and negative charges between objects. <!--SR:!2026-05-17,58,310!2026-05-22,62,310-->
+- electricity ::@:: Electricity is the flow of electrical power or charge; static electricity occurs when charges gather in one place and current electricity is when they move. <!--SR:!2027-01-16,246,330!2027-01-23,251,330-->
+- static electricity ::@:: Electrical effects caused by an imbalance of positive and negative charges between objects. <!--SR:!2027-01-25,253,330!2026-05-22,62,310-->
 - charge attraction/repulsion ::@:: Opposite charges attract; like charges repel. <!--SR:!2026-10-18,170,310!2027-01-21,251,330-->
 - current electricity focus ::@:: Current electricity refers to moving charges and is the primary focus of ELEC 1100. <!--SR:!2026-05-23,63,310!2026-05-20,61,310-->
 
@@ -154,7 +154,7 @@ Simple circuits illustrate how a capacitor changes transient behaviour. Without 
 Flashcards for this section are as follows:
 
 - capacitor action ::@:: A capacitor charges when connected and discharges when disconnected, smoothing voltage changes and temporarily powering loads. <!--SR:!2027-01-24,253,330!2026-05-19,60,310-->
-- parallel capacitor role ::@:: Placing a capacitor in parallel with a load gives the circuit a charge reservoir that helps smooth transient behaviour when switches change state. <!--SR:!2026-05-17,58,310!2026-05-18,59,310-->
+- parallel capacitor role ::@:: Placing a capacitor in parallel with a load gives the circuit a charge reservoir that helps smooth transient behaviour when switches change state. <!--SR:!2027-01-26,254,330!2026-05-18,59,310-->
 - capacitor sequence ::@:: Switch off, lamp off; switch on, lamp on and capacitor charges; switch opened again lamp keeps on for a while as the capacitor discharges. <!--SR:!2026-05-21,61,310!2026-05-21,61,310-->
 
 ## energy and power

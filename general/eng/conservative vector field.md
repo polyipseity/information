@@ -37,7 +37,7 @@ In {@{a two- and three-dimensional space}@}, there is {@{an ambiguity in taking 
 
 ## path independence and conservative vector field
 
-- Main article: ::@:: [Gradient theorem](gradient%20theorem.md) <!--SR:!2028-04-07,759,330!2026-05-17,245,330-->
+- Main article: ::@:: [Gradient theorem](gradient%20theorem.md) <!--SR:!2028-04-07,759,330!2029-06-05,1115,350-->
 
 ### path independence
 

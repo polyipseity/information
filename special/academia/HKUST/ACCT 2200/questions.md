@@ -58,7 +58,7 @@ Below are some questions or question tips.
 
 ## incremental analysis for short-term decision making
 
-- opportunity cost due to full capacity ::@:: Use unit contribution margins to find the opportunity cost due to lost production. <!--SR:!2029-07-12,1154,350!2026-05-17,251,330-->
+- opportunity cost due to full capacity ::@:: Use unit contribution margins to find the opportunity cost due to lost production. <!--SR:!2029-07-12,1154,350!2029-06-30,1140,350-->
 - qualitative factors ::@:: customer relationships, employees, market, price, quality, sustainability goals, timeliness, wages, etc. <!--SR:!2027-11-01,601,330!2027-08-04,536,330-->
   - qualitative factors / customer relationships ::@:: cutting current production may anger existing customers <!--SR:!2027-06-22,523,406!2027-07-22,543,406-->
   - qualitative factors / human resources ::@:: employee morale, firing, hiring, wages \(e.g. working with outsiders with higher wages leading to jealousy\) <!--SR:!2027-07-17,545,406!2027-07-23,544,406-->
@@ -69,7 +69,7 @@ Below are some questions or question tips.
 - budgeting uncollectible sales ::@:: Consider uncollectible sales occurring in the subperiod after the last sales collection subperiod. Accounts receivable \(AR\) balance also reflects this. <!--SR:!2029-05-19,1111,350!2026-05-19,252,330-->
 - current loan balance ::@:: The instructor handles the current loan balance by adding an extra row showing the current loan balance after the ending cash balance. <!--SR:!2029-07-19,1160,350!2029-07-26,1167,350-->
 - depreciation :;@:: Remember to "less: depreciation" from cash disbursements, as they are not cash outflows, but likely included in fixed manufacturing overhead.
-- preliminary cash balance ::@:: The instructor uses this cash balance to include everything \(including interest expense\) except for cash borrowed or \(repaid\). <!--SR:!2029-06-29,1143,350!2026-05-17,251,330-->
+- preliminary cash balance ::@:: The instructor uses this cash balance to include everything \(including interest expense\) except for cash borrowed or \(repaid\). <!--SR:!2029-06-29,1143,350!2029-07-01,1141,350-->
 - merging formats ::@:: Honestly you do not need to separate budgets exactly like outlined in the lecture slides, e.g. separating cash collection and receipt. Give what the question asks for with minimum effort. <!--SR:!2026-07-02,288,330!2026-06-12,272,330-->
 - rounding ::@:: Some numbers, e.g. production units, may need rounding. Some numbers, e.g. direct materials inventory, do not. See what the question asks for, else use common sense. <p> Dollar amounts are rounded to 2 decimal places. For further calculations, no need to keep extra decimal places \(otherwise it would be painful\). <!--SR:!2026-05-23,255,330!2026-05-18,251,330-->
 
@@ -101,4 +101,4 @@ Below are some questions or question tips.
 
 ## examination 2
 
-- "allocate an additional \$..." ::@:: This is an irrelevant cost. Be aware of the meaning of "allocate"! It means the company has already planned to spend that money, the difference is where the company spends it. <!--SR:!2026-05-17,251,330!2026-06-11,271,330-->
+- "allocate an additional \$..." ::@:: This is an irrelevant cost. Be aware of the meaning of "allocate"! It means the company has already planned to spend that money, the difference is where the company spends it. <!--SR:!2029-07-02,1142,350!2026-06-11,271,330-->

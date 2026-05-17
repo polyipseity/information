@@ -23,9 +23,9 @@ To recognize a provision, all of the following must be satisfied. First, there m
 Flashcards for this section are as follows:
 
 - provision definition ::@:: A liability of uncertain timing and amount (e.g. lawsuit, warranty). <!--SR:!2026-08-03,79,342!2026-07-30,75,337-->
-- provision current vs non-current ::@:: If settlement expected within 12 months after reporting date, current; otherwise non-current. <!--SR:!2026-05-17,18,322!2026-07-21,68,337-->
+- provision current vs non-current ::@:: If settlement expected within 12 months after reporting date, current; otherwise non-current. <!--SR:!2026-08-08,83,342!2026-07-21,68,337-->
 - provision: past event ::@:: Something that already happened (e.g. sale of product with warranty, incident giving rise to lawsuit). <!--SR:!2026-07-29,74,342!2026-07-20,67,326-->
-- provision: present obligation ::@:: Legal (if in contract) or constructive (if from policy/practice); must arise from the past event. <!--SR:!2026-08-02,78,342!2026-05-17,18,322-->
+- provision: present obligation ::@:: Legal (if in contract) or constructive (if from policy/practice); must arise from the past event. <!--SR:!2026-08-02,78,342!2026-08-08,83,342-->
 - provision recognition: four criteria ::@:: (1) Past event, (2) present obligation (legal or constructive), (3) probable outflow (>50%), (4) reliably estimated amount. <!--SR:!2026-07-30,75,342!2026-07-27,72,337-->
 - provisions add to liability definition ::@:: Provisions add probable outflow and reliably estimated amount to the general liability definition (past event, present obligation). <!--SR:!2026-07-28,73,335!2026-07-31,76,342-->
 - probable in provision context ::@:: More than 50% chance that an outflow will be required; instructor uses clear-cut percentages (e.g. 58%, 42%), not 50.1%. <!--SR:!2026-07-23,68,337!2026-07-22,69,337-->
@@ -39,10 +39,10 @@ The present obligation can be _legal_ or _constructive_. A __legal obligation__ 
 
 Flashcards for this section are as follows:
 
-- legal obligation (provision) ::@:: Obligation imposed by law or contract (e.g. warranty terms in the sales contract). <!--SR:!2026-05-17,18,322!2026-05-17,18,322-->
-- constructive obligation ::@:: Arises from past practice, stated policy, or pattern of behaviour that creates valid expectation; no legal requirement. <!--SR:!2026-05-17,18,322!2026-07-28,73,326-->
+- legal obligation (provision) ::@:: Obligation imposed by law or contract (e.g. warranty terms in the sales contract). <!--SR:!2026-08-07,82,342!2026-08-08,83,342-->
+- constructive obligation ::@:: Arises from past practice, stated policy, or pattern of behaviour that creates valid expectation; no legal requirement. <!--SR:!2026-08-05,80,342!2026-07-28,73,326-->
 - constructive obligation example ::@:: Company policy of refunding dissatisfied customers (e.g. Christian Dior); not in contract but creates expectation. <!--SR:!2026-08-03,79,342!2026-07-14,61,310-->
-- constructive obligation: employer example ::@:: Employer consistently paying employee creates expectation; past pattern creates constructive obligation even without legal requirement. <!--SR:!2026-05-17,18,322!2026-07-31,76,342-->
+- constructive obligation: employer example ::@:: Employer consistently paying employee creates expectation; past pattern creates constructive obligation even without legal requirement. <!--SR:!2026-08-07,82,342!2026-07-31,76,342-->
 
 ## when not to recognize a provision
 
@@ -54,10 +54,10 @@ The practical recognition-versus-disclosure rule is therefore: __recognize__ a p
 
 Flashcards for this section are as follows:
 
-- no past event (provision) ::@:: The company did nothing that gave rise to the obligation; e.g. labour strike, war, recession—company did not cause these. <!--SR:!2026-05-17,18,322!2026-07-27,72,342-->
-- why no provision for labour strike or war? ::@:: No past event—the company did not cause the strike or war; no present obligation. <!--SR:!2026-07-29,74,342!2026-05-17,18,322-->
-- lawsuit: when is no provision recognized? ::@:: When probability of unfavorable outcome is not probable (e.g. &lt;50%); may still require disclosure in notes. <!--SR:!2026-05-17,18,322!2026-08-01,77,342-->
-- provision vs disclosure ::@:: Recognize a provision only when there is a present obligation, outflow is probable, and the amount is reliably estimated; then record it in the accounts (typically Dr expense, Cr liability). If the obligation is only possible, or present but not probable enough / not reliably measurable, do not recognize it—disclose it in the notes as a contingent liability instead. If the chance of outflow is remote, usually do nothing. <!--SR:!2026-07-06,54,310!2026-05-17,18,322-->
+- no past event (provision) ::@:: The company did nothing that gave rise to the obligation; e.g. labour strike, war, recession—company did not cause these. <!--SR:!2026-08-05,80,342!2026-07-27,72,342-->
+- why no provision for labour strike or war? ::@:: No past event—the company did not cause the strike or war; no present obligation. <!--SR:!2026-07-29,74,342!2026-08-05,80,342-->
+- lawsuit: when is no provision recognized? ::@:: When probability of unfavorable outcome is not probable (e.g. &lt;50%); may still require disclosure in notes. <!--SR:!2026-08-08,83,342!2026-08-01,77,342-->
+- provision vs disclosure ::@:: Recognize a provision only when there is a present obligation, outflow is probable, and the amount is reliably estimated; then record it in the accounts (typically Dr expense, Cr liability). If the obligation is only possible, or present but not probable enough / not reliably measurable, do not recognize it—disclose it in the notes as a contingent liability instead. If the chance of outflow is remote, usually do nothing. <!--SR:!2026-07-06,54,310!2026-08-08,83,342-->
 
 ## litigation
 
@@ -68,8 +68,8 @@ For litigation, the entity must consider (1) the __probability of an unfavorable
 Flashcards for this section are as follows:
 
 - litigation: two things to consider when deciding whether current-year litigation needs a provision ::@:: (1) Whether an unfavorable outcome is probable enough to require recognition rather than mere disclosure; and (2) whether the cause of action belongs to the current reporting period or only arises after year-end, because only current-period obligations are recognized now. <!--SR:!2026-07-07,52,317!2026-07-20,67,326-->
-- litigation: probability of unfavorable outcome ::@:: Whether the entity will lose the case; must be probable for provision. <!--SR:!2026-08-03,79,342!2026-05-17,18,322-->
-- litigation: time period ::@:: When the cause of action arose relative to the reporting date; lawsuit filed before vs after balance sheet date. <!--SR:!2026-05-17,18,322!2026-07-30,75,342-->
+- litigation: probability of unfavorable outcome ::@:: Whether the entity will lose the case; must be probable for provision. <!--SR:!2026-08-03,79,342!2026-08-06,81,342-->
+- litigation: time period ::@:: When the cause of action arose relative to the reporting date; lawsuit filed before vs after balance sheet date. <!--SR:!2026-08-06,81,342!2026-07-30,75,342-->
 - lawsuit filed after balance sheet date ::@:: No provision in current year; obligation arises next period; provision in next year if criteria met. <!--SR:!2026-07-18,65,326!2026-07-26,71,326-->
 - litigation provision: when recognized? ::@:: When lawsuit is before balance sheet date, probable loss, and amount reliably estimated. <!--SR:!2026-07-27,72,342!2026-08-01,77,342-->
 
@@ -89,16 +89,16 @@ The amount recognized as a provision is the __best estimate__ of the expenditure
 > | {@{Litigation expense}@} | {@{500&nbsp;000}@} | |
 > | {@{Litigation liability}@} | | {@{500&nbsp;000}@} |
 >
-> _Explanation._ The numbers differ because {@{expected value uses probability weighting across outcomes}@}, while {@{most likely outcome picks the single dominant case}@}. <!--SR:!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,337!2026-05-17,18,336!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,342-->
+> _Explanation._ The numbers differ because {@{expected value uses probability weighting across outcomes}@}, while {@{most likely outcome picks the single dominant case}@}. <!--SR:!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,337!2026-08-10,85,356!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,342-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- provision: best estimate ::@:: The amount recognized is the best estimate of the expenditure required to settle the obligation at the reporting date; estimation involves judgment. <!--SR:!2026-08-02,78,342!2026-05-17,18,322-->
-- expected value (provision) ::@:: When multiple outcomes with probabilities are given, use probability-weighted sum (e.g. Toyota: 80%×0 + 12%×substantial + 8%×small). <!--SR:!2026-07-15,62,310!2026-05-17,18,322-->
+- provision: best estimate ::@:: The amount recognized is the best estimate of the expenditure required to settle the obligation at the reporting date; estimation involves judgment. <!--SR:!2026-08-02,78,342!2026-08-05,80,342-->
+- expected value (provision) ::@:: When multiple outcomes with probabilities are given, use probability-weighted sum (e.g. Toyota: 80%×0 + 12%×substantial + 8%×small). <!--SR:!2026-07-15,62,310!2026-08-08,83,342-->
 - most likely outcome (provision) ::@:: When a single obligation has one dominant outcome (e.g. lawsuit win or lose), use the most likely outcome. <!--SR:!2026-08-01,77,342!2026-08-01,77,342-->
-- when to use expected value vs most likely? ::@:: If the question gives probabilities, use expected value; otherwise use the most likely outcome. <!--SR:!2026-07-20,65,310!2026-05-17,18,322-->
+- when to use expected value vs most likely? ::@:: If the question gives probabilities, use expected value; otherwise use the most likely outcome. <!--SR:!2026-07-20,65,310!2026-08-06,81,342-->
 - expected-value litigation example: why can the recorded provision be below the most likely outcome? ::@:: Because the expected-value method averages all outcomes by probability, including lower-loss or zero-loss cases. <!--SR:!2026-05-18,19,342!2026-05-18,19,342-->
 
 ## assurance-type warranty
@@ -236,7 +236,7 @@ Sometimes the issue is not that a particular repair costs more than expected. In
 > | {@{Warranty liability}@} | {@{200}@} | |
 > | {@{Warranty expense}@} | | {@{200}@} |
 >
-> _Explanation._ Once the sale is {@{fully reversed, the company no longer expects future warranty service on that unit}@}, so the remaining warranty liability attached to that sale is {@{released rather than used for repair because the sale itself has been unwound}@}. <!--SR:!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,342!2026-05-17,18,336!2026-05-18,19,337!2026-05-18,19,337!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342-->
+> _Explanation._ Once the sale is {@{fully reversed, the company no longer expects future warranty service on that unit}@}, so the remaining warranty liability attached to that sale is {@{released rather than used for repair because the sale itself has been unwound}@}. <!--SR:!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,342!2026-08-10,85,356!2026-05-18,19,337!2026-05-18,19,337!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,337!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342-->
 
 ---
 
@@ -282,7 +282,7 @@ Representative journal entry examples:
 > | {@{Unearned warranty revenue}@}                  |              | {@{900}@}    |
 >
 >
-> _Explanation._ 900 is for the extended (service-type) coverage; {@{revenue is recognized only over the service-type period (e.g. straight-line over years 2–4), after the assurance-type warranty has expired}@}. <!--SR:!2026-07-28,73,342!2026-07-19,64,310!2026-05-17,18,322!2026-07-31,76,342!2026-07-27,72,326!2026-07-31,76,342!2026-08-02,78,342!2026-08-02,78,342!2027-04-27,346,362!2026-07-16,63,310!2026-05-17,18,322-->
+> _Explanation._ 900 is for the extended (service-type) coverage; {@{revenue is recognized only over the service-type period (e.g. straight-line over years 2–4), after the assurance-type warranty has expired}@}. <!--SR:!2026-07-28,73,342!2026-07-19,64,310!2026-08-06,81,342!2026-07-31,76,342!2026-07-27,72,326!2026-07-31,76,342!2026-08-02,78,342!2026-08-02,78,342!2027-04-27,346,362!2026-07-16,63,310!2026-08-08,83,342-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Harbor Auto carries {@{Unearned warranty revenue of 900 for a separate three-year service-type warranty covering years 2–4 after the one-year assurance warranty}@}. {@{At the end of year 2, one of those three service years has passed, so recognize 300 of revenue}@}.
@@ -292,7 +292,7 @@ Representative journal entry examples:
 > | {@{Unearned warranty revenue}@}                       | {@{300}@} |           |
 > | {@{Warranty revenue}@}                                |           | {@{300}@} |
 >
-> _Explanation._ Straight-line over the 3-year service period: {@{900 ÷ 3 = 300 per year}@}; {@{revenue is earned only during the service-type period (after assurance-type warranty has expired)}@}. <!--SR:!2026-05-17,18,322!2026-05-17,18,322!2026-05-17,18,322!2026-07-29,74,342!2026-08-03,79,342!2026-07-31,76,342!2026-07-29,74,337-->
+> _Explanation._ Straight-line over the 3-year service period: {@{900 ÷ 3 = 300 per year}@}; {@{revenue is earned only during the service-type period (after assurance-type warranty has expired)}@}. <!--SR:!2026-08-08,83,342!2026-08-05,80,342!2026-08-08,83,342!2026-07-29,74,342!2026-08-03,79,342!2026-07-31,76,342!2026-07-29,74,337-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Customer forfeits the remaining extended coverage early._ After the first service year has been recognized, a Harbor Auto customer explicitly cancels the remaining {@{2 years of extended coverage}@}. The unearned balance of {@{600}@} is then released because the remaining performance obligation has lapsed.
@@ -308,18 +308,18 @@ Representative journal entry examples:
 
 Flashcards for this section are as follows:
 
-- service-type warranty ::@:: Extended or additional warranty purchased separately (e.g. extra years); separate performance obligation; not part of initial product sale; handled separately from assurance-type. <!--SR:!2026-05-17,18,322!2026-07-18,65,326-->
-- service-type warranty: when does revenue get earned? ::@:: As the entity satisfies the performance obligation over the service period (in the typical example, that period begins after the assurance-type warranty has expired, e.g. years 2–4 if assurance is year 1). <!--SR:!2026-07-26,71,342!2026-05-17,18,322-->
-- unearned warranty revenue ::@:: Cash received for service-type warranty is recorded as a liability; recognized as revenue as the performance obligation is satisfied over the service period. <!--SR:!2026-05-17,18,322!2026-05-17,18,322-->
-- service-type warranty: where is cash recorded initially? ::@:: As _Unearned warranty revenue_ (liability); not as sales revenue in year of sale. <!--SR:!2026-05-17,18,322!2026-05-17,18,322-->
-- service-type warranty: how is revenue recognized? ::@:: As the performance obligation is satisfied over the service period, typically straight-line; Dr _Unearned warranty revenue_, Cr _Warranty revenue_. <!--SR:!2026-05-17,18,322!2026-07-28,73,342-->
+- service-type warranty ::@:: Extended or additional warranty purchased separately (e.g. extra years); separate performance obligation; not part of initial product sale; handled separately from assurance-type. <!--SR:!2026-08-06,81,342!2026-07-18,65,326-->
+- service-type warranty: when does revenue get earned? ::@:: As the entity satisfies the performance obligation over the service period (in the typical example, that period begins after the assurance-type warranty has expired, e.g. years 2–4 if assurance is year 1). <!--SR:!2026-07-26,71,342!2026-08-05,80,342-->
+- unearned warranty revenue ::@:: Cash received for service-type warranty is recorded as a liability; recognized as revenue as the performance obligation is satisfied over the service period. <!--SR:!2026-08-06,81,342!2026-08-08,83,342-->
+- service-type warranty: where is cash recorded initially? ::@:: As _Unearned warranty revenue_ (liability); not as sales revenue in year of sale. <!--SR:!2026-08-05,80,342!2026-08-05,80,342-->
+- service-type warranty: how is revenue recognized? ::@:: As the performance obligation is satisfied over the service period, typically straight-line; Dr _Unearned warranty revenue_, Cr _Warranty revenue_. <!--SR:!2026-08-05,80,342!2026-07-28,73,342-->
 - assurance vs service-type warranty ::@:: Assurance = expense + provision in period of sale; service-type = unearned revenue, then recognize revenue as the performance obligation is satisfied over the service period. <!--SR:!2026-08-01,77,342!2026-07-24,69,342-->
-- service-type: unclaimed warranty at end of period ::@:: If customers did not claim by end of warranty period, entity may reduce warranty liability and credit _Warranty revenue_ (or other income). <!--SR:!2026-05-17,18,322!2026-05-17,18,322-->
-- service-type warranty: initial entry when customer pays for extended warranty? ::@:: Dr _Cash_, Cr _Sales revenue_ (product), Cr _Unearned warranty revenue_ (warranty amount); revenue recognized as the performance obligation is satisfied over the service period. <!--SR:!2026-07-28,73,342!2026-05-17,18,322-->
-- automobile 30 000 + 900 extended warranty (service-type, years 2–4)—entry at sale? ::@:: Dr _Cash_ 30 900, Cr _Sales revenue_ 30 000, Cr _Unearned warranty revenue_ 900. <!--SR:!2026-05-17,18,322!2026-05-17,18,322-->
+- service-type: unclaimed warranty at end of period ::@:: If customers did not claim by end of warranty period, entity may reduce warranty liability and credit _Warranty revenue_ (or other income). <!--SR:!2026-08-08,83,342!2026-08-08,83,342-->
+- service-type warranty: initial entry when customer pays for extended warranty? ::@:: Dr _Cash_, Cr _Sales revenue_ (product), Cr _Unearned warranty revenue_ (warranty amount); revenue recognized as the performance obligation is satisfied over the service period. <!--SR:!2026-07-28,73,342!2026-08-06,81,342-->
+- automobile 30 000 + 900 extended warranty (service-type, years 2–4)—entry at sale? ::@:: Dr _Cash_ 30 900, Cr _Sales revenue_ 30 000, Cr _Unearned warranty revenue_ 900. <!--SR:!2026-08-05,80,342!2026-08-07,82,342-->
 - service-type warranty: when is revenue recognized? ::@:: As the entity satisfies the performance obligation over the service period (in the typical example, that period begins after the assurance-type warranty has expired). <!--SR:!2026-07-19,64,310!2026-07-21,66,310-->
-- service-type warranty: entry as time passes? ::@:: Dr _Unearned warranty revenue_, Cr _Warranty revenue_ (e.g. straight-line over the service-type term). <!--SR:!2026-08-03,79,342!2026-05-17,18,322-->
-- unearned warranty revenue 900, 3-year service period—recognize 1 year—entry? ::@:: Dr _Unearned warranty revenue_ 300, Cr _Warranty revenue_ 300. <!--SR:!2026-05-17,18,322!2026-07-09,57,310-->
+- service-type warranty: entry as time passes? ::@:: Dr _Unearned warranty revenue_, Cr _Warranty revenue_ (e.g. straight-line over the service-type term). <!--SR:!2026-08-03,79,342!2026-08-08,83,342-->
+- unearned warranty revenue 900, 3-year service period—recognize 1 year—entry? ::@:: Dr _Unearned warranty revenue_ 300, Cr _Warranty revenue_ 300. <!--SR:!2026-08-08,83,342!2026-07-09,57,310-->
 - service-type warranty forfeiture: what happens if the customer gives up the remaining coverage early? ::@:: Release the remaining _Unearned warranty revenue_ to _Warranty revenue_ because the company no longer has an outstanding performance obligation. <!--SR:!2026-05-18,19,342!2026-05-18,19,342-->
 
 ## premiums and coupons (consideration payable)
@@ -345,7 +345,7 @@ Representative journal entry examples:
 > | {@{Premium expense}@}                         | {@{12&nbsp;000}@} |                   |
 > | {@{Premium liability}@}                       |                   | {@{12&nbsp;000}@} |
 >
-> _Calculation._ Expected total bowls from 2025 sales = {@{300&nbsp;000 × 0.60 ÷ 10 = 18&nbsp;000 bowls}@}; bowls already issued in 2025 = {@{60&nbsp;000 ÷ 10 = 6&nbsp;000 bowls}@}; bowls still expected = {@{12&nbsp;000}@}. Net cost per bowl = {@{2 − 1 = 1}@}; required year-end provision = {@{12&nbsp;000 × 1 = 12&nbsp;000}@}. <!--SR:!2026-08-02,78,342!2026-05-17,18,322!2026-07-15,62,310!2026-07-05,50,322!2026-07-26,71,342!2026-07-19,66,326!2026-05-17,18,322!2026-05-17,18,322!2026-06-19,39,290!2026-07-08,56,310-->
+> _Calculation._ Expected total bowls from 2025 sales = {@{300&nbsp;000 × 0.60 ÷ 10 = 18&nbsp;000 bowls}@}; bowls already issued in 2025 = {@{60&nbsp;000 ÷ 10 = 6&nbsp;000 bowls}@}; bowls still expected = {@{12&nbsp;000}@}. Net cost per bowl = {@{2 − 1 = 1}@}; required year-end provision = {@{12&nbsp;000 × 1 = 12&nbsp;000}@}. <!--SR:!2026-08-02,78,342!2026-08-07,82,342!2026-07-15,62,310!2026-07-05,50,322!2026-07-26,71,342!2026-07-19,66,326!2026-08-06,81,342!2026-08-07,82,342!2026-06-19,39,290!2026-07-08,56,310-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ A Suncrest customer {@{redeems 10 package seals plus 1 dollar for one bowl carried in Inventory of premiums at 2}@}. The entity had already {@{provided for the 1 net cost of that redemption when the related sale was made}@}.
@@ -386,13 +386,13 @@ Representative journal entry examples:
 > | {@{Premium liability}@}                   | {@{5&nbsp;000}@} |                  |
 > | {@{Premium revenue (or Other income)}@}   |                  | {@{5&nbsp;000}@} |
 >
-> _Explanation._ This is different from a mere {@{change in estimate}@}: the rights have {@{actually expired}@}, so the obligation is extinguished and the remaining balance can be {@{transferred to income}@}. <!--SR:!2026-07-30,75,342!2026-07-22,69,337!2026-07-27,72,342!2026-05-17,18,322!2026-05-17,18,322!2026-05-17,18,322!2026-05-18,19,342!2026-05-18,19,342-->
+> _Explanation._ This is different from a mere {@{change in estimate}@}: the rights have {@{actually expired}@}, so the obligation is extinguished and the remaining balance can be {@{transferred to income}@}. <!--SR:!2026-07-30,75,342!2026-07-22,69,337!2026-07-27,72,342!2026-08-06,81,342!2026-08-06,81,342!2026-08-07,82,342!2026-05-18,19,342!2026-05-18,19,342-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- premiums and coupons create ::@:: Obligation to deliver goods or benefits at a future date (e.g. "10 box tops plus 1 dollar = one bowl"). <!--SR:!2026-05-18,19,337!2026-05-17,18,336-->
+- premiums and coupons create ::@:: Obligation to deliver goods or benefits at a future date (e.g. "10 box tops plus 1 dollar = one bowl"). <!--SR:!2026-05-18,19,337!2026-08-11,86,356-->
 - premiums/coupons: past event ::@:: The sale of the product that gives the right to redeem (e.g. sale of cake mix boxes). <!--SR:!2026-05-18,19,342!2026-05-18,19,337-->
 - inventory of premiums ::@:: Separate inventory (or specifically identified regular inventory) held to satisfy premium redemptions before customers actually redeem. <!--SR:!2026-05-18,19,342!2026-05-18,19,342-->
 - inventory of premiums: initial purchase entry ::@:: Dr _Inventory of premiums_, Cr _Cash_/_Accounts payable_; measure at purchase price plus directly attributable costs such as freight-in/transport. <!--SR:!2026-05-18,19,337!2026-05-18,19,337-->
@@ -436,7 +436,7 @@ Representative journal entry examples:
 > | {@{Oil platform (PPE)}@}                | {@{620 921}@} |               |
 > | {@{Environmental liability (ARO)}@}     |               | {@{620 921}@} |
 >
-> _Calculation._ PV = {@{1 000 000 ÷ (1.10^5)}@} = {@{620 921}@}. <!--SR:!2026-05-17,18,322!2026-05-17,18,322!2026-05-17,18,322!2026-08-02,78,342!2026-07-10,58,310!2026-07-31,76,342!2026-07-09,57,310!2026-07-26,71,342!2026-07-29,74,337!2026-05-17,18,322-->
+> _Calculation._ PV = {@{1 000 000 ÷ (1.10^5)}@} = {@{620 921}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-08,83,342!2026-08-02,78,342!2026-07-10,58,310!2026-07-31,76,342!2026-07-09,57,310!2026-07-26,71,342!2026-07-29,74,337!2026-08-07,82,342-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ BlueTide's capitalized ARO cost is {@{620 921}@}; useful life {@{5 years}@}; straight-line. Record year-end depreciation (for the ARO component).
@@ -446,7 +446,7 @@ Representative journal entry examples:
 > | {@{Depreciation expense}@}                    | {@{124 184}@} |               |
 > | {@{Accumulated depreciation — oil platform}@} |               | {@{124 184}@} |
 >
-> _Calculation._ {@{620 921 ÷ 5}@} = {@{124 184}@} (rounded). <!--SR:!2026-05-17,18,322!2026-05-17,18,322!2026-05-17,18,322!2026-05-17,18,322!2026-05-17,18,322!2026-05-17,18,322!2026-05-17,18,322-->
+> _Calculation._ {@{620 921 ÷ 5}@} = {@{124 184}@} (rounded). <!--SR:!2026-08-06,81,342!2026-08-06,81,342!2026-08-08,83,342!2026-08-05,80,342!2026-08-08,83,342!2026-08-06,81,342!2026-08-05,80,342-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ BlueTide's beginning ARO liability is {@{620 921}@}; discount rate {@{10%}@}. Record year 1 accretion.
@@ -456,7 +456,7 @@ Representative journal entry examples:
 > | {@{Interest expense}@}                         | {@{62 092}@} |              |
 > | {@{Environmental liability (ARO)}@}            |              | {@{62 092}@} |
 >
-> _Calculation._ {@{620 921 × 0.10}@} = {@{62 092}@} (rounded). <!--SR:!2026-07-28,73,326!2026-08-03,79,342!2026-07-27,72,326!2026-07-06,54,310!2026-07-26,71,342!2026-05-17,18,322!2026-05-17,18,322-->
+> _Calculation._ {@{620 921 × 0.10}@} = {@{62 092}@} (rounded). <!--SR:!2026-07-28,73,326!2026-08-03,79,342!2026-07-27,72,326!2026-07-06,54,310!2026-07-26,71,342!2026-08-07,82,342!2026-08-06,81,342-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ At the end of year 5, BlueTide's ARO liability carrying amount is {@{1 000 000}@}. The company pays a marine contractor {@{995 000}@} to dismantle the platform. Record settlement.
@@ -467,23 +467,23 @@ Representative journal entry examples:
 > | {@{Cash / Accounts payable}@}                   |                 | {@{995 000}@} |
 > | {@{Gain on settlement}@}                        |                 | {@{5 000}@}   |
 >
-> _Calculation._ Carrying amount of liability {@{1&nbsp;000&nbsp;000}@} minus settlement cash {@{995&nbsp;000}@} = {@{5&nbsp;000 gain}@}. If the cash paid had been higher than the carrying amount, the difference would be a {@{loss on settlement}@} instead. <!--SR:!2026-07-17,64,326!2026-05-17,18,322!2026-07-31,76,342!2026-05-17,18,322!2026-05-17,18,322!2026-05-17,18,322!2026-07-28,73,342!2026-05-18,19,337!2026-05-18,19,342!2026-05-18,19,342!2026-05-17,18,336-->
+> _Calculation._ Carrying amount of liability {@{1&nbsp;000&nbsp;000}@} minus settlement cash {@{995&nbsp;000}@} = {@{5&nbsp;000 gain}@}. If the cash paid had been higher than the carrying amount, the difference would be a {@{loss on settlement}@} instead. <!--SR:!2026-07-17,64,326!2026-08-05,80,342!2026-07-31,76,342!2026-08-07,82,342!2026-08-08,83,342!2026-08-08,83,342!2026-07-28,73,342!2026-05-18,19,337!2026-05-18,19,342!2026-05-18,19,342!2026-08-11,86,356-->
 
 ---
 
 Flashcards for this section are as follows:
 
 - asset retirement obligation (ARO) / decommissioning provision ::@:: Provision for dismantling/removing/restoring an asset site at end of useful life; recognized when obligation arises from constructing/installing the asset. <!--SR:!2026-07-21,68,335!2026-08-03,79,342-->
-- ARO initial measurement ::@:: Best-estimate future cash outflow discounted to present value (use expected value if probabilities are given). <!--SR:!2026-05-17,18,322!2026-07-26,71,342-->
-- ARO initial recognition: why record an asset? ::@:: Because the obligation is necessary to operate the asset and generates future benefits over its useful life; allocate via depreciation, not immediate expense. <!--SR:!2026-07-25,70,335!2026-05-17,18,322-->
+- ARO initial measurement ::@:: Best-estimate future cash outflow discounted to present value (use expected value if probabilities are given). <!--SR:!2026-08-05,80,342!2026-07-26,71,342-->
+- ARO initial recognition: why record an asset? ::@:: Because the obligation is necessary to operate the asset and generates future benefits over its useful life; allocate via depreciation, not immediate expense. <!--SR:!2026-07-25,70,335!2026-08-08,83,342-->
 - ARO subsequent accounting ::@:: Depreciate the capitalized ARO cost over useful life; increase the liability via interest expense so it accretes to the expected settlement amount. <!--SR:!2026-07-28,73,342!2026-07-30,75,342-->
-- asset retirement obligation (ARO): initial recognition entry? ::@:: Recognize liability at PV and capitalize same amount in _PPE_ (Dr _PPE_; Cr _Environmental liability_ (ARO)). <!--SR:!2026-05-17,18,322!2026-07-21,68,337-->
-- ARO: why record an asset at initial recognition? ::@:: Because the dismantling/restoration obligation is necessary to operate the asset and provides future benefits; allocate via depreciation over useful life. <!--SR:!2026-07-26,71,342!2026-05-17,18,322-->
-- ARO: depreciation of capitalized cost (entry)? ::@:: Dr _Depreciation expense_; Cr _Accumulated depreciation_ (depreciate the capitalized ARO amount over useful life). <!--SR:!2026-05-17,18,322!2026-07-07,55,310-->
-- ARO: why does the liability increase over time? ::@:: Accretion/interest expense increases the liability from PV at recognition to the expected cash outflow at settlement. <!--SR:!2026-05-17,18,322!2026-08-02,78,342-->
-- ARO: accretion entry? ::@:: Dr _Interest expense_; Cr _Environmental liability_ (ARO) (interest = carrying amount × discount rate). <!--SR:!2026-05-17,18,322!2026-07-24,69,337-->
-- ARO accretion: economic rationale for interest? ::@:: The liability was initially recorded at a discounted present value below the expected future payment; accretion unwinds that discount over time as interest expense so the carrying amount reaches the full settlement amount. <!--SR:!2026-05-17,18,322!2026-05-17,18,322-->
-- ARO: settlement entry (general form)? ::@:: Dr _Environmental liability_ (carrying amount); Cr _Cash_/Payable (amount paid); Cr _Gain on settlement_ (or Dr _Loss_) for difference. <!--SR:!2026-05-17,18,322!2026-07-31,76,342-->
+- asset retirement obligation (ARO): initial recognition entry? ::@:: Recognize liability at PV and capitalize same amount in _PPE_ (Dr _PPE_; Cr _Environmental liability_ (ARO)). <!--SR:!2026-08-08,83,342!2026-07-21,68,337-->
+- ARO: why record an asset at initial recognition? ::@:: Because the dismantling/restoration obligation is necessary to operate the asset and provides future benefits; allocate via depreciation over useful life. <!--SR:!2026-07-26,71,342!2026-08-05,80,342-->
+- ARO: depreciation of capitalized cost (entry)? ::@:: Dr _Depreciation expense_; Cr _Accumulated depreciation_ (depreciate the capitalized ARO amount over useful life). <!--SR:!2026-08-06,81,342!2026-07-07,55,310-->
+- ARO: why does the liability increase over time? ::@:: Accretion/interest expense increases the liability from PV at recognition to the expected cash outflow at settlement. <!--SR:!2026-08-08,83,342!2026-08-02,78,342-->
+- ARO: accretion entry? ::@:: Dr _Interest expense_; Cr _Environmental liability_ (ARO) (interest = carrying amount × discount rate). <!--SR:!2026-08-08,83,342!2026-07-24,69,337-->
+- ARO accretion: economic rationale for interest? ::@:: The liability was initially recorded at a discounted present value below the expected future payment; accretion unwinds that discount over time as interest expense so the carrying amount reaches the full settlement amount. <!--SR:!2026-08-07,82,342!2026-08-05,80,342-->
+- ARO: settlement entry (general form)? ::@:: Dr _Environmental liability_ (carrying amount); Cr _Cash_/Payable (amount paid); Cr _Gain on settlement_ (or Dr _Loss_) for difference. <!--SR:!2026-08-08,83,342!2026-07-31,76,342-->
 
 ## onerous contracts
 
@@ -505,7 +505,7 @@ Representative journal entry examples:
 > | {@{Loss on onerous contract}@}             | {@{200 000}@} |               |
 > | {@{Onerous contract liability}@}           |               | {@{200 000}@} |
 >
-> _Calculation._ Required provision = {@{200&nbsp;000}@} because the contract must still be fulfilled and there is {@{no cheaper exit option}@}. <!--SR:!2026-05-17,18,322!2026-05-17,18,322!2026-08-01,77,342!2026-07-30,75,342!2026-07-25,70,337!2026-07-27,72,342!2026-05-18,19,342!2026-05-18,19,342-->
+> _Calculation._ Required provision = {@{200&nbsp;000}@} because the contract must still be fulfilled and there is {@{no cheaper exit option}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-01,77,342!2026-07-30,75,342!2026-07-25,70,337!2026-07-27,72,342!2026-05-18,19,342!2026-05-18,19,342-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ {@{Same Meridian contract}@}, but the company can {@{cancel by paying a penalty of 80 000}@}. Recognise the onerous contract provision.
@@ -515,16 +515,16 @@ Representative journal entry examples:
 > | {@{Loss on onerous contract}@}                                | {@{80 000}@} |              |
 > | {@{Onerous contract liability}@}                              |              | {@{80 000}@} |
 >
-> _Calculation._ Lower of fulfilment cost {@{200&nbsp;000}@} and exit penalty {@{80&nbsp;000}@} = {@{80&nbsp;000}@}, so the entity provides for the {@{cheaper unavoidable cost}@}. <!--SR:!2026-07-26,71,326!2026-05-17,18,322!2026-05-17,18,322!2026-05-17,18,322!2026-07-30,75,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342-->
+> _Calculation._ Lower of fulfilment cost {@{200&nbsp;000}@} and exit penalty {@{80&nbsp;000}@} = {@{80&nbsp;000}@}, so the entity provides for the {@{cheaper unavoidable cost}@}. <!--SR:!2026-07-26,71,326!2026-08-07,82,342!2026-08-07,82,342!2026-08-07,82,342!2026-07-30,75,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342!2026-05-18,19,342-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- onerous contract ::@:: Contract where unavoidable cost of meeting obligations exceeds economic benefits expected to be received; recognize a provision when it becomes onerous. <!--SR:!2026-05-17,18,322!2026-07-08,56,310-->
-- onerous contract provision: measurement basis ::@:: Lower of (1) cost to fulfil the contract and (2) compensation/penalty to exit the contract. <!--SR:!2026-07-22,67,310!2026-05-17,18,322-->
-- why "lower of" for onerous contracts? ::@:: A reasonable entity chooses the cheaper way to avoid further losses (pay penalty vs continue paying fulfilment costs). <!--SR:!2026-07-29,74,337!2026-05-17,18,322-->
-- onerous contract provision: entry? ::@:: Dr _Loss_ (onerous contract), Cr _Onerous contract liability_ (amount = lower of fulfilment cost and exit penalty). <!--SR:!2026-07-10,58,310!2026-05-17,18,322-->
+- onerous contract ::@:: Contract where unavoidable cost of meeting obligations exceeds economic benefits expected to be received; recognize a provision when it becomes onerous. <!--SR:!2026-08-06,81,342!2026-07-08,56,310-->
+- onerous contract provision: measurement basis ::@:: Lower of (1) cost to fulfil the contract and (2) compensation/penalty to exit the contract. <!--SR:!2026-07-22,67,310!2026-08-08,83,342-->
+- why "lower of" for onerous contracts? ::@:: A reasonable entity chooses the cheaper way to avoid further losses (pay penalty vs continue paying fulfilment costs). <!--SR:!2026-07-29,74,337!2026-08-07,82,342-->
+- onerous contract provision: entry? ::@:: Dr _Loss_ (onerous contract), Cr _Onerous contract liability_ (amount = lower of fulfilment cost and exit penalty). <!--SR:!2026-07-10,58,310!2026-08-07,82,342-->
 
 ## restructuring
 
@@ -572,8 +572,8 @@ A _contingent asset_ is a possible asset arising from past events whose existenc
 Flashcards for this section are as follows:
 
 - contingent liability ::@:: Possible obligation (or present obligation) not recognized because outflow is not probable or cannot be reliably measured; disclose if significant. <!--SR:!2026-07-21,66,310!2026-07-20,67,326-->
-- provision vs contingent liability (course convention) ::@:: Probable outflow (>50%) → recognize provision; possible (~5%–50%) → disclose contingent liability; remote (<5%) → ignore. <!--SR:!2026-08-03,79,342!2026-05-17,18,322-->
-- contingent asset ::@:: Possible asset whose existence depends on uncertain future events; disclose when probable (about >50%–90%) but recognize only when virtually certain (about >90%). <!--SR:!2026-07-27,72,326!2026-05-17,18,322-->
+- provision vs contingent liability (course convention) ::@:: Probable outflow (>50%) → recognize provision; possible (~5%–50%) → disclose contingent liability; remote (<5%) → ignore. <!--SR:!2026-08-03,79,342!2026-08-06,81,342-->
+- contingent asset ::@:: Possible asset whose existence depends on uncertain future events; disclose when probable (about >50%–90%) but recognize only when virtually certain (about >90%). <!--SR:!2026-07-27,72,326!2026-08-05,80,342-->
 - why higher threshold for contingent assets? ::@:: Conservatism: avoid recognizing gains/asset inflows until virtually certain. <!--SR:!2026-07-26,71,342!2026-08-02,78,342-->
 
 ## disclosure for provisions (high level)
@@ -584,4 +584,4 @@ In financial reports, provisions are presented as single line items (e.g. on the
 
 Flashcards for this section are as follows:
 
-- provisions: where are details disclosed? ::@:: Statement of financial position shows the line item; notes disclose breakdown (opening, changes, closing), expected timing, and uncertainties. <!--SR:!2026-05-17,18,322!2026-05-17,18,322-->
+- provisions: where are details disclosed? ::@:: Statement of financial position shows the line item; notes disclose breakdown (opening, changes, closing), expected timing, and uncertainties. <!--SR:!2026-08-07,82,342!2026-08-06,81,342-->

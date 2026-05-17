@@ -35,7 +35,7 @@ There is a question about {@{what the SML looks like when beta is negative}@}. {
 
 ## security market line, Treynor ratio and alpha
 
-{@{All of the portfolios on the SML}@} have {@{the same [Treynor ratio](Treynor%20ratio.md) as does the market portfolio}@}, i.e. {@{$${\frac {E(R_{i})-R_{f} }{\beta _{i} } }=E(R_{M})-R_{f}.$$}@} <!--SR:!2026-06-01,260,330!2026-05-17,248,330!2026-05-25,255,330-->
+{@{All of the portfolios on the SML}@} have {@{the same [Treynor ratio](Treynor%20ratio.md) as does the market portfolio}@}, i.e. {@{$${\frac {E(R_{i})-R_{f} }{\beta _{i} } }=E(R_{M})-R_{f}.$$}@} <!--SR:!2026-06-01,260,330!2029-06-17,1127,350!2026-05-25,255,330-->
 
 In fact, {@{the slope of the SML}@} is {@{the Treynor ratio of the market portfolio}@} since {@{$\beta _{M}=1$}@}. <!--SR:!2026-06-24,278,330!2026-06-14,271,330!2026-05-31,259,330-->
 

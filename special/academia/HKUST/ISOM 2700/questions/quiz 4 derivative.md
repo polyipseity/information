@@ -52,7 +52,7 @@ tags:
 > ---
 >
 > - solution: {@{mean=200 <br/> standard deviation≈35.3553390593}@}
-> - explanation: {@{mean=2\*100=200 <br/> standard deviation=25\*√\(2\)≈35.3553390593}@} <!--SR:!2026-05-21,254,330!2026-05-17,251,330-->
+> - explanation: {@{mean=2\*100=200 <br/> standard deviation=25\*√\(2\)≈35.3553390593}@} <!--SR:!2026-05-21,254,330!2029-06-28,1138,350-->
 
 ---
 
@@ -111,7 +111,7 @@ tags:
 > ---
 >
 > - solution: {@{200: 98, 150: 48, 100: 0, 50: 0}@}
-> - explanation: {@{Critical fractile and its corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {4000 - (2000 - 200)} {(4000 - (2000 - 200)) + (2000 - 200)} = 0.55 \implies z^* \approx 0.13 \,.$$ Optimal protection level: $$Q^* = 100 + 10 \cdot 0.13 = 101.3 \approx 102 \,.$$ <p> If the capacity is less than the optimal protection level, then the entire capacity should be reserved for _expensive_ tickets, i.e. no _cheap_ tickets.}@} <!--SR:!2026-05-17,251,330!2026-05-20,253,330-->
+> - explanation: {@{Critical fractile and its corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {4000 - (2000 - 200)} {(4000 - (2000 - 200)) + (2000 - 200)} = 0.55 \implies z^* \approx 0.13 \,.$$ Optimal protection level: $$Q^* = 100 + 10 \cdot 0.13 = 101.3 \approx 102 \,.$$ <p> If the capacity is less than the optimal protection level, then the entire capacity should be reserved for _expensive_ tickets, i.e. no _cheap_ tickets.}@} <!--SR:!2029-06-27,1137,350!2026-05-20,253,330-->
 
 ---
 
@@ -146,7 +146,7 @@ tags:
 > ---
 >
 > - solution: {@{1. $(p_1^*, p_2^*) \approx (962.45942, 1366.1725)$ \(Yeah, the numbers make no sense... At least they are both positive.\) <br/> 2. $(p_1^*, p_2^*) \approx (1008.50905, 3191.97183)$ \(Same observations as above...\)}@}
-> - explanation: {@{1. For 1: $$\begin{aligned} D_1 & = 1234 - 56p_1 + 78p_2 \\ R_1 & = 1234p_1 - 56p_1^2 + 78p_2 p_1 \\ p_1^* & = \frac {1234 + 78p_2} {112} \\ \\ D_2 & = 98765 - 43p_1 - 21p_2 \\ R_2 & = 98765p_2 - 43p_1 p_2 - 21p_2^2 \\ p_2^* & = \frac {98765 - 43p_1} {42} \\ \\ (p_1^*, p_2^*) & \approx (962.45942, 1366.1725) \,. \end{aligned}$$ <br/> 2. For 2: $$\begin{aligned} R & = 1234p_1 - 56p_1^2 + 78p_2 p_1 + 98765p_2 - 43p_1 p_2 - 21p_2^2 \\ & = 1234p_1 - 56p_1^2 + 35 p_1 p_2 + 98765 p_2 - 21p_2^2 \\ \\ p_1^* & = \frac {1234 + 35p_2} {112} \\ p_2^* & = \frac {98765 + 35p_1} {42} \\ \\ (p_1^*, p_2^*) & \approx (1008.50905, 3191.97183) \,. \end{aligned}$$}@} <!--SR:!2028-07-16,841,330!2026-05-17,251,330-->
+> - explanation: {@{1. For 1: $$\begin{aligned} D_1 & = 1234 - 56p_1 + 78p_2 \\ R_1 & = 1234p_1 - 56p_1^2 + 78p_2 p_1 \\ p_1^* & = \frac {1234 + 78p_2} {112} \\ \\ D_2 & = 98765 - 43p_1 - 21p_2 \\ R_2 & = 98765p_2 - 43p_1 p_2 - 21p_2^2 \\ p_2^* & = \frac {98765 - 43p_1} {42} \\ \\ (p_1^*, p_2^*) & \approx (962.45942, 1366.1725) \,. \end{aligned}$$ <br/> 2. For 2: $$\begin{aligned} R & = 1234p_1 - 56p_1^2 + 78p_2 p_1 + 98765p_2 - 43p_1 p_2 - 21p_2^2 \\ & = 1234p_1 - 56p_1^2 + 35 p_1 p_2 + 98765 p_2 - 21p_2^2 \\ \\ p_1^* & = \frac {1234 + 35p_2} {112} \\ p_2^* & = \frac {98765 + 35p_1} {42} \\ \\ (p_1^*, p_2^*) & \approx (1008.50905, 3191.97183) \,. \end{aligned}$$}@} <!--SR:!2028-07-16,841,330!2029-06-29,1139,350-->
 
 ---
 

@@ -62,7 +62,7 @@ Each instruction is written as {@{`ins op_1, op_2, ..., op_n`, where `ins` is th
 Below, the accompanying code to the right is {@{a piece of pseudo C code showing its semantics}@}. For placeholders: <!--SR:!2026-05-27,337,355-->
 
 - `$s`, `$t`, and `$d` \(in order of instruction encoding\) ::@:: It can be any 32-bit named/numbered register \(5 bits to encode\). <!--SR:!2026-06-11,352,355!2026-06-01,343,355-->
-- `imm` ::@:: It can be any 16-bit constant, which may be unextended, sign-extended, or zero-extended depending on the instruction. <!--SR:!2030-09-22,1590,375!2026-05-17,327,355-->
+- `imm` ::@:: It can be any 16-bit constant, which may be unextended, sign-extended, or zero-extended depending on the instruction. <!--SR:!2030-09-22,1590,375!2030-10-04,1601,375-->
 - `offset` ::@:: It can be any 16-bit signed constant. It can represent a signed 16-bit byte offset, or an address or label representable by a signed 16-bit 4-byte offset \(effectively 18 bits\) from the current instruction. <!--SR:!2029-03-03,1125,355!2026-06-21,362,355-->
 - `target` ::@:: It can be any 26-bit unsigned constant. It can represent an address or label that has its upper 4 bits same as the current instruction \(the lower 28 bits can be different, and the lower 2 bits must be 0\). <!--SR:!2026-05-26,336,355!2026-06-19,360,355-->
 - `PC` ::@:: It is the 32-bit address of the current instruction \(program counter\). <!--SR:!2026-06-07,348,355!2026-06-06,347,350-->

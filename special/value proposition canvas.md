@@ -71,7 +71,7 @@ The concept of customer jobs is based on {@{the jobs to be done theory}@}, which
 
 Customer pains include {@{undesirable things, obstacles, and risks}@}. Make pains {@{concrete}@}. Note that pains {@{can have different severity}@}. <!--SR:!2029-10-15,1480,310!2027-12-17,1025,349!2026-07-26,620,329-->
 
-Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers}@}; {@{desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2029-09-08,1335,269!2027-02-02,794,349!2028-07-01,1206,350!2026-05-17,91,376-->
+Customer gains can be separated into four levels: {@{required, required by customers; expected, expected by customers}@}; {@{desired gains, wanted by customers; and unexpected gains, wanted by customers but customers do not know}@}. Make gains {@{concrete}@}. Like customer pains, note that gains {@{can have different severity}@}. <!--SR:!2029-09-08,1335,269!2027-02-02,794,349!2028-07-01,1206,350!2027-09-04,475,396-->
 
 Since customer jobs, customer pains, and customer gains all can have {@{different priorities or severity, so we can rank them}@}. Ranking them can be based on {@{what you think given that it eventually truly reflects the customers' perspectives}@}.  Pains and gains can exist {@{on a continuum, are not always absolute or binary}@}. For example, {@{waiting time for a food order}@} can be {@{a gain if it is faster than expected and a pain if it is slower than expected}@}. Pains and gains are also not {@{opposite}@}, like {@{coffee temperature being too low or too high are both pains}@}. <!--SR:!2026-06-17,592,310!2027-02-15,804,349!2030-10-03,1861,385!2028-11-13,926,365!2028-09-27,1238,365!2026-10-04,678,344!2026-11-30,330,368-->
 
@@ -111,7 +111,7 @@ vagueness: vague jobs, pains, and gains
 
 - _(begin)_→::@::←hyperfocus: focusing on functional jobs only <!--SR:!2026-12-25,482,229!2029-02-09,1389,369-->
 - hyperfocus: focusing on functional jobs only→::@::←insufficiency: not enough jobs, pains, and gains <!--SR:!2028-05-02,1004,269!2029-06-09,1180,269-->
-- insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments <!--SR:!2026-05-17,348,189!2027-06-12,397,170-->
+- insufficiency: not enough jobs, pains, and gains→::@::←mix: mixing customer segments <!--SR:!2028-12-23,951,209!2027-06-12,397,170-->
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2029-03-08,1297,309!2027-06-01,683,269-->
 - mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation <!--SR:!2027-08-23,710,245!2028-02-07,979,305-->
 - opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2031-02-22,1757,289!2028-12-22,965,229-->

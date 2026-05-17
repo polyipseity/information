@@ -181,7 +181,7 @@ The content is in teaching order.
     - [§ extension methods](Scala%203.md#extension%20methods): extension methods
 - rewriting
   - rewriting / substitution model
-    - rewriting / substitution model / class ::@:: Assume _no side effects_. For the Scala 3 expression `c.f(y_1, ..., y_m)` where `r` is the name used by the extension definition, it is rewritten to: $$[c/r] [y_1/f_1, \ldots, y_m/f_m] E \,.$$ That is, we replace function arguments, and then replace the name `r` used by the extension definition. \(__this course__: Use this model. And we do the above 2 substitutions simultaneously.\) <!--SR:!2026-05-17,175,347!2027-05-21,475,387-->
+    - rewriting / substitution model / class ::@:: Assume _no side effects_. For the Scala 3 expression `c.f(y_1, ..., y_m)` where `r` is the name used by the extension definition, it is rewritten to: $$[c/r] [y_1/f_1, \ldots, y_m/f_m] E \,.$$ That is, we replace function arguments, and then replace the name `r` used by the extension definition. \(__this course__: Use this model. And we do the above 2 substitutions simultaneously.\) <!--SR:!2028-01-10,603,347!2027-05-21,475,387-->
 - Scala
   - Scala / Scala 3
     - [§ syntax](Scala%203.md#syntax): syntax

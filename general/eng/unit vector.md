@@ -15,7 +15,7 @@ In {@{[mathematics](mathematics.md)}@}, {@{a __unit vector__}@} in {@{a [normed 
 
 {@{The __normalized vector û__ of a non-zero vector __u__}@} is {@{the unit vector in the direction of __u__}@}, i.e., {@{$$\mathbf {\hat {u} } ={\frac {\mathbf {u} }{\|\mathbf {u} \|} }=({\frac {u_{1} }{\|\mathbf {u} \|} },{\frac {u_{2} }{\|\mathbf {u} \|} },...,{\frac {u_{n} }{\|\mathbf {u} \|} })$$}@} where {@{‖<!-- markdown separator -->__u__<!-- markdown separator -->‖ is the [norm](norm%20(mathematics).md) \(or length\) of __u__ and $\mathbf {u} =(u_{1},u_{2},...,u_{n})$}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup> <!--SR:!2030-05-05,1493,359!2029-11-12,1345,350!2030-05-22,1508,359!2029-12-30,1390,359-->
 
-{@{The proof \(annotation: that a normalized nonzero vector has unit length\)}@} is the following: {@{$$\|\mathbf {\hat {u} } \|={\sqrt { {\frac {u_{1} }{\sqrt {u_{1}^{2}+...+u_{n}^{2} } } }^{2}+...+{\frac {u_{n} }{\sqrt {u_{1}^{2}+...+u_{n}^{2} } } }^{2} } }={\sqrt {\frac {u_{1}^{2}+...+u_{n}^{2} }{u_{1}^{2}+...+u_{n}^{2} } } }={\sqrt {1} }=1$$}@} <!--SR:!2030-03-09,1446,359!2026-05-17,26,385-->
+{@{The proof \(annotation: that a normalized nonzero vector has unit length\)}@} is the following: {@{$$\|\mathbf {\hat {u} } \|={\sqrt { {\frac {u_{1} }{\sqrt {u_{1}^{2}+...+u_{n}^{2} } } }^{2}+...+{\frac {u_{n} }{\sqrt {u_{1}^{2}+...+u_{n}^{2} } } }^{2} } }={\sqrt {\frac {u_{1}^{2}+...+u_{n}^{2} }{u_{1}^{2}+...+u_{n}^{2} } } }={\sqrt {1} }=1$$}@} <!--SR:!2030-03-09,1446,359!2026-10-04,140,405-->
 
 A unit vector is often {@{used to represent [directions](direction%20(geometry).md)}@}, such as {@{[normal directions](normal%20direction.md)}@}. Unit vectors are often {@{chosen to form the [basis](basis%20(linear%20algebra).md) of a vector space}@}, and {@{every vector in the space may be written as a [linear combination](linear%20combination.md) form of unit vectors}@}. <!--SR:!2030-05-03,1491,359!2030-01-30,1414,359!2030-04-30,1490,359!2030-04-08,1472,359-->
 
@@ -92,15 +92,15 @@ Common themes of unit vectors occur {@{throughout [physics](physics.md) and [geo
 > - Normal to a surface tangent plane/plane containing radial position component and angular tangential component
 >   - Normal to a surface tangent plane/plane containing radial position component and angular tangential component / Nomenclature ::@:: $\mathbf {\hat {n} }$ <p> In terms of [polar coordinates](spherical%20coordinate%20system.md); <br/> $\mathbf {\hat {n} } =\mathbf {\hat {r} } \times {\boldsymbol {\hat {\theta } } }$ <!--SR:!2026-09-26,133,405!2026-09-21,129,405-->
 > - Binormal vector to tangent and normal
->   - Binormal vector to tangent and normal / Nomenclature ::@:: $\mathbf {\hat {b} } =\mathbf {\hat {t} } \times \mathbf {\hat {n} }$<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-05-17,26,385!2026-09-27,134,405-->
+>   - Binormal vector to tangent and normal / Nomenclature ::@:: $\mathbf {\hat {b} } =\mathbf {\hat {t} } \times \mathbf {\hat {n} }$<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-10-04,140,405!2026-09-27,134,405-->
 > - Parallel to some axis/line
->   - Parallel to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\parallel }$ <!--SR:!2026-05-17,26,385!2026-05-17,26,385-->
+>   - Parallel to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\parallel }$ <!--SR:!2026-10-04,140,405!2026-10-02,138,405-->
 >   - Parallel to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Perpendicular%20and%20parallel%20unit%20vectors.svg) <p> One unit vector $\mathbf {\hat {e} } _{\parallel }$ aligned parallel to a principal direction \(red line\), and a perpendicular unit vector $\mathbf {\hat {e} } _{\bot }$ is in any radial direction relative to the principal line. <!--SR:!2026-09-28,135,405!2026-09-18,126,405-->
 > - Perpendicular to some axis/line in some radial direction
->   - Perpendicular to some axis/line in some radial direction / Nomenclature ::@:: $\mathbf {\hat {e} } _{\bot }$ <!--SR:!2026-05-17,26,385!2026-09-17,125,405-->
+>   - Perpendicular to some axis/line in some radial direction / Nomenclature ::@:: $\mathbf {\hat {e} } _{\bot }$ <!--SR:!2026-10-04,140,405!2026-09-17,125,405-->
 > - Possible angular deviation relative to some axis/line
 >   - Possible angular deviation relative to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\angle }$ <!--SR:!2026-09-21,129,405!2026-09-22,129,405-->
->   - Possible angular deviation relative to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Angular%20unit%20vector.svg) <p> Unit vector at acute deviation angle _φ_ \(including 0 or _π_/2 rad\) relative to a principal direction. <!--SR:!2026-05-17,26,385!2026-09-21,129,405-->
+>   - Possible angular deviation relative to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Angular%20unit%20vector.svg) <p> Unit vector at acute deviation angle _φ_ \(including 0 or _π_/2 rad\) relative to a principal direction. <!--SR:!2026-10-01,137,405!2026-09-21,129,405-->
 
 ## curvilinear coordinates
 

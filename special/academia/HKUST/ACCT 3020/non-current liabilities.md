@@ -254,7 +254,7 @@ Representative journal entry examples:
 > | {@{Bonds payable}@}                                            | {@{248}@}   |             |
 > | {@{Interest payable}@}                                         |             | {@{1 333}@} |
 >
-> _Explanation._ Interest payable equals {@{4 000 × 2/6 = 1 333}@}, premium amortized equals {@{744 × 2/6 = 248}@}, and interest expense equals {@{1 333 − 248 = 1 085}@}. For a discount bond, credit Bonds payable (prorated discount amortization) instead of debiting. <!--SR:!2026-05-20,18,336!2026-05-20,18,336!2026-05-20,18,327!2026-05-17,15,290!2026-05-18,16,290!2026-05-20,18,336!2026-05-20,18,319!2026-05-18,16,290!2026-05-20,18,327!2026-05-20,18,327!2026-05-20,18,327!2026-05-20,18,322!2026-05-20,18,336!2026-05-21,19,344!2026-05-21,19,344!2026-05-21,19,344-->
+> _Explanation._ Interest payable equals {@{4 000 × 2/6 = 1 333}@}, premium amortized equals {@{744 × 2/6 = 248}@}, and interest expense equals {@{1 333 − 248 = 1 085}@}. For a discount bond, credit Bonds payable (prorated discount amortization) instead of debiting. <!--SR:!2026-05-20,18,336!2026-05-20,18,336!2026-05-20,18,327!2026-07-17,61,310!2026-05-18,16,290!2026-05-20,18,336!2026-05-20,18,319!2026-05-18,16,290!2026-05-20,18,327!2026-05-20,18,327!2026-05-20,18,327!2026-05-20,18,322!2026-05-20,18,336!2026-05-21,19,344!2026-05-21,19,344!2026-05-21,19,344-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Irregular day-count accrual instead of a neat month fraction._ Suppose the same semi-annual premium bond has a coupon period containing {@{184 days in total}@}, and year-end falls after {@{107 of those 184 days}@}. Full-period coupon is still {@{4 000}@} and full-period premium amortization is still {@{744}@}, but the accrual must now use the actual day fraction rather than a clean month count.
@@ -355,8 +355,8 @@ Representative journal entry example for an interest-bearing long-term note at d
 
 Flashcards for this section are as follows:
 
-- notes payable vs bonds (accounting) ::@:: Both are measured at present value and use the effective interest method to recognize interest expense and amortize discount/premium. <!--SR:!2026-05-20,18,336!2026-05-17,15,290-->
-- notes payable vs bonds (practical difference) ::@:: Bonds are widely traded instruments with many investors; long-term notes payable are usually private, non-tradable agreements with a single lender. <!--SR:!2026-05-20,18,336!2026-05-17,15,290-->
+- notes payable vs bonds (accounting) ::@:: Both are measured at present value and use the effective interest method to recognize interest expense and amortize discount/premium. <!--SR:!2026-05-20,18,336!2026-07-14,58,310-->
+- notes payable vs bonds (practical difference) ::@:: Bonds are widely traded instruments with many investors; long-term notes payable are usually private, non-tradable agreements with a single lender. <!--SR:!2026-05-20,18,336!2026-07-16,60,310-->
 - interest-bearing note at discount: issuance entry (net)? ::@:: Dr _Cash_ (present value), Cr _Notes payable_ (present value). <!--SR:!2026-05-20,18,336!2026-05-20,18,327-->
 - interest-bearing note at discount: first-year interest entry? ::@:: Dr _Interest expense_ (carrying × market), Cr _Cash_ (face × stated), Cr _Notes payable_ (discount amortized). <!--SR:!2026-07-13,58,310!2026-05-18,16,290-->
 
@@ -405,7 +405,7 @@ Representative journal entry examples:
 > | {@{Land}@}                                            | {@{200 000}@} |               |
 > | {@{Notes payable}@}                                   |               | {@{200 000}@} |
 >
-> _Explanation._ Land is recorded at {@{fair value (its cash selling price) and the note payable is recorded at the same present value}@}; the difference between {@{220 000 face and 200 000 present value is a discount that will be amortized over the note's life}@}. <!--SR:!2026-05-20,18,336!2026-05-18,16,290!2026-05-17,15,290!2026-05-20,18,327!2026-05-19,17,307!2026-05-20,18,336!2026-05-20,18,336!2026-05-20,18,327!2026-05-20,18,336-->
+> _Explanation._ Land is recorded at {@{fair value (its cash selling price) and the note payable is recorded at the same present value}@}; the difference between {@{220 000 face and 200 000 present value is a discount that will be amortized over the note's life}@}. <!--SR:!2026-05-20,18,336!2026-05-18,16,290!2026-07-17,61,310!2026-05-20,18,327!2026-05-19,17,307!2026-05-20,18,336!2026-05-20,18,336!2026-05-20,18,327!2026-05-20,18,336-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario._ Summit Design Build Ltd. receives architectural services in exchange for a {@{5-year note with face 200 000}@} and no stated interest. No market price is available for the services, but an appropriate discount rate (after considering prime rate, covenants, collateral, and term) is {@{8%}@}. Present value of the note (discounted at 8%) is {@{136 000}@} (rounded).
@@ -472,7 +472,7 @@ Extinguishment of long-term debt occurs when the obligation is settled before or
 > | {@{Share capital — ordinary (par 5)}@}                        |                  | {@{10 000 000}@} |
 > | {@{Share premium — ordinary}@}                                |                  | {@{6 000 000}@}  |
 >
-> _Explanation._ Shares are measured at fair value {@{16 000 000 (2 000 000 × 8)}@}; equity increases by that amount (par {@{10 000 000}@}, premium {@{6 000 000}@}). The liability's carrying amount exceeds consideration, so the debtor recognises a gain on extinguishment of {@{20 000 000 − 16 000 000 = 4 000 000}@}. <!--SR:!2026-05-20,18,322!2026-05-20,18,336!2026-05-20,18,336!2026-05-17,15,290!2026-05-20,18,322!2026-05-19,17,307!2026-05-19,17,307!2026-05-20,18,336!2026-05-20,18,327!2026-05-20,18,327!2026-05-20,18,336!2026-05-20,18,336!2026-05-20,18,336-->
+> _Explanation._ Shares are measured at fair value {@{16 000 000 (2 000 000 × 8)}@}; equity increases by that amount (par {@{10 000 000}@}, premium {@{6 000 000}@}). The liability's carrying amount exceeds consideration, so the debtor recognises a gain on extinguishment of {@{20 000 000 − 16 000 000 = 4 000 000}@}. <!--SR:!2026-05-20,18,322!2026-05-20,18,336!2026-05-20,18,336!2026-07-16,60,310!2026-05-20,18,322!2026-05-19,17,307!2026-05-19,17,307!2026-05-20,18,336!2026-05-20,18,327!2026-05-20,18,327!2026-05-20,18,336!2026-05-20,18,336!2026-05-20,18,336-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Scenario (below-par debt-for-equity)._ Orion Marine plc has a note payable with carrying amount {@{20 000 000}@}. The lender agrees to accept {@{2 000 000 ordinary shares with par 5}@} in full settlement. On the issue date, the shares trade at {@{4}@} per share, so fair value of shares issued is {@{8 000 000}@}, which is {@{below total par 10 000 000}@}.
@@ -539,7 +539,7 @@ Representative journal entry example:
 > | {@{Gain on extinguishment of debt}@}                  |                  | {@{3 298 664}@} |
 > | {@{Notes payable (new)}@}                             |                  | {@{7 201 336}@} |
 >
-> _Explanation._ The gain on extinguishment equals {@{old carrying amount 10 500 000 − fair value of new note 7 201 336 = 3 298 664}@}. After this entry, the new note {@{with initial carrying amount 7 201 336 is amortized using the new effective interest rate (15%), with interest expense recognised at 15%}@} and the difference between {@{interest expense and cash interest treated as discount amortization each period}@}. <!--SR:!2026-05-19,17,307!2026-05-20,18,322!2026-05-17,15,290!2026-06-25,40,290!2026-05-20,18,327!2026-05-17,15,290!2026-05-20,18,322!2026-05-20,18,336!2026-05-20,18,322!2026-05-20,18,327!2026-05-20,18,327!2026-05-19,17,307-->
+> _Explanation._ The gain on extinguishment equals {@{old carrying amount 10 500 000 − fair value of new note 7 201 336 = 3 298 664}@}. After this entry, the new note {@{with initial carrying amount 7 201 336 is amortized using the new effective interest rate (15%), with interest expense recognised at 15%}@} and the difference between {@{interest expense and cash interest treated as discount amortization each period}@}. <!--SR:!2026-05-19,17,307!2026-05-20,18,322!2026-07-15,59,310!2026-06-25,40,290!2026-05-20,18,327!2026-07-14,58,310!2026-05-20,18,322!2026-05-20,18,336!2026-05-20,18,322!2026-05-20,18,327!2026-05-20,18,327!2026-05-19,17,307-->
 
 ---
 

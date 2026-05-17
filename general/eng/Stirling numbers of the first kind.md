@@ -109,7 +109,7 @@ Therefore if {@{$p$ is prime}@}, then: {@{$$p\ |\left[{p \atop k}\right] \text{ 
 
 ### expansions for fixed _k_
 
-Since {@{the Stirling numbers are the coefficients of a polynomial with roots 0, 1, ..., _n_ − 1}@}, one has by {@{[Vieta's formulas](Vieta's%20formulas.md)}@} that {@{$$\left[{\begin{matrix}n\\n-k\end{matrix} }\right]=\sum _{0\leq i_{1}<\ldots <i_{k}<n}i_{1}i_{2}\cdots i_{k}.$$}@} <!--SR:!2029-11-18,1441,350!2030-01-29,1427,310!2026-05-17,347,250-->
+Since {@{the Stirling numbers are the coefficients of a polynomial with roots 0, 1, ..., _n_ − 1}@}, one has by {@{[Vieta's formulas](Vieta's%20formulas.md)}@} that {@{$$\left[{\begin{matrix}n\\n-k\end{matrix} }\right]=\sum _{0\leq i_{1}<\ldots <i_{k}<n}i_{1}i_{2}\cdots i_{k}.$$}@} <!--SR:!2029-11-18,1441,350!2030-01-29,1427,310!2028-10-03,870,250-->
 
 In other words, {@{the Stirling numbers of the first kind}@} are {@{given by [elementary symmetric polynomials](elementary%20symmetric%20polynomial.md) evaluated at 0, 1, ..., _n_ − 1}@}.<sup>[\[5\]](#^ref-5)</sup> In this form, the simple identities given above take the form {@{$$\begin{aligned} \left[{\begin{matrix}n\\n-1\end{matrix} }\right]& =\sum _{i=0}^{n-1}i={\binom {n}{2} }, \\ \left[{\begin{matrix}n\\n-2\end{matrix} }\right]& =\sum _{i=0}^{n-1}\sum _{j=0}^{i-1}ij={\frac {3n-1}{4} }{\binom {n}{3} }, \\ \left[{\begin{matrix}n\\n-3\end{matrix} }\right] & =\sum _{i=0}^{n-1}\sum _{j=0}^{i-1}\sum _{k=0}^{j-1}ijk={\binom {n}{2} }{\binom {n}{4} }, \end{aligned}$$ and so on}@}. <!--SR:!2029-09-01,1379,350!2028-02-20,912,330!2028-05-26,757,250-->
 

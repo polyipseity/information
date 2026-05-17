@@ -37,7 +37,7 @@ tags:
 
 # simply connected space
 
-In {@{[topology](topology.md)}@}, {@{a [topological space](topological%20space.md) is called __simply connected__ \(or __1-connected__, or __1-simply connected__<sup>[\[1\]](#^ref-1)</sup>\)}@} if it is {@{[path-connected](path-connected.md#path%20connectedness) \(annotation: 0-connected\)}@} and {@{every [path](path%20(topology).md) between two points can be continuously transformed into any other such path while preserving the two endpoints in question}@}. Intuitively, this corresponds to {@{a space that has no disjoint parts and no holes that go completely through it}@}, because {@{two paths going around different sides of such a hole cannot be continuously transformed into each other}@}. {@{The [fundamental group](fundamental%20group.md) of a topological space}@} is {@{an indicator of the failure for the space to be simply connected}@}: {@{a path-connected topological space is simply connected}@} if and only if {@{its fundamental group is trivial}@}. <!--SR:!2026-06-18,274,330!2029-05-31,1115,350!2026-05-17,249,330!2026-07-08,290,330!2026-06-11,268,330!2026-06-08,266,330!2029-04-07,1072,350!2026-07-01,284,330!2026-06-30,283,330!2026-06-21,276,330-->
+In {@{[topology](topology.md)}@}, {@{a [topological space](topological%20space.md) is called __simply connected__ \(or __1-connected__, or __1-simply connected__<sup>[\[1\]](#^ref-1)</sup>\)}@} if it is {@{[path-connected](path-connected.md#path%20connectedness) \(annotation: 0-connected\)}@} and {@{every [path](path%20(topology).md) between two points can be continuously transformed into any other such path while preserving the two endpoints in question}@}. Intuitively, this corresponds to {@{a space that has no disjoint parts and no holes that go completely through it}@}, because {@{two paths going around different sides of such a hole cannot be continuously transformed into each other}@}. {@{The [fundamental group](fundamental%20group.md) of a topological space}@} is {@{an indicator of the failure for the space to be simply connected}@}: {@{a path-connected topological space is simply connected}@} if and only if {@{its fundamental group is trivial}@}. <!--SR:!2026-06-18,274,330!2029-05-31,1115,350!2029-06-24,1134,350!2026-07-08,290,330!2026-06-11,268,330!2026-06-08,266,330!2029-04-07,1072,350!2026-07-01,284,330!2026-06-30,283,330!2026-06-21,276,330-->
 
 ## definition and equivalent formulations
 
@@ -82,7 +82,7 @@ The definition rules out {@{only [handle](handle%20decomposition.md)-shaped hole
 
 {@{A surface \(two-dimensional topological [manifold](manifold.md)\) is simply connected}@} if and only if {@{it is connected}@} and {@{its [genus](genus%20(mathematics).md) \(the number of handles of the surface\) is 0}@}. <!--SR:!2026-05-19,251,330!2026-07-01,284,330!2026-05-21,252,330-->
 
-{@{A universal cover of any \(suitable\) space $X$}@} is {@{a simply connected space which maps to $X$ via a [covering map](covering%20map.md)}@}. <!--SR:!2026-05-17,249,330!2029-03-06,1042,350-->
+{@{A universal cover of any \(suitable\) space $X$}@} is {@{a simply connected space which maps to $X$ via a [covering map](covering%20map.md)}@}. <!--SR:!2029-06-25,1135,350!2029-03-06,1042,350-->
 
 If {@{$X$ and $Y$ are [homotopy equivalent](homotopy%20equivalent.md#homotopy%20equivalence)}@} and {@{$X$ is simply connected, then so is $Y$}@}. <!--SR:!2026-06-21,276,330!2026-05-21,252,330-->
 

@@ -30,7 +30,7 @@ Flashcards for this section are as follows:
 - four training questions ::@:: The lecture organizes deep-learning training around four linked questions: regularization, optimizer design, learning-rate scheduling, and normalization of hidden activations. <!--SR:!2026-05-21,18,332!2026-05-20,17,316-->
 - why deep training is harder than fitting a shallow model ::@:: Deep models are harder to train because large parameter counts, anisotropic loss geometry, stochastic gradients, and drifting hidden-layer statistics all interact. <!--SR:!2026-05-20,17,316!2026-05-21,18,332-->
 - coordinated-design viewpoint ::@:: Training deep networks well requires a coordinated design of objective, update rule, learning-rate schedule, and normalization layers rather than one isolated trick. <!--SR:!2026-05-21,18,332!2026-05-20,17,316-->
-- why L2, weight decay, Adam, and batch normalization must be separated carefully ::@:: These techniques affect different parts of the training pipeline — loss, update rule, adaptive scaling, or hidden-layer statistics — so conflating them hides important practical differences. <!--SR:!2026-05-20,17,316!2026-05-17,14,290-->
+- why L2, weight decay, Adam, and batch normalization must be separated carefully ::@:: These techniques affect different parts of the training pipeline — loss, update rule, adaptive scaling, or hidden-layer statistics — so conflating them hides important practical differences. <!--SR:!2026-05-20,17,316!2026-07-10,54,310-->
 
 ## weight decay, bagging intuition, and dropout
 
@@ -340,7 +340,7 @@ The lecture associates batch normalization with three practical benefits: faster
 
 Flashcards for this section are as follows:
 
-- batch normalization purpose ::@:: Batch normalization stabilizes and accelerates training by controlling the scale and distribution of intermediate activations. <!--SR:!2026-05-20,17,316!2026-05-17,14,290-->
+- batch normalization purpose ::@:: Batch normalization stabilizes and accelerates training by controlling the scale and distribution of intermediate activations. <!--SR:!2026-05-20,17,316!2026-07-11,55,310-->
 - how batch normalization works at a high level ::@:: It normalizes activations using minibatch statistics and then applies a learnable affine transformation so the network retains representational flexibility. <!--SR:!2026-05-20,17,316!2026-05-21,18,332-->
 - why batch normalization is not just preprocessing ::@:: Unlike fixed input preprocessing, batch normalization acts inside the network during training and still leaves learnable scaling and shifting parameters. <!--SR:!2026-05-20,17,316!2026-05-20,17,316-->
 - three practical benefits of batch normalization ::@:: Batch normalization can accelerate training, reduce initialization sensitivity, and add a regularizing effect because it improves conditioning while minibatch statistics inject mild noise. <!--SR:!2026-05-20,17,316!2026-05-20,17,316-->
@@ -358,7 +358,7 @@ Batch normalization is the deep-learning analogue of extending that idea inward.
 
 Flashcards for this section are as follows:
 
-- why feature-scale mismatch hurts training ::@:: Features on very different numeric scales create elongated loss contours and poorly balanced gradients, which slows optimization. <!--SR:!2026-05-17,14,290!2026-05-20,17,316-->
+- why feature-scale mismatch hurts training ::@:: Features on very different numeric scales create elongated loss contours and poorly balanced gradients, which slows optimization. <!--SR:!2026-07-12,56,310!2026-05-20,17,316-->
 - why normalization helps before deep modeling ::@:: Standardizing raw features makes the optimization geometry more balanced before the data enters the network, reducing avoidable anisotropy. <!--SR:!2026-05-20,17,316!2026-05-20,17,316-->
 - raw-input version of the feature-scale problem ::@:: Data normalization addresses at the input layer the same basic geometry problem that uneven feature scales cause for optimization and regularization more generally. <!--SR:!2026-05-20,17,299!2026-05-20,17,316-->
 - valley-geometry intuition for scale mismatch ::@:: Feature-scale mismatch stretches the loss into a long narrow valley, so one global learning rate must be small enough for the steep direction and therefore becomes slow in the shallow direction. <!--SR:!2026-05-20,17,316!2026-05-20,17,316-->

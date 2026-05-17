@@ -126,11 +126,11 @@ The **L293** is an integrated circuit that contains two complete H-bridges, so o
 
 Flashcards for this section are as follows:
 
-- schematic: L293 pinout <p> ![L293 pinout](attachments/l293_block.svg) ::@:: L293 dual H-bridge: 16-pin DIP; pin 8 = VS (motor supply), pin 16 = VCC (logic); EN_12, IN_1, OUT_1, OUT_2, IN_2 for bridge 1; EN_34, IN_3, OUT_3, OUT_4, IN_4 for bridge 2. <!--SR:!2026-05-17,19,349!2026-05-17,19,349-->
-- L293 function: What is the L293 used for? ::@:: Dual H-bridge IC: it contains two complete H-bridges so one chip can drive two DC motors (e.g. left and right robot wheels). <!--SR:!2026-05-17,19,349!2026-05-17,19,349-->
-- L293 enable and inputs: What do EN and IN_1, IN_2 do per motor? ::@:: IN_1 and IN_2 determine direction by choosing which way current is driven through that motor. EN separately enables or disables that H-bridge half. In practical control, EN can be tied HIGH for always-on operation or driven by PWM for speed control while IN_1 and IN_2 keep the chosen direction. <!--SR:!2026-05-17,19,349!2026-05-17,19,349-->
-- L293 outputs: What do OUT_1 and OUT_2 connect to? ::@:: The two outputs of each H-bridge connect to the two terminals of that motor. <!--SR:!2026-05-17,19,349!2026-05-17,19,349-->
-- L293 PWM on EN: Why is the EN pin a convenient place to apply PWM? ::@:: Because EN turns that H-bridge on and off without changing the direction logic on IN_1 and IN_2. So PWM at EN changes the average motor voltage and speed, while the IN pins continue to define forward or reverse. <!--SR:!2026-05-17,19,349!2026-05-17,19,349-->
+- schematic: L293 pinout <p> ![L293 pinout](attachments/l293_block.svg) ::@:: L293 dual H-bridge: 16-pin DIP; pin 8 = VS (motor supply), pin 16 = VCC (logic); EN_12, IN_1, OUT_1, OUT_2, IN_2 for bridge 1; EN_34, IN_3, OUT_3, OUT_4, IN_4 for bridge 2. <!--SR:!2026-08-19,94,369!2026-07-24,68,349-->
+- L293 function: What is the L293 used for? ::@:: Dual H-bridge IC: it contains two complete H-bridges so one chip can drive two DC motors (e.g. left and right robot wheels). <!--SR:!2026-08-18,93,369!2026-08-17,92,369-->
+- L293 enable and inputs: What do EN and IN_1, IN_2 do per motor? ::@:: IN_1 and IN_2 determine direction by choosing which way current is driven through that motor. EN separately enables or disables that H-bridge half. In practical control, EN can be tied HIGH for always-on operation or driven by PWM for speed control while IN_1 and IN_2 keep the chosen direction. <!--SR:!2026-08-19,94,369!2026-08-18,93,369-->
+- L293 outputs: What do OUT_1 and OUT_2 connect to? ::@:: The two outputs of each H-bridge connect to the two terminals of that motor. <!--SR:!2026-08-18,93,369!2026-08-18,93,369-->
+- L293 PWM on EN: Why is the EN pin a convenient place to apply PWM? ::@:: Because EN turns that H-bridge on and off without changing the direction logic on IN_1 and IN_2. So PWM at EN changes the average motor voltage and speed, while the IN pins continue to define forward or reverse. <!--SR:!2026-08-17,92,369!2026-08-19,94,369-->
 
 ### supplies and bypass
 
@@ -140,9 +140,9 @@ The L293 needs two supply voltages: **VS** (pin 8) for the motor supply (e.g. $1
 
 Flashcards for this section are as follows:
 
-- L293 two supplies: What are VS and VCC on the L293? (pin 8, pin 16; $12\text{ V}$, $5\text{ V}$) ::@:: VS (pin 8) is the motor supply, e.g. $12\text{ V}$, and feeds the motor-driving stage only. VCC (pin 16) is the logic supply, e.g. $5\text{ V}$, and powers the input/control side of the IC. The $12\text{ V}$ motor rail is for motor power, while the other pins and control logic stay in the $5\text{ V}$ domain. <!--SR:!2026-05-17,19,349!2026-05-17,19,349-->
-- L293 bypass capacitors: Why use capacitors (e.g. $0.1\,\mu\text{F}$) near the L293? ::@:: For stable operation; they help filter supply noise and provide local charge when the motors draw current. <!--SR:!2026-05-17,19,349!2026-05-17,19,349-->
-- L293 common ground: Why must the $12\text{ V}$ motor supply and the $5\text{ V}$ logic supply still share ground? ::@:: Because the L293 input logic and the 74HC14 output levels are interpreted relative to ground. A common ground gives one shared voltage reference, so $0\text{ V}$ and $5\text{ V}$ logic levels are meaningful to the motor driver. <!--SR:!2026-05-17,19,349!2026-05-17,19,349-->
+- L293 two supplies: What are VS and VCC on the L293? (pin 8, pin 16; $12\text{ V}$, $5\text{ V}$) ::@:: VS (pin 8) is the motor supply, e.g. $12\text{ V}$, and feeds the motor-driving stage only. VCC (pin 16) is the logic supply, e.g. $5\text{ V}$, and powers the input/control side of the IC. The $12\text{ V}$ motor rail is for motor power, while the other pins and control logic stay in the $5\text{ V}$ domain. <!--SR:!2026-08-18,93,369!2026-08-17,92,369-->
+- L293 bypass capacitors: Why use capacitors (e.g. $0.1\,\mu\text{F}$) near the L293? ::@:: For stable operation; they help filter supply noise and provide local charge when the motors draw current. <!--SR:!2026-08-19,94,369!2026-08-17,92,369-->
+- L293 common ground: Why must the $12\text{ V}$ motor supply and the $5\text{ V}$ logic supply still share ground? ::@:: Because the L293 input logic and the 74HC14 output levels are interpreted relative to ground. A common ground gives one shared voltage reference, so $0\text{ V}$ and $5\text{ V}$ logic levels are meaningful to the motor driver. <!--SR:!2026-08-19,94,369!2026-08-17,92,369-->
 
 ## connecting L293, 74HC14, and LM7805
 
@@ -155,7 +155,7 @@ In the course project the $12\text{ V}$ motor supply and regulated $5\text{ V}$ 
 Flashcards for this section are as follows:
 
 - where 12V and 5V come from in the project: In the robot car circuit, where do $12\text{ V}$ and $5\text{ V}$ come from? ::@:: The unregulated battery rail provides the motor supply and also feeds the LM7805 input. The LM7805 then generates the regulated $5\text{ V}$ rail for the 74HC14 and the L293 logic supply VCC. <!--SR:!2026-05-29,55,310!2026-06-07,63,310--> So $12\text{ V}$ is kept on the motor-power side, while $5\text{ V}$ is used for the logic/control side.
-- how many 74HC14 inverters for two motors: How many inverters are needed for left and right motor DIR, and how many 74HC14 ICs? ::@:: Two inverters (one per motor); one 74HC14 package has six inverters, so one physical IC is enough. <!--SR:!2026-05-17,43,290!2026-06-12,67,310-->
+- how many 74HC14 inverters for two motors: How many inverters are needed for left and right motor DIR, and how many 74HC14 ICs? ::@:: Two inverters (one per motor); one 74HC14 package has six inverters, so one physical IC is enough. <!--SR:!2026-11-03,170,310!2026-06-12,67,310-->
 
 ### wiring DIR and inverters
 
@@ -179,7 +179,7 @@ Flashcards for this section are as follows:
 
 - breadboard $12\text{ V}$ vs $5\text{ V}$: Why label the two rails on the breadboard? ::@:: To avoid connecting logic pins to the motor supply or vice versa; wrong connections can damage the ICs. <!--SR:!2026-06-07,63,310!2026-06-07,63,310-->
 - 74HC14 power on breadboard: What must be connected to the 74HC14 for it to work? (VCC, GND, $5\text{ V}$ in course) ::@:: Connect VCC to the regulated $+5\text{ V}$ logic rail and connect GND to the common ground used by that $5\text{ V}$ supply. GND must go to the ground reference, not to $+5\text{ V}$. Without both connections the inverter outputs are undefined. <!--SR:!2026-06-11,66,310!2026-05-29,55,310-->
-- keeping H-bridge circuits across labs: Why does the lab ask you to keep the LM7805, L293 and 74HC14 circuits on the same breadboard for future labs? ::@:: Reusing the existing LM7805, L293 and 74HC14 layout avoids repeated rewiring, reduces mistakes, and ensures a stable, known‑good motor‑driver circuit for later labs. <!--SR:!2026-06-12,67,310!2026-05-17,43,290-->
+- keeping H-bridge circuits across labs: Why does the lab ask you to keep the LM7805, L293 and 74HC14 circuits on the same breadboard for future labs? ::@:: Reusing the existing LM7805, L293 and 74HC14 layout avoids repeated rewiring, reduces mistakes, and ensures a stable, known‑good motor‑driver circuit for later labs. <!--SR:!2026-06-12,67,310!2026-11-08,175,310-->
 
 ### pin counts and placement
 

@@ -51,7 +51,7 @@ The _arithmetic mean_ is {@{the 1st \(non-centralized and unnormalized\) moment}
 
 The \(biased\) _variance_ is {@{the 2nd \(centralized and unnormalized\) moment}@}, and defined as: {@{$$\text{variance} = \frac 1 N \sum_{n = 0}^{N - 1} (x[n] - \text{mean})^2 \,,$$}@} where {@{$x[n]$ is an arbitrary sequence \(could be time-domain, spectral, etc.\)}@}. <!--SR:!2026-05-18,247,330!2029-05-25,1107,350!2028-08-20,851,330-->
 
-The _skewness_ is {@{the 3rd \(centralized and normalized\) moment}@}, and defined as: {@{$$\text{skewness} = \frac {\frac 1 N \sum_{n = 0}^{N - 1} (x[n] - \text{mean})^3} {\left(\frac 1 {N - 1} \sum_{n = 0}^{N - 1} (x[n] - \text{mean})^2\right)^{3 / 2} } \,,$$}@} where {@{$x[n]$ is an arbitrary sequence \(could be time-domain, spectral, etc.\)}@}. You should see the denominator is {@{the normalization factor}@} and is {@{the variance but with $1 / N$ \(biased\) replaced with $1 / (N - 1)$ \(unbiased\), and then a power of $3 / 2$ is applied}@}. <!--SR:!2029-03-16,1048,350!2026-07-03,285,330!2026-07-14,294,330!2029-05-26,1108,350!2026-05-17,246,330-->
+The _skewness_ is {@{the 3rd \(centralized and normalized\) moment}@}, and defined as: {@{$$\text{skewness} = \frac {\frac 1 N \sum_{n = 0}^{N - 1} (x[n] - \text{mean})^3} {\left(\frac 1 {N - 1} \sum_{n = 0}^{N - 1} (x[n] - \text{mean})^2\right)^{3 / 2} } \,,$$}@} where {@{$x[n]$ is an arbitrary sequence \(could be time-domain, spectral, etc.\)}@}. You should see the denominator is {@{the normalization factor}@} and is {@{the variance but with $1 / N$ \(biased\) replaced with $1 / (N - 1)$ \(unbiased\), and then a power of $3 / 2$ is applied}@}. <!--SR:!2029-03-16,1048,350!2026-07-03,285,330!2026-07-14,294,330!2029-05-26,1108,350!2029-06-10,1120,350-->
 
 ## overall features
 
@@ -65,7 +65,7 @@ We can also describe {@{features of the overall sound instead of each STFT frame
 
 {@{Sensorial features}@} describe {@{how the sound itself \(ignoring the formal features\) is perceived}@}, e.g. {@{loudness, pitch, timbre, time, etc.}@} <!--SR:!2026-07-14,294,330!2026-06-30,281,330!2026-06-01,259,330-->
 
-{@{Physical features}@} describe {@{the physical features of the sound itself}@}, e.g. {@{duration, frequency, intensity, spectrum, etc.}@} <!--SR:!2026-05-17,246,330!2026-05-26,254,330!2026-05-29,256,330-->
+{@{Physical features}@} describe {@{the physical features of the sound itself}@}, e.g. {@{duration, frequency, intensity, spectrum, etc.}@} <!--SR:!2029-06-07,1117,350!2026-05-26,254,330!2026-05-29,256,330-->
 
 ### sound
 

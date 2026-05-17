@@ -21,9 +21,9 @@ Flashcards for this section are as follows:
 
 - liability three components ::@:: Present obligation; arising from past events; settlement expected to require an outflow of resources (e.g. cash). <!--SR:!2026-07-10,56,310!2026-07-22,68,334-->
 - present obligation (liability) ::@:: The entity is obliged to transfer resources now, even if the actual payment occurs later. <!--SR:!2026-07-23,68,334!2026-05-18,17,314-->
-- outflow of resources (liability) ::@:: Settlement is expected to require a transfer of cash or goods from the entity. <!--SR:!2026-05-17,16,314!2026-05-18,17,314-->
-- past event and liability ::@:: A liability cannot exist without a past event that created the present obligation (e.g. borrowing or purchase on credit). <!--SR:!2026-05-18,17,314!2026-05-17,16,314-->
-- claim "you owe me money" ::@:: Must be supported by a past event (e.g. loan or purchase) that gave rise to the obligation; without it, no liability. <!--SR:!2026-07-23,68,334!2026-05-17,17,314-->
+- outflow of resources (liability) ::@:: Settlement is expected to require a transfer of cash or goods from the entity. <!--SR:!2026-07-28,72,334!2026-05-18,17,314-->
+- past event and liability ::@:: A liability cannot exist without a past event that created the present obligation (e.g. borrowing or purchase on credit). <!--SR:!2026-05-18,17,314!2026-07-25,69,334-->
+- claim "you owe me money" ::@:: Must be supported by a past event (e.g. loan or purchase) that gave rise to the obligation; without it, no liability. <!--SR:!2026-07-23,68,334!2026-08-02,77,334-->
 - purchase on credit: what is the past event? ::@:: The purchase of merchandise; from that day the entity has a present obligation to pay the supplier. <!--SR:!2026-05-18,17,314!2026-07-23,68,334-->
 
 <!-- markdownlint-disable-next-line MD024 -->
@@ -67,11 +67,11 @@ Accounts payable typically involve amounts owed to suppliers with __no stated in
 
 Flashcards for this section are as follows:
 
-- accounts payable vs notes payable (contract) ::@:: Accounts payable: no stated interest, short terms; notes payable: separate contract with principal, interest rate, and due date. <!--SR:!2026-05-17,16,314!2026-05-17,16,314-->
+- accounts payable vs notes payable (contract) ::@:: Accounts payable: no stated interest, short terms; notes payable: separate contract with principal, interest rate, and due date. <!--SR:!2026-07-28,72,334!2026-07-28,72,334-->
 - accounts payable: key features ::@:: Amounts owed to suppliers with no stated interest and short credit terms (e.g. 30 days). <!--SR:!2026-07-23,68,334!2026-07-23,68,334-->
 - notes payable: key features ::@:: Arise from a separate contract (a note) that states the principal, interest rate, and due date. <!--SR:!2026-07-23,68,334!2026-07-21,66,321-->
 - when does supplier require AP to NP conversion? ::@:: When the amount is owed for too long; supplier may require conversion to a note payable (with interest). <!--SR:!2026-07-23,68,334!2026-07-11,58,310-->
-- conversion of AP to NP: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_. <!--SR:!2026-07-08,54,310!2026-05-17,16,314-->
+- conversion of AP to NP: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_. <!--SR:!2026-07-08,54,310!2026-07-24,68,334-->
 
 ### short-term interest-bearing notes
 
@@ -96,7 +96,7 @@ Representative journal entry examples:
 > | {@{Receive cash; record note}@} | Dr           | Cr           |
 > | ------------------------------- | ------------ | ------------ |
 > | {@{Cash}@}                      | {@{48 000}@} |              |
-> | {@{Notes payable}@}             |              | {@{48 000}@} | <!--SR:!2026-05-18,17,314!2026-07-17,62,321!2026-07-23,68,334!2026-07-23,68,334!2026-05-18,17,301!2026-05-17,16,314!2026-05-18,17,314-->
+> | {@{Notes payable}@}             |              | {@{48 000}@} | <!--SR:!2026-05-18,17,314!2026-07-17,62,321!2026-07-23,68,334!2026-07-23,68,334!2026-05-18,17,301!2026-07-25,69,334!2026-05-18,17,314-->
 
 <!-- markdownlint MD028 -->
 > _Scenario._ Same Maple Circuit note: {@{48 000 at 9% per year. At 31 December, two months have elapsed}@}.
@@ -171,7 +171,7 @@ Representative journal entry example:
 > | {@{Interest expense}@}                  | {@{360}@} |           |
 > | {@{Interest payable}@}                  |           | {@{360}@} |
 >
-> _Calculation._ {@{12 000 × 0.09 × 4/12}@} = {@{360}@}. <!--SR:!2026-05-17,17,314!2026-05-18,17,314!2026-07-23,68,334!2026-05-17,16,301!2026-05-17,16,314!2026-05-17,16,314!2026-05-18,17,314!2026-05-17,16,301!2026-07-22,68,334!2026-05-17,16,314!2026-05-17,16,314!2026-05-17,16,314!2026-05-17,16,314!2026-05-17,16,314-->
+> _Calculation._ {@{12 000 × 0.09 × 4/12}@} = {@{360}@}. <!--SR:!2026-08-02,77,334!2026-05-18,17,314!2026-07-23,68,334!2026-07-24,68,321!2026-07-27,71,334!2026-07-28,72,334!2026-05-18,17,314!2026-07-25,69,321!2026-07-22,68,334!2026-07-25,69,334!2026-07-26,70,334!2026-07-27,71,334!2026-07-24,68,334!2026-07-28,72,334-->
 
 ---
 
@@ -180,8 +180,8 @@ Flashcards for this section are as follows:
 - conversion of account payable to note payable ::@:: At conversion: Dr _Accounts payable_, Cr _Notes payable_. <br/> Then accrue interest to reporting date: Dr _Interest expense_, Cr _Interest payable_. <!--SR:!2026-05-18,17,314!2026-07-22,68,334-->
 - conversion of AP to note: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_ (same amount). <!--SR:!2026-05-18,17,314!2026-07-24,69,334-->
 - after conversion to note: Given principal, rate, and months to reporting date, how is interest recorded? ::@:: Accrue interest (principal × rate × months/12); Dr _Interest expense_, Cr _Interest payable_. <!--SR:!2026-07-23,68,334!2026-05-18,17,314-->
-- conversion example: AP 12 000 → note 1 Sept, 9%—conversion entry? ::@:: Dr _Accounts payable_ 12 000, Cr _Notes payable_ 12 000. <!--SR:!2026-05-17,16,314!2026-05-18,17,314-->
-- conversion example: note 12 000, 9%, 4 months to year-end—accrual entry? ::@:: Dr _Interest expense_ 360, Cr _Interest payable_ 360. <!--SR:!2026-05-17,17,301!2026-05-17,16,301-->
+- conversion example: AP 12 000 → note 1 Sept, 9%—conversion entry? ::@:: Dr _Accounts payable_ 12 000, Cr _Notes payable_ 12 000. <!--SR:!2026-07-27,71,334!2026-05-18,17,314-->
+- conversion example: note 12 000, 9%, 4 months to year-end—accrual entry? ::@:: Dr _Interest expense_ 360, Cr _Interest payable_ 360. <!--SR:!2026-07-29,73,321!2026-07-26,70,321-->
 
 ### implicit-interest notes (notes issued at a discount)
 
@@ -196,7 +196,7 @@ Representative journal entry examples:
 > | {@{Interest expense}@}                                 | {@{1 800}@} |             |
 > | {@{Notes payable}@}                                    |             | {@{1 800}@} |
 >
-> _Calculation._ {@{7 200 × 3/12}@} = {@{1 800}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount. <!--SR:!2026-07-25,70,334!2026-05-17,16,314!2026-05-18,17,314!2026-07-23,68,334!2026-05-18,17,301!2026-07-22,68,334!2026-07-23,68,334!2026-05-17,16,314!2026-07-23,68,334!2026-07-23,68,334-->
+> _Calculation._ {@{7 200 × 3/12}@} = {@{1 800}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount. <!--SR:!2026-07-25,70,334!2026-07-26,70,334!2026-05-18,17,314!2026-07-23,68,334!2026-05-18,17,301!2026-07-22,68,334!2026-07-23,68,334!2026-07-27,71,334!2026-07-23,68,334!2026-07-23,68,334-->
 
 <!-- markdownlint MD028 -->
 > _Scenario._ The Sunrise Packaging note matures; {@{carrying amount 75 600, pay 75 600 cash}@}.
@@ -204,7 +204,7 @@ Representative journal entry examples:
 > | {@{Pay note at maturity}@} | Dr           | Cr           |
 > | -------------------------- | ------------ | ------------ |
 > | {@{Notes payable}@}        | {@{75 600}@} |              |
-> | {@{Cash}@}                 |              | {@{75 600}@} | <!--SR:!2026-05-18,17,314!2026-07-23,68,334!2026-07-23,68,334!2026-05-18,17,314!2026-05-17,16,301-->
+> | {@{Cash}@}                 |              | {@{75 600}@} | <!--SR:!2026-05-18,17,314!2026-07-23,68,334!2026-07-23,68,334!2026-05-18,17,314!2026-07-24,68,321-->
 
 ---
 
@@ -228,12 +228,12 @@ The __timing__ of refinancing also matters. If the refinancing (e.g. a new loan 
 
 Flashcards for this section are as follows:
 
-- exclude from current liabilities refinancing ::@:: Both must hold: (1) expect to refinance on a long-term basis (e.g. extend due date or replace with long-term financing), (2) unconditional right to defer settlement. <!--SR:!2026-05-17,16,314!2026-05-17,16,314-->
-- covenants (refinancing) ::@:: Conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, minimum cash); make the right to defer conditional. <!--SR:!2026-07-02,47,301!2026-05-17,16,314-->
+- exclude from current liabilities refinancing ::@:: Both must hold: (1) expect to refinance on a long-term basis (e.g. extend due date or replace with long-term financing), (2) unconditional right to defer settlement. <!--SR:!2026-07-24,68,334!2026-07-25,69,334-->
+- covenants (refinancing) ::@:: Conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, minimum cash); make the right to defer conditional. <!--SR:!2026-07-02,47,301!2026-07-25,69,334-->
 - conditional right to defer ::@:: If the refinancing agreement has conditions (e.g. maintain current ratio), the right to defer is conditional and the liability stays current. <!--SR:!2026-05-18,17,314!2026-07-11,58,310-->
-- refinancing before vs after balance sheet date ::@:: Finalised before balance sheet date → may classify as long-term; finalised after → at reporting date no right to defer → current. <!--SR:!2026-05-17,16,314!2026-07-09,55,310-->
-- why does current vs long-term classification matter? ::@:: Moving debt to current can reduce the current ratio and trigger liquidity concerns, supplier demands, or breach of loan covenants. <!--SR:!2026-05-17,17,314!2026-05-18,17,301-->
-- what makes the right to defer settlement conditional? ::@:: Covenants or conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, or minimum cash); lender can demand repayment if breached. <!--SR:!2026-05-17,16,314!2026-07-09,55,310-->
+- refinancing before vs after balance sheet date ::@:: Finalised before balance sheet date → may classify as long-term; finalised after → at reporting date no right to defer → current. <!--SR:!2026-07-27,71,334!2026-07-09,55,310-->
+- why does current vs long-term classification matter? ::@:: Moving debt to current can reduce the current ratio and trigger liquidity concerns, supplier demands, or breach of loan covenants. <!--SR:!2026-08-02,77,334!2026-05-18,17,301-->
+- what makes the right to defer settlement conditional? ::@:: Covenants or conditions in the refinancing agreement (e.g. maintain current ratio, debt ratio, or minimum cash); lender can demand repayment if breached. <!--SR:!2026-07-26,70,334!2026-07-09,55,310-->
 
 ## income tax payable
 
@@ -254,7 +254,7 @@ Flashcards for this section are as follows:
 
 - income tax payable recognition ::@:: Dr _Tax expense_ (or similar), Cr _Tax payable_ when tax is owed but not yet paid at the reporting date; classified as current liability. <!--SR:!2026-07-23,68,334!2026-05-18,17,314-->
 - why is income tax payable usually current? ::@:: The amount is typically due within a few months (e.g. three or four months) after the reporting date. <!--SR:!2026-05-18,17,314!2026-07-23,68,334-->
-- income tax payable: when and what entry? ::@:: At reporting date when tax is owed but not yet paid; Dr _Tax expense_, Cr _Tax payable_; classified as current liability. <!--SR:!2026-05-17,17,314!2026-05-17,17,314-->
+- income tax payable: when and what entry? ::@:: At reporting date when tax is owed but not yet paid; Dr _Tax expense_, Cr _Tax payable_; classified as current liability. <!--SR:!2026-08-02,77,334!2026-08-02,77,334-->
 - income tax example: tax expense 135 000 owed at year-end—entry? ::@:: Dr _Tax expense_ 135 000, Cr _Tax payable_ 135 000. <!--SR:!2026-07-23,68,334!2026-07-20,66,321-->
 
 ## compensated absence
@@ -342,7 +342,7 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 > | {@{Salaries and wages expense}@} | {@{560}@} | |
 > | {@{Wages payable}@} | | {@{560}@} |
 >
-> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end. <!--SR:!2026-07-25,70,334!2026-07-16,61,321!2026-05-18,17,314!2026-05-17,16,314!2026-07-23,68,334!2026-07-24,69,334-->
+> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end. <!--SR:!2026-07-25,70,334!2026-07-16,61,321!2026-05-18,17,314!2026-07-26,70,334!2026-07-23,68,334!2026-07-24,69,334-->
 
 <!-- markdownlint MD028 -->
 > _Downward remeasurement of the same unused vested portion (estimate revision in the opposite direction)._ Assume BrightWave still has {@{8 unused vested vacation weeks}@} at year-end, but updated expectations indicate settlement at {@{500 per week}@}. Required liability is {@{4&nbsp;000 (8 × 500)}@}, while carrying amount before remeasurement is {@{4&nbsp;160}@}. The liability must be {@{decreased by 160}@}.

@@ -110,7 +110,7 @@ The content is in teaching order.
   - business process modeling / limitation ::@:: You lose granular information on each customer. But this is often fine for the purpose of improving processes. <!--SR:!2026-05-27,366,358!2026-05-28,367,358-->
   - business process modeling / network model ::@:: It is a network of _activities_ (e.g. activity, _buffer_) performed by _resources_ (e.g. capital, labor, material) that transforms _inputs_ (e.g. materials, customers) into _outputs_ (e.g. goods, services). There can be more than one inputs. There can also be more than one output. <!--SR:!2027-04-29,616,338!2028-05-19,928,354-->
   - business process modeling / flow unit ::@:: It is what is tracked through a process, and defines the _outputs_ (not _inputs_) of interest. <!--SR:!2026-05-23,362,358!2029-06-18,1232,358-->
-- [process flow diagram](../../../../general/process%20flow%20diagram.md) ::@:: A diagram that presents major elements of a process. <!--SR:!2026-05-17,356,355!2026-05-21,360,355-->
+- [process flow diagram](../../../../general/process%20flow%20diagram.md) ::@:: A diagram that presents major elements of a process. <!--SR:!2031-02-15,1735,375!2026-05-21,360,355-->
   - process flow diagram / major elements ::@:: activities/operations, decision points, product flows, resources <!--SR:!2028-09-19,1028,358!2026-09-08,422,318-->
   - process flow diagram / activity, operation ::@:: represented by a square or rectangle <!--SR:!2026-06-10,380,358!2026-06-02,372,358-->
   - process flow diagram / buffer, queue, storage ::@:: represented by a triangle, that may or may not be upside-down <!--SR:!2029-06-19,1233,358!2028-04-21,910,357-->
@@ -119,7 +119,7 @@ The content is in teaching order.
   - process flow diagram / considerations ::@:: boundaries of the process (where does a process start and end), level of simplification (the more detailed, the less convenient), targets (goal-oriented, problem-driven) <!--SR:!2026-08-22,405,315!2026-05-25,364,358-->
 - [business process modeling](../../../../general/business%20process%20modeling.md)
   - business process modeling / performance measures ::@:: capacity, cycle time, flow time, flow/through rate, work-in-process inventory <!--SR:!2026-09-19,430,318!2026-05-20,359,355-->
-  - business process modeling / flow time ::@:: time spent by a given flow unit in the process <!--SR:!2026-05-17,356,358!2026-05-19,358,358-->
+  - business process modeling / flow time ::@:: time spent by a given flow unit in the process <!--SR:!2031-02-25,1745,378!2026-05-19,358,358-->
   - business process modeling / cycle time ::@:: time between two successive flow units outputted (product completions); this is the reciprocal of flow/through rate, _by definition_ <!--SR:!2026-05-24,363,358!2028-04-15,904,358-->
   - business process modeling / flow/through rate ::@:: rate of flow units outputted, i.e. number of flow units outputted per unit of time; this is the reciprocal of cycle time, _by definition_ <!--SR:!2026-05-31,370,358!2031-02-17,1739,378-->
   - business process modeling / capacity ::@:: maximum flow/through rate, so this assumes there are sufficient inputs, resources, and demand <!--SR:!2026-05-31,370,358!2026-05-29,368,358-->

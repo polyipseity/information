@@ -15,7 +15,7 @@ A diode is a two-terminal semiconductor device that allows current to flow prima
 
 Flashcards for this section are as follows:
 
-- diode definition: What does a diode do in terms of current direction? ::@:: A diode is a two-terminal device that allows current to flow primarily in one direction (forward bias) and blocks it in the opposite direction (reverse bias). <!--SR:!2026-06-03,59,310!2026-05-17,43,290-->
+- diode definition: What does a diode do in terms of current direction? ::@:: A diode is a two-terminal device that allows current to flow primarily in one direction (forward bias) and blocks it in the opposite direction (reverse bias). <!--SR:!2026-06-03,59,310!2026-11-03,170,310-->
 - diode course role: Why do we study diodes before transistors and regulation? ::@:: The PN junction diode is the core building block inside BJTs and Zener regulators, so diode I–V and biasing ideas transfer directly to those devices. <!--SR:!2026-06-03,59,310!2026-05-19,44,290-->
 - schematic symbol: diode <p> ![diode symbol](attachments/symbol_diode.svg) ::@:: Diode symbol showing the one-way conduction element; current is intended to flow from anode to cathode when forward biased. <!--SR:!2026-05-29,55,310!2026-06-10,65,310-->
 

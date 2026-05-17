@@ -31,19 +31,19 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > Find the number of arrangements of "MIIIISSSSPP".
 >
-> Solution: Treat the word as a {@{multiset permutation problem}@} with {@{$11$ total symbols}@} and repeated counts {@{$1,4,4,2$}@}. You can count it by {@{direct multinomial reasoning}@}: choose which {@{position is the unique $M$}@}, then choose which {@{$4$ of the remaining 10 positions are $I$}@}, which {@{$4$ positions of what remains are $S$}@}, and the rest are {@{$P$}@}; equivalently, divide $11!$ by {@{factorials of repeated groups}@} to remove overcounting, yielding {@{$\dfrac{11!}{4!4!2!}=\binom{11}{1,4,4,2}$}@}. <!--SR:!2026-05-19,16,290!2026-05-19,16,290!2026-05-18,15,290!2026-05-17,14,290!2026-05-17,14,290!2026-05-17,14,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290-->
+> Solution: Treat the word as a {@{multiset permutation problem}@} with {@{$11$ total symbols}@} and repeated counts {@{$1,4,4,2$}@}. You can count it by {@{direct multinomial reasoning}@}: choose which {@{position is the unique $M$}@}, then choose which {@{$4$ of the remaining 10 positions are $I$}@}, which {@{$4$ positions of what remains are $S$}@}, and the rest are {@{$P$}@}; equivalently, divide $11!$ by {@{factorials of repeated groups}@} to remove overcounting, yielding {@{$\dfrac{11!}{4!4!2!}=\binom{11}{1,4,4,2}$}@}. <!--SR:!2026-05-19,16,290!2026-05-19,16,290!2026-05-18,15,290!2026-07-13,57,310!2026-07-12,56,310!2026-07-10,54,310!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290-->
 
 <!-- markdownlint MD028 -->
 
 > In an archer session, each round has three arrows and the session ends when one round hits the target three times. Build a sample space and identify $\bigcap_{n=1}^{\infty}A_n$, where $A_n$ is the event that the session lasts longer than $n$ rounds.
 >
-> Solution: Model each arrow by {@{$\{S,F\}$}@}, each round by {@{$\{S,F\}^3$}@}, and the whole experiment by {@{$(\{S,F\}^3)^{\mathbb{N}}$}@} with {@{stopping at first "SSS"}@}; this space contains {@{some extra infinite paths}@}, but that is {@{fine because it still describes every possible round-by-round history}@} and the stopping rule simply {@{ignores the impossible extra ones}@}. Since {@{$A_n$ means duration exceeds $n$ rounds}@}, the intersection over all $n$ is exactly the {@{infinite-duration event}@} {@{$\bigcap_{n=1}^{\infty}A_n=\{\text{no round is ever "SSS"}\}$}@}, i.e. the session {@{never terminates}@}. <!--SR:!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-17,14,290!2026-05-19,16,290!2026-05-17,14,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-18,15,290!2026-05-18,15,290-->
+> Solution: Model each arrow by {@{$\{S,F\}$}@}, each round by {@{$\{S,F\}^3$}@}, and the whole experiment by {@{$(\{S,F\}^3)^{\mathbb{N}}$}@} with {@{stopping at first "SSS"}@}; this space contains {@{some extra infinite paths}@}, but that is {@{fine because it still describes every possible round-by-round history}@} and the stopping rule simply {@{ignores the impossible extra ones}@}. Since {@{$A_n$ means duration exceeds $n$ rounds}@}, the intersection over all $n$ is exactly the {@{infinite-duration event}@} {@{$\bigcap_{n=1}^{\infty}A_n=\{\text{no round is ever "SSS"}\}$}@}, i.e. the session {@{never terminates}@}. <!--SR:!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290!2026-07-14,58,310!2026-05-19,16,290!2026-07-14,58,310!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-18,15,290!2026-05-18,15,290-->
 
 <!-- markdownlint MD028 -->
 
 > In the repeating coin-flip game where A, B, C flip in order and the first head wins, describe the events "A wins", "B wins", and the complement $(A\cup B)^c$ using the sample space $S=\{1,01,001,0001,\ldots,000\cdots\}$.
 >
-> Solution: Encode outcomes by {@{index of first head}@} (or the infinite all-tail sequence), observe winner is determined by {@{$\ell\bmod 3$}@}, so {@{$A=\{x\in S:\operatorname{len}(x)\equiv1\pmod3\}$}@} and {@{$B=\{x\in S:\operatorname{len}(x)\equiv2\pmod3\}$}@}; importantly, the process space includes {@{infinite sequences}@} as legitimate outcomes, so if no head ever appears that path is still an outcome, hence {@{$(A\cup B)^c$}@} is {@{'C wins' together with the no-winner infinite-tail outcome}@}. <!--SR:!2026-05-19,16,290!2026-05-17,14,290!2026-05-19,16,290!2026-05-17,14,290!2026-05-18,15,290!2026-05-19,16,290!2026-05-19,16,290-->
+> Solution: Encode outcomes by {@{index of first head}@} (or the infinite all-tail sequence), observe winner is determined by {@{$\ell\bmod 3$}@}, so {@{$A=\{x\in S:\operatorname{len}(x)\equiv1\pmod3\}$}@} and {@{$B=\{x\in S:\operatorname{len}(x)\equiv2\pmod3\}$}@}; importantly, the process space includes {@{infinite sequences}@} as legitimate outcomes, so if no head ever appears that path is still an outcome, hence {@{$(A\cup B)^c$}@} is {@{'C wins' together with the no-winner infinite-tail outcome}@}. <!--SR:!2026-05-19,16,290!2026-07-14,58,310!2026-05-19,16,290!2026-07-14,58,310!2026-05-18,15,290!2026-05-19,16,290!2026-05-19,16,290-->
 
 <!-- markdownlint MD028 -->
 
@@ -65,13 +65,13 @@ The questions on this page summarize the _official tutorial materials_ for week 
 > - (a) {@{No restriction}@} gives {@{$\binom{10}{5}=252$}@}.
 > - (b) {@{Include the designated person first}@}, then choose 4 of the remaining 9, giving {@{$\binom{9}{4}=126$}@}.
 > - (c) {@{Exactly 3 men and 2 women}@} gives {@{$\binom{6}{3}\binom{4}{2}=120$}@}.
-> - (d) {@{Majority women means either 3W2M or 4W1M}@}, so the total is {@{$\binom{4}{3}\binom{6}{2}+\binom{4}{4}\binom{6}{1}=60+6=66$}@}. <!--SR:!2026-05-17,14,290!2026-05-18,15,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-18,15,290!2026-05-18,15,290!2026-05-17,14,290-->
+> - (d) {@{Majority women means either 3W2M or 4W1M}@}, so the total is {@{$\binom{4}{3}\binom{6}{2}+\binom{4}{4}\binom{6}{1}=60+6=66$}@}. <!--SR:!2026-07-14,58,310!2026-05-18,15,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-18,15,290!2026-05-18,15,290!2026-07-14,58,310-->
 
 <!-- markdownlint MD028 -->
 
 > Ten Oreo pieces are sprinkled onto 3 distinguishable scoops of ice cream. How many distributions are possible?
 >
-> Solution: Let {@{$u_i$}@} denote {@{pieces on scoop $i$}@} so the constraint is {@{$u_1+u_2+u_3=10$ with $u_i\ge0$}@}; apply {@{stars-and-bars}@} using {@{$10$ stars and $2$ bars}@} to count non-negative solutions, obtaining {@{$\binom{10+3-1}{3-1}=\binom{12}{2}=66$}@}. <!--SR:!2026-05-17,14,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290!2026-05-17,14,290!2026-05-17,14,290-->
+> Solution: Let {@{$u_i$}@} denote {@{pieces on scoop $i$}@} so the constraint is {@{$u_1+u_2+u_3=10$ with $u_i\ge0$}@}; apply {@{stars-and-bars}@} using {@{$10$ stars and $2$ bars}@} to count non-negative solutions, obtaining {@{$\binom{10+3-1}{3-1}=\binom{12}{2}=66$}@}. <!--SR:!2026-07-14,58,310!2026-05-19,16,290!2026-05-19,16,290!2026-05-19,16,290!2026-07-11,55,310!2026-07-14,58,310-->
 
 <!-- markdownlint MD028 -->
 

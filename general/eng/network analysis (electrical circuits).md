@@ -93,7 +93,7 @@ The above is {@{a sufficient definition for a [one-port](one-port.md) network}@}
 
 ### delta-wye transformation
 
-- Main article: ::@:: [Y-Δ transform](Y-Δ%20transform.md) <!--SR:!2026-05-17,333,349!2030-08-14,1559,369-->
+- Main article: ::@:: [Y-Δ transform](Y-Δ%20transform.md) <!--SR:!2030-10-05,1602,369!2030-08-14,1559,369-->
 
 \(annotation: image\) ::@:: ![delta-star transformation](../../archives/Wikimedia%20Commons/Delta-Star%20Transformation.svg) <!--SR:!2026-07-17,385,360!2026-07-08,378,366-->
 
@@ -117,7 +117,7 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 For {@{a star-to-delta \(_N_ = 3\)}@} this reduces to: {@{$${\begin{aligned}R_{\mathrm {ab} }&=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }+{\frac {1}{R_{c} } }\right)={\frac {R_{a}R_{b}(R_{a}R_{b}+R_{a}R_{c}+R_{b}R_{c})}{R_{a}R_{b}R_{c} } }\\&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\end{aligned} }$$}@} <!--SR:!2027-12-19,765,330!2027-12-06,747,330-->
 
-For {@{a series reduction \(_N_ = 2\)}@} this reduces to: {@{$$R_{\mathrm {ab} }=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }\right)={\frac {R_{a}R_{b}(R_{a}+R_{b})}{R_{a}R_{b} } }=R_{a}+R_{b}$$}@} <!--SR:!2026-05-17,333,349!2027-10-26,725,330-->
+For {@{a series reduction \(_N_ = 2\)}@} this reduces to: {@{$$R_{\mathrm {ab} }=R_{a}R_{b}\left({\frac {1}{R_{a} } }+{\frac {1}{R_{b} } }\right)={\frac {R_{a}R_{b}(R_{a}+R_{b})}{R_{a}R_{b} } }=R_{a}+R_{b}$$}@} <!--SR:!2030-10-07,1604,369!2027-10-26,725,330-->
 
 For {@{a dangling resistor \(_N_ = 1\)}@} it results in {@{the elimination of the resistor because ${\tbinom {1}{2} }=0$}@}. <!--SR:!2026-05-31,343,349!2026-06-18,360,360-->
 
@@ -187,7 +187,7 @@ For {@{some common elements where this is not possible}@}, {@{specialized method
 
 In this method, {@{the effect of each generator in turn is calculated}@}. {@{All the generators other than the one being considered}@} are {@{removed and either short-circuited in the case of voltage generators or open-circuited in the case of current generators}@}. {@{The total current through or the total voltage across a particular branch}@} is then {@{calculated by summing all the individual currents or voltages}@}. <!--SR:!2030-09-26,1595,369!2026-07-16,384,360!2029-02-09,1107,350!2030-09-05,1579,369!2030-09-08,1582,369-->
 
-There is {@{an underlying assumption to this method}@} that {@{the total current or voltage is a linear superposition of its parts}@}. Therefore, the method {@{cannot be used if non-linear components are present}@}. <sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;6–14&hairsp;</sup> {@{Superposition of powers}@} cannot be {@{used to find total power consumed by elements even in linear circuits}@}. Power {@{varies according to the square of total voltage or current}@} and {@{the square of the sum is not generally equal to the sum of the squares}@}. {@{Total power in an element}@} can be found by {@{applying superposition to the voltages and current independently}@} and then {@{calculating power from the total voltage and current}@}. <!--SR:!2030-06-23,1517,369!2026-07-05,374,360!2029-04-16,1162,350!2029-04-05,1135,349!2026-06-08,351,349!2026-07-17,385,360!2029-01-16,1086,350!2026-05-17,333,349!2030-07-19,1538,369!2027-09-19,695,330-->
+There is {@{an underlying assumption to this method}@} that {@{the total current or voltage is a linear superposition of its parts}@}. Therefore, the method {@{cannot be used if non-linear components are present}@}. <sup>[\[2\]](#^ref-2)</sup><sup>:&hairsp;6–14&hairsp;</sup> {@{Superposition of powers}@} cannot be {@{used to find total power consumed by elements even in linear circuits}@}. Power {@{varies according to the square of total voltage or current}@} and {@{the square of the sum is not generally equal to the sum of the squares}@}. {@{Total power in an element}@} can be found by {@{applying superposition to the voltages and current independently}@} and then {@{calculating power from the total voltage and current}@}. <!--SR:!2030-06-23,1517,369!2026-07-05,374,360!2029-04-16,1162,350!2029-04-05,1135,349!2026-06-08,351,349!2026-07-17,385,360!2029-01-16,1086,350!2030-10-06,1603,369!2030-07-19,1538,369!2027-09-19,695,330-->
 
 ## choice of method
 

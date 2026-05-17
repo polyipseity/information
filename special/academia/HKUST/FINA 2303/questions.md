@@ -223,7 +223,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2026-05-17,350,362!2026-06-12,356,322-->
+> - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2031-02-19,1739,382!2026-06-12,356,322-->
 
 ## week 3 lecture
 

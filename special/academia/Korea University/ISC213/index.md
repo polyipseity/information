@@ -55,7 +55,7 @@ The content is in teaching order.
   - information system / vs. IT infrastructure ::@:: The former includes people, processes, and documentation while the former excludes them. <p> The latter only includes the hardware, software, networks, facilities, etc. <!--SR:!2026-11-08,384,369!2026-12-10,411,369-->
   - information system / users ::@:: Senior management, middle management, and operational management may use it. <!--SR:!2026-12-14,414,369!2026-11-06,382,369-->
   - information system / data vs. information ::@:: The former is raw fact. The latter is the former shaped into something meaningful. An information system takes the former to produce the latter. <!--SR:!2029-05-20,1102,350!2029-03-15,1048,350-->
-  - information system / dimensions ::@:: 3 dimensions: management, organization, technology <!--SR:!2029-04-07,1065,350!2026-05-17,242,330-->
+  - information system / dimensions ::@:: 3 dimensions: management, organization, technology <!--SR:!2029-04-07,1065,350!2029-05-22,1101,350-->
     - information system / dimensions / technology ::@:: computer hardware, computer software, data management, networking and telecommunications, infrastructure, etc. <!--SR:!2026-07-18,294,330!2029-03-25,1056,350-->
     - information system / dimensions / organization ::@:: IS can create value and result in superior results for an organization, e.g. better strategies, increased productivity, increased revenue, etc. <!--SR:!2028-06-21,815,330!2029-05-10,1092,350-->
     - information system / dimensions / management ::@:: IS can but does not _guarantee_ good results. There is considerable variation. Factors include _complementary assets_, right business model, etc. so good management of IS is needed. <!--SR:!2026-06-02,256,330!2026-07-18,294,330-->
