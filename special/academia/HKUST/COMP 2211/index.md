@@ -763,7 +763,7 @@ ID: 23456789
 
 - datetime: 2024-10-30T13:30:00+08:00/2024-10-30T14:50:00+08:00
 - Keras
-  - Keras / procedures ::@:: import the required libraries and define a global variable → load the data → explore the data → build the model → compile the model → train the model → evaluate the model accuracy → save the model → use the model → plot the confusion matrix <!--SR:!2031-03-15,1836,401!2026-06-26,450,399-->
+  - Keras / procedures ::@:: import the required libraries and define a global variable → load the data → explore the data → build the model → compile the model → train the model → evaluate the model accuracy → save the model → use the model → plot the confusion matrix <!--SR:!2031-03-15,1836,401!fsrs,2032-03-21T00:00:00.000Z,2094,2093.57484669,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
     - Keras / procedures / import the required libraries and define a global variable ::@:: For example, import `keras`, `matplotlib.pyplot` (as `plt`), `numpy` (as `np`), `pandas` (as `pd`), `seaborn` (as `sn`), `tensorflow` as (`tf`), etc. <!--SR:!2030-11-10,1717,399!2026-10-21,550,406-->
     - Keras / procedures / load the data ::@:: For example, use `(x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()`. <!--SR:!2026-08-28,502,399!2026-09-06,513,406-->
     - Keras / procedures / explore the data ::@:: For example, use `pd.DataFrame(data)`, `plt.figure(figsize=(<width in inches>, <height in inches>))`, `plt.imshow(image[, cmap=<cmap; e.g. plt.cm.binary>])`, and `plt.show()`. <!--SR:!2026-09-06,511,402!2027-06-30,713,359-->

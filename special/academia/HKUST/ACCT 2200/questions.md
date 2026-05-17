@@ -77,7 +77,7 @@ Below are some questions or question tips.
 
 - actual vs. standard ::@:: Actual is actual... pretty easy. Standard can be considered how many direct materials or direct labor hours should have been used given the _actual_ units produced. <!--SR:!fsrs,2029-08-16T04:40:30.369Z,1168,1168.38706892,1,2,9,0,0,2026-06-05T04:40:30.369Z!2029-07-25,1166,350-->
 - aliases ::@:: efficiency/quantity variance, price/rate variance <!--SR:!fsrs,2029-10-01T02:36:05.151Z,1203,1202.68030072,1,2,9,0,0,2026-06-16T02:36:05.151Z!fsrs,2029-09-26T03:22:51.302Z,1199,1198.87680538,1,2,9,0,0,2026-06-15T03:22:51.302Z-->
-- order ::@:: arrow is subtraction direction: AQ \* AP ← \(change price\) ← AQ \* SP ← \(change quantity\) ← SQ \* SP <!--SR:!2027-04-06,446,270!2026-06-26,283,330-->
+- order ::@:: arrow is subtraction direction: AQ \* AP ← \(change price\) ← AQ \* SP ← \(change quantity\) ← SQ \* SP <!--SR:!2027-04-06,446,270!fsrs,2029-11-11T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-06-27T00:00:00.000Z-->
 
 ## decentralized performance evaluation
 

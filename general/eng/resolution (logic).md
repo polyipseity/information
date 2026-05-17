@@ -39,7 +39,7 @@ We have the following terminology:
 - The literal ${\overline {\ell } }$ ::@:: is the right resolved literal, <!--SR:!2027-07-04,514,330!2026-06-27,281,330-->
 - $|\ell |$ ::@:: is the resolved atom or pivot. <!--SR:!2029-09-09,1195,350!2029-06-09,1122,350-->
 
-{@{The clause produced by the resolution rule}@} is called {@{the _resolvent_ of the two input clauses}@}. It is {@{the principle of _[consensus](consensus%20theorem.md)_}@} applied to {@{clauses rather than terms}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-02-20,1027,350!2026-07-07,288,330!2026-06-26,280,330!2029-07-26,1155,350-->
+{@{The clause produced by the resolution rule}@} is called {@{the _resolvent_ of the two input clauses}@}. It is {@{the principle of _[consensus](consensus%20theorem.md)_}@} applied to {@{clauses rather than terms}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2029-02-20,1027,350!2026-07-07,288,330!fsrs,2029-10-31T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-06-27T00:00:00.000Z!2029-07-26,1155,350-->
 
 When the two clauses {@{contain more than one pair of complementary literals}@}, the resolution rule can be {@{applied \(independently\) for each such pair}@}; however, the result is {@{always a [tautology](tautology%20(logic).md)}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-20T00:00:00.000Z!2029-07-31,1160,350!2029-07-24,1153,350-->
 
@@ -111,7 +111,7 @@ To {@{recast the reasoning using the resolution technique}@}, first the clauses 
 > $P(a)$ <br/>
 > Therefore, $Q(a)$ <!--SR:!2029-08-04,1164,350-->
 
-So the question is, how does {@{the resolution technique derive the last clause from the first two}@}? The rule is simple: <!--SR:!2026-06-26,280,330-->
+So the question is, how does {@{the resolution technique derive the last clause from the first two}@}? The rule is simple: <!--SR:!fsrs,2029-10-31T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-06-27T00:00:00.000Z-->
 
 - Find {@{two clauses containing the same predicate}@}, where {@{it is negated in one clause but not in the other}@}.
 - Perform {@{a [unification](unification%20(computing).md) on the two predicates}@}. \(If {@{the unification fails}@}, you {@{made a bad choice of predicates}@}. Go back to {@{the previous step and try again}@}.\)
@@ -126,7 +126,7 @@ in the first clause, and in {@{non-negated form}@} <!--SR:!2026-06-27,281,330-->
 
 &emsp; _P_\(_a_\)
 
-in the second clause. _X_ is {@{an unbound variable}@}, while {@{_a_ is a bound value \(term\)}@}. {@{Unifying the two produces}@} the substitution \(annotation: {@{_X_ ↦ _a_}@}\) <!--SR:!fsrs,2029-09-30T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-06-19T00:00:00.000Z!2026-06-26,280,330!2029-07-02,1140,350!2029-08-03,1163,350-->
+in the second clause. _X_ is {@{an unbound variable}@}, while {@{_a_ is a bound value \(term\)}@}. {@{Unifying the two produces}@} the substitution \(annotation: {@{_X_ ↦ _a_}@}\) <!--SR:!fsrs,2029-09-30T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-06-19T00:00:00.000Z!fsrs,2029-10-31T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-06-27T00:00:00.000Z!2029-07-02,1140,350!2029-08-03,1163,350-->
 
 &emsp; _X_ ↦ _a_
 
@@ -167,7 +167,7 @@ Now, unifying {@{_Q_\(_X_\) in the first clause with ¬<!-- markdown separator -
 
 {@{The resolution rule, as defined by Robinson}@}, also {@{incorporated factoring}@}, which {@{unifies two literals in the same clause}@}, before or during {@{the application of resolution}@} as defined above. The resulting inference rule is {@{refutation-complete}@},<sup>[\[6\]](#^ref-6)</sup> in that {@{a set of clauses is unsatisfiable}@} {@{[if and only if](if%20and%20only%20if.md) there exists a derivation of the empty clause using only resolution, enhanced by factoring}@}. <!--SR:!2029-06-20,1130,350!2029-06-21,1131,350!2029-08-08,1168,350!2026-07-06,288,330!2029-03-26,1061,350!fsrs,2029-09-25T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-06-18T00:00:00.000Z!fsrs,2028-07-28T00:00:00.000Z,770,770.31758274,2.49272837,2,9,0,0,2026-06-19T00:00:00.000Z-->
 
-An example for {@{an unsatisfiable clause set for which factoring is needed to derive the empty clause}@} is: {@{$${\begin{array}{rlcl}(1):&P(u)&\lor &P(f(u))\\(2):&\lnot P(v)&\lor &P(f(w))\\(3):&\lnot P(x)&\lor &\lnot P(f(x))\\\end{array} }$$}@} <!--SR:!2026-06-26,280,330!2026-06-29,282,330-->
+An example for {@{an unsatisfiable clause set for which factoring is needed to derive the empty clause}@} is: {@{$${\begin{array}{rlcl}(1):&P(u)&\lor &P(f(u))\\(2):&\lnot P(v)&\lor &P(f(w))\\(3):&\lnot P(x)&\lor &\lnot P(f(x))\\\end{array} }$$}@} <!--SR:!fsrs,2029-10-31T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-06-27T00:00:00.000Z!2026-06-29,282,330-->
 
 Since {@{each clause consists of two literals}@}, so does {@{each possible resolvent}@}. Therefore, by {@{resolution without factoring}@}, {@{the empty clause can never be obtained}@}. Using {@{factoring}@}, it {@{can be obtained}@} e.g. as follows:<sup>[\[7\]](#^ref-7)</sup> {@{$${\begin{array}{rll}(4):&P(u)\lor P(f(w))&{\text{by resolving (1) and (2), with } }v=f(u)\\(5):&P(f(w))&{\text{by factoring (4), with } }u=f(w)\\(6):&\lnot P(f(f(w')))&{\text{by resolving (5) and (3), with } }w=w',x=f(w')\\(7):&{\text{false} }&{\text{by resolving (5) and (6), with } }w=f(w')\\\end{array} }$$}@} <!--SR:!fsrs,2029-09-04T02:19:53.360Z,1178,1178.42810815,1,2,9,0,0,2026-06-14T02:19:53.360Z!2026-07-04,286,330!2029-08-25,1183,350!2029-05-24,1108,350!fsrs,2029-08-10T00:57:56.031Z,1161,1160.74715681,1,2,9,0,0,2026-06-06T00:57:56.031Z!2028-02-10,718,330!2028-09-20,874,330-->
 

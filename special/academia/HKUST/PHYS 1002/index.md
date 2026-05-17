@@ -43,7 +43,7 @@ The content is in teaching order. Extra information and corrections are included
 - course parts ::@:: developing perspective (chapter 1–3), key concepts for astronomy (chapter 4–6), stars (chapter 14–18), galaxies & beyond (chapter 19–23) <!--SR:!2026-12-03,669,330!2029-05-30,1396,350-->
 - [flat Earth](../../../../general/flat%20Earth.md) ::@:: superseded by spherical Earth <!--SR:!2028-11-04,1232,350!2027-08-08,849,330-->
   - [§ Greece: spherical Earth](../../../../general/flat%20Earth.md#Greece%20spherical%20Earth)
-- [geocentric model](../../../../general/geocentric%20model.md) ::@:: superseded by Copernican heliocentrism <!--SR:!2026-06-26,533,310!2030-06-07,1646,330-->
+- [geocentric model](../../../../general/geocentric%20model.md) ::@:: superseded by Copernican heliocentrism <!--SR:!fsrs,2031-12-17T00:00:00.000Z,1999,1999.39584407,1,2,10,0,0,2026-06-27T00:00:00.000Z!2030-06-07,1646,330-->
   - [§ Ptolemaic model](../../../../general/geocentric%20model.md#Ptolemaic%20model)
   - [§ Ptolemaic system](../../../../general/geocentric%20model.md#Ptolemaic%20system)
 - [Copernican heliocentrism](../../../../general/Copernican%20heliocentrism.md) ::@:: superseded by Kepler's laws of planetary motion <!--SR:!2029-07-06,1335,310!fsrs,2031-09-25T10:21:01.358Z,1938,1937.82905343,1,2,10,0,0,2026-06-05T10:21:01.358Z-->
@@ -667,7 +667,7 @@ The content is in teaching order. Extra information and corrections are included
 - self-study, but MAY be tested
   - [binary system](../../../../general/binary%20system.md)
     - [binary system](../../../../general/binary%20system.md) / proportion ::@:: about half of all stars are binary systems <!--SR:!2026-08-27,621,412!2026-10-22,667,412-->
-    - [binary system § classification](../../../../general/binary%20system.md#classification) ::@:: multiple classifications can apply to a single binary; visual binary: binary nature visually observable; eclipsing binary: binary nature observable via eclipses; spectroscopic binary: binary nature observable using spectroscopy (e.g. Doppler effect) <!--SR:!2030-10-16,1799,392!2026-06-26,504,352-->
+    - [binary system § classification](../../../../general/binary%20system.md#classification) ::@:: multiple classifications can apply to a single binary; visual binary: binary nature visually observable; eclipsing binary: binary nature observable via eclipses; spectroscopic binary: binary nature observable using spectroscopy (e.g. Doppler effect) <!--SR:!2030-10-16,1799,392!fsrs,2032-06-23T00:00:00.000Z,2188,2188.15827492,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
       - [binary system § classification](../../../../general/binary%20system.md#classification) / visual binary examples ::@:: An example is Sirius A and Sirius B. <!--SR:!2028-12-23,1255,372!2027-02-19,760,412-->
       - [binary system § classification](../../../../general/binary%20system.md#classification) / eclipsing binary & spectroscopic binary ::@:: A spectroscopic binary offers orbital velocity and period, thus the masses of the 2 stars can be calculated. If additionally, the binary is also an eclipsing binary, the sizes of the 2 stars can be measured from light curve dips, thus their densities can be calculated. Calculations are limited by that we do not know the orbital inclination. <!--SR:!2027-02-14,668,352!2027-08-05,792,352-->
 - [stellar mass](../../../../general/stellar%20mass.md) ::@:: mass of a star, usually described in terms of solar masses <!--SR:!2026-08-26,621,412!2026-07-26,595,412-->
@@ -1134,7 +1134,7 @@ The content is in teaching order. Extra information and corrections are included
     - [Hubble's law § interpretation](../../../../general/Hubble's%20law.md#interpretation) (mathematics) ::@:: $$\begin{aligned} v & = H d \\ d & = v / H \end{aligned} \,,$$ where $v$ is the recession velocity (can be measured using redshift), $d$ is the distance to Earth, and $H$ is the Hubble constant <!--SR:!2026-08-25,575,411!fsrs,2032-09-24T01:46:28.744Z,2302,2302.10323962,1,2,10,0,0,2026-06-06T01:46:28.744Z-->
     - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant ::@:: usually in units of (km/s)/Mpc; about 70 (km/s)/Mpc (lecture slides used 64 (km/s)/Mpc and other larger values) <!--SR:!2033-01-14,2495,411!2026-11-23,647,411-->
       - [Hubble's law](../../../../general/Hubble's%20law.md) / Hubble's constant / [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) (DES) ::@:: 67.77±1.30 (km/s)/Mpc (2018) <!--SR:!2029-02-19,1259,351!2028-12-21,1171,371-->
-        - [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) ::@:: It is a visible and near-infrared survey that uses a 4-meter telescope located in Chile. <!--SR:!2026-07-01,561,411!2026-06-26,517,391-->
+        - [Dark Energy Survey](../../../../general/Dark%20Energy%20Survey.md) ::@:: It is a visible and near-infrared survey that uses a 4-meter telescope located in Chile. <!--SR:!2026-07-01,561,411!fsrs,2032-12-14T00:00:00.000Z,2362,2361.7437203,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
 - not covered in the [final examination](final%20examination.md)
   - [cosmic distance ladder](../../../../general/cosmic%20distance%20ladder.md)
   - [Hubble's law](../../../../general/Hubble's%20law.md)

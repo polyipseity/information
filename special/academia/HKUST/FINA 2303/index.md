@@ -165,7 +165,7 @@ The content is in teaching order.
   - financial calculator / hints ::@:: Remember to clear out registers between different questions. <br/> Interest rate is usually in percentage. Avoid rounding off intermediate values: use registers to store values. <br/> Negative values are cash outflows while positive values are cash inflows. <!--SR:!2026-07-09,399,368!2028-08-02,991,368-->
 - time value of money
   - time value of money / finding number of periods ::@:: $N = \frac {\ln(FV / PV)} {\ln(1 + r)} = \frac {\ln FV - \ln PV} {\ln(1 + r)}$, which has units of period (usually year) <!--SR:!2026-07-17,406,368!2026-07-20,409,368-->
-  - time value of money / finding interest rate ::@:: $r = (FV / PV)^{1 / N} - 1$ <!--SR:!2026-06-26,387,368!2026-07-16,405,368-->
+  - time value of money / finding interest rate ::@:: $r = (FV / PV)^{1 / N} - 1$ <!--SR:!fsrs,2031-06-27T00:00:00.000Z,1826,1825.94095084,1,2,10,0,0,2026-06-27T00:00:00.000Z!2026-07-16,405,368-->
 - [rule of 72](../../../../general/rule%20of%2072.md) (or 70 or 69.3) ::@:: How long does it take to double your investment? This rule gives a rough approximation. <p> The rule states, to double your investment, the interest rate per period in _percentage_ multiplied by the number of periods should be approximately 72. <!--SR:!2028-08-06,994,368!2028-08-31,1014,368-->
 - [questions § week 2 lecture](questions.md#week%202%20lecture)
 - [TAPPS/week 2 lecture](assignments/TAPPS/week%202%20lecture.md)

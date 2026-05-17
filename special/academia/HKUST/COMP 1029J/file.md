@@ -31,7 +31,7 @@ One can read from or write to a text file using {@{`java.io.BufferedReader` or `
 
 ### reading text files
 
-Use {@{`java.nio.file.Files.newBufferedReader(path[, charset])` to read a text file}@}. For `charset`, if you leave it blank, {@{UTF-8 is used}@}. You can {@{use the system charset}@} by passing {@{`java.nio.charset.Charset.defaultCharset()`}@}. If needed, handle {@{exceptions reported by the above methods}@} using {@{methods in [error § catching exceptions](error.md#catching%20exceptions)}@}. <!--SR:!2034-01-18,2809,350!2027-03-18,860,330!2027-03-28,865,330!2026-06-26,100,376!2026-06-26,100,376!2026-06-28,102,379-->
+Use {@{`java.nio.file.Files.newBufferedReader(path[, charset])` to read a text file}@}. For `charset`, if you leave it blank, {@{UTF-8 is used}@}. You can {@{use the system charset}@} by passing {@{`java.nio.charset.Charset.defaultCharset()`}@}. If needed, handle {@{exceptions reported by the above methods}@} using {@{methods in [error § catching exceptions](error.md#catching%20exceptions)}@}. <!--SR:!2034-01-18,2809,350!2027-03-18,860,330!2027-03-28,865,330!fsrs,2028-01-20T00:00:00.000Z,572,571.84393688,1,2,8,0,0,2026-06-27T00:00:00.000Z!fsrs,2028-01-20T00:00:00.000Z,572,571.84393688,1,2,8,0,0,2026-06-27T00:00:00.000Z!2026-06-28,102,379-->
 
 To read a line, use {@{`reader.readLine()`}@}, which returns {@{`null` when the end of file has reached}@}. An example: <!--SR:!2031-07-29,2102,350!2027-04-14,433,393-->
 

@@ -379,7 +379,7 @@ tags:
 > 3. Sales discounts
 >
 > - solution: {@{2}@}
-> - explanation: {@{It is not even in the equation...}@} <!--SR:!2026-06-26,450,381!2026-06-29,453,381-->
+> - explanation: {@{It is not even in the equation...}@} <!--SR:!fsrs,2032-03-21T00:00:00.000Z,2094,2093.57484669,1,2,10,0,0,2026-06-27T00:00:00.000Z!2026-06-29,453,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -453,7 +453,7 @@ tags:
 > 2. weighted average
 > 3. specific identification
 >
-> - solution: {@{3}@} <!--SR:!2026-06-26,450,381-->
+> - solution: {@{3}@} <!--SR:!fsrs,2032-03-21T00:00:00.000Z,2094,2093.57484669,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

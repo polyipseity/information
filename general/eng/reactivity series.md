@@ -155,7 +155,7 @@ return chain.from_iterable([r.value for r in results])
 - [copper](copper.md)→::@::←[tungsten](tungsten.md) <!--SR:!2031-12-06,2236,290!2027-02-25,540,250-->
 - [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2028-06-21,964,250!2027-04-09,460,210-->
 - [mercury](mercury%20(element).md)→::@::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2031-06-18,1991,330-->
-- [silver](silver.md)→::@::←[gold](gold.md) <!--SR:!2026-06-26,904,330!2028-04-01,1423,350-->
+- [silver](silver.md)→::@::←[gold](gold.md) <!--SR:!fsrs,2035-10-19T00:00:00.000Z,3401,3400.58390811,1,2,11,0,0,2026-06-27T00:00:00.000Z!2028-04-01,1423,350-->
 - [gold](gold.md)→::@::←[platinum](platinum.md) <!--SR:!2028-01-27,1369,350!2027-04-17,1146,350-->
 - [platinum](platinum.md)→::@::←_(least reactive)_ <!--SR:!2027-03-09,1114,350!2026-08-30,892,330-->
 
