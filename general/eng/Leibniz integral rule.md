@@ -70,7 +70,7 @@ There are {@{innumerable other integrals}@} that can be {@{solved using the tech
 
 > __flashcards__
 >
-> - \(annotation: Dirichlet integral\) $\int _{0}^{\infty }{\frac {\sin x}{x} }\,dx$ ::@:: $\int _{0}^{\infty }e^{-\alpha x}{\frac {\sin x}{x} }dx$ \(annotation: Also requires proving the formula remains valid when $\alpha = 0$.\) <!--SR:!2026-10-16,362,356!2026-07-04,259,336-->
+> - \(annotation: Dirichlet integral\) $\int _{0}^{\infty }{\frac {\sin x}{x} }\,dx$ ::@:: $\int _{0}^{\infty }e^{-\alpha x}{\frac {\sin x}{x} }dx$ \(annotation: Also requires proving the formula remains valid when $\alpha = 0$.\) <!--SR:!2026-10-16,362,356!fsrs,2029-09-12T00:00:00.000Z,1165,1164.97957702,1,2,9,0,0,2026-07-05T00:00:00.000Z-->
 > - $\int _{0}^{\pi /2}{\frac {x}{\tan x} }\,dx$ ::@:: $\int _{0}^{\pi /2}{\frac {\tan ^{-1}(\alpha \tan x)}{\tan x} }dx$ <!--SR:!fsrs,2028-07-12T00:00:00.000Z,740,740.17900833,2.26795337,2,9,0,0,2026-07-03T00:00:00.000Z!fsrs,2029-09-01T00:00:00.000Z,1157,1157.16460634,1,2,9,0,0,2026-07-02T00:00:00.000Z-->
 > - $\int _{0}^{\infty }{\frac {\ln(1+x^{2})}{1+x^{2} } }\,dx$ ::@:: $\int _{0}^{\infty }{\frac {\ln(1+\alpha ^{2}x^{2})}{1+x^{2} } }dx$ <!--SR:!2026-08-18,314,356!2026-07-10,264,336-->
 > - $\int _{0}^{1}{\frac {x-1}{\ln x} }\,dx$ ::@:: $\int _{0}^{1}{\frac {x^{\alpha }-1}{\ln x} }dx$ <!--SR:!2029-03-16,1032,356!2027-05-16,346,316-->

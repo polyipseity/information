@@ -132,7 +132,7 @@ Flashcards for this section are as follows:
 - ESG board statement: what responsibility must the board acknowledge? ::@:: That the board itself is responsible for oversight of ESG issues. <!--SR:!2026-07-23,72,328!2026-07-23,72,328-->
 - ESG board statement: what three things should it cover? ::@:: Board responsibility, the board's ESG approach and processes, and how the board reviewed ESG performance during the year. <!--SR:!2026-07-22,71,328!2026-07-21,71,328-->
 - ESG reporting in Hong Kong: two requirement types ::@:: Mandatory disclosure (must disclose) and "comply or explain" disclosure (either comply or explain non‑compliance). <!--SR:!2026-07-07,57,310!2026-07-12,62,310-->
-- ESG board statement: three key elements ::@:: (1) Board's responsibility for ESG oversight; (2) board's approach, strategy and processes for managing ESG; (3) how the board reviewed ESG performance during the year. <!--SR:!2026-07-12,62,310!2026-07-04,54,310-->
+- ESG board statement: three key elements ::@:: (1) Board's responsibility for ESG oversight; (2) board's approach, strategy and processes for managing ESG; (3) how the board reviewed ESG performance during the year. <!--SR:!2026-07-12,62,310!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 - ESG: why "comply or explain" matters ::@:: Allows some flexibility, but weak or repeated explanations may signal poor ESG commitment to investors. <!--SR:!2026-07-08,58,310!2026-07-10,60,310-->
 
 ## reporting principles: materiality, KPIs, and consistency
@@ -147,10 +147,10 @@ ESG reporting in Hong Kong follows several reporting principles, especially:
 
 Flashcards for this section are as follows:
 
-- ESG reporting principle: materiality ::@:: Focus on ESG issues that are important both to the business and to stakeholders, typically identified using a materiality matrix. <!--SR:!2026-07-04,54,310!2026-07-16,66,310-->
-- materiality matrix axes ::@:: One axis (typically the _x_-axis) measures impact on the business; the other (typically the _y_-axis) measures impact on stakeholders; high–high issues are prioritised for disclosure. <!--SR:!2026-07-04,54,310!2026-07-11,61,310-->
-- ESG reporting principle: quantitative KPIs ::@:: Disclosures should include key performance indicators (e.g. emissions, energy use, accident rates), not just qualitative claims. <!--SR:!2026-07-06,56,310!2026-07-04,54,310-->
-- ESG reporting principle: consistency ::@:: Use consistent KPIs and methods over time; if they change, explain the reasons and, where possible, provide comparable data. <!--SR:!2026-07-07,57,310!2026-07-04,54,310-->
+- ESG reporting principle: materiality ::@:: Focus on ESG issues that are important both to the business and to stakeholders, typically identified using a materiality matrix. <!--SR:!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-16,66,310-->
+- materiality matrix axes ::@:: One axis (typically the _x_-axis) measures impact on the business; the other (typically the _y_-axis) measures impact on stakeholders; high–high issues are prioritised for disclosure. <!--SR:!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-11,61,310-->
+- ESG reporting principle: quantitative KPIs ::@:: Disclosures should include key performance indicators (e.g. emissions, energy use, accident rates), not just qualitative claims. <!--SR:!2026-07-06,56,310!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
+- ESG reporting principle: consistency ::@:: Use consistent KPIs and methods over time; if they change, explain the reasons and, where possible, provide comparable data. <!--SR:!2026-07-07,57,310!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 
 ## key performance indicators by aspect
 

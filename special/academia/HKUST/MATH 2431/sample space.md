@@ -44,7 +44,7 @@ Classic finite examples: tossing a coin gives $\Omega_1 = \{H, T\}$; rolling a d
 
 Flashcards for this section are as follows:
 
-- sample space for one coin toss ::@:: $\Omega = \{H, T\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-04,54,310!2026-07-18,68,321-->
+- sample space for one coin toss ::@:: $\Omega = \{H, T\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-18,68,321-->
 - sample space for one die roll ::@:: $\Omega = \{1, 2, 3, 4, 5, 6\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-06,56,310!2026-07-20,70,321-->
 - sample space for a combined experiment ::@:: Use Cartesian product: e.g. coin and die $\Omega_1 \times \Omega_2$; $|\Omega| = |\Omega_1| \cdot |\Omega_2|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-15,65,321!2026-07-19,69,321-->
 - sample space for $n$ coin tosses ::@:: $\Omega = \{H,T\}^n$; $|\Omega| = 2^n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-10,60,310!2026-07-22,72,321-->
@@ -58,7 +58,7 @@ Typical countably infinite sample spaces arise when the outcome is a nonnegative
 Flashcards for this section are as follows:
 
 - countably infinite sample space / number-of-customers model ::@:: A typical countably infinite sample space is $\mathbb{N}_0=\{0,1,2,\ldots\}$, used when the outcome is a count such as the number of customers or the number of arrivals in a time window. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-03-11T00:00:00.000Z,252,251.90041347,1.42996969,2,7,0,0,2026-07-02T00:00:00.000Z!2026-07-24,74,321-->
-- countably infinite sample space / first-success trial model ::@:: The trial number of the first success in repeated Bernoulli trials has sample space $\mathbb{N}$; this is infinite but countable because the possible values can be listed as $1,2,3,\ldots$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-04,57,310!2026-07-07,57,310-->
+- countably infinite sample space / first-success trial model ::@:: The trial number of the first success in repeated Bernoulli trials has sample space $\mathbb{N}$; this is infinite but countable because the possible values can be listed as $1,2,3,\ldots$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-07,57,310-->
 
 ## uncountable sample spaces
 

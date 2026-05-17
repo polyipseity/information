@@ -74,7 +74,7 @@ Another example of a pullback comes from {@{the theory of [fiber bundles](fiber%
 
 Suppose {@{_f_ : _A_ → _B_, _B_<sub>0</sub> ⊆ _B_}@}. Let {@{_g_ be the [inclusion map](inclusion%20map.md) _B_<sub>0</sub> ↪ _B_}@}. Then {@{a pullback of _f_ and _g_ \(in __Set__\)}@} is given by {@{the preimage _f_<sup>−1</sup>\[_B_<sub>0</sub>\]}@} together with {@{the inclusion of the preimage in _A_ <p> &emsp; _f_<sup>−1</sup>\[_B_<sub>0</sub>\] ↪ _A_ <p> and the restriction of _f_ to _f_<sup>−1</sup>\[_B_<sub>0</sub>\] <p> &emsp; _f_<sup>−1</sup>\[_B_<sub>0</sub>\] → _B_<sub>0</sub>}@}. <!--SR:!2029-09-23,1321,350!2029-09-10,1312,350!2029-07-15,1263,350!2029-03-09,1160,350!2027-04-06,558,310-->
 
-Because of {@{this example}@}, in {@{a general category}@} {@{the pullback of a morphism _f_ and a [monomorphism](monomorphism.md) _g_}@} can be thought of as {@{the "preimage" under _f_ of the [subobject](subobject.md) specified by _g_}@}. Similarly, {@{pullbacks of two monomorphisms}@} can be thought of as {@{the "intersection" of the two subobjects}@}. <!--SR:!2029-03-13,1164,350!2028-12-10,1097,350!2027-02-13,546,310!2027-05-29,612,290!2029-03-14,1165,350!2026-07-04,353,290-->
+Because of {@{this example}@}, in {@{a general category}@} {@{the pullback of a morphism _f_ and a [monomorphism](monomorphism.md) _g_}@} can be thought of as {@{the "preimage" under _f_ of the [subobject](subobject.md) specified by _g_}@}. Similarly, {@{pullbacks of two monomorphisms}@} can be thought of as {@{the "intersection" of the two subobjects}@}. <!--SR:!2029-03-13,1164,350!2028-12-10,1097,350!2027-02-13,546,310!2027-05-29,612,290!2029-03-14,1165,350!fsrs,2030-01-18T00:00:00.000Z,1293,1293.16613641,1.98030797,2,9,0,0,2026-07-05T00:00:00.000Z-->
 
 ### least common multiple
 

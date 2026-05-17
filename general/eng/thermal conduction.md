@@ -46,7 +46,7 @@ For simple applications, Fourier's law is used in its one-dimensional form:
 > - {@{$\frac{\partial Q}{\partial t}$}@} is {@{the [heat](heat.md) transferred per unit [time](time.md), in W}@}
 > - {@{$k$}@} is {@{the [thermal conductivity](thermal%20conductivity%20and%20resistivity.md), in W⋅m<sup>-1</sup>⋅K<sup>-1</sup>}@}
 > - {@{$\nabla T$}@} is {@{the [temperature gradient](temperature%20gradient.md), in K⋅m<sup>-1</sup>}@}
-> - {@{$\mathrm{d}\mathbf{S}$}@} is {@{a [vector area](vector%20area.md) element, in m<sup>2</sup>}@} <!--SR:!2026-07-04,554,250!2028-07-24,1307,350!2027-08-03,986,310!2031-09-18,2123,330!2026-10-01,728,330!2027-06-07,453,381!2027-05-19,438,381!2027-05-15,435,381!2026-12-10,305,361-->
+> - {@{$\mathrm{d}\mathbf{S}$}@} is {@{a [vector area](vector%20area.md) element, in m<sup>2</sup>}@} <!--SR:!fsrs,2029-08-06T00:00:00.000Z,1128,1127.80216012,5.48972837,2,10,0,0,2026-07-05T00:00:00.000Z!2028-07-24,1307,350!2027-08-03,986,310!2031-09-18,2123,330!2026-10-01,728,330!2027-06-07,453,381!2027-05-19,438,381!2027-05-15,435,381!2026-12-10,305,361-->
 
 For simple applications where the material is [homogeneous](homogeneity%20and%20heterogeneity.md) between two endpoints at constant [temperature](temperature.md), the above can be [integrated](integral.md) to give:
 

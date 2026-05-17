@@ -85,7 +85,7 @@ Here x is {@{a variable}@} and b is {@{a constant}@}. {@{$${\frac {P(x),Q(x)\,\,
 
 ### informal explanation
 
-In {@{first-order logic}@}, resolution condenses {@{the traditional [syllogisms](syllogism.md) of [logical inference](rule%20of%20inference.md) down to a single rule}@}. <!--SR:!2026-07-04,285,330!2029-04-19,1082,350-->
+In {@{first-order logic}@}, resolution condenses {@{the traditional [syllogisms](syllogism.md) of [logical inference](rule%20of%20inference.md) down to a single rule}@}. <!--SR:!fsrs,2029-11-27T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-07-05T00:00:00.000Z!2029-04-19,1082,350-->
 
 To understand {@{how resolution works}@}, consider {@{the following example syllogism of [term logic](term%20logic.md)}@}: <!--SR:!2029-08-16,1176,350!2029-06-02,1116,350-->
 
@@ -140,7 +140,7 @@ For another example, consider the syllogistic form
 >
 > All Cretans are islanders. <br/>
 > All islanders are liars. <br/>
-> Therefore all Cretans are liars. <!--SR:!2026-07-04,286,330-->
+> Therefore all Cretans are liars. <!--SR:!fsrs,2029-11-30T00:00:00.000Z,1244,1244.40857912,1,2,9,0,0,2026-07-05T00:00:00.000Z-->
 
 Or more generally,
 
@@ -169,7 +169,7 @@ Now, unifying {@{_Q_\(_X_\) in the first clause with ¬<!-- markdown separator -
 
 An example for {@{an unsatisfiable clause set for which factoring is needed to derive the empty clause}@} is: {@{$${\begin{array}{rlcl}(1):&P(u)&\lor &P(f(u))\\(2):&\lnot P(v)&\lor &P(f(w))\\(3):&\lnot P(x)&\lor &\lnot P(f(x))\\\end{array} }$$}@} <!--SR:!fsrs,2029-10-31T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-06-27T00:00:00.000Z!fsrs,2029-11-10T00:00:00.000Z,1229,1229.25786194,1,2,9,0,0,2026-06-30T00:00:00.000Z-->
 
-Since {@{each clause consists of two literals}@}, so does {@{each possible resolvent}@}. Therefore, by {@{resolution without factoring}@}, {@{the empty clause can never be obtained}@}. Using {@{factoring}@}, it {@{can be obtained}@} e.g. as follows:<sup>[\[7\]](#^ref-7)</sup> {@{$${\begin{array}{rll}(4):&P(u)\lor P(f(w))&{\text{by resolving (1) and (2), with } }v=f(u)\\(5):&P(f(w))&{\text{by factoring (4), with } }u=f(w)\\(6):&\lnot P(f(f(w')))&{\text{by resolving (5) and (3), with } }w=w',x=f(w')\\(7):&{\text{false} }&{\text{by resolving (5) and (6), with } }w=f(w')\\\end{array} }$$}@} <!--SR:!fsrs,2029-09-04T02:19:53.360Z,1178,1178.42810815,1,2,9,0,0,2026-06-14T02:19:53.360Z!2026-07-04,286,330!2029-08-25,1183,350!2029-05-24,1108,350!fsrs,2029-08-10T00:57:56.031Z,1161,1160.74715681,1,2,9,0,0,2026-06-06T00:57:56.031Z!2028-02-10,718,330!2028-09-20,874,330-->
+Since {@{each clause consists of two literals}@}, so does {@{each possible resolvent}@}. Therefore, by {@{resolution without factoring}@}, {@{the empty clause can never be obtained}@}. Using {@{factoring}@}, it {@{can be obtained}@} e.g. as follows:<sup>[\[7\]](#^ref-7)</sup> {@{$${\begin{array}{rll}(4):&P(u)\lor P(f(w))&{\text{by resolving (1) and (2), with } }v=f(u)\\(5):&P(f(w))&{\text{by factoring (4), with } }u=f(w)\\(6):&\lnot P(f(f(w')))&{\text{by resolving (5) and (3), with } }w=w',x=f(w')\\(7):&{\text{false} }&{\text{by resolving (5) and (6), with } }w=f(w')\\\end{array} }$$}@} <!--SR:!fsrs,2029-09-04T02:19:53.360Z,1178,1178.42810815,1,2,9,0,0,2026-06-14T02:19:53.360Z!fsrs,2029-11-30T00:00:00.000Z,1244,1244.40857912,1,2,9,0,0,2026-07-05T00:00:00.000Z!2029-08-25,1183,350!2029-05-24,1108,350!fsrs,2029-08-10T00:57:56.031Z,1161,1160.74715681,1,2,9,0,0,2026-06-06T00:57:56.031Z!2028-02-10,718,330!2028-09-20,874,330-->
 
 ## non-clausal resolution
 

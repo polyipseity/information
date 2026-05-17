@@ -184,7 +184,7 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
   - \(annotation: {@{equivalent to}@} AC\) {@{Baer's criterion}@}: {@{Every [divisible abelian group](divisible%20group.md)}@} is {@{[injective](injective%20module.md) \(annotation: injective module\)}@}.<sup>[\[24\]](#^ref-24)</sup> <!--SR:!2026-10-07,313,347!fsrs,2028-12-17T02:13:56.515Z,917,916.92530114,1,2,9,0,0,2026-06-14T02:13:56.515Z!2028-01-01,657,344!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
-  - \(annotation: {@{equivalent to}@} AC\) {@{Every set}@} is {@{a [projective object](projective%20object.md)}@} in {@{the [category](category%20(mathematics).md) __[Set](category%20of%20sets.md)__ of sets}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2027-01-09,391,364!2026-07-04,238,344!2026-09-18,297,347!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
+  - \(annotation: {@{equivalent to}@} AC\) {@{Every set}@} is {@{a [projective object](projective%20object.md)}@} in {@{the [category](category%20(mathematics).md) __[Set](category%20of%20sets.md)__ of sets}@}.<sup>[\[25\]](#^ref-25)</sup><sup>[\[26\]](#^ref-26)</sup> <!--SR:!2027-01-09,391,364!fsrs,2029-07-21T00:00:00.000Z,1112,1111.57583707,1,2,9,0,0,2026-07-05T00:00:00.000Z!2026-09-18,297,347!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
 - [Functional analysis](functional%20analysis.md)
 
@@ -274,7 +274,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
   - \(annotation: {@{weaker than}@} AC\) {@{The theorem}@} that {@{every [Hilbert space](Hilbert%20space.md)}@} has {@{an orthonormal basis}@}. <!--SR:!2026-11-08,337,347!2026-10-21,324,347!2027-01-03,386,364!fsrs,2028-06-18T02:14:04.684Z,735,735.10222202,1,2,8,0,0,2026-06-14T02:14:04.684Z-->
 
-  - \(annotation: {@{weaker than}@} AC\) {@{The [Banach–Alaoglu theorem](Banach–Alaoglu%20theorem.md)}@} about {@{[compactness](compactness.md)}@} of {@{sets of functionals}@}. <!--SR:!2026-07-04,234,330!2026-11-30,359,364!2026-09-30,308,347!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
+  - \(annotation: {@{weaker than}@} AC\) {@{The [Banach–Alaoglu theorem](Banach–Alaoglu%20theorem.md)}@} about {@{[compactness](compactness.md)}@} of {@{sets of functionals}@}. <!--SR:!fsrs,2029-05-15T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-05T00:00:00.000Z!2026-11-30,359,364!2026-09-30,308,347!fsrs,2028-09-07T00:00:00.000Z,801,800.67662099,1,2,8,0,0,2026-06-29T00:00:00.000Z-->
 
   - \(annotation: {@{weaker than}@} AC\) {@{The [Baire category theorem](Baire%20category%20theorem.md)}@} about {@{[complete](complete%20space.md) [metric spaces](metric%20space.md)}@}, and {@{its consequences}@}, such as {@{the [open mapping theorem](open%20mapping%20theorem%20(functional%20analysis).md) and the [closed graph theorem](closed%20graph%20theorem.md)}@}. <!--SR:!2026-09-30,308,347!2027-01-09,391,364!2026-11-10,339,347!2026-07-16,179,344!fsrs,2028-09-12T00:00:00.000Z,805,805.32875921,1,2,8,0,0,2026-06-30T00:00:00.000Z-->
 

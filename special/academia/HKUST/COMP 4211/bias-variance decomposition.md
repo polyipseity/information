@@ -191,7 +191,7 @@ This section is also a good place to connect the pictures back to the decomposit
 Flashcards for this section are as follows:
 
 - low-degree picture ::@:: In the low-degree case, the fitted models look similar across datasets, which means low variance, but their average remains far from the true function, which means high bias. <!--SR:!2026-07-10,63,310!2026-07-14,67,310-->
-- high-degree picture ::@:: In the high-degree case, the fitted models vary sharply across datasets, which means high variance, even though their average can track the true function fairly well. <!--SR:!2026-07-04,57,310!2026-07-07,60,310-->
+- high-degree picture ::@:: In the high-degree case, the fitted models vary sharply across datasets, which means high variance, even though their average can track the true function fairly well. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-07,60,310-->
 - intermediate-capacity picture ::@:: An intermediate-capacity model can achieve low generalization error by keeping both bias and variance at moderate levels. <!--SR:!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z!2026-07-08,61,310-->
 - method that is stable but wrong ::@:: A high-bias method is often stable across training sets yet systematically misses the true pattern. <!--SR:!2026-07-12,65,310!2026-07-07,60,310-->
 - method that is expressive but unstable ::@:: A high-variance method can represent the target well on average but fluctuate too much from one sampled dataset to another because its many adjustable parameters react strongly to sample noise. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!2026-07-12,65,310-->
@@ -238,7 +238,7 @@ These three tools affect the decomposition in different ways. Cross-validation d
 
 Flashcards for this section are as follows:
 
-- why cross-validation helps with bias-variance trade-off ::@:: Cross-validation helps select model complexity or regularization strength by estimating expected generalization performance on held-out data rather than relying on training error. <!--SR:!2026-07-09,62,310!2026-07-04,57,310-->
+- why cross-validation helps with bias-variance trade-off ::@:: Cross-validation helps select model complexity or regularization strength by estimating expected generalization performance on held-out data rather than relying on training error. <!--SR:!2026-07-09,62,310!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 - regularization effect on bias and variance: What does increasing $\lambda$ in a penalty such as training loss $+\lambda\|w\|_2^2$ usually do? ::@:: Regularization usually increases bias somewhat but decreases variance, which can improve generalization when variance was the bigger problem. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z-->
 - danger of over-regularization ::@:: Too much regularization can raise bias so much that the model underfits and generalization worsens. <!--SR:!2026-07-08,61,310!2026-07-06,59,310-->
 - effect of more data on variance ::@:: Increasing sample size usually reduces variance because the learned model fluctuates less across different sampled training sets. <!--SR:!2026-07-10,63,310!2026-07-12,65,310-->
@@ -265,7 +265,7 @@ Flashcards for this section are as follows:
 
 - PAC meaning: What does PAC stand for, and in one sentence, what is the goal of PAC learning theory? ::@:: PAC stands for _probably approximately correct_. <!--SR:!2026-07-11,64,310!2026-07-13,66,310-->
 - PAC interpretation with $\epsilon$ and $\delta$: What do "approximately correct" and "probably" mean in PAC learning? ::@:: "Approximately correct" means the learned hypothesis has generalization error at most $\epsilon$, and "probably" means this happens with probability at least $1-\delta$ once the sample size is large enough. <!--SR:!2026-07-11,64,310!2026-07-14,67,310-->
-- PAC learning relation to bias-variance decomposition ::@:: Bias-variance decomposition explains why generalization error arises and what components dominate, whereas PAC learning gives finite-sample, worst-case-style guarantees about when a learner will probably generalize well. <!--SR:!2026-07-04,57,310!2026-07-07,60,310-->
+- PAC learning relation to bias-variance decomposition ::@:: Bias-variance decomposition explains why generalization error arises and what components dominate, whereas PAC learning gives finite-sample, worst-case-style guarantees about when a learner will probably generalize well. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-07,60,310-->
 - model capacity in PAC versus bias-variance language ::@:: In bias-variance language, high capacity can raise variance; in PAC language, a richer hypothesis class usually requires more samples to guarantee small generalization error. <!--SR:!2026-07-14,67,310!2026-07-08,61,310-->
 
 ### modern scaling-law remark
@@ -323,10 +323,10 @@ The detailed procedures, formulas, and concrete examples are developed in the de
 
 Flashcards for this section are as follows:
 
-- what ensemble learning means ::@:: Ensemble learning means combining several base learners into one predictor so the final model can be more stable or more expressive than any single component. <!--SR:!2026-07-04,57,310!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
+- what ensemble learning means ::@:: Ensemble learning means combining several base learners into one predictor so the final model can be more stable or more expressive than any single component. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
 - base learner versus weak learner ::@:: A base learner is one component model inside an ensemble; a weak learner is a deliberately simple base learner that may be only slightly better than a trivial baseline but can still be powerful when combined with others. <!--SR:!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z!2026-07-14,67,310-->
 - decomposition as design guide ::@:: The bias-variance viewpoint helps diagnose whether a method needs more flexibility, more stability, or both. <!--SR:!2026-07-08,61,310!2026-07-14,67,310-->
-- bagging versus boosting intuition ::@:: Mechanically, bagging trains learners in parallel on perturbed datasets and averages them, while boosting trains learners sequentially so each new learner corrects earlier mistakes; bagging mainly adds stability, whereas boosting mainly adds strength. <!--SR:!2026-07-05,58,310!2026-07-04,57,310-->
+- bagging versus boosting intuition ::@:: Mechanically, bagging trains learners in parallel on perturbed datasets and averages them, while boosting trains learners sequentially so each new learner corrects earlier mistakes; bagging mainly adds stability, whereas boosting mainly adds strength. <!--SR:!2026-07-05,58,310!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 
 ### bagging as variance reduction
 
@@ -357,7 +357,7 @@ Flashcards for this section are as follows:
 - bagging procedure steps ::@:: A standard bagging workflow is: (1) draw many bootstrap samples, (2) train the same base learner on each sample independently, (3) evaluate all learners on a new input, and (4) aggregate by averaging, voting, or probability averaging. <!--SR:!fsrs,2027-01-19T00:00:00.000Z,212,212.12111008,1.98030797,2,6,0,0,2026-06-21T00:00:00.000Z!2026-07-09,62,310-->
 - idealized variance reduction in bagging: If $B$ base predictions are independent and each has variance $\sigma^2$, what is the variance of their average? ::@:: If $B$ base predictions were independent and each had variance $\sigma^2$, then averaging them would give variance $\sigma^2/B$, which shows why aggregation reduces instability. <!--SR:!2026-07-05,58,310!2026-07-10,63,310-->
 - correlated-error variance formula for bagging: If common variance is $\sigma^2$ and pairwise correlation is $\rho$, what is $\operatorname{Var}(\frac{1}{B}\sum_{b=1}^B h_b)$? ::@:: If bagged base learners have common variance $\sigma^2$ and pairwise correlation $\rho$, then $\operatorname{Var}(\frac{1}{B}\sum_{b=1}^B h_b)=\rho\sigma^2+\frac{1-\rho}{B}\sigma^2$, so bagging helps most when base learners are unstable but not too strongly correlated. <!--SR:!2026-07-11,64,310!2026-07-06,59,310-->
-- bagging tax-survey analogy ::@:: Bagging is like repeating a noisy survey-based estimate many times and averaging the answers so the final estimate fluctuates less. <!--SR:!2026-07-04,57,310!2026-07-10,63,310-->
+- bagging tax-survey analogy ::@:: Bagging is like repeating a noisy survey-based estimate many times and averaging the answers so the final estimate fluctuates less. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-10,63,310-->
 - when bagging is most useful ::@:: Bagging is most useful for unstable base learners whose predictions vary noticeably across resampled datasets. <!--SR:!fsrs,2027-01-14T00:00:00.000Z,208,207.99125421,1.98030797,2,6,0,0,2026-06-20T00:00:00.000Z!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z-->
 - concrete bagging examples ::@:: Typical bagging examples are averaging many decision trees for house-price regression or using majority vote across many trees for classification tasks such as spam filtering or diagnosis. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!2026-07-12,65,310-->
 
@@ -382,7 +382,7 @@ There is an important caveat: although boosting is often described as bias reduc
 Flashcards for this section are as follows:
 
 - initial weighting in boosting ::@:: Boosting typically begins by assigning equal weights to all training examples before any learner is trained. <!--SR:!2026-07-08,61,310!2026-07-14,67,310-->
-- why weights are increased on mistakes ::@:: Boosting raises the weights of misclassified or poorly fitted examples so later learners focus on cases the current ensemble still handles badly. <!--SR:!2026-07-06,59,310!2026-07-04,57,310-->
+- why weights are increased on mistakes ::@:: Boosting raises the weights of misclassified or poorly fitted examples so later learners focus on cases the current ensemble still handles badly. <!--SR:!2026-07-06,59,310!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
 - final form of a boosting model: What does a stagewise additive model $F_T(x)$ look like? ::@:: A boosting model is a weighted combination such as $F_T(x)=\sum_{t=1}^T \alpha_t h_t(x)$ of a sequence of base learners trained in successive rounds. <!--SR:!2026-07-06,59,310!2026-07-13,66,310-->
 - what a weak learner means in boosting ::@:: A weak learner is a base learner that may be only slightly better than naive guessing, but boosting can combine many such learners into a strong ensemble. <!--SR:!2026-07-13,66,310!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z-->
 - boosting intuition in words ::@:: Boosting works sequentially: after one learner makes mistakes, the next learner is pushed to focus on those hard cases, so the ensemble gradually corrects its own residual errors and becomes stronger. <!--SR:!2026-07-05,58,310!2026-07-05,58,310-->

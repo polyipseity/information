@@ -56,7 +56,7 @@ See [`FP-growth algorithm.py`](attachments/FP-growth%20algorithm.py) for a runna
 
 Time-wise, building the FP-tree {@{only requires one (or two, depending on how you define "scan") scan, and inserting one transaction into the FP-tree only grows with the number of frequent items in the transaction}@}. This is good especially if {@{the entire database is IO-bounded and too large to be fitted into memory}@}. <!--SR:!2029-07-05,1450,330!2029-05-20,1380,310-->
 
-Space-wise, the FP-tree size, i.e. number of nodes, is {@{bounded by the number of frequent item set patterns, and is usually much less than the bound}@}. The height of the FP-tree, is {@{bounded by the maximum number of items in a frequent item set}@}. This is good because it means {@{the FP-tree can be fitted into memory even if the database is very large}@}. <!--SR:!2027-08-07,821,270!2027-01-16,681,270!2026-07-04,594,310-->
+Space-wise, the FP-tree size, i.e. number of nodes, is {@{bounded by the number of frequent item set patterns, and is usually much less than the bound}@}. The height of the FP-tree, is {@{bounded by the maximum number of items in a frequent item set}@}. This is good because it means {@{the FP-tree can be fitted into memory even if the database is very large}@}. <!--SR:!2027-08-07,821,270!2027-01-16,681,270!fsrs,2032-07-12T00:00:00.000Z,2199,2198.76219309,1,2,10,0,0,2026-07-05T00:00:00.000Z-->
 
 ## references
 

@@ -102,7 +102,7 @@ The content is in teaching order.
     - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2030-10-18,1817,352!2033-09-22,2793,415-->
       - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2026-09-16,648,330-->
       - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2030-01-29,1589,315!2030-06-07,1790,394-->
-      - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!2026-07-04,612,310!2028-01-27,1074,374-->
+      - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!fsrs,2032-09-08T00:00:00.000Z,2257,2257.13049001,1,2,10,0,0,2026-07-05T00:00:00.000Z!2028-01-27,1074,374-->
 
 ## oversized data
 

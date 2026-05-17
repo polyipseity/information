@@ -41,7 +41,7 @@ Carmichael proved {@{two theorems that, together}@}, establish that if {@{_λ_\(
 
 This implies that {@{the order of every element of the multiplicative group of integers modulo _n_ divides _λ_\(_n_\)}@}. Carmichael calls {@{an element _a_ for which $a^{\lambda (n)}$ is the least power of _a_ congruent to 1 \(mod _n_\)}@} {@{a _primitive λ-root modulo n_}@}.<sup>[\[3\]](#^ref-3)</sup> \(This is {@{not to be confused with a [primitive root modulo _n_](primitive%20root%20modulo%20n.md)}@}, which Carmichael sometimes refers to as {@{a primitive $\varphi$-root modulo _n_}@}.\) <!--SR:!2027-03-22,609,321!2027-04-03,619,321!2030-05-06,1539,361!2027-07-26,722,330!2030-06-15,1571,361-->
 
-> Theorem 2 ::@:: — For every positive integer _n_ there exists a primitive _λ_-root modulo _n_. Moreover, if _g_ is such a root, then there are $\varphi (\lambda (n))$ primitive _λ_-roots that are congruent to powers of _g_.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2027-04-05,613,321!2026-07-04,423,321-->
+> Theorem 2 ::@:: — For every positive integer _n_ there exists a primitive _λ_-root modulo _n_. Moreover, if _g_ is such a root, then there are $\varphi (\lambda (n))$ primitive _λ_-roots that are congruent to powers of _g_.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2027-04-05,613,321!fsrs,2031-02-26T00:00:00.000Z,1697,1697.26961733,1,2,10,0,0,2026-07-05T00:00:00.000Z-->
 
 If {@{_g_ is one of the primitive _λ_-roots guaranteed by the theorem}@}, then {@{$g^{m}\equiv 1{\pmod {n} }$ has no positive integer solutions _m_ less than _λ_\(_n_\)}@}, showing that {@{there is no positive _m_ \< _λ_\(_n_\) such that $a^{m}\equiv 1{\pmod {n} }$ for all _a_ relatively prime to _n_}@}. <!--SR:!2028-12-06,1123,350!2030-04-15,1521,361!2030-04-08,1438,321-->
 
@@ -57,7 +57,7 @@ In this section, {@{an [integer](integer.md) $n$ is divisible by a nonzero integ
 
 Suppose {@{_a<sup>m</sup>_ ≡ 1 \(mod _n_\) for all numbers _a_ coprime with _n_}@}. Then {@{_λ_\(_n_\) \| _m_}@}. <!--SR:!2030-06-08,1565,361!2030-06-17,1573,361-->
 
-__Proof:__ If {@{_m_ = _kλ_\(_n_\) + _r_ with 0 ≤ _r_ \< _λ_\(_n_\)}@}, then {@{$$a^{r}=1^{k}\cdot a^{r}\equiv \left(a^{\lambda (n)}\right)^{k}\cdot a^{r}=a^{k\lambda (n)+r}=a^{m}\equiv 1{\pmod {n} }$$ for all numbers _a_ coprime with _n_}@}. It follows that {@{_r_ = 0}@} since {@{_r_ \< _λ_\(_n_\) and _λ_\(_n_\)}@} is {@{the minimal positive exponent for which the congruence holds for all _a_ coprime with _n_}@}. <!--SR:!2029-01-23,1162,350!2030-04-19,1526,361!2029-01-10,1073,341!2026-07-04,121,393!2026-07-08,124,393-->
+__Proof:__ If {@{_m_ = _kλ_\(_n_\) + _r_ with 0 ≤ _r_ \< _λ_\(_n_\)}@}, then {@{$$a^{r}=1^{k}\cdot a^{r}\equiv \left(a^{\lambda (n)}\right)^{k}\cdot a^{r}=a^{k\lambda (n)+r}=a^{m}\equiv 1{\pmod {n} }$$ for all numbers _a_ coprime with _n_}@}. It follows that {@{_r_ = 0}@} since {@{_r_ \< _λ_\(_n_\) and _λ_\(_n_\)}@} is {@{the minimal positive exponent for which the congruence holds for all _a_ coprime with _n_}@}. <!--SR:!2029-01-23,1162,350!2030-04-19,1526,361!2029-01-10,1073,341!fsrs,2028-05-08T00:00:00.000Z,673,673.406745,1,2,8,0,0,2026-07-05T00:00:00.000Z!2026-07-08,124,393-->
 
 ### _λ_\(_n_\) divides _φ_\(_n_\)
 
@@ -148,7 +148,7 @@ For {@{a constant _c_ and any sufficiently large positive _A_, there exists an i
 
 ### image of the function
 
-The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2027-02-08,459,241!2026-07-04,152,150-->
+The set of values of the Carmichael function has {@{counting function<sup>[\[12\]](#^ref-12)</sup> $${\frac {x}{(\ln x)^{\eta +o(1)} } },$$}@} where {@{$$\eta =1-{\frac {1+\ln \ln 2}{\ln 2} }\approx 0.08607$$}@} <!--SR:!2027-02-08,459,241!fsrs,2027-02-04T00:00:00.000Z,214,214.34750854,9.23597837,2,8,0,0,2026-07-05T00:00:00.000Z-->
 
 ## use in cryptography
 

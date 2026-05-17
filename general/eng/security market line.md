@@ -19,7 +19,7 @@ tags:
 
 ## formula
 
-{@{The Y-intercept of the SML}@} is equal to {@{the [risk-free interest rate](risk-free%20interest%20rate.md)}@}. {@{The slope of the SML}@} is equal to {@{the market [risk premium](risk%20premium.md)}@} and reflects {@{the risk return tradeoff at a given time}@}: {@{$$\mathrm {SML} :E(R_{i})=R_{f}+\beta _{i}[E(R_{M})-R_{f}]\,$$}@} <!--SR:!2029-08-01,1161,350!fsrs,2029-09-24T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-06-17T00:00:00.000Z!2029-05-08,1096,350!2026-07-04,286,330!2029-06-26,1134,350!fsrs,2029-10-09T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-21T00:00:00.000Z-->
+{@{The Y-intercept of the SML}@} is equal to {@{the [risk-free interest rate](risk-free%20interest%20rate.md)}@}. {@{The slope of the SML}@} is equal to {@{the market [risk premium](risk%20premium.md)}@} and reflects {@{the risk return tradeoff at a given time}@}: {@{$$\mathrm {SML} :E(R_{i})=R_{f}+\beta _{i}[E(R_{M})-R_{f}]\,$$}@} <!--SR:!2029-08-01,1161,350!fsrs,2029-09-24T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-06-17T00:00:00.000Z!2029-05-08,1096,350!fsrs,2029-11-30T00:00:00.000Z,1244,1244.40857912,1,2,9,0,0,2026-07-05T00:00:00.000Z!2029-06-26,1134,350!fsrs,2029-10-09T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-06-21T00:00:00.000Z-->
 
 where:
 

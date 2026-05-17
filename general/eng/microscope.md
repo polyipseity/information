@@ -23,7 +23,7 @@ A optical microscope contains {@{one or more convex [lens](lens.md)}@}. The set 
 
 - see: [electron microscope](electron%20microscope.md)
 
-The two main types of electron microscopes are {@{[transmission electron microscopes](transmission%20electron%20microscope.md) (TEMs) and [scanning electron microscopes](scanning%20electron%20microscope.md) (SEMs)}@}. They both have {@{electromagnetic and electrostatic lenses}@}. <!--SR:!2028-10-07,1423,330!2026-07-04,786,310-->
+The two main types of electron microscopes are {@{[transmission electron microscopes](transmission%20electron%20microscope.md) (TEMs) and [scanning electron microscopes](scanning%20electron%20microscope.md) (SEMs)}@}. They both have {@{electromagnetic and electrostatic lenses}@}. <!--SR:!2028-10-07,1423,330!fsrs,2034-03-17T00:00:00.000Z,2812,2812.07160213,1,2,11,0,0,2026-07-05T00:00:00.000Z-->
 
 In {@{TEMs}@}, {@{high energy \(40 to 400 keV\) [electrons](electron.md)}@} pass through, {@{in order, condenser lens, a very thin \(less than 100 nm\) sample, objective lens}@}, {@{projector lens, and viewing screen}@}. {@{Drawbacks of TEMs}@} include {@{requiring a very thin sample and an ultra-high [vacuum](vacuum.md)}@} to {@{transmit electrons through and avoid deflection}@}, and {@{the sample}@} may be {@{damaged by fast-moving electrons}@}. <!--SR:!2032-11-27,2519,310!2027-12-11,696,190!fsrs,2028-04-27T00:00:00.000Z,665,665.0136106,5.98276817,2,9,0,0,2026-07-02T00:00:00.000Z!2027-03-24,415,370!2027-02-06,375,370!2027-03-21,412,370!2027-03-20,411,370!2027-02-18,387,370!2027-03-19,410,370-->
 

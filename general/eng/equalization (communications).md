@@ -47,7 +47,7 @@ In {@{[digital communications](digital%20communications.md)}@}, {@{the equalizer
 
 - {@{[Decision feedback equalizer](decision%20feedback%20equalizer.md)}@}: {@{augments a linear equalizer}@} by adding {@{a filtered version of previous symbol estimates}@} to {@{the original filter output}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-09-09,286,330!2026-07-22,249,330!2026-07-20,247,330!2026-09-05,282,330-->
 
-- {@{[Blind equalizer](blind%20equalization.md)}@}: {@{estimates the transmitted signal}@} {@{without knowledge of the channel statistics}@}, using {@{only knowledge of the transmitted signal's statistics}@}. <!--SR:!2026-07-04,234,330!2026-07-14,242,330!2026-09-14,291,330!2026-08-12,265,330-->
+- {@{[Blind equalizer](blind%20equalization.md)}@}: {@{estimates the transmitted signal}@} {@{without knowledge of the channel statistics}@}, using {@{only knowledge of the transmitted signal's statistics}@}. <!--SR:!fsrs,2029-05-15T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-05T00:00:00.000Z!2026-07-14,242,330!2026-09-14,291,330!2026-08-12,265,330-->
 
 - {@{[Adaptive equalizer](adaptive%20equalizer.md)}@}: is typically {@{a linear equalizer or a DFE}@}. It {@{updates the equalizer parameters \(such as the filter coefficients\)}@} as {@{it processes the data}@}. Typically, it uses {@{the MSE cost function}@}; it assumes that it {@{makes the correct symbol decisions}@}, and uses {@{its estimate of the symbols to compute e}@}, which is defined above. <!--SR:!2026-07-29,255,330!2026-08-08,262,330!2026-08-20,272,330!2026-08-24,275,330!2026-08-21,272,330!2026-09-11,288,330!2026-08-23,274,330-->
 

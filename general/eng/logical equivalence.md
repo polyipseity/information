@@ -13,7 +13,7 @@ In [logic](logic.md) and [mathematics](mathematics.md), statements $p$ and $q$ a
 
 ## logical equivalences
 
-In logic, many common logical equivalences {@{exist and are often listed as laws or properties}@}. The following tables illustrate some of these. <!--SR:!2026-07-04,464,309-->
+In logic, many common logical equivalences {@{exist and are often listed as laws or properties}@}. The following tables illustrate some of these. <!--SR:!fsrs,2031-05-04T00:00:00.000Z,1764,1764.32731638,1.02972367,2,10,0,0,2026-07-05T00:00:00.000Z-->
 
 ### general logical equivalences
 

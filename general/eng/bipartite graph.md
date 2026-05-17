@@ -129,7 +129,7 @@ In {@{[projective geometry](projective%20geometry.md)}@}, {@{[Levi graphs](levi%
 - [bipartite dimension](bipartite%20dimension.md), ::@:: the minimum number of complete bipartite graphs whose union is the given graph <!--SR:!2029-04-15,1197,310!2027-02-19,617,310-->
 - [bipartite double cover](bipartite%20double%20cover.md), ::@:: a way of transforming any graph into a bipartite graph by doubling its vertices <!--SR:!2026-08-21,456,310!2027-12-15,854,330-->
 - [bipartite hypergraph](bipartite%20hypergraph.md), ::@:: a generalization of bipartiteness to [hypergraphs](hypergraph.md). <!--SR:!2027-02-19,638,330!2028-01-27,847,330-->
-- [bipartite matroid](bipartite%20matroid.md), ::@:: a class of matroids that includes the [graphic matroids](graphic%20matroid.md) of bipartite graphs <!--SR:!2026-07-04,447,310!2028-01-02,867,330-->
+- [bipartite matroid](bipartite%20matroid.md), ::@:: a class of matroids that includes the [graphic matroids](graphic%20matroid.md) of bipartite graphs <!--SR:!fsrs,2031-03-15T00:00:00.000Z,1714,1713.70305009,1,2,10,0,0,2026-07-05T00:00:00.000Z!2028-01-02,867,330-->
 - [bipartite network projection](bipartite%20network%20projection.md), ::@:: a weighting technique for compressing information about bipartite networks <!--SR:!2029-02-25,1166,310!2030-09-13,1569,330-->
 - [convex bipartite graph](convex%20bipartite%20graph.md), ::@:: a bipartite graph whose vertices can be ordered so that the vertex neighborhoods are contiguous <!--SR:!2029-05-20,1123,270!2027-03-02,539,270-->
 - [multipartite graph](multipartite%20graph.md), ::@:: a generalization of bipartite graphs to more than two subsets of vertices <!--SR:!2027-08-07,753,330!2027-02-15,634,330-->

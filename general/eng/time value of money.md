@@ -181,7 +181,7 @@ Rates are sometimes {@{converted into the [continuous compound interest](continu
 
 {@{Using continuous compounding}@} yields {@{the following formulas for various instruments}@}: (annotation: replace {@{$i$ and $g$ for discrete compounding with respectively $e^r - 1$ and $e^g - 1$}@}) <!--SR:!2029-10-07,1317,350!2029-02-10,1126,350!2029-04-01,1169,350-->
 
-__Annuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A(1-e^{-rt}) \over e^{r}-1}$$ <!--SR:!2027-01-25,459,270!2026-07-04,280,250-->
+__Annuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A(1-e^{-rt}) \over e^{r}-1}$$ <!--SR:!2027-01-25,459,270!fsrs,2028-12-10T00:00:00.000Z,889,889.3175353,3.98153807,2,9,0,0,2026-07-05T00:00:00.000Z-->
 
 __Perpetuity__ <p> ::@:: &emsp; $$\ PV\ =\ {A \over e^{r}-1}$$ <!--SR:!2026-11-11,468,310!2029-08-06,1266,350-->
 

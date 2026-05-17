@@ -437,7 +437,7 @@ In special settings this threshold picture becomes explicit. For example, with o
 Flashcards for this section are as follows:
 
 - what $\lVert w\rVert_2^2$ means ::@:: The squared $L_2$ penalty is $\lVert w\rVert_2^2 = \sum_j w_j^2$, the sum of squared coefficient magnitudes. <!--SR:!2026-07-24,69,324!2026-08-06,81,341-->
-- why squaring changes the ridge penalty ::@:: Squaring means large coefficients are punished disproportionately, so ridge strongly discourages a few very large weights. <!--SR:!2026-07-04,57,310!2026-07-15,61,310-->
+- why squaring changes the ridge penalty ::@:: Squaring means large coefficients are punished disproportionately, so ridge strongly discourages a few very large weights. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-07-15,61,310-->
 - ridge regularization gradient ::@:: Since $\|w\|_2^2=\sum_j w_j^2$, differentiating gives $\nabla_w\bigl(\lambda\|w\|_2^2\bigr)=2\lambda w$. <!--SR:!2026-07-15,64,324!2026-07-29,78,341-->
 - ridge gradient interpretation ::@:: The ridge term adds $2\lambda w$ to the data-fit gradient, so every coefficient feels a smooth pull directly toward zero. <!--SR:!2026-08-05,85,353!2026-08-11,86,353-->
 - why the bias has no regularization gradient ::@:: Because the bias term $w_0$ is excluded from the penalty, the regularizer contributes $0$ to the derivative with respect to $w_0$. <!--SR:!2026-08-06,86,353!2026-07-26,75,324-->
@@ -622,7 +622,7 @@ Flashcards for this section are as follows:
 - one-sample Gaussian negative log-likelihood ::@:: For one example with Gaussian output noise, $-\log p(y\mid x,\theta)=\frac{1}{2}\log(2\pi\sigma^2)+\frac{(y-w^\top x)^2}{2\sigma^2}$. <!--SR:!2026-08-08,83,341!2026-07-25,70,324-->
 - dataset Gaussian objective ::@:: Averaging Gaussian negative log-likelihood over the dataset gives $\frac{1}{2}\log(2\pi\sigma^2)+\frac{1}{2N\sigma^2}\sum_{i=1}^N (y_i-w^\top x_i)^2$. <!--SR:!2026-08-04,84,353!2026-07-20,68,342-->
 - why Gaussian likelihood penalizes squared residuals ::@:: In a Gaussian density the exponent is proportional to $-(y-w^\top x)^2$, so larger squared residuals directly reduce likelihood. <!--SR:!2026-08-04,84,353!2026-08-11,86,353-->
-- why the Gaussian derivation is important ::@:: It shows that MSE is not arbitrary; it is the natural objective induced by a Gaussian conditional output model. <!--SR:!2026-07-04,57,310!2026-08-11,86,353-->
+- why the Gaussian derivation is important ::@:: It shows that MSE is not arbitrary; it is the natural objective induced by a Gaussian conditional output model. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-08-11,86,353-->
 
 ### likelihood derivation and cross entropy
 
