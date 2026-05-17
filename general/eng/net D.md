@@ -19,7 +19,7 @@ tags:
 
 {@{__Net 10__, __net 15__, __net 30__ and __net 60__}@} \(often {@{hyphenated "net-" and/or followed by "days", e.g., "net 10 days"}@}\) are {@{__payment terms__ for [trade credit](trade%20credit.md)}@}, which {@{specify that the [net](net%20(economics).md) amount \(the total outstanding on the invoice\) is expected to be [paid](payment.md) in full by the buyer}@} {@{within 10, 15, 30 or 60 days of the date when the goods are dispatched or the service is completed}@}. Net 30 or net 60 terms are often {@{coupled with a credit for early payment}@}. <!--SR:!2029-10-06,1345,350!2029-08-21,1307,350!2029-04-23,1205,350!2028-09-01,1029,350!2029-05-20,1232,350!2029-05-31,1243,350-->
 
-{@{The word _net_ in this sense}@} means "{@{total after all discounts}@}". It originally derives from {@{the Latin _nitere_ \(to shine\) and _nitidus_ \(elegant, trim\)}@}, and more recently from {@{the French _net_ \(sharp, neat, clean\)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-02-11,1160,350!2029-05-30,1242,350!2026-07-22,376,270!2029-04-28,1210,350-->
+{@{The word _net_ in this sense}@} means "{@{total after all discounts}@}". It originally derives from {@{the Latin _nitere_ \(to shine\) and _nitidus_ \(elegant, trim\)}@}, and more recently from {@{the French _net_ \(sharp, neat, clean\)}@}.<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2029-02-11,1160,350!2029-05-30,1242,350!fsrs,2030-01-04T00:00:00.000Z,1261,1260.66554747,2.98092302,2,10,0,0,2026-07-23T00:00:00.000Z!2029-04-28,1210,350-->
 
 ## examples
 

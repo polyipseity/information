@@ -90,7 +90,7 @@ Hence {@{the _cost_ of the overlap–add method}@} scales almost as {@{$O\left(N
 ## notes
 
 1. A. This condition implies that {@{the $x_{k}$ segment}@} has {@{at least $M-1$ appended zeros}@}, which prevents {@{circular overlap of the output rise and fall transients}@}. <a id="^ref-A"></a>^ref-A
-2. B. {@{Cooley–Tukey FFT algorithm for N=2<sup>k</sup>}@} needs {@{\(N/2\) log<sub>2</sub>\(N\)}@} – see {@{[FFT – Definition and speed](fast%20Fourier%20transform.md#definition)}@} <a id="^ref-B"></a>^ref-B <!--SR:!2026-09-09,343,348!2026-08-01,310,338!2026-09-12,346,348!2026-07-22,305,348!2026-08-23,329,348!2026-08-23,329,348-->
+2. B. {@{Cooley–Tukey FFT algorithm for N=2<sup>k</sup>}@} needs {@{\(N/2\) log<sub>2</sub>\(N\)}@} – see {@{[FFT – Definition and speed](fast%20Fourier%20transform.md#definition)}@} <a id="^ref-B"></a>^ref-B <!--SR:!2026-09-09,343,348!2026-08-01,310,338!2026-09-12,346,348!fsrs,2030-05-19T00:00:00.000Z,1396,1396.31611732,1,2,9,0,0,2026-07-23T00:00:00.000Z!2026-08-23,329,348!2026-08-23,329,348-->
 
 ## references
 

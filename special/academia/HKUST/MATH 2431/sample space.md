@@ -33,7 +33,7 @@ The course begins with finite and countable sample spaces because they are the m
 
 Flashcards for this section are as follows:
 
-- finite and countable spaces / finite versus countable ::@:: A finite sample space can be listed completely in finitely many steps, while a countably infinite sample space can still be enumerated in a sequence; both are convenient because probabilities can be assembled from singleton masses. <!--SR:!fsrs,2027-07-18T00:00:00.000Z,361,361.34178072,1,2,7,0,0,2026-07-22T00:00:00.000Z!2026-07-22,72,321-->
+- finite and countable spaces / finite versus countable ::@:: A finite sample space can be listed completely in finitely many steps, while a countably infinite sample space can still be enumerated in a sequence; both are convenient because probabilities can be assembled from singleton masses. <!--SR:!fsrs,2027-07-18T00:00:00.000Z,361,361.34178072,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,366,365.70548237,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
 - finite and countable spaces / why the course starts with them ::@:: On finite or countable spaces, events and probabilities can be handled by explicit listing, counting, and summation, so these models are the natural starting point before one studies uncountable spaces and generated sigma-algebras. <!--SR:!2026-07-23,73,321!fsrs,2027-05-31T00:00:00.000Z,322,321.70066909,1,2,7,0,0,2026-07-13T00:00:00.000Z-->
 
 ### finite sample spaces
@@ -47,7 +47,7 @@ Flashcards for this section are as follows:
 - sample space for one coin toss ::@:: $\Omega = \{H, T\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-05T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-07-02T00:00:00.000Z,348,348.20330887,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
 - sample space for one die roll ::@:: $\Omega = \{1, 2, 3, 4, 5, 6\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-16T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-07-13T00:00:00.000Z,357,356.97026961,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
 - sample space for a combined experiment ::@:: Use Cartesian product: e.g. coin and die $\Omega_1 \times \Omega_2$; $|\Omega| = |\Omega_1| \cdot |\Omega_2|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-06-16T00:00:00.000Z,335,334.99091455,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,353,352.59083055,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
-- sample space for $n$ coin tosses ::@:: $\Omega = \{H,T\}^n$; $|\Omega| = 2^n$. <!--SR:!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-22,72,321-->
+- sample space for $n$ coin tosses ::@:: $\Omega = \{H,T\}^n$; $|\Omega| = 2^n$. <!--SR:!fsrs,2027-05-07T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,366,365.70548237,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
 
 ### countably infinite sample spaces
 

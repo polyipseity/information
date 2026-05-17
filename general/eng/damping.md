@@ -19,7 +19,7 @@ The [ordinary differential equation](ordinary%20differential%20equation.md) for 
 > where
 >
 > - [function](function%20(mathematics).md) properties: $F_\mathrm{net}$ is {@{the [net force](net%20force.md)}@}, $x$ is {@{the [displacement](displacement%20(geometry).md) from equilibrium}@}, and $t$ is {@{the [time](time.md)}@}
-> - [oscillator](oscillation.md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@} and $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the _viscous damping coefficient_}@} <!--SR:!2029-08-20,1415,310!2027-03-01,874,330!2031-07-17,2072,330!2027-02-03,382,369!2027-03-13,415,369!2027-03-08,410,369!2027-02-04,383,369!2026-07-22,122,397-->
+> - [oscillator](oscillation.md) properties: $k$ is {@{the [spring constant](Hooke's%20law.md)}@} and $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the _viscous damping coefficient_}@} <!--SR:!2029-08-20,1415,310!2027-03-01,874,330!2031-07-17,2072,330!2027-02-03,382,369!2027-03-13,415,369!2027-03-08,410,369!2027-02-04,383,369!fsrs,2028-05-31T00:00:00.000Z,678,678.1822466,1,2,8,0,0,2026-07-23T00:00:00.000Z-->
 
 For better physical meaning, it can be rewritten as:
 
@@ -30,7 +30,7 @@ For better physical meaning, it can be rewritten as:
 > where
 >
 > - [function](function%20(mathematics).md) properties: $x$ is {@{the [displacement](displacement%20(geometry).md) from equilibrium}@} and $t$ is {@{the [time](time.md)}@}
-> - [oscillator](oscillation.md) properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the _damping ratio_}@}, $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the _viscous damping coefficient_}@} <!--SR:!2030-09-21,1687,310!2028-08-23,1327,350!2027-11-20,940,290!2027-02-01,380,369!2027-02-27,401,369!2027-02-01,380,369!2027-02-07,386,369!2027-03-10,412,369!2027-01-28,376,369!2027-02-20,398,369!2026-07-22,122,397-->
+> - [oscillator](oscillation.md) properties: {@{$\omega_n = \sqrt{\frac{k}m}$}@} is {@{the natural \(undamped\) [angular frequency](angular%20frequency.md)}@}, {@{$\zeta = \frac{c}{2\sqrt{km} }$}@} is {@{the _damping ratio_}@}, $k$ is {@{the [spring constant](Hooke's%20law.md)}@}, $m$ is {@{the [mass](mass.md)}@}, and $c$ is {@{the _viscous damping coefficient_}@} <!--SR:!2030-09-21,1687,310!2028-08-23,1327,350!2027-11-20,940,290!2027-02-01,380,369!2027-02-27,401,369!2027-02-01,380,369!2027-02-07,386,369!2027-03-10,412,369!2027-01-28,376,369!2027-02-20,398,369!fsrs,2028-05-31T00:00:00.000Z,678,678.1822466,1,2,8,0,0,2026-07-23T00:00:00.000Z-->
 
 Solving the [ordinary differential equation](orindary%20differential%20equation.md):
 
@@ -88,7 +88,7 @@ There are four regimes depending on the value of the damping ratio $\zeta$:
 
 > {@{__undamped__}@}
 >
-> When {@{$\zeta = 0$}@}, this is {@{equivalent to [simple harmonic motion](simple%20harmonic%20motion.md)}@}. This is {@{rare in the natural world due to [dissipation](dissipation.md)}@}. <!--SR:!2028-07-21,1300,350!2029-03-11,1490,363!2026-07-27,127,397!2026-07-22,122,397-->
+> When {@{$\zeta = 0$}@}, this is {@{equivalent to [simple harmonic motion](simple%20harmonic%20motion.md)}@}. This is {@{rare in the natural world due to [dissipation](dissipation.md)}@}. <!--SR:!2028-07-21,1300,350!2029-03-11,1490,363!2026-07-27,127,397!fsrs,2028-05-31T00:00:00.000Z,678,678.1822466,1,2,8,0,0,2026-07-23T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -136,7 +136,7 @@ Additionally, for negative damping ratios:
 
 > {@{__negative damping__}@}
 >
-> If {@{$\zeta < 0$}@}, then the system is {@{driven rather than damped}@}. The driving [force](force.md) {@{increases as the [velocity](velocity.md) increases}@}. Therefore, the [amplitude](amplitude.md) {@{increases without bound as $e^{\lvert \lambda \rvert t}$}@}. It is very similar {@{(but not exactly equivalent) to the regime with the corresponding positive damping ratio $\lvert \zeta \rvert$}@} but {@{going back in [time](time.md)}@}. This is {@{unnatural in the natural world, but can happen under some circumstances}@}, such as {@{the swaying of the [Millennium Bridge in London](Millennium%20Bridge,%20London.md) when it was first opened}@} and {@{the collapse of the [1940 Tacoma Narrows Bridge](Tacoma%20Narrows%20Bridge%20(1940).md)}@}. {@{The equations in the above regimes}@} applies to {@{negative damping}@} as well. Choose the equation that applies to {@{the [absolute value](absolute%20value.md) of the damping ratio $\lvert \zeta \rvert$}@}. <!--SR:!2027-07-28,789,250!2028-05-21,1031,263!2026-10-19,349,366!2026-10-24,354,366!2026-07-24,124,397!2026-07-23,123,397!fsrs,2028-05-25T00:00:00.000Z,673,673.406745,1,2,8,0,0,2026-07-22T00:00:00.000Z!2026-07-27,127,397!fsrs,2028-05-25T00:00:00.000Z,673,673.406745,1,2,8,0,0,2026-07-22T00:00:00.000Z!2026-07-26,126,397!2026-07-22,122,397!2026-07-25,125,397!2026-07-23,123,397-->
+> If {@{$\zeta < 0$}@}, then the system is {@{driven rather than damped}@}. The driving [force](force.md) {@{increases as the [velocity](velocity.md) increases}@}. Therefore, the [amplitude](amplitude.md) {@{increases without bound as $e^{\lvert \lambda \rvert t}$}@}. It is very similar {@{(but not exactly equivalent) to the regime with the corresponding positive damping ratio $\lvert \zeta \rvert$}@} but {@{going back in [time](time.md)}@}. This is {@{unnatural in the natural world, but can happen under some circumstances}@}, such as {@{the swaying of the [Millennium Bridge in London](Millennium%20Bridge,%20London.md) when it was first opened}@} and {@{the collapse of the [1940 Tacoma Narrows Bridge](Tacoma%20Narrows%20Bridge%20(1940).md)}@}. {@{The equations in the above regimes}@} applies to {@{negative damping}@} as well. Choose the equation that applies to {@{the [absolute value](absolute%20value.md) of the damping ratio $\lvert \zeta \rvert$}@}. <!--SR:!2027-07-28,789,250!2028-05-21,1031,263!2026-10-19,349,366!2026-10-24,354,366!2026-07-24,124,397!2026-07-23,123,397!fsrs,2028-05-25T00:00:00.000Z,673,673.406745,1,2,8,0,0,2026-07-22T00:00:00.000Z!2026-07-27,127,397!fsrs,2028-05-25T00:00:00.000Z,673,673.406745,1,2,8,0,0,2026-07-22T00:00:00.000Z!2026-07-26,126,397!fsrs,2028-05-31T00:00:00.000Z,678,678.1822466,1,2,8,0,0,2026-07-23T00:00:00.000Z!2026-07-25,125,397!2026-07-23,123,397-->
 
 ## _Q_ factor and decay rate
 

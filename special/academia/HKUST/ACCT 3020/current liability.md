@@ -19,7 +19,7 @@ A liability has three essential components under the conceptual framework. First
 
 Flashcards for this section are as follows:
 
-- liability three components ::@:: Present obligation; arising from past events; settlement expected to require an outflow of resources (e.g. cash). <!--SR:!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-07-22,68,334-->
+- liability three components ::@:: Present obligation; arising from past events; settlement expected to require an outflow of resources (e.g. cash). <!--SR:!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
 - present obligation (liability) ::@:: The entity is obliged to transfer resources now, even if the actual payment occurs later. <!--SR:!2026-07-23,68,334!fsrs,2026-12-04T05:55:03.430Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:03.430Z-->
 - outflow of resources (liability) ::@:: Settlement is expected to require a transfer of cash or goods from the entity. <!--SR:!2026-07-28,72,334!fsrs,2026-12-04T05:55:19.135Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:19.135Z-->
 - past event and liability ::@:: A liability cannot exist without a past event that created the present obligation (e.g. borrowing or purchase on credit). <!--SR:!fsrs,2026-12-04T05:51:06.114Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:06.114Z!2026-07-25,69,334-->
@@ -175,13 +175,13 @@ Representative journal entry example:
 > | {@{Interest expense}@}                  | {@{360}@} |           |
 > | {@{Interest payable}@}                  |           | {@{360}@} |
 >
-> _Calculation._ {@{12 000 × 0.09 × 4/12}@} = {@{360}@}. <!--SR:!2026-08-02,77,334!fsrs,2026-12-04T05:50:24.994Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:50:24.994Z!2026-07-23,68,334!2026-07-24,68,321!2026-07-27,71,334!2026-07-28,72,334!fsrs,2026-12-04T05:49:17.772Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:17.772Z!2026-07-25,69,321!2026-07-22,68,334!2026-07-25,69,334!2026-07-26,70,334!2026-07-27,71,334!2026-07-24,68,334!2026-07-28,72,334-->
+> _Calculation._ {@{12 000 × 0.09 × 4/12}@} = {@{360}@}. <!--SR:!2026-08-02,77,334!fsrs,2026-12-04T05:50:24.994Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:50:24.994Z!2026-07-23,68,334!2026-07-24,68,321!2026-07-27,71,334!2026-07-28,72,334!fsrs,2026-12-04T05:49:17.772Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:17.772Z!2026-07-25,69,321!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-07-25,69,334!2026-07-26,70,334!2026-07-27,71,334!2026-07-24,68,334!2026-07-28,72,334-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- conversion of account payable to note payable ::@:: At conversion: Dr _Accounts payable_, Cr _Notes payable_. <br/> Then accrue interest to reporting date: Dr _Interest expense_, Cr _Interest payable_. <!--SR:!fsrs,2026-12-04T05:49:00.999Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:00.999Z!2026-07-22,68,334-->
+- conversion of account payable to note payable ::@:: At conversion: Dr _Accounts payable_, Cr _Notes payable_. <br/> Then accrue interest to reporting date: Dr _Interest expense_, Cr _Interest payable_. <!--SR:!fsrs,2026-12-04T05:49:00.999Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:00.999Z!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
 - conversion of AP to note: journal entry at conversion? ::@:: Dr _Accounts payable_, Cr _Notes payable_ (same amount). <!--SR:!fsrs,2026-12-04T05:49:09.721Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:49:09.721Z!2026-07-24,69,334-->
 - after conversion to note: Given principal, rate, and months to reporting date, how is interest recorded? ::@:: Accrue interest (principal × rate × months/12); Dr _Interest expense_, Cr _Interest payable_. <!--SR:!2026-07-23,68,334!fsrs,2026-12-04T05:55:08.197Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:55:08.197Z-->
 - conversion example: AP 12 000 → note 1 Sept, 9%—conversion entry? ::@:: Dr _Accounts payable_ 12 000, Cr _Notes payable_ 12 000. <!--SR:!2026-07-27,71,334!fsrs,2026-12-04T05:54:57.102Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:54:57.102Z-->
@@ -200,7 +200,7 @@ Representative journal entry examples:
 > | {@{Interest expense}@}                                 | {@{1 800}@} |             |
 > | {@{Notes payable}@}                                    |             | {@{1 800}@} |
 >
-> _Calculation._ {@{7 200 × 3/12}@} = {@{1 800}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount. <!--SR:!2026-07-25,70,334!2026-07-26,70,334!fsrs,2026-12-04T05:51:35.597Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:35.597Z!2026-07-23,68,334!fsrs,2026-11-25T05:49:48.632Z,164,163.64094464,1.42996969,2,5,0,0,2026-06-14T05:49:48.632Z!2026-07-22,68,334!2026-07-23,68,334!2026-07-27,71,334!2026-07-23,68,334!2026-07-23,68,334-->
+> _Calculation._ {@{7 200 × 3/12}@} = {@{1 800}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount. <!--SR:!2026-07-25,70,334!2026-07-26,70,334!fsrs,2026-12-04T05:51:35.597Z,173,173.28512143,1,2,5,0,0,2026-06-14T05:51:35.597Z!2026-07-23,68,334!fsrs,2026-11-25T05:49:48.632Z,164,163.64094464,1.42996969,2,5,0,0,2026-06-14T05:49:48.632Z!fsrs,2027-07-23T00:00:00.000Z,365,364.93826912,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-07-23,68,334!2026-07-27,71,334!2026-07-23,68,334!2026-07-23,68,334-->
 
 <!-- markdownlint MD028 -->
 

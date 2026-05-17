@@ -16,7 +16,7 @@ tags:
 # import ../../../scripts/utility.py.md
 ```
 
-- _defined in {@{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}@}_ <!--SR:!2026-07-22,804,330-->
+- _defined in {@{[`<stdio.h>`](../../../general/C%20file%20input_output.md)}@}_ <!--SR:!fsrs,2034-12-16T00:00:00.000Z,3068,3068.4276583,1,2,11,0,0,2026-07-23T00:00:00.000Z-->
 
 ```C
 // (1)

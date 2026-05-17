@@ -93,7 +93,7 @@ If {@{$H$ is a complex Hilbert space}@} then {@{$\langle x\mid y\rangle$ is real
 
 ### isometries
 
-If {@{$A:H\to Z$ is a [linear](linear%20map.md) [isometry](isometry.md) between two Hilbert spaces}@} \(so {@{$\|Ah\|=\|h\|$ for all $h\in H$}@}\) then {@{$$\langle Ah,Ak\rangle _{Z}=\langle h,k\rangle _{H}\quad {\text{ for all } }h,k\in H;$$}@} that is, {@{linear isometries preserve inner products}@}. <!--SR:!2026-07-22,390,310!2029-03-09,1148,350!2028-11-11,1056,350!2029-09-14,1294,350-->
+If {@{$A:H\to Z$ is a [linear](linear%20map.md) [isometry](isometry.md) between two Hilbert spaces}@} \(so {@{$\|Ah\|=\|h\|$ for all $h\in H$}@}\) then {@{$$\langle Ah,Ak\rangle _{Z}=\langle h,k\rangle _{H}\quad {\text{ for all } }h,k\in H;$$}@} that is, {@{linear isometries preserve inner products}@}. <!--SR:!fsrs,2030-09-21T00:00:00.000Z,1521,1520.84465718,1,2,10,0,0,2026-07-23T00:00:00.000Z!2029-03-09,1148,350!2028-11-11,1056,350!2029-09-14,1294,350-->
 
 If {@{$A:H\to Z$ is instead an [antilinear](antilinear%20map.md) isometry}@} then {@{$$\langle Ah,Ak\rangle _{Z}={\overline {\langle h,k\rangle _{H} } }=\langle k,h\rangle _{H}\quad {\text{ for all } }h,k\in H.$$}@} <!--SR:!2029-03-21,1160,350!2028-06-27,876,330-->
 

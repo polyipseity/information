@@ -15,7 +15,7 @@ For example, if $A$ and $B$ are {@{two events that do not affect each other, and
 
 Now suppose {@{$C$ is observed to occur}@}. If {@{event $B$ occurs}@}, then {@{the probability of event $A$ decreases}@} because there is {@{less need for event $A$ to explain event $C$ happening}@}, and vice versa. So now, the two events $A$ and $B$ {@{are negatively dependent on each other if the other occurs, given $C$}@}: {@{$$P(A \mid C \cap B) < P(A \mid C) \quad \text{ and } \quad P(B \mid C \cap A) < P(B \mid C)$$}@}. This is called {@{the conditional dependence of $A$ and $B$ given $C$}@}. <!--SR:!2032-05-22,2203,333!2030-11-05,1759,330!2026-09-03,618,330!2027-04-01,758,310!2028-06-10,1048,333!2027-06-30,418,375!2027-07-01,419,375-->
 
-Conditional dependence of $A$ and $B$ given $C$ is the logical negation of {@{[conditional independence](conditional%20independence.md) $(A \mathrel{\perp\!\!\!\perp} B \mid C)$}@}, in which the two events {@{do not affect the probability of each other given the occurrence of a third event}@}: {@{$$P(A \mid C \cap B) = P(A \mid C) \quad \text{ and } \quad P(B \mid C \cap A) = P(B \mid C)$$}@}. <!--SR:!2026-09-11,561,310!2026-09-18,630,333!2026-07-22,586,333-->
+Conditional dependence of $A$ and $B$ given $C$ is the logical negation of {@{[conditional independence](conditional%20independence.md) $(A \mathrel{\perp\!\!\!\perp} B \mid C)$}@}, in which the two events {@{do not affect the probability of each other given the occurrence of a third event}@}: {@{$$P(A \mid C \cap B) = P(A \mid C) \quad \text{ and } \quad P(B \mid C \cap A) = P(B \mid C)$$}@}. <!--SR:!2026-09-11,561,310!2026-09-18,630,333!fsrs,2032-12-27T00:00:00.000Z,2349,2349.34624412,1,2,10,0,0,2026-07-23T00:00:00.000Z-->
 
 ## references
 

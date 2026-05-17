@@ -162,7 +162,7 @@ $$\begin{aligned}
 
 ##### second-order, autonomous
 
-- form :@: $\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=F(y)$, where $F$ is an [integrable](integral.md) [function](function%20(mathematics).md). <!--SR:!2026-07-22,709,320-->
+- form :@: $\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=F(y)$, where $F$ is an [integrable](integral.md) [function](function%20(mathematics).md). <!--SR:!fsrs,2033-11-01T00:00:00.000Z,2658,2658.40788259,1,2,10,0,0,2026-07-23T00:00:00.000Z-->
 - solution :@: Multiply by $2\frac{\mathrm{d}y}{\mathrm{d}x}$, then substitute $2\frac{\mathrm{d}y}{\mathrm{d}x}\frac{\mathrm{d}^2y}{\mathrm{d}x^2}=\frac{\mathrm{d} }{\mathrm{d}x}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)^2$, then integrate twice. <!--SR:!2026-07-28,713,320-->
 
 The general solution is:

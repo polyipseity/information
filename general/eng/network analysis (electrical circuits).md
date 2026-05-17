@@ -179,7 +179,7 @@ For {@{some common elements where this is not possible}@}, {@{specialized method
 
 1. \(annotation: label, variables\) ::@:: Count the number of "window panes" in the circuit. Assign a mesh current to each window pane. <!--SR:!2030-06-16,1510,369!2029-12-04,1342,350-->
 2. \(annotation: KVL\) ::@:: Write a [KVL](Kirchhoff's%20circuit%20laws.md) equation for every mesh whose current is unknown. <!--SR:!2026-07-23,389,360!2030-10-02,1600,369-->
-3. \(annotation: solving\) ::@:: Solve the resulting equations <!--SR:!2026-07-22,388,360!2030-08-09,1554,369-->
+3. \(annotation: solving\) ::@:: Solve the resulting equations <!--SR:!fsrs,2031-06-13T00:00:00.000Z,1786,1786.44426479,1,2,10,0,0,2026-07-23T00:00:00.000Z!2030-08-09,1554,369-->
 
 ## superposition
 
@@ -303,7 +303,7 @@ There are {@{many other ways that non-linearity can appear in a network}@}. {@{A
 
 ### constitutive equations
 
-{@{The [diode](diode.md) equation above}@} is {@{an example of an [element constitutive equation](electrical%20element.md#non-linear%20elements)}@} of {@{the general form, $$f(v,i)=0$$}@} This can be thought of as {@{a non-linear resistor}@}. {@{The corresponding constitutive equations for non-linear inductors and capacitors}@} are respectively; {@{$$f(v,\varphi )=0$$ <br/> $$f(v,q)=0$$}@} where {@{_f_ is any arbitrary function, _φ_ is the stored magnetic flux and _q_ is the stored charge}@}. <!--SR:!2030-10-26,1613,369!fsrs,2030-12-28T02:18:45.222Z,1658,1657.8559748,1,2,9,0,0,2026-06-14T02:18:45.222Z!2026-07-22,388,360!2029-02-24,1120,350!2029-04-06,1154,350!fsrs,2031-04-05T00:00:00.000Z,1734,1734.37133789,1,2,10,0,0,2026-07-06T00:00:00.000Z!fsrs,2030-10-06T01:59:43.739Z,1581,1581.07541982,1,2,9,0,0,2026-06-08T01:59:43.739Z-->
+{@{The [diode](diode.md) equation above}@} is {@{an example of an [element constitutive equation](electrical%20element.md#non-linear%20elements)}@} of {@{the general form, $$f(v,i)=0$$}@} This can be thought of as {@{a non-linear resistor}@}. {@{The corresponding constitutive equations for non-linear inductors and capacitors}@} are respectively; {@{$$f(v,\varphi )=0$$ <br/> $$f(v,q)=0$$}@} where {@{_f_ is any arbitrary function, _φ_ is the stored magnetic flux and _q_ is the stored charge}@}. <!--SR:!2030-10-26,1613,369!fsrs,2030-12-28T02:18:45.222Z,1658,1657.8559748,1,2,9,0,0,2026-06-14T02:18:45.222Z!fsrs,2031-06-13T00:00:00.000Z,1786,1786.44426479,1,2,10,0,0,2026-07-23T00:00:00.000Z!2029-02-24,1120,350!2029-04-06,1154,350!fsrs,2031-04-05T00:00:00.000Z,1734,1734.37133789,1,2,10,0,0,2026-07-06T00:00:00.000Z!fsrs,2030-10-06T01:59:43.739Z,1581,1581.07541982,1,2,9,0,0,2026-06-08T01:59:43.739Z-->
 
 ### existence, uniqueness and stability
 
@@ -321,7 +321,7 @@ Another important consideration is {@{the question of stability}@}. {@{A particu
 
 The transients are {@{not entirely uninteresting to the analyst}@}. {@{The maximum rate of switching}@} is determined by {@{the speed of transition from one state to the other}@}. Happily for the analyst, for {@{many devices most of the transition occurs in the linear portion of the devices transfer function}@} and {@{linear analysis can be applied to obtain at least an approximate answer}@}. <!--SR:!fsrs,2031-04-21T00:00:00.000Z,1746,1746.4079113,1,2,10,0,0,2026-07-10T00:00:00.000Z!2030-10-09,1604,369!fsrs,2030-10-06T01:59:34.322Z,1581,1581.07541982,1,2,9,0,0,2026-06-08T01:59:34.322Z!2030-04-16,1449,369!2030-10-24,1611,369-->
 
-It is mathematically possible to {@{derive [Boolean algebras](<Boolean%20algebra%20(structure).md>) that have more than two states}@}. There is {@{not too much use found for these in electronics}@}, although {@{three-state devices are passingly common}@}. <!--SR:!2030-09-02,1575,369!2026-07-22,388,360!fsrs,2030-10-30T02:18:47.650Z,1599,1598.85385917,1,2,9,0,0,2026-06-14T02:18:47.650Z-->
+It is mathematically possible to {@{derive [Boolean algebras](<Boolean%20algebra%20(structure).md>) that have more than two states}@}. There is {@{not too much use found for these in electronics}@}, although {@{three-state devices are passingly common}@}. <!--SR:!2030-09-02,1575,369!fsrs,2031-06-13T00:00:00.000Z,1786,1786.44426479,1,2,10,0,0,2026-07-23T00:00:00.000Z!fsrs,2030-10-30T02:18:47.650Z,1599,1598.85385917,1,2,9,0,0,2026-06-14T02:18:47.650Z-->
 
 #### separation of bias and signal analyses
 
@@ -375,7 +375,7 @@ In linear analysis, {@{the components of the network are assumed to be unchangin
 
 - See also: ::@:: [Spintronics](spintronics.md) <!--SR:!2030-03-02,1426,369!2029-01-22,1092,350-->
 
-{@{Generalization of circuit theory based on scalar quantities to vectorial currents}@} is {@{a necessity for newly evolving circuits such as spin circuits}@}.<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> {@{Generalized circuit variables}@} consist of {@{four components: scalar current and vector spin current in x, y, and z directions}@}. {@{The voltages and currents}@} each become {@{vector quantities with conductance described as a 4x4 spin conductance matrix}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!fsrs,2031-06-01T00:00:00.000Z,1778,1778.44744092,1,2,10,0,0,2026-07-19T00:00:00.000Z!2026-07-22,388,360!2028-02-03,803,330!2029-08-15,1256,350!2029-01-23,1093,350!2029-11-30,1339,350-->
+{@{Generalization of circuit theory based on scalar quantities to vectorial currents}@} is {@{a necessity for newly evolving circuits such as spin circuits}@}.<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> {@{Generalized circuit variables}@} consist of {@{four components: scalar current and vector spin current in x, y, and z directions}@}. {@{The voltages and currents}@} each become {@{vector quantities with conductance described as a 4x4 spin conductance matrix}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!fsrs,2031-06-01T00:00:00.000Z,1778,1778.44744092,1,2,10,0,0,2026-07-19T00:00:00.000Z!fsrs,2031-06-13T00:00:00.000Z,1786,1786.44426479,1,2,10,0,0,2026-07-23T00:00:00.000Z!2028-02-03,803,330!2029-08-15,1256,350!2029-01-23,1093,350!2029-11-30,1339,350-->
 
 ## see also
 

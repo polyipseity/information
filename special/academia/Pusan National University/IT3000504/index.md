@@ -38,7 +38,7 @@ The content is in teaching order.
 - IT3000504
   - IT3000504 / information
   - IT3000504 / logistics
-  - IT3000504 / introduction ::@:: Fundamental economics for students like you \(me\). Learn fundamental economic tools to understand economic phenomena. <!--SR:!2026-08-15,254,330!2026-07-22,234,330-->
+  - IT3000504 / introduction ::@:: Fundamental economics for students like you \(me\). Learn fundamental economic tools to understand economic phenomena. <!--SR:!2026-08-15,254,330!fsrs,2029-06-02T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-23T00:00:00.000Z-->
   - IT3000504 / materials
   - IT3000504 / grading
   - IT3000504 / prerequisites ::@:: basic algebra, calculus, principles of economics \(microeconomics\) <!--SR:!2026-08-18,255,330!2026-08-20,257,330-->
