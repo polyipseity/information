@@ -120,7 +120,7 @@ The content is in teaching order.
 - datetime: 2025-01-15T08:30:00-05:00/2025-01-15T09:50:00-05:00, PT1H20M
   - local: 2025-01-15T21:30:00+08:00/2025-01-15T22:50:00+08:00, PT1H20M
 - [jazz](../../../../general/jazz.md)
-  - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2031-03-28,1789,380!fsrs,2031-02-16T09:42:48.771Z,1714,1714.28375993,1,2,10,0,0,2026-06-08T09:42:48.771Z-->
+  - jazz / Why America? ::@:: unique combination of cultural and musical influences, unique history with regard to African Americans <!--SR:!2031-03-28,1789,380!2026-06-08,370,360-->
 - [French and Indian War](../../../../general/French%20and%20Indian%20War.md) (1754–1763) ::@:: part of the Seven Years' War, the first global conflict fought on 4 continents; included France, Spanish, and Prussia (today's Germany) <!--SR:!2027-05-19,601,335!2028-01-28,852,355-->
   - French and Indian War / result ::@:: hugh British victory, France ceded her colonies at American to the British Empire and Spain <!--SR:!2031-10-13,1958,395!2031-10-01,1946,395-->
   - French and Indian War / post-war (1763–1776) ::@:: The British Empire imposed heavy taxes on her American colonies to pay for the war, and also prevented Americans from expanding into new conquered French territories. <!--SR:!2027-12-16,818,355!2029-09-11,1337,375-->

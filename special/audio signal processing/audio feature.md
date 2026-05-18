@@ -55,7 +55,7 @@ The _skewness_ is {@{the 3rd \(centralized and normalized\) moment}@}, and defin
 
 ## overall features
 
-We can also describe {@{features of the overall sound instead of each STFT frame}@}. Features can be grouped into {@{5 main categories}@}: {@{cognitive, formal, perceptual, sensorial, and physical}@}. <!--SR:!2026-06-25,277,330!fsrs,2029-08-12T10:11:09.783Z,1161,1160.74715681,1,2,9,0,0,2026-06-08T10:11:09.783Z!fsrs,2029-08-07T08:21:40.291Z,1157,1156.92457827,1,2,9,0,0,2026-06-07T08:21:40.291Z-->
+We can also describe {@{features of the overall sound instead of each STFT frame}@}. Features can be grouped into {@{5 main categories}@}: {@{cognitive, formal, perceptual, sensorial, and physical}@}. <!--SR:!2026-06-25,277,330!2026-06-08,264,330!fsrs,2029-08-07T08:21:40.291Z,1157,1156.92457827,1,2,9,0,0,2026-06-07T08:21:40.291Z-->
 
 {@{Cognitive features}@} describe {@{very high-level features formed by the brain}@}, e.g. {@{emotion, genre, semantic concepts, style, etc.}@} which are {@{very difficult to quantify}@}. <!--SR:!2029-08-29,1183,350!2026-07-14,294,330!2026-07-14,294,330!2026-07-14,294,330-->
 
@@ -73,7 +73,7 @@ We can also describe {@{features of the overall sound instead of each STFT frame
 
 {@{Timbre features}@} describe {@{the quality of a sound to the ears}@}, e.g. {@{high-frequency content, spectral centroid, spectral flux, etc.}@} <!--SR:!2029-08-27,1181,350!2026-06-27,279,330!2026-06-28,281,330-->
 
-{@{Dynamic features}@} describe {@{the energy of a sound}@}, e.g. {@{average level, loudness, etc.}@} <!--SR:!2026-06-23,276,330!fsrs,2029-08-12T10:11:08.992Z,1161,1160.74715681,1,2,9,0,0,2026-06-08T10:11:08.992Z!2026-07-01,283,330-->
+{@{Dynamic features}@} describe {@{the energy of a sound}@}, e.g. {@{average level, loudness, etc.}@} <!--SR:!2026-06-23,276,330!2026-06-08,264,330!2026-07-01,283,330-->
 
 {@{Pitch features}@} describe {@{pitch}@}, e.g. {@{pitch, pitch salience, etc.}@} <!--SR:!2026-06-22,276,330!2029-07-03,1131,350!2026-07-14,294,330-->
 

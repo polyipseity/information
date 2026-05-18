@@ -102,11 +102,11 @@ Flashcards for this section are as follows:
 - most likely outcome (provision) ::@:: When a single obligation has one dominant outcome (e.g. lawsuit win or lose), use the most likely outcome. <!--SR:!2026-08-01,77,342!2026-08-01,77,342-->
 - when to use expected value vs most likely? ::@:: If the question gives probabilities, use expected value; otherwise use the most likely outcome. <!--SR:!2026-07-20,65,310!2026-08-06,81,342-->
 - expected-value litigation example: why can the recorded provision be below the most likely outcome? ::@:: Because the expected-value method averages all outcomes by probability, including lower-loss or zero-loss cases. <!--SR:!2026-05-18,19,342!2026-05-18,19,342-->
-- provision: long-term obligation and PV measurement ::@:: When settlement is expected well beyond one year, IAS 37 requires the provision to be measured at the present value of the expected cash outflows.
-- provision: discount rate for PV measurement ::@:: Pre-tax rate reflecting current market assessments of the time value of money and the risks specific to the liability (commonly a pre-tax risk-free rate in practice).
-- provision: unwinding of discount ::@:: Recognised as finance cost (interest expense) each period, increasing the carrying amount of the provision toward the undiscounted settlement amount.
-- provision: short-term obligations and discounting ::@:: Short-term provisions (e.g. typical warranty claims due within months) are usually not discounted because the time-value effect is immaterial.
-- Apex: 30% no loss, 50% chance €500&nbsp;000, 20% chance €1&nbsp;000&nbsp;000—expected-value provision? ::@:: 0.30 × 0 + 0.50 × 500&nbsp;000 + 0.20 × 1&nbsp;000&nbsp;000 = €450&nbsp;000.
+- provision: long-term obligation and PV measurement ::@:: When settlement is expected well beyond one year, IAS 37 requires the provision to be measured at the present value of the expected cash outflows. <!--SR:!fsrs,2026-06-16T15:42:23.412Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:23.412Z!fsrs,2026-06-16T15:42:32.281Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:32.281Z-->
+- provision: discount rate for PV measurement ::@:: Pre-tax rate reflecting current market assessments of the time value of money and the risks specific to the liability (commonly a pre-tax risk-free rate in practice). <!--SR:!fsrs,2026-06-16T15:41:49.385Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:49.385Z!fsrs,2026-06-16T14:55:41.518Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:41.518Z-->
+- provision: unwinding of discount ::@:: Recognised as finance cost (interest expense) each period, increasing the carrying amount of the provision toward the undiscounted settlement amount. <!--SR:!fsrs,2026-06-16T15:42:44.595Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:44.595Z!fsrs,2026-06-16T14:55:08.567Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:08.567Z-->
+- provision: short-term obligations and discounting ::@:: Short-term provisions (e.g. typical warranty claims due within months) are usually not discounted because the time-value effect is immaterial. <!--SR:!fsrs,2026-06-16T14:56:42.137Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:42.137Z!fsrs,2026-06-16T14:38:46.575Z,8,8.2956,1,2,1,0,0,2026-06-08T14:38:46.575Z-->
+- Apex: 30% no loss, 50% chance €500&nbsp;000, 20% chance €1&nbsp;000&nbsp;000—expected-value provision? ::@:: 0.30 × 0 + 0.50 × 500&nbsp;000 + 0.20 × 1&nbsp;000&nbsp;000 = €450&nbsp;000. <!--SR:!fsrs,2026-06-16T15:01:45.337Z,8,8.2956,1,2,1,0,0,2026-06-08T15:01:45.337Z!fsrs,2026-06-16T15:01:53.317Z,8,8.2956,1,2,1,0,0,2026-06-08T15:01:53.317Z-->
 
 ## assurance-type warranty
 
@@ -490,10 +490,10 @@ Flashcards for this section are as follows:
 - ARO: accretion entry? ::@:: Dr _Interest expense_; Cr _Environmental liability_ (ARO) (interest = carrying amount × discount rate). <!--SR:!2026-08-08,83,342!2026-07-24,69,337-->
 - ARO accretion: economic rationale for interest? ::@:: The liability was initially recorded at a discounted present value below the expected future payment; accretion unwinds that discount over time as interest expense so the carrying amount reaches the full settlement amount. <!--SR:!2026-08-07,82,342!2026-08-05,80,342-->
 - ARO: settlement entry (general form)? ::@:: Dr _Environmental liability_ (carrying amount); Cr _Cash_/Payable (amount paid); Cr _Gain on settlement_ (or Dr _Loss_) for difference. <!--SR:!2026-08-08,83,342!2026-07-31,76,342-->
-- BlueTide: cost 1&nbsp;000&nbsp;000, 5 years, 10%—ARO day 1 entry and amount? ::@:: PV = 1&nbsp;000&nbsp;000 ÷ (1.10)^5 = 620&nbsp;921; Dr _Oil platform (PPE)_ 620&nbsp;921, Cr _Environmental liability (ARO)_ 620&nbsp;921.
-- BlueTide: capitalized ARO 620&nbsp;921, 5-year straight-line—year-end depreciation entry? ::@:: 620&nbsp;921 ÷ 5 = 124&nbsp;184; Dr _Depreciation expense_ 124&nbsp;184, Cr _Accumulated depreciation_ 124&nbsp;184.
-- BlueTide: opening ARO liability 620&nbsp;921, rate 10%—year 1 accretion entry? ::@:: 620&nbsp;921 × 10% = 62&nbsp;092; Dr _Interest expense_ 62&nbsp;092, Cr _Environmental liability (ARO)_ 62&nbsp;092.
-- BlueTide: ARO carrying amount 1&nbsp;000&nbsp;000 at settlement, contractor paid 995&nbsp;000—entry and gain? ::@:: Dr _Environmental liability (ARO)_ 1&nbsp;000&nbsp;000, Cr _Cash_ 995&nbsp;000, Cr _Gain on settlement_ 5&nbsp;000.
+- BlueTide: cost 1&nbsp;000&nbsp;000, 5 years, 10%—ARO day 1 entry and amount? ::@:: PV = 1&nbsp;000&nbsp;000 ÷ (1.10)^5 = 620&nbsp;921; Dr _Oil platform (PPE)_ 620&nbsp;921, Cr _Environmental liability (ARO)_ 620&nbsp;921. <!--SR:!fsrs,2026-06-16T15:41:53.034Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:53.034Z!fsrs,2026-06-16T14:56:28.286Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:28.286Z-->
+- BlueTide: capitalized ARO 620&nbsp;921, 5-year straight-line—year-end depreciation entry? ::@:: 620&nbsp;921 ÷ 5 = 124&nbsp;184; Dr _Depreciation expense_ 124&nbsp;184, Cr _Accumulated depreciation_ 124&nbsp;184. <!--SR:!fsrs,2026-06-16T15:40:08.446Z,8,8.2956,1,2,1,0,0,2026-06-08T15:40:08.446Z!fsrs,2026-06-16T14:56:11.168Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:11.168Z-->
+- BlueTide: opening ARO liability 620&nbsp;921, rate 10%—year 1 accretion entry? ::@:: 620&nbsp;921 × 10% = 62&nbsp;092; Dr _Interest expense_ 62&nbsp;092, Cr _Environmental liability (ARO)_ 62&nbsp;092. <!--SR:!fsrs,2026-06-16T14:56:19.723Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:19.723Z!fsrs,2026-06-16T15:41:33.024Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:33.024Z-->
+- BlueTide: ARO carrying amount 1&nbsp;000&nbsp;000 at settlement, contractor paid 995&nbsp;000—entry and gain? ::@:: Dr _Environmental liability (ARO)_ 1&nbsp;000&nbsp;000, Cr _Cash_ 995&nbsp;000, Cr _Gain on settlement_ 5&nbsp;000. <!--SR:!fsrs,2026-06-16T15:42:21.500Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:21.500Z!fsrs,2026-06-16T15:41:39.651Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:39.651Z-->
 
 ### revision of ARO estimates
 
@@ -511,18 +511,18 @@ Representative journal entry example:
 > | {@{Oil platform (PPE) — ARO component}@}        | {@{75&nbsp;131}@} |                   |
 > | {@{Environmental liability (ARO)}@}             |                   | {@{75&nbsp;131}@} |
 >
-> _Explanation._ The additional capitalized cost {@{75&nbsp;131}@} is depreciated over the __remaining__ {@{3 years}@}: {@{25&nbsp;044 per year}@}. The liability accretes from its new carrying amount to the revised expected settlement amount of {@{1&nbsp;100&nbsp;000}@} over the remaining 3 years.
+> _Explanation._ The additional capitalized cost {@{75&nbsp;131}@} is depreciated over the __remaining__ {@{3 years}@}: {@{25&nbsp;044 per year}@}. The liability accretes from its new carrying amount to the revised expected settlement amount of {@{1&nbsp;100&nbsp;000}@} over the remaining 3 years. <!--SR:!fsrs,2026-06-16T14:38:51.391Z,8,8.2956,1,2,1,0,0,2026-06-08T14:38:51.391Z!fsrs,2026-06-16T14:39:37.180Z,8,8.2956,1,2,1,0,0,2026-06-08T14:39:37.180Z!fsrs,2026-06-16T15:42:18.962Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:18.962Z!fsrs,2026-06-16T14:38:52.082Z,8,8.2956,1,2,1,0,0,2026-06-08T14:38:52.082Z!fsrs,2026-06-16T14:55:44.564Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:44.564Z!fsrs,2026-06-16T15:41:37.384Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:37.384Z!fsrs,2026-06-16T15:22:31.954Z,8,8.2956,1,2,1,0,0,2026-06-08T15:22:31.954Z!fsrs,2026-06-16T15:01:52.525Z,8,8.2956,1,2,1,0,0,2026-06-08T15:01:52.525Z!fsrs,2026-06-16T15:41:53.822Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:53.822Z!fsrs,2026-06-16T15:41:47.988Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:47.988Z!fsrs,2026-06-16T14:55:39.405Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:39.405Z!fsrs,2026-06-16T15:40:05.549Z,8,8.2956,1,2,1,0,0,2026-06-08T15:40:05.549Z!fsrs,2026-06-16T15:42:01.759Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:01.759Z-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- ARO upward revision: effect on PPE and liability? ::@:: Increase both by the PV of the additional expected cost; depreciate the additional asset amount over the remaining useful life only.
-- ARO downward revision: what if PV of reduction exceeds asset carrying amount? ::@:: Reduce the asset to zero and recognise the excess reduction as a gain in profit or loss immediately.
-- ARO revision: why use remaining life for additional depreciation, not original life? ::@:: The revision occurs mid-life; the new cost is prospectively allocated only to the remaining years, not restated over the full original life.
-- ARO upward revision: entry? ::@:: Dr _PPE_ (ARO component), Cr _Environmental liability_ (ARO) [both at PV of the increase in expected dismantlement cost].
-- ARO downward revision: general entry? ::@:: Dr _Environmental liability_ (ARO) [PV of decrease]; Cr _PPE_ (ARO component) [up to carrying amount]; Cr _Gain on ARO revision_ [any excess].
-- BlueTide: cost increase 100&nbsp;000, 3 remaining years, 10%—PV and upward-revision entry? ::@:: PV = 100&nbsp;000 ÷ (1.10)^3 = 75&nbsp;131; Dr _Oil platform (PPE) — ARO component_ 75&nbsp;131, Cr _Environmental liability (ARO)_ 75&nbsp;131.
+- ARO upward revision: effect on PPE and liability? ::@:: Increase both by the PV of the additional expected cost; depreciate the additional asset amount over the remaining useful life only. <!--SR:!fsrs,2026-06-16T14:38:47.940Z,8,8.2956,1,2,1,0,0,2026-06-08T14:38:47.940Z!fsrs,2026-06-16T14:55:07.742Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:07.742Z-->
+- ARO downward revision: what if PV of reduction exceeds asset carrying amount? ::@:: Reduce the asset to zero and recognise the excess reduction as a gain in profit or loss immediately. <!--SR:!fsrs,2026-06-16T15:42:14.679Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:14.679Z!fsrs,2026-06-16T15:40:03.740Z,8,8.2956,1,2,1,0,0,2026-06-08T15:40:03.740Z-->
+- ARO revision: why use remaining life for additional depreciation, not original life? ::@:: The revision occurs mid-life; the new cost is prospectively allocated only to the remaining years, not restated over the full original life. <!--SR:!fsrs,2026-06-16T14:56:31.680Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:31.680Z!fsrs,2026-06-16T15:01:49.125Z,8,8.2956,1,2,1,0,0,2026-06-08T15:01:49.125Z-->
+- ARO upward revision: entry? ::@:: Dr _PPE_ (ARO component), Cr _Environmental liability_ (ARO) [both at PV of the increase in expected dismantlement cost]. <!--SR:!fsrs,2026-06-16T15:42:36.812Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:36.812Z!fsrs,2026-06-16T15:42:41.136Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:41.136Z-->
+- ARO downward revision: general entry? ::@:: Dr _Environmental liability_ (ARO) [PV of decrease]; Cr _PPE_ (ARO component) [up to carrying amount]; Cr _Gain on ARO revision_ [any excess]. <!--SR:!fsrs,2026-06-16T14:39:32.494Z,8,8.2956,1,2,1,0,0,2026-06-08T14:39:32.494Z!fsrs,2026-06-16T15:40:06.767Z,8,8.2956,1,2,1,0,0,2026-06-08T15:40:06.767Z-->
+- BlueTide: cost increase 100&nbsp;000, 3 remaining years, 10%—PV and upward-revision entry? ::@:: PV = 100&nbsp;000 ÷ (1.10)^3 = 75&nbsp;131; Dr _Oil platform (PPE) — ARO component_ 75&nbsp;131, Cr _Environmental liability (ARO)_ 75&nbsp;131. <!--SR:!fsrs,2026-06-16T15:41:55.137Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:55.137Z!fsrs,2026-06-16T15:42:11.762Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:11.762Z-->
 
 ## onerous contracts
 
@@ -564,8 +564,8 @@ Flashcards for this section are as follows:
 - onerous contract provision: measurement basis ::@:: Lower of (1) cost to fulfil the contract and (2) compensation/penalty to exit the contract. <!--SR:!2026-07-22,67,310!2026-08-08,83,342-->
 - why "lower of" for onerous contracts? ::@:: A reasonable entity chooses the cheaper way to avoid further losses (pay penalty vs continue paying fulfilment costs). <!--SR:!2026-07-29,74,337!2026-08-07,82,342-->
 - onerous contract provision: entry? ::@:: Dr _Loss_ (onerous contract), Cr _Onerous contract liability_ (amount = lower of fulfilment cost and exit penalty). <!--SR:!2026-07-10,58,310!2026-08-07,82,342-->
-- Meridian: fulfilment cost 200&nbsp;000, no exit option—onerous contract provision and entry? ::@:: Provision = 200&nbsp;000 (lower of fulfilment cost and exit penalty; no cheaper exit exists); Dr _Loss on onerous contract_ 200&nbsp;000, Cr _Onerous contract liability_ 200&nbsp;000.
-- Meridian: fulfilment cost 200&nbsp;000, exit penalty 80&nbsp;000—onerous contract provision and entry? ::@:: Lower of 200&nbsp;000 and 80&nbsp;000 = 80&nbsp;000; Dr _Loss on onerous contract_ 80&nbsp;000, Cr _Onerous contract liability_ 80&nbsp;000.
+- Meridian: fulfilment cost 200&nbsp;000, no exit option—onerous contract provision and entry? ::@:: Provision = 200&nbsp;000 (lower of fulfilment cost and exit penalty; no cheaper exit exists); Dr _Loss on onerous contract_ 200&nbsp;000, Cr _Onerous contract liability_ 200&nbsp;000. <!--SR:!fsrs,2026-06-16T14:38:53.940Z,8,8.2956,1,2,1,0,0,2026-06-08T14:38:53.940Z!fsrs,2026-06-16T14:56:14.472Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:14.472Z-->
+- Meridian: fulfilment cost 200&nbsp;000, exit penalty 80&nbsp;000—onerous contract provision and entry? ::@:: Lower of 200&nbsp;000 and 80&nbsp;000 = 80&nbsp;000; Dr _Loss on onerous contract_ 80&nbsp;000, Cr _Onerous contract liability_ 80&nbsp;000. <!--SR:!fsrs,2026-06-16T14:38:49.083Z,8,8.2956,1,2,1,0,0,2026-06-08T14:38:49.083Z!fsrs,2026-06-16T14:56:34.477Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:34.477Z-->
 
 ## restructuring
 
@@ -601,7 +601,7 @@ Flashcards for this section are as follows:
 - restructuring costs: rationale for inclusion/exclusion ::@:: A restructuring provision should measure the liability to exit the old structure, not the cost of building or running the new one. So include unavoidable exit costs (e.g. severance, contract termination, onerous contracts) and exclude startup or future-operating costs (e.g. training, relocation, marketing, new systems) that belong to whatever comes next. <!--SR:!2026-05-18,19,342!2026-05-18,19,342-->
 - restructuring: exit costs vs new-project costs ::@:: Exit costs of the old structure belong in the provision if they are unavoidable once restructuring is committed. New-project or setup costs for the replacement structure do not; they are recognized later when the new activity is actually carried out. <!--SR:!2026-05-18,19,342!2026-05-18,19,342-->
 - restructuring provision: entry? ::@:: Dr _Restructuring expense_, Cr _Restructuring liability_ (for qualifying direct/traceable costs once obligation exists). <!--SR:!2026-05-18,19,342!2026-05-18,19,342-->
-- SilverOak: estimated restructuring costs 500&nbsp;000—entry? ::@:: Dr _Restructuring expense_ 500&nbsp;000, Cr _Restructuring liability_ 500&nbsp;000.
+- SilverOak: estimated restructuring costs 500&nbsp;000—entry? ::@:: Dr _Restructuring expense_ 500&nbsp;000, Cr _Restructuring liability_ 500&nbsp;000. <!--SR:!fsrs,2026-06-16T14:38:50.491Z,8,8.2956,1,2,1,0,0,2026-06-08T14:38:50.491Z!fsrs,2026-06-16T14:55:40.481Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:40.481Z-->
 
 ## contingent liabilities and contingent assets
 
@@ -615,8 +615,8 @@ Flashcards for this section are as follows:
 
 - contingent liability ::@:: Possible obligation (or present obligation) not recognized because outflow is not probable or cannot be reliably measured; disclose if significant. <!--SR:!2026-07-21,66,310!2026-07-20,67,326-->
 - provision vs contingent liability (course convention) ::@:: Probable outflow (>50%) → recognize provision; possible (~5%–50%) → disclose contingent liability; remote (<5%) → ignore. <!--SR:!2026-08-03,79,342!2026-08-06,81,342-->
-- contingent asset ::@:: Possible asset whose existence depends on uncertain future events; recognize only when virtually certain (~>90%); disclose when probable (>50% but not virtually certain); do not disclose at all if inflow is remote.
-- contingent gain: recognition rule? ::@:: Never recognize until virtually certain; disclose when probable; do not disclose if remote. Recognizing contingent gains early is not permitted under IFRS.
+- contingent asset ::@:: Possible asset whose existence depends on uncertain future events; recognize only when virtually certain (~>90%); disclose when probable (>50% but not virtually certain); do not disclose at all if inflow is remote. <!--SR:!fsrs,2026-06-16T15:41:38.343Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:38.343Z!fsrs,2026-06-16T14:56:29.390Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:29.390Z-->
+- contingent gain: recognition rule? ::@:: Never recognize until virtually certain; disclose when probable; do not disclose if remote. Recognizing contingent gains early is not permitted under IFRS. <!--SR:!fsrs,2026-06-16T15:42:10.147Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:10.147Z!fsrs,2026-06-16T15:42:16.926Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:16.926Z-->
 - why higher threshold for contingent assets? ::@:: Conservatism: avoid recognizing gains/asset inflows until virtually certain. <!--SR:!2026-07-26,71,342!2026-08-02,78,342-->
 
 ## disclosure for provisions (high level)
@@ -637,7 +637,7 @@ _This exercise combines initial ARO recognition, annual depreciation, accretion,
 >
 > At {@{1 January 2027}@} (start of year 3), the entity revises its estimate upward to {@{2&nbsp;200&nbsp;000}@} (an increase of {@{400&nbsp;000}@}). Remaining life at that point = {@{4 years}@}. PV factor for 4 years at 8% = {@{0.7350}@}. PV of the increase = {@{400&nbsp;000 × 0.7350 = 294&nbsp;000}@}.
 >
-> _Required._ Prepare journal entries for: (a) initial recognition on 1 January 2025; (b) year 1 depreciation and accretion (year ended 31 December 2025); (c) upward revision on 1 January 2027; (d) additional depreciation for year 3 (year ended 31 December 2027).
+> _Required._ Prepare journal entries for: (a) initial recognition on 1 January 2025; (b) year 1 depreciation and accretion (year ended 31 December 2025); (c) upward revision on 1 January 2027; (d) additional depreciation for year 3 (year ended 31 December 2027). <!--SR:!fsrs,2026-06-16T14:39:38.133Z,8,8.2956,1,2,1,0,0,2026-06-08T14:39:38.133Z!fsrs,2026-06-16T14:56:36.285Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:36.285Z!fsrs,2026-06-16T14:55:06.266Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:06.266Z!fsrs,2026-06-16T15:40:07.774Z,8,8.2956,1,2,1,0,0,2026-06-08T15:40:07.774Z!fsrs,2026-06-16T14:56:27.233Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:27.233Z!fsrs,2026-06-16T15:41:36.278Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:36.278Z!fsrs,2026-06-16T15:41:40.345Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:40.345Z!fsrs,2026-06-16T15:42:17.928Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:17.928Z!fsrs,2026-06-16T15:41:35.658Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:35.658Z!fsrs,2026-06-16T15:42:24.137Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:24.137Z!fsrs,2026-06-16T15:41:37.867Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:37.867Z!fsrs,2026-06-16T15:41:42.554Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:42.554Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > (a) Initial recognition — 1 January 2025:
@@ -645,7 +645,7 @@ _This exercise combines initial ARO recognition, annual depreciation, accretion,
 > | {@{Recognise ARO: record asset and liability at PV}@} | Dr | Cr |
 > | --- | ---: | ---: |
 > | {@{Gas terminal (PPE)}@} | {@{1&nbsp;134&nbsp;360}@} | |
-> | {@{Environmental liability (ARO)}@} | | {@{1&nbsp;134&nbsp;360}@} |
+> | {@{Environmental liability (ARO)}@} | | {@{1&nbsp;134&nbsp;360}@} | <!--SR:!fsrs,2026-06-16T14:56:12.163Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:12.163Z!fsrs,2026-06-16T14:56:37.460Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:37.460Z!fsrs,2026-06-16T15:01:51.494Z,8,8.2956,1,2,1,0,0,2026-06-08T15:01:51.494Z!fsrs,2026-06-16T14:39:40.977Z,8,8.2956,1,2,1,0,0,2026-06-08T14:39:40.977Z!fsrs,2026-06-16T15:40:04.535Z,8,8.2956,1,2,1,0,0,2026-06-08T15:40:04.535Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > (b) Year 1 entries — 31 December 2025:
@@ -662,7 +662,7 @@ _This exercise combines initial ARO recognition, annual depreciation, accretion,
 > | {@{Finance cost (interest expense)}@} | {@{90&nbsp;749}@} | |
 > | {@{Environmental liability (ARO)}@} | | {@{90&nbsp;749}@} |
 >
-> _Calculation._ {@{1&nbsp;134&nbsp;360 × 8% = 90&nbsp;749}@} (rounded).
+> _Calculation._ {@{1&nbsp;134&nbsp;360 × 8% = 90&nbsp;749}@} (rounded). <!--SR:!fsrs,2026-06-16T14:55:43.472Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:43.472Z!fsrs,2026-06-16T15:41:38.913Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:38.913Z!fsrs,2026-06-16T14:39:36.447Z,8,8.2956,1,2,1,0,0,2026-06-08T14:39:36.447Z!fsrs,2026-06-16T14:55:31.588Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:31.588Z!fsrs,2026-06-16T14:56:39.420Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:39.420Z!fsrs,2026-06-16T15:39:57.390Z,8,8.2956,1,2,1,0,0,2026-06-08T15:39:57.390Z!fsrs,2026-06-16T14:56:33.006Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:33.006Z!fsrs,2026-06-16T15:42:15.617Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:15.617Z!fsrs,2026-06-16T14:55:47.193Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:47.193Z!fsrs,2026-06-16T15:42:42.348Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:42.348Z!fsrs,2026-06-16T15:42:22.602Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:22.602Z!fsrs,2026-06-16T15:22:31.205Z,8,8.2956,1,2,1,0,0,2026-06-08T15:22:31.205Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > (c) Upward revision — 1 January 2027:
@@ -674,7 +674,7 @@ _This exercise combines initial ARO recognition, annual depreciation, accretion,
 > | {@{Record upward revision of ARO estimate}@} | Dr | Cr |
 > | --- | ---: | ---: |
 > | {@{Gas terminal (PPE) — ARO revision}@} | {@{294&nbsp;000}@} | |
-> | {@{Environmental liability (ARO)}@} | | {@{294&nbsp;000}@} |
+> | {@{Environmental liability (ARO)}@} | | {@{294&nbsp;000}@} | <!--SR:!fsrs,2026-06-16T15:42:28.992Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:28.992Z!fsrs,2026-06-16T14:55:16.485Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:16.485Z!fsrs,2026-06-16T14:56:40.952Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:40.952Z!fsrs,2026-06-16T15:41:50.222Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:50.222Z!fsrs,2026-06-16T15:41:41.027Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:41.027Z!fsrs,2026-06-16T15:42:13.675Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:13.675Z!fsrs,2026-06-16T15:42:06.275Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:06.275Z!fsrs,2026-06-16T15:42:12.643Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:12.643Z!fsrs,2026-06-16T14:56:30.511Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:30.511Z!fsrs,2026-06-16T14:56:38.611Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:38.611Z!fsrs,2026-06-16T14:56:26.287Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:26.287Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > (d) Additional depreciation in year 3 on the revised ARO cost:
@@ -684,15 +684,15 @@ _This exercise combines initial ARO recognition, annual depreciation, accretion,
 > | {@{Depreciation expense}@} | {@{73&nbsp;500}@} | |
 > | {@{Accumulated depreciation — gas terminal}@} | | {@{73&nbsp;500}@} |
 >
-> _Calculation._ {@{294&nbsp;000 ÷ 4 = 73&nbsp;500}@}. This is the _extra_ depreciation from the revision; the original {@{189&nbsp;060}@} is also still recorded, so total year-3 depreciation = {@{189&nbsp;060 + 73&nbsp;500 = 262&nbsp;560}@}.
+> _Calculation._ {@{294&nbsp;000 ÷ 4 = 73&nbsp;500}@}. This is the _extra_ depreciation from the revision; the original {@{189&nbsp;060}@} is also still recorded, so total year-3 depreciation = {@{189&nbsp;060 + 73&nbsp;500 = 262&nbsp;560}@}. <!--SR:!fsrs,2026-06-16T14:56:35.396Z,8,8.2956,1,2,1,0,0,2026-06-08T14:56:35.396Z!fsrs,2026-06-16T15:42:19.671Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:19.671Z!fsrs,2026-06-16T15:41:43.316Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:43.316Z!fsrs,2026-06-16T15:40:01.776Z,8,8.2956,1,2,1,0,0,2026-06-08T15:40:01.776Z!fsrs,2026-06-16T15:41:41.704Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:41.704Z!fsrs,2026-06-16T15:42:05.263Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:05.263Z!fsrs,2026-06-16T15:39:58.595Z,8,8.2956,1,2,1,0,0,2026-06-08T15:39:58.595Z!fsrs,2026-06-16T15:42:04.487Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:04.487Z-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- ARO worked exercise: initial recognition — cost 1&nbsp;800&nbsp;000, 6 years, 8%, PV factor 0.6302? ::@:: Dr _Gas terminal (PPE)_ 1&nbsp;134&nbsp;360; Cr _Environmental liability_ 1&nbsp;134&nbsp;360.
-- ARO worked exercise: year 1 depreciation — initial ARO PV 1&nbsp;134&nbsp;360, 6-year straight-line? ::@:: Dr _Depreciation expense_ 189&nbsp;060; Cr _Accumulated depreciation_ 189&nbsp;060.
-- ARO worked exercise: year 1 accretion — opening liability 1&nbsp;134&nbsp;360 at 8%? ::@:: Dr _Finance cost_ 90&nbsp;749; Cr _Environmental liability_ 90&nbsp;749.
-- ARO worked exercise: upward revision entry — PV of increase = 294&nbsp;000? ::@:: Dr _PPE_ (ARO revision) 294&nbsp;000; Cr _Environmental liability_ 294&nbsp;000.
-- ARO worked exercise: why is additional depreciation spread over remaining 4 years only? ::@:: The revision occurs at the start of year 3 (2 years into a 6-year life); the additional cost is allocated prospectively, not restated over the original 6 years.
-- ARO worked exercise: additional annual depreciation from revision 294&nbsp;000 over 4 remaining years? ::@:: 73&nbsp;500 per year (294&nbsp;000 ÷ 4); total year-3 depreciation = 189&nbsp;060 (original) + 73&nbsp;500 (revision) = 262&nbsp;560.
+- ARO worked exercise: initial recognition — cost 1&nbsp;800&nbsp;000, 6 years, 8%, PV factor 0.6302? ::@:: Dr _Gas terminal (PPE)_ 1&nbsp;134&nbsp;360; Cr _Environmental liability_ 1&nbsp;134&nbsp;360. <!--SR:!fsrs,2026-06-16T15:40:00.685Z,8,8.2956,1,2,1,0,0,2026-06-08T15:40:00.685Z!fsrs,2026-06-16T14:54:58.428Z,8,8.2956,1,2,1,0,0,2026-06-08T14:54:58.428Z-->
+- ARO worked exercise: year 1 depreciation — initial ARO PV 1&nbsp;134&nbsp;360, 6-year straight-line? ::@:: Dr _Depreciation expense_ 189&nbsp;060; Cr _Accumulated depreciation_ 189&nbsp;060. <!--SR:!fsrs,2026-06-16T15:42:31.286Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:31.286Z!fsrs,2026-06-16T15:42:24.861Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:24.861Z-->
+- ARO worked exercise: year 1 accretion — opening liability 1&nbsp;134&nbsp;360 at 8%? ::@:: Dr _Finance cost_ 90&nbsp;749; Cr _Environmental liability_ 90&nbsp;749. <!--SR:!fsrs,2026-06-16T14:38:52.795Z,8,8.2956,1,2,1,0,0,2026-06-08T14:38:52.795Z!fsrs,2026-06-16T15:42:47.076Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:47.076Z-->
+- ARO worked exercise: upward revision entry — PV of increase = 294&nbsp;000? ::@:: Dr _PPE_ (ARO revision) 294&nbsp;000; Cr _Environmental liability_ 294&nbsp;000. <!--SR:!fsrs,2026-06-16T15:41:51.173Z,8,8.2956,1,2,1,0,0,2026-06-08T15:41:51.173Z!fsrs,2026-06-16T14:39:39.935Z,8,8.2956,1,2,1,0,0,2026-06-08T14:39:39.935Z-->
+- ARO worked exercise: why is additional depreciation spread over remaining 4 years only? ::@:: The revision occurs at the start of year 3 (2 years into a 6-year life); the additional cost is allocated prospectively, not restated over the original 6 years. <!--SR:!fsrs,2026-06-16T14:55:32.492Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:32.492Z!fsrs,2026-06-16T14:55:46.211Z,8,8.2956,1,2,1,0,0,2026-06-08T14:55:46.211Z-->
+- ARO worked exercise: additional annual depreciation from revision 294&nbsp;000 over 4 remaining years? ::@:: 73&nbsp;500 per year (294&nbsp;000 ÷ 4); total year-3 depreciation = 189&nbsp;060 (original) + 73&nbsp;500 (revision) = 262&nbsp;560. <!--SR:!fsrs,2026-06-16T15:01:50.601Z,8,8.2956,1,2,1,0,0,2026-06-08T15:01:50.601Z!fsrs,2026-06-16T15:42:27.511Z,8,8.2956,1,2,1,0,0,2026-06-08T15:42:27.511Z-->

@@ -146,7 +146,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - load halfword ::@:: `lh $t, offset($s)`: `$t = *((*int16_t) &MEM[$s + offset]);`; the loaded 16 bits are sign-extended <!--SR:!2028-12-19,1066,355!2030-08-11,1554,375-->
 - load halfword unsigned ::@:: `lhu $t, offset($s)`: `$t = *((*uint16_t) &MEM[$s + offset]);`; the loaded 16 bits are zero-extended <!--SR:!2028-09-04,974,350!fsrs,2030-09-23T05:08:32.481Z,1571,1570.84524539,1,2,9,0,0,2026-06-05T05:08:32.481Z-->
 - load word ::@:: `lw $t, offset($s)`: `$t = *((*uint32_t) (&MEM[$s + offset]));` <!--SR:!2026-06-12,354,355!2030-08-07,1550,375-->
-- move from HI ::@:: `mfhi $d`: `$d = $HI;`; note the register placeholder is `$d` instead of `$s` <!--SR:!2030-08-29,1571,375!fsrs,2030-10-30T09:12:46.962Z,1605,1604.59291616,1,2,9,0,0,2026-06-08T09:12:46.962Z-->
+- move from HI ::@:: `mfhi $d`: `$d = $HI;`; note the register placeholder is `$d` instead of `$s` <!--SR:!2030-08-29,1571,375!2026-06-08,349,355-->
 - move from LO ::2:: `mflo $d`: `$d = $LO;`; note the register placeholder is `$d` instead of `$s`
 - store byte ::@:: `sb $t, offset($s)`: `*((*uint8_t) (&MEM[$s + offset])) = 0xff & $t;` <!--SR:!2028-09-04,974,350!2028-09-08,978,350-->
 - store halfword ::@:: `sh $t, offset($s)`: `*((*uint16_t) (&MEM[$s + offset])) = 0xffff & $t;` <!--SR:!fsrs,2030-09-24T05:09:56.211Z,1572,1572.3176042,1,2,9,0,0,2026-06-05T05:09:56.211Z!2026-06-11,353,350-->
@@ -162,7 +162,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - branch on less than or equal to zero ::@:: `blez $s, offset`: `if ($s <= 0) { goto nPC + offset << 2; }` <!--SR:!2026-06-10,351,350!2030-04-12,1450,370-->
 - branch on less than or equal to zero and link ::@:: `blezal` does not exist. For uncertain reasons \(maybe because ≥ and < only requires reading the sign bit\), only `bgezal` \(≥\) and `bltzal` \(<\) exist. <!--SR:!2029-01-05,1060,355!2026-06-18,359,355-->
 - branch on less than zero ::@:: `bltz $s, offset`: `if ($s < 0) { goto nPC + offset << 2; }` <!--SR:!fsrs,2030-09-27T05:07:37.541Z,1575,1574.84419039,1,2,9,0,0,2026-06-05T05:07:37.541Z!2027-08-02,644,335-->
-- branch on less than zero and link ::@:: `bltzal $s, offset`: `if ($s < 0) { goto offset $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!fsrs,2030-10-30T09:12:37.316Z,1605,1604.59291616,1,2,9,0,0,2026-06-08T09:12:37.316Z!2027-03-26,554,350-->
+- branch on less than zero and link ::@:: `bltzal $s, offset`: `if ($s < 0) { goto offset $ra = nPC + 4; goto nPC + offset << 2; }` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2026-06-08,349,355!2027-03-26,554,350-->
 - branch on not equal ::@:: `bne $s, $t, offset`: `if ($s != $t) { goto nPC + offset << 2; }` <!--SR:!2030-08-27,1564,370!2030-07-16,1528,370-->
 - jump ::@:: `j target`: `goto (nPC & 0xf0000000) | (target << 2);` <!--SR:!2026-06-14,355,355!2028-08-27,966,355-->
 - jump and link ::@:: `jal target`: `$ra = nPC + 4; goto (nPC & 0xf0000000) | (target << 2);` \(`nPC+4` instead of nPC is due to a branch delay slot; for MARS and this course, ignore this and treat it as the next instruction: nPC\) <!--SR:!2030-08-17,1560,375!2030-08-25,1567,375-->
@@ -173,7 +173,7 @@ Note that while {@{`$zero` or `$0`}@} has {@{the semantics of _constant_ zero}@}
 - set on less than ::@:: `slt $d, $s, $t`: `$d = $s < $t;`, signed <!--SR:!2028-09-01,971,355!2026-06-12,353,355-->
 - set on less than immediate ::@:: `slti $t, $s, imm`: `$t = $s < imm;`, signed; `imm` is sign-extended <!--SR:!2030-09-21,1589,375!2030-08-28,1570,375-->
 - set on less than immediate unsigned ::@:: `sltiu $t, $s, imm`: `$t = $s < imm;`, unsigned; `imm` is sign-extended \(_surprise_!\) <!--SR:!2026-10-30,409,310!2030-09-18,1586,375-->
-- set on less than unsigned ::@:: `sltu $d, $s, $t`: `$d = $s < $t;`, unsigned <!--SR:!fsrs,2030-10-05T09:12:45.269Z,1580,1579.64736153,1,2,9,0,0,2026-06-08T09:12:45.269Z!2030-07-26,1538,370-->
+- set on less than unsigned ::@:: `sltu $d, $s, $t`: `$d = $s < $t;`, unsigned <!--SR:!2026-06-08,349,350!2030-07-26,1538,370-->
 
 ## floating-point instructions
 
@@ -221,7 +221,7 @@ All instructions are {@{4 bytes \(32 bits\) long}@}. This is an example of {@{th
 
 - R format ::@:: all operands are registers \(ignoring the "immediate" operand in bit-shift instructions\) without offsets <p> opcode: 6 bits → rs: 5 bits → rt: 5 bits → rd: 5 bits → shift \(shamt\): 5 bits → funct: 6 bits <!--SR:!2030-09-20,1588,375!2030-08-08,1551,375-->
 - I format ::@:: one operand is immediate \(the "immediate" operand in bit-shift instructions is not really immediate\) or an offset is present <p> opcode: 6 bits → rs: 5 bits → rt: 5 bits → imm: 16 bits <!--SR:!2030-04-19,1457,370!2030-08-21,1564,375-->
-- J format ::@:: the only operand is an pseudo-address <p> opcode: 6 bits → pseudo-address: 26 bits <!--SR:!fsrs,2030-10-30T09:12:48.888Z,1605,1604.59291616,1,2,9,0,0,2026-06-08T09:12:48.888Z!2030-08-23,1566,375-->
+- J format ::@:: the only operand is an pseudo-address <p> opcode: 6 bits → pseudo-address: 26 bits <!--SR:!2026-06-08,349,355!2030-08-23,1566,375-->
 
 The format fields include {@{opcode, rs, rt, rd, shift \(shamt\), funct, imm, and pseudo-address}@}. They mean: <!--SR:!2026-06-20,361,355-->
 
@@ -331,7 +331,7 @@ To convert {@{an `if...else if...else` statement}@}, a common pattern is {@{a bu
 
 ## pseudo-instructions
 
-Since {@{MIPS have few instructions}@}, some common code {@{requires multiple instructions}@}. Pseudo-instructions are {@{_assembler macros_ that help replace these multiple instructions with a single line}@}. Since {@{these instructions are not real}@}, they are {@{replaced by multiple instructions implementing the pseudo-instruction during assembly}@}, and thus {@{does not appear in the resulting program file}@}. Note that this also means {@{the set of pseudo-instructions available is not standardized and may vary across different assemblers}@}. That means {@{some pseudo-instructions below may not be usable in your assembler}@}. It also means {@{different assemblers may use different implementations \(in particular, different from that given below\) to replace the same pseudo-instruction}@}. <!--SR:!fsrs,2030-10-03T05:07:12.348Z,1581,1580.71365749,1,2,9,0,0,2026-06-05T05:07:12.348Z!fsrs,2030-10-05T09:12:47.761Z,1580,1579.64736153,1,2,9,0,0,2026-06-08T09:12:47.761Z!2030-08-22,1565,375!2030-08-02,1544,370!2030-08-16,1559,375!2030-09-03,1571,370!2027-01-11,516,401!2027-01-14,523,401!2027-07-04,654,412-->
+Since {@{MIPS have few instructions}@}, some common code {@{requires multiple instructions}@}. Pseudo-instructions are {@{_assembler macros_ that help replace these multiple instructions with a single line}@}. Since {@{these instructions are not real}@}, they are {@{replaced by multiple instructions implementing the pseudo-instruction during assembly}@}, and thus {@{does not appear in the resulting program file}@}. Note that this also means {@{the set of pseudo-instructions available is not standardized and may vary across different assemblers}@}. That means {@{some pseudo-instructions below may not be usable in your assembler}@}. It also means {@{different assemblers may use different implementations \(in particular, different from that given below\) to replace the same pseudo-instruction}@}. <!--SR:!fsrs,2030-10-03T05:07:12.348Z,1581,1580.71365749,1,2,9,0,0,2026-06-05T05:07:12.348Z!2026-06-08,349,350!2030-08-22,1565,375!2030-08-02,1544,370!2030-08-16,1559,375!2030-09-03,1571,370!2027-01-11,516,401!2027-01-14,523,401!2027-07-04,654,412-->
 
 The benefit of pseudo-instructions is that {@{they simplify your code to make it more understandable}@}. The _only_ cost is that {@{a register, `$at`, is reserved for use to replace pseudo-instructions with real instructions by the assembler}@}. \({@{Requiring multiple instructions is _not_ a cost}@} since {@{with or without pseudo-instructions, you still need multiple instructions unless the architecture makes it a real instruction}@}.\) <!--SR:!2027-02-05,536,401!2026-10-25,449,401!2027-01-02,513,401!2027-01-25,525,401-->
 
@@ -343,7 +343,7 @@ The benefit of pseudo-instructions is that {@{they simplify your code to make it
 - branch on less than or equal to ::@:: `ble $s, $t, offset`: `if ($s <= $t) { goto nPC + offset << 2; }`; implemented by `slt $at, $t, $s; beq $at, $zero, offset;` <!--SR:!2026-11-24,479,401!2028-09-27,997,381-->
 - branch on not equal to zero ::@:: `bnez $s, offset`: `if ($s != 0) { goto nPC + offset << 2; }`; implemented by `bne $s, $zero, offset;` <!--SR:!2028-03-26,812,436!2028-02-07,781,436-->
 - load address ::@:: `la $d, addr`: `$d = &addr;`, but `addr` is an address or label; implemented by `lui $at, addr[16:32]; ori $d, $at, addr[0:16];` <!--SR:!2030-08-06,1549,375!2028-05-30,896,350-->
-- load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2030-05-03,1463,370!fsrs,2030-10-05T09:12:46.038Z,1580,1579.64736153,1,2,9,0,0,2026-06-08T09:12:46.038Z-->
+- load immediate ::@:: `li $d, imm`: `$d = imm;`, but `imm` is a 32-bit unsigned integer; implemented by `lui $at, imm[16:32]; ori $d, $at, imm[0:16];` <!--SR:!2030-05-03,1463,370!2026-06-08,349,350-->
 - move ::@:: `mov $d, $s`: `$d = $s;`; implemented by `or $d, $zero, $s;` <!--SR:!2027-01-12,517,401!2026-12-21,497,401-->
 - negate ::@:: `neg $d, $s`: `$d = -$s;`; implemented by `subu $d, $zero, $s;` <!--SR:!2026-11-01,456,401!2026-12-30,506,401-->
 - not ::@:: `not $d, $s`: `$d = ~$s;`; implemented by `nor $d, $zero, $s;` <!--SR:!2027-05-11,597,335!2026-06-12,353,355-->

@@ -244,7 +244,7 @@ tags:
 > 2. No
 >
 > - solution: {@{2}@}
-> - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@} <!--SR:!2026-06-10,370,373!fsrs,2031-03-31T10:11:18.730Z,1757,1756.92682354,1,2,10,0,0,2026-06-08T10:11:18.730Z-->
+> - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@} <!--SR:!2026-06-10,370,373!2026-06-07,367,373-->
 
 <!-- markdownlint MD028 -->
 
@@ -302,7 +302,7 @@ tags:
 > 2. Bank B
 > 3. They are the same
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2031-04-01T10:11:14.885Z,1758,1758.37829393,1,2,10,0,0,2026-06-08T10:11:14.885Z-->
+> - solution: {@{1}@} <!--SR:!2026-06-08,368,373-->
 
 <!-- markdownlint MD028 -->
 

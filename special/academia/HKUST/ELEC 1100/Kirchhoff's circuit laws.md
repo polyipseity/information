@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 - origin of laws ::@:: Gustav Kirchhoff (1824–1887) formulated the current and voltage laws now bearing his name. <!--SR:!2027-01-26,237,330!2027-01-30,241,330-->
 - purpose of laws ::@:: Provide a systematic way to relate currents and voltages when a network cannot be reduced by simple series or parallel combinations. <!--SR:!2026-06-12,67,310!2026-06-10,65,310-->
 - series resistance formula <p> ![resistors in series](attachments/series.svg) ::@:: For resistors in series, $R_{\text{eq}} = R_1 + R_2 + \cdots$ because the same current flows through each element. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-11T01:46:35.733Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:46:35.733Z!2027-02-11,253,330-->
-- parallel resistance formula <p> ![resistors in parallel](attachments/parallel.svg) ::@:: For resistors in parallel, $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$ since each branch has the same voltage and conductances sum. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-11T01:46:35.251Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:46:35.251Z!fsrs,2027-04-20T09:42:47.701Z,316,315.61032191,1,2,7,0,0,2026-06-08T09:42:47.701Z-->
+- parallel resistance formula <p> ![resistors in parallel](attachments/parallel.svg) ::@:: For resistors in parallel, $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$ since each branch has the same voltage and conductances sum. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-11T01:46:35.251Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:46:35.251Z!2026-06-07,63,310-->
 - complex network definition ::@:: A circuit whose interconnections are neither purely series nor purely parallel, requiring general analysis using Kirchhoff's laws. <!--SR:!2027-02-07,249,330!2027-01-29,240,330-->
 - applicability domain ::@:: Kirchhoff's laws apply to any network by writing equations for nodes (junctions) and closed loops. <!--SR:!2027-02-01,243,330!2027-02-12,254,330-->
 
@@ -43,8 +43,8 @@ Flashcards for this section are as follows:
 
 - KCL alternative name ::@:: Kirchhoff's current law is also called the junction rule. <!--SR:!2026-12-05,185,310!2027-01-29,240,330-->
 - KCL statement ::@:: At any node, the algebraic sum of currents is zero. <p> ![KCL](attachments/kcl.svg) <!--SR:!2026-06-10,65,310!2026-06-12,67,310-->
-- KCL entering vs leaving ::@:: The sum of currents entering a junction equals the sum leaving. <!--SR:!fsrs,2027-04-20T09:42:40.282Z,316,315.61032191,1,2,7,0,0,2026-06-08T09:42:40.282Z!2026-06-11,66,310-->
-- KCL algebraic form ::@:: $\sum I_{\text{in}} = \sum I_{\text{out}}$; bringing all to one side gives equations like $I_1+I_2-I_3-I_4=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-20T09:42:41.904Z,316,315.61032191,1,2,7,0,0,2026-06-08T09:42:41.904Z!fsrs,2027-04-05T10:01:28.548Z,304,304.30256839,1,2,7,0,0,2026-06-05T10:01:28.548Z-->
+- KCL entering vs leaving ::@:: The sum of currents entering a junction equals the sum leaving. <!--SR:!2026-06-07,63,310!2026-06-11,66,310-->
+- KCL algebraic form ::@:: $\sum I_{\text{in}} = \sum I_{\text{out}}$; bringing all to one side gives equations like $I_1+I_2-I_3-I_4=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-07,63,310!fsrs,2027-04-05T10:01:28.548Z,304,304.30256839,1,2,7,0,0,2026-06-05T10:01:28.548Z-->
 - KCL sign convention ::@:: Currents assumed leaving may be taken as negative so a single summation suffices. <!--SR:!2027-02-02,244,330!2026-06-12,67,310-->
 - KCL rationale ::@:: It follows from conservation of charge; no net charge accumulates at a point, discrete analogue of the continuity equation. <!--SR:!2027-02-21,262,330!2027-02-14,256,330-->
 
@@ -119,5 +119,5 @@ Each application of KCL or KVL produces a linear equation relating unknowns (vol
 Flashcards for this section are as follows:
 
 - independence principle ::@:: A sufficient number of independent KCL/KVL equations uniquely determines circuit unknowns. <!--SR:!2026-06-11,66,310!2026-06-12,67,310-->
-- when to apply ::@:: Use Kirchhoff's laws when series/parallel simplification fails, as in bridge circuits. <!--SR:!2026-06-12,67,310!fsrs,2027-04-20T09:42:42.772Z,316,315.61032191,1,2,7,0,0,2026-06-08T09:42:42.772Z-->
+- when to apply ::@:: Use Kirchhoff's laws when series/parallel simplification fails, as in bridge circuits. <!--SR:!2026-06-12,67,310!2026-06-07,63,310-->
 - equivalent resistance technique ::@:: Attach a test voltage source $V$, compute total current $I$ by KCL/KVL, then $R_{\text{eq}} = V/I$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-06-09,64,310!2026-06-11,66,310-->

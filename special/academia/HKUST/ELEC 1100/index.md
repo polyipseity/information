@@ -210,7 +210,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - ELEC 1100
   - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md) ::@:: Two fundamental relations (KCL and KVL) <!--SR:!2026-07-04,87,368!2026-07-03,86,368-->
     - [§ background](Kirchhoff%27s%20circuit%20laws.md#background) ::@:: Series/parallel formulas motivate the need for general laws <!--SR:!2026-06-29,83,368!2026-06-30,84,368-->
-    - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law) ::@:: Sum of currents entering a node equals sum leaving it <!--SR:!fsrs,2027-05-26T09:43:09.448Z,352,352.33294433,1,2,7,0,0,2026-06-08T09:43:09.448Z!2026-07-02,85,368-->
+    - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law) ::@:: Sum of currents entering a node equals sum leaving it <!--SR:!2026-06-07,61,348!2026-07-02,85,368-->
     - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20voltage%20law) ::@:: Sum of voltage drops around a closed loop equals zero <!--SR:!2026-07-21,91,368!2026-07-23,93,368-->
     - [§ circuit analysis using Kirchhoff's laws](Kirchhoff%27s%20circuit%20laws.md#circuit%20analysis%20using%20kirchhoff%27s%20laws) ::@:: Procedure combining KCL and KVL to solve networks <!--SR:!2026-07-05,88,368!2026-07-18,88,368-->
     - [§ integrated numerical calculations](Kirchhoff%27s%20circuit%20laws.md#integrated%20numerical%20calculations) ::@:: Worked calculations using KCL and KVL for simple and bridge circuits <!--SR:!2026-07-04,87,368!2026-07-19,89,368-->

@@ -34,10 +34,10 @@ For all other leases, the lessee recognizes the ROU asset and lease liability on
 
 Flashcards for this section are as follows:
 
-- IFRS 16 lessee: what must be recognized for almost all leases? ::@:: A right-of-use (ROU) asset and a lease liability on the commencement date.
-- IFRS 16 lessee: two exceptions that allow lease payments to be expensed as incurred ::@:: Short-term leases (term ≤ 12 months) and low-value leases (asset value ≤ approximately USD 5 000 when new).
-- why might a lessee prefer leasing to buying? ::@:: 100% financing; protection against obsolescence; flexibility; potentially lower cost than borrowing to buy.
-- IFRS 16: who retains legal title in a lease? ::@:: The lessor; the lessee obtains the right of use, not legal ownership.
+- IFRS 16 lessee: what must be recognized for almost all leases? ::@:: A right-of-use (ROU) asset and a lease liability on the commencement date. <!--SR:!fsrs,2026-06-20T10:56:24.672Z,8,8.2956,1,2,1,0,0,2026-06-12T10:56:24.672Z!fsrs,2026-06-20T11:42:35.405Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:35.405Z-->
+- IFRS 16 lessee: two exceptions that allow lease payments to be expensed as incurred ::@:: Short-term leases (term ≤ 12 months) and low-value leases (asset value ≤ approximately USD 5 000 when new). <!--SR:!2000-01-01,1,250!fsrs,2026-06-20T02:08:07.380Z,8,8.2956,1,2,1,0,0,2026-06-12T02:08:07.380Z-->
+- why might a lessee prefer leasing to buying? ::@:: 100% financing; protection against obsolescence; flexibility; potentially lower cost than borrowing to buy. <!--SR:!fsrs,2026-06-20T10:57:07.158Z,8,8.2956,1,2,1,0,0,2026-06-12T10:57:07.158Z!fsrs,2026-06-20T10:58:11.134Z,8,8.2956,1,2,1,0,0,2026-06-12T10:58:11.134Z-->
+- IFRS 16: who retains legal title in a lease? ::@:: The lessor; the lessee obtains the right of use, not legal ownership. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:49:21.259Z,8,8.2956,1,2,1,0,0,2026-06-11T16:49:21.259Z-->
 
 ## lease term and lease payments
 
@@ -58,11 +58,11 @@ The lessee uses the __implicit rate__ (rate the lessor uses to set the payments 
 
 Flashcards for this section are as follows:
 
-- lease term under IFRS 16: what periods are included? ::@:: The non-cancelable period plus any optional extension periods (or termination options) the lessee is reasonably certain to exercise (or not exercise).
-- bargain renewal option: how does it affect lease term? ::@:: Since the lessee is effectively certain to renew at a below-market rate, the renewal period is included in the lease term for measurement purposes.
-- guaranteed residual value: what amount does the lessee include as a lease payment? ::@:: The expected payment = max(guaranteed residual − expected fair value at end of lease, 0). If expected FV ≥ guaranteed, the lessee includes nothing.
-- lessee discount rate: primary and fallback ::@:: Use the implicit rate if known; otherwise use the incremental borrowing rate.
-- variable lease payments based on usage: are they in the lease liability? ::@:: No — usage-based variable payments are expensed as incurred; only payments based on an index or rate are included.
+- lease term under IFRS 16: what periods are included? ::@:: The non-cancelable period plus any optional extension periods (or termination options) the lessee is reasonably certain to exercise (or not exercise). <!--SR:!fsrs,2026-06-20T11:42:58.780Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:58.780Z!fsrs,2026-06-20T11:43:13.997Z,8,8.2956,1,2,1,0,0,2026-06-12T11:43:13.997Z-->
+- bargain renewal option: how does it affect lease term? ::@:: Since the lessee is effectively certain to renew at a below-market rate, the renewal period is included in the lease term for measurement purposes. <!--SR:!fsrs,2026-06-20T11:43:07.472Z,8,8.2956,1,2,1,0,0,2026-06-12T11:43:07.472Z!fsrs,2026-06-20T10:58:10.197Z,8,8.2956,1,2,1,0,0,2026-06-12T10:58:10.197Z-->
+- guaranteed residual value: what amount does the lessee include as a lease payment? ::@:: The expected payment = max(guaranteed residual − expected fair value at end of lease, 0). If expected FV ≥ guaranteed, the lessee includes nothing. <!--SR:!fsrs,2026-06-19T16:51:45.071Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:45.071Z!fsrs,2026-06-20T02:42:54.977Z,8,8.2956,1,2,1,0,0,2026-06-12T02:42:54.977Z-->
+- lessee discount rate: primary and fallback ::@:: Use the implicit rate if known; otherwise use the incremental borrowing rate. <!--SR:!fsrs,2026-06-19T16:19:09.013Z,8,8.2956,1,2,1,0,0,2026-06-11T16:19:09.013Z!fsrs,2026-06-19T16:15:39.994Z,8,8.2956,1,2,1,0,0,2026-06-11T16:15:39.994Z-->
+- variable lease payments based on usage: are they in the lease liability? ::@:: No — usage-based variable payments are expensed as incurred; only payments based on an index or rate are included. <!--SR:!fsrs,2026-06-20T11:42:51.663Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:51.663Z!fsrs,2026-06-20T11:32:04.328Z,8,8.2956,1,2,1,0,0,2026-06-12T11:32:04.328Z-->
 
 ## lessee accounting — finance lease
 
@@ -81,12 +81,12 @@ Subsequent measurement:
 
 Flashcards for this section are as follows:
 
-- lessee finance lease: what two elements are recognized at commencement? ::@:: _Right-of-use asset_ and _lease liability_, both measured at the present value of lease payments.
-- lessee finance lease: how is the lease liability subsequently measured? ::@:: Effective interest method: increased by interest accrued (carrying amount × rate) and reduced by cash payments.
-- lessee finance lease: over what period is the ROU asset depreciated? ::@:: Over the shorter of the lease term and the useful life of the underlying asset, unless ownership transfers or a bargain purchase option exists (then use useful life).
-- lessee income statement — finance lease: what two charges appear? ::@:: _Interest expense_ (on the lease liability) and _depreciation_ (on the ROU asset), separately shown.
-- annuity-due lease: why is the first payment made on commencement date with no interest? ::@:: Because payment is at the start of the period; there has been no time for interest to accrue, so the full payment reduces the _lease liability_ directly.
-- lessee ROU asset: initial measurement formula? ::@:: _ROU asset_ = _lease liability_ + any lease prepayments + initial direct costs incurred by the lessee − any lease incentives received from the lessor.
+- lessee finance lease: what two elements are recognized at commencement? ::@:: _Right-of-use asset_ and _lease liability_, both measured at the present value of lease payments. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:18:18.286Z,8,8.2956,1,2,1,0,0,2026-06-11T16:18:18.286Z-->
+- lessee finance lease: how is the lease liability subsequently measured? ::@:: Effective interest method: increased by interest accrued (carrying amount × rate) and reduced by cash payments. <!--SR:!fsrs,2026-06-20T10:57:22.614Z,8,8.2956,1,2,1,0,0,2026-06-12T10:57:22.614Z!fsrs,2026-06-20T11:42:37.030Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:37.030Z-->
+- lessee finance lease: over what period is the ROU asset depreciated? ::@:: Over the shorter of the lease term and the useful life of the underlying asset, unless ownership transfers or a bargain purchase option exists (then use useful life). <!--SR:!2000-01-01,1,250!fsrs,2026-06-20T02:08:44.192Z,8,8.2956,1,2,1,0,0,2026-06-12T02:08:44.192Z-->
+- lessee income statement — finance lease: what two charges appear? ::@:: _Interest expense_ (on the lease liability) and _depreciation_ (on the ROU asset), separately shown. <!--SR:!fsrs,2026-06-20T02:39:28.844Z,8,8.2956,1,2,1,0,0,2026-06-12T02:39:28.844Z!fsrs,2026-06-19T16:25:15.997Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:15.997Z-->
+- annuity-due lease: why is the first payment made on commencement date with no interest? ::@:: Because payment is at the start of the period; there has been no time for interest to accrue, so the full payment reduces the _lease liability_ directly. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:16:08.961Z,8,8.2956,1,2,1,0,0,2026-06-11T16:16:08.961Z-->
+- lessee ROU asset: initial measurement formula? ::@:: _ROU asset_ = _lease liability_ + any lease prepayments + initial direct costs incurred by the lessee − any lease incentives received from the lessor. <!--SR:!fsrs,2026-06-19T16:51:46.469Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:46.469Z!fsrs,2026-06-20T02:43:12.824Z,8,8.2956,1,2,1,0,0,2026-06-12T02:43:12.824Z-->
 
 ### finance lease: Oakhurst Mining and Navara Capital
 
@@ -119,7 +119,7 @@ Flashcards for this section are as follows:
 > | {@{Right-of-use asset}@} | {@{115&nbsp;069}@} | |
 > | {@{Lease liability}@} | | {@{115&nbsp;069}@} |
 > | {@{Lease liability}@} | {@{24&nbsp;854}@} | |
-> | {@{Cash}@} | | {@{24&nbsp;854}@} |
+> | {@{Cash}@} | | {@{24&nbsp;854}@} | <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:46:24.127Z,8,8.2956,1,2,1,0,0,2026-06-11T16:46:24.127Z!2000-01-01,1,250!fsrs,2026-06-20T02:10:50.570Z,8,8.2956,1,2,1,0,0,2026-06-12T02:10:50.570Z!fsrs,2026-06-19T16:45:24.083Z,8,8.2956,1,2,1,0,0,2026-06-11T16:45:24.083Z!fsrs,2026-06-19T16:00:32.978Z,8,8.2956,1,2,1,0,0,2026-06-11T16:00:32.978Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T18:06:43.262Z,8,8.2956,1,2,1,0,0,2026-06-11T18:06:43.262Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:20:51.056Z,8,8.2956,1,2,1,0,0,2026-06-11T16:20:51.056Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T02:07:33.893Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:33.893Z!2000-01-01,1,250!fsrs,2026-06-20T02:08:46.556Z,8,8.2956,1,2,1,0,0,2026-06-12T02:08:46.556Z!fsrs,2026-06-19T16:19:52.444Z,8,8.2956,1,2,1,0,0,2026-06-11T16:19:52.444Z!fsrs,2026-06-19T16:20:50.047Z,8,8.2956,1,2,1,0,0,2026-06-11T16:20:50.047Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T02:10:48.968Z,8,8.2956,1,2,1,0,0,2026-06-12T02:10:48.968Z!fsrs,2026-06-19T16:22:28.868Z,8,8.2956,1,2,1,0,0,2026-06-11T16:22:28.868Z!2000-01-01,1,250!fsrs,2026-06-19T16:18:38.215Z,8,8.2956,1,2,1,0,0,2026-06-11T16:18:38.215Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T02:10:54.084Z,8,8.2956,1,2,1,0,0,2026-06-12T02:10:54.084Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > Interest = €90&nbsp;215 × 4% = €3&nbsp;609; depreciation = €115&nbsp;069 ÷ 5 = €23&nbsp;014 per year.
@@ -129,7 +129,7 @@ Flashcards for this section are as follows:
 > | {@{Interest expense}@} | {@{3&nbsp;609}@} | |
 > | {@{Lease liability}@} | | {@{3&nbsp;609}@} |
 > | {@{Depreciation expense}@} | {@{23&nbsp;014}@} | |
-> | {@{Accumulated depreciation — ROU asset}@} | | {@{23&nbsp;014}@} |
+> | {@{Accumulated depreciation — ROU asset}@} | | {@{23&nbsp;014}@} | <!--SR:!fsrs,2026-06-19T16:25:54.913Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:54.913Z!2000-01-01,1,250!fsrs,2026-06-19T16:01:11.317Z,8,8.2956,1,2,1,0,0,2026-06-11T16:01:11.317Z!2000-01-01,1,250!fsrs,2026-06-19T16:50:57.072Z,8,8.2956,1,2,1,0,0,2026-06-11T16:50:57.072Z!2000-01-01,1,250!fsrs,2026-06-19T16:49:17.186Z,8,8.2956,1,2,1,0,0,2026-06-11T16:49:17.186Z!fsrs,2026-06-20T02:42:51.089Z,8,8.2956,1,2,1,0,0,2026-06-12T02:42:51.089Z!fsrs,2026-06-19T18:06:41.334Z,8,8.2956,1,2,1,0,0,2026-06-11T18:06:41.334Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > Oakhurst Mining — LL at 31 Dec 2025 (after interest accrual): €93&nbsp;824. Second annual payment due 1 Jan 2026:
@@ -137,7 +137,7 @@ Flashcards for this section are as follows:
 > | {@{1 January 2026 — second payment}@} | Dr | Cr |
 > | --- | ---: | ---: |
 > | {@{Lease liability}@} | {@{24&nbsp;854}@} | |
-> | {@{Cash}@} | | {@{24&nbsp;854}@} |
+> | {@{Cash}@} | | {@{24&nbsp;854}@} | <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:09:17.383Z,8,8.2956,1,2,1,0,0,2026-06-11T16:09:17.383Z!2000-01-01,1,250!fsrs,2026-06-19T16:25:30.754Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:30.754Z!fsrs,2026-06-19T18:06:36.276Z,8,8.2956,1,2,1,0,0,2026-06-11T18:06:36.276Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > Oakhurst Mining — LL after second payment: €68&nbsp;970. Year 2 interest: €68&nbsp;970 × 4% = €2&nbsp;759; depreciation unchanged at €23&nbsp;014 per year.
@@ -147,16 +147,16 @@ Flashcards for this section are as follows:
 > | {@{Interest expense}@} | {@{2&nbsp;759}@} | |
 > | {@{Lease liability}@} | | {@{2&nbsp;759}@} |
 > | {@{Depreciation expense}@} | {@{23&nbsp;014}@} | |
-> | {@{Accumulated depreciation — ROU asset}@} | | {@{23&nbsp;014}@} |
+> | {@{Accumulated depreciation — ROU asset}@} | | {@{23&nbsp;014}@} | <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:00:49.794Z,8,8.2956,1,2,1,0,0,2026-06-11T16:00:49.794Z!2000-01-01,1,250!fsrs,2026-06-20T02:11:26.787Z,8,8.2956,1,2,1,0,0,2026-06-12T02:11:26.787Z!fsrs,2026-06-19T16:25:29.644Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:29.644Z!2000-01-01,1,250!fsrs,2026-06-20T02:09:54.266Z,8,8.2956,1,2,1,0,0,2026-06-12T02:09:54.266Z-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- Oakhurst Mining: why is the guaranteed residual value excluded from the lease liability? ::@:: Because Oakhurst expects the actual residual value to exceed the guarantee of €6 000, so the expected shortfall payment is zero and nothing is added to the lease liability for the residual.
-- Oakhurst Mining (5 annuity-due payments of €24&nbsp;854, rate 4%, PV annuity-due factor 4.62989): initial lease liability? ::@:: €24&nbsp;854 × 4.62989 = €115&nbsp;069.
-- Oakhurst Mining (LL after first payment = €90&nbsp;215, rate 4%): Year 1 interest accrual and LL at 31 Dec 2025? ::@:: Interest = €90&nbsp;215 × 4% = €3&nbsp;609; LL rises to €93&nbsp;824 at 31 Dec 2025.
-- Oakhurst Mining (ROU asset = €115&nbsp;069, lease term 5 years, no ownership transfer): annual depreciation? ::@:: €115&nbsp;069 ÷ 5 = €23&nbsp;014 per year; depreciated over lease term since ownership does not transfer.
+- Oakhurst Mining: why is the guaranteed residual value excluded from the lease liability? ::@:: Because Oakhurst expects the actual residual value to exceed the guarantee of €6 000, so the expected shortfall payment is zero and nothing is added to the lease liability for the residual. <!--SR:!fsrs,2026-06-20T10:57:28.493Z,8,8.2956,1,2,1,0,0,2026-06-12T10:57:28.493Z!fsrs,2026-06-20T11:42:34.500Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:34.500Z-->
+- Oakhurst Mining (5 annuity-due payments of €24&nbsp;854, rate 4%, PV annuity-due factor 4.62989): initial lease liability? ::@:: €24&nbsp;854 × 4.62989 = €115&nbsp;069. <!--SR:!fsrs,2026-06-20T02:07:10.190Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:10.190Z!2000-01-01,1,250-->
+- Oakhurst Mining (LL after first payment = €90&nbsp;215, rate 4%): Year 1 interest accrual and LL at 31 Dec 2025? ::@:: Interest = €90&nbsp;215 × 4% = €3&nbsp;609; LL rises to €93&nbsp;824 at 31 Dec 2025. <!--SR:!fsrs,2026-06-20T02:07:58.673Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:58.673Z!fsrs,2026-06-19T16:51:02.869Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:02.869Z-->
+- Oakhurst Mining (ROU asset = €115&nbsp;069, lease term 5 years, no ownership transfer): annual depreciation? ::@:: €115&nbsp;069 ÷ 5 = €23&nbsp;014 per year; depreciated over lease term since ownership does not transfer. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:44:54.839Z,8,8.2956,1,2,1,0,0,2026-06-11T16:44:54.839Z-->
 
 ## guaranteed versus unguaranteed residual value — lessee
 
@@ -171,17 +171,17 @@ If the asset is damaged and returned below the guaranteed amount, the lessee rec
 > | {@{Record loss on lease when asset returned below guaranteed residual}@} | Dr | Cr |
 > | --- | ---: | ---: |
 > | {@{Loss on lease}@} | {@{6&nbsp;000}@} | |
-> | {@{Cash}@} | | {@{6&nbsp;000}@} |
+> | {@{Cash}@} | | {@{6&nbsp;000}@} | <!--SR:!2000-01-01,1,250!fsrs,2026-06-20T02:09:26.272Z,8,8.2956,1,2,1,0,0,2026-06-12T02:09:26.272Z!fsrs,2026-06-19T16:51:45.783Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:45.783Z!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- guaranteed residual value (lessee): formula for expected payment to include in lease liability ::@:: max(guaranteed residual − expected FV at end of lease, 0); if expected FV ≥ guaranteed, include zero.
-- unguaranteed residual value (lessee): is it included in the lease liability? ::@:: No — the lessee has no obligation regarding unguaranteed residuals, so they are excluded from the lessee's _lease liability_.
-- effect of unguaranteed residual on lessee vs lessor ::@:: Lessee excludes it (smaller LL and ROU); lessor includes its PV when computing the implicit rate and _lease receivable_.
-- loss on lease: when does it arise? ::@:: When the leased asset is returned in worse condition than anticipated, so the lessee must pay the guaranteed residual shortfall; the lessee records a loss and a cash payment.
-- loss on lease entry (lessee pays shortfall on return): accounts and direction? ::@:: Dr _Loss on lease_ (shortfall amount); Cr _Cash_ (shortfall amount); no debit to ROU asset because the lease has ended.
+- guaranteed residual value (lessee): formula for expected payment to include in lease liability ::@:: max(guaranteed residual − expected FV at end of lease, 0); if expected FV ≥ guaranteed, include zero. <!--SR:!fsrs,2026-06-19T16:50:55.920Z,8,8.2956,1,2,1,0,0,2026-06-11T16:50:55.920Z!2000-01-01,1,250-->
+- unguaranteed residual value (lessee): is it included in the lease liability? ::@:: No — the lessee has no obligation regarding unguaranteed residuals, so they are excluded from the lessee's _lease liability_. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:20:52.850Z,8,8.2956,1,2,1,0,0,2026-06-11T16:20:52.850Z-->
+- effect of unguaranteed residual on lessee vs lessor ::@:: Lessee excludes it (smaller LL and ROU); lessor includes its PV when computing the implicit rate and _lease receivable_. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:10:50.897Z,8,8.2956,1,2,1,0,0,2026-06-11T16:10:50.897Z-->
+- loss on lease: when does it arise? ::@:: When the leased asset is returned in worse condition than anticipated, so the lessee must pay the guaranteed residual shortfall; the lessee records a loss and a cash payment. <!--SR:!fsrs,2026-06-19T16:18:31.845Z,8,8.2956,1,2,1,0,0,2026-06-11T16:18:31.845Z!fsrs,2026-06-19T18:11:25.853Z,8,8.2956,1,2,1,0,0,2026-06-11T18:11:25.853Z-->
+- loss on lease entry (lessee pays shortfall on return): accounts and direction? ::@:: Dr _Loss on lease_ (shortfall amount); Cr _Cash_ (shortfall amount); no debit to ROU asset because the lease has ended. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T18:06:37.259Z,8,8.2956,1,2,1,0,0,2026-06-11T18:06:37.259Z-->
 
 ### unguaranteed residual: Pembury Retail and Quinton Equipment
 
@@ -198,13 +198,13 @@ Flashcards for this section are as follows:
 > | {@{Lease liability}@} | {@{21&nbsp;854}@} | |
 > | {@{Cash}@} | | {@{21&nbsp;854}@} |
 >
-> _Explanation._ Pembury uses {@{only the annuity payments in the PV calculation}@}. The £12&nbsp;000 unguaranteed residual is NOT in Pembury's lease liability because Pembury bears {@{no obligation to make any payment related to the residual value}@}. As a result, Pembury's LL is £61&nbsp;930, {@{smaller than the £72&nbsp;000 fair value of the asset}@}.
+> _Explanation._ Pembury uses {@{only the annuity payments in the PV calculation}@}. The £12&nbsp;000 unguaranteed residual is NOT in Pembury's lease liability because Pembury bears {@{no obligation to make any payment related to the residual value}@}. As a result, Pembury's LL is £61&nbsp;930, {@{smaller than the £72&nbsp;000 fair value of the asset}@}. <!--SR:!fsrs,2026-06-20T02:09:25.298Z,8,8.2956,1,2,1,0,0,2026-06-12T02:09:25.298Z!fsrs,2026-06-20T02:11:02.980Z,8,8.2956,1,2,1,0,0,2026-06-12T02:11:02.980Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:25:45.974Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:45.974Z!fsrs,2026-06-20T03:07:17.013Z,8,8.2956,1,2,1,0,0,2026-06-12T03:07:17.013Z!fsrs,2026-06-19T16:46:07.827Z,8,8.2956,1,2,1,0,0,2026-06-11T16:46:07.827Z!fsrs,2026-06-19T16:15:48.879Z,8,8.2956,1,2,1,0,0,2026-06-11T16:15:48.879Z!2000-01-01,1,250!fsrs,2026-06-20T02:41:34.968Z,8,8.2956,1,2,1,0,0,2026-06-12T02:41:34.968Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T02:07:54.337Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:54.337Z!fsrs,2026-06-20T02:11:01.555Z,8,8.2956,1,2,1,0,0,2026-06-12T02:11:01.555Z-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- Pembury Retail / Quinton Equipment (payments = £21&nbsp;854/year, IBR = 6%, annuity-due, 3 years, FV = £72&nbsp;000, unguaranteed residual £12&nbsp;000): lessee lease liability and why it differs from asset fair value ::@:: LL = £61&nbsp;930 (PV of 3 annual payments of £21&nbsp;854 at 6% annuity-due); lower than the £72&nbsp;000 fair value because the £12&nbsp;000 unguaranteed residual is excluded from the lessee's lease liability.
+- Pembury Retail / Quinton Equipment (payments = £21&nbsp;854/year, IBR = 6%, annuity-due, 3 years, FV = £72&nbsp;000, unguaranteed residual £12&nbsp;000): lessee lease liability and why it differs from asset fair value ::@:: LL = £61&nbsp;930 (PV of 3 annual payments of £21&nbsp;854 at 6% annuity-due); lower than the £72&nbsp;000 fair value because the £12&nbsp;000 unguaranteed residual is excluded from the lessee's lease liability. <!--SR:!fsrs,2026-06-20T02:42:57.730Z,8,8.2956,1,2,1,0,0,2026-06-12T02:42:57.730Z!fsrs,2026-06-19T16:20:47.209Z,8,8.2956,1,2,1,0,0,2026-06-11T16:20:47.209Z-->
 
 ## bargain purchase option
 
@@ -221,15 +221,15 @@ The BPO works like a guaranteed residual: the lessee adds PV(BPO price) to the l
 > | {@{Right-of-use asset}@} | {@{117&nbsp;042}@} | |
 > | {@{Lease liability}@} | | {@{117&nbsp;042}@} |
 >
-> At exercise (1 January 2030): remaining lease liability ≈ €2&nbsp;400. The lessee pays the BPO price and the ROU asset is reclassified as Equipment.
+> At exercise (1 January 2030): remaining lease liability ≈ €2&nbsp;400. The lessee pays the BPO price and the ROU asset is reclassified as Equipment. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T17:25:52.441Z,8,8.2956,1,2,1,0,0,2026-06-11T17:25:52.441Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T02:09:52.141Z,8,8.2956,1,2,1,0,0,2026-06-12T02:09:52.141Z-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- bargain purchase option: why is its price included in the lease liability? ::@:: Because the lessee is "reasonably certain" to exercise a below-market option; the discounted option price is treated as a future lease payment.
-- bargain purchase option vs guaranteed residual: how does the lessee account for each? ::@:: Both are included at their PV in the lessee's _lease liability_ (guaranteed RV only to the extent of expected shortfall; BPO at the option price since exercise is certain).
-- at exercise of a BPO: what accounting entry is made? ::@:: Pay the option price (Dr _Lease liability_ / Cr _Cash_), then reclassify the ROU asset to _Equipment_ (Dr _Equipment_ / Cr _Right-of-use asset_).
+- bargain purchase option: why is its price included in the lease liability? ::@:: Because the lessee is "reasonably certain" to exercise a below-market option; the discounted option price is treated as a future lease payment. <!--SR:!fsrs,2026-06-20T10:56:22.538Z,8,8.2956,1,2,1,0,0,2026-06-12T10:56:22.538Z!fsrs,2026-06-20T10:56:39.898Z,8,8.2956,1,2,1,0,0,2026-06-12T10:56:39.898Z-->
+- bargain purchase option vs guaranteed residual: how does the lessee account for each? ::@:: Both are included at their PV in the lessee's _lease liability_ (guaranteed RV only to the extent of expected shortfall; BPO at the option price since exercise is certain). <!--SR:!2000-01-01,1,250!fsrs,2026-06-20T02:09:34.189Z,8,8.2956,1,2,1,0,0,2026-06-12T02:09:34.189Z-->
+- at exercise of a BPO: what accounting entry is made? ::@:: Pay the option price (Dr _Lease liability_ / Cr _Cash_), then reclassify the ROU asset to _Equipment_ (Dr _Equipment_ / Cr _Right-of-use asset_). <!--SR:!fsrs,2026-06-19T16:00:51.798Z,8,8.2956,1,2,1,0,0,2026-06-11T16:00:51.798Z!2000-01-01,1,250-->
 
 ## lessor classification tests
 
@@ -253,13 +253,13 @@ __IFRS vs US GAAP — lessor categories.__ IFRS 16 has only two lessor categorie
 
 Flashcards for this section are as follows:
 
-- lessor classification: how many tests exist and what triggers finance lease classification? ::@:: Five tests; meeting ANY ONE triggers finance (sales-type) lease classification.
-- PV test for lessor: what payments are used in the numerator? ::@:: The PV of the lessee's contractual payments (excluding unguaranteed residual value), compared to the asset's fair value.
-- lessor finance (sales-type) lease day 1: what four accounts are affected? ::@:: Debit _Lease Receivable_ and _COGS_; credit _Sales Revenue_ and _Inventory_ — the sale and profit are recognized immediately.
-- lessor finance lease: how is interest revenue recognized subsequently? ::@:: Effective interest method: Dr _Lease Receivable_; Cr _Interest Revenue_ each period (balance × rate).
-- five lessor classification tests — mnemonic ::@:: "TOTAL": Transfer of ownership, Option (bargain purchase option), Term (≥ 75% of economic life), Amount (PV of lessee's payments ≥ 90% of fair value), Last resort (specialized asset, no alternative use for lessor).
-- lessor classification tests: which two have quantitative thresholds, and what are they? ::@:: Lease term test (≥ 75% of the asset's economic life) and PV test (PV of lessee's contractual payments ≥ 90% of fair value). The other three — transfer of ownership, BPO, and no alternative use — are qualitative.
-- IFRS 16 vs US GAAP ASC 842: how do lessor categories differ? ::@:: IFRS 16: two categories — finance lease and operating lease. US GAAP: three — sales-type (manufacturer/dealer, FV ≠ cost → day-1 selling profit), direct financing (non-dealer, no selling profit; only interest income), and operating. IFRS 16 always recognizes selling profit for manufacturer/dealer lessors (same effect as US GAAP sales-type).
+- lessor classification: how many tests exist and what triggers finance lease classification? ::@:: Five tests; meeting ANY ONE triggers finance (sales-type) lease classification. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:46:05.482Z,8,8.2956,1,2,1,0,0,2026-06-11T16:46:05.482Z-->
+- PV test for lessor: what payments are used in the numerator? ::@:: The PV of the lessee's contractual payments (excluding unguaranteed residual value), compared to the asset's fair value. <!--SR:!fsrs,2026-06-19T16:00:34.777Z,8,8.2956,1,2,1,0,0,2026-06-11T16:00:34.777Z!fsrs,2026-06-19T16:51:47.568Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:47.568Z-->
+- lessor finance (sales-type) lease day 1: what four accounts are affected? ::@:: Debit _Lease Receivable_ and _COGS_; credit _Sales Revenue_ and _Inventory_ — the sale and profit are recognized immediately. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:10:53.801Z,8,8.2956,1,2,1,0,0,2026-06-11T16:10:53.801Z-->
+- lessor finance lease: how is interest revenue recognized subsequently? ::@:: Effective interest method: Dr _Lease Receivable_; Cr _Interest Revenue_ each period (balance × rate). <!--SR:!fsrs,2026-06-20T02:07:14.225Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:14.225Z!2000-01-01,1,250-->
+- five lessor classification tests — mnemonic ::@:: "TOTAL": Transfer of ownership, Option (bargain purchase option), Term (≥ 75% of economic life), Amount (PV of lessee's payments ≥ 90% of fair value), Last resort (specialized asset, no alternative use for lessor). <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:51:32.494Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:32.494Z-->
+- lessor classification tests: which two have quantitative thresholds, and what are they? ::@:: Lease term test (≥ 75% of the asset's economic life) and PV test (PV of lessee's contractual payments ≥ 90% of fair value). The other three — transfer of ownership, BPO, and no alternative use — are qualitative. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:45:18.355Z,8,8.2956,1,2,1,0,0,2026-06-11T16:45:18.355Z-->
+- IFRS 16 vs US GAAP ASC 842: how do lessor categories differ? ::@:: IFRS 16: two categories — finance lease and operating lease. US GAAP: three — sales-type (manufacturer/dealer, FV ≠ cost → day-1 selling profit), direct financing (non-dealer, no selling profit; only interest income), and operating. IFRS 16 always recognizes selling profit for manufacturer/dealer lessors (same effect as US GAAP sales-type). <!--SR:!fsrs,2026-06-19T16:19:44.377Z,8,8.2956,1,2,1,0,0,2026-06-11T16:19:44.377Z!2000-01-01,1,250-->
 
 ### scenario 1 (both finance): Reigate Shipping and Southwick Trailers
 
@@ -289,7 +289,7 @@ Flashcards for this section are as follows:
 > | {@{Lease receivable}@} | {@{2&nbsp;766}@} | |
 > | {@{Interest revenue}@} | | {@{2&nbsp;766}@} |
 >
-> Interest: €34&nbsp;581 × 8% = {@{€2&nbsp;766}@}.
+> Interest: €34&nbsp;581 × 8% = {@{€2&nbsp;766}@}. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T18:08:41.578Z,8,8.2956,1,2,1,0,0,2026-06-11T18:08:41.578Z!fsrs,2026-06-19T18:09:05.211Z,8,8.2956,1,2,1,0,0,2026-06-11T18:09:05.211Z!fsrs,2026-06-19T18:06:44.226Z,8,8.2956,1,2,1,0,0,2026-06-11T18:06:44.226Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T18:11:27.437Z,8,8.2956,1,2,1,0,0,2026-06-11T18:11:27.437Z!fsrs,2026-06-19T16:09:07.091Z,8,8.2956,1,2,1,0,0,2026-06-11T16:09:07.091Z!2000-01-01,1,250!fsrs,2026-06-19T16:00:48.638Z,8,8.2956,1,2,1,0,0,2026-06-11T16:00:48.638Z!2000-01-01,1,250!fsrs,2026-06-20T02:39:35.211Z,8,8.2956,1,2,1,0,0,2026-06-12T02:39:35.211Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T03:02:25.960Z,8,8.2956,1,2,1,0,0,2026-06-12T03:02:25.960Z!fsrs,2026-06-19T16:18:30.813Z,8,8.2956,1,2,1,0,0,2026-06-11T16:18:30.813Z!2000-01-01,1,250!fsrs,2026-06-19T16:51:51.059Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:51.059Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:25:52.245Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:52.245Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > Reigate Shipping (lessee — Scenario 1) recognizes a finance lease. ROU asset = LL = {@{€48&nbsp;000}@}. Depreciation per year: €48&nbsp;000 / 4 = {@{€12&nbsp;000}@}.
@@ -299,15 +299,15 @@ Flashcards for this section are as follows:
 > | {@{Right-of-use asset}@} | {@{48&nbsp;000}@} | |
 > | {@{Lease liability}@} | | {@{48&nbsp;000}@} |
 > | {@{Lease liability}@} | {@{13&nbsp;419}@} | |
-> | {@{Cash}@} | | {@{13&nbsp;419}@} |
+> | {@{Cash}@} | | {@{13&nbsp;419}@} | <!--SR:!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:20:39.076Z,8,8.2956,1,2,1,0,0,2026-06-11T16:20:39.076Z!2000-01-01,1,250!fsrs,2026-06-19T16:51:47.009Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:47.009Z!2000-01-01,1,250!fsrs,2026-06-19T16:51:52.242Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:52.242Z!2000-01-01,1,250!fsrs,2026-06-20T02:39:32.280Z,8,8.2956,1,2,1,0,0,2026-06-12T02:39:32.280Z-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- Reigate/Southwick Scenario 1: why do both lessor and lessee have finance lease accounting? ::@:: The lease term equals 100% of the asset's useful life; lessee makes all the payments that equal 100% of fair value — both tests are met; and under IFRS 16 lessee always capitalizes.
-- Reigate/Southwick Scenario 1 (FV = cost basis for lessee = €48&nbsp;000, cost on Southwick's books = €36&nbsp;000): lessor selling profit on day 1? ::@:: _Sales revenue_ €48&nbsp;000 − _COGS_ €36&nbsp;000 = €12&nbsp;000; recognized immediately on the commencement date.
-- Reigate/Southwick Scenario 1 (lease receivable after first payment = €34&nbsp;581, rate 8%): Year 1 interest revenue? ::@:: €34&nbsp;581 × 8% = €2&nbsp;766; Dr _Lease Receivable_ €2&nbsp;766; Cr _Interest Revenue_ €2&nbsp;766.
+- Reigate/Southwick Scenario 1: why do both lessor and lessee have finance lease accounting? ::@:: The lease term equals 100% of the asset's useful life; lessee makes all the payments that equal 100% of fair value — both tests are met; and under IFRS 16 lessee always capitalizes. <!--SR:!fsrs,2026-06-20T02:10:56.206Z,8,8.2956,1,2,1,0,0,2026-06-12T02:10:56.206Z!fsrs,2026-06-19T16:51:48.128Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:48.128Z-->
+- Reigate/Southwick Scenario 1 (FV = cost basis for lessee = €48&nbsp;000, cost on Southwick's books = €36&nbsp;000): lessor selling profit on day 1? ::@:: _Sales revenue_ €48&nbsp;000 − _COGS_ €36&nbsp;000 = €12&nbsp;000; recognized immediately on the commencement date. <!--SR:!fsrs,2026-06-20T02:11:33.296Z,8,8.2956,1,2,1,0,0,2026-06-12T02:11:33.296Z!fsrs,2026-06-19T16:25:19.075Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:19.075Z-->
+- Reigate/Southwick Scenario 1 (lease receivable after first payment = €34&nbsp;581, rate 8%): Year 1 interest revenue? ::@:: €34&nbsp;581 × 8% = €2&nbsp;766; Dr _Lease Receivable_ €2&nbsp;766; Cr _Interest Revenue_ €2&nbsp;766. <!--SR:!fsrs,2026-06-20T11:31:38.089Z,8,8.2956,1,2,1,0,0,2026-06-12T11:31:38.089Z!fsrs,2026-06-20T11:43:11.187Z,8,8.2956,1,2,1,0,0,2026-06-12T11:43:11.187Z-->
 
 ## lessor accounting — operating lease
 
@@ -317,9 +317,9 @@ For an operating lease, the lessor __retains the asset on the balance sheet__ an
 
 Flashcards for this section are as follows:
 
-- lessor operating lease: does the lessor remove the asset from its balance sheet? ::@:: No — the lessor keeps the asset on the balance sheet and continues to depreciate it.
-- lessor operating lease: how is lease revenue recognized? ::@:: Straight-line over the lease term, regardless of the payment pattern.
-- lessor operating lease: why might lease receivable NOT be recorded? ::@:: Because no receivable (asset derecognition) has occurred; revenue is earned over time as the lessee has the right to use the asset.
+- lessor operating lease: does the lessor remove the asset from its balance sheet? ::@:: No — the lessor keeps the asset on the balance sheet and continues to depreciate it. <!--SR:!fsrs,2026-06-19T16:49:28.109Z,8,8.2956,1,2,1,0,0,2026-06-11T16:49:28.109Z!2000-01-01,1,250-->
+- lessor operating lease: how is lease revenue recognized? ::@:: Straight-line over the lease term, regardless of the payment pattern. <!--SR:!fsrs,2026-06-20T11:42:15.130Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:15.130Z!fsrs,2026-06-20T11:42:07.512Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:07.512Z-->
+- lessor operating lease: why might lease receivable NOT be recorded? ::@:: Because no receivable (asset derecognition) has occurred; revenue is earned over time as the lessee has the right to use the asset. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:21:30.144Z,8,8.2956,1,2,1,0,0,2026-06-11T16:21:30.144Z-->
 
 ### operating lease: Quinton Equipment and Pembury Retail
 
@@ -350,14 +350,14 @@ Quinton Equipment classifies the compactor lease (Pembury Retail) as an __operat
 > | {@{Record depreciation on leased equipment (Year 1)}@} | Dr | Cr |
 > | --- | ---: | ---: |
 > | {@{Depreciation expense}@} | {@{28&nbsp;800}@} | |
-> | {@{Accumulated depreciation — equipment}@} | | {@{28&nbsp;800}@} |
+> | {@{Accumulated depreciation — equipment}@} | | {@{28&nbsp;800}@} | <!--SR:!fsrs,2026-06-20T02:43:11.640Z,8,8.2956,1,2,1,0,0,2026-06-12T02:43:11.640Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:25:06.572Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:06.572Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:51:49.526Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:49.526Z!fsrs,2026-06-19T16:00:35.875Z,8,8.2956,1,2,1,0,0,2026-06-11T16:00:35.875Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:45:15.620Z,8,8.2956,1,2,1,0,0,2026-06-11T16:45:15.620Z!fsrs,2026-06-19T16:18:22.998Z,8,8.2956,1,2,1,0,0,2026-06-11T16:18:22.998Z!fsrs,2026-06-20T03:02:28.202Z,8,8.2956,1,2,1,0,0,2026-06-12T03:02:28.202Z!2000-01-01,1,250-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- Quinton (operating lessor): why does the compactor fail the finance lease tests? ::@:: Lease term = 43% < 75% (lease term test fails); PV of lessee's payments = 86% < 90% (PV test fails); no other tests met.
-- Quinton Equipment operating lessor (annuity-due, payment £21&nbsp;854 received 1 Jan): journal entries on 1 Jan and 31 Dec? ::@:: 1 Jan: Dr _Cash_ £21&nbsp;854 / Cr _Unearned Lease Revenue_ £21&nbsp;854. 31 Dec: Dr _Unearned Lease Revenue_ £21&nbsp;854 / Cr _Lease Revenue_ £21&nbsp;854.
+- Quinton (operating lessor): why does the compactor fail the finance lease tests? ::@:: Lease term = 43% < 75% (lease term test fails); PV of lessee's payments = 86% < 90% (PV test fails); no other tests met. <!--SR:!fsrs,2026-06-19T17:02:42.219Z,8,8.2956,1,2,1,0,0,2026-06-11T17:02:42.219Z!2000-01-01,1,250-->
+- Quinton Equipment operating lessor (annuity-due, payment £21&nbsp;854 received 1 Jan): journal entries on 1 Jan and 31 Dec? ::@:: 1 Jan: Dr _Cash_ £21&nbsp;854 / Cr _Unearned Lease Revenue_ £21&nbsp;854. 31 Dec: Dr _Unearned Lease Revenue_ £21&nbsp;854 / Cr _Lease Revenue_ £21&nbsp;854. <!--SR:!fsrs,2026-06-20T02:11:25.131Z,8,8.2956,1,2,1,0,0,2026-06-12T02:11:25.131Z!2000-01-01,1,250-->
 
 ## lessee and lessor asymmetry in classification
 
@@ -367,8 +367,8 @@ IFRS 16 and typical exam scenarios allow the lessee and lessor to classify the S
 
 Flashcards for this section are as follows:
 
-- lessee and lessor asymmetry: is it possible for the same lease to be classified differently? ::@:: Yes — the lessor applies classification tests strictly; the lessee under IFRS 16 capitalizes all leases (except exceptions).
-- PV test from lessor's perspective: does unguaranteed residual count? ::@:: No — the lessor compares only the PV of the lessee's contractual payments to the fair value; unguaranteed residual is excluded from the lessee's payments.
+- lessee and lessor asymmetry: is it possible for the same lease to be classified differently? ::@:: Yes — the lessor applies classification tests strictly; the lessee under IFRS 16 capitalizes all leases (except exceptions). <!--SR:!fsrs,2026-06-20T11:42:12.296Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:12.296Z!fsrs,2026-06-20T11:42:54.723Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:54.723Z-->
+- PV test from lessor's perspective: does unguaranteed residual count? ::@:: No — the lessor compares only the PV of the lessee's contractual payments to the fair value; unguaranteed residual is excluded from the lessee's payments. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:49:13.959Z,8,8.2956,1,2,1,0,0,2026-06-11T16:49:13.959Z-->
 
 ### scenario 2 (lessee finance, lessor operating): Reigate and Southwick
 
@@ -382,15 +382,15 @@ Flashcards for this section are as follows:
 >
 > Reigate depreciates over 6 years (useful life): {@{€40&nbsp;944 / 6 = €6&nbsp;824}@}/year.
 >
-> Southwick records only: Dr _Cash_; Cr _Unearned Lease Revenue_ (Jan 1) → Dr _Unearned Lease Revenue_; Cr _Lease Revenue_ (Dec 31).
+> Southwick records only: Dr _Cash_; Cr _Unearned Lease Revenue_ (Jan 1) → Dr _Unearned Lease Revenue_; Cr _Lease Revenue_ (Dec 31). <!--SR:!fsrs,2026-06-19T17:25:53.172Z,8,8.2956,1,2,1,0,0,2026-06-11T17:25:53.172Z!2000-01-01,1,250!fsrs,2026-06-20T02:10:57.919Z,8,8.2956,1,2,1,0,0,2026-06-12T02:10:57.919Z!fsrs,2026-06-19T16:25:05.097Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:05.097Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T02:09:21.591Z,8,8.2956,1,2,1,0,0,2026-06-12T02:09:21.591Z!fsrs,2026-06-20T02:11:30.956Z,8,8.2956,1,2,1,0,0,2026-06-12T02:11:30.956Z-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- Scenario 2 (Reigate/Southwick): why does Southwick classify as operating while Reigate capitalizes? ::@:: Southwick fails both the lease term test (4/6 = 67% < 75%) and the PV test (85.3% < 90%); Reigate must capitalize under IFRS 16 regardless.
-- Reigate/Southwick Scenario 2 (3 annuity-due payments of €11&nbsp;447 at 8%, PV annuity-due factor 3.57710; unguaranteed RV €9&nbsp;600 excluded): Reigate's lease liability? ::@:: LL = €11&nbsp;447 × 3.57710 = €40&nbsp;944; unguaranteed residual excluded because Reigate has no obligation to pay it.
-- Reigate/Southwick Scenario 2 (Reigate's ROU = €40&nbsp;944, economic life 6 years, lease term 4 years): depreciation period and annual amount? ::@:: Depreciated over 6 years (economic/useful life) because ownership does not transfer; €40&nbsp;944 ÷ 6 = €6&nbsp;824 per year.
+- Scenario 2 (Reigate/Southwick): why does Southwick classify as operating while Reigate capitalizes? ::@:: Southwick fails both the lease term test (4/6 = 67% < 75%) and the PV test (85.3% < 90%); Reigate must capitalize under IFRS 16 regardless. <!--SR:!fsrs,2026-06-20T03:02:29.139Z,8,8.2956,1,2,1,0,0,2026-06-12T03:02:29.139Z!fsrs,2026-06-19T16:25:36.666Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:36.666Z-->
+- Reigate/Southwick Scenario 2 (3 annuity-due payments of €11&nbsp;447 at 8%, PV annuity-due factor 3.57710; unguaranteed RV €9&nbsp;600 excluded): Reigate's lease liability? ::@:: LL = €11&nbsp;447 × 3.57710 = €40&nbsp;944; unguaranteed residual excluded because Reigate has no obligation to pay it. <!--SR:!fsrs,2026-06-20T13:51:33.076Z,8,8.2956,1,2,1,0,0,2026-06-12T13:51:33.076Z!fsrs,2026-06-20T13:51:31.701Z,8,8.2956,1,2,1,0,0,2026-06-12T13:51:31.701Z-->
+- Reigate/Southwick Scenario 2 (Reigate's ROU = €40&nbsp;944, economic life 6 years, lease term 4 years): depreciation period and annual amount? ::@:: Depreciated over 6 years (economic/useful life) because ownership does not transfer; €40&nbsp;944 ÷ 6 = €6&nbsp;824 per year. <!--SR:!fsrs,2026-06-20T10:58:12.513Z,8,8.2956,1,2,1,0,0,2026-06-12T10:58:12.513Z!fsrs,2026-06-20T11:43:02.300Z,8,8.2956,1,2,1,0,0,2026-06-12T11:43:02.300Z-->
 
 ## unguaranteed residual — effect on lessor finance lease
 
@@ -402,8 +402,8 @@ When the lessor classifies a finance lease and the asset has an unguaranteed res
 
 Flashcards for this section are as follows:
 
-- lessor finance lease with unguaranteed residual: how does it affect the day-1 journal entry? ::@:: Deduct the PV of the unguaranteed residual from both _Sales Revenue_ and _COGS_; gross profit is unchanged.
-- lessor finance lease: does unguaranteed residual enter the lease receivable? ::@:: Yes — the lessor includes the PV of the unguaranteed residual in the _lease receivable_ (it is the lessor's expected asset recovery at lease end).
+- lessor finance lease with unguaranteed residual: how does it affect the day-1 journal entry? ::@:: Deduct the PV of the unguaranteed residual from both _Sales Revenue_ and _COGS_; gross profit is unchanged. <!--SR:!2000-01-01,1,250!fsrs,2026-06-20T02:11:00.277Z,8,8.2956,1,2,1,0,0,2026-06-12T02:11:00.277Z-->
+- lessor finance lease: does unguaranteed residual enter the lease receivable? ::@:: Yes — the lessor includes the PV of the unguaranteed residual in the _lease receivable_ (it is the lessor's expected asset recovery at lease end). <!--SR:!2000-01-01,1,250!fsrs,2026-06-20T02:07:24.670Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:24.670Z-->
 
 ### lessor finance lease with unguaranteed residual: Meridian and Cliffdale
 
@@ -429,7 +429,7 @@ Flashcards for this section are as follows:
 >
 > __Classification tests (Meridian as lessor):__
 >
-> Lease term: 5 / 6 = {@{83%}@} ≥ 75% → met. PV test: €93&nbsp;194 / €100&nbsp;000 = {@{93.2%}@} ≥ 90% → met. Two tests satisfied → {@{finance (sales-type) lease}@}.
+> Lease term: 5 / 6 = {@{83%}@} ≥ 75% → met. PV test: €93&nbsp;194 / €100&nbsp;000 = {@{93.2%}@} ≥ 90% → met. Two tests satisfied → {@{finance (sales-type) lease}@}. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T17:42:40.198Z,8,8.2956,1,2,1,0,0,2026-06-11T17:42:40.198Z!2000-01-01,1,250!fsrs,2026-06-19T16:18:34.876Z,8,8.2956,1,2,1,0,0,2026-06-11T16:18:34.876Z!fsrs,2026-06-20T02:08:01.735Z,8,8.2956,1,2,1,0,0,2026-06-12T02:08:01.735Z!fsrs,2026-06-11T16:24:55.986Z,0,1.2931,5.11217071,1,1,0,0,2026-06-11T16:18:55.986Z!2000-01-01,1,250!fsrs,2026-06-20T02:07:55.896Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:55.896Z!fsrs,2026-06-20T02:10:45.785Z,8,8.2956,1,2,1,0,0,2026-06-12T02:10:45.785Z!fsrs,2026-06-19T16:09:16.403Z,8,8.2956,1,2,1,0,0,2026-06-11T16:09:16.403Z!2000-01-01,1,250!fsrs,2026-06-19T16:44:56.718Z,8,8.2956,1,2,1,0,0,2026-06-11T16:44:56.718Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > Meridian (FV €100&nbsp;000, cost €78&nbsp;000, annual payment €21&nbsp;614, URV €10&nbsp;000, rate 8%, 5 years) — gross investment, net investment, unearned income, and selling profit:
@@ -450,7 +450,7 @@ Flashcards for this section are as follows:
 > | Cost of goods sold | {@{71&nbsp;194}@} | 78&nbsp;000 |
 > | __Selling profit__ | __{@{22&nbsp;000}@}__ | __{@{22&nbsp;000}@}__ |
 >
-> Both Sales and COGS are reduced by PV(URV) = {@{€6&nbsp;806}@}, leaving gross profit unchanged at {@{€22&nbsp;000}@}. The unguaranteed residual portion is recognized in interest revenue over the lease term rather than on day 1.
+> Both Sales and COGS are reduced by PV(URV) = {@{€6&nbsp;806}@}, leaving gross profit unchanged at {@{€22&nbsp;000}@}. The unguaranteed residual portion is recognized in interest revenue over the lease term rather than on day 1. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:51:07.368Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:07.368Z!fsrs,2026-06-20T02:09:51.086Z,8,8.2956,1,2,1,0,0,2026-06-12T02:09:51.086Z!fsrs,2026-06-19T16:49:12.874Z,8,8.2956,1,2,1,0,0,2026-06-11T16:49:12.874Z!2000-01-01,1,250!fsrs,2026-06-19T16:49:16.303Z,8,8.2956,1,2,1,0,0,2026-06-11T16:49:16.303Z!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > Meridian — day-1 journal entries (gross investment method), first payment received, and Year 1 interest revenue:
@@ -477,7 +477,7 @@ Flashcards for this section are as follows:
 > | {@{Unearned interest income}@} | {@{6&nbsp;271}@} | |
 > | {@{Interest revenue}@} | | {@{6&nbsp;271}@} |
 >
-> Interest = €78&nbsp;386 × 8% = {@{€6&nbsp;271}@}. Net investment rises to {@{€84&nbsp;657}@}.
+> Interest = €78&nbsp;386 × 8% = {@{€6&nbsp;271}@}. Net investment rises to {@{€84&nbsp;657}@}. <!--SR:!fsrs,2026-06-19T16:46:23.037Z,8,8.2956,1,2,1,0,0,2026-06-11T16:46:23.037Z!fsrs,2026-06-20T02:10:42.542Z,8,8.2956,1,2,1,0,0,2026-06-12T02:10:42.542Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:25:26.877Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:26.877Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T02:41:33.031Z,8,8.2956,1,2,1,0,0,2026-06-12T02:41:33.031Z!2000-01-01,1,250!fsrs,2026-06-19T16:20:37.997Z,8,8.2956,1,2,1,0,0,2026-06-11T16:20:37.997Z!fsrs,2026-06-19T16:25:54.191Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:54.191Z!fsrs,2026-06-20T02:39:30.358Z,8,8.2956,1,2,1,0,0,2026-06-12T02:39:30.358Z!fsrs,2026-06-19T16:49:15.297Z,8,8.2956,1,2,1,0,0,2026-06-11T16:49:15.297Z!2000-01-01,1,250!fsrs,2026-06-19T16:18:24.068Z,8,8.2956,1,2,1,0,0,2026-06-11T16:18:24.068Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T02:10:52.355Z,8,8.2956,1,2,1,0,0,2026-06-12T02:10:52.355Z!fsrs,2026-06-20T01:56:55.736Z,8,8.2956,1,2,1,0,0,2026-06-12T01:56:55.736Z!fsrs,2026-06-20T02:07:57.089Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:57.089Z!fsrs,2026-06-20T02:09:28.335Z,8,8.2956,1,2,1,0,0,2026-06-12T02:09:28.335Z!fsrs,2026-06-19T16:18:21.396Z,8,8.2956,1,2,1,0,0,2026-06-11T16:18:21.396Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > __Cliffdale (lessee)__ does not know the implicit rate; uses IBR 10%:
@@ -491,17 +491,17 @@ Flashcards for this section are as follows:
 > | {@{Right-of-use asset}@} | {@{90&nbsp;128}@} | |
 > | {@{Lease liability}@} | | {@{90&nbsp;128}@} |
 > | {@{Lease liability}@} | {@{21&nbsp;614}@} | |
-> | {@{Cash}@} | | {@{21&nbsp;614}@} |
+> | {@{Cash}@} | | {@{21&nbsp;614}@} | <!--SR:!fsrs,2026-06-19T16:45:23.114Z,8,8.2956,1,2,1,0,0,2026-06-11T16:45:23.114Z!fsrs,2026-06-20T02:07:32.125Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:32.125Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T02:11:32.118Z,8,8.2956,1,2,1,0,0,2026-06-12T02:11:32.118Z!fsrs,2026-06-19T16:21:01.444Z,8,8.2956,1,2,1,0,0,2026-06-11T16:21:01.444Z!2000-01-01,1,250-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- lessor: gross investment vs net investment ::@:: Gross investment = total undiscounted receipts (payments + URV); net investment = PV at implicit rate (= FV of asset at inception); unearned income = gross − net.
-- lessor finance lease with unguaranteed residual: how does it affect selling profit vs guaranteed residual? ::@:: Selling profit is identical; only the gross revenue and _COGS_ figures differ — both reduced by PV(URV) to defer the unguaranteed portion into _interest revenue_ over the lease term.
-- Meridian/Cliffdale (FV = sales price €100&nbsp;000, cost €78&nbsp;000, PV of URV €6&nbsp;806): selling profit calculation ::@:: _Sales_ = €100 000 − €6 806 = €93 194; _COGS_ = €78 000 − €6 806 = €71 194; selling profit = €22 000 (same as FV − cost = 100 000 − 78 000).
-- lessor gross investment method: what two accounts carry the lease? ::@:: _Lease Receivable_ (gross investment) and _Unearned Interest Income_ (contra); Net Lease Receivable = Gross − Unearned.
-- lessee and lessor: why can LL differ from net investment? ::@:: The lessee uses the implicit rate if known; otherwise IBR. Meridian's net investment = €100 000 at 8%; Cliffdale's LL = €90 128 at 10%.
+- lessor: gross investment vs net investment ::@:: Gross investment = total undiscounted receipts (payments + URV); net investment = PV at implicit rate (= FV of asset at inception); unearned income = gross − net. <!--SR:!fsrs,2026-06-19T16:01:25.775Z,8,8.2956,1,2,1,0,0,2026-06-11T16:01:25.775Z!2000-01-01,1,250-->
+- lessor finance lease with unguaranteed residual: how does it affect selling profit vs guaranteed residual? ::@:: Selling profit is identical; only the gross revenue and _COGS_ figures differ — both reduced by PV(URV) to defer the unguaranteed portion into _interest revenue_ over the lease term. <!--SR:!fsrs,2026-06-20T11:42:53.602Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:53.602Z!fsrs,2026-06-20T11:42:12.817Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:12.817Z-->
+- Meridian/Cliffdale (FV = sales price €100&nbsp;000, cost €78&nbsp;000, PV of URV €6&nbsp;806): selling profit calculation ::@:: _Sales_ = €100 000 − €6 806 = €93 194; _COGS_ = €78 000 − €6 806 = €71 194; selling profit = €22 000 (same as FV − cost = 100 000 − 78 000). <!--SR:!fsrs,2026-06-20T10:57:21.920Z,8,8.2956,1,2,1,0,0,2026-06-12T10:57:21.920Z!fsrs,2026-06-20T11:31:36.093Z,8,8.2956,1,2,1,0,0,2026-06-12T11:31:36.093Z-->
+- lessor gross investment method: what two accounts carry the lease? ::@:: _Lease Receivable_ (gross investment) and _Unearned Interest Income_ (contra); Net Lease Receivable = Gross − Unearned. <!--SR:!fsrs,2026-06-20T10:56:35.060Z,8,8.2956,1,2,1,0,0,2026-06-12T10:56:35.060Z!fsrs,2026-06-20T10:56:43.978Z,8,8.2956,1,2,1,0,0,2026-06-12T10:56:43.978Z-->
+- lessee and lessor: why can LL differ from net investment? ::@:: The lessee uses the implicit rate if known; otherwise IBR. Meridian's net investment = €100 000 at 8%; Cliffdale's LL = €90 128 at 10%. <!--SR:!fsrs,2026-06-20T02:08:00.048Z,8,8.2956,1,2,1,0,0,2026-06-12T02:08:00.048Z!fsrs,2026-06-20T02:39:25.949Z,8,8.2956,1,2,1,0,0,2026-06-12T02:39:25.949Z-->
 
 ## special lease features
 
@@ -517,10 +517,10 @@ __Initial direct costs (IDC)__ are incremental costs that would not have been in
 
 Flashcards for this section are as follows:
 
-- executory costs paid by the lessor and included in the fixed payment: how does the lessee treat them? ::@:: They are part of the fixed lease payment and are included in the _lease liability_ calculation.
-- executory costs paid directly by the lessee (not part of the fixed payment): treatment? ::@:: Treated as variable costs; expensed as incurred. They are NOT included in the _lease liability_.
-- initial direct costs — lessee treatment ::@:: Added to the ROU asset (debit _ROU asset_, credit _Cash_); amortized as part of depreciation.
-- initial direct costs — lessor treatment (operating vs finance) ::@:: Operating: deferred and amortized over the lease term. Finance: expensed immediately at commencement.
+- executory costs paid by the lessor and included in the fixed payment: how does the lessee treat them? ::@:: They are part of the fixed lease payment and are included in the _lease liability_ calculation. <!--SR:!fsrs,2026-06-19T18:11:28.363Z,8,8.2956,1,2,1,0,0,2026-06-11T18:11:28.363Z!2000-01-01,1,250-->
+- executory costs paid directly by the lessee (not part of the fixed payment): treatment? ::@:: Treated as variable costs; expensed as incurred. They are NOT included in the _lease liability_. <!--SR:!fsrs,2026-06-20T11:43:05.453Z,8,8.2956,1,2,1,0,0,2026-06-12T11:43:05.453Z!fsrs,2026-06-20T10:56:39.216Z,8,8.2956,1,2,1,0,0,2026-06-12T10:56:39.216Z-->
+- initial direct costs — lessee treatment ::@:: Added to the ROU asset (debit _ROU asset_, credit _Cash_); amortized as part of depreciation. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:00:34.007Z,8,8.2956,1,2,1,0,0,2026-06-11T16:00:34.007Z-->
+- initial direct costs — lessor treatment (operating vs finance) ::@:: Operating: deferred and amortized over the lease term. Finance: expensed immediately at commencement. <!--SR:!2000-01-01,1,250!fsrs,2026-06-19T16:51:06.162Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:06.162Z-->
 
 ### lease modifications and remeasurements
 
@@ -530,8 +530,8 @@ If the lease is modified (e.g., extension agreed), the lessee remeasures the lea
 
 Flashcards for this section are as follows:
 
-- lease modification: how does the lessee remeasure the lease liability and where does the adjustment go? ::@:: Remeasure at PV of revised future payments using a revised discount rate; increase or decrease the _ROU asset_ by the same amount.
-- lease modification — same asset extended vs new/different asset: accounting treatment? ::@:: Same asset extended: remeasure _LL_ with revised rate and adjust _ROU_. New or different asset added by the modification: treat the modification as a separate new lease with its own _ROU asset_ and _lease liability_.
+- lease modification: how does the lessee remeasure the lease liability and where does the adjustment go? ::@:: Remeasure at PV of revised future payments using a revised discount rate; increase or decrease the _ROU asset_ by the same amount. <!--SR:!2000-01-01,1,250!fsrs,2026-06-20T02:11:03.727Z,8,8.2956,1,2,1,0,0,2026-06-12T02:11:03.727Z-->
+- lease modification — same asset extended vs new/different asset: accounting treatment? ::@:: Same asset extended: remeasure _LL_ with revised rate and adjust _ROU_. New or different asset added by the modification: treat the modification as a separate new lease with its own _ROU asset_ and _lease liability_. <!--SR:!fsrs,2026-06-19T16:44:59.521Z,8,8.2956,1,2,1,0,0,2026-06-11T16:44:59.521Z!2000-01-01,1,250-->
 
 ## sale-leaseback transactions
 
@@ -560,7 +560,7 @@ Under IFRS 16, the gain recognized = $(\text{Sale price} - \text{Carrying value}
 > | {@{Lease liability}@} | | {@{330&nbsp;000}@} |
 > | {@{Gain on sale — rights transferred}@} | | {@{30&nbsp;000}@} |
 >
-> The lease liability (€330&nbsp;000) exceeds the ROU asset (€300&nbsp;000) by {@{€30&nbsp;000}@} — the deferred gain embedded in the net lease position for rights retained. Only {@{€30&nbsp;000}@} appears in profit.
+> The lease liability (€330&nbsp;000) exceeds the ROU asset (€300&nbsp;000) by {@{€30&nbsp;000}@} — the deferred gain embedded in the net lease position for rights retained. Only {@{€30&nbsp;000}@} appears in profit. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T03:00:13.234Z,8,8.2956,1,2,1,0,0,2026-06-12T03:00:13.234Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T02:07:29.312Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:29.312Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:18:57.793Z,8,8.2956,1,2,1,0,0,2026-06-11T16:18:57.793Z!fsrs,2026-06-19T16:21:32.148Z,8,8.2956,1,2,1,0,0,2026-06-11T16:21:32.148Z!2000-01-01,1,250!fsrs,2026-06-19T16:18:17.080Z,8,8.2956,1,2,1,0,0,2026-06-11T16:18:17.080Z!fsrs,2026-06-19T16:19:26.247Z,8,8.2956,1,2,1,0,0,2026-06-11T16:19:26.247Z!fsrs,2026-06-19T18:06:39.260Z,8,8.2956,1,2,1,0,0,2026-06-11T18:06:39.260Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-20T02:10:44.627Z,8,8.2956,1,2,1,0,0,2026-06-12T02:10:44.627Z!fsrs,2026-06-19T16:49:23.843Z,8,8.2956,1,2,1,0,0,2026-06-11T16:49:23.843Z!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:21:02.747Z,8,8.2956,1,2,1,0,0,2026-06-11T16:21:02.747Z!fsrs,2026-06-20T02:07:39.792Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:39.792Z-->
 
 __Failed sale (finance leaseback).__ If the leaseback is classified as a finance lease, the transfer is __not a genuine sale__ (IFRS 15 conditions not met). The seller-lessee does NOT derecognize the asset; instead, it records the proceeds as a financial liability (borrowing).
 
@@ -571,18 +571,18 @@ __Failed sale (finance leaseback).__ If the leaseback is classified as a finance
 > | {@{Cash}@} | {@{36&nbsp;000&nbsp;000}@} | |
 > | {@{Financial liability (notes payable)}@} | | {@{36&nbsp;000&nbsp;000}@} |
 >
-> The aircraft remains on Thornhill's balance sheet. No gain is recognized. Lease payments are split into principal repayment and interest expense on the financial liability.
+> The aircraft remains on Thornhill's balance sheet. No gain is recognized. Lease payments are split into principal repayment and interest expense on the financial liability. <!--SR:!2000-01-01,1,250!fsrs,2026-06-20T02:42:59.291Z,8,8.2956,1,2,1,0,0,2026-06-12T02:42:59.291Z!2000-01-01,1,250!fsrs,2026-06-20T02:07:27.341Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:27.341Z!2000-01-01,1,250!2000-01-01,1,250!fsrs,2026-06-19T16:51:24.040Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:24.040Z!2000-01-01,1,250-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- sale-leaseback: the key accounting question ::@:: Does the transfer of the asset qualify as a genuine sale (i.e., does the buyer-lessor obtain control)?
-- genuine sale-leaseback: seller-lessee accounting under IFRS 16 ::@:: Derecognize asset; recognize gain proportionate to rights transferred (IFRS 16.98); record leaseback as _ROU asset_ (proportionate carrying amount) + _lease liability_ — not full gain.
-- IFRS 16 sale-leaseback: how is the proportionate gain computed? ::@:: Gain recognized = total gain × (FV − PV of leaseback) / FV; _ROU asset_ = previous carrying amount × PV of leaseback / FV.
-- Vanderbilt SA (sale price = FV = €660&nbsp;000, carrying value €600&nbsp;000, PV of leaseback payments €330&nbsp;000): proportionate gain recognized ::@:: €60 000 × 50% = €30 000 (rights transferred = 50%); _ROU asset_ = €300 000; the €30 000 deferred portion is embedded in the LL > ROU net position.
-- failed sale-leaseback (finance leaseback): accounting for the seller-lessee ::@:: Do not derecognize the asset; record cash received as a financial liability; no gain recognized.
-- failed sale-leaseback: why is no gain recognized? ::@:: Because control has not transferred; the arrangement is economically a secured borrowing, not a disposal.
+- sale-leaseback: the key accounting question ::@:: Does the transfer of the asset qualify as a genuine sale (i.e., does the buyer-lessor obtain control)? <!--SR:!fsrs,2026-06-20T11:43:09.165Z,8,8.2956,1,2,1,0,0,2026-06-12T11:43:09.165Z!fsrs,2026-06-20T10:57:06.326Z,8,8.2956,1,2,1,0,0,2026-06-12T10:57:06.326Z-->
+- genuine sale-leaseback: seller-lessee accounting under IFRS 16 ::@:: Derecognize asset; recognize gain proportionate to rights transferred (IFRS 16.98); record leaseback as _ROU asset_ (proportionate carrying amount) + _lease liability_ — not full gain. <!--SR:!fsrs,2026-06-20T02:07:07.447Z,8,8.2956,1,2,1,0,0,2026-06-12T02:07:07.447Z!fsrs,2026-06-19T16:09:18.453Z,8,8.2956,1,2,1,0,0,2026-06-11T16:09:18.453Z-->
+- IFRS 16 sale-leaseback: how is the proportionate gain computed? ::@:: Gain recognized = total gain × (FV − PV of leaseback) / FV; _ROU asset_ = previous carrying amount × PV of leaseback / FV. <!--SR:!fsrs,2026-06-20T11:42:57.799Z,8,8.2956,1,2,1,0,0,2026-06-12T11:42:57.799Z!fsrs,2026-06-14T13:51:24.974Z,2,2.3065,2.11121424,2,2,0,0,2026-06-12T13:51:24.974Z-->
+- Vanderbilt SA (sale price = FV = €660&nbsp;000, carrying value €600&nbsp;000, PV of leaseback payments €330&nbsp;000): proportionate gain recognized ::@:: €60 000 × 50% = €30 000 (rights transferred = 50%); _ROU asset_ = €300 000; the €30 000 deferred portion is embedded in the LL > ROU net position. <!--SR:!2000-01-01,1,250!fsrs,2026-06-20T02:08:47.673Z,8,8.2956,1,2,1,0,0,2026-06-12T02:08:47.673Z-->
+- failed sale-leaseback (finance leaseback): accounting for the seller-lessee ::@:: Do not derecognize the asset; record cash received as a financial liability; no gain recognized. <!--SR:!fsrs,2026-06-19T16:51:34.930Z,8,8.2956,1,2,1,0,0,2026-06-11T16:51:34.930Z!fsrs,2026-06-19T16:09:12.688Z,8,8.2956,1,2,1,0,0,2026-06-11T16:09:12.688Z-->
+- failed sale-leaseback: why is no gain recognized? ::@:: Because control has not transferred; the arrangement is economically a secured borrowing, not a disposal. <!--SR:!fsrs,2026-06-20T11:32:05.874Z,8,8.2956,1,2,1,0,0,2026-06-12T11:32:05.874Z!fsrs,2026-06-20T10:57:05.687Z,8,8.2956,1,2,1,0,0,2026-06-12T10:57:05.687Z-->
 
 ## financial statement presentation
 
@@ -614,11 +614,11 @@ Recognizing leases on the balance sheet increases both assets (ROU) and liabilit
 
 Flashcards for this section are as follows:
 
-- lessee balance sheet: where are ROU assets and lease liabilities presented? ::@:: ROU assets in non-current assets; lease liabilities split between current (due within 12 months) and non-current.
-- lessee income statement — finance lease versus operating (short-term/low-value) exception ::@:: Finance: _depreciation_ + _interest expense_ separately. Exception: single lease cost on a straight-line basis.
-- effect of lease capitalization on ROA ::@:: ROA decreases because the asset base grows (ROU asset added) without a corresponding immediate increase in profit.
-- lessor operating lease income statement ::@:: Lease revenue recognized straight-line; no sale profit on day 1; asset stays on balance sheet and is depreciated.
-- lease capitalization: effect on EBITDA vs EBIT? ::@:: EBITDA increases (rent no longer deducted; depreciation and interest are added back in the EBITDA calculation). EBIT may fall in early years because depreciation + interest on a large opening liability typically exceeds the old straight-line rent.
-- lease capitalization: effect on operating cash flow vs financing cash flow? ::@:: Operating cash flow increases; principal repayments on the lease liability shift to financing outflows. Interest paid may remain in operating activities.
-- lease capitalization: effect on debt-to-equity ratio? ::@:: Increases, because the lease liability is added as a financial debt; equity is unchanged.
-- lease capitalization: why does ROA decrease while EBITDA increases? ::@:: EBITDA rises because rent is removed from the cost base. ROA uses operating profit ÷ total assets; total assets grow (ROU added) and EBIT may also fall in early years — both factors push ROA down.
+- lessee balance sheet: where are ROU assets and lease liabilities presented? ::@:: ROU assets in non-current assets; lease liabilities split between current (due within 12 months) and non-current. <!--SR:!fsrs,2026-06-20T10:56:23.597Z,8,8.2956,1,2,1,0,0,2026-06-12T10:56:23.597Z!fsrs,2026-06-20T10:57:29.485Z,8,8.2956,1,2,1,0,0,2026-06-12T10:57:29.485Z-->
+- lessee income statement — finance lease versus operating (short-term/low-value) exception ::@:: Finance: _depreciation_ + _interest expense_ separately. Exception: single lease cost on a straight-line basis. <!--SR:!fsrs,2026-06-20T01:56:57.295Z,8,8.2956,1,2,1,0,0,2026-06-12T01:56:57.295Z!fsrs,2026-06-20T02:09:36.690Z,8,8.2956,1,2,1,0,0,2026-06-12T02:09:36.690Z-->
+- effect of lease capitalization on ROA ::@:: ROA decreases because the asset base grows (ROU asset added) without a corresponding immediate increase in profit. <!--SR:!fsrs,2026-06-19T16:10:40.900Z,8,8.2956,1,2,1,0,0,2026-06-11T16:10:40.900Z!2000-01-01,1,250-->
+- lessor operating lease income statement ::@:: Lease revenue recognized straight-line; no sale profit on day 1; asset stays on balance sheet and is depreciated. <!--SR:!fsrs,2026-06-20T11:32:08.507Z,8,8.2956,1,2,1,0,0,2026-06-12T11:32:08.507Z!fsrs,2026-06-20T11:43:03.568Z,8,8.2956,1,2,1,0,0,2026-06-12T11:43:03.568Z-->
+- lease capitalization: effect on EBITDA vs EBIT? ::@:: EBITDA increases (rent no longer deducted; depreciation and interest are added back in the EBITDA calculation). EBIT may fall in early years because depreciation + interest on a large opening liability typically exceeds the old straight-line rent. <!--SR:!2000-01-01,1,250!fsrs,2026-06-20T02:08:48.601Z,8,8.2956,1,2,1,0,0,2026-06-12T02:08:48.601Z-->
+- lease capitalization: effect on operating cash flow vs financing cash flow? ::@:: Operating cash flow increases; principal repayments on the lease liability shift to financing outflows. Interest paid may remain in operating activities. <!--SR:!fsrs,2026-06-19T16:25:02.866Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:02.866Z!fsrs,2026-06-19T16:25:47.096Z,8,8.2956,1,2,1,0,0,2026-06-11T16:25:47.096Z-->
+- lease capitalization: effect on debt-to-equity ratio? ::@:: Increases, because the lease liability is added as a financial debt; equity is unchanged. <!--SR:!fsrs,2026-06-20T02:42:52.126Z,8,8.2956,1,2,1,0,0,2026-06-12T02:42:52.126Z!fsrs,2026-06-19T16:18:39.218Z,8,8.2956,1,2,1,0,0,2026-06-11T16:18:39.218Z-->
+- lease capitalization: why does ROA decrease while EBITDA increases? ::@:: EBITDA rises because rent is removed from the cost base. ROA uses operating profit ÷ total assets; total assets grow (ROU added) and EBIT may also fall in early years — both factors push ROA down. <!--SR:!fsrs,2026-06-19T18:08:40.490Z,8,8.2956,1,2,1,0,0,2026-06-11T18:08:40.490Z!fsrs,2026-06-20T02:10:40.947Z,8,8.2956,1,2,1,0,0,2026-06-12T02:10:40.947Z-->
