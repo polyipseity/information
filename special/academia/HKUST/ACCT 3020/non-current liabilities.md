@@ -36,7 +36,7 @@ Flashcards for this section are as follows:
 
 - debt covenants ::@:: Restrictions in debt agreements (e.g. limits on dividends) designed to protect creditors and reduce default risk. <!--SR:!2026-05-20,18,327!2026-05-20,18,322-->
 - why do lenders restrict dividends? ::@:: To prevent the company from paying out cash to shareholders that would reduce its ability to repay creditors. <!--SR:!2026-05-20,18,336!2026-05-20,18,336-->
-- covenant violation at reporting date: classification? ::@:: The loan is reclassified as a current liability unless the lender has waived the violation before the reporting date (or granted a grace period of at least 12 months).
+- covenant violation at reporting date: classification? ::@:: The loan is reclassified as a current liability unless the lender has waived the violation before the reporting date (or granted a grace period of at least 12 months). <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
 
 ## bonds: overview and key terms
 
@@ -54,8 +54,8 @@ Flashcards for this section are as follows:
 - bond indenture ::@:: The bond contract specifying maturity date, interest payment schedule, and face value (principal) to be repaid. <!--SR:!2026-05-20,18,336!2026-05-20,18,319-->
 - face value (bond) ::@:: Principal amount repaid at maturity; commonly 1,000 per bond. <!--SR:!2026-05-20,18,336!2026-05-18,16,290-->
 - bond interest payment frequency ::@:: Often semiannual; can also be annual or quarterly depending on the bond terms. <!--SR:!2026-05-20,18,327!2026-05-20,18,327-->
-- callable bond ::@:: A bond that the issuer can redeem before maturity at a specified call price (usually above par); gives the issuer flexibility but requires accounting for any gain or loss on early extinguishment.
-- fair value option for bonds (IFRS 9) ::@:: At initial recognition, an entity may irrevocably designate bonds payable at FVTPL; the liability is then remeasured each period with changes in P&L (own-credit-risk portion goes to OCI).
+- callable bond ::@:: A bond that the issuer can redeem before maturity at a specified call price (usually above par); gives the issuer flexibility but requires accounting for any gain or loss on early extinguishment. <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
+- fair value option for bonds (IFRS 9) ::@:: At initial recognition, an entity may irrevocably designate bonds payable at FVTPL; the liability is then remeasured each period with changes in P&L (own-credit-risk portion goes to OCI). <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
 
 ## coupon rate versus market rate
 
@@ -137,15 +137,15 @@ Representative journal entry example:
 > | {@{Cash}@}                                                    | {@{95&nbsp;500}@} |                   |
 > | {@{Bonds payable}@}                                           |                   | {@{95&nbsp;500}@} |
 >
-> _Explanation._ Under IFRS 9, the {@{1&nbsp;500 issuance cost reduces the initial carrying amount}@}; it is not capitalized as a separate deferred charge. The EIR is computed on {@{net proceeds 95&nbsp;500, which gives a slightly higher rate than the rate implied by gross proceeds 97&nbsp;000}@}. This higher EIR is then applied to the carrying amount each period to determine interest expense.
+> _Explanation._ Under IFRS 9, the {@{1&nbsp;500 issuance cost reduces the initial carrying amount}@}; it is not capitalized as a separate deferred charge. The EIR is computed on {@{net proceeds 95&nbsp;500, which gives a slightly higher rate than the rate implied by gross proceeds 97&nbsp;000}@}. This higher EIR is then applied to the carrying amount each period to determine interest expense. <!--SR:!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- bond issuance costs under IFRS 9: how treated? ::@:: Deducted from the carrying amount of the bond at inception; bond initially measured at net proceeds (gross proceeds minus issuance costs); no separate deferred-charge asset.
-- bond issuance costs: effect on EIR? ::@:: Net proceeds are lower than gross proceeds, so EIR computed on net proceeds is slightly higher than the rate implied by gross proceeds alone.
-- bond issuance costs: are they expensed immediately? ::@:: No; under IFRS 9 they reduce the initial carrying amount and are effectively amortized over the bond's life as part of the interest expense recognized at the EIR.
+- bond issuance costs under IFRS 9: how treated? ::@:: Deducted from the carrying amount of the bond at inception; bond initially measured at net proceeds (gross proceeds minus issuance costs); no separate deferred-charge asset. <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
+- bond issuance costs: effect on EIR? ::@:: Net proceeds are lower than gross proceeds, so EIR computed on net proceeds is slightly higher than the rate implied by gross proceeds alone. <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
+- bond issuance costs: are they expensed immediately? ::@:: No; under IFRS 9 they reduce the initial carrying amount and are effectively amortized over the bond's life as part of the interest expense recognized at the EIR. <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
 
 ## effective interest method (bonds)
 
@@ -412,14 +412,14 @@ An __installment note__ is repaid through periodic fixed payments, each covering
 > | {@{Notes payable}@}              | {@{3&nbsp;021}@} |                  |
 > | {@{Cash}@}                       |                  | {@{4&nbsp;021}@} |
 >
-> _Explanation._ Unlike a bond, {@{there are no separate "discount" or "premium" accounts; each payment reduces the note's carrying amount by the principal repayment portion}@}. Interest decreases each period because it is applied to a {@{steadily shrinking principal balance}@}. A small rounding difference in the final period brings the balance to exactly {@{zero}@}.
+> _Explanation._ Unlike a bond, {@{there are no separate "discount" or "premium" accounts; each payment reduces the note's carrying amount by the principal repayment portion}@}. Interest decreases each period because it is applied to a {@{steadily shrinking principal balance}@}. A small rounding difference in the final period brings the balance to exactly {@{zero}@}. <!--SR:!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- installment note: why does interest expense decrease each period? ::@:: Because interest is applied to the beginning outstanding balance, which shrinks after each principal repayment; fixed payment = interest + principal repayment.
-- installment note journal entry ::@:: Dr _Interest expense_ (beginning balance × rate), Dr _Notes payable_ (principal repayment = fixed payment − interest), Cr _Cash_ (fixed payment).
+- installment note: why does interest expense decrease each period? ::@:: Because interest is applied to the beginning outstanding balance, which shrinks after each principal repayment; fixed payment = interest + principal repayment. <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
+- installment note journal entry ::@:: Dr _Interest expense_ (beginning balance × rate), Dr _Notes payable_ (principal repayment = fixed payment − interest), Cr _Cash_ (fixed payment). <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
 
 ## zero-interest-bearing notes and implicit interest rate
 
@@ -580,8 +580,8 @@ Flashcards for this section are as follows:
 - debt-for-equity gain/loss sign rule ::@:: Carrying amount of debt &gt; fair value of shares issued → gain; carrying amount of debt &lt; fair value of shares issued → loss, regardless of whether share fair value is above or below par. <!--SR:!2026-05-20,18,327!2026-05-20,18,327-->
 - extinguishment by transferring property: why two gains/losses? ::@:: One from remeasuring the asset to fair value; another from comparing liability carrying amount to asset fair value when settling the debt. <!--SR:!2026-05-20,18,322!2026-05-18,16,290-->
 - early cash repurchase below carrying amount: journal-entry effect ::@:: Debit the liability at carrying amount, credit cash for the repurchase price, and credit gain on extinguishment for the difference. <!--SR:!2026-05-21,19,344!2026-05-21,19,344-->
-- callable bond: accounting on call? ::@:: Derecognize the bond at its carrying amount at the call date (after accruing interest and amortizing discount/premium up to that date); compare carrying amount to cash paid (call price); difference is gain or loss on extinguishment in P&L.
-- in-substance defeasance under IFRS ::@:: Not sufficient for derecognition unless the debtor is legally released from the obligation; merely placing assets in a trust dedicated to paying the debt does NOT remove the liability from the balance sheet under IFRS 9.
+- callable bond: accounting on call? ::@:: Derecognize the bond at its carrying amount at the call date (after accruing interest and amortizing discount/premium up to that date); compare carrying amount to cash paid (call price); difference is gain or loss on extinguishment in P&L. <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
+- in-substance defeasance under IFRS ::@:: Not sufficient for derecognition unless the debtor is legally released from the obligation; merely placing assets in a trust dedicated to paying the debt does NOT remove the liability from the balance sheet under IFRS 9. <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
 
 ## modification of debt terms
 
@@ -615,7 +615,7 @@ Flashcards for this section are as follows:
 - modification of debt terms (IFRS course focus) ::@:: Treat a significant change of terms as extinguishment of the old debt and recognition of a new liability measured at fair value; recognise a gain or loss equal to old carrying amount minus fair value of new debt. <!--SR:!2026-05-21,19,344!2026-05-21,19,344-->
 - modified debt: which rate for new effective interest? ::@:: Use the current market-based borrowing rate used to measure the fair value of the restructured note; apply it to the new carrying amount to compute interest expense. <!--SR:!2026-05-21,19,344!2026-05-21,19,344-->
 - modification of debt terms (debtor, lecture slide) ::@:: Derecognise the old note at its carrying amount, recognise the new restructured note at fair value, and record the difference as a gain or loss on extinguishment of debt. <!--SR:!2026-05-21,19,344!2026-05-21,19,344-->
-- IFRS 9 quantitative 10% test for debt modification ::@:: PV of modified cash flows (discounted at original EIR) differs from old carrying amount by ≥10% → substantial modification → derecognize old debt and recognize new debt at fair value. &lt;10% difference → non-substantial modification; adjust carrying amount and revise EIR instead.
+- IFRS 9 quantitative 10% test for debt modification ::@:: PV of modified cash flows (discounted at original EIR) differs from old carrying amount by ≥10% → substantial modification → derecognize old debt and recognize new debt at fair value. &lt;10% difference → non-substantial modification; adjust carrying amount and revise EIR instead. <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
 
 ## representative exercises
 
@@ -656,14 +656,14 @@ Flashcards for this section are as follows:
 > | {@{Loss on extinguishment of debt}@}                         | {@{4&nbsp;714}@}  |                   |
 > | {@{Cash}@}                                                   |                   | {@{51&nbsp;500}@} |
 >
-> _Explanation._ The loss = {@{call price 51&nbsp;500 − carrying amount 46&nbsp;786 = 4&nbsp;714}@}. Carrying amount at the call date already reflects {@{issuance costs (deducted at inception) and two years of discount amortization}@}. The bond is derecognized at carrying amount, not at face.
+> _Explanation._ The loss = {@{call price 51&nbsp;500 − carrying amount 46&nbsp;786 = 4&nbsp;714}@}. Carrying amount at the call date already reflects {@{issuance costs (deducted at inception) and two years of discount amortization}@}. The bond is derecognized at carrying amount, not at face. <!--SR:!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- bond early extinguishment (callable at premium): how to find gain or loss? ::@:: Carrying amount at call date (face − unamortized discount, or after net-proceeds approach) compared to call price paid; call price &gt; carrying → loss; call price &lt; carrying → gain.
-- bond issuance costs + discount: initial carrying amount? ::@:: Gross proceeds minus issuance costs; so net proceeds become the starting carrying amount; amortize the combined discount (from both below-par issue and issuance costs) using the EIR computed on net proceeds.
+- bond early extinguishment (callable at premium): how to find gain or loss? ::@:: Carrying amount at call date (face − unamortized discount, or after net-proceeds approach) compared to call price paid; call price &gt; carrying → loss; call price &lt; carrying → gain. <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
+- bond issuance costs + discount: initial carrying amount? ::@:: Gross proceeds minus issuance costs; so net proceeds become the starting carrying amount; amortize the combined discount (from both below-par issue and issuance costs) using the EIR computed on net proceeds. <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
 
 ### zero-coupon note issued for property: initial measurement and interest schedule
 
@@ -699,11 +699,11 @@ Flashcards for this section are as follows:
 > | {@{Interest expense}@}                  | {@{5&nbsp;560}@} |                  |
 > | {@{Notes payable}@}                     |                  | {@{5&nbsp;560}@} |
 >
-> _Explanation._ {@{Equipment is recorded at PV of the note because fair value of the equipment is not observable}@}. The implicit discount (80&nbsp;000 − 56&nbsp;672 = 23&nbsp;328) is {@{amortized as interest expense using the 9% implicit rate applied to the beginning carrying amount each year}@}; no cash interest is paid during the term. At maturity, {@{Dr Notes payable 80&nbsp;000, Cr Cash 80&nbsp;000}@}.
+> _Explanation._ {@{Equipment is recorded at PV of the note because fair value of the equipment is not observable}@}. The implicit discount (80&nbsp;000 − 56&nbsp;672 = 23&nbsp;328) is {@{amortized as interest expense using the 9% implicit rate applied to the beginning carrying amount each year}@}; no cash interest is paid during the term. At maturity, {@{Dr Notes payable 80&nbsp;000, Cr Cash 80&nbsp;000}@}. <!--SR:!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- zero-coupon note for property (no observable price): initial measurement? ::@:: Measure note at PV of maturity amount using the imputed/incremental borrowing rate; record the asset (e.g. equipment or building) at the same PV; the difference from face value is a discount amortized as interest expense.
-- zero-coupon note: does interest expense increase each period? ::@:: Yes; because the carrying amount grows each period as discount is amortized, and interest expense = beginning carrying amount × implicit rate (effective interest method).
+- zero-coupon note for property (no observable price): initial measurement? ::@:: Measure note at PV of maturity amount using the imputed/incremental borrowing rate; record the asset (e.g. equipment or building) at the same PV; the difference from face value is a discount amortized as interest expense. <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->
+- zero-coupon note: does interest expense increase each period? ::@:: Yes; because the carrying amount grows each period as discount is amortized, and interest expense = beginning carrying amount × implicit rate (effective interest method). <!--SR:!2026-05-22,5,356!2026-05-22,5,356-->

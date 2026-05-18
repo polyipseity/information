@@ -179,7 +179,7 @@ Flashcards for this section are as follows:
 > | {@{Cash}@} | | {@{24&nbsp;000}@} |
 > | {@{Net defined benefit liability}@} | | {@{93&nbsp;800}@} |
 >
-> _Year-end check._ DBO = €231&nbsp;200 + €11&nbsp;400 + €23&nbsp;120 − €9&nbsp;600 = {@{€256&nbsp;120}@}. Plan assets = €133&nbsp;200 + €24&nbsp;000 − €9&nbsp;600 + €13&nbsp;320 = {@{€160&nbsp;920}@}. Funded status = €256&nbsp;120 − €160&nbsp;920 = {@{€95&nbsp;200 net liability}@}. Previous liability €1&nbsp;400 + €93&nbsp;800 = {@{€95&nbsp;200}@} ✓.
+> _Year-end check._ DBO = €231&nbsp;200 + €11&nbsp;400 + €23&nbsp;120 − €9&nbsp;600 = {@{€256&nbsp;120}@}. Plan assets = €133&nbsp;200 + €24&nbsp;000 − €9&nbsp;600 + €13&nbsp;320 = {@{€160&nbsp;920}@}. Funded status = €256&nbsp;120 − €160&nbsp;920 = {@{€95&nbsp;200 net liability}@}. Previous liability €1&nbsp;400 + €93&nbsp;800 = {@{€95&nbsp;200}@} ✓. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -209,7 +209,7 @@ Under IAS 19, both types of remeasurement go to __other comprehensive income (OC
 > | {@{Plan assets (memo account)}@} | {@{2&nbsp;400}@} | |
 > | {@{OCI — remeasurement gain (pension)}@} | | {@{2&nbsp;400}@} |
 >
-> _Explanation._ The €2&nbsp;400 excess of actual return over expected return is {@{not recognized in profit or loss; it is a credit to OCI}@} because IAS 19 classifies all remeasurements as OCI items that accumulate permanently in equity.
+> _Explanation._ The €2&nbsp;400 excess of actual return over expected return is {@{not recognized in profit or loss; it is a credit to OCI}@} because IAS 19 classifies all remeasurements as OCI items that accumulate permanently in equity. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250-->
 
 ---
 

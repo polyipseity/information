@@ -58,7 +58,7 @@ Flashcards for this section are as follows:
 - held-for-collection: measurement basis ::@:: Amortized cost.
 - held-for-collection and selling: fair-value changes go where? ::@:: Unrealized holding gains and losses go to OCI, not to net income.
 - trading debt investments: fair-value changes go where? ::@:: To net income immediately.
-- debt investment classification: practical business-purpose triad ::@:: The investor may buy the bond to collect contractual cash flows, to collect and later sell, or to trade for a quicker gain.
+- debt investment classification: practical business-purpose triad ::@:: The investor may buy the bond to collect contractual cash flows, to collect and later sell, or to trade for a quicker gain. <!--SR:!2000-01-01,1,250!2026-05-21,4,270-->
 - debt investment classification: does the initial cash entry alone determine the category? ::@:: No. The same purchase entry can appear across categories; the classification is determined by business purpose and contractual cash-flow characteristics.
 - SPPI test: what does it require? ::@:: Contractual cash flows must consist solely of payments of principal and interest on the principal outstanding; any equity-linked, leveraged, or other non-standard cash flow component causes the instrument to fail the test and forces FVTPL classification.
 - FVO irrevocable designation: when can it be used for debt instruments? ::@:: A company may irrevocably elect to measure an eligible debt instrument at FVTPL if doing so eliminates or significantly reduces an accounting mismatch. The election cannot later be revoked.
@@ -80,7 +80,7 @@ The difference between them is the amortization of discount or premium.
 > | {@{Purchase debt investment at amortized cost}@} | Dr | Cr |
 > | --- | ---: | ---: |
 > | {@{Debt investments}@} | {@{92&nbsp;278}@} | |
-> | {@{Cash}@} | | {@{92&nbsp;278}@} |
+> | {@{Cash}@} | | {@{92&nbsp;278}@} | <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Purchase between coupon dates instead of on a clean interest date._ Suppose the same bond is purchased {@{3 months after the last semiannual coupon date}@}. The investor still records the bond at its {@{92&nbsp;278 carrying amount}@}, but must also pay the seller {@{3 months of accrued coupon interest = €100&nbsp;000 × 8% × 3/12 = €2&nbsp;000}@}.
@@ -102,7 +102,7 @@ The difference between them is the amortization of discount or premium.
 > | {@{Interest receivable}@} | | {@{2&nbsp;000}@} |
 > | {@{Interest revenue}@} | | {@{2&nbsp;307}@} |
 >
-> _Interpretation._ The next coupon date mixes {@{recovery of the seller's accrued interest}@} with the {@{new investor's own 3-month effective-interest revenue and discount amortization}@}. That is why this entry differs from a clean-date purchase. The later year-end accrual uses the same structure again, except that {@{Interest receivable replaces Cash because the coupon has not yet been collected}@}.
+> _Interpretation._ The next coupon date mixes {@{recovery of the seller's accrued interest}@} with the {@{new investor's own 3-month effective-interest revenue and discount amortization}@}. That is why this entry differs from a clean-date purchase. The later year-end accrual uses the same structure again, except that {@{Interest receivable replaces Cash because the coupon has not yet been collected}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Sale of held-for-collection bonds before maturity._ Assume the carrying amount has already been updated through the sale date to {@{€96&nbsp;200}@}. Immediately before the sale entry, assume the investor must still record the last amortization update for the stub period: carrying amount before the update is {@{€95&nbsp;555}@}, and the final discount amortization needed to reach the sale-date amortized cost is therefore {@{€645 = €96&nbsp;200 − €95&nbsp;555}@}. That final stub-period interest revenue consists of {@{€2&nbsp;667 accrued interest revenue plus €645 discount amortization = €3&nbsp;312 total interest revenue}@}. The bonds are then sold for {@{99.60 plus accrued interest}@}, so cash received is {@{€102&nbsp;267 = €99&nbsp;600 + €2&nbsp;667 accrued interest}@}.
@@ -120,7 +120,7 @@ The difference between them is the amortization of discount or premium.
 > | {@{Debt investments}@} | | {@{96&nbsp;200}@} |
 > | {@{Gain on sale of investments}@} | | {@{3&nbsp;400}@} |
 >
-> _Explanation._ The sale-date entry combines the {@{collection of the already-accrued interest receivable}@} and the {@{realized gain on disposal versus carrying amount}@}. That is why the cash figure is larger than the clean bond price alone.
+> _Explanation._ The sale-date entry combines the {@{collection of the already-accrued interest receivable}@} and the {@{realized gain on disposal versus carrying amount}@}. That is why the cash figure is larger than the clean bond price alone. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 If a held-for-collection investment is sold before maturity, the company must first update amortized cost through the sale date and then compare sale proceeds with carrying amount to compute the realized gain or loss.
 
@@ -131,9 +131,9 @@ An alternative endpoint method is often the safest way to handle fair-value ques
 Flashcards for this section are as follows:
 
 - effective-interest method: why is cash interest different from interest revenue? ::@:: Because cash interest uses the coupon rate, while interest revenue uses the carrying amount times the effective yield.
-- discount bond at amortized cost: what happens to carrying amount over time? ::@:: It increases toward face value as the discount is amortized.
+- discount bond at amortized cost: what happens to carrying amount over time? ::@:: It increases toward face value as the discount is amortized. <!--SR:!2026-05-21,4,270!2026-05-21,4,270-->
 - premium bond at amortized cost: what happens to carrying amount over time? ::@:: It decreases toward face value as the premium is amortized.
-- held-for-collection sale before maturity: what must be done before computing gain or loss? ::@:: Update interest accrual and discount or premium amortization through the sale date so the carrying amount is current.
+- held-for-collection sale before maturity: what must be done before computing gain or loss? ::@:: Update interest accrual and discount or premium amortization through the sale date so the carrying amount is current. <!--SR:!2000-01-01,1,250!2026-05-21,4,270-->
 - amortized cost intuition ::@:: It is the investment's adjusted carrying amount after applying the effective-interest method, not simply face value or historical purchase price.
 - debt investment purchased between coupon dates: what is the common trap? ::@:: Accrued coupon paid to the seller is recorded separately as _Interest receivable_; it is not added to the bond's amortized-cost carrying amount. Example: €100&nbsp;000 × 8% × 3/12 = €2&nbsp;000 of accrued coupon is debited to _Interest receivable_, not to _Debt investments_.
 - debt investment purchased between coupon dates: what happens at the next coupon date? ::@:: The investor receives the full coupon, but part of it merely clears the accrued-interest receivable recorded at purchase. Example: Dr _Cash_ 4&nbsp;000 and Dr _Debt investments_ 307; Cr _Interest receivable_ 2&nbsp;000 and Cr _Interest revenue_ 2&nbsp;307.
@@ -147,7 +147,7 @@ Flashcards for this section are as follows:
 - debt investments at fair value: common measurement idea ::@:: Update interest and amortized-cost mechanics first, then apply fair-value accounting; the classification determines whether the unrealized fair-value change goes to OCI or net income.
 - debt investments at fair value: key split in this note ::@:: Held-for-collection-and-selling debt sends unrealized fair-value changes to OCI, while trading debt sends them directly to current net income.
 - fair value adjustment: endpoint method with a separate Fair value adjustment account ::@:: First update the book or amortized-cost amount for everything else. Then compute the required ending _Fair value adjustment_ balance as fair value minus updated book value. The current-period entry is the amount needed to move the existing balance to that required ending balance.
-- fair value adjustment endpoint method: does it always work? ::@:: It always works for ordinary fair-value-adjustment problems if the carrying amount has already been updated for interest, amortization, dividends, and similar items. If a separate credit-loss allowance also exists, the total gap to fair value still gives the combined valuation reduction needed, but you must still split that total between the fair value adjustment and the impairment allowance.
+- fair value adjustment endpoint method: does it always work? ::@:: It always works for ordinary fair-value-adjustment problems if the carrying amount has already been updated for interest, amortization, dividends, and similar items. If a separate credit-loss allowance also exists, the total gap to fair value still gives the combined valuation reduction needed, but you must still split that total between the fair value adjustment and the impairment allowance. <!--SR:!2026-05-21,4,270!2000-01-01,1,250-->
 
 ### held-for-collection and selling
 
@@ -172,7 +172,7 @@ Debt investments held for both collection and possible sale follow the same inte
 > | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{1&nbsp;732}@} | |
 > | {@{Fair value adjustment}@} | | {@{1&nbsp;732}@} |
 >
-> _Explanation._ The bond is still shown at fair value on the statement of financial position, but the unrealized decline is kept out of current net income. Using the endpoint method, the required ending {@{Fair value adjustment credit balance is £1&nbsp;732 because fair value £105&nbsp;000 is £1&nbsp;732 below amortized carrying amount £106&nbsp;732}@}. If no earlier fair value adjustment balance exists, the full {@{£1&nbsp;732}@} is recorded now.
+> _Explanation._ The bond is still shown at fair value on the statement of financial position, but the unrealized decline is kept out of current net income. Using the endpoint method, the required ending {@{Fair value adjustment credit balance is £1&nbsp;732 because fair value £105&nbsp;000 is £1&nbsp;732 below amortized carrying amount £106&nbsp;732}@}. If no earlier fair value adjustment balance exists, the full {@{£1&nbsp;732}@} is recorded now. <!--SR:!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,287!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _HFCS portfolio fair value adjustment._ A company holds two HFCS bonds. One shows an unrealized loss of {@{€12&nbsp;000}@} and the other an unrealized gain of {@{€2&nbsp;500}@}. The portfolio therefore has a {@{net unrealized loss of €9&nbsp;500}@} at year-end.
@@ -182,7 +182,7 @@ Debt investments held for both collection and possible sale follow the same inte
 > | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{9&nbsp;500}@} | |
 > | {@{Fair value adjustment}@} | | {@{9&nbsp;500}@} |
 >
-> _Explanation._ This is the same endpoint method at the portfolio level: the required ending {@{Fair value adjustment credit balance is €9&nbsp;500}@}, so the entry simply moves the account to that balance.
+> _Explanation._ This is the same endpoint method at the portfolio level: the required ending {@{Fair value adjustment credit balance is €9&nbsp;500}@}, so the entry simply moves the account to that balance. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Sale of an HFCS bond._ One HFCS bond is sold for {@{€90&nbsp;000 plus accrued interest}@} when its amortized cost is {@{€94&nbsp;200}@}. Immediately before the sale entry, assume the investor must still record the last amortization update for the stub period: carrying amount before the update is {@{€93&nbsp;555}@}, and the final discount amortization needed to reach the sale-date amortized cost is therefore {@{€645 = €94&nbsp;200 − €93&nbsp;555}@}. That final stub-period interest revenue consists of {@{€2&nbsp;667 accrued interest revenue plus €645 discount amortization = €3&nbsp;312 total interest revenue}@}. Total cash received is therefore {@{€92&nbsp;667 = €90&nbsp;000 clean price + €2&nbsp;667 accrued interest}@}.
@@ -212,9 +212,9 @@ Debt investments held for both collection and possible sale follow the same inte
 > | {@{Loss on sale of investments}@} | {@{4&nbsp;200}@} | |
 > | {@{Interest receivable}@} | | {@{2&nbsp;667}@} |
 > | {@{Debt investments}@} | | {@{94&nbsp;200}@} |
-> | {@{Accumulated comprehensive income}@} | | {@{3&nbsp;800}@} |
+> | {@{Accumulated comprehensive income}@} | | {@{3&nbsp;800}@} | <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
-_Explanation._ Your concern is correct: if the sale loss is already being recorded as {@{sale proceeds versus amortized cost}@}, then a separate extra {@{Dr Loss on sale / Cr Accumulated comprehensive income}@} line would __double count__ the OCI loss. The correct mechanics are to record the total {@{€4&nbsp;200 loss once}@} and also clear the old {@{Fair value adjustment and related accumulated OCI balance}@}. A separate standalone OCI-to-loss reclassification entry would be used only under a different presentation where the disposal gain or loss were first measured against the bond's {@{fair-value carrying amount instead of amortized cost}@}.
+_Explanation._ Your concern is correct: if the sale loss is already being recorded as {@{sale proceeds versus amortized cost}@}, then a separate extra {@{Dr Loss on sale / Cr Accumulated comprehensive income}@} line would __double count__ the OCI loss. The correct mechanics are to record the total {@{€4&nbsp;200 loss once}@} and also clear the old {@{Fair value adjustment and related accumulated OCI balance}@}. A separate standalone OCI-to-loss reclassification entry would be used only under a different presentation where the disposal gain or loss were first measured against the bond's {@{fair-value carrying amount instead of amortized cost}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-18,1,230!2000-01-01,1,250-->
 
 <!-- markdownlint-enable MD028 -->
 
@@ -224,8 +224,8 @@ Flashcards for this section are as follows:
 
 - HFCS debt investment: where do unrealized fair-value changes go before sale? ::@:: To OCI rather than net income, while interest revenue and amortized-cost updates still follow the debt-investment mechanics.
 - HFCS debt sale without prior OCI balance: is a separate AOCI reclassification entry needed? ::@:: No. If no cumulative OCI balance remains, the sale entry just compares proceeds with amortized cost and removes accrued interest separately.
-- HFCS debt sale with prior OCI balance: what must be cleared, and what must not be double counted? ::@:: Clear the old _Fair value adjustment_ and the related accumulated OCI balance, but do not add a second standalone loss entry if the disposal loss is already measured against amortized cost.
-- HFCS sale: realized gain or loss is based on what comparison? ::@:: Sale proceeds versus the investment's amortized cost at the sale date.
+- HFCS debt sale with prior OCI balance: what must be cleared, and what must not be double counted? ::@:: Clear the old _Fair value adjustment_ and the related accumulated OCI balance, but do not add a second standalone loss entry if the disposal loss is already measured against amortized cost. <!--SR:!2026-05-21,4,270!2000-01-01,1,250-->
+- HFCS sale: realized gain or loss is based on what comparison? ::@:: Sale proceeds versus the investment's amortized cost at the sale date. <!--SR:!2000-01-01,1,250!2026-05-20,3,267-->
 - HFCS sale with prior OCI history: what extra step is needed? ::@:: Clear the accumulated OCI balance related to that debt investment out of equity when the bond is sold, but do not double count the loss if disposal is already measured against amortized cost.
 
 When an HFCS debt investment is sold, the realized gain or loss is based on sale proceeds versus __amortized cost__, not versus original purchase price. The company must also update the fair-value-adjustment balances appropriately.
@@ -247,7 +247,7 @@ The fair-value adjustment for trading securities is usually done at the __portfo
 > | {@{Fair value adjustment}@} | {@{3&nbsp;750}@} | |
 > | {@{Unrealized holding gain or loss — income}@} | | {@{3&nbsp;750}@} |
 >
-> _Explanation._ The endpoint method works here too: the required ending {@{Fair value adjustment debit balance is 3&nbsp;750 because fair value exceeds carrying amount by that amount}@}. If the account already had a balance, only the difference needed to reach the required ending balance would be recorded.
+> _Explanation._ The endpoint method works here too: the required ending {@{Fair value adjustment debit balance is 3&nbsp;750 because fair value exceeds carrying amount by that amount}@}. If the account already had a balance, only the difference needed to reach the required ending balance would be recorded. <!--SR:!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -297,7 +297,7 @@ Cash dividends received are recognized as __dividend revenue__.
 > | {@{Unrealized holding gain or loss — income}@} | {@{36&nbsp;000}@} | |
 > | {@{Fair value adjustment}@} | | {@{36&nbsp;000}@} |
 >
-> _Explanation._ The endpoint method works here as well: the required ending {@{Fair value adjustment credit balance is €36&nbsp;000 because fair value is €36&nbsp;000 below carrying amount}@}. If the account already had a balance, only the amount needed to move it to that ending balance would be recorded.
+> _Explanation._ The endpoint method works here as well: the required ending {@{Fair value adjustment credit balance is €36&nbsp;000 because fair value is €36&nbsp;000 below carrying amount}@}. If the account already had a balance, only the amount needed to move it to that ending balance would be recorded. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Sale of a trading equity investment._ Later, one block of shares is sold for {@{€287&nbsp;000}@} when its adjusted carrying amount is {@{€260&nbsp;000}@}.
@@ -331,7 +331,7 @@ Some small equity investments are strategic rather than trading-oriented. The co
 > | {@{Equity investment}@} | {@{3&nbsp;250}@} | |
 > | {@{Unrealized holding gain or loss — equity (OCI)}@} | | {@{3&nbsp;250}@} |
 >
-> _Interpretation._ Dividends still go to income, but the unrealized fair-value movement does not. The same endpoint logic still works: {@{€24&nbsp;000 fair value − €20&nbsp;750 carrying amount = €3&nbsp;250}@}. The only difference is that this course records the adjustment {@{directly in the Equity investment account instead of using a separate Fair value adjustment account}@}.
+> _Interpretation._ Dividends still go to income, but the unrealized fair-value movement does not. The same endpoint logic still works: {@{€24&nbsp;000 fair value − €20&nbsp;750 carrying amount = €3&nbsp;250}@}. The only difference is that this course records the adjustment {@{directly in the Equity investment account instead of using a separate Fair value adjustment account}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Dividend and downward adjustment before sale for a non-trading equity investment._ Assume the same investment later pays a {@{€450 dividend}@}. Before sale, fair value falls from {@{€24&nbsp;000 to €22&nbsp;500}@}, so part of the earlier OCI gain must be reversed.
@@ -349,7 +349,7 @@ Some small equity investments are strategic rather than trading-oriented. The co
 > | {@{Sell non-trading equity investment at adjusted carrying amount}@} | Dr | Cr |
 > | --- | ---: | ---: |
 > | {@{Cash}@} | {@{22&nbsp;500}@} | |
-> | {@{Equity investment}@} | | {@{22&nbsp;500}@} |
+> | {@{Equity investment}@} | | {@{22&nbsp;500}@} | <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 _Explanation._ The investment is sold at its {@{already-updated fair-value carrying amount}@}, so there is {@{no additional gain or loss in net income from the sale entry itself}@}. Under the IFRS treatment used in this course, the earlier unrealized OCI balance on this non-trading equity investment is {@{not recycled to profit or loss on sale}@}; it remains an equity-side OCI history unless the company separately transfers it within equity.
 
@@ -417,13 +417,13 @@ Under IAS 28, the investor eliminates its proportionate share of any __unrealize
 > | {@{Investment income}@} | {@{5&nbsp;000}@} | |
 > | {@{Equity investment}@} | | {@{5&nbsp;000}@} |
 >
-> _Explanation._ The entry reduces both {@{investment income}@} and the {@{equity investment carrying amount}@}. Once Company B later sells that inventory to a third party, the profit becomes realized and the investor reverses the elimination entry by {@{debiting Equity investment and crediting Investment income for the same €5&nbsp;000}@}. The same mechanics apply to upstream transactions using the investee's mark-up and the investor's ownership percentage.
+> _Explanation._ The entry reduces both {@{investment income}@} and the {@{equity investment carrying amount}@}. Once Company B later sells that inventory to a third party, the profit becomes realized and the investor reverses the elimination entry by {@{debiting Equity investment and crediting Investment income for the same €5&nbsp;000}@}. The same mechanics apply to upstream transactions using the investee's mark-up and the investor's ownership percentage. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
 Flashcards for this section are as follows:
 
-- equity method unrealized profit: what kinds of intercompany transactions require elimination? ::@:: Both downstream (investor sells to investee) and upstream (investee sells to investor), for the investor's proportionate share of any profit still unrealized in closing inventory or other unsold assets.
+- equity method unrealized profit: what kinds of intercompany transactions require elimination? ::@:: Both downstream (investor sells to investee) and upstream (investee sells to investor), for the investor's proportionate share of any profit still unrealized in closing inventory or other unsold assets. <!--SR:!2026-05-20,3,250!2000-01-01,1,250-->
 - equity method downstream profit elimination: what is the entry when profit is unrealized? ::@:: Debit _Investment income_ and credit _Equity investment_ for the investor's ownership percentage of the unrealized profit remaining in the investee's closing inventory.
 - equity method unrealized profit: when is the elimination reversed? ::@:: When the goods are eventually sold to an unrelated third party, the profit becomes realized and the deferral is reversed: debit _Equity investment_ and credit _Investment income_.
 
@@ -464,7 +464,7 @@ The main exception is when the investor has gone beyond passive ownership and ha
 > | {@{Equity investment}@} | {@{5&nbsp;000}@} | |
 > | {@{Investment income}@} | | {@{5&nbsp;000}@} |
 >
-> _Explanation._ The first {@{€20&nbsp;000 of the new profit merely reverses the previously unrecognized loss memorandum amount economically}@}. Only the excess {@{€5&nbsp;000}@} becomes current-period recognized investment income.
+> _Explanation._ The first {@{€20&nbsp;000 of the new profit merely reverses the previously unrecognized loss memorandum amount economically}@}. Only the excess {@{€5&nbsp;000}@} becomes current-period recognized investment income. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270-->
 
 ---
 
@@ -473,7 +473,7 @@ Flashcards for this section are as follows:
 - equity method loss limitation: can the investment asset normally become negative? ::@:: No. Once the carrying amount reaches zero, additional losses are normally not recognized through a negative _Equity investment_ balance.
 - equity method after carrying amount reaches zero: what happens to further losses? ::@:: They become unrecognized memorandum losses unless the investor has a legal or constructive support obligation or has made payments on the investee's behalf.
 - equity method with support obligation: where do additional losses go? ::@:: To a liability, not to a negative investment asset.
-- equity method after prior unrecognized losses: when do future profits become recognized income again? ::@:: Only after the new profit first absorbs the previously unrecognized losses.
+- equity method after prior unrecognized losses: when do future profits become recognized income again? ::@:: Only after the new profit first absorbs the previously unrecognized losses. <!--SR:!2026-05-21,4,270!2000-01-01,1,250-->
 
 ### equity method: impairment
 
@@ -492,7 +492,7 @@ Even before the carrying amount reaches zero, the investor must assess at each r
 
 Flashcards for this section are as follows:
 
-- equity method impairment: when is it triggered? ::@:: When there is objective evidence that the investment's carrying amount exceeds its recoverable amount (the higher of value in use and fair value less costs to sell).
+- equity method impairment: when is it triggered? ::@:: When there is objective evidence that the investment's carrying amount exceeds its recoverable amount (the higher of value in use and fair value less costs to sell). <!--SR:!2000-01-01,1,250!2026-05-21,4,270-->
 - equity method impairment versus loss-limitation rule: key difference ::@:: Loss limitation applies when accumulated equity-method losses erode the carrying amount to zero. Impairment applies when the carrying amount is still positive but exceeds the recoverable amount.
 - equity method impairment: can the loss be reversed? ::@:: Yes. If the recoverable amount subsequently increases, the impairment loss is reversed in income up to the carrying amount that would have existed without the prior impairment.
 
@@ -550,7 +550,7 @@ So the stage transition entry is usually an __incremental top-up or reversal__, 
 > | {@{Loss on impairment}@} | {@{2&nbsp;500}@} | |
 > | {@{Allowance for impaired debt investments}@} | | {@{2&nbsp;500}@} |
 >
-> _Explanation._ Stage 2 does {@{not mean record a whole new €6&nbsp;500 loss on top of the existing €1&nbsp;200 without comparison}@}; it means the allowance must end at {@{€6&nbsp;500 total, so only the extra €5&nbsp;300 is recorded}@}. The same logic applies again in {@{stage 3}@}: if the required allowance becomes {@{€9&nbsp;000 total}@}, only the additional {@{€2&nbsp;500 top-up}@} is recognized at that date.
+> _Explanation._ Stage 2 does {@{not mean record a whole new €6&nbsp;500 loss on top of the existing €1&nbsp;200 without comparison}@}; it means the allowance must end at {@{€6&nbsp;500 total, so only the extra €5&nbsp;300 is recorded}@}. The same logic applies again in {@{stage 3}@}: if the required allowance becomes {@{€9&nbsp;000 total}@}, only the additional {@{€2&nbsp;500 top-up}@} is recognized at that date. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Credit improvement after stage 3._ Suppose improved expectations later reduce the required allowance from {@{€9&nbsp;000 to €4&nbsp;000}@}. The company reverses only the excess allowance now on the books.
@@ -560,7 +560,7 @@ So the stage transition entry is usually an __incremental top-up or reversal__, 
 > | {@{Allowance for impaired debt investments}@} | {@{5&nbsp;000}@} | |
 > | {@{Recovery of impairment loss}@} | | {@{5&nbsp;000}@} |
 >
-> _Explanation._ The entry is still driven by the same endpoint logic for the allowance: the account currently stands at {@{€9&nbsp;000}@}, but only {@{€4&nbsp;000 is still required}@}, so the excess {@{€5&nbsp;000}@} is reversed.
+> _Explanation._ The entry is still driven by the same endpoint logic for the allowance: the account currently stands at {@{€9&nbsp;000}@}, but only {@{€4&nbsp;000 is still required}@}, so the excess {@{€5&nbsp;000}@} is reversed. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -568,8 +568,8 @@ Flashcards for this section are as follows:
 
 - expected credit loss stages: what does stage 1 require? ::@:: Recognize a 12-month expected credit loss allowance.
 - expected credit loss stages: what changes when an investment moves to stage 2? ::@:: The required allowance becomes lifetime expected credit loss, so the company records only the incremental top-up needed to move the existing allowance to that lifetime amount.
-- expected credit loss stages: what does stage 3 change in entry mechanics? ::@:: The allowance is still based on lifetime expected credit loss, so the entry is again just the incremental increase or decrease needed to reach the newly required allowance balance.
-- impairment stages and entries: what is the core accounting question at each date? ::@:: Compare the allowance balance already recorded with the allowance balance now required, then book only the difference.
+- expected credit loss stages: what does stage 3 change in entry mechanics? ::@:: The allowance is still based on lifetime expected credit loss, so the entry is again just the incremental increase or decrease needed to reach the newly required allowance balance. <!--SR:!2000-01-01,1,250!2026-05-21,4,287-->
+- impairment stages and entries: what is the core accounting question at each date? ::@:: Compare the allowance balance already recorded with the allowance balance now required, then book only the difference. <!--SR:!2000-01-01,1,250!2026-05-21,4,270-->
 
 ### investments measured at amortized cost
 
@@ -598,7 +598,7 @@ For amortized-cost debt investments, the company evaluates at each reporting dat
 > | {@{Loss on impairment}@} | {@{9&nbsp;044}@} | |
 > | {@{Allowance for impaired debt investments}@} | | {@{9&nbsp;044}@} |
 >
-> _Explanation._ The ECL shortfall arises entirely from {@{lower expected cash flows — ¥16&nbsp;000 instead of ¥20&nbsp;000 — not from any change in market interest rates}@}. A rise in market rates can reduce the bond's fair value but does not by itself create an ECL shortfall if contractual principal and interest are still expected to be paid in full.
+> _Explanation._ The ECL shortfall arises entirely from {@{lower expected cash flows — ¥16&nbsp;000 instead of ¥20&nbsp;000 — not from any change in market interest rates}@}. A rise in market rates can reduce the bond's fair value but does not by itself create an ECL shortfall if contractual principal and interest are still expected to be paid in full. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Recovery of impairment loss on amortized-cost debt investment._ If credit quality later improves and the allowable reversal is {@{€12&nbsp;680}@}, the recovery entry is:
@@ -616,7 +616,7 @@ For amortized-cost debt investments, the company evaluates at each reporting dat
 > | {@{Allowance for impaired debt investments}@} | {@{7&nbsp;000}@} | |
 > | {@{Recovery of impairment loss}@} | | {@{7&nbsp;000}@} |
 >
-> _Explanation._ The recovery stops at the {@{carrying amount actually supported by the new expected cash flows}@}. Students often over-recover here by jumping straight back to the no-impairment amount.
+> _Explanation._ The recovery stops at the {@{carrying amount actually supported by the new expected cash flows}@}. Students often over-recover here by jumping straight back to the no-impairment amount. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270-->
 
 If credit conditions later improve, part or all of the impairment loss may be reversed, but the carrying amount after reversal cannot exceed the amortized cost that would have existed if no impairment had ever been recognized.
 
@@ -626,7 +626,7 @@ The measurement intuition is to compare __contractual cash flows__ with __expect
 
 Flashcards for this section are as follows:
 
-- amortized-cost debt investment impairment: where is the loss reported? ::@:: In net income through impairment loss, typically with an allowance account.
+- amortized-cost debt investment impairment: where is the loss reported? ::@:: In net income through impairment loss, typically with an allowance account. <!--SR:!2026-05-21,4,270!2000-01-01,1,250-->
 - amortized-cost impairment reversal ceiling ::@:: After recovery, the carrying amount still cannot exceed the amortized cost that would have existed if no impairment had ever been recognized.
 - impairment reversal: what account is debited? ::@:: Debit the _Allowance for impaired debt investments_ and credit _Recovery of impairment loss_, subject to the ceiling that carrying amount cannot exceed amortized cost without prior impairment.
 - ECL stage 1 vs stage 2 — Mayhew (annual shortfall = ¥4&nbsp;000, EIR = 10%, 4 years): how does the allowance calculation differ? ::@:: Stage 1 uses only 12-month ECL: ¥4&nbsp;000 ÷ 1.10 = ¥3&nbsp;636. Stage 2 uses lifetime ECL: ¥4&nbsp;000 × annuity factor (4 yrs, 10%) = ¥12&nbsp;680. Moving from stage 1 to stage 2 requires a top-up entry of ¥9&nbsp;044 (not a brand-new ¥12&nbsp;680 entry).
@@ -647,7 +647,7 @@ That second ceiling is the point of the allowance rule: you may reverse a loss, 
 > | {@{Allowance for impaired debt investments}@} | {@{9&nbsp;000}@} | |
 > | {@{Recovery of impairment loss}@} | | {@{9&nbsp;000}@} |
 >
-> _Explanation._ The ceiling is the {@{€97&nbsp;000 amortized cost that would have existed without prior impairment}@}, not the more optimistic {@{€101&nbsp;000 updated estimate}@}. The extra {@{€4&nbsp;000}@} is {@{not recoverable through the reversal entry because it would push the carrying amount above the no-impairment path}@}.
+> _Explanation._ The ceiling is the {@{€97&nbsp;000 amortized cost that would have existed without prior impairment}@}, not the more optimistic {@{€101&nbsp;000 updated estimate}@}. The extra {@{€4&nbsp;000}@} is {@{not recoverable through the reversal entry because it would push the carrying amount above the no-impairment path}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270-->
 
 ---
 
@@ -708,7 +708,7 @@ The slide logic is to separate cause before deciding the journal-entry destinati
 > | {@{Reverse credit-loss impairment on HFCS debt investment}@} | Dr | Cr |
 > | --- | ---: | ---: |
 > | {@{Allowance for impaired debt investments}@} | {@{15&nbsp;000}@} | |
-> | {@{Recovery of impairment loss}@} | | {@{15&nbsp;000}@} |
+> | {@{Recovery of impairment loss}@} | | {@{15&nbsp;000}@} | <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270-->
 
 ---
 
@@ -719,7 +719,7 @@ Flashcards for this section are as follows:
 - HFCS debt investment: which part of a fair-value decline stays in OCI? ::@:: The part caused by market interest rate changes.
 - HFCS debt investment: which part of a fair-value decline goes to income as impairment? ::@:: The part caused by credit deterioration.
 - HFCS impairment split: why are two entries sometimes needed? ::@:: Because the market-rate component of a decline stays in OCI while the credit-loss component is recognized separately in income as impairment.
-- HFCS debt investment with both fair value adjustment and impairment allowance: why is the endpoint shortcut not enough by itself? ::@:: The total gap between fair value and amortized cost still tells you the combined valuation reduction needed, but you must split that total by cause: the market-rate component goes to _Fair value adjustment_ and the credit-loss component goes to _Allowance for impaired debt investments_.
+- HFCS debt investment with both fair value adjustment and impairment allowance: why is the endpoint shortcut not enough by itself? ::@:: The total gap between fair value and amortized cost still tells you the combined valuation reduction needed, but you must split that total by cause: the market-rate component goes to _Fair value adjustment_ and the credit-loss component goes to _Allowance for impaired debt investments_. <!--SR:!2026-05-21,4,270!2000-01-01,1,250-->
 - HFCS sale after separate impairment and OCI adjustments: what must be cleared? ::@:: Clear the debt investment itself, the impairment allowance, the fair value adjustment, and the related accumulated OCI so the disposal entry removes the entire adjusted carrying structure.
 
 ## financial statement disclosures under IFRS 7
@@ -791,7 +791,7 @@ A __futures contract__ differs from an option in one crucial way: the holder is 
 > | {@{Unrealized holding gain or loss — income}@} | {@{300}@} | |
 > | {@{Call option}@} | | {@{300}@} |
 >
-> _Explanation._ Both the gain from intrinsic value and the loss from time-value decay hit income immediately because the option is being accounted for as a speculative derivative.
+> _Explanation._ Both the gain from intrinsic value and the loss from time-value decay hit income immediately because the option is being accounted for as a speculative derivative. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 <!-- markdownlint-disable-next-line MD028 -->
 > _Final remeasurement and settlement of a speculative call option._ Before settlement, intrinsic value falls by {@{€5&nbsp;000}@} and time value falls by another {@{€40, leaving a carrying amount of €15&nbsp;060 before settlement for €15&nbsp;000 cash}@}.
@@ -816,14 +816,14 @@ A __futures contract__ differs from an option in one crucial way: the holder is 
 
 Flashcards for this section are as follows:
 
-- derivative: three basic characteristics ::@:: It has an underlying, requires little or no initial investment relative to exposure, and permits or requires net settlement.
+- derivative: three basic characteristics ::@:: It has an underlying, requires little or no initial investment relative to exposure, and permits or requires net settlement. <!--SR:!2026-05-21,4,270!2000-01-01,1,250-->
 - main derivative types in this topic ::@:: Forwards or futures, options, and swaps.
 - speculative derivative accounting: the three-step rule ::@:: Recognize the derivative, measure it at fair value, and report gains and losses in income immediately.
 - call option: intrinsic value ::@:: The positive difference between the market price of the underlying and the strike price.
-- call option: time value ::@:: The option's total value above its intrinsic value.
+- call option: time value ::@:: The option's total value above its intrinsic value. <!--SR:!2026-05-21,4,270!2000-01-01,1,250-->
 - put option: basic profit direction ::@:: A put option becomes more valuable as the underlying price falls below the strike price, because the holder has the right to sell at the fixed strike price.
 - futures versus options: basic contractual difference ::@:: An option gives a right, while a futures contract is a binding price commitment that can create gains or losses in either direction.
-- speculative derivative: why can both a gain and a loss appear before settlement? ::@:: Because different components of fair value, such as intrinsic value and time value, can move in opposite directions while the option is still open.
+- speculative derivative: why can both a gain and a loss appear before settlement? ::@:: Because different components of fair value, such as intrinsic value and time value, can move in opposite directions while the option is still open. <!--SR:!2000-01-01,1,250!2026-05-21,4,270-->
 - call option settlement: why can there still be a final settlement loss after earlier gains? ::@:: Because the option must first be remeasured again before settlement, and the final cash proceeds may still be below the remeasured carrying amount.
 
 ## hedge accounting and swaps
@@ -863,7 +863,7 @@ The transcript frames the reason very practically: if the hedged inventory or li
 > | {@{Put option}@} | {@{20&nbsp;000}@} | |
 > | {@{Unrealized holding gain or loss — income}@} | | {@{20&nbsp;000}@} |
 >
-> _Interpretation._ In a perfect hedge, the income effects offset.
+> _Interpretation._ In a perfect hedge, the income effects offset. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2026-05-20,3,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -908,7 +908,7 @@ That OCI-first treatment matches the transcript's logic. At the start of a cash 
 Flashcards for this section are as follows:
 
 - cash flow hedge: where does the derivative's unrealized gain or loss go first? ::@:: To OCI, because the forecast transaction has not yet affected earnings.
-- cash flow hedge reclassification: when does OCI move into income? ::@:: When the hedged forecast transaction later affects earnings, such as when hedged inventory flows into _Cost of goods sold_.
+- cash flow hedge reclassification: when does OCI move into income? ::@:: When the hedged forecast transaction later affects earnings, such as when hedged inventory flows into _Cost of goods sold_. <!--SR:!2026-05-21,4,270!2000-01-01,1,250-->
 - cash flow hedge: what is being hedged? ::@:: Variability in expected future cash flows.
 
 #### forecast purchase hedged through basis adjustment into inventory
@@ -942,7 +942,7 @@ One common accounting path for a cash flow hedge of a forecast purchase of a __n
 > | {@{Cost of goods sold}@} | {@{1&nbsp;550&nbsp;000}@} | |
 > | {@{Inventory}@} | | {@{1&nbsp;550&nbsp;000}@} |
 >
-> _Explanation._ The hedge gain first sits in {@{OCI because the forecast purchase has not yet affected earnings}@}. Once the inventory is recognized, the accumulated OCI is {@{taken out of equity and used to reduce Inventory from ¥1&nbsp;582&nbsp;000 to the hedged effective amount of ¥1&nbsp;550&nbsp;000}@}. The hedge effect then reaches income naturally through later {@{Cost of goods sold}@}.
+> _Explanation._ The hedge gain first sits in {@{OCI because the forecast purchase has not yet affected earnings}@}. Once the inventory is recognized, the accumulated OCI is {@{taken out of equity and used to reduce Inventory from ¥1&nbsp;582&nbsp;000 to the hedged effective amount of ¥1&nbsp;550&nbsp;000}@}. The hedge effect then reaches income naturally through later {@{Cost of goods sold}@}. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-20,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-20,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
@@ -977,14 +977,14 @@ Cash flow hedge accounting is also common when a company wants to turn __floatin
 > | {@{Interest expense}@} | {@{8&nbsp;000}@} | |
 > | {@{Unrealized holding gain or loss — equity (OCI)}@} | | {@{8&nbsp;000}@} |
 >
-> _Explanation._ The floating-rate debt itself creates {@{€52&nbsp;000 of ordinary interest expense}@}. The swap's effective loss is first parked in {@{OCI}@}, then reclassified into {@{Interest expense}@} so that total reported borrowing cost becomes {@{€60&nbsp;000 fixed-like cost}@} for the period.
+> _Explanation._ The floating-rate debt itself creates {@{€52&nbsp;000 of ordinary interest expense}@}. The swap's effective loss is first parked in {@{OCI}@}, then reclassified into {@{Interest expense}@} so that total reported borrowing cost becomes {@{€60&nbsp;000 fixed-like cost}@} for the period. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-20,3,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 ---
 
 Flashcards for this section are as follows:
 
 - cash flow hedge of floating-rate debt: where does the effective swap gain or loss go first? ::@:: To OCI first, then later into _Interest expense_ when the hedged interest cash flow affects earnings.
-- floating-rate debt hedged to fixed cash flows: why is OCI later reclassified into interest expense? ::@:: So the derivative effect reaches earnings in the same period as the hedged floating-rate interest cash flow and makes the reported borrowing cost look fixed-like.
+- floating-rate debt hedged to fixed cash flows: why is OCI later reclassified into interest expense? ::@:: So the derivative effect reaches earnings in the same period as the hedged floating-rate interest cash flow and makes the reported borrowing cost look fixed-like. <!--SR:!2026-05-21,4,270!2000-01-01,1,250-->
 
 ### swaps and qualifying criteria
 
@@ -1014,7 +1014,7 @@ The classroom motivation is duration and interest-rate-risk management. A compan
 > | {@{Unrealized holding gain or loss — income}@} | {@{40&nbsp;000}@} | |
 > | {@{Bonds payable}@} | | {@{40&nbsp;000}@} |
 >
-> _Explanation._ In a fair value hedge, the {@{derivative gain and hedged-item loss go to the same income location}@}, so the accounting visibly shows the offset.
+> _Explanation._ In a fair value hedge, the {@{derivative gain and hedged-item loss go to the same income location}@}, so the accounting visibly shows the offset. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-20,3,250!2000-01-01,1,250-->
 
 To qualify for hedge accounting, the hedge relationship must be properly:
 
@@ -1031,7 +1031,7 @@ Flashcards for this section are as follows:
 - swap: basic idea in this course ::@:: A swap exchanges payment streams, commonly fixed for floating, so it can offset interest-rate exposure on another item.
 - hedge-accounting qualification: what happens if the relationship is not properly documented, designated, and effective? ::@:: The derivative loses hedge accounting and falls back to ordinary fair-value-through-income treatment.
 - interest rate swap: basic idea ::@:: Two parties exchange payment streams, commonly one fixed-rate stream for one floating-rate stream.
-- non-qualifying hedge or unhedged derivative: where do fair-value changes go? ::@:: To income under ordinary derivative accounting.
+- non-qualifying hedge or unhedged derivative: where do fair-value changes go? ::@:: To income under ordinary derivative accounting. <!--SR:!2000-01-01,1,250!2026-05-21,4,270-->
 - hedge accounting qualification: what three conditions must the hedge relationship satisfy? ::@:: It must be (1) properly documented at inception, (2) designated as part of the entity's risk management strategy, and (3) shown to be effective at offsetting the hedged risk.
 - interest rate swap as fair value hedge of fixed-rate bonds payable: what risk motivates the strategy? ::@:: Falling market interest rates increase the fair value of fixed-rate bond liabilities. A pay-floating, receive-fixed swap gains in value when rates fall, offsetting the fair-value increase of the bonds payable.
 

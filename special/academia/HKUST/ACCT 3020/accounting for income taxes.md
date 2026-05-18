@@ -226,7 +226,7 @@ A litigation accrual works the same way: if IFRS records the expense now but tax
 Flashcards for this section are as follows:
 
 - deductible temporary difference: usual story line ::@:: IFRS recognizes the expense earlier than tax does, so the company has a future deduction still waiting to be used.
-- warranty accrual: why does it create a deferred tax asset? ::@:: Because the warranty expense is already recognized under IFRS, but tax law waits until warranty claims are actually paid before allowing the deduction.
+- warranty accrual: why does it create a deferred tax asset? ::@:: Because the warranty expense is already recognized under IFRS, but tax law waits until warranty claims are actually paid before allowing the deduction. <!--SR:!2026-05-21,4,277!2000-01-01,1,250-->
 - Cunningham: &#36;500&nbsp;000 warranty accrual, 40% rate → DTA = ? ::@:: &#36;500&nbsp;000 × 40% = &#36;200&nbsp;000; income tax expense = payable &#36;800&nbsp;000 − DTA &#36;200&nbsp;000 = &#36;600&nbsp;000.
 
 ### non-recognition and later reversal
@@ -378,7 +378,7 @@ Flashcards for this section are as follows:
 - why can current tax payable be lower than income tax expense? ::@:: Because new taxable temporary differences can create deferred tax liabilities that add to current tax payable to produce total tax expense.
 - current plus deferred: why is this phrase so central? ::@:: Because this deferred-tax topic allocates the tax consequences of timing differences across periods instead of treating tax expense as the same thing as the current tax return.
 - current-plus-deferred example: what creates the deferred tax liability? ::@:: The installment-sale profit recognized for IFRS now but taxed later, because it creates future taxable amounts.
-- current-plus-deferred example: what creates the deferred tax asset? ::@:: The warranty accrual recognized now for IFRS but deductible only when paid later, because it creates future deductible amounts.
+- current-plus-deferred example: what creates the deferred tax asset? ::@:: The warranty accrual recognized now for IFRS but deductible only when paid later, because it creates future deductible amounts. <!--SR:!2000-01-01,1,250!2026-05-21,4,270-->
 - Linton: pretax ¥800&nbsp;000, perm diff ¥20&nbsp;000, warranty ¥60&nbsp;000 (DTA), installment ¥100&nbsp;000 (DTL), 25% rate → income tax expense = ? ::@:: Taxable income = ¥740&nbsp;000; current tax = ¥185&nbsp;000; DTA = ¥15&nbsp;000; DTL = ¥25&nbsp;000; expense = ¥185&nbsp;000 + ¥25&nbsp;000 − ¥15&nbsp;000 = ¥195&nbsp;000.
 
 ## future tax rates and revisions of deferred taxes
@@ -417,7 +417,7 @@ Flashcards for this section are as follows:
 - if a future tax rate has not yet been enacted, what rate is used? ::@:: The current rate.
 - enacted tax-rate change: what happens to existing deferred tax balances? ::@:: They are remeasured immediately, and the effect goes to income tax expense in the period of the change.
 - falling enacted future tax rates: what happens to a deferred tax liability? ::@:: It decreases because the future taxable amounts will now be taxed at a lower rate.
-- falling enacted future tax rates: what happens to income tax expense when a deferred tax liability is revised downward? ::@:: Income tax expense decreases.
+- falling enacted future tax rates: what happens to income tax expense when a deferred tax liability is revised downward? ::@:: Income tax expense decreases. <!--SR:!2026-05-20,3,257!2000-01-01,1,250-->
 - enacted increase in future tax rates: what happens to a deferred tax asset? ::@:: It increases because future deductible amounts now save more tax, so income tax expense decreases.
 
 ## loss carryforwards and carrybacks
@@ -455,7 +455,7 @@ When the company later earns taxable income and uses the carryforward, the defer
 > | {@{Deferred tax asset}@} | | {@{40&nbsp;000}@} |
 > | {@{Income taxes payable}@} | | {@{10&nbsp;000}@} |
 >
-> _Explanation._ The deferred tax asset is {@{used up in the profitable year}@}; the tax benefit was recognized earlier, so only the reversal appears now.
+> _Explanation._ The deferred tax asset is {@{used up in the profitable year}@}; the tax benefit was recognized earlier, so only the reversal appears now. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250-->
 
 ---
 
@@ -505,7 +505,7 @@ The course appendix example uses the following ordering rule:
 > | {@{Deferred tax asset}@} | | {@{40&nbsp;000}@} |
 > | {@{Income taxes payable}@} | | {@{10&nbsp;000}@} |
 >
-> _Explanation._ The first entry is a {@{catch-up recognition of the deferred tax asset}@}; the second entry is the normal profitable-year reversal of that same asset.
+> _Explanation._ The first entry is a {@{catch-up recognition of the deferred tax asset}@}; the second entry is the normal profitable-year reversal of that same asset. <!--SR:!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2026-05-21,4,270!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250!2000-01-01,1,250-->
 
 If part of the loss is still available for future years and realization is probable, the company also records a deferred tax asset for the carryforward portion.
 
@@ -574,7 +574,7 @@ Flashcards for this section are as follows:
 - deferred tax presentation in this course: how are deferred tax balances generally classified? ::@:: As non-current.
 - comprehensive tax workflow: what is the final combination step? ::@:: Combine current tax payable with the deferred tax effect to arrive at total income tax expense.
 - comprehensive tax entry: why can both a deferred tax asset and deferred tax liability appear in the same journal entry? ::@:: Because different temporary differences can create future deductible amounts and future taxable amounts at the same reporting date, so the company records both pieces together with current tax payable.
-- Comprehensive entry: pretax ¥412&nbsp;000, current tax ¥50&nbsp;000, DTL ¥186&nbsp;400, DTA ¥62&nbsp;400 → income tax expense = ? ::@:: ¥50&nbsp;000 + ¥186&nbsp;400 − ¥62&nbsp;400 = ¥174&nbsp;000.
+- Comprehensive entry: pretax ¥412&nbsp;000, current tax ¥50&nbsp;000, DTL ¥186&nbsp;400, DTA ¥62&nbsp;400 → income tax expense = ? ::@:: ¥50&nbsp;000 + ¥186&nbsp;400 − ¥62&nbsp;400 = ¥174&nbsp;000. <!--SR:!2000-01-01,1,250!2026-05-21,4,270-->
 
 ## intraperiod tax allocation
 
