@@ -30,6 +30,36 @@ Flashcards for this section are as follows:
 - ESG: examples of governance issues ::@:: Board structure and oversight, internal control and risk management, anti–corruption and anti–bribery policies and procedures.
 - ESG in this course: main focus ::@:: Understand what ESG means, why it affects risk and valuation, and how it is reported and regulated in Hong Kong, rather than computing detailed emission factors.
 
+## international ESG frameworks
+
+Several international frameworks shape ESG disclosure practice globally. Although the Hong Kong regime (HKEx and HKFRS S1/S2) is the primary focus in this course, these global frameworks provide the conceptual foundation that Hong Kong standards draw on:
+
+| Framework | Full name | Key focus |
+| --- | --- | --- |
+| GRI | Global Reporting Initiative | Stakeholder-focused; broadest international standard covering environment, social, and governance KPIs in detail |
+| TCFD | Task Force on Climate-related Financial Disclosures | Climate-specific; four-pillar disclosure structure (governance, strategy, risk management, metrics & targets) |
+| SASB | Sustainability Accounting Standards Board | Industry-specific standards; emphasises financial materiality for investors |
+| ISSB | International Sustainability Standards Board (IFRS Foundation) | Investor-focused; publishes IFRS S1 (general sustainability) and IFRS S2 (climate); incorporates and supersedes TCFD |
+
+__IFRS S2 and the TCFD four pillars.__ IFRS S2 (and its Hong Kong equivalent HKFRS S2) organises climate-related disclosures around four pillars developed originally by TCFD:
+
+1. __Governance__ — how the board and management oversee climate-related risks and opportunities.
+2. __Strategy__ — actual and potential impacts on the business model, strategy, and financial planning, including scenario analysis.
+3. __Risk management__ — processes for identifying, assessing, and managing climate-related risks.
+4. __Metrics and targets__ — quantitative measures (e.g. Scope 1, 2, and 3 greenhouse gas emissions) and targets used to assess climate performance.
+
+__Financial materiality vs double materiality.__ The ISSB/HKFRS approach is based on __financial materiality__: report ESG issues that are material to the company's own financial performance and position (the investor perspective). By contrast, the EU's Corporate Sustainability Reporting Directive (CSRD) requires __double materiality__: companies must also report on how their activities affect the environment and society (the "inside-out" impact perspective), in addition to how ESG issues affect the company financially ("outside-in"). Hong Kong and HKFRS S1/S2 use financial materiality only.
+
+---
+
+Flashcards for this section are as follows:
+
+- international ESG frameworks: four main names ::@:: GRI (Global Reporting Initiative), TCFD (Task Force on Climate-related Financial Disclosures), SASB (Sustainability Accounting Standards Board), and ISSB (International Sustainability Standards Board).
+- TCFD / IFRS S2: four disclosure pillars ::@:: (1) Governance — board and management oversight; (2) Strategy — impacts on business model and plans; (3) Risk management — identifying and assessing climate risks; (4) Metrics and targets — quantitative performance data.
+- financial materiality vs double materiality ::@:: Financial materiality (ISSB/HKFRS): report ESG issues that affect the company's own finances (investor perspective). Double materiality (EU CSRD): also report the company's impacts on environment and society (impact perspective). HKFRS S1/S2 use financial materiality only.
+- SASB vs GRI: key difference ::@:: SASB is industry-specific and investor-focused (financial materiality); GRI is broader and stakeholder-focused, covering the full range of ESG societal and environmental impacts.
+- why ISSB/IFRS S2 incorporates TCFD ::@:: ISSB built IFRS S2 on TCFD's four-pillar framework to provide a globally consistent, investor-focused baseline for climate disclosure, streamlining the landscape of climate reporting frameworks.
+
 ## why ESG matters
 
 ESG matters because ignoring it creates real economic risks. On the environmental side, climate change has led to more frequent and severe extreme weather (e.g. stronger typhoons, heavy rainfall and flooding), which can physically damage assets and interrupt operations. On the social side, trends such as population ageing and high accident or fatality rates in certain industries affect workforce availability, productivity, and legal liabilities. On the governance side, corruption or bribery cases can lead to prosecution (e.g. ICAC cases in Hong Kong), large fines, and long‑lasting reputational damage.
@@ -233,13 +263,14 @@ Two current standards matter in the slides:
 
 The big idea is integration. Rather than treating sustainability reporting as a separate marketing-style appendix, these standards push companies to explain sustainability-related __risks and opportunities__ in a way that connects to governance, strategy, risk management, and financial effects.
 
-HKFRS S2 is climate-specific, so it focuses on issues such as:
+HKFRS S2 is climate-specific and organises disclosures around the same four pillars as IFRS S2 and the underlying TCFD framework:
 
-- governance over climate matters;
-- climate-related strategy;
-- physical and transition risks;
-- targets and metrics such as emissions; and
-- how climate issues may affect cash flows, financing, and asset values.
+1. __Governance__ — board and management oversight of climate-related risks and opportunities.
+2. __Strategy__ — actual and potential impacts of climate risks and opportunities on the business model, strategy, and financial planning (including climate scenario analysis).
+3. __Risk management__ — how climate-related risks are identified, assessed, prioritised, and integrated into the company's overall risk management process.
+4. __Metrics and targets__ — quantitative measures (e.g. Scope 1, 2, and 3 GHG emissions) and the targets set to manage climate performance.
+
+Under HKFRS S2, companies must also disclose how climate issues may affect cash flows, financing costs, and asset values. A significant development is that from __August 2025__, following new standards published in December 2024, __all companies in Hong Kong__ (not just listed companies) are required to report sustainability-related financial information under HKFRS S1 and HKFRS S2. This extension means ESG and sustainability reporting is no longer limited to public markets.
 
 For exam purposes, the important takeaway is that ESG disclosure in Hong Kong is moving toward __more structured, decision-useful, and financially connected__ reporting, with climate disclosure receiving especially strong emphasis.
 
@@ -247,7 +278,8 @@ For exam purposes, the important takeaway is that ESG disclosure in Hong Kong is
 
 Flashcards for this section are as follows:
 
-- HKFRS S1: focus ::@:: General requirements for disclosure of sustainability-related financial information.
-- HKFRS S2: focus ::@:: Climate-related disclosures.
-- what is the main reporting shift signalled by HKFRS S1 and S2? ::@:: Sustainability reporting is being integrated more closely with governance, strategy, risk management, and financial reporting rather than treated as a separate public-relations document.
-- HKFRS S2: common disclosure themes ::@:: Governance, strategy, climate-related physical and transition risks, and climate metrics and targets.
+- HKFRS S1: focus ::@:: General requirements for disclosure of sustainability-related financial information; applies to all companies in Hong Kong from August 2025.
+- HKFRS S2: focus ::@:: Climate-related disclosures; structured around four pillars (governance, strategy, risk management, metrics and targets) aligned with TCFD.
+- HKFRS S2: four disclosure pillars ::@:: (1) Governance — board and management oversight of climate risks; (2) Strategy — impacts on business model and financial planning; (3) Risk management — identifying and assessing climate risks; (4) Metrics and targets — quantitative performance data such as Scope 1, 2, and 3 emissions.
+- what is the main reporting shift signalled by HKFRS S1 and S2? ::@:: Sustainability reporting is being integrated more closely with governance, strategy, risk management, and financial reporting rather than treated as a separate public-relations document; and coverage is extending from listed companies to all companies.
+- who must comply with HKFRS S1 and S2 from August 2025? ::@:: All companies in Hong Kong — not just listed companies — following new standards published in December 2024.
