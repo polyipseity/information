@@ -5,7 +5,16 @@
  * Standardize merge commit messages when merging into a `forks/*` branch.
  *
  * Usage:
- *   bun scripts/prepare-commit-msg.mjs <commitMsgFile> <commitSource>
+ *   bun scripts/prepare-commit-msg.mjs <commitMsgFile>
+ *
+ * Arguments / environment:
+ * - commitMsgFile (argv[2]): path to the file containing the current commit
+ *   message (always passed by Git / prek).
+ * - commitSource: the Git commit source string (`merge`, `template`, etc.).
+ *   When called directly (e.g. from tests) it may be supplied as argv[3].
+ *   When called via prek it is available in the env var
+ *   `PRE_COMMIT_COMMIT_MSG_SOURCE`.  Both are checked; argv[3] takes
+ *   precedence to preserve direct-invocation compatibility.
  *
  * Behavior:
  * - If `commitSource !== 'merge'` the hook exits with code 0 (no-op).
@@ -16,6 +25,8 @@
  *   is used as a sensible default.
  *
  * Environment:
+ * - PRE_COMMIT_COMMIT_MSG_SOURCE: commit source string, set by prek for
+ *   `prepare-commit-msg` stage hooks (fallback when argv[3] is absent).
  * - Set `HUSKY_DEBUG=1` to enable debug logging to stderr.
  *
  * Implementation notes:
@@ -27,7 +38,12 @@ import { readFileSync, writeFileSync } from "fs";
 import { execSync } from "child_process";
 import path from "path";
 
-const [, , commitMsgFile, commitSource] = process.argv;
+const [, , commitMsgFile] = process.argv;
+// prek (pre-commit) passes the Git commit-source arg via an env var for
+// `prepare-commit-msg` stage hooks, not as argv[3].  Fall back to the env
+// var so the hook works whether invoked directly or through prek.
+const commitSource =
+  process.argv[3] ?? process.env.PRE_COMMIT_COMMIT_MSG_SOURCE ?? "";
 
 function debug(msg) {
   if (process.env.HUSKY_DEBUG === "1")
@@ -162,7 +178,20 @@ if (
   import.meta.url === `file://${process.argv[1]}` ||
   (process.argv[1] && process.argv[1].endsWith(".mjs"))
 ) {
-  main();
+  try {
+    main();
+  } catch (err) {
+    console.error("\n========================================");
+    console.error(
+      "WARNING: prepare-commit-msg hook encountered an unexpected error.",
+    );
+    console.error(
+      "The merge/commit will continue but the message may not be standardized.",
+    );
+    console.error(`Error: ${err && err.message ? err.message : String(err)}`);
+    console.error("========================================\n");
+    process.exit(0);
+  }
 }
 
 export {
