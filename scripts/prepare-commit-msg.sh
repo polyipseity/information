@@ -1,7 +1,10 @@
 #!/usr/bin/env sh
-# Husky prepare-commit-msg hook (wrapper)
-# For cross-platform compatibility we forward to the Node implementation in
-# `.husky/prepare-commit-msg.js` so logic is easier to maintain.
+# scripts/prepare-commit-msg.sh
+# Wrapper for the prepare-commit-msg hook.
+# Checks for bun availability and runs the mjs script if available.
+# If bun is not available, prints a warning but does not block the commit.
+
+set -e
 
 BUN_CMD=bun
 
@@ -19,8 +22,7 @@ EOF
 fi
 
 SCRIPT_DIR=$(dirname "$0")
-# Use the ESM module file ('.mjs') because this repo uses "type": "module" in package.json.
-"$BUN_CMD" "$SCRIPT_DIR/prepare-commit-msg.mjs" "$@" 2>&1 | sed 's/^/[prepare-commit-msg] /' >&2 || {
+if ! "$BUN_CMD" "$SCRIPT_DIR/prepare-commit-msg.mjs" "$@" 2>&1; then
   cat <<'EOF' >&2
 ========================================
 WARNING: prepare-commit-msg hook failed to set a standardized commit message.
@@ -28,6 +30,6 @@ You can still proceed with the merge; manually adjust the merge commit message
 if you want. Check the hook output above for details.
 ========================================
 EOF
-}
+fi
 
 exit 0

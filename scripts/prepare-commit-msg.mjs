@@ -1,11 +1,11 @@
 #!/usr/bin/env bun
 /**
- * .husky/prepare-commit-msg.mjs
+ * scripts/prepare-commit-msg.mjs
  * ---------------------------------
  * Standardize merge commit messages when merging into a `forks/*` branch.
  *
  * Usage:
- *   bun .husky/prepare-commit-msg.mjs <commitMsgFile> <commitSource>
+ *   bun scripts/prepare-commit-msg.mjs <commitMsgFile> <commitSource>
  *
  * Behavior:
  * - If `commitSource !== 'merge'` the hook exits with code 0 (no-op).
@@ -20,7 +20,7 @@
  *
  * Implementation notes:
  * - Functions are small and exported for easier unit testing and maintenance.
- * - Keeps synchronous operations for Husky hook predictability.
+ * - Keeps synchronous operations for git hook predictability.
  */
 
 import { readFileSync, writeFileSync } from "fs";
