@@ -1213,7 +1213,7 @@ def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
                     errors.append(
                         ValidationMessage(
                             rule_id="header_style",
-                            msg="header normally start lowercase; suppressions are allowed only **for proper nouns** (person names, brands, acronyms).  Do **not** ignore this rule for ordinary section titles.",
+                            msg="header normally start lowercase. Preserve proper nouns and acronyms that genuinely require capitalization (for example PWM, LDR, IR, XOR, and XNOR); suppress this rule for those cases instead of lowercasing them. Do **not** suppress it for ordinary section titles.",
                             severity=Severity.WARNING,
                             line=line,
                             col=col,
