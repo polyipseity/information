@@ -1,11 +1,11 @@
 #!/usr/bin/env bun
 /**
- * scripts/prepare-commit-msg.mjs
+ * scripts/standardize-fork-merge-message.mjs
  * ---------------------------------
  * Standardize merge commit messages when merging into a `forks/*` branch.
  *
  * Usage:
- *   bun scripts/prepare-commit-msg.mjs <commitMsgFile>
+ *   bun scripts/standardize-fork-merge-message.mjs <commitMsgFile>
  *
  * Arguments / environment:
  * - commitMsgFile (argv[2]): path to the file containing the current commit
@@ -47,7 +47,7 @@ const commitSource =
 
 function debug(msg) {
   if (process.env.HUSKY_DEBUG === "1")
-    console.error(`[prepare-commit-msg] ${msg}`);
+    console.error(`[standardize-fork-merge-message] ${msg}`);
 }
 
 /**

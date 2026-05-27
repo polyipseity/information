@@ -107,7 +107,7 @@ hooks = [
   # Standardize merge commit messages when merging into forks/* branches.
   # Detects the merge source ref and formats the message as `chore(sync): merge from <branch>`.
   # Gracefully skips if bun is unavailable or if not on a forks/* branch.
-  { id = "prepare-commit-msg", name = "prepare commit message", entry = "bun run scripts/prepare-commit-msg.mjs", language = "system", stages = [
+  { id = "standardize-fork-merge-message", name = "standardize fork merge message", entry = "bun run scripts/standardize-fork-merge-message.mjs", language = "system", stages = [
     "prepare-commit-msg",
   ], pass_filenames = false, always_run = false },
 ]
