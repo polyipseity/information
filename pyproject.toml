@@ -20,15 +20,15 @@ dependencies = [
   "jaraco.clipboard>=3.1.0",
   "json5>=0.14.0",
   "markdown>=3.6.0",
-  "numpy>=2.0.0",
+  "numpy>=2.4.6",
   "pyperclip>=1.9.0",
   "pyarchivist>=3.0.0",
-  "pydantic>=2.13.1",
+  "pydantic>=2.13.4",
   "pydantic-yaml>=1.6.0",
   "pytextgen>=9.0.0",
   "pyyaml>=6.0.0",
   "rich>=15.0.0",
-  "yarl>=1.9.0",
+  "yarl>=1.24.2",
 ]
 
 [project.optional-dependencies]
@@ -36,18 +36,18 @@ scripts = [
   "anyio>=3.6.0",
   "asyncer>=0.0.17",
   "beautifulsoup4>=4.12.0",
-  "matplotlib>=3.9.0",
-  "numpy>=2.0.0",
+  "matplotlib>=3.10.9",
+  "numpy>=2.4.6",
   "opencv-python>=4.13.0",
-  "pandas>=3.0.0",
+  "pandas>=3.0.3",
   "pillow>=10.3.0",
   "pyperclip>=1.9.0",
-  "requests>=2.32.0",
+  "requests>=2.34.2",
   "schemdraw[matplotlib,svgmath]>=0.22",
 ]
 uvloop = [
   "uvloop>=0.22.0; platform_system != 'Windows'",
-  "winloop>=0.6.2; platform_system == 'Windows'",
+  "winloop>=0.6.3; platform_system == 'Windows'",
 ]
 
 [project.scripts]
@@ -57,12 +57,12 @@ repository = "https://github.com/polyipseity/information.git"
 
 [dependency-groups]
 dev = [
-  "hypothesis>=6.152.1",
+  "hypothesis>=6.155.0",
   "pytest>=9.0.3",
   "pytest-cov>=7.0.0",
   "pytest-xdist>=3.8.0",
-  "ruff>=0.15.10",
-  "ty>=0.0.31",
+  "ruff>=0.15.15",
+  "ty>=0.0.40",
 ]
 scripts = ["information-beb48618-576e-45ea-bd50-9e47279f88dc[scripts]"]
 uvloop = ["information-beb48618-576e-45ea-bd50-9e47279f88dc[uvloop]"]
