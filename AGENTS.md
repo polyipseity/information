@@ -67,15 +67,15 @@ For detailed workflows, see [core-workflows.instructions.md](.agents/instruction
 - Use `pyproject.toml` as the authoritative dependency source for Python. Do **not** reintroduce a long-lived `requirements.txt`; it is only a transient compatibility helper at best and the canonical metadata is maintained in `pyproject.toml`'s `[project]` and `[dependency-groups]` sections.
 - Keep runtime dependencies in `[project].dependencies`, developer/test tools in `[dependency-groups].dev`, and the full union of dependencies referenced by inline `# /// script` metadata in `[dependency-groups].scripts` even when a package also appears in `[project].dependencies`.
 - For inline `# /// script` metadata: (1) all files **must** begin with `#!/usr/bin/env python` shebang on line 1, (2) keep keys alphabetized (`dependencies`, `requires-python`, `timestamp`), (3) set `requires-python = ">=3.13.0"`.
-  - `bun install` runs the `postinstall` hook which executes `uv sync` to install development extras declared under `[dependency-groups].dev`. Run `bun install` and then `bun run prepare` to install deps and register Husky hooks locally.
-- Formatting & linters: Use `prettier`, `markdownlint-cli2`, `ty`, and `ruff`. Ruff replaces Black and isort for code formatting and import sorting. `lint-staged` is configured to run relevant formatters/linters on staged files and Husky hooks enforce pre-commit and pre-push checks.
+  - `bun install` runs the `postinstall` hook which executes `uv sync` to install development extras declared under `[dependency-groups].dev`. Run `bun install` and then `bun run prepare` to install deps and register `prek.toml` hooks locally.
+- Formatting & linters: Use `prettier`, `markdownlint-cli2`, `ty`, and `ruff`. Ruff replaces Black and isort for code formatting and import sorting. Git hooks are managed by `prek.toml` (pre-commit, commit-msg, pre-push).
 - **Python entry points**: All Python scripts and modules must follow a strict convention for runnable entry points. See `.agents/instructions/python-entry-points.instructions.md` for comprehensive guidance on the `__name__ == "__main__"` pattern, async dispatch with `runnify`, and integration with Asyncer.
 - Testing conventions:
   - Tests are placed under `tests/` and must mirror the working tree structure where applicable (for example, `scripts/foo.py` → `tests/scripts/test_foo.py`).
   - Use `pytest` (config in `pyproject.toml`) and name tests `test_*.py`. Use `pytest.mark.anyio` for async tests with the AnyIO plugin and prefer deterministic fixtures (use `monkeypatch`, `tmp_path: os.PathLike[str]` and the `conftest.py` fixtures provided). When writing tests, annotate the `tmp_path` fixture as `PathLike[str]` where possible and, when converting path-like objects to strings, **always** use `os.fspath(path_like)` rather than `str(path_like)` so the filesystem path protocol is correctly respected. Prefer importing concurrency helpers from Asyncer (`create_task_group`, `soonify`, `asyncify`) instead of calling `anyio.create_task_group` directly.
   - Include tests for all substantive behavior changes, especially for scripts and tools (`scripts/` and `scripts/`). Add tests that exercise error paths and edge cases.
-  - CI and local pre-push both run the test suite: Husky `pre-push` runs `bun run test` which invokes `uv run --locked pytest`. The GitHub Actions CI runs `bun install --frozen-lockfile --ignore-scripts && uv sync --locked` and then `bun run check` and `bun run test` to validate changes.
-- Type checking: The repo uses `ty` configured via `[tool.ty]` in `pyproject.toml`. Run `uv run --locked ty check` as part of local checks and in lint-staged if appropriate.
+  - CI and local pre-push both run the test suite: `prek` `pre-push` runs `bun run test` which invokes `uv run --locked pytest`. The GitHub Actions CI runs `bun install --frozen-lockfile --ignore-scripts && uv sync --locked` and then `bun run check` and `bun run test` to validate changes.
+- Type checking: The repo uses `ty` configured via `[tool.ty]` in `pyproject.toml`. Run `uv run --locked ty check` as part of local checks and pre-commit hooks.
   - Typing guidance: prefer PEP 585 built-in generics for concrete collections (for example `list[str]`, `dict[str, int]`) and use `collections.abc` abstract base classes for interface/parameter annotations (for example `collections.abc.Sequence[str]`, `collections.abc.Mapping[str, int]`, `collections.abc.Iterable[str]`). Avoid `typing.List`, `typing.Dict`, and `typing.Sequence` in new code. Keep `os.PathLike` for path-like types and use `os.fspath(path_like)` when converting to `str`.
 
 - Coverage: Use `pytest-cov` (pytest `addopts` includes `--cov=./`). Strive to add tests for new behavior; test coverage thresholds are recommended to be added as the project matures.
@@ -89,14 +89,14 @@ Install Node.js dependencies, register Git hooks, and install Python dev extras:
 
 ```bash
 bun install            # installs node deps; runs `postinstall` hook which installs Python dev extras
-bun run prepare        # Activates Husky hooks (registers Git hooks)
+bun run prepare        # Installs prek hooks (registers Git hooks)
 ```
 
 Notes:
 
 - The repository uses `pyproject.toml` as the canonical Python dependency metadata. Development extras (dev dependency group) are installed by the `postinstall` script which runs `uv sync`. Ensure `pyproject.toml` lists dev dependencies under `[dependency-groups].dev`.
 - Remove `requirements.txt` — dependency management is consolidated in `pyproject.toml`. See the `core-workflows` instructions for migration steps.
-- Husky hooks and lint-staged enforce pre-commit checks (markdownlint, prettier, ruff for Python). A pre-push hook runs `bun run test` to prevent pushing failing tests.
+- `prek.toml` hooks enforce pre-commit checks (markdownlint, prettier, ruff for Python). A pre-push hook runs `bun run test` to prevent pushing failing tests.
 - Prefer using `bun run <script>` wrappers to ensure consistent, reproducible tool versions and to trigger package lifecycle hooks.
 
 **Tooling & scripts:** Prefer using `bun` script wrappers when available. Run `bun run <script>` from the repository root to ensure project-local tools and the lockfile are used.
@@ -106,7 +106,7 @@ Common scripts (see `package.json`):
 - `bun run check` — repository checks (runs `check:md`). When you later run `bun run check:md` (or `bun run format:md`) with explicit paths or filenames, always add `--no-globs` and list the exact files so the paths are treated literally and the entire workspace is not scanned.
 - `bun run format` — formatting helpers (runs `format:md`)
 - `bun run commitlint` — validate commit messages
-- `bun run prepare` — register Husky hooks
+- `bun run prepare` — install prek hooks
 
 This enables:
 

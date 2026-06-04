@@ -172,7 +172,11 @@ Also follow these rules:
 - Do not use chapter numbers as durable navigation, routing, or flashcard cues.
   Source decks, `.tmp` extracts, and temporary teaching materials may later
   disappear, so durable notes must refer to topic names, canonical note files,
-  and in-repo section links instead.
+  and in-repo section links instead. For the same reason, durable note prose
+  should not narrate its source context with wording such as _"in this
+  lecture"_, _"the tutorial sheet shows"_, _"the lab manual asks"_, or other
+  references to temporary delivery artifacts unless the artifact itself is the
+  subject of the note.
 - When tutorials, exams, or office-hours questions reveal a tricky question,
   edge case, or "what if" variant, absorb it into the canonical topic note
   under a descriptive subheading instead of leaving it in a detached collector
@@ -331,7 +335,7 @@ Use these defaults:
 - In softmax-regression notes, prefer the general target-distribution form before
   the one-hot special case; include the categorical cross-entropy derivation,
   the binary $C=2$ reduction, the shared gradient memory rule `prediction minus
-  target`, and numerical-stability advice such as logsumexp or max-shift.
+target`, and numerical-stability advice such as logsumexp or max-shift.
 - If a course has both `classification.md` and `logistic regression.md`, prefer
   putting performance metrics in `classification.md`, including binary and
   multiclass macro, micro, and weighted formulas.
@@ -411,9 +415,12 @@ then flashcards immediately after each section.
   specific instances as aliases of the general concept.
 - When linking to `general/`, use the canonical article title but do not create
   or edit the `general/` file as part of course-note work.
-- In course topic notes, omit redundant filename or title text from flashcard
-  prompts. Use local prompts such as `definition` or `Bayes theorem finite`, not
-  `probability measure / definition` unless nested context requires it.
+- In course topic notes, omit redundant filename, title, or delivery-context
+  text from both prose and flashcard prompts. Do not use source files, slide
+  decks, tutorial sheets, lab handouts, or temporary course artifacts as prose
+  scaffolding unless the artifact itself is the subject. Use local prompts such
+  as `definition` or `Bayes theorem finite`, not `probability measure /
+  definition` unless nested context requires it.
 
 ### Section-local flashcards
 
@@ -425,6 +432,10 @@ then flashcards immediately after each section.
   existing flashcards instead of spawning near-duplicates.
 - When the prose gains a substantial cluster of distinctions, examples, or
   counterexamples, add new flashcards instead of overstuffing one old card.
+- Do not insert explanatory prose between a section's horizontal rule (`---`)
+  and `Flashcards for this section are as follows:`. Place any new prose above
+  the `---` separator, or convert the clarification into flashcards, so the
+  flashcard heading always remains directly under the separator.
 
 ### Journal entry examples in accounting topic notes
 
@@ -442,7 +453,7 @@ collector.
   section.
 - Keep every journal-entry scenario, Dr/Cr table, and short calculation
   explanation above that section's local flashcard block. Once `Flashcards for
-  this section are as follows:` begins, the remainder of the section should be
+this section are as follows:` begins, the remainder of the section should be
   flashcards only until the next header.
 - Use markdown tables with right-aligned Dr/Cr columns.
 - Wrap the first-column header description and each account name in clozes.
@@ -514,7 +525,7 @@ rather than trying to make one page serve both goals.
   verbatim into the public page when a private archival page exists.
 - If only quiz timing or schedule metadata is known and the question content has
   not been archived yet, keep a minimal placeholder page in `questions/quiz
-  N.md` rather than opening a separate assignments stub. Make the placeholder
+N.md` rather than opening a separate assignments stub. Make the placeholder
   explicit about the missing archived content.
 - Private quiz pages should preserve the official prompt text as faithfully as
   practical, usually in blockquotes, together with the archived answer state.
@@ -604,7 +615,7 @@ Use these rules when the source is a Canvas assignment HTML page:
 - Normalize any Canvas-derived metadata value that contains a date, datetime,
   or duration into ISO 8601. Use timezone-aware ISO datetimes for point events
   such as `Due` or `locked at`; use an ISO datetime range and append `, <ISO
-  duration>` when both endpoints are known; use an ISO duration for pure
+duration>` when both endpoints are known; use an ISO duration for pure
   durations. If only the closing endpoint is known, prefer a key such as
   `- Available until: 2026-04-09T13:30:59+08:00` rather than a human-readable
   phrase. Canvas start timestamps should use seconds `:00`; Canvas end
@@ -612,7 +623,7 @@ Use these rules when the source is a Canvas assignment HTML page:
 - Apply that normalization to Canvas **metadata fields only**, not to the
   ordinary prose body of `## description`. Keep description prose verbatim even
   when it contains human-readable dates or times, such as `This assignment was
-  locked Mar 5 at 1:30pm.` or colored `Due on` notice text copied from Canvas.
+locked Mar 5 at 1:30pm.` or colored `Due on` notice text copied from Canvas.
   The normalized metadata bullets should carry the machine-readable timing,
   while the surrounding Canvas wording stays as originally shown.
 - For these assignment-style leaf indexes, use this section order:
@@ -655,6 +666,10 @@ When an assignment-style leaf folder also has companion pages such as
 - Keep companion-page prose and flashcards about pure knowledge only. Avoid
   workflow checklists, student expectations, assessment framing, or other
   logistics-like prose in `lab.md`, `prelab.md`, and similar pages.
+- Do not embed course-specific file references (filenames, submission scripts,
+  temporary handout names, or exported worksheet names) in durable companion-
+  page prose unless the file itself is the subject. Keep those references in
+  archive metadata, `attachments/`, or submission records instead.
 - When the source material includes concrete programming work such as MATLAB,
   companion pages should also preserve the local implementation knowledge:
   short code idioms, function choices, indexing patterns, plotting habits, and

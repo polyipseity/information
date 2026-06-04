@@ -402,7 +402,9 @@ An __installment note__ is repaid through periodic fixed payments, each covering
 > | ---: | ---: | ---: | ---: | ---: | ---: |
 > | {@{1}@} | {@{10&nbsp;000}@} | {@{1&nbsp;000}@} | {@{3&nbsp;021}@} | {@{4&nbsp;021}@} | {@{6&nbsp;979}@} |
 > | {@{2}@} | {@{6&nbsp;979}@} | {@{698}@} | {@{3&nbsp;323}@} | {@{4&nbsp;021}@} | {@{3&nbsp;656}@} |
-> | {@{3}@} | {@{3&nbsp;656}@} | {@{366}@} | {@{3&nbsp;655}@} | {@{4&nbsp;021}@} | {@{1}@} |
+> | {@{3}@} | {@{3&nbsp;656}@} | {@{365}@} | {@{3&nbsp;655}@} | {@{4&nbsp;021}@} | {@{0}@} |
+>
+> Note {@{the final interest}@} is {@{slightly adjusted to bring the balance to zero at maturity}@}.
 >
 > Year 1 journal entry:
 >
@@ -412,7 +414,7 @@ An __installment note__ is repaid through periodic fixed payments, each covering
 > | {@{Notes payable}@}              | {@{3&nbsp;021}@} |                  |
 > | {@{Cash}@}                       |                  | {@{4&nbsp;021}@} |
 >
-> _Explanation._ Unlike a bond, {@{there are no separate "discount" or "premium" accounts; each payment reduces the note's carrying amount by the principal repayment portion}@}. Interest decreases each period because it is applied to a {@{steadily shrinking principal balance}@}. A small rounding difference in the final period brings the balance to exactly {@{zero}@}. <!--SR:!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356-->
+> _Explanation._ Unlike a bond, there are no {@{separate "discount" or "premium" accounts; each payment reduces the note's carrying amount by the principal repayment portion}@}. {@{Interest decreases each period}@} because it is applied to a {@{steadily shrinking principal balance}@}. {@{A small rounding difference in the final period}@} brings {@{the balance to exactly zero}@}. <!--SR:!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356!2026-05-22,5,356-->
 
 ---
 
@@ -625,13 +627,15 @@ Flashcards for this section are as follows:
 >
 > Amortization schedule (at EIR ≈ 10%, starting from net proceeds 45&nbsp;608):
 >
-> | Year | Beginning CA | Cash coupon | Interest expense at 10% | Discount amortized | Ending CA |
-> | ---: | ---: | ---: | ---: | ---: | ---: |
-> | {@{2025}@} | {@{45&nbsp;608}@} | {@{4&nbsp;000}@} | {@{4&nbsp;561}@} | {@{561}@} | {@{46&nbsp;169}@} |
-> | {@{2026}@} | {@{46&nbsp;169}@} | {@{4&nbsp;000}@} | {@{4&nbsp;617}@} | {@{617}@} | {@{46&nbsp;786}@} |
-> | {@{2027}@} | {@{46&nbsp;786}@} | {@{4&nbsp;000}@} | {@{4&nbsp;679}@} | {@{679}@} | {@{47&nbsp;465}@} |
-> | {@{2028}@} | {@{47&nbsp;465}@} | {@{4&nbsp;000}@} | {@{4&nbsp;747}@} | {@{747}@} | {@{48&nbsp;212}@} |
-> | {@{2029}@} | {@{48&nbsp;212}@} | {@{4&nbsp;000}@} | {@{4&nbsp;788}@} | {@{1&nbsp;788}@} | {@{50&nbsp;000}@} |
+> |       Year |      Beginning CA |      Cash coupon | Interest expense at 10% | Discount amortized |         Ending CA |
+> | ---------: | ----------------: | ---------------: | ----------------------: | -----------------: | ----------------: |
+> | {@{2025}@} | {@{45&nbsp;608}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;561}@} |          {@{561}@} | {@{46&nbsp;169}@} |
+> | {@{2026}@} | {@{46&nbsp;169}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;617}@} |          {@{617}@} | {@{46&nbsp;786}@} |
+> | {@{2027}@} | {@{46&nbsp;786}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;679}@} |          {@{679}@} | {@{47&nbsp;465}@} |
+> | {@{2028}@} | {@{47&nbsp;465}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;747}@} |          {@{747}@} | {@{48&nbsp;212}@} |
+> | {@{2029}@} | {@{48&nbsp;212}@} | {@{4&nbsp;000}@} |        {@{5&nbsp;788}@} |   {@{1&nbsp;788}@} | {@{50&nbsp;000}@} |
+>
+> Note {@{the final interest expense}@} is {@{adjusted to ensure the ending carrying amount equals the face value at maturity}@}; this is {@{a common practice when using an approximate EIR}@} for simplicity.
 >
 > (a) Issuance on 1 January 2025:
 >

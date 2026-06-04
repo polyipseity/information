@@ -400,7 +400,9 @@ def test_header_style_generic():
     assert msgs
     assert msgs[0].severity == Severity.WARNING
     assert "lowercase" in msgs[0].msg
-    assert "proper noun" in msgs[0].msg
+    assert "proper nouns" in msgs[0].msg
+    assert "suppress" in msgs[0].msg
+    assert "PWM" in msgs[0].msg
 
 
 def test_header_flashcard_presence_applies_to_all_levels():

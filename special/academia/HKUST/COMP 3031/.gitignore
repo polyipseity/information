@@ -92,7 +92,7 @@ http-client.private.env.json
 hs_err_pid*
 # }
 
-# custom {
+# self {
 .bloop/
 .idea/
 project/
