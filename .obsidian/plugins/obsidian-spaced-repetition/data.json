@@ -64,7 +64,7 @@
     "openViewInNewTab": false,
     "openViewInNewTabMobile": false,
     "useCustomHotkeys": false,
-    "useCalloutsForSchedulingComments": true,
+    "useCalloutsForSchedulingComments": false,
     "algorithm": "FSRS",
     "baseEase": 250,
     "lapsesIntervalChange": 0.5,

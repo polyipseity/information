@@ -110,5 +110,5 @@ hooks = [
   # Gracefully skips if bun is unavailable or if not on a forks/* branch.
   { id = "standardize-fork-merge-message", name = "standardize fork merge message", entry = "bun run scripts/standardize-fork-merge-message.mjs", language = "system", stages = [
     "prepare-commit-msg",
-  ], pass_filenames = false, always_run = false },
+  ], pass_filenames = false, always_run = true },
 ]
