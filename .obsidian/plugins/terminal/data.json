@@ -6,7 +6,130 @@
   "exposeInternalModules": true,
   "focusOnNewInstance": true,
   "hideStatusBar": "focused",
+  "interceptKeysWhenFocused": true,
   "interceptLogging": true,
+  "keymappings": [
+    {
+      "action": "sendEscapeSequence",
+      "actionArg": "\r",
+      "alt": false,
+      "ctrl": false,
+      "key": "Enter",
+      "meta": false,
+      "platform": null,
+      "shift": true
+    },
+    {
+      "action": "scrollPages",
+      "actionArg": -1,
+      "alt": false,
+      "ctrl": false,
+      "key": "PageUp",
+      "meta": false,
+      "platform": null,
+      "shift": false
+    },
+    {
+      "action": "scrollPages",
+      "actionArg": 1,
+      "alt": false,
+      "ctrl": false,
+      "key": "PageDown",
+      "meta": false,
+      "platform": null,
+      "shift": false
+    },
+    {
+      "action": "scrollToTop",
+      "actionArg": null,
+      "alt": false,
+      "ctrl": false,
+      "key": "Home",
+      "meta": false,
+      "platform": null,
+      "shift": false
+    },
+    {
+      "action": "scrollToBottom",
+      "actionArg": null,
+      "alt": false,
+      "ctrl": false,
+      "key": "End",
+      "meta": false,
+      "platform": null,
+      "shift": false
+    },
+    {
+      "action": "sendEscapeSequence",
+      "actionArg": "b",
+      "alt": true,
+      "ctrl": false,
+      "key": "ArrowLeft",
+      "meta": false,
+      "platform": "darwin",
+      "shift": false
+    },
+    {
+      "action": "sendEscapeSequence",
+      "actionArg": "f",
+      "alt": true,
+      "ctrl": false,
+      "key": "ArrowRight",
+      "meta": false,
+      "platform": "darwin",
+      "shift": false
+    },
+    {
+      "action": "sendHexCode",
+      "actionArg": "01",
+      "alt": false,
+      "ctrl": false,
+      "key": "ArrowLeft",
+      "meta": true,
+      "platform": "darwin",
+      "shift": false
+    },
+    {
+      "action": "sendHexCode",
+      "actionArg": "05",
+      "alt": false,
+      "ctrl": false,
+      "key": "ArrowRight",
+      "meta": true,
+      "platform": "darwin",
+      "shift": false
+    },
+    {
+      "action": "sendHexCode",
+      "actionArg": "17",
+      "alt": true,
+      "ctrl": false,
+      "key": "Backspace",
+      "meta": false,
+      "platform": "darwin",
+      "shift": false
+    },
+    {
+      "action": "sendHexCode",
+      "actionArg": "15",
+      "alt": false,
+      "ctrl": false,
+      "key": "Backspace",
+      "meta": true,
+      "platform": "darwin",
+      "shift": false
+    },
+    {
+      "action": "sendEscapeSequence",
+      "actionArg": "d",
+      "alt": true,
+      "ctrl": false,
+      "key": "Delete",
+      "meta": false,
+      "platform": "darwin",
+      "shift": false
+    }
+  ],
   "language": "",
   "macOSOptionKeyPassthrough": true,
   "newInstanceBehavior": "newHorizontalSplit",
@@ -32,6 +155,7 @@
     },
     "c4f2db89-e11a-4693-b868-7f01ac3f0011": {
       "args": [],
+      "environment": [],
       "executable": "pwsh",
       "followTheme": true,
       "name": "PowerShell Core: Integrated",
@@ -56,6 +180,7 @@
     },
     "fb790b98-1a40-4686-8e0f-956f115ca551": {
       "args": [],
+      "environment": [],
       "executable": "pwsh",
       "followTheme": true,
       "name": "PowerShell Core: External",
