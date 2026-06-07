@@ -8,7 +8,7 @@
     "burySiblingCards": false,
     "flashcardCardOrder": "NewFirstRandom",
     "flashcardDeckOrder": "PrevDeckComplete_Random",
-    "convertClozePatternsToInputs": true,
+    "convertClozePatternsToInputs": false,
     "convertHighlightsToClozes": false,
     "convertBoldTextToClozes": false,
     "convertCurlyBracketsToClozes": false,
