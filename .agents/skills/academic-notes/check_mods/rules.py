@@ -1324,7 +1324,12 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
                     msg=(
                         f"header {hdr!r} has no flashcard markers in its section; "
                         "convert key sentences into cards and include any relevant "
-                        "diagrams or images from the paragraph above."
+                        "diagrams or images from the paragraph above. "
+                        "DO NOT suppress this error with the reason 'cards in parent "
+                        "section flashcard block' or any similar reason. Every section "
+                        "and subsection MUST have its own dedicated flashcard block — "
+                        "add a '---' separator and a 'Flashcards for this section are "
+                        "as follows:' block instead."
                     ),
                     line=line,
                     col=col,
@@ -1982,7 +1987,7 @@ def latex_spacing_after(ctx: ValidationContext) -> list[ValidationMessage]:
                 errors.append(
                     ValidationMessage(
                         rule_id="latex_spacing_after",
-                        msg="no space after closing dollar sign; add a space when text follows math",
+                        msg="no space after closing dollar sign; use '$x$-th' pattern (hyphen between math and text) when an ordinal suffix follows math e.g. '$n$-th' not '$n$th'",
                         line=line,
                         col=col,
                         col_end=col_end,
