@@ -1283,10 +1283,11 @@ def test_no_soft_wrap_list():
     msgs = no_soft_wrap_list(ctx)
     assert msgs and "soft-wrapped" in msgs[0].msg
 
-    # allowed list cases
+    # allowed list cases (consecutive items; intentional break via \\ or two spaces)
     for good in [
         "- first\n- second\n",
-        "- line1<br/>\nline2\n",
+        "- line1\\\nline2\n",
+        "- line1  \nline2\n",
     ]:
         assert not no_soft_wrap_list(make_ctx(good))
 
@@ -1294,6 +1295,16 @@ def test_no_soft_wrap_list():
     txt = "First line\nsecond line\n"
     ctx = make_ctx(txt)
     assert not no_soft_wrap_list(ctx)
+
+    # Soft-wrapped items separated by a blank line must both be flagged.
+    # Regression: the regex ^\s* consumed \n before the second item, causing
+    # body.find("\n", idx) to return idx (the same \n), producing an empty
+    # line that was silently skipped. The fix uses content_start computed
+    # via re.match(r"\s*", body[idx:]).end() to advance past consumed whitespace.
+    txt = "- item1\n  continuation\n\n- item2\n  continuation\n"
+    ctx = make_ctx(txt)
+    msgs = no_soft_wrap_list(ctx)
+    assert len(msgs) == 2
 
 
 def test_no_consecutive_source_newlines_rule():

@@ -2785,7 +2785,6 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
 
     - Lines inside fenced code blocks.
     - Lines ending with ``\\`` or ``  `` (intentional Markdown line breaks).
-    - Lines containing ``<br/>``, ``<p>``, or ``</p>`` (HTML line/paragraph breaks).
     - Breaks where the next line is a heading, list item, blank, or HTML comment.
     - Lines that are themselves list items (handled by ``no_soft_wrap_list``).
     - Table rows (``|`` ...) after stripping any number of blockquote markers
@@ -2817,9 +2816,6 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
 
         # Skip explicit Markdown line continuations (backslash or two trailing spaces).
         if line.endswith("\\") or line.endswith("  "):
-            continue
-        # Skip lines with HTML break/paragraph tags (intentional breaks).
-        if any(tag in line.rstrip() for tag in ("<br/>", "<p>", "</p>")):
             continue
         # Skip if next line starts a heading or a new list item (structural break).
         if re.match(r"^\s*(#{1,6}|[-*+]\s|\d+\.\s)", next_line):
@@ -2873,15 +2869,10 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
 def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag soft-wrapped list items (list line continued without a blank line).
 
-    Iterates every non-blank-line newline in the body.  When the current line
-    is a list item but the next line is not, that means the list item's text
-    has been soft-wrapped across lines instead of using ``<br/>`` or a blank
-    line.
-
-    Filters applied before the list check (same as ``no_soft_wrap_paragraph``):
-    code fences, empty lines, intentional line breaks (\\ or  ),
-    HTML break/paragraph tags, headings/new list starts, blank next lines,
-    and HTML comments.
+    Finds every list item and checks whether the next line is unstructured
+    prose (not blank, not a heading, not another list item, and not inside
+    a fenced code block).  Intentional Markdown line breaks (ending with
+    ``\\`` or two spaces) are allowed.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
@@ -2890,55 +2881,45 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
     body = text[body_start:]
 
     def in_code_fence(idx: int) -> bool:
-        """Return True if *idx* is within a fenced code block in *body*."""
         return body[:idx].count("```") % 2 == 1
 
-    # --- Pipeline: filter out non-soft-wrap breaks, then flag list-item violations ---
-    for m in re.finditer(r"\n(?!\n)", body):
+    for m in re.finditer(r"^\s*([-*+]|\d+\.)\s", body, re.MULTILINE):
         idx = m.start()
-        # Skip newlines inside fenced code blocks (content is literal).
         if in_code_fence(idx):
             continue
-        line_start = body.rfind("\n", 0, idx) + 1
-        line = body[line_start:idx]
-        # Skip if the current line is empty/whitespace-only.
-        if not line.strip():
-            continue
-        nxt_end = body.find("\n", idx + 1)
-        next_line = body[idx + 1 : nxt_end if nxt_end != -1 else None]
+        content_start = idx + re.match(r"\s*", body[idx:]).end()
+        eol = body.find("\n", content_start)
+        if eol == -1:
+            continue  # list item at end of file
+        line = body[content_start:eol]
 
-        # Skip explicit Markdown line continuations (backslash or two trailing spaces).
+        # Intentional Markdown line break (\\ or two trailing spaces).
         if line.endswith("\\") or line.endswith("  "):
             continue
-        # Skip lines with HTML break/paragraph tags (intentional breaks).
-        if any(tag in line.rstrip() for tag in ("<br/>", "<p>", "</p>")):
-            continue
-        # Skip if next line starts a heading or a new list item (structural break).
-        if re.match(r"^\s*(#{1,6}|[-*+]\s|\d+\.\s)", next_line):
-            continue
-        # Skip if next line is blank (the paragraph ends here).
+
+        # Next line.
+        nxt_start = eol + 1
+        nxt_end = body.find("\n", nxt_start)
+        next_line = body[nxt_start:nxt_end] if nxt_end != -1 else body[nxt_start:]
+
+        # Structural break: blank, heading, or another list item.
         if not next_line.strip():
             continue
-        # Skip HTML comment lines.
-        if line.strip().startswith("<!--"):
+        if re.match(r"^\s*(#{1,6}|[-*+]\s|\d+\.\s)", next_line):
             continue
-        # Only consider lines that are themselves list items.
-        if re.match(r"^\s*([-*+]|\d+\.)\s", line):
-            # If next line is also a list item, this is consecutive items, not a wrap.
-            if re.match(r"^\s*([-*+]|\d+\.)\s", next_line):
-                continue
-            # Current line is a list item, next line is unstructured prose — soft wrap.
-            abs_idx = body_start + line_start
-            line_no, col, col_end = locate_range(text, abs_idx, len(line))
-            errors.append(
-                ValidationMessage(
-                    rule_id="no_soft_wrap_list",
-                    msg="soft-wrapped list item detected; collapse it or use <br/>/<p> (sloppy formatting not permitted)",
-                    line=line_no,
-                    col=col,
-                    col_end=col_end,
-                )
+
+        # Next line is unstructured prose — soft wrap.
+        abs_idx = body_start + idx
+        line_no, col, col_end = locate_range(text, abs_idx, len(line))
+        errors.append(
+            ValidationMessage(
+                rule_id="no_soft_wrap_list",
+                msg="soft-wrapped list item detected; collapse it or use <br/>/<p> (sloppy formatting not permitted)",
+                line=line_no,
+                col=col,
+                col_end=col_end,
             )
+        )
     return errors
 
 
