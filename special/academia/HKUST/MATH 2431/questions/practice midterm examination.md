@@ -1,15 +1,15 @@
 ---
 aliases:
-    - HKUST MATH 2431 practice midterm
-    - HKUST MATH2431 practice midterm
-    - MATH 2431 practice midterm
-    - MATH2431 practice midterm
+    - HKUST MATH 2431 practice midterm examination
+    - HKUST MATH2431 practice midterm examination
+    - MATH 2431 practice midterm examination
+    - MATH2431 practice midterm examination
 tags:
-    - flashcard/active/special/academia/HKUST/MATH_2431/questions/practice_midterm
+    - flashcard/active/special/academia/HKUST/MATH_2431/questions/practice_midterm_examination
     - language/in/English
 ---
 
-# practice midterm
+# practice midterm examination
 
 - HKUST MATH 2431
 

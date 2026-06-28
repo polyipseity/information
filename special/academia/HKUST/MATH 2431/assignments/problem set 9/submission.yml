@@ -1,0 +1,36 @@
+assignment:
+  comments:
+    3766645:
+      attachments: []
+      author: '[redacted]'
+      content: 4(b) Chebyshev's bound part somewhere incorrect also should use symmetry.
+        -1
+      datetime: 2026-05-19 13:02:00-07:00
+      id: 3766645
+  content: 'Problem Set 9, due on Monday, 04/05/2026, until 13:30 (1:30 PM) Hong Kong
+    Time (UTC +8), to be uploaded on Canvas (note the extended deadline).
+
+    PS9.pdf
+
+
+
+
+    Download PS9.pdf'
+  grade:
+    entered: 7
+    graded anonymously: false
+    possible: 8
+  id: 432775
+  properties:
+    due: 2026-05-04 13:30:00-07:00
+    points: 8
+    submitting:
+    - a text entry box or a file upload
+  submissions:
+  - datetime: 2026-05-02 18:01:00-07:00
+    id: -1
+  title: Problem Set 9
+course:
+  id: 69402
+  name: MATH2431
+type: submission/Canvas/canvas.ust.hk

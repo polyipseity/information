@@ -1,0 +1,30 @@
+assignment:
+  comments: {}
+  content:
+    "Problem Set 4, due on Friday, 13/03/2026, until 13:30 (1:30 PM) Hong Kong
+    Time (UTC +8), to be uploaded on Canvas.
+
+    PS4.pdf
+
+
+
+
+    Download PS4.pdf"
+  grade:
+    entered: 8
+    graded anonymously: false
+    possible: 8
+  id: 427601
+  properties:
+    due: 2026-03-13 13:30:00-07:00
+    points: 8
+    submitting:
+      - a text entry box or a file upload
+  submissions:
+    - datetime: 2026-03-13 13:09:00-07:00
+      id: -1
+  title: Problem Set 4
+course:
+  id: 69402
+  name: MATH2431
+type: submission/Canvas/canvas.ust.hk

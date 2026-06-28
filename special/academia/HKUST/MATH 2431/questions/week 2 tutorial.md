@@ -37,7 +37,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > In an archer session, each round has three arrows and the session ends when one round hits the target three times. Build a sample space and identify $\bigcap_{n=1}^{\infty}A_n$, where $A_n$ is the event that the session lasts longer than $n$ rounds.
 >
-> Solution: Model each arrow by {@{$\{S,F\}$}@}, each round by {@{$\{S,F\}^3$}@}, and the whole experiment by {@{$(\{S,F\}^3)^{\mathbb{N}}$}@} with {@{stopping at first "SSS"}@}; this space contains {@{some extra infinite paths}@}, but that is {@{fine because it still describes every possible round-by-round history}@} and the stopping rule simply {@{ignores the impossible extra ones}@}. Since {@{$A_n$ means duration exceeds $n$ rounds}@}, the intersection over all $n$ is exactly the {@{infinite-duration event}@} {@{$\bigcap_{n=1}^{\infty}A_n=\{\text{no round is ever "SSS"}\}$}@}, i.e. the session {@{never terminates}@}.
+> Solution: Model each arrow by {@{$\{S,F\}$}@}, each round by {@{$\{S,F\}^3$}@}, and the whole experiment by {@{$(\{S,F\}^3)^{\mathbb{N}}$}@} with {@{stopping at first "SSS"}@}; this space contains {@{some extra infinite paths}@}, but that is {@{fine because it still describes every possible round-by-round history}@} and the stopping rule simply {@{ignores the probability-zero extra ones}@}. Since {@{$A_n$ means duration exceeds $n$ rounds}@}, the intersection over all $n$ is exactly the {@{infinite-duration event}@} {@{$\bigcap_{n=1}^{\infty}A_n=\{\text{no round is ever "SSS"}\}$}@}, i.e. the session {@{never terminates}@}.
 
 <!-- markdownlint MD028 -->
 

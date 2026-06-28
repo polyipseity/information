@@ -11,7 +11,7 @@ tags:
   - language/in/English
 ---
 
-# multiple integrals
+# multiple integral
 
 In this course the main reason for learning these facts is probabilistic: joint densities, region probabilities, and later change-of-variable arguments all rely on being able to integrate over rectangles and more general domains in $\mathbb{R}^n$. The basic picture is that one is no longer distributing probability mass along a line, but across areas, volumes, and higher-dimensional regions. Multiple integration is the language that turns that geometric mass picture into calculation.
 

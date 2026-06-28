@@ -17,7 +17,7 @@ A random variable is the device that lets us keep only the aspect of an experime
 
 Flashcards for this section are as follows:
 
-- random variable / overview ::@:: A random variable is a measurable function that extracts the quantity of interest from an experiment and thereby transfers probability from the original sample space to a simpler state space.
+- overview of a measurable observable ::@:: A random variable is a measurable function that extracts the quantity of interest from an experiment and thereby transfers probability from the original sample space to a simpler state space.
 
 ## sum of two dice
 
@@ -84,9 +84,29 @@ Another common misconception is that a discrete random variable must come from a
 The tutorial also emphasized that measurability is stable under countable pointwise extrema. If $(X_j)_{j\ge 1}$ is a sequence of real random variables, then both $\sup_j X_j$ and $\inf_j X_j$ are real random variables. Indeed, for every $x\in\mathbb{R}$,
 
 - $\{\sup_j X_j\le x\}=\bigcap_{j=1}^{\infty}\{X_j\le x\}$,
-- $\{\inf_j X_j\le x\}=\bigcup_{j=1}^{\infty}\{X_j\le x\}$,
+- $\{\inf_j X_j\le x\}=\bigcap_{k=1}^{\infty}\bigcup_{j=1}^{\infty}\{X_j\le x+1/k\}$, or dually $\inf_j X_j=-\sup_j(-X_j)$,
 
 and sigma-algebras are closed under countable intersections and unions. So once the individual random variables are measurable, the pointwise supremum and infimum remain measurable as well.
+
+**Remark (common pitfalls).** The naive formula $\bigcup_j\{X_j\le x\}$ for $\inf_jX_j\le x$ fails when the infimum is a limit point — for example $X_j=x+1/j$ gives LHS $=\Omega$ (since $\inf X_j=x$) but RHS $=\varnothing$ (no $X_j\le x$). The $\cap_k\cup_j$ formula (Approach A) corrects this by checking the condition within every margin $1/k$. Alternatively, duality $\inf X_j=-\sup(-X_j)$ (Approach B) avoids the direct formula altogether. The analogous pitfall for suprema would be $\{\sup_jX_j<x\}=\bigcap_j\{X_j<x\}$, which fails for $X_j=x-1/j$ (LHS $\varnothing$, RHS $\Omega$); the correct expression is $\{\sup_jX_j<x\}=\bigcup_k\bigcap_j\{X_j\le x-1/k\}$.
+
+**Topological perspective.** Since $X_j$ is measurable, $\{X_j<x\}=X_j^{-1}((-\infty,x))$ (preimage of an open set) and $\{X_j\le x\}=X_j^{-1}((-\infty,x])$ (preimage of a closed set) are always measurable. The topology of $\mathbb{R}$ dictates which set operations preserve measurability directly:
+
+- **Open intervals and $\inf$ with $<$.** The set $(-\infty,x)$ is open. If the infimum is strictly below $x$, some $X_j$ is also strictly below $x$:
+  $$\{\inf_j X_j<x\}=\bigcup_j\{X_j<x\}.$$
+  A countable union of open preimages — still open, hence measurable.
+- **Closed intervals and $\sup$ with $\le$.** The set $(-\infty,x]$ is closed. If every $X_j$ is at most $x$, then so is the supremum:
+  $$\{\sup_j X_j\le x\}=\bigcap_j\{X_j\le x\}.$$
+  A countable intersection of closed preimages — still closed, hence measurable.
+
+The pitfalls arise when the topological type of the interval doesn't match the set operation:
+
+- **$\inf$ with $\le$ (closed interval, wrong operation).** The naive $\bigcup_j\{X_j\le x\}$ fails because a union of closed preimages can miss limit points. Counterexample: $X_j=x+1/j$ gives $\inf_j X_j=x$ yet every $\{X_j\le x\}=\varnothing$, so the LHS $=\Omega$ but RHS $=\varnothing$. Fix: write $(-\infty,x]=\bigcap_k(-\infty,x+1/k)$ as a $G_\delta$ set (countable intersection of opens), yielding
+  $$\{\inf_j X_j\le x\}=\bigcap_k\bigcup_j\{X_j\le x+1/k\}.$$
+  The outer $\bigcap_k$ supplies the $\varepsilon$ margin that the naive union missed.
+- **$\sup$ with $<$ (open interval, wrong operation).** Dually, $\bigcap_j\{X_j<x\}$ fails because an intersection of open preimages need not be open. Counterexample: $X_j=x-1/j$ gives $\sup_j X_j=x$ yet every $\{X_j<x\}=\Omega$, so LHS $=\varnothing$ but RHS $=\Omega$. Fix: write $(-\infty,x)=\bigcup_k(-\infty,x-1/k]$ as an $F_\sigma$ set (countable union of closeds), yielding
+  $$\{\sup_j X_j<x\}=\bigcup_k\bigcap_j\{X_j\le x-1/k\}.$$
+  The outer $\bigcup_k$ supplies the margin.
 
 Two important subclasses are worth stating formally. A real random variable $X$ is called _discrete_ if its image $\Omega_X$ is countable. It is called _continuous_, in the sense used in these notes, if its law admits a density with respect to Lebesgue measure.
 
@@ -101,9 +121,32 @@ Flashcards for this section are as follows:
 - counterexample showing not every function into $\mathbb{R}$ is measurable ::@:: Counterexample: take $\Omega=\mathbb{R}$, $\mathcal{F}=\{\varnothing,\mathbb{R}\}$, and $X(\omega)=\omega$. Then $\{X\le 0\}=(-\infty,0]$, which is not an event in $\mathcal{F}$, so $X$ is not a random variable.
 - counterexample showing a discrete random variable need not come from a countable sample space ::@:: Counterexample: on the uncountable sample space $\Omega=[0,1]$, the function $X(\omega)=\mathbf{1}_{[1/2,1]}(\omega)$ takes only the two values $0$ and $1$, so $X$ is discrete even though $\Omega$ is uncountable. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - pointwise supremum of real random variables ::@:: For $Y=\sup_jX_j$, the half-line criterion says check $\{Y\le x\}$; this means every coordinate is at most $x$, so $\{\sup_j X_j\le x\}=\bigcap_{j=1}^{\infty}\{X_j\le x\}$, measurable by countable-intersection closure. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- pointwise infimum of real random variables ::@:: For $Y=\inf_jX_j$, the half-line criterion says check $\{Y\le x\}$; this means at least one coordinate is at most $x$, so $\{\inf_j X_j\le x\}=\bigcup_{j=1}^{\infty}\{X_j\le x\}$, measurable by countable-union closure. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- pointwise infimum of real random variables ::@:: For $Y=\inf_jX_j$, measurability follows either by duality $\inf_jX_j=-\sup_j(-X_j)$ or via $\{\inf_jX_j\le x\}=\bigcap_k\bigcup_j\{X_j\le x+1/k\}$ (countable operations preserve measurability). The naive formula $\bigcup_j\{X_j\le x\}$ misses limit points. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- counterexample: naive infimum formula fails ::@:: For $X_j=x+1/j$, $\inf_jX_j=x$ but no $X_j\le x$; hence $\bigcup_j\{X_j\le x\}=\varnothing$ while $\{\inf_jX_j\le x\}=\Omega$. The correct formula $\bigcap_k\bigcup_j\{X_j\le x+1/k\}$ captures limit points via $\varepsilon$ margins. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- topological perspective: infimum measurability ::@:: $\{\inf_j X_j<x\}=\bigcup_j\{X_j<x\}$ (open $(-\infty,x)$, union preserves openness); $\{\inf_j X_j\le x\}=\bigcap_k\bigcup_j\{X_j\le x+1/k\}$ because $(-\infty,x]$ is closed — the naive union of closed preimages misses limit points like $X_j=x+1/j$.
+- topological perspective: supremum measurability ::@:: $\{\sup_j X_j\le x\}=\bigcap_j\{X_j\le x\}$ (closed $(-\infty,x]$, intersection preserves closedness); $\{\sup_j X_j<x\}=\bigcup_k\bigcap_j\{X_j\le x-1/k\}$ because $(-\infty,x)$ is open — the naive intersection of open preimages fails dually for $X_j=x-1/j$.
 - discrete real random variable / definition ::@:: A real random variable is discrete if its image $\Omega_X$ is countable, so only countably many values can actually occur. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - continuous real random variable / definition used in these notes ::@:: In these notes, a real random variable is called continuous if its law admits a density with respect to Lebesgue measure.
+
+## sigma-algebra generated by a random variable
+
+For a real random variable $X$, the sigma-algebra generated by $X$ is $\sigma(X)=\{X^{-1}(B):B\in\mathcal B(\mathbb R)\}$.
+
+This is the smallest sigma-algebra on $\Omega$ with respect to which $X$ is measurable.
+
+**Proof.** Preimages preserve complements and countable unions, so $\sigma(X)$ is a sigma-algebra. If $\mathcal G$ is any sigma-algebra for which $X$ is measurable, then every set $X^{-1}(B)$ with $B\in\mathcal B(\mathbb R)$ belongs to $\mathcal G$, hence $\sigma(X)\subseteq \mathcal G$.
+
+Conceptually, $\sigma(X)$ is the information carried by $X$: two outcomes cannot be distinguished by $\sigma(X)$ if they produce the same observable value. This viewpoint is crucial once conditional expectation is defined with respect to information rather than to a single scalar random variable.
+
+---
+
+Flashcards for this section are as follows:
+
+- sigma-algebra generated by $X$ / definition ::@:: For a real random variable $X$, the sigma-algebra generated by $X$ is $\sigma(X)=\{X^{-1}(B):B\in\mathcal B(\mathbb R)\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- $\sigma(X)$ as a sigma-algebra ::@:: Preimages preserve complements and countable unions, so $\sigma(X)=\{X^{-1}(B):B\in\mathcal B(\mathbb R)\}$ is itself a sigma-algebra on $\Omega$.
+- why $\sigma(X)$ is the smallest sigma-algebra making $X$ measurable ::@:: If $\mathcal G$ is any sigma-algebra for which $X$ is measurable, then every set $X^{-1}(B)$ with $B\in\mathcal B(\mathbb R)$ belongs to $\mathcal G$; hence $\sigma(X)\subseteq\mathcal G$, making $\sigma(X)$ the smallest such sigma-algebra. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- $\sigma(X)$ as the information carried by $X$ ::@:: Two outcomes cannot be distinguished by $\sigma(X)$ if they produce the same observable value of $X$; consequently $\sigma(X)$ encodes exactly the information that $X$ reveals about the experiment. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- why $\sigma(X)$ matters for conditional expectation ::@:: Conditional expectation is defined with respect to a sigma-algebra (information), not a single random variable; the sigma-algebra $\sigma(X)$ provides the formal link between a random variable and the information it carries.
 
 ## law and cumulative distribution
 
@@ -135,7 +178,7 @@ Flashcards for this section are as follows:
 - same distribution of real random variables / equality of laws ::@:: Real random variables $X$ and $Y$ have the same distribution exactly when their laws are equal, $P_X=P_Y$, equivalently when their cumulative distribution functions satisfy $F_X(x)=F_Y(x)$ for every $x$; the equivalence uses agreement on the generating pi-system of half-lines and Dynkin's pi-lambda theorem. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - same distribution / does not mean pointwise equality ::@:: Counterexample: on $\Omega=\{H,T\}$ with fair-coin measure, let $X(H)=1$, $X(T)=0$, $Y(H)=0$, and $Y(T)=1$. Then both have the Bernoulli $(1/2)$ law, so they have the same distribution, but $X(\omega)\neq Y(\omega)$ for every outcome $\omega$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - why passing to the law reduces complexity ::@:: The law forgets the detailed underlying outcomes and keeps only the probabilities of the values of $X$, which is why random variables reduce a complicated experiment to a simpler value-space model. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- countable-image viewpoint for the law of $X$ ::@:: If the image $\Omega_X$ is countable, then one may regard $P_X$ as a probability measure on $(\Omega_X,\mathcal{P}(\Omega_X))$; the point is that the law is then completely described by the masses $P_X[\{x\}]=P[X=x]$ on the countably many values that can actually occur. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- countable-image viewpoint for the law of $X$ ::@:: If the image $\Omega_X$ is countable, then one may regard $P_X$ as a probability measure on $(\Omega_X,\mathcal{P}(\Omega_X))$; the point is that the law is then completely described by the masses $P_X[\{x\}]=P[X=x]$ on the countably many values that can actually occur.
 - notation $X\sim P_X$ / meaning ::@:: The notation $X\sim P_X$ means that the law of $X$ is the probability measure $P_X$; in practice one often abbreviates further by naming the distribution, such as $X\sim\mathrm{Bin}(n,p)$.
 - discrete versus continuous random variable / law-based distinction ::@:: A random variable is called discrete when its image is countable and continuous when its law admits a density; in both cases the probabilistic content is carried by the law.
 

@@ -21,9 +21,9 @@ A _sample space_ is a non-empty set $\Omega$ whose elements represent the possib
 
 Flashcards for this section are as follows:
 
-- sample space / definition ::@:: A non-empty set $\Omega$ of possible realizations of a random experiment; each $\omega \in \Omega$ is an outcome. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sample space / outcome ::@:: An element $\omega \in \Omega$; one possible realization or measurement of the random experiment. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sample space / role in a probability space ::@:: The sample space is the first of three ingredients (with events and probability measure) in a probability space $(\Omega, \mathcal{F}, P)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- definition / non-empty set of outcomes ::@:: A non-empty set $\Omega$ of possible realizations of a random experiment; each $\omega \in \Omega$ is an outcome. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- definition / outcome ::@:: An element $\omega \in \Omega$; one possible realization or measurement of the random experiment. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- definition / role in a probability space ::@:: The sample space is the first of three ingredients (with events and probability measure) in a probability space $(\Omega, \mathcal{F}, P)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## finite and countable sample spaces
 
@@ -33,8 +33,8 @@ The course begins with finite and countable sample spaces because they are the m
 
 Flashcards for this section are as follows:
 
-- sample space / finite versus countable ::@:: A finite sample space can be listed completely in finitely many steps, while a countably infinite sample space can still be enumerated in a sequence; both are convenient because probabilities can be assembled from singleton masses.
-- sample space / why the course starts with finite and countable spaces ::@:: On finite or countable spaces, events and probabilities can be handled by explicit listing, counting, and summation, so these models are the natural starting point before one studies uncountable spaces and generated sigma-algebras.
+- finite and countable spaces / finite versus countable ::@:: A finite sample space can be listed completely in finitely many steps, while a countably infinite sample space can still be enumerated in a sequence; both are convenient because probabilities can be assembled from singleton masses.
+- finite and countable spaces / why the course starts with them ::@:: On finite or countable spaces, events and probabilities can be handled by explicit listing, counting, and summation, so these models are the natural starting point before one studies uncountable spaces and generated sigma-algebras.
 
 ### finite sample spaces
 
@@ -47,7 +47,7 @@ Flashcards for this section are as follows:
 - sample space for one coin toss ::@:: $\Omega = \{H, T\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - sample space for one die roll ::@:: $\Omega = \{1, 2, 3, 4, 5, 6\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - sample space for a combined experiment ::@:: Use Cartesian product: e.g. coin and die $\Omega_1 \times \Omega_2$; $|\Omega| = |\Omega_1| \cdot |\Omega_2|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sample space for $n$ coin tosses ::@:: $\Omega = \{H,T\}^n$; $|\Omega| = 2^n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sample space for $n$ coin tosses ::@:: $\Omega = \{H,T\}^n$; $|\Omega| = 2^n$.
 
 ### countably infinite sample spaces
 
@@ -70,7 +70,7 @@ Flashcards for this section are as follows:
 
 - uncountable sample space / infinite coin-toss sequences ::@:: The space $\{H,T\}^{\mathbb{N}}$ of infinite coin-toss sequences is uncountable; it has the cardinality of the continuum rather than that of $\mathbb{N}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - uncountable sample space / lifetime model ::@:: A lifetime or waiting time is naturally modelled on an interval such as $[0,\infty)$, which is uncountable because its points cannot be listed in a sequence. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- sample space / countably infinite versus uncountable ::@:: The difference is not merely "infinite versus finite": $\mathbb{N}_0$ is infinite but countable, whereas $[0,\infty)$ and $\{H,T\}^{\mathbb{N}}$ are uncountable, so later we cannot simply treat every subset as an event. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- uncountable spaces / countably infinite versus uncountable ::@:: The difference is not merely "infinite versus finite": $\mathbb{N}_0$ is infinite but countable, whereas $[0,\infty)$ and $\{H,T\}^{\mathbb{N}}$ are uncountable, so later we cannot simply treat every subset as an event. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## countable sets
 
@@ -82,7 +82,7 @@ Countability matters because for countable $\Omega$ we can often take the power 
 
 Flashcards for this section are as follows:
 
-- countable set / formal definition via a surjection from $\mathbb{N}$ ::@:: $S$ is countable if $S = \emptyset$ or there is a surjection $\rho \colon \mathbb{N} \to S$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- countable set / formal definition via a surjection from $\mathbb{N}$ ::@:: $S$ is countable if $S = \emptyset$ or there is a surjection $\rho \colon \mathbb{N} \to S$.
 - countable set / listing viewpoint ::@:: A nonempty set is countable exactly when its elements can be listed in a sequence, possibly with repetitions; this is the intuition behind the formal surjection $\mathbb{N}\to S$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - why countability matters for probability spaces ::@:: For countable $\Omega$, $P(\Omega)$ is typically used; for uncountable $\Omega$, we restrict to a $\sigma$-algebra to avoid measure-theoretic obstructions. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - continuum cardinality in probability examples ::@:: The _continuum_ is the common cardinality of real intervals such as $[0,1]$ or $[0,\infty)$ and of sets like $\{H,T\}^{\mathbb{N}}$; it is uncountable and strictly larger than the size of $\mathbb{N}$ or $\mathbb{Q}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->

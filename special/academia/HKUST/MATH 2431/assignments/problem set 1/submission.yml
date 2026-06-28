@@ -1,0 +1,41 @@
+assignment:
+  comments:
+    3653470:
+      attachments: []
+      author: "[redacted]"
+      content: 2 (the remark is redundant)
+      datetime: 2026-02-23 14:14:00-07:00
+      id: 3653470
+  content:
+    "Problem Set 1, due on Friday 13/02/2026, until 13:30 (1:30 PM) Hong Kong
+    Time (UTC +8), to be uploaded on Canvas (note the updated deadline).
+
+    Update (05/02/2026, 10:30 AM): Question 4 updated, and mandatory problem changed
+    from 4 to 3; if you already submitted your solutions, Question 4 will be graded
+    or Question 3 in case you update your solution.
+
+    Update (09/02/2026, 8:45 PM): Small typo in Question 2 corrected.
+
+    PS1-v4.pdf
+
+
+
+    Actions"
+  grade:
+    entered: 8
+    graded anonymously: false
+    possible: 8
+  id: 425065
+  properties:
+    due: 2026-02-13 13:30:00-07:00
+    points: 8
+    submitting:
+      - a text entry box or a file upload
+  submissions:
+    - datetime: 2026-02-11 13:26:00-07:00
+      id: -1
+  title: Problem Set 1
+course:
+  id: 69402
+  name: MATH2431
+type: submission/Canvas/canvas.ust.hk
