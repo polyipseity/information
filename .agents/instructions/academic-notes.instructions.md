@@ -54,6 +54,10 @@ extension work.
   needed diagram context.
 - Keep math on one source line and use `$...$` / `$$...$$`; do not use `\(\)`
   or `\[\]`.
+- **LaTeX conventions for probability notes**: Use `\operatorname` for named
+  distributions (`\operatorname{Bin}`, `\operatorname{Cau}`); `\mathbf 1` for
+  indicators; `\binom{n}{k}`; `\lim_{y\uparrow m}` for left limits;
+  `\begin{cases}` with `[2pt]` spacing for piecewise definitions.
 - Use underscore-normalized flashcard tags, for example
   `flashcard/active/special/academia/HKUST/COMP_3031` or
   `flashcard/active/special/academia/Pusan_National_University/IT3000504`.
@@ -93,49 +97,15 @@ extension work.
 - Treat lab-prep decks and lab manuals as normal lecture ingestion: centralize
   theory and worked examples in topic notes, then route lab pages there with
   `§` links.
-- For Canvas-derived assignment-style leaf indexes (for example lab rounds,
-  homework folders, or similar deliverables, but not quiz pages), keep the visible
-  Canvas wording verbatim in `## description`, preserve color with `<span
-  style>`, use Markdown for bold/italics/links/paragraphing/line breaks, put
-  the Canvas title header first as `- title: <verbatim title>`, then order the
-  sections as `## children`, `## description`, `## attachments`,
-  `## submission`, and `## solution` with no extra `---` after the parent line.
-  Omit generic `## logistics` / `## overview`, include a local attachments
-  list, and leave `submission` / `solution` empty until real content exists.
-  If the task explicitly keeps submission or solution artifacts private but
-  still wants the public page to preserve the normal file routes, keep ordinary
-  relative links in the public `## submission` / `## solution` sections as if
-  the files were still colocated, and do not rewrite them to `private/` paths.
-  When a solution artifact exists, list it in `## solution` with the same plain
-  markdown bullet style used in `## attachments`. Reserve the more advanced
-  nested `file:` plus metadata structure for `## submission` only.
-  If a referenced file was not captured locally at all, preserve the visible
-  Canvas wording but do not invent a fake file.
-  Any Canvas-derived metadata value containing a date, datetime, or duration
-  must be normalized to ISO 8601 with timezone where applicable: `Due` and
-  `locked at` should be single ISO datetimes, availability windows should use
-  an ISO datetime range plus an ISO duration when both endpoints are known, and
-  pure durations should use ISO duration syntax. Canvas start timestamps use
-  seconds `:00`; Canvas end timestamps use seconds `:59`. This applies only to
-  metadata fields, not to the ordinary description prose: keep human-readable
-  Canvas sentences such as `This assignment was...` verbatim even when they
-  contain dates or times.
-- When such a folder also has companion pages like `lab.md` or `prelab.md`, let
-  `index.md` own the logistics and attachments. Use the companion pages for new
-  knowledge points, worked cases, implementation pitfalls, and brief routing to
-  durable topic notes instead of repeating theory that already has a canonical
-  home. Keep those companion pages about pure knowledge only: avoid workflow
-  checklists, student expectations, assessment framing, and other logistics-like
-  prose there. When the source includes concrete programming work such as
-  MATLAB, keep a few short code idioms and implementation details in the
-  companion page as part of the knowledge. Make code-centered flashcards
-  self-contained by naming the relevant snippet or variable roles instead of
-  asking only generic function questions; when useful, include the local given
-  model or workflow too, especially on the left-hand side of the card. Also avoid meta-summary sections whose
-  main content is “this page covers X, Y, and Z”; start with ordinary
-  subject-matter prose instead. Keep `prelab.md` limited to preparation-stage
-  setup and preview knowledge; move solved assignment-specific values and final
-  interpretation into `lab.md`.
+- For assignment-style leaf indexes (lab rounds, homework folders, or similar
+  Canvas deliverables) use the
+  [assignment-creation](../skills/assignment-creation/SKILL.md) skill instead.
+  That skill covers Canvas metadata, section ordering, companion pages, code
+  idioms, and submission/solution conventions.
+- When an assignment-style leaf folder has companion pages such as `lab.md` or
+  `prelab.md`, the [assignment-creation](../skills/assignment-creation/SKILL.md)
+  skill covers companion page conventions in detail (knowledge-only content,
+  code idioms, flashcards, and prelab/lab separation).
 - Questions pages are not topic notes. Official material should usually be in
   blockquotes; self-authored review prompts should usually be ordinary headings
   and lists.
@@ -190,8 +160,17 @@ extension work.
   pages.
 - Keep distinct official question families distinct (tutorials, problem sets,
   practice exams, solutions).
-- For detailed rules on quoted solutions, cloze coverage, MD028 handling, and
-  subpart formatting, consult `../skills/academic-notes/SKILL.md`.
+- At the top of a questions page, include a `- topics:` line listing the major
+  concepts covered (for example `- topics: medians, sigma-algebras, CDFs`).
+- Questions-page **solutions** use cloze `{@{ }@}` (not QA cards like topic
+  notes). For detailed rules on cloze strategy, inference-word attribution, and
+  question-page authoring conventions, see the "Questions and problem-set pages"
+  section in `../skills/academic-notes/SKILL.md`.
+  inline sub-answer labels, and step decomposition, consult
+  `../skills/academic-notes/SKILL.md`.
+- For detailed rules on quoted solutions, cloze coverage, MD028 handling,
+  blockquote continuation, and subpart formatting, consult
+  `../skills/academic-notes/SKILL.md`.
 - For accounting courses, place each journal-entry example in the most specific
   topical note rather than in a monolithic collector file; the detailed
   table/cloze conventions live in `SKILL.md`.
@@ -202,7 +181,8 @@ extension work.
 - Allowed suppression forms are `ignore-line[...]`, `ignore-next-line[...]`,
   and `ignore-file[...]`, each with a clear rationale.
 - File-level suppressions are mainly for genuine special cases such as
-  assignment-style index pages.
+  assignment-style index pages (see the
+  [assignment-creation](../skills/assignment-creation/SKILL.md) skill).
 - Do not add duplicate directives of the same type on one line.
 - If a prose-oriented validator rule keeps flagging room codes, percent-encoded
   link destinations, inline code, or HTML comments, prefer fixing the rule
@@ -246,7 +226,7 @@ work.
 3. Deepen existing topic notes before creating overlapping new ones.
 4. Keep topic-note prose, flashcards, and index links synchronized.
 5. Use QA cards for topic notes by default; allow cloze only inside embedded
-  accounting journal-entry worked examples.
+   accounting journal-entry worked examples.
 6. Route labs, tutorials, and large question collections through dedicated topic
    notes or child pages instead of bloating weekly entries.
 7. Validate the smallest relevant path.
