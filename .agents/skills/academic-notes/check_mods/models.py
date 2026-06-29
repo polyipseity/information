@@ -138,6 +138,7 @@ class ValidationContext:
     data: Frontmatter
     body: str
     session_headers: list[tuple[str, str, str, int]]
+    ast: list[dict] | None = None
 
 
 class Severity(StrEnum):

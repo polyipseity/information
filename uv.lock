@@ -757,6 +757,7 @@ dependencies = [
     { name = "jaraco-clipboard" },
     { name = "json5" },
     { name = "markdown" },
+    { name = "mistune" },
     { name = "numpy" },
     { name = "pyarchivist" },
     { name = "pydantic" },
@@ -819,6 +820,7 @@ requires-dist = [
     { name = "json5", specifier = ">=0.14.0" },
     { name = "markdown", specifier = ">=3.6.0" },
     { name = "matplotlib", marker = "extra == 'scripts'", specifier = ">=3.10.9" },
+    { name = "mistune", specifier = ">=3.1.0" },
     { name = "numpy", specifier = ">=2.4.6" },
     { name = "numpy", marker = "extra == 'scripts'", specifier = ">=2.4.6" },
     { name = "opencv-python", marker = "extra == 'scripts'", specifier = ">=4.13.0" },
@@ -1224,6 +1226,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba", size = 8729, upload-time = "2022-08-14T12:40:10.846Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8", size = 9979, upload-time = "2022-08-14T12:40:09.779Z" },
+]
+
+[[package]]
+name = "mistune"
+version = "3.3.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/04/5f/007786743f962224423753b78f7d7acb0f2ade46d1604f2e0fa2bedf9020/mistune-3.3.2.tar.gz", hash = "sha256:e12ee4f1e74336e91aa1141e35f913b337c40bdf7c0cc49f21fb853a27e8b62f", size = 111284, upload-time = "2026-06-23T00:29:28.568Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/44/43/894c2cbbcbdf53b57d1257a249811abe2ee9ab7ef76af301b40f1c054533/mistune-3.3.2-py3-none-any.whl", hash = "sha256:a678a56387d487db7368ede4647cb2ba1deff22ce61f92343e4ebe0ddfce4f2d", size = 61554, upload-time = "2026-06-23T00:29:27.088Z" },
 ]
 
 [[package]]

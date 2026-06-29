@@ -21,6 +21,7 @@ its decorator.  The functions are pure: they accept a
 
 import re
 import unicodedata
+from collections.abc import Iterator
 from string import punctuation
 from urllib.parse import unquote
 
@@ -28,7 +29,15 @@ from anyio import Path
 
 from .models import Severity, ValidationContext, ValidationMessage
 from .registry import RuleRegistry
-from .utils import FRONT_RE, has_flash_tag, locate, locate_range
+from .utils import (
+    FRONT_RE,
+    ast_headings,
+    filter_ast,
+    has_flash_tag,
+    iter_ast,
+    locate,
+    locate_range,
+)
 
 """Public symbols exported by this module."""
 __all__ = ("RULE_REGISTRY",)
@@ -36,6 +45,122 @@ __all__ = ("RULE_REGISTRY",)
 # single registry used by this module; external code may import and merge it
 """Registry of all validation rules in this module; decorator-based registration."""
 RULE_REGISTRY = RuleRegistry()
+
+# AST helpers ----------------------------------------------------------------
+
+
+def _normalize_heading_text(text: str) -> str:
+    """Strip inline formatting markers for heading text comparison."""
+    return re.sub(r"[*_`~]", "", text).strip().casefold()
+
+
+def _iter_regex_headings_filtered_by_ast(
+    text: str, ast: list[dict] | None, min_level: int = 1
+) -> Iterator[re.Match]:
+    """Yield regex matches for headings validated by AST parsing.
+
+    Uses the mistune AST to filter out false-positive header matches
+    (e.g. ``#``-prefixed lines inside fenced code blocks, comments, etc.).
+    Falls back to all regex matches when *ast* is ``None`` or empty.
+    """
+    valid: set[tuple[int, str]] = set()
+    if ast:
+        for h in ast_headings(ast):
+            valid.add((h["level"], _normalize_heading_text(h["text"])))
+
+    if not valid:
+        yield from re.finditer(r"^(#{%d,6})\s+(.+)$" % min_level, text, re.MULTILINE)
+        return
+
+    for m in re.finditer(r"^(#{1,6})\s+(.+)$", text, re.MULTILINE):
+        level = len(m.group(1))
+        if level < min_level:
+            continue
+        raw_text = m.group(2).strip()
+        normalized = _normalize_heading_text(raw_text)
+        if (level, normalized) in valid:
+            yield m
+
+
+def _build_filtered_header_positions(
+    text: str, ast: list[dict] | None
+) -> list[tuple[int, int, re.Match]]:
+    """Build a list of (start_pos, level, match) for AST-validated headings.
+
+    Uses the mistune AST to skip false-positive header matches
+    (e.g. ``#``-prefixed lines inside fenced code blocks).
+    Falls back to all regex matches when *ast* is ``None`` or empty.
+    """
+    result: list[tuple[int, int, re.Match]] = []
+
+    valid: set[tuple[int, str]] = set()
+    if ast:
+        for h in ast_headings(ast):
+            valid.add((h["level"], _normalize_heading_text(h["text"])))
+
+    for m in re.finditer(r"^(#{1,6})\s+(.+)$", text, re.MULTILINE):
+        level = len(m.group(1))
+        raw_text = m.group(2).strip()
+        normalized = _normalize_heading_text(raw_text)
+        if not valid or (level, normalized) in valid:
+            result.append((m.start(), level, m))
+
+    return result
+
+
+def _build_code_block_ranges(
+    text: str, ast: list[dict] | None
+) -> list[tuple[int, int]]:
+    """Build sorted list of (start_byte, end_byte) for code-block raw content.
+
+    Uses AST ``block_code`` node ``raw`` content to locate the code block
+    in the full source text.  The ranges cover only the code content (not
+    the fence markers).  Falls back to an empty list when *ast* is ``None``.
+    """
+    ranges: list[tuple[int, int]] = []
+    if not ast:
+        return ranges
+    for node in filter_ast(ast, "block_code"):
+        raw = node.get("raw", "")
+        if not raw:
+            continue
+        idx = text.find(raw)
+        if idx != -1:
+            ranges.append((idx, idx + len(raw)))
+    ranges.sort()
+    return ranges
+
+
+def _is_inside_code_block(pos: int, text: str, ast: list[dict] | None) -> bool:
+    """Return ``True`` if byte position *pos* falls inside a code-block range.
+
+    Uses AST ``block_code`` nodes for reliable code-block detection.
+    Returns ``False`` when AST is unavailable.
+    """
+    for start, end in _build_code_block_ranges(text, ast):
+        if start <= pos < end:
+            return True
+    return False
+
+
+def _get_section_end(
+    text: str, start_offset: int, hdr_text: str, ast: list[dict] | None
+) -> int:
+    """Find the end of a section beginning at *start_offset*.
+
+    Scans forward from ``start_offset + len(hdr_text)`` for the next
+    AST-validated heading. Returns the position of the next heading (or
+    ``len(text)`` if none is found).  Uses ``_is_inside_code_block`` to
+    skip headings that appear inside fenced code blocks.
+    """
+    end = len(text)
+    for m in re.finditer(r"^##\s+", text[start_offset + len(hdr_text) :], re.MULTILINE):
+        abs_pos = start_offset + len(hdr_text) + m.start()
+        if not _is_inside_code_block(abs_pos, text, ast):
+            end = abs_pos
+            break
+    return end
+
 
 # metadata checks ------------------------------------------------------------
 
@@ -304,12 +429,18 @@ async def _is_folder_without_index_md(href: str, base: Path) -> bool:
 def index_children(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure index.md includes a 'children' section or heading.
 
-    Looks for either '## children' or a literal 'children:' string.
-    Skips assignment-specific indexes (``assignments/*/index.md``).
+    Looks for either '## children' (AST-validated) or a literal 'children:'
+    string.  Skips assignment-specific indexes (``assignments/*/index.md``).
     """
     errors: list[ValidationMessage] = []
     if ctx.path.name.lower() == "index.md" and not _is_assignment_index(ctx):
-        if "## children" not in ctx.text and "children:" not in ctx.text:
+        has_children_heading = False
+        if ctx.ast:
+            for h in ast_headings(ctx.ast):
+                if h["level"] == 2 and _normalize_heading_text(h["text"]) == "children":
+                    has_children_heading = True
+                    break
+        if not has_children_heading and "children:" not in ctx.text:
             errors.append(
                 ValidationMessage(
                     "index_children", "index.md missing 'children' section"
@@ -943,14 +1074,17 @@ def session_heading_format(ctx: ValidationContext) -> list[ValidationMessage]:
 
     Allowed: ## week 1 lecture, ## week 1 lecture 2, ## week 2 lab 1. Type = lecture|lab|tutorial only.
     Invalid: ## week 3 no class, ## week 3 (Lunar New Year), ## week 3 (no type). Status belongs in metadata only.
+    Uses the mistune AST to skip false-positive matches inside code blocks.
     """
     errors: list[ValidationMessage] = []
-    for m in re.finditer(
-        r"^##\s+week\s+\d+\s*.+$", ctx.text, re.IGNORECASE | re.MULTILINE
-    ):
+    text = ctx.text
+    ast = ctx.ast
+    for m in re.finditer(r"^##\s+week\s+\d+\s*.+$", text, re.IGNORECASE | re.MULTILINE):
+        if _is_inside_code_block(m.start(), text, ast):
+            continue
         line = m.group(0).rstrip()
         if not _SESSION_HEADING_VALID.match(line):
-            line_no, col, col_end = locate_range(ctx.text, m.start(), len(line))
+            line_no, col, col_end = locate_range(text, m.start(), len(line))
             errors.append(
                 ValidationMessage(
                     "session_heading_format",
@@ -962,11 +1096,11 @@ def session_heading_format(ctx: ValidationContext) -> list[ValidationMessage]:
                 )
             )
     # Also flag ## week N with no type at all (nothing after the number)
-    for m in re.finditer(
-        r"^##\s+week\s+(\d+)\s*$", ctx.text, re.IGNORECASE | re.MULTILINE
-    ):
+    for m in re.finditer(r"^##\s+week\s+(\d+)\s*$", text, re.IGNORECASE | re.MULTILINE):
+        if _is_inside_code_block(m.start(), text, ast):
+            continue
         line = m.group(0)
-        line_no, col, col_end = locate_range(ctx.text, m.start(), len(line))
+        line_no, col, col_end = locate_range(text, m.start(), len(line))
         errors.append(
             ValidationMessage(
                 "session_heading_format",
@@ -1015,11 +1149,9 @@ def session_datetime_order(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     last_datetime = None
     text = ctx.text
+    ast = ctx.ast
     for _week, _typ, hdr, idx in ctx.session_headers:
-        end = len(text)
-        m2 = re.search(r"^##\s+", text[idx + len(hdr) :], re.MULTILINE)
-        if m2:
-            end = idx + len(hdr) + m2.start()
+        end = _get_section_end(text, idx, hdr, ast)
         section = text[idx:end]
         mdt = re.search(r"^\s*-\s*datetime:\s*(\S+)", section, re.MULTILINE)
         if mdt:
@@ -1052,11 +1184,9 @@ def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
+    ast = ctx.ast
     for _week, _typ, hdr, idx in ctx.session_headers:
-        end = len(text)
-        m2 = re.search(r"^##\s+", text[idx + len(hdr) :], re.MULTILINE)
-        if m2:
-            end = idx + len(hdr) + m2.start()
+        end = _get_section_end(text, idx, hdr, ast)
         section = text[idx:end]
         if re.search(r"^\s*-\s*datetime:", section, re.MULTILINE):
             # skip unscheduled sessions
@@ -1094,11 +1224,9 @@ def session_unscheduled_with_topic(ctx: ValidationContext) -> list[ValidationMes
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
+    ast = ctx.ast
     for _week, _typ, hdr, idx in ctx.session_headers:
-        end = len(text)
-        m2 = re.search(r"^##\s+", text[idx + len(hdr) :], re.MULTILINE)
-        if m2:
-            end = idx + len(hdr) + m2.start()
+        end = _get_section_end(text, idx, hdr, ast)
         section = text[idx:end]
         if re.search(r"^\s*-\s*datetime:", section, re.MULTILINE):
             if "status:" in section and re.search(
@@ -1126,11 +1254,9 @@ def session_venue_presence(ctx: ValidationContext) -> list[ValidationMessage]:
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
+    ast = ctx.ast
     for _week, _typ, hdr, idx in ctx.session_headers:
-        end = len(text)
-        m2 = re.search(r"^##\s+", text[idx + len(hdr) :], re.MULTILINE)
-        if m2:
-            end = idx + len(hdr) + m2.start()
+        end = _get_section_end(text, idx, hdr, ast)
         section = text[idx:end]
         if (
             re.search(r"^\s*-\s*datetime:", section, re.MULTILINE)
@@ -1157,11 +1283,9 @@ def session_next_lecture_remark(ctx: ValidationContext) -> list[ValidationMessag
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
+    ast = ctx.ast
     for _week, _typ, hdr, idx in ctx.session_headers:
-        end = len(text)
-        m2 = re.search(r"^##\s+", text[idx + len(hdr) :], re.MULTILINE)
-        if m2:
-            end = idx + len(hdr) + m2.start()
+        end = _get_section_end(text, idx, hdr, ast)
         section = text[idx:end]
         if re.search(r"next\s+(lecture|week|class)", section, re.IGNORECASE):
             line, col, col_end = locate_range(ctx.text, idx, len(hdr))
@@ -1182,14 +1306,18 @@ def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
     """Enforce that midterm/final sections come after other sessions.
 
     Scans for the first exam heading and flags any later session entries that
-    occur before it in the file order.
+    occur before it in the file order.  Uses the mistune AST to skip false-
+    positive matches inside code blocks.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
+    ast = ctx.ast
     exam_idx = None
     for m in re.finditer(
         r"^##\s+(midterm|final)\b", text, re.IGNORECASE | re.MULTILINE
     ):
+        if _is_inside_code_block(m.start(), text, ast):
+            continue
         exam_idx = m.start()
         break
     if exam_idx is not None:
@@ -1235,28 +1363,25 @@ def section_example_heading(ctx: ValidationContext) -> list[ValidationMessage]:
     posture is to treat such sections as mistakes.
     """
     errors: list[ValidationMessage] = []
-    # match any markdown header of level 1 or deeper containing 'example'
-    # match 'example' or 'examples' in headers
-    # match 'example' or 'examples' in headers but ignore hyphenated forms
-    for m in re.finditer(
-        r"^(#{1,})\s*(.*\bexamples?\b(?!-).*)$", ctx.text, re.IGNORECASE | re.MULTILINE
-    ):
-        hdr = m.group(0)
-        start = m.start()
-        line, col, col_end = locate_range(ctx.text, start, len(hdr))
-        errors.append(
-            ValidationMessage(
-                "section_example_heading",
-                "section heading contains the word 'example' (e.g. an isolated Examples subsection). "
-                "Stand‑alone example sections are discouraged – integrate the illustrative material into the relevant conceptual "
-                "paragraphs rather than copying the course layout verbatim.  Do *not* suppress two_sided_calc_warning or one_sided_calc_warning when the word "
-                "example appears; the presence of examples signals numeric context that the calculator rules should enforce. "
-                "If you genuinely require a separate examples block, add a clear justification using a suppression comment.",
-                line=line,
-                col=col,
-                col_end=col_end,
+    for m in _iter_regex_headings_filtered_by_ast(ctx.text, ctx.ast):
+        hdr_text = m.group(2)
+        if re.search(r"\bexamples?\b(?!-)", hdr_text, re.IGNORECASE):
+            start = m.start()
+            hdr = m.group(0)
+            line, col, col_end = locate_range(ctx.text, start, len(hdr))
+            errors.append(
+                ValidationMessage(
+                    "section_example_heading",
+                    "section heading contains the word 'example' (e.g. an isolated Examples subsection). "
+                    "Stand‑alone example sections are discouraged – integrate the illustrative material into the relevant conceptual "
+                    "paragraphs rather than copying the course layout verbatim.  Do *not* suppress two_sided_calc_warning or one_sided_calc_warning when the word "
+                    "example appears; the presence of examples signals numeric context that the calculator rules should enforce. "
+                    "If you genuinely require a separate examples block, add a clear justification using a suppression comment.",
+                    line=line,
+                    col=col,
+                    col_end=col_end,
+                )
             )
-        )
     return errors
 
 
@@ -1280,8 +1405,8 @@ def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     if ctx.path.name.lower() == "index.md":
         return errors
-    for h in re.finditer(r"^(#{2,})\s+(.+)$", ctx.text, re.MULTILINE):
-        hdr_text = h.group(2)
+    for m in _iter_regex_headings_filtered_by_ast(ctx.text, ctx.ast, min_level=2):
+        hdr_text = m.group(2)
         if hdr_text:
             first_char = hdr_text[0]
             # Skip rule for non-cased letters (CJK, Cyrillic, Arabic, etc.)
@@ -1294,8 +1419,8 @@ def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
             if char_category in ("Lu", "Ll"):
                 # For cased letters, warn if uppercase
                 if first_char.isupper():
-                    start = h.start()
-                    hdr_text_full = h.group(0)
+                    start = m.start()
+                    hdr_text_full = m.group(0)
                     line, col, col_end = locate_range(
                         ctx.text, start, len(hdr_text_full)
                     )
@@ -1396,22 +1521,25 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
         or "questions" in parent_parts
     ):
         return errors
-    for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
-        lvl = len(h.group(1))
-        start = h.end()
-        pattern = r"^(#{1,%d})\s+" % lvl
-        m = re.search(pattern, ctx.text[start:], re.MULTILINE)
-        end = start + (m.start() if m else len(ctx.text) - start)
-        section = ctx.text[start:end]
+    headers = _build_filtered_header_positions(ctx.text, ctx.ast)
+    for i, (hdr_pos, lvl, h) in enumerate(headers):
+        hdr_end = h.end()
+        # Find the next header at the same or higher (lower number) level.
+        next_pos: int | None = None
+        for j in range(i + 1, len(headers)):
+            if headers[j][1] <= lvl:
+                next_pos = headers[j][0]
+                break
+        end = next_pos if next_pos is not None else len(ctx.text)
+        section = ctx.text[hdr_end:end]
         if not re.search(r"::@::|:@:|Flashcards for", section):
-            hdr = h.group(0).strip()
-            start = h.start()
+            start = hdr_pos
             line, col, col_end = locate_range(ctx.text, start, len(h.group(0)))
             errors.append(
                 ValidationMessage(
                     rule_id="header_flashcard_presence",
                     msg=(
-                        f"header {hdr!r} has no flashcard markers in its section; "
+                        f"header {h.group(0).strip()!r} has no flashcard markers in its section; "
                         "convert key sentences into cards and include any relevant "
                         "diagrams or images from the paragraph above. "
                         "DO NOT suppress this error with the reason 'cards in parent "
@@ -1447,24 +1575,27 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
         or "questions" in parent_parts
     ):
         return errors
-    for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
-        lvl = len(h.group(1))
-        start = h.end()
-        pattern = r"^(#{1,%d})\s+" % lvl
-        m = re.search(pattern, ctx.text[start:], re.MULTILINE)
-        end = start + (m.start() if m else len(ctx.text) - start)
-        section = ctx.text[start:end]
+    headers = _build_filtered_header_positions(ctx.text, ctx.ast)
+    for i, (hdr_pos, lvl, h) in enumerate(headers):
+        hdr_end = h.end()
+        # Find the next header at the same or higher (lower number) level.
+        next_pos: int | None = None
+        for j in range(i + 1, len(headers)):
+            if headers[j][1] <= lvl:
+                next_pos = headers[j][0]
+                break
+        end = next_pos if next_pos is not None else len(ctx.text)
+        section = ctx.text[hdr_end:end]
         m2 = re.search(r"(::@::|:@:|Flashcards for)", section)
         if m2:
             prefix = section[: m2.start()]
             if "---" not in prefix:
-                hdr = h.group(0).strip()
-                start = h.start()
+                start = hdr_pos
                 line, col, col_end = locate_range(ctx.text, start, len(h.group(0)))
                 errors.append(
                     ValidationMessage(
                         rule_id="header_flashcard_separator",
-                        msg=f"flashcards under header {hdr!r} should be preceded by a '---' separator",
+                        msg=f"flashcards under header {h.group(0).strip()!r} should be preceded by a '---' separator",
                         line=line,
                         col=col,
                         col_end=col_end,
@@ -1499,17 +1630,17 @@ def header_flashcard_sections_duplicate(
         re.IGNORECASE | re.MULTILINE,
     )
 
-    for h in re.finditer(r"^(#{1,})\s+(.+)$", ctx.text, re.MULTILINE):
-        start = h.end()
+    headers = _build_filtered_header_positions(ctx.text, ctx.ast)
+    for i, (hdr_pos, _lvl, h) in enumerate(headers):
+        hdr_end = h.end()
         # For this rule, use the immediate next header (any level) so nested
         # subsections are validated independently.
-        m = re.search(r"^#{1,6}\s+", ctx.text[start:], re.MULTILINE)
-        end = start + (m.start() if m else len(ctx.text) - start)
-        section = ctx.text[start:end]
+        next_pos = headers[i + 1][0] if i + 1 < len(headers) else len(ctx.text)
+        section = ctx.text[hdr_end:next_pos]
         occurrences = list(marker_re.finditer(section))
         if len(occurrences) >= 2:
             dup = occurrences[1]
-            abs_start = start + dup.start()
+            abs_start = hdr_end + dup.start()
             line, col, col_end = locate_range(ctx.text, abs_start, len(dup.group(0)))
             hdr = h.group(0).strip()
             errors.append(
@@ -1810,25 +1941,32 @@ def math_in_code_fence(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag LaTeX-style math found inside fenced code blocks.
 
     Authors should not include dollar signs within code fences; this rule
-    warns on the first occurrence.
+    warns on the first occurrence.  Uses the mistune AST ``block_code``
+    nodes for reliable code-block detection instead of raw regex fences.
+    Falls back to a no-op when AST is unavailable.
     """
     errors: list[ValidationMessage] = []
-    text = ctx.text
-    for mblock in re.finditer(r"```.*?```", text, re.DOTALL):
-        block = mblock.group(0)
-        if "$" in block:
-            rel = block.find("$")
-            abs_idx = mblock.start() + rel
-            line, col = locate(text, abs_idx)
-            errors.append(
-                ValidationMessage(
-                    rule_id="math_in_code_fence",
-                    msg="math expression found inside a code fence; use inline or display math instead",
-                    line=line,
-                    col=col,
-                )
+    if not ctx.ast:
+        return errors
+    for node in filter_ast(ctx.ast, "block_code"):
+        raw = node.get("raw", "")
+        dollar_idx = raw.find("$")
+        if dollar_idx == -1:
+            continue
+        src_idx = ctx.text.find(raw)
+        if src_idx == -1:
+            continue
+        abs_idx = src_idx + dollar_idx
+        line, col = locate(ctx.text, abs_idx)
+        errors.append(
+            ValidationMessage(
+                rule_id="math_in_code_fence",
+                msg="math expression found inside a code fence; use inline or display math instead",
+                line=line,
+                col=col,
             )
-            break
+        )
+        break
     return errors
 
 
@@ -2090,13 +2228,17 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
     """Detect markdown links whose target contains a raw space character.
 
     Authors should use ``%20`` encoding in link URLs; this rule reports
-    the first offending link it finds.
+    the first offending link it finds.  Uses the mistune AST to skip
+    matches inside code blocks.
     """
     errors: list[ValidationMessage] = []
-    m = re.search(r"\[[^\]]+\]\([^\) ]+ [^\)]+\)", ctx.text)
-    if m:
+    text = ctx.text
+    ast = ctx.ast
+    for m in re.finditer(r"\[[^\]]+\]\([^\) ]+ [^\)]+\)", text):
+        if _is_inside_code_block(m.start(), text, ast):
+            continue
         length = len(m.group(0))
-        line, col, col_end = locate_range(ctx.text, m.start(), length)
+        line, col, col_end = locate_range(text, m.start(), length)
         errors.append(
             ValidationMessage(
                 rule_id="link_unencoded_space",
@@ -2106,6 +2248,7 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
                 col_end=col_end,
             )
         )
+        break
     return errors
 
 
@@ -2129,15 +2272,33 @@ def no_lecture_summary(ctx: ValidationContext) -> list[ValidationMessage]:
     "summary") are also discouraged; they provide little learning value
     and should be rephrased as ordinary content or deleted.  The test
     suite ensures the rule catches both forms.
+
+    Uses the mistune AST to validate that heading matches are real headings
+    (not false positives from code fences or comments).
     """
     errors: list[ValidationMessage] = []
-    # match "## lecture summary" or deeper, or "- lecture summary" list
-    pattern = re.compile(
-        r"^(?:#{2,}\s*lecture summary|-\s*lecture summary)",
-        re.IGNORECASE | re.MULTILINE,
-    )
-    for m in pattern.finditer(ctx.text):
-        line, col, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+    # match "## lecture summary" or deeper headings using AST validation
+    text = ctx.text
+    ast = ctx.ast
+    for m in _iter_regex_headings_filtered_by_ast(text, ast, min_level=2):
+        raw_text = m.group(2).strip()
+        if re.search(r"lecture summary", raw_text, re.IGNORECASE):
+            line, col, col_end = locate_range(text, m.start(), len(m.group(0)))
+            errors.append(
+                ValidationMessage(
+                    "no_lecture_summary",
+                    "lecture summary sections are not allowed; remove or merge into main notes",
+                    line=line,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+    # also detect "- lecture summary" list items (paragraph level, not a heading)
+    for m in re.finditer(r"^-\s*lecture summary\b", text, re.IGNORECASE | re.MULTILINE):
+        # skip matches that are inside code blocks
+        if _is_inside_code_block(m.start(), text, ast):
+            continue
+        line, col, col_end = locate_range(text, m.start(), len(m.group(0)))
         errors.append(
             ValidationMessage(
                 "no_lecture_summary",
@@ -2149,9 +2310,11 @@ def no_lecture_summary(ctx: ValidationContext) -> list[ValidationMessage]:
         )
     # also detect summary-sentence flashcards
     for m in re.finditer(
-        r"^-\s*summary sentence\b", ctx.text, re.IGNORECASE | re.MULTILINE
+        r"^-\s*summary sentence\b", text, re.IGNORECASE | re.MULTILINE
     ):
-        line, col, col_end = locate_range(ctx.text, m.start(), len(m.group(0)))
+        if _is_inside_code_block(m.start(), text, ast):
+            continue
+        line, col, col_end = locate_range(text, m.start(), len(m.group(0)))
         errors.append(
             ValidationMessage(
                 "no_lecture_summary",
@@ -2239,10 +2402,12 @@ def nested_list_path(ctx: ValidationContext) -> list[ValidationMessage]:
 
     When a lecture list is nested under its parent course, each item should
     include the course name (e.g. ``- ELEC 1100 / topic``).  This rule scans
-    the body of the note and emits a warning for the first violation.
+    the body of the note and emits a warning for the first violation.  Uses
+    the mistune AST to skip false-positive matches inside code blocks.
     """
     errors: list[ValidationMessage] = []
     body = ctx.body
+    ast = ctx.ast
     course = None
     offset = 0
     for line in body.splitlines(keepends=True):
@@ -2261,10 +2426,18 @@ def nested_list_path(ctx: ValidationContext) -> list[ValidationMessage]:
         if not seen_course:
             offset += len(line)
             continue
+        # skip lines inside code blocks
+        if _is_inside_code_block(offset, body, ast):
+            offset += len(line)
+            continue
         if line.lstrip().startswith("## "):
-            break
+            # verify this is a real heading via AST
+            if not ast or any(
+                h["level"] >= 2 for h in ast_headings(ast) if body.find(h["text"]) != -1
+            ):
+                break
         if re.match(r"^ {2,}- ", line) and "/" not in line:
-            line_no, col_no = locate(ctx.body, offset)
+            line_no, col_no = locate(body, offset)
             errors.append(
                 ValidationMessage(
                     rule_id="nested_list_path",
@@ -2874,15 +3047,15 @@ def no_consecutive_source_newlines(ctx: ValidationContext) -> list[ValidationMes
 def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag soft-wrapped paragraphs (stray newlines inside prose).
 
-    Iterates every non-blank-line newline in the body and flags those that
-    split a paragraph mid-sentence.  The following are skipped:
+    Uses the mistune AST to detect ``softbreak`` nodes inside paragraph
+    blocks, automatically skipping code blocks, headings, lists, table
+    rows, and other non-paragraph content.  Intentional Markdown line
+    breaks (``  `` or ``\\`` at end of line) produce ``linebreak`` AST
+    nodes, not ``softbreak`` nodes, so they are never flagged.
 
-    - Lines inside fenced code blocks.
-    - Lines ending with ``\\`` or ``  `` (intentional Markdown line breaks).
-    - Breaks where the next line is a heading, list item, blank, or HTML comment.
-    - Lines that are themselves list items (handled by ``no_soft_wrap_list``).
-    - Table rows (``|`` ...) after stripping any number of blockquote markers
-      (e.g. ``>``, ``>>``, ``> > ``).
+    Paragraphs whose text children contain pipe characters (``|``) are
+    treated as table-like content (e.g. inside blockquotes where the
+    mistune table plugin does not apply) and are not flagged.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
@@ -2890,72 +3063,67 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
     body_start = fm.end() if fm else 0
     body = text[body_start:]
 
-    def in_code_fence(idx: int) -> bool:
-        """Return True if *idx* is within a fenced code block in *body*."""
-        return body[:idx].count("```") % 2 == 1
+    if not ctx.ast:
+        return errors
 
-    # --- Pipeline: filter out non-soft-wrap breaks, then flag soft-wrapped paragraphs ---
-    for m in re.finditer(r"\n(?!\n)", body):
-        idx = m.start()
-        # Skip newlines inside fenced code blocks (content is literal).
-        if in_code_fence(idx):
-            continue
-        line_start = body.rfind("\n", 0, idx) + 1
-        line = body[line_start:idx]
-        # Skip if the current line is empty/whitespace-only.
-        if not line.strip():
-            continue
-        nxt_end = body.find("\n", idx + 1)
-        next_line = body[idx + 1 : nxt_end if nxt_end != -1 else None]
+    for node in filter_ast(ctx.ast, "paragraph"):
+        children = node.get("children", [])
 
-        # Skip explicit Markdown line continuations (backslash or two trailing spaces).
-        if line.endswith("\\") or line.endswith("  "):
-            continue
-        # Skip if next line starts a heading or a new list item (structural break).
-        if re.match(r"^\s*(#{1,6}|[-*+]\s|\d+\.\s)", next_line):
-            continue
-        # Skip if next line is blank (the paragraph ends here).
-        if not next_line.strip():
-            continue
-        # Skip HTML comment lines.
-        if line.strip().startswith("<!--"):
-            continue
-        # Skip lines that are themselves list items (handled by no_soft_wrap_list).
-        if re.match(r"^\s*([-*+]|\d+\.)\s", line):
-            continue
-
-        # table rows only: strip multi-level blockquote prefix then check for |
-        def after_quote(s: str) -> str:
-            """Return *s* with any number of leading blockquote markers (e.g. >, >>, > >) removed."""
-            return re.sub(r"^\s*(?:>\s*)+", "", s.strip())
-
-        content = after_quote(line)
-        next_content = after_quote(next_line)
-        # Skip if either line is only blockquote markers (effectively blank).
-        if not content or not next_content:
-            continue
-        # Skip table rows (| ...) - their structure is intentional.
-        if content.startswith("|") or next_content.startswith("|"):
-            continue
-        # Skip if either side is a list item (handled by no_soft_wrap_list).
-        if re.match(r"^\s*(?:[-*+]\s|\d+\.\s)", content):
-            continue
-        if re.match(r"^\s*(?:[-*+]\s|\d+\.\s)", next_content):
-            continue
-        abs_idx = body_start + line_start
-        line_no, col, col_end = locate_range(text, abs_idx, len(line))
-        errors.append(
-            ValidationMessage(
-                rule_id="no_soft_wrap_paragraph",
-                msg=(
-                    "soft-wrapped paragraph detected — this is unacceptable; "
-                    "remove the stray newline or insert a blank line/explicit break"
-                ),
-                line=line_no,
-                col=col,
-                col_end=col_end,
-            )
+        # Skip paragraphs with pipe characters — they are table-like
+        # content (e.g. inside blockquotes where the table plugin does
+        # not apply).
+        has_pipe = any(
+            isinstance(c.get("raw"), str) and "|" in c["raw"]
+            for c in children
+            if c.get("type") in ("text",)
         )
+        if has_pipe:
+            continue
+
+        for i, child in enumerate(children):
+            if child.get("type") != "softbreak":
+                continue
+
+            # Find preceding text to locate the softbreak position in body.
+            preceding = ""
+            for c in reversed(children[:i]):
+                if c.get("type") == "text":
+                    preceding = c.get("raw", "")
+                    break
+
+            if not preceding:
+                # Fall back to the first text child of the paragraph.
+                for c in children:
+                    if c.get("type") == "text":
+                        preceding = c.get("raw", "")
+                        break
+
+            if not preceding:
+                continue
+
+            body_idx = body.find(preceding)
+            if body_idx == -1:
+                continue
+
+            # Find the end of the preceding text to locate the newline.
+            newline_off = body.find("\n", body_idx)
+            if newline_off == -1:
+                newline_off = body_idx
+            abs_idx = body_start + newline_off
+            line_no, col, col_end = locate_range(text, abs_idx, 1)
+            errors.append(
+                ValidationMessage(
+                    rule_id="no_soft_wrap_paragraph",
+                    msg=(
+                        "soft-wrapped paragraph detected — this is unacceptable; "
+                        "remove the stray newline or insert a blank line/explicit break"
+                    ),
+                    line=line_no,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+
     return errors
 
 
@@ -2963,10 +3131,10 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
 def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag soft-wrapped list items (list line continued without a blank line).
 
-    Finds every list item and checks whether the next line is unstructured
-    prose (not blank, not a heading, not another list item, and not inside
-    a fenced code block).  Intentional Markdown line breaks (ending with
-    ``\\`` or two spaces) are allowed.
+    Uses the mistune AST to detect ``softbreak`` nodes inside ``list_item``
+    blocks, automatically skipping code blocks and other false-positive
+    scenarios.  Intentional Markdown line breaks (``  `` or ``\\``) produce
+    ``linebreak`` AST nodes and are never flagged.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
@@ -2974,38 +3142,33 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
     body_start = fm.end() if fm else 0
     body = text[body_start:]
 
-    def in_code_fence(idx: int) -> bool:
-        """Return True if *idx* is within a fenced code block in *body*."""
-        return body[:idx].count("```") % 2 == 1
+    if not ctx.ast:
+        return errors
 
-    for m in re.finditer(r"^\s*([-*+]|\d+\.)\s", body, re.MULTILINE):
-        idx = m.start()
-        if in_code_fence(idx):
-            continue
-        content_start = idx + re.match(r"\s*", body[idx:]).end()
-        eol = body.find("\n", content_start)
-        if eol == -1:
-            continue  # list item at end of file
-        line = body[content_start:eol]
-
-        # Intentional Markdown line break (\\ or two trailing spaces).
-        if line.endswith("\\") or line.endswith("  "):
+    for item_node in filter_ast(ctx.ast, "list_item"):
+        # Check for softbreak anywhere inside the list_item.
+        item_children = list(item_node.get("children", []))
+        has_softbreak = any(
+            c.get("type") == "softbreak" for c in iter_ast(item_children)
+        )
+        if not has_softbreak:
             continue
 
-        # Next line.
-        nxt_start = eol + 1
-        nxt_end = body.find("\n", nxt_start)
-        next_line = body[nxt_start:nxt_end] if nxt_end != -1 else body[nxt_start:]
-
-        # Structural break: blank, heading, or another list item.
-        if not next_line.strip():
-            continue
-        if re.match(r"^\s*(#{1,6}|[-*+]\s|\d+\.\s)", next_line):
+        # Find the first text child for position detection.
+        first_text = ""
+        for c in iter_ast(item_children):
+            if c.get("type") == "text":
+                first_text = c.get("raw", "")
+                break
+        if not first_text:
             continue
 
-        # Next line is unstructured prose — soft wrap.
-        abs_idx = body_start + idx
-        line_no, col, col_end = locate_range(text, abs_idx, len(line))
+        body_idx = body.find(first_text)
+        if body_idx == -1:
+            continue
+
+        abs_idx = body_start + body_idx
+        line_no, col, col_end = locate_range(text, abs_idx, len(first_text))
         errors.append(
             ValidationMessage(
                 rule_id="no_soft_wrap_list",
@@ -3015,6 +3178,7 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
                 col_end=col_end,
             )
         )
+
     return errors
 
 

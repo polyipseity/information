@@ -71,7 +71,7 @@ from check_mods.rules import (
     unit_outside_math,
 )
 from check_mods.utils import FRONT_RE, parse_frontmatter
-from check_mods.validator import check_markdown_file
+from check_mods.validator import _MD, check_markdown_file
 from pydantic_yaml import parse_yaml_raw_as
 
 # explicit imports reduce namespace clutter and make references clear
@@ -106,6 +106,11 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
         week = m2.group(1)
         typ = m2.group(2).strip().lower()
         session_headers.append((week, typ, m2.group(0).strip(), m2.start()))
+    # Same pattern as validator: parse AST so AST-dependent rules work in tests
+    try:
+        ast = _MD(text)
+    except Exception:
+        ast = []
     return ValidationContext(
         path=path,
         text=text,
@@ -113,6 +118,7 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
         data=data,
         body=body,
         session_headers=session_headers,
+        ast=ast,
     )
 
 

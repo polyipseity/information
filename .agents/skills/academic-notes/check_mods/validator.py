@@ -13,7 +13,10 @@ from argparse import ArgumentParser
 from collections.abc import Sequence
 from os import fspath
 
+import mistune
 from anyio import Path
+from mistune.plugins.formatting import strikethrough as _mistune_strikethrough
+from mistune.plugins.table import table as _mistune_table
 from pydantic_yaml import parse_yaml_raw_as
 from rich.console import Console
 from rich.text import Text
@@ -27,13 +30,25 @@ from .models import (
     ValidationResult,
 )
 from .registry import RuleRegistry
-from .utils import DEFAULT_PATHS, FRONT_RE, aggregate, parse_frontmatter
+from .utils import (
+    DEFAULT_PATHS,
+    FRONT_RE,
+    aggregate,
+    ast_collect_text,
+    iter_ast,
+    parse_frontmatter,
+)
 
 # build local registry and import the rules defined in rules.py
 """Merged registry of all validation rules; used by main() to run checks."""
 
 RULE_REGISTRY = RuleRegistry()
 RULE_REGISTRY.include_registry(rules.RULE_REGISTRY)
+
+"""A mistune Markdown parser configured for AST output."""
+_MD = mistune.create_markdown(
+    renderer="ast", plugins=[_mistune_strikethrough, _mistune_table]
+)
 
 
 """Public symbols exported by this module."""
@@ -148,6 +163,27 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     if m:
         body = text[m.end() :]
 
+    # Parse the Markdown text into an AST once, so all rules can share the
+    # structured representation instead of each rule re-parsing with regex.
+    try:
+        ast = _MD(text)
+    except Exception:
+        ast = []
+
+    # Collect valid heading start positions from AST for cross-validation.
+    # This ensures regex-found session headings correspond to real Markdown
+    # headings (not false positives inside code blocks or comments).
+    ast_heading_positions: set[int] = set()
+    if ast:
+        for node in iter_ast(ast):
+            if node.get("type") == "heading":
+                raw_text = ast_collect_text(node)
+                idx = text.find(
+                    f"{'#' * node.get('attrs', {}).get('level', 2)} {raw_text}"
+                )
+                if idx != -1:
+                    ast_heading_positions.add(idx)
+
     # Only allow: week N type [number]. Type = lecture|lab|tutorial (optional number). Status has no bearing on heading.
     session_headers: list[tuple[str, str, str, int]] = []
     _session_heading_re = re.compile(
@@ -155,6 +191,9 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
         re.IGNORECASE | re.MULTILINE,
     )
     for m in _session_heading_re.finditer(text):
+        # Skip matches that don't correspond to real AST headings
+        if ast_heading_positions and m.start() not in ast_heading_positions:
+            continue
         week = m.group(1)
         typ = m.group(2).strip().lower()
         session_headers.append((week, typ, m.group(0).strip(), m.start()))
@@ -162,6 +201,7 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     ctx = ValidationContext(
         path=path,
         text=text,
+        ast=ast,
         front=front,
         data=data,
         body=body,

@@ -11,6 +11,7 @@ excerpt generation, and other small functions that are not rules themselves.
 """
 
 import re
+from collections.abc import Iterator
 
 from anyio import Path
 
@@ -26,6 +27,12 @@ __all__ = (
     "aggregate",
     "DEFAULT_PATHS",
     "FRONT_RE",
+    # AST helpers
+    "iter_ast",
+    "filter_ast",
+    "ast_collect_text",
+    "ast_headings",
+    "ast_sections",
 )
 
 # regex used by parse_frontmatter; accepts optional whitespace and both
@@ -285,3 +292,80 @@ async def aggregate(
             entry.col = err.col
         agg.setdefault(err.rule_id, []).append(entry)
     return agg
+
+
+# AST helpers (mistune) ------------------------------------------------------
+
+
+def iter_ast(nodes: list[dict]) -> Iterator[dict]:
+    """Recursively yield all AST nodes depth-first pre-order from *nodes*."""
+    for node in nodes:
+        yield node
+        children = node.get("children")
+        if children:
+            yield from iter_ast(children)
+
+
+def filter_ast(nodes: list[dict], node_type: str) -> Iterator[dict]:
+    """Yield only AST nodes whose ``type`` equals *node_type*."""
+    return (n for n in iter_ast(nodes) if n.get("type") == node_type)
+
+
+def ast_collect_text(node: dict) -> str:
+    """Collect all ``raw`` text from *node* and its children recursively."""
+
+    def _walk(n: dict, parts: list[str]) -> None:
+        if "raw" in n:
+            parts.append(n["raw"])
+        for c in n.get("children", []):
+            _walk(c, parts)
+
+    parts: list[str] = []
+    _walk(node, parts)
+    return "".join(parts)
+
+
+def ast_headings(ast_nodes: list[dict]) -> list[dict]:
+    """Return summary dicts for every heading in *ast_nodes*.
+
+    Each result has keys ``type``, ``level``, ``text``, ``node``.
+    """
+    result: list[dict] = []
+    for node in filter_ast(ast_nodes, "heading"):
+        result.append(
+            {
+                "type": "heading",
+                "level": node.get("attrs", {}).get("level", 1),
+                "text": ast_collect_text(node),
+                "node": node,
+            }
+        )
+    return result
+
+
+def ast_sections(ast_nodes: list[dict]) -> list[dict]:
+    """Split the top-level AST into heading-delimited sections.
+
+    Returns a list of dicts with keys ``heading`` (the heading node, or
+    ``None`` for the preamble) and ``children`` (non-heading nodes in that
+    section).  ``blank_line`` nodes are silently dropped.
+    """
+    sections: list[dict] = []
+    current_children: list[dict] = []
+    current_heading: dict | None = None
+
+    for node in ast_nodes:
+        if node.get("type") == "heading":
+            if current_heading is not None or current_children:
+                sections.append(
+                    {"heading": current_heading, "children": current_children}
+                )
+            current_heading = node
+            current_children = []
+        elif node.get("type") != "blank_line":
+            current_children.append(node)
+
+    if current_heading is not None or current_children:
+        sections.append({"heading": current_heading, "children": current_children})
+
+    return sections
