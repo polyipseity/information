@@ -15,6 +15,9 @@ from check_mods.rules import (
     agents_no_flashcard_markup,
     agents_title,
     aliases_sorted,
+    assignment_index_heading,
+    assignment_index_metadata,
+    assignment_index_sections,
     cloze_no_nested,
     cloze_open_close_matching,
     cloze_single_line,
@@ -60,6 +63,7 @@ from check_mods.rules import (
     session_heading_format,
     session_missing_topic,
     session_unscheduled_with_topic,
+    tag_index_function,
     tag_language,
     tag_path_flash,
     topic_note_redundant_filename_prefix,
@@ -1562,3 +1566,117 @@ async def test_file_level_suppression_redundant(tmp_path: PathLike[str]):
 
     msgs = list(await check_markdown_file(file))
     assert any(m.rule_id == "suppression-redundant" for m in msgs), msgs
+
+
+# assignment index rules -----------------------------------------------------
+
+
+def test_index_heading_skips_assignment_index():
+    """index_heading should not fire on assignments/*/index.md."""
+    # Assignment index without # index — should NOT fire
+    txt = "# problem set 3\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/assignments/problem set 3/index.md"))
+    assert not index_heading(ctx)
+
+    # Regular index without # index — SHOULD fire
+    ctx2 = make_ctx(txt, path=Path("/tmp/course/index.md"))
+    assert index_heading(ctx2)
+
+
+def test_index_children_skips_assignment_index():
+    """index_children should not fire on assignments/*/index.md."""
+    txt = "# problem set 3\n## attachments\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/assignments/problem set 3/index.md"))
+    assert not index_children(ctx)
+
+    # Regular index without children — SHOULD fire
+    txt2 = "# index\n"
+    ctx2 = make_ctx(txt2, path=Path("/tmp/course/index.md"))
+    assert index_children(ctx2)
+
+
+def test_tag_index_function_skips_assignment_index():
+    """tag_index_function should not fire on assignments/*/index.md."""
+    txt = "---\naliases: [a]\ntags: [language/in/English]\n---\n# problem set 3\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/assignments/problem set 3/index.md"))
+    assert not tag_index_function(ctx)
+
+    # Regular index without function/index tag — SHOULD fire
+    ctx2 = make_ctx(txt, path=Path("/tmp/course/index.md"))
+    assert tag_index_function(ctx2)
+
+
+def test_assignment_index_heading():
+    """assignment_index_heading checks for # problem set N heading."""
+    # Assignment index with correct heading — not an error
+    txt = "# problem set 3\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/assignments/problem set 3/index.md"))
+    assert not assignment_index_heading(ctx)
+
+    # Assignment index with wrong heading — SHOULD fire
+    txt2 = "# wrong heading\n"
+    ctx2 = make_ctx(txt2, path=Path("/tmp/course/assignments/problem set 3/index.md"))
+    msgs = assignment_index_heading(ctx2)
+    assert msgs and "missing heading" in msgs[0].msg
+
+    # Non-assignment path — should NOT fire
+    ctx3 = make_ctx(txt, path=Path("/tmp/course/index.md"))
+    assert not assignment_index_heading(ctx3)
+
+
+def test_assignment_index_metadata():
+    """assignment_index_metadata checks for title/due/points/submitting."""
+    complete = (
+        "---\n"
+        "aliases: [a]\n"
+        "tags: [language/in/English]\n"
+        "---\n"
+        "# problem set 3\n"
+        "---\n"
+        "- title: Some Title\n"
+        "- due: 2026-02-16\n"
+        "- points: 10\n"
+        "- submitting: Canvas\n"
+    )
+    ctx = make_ctx(
+        complete, path=Path("/tmp/course/assignments/problem set 3/index.md")
+    )
+    assert not assignment_index_metadata(ctx)
+
+    # Missing fields — SHOULD fire
+    missing = "---\naliases: [a]\ntags: [language/in/English]\n---\n# problem set 3\n---\n- title: only title\n"
+    ctx2 = make_ctx(
+        missing, path=Path("/tmp/course/assignments/problem set 3/index.md")
+    )
+    msgs = assignment_index_metadata(ctx2)
+    assert msgs
+    assert any("due" in m.msg for m in msgs)
+    assert any("points" in m.msg for m in msgs)
+    assert any("submitting" in m.msg for m in msgs)
+
+    # Non-assignment path — should NOT fire
+    ctx3 = make_ctx(missing, path=Path("/tmp/course/index.md"))
+    assert not assignment_index_metadata(ctx3)
+
+
+def test_assignment_index_sections():
+    """assignment_index_sections checks for attachments/submission/solution sections."""
+    complete = "# problem set 3\n\n## attachments\n\n## submission\n\n## solution\n"
+    ctx = make_ctx(
+        complete, path=Path("/tmp/course/assignments/problem set 3/index.md")
+    )
+    assert not assignment_index_sections(ctx)
+
+    # Missing sections — SHOULD fire
+    missing = "# problem set 3\n## attachments\n"
+    ctx2 = make_ctx(
+        missing, path=Path("/tmp/course/assignments/problem set 3/index.md")
+    )
+    msgs = assignment_index_sections(ctx2)
+    assert msgs
+    assert any("submission" in m.msg for m in msgs)
+    assert any("solution" in m.msg for m in msgs)
+
+    # Non-assignment path — should NOT fire
+    ctx3 = make_ctx(missing, path=Path("/tmp/course/index.md"))
+    assert not assignment_index_sections(ctx3)

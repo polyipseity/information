@@ -124,10 +124,15 @@ def tag_index_function(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure that index.md files include the 'function/index' tag.
 
     Only applies when the filename is literally 'index.md'.
+    Skips assignment-specific indexes (``assignments/*/index.md``).
     """
     errors: list[ValidationMessage] = []
     tags: list[str] = ctx.data.tags or []
-    if ctx.path.name.lower() == "index.md" and "function/index" not in tags:
+    if (
+        ctx.path.name.lower() == "index.md"
+        and not _is_assignment_index(ctx)
+        and "function/index" not in tags
+    ):
         errors.append(
             ValidationMessage(
                 "tag_index_function", "index page missing 'function/index' tag"
@@ -179,14 +184,27 @@ def index_heading(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check that an index.md contains a top-level '# index' heading.
 
     Only applicable to files named 'index.md'.
+    Skips assignment-specific indexes (``assignments/*/index.md``).
     """
     errors: list[ValidationMessage] = []
-    if ctx.path.name.lower() == "index.md":
+    if ctx.path.name.lower() == "index.md" and not _is_assignment_index(ctx):
         if "# index" not in ctx.text:
             errors.append(
                 ValidationMessage("index_heading", "index.md missing '# index' heading")
             )
     return errors
+
+
+def _is_assignment_index(ctx: ValidationContext) -> bool:
+    """Check if *file* is an assignment-specific index (``assignments/*/index.md``).
+
+    Returns ``True`` for files like ``assignments/problem_set_N/index.md``
+    so that course-level index rules (heading, children, function/index tag)
+    can skip them.  The master ``assignments/index.md`` is **not** affected.
+    """
+    if ctx.path.name.lower() != "index.md":
+        return False
+    return ctx.path.parent.parent.name == "assignments"
 
 
 def _extract_named_h2_section(text: str, heading: str) -> list[tuple[int, str]]:
@@ -287,13 +305,84 @@ def index_children(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure index.md includes a 'children' section or heading.
 
     Looks for either '## children' or a literal 'children:' string.
+    Skips assignment-specific indexes (``assignments/*/index.md``).
     """
     errors: list[ValidationMessage] = []
-    if ctx.path.name.lower() == "index.md":
+    if ctx.path.name.lower() == "index.md" and not _is_assignment_index(ctx):
         if "## children" not in ctx.text and "children:" not in ctx.text:
             errors.append(
                 ValidationMessage(
                     "index_children", "index.md missing 'children' section"
+                )
+            )
+    return errors
+
+
+# assignment index structure -------------------------------------------------
+
+
+@RULE_REGISTRY.register()
+def assignment_index_heading(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check that an assignment index has a ``# problem set N`` heading.
+
+    The expected heading is derived from the parent folder name (e.g. a file
+    at ``assignments/problem set 3/index.md`` must contain
+    ``# problem set 3``).  Only fires on ``assignments/*/index.md``.
+    """
+    errors: list[ValidationMessage] = []
+    if not _is_assignment_index(ctx):
+        return errors
+    folder = ctx.path.parent.name  # e.g. "problem set 3"
+    expected = f"# {folder}"
+    if expected not in ctx.text:
+        errors.append(
+            ValidationMessage(
+                "assignment_index_heading",
+                f"missing heading '{expected}' for assignment index",
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def assignment_index_metadata(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check that an assignment index has a metadata block with key fields.
+
+    Expects a ``---``-delimited block containing fields for
+    ``title:`` / ``**title:**``, ``due:`` / ``**due:**``, ``points:`` /
+    ``**points:**``, and ``submitting:`` / ``**submitting:**``.
+    Only fires on ``assignments/*/index.md``.
+    """
+    errors: list[ValidationMessage] = []
+    if not _is_assignment_index(ctx):
+        return errors
+    for field in ("title:", "due:", "points:", "submitting:"):
+        if field not in ctx.text:
+            errors.append(
+                ValidationMessage(
+                    "assignment_index_metadata",
+                    f"missing '{field}' in metadata block",
+                )
+            )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def assignment_index_sections(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Check that an assignment index has the required subsections.
+
+    Expects ``## attachments``, ``## submission``, and ``## solution``
+    headings.  Only fires on ``assignments/*/index.md``.
+    """
+    errors: list[ValidationMessage] = []
+    if not _is_assignment_index(ctx):
+        return errors
+    for section in ("attachments", "submission", "solution"):
+        if f"## {section}" not in ctx.text:
+            errors.append(
+                ValidationMessage(
+                    "assignment_index_sections",
+                    f"missing '## {section}' section",
                 )
             )
     return errors
