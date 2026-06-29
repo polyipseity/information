@@ -21,6 +21,7 @@ from check_mods.rules import (
     cloze_open_close_matching,
     cloze_single_line,
     cloze_wrong_closing_token,
+    find_math_spans,
     folder_link_trailing_slash,
     header_flashcard_presence,
     header_flashcard_sections_duplicate,
@@ -39,6 +40,7 @@ from check_mods.rules import (
     latex_block_no_newline,
     latex_disallowed_delimiters,
     latex_environment_not_wrapped,
+    latex_not_standalone,
     latex_single_line,
     latex_spacing_after,
     latex_spacing_before,
@@ -1726,3 +1728,208 @@ def test_assignment_index_sections():
     # Non-assignment path — should NOT fire
     ctx3 = make_ctx(missing, path=Path("/tmp/course/index.md"))
     assert not assignment_index_sections(ctx3)
+
+
+# ── find_math_spans state machine ─────────────────────────────────────
+
+
+def test_find_math_spans_empty():
+    """No math in text returns empty list."""
+    assert find_math_spans("") == []
+    assert find_math_spans("no dollars here") == []
+    assert find_math_spans("plain text with $ alone") == []
+
+
+def test_find_math_spans_inline_basic():
+    """Basic inline $...$ spans."""
+    assert find_math_spans("$a$") == [(0, 3)]
+    assert find_math_spans("$ab$") == [(0, 4)]
+    assert find_math_spans("x$a$y") == [(1, 4)]
+    assert find_math_spans("  $x=1$  ") == [(2, 7)]
+
+
+def test_find_math_spans_display_basic():
+    """Basic display $$...$$ spans."""
+    assert find_math_spans("$$a$$") == [(0, 5)]
+    assert find_math_spans("x$$ab$$y") == [(1, 7)]
+
+
+def test_find_math_spans_display_with_inline():
+    """Display math containing interior $ is still one span."""
+    assert find_math_spans("$$a$b$$") == [(0, 7)]
+    assert find_math_spans("$$x=1$$ $y=2$") == [(0, 7), (8, 13)]
+
+
+def test_find_math_spans_adjacent():
+    """Adjacent $...$ expressions with separators work correctly."""
+    assert find_math_spans("$a$, $b$") == [(0, 3), (5, 8)]
+    assert find_math_spans("$a=1$, $b=2$") == [(0, 5), (7, 12)]
+    assert find_math_spans("($a$), ($b$)") == [(1, 4), (8, 11)]
+    assert find_math_spans("$a$ and $b$") == [(0, 3), (8, 11)]
+
+
+def test_find_math_spans_adjacent_no_separator():
+    """Adjacent $...$ without separator ($a$$b$) — parsed as two inline spans."""
+    assert find_math_spans("$a$$b$") == [(0, 3), (3, 6)]
+    assert find_math_spans("$x=1$$y=2$") == [(0, 5), (5, 10)]
+    # $a$$$b$  →  $a$ (0,3), then $$ at (3,4) no close, then $b$ (4,7)
+    assert find_math_spans("$a$$$b$") == [(0, 3), (4, 7)]
+
+
+def test_find_math_spans_unpaired():
+    """Unpaired dollar signs don't produce spans."""
+    assert find_math_spans("$a") == []
+    assert find_math_spans("$$a") == []
+    assert find_math_spans("$a$b") == [(0, 3)]  # $b unpaired
+    assert find_math_spans("$a$$b") == [(0, 3)]  # $b unpaired
+    assert find_math_spans("$$a$$$") == [(0, 5)]  # trailing $ unpaired
+
+
+def test_find_math_spans_mixed():
+    """Multiple inline/display expressions on different lines."""
+    text = "inline $x$ and display $$y$$ and again $z$\n"
+    assert find_math_spans(text) == [(7, 10), (23, 28), (39, 42)]
+
+
+# ── latex_spacing_before with find_math_spans ─────────────────────────
+
+
+def test_latex_spacing_before_adjacent_math():
+    """Adjacent $...$ expressions don't produce false positives."""
+    txt = "values $x=1$, $y=2$ rest\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "adjacent inline math with comma separator is ok"
+
+    txt = "($a$)\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "paren before dollar is ok"
+
+    txt = "$a$ and $b$\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "two math expressions separated by text is ok"
+
+
+def test_latex_spacing_before_still_catches():
+    """Adjacent math parsing still detects real spacing issues."""
+    # 'a' directly before $ is a spacing error
+    txt = "word$a$ expression\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert msgs, "word directly before dollar should be caught"
+
+    # but punctuation before $ is ok
+    txt = "word,$a$ expression\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "comma before dollar is ok"
+
+    # comma-then-space before dollar is ok
+    txt = "word, $a$ expression\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "comma-space before dollar is ok"
+
+
+# ── latex_spacing_after with find_math_spans ──────────────────────────
+
+
+def test_latex_spacing_after_adjacent_math():
+    """Adjacent $...$ expressions don't produce false positives for spacing after."""
+    txt = "values $x=1$, $y=2$ rest\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "comma after closing dollar is ok"
+
+    txt = "($x=1$)\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "closing paren after dollar is ok"
+
+
+def test_latex_spacing_after_still_catches():
+    """Adjacent math parsing still detects real spacing issues after math."""
+    txt = "Bad $x=1$word continuation\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert msgs, "word directly after dollar should be caught"
+
+    # punctuation after dollar is ok
+    txt = "Ok $x=1$, next\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "comma after dollar is ok"
+
+
+# ── latex_not_standalone ──────────────────────────────────────────────
+
+
+def test_latex_not_standalone_passthrough():
+    """Inline math and display math sharing a line don't trigger."""
+    txt = "Inline $x = 1$ here.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_not_standalone(ctx)
+    assert not msgs, "inline math in prose is fine"
+
+    txt = "The equation $$x = 1$$ is important.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_not_standalone(ctx)
+    assert not msgs, "display math sharing a line with text does not trigger"
+
+
+def test_latex_not_standalone_detects():
+    """Display math occupying an entire line is flagged."""
+    txt = "$$\nx = 1\n$$\n"
+    ctx = make_ctx(txt)
+    msgs = latex_not_standalone(ctx)
+    assert msgs, "display math on its own line should be flagged"
+
+
+def test_latex_not_standalone_adjacent():
+    """Adjacent math expressions parsed by state machine don't confuse the rule."""
+    txt = "Values $x=1$, $y=2$ are set.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_not_standalone(ctx)
+    assert not msgs, "adjacent inline math should be fine"
+
+    txt = "$$\nx=1\n$$\n\n$$\ny=2\n$$\n"
+    ctx = make_ctx(txt)
+    msgs = latex_not_standalone(ctx)
+    assert msgs, "multiple standalone display math blocks should each be flagged"
+
+
+# ── unit_outside_math with find_math_spans ────────────────────────────
+
+
+def test_unit_outside_math_adjacent():
+    """Adjacent math expressions don't generate false positives for unit rule."""
+    # Two adjacent math expressions, no unit
+    txt = "values $x=1$$y=2$ in text\n"
+    ctx = make_ctx(txt)
+    msgs = unit_outside_math(ctx)
+    assert not msgs, "adjacent math (no unit) should not trigger"
+
+    # Unit after adjacent math — should still trigger
+    txt = "current $I=10$ A in text\n"
+    ctx = make_ctx(txt)
+    msgs = unit_outside_math(ctx)
+    assert msgs, "unit after math should still trigger"
+
+    # Adjacent math with unit after second expression
+    txt = "The values $x=10$ $y=2$ A\n"
+    ctx = make_ctx(txt)
+    msgs = unit_outside_math(ctx)
+    assert msgs, "unit after second adjacent math should trigger"
+
+
+def test_unit_outside_math_no_false_positive_adjacent():
+    """Adjacent math where first ends with digit doesn't cause unit false alarm on second."""
+    # Both math expressions end with digits but no unit follows
+    txt = "values $x=10$$y=20$ here\n"
+    ctx = make_ctx(txt)
+    msgs = unit_outside_math(ctx)
+    assert not msgs, (
+        "adjacent math ending in digits with no following unit should not trigger"
+    )

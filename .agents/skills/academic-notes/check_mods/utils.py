@@ -11,6 +11,15 @@ from collections.abc import Iterator
 import mistune
 from anyio import Path
 from mistune.plugins.formatting import strikethrough as _mistune_strikethrough
+from mistune.plugins.math import (
+    math as _mistune_math,
+)
+from mistune.plugins.math import (
+    math_in_list as _mistune_math_in_list,
+)
+from mistune.plugins.math import (
+    math_in_quote as _mistune_math_in_quote,
+)
 from mistune.plugins.table import table as _mistune_table
 
 from .models import PreviewEntry, ValidationMessage
@@ -41,7 +50,14 @@ __all__ = (
 # shared mistune parser (AST output) used by validator and tests
 """A mistune Markdown parser configured for AST output."""
 _MD = mistune.create_markdown(
-    renderer="ast", plugins=[_mistune_strikethrough, _mistune_table]
+    renderer="ast",
+    plugins=[
+        _mistune_strikethrough,
+        _mistune_table,
+        _mistune_math,
+        _mistune_math_in_quote,
+        _mistune_math_in_list,
+    ],
 )
 
 """Default root directories scanned when no paths are supplied on the command line."""

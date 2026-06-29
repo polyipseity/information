@@ -1725,6 +1725,98 @@ def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
 # math and unit rules --------------------------------------------------------
 
 
+def find_math_spans(text: str, ast: list[dict] | None = None) -> list[tuple[int, int]]:
+    """Find LaTeX math spans ``$…$`` and ``$$…$$``.
+
+    When *ast* is provided (a mistune AST), uses the AST's
+    ``inline_math`` and ``block_math`` nodes to locate math spans.
+    This is the primary detection path used by rules.
+
+    Without *ast*, falls back to a state machine that correctly handles
+    adjacent ``$…$`` expressions (unlike a naive regex).  The fallback
+    exists for convenience (e.g. tests that call this function directly
+    without a full AST).
+
+    Returns ``(start, end)`` tuples for each span, where *end* is the
+    index **after** the closing delimiters.
+    """
+    if ast is not None:
+        return _find_math_spans_ast(text, ast)
+    return _find_math_spans_fallback(text)
+
+
+def _find_math_spans_fallback(text: str) -> list[tuple[int, int]]:
+    """State machine fallback for :func:`find_math_spans`.
+
+    Correctly handles adjacent ``$…$`` expressions by treating the closing
+    ``$`` of one expression strictly as a delimiter, never as the potential
+    start of a new match.
+
+    Edge cases:
+
+    - An unpaired ``$`` is treated as a literal dollar sign.
+    - ``$$`` display math is matched with the next ``$$``.
+    - A single ``$`` immediately before ``$$`` (e.g. ``$…$$$``) is not valid
+      display math so the algorithm attempts to pair it with a plain
+      ``$`` first.
+    """
+    spans: list[tuple[int, int]] = []
+    i = 0
+    n = len(text)
+    while i < n:
+        if text[i] != "$":
+            i += 1
+            continue
+        if i + 1 < n and text[i + 1] == "$":
+            end = text.find("$$", i + 2)
+            if end != -1:
+                spans.append((i, end + 2))
+                i = end + 2
+            else:
+                i += 1
+        else:
+            end = text.find("$", i + 1)
+            if end != -1:
+                spans.append((i, end + 1))
+                i = end + 1
+            else:
+                i += 1
+    return spans
+
+
+def _find_math_spans_ast(text: str, ast: list[dict]) -> list[tuple[int, int]]:
+    """AST-based math span detection using mistune.
+
+    Walks the AST for ``inline_math`` / ``block_math`` nodes and locates
+    each span in *text* by searching for the reconstructed
+    ``$…$``/``$$…$$`` string with an advancing cursor.  Produces
+    identical results to the state machine for well-formed input; the only
+    known difference is ``$$a$$$``, where mistune consumes the trailing
+    ``$`` as part of the ``block_math`` raw content.
+    """
+    spans: list[tuple[int, int]] = []
+    cursor = 0
+    for node in iter_ast(ast):
+        if node.get("type") == "inline_math":
+            raw = node["raw"]
+            search = f"${raw}$"
+            idx = text.find(search, cursor)
+            if idx >= 0:
+                spans.append((idx, idx + len(search)))
+                cursor = idx + len(search)
+        elif node.get("type") == "block_math":
+            raw = node["raw"]
+            # mistune strips leading/trailing whitespace from
+            # block_math.raw, so use a regex that allows flexible
+            # whitespace around the raw content.
+            pat = re.compile(r"\$\$\s*" + re.escape(raw) + r"\s*\$\$")
+            m = pat.search(text, cursor)
+            if m:
+                spans.append((m.start(), m.end()))
+                cursor = m.end()
+    return spans
+
+
 @RULE_REGISTRY.register()
 def unit_outside_math(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when units appear immediately after math without delimiters.
@@ -1739,20 +1831,16 @@ def unit_outside_math(ctx: ValidationContext) -> list[ValidationMessage]:
     errors: list[ValidationMessage] = []
     text = ctx.text
 
-    # walk through every math-delimited span and inspect following text
-    math_re = re.compile(r"(\$\$?.*?\$\$?)", re.DOTALL)
     unit_pat = re.compile(r"^(?:V|A|Ω|W|mW|kΩ|C|Hz)\b")
 
-    for mblock in math_re.finditer(text):
+    for start_idx, end_idx in find_math_spans(text, ctx.ast):
         # only flag units when the math expression ends in a numeric value;
         # otherwise the following 'A' is more likely an English article.
-        inner = mblock.group(1)
+        inner = text[start_idx:end_idx]
         # strip delimiters ($ or $$) and trailing whitespace
         inner_content = inner.strip("$ ").rstrip()
         if not re.search(r"\d$", inner_content):
             continue
-
-        end_idx = mblock.end()
         idx = end_idx
         # skip whitespace
         while idx < len(text) and text[idx].isspace():
@@ -2038,15 +2126,13 @@ def latex_not_standalone(ctx: ValidationContext) -> list[ValidationMessage]:
     """
     errors: list[ValidationMessage] = []
     text = ctx.text
-    for m in re.finditer(r"\$\$?.*?\$\$?", text, re.DOTALL):
-        start_idx = m.start()
-        end_idx = m.end()
+    for start_idx, end_idx in find_math_spans(text, ctx.ast):
         line_start = text.rfind("\n", 0, start_idx) + 1
         line_end = text.find("\n", end_idx)
         if line_end == -1:
             line_end = len(text)
         line = text[line_start:line_end].strip()
-        if line == m.group(0):
+        if line == text[start_idx:end_idx]:
             length = end_idx - start_idx
             line_no, col_no, col_end = locate_range(ctx.text, start_idx, length)
             errors.append(
@@ -2077,10 +2163,9 @@ def latex_spacing_before(ctx: ValidationContext) -> list[ValidationMessage]:
         """Return True if byte offset *idx* is inside a fenced code block."""
         return text[:idx].count("```") % 2 == 1
 
-    for m in re.finditer(r"\$\$?.*?\$\$?", text, re.DOTALL):
-        if in_code_fence(m.start()):
+    for start_idx, _ in find_math_spans(text, ctx.ast):
+        if in_code_fence(start_idx):
             continue
-        start_idx = m.start()
         if start_idx > 0:
             prev_char = text[start_idx - 1]
             # opening parenthesis or opening brace is acceptable
@@ -2120,10 +2205,9 @@ def latex_spacing_after(ctx: ValidationContext) -> list[ValidationMessage]:
         """Return True if byte offset *idx* is inside a fenced code block."""
         return text[:idx].count("```") % 2 == 1
 
-    for m in re.finditer(r"\$\$?.*?\$\$?", text, re.DOTALL):
-        if in_code_fence(m.start()):
+    for start_idx, end_idx in find_math_spans(text, ctx.ast):
+        if in_code_fence(start_idx):
             continue
-        end_idx = m.end()
         if end_idx < len(text):
             next_char = text[end_idx]
             if (
