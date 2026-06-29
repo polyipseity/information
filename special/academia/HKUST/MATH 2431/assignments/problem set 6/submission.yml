@@ -1,6 +1,7 @@
 assignment:
   comments: {}
-  content: 'Problem Set 6, due on Friday, 10/04/2026, until 13:30 (1:30 PM) Hong Kong
+  content:
+    "Problem Set 6, due on Friday, 10/04/2026, until 13:30 (1:30 PM) Hong Kong
     Time (UTC +8), to be uploaded on Canvas.
 
     PS6.pdf
@@ -8,7 +9,7 @@ assignment:
 
 
 
-    Download PS6.pdf'
+    Download PS6.pdf"
   grade:
     entered: 8
     graded anonymously: false
@@ -18,10 +19,10 @@ assignment:
     due: 2026-04-10 13:30:00-07:00
     points: 8
     submitting:
-    - a text entry box or a file upload
+      - a text entry box or a file upload
   submissions:
-  - datetime: 2026-04-09 17:56:00-07:00
-    id: -1
+    - datetime: 2026-04-09 17:56:00-07:00
+      id: -1
   title: Problem Set 6
 course:
   id: 69402

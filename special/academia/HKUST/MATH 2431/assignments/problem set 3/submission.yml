@@ -1,6 +1,7 @@
 assignment:
   comments: {}
-  content: 'Problem Set 3, due on Friday, 06/03/2026, until 13:30 (1:30 PM) Hong Kong
+  content:
+    "Problem Set 3, due on Friday, 06/03/2026, until 13:30 (1:30 PM) Hong Kong
     Time (UTC +8), to be uploaded on Canvas.
 
     Update (04/03/2026, 10:20 PM): Small clarification on Problem 1.
@@ -9,7 +10,7 @@ assignment:
 
 
 
-    Actions'
+    Actions"
   grade:
     entered: 8
     graded anonymously: false
@@ -19,10 +20,10 @@ assignment:
     due: 2026-03-06 13:30:00-07:00
     points: 8
     submitting:
-    - a text entry box or a file upload
+      - a text entry box or a file upload
   submissions:
-  - datetime: 2026-03-05 21:00:00-07:00
-    id: -1
+    - datetime: 2026-03-05 21:00:00-07:00
+      id: -1
   title: Problem Set 3
 course:
   id: 69402
