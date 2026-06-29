@@ -1170,7 +1170,12 @@ def test_latex_spacing_ignore_code():
 
 
 def test_latex_disallowed_delimiters():
-    r"""Only \(\) or \[\] should be flagged; generic \\ is fine."""
+    r"""Only \(\) or \[\] should be flagged; generic \\ is fine.
+
+    The regex uses a negative lookbehind ``(?<!\\)`` to avoid matching
+    ``\[``/``\]``/``\(``/``\)`` that follow a double backslash (common
+    in TeX line breaks like ``\\[4pt]``).
+    """
     txt = "Use \\(...\\) style instead of $...$\n"
     ctx = make_ctx(txt)
     msgs = latex_disallowed_delimiters(ctx)
@@ -1180,6 +1185,29 @@ def test_latex_disallowed_delimiters():
     ctx = make_ctx(txt)
     msgs = latex_disallowed_delimiters(ctx)
     assert not msgs, "plain double backslash should not trigger the rule"
+
+    # TeX line breaks with optional spacing arguments — the previous
+    # regex falsely flagged these because ``\[`` appears after ``\\``.
+    txt = "first line \\\\[4pt] second line\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert not msgs, r"\\[4pt] (TeX linebreak with spacing) should not trigger"
+
+    txt = "first line \\\\[2pt] second line\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert not msgs, r"\\[2pt] should not trigger"
+
+    txt = "first line \\\\[-2pt] second line\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert not msgs, r"\\[-2pt] (negative spacing) should not trigger"
+
+    # Standalone \[ / \] block delimiters should still be flagged.
+    txt = r"\[E = mc^2\] is block math.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert msgs, r"\[ ... \] should still be flagged"
 
 
 def test_latex_environment_unwrapped():

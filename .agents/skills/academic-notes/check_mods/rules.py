@@ -1844,7 +1844,7 @@ def latex_disallowed_delimiters(ctx: ValidationContext) -> list[ValidationMessag
     # is common in TeX macros (\Omega, line breaks, etc.) and produced
     # spurious warnings.  Restricting the pattern to the exact four sequences
     # resolves those false positives.
-    m = re.search(r"\\\[|\\\]|\\\(|\\\)", ctx.text)
+    m = re.search(r"(?<!\\)(?:\\\[|\\\]|\\\(|\\\))", ctx.text)
     if m:
         length = len(m.group(0))
         line, col, col_end = locate_range(ctx.text, m.start(), length)
