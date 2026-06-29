@@ -1110,6 +1110,28 @@ def test_cloze_wrong_closing_token_rule():
     assert not cloze_wrong_closing_token(good)
 
 
+def test_cloze_wrong_closing_token_latex_math():
+    """``}}`` inside ``$...$`` / ``$$...$$`` within a cloze is LaTeX brace nesting, not a
+    cloze terminator typo."""
+
+    # ``}}`` inside ``$...$`` inline math: \mathbf 1_{\{...\}} pattern
+    good = make_ctx(r"Text {@{$\mathbf 1_{\{Z>0\}}$}@} rest." "\n")
+    assert not cloze_wrong_closing_token(good)
+
+    # ``}}`` inside ``$$...$$`` display math
+    good = make_ctx(r"Text {@{$$x = \int_{\mathbb{R}} f\,d\mu$$}@} rest." "\n")
+    assert not cloze_wrong_closing_token(good)
+
+    # ``}}`` inside ``$...$`` with nested braces from \frac
+    good = make_ctx(r"Text {@{$\frac{n!}{(1+\mu)^{n+1}}$}@} rest." "\n")
+    assert not cloze_wrong_closing_token(good)
+
+    # Escaped ``\$`` should not be treated as a math delimiter
+    bad = make_ctx(r"Text {@{price is \$100}} next." "\n")
+    msgs = cloze_wrong_closing_token(bad)
+    assert msgs and any("wrong cloze closing token" in m.msg for m in msgs)
+
+
 def test_cloze_single_line_rule():
     """Multiline cloze content should be rejected."""
 

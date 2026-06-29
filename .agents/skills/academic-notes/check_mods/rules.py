@@ -2767,11 +2767,17 @@ def cloze_open_close_matching(ctx: ValidationContext) -> list[ValidationMessage]
 
 @RULE_REGISTRY.register()
 def cloze_wrong_closing_token(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Check for wrong cloze close token '}}' where '}@}' is required."""
+    """Check for wrong cloze close token '}}' where '}@}' is required.
+
+    ``}}`` inside ``{@{}...{}@}`` is a false positive when it is LaTeX brace
+    nesting inside ``$...$`` or ``$$...$$`` math mode.  Track math delimiters
+    to skip those occurrences.
+    """
     errors: list[ValidationMessage] = []
     text = ctx.text
 
     depth = 0
+    in_math = False
     i = 0
     n = len(text)
     while i < n:
@@ -2781,27 +2787,41 @@ def cloze_wrong_closing_token(ctx: ValidationContext) -> list[ValidationMessage]
             continue
         if text.startswith("}@}", i):
             depth = max(depth - 1, 0)
+            in_math = False
             i += 3
             continue
 
-        if depth > 0 and text.startswith("}}", i):
-            next_char = text[i + 2] if i + 2 < n else ""
-            # Only flag when it looks like a cloze terminator typo, not generic
-            # LaTeX brace nesting inside the cloze body.
-            if next_char == "" or next_char.isspace() or next_char in ".,;:!?)]":
-                line_no, col_no = locate(text, i)
-                _, _, col_end = locate_range(text, i, 2)
-                errors.append(
-                    ValidationMessage(
-                        rule_id="cloze_wrong_closing_token",
-                        msg="wrong cloze closing token '}}' found; use '}@}' instead.",
-                        line=line_no,
-                        col=col_no,
-                        col_end=col_end,
+        if depth > 0:
+            # Track inline/display math mode inside the cloze.
+            if text[i] == "$" and (i == 0 or text[i - 1] != "\\"):
+                # $$ display math
+                if i + 1 < n and text[i + 1] == "$":
+                    in_math = not in_math
+                    i += 2
+                    continue
+                # $ inline math
+                in_math = not in_math
+                i += 1
+                continue
+
+            if text.startswith("}}", i) and not in_math:
+                next_char = text[i + 2] if i + 2 < n else ""
+                # Only flag when it looks like a cloze terminator typo, not
+                # generic LaTeX brace nesting inside the cloze body.
+                if next_char == "" or next_char.isspace() or next_char in ".,;:!?)]":
+                    line_no, col_no = locate(text, i)
+                    _, _, col_end = locate_range(text, i, 2)
+                    errors.append(
+                        ValidationMessage(
+                            rule_id="cloze_wrong_closing_token",
+                            msg="wrong cloze closing token '}}' found; use '}@}' instead.",
+                            line=line_no,
+                            col=col_no,
+                            col_end=col_end,
+                        )
                     )
-                )
-            i += 2
-            continue
+                i += 2
+                continue
         i += 1
 
     return errors
