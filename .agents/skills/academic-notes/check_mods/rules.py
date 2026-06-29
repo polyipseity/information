@@ -1345,22 +1345,8 @@ def session_exam_order(ctx: ValidationContext) -> list[ValidationMessage]:
 # worked example of how to extend the validator.
 @RULE_REGISTRY.register()
 def section_example_heading(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Error when any section heading contains the word "example".
-
-    Course notes should **never** include stand‑alone "Example" or "Examples" sections.
-    Instead the illustrative material belongs beneath the relevant conceptual
-    heading (e.g. put circuit calculations under "KCL" rather than in an
-    isolated "Examples" block).  If a file contains a header whose text
-    includes the word *example* (case‑insensitive) the validator emits an
-    error pointing at that heading and instructs the author to remove the
-    entire section and integrate the examples appropriately.
-
-    This rule is intentionally broad: it does **not** attempt to distinguish
-    between a benign use of the word (e.g. "For example, consider…") and a
-    problematic section title.  Authors who need to cite a real-world
-    situation may either rewrite the heading or suppress the rule with the
-    usual ``<!-- check: ignore-line[...] -->`` directive, but the default
-    posture is to treat such sections as mistakes.
+    """Error when a section heading contains "example".
+    Integrate examples into relevant conceptual sections instead.
     """
     errors: list[ValidationMessage] = []
     for m in _iter_regex_headings_filtered_by_ast(ctx.text, ctx.ast):
@@ -1387,20 +1373,8 @@ def section_example_heading(ctx: ValidationContext) -> list[ValidationMessage]:
 
 @RULE_REGISTRY.register()
 def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when non-index headers start with an uppercase letter.
-
-    This stylistic rule scans all headers of level 2 or deeper and emits a
-    warning for headers whose first non-space character is an uppercase
-    **Latin** letter (A–Z) or non-alphanumeric ASCII character.
-
-    Non-Latin scripts (CJK, Cyrillic, Arabic, Greek, etc.) do not have
-    uppercase/lowercase distinction and are exempted from this rule.
-
-    Proper nouns in Latin scripts (person names, brands, acronyms) are
-    legitimate exceptions; callers can suppress the warning using a check
-    directive (for example
-    ``<!-- check: ignore-line[header_style]: proper name -->``) if the
-    capitalization is intentional.
+    """Warn when non-index headers start with an uppercase Latin letter.
+    Non-cased scripts (CJK, etc.) are exempt.
     """
     errors: list[ValidationMessage] = []
     if ctx.path.name.lower() == "index.md":
@@ -1504,12 +1478,7 @@ def agents_no_flashcard_markup(ctx: ValidationContext) -> list[ValidationMessage
 @RULE_REGISTRY.register()
 def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]:
     """Require that each non-index, non-questions header contains flashcard markers.
-
-    Index and questions pages are not topic notes; they are exempt. Searches the
-    text between the header and the next header at the same or higher level; if
-    no flashcard syntax is found, an error is returned.
-
-    This rule applies to headers at any level (e.g. #, ##, ###, etc.).
+    Index and questions pages are exempt.
     """
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
@@ -1608,12 +1577,7 @@ def header_flashcard_separator(ctx: ValidationContext) -> list[ValidationMessage
 def header_flashcard_sections_duplicate(
     ctx: ValidationContext,
 ) -> list[ValidationMessage]:
-    """Disallow duplicate flashcard sections within a single header block.
-
-    A header block should contain at most one flashcard section marker line:
-    ``Flashcards for this section are as follows:``. If duplicates are found,
-    authors should merge the sections and deduplicate overlapping cards.
-    """
+    """Disallow duplicate flashcard section markers within a single header block."""
     errors: list[ValidationMessage] = []
     name = ctx.path.name.lower()
     parent_parts = [part.casefold() for part in ctx.path.parts[:-1]]
@@ -1668,21 +1632,7 @@ def header_flashcard_sections_duplicate(
 @RULE_REGISTRY.register()
 def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when a two-sided card has LaTeX only on the right side.
-
-    Many two-sided cards containing formulas or numerical results on the
-    right-hand side require supporting data on the left so that the question
-    is answerable (e.g. numbers, variable values, circuit parameters).  Agents
-    often forget to duplicate that data before ``::@::`` and end up with
-    prompts like ``term ::@:: $a+b=c$`` which are impossible to recall.  This
-    rule scans lines with a single ``::@::`` separator; if the right portion
-    contains any inline/block LaTeX but the left portion does not, a warning
-    is emitted urging the author to add or copy the necessary data into the
-    left side.  **Note:** for calculation-style cards the left-hand prompt may
-    be arbitrarily long; including full equations or derivations is perfectly
-    acceptable and encouraged.  The warning should not be interpreted as a
-    hint to shorten the prompt – it flags missing information, not verbosity.
-    Suppress the warning only when the card is purely conceptual and involves
-    no calculation.
+    Prompts need supporting data to be answerable. Suppress only for conceptual cards.
     """
     errors: list[ValidationMessage] = []
     for idx, line in enumerate(ctx.text.splitlines(), start=1):
@@ -1731,16 +1681,7 @@ def two_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
 @RULE_REGISTRY.register()
 def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when a one-sided card has LaTeX on the answer side only.
-
-    Similar to :func:`two_sided_calc_warning`, but handles ``:@:`` cards which
-    only have a prompt on the left and an answer on the right.  If the right
-    side contains math while the left side has none, the card likely omits
-    necessary numerical data or associated diagrams; urge the author to include
-    or duplicate that data (or relevant image) in the prompt.  **For
-    calculation cards the left prompt may be arbitrarily long; write out the
-    full equation or value list – the warning is about missing answerable
-    context, not about keeping the prompt short.**
-    Suppress only for purely conceptual flashcards.
+    Same as two_sided_calc_warning for ``:@:`` cards. Suppress only for conceptual cards.
     """
     errors: list[ValidationMessage] = []
     for idx, line in enumerate(ctx.text.splitlines(), start=1):
@@ -1846,26 +1787,7 @@ def unit_outside_math(ctx: ValidationContext) -> list[ValidationMessage]:
 @RULE_REGISTRY.register()
 def numeric_text_not_latex(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when numeric expressions appear as plain text instead of math.
-
-    Course notes frequently include examples such as ``5 V``, ``50\u03a9+75\u03a9``
-    or ``I2=0.04 A`` that are meant to be read as mathematical quantities.
-    These should normally be wrapped in dollar delimiters so that LaTeX
-    rendering, spacing and unit formatting work correctly.  Authors sometimes
-    forget and type the values as ordinary prose; this rule scans each line
-    that does **not** contain any dollar sign and looks for two common
-    patterns:
-
-    1. A number followed by a unit such as ``V``, ``A``, ``\u03a9``, ``Hz``,
-       ``W`` etc.  The rule is intentionally conservative for a bare trailing
-       ``C``: it requires whitespace before ``C`` so room codes such as
-       ``4225C`` are not mistaken for charges or temperatures.
-    2. A simple variable assignment like ``I2=0.04`` where a letter and
-       digit are followed by an equals sign (the right-hand side may itself
-       include units).
-
-    Lines inside fenced code blocks are ignored entirely. Markdown link
-    targets, inline code, and HTML comments are also masked before matching so
-    percent-encoded anchors such as ``%2C`` do not produce false positives.
+    Numbers with units and variable assignments should use LaTeX delimiters.
     """
     errors: list[ValidationMessage] = []
 
@@ -2258,23 +2180,7 @@ def link_unencoded_space(ctx: ValidationContext) -> list[ValidationMessage]:
 @RULE_REGISTRY.register()
 def no_lecture_summary(ctx: ValidationContext) -> list[ValidationMessage]:
     """Error if a "lecture summary" section or list item appears.
-
-    Occasionally course notes imported or edited manually include a
-    "lecture summary" heading or bullet.  These summaries duplicate the
-    actual session content and are not allowed; authors should merge any
-    high-level comments back into the regular lecture entry.  The rule
-    scans for any level-2-or-deeper header whose text begins with
-    ``lecture summary`` (case-insensitive) or a bullet list item whose
-    text starts the same way.  An error is emitted pointing at the
-    offending line so it can be removed.
-
-    Summary‑sentence flashcards (cards whose gloss begins with the word
-    "summary") are also discouraged; they provide little learning value
-    and should be rephrased as ordinary content or deleted.  The test
-    suite ensures the rule catches both forms.
-
-    Uses the mistune AST to validate that heading matches are real headings
-    (not false positives from code fences or comments).
+    Merge summary content into regular sessions; summary flashcards are also discouraged.
     """
     errors: list[ValidationMessage] = []
     # match "## lecture summary" or deeper headings using AST validation
@@ -2454,20 +2360,7 @@ def nested_list_path(ctx: ValidationContext) -> list[ValidationMessage]:
 @RULE_REGISTRY.register()
 def qa_hierarchical_path(ctx: ValidationContext) -> list[ValidationMessage]:
     """Ensure nested QA glosses include the full hierarchical parent path.
-
-    In any academic-notes file, each nested flashcard gloss (lines containing
-    ``::@::`` or ``:@:``) should prefix its left-hand label with the complete
-    parent path rather than relying on list indentation for context. For
-    example:
-
-    - ELEC 1100
-      - ELEC 1100 / lab 1 preparation / breadboard and equipment
-        - ELEC 1100 / lab 1 preparation / breadboard and equipment / lab equipment overview ::@: ...
-
-    This rule walks the body list structure, tracking non-QA bullets as parent
-    paths.  When it encounters an indented QA line, it locates the nearest
-    less-indented parent and requires the QA's left-hand label to start with
-    ``<parent> /``.  Only the first violation is reported.
+    QA labels should start with ``<parent> /``, not rely on indentation for context.
     """
     errors: list[ValidationMessage] = []
     body = ctx.body
@@ -2625,15 +2518,8 @@ def qa_nested_indentation(ctx: ValidationContext) -> list[ValidationMessage]:
 def topic_note_redundant_filename_prefix(
     ctx: ValidationContext,
 ) -> list[ValidationMessage]:
-    """Disallow repeating the topic-note filename or title in prompts.
-
-    In topic-specific notes, the flashcard viewer already shows the filename,
-    and the page itself already shows the title, so prompts such as
-    ``probability measure / definition``, ``# probability measure`` echoed as
-    ``probability measure``, or ``discrete distributions / Poisson approximation
-    / statement`` are redundant. Top-level prompts should use only local labels
-    (for example ``definition``), while nested prompts should use only the
-    in-file parent path (for example ``Poisson approximation / statement``).
+    """Disallow repeating the topic-note filename or title in flashcard prompts.
+    Top-level prompts should use local labels; nested prompts use only the in-file parent path.
     """
 
     errors: list[ValidationMessage] = []
@@ -2973,19 +2859,8 @@ def cloze_no_nested(ctx: ValidationContext) -> list[ValidationMessage]:
 
 @RULE_REGISTRY.register()
 def no_consecutive_source_newlines(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Flag consecutive source newlines in markdown text.
-
-    This rule enforces that markdown source should not contain runs of
-    three or more consecutive newline tokens. It checks *actual*
-    newline characters and does not treat HTML line breaks such as ``<br/>``
-    as newlines.
-
-    Trailing whitespace is stripped from each source line before evaluating
-    blank-line runs so lines like ``"   \n"`` behave like empty lines.
-
-    To cover quoted content, lines that consist only of blockquote markers
-    (``>``, ``>>``, ``> >`` etc.) are treated as blank for this rule.
-    Mixed line endings (``\n``, ``\r\n``, and ``\r``) are handled explicitly.
+    """Flag runs of three or more consecutive newlines in markdown source.
+    Blockquote-only lines are treated as blank for this rule.
     """
 
     errors: list[ValidationMessage] = []
@@ -3046,16 +2921,7 @@ def no_consecutive_source_newlines(ctx: ValidationContext) -> list[ValidationMes
 @RULE_REGISTRY.register()
 def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag soft-wrapped paragraphs (stray newlines inside prose).
-
-    Uses the mistune AST to detect ``softbreak`` nodes inside paragraph
-    blocks, automatically skipping code blocks, headings, lists, table
-    rows, and other non-paragraph content.  Intentional Markdown line
-    breaks (``  `` or ``\\`` at end of line) produce ``linebreak`` AST
-    nodes, not ``softbreak`` nodes, so they are never flagged.
-
-    Paragraphs whose text children contain pipe characters (``|``) are
-    treated as table-like content (e.g. inside blockquotes where the
-    mistune table plugin does not apply) and are not flagged.
+    Uses AST softbreak detection; intentional linebreaks are exempt.
     """
     errors: list[ValidationMessage] = []
     text = ctx.text

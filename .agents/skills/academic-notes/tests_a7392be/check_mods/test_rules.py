@@ -4,7 +4,6 @@ Each function constructs a minimal ValidationContext and exercises a rule
 function, verifying expected messages or lack thereof.
 """
 
-import re
 from os import PathLike
 
 import pytest
@@ -70,7 +69,7 @@ from check_mods.rules import (
     two_sided_calc_warning,
     unit_outside_math,
 )
-from check_mods.utils import FRONT_RE, parse_frontmatter
+from check_mods.utils import FRONT_RE, parse_frontmatter, parse_session_headers
 from check_mods.validator import _MD, check_markdown_file
 from pydantic_yaml import parse_yaml_raw_as
 
@@ -96,21 +95,12 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
     m = FRONT_RE.match(text)
     if m:
         body = text[m.end() :]
-    # Same pattern as validator: week N type [number]; type = lecture|lab|tutorial only (status has no bearing on heading)
-    session_headers: list[tuple[str, str, str, int]] = []
-    _re = re.compile(
-        r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
-        re.IGNORECASE | re.MULTILINE,
-    )
-    for m2 in _re.finditer(text):
-        week = m2.group(1)
-        typ = m2.group(2).strip().lower()
-        session_headers.append((week, typ, m2.group(0).strip(), m2.start()))
-    # Same pattern as validator: parse AST so AST-dependent rules work in tests
+    # Same pattern as validator: parse AST and extract session headers
     try:
         ast = _MD(text)
     except Exception:
         ast = []
+    session_headers = parse_session_headers(text, ast)
     return ValidationContext(
         path=path,
         text=text,
