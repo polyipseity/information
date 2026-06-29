@@ -25,10 +25,23 @@ Flashcards are generated automatically by the build system; do **not** run
   titles when a course note wants to link outward.
 - `tests_a7392be/*` — validator and helper tests for this skill folder.
 
-> **⚠️ Do not run tests from inside this folder.** This folder has its own
-> `pyproject.toml` (for `ty` type-checker config only), so running `uv run pytest`
-> here will create `.venv/` and `uv.lock` inside the skill folder. Always run
-> tests from the workspace root: `uv run pytest .agents/skills/academic-notes/tests_a7392be/`.
+> **🔥 NEVER run `uv` commands from inside this folder.** This folder has its own
+> `pyproject.toml` (for `ty` type-checker config only), so running ANY `uv run`
+> command here (pytest, check.py, or anything else) will create trash (`.venv/`,
+> `uv.lock`) inside the skill folder AND fail because dependencies are missing.
+>
+> The ONLY safe cwd for `uv run` is the **repo root** (`/Users/polyipseity/dev/monorepo/self/information/`).
+> Always `cd` back to repo root first, or use absolute paths from wherever you are.
+>
+> Correct examples (run from repo root):
+>
+> - `uv run pytest .agents/skills/academic-notes/tests_a7392be/ -k "test_name"`
+> - `uv run .agents/skills/academic-notes/check.py --max-per-rule 0 special/academia/HKUST/MATH\ 2431/`
+>
+> Wrong examples (DON'T do this):
+>
+> - `cd .agents/skills/academic-notes/ && uv run pytest ...` ← WRONG
+> - `cd .agents/skills/academic-notes/ && uv run check.py ...` ← WRONG
 
 ## Source-of-truth split
 
