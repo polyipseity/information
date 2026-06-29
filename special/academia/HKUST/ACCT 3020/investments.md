@@ -199,10 +199,10 @@ Debt investments held for both collection and possible sale follow the same inte
 > | {@{Interest receivable}@} | | {@{2&nbsp;667}@} |
 > | {@{Loss on sale of investments}@} | {@{4&nbsp;200}@} | |
 > | {@{Debt investments}@} | | {@{94&nbsp;200}@} |
-<!-- markdownlint-disable MD028 -->
-
+>
 > _Explanation._ If this bond carries {@{no accumulated OCI / AOCI balance at the sale date}@}, there is {@{no OCI layer left to clear}@}; the disposal entry simply compares sale proceeds with the bond's {@{amortized cost at the sale date}@}. That is also why __trading debt investments__ never need an OCI-clearing step on sale: their fair-value changes were already recognized in {@{net income rather than OCI}@}.
 
+<!-- markdownlint-disable MD028 -->
 > _Sale of an HFCS bond with an accumulated OCI balance._ Suppose the same bond also carries an existing {@{€3&nbsp;800 cumulative unrealized loss in OCI}@} from earlier fair-value adjustments, with a matching {@{€3&nbsp;800 credit balance in Fair value adjustment}@}. The bond's {@{amortized cost is still €94&nbsp;200}@}, but its {@{fair-value carrying amount is only €90&nbsp;400 = €94&nbsp;200 − €3&nbsp;800}@}. Because the note is measuring the disposal loss against {@{amortized cost}@}, the company should __not__ add a second standalone loss entry for OCI recycling on top of that. Instead it clears the fair-value layer as part of the overall disposal mechanics.
 >
 > | {@{Sell HFCS debt investment when a prior OCI loss and matching fair value adjustment are still on the books}@} | Dr | Cr |
@@ -836,8 +836,6 @@ Flashcards for this section are as follows:
 
 - hedge accounting in this note: main split ::@:: Fair value hedges send both sides of the hedge to income, while cash flow hedges park the derivative's unrealized gain or loss in OCI first and reclassify it later.
 - hedge accounting: why is location of gain or loss the key idea? ::@:: Because hedge accounting tries to make the derivative and the hedged item affect earnings in the same period or location where the underlying risk shows up.
-- fair value hedge: what is being hedged? ::@:: Exposure to changes in the fair value of a recognized asset or liability or of an unrecognized firm commitment.
-- cash flow hedge: what is being hedged? ::@:: Variability in expected future cash flows.
 
 ### fair value hedges
 
@@ -869,6 +867,7 @@ The transcript frames the reason very practically: if the hedged inventory or li
 
 Flashcards for this section are as follows:
 
+- fair value hedge: what is being hedged? ::@:: Exposure to changes in the fair value of a recognized asset or liability or of an unrecognized firm commitment.
 - fair value hedge: where do the hedged-item adjustment and derivative gain/loss go? ::@:: Both go to income so that the reported volatility from the hedged item is offset in the same place.
 - fair value hedge: is OCI used for the derivative's unrealized gain or loss? ::@:: No. In this hedge type, the derivative and hedged-item fair-value effects go straight to income.
 - why does a fair value hedge hit income immediately? ::@:: Because the hedged item's fair-value change is already affecting income, so the derivative must go to the same location to offset it.
