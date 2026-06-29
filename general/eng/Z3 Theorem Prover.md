@@ -56,8 +56,10 @@ In this example {@{propositional logic assertions}@} are {@{checked using functi
 > {@{(assert (not (= (not (and a b)) (or (not a)(not b)))))}@}
 > {@{(check-sat)}@}
 > </pre>
+>
+> \(annotation: {@{`unsat`}@}\)
 
-Result: \(annotaion: {@{`unsat`}@}\)
+Result:
 
 ```Z3
 unsat
@@ -88,8 +90,10 @@ The following script solves {@{the two given equations}@}, finding {@{suitable v
 > {@{(check-sat)}@}
 > {@{(get-model)}@}
 > </pre>
+>
+> \(annotation: {@{`sat`; model: `b = -10, a = 30`}@}\)
 
-Result: \(annotation: {@{`sat`}@}\)
+Result:
 
 ```Z3
 sat

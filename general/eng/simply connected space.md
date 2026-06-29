@@ -88,7 +88,7 @@ If {@{$X$ and $Y$ are [homotopy equivalent](homotopy%20equivalent.md#homotopy%20
 
 {@{The image of a simply connected set under a continuous function}@} {@{need not be simply connected}@}. Take for example {@{the complex plane under the exponential map \(annotation: $z \mapsto e^z$\)}@}: the image is {@{$\mathbb {C} \setminus \{0\}$, which is not simply connected}@}.
 
-{@{The notion of simple connectedness}@} is important in {@{[complex analysis](complex%20analysis.md)}@} because of the following facts:
+{@{The notion of simple connectedness}@} is important in {@{[complex analysis](complex%20analysis.md)}@} because of the following facts: \(annotation: 2 items: {@{Cauchy's integral theorem, Riemann mapping theorem}@}\)
 
 - {@{The [Cauchy's integral theorem](Cauchy's%20integral%20theorem.md)}@} states that if {@{$U$ is a simply connected open subset of the [complex plane](complex%20number.md) $\mathbb {C}$}@}, and {@{$f:U\to \mathbb {C}$ is a [holomorphic function](holomorphic%20function.md)}@}, then {@{$f$ has an [antiderivative](antiderivative%20(complex%20analysis).md) $F$ on $U$}@}, and {@{the value of every [line integral](line%20integral.md) in $U$ with integrand $f$}@} depends {@{only on the end points $u$ and $v$ of the path, and can be computed as $F(v)-F(u)$}@}. The integral thus {@{does not depend on the particular path connecting $u$ and $v$}@},
 - {@{The [Riemann mapping theorem](Riemann%20mapping%20theorem.md)}@} states that {@{any non-empty open simply connected subset of $\mathbb {C}$ \(except for $\mathbb {C}$ itself\)}@} is {@{[conformally equivalent](conformal%20map.md) \(annotation: exists a function that locally preserves angles, but not necessarily lengths\) to the [unit disk](unit%20disk.md)}@}.

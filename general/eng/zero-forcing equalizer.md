@@ -19,7 +19,7 @@ tags:
 
 For {@{a channel with [frequency response](frequency%20response.md) $F(f)$}@} {@{the zero-forcing equalizer $C(f)$}@} is constructed by {@{$C(f)=1/F(f)$}@}. Thus {@{the combination of channel and equalizer}@} gives {@{a flat frequency response and linear phase $F(f)C(f)=1$}@}.
 
-In {@{reality}@}, {@{zero-forcing equalization}@} {@{does not work in most applications}@}, for {@{the following reasons}@}:
+In {@{reality}@}, {@{zero-forcing equalization}@} {@{does not work in most applications}@}, for {@{the following reasons}@}: \(annotation: {@{infinite impulse response, noise amplification and zeros}@}\)
 
 1. Even though {@{the channel impulse response has finite length}@}, {@{the impulse response of the equalizer}@} needs to {@{be infinitely long}@} \(annotation: {@{The inverse of an casual FIR filter}@} is {@{an IRR filter}@}.\)
 2. At {@{some frequencies}@} {@{the received signal may be weak}@}. To {@{compensate}@}, {@{the magnitude of the zero-forcing filter \("gain"\)}@} {@{grows very large}@}. As a consequence, {@{any noise added after the channel}@} gets {@{boosted by a large factor}@} and destroys {@{the overall signal-to-noise ratio}@}. Furthermore, the channel may have {@{zeros in its frequency response}@} that {@{cannot be inverted at all}@}. \({@{Gain \* 0}@} still {@{equals 0}@}\).

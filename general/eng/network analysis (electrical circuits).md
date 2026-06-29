@@ -51,7 +51,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 
 - {@{__[Component](electronic%20component.md)__}@}: {@{A device with two or more [terminals](terminal%20(electronics).md) into which, or out of which, current may flow.}@}
 
-- {@{__[Node](node%20(circuits).md)__}@}: {@{A point at which terminals of more than two components are joined. A conductor with a substantially zero resistance is considered to be a node for the purpose of analysis.}@}
+- {@{__[Node](node%20(circuits).md)__}@}: {@{A point at which terminals of more than two components are joined}@}. {@{A conductor with a substantially zero resistance}@} is considered to be {@{a node for the purpose of analysis}@}.
 
 - {@{__Branch__}@}: {@{The component\(s\) joining two nodes.}@}
 

@@ -42,7 +42,7 @@ __Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, un
 
 ## three components of financial statements
 
-The three components of financial statements are {@{[statement of cash flows](cash%20flow%20statement.md) (cash flow statement), [statement of financial performance](income%20statement.md) (income statement), and [statement of financial position](balance%20sheet.md) (balance sheet); additionally, the last one is related to statement of retained earnings (statement of changes in equity)}@}.
+{@{The three components of financial statements}@} are {@{[statement of cash flows](cash%20flow%20statement.md) (cash flow statement), [statement of financial performance](income%20statement.md) (income statement), and [statement of financial position](balance%20sheet.md) (balance sheet)}@}; additionally, {@{the last one}@} is related to {@{statement of retained earnings (statement of changes in equity)}@}.
 
 ### statement of cash flows
 
