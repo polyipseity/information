@@ -2886,6 +2886,7 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
     body = text[body_start:]
 
     def in_code_fence(idx: int) -> bool:
+        """Return True if *idx* is within a fenced code block in *body*."""
         return body[:idx].count("```") % 2 == 1
 
     for m in re.finditer(r"^\s*([-*+]|\d+\.)\s", body, re.MULTILINE):
