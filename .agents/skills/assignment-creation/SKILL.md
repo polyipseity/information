@@ -377,28 +377,45 @@ This redacts grader/comment author names while preserving the rest of the YAML s
 
 Preserve the YAML output as-is — do not edit the extracted file (except for the author redaction above).
 
-#### Apple Notes source preservation
+#### Markdown submission source preservation
 
-When a submission is written in Apple Notes and exported as Markdown:
+Some submissions are written as Markdown files. Judge whether the file is an
+Apple Notes export (needs special handling) or regular Markdown.
 
-1. Copy the Apple Notes markdown file into `submission/` with the naming
-   convention `"<Course Name> problem set N.md"`.
-   - Source files may use different naming patterns (e.g., one course may
-     have `"Course Name - problem set N.md"` with a hyphen for some problem
-     sets and without for others). Normalize to the no-hyphen convention
-     in the destination.
-2. **Only** make these changes from the Apple Notes export:
-   - Change image attachment paths from `Attachments/XXX.ext` to
-     `../attachments/XXX.ext` (pointing to the local `attachments/` folder).
-   - Add `<!-- markdownlint-disable MD003 MD022 MD029 MD032 -->` at the very
-     top of the file (after any shebang or at line 1). These codes suppress
-     markdownlint warnings for heading style (`MD003`), multiple top-level
-     headings (`MD022`), ordered list item prefix (`MD029`), and
-     emphasis/markdown usage (`MD032`) — the most common noise from Apple
-     Notes markdown exports.
-3. **Do NOT** make any other changes to the Apple Notes markdown. Preserve
-   spelling, formatting, image placement, and section structure exactly as
-   exported. Any editing should be done in Apple Notes and re-exported.
+**Judging if a file is an Apple Notes markdown export:**
+
+The file may already have our modifications (attachment path rewrites,
+suppression comments at top). Look past those and examine the body.
+
+A file is likely from Apple Notes if it has one or more of:
+
+- **UUID attachment paths** — Image references match
+  `(Attachments|../attachments)/<UUID>.<ext>` (e.g.,
+  `Attachments/A1B2C3D4-...png`). Most reliable indicator.
+- **No YAML frontmatter** — The body starts directly with content.
+- **Apple formatting quirks** — Unusual heading styles or list spacing
+  characteristic of Apple Notes output.
+
+A file is **not** an Apple Notes export if it has YAML frontmatter,
+flashcard/pytextgen markup, or consistently manual formatting throughout.
+
+If unsure, treat as regular Markdown (no path rewrites, no suppression
+comments). The user can correct.
+
+**For Apple Notes markdown exports:**
+
+1. Copy into `submission/` as `"<Course Name> problem set N.md"` (source may
+   use hyphens; normalize to no hyphens).
+2. **Only** make these changes:
+   - Rewrite image paths `Attachments/XXX.ext` → `../attachments/XXX.ext`.
+   - Add file-level markdownlint and validator suppression comments at the
+     very top.
+3. **Do NOT** make other changes. Preserve spelling, formatting, images,
+   and structure exactly. Edit in Apple Notes and re-export if needed.
+
+**For regular Markdown submissions:**
+
+Copy as-is. Do not add suppression comments or rewrite attachment paths.
 
 #### Solution section
 
@@ -415,9 +432,10 @@ Link to the solution file:
 Place all assignment prompt files (PDFs, data CSVs, images) in the
 `attachments/` directory. Keep filenames as-is from the source.
 
-When the Apple Notes submission embeds HEIC, PNG, or other image formats,
-also place those images in `attachments/` and update the Apple Notes markdown
-attachment paths as described above.
+When an Apple Notes markdown submission (identified using the criteria in
+[Markdown submission source preservation](#markdown-submission-source-preservation))
+embeds HEIC, PNG, or other image formats, also place those images in
+`attachments/` and update the attachment paths as described in that section.
 
 ### 5. Update assignments/index.md
 
@@ -521,20 +539,13 @@ cp <path-in-source>/"Course Name - problem set N.pdf" \
    assignments/problem\ set\ {N}/submission/
 ```
 
-#### Apple Notes markdown (with path rewrites)
+#### Markdown submission source (with path rewrites)
 
-See the [Apple Notes source preservation](#apple-notes-source-preservation)
-section above for content transformation rules. The general approach (not
-tied to any particular source layout) is:
-
-1. Locate the Apple Notes markdown export file for assignment N in the
-   source tree.
-2. Detect its naming pattern — source files may use different naming
-   conventions across assignments (e.g., with or without hyphens).
-3. Create the destination file with the `<!-- markdownlint-disable ... -->`
-   header and `Attachments/` → `../attachments/` path rewrites.
-4. Copy referenced UUID-named image files from the source attachments
-   directory into the local `attachments/` folder.
+Judge per
+[Markdown submission source preservation](#markdown-submission-source-preservation).
+If Apple Notes: detect naming pattern, create with suppression header and
+path rewrites, copy referenced UUID-named images from source attachments.
+Otherwise copy as-is.
 
 A shell pipeline illustrating the process (paths are specific to one source
 layout; adapt to the actual layout):
@@ -548,8 +559,11 @@ else
 fi
 DST="$PS_DIR/submission/Course Name problem set N.md"
 
-# Write header + rewritten content
-echo '<!-- markdownlint-disable MD003 MD022 MD029 MD032 -->' > "$DST"
+# Write suppression header + rewritten content
+# (suppressions: file-level markdownlint and validator comments)
+echo '<!-- markdownlint-disable ... -->' > "$DST"
+# Add validator suppression comment too
+echo '<!-- check: ignore-file[...]: Apple Notes markdown — do not modify -->' >> "$DST"
 sed 's|Attachments/|../attachments/|g' "$SRC" >> "$DST"
 
 # Copy all UUID-named image files referenced in the source

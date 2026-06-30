@@ -208,15 +208,15 @@ appear **after** the `report:` field, not before it.
   - `questions:` — e.g., `long questions ×8` or `question ×5 (with subquestions)`
 - `note:` — Optional free-form note about unexpected exam conditions (e.g.,
   an error found mid-exam that added extra time). Always present this field
-  even if empty; use `\(none\)` for no content.
+  even if empty; use `(none)` for no content.
 - `grade:` — Personal score (e.g., `89/100`). When bonus marks are
   included, use the form `base+bonus/max+max bonus`
   (e.g., `80+5/100+10`). Nested fields:
-  - `letter grade:` — Letter grade (e.g., `A+`), or `\(none\)` if unknown.
+  - `letter grade:` — Letter grade (e.g., `A+`), or `(none)` if unknown.
   - `statistics:` — Class statistics. Group values under a session key
     that identifies the lecture section the exam belongs to (the course
     section identifier such as `L1`, not the week number). Include all of
-    the following keys, using `\(none\)` for any
+    the following keys, using `(none)` for any
     value that is unavailable: `timestamp`, `count`, `mean`,
     `standard deviation`, `low`, `lower quartile`, `median`,
     `upper quartile`, `high`, `distribution`, and `data`.
@@ -226,14 +226,14 @@ appear **after** the `report:` field, not before it.
     the announcement page's "Posted" metadata. When no announcement is
     available, use the data-extraction date.
 
-    `data:` — Use `\(none\)`. Do **not** link to Canvas or any external
+    `data:` — Use `(none)`. Do **not** link to Canvas or any external
     LMS. Source data belongs in a course-local source folder (e.g.,
     `.math2431sources/`).
 
     **Canvas single-student view** provides: mean, median, high, low,
     upper quartile, lower quartile (displayed as "Upper Quartile",
     "Lower Quartile"). It does **not** provide: standard deviation,
-    count, distribution — use `\(none\)` for those fields.
+    count, distribution — use `(none)` for those fields.
 
   - `breakdown:` — Optional per-question scores. One bullet per question
     using `score/max` format (e.g., `Q11: 8/10`). When the per-question
@@ -247,7 +247,7 @@ appear **after** the `report:` field, not before it.
   substantive cards that explain _why_ the mistake happened and what to do
   differently. Include the point deduction in parentheses (e.g., `(–1)` or
   `(+1.5)`) after the topic name. Always present this field even if empty;
-  use `\(none\)` as the sole bullet for no content (not `(to be filled)` or other placeholders).
+  use `(none)` as the sole bullet for no content (not `(to be filled)` or other placeholders).
 - `check:` — Optional paper-checking session. Sub-fields:
   - `datetime:` and `venue:` as usual.
   - `report:` — Optional nested section documenting what was
@@ -262,7 +262,7 @@ exam. Uses a subset of the exam metadata fields:
 - `grade:` — Overall course grade as score out of total (e.g., `89.15/100`).
   Do **not** write the marking scheme formula or percentage.
   - `letter grade:` — Always present; the letter grade (e.g., `A+`), or
-    `\(none\)` if unknown.
+    `(none)` if unknown.
 - `statistics:` — Class statistics. Group values under the course's lecture
   section key (e.g., `- L1:`), using the same format as exam statistics.
 
@@ -340,7 +340,7 @@ final course outcome. Sub-sections:
   documented as separate topic notes; the aftermath section links to them
   via an outline before the grade summary.
 - `### total` — Final course grade with `grades:` and `statistics:` fields
-  in the same format as exam sections (see above). Use `\(none\)` when no
+  in the same format as exam sections (see above). Use `(none)` when no
   data is available.
 
 The `aftermath` section typically does not have `report:` or `check:`
@@ -1380,6 +1380,12 @@ Additional rules:
 - The suppression reason "cards in parent section flashcard block" and other similar reasons are **not valid** for `header_flashcard_presence`. Every subsection must have its own flashcard block.
 - Conceptual law cards may justify a local suppression when a descriptive prompt
   is pedagogically stronger than a formula-heavy calculation prompt.
+- Apple Notes markdown exports placed under `submission/` folders are copied
+  verbatim from the notes app and must not have their body content modified.
+  Use a file-level suppression comment such as
+  `<!-- check: ignore-file[missing_yaml_frontmatter, metadata_aliases_present, metadata_tags_present, tag_language, header_flashcard_presence, no_soft_wrap_list]: Apple Notes markdown — do not modify -->`
+  instead of adding frontmatter or flashcards. See the assignment-creation skill
+  for more details.
 
 ## Filenames, titles, links, and external lookups
 
