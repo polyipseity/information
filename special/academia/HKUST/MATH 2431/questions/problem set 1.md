@@ -89,8 +89,7 @@ The questions on this page summarize the _official problem-set materials_ for pr
 
 > Inclusion-exclusion. For events $A_1,\dots,A_n$ in a probability space, prove the following:
 >
-> - (a) The full inclusion-exclusion formula
->   $P\left[\bigcup_{j=1}^{n}A_j\right]=\sum_{k=1}^{n}(-1)^{k+1}\sum_{1\le i_1<\cdots<i_k\le n}P\left[A_{i_1}\cap\cdots\cap A_{i_k}\right]$.
+> - (a) The full inclusion-exclusion formula $P\left[\bigcup_{j=1}^{n}A_j\right]=\sum_{k=1}^{n}(-1)^{k+1}\sum_{1\le i_1<\cdots<i_k\le n}P\left[A_{i_1}\cap\cdots\cap A_{i_k}\right]$.
 > - (b) The bounds
 >   - $P\left[\bigcup_{j=1}^{n}A_j\right]\le\sum_{j=1}^{n}P[A_j]-\sum_{j=1}^{n-1}P[A_j\cap A_{j+1}]$
 >   - $P\left[\bigcup_{j=1}^{n}A_j\right]\ge\sum_{j=1}^{n}P[A_j]-\sum_{1\le i<j\le n}P[A_i\cap A_j]$

@@ -10,7 +10,9 @@ tags:
 
 # expectation and variance
 
-Expectation extracts the average size of a random quantity from its law, while variance, covariance, and the standard deviation quantify how widely a random quantity fluctuates. In the second half of the course these notions become structural tools: they feed directly into Markov-type bounds, covariance computations, and the law of large numbers.
+Expectation extracts the average size of a random quantity from its law, while variance, covariance, and the standard deviation quantify how widely a random quantity fluctuates.
+
+In the second half of the course these notions become structural tools: they feed directly into Markov-type bounds, covariance computations, and the law of large numbers.
 
 ---
 
@@ -21,9 +23,7 @@ Flashcards for this section are as follows:
 ## alternative definition via discretization
 
 <!-- Added from PDF: Lemma 6.3, Def 6.4, pages 49--51 -->
-One may also define expectation without direct recourse to densities or sums by first treating simple (finite-range) variables, then extending via discretization. For a nonnegative random variable $X$, set
-$$X_n = 2^{-n} \lfloor 2^n X \rfloor.$$
-Each $X_n$ is simple (it takes only dyadic rational values), so its expectation $E[X_n]$ is defined as a finite sum. Moreover $X_n \uparrow X$ pointwise, and one defines $E[X] = \lim_{n\to\infty} E[X_n]$, which exists as an extended real number (possibly $\infty$). For general (possibly signed) $X$, split $X = X^+ - X^-$ with $X^+ = \max\{X,0\}$, $X^- = \max\{-X,0\}$; the expectation is defined when at least one of $E[X^+]$, $E[X^-]$ is finite, and is finite when both are finite.
+One may also define expectation without direct recourse to densities or sums by first treating simple (finite-range) variables, then extending via discretization. For a nonnegative random variable $X$, set $$X_n = 2^{-n} \lfloor 2^n X \rfloor.$$ Each $X_n$ is simple (it takes only dyadic rational values), so its expectation $E[X_n]$ is defined as a finite sum. Moreover $X_n \uparrow X$ pointwise, and one defines $E[X] = \lim_{n\to\infty} E[X_n]$, which exists as an extended real number (possibly $\infty$). For general (possibly signed) $X$, split $X = X^+ - X^-$ with $X^+ = \max\{X,0\}$, $X^- = \max\{-X,0\}$; the expectation is defined when at least one of $E[X^+]$, $E[X^-]$ is finite, and is finite when both are finite.
 
 The tail-sum and density formulas are consequences of this discretization (or of the layer-cake representation), so all approaches are equivalent.
 
@@ -32,10 +32,10 @@ The tail-sum and density formulas are consequences of this discretization (or of
 Flashcards for this section are as follows:
 
 - alternative definition via discretization / purpose ::@:: Instead of defining expectation separately for discrete sums and continuous integrals, one first defines it for simple variables, then extends via dyadic discretization $X_n = 2^{-n}\lfloor 2^n X\rfloor$. This gives a unified definition that works for any random variable. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- dyadic discretization / construction for $X\ge0$ ::@:: $X_n = 2^{-n}\lfloor 2^n X\rfloor$. At each $\omega$, $X_n(\omega)$ rounds $X(\omega)$ down to the nearest dyadic rational $k/2^n$ ($k\in\mathbb N_0$), so $X_n$ is simple (finite range). As $n\to\infty$, $X_n\uparrow X$ pointwise. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- expectation via discretization / definition for $X\ge0$ ::@:: $E[X] = \lim_{n\to\infty} E[X_n]$ where $X_n=2^{-n}\lfloor 2^n X\rfloor$. The limit exists in $[0,\infty]$ (monotone convergence of the simple-function expectations). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- expectation via discretization / extension to signed $X$ ::@:: Split $X = X^+ - X^-$ where $X^+=\max\{X,0\}$, $X^-=\max\{-X,0\}$. Define $E[X] = E[X^+] - E[X^-]$ provided at least one of $E[X^+]$, $E[X^-]$ is finite (avoids $\infty-\infty$). $E[X]$ is finite iff both $E[X^+]$ and $E[X^-]$ are finite. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- equivalence of expectation definitions ::@:: The tail-sum formula, density integrals, and PMF sums are all consequences of the discretization definition (or the layer-cake representation), so they are consistent: any of these approaches yields the same value of $E[X]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- dyadic discretization / construction for $X\ge0$ ::@:: $X_n = 2^{-n}\lfloor 2^n X\rfloor$. At each $\omega$, $X_n(\omega)$ rounds $X(\omega)$ down to the nearest dyadic rational $k/2^n$ ($k\in\mathbb N_0$), so $X_n$ is simple (finite range). As $n\to\infty$, $X_n\uparrow X$ pointwise.
+- expectation via discretization / definition for $X\ge0$ ::@:: $E[X] = \lim_{n\to\infty} E[X_n]$ where $X_n=2^{-n}\lfloor 2^n X\rfloor$. The limit exists in $[0,\infty]$ (monotone convergence of the simple-function expectations).
+- expectation via discretization / extension to signed $X$ ::@:: Split $X = X^+ - X^-$ where $X^+=\max\{X,0\}$, $X^-=\max\{-X,0\}$. Define $E[X] = E[X^+] - E[X^-]$ provided at least one of $E[X^+]$, $E[X^-]$ is finite (avoids $\infty-\infty$). $E[X]$ is finite iff both $E[X^+]$ and $E[X^-]$ are finite.
+- expectation definitions / equivalence ::@:: The tail-sum formula, density integrals, and PMF sums are all consequences of the discretization definition (or the layer-cake representation), so they are consistent: any of these approaches yields the same value of $E[X]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## expectation of discrete random variables
 
@@ -81,19 +81,9 @@ Two standard special cases are worth isolating.
 As an example, if $X\sim \mathrm{Pois}(\lambda)$, then $E[e^{tX}]=\sum_{k=0}^{\infty} e^{tk}e^{-\lambda}\frac{\lambda^k}{k!}=\exp(\lambda(e^t-1))$, which is the moment generating function of the Poisson law.
 
 <!-- Added from PDF: Example 6.6(ix), page 55 -->
-**Example (nonexistent expectation: Cauchy).** Let $X$ have the standard Cauchy density
-$$f_X(x) = \frac{1}{\pi}\cdot\frac{1}{1+x^2}, \qquad x \in \mathbb R.$$
-Then
-$$E[|X|] = \frac{2}{\pi}\int_0^\infty \frac{x}{1+x^2}\,dx
-        = \frac{2}{\pi}\left[ \frac{1}{2}\ln(1+x^2)\right]_0^\infty
-        = \infty,$$
-so the absolute expectation is infinite and $E[X]$ is defined _not to exist_ under the Lebesgue integral definition. (The improper Riemann integral $\lim_{a\to\infty}\int_{-a}^{a} x f_X(x)\,dx$ converges to $0$ by symmetry, but this Cauchy principal value does not satisfy the requirement $\int |x| f_X(x)\,dx < \infty$.)
+**Example (nonexistent expectation: Cauchy).** Let $X$ have the standard Cauchy density $$f_X(x) = \frac{1}{\pi}\cdot\frac{1}{1+x^2}, \qquad x \in \mathbb R.$$ Then $$E[|X|] = \frac{2}{\pi}\int_0^\infty \frac{x}{1+x^2}\,dx = \frac{2}{\pi}\left[ \frac{1}{2}\ln(1+x^2)\right]_0^\infty = \infty,$$ so the absolute expectation is infinite and $E[X]$ is defined _not to exist_ under the Lebesgue integral definition. (The improper Riemann integral $\lim_{a\to\infty}\int_{-a}^{a} x f_X(x)\,dx$ converges to $0$ by symmetry, but this Cauchy principal value does not satisfy the requirement $\int |x| f_X(x)\,dx < \infty$.)
 
-The failure can also be seen from the tail-sum formula: for $t>0$,
-$$P(X > t) = \frac{1}{\pi}\int_t^\infty \frac{dx}{1+x^2}
-          = \frac{1}{\pi}\bigl(\tfrac{\pi}{2} - \arctan t\bigr)
-          \sim \frac{1}{\pi t} \quad \text{as } t\to\infty,$$
-so $\int_0^\infty P(X > t)\,dt$ diverges logarithmically.
+The failure can also be seen from the tail-sum formula: for $t>0$, $$P(X > t) = \frac{1}{\pi}\int_t^\infty \frac{dx}{1+x^2} = \frac{1}{\pi}\bigl(\tfrac{\pi}{2} - \arctan t\bigr) \sim \frac{1}{\pi t} \quad \text{as } t\to\infty,$$ so $\int_0^\infty P(X > t)\,dt$ diverges logarithmically.
 
 ---
 
@@ -105,6 +95,7 @@ Flashcards for this section are as follows:
 - moment definition: For $k\in\mathbb N$, what is the (raw) moment of order $k$ of $X$? ::@:: $E[X^k]$, provided $E[|X|^k]<\infty$. The first moment ($k=1$) is the mean; the second ($k=2$) feeds into $\operatorname{Var}(X)=E[X^2]-(E[X])^2$.
 - Poisson moment generating function: If $X\sim\mathrm{Pois}(\lambda)$, what is $E[e^{tX}]$, i.e. the MGF $M_X(t)$? ::@:: $E[e^{tX}]=\sum_{k=0}^\infty e^{tk}e^{-\lambda}\lambda^k/k!=\exp(\lambda(e^t-1))$, valid for all $t\in\mathbb R$.
 - expectation may not exist / Cauchy counterexample ::@:: The standard Cauchy distribution has $E[|X|]=\infty$, so $E[X]$ does not exist under the Lebesgue definition (even though the principal-value Riemann integral $\lim_{a\to\infty}\int_{-a}^{a}x f_X(x)dx=0$ by symmetry). Absolute integrability $\int_{-\infty}^{\infty}|x|f_X(x)dx<\infty$ is required for existence. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+
 ## linearity of expectation
 
 The key algebraic fact is that expectation is linear: $E[aX+bY+c]=aE[X]+bE[Y]+c$ whenever the expectations exist.
@@ -122,16 +113,14 @@ Since $\pi$ is uniform, position $i$ is equally likely to contain any of the $n$
 The intuition is symmetry: every position has the same chance $1/n$ of being fixed, and linearity lets us add the $n$ identical contributions without worrying about the complicated dependencies among the indicators. Note that the distribution of $X$ is not concentrated around $1$ — for large $n$, the probability of no fixed points tends to $1/e\approx0.368$ — but linearity alone suffices to obtain the exact expectation.
 
 <!-- Added from PDF: Example 6.1, page 49 -->
-**Example (die game).** A fair die is rolled. If the outcome is $i$, the player receives a payout of $x \cdot i$ dollars; the cost to play is $c$ dollars. The net gain is $G = x D - c$, where $D$ is the face value of the die. The expected gain is
-$$E[G] = x \cdot \frac{1+2+3+4+5+6}{6} - c = x \cdot \frac{21}{6} - c = 3.5 x - c.$$
-The game is _fair_ when $E[G] = 0$, i.e. $3.5 x = c$. For instance, $x = 2$ and $c = 7$ yields a fair game. The problem illustrates how linearity of expectation reduces a random-payout computation to a simple weighted sum.
+**Example (die game).** A fair die is rolled. If the outcome is $i$, the player receives a payout of $x \cdot i$ dollars; the cost to play is $c$ dollars. The net gain is $G = x D - c$, where $D$ is the face value of the die. The expected gain is $$E[G] = x \cdot \frac{1+2+3+4+5+6}{6} - c = x \cdot \frac{21}{6} - c = 3.5 x - c.$$ The game is _fair_ when $E[G] = 0$, i.e. $3.5 x = c$. For instance, $x = 2$ and $c = 7$ yields a fair game. The problem illustrates how linearity of expectation reduces a random-payout computation to a simple weighted sum.
 
 ---
 
 Flashcards for this section are as follows:
 
 - linearity of expectation: If the expectations exist, what is $E[aX+bY+c]$? ::@:: $E[aX+bY+c]=aE[X]+bE[Y]+c$. Linearity works for any finite linear combination; no independence is required.
-- linearity needs no independence: What hypothesis is *not* needed for $E[X+Y]=E[X]+E[Y]$? ::@:: No independence assumption is needed.
+- linearity needs no independence: What hypothesis is _not_ needed for $E[X+Y]=E[X]+E[Y]$? ::@:: No independence assumption is needed.
 - indicator decomposition: If $X=\sum_{j=1}^n\mathbf 1_{A_j}$ counts events, what is $E[X]$? ::@:: $E[X]=\sum_{j=1}^n P[A_j]$ by linearity of expectation.
 - fixed points in random permutation: In a uniform random permutation of $\{1,\dots,n\}$, what is the expected number of fixed points, and what is the derivation? ::@:: 1. Let $I_i=\mathbf 1_{\{\pi(i)=i\}}$; then $X=\sum_{i=1}^n I_i$ and $E[X]=\sum_{i=1}^n P[\pi(i)=i]=n\cdot1/n=1$ by linearity. Each position is equally likely to contain any element, so $P[\pi(i)=i]=1/n$.
 - die game / expected gain and fair condition ::@:: Roll a fair die, payout $x$ times face value $D$, cost $c$. Net gain $G=xD-c$, expected gain $E[G]=3.5x-c$. The game is fair when $c=3.5x$ ($E[G]=0$). This illustrates linearity: $E[G]=xE[D]-c$ with $E[D]=3.5$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
@@ -157,9 +146,8 @@ Important examples are:
 - $X\sim U(a,b)$: $E[X]=(a+b)/2$, $\operatorname{Var}(X)=(b-a)^2/12$.
 
 <!-- Added from PDF: Corollary 7.30, page 67 -->
-**Bienaymé formula.** For square-integrable random variables $X_1,\dots,X_n$,
-$$\operatorname{Var}\!\left(\sum_{i=1}^n X_i\right) = \sum_{i=1}^n \operatorname{Var}(X_i) + \sum_{i \neq j} \operatorname{Cov}(X_i, X_j),$$
-where the double sum runs over all ordered pairs with $i \neq j$.
+**Bienaymé formula.** For square-integrable random variables $X_1,\dots,X_n$, $$\operatorname{Var}\!\left(\sum_{i=1}^n X_i\right) = \sum_{i=1}^n \operatorname{Var}(X_i) + \sum_{i \neq j} \operatorname{Cov}(X_i, X_j),$$ where the double sum runs over all ordered pairs with $i \neq j$.
+
 When the variables are independent, all covariance terms vanish and the formula reduces to $\operatorname{Var}(\sum_{i=1}^n X_i) = \sum_{i=1}^n \operatorname{Var}(X_i)$. The $n=2$ case gives the familiar identity $\operatorname{Var}(X+Y) = \operatorname{Var}X + \operatorname{Var}Y + 2\operatorname{Cov}(X,Y)$.
 
 ---

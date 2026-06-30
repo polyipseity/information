@@ -51,9 +51,10 @@ The content is in teaching order.
 
 ## children
 
-- [AGENTS](AGENTS.md)
 - [assignments](assignments/index.md)
 - [questions/](questions/index.md)
+- [AGENTS](AGENTS.md)
+- [Riemann integration](Riemann%20integration.md)
 - [conditional expectation](conditional%20expectation.md)
 - [conditional probability](conditional%20probability.md)
 - [continuous distribution](continuous%20distribution.md)
@@ -68,7 +69,6 @@ The content is in teaching order.
 - [multiple integral](multiple%20integral.md)
 - [probability measure](probability%20measure.md)
 - [random variable](random%20variable.md)
-- [Riemann integration](Riemann%20integration.md)
 - [sample space](sample%20space.md)
 - [sigma-algebra](sigma-algebra.md)
 
@@ -474,16 +474,19 @@ The content is in teaching order.
 
 - datetime: 2026-04-03T13:30:00+08:00/2026-04-03T14:50:00+08:00
 - status: unscheduled; public holiday: Good Friday
+- venue: (none)
 
 ## week 10 tutorial
 
 - datetime: 2026-04-06T19:30:00+08:00/2026-04-06T20:20:00+08:00
 - status: unscheduled; public holiday: Day off for Tomb Sweeping Day, Easter Monday
+- venue: (none)
 
 ## week 10 lecture 1
 
 - datetime: 2026-04-08T13:30:00+08:00/2026-04-08T14:50:00+08:00
 - status: unscheduled; midterm break
+- venue: (none)
 
 ## week 10 lecture 2
 
@@ -594,6 +597,7 @@ The content is in teaching order.
 
 - datetime: 2026-05-01T13:30:00+08:00/2026-05-01T14:50:00+08:00
 - status: unscheduled; public holiday: Labour Day
+- venue: (none)
 
 ## week 14 tutorial
 
@@ -677,7 +681,7 @@ The content is in teaching order.
 
 ---
 
-> This is a reminder that the **midterm exam** for the course Honors Probability (MATH 2431) will take place:
+> This is a reminder that the **midterm exam** for the course Honors Probability (MATH 2431) will take place: \
 > Tomorrow, Friday (20/03/2026) from 13:30 – 14:50 in Room 6537, near Lifts 29–30 (the usual classroom + the usual class hours).
 >
 > Please refer to the guidelines for the midterm exam under the **Syllabus** Tab for procedural details. To guarantee a smooth procedure, please note the following:
@@ -730,7 +734,7 @@ The content is in teaching order.
 
 ---
 
-> This is a reminder that the **final exam** for the course Honors Probability (MATH 2431) will take place:
+> This is a reminder that the **final exam** for the course Honors Probability (MATH 2431) will take place: \
 > In two days, Thursday (21/05/2026), 16:30 (4:30 PM) – 18:30 (6:30 PM) in the room G001, Cheng Yu Tung Building.
 >
 > Please refer to the guidelines for the final exam under the **Syllabus** Tab for procedural details. To guarantee a smooth procedure, please note the following:
