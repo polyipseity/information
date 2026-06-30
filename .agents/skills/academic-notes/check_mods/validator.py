@@ -139,21 +139,31 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
         errors.append(
             ValidationMessage("missing-yaml-frontmatter", "missing YAML frontmatter")
         )
-        return errors
-
-    # parse YAML frontmatter into our model; pydantic does not support YAML
-    # natively so we use PyYAML (imported at module level) to pre-process.  This
-    # avoids silently dropping fields and ensures the validator sees whatever
-    # tags/aliases the author provided.
-    try:
-        data = parse_yaml_raw_as(Frontmatter, front)
-    except Exception:
+        # Check if this error is file-suppressed before early-returning.
+        # The suppression filter runs later; we defer early-return only
+        # when the error can be suppressed, so the filter gets a chance.
+        has_file_suppression = any(
+            rid == "missing-yaml-frontmatter" for rid, _ in file_suppressions
+        )
+        if not has_file_suppression:
+            return errors
         data = Frontmatter()
+        body = text
+        front = ""  # avoid NoneType errors in rules that inspect ctx.front
+    else:
+        # parse YAML frontmatter into our model; pydantic does not support YAML
+        # natively so we use PyYAML (imported at module level) to pre-process.
+        # This avoids silently dropping fields and ensures the validator sees
+        # whatever tags/aliases the author provided.
+        try:
+            data = parse_yaml_raw_as(Frontmatter, front)
+        except Exception:
+            data = Frontmatter()
 
-    body = text
-    m = FRONT_RE.match(text)
-    if m:
-        body = text[m.end() :]
+        body = text
+        m = FRONT_RE.match(text)
+        if m:
+            body = text[m.end() :]
 
     # Parse the Markdown text into an AST once, so all rules can share the
     # structured representation instead of each rule re-parsing with regex.
@@ -192,7 +202,12 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     # before we actually apply the suppression filter, validate any rule IDs
     # in suppression directives.  If a rule ID is not registered then emit a
     # dedicated non-existent-rule message so users can fix typos.
-    known_rule_ids = {rid for rid, _ in RULE_REGISTRY.items()}
+    # The rule registry only contains rules defined via @register; the
+    # `missing-yaml-frontmatter` error is produced directly in this function
+    # and is not a decorator-based rule, so we include it manually.
+    known_rule_ids = {rid for rid, _ in RULE_REGISTRY.items()} | {
+        "missing-yaml-frontmatter"
+    }
     for target, rule_map in suppressions.items():
         for rid in rule_map:
             if rid not in known_rule_ids:

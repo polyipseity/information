@@ -213,6 +213,26 @@ def metadata_flash_tag(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+def flashcard_tag_unique(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Enforce that at most one flashcard activation tag exists.
+
+    Multiple flashcard tags are redundant and likely caused by accidental
+    duplication.
+    """
+    errors: list[ValidationMessage] = []
+    tags: list[str] = ctx.data.tags or []
+    flash_tags = [t for t in tags if t.startswith("flashcard/")]
+    if len(flash_tags) > 1:
+        errors.append(
+            ValidationMessage(
+                "flashcard_tag_unique",
+                f"multiple flashcard activation tags found (expected 1, found {len(flash_tags)})",
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def aliases_sorted(ctx: ValidationContext) -> list[ValidationMessage]:
     """Check that the aliases list in frontmatter is sorted alphabetically.
 

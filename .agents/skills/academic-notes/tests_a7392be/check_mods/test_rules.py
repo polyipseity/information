@@ -22,6 +22,7 @@ from check_mods.rules import (
     cloze_single_line,
     cloze_wrong_closing_token,
     find_math_spans,
+    flashcard_tag_unique,
     folder_link_trailing_slash,
     header_flashcard_presence,
     header_flashcard_sections_duplicate,
@@ -1933,3 +1934,71 @@ def test_unit_outside_math_no_false_positive_adjacent():
     assert not msgs, (
         "adjacent math ending in digits with no following unit should not trigger"
     )
+
+
+def test_flashcard_tag_unique():
+    """Only one flashcard activation tag is allowed in frontmatter."""
+
+    # Zero flashcard tags: no error (metadata_flash_tag covers that)
+    ctx0 = make_ctx("---\naliases: [a]\ntags: [language/in/English]\n---\n")
+    assert not flashcard_tag_unique(ctx0)
+
+    # Exactly one flashcard tag: no error
+    ctx1 = make_ctx(
+        "---\n"
+        "aliases: [Markov chain]\n"
+        "tags: [language/in/English, flashcard/active/special/academia/HKUST/MATH_2431/Markov_chain]\n"
+        "---\n"
+    )
+    assert not flashcard_tag_unique(ctx1)
+
+    # Two flashcard tags: error
+    ctx2 = make_ctx(
+        "---\n"
+        "aliases: [a]\n"
+        "tags: ["
+        "language/in/English, "
+        "flashcard/active/special/academia/HKUST/COMP_4211/some_note, "
+        "flashcard/active/special/academia/HKUST/COMP_4211/some_note/index"
+        "]\n"
+        "---\n"
+    )
+    msgs2 = flashcard_tag_unique(ctx2)
+    assert msgs2 and msgs2[0].rule_id == "flashcard_tag_unique"
+    assert "expected 1, found 2" in msgs2[0].msg
+
+    # Three flashcard tags: error with correct count
+    ctx3 = make_ctx(
+        "---\n"
+        "aliases: [a]\n"
+        "tags: ["
+        "flashcard/active/special/academia/A/B/C, "
+        "flashcard/active/special/academia/A/B/D, "
+        "flashcard/active/special/academia/A/B/E"
+        "]\n"
+        "---\n"
+    )
+    msgs3 = flashcard_tag_unique(ctx3)
+    assert msgs3 and msgs3[0].rule_id == "flashcard_tag_unique"
+    assert "expected 1, found 3" in msgs3[0].msg
+
+    # Tags that don't start with "flashcard/" should not count
+    ctx_no_match = make_ctx(
+        "---\naliases: [a]\ntags: [language/in/English, function/index]\n---\n"
+    )
+    assert not flashcard_tag_unique(ctx_no_match)
+
+    # Any tag starting with "flashcard/" counts, regardless of path
+    ctx_mixed = make_ctx(
+        "---\n"
+        "aliases: [a]\n"
+        "tags: ["
+        "language/in/English, "
+        "flashcard/active/general/some_topic, "
+        "flashcard/active/special/academia/HKUST/MATH_2431/markov_chain"
+        "]\n"
+        "---\n"
+    )
+    msgs_mixed = flashcard_tag_unique(ctx_mixed)
+    assert msgs_mixed and msgs_mixed[0].rule_id == "flashcard_tag_unique"
+    assert "expected 1, found 2" in msgs_mixed[0].msg
