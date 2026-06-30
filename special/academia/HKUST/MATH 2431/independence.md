@@ -84,10 +84,10 @@ This criterion is the standard template for proving independence of random varia
 
 Flashcards for this section are as follows:
 
-- independence of sigma-algebras ::@:: Sigma-algebras $\mathcal G$ and $\mathcal H$ are independent if $P[A\cap B]=P[A]P[B]$ for every $A\in\mathcal G$ and $B\in\mathcal H$.
-- random-variable independence via sigma-algebras ::@:: Random variables $X$ and $Y$ are independent exactly when the sigma-algebras $\sigma(X)$ and $\sigma(Y)$ are independent.
-- generator criterion for independence ::@:: If $\mathcal E$ and $\mathcal D$ are pi-systems generating $\mathcal G$ and $\mathcal H$ respectively, and $P[A\cap B]=P[A]P[B]$ holds for all $A\in\mathcal E$, $B\in\mathcal D$, then $\mathcal G$ and $\mathcal H$ are independent.
-- proof sketch of the generator criterion ::@:: Fix $A\in\mathcal E$ and let $\Lambda_A=\{B\in\mathcal H:P[A\cap B]=P[A]P[B]\}$. One checks $\Lambda_A$ is a Dynkin system containing $\mathcal D$, so by the pi-lambda theorem it contains all of $\mathcal H$. Repeating for the other variable extends independence from generators to the full sigma-algebras.
+- independence of sigma-algebras ::@:: Sigma-algebras $\mathcal G$ and $\mathcal H$ are independent if $P[A\cap B]=P[A]P[B]$ for every $A\in\mathcal G$ and $B\in\mathcal H$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- random-variable independence via sigma-algebras ::@:: Random variables $X$ and $Y$ are independent exactly when the sigma-algebras $\sigma(X)$ and $\sigma(Y)$ are independent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- generator criterion for independence ::@:: If $\mathcal E$ and $\mathcal D$ are pi-systems generating $\mathcal G$ and $\mathcal H$ respectively, and $P[A\cap B]=P[A]P[B]$ holds for all $A\in\mathcal E$, $B\in\mathcal D$, then $\mathcal G$ and $\mathcal H$ are independent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- proof sketch of the generator criterion ::@:: Fix $A\in\mathcal E$ and let $\Lambda_A=\{B\in\mathcal H:P[A\cap B]=P[A]P[B]\}$. One checks $\Lambda_A$ is a Dynkin system containing $\mathcal D$, so by the pi-lambda theorem it contains all of $\mathcal H$. Repeating for the other variable extends independence from generators to the full sigma-algebras. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - why the generator criterion is useful ::@:: It reduces checking independence of two sigma-algebras to verifying factorization on smaller generating classes—such as rectangles or half-lines—which is much easier than checking every pair of measurable sets.
 - standard template for proving independence ::@:: The generator criterion plus the pi-lambda theorem is the standard method for proving independence of random variables from factorisation on rectangles or half-lines.
 

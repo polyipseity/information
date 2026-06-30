@@ -129,10 +129,10 @@ Flashcards for this section are as follows:
 
 - coin‑toss / $A=\{\text{first }H\}$, $B=\{\text{second }H\}$, $C=\{\text{exactly one }H\}$: joint independence? ::@:: $A,B,C$ are pairwise independent ($P[A\cap B]=1/4 = P[A]P[B]$, etc.) but not jointly independent because $P[A\cap B\cap C]=0 \neq 1/8$.
 - pairwise independence vs joint independence distinction ::@:: Pairwise independence only checks factorisation for pairs; joint independence demands factorisation for all finite subfamilies, which is strictly stronger.
-- coin‑toss counter‑example / sample space and events A, B, C ::@:: $\Omega = \{HH, HT, TH, TT\}$ uniform; $A = \{\text{first}=H\} = \{HH, HT\}$, $B = \{\text{second}=H\} = \{HH, TH\}$, $C = \{\text{exactly one }H\} = \{HT, TH\}$. Each $P[A]=P[B]=P[C]=1/2$.
-- coin‑toss counter‑example / why A and B are pairwise independent ::@:: $A\cap B = \{HH\} \to P[A\cap B] = 1/4 = (1/2)(1/2) = P[A]P[B]$, so $A$, $B$ are independent.
-- coin‑toss counter‑example / why A,C and B,C are pairwise independent ::@:: $A\cap C = \{HT\} \to P[A\cap C]=1/4 = P[A]P[C]$; $B\cap C = \{TH\} \to P[B\cap C]=1/4 = P[B]P[C]$. So $(A,C)$ and $(B,C)$ are also pairwise independent.
-- coin‑toss counter‑example / why A,B,C are not jointly independent ::@:: $A\cap B\cap C = \emptyset \to P[A\cap B\cap C] = 0 \neq 1/8 = P[A]P[B]P[C]$, showing joint independence fails despite full pairwise independence.
+- coin‑toss counter‑example / sample space and events A, B, C ::@:: $\Omega = \{HH, HT, TH, TT\}$ uniform; $A = \{\text{first}=H\} = \{HH, HT\}$, $B = \{\text{second}=H\} = \{HH, TH\}$, $C = \{\text{exactly one }H\} = \{HT, TH\}$. Each $P[A]=P[B]=P[C]=1/2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- coin‑toss counter‑example / why A and B are pairwise independent ::@:: $A\cap B = \{HH\} \to P[A\cap B] = 1/4 = (1/2)(1/2) = P[A]P[B]$, so $A$, $B$ are independent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- coin‑toss counter‑example / why A,C and B,C are pairwise independent ::@:: $A\cap C = \{HT\} \to P[A\cap C]=1/4 = P[A]P[C]$; $B\cap C = \{TH\} \to P[B\cap C]=1/4 = P[B]P[C]$. So $(A,C)$ and $(B,C)$ are also pairwise independent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- coin‑toss counter‑example / why A,B,C are not jointly independent ::@:: $A\cap B\cap C = \emptyset \to P[A\cap B\cap C] = 0 \neq 1/8 = P[A]P[B]P[C]$, showing joint independence fails despite full pairwise independence. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### independence and complements
 
