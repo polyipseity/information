@@ -48,6 +48,7 @@ from check_mods.rules import (
     metadata_aliases_present,
     metadata_flash_tag,
     metadata_tags_present,
+    missing_yaml_frontmatter,
     no_consecutive_source_newlines,
     no_control_characters,
     no_lecture_summary,
@@ -142,6 +143,19 @@ def test_metadata_tags_present_and_flash():
     ctx = make_ctx(txt)
     msgs = metadata_flash_tag(ctx)
     assert msgs and msgs[0].msg.startswith("missing flashcard")
+
+
+def test_missing_yaml_frontmatter():
+    """Rule should fire when file has no YAML frontmatter."""
+
+    # No frontmatter at all
+    ctx = make_ctx("just some text without frontmatter\n")
+    msgs = missing_yaml_frontmatter(ctx)
+    assert msgs and msgs[0].msg.startswith("missing YAML frontmatter")
+
+    # With valid frontmatter — no error
+    ctx = make_ctx("---\naliases: [a]\ntags: [language/in/English]\n---\n")
+    assert not missing_yaml_frontmatter(ctx)
 
 
 def test_aliases_sorted_and_tag_language():

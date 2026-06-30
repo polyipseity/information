@@ -166,6 +166,20 @@ def _get_section_end(
 
 
 @RULE_REGISTRY.register()
+def missing_yaml_frontmatter(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Rule: file must include YAML frontmatter.
+
+    Returns an error if the file has no YAML frontmatter block.
+    """
+    errors: list[ValidationMessage] = []
+    if not ctx.front:
+        errors.append(
+            ValidationMessage("missing_yaml_frontmatter", "missing YAML frontmatter")
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def metadata_aliases_present(ctx: ValidationContext) -> list[ValidationMessage]:
     """Rule: file must include an 'aliases:' field in YAML frontmatter.
 

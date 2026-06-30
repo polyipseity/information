@@ -136,17 +136,6 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
 
     front = parse_frontmatter(text)
     if not front:
-        errors.append(
-            ValidationMessage("missing-yaml-frontmatter", "missing YAML frontmatter")
-        )
-        # Check if this error is file-suppressed before early-returning.
-        # The suppression filter runs later; we defer early-return only
-        # when the error can be suppressed, so the filter gets a chance.
-        has_file_suppression = any(
-            rid == "missing-yaml-frontmatter" for rid, _ in file_suppressions
-        )
-        if not has_file_suppression:
-            return errors
         data = Frontmatter()
         body = text
         front = ""  # avoid NoneType errors in rules that inspect ctx.front
@@ -202,12 +191,7 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     # before we actually apply the suppression filter, validate any rule IDs
     # in suppression directives.  If a rule ID is not registered then emit a
     # dedicated non-existent-rule message so users can fix typos.
-    # The rule registry only contains rules defined via @register; the
-    # `missing-yaml-frontmatter` error is produced directly in this function
-    # and is not a decorator-based rule, so we include it manually.
-    known_rule_ids = {rid for rid, _ in RULE_REGISTRY.items()} | {
-        "missing-yaml-frontmatter"
-    }
+    known_rule_ids = {rid for rid, _ in RULE_REGISTRY.items()}
     for target, rule_map in suppressions.items():
         for rid in rule_map:
             if rid not in known_rule_ids:

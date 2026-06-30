@@ -44,7 +44,11 @@ async def test_check_markdown_file_missing_frontmatter(tmp_path: PathLike[str]):
     """Validator should report missing frontmatter correctly."""
     p = await make_temp_markdown(tmp_path, "no frontmatter here")
     msgs = await check_markdown_file(p)
-    assert msgs and msgs[0].msg.startswith("missing YAML frontmatter")
+    assert any(
+        m.rule_id == "missing_yaml_frontmatter"
+        and m.msg.startswith("missing YAML frontmatter")
+        for m in msgs
+    ), f"expected missing frontmatter error, got {[str(m) for m in msgs]}"
 
 
 @pytest.mark.anyio
