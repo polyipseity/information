@@ -8,7 +8,6 @@ tags:
     - flashcard/active/special/academia/HKUST/MATH_2431/questions/problem_set_7
     - language/in/English
 ---
-
 # problem set 7
 
 - HKUST MATH 2431
@@ -59,21 +58,7 @@ The questions on this page summarize the _official problem-set materials_ for pr
 >
 > - (a) Decide whether each of the two candidate functions below can be a joint CDF, and when valid, find the marginal CDFs.
 >
-> $$
-> \begin{aligned}
-> \text{i.}\quad &F(x,y)=
-> \begin{cases}
-> 1-e^{-x-y}, & x,y\ge0,\\
-> 0, & \text{otherwise},
-> \end{cases}\\[4pt]
-> \text{ii.}\quad &F(x,y)=
-> \begin{cases}
-> 1-e^{-x}-xe^{-y}, & 0\le x\le y,\\
-> 1-e^{-y}-ye^{-y}, & 0\le y\le x,\\
-> 0, & \text{otherwise}.
-> \end{cases}
-> \end{aligned}
-> $$
+> $$\begin{aligned} \text{i.}\quad &F(x,y)= \begin{cases} 1-e^{-x-y}, & x,y\ge0,\\ 0, & \text{otherwise}, \end{cases}\\[4pt] \text{ii.}\quad &F(x,y)= \begin{cases} 1-e^{-x}-xe^{-y}, & 0\le x\le y,\\ 1-e^{-y}-ye^{-y}, & 0\le y\le x,\\ 0, & \text{otherwise}. \end{cases} \end{aligned}$$
 >
 > - (b) Let $$p_{X,Y}(j,k)=C\,2^{-k}\mathbf1_{\{1\le j<k\}}.$$ Find $C$ and the marginals.
 >

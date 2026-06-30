@@ -51,22 +51,13 @@ Flashcards for this section are as follows:
 
 ## memoryless property and the exponential connection
 
-The exponential distribution is the only continuous distribution on $[0,\infty)$ that is memoryless: for any $s,t\ge0$,
-$$
-P(T>s+t\mid T>s)=P(T>t).
-$$
-In words, if a component with lifetime $T$ has survived for $s$ units of time, its remaining lifetime is still distributed as $T$ — it does not "age." For the exponential distribution $T\sim\operatorname{E}(\lambda)$, the survival function $P(T>t)=e^{-\lambda t}$ satisfies this identity:
-$$
-P(T>s+t\mid T>s)=\frac{P(T>s+t)}{P(T>s)}=\frac{e^{-\lambda(s+t)}}{e^{-\lambda s}}=e^{-\lambda t}=P(T>t).
-$$
+The exponential distribution is the only continuous distribution on $[0,\infty)$ that is memoryless: for any $s,t\ge0$, $$ P(T>s+t\mid T>s)=P(T>t). $$
+In words, if a component with lifetime $T$ has survived for $s$ units of time, its remaining lifetime is still distributed as $T$ — it does not "age." For the exponential distribution $T\sim\operatorname{E}(\lambda)$, the survival function $P(T>t)=e^{-\lambda t}$ satisfies this identity: $$ P(T>s+t\mid T>s)=\frac{P(T>s+t)}{P(T>s)}=\frac{e^{-\lambda(s+t)}}{e^{-\lambda s}}=e^{-\lambda t}=P(T>t). $$
 Conversely, if a distribution on $[0,\infty)$ is memoryless and non-degenerate, it must be exponential; this can be proved by solving the functional equation $g(s+t)=g(s)g(t)$ for $g(t)=P(T>t)$, which forces $g(t)=e^{-\lambda t}$.
 
 Why does this matter for the Poisson process? The interarrival times $T_1,T_2,\dots$ turn out to be i.i.d. $\operatorname{E}(\lambda)$, and their memoryless property is what makes the Poisson process "restart" at each jump time. After the $k$-th event, the time until the next event has the same exponential distribution and is independent of everything that happened before — this is exactly the independent-increments condition (iii) in action. The point is that the memoryless property and the independent-increments assumption are two sides of the same coin: if the waiting time until the next event does not depend on how long we have already waited, then the number of events in disjoint intervals must be independent.
 
-**Worked example.** Suppose a radioactive counter records particles as a Poisson process with $\lambda=2$ per second. Given that no particle has been detected for the last $3$ seconds, what is the probability of waiting another $2$ seconds or more before the next particle? By the memoryless property,
-$$
-P(T_1>2+3\mid T_1>3)=P(T_1>2)=e^{-2\cdot2}=e^{-4}\approx0.0183.
-$$
+**Worked example.** Suppose a radioactive counter records particles as a Poisson process with $\lambda=2$ per second. Given that no particle has been detected for the last $3$ seconds, what is the probability of waiting another $2$ seconds or more before the next particle? By the memoryless property, $$ P(T_1>2+3\mid T_1>3)=P(T_1>2)=e^{-2\cdot2}=e^{-4}\approx0.0183. $$
 The answer is the same as if we started from scratch — the $3$ seconds of waiting do not "use up" any of the remaining lifetime.
 
 ---
@@ -82,35 +73,13 @@ Flashcards for this section are as follows:
 
 Define $T_1=\inf\{t\ge0:N_t>0\}$, the time of the first jump, and for $k\ge2$ let $T_k$ be the time between the $(k-1)$-th and $k$-th jumps. These are the interarrival times of the Poisson process.
 
-The fundamental connection between the Poisson process and the exponential distribution is given by the construction from i.i.d. exponentials: if $T_1,T_2,\dots\sim\operatorname{E}(\lambda)$ are i.i.d., then setting
-$$
-X_n=\sum_{k=1}^n T_k,\qquad N_t=|\{n\ge0:X_n\le t\}|
-$$
-defines a Poisson process of rate $\lambda$. Conversely, for any Poisson process, the interarrival times $T_1,T_2,\dots$ are i.i.d. $\operatorname{E}(\lambda)$. The proof of the forward direction (counting definition $\Rightarrow$ exponential interarrivals) uses the survival-function computation $P(T_1>t)=P(N_t=0)=e^{-\lambda t}$, then applies the independent-increments property to show that $T_2$ has the same distribution and is independent of $T_1$. The reverse direction (exponential construction $\Rightarrow$ counting process satisfying conditions) verifies each of the four conditions. The key computation is the distribution of $N_t$: because $N_t=k$ iff the $k$th arrival occurs by time $t$ and the $(k+1)$th occurs after $t$, we have
-$$
-P(N_t=k)=P(X_k\le t<X_{k+1}).
-$$
-Since $X_k=\sum_{i=1}^k T_i$ is the sum of $k$ i.i.d. $\operatorname{E}(\lambda)$ random variables, it follows a gamma distribution $X_k\sim\operatorname{Gamma}(k,\lambda)$ with density
-$$
-f_{X_k}(s)=\frac{\lambda^k s^{k-1}e^{-\lambda s}}{(k-1)!},\qquad s\ge0.
-$$
-Conditional on $X_k=s$, the next interarrival time $T_{k+1}$ is independent of $X_k$ and has survival $P(T_{k+1}>t-s)=e^{-\lambda(t-s)}$, hence
-$$
-\begin{aligned}
-P(N_t=k)
-&=\int_0^t f_{X_k}(s)\,P(T_{k+1}>t-s)\,ds
- =\int_0^t\frac{\lambda^k s^{k-1}e^{-\lambda s}}{(k-1)!}\,e^{-\lambda(t-s)}\,ds\\[4pt]
-&=e^{-\lambda t}\frac{\lambda^k}{(k-1)!}\int_0^t s^{k-1}\,ds
- =e^{-\lambda t}\frac{\lambda^k}{(k-1)!}\cdot\frac{t^k}{k}
- =e^{-\lambda t}\frac{(\lambda t)^k}{k!},
-\end{aligned}
-$$
+The fundamental connection between the Poisson process and the exponential distribution is given by the construction from i.i.d. exponentials: if $T_1,T_2,\dots\sim\operatorname{E}(\lambda)$ are i.i.d., then setting $$ X_n=\sum_{k=1}^n T_k,\qquad N_t=|\{n\ge0:X_n\le t\}| $$
+defines a Poisson process of rate $\lambda$. Conversely, for any Poisson process, the interarrival times $T_1,T_2,\dots$ are i.i.d. $\operatorname{E}(\lambda)$. The proof of the forward direction (counting definition $\Rightarrow$ exponential interarrivals) uses the survival-function computation $P(T_1>t)=P(N_t=0)=e^{-\lambda t}$, then applies the independent-increments property to show that $T_2$ has the same distribution and is independent of $T_1$. The reverse direction (exponential construction $\Rightarrow$ counting process satisfying conditions) verifies each of the four conditions. The key computation is the distribution of $N_t$: because $N_t=k$ iff the $k$-th arrival occurs by time $t$ and the $(k+1)$-th occurs after $t$, we have $$ P(N_t=k)=P(X_k\le t<X_{k+1}). $$
+Since $X_k=\sum_{i=1}^k T_i$ is the sum of $k$ i.i.d. $\operatorname{E}(\lambda)$ random variables, it follows a gamma distribution $X_k\sim\operatorname{Gamma}(k,\lambda)$ with density $$ f_{X_k}(s)=\frac{\lambda^k s^{k-1}e^{-\lambda s}}{(k-1)!},\qquad s\ge0. $$
+Conditional on $X_k=s$, the next interarrival time $T_{k+1}$ is independent of $X_k$ and has survival $P(T_{k+1}>t-s)=e^{-\lambda(t-s)}$, hence $$\begin{aligned} P(N_t=k) &=\int_0^t f_{X_k}(s)\,P(T_{k+1}>t-s)\,ds =\int_0^t\frac{\lambda^k s^{k-1}e^{-\lambda s}}{(k-1)!}\,e^{-\lambda(t-s)}\,ds\\[4pt] &=e^{-\lambda t}\frac{\lambda^k}{(k-1)!}\int_0^t s^{k-1}\,ds =e^{-\lambda t}\frac{\lambda^k}{(k-1)!}\cdot\frac{t^k}{k} =e^{-\lambda t}\frac{(\lambda t)^k}{k!}, \end{aligned}$$
 which is the $\operatorname{Pois}(\lambda t)$ probability mass function $P(N_t=k)=e^{-\lambda t}(\lambda t)^k/k!$. Thus the counting process constructed from i.i.d. exponential interarrivals satisfies condition (iv). The independent-increments property then follows from the memoryless property of the exponential: after any fixed time $t$, the residual waiting time until the next event is still $\operatorname{E}(\lambda)$ and is independent of everything that happened before $t$.
 
-A useful corollary is the distribution of the $n$-th arrival time $X_n=\sum_{k=1}^n T_k$. Since $X_n$ is the sum of $n$ i.i.d. $\operatorname{E}(\lambda)$ random variables, it follows a $\operatorname{Gamma}(n,\lambda)$ distribution with cumulative distribution function
-$$
-P(X_n\le t)=1-e^{-\lambda t}\sum_{j=0}^{n-1}\frac{(\lambda t)^j}{j!}.
-$$
+A useful corollary is the distribution of the $n$-th arrival time $X_n=\sum_{k=1}^n T_k$. Since $X_n$ is the sum of $n$ i.i.d. $\operatorname{E}(\lambda)$ random variables, it follows a $\operatorname{Gamma}(n,\lambda)$ distribution with cumulative distribution function $$ P(X_n\le t)=1-e^{-\lambda t}\sum_{j=0}^{n-1}\frac{(\lambda t)^j}{j!}. $$
 This formula exhibits the relationship between the gamma and Poisson distributions: the probability that the $n$-th arrival occurs by time $t$ is exactly the probability that a Poisson random variable with mean $\lambda t$ is at least $n$. This duality is often called the gamma–Poisson relationship or the Poisson–Erlang distribution.
 
 ---
@@ -180,11 +149,7 @@ Flashcards for this subsection are as follows:
 
 A compound Poisson process is a stochastic process $S_t=\sum_{i=1}^{N_t}Y_i$, where $(N_t)$ is a Poisson process of rate $\lambda$ and $Y_1,Y_2,\dots$ are i.i.d. random variables independent of $(N_t)$. The value $S_t$ is the cumulative sum of the jump sizes up to time $t$, where each event contributes a random amount $Y_i$ instead of a unit increment.
 
-The mean and variance of $S_t$ follow from Wald's equation and the law of total variance:
-$$
-E[S_t]=\lambda t\,E[Y_1],\qquad
-\operatorname{Var}(S_t)=\lambda t\,(E[Y_1^2]).
-$$
+The mean and variance of $S_t$ follow from Wald's equation and the law of total variance: $$ E[S_t]=\lambda t\,E[Y_1],\qquad \operatorname{Var}(S_t)=\lambda t\,(E[Y_1^2]). $$
 Derivation: $E[S_t]=E[E[S_t\mid N_t]]=E[N_tE[Y_1]]=\lambda t E[Y_1]$. For the variance, $\operatorname{Var}(S_t)=E[\operatorname{Var}(S_t\mid N_t)]+\operatorname{Var}(E[S_t\mid N_t])=E[N_t\operatorname{Var}(Y_1)]+\operatorname{Var}(N_tE[Y_1])=\lambda t\operatorname{Var}(Y_1)+(\lambda t)(E[Y_1])^2=\lambda t E[Y_1^2]$.
 
 Compound Poisson processes model cumulative claim amounts in insurance (where each claim has a random size), total rainfall from discrete storm events, and the total number of infections in a disease outbreak. They are the building blocks of Lévy processes, and every Lévy process with finite jump activity can be represented as a compound Poisson process plus a drift and a Brownian component.
@@ -199,14 +164,8 @@ Flashcards for this subsection are as follows:
 
 ## example: queuing
 
-**Worked example (post office).** Customers arrive at a post office as a Poisson process with rate $\lambda=1/2$ per minute, so the expected number of arrivals in any ten-minute period is $E[N_{10}]=5$. The probability that at most four customers arrive in ten minutes is
-$$
-P(N_{10}\le4)=e^{-5}\sum_{k=0}^4\frac{5^k}{k!}\approx0.4405.
-$$
-Because increments over disjoint intervals are independent, the joint probability of three arrivals in the first ten minutes and five more in the following twenty minutes factors as
-$$
-P(N_{10}=3,N_{30}-N_{10}=5)=P(N_{10}=3)\,P(N_{30}-N_{10}=5)\approx0.0053,
-$$
+**Worked example (post office).** Customers arrive at a post office as a Poisson process with rate $\lambda=1/2$ per minute, so the expected number of arrivals in any ten-minute period is $E[N_{10}]=5$. The probability that at most four customers arrive in ten minutes is $$ P(N_{10}\le4)=e^{-5}\sum_{k=0}^4\frac{5^k}{k!}\approx0.4405. $$
+Because increments over disjoint intervals are independent, the joint probability of three arrivals in the first ten minutes and five more in the following twenty minutes factors as $$ P(N_{10}=3,N_{30}-N_{10}=5)=P(N_{10}=3)\,P(N_{30}-N_{10}=5)\approx0.0053, $$
 where each factor is a Poisson probability computed from the respective interval lengths.
 
 **The $M/M/1$ queue.** A classic application of the Poisson process is the $M/M/1$ queue: customers arrive as a Poisson process with rate $\lambda$, service times are i.i.d. exponential with rate $\mu$, and there is a single server with infinite buffer. The "M/M/1" notation means Markovian (memoryless) arrivals, Markovian service times, and one server. The arrival process being Poisson ensures that the interarrival times are exponential, and the exponential service times make the number of customers in the system a continuous-time Markov chain.

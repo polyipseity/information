@@ -19,8 +19,8 @@ For simplicity, only finite state spaces $E=\{1,\dots,N\}$ are considered in thi
 
 Flashcards for this section are as follows:
 
-- Markov chain / overview ::@:: A discrete-time stochastic process $(X_n)_{n\ge0}$ on a finite state space $E=\{1,\dots,N\}$ where the probability of each future step depends only on the current state (Markov property). The classic illustration is a random walk on a graph — the next position depends only on the current vertex. Applications: queueing theory, statistical physics, finance, reinforcement learning. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- Markov chain / the Markov property as conditional independence ::@:: For all $n\ge0$ and $x_0,\dots,x_{n+1}\in E$, $P[X_{n+1}=x_{n+1}\mid X_0=x_0,\dots,X_n=x_n]=P[X_{n+1}=x_{n+1}\mid X_n=x_n]$. Conditionally on the present $X_n$, the future $X_{n+1}$ is independent of the past $X_0,\dots,X_{n-1}$. This "memoryless" property makes Markov chains tractable. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- overview ::@:: A discrete-time stochastic process $(X_n)_{n\ge0}$ on a finite state space $E=\{1,\dots,N\}$ where the probability of each future step depends only on the current state (Markov property). The classic illustration is a random walk on a graph — the next position depends only on the current vertex. Applications: queueing theory, statistical physics, finance, reinforcement learning.
+- the Markov property as conditional independence ::@:: For all $n\ge0$ and $x_0,\dots,x_{n+1}\in E$, $P[X_{n+1}=x_{n+1}\mid X_0=x_0,\dots,X_n=x_n]=P[X_{n+1}=x_{n+1}\mid X_n=x_n]$. Conditionally on the present $X_n$, the future $X_{n+1}$ is independent of the past $X_0,\dots,X_{n-1}$. This "memoryless" property makes Markov chains tractable.
 
 ## transition matrices and the Markov property
 
@@ -28,44 +28,20 @@ The dynamics of a Markov chain are encoded in its transition matrix $\Pi$. An $N
 
 **Transition matrix.** An $N\times N$ matrix $\Pi$ is a matrix of transition probabilities if for every $x\in E$, the row $\Pi(x,\cdot)$ is a probability mass function. The entry $\Pi(x,y)$ is the probability that the chain moves from $x$ to $y$ in one step.
 
-**Example.** For $E=\{1,2,3\}$,
-$$
-\Pi_1=\begin{pmatrix}
-0.1&0.2&0.7\\
-0.3&0.3&0.4\\
-0&0.5&0.5
-\end{pmatrix}
-$$
+**Example.** For $E=\{1,2,3\}$, $$\Pi_1=\begin{pmatrix} 0.1&0.2&0.7\\ 0.3&0.3&0.4\\ 0&0.5&0.5 \end{pmatrix}$$
 is a valid transition matrix (rows sum to $1$, all entries non‑negative).
 
 Not every matrix qualifies as a transition matrix. Two counterexamples illustrate the requirements:
 
-<!-- Added from PDF: Example 13.8 -->
-$$
-\Pi_2=\begin{pmatrix}
-0.5&0.5&0\\
-0&0.5&0.5\\
-0.5&0&0
-\end{pmatrix}
-$$
+<!-- Added from PDF: Example 13.8 --> $$\Pi_2=\begin{pmatrix} 0.5&0.5&0\\ 0&0.5&0.5\\ 0.5&0&0 \end{pmatrix}$$
 $\Pi_2$ is **invalid** because the rows must each sum to $1$. Row 3 sums to $0.5\neq1$, so $\Pi_2$ does not represent a valid set of one‑step transition probabilities — from state 3 the probabilities of where the chain goes next would not sum to $1$.
 
-<!-- Added from PDF: Example 13.8 -->
-$$
-\Pi_3=\begin{pmatrix}
-0.5&-0.5&1\\
-0&0.5&0.5\\
-0.5&0&0.5
-\end{pmatrix}
-$$
+<!-- Added from PDF: Example 13.8 --> $$\Pi_3=\begin{pmatrix} 0.5&-0.5&1\\ 0&0.5&0.5\\ 0.5&0&0.5 \end{pmatrix}$$
 $\Pi_3$ is **invalid** because it contains a negative entry ($-0.5$ at position $(1,2)$). Transition probabilities must be non‑negative — they are probabilities, so values below zero are not allowed. Although every row of $\Pi_3$ sums to $1$, the negative entry makes it an invalid stochastic matrix.
 
 The Markov property formalizes the "memoryless" intuition as a precise conditional-probability condition. It says that the conditional distribution of the next state $X_{n+1}$ depends on the entire history $X_0,\dots,X_n$ only through the present state $X_n$; the transition matrix $\Pi$ supplies the one-step probabilities. Given any initial distribution $\mu$ on $E$ and any transition matrix $\Pi$, a Markov chain with those dynamics exists.
 
-**Markov property.** For all $n\ge0$ and $x_0,\dots,x_{n+1}\in E$,
-$$
-P[X_{n+1}=x_{n+1}\mid X_0=x_0,\dots,X_n=x_n]=\Pi(x_n,x_{n+1}).
-$$
+**Markov property.** For all $n\ge0$ and $x_0,\dots,x_{n+1}\in E$, $$P[X_{n+1}=x_{n+1}\mid X_0=x_0,\dots,X_n=x_n]=\Pi(x_n,x_{n+1}).$$
 
 ---
 
@@ -83,10 +59,7 @@ Flashcards for this section are as follows:
 
 Once the initial distribution $\mu$ and the transition matrix $\Pi$ are fixed, the joint distribution of any finite segment of the chain is determined by multiplying the initial probability with the successive one-step transition probabilities.
 
-**Joint law.** For a Markov chain with initial distribution $\mu$ and transition matrix $\Pi$,
-$$
-P[X_0=x_0,\dots,X_n=x_n]=\mu(x_0)\,\Pi(x_0,x_1)\cdots\Pi(x_{n-1},x_n).
-$$
+**Joint law.** For a Markov chain with initial distribution $\mu$ and transition matrix $\Pi$, $$P[X_0=x_0,\dots,X_n=x_n]=\mu(x_0)\,\Pi(x_0,x_1)\cdots\Pi(x_{n-1},x_n).$$
 
 The chain is therefore completely specified by $(\mu,\Pi)$, and every probability statement about the chain can in principle be derived from this joint law.
 
@@ -113,10 +86,7 @@ Flashcards for this section are as follows:
 
 A probability mass function $\pi$ on $E$ that is preserved by the dynamics of the chain is called a stationary distribution. If the chain is started from $\pi$, then at every future time the distribution remains $\pi$. The defining equation is a linear system: $\pi$ must satisfy $\pi=\pi\Pi$ as row vectors.
 
-**Stationary distribution.** A probability mass function $\pi$ on $E$ is a stationary distribution for $\Pi$ if $\pi=\pi\Pi$ (as row vectors), i.e.
-$$
-\pi(x)=\sum_{z\in E}\pi(z)\,\Pi(z,x),\qquad\forall x\in E.
-$$
+**Stationary distribution.** A probability mass function $\pi$ on $E$ is a stationary distribution for $\Pi$ if $\pi=\pi\Pi$ (as row vectors), i.e. $$\pi(x)=\sum_{z\in E}\pi(z)\,\Pi(z,x),\qquad\forall x\in E.$$
 
 In linear-algebra terms, $\pi$ is a left eigenvector of $\Pi$ for eigenvalue $1$, with positive entries summing to $1$. The equation $\pi=\pi\Pi$ says that if the chain has distribution $\pi$ at time $n$, then after one more step it still has distribution $\pi$.
 
@@ -200,15 +170,7 @@ In finite chains, every recurrent state is positive recurrent: the expected retu
 
 The distinction matters for the stationary distribution. If one exists, $\pi(x)=1/m_x$ for a positive recurrent state, while $\pi(x)=0$ for a null recurrent state — null recurrent states are visited so rarely that they contribute no mass. For irreducible chains, the type of recurrence is a class property: either all states are positive recurrent, all are null recurrent, or all are transient.
 
-**Example.** Consider $E=\{1,2,3,4\}$ with
-$$
-\Pi=\begin{pmatrix}
-0.5&0.5&0&0\\
-0.2&0.8&0&0\\
-0.1&0&0.6&0.3\\
-0&0&0.4&0.6
-\end{pmatrix}.
-$$
+**Example.** Consider $E=\{1,2,3,4\}$ with $$\Pi=\begin{pmatrix} 0.5&0.5&0&0\\ 0.2&0.8&0&0\\ 0.1&0&0.6&0.3\\ 0&0&0.4&0.6 \end{pmatrix}.$$
 The communicating classes are $\{1,2\}$ (closed, hence recurrent) and $\{3,4\}$ (also closed, recurrent). If state $3$ had a transition to state $1$, then $\{3,4\}$ would not be closed and those states would be transient — the chain could leave $\{3,4\}$ for $\{1,2\}$ but never return.
 
 ---
@@ -227,20 +189,14 @@ A state $a$ is **absorbing** if $\Pi(a,a)=1$. Once the chain reaches $a$, it sta
 
 Absorbing chains model many applied problems: gambler's ruin, population extinction, and absorption of a diffusing particle by a boundary.
 
-**Fundamental matrix.** Partition the states into transient states $T$ and absorbing states $A$. The transition matrix has block form:
-$$
-\Pi = \begin{pmatrix} Q & R \\ 0 & I \end{pmatrix}
-$$
+**Fundamental matrix.** Partition the states into transient states $T$ and absorbing states $A$. The transition matrix has block form: $$\Pi = \begin{pmatrix} Q & R \\ 0 & I \end{pmatrix}$$
 where $Q$ ($|T|\times|T|$) gives transitions among transient states, $R$ ($|T|\times|A|$) gives one-step probabilities from transient to absorbing states, and the lower-right block $I$ ($|A|\times|A|$) reflects that absorbing states stay put.
 
 The **fundamental matrix** $N=(I-Q)^{-1}$ captures the expected behaviour before absorption. The entry $N(x,y)$ is the expected number of visits to transient state $y$ starting from transient state $x$, and the expected time to absorption from $x$ is $\sum_{y}N(x,y)$.
 
 **Proof sketch: why $N=(I-Q)^{-1}$.** Count the visits step by step. At step $0$, starting at a transient state, we have the identity matrix $I$ (the starting visit counts as one). From a transient state $x$, the chain moves to another transient state $y$ with probability $Q(x,y)$, and from $y$ the expected remaining visits are $N(y,\cdot)$. Hence $N = I + QN$. Solving $(I-Q)N = I$ gives $N = (I-Q)^{-1}$. The series expansion $N = I + Q + Q^2 + \cdots$ makes the interpretation clear: $Q^k(x,y)$ is the probability of being at transient $y$ after exactly $k$ steps, and summing over all $k$ gives total expected visits.
 
-**Absorption probabilities.** Let $B$ be the $|T|\times|A|$ matrix with $B(x,a)=P[\text{chain is eventually absorbed at }a\mid X_0=x]$. Conditioning on the first step:
-$$
-B(x,a) = R(x,a) + \sum_{z\in T} Q(x,z)\,B(z,a),
-$$
+**Absorption probabilities.** Let $B$ be the $|T|\times|A|$ matrix with $B(x,a)=P[\text{chain is eventually absorbed at }a\mid X_0=x]$. Conditioning on the first step: $$B(x,a) = R(x,a) + \sum_{z\in T} Q(x,z)\,B(z,a),$$
 or in matrix form $B = R + QB$. Solving: $B = (I-Q)^{-1}R = NR$. Since the chain is absorbing (absorption occurs with probability 1 from every transient state), each row of $B$ sums to $1$: $\sum_{a\in A}B(x,a)=1$ for every transient $x$.
 
 ---
@@ -282,24 +238,15 @@ Flashcards for this section are as follows:
 
 ### convergence theorem
 
-The **Convergence Theorem for Markov chains** (also called the Markov chain ergodic theorem for the finite case) states: if $\Pi$ is irreducible and aperiodic with stationary distribution $\pi$, then for every initial distribution $\mu$,
-$$
-\lim_{n\to\infty}\|\mu\Pi^n-\pi\|_{\text{TV}}=0,
-$$
-where $\|\cdot\|_{\text{TV}}$ is the **total variation distance**. For two probability distributions $\mu,\nu$ on $E$,
-$$
-\|\mu-\nu\|_{\text{TV}} = \frac12\sum_{x\in E}|\mu(x)-\nu(x)| = \max_{A\subseteq E}|\mu(A)-\nu(A)|.
-$$
+The **Convergence Theorem for Markov chains** (also called the Markov chain ergodic theorem for the finite case) states: if $\Pi$ is irreducible and aperiodic with stationary distribution $\pi$, then for every initial distribution $\mu$, $$\lim_{n\to\infty}\|\mu\Pi^n-\pi\|_{\text{TV}}=0,$$
+where $\|\cdot\|_{\text{TV}}$ is the **total variation distance**. For two probability distributions $\mu,\nu$ on $E$, $$\|\mu-\nu\|_{\text{TV}} = \frac12\sum_{x\in E}|\mu(x)-\nu(x)| = \max_{A\subseteq E}|\mu(A)-\nu(A)|.$$
 The total variation distance is the maximum difference in probability assigned to any event $A\subseteq E$, equivalently half the $L^1$ distance between the probability mass functions. It is a metric on the space of probability distributions, with values in $[0,1]$; $\|\mu-\nu\|_{\text{TV}}=0$ iff $\mu=\nu$, and $=1$ iff $\mu$ and $\nu$ have disjoint supports.
 
 The convergence rate is geometric in the second-largest eigenvalue of $\Pi$: $\|\mu\Pi^n-\pi\|_{\text{TV}}\le C\rho^n$ for some $C>0$ and $\rho<1$, where $\rho$ is the absolute value of the second-largest eigenvalue of $\Pi$ (when the eigenvalues are real, as for reversible chains).
 
 The intuition for the role of aperiodicity: a periodic chain (e.g., period $2$) can oscillate between two subsets of states forever, never settling into a single distribution. The distribution on even steps differs from the distribution on odd steps, though both converge to $\pi$ when averaged. The aperiodicity condition ensures that these oscillations are damped out, so the distribution itself converges, not just the Cesàro average.
 
-**Periodic case.** If $\Pi$ is irreducible with period $d>1$, the chain does not converge to $\pi$ in the usual TV sense because the $n$-step distribution depends on $n$ modulo $d$ — it oscillates among $d$ different distributions. Instead, the **Cesàro averages** converge:
-$$
-\lim_{n\to\infty}\frac1n\sum_{k=1}^n\mu\Pi^k=\pi.
-$$
+**Periodic case.** If $\Pi$ is irreducible with period $d>1$, the chain does not converge to $\pi$ in the usual TV sense because the $n$-step distribution depends on $n$ modulo $d$ — it oscillates among $d$ different distributions. Instead, the **Cesàro averages** converge: $$\lim_{n\to\infty}\frac1n\sum_{k=1}^n\mu\Pi^k=\pi.$$
 
 The structural reason is that an irreducible periodic chain admits a **cyclic decomposition** of the state space: $E = C_0 \cup C_1 \cup \cdots \cup C_{d-1}$ where $\Pi$ moves from $C_i$ to $C_{i+1\bmod d}$ with probability $1$ (so $x\in C_i$ implies $\sum_{y\in C_{i+1}}\Pi(x,y)=1$). These $C_i$ are called **cyclic classes**. After $d$ steps the chain returns to the same cyclic class, so the $d$-step chain $\Pi^d$ restricted to each $C_i$ is irreducible and aperiodic on $C_i$. Consequently $\mu\Pi^{nd}$ converges to $\pi$ when restricted to the appropriate cyclic class — the distribution on steps congruent to $i$ modulo $d$ converges to $\pi$ on $C_i$ and is zero elsewhere. Averaging over all $d$ cosets recovers the full stationary distribution $\pi$.
 
@@ -317,10 +264,7 @@ Flashcards for this section are as follows:
 
 ## reversible chains and detailed balance
 
-A Markov chain is **reversible** with respect to a distribution $\pi$ if
-$$
-\pi(x)\,\Pi(x,y)=\pi(y)\,\Pi(y,x),\qquad\forall x,y\in E.
-$$
+A Markov chain is **reversible** with respect to a distribution $\pi$ if $$\pi(x)\,\Pi(x,y)=\pi(y)\,\Pi(y,x),\qquad\forall x,y\in E.$$
 This condition is called **detailed balance**. If a chain satisfies detailed balance with respect to $\pi$, then $\pi$ is a stationary distribution — summing both sides over $x$ gives $\pi(y)=\sum_x\pi(x)\Pi(x,y)$.
 
 Detailed balance is a stronger condition than stationarity. It says that in stationarity, the probability flux from $x$ to $y$ is the same as the flux from $y$ to $x$. Intuitively, the chain "looks the same" running forwards and backwards in time — the process is time-reversible.
@@ -341,10 +285,7 @@ Flashcards for this section are as follows:
 
 For a subset $A\subseteq E$, the **hitting time** is $H_A=\inf\{n\ge0:X_n\in A\}$. The **hitting probability** $h_A(x)=P[H_A<\infty\mid X_0=x]$ is the probability that the chain ever reaches $A$ starting from $x$.
 
-Hitting probabilities satisfy a system of linear equations derived from the Markov property via **first-step decomposition**: condition on the first step $X_1$. For $x\notin A$,
-$$
-h_A(x)=\sum_{y\in E}\Pi(x,y)\,h_A(y),
-$$
+Hitting probabilities satisfy a system of linear equations derived from the Markov property via **first-step decomposition**: condition on the first step $X_1$. For $x\notin A$, $$h_A(x)=\sum_{y\in E}\Pi(x,y)\,h_A(y),$$
 with boundary conditions $h_A(x)=1$ for $x\in A$ and $h_A(x)=0$ for $x$ in a closed class disjoint from $A$ (absorption elsewhere). This system is a **discrete Dirichlet problem**: the operator $L=I-\Pi$ acts as a discrete Laplacian, and $Lh=0$ on $A^c$ with $h$ prescribed on $A$ mirrors the classical PDE $-\Delta u=0$ with Dirichlet boundary conditions. The hitting probability is the unique bounded harmonic function satisfying the boundary values; the PDE analogy implies a maximum principle (the maximum of $h_A$ is attained on the boundary $A$) and enables comparison arguments. The system has as many unknowns as states outside $A$ and can be solved by standard linear algebra.
 
 The hitting probability $h_A$ is the **minimal non-negative solution** to the harmonic equation — any other non-negative solution $h'$ with the same boundary values satisfies $h'(x)\ge h_A(x)$ for all $x$. Together with the Dirichlet-problem structure (which guarantees uniqueness of bounded solutions when absorption into $A$ occurs with probability 1), this characterisation gives a practical **guess-and-verify method**: if we can find any function $f$ satisfying $f(x)=\sum_y\Pi(x,y)f(y)$ for $x\notin A$, $f|_A=1$, and $f=0$ on closed classes disjoint from $A$, then $f$ must equal $h_A$. No path-sum computation or further verification about the chain's structure is needed — simply checking that $f$ satisfies the equation and boundary values suffices. This is especially useful for structured state spaces such as birth-death chains, where a natural candidate can be proposed and verified by substitution.
@@ -359,27 +300,14 @@ Flashcards for this section are as follows:
 
 ### Gambler's ruin — hitting probabilities
 
-**Example (gambler's ruin — hitting probabilities).** A gambler starts with $k$ dollars and bets $1$ per round, winning with probability $p$ and losing with $q=1-p$. The game stops when the gambler reaches $0$ (ruin) or $N$ (target). The hitting probability $h(k)=P[\text{reach }N\text{ before }0\mid X_0=k]$ satisfies the first-step decomposition
-$$
-h(k)=p\,h(k+1)+q\,h(k-1),\qquad h(0)=0,\;h(N)=1.
-$$
+**Example (gambler's ruin — hitting probabilities).** A gambler starts with $k$ dollars and bets $1$ per round, winning with probability $p$ and losing with $q=1-p$. The game stops when the gambler reaches $0$ (ruin) or $N$ (target). The hitting probability $h(k)=P[\text{reach }N\text{ before }0\mid X_0=k]$ satisfies the first-step decomposition $$h(k)=p\,h(k+1)+q\,h(k-1),\qquad h(0)=0,\;h(N)=1.$$
 Solving gives closed-form formulas:
 
 - If $p\neq q$ (biased game): $\displaystyle h(k)=\frac{1-(q/p)^k}{1-(q/p)^N}$.
 - If $p=q=1/2$ (fair game): $\displaystyle h(k)=\frac{k}{N}$.
 
-**Solution method.** The recurrence rearranges to $p\,h(k+1)-h(k)+q\,h(k-1)=0$. Trying $h(k)=\lambda^k$ gives the characteristic equation $p\lambda^2-\lambda+q=0$ with roots
-$$
-\lambda=\frac{1\pm\sqrt{1-4pq}}{2p}.
-$$
-Since $q=1-p$, the discriminant $1-4pq=1-4p(1-p)=(1-2p)^2$, so the roots simplify to $\lambda=1$ and $\lambda=q/p$ (distinct for $p\neq q$, repeated at $\lambda=1$ for $p=q$). The general solution is
-$$
-h(k)=
-\begin{cases}
-A+B\,(q/p)^k, & p\neq q,\\[4pt]
-A+Bk, & p=q.
-\end{cases}
-$$
+**Solution method.** The recurrence rearranges to $p\,h(k+1)-h(k)+q\,h(k-1)=0$. Trying $h(k)=\lambda^k$ gives the characteristic equation $p\lambda^2-\lambda+q=0$ with roots $$\lambda=\frac{1\pm\sqrt{1-4pq}}{2p}.$$
+Since $q=1-p$, the discriminant $1-4pq=1-4p(1-p)=(1-2p)^2$, so the roots simplify to $\lambda=1$ and $\lambda=q/p$ (distinct for $p\neq q$, repeated at $\lambda=1$ for $p=q$). The general solution is $$h(k)=\begin{cases} A+B\,(q/p)^k, & p\neq q,\\\[4pt] A+Bk, & p=q. \end{cases}$$
 Applying $h(0)=0$, $h(N)=1$ determines $A$ and $B$, yielding the formulas above. This method generalises to any birth-death chain with constant coefficients.
 
 **Interpretation.** For a fair game, the winning probability is simply $k/N$, the fraction of the target fortune already held. For a biased game with $p<q$ (odds against you), $q/p>1$ and as $N\to\infty$, $h(k)\to0$ — eventual ruin is almost certain. Even a small disadvantage makes long-run survival have probability approaching 0 against an infinitely rich opponent.
@@ -394,10 +322,7 @@ Flashcards for this section are as follows:
 
 ## expected hitting times
 
-**Expected hitting times** $g_A(x)=E[H_A\mid X_0=x]$ satisfy a similar first-step decomposition. For $x\notin A$,
-$$
-g_A(x)=1+\sum_{y\in E}\Pi(x,y)\,g_A(y),
-$$
+**Expected hitting times** $g_A(x)=E[H_A\mid X_0=x]$ satisfy a similar first-step decomposition. For $x\notin A$, $$g_A(x)=1+\sum_{y\in E}\Pi(x,y)\,g_A(y),$$
 with $g_A(x)=0$ for $x\in A$. The "$+1$" accounts for the step just taken. This system always has a unique solution when the chain is irreducible and $A$ is non-empty. In matrix form, $g_A = \mathbf 1_{A^c} + \Pi g_A$, where $\mathbf 1_{A^c}$ is the indicator vector of the complement of $A$. This is a **discrete Poisson equation**: $Lg_A = \mathbf 1_{A^c}$ with $g_A|_A=0$, where the same discrete Laplacian $L=I-\Pi$ now has a non-zero source term — the discrete analogue of $-\Delta u = f$ with Dirichlet boundary conditions. The $+1$ on $A^c$ is the source term, representing the unit step cost incurred each time the chain moves while still outside $A$. The solution is unique because $I-Q$ (the restriction of $L$ to $A^c$) is invertible.
 
 ---
@@ -409,10 +334,7 @@ Flashcards for this section are as follows:
 
 ### Gambler's ruin — expected duration
 
-**Example (gambler's ruin — expected duration).** Let $g(k)=E[H_{\{0,N\}}\mid X_0=k]$ be the expected number of rounds until absorption. First-step decomposition gives
-$$
-g(k)=1+p\,g(k+1)+q\,g(k-1),\qquad g(0)=g(N)=0.
-$$
+**Example (gambler's ruin — expected duration).** Let $g(k)=E[H_{\{0,N\}}\mid X_0=k]$ be the expected number of rounds until absorption. First-step decomposition gives $$g(k)=1+p\,g(k+1)+q\,g(k-1),\qquad g(0)=g(N)=0.$$
 The "$+1$" counts the current step. Solving gives:
 
 - If $p=q=1/2$ (fair game): $\displaystyle g(k)=k(N-k)$.
@@ -424,10 +346,7 @@ The "$+1$" counts the current step. Solving gives:
 - $p=q$: try $g_p(k)=Ck^2$. Substituting gives $Ck^2=1+\frac{1}{2}C(k+1)^2+\frac{1}{2}C(k-1)^2$, which simplifies to $Ck^2=1+Ck^2+C$, so $C=-1$.
 Then $g=g_h+g_p$; applying $g(0)=g(N)=0$ determines $A$ and $B$, yielding the formulas above.
 
-**Interpretation.** For a fair game, $g(k)=k(N-k)$ grows like $O(N^2)$ for $k\approx N/2$ — games can last very long. For a biased game, as $N\to\infty$,
-$$
-g(k)\to\frac{k}{q-p},
-$$
+**Interpretation.** For a fair game, $g(k)=k(N-k)$ grows like $O(N^2)$ for $k\approx N/2$ — games can last very long. For a biased game, as $N\to\infty$, $$g(k)\to\frac{k}{q-p},$$
 a finite bound independent of $N$. Even against an enormously rich opponent, a disadvantaged gambler loses quickly on average. As $p\to q$, the bound diverges, consistent with the fair-game $O(N^2)$ scaling.
 
 ---

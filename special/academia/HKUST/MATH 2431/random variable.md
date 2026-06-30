@@ -92,20 +92,16 @@ and sigma-algebras are closed under countable intersections and unions. So once 
 
 **Topological perspective.** Since $X_j$ is measurable, $\{X_j<x\}=X_j^{-1}((-\infty,x))$ (preimage of an open set) and $\{X_j\le x\}=X_j^{-1}((-\infty,x])$ (preimage of a closed set) are always measurable. The topology of $\mathbb{R}$ dictates which set operations preserve measurability directly:
 
-- **Open intervals and $\inf$ with $<$.** The set $(-\infty,x)$ is open. If the infimum is strictly below $x$, some $X_j$ is also strictly below $x$:
-  $$\{\inf_j X_j<x\}=\bigcup_j\{X_j<x\}.$$
+- **Open intervals and $\inf$ with $<$.** The set $(-\infty,x)$ is open. If the infimum is strictly below $x$, some $X_j$ is also strictly below $x$: $$\{\inf_j X_j<x\}=\bigcup_j\{X_j<x\}.$$
   A countable union of open preimages — still open, hence measurable.
-- **Closed intervals and $\sup$ with $\le$.** The set $(-\infty,x]$ is closed. If every $X_j$ is at most $x$, then so is the supremum:
-  $$\{\sup_j X_j\le x\}=\bigcap_j\{X_j\le x\}.$$
+- **Closed intervals and $\sup$ with $\le$.** The set $(-\infty,x]$ is closed. If every $X_j$ is at most $x$, then so is the supremum: $$\{\sup_j X_j\le x\}=\bigcap_j\{X_j\le x\}.$$
   A countable intersection of closed preimages — still closed, hence measurable.
 
 The pitfalls arise when the topological type of the interval doesn't match the set operation:
 
-- **$\inf$ with $\le$ (closed interval, wrong operation).** The naive $\bigcup_j\{X_j\le x\}$ fails because a union of closed preimages can miss limit points. Counterexample: $X_j=x+1/j$ gives $\inf_j X_j=x$ yet every $\{X_j\le x\}=\varnothing$, so the LHS $=\Omega$ but RHS $=\varnothing$. Fix: write $(-\infty,x]=\bigcap_k(-\infty,x+1/k)$ as a $G_\delta$ set (countable intersection of opens), yielding
-  $$\{\inf_j X_j\le x\}=\bigcap_k\bigcup_j\{X_j\le x+1/k\}.$$
+- **$\inf$ with $\le$ (closed interval, wrong operation).** The naive $\bigcup_j\{X_j\le x\}$ fails because a union of closed preimages can miss limit points. Counterexample: $X_j=x+1/j$ gives $\inf_j X_j=x$ yet every $\{X_j\le x\}=\varnothing$, so the LHS $=\Omega$ but RHS $=\varnothing$. Fix: write $(-\infty,x]=\bigcap_k(-\infty,x+1/k)$ as a $G_\delta$ set (countable intersection of opens), yielding $$\{\inf_j X_j\le x\}=\bigcap_k\bigcup_j\{X_j\le x+1/k\}.$$
   The outer $\bigcap_k$ supplies the $\varepsilon$ margin that the naive union missed.
-- **$\sup$ with $<$ (open interval, wrong operation).** Dually, $\bigcap_j\{X_j<x\}$ fails because an intersection of open preimages need not be open. Counterexample: $X_j=x-1/j$ gives $\sup_j X_j=x$ yet every $\{X_j<x\}=\Omega$, so LHS $=\varnothing$ but RHS $=\Omega$. Fix: write $(-\infty,x)=\bigcup_k(-\infty,x-1/k]$ as an $F_\sigma$ set (countable union of closeds), yielding
-  $$\{\sup_j X_j<x\}=\bigcup_k\bigcap_j\{X_j\le x-1/k\}.$$
+- **$\sup$ with $<$ (open interval, wrong operation).** Dually, $\bigcap_j\{X_j<x\}$ fails because an intersection of open preimages need not be open. Counterexample: $X_j=x-1/j$ gives $\sup_j X_j=x$ yet every $\{X_j<x\}=\Omega$, so LHS $=\varnothing$ but RHS $=\Omega$. Fix: write $(-\infty,x)=\bigcup_k(-\infty,x-1/k]$ as an $F_\sigma$ set (countable union of closeds), yielding $$\{\sup_j X_j<x\}=\bigcup_k\bigcap_j\{X_j\le x-1/k\}.$$
   The outer $\bigcup_k$ supplies the margin.
 
 Two important subclasses are worth stating formally. A real random variable $X$ is called _discrete_ if its image $\Omega_X$ is countable. It is called _continuous_, in the sense used in these notes, if its law admits a density with respect to Lebesgue measure.

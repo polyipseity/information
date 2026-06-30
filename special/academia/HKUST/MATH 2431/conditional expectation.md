@@ -70,10 +70,8 @@ so $X\mid(X+Y=n)\sim\mathrm{Bin}\!\left(n,\frac{\lambda}{\lambda+\mu}\right)$. I
 
 Flashcards for this section are as follows:
 
-- Poisson splitting under a conditioned total: If $X\sim\mathrm{Pois}(\lambda)$ and $Y\sim\mathrm{Pois}(\mu)$ are independent, what is the law of $X\mid(X+Y=n)$? ::@:: $X\mid(X+Y=n)\sim\mathrm{Bin}\!\left(n,\frac{\lambda}{\lambda+\mu}\right)$. Derivation: $X+Y\sim\mathrm{Pois}(\lambda+\mu)$, so each of the $n$ total arrivals is independently from $X$ with prob $\lambda/(\lambda+\mu)$ due to independent marking. <!-- check: ignore-line[no_soft_wrap_list]: flashcard must be single-line -->
-<!-- check: ignore-next-line[no_soft_wrap_list]: flashcard must be single-line -->
-- Poisson thinning: If $(N(t))$ is a Poisson process rate $\lambda$ and each arrival is independently type 1 with prob $p$, what are the split processes $N_1,N_2$? ::@:: $N_1(t)\sim\mathrm{Pois}(\lambda p)$, $N_2(t)\sim\mathrm{Pois}(\lambda(1-p))$, and $N_1\perp N_2$ (where $\perp$ denotes independence). Derivation: the original process thins by independent marking; the thinned counts remain Poisson.
-<!-- check: ignore-next-line[two_sided_calc_warning]: conceptual -->
+- Poisson splitting under a conditioned total: If $X\sim\mathrm{Pois}(\lambda)$ and $Y\sim\mathrm{Pois}(\mu)$ are independent, what is the law of $X\mid(X+Y=n)$? ::@:: $X\mid(X+Y=n)\sim\mathrm{Bin}\!\left(n,\frac{\lambda}{\lambda+\mu}\right)$. Derivation: $X+Y\sim\mathrm{Pois}(\lambda+\mu)$, so each of the $n$ total arrivals is independently from $X$ with prob $\lambda/(\lambda+\mu)$ due to independent marking.<!-- check: ignore-next-line[no_soft_wrap_list]: flashcard must be single-line -->
+- Poisson thinning: If $(N(t))$ is a Poisson process rate $\lambda$ and each arrival is independently type 1 with prob $p$, what are the split processes $N_1,N_2$? ::@:: $N_1(t)\sim\mathrm{Pois}(\lambda p)$, $N_2(t)\sim\mathrm{Pois}(\lambda(1-p))$, and $N_1\perp N_2$ (where $\perp$ denotes independence). Derivation: the original process thins by independent marking; the thinned counts remain Poisson. <!-- check: ignore-next-line[two_sided_calc_warning]: conceptual -->
 - connection between splitting and thinning: How does Poisson splitting relate to Poisson thinning? ::@:: Splitting (static RVs conditioned on sum) and thinning (process-level independent marking) are distinct but related. In splitting, $X\sim\mathrm{Pois}(\lambda)$, $Y\sim\mathrm{Pois}(\mu)$ independent; conditioning $X\mid X+Y=n$ yields $\mathrm{Bin}(n,\lambda/(\lambda+\mu))$. In thinning, a Poisson process with rate $\lambda$ has each arrival independently marked type 1 (prob $p$), producing independent processes $\mathrm{Pois}(\lambda p)$ and $\mathrm{Pois}(\lambda(1-p))$. Both rely on the same Bernoulli allocation idea from independent counting.
 
 ## defining conditional expectation
@@ -103,10 +101,8 @@ These heuristics make manipulating conditional expectations feel algebraically n
 
 Flashcards for this section are as follows:
 
-- definition of $E[X\mid Y=y]$ (discrete): Given discrete $(X,Y)$ and $p_Y(y)>0$, how is $E[X\mid Y=y]$ defined? ::@:: $E[X\mid Y=y]=\sum_{x}x\,p_{X\mid Y=y}(x)$. Derivation: take expectation of $X$ against the conditional mass function $p_{X\mid Y=y}$. <!-- check: ignore-line[no_soft_wrap_list]: flashcard must be single-line -->
-<!-- check: ignore-next-line[no_soft_wrap_list]: flashcard must be single-line -->
-- definition of $E[X\mid Y=y]$ (continuous): Given jointly continuous $(X,Y)$ and $f_Y(y)>0$, how is $E[X\mid Y=y]$ defined? ::@:: $E[X\mid Y=y]=\int_{-\infty}^{\infty}x\,f_{X\mid Y=y}(x)\,dx$. Derivation: the conditional density plays the role of an ordinary density once $Y=y$ is fixed.
-<!-- check: ignore-next-line[two_sided_calc_warning]: conceptual -->
+- definition of $E[X\mid Y=y]$ (discrete): Given discrete $(X,Y)$ and $p_Y(y)>0$, how is $E[X\mid Y=y]$ defined? ::@:: $E[X\mid Y=y]=\sum_{x}x\,p_{X\mid Y=y}(x)$. Derivation: take expectation of $X$ against the conditional mass function $p_{X\mid Y=y}$.<!-- check: ignore-next-line[no_soft_wrap_list]: flashcard must be single-line -->
+- definition of $E[X\mid Y=y]$ (continuous): Given jointly continuous $(X,Y)$ and $f_Y(y)>0$, how is $E[X\mid Y=y]$ defined? ::@:: $E[X\mid Y=y]=\int_{-\infty}^{\infty}x\,f_{X\mid Y=y}(x)\,dx$. Derivation: the conditional density plays the role of an ordinary density once $Y=y$ is fixed. <!-- check: ignore-next-line[two_sided_calc_warning]: conceptual -->
 - intuition: treat conditioned variable as constant ::@:: In $E[\text{expr}_1\mid\text{expr}_2]$, treat $\text{expr}_2$ as known/constant. This justifies linearity (constants pass through), pulling out $g(Y)$ factors, and the tower property ($E[E[X\mid Y]]=E[X]$).
 
 ### the random variable $E[X\mid Y]$
@@ -162,8 +158,7 @@ which is the $\mathrm{Exp}(1/y)$ distribution. Hence $$E[X\mid Y=y]=y,\qquad E[X
 
 Flashcards for this section are as follows:
 
-- exponential conditional expectation: If $f_{X,Y}(x,y)=e^{-x/y}e^{-y}/y$ on $(0,\infty)^2$, what is $E[X\mid Y=y]$? ::@:: $E[X\mid Y=y]=y$, so $E[X\mid Y]=Y$. Derivation: compute $f_Y(y)=\int_0^\infty f_{X,Y}(x,y)\,dx = e^{-y}$, then $f_{X\mid Y=y}(x)=f_{X,Y}(x,y)/f_Y(y)=e^{-x/y}/y$, which is $\mathrm{Exp}(1/y)$ with mean $y$. <!-- check: ignore-line[no_soft_wrap_list]: flashcard must be single-line -->
-<!-- check: ignore-next-line[two_sided_calc_warning]: conceptual -->
+- exponential conditional expectation: If $f_{X,Y}(x,y)=e^{-x/y}e^{-y}/y$ on $(0,\infty)^2$, what is $E[X\mid Y=y]$? ::@:: $E[X\mid Y=y]=y$, so $E[X\mid Y]=Y$. Derivation: compute $f_Y(y)=\int_0^\infty f_{X,Y}(x,y)\,dx = e^{-y}$, then $f_{X\mid Y=y}(x)=f_{X,Y}(x,y)/f_Y(y)=e^{-x/y}/y$, which is $\mathrm{Exp}(1/y)$ with mean $y$.<!-- check: ignore-next-line[two_sided_calc_warning]: conceptual -->
 - check of normalization property ::@:: $E[X\mid Y]=Y$ confirms normalization: if $X$ equals $Y$ (up to scaling), then $E[X\mid Y]=X$ almost surely. Here $X\mid Y=y\sim\mathrm{Exp}(1/y)$ gives $E[X\mid Y=y]=y$, so $E[X\mid Y]=Y$.
 
 ## sigma-algebra of conditional expectation
@@ -258,8 +253,7 @@ In the sigma-algebra formulation it follows immediately from the defining proper
 
 Flashcards for this section are as follows:
 
-- law of total expectation: What does the tower property say about $E[E[X\mid Y]]$? ::@:: $E[E[X\mid Y]]=E[X]$. Derivation: from the sigma-algebra definition, take $A=\Omega$ in $E[X\mathbf 1_A]=E[Z\mathbf 1_A]$, giving $E[Z]=E[X]$. <!-- check: ignore-line[no_soft_wrap_list]: flashcard must be single-line -->
-<!-- check: ignore-next-line[two_sided_calc_warning]: conceptual -->
+- law of total expectation: What does the tower property say about $E[E[X\mid Y]]$? ::@:: $E[E[X\mid Y]]=E[X]$. Derivation: from the sigma-algebra definition, take $A=\Omega$ in $E[X\mathbf 1_A]=E[Z\mathbf 1_A]$, giving $E[Z]=E[X]$.<!-- check: ignore-next-line[two_sided_calc_warning]: conceptual -->
 - when to use the law of total expectation ::@:: Condition on the variable that makes the inner expectation easy, simplify there using the conditional law, then average over the conditioning variable. Example: in random sums $S=\sum_{j=1}^{N}X_j$, first fix $N=n$ so $E[S\mid N=n]=nE[X_1]$, then $E[S]=E[N]\,E[X_1]$.
 
 ### application: law of total variance (variance decomposition)
@@ -274,8 +268,7 @@ The term $E[\operatorname{Var}(X\mid Y)]$ is the *within-group* variance (averag
 
 Flashcards for this section are as follows:
 
-- law of total variance (conditional-variance decomposition): How does $\operatorname{Var}(X)$ split after conditioning on $Y$? ::@:: $\operatorname{Var}(X)=E[\operatorname{Var}(X\mid Y)]+\operatorname{Var}(E[X\mid Y])$. Derivation: write $X-E[X]=(X-E[X\mid Y])+(E[X\mid Y]-E[X])$, square, take expectations; the cross term vanishes because $E[X-E[X\mid Y]\mid Y]=0$. <!-- check: ignore-line[no_soft_wrap_list]: flashcard must be single-line -->
-<!-- check: ignore-next-line[two_sided_calc_warning]: conceptual -->
+- law of total variance (conditional-variance decomposition): How does $\operatorname{Var}(X)$ split after conditioning on $Y$? ::@:: $\operatorname{Var}(X)=E[\operatorname{Var}(X\mid Y)]+\operatorname{Var}(E[X\mid Y])$. Derivation: write $X-E[X]=(X-E[X\mid Y])+(E[X\mid Y]-E[X])$, square, take expectations; the cross term vanishes because $E[X-E[X\mid Y]\mid Y]=0$.<!-- check: ignore-next-line[two_sided_calc_warning]: conceptual -->
 - intuition for variance components ::@:: $E[\operatorname{Var}(X\mid Y)]$ = average within-group variance, $\operatorname{Var}(E[X\mid Y])$ = between-group variance (variance of conditional means).
 - when is the law of total variance useful ::@:: The law of total variance $\operatorname{Var}(X)=E[\operatorname{Var}(X\mid Y)]+\operatorname{Var}(E[X\mid Y])$ separates within-group and between-group variability. It is especially useful when the conditional distribution of $X$ given $Y$ is simple but the joint distribution is not. Example: random sums $S=\sum_{j=1}^N X_j$, where conditioning on $N$ reduces the problem to an ordinary $n$-term sum. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 

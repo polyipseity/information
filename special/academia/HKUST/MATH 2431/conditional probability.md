@@ -32,7 +32,7 @@ Flashcards for this section are as follows:
 
 - definition / ratio $P[A\cap B]/P[B]$ ::@:: For $B \in \mathcal{F}$ with $P[B] > 0$, $P[A\mid B] = P[A \cap B]/P[B]$ for all $A \in \mathcal{F}$.
 - definition / why the conditioning event must satisfy $P[B]>0$ ::@:: In the elementary definition $P[A\mid B]=P[A\cap B]/P[B]$, the denominator must be positive; conditioning on a zero-probability event is not handled by this ratio formula.
-- definition / mutually exclusive events with $A \cap B = \emptyset$ ::@:: If $A \cap B = \emptyset$ and $P[B] > 0$, then $P[A\mid B] = 0$; once we know $B$ occurs, $A$ is impossible \(not just almost surely\).
+- definition / mutually exclusive events with $A \cap B = \emptyset$ ::@:: If $A \cap B = \emptyset$ and $P[B] > 0$, then $P[A\mid B] = 0$; once we know $B$ occurs, $A$ is impossible (not just almost surely).
 - definition / multiplication theorem for $P[A \cap B]$ ::@:: From the definition, $P[A \cap B] = P[B]\,P[A\mid B]$; this is the multiplication theorem (product rule).
 - multiplication theorem / why it matters ::@:: The product rule rewrites a conditional probability as an ordinary intersection probability, so it becomes the bridge between "given that" statements and algebraic manipulations of events.
 

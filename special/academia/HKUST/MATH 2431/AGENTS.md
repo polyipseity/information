@@ -43,6 +43,7 @@ Do NOT include source files in this `AGENTS.md` file!
 ## Conventions
 
 - Convergence in distribution: $\xrightarrow{d}$ (not $\Rightarrow$).
+<!-- check: ignore-next-line[latex_spacing_after]: intentional example of wrong form -->
 - Ordinal suffixes: `$x$-th` with hyphen between math and text, e.g. `$n$-th` not `$n$th`.
 - Probability LaTeX: `\operatorname{Bin}`, `\operatorname{Cau}`, `\operatorname{Exp}`, `\operatorname{Poi}` etc. for distribution names; `\mathbf 1` for indicators; `\binom{n}{k}` for binomial coefficients; `\lim_{y\uparrow m}` and `\lim_{y\downarrow m}` for left/right CDF limits; `\begin{cases}` with `[2pt]` spacing for piecewise definitions; `\xrightarrow{d}` for convergence in distribution; `\exp\!(` for tight spacing before parentheses.
 - When defining $X_n=\alpha X_{n-1}+\sigma Z_n$, give $X_0$'s full distribution (e.g. $X_0\sim N(0,\sigma^2/(1-\alpha^2))$ independent of $\{Z_n\}$) — not just "$X_0$ independent of $\{Z_n\}$."

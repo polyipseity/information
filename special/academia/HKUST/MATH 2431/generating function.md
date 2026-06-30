@@ -70,9 +70,7 @@ Flashcards for this section are as follows:
 
 ### uniqueness theorem
 
-For each generating function, the correspondence is **bidirectional**:
-
-$$\text{equal transforms (on the appropriate domain)}\quad\Longleftrightarrow\quad\text{equal probability laws}.$$
+For each generating function, the correspondence is **bidirectional**: $$\text{equal transforms (on the appropriate domain)}\quad\Longleftrightarrow\quad\text{equal probability laws}.$$
 
 The forward direction ($\Longleftarrow$) is trivial: equal distributions give equal expectations. The converse is the uniqueness theorem:
 
@@ -167,9 +165,7 @@ Key properties:
 
 If $X$ is nonnegative integer-valued, its probability generating function is $G_X(s)=E[s^X]=\sum_{k=0}^{\infty}P[X=k]s^k$ for $|s|\le 1$. This is the discrete-counting analogue of the MGF: independent sums become products $G_{X+Y}(s)=G_X(s)G_Y(s)$, and the coefficients are exactly the probabilities $P[X=k]$.
 
-Since $G_X$ is a power series convergent on $|s|\le1$, coefficients can be extracted by differentiating at $s=0$:
-
-$$P[X=k]=\frac{G_X^{(k)}(0)}{k!}.$$
+Since $G_X$ is a power series convergent on $|s|\le1$, coefficients can be extracted by differentiating at $s=0$: $$P[X=k]=\frac{G_X^{(k)}(0)}{k!}.$$
 
 Thus $G_X$ uniquely determines the distribution: if $G_X=G_Y$ on $[0,1]$, then $P[X=k]=P[Y=k]$ for all $k$ by the identity theorem for power series.
 

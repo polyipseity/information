@@ -27,7 +27,7 @@ The questions on this page combine T1A and T1B tutorial session problems with su
 
 > A coin shows heads with probability $p\in(0,1)$. Let $X_n$ be the number of tosses needed to obtain a run of $n$ consecutive heads. Show that $$E[X_n]=\sum_{k=1}^n p^{-k}.$$
 >
-> Solution: {@{$E[X_1]=1/p$ (geometric). For $n\ge 2$, first {@{get $n-1$ consecutive heads}@}. After {@{that streak, toss once}@}: {@{heads ($p$) succeeds; tails ($1-p$) restarts to needing $n$ fresh}@}. Hence {@{$$E[X_n] = E[X_{n-1}] + 1 + (1-p)E[X_n],$$}@} so {@{$pE[X_n] = E[X_{n-1}] + 1$}@}. {@{Unwinding from $E[X_1]=1/p$}@} gives {@{$$E[X_n] = \frac{1}{p}E[X_{n-1}] + \frac{1}{p} = \sum_{k=1}^n \frac{1}{p^k}.$$}@}
+> Solution: {@{$E[X_1]=1/p$}@} (geometric). For $n\ge 2$, first {@{get $n-1$ consecutive heads}@}. After {@{that streak, toss once}@}: {@{heads ($p$) succeeds; tails ($1-p$) restarts to needing $n$ fresh}@}. Hence {@{$$E[X_n] = E[X_{n-1}] + 1 + (1-p)E[X_n],$$}@} so {@{$pE[X_n] = E[X_{n-1}] + 1$}@}. {@{Unwinding from $E[X_1]=1/p$}@} gives {@{$$E[X_n] = \frac{1}{p}E[X_{n-1}] + \frac{1}{p} = \sum_{k=1}^n \frac{1}{p^k}.$$}@}
 
 ---
 

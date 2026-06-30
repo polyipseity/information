@@ -94,29 +94,15 @@ _Proof sketch (forward direction)._ If $X_n\xrightarrow{d} X$, the function $x\m
 _Proof sketch (reverse direction)._ Assume $\phi_n(t)\to\phi(t)$ pointwise and $\phi$ is continuous at $0$. Clearly $\phi(0)=\lim_n\phi_n(0)=1$.
 
 **Tail inequality for CFs.** By Fubini's theorem,
-$$
-\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt
-= E\!\left[\,\frac1\delta\int_{-\delta}^\delta(1-e^{itX_n})\,dt\right]
-= E\!\left[2-\frac{2\sin(\delta X_n)}{\delta X_n}\right].
-$$
+$$\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt = E\!\left[\,\frac1\delta\int_{-\delta}^\delta(1-e^{itX_n})\,dt\right] = E\!\left[2-\frac{2\sin(\delta X_n)}{\delta X_n}\right].$$
 The function $h(y)=2-2\sin y/y$ satisfies $h(y)\ge1$ for $|y|\ge2$ (since $|\sin y|\le1$ gives $h(y)\ge2-2/|y|\ge1$) and $h(y)\ge0$ elsewhere. Consequently
-$$
-P(|X_n|>2/\delta)\le E\!\left[2-\frac{2\sin(\delta X_n)}{\delta X_n}\right]
-= \frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt.
-$$
+$$P(|X_n|>2/\delta)\le E\!\left[2-\frac{2\sin(\delta X_n)}{\delta X_n}\right] = \frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt.$$
 
 **Tightness via dominated convergence.** Continuity of $\phi$ at $0$ gives: for any $\varepsilon>0$, choose $\delta>0$ such that $|1-\phi(t)|<\varepsilon$ for $|t|<\delta$. Then
-$$
-\frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt
-\le \frac1\delta\int_{-\delta}^\delta|1-\phi(t)|\,dt
-< \frac1\delta\cdot2\delta\cdot\varepsilon = 2\varepsilon,
-$$
+$$\frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt \le \frac1\delta\int_{-\delta}^\delta|1-\phi(t)|\,dt < \frac1\delta\cdot2\delta\cdot\varepsilon = 2\varepsilon,$$
 where the first inequality holds because the integral is real (the imaginary part cancels by symmetry $\phi(-t)=\overline{\phi(t)}$).
 For each $n$, $|1-\phi_n(t)|\le2$ (because $|\phi_n(t)|\le1$) and $1-\phi_n(t)\to1-\phi(t)$ pointwise. On $[-\delta,\delta]$, the dominated convergence theorem therefore applies:
-$$
-\lim_{n\to\infty}\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt
-= \frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt < 2\varepsilon.
-$$
+$$\lim_{n\to\infty}\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt = \frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt < 2\varepsilon.$$
 Combining with the tail inequality gives $\limsup_n P(|X_n|>2/\delta)<2\varepsilon$. Since $\varepsilon$ is arbitrary, $\{X_n\}$ is tight.
 
 **Subsequence convergence and identification.** By Prokhorov's theorem, tightness implies relative compactness: every subsequence of $\{X_n\}$ contains a further subsequence $\{X_{n_k}\}$ converging in distribution to some $Q$. The forward direction of Lévy's theorem identifies the CF of $Q$ as $\phi_Q(t)=\lim_k\phi_{n_k}(t)=\phi(t)$. Characteristic functions uniquely determine the law, so every subsequential limit must be the same distribution $P$ (the distribution whose CF is $\phi$). Hence $X_n\xrightarrow{d} P$.
@@ -141,11 +127,7 @@ The different modes of convergence form a hierarchy. Some modes imply others, an
 - $p$-th mean convergence (for any $p\ge1$) implies convergence in probability.
 - Convergence in probability implies convergence in distribution.
 
-These implications can be summarized as:
-
-$$
-X_n\xrightarrow{\text{a.s.}}X\;\Rightarrow\; X_n\xrightarrow{P}X\;\Rightarrow\; X_n\xrightarrow{d} X,
-$$
+These implications can be summarized as: $$X_n\xrightarrow{\text{a.s.}}X\;\Rightarrow\; X_n\xrightarrow{P}X\;\Rightarrow\; X_n\xrightarrow{d} X,$$
 
 and $X_n\xrightarrow{(p)}X\;\Rightarrow\;X_n\xrightarrow{P}X$, with no other implications in general. Counterexamples exist for each missing implication: the typewriter sequence converges in probability but not almost surely, and oscillating densities converge in distribution but not in probability.
 
@@ -335,23 +317,9 @@ Flashcards for this subsection are as follows:
 
 _Step 1 — convergence on a subsequence._ Take $n_k=k^2$ as the subsequence. By Chebyshev's inequality, $$P(|\overline X_{n_k}-\mu|>\varepsilon)\le\frac{\operatorname{Var}(\overline X_{n_k})}{\varepsilon^2}=\frac{\sigma^2}{k^2\varepsilon^2},$$ which is summable over $k$. The first Borel-Cantelli lemma gives $P(|\overline X_{n_k}-\mu|>\varepsilon\text{ i.o.})=0$, so $\overline X_{n_k}\to\mu$ almost surely along the squares.
 
-_Step 2 — gap filling._ For $n$ between $k^2$ and $(k+1)^2$, control how far $\overline X_n$ can stray from $\overline X_{k^2}$. For bounded variables ($|X_j|\le C$), split the sample mean:
-$$
-\overline X_n-\overline X_{k^2}
-=\frac{1}{n}\sum_{j=1}^n X_j-\frac{1}{k^2}\sum_{j=1}^{k^2}X_j
-=\Bigl(\frac1n-\frac1{k^2}\Bigr)\sum_{j=1}^{k^2}X_j+\frac1n\sum_{j=k^2+1}^n X_j.
-$$
-Using $|X_j|\le C$,
-$$
-|\overline X_n-\overline X_{k^2}|
-\le\Bigl(\frac1{k^2}-\frac1n\Bigr)k^2C+\frac{n-k^2}{n}C
-=\frac{n-k^2}{n}C+\frac{n-k^2}{n}C
-=2\frac{n-k^2}{n}C.
-$$
-Since $k^2\le n\le(k+1)^2=k^2+2k+1$, we have $n-k^2\le2k+1$ and $n\ge k^2$, so
-$$
-2\frac{n-k^2}{n}C\le2\frac{2k+1}{k^2}C=\frac{4C}{k}+O\!\left(\frac1{k^2}\right).
-$$
+_Step 2 — gap filling._ For $n$ between $k^2$ and $(k+1)^2$, control how far $\overline X_n$ can stray from $\overline X_{k^2}$. For bounded variables ($|X_j|\le C$), split the sample mean: $$\overline X_n-\overline X_{k^2}=\frac{1}{n}\sum_{j=1}^n X_j-\frac{1}{k^2}\sum_{j=1}^{k^2}X_j=\Bigl(\frac1n-\frac1{k^2}\Bigr)\sum_{j=1}^{k^2}X_j+\frac1n\sum_{j=k^2+1}^n X_j.$$
+Using $|X_j|\le C$, $$|\overline X_n-\overline X_{k^2}|\le\Bigl(\frac1{k^2}-\frac1n\Bigr)k^2C+\frac{n-k^2}{n}C=\frac{n-k^2}{n}C+\frac{n-k^2}{n}C=2\frac{n-k^2}{n}C.$$
+Since $k^2\le n\le(k+1)^2=k^2+2k+1$, we have $n-k^2\le2k+1$ and $n\ge k^2$, so $$2\frac{n-k^2}{n}C\le2\frac{2k+1}{k^2}C=\frac{4C}{k}+O\!\left(\frac1{k^2}\right).$$
 Thus $\max_{k^2\le n\le(k+1)^2}|\overline X_n-\overline X_{k^2}|\to0$ as $k\to\infty$. Combined with the subsequence convergence, this forces $\overline X_n\to\mu$ almost surely for all $n$.
 
 **Lemma (subsequence criterion for a.s. convergence).** $Z_n\to Z$ almost surely if and only if every subsequence contains a further sub-subsequence converging almost surely to $Z$.
@@ -407,19 +375,16 @@ _Proof._ The argument proceeds in three stages.
 
 1. **Real convergence: pointwise → uniform on compacta.** MGFs are convex on the real interval where they exist. A pointwise-convergent sequence of convex functions on $(-\delta,\delta)$ converges uniformly on every compact subinterval — in particular on $[-\delta/2,\delta/2]$.
 
-2. **Analytic continuation to characteristic functions.** Each MGF extends to an analytic function on the complex strip $S=\{z\in\mathbb C:|\Re(z)|<\delta\}$ via $\psi_n(z)=E[e^{zZ_n}]$. On $S$ we have $|\psi_n(z)|\le\psi_n(\Re(z))$; together with the uniform real convergence this gives uniform boundedness on compact subsets of $S$. **Vitali's convergence theorem** for analytic functions then yields $\psi_n(z)\to\psi(z)$ uniformly on compact subsets of $S$. Restricting to the imaginary axis $z=it$ ($t\in\mathbb R$) gives pointwise convergence of characteristic functions:
-   $$\phi_n(t)=\psi_n(it)\to\psi(it)=\phi(t)\quad\text{for all }t\in\mathbb R.$$
+2. **Analytic continuation to characteristic functions.** Each MGF extends to an analytic function on the complex strip $S=\{z\in\mathbb C:|\Re(z)|<\delta\}$ via $\psi_n(z)=E[e^{zZ_n}]$. On $S$ we have $|\psi_n(z)|\le\psi_n(\Re(z))$; together with the uniform real convergence this gives uniform boundedness on compact subsets of $S$. **Vitali's convergence theorem** for analytic functions then yields $\psi_n(z)\to\psi(z)$ uniformly on compact subsets of $S$. Restricting to the imaginary axis $z=it$ ($t\in\mathbb R$) gives pointwise convergence of characteristic functions: $$\phi_n(t)=\psi_n(it)\to\psi(it)=\phi(t)\quad\text{for all }t\in\mathbb R.$$
 
 3. **Lévy's continuity theorem** asserts that pointwise convergence of CFs to a limit continuous at $0$ implies convergence in distribution. Hence $Z_n\xrightarrow{d}Z$.
 
-**MGF of $N(0,1)$.** For $Z\sim N(0,1)$,
-$$\psi_Z(t)=E[e^{tZ}]=\int_{-\infty}^\infty\frac{1}{\sqrt{2\pi}}e^{tz}e^{-z^2/2}\,dz=e^{t^2/2}\int_{-\infty}^\infty\frac{1}{\sqrt{2\pi}}e^{-(z-t)^2/2}\,dz=e^{t^2/2}.$$
+**MGF of $N(0,1)$.** For $Z\sim N(0,1)$, $$\psi_Z(t)=E[e^{tZ}]=\int_{-\infty}^\infty\frac{1}{\sqrt{2\pi}}e^{tz}e^{-z^2/2}\,dz=e^{t^2/2}\int_{-\infty}^\infty\frac{1}{\sqrt{2\pi}}e^{-(z-t)^2/2}\,dz=e^{t^2/2}.$$
 
 **Reverse direction ($\Leftarrow$) does not come for free.** Convergence in distribution alone does not guarantee MGF convergence, even when every $Z_n$ and $Z$ has a finite MGF in a neighborhood of $0$. For example, let $Z_n=n$ with probability $1/n$ and $0$ otherwise. Then $Z_n\xrightarrow{d}0$ and each MGF $\psi_n(t)=(1-1/n)+(1/n)e^{tn}$ exists for all real $t$, but $\psi_n(t)\to\infty$ for $t>0$ while $\psi_0(t)=1$. The obstacle is that $e^{tZ_n}$ is unbounded, so the portmanteau theorem does not apply. To obtain $\psi_n(t)\to\psi(t)$ from $Z_n\xrightarrow{d}Z$ one needs uniform integrability of $\{e^{tZ_n}\}$. The argument proceeds as follows:
 
 1. For a truncation level $M>0$, define $g_M(z)=e^{tz}\land M$ (i.e. $e^{tz}$ capped at $M$). This function is bounded and continuous.
-2. By the triangle inequality,
-   $$|E[e^{tZ_n}]-E[e^{tZ}]|\le|E[g_M(Z_n)]-E[g_M(Z)]|+E[e^{tZ_n}\mathbf{1}_{e^{tZ_n}>M}]+E[e^{tZ}\mathbf{1}_{e^{tZ}>M}].$$
+2. By the triangle inequality, $$|E[e^{tZ_n}]-E[e^{tZ}]|\le|E[g_M(Z_n)]-E[g_M(Z)]|+E[e^{tZ_n}\mathbf{1}_{e^{tZ_n}>M}]+E[e^{tZ}\mathbf{1}_{e^{tZ}>M}].$$
 3. For each fixed $M$, $g_M$ is bounded continuous, so portmanteau gives $E[g_M(Z_n)]\to E[g_M(Z)]$ as $n\to\infty$; the first term vanishes in the limit.
 4. Uniform integrability of $\{e^{tZ_n}\}$ makes the tail expectations arbitrarily small uniformly in $n$ for sufficiently large $M$. The same holds for the single variable $Z$ by fatou or by noting that $\{e^{tZ}\}$ alone is UI.
 5. Taking $n\to\infty$ then $M\to\infty$ yields $\psi_n(t)\to\psi(t)$.
@@ -507,13 +472,7 @@ _Intuition._ If two paths through a forest get arbitrarily close to each other, 
 
 If $X_n\xrightarrow{d} X$ and $X_n-Y_n\to0$ in probability, then $Y_n\xrightarrow{d} X$.
 
-_Proof sketch._ Let $Z_n=Y_n-X_n\to0$ in probability. For a continuity point $x$ of $F_X$,
-$$
-\begin{aligned}
-F_{Y_n}(x)&=P(Y_n\le x)=P(X_n+Z_n\le x) \\
-&\le P(X_n\le x+\varepsilon)+P(|Z_n|\ge\varepsilon)\quad\Rightarrow\quad\limsup_{n\to\infty}F_{Y_n}(x)\le F_X(x+\varepsilon),
-\end{aligned}
-$$
+_Proof sketch._ Let $Z_n=Y_n-X_n\to0$ in probability. For a continuity point $x$ of $F_X$, $$\begin{aligned}F_{Y_n}(x)&=P(Y_n\le x)=P(X_n+Z_n\le x) \\ &\le P(X_n\le x+\varepsilon)+P(|Z_n|\ge\varepsilon)\quad\Rightarrow\quad\limsup_{n\to\infty}F_{Y_n}(x)\le F_X(x+\varepsilon), \end{aligned}$$
 and a matching lower bound gives $\liminf_{n\to\infty}F_{Y_n}(x)\ge F_X(x-\varepsilon)$. Sending $\varepsilon\downarrow0$ yields $F_{Y_n}(x)\to F_X(x)$.
 
 ---
@@ -529,14 +488,8 @@ Flashcards for this subsection are as follows:
 
 _Intuition._ When one operand converges to a constant, joint limiting behavior simplifies dramatically — the constant passes through addition, multiplication, and division as if it were deterministic. This is why we can normalize a sample mean by an estimated standard deviation and still obtain a standard normal limit.
 
-If $X_n\xrightarrow{d} X$ and $Y_n\to c$ in probability (with $c$ a constant), then
-$$
-X_n+Y_n\xrightarrow{d} X+c,\qquad
-X_nY_n\xrightarrow{d} cX,
-$$
-and for $c\neq0$,
-$$
-\frac{X_n}{Y_n}\xrightarrow{d}\frac{X}{c}.
+If $X_n\xrightarrow{d} X$ and $Y_n\to c$ in probability (with $c$ a constant), then $$X_n+Y_n\xrightarrow{d} X+c,\qquad X_nY_n\xrightarrow{d} cX,$$
+and for $c\neq0$, $$\frac{X_n}{Y_n}\xrightarrow{d}\frac{X}{c}.
 $$
 
 _Proof._ For the sum, $(X_n+Y_n)-(X_n+c)=Y_n-c\to0$ in probability, so the vanishing-perturbation proposition applies. For the product, first note $cX_n\xrightarrow{d}cX$ by the continuous mapping theorem. Then use the auxiliary result that $X_n\xrightarrow{d}X$ and $Y_n\to0$ in probability imply $X_nY_n\to0$ in probability. Hence $X_nY_n-cX_n=X_n(Y_n-c)\to0$ in probability, and the vanishing-perturbation proposition gives $X_nY_n\xrightarrow{d}cX$. The quotient follows similarly.
@@ -558,10 +511,7 @@ _Intuition._ Weakly convergent sequences are tight — the probability of extrem
 
 If $X_n\xrightarrow{d}X$ and $Y_n\to0$ in probability, then $X_nY_n\to0$ in probability.
 
-_Proof._ For any $\varepsilon,k>0$,
-$$
-P(|X_nY_n|\ge\varepsilon)\le P(|X_n|>k)+P\!\left(|Y_n|\ge\frac{\varepsilon}{k}\right).
-$$
+_Proof._ For any $\varepsilon,k>0$, $$P(|X_nY_n|\ge\varepsilon)\le P(|X_n|>k)+P\!\left(|Y_n|\ge\frac{\varepsilon}{k}\right).$$
 Taking $n\to\infty$ then $k\to\infty$ gives $\limsup_{n\to\infty}P(|X_nY_n|\ge\varepsilon)\le P(|X|>k)\to0$.
 
 ---
@@ -579,32 +529,18 @@ _Intuition._ The empirical variance uses the estimated mean $\overline X_n$, int
 
 Let $X_1,X_2,\dots$ be i.i.d. with mean $\mu$, variance $\sigma^2$, and finite fourth moment $\mu_4^{(c)}=E[(X_1-\mu)^4]$.
 
-**Step 1: a convenient infeasible estimator.** If the true mean $\mu$ were known, we could use $\frac1n\sum_{i=1}^n(X_i-\mu)^2$. Define $Y_i=(X_i-\mu)^2$; then $E[Y_1]=\sigma^2$ and $\operatorname{Var}(Y_1)=\mu_4^{(c)}-\sigma^4$. The CLT gives
-$$
-\sqrt n\!\left(\frac1n\sum_{i=1}^n Y_i-\sigma^2\right)\xrightarrow{d}N\!\left(0,\mu_4^{(c)}-\sigma^4\right).
+**Step 1: a convenient infeasible estimator.** If the true mean $\mu$ were known, we could use $\frac1n\sum_{i=1}^n(X_i-\mu)^2$. Define $Y_i=(X_i-\mu)^2$; then $E[Y_1]=\sigma^2$ and $\operatorname{Var}(Y_1)=\mu_4^{(c)}-\sigma^4$. The CLT gives $$\sqrt n\!\left(\frac1n\sum_{i=1}^n Y_i-\sigma^2\right)\xrightarrow{d}N\!\left(0,\mu_4^{(c)}-\sigma^4\right).
 $$
 
-**Step 2: relate the empirical variance to the infeasible estimator.** Expand $\hat\sigma_n^2$ around $\mu$:
-$$
-\begin{aligned}
-\hat\sigma_n^2&=\frac1n\sum_{i=1}^n(X_i-\overline X_n)^2
-=\frac1n\sum_{i=1}^n\bigl[(X_i-\mu)-(\overline X_n-\mu)\bigr]^2\\[2pt]
-&=\frac1n\sum_{i=1}^n(X_i-\mu)^2
--\frac{2(\overline X_n-\mu)}n\sum_{i=1}^n(X_i-\mu)
-+(\overline X_n-\mu)^2.
-\end{aligned}
+**Step 2: relate the empirical variance to the infeasible estimator.** Expand $\hat\sigma_n^2$ around $\mu$: $$\begin{aligned}\hat\sigma_n^2&=\frac1n\sum_{i=1}^n(X_i-\overline X_n)^2=\frac1n\sum_{i=1}^n\bigl[(X_i-\mu)-(\overline X_n-\mu)\bigr]^2\\[2pt]&=\frac1n\sum_{i=1}^n(X_i-\mu)^2-\frac{2(\overline X_n-\mu)}n\sum_{i=1}^n(X_i-\mu)+(\overline X_n-\mu)^2.\end{aligned}
 $$
 
-The middle term simplifies because $\frac1n\sum_{i=1}^n(X_i-\mu)=\overline X_n-\mu$, yielding
-$$
-\hat\sigma_n^2 = \frac1n\sum_{i=1}^n Y_i \;-\; (\overline X_n-\mu)^2.
+The middle term simplifies because $\frac1n\sum_{i=1}^n(X_i-\mu)=\overline X_n-\mu$, yielding $$\hat\sigma_n^2 = \frac1n\sum_{i=1}^n Y_i \;\-\; (\overline X_n-\mu)^2.
 $$
 
 Thus $\hat\sigma_n^2$ is exactly the infeasible estimator minus a squared-error correction that shrinks as $\overline X_n$ approaches $\mu$.
 
-**Step 3: scale the difference.** Multiply the relation by $\sqrt n$:
-$$
-\sqrt n(\hat\sigma_n^2-\sigma^2)=\sqrt n\!\left(\frac1n\sum_{i=1}^n Y_i-\sigma^2\right)-\sqrt n(\overline X_n-\mu)\cdot(\overline X_n-\mu).
+**Step 3: scale the difference.** Multiply the relation by $\sqrt n$: $$\sqrt n(\hat\sigma_n^2-\sigma^2)=\sqrt n\!\left(\frac1n\sum_{i=1}^n Y_i-\sigma^2\right)-\sqrt n(\overline X_n-\mu)\cdot(\overline X_n-\mu).
 $$
 
 The first term converges weakly to $N(0,\mu_4^{(c)}-\sigma^4)$ by Step~1. For the second term, note that
@@ -614,9 +550,7 @@ The first term converges weakly to $N(0,\mu_4^{(c)}-\sigma^4)$ by Step~1. For th
 
 By the vanishing-product result, the product $\sqrt n(\overline X_n-\mu)\cdot(\overline X_n-\mu)$ converges in probability to $0$.
 
-**Step 4: apply the vanishing-perturbation proposition.** Since $\sqrt n(\hat\sigma_n^2-\sigma^2)$ and $\sqrt n(\frac1n\sum Y_i-\sigma^2)$ differ by something that vanishes in probability, the vanishing-perturbation proposition forces them to share the same weak limit:
-$$
-\sqrt n(\hat\sigma_n^2-\sigma^2)\xrightarrow{d}N\!\left(0,\mu_4^{(c)}-\sigma^4\right).
+**Step 4: apply the vanishing-perturbation proposition.** Since $\sqrt n(\hat\sigma_n^2-\sigma^2)$ and $\sqrt n(\frac1n\sum Y_i-\sigma^2)$ differ by something that vanishes in probability, the vanishing-perturbation proposition forces them to share the same weak limit: $$\sqrt n(\hat\sigma_n^2-\sigma^2)\xrightarrow{d}N\!\left(0,\mu_4^{(c)}-\sigma^4\right).
 $$
 
 ---

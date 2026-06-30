@@ -449,15 +449,9 @@ Let $X_1,\dots,X_n$ be random variables. The **order statistics** are the sorted
 
 ### i.i.d. extremes
 
-**Proposition.** Let $X_1,\dots,X_n$ be i.i.d. with cumulative distribution function $F$. Then the distribution functions of the maximum $X_{(n)}$ and the minimum $X_{(1)}$ are
+**Proposition.** Let $X_1,\dots,X_n$ be i.i.d. with cumulative distribution function $F$. Then the distribution functions of the maximum $X_{(n)}$ and the minimum $X_{(1)}$ are $$F_{X_{(n)}}(x)=F(x)^n,\qquad F_{X_{(1)}}(x)=1-(1-F(x))^n,\qquad x\in\mathbb R.$$
 
-$$F_{X_{(n)}}(x)=F(x)^n,\qquad
-F_{X_{(1)}}(x)=1-(1-F(x))^n,\qquad x\in\mathbb R.$$
-
-**Proof.** The event $\{X_{(n)}\le x\}$ is exactly $\bigcap_{i=1}^n\{X_i\le x\}$, and $\{X_{(1)}>x\}$ is $\bigcap_{i=1}^n\{X_i>x\}$. By independence,
-
-$$F_{X_{(n)}}(x)=P[X_{(n)}\le x]=P\!\left(\bigcap_{i=1}^n\{X_i\le x\}\right)=\prod_{i=1}^n P[X_i\le x]=F(x)^n,$$
-$$F_{X_{(1)}}(x)=1-P[X_{(1)}>x]=1-P\!\left(\bigcap_{i=1}^n\{X_i>x\}\right)=1-(1-F(x))^n.$$
+**Proof.** The event $\{X_{(n)}\le x\}$ is exactly $\bigcap_{i=1}^n\{X_i\le x\}$, and $\{X_{(1)}>x\}$ is $\bigcap_{i=1}^n\{X_i>x\}$. By independence, $$F_{X_{(n)}}(x)=P[X_{(n)}\le x]=P\!\left(\bigcap_{i=1}^n\{X_i\le x\}\right)=\prod_{i=1}^n P[X_i\le x]=F(x)^n,$$ $$F_{X_{(1)}}(x)=1-P[X_{(1)}>x]=1-P\!\left(\bigcap_{i=1}^n\{X_i>x\}\right)=1-(1-F(x))^n.$$
 
 If $F$ is differentiable with density $f$, then differentiating gives the density of the maximum as $f_{X_{(n)}}(x)=nF(x)^{n-1}f(x)$, and similarly the density of the minimum as $f_{X_{(1)}}(x)=n(1-F(x))^{n-1}f(x)$.
 
@@ -552,16 +546,7 @@ Flashcards for this section are as follows:
 
 ### covariance matrix
 
-For a random vector $\boldsymbol X=(X_1,\dots,X_n)^\top$ with mean vector $\boldsymbol\mu=(\mu_1,\dots,\mu_n)^\top$ where $\mu_i=E[X_i]$, the **covariance matrix** (or variance‑covariance matrix) is the $n\times n$ matrix $\Sigma$ whose $(i,j)$ entry is $\operatorname{Cov}(X_i,X_j)$:
-
-$$\Sigma=\bigl(\operatorname{Cov}(X_i,X_j)\bigr)_{i,j=1}^n
-      =E\bigl[(\boldsymbol X-\boldsymbol\mu)(\boldsymbol X-\boldsymbol\mu)^\top\bigr]
-      =\begin{pmatrix}
-        \operatorname{Var}[X_1] & \operatorname{Cov}(X_1,X_2) & \cdots & \operatorname{Cov}(X_1,X_n) \\
-        \operatorname{Cov}(X_2,X_1) & \operatorname{Var}[X_2] & \cdots & \operatorname{Cov}(X_2,X_n) \\
-        \vdots & \vdots & \ddots & \vdots \\
-        \operatorname{Cov}(X_n,X_1) & \operatorname{Cov}(X_n,X_2) & \cdots & \operatorname{Var}[X_n]
-        \end{pmatrix}.$$
+For a random vector $\boldsymbol X=(X_1,\dots,X_n)^\top$ with mean vector $\boldsymbol\mu=(\mu_1,\dots,\mu_n)^\top$ where $\mu_i=E[X_i]$, the **covariance matrix** (or variance‑covariance matrix) is the $n\times n$ matrix $\Sigma$ whose $(i,j)$ entry is $\operatorname{Cov}(X_i,X_j)$: $$\Sigma=\bigl(\operatorname{Cov}(X_i,X_j)\bigr)_{i,j=1}^n      =E\bigl[(\boldsymbol X-\boldsymbol\mu)(\boldsymbol X-\boldsymbol\mu)^\top\bigr]      =\begin{pmatrix}        \operatorname{Var}[X_1] & \operatorname{Cov}(X_1,X_2) & \cdots & \operatorname{Cov}(X_1,X_n) \\        \operatorname{Cov}(X_2,X_1) & \operatorname{Var}[X_2] & \cdots & \operatorname{Cov}(X_2,X_n) \\        \vdots & \vdots & \ddots & \vdots \\        \operatorname{Cov}(X_n,X_1) & \operatorname{Cov}(X_n,X_2) & \cdots & \operatorname{Var}[X_n]        \end{pmatrix}.$$
 
 **Properties.**
 

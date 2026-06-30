@@ -51,12 +51,7 @@ The questions on this page summarize the _official problem-set materials_ for pr
 
 > Piecewise cumulative distribution functions and named examples. Let $X$ be a real random variable with CDF
 >
-> $$F_X(x)=\begin{cases}
-> \frac14 e^{x+2}+c, & x<-2,\\[2pt]
-> \frac12+\frac x8, & -2\le x<0,\\[2pt]
-> \frac{2+x}{3+x}, & 0\le x<5,\\[2pt]
-> (\lambda-1)e^x+1, & x\ge5.
-> \end{cases}$$
+> $$F_X(x)=\begin{cases} \frac14 e^{x+2}+c, & x<-2,\\[2pt] \frac12+\frac x8, & -2\le x<0,\\[2pt] \frac{2+x}{3+x}, & 0\le x<5,\\[2pt] (\lambda-1)e^x+1, & x\ge5. \end{cases}$$
 >
 > - (a) Determine the constants $c,\lambda$ from the CDF axioms.
 > - (b) Compute $P(0\le X<5)$ and $P(-2<X\le5)$.
@@ -66,7 +61,7 @@ The questions on this page summarize the _official problem-set materials_ for pr
 > Solution:
 >
 > - (a) {@{$\lim_{x\to-\infty}F_X(x)=0$}@} forces {@{the first piece to vanish}@}, so {@{$c=0$}@}. {@{$\lim_{x\to\infty}F_X(x)=1$}@} forces {@{the coefficient $(\lambda-1)$ to be $0$}@}, so {@{$\lambda=1$}@}.
-> - (b) For {@{$0\le X<5$}@} we need {@{left limits}@}: {@{$F_X(5-)=\frac{2+5}{3+5}=\frac78$, $F_X(0-)=\frac12+\frac08=\frac12$}@}, hence {@{$P(0\le X<5)=\frac78-\frac12 = \frac38$}@}. <p> For {@{$-2<X\le5$}@}: {@{$F_X(5)=(\lambda-1)e^5+1=1$, $F_X(-2)=\frac14 e^{0}+c=\frac14$}@}, hence {@{$P(-2<X\le5)=1-\frac14 = $\frac34$}@}.
+> - (b) For {@{$0\le X<5$}@} we need {@{left limits}@}: {@{$F_X(5-)=\frac{2+5}{3+5}=\frac78$, $F_X(0-)=\frac12+\frac08=\frac12$}@}, hence {@{$P(0\le X<5)=\frac78-\frac12 = \frac38$}@}. <p> For {@{$-2<X\le5$}@}: {@{$F_X(5)=(\lambda-1)e^5+1=1$, $F_X(-2)=\frac14 e^{0}+c=\frac14$}@}, hence {@{$P(-2<X\le5)=1-\frac14 = \frac34$}@}.
 > - (c) For {@{$X\sim\operatorname{Bin}(4,\tfrac14)$}@}: {@{$$F_X(x)=P[X\le x]=\sum_{0\le k\le\min\{4,x\}}\binom4k\Big(\frac14\Big)^k\Big(\frac34\Big)^{4-k} =\begin{cases} 0, & x<0,\\ 0.316, & x\in[0,1),\\ 0.738, & x\in[1,2),\\ 0.949, & x\in[2,3),\\ 0.996, & x\in[3,4),\\ 1, & x\ge4. \end{cases}$$}@}
 > - (d) For {@{$Y\sim\operatorname{Cau}(1,2)$}@}: {@{$$\begin{aligned} F_Y(y)&=\int_{-\infty}^y\frac{2}{\pi(4+(t-1)^2)}\,dt\\ &=\frac1{2\pi}\int_{-\infty}^y\frac{1}{1+\big(\frac{t-1}{2}\big)^2}\,dt\\ &=\frac1\pi\Big[\arctan\Big(\frac{t-1}{2}\Big)\Big]_{-\infty}^y\\ &=\frac1\pi\Big(\arctan\frac{y-1}{2}+\frac\pi2\Big). \end{aligned}$$}@}
 
@@ -82,6 +77,6 @@ The questions on this page summarize the _official problem-set materials_ for pr
 > Solution:
 >
 > - (a) By {@{definition of the CDF}@}, {@{$P((-\infty,m])=F(m)$}@}, so {@{$P((-\infty,m])\ge\frac12\iff F(m)\ge\frac12$}@}. <p> For {@{the right-side mass}@}, write {@{$P([m,\infty))=1-P((-\infty,m))$}@}. Since {@{$P((-\infty,m))=\lim_{y\uparrow m}F(y)$ (left limit of the CDF)}@}, we get {@{$P([m,\infty))\ge\frac12\iff 1-\lim_{y\uparrow m}F(y)\ge\frac12\iff \lim_{y\uparrow m}F(y)\le\frac12$}@}. <p> Hence {@{the median condition}@} is equivalent to {@{both $P((-\infty,m])\ge\frac12$ and $P([m,\infty))\ge\frac12$}@}.
-> - (b) Let {@{$A=\{x\in\mathbb R:F(x)<\frac12\}$ and $\alpha=\sup A$}@}. Since {@{$\lim_{x\to-\infty}F(x)=0<\frac12$, $A\neq\varnothing$, and since $\lim_{x\to\infty}F(x)=1>\frac12$}@}, $A$ is {@{bounded above, so $\alpha\in\mathbb R$ exists}@}. <p> First, show {@{$\lim_{y\uparrow\alpha}F(y)\le\frac12$}@}: pick {@{a sequence $\alpha_n\in A$ with $\alpha_n\uparrow\alpha$}@}. Because $F$ is {@{non-decreasing, $F(\alpha_n)<\frac12$ for all $n$}@}, so {@{$\lim_{y\uparrow\alpha}F(y)=\lim_{n\to\infty}F(\alpha_n)\le\frac12$}@}. <p> Second, show {@{$F(\alpha)\ge\frac12$}@}: suppose {@{not, i.e. $F(\alpha)<\frac12$}@}. {@{Right-continuity of $F$ \(and completeness of the reals\)}@} gives {@{$\varepsilon>0$ such that $F(x)<\frac12$ for all $x\in(\alpha,\alpha+\varepsilon)$}@}. Then those {@{$x$ belong to $A$, contradicting $\alpha=\sup A$}@}. Hence {@{$F(\alpha)\ge\frac12$}@}. <p> Thus $\alpha$ satisfies {@{the median condition and is a median}@}.
+> - (b) Let {@{$A=\{x\in\mathbb R:F(x)<\frac12\}$ and $\alpha=\sup A$}@}. Since {@{$\lim_{x\to-\infty}F(x)=0<\frac12$, $A\neq\varnothing$, and since $\lim_{x\to\infty}F(x)=1>\frac12$}@}, $A$ is {@{bounded above, so $\alpha\in\mathbb R$ exists}@}. <p> First, show {@{$\lim_{y\uparrow\alpha}F(y)\le\frac12$}@}: pick {@{a sequence $\alpha_n\in A$ with $\alpha_n\uparrow\alpha$}@}. Because $F$ is {@{non-decreasing, $F(\alpha_n)<\frac12$ for all $n$}@}, so {@{$\lim_{y\uparrow\alpha}F(y)=\lim_{n\to\infty}F(\alpha_n)\le\frac12$}@}. <p> Second, show {@{$F(\alpha)\ge\frac12$}@}: suppose {@{not, i.e. $F(\alpha)<\frac12$}@}. {@{Right-continuity of $F$ (and completeness of the reals)}@} gives {@{$\varepsilon>0$ such that $F(x)<\frac12$ for all $x\in(\alpha,\alpha+\varepsilon)$}@}. Then those {@{$x$ belong to $A$, contradicting $\alpha=\sup A$}@}. Hence {@{$F(\alpha)\ge\frac12$}@}. <p> Thus $\alpha$ satisfies {@{the median condition and is a median}@}.
 > - (c) Let {@{$\beta=\sup\{x\in\mathbb R:F(x)\le\frac12\}$}@} — {@{the last point where the CDF is still $\le\frac12$}@}. <p> {@{_Medians are contained in $[\alpha,\beta]$<!-- LaTeX separator -->_}@}: If {@{$m$ is a median}@}, then {@{$F(m)\ge\frac12$}@}, so {@{$m\notin A$ and therefore $m\ge\sup A=\alpha$}@}. If {@{$m>\beta$}@}, choose {@{$\varepsilon=(m-\beta)/2>0$; then $F(\beta+\varepsilon)>\frac12$}@} (since {@{$\beta+\varepsilon>\beta$}@}), and by {@{monotonicity $\lim_{y\uparrow m}F(y)\ge F(\beta+\varepsilon)>\frac12$}@}, contradicting {@{the median condition. Hence $m\le\beta$}@}. <p> {@{_Every $m\in[\alpha,\beta]$ is a median_}@}: If {@{$m\in[\alpha,\beta]$}@}, then {@{$m\ge\alpha$ implies $F(m)\ge\frac12$}@} (otherwise {@{$m\in A$ would contradict $\alpha=\sup A$}@}). For {@{$y<m\le\beta$}@}, we have {@{$F(y)\le\frac12$, so $\lim_{y\uparrow m}F(y)\le\frac12$}@}. Thus $m$ {@{satisfies $(\star)$}@}. <p> Therefore {@{the full set of medians is $[\alpha,\beta]$}@}.
 > - (d) If {@{$F$ is continuous}@}, then {@{$\lim_{y\uparrow m}F(y)=F(m)$}@}. The median condition becomes {@{$F(m)\le\frac12\le F(m)$, which forces $F(m)=\frac12$}@}. So medians are {@{precisely the solutions of $F(m)=\frac12$}@}. If $F$ is {@{also strictly increasing}@}, then $F$ is {@{injective and the solution is unique}@}.

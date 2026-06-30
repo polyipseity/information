@@ -646,22 +646,22 @@ The content is in teaching order.
   - calculator: no
   - cheatsheet: no
   - referencing: closed book, closed notes
-  - provided: \(none\)
+  - provided: (none)
   - questions: single-choice ×5, true/false ×5, long questions ×2
 - grade: 29.5/30
 - statistics:
   - L1:
     - timestamp: 2026-03-21T17:43:00+08:00
-    - count: \(none\)
+    - count: (none)
     - mean: 19.2
-    - standard deviation: \(none\)
+    - standard deviation: (none)
     - low: 6.0
     - lower quartile: 14.5
     - median: 20.5
     - upper quartile: 25
     - high: 29.5
-    - distribution: \(none\)
-    - data: \(none\)
+    - distribution: (none)
+    - data: (none)
 - breakdown:
   - Q1–5 (single-choice): 5/5
   - Q6–10 (true/false): 5/5
@@ -669,7 +669,7 @@ The content is in teaching order.
   - Q12: 10/10
 - note: For proof-oriented midterm questions, especially those involving Dynkin's pi-lambda theorem, also review [sigma-algebra § proof via compatibility classes](sigma-algebra.md#proof%20via%20compatibility%20classes) together with [sigma-algebra § extending a two-family property from two pi-systems](sigma-algebra.md#extending%20a%20two-family%20property%20from%20two%20pi-systems); the latter is the standard template for extending two-variable identities from generators to the two generated sigma-algebras.
 - report:
-  - \(none\)
+  - (none)
 - [questions / practice midterm examination](questions/practice%20midterm%20examination.md)
 - [questions / midterm examination](questions/midterm%20examination.md)
 - [sigma-algebra § proof via compatibility classes](sigma-algebra.md#proof%20via%20compatibility%20classes)
@@ -700,22 +700,22 @@ The content is in teaching order.
   - calculator: no
   - cheatsheet: no
   - referencing: closed book, closed notes
-  - provided: \(none\)
+  - provided: (none)
   - questions: single-choice ×5, true/false ×5, long questions ×4
 - grade: 40.5/50
 - statistics:
   - L1:
     - timestamp: 2026-05-26T13:22:00+08:00
-    - count: \(none\)
+    - count: (none)
     - mean: 24.57
-    - standard deviation: \(none\)
+    - standard deviation: (none)
     - low: 6.5
     - lower quartile: 16.25
     - median: 25.5
     - upper quartile: 31.25
     - high: 45.0
-    - distribution: \(none\)
-    - data: \(none\)
+    - distribution: (none)
+    - data: (none)
 - breakdown:
   - Q1–5 (single-choice): 5/5
   - Q6–10 (true/false): 5/5
@@ -723,9 +723,9 @@ The content is in teaching order.
   - Q12: 5.5/10
   - Q13: 8.5/10
   - Q14: 8.5/10
-- note: \(none\)
+- note: (none)
 - report:
-  - \(none\)
+  - (none)
 - [questions / final examination](questions/final%20examination.md)
 
 ---
@@ -784,14 +784,14 @@ Supplementary non-examinable material covered after the final exam.
   - letter grade: A+
 - statistics:
   - L1:
-    - timestamp: \(none\)
-    - count: \(none\)
-    - mean: \(none\)
-    - standard deviation: \(none\)
-    - low: \(none\)
-    - lower quartile: \(none\)
-    - median: \(none\)
-    - upper quartile: \(none\)
-    - high: \(none\)
-    - distribution: \(none\)
-    - data: \(none\)
+    - timestamp: (none)
+    - count: (none)
+    - mean: (none)
+    - standard deviation: (none)
+    - low: (none)
+    - lower quartile: (none)
+    - median: (none)
+    - upper quartile: (none)
+    - high: (none)
+    - distribution: (none)
+    - data: (none)
