@@ -154,10 +154,14 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
         if m:
             body = text[m.end() :]
 
-    # Parse the Markdown text into an AST once, so all rules can share the
-    # structured representation instead of each rule re-parsing with regex.
+    # Parse the Markdown text (without YAML frontmatter) into an AST once,
+    # so all rules can share the structured representation instead of each
+    # rule re-parsing with regex.  Stripping frontmatter prevents mistune
+    # (which has no frontmatter plugin) from misparsing YAML list items and
+    # key-value pairs as Markdown lists/paragraphs, which would otherwise
+    # produce spurious AST nodes.
     try:
-        ast = _MD(text)
+        ast = _MD(body)
     except Exception:
         ast = []
 

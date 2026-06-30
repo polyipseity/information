@@ -99,9 +99,11 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
     m = FRONT_RE.match(text)
     if m:
         body = text[m.end() :]
-    # Same pattern as validator: parse AST and extract session headers
+    # Same pattern as validator: parse AST from the body (without YAML
+    # frontmatter) so mistune doesn't produce spurious nodes from YAML
+    # list items / key-value pairs.
     try:
-        ast = _MD(text)
+        ast = _MD(body)
     except Exception:
         ast = []
     session_headers = parse_session_headers(text, ast)
@@ -1372,6 +1374,63 @@ def test_no_soft_wrap_list():
     ctx = make_ctx(txt)
     msgs = no_soft_wrap_list(ctx)
     assert len(msgs) == 2
+
+
+def test_no_soft_wrap_list_yaml_frontmatter():
+    """YAML frontmatter aliases (list form) must not produce false positives.
+
+    The validator strips frontmatter before building the mistune AST, so
+    YAML list items like `` - my alias`` are never seen by the Markdown
+    parser and cannot produce phantom ``list_item`` / ``softbreak`` nodes.
+    """
+    # YAML aliases in list form — phantom list items should be skipped.
+    txt = """---
+aliases:
+  - my alias
+  - other alias
+tags: []
+---
+"""
+    assert not no_soft_wrap_list(make_ctx(txt))
+
+    # Real list items in the body after YAML frontmatter must still be
+    # flagged, even when the frontmatter also contains list-form aliases.
+    txt2 = """---
+aliases:
+  - my alias
+  - other alias
+tags: []
+---
+- real item
+  continuation
+"""
+    msgs = no_soft_wrap_list(make_ctx(txt2))
+    assert len(msgs) == 1
+    assert "soft-wrapped" in msgs[0].msg
+
+
+def test_no_soft_wrap_list_image_only_items():
+    """Soft-wrapped list items whose content is only images must be flagged.
+
+    Consecutive image lines (no blank line) after a list marker constitute
+    a soft-wrapped list item and are legitimate formatting violations.
+    """
+    # Numbered list with image-only lines — soft-wrapped, should flag.
+    txt = "3. ![img1](a.png)\n   ![img2](b.png)\n"
+    msgs = no_soft_wrap_list(make_ctx(txt))
+    assert len(msgs) == 1
+    assert "soft-wrapped" in msgs[0].msg
+
+    # Bullet list image-only — also flagged.
+    txt2 = "- ![img1](a.png)\n  ![img2](b.png)\n"
+    msgs2 = no_soft_wrap_list(make_ctx(txt2))
+    assert len(msgs2) == 1
+    assert "soft-wrapped" in msgs2[0].msg
+
+    # Mixed real text + images is still a violation.
+    txt3 = "3. Some text\n   ![img](a.png)\n"
+    msgs3 = no_soft_wrap_list(make_ctx(txt3))
+    assert len(msgs3) == 1
 
 
 def test_no_consecutive_source_newlines_rule():
