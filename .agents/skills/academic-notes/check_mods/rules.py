@@ -166,6 +166,20 @@ def _get_section_end(
 
 
 @RULE_REGISTRY.register()
+def missing_yaml_frontmatter(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Rule: file must include YAML frontmatter.
+
+    Returns an error if the file has no YAML frontmatter block.
+    """
+    errors: list[ValidationMessage] = []
+    if not ctx.front:
+        errors.append(
+            ValidationMessage("missing_yaml_frontmatter", "missing YAML frontmatter")
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def metadata_aliases_present(ctx: ValidationContext) -> list[ValidationMessage]:
     """Rule: file must include an 'aliases:' field in YAML frontmatter.
 
@@ -207,6 +221,26 @@ def metadata_flash_tag(ctx: ValidationContext) -> list[ValidationMessage]:
         errors.append(
             ValidationMessage(
                 "metadata_flash_tag", "missing flashcard activation tag in 'tags:'"
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def flashcard_tag_unique(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Enforce that at most one flashcard activation tag exists.
+
+    Multiple flashcard tags are redundant and likely caused by accidental
+    duplication.
+    """
+    errors: list[ValidationMessage] = []
+    tags: list[str] = ctx.data.tags or []
+    flash_tags = [t for t in tags if t.startswith("flashcard/")]
+    if len(flash_tags) > 1:
+        errors.append(
+            ValidationMessage(
+                "flashcard_tag_unique",
+                f"multiple flashcard activation tags found (expected 1, found {len(flash_tags)})",
             )
         )
     return errors

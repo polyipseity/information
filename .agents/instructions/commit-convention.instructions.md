@@ -6,16 +6,16 @@ applyTo: "**"
 
 # Commit convention for agent-made commits
 
-**Agent quickstart:** See `.agents/instructions/agent-quickstart.instructions.md` for a short checklist of commands and workflow tips (present commit message to the user, run `bun run format`/`bun run check`, and prefer `bun install` + `bun run prepare` before making changes).
+__Agent quickstart:__ See `.agents/instructions/agent-quickstart.instructions.md` for a short checklist of commands and workflow tips (present commit message to the user, run `bun run format`/`bun run check`, and prefer `bun install` + `bun run prepare` before making changes).
 
-Whenever an automated agent or helper wishes to create a git commit on behalf of a user in this repository, the agent MUST follow this instruction **and ensure the commit message passes all commitlint rules enforced by the repository** (including line length, header/body/footer formatting, and any other linting requirements).
+Whenever an automated agent or helper wishes to create a git commit on behalf of a user in this repository, the agent MUST follow this instruction __and ensure the commit message passes all commitlint rules enforced by the repository__ (including line length, header/body/footer formatting, and any other linting requirements).
 
-1. Use Conventional Commit style for the commit header (`type(scope): short description`). Choose an appropriate type (e.g., feat, fix, docs, chore) and a concise scope such as `notes` when editing note content. **All commit messages MUST comply with commitlint rules as enforced by the repository, including but not limited to:**
+1. Use Conventional Commit style for the commit header (`type(scope): short description`). Choose an appropriate type (e.g., feat, fix, docs, chore) and a concise scope such as `notes` when editing note content. __All commit messages MUST comply with commitlint rules as enforced by the repository, including but not limited to:__
    - Commit header length and format
-   - **Agents SHOULD wrap commit body lines at 72 characters or fewer (preferred for readability and buffer). Note: commitlint enforces a hard limit of 100 characters — ensure lines are ≤100 to pass.**
+   - __Agents SHOULD wrap commit body lines at 72 characters or fewer (preferred for readability and buffer). Note: commitlint enforces a hard limit of 100 characters — ensure lines are ≤100 to pass.__
    - Proper use of footers and trailers
 
-2. If the changes touch any of the `general/`, `special/`, or `self/` trees, the agent SHOULD suggest the following commit format to the user and prefer splitting documentation and content changes from functional changes. **Agents SHOULD aim to wrap commit body lines at 72 characters or fewer (preferred for readability and buffer); commitlint enforces a hard limit of 100 characters — ensure lines are ≤100 to pass.**
+2. If the changes touch any of the `general/`, `special/`, or `self/` trees, the agent SHOULD suggest the following commit format to the user and prefer splitting documentation and content changes from functional changes. __Agents SHOULD aim to wrap commit body lines at 72 characters or fewer (preferred for readability and buffer); commitlint enforces a hard limit of 100 characters — ensure lines are ≤100 to pass.__
    - If a commit message fails commitlint due to line length, the agent MUST rewrap the body to ≤ 100 chars/line and retry until it passes, or report the error if it cannot be resolved.
 
    Header example:
@@ -74,22 +74,22 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
 
 4. If no flashcard-related counts apply to the change, the agent should omit these trailers.
 
-5. The agent MUST always show the proposed commit message to the user for confirmation before creating the commit. If the user requests changes to the message or the trailer values, the agent must accept and re-present the updated commit message for final confirmation. **The agent MUST check that the message is commitlint-compliant before presenting or using it.**
+5. The agent MUST always show the proposed commit message to the user for confirmation before creating the commit. If the user requests changes to the message or the trailer values, the agent must accept and re-present the updated commit message for final confirmation. __The agent MUST check that the message is commitlint-compliant before presenting or using it.__
 
 6. This instruction applies repository-wide; submodules with their own `.agents/instructions/` may augment or override these rules for their subtree (innermost `AGENTS.md` wins).
 
-**Pre-commit validation:** Before creating commits, agents MUST run repository formatting and validation steps using `bun` script wrappers when available (for example, `bun run format`, `bun run check`, and `bun run test`). When operating on a subset of files, supply explicit paths to these commands (e.g. `bun run check:md --no-globs file.md`) so they complete quickly. The repository includes Husky hooks (`pre-commit`, `commit-msg`, `pre-push`) and `pre-push` runs `bun run test` to prevent pushing failing tests. Ensuring these steps locally reduces CI failures and blocked pushes.
+__Pre-commit validation:__ Before creating commits, agents MUST run repository formatting and validation steps using `bun` script wrappers when available (for example, `bun run format`, `bun run check`, and `bun run test`). When operating on a subset of files, supply explicit paths to these commands (e.g. `bun run check:md --no-globs file.md`) so they complete quickly. The repository includes Husky hooks (`pre-commit`, `commit-msg`, `pre-push`) and `pre-push` runs `bun run test` to prevent pushing failing tests. Ensuring these steps locally reduces CI failures and blocked pushes.
 
 ## Commitlint compliance
 
 All commit messages MUST pass commitlint checks. In particular:
 
 - The commit header must follow Conventional Commit format and length rules.
-- The commit body (if present) should be wrapped at **72 characters or fewer per line** (preferred for readability); commitlint enforces a hard limit of **100 characters** — ensure lines are ≤100 to pass.
+- The commit body (if present) should be wrapped at __72 characters or fewer per line__ (preferred for readability); commitlint enforces a hard limit of __100 characters__ — ensure lines are ≤100 to pass.
 - Trailers and footers must be formatted as plain ASCII key/value pairs, one per line.
 - No lines may exceed the maximum allowed by commitlint.
 
-If a commit message fails commitlint, the agent MUST rewrap or reformat the message and retry until it passes, or report the error if it cannot be resolved. **Agents must never allow a commit message with a body line exceeding 100 characters (commitlint will block the commit).**
+If a commit message fails commitlint, the agent MUST rewrap or reformat the message and retry until it passes, or report the error if it cannot be resolved. __Agents must never allow a commit message with a body line exceeding 100 characters (commitlint will block the commit).__
 
 ---
 

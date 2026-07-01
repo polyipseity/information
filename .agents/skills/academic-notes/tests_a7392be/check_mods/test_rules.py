@@ -22,6 +22,7 @@ from check_mods.rules import (
     cloze_single_line,
     cloze_wrong_closing_token,
     find_math_spans,
+    flashcard_tag_unique,
     folder_link_trailing_slash,
     header_flashcard_presence,
     header_flashcard_sections_duplicate,
@@ -47,6 +48,7 @@ from check_mods.rules import (
     metadata_aliases_present,
     metadata_flash_tag,
     metadata_tags_present,
+    missing_yaml_frontmatter,
     no_consecutive_source_newlines,
     no_control_characters,
     no_lecture_summary,
@@ -97,9 +99,11 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
     m = FRONT_RE.match(text)
     if m:
         body = text[m.end() :]
-    # Same pattern as validator: parse AST and extract session headers
+    # Same pattern as validator: parse AST from the body (without YAML
+    # frontmatter) so mistune doesn't produce spurious nodes from YAML
+    # list items / key-value pairs.
     try:
-        ast = _MD(text)
+        ast = _MD(body)
     except Exception:
         ast = []
     session_headers = parse_session_headers(text, ast)
@@ -141,6 +145,19 @@ def test_metadata_tags_present_and_flash():
     ctx = make_ctx(txt)
     msgs = metadata_flash_tag(ctx)
     assert msgs and msgs[0].msg.startswith("missing flashcard")
+
+
+def test_missing_yaml_frontmatter():
+    """Rule should fire when file has no YAML frontmatter."""
+
+    # No frontmatter at all
+    ctx = make_ctx("just some text without frontmatter\n")
+    msgs = missing_yaml_frontmatter(ctx)
+    assert msgs and msgs[0].msg.startswith("missing YAML frontmatter")
+
+    # With valid frontmatter — no error
+    ctx = make_ctx("---\naliases: [a]\ntags: [language/in/English]\n---\n")
+    assert not missing_yaml_frontmatter(ctx)
 
 
 def test_aliases_sorted_and_tag_language():
@@ -1359,6 +1376,63 @@ def test_no_soft_wrap_list():
     assert len(msgs) == 2
 
 
+def test_no_soft_wrap_list_yaml_frontmatter():
+    """YAML frontmatter aliases (list form) must not produce false positives.
+
+    The validator strips frontmatter before building the mistune AST, so
+    YAML list items like `` - my alias`` are never seen by the Markdown
+    parser and cannot produce phantom ``list_item`` / ``softbreak`` nodes.
+    """
+    # YAML aliases in list form — phantom list items should be skipped.
+    txt = """---
+aliases:
+  - my alias
+  - other alias
+tags: []
+---
+"""
+    assert not no_soft_wrap_list(make_ctx(txt))
+
+    # Real list items in the body after YAML frontmatter must still be
+    # flagged, even when the frontmatter also contains list-form aliases.
+    txt2 = """---
+aliases:
+  - my alias
+  - other alias
+tags: []
+---
+- real item
+  continuation
+"""
+    msgs = no_soft_wrap_list(make_ctx(txt2))
+    assert len(msgs) == 1
+    assert "soft-wrapped" in msgs[0].msg
+
+
+def test_no_soft_wrap_list_image_only_items():
+    """Soft-wrapped list items whose content is only images must be flagged.
+
+    Consecutive image lines (no blank line) after a list marker constitute
+    a soft-wrapped list item and are legitimate formatting violations.
+    """
+    # Numbered list with image-only lines — soft-wrapped, should flag.
+    txt = "3. ![img1](a.png)\n   ![img2](b.png)\n"
+    msgs = no_soft_wrap_list(make_ctx(txt))
+    assert len(msgs) == 1
+    assert "soft-wrapped" in msgs[0].msg
+
+    # Bullet list image-only — also flagged.
+    txt2 = "- ![img1](a.png)\n  ![img2](b.png)\n"
+    msgs2 = no_soft_wrap_list(make_ctx(txt2))
+    assert len(msgs2) == 1
+    assert "soft-wrapped" in msgs2[0].msg
+
+    # Mixed real text + images is still a violation.
+    txt3 = "3. Some text\n   ![img](a.png)\n"
+    msgs3 = no_soft_wrap_list(make_ctx(txt3))
+    assert len(msgs3) == 1
+
+
 def test_no_consecutive_source_newlines_rule():
     """Consecutive source newlines should be detected across line-ending styles."""
 
@@ -1933,3 +2007,71 @@ def test_unit_outside_math_no_false_positive_adjacent():
     assert not msgs, (
         "adjacent math ending in digits with no following unit should not trigger"
     )
+
+
+def test_flashcard_tag_unique():
+    """Only one flashcard activation tag is allowed in frontmatter."""
+
+    # Zero flashcard tags: no error (metadata_flash_tag covers that)
+    ctx0 = make_ctx("---\naliases: [a]\ntags: [language/in/English]\n---\n")
+    assert not flashcard_tag_unique(ctx0)
+
+    # Exactly one flashcard tag: no error
+    ctx1 = make_ctx(
+        "---\n"
+        "aliases: [Markov chain]\n"
+        "tags: [language/in/English, flashcard/active/special/academia/HKUST/MATH_2431/Markov_chain]\n"
+        "---\n"
+    )
+    assert not flashcard_tag_unique(ctx1)
+
+    # Two flashcard tags: error
+    ctx2 = make_ctx(
+        "---\n"
+        "aliases: [a]\n"
+        "tags: ["
+        "language/in/English, "
+        "flashcard/active/special/academia/HKUST/COMP_4211/some_note, "
+        "flashcard/active/special/academia/HKUST/COMP_4211/some_note/index"
+        "]\n"
+        "---\n"
+    )
+    msgs2 = flashcard_tag_unique(ctx2)
+    assert msgs2 and msgs2[0].rule_id == "flashcard_tag_unique"
+    assert "expected 1, found 2" in msgs2[0].msg
+
+    # Three flashcard tags: error with correct count
+    ctx3 = make_ctx(
+        "---\n"
+        "aliases: [a]\n"
+        "tags: ["
+        "flashcard/active/special/academia/A/B/C, "
+        "flashcard/active/special/academia/A/B/D, "
+        "flashcard/active/special/academia/A/B/E"
+        "]\n"
+        "---\n"
+    )
+    msgs3 = flashcard_tag_unique(ctx3)
+    assert msgs3 and msgs3[0].rule_id == "flashcard_tag_unique"
+    assert "expected 1, found 3" in msgs3[0].msg
+
+    # Tags that don't start with "flashcard/" should not count
+    ctx_no_match = make_ctx(
+        "---\naliases: [a]\ntags: [language/in/English, function/index]\n---\n"
+    )
+    assert not flashcard_tag_unique(ctx_no_match)
+
+    # Any tag starting with "flashcard/" counts, regardless of path
+    ctx_mixed = make_ctx(
+        "---\n"
+        "aliases: [a]\n"
+        "tags: ["
+        "language/in/English, "
+        "flashcard/active/general/some_topic, "
+        "flashcard/active/special/academia/HKUST/MATH_2431/markov_chain"
+        "]\n"
+        "---\n"
+    )
+    msgs_mixed = flashcard_tag_unique(ctx_mixed)
+    assert msgs_mixed and msgs_mixed[0].rule_id == "flashcard_tag_unique"
+    assert "expected 1, found 2" in msgs_mixed[0].msg

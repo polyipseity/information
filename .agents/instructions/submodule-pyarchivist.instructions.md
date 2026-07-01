@@ -7,13 +7,13 @@ applyTo: "scripts/pyarchivist/**"
 # Submodule PyArchivist Guidelines
 
 - This is a git submodule for the pyarchivist archiving tool (external dependency)
-- **Default behavior**: Avoid editing unless user explicitly requests it
-- **If editing is needed but not requested**: Ask the user for permission first
-- **When user approves edits**: Make changes here, test thoroughly, then contribute upstream
+- __Default behavior__: Avoid editing unless user explicitly requests it
+- __If editing is needed but not requested__: Ask the user for permission first
+- __When user approves edits__: Make changes here, test thoroughly, then contribute upstream
 - For upstream contributions: work in the pyarchivist repo, merge changes, then update submodule pointer
-- **Submodule instructions**: This submodule has its own `AGENTS.md` and `.agents/instructions/` and `.agents/skills/` files that take priority when working within `scripts/pyarchivist/`. Agents: consult `.agents/instructions/agent-quickstart.instructions.md` before running archive-related workflows — pay attention to batching/concurrency limits and run small deterministic test runs first.
-- **Working directory**: Always set your current working directory to the submodule root before running project or release commands. Run `cd scripts/pyarchivist` first and then execute `uv`, `git`, or build commands from there.
-- **Release reminder**: When publishing a new version, after updating the package version string run `uv sync` to refresh `uv.lock`; add and commit `uv.lock` (or include it in the release commit) before creating the release tag and pushing.
+- __Submodule instructions__: This submodule has its own `AGENTS.md` and `.agents/instructions/` and `.agents/skills/` files that take priority when working within `scripts/pyarchivist/`. Agents: consult `.agents/instructions/agent-quickstart.instructions.md` before running archive-related workflows — pay attention to batching/concurrency limits and run small deterministic test runs first.
+- __Working directory__: Always set your current working directory to the submodule root before running project or release commands. Run `cd scripts/pyarchivist` first and then execute `uv`, `git`, or build commands from there.
+- __Release reminder__: When publishing a new version, after updating the package version string run `uv sync` to refresh `uv.lock`; add and commit `uv.lock` (or include it in the release commit) before creating the release tag and pushing.
 
 ## Developer tooling & testing (pyarchivist submodule)
 

@@ -1,9 +1,19 @@
 {
   "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json",
+  "extends": null,
   "MD013": false,
   "MD033": false,
+  "MD049": {
+    "enabled": true,
+    "severity": "error",
+    "style": "underscore"
+  },
+  "MD050": {
+    "enabled": true,
+    "severity": "error",
+    "style": "underscore"
+  },
   "MD051": false,
   "MD055": false,
-  "MD056": false,
-  "extends": null,
+  "MD056": false
 }

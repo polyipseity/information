@@ -26,11 +26,11 @@ extension work.
 
 ## Quick rules for agents
 
-- **Header style validator is language-aware**: The validator now properly handles non-Latin scripts (CJK, Cyrillic, Arabic, Greek, etc.) which lack uppercase/lowercase distinction. Topic notes in any language no longer need header_style suppressions. Only Latin-script headers require the lowercase-except-proper-nouns convention.
-- Prefer one durable home per concept: **duplicate → link**, **enhancement →
-  deepen existing note**, **new → create new note only if no good home exists**.
-- When you change a topic note, update its **prose**, **flashcards**, and every
-  affected **`index.md` section link** in the same task.
+- __Header style validator is language-aware__: The validator now properly handles non-Latin scripts (CJK, Cyrillic, Arabic, Greek, etc.) which lack uppercase/lowercase distinction. Topic notes in any language no longer need header_style suppressions. Only Latin-script headers require the lowercase-except-proper-nouns convention.
+- Prefer one durable home per concept: __duplicate → link__, __enhancement →
+  deepen existing note__, __new → create new note only if no good home exists__.
+- When you change a topic note, update its __prose__, __flashcards__, and every
+  affected __`index.md` section link__ in the same task.
 - Keep technical notes at the lecture's real depth: preserve formulas,
   distinctions, derivation skeletons, and representative examples or
   counterexamples.
@@ -54,14 +54,14 @@ extension work.
   needed diagram context.
 - Keep math on one source line and use `$...$` / `$$...$$`; do not use `\(\)`
   or `\[\]`.
-- **LaTeX conventions for probability notes**: Use `\operatorname` for named
+- __LaTeX conventions for probability notes__: Use `\operatorname` for named
   distributions (`\operatorname{Bin}`, `\operatorname{Cau}`); `\mathbf 1` for
   indicators; `\binom{n}{k}`; `\lim_{y\uparrow m}` for left limits;
   `\begin{cases}` with `[2pt]` spacing for piecewise definitions.
 - Use underscore-normalized flashcard tags, for example
   `flashcard/active/special/academia/HKUST/COMP_3031` or
   `flashcard/active/special/academia/Pusan_National_University/IT3000504`.
-- Do **not** create or edit `general/` files automatically; use the Wikipedia
+- Do __not__ create or edit `general/` files automatically; use the Wikipedia
   helper only to discover canonical titles for links.
 - Do not put instructor or TA names or email addresses in course notes.
 - Course-local `AGENTS.md` files must use the exact heading
@@ -162,7 +162,7 @@ extension work.
   practice exams, solutions).
 - At the top of a questions page, include a `- topics:` line listing the major
   concepts covered (for example `- topics: medians, sigma-algebras, CDFs`).
-- Questions-page **solutions** use cloze `{@{ }@}` (not QA cards like topic
+- Questions-page __solutions__ use cloze `{@{ }@}` (not QA cards like topic
   notes). For detailed rules on cloze strategy, inference-word attribution, and
   question-page authoring conventions, see the "Questions and problem-set pages"
   section in `../skills/academic-notes/SKILL.md`.
@@ -187,7 +187,7 @@ extension work.
 - If a prose-oriented validator rule keeps flagging room codes, percent-encoded
   link destinations, inline code, or HTML comments, prefer fixing the rule
   instead of copy-pasting the same suppression through multiple notes.
-- After editing academic notes, validate the **smallest relevant scope only**.
+- After editing academic notes, validate the __smallest relevant scope only__.
 
 ## Tools and locations
 

@@ -136,29 +136,32 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
 
     front = parse_frontmatter(text)
     if not front:
-        errors.append(
-            ValidationMessage("missing-yaml-frontmatter", "missing YAML frontmatter")
-        )
-        return errors
-
-    # parse YAML frontmatter into our model; pydantic does not support YAML
-    # natively so we use PyYAML (imported at module level) to pre-process.  This
-    # avoids silently dropping fields and ensures the validator sees whatever
-    # tags/aliases the author provided.
-    try:
-        data = parse_yaml_raw_as(Frontmatter, front)
-    except Exception:
         data = Frontmatter()
+        body = text
+        front = ""  # avoid NoneType errors in rules that inspect ctx.front
+    else:
+        # parse YAML frontmatter into our model; pydantic does not support YAML
+        # natively so we use PyYAML (imported at module level) to pre-process.
+        # This avoids silently dropping fields and ensures the validator sees
+        # whatever tags/aliases the author provided.
+        try:
+            data = parse_yaml_raw_as(Frontmatter, front)
+        except Exception:
+            data = Frontmatter()
 
-    body = text
-    m = FRONT_RE.match(text)
-    if m:
-        body = text[m.end() :]
+        body = text
+        m = FRONT_RE.match(text)
+        if m:
+            body = text[m.end() :]
 
-    # Parse the Markdown text into an AST once, so all rules can share the
-    # structured representation instead of each rule re-parsing with regex.
+    # Parse the Markdown text (without YAML frontmatter) into an AST once,
+    # so all rules can share the structured representation instead of each
+    # rule re-parsing with regex.  Stripping frontmatter prevents mistune
+    # (which has no frontmatter plugin) from misparsing YAML list items and
+    # key-value pairs as Markdown lists/paragraphs, which would otherwise
+    # produce spurious AST nodes.
     try:
-        ast = _MD(text)
+        ast = _MD(body)
     except Exception:
         ast = []
 

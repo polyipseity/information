@@ -5,7 +5,7 @@ description: Repository-wide tooling including init wrapper, pack/publish utilit
 
 # Repository Tools Overview
 
-> **Continuous improvement:** see `continuous_improvement.md` in this
+> __Continuous improvement:__ see `continuous_improvement.md` in this
 > folder for notes on tool behaviour, past feedback, and update
 > procedures.
 
@@ -17,14 +17,14 @@ The `scripts/` directory contains all helper scripts and utilities:
 
 ### Core scripts (scripts/)
 
-1. **`init.py`**: Async wrapper for pytextgen with mtime/inode caching
+1. __`init.py`__: Async wrapper for pytextgen with mtime/inode caching
    - Discovers changed `.md` files (excludes `.git`, `.obsidian`, `tools`)
    - Caches `(mtime, inode, text)` to skip unchanged files
    - Normalizes newlines to `\n` before pytextgen processing
    - Passes through pytextgen flags (`-C`, `--no-code-cache`, `--init-flashcards`)
    - Commands: `uv run -m init generate`, `uv run -m init clear`
 
-2. **`convert_wiki.py`**: Wikipedia HTML → Markdown converter
+2. __`convert_wiki.py`__: Wikipedia HTML → Markdown converter
    - Reads HTML from clipboard
    - Normalizes links (relative paths with `%20` encoding)
    - Downloads media to `archives/Wikimedia Commons/`
@@ -32,14 +32,14 @@ The `scripts/` directory contains all helper scripts and utilities:
    - Preserves Wikipedia attribution
    - Command: `uv run -m convert_wiki`
 
-3. **`pack.py`**: PageRank-ordered zip bundling
+3. __`pack.py`__: PageRank-ordered zip bundling
    - Walks Markdown links to build dependency graph
    - Computes PageRank to prioritize important files
    - Creates zip bundle with metadata (ranks, omissions, link closure)
    - Configurable: damping factor, iterations, max files
    - Command: `uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 --page-rank-iterations 100 <paths>`
 
-4. **`publish.py`**: Private → public history mirroring via git filter-repo
+4. __`publish.py`__: Private → public history mirroring via git filter-repo
    - Clones `private/.git` temporarily
    - Runs `git filter-repo` with property `Private-commit` filtering
    - Rewrites commit history to remove sensitive paths
@@ -48,11 +48,11 @@ The `scripts/` directory contains all helper scripts and utilities:
 
 ### Subfolder tools
 
-- **`scripts/special/`**: Academic LMS converters and course management (see `tools-special` skill)
+- __`scripts/special/`__: Academic LMS converters and course management (see `tools-special` skill)
   - Canvas/HKUST Zinc converters
   - Course catalog fetchers
 
-- **`scripts/templates/`**: Note scaffolding and pytextgen templates (see `tools-templates` skill)
+- __`scripts/templates/`__: Note scaffolding and pytextgen templates (see `tools-templates` skill)
   - `new_wiki_page.py`
   - `pytextgen generate *.md` templates
 
@@ -69,7 +69,7 @@ The `scripts/` directory contains all helper scripts and utilities:
 
 1. Scaffold note: `uv run -m templates.new_wiki_page` (tools-templates)
 2. Ingest HTML: `uv run -m convert_wiki` (convert_wiki.py)
-3. Flashcard generation is automatic; do **not** run `uv run -m init generate`.
+3. Flashcard generation is automatic; do __not__ run `uv run -m init generate`.
    Build workflows will handle it.
 
 ### Academic course organization
@@ -112,15 +112,15 @@ Install/update dependencies with `bun install` or `uv sync`.
 
 ### External tools
 
-- **git**: Required for all workflows
-- **git-filter-repo**: Required for `publish.py`
-- **Python >=3.13.0**: Repository-wide minimum version
+- __git__: Required for all workflows
+- __git-filter-repo__: Required for `publish.py`
+- __Python >=3.13.0__: Repository-wide minimum version
 
 ### Agent‑internal scripts policy
 
 The repository occasionally contains small helper scripts used internally by the
 AI agent (for example, `.github/scripts/validate-skills.py`). These are
-**not** meant to be installed as CI tools, exposed to users, or added to
+__not__ meant to be installed as CI tools, exposed to users, or added to
 `package.json` or the primary runtime dependency groups.
 
 - Avoid creating similar "agent‑only" utilities without explicit approval from
@@ -142,7 +142,7 @@ AI agent (for example, `.github/scripts/validate-skills.py`). These are
 4. Normalize `\n` before passing to pytextgen
 5. Use `-C` / `--no-cached` to rebuild cache
 
-**Cache location**: In-memory (not persisted to disk)
+__Cache location__: In-memory (not persisted to disk)
 
 ### pytextgen compile cache
 
@@ -161,7 +161,7 @@ AI agent (for example, `.github/scripts/validate-skills.py`). These are
 
 ## CLI stability
 
-**Critical**: Core tools have established interfaces; preserve:
+__Critical__: Core tools have established interfaces; preserve:
 
 - Argument names and order
 - Expected input formats (clipboard, files, stdin)
@@ -174,10 +174,10 @@ If changes are needed, ask user for permission first.
 
 ### Tool coordination
 
-- **Regenerate before packaging**: Generated content is normally kept fresh by the build process; manual `uv run -m init generate -C` is rarely needed and agents should not perform it.
-- **Clean before publishing**: Verify `private/` content is properly filtered before `publish.py`
-- **Archive before ingestion**: Use pyarchivist for media before manual note creation
-- **Template before conversion**: Scaffold frontmatter before ingesting content
+- __Regenerate before packaging__: Generated content is normally kept fresh by the build process; manual `uv run -m init generate -C` is rarely needed and agents should not perform it.
+- __Clean before publishing__: Verify `private/` content is properly filtered before `publish.py`
+- __Archive before ingestion__: Use pyarchivist for media before manual note creation
+- __Template before conversion__: Scaffold frontmatter before ingesting content
 
 ### Error handling
 
@@ -202,20 +202,20 @@ If changes are needed, ask user for permission first.
 
 ## Common issues
 
-1. **Cache staleness**: Use `-C` / `--no-cached` if init.py skips changed files
-2. **Module import errors**: Ensure `pyproject.toml` dependencies are synced via `bun install` or `uv sync`
-3. **Git submodule out of date**: Run `git submodule update --remote`
-4. **Path encoding issues**: Ensure `%20` encoding for spaces in links
-5. **Clipboard access**: Some tools require clipboard support (may fail in headless environments)
+1. __Cache staleness__: Use `-C` / `--no-cached` if init.py skips changed files
+2. __Module import errors__: Ensure `pyproject.toml` dependencies are synced via `bun install` or `uv sync`
+3. __Git submodule out of date__: Run `git submodule update --remote`
+4. __Path encoding issues__: Ensure `%20` encoding for spaces in links
+5. __Clipboard access__: Some tools require clipboard support (may fail in headless environments)
 
 ## Editing guidelines for scripts/\*_/_.py
 
 When editing Python helper scripts in `scripts/`:
 
-- **Preserve CLI surfaces**: Keep argument names, defaults, and help text stable; avoid breaking `uv run -m init generate/clear`, `uv run -m pack`, `uv run -m publish`, and other tool entrypoints
-- **Maintain async/anyio patterns**: Preserve async patterns using AnyIO APIs such as `anyio.Path` and `anyio.Semaphore`, but prefer importing helpers from Asyncer (e.g. `from asyncer import create_task_group`, `soonify`, `asyncify`) for better typing and editor support. The init wrapper has been refactored accordingly and includes its own thin `_gather`.
-- **Keep submodules read-only unless requested**: `private/**` is a git submodule; ask user before editing.
-- **Normalize newlines**: When touching the init wrapper, normalize to `\n`; do not bypass its exclusion list (`.git`, `.obsidian`, `scripts`)
-- **Favor relative imports**: Use relative imports within the tools package; do not hardcode absolute host paths
-- **Keep inline script metadata synchronized**: When editing a standalone script with inline `# /// script` metadata: (1) ensure the file begins with `#!/usr/bin/env python` shebang on line 1, (2) update the metadata together with `[dependency-groups].scripts`, (3) keep metadata keys alphabetized, and (4) retain `requires-python = ">=3.13.0"`.
-- **Test thoroughly**: Python tools are critical infrastructure; test changes carefully before committing
+- __Preserve CLI surfaces__: Keep argument names, defaults, and help text stable; avoid breaking `uv run -m init generate/clear`, `uv run -m pack`, `uv run -m publish`, and other tool entrypoints
+- __Maintain async/anyio patterns__: Preserve async patterns using AnyIO APIs such as `anyio.Path` and `anyio.Semaphore`, but prefer importing helpers from Asyncer (e.g. `from asyncer import create_task_group`, `soonify`, `asyncify`) for better typing and editor support. The init wrapper has been refactored accordingly and includes its own thin `_gather`.
+- __Keep submodules read-only unless requested__: `private/**` is a git submodule; ask user before editing.
+- __Normalize newlines__: When touching the init wrapper, normalize to `\n`; do not bypass its exclusion list (`.git`, `.obsidian`, `scripts`)
+- __Favor relative imports__: Use relative imports within the tools package; do not hardcode absolute host paths
+- __Keep inline script metadata synchronized__: When editing a standalone script with inline `# /// script` metadata: (1) ensure the file begins with `#!/usr/bin/env python` shebang on line 1, (2) update the metadata together with `[dependency-groups].scripts`, (3) keep metadata keys alphabetized, and (4) retain `requires-python = ">=3.13.0"`.
+- __Test thoroughly__: Python tools are critical infrastructure; test changes carefully before committing

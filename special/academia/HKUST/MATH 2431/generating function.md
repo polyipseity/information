@@ -43,7 +43,7 @@ Flashcards for this section are as follows:
 - moments from MGF derivatives: If $M_X(t)=E[e^{tX}]$ and differentiation under the expectation is justified, what is $M_X^{(n)}(0)$? ::@:: $M_X^{(n)}(0)=E[X^n]$.
 - MGF affine transformation: If $Y=aX+b$, what is $M_Y(t)$ in terms of $M_X$? ::@:: $M_{aX+b}(t)=e^{tb}M_X(at)$.
 - MGF uniqueness statement: If $M_X(t)=M_Y(t)$ for all $t$ in a neighborhood of $0$, what can you conclude? ::@:: $X$ and $Y$ have the same distribution; the MGF uniquely determines the law on its interval of existence.
-- MGF uniqueness proof idea: How does MGF uniqueness follow from CF uniqueness? ::@:: Agreement of MGFs near $0$ implies agreement of CFs after analytic continuation $t\mapsto it$; CFs determine the law uniquely by the inversion formula.
+- MGF uniqueness proof idea: How does MGF uniqueness follow from CF uniqueness? ::@:: Agreement of MGFs near $0$ implies agreement of CFs after analytic continuation $t\mapsto it$; CFs determine the law uniquely by the inversion formula. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - MGF analyticity: When $M_X(t)$ exists in $(-h,h)$, what are the analytic properties of $t\mapsto M_X(t)$? ::@:: It is infinitely differentiable and analytic on its domain; in particular $M_X^{(k)}(0)=E[X^k]$ and the power series $\sum_{k\ge0}E[X^k]t^k/k!$ converges to $M_X(t)$ on $(-h,h)$.
 - MGF vs all moments: How does MGF existence near $0$ compare with having all moments $E[X^n]$? ::@:: MGF existence near $0$ is stronger; it implies all moments exist and gives analytic control.
 - lognormal counterexample: Give a distribution with all moments finite but no MGF near $0$. ::@:: $X\sim\operatorname{LogNormal}(0,1)$ has $E[X^n]=e^{n^2/2}<\infty$ for all $n$, but $E[e^{tX}]=\infty$ for all $t>0$ because $e^{tx}$ grows faster than any polynomial.
@@ -64,8 +64,8 @@ Moreover, for each transform, the existence of the first moment has a derivative
 
 Flashcards for this section are as follows:
 
-- How are MGF, CF, and PGF related by substitution? ::@:: $M_X(it)=\varphi_X(t)$ (analytic continuation); $G_X(e^t)=M_X(t)$ and $\varphi_X(t)=G_X(e^{it})$ for integer-valued $X\ge0$.
-- Similarity across MGF, CF, PGF: How does each generating function recover distributional information from its derivatives and uniquely determine the law? ::@:: MGF: $M_X^{(n)}(0)=E[X^n]$ (moments); uniquely via analytic continuation to CF. CF: $\varphi_X^{(n)}(0)=i^nE[X^n]$ (moments); uniquely via inversion formula. PGF: $G_X^{(k)}(0)/k!=P[X=k]$ (probabilities); uniquely as power-series coefficients.
+- How are MGF, CF, and PGF related by substitution? ::@:: $M_X(it)=\varphi_X(t)$ (analytic continuation); $G_X(e^t)=M_X(t)$ and $\varphi_X(t)=G_X(e^{it})$ for integer-valued $X\ge0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Similarity across MGF, CF, PGF: How does each generating function recover distributional information from its derivatives and uniquely determine the law? ::@:: MGF: $M_X^{(n)}(0)=E[X^n]$ (moments); uniquely via analytic continuation to CF. CF: $\varphi_X^{(n)}(0)=i^nE[X^n]$ (moments); uniquely via inversion formula. PGF: $G_X^{(k)}(0)/k!=P[X=k]$ (probabilities); uniquely as power-series coefficients. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - First moment from each generating function: Express $E[X]$ from the MGF, CF, and PGF in terms of their derivatives. ::@:: MGF: $E[X]=M_X'(0)$ on its interval of existence. CF: $E[X]=-i\varphi_X'(0)$ when $E[|X|]<\infty$. PGF: $E[X]=G_X'(1)=\lim_{t\uparrow 1}G_X'(t)$.
 
 ### uniqueness theorem
@@ -84,9 +84,9 @@ The forward direction ($\Longleftarrow$) is trivial: equal distributions give eq
 
 Flashcards for this section are as follows:
 
-- bidirectional equivalence: For each generating function, equal transforms (on the appropriate domain) are equivalent to what? ::@:: Equal probability laws. ($\Longleftarrow$ is trivial; $\Longrightarrow$ is the uniqueness theorem per transform.)
-- uniqueness engine by transform: What is the proof engine for uniqueness of CF, MGF, and PGF? ::@:: CF: Fourier inversion (always works). MGF: analytic continuation $\to$ CF (needs existence near $0$). PGF: identity theorem for power series (coeffs are probabilities).
-- CF uniqueness via Fourier inversion: How does the Fourier inversion formula prove that equal CFs imply equal distributions? ::@:: $\displaystyle F_X(b)-F_X(a)=\frac1{2\pi}\lim_{T\to\infty}\int_{-T}^T\frac{e^{-ita}-e^{-itb}}{it}\,\varphi_X(t)\,dt$; if $\varphi_X=\varphi_Y$, the right-hand sides match at all continuity points, so the CDFs are equal.
+- bidirectional equivalence: For each generating function, equal transforms (on the appropriate domain) are equivalent to what? ::@:: Equal probability laws. ($\Longleftarrow$ is trivial; $\Longrightarrow$ is the uniqueness theorem per transform.) <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- uniqueness engine by transform: What is the proof engine for uniqueness of CF, MGF, and PGF? ::@:: CF: Fourier inversion (always works). MGF: analytic continuation $\to$ CF (needs existence near $0$). PGF: identity theorem for power series (coeffs are probabilities). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- CF uniqueness via Fourier inversion: How does the Fourier inversion formula prove that equal CFs imply equal distributions? ::@:: $\displaystyle F_X(b)-F_X(a)=\frac1{2\pi}\lim_{T\to\infty}\int_{-T}^T\frac{e^{-ita}-e^{-itb}}{it}\,\varphi_X(t)\,dt$; if $\varphi_X=\varphi_Y$, the right-hand sides match at all continuity points, so the CDFs are equal. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - MGF uniqueness via analytic continuation: How does MGF equality near $0$ imply equal distributions? ::@:: $M_X(z)$ is analytic on a strip $\{z:|\operatorname{Re}z|<h\}$. Equality on $(-h,h)$ extends analytically to the whole strip, including the imaginary axis where $M_X(it)=\varphi_X(t)$; CF uniqueness then gives $X\stackrel d=Y$.
 - PGF uniqueness via identity theorem: How does PGF equality on $[0,1]$ imply equal distributions? ::@:: $G_X(s)=\sum P[X=k]s^k$ is a power series; if $G_X=G_Y$ on $[0,1]$, the identity theorem for analytic functions forces $P[X=k]=P[Y=k]$ for all $k$.
 
@@ -188,7 +188,7 @@ Flashcards for this section are as follows:
 - PGFs of independent sums: If $X$ and $Y$ are independent nonnegative integer-valued variables, what is $G_{X+Y}(s)$? ::@:: $G_{X+Y}(s)=G_X(s)G_Y(s)$.
 - PGF recovers probabilities: How can you recover $P[X=k]$ from the PGF $G_X(s)$? ::@:: $P[X=k]=G_X^{(k)}(0)/k!$; differentiate $k$ times and evaluate at $s=0$.
 - PGF uniqueness: If $G_X(s)=G_Y(s)$ for all $s\in[0,1]$, what follows about $X$ and $Y$? ::@:: They have the same distribution, because a convergent power series is uniquely determined by its coefficients.
-- PGF as discrete-counting analogue of MGF: Why are PGFs considered the discrete-counting analogue of MGFs? ::@:: Both turn convolutions into products: $G_{X+Y}(s)=G_X(s)G_Y(s)$ and $M_{X+Y}(t)=M_X(t)M_Y(t)$; the difference is domain (nonnegative integers vs general reals), so PGFs are specialised for counting variables.
+- PGF as discrete-counting analogue of MGF: Why are PGFs considered the discrete-counting analogue of MGFs? ::@:: Both turn convolutions into products: $G_{X+Y}(s)=G_X(s)G_Y(s)$ and $M_{X+Y}(t)=M_X(t)M_Y(t)$; the difference is domain (nonnegative integers vs general reals), so PGFs are specialised for counting variables. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - factorial moments from PGFs: If $G_X(s)=E[s^X]$, what do derivatives of $G_X$ at $s=1$ recover? ::@:: They recover factorial moments, for example $G_X'(1)=E[X]$ and $G_X''(1)=E[X(X-1)]$.
 - Bernoulli PGF: If $X\sim\mathrm{Bern}(p)$, what is $G_X(s)$? ::@:: $G_X(s)=1-p+ps$.
 - Binomial PGF: If $X\sim\mathrm{Bin}(n,p)$, what is $G_X(s)$? ::@:: $G_X(s)=(1-p+ps)^n$.
@@ -199,6 +199,7 @@ Flashcards for this section are as follows:
 - PGF mean existence condition: What condition on $G_X'$ characterises $E[X]<\infty$? ::@:: $E[X]<\infty$ iff $\lim_{t\uparrow 1}G_X'(t)$ is finite; the limit equals $E[X]$ by monotone convergence.
 - PGF factorial moments in applications: Why are factorial moments $G_X^{(m)}(1)$ natural in Poisson-type and branching-process calculations? ::@:: For $X\sim\mathrm{Pois}(\lambda)$, $G_X(s)=\exp(\lambda(s-1))$ gives $G_X^{(m)}(1)=\lambda^m$ directly, avoiding polynomial conversion; they also arise naturally in Galton-Watson branching-process recursions.
 
+<!-- check: ignore-next-line[header_style]: proper noun (Chernoff is a person's name) -->
 ## Chernoff bounds and transform methods
 
 MGFs turn Markov's inequality into exponential tail bounds. For $t>0$, one has $P[X\ge a]=P[e^{tX}\ge e^{ta}]\le e^{-ta}M_X(t)$.

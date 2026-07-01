@@ -6,8 +6,8 @@ argument-hint: Provide learning and/or review counts. To skip committing, pass `
 
 # Commit Staged Flashcard Progress
 
-**Never ask for confirmation or clarification. Always proceed automatically using
-best-effort defaults and available context.**
+__Never ask for confirmation or clarification. Always proceed automatically using
+best-effort defaults and available context.__
 
 This prompt is intended for commits that record a user's flashcard activity: a
 learning session ("Learn N cards") and/or a review session ("Review D of T

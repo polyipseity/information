@@ -10,7 +10,7 @@ course notes under `special/academia/<INSTITUTION>`. The matching instruction
 file is a quick-reference checklist for agents; this file owns the detailed
 policy. The course template owns only scaffold-facing reminders.
 
-Flashcards are generated automatically by the build system; do **not** run
+Flashcards are generated automatically by the build system; do __not__ run
 `init generate` manually.
 
 ## Skill folder map
@@ -18,19 +18,19 @@ Flashcards are generated automatically by the build system; do **not** run
 - `SKILL.md` — authoritative workflow and policy reference.
 - `course-template.md` — scaffold for new course `index.md` pages.
 - `check.py` — validator entry point. The validator is always at
-  `.agents/skills/academic-notes/check.py`; do **not** recurse through the
+  `.agents/skills/academic-notes/check.py`; do __not__ recurse through the
   repository to find it.
 - `check_mods/*` — validator rules and implementation modules.
 - `find_wikipedia.py` — helper for discovering canonical `general/` article
   titles when a course note wants to link outward.
 - `tests_a7392be/*` — validator and helper tests for this skill folder.
 
-> **🔥 NEVER run `uv` commands from inside this folder.** This folder has its own
+> __🔥 NEVER run `uv` commands from inside this folder.__ This folder has its own
 > `pyproject.toml` (for `ty` type-checker config only), so running ANY `uv run`
 > command here (pytest, check.py, or anything else) will create trash (`.venv/`,
 > `uv.lock`) inside the skill folder AND fail because dependencies are missing.
 >
-> The ONLY safe cwd for `uv run` is the **repo root** (`/Users/polyipseity/dev/monorepo/self/information/`).
+> The ONLY safe cwd for `uv run` is the __repo root__ (`/Users/polyipseity/dev/monorepo/self/information/`).
 > Always `cd` back to repo root first, or use absolute paths from wherever you are.
 >
 > Correct examples (run from repo root):
@@ -56,41 +56,41 @@ Flashcards are generated automatically by the build system; do **not** run
 
 ## Key principles
 
-1. **Content first.** Capture the lecture's actual ideas, formulas,
+1. __Content first.__ Capture the lecture's actual ideas, formulas,
    distinctions, examples, and instructor caveats before polishing structure.
-2. **One durable home per concept.** Prefer enhancing an existing topic note and
+2. __One durable home per concept.__ Prefer enhancing an existing topic note and
    updating links before creating overlapping pages.
-3. **Prose, flashcards, and navigation move together.** When you add, split,
+3. __Prose, flashcards, and navigation move together.__ When you add, split,
    merge, or rename content in a topic note, update the note's flashcards and
    every affected `index.md` section link in the same task.
-4. **Flashcards are standalone artifacts.** Restate local hypotheses, notation,
+4. __Flashcards are standalone artifacts.__ Restate local hypotheses, notation,
    givens, and conditions needed to answer the card correctly.
-5. **Keep the lecture's mathematical spine.** For technical notes, the default
+5. __Keep the lecture's mathematical spine.__ For technical notes, the default
    bundle is _formula + derivation or proof sketch + intuition + worked
    example_.
-6. **Preserve teaching detail, not just headlines.** Named classifications,
+6. __Preserve teaching detail, not just headlines.__ Named classifications,
    operational distinctions, and memorable examples should survive ingestion.
-7. **Respect metadata and chronology.** Keep YAML frontmatter valid, keep
+7. __Respect metadata and chronology.__ Keep YAML frontmatter valid, keep
    sessions in chronological order, and place exams after regular sessions.
-8. **Keep math validator-friendly.** Use `$...$` or `$$...$$`, keep math on one
+8. __Keep math validator-friendly.__ Use `$...$` or `$$...$$`, keep math on one
    source line, and avoid putting LaTeX inside emphasis. Use `$$...$$` on the
    same line as surrounding text (not on its own line). Accounting notes should
    avoid LaTeX entirely.
-9. **Keep headers and emphasis consistent.** Topic-note headers in Latin scripts (English, etc.) should be **lowercase except for proper nouns** (every word lowercase unless it is a proper noun — NOT sentence case). Non-Latin scripts (CJK, Cyrillic, Arabic, etc.) are exempt since they lack uppercase/lowercase distinction. Prefer `_italic_` and `__bold__`.
-10. **Validate narrowly and immediately.** Run the fixed validator path on the
+9. __Keep headers and emphasis consistent.__ Topic-note headers in Latin scripts (English, etc.) should be __lowercase except for proper nouns__ (every word lowercase unless it is a proper noun — NOT sentence case). Non-Latin scripts (CJK, Cyrillic, Arabic, etc.) are exempt since they lack uppercase/lowercase distinction. Prefer `_italic_` and `__bold__`.
+10. __Validate narrowly and immediately.__ Run the fixed validator path on the
     smallest relevant course or file after edits; never aim it at the whole
     repo or the entire skill folder.
-11. **Skill files are the durable memory.** If a lesson recurs, update this
+11. __Skill files are the durable memory.__ If a lesson recurs, update this
     skill, the template, the instruction file, and tests when appropriate.
-12. **Course-local agent guidance lives in `AGENTS.md`.** Keep it concise,
+12. __Course-local agent guidance lives in `AGENTS.md`.__ Keep it concise,
     course-specific, titled exactly `# <course code> agent instructions`, and
     free of flashcard markup.
-13. **Do not migrate validation metadata into `AGENTS.md`.** Suppression
+13. __Do not migrate validation metadata into `AGENTS.md`.__ Suppression
     comments belong in the content file that needs them.
-14. **Do not create or edit `general/` files automatically.** Use the Wikipedia
+14. __Do not create or edit `general/` files automatically.__ Use the Wikipedia
     helper only to discover canonical titles for links; course content still
     lives under `special/academia/<INSTITUTION>/<COURSE>/`.
-15. **Do not put instructor or TA names or email addresses in course notes.**
+15. __Do not put instructor or TA names or email addresses in course notes.__
     Refer readers to the official syllabus or LMS for contact information.
 
 ## Authoring workflow
@@ -190,9 +190,9 @@ typically near the end after all regular sessions. Use a lowercase heading:
 `## midterm examination` or `## final examination`. The section documents the
 exam's logistics, the student's performance, and a reflective error report.
 
-**Metadata fields** (order within the section is flexible; list them grouped by
+__Metadata fields__ (order within the section is flexible; list them grouped by
 function). Links to course materials (e.g., `[questions / ...](...)`) must
-appear **after** the `report:` field, not before it.
+appear __after__ the `report:` field, not before it.
 
 - `datetime:` — ISO 8601 with duration, same format as session blocks.
 - `venue:` — Room or hall name.
@@ -208,15 +208,15 @@ appear **after** the `report:` field, not before it.
   - `questions:` — e.g., `long questions ×8` or `question ×5 (with subquestions)`
 - `note:` — Optional free-form note about unexpected exam conditions (e.g.,
   an error found mid-exam that added extra time). Always present this field
-  even if empty; use `\(none\)` for no content.
+  even if empty; use `(none)` for no content.
 - `grade:` — Personal score (e.g., `89/100`). When bonus marks are
   included, use the form `base+bonus/max+max bonus`
   (e.g., `80+5/100+10`). Nested fields:
-  - `letter grade:` — Letter grade (e.g., `A+`), or `\(none\)` if unknown.
+  - `letter grade:` — Letter grade (e.g., `A+`), or `(none)` if unknown.
   - `statistics:` — Class statistics. Group values under a session key
     that identifies the lecture section the exam belongs to (the course
     section identifier such as `L1`, not the week number). Include all of
-    the following keys, using `\(none\)` for any
+    the following keys, using `(none)` for any
     value that is unavailable: `timestamp`, `count`, `mean`,
     `standard deviation`, `low`, `lower quartile`, `median`,
     `upper quartile`, `high`, `distribution`, and `data`.
@@ -226,14 +226,14 @@ appear **after** the `report:` field, not before it.
     the announcement page's "Posted" metadata. When no announcement is
     available, use the data-extraction date.
 
-    `data:` — Use `\(none\)`. Do **not** link to Canvas or any external
+    `data:` — Use `(none)`. Do __not__ link to Canvas or any external
     LMS. Source data belongs in a course-local source folder (e.g.,
     `.math2431sources/`).
 
-    **Canvas single-student view** provides: mean, median, high, low,
+    __Canvas single-student view__ provides: mean, median, high, low,
     upper quartile, lower quartile (displayed as "Upper Quartile",
-    "Lower Quartile"). It does **not** provide: standard deviation,
-    count, distribution — use `\(none\)` for those fields.
+    "Lower Quartile"). It does __not__ provide: standard deviation,
+    count, distribution — use `(none)` for those fields.
 
   - `breakdown:` — Optional per-question scores. One bullet per question
     using `score/max` format (e.g., `Q11: 8/10`). When the per-question
@@ -247,7 +247,7 @@ appear **after** the `report:` field, not before it.
   substantive cards that explain _why_ the mistake happened and what to do
   differently. Include the point deduction in parentheses (e.g., `(–1)` or
   `(+1.5)`) after the topic name. Always present this field even if empty;
-  use `\(none\)` as the sole bullet for no content (not `(to be filled)` or other placeholders).
+  use `(none)` as the sole bullet for no content (not `(to be filled)` or other placeholders).
 - `check:` — Optional paper-checking session. Sub-fields:
   - `datetime:` and `venue:` as usual.
   - `report:` — Optional nested section documenting what was
@@ -260,13 +260,13 @@ A course-grade summary placed in an `## aftermath` section after the final
 exam. Uses a subset of the exam metadata fields:
 
 - `grade:` — Overall course grade as score out of total (e.g., `89.15/100`).
-  Do **not** write the marking scheme formula or percentage.
+  Do __not__ write the marking scheme formula or percentage.
   - `letter grade:` — Always present; the letter grade (e.g., `A+`), or
-    `\(none\)` if unknown.
+    `(none)` if unknown.
 - `statistics:` — Class statistics. Group values under the course's lecture
   section key (e.g., `- L1:`), using the same format as exam statistics.
 
-**Announcement preservation**: Official exam announcements (typically from
+__Announcement preservation__: Official exam announcements (typically from
 Canvas or other LMS) contain authoritative logistics and can shift in time or
 venue. Preserve them as quoted blocks (`>`) after the exam section, and
 preserve the original formatting (bold, italic, underline, color, etc.). Use
@@ -274,7 +274,7 @@ preserve the original formatting (bold, italic, underline, color, etc.). Use
 Canvas-specific extraction patterns, see [§ Extracting exam
 data](#extracting-exam-data).
 
-**Linking**: Each exam section is the target of `[§ <exam name>](#<anchor>)`
+__Linking__: Each exam section is the target of `[§ <exam name>](#<anchor>)`
 links from the week sessions in the same `index.md`. Ensure the section
 heading's auto-generated anchor matches the link target.
 
@@ -283,7 +283,7 @@ heading's auto-generated anchor matches the link target.
 When gathering scores and logistics from Canvas or other LMS sources, these
 practical patterns apply across courses.
 
-**Statistics from Canvas grades page**: Open a single assessment column in
+__Statistics from Canvas grades page__: Open a single assessment column in
 the Canvas gradebook's single-student view. The page HTML embeds
 per-assessment statistics as plain text. In Python, extract with:
 
@@ -305,13 +305,13 @@ Alternatively, filter the page's stripped text for `"out of"` lines followed
 by `"Median"` to locate stat blocks. Each extracted block maps to one
 assessment (problem set, midterm, final, etc.).
 
-**Exam announcements from Canvas**: Canvas announcement HTML is
+__Exam announcements from Canvas__: Canvas announcement HTML is
 densely styled. Strip `<style>`, `<script>`, and all HTML tags to recover
 readable plain text, then preserve the result as a quoted block (`>`) under
 the exam section. Include the announcement author and timestamp if visible in
 the source to maintain provenance.
 
-**Per-question breakdown from PDF**: When the instructor releases a scanned
+__Per-question breakdown from PDF__: When the instructor releases a scanned
 PDF with per-question scores, extract using PyMuPDF (`import fitz`) if
 `pdftotext` is unavailable:
 
@@ -326,7 +326,7 @@ Map each extracted score to its question label following the exam's question
 numbering (e.g., Q1–Q5 multiple choice, Q6–Q10 true/false, Q11–Q14 long
 questions), which is typically indicated by the PDF layout.
 
-**Grades notation**: Canvas displays "Your Score: X out of N" without
+__Grades notation__: Canvas displays "Your Score: X out of N" without
 explicit bonus mark breakdown. Use the simple `X/N` form unless the course
 separately documents bonus marks, in which case use the
 `base+bonus/max+max bonus` form instead.
@@ -340,7 +340,7 @@ final course outcome. Sub-sections:
   documented as separate topic notes; the aftermath section links to them
   via an outline before the grade summary.
 - `### total` — Final course grade with `grades:` and `statistics:` fields
-  in the same format as exam sections (see above). Use `\(none\)` when no
+  in the same format as exam sections (see above). Use `(none)` when no
   data is available.
 
 The `aftermath` section typically does not have `report:` or `check:`
@@ -354,7 +354,7 @@ follow a consistent prose-and-flashcard pattern extracted from existing notes in
 the repository. This pattern keeps the exposition readable and the flashcards
 self-contained.
 
-**Section structure.** Each major section in a topic note should follow this
+__Section structure.__ Each major section in a topic note should follow this
 template:
 
 1. A section heading (lowercase except for proper nouns; mark proper-noun
@@ -367,19 +367,19 @@ template:
 4. `Flashcards for this section are as follows:`
 5. A bullet list of `::@::` flashcards.
 
-**Critical rules for flashcard placement and grouping:**
+__Critical rules for flashcard placement and grouping:__
 
-- **Every section in a topic note must have its own flashcard block.** Do not
+- __Every section in a topic note must have its own flashcard block.__ Do not
   skip sections based on perceived importance. Every section must include its
   own `---` ⇒ `Flashcards for this section are as follows:` ⇒ bullet‑list
   block. Treat all sections the same — the rule is identical for every section.
-- **Group related flashcards within a section using inline bold text.**
+- __Group related flashcards within a section using inline bold text.__
   When a section covers several distinct topics, prefix each group of cards
   with a bold label (e.g., `**superposition.**`) inside the same flashcard
   bullet list rather than creating new headings. This avoids heading‑duplication
   errors (MD024) while keeping cards organized.
 
-**Flashcard content conventions.**
+__Flashcard content conventions.__
 
 - Each flashcard uses the `::@::` format (two-sided: left and right each
   generate a card). The left side should be a short, descriptive question (not
@@ -392,38 +392,38 @@ template:
   surrounding prose. For example, restate the hypothesis in the answer side.
 - Use KaTeX math (`$...$`, `$$...$$`) inside flashcards as needed, keeping it
   on the same line.
-- **Split packed flashcards.** When a concept has multiple distinct criteria,
+- __Split packed flashcards.__ When a concept has multiple distinct criteria,
   formulations, or implications, split them into separate flashcards rather
   than packing them into a single card. For example, "recurrent vs transient"
   (return-probability definition) should be separated from the series criterion
   and the closed-class criterion, because each is a self-contained result with
   its own proof rationale. A card that lists "equivalently, A ↔ B and also
   C and D" should become at least two cards: one for A ↔ B and one for A ↔ C.
-- **Include proof sketches for non-obvious statements.** For statements whose
+- __Include proof sketches for non-obvious statements.__ For statements whose
   truth is not immediately clear from the definition, include a brief proof
   sketch in both the prose and the corresponding flashcard. The flashcard
   should state the key step or insight (e.g., the geometric-series argument
   linking the expected number of returns to $f_{xx}$). A flashcard that merely
   restates a non-obvious claim ("$\sum\Pi^n(x,x)<\infty$ iff $x$ is transient")
   without the reasoning is harder to internalize and less useful for review.
-- **Cover finer distinctions explicitly.** When a classification has natural
+- __Cover finer distinctions explicitly.__ When a classification has natural
   sub-categories (e.g., positive vs null recurrence), cover them in both the
   prose and dedicated flashcards. Do not let important finer distinctions
   remain implied — if a concept branches, the note should mirror that
   branching.
-- **Proof and derivation flashcards.** When a section contains a proof or
+- __Proof and derivation flashcards.__ When a section contains a proof or
   derivation (e.g., $N=(I-Q)^{-1}$, absorption probability formula), create
   a dedicated flashcard that walks through the key steps. This helps the
   reader reconstruct the logic during review. Keep the proof sketch compact
   enough to fit on one line; use `<p>` if paragraph separation is needed.
-- **Equation-system flashcards.** When a concept involves solving a system of
+- __Equation-system flashcards.__ When a concept involves solving a system of
   linear equations (e.g., hitting probabilities, expected hitting times,
   absorption probabilities, stationary distribution via global balance), create
   dedicated flashcards that walk through the equation setup, the boundary
   conditions, and the solution structure. This helps the reader internalise the
   "first-step decomposition" pattern (or similar linear-solver pattern) that
   recurs across many sections.
-- **Algorithmic content in flashcards.** When the prose describes an algorithm
+- __Algorithmic content in flashcards.__ When the prose describes an algorithm
   or computational procedure for identifying a structural property (e.g.,
   finding communicating classes via strongly connected components, checking
   closed-class status by examining outgoing transitions, identifying cyclic
@@ -431,7 +431,7 @@ template:
   linear system), add a flashcard that captures the computational check. This
   bridges abstract characterisations with practical computation and helps the
   reader apply the concept to new chains.
-- **Example card pair pattern.** For well-known illustrative examples (e.g.,
+- __Example card pair pattern.__ For well-known illustrative examples (e.g.,
   gambler's ruin — both hitting probabilities and expected duration; two-state
   periodic chain — both raw convergence failure and Cesàro convergence), create
   at least two cards: one that states the classical result (the formula or
@@ -439,7 +439,7 @@ template:
   decomposition are set up and solved). The "method" card generalises beyond
   the specific example and trains the reader to apply similar reasoning to new
   problems.
-- **Strengthen example method cards with explicit algebraic steps.** When a
+- __Strengthen example method cards with explicit algebraic steps.__ When a
   canonical example involves solving a difference or linear equation (e.g.,
   gambler's ruin — characteristic equation, general solution, boundary
   conditions, solving for constants), the "method" flashcard should walk
@@ -447,7 +447,7 @@ template:
   equation, the form of the general solution, the boundary conditions, and
   how the constants are determined. This bridges the gap between a prose
   description ("solve the recurrence") and a fully worked answer.
-- **"Why it works" cards for characterisation proofs.** When a section
+- __"Why it works" cards for characterisation proofs.__ When a section
   characterises a quantity as the unique/minimal solution to a system of
   equations (e.g., hitting probability as minimal non-negative solution,
   stationary distribution as unique solution to global balance), add a
@@ -456,7 +456,7 @@ template:
   and show the difference must be zero (via induction, contraction, or maximum
   principle). This trains the reader to recognise when a candidate solution
   can be verified without computing the full path sum.
-- **Named analogies to classical mathematics.** When a Markov-chain concept
+- __Named analogies to classical mathematics.__ When a Markov-chain concept
   maps to a classical PDE or analysis structure (e.g., discrete Dirichlet
   problem, discrete Poisson equation, maximum principle), add a dedicated
   flashcard that:
@@ -467,7 +467,7 @@ template:
      structure, comparison arguments).
      This connects probability theory to the reader's existing PDE/analysis
      knowledge and deepens intuition for why these equations behave as they do.
-- **Definition with equivalent formulations.** When a concept has multiple
+- __Definition with equivalent formulations.__ When a concept has multiple
   equivalent definitions (e.g., total variation distance: $\\frac12 L^1$ and
   max-over-events; recurrence: return-probability, expected-number-of-returns,
   and series criterion), start with a definition card for the primary
@@ -476,7 +476,7 @@ template:
   recognise and use whichever formulation is most convenient in a given
   context.
 
-**Lint comments.** Every flashcard that contains math uses the `two_sided_calc_warning`
+__Lint comments.__ Every flashcard that contains math uses the `two_sided_calc_warning`
 lint suppression:
 
 ```html
@@ -487,7 +487,7 @@ Place this comment between the `::@::` answer content and the end of the line.
 
 These comments appear in a trailing position on the flashcard line.
 
-**LaTeX ordinal convention.** Ordinals involving math variables **must** use a
+__LaTeX ordinal convention.__ Ordinals involving math variables __must__ use a
 hyphen between the variable and the ordinal suffix. Write `$k$-th`,
 `$(k-1)$-th`, `$n$-th`, `$i$-th`, `$(i+1)$-th` — never `$k$th`, `$(k-1)$th`,
 `$n$th`, `$i$th`, `$(i+1)$th`. Without the hyphen, LaTeX renders the character
@@ -495,7 +495,7 @@ sequence literally (e.g., `$k$th` produces "kth" in roman) because there is
 no `\th` command, breaking both display and readability. This applies to all
 ordinal suffixes (`-th`, `-st`, `-nd`, `-rd`) and all math-mode expressions.
 
-**`<p>` paragraphing convention for flashcards.** When a `::@::` flashcard
+__`<p>` paragraphing convention for flashcards.__ When a `::@::` flashcard
 contains multiple logical paragraphs, insert `<p>` between them for
 readability in the source. Always include a space before and after `<p>`:
 
@@ -507,7 +507,7 @@ The spaces around `<p>` keep the source readable without affecting HTML
 rendering. Use `<p>` only when the flashcard genuinely has multiple distinct
 paragraphs — do not split single-sentence cards.
 
-**No `<b>` / `</b>` HTML tags in flashcards.** Do not use `<b>` or `</b>` for
+__No `<b>` / `</b>` HTML tags in flashcards.__ Do not use `<b>` or `</b>` for
 bold text in flashcards — use `__` (Markdown bold) instead. Unlike `<p>`, which
 is the standard way to create paragraph breaks in single-line source, `<b>` has
 a straightforward Markdown equivalent (`__`) and mixing HTML bold into
@@ -516,7 +516,7 @@ general Markdown convention (where `<b>` is technically valid) because
 flashcard lines must be easy to read and edit at a glance. The linter will
 flag any remaining `<b>` / `</b>` as errors.
 
-**Opening prose for topic notes.** The file-level opening section (before any `##`
+__Opening prose for topic notes.__ The file-level opening section (before any `##`
 headings) should start with one to three paragraphs of motivating prose that
 explains why the concept matters and how it fits into the broader narrative of the
 course. This is followed by a `---` separator and 2–3 overview flashcards that
@@ -535,11 +535,11 @@ topic.
 
 Before creating a new topic note, classify the incoming material:
 
-- **Duplicate** → do not create a new note; add section links to the existing
+- __Duplicate__ → do not create a new note; add section links to the existing
   content.
-- **Enhancement** → deepen the existing note and update its flashcards and
+- __Enhancement__ → deepen the existing note and update its flashcards and
   session links.
-- **New** → create a new durable topic note only when no good home exists yet.
+- __New__ → create a new durable topic note only when no good home exists yet.
 
 Also follow these rules:
 
@@ -747,7 +747,7 @@ target`, and numerical-stability advice such as logsumexp or max-shift.
 - For dropout, state clearly that activations are masked, not weights. Explain
   both non-inverted and inverted dropout conventions carefully and say which
   objects get rescaled and when.
-- Distinguish **L2 regularization** from **weight decay** explicitly. L2 is an
+- Distinguish __L2 regularization__ from __weight decay__ explicitly. L2 is an
   objective-level penalty; weight decay is an update-level shrinkage. State when
   they are equivalent under plain SGD and when they are not, especially for
   adaptive optimizers such as Adam. Mention AdamW when relevant.
@@ -781,15 +781,15 @@ target`, and numerical-stability advice such as logsumexp or max-shift.
 Questions pages (problem sets, practice exams, tutorial questions) use different
 conventions from topic notes.
 
-**Solution structure.** A well-structured solution follows a predictable skeleton:
+__Solution structure.__ A well-structured solution follows a predictable skeleton:
 decompose the target expression → apply the relevant bound, inequality, or theorem
 → evaluate the limit → state the conclusion. Organize each proof around this flow.
 
-**Cloze granularity.** Each `{@{...}@}` should wrap one complete reasoning step
+__Cloze granularity.__ Each `{@{...}@}` should wrap one complete reasoning step
 (claim + justification), not individual symbols or entire paragraphs. This keeps
 each card reviewable without overwhelming the reader.
 
-**Multi-cloze paragraph sequencing.** A single paragraph can contain many clozes
+__Multi-cloze paragraph sequencing.__ A single paragraph can contain many clozes
 in sequence, each covering one short step:
 
 ```markdown
@@ -800,12 +800,12 @@ Split {@{the sum at $\lfloor\sqrt n\rfloor$}@}: …
 This creates a linear fill-in-the-blank review flow. Reserve separate paragraphs
 with explicit markers (First, Second, Third) for longer independent sub-arguments.
 
-**Blockquote formatting.** Place each official problem inside a blockquote (`>`).
+__Blockquote formatting.__ Place each official problem inside a blockquote (`>`).
 Within a single blockquote, use `<p>` tags to create paragraph breaks. Between
 adjacent blockquotes (separate problems), insert a blank line containing
 `<!-- markdownlint MD028 -->` to suppress the adjacent-blockquote linter rule.
 
-**Blockquote continuation discipline.** Every line inside a blockquote must
+__Blockquote continuation discipline.__ Every line inside a blockquote must
 begin with `>` — including blank lines between display math and prose, blank
 lines between paragraphs, and lines containing only display math delimiters.
 A single blank line without `>` terminates the blockquote. This is the most
@@ -827,61 +827,61 @@ Not:
 The CDF is obtained by integrating.
 ```
 
-**Cloze-in-LaTeX rule.** `{@{ }@}` must never appear inside `$…$` or `$$…$$`
+__Cloze-in-LaTeX rule.__ `{@{ }@}` must never appear inside `$…$` or `$$…$$`
 delimiters — pytextgen cannot parse them there. Instead, wrap the entire math
 expression from outside: `{@{$\dots$}@}` or `{@{$$…$$}@}`.
 
-**Technique-level clozes.** Cloze the name of the heuristic or method
+__Technique-level clozes.__ Cloze the name of the heuristic or method
 (`{@{Swap sum order}@}`, `{@{the triangle inequality}@}`), not just the
 algebraic outcome. This tests recognition of _which_ technique applies.
 
-**Solution elaboration.** Show intermediate steps: include the antiderivative
+__Solution elaboration.__ Show intermediate steps: include the antiderivative
 and its evaluation, the geometric-series closed form, the factorial-ratio
 simplification, etc. Do not jump from setup to final answer.
 
-**Cross-referencing.** When a formula or technique derived in one problem is
+__Cross-referencing.__ When a formula or technique derived in one problem is
 reused in another, cite the earlier problem explicitly
 (e.g., `(from Problem 2(b))`).
 
-**Multi-paragraph blockquote math fix.** When a blockquote paragraph contains
+__Multi-paragraph blockquote math fix.__ When a blockquote paragraph contains
 display math (`$$…$$`) followed by more prose, the academic-notes validator may
 flag `no_soft_wrap_paragraph`. Insert a blank blockquote line (`>`) between the
 display math and the following prose to separate them into distinct paragraphs.
 
-**Inline solution layout.** Within a single problem blockquote, place the
+__Inline solution layout.__ Within a single problem blockquote, place the
 question text first, then a blank line, then `> Solution:` on its own line.
 This keeps each prompt and its solution visually self-contained without
 splitting into separate blocks.
 
-**Topic orientation list.** Include a brief comma-separated topic list near the
+__Topic orientation list.__ Include a brief comma-separated topic list near the
 top of the page (before the first problem) for quick scanning. This serves as a
 compact table of contents.
 
-**Source attribution for supplementary questions.** When the page includes
+__Source attribution for supplementary questions.__ When the page includes
 extra or externally sourced problem sets, separate them with `---` and add
 `<!-- Source: <description> -->` on the next line.
 
-**Multi-part labeling.** Label sub-answers as `(a)`, `(b)`, `(c)` inline within
+__Multi-part labeling.__ Label sub-answers as `(a)`, `(b)`, `(c)` inline within
 the solution prose. Use a list format (`> - (a)`) inside the blockquote when
 the parts are long.
 
-**Key equivalence proofs.** When a solution relies on a non-trivial equivalence
+__Key equivalence proofs.__ When a solution relies on a non-trivial equivalence
 (e.g., `F^{-1}(u)≤x ⇔ u≤F(x)`), include a brief two-direction proof using
 `($\Rightarrow$) ... ($\Leftarrow$)` or `(⇐)` / `(⇒)` right after stating the
 equivalence. Typically one direction uses a sup definition and right-continuity
 argument, the other uses monotonicity.
 
-**Case breakdown.** When the formula differs by parity, sign, or other
+__Case breakdown.__ When the formula differs by parity, sign, or other
 condition, use explicit headings like "For odd $n$, … For even $n$, …" with
 separate formulas in each branch.
 
-**Clozing bullet-list case splits.** When case splits are presented as a bullet
+__Clozing bullet-list case splits.__ When case splits are presented as a bullet
 list, wrap each bullet's content in `{@{ }@}` while keeping the `-` prefix
 outside. When a bullet states both a condition and its consequence, cloze them
 as separate units: `- {@{condition}@}, giving {@{result}@}` (or `{@{so ...}@}`,
 `{@{hence ...}@}`). This tests cause-effect reasoning within each case.
 
-**Intuition-first for non-obvious proofs.** When a proof technique is not the
+__Intuition-first for non-obvious proofs.__ When a proof technique is not the
 first thing a reader would think of, precede the algebraic derivation with a
 brief "The intuition is that…" paragraph explaining the strategic insight. This
 teaches _why_ one would choose the approach before showing _how_ it works,
@@ -890,7 +890,7 @@ manipulation in a Minkowski proof: "The intuition is that Minkowski's inequality
 resembles the triangle inequality for norms; to prove it using Hölder, we need
 to turn $\|f+g\|_p$ into a product so that Hölder applies."
 
-**Prefer direct notation over unnecessary indirection.** Use quantities directly
+__Prefer direct notation over unnecessary indirection.__ Use quantities directly
 (e.g., $E[Y\mid X]$) rather than introducing intermediate variables
 (e.g., $\theta(X)=E[Y\mid X]$) unless the intermediate is reused multiple times
 or significantly improves readability. Unnecessary indirection adds cognitive
@@ -904,7 +904,7 @@ then flashcards immediately after each section.
 
 ### Structure and naming
 
-- Topic notes **must** use QA cards (`::@::` or `:@:`), not cloze `{@{ }@}`.
+- Topic notes __must__ use QA cards (`::@::` or `:@:`), not cloze `{@{ }@}`.
   Exception: accounting journal-entry worked examples embedded in topical notes
   may use cloze inside quoted scenarios, tables, calculations, and short
   explanations.
@@ -928,11 +928,11 @@ definition` unless nested context requires it.
 
 ### Section-local flashcards
 
-- Every section **and subsection** in a topic note must have its own `---` and
+- Every section __and subsection__ in a topic note must have its own `---` and
   flashcard block. Subsection flashcards must live under their own subsection
   heading, not under the parent section's flashcard block.
 - The suppression reason "cards in parent section flashcard block" and other similar reasons for
-  `header_flashcard_presence` are **not allowed**. If a subsection lacks its own
+  `header_flashcard_presence` are __not allowed__. If a subsection lacks its own
   flashcard block, add one.
 - If a topic note has an overview section followed by representative example
   subsections, keep the detailed flashcards with the matching subsection rather
@@ -946,7 +946,7 @@ definition` unless nested context requires it.
   the `---` separator, or convert the clarification into flashcards, so the
   flashcard heading always remains directly under the separator.
 
-- **Flashcard question phrasing.** Each `::@::` left-hand side must be a
+- __Flashcard question phrasing.__ Each `::@::` left-hand side must be a
   descriptive phrase that uniquely identifies the concept. Use a
   `category / specific-description` format, all on one line. Avoid terse labels
   like `Poisson process: definition` — the left side should be independently
@@ -955,12 +955,12 @@ definition` unless nested context requires it.
   - `algebraic properties / complement rule ::@:: $P[A^c] = 1 - P[A]$`
   - `continuity / continuity from below ::@:: If $A_1\subseteq A_2\subseteq\cdots$ then $P[\bigcup_j A_j] = \lim_{n\to\infty} P[A_n]$.`
 
-- **Overview flashcard.** The first section's flashcard block must begin with an
+- __Overview flashcard.__ The first section's flashcard block must begin with an
   `overview ::@:: <single-sentence definition>` card. For other sections,
   consider an overview card at the start of that section's flashcard block as
   well.
 
-- **Lint suppression comments.** Every `::@::` flashcard line MUST end with a
+- __Lint suppression comments.__ Every `::@::` flashcard line MUST end with a
   trailing lint suppression comment, except when the card legitimately triggers
   a calculation warning that should not be suppressed. Standard patterns:
   - `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->` for
@@ -972,7 +972,7 @@ definition` unless nested context requires it.
     check on the line above:
     `<!-- check: ignore-next-line[header_style]: proper noun -->`.
 
-- **Elaborated answers.** The right-hand side of a `::@::` card should include
+- __Elaborated answers.__ The right-hand side of a `::@::` card should include
   contextual framing beyond the bare formula. For proof-based cards, embed the
   key steps with "Derivation:" or "Proof:" inline. Examples:
   - `algebraic properties / inclusion-exclusion for two sets ::@:: $P[A\cup B] = P[A] + P[B] - P[A\cap B]$, proved by disjoint union $B = (A\cap B)\cup(B\setminus A)$ and additivity.`
@@ -983,7 +983,7 @@ definition` unless nested context requires it.
   (forward direction):" and "Proof sketch (reverse direction):" markers
   within the right-hand side, separated by `<br/>`.`
 
-- **Keep the same conceptual level.** Group cards by conceptual level; do not
+- __Keep the same conceptual level.__ Group cards by conceptual level; do not
   mix high-level conceptual cards with hyper-specific formula cards under the
   same heading.
 
@@ -1030,22 +1030,22 @@ Use these rules:
   official content quoted and the self-authored content unquoted.
 - If the file becomes too large, split it into `questions/index.md` plus smaller
   child pages such as tutorial weeks, problem sets, review sets, or exam blocks.
-- **Topics line**: At the top of a questions page, include a `- topics:` line
+- __Topics line__: At the top of a questions page, include a `- topics:` line
   listing the major concepts covered (for example `- topics: medians of
 distributions, sigma-algebras, CDFs`). This helps readers quickly identify
   the material tested.
-- **Page description**: After the topics line, consider adding a paragraph
+- __Page description__: After the topics line, consider adding a paragraph
   describing the page's structure and pedagogical aim — for example, explaining
   which source materials were combined, what skill progression the questions
   build towards, or why certain topics are grouped together. This gives readers
   orienting context that a bare topic list cannot convey.
-- **Original summary questions**: When a recurring technique or theme appears
+- __Original summary questions__: When a recurring technique or theme appears
   across multiple problems without a dedicated source question, consider
   creating an original summary question that synthesizes the pattern. Label it
   clearly as self-authored (ordinary prose rather than a blockquote) and place
   it alongside the official problems. This turns implicit heuristics into
   explicit, reviewable material.
-- **Mastery-flow ordering**: Order problems by pedagogical progression rather
+- __Mastery-flow ordering__: Order problems by pedagogical progression rather
   than by source order: start with the foundational inequality or definition,
   then apply it to simple concrete cases, then build skill through multi-step
   examples, and finally tackle deeper or more abstract extensions. This creates
@@ -1065,70 +1065,70 @@ distributions, sigma-algebras, CDFs`). This helps readers quickly identify
   still contains meaningful coverage.
 - Prefer clozing a reasoning step together with its equation when they form a
   single proof step.
-- **Cloze as logical implication**: When clozing solution steps, structure the
+- __Cloze as logical implication__: When clozing solution steps, structure the
   visible text as the logical premise or framing (the method, condition, or
   known fact), and hide the conclusion, formula, or consequence that follows
   from it. This tests inference rather than isolated recall.
-- **Attribution and inference words**: Connect each step with explicit reasoning
+- __Attribution and inference words__: Connect each step with explicit reasoning
   language: "By [definition/theorem name]", "since [known condition]", "hence
   [consequence]", "substituting [expression] yields [result]".
-- **Inline sub-answer labels**: When a question has subparts, label answers
+- __Inline sub-answer labels__: When a question has subparts, label answers
   inline as `(a)`, `(b)`, etc. within the solution prose rather than using
   separate headings.
-- **Explicit step decomposition**: For multi-step proofs, decompose with
+- __Explicit step decomposition__: For multi-step proofs, decompose with
   explicit markers: "First, show ...", "Second, show ...", "Third, ...". Label
   each logical chunk so the reader can follow the argument structure.
 - Keep each quoted `Solution:` as one source paragraph line; avoid manual soft
   wrapping for that style.
-- **Maximum-coverage cloze density for solution review.** On question/solution
+- __Maximum-coverage cloze density for solution review.__ On question/solution
   pages, clozes can be applied much more densely than on topic notes — wrap
   every substantive claim, formula, theorem reference, condition, and key term
   in its own `{@{ }@}`. This turns the prose solution into a complete
   fill-in-the-blank review tool. Each cloze still wraps a complete unit
   (one formula, one claim, one method), but the coverage is near-exhaustive
   across the entire solution.
-- **Cloze separation of formula from prose interpretation.** When a LaTeX
+- __Cloze separation of formula from prose interpretation.__ When a LaTeX
   formula and its prose gloss appear together, wrap each in a separate cloze:
   `{@{$E[X]=\int_\Omega X\,dP$}@}` is `{@{the Lebesgue integral...}@}`.
   This tests both symbolic recognition and verbal understanding as distinct
   review items.
-- **True/false answer structure.** For "Decide whether true or false"
-  questions, use this pattern: false statements get **False.** followed by a
+- __True/false answer structure.__ For "Decide whether true or false"
+  questions, use this pattern: false statements get __False.__ followed by a
   concrete counterexample with explicit distributions, computation of both
   sides, demonstration that they differ, and a conceptual takeaway. True
-  statements get **True.** followed by a reference to a prior result or known
+  statements get __True.__ followed by a reference to a prior result or known
   theorem and brief justification.
-- **Cloze of multi-name results.** When a result has two equally common names
+- __Cloze of multi-name results.__ When a result has two equally common names
   (e.g., "tail-sum formula" / "layer-cake representation"), cloze both names
   together so the reader learns the connection: `{@{the layer-cake
 representation (or tail-sum formula)}@}`.
-- **Visual breaks in single-line source**: Use `<p>` for paragraph breaks and
+- __Visual breaks in single-line source__: Use `<p>` for paragraph breaks and
   `<br/>` for line breaks inside single-line source paragraphs. This keeps
   the markdown source continuous (no hard line breaks) while producing visual
   separation in the rendered output.
 - For consecutive quote blocks, prefer local MD028 control comments instead of a
   global suppression.
-- **Progressive elaboration**: Start each solution step with the core idea or
+- __Progressive elaboration__: Start each solution step with the core idea or
   method, then expand the algebra only where a typical reader would need to
   write down an intermediate rearrangement. Show the expression after a
   substitution, integration, or algebraic manipulation before stating the
   result, but do not pad with trivial steps.
-- **Cross-reference between problems**: When the same formula, trick, or
+- __Cross-reference between problems__: When the same formula, trick, or
   theorem powers two solutions, cite the earlier problem by number (for
   example `(from Problem 2(b))`). This builds a proof dependency graph
   that rewards cumulative study.
-- **Result-cloze heuristic**: Prefer clozing the _result_ or _takeaway_ of a
+- __Result-cloze heuristic__: Prefer clozing the _result_ or _takeaway_ of a
   derivation rather than the algebraic steps that produced it. The visible
   premise carries the method or condition; the hidden part holds the
   conclusion or formula that follows.
-- **Technique-level clozes**: Cloze not only the answer but also the name of
+- __Technique-level clozes__: Cloze not only the answer but also the name of
   the heuristic or technique that was used to get there (for example
   `{@{Swap sum order}@}` or `{@{completing the square}@}`). This tests
   whether the reader can recognize _which_ method applies — a key
   problem-solving skill — rather than just recalling the mechanical result.
-- **Cloze density**: Aim for roughly 2–4 clozes per subquestion — enough to
+- __Cloze density__: Aim for roughly 2–4 clozes per subquestion — enough to
   test recall of the headline formulas without making the card unanswerable.
-- **Progressive cloze density across multi-problem pages**: On pages with
+- __Progressive cloze density across multi-problem pages__: On pages with
   several problems, consider using dense step-by-step clozes on the first
   problem (testing each mathematical move independently) and progressively
   sparser clozes on later problems (testing only the final closed-form or key
@@ -1136,29 +1136,29 @@ representation (or tail-sum formula)}@}`.
   independent application on subsequent passes. For example, in a 5-problem
   tutorial, the first problem might cloze every reasoning step while the last
   problem may only cloze the bottom-line result.
-- **Source anchoring**: When official problem-set PDFs or source extracts
+- __Source anchoring__: When official problem-set PDFs or source extracts
   exist, verify solution content against the original. Restore dropped context
   paragraphs, limit definitions, and precise subquestion wording that a
   paraphrase may have lost.
-- **Group separator with source annotation**: When a page draws from multiple
+- __Group separator with source annotation__: When a page draws from multiple
   source documents, group problems from the same source together and separate
   groups with `---` followed by `<!-- Source: <description> -->`. This keeps
   provenance clear without cluttering individual problem blocks.
-- **Alternative-solution labeling**: When a question admits multiple solution
+- __Alternative-solution labeling__: When a question admits multiple solution
   methods (for example Jacobian vs. CDF approach for a transformation),
   present each as a labeled alternative inside the solution block. Use a bold
   header such as `**Alternative (method name):**` or
   `**Alternative (approach, per hint):**` to separate them. This shows
   readers the equivalence between techniques and reinforces when each method
   is natural to apply.
-- **Recall anchors for prerequisites**: At the start of a solution that
+- __Recall anchors for prerequisites__: At the start of a solution that
   depends on a prerequisite distribution, identity, or function (for example
   the gamma function, the Beta function, or the MGF of a named distribution),
   include a compact reminder in parentheses: `(Recall the gamma function
 $\Gamma(\alpha)=\int_0^\infty u^{\alpha-1}e^{-u}\,du$ ...)`. This keeps the
   solution self-contained and reduces friction during spaced-repetition
   review.
-- **Self-contained inequality statements in problem prompts**: When a problem
+- __Self-contained inequality statements in problem prompts__: When a problem
   asks to prove or apply a named inequality, theorem, or definition, state the
   full mathematical statement in the question body — not just the name. For
   example, instead of "Prove the finite weighted Jensen inequality," write
@@ -1167,14 +1167,14 @@ $\Gamma(\alpha)=\int_0^\infty u^{\alpha-1}e^{-u}\,du$ ...)`. This keeps the
   $\varphi(\sum_i\lambda_i x_i)\le\sum_i\lambda_i\varphi(x_i)$." This
   makes the prompt self-contained for spaced-repetition review and doubles as a
   flashcard cue.
-- **Display math merged onto same blockquote line**: When a solution step
+- __Display math merged onto same blockquote line__: When a solution step
   uses display math inside a blockquote, merge concluding text and the display
   math onto the same blockquote source line (e.g.
   `> The quadratic form simplifies to $$...$$`). This avoids triggering the
   `no_soft_wrap_paragraph` validator rule while keeping the math visually
   clear. The text before the math serves as a logical premise or label for the
   expression that follows.
-- **Cloze layering**: Within a single solution step, chain multiple clozes at
+- __Cloze layering__: Within a single solution step, chain multiple clozes at
   different conceptual levels to test the full reasoning chain: first clozed
   the theorem or method name (`{@{by the spectral theorem}@}`), then the key
   formula (`{@{$\Sigma=Q\Lambda Q^\top$}@}`), then the conclusion that follows
@@ -1182,14 +1182,14 @@ $\Gamma(\alpha)=\int_0^\infty u^{\alpha-1}e^{-u}\,du$ ...)`. This keeps the
   mathematical expression, and the logical consequence — a deeper form of
   active recall than testing any one layer alone. Combine with `<p>` and
   display math so the reasoning chain is both testable and readable.
-- **Casewise answer packaging via indicator functions**: When a solution
+- __Casewise answer packaging via indicator functions__: When a solution
   yields different values on different subsets of the sample space, package
   the answer concisely using indicator functions rather than listing cases with
   prose labels or footnotes. For example,
   `$E[X\mid Y]=\frac{r}{p}\mathbf 1_{\{Y=1\}}+\frac{p-r}{1-p}\mathbf 1_{\{Y=0\}}$`.
   This keeps the result compact, self-contained, and directly testable via
   cloze — the reader must match each indicator condition to its expression.
-- **Progressive difficulty: simple case first, then extend**: When a question
+- __Progressive difficulty: simple case first, then extend__: When a question
   has multiple cases of increasing complexity (e.g., square matrix $A$, then
   non-square $A$), solve the simpler case completely first, then open the
   harder case with wording like "For [harder case], extend/apply [the simpler
@@ -1219,7 +1219,7 @@ rather than trying to make one page serve both goals.
   recognition rules, conceptual hints, compact worked reminders, and active
   recall prompts. Keep the public `## hints` in the same order as the
   archived/private question order even if individual hints are later rewritten
-  to be more conceptual. Do **not** copy the full official question set
+  to be more conceptual. Do __not__ copy the full official question set
   verbatim into the public page when a private archival page exists.
 - If only quiz timing or schedule metadata is known and the question content has
   not been archived yet, keep a minimal placeholder page in `questions/quiz
@@ -1235,7 +1235,7 @@ N.md` rather than opening a separate assignments stub (for which the
 - If the archived source explicitly shows correctness, grading feedback, or an
   official solution, label the answer line as `- solution:`.
 - If the archived source only shows a checked option or stored attempt state,
-  do **not** overclaim correctness. Use labels such as `- archived selection:`
+  do __not__ overclaim correctness. Use labels such as `- archived selection:`
   or `- selected answer:` instead of asserting a solution.
 - If the user later confirms that the archived checked options are indeed
   correct, you may promote those answer lines to `- solution:` even if the raw
@@ -1302,18 +1302,18 @@ N.md` rather than opening a separate assignments stub (for which the
 
 The repository supports only three flashcard patterns:
 
-- **Cloze**: `{@{hidden text}@}`
-- **Two-sided QA**: `term ::@:: definition`
-- **One-sided QA**: `term :@: answer`
+- __Cloze__: `{@{hidden text}@}`
+- __Two-sided QA__: `term ::@:: definition`
+- __One-sided QA__: `term :@: answer`
 
 Core rules:
 
 - Cloze syntax is strict: `{@{` opens and `}@}` closes. No nesting, no
   multiline clozes, and no `}}` pseudo-closing token.
-- Do **not** place clozes inside existing math delimiters. If you want to hide
+- Do __not__ place clozes inside existing math delimiters. If you want to hide
   an equation, cloze the entire equation from outside.
-- Topic notes **must** use QA cards (`::@::` or `:@:`) over cloze (`{@{ }@}`)
-  in prose. Cloze flashcards `{@{ }@}` are **not allowed** in topic notes. The
+- Topic notes __must__ use QA cards (`::@::` or `:@:`) over cloze (`{@{ }@}`)
+  in prose. Cloze flashcards `{@{ }@}` are __not allowed__ in topic notes. The
   only exception is embedded accounting journal-entry worked examples, which
   may use cloze in their quoted scenarios, tables, calculations, and short
   explanations.
@@ -1341,15 +1341,15 @@ Core rules:
 
 Use these conventions for consistent notation in mathematical notes:
 
-- **Distribution names**: Use `\operatorname{Bin}`, `\operatorname{Cau}`,
+- __Distribution names__: Use `\operatorname{Bin}`, `\operatorname{Cau}`,
   `\operatorname{Exp}`, `\operatorname{Poi}`, etc. for named distributions.
-- **Indicator functions**: `\mathbf 1_A(x)` or `\mathbb 1_A(x)`.
-- **Left and right limits**: `\lim_{y\uparrow m}` and `\lim_{y\downarrow m}`.
-- **"Distributed as"**: `\sim` (e.g., `$X\sim N(0,1)$`).
-- **Binomial coefficients**: `\binom{n}{k}`.
-- **Piecewise definitions**: `\begin{cases}` with `[2pt]` vertical spacing
+- __Indicator functions__: `\mathbf 1_A(x)` or `\mathbb 1_A(x)`.
+- __Left and right limits__: `\lim_{y\uparrow m}` and `\lim_{y\downarrow m}`.
+- __"Distributed as"__: `\sim` (e.g., `$X\sim N(0,1)$`).
+- __Binomial coefficients__: `\binom{n}{k}`.
+- __Piecewise definitions__: `\begin{cases}` with `[2pt]` vertical spacing
   between cases.
-- **Multi-letter operators**: Use `\operatorname` rather than plain text for
+- __Multi-letter operators__: Use `\operatorname` rather than plain text for
   multi-letter operators like `CDF`, `PDF`, `Var`, `Cov`, `E`, `MSE`.
   In probability notes, use `\operatorname{E}[X]` for expectation and
   `\operatorname{Var}(X)` for variance (rather than bare `E[X]` or `\mathbb E`).
@@ -1377,9 +1377,15 @@ Additional rules:
   percent-encoded link destinations, inline code, or HTML comments, treat that
   as a validator bug: mask the non-prose span or refine the rule instead of
   scattering repeated suppressions through course notes.
-- The suppression reason "cards in parent section flashcard block" and other similar reasons are **not valid** for `header_flashcard_presence`. Every subsection must have its own flashcard block.
+- The suppression reason "cards in parent section flashcard block" and other similar reasons are __not valid__ for `header_flashcard_presence`. Every subsection must have its own flashcard block.
 - Conceptual law cards may justify a local suppression when a descriptive prompt
   is pedagogically stronger than a formula-heavy calculation prompt.
+- Apple Notes markdown exports placed under `submission/` folders are copied
+  verbatim from the notes app and must not have their body content modified.
+  Use a file-level suppression comment such as
+  `<!-- check: ignore-file[missing_yaml_frontmatter, metadata_aliases_present, metadata_tags_present, tag_language, header_flashcard_presence, no_soft_wrap_list]: Apple Notes markdown — do not modify -->`
+  instead of adding frontmatter or flashcards. See the assignment-creation skill
+  for more details.
 
 ## Filenames, titles, links, and external lookups
 
@@ -1395,7 +1401,7 @@ Additional rules:
 Use the validator as the structural authority for this skill.
 
 The validator location is fixed: `.agents/skills/academic-notes/check.py`.
-Do **not** recurse through `.agents/skills/academic-notes/`, list the whole
+Do __not__ recurse through `.agents/skills/academic-notes/`, list the whole
 folder, or search the entire workspace just to locate it. Run the fixed path
 directly and pass the smallest relevant course-note path.
 
@@ -1412,8 +1418,8 @@ uv run .agents/skills/academic-notes/check.py "special/academia/<institution>/EL
 
 Rules of thumb:
 
-- Validate the **smallest relevant scope only**.
-- Do **not** run the validator on the repository root, the whole workspace, or
+- Validate the __smallest relevant scope only__.
+- Do __not__ run the validator on the repository root, the whole workspace, or
   the entire skill folder.
 - Common failures include missing tags, missing `datetime`, invalid headings,
   broken section-card structure, duplicate week numbers, exams placed too early,

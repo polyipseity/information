@@ -8,7 +8,7 @@ aliases:
   - MATH 2431 problem set 4
 tags:
   - date/2026/03/13
-  - flashcard/active/special/academia/HKUST/MATH_2431/assignments/problem_set_4
+  - flashcard/active/special/academia/HKUST/MATH_2431/assignments/problem_set_4/index
   - language/in/English
 ---
 

@@ -88,7 +88,8 @@ Representative journal entry examples at issuance:
 >
 > _Explanation._ Carrying amount equals {@{bond price; the discount (7 392) is not shown in a separate account under the net method but is embedded in Bonds payable}@}. At maturity, Bonds payable is {@{increased by amortization to face value}@}. <!--SR:!fsrs,2026-12-06T05:39:46.431Z,176,176.49036913,1,2,5,0,0,2026-06-13T05:39:46.431Z!fsrs,2026-12-12T05:41:25.014Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:41:25.014Z!fsrs,2027-04-26T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-11-24T04:56:35.472Z,164,164.35174153,1.12978518,2,5,0,0,2026-06-13T04:56:35.472Z!fsrs,2026-12-19T08:30:52.198Z,189,188.98342759,1,2,5,0,0,2026-06-13T08:30:52.198Z!fsrs,2026-12-06T04:55:35.894Z,176,176.49036913,1,2,5,0,0,2026-06-13T04:55:35.894Z!fsrs,2026-12-19T05:35:43.656Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:35:43.656Z!fsrs,2026-12-12T04:16:40.284Z,182,182.36945546,1,2,5,0,0,2026-06-13T04:16:40.284Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ BlueHarbor Utilities plc issues {@{5-year bonds, face 100 000, coupon 8% semi-annual, market 6% semi-annual; bond price 108 530}@}. Record issuance.
 >
 > | {@{Issue bond at premium (net method)}@} | Dr            | Cr            |
@@ -177,7 +178,8 @@ Representative journal entry examples:
 >
 > _Explanation._ Interest expense equals {@{carrying amount × market rate and the discount amortized = interest expense − coupon}@}; credit {@{Bonds payable to increase carrying amount toward face value}@}. On payment date: {@{Dr Interest payable 9 000, Cr Cash 9 000}@}. <!--SR:!fsrs,2026-12-28T07:01:59.291Z,198,198.40328049,1,2,5,0,0,2026-06-13T07:01:59.291Z!fsrs,2026-12-28T07:03:25.178Z,198,198.40328049,1,2,5,0,0,2026-06-13T07:03:25.178Z!fsrs,2026-12-28T05:37:45.719Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:37:45.719Z!fsrs,2026-12-28T08:30:45.931Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:30:45.931Z!fsrs,2026-10-06T05:35:27.089Z,115,114.78903331,1.96825337,2,5,0,0,2026-06-13T05:35:27.089Z!fsrs,2026-12-28T04:22:01.166Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:22:01.166Z!fsrs,2026-12-28T05:32:23.975Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:32:23.975Z!fsrs,2026-12-28T08:32:53.142Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:32:53.142Z!fsrs,2026-12-28T04:48:03.294Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:48:03.294Z!fsrs,2026-12-28T05:25:39.302Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:25:39.302Z!fsrs,2026-12-28T05:41:59.421Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:41:59.421Z!fsrs,2026-12-28T05:41:58.187Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:41:58.187Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Second-period discount amortization gets bigger, not smaller._ After the first year's amortization, the bond's carrying amount rises to {@{93 795 = 92 608 + 1 187}@}. Using the same {@{11% market rate and 9% coupon}@}, the next year's interest expense rises to {@{10 317}@}, so the discount amortization also increases.
 >
 > | {@{Recognise second-period interest on the discount bond after the carrying amount has increased}@} | Dr | Cr |
@@ -199,7 +201,8 @@ Flashcards for this section are as follows:
 
 For a premium bond, the coupon cash paid each period is larger than the effective-interest expense. The excess coupon over effective interest is the premium amortization, and that amortization reduces the bond's carrying amount over time.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ First semi-annual period for BlueHarbor Utilities' {@{premium bond issued above with beginning carrying amount 108 530, face 100 000, annual coupon rate 8% paid semi-annually, and per-period market rate 3%}@}: {@{coupon cash paid = 100 000 × 8% × 6/12 = 4 000}@}, {@{interest expense = 108 530 × 3% = 3 256}@}, so {@{premium amortized = 4 000 − 3 256 = 744}@}. Cash paid on payment date.
 >
 > | {@{Recognise interest and amortise premium}@} | Dr          | Cr          |
@@ -239,7 +242,8 @@ For a discount bond, add the amortization to the carrying amount. For a premium 
 >
 > _How to read the table._ In year 1, the company pays only the stated {@{800 cash coupon}@}, but interest expense is {@{950 because 9&nbsp;503 × 10%}@}. The difference of {@{150 is the discount amortization for year 1}@}, so the carrying amount rises to {@{9&nbsp;653 after adding that year-1 discount amortization}@}. The same logic repeats every year. In the final period, a small rounding adjustment may be needed so the ending carrying amount reaches the exact {@{face value of 10&nbsp;000}@}. <!--SR:!fsrs,2026-12-28T05:16:39.059Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:16:39.059Z!fsrs,2026-12-28T04:55:38.598Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:55:38.598Z!fsrs,2026-12-28T05:35:29.432Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:35:29.432Z!fsrs,2026-12-28T04:21:41.557Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:21:41.557Z!fsrs,2026-12-28T08:33:58.685Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:33:58.685Z!fsrs,2026-12-28T08:33:56.724Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:33:56.724Z!fsrs,2026-12-28T05:39:38.307Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:39:38.307Z!fsrs,2026-12-28T07:09:35.810Z,198,198.40328049,1,2,5,0,0,2026-06-13T07:09:35.810Z!fsrs,2026-12-28T04:21:40.494Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:21:40.494Z!fsrs,2026-12-28T08:31:48.587Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:31:48.587Z!fsrs,2026-12-28T05:24:42.236Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:24:42.236Z!fsrs,2026-12-28T05:41:04.734Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:41:04.734Z!fsrs,2026-12-28T04:22:08.920Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:22:08.920Z!fsrs,2026-12-28T04:16:41.318Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:16:41.318Z!fsrs,2026-12-28T08:30:56.208Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:30:56.208Z!fsrs,2026-12-28T04:55:34.248Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:55:34.248Z!fsrs,2026-12-28T04:56:36.406Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:56:36.406Z!fsrs,2026-12-28T05:40:08.608Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:40:08.608Z!fsrs,2026-12-28T04:48:02.303Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:48:02.303Z!fsrs,2026-12-28T05:17:32.200Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:17:32.200Z!fsrs,2026-12-28T08:33:53.749Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:33:53.749Z!fsrs,2026-12-28T05:17:44.066Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:17:44.066Z!fsrs,2026-12-28T05:25:37.459Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:25:37.459Z!fsrs,2026-12-28T05:39:39.487Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:39:39.487Z!fsrs,2026-12-28T05:54:25.561Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:54:25.561Z!fsrs,2026-12-28T04:56:34.958Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:56:34.958Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Translate one row into a journal entry._ Using the year-2 row above:
 >
 > | {@{Record year-2 interest using the amortization table row}@} | Dr | Cr |
@@ -250,7 +254,8 @@ For a discount bond, add the amortization to the carrying amount. For a premium 
 >
 > _Explanation._ The amortization table is not a second method. It is just the effective-interest method written in a way that makes the next journal entry and the next carrying amount obvious. <!--SR:!fsrs,2026-12-28T05:41:49.204Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:41:49.204Z!fsrs,2026-12-28T05:40:02.797Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:40:02.797Z!fsrs,2026-12-28T04:46:10.565Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:46:10.565Z!fsrs,2026-12-28T04:37:23.292Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:37:23.292Z!fsrs,2026-12-28T04:49:30.867Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:49:30.867Z!fsrs,2026-12-28T04:46:13.622Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:46:13.622Z!fsrs,2026-12-28T05:19:57.293Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:19:57.293Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ {@{5-year bond, face 100 000, matures; carrying amount equals face value}@}.
 >
 > | {@{Repay bond at maturity}@} | Dr            | Cr            |
@@ -288,7 +293,8 @@ Representative journal entry examples:
 >
 > _Explanation._ Interest payable equals {@{4 000 × 2/6 = 1 333}@}, premium amortized equals {@{744 × 2/6 = 248}@}, and interest expense equals {@{1 333 − 248 = 1 085}@}. For a discount bond, credit _Bonds payable_ (prorated discount amortization) instead of debiting. <!--SR:!fsrs,2026-12-19T04:46:20.585Z,189,188.98342759,1,2,5,0,0,2026-06-13T04:46:20.585Z!fsrs,2026-12-19T05:37:15.469Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:37:15.469Z!fsrs,2026-12-12T05:32:29.785Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:32:29.785Z!2026-07-17,61,310!fsrs,2026-11-09T04:22:00.657Z,149,148.75262818,1.98030797,2,5,0,0,2026-06-13T04:22:00.657Z!fsrs,2026-12-19T05:55:29.378Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:55:29.378Z!fsrs,2026-12-06T04:46:11.789Z,176,176.49036913,1,2,5,0,0,2026-06-13T04:46:11.789Z!fsrs,2026-11-09T05:40:33.810Z,149,148.75262818,1.98030797,2,5,0,0,2026-06-13T05:40:33.810Z!fsrs,2026-12-12T04:16:44.650Z,182,182.36945546,1,2,5,0,0,2026-06-13T04:16:44.650Z!fsrs,2026-12-12T05:35:38.180Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:35:38.180Z!fsrs,2026-12-12T05:00:42.602Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:00:42.602Z!fsrs,2026-12-09T08:33:29.172Z,179,178.6950265,1,2,5,0,0,2026-06-13T08:33:29.172Z!fsrs,2026-12-19T05:39:45.031Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:39:45.031Z!fsrs,2026-12-28T04:16:51.414Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:16:51.414Z!fsrs,2026-12-28T07:03:26.548Z,198,198.40328049,1,2,5,0,0,2026-06-13T07:03:26.548Z!fsrs,2026-12-28T05:47:44.972Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:47:44.972Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Irregular day-count accrual instead of a neat month fraction._ Suppose the same semi-annual premium bond has a coupon period containing {@{184 days in total}@}, and year-end falls after {@{107 of those 184 days}@}. Full-period coupon is still {@{4 000}@} and full-period premium amortization is still {@{744}@}, but the accrual must now use the actual day fraction rather than a clean month count.
 >
 > | {@{Accrue interest and premium amortization using actual days elapsed}@} | Dr | Cr |
@@ -299,7 +305,8 @@ Representative journal entry examples:
 >
 > _Calculation._ Interest payable = {@{4 000 × 107/184 ≈ 2 327}@}. Premium amortization = {@{744 × 107/184 ≈ 433}@}. Interest expense = {@{2 327 − 433 = 1 894}@}. The point is to use the {@{actual fraction of the coupon period given in the problem}@}, not a memorized {@{2/6 or 2/12}@} shortcut. <!--SR:!fsrs,2026-12-28T05:17:39.711Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:17:39.711Z!fsrs,2026-12-28T08:32:32.432Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:32:32.432Z!fsrs,2026-12-28T05:31:49.818Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:31:49.818Z!fsrs,2026-12-28T05:25:09.483Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:25:09.483Z!fsrs,2026-12-28T05:00:35.614Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:00:35.614Z!fsrs,2026-12-28T08:32:52.155Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:32:52.155Z!fsrs,2026-12-28T04:56:38.105Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:56:38.105Z!fsrs,2026-12-28T08:32:43.002Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:32:43.002Z!fsrs,2026-12-28T06:13:31.216Z,198,198.40328049,1,2,5,0,0,2026-06-13T06:13:31.216Z!fsrs,2026-12-28T05:41:05.881Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:41:05.881Z!fsrs,2026-12-28T05:40:09.879Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:40:09.879Z!fsrs,2026-12-28T08:31:38.466Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:31:38.466Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Cedar Vista Rail plc issues a bond with face {@{100 000}@}, coupon {@{8%}@}, and semi-annual interest payments. It is issued {@{4 months after the last interest date}@}. At issuance, the investor pays accrued interest for 4 of 6 months: {@{100 000 × 8% × 4/12 = 2 667}@}. On the next interest date, the issuer pays the full coupon for 6 months: {@{100 000 × 8% × 6/12 = 4 000}@}.
 >
 > | {@{Issue bond at par between interest dates}@} | Dr            | Cr            |
@@ -315,7 +322,8 @@ Representative journal entry examples:
 >
 > _Explanation._ {@{Total interest expense over 2 months (from issue date to payment date) = 4 000 − 2 667 = 1 333 = 100 000 × 8% × 2/12}@}. <!--SR:!fsrs,2026-12-12T04:37:21.812Z,182,182.36945546,1,2,5,0,0,2026-06-13T04:37:21.812Z!fsrs,2026-12-19T04:46:16.317Z,189,188.98342759,1,2,5,0,0,2026-06-13T04:46:16.317Z!fsrs,2026-12-09T08:32:36.687Z,179,178.6950265,1,2,5,0,0,2026-06-13T08:32:36.687Z!fsrs,2026-12-12T04:48:02.782Z,182,182.36945546,1,2,5,0,0,2026-06-13T04:48:02.782Z!fsrs,2026-12-12T05:41:28.320Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:41:28.320Z!fsrs,2026-12-19T04:46:11.355Z,189,188.98342759,1,2,5,0,0,2026-06-13T04:46:11.355Z!fsrs,2026-11-24T05:54:42.569Z,164,164.35174153,1.12978518,2,5,0,0,2026-06-13T05:54:42.569Z!fsrs,2026-12-12T05:32:58.881Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:32:58.881Z!fsrs,2026-11-24T05:16:08.738Z,164,164.35174153,1.12978518,2,5,0,0,2026-06-13T05:16:08.738Z!fsrs,2026-12-12T05:25:05.340Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:25:05.340Z!fsrs,2026-12-12T05:54:26.350Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:54:26.350Z!fsrs,2026-12-19T04:37:28.582Z,189,188.98342759,1,2,5,0,0,2026-06-13T04:37:28.582Z!fsrs,2026-12-19T05:54:39.749Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:54:39.749Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Cedar Vista Rail plc also has a semi-annual bond with face {@{100 000}@}, coupon {@{8%}@}, and market rate {@{10%}@}. Issue price (excluding accrued interest) is {@{96 000}@}; the bond is issued {@{4 months after the last interest date}@}. At issuance the investor pays {@{accrued coupon for 4 of the 6 months: 100 000 × 8% × 4/12 = 2 667}@}. Total cash raised by the issuer = {@{96 000 (carrying amount) + 2 667 (pre-collected interest) = 98 667}@}, split between Bonds payable {@{96 000}@} and a credit to Interest expense (pre-collected) {@{2 667}@}.
 >
 > | {@{Issue bond at discount between interest dates}@} | Dr           | Cr           |
@@ -470,7 +478,8 @@ Representative journal entry examples:
 >
 > _Explanation._ Land is recorded at {@{fair value (its cash selling price) and the note payable is recorded at the same present value}@}; the difference between {@{220 000 face and 200 000 present value is a discount that will be amortized over the note's life}@}. <!--SR:!fsrs,2026-12-19T08:32:35.582Z,189,188.98342759,1,2,5,0,0,2026-06-13T08:32:35.582Z!fsrs,2026-11-09T05:53:20.589Z,149,148.75262818,1.98030797,2,5,0,0,2026-06-13T05:53:20.589Z!2026-07-17,61,310!fsrs,2026-12-12T08:30:47.514Z,182,182.36945546,1,2,5,0,0,2026-06-13T08:30:47.514Z!fsrs,2026-11-24T05:41:41.893Z,164,164.35174153,1.12978518,2,5,0,0,2026-06-13T05:41:41.893Z!fsrs,2026-12-19T05:39:53.325Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:39:53.325Z!fsrs,2026-12-19T08:34:02.204Z,189,188.98342759,1,2,5,0,0,2026-06-13T08:34:02.204Z!fsrs,2026-12-12T05:24:40.900Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:24:40.900Z!fsrs,2026-12-19T04:51:32.372Z,189,188.98342759,1,2,5,0,0,2026-06-13T04:51:32.372Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Summit Design Build Ltd. receives architectural services in exchange for a {@{5-year note with face 200 000}@} and no stated interest. No market price is available for the services, but an appropriate discount rate (after considering prime rate, covenants, collateral, and term) is {@{8%}@}. Present value of the note (discounted at 8%) is {@{136 000}@} (rounded).
 >
 > | {@{Record architectural services and note (use present value)}@} | Dr            | Cr            |
@@ -518,7 +527,8 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 >
 > _Explanation._ The loss equals {@{cash paid 101 000 − carrying amount 95 000 = 6 000}@}. If cash paid were less than carrying amount, the difference would instead be a gain. <!--SR:!fsrs,2026-12-19T05:17:47.425Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:17:47.425Z!fsrs,2026-12-12T05:41:01.880Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:41:01.880Z!fsrs,2026-12-19T04:17:15.323Z,189,188.98342759,1,2,5,0,0,2026-06-13T04:17:15.323Z!fsrs,2026-12-19T05:53:17.542Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:53:17.542Z!fsrs,2026-12-19T05:17:45.680Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:17:45.680Z!fsrs,2026-12-19T05:16:06.829Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:16:06.829Z!fsrs,2026-11-24T07:02:36.407Z,164,164.35174153,1.12978518,2,5,0,0,2026-06-13T07:02:36.407Z!fsrs,2026-11-09T04:17:28.861Z,149,148.75262818,1.98030797,2,5,0,0,2026-06-13T04:17:28.861Z!fsrs,2026-12-19T05:32:28.315Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:32:28.315Z!fsrs,2026-12-12T05:41:23.829Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:41:23.829Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Gain case for early cash repurchase._ Granite Works plc also has bonds payable with carrying amount {@{€98&nbsp;000}@}. The issuer repurchases the debt early for only {@{€92&nbsp;000 cash}@} because market conditions now allow settlement at a lower amount.
 >
 > | {@{Repurchase debt for cash; recognise gain}@} | Dr | Cr |
@@ -529,7 +539,8 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 >
 > _Explanation._ The gain equals {@{carrying amount 98&nbsp;000 − cash paid 92&nbsp;000 = 6&nbsp;000}@}. This is the mirror image of the loss case above. <!--SR:!fsrs,2026-12-28T05:41:11.937Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:41:11.937Z!fsrs,2026-12-28T04:17:20.600Z,198,198.40328049,1,2,5,0,0,2026-06-13T04:17:20.600Z!fsrs,2026-12-28T05:55:34.266Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:55:34.266Z!fsrs,2026-12-28T05:53:58.168Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:53:58.168Z!fsrs,2026-12-28T05:40:00.775Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:40:00.775Z!fsrs,2026-12-28T05:24:43.837Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:24:43.837Z!fsrs,2026-12-28T08:33:53.166Z,198,198.40328049,1,2,5,0,0,2026-06-13T08:33:53.166Z!fsrs,2026-12-28T05:41:07.038Z,198,198.40328049,1,2,5,0,0,2026-06-13T05:41:07.038Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Orion Marine plc has a note payable with carrying amount {@{20 000 000}@}. The lender agrees to accept {@{2 000 000 ordinary shares with par 5}@} to settle the note. On the issue date, the shares trade at {@{8}@} per share (fair value {@{16 000 000}@}). Record the settlement.
 >
 > | {@{Settle note payable by issuing shares (debt-for-equity)}@} | Dr               | Cr               |
@@ -541,7 +552,8 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 >
 > _Explanation._ Shares are measured at fair value {@{16 000 000 (2 000 000 × 8)}@}; equity increases by that amount (par {@{10 000 000}@}, premium {@{6 000 000}@}). The liability's carrying amount exceeds consideration, so the debtor recognises a gain on extinguishment of {@{20 000 000 − 16 000 000 = 4 000 000}@}. <!--SR:!fsrs,2026-12-09T05:24:44.542Z,179,178.6950265,1,2,5,0,0,2026-06-13T05:24:44.542Z!fsrs,2026-12-19T07:02:39.056Z,189,188.98342759,1,2,5,0,0,2026-06-13T07:02:39.056Z!fsrs,2026-12-19T05:54:19.606Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:54:19.606Z!2026-07-16,60,310!fsrs,2026-12-09T05:35:28.054Z,179,178.6950265,1,2,5,0,0,2026-06-13T05:35:28.054Z!fsrs,2026-11-24T05:53:11.965Z,164,164.35174153,1.12978518,2,5,0,0,2026-06-13T05:53:11.965Z!fsrs,2026-11-24T05:42:05.394Z,164,164.35174153,1.12978518,2,5,0,0,2026-06-13T05:42:05.394Z!fsrs,2026-12-19T04:46:19.128Z,189,188.98342759,1,2,5,0,0,2026-06-13T04:46:19.128Z!fsrs,2026-12-12T08:33:06.513Z,182,182.36945546,1,2,5,0,0,2026-06-13T08:33:06.513Z!fsrs,2026-12-12T05:32:39.396Z,182,182.36945546,1,2,5,0,0,2026-06-13T05:32:39.396Z!fsrs,2026-12-19T04:46:08.516Z,189,188.98342759,1,2,5,0,0,2026-06-13T04:46:08.516Z!fsrs,2026-12-19T05:25:04.381Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:25:04.381Z!fsrs,2026-12-19T08:32:38.744Z,189,188.98342759,1,2,5,0,0,2026-06-13T08:32:38.744Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario (below-par debt-for-equity)._ Orion Marine plc has a note payable with carrying amount {@{20 000 000}@}. The lender agrees to accept {@{2 000 000 ordinary shares with par 5}@} in full settlement. On the issue date, the shares trade at {@{4}@} per share, so fair value of shares issued is {@{8 000 000}@}, which is {@{below total par 10 000 000}@}.
 >
 > | {@{Settle note payable by issuing shares when fair value is below par}@} | Dr               | Cr               |
@@ -553,7 +565,8 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 >
 > _Explanation._ Consideration is measured at {@{fair value of shares issued = 8 000 000}@}. Extinguishment gain is {@{20 000 000 − 8 000 000 = 12 000 000}@}. Equity recognised is still {@{8 000 000 net}@} via {@{Share capital 10 000 000 minus Share premium debit 2 000 000}@}. Sign rule: {@{carrying amount &gt; fair value of shares → gain; carrying amount &lt; fair value of shares → loss}@}. <!--SR:!fsrs,2027-01-06T04:21:57.366Z,207,207.36611416,1,2,6,0,0,2026-06-13T04:21:57.366Z!fsrs,2027-01-06T05:40:09.255Z,207,207.36611416,1,2,6,0,0,2026-06-13T05:40:09.255Z!fsrs,2027-01-06T04:17:22.037Z,207,207.36611416,1,2,6,0,0,2026-06-13T04:17:22.037Z!fsrs,2027-01-06T05:40:19.759Z,207,207.36611416,1,2,6,0,0,2026-06-13T05:40:19.759Z!fsrs,2027-01-04T05:24:34.027Z,205,205.072901,1,2,6,0,0,2026-06-13T05:24:34.027Z!fsrs,2027-01-04T08:34:06.107Z,205,205.072901,1,2,6,0,0,2026-06-13T08:34:06.107Z!fsrs,2027-01-06T07:05:17.328Z,207,207.36611416,1,2,6,0,0,2026-06-13T07:05:17.328Z!fsrs,2027-01-06T05:40:00.184Z,207,207.36611416,1,2,6,0,0,2026-06-13T05:40:00.184Z!fsrs,2026-12-05T08:31:31.912Z,175,175.47740066,1,2,5,0,0,2026-06-13T08:31:31.912Z!fsrs,2027-01-04T05:39:44.377Z,205,205.072901,1,2,6,0,0,2026-06-13T05:39:44.377Z!fsrs,2027-01-02T04:37:12.746Z,203,202.67919031,1,2,6,0,0,2026-06-13T04:37:12.746Z!fsrs,2027-01-06T07:09:36.886Z,207,207.36611416,1,2,6,0,0,2026-06-13T07:09:36.886Z!fsrs,2026-10-13T05:16:36.458Z,122,122.37098305,1,2,6,0,0,2026-06-13T05:16:36.458Z!fsrs,2027-01-02T08:31:53.343Z,203,202.67919031,1,2,6,0,0,2026-06-13T08:31:53.343Z-->
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Orion Marine plc has a building with carrying amount {@{21 000 000}@} and fair value {@{16 000 000}@}. A note payable has carrying amount {@{20 000 000}@}. The lender agrees to accept the building in full settlement of the note.
 >
 > | {@{Remeasure building to fair value}@} | Dr              | Cr              |

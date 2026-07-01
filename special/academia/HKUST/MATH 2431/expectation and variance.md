@@ -10,7 +10,9 @@ tags:
 
 # expectation and variance
 
-Expectation extracts the average size of a random quantity from its law, while variance, covariance, and the standard deviation quantify how widely a random quantity fluctuates. In the second half of the course these notions become structural tools: they feed directly into Markov-type bounds, covariance computations, and the law of large numbers.
+Expectation extracts the average size of a random quantity from its law, while variance, covariance, and the standard deviation quantify how widely a random quantity fluctuates.
+
+In the second half of the course these notions become structural tools: they feed directly into Markov-type bounds, covariance computations, and the law of large numbers.
 
 ---
 
@@ -21,9 +23,7 @@ Flashcards for this section are as follows:
 ## alternative definition via discretization
 
 <!-- Added from PDF: Lemma 6.3, Def 6.4, pages 49--51 -->
-One may also define expectation without direct recourse to densities or sums by first treating simple (finite-range) variables, then extending via discretization. For a nonnegative random variable $X$, set
-$$X_n = 2^{-n} \lfloor 2^n X \rfloor.$$
-Each $X_n$ is simple (it takes only dyadic rational values), so its expectation $E[X_n]$ is defined as a finite sum. Moreover $X_n \uparrow X$ pointwise, and one defines $E[X] = \lim_{n\to\infty} E[X_n]$, which exists as an extended real number (possibly $\infty$). For general (possibly signed) $X$, split $X = X^+ - X^-$ with $X^+ = \max\{X,0\}$, $X^- = \max\{-X,0\}$; the expectation is defined when at least one of $E[X^+]$, $E[X^-]$ is finite, and is finite when both are finite.
+One may also define expectation without direct recourse to densities or sums by first treating simple (finite-range) variables, then extending via discretization. For a nonnegative random variable $X$, set $$X_n = 2^{-n} \lfloor 2^n X \rfloor.$$ Each $X_n$ is simple (it takes only dyadic rational values), so its expectation $E[X_n]$ is defined as a finite sum. Moreover $X_n \uparrow X$ pointwise, and one defines $E[X] = \lim_{n\to\infty} E[X_n]$, which exists as an extended real number (possibly $\infty$). For general (possibly signed) $X$, split $X = X^+ - X^-$ with $X^+ = \max\{X,0\}$, $X^- = \max\{-X,0\}$; the expectation is defined when at least one of $E[X^+]$, $E[X^-]$ is finite, and is finite when both are finite.
 
 The tail-sum and density formulas are consequences of this discretization (or of the layer-cake representation), so all approaches are equivalent.
 
@@ -32,10 +32,10 @@ The tail-sum and density formulas are consequences of this discretization (or of
 Flashcards for this section are as follows:
 
 - alternative definition via discretization / purpose ::@:: Instead of defining expectation separately for discrete sums and continuous integrals, one first defines it for simple variables, then extends via dyadic discretization $X_n = 2^{-n}\lfloor 2^n X\rfloor$. This gives a unified definition that works for any random variable. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- dyadic discretization / construction for $X\ge0$ ::@:: $X_n = 2^{-n}\lfloor 2^n X\rfloor$. At each $\omega$, $X_n(\omega)$ rounds $X(\omega)$ down to the nearest dyadic rational $k/2^n$ ($k\in\mathbb N_0$), so $X_n$ is simple (finite range). As $n\to\infty$, $X_n\uparrow X$ pointwise. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- expectation via discretization / definition for $X\ge0$ ::@:: $E[X] = \lim_{n\to\infty} E[X_n]$ where $X_n=2^{-n}\lfloor 2^n X\rfloor$. The limit exists in $[0,\infty]$ (monotone convergence of the simple-function expectations). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- expectation via discretization / extension to signed $X$ ::@:: Split $X = X^+ - X^-$ where $X^+=\max\{X,0\}$, $X^-=\max\{-X,0\}$. Define $E[X] = E[X^+] - E[X^-]$ provided at least one of $E[X^+]$, $E[X^-]$ is finite (avoids $\infty-\infty$). $E[X]$ is finite iff both $E[X^+]$ and $E[X^-]$ are finite. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- equivalence of expectation definitions ::@:: The tail-sum formula, density integrals, and PMF sums are all consequences of the discretization definition (or the layer-cake representation), so they are consistent: any of these approaches yields the same value of $E[X]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- dyadic discretization / construction for $X\ge0$ ::@:: $X_n = 2^{-n}\lfloor 2^n X\rfloor$. At each $\omega$, $X_n(\omega)$ rounds $X(\omega)$ down to the nearest dyadic rational $k/2^n$ ($k\in\mathbb N_0$), so $X_n$ is simple (finite range). As $n\to\infty$, $X_n\uparrow X$ pointwise.
+- expectation via discretization / definition for $X\ge0$ ::@:: $E[X] = \lim_{n\to\infty} E[X_n]$ where $X_n=2^{-n}\lfloor 2^n X\rfloor$. The limit exists in $[0,\infty]$ (monotone convergence of the simple-function expectations).
+- expectation via discretization / extension to signed $X$ ::@:: Split $X = X^+ - X^-$ where $X^+=\max\{X,0\}$, $X^-=\max\{-X,0\}$. Define $E[X] = E[X^+] - E[X^-]$ provided at least one of $E[X^+]$, $E[X^-]$ is finite (avoids $\infty-\infty$). $E[X]$ is finite iff both $E[X^+]$ and $E[X^-]$ are finite.
+- expectation definitions / equivalence ::@:: The tail-sum formula, density integrals, and PMF sums are all consequences of the discretization definition (or the layer-cake representation), so they are consistent: any of these approaches yields the same value of $E[X]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## expectation of discrete random variables
 
@@ -81,19 +81,9 @@ Two standard special cases are worth isolating.
 As an example, if $X\sim \mathrm{Pois}(\lambda)$, then $E[e^{tX}]=\sum_{k=0}^{\infty} e^{tk}e^{-\lambda}\frac{\lambda^k}{k!}=\exp(\lambda(e^t-1))$, which is the moment generating function of the Poisson law.
 
 <!-- Added from PDF: Example 6.6(ix), page 55 -->
-__Example (nonexistent expectation: Cauchy).__ Let $X$ have the standard Cauchy density
-$$f_X(x) = \frac{1}{\pi}\cdot\frac{1}{1+x^2}, \qquad x \in \mathbb R.$$
-Then
-$$E[|X|] = \frac{2}{\pi}\int_0^\infty \frac{x}{1+x^2}\,dx
-        = \frac{2}{\pi}\left[ \frac{1}{2}\ln(1+x^2)\right]_0^\infty
-        = \infty,$$
-so the absolute expectation is infinite and $E[X]$ is defined _not to exist_ under the Lebesgue integral definition. (The improper Riemann integral $\lim_{a\to\infty}\int_{-a}^{a} x f_X(x)\,dx$ converges to $0$ by symmetry, but this Cauchy principal value does not satisfy the requirement $\int |x| f_X(x)\,dx < \infty$.)
+__Example (nonexistent expectation: Cauchy).__ Let $X$ have the standard Cauchy density $$f_X(x) = \frac{1}{\pi}\cdot\frac{1}{1+x^2}, \qquad x \in \mathbb R.$$ Then $$E[|X|] = \frac{2}{\pi}\int_0^\infty \frac{x}{1+x^2}\,dx = \frac{2}{\pi}\left[ \frac{1}{2}\ln(1+x^2)\right]_0^\infty = \infty,$$ so the absolute expectation is infinite and $E[X]$ is defined _not to exist_ under the Lebesgue integral definition. (The improper Riemann integral $\lim_{a\to\infty}\int_{-a}^{a} x f_X(x)\,dx$ converges to $0$ by symmetry, but this Cauchy principal value does not satisfy the requirement $\int |x| f_X(x)\,dx < \infty$.)
 
-The failure can also be seen from the tail-sum formula: for $t>0$,
-$$P(X > t) = \frac{1}{\pi}\int_t^\infty \frac{dx}{1+x^2}
-          = \frac{1}{\pi}\bigl(\tfrac{\pi}{2} - \arctan t\bigr)
-          \sim \frac{1}{\pi t} \quad \text{as } t\to\infty,$$
-so $\int_0^\infty P(X > t)\,dt$ diverges logarithmically.
+The failure can also be seen from the tail-sum formula: for $t>0$, $$P(X > t) = \frac{1}{\pi}\int_t^\infty \frac{dx}{1+x^2} = \frac{1}{\pi}\bigl(\tfrac{\pi}{2} - \arctan t\bigr) \sim \frac{1}{\pi t} \quad \text{as } t\to\infty,$$ so $\int_0^\infty P(X > t)\,dt$ diverges logarithmically.
 
 ---
 
@@ -105,11 +95,12 @@ Flashcards for this section are as follows:
 - moment definition: For $k\in\mathbb N$, what is the (raw) moment of order $k$ of $X$? ::@:: $E[X^k]$, provided $E[|X|^k]<\infty$. The first moment ($k=1$) is the mean; the second ($k=2$) feeds into $\operatorname{Var}(X)=E[X^2]-(E[X])^2$.
 - Poisson moment generating function: If $X\sim\mathrm{Pois}(\lambda)$, what is $E[e^{tX}]$, i.e. the MGF $M_X(t)$? ::@:: $E[e^{tX}]=\sum_{k=0}^\infty e^{tk}e^{-\lambda}\lambda^k/k!=\exp(\lambda(e^t-1))$, valid for all $t\in\mathbb R$.
 - expectation may not exist / Cauchy counterexample ::@:: The standard Cauchy distribution has $E[|X|]=\infty$, so $E[X]$ does not exist under the Lebesgue definition (even though the principal-value Riemann integral $\lim_{a\to\infty}\int_{-a}^{a}x f_X(x)dx=0$ by symmetry). Absolute integrability $\int_{-\infty}^{\infty}|x|f_X(x)dx<\infty$ is required for existence. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+
 ## linearity of expectation
 
 The key algebraic fact is that expectation is linear: $E[aX+bY+c]=aE[X]+bE[Y]+c$ whenever the expectations exist.
 
-**Proof.** In the discrete case this follows by distributing the sum over the probability weights; in the continuous case it follows by linearity of the integral. No independence assumption is needed.
+__Proof.__ In the discrete case this follows by distributing the sum over the probability weights; in the continuous case it follows by linearity of the integral. No independence assumption is needed.
 
 This is why indicator decompositions are powerful. If $X=\sum_{j=1}^n \mathbf 1_{A_j}$ counts how many events occur, then $E[X]=\sum_{j=1}^n P[A_j]$.
 
@@ -122,16 +113,14 @@ Since $\pi$ is uniform, position $i$ is equally likely to contain any of the $n$
 The intuition is symmetry: every position has the same chance $1/n$ of being fixed, and linearity lets us add the $n$ identical contributions without worrying about the complicated dependencies among the indicators. Note that the distribution of $X$ is not concentrated around $1$ — for large $n$, the probability of no fixed points tends to $1/e\approx0.368$ — but linearity alone suffices to obtain the exact expectation.
 
 <!-- Added from PDF: Example 6.1, page 49 -->
-**Example (die game).** A fair die is rolled. If the outcome is $i$, the player receives a payout of $x \cdot i$ dollars; the cost to play is $c$ dollars. The net gain is $G = x D - c$, where $D$ is the face value of the die. The expected gain is
-$$E[G] = x \cdot \frac{1+2+3+4+5+6}{6} - c = x \cdot \frac{21}{6} - c = 3.5 x - c.$$
-The game is _fair_ when $E[G] = 0$, i.e. $3.5 x = c$. For instance, $x = 2$ and $c = 7$ yields a fair game. The problem illustrates how linearity of expectation reduces a random-payout computation to a simple weighted sum.
+__Example (die game).__ A fair die is rolled. If the outcome is $i$, the player receives a payout of $x \cdot i$ dollars; the cost to play is $c$ dollars. The net gain is $G = x D - c$, where $D$ is the face value of the die. The expected gain is $$E[G] = x \cdot \frac{1+2+3+4+5+6}{6} - c = x \cdot \frac{21}{6} - c = 3.5 x - c.$$ The game is _fair_ when $E[G] = 0$, i.e. $3.5 x = c$. For instance, $x = 2$ and $c = 7$ yields a fair game. The problem illustrates how linearity of expectation reduces a random-payout computation to a simple weighted sum.
 
 ---
 
 Flashcards for this section are as follows:
 
 - linearity of expectation: If the expectations exist, what is $E[aX+bY+c]$? ::@:: $E[aX+bY+c]=aE[X]+bE[Y]+c$. Linearity works for any finite linear combination; no independence is required.
-- linearity needs no independence: What hypothesis is *not* needed for $E[X+Y]=E[X]+E[Y]$? ::@:: No independence assumption is needed.
+- linearity needs no independence: What hypothesis is _not_ needed for $E[X+Y]=E[X]+E[Y]$? ::@:: No independence assumption is needed.
 - indicator decomposition: If $X=\sum_{j=1}^n\mathbf 1_{A_j}$ counts events, what is $E[X]$? ::@:: $E[X]=\sum_{j=1}^n P[A_j]$ by linearity of expectation.
 - fixed points in random permutation: In a uniform random permutation of $\{1,\dots,n\}$, what is the expected number of fixed points, and what is the derivation? ::@:: 1. Let $I_i=\mathbf 1_{\{\pi(i)=i\}}$; then $X=\sum_{i=1}^n I_i$ and $E[X]=\sum_{i=1}^n P[\pi(i)=i]=n\cdot1/n=1$ by linearity. Each position is equally likely to contain any element, so $P[\pi(i)=i]=1/n$.
 - die game / expected gain and fair condition ::@:: Roll a fair die, payout $x$ times face value $D$, cost $c$. Net gain $G=xD-c$, expected gain $E[G]=3.5x-c$. The game is fair when $c=3.5x$ ($E[G]=0$). This illustrates linearity: $E[G]=xE[D]-c$ with $E[D]=3.5$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
@@ -140,7 +129,7 @@ Flashcards for this section are as follows:
 
 For a square-integrable random variable, $\operatorname{Var}(X)=E[(X-E[X])^2]$ and $\operatorname{sd}(X)=\sqrt{\operatorname{Var}(X)}$. Expanding the square gives the computational identity $\operatorname{Var}(X)=E[X^2]-(E[X])^2$.
 
-**Proof.** One has $E[(X-E[X])^2]=E[X^2]-2E[X]E[X]+(E[X])^2=E[X^2]-(E[X])^2$.
+__Proof.__ One has $E[(X-E[X])^2]=E[X^2]-2E[X]E[X]+(E[X])^2=E[X^2]-(E[X])^2$.
 
 Since the left-hand side is the expectation of a nonnegative variable, variance is always nonnegative, and it vanishes exactly when $X=E[X]$ almost surely.
 
@@ -157,9 +146,8 @@ Important examples are:
 - $X\sim U(a,b)$: $E[X]=(a+b)/2$, $\operatorname{Var}(X)=(b-a)^2/12$.
 
 <!-- Added from PDF: Corollary 7.30, page 67 -->
-**Bienaymé formula.** For square-integrable random variables $X_1,\dots,X_n$,
-$$\operatorname{Var}\!\left(\sum_{i=1}^n X_i\right) = \sum_{i=1}^n \operatorname{Var}(X_i) + \sum_{i \neq j} \operatorname{Cov}(X_i, X_j),$$
-where the double sum runs over all ordered pairs with $i \neq j$.
+__Bienaymé formula.__ For square-integrable random variables $X_1,\dots,X_n$, $$\operatorname{Var}\!\left(\sum_{i=1}^n X_i\right) = \sum_{i=1}^n \operatorname{Var}(X_i) + \sum_{i \neq j} \operatorname{Cov}(X_i, X_j),$$ where the double sum runs over all ordered pairs with $i \neq j$.
+
 When the variables are independent, all covariance terms vanish and the formula reduces to $\operatorname{Var}(\sum_{i=1}^n X_i) = \sum_{i=1}^n \operatorname{Var}(X_i)$. The $n=2$ case gives the familiar identity $\operatorname{Var}(X+Y) = \operatorname{Var}X + \operatorname{Var}Y + 2\operatorname{Cov}(X,Y)$.
 
 ---
@@ -210,51 +198,51 @@ Flashcards for this section are as follows:
 
 The first universal tail estimate is Markov's inequality.
 
-**Theorem (Markov).** If $Y\ge 0$ and $c>0$, then $P[Y\ge c]\le E[Y]/c$.
+__Theorem (Markov).__ If $Y\ge 0$ and $c>0$, then $P[Y\ge c]\le E[Y]/c$.
 
-**Proof.** Since $Y\ge c\mathbf 1_{\{Y\ge c\}}$, taking expectation yields $E[Y]\ge cP[Y\ge c]$.
+__Proof.__ Since $Y\ge c\mathbf 1_{\{Y\ge c\}}$, taking expectation yields $E[Y]\ge cP[Y\ge c]$.
 
-**Intuition.** Markov is the foundational engine — every tail bound in this section derives from it. Because it only requires nonnegativity and the first moment, it is the crudest bound but also the most widely applicable.
+__Intuition.__ Markov is the foundational engine — every tail bound in this section derives from it. Because it only requires nonnegativity and the first moment, it is the crudest bound but also the most widely applicable.
 
 A direct consequence is Chebyshev's inequality.
 
-**Theorem (Chebyshev).** For $a>0$, $P(|X-E[X]|\ge a)\le \operatorname{Var}(X)/a^2$.
+__Theorem (Chebyshev).__ For $a>0$, $P(|X-E[X]|\ge a)\le \operatorname{Var}(X)/a^2$.
 
-**Proof.** Apply Markov to the nonnegative variable $(X-E[X])^2$ with threshold $a^2$.
+__Proof.__ Apply Markov to the nonnegative variable $(X-E[X])^2$ with threshold $a^2$.
 
-**Intuition.** Chebyshev trades variance for a symmetric two-sided tail bound. The bound $1/k^2$ on the $k\sigma$ tail is universal — it holds for any distribution with finite variance — but course Remark 6.16 notes it is often extremely crude compared to the true tail (e.g., for a normal distribution Chebyshev gives $P(|Z|\ge 5)\le 1/25$, while the true probability is about $6\times10^{-7}$).
+__Intuition.__ Chebyshev trades variance for a symmetric two-sided tail bound. The bound $1/k^2$ on the $k\sigma$ tail is universal — it holds for any distribution with finite variance — but course Remark 6.16 notes it is often extremely crude compared to the true tail (e.g., for a normal distribution Chebyshev gives $P(|Z|\ge 5)\le 1/25$, while the true probability is about $6\times10^{-7}$).
 
 Applying Markov to $e^{tX}$ instead yields Chernoff-type bounds, which later combine naturally with generating functions.
 
 A one-sided refinement of Chebyshev is Cantelli's inequality.
 
-**Theorem (Cantelli).** For $a>0$, $P(X-E[X]\ge a)\le \dfrac{\operatorname{Var}(X)}{\operatorname{Var}(X)+a^2}$.
+__Theorem (Cantelli).__ For $a>0$, $P(X-E[X]\ge a)\le \dfrac{\operatorname{Var}(X)}{\operatorname{Var}(X)+a^2}$.
 
-**Proof.** Let $Y=X-E[X]$ (so $E[Y]=0$) and fix any $t\ge0$. Then $P(Y\ge a)=P(Y+t\ge a+t)\le P((Y+t)^2\ge(a+t)^2)\le E[(Y+t)^2]/(a+t)^2$, where the last step is Markov applied to $(Y+t)^2\ge0$. Expanding the numerator gives $E[(Y+t)^2]=\operatorname{Var}(X)+t^2$ (since $E[Y]=0$). Hence $P(Y\ge a)\le(\operatorname{Var}(X)+t^2)/(a+t)^2$ for every $t\ge0$.
+__Proof.__ Let $Y=X-E[X]$ (so $E[Y]=0$) and fix any $t\ge0$. Then $P(Y\ge a)=P(Y+t\ge a+t)\le P((Y+t)^2\ge(a+t)^2)\le E[(Y+t)^2]/(a+t)^2$, where the last step is Markov applied to $(Y+t)^2\ge0$. Expanding the numerator gives $E[(Y+t)^2]=\operatorname{Var}(X)+t^2$ (since $E[Y]=0$). Hence $P(Y\ge a)\le(\operatorname{Var}(X)+t^2)/(a+t)^2$ for every $t\ge0$.
 
 Minimising the right side over $t\ge0$ (set derivative to zero) gives $t=\operatorname{Var}(X)/a$, and substituting back yields the stated bound $\operatorname{Var}(X)/(\operatorname{Var}(X)+a^2)$.
 
-**Intuition.** Chebyshev bounds the two-sided tail $P(|Y|\ge a)$; if the distribution is asymmetric the upper tail may deserve a tighter estimate. Cantelli introduces a free parameter $t\ge0$ that shifts the variable, optimising the Markov step and improving the denominator from $a^2$ to $\operatorname{Var}+a^2$. The bound is tight: equality holds for two-point distributions supported on $\{-\sigma^2/a,\,a\}$, where $\sigma^2=\operatorname{Var}(X)$ and $P(X=a)=\sigma^2/(\sigma^2+a^2)$, $P(X=-\sigma^2/a)=a^2/(\sigma^2+a^2)$. (Then $E[X]=0$, $\operatorname{Var}(X)=\sigma^2$, and $P(X\ge a)=\sigma^2/(\sigma^2+a^2)$, matching the Cantelli bound.)
+__Intuition.__ Chebyshev bounds the two-sided tail $P(|Y|\ge a)$; if the distribution is asymmetric the upper tail may deserve a tighter estimate. Cantelli introduces a free parameter $t\ge0$ that shifts the variable, optimising the Markov step and improving the denominator from $a^2$ to $\operatorname{Var}+a^2$. The bound is tight: equality holds for two-point distributions supported on $\{-\sigma^2/a,\,a\}$, where $\sigma^2=\operatorname{Var}(X)$ and $P(X=a)=\sigma^2/(\sigma^2+a^2)$, $P(X=-\sigma^2/a)=a^2/(\sigma^2+a^2)$. (Then $E[X]=0$, $\operatorname{Var}(X)=\sigma^2$, and $P(X\ge a)=\sigma^2/(\sigma^2+a^2)$, matching the Cantelli bound.)
 
 Convexity produces a second family of structural inequalities.
 
-**Theorem (Jensen).** If $\varphi$ is convex and $X$ is integrable, then $\varphi(E[X])\le E[\varphi(X)]$.
+__Theorem (Jensen).__ If $\varphi$ is convex and $X$ is integrable, then $\varphi(E[X])\le E[\varphi(X)]$.
 
-**Proof.** Every convex function admits a supporting line at each interior point: for $m=E[X]$ there exists $\alpha$ such that $\varphi(x)\ge\varphi(m)+\alpha(x-m)$ for all $x$. Substitute $x=X$ and take expectations.
+__Proof.__ Every convex function admits a supporting line at each interior point: for $m=E[X]$ there exists $\alpha$ such that $\varphi(x)\ge\varphi(m)+\alpha(x-m)$ for all $x$. Substitute $x=X$ and take expectations.
 
-**Intuition.** The line through $(m,\varphi(m))$ stays below the graph of $\varphi$; replacing the random input $X$ by its mean $m$ can only decrease the average value of $\varphi$. For concave $\varphi$ the inequality reverses, as with $\log$ in Jensen's inequality for entropy.
+__Intuition.__ The line through $(m,\varphi(m))$ stays below the graph of $\varphi$; replacing the random input $X$ by its mean $m$ can only decrease the average value of $\varphi$. For concave $\varphi$ the inequality reverses, as with $\log$ in Jensen's inequality for entropy.
 
-**Theorem (Hölder).** If $p,q>1$ satisfy $1/p+1/q=1$, then $E[|XY|]\le(E[|X|^p])^{1/p}(E[|Y|^q])^{1/q}$.
+__Theorem (Hölder).__ If $p,q>1$ satisfy $1/p+1/q=1$, then $E[|XY|]\le(E[|X|^p])^{1/p}(E[|Y|^q])^{1/q}$.
 
-**Intuition.** The idea is to normalize $X$ and $Y$ by their $L^p$ and $L^q$ norms so that the scaled variables have unit $p$-th and $q$-th moments: $E[|a|^p]=E[|b|^q]=1$. Then Young's inequality $ab\le a^p/p+b^q/q$ becomes, after taking expectation, $E[ab]\le1/p+1/q=1$, which directly gives the Hölder bound. The normalization is the key trick that aligns the probabilistic expectations with the unit condition in Young's inequality.
+__Intuition.__ The idea is to normalize $X$ and $Y$ by their $L^p$ and $L^q$ norms so that the scaled variables have unit $p$-th and $q$-th moments: $E[|a|^p]=E[|b|^q]=1$. Then Young's inequality $ab\le a^p/p+b^q/q$ becomes, after taking expectation, $E[ab]\le1/p+1/q=1$, which directly gives the Hölder bound. The normalization is the key trick that aligns the probabilistic expectations with the unit condition in Young's inequality.
 
-**Proof.** Young's inequality $ab\le a^p/p+b^q/q$ for $a,b\ge0$ is the key. Set $a=|X|/\|X\|_p$ and $b=|Y|/\|Y\|_q$ where $\|X\|_p=(E[|X|^p])^{1/p}$. Then $|XY|/(\|X\|_p\|Y\|_q)\le |X|^p/(p\|X\|_p^p)+|Y|^q/(q\|Y\|_q^q)$. Take expectations; the right side becomes $1/p+1/q=1$, giving $E[|XY|]\le\|X\|_p\|Y\|_q$.
+__Proof.__ Young's inequality $ab\le a^p/p+b^q/q$ for $a,b\ge0$ is the key. Set $a=|X|/\|X\|_p$ and $b=|Y|/\|Y\|_q$ where $\|X\|_p=(E[|X|^p])^{1/p}$. Then $|XY|/(\|X\|_p\|Y\|_q)\le |X|^p/(p\|X\|_p^p)+|Y|^q/(q\|Y\|_q^q)$. Take expectations; the right side becomes $1/p+1/q=1$, giving $E[|XY|]\le\|X\|_p\|Y\|_q$.
 
 The special case $p=q=2$ is the Cauchy-Schwarz inequality: $|E[XY]|\le\sqrt{E[X^2]E[Y^2]}$.
 
-**Alternative proof (Cauchy-Schwarz).** Consider $0\le E[(X-\lambda Y)^2]=E[X^2]-2\lambda E[XY]+\lambda^2E[Y^2]$ as a quadratic in $\lambda$. The discriminant must be nonpositive: $(2E[XY])^2-4E[X^2]E[Y^2]\le0$, hence $|E[XY]|\le\sqrt{E[X^2]E[Y^2]}$.
+__Alternative proof (Cauchy-Schwarz).__ Consider $0\le E[(X-\lambda Y)^2]=E[X^2]-2\lambda E[XY]+\lambda^2E[Y^2]$ as a quadratic in $\lambda$. The discriminant must be nonpositive: $(2E[XY])^2-4E[X^2]E[Y^2]\le0$, hence $|E[XY]|\le\sqrt{E[X^2]E[Y^2]}$.
 
-**Intuition for Hölder/CS.** These inequalities control product moments via $L^p$ and $L^2$ norms. They are the probabilistic analogue of $|\langle u,v\rangle|\le\|u\|\|v\|$ in inner product spaces. Hölder is needed because $E[X]$ and $E[Y]$ finite alone does **not** guarantee $E[XY]$ finite (e.g. $X=Y$ with $P[X=n]=1/(c_3n^3)$, $c_3=\sum n^{-3}$, satisfies $E[X]<\infty$ but $E[X^2]=\infty$).
+__Intuition for Hölder/CS.__ These inequalities control product moments via $L^p$ and $L^2$ norms. They are the probabilistic analogue of $|\langle u,v\rangle|\le\|u\|\|v\|$ in inner product spaces. Hölder is needed because $E[X]$ and $E[Y]$ finite alone does __not__ guarantee $E[XY]$ finite (e.g. $X=Y$ with $P[X=n]=1/(c_3n^3)$, $c_3=\sum n^{-3}$, satisfies $E[X]<\infty$ but $E[X^2]=\infty$).
 
 ---
 
@@ -280,36 +268,36 @@ Flashcards for this section are as follows:
 
 The six inequalities above are not isolated facts. They form a natural hierarchy.
 
-- **Markov is the engine.** Every tail bound — Chebyshev, Cantelli, Chernoff — begins by applying Markov to a transformed variable $(X-E[X])^2$, $(Y+t)^2$, or $e^{tX}$. The trade-off is moment information versus tail sharpness.
+- __Markov is the engine.__ Every tail bound — Chebyshev, Cantelli, Chernoff — begins by applying Markov to a transformed variable $(X-E[X])^2$, $(Y+t)^2$, or $e^{tX}$. The trade-off is moment information versus tail sharpness.
 
-- **Chebyshev specialises Markov to variance.** Squaring converts second-moment information into a two-sided tail bound. The bound is symmetric: upper and lower tails get the same estimate.
+- __Chebyshev specialises Markov to variance.__ Squaring converts second-moment information into a two-sided tail bound. The bound is symmetric: upper and lower tails get the same estimate.
 
-- **Cantelli refines Chebyshev for one-sided tails.** An optimisation parameter $t$ improves $\operatorname{Var}/a^2$ to $\operatorname{Var}/(\operatorname{Var}+a^2)$. The improvement is largest when $\operatorname{Var}\ll a^2$.
+- __Cantelli refines Chebyshev for one-sided tails.__ An optimisation parameter $t$ improves $\operatorname{Var}/a^2$ to $\operatorname{Var}/(\operatorname{Var}+a^2)$. The improvement is largest when $\operatorname{Var}\ll a^2$.
 
-- **Chernoff refines Markov through the MGF.** Exponentiation turns Markov into $P[X\ge a]\le e^{-ta}M_X(t)$. Optimising over $t>0$ gives exponentially decaying bounds — far sharper than Chebyshev — at the cost of requiring the moment generating function.
+- __Chernoff refines Markov through the MGF.__ Exponentiation turns Markov into $P[X\ge a]\le e^{-ta}M_X(t)$. Optimising over $t>0$ gives exponentially decaying bounds — far sharper than Chebyshev — at the cost of requiring the moment generating function.
 
-- **Jensen is orthogonal.** Tail bounds control large-deviation probabilities; Jensen controls how convex functions interact with expectation. They answer different questions and are used in different settings.
+- __Jensen is orthogonal.__ Tail bounds control large-deviation probabilities; Jensen controls how convex functions interact with expectation. They answer different questions and are used in different settings.
 
-- **Hölder/CS control product moments**, not tail probabilities. They are the $L^p$ analogues of the geometric bound $|\langle u,v\rangle|\le\|u\|\|v\|$, used to decouple dependent variables in moment estimates.
+- __Hölder/CS control product moments__, not tail probabilities. They are the $L^p$ analogues of the geometric bound $|\langle u,v\rangle|\le\|u\|\|v\|$, used to decouple dependent variables in moment estimates.
 
 ---
 
 Flashcards for this section are as follows:
 
-- Markov as engine: Why is Markov called the engine of tail bounds? ::@:: Every tail bound — Chebyshev, Cantelli, Chernoff — begins by applying Markov to a transformed variable $(X-E[X])^2$, $(Y+t)^2$, or $e^{tX}$.
-- Chebyshev vs Markov: How does Chebyshev specialise Markov? ::@:: Chebyshev applies Markov to $(X-E[X])^2$, converting second-moment information into a two-sided symmetric tail bound $P(|X-E[X]|\ge a)\le\operatorname{Var}(X)/a^2$.
-- Cantelli vs Chebyshev: How does Cantelli improve Chebyshev for one-sided tails? ::@:: Cantelli introduces an optimisation parameter $t$, improving $\operatorname{Var}/a^2$ to $\operatorname{Var}/(\operatorname{Var}+a^2)$; the improvement is largest when $\operatorname{Var}\ll a^2$.
-- Chernoff vs Markov: How does Chernoff refine Markov to get sharper bounds? ::@:: Chernoff applies Markov to $e^{tX}$: $P[X\ge a]\le e^{-ta}M_X(t)$, then optimises over $t>0$ for exponentially decaying bounds at the cost of requiring the MGF.
+- Markov as engine: Why is Markov called the engine of tail bounds? ::@:: Every tail bound — Chebyshev, Cantelli, Chernoff — begins by applying Markov to a transformed variable $(X-E[X])^2$, $(Y+t)^2$, or $e^{tX}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Chebyshev vs Markov: How does Chebyshev specialise Markov? ::@:: Chebyshev applies Markov to $(X-E[X])^2$, converting second-moment information into a two-sided symmetric tail bound $P(|X-E[X]|\ge a)\le\operatorname{Var}(X)/a^2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Cantelli vs Chebyshev: How does Cantelli improve Chebyshev for one-sided tails? ::@:: Cantelli introduces an optimisation parameter $t$, improving $\operatorname{Var}/a^2$ to $\operatorname{Var}/(\operatorname{Var}+a^2)$; the improvement is largest when $\operatorname{Var}\ll a^2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Chernoff vs Markov: How does Chernoff refine Markov to get sharper bounds? ::@:: Chernoff applies Markov to $e^{tX}$: $P[X\ge a]\le e^{-ta}M_X(t)$, then optimises over $t>0$ for exponentially decaying bounds at the cost of requiring the MGF. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - Jensen vs tail bounds: How do Jensen and tail bounds differ? ::@:: Tail bounds control large-deviation probabilities; Jensen controls how convex/concave functions interact with expectation — they answer different questions.
-- Hölder/CS purpose: What do Hölder/CS inequalities control? ::@:: Product moments via $L^p$ and $L^2$ norms — the $L^p$ analogues of $|\langle u,v\rangle|\le\|u\|\|v\|$ in inner product spaces, used to decouple dependent variables.
+- Hölder/CS purpose: What do Hölder/CS inequalities control? ::@:: Product moments via $L^p$ and $L^2$ norms — the $L^p$ analogues of $|\langle u,v\rangle|\le\|u\|\|v\|$ in inner product spaces, used to decouple dependent variables. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### moment comparison
 
 A useful consequence of the inequalities above is that $L^p$ norms increase with $p$: for $0<r<s$, one has $\|X\|_r\le\|X\|_s$, i.e. $(E[|X|^r])^{1/r}\le(E[|X|^s])^{1/s}$. This can be proved in two ways.
 
-**Proof via Hölder.** Apply Hölder's inequality to $|X|^r\cdot1$ with $p=s/r>1$ and $q=p/(p-1)=s/(s-r)$ (so $1/p+1/q=r/s+(s-r)/s=1$). Then $$E[|X|^r]\le(E[(|X|^r)^{s/r}])^{r/s}(E[1^{s/(s-r)}])^{(s-r)/s}=(E[|X|^s])^{r/s}.$$ Taking $r$-th roots gives $(E[|X|^r])^{1/r}\le(E[|X|^s])^{1/s}$.
+__Proof via Hölder.__ Apply Hölder's inequality to $|X|^r\cdot1$ with $p=s/r>1$ and $q=p/(p-1)=s/(s-r)$ (so $1/p+1/q=r/s+(s-r)/s=1$). Then $$E[|X|^r]\le(E[(|X|^r)^{s/r}])^{r/s}(E[1^{s/(s-r)}])^{(s-r)/s}=(E[|X|^s])^{r/s}.$$ Taking $r$-th roots gives $(E[|X|^r])^{1/r}\le(E[|X|^s])^{1/s}$.
 
-**Proof via Jensen.** Since $s/r>1$, the function $\varphi(x)=|x|^{s/r}$ is convex on $\mathbb R$. By Jensen's inequality, $$\varphi(E[|X|^r])\le E[\varphi(|X|^r)],\quad\text{i.e.}\quad(E[|X|^r])^{s/r}\le E[|X|^s].$$ Raising both sides to $1/s$ gives $(E[|X|^r])^{1/r}\le(E[|X|^s])^{1/s}$.
+__Proof via Jensen.__ Since $s/r>1$, the function $\varphi(x)=|x|^{s/r}$ is convex on $\mathbb R$. By Jensen's inequality, $$\varphi(E[|X|^r])\le E[\varphi(|X|^r)],\quad\text{i.e.}\quad(E[|X|^r])^{s/r}\le E[|X|^s].$$ Raising both sides to $1/s$ gives $(E[|X|^r])^{1/r}\le(E[|X|^s])^{1/s}$.
 
 ---
 

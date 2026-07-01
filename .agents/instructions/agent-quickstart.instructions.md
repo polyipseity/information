@@ -12,7 +12,7 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
    - Enable `chat.useAgentsMdFile = true` and `chat.useAgentSkills = true` in the IDE to let agent skills and the root `AGENTS.md` guide behavior.
    - Consult individual `SKILL.md` frontmatter for skill metadata. Allowed keys are `name`, `description` plus the small set of optional fields documented in `.agents/skills/README.md`. Instruction files only support `name`, `description`, and `applyTo`.
 
-     > **Warning:** `applyTo` is no longer valid in skill files. Do not include it when creating new skills; it remains allowed in instruction files only.
+     > __Warning:__ `applyTo` is no longer valid in skill files. Do not include it when creating new skills; it remains allowed in instruction files only.
 
 2. First commands (safe startup)
    - `bun install` # installs Node deps and triggers Python dev extras install
@@ -33,18 +33,18 @@ Repository gotchas & quick tips
   line only, creates two cards), and one-sided pairs `:@:` (one line only,
   single card). These are parsed automatically; do not reflow, escape, or
   split them across lines.
-- Async code should **not** import or use `asyncio` directly. The project is
+- Async code should __not__ import or use `asyncio` directly. The project is
   migrating to AnyIO for cross-platform structured concurrency; new code
-  should use `anyio` idioms and the helper library **Asyncer** for enhanced
+  should use `anyio` idioms and the helper library __Asyncer__ for enhanced
   editor and typing support. Key Asyncer helpers include:
   - `create_task_group` – structured concurrency (preferred over
     `anyio.create_task_group`).
   - `soonify` – schedule concurrent calls and optionally obtain return
     values (`SoonValue` objects with `.value`/`.ready`).
-  - `runnify` – wrap an async function for synchronous use. **All Python
+  - `runnify` – wrap an async function for synchronous use. __All Python
     scripts and modules use `runnify` for entry points; see
     `.agents/instructions/python-entry-points.instructions.md` for the
-    complete convention.** - `asyncify` – run blocking or CPU-bound sync code in a worker thread
+    complete convention.__ - `asyncify` – run blocking or CPU-bound sync code in a worker thread
     from async context.
   - `syncify` – call async functions from mostly-sync code paths.
     Prefer these utilities over manual event-loop manipulation or custom
@@ -54,7 +54,7 @@ Repository gotchas & quick tips
   and use Asyncer helpers for clearer return-value handling. Add short
   concurrency tests verifying behavior, as shown earlier.
 - Always prefer `bun run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
-- **NEVER `cd` into `.agents/skills/` to run `uv run` commands.** Any `uv run` inside a skill folder will create `.venv/`/`uv.lock` trash there and fail because dependencies are missing. Always run `uv` commands from the **repo root** and reference skill files by absolute or relative-from-root paths. Example: `uv run .agents/skills/academic-notes/check.py ...` or `uv run pytest .agents/skills/academic-notes/tests_a7392be/`.
+- __NEVER `cd` into `.agents/skills/` to run `uv run` commands.__ Any `uv run` inside a skill folder will create `.venv/`/`uv.lock` trash there and fail because dependencies are missing. Always run `uv` commands from the __repo root__ and reference skill files by absolute or relative-from-root paths. Example: `uv run .agents/skills/academic-notes/check.py ...` or `uv run pytest .agents/skills/academic-notes/tests_a7392be/`.
 - When writing shell commands for Python in a PowerShell terminal, use a here-string and pipe into `uv run python -`. For example:
 
   ```powershell
@@ -82,7 +82,7 @@ Repository gotchas & quick tips
    - Run `bun run format` and `bun run check` before committing. Use the Todo List Tool for multi-step changes and show progress.
 
 2. Submodule & sensitive data rules
-   - **Do not** modify `private/` without explicit owner approval; check the submodule `AGENTS.md` first.
+   - __Do not__ modify `private/` without explicit owner approval; check the submodule `AGENTS.md` first.
    - `self/stash/` is not a submodule, but it is still user-owned scratch space; only edit it when the user explicitly asks.
    - Avoid exposing or handling PII unless instructed and explicitly approved by the repository owner.
 

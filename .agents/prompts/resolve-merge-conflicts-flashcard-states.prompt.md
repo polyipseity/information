@@ -12,7 +12,7 @@ Use this prompt when resolving merge conflicts in markdown notes where spaced-re
 
 For each conflicted markdown file:
 
-1. Keep **incoming branch content** as the base resolution.
+1. Keep __incoming branch content__ as the base resolution.
 2. Transfer compatible SR state comments from the current side onto matching incoming lines.
 3. Use similarity matching (default threshold: `0.50`) to find corresponding flashcards.
 4. Discard unmatched SR states.
@@ -27,10 +27,10 @@ For each conflicted markdown file:
 
 ## Hard Rules
 
-- Accept incoming content and discard conflicting current content, **except** transferable SR states.
-- A flashcard is considered corresponding if normalized similarity is **>= threshold**.
+- Accept incoming content and discard conflicting current content, __except__ transferable SR states.
+- A flashcard is considered corresponding if normalized similarity is __>= threshold__.
 - Never modify non-SR text unless required to remove conflict markers.
-- **Do not commit.**
+- __Do not commit.__
 - You may stage resolved files with `git add` when `${input:stage}` is `yes`.
 
 ## Matching Rules (Best Practice)

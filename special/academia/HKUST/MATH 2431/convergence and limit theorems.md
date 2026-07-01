@@ -42,7 +42,7 @@ Flashcards for this section are as follows:
 - continuous mapping for convergence in probability ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $g$ is continuous and $X_n\xrightarrow{p}X$, then $g(X_n)\xrightarrow{p}g(X)$.
 - algebra of convergence in probability ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\to X$, $Y_n\to Y$ in probability, then $X_n\pm Y_n$, $X_nY_n$, $X_n/Y_n$ (when $P(Y=0)=0$), $(X_n,Y_n)$, and $\max/\min/|\cdot|$ all converge accordingly. No constant limit is needed, unlike Slutsky's theorem for convergence in distribution.
 
-## convergence in $p$-th mean
+## convergence in p-th mean
 
 One says that $Z_n\to Z$ in $p$-th mean (for $p\ge1$) if $E[|Z_n|^p]<\infty$ and $E[|Z|^p]<\infty$, and $E[|Z_n-Z|^p]\to0$.
 
@@ -93,17 +93,9 @@ _Proof sketch (forward direction)._ If $X_n\xrightarrow{d} X$, the function $x\m
 
 _Proof sketch (reverse direction)._ Assume $\phi_n(t)\to\phi(t)$ pointwise and $\phi$ is continuous at $0$. Clearly $\phi(0)=\lim_n\phi_n(0)=1$.
 
-__Tail inequality for CFs.__ By Fubini's theorem,
-$$\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt = E\!\left[\,\frac1\delta\int_{-\delta}^\delta(1-e^{itX_n})\,dt\right] = E\!\left[2-\frac{2\sin(\delta X_n)}{\delta X_n}\right].$$
-The function $h(y)=2-2\sin y/y$ satisfies $h(y)\ge1$ for $|y|\ge2$ (since $|\sin y|\le1$ gives $h(y)\ge2-2/|y|\ge1$) and $h(y)\ge0$ elsewhere. Consequently
-$$P(|X_n|>2/\delta)\le E\!\left[2-\frac{2\sin(\delta X_n)}{\delta X_n}\right] = \frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt.$$
+__Tail inequality for CFs.__ By Fubini's theorem, $$\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt = E\!\left[\,\frac1\delta\int_{-\delta}^\delta(1-e^{itX_n})\,dt\right] = E\!\left[2-\frac{2\sin(\delta X_n)}{\delta X_n}\right].$$ The function $h(y)=2-2\sin y/y$ satisfies $h(y)\ge1$ for $|y|\ge2$ (since $|\sin y|\le1$ gives $h(y)\ge2-2/|y|\ge1$) and $h(y)\ge0$ elsewhere. Consequently $$P(|X_n|>2/\delta)\le E\!\left[2-\frac{2\sin(\delta X_n)}{\delta X_n}\right] = \frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt.$$
 
-__Tightness via dominated convergence.__ Continuity of $\phi$ at $0$ gives: for any $\varepsilon>0$, choose $\delta>0$ such that $|1-\phi(t)|<\varepsilon$ for $|t|<\delta$. Then
-$$\frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt \le \frac1\delta\int_{-\delta}^\delta|1-\phi(t)|\,dt < \frac1\delta\cdot2\delta\cdot\varepsilon = 2\varepsilon,$$
-where the first inequality holds because the integral is real (the imaginary part cancels by symmetry $\phi(-t)=\overline{\phi(t)}$).
-For each $n$, $|1-\phi_n(t)|\le2$ (because $|\phi_n(t)|\le1$) and $1-\phi_n(t)\to1-\phi(t)$ pointwise. On $[-\delta,\delta]$, the dominated convergence theorem therefore applies:
-$$\lim_{n\to\infty}\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt = \frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt < 2\varepsilon.$$
-Combining with the tail inequality gives $\limsup_n P(|X_n|>2/\delta)<2\varepsilon$. Since $\varepsilon$ is arbitrary, $\{X_n\}$ is tight.
+__Tightness via dominated convergence.__ Continuity of $\phi$ at $0$ gives: for any $\varepsilon>0$, choose $\delta>0$ such that $|1-\phi(t)|<\varepsilon$ for $|t|<\delta$. Then $$\frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt \le \frac1\delta\int_{-\delta}^\delta|1-\phi(t)|\,dt < \frac1\delta\cdot2\delta\cdot\varepsilon = 2\varepsilon,$$ where the first inequality holds because the integral is real (the imaginary part cancels by symmetry $\phi(-t)=\overline{\phi(t)}$). For each $n$, $|1-\phi_n(t)|\le2$ (because $|\phi_n(t)|\le1$) and $1-\phi_n(t)\to1-\phi(t)$ pointwise. On $[-\delta,\delta]$, the dominated convergence theorem therefore applies: $$\lim_{n\to\infty}\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt = \frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt < 2\varepsilon.$$ Combining with the tail inequality gives $\limsup_n P(|X_n|>2/\delta)<2\varepsilon$. Since $\varepsilon$ is arbitrary, $\{X_n\}$ is tight.
 
 __Subsequence convergence and identification.__ By Prokhorov's theorem, tightness implies relative compactness: every subsequence of $\{X_n\}$ contains a further subsequence $\{X_{n_k}\}$ converging in distribution to some $Q$. The forward direction of Lévy's theorem identifies the CF of $Q$ as $\phi_Q(t)=\lim_k\phi_{n_k}(t)=\phi(t)$. Characteristic functions uniquely determine the law, so every subsequential limit must be the same distribution $P$ (the distribution whose CF is $\phi$). Hence $X_n\xrightarrow{d} P$.
 
@@ -137,7 +129,7 @@ A useful partial converse connects weak convergence with vanishing perturbations
 
 Flashcards for this section are as follows:
 
-- hierarchy of convergence modes / summary ::@:: Almost-sure $\Rightarrow$ in probability $\Rightarrow$ in distribution; $p$-th mean $\Rightarrow$ in probability. No other implications hold in general. <!-- check: ignore-line[no_soft_wrap_list]: flashcard must be single-line -->
+- hierarchy of convergence modes / summary ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Almost-sure $\Rightarrow$ in probability $\Rightarrow$ in distribution; $p$-th mean $\Rightarrow$ in probability. No other implications hold in general.
 - convergence in probability implies weak convergence: If $X_n\to X$ in probability, what can you conclude about $X_n\xrightarrow{d} X$? ::@:: One has $X_n\xrightarrow{d} X$.
 - vanishing product: $X_n\xrightarrow{d} X$ and $Y_n\to_P0$ imply $X_nY_n\to_P0$ ::@:: If $X_n\xrightarrow{d} X$ and $Y_n\to0$ in probability, then $X_nY_n\to0$ in probability.
 
@@ -317,10 +309,7 @@ __Strong-law proof (subsequence method).__ Assume first that the $X_j$ are bound
 
 _Step 1 — convergence on a subsequence._ Take $n_k=k^2$ as the subsequence. By Chebyshev's inequality, $$P(|\overline X_{n_k}-\mu|>\varepsilon)\le\frac{\operatorname{Var}(\overline X_{n_k})}{\varepsilon^2}=\frac{\sigma^2}{k^2\varepsilon^2},$$ which is summable over $k$. The first Borel-Cantelli lemma gives $P(|\overline X_{n_k}-\mu|>\varepsilon\text{ i.o.})=0$, so $\overline X_{n_k}\to\mu$ almost surely along the squares.
 
-_Step 2 — gap filling._ For $n$ between $k^2$ and $(k+1)^2$, control how far $\overline X_n$ can stray from $\overline X_{k^2}$. For bounded variables ($|X_j|\le C$), split the sample mean: $$\overline X_n-\overline X_{k^2}=\frac{1}{n}\sum_{j=1}^n X_j-\frac{1}{k^2}\sum_{j=1}^{k^2}X_j=\Bigl(\frac1n-\frac1{k^2}\Bigr)\sum_{j=1}^{k^2}X_j+\frac1n\sum_{j=k^2+1}^n X_j.$$
-Using $|X_j|\le C$, $$|\overline X_n-\overline X_{k^2}|\le\Bigl(\frac1{k^2}-\frac1n\Bigr)k^2C+\frac{n-k^2}{n}C=\frac{n-k^2}{n}C+\frac{n-k^2}{n}C=2\frac{n-k^2}{n}C.$$
-Since $k^2\le n\le(k+1)^2=k^2+2k+1$, we have $n-k^2\le2k+1$ and $n\ge k^2$, so $$2\frac{n-k^2}{n}C\le2\frac{2k+1}{k^2}C=\frac{4C}{k}+O\!\left(\frac1{k^2}\right).$$
-Thus $\max_{k^2\le n\le(k+1)^2}|\overline X_n-\overline X_{k^2}|\to0$ as $k\to\infty$. Combined with the subsequence convergence, this forces $\overline X_n\to\mu$ almost surely for all $n$.
+_Step 2 — gap filling._ For $n$ between $k^2$ and $(k+1)^2$, control how far $\overline X_n$ can stray from $\overline X_{k^2}$. For bounded variables ($|X_j|\le C$), split the sample mean: $$\overline X_n-\overline X_{k^2}=\frac{1}{n}\sum_{j=1}^n X_j-\frac{1}{k^2}\sum_{j=1}^{k^2}X_j=\Bigl(\frac1n-\frac1{k^2}\Bigr)\sum_{j=1}^{k^2}X_j+\frac1n\sum_{j=k^2+1}^n X_j.$$ Using $|X_j|\le C$, $$|\overline X_n-\overline X_{k^2}|\le\Bigl(\frac1{k^2}-\frac1n\Bigr)k^2C+\frac{n-k^2}{n}C=\frac{n-k^2}{n}C+\frac{n-k^2}{n}C=2\frac{n-k^2}{n}C.$$ Since $k^2\le n\le(k+1)^2=k^2+2k+1$, we have $n-k^2\le2k+1$ and $n\ge k^2$, so $$2\frac{n-k^2}{n}C\le2\frac{2k+1}{k^2}C=\frac{4C}{k}+O\!\left(\frac1{k^2}\right).$$ Thus $\max_{k^2\le n\le(k+1)^2}|\overline X_n-\overline X_{k^2}|\to0$ as $k\to\infty$. Combined with the subsequence convergence, this forces $\overline X_n\to\mu$ almost surely for all $n$.
 
 __Lemma (subsequence criterion for a.s. convergence).__ $Z_n\to Z$ almost surely if and only if every subsequence contains a further sub-subsequence converging almost surely to $Z$.
 
@@ -335,9 +324,7 @@ Flashcards for this section are as follows:
 
 ## law of the iterated logarithm
 
-__Law of the iterated logarithm (Hartman–Wintner).__ For iid $X_j$ with mean $\mu$ and finite variance $\sigma^2$,
-$$\limsup_{n\to\infty}\frac{\overline X_n-\mu}{\sigma\sqrt{2\log\log n/n}}=1\quad\text{a.s.}$$
-The $\liminf$ is $-1$ a.s., so the normalized sample mean oscillates between $\pm1$ infinitely often. While the CLT describes $\sqrt{n}$-scale fluctuations in distribution, the LIL gives the a.s. fluctuation envelope: extreme deviations grow like $\sqrt{2n\log\log n}$, only slightly larger than $\sqrt{n}$. The extra factor $\sqrt{\log\log n}$ grows so slowly ($\sqrt{\log\log 10^{100}}\approx 2.7$) that for practical sample sizes the LIL and CLT scales are nearly indistinguishable.
+__Law of the iterated logarithm (Hartman–Wintner).__ For iid $X_j$ with mean $\mu$ and finite variance $\sigma^2$, $$\limsup_{n\to\infty}\frac{\overline X_n-\mu}{\sigma\sqrt{2\log\log n/n}}=1\quad\text{a.s.}$$ The $\liminf$ is $-1$ a.s., so the normalized sample mean oscillates between $\pm1$ infinitely often. While the CLT describes $\sqrt{n}$-scale fluctuations in distribution, the LIL gives the a.s. fluctuation envelope: extreme deviations grow like $\sqrt{2n\log\log n}$, only slightly larger than $\sqrt{n}$. The extra factor $\sqrt{\log\log n}$ grows so slowly ($\sqrt{\log\log 10^{100}}\approx 2.7$) that for practical sample sizes the LIL and CLT scales are nearly indistinguishable.
 
 ---
 
@@ -365,7 +352,7 @@ Flashcards for this section are as follows:
 - central limit theorem for sums: If $X_1,X_2,\dots$ are iid with mean $\mu$ and variance $\sigma^2>0$, what is the limiting law of $\frac{\sum_{j=1}^n X_j-n\mu}{\sigma\sqrt n}$? ::@:: The normalized sum converges in distribution to $N(0,1)$.
 - central limit theorem for the sample mean: Under the CLT hypotheses, what is the limiting law of $\sqrt n\,\frac{\overline X_n-\mu}{\sigma}$? ::@:: The normalized sample mean converges in distribution to $N(0,1)$.
 
-### MGF convergence and convergence in distribution
+### MGF convergence and convergence in distribution <!-- check: ignore-line[header_style]: MGF is an acronym -->
 
 If the MGFs of a sequence of random variables converge pointwise to the MGF of a limit in a neighborhood of $0$, convergence in distribution follows. This is the engine behind the CLT proof when MGFs exist.
 
@@ -396,7 +383,7 @@ In the CLT setting only the forward direction is used.
 Flashcards for this section are as follows:
 
 - MGF convergence theorem (forward direction) ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $\psi_n(t)=E[e^{tZ_n}]$ and $\psi(t)=E[e^{tZ}]$ exist on $(-\delta,\delta)$ and $\psi_n(t)\to\psi(t)$ pointwise there, then $Z_n\xrightarrow{d}Z$. Three stages: (i) convexity upgrades pointwise to uniform convergence on compacta; (ii) Vitali's theorem extends convergence from the real interval to the complex strip $|\Re(z)|<\delta$; (iii) restricting to $z=it$ gives CF convergence $\phi_n(t)\to\phi(t)$, so Lévy's continuity theorem applies.
-- MGF convergence: convexity → uniform on compacta ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> MGFs are convex on the real interval where they exist. A sequence of convex functions converging pointwise on an interval converges uniformly on every compact subinterval. This uniform control is what lets the complex-analytic step go through.
+- MGF convergence: convexity → uniform on compacta ::@:: MGFs are convex on the real interval where they exist. A sequence of convex functions converging pointwise on an interval converges uniformly on every compact subinterval. This uniform control is what lets the complex-analytic step go through.
 - MGF convergence: why convergence extends to CFs ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Each $\psi_n(z)=E[e^{zZ_n}]$ extends analytically to the strip $|\Re(z)|<\delta$. Uniform convergence on real compacta implies uniform boundedness there, which propagates to complex compacta via analyticity. Vitali's theorem then forces $\psi_n(z)\to\psi(z)$ on the whole strip; taking $z=it$ yields $\phi_n(t)\to\phi(t)$, and Lévy's continuity theorem gives $Z_n\xrightarrow{d}Z$.
 - MGF vs characteristic function ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Characteristic functions $\phi(t)=E[e^{itX}]$ always exist (bounded modulus 1) and are the gold standard; MGFs $\psi(t)=E[e^{tX}]$ may be infinite for some $t>0$, restricting their use to light-tailed distributions.
 - MGF of $N(0,1)$ ::@:: $\psi_Z(t)=e^{t^2/2}$.
@@ -448,7 +435,9 @@ Flashcards for this section are as follows:
 
 - CLT proof structure template ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Center/scale $\to$ expand transform near 0 $\to$ raise to $n$ via independence $\to$ identify limit as $N(0,1)$ transform.
 
-### examples <!-- check: ignore-line[section_example_heading]: integrated CLT applications --> Roll a fair die $n=100$ times. The sum $S_{100}=\sum_{i=1}^{100}X_i$ has mean $100\cdot3.5=350$ and variance $100\cdot(35/12)\approx291.67$. By the CLT, $$P(S_{100}>400)=P\!\left(\frac{S_{100}-350}{\sqrt{291.67}}>\frac{50}{\sqrt{291.67}}\approx2.928\right)\approx P(Z>2.928)\approx0.0017.$$
+### examples <!-- check: ignore-line[section_example_heading]: die-roll CLT as numerical illustration of limit theorems -->
+
+Roll a fair die $n=100$ times. The sum $S_{100}=\sum_{i=1}^{100}X_i$ has mean $100\cdot3.5=350$ and variance $100\cdot(35/12)\approx291.67$. By the CLT, $$P(S_{100}>400)=P\!\left(\frac{S_{100}-350}{\sqrt{291.67}}>\frac{50}{\sqrt{291.67}}\approx2.928\right)\approx P(Z>2.928)\approx0.0017.$$
 
 __Empirical variance.__ Let $X_1,\dots,X_n$ be i.i.d. with $E[X_1]=\mu$, $\operatorname{Var}(X_1)=\sigma^2$, and $E[X_1^4]<\infty$. Define the sample variance $S_n^2=\frac1n\sum_{i=1}^nX_i^2-\overline X_n^2$. Then $$\sqrt n\,(S_n^2-\sigma^2)\xrightarrow{d} N(0,\alpha),\qquad\alpha=E[(X_1-\mu)^4]-\sigma^4.$$
 
@@ -462,7 +451,7 @@ Flashcards for this section are as follows:
 - empirical variance: asymptotic distribution ::@:: $\sqrt n(S_n^2-\sigma^2)\xrightarrow{d} N(0,E[(X_1-\mu)^4]-\sigma^4)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - empirical variance: proof idea ::@:: Write $S_n^2-\sigma^2=(\overline Y_n-\sigma^2)+(\mu^2-\overline X_n^2)$ where $Y_i=(X_i-\mu)^2$; CLT handles the first term, SLLN+Slutsky eliminates the second. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## Slutsky's theorem and vanishing perturbation
+## Slutsky's theorem and vanishing perturbation <!-- check: ignore-line[header_style]: Slutsky is a proper noun (eponymous) -->
 
 These results let one "clean up" a weak-convergence limit by discarding asymptotically negligible perturbations. They formalize the idea that if two sequences are asymptotically indistinguishable — their difference vanishes in probability — they must share the same limiting distribution, and that constants in the limit can absorb many operations cleanly.
 
@@ -472,25 +461,22 @@ _Intuition._ If two paths through a forest get arbitrarily close to each other, 
 
 If $X_n\xrightarrow{d} X$ and $X_n-Y_n\to0$ in probability, then $Y_n\xrightarrow{d} X$.
 
-_Proof sketch._ Let $Z_n=Y_n-X_n\to0$ in probability. For a continuity point $x$ of $F_X$, $$\begin{aligned}F_{Y_n}(x)&=P(Y_n\le x)=P(X_n+Z_n\le x) \\ &\le P(X_n\le x+\varepsilon)+P(|Z_n|\ge\varepsilon)\quad\Rightarrow\quad\limsup_{n\to\infty}F_{Y_n}(x)\le F_X(x+\varepsilon), \end{aligned}$$
-and a matching lower bound gives $\liminf_{n\to\infty}F_{Y_n}(x)\ge F_X(x-\varepsilon)$. Sending $\varepsilon\downarrow0$ yields $F_{Y_n}(x)\to F_X(x)$.
+_Proof sketch._ Let $Z_n=Y_n-X_n\to0$ in probability. For a continuity point $x$ of $F_X$, $$\begin{aligned}F_{Y_n}(x)&=P(Y_n\le x)=P(X_n+Z_n\le x) \\ &\le P(X_n\le x+\varepsilon)+P(|Z_n|\ge\varepsilon)\quad\Rightarrow\quad\limsup_{n\to\infty}F_{Y_n}(x)\le F_X(x+\varepsilon), \end{aligned}$$ and a matching lower bound gives $\liminf_{n\to\infty}F_{Y_n}(x)\ge F_X(x-\varepsilon)$. Sending $\varepsilon\downarrow0$ yields $F_{Y_n}(x)\to F_X(x)$.
 
 ---
 
 Flashcards for this subsection are as follows:
 
 - intuition: vanishing-perturbation proposition ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If two sequences are asymptotically indistinguishable (difference $\to0$ in probability), they share the same weak limit — like two converging paths must lead to the same destination.
-- vanishing-perturbation proposition ::@:: If $X_n\xrightarrow{d}X$ and $X_n-Y_n\to0$ in probability, then $Y_n\xrightarrow{d}X$.
+- vanishing-perturbation proposition ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $X_n-Y_n\to0$ in probability, then $Y_n\xrightarrow{d}X$.
 - proof: sandwich argument ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Bound $F_{Y_n}(x)\le F_{X_n}(x+\varepsilon)+P(|X_n-Y_n|\ge\varepsilon)$ and $F_{Y_n}(x)\ge F_{X_n}(x-\varepsilon)-P(|X_n-Y_n|\ge\varepsilon)$; take $\limsup/\liminf$, then $\varepsilon\downarrow0$.
 - why "vanishing perturbation" ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The difference $X_n-Y_n$ is a perturbation that vanishes in probability; it is too small to affect the limiting distribution.
 
-### Slutsky's theorem
+### Slutsky's theorem <!-- check: ignore-line[header_style]: Slutsky is a proper noun (eponymous) -->
 
 _Intuition._ When one operand converges to a constant, joint limiting behavior simplifies dramatically — the constant passes through addition, multiplication, and division as if it were deterministic. This is why we can normalize a sample mean by an estimated standard deviation and still obtain a standard normal limit.
 
-If $X_n\xrightarrow{d} X$ and $Y_n\to c$ in probability (with $c$ a constant), then $$X_n+Y_n\xrightarrow{d} X+c,\qquad X_nY_n\xrightarrow{d} cX,$$
-and for $c\neq0$, $$\frac{X_n}{Y_n}\xrightarrow{d}\frac{X}{c}.
-$$
+If $X_n\xrightarrow{d} X$ and $Y_n\to c$ in probability (with $c$ a constant), then $$X_n+Y_n\xrightarrow{d} X+c,\qquad X_nY_n\xrightarrow{d} cX,$$ and for $c\neq0$, $$\frac{X_n}{Y_n}\xrightarrow{d}\frac{X}{c}.$$
 
 _Proof._ For the sum, $(X_n+Y_n)-(X_n+c)=Y_n-c\to0$ in probability, so the vanishing-perturbation proposition applies. For the product, first note $cX_n\xrightarrow{d}cX$ by the continuous mapping theorem. Then use the auxiliary result that $X_n\xrightarrow{d}X$ and $Y_n\to0$ in probability imply $X_nY_n\to0$ in probability. Hence $X_nY_n-cX_n=X_n(Y_n-c)\to0$ in probability, and the vanishing-perturbation proposition gives $X_nY_n\xrightarrow{d}cX$. The quotient follows similarly.
 
@@ -498,10 +484,10 @@ _Proof._ For the sum, $(X_n+Y_n)-(X_n+c)=Y_n-c\to0$ in probability, so the vanis
 
 Flashcards for this subsection are as follows:
 
-- intuition: Slutsky's theorem ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> When one sequence converges to a constant, the constant passes cleanly through addition, multiplication, and division — the stochastic and deterministic parts separate in the limit.
-- Slutsky's theorem: sum ::@:: If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c$, then $X_n+Y_n\xrightarrow{d}X+c$.
-- Slutsky's theorem: product ::@:: If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c$, then $X_nY_n\xrightarrow{d}cX$.
-- Slutsky's theorem: quotient ::@:: If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c\neq0$, then $X_n/Y_n\xrightarrow{d}X/c$.
+- intuition: Slutsky's theorem ::@:: When one sequence converges to a constant, the constant passes cleanly through addition, multiplication, and division — the stochastic and deterministic parts separate in the limit.
+- Slutsky's theorem: sum ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c$, then $X_n+Y_n\xrightarrow{d}X+c$.
+- Slutsky's theorem: product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c$, then $X_nY_n\xrightarrow{d}cX$.
+- Slutsky's theorem: quotient ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c\neq0$, then $X_n/Y_n\xrightarrow{d}X/c$.
 - proof: Slutsky's theorem ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Sum: vanishing-perturbation on $(X_n+Y_n)-(X_n+c)$. Product: CMT gives $cX_n\xrightarrow{d}cX$; vanishing product on $X_n(Y_n-c)$; vanishing-perturbation again. Quotient: analogous.
 - why a constant limit is needed ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Slutsky requires $Y_n\xrightarrow{p}c$ (constant). If $Y_n\xrightarrow{d}Y$ with random $Y$, the joint distribution of $(X_n,Y_n)$ is uncontrolled, so algebraic operations don't pass through cleanly.
 
@@ -511,56 +497,46 @@ _Intuition._ Weakly convergent sequences are tight — the probability of extrem
 
 If $X_n\xrightarrow{d}X$ and $Y_n\to0$ in probability, then $X_nY_n\to0$ in probability.
 
-_Proof._ For any $\varepsilon,k>0$, $$P(|X_nY_n|\ge\varepsilon)\le P(|X_n|>k)+P\!\left(|Y_n|\ge\frac{\varepsilon}{k}\right).$$
-Taking $n\to\infty$ then $k\to\infty$ gives $\limsup_{n\to\infty}P(|X_nY_n|\ge\varepsilon)\le P(|X|>k)\to0$.
+_Proof._ For any $\varepsilon,k>0$, $$P(|X_nY_n|\ge\varepsilon)\le P(|X_n|>k)+P\!\left(|Y_n|\ge\frac{\varepsilon}{k}\right).$$ Taking $n\to\infty$ then $k\to\infty$ gives $\limsup_{n\to\infty}P(|X_nY_n|\ge\varepsilon)\le P(|X|>k)\to0$.
 
 ---
 
 Flashcards for this subsection are as follows:
 
 - intuition: vanishing product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_n$ is tight (large values have small probability) while $Y_n\to_p0$; the product shrinks because $X_n$ can't blow up often enough to offset the vanishing $Y_n$.
-- vanishing product ::@:: If $X_n\xrightarrow{d}X$ and $Y_n\to0$ in probability, then $X_nY_n\to0$ in probability.
+- vanishing product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\to0$ in probability, then $X_nY_n\to0$ in probability.
 - proof: vanishing product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $P(|X_nY_n|\ge\varepsilon)\le P(|X_n|>k)+P(|Y_n|\ge\varepsilon/k)$; $n\to\infty$ then $k\to\infty$ sends both terms to $0$.
 - role of tightness ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Without tightness of $\{X_n\}$, $Y_n\to_p0$ alone could fail — $X_n$ might take unboundedly large values that offset a small $Y_n$.
 
-### example: empirical variance
+### example: empirical variance <!-- check: ignore-line[section_example_heading]: worked example integrated within Slutsky section -->
 
 _Intuition._ The empirical variance uses the estimated mean $\overline X_n$, introducing an extra source of error. Remarkably, this error is of smaller order — it vanishes in probability — so the asymptotic distribution of $\sqrt n(\hat\sigma_n^2-\sigma^2)$ is the same as if the true mean were known.
 
 Let $X_1,X_2,\dots$ be i.i.d. with mean $\mu$, variance $\sigma^2$, and finite fourth moment $\mu_4^{(c)}=E[(X_1-\mu)^4]$.
 
-**Step 1: a convenient infeasible estimator.** If the true mean $\mu$ were known, we could use $\frac1n\sum_{i=1}^n(X_i-\mu)^2$. Define $Y_i=(X_i-\mu)^2$; then $E[Y_1]=\sigma^2$ and $\operatorname{Var}(Y_1)=\mu_4^{(c)}-\sigma^4$. The CLT gives $$\sqrt n\!\left(\frac1n\sum_{i=1}^n Y_i-\sigma^2\right)\xrightarrow{d}N\!\left(0,\mu_4^{(c)}-\sigma^4\right).
-$$
+__Step 1: a convenient infeasible estimator.__ If the true mean $\mu$ were known, we could use $\frac1n\sum_{i=1}^n(X_i-\mu)^2$. Define $Y_i=(X_i-\mu)^2$; then $E[Y_1]=\sigma^2$ and $\operatorname{Var}(Y_1)=\mu_4^{(c)}-\sigma^4$. The CLT gives $$\sqrt n\!\left(\frac1n\sum_{i=1}^n Y_i-\sigma^2\right)\xrightarrow{d}N\!\left(0,\mu_4^{(c)}-\sigma^4\right).$$
 
-__Step 2: relate the empirical variance to the infeasible estimator.__ Expand $\hat\sigma_n^2$ around $\mu$: $$\begin{aligned}\hat\sigma_n^2&=\frac1n\sum_{i=1}^n(X_i-\overline X_n)^2=\frac1n\sum_{i=1}^n\bigl[(X_i-\mu)-(\overline X_n-\mu)\bigr]^2\\[2pt]&=\frac1n\sum_{i=1}^n(X_i-\mu)^2-\frac{2(\overline X_n-\mu)}n\sum_{i=1}^n(X_i-\mu)+(\overline X_n-\mu)^2.\end{aligned}
-$$
-
-The middle term simplifies because $\frac1n\sum_{i=1}^n(X_i-\mu)=\overline X_n-\mu$, yielding $$\hat\sigma_n^2 = \frac1n\sum_{i=1}^n Y_i \;\-\; (\overline X_n-\mu)^2.
-$$
+__Step 2: relate the empirical variance to the infeasible estimator.__ Expand $\hat\sigma_n^2$ around $\mu$: $$\begin{aligned}\hat\sigma_n^2&=\frac1n\sum_{i=1}^n(X_i-\overline X_n)^2=\frac1n\sum_{i=1}^n\bigl[(X_i-\mu)-(\overline X_n-\mu)\bigr]^2\\[2pt]&=\frac1n\sum_{i=1}^n(X_i-\mu)^2-\frac{2(\overline X_n-\mu)}n\sum_{i=1}^n(X_i-\mu)+(\overline X_n-\mu)^2.\end{aligned}$$ The middle term simplifies because $\frac1n\sum_{i=1}^n(X_i-\mu)=\overline X_n-\mu$, yielding $$\hat\sigma_n^2 = \frac1n\sum_{i=1}^n Y_i \;\-\; (\overline X_n-\mu)^2.$$
 
 Thus $\hat\sigma_n^2$ is exactly the infeasible estimator minus a squared-error correction that shrinks as $\overline X_n$ approaches $\mu$.
 
-__Step 3: scale the difference.__ Multiply the relation by $\sqrt n$: $$\sqrt n(\hat\sigma_n^2-\sigma^2)=\sqrt n\!\left(\frac1n\sum_{i=1}^n Y_i-\sigma^2\right)-\sqrt n(\overline X_n-\mu)\cdot(\overline X_n-\mu).
-$$
-
-The first term converges weakly to $N(0,\mu_4^{(c)}-\sigma^4)$ by Step~1. For the second term, note that
+__Step 3: scale the difference.__ Multiply the relation by $\sqrt n$: $$\sqrt n(\hat\sigma_n^2-\sigma^2)=\sqrt n\!\left(\frac1n\sum_{i=1}^n Y_i-\sigma^2\right)-\sqrt n(\overline X_n-\mu)\cdot(\overline X_n-\mu).$$ The first term converges weakly to $N(0,\mu_4^{(c)}-\sigma^4)$ by Step~1. For the second term, note that
 
 - $\overline X_n-\mu\to0$ in probability (WLLN);
 - $\sqrt n(\overline X_n-\mu)\xrightarrow{d}N(0,\sigma^2)$ (CLT), hence it is tight.
 
 By the vanishing-product result, the product $\sqrt n(\overline X_n-\mu)\cdot(\overline X_n-\mu)$ converges in probability to $0$.
 
-**Step 4: apply the vanishing-perturbation proposition.** Since $\sqrt n(\hat\sigma_n^2-\sigma^2)$ and $\sqrt n(\frac1n\sum Y_i-\sigma^2)$ differ by something that vanishes in probability, the vanishing-perturbation proposition forces them to share the same weak limit: $$\sqrt n(\hat\sigma_n^2-\sigma^2)\xrightarrow{d}N\!\left(0,\mu_4^{(c)}-\sigma^4\right).
-$$
+__Step 4: apply the vanishing-perturbation proposition.__ Since $\sqrt n(\hat\sigma_n^2-\sigma^2)$ and $\sqrt n(\frac1n\sum Y_i-\sigma^2)$ differ by something that vanishes in probability, the vanishing-perturbation proposition forces them to share the same weak limit: $$\sqrt n(\hat\sigma_n^2-\sigma^2)\xrightarrow{d}N\!\left(0,\mu_4^{(c)}-\sigma^4\right).$$
 
 ---
 
 Flashcards for this subsection are as follows:
 
-- intuition for the empirical-variance derivation: why can we ignore the correction $(\overline X_n-\mu)^2$ in the limit? ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Replacing the true mean $\mu$ by the sample mean $\overline X_n$ creates a correction $(\overline X_n-\mu)^2$ that vanishes in probability; Slutsky lets us ignore it in the limit.
-- finite fourth moment: why is $E[X_1^4]<\infty$ required for the asymptotic distribution of $\hat\sigma_n^2$? ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The CLT for $\frac1n\sum(X_i-\mu)^2$ requires $\operatorname{Var}((X_i-\mu)^2)=\mu_4^{(c)}-\sigma^4$ to be finite, where $\mu_4^{(c)}=E[(X_1-\mu)^4]$ is the fourth central moment and $\sigma^2=\operatorname{Var}(X_1)$; this holds iff the fourth moment is finite.
+- intuition for the empirical-variance derivation: why can we ignore the correction $(\overline X_n-\mu)^2$ in the limit? ::@:: Replacing the true mean $\mu$ by the sample mean $\overline X_n$ creates a correction $(\overline X_n-\mu)^2$ that vanishes in probability; Slutsky lets us ignore it in the limit.
+- finite fourth moment: why is $E[X_1^4]<\infty$ required for the asymptotic distribution of $\hat\sigma_n^2$? ::@:: The CLT for $\frac1n\sum(X_i-\mu)^2$ requires $\operatorname{Var}((X_i-\mu)^2)=\mu_4^{(c)}-\sigma^4$ to be finite, where $\mu_4^{(c)}=E[(X_1-\mu)^4]$ is the fourth central moment and $\sigma^2=\operatorname{Var}(X_1)$; this holds iff the fourth moment is finite.
 - expansion of $\hat\sigma_n^2$ around the true mean $\mu$: what formula relates $\hat\sigma_n^2$ to the infeasible estimator $\frac1n\sum Y_i$? ::@:: $\hat\sigma_n^2 = \frac1n\sum Y_i - (\overline X_n-\mu)^2$ where $\hat\sigma_n^2$ is the empirical variance, $\overline X_n$ is the sample mean, $\mu$ is the true mean, and $Y_i=(X_i-\mu)^2$. Expanding $(X_i-\overline X_n)^2$ and simplifying shows the squared-mean correction appears because centering at $\overline X_n$ rather than $\mu$ subtracts exactly $(\overline X_n-\mu)^2$.
-- vanishing of the squared-mean correction term: why does $\sqrt n(\overline X_n-\mu)^2$ converge in probability to 0? ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $\sqrt n(\overline X_n-\mu)(\overline X_n-\mu)\to_p0$: the sample-mean deviation $\overline X_n-\mu$ (where $\mu$ is the true mean) vanishes in probability (WLLN) while $\sqrt n(\overline X_n-\mu)$ is tight (CLT), so the vanishing-product result applies.
+- vanishing of the squared-mean correction term: why does $\sqrt n(\overline X_n-\mu)^2$ converge in probability to 0? ::@:: $\sqrt n(\overline X_n-\mu)(\overline X_n-\mu)\to_p0$: the sample-mean deviation $\overline X_n-\mu$ (where $\mu$ is the true mean) vanishes in probability (WLLN) while $\sqrt n(\overline X_n-\mu)$ is tight (CLT), so the vanishing-product result applies.
 - how the vanishing-perturbation proposition applies to the empirical-variance derivation: why does the correction not affect the limiting distribution? ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The difference $\sqrt n(\hat\sigma_n^2-\sigma^2)-\sqrt n(\frac1n\sum Y_i-\sigma^2)$ vanishes in probability, where $\hat\sigma_n^2$ is the empirical variance, $\sigma^2$ is the true variance, and $Y_i=(X_i-\mu)^2$; so the vanishing-perturbation proposition equates their weak limits.
 - asymptotic distribution of the empirical variance: what is the weak limit of $\sqrt n(\hat\sigma_n^2-\sigma^2)$? ::@:: $\sqrt n(\hat\sigma_n^2-\sigma^2)\xrightarrow{d}N(0,\mu_4^{(c)}-\sigma^4)$, where $\hat\sigma_n^2$ is the empirical variance, $\sigma^2$ is the true variance, and $\mu_4^{(c)}=E[(X_1-\mu)^4]$ is the fourth central moment.
 
@@ -579,9 +555,9 @@ In both regimes the leading CLT term vanishes, so $\hat\sigma_n^2$ converges to 
 Flashcards for this subsection are as follows:
 
 - zero asymptotic variance: what does $\mu_4^{(c)}=\sigma^4$ imply about $(X_1-\mu)^2$? ::@:: $\operatorname{Var}((X_1-\mu)^2)=0$, so $(X_1-\mu)^2$ is almost surely equal to $\sigma^2$; the squared deviation has no randomness.
-- zero asymptotic variance: degenerate case ($\sigma^2=0$) ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_1$ is almost surely constant; there is no variance to estimate and the asymptotic variance is trivially zero ($\mu_4^{(c)}=0=\sigma^4$).
+- zero asymptotic variance: degenerate case ($\sigma^2=0$) ::@:: $X_1$ is almost surely constant; there is no variance to estimate and the asymptotic variance is trivially zero ($\mu_4^{(c)}=0=\sigma^4$).
 - zero asymptotic variance: symmetric two-point case ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_1$ takes values $\mu\pm\sigma$ each with probability $1/2$; then every $(X_i-\mu)^2=\sigma^2$ deterministically, so $\mu_4^{(c)}=\sigma^4$ and the asymptotic variance is zero even though $\sigma^2>0$. (A rescaled symmetric Bernoulli.)
-- zero asymptotic variance: convergence rate when $\mu_4^{(c)}=\sigma^4$ ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The leading CLT term vanishes, so $\hat\sigma_n^2-\sigma^2=o_p(n^{-1/2})$ — convergence is faster than $1/\sqrt n$. The usual $\sqrt n$ scaling overestimates the rate.
+- zero asymptotic variance: convergence rate when $\mu_4^{(c)}=\sigma^4$ ::@:: The leading CLT term vanishes, so $\hat\sigma_n^2-\sigma^2=o_p(n^{-1/2})$ — convergence is faster than $1/\sqrt n$. The usual $\sqrt n$ scaling overestimates the rate.
 
 ## normal approximations and continuity correction
 

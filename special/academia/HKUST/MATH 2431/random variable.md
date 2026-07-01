@@ -92,17 +92,13 @@ __Remark (common pitfalls).__ The naive formula $\bigcup_j\{X_j\le x\}$ for $\in
 
 __Topological perspective.__ Since $X_j$ is measurable, $\{X_j<x\}=X_j^{-1}((-\infty,x))$ (preimage of an open set) and $\{X_j\le x\}=X_j^{-1}((-\infty,x])$ (preimage of a closed set) are always measurable. The topology of $\mathbb{R}$ dictates which set operations preserve measurability directly:
 
-- __Open intervals and $\inf$ with $<$.__ The set $(-\infty,x)$ is open. If the infimum is strictly below $x$, some $X_j$ is also strictly below $x$: $$\{\inf_j X_j<x\}=\bigcup_j\{X_j<x\}.$$
-  A countable union of open preimages — still open, hence measurable.
-- __Closed intervals and $\sup$ with $\le$.__ The set $(-\infty,x]$ is closed. If every $X_j$ is at most $x$, then so is the supremum: $$\{\sup_j X_j\le x\}=\bigcap_j\{X_j\le x\}.$$
-  A countable intersection of closed preimages — still closed, hence measurable.
+- __Open intervals and $\inf$ with $<$.__ The set $(-\infty,x)$ is open. If the infimum is strictly below $x$, some $X_j$ is also strictly below $x$: $$\{\inf_j X_j<x\}=\bigcup_j\{X_j<x\}.$$ A countable union of open preimages — still open, hence measurable.
+- __Closed intervals and $\sup$ with $\le$.__ The set $(-\infty,x]$ is closed. If every $X_j$ is at most $x$, then so is the supremum: $$\{\sup_j X_j\le x\}=\bigcap_j\{X_j\le x\}.$$ A countable intersection of closed preimages — still closed, hence measurable.
 
 The pitfalls arise when the topological type of the interval doesn't match the set operation:
 
-- __$\inf$ with $\le$ (closed interval, wrong operation).__ The naive $\bigcup_j\{X_j\le x\}$ fails because a union of closed preimages can miss limit points. Counterexample: $X_j=x+1/j$ gives $\inf_j X_j=x$ yet every $\{X_j\le x\}=\varnothing$, so the LHS $=\Omega$ but RHS $=\varnothing$. Fix: write $(-\infty,x]=\bigcap_k(-\infty,x+1/k)$ as a $G_\delta$ set (countable intersection of opens), yielding $$\{\inf_j X_j\le x\}=\bigcap_k\bigcup_j\{X_j\le x+1/k\}.$$
-  The outer $\bigcap_k$ supplies the $\varepsilon$ margin that the naive union missed.
-- __$\sup$ with $<$ (open interval, wrong operation).__ Dually, $\bigcap_j\{X_j<x\}$ fails because an intersection of open preimages need not be open. Counterexample: $X_j=x-1/j$ gives $\sup_j X_j=x$ yet every $\{X_j<x\}=\Omega$, so LHS $=\varnothing$ but RHS $=\Omega$. Fix: write $(-\infty,x)=\bigcup_k(-\infty,x-1/k]$ as an $F_\sigma$ set (countable union of closeds), yielding $$\{\sup_j X_j<x\}=\bigcup_k\bigcap_j\{X_j\le x-1/k\}.$$
-  The outer $\bigcup_k$ supplies the margin.
+- __$\inf$ with $\le$ (closed interval, wrong operation).__ The naive $\bigcup_j\{X_j\le x\}$ fails because a union of closed preimages can miss limit points. Counterexample: $X_j=x+1/j$ gives $\inf_j X_j=x$ yet every $\{X_j\le x\}=\varnothing$, so the LHS $=\Omega$ but RHS $=\varnothing$. Fix: write $(-\infty,x]=\bigcap_k(-\infty,x+1/k)$ as a $G_\delta$ set (countable intersection of opens), yielding $$\{\inf_j X_j\le x\}=\bigcap_k\bigcup_j\{X_j\le x+1/k\}.$$ The outer $\bigcap_k$ supplies the $\varepsilon$ margin that the naive union missed.
+- __$\sup$ with $<$ (open interval, wrong operation).__ Dually, $\bigcap_j\{X_j<x\}$ fails because an intersection of open preimages need not be open. Counterexample: $X_j=x-1/j$ gives $\sup_j X_j=x$ yet every $\{X_j<x\}=\Omega$, so LHS $=\varnothing$ but RHS $=\Omega$. Fix: write $(-\infty,x)=\bigcup_k(-\infty,x-1/k]$ as an $F_\sigma$ set (countable union of closeds), yielding $$\{\sup_j X_j<x\}=\bigcup_k\bigcap_j\{X_j\le x-1/k\}.$$ The outer $\bigcup_k$ supplies the margin.
 
 Two important subclasses are worth stating formally. A real random variable $X$ is called _discrete_ if its image $\Omega_X$ is countable. It is called _continuous_, in the sense used in these notes, if its law admits a density with respect to Lebesgue measure.
 
@@ -119,8 +115,8 @@ Flashcards for this section are as follows:
 - pointwise supremum of real random variables ::@:: For $Y=\sup_jX_j$, the half-line criterion says check $\{Y\le x\}$; this means every coordinate is at most $x$, so $\{\sup_j X_j\le x\}=\bigcap_{j=1}^{\infty}\{X_j\le x\}$, measurable by countable-intersection closure. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-22,67,323!2026-07-17,63,323-->
 - pointwise infimum of real random variables ::@:: For $Y=\inf_jX_j$, measurability follows either by duality $\inf_jX_j=-\sup_j(-X_j)$ or via $\{\inf_jX_j\le x\}=\bigcap_k\bigcup_j\{X_j\le x+1/k\}$ (countable operations preserve measurability). The naive formula $\bigcup_j\{X_j\le x\}$ misses limit points. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - counterexample: naive infimum formula fails ::@:: For $X_j=x+1/j$, $\inf_jX_j=x$ but no $X_j\le x$; hence $\bigcup_j\{X_j\le x\}=\varnothing$ while $\{\inf_jX_j\le x\}=\Omega$. The correct formula $\bigcap_k\bigcup_j\{X_j\le x+1/k\}$ captures limit points via $\varepsilon$ margins. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-26,70,323!2026-07-29,73,323-->
-- topological perspective: infimum measurability ::@:: $\{\inf_j X_j<x\}=\bigcup_j\{X_j<x\}$ (open $(-\infty,x)$, union preserves openness); $\{\inf_j X_j\le x\}=\bigcap_k\bigcup_j\{X_j\le x+1/k\}$ because $(-\infty,x]$ is closed — the naive union of closed preimages misses limit points like $X_j=x+1/j$.
-- topological perspective: supremum measurability ::@:: $\{\sup_j X_j\le x\}=\bigcap_j\{X_j\le x\}$ (closed $(-\infty,x]$, intersection preserves closedness); $\{\sup_j X_j<x\}=\bigcup_k\bigcap_j\{X_j\le x-1/k\}$ because $(-\infty,x)$ is open — the naive intersection of open preimages fails dually for $X_j=x-1/j$.
+- topological perspective: infimum measurability ::@:: $\{\inf_j X_j<x\}=\bigcup_j\{X_j<x\}$ (open $(-\infty,x)$, union preserves openness); $\{\inf_j X_j\le x\}=\bigcap_k\bigcup_j\{X_j\le x+1/k\}$ because $(-\infty,x]$ is closed — the naive union of closed preimages misses limit points like $X_j=x+1/j$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- topological perspective: supremum measurability ::@:: $\{\sup_j X_j\le x\}=\bigcap_j\{X_j\le x\}$ (closed $(-\infty,x]$, intersection preserves closedness); $\{\sup_j X_j<x\}=\bigcup_k\bigcap_j\{X_j\le x-1/k\}$ because $(-\infty,x)$ is open — the naive intersection of open preimages fails dually for $X_j=x-1/j$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - discrete real random variable / definition ::@:: A real random variable is discrete if its image $\Omega_X$ is countable, so only countably many values can actually occur. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-23,68,323!2026-07-20,66,323-->
 - continuous real random variable / definition used in these notes ::@:: In these notes, a real random variable is called continuous if its law admits a density with respect to Lebesgue measure. <!--SR:!2026-07-30,74,323!2026-07-30,74,323-->
 
@@ -138,10 +134,10 @@ Conceptually, $\sigma(X)$ is the information carried by $X$: two outcomes cannot
 
 Flashcards for this section are as follows:
 
-- sigma-algebra generated by $X$ / definition ::@:: For a real random variable $X$, the sigma-algebra generated by $X$ is $\sigma(X)=\{X^{-1}(B):B\in\mathcal B(\mathbb R)\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- sigma-algebra generated by $X$ / definition ::@:: For a real random variable $X$, the sigma-algebra generated by $X$ is $\sigma(X)=\{X^{-1}(B):B\in\mathcal B(\mathbb R)\}$.
 - $\sigma(X)$ as a sigma-algebra ::@:: Preimages preserve complements and countable unions, so $\sigma(X)=\{X^{-1}(B):B\in\mathcal B(\mathbb R)\}$ is itself a sigma-algebra on $\Omega$.
-- why $\sigma(X)$ is the smallest sigma-algebra making $X$ measurable ::@:: If $\mathcal G$ is any sigma-algebra for which $X$ is measurable, then every set $X^{-1}(B)$ with $B\in\mathcal B(\mathbb R)$ belongs to $\mathcal G$; hence $\sigma(X)\subseteq\mathcal G$, making $\sigma(X)$ the smallest such sigma-algebra. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- $\sigma(X)$ as the information carried by $X$ ::@:: Two outcomes cannot be distinguished by $\sigma(X)$ if they produce the same observable value of $X$; consequently $\sigma(X)$ encodes exactly the information that $X$ reveals about the experiment. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- why $\sigma(X)$ is the smallest sigma-algebra making $X$ measurable ::@:: If $\mathcal G$ is any sigma-algebra for which $X$ is measurable, then every set $X^{-1}(B)$ with $B\in\mathcal B(\mathbb R)$ belongs to $\mathcal G$; hence $\sigma(X)\subseteq\mathcal G$, making $\sigma(X)$ the smallest such sigma-algebra.
+- $\sigma(X)$ as the information carried by $X$ ::@:: Two outcomes cannot be distinguished by $\sigma(X)$ if they produce the same observable value of $X$; consequently $\sigma(X)$ encodes exactly the information that $X$ reveals about the experiment.
 - why $\sigma(X)$ matters for conditional expectation ::@:: Conditional expectation is defined with respect to a sigma-algebra (information), not a single random variable; the sigma-algebra $\sigma(X)$ provides the formal link between a random variable and the information it carries.
 
 ## law and cumulative distribution

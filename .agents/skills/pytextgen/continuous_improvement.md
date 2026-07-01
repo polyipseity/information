@@ -30,7 +30,7 @@ content and the `init.py` wrapper.
 - Include explicit public‑holiday rows rather than skipping them; the
   `init.py` wrapper and other tools rely on their presence for accurate
   week numbering.
-- **2026‑02‑22 consolidation:** this document was added as part of a
+- __2026‑02‑22 consolidation:__ this document was added as part of a
   repo‑wide effort to place continuous‑learning notes in every skill
   directory.
 

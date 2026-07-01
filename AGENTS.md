@@ -4,20 +4,20 @@ Personal Markdown knowledgebase with flashcards, tutorials, and archived online 
 
 ## Quick reference
 
-- **`general/`**: Wikipedia encyclopedia articles (verbatim, flashcard-enabled)
-- **`special/`**: Coursework, tutorials, frameworks, language texts
-- **`archives/`**: Archived media and web content (Wikimedia Commons, sparse)
-- **`scripts/`**: Python scripts (init, convert_wiki, pack, publish, templates)
+- __`general/`__: Wikipedia encyclopedia articles (verbatim, flashcard-enabled)
+- __`special/`__: Coursework, tutorials, frameworks, language texts
+- __`archives/`__: Archived media and web content (Wikimedia Commons, sparse)
+- __`scripts/`__: Python scripts (init, convert_wiki, pack, publish, templates)
 
-**Git submodules**: `private/`
+__Git submodules__: `private/`
 
-**Not submodules**: `self/stash/` remains part of this repository and stores user-managed scratch scripts.
+__Not submodules__: `self/stash/` remains part of this repository and stores user-managed scratch scripts.
 
-**Submodule hierarchy**: Innermost `AGENTS.md` takes priority.
+__Submodule hierarchy__: Innermost `AGENTS.md` takes priority.
 
 ## Quick start: Common workflows
 
-**Creating notes**:
+__Creating notes__:
 
 ```bash
 # Scaffold new wiki-sourced note (see wiki-ingestion skill)
@@ -27,7 +27,7 @@ uv run -m convert_wiki  # Paste Wikipedia HTML from clipboard
 # `uv run -m init generate` yourself.
 ```
 
-**Maintaining content**:
+__Maintaining content__:
 
 ```bash
 # The repository rebuild workflows handle regeneration; agents and
@@ -38,7 +38,7 @@ uv run -m convert_wiki  # Paste Wikipedia HTML from clipboard
 uv run -m init clear --type CONTENT <optional-paths>
 ```
 
-**Organizing & publishing**:
+__Organizing & publishing__:
 
 ```bash
 # Generated content is rebuilt automatically during packaging; manual
@@ -55,8 +55,8 @@ For detailed workflows, see [core-workflows.instructions.md](.agents/instruction
 
 ## Dependencies
 
-- **Python >=3.14** — declared in `pyproject.toml` (this is the canonical source of Python dependency metadata).
-- **Node.js 24+** with `package.json` packages (commitlint, markdownlint, prettier, etc.).
+- __Python >=3.14__ — declared in `pyproject.toml` (this is the canonical source of Python dependency metadata).
+- __Node.js 24+__ with `package.json` packages (commitlint, markdownlint, prettier, etc.).
 - External tools: `git`, `git-filter-repo`.
 - Obsidian plugins: Extended MathJax (for `.obsidian/plugins/obsidian-latex/preamble.sty`).
 
@@ -64,15 +64,15 @@ For detailed workflows, see [core-workflows.instructions.md](.agents/instruction
 
 ## Developer tooling & testing conventions
 
-- Use `pyproject.toml` as the authoritative dependency source for Python. Do **not** reintroduce a long-lived `requirements.txt`; it is only a transient compatibility helper at best and the canonical metadata is maintained in `pyproject.toml`'s `[project]` and `[dependency-groups]` sections.
+- Use `pyproject.toml` as the authoritative dependency source for Python. Do __not__ reintroduce a long-lived `requirements.txt`; it is only a transient compatibility helper at best and the canonical metadata is maintained in `pyproject.toml`'s `[project]` and `[dependency-groups]` sections.
 - Keep runtime dependencies in `[project].dependencies`, developer/test tools in `[dependency-groups].dev`, and the full union of dependencies referenced by inline `# /// script` metadata in `[dependency-groups].scripts` even when a package also appears in `[project].dependencies`.
-- For inline `# /// script` metadata: (1) all files **must** begin with `#!/usr/bin/env python` shebang on line 1, (2) keep keys alphabetized (`dependencies`, `requires-python`, `timestamp`), (3) set `requires-python = ">=3.13.0"`.
+- For inline `# /// script` metadata: (1) all files __must__ begin with `#!/usr/bin/env python` shebang on line 1, (2) keep keys alphabetized (`dependencies`, `requires-python`, `timestamp`), (3) set `requires-python = ">=3.13.0"`.
   - `bun install` runs the `postinstall` hook which executes `uv sync` to install development extras declared under `[dependency-groups].dev`. Run `bun install` and then `bun run prepare` to install deps and register `prek.toml` hooks locally.
 - Formatting & linters: Use `prettier`, `markdownlint-cli2`, `ty`, and `ruff`. Ruff replaces Black and isort for code formatting and import sorting. Git hooks are managed by `prek.toml` (pre-commit, commit-msg, pre-push).
-- **Python entry points**: All Python scripts and modules must follow a strict convention for runnable entry points. See `.agents/instructions/python-entry-points.instructions.md` for comprehensive guidance on the `__name__ == "__main__"` pattern, async dispatch with `runnify`, and integration with Asyncer.
+- __Python entry points__: All Python scripts and modules must follow a strict convention for runnable entry points. See `.agents/instructions/python-entry-points.instructions.md` for comprehensive guidance on the `__name__ == "__main__"` pattern, async dispatch with `runnify`, and integration with Asyncer.
 - Testing conventions:
   - Tests are placed under `tests/` and must mirror the working tree structure where applicable (for example, `scripts/foo.py` → `tests/scripts/test_foo.py`).
-  - Use `pytest` (config in `pyproject.toml`) and name tests `test_*.py`. Use `pytest.mark.anyio` for async tests with the AnyIO plugin and prefer deterministic fixtures (use `monkeypatch`, `tmp_path: os.PathLike[str]` and the `conftest.py` fixtures provided). When writing tests, annotate the `tmp_path` fixture as `PathLike[str]` where possible and, when converting path-like objects to strings, **always** use `os.fspath(path_like)` rather than `str(path_like)` so the filesystem path protocol is correctly respected. Prefer importing concurrency helpers from Asyncer (`create_task_group`, `soonify`, `asyncify`) instead of calling `anyio.create_task_group` directly.
+  - Use `pytest` (config in `pyproject.toml`) and name tests `test_*.py`. Use `pytest.mark.anyio` for async tests with the AnyIO plugin and prefer deterministic fixtures (use `monkeypatch`, `tmp_path: os.PathLike[str]` and the `conftest.py` fixtures provided). When writing tests, annotate the `tmp_path` fixture as `PathLike[str]` where possible and, when converting path-like objects to strings, __always__ use `os.fspath(path_like)` rather than `str(path_like)` so the filesystem path protocol is correctly respected. Prefer importing concurrency helpers from Asyncer (`create_task_group`, `soonify`, `asyncify`) instead of calling `anyio.create_task_group` directly.
   - Include tests for all substantive behavior changes, especially for scripts and tools (`scripts/` and `scripts/`). Add tests that exercise error paths and edge cases.
   - CI and local pre-push both run the test suite: `prek` `pre-push` runs `bun run test` which invokes `uv run --locked pytest`. The GitHub Actions CI runs `bun install --frozen-lockfile --ignore-scripts && uv sync --locked` and then `bun run check` and `bun run test` to validate changes.
 - Type checking: The repo uses `ty` configured via `[tool.ty]` in `pyproject.toml`. Run `uv run --locked ty check` as part of local checks and pre-commit hooks.
@@ -99,7 +99,7 @@ Notes:
 - `prek.toml` hooks enforce pre-commit checks (markdownlint, prettier, ruff for Python). A pre-push hook runs `bun run test` to prevent pushing failing tests.
 - Prefer using `bun run <script>` wrappers to ensure consistent, reproducible tool versions and to trigger package lifecycle hooks.
 
-**Tooling & scripts:** Prefer using `bun` script wrappers when available. Run `bun run <script>` from the repository root to ensure project-local tools and the lockfile are used.
+__Tooling & scripts:__ Prefer using `bun` script wrappers when available. Run `bun run <script>` from the repository root to ensure project-local tools and the lockfile are used.
 
 Common scripts (see `package.json`):
 
@@ -110,10 +110,10 @@ Common scripts (see `package.json`):
 
 This enables:
 
-- **Commit message validation** (commitlint) - enforces Conventional Commits
-- **Markdown formatting checks** (markdownlint) - validates `**/*.md` files
-- **Pre-commit hooks** - auto-fixes and validates Markdown before commits
-- **CI workflows** - GitHub Actions runs the same checks on push/PR
+- __Commit message validation__ (commitlint) - enforces Conventional Commits
+- __Markdown formatting checks__ (markdownlint) - validates `**/*.md` files
+- __Pre-commit hooks__ - auto-fixes and validates Markdown before commits
+- __CI workflows__ - GitHub Actions runs the same checks on push/PR
 
 ## Custom instructions
 
@@ -150,25 +150,25 @@ Instruction files auto-apply via glob patterns. See `.agents/instructions/` for 
 
 Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.agents/skills/` for details:
 
-**Skills metadata**: Each skill is self-described in its `SKILL.md` frontmatter with `name`, `description`, and `applyTo` (and optional `parent` or `license`). Agents may inspect individual skill documents directly.
+__Skills metadata__: Each skill is self-described in its `SKILL.md` frontmatter with `name`, `description`, and `applyTo` (and optional `parent` or `license`). Agents may inspect individual skill documents directly.
 
 ### Content creation & ingestion
 
-- **[wiki-ingestion](.agents/skills/wiki-ingestion/SKILL.md)** — Import Wikipedia articles, normalize links/media, scaffold new notes
-- **[pytextgen](.agents/skills/pytextgen/SKILL.md)** — Regenerate/clear content blocks, fence syntax, cloze markup, debugging
-- **[tools](.agents/skills/tools/SKILL.md)** — Repository-wide tooling overview (includes templates & academic LMS converters), tool coordination, dependency management
-- **[pyarchivist](.agents/skills/pyarchivist/SKILL.md)** — Archive online content, auto-maintain `index.md`, media management
-- **[academic-notes](.agents/skills/academic-notes/SKILL.md)** — Writing notes in academic course style: frontmatter conventions, index & weekly structure, flashcard metadata, cross-references, and scaffolding templates (institution-agnostic)
+- __[wiki-ingestion](.agents/skills/wiki-ingestion/SKILL.md)__ — Import Wikipedia articles, normalize links/media, scaffold new notes
+- __[pytextgen](.agents/skills/pytextgen/SKILL.md)__ — Regenerate/clear content blocks, fence syntax, cloze markup, debugging
+- __[tools](.agents/skills/tools/SKILL.md)__ — Repository-wide tooling overview (includes templates & academic LMS converters), tool coordination, dependency management
+- __[pyarchivist](.agents/skills/pyarchivist/SKILL.md)__ — Archive online content, auto-maintain `index.md`, media management
+- __[academic-notes](.agents/skills/academic-notes/SKILL.md)__ — Writing notes in academic course style: frontmatter conventions, index & weekly structure, flashcard metadata, cross-references, and scaffolding templates (institution-agnostic)
 
-**Skill flow**: Most workflows use multiple skills in sequence; see individual skill files for cross-references and integration guidance.
+__Skill flow__: Most workflows use multiple skills in sequence; see individual skill files for cross-references and integration guidance.
 
 ## Recent updates (agent guidance)
 
 - 2026-04-20: Inline `# /// script` policy tightened — every package referenced by inline script metadata must also appear in `[dependency-groups].scripts`; inline metadata keys should stay alphabetized and include `requires-python = ">=3.13.0"`. Clarified that `self/stash/` is part of the parent repo while only specific `self/*` folders are git submodules.
 - 2026-02-09: Added `.agents/instructions/agent-quickstart.instructions.md` — a one-page checklist for AI agents (startup commands, quick gotchas, test/format sequence, and submodule guardrails). Linked core instruction files and submodule AGENTS.md to improve discoverability and cohesion.
-- 2026-02-09: Updated commit message guidance — agents should prefer wrapping commit body lines to **72 characters** (readability/buffer). Tooling (commitlint) continues to enforce a **100-character** hard limit, so ensure lines are ≤100 to pass.
-- 2026-03-02: Validation strictness increased — **all warnings must be addressed just like errors** (fix or suppress with a valid rationale). The validator message has been updated accordingly.
-- **MD060 (table-column-style):** Agents should **ignore** MD060 violations; do not attempt to fix them. The human will fix table formatting manually.
+- 2026-02-09: Updated commit message guidance — agents should prefer wrapping commit body lines to __72 characters__ (readability/buffer). Tooling (commitlint) continues to enforce a __100-character__ hard limit, so ensure lines are ≤100 to pass.
+- 2026-03-02: Validation strictness increased — __all warnings must be addressed just like errors__ (fix or suppress with a valid rationale). The validator message has been updated accordingly.
+- __MD060 (table-column-style):__ Agents should __ignore__ MD060 violations; do not attempt to fix them. The human will fix table formatting manually.
 
 ## AI agent quickstart ✅
 
@@ -177,6 +177,6 @@ Enable `chat.useAgentSkills` in VS Code for auto-loading. See `.agents/skills/` 
 - Safe startup: `bun install` → `bun run prepare` → `bun run format` → `bun run check` → `bun run test`.
 - Regeneration of content happens automatically, so there's no need to run `uv run -m init generate -C`; use `uv run -m pack` and `uv run -m publish` only after tests pass and user approval for publishing sensitive content.
 - Keep inline `# /// script` metadata synchronized with `pyproject.toml`: every inline-script dependency belongs in `[dependency-groups].scripts`, files must begin with `#!/usr/bin/env python` shebang on line 1, metadata keys stay alphabetized, and `requires-python` stays at `>=3.13.0`.
-- Always follow `.agents/instructions/commit-convention.instructions.md` for agent-made commits (Conventional Commits, trailer rules); **prefer wrapping commit body lines to 72 characters or fewer for readability and buffer, but ensure lines are ≤100 to pass commitlint.**
+- Always follow `.agents/instructions/commit-convention.instructions.md` for agent-made commits (Conventional Commits, trailer rules); __prefer wrapping commit body lines to 72 characters or fewer for readability and buffer, but ensure lines are ≤100 to pass commitlint.__
 - Ask for explicit permission before editing `private/`, any actual submodule under `self/`, or any other submodule content; `self/stash/` is not a submodule, but it is still user-owned scratch space and should only be changed when requested.
 - Use the Todo List Tool for multi-step tasks and include short, test-backed PRs with a clear rationale when making non-trivial changes.
