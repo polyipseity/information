@@ -121,7 +121,8 @@ Flashcards for this section are as follows:
 > | {@{Lease liability}@} | {@{24&nbsp;854}@} | |
 > | {@{Cash}@} | | {@{24&nbsp;854}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Interest = €90&nbsp;215 × 4% = €3&nbsp;609; depreciation = €115&nbsp;069 ÷ 5 = €23&nbsp;014 per year.
 >
 > | {@{31 December 2025 — interest and depreciation}@} | Dr | Cr |
@@ -131,7 +132,8 @@ Flashcards for this section are as follows:
 > | {@{Depreciation expense}@} | {@{23&nbsp;014}@} | |
 > | {@{Accumulated depreciation — ROU asset}@} | | {@{23&nbsp;014}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Oakhurst Mining — LL at 31 Dec 2025 (after interest accrual): €93&nbsp;824. Second annual payment due 1 Jan 2026:
 >
 > | {@{1 January 2026 — second payment}@} | Dr | Cr |
@@ -139,7 +141,8 @@ Flashcards for this section are as follows:
 > | {@{Lease liability}@} | {@{24&nbsp;854}@} | |
 > | {@{Cash}@} | | {@{24&nbsp;854}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Oakhurst Mining — LL after second payment: €68&nbsp;970. Year 2 interest: €68&nbsp;970 × 4% = €2&nbsp;759; depreciation unchanged at €23&nbsp;014 per year.
 >
 > | {@{31 December 2026 — interest and depreciation}@} | Dr | Cr |
@@ -291,7 +294,8 @@ Flashcards for this section are as follows:
 >
 > Interest: €34&nbsp;581 × 8% = {@{€2&nbsp;766}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Reigate Shipping (lessee — Scenario 1) recognizes a finance lease. ROU asset = LL = {@{€48&nbsp;000}@}. Depreciation per year: €48&nbsp;000 / 4 = {@{€12&nbsp;000}@}.
 >
 > | {@{1 January 2025 — lessee recognizes lease and first payment}@} | Dr | Cr |
@@ -431,7 +435,8 @@ Flashcards for this section are as follows:
 >
 > Lease term: 5 / 6 = {@{83%}@} ≥ 75% → met. PV test: €93&nbsp;194 / €100&nbsp;000 = {@{93.2%}@} ≥ 90% → met. Two tests satisfied → {@{finance (sales-type) lease}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Meridian (FV €100&nbsp;000, cost €78&nbsp;000, annual payment €21&nbsp;614, URV €10&nbsp;000, rate 8%, 5 years) — gross investment, net investment, unearned income, and selling profit:
 >
 > __Gross investment, net investment, and unearned income:__
@@ -452,7 +457,8 @@ Flashcards for this section are as follows:
 >
 > Both Sales and COGS are reduced by PV(URV) = {@{€6&nbsp;806}@}, leaving gross profit unchanged at {@{€22&nbsp;000}@}. The unguaranteed residual portion is recognized in interest revenue over the lease term rather than on day 1.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Meridian — day-1 journal entries (gross investment method), first payment received, and Year 1 interest revenue:
 >
 > __Day-1 entries (Meridian — gross investment method):__
@@ -479,7 +485,8 @@ Flashcards for this section are as follows:
 >
 > Interest = €78&nbsp;386 × 8% = {@{€6&nbsp;271}@}. Net investment rises to {@{€84&nbsp;657}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > __Cliffdale (lessee)__ does not know the implicit rate; uses IBR 10%:
 >
 > $\text{LL} = 21\,614 \times \underbrace{4.1699}_{\text{PV annuity-due, 10\%, 5 periods}} = {@{€90\,128}@}$

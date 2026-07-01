@@ -36,7 +36,8 @@ Representative journal entry examples:
 > | {@{Share capital — ordinary (10 000 × 10)}@}                         |               | {@{100 000}@} |
 > | {@{Share premium — ordinary}@}                                       |               | {@{40 000}@}  |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Astera case 2._ The fair value of Astera's shares is not known, but the patent portfolio's fair value is {@{150 000}@}.
 >
 > | {@{Issue ordinary shares for patent (measure at patent fair value)}@} | Dr            | Cr            |
@@ -45,7 +46,8 @@ Representative journal entry examples:
 > | {@{Share capital — ordinary (10 000 × 10)}@}                          |               | {@{100 000}@} |
 > | {@{Share premium — ordinary}@}                                        |               | {@{50 000}@}  |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Astera case 3._ Neither the share fair value nor the patent-portfolio fair value is observable; an independent consultant values the portfolio at {@{125 000}@} based on discounted expected cash flows.
 >
 > | {@{Issue ordinary shares for patent (measure at DCF value)}@} | Dr            | Cr            |
@@ -56,7 +58,8 @@ Representative journal entry examples:
 >
 > _Explanation._ In each case, the asset is recorded at its measured fair value and equity is credited for the same amount (par plus premium); only the measurement basis (shares, patent, or discounted cash flows) changes.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Astera case 4: fair value below par._ Astera Biotech plc issues {@{10 000 ordinary shares}@}, par {@{10 each, so total par value is 100 000}@}, for a patent portfolio whose fair value is only {@{85 000, leaving a 15 000 shortfall below par}@}.
 >
 > | {@{Issue shares for patent — fair value (85 000) below total par (100 000)}@} | Dr            | Cr            |
@@ -67,7 +70,8 @@ Representative journal entry examples:
 >
 > _Explanation._ _Share capital_ is credited at the full par amount of {@{100 000 for the 10 000 ordinary shares issued}@}. The asset is recorded at its fair value of {@{85 000 for the patent received}@}. The balancing debit of {@{15 000 falls on Share premium — ordinary}@}, giving it a {@{debit (negative) balance instead of the usual credit premium balance}@}. Under IFRS this is permissible but unusual.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Follow-on share issue that partly cures the negative premium._ After the below-par Astera patent issue above, the company later issues {@{5 000 additional ordinary shares with par 10 for cash of 60 000}@}. The new issue creates a normal premium of {@{10 000}@}, which offsets part of the earlier {@{15 000 debit balance in Share premium — ordinary}@}.
 >
 > | {@{Issue additional ordinary shares and partly offset the earlier negative premium balance}@} | Dr | Cr |
@@ -125,7 +129,8 @@ Representative journal entry examples:
 >
 > _Explanation._ Gross proceeds are {@{900 000 (300 000 × 3)}@}; underwriting costs of {@{20 000}@} reduce the amount credited to equity, so only {@{880 000}@} is recorded in Cash and Share premium is {@{580 000}@} instead of {@{600 000}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Harbor Glass case B: direct costs exceed premium._ Harbor Glass plc issues {@{200 000 ordinary shares at 1.50 per share}@}; par value is {@{1.00 per share}@}. Direct costs total {@{150 000}@}. Net cash received is {@{150 000}@}.
 >
 > | {@{Issue ordinary shares — direct costs (150 000) exceed premium (100 000)}@} | Dr            | Cr            |
@@ -135,7 +140,8 @@ Representative journal entry examples:
 >
 > _Explanation._ Gross proceeds are {@{300 000 (200 000 × 1.50)}@}; premium before costs is {@{100 000}@}. Direct costs of {@{150 000}@} first exhaust the {@{100 000 premium, reducing Share premium to zero}@}, and the remaining {@{50 000 reduces Share capital from 200 000 to 150 000}@}. _Share premium_ ends at {@{zero rather than a negative balance}@}; the excess is borne by _Share capital_, not carried as a debit balance on _Share premium_.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Harbor Glass preference issue costs can exhaust preference premium too._ Harbor Glass plc issues {@{40 000 preference shares at 5.20 per share}@}; par value is {@{5.00 per share}@}. Direct issue costs are {@{12 000}@}, so the original {@{8 000 preference premium is not enough}@}.
 >
 > | {@{Issue preference shares when direct costs exceed the preference premium generated}@} | Dr | Cr |
@@ -256,7 +262,8 @@ When a company has more than one preference class, do __not__ collapse everythin
 
 That means both issuance entries and dividend-allocation calculations are usually done __class by class first__, and only then summarized for presentation.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Issuing two preference classes with different par values._ Crescent Utilities plc issues {@{10 000 Series A preference shares with €5 par at €6 each}@} and {@{4 000 Series B preference shares with €20 par at €22 each}@}.
 >
 > | {@{Issue multiple preference classes while keeping each class's capital and premium separate}@} | Dr | Cr |
@@ -269,7 +276,8 @@ That means both issuance entries and dividend-allocation calculations are usuall
 >
 > _Explanation._ The company does {@{not lump the two classes into one preference-share-capital figure before computing par and premium}@}. Each class keeps its own par-value and premium logic.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Dividend allocation with different preference par values._ Suppose Series A above carries an {@{8% dividend rate while Series B carries 6%, so each class's fixed dividend must be computed separately}@}. If the board declares total dividends of {@{25 000 to allocate across both preference classes and ordinary shareholders}@} and both classes are {@{non-cumulative and non-participating}@}, the class-by-class priority calculation is:
 >
 > - {@{Series A preference dividend = 50 000 × 8% = 4 000}@}
@@ -326,7 +334,8 @@ Representative journal entry examples:
 > | {@{Treasury shares (at cost)}@}           |              | {@{50 000}@} |
 > | {@{Share premium — treasury}@}            |              | {@{10 000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _SilverPeak case B: reissue below cost — Share premium — treasury balance sufficient._ The same SilverPeak treasury shares (cost {@{50 000}@}) are reissued for {@{45 per share}@} (proceeds {@{45 000}@}). Existing _Share premium — treasury_ balance is {@{15 000}@}.
 >
 > | {@{Reissue treasury shares below cost (shortfall covered by premium)}@} | Dr           | Cr           |
@@ -335,7 +344,8 @@ Representative journal entry examples:
 > | {@{Share premium — treasury (shortfall: 50 000 − 45 000)}@}             | {@{5 000}@}  |              |
 > | {@{Treasury shares (at cost)}@}                                         |              | {@{50 000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _SilverPeak case C: reissue below cost — shortfall exceeds premium, hits retained earnings._ The same SilverPeak treasury shares (cost {@{50 000}@}) are reissued for {@{30 per share}@} (proceeds {@{30 000}@}). Existing _Share premium — treasury_ balance is only {@{8 000}@}.
 >
 > | {@{Reissue treasury shares below cost (excess shortfall hits retained earnings)}@} | Dr           | Cr           |
@@ -434,7 +444,8 @@ __Summary__: The most common equity account that can be negative is _Retained ea
 >
 > _Explanation._ This is the rare IFRS case in this course where {@{Share premium — ordinary carries a debit balance}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Negative retained-earnings example._ Treasury shares carried at {@{€50&nbsp;000}@} are reissued for only {@{€30&nbsp;000}@}, and there is {@{no Share premium — treasury balance remaining}@}. The full shortfall therefore hits retained earnings.
 >
 > | {@{Reissue treasury shares below cost when no treasury premium remains}@} | Dr | Cr |
@@ -508,7 +519,8 @@ Representative journal entry examples:
 > | {@{Dividends payable}@}            | {@{900 000}@} |               |
 > | {@{Cash}@}                         |               | {@{900 000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Lotus Capital Ltd. transfers to shareholders some of its investments in securities, with carrying amount {@{1 250 000}@}. On December 28, 2024, it declares a property dividend to shareholders of record January 15, 2025, to be distributed January 30, 2025. At the declaration date, the investments have fair value {@{2 000 000}@}.
 >
 > | {@{At date of declaration (remeasure and declare dividend)}@} | Dr              | Cr              |
@@ -523,7 +535,8 @@ Representative journal entry examples:
 > | {@{Property dividends payable}@}                 | {@{2 000 000}@} |                 |
 > | {@{Equity investments}@}                         |                 | {@{2 000 000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Corporate tax consequence of the appreciated property dividend._ If the jurisdiction taxes the {@{750 000 gain created when the investment is remeasured from carrying amount 1 250 000 to fair value 2 000 000}@}, and the tax rate is {@{25%}@}, the company must also recognize the tax effect of that gain.
 >
 > | {@{Recognise current tax payable on the gain created by the property dividend remeasurement}@} | Dr | Cr |
@@ -533,7 +546,8 @@ Representative journal entry examples:
 >
 > _Explanation._ The property dividend can therefore trigger both a {@{distribution of assets}@} and a {@{current tax charge on the remeasurement gain}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Granite Ridge Mines plc issues a dividend to ordinary shareholders of {@{1 200 000}@}. The announcement states that {@{900 000}@} is income and {@{300 000}@} is a return of capital.
 >
 > | {@{At date of declaration}@}   | Dr            | Cr              |
@@ -547,7 +561,8 @@ Representative journal entry examples:
 > | {@{Dividends payable}@}  | {@{1 200 000}@} |                 |
 > | {@{Cash}@}               |                 | {@{1 200 000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Willow Foods plc has {@{100 000 ordinary shares, par 1}@}, retained earnings {@{50 000}@}, and declares a {@{10% share dividend}@}. It issues {@{10 000 additional shares}@}. Fair value at the time is {@{8 per share}@}, but the entry uses par value.
 >
 > | {@{At date of declaration (10% share dividend)}@} | Dr           | Cr           |
@@ -560,7 +575,8 @@ Representative journal entry examples:
 > | {@{Ordinary share dividend distributable}@} | {@{10 000}@} |              |
 > | {@{Share capital — ordinary}@}              |              | {@{10 000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario (IFRS — large share dividend at par)._ Copperleaf Metals plc has {@{50 000 ordinary shares, par 2}@}, retained earnings {@{300 000}@}, and declares a {@{40% share dividend}@}. It issues {@{20 000 additional shares}@}. Fair value at the time is {@{18 per share}@}. Under IFRS the entry uses {@{par value}@}, not fair value.
 >
 > | {@{At date of declaration (40% share dividend — IFRS, at par)}@} | Dr           | Cr           |
@@ -575,7 +591,8 @@ Representative journal entry examples:
 >
 > _IFRS vs US GAAP comparison for the Copperleaf example._ Under __IFRS__ (this course), _Retained earnings_ decreases by only {@{40 000}@} (par 2 × 20 000 new shares) and _Share capital_ increases by the same {@{40 000}@}; _Share premium_ is unchanged. Under __US GAAP__ (large dividend, for comparison), _Retained earnings_ would decrease by {@{360 000}@} (fair value 18 × 20 000 shares), _Share capital_ would increase {@{40 000}@} (par), and _Share premium_ would increase {@{320 000}@} (excess). The IFRS par-value method results in a smaller reduction to _Retained earnings_ and no premium creation; the US GAAP fair-value method transfers more from _Retained earnings_ and recognises the economic significance of issuing a large block of new shares.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Post-declaration market-price collapse does not reopen the entry._ Using the same {@{40% share dividend on 20 000 new shares}@}, suppose the market price falls from {@{18 at declaration}@} to {@{11 before distribution}@}. Under __IFRS__, the entry still stays at {@{par value 40 000}@}. Under the __US GAAP comparison__, the fair-value-based declaration amount would still stay at the {@{declaration-date fair value of 360 000 rather than being remeasured down to 220 000}@}.
 >
 > | {@{Distribution after a market-price drop — IFRS entry unchanged}@} | Dr | Cr |
@@ -585,7 +602,8 @@ Representative journal entry examples:
 >
 > _Explanation._ The exam trap is to think the later market price rewrites the dividend accounting. It does {@{not rewrite the already-fixed declaration-date measurement}@}. The relevant amount is already fixed when the dividend is {@{declared}@}; IFRS stays at {@{par value}@}, and even the US-GAAP comparison would keep the {@{declaration-date fair-value measurement}@} rather than remeasuring again before distribution.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Out of a {@{50 000 total dividend pool}@}, ordinary shares have par {@{400 000}@}; preference shares have par {@{100 000}@} with dividend rate {@{6%}@}. Four allocation patterns are common.
 >
 > __Non-cumulative, non-participating:__ preference {@{6 000}@}; ordinary {@{44 000}@}.
@@ -604,7 +622,8 @@ Representative journal entry examples:
 > | {@{Dividends payable — preference}@}                   |              | {@{18 000}@} |
 > | {@{Dividends payable — ordinary}@}                     |              | {@{32 000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Preference dividend allocation (same pool: 50 000 total, pref par 100 000 at 6%, ord par 400 000) — participating patterns and arrears note:
 >
 > _Note on dividends in arrears._ Even for cumulative preference shares, {@{no liability is recorded for dividends in arrears until the board declares a dividend}@}; the arrears are {@{disclosed in the notes to the financial statements, not recognised as Dividends payable}@} until declaration.
@@ -693,7 +712,8 @@ Finally, some transactions interact with share dividends before the distribution
 >
 > _Explanation._ Because the error is found {@{after declaration but before payment}@}, the correction simply reverses part of the original declaration entry.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Treasury shares do not receive dividends._ SilverPeak Retail plc has {@{100&nbsp;000 issued ordinary shares}@}, of which {@{5&nbsp;000 are held as treasury shares}@}. It declares a cash dividend of {@{€0.50 per share}@}. The dividend is paid only on the {@{95&nbsp;000 shares outstanding in outside hands}@}, so the total dividend is {@{€47&nbsp;500}@}, not {@{€50&nbsp;000}@}.
 >
 > | {@{Declare cash dividend excluding treasury shares}@} | Dr | Cr |
@@ -818,7 +838,8 @@ When one transaction touches several equity accounts, present each class and eac
 
 The journal entry should show the __movement by account__. The statement of financial position or statement of changes in equity should show the __ending balances by account__. Those are related but not identical views.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Comprehensive equity-presentation example._ A company raises cash by issuing {@{20 000 ordinary shares with €2 par at €6 each}@} and {@{5 000 preference shares with €10 par at €12 each}@}. The transaction should be presented class by class in the journal entry.
 >
 > | {@{Present a combined equity-raising transaction by separate equity lines instead of lumping everything together}@} | Dr | Cr |
@@ -831,7 +852,8 @@ The journal entry should show the __movement by account__. The statement of fina
 >
 > _Presentation logic._ The journal entry shows the {@{movement in each equity account}@}. If the statement of financial position were prepared immediately afterward, the equity section would present those same balances as separate line items such as {@{Share capital — ordinary, Share premium — ordinary, Share capital — preference, Share premium — preference, Retained earnings, reserves, and Treasury shares (deduction)}@}. That is the clean way to present an equity-heavy transaction on an exam.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Simple statement-of-changes logic._ Beginning retained earnings are {@{300 000}@}. Profit for the year is {@{120 000}@}. Cash dividends are {@{40 000}@}, and the company transfers {@{20 000}@} from retained earnings to a capital-expenditure reserve.
 >
 > | Equity component | Beginning | Change | Ending |

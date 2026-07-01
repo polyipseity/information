@@ -61,7 +61,8 @@ Representative examples:
 >
 > _Course note._ Use the course's rounded equity figure if you are matching the slide deck exactly; the accounting idea is unchanged.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Conversion at maturity._ For the {@{Roche convertible bonds issued above — 2&nbsp;000 bonds with total face value €2&nbsp;000&nbsp;000, convertible into 500&nbsp;000 ordinary shares with €1 par}@}, assume conversion occurs at maturity instead of cash repayment. The liability is removed and the equity component is transferred within equity.
 >
 > | {@{Convert bonds into ordinary shares at maturity}@} | Dr | Cr |
@@ -73,10 +74,12 @@ Representative examples:
 >
 > _Explanation._ There is {@{no gain or loss on conversion}@}. The transaction is treated as a capital reclassification, not a settlement gain.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Induced conversion._ If the issuer offers an extra cash sweetener to persuade bondholders to convert early, that extra payment is a {@{current-period conversion expense}@}, not part of ordinary share premium.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Repurchase of convertible debt before maturity._ A company repurchases convertible bonds for {@{€990&nbsp;000 cash}@}. At the repurchase date, the {@{liability carrying amount is €950&nbsp;000}@}, the {@{fair value of the liability component is €970&nbsp;000}@}, and the remaining {@{€20&nbsp;000 of the repurchase price is attributed to the equity component}@}.
 >
 > | {@{Repurchase convertible debt before maturity}@} | Dr | Cr |
@@ -88,7 +91,8 @@ Representative examples:
 >
 > _Explanation._ The liability piece is settled as debt, so the company compares {@{liability fair value €970&nbsp;000}@} with {@{liability carrying amount €950&nbsp;000}@} and recognizes a {@{€20&nbsp;000 loss because the liability fair value exceeds its carrying amount}@}. The residual {@{€20&nbsp;000 repurchase amount attributable to the equity component}@} reduces the equity component directly.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Same instrument converted instead of repurchased._ Assume the same convertible debt above is {@{converted into ordinary shares immediately instead of being repurchased for cash}@}. At the conversion date, the {@{liability carrying amount is still €950&nbsp;000}@} and the remaining {@{Share premium — conversion equity is €20&nbsp;000}@}. The conversion produces ordinary shares with total {@{€100&nbsp;000 par}@}.
 >
 > | {@{Convert the same convertible debt instead of repurchasing it}@} | Dr | Cr |
@@ -100,7 +104,8 @@ Representative examples:
 >
 > _Explanation._ This is the contrast the exam likes: a {@{cash repurchase can create a gain or loss because debt is being extinguished for consideration}@}, but a {@{conversion is only a reclassification within equity and therefore creates no gain or loss}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Induced conversion with a cash sweetener._ A company has {@{€500&nbsp;000 par convertible bonds}@} outstanding, convertible into {@{40&nbsp;000 ordinary shares with €1 par}@}. The original balance in {@{Share premium — conversion equity is €12&nbsp;000}@}. To induce immediate conversion, the company pays a {@{€30&nbsp;000 cash sweetener}@}.
 >
 > | {@{Record induced conversion of convertible debt}@} | Dr | Cr |
@@ -145,7 +150,8 @@ A __convertible preference share__ in this course is therefore treated as equity
 > | {@{Share capital — preference}@} | | {@{1&nbsp;000}@} |
 > | {@{Share premium — conversion equity}@} | | {@{199&nbsp;000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Convertible preference shares converted into ordinary shares._ Assume {@{2&nbsp;000 preference shares with €2 par}@} were issued at {@{€60 each}@}, so total book value is {@{€120&nbsp;000}@}. Each preference share converts into {@{4 ordinary shares with €5 par}@}.
 >
 > | {@{Convert preference shares into ordinary shares}@} | Dr | Cr |
@@ -157,7 +163,8 @@ A __convertible preference share__ in this course is therefore treated as equity
 >
 > _Explanation._ The total {@{book value of the preference shares stays inside equity}@}. The conversion only reallocates that book value between _ordinary share capital_ and _ordinary share premium_.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Repurchase of convertible preference shares._ Using the same preference shares above, assume the company repurchases them for {@{€150&nbsp;000 cash}@} instead of converting them.
 >
 > | {@{Repurchase convertible preference shares above book value}@} | Dr | Cr |
@@ -206,7 +213,8 @@ The lecture also distinguishes __warrants__ from the shorter-term __options__ us
 > | {@{Bonds payable}@} | | {@{9&nbsp;707&nbsp;852}@} |
 > | {@{Share premium — share warrants}@} | | {@{492&nbsp;148}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Exercise of all warrants._ Assume the detachable warrants above carry a remaining balance of {@{€492&nbsp;148}@} and let investors buy {@{10&nbsp;000 ordinary shares with €5 par}@} at {@{€25 each}@}.
 >
 > | {@{Exercise detachable warrants}@} | Dr | Cr |
@@ -216,7 +224,8 @@ The lecture also distinguishes __warrants__ from the shorter-term __options__ us
 > | {@{Share capital — ordinary}@} | | {@{50&nbsp;000}@} |
 > | {@{Share premium — ordinary}@} | | {@{692&nbsp;148}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Partial warrant exercise followed by lapse of the rest._ Suppose instead that only {@{8&nbsp;000 of the 10&nbsp;000 detachable warrants are exercised}@} at {@{€25 each}@}, while the remaining {@{2&nbsp;000 warrants expire unexercised}@}. The warrant-equity balance is therefore split proportionally.
 >
 > | {@{Exercise only part of the detachable warrants}@} | Dr | Cr |
@@ -263,7 +272,8 @@ For a __share option plan__:
 > | {@{Compensation expense}@} | {@{11&nbsp;000&nbsp;000}@} | |
 > | {@{Share premium — share options}@} | | {@{11&nbsp;000&nbsp;000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Acceleration of vesting after one year._ Using the same grant above, assume a change in control causes the company to {@{accelerate vesting at the end of year 1}@}. The remaining unrecognized compensation of {@{¥11&nbsp;000&nbsp;000}@} must be recognized immediately.
 >
 > | {@{Recognize the remaining share-option compensation when vesting is accelerated}@} | Dr | Cr |
@@ -273,7 +283,8 @@ For a __share option plan__:
 >
 > _Explanation._ The total grant-date fair value does {@{not change}@}; what changes is the {@{timing of expense recognition}@}. Acceleration creates a nasty one-period hit because the remaining compensation can no longer be spread over future service years.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Modification (repricing) of share options._ A company originally granted {@{10&nbsp;000 share options}@} with {@{exercise price €50}@} and total grant-date fair value {@{€80&nbsp;000}@} (€8 per option) over a {@{4-year vesting period}@}. After {@{2 years}@}, the share price has fallen below the exercise price, so the company reduces the exercise price to {@{€35}@}. At the modification date, the fair value of the unmodified options is {@{€3 per option}@} and the fair value of the modified options is {@{€7 per option}@}. The {@{incremental fair value is €4 per option (€7 − €3)}@}, giving total incremental compensation of {@{10&nbsp;000 × €4 = €40&nbsp;000}@} recognized over the remaining {@{2 years}@}.
 >
 > | {@{Recognize annual compensation expense in each of the 2 remaining years after repricing}@} | Dr | Cr |
@@ -283,7 +294,8 @@ For a __share option plan__:
 >
 > _Explanation._ The charge each year combines the {@{original annual amount (€80&nbsp;000 ÷ 4 = €20&nbsp;000)}@} and the {@{incremental annual amount (€40&nbsp;000 ÷ 2 = €20&nbsp;000)}@} for a total of {@{€40&nbsp;000 per year}@}. Under IFRS 2, {@{any modification that increases the fair value of an equity-settled award must be recognized in addition to the original grant-date fair value}@}; a modification that reduces fair value is {@{ignored and the original grant-date compensation continues unchanged}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Partial exercise of vested share options._ Assume the company originally granted {@{6&nbsp;000 options}@} with total grant-date fair value {@{€12&nbsp;000&nbsp;000}@}. After vesting, executives exercise {@{1&nbsp;500 options}@} at {@{€4&nbsp;000 per share}@}. Each ordinary share has {@{€100 par}@}.
 >
 > | {@{Record partial exercise of vested share options}@} | Dr | Cr |
@@ -295,7 +307,8 @@ For a __share option plan__:
 >
 > _Explanation._ Only the portion of {@{Share premium — share options related to the exercised 1&nbsp;500 options}@} is transferred on exercise.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Expiration of unexercised options._ If the remaining {@{4&nbsp;500 options}@} (grant-date fair value €2&nbsp;000 each) later expire unexercised, the unexercised balance is reclassified within equity.
 >
 > | {@{Record expiration of unexercised share options}@} | Dr | Cr |
@@ -339,7 +352,8 @@ For a __restricted share plan__:
 > | {@{Compensation expense}@} | {@{4&nbsp;000}@} | |
 > | {@{Unearned compensation}@} | | {@{4&nbsp;000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Restricted-share forfeiture before vesting._ Assume a company granted {@{500 restricted shares with €2 par and €30 fair value per share}@}. Total unearned compensation at grant was {@{€15&nbsp;000}@}. After {@{2 years of a 5-year service period}@}, the executive leaves before vesting, so previously recognized compensation of {@{€6&nbsp;000}@} must be reversed.
 >
 > | {@{Record forfeiture of restricted shares before vesting}@} | Dr | Cr |
@@ -422,7 +436,8 @@ Flashcards for this section are as follows:
 >
 > _Explanation._ The liability keeps changing afterward because the eventual settlement is in cash, not in shares.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Remeasurement of a cash-settled SAR liability._ Assume that at the end of the next year the required liability under the same SAR plan is reassessed downward to only {@{R&#36;10&nbsp;000}@}. Because the company already carries a liability of {@{R&#36;15&nbsp;000}@}, it recognizes {@{negative compensation expense of R&#36;5&nbsp;000}@}.
 >
 > | {@{Record downward remeasurement of SAR liability}@} | Dr | Cr |
@@ -432,7 +447,8 @@ Flashcards for this section are as follows:
 >
 > _Explanation._ Liability-settled SARs are {@{remeasured each reporting period}@}, so compensation expense can move {@{up or down}@} before settlement.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Cash settlement of SARs._ If the company later settles the SARs for {@{R&#36;28&nbsp;000 cash}@} when the liability on the books is still {@{R&#36;10&nbsp;000}@}, it first records the final increase and then pays cash.
 >
 > | {@{Record final increase in SAR liability before settlement}@} | Dr | Cr |
@@ -445,7 +461,8 @@ Flashcards for this section are as follows:
 > | {@{Liability under share-appreciation plan}@} | {@{28&nbsp;000}@} | |
 > | {@{Cash}@} | | {@{28&nbsp;000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Partial cash settlement while some vested SARs remain outstanding._ Assume a liability-award SAR plan has {@{20&nbsp;000 vested SARs and a carrying liability of R&#36;60&nbsp;000 immediately before settlement}@}. The company settles only {@{8&nbsp;000 SARs for R&#36;26&nbsp;000 cash}@}; the carrying amount of the settled portion is therefore {@{R&#36;24&nbsp;000 = R&#36;60&nbsp;000 × 8&nbsp;000 / 20&nbsp;000}@}.
 >
 > | {@{Record partial settlement of vested cash-settled SARs when cash paid exceeds the carrying amount of the portion settled}@} | Dr | Cr |
@@ -456,7 +473,8 @@ Flashcards for this section are as follows:
 >
 > _Explanation._ Cash-settled SARs are settled against the {@{carrying amount of the rights actually extinguished}@}. If cash paid is higher than that carrying amount, the excess is {@{current-period compensation expense rather than an equity reclassification}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Forfeiture of unvested cash-settled SARs before the service period ends._ Suppose a company had already recognized a {@{R&#36;18&nbsp;000 liability}@} for a liability-award SAR plan, but employee departures mean that {@{one-third of the unvested rights are now expected to be forfeited}@}. The revised required liability is only {@{R&#36;12&nbsp;000}@}.
 >
 > | {@{Reduce the SAR liability when expected forfeitures lower the amount that is now expected to vest}@} | Dr | Cr |
@@ -480,7 +498,8 @@ Flashcards for this section are as follows:
 
 ### equity award SARs
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Share-settled SAR instead of cash-settled SAR._ Assume a separate plan grants {@{5&nbsp;000 share-settled SARs}@} with total grant-date fair value {@{€50&nbsp;000}@} and a {@{2-year service period}@}. Because settlement will be in shares rather than cash, the company does {@{not remeasure a liability every reporting date}@}.
 >
 > | {@{Recognize first-year compensation for a share-settled SAR plan}@} | Dr | Cr |
@@ -496,7 +515,8 @@ Flashcards for this section are as follows:
 >
 > _Explanation._ This is the key fork from the cash-settled SAR example: once the award is clearly {@{equity-settled}@}, the company keeps the amount in {@{equity rather than a remeasured liability}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Second-year expense for the same equity-award SAR plan even after the share price changes._ Keep the same {@{5&nbsp;000 share-settled SARs with total grant-date fair value €50&nbsp;000 and a 2-year service period}@}. By the end of year 2, the market price has risen sharply, but the company still records only the remaining {@{€25&nbsp;000 grant-date-based compensation}@}.
 >
 > | {@{Recognize the second-year compensation expense for the equity-award SAR plan without remeasuring for the later share-price increase}@} | Dr | Cr |
@@ -506,7 +526,8 @@ Flashcards for this section are as follows:
 >
 > _Explanation._ The tricky point is that an equity award is {@{locked to grant-date fair value for expense measurement}@}. Later share-price changes may affect intuition, but they do {@{not create a new remeasurement entry}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Partial settlement of vested equity-award SARs._ Assume the accumulated balance in {@{Share premium — share-settled SARs is €50&nbsp;000 for 5&nbsp;000 fully vested SARs}@}. Only {@{2&nbsp;000 SARs are settled now by issuing ordinary shares with €1 par}@}. The equity balance transferred is therefore {@{€20&nbsp;000 = €50&nbsp;000 × 2&nbsp;000 / 5&nbsp;000}@}.
 >
 > | {@{Transfer only the proportionate equity balance for the SARs that are actually settled in shares}@} | Dr | Cr |
@@ -517,7 +538,8 @@ Flashcards for this section are as follows:
 >
 > _Explanation._ Equity-award SAR settlement uses a {@{pure equity reclassification for only the portion actually settled}@}. The unsatisfied SAR balance {@{stays in Share premium — share-settled SARs until those rights settle or lapse}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Forfeiture of unvested equity-award SARs before vesting._ Suppose a company granted {@{10&nbsp;000 share-settled SARs with total grant-date fair value €80&nbsp;000 over 4 years}@}. After 2 years it has already recognized {@{€40&nbsp;000}@}, but revised expectations show that {@{25% of the rights will forfeit before vesting}@}. The cumulative amount that should now be recognized is only {@{€30&nbsp;000}@}.
 >
 > | {@{Reverse previously recognized equity-award SAR compensation for the portion now expected to forfeit}@} | Dr | Cr |
@@ -571,26 +593,30 @@ Two practical EPS traps deserve explicit emphasis.
 >
 > _Interpretation._ The whole point is to express the year's EPS using a consistent share unit rather than mixing pre-split and post-split numbers in one denominator.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Share dividend applies only to outstanding ordinary shares, not treasury shares._ A company begins the year with {@{500&nbsp;000 issued ordinary shares, of which 50&nbsp;000 are treasury shares, so only 450&nbsp;000 are outstanding}@}. On {@{July 1 it declares a 10% share dividend on the outstanding ordinary shares only}@}. On {@{October 1 it issues 40&nbsp;000 new ordinary shares for cash}@}. The treasury shares do {@{not receive the share dividend}@}.
 >
 > _Calculation._ Restate the pre-dividend period using the dividend factor only for the {@{450&nbsp;000 outstanding ordinary shares that actually receive the 10% dividend}@}. {@{January to June: 450&nbsp;000 × 1.10 × 6/12 = 247&nbsp;500}@}. {@{July to September: 495&nbsp;000 × 3/12 = 123&nbsp;750}@}. {@{October to December: 535&nbsp;000 × 3/12 = 133&nbsp;750}@}. Weighted-average ordinary shares = {@{505&nbsp;000}@}.
 >
 > _Explanation._ The tricky point is that EPS restatement follows the {@{ordinary shares actually affected by the share dividend}@}, not every issued share figure sitting somewhere in equity.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Chained share dividend and share split in one year._ A company begins the year with {@{300&nbsp;000 ordinary shares}@} and issues {@{60&nbsp;000 more on March 1}@}. It then declares a {@{20% share dividend on July 1}@} and later executes a {@{3-for-2 share split on November 1}@}. Because both events restate earlier share counts, the denominator must carry the __combined__ factor for earlier periods.
 >
 > _Calculation._ Pre-July share counts must be multiplied by {@{1.20 × 1.50 = 1.80}@}. {@{January to February: 300&nbsp;000 × 1.80 × 2/12 = 90&nbsp;000}@}. {@{March to June: 360&nbsp;000 × 1.80 × 4/12 = 216&nbsp;000}@}. {@{July to October: 432&nbsp;000 × 1.50 × 4/12 = 216&nbsp;000}@}. {@{November to December: 648&nbsp;000 × 2/12 = 108&nbsp;000}@}. Weighted-average ordinary shares = {@{630&nbsp;000}@}.
 >
 > _Explanation._ The restatement is __chained__: each earlier block is multiplied by {@{every later share-restatement event that affects it}@}, not by only the next event in isolation.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Comprehensive basic EPS example._ Diaz has income from continuing operations of {@{R&#36;580&nbsp;000}@}, gain on discontinued operations __net of tax__ of {@{R&#36;240&nbsp;000}@}, declared preference dividends of {@{R&#36;100&nbsp;000}@}, and {@{1&nbsp;537&nbsp;500 weighted-average ordinary shares outstanding}@}. The preference dividends reduce the income available to ordinary shareholders for EPS purposes.
 >
 > _Calculation._ Income available to ordinary shareholders from continuing operations = {@{R&#36;580&nbsp;000 − R&#36;100&nbsp;000 = R&#36;480&nbsp;000}@}. Income available to ordinary shareholders for total net income = {@{R&#36;580&nbsp;000 + R&#36;240&nbsp;000 − R&#36;100&nbsp;000 = R&#36;720&nbsp;000}@}. Continuing-operations EPS = {@{R&#36;480&nbsp;000 ÷ 1&nbsp;537&nbsp;500 ≈ R&#36;0.31 per share}@}. Net-income EPS = {@{R&#36;720&nbsp;000 ÷ 1&nbsp;537&nbsp;500 ≈ R&#36;0.47 per share}@}. If the discontinued-operations amount is shown separately, it is {@{R&#36;240&nbsp;000 ÷ 1&nbsp;537&nbsp;500 ≈ R&#36;0.16 per share using the net-of-tax discontinued-operations amount, not a pretax amount}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Discontinued-operations loss must also be used net of tax._ A company reports {@{R&#36;900&nbsp;000 income from continuing operations}@}. It also reports a {@{discontinued-operations loss before tax of R&#36;200&nbsp;000 with a tax benefit of R&#36;50&nbsp;000}@}, so the discontinued-operations amount entering EPS is {@{a net-of-tax loss of R&#36;150&nbsp;000}@}. Current-year preference dividends are {@{R&#36;100&nbsp;000}@}, and weighted-average ordinary shares are {@{250&nbsp;000}@}.
 >
 > _Calculation._ Continuing-operations EPS = {@{(R&#36;900&nbsp;000 − R&#36;100&nbsp;000) ÷ 250&nbsp;000 = R&#36;3.20 per share}@}. Net-income EPS = {@{(R&#36;900&nbsp;000 − R&#36;150&nbsp;000 − R&#36;100&nbsp;000) ÷ 250&nbsp;000 = R&#36;2.60 per share}@}. If the discontinued-operations amount is shown separately, it is {@{−R&#36;150&nbsp;000 ÷ 250&nbsp;000 = −R&#36;0.60 per share}@}.
@@ -672,12 +698,14 @@ Flashcards for this section are as follows:
 
 > _Convertible bonds in diluted EPS._ Mayfield has net income of {@{£210&nbsp;000}@} and {@{100&nbsp;000 weighted-average ordinary shares}@}. Basic EPS is {@{£2.10}@}. It also has two convertible bond issues. The if-converted method adds back the {@{after-tax interest expense that would disappear if the bonds were converted}@} and adds the {@{ordinary shares issuable on conversion}@} to the denominator, using a {@{time-weighted fraction for both shares and after-tax interest if one bond issue was outstanding for only part of the year}@}. Diluted EPS is then recomputed after each issue is added, excluding any issue that turns out to be {@{antidilutive}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Detailed if-converted calculation for convertible debt._ Assume bond issue A has {@{£62&nbsp;000 of liability-component interest expense}@} and converts into {@{20&nbsp;000 ordinary shares}@}. Bond issue B has {@{£80&nbsp;000 annual liability-component interest expense}@}, was outstanding for only {@{9/12 of the year}@}, and converts into {@{32&nbsp;000 shares}@}. The tax rate is {@{40%}@}.
 >
 > _Calculation._ After-tax add-back for issue A = {@{£62&nbsp;000 × (1 − 0.40) = £37&nbsp;200}@}. Per-share effect of issue A = {@{£37&nbsp;200 ÷ 20&nbsp;000 = £1.86 per share}@}. After-tax add-back for issue B = {@{£80&nbsp;000 × 9/12 × (1 − 0.40) = £36&nbsp;000}@}. Incremental shares from issue B = {@{32&nbsp;000 × 9/12 = 24&nbsp;000 shares}@}. Per-share effect of issue B = {@{£36&nbsp;000 ÷ 24&nbsp;000 = £1.50 per share}@}. Because {@{£1.50 is more dilutive than £1.86}@}, issue B is tested before issue A.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Convertible preference shares in diluted EPS._ A company reports {@{€240&nbsp;000 net income}@}, has {@{100&nbsp;000 ordinary shares outstanding}@}, and also has {@{€1&nbsp;000&nbsp;000 of 6% convertible preference shares}@}. Each {@{€100 preference share converts into 5 ordinary shares}@}, so full conversion would create {@{50&nbsp;000 ordinary shares}@}. Current-year preference dividends are {@{€60&nbsp;000}@}.
 >
 > _Calculation._ Basic EPS = {@{(€240&nbsp;000 − €60&nbsp;000) ÷ 100&nbsp;000 = €1.80}@}. Diluted EPS under the if-converted method = {@{€240&nbsp;000 ÷ (100&nbsp;000 + 50&nbsp;000) = €1.60}@}. The preference dividend is {@{not subtracted in diluted EPS}@} because the calculation assumes the preference shares were converted into ordinary shares.
@@ -746,24 +774,28 @@ If continuing operations and discontinued operations are both present, the EPS p
 >
 > _Interpretation._ A security can be {@{tested after other securities and then excluded}@}. The ranking process is therefore {@{iterative rather than all-at-once}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Antidilution test for a convertible bond._ A company has {@{€210&nbsp;000 net income}@}, {@{100&nbsp;000 weighted-average ordinary shares}@}, and a convertible bond whose after-tax interest add-back is {@{€36&nbsp;000}@}. The bond would create {@{10&nbsp;000 additional ordinary shares}@} if converted.
 >
 > _Calculation._ Basic EPS = {@{€210&nbsp;000 ÷ 100&nbsp;000 = €2.10}@}. Per-share effect of the bond = {@{€36&nbsp;000 ÷ 10&nbsp;000 = €3.60 per share}@}. Because {@{€3.60 is greater than the current EPS of €2.10}@}, the bond is {@{antidilutive and excluded}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Continuing-operations loss but positive total net income._ Suppose a company reports a {@{continuing-operations loss of €150&nbsp;000}@} but also a {@{discontinued-operations gain net of tax of €220&nbsp;000}@}, so total net income is still {@{€70&nbsp;000}@}. Weighted-average ordinary shares are {@{100&nbsp;000}@}, and employee options would add {@{20&nbsp;000 incremental shares}@} under the treasury-share method.
 >
 > _Calculation._ Basic continuing-operations EPS = {@{−€150&nbsp;000 ÷ 100&nbsp;000 = −€1.50 per share}@}. If the options were included, diluted continuing-operations EPS would become {@{−€150&nbsp;000 ÷ 120&nbsp;000 = −€1.25 per share}@}. That is {@{less negative than −€1.50 and therefore antidilutive}@}. Even though total net-income EPS would fall from {@{€70&nbsp;000 ÷ 100&nbsp;000 = €0.70}@} to {@{€70&nbsp;000 ÷ 120&nbsp;000 ≈ €0.58}@}, the options are still {@{excluded because antidilution is tested using continuing operations}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _How many EPS figures appear when both diluted EPS and discontinued operations exist?_ Assume a company has a __complex capital structure__ and reports {@{income from continuing operations of €360&nbsp;000}@}, a {@{discontinued-operations gain net of tax of €120&nbsp;000}@}, current-year preference dividends of {@{€60&nbsp;000}@}, basic weighted-average ordinary shares of {@{120&nbsp;000}@}, and a dilutive convertible preference issue that would add back {@{€60&nbsp;000 of preference dividends}@} and create {@{30&nbsp;000 extra ordinary shares}@}.
 >
 > _Calculation._ Basic continuing-operations EPS = {@{(€360&nbsp;000 − €60&nbsp;000) ÷ 120&nbsp;000 = €2.50}@}. Basic net-income EPS = {@{(€360&nbsp;000 + €120&nbsp;000 − €60&nbsp;000) ÷ 120&nbsp;000 = €3.50}@}. If the discontinued-operations amount is shown separately, basic discontinued-operations EPS = {@{€120&nbsp;000 ÷ 120&nbsp;000 = €1.00}@}. Diluted continuing-operations EPS = {@{€360&nbsp;000 ÷ 150&nbsp;000 = €2.40}@}. Diluted net-income EPS = {@{€480&nbsp;000 ÷ 150&nbsp;000 = €3.20}@}. If shown separately, diluted discontinued-operations EPS = {@{€120&nbsp;000 ÷ 150&nbsp;000 = €0.80}@}.
 >
 > _Explanation._ The minimum face presentation is the {@{four figures for continuing operations and total net income under both basic and diluted EPS}@}. When the discontinued-operations component is also shown explicitly, the set expands to {@{six figures in total}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Contingently issuable shares._ In a business combination, the acquirer promises to issue {@{40&nbsp;000 additional ordinary shares}@} if the acquired business reaches a stated revenue target. If the target has already been {@{met by the reporting date}@}, those shares enter diluted EPS {@{only if their inclusion reduces EPS}@}. If the target has {@{not yet been met}@}, they are not included.
 
 ---
@@ -798,7 +830,8 @@ Flashcards for this section are as follows:
 >
 > _Required._ Compute (a) basic EPS for 2026 and (b) diluted EPS for 2026. Show all workings, including the treasury-share method for warrants and the if-converted method for the bonds.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Solution — part (a): basic EPS.
 >
 > The 2-for-1 split on 1 October requires restating all earlier share counts to a post-split basis before time-weighting.
@@ -816,7 +849,8 @@ Flashcards for this section are as follows:
 > | {@{Weighted-average ordinary shares}@} | {@{1&nbsp;500&nbsp;000}@} |
 > | {@{Basic EPS}@} | {@{€2.00}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Solution — part (b): diluted EPS.
 >
 > __Step 1: compute per-share effect of each potentially dilutive security.__

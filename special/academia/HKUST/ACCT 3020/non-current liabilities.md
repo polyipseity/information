@@ -88,7 +88,8 @@ Representative journal entry examples at issuance:
 >
 > _Explanation._ Carrying amount equals {@{bond price; the discount (7 392) is not shown in a separate account under the net method but is embedded in Bonds payable}@}. At maturity, Bonds payable is {@{increased by amortization to face value}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ BlueHarbor Utilities plc issues {@{5-year bonds, face 100 000, coupon 8% semi-annual, market 6% semi-annual; bond price 108 530}@}. Record issuance.
 >
 > | {@{Issue bond at premium (net method)}@} | Dr            | Cr            |
@@ -177,7 +178,8 @@ Representative journal entry examples:
 >
 > _Explanation._ Interest expense equals {@{carrying amount × market rate and the discount amortized = interest expense − coupon}@}; credit {@{Bonds payable to increase carrying amount toward face value}@}. On payment date: {@{Dr Interest payable 9 000, Cr Cash 9 000}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Second-period discount amortization gets bigger, not smaller._ After the first year's amortization, the bond's carrying amount rises to {@{93 795 = 92 608 + 1 187}@}. Using the same {@{11% market rate and 9% coupon}@}, the next year's interest expense rises to {@{10 317}@}, so the discount amortization also increases.
 >
 > | {@{Recognise second-period interest on the discount bond after the carrying amount has increased}@} | Dr | Cr |
@@ -199,7 +201,8 @@ Flashcards for this section are as follows:
 
 For a premium bond, the coupon cash paid each period is larger than the effective-interest expense. The excess coupon over effective interest is the premium amortization, and that amortization reduces the bond's carrying amount over time.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ First semi-annual period for BlueHarbor Utilities' {@{premium bond issued above with beginning carrying amount 108 530, face 100 000, annual coupon rate 8% paid semi-annually, and per-period market rate 3%}@}: {@{coupon cash paid = 100 000 × 8% × 6/12 = 4 000}@}, {@{interest expense = 108 530 × 3% = 3 256}@}, so {@{premium amortized = 4 000 − 3 256 = 744}@}. Cash paid on payment date.
 >
 > | {@{Recognise interest and amortise premium}@} | Dr          | Cr          |
@@ -239,7 +242,8 @@ For a discount bond, add the amortization to the carrying amount. For a premium 
 >
 > _How to read the table._ In year 1, the company pays only the stated {@{800 cash coupon}@}, but interest expense is {@{950 because 9&nbsp;503 × 10%}@}. The difference of {@{150 is the discount amortization for year 1}@}, so the carrying amount rises to {@{9&nbsp;653 after adding that year-1 discount amortization}@}. The same logic repeats every year. In the final period, a small rounding adjustment may be needed so the ending carrying amount reaches the exact {@{face value of 10&nbsp;000}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Translate one row into a journal entry._ Using the year-2 row above:
 >
 > | {@{Record year-2 interest using the amortization table row}@} | Dr | Cr |
@@ -250,7 +254,8 @@ For a discount bond, add the amortization to the carrying amount. For a premium 
 >
 > _Explanation._ The amortization table is not a second method. It is just the effective-interest method written in a way that makes the next journal entry and the next carrying amount obvious.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ {@{5-year bond, face 100 000, matures; carrying amount equals face value}@}.
 >
 > | {@{Repay bond at maturity}@} | Dr            | Cr            |
@@ -288,7 +293,8 @@ Representative journal entry examples:
 >
 > _Explanation._ Interest payable equals {@{4 000 × 2/6 = 1 333}@}, premium amortized equals {@{744 × 2/6 = 248}@}, and interest expense equals {@{1 333 − 248 = 1 085}@}. For a discount bond, credit _Bonds payable_ (prorated discount amortization) instead of debiting.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Irregular day-count accrual instead of a neat month fraction._ Suppose the same semi-annual premium bond has a coupon period containing {@{184 days in total}@}, and year-end falls after {@{107 of those 184 days}@}. Full-period coupon is still {@{4 000}@} and full-period premium amortization is still {@{744}@}, but the accrual must now use the actual day fraction rather than a clean month count.
 >
 > | {@{Accrue interest and premium amortization using actual days elapsed}@} | Dr | Cr |
@@ -299,7 +305,8 @@ Representative journal entry examples:
 >
 > _Calculation._ Interest payable = {@{4 000 × 107/184 ≈ 2 327}@}. Premium amortization = {@{744 × 107/184 ≈ 433}@}. Interest expense = {@{2 327 − 433 = 1 894}@}. The point is to use the {@{actual fraction of the coupon period given in the problem}@}, not a memorized {@{2/6 or 2/12}@} shortcut.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Cedar Vista Rail plc issues a bond with face {@{100 000}@}, coupon {@{8%}@}, and semi-annual interest payments. It is issued {@{4 months after the last interest date}@}. At issuance, the investor pays accrued interest for 4 of 6 months: {@{100 000 × 8% × 4/12 = 2 667}@}. On the next interest date, the issuer pays the full coupon for 6 months: {@{100 000 × 8% × 6/12 = 4 000}@}.
 >
 > | {@{Issue bond at par between interest dates}@} | Dr            | Cr            |
@@ -315,7 +322,8 @@ Representative journal entry examples:
 >
 > _Explanation._ {@{Total interest expense over 2 months (from issue date to payment date) = 4 000 − 2 667 = 1 333 = 100 000 × 8% × 2/12}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Cedar Vista Rail plc also has a semi-annual bond with face {@{100 000}@}, coupon {@{8%}@}, and market rate {@{10%}@}. Issue price (excluding accrued interest) is {@{96 000}@}; the bond is issued {@{4 months after the last interest date}@}. At issuance the investor pays {@{accrued coupon for 4 of the 6 months: 100 000 × 8% × 4/12 = 2 667}@}. Total cash raised by the issuer = {@{96 000 (carrying amount) + 2 667 (pre-collected interest) = 98 667}@}, split between Bonds payable {@{96 000}@} and a credit to Interest expense (pre-collected) {@{2 667}@}.
 >
 > | {@{Issue bond at discount between interest dates}@} | Dr           | Cr           |
@@ -470,7 +478,8 @@ Representative journal entry examples:
 >
 > _Explanation._ Land is recorded at {@{fair value (its cash selling price) and the note payable is recorded at the same present value}@}; the difference between {@{220 000 face and 200 000 present value is a discount that will be amortized over the note's life}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Summit Design Build Ltd. receives architectural services in exchange for a {@{5-year note with face 200 000}@} and no stated interest. No market price is available for the services, but an appropriate discount rate (after considering prime rate, covenants, collateral, and term) is {@{8%}@}. Present value of the note (discounted at 8%) is {@{136 000}@} (rounded).
 >
 > | {@{Record architectural services and note (use present value)}@} | Dr            | Cr            |
@@ -518,7 +527,8 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 >
 > _Explanation._ The loss equals {@{cash paid 101 000 − carrying amount 95 000 = 6 000}@}. If cash paid were less than carrying amount, the difference would instead be a gain.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Gain case for early cash repurchase._ Granite Works plc also has bonds payable with carrying amount {@{€98&nbsp;000}@}. The issuer repurchases the debt early for only {@{€92&nbsp;000 cash}@} because market conditions now allow settlement at a lower amount.
 >
 > | {@{Repurchase debt for cash; recognise gain}@} | Dr | Cr |
@@ -529,7 +539,8 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 >
 > _Explanation._ The gain equals {@{carrying amount 98&nbsp;000 − cash paid 92&nbsp;000 = 6&nbsp;000}@}. This is the mirror image of the loss case above.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Orion Marine plc has a note payable with carrying amount {@{20 000 000}@}. The lender agrees to accept {@{2 000 000 ordinary shares with par 5}@} to settle the note. On the issue date, the shares trade at {@{8}@} per share (fair value {@{16 000 000}@}). Record the settlement.
 >
 > | {@{Settle note payable by issuing shares (debt-for-equity)}@} | Dr               | Cr               |
@@ -541,7 +552,8 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 >
 > _Explanation._ Shares are measured at fair value {@{16 000 000 (2 000 000 × 8)}@}; equity increases by that amount (par {@{10 000 000}@}, premium {@{6 000 000}@}). The liability's carrying amount exceeds consideration, so the debtor recognises a gain on extinguishment of {@{20 000 000 − 16 000 000 = 4 000 000}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario (below-par debt-for-equity)._ Orion Marine plc has a note payable with carrying amount {@{20 000 000}@}. The lender agrees to accept {@{2 000 000 ordinary shares with par 5}@} in full settlement. On the issue date, the shares trade at {@{4}@} per share, so fair value of shares issued is {@{8 000 000}@}, which is {@{below total par 10 000 000}@}.
 >
 > | {@{Settle note payable by issuing shares when fair value is below par}@} | Dr               | Cr               |
@@ -553,7 +565,8 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 >
 > _Explanation._ Consideration is measured at {@{fair value of shares issued = 8 000 000}@}. Extinguishment gain is {@{20 000 000 − 8 000 000 = 12 000 000}@}. Equity recognised is still {@{8 000 000 net}@} via {@{Share capital 10 000 000 minus Share premium debit 2 000 000}@}. Sign rule: {@{carrying amount &gt; fair value of shares → gain; carrying amount &lt; fair value of shares → loss}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Orion Marine plc has a building with carrying amount {@{21 000 000}@} and fair value {@{16 000 000}@}. A note payable has carrying amount {@{20 000 000}@}. The lender agrees to accept the building in full settlement of the note.
 >
 > | {@{Remeasure building to fair value}@} | Dr              | Cr              |

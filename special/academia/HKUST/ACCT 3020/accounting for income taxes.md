@@ -129,7 +129,8 @@ The Chelsea accounts-receivable sequence is the course's basic model for a defer
 >
 > _Explanation._ The current payable is based on the year's taxable income, but the receivable difference means Chelsea will pay more tax later when those receivables are collected. That future tax effect is recognized now as a deferred tax liability.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Reversal year for the Chelsea deferred tax liability._ In the next year, the remaining temporary difference has fallen, so the deferred tax liability must be reduced from its prior level. Assume current tax payable for 2026 is {@{&#36;36&nbsp;000}@}, while income tax expense remains {@{&#36;28&nbsp;000}@}.
 >
 > | {@{Record 2026 income taxes as the deferred tax liability reverses}@} | Dr | Cr |
@@ -140,7 +141,8 @@ The Chelsea accounts-receivable sequence is the course's basic model for a defer
 >
 > _Explanation._ The debit to {@{Deferred tax liability}@} shows that part of the future tax burden recognized in 2025 is now being {@{used up as the receivables are collected and taxed}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Final reversal of the Chelsea deferred tax liability._ By the last reversal year, assume current tax payable is {@{&#36;32&nbsp;000}@} while income tax expense is still {@{&#36;28&nbsp;000}@}.
 >
 > | {@{Record final reversal of deferred tax liability}@} | Dr | Cr |
@@ -151,7 +153,8 @@ The Chelsea accounts-receivable sequence is the course's basic model for a defer
 >
 > _Explanation._ The temporary difference is now {@{fully reversed, so the deferred tax liability falls to zero}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Tax-rate change during the reversal sequence._ Suppose that after the 2026 reporting date but before the 2026 statements are issued, a new law is __enacted__ reducing the future tax rate from {@{40% to 35%, so the remaining 10&nbsp;000 temporary difference should produce a deferred tax liability of 3&nbsp;500 rather than 4&nbsp;000}@}.
 >
 > | {@{Remeasure the remaining Chelsea deferred tax liability for the enacted lower future tax rate}@} | Dr | Cr |
@@ -244,7 +247,8 @@ That means a deferred tax asset is not automatic forever. The company must ask w
 > | {@{Income tax expense}@} | {@{100&nbsp;000}@} | |
 > | {@{Deferred tax asset}@} | | {@{100&nbsp;000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Show the full sequence instead of only the write-down._ Suppose the company first records the original deferred tax asset of {@{€400&nbsp;000}@}, then later concludes that only {@{€300&nbsp;000 is probable of realization}@}. The write-down is not the original recognition; it is a second step after the asset has already been booked.
 >
 > | {@{Recognize the original deferred tax asset before any non-recognition adjustment}@} | Dr | Cr |
@@ -261,7 +265,8 @@ That means a deferred tax asset is not automatic forever. The company must ask w
 
 If expectations later improve, part of that earlier reduction can be reversed.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Partial reversal of earlier non-recognition._ Suppose the deferred tax asset had been reduced from {@{€400&nbsp;000 to €300&nbsp;000}@}, but improved evidence now suggests that {@{€350&nbsp;000 is recoverable}@}.
 >
 > | {@{Increase deferred tax asset after expectations improve}@} | Dr | Cr |
@@ -271,7 +276,8 @@ If expectations later improve, part of that earlier reduction can be reversed.
 >
 > _Explanation._ Reversing part of the earlier non-recognition {@{reduces current-period income tax expense}@} because more of the future tax benefit is now expected to be realized.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Reversal of a litigation-related deferred tax asset when the deduction is finally realized._ Assume a company had recognized a {@{€20&nbsp;000 deferred tax asset}@} from a litigation accrual in the prior year. In the settlement year, current tax payable is {@{€180&nbsp;000}@} while income tax expense is {@{€200&nbsp;000}@}.
 >
 > | {@{Record income taxes when a litigation-related deferred tax asset reverses}@} | Dr | Cr |
@@ -399,7 +405,8 @@ Two rules matter.
 >
 > _Explanation._ Lower future tax rates mean a smaller future tax burden, so the deferred tax liability falls and current-period income tax expense is reduced.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Tax-rate change affecting a deferred tax asset._ Assume instead that a company has a {@{deferred tax asset of €420&nbsp;000}@} measured using an enacted {@{35% future rate}@}. A new law increases the enacted future rate so the correct deferred tax asset should now be {@{€480&nbsp;000}@}.
 >
 > | {@{Increase deferred tax asset for enacted tax-rate change}@} | Dr | Cr |
@@ -446,7 +453,8 @@ IAS 12 imposes __no fixed time limit__ on how long an unused tax loss may be car
 
 When the company later earns taxable income and uses the carryforward, the deferred tax asset is reversed instead of recognizing the benefit again from scratch.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Realization of a previously recognized loss carryforward._ In the next year, assume taxable income before applying the carryforward is {@{&#36;250&nbsp;000}@}. The company uses the prior-year {@{&#36;200&nbsp;000 carryforward}@}, so current tax payable is only {@{&#36;10&nbsp;000}@} while income tax expense is {@{&#36;50&nbsp;000}@}.
 >
 > | {@{Record income taxes when a loss carryforward is realized}@} | Dr | Cr |
@@ -479,7 +487,8 @@ The course appendix example uses the following ordering rule:
 > | {@{Income tax refund receivable}@} | {@{65&nbsp;000}@} | |
 > | {@{Income tax expense (loss carryback)}@} | | {@{65&nbsp;000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Combined carryback and carryforward entry._ Suppose a single {@{&#36;500&nbsp;000 loss}@} generates both a {@{&#36;65&nbsp;000 refund from carryback}@} and a remaining {@{&#36;200&nbsp;000 carryforward}@} taxed at {@{25%}@}, creating a {@{&#36;50&nbsp;000 deferred tax asset}@}.
 >
 > | {@{Record both the loss carryback and the remaining carryforward benefit}@} | Dr | Cr |
@@ -491,7 +500,8 @@ The course appendix example uses the following ordering rule:
 >
 > _Explanation._ One loss year can create both an {@{immediately realizable refund asset}@} and a {@{future tax-benefit asset}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Catch-up entry after earlier non-recognition of a loss carryforward._ Suppose the company did {@{not recognize a deferred tax asset in the loss year}@} because realization was not yet probable. In the next year, profitability returns and the {@{&#36;40&nbsp;000 tax benefit becomes realizable}@}.
 >
 > | {@{Recognize previously unrecorded deferred tax asset once realization becomes probable}@} | Dr | Cr |
@@ -687,7 +697,8 @@ __Step 3 — income tax expense and journal entries.__
 >
 > Expense = {@{&#36;30&nbsp;000}@} current tax + {@{&#36;180&nbsp;000}@} DTL created − {@{&#36;60&nbsp;000}@} DTA created = {@{&#36;150&nbsp;000}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Year 2 entry. Partial DTL reversal as €300&nbsp;000 of future taxable amounts are now current-year taxable; partial DTA reversal as €120&nbsp;000 of warranty payments are now deducted; and remeasurement of all remaining balances at the newly enacted 25% rate. All effects combine in one entry.
 >
 > | {@{Record Year 2 income taxes including rate-change remeasurement}@} | Dr | Cr |
@@ -699,7 +710,8 @@ __Step 3 — income tax expense and journal entries.__
 >
 > DTL falls from {@{&#36;180&nbsp;000}@} to {@{&#36;75&nbsp;000}@} (decrease {@{&#36;105&nbsp;000}@}: Dr _Deferred tax liability_). DTA falls from {@{&#36;60&nbsp;000}@} to {@{&#36;20&nbsp;000}@} (decrease {@{&#36;40&nbsp;000}@}: Cr _Deferred tax asset_). Expense = {@{&#36;234&nbsp;000 − &#36;105&nbsp;000 + &#36;40&nbsp;000 = &#36;169&nbsp;000}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Year 3 entry. Both temporary differences reach zero.
 >
 > | {@{Record Year 3 income taxes as all temporary differences fully reverse}@} | Dr | Cr |

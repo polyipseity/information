@@ -100,7 +100,8 @@ Representative journal entry examples:
 > | {@{Cash}@}                      | {@{48 000}@} |              |
 > | {@{Notes payable}@}             |              | {@{48 000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Same Maple Circuit note: {@{48 000 at 9% per year. At 31 December, two months have elapsed}@}.
 >
 > | {@{Accrue interest to year-end}@} | Dr           | Cr           |
@@ -110,7 +111,8 @@ Representative journal entry examples:
 >
 > _Calculation._ Interest = {@{48 000 × 0.09 × 2/12 = 720}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Maple Circuit's note matures; {@{total cash paid is 50 160 (principal 48 000 + interest 2 160)}@}. Assume {@{720 already accrued; remainder interest is recognized at settlement}@}.
 >
 > | {@{Settle note and interest; pay cash}@} | Dr           | Cr           |
@@ -200,7 +202,8 @@ Representative journal entry examples:
 >
 > _Calculation._ {@{7 200 × 3/12}@} = {@{1 800}@}. Crediting {@{Notes payable (not Interest payable) increases the carrying amount toward the}@} maturity amount.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ The Sunrise Packaging note matures; {@{carrying amount 75 600, pay 75 600 cash}@}.
 >
 > | {@{Pay note at maturity}@} | Dr           | Cr           |
@@ -309,7 +312,8 @@ Representative journal entry examples:
 > | {@{Salaries and wages expense}@}          | {@{12 480}@} |              |
 > | {@{Wages payable}@}                       |              | {@{12 480}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ BrightWave carries {@{Wages payable of 12 480 (24 weeks at 520). Employees take vacation; current rate is 590 per week}@}. Cash paid is {@{14 160; difference 1 680 expense in the payment period}@}.
 >
 > | {@{Clear wages payable; expense difference; pay cash}@} | Dr           | Cr           |
@@ -320,7 +324,8 @@ Representative journal entry examples:
 >
 > _Explanation._ The liability is settled at the rate originally accrued {@{(24 weeks × 520 = 12 480)}@}. When cash is paid at the higher current rate {@{(24 weeks × 590 = 14 160)}@}, the extra {@{1 680 is current-period salaries and wages expense caused by the higher payment-date wage rate}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Weird flip: wages fall instead of rise._ The same BrightWave employees had {@{24 vested vacation weeks accrued at 520 per week}@}, but when employees actually take the leave the current wage rate has fallen to {@{470 per week, so total cash paid is only 11 280}@}.
 >
 > | {@{Settle compensated absence when the current wage rate is lower than the accrued rate}@} | Dr           | Cr           |
@@ -331,7 +336,8 @@ Representative journal entry examples:
 >
 > _Explanation._ This deliberately produces a {@{credit to current-period salaries and wages expense}@} because the liability had been recorded using a {@{higher earned wage rate than the later payment rate}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Only vested employees create the liability._ At year-end, BrightWave has {@{14 employees who have completed the vesting period and earned 28 unused weeks at 510 per week}@}. Another {@{4 employees have worked only 10 months and are not yet vested}@}. The company accrues only the vested amount.
 >
 > | {@{Recognise compensated-absence liability only for vested employees}@} | Dr           | Cr           |
@@ -362,7 +368,8 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 >
 > _Calculation._ The used portion removes {@{16 × 520 = 8&nbsp;320}@} from the old liability. Cash paid is {@{16 × 590 = 9&nbsp;440}@}, so the extra {@{1&nbsp;120}@} is current-period salaries and wages expense. After this entry, the carrying balance left in {@{Wages payable is 4&nbsp;160 for the 8 unused weeks still outstanding}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Year-end remeasurement of the unused portion._ If BrightWave now expects those {@{8 unused vested weeks}@} to be paid at the current rate of {@{590 per week, so the remaining liability should be 4&nbsp;720 rather than 4&nbsp;160}@}.
 >
 > | {@{Increase the liability for the still-unused vested vacation to the expected settlement amount}@} | Dr | Cr |
@@ -372,7 +379,8 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 >
 > _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Downward remeasurement of the same unused vested portion (estimate revision in the opposite direction)._ Assume BrightWave still has {@{8 unused vested vacation weeks}@} at year-end, but updated expectations indicate settlement at {@{500 per week}@}. Required liability is {@{4&nbsp;000 (8 × 500)}@}, while carrying amount before remeasurement is {@{4&nbsp;160}@}. The liability must be {@{decreased by 160}@}.
 >
 > | {@{Decrease the liability when expected settlement of unused vested vacation falls}@} | Dr | Cr |
@@ -415,7 +423,8 @@ Representative journal entry examples:
 > | {@{Retained earnings}@}     | {@{320&nbsp;000}@} |                    |
 > | {@{Dividends payable}@}     |                    | {@{320&nbsp;000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Holborn Holdings pays the dividend on {@{5 January}@} of the following year.
 >
 > | {@{Pay cash dividend}@} | Dr                 | Cr                 |
@@ -447,7 +456,8 @@ Representative journal entry examples:
 > | {@{Sales revenue}@}                     |           | {@{500}@} |
 > | {@{Sales tax payable}@}                 |           | {@{50}@}  |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ Aldgate remits the {@{50 tax to the government at month-end}@}.
 >
 > | {@{Remit sales tax to government}@} | Dr       | Cr       |
@@ -479,7 +489,8 @@ Representative journal entry examples:
 > | {@{Cash}@}                                       | {@{1&nbsp;000}@} |                  |
 > | {@{Deposit liability}@}                          |                  | {@{1&nbsp;000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Scenario._ {@{400 bottles are returned and deposits refunded}@}: {@{400 × 2 = 800}@}.
 >
 > | {@{Refund deposits on returned bottles}@} | Dr        | Cr        |
@@ -516,7 +527,8 @@ Representative journal entry examples:
 > | {@{Cash}@}             | {@{200&nbsp;000}@} |                    |
 > | {@{Unearned revenue}@} |                    | {@{200&nbsp;000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Redemptions of 72&nbsp;000 during year:
 >
 > | {@{Recognise revenue on redemption}@} | Dr                | Cr                |
@@ -524,7 +536,8 @@ Representative journal entry examples:
 > | {@{Unearned revenue}@}                | {@{72&nbsp;000}@} |                   |
 > | {@{Revenue}@}                         |                   | {@{72&nbsp;000}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Proportionate breakage at year-end:
 >
 > _Calculation._ Total expected breakage = {@{200&nbsp;000 × 20% = 40&nbsp;000}@}. Proportion of expected redemptions completed = {@{72&nbsp;000 ÷ 160&nbsp;000 = 45%}@}. Breakage revenue = {@{40&nbsp;000 × 45% = 18&nbsp;000}@}.
@@ -562,7 +575,8 @@ _This exercise tests the rule that non-vested employees are excluded from the ye
 >
 > _Required._ (a) Journal entry at 31 December 2025 to recognise the leave liability. (b) Journal entry when the leave is paid in 2026.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Part (a) — Year-end 2025 accrual:
 >
 > | {@{Recognise compensated-absence liability (vested employees only)}@} | Dr | Cr |
@@ -572,7 +586,8 @@ _This exercise tests the rule that non-vested employees are excluded from the ye
 >
 > _Calculation._ Only the {@{12 vested employees}@} create a present obligation: {@{54 days × 640 = 34&nbsp;560}@}. The {@{8 non-vested employees are excluded}@} because no vested right has arisen yet.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Part (b) — 2026 payment at higher rate:
 >
 > | {@{Pay compensated absences at higher wage rate}@} | Dr | Cr |

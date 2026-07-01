@@ -318,7 +318,8 @@ The following exercise combines a mid-year plan amendment (past service cost), r
 >
 > _Funded status check:_ DBO {@{570&nbsp;000}@} − plan assets {@{442&nbsp;200}@} = {@{127&nbsp;800 net liability}@} ✓. Net liability movement: 90&nbsp;000 + 120&nbsp;960 − 45&nbsp;000 − 38&nbsp;160 = {@{127&nbsp;800}@} ✓.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > Dalston Consulting AG 2026 — defined benefit pension journal entry: pension expense (P&L) = {@{120&nbsp;960}@}; cash contributions = {@{45&nbsp;000}@}; OCI remeasurement gain = {@{38&nbsp;160}@}; net liability increase = {@{37&nbsp;800}@}.
 >
 > | {@{Record 2026 pension cost, contributions, and remeasurements — Dalston Consulting AG}@} | Dr | Cr |
