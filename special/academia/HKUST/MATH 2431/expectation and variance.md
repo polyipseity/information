@@ -284,12 +284,12 @@ The six inequalities above are not isolated facts. They form a natural hierarchy
 
 Flashcards for this section are as follows:
 
-- Markov as engine: Why is Markov called the engine of tail bounds? ::@:: Every tail bound — Chebyshev, Cantelli, Chernoff — begins by applying Markov to a transformed variable $(X-E[X])^2$, $(Y+t)^2$, or $e^{tX}$.
-- Chebyshev vs Markov: How does Chebyshev specialise Markov? ::@:: Chebyshev applies Markov to $(X-E[X])^2$, converting second-moment information into a two-sided symmetric tail bound $P(|X-E[X]|\ge a)\le\operatorname{Var}(X)/a^2$.
-- Cantelli vs Chebyshev: How does Cantelli improve Chebyshev for one-sided tails? ::@:: Cantelli introduces an optimisation parameter $t$, improving $\operatorname{Var}/a^2$ to $\operatorname{Var}/(\operatorname{Var}+a^2)$; the improvement is largest when $\operatorname{Var}\ll a^2$.
-- Chernoff vs Markov: How does Chernoff refine Markov to get sharper bounds? ::@:: Chernoff applies Markov to $e^{tX}$: $P[X\ge a]\le e^{-ta}M_X(t)$, then optimises over $t>0$ for exponentially decaying bounds at the cost of requiring the MGF.
+- Markov as engine: Why is Markov called the engine of tail bounds? ::@:: Every tail bound — Chebyshev, Cantelli, Chernoff — begins by applying Markov to a transformed variable $(X-E[X])^2$, $(Y+t)^2$, or $e^{tX}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Chebyshev vs Markov: How does Chebyshev specialise Markov? ::@:: Chebyshev applies Markov to $(X-E[X])^2$, converting second-moment information into a two-sided symmetric tail bound $P(|X-E[X]|\ge a)\le\operatorname{Var}(X)/a^2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Cantelli vs Chebyshev: How does Cantelli improve Chebyshev for one-sided tails? ::@:: Cantelli introduces an optimisation parameter $t$, improving $\operatorname{Var}/a^2$ to $\operatorname{Var}/(\operatorname{Var}+a^2)$; the improvement is largest when $\operatorname{Var}\ll a^2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Chernoff vs Markov: How does Chernoff refine Markov to get sharper bounds? ::@:: Chernoff applies Markov to $e^{tX}$: $P[X\ge a]\le e^{-ta}M_X(t)$, then optimises over $t>0$ for exponentially decaying bounds at the cost of requiring the MGF. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - Jensen vs tail bounds: How do Jensen and tail bounds differ? ::@:: Tail bounds control large-deviation probabilities; Jensen controls how convex/concave functions interact with expectation — they answer different questions.
-- Hölder/CS purpose: What do Hölder/CS inequalities control? ::@:: Product moments via $L^p$ and $L^2$ norms — the $L^p$ analogues of $|\langle u,v\rangle|\le\|u\|\|v\|$ in inner product spaces, used to decouple dependent variables.
+- Hölder/CS purpose: What do Hölder/CS inequalities control? ::@:: Product moments via $L^p$ and $L^2$ norms — the $L^p$ analogues of $|\langle u,v\rangle|\le\|u\|\|v\|$ in inner product spaces, used to decouple dependent variables. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### moment comparison
 
