@@ -4,12 +4,7 @@
 # For details on prek, see: https://prek.j178.dev/
 # Note: `prek` can also read `.pre-commit-config.yaml` for compatibility, but `prek.toml` is preferred.
 
-default_install_hook_types = [
-  "commit-msg",
-  "pre-commit",
-  "pre-push",
-  "prepare-commit-msg",
-]
+default_install_hook_types = ["commit-msg", "pre-commit", "pre-push"]
 default_stages = ["pre-commit"]
 
 [[repos]]
@@ -105,10 +100,4 @@ hooks = [
   { id = "test-bun", name = "test with Bun", entry = "bun run test", language = "system", pass_filenames = false, always_run = true, stages = [
     "pre-push",
   ] },
-  # Standardize merge commit messages when merging into forks/* branches.
-  # Detects the merge source ref and formats the message as `chore(sync): merge from <branch>`.
-  # Gracefully skips if bun is unavailable or if not on a forks/* branch.
-  { id = "standardize-fork-merge-message", name = "standardize fork merge message", entry = "bun run scripts/standardize-fork-merge-message.mjs", language = "system", stages = [
-    "prepare-commit-msg",
-  ], pass_filenames = false, always_run = true },
 ]
