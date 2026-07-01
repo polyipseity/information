@@ -48,11 +48,11 @@ One says that $Z_n\to Z$ in $p$-th mean (for $p\ge1$) if $E[|Z_n|^p]<\infty$ and
 
 This is convergence in the $L^p$ vector-space norm $\|Z_n-Z\|_p=(E[|Z_n-Z|^p])^{1/p}$. Larger $p$ penalizes tail and outlier deviations more heavily.
 
-**$p$-th mean $\Rightarrow$ convergence in probability.** By Markov's inequality, $$P(|Z_n-Z|>\varepsilon)=P(|Z_n-Z|^p>\varepsilon^p)\le\frac{E[|Z_n-Z|^p]}{\varepsilon^p}\to0.$$
+__$p$-th mean $\Rightarrow$ convergence in probability.__ By Markov's inequality, $$P(|Z_n-Z|>\varepsilon)=P(|Z_n-Z|^p>\varepsilon^p)\le\frac{E[|Z_n-Z|^p]}{\varepsilon^p}\to0.$$
 
 The weak law of large numbers below is actually proved first in $L^2$ (mean-square convergence), and the convergence-in-probability conclusion follows from the case $p=2$.
 
-By Lyapunov's inequality (a consequence of Jensen), $\|X\|_q\le\|X\|_p$ for $1\le q\le p$, so $L^p$ convergence implies $L^q$ convergence. $L^p$ convergence does **not** imply almost-sure convergence (the typewriter sequence is a counterexample), but every $L^p$-convergent sequence has an almost-surely convergent subsequence. If $X_n\to X$ in $L^p$, then $E[|X_n|^p]\to E[|X|^p]$.
+By Lyapunov's inequality (a consequence of Jensen), $\|X\|_q\le\|X\|_p$ for $1\le q\le p$, so $L^p$ convergence implies $L^q$ convergence. $L^p$ convergence does __not__ imply almost-sure convergence (the typewriter sequence is a counterexample), but every $L^p$-convergent sequence has an almost-surely convergent subsequence. If $X_n\to X$ in $L^p$, then $E[|X_n|^p]\to E[|X|^p]$.
 
 ---
 
@@ -69,43 +69,43 @@ One says that $X_n\xrightarrow{d} X$ in distribution if $F_{X_n}(x)\to F_X(x)$ a
 
 This is weaker than convergence in probability: it describes only the asymptotic law, not a coupling on the same sample space. The standard implication is that $X_n\to X$ in probability implies $X_n\xrightarrow{d} X$.
 
-Convergence in distribution cares about the asymptotic **shape** of the law, not pointwise behavior. Portmanteau's theorem collects several equivalent characterizations:
+Convergence in distribution cares about the asymptotic __shape__ of the law, not pointwise behavior. Portmanteau's theorem collects several equivalent characterizations:
 
 - $E[f(X_n)]\to E[f(X)]$ for all bounded continuous $f$ — integration smooths fluctuations.
 - $\limsup_{n\to\infty} P(X_n\in F)\le P(X\in F)$ for every closed set $F$.
 - $\liminf_{n\to\infty} P(X_n\in G)\ge P(X\in G)$ for every open set $G$.
 - $P(X_n\in B)\to P(X\in B)$ for every continuity set $B$ (i.e., $P(X\in\partial B)=0$).
 
-The closed-set formulation is especially useful for tightness arguments: if mass escapes to infinity in the limit (a closed set is lost), the limit law cannot assign that mass. Convergence must be required at **continuity points** of $F_X$ to avoid point-mass slipping past a discontinuity (e.g. $X_n=1/n$ vs $X=0$ fails at $x=0$ but holds elsewhere).
+The closed-set formulation is especially useful for tightness arguments: if mass escapes to infinity in the limit (a closed set is lost), the limit law cannot assign that mass. Convergence must be required at __continuity points__ of $F_X$ to avoid point-mass slipping past a discontinuity (e.g. $X_n=1/n$ vs $X=0$ fails at $x=0$ but holds elsewhere).
 
-**Vanishing perturbation.** If $Y_n\xrightarrow{d} X$ and $X_n-Y_n\to0$ in probability, then $X_n\xrightarrow{d} X$. Proof: $F_{X_n}(x)\le F_{Y_n}(x+\varepsilon)+P(|X_n-Y_n|\ge\varepsilon)$; $\limsup/\liminf$ sandwich gives $F_{X_n}(x)\to F_X(x)$.
+__Vanishing perturbation.__ If $Y_n\xrightarrow{d} X$ and $X_n-Y_n\to0$ in probability, then $X_n\xrightarrow{d} X$. Proof: $F_{X_n}(x)\le F_{Y_n}(x+\varepsilon)+P(|X_n-Y_n|\ge\varepsilon)$; $\limsup/\liminf$ sandwich gives $F_{X_n}(x)\to F_X(x)$.
 
-**Proof that $X_n\to X$ in probability $\Rightarrow$ $X_n\xrightarrow{d} X$.** Split $\{X_n\le x\}$ into cases where $|X_n-X|\le\varepsilon$ and $>\varepsilon$, giving $F_{X_n}(x)\le F_X(x+\varepsilon)+P(|X_n-X|>\varepsilon)$. Symmetrically $F_X(x-\varepsilon)\le F_{X_n}(x)+P(|X_n-X|>\varepsilon)$. Let $n\to\infty$ then $\varepsilon\downarrow0$; at continuity points of $F_X$ the bounds squeeze to $F_X(x)$.
+__Proof that $X_n\to X$ in probability $\Rightarrow$ $X_n\xrightarrow{d} X$.__ Split $\{X_n\le x\}$ into cases where $|X_n-X|\le\varepsilon$ and $>\varepsilon$, giving $F_{X_n}(x)\le F_X(x+\varepsilon)+P(|X_n-X|>\varepsilon)$. Symmetrically $F_X(x-\varepsilon)\le F_{X_n}(x)+P(|X_n-X|>\varepsilon)$. Let $n\to\infty$ then $\varepsilon\downarrow0$; at continuity points of $F_X$ the bounds squeeze to $F_X(x)$.
 
-**Smoothing effect.** The CDF is an integral/sum of the PDF/PMF, acting as a low-pass filter. Convergence in distribution is strictly weaker than density convergence:
+__Smoothing effect.__ The CDF is an integral/sum of the PDF/PMF, acting as a low-pass filter. Convergence in distribution is strictly weaker than density convergence:
 
-- **Oscillating PDF:** $f_n(x)=1+\sin(2\pi n x)$ on $[0,1]$: $F_n(x)\to x$ uniformly, so $X_n\xrightarrow{d}\operatorname{Uniform}(0,1)$ despite $f_n\not\to 1$.
-- **Discrete-to-continuous:** $X_n$ uniform on $\{k/n\}_{k=0}^n$: $F_{X_n}(x)\to x$, so $X_n\xrightarrow{d}\operatorname{Uniform}(0,1)$ despite discrete support.
+- __Oscillating PDF:__ $f_n(x)=1+\sin(2\pi n x)$ on $[0,1]$: $F_n(x)\to x$ uniformly, so $X_n\xrightarrow{d}\operatorname{Uniform}(0,1)$ despite $f_n\not\to 1$.
+- __Discrete-to-continuous:__ $X_n$ uniform on $\{k/n\}_{k=0}^n$: $F_{X_n}(x)\to x$, so $X_n\xrightarrow{d}\operatorname{Uniform}(0,1)$ despite discrete support.
 
-**Lévy's continuity theorem.** $X_n\xrightarrow{d} X$ iff their characteristic functions $\phi_n(t)=E[e^{itX_n}]$ converge pointwise to $\phi(t)=E[e^{itX}]$ for all $t\in\mathbb R$.
+__Lévy's continuity theorem.__ $X_n\xrightarrow{d} X$ iff their characteristic functions $\phi_n(t)=E[e^{itX_n}]$ converge pointwise to $\phi(t)=E[e^{itX}]$ for all $t\in\mathbb R$.
 
 _Proof sketch (forward direction)._ If $X_n\xrightarrow{d} X$, the function $x\mapsto e^{itx}$ is bounded and continuous for each fixed $t$, so by Portmanteau $E[e^{itX_n}]\to E[e^{itX}]$. This direction is immediate.
 
 _Proof sketch (reverse direction)._ Assume $\phi_n(t)\to\phi(t)$ pointwise and $\phi$ is continuous at $0$. Clearly $\phi(0)=\lim_n\phi_n(0)=1$.
 
-**Tail inequality for CFs.** By Fubini's theorem,
+__Tail inequality for CFs.__ By Fubini's theorem,
 $$\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt = E\!\left[\,\frac1\delta\int_{-\delta}^\delta(1-e^{itX_n})\,dt\right] = E\!\left[2-\frac{2\sin(\delta X_n)}{\delta X_n}\right].$$
 The function $h(y)=2-2\sin y/y$ satisfies $h(y)\ge1$ for $|y|\ge2$ (since $|\sin y|\le1$ gives $h(y)\ge2-2/|y|\ge1$) and $h(y)\ge0$ elsewhere. Consequently
 $$P(|X_n|>2/\delta)\le E\!\left[2-\frac{2\sin(\delta X_n)}{\delta X_n}\right] = \frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt.$$
 
-**Tightness via dominated convergence.** Continuity of $\phi$ at $0$ gives: for any $\varepsilon>0$, choose $\delta>0$ such that $|1-\phi(t)|<\varepsilon$ for $|t|<\delta$. Then
+__Tightness via dominated convergence.__ Continuity of $\phi$ at $0$ gives: for any $\varepsilon>0$, choose $\delta>0$ such that $|1-\phi(t)|<\varepsilon$ for $|t|<\delta$. Then
 $$\frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt \le \frac1\delta\int_{-\delta}^\delta|1-\phi(t)|\,dt < \frac1\delta\cdot2\delta\cdot\varepsilon = 2\varepsilon,$$
 where the first inequality holds because the integral is real (the imaginary part cancels by symmetry $\phi(-t)=\overline{\phi(t)}$).
 For each $n$, $|1-\phi_n(t)|\le2$ (because $|\phi_n(t)|\le1$) and $1-\phi_n(t)\to1-\phi(t)$ pointwise. On $[-\delta,\delta]$, the dominated convergence theorem therefore applies:
 $$\lim_{n\to\infty}\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt = \frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt < 2\varepsilon.$$
 Combining with the tail inequality gives $\limsup_n P(|X_n|>2/\delta)<2\varepsilon$. Since $\varepsilon$ is arbitrary, $\{X_n\}$ is tight.
 
-**Subsequence convergence and identification.** By Prokhorov's theorem, tightness implies relative compactness: every subsequence of $\{X_n\}$ contains a further subsequence $\{X_{n_k}\}$ converging in distribution to some $Q$. The forward direction of Lévy's theorem identifies the CF of $Q$ as $\phi_Q(t)=\lim_k\phi_{n_k}(t)=\phi(t)$. Characteristic functions uniquely determine the law, so every subsequential limit must be the same distribution $P$ (the distribution whose CF is $\phi$). Hence $X_n\xrightarrow{d} P$.
+__Subsequence convergence and identification.__ By Prokhorov's theorem, tightness implies relative compactness: every subsequence of $\{X_n\}$ contains a further subsequence $\{X_{n_k}\}$ converging in distribution to some $Q$. The forward direction of Lévy's theorem identifies the CF of $Q$ as $\phi_Q(t)=\lim_k\phi_{n_k}(t)=\phi(t)$. Characteristic functions uniquely determine the law, so every subsequential limit must be the same distribution $P$ (the distribution whose CF is $\phi$). Hence $X_n\xrightarrow{d} P$.
 
 ---
 
@@ -145,11 +145,11 @@ Flashcards for this section are as follows:
 
 One says that $(Z_n)_{n\in\mathbb N}$ converges $P$-almost surely to $Z$, written $Z_n\xrightarrow{\text{a.s.}} Z$, if $P\bigl(\{\omega\in\Omega:\lim_{n\to\infty}Z_n(\omega)=Z(\omega)\}\bigr)=1$. More compactly, $P(\lim_{n\to\infty} Z_n = Z) = 1$.
 
-**Measurability of the convergence set.** We must first check that $\{\omega\in\Omega:\lim_{n\to\infty}Z_n(\omega)=Z(\omega)\}\in\mathcal F$. Recall that $\limsup_{n\to\infty} Y_n$ and $\liminf_{n\to\infty} Y_n$ are measurable when each $Y_n$ is measurable: $\sup_{n\ge m} Y_n$ is measurable for each $m$, and $\inf_{m\ge 1}\sup_{n\ge m} Y_n$ preserves measurability. Now $\{\lim Z_n = Z\} = \{\limsup_{n\to\infty} |Z_n-Z| = 0\} = \bigcap_{k=1}^\infty \{\limsup_{n\to\infty} |Z_n-Z| < 1/k\}$. Because $\limsup |Z_n-Z|$ is measurable, each set $\{\limsup |Z_n-Z| < 1/k\}\in\mathcal F$, and the countable intersection stays in $\mathcal F$.
+__Measurability of the convergence set.__ We must first check that $\{\omega\in\Omega:\lim_{n\to\infty}Z_n(\omega)=Z(\omega)\}\in\mathcal F$. Recall that $\limsup_{n\to\infty} Y_n$ and $\liminf_{n\to\infty} Y_n$ are measurable when each $Y_n$ is measurable: $\sup_{n\ge m} Y_n$ is measurable for each $m$, and $\inf_{m\ge 1}\sup_{n\ge m} Y_n$ preserves measurability. Now $\{\lim Z_n = Z\} = \{\limsup_{n\to\infty} |Z_n-Z| = 0\} = \bigcap_{k=1}^\infty \{\limsup_{n\to\infty} |Z_n-Z| < 1/k\}$. Because $\limsup |Z_n-Z|$ is measurable, each set $\{\limsup |Z_n-Z| < 1/k\}\in\mathcal F$, and the countable intersection stays in $\mathcal F$.
 
-**Proposition.** Almost sure convergence implies convergence in probability.
+__Proposition.__ Almost sure convergence implies convergence in probability.
 
-**Proof.** Assume $Z_n\xrightarrow{\text{a.s.}} Z$. For any $\varepsilon>0$, $P(|Z_n-Z|>\varepsilon) \le P(\bigcup_{k=n}^\infty \{|Z_k-Z|>\varepsilon\})$. By continuity from above, the right-hand side converges to $P(\bigcap_{n=1}^\infty \bigcup_{k=n}^\infty \{|Z_k-Z|>\varepsilon\}) = P(\{|Z_k-Z|>\varepsilon\}\text{ infinitely often (i.o.)})$. This set is contained in $\{\lim Z_n \neq Z\}$, whose probability is $0$ under almost sure convergence. Hence $P(|Z_n-Z|>\varepsilon)\to 0$.
+__Proof.__ Assume $Z_n\xrightarrow{\text{a.s.}} Z$. For any $\varepsilon>0$, $P(|Z_n-Z|>\varepsilon) \le P(\bigcup_{k=n}^\infty \{|Z_k-Z|>\varepsilon\})$. By continuity from above, the right-hand side converges to $P(\bigcap_{n=1}^\infty \bigcup_{k=n}^\infty \{|Z_k-Z|>\varepsilon\}) = P(\{|Z_k-Z|>\varepsilon\}\text{ infinitely often (i.o.)})$. This set is contained in $\{\lim Z_n \neq Z\}$, whose probability is $0$ under almost sure convergence. Hence $P(|Z_n-Z|>\varepsilon)\to 0$.
 
 ---
 
@@ -167,17 +167,17 @@ Flashcards for this section are as follows:
 
 If $Z_n\to Z$ in probability (resp. almost surely) and $g:\mathbb R\to\mathbb R$ is measurable with $P(Z\in D_g)=0$ where $D_g$ is the discontinuity set of $g$, then $g(Z_n)\to g(Z)$ in probability (resp. almost surely).
 
-**Almost-sure case: pathwise determinism.** On a set of probability $1$, $Z_n$ and $Z$ behave as ordinary deterministic sequences, so pointwise continuity of $g$ carries the convergence through. Formally, take $\tilde\Omega\in\mathcal F$ with $P(\tilde\Omega)=1$ on which $Z_n(\omega)\to Z(\omega)$. Then $\{Z\in D_g\}^c\cap\tilde\Omega$ still has probability $1$, and $g(Z_n(\omega))\to g(Z(\omega))$ by continuity.
+__Almost-sure case: pathwise determinism.__ On a set of probability $1$, $Z_n$ and $Z$ behave as ordinary deterministic sequences, so pointwise continuity of $g$ carries the convergence through. Formally, take $\tilde\Omega\in\mathcal F$ with $P(\tilde\Omega)=1$ on which $Z_n(\omega)\to Z(\omega)$. Then $\{Z\in D_g\}^c\cap\tilde\Omega$ still has probability $1$, and $g(Z_n(\omega))\to g(Z(\omega))$ by continuity.
 
-**Probability case: three-way trap decomposition.** The inequality decomposes the error into three distinct risks:
+__Probability case: three-way trap decomposition.__ The inequality decomposes the error into three distinct risks:
 
-- **Distance trap** $P(|Z_n-Z|\ge\delta)$: probability that $Z_n$ is far from $Z$, eliminated by sending $n\to\infty$ first.
-- **High-sensitivity trap** $P(Z\in B_\delta)$: probability that $Z$ lands in a region where a small perturbation can cause a large jump in $g$, eliminated by sending $\delta\downarrow0$ after $n\to\infty$.
-- **Discontinuity trap** $P(Z\in D_g)$: probability that $Z$ hits a discontinuity of $g$, assumed zero.
+- __Distance trap__ $P(|Z_n-Z|\ge\delta)$: probability that $Z_n$ is far from $Z$, eliminated by sending $n\to\infty$ first.
+- __High-sensitivity trap__ $P(Z\in B_\delta)$: probability that $Z$ lands in a region where a small perturbation can cause a large jump in $g$, eliminated by sending $\delta\downarrow0$ after $n\to\infty$.
+- __Discontinuity trap__ $P(Z\in D_g)$: probability that $Z$ hits a discontinuity of $g$, assumed zero.
 
 More precisely, for $\varepsilon>0$ define $B_\delta=\{x\notin D_g:\exists y,\,|x-y|<\delta,\,|g(x)-g(y)|>\varepsilon\}$. Then $P(Z\in B_\delta)\to0$ as $\delta\downarrow0$. The bound $$\begin{aligned}P(|g(Z_n)-g(Z)|>\varepsilon)&\le P(|Z_n-Z|\ge\delta)+P(Z\in B_\delta)+P(Z\in D_g)\end{aligned}$$ lets $n\to\infty$ first (eliminating the distance trap), then $\delta\downarrow0$ (eliminating the sensitivity trap).
 
-**Example.** For i.i.d. $X_i\sim\operatorname{Exp}(\lambda)$, SLLN gives $\overline X_n\to1/\lambda$ a.s., so $1/\overline X_n\to\lambda$ a.s. by continuous mapping.
+__Example.__ For i.i.d. $X_i\sim\operatorname{Exp}(\lambda)$, SLLN gives $\overline X_n\to1/\lambda$ a.s., so $1/\overline X_n\to\lambda$ a.s. by continuous mapping.
 
 ---
 
@@ -197,7 +197,7 @@ Then
 
 $\overline X_n\to \mu$ in probability.
 
-**Proof.** Independence gives
+__Proof.__ Independence gives
 
 $\operatorname{Var}(\overline X_n)=\frac{1}{n^2}\sum_{j=1}^n \operatorname{Var}(X_j)=\frac{\sigma^2}{n}$.
 
@@ -205,7 +205,7 @@ Chebyshev's inequality then yields $P(|\overline X_n-\mu|>\varepsilon)\le \frac{
 
 This is the cleanest form of the weak law and is often called Chebyshev's law of large numbers.
 
-**Remarks (assumptions).**
+__Remarks (assumptions).__
 
 (i) The theorem only requires $\operatorname{Var}(\overline X_n)\to0$; this holds, for example, if the $X_j$ are pairwise uncorrelated with uniformly bounded variance, not necessarily independent.
 
@@ -225,7 +225,7 @@ Flashcards for this section are as follows:
 
 If $X_1,X_2,\dots$ are iid with finite mean $\mu$ (no variance assumption), then $\overline X_n\to\mu$ in probability.
 
-**Proof using characteristic functions.** Let $\varphi_X(t)=E[e^{itX_1}]$. Since $E[|X_1|]<\infty$, the characteristic function expands near $0$ as $\varphi_X(t)=1+i\mu t+o(t)$. For the characteristic function expansion, the sample mean gives $$\varphi_{\overline X_n}(t)=\bigl(\varphi_X(t/n)\bigr)^n=\Bigl(1+\frac{i\mu t}{n}+o\Bigl(\frac1n\Bigr)\Bigr)^n\to e^{i\mu t},$$ which is the characteristic function of the degenerate law $\delta_\mu$. By Lévy's continuity theorem, $\overline X_n\xrightarrow{d}\delta_\mu$, i.e. $\overline X_n\to\mu$ in probability (since convergence in distribution to a constant implies convergence in probability).
+__Proof using characteristic functions.__ Let $\varphi_X(t)=E[e^{itX_1}]$. Since $E[|X_1|]<\infty$, the characteristic function expands near $0$ as $\varphi_X(t)=1+i\mu t+o(t)$. For the characteristic function expansion, the sample mean gives $$\varphi_{\overline X_n}(t)=\bigl(\varphi_X(t/n)\bigr)^n=\Bigl(1+\frac{i\mu t}{n}+o\Bigl(\frac1n\Bigr)\Bigr)^n\to e^{i\mu t},$$ which is the characteristic function of the degenerate law $\delta_\mu$. By Lévy's continuity theorem, $\overline X_n\xrightarrow{d}\delta_\mu$, i.e. $\overline X_n\to\mu$ in probability (since convergence in distribution to a constant implies convergence in probability).
 
 This proof is more powerful than Chebyshev's: it only requires $E[|X_1|]<\infty$, not finite variance.
 
@@ -242,7 +242,7 @@ Flashcards for this section are as follows:
 
 A necessary and sufficient condition for a weak law to hold (with suitable centering constants $a_n$) is Feller's condition: $$\lim_{x\to\infty} x\,P(|X_1|>x)=0.$$ When this holds, one can take $a_n=E[X_1\mathbb I_{|X_1|\le n}]$ and obtain $\overline X_n-a_n\to0$ in probability.
 
-**Remarks.** (i) The condition is strictly weaker than finite expectation: it controls only the tail decay rate, requiring $P(|X_1|>x)$ to decay faster than $1/x$. (ii) When $E[X_1]=\mu$ is finite, $a_n\to\mu$ and the classical WLLN is recovered. (iii) The condition is necessary: if $\overline X_n-a_n\to0$ in probability for some $a_n$, then $xP(|X_1|>x)\to0$ as $x\to\infty$. Thus the weak law demands essentially nothing more than slow-enough tail mass.
+__Remarks.__ (i) The condition is strictly weaker than finite expectation: it controls only the tail decay rate, requiring $P(|X_1|>x)$ to decay faster than $1/x$. (ii) When $E[X_1]=\mu$ is finite, $a_n\to\mu$ and the classical WLLN is recovered. (iii) The condition is necessary: if $\overline X_n-a_n\to0$ in probability for some $a_n$, then $xP(|X_1|>x)\to0$ as $x\to\infty$. Thus the weak law demands essentially nothing more than slow-enough tail mass.
 
 ---
 
@@ -294,13 +294,13 @@ The route taken in the course passes through the Borel-Cantelli lemmas.
 
 ### Borel-Cantelli lemmas <!-- check: ignore-line[header_style]: Borel-Cantelli is a proper noun (eponymous) -->
 
-**First Borel-Cantelli lemma.** If $\sum_n P(A_n)<\infty$, then $P(A_n \text{ i.o.})=0$.
+__First Borel-Cantelli lemma.__ If $\sum_n P(A_n)<\infty$, then $P(A_n \text{ i.o.})=0$.
 
-**Proof.** Since
+__Proof.__ Since
 
 $\{A_n \text{ i.o.}\}=\bigcap_{m=1}^{\infty}\bigcup_{n\ge m}A_n$, the union bound shows $P\left(\bigcup_{n\ge m}A_n\right)\le \sum_{n\ge m}P(A_n)\to 0$, and continuity from above finishes the proof.
 
-**Second Borel-Cantelli lemma.** If the $A_n$ are independent and $\sum_n P(A_n)=\infty$, then $P(A_n \text{ i.o.})=1$.
+__Second Borel-Cantelli lemma.__ If the $A_n$ are independent and $\sum_n P(A_n)=\infty$, then $P(A_n \text{ i.o.})=1$.
 
 This turns divergent sums of independent probabilities into almost-sure infinitely-often events.
 
@@ -313,7 +313,7 @@ Flashcards for this subsection are as follows:
 
 ### strong-law proof
 
-**Strong-law proof (subsequence method).** Assume first that the $X_j$ are bounded (truncation reduces the general case to this). The proof proceeds in two steps.
+__Strong-law proof (subsequence method).__ Assume first that the $X_j$ are bounded (truncation reduces the general case to this). The proof proceeds in two steps.
 
 _Step 1 — convergence on a subsequence._ Take $n_k=k^2$ as the subsequence. By Chebyshev's inequality, $$P(|\overline X_{n_k}-\mu|>\varepsilon)\le\frac{\operatorname{Var}(\overline X_{n_k})}{\varepsilon^2}=\frac{\sigma^2}{k^2\varepsilon^2},$$ which is summable over $k$. The first Borel-Cantelli lemma gives $P(|\overline X_{n_k}-\mu|>\varepsilon\text{ i.o.})=0$, so $\overline X_{n_k}\to\mu$ almost surely along the squares.
 
@@ -322,7 +322,7 @@ Using $|X_j|\le C$, $$|\overline X_n-\overline X_{k^2}|\le\Bigl(\frac1{k^2}-\fra
 Since $k^2\le n\le(k+1)^2=k^2+2k+1$, we have $n-k^2\le2k+1$ and $n\ge k^2$, so $$2\frac{n-k^2}{n}C\le2\frac{2k+1}{k^2}C=\frac{4C}{k}+O\!\left(\frac1{k^2}\right).$$
 Thus $\max_{k^2\le n\le(k+1)^2}|\overline X_n-\overline X_{k^2}|\to0$ as $k\to\infty$. Combined with the subsequence convergence, this forces $\overline X_n\to\mu$ almost surely for all $n$.
 
-**Lemma (subsequence criterion for a.s. convergence).** $Z_n\to Z$ almost surely if and only if every subsequence contains a further sub-subsequence converging almost surely to $Z$.
+__Lemma (subsequence criterion for a.s. convergence).__ $Z_n\to Z$ almost surely if and only if every subsequence contains a further sub-subsequence converging almost surely to $Z$.
 
 ---
 
@@ -335,7 +335,7 @@ Flashcards for this section are as follows:
 
 ## law of the iterated logarithm
 
-**Law of the iterated logarithm (Hartman–Wintner).** For iid $X_j$ with mean $\mu$ and finite variance $\sigma^2$,
+__Law of the iterated logarithm (Hartman–Wintner).__ For iid $X_j$ with mean $\mu$ and finite variance $\sigma^2$,
 $$\limsup_{n\to\infty}\frac{\overline X_n-\mu}{\sigma\sqrt{2\log\log n/n}}=1\quad\text{a.s.}$$
 The $\liminf$ is $-1$ a.s., so the normalized sample mean oscillates between $\pm1$ infinitely often. While the CLT describes $\sqrt{n}$-scale fluctuations in distribution, the LIL gives the a.s. fluctuation envelope: extreme deviations grow like $\sqrt{2n\log\log n}$, only slightly larger than $\sqrt{n}$. The extra factor $\sqrt{\log\log n}$ grows so slowly ($\sqrt{\log\log 10^{100}}\approx 2.7$) that for practical sample sizes the LIL and CLT scales are nearly indistinguishable.
 
@@ -369,19 +369,19 @@ Flashcards for this section are as follows:
 
 If the MGFs of a sequence of random variables converge pointwise to the MGF of a limit in a neighborhood of $0$, convergence in distribution follows. This is the engine behind the CLT proof when MGFs exist.
 
-**Theorem (MGF convergence ⇒ convergence in distribution).** Let $Z_n,Z$ be random variables whose MGFs $\psi_n(t)=E[e^{tZ_n}]$ and $\psi(t)=E[e^{tZ}]$ all exist for $|t|<\delta$ (some $\delta>0$). If $\psi_n(t)\to\psi(t)$ for every $t\in(-\delta,\delta)$, then $Z_n\xrightarrow{d}Z$.
+__Theorem (MGF convergence ⇒ convergence in distribution).__ Let $Z_n,Z$ be random variables whose MGFs $\psi_n(t)=E[e^{tZ_n}]$ and $\psi(t)=E[e^{tZ}]$ all exist for $|t|<\delta$ (some $\delta>0$). If $\psi_n(t)\to\psi(t)$ for every $t\in(-\delta,\delta)$, then $Z_n\xrightarrow{d}Z$.
 
 _Proof._ The argument proceeds in three stages.
 
-1. **Real convergence: pointwise → uniform on compacta.** MGFs are convex on the real interval where they exist. A pointwise-convergent sequence of convex functions on $(-\delta,\delta)$ converges uniformly on every compact subinterval — in particular on $[-\delta/2,\delta/2]$.
+1. __Real convergence: pointwise → uniform on compacta.__ MGFs are convex on the real interval where they exist. A pointwise-convergent sequence of convex functions on $(-\delta,\delta)$ converges uniformly on every compact subinterval — in particular on $[-\delta/2,\delta/2]$.
 
-2. **Analytic continuation to characteristic functions.** Each MGF extends to an analytic function on the complex strip $S=\{z\in\mathbb C:|\Re(z)|<\delta\}$ via $\psi_n(z)=E[e^{zZ_n}]$. On $S$ we have $|\psi_n(z)|\le\psi_n(\Re(z))$; together with the uniform real convergence this gives uniform boundedness on compact subsets of $S$. **Vitali's convergence theorem** for analytic functions then yields $\psi_n(z)\to\psi(z)$ uniformly on compact subsets of $S$. Restricting to the imaginary axis $z=it$ ($t\in\mathbb R$) gives pointwise convergence of characteristic functions: $$\phi_n(t)=\psi_n(it)\to\psi(it)=\phi(t)\quad\text{for all }t\in\mathbb R.$$
+2. __Analytic continuation to characteristic functions.__ Each MGF extends to an analytic function on the complex strip $S=\{z\in\mathbb C:|\Re(z)|<\delta\}$ via $\psi_n(z)=E[e^{zZ_n}]$. On $S$ we have $|\psi_n(z)|\le\psi_n(\Re(z))$; together with the uniform real convergence this gives uniform boundedness on compact subsets of $S$. __Vitali's convergence theorem__ for analytic functions then yields $\psi_n(z)\to\psi(z)$ uniformly on compact subsets of $S$. Restricting to the imaginary axis $z=it$ ($t\in\mathbb R$) gives pointwise convergence of characteristic functions: $$\phi_n(t)=\psi_n(it)\to\psi(it)=\phi(t)\quad\text{for all }t\in\mathbb R.$$
 
-3. **Lévy's continuity theorem** asserts that pointwise convergence of CFs to a limit continuous at $0$ implies convergence in distribution. Hence $Z_n\xrightarrow{d}Z$.
+3. __Lévy's continuity theorem__ asserts that pointwise convergence of CFs to a limit continuous at $0$ implies convergence in distribution. Hence $Z_n\xrightarrow{d}Z$.
 
-**MGF of $N(0,1)$.** For $Z\sim N(0,1)$, $$\psi_Z(t)=E[e^{tZ}]=\int_{-\infty}^\infty\frac{1}{\sqrt{2\pi}}e^{tz}e^{-z^2/2}\,dz=e^{t^2/2}\int_{-\infty}^\infty\frac{1}{\sqrt{2\pi}}e^{-(z-t)^2/2}\,dz=e^{t^2/2}.$$
+__MGF of $N(0,1)$.__ For $Z\sim N(0,1)$, $$\psi_Z(t)=E[e^{tZ}]=\int_{-\infty}^\infty\frac{1}{\sqrt{2\pi}}e^{tz}e^{-z^2/2}\,dz=e^{t^2/2}\int_{-\infty}^\infty\frac{1}{\sqrt{2\pi}}e^{-(z-t)^2/2}\,dz=e^{t^2/2}.$$
 
-**Reverse direction ($\Leftarrow$) does not come for free.** Convergence in distribution alone does not guarantee MGF convergence, even when every $Z_n$ and $Z$ has a finite MGF in a neighborhood of $0$. For example, let $Z_n=n$ with probability $1/n$ and $0$ otherwise. Then $Z_n\xrightarrow{d}0$ and each MGF $\psi_n(t)=(1-1/n)+(1/n)e^{tn}$ exists for all real $t$, but $\psi_n(t)\to\infty$ for $t>0$ while $\psi_0(t)=1$. The obstacle is that $e^{tZ_n}$ is unbounded, so the portmanteau theorem does not apply. To obtain $\psi_n(t)\to\psi(t)$ from $Z_n\xrightarrow{d}Z$ one needs uniform integrability of $\{e^{tZ_n}\}$. The argument proceeds as follows:
+__Reverse direction ($\Leftarrow$) does not come for free.__ Convergence in distribution alone does not guarantee MGF convergence, even when every $Z_n$ and $Z$ has a finite MGF in a neighborhood of $0$. For example, let $Z_n=n$ with probability $1/n$ and $0$ otherwise. Then $Z_n\xrightarrow{d}0$ and each MGF $\psi_n(t)=(1-1/n)+(1/n)e^{tn}$ exists for all real $t$, but $\psi_n(t)\to\infty$ for $t>0$ while $\psi_0(t)=1$. The obstacle is that $e^{tZ_n}$ is unbounded, so the portmanteau theorem does not apply. To obtain $\psi_n(t)\to\psi(t)$ from $Z_n\xrightarrow{d}Z$ one needs uniform integrability of $\{e^{tZ_n}\}$. The argument proceeds as follows:
 
 1. For a truncation level $M>0$, define $g_M(z)=e^{tz}\land M$ (i.e. $e^{tz}$ capped at $M$). This function is bounded and continuous.
 2. By the triangle inequality, $$|E[e^{tZ_n}]-E[e^{tZ}]|\le|E[g_M(Z_n)]-E[g_M(Z)]|+E[e^{tZ_n}\mathbf{1}_{e^{tZ_n}>M}]+E[e^{tZ}\mathbf{1}_{e^{tZ}>M}].$$
@@ -413,9 +413,9 @@ Then $E[Y_j]=0$ and $E[Y_j^2]=1$. Write $L(u)=\log\psi_{Y_1}(u)$. Since $\psi_{Y
 
 Thus $\psi_{S_n}(t)\to e^{t^2/2}$, the MGF of $N(0,1)$. By the continuity lemma for MGFs, $S_n\xrightarrow{d}N(0,1)$.
 
-**With characteristic functions.** An alternative proof uses characteristic functions $\varphi(t)=E[e^{itX}]$ instead of MGFs, avoiding the requirement that MGFs exist. Expanding $\varphi_{Y_1}(t)=1-t^2/2+o(t^2)$ near $0$ and raising to the $n$-th power yields $\varphi_{S_n}(t)=(1-t^2/(2n)+o(1/n))^n\to e^{-t^2/2}$, the CF of $N(0,1)$. Lévy's continuity theorem then gives $S_n\xrightarrow{d}N(0,1)$.
+__With characteristic functions.__ An alternative proof uses characteristic functions $\varphi(t)=E[e^{itX}]$ instead of MGFs, avoiding the requirement that MGFs exist. Expanding $\varphi_{Y_1}(t)=1-t^2/2+o(t^2)$ near $0$ and raising to the $n$-th power yields $\varphi_{S_n}(t)=(1-t^2/(2n)+o(1/n))^n\to e^{-t^2/2}$, the CF of $N(0,1)$. Lévy's continuity theorem then gives $S_n\xrightarrow{d}N(0,1)$.
 
-**Rate of convergence (Berry–Esseen).** The CLT guarantees approximation quality improves as $n$ grows, but does not say how fast. The **Berry–Esseen theorem** fills this gap: if $E[|X_1-\mu|^3]<\infty$, then for all $n$ and all $x$,
+__Rate of convergence (Berry–Esseen).__ The CLT guarantees approximation quality improves as $n$ grows, but does not say how fast. The __Berry–Esseen theorem__ fills this gap: if $E[|X_1-\mu|^3]<\infty$, then for all $n$ and all $x$,
 
 $\bigl|P(S_n\le x)-\Phi(x)\bigr|\le\frac{C\,\rho}{\sigma^3\sqrt n},\qquad\rho=E[|X_1-\mu|^3]$,
 
@@ -450,7 +450,7 @@ Flashcards for this section are as follows:
 
 ### examples <!-- check: ignore-line[section_example_heading]: integrated CLT applications --> Roll a fair die $n=100$ times. The sum $S_{100}=\sum_{i=1}^{100}X_i$ has mean $100\cdot3.5=350$ and variance $100\cdot(35/12)\approx291.67$. By the CLT, $$P(S_{100}>400)=P\!\left(\frac{S_{100}-350}{\sqrt{291.67}}>\frac{50}{\sqrt{291.67}}\approx2.928\right)\approx P(Z>2.928)\approx0.0017.$$
 
-**Empirical variance.** Let $X_1,\dots,X_n$ be i.i.d. with $E[X_1]=\mu$, $\operatorname{Var}(X_1)=\sigma^2$, and $E[X_1^4]<\infty$. Define the sample variance $S_n^2=\frac1n\sum_{i=1}^nX_i^2-\overline X_n^2$. Then $$\sqrt n\,(S_n^2-\sigma^2)\xrightarrow{d} N(0,\alpha),\qquad\alpha=E[(X_1-\mu)^4]-\sigma^4.$$
+__Empirical variance.__ Let $X_1,\dots,X_n$ be i.i.d. with $E[X_1]=\mu$, $\operatorname{Var}(X_1)=\sigma^2$, and $E[X_1^4]<\infty$. Define the sample variance $S_n^2=\frac1n\sum_{i=1}^nX_i^2-\overline X_n^2$. Then $$\sqrt n\,(S_n^2-\sigma^2)\xrightarrow{d} N(0,\alpha),\qquad\alpha=E[(X_1-\mu)^4]-\sigma^4.$$
 
 _Proof sketch._ Write $Y_i=(X_i-\mu)^2$ so that $E[Y_1]=\sigma^2$ and $\operatorname{Var}(Y_1)=\alpha$. The CLT gives $\sqrt n(\overline Y_n-\sigma^2)\xrightarrow{d} N(0,\alpha)$. Now $S_n^2-\sigma^2=(\overline Y_n-\sigma^2)+(\mu^2-\overline X_n^2)$. Since $\overline X_n\to\mu$ a.s., $\mu^2-\overline X_n^2\to0$ in probability. By Slutsky's theorem (or the vanishing-perturbation proposition), the limit distribution of $\sqrt n(S_n^2-\sigma^2)$ is the same as that of $\sqrt n(\overline Y_n-\sigma^2)$.
 
@@ -532,7 +532,7 @@ Let $X_1,X_2,\dots$ be i.i.d. with mean $\mu$, variance $\sigma^2$, and finite f
 **Step 1: a convenient infeasible estimator.** If the true mean $\mu$ were known, we could use $\frac1n\sum_{i=1}^n(X_i-\mu)^2$. Define $Y_i=(X_i-\mu)^2$; then $E[Y_1]=\sigma^2$ and $\operatorname{Var}(Y_1)=\mu_4^{(c)}-\sigma^4$. The CLT gives $$\sqrt n\!\left(\frac1n\sum_{i=1}^n Y_i-\sigma^2\right)\xrightarrow{d}N\!\left(0,\mu_4^{(c)}-\sigma^4\right).
 $$
 
-**Step 2: relate the empirical variance to the infeasible estimator.** Expand $\hat\sigma_n^2$ around $\mu$: $$\begin{aligned}\hat\sigma_n^2&=\frac1n\sum_{i=1}^n(X_i-\overline X_n)^2=\frac1n\sum_{i=1}^n\bigl[(X_i-\mu)-(\overline X_n-\mu)\bigr]^2\\[2pt]&=\frac1n\sum_{i=1}^n(X_i-\mu)^2-\frac{2(\overline X_n-\mu)}n\sum_{i=1}^n(X_i-\mu)+(\overline X_n-\mu)^2.\end{aligned}
+__Step 2: relate the empirical variance to the infeasible estimator.__ Expand $\hat\sigma_n^2$ around $\mu$: $$\begin{aligned}\hat\sigma_n^2&=\frac1n\sum_{i=1}^n(X_i-\overline X_n)^2=\frac1n\sum_{i=1}^n\bigl[(X_i-\mu)-(\overline X_n-\mu)\bigr]^2\\[2pt]&=\frac1n\sum_{i=1}^n(X_i-\mu)^2-\frac{2(\overline X_n-\mu)}n\sum_{i=1}^n(X_i-\mu)+(\overline X_n-\mu)^2.\end{aligned}
 $$
 
 The middle term simplifies because $\frac1n\sum_{i=1}^n(X_i-\mu)=\overline X_n-\mu$, yielding $$\hat\sigma_n^2 = \frac1n\sum_{i=1}^n Y_i \;\-\; (\overline X_n-\mu)^2.
@@ -540,7 +540,7 @@ $$
 
 Thus $\hat\sigma_n^2$ is exactly the infeasible estimator minus a squared-error correction that shrinks as $\overline X_n$ approaches $\mu$.
 
-**Step 3: scale the difference.** Multiply the relation by $\sqrt n$: $$\sqrt n(\hat\sigma_n^2-\sigma^2)=\sqrt n\!\left(\frac1n\sum_{i=1}^n Y_i-\sigma^2\right)-\sqrt n(\overline X_n-\mu)\cdot(\overline X_n-\mu).
+__Step 3: scale the difference.__ Multiply the relation by $\sqrt n$: $$\sqrt n(\hat\sigma_n^2-\sigma^2)=\sqrt n\!\left(\frac1n\sum_{i=1}^n Y_i-\sigma^2\right)-\sqrt n(\overline X_n-\mu)\cdot(\overline X_n-\mu).
 $$
 
 The first term converges weakly to $N(0,\mu_4^{(c)}-\sigma^4)$ by Step~1. For the second term, note that
@@ -568,9 +568,9 @@ Flashcards for this subsection are as follows:
 
 The asymptotic variance $\mu_4^{(c)}-\sigma^4$ can be zero even when $\sigma^2>0$. The condition $\mu_4^{(c)}=\sigma^4$ is equivalent to $\operatorname{Var}((X_1-\mu)^2)=0$, i.e., the squared deviation $(X_1-\mu)^2$ is almost surely equal to its expectation $\sigma^2$. This happens in two regimes:
 
-1. **Degenerate case** ($\sigma^2=0$): $X_1$ is almost surely constant. Then there is no variance to estimate at all — the problem is trivial.
+1. __Degenerate case__ ($\sigma^2=0$): $X_1$ is almost surely constant. Then there is no variance to estimate at all — the problem is trivial.
 
-2. **Symmetric two-point case** ($\sigma^2>0$): $X_1$ takes exactly the two values $\mu\pm\sigma$, each with probability $1/2$. Then every squared deviation satisfies $(X_i-\mu)^2=\sigma^2$ deterministically, so the infeasible estimator $\frac1n\sum_{i=1}^n(X_i-\mu)^2$ equals $\sigma^2$ exactly for every $n$ — it has no sampling variability whatsoever. The correction $(\overline X_n-\mu)^2$ still converges to $0$ in probability, so $\hat\sigma_n^2$ inherits this exactness asymptotically.
+2. __Symmetric two-point case__ ($\sigma^2>0$): $X_1$ takes exactly the two values $\mu\pm\sigma$, each with probability $1/2$. Then every squared deviation satisfies $(X_i-\mu)^2=\sigma^2$ deterministically, so the infeasible estimator $\frac1n\sum_{i=1}^n(X_i-\mu)^2$ equals $\sigma^2$ exactly for every $n$ — it has no sampling variability whatsoever. The correction $(\overline X_n-\mu)^2$ still converges to $0$ in probability, so $\hat\sigma_n^2$ inherits this exactness asymptotically.
 
 In both regimes the leading CLT term vanishes, so $\hat\sigma_n^2$ converges to $\sigma^2$ faster than $1/\sqrt n$ — specifically, $\hat\sigma_n^2-\sigma^2=o_p(n^{-1/2})$. The usual $\sqrt n$ scaling overestimates the convergence rate.
 
@@ -589,9 +589,9 @@ The CLT is used to approximate distributions of large sums by a normal law. For 
 
 This correction is especially relevant when approximating binomial probabilities by normal probabilities. For $S_n\sim\operatorname{Binomial}(n,p)$, the CLT gives $$P(a\le S_n\le b)\approx\Phi\!\left(\frac{b+\frac12-np}{\sqrt{np(1-p)}}\right)-\Phi\!\left(\frac{a-\frac12-np}{\sqrt{np(1-p)}}\right),$$ where the $\pm\frac12$ is the continuity correction.
 
-**Rule of thumb.** The normal approximation to the binomial is reliable when $np\ge5$ and $n(1-p)\ge5$. When $np$ is small, the Poisson approximation is more accurate.
+__Rule of thumb.__ The normal approximation to the binomial is reliable when $np\ge5$ and $n(1-p)\ge5$. When $np$ is small, the Poisson approximation is more accurate.
 
-**Inverse problem: required sample size.** Given a desired margin of error $\delta>0$ and confidence level $1-\alpha$, one can solve for $n$ such that $P(|\hat p-p|<\delta)\ge 1-\alpha$. Using the CLT approximation $\hat p\approx N(p,p(1-p)/n)$, the condition becomes $$\delta\ge z_{\alpha/2}\sqrt{\frac{p(1-p)}{n}}\quad\Longrightarrow\quad n\ge\frac{z_{\alpha/2}^2\,p(1-p)}{\delta^2}.$$ Since $p$ is unknown, the worst-case $p=1/2$ (maximizing $p(1-p)=1/4$) gives the conservative bound $n\ge z_{\alpha/2}^2/(4\delta^2)$. For $\alpha=0.05$ ($z_{0.025}\approx1.96$) and $\delta=0.05$, this yields $n\ge385$.
+__Inverse problem: required sample size.__ Given a desired margin of error $\delta>0$ and confidence level $1-\alpha$, one can solve for $n$ such that $P(|\hat p-p|<\delta)\ge 1-\alpha$. Using the CLT approximation $\hat p\approx N(p,p(1-p)/n)$, the condition becomes $$\delta\ge z_{\alpha/2}\sqrt{\frac{p(1-p)}{n}}\quad\Longrightarrow\quad n\ge\frac{z_{\alpha/2}^2\,p(1-p)}{\delta^2}.$$ Since $p$ is unknown, the worst-case $p=1/2$ (maximizing $p(1-p)=1/4$) gives the conservative bound $n\ge z_{\alpha/2}^2/(4\delta^2)$. For $\alpha=0.05$ ($z_{0.025}\approx1.96$) and $\delta=0.05$, this yields $n\ge385$.
 
 ---
 

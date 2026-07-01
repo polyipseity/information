@@ -35,9 +35,9 @@ The questions on this page summarize the _official tutorial materials_ for week 
 >
 > Concretely:
 >
-> - {@{**Rectangles** $R=[a,b]\times[c,d]$}@}: {@{iterated integrals with constant limits, $$P((X,Y)\in R)=\int_a^b\int_c^d f(x,y)\,dy\,dx.$$}@}
-> - {@{**Variable-bound regions** (e.g., $0\le y\le x\le 1$)}@}: {@{the inner limits become functions, $$P(0\le Y\le X\le 1)=\int_0^1\int_0^x f(x,y)\,dy\,dx.$$}@}
-> - {@{**Integration order**}@}: sketching {@{the region reveals whether $dx\,dy$ or $dy\,dx$ is simpler}@} — swap when {@{one order requires case-splitting and the other does not}@}.
+> - {@{__Rectangles__ $R=[a,b]\times[c,d]$}@}: {@{iterated integrals with constant limits, $$P((X,Y)\in R)=\int_a^b\int_c^d f(x,y)\,dy\,dx.$$}@}
+> - {@{__Variable-bound regions__ (e.g., $0\le y\le x\le 1$)}@}: {@{the inner limits become functions, $$P(0\le Y\le X\le 1)=\int_0^1\int_0^x f(x,y)\,dy\,dx.$$}@}
+> - {@{__Integration order__}@}: sketching {@{the region reveals whether $dx\,dy$ or $dy\,dx$ is simpler}@} — swap when {@{one order requires case-splitting and the other does not}@}.
 >
 > In short: {@{identify the region first, then integrate over the region}@}.
 

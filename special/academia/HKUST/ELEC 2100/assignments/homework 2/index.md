@@ -26,14 +26,14 @@ tags:
 
 This assignment was locked Apr 11 at 11:59pm.
 
-- **Please write down your answer with <span style="color: #e62429;">reasonable font size</span>.**
-- **Please <span style="color: #e62429;">check your</span> <span style="color: #e62429;">pdf file</span> before and after submission on Canvas.**
-- **Please limit <span style="color: #e62429;">file size below 5M</span>.**
-- **No other file format will be considered.**
-- **No late submission will be allowed**
-- [**HW2**](attachments/HW2.pdf) Q.2 (g) updated [**Table_CT**](attachments/Table_CT.pdf)
-- **Due on <span style="color: #e62429;">11 Apr (Sat)</span>**
-- **Solution**
+- __Please write down your answer with <span style="color: #e62429;">reasonable font size</span>.__
+- __Please <span style="color: #e62429;">check your</span> <span style="color: #e62429;">pdf file</span> before and after submission on Canvas.__
+- __Please limit <span style="color: #e62429;">file size below 5M</span>.__
+- __No other file format will be considered.__
+- __No late submission will be allowed__
+- [__HW2__](attachments/HW2.pdf) Q.2 (g) updated [__Table_CT__](attachments/Table_CT.pdf)
+- __Due on <span style="color: #e62429;">11 Apr (Sat)</span>__
+- __Solution__
 
 ## attachments
 

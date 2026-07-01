@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 
 If $X$ is discrete with probability mass function $p_X$, then $E[X]=\sum_x x\,p_X(x)$, provided the series converges absolutely. More generally, if $X\ge 0$ is $\mathbb N$-valued, then $E[X]=\sum_{n=1}^{\infty} P[X\ge n]$. This tail-sum formula is often easier to use than the definition.
 
-**Proof.** Write each integer $k\ge 1$ as $k=\sum_{n=1}^k 1$. Then $E[X]=\sum_{k=1}^{\infty} kP[X=k]=\sum_{k=1}^{\infty}\sum_{n=1}^k P[X=k]$. Since all terms are nonnegative, Tonelli's theorem allows us to reverse the sums and obtain $E[X]=\sum_{n=1}^{\infty}\sum_{k=n}^{\infty}P[X=k]=\sum_{n=1}^{\infty}P[X\ge n]$.
+__Proof.__ Write each integer $k\ge 1$ as $k=\sum_{n=1}^k 1$. Then $E[X]=\sum_{k=1}^{\infty} kP[X=k]=\sum_{k=1}^{\infty}\sum_{n=1}^k P[X=k]$. Since all terms are nonnegative, Tonelli's theorem allows us to reverse the sums and obtain $E[X]=\sum_{n=1}^{\infty}\sum_{k=n}^{\infty}P[X=k]=\sum_{n=1}^{\infty}P[X\ge n]$.
 
 Expectation depends only on the law of $X$. Thus if $X$ and $Y$ satisfy $X\stackrel d=Y$ and either expectation exists, then $E[X]=E[Y]$. The proof is immediate from the formula above, since the mass function is determined by the law.
 
@@ -58,7 +58,7 @@ Flashcards for this section are as follows:
 
 If $X$ has density $f_X$, then $E[X]=\int_{-\infty}^{\infty} x f_X(x)\,dx$, again under absolute integrability. For nonnegative real-valued random variables the continuous tail formula is $E[X]=\int_0^{\infty} P[X>t]\,dt=\int_0^{\infty}(1-F_X(t))\,dt$.
 
-**Proof.** Since $X(\omega)=\int_0^{\infty}\mathbf 1_{\{X(\omega)>t\}}\,dt$ for every nonnegative value $X(\omega)$, Tonelli gives $E[X]=E\left[\int_0^{\infty}\mathbf 1_{\{X>t\}}\,dt\right]=\int_0^{\infty}E[\mathbf 1_{\{X>t\}}]dt=\int_0^{\infty}P[X>t]dt$. For the exponential law $X\sim E(\lambda)$, this yields immediately $E[X]=\int_0^{\infty}e^{-\lambda t}\,dt=1/\lambda$.
+__Proof.__ Since $X(\omega)=\int_0^{\infty}\mathbf 1_{\{X(\omega)>t\}}\,dt$ for every nonnegative value $X(\omega)$, Tonelli gives $E[X]=E\left[\int_0^{\infty}\mathbf 1_{\{X>t\}}\,dt\right]=\int_0^{\infty}E[\mathbf 1_{\{X>t\}}]dt=\int_0^{\infty}P[X>t]dt$. For the exponential law $X\sim E(\lambda)$, this yields immediately $E[X]=\int_0^{\infty}e^{-\lambda t}\,dt=1/\lambda$.
 
 ---
 
@@ -81,7 +81,7 @@ Two standard special cases are worth isolating.
 As an example, if $X\sim \mathrm{Pois}(\lambda)$, then $E[e^{tX}]=\sum_{k=0}^{\infty} e^{tk}e^{-\lambda}\frac{\lambda^k}{k!}=\exp(\lambda(e^t-1))$, which is the moment generating function of the Poisson law.
 
 <!-- Added from PDF: Example 6.6(ix), page 55 -->
-**Example (nonexistent expectation: Cauchy).** Let $X$ have the standard Cauchy density
+__Example (nonexistent expectation: Cauchy).__ Let $X$ have the standard Cauchy density
 $$f_X(x) = \frac{1}{\pi}\cdot\frac{1}{1+x^2}, \qquad x \in \mathbb R.$$
 Then
 $$E[|X|] = \frac{2}{\pi}\int_0^\infty \frac{x}{1+x^2}\,dx

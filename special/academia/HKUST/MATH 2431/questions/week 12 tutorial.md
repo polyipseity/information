@@ -54,7 +54,7 @@ The questions on this page combine T1B tutorial session problems with supplement
 
 <!-- markdownlint MD028 -->
 
-> **Self exercise:** Let $X,Y,Z$ be jointly independent and uniformly distributed on $[0,1]$. Find the PDF of $A=X+Y+Z$.
+> __Self exercise:__ Let $X,Y,Z$ be jointly independent and uniformly distributed on $[0,1]$. Find the PDF of $A=X+Y+Z$.
 >
 > Solution: Let {@{$W=X+Y$ (triangular on $[0,2]$)}@}. By {@{independence, $f_A(a)=\int_{-\infty}^\infty f_W(a-z)f_Z(z)\,dz$ where $f_Z(z)=\mathbf 1_{\{0\le z\le1\}}$}@}. The limits come from {@{$0\le z\le1$ and the support $0\le a-z\le2$}@}, giving {@{$\max(0,a-2)\le z\le\min(1,a)$}@}. Split $a$ into three ranges:
 >

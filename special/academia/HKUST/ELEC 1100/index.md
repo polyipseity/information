@@ -145,7 +145,7 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - topic: basic components
 - ELEC 1100
-  - ELEC 1100 / ECE areas relevant to robotics ::@:: Robotics draws on multiple ECE subfields grouped by function: **hardware** (nanoelectronics for core devices; MEMS for micro‑robots and sensors; photonics for optical sensors), **computation & control** (integrated circuits & systems and system automation for control algorithms; multimedia & signal processing for information processing; computer engineering for decision‑making) and **communications** (wireless communication and networking for robot links). <!--SR:!2026-10-20,172,310!2027-01-08,240,330-->
+  - ELEC 1100 / ECE areas relevant to robotics ::@:: Robotics draws on multiple ECE subfields grouped by function: __hardware__ (nanoelectronics for core devices; MEMS for micro‑robots and sensors; photonics for optical sensors), __computation & control__ (integrated circuits & systems and system automation for control algorithms; multimedia & signal processing for information processing; computer engineering for decision‑making) and __communications__ (wireless communication and networking for robot links). <!--SR:!2026-10-20,172,310!2027-01-08,240,330-->
   - ELEC 1100 / [electronic component](electronic%20component.md#electrical%20fundamentals)
     - [§ electricity](electronic%20component.md#electricity)
     - [§ atoms and charge](electronic%20component.md#atoms%20and%20charge)

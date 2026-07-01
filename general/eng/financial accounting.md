@@ -11,7 +11,7 @@ tags:
 
 # financial accounting
 
-**Financial accounting** is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](<stakeholder%20(corporate).md>)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2029-03-15,1281,350!2028-01-21,868,290!2030-10-31,1634,310!2029-04-18,1306,350-->
+__Financial accounting__ is {@{a branch of [accounting](accounting.md) concerned with the summary, analysis and reporting of financial transactions related to a business}@}.<sup>[\[1\]](#^ref-1)</sup> This involves {@{the preparation of [financial statements](financial%20audit.md) available for public use}@}. {@{[Stockholders](shareholder.md), [suppliers](vendor.md), [banks](bank.md), [employees](employment.md#employee), [government agencies](government%20agency.md), [business owners](businessperson.md), and other [stakeholders](<stakeholder%20(corporate).md>)}@} are examples of people {@{interested in receiving such information for decision making purposes}@}. <!--SR:!2029-03-15,1281,350!2028-01-21,868,290!2030-10-31,1634,310!2029-04-18,1306,350-->
 
 Financial accountancy is governed by {@{both local and international accounting standards}@}. {@{[Generally Accepted Accounting Principles](accounting%20standard.md) (GAAP)}@} is {@{the standard framework of guidelines for financial accounting used in any given jurisdiction}@}. It includes {@{the standards, conventions and rules that accountants follow in recording and summarizing and in the preparation of financial statements}@}. <!--SR:!2028-10-07,1158,350!2027-05-25,753,330!2027-07-23,796,330!2026-11-06,578,310-->
 
@@ -28,17 +28,17 @@ While financial accounting is {@{used to prepare accounting information for peop
 
 Financial accounting is {@{the preparation of financial statements that can be consumed by the public and the relevant stakeholders}@}. Financial information {@{would be useful to users if such qualitative characteristics are present}@}. When producing financial statements, the following must be complied with: {@{fundamental qualitative characteristics and enhancing qualitative characteristics}@}. <!--SR:!fsrs,2031-03-04T15:29:59.588Z,1724,1723.77298778,1,2,10,0,0,2026-06-14T15:29:59.588Z!2029-04-12,1301,350!2031-06-14,1878,330-->
 
-**Fundamental Qualitative Characteristics** ::@:: relevance, faithful representation <!--SR:!2028-11-13,1185,350!2027-03-29,708,330-->
+__Fundamental Qualitative Characteristics__ ::@:: relevance, faithful representation <!--SR:!2028-11-13,1185,350!2027-03-29,708,330-->
 
-- **Relevance** ::@:: Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements. <!--SR:!2028-02-23,855,290!2027-10-07,758,290-->
-- **Faithful Representation** ::@:: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2027-09-30,792,290!2029-10-06,1262,290-->
+- __Relevance__ ::@:: Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance. Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements. <!--SR:!2028-02-23,855,290!2027-10-07,758,290-->
+- __Faithful Representation__ ::@:: Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error. It signifies that the accountants have acted in [good faith](good%20faith.md) during the process of representation. <!--SR:!2027-09-30,792,290!2029-10-06,1262,290-->
 
-**Enhancing Qualitative Characteristics** ::@:: verifiability, comparability, understandability, timeliness <!--SR:!2028-11-14,1117,310!2028-06-28,1078,350-->
+__Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, understandability, timeliness <!--SR:!2028-11-14,1117,310!2028-06-28,1078,350-->
 
-- **Verifiability** ::@:: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2026-07-30,512,310!2028-04-23,935,290-->
-- **Comparability** ::@:: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2028-06-21,1008,310!2026-09-14,548,310-->
-- **Understandability** ::@:: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2027-04-26,730,330!2026-08-26,525,310-->
-- **Timeliness** ::@:: Timeliness implies that financial information must be presented to the users before a decision is to be made. <!--SR:!2029-06-22,1359,350!2028-04-15,1019,350-->
+- __Verifiability__ ::@:: Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity. <!--SR:!2026-07-30,512,310!2028-04-23,935,290-->
+- __Comparability__ ::@:: Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity. <!--SR:!2028-06-21,1008,310!2026-09-14,548,310-->
+- __Understandability__ ::@:: Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant. <!--SR:!2027-04-26,730,330!2026-08-26,525,310-->
+- __Timeliness__ ::@:: Timeliness implies that financial information must be presented to the users before a decision is to be made. <!--SR:!2029-06-22,1359,350!2028-04-15,1019,350-->
 
 ## three components of financial statements
 
@@ -59,7 +59,7 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$20}@}
 > - {@{cash outflow}@}: {@{$7}@}
 > - {@{opening balance}@}: {@{$5}@}
-> - {@{**closing balance**}@}: {@{**$20 – $7 + $5 = $18**}@} <!--SR:!2028-03-31,1006,350!2029-06-26,1360,350!2029-03-30,1293,350!2026-12-22,638,330!2026-11-20,611,330!2027-05-27,755,330!2029-02-24,1266,350!2028-07-26,1097,350-->
+> - {@{__closing balance__}@}: {@{__$20 – $7 + $5 = $18__}@} <!--SR:!2028-03-31,1006,350!2029-06-26,1360,350!2029-03-30,1293,350!2026-12-22,638,330!2026-11-20,611,330!2027-05-27,755,330!2029-02-24,1266,350!2028-07-26,1097,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -70,9 +70,9 @@ The statement of cash flows {@{considers the inputs and outputs in concrete cash
 > - {@{cash inflow}@}: {@{$50 - _How much WikiTables received in cash for the first table. They didn't receive cash for the second table (sold in credit terms)._}@}
 > - {@{cash outflow}@}: {@{$50 - _How much they'd originally bought the 2 tables for._}@}
 > - {@{opening balance}@}: {@{$0}@}
-> - {@{**closing balance**}@}: {@{**$50 – 2 \* $25 + $0 = $50 – $50 = $0** - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2028-10-08,1156,350!2029-05-27,1338,350!fsrs,2031-07-17T00:00:00.000Z,1847,1847.31118877,1,2,10,0,0,2026-06-26T00:00:00.000Z!2028-05-28,1052,350!2029-03-16,1281,350!2028-07-30,1101,350!2028-07-17,1092,350-->
+> - {@{__closing balance__}@}: {@{__$50 – 2 \* $25 + $0 = $50 – $50 = $0__ - _Indeed, the cash flow for the month of June for WikiTables amounts to $0 and not $50._}@} <!--SR:!2026-12-18,630,330!2028-10-08,1156,350!2029-05-27,1338,350!fsrs,2031-07-17T00:00:00.000Z,1847,1847.31118877,1,2,10,0,0,2026-06-26T00:00:00.000Z!2028-05-28,1052,350!2029-03-16,1281,350!2028-07-30,1101,350!2028-07-17,1092,350-->
 
-Important: the cash flow statement {@{only considers the exchange of **actual** cash, and ignores what the person in question owes or is owed}@}. <!--SR:!2028-07-28,1103,350-->
+Important: the cash flow statement {@{only considers the exchange of __actual__ cash, and ignores what the person in question owes or is owed}@}. <!--SR:!2028-07-28,1103,350-->
 
 ### statement of financial performance
 
@@ -142,11 +142,11 @@ Financial accountants serves the following purposes: {@{producing general purpos
 
 Objectives include:
 
-- **systematic recording of transactions** ::@:: Basic objective of accounting is to systematically record the financial aspects of business transactions (i.e. book-keeping). These recorded transactions are later on classified and summarized logically for the preparation of financial statements and for their analysis and interpretation. <!--SR:!2027-10-03,829,310!2028-10-15,1095,310-->
-- **ascertainment of result of above recorded transactions** ::@:: Accountant prepares profit and loss account to know the result of business operations for a particular period of time. If expenses exceed revenue then it is said that the business is running under loss. The profit and loss account helps the management and different stakeholders in taking rational decisions. For example, if business is not proved to be remunerative or profitable, the cause of such a state of affairs can be investigated by the management for taking remedial steps. <!--SR:!2026-12-19,596,290!2027-01-18,602,290-->
-- **ascertainment of the financial position of business** ::@:: Businessman is not only interested in knowing the result of the business in terms of profits or loss for a particular period but is also anxious to know that what he owes (liability) to the outsiders and what he owns (assets) on a certain date. To know this, accountant prepares a financial position statement of assets and liabilities of the business at a particular point of time and helps in ascertaining the financial health of the business. <!--SR:!2027-10-08,676,250!2029-08-31,1325,310-->
-- **providing information to the users for rational decision-making** ::@:: Accounting as a 'language of business' communicates the financial result of an enterprise to various stakeholders by means of financial statements. Accounting aims to meet the financial information needs of the decision-makers and helps them in rational decision-making. <!--SR:!2026-09-27,569,330!2027-10-28,806,290-->
-- **to know the solvency position** ::@:: By preparing the balance sheet, management not only reveals what is owned and owed by the enterprise, but also it gives the information regarding concern's ability to meet its liabilities in the short run (liquidity position) and also in the long-run (solvency position) as and when they fall due. <!--SR:!2028-02-26,950,330!2028-04-23,983,310-->
+- __systematic recording of transactions__ ::@:: Basic objective of accounting is to systematically record the financial aspects of business transactions (i.e. book-keeping). These recorded transactions are later on classified and summarized logically for the preparation of financial statements and for their analysis and interpretation. <!--SR:!2027-10-03,829,310!2028-10-15,1095,310-->
+- __ascertainment of result of above recorded transactions__ ::@:: Accountant prepares profit and loss account to know the result of business operations for a particular period of time. If expenses exceed revenue then it is said that the business is running under loss. The profit and loss account helps the management and different stakeholders in taking rational decisions. For example, if business is not proved to be remunerative or profitable, the cause of such a state of affairs can be investigated by the management for taking remedial steps. <!--SR:!2026-12-19,596,290!2027-01-18,602,290-->
+- __ascertainment of the financial position of business__ ::@:: Businessman is not only interested in knowing the result of the business in terms of profits or loss for a particular period but is also anxious to know that what he owes (liability) to the outsiders and what he owns (assets) on a certain date. To know this, accountant prepares a financial position statement of assets and liabilities of the business at a particular point of time and helps in ascertaining the financial health of the business. <!--SR:!2027-10-08,676,250!2029-08-31,1325,310-->
+- __providing information to the users for rational decision-making__ ::@:: Accounting as a 'language of business' communicates the financial result of an enterprise to various stakeholders by means of financial statements. Accounting aims to meet the financial information needs of the decision-makers and helps them in rational decision-making. <!--SR:!2026-09-27,569,330!2027-10-28,806,290-->
+- __to know the solvency position__ ::@:: By preparing the balance sheet, management not only reveals what is owned and owed by the enterprise, but also it gives the information regarding concern's ability to meet its liabilities in the short run (liquidity position) and also in the long-run (solvency position) as and when they fall due. <!--SR:!2028-02-26,950,330!2028-04-23,983,310-->
 
 ## graphic definition
 

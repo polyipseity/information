@@ -20,7 +20,7 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-A **solar eclipse** occurs when {@{the [Moon](Moon.md) passes between [Earth](Earth.md) and the [Sun](Sun.md), thereby obscuring the view of the Sun from a small part of Earth, totally or partially}@}. Such an alignment occurs {@{approximately every six months, during the [eclipse season](eclipsee%20season.md) in its [new moon](new%20moon.md) phase}@}, when {@{the Moon is closest to the plane of [Earth's orbit](Earth's%20orbit.md)}@}. <!--SR:!2030-04-04,1533,310!2027-09-24,841,330!2028-07-01,1127,350-->
+A __solar eclipse__ occurs when {@{the [Moon](Moon.md) passes between [Earth](Earth.md) and the [Sun](Sun.md), thereby obscuring the view of the Sun from a small part of Earth, totally or partially}@}. Such an alignment occurs {@{approximately every six months, during the [eclipse season](eclipsee%20season.md) in its [new moon](new%20moon.md) phase}@}, when {@{the Moon is closest to the plane of [Earth's orbit](Earth's%20orbit.md)}@}. <!--SR:!2030-04-04,1533,310!2027-09-24,841,330!2028-07-01,1127,350-->
 
 ## types
 
@@ -74,12 +74,12 @@ fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap 
 
 <!--pytextgen generate section="9ac1"--><!-- The following content is generated at 2024-07-05T20:41:16.752680+08:00. Any edits will be overridden! -->
 
-- *(begin)*→::@::←first contact: When the [Moon](Moon.md)'s limb (edge) is exactly tangential to the [Sun](Sun.md)'s limb. <!--SR:!2028-08-10,1111,310!2028-06-21,1117,350-->
+- _(begin)_→::@::←first contact: When the [Moon](Moon.md)'s limb (edge) is exactly tangential to the [Sun](Sun.md)'s limb. <!--SR:!2028-08-10,1111,310!2028-06-21,1117,350-->
 - first contact: When the [Moon](Moon.md)'s limb (edge) is exactly tangential to the [Sun](Sun.md)'s limb.→::@::←second contact: Starting with [Baily's beads](Baily's%20beads.md) (caused by light shining through valleys on the [Moon](Moon.md)'s surface) and the diamond ring effect. Almost the entire disk is covered. <!--SR:!2028-03-16,893,290!2031-07-02,1913,330-->
 - second contact: Starting with [Baily's beads](Baily's%20beads.md) (caused by light shining through valleys on the [Moon](Moon.md)'s surface) and the diamond ring effect. Almost the entire disk is covered.→::@::←totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible. <!--SR:!2031-01-21,1725,310!2031-09-21,1968,330-->
 - totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible.→::@::←third contact: When the first bright light becomes visible and the [Moon](Moon.md)'s [shadow](shadow.md) is moving away from the observer. Again a diamond ring may be observed. <!--SR:!2027-02-04,602,270!2028-06-28,1124,350-->
 - third contact: When the first bright light becomes visible and the [Moon](Moon.md)'s [shadow](shadow.md) is moving away from the observer. Again a diamond ring may be observed.→::@::←fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends. <!--SR:!2031-10-18,1994,330!2027-03-21,755,330-->
-- fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends.→::@::←*(end)* <!--SR:!2028-11-28,1246,350!2026-07-22,521,310-->
+- fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends.→::@::←_(end)_ <!--SR:!2028-11-28,1246,350!2026-07-22,521,310-->
 
 <!--/pytextgen-->
 

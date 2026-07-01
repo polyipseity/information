@@ -14,7 +14,7 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-A **reactivity series** is {@{a progression of series of [metals](metal.md) arranged by their [reactivity](<reactivity%20(chemistry).md>)}@}. <!--SR:!2026-08-16,874,290-->
+A __reactivity series__ is {@{a progression of series of [metals](metal.md) arranged by their [reactivity](<reactivity%20(chemistry).md>)}@}. <!--SR:!2026-08-16,874,290-->
 
 ## data
 
@@ -128,7 +128,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="299018"--><!-- The following content is generated at 2024-02-18T15:03:20.984589+08:00. Any edits will be overridden! -->
 
-- *(most reactive)*→::@::←[caesium](caesium.md) <!--SR:!2027-05-20,1173,350!2027-06-01,1182,350-->
+- _(most reactive)_→::@::←[caesium](caesium.md) <!--SR:!2027-05-20,1173,350!2027-06-01,1182,350-->
 - [caesium](caesium.md)→::@::←[rubidium](rubidium.md) <!--SR:!2026-09-26,500,250!2026-12-07,463,230-->
 - [rubidium](rubidium.md)→::@::←[potassium](potassium.md) <!--SR:!2027-09-13,979,250!2028-09-17,1060,250-->
 - [potassium](potassium.md)→::@::←[sodium](sodium.md) <!--SR:!2026-09-02,849,290!2033-07-27,2812,330-->
@@ -157,7 +157,7 @@ return chain.from_iterable([r.value for r in results])
 - [mercury](<mercury%20(element).md>)→::@::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2031-06-18,1991,330-->
 - [silver](silver.md)→::@::←[gold](gold.md) <!--SR:!fsrs,2035-10-19T00:00:00.000Z,3401,3400.58390811,1,2,11,0,0,2026-06-27T00:00:00.000Z!2028-04-01,1423,350-->
 - [gold](gold.md)→::@::←[platinum](platinum.md) <!--SR:!2028-01-27,1369,350!2027-04-17,1146,350-->
-- [platinum](platinum.md)→::@::←*(least reactive)* <!--SR:!2027-03-09,1114,350!2026-08-30,892,330-->
+- [platinum](platinum.md)→::@::←_(least reactive)_ <!--SR:!2027-03-09,1114,350!2026-08-30,892,330-->
 
 <!--/pytextgen-->
 

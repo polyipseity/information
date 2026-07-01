@@ -129,7 +129,7 @@ In comparison with LANG 1402 and LANG 1404, the workload of this course is compa
 
 For ungraded ones, you can probably just do them with minimal effort, or not do it at all if you don't care about impression.
 
-The same goes for attendance, you can skip all lessons if you don't care about impression (though I suspect this makes a much greater impression, so maybe don't). There is a scary score counter that records your attendance, but it is not graded *officially*. It is a relic from the past when attendance *officially* would affect your grade. It was left here to make people think they need to attend lessons psychologically, hehe. Though if you care about impression, please do attend all lessons so that it won't affect your grade *unofficially*, i.e. teacher disliking you and giving you worse grade.
+The same goes for attendance, you can skip all lessons if you don't care about impression (though I suspect this makes a much greater impression, so maybe don't). There is a scary score counter that records your attendance, but it is not graded _officially_. It is a relic from the past when attendance _officially_ would affect your grade. It was left here to make people think they need to attend lessons psychologically, hehe. Though if you care about impression, please do attend all lessons so that it won't affect your grade _unofficially_, i.e. teacher disliking you and giving you worse grade.
 
 ### attachments
 

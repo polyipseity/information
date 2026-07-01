@@ -25,7 +25,7 @@ tags:
 
 ---
 
-Problem Set 9, due on <span style="color: #0e68b3">**Monday 04/05/2026, until 13:30 (1:30 PM)**</span> Hong Kong Time (UTC +8), to be uploaded on Canvas <span style="color: #e62429">**(note the extended deadline)**</span>.
+Problem Set 9, due on <span style="color: #0e68b3">__Monday 04/05/2026, until 13:30 (1:30 PM)__</span> Hong Kong Time (UTC +8), to be uploaded on Canvas <span style="color: #e62429">__(note the extended deadline)__</span>.
 
 [PS9.pdf](attachments/PS9.pdf)
 

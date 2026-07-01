@@ -29,9 +29,9 @@ The fundamental measurability fact is that a vector $(X_1,\dots,X_n)$ is $\mathc
 - ($\Leftarrow$) If each $X_i$ is measurable, then for any rectangle $R=(-\infty,a_1]\times\cdots\times(-\infty,a_n]$, the preimage is $(X_1,\dots,X_n)^{-1}(R)=\bigcap_{i=1}^n X_i^{-1}((-\infty,a_i])\in\mathcal F$. Since rectangles of this form generate $\mathcal B(\mathbb R^n)$, the vector is measurable.
 - ($\Rightarrow$) Conversely, if the vector is measurable, each coordinate satisfies $X_i=\pi_i\circ(X_1,\dots,X_n)$ where $\pi_i(x_1,\dots,x_n)=x_i$ is continuous (hence Borel measurable), so $X_i$ is measurable as a composition of measurable functions.
 
-**Definition.** Let $X_1,\dots,X_n$ be random variables on $(\Omega,\mathcal F,P)$. The joint law of $X_1,\dots,X_n$ is the probability measure on $(\mathbb R^n,\mathcal B(\mathbb R^n))$ defined by $$P_{(X_1,\dots,X_n)}[B]=P[(X_1,\dots,X_n)^{-1}(B)],\qquad B\in\mathcal B(\mathbb R^n).$$
+__Definition.__ Let $X_1,\dots,X_n$ be random variables on $(\Omega,\mathcal F,P)$. The joint law of $X_1,\dots,X_n$ is the probability measure on $(\mathbb R^n,\mathcal B(\mathbb R^n))$ defined by $$P_{(X_1,\dots,X_n)}[B]=P[(X_1,\dots,X_n)^{-1}(B)],\qquad B\in\mathcal B(\mathbb R^n).$$
 
-**Definition (joint CDF).** The joint cumulative distribution function of $X_1,\dots,X_n$ is the function $F_{X_1,\dots,X_n}:\mathbb R^n\to[0,1]$ defined by $$F_{X_1,\dots,X_n}(x_1,\dots,x_n)=P[X_1\le x_1,\dots,X_n\le x_n].$$
+__Definition (joint CDF).__ The joint cumulative distribution function of $X_1,\dots,X_n$ is the function $F_{X_1,\dots,X_n}:\mathbb R^n\to[0,1]$ defined by $$F_{X_1,\dots,X_n}(x_1,\dots,x_n)=P[X_1\le x_1,\dots,X_n\le x_n].$$
 
 Properties:
 
@@ -95,11 +95,11 @@ Flashcards for this section are as follows:
 
 When a joint CDF $F$ on $\mathbb R^n$ is sufficiently smooth, the mixed partial derivative plays the role of the joint density, unifying the rectangle condition with the density picture.
 
-**Key relation.** For $F$ differentiable enough (e.g. $C^n$), the alternating-sum rectangle probability equals the iterated integral of the mixed partial: $$\sum_{(i_1,\dots,i_n)}(-1)^{n-\sum i_k}F(b_{i_1},\dots,b_{i_n}) =\int_{a_1}^{b_1}\cdots\int_{a_n}^{b_n} \frac{\partial^nF}{\partial x_1\cdots\partial x_n}(x_1,\dots,x_n)\,dx_n\cdots dx_1.$$
+__Key relation.__ For $F$ differentiable enough (e.g. $C^n$), the alternating-sum rectangle probability equals the iterated integral of the mixed partial: $$\sum_{(i_1,\dots,i_n)}(-1)^{n-\sum i_k}F(b_{i_1},\dots,b_{i_n}) =\int_{a_1}^{b_1}\cdots\int_{a_n}^{b_n} \frac{\partial^nF}{\partial x_1\cdots\partial x_n}(x_1,\dots,x_n)\,dx_n\cdots dx_1.$$
 
 Here $b_{i_k}=a_k$ (if $i_k=0$) or $b_k$ (if $i_k=1$), so the sum runs over all $2^n$ vertices of $[a_1,b_1]\times\cdots\times[a_n,b_n]$. For $n=2$, this says $P[a_1<X_1\le b_1,a_2<X_2\le b_2]=\int_{a_1}^{b_1}\int_{a_2}^{b_2}\frac{\partial^2F}{\partial x_1\partial x_2}(x_1,x_2)\,dx_2\,dx_1$.
 
-**Relation to the joint density.** When $(X_1,\dots,X_n)$ is jointly continuous, the mixed partial coincides with the joint density wherever it exists: $$f_{X_1,\dots,X_n}(x_1,\dots,x_n)=\frac{\partial^nF}{\partial x_1\cdots\partial x_n}(x_1,\dots,x_n).$$
+__Relation to the joint density.__ When $(X_1,\dots,X_n)$ is jointly continuous, the mixed partial coincides with the joint density wherever it exists: $$f_{X_1,\dots,X_n}(x_1,\dots,x_n)=\frac{\partial^nF}{\partial x_1\cdots\partial x_n}(x_1,\dots,x_n).$$
 
 Thus the two key constraints on a joint CDF are unified: the mixed partial must be nonnegative and integrate to $1$.
 
@@ -112,9 +112,9 @@ Flashcards for this section are as follows:
 
 ### jointly continuous vs. each coordinate continuous
 
-It is **not** true that a random vector $(X,Y)$ is jointly continuous whenever $X$ and $Y$ are each continuous. The counterexample is $X\sim N(0,1)$ and $Y=X$: then $(X,Y)$ lives on the diagonal $\Delta=\{(t,t):t\in\mathbb R\}$, so $P[(X,Y)\in\Delta]=1$, but $\iint_\Delta f\,dx\,dy=0$ for any density $f$ on $\mathbb R^2$. Hence no joint density exists. Joint continuity is a strictly stronger condition than coordinate-wise continuity.
+It is __not__ true that a random vector $(X,Y)$ is jointly continuous whenever $X$ and $Y$ are each continuous. The counterexample is $X\sim N(0,1)$ and $Y=X$: then $(X,Y)$ lives on the diagonal $\Delta=\{(t,t):t\in\mathbb R\}$, so $P[(X,Y)\in\Delta]=1$, but $\iint_\Delta f\,dx\,dy=0$ for any density $f$ on $\mathbb R^2$. Hence no joint density exists. Joint continuity is a strictly stronger condition than coordinate-wise continuity.
 
-**General principle.** A random vector $(X_1,\dots,X_n)$ is jointly continuous iff there exists a density $f:\mathbb R^n\to[0,\infty)$ such that $P[(X_1,\dots,X_n)\in A]=\int_A f\,d^nx$ for all Borel $A$. This is a global property of the vector, not a property of individual coordinates. Any degeneracy (concentration on a lower-dimensional manifold) destroys joint continuity.
+__General principle.__ A random vector $(X_1,\dots,X_n)$ is jointly continuous iff there exists a density $f:\mathbb R^n\to[0,\infty)$ such that $P[(X_1,\dots,X_n)\in A]=\int_A f\,d^nx$ for all Borel $A$. This is a global property of the vector, not a property of individual coordinates. Any degeneracy (concentration on a lower-dimensional manifold) destroys joint continuity.
 
 ---
 
@@ -129,7 +129,7 @@ Flashcards for this section are as follows:
 
 Marginals are obtained by forgetting one coordinate. In the discrete case, $p_X(x)=\sum_y p_{X,Y}(x,y)$ and $p_Y(y)=\sum_x p_{X,Y}(x,y)$. In the continuous case, $f_X(x)=\int_{-\infty}^{\infty} f_{X,Y}(x,y)\,dy$ and $f_Y(y)=\int_{-\infty}^{\infty} f_{X,Y}(x,y)\,dx$.
 
-**Proof.** For the continuous formula, fix a Borel set $B\subseteq\mathbb R$. Then $P[X\in B]=P[(X,Y)\in B\times \mathbb R]=\iint_{B\times \mathbb R} f_{X,Y}(x,y)\,dx\,dy$. Fubini's theorem rewrites this as $\int_B \left(\int_{-\infty}^{\infty}f_{X,Y}(x,y)\,dy\right)dx$, which identifies the marginal density of $X$. The proof for $Y$ is identical.
+__Proof.__ For the continuous formula, fix a Borel set $B\subseteq\mathbb R$. Then $P[X\in B]=P[(X,Y)\in B\times \mathbb R]=\iint_{B\times \mathbb R} f_{X,Y}(x,y)\,dx\,dy$. Fubini's theorem rewrites this as $\int_B \left(\int_{-\infty}^{\infty}f_{X,Y}(x,y)\,dy\right)dx$, which identifies the marginal density of $X$. The proof for $Y$ is identical.
 
 The key warning is that marginals do not determine the joint law. One can alter the dependence structure while keeping the same one-dimensional distributions.
 
@@ -163,11 +163,11 @@ provided the sum converges absolutely. If $(X_1,\dots,X_n)$ is jointly continuou
 
 provided the integral converges absolutely.
 
-**Proof sketch (continuous case).** Approximate $g$ by simple functions and use the definition of the density. The discrete case follows by the definition of the joint PMF.
+__Proof sketch (continuous case).__ Approximate $g$ by simple functions and use the definition of the density. The discrete case follows by the definition of the joint PMF.
 
-**Additivity of expectation as a corollary.** Taking $g(x,y)=x+y$ gives $E[X+Y]=E[X]+E[Y]$ without any independence assumption. Similarly, $g(x,y)=\alpha x+\beta y$ gives linearity.
+__Additivity of expectation as a corollary.__ Taking $g(x,y)=x+y$ gives $E[X+Y]=E[X]+E[Y]$ without any independence assumption. Similarly, $g(x,y)=\alpha x+\beta y$ gives linearity.
 
-**Application to independence.** When $X$ and $Y$ are independent, taking $g(x,y)=xy$ yields $E[XY]=E[X]E[Y]$, provided the moments exist. (The proof uses that $p_{X,Y}=p_Xp_Y$ or $f_{X,Y}=f_Xf_Y$.)
+__Application to independence.__ When $X$ and $Y$ are independent, taking $g(x,y)=xy$ yields $E[XY]=E[X]E[Y]$, provided the moments exist. (The proof uses that $p_{X,Y}=p_Xp_Y$ or $f_{X,Y}=f_Xf_Y$.)
 
 ---
 
@@ -183,13 +183,13 @@ Flashcards for this section are as follows:
 
 The joint moment generating function (MGF) of a random vector $(X_1,\dots,X_n)$ is the function $M_{(X_1,\dots,X_n)}:\mathbb R^n\to\mathbb R\cup\{\infty\}$ defined by $$M_{(X_1,\dots,X_n)}(t_1,\dots,t_n)=E\!\left[e^{t_1X_1+\cdots+t_nX_n}\right],$$ for those $t=(t_1,\dots,t_n)$ where the expectation exists (a neighbourhood of the origin for the MGF to be useful).
 
-**Connection to joint moments.** The joint MGF generates joint moments via partial differentiation at the origin: $$E[X_1^{k_1}\cdots X_n^{k_n}]=\left.\frac{\partial^{k_1+\cdots+k_n}}{\partial t_1^{k_1}\cdots\partial t_n^{k_n}}M_{(X_1,\dots,X_n)}(t_1,\dots,t_n)\right|_{t_1=\cdots=t_n=0},$$ provided the MGF exists in a neighbourhood of the origin. This extends the univariate relation $E[X^k]=M_X^{(k)}(0)$ to the multivariate setting.
+__Connection to joint moments.__ The joint MGF generates joint moments via partial differentiation at the origin: $$E[X_1^{k_1}\cdots X_n^{k_n}]=\left.\frac{\partial^{k_1+\cdots+k_n}}{\partial t_1^{k_1}\cdots\partial t_n^{k_n}}M_{(X_1,\dots,X_n)}(t_1,\dots,t_n)\right|_{t_1=\cdots=t_n=0},$$ provided the MGF exists in a neighbourhood of the origin. This extends the univariate relation $E[X^k]=M_X^{(k)}(0)$ to the multivariate setting.
 
-**Factorization under independence.** If $X$ and $Y$ are independent and their individual MGFs exist in a neighbourhood of $0$, then the joint MGF factors: $$M_{(X,Y)}(s,t)=E[e^{sX+tY}]=E[e^{sX}]\,E[e^{tY}]=M_X(s)\,M_Y(t).$$ Conversely, if $M_{(X,Y)}(s,t)=M_X(s)M_Y(t)$ for all $(s,t)$ in a neighbourhood of $(0,0)$, then $X$ and $Y$ are independent — a consequence of the uniqueness of the joint MGF and the fact that product MGFs correspond to product measures.
+__Factorization under independence.__ If $X$ and $Y$ are independent and their individual MGFs exist in a neighbourhood of $0$, then the joint MGF factors: $$M_{(X,Y)}(s,t)=E[e^{sX+tY}]=E[e^{sX}]\,E[e^{tY}]=M_X(s)\,M_Y(t).$$ Conversely, if $M_{(X,Y)}(s,t)=M_X(s)M_Y(t)$ for all $(s,t)$ in a neighbourhood of $(0,0)$, then $X$ and $Y$ are independent — a consequence of the uniqueness of the joint MGF and the fact that product MGFs correspond to product measures.
 
-**Joint MGF of a sum.** Setting $t_1=t_2=\cdots=t_n=t$ shows that the MGF of the sum is obtained by evaluating the joint MGF on the diagonal: $$M_{X+Y}(t)=E[e^{t(X+Y)}]=M_{(X,Y)}(t,t).$$ More generally, for a linear combination $a_1X_1+\cdots+a_nX_n$, $$M_{a_1X_1+\cdots+a_nX_n}(t)=M_{(X_1,\dots,X_n)}(a_1t,\dots,a_nt).$$
+__Joint MGF of a sum.__ Setting $t_1=t_2=\cdots=t_n=t$ shows that the MGF of the sum is obtained by evaluating the joint MGF on the diagonal: $$M_{X+Y}(t)=E[e^{t(X+Y)}]=M_{(X,Y)}(t,t).$$ More generally, for a linear combination $a_1X_1+\cdots+a_nX_n$, $$M_{a_1X_1+\cdots+a_nX_n}(t)=M_{(X_1,\dots,X_n)}(a_1t,\dots,a_nt).$$
 
-**Example — bivariate normal.** If $(X,Y)\sim N(\mu_X,\mu_Y,\sigma_X^2,\sigma_Y^2,\rho)$, the joint MGF is $$M_{(X,Y)}(s,t)=\exp\!\left(s\mu_X+t\mu_Y+\frac12\bigl(s^2\sigma_X^2+2\rho st\sigma_X\sigma_Y+t^2\sigma_Y^2\bigr)\right).$$ This can be derived by completing the square in the exponent of the bivariate normal density. Differentiating with respect to $s$ and $t$ and evaluating at $(0,0)$ recovers $E[X]=\mu_X$, $E[Y]=\mu_Y$, $E[XY]=\mu_X\mu_Y+\rho\sigma_X\sigma_Y$, etc.
+__Example — bivariate normal.__ If $(X,Y)\sim N(\mu_X,\mu_Y,\sigma_X^2,\sigma_Y^2,\rho)$, the joint MGF is $$M_{(X,Y)}(s,t)=\exp\!\left(s\mu_X+t\mu_Y+\frac12\bigl(s^2\sigma_X^2+2\rho st\sigma_X\sigma_Y+t^2\sigma_Y^2\bigr)\right).$$ This can be derived by completing the square in the exponent of the bivariate normal density. Differentiating with respect to $s$ and $t$ and evaluating at $(0,0)$ recovers $E[X]=\mu_X$, $E[Y]=\mu_Y$, $E[XY]=\mu_X\mu_Y+\rho\sigma_X\sigma_Y$, etc.
 
 ---
 
@@ -207,11 +207,11 @@ Flashcards for this section are as follows:
 
 Two random variables are independent if and only if their joint law factors as the product of their marginals. Concretely, this means $p_{X,Y}(x,y)=p_X(x)p_Y(y)$ in the discrete case, $f_{X,Y}(x,y)=f_X(x)f_Y(y)$ for Lebesgue-almost all $(x,y)$ in the continuous case, and equivalently $F_{X,Y}(x,y)=F_X(x)F_Y(y)$ for all $x,y$.
 
-**Proof sketch.** If the product formula holds for the density or PMF, then integrating or summing over rectangles immediately yields the factorization of rectangle probabilities, hence independence. Conversely, independence gives product probabilities on rectangles, and from those one recovers the factorized density or PMF wherever it exists.
+__Proof sketch.__ If the product formula holds for the density or PMF, then integrating or summing over rectangles immediately yields the factorization of rectangle probabilities, hence independence. Conversely, independence gives product probabilities on rectangles, and from those one recovers the factorized density or PMF wherever it exists.
 
 Measurable transforms preserve independence. If $X_1,\dots,X_n$ are independent and each $h_i$ is measurable, then the random variables $h_1(X_1),\dots,h_n(X_n)$ are also independent. The proof is a direct preimage argument: events of the form $\{h_i(X_i)\in B_i\}$ are exactly $\{X_i\in h_i^{-1}(B_i)\}$.
 
-**Remark (product measure construction).** The identity $P_{(X_1,\ldots,X_n)} = \bigotimes_{i=1}^n P_{X_i}$ is often taken as the definition of independence for random variables, but it requires justification that the product set-function $\mu_0(A_1\times\cdots\times A_n)=\prod_{i=1}^n P_{X_i}(A_i)$ extends from rectangles to a genuine probability measure on $(\mathbb R^n,\mathcal B(\mathbb R^n))$. One defines $\mu_0$ on the semiring of rectangles, verifies $\sigma$-additivity there, and then applies the Carathéodory extension theorem to obtain a unique measure on $\mathcal B(\mathbb R^n)$. The $\pi$-$\lambda$ theorem provides an alternative route: two measures that agree on the $\cap$-stable generator of rectangles must coincide on all of $\mathcal B(\mathbb R^n)$. Either way, an extension theorem from measure theory is essential for the construction.
+__Remark (product measure construction).__ The identity $P_{(X_1,\ldots,X_n)} = \bigotimes_{i=1}^n P_{X_i}$ is often taken as the definition of independence for random variables, but it requires justification that the product set-function $\mu_0(A_1\times\cdots\times A_n)=\prod_{i=1}^n P_{X_i}(A_i)$ extends from rectangles to a genuine probability measure on $(\mathbb R^n,\mathcal B(\mathbb R^n))$. One defines $\mu_0$ on the semiring of rectangles, verifies $\sigma$-additivity there, and then applies the Carathéodory extension theorem to obtain a unique measure on $\mathcal B(\mathbb R^n)$. The $\pi$-$\lambda$ theorem provides an alternative route: two measures that agree on the $\cap$-stable generator of rectangles must coincide on all of $\mathcal B(\mathbb R^n)$. Either way, an extension theorem from measure theory is essential for the construction.
 
 ---
 
@@ -231,7 +231,7 @@ Flashcards for this section are as follows:
 
 If $X$ and $Y$ are independent continuous random variables with densities $f_X$ and $f_Y$, then the density of $X+Y$ is the convolution $f_{X+Y}(z)=\int_{-\infty}^{\infty}f_X(z-y)f_Y(y)\,dy$.
 
-**Proof.** Introduce the change of variables $(u,v)=(x+y,y)$. The joint density of $(X+Y,Y)$ is $f_X(u-v)f_Y(v)$, and integrating out $v$ produces the formula above.
+__Proof.__ Introduce the change of variables $(u,v)=(x+y,y)$. The joint density of $(X+Y,Y)$ is $f_X(u-v)f_Y(v)$, and integrating out $v$ produces the formula above.
 
 This single identity explains familiar closure results:
 
@@ -344,9 +344,9 @@ Flashcards for this section are as follows:
 
 ### ratio examples <!-- check: ignore-line[section_example_heading]: conceptual examples, not a copy of course layout -->
 
-- **Cauchy distribution:** If $X$ and $Y$ are independent $N(0,1)$, then $Z=X/Y$ is Cauchy with density $f_Z(z)=1/[\pi(1+z^2)]$. The Cauchy distribution has no finite moments — a striking consequence of the heavy tail produced by division near zero.
-- **F-distribution:** If $U\sim\chi^2_p$ and $V\sim\chi^2_q$ are independent, then $F_{p,q}=(U/p)/(V/q)$ follows an F-distribution with $(p,q)$ degrees of freedom, the workhorse of ANOVA.
-- **Ratio of Exponentials:** If $X,Y\sim\operatorname{Exp}(\lambda)$ independent, then $Z=X/Y$ has density $f_Z(z)=1/(1+z)^2$ for $z\ge0$, a special case of the F-distribution with $(2,2)$ degrees of freedom.
+- __Cauchy distribution:__ If $X$ and $Y$ are independent $N(0,1)$, then $Z=X/Y$ is Cauchy with density $f_Z(z)=1/[\pi(1+z^2)]$. The Cauchy distribution has no finite moments — a striking consequence of the heavy tail produced by division near zero.
+- __F-distribution:__ If $U\sim\chi^2_p$ and $V\sim\chi^2_q$ are independent, then $F_{p,q}=(U/p)/(V/q)$ follows an F-distribution with $(p,q)$ degrees of freedom, the workhorse of ANOVA.
+- __Ratio of Exponentials:__ If $X,Y\sim\operatorname{Exp}(\lambda)$ independent, then $Z=X/Y$ has density $f_Z(z)=1/(1+z)^2$ for $z\ge0$, a special case of the F-distribution with $(2,2)$ degrees of freedom.
 
 ---
 
@@ -386,7 +386,7 @@ Assume $X,Y\ge0$ almost surely and independent. Then, for $z\ge0$, $$\begin{alig
 
 If $X$ and $Y$ can take both signs, split the probability into four quadrants: $$F_Z(z)=P[XY\le z]=\iint_{\{xy\le z\}}f_X(x)f_Y(y)\,dx\,dy,$$ and evaluate by partitioning the integration region into $\{x\ge0,y\ge0\}$, $\{x\ge0,y<0\}$, $\{x<0,y\ge0\}$, $\{x<0,y<0\}$, carefully handling the inequality direction in each quadrant. The general density formula becomes $$f_Z(z)=\int_{-\infty}^{\infty}\frac{1}{|y|}\,f_X\!\left(\frac{z}{y}\right)f_Y(y)\,dy,$$ where the absolute value accounts for sign flips in the Jacobian of the transformation $(x,y)\mapsto(z,y)$.
 
-**Proof sketch of the general formula.** Transform $(X,Y)\mapsto(Z,Y)$ with $Z=XY$. The inverse transformation is $(z,y)\mapsto(z/y,y)$ with Jacobian determinant $\partial(x,y)/\partial(z,y)=1/|y|$ (the absolute value appears because the density integrates over signed area). The joint density of $(Z,Y)$ is $f_{Z,Y}(z,y)=f_X(z/y)f_Y(y)/|y|$, and integrating out $y$ yields $f_Z(z)$.
+__Proof sketch of the general formula.__ Transform $(X,Y)\mapsto(Z,Y)$ with $Z=XY$. The inverse transformation is $(z,y)\mapsto(z/y,y)$ with Jacobian determinant $\partial(x,y)/\partial(z,y)=1/|y|$ (the absolute value appears because the density integrates over signed area). The joint density of $(Z,Y)$ is $f_{Z,Y}(z,y)=f_X(z/y)f_Y(y)/|y|$, and integrating out $y$ yields $f_Z(z)$.
 
 ---
 
@@ -415,9 +415,9 @@ Flashcards for this section are as follows:
 
 ### product examples <!-- check: ignore-line[section_example_heading]: conceptual examples, not a copy of course layout -->
 
-- **Product of two independent $U([0,1])$ variables.** Let $X,Y\sim U([0,1])$ independent. Then $Z=XY$ has density $f_Z(z)=-\log z$ for $0<z\le 1$, and $0$ otherwise. Derivation: $f_Z(z)=\int_z^{1}\frac{1}{y}\,dy=-\log z$ for $0<z\le 1$, using the general formula $f_Z(z)=\int_{0}^{1}\frac{1}{y}f_X(z/y)f_Y(y)\,dy$ with $f_X(x)=f_Y(y)=1$ and noting that $f_X(z/y)=1$ only when $z/y\le 1$, i.e. $y\ge z$.
-- **Product of two independent $N(0,1)$ variables.** If $X,Y\sim N(0,1)$ independent, then $Z=XY$ follows a variance-gamma (also called normal product) distribution. Its density is $f_Z(z)=\frac{1}{\pi}K_0(|z|)$, where $K_0$ is the modified Bessel function of the second kind of order $0$. This distribution is symmetric about $0$, has mean $0$, and has infinite kurtosis relative to a normal.
-- **Product under bivariate normality.** If $(X,Y)$ is bivariate normal with correlation $\rho$ (and zero means for simplicity), the distribution of $XY$ is a linear combination of independent chi-square variables: $XY\stackrel{d}{=}\sigma_X\sigma_Y\bigl(\rho U^2+(1-\rho^2)^{1/2}UV\bigr)$ where $U,V\sim N(0,1)$ independent, which follows a variance-gamma distribution with additional parameters.
+- __Product of two independent $U([0,1])$ variables.__ Let $X,Y\sim U([0,1])$ independent. Then $Z=XY$ has density $f_Z(z)=-\log z$ for $0<z\le 1$, and $0$ otherwise. Derivation: $f_Z(z)=\int_z^{1}\frac{1}{y}\,dy=-\log z$ for $0<z\le 1$, using the general formula $f_Z(z)=\int_{0}^{1}\frac{1}{y}f_X(z/y)f_Y(y)\,dy$ with $f_X(x)=f_Y(y)=1$ and noting that $f_X(z/y)=1$ only when $z/y\le 1$, i.e. $y\ge z$.
+- __Product of two independent $N(0,1)$ variables.__ If $X,Y\sim N(0,1)$ independent, then $Z=XY$ follows a variance-gamma (also called normal product) distribution. Its density is $f_Z(z)=\frac{1}{\pi}K_0(|z|)$, where $K_0$ is the modified Bessel function of the second kind of order $0$. This distribution is symmetric about $0$, has mean $0$, and has infinite kurtosis relative to a normal.
+- __Product under bivariate normality.__ If $(X,Y)$ is bivariate normal with correlation $\rho$ (and zero means for simplicity), the distribution of $XY$ is a linear combination of independent chi-square variables: $XY\stackrel{d}{=}\sigma_X\sigma_Y\bigl(\rho U^2+(1-\rho^2)^{1/2}UV\bigr)$ where $U,V\sim N(0,1)$ independent, which follows a variance-gamma distribution with additional parameters.
 
 ---
 
@@ -441,17 +441,17 @@ Flashcards for this section are as follows:
 
 ## order statistics and extremes
 
-A sequence of random variables $X_1,X_2,\dots$ is called **i.i.d.** (independent and identically distributed) if the variables are independent and each has the same marginal distribution. This is the most common setting for order statistics.
+A sequence of random variables $X_1,X_2,\dots$ is called __i.i.d.__ (independent and identically distributed) if the variables are independent and each has the same marginal distribution. This is the most common setting for order statistics.
 
-Let $X_1,\dots,X_n$ be random variables. The **order statistics** are the sorted values $$X_{(1)}\le X_{(2)}\le\cdots\le X_{(n)},$$ where $(X_{(1)},\dots,X_{(n)})$ is a permutation of $(X_1,\dots,X_n)$ that arranges them in non-decreasing order. The $k$-th order statistic $X_{(k)}$ is the $k$-th smallest value.
+Let $X_1,\dots,X_n$ be random variables. The __order statistics__ are the sorted values $$X_{(1)}\le X_{(2)}\le\cdots\le X_{(n)},$$ where $(X_{(1)},\dots,X_{(n)})$ is a permutation of $(X_1,\dots,X_n)$ that arranges them in non-decreasing order. The $k$-th order statistic $X_{(k)}$ is the $k$-th smallest value.
 
-**Special cases.** The minimum is $X_{(1)}$, the maximum is $X_{(n)}$. The **median** (when $n$ is odd) is the middle order statistic $X_{((n+1)/2)}$; when $n$ is even, any value between $X_{(n/2)}$ and $X_{(n/2+1)}$ qualifies as a median. **Quartiles** split the ordered sample into four parts: the first quartile $Q_1\approx X_{(\lfloor n/4\rfloor)}$ (25th percentile) and the third quartile $Q_3\approx X_{(\lceil 3n/4\rceil)}$ (75th percentile).
+__Special cases.__ The minimum is $X_{(1)}$, the maximum is $X_{(n)}$. The __median__ (when $n$ is odd) is the middle order statistic $X_{((n+1)/2)}$; when $n$ is even, any value between $X_{(n/2)}$ and $X_{(n/2+1)}$ qualifies as a median. __Quartiles__ split the ordered sample into four parts: the first quartile $Q_1\approx X_{(\lfloor n/4\rfloor)}$ (25th percentile) and the third quartile $Q_3\approx X_{(\lceil 3n/4\rceil)}$ (75th percentile).
 
 ### i.i.d. extremes
 
-**Proposition.** Let $X_1,\dots,X_n$ be i.i.d. with cumulative distribution function $F$. Then the distribution functions of the maximum $X_{(n)}$ and the minimum $X_{(1)}$ are $$F_{X_{(n)}}(x)=F(x)^n,\qquad F_{X_{(1)}}(x)=1-(1-F(x))^n,\qquad x\in\mathbb R.$$
+__Proposition.__ Let $X_1,\dots,X_n$ be i.i.d. with cumulative distribution function $F$. Then the distribution functions of the maximum $X_{(n)}$ and the minimum $X_{(1)}$ are $$F_{X_{(n)}}(x)=F(x)^n,\qquad F_{X_{(1)}}(x)=1-(1-F(x))^n,\qquad x\in\mathbb R.$$
 
-**Proof.** The event $\{X_{(n)}\le x\}$ is exactly $\bigcap_{i=1}^n\{X_i\le x\}$, and $\{X_{(1)}>x\}$ is $\bigcap_{i=1}^n\{X_i>x\}$. By independence, $$F_{X_{(n)}}(x)=P[X_{(n)}\le x]=P\!\left(\bigcap_{i=1}^n\{X_i\le x\}\right)=\prod_{i=1}^n P[X_i\le x]=F(x)^n,$$ $$F_{X_{(1)}}(x)=1-P[X_{(1)}>x]=1-P\!\left(\bigcap_{i=1}^n\{X_i>x\}\right)=1-(1-F(x))^n.$$
+__Proof.__ The event $\{X_{(n)}\le x\}$ is exactly $\bigcap_{i=1}^n\{X_i\le x\}$, and $\{X_{(1)}>x\}$ is $\bigcap_{i=1}^n\{X_i>x\}$. By independence, $$F_{X_{(n)}}(x)=P[X_{(n)}\le x]=P\!\left(\bigcap_{i=1}^n\{X_i\le x\}\right)=\prod_{i=1}^n P[X_i\le x]=F(x)^n,$$ $$F_{X_{(1)}}(x)=1-P[X_{(1)}>x]=1-P\!\left(\bigcap_{i=1}^n\{X_i>x\}\right)=1-(1-F(x))^n.$$
 
 If $F$ is differentiable with density $f$, then differentiating gives the density of the maximum as $f_{X_{(n)}}(x)=nF(x)^{n-1}f(x)$, and similarly the density of the minimum as $f_{X_{(1)}}(x)=n(1-F(x))^{n-1}f(x)$.
 
@@ -476,9 +476,9 @@ Flashcards for this section are as follows:
 
 Let $X_1,\dots,X_n$ be i.i.d. with density $f$ and CDF $F$. Denote the order statistics by $X_{(1)}\le\cdots\le X_{(n)}$. The joint density of all $n$ order statistics is $$f_{X_{(1)},\dots,X_{(n)}}(x_1,\dots,x_n)=n!\prod_{i=1}^n f(x_i),\qquad x_1<\dots<x_n.$$
 
-**Heuristic derivation.** The unordered vector $(X_1,\dots,X_n)$ has joint density $\prod_{i=1}^n f(x_i)$. For a given ordered tuple $(x_1<\dots<x_n)$, there are exactly $n!$ permutations of the indices that map the unordered vector to this ordered list. Since each permutation corresponds to a distinct region of $\mathbb R^n$ (defined by the ordering of the coordinates), and the density is symmetric in the arguments, the total density on the ordered cone $\{x_1<\dots<x_n\}$ accumulates the probability from all $n!$ permutation regions, each contributing $\prod f(x_i)$. Hence the factor $n!$.
+__Heuristic derivation.__ The unordered vector $(X_1,\dots,X_n)$ has joint density $\prod_{i=1}^n f(x_i)$. For a given ordered tuple $(x_1<\dots<x_n)$, there are exactly $n!$ permutations of the indices that map the unordered vector to this ordered list. Since each permutation corresponds to a distinct region of $\mathbb R^n$ (defined by the ordering of the coordinates), and the density is symmetric in the arguments, the total density on the ordered cone $\{x_1<\dots<x_n\}$ accumulates the probability from all $n!$ permutation regions, each contributing $\prod f(x_i)$. Hence the factor $n!$.
 
-**Consequence — marginal density of the $k$-th order statistic.** Integrating the joint density over all variables except $x_k$ yields $$f_{X_{(k)}}(x)=\frac{n!}{(k-1)!\,(n-k)!}\,F(x)^{k-1}\,(1-F(x))^{n-k}\,f(x),$$ known as the $k$-th order statistic density. For the maximum ($k=n$) this reduces to $nF(x)^{n-1}f(x)$, and for the minimum ($k=1$) to $n(1-F(x))^{n-1}f(x)$, matching the earlier formulas.
+__Consequence — marginal density of the $k$-th order statistic.__ Integrating the joint density over all variables except $x_k$ yields $$f_{X_{(k)}}(x)=\frac{n!}{(k-1)!\,(n-k)!}\,F(x)^{k-1}\,(1-F(x))^{n-k}\,f(x),$$ known as the $k$-th order statistic density. For the maximum ($k=n$) this reduces to $nF(x)^{n-1}f(x)$, and for the minimum ($k=1$) to $n(1-F(x))^{n-1}f(x)$, matching the earlier formulas.
 
 ---
 
@@ -494,15 +494,15 @@ Flashcards for this section are as follows:
 
 The range $R=X_{(n)}-X_{(1)}$ measures the spread of the sample. Its CDF and density can be derived from the joint distribution of $(X_{(1)},X_{(n)})$.
 
-**Joint density of min and max.** For i.i.d. $X_1,\dots,X_n$ with density $f$, the joint density of $(X_{(1)},X_{(n)})$ is $$f_{X_{(1)},X_{(n)}}(u,v)=n(n-1)\,f(u)\,f(v)\,\bigl[F(v)-F(u)\bigr]^{n-2},\qquad u<v.$$
+__Joint density of min and max.__ For i.i.d. $X_1,\dots,X_n$ with density $f$, the joint density of $(X_{(1)},X_{(n)})$ is $$f_{X_{(1)},X_{(n)}}(u,v)=n(n-1)\,f(u)\,f(v)\,\bigl[F(v)-F(u)\bigr]^{n-2},\qquad u<v.$$
 
-**Derivation.** The event that the minimum is near $u$ and the maximum near $v$ requires: one observation falls near $u$ (density $f(u)$), one near $v$ (density $f(v)$), and the remaining $n-2$ observations lie in $(u,v)$ (probability $[F(v)-F(u)]^{n-2}$). The combinatorial factor $n(n-1)$ accounts for choosing which observation is the minimum and which is the maximum.
+__Derivation.__ The event that the minimum is near $u$ and the maximum near $v$ requires: one observation falls near $u$ (density $f(u)$), one near $v$ (density $f(v)$), and the remaining $n-2$ observations lie in $(u,v)$ (probability $[F(v)-F(u)]^{n-2}$). The combinatorial factor $n(n-1)$ accounts for choosing which observation is the minimum and which is the maximum.
 
-**CDF of the range.** For $r\ge0$, $$F_R(r)=P[R\le r]=\int_{-\infty}^{\infty}\int_{u}^{u+r}f_{X_{(1)},X_{(n)}}(u,v)\,dv\,du.$$ Substituting the joint density and changing variables $v=u+w$ gives $$F_R(r)=\int_{-\infty}^{\infty}n f(u)\int_{0}^{r}(n-1)f(u+w)[F(u+w)-F(u)]^{n-2}\,dw\,du.$$ The inner integral can be evaluated explicitly by recognizing the derivative of $[F(u+w)-F(u)]^{n-1}$ with respect to $w$: $$\frac{d}{dw}[F(u+w)-F(u)]^{n-1}=(n-1)f(u+w)[F(u+w)-F(u)]^{n-2}.$$ Hence $$F_R(r)=\int_{-\infty}^{\infty}n f(u)\,[F(u+r)-F(u)]^{n-1}\,du.$$
+__CDF of the range.__ For $r\ge0$, $$F_R(r)=P[R\le r]=\int_{-\infty}^{\infty}\int_{u}^{u+r}f_{X_{(1)},X_{(n)}}(u,v)\,dv\,du.$$ Substituting the joint density and changing variables $v=u+w$ gives $$F_R(r)=\int_{-\infty}^{\infty}n f(u)\int_{0}^{r}(n-1)f(u+w)[F(u+w)-F(u)]^{n-2}\,dw\,du.$$ The inner integral can be evaluated explicitly by recognizing the derivative of $[F(u+w)-F(u)]^{n-1}$ with respect to $w$: $$\frac{d}{dw}[F(u+w)-F(u)]^{n-1}=(n-1)f(u+w)[F(u+w)-F(u)]^{n-2}.$$ Hence $$F_R(r)=\int_{-\infty}^{\infty}n f(u)\,[F(u+r)-F(u)]^{n-1}\,du.$$
 
-**Density of the range.** Differentiating with respect to $r$, $$f_R(r)=\frac{d}{dr}F_R(r)=n(n-1)\int_{-\infty}^{\infty} f(u)\,f(u+r)\,[F(u+r)-F(u)]^{n-2}\,du,\qquad r\ge0.$$
+__Density of the range.__ Differentiating with respect to $r$, $$f_R(r)=\frac{d}{dr}F_R(r)=n(n-1)\int_{-\infty}^{\infty} f(u)\,f(u+r)\,[F(u+r)-F(u)]^{n-2}\,du,\qquad r\ge0.$$
 
-**Special case — Exponential distribution.** For i.i.d. $X_i\sim\operatorname{Exp}(\lambda)$, the range $R$ has the same distribution as the maximum of $n-1$ i.i.d. $\operatorname{Exp}(\lambda)$ variables (a consequence of the memoryless property and the spacing representation of exponential order statistics). The density is $f_R(r)=(n-1)\lambda e^{-\lambda r}(1-e^{-\lambda r})^{n-2}$ for $r\ge0$.
+__Special case — Exponential distribution.__ For i.i.d. $X_i\sim\operatorname{Exp}(\lambda)$, the range $R$ has the same distribution as the maximum of $n-1$ i.i.d. $\operatorname{Exp}(\lambda)$ variables (a consequence of the memoryless property and the spacing representation of exponential order statistics). The density is $f_R(r)=(n-1)\lambda e^{-\lambda r}(1-e^{-\lambda r})^{n-2}$ for $r\ge0$.
 
 ---
 
@@ -520,15 +520,15 @@ The covariance measures the linear dependence between two random variables with 
 
 The correlation coefficient normalizes this to $[-1,1]$: $$\rho(X,Y)=\frac{\operatorname{Cov}(X,Y)}{\sqrt{\operatorname{Var}[X]\operatorname{Var}[Y]}}$$ when both variances are positive, and $\rho(X,Y)=0$ otherwise.
 
-**Properties.**
+__Properties.__
 
 - Covariance is symmetric and bilinear: $\operatorname{Cov}(a+\sum_i c_iX_i,\;b+\sum_j d_jY_j)=\sum_i\sum_j c_id_j\operatorname{Cov}(X_i,Y_j)$.
 - $\operatorname{Var}[X]=\operatorname{Cov}(X,X)$.
 - If $X$ and $Y$ are independent, then $\operatorname{Cov}(X,Y)=0$ (the converse is false).
-- **Bienaymé formula:** $\operatorname{Var}\bigl(\sum_{i=1}^n X_i\bigr)=\sum_{i=1}^n\operatorname{Var}[X_i]+\sum_{i\neq j}\operatorname{Cov}(X_i,X_j)$.
+- __Bienaymé formula:__ $\operatorname{Var}\bigl(\sum_{i=1}^n X_i\bigr)=\sum_{i=1}^n\operatorname{Var}[X_i]+\sum_{i\neq j}\operatorname{Cov}(X_i,X_j)$.
 - $|\rho(X,Y)|\le 1$, with equality $|\rho(X,Y)|=1$ iff $Y=aX+b$ almost surely for some $a\neq 0$. The sign of $\rho$ equals $\operatorname{sgn}(a)$.
 
-**Proof of $|\rho|\le1$.** For any $X,Y$ with finite second moments, $0\le\operatorname{Var}(X/\sqrt{\operatorname{Var}[X]}\pm Y/\sqrt{\operatorname{Var}[Y]})=2(1\pm\rho(X,Y))$, so $\rho(X,Y)\ge-1$ (taking $+$) and $\rho(X,Y)\le1$ (taking $-$). Equality $|\rho|=1$ forces the variance to vanish, hence $X/\sqrt{\operatorname{Var}[X]}\mp Y/\sqrt{\operatorname{Var}[Y]}$ is constant a.s., giving a linear relation $Y=aX+b$.
+__Proof of $|\rho|\le1$.__ For any $X,Y$ with finite second moments, $0\le\operatorname{Var}(X/\sqrt{\operatorname{Var}[X]}\pm Y/\sqrt{\operatorname{Var}[Y]})=2(1\pm\rho(X,Y))$, so $\rho(X,Y)\ge-1$ (taking $+$) and $\rho(X,Y)\le1$ (taking $-$). Equality $|\rho|=1$ forces the variance to vanish, hence $X/\sqrt{\operatorname{Var}[X]}\mp Y/\sqrt{\operatorname{Var}[Y]}$ is constant a.s., giving a linear relation $Y=aX+b$.
 
 ---
 
@@ -546,15 +546,15 @@ Flashcards for this section are as follows:
 
 ### covariance matrix
 
-For a random vector $\boldsymbol X=(X_1,\dots,X_n)^\top$ with mean vector $\boldsymbol\mu=(\mu_1,\dots,\mu_n)^\top$ where $\mu_i=E[X_i]$, the **covariance matrix** (or variance‑covariance matrix) is the $n\times n$ matrix $\Sigma$ whose $(i,j)$ entry is $\operatorname{Cov}(X_i,X_j)$: $$\Sigma=\bigl(\operatorname{Cov}(X_i,X_j)\bigr)_{i,j=1}^n      =E\bigl[(\boldsymbol X-\boldsymbol\mu)(\boldsymbol X-\boldsymbol\mu)^\top\bigr]      =\begin{pmatrix}        \operatorname{Var}[X_1] & \operatorname{Cov}(X_1,X_2) & \cdots & \operatorname{Cov}(X_1,X_n) \\        \operatorname{Cov}(X_2,X_1) & \operatorname{Var}[X_2] & \cdots & \operatorname{Cov}(X_2,X_n) \\        \vdots & \vdots & \ddots & \vdots \\        \operatorname{Cov}(X_n,X_1) & \operatorname{Cov}(X_n,X_2) & \cdots & \operatorname{Var}[X_n]        \end{pmatrix}.$$
+For a random vector $\boldsymbol X=(X_1,\dots,X_n)^\top$ with mean vector $\boldsymbol\mu=(\mu_1,\dots,\mu_n)^\top$ where $\mu_i=E[X_i]$, the __covariance matrix__ (or variance‑covariance matrix) is the $n\times n$ matrix $\Sigma$ whose $(i,j)$ entry is $\operatorname{Cov}(X_i,X_j)$: $$\Sigma=\bigl(\operatorname{Cov}(X_i,X_j)\bigr)_{i,j=1}^n      =E\bigl[(\boldsymbol X-\boldsymbol\mu)(\boldsymbol X-\boldsymbol\mu)^\top\bigr]      =\begin{pmatrix}        \operatorname{Var}[X_1] & \operatorname{Cov}(X_1,X_2) & \cdots & \operatorname{Cov}(X_1,X_n) \\        \operatorname{Cov}(X_2,X_1) & \operatorname{Var}[X_2] & \cdots & \operatorname{Cov}(X_2,X_n) \\        \vdots & \vdots & \ddots & \vdots \\        \operatorname{Cov}(X_n,X_1) & \operatorname{Cov}(X_n,X_2) & \cdots & \operatorname{Var}[X_n]        \end{pmatrix}.$$
 
-**Properties.**
+__Properties.__
 
-- **Symmetry:** $\Sigma^\top=\Sigma$ because $\operatorname{Cov}(X_i,X_j)=\operatorname{Cov}(X_j,X_i)$.
-- **Positive semidefiniteness:** For any vector $u\in\mathbb R^n$, $u^\top\Sigma u=\operatorname{Var}[u^\top\boldsymbol X]\ge 0$, so $\Sigma$ is symmetric and non‑negative definite (positive semidefinite).
-- **Diagonal entries:** $\Sigma_{ii}=\operatorname{Var}[X_i]$, the variance of the $i$-th coordinate.
+- __Symmetry:__ $\Sigma^\top=\Sigma$ because $\operatorname{Cov}(X_i,X_j)=\operatorname{Cov}(X_j,X_i)$.
+- __Positive semidefiniteness:__ For any vector $u\in\mathbb R^n$, $u^\top\Sigma u=\operatorname{Var}[u^\top\boldsymbol X]\ge 0$, so $\Sigma$ is symmetric and non‑negative definite (positive semidefinite).
+- __Diagonal entries:__ $\Sigma_{ii}=\operatorname{Var}[X_i]$, the variance of the $i$-th coordinate.
 
-**Remark.** If $\Sigma$ is singular ($\det\Sigma=0$), there exists $u\neq0$ such that $u^\top\Sigma u=0$, i.e. $\operatorname{Var}[u^\top\boldsymbol X]=0$, so $u^\top\boldsymbol X$ is constant almost surely. This means the components of $\boldsymbol X$ satisfy an almost‑sure linear relation, and the distribution of $\boldsymbol X$ concentrates on an affine subspace of $\mathbb R^n$.
+__Remark.__ If $\Sigma$ is singular ($\det\Sigma=0$), there exists $u\neq0$ such that $u^\top\Sigma u=0$, i.e. $\operatorname{Var}[u^\top\boldsymbol X]=0$, so $u^\top\boldsymbol X$ is constant almost surely. This means the components of $\boldsymbol X$ satisfy an almost‑sure linear relation, and the distribution of $\boldsymbol X$ concentrates on an affine subspace of $\mathbb R^n$.
 
 ---
 
@@ -568,23 +568,23 @@ Flashcards for this section are as follows:
 
 The multivariate normal (MVN) distribution is the most important joint distribution in statistics. It is defined for a random vector $\boldsymbol X=(X_1,\dots,X_n)^\top$ by its density (when $\Sigma$ is positive definite) or more generally by its characteristic function.
 
-**Definition via density.** For $\boldsymbol X\sim N(\boldsymbol\mu,\Sigma)$ with $\Sigma$ positive definite, the density is $$f_{\boldsymbol X}(\boldsymbol x)=\frac{1}{(2\pi)^{n/2}|\Sigma|^{1/2}}\exp\!\left(-\frac12(\boldsymbol x-\boldsymbol\mu)^\top\Sigma^{-1}(\boldsymbol x-\boldsymbol\mu)\right),$$ where $\boldsymbol\mu\in\mathbb R^n$ is the mean vector and $\Sigma\in\mathbb R^{n\times n}$ is the symmetric positive definite covariance matrix.
+__Definition via density.__ For $\boldsymbol X\sim N(\boldsymbol\mu,\Sigma)$ with $\Sigma$ positive definite, the density is $$f_{\boldsymbol X}(\boldsymbol x)=\frac{1}{(2\pi)^{n/2}|\Sigma|^{1/2}}\exp\!\left(-\frac12(\boldsymbol x-\boldsymbol\mu)^\top\Sigma^{-1}(\boldsymbol x-\boldsymbol\mu)\right),$$ where $\boldsymbol\mu\in\mathbb R^n$ is the mean vector and $\Sigma\in\mathbb R^{n\times n}$ is the symmetric positive definite covariance matrix.
 
-**Definition via characteristic function.** For any symmetric nonnegative definite $\Sigma$ (not necessarily full rank), the MVN distribution can be defined by its characteristic function: $$\varphi_{\boldsymbol X}(\boldsymbol t)=E[e^{i\boldsymbol t^\top\boldsymbol X}]=\exp\!\left(i\boldsymbol t^\top\boldsymbol\mu-\frac12\boldsymbol t^\top\Sigma\boldsymbol t\right),\qquad\boldsymbol t\in\mathbb R^n.$$ The real MGF (when it exists) is $M_{\boldsymbol X}(\boldsymbol t)=\exp(\boldsymbol t^\top\boldsymbol\mu+\frac12\boldsymbol t^\top\Sigma\boldsymbol t)$. This definition works even when $\Sigma$ is singular, in which case the distribution is concentrated on an affine subspace.
+__Definition via characteristic function.__ For any symmetric nonnegative definite $\Sigma$ (not necessarily full rank), the MVN distribution can be defined by its characteristic function: $$\varphi_{\boldsymbol X}(\boldsymbol t)=E[e^{i\boldsymbol t^\top\boldsymbol X}]=\exp\!\left(i\boldsymbol t^\top\boldsymbol\mu-\frac12\boldsymbol t^\top\Sigma\boldsymbol t\right),\qquad\boldsymbol t\in\mathbb R^n.$$ The real MGF (when it exists) is $M_{\boldsymbol X}(\boldsymbol t)=\exp(\boldsymbol t^\top\boldsymbol\mu+\frac12\boldsymbol t^\top\Sigma\boldsymbol t)$. This definition works even when $\Sigma$ is singular, in which case the distribution is concentrated on an affine subspace.
 
-**Marginals are normal.** Each coordinate of a multivariate normal is univariate normal: $X_i\sim N(\mu_i,\Sigma_{ii})$. More generally, any sub-vector $(X_{i_1},\dots,X_{i_k})$ follows a $k$-dimensional normal with mean $(\mu_{i_1},\dots,\mu_{i_k})$ and covariance $(\Sigma_{ij})_{i,j\in\{i_1,\dots,i_k\}}$. This follows immediately from the MGF: the MGF of the sub-vector is obtained by setting all other $t$ components to $0$, which yields the form $\exp(\boldsymbol t_{sub}^\top\boldsymbol\mu_{sub}+\frac12\boldsymbol t_{sub}^\top\Sigma_{sub}\boldsymbol t_{sub})$.
+__Marginals are normal.__ Each coordinate of a multivariate normal is univariate normal: $X_i\sim N(\mu_i,\Sigma_{ii})$. More generally, any sub-vector $(X_{i_1},\dots,X_{i_k})$ follows a $k$-dimensional normal with mean $(\mu_{i_1},\dots,\mu_{i_k})$ and covariance $(\Sigma_{ij})_{i,j\in\{i_1,\dots,i_k\}}$. This follows immediately from the MGF: the MGF of the sub-vector is obtained by setting all other $t$ components to $0$, which yields the form $\exp(\boldsymbol t_{sub}^\top\boldsymbol\mu_{sub}+\frac12\boldsymbol t_{sub}^\top\Sigma_{sub}\boldsymbol t_{sub})$.
 
-**Zero covariance implies independence for MVN.** For a multivariate normal vector, if $\operatorname{Cov}(X_i,X_j)=0$ for $i\neq j$, then $X_i$ and $X_j$ are independent. This is unique to the multivariate normal: in general, zero covariance does not imply independence.
+__Zero covariance implies independence for MVN.__ For a multivariate normal vector, if $\operatorname{Cov}(X_i,X_j)=0$ for $i\neq j$, then $X_i$ and $X_j$ are independent. This is unique to the multivariate normal: in general, zero covariance does not imply independence.
 
-**Proof.** If $\Sigma$ is diagonal, the quadratic form in the density exponent becomes $\sum_i (x_i-\mu_i)^2/\Sigma_{ii}$, and the density factorizes as $\prod_i f_{X_i}(x_i)$. Hence the joint density is the product of the marginal densities, which is exactly independence. The same conclusion follows from the MGF: $M_{\boldsymbol X}(\boldsymbol t)=\prod_i\exp(t_i\mu_i+\frac12 t_i^2\Sigma_{ii})$, a product of univariate normal MGFs.
+__Proof.__ If $\Sigma$ is diagonal, the quadratic form in the density exponent becomes $\sum_i (x_i-\mu_i)^2/\Sigma_{ii}$, and the density factorizes as $\prod_i f_{X_i}(x_i)$. Hence the joint density is the product of the marginal densities, which is exactly independence. The same conclusion follows from the MGF: $M_{\boldsymbol X}(\boldsymbol t)=\prod_i\exp(t_i\mu_i+\frac12 t_i^2\Sigma_{ii})$, a product of univariate normal MGFs.
 
-**Linear transformations.** If $\boldsymbol X\sim N(\boldsymbol\mu,\Sigma)$, then for any matrix $A\in\mathbb R^{m\times n}$ and vector $\boldsymbol b\in\mathbb R^m$, $$A\boldsymbol X+\boldsymbol b\sim N(A\boldsymbol\mu+\boldsymbol b,\,A\Sigma A^\top).$$
+__Linear transformations.__ If $\boldsymbol X\sim N(\boldsymbol\mu,\Sigma)$, then for any matrix $A\in\mathbb R^{m\times n}$ and vector $\boldsymbol b\in\mathbb R^m$, $$A\boldsymbol X+\boldsymbol b\sim N(A\boldsymbol\mu+\boldsymbol b,\,A\Sigma A^\top).$$
 
-**Proof (MGF).** The MGF of $A\boldsymbol X+\boldsymbol b$ is $$M_{A\boldsymbol X+\boldsymbol b}(\boldsymbol t)=e^{\boldsymbol t^\top\boldsymbol b}E[e^{\boldsymbol t^\top A\boldsymbol X}]=e^{\boldsymbol t^\top\boldsymbol b}E[e^{(A^\top\boldsymbol t)^\top\boldsymbol X}]=e^{\boldsymbol t^\top\boldsymbol b}\exp\!\bigl((A^\top\boldsymbol t)^\top\boldsymbol\mu+\tfrac12(A^\top\boldsymbol t)^\top\Sigma(A^\top\boldsymbol t)\bigr).$$ Simplifying gives $\exp(\boldsymbol t^\top(A\boldsymbol\mu+\boldsymbol b)+\frac12\boldsymbol t^\top(A\Sigma A^\top)\boldsymbol t)$, which is the MGF of $N(A\boldsymbol\mu+\boldsymbol b,A\Sigma A^\top)$.
+__Proof (MGF).__ The MGF of $A\boldsymbol X+\boldsymbol b$ is $$M_{A\boldsymbol X+\boldsymbol b}(\boldsymbol t)=e^{\boldsymbol t^\top\boldsymbol b}E[e^{\boldsymbol t^\top A\boldsymbol X}]=e^{\boldsymbol t^\top\boldsymbol b}E[e^{(A^\top\boldsymbol t)^\top\boldsymbol X}]=e^{\boldsymbol t^\top\boldsymbol b}\exp\!\bigl((A^\top\boldsymbol t)^\top\boldsymbol\mu+\tfrac12(A^\top\boldsymbol t)^\top\Sigma(A^\top\boldsymbol t)\bigr).$$ Simplifying gives $\exp(\boldsymbol t^\top(A\boldsymbol\mu+\boldsymbol b)+\frac12\boldsymbol t^\top(A\Sigma A^\top)\boldsymbol t)$, which is the MGF of $N(A\boldsymbol\mu+\boldsymbol b,A\Sigma A^\top)$.
 
-**Conditional distributions.** Partition $\boldsymbol X\sim N(\boldsymbol\mu,\Sigma)$ as $$\boldsymbol X=\begin{pmatrix}\boldsymbol X_1\\\boldsymbol X_2\end{pmatrix},\qquad \boldsymbol\mu=\begin{pmatrix}\boldsymbol\mu_1\\\boldsymbol\mu_2\end{pmatrix},\qquad \Sigma=\begin{pmatrix}\Sigma_{11}&\Sigma_{12}\\\Sigma_{21}&\Sigma_{22}\end{pmatrix},$$ where $\boldsymbol X_1$ is $p$-dimensional and $\boldsymbol X_2$ is $q$-dimensional ($p+q=n$). Then the conditional distribution of $\boldsymbol X_1$ given $\boldsymbol X_2=\boldsymbol x_2$ is multivariate normal: $$\boldsymbol X_1\mid\boldsymbol X_2=\boldsymbol x_2\sim N\!\left(\boldsymbol\mu_1+\Sigma_{12}\Sigma_{22}^{-1}(\boldsymbol x_2-\boldsymbol\mu_2),\;\Sigma_{11}-\Sigma_{12}\Sigma_{22}^{-1}\Sigma_{21}\right),$$ assuming $\Sigma_{22}$ is invertible. The conditional mean is linear in $\boldsymbol x_2$, and the conditional variance does not depend on $\boldsymbol x_2$ (homoscedasticity).
+__Conditional distributions.__ Partition $\boldsymbol X\sim N(\boldsymbol\mu,\Sigma)$ as $$\boldsymbol X=\begin{pmatrix}\boldsymbol X_1\\\boldsymbol X_2\end{pmatrix},\qquad \boldsymbol\mu=\begin{pmatrix}\boldsymbol\mu_1\\\boldsymbol\mu_2\end{pmatrix},\qquad \Sigma=\begin{pmatrix}\Sigma_{11}&\Sigma_{12}\\\Sigma_{21}&\Sigma_{22}\end{pmatrix},$$ where $\boldsymbol X_1$ is $p$-dimensional and $\boldsymbol X_2$ is $q$-dimensional ($p+q=n$). Then the conditional distribution of $\boldsymbol X_1$ given $\boldsymbol X_2=\boldsymbol x_2$ is multivariate normal: $$\boldsymbol X_1\mid\boldsymbol X_2=\boldsymbol x_2\sim N\!\left(\boldsymbol\mu_1+\Sigma_{12}\Sigma_{22}^{-1}(\boldsymbol x_2-\boldsymbol\mu_2),\;\Sigma_{11}-\Sigma_{12}\Sigma_{22}^{-1}\Sigma_{21}\right),$$ assuming $\Sigma_{22}$ is invertible. The conditional mean is linear in $\boldsymbol x_2$, and the conditional variance does not depend on $\boldsymbol x_2$ (homoscedasticity).
 
-**Proof sketch.** Consider the linear combination $\boldsymbol Y=\boldsymbol X_1-\Sigma_{12}\Sigma_{22}^{-1}\boldsymbol X_2$. By the linear transformation property, $\boldsymbol Y$ is normal. Compute $\operatorname{Cov}(\boldsymbol Y,\boldsymbol X_2)=\Sigma_{12}-\Sigma_{12}\Sigma_{22}^{-1}\Sigma_{22}=0$, so $\boldsymbol Y$ and $\boldsymbol X_2$ are independent (zero covariance for MVN). Then $E[\boldsymbol X_1\mid\boldsymbol X_2]=\Sigma_{12}\Sigma_{22}^{-1}\boldsymbol X_2+E[\boldsymbol Y]$, and $\operatorname{Var}[\boldsymbol X_1\mid\boldsymbol X_2]=\operatorname{Var}[\boldsymbol Y]$. Substituting the explicit expressions yields the formulas above.
+__Proof sketch.__ Consider the linear combination $\boldsymbol Y=\boldsymbol X_1-\Sigma_{12}\Sigma_{22}^{-1}\boldsymbol X_2$. By the linear transformation property, $\boldsymbol Y$ is normal. Compute $\operatorname{Cov}(\boldsymbol Y,\boldsymbol X_2)=\Sigma_{12}-\Sigma_{12}\Sigma_{22}^{-1}\Sigma_{22}=0$, so $\boldsymbol Y$ and $\boldsymbol X_2$ are independent (zero covariance for MVN). Then $E[\boldsymbol X_1\mid\boldsymbol X_2]=\Sigma_{12}\Sigma_{22}^{-1}\boldsymbol X_2+E[\boldsymbol Y]$, and $\operatorname{Var}[\boldsymbol X_1\mid\boldsymbol X_2]=\operatorname{Var}[\boldsymbol Y]$. Substituting the explicit expressions yields the formulas above.
 
 ---
 
@@ -603,19 +603,19 @@ Flashcards for this section are as follows:
 
 ## triangle law and Buffon's needle
 
-**Uniform law on a triangle.** Let $(X,Y)$ be uniform on $A=\{(x,y):0\le x\le 1,\ 0\le y\le 1-x\}$. Since the area of $A$ is $1/2$, the density is $f_{X,Y}(x,y)=2\mathbf 1_A(x,y)$. Marginalization gives $f_X(x)=\int_0^{1-x}2\,dy=2(1-x)$ for $0\le x\le 1$, and the same formula for $f_Y$ by symmetry. The coordinates are not independent because the support is triangular rather than rectangular. Indeed, the product $f_X(x)f_Y(y)$ is positive on much of the square $[0,1]^2$, whereas the joint density vanishes whenever $x+y>1$.
+__Uniform law on a triangle.__ Let $(X,Y)$ be uniform on $A=\{(x,y):0\le x\le 1,\ 0\le y\le 1-x\}$. Since the area of $A$ is $1/2$, the density is $f_{X,Y}(x,y)=2\mathbf 1_A(x,y)$. Marginalization gives $f_X(x)=\int_0^{1-x}2\,dy=2(1-x)$ for $0\le x\le 1$, and the same formula for $f_Y$ by symmetry. The coordinates are not independent because the support is triangular rather than rectangular. Indeed, the product $f_X(x)f_Y(y)$ is positive on much of the square $[0,1]^2$, whereas the joint density vanishes whenever $x+y>1$.
 
-**Buffon's needle.** A plane is ruled with parallel lines spaced distance $a>0$ apart. A needle of length $\ell$ (with $\ell<a$) is dropped at random onto the plane. What is the probability that the needle crosses a line?
+__Buffon's needle.__ A plane is ruled with parallel lines spaced distance $a>0$ apart. A needle of length $\ell$ (with $\ell<a$) is dropped at random onto the plane. What is the probability that the needle crosses a line?
 
-**Random variables.** Let $X$ be the distance from the needle's midpoint to the nearest line, and let $\Theta$ be the acute angle between the needle and the direction perpendicular to the lines — equivalently, the angle relative to the line normal. By the symmetry of the dropping mechanism, $X$ and $\Theta$ are independent and uniformly distributed: $$X\sim U\!\left(\left[0,\frac{a}{2}\right]\right),\qquad \Theta\sim U([0,\pi]),$$
+__Random variables.__ Let $X$ be the distance from the needle's midpoint to the nearest line, and let $\Theta$ be the acute angle between the needle and the direction perpendicular to the lines — equivalently, the angle relative to the line normal. By the symmetry of the dropping mechanism, $X$ and $\Theta$ are independent and uniformly distributed: $$X\sim U\!\left(\left[0,\frac{a}{2}\right]\right),\qquad \Theta\sim U([0,\pi]),$$
 
 so the joint density is constant on the rectangle $[0,a/2]\times[0,\pi]$: $$f_{X,\Theta}(x,\theta)=\frac{2}{a}\cdot\frac{1}{\pi}=\frac{2}{\pi a}.$$
 
-**Hit condition.** The needle crosses a line exactly when the projection of half its length in the perpendicular direction exceeds the distance to the line: $$\frac{\ell}{2}\sin\Theta\ge X.$$
+__Hit condition.__ The needle crosses a line exactly when the projection of half its length in the perpendicular direction exceeds the distance to the line: $$\frac{\ell}{2}\sin\Theta\ge X.$$
 
-**Probability computation.** The event is a region under the curve $x\le\frac{\ell}{2}\sin\theta$. Because the joint density is constant, the probability is $2/(\pi a)$ times the area of that region: $$\begin{aligned} P[\text{hit}]&=\int_{\theta=0}^{\pi}\int_{x=0}^{\frac{\ell}{2}\sin\theta}\frac{2}{\pi a}\,dx\,d\theta\\ &=\frac{2}{\pi a}\int_{0}^{\pi}\frac{\ell}{2}\sin\theta\,d\theta\\ &=\frac{\ell}{\pi a}\int_{0}^{\pi}\sin\theta\,d\theta =\frac{\ell}{\pi a}\bigl[-\cos\theta\bigr]_{0}^{\pi} =\frac{2\ell}{\pi a}. \end{aligned}$$
+__Probability computation.__ The event is a region under the curve $x\le\frac{\ell}{2}\sin\theta$. Because the joint density is constant, the probability is $2/(\pi a)$ times the area of that region: $$\begin{aligned} P[\text{hit}]&=\int_{\theta=0}^{\pi}\int_{x=0}^{\frac{\ell}{2}\sin\theta}\frac{2}{\pi a}\,dx\,d\theta\\ &=\frac{2}{\pi a}\int_{0}^{\pi}\frac{\ell}{2}\sin\theta\,d\theta\\ &=\frac{\ell}{\pi a}\int_{0}^{\pi}\sin\theta\,d\theta =\frac{\ell}{\pi a}\bigl[-\cos\theta\bigr]_{0}^{\pi} =\frac{2\ell}{\pi a}. \end{aligned}$$
 
-**Interpretation.** This is a model example of geometric probability: a joint uniform distribution turns a probability question into a normalized area computation. The formula $P[\text{hit}]=2\ell/(\pi a)$ is historically notable because it provides a Monte Carlo method for estimating $\pi$: repeat the experiment many times, record the fraction of hits $h$, and solve $\pi\approx 2\ell/(a h)$. For $\ell>a$ the calculation is more involved (the integration region must account for multiple crossings).
+__Interpretation.__ This is a model example of geometric probability: a joint uniform distribution turns a probability question into a normalized area computation. The formula $P[\text{hit}]=2\ell/(\pi a)$ is historically notable because it provides a Monte Carlo method for estimating $\pi$: repeat the experiment many times, record the fraction of hits $h$, and solve $\pi\approx 2\ell/(a h)$. For $\ell>a$ the calculation is more involved (the integration region must account for multiple crossings).
 
 ---
 

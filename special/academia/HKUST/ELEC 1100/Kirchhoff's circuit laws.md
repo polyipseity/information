@@ -33,7 +33,7 @@ Flashcards for this section are as follows:
 
 ## Kirchhoff's current law <!-- check: ignore-line[header_style]: proper noun -->
 
-Also known as the *junction rule*, Kirchhoff's current law (KCL) states that at any node in a circuit the algebraic sum of currents is zero. <p> ![KCL](attachments/kcl.svg)
+Also known as the _junction rule_, Kirchhoff's current law (KCL) states that at any node in a circuit the algebraic sum of currents is zero. <p> ![KCL](attachments/kcl.svg)
 
 Equivalently, the sum of currents entering a junction equals the sum leaving it, reflecting that charge does not accumulate at a point. For a node with currents drawn in and out one may write $\sum I_{\text{in}} = \sum I_{\text{out}}$; putting all terms on one side gives relations such as $I_1+I_2-I_3-I_4=0$. The law is a discrete analogue of the continuity equation and follows from charge conservation.
 
@@ -50,7 +50,7 @@ Flashcards for this section are as follows:
 
 ## Kirchhoff's voltage law <!-- check: ignore-line[header_style]: proper noun -->
 
-The *loop rule* or Kirchhoff's voltage law (KVL) asserts that the algebraic sum of potential differences around any closed path is zero. <p> ![KVL](attachments/kvl.svg)
+The _loop rule_ or Kirchhoff's voltage law (KVL) asserts that the algebraic sum of potential differences around any closed path is zero. <p> ![KVL](attachments/kvl.svg)
 
 Traversing a loop in a chosen direction, voltage drops (positive when taken in the direction of current through a resistor) are added and rises are subtracted; the result is zero because electrostatic fields are conservative and no net work is done in completing a circuit. For a simple loop containing two resistors and a source the relation may appear as $-v + v_1 + v_2 = 0$, or equivalently $v = v_1 + v_2$. More generally $\sum V = 0$ around the loop; the sign convention depends on the assumed current direction and the orientation of the voltage sources.
 
@@ -68,11 +68,11 @@ Flashcards for this section are as follows:
 
 A typical procedure for analysing a circuit combines KCL and KVL in a systematic way:
 
-1. **Choose nodes and loops.** Select a reference node (usually ground) and identify a set of independent loops that cover the network without redundancy.
-2. **Assign current directions.** Arbitrary arrows are drawn on each branch; a negative value in the solution indicates the actual current flows opposite the assumed direction.
-3. **Write KCL equations** at the chosen nodes, expressing each branch current in the selected sign convention and setting the algebraic sum to zero.
-4. **Write KVL equations** around each independent loop, summing voltage drops and rises in the traversal direction and equating the total to zero.
-5. **Solve the resulting linear system** for the unknowns (currents, voltages, or resistances).
+1. __Choose nodes and loops.__ Select a reference node (usually ground) and identify a set of independent loops that cover the network without redundancy.
+2. __Assign current directions.__ Arbitrary arrows are drawn on each branch; a negative value in the solution indicates the actual current flows opposite the assumed direction.
+3. __Write KCL equations__ at the chosen nodes, expressing each branch current in the selected sign convention and setting the algebraic sum to zero.
+4. __Write KVL equations__ around each independent loop, summing voltage drops and rises in the traversal direction and equating the total to zero.
+5. __Solve the resulting linear system__ for the unknowns (currents, voltages, or resistances).
 
 The current-direction freedom is important: any choice leads to a correct system, with negative solutions signalling reversal. Both KCL and KVL may be used interchangeably; a given problem may be easier to handle with one method or the other depending on the circuit topology.
 

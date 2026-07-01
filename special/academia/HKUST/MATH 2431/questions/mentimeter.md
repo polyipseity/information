@@ -283,7 +283,7 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 
 <!-- markdownlint-disable MD028 -->
 
-> If $X$ is continuously distributed and $Y=g(X)$ is a discrete random variable (so $g$ is necessarily Borel measurable), what **additional** condition on $g$ beyond measurability is needed?
+> If $X$ is continuously distributed and $Y=g(X)$ is a discrete random variable (so $g$ is necessarily Borel measurable), what __additional__ condition on $g$ beyond measurability is needed?
 >
 > - (A) $g$ takes only countably many values.
 > - (B) $g$ is piecewise constant.

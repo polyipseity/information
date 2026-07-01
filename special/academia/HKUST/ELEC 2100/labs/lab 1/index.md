@@ -29,15 +29,15 @@ tags:
 
 This assignment was locked Mar 5 at 1:30pm.
 
-**Due on** **<span style="color: #f4350b;">05 Mar (Thu), 1:30pm</span>**
+__Due on__ __<span style="color: #f4350b;">05 Mar (Thu), 1:30pm</span>__
 
-**<span style="color: #f4350b;">Any late submission will NOT be graded.</span>**
+__<span style="color: #f4350b;">Any late submission will NOT be graded.</span>__
 
-**<span style="color: #03893d;">Lab Instruction :</span>** Please read
+__<span style="color: #03893d;">Lab Instruction :</span>__ Please read
 
-**<span style="color: #f4350b;">Any incorrect format will NOT graded.</span>**
+__<span style="color: #f4350b;">Any incorrect format will NOT graded.</span>__
 
-**<span style="color: #03893d;">Lab files for download only :</span>** [Please click](attachments/Lab1a.7z)
+__<span style="color: #03893d;">Lab files for download only :</span>__ [Please click](attachments/Lab1a.7z)
 
 ## attachments
 

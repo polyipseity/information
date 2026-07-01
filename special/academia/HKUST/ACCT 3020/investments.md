@@ -11,30 +11,30 @@ tags:
 
 # investments
 
-This note covers the ACCT 3020 material on debt investments, equity investments, the equity method, impairment, and the derivative-and-hedging appendix taught together with the investments topic. The recurring question is: **what is the business purpose of the instrument**? The answer drives measurement, income-statement treatment, and whether fair-value changes go to profit or loss or to other comprehensive income.
+This note covers the ACCT 3020 material on debt investments, equity investments, the equity method, impairment, and the derivative-and-hedging appendix taught together with the investments topic. The recurring question is: __what is the business purpose of the instrument__? The answer drives measurement, income-statement treatment, and whether fair-value changes go to profit or loss or to other comprehensive income.
 
 A useful map is:
 
-- **debt investments**: contractual principal-and-interest cash flows;
-- **equity investments**: ownership interests or rights linked to ownership interests;
-- **derivatives**: contracts whose value is derived from an underlying such as a share price, interest rate, commodity price, or exchange rate.
+- __debt investments__: contractual principal-and-interest cash flows;
+- __equity investments__: ownership interests or rights linked to ownership interests;
+- __derivatives__: contracts whose value is derived from an underlying such as a share price, interest rate, commodity price, or exchange rate.
 
-Before applying any of these investment categories, the course first asks whether the instrument is really **debt** or **equity**. Debt has a contractual principal amount, interest pattern, and settlement logic. Equity does **not** promise a fixed maturity amount or coupon stream, so the accounting turns instead on fair value, influence, and control.
+Before applying any of these investment categories, the course first asks whether the instrument is really __debt__ or __equity__. Debt has a contractual principal amount, interest pattern, and settlement logic. Equity does __not__ promise a fixed maturity amount or coupon stream, so the accounting turns instead on fair value, influence, and control.
 
 ## classification of debt investments
 
 Under IFRS 9, the course groups debt investments into three categories:
 
-- **held-for-collection**: measured at amortized cost;
-- **held-for-collection and selling**: measured using amortized cost during the period but adjusted to fair value at reporting dates, with unrealized gains and losses in OCI; and
-- **trading**: measured at fair value, with unrealized gains and losses in net income.
+- __held-for-collection__: measured at amortized cost;
+- __held-for-collection and selling__: measured using amortized cost during the period but adjusted to fair value at reporting dates, with unrealized gains and losses in OCI; and
+- __trading__: measured at fair value, with unrealized gains and losses in net income.
 
 The classification follows two ideas taught repeatedly in the slides:
 
-1. What is the company's **business model** for managing the financial asset?
-2. What are the **contractual cash flow characteristics** of the investment?
+1. What is the company's __business model__ for managing the financial asset?
+2. What are the __contractual cash flow characteristics__ of the investment?
 
-The second criterion is often called the **SPPI test**: the instrument's contractual cash flows must consist **solely of payments of principal and interest** on the principal outstanding. A plain fixed-rate bond with regular coupons typically passes. An instrument whose cash flows depend on equity returns, a leveraged multiple, or any non-principal-and-interest formula fails — and must be measured at FVTPL regardless of business model. Separately, a company may irrevocably designate an otherwise SPPI-eligible debt instrument at **FVTPL** (the fair value option, or **FVO**) if doing so eliminates or significantly reduces a measurement inconsistency; that designation cannot later be revoked.
+The second criterion is often called the __SPPI test__: the instrument's contractual cash flows must consist __solely of payments of principal and interest__ on the principal outstanding. A plain fixed-rate bond with regular coupons typically passes. An instrument whose cash flows depend on equity returns, a leveraged multiple, or any non-principal-and-interest formula fails — and must be measured at FVTPL regardless of business model. Separately, a company may irrevocably designate an otherwise SPPI-eligible debt instrument at __FVTPL__ (the fair value option, or __FVO__) if doing so eliminates or significantly reduces a measurement inconsistency; that designation cannot later be revoked.
 
 If the company mainly wants to collect contractual interest and principal, amortized-cost accounting is appropriate. If it may both collect and sell, fair value still matters, but the unrealized changes stay out of ordinary profit and loss until realization. If it is actively trading, fair value changes belong in income immediately.
 
@@ -65,15 +65,15 @@ Flashcards for this section are as follows:
 
 ## debt investments at amortized cost
 
-A held-for-collection debt investment is initially recorded at cost and then carried using the **effective-interest method**. The effective-interest method keeps two numbers distinct:
+A held-for-collection debt investment is initially recorded at cost and then carried using the __effective-interest method__. The effective-interest method keeps two numbers distinct:
 
-- **cash interest received**: based on the bond's stated coupon; and
-- **interest revenue**: based on the bond's carrying amount and effective yield.
+- __cash interest received__: based on the bond's stated coupon; and
+- __interest revenue__: based on the bond's carrying amount and effective yield.
 
 The difference between them is the amortization of discount or premium.
 
-- For a **discount bond**, interest revenue is greater than cash received, so the carrying amount rises over time.
-- For a **premium bond**, interest revenue is less than cash received, so the carrying amount falls over time.
+- For a __discount bond__, interest revenue is greater than cash received, so the carrying amount rises over time.
+- For a __premium bond__, interest revenue is less than cash received, so the carrying amount falls over time.
 
 > _Discount bond at amortized cost._ Robinson buys {@{€100&nbsp;000 of 8% bonds}@} for {@{€92&nbsp;278}@}. The bonds mature in {@{5 years and yield 10%}@}. Interest is paid each {@{July 1 and January 1}@}.
 >
@@ -153,7 +153,7 @@ Flashcards for this section are as follows:
 
 ### held-for-collection and selling
 
-Debt investments held for both collection and possible sale follow the same interest-revenue and amortized-cost entries during the period, but at each reporting date the company also adjusts them to **fair value**. The unrealized change goes to **OCI** rather than net income.
+Debt investments held for both collection and possible sale follow the same interest-revenue and amortized-cost entries during the period, but at each reporting date the company also adjusts them to __fair value__. The unrealized change goes to __OCI__ rather than net income.
 
 > _HFCS bond at premium._ Graff buys {@{£100&nbsp;000 of 10% bonds}@} for {@{£108&nbsp;111}@}, giving an effective yield of {@{8%, so the bond carries a premium above face}@}. After recording interest revenue and premium amortization during the year, the amortized carrying amount at year-end is {@{£106&nbsp;732, but fair value is only £105&nbsp;000}@}.
 >
@@ -204,11 +204,11 @@ Debt investments held for both collection and possible sale follow the same inte
 > | {@{Loss on sale of investments}@}                           |  {@{4&nbsp;200}@} |                   |
 > | {@{Debt investments}@}                                      |                   | {@{94&nbsp;200}@} |
 >
-> _Explanation._ If this bond carries {@{no accumulated OCI / AOCI balance at the sale date}@}, there is {@{no OCI layer left to clear}@}; the disposal entry simply compares sale proceeds with the bond's {@{amortized cost at the sale date}@}. That is also why **trading debt investments** never need an OCI-clearing step on sale: their fair-value changes were already recognized in {@{net income rather than OCI}@}.
+> _Explanation._ If this bond carries {@{no accumulated OCI / AOCI balance at the sale date}@}, there is {@{no OCI layer left to clear}@}; the disposal entry simply compares sale proceeds with the bond's {@{amortized cost at the sale date}@}. That is also why __trading debt investments__ never need an OCI-clearing step on sale: their fair-value changes were already recognized in {@{net income rather than OCI}@}.
 
 <!-- markdownlint-disable MD028 -->
 
-> _Sale of an HFCS bond with an accumulated OCI balance._ Suppose the same bond also carries an existing {@{€3&nbsp;800 cumulative unrealized loss in OCI}@} from earlier fair-value adjustments, with a matching {@{€3&nbsp;800 credit balance in Fair value adjustment}@}. The bond's {@{amortized cost is still €94&nbsp;200}@}, but its {@{fair-value carrying amount is only €90&nbsp;400 = €94&nbsp;200 − €3&nbsp;800}@}. Because the note is measuring the disposal loss against {@{amortized cost}@}, the company should **not** add a second standalone loss entry for OCI recycling on top of that. Instead it clears the fair-value layer as part of the overall disposal mechanics.
+> _Sale of an HFCS bond with an accumulated OCI balance._ Suppose the same bond also carries an existing {@{€3&nbsp;800 cumulative unrealized loss in OCI}@} from earlier fair-value adjustments, with a matching {@{€3&nbsp;800 credit balance in Fair value adjustment}@}. The bond's {@{amortized cost is still €94&nbsp;200}@}, but its {@{fair-value carrying amount is only €90&nbsp;400 = €94&nbsp;200 − €3&nbsp;800}@}. Because the note is measuring the disposal loss against {@{amortized cost}@}, the company should __not__ add a second standalone loss entry for OCI recycling on top of that. Instead it clears the fair-value layer as part of the overall disposal mechanics.
 >
 > | {@{Sell HFCS debt investment when a prior OCI loss and matching fair value adjustment are still on the books}@} |                Dr |                Cr |
 > | --------------------------------------------------------------------------------------------------------------- | ----------------: | ----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -219,7 +219,7 @@ Debt investments held for both collection and possible sale follow the same inte
 > | {@{Debt investments}@}                                                                                          |                   | {@{94&nbsp;200}@} |
 > | {@{Accumulated comprehensive income}@}                                                                          |                   |  {@{3&nbsp;800}@} | <!--SR:!fsrs,2026-08-08T12:23:09.320Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:09.320Z!fsrs,2026-08-08T12:25:33.358Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:33.358Z!fsrs,2026-08-15T12:00:52.387Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:00:52.387Z!fsrs,2026-08-15T12:08:47.462Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:08:47.462Z!fsrs,2026-08-08T12:14:14.889Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:14:14.889Z!fsrs,2026-08-08T13:02:06.798Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:06.798Z!fsrs,2026-08-08T12:12:24.819Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:24.819Z!fsrs,2026-08-08T12:23:24.907Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:24.907Z!fsrs,2026-08-08T13:01:54.314Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:54.314Z!fsrs,2026-08-08T11:59:46.818Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:46.818Z!fsrs,2026-08-08T12:06:11.797Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:11.797Z!fsrs,2026-08-08T12:04:52.417Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:52.417Z!fsrs,2026-08-08T12:25:10.532Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:10.532Z!fsrs,2026-08-08T12:10:50.608Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:50.608Z!fsrs,2026-08-08T13:00:07.211Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:07.211Z!fsrs,2026-08-08T12:10:57.821Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:57.821Z!fsrs,2026-08-08T13:03:38.699Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:38.699Z!fsrs,2026-08-08T12:22:23.806Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:23.806Z--> |
 
-_Explanation._ Your concern is correct: if the sale loss is already being recorded as {@{sale proceeds versus amortized cost}@}, then a separate extra {@{Dr Loss on sale / Cr Accumulated comprehensive income}@} line would **double count** the OCI loss. The correct mechanics are to record the total {@{€4&nbsp;200 loss once}@} and also clear the old {@{Fair value adjustment and related accumulated OCI balance}@}. A separate standalone OCI-to-loss reclassification entry would be used only under a different presentation where the disposal gain or loss were first measured against the bond's {@{fair-value carrying amount instead of amortized cost}@}. <!--SR:!fsrs,2026-08-08T13:03:44.621Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:44.621Z!fsrs,2026-08-08T13:00:00.297Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:00.297Z!fsrs,2026-08-08T12:06:30.139Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:30.139Z!fsrs,2026-09-13T00:00:00.000Z,68,68.45784196,4.97239934,2,3,0,0,2026-07-07T00:00:00.000Z!fsrs,2026-08-08T12:03:16.458Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:16.458Z-->
+_Explanation._ Your concern is correct: if the sale loss is already being recorded as {@{sale proceeds versus amortized cost}@}, then a separate extra {@{Dr Loss on sale / Cr Accumulated comprehensive income}@} line would __double count__ the OCI loss. The correct mechanics are to record the total {@{€4&nbsp;200 loss once}@} and also clear the old {@{Fair value adjustment and related accumulated OCI balance}@}. A separate standalone OCI-to-loss reclassification entry would be used only under a different presentation where the disposal gain or loss were first measured against the bond's {@{fair-value carrying amount instead of amortized cost}@}. <!--SR:!fsrs,2026-08-08T13:03:44.621Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:44.621Z!fsrs,2026-08-08T13:00:00.297Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:00.297Z!fsrs,2026-08-08T12:06:30.139Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:30.139Z!fsrs,2026-09-13T00:00:00.000Z,68,68.45784196,4.97239934,2,3,0,0,2026-07-07T00:00:00.000Z!fsrs,2026-08-08T12:03:16.458Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:16.458Z-->
 
 <!-- markdownlint-enable MD028 -->
 
@@ -233,17 +233,17 @@ Flashcards for this section are as follows:
 - HFCS sale: realized gain or loss is based on what comparison? ::@:: Sale proceeds versus the investment's amortized cost at the sale date. <!--SR:!fsrs,2026-08-08T13:02:51.916Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:51.916Z!fsrs,2026-08-05T12:59:49.201Z,53,53.45649914,3.13101527,2,3,0,0,2026-06-13T12:59:49.201Z-->
 - HFCS sale with prior OCI history: what extra step is needed? ::@:: Clear the accumulated OCI balance related to that debt investment out of equity when the bond is sold, but do not double count the loss if disposal is already measured against amortized cost. <!--SR:!fsrs,2026-08-08T12:25:18.908Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:18.908Z!fsrs,2026-08-30T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-20T00:00:00.000Z-->
 
-When an HFCS debt investment is sold, the realized gain or loss is based on sale proceeds versus **amortized cost**, not versus original purchase price. The company must also update the fair-value-adjustment balances appropriately.
+When an HFCS debt investment is sold, the realized gain or loss is based on sale proceeds versus __amortized cost__, not versus original purchase price. The company must also update the fair-value-adjustment balances appropriately.
 
 ### trading debt investments
 
 Trading debt investments are simpler conceptually but more volatile in income:
 
 - they are held for short-term sale or active portfolio management;
-- they are measured at **fair value**; and
-- unrealized holding gains and losses go to **net income**.
+- they are measured at __fair value__; and
+- unrealized holding gains and losses go to __net income__.
 
-The fair-value adjustment for trading securities is usually done at the **portfolio** level in this course.
+The fair-value adjustment for trading securities is usually done at the __portfolio__ level in this course.
 
 > _Trading portfolio year-end adjustment._ Western Publishing measures a newly acquired trading debt portfolio and finds that fair value exceeds carrying amount by {@{3&nbsp;750}@}.
 >
@@ -264,7 +264,7 @@ Flashcards for this section are as follows:
 
 ## equity investments at fair value
 
-An equity investment represents an ownership interest such as ordinary shares, preference shares, warrants, or similar rights. For investments with less than 20% influence, the course separates two broad fair-value treatments. Because both categories are already carried at **fair value**, no separate impairment test is required for FVTPL or FVOCI-equity investments — any economic decline is captured through the recurring fair-value remeasurement each period.
+An equity investment represents an ownership interest such as ordinary shares, preference shares, warrants, or similar rights. For investments with less than 20% influence, the course separates two broad fair-value treatments. Because both categories are already carried at __fair value__, no separate impairment test is required for FVTPL or FVOCI-equity investments — any economic decline is captured through the recurring fair-value remeasurement each period.
 
 ---
 
@@ -281,9 +281,9 @@ Flashcards for this section are as follows:
 Under IFRS, a small equity investment is often presumed to be held for trading unless the company elects a non-trading OCI presentation for the particular investment. Trading equity investments are:
 
 - measured at fair value; and
-- all unrealized gains and losses go to **net income**.
+- all unrealized gains and losses go to __net income__.
 
-Cash dividends received are recognized as **dividend revenue**.
+Cash dividends received are recognized as __dividend revenue__.
 
 > _Trading equity portfolio acquired and remeasured._ A company buys a trading portfolio of ordinary shares for {@{€720&nbsp;000}@}. Before year-end, it receives {@{€4&nbsp;500 cash dividends}@}. At year-end the portfolio's fair value has fallen by {@{€36&nbsp;000}@}.
 >
@@ -326,9 +326,9 @@ Flashcards for this section are as follows:
 
 ### non-trading equity investments (OCI)
 
-Some small equity investments are strategic rather than trading-oriented. The course treats these as fair-value investments whose unrealized changes go to **OCI** instead of net income. One detail from the slides matters:
+Some small equity investments are strategic rather than trading-oriented. The course treats these as fair-value investments whose unrealized changes go to __OCI__ instead of net income. One detail from the slides matters:
 
-- the non-trading classification is applied **investment by investment**, not as a whole portfolio bucket.
+- the non-trading classification is applied __investment by investment__, not as a whole portfolio bucket.
 
 > _Non-trading strategic equity investment._ Republic buys {@{1&nbsp;000 Hawthorne ordinary shares}@} for {@{€20&nbsp;750}@}. At year-end, fair value is {@{€24&nbsp;000}@}, so the carrying value must increase by {@{€3&nbsp;250}@}.
 >
@@ -374,16 +374,16 @@ Flashcards for this section are as follows:
 
 The course uses ownership influence to decide how to account for larger equity investments.
 
-- **Less than 20%**: usually fair-value accounting.
-- **20% to 50%**: presumed **significant influence** and usually use the **equity method**.
-- **More than 50%**: control exists, so the investor is the parent and normally prepares consolidated financial statements.
+- __Less than 20%__: usually fair-value accounting.
+- __20% to 50%__: presumed __significant influence__ and usually use the __equity method__.
+- __More than 50%__: control exists, so the investor is the parent and normally prepares consolidated financial statements.
 
-Under the **equity method**:
+Under the __equity method__:
 
 - record the investment initially at cost;
 - increase the carrying amount for the investor's share of the investee's income;
 - decrease the carrying amount for dividends received, because dividends are treated as a return of investment rather than as revenue; and
-- do **not** keep remeasuring the investment to market value each period.
+- do __not__ keep remeasuring the investment to market value each period.
 
 > _Equity-method example._ Company A buys a {@{20% interest in Company B}@} for {@{480&nbsp;000}@}. In the same year Company B reports {@{200&nbsp;000 net income}@} and later declares {@{100&nbsp;000 dividends}@}.
 >
@@ -415,7 +415,7 @@ Flashcards for this section are as follows:
 
 ### equity method: unrealized intercompany profit elimination
 
-Under IAS 28, the investor eliminates its proportionate share of any **unrealized profit** from transactions between the investor and the investee — whether **downstream** (investor sells to investee) or **upstream** (investee sells to investor). As long as the goods remain unsold to an independent third party, the embedded profit has not been realized from the economic group's perspective.
+Under IAS 28, the investor eliminates its proportionate share of any __unrealized profit__ from transactions between the investor and the investee — whether __downstream__ (investor sells to investee) or __upstream__ (investee sells to investor). As long as the goods remain unsold to an independent third party, the embedded profit has not been realized from the economic group's perspective.
 
 > _Downstream unrealized profit elimination._ Company A holds a {@{20% interest}@} in Company B. Company A sells inventory to Company B at a mark-up generating a profit of {@{€50&nbsp;000}@}. At year-end, Company B still holds {@{half of that inventory unsold}@}, leaving {@{€25&nbsp;000 of unrealized profit in Company B's closing inventory}@}. Company A must reduce its equity-method income by its ownership share: {@{20% × €25&nbsp;000 = €5&nbsp;000}@}.
 >
@@ -436,13 +436,13 @@ Flashcards for this section are as follows:
 
 ### loss limitation when the equity-method investment would become negative
 
-Under the equity method, the investor does **not** keep pushing the _Equity investment_ asset below zero just because the investee keeps reporting losses. Once the carrying amount has been reduced to **zero**, the normal rule is:
+Under the equity method, the investor does __not__ keep pushing the _Equity investment_ asset below zero just because the investee keeps reporting losses. Once the carrying amount has been reduced to __zero__, the normal rule is:
 
 - stop recognizing additional equity-method losses;
-- keep the excess loss as an **unrecognized loss memorandum amount**; and
+- keep the excess loss as an __unrecognized loss memorandum amount__; and
 - resume recognizing future profits only after those later profits first absorb the previously unrecognized loss.
 
-The main exception is when the investor has gone beyond passive ownership and has **incurred a legal or constructive obligation** to support the investee, or has already made payments on the investee's behalf. In that case, additional losses are recognized through a **liability**, not by making the investment asset negative.
+The main exception is when the investor has gone beyond passive ownership and has __incurred a legal or constructive obligation__ to support the investee, or has already made payments on the investee's behalf. In that case, additional losses are recognized through a __liability__, not by making the investment asset negative.
 
 > _Equity-method losses larger than the remaining carrying amount._ Assume the investor's carrying amount in an associate is only {@{€30&nbsp;000}@}, but its share of the associate's current-year loss is {@{€50&nbsp;000}@}. The investor has {@{no guarantee or support obligation}@}, so it can recognize only the portion that reduces the investment to zero.
 >
@@ -486,7 +486,7 @@ Flashcards for this section are as follows:
 
 ### equity method: impairment
 
-Even before the carrying amount reaches zero, the investor must assess at each reporting date whether there is objective evidence that the equity-method investment is impaired. The impairment test compares the investment's **carrying amount** with its **recoverable amount** — the higher of (a) value in use and (b) fair value less costs to sell. Any excess of carrying amount over recoverable amount is recognized as an impairment loss in income and the carrying amount is written down directly.
+Even before the carrying amount reaches zero, the investor must assess at each reporting date whether there is objective evidence that the equity-method investment is impaired. The impairment test compares the investment's __carrying amount__ with its __recoverable amount__ — the higher of (a) value in use and (b) fair value less costs to sell. Any excess of carrying amount over recoverable amount is recognized as an impairment loss in income and the carrying amount is written down directly.
 
 > _Equity-method investment impairment._ An investor carries its {@{25% interest}@} in an associate at a carrying amount of {@{€320&nbsp;000}@}. Due to prolonged operating losses and deteriorating market conditions at the associate, the estimated recoverable amount has fallen to {@{€260&nbsp;000}@}. The impairment loss is {@{€60&nbsp;000}@}.
 >
@@ -507,13 +507,13 @@ Flashcards for this section are as follows:
 
 ## impairment of debt investments
 
-The impairment material in this course focuses on debt investments, not on a broad everything-at-once write-down rule. The central distinction is between a decline caused by ordinary **market interest rate** movement and a decline caused by worsening **credit quality**.
+The impairment material in this course focuses on debt investments, not on a broad everything-at-once write-down rule. The central distinction is between a decline caused by ordinary __market interest rate__ movement and a decline caused by worsening __credit quality__.
 
 The transcript's expected-credit-loss structure is:
 
-- **stage 1**: no significant increase in credit risk -> recognize **12-month expected credit loss**;
-- **stage 2**: significant increase in credit risk -> recognize **lifetime expected credit loss**;
-- **stage 3**: the asset is credit-impaired or close to default -> still use **lifetime expected credit loss**, but now the situation is no longer just a warning signal.
+- __stage 1__: no significant increase in credit risk -> recognize __12-month expected credit loss__;
+- __stage 2__: significant increase in credit risk -> recognize __lifetime expected credit loss__;
+- __stage 3__: the asset is credit-impaired or close to default -> still use __lifetime expected credit loss__, but now the situation is no longer just a warning signal.
 
 So the accounting question is not merely whether fair value fell. The accounting question is whether the fall reflects a higher expected cash shortfall from the debtor.
 
@@ -528,19 +528,19 @@ Flashcards for this section are as follows:
 
 ### expected credit loss stages and what they mean for entries
 
-The stage labels matter because they change the **required allowance balance**, not because each stage has a completely different kind of account. The same basic allowance structure stays in place:
+The stage labels matter because they change the __required allowance balance__, not because each stage has a completely different kind of account. The same basic allowance structure stays in place:
 
-- record impairment losses by increasing the **allowance for impaired debt investments** and recognizing loss in income;
+- record impairment losses by increasing the __allowance for impaired debt investments__ and recognizing loss in income;
 - when credit risk worsens, increase the allowance to the newly required amount; and
 - when credit risk improves, reverse the allowance only to the extent justified under the reversal rules.
 
 The practical accounting meaning of the three stages is:
 
-- **stage 1**: no significant increase in credit risk -> allowance equals **12-month expected credit loss**;
-- **stage 2**: significant increase in credit risk -> allowance equals **lifetime expected credit loss**;
-- **stage 3**: asset is credit-impaired -> allowance still equals **lifetime expected credit loss**, but now the asset is in a much more severe condition and later estimates often change again.
+- __stage 1__: no significant increase in credit risk -> allowance equals __12-month expected credit loss__;
+- __stage 2__: significant increase in credit risk -> allowance equals __lifetime expected credit loss__;
+- __stage 3__: asset is credit-impaired -> allowance still equals __lifetime expected credit loss__, but now the asset is in a much more severe condition and later estimates often change again.
 
-So the stage transition entry is usually an **incremental top-up or reversal**, not a brand-new accounting model. The key comparison is always: **what allowance balance is required now versus what allowance balance is already on the books**?
+So the stage transition entry is usually an __incremental top-up or reversal__, not a brand-new accounting model. The key comparison is always: __what allowance balance is required now versus what allowance balance is already on the books__?
 
 > _Allowance mechanics across stages 1, 2, and 3._ Assume a debt investment starts the year in {@{stage 1 with required 12-month expected credit loss of €1&nbsp;200}@}. Later credit risk increases significantly, so the required allowance becomes {@{€6&nbsp;500 lifetime expected credit loss in stage 2}@}. By the following reporting date the asset becomes credit-impaired and the required lifetime expected credit loss rises further to {@{€9&nbsp;000 in stage 3}@}.
 >
@@ -583,7 +583,7 @@ Flashcards for this section are as follows:
 
 ### investments measured at amortized cost
 
-For amortized-cost debt investments, the company evaluates at each reporting date whether the investment has suffered credit-related impairment. If the investment is impaired, the carrying amount is written down and the loss is recognized in **net income**.
+For amortized-cost debt investments, the company evaluates at each reporting date whether the investment has suffered credit-related impairment. If the investment is impaired, the carrying amount is written down and the loss is recognized in __net income__.
 
 > _Amortized-cost impairment with ECL schedule — Mayhew and Bao._ Mayhew holds a {@{¥200&nbsp;000 par-value}@} debt investment in Bao, bearing {@{10% annual interest}@} with {@{4 years to maturity}@} (EIR 10%). At initial recognition the credit risk is low (Stage 1). By year-end, credit risk has increased significantly (Stage 2), requiring lifetime ECL. Expected annual interest receipts fall to {@{¥16&nbsp;000}@} against the contractual {@{¥20&nbsp;000}@}; the principal repayment is still expected in full.
 >
@@ -632,7 +632,7 @@ For amortized-cost debt investments, the company evaluates at each reporting dat
 
 If credit conditions later improve, part or all of the impairment loss may be reversed, but the carrying amount after reversal cannot exceed the amortized cost that would have existed if no impairment had ever been recognized.
 
-The measurement intuition is to compare **contractual cash flows** with **expected cash flows**. If the borrower still owes the same coupon and principal on paper but the investor now expects to collect less, the gap is the credit-loss problem. That is why the course warns students not to treat every lower present value as a credit impairment automatically; some declines are caused by market-rate movement rather than weaker cash collection.
+The measurement intuition is to compare __contractual cash flows__ with __expected cash flows__. If the borrower still owes the same coupon and principal on paper but the investor now expects to collect less, the gap is the credit-loss problem. That is why the course warns students not to treat every lower present value as a credit impairment automatically; some declines are caused by market-rate movement rather than weaker cash collection.
 
 ---
 
@@ -648,7 +648,7 @@ Flashcards for this section are as follows:
 The reversal ceiling has two layers that students often mix up:
 
 1. the carrying amount after reversal must be supported by the updated expected-cash-flow estimate; and
-2. even if expected cash flows look very strong, the carrying amount still cannot rise above the **amortized cost that would have existed if no impairment had ever been recognized**.
+2. even if expected cash flows look very strong, the carrying amount still cannot rise above the __amortized cost that would have existed if no impairment had ever been recognized__.
 
 That second ceiling is the point of the allowance rule: you may reverse a loss, but you may not create a carrying amount that is better than the no-impairment path would have produced.
 
@@ -673,15 +673,15 @@ Flashcards for this section are as follows:
 
 HFCS debt investments are already at fair value, so the course distinguishes between:
 
-- fair-value change caused by **market interest rate movements**, which stays in OCI; and
-- fair-value change caused by **credit deterioration**, which is treated as impairment and goes to income.
+- fair-value change caused by __market interest rate movements__, which stays in OCI; and
+- fair-value change caused by __credit deterioration__, which is treated as impairment and goes to income.
 
 This is one of the most exam-friendly distinctions in the investments material: same overall fair-value decline, but different reporting locations depending on the cause.
 
 In other words, the company may need both:
 
-- a **fair value adjustment** for the market-rate component; and
-- an **allowance for impaired debt investments** for the credit-loss component.
+- a __fair value adjustment__ for the market-rate component; and
+- an __allowance for impaired debt investments__ for the credit-loss component.
 
 The slide logic is to separate cause before deciding the journal-entry destination.
 
@@ -739,13 +739,13 @@ Flashcards for this section are as follows:
 
 ## financial statement disclosures under IFRS 7
 
-IFRS 7 _Financial Instruments: Disclosures_ requires entities to provide information that enables users to evaluate the **significance of financial instruments** for financial position and performance, and the **nature and extent of the risks** arising from those instruments.
+IFRS 7 _Financial Instruments: Disclosures_ requires entities to provide information that enables users to evaluate the __significance of financial instruments__ for financial position and performance, and the __nature and extent of the risks__ arising from those instruments.
 
 Key disclosure areas:
 
-- **Credit risk**: maximum exposure to credit loss, concentrations of risk, collateral held, and — for instruments subject to the ECL model — a movement table showing the allowance balance by stage from opening to closing.
-- **Liquidity risk**: maturity analysis of financial liabilities, presenting contractual undiscounted cash flows arranged by time bucket (e.g., within one year, one to five years, over five years).
-- **Market risk**: sensitivity analysis showing the effect on profit or loss and on equity of a reasonably possible change in each relevant market variable (e.g., a 100 basis-point increase in interest rates, or a 10% depreciation of a functional currency).
+- __Credit risk__: maximum exposure to credit loss, concentrations of risk, collateral held, and — for instruments subject to the ECL model — a movement table showing the allowance balance by stage from opening to closing.
+- __Liquidity risk__: maturity analysis of financial liabilities, presenting contractual undiscounted cash flows arranged by time bucket (e.g., within one year, one to five years, over five years).
+- __Market risk__: sensitivity analysis showing the effect on profit or loss and on equity of a reasonably possible change in each relevant market variable (e.g., a 100 basis-point increase in interest rates, or a 10% depreciation of a functional currency).
 
 For equity investments irrevocably designated at FVOCI (non-trading), IFRS 7 additionally requires disclosure of the reason for making the irrevocable election and the amount of dividends recognized from those investments during the period.
 
@@ -759,13 +759,13 @@ Flashcards for this section are as follows:
 
 ## derivatives used for speculation
 
-A derivative is a financial instrument whose value is derived from an **underlying** such as a share price, interest rate, commodity price, or exchange rate.
+A derivative is a financial instrument whose value is derived from an __underlying__ such as a share price, interest rate, commodity price, or exchange rate.
 
 The slides stress three basic characteristics:
 
-1. it has an **underlying**;
+1. it has an __underlying__;
 2. it requires little or no initial investment relative to the exposure created; and
-3. it permits or requires **net settlement**.
+3. it permits or requires __net settlement__.
 
 The three main derivative families in the course are:
 
@@ -775,24 +775,24 @@ The three main derivative families in the course are:
 
 The transcript gives three quick recognition clues for a derivative:
 
-1. its value depends on an **underlying** such as a share price, commodity price, or interest rate;
+1. its value depends on an __underlying__ such as a share price, commodity price, or interest rate;
 2. it usually requires little or no initial investment compared with the exposure created; and
-3. it permits or requires **net settlement** rather than forcing full physical delivery in every case.
+3. it permits or requires __net settlement__ rather than forcing full physical delivery in every case.
 
-When derivatives are used for **speculation**, the accounting rule is direct:
+When derivatives are used for __speculation__, the accounting rule is direct:
 
 - recognize the derivative as an asset or liability;
-- measure it at **fair value**; and
-- report gains and losses in **income** immediately.
+- measure it at __fair value__; and
+- report gains and losses in __income__ immediately.
 
 A call option example makes the mechanics concrete.
 
-- **intrinsic value** = market price of the underlying minus strike price, if positive;
-- **time value** = total option value minus intrinsic value.
+- __intrinsic value__ = market price of the underlying minus strike price, if positive;
+- __time value__ = total option value minus intrinsic value.
 
-A **call option** profits when the underlying price rises above the strike price. A **put option** profits when the underlying price falls below the strike price. The lecture stresses that option premium is not all one thing: part is current exercise value, and part is the value of having time left before expiry.
+A __call option__ profits when the underlying price rises above the strike price. A __put option__ profits when the underlying price falls below the strike price. The lecture stresses that option premium is not all one thing: part is current exercise value, and part is the value of having time left before expiry.
 
-A **futures contract** differs from an option in one crucial way: the holder is not just buying a right but entering a binding price commitment. Because of that, futures are especially useful in hedge questions about locking in a purchase price or sale price.
+A __futures contract__ differs from an option in one crucial way: the holder is not just buying a right but entering a binding price commitment. Because of that, futures are especially useful in hedge questions about locking in a purchase price or sale price.
 
 > _Call option bought for speculation._ A company buys a call option for {@{€400}@} on {@{1&nbsp;000 shares}@} with strike price {@{€100}@}. By March 31 the share price rises to {@{€120, so intrinsic value becomes €20&nbsp;000}@}. The option's remaining time value is only {@{€100, so almost all of the option's value is now intrinsic rather than time value}@}.
 >
@@ -855,15 +855,15 @@ Flashcards for this section are as follows:
 
 ### fair value hedges
 
-A **fair value hedge** offsets exposure to changes in the fair value of a recognized asset or liability or of an unrecognized firm commitment.
+A __fair value hedge__ offsets exposure to changes in the fair value of a recognized asset or liability or of an unrecognized firm commitment.
 
 The key accounting idea is symmetrical:
 
-- the **hedged item** is adjusted for the fair-value change attributable to the hedged risk; and
-- the **hedging derivative** is also adjusted to fair value;
-- both effects go to **income**.
+- the __hedged item__ is adjusted for the fair-value change attributable to the hedged risk; and
+- the __hedging derivative__ is also adjusted to fair value;
+- both effects go to __income__.
 
-The transcript frames the reason very practically: if the hedged inventory or liability is already creating an income-statement gain or loss, the hedging derivative must hit **the same location** or the hedge will fail to offset the reported volatility.
+The transcript frames the reason very practically: if the hedged inventory or liability is already creating an income-statement gain or loss, the hedging derivative must hit __the same location__ or the hedge will fail to offset the reported volatility.
 
 > _Inventory hedged with a put option._ Hayward holds tractor-tire inventory with cost {@{€200&nbsp;000}@}. At March 31 the inventory's fair value declines by {@{10%}@}, or {@{€20&nbsp;000}@}. At the same time, the put option used as the hedge rises by {@{€20&nbsp;000}@}.
 >
@@ -890,12 +890,12 @@ Flashcards for this section are as follows:
 
 ### cash flow hedges
 
-A **cash flow hedge** offsets variability in expected future cash flows, not current fair value.
+A __cash flow hedge__ offsets variability in expected future cash flows, not current fair value.
 
 For a qualifying cash flow hedge:
 
 - the derivative is still shown at fair value on the statement of financial position; but
-- the unrealized gain or loss goes to **OCI** first.
+- the unrealized gain or loss goes to __OCI__ first.
 
 Later, when the hedged forecast transaction affects earnings, the accumulated OCI is reclassified into income.
 
@@ -929,7 +929,7 @@ Flashcards for this section are as follows:
 
 #### forecast purchase hedged through basis adjustment into inventory
 
-One common accounting path for a cash flow hedge of a forecast purchase of a **non-financial item** is to remove the accumulated OCI amount from equity and build it into the carrying amount of the asset when that asset is finally recognized. For inventory, that means the hedge effect can be absorbed into **Inventory** first and then flow into **Cost of goods sold** naturally when the inventory is sold.
+One common accounting path for a cash flow hedge of a forecast purchase of a __non-financial item__ is to remove the accumulated OCI amount from equity and build it into the carrying amount of the asset when that asset is finally recognized. For inventory, that means the hedge effect can be absorbed into __Inventory__ first and then flow into __Cost of goods sold__ naturally when the inventory is sold.
 
 > _Forecast inventory purchase with later basis adjustment._ Suppose the futures contract above has already produced a {@{¥25&nbsp;000 gain in OCI at year-end}@}. Before the actual inventory purchase date, the futures gain increases by another {@{¥7&nbsp;000}@}, so the total effective hedge gain accumulated in OCI is now {@{¥32&nbsp;000}@}. The inventory is then purchased for the current spot-based cash price of {@{¥1&nbsp;582&nbsp;000}@}, and the futures contract is settled for {@{¥32&nbsp;000 cash}@}.
 >
@@ -969,7 +969,7 @@ Flashcards for this section are as follows:
 
 #### floating-rate debt hedged to fixed cash flows with a swap
 
-Cash flow hedge accounting is also common when a company wants to turn **floating-rate interest cash flows into fixed-like interest cash flows**. The debt itself still produces ordinary interest expense. The effective part of the swap's gain or loss is parked in **OCI** first and then reclassified into **Interest expense** when the hedged interest cash flow affects earnings.
+Cash flow hedge accounting is also common when a company wants to turn __floating-rate interest cash flows into fixed-like interest cash flows__. The debt itself still produces ordinary interest expense. The effective part of the swap's gain or loss is parked in __OCI__ first and then reclassified into __Interest expense__ when the hedged interest cash flow affects earnings.
 
 > _Floating-rate debt hedged with a pay-fixed, receive-floating swap._ Assume a company has floating-rate debt that produces {@{€52&nbsp;000 interest expense for the period}@}. The effective portion of the swap creates a {@{€8&nbsp;000 loss}@} for the same period because the company is effectively locking itself into a higher fixed rate. The swap is then settled for {@{€8&nbsp;000 cash}@}.
 >
@@ -1004,7 +1004,7 @@ Flashcards for this section are as follows:
 
 ### swaps and qualifying criteria
 
-A **swap** is a contract in which two parties exchange payment streams. The most common example in the slides is an **interest rate swap**. One party pays fixed and receives floating; the other does the opposite.
+A __swap__ is a contract in which two parties exchange payment streams. The most common example in the slides is an __interest rate swap__. One party pays fixed and receives floating; the other does the opposite.
 
 The classroom motivation is duration and interest-rate-risk management. A company with a fixed-rate bond liability may fear falling market rates, because falling rates increase the fair value of that liability. By entering a swap that receives fixed and pays floating, the company creates a derivative whose value can move in the opposite direction and offset part of that risk.
 
