@@ -26,6 +26,57 @@ Agent quickstart pointer: See `.agents/instructions/agent-quickstart.instruction
 
 - __Formatting__: Respect `.markdownlint.json` settings (MD013/MD033/MD051 disabled). Avoid rewrapping existing lines; preserve layout. For emphasis in Markdown, prefer underscore: `_italic_` and `__bold__` (not `*`/`**`) so formatting is consistent and asterisks are reserved for lists and math.
 
+## MD028 (consecutive blockquotes)
+
+When two blockquote blocks (`> ...`) appear adjacent without intervening
+non-blockquote content, markdownlint rule MD028 fires. To suppress it
+legitimately (when the blockquotes are intentionally separate), always use
+the exact pattern below.
+
+### Required pattern
+
+```markdown
+> (end of prior block)
+
+<!-- markdownlint MD028 -->
+
+> (start of next block)
+```
+
+### Rules (enforced by checks)
+
+1. **Exactly one blank line** before `<!-- markdownlint MD028 -->` — no more,
+   no fewer. A blank line means an empty line (zero visible characters)
+   between the last line of the prior blockquote and the comment.
+2. **Exactly one blank line** after `<!-- markdownlint MD028 -->` — no more,
+   no fewer. An empty line between the comment and the first line of the
+   next blockquote.
+3. **Comment text is literal** — use `<!-- markdownlint MD028 -->` exactly.
+   Do **not** use `<!-- markdownlint-disable-next-line MD028 -->`,
+   `<!-- markdownlint-enable MD028 -->`, or any other markdownlint
+   directive. This is a plain HTML comment whose content merely names the
+   rule; it is not a tool command.
+4. **No trailing whitespace** on the comment line or the blank lines.
+
+### Example
+
+```markdown
+> First blockquote paragraph.
+> More text in the first block.
+
+<!-- markdownlint MD028 -->
+
+> Second blockquote paragraph.
+> More text in the second block.
+```
+
+### Rationale
+
+The comment acts as a semantic separator (intentional break) that also
+prevents markdownlint from flagging adjacent blockquotes as a single
+merged block. Using a plain HTML comment instead of a suppression
+directive keeps the intent explicit for both human readers and linters.
+
 ## Submodule editing policy
 
 - __Default behavior__: Treat as read-only; ask user for permission if editing seems necessary
