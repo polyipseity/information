@@ -45,18 +45,18 @@ the exact pattern below.
 
 ### Rules (enforced by checks)
 
-1. **Exactly one blank line** before `<!-- markdownlint MD028 -->` — no more,
+1. __Exactly one blank line__ before `<!-- markdownlint MD028 -->` — no more,
    no fewer. A blank line means an empty line (zero visible characters)
    between the last line of the prior blockquote and the comment.
-2. **Exactly one blank line** after `<!-- markdownlint MD028 -->` — no more,
+2. __Exactly one blank line__ after `<!-- markdownlint MD028 -->` — no more,
    no fewer. An empty line between the comment and the first line of the
    next blockquote.
-3. **Comment text is literal** — use `<!-- markdownlint MD028 -->` exactly.
-   Do **not** use `<!-- markdownlint-disable-next-line MD028 -->`,
+3. __Comment text is literal__ — use `<!-- markdownlint MD028 -->` exactly.
+   Do __not__ use `<!-- markdownlint-disable-next-line MD028 -->`,
    `<!-- markdownlint-enable MD028 -->`, or any other markdownlint
    directive. This is a plain HTML comment whose content merely names the
    rule; it is not a tool command.
-4. **No trailing whitespace** on the comment line or the blank lines.
+4. __No trailing whitespace__ on the comment line or the blank lines.
 
 ### Example
 
