@@ -52,6 +52,7 @@ The questions on this page combine T1B tutorial session problems with supplement
 > - (b) {@{Diagonalize $A=UDU^\top$}@} where {@{$D=\operatorname{diag}(\lambda_1,\dots,\lambda_n)$}@} and {@{$\lambda_i>0$ since $A$ is positive definite}@}. Then {@{$\operatorname{tr}(A)=\sum_{i=1}^n\lambda_i$}@} and {@{$\det A=\prod_{i=1}^n\lambda_i$}@}. Apply {@{part (a) to the eigenvalues $\lambda_1,\dots,\lambda_n$}@}: {@{$$\frac{1}{n}\sum_{i=1}^n\lambda_i\ge\Bigl(\prod_{i=1}^n\lambda_i\Bigr)^{\!1/n},$$}@} i.e. {@{$\dfrac{1}{n}\operatorname{tr}(A)\ge(\det A)^{1/n}$}@}. Equality holds {@{iff all eigenvalues are equal, i.e. $A=cI$ for some $c>0$}@}.
 
 <!-- markdownlint MD028 -->
+
 > Use Hölder's inequality to prove Minkowski's inequality: for $1\le p<\infty$ and $f,g\in L^p(\mathbb R)$, $$\|f+g\|_p\le\|f\|_p+\|g\|_p.$$
 >
 > Solution: The intuition is that {@{Minkowski's inequality resembles the triangle inequality for norms}@}; to {@{prove it using Hölder}@}, we need to turn {@{$\|f+g\|_p$ into a product so that Hölder applies}@}. Write {@{$|f+g|^p = |f+g|\cdot|f+g|^{p-1}$ and bound $|f+g|\le|f|+|g|$ pointwise (triangle inequality)}@}. Then {@{Hölder with exponents $p$ and $q=p/(p-1)$}@} handles each term.
@@ -59,6 +60,7 @@ The questions on this page combine T1B tutorial session problems with supplement
 > Concretely: {@{$$\int|f+g|^p\le\int|f||f+g|^{p-1}+\int|g||f+g|^{p-1}.$$}@} Let {@{$q=p/(p-1)$ so that $1/p+1/q=1$}@}. Apply {@{Hölder's inequality with exponents $p,q$ to each term}@}: {@{$$\int|f||f+g|^{p-1}\le\Bigl(\int|f|^p\Bigr)^{\!1/p}\Bigl(\int|f+g|^{(p-1)q}\Bigr)^{\!1/q} =\|f\|_p\Bigl(\int|f+g|^p\Bigr)^{\!1/q},$$ and similarly for $g$}@}. Therefore {@{$$\int|f+g|^p\le\bigl(\|f\|_p+\|g\|_p\bigr)\Bigl(\int|f+g|^p\Bigr)^{\!1/q}.$$}@} {@{Dividing by $(\int|f+g|^p)^{1/q}>0$}@} gives {@{$$\Bigl(\int|f+g|^p\Bigr)^{1-1/q}\le\|f\|_p+\|g\|_p.$$}@} Since {@{$1-1/q=1/p$}@}, we obtain {@{$\bigl(\int|f+g|^p\bigr)^{1/p}\le\|f\|_p+\|g\|_p$, i.e. $\|f+g\|_p\le\|f\|_p+\|g\|_p$}@}.
 
 <!-- markdownlint MD028 -->
+
 > Suppose $X$ and $Y$ are jointly continuous. Prove that the conditional expectation $E[Y\mid X]$ satisfies $$E[\,E[Y\mid X]\,g(X)]=E[Y g(X)],$$ for any function $g$ for which both expectations exist.
 >
 > Solution: By {@{definition, $E[Y\mid X]$ is $\sigma(X)$-measurable}@}. Since $g(X)$ is {@{also $\sigma(X)$-measurable, it factors out of the conditional expectation}@}: {@{$E[Y\mid X]\,g(X)=E[Y g(X)\mid X]$}@}. Hence {@{$$E[E[Y\mid X]\,g(X)]=E[E[Y g(X)\mid X]].$$}@} By {@{the law of iterated expectations, the outer expectation collapses the inner one}@}, giving {@{$E[Y g(X)]$}@}. Thus {@{$$E[E[Y\mid X]\,g(X)]=E[Y g(X)],$$}@} which is {@{the orthogonality property}@}: {@{the residual $Y-E[Y\mid X]$ is uncorrelated with any function of $X$}@}.

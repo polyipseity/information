@@ -40,6 +40,7 @@ The questions on this page combine T1A and T1B tutorial session problems with su
 > {@{The conditional density}@} is {@{$$f_{X\mid Y}(x\mid y)=\frac{f(x,y)}{f_Y(y)}=\frac{e^{-x/y}}{y},$$}@} so {@{$X\mid Y\sim\operatorname{Exp}(1/Y)$}@}. Hence {@{$\operatorname{E}[X\mid Y]=Y$ and $\operatorname{Var}(X\mid Y)=Y^2$}@}, and therefore {@{$\operatorname{E}[X^2\mid Y]=\operatorname{Var}(X\mid Y)+(\operatorname{E}[X\mid Y])^2=Y^2+Y^2=2Y^2$}@}.
 
 <!-- markdownlint MD028 -->
+
 > Let $X_1,X_2,X_3$ be i.i.d. $\operatorname{Unif}(0,1)$ and $S=X_1+X_2+X_3$. Using MGFs, verify that $X_1$ and $S-3X_1$ are not independent.
 >
 > Solution: The MGF of $X_1$ is {@{$M_{X_1}(t)=\frac{e^t-1}{t}$}@}. The MGF of $S-3X_1=X_2+X_3-2X_1$ is {@{$$M_{S-3X_1}(t)=M_{X_2}(t)M_{X_3}(t)M_{-2X_1}(t)=\left(\frac{e^t-1}{t}\right)^2\frac{e^{-2t}-1}{-2t}.$$}@}
@@ -47,6 +48,7 @@ The questions on this page combine T1A and T1B tutorial session problems with su
 > The joint MGF of $(X_1,S-3X_1)$ is {@{$$M_{(X_1,\,S-3X_1)}(t_1,t_2)=E[e^{t_1X_1+t_2(X_2+X_3-2X_1)}]=E[e^{(t_1-2t_2)X_1}]E[e^{t_2X_2}]E[e^{t_2X_3}]=\frac{e^{t_1-2t_2}-1}{t_1-2t_2}\left(\frac{e^{t_2}-1}{t_2}\right)^2.$$}@} Since this {@{does not factor as $M_{X_1}(t_1)M_{S-3X_1}(t_2)$}@}, they are {@{not independent}@}.
 
 <!-- markdownlint MD028 -->
+
 > Let $N\sim\operatorname{Poisson}(\lambda)$ where $\lambda\sim\operatorname{Exp}(\mu)$. Find the marginal distribution of $N$.
 >
 > Solution: $N$ is {@{a Poisson rate mixture}@}: {@{$N\mid\lambda\sim\operatorname{Poisson}(\lambda)$ and $\lambda\sim\operatorname{Exp}(\mu)$}@}. {@{The joint density/mass}@} is {@{$f(n,\lambda)=\frac{e^{-\lambda}\lambda^n}{n!}\cdot\mu e^{-\mu\lambda}$ for $n\ge0$, $\lambda>0$}@}. {@{Marginalize by integrating out $\lambda$}@}: {@{$$P(N=n)=\int_0^\infty\frac{e^{-\lambda}\lambda^n}{n!}\,\mu e^{-\mu\lambda}\,d\lambda=\frac{\mu}{n!}\int_0^\infty\lambda^n e^{-(1+\mu)\lambda}\,d\lambda.$$}@}

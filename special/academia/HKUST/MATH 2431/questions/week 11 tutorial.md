@@ -55,11 +55,13 @@ The questions on this page summarize the _official tutorial materials_ for week 
 > The Chebyshev bound is {@{much tighter ($0.022$ vs $0.25$) because it uses the variance}@}.
 
 <!-- markdownlint MD028 -->
+
 > Let $X$ be a random variable and $g:\mathbb R\to[0,\infty)$ be measurable and non-decreasing, with $E[g(X)]$ finite. Show that for every $t\in\mathbb R$ with $g(t)>0$, $$P(X\ge t)\le\frac{E[g(X)]}{g(t)}.$$
 >
 > Solution: Since $g$ is {@{non-decreasing, $\{X\ge t\}\subseteq\{g(X)\ge g(t)\}$}@}. Applying {@{the generalized Markov inequality to $g(X)$}@} gives {@{$$P(X\ge t)\le P(g(X)\ge g(t))\le\frac{E[g(X)]}{g(t)}.$$}@} This is {@{Markov's inequality with a non-decreasing transform}@}, extending {@{the standard version beyond the identity function}@}.
 
 <!-- markdownlint MD028 -->
+
 > Let $X$ be a random variable and $k\in\mathbb N$. If $E[X^k]$ exists, show that $E[X^r]$ exists for any positive integer $r<k$.
 >
 > Solution: Write {@{$|X|^r=|X|^r\mathbf 1_{\{|X|\le 1\}}+|X|^r\mathbf 1_{\{|X|>1\}}$}@}. The first term is {@{bounded by $1$. For the second, note that $r<k$, so $|X|^r\le |X|^k$ when $|X|>1$}@}. Hence {@{$$E[|X|^r]\le 1+E[|X|^k]<\infty.$$}@}

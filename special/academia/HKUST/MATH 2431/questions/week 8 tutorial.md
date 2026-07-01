@@ -56,6 +56,7 @@ The questions on this page combine the _T1B tutorial session_ problems with supp
 > - (c) By {@{symmetry, $P(X>Y)=P(X<Y)$. Since $P(X>Y)+P(X<Y)+P(X=Y)=1$}@}, we obtain {@{$P(X>Y)=\frac{1}{2}(1-P(Y=X))=\frac{1}{3}$}@}.
 
 <!-- markdownlint MD028 -->
+
 > Let $X$ be continuous with density $f_X$ and define $Y=X^n$ for positive integers $n$. Find the density $f_Y$. Note the formula differs in between even $n$ and odd $n$ because $x\mapsto x^n$ is not one-to-one on $\mathbb R$.
 >
 > Solution: {@{The map $g(x)=x^n$}@} has {@{inverse $g^{-1}(y)=y^{1/n}$ and derivative $\frac{d}{dy}g^{-1}(y)=\frac{1}{n}y^{1/n-1}$}@}.
