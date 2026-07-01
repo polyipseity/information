@@ -12,8 +12,25 @@ __all__ = ()
 
 """Regex matching all flashcard-state blocks (``<!--SR:...-->``)."""
 FLASHCARD_STATES_REGEX = compile(r"\s*<!--SR:(.+?)-->", flags=DOTALL)
-"""Regex matching a single flashcard-state date annotation (e.g. ``!2024-01-15,1,0``)."""
-FLASHCARD_STATE_REGEX = compile(r"!\d{4}-\d{2}-\d{2},\d+,\d+")
+"""Regex matching a single flashcard-state entry within an ``<!--SR:...-->`` block.
+
+Matches both the legacy format (``!YYYY-MM-DD,stability,difficulty``) and the
+new FSRS format (``!fsrs,<9 comma-separated fields>``). The two formats may
+coexist within one state block.
+"""
+FLASHCARD_STATE_REGEX = compile(
+    r"!"
+    r"(?:"
+    r"\d{4}-\d{2}-\d{2},\d+,\d+"  # legacy: !YYYY-MM-DD,int,int
+    r"|"
+    r"fsrs,"  # fsrs: !fsrs,ISO_date,stability,difficulty,elapsed,scheduled,reps,lapses,state,last_review
+    r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z,"
+    r"\d+(?:\.\d+)?,"
+    r"\d+(?:\.\d+)?,"
+    r"\d+,\d+,\d+,\d+,\d+,"
+    r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z"
+    r")"
+)
 """Regex matching any line-ending sequence for normalization."""
 LINE_ENDINGS_REGEX = compile(r"\r\n|[\n\v\f\r\x85\u2028\u2029]")
 
@@ -29,10 +46,10 @@ def main() -> None:
     text = paste().strip()
     text = normalize_line_endings(text)
 
-    flashcard_states = tuple[str, ...]()
+    flashcard_state_blocks: list[str] = []
     text = FLASHCARD_STATES_REGEX.sub(
-        lambda match, flashcard_states=flashcard_states: (
-            flashcard_states + (match[1],),
+        lambda match, flashcard_state_blocks=flashcard_state_blocks: (
+            flashcard_state_blocks.append(match[1]),
             "",
         )[-1],
         text,
@@ -40,7 +57,7 @@ def main() -> None:
     flashcard_states = tuple(
         chain.from_iterable(
             (match[0] for match in FLASHCARD_STATE_REGEX.finditer(states))
-            for states in flashcard_states
+            for states in flashcard_state_blocks
         )
     )
 
