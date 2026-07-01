@@ -1,12 +1,12 @@
 ---
 aliases:
-    - HKUST MATH 2431 week 2 tutorial
-    - HKUST MATH2431 week 2 tutorial
-    - MATH 2431 week 2 tutorial
-    - MATH2431 week 2 tutorial
+  - HKUST MATH 2431 week 2 tutorial
+  - HKUST MATH2431 week 2 tutorial
+  - MATH 2431 week 2 tutorial
+  - MATH2431 week 2 tutorial
 tags:
-    - flashcard/active/special/academia/HKUST/MATH_2431/questions/week_2_tutorial
-    - language/in/English
+  - flashcard/active/special/academia/HKUST/MATH_2431/questions/week_2_tutorial
+  - language/in/English
 ---
 
 # week 2 tutorial
@@ -37,7 +37,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > In an archer session, each round has three arrows and the session ends when one round hits the target three times. Build a sample space and identify $\bigcap_{n=1}^{\infty}A_n$, where $A_n$ is the event that the session lasts longer than $n$ rounds.
 >
-> Solution: Model each arrow by {@{$\{S,F\}$}@}, each round by {@{$\{S,F\}^3$}@}, and the whole experiment by {@{$(\{S,F\}^3)^{\mathbb{N}}$}@} with {@{stopping at first "SSS"}@}; this space contains {@{some extra infinite paths}@}, but that is {@{fine because it still describes every possible round-by-round history}@} and the stopping rule simply {@{ignores the impossible extra ones}@}. Since {@{$A_n$ means duration exceeds $n$ rounds}@}, the intersection over all $n$ is exactly the {@{infinite-duration event}@} {@{$\bigcap_{n=1}^{\infty}A_n=\{\text{no round is ever "SSS"}\}$}@}, i.e. the session {@{never terminates}@}. <!--SR:!2026-08-02,61,310!2026-08-08,67,310!2026-08-05,64,310!2026-07-14,58,310!2026-08-08,67,310!2026-07-14,58,310!2026-08-03,62,310!2026-08-07,66,310!2026-08-05,64,310!2026-07-31,59,310!2026-07-31,59,310-->
+> Solution: Model each arrow by {@{$\{S,F\}$}@}, each round by {@{$\{S,F\}^3$}@}, and the whole experiment by {@{$(\{S,F\}^3)^{\mathbb{N}}$}@} with {@{stopping at first "SSS"}@}; this space contains {@{some extra infinite paths}@}, but that is {@{fine because it still describes every possible round-by-round history}@} and the stopping rule simply {@{ignores the probability-zero extra ones}@}. Since {@{$A_n$ means duration exceeds $n$ rounds}@}, the intersection over all $n$ is exactly the {@{infinite-duration event}@} {@{$\bigcap_{n=1}^{\infty}A_n=\{\text{no round is ever "SSS"}\}$}@}, i.e. the session {@{never terminates}@}. <!--SR:!2026-08-02,61,310!2026-08-08,67,310!2026-08-05,64,310!2026-07-14,58,310!2026-08-08,67,310!2026-07-14,58,310!2026-08-03,62,310!2026-08-07,66,310!2026-08-05,64,310!2026-07-31,59,310!2026-07-31,59,310-->
 
 <!-- markdownlint MD028 -->
 

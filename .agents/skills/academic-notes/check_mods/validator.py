@@ -27,7 +27,14 @@ from .models import (
     ValidationResult,
 )
 from .registry import RuleRegistry
-from .utils import DEFAULT_PATHS, FRONT_RE, aggregate, parse_frontmatter
+from .utils import (
+    _MD,
+    DEFAULT_PATHS,
+    FRONT_RE,
+    aggregate,
+    parse_frontmatter,
+    parse_session_headers,
+)
 
 # build local registry and import the rules defined in rules.py
 """Merged registry of all validation rules; used by main() to run checks."""
@@ -148,20 +155,20 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     if m:
         body = text[m.end() :]
 
-    # Only allow: week N type [number]. Type = lecture|lab|tutorial (optional number). Status has no bearing on heading.
-    session_headers: list[tuple[str, str, str, int]] = []
-    _session_heading_re = re.compile(
-        r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
-        re.IGNORECASE | re.MULTILINE,
-    )
-    for m in _session_heading_re.finditer(text):
-        week = m.group(1)
-        typ = m.group(2).strip().lower()
-        session_headers.append((week, typ, m.group(0).strip(), m.start()))
+    # Parse the Markdown text into an AST once, so all rules can share the
+    # structured representation instead of each rule re-parsing with regex.
+    try:
+        ast = _MD(text)
+    except Exception:
+        ast = []
+
+    # Extract session headings, cross-validated against AST positions
+    session_headers = parse_session_headers(text, ast)
 
     ctx = ValidationContext(
         path=path,
         text=text,
+        ast=ast,
         front=front,
         data=data,
         body=body,
@@ -370,16 +377,13 @@ async def main(argv: Sequence[str] | None = None) -> None:
     args = parser.parse_args(argv)
 
     # sanity check: every registered rule id should match its function name.
-    # this enforces the convention we established in registry.register and
-    # helps catch early mistakes when new rules are added.
     for rid, func in RULE_REGISTRY.items():
         if rid != func.__name__:
             _CONSOLE.print(
-                f"[bold red]Internal error:[/] rule id {rid!r} does not match function name {func.__name__!r}",
+                f"[bold red]Internal error:[/] rule id {rid!r} does not match "
+                f"function name {func.__name__!r}",
                 markup=True,
             )
-            # abort with distinct exit code so callers can detect config
-            # problems separately from normal validation failures.
             return exit(3)
 
     roots = [Path(p) for p in (args.paths or DEFAULT_PATHS)]

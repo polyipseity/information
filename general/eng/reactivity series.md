@@ -14,7 +14,7 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-A __reactivity series__ is {@{a progression of series of [metals](metal.md) arranged by their [reactivity](reactivity%20(chemistry).md)}@}. <!--SR:!2026-08-16,874,290-->
+A **reactivity series** is {@{a progression of series of [metals](metal.md) arranged by their [reactivity](<reactivity%20(chemistry).md>)}@}. <!--SR:!2026-08-16,874,290-->
 
 ## data
 
@@ -92,43 +92,43 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="a2994d"--><!-- The following content is generated at 2026-01-25T23:32:19.157835+08:00. Any edits will be overridden! -->
 
-> | [metal](metal.md)                 | [ion](ion.md)   | [reactivity](reactivity%20(chemistry).md)                                                                             | [extraction](extractive%20metallurgy.md)                                          |
-> | --------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-> | [caesium](caesium.md)             | Cs<sup>+</sup>  | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
-> | [rubidium](rubidium.md)           | Rb<sup>+</sup>  | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
-> | [potassium](potassium.md)         | K<sup>+</sup>   | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
-> | [sodium](sodium.md)               | Na<sup>+</sup>  | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
-> | [lithium](lithium.md)             | Li<sup>+</sup>  | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
-> | [barium](barium.md)               | Ba<sup>2+</sup> | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
-> | [strontium](strontium.md)         | Sr<sup>2+</sup> | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
-> | [calcium](calcium.md)             | Ca<sup>2+</sup> | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
-> | [magnesium](magnesium.md)         | Mg<sup>2+</sup> | reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) | [electrolysis](electrolysis.md)                                                   |
-> | [beryllium](beryllium.md)         | Be<sup>2+</sup> | reacts with [steam](steam.md) and [acids](acid.md)                                                                    | [electrolysis](electrolysis.md)                                                   |
-> | [aluminium](aluminium.md)         | Al<sup>3+</sup> | reacts with [steam](steam.md) and [acids](acid.md)                                                                    | [electrolysis](electrolysis.md)                                                   |
-> | [titanium](titanium.md)           | Ti<sup>4+</sup> | reacts with concentrated [mineral acids](mineral%20acid.md)                                                           | [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) |
-> | [manganese](manganese.md)         | Mn<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](coke%20(fuel).md)                             |
-> | [zinc](zinc.md)                   | Zn<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](coke%20(fuel).md)                             |
-> | [chromium](chromium.md)           | Cr<sup>3+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [aluminothermic reaction](aluminothermic%20reaction.md)                           |
-> | [iron](iron.md)                   | Fe<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](coke%20(fuel).md)                             |
-> | [cadmium](cadmium.md)             | Cd<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](coke%20(fuel).md)                             |
-> | [cobalt](cobalt.md)               | Co<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](coke%20(fuel).md)                             |
-> | [nickel](nickel.md)               | Ni<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](coke%20(fuel).md)                             |
-> | [tin](tin.md)                     | Sn<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](coke%20(fuel).md)                             |
-> | [lead](lead.md)                   | Pb<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](coke%20(fuel).md)                             |
-> | [antimony](antimony.md)           | Sb<sup>3+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
-> | [bismuth](bismuth.md)             | Bi<sup>3+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
-> | [copper](copper.md)               | Cu<sup>2+</sup> | reacts slowly with [air](air.md)                                                                                      | heat or physical extraction                                                       |
-> | [tungsten](tungsten.md)           | W<sup>3+</sup>  | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
-> | [mercury](mercury%20(element).md) | Hg<sup>2+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
-> | [silver](silver.md)               | Ag<sup>+</sup>  | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
-> | [gold](gold.md)                   | Au<sup>3+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
-> | [platinum](platinum.md)           | Pt<sup>4+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
+> | [metal](metal.md)                   | [ion](ion.md)   | [reactivity](<reactivity%20(chemistry).md>)                                                                           | [extraction](extractive%20metallurgy.md)                                          |
+> | ----------------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+> | [caesium](caesium.md)               | Cs<sup>+</sup>  | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
+> | [rubidium](rubidium.md)             | Rb<sup>+</sup>  | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
+> | [potassium](potassium.md)           | K<sup>+</sup>   | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
+> | [sodium](sodium.md)                 | Na<sup>+</sup>  | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
+> | [lithium](lithium.md)               | Li<sup>+</sup>  | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
+> | [barium](barium.md)                 | Ba<sup>2+</sup> | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
+> | [strontium](strontium.md)           | Sr<sup>2+</sup> | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
+> | [calcium](calcium.md)               | Ca<sup>2+</sup> | reacts with cold [water](water.md)                                                                                    | [electrolysis](electrolysis.md)                                                   |
+> | [magnesium](magnesium.md)           | Mg<sup>2+</sup> | reacts very slowly with cold [water](water.md), rapidly with boiling water, and very vigorously with [acids](acid.md) | [electrolysis](electrolysis.md)                                                   |
+> | [beryllium](beryllium.md)           | Be<sup>2+</sup> | reacts with [steam](steam.md) and [acids](acid.md)                                                                    | [electrolysis](electrolysis.md)                                                   |
+> | [aluminium](aluminium.md)           | Al<sup>3+</sup> | reacts with [steam](steam.md) and [acids](acid.md)                                                                    | [electrolysis](electrolysis.md)                                                   |
+> | [titanium](titanium.md)             | Ti<sup>4+</sup> | reacts with concentrated [mineral acids](mineral%20acid.md)                                                           | [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) |
+> | [manganese](manganese.md)           | Mn<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](<coke%20(fuel).md>)                           |
+> | [zinc](zinc.md)                     | Zn<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](<coke%20(fuel).md>)                           |
+> | [chromium](chromium.md)             | Cr<sup>3+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [aluminothermic reaction](aluminothermic%20reaction.md)                           |
+> | [iron](iron.md)                     | Fe<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](<coke%20(fuel).md>)                           |
+> | [cadmium](cadmium.md)               | Cd<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](<coke%20(fuel).md>)                           |
+> | [cobalt](cobalt.md)                 | Co<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](<coke%20(fuel).md>)                           |
+> | [nickel](nickel.md)                 | Ni<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](<coke%20(fuel).md>)                           |
+> | [tin](tin.md)                       | Sn<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](<coke%20(fuel).md>)                           |
+> | [lead](lead.md)                     | Pb<sup>2+</sup> | reacts with [acids](acid.md), poorly with [steam](steam.md)                                                           | [smelting](smelting.md) with [coke](<coke%20(fuel).md>)                           |
+> | [antimony](antimony.md)             | Sb<sup>3+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
+> | [bismuth](bismuth.md)               | Bi<sup>3+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
+> | [copper](copper.md)                 | Cu<sup>2+</sup> | reacts slowly with [air](air.md)                                                                                      | heat or physical extraction                                                       |
+> | [tungsten](tungsten.md)             | W<sup>3+</sup>  | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
+> | [mercury](<mercury%20(element).md>) | Hg<sup>2+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
+> | [silver](silver.md)                 | Ag<sup>+</sup>  | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
+> | [gold](gold.md)                     | Au<sup>3+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
+> | [platinum](platinum.md)             | Pt<sup>4+</sup> | may react with some strong [oxidizing agents](oxidizing%20agent.md)                                                   | heat or physical extraction                                                       |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="299018"--><!-- The following content is generated at 2024-02-18T15:03:20.984589+08:00. Any edits will be overridden! -->
 
-- _(most reactive)_→::@::←[caesium](caesium.md) <!--SR:!2027-05-20,1173,350!2027-06-01,1182,350-->
+- *(most reactive)*→::@::←[caesium](caesium.md) <!--SR:!2027-05-20,1173,350!2027-06-01,1182,350-->
 - [caesium](caesium.md)→::@::←[rubidium](rubidium.md) <!--SR:!2026-09-26,500,250!2026-12-07,463,230-->
 - [rubidium](rubidium.md)→::@::←[potassium](potassium.md) <!--SR:!2027-09-13,979,250!2028-09-17,1060,250-->
 - [potassium](potassium.md)→::@::←[sodium](sodium.md) <!--SR:!2026-09-02,849,290!2033-07-27,2812,330-->
@@ -153,11 +153,11 @@ return chain.from_iterable([r.value for r in results])
 - [antimony](antimony.md)→::@::←[bismuth](bismuth.md) <!--SR:!2028-01-26,1121,270!2032-12-12,2591,310-->
 - [bismuth](bismuth.md)→::@::←[copper](copper.md) <!--SR:!2027-02-28,612,230!2027-10-15,993,250-->
 - [copper](copper.md)→::@::←[tungsten](tungsten.md) <!--SR:!2031-12-06,2236,290!2027-02-25,540,250-->
-- [tungsten](tungsten.md)→::@::←[mercury](mercury%20(element).md) <!--SR:!2028-06-21,964,250!2027-04-09,460,210-->
-- [mercury](mercury%20(element).md)→::@::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2031-06-18,1991,330-->
+- [tungsten](tungsten.md)→::@::←[mercury](<mercury%20(element).md>) <!--SR:!2028-06-21,964,250!2027-04-09,460,210-->
+- [mercury](<mercury%20(element).md>)→::@::←[silver](silver.md) <!--SR:!2026-08-12,877,330!2031-06-18,1991,330-->
 - [silver](silver.md)→::@::←[gold](gold.md) <!--SR:!fsrs,2035-10-19T00:00:00.000Z,3401,3400.58390811,1,2,11,0,0,2026-06-27T00:00:00.000Z!2028-04-01,1423,350-->
 - [gold](gold.md)→::@::←[platinum](platinum.md) <!--SR:!2028-01-27,1369,350!2027-04-17,1146,350-->
-- [platinum](platinum.md)→::@::←_(least reactive)_ <!--SR:!2027-03-09,1114,350!2026-08-30,892,330-->
+- [platinum](platinum.md)→::@::←*(least reactive)* <!--SR:!2027-03-09,1114,350!2026-08-30,892,330-->
 
 <!--/pytextgen-->
 
@@ -190,7 +190,7 @@ return chain.from_iterable([r.value for r in results])
 - [bismuth](bismuth.md):@:Bi<sup>3+</sup> <!--SR:!2026-11-28,673,290-->
 - [copper](copper.md):@:Cu<sup>2+</sup> <!--SR:!2031-03-12,2161,330-->
 - [tungsten](tungsten.md):@:W<sup>3+</sup> <!--SR:!2032-04-12,2467,330-->
-- [mercury](mercury%20(element).md):@:Hg<sup>2+</sup> <!--SR:!2030-10-13,1764,290-->
+- [mercury](<mercury%20(element).md>):@:Hg<sup>2+</sup> <!--SR:!2030-10-13,1764,290-->
 - [silver](silver.md):@:Ag<sup>+</sup> <!--SR:!2032-03-27,2459,330-->
 - [gold](gold.md):@:Au<sup>3+</sup> <!--SR:!2031-06-27,2256,330-->
 - [platinum](platinum.md):@:Pt<sup>4+</sup> <!--SR:!2029-06-25,1551,310-->
@@ -224,7 +224,7 @@ return chain.from_iterable([r.value for r in results])
 - Bi<sup>3+</sup>:@:[bismuth](bismuth.md) <!--SR:!2031-02-15,2037,385-->
 - Cu<sup>2+</sup>:@:[copper](copper.md) <!--SR:!2030-05-14,1816,387-->
 - W<sup>3+</sup>:@:[tungsten](tungsten.md) <!--SR:!2030-01-11,1717,385-->
-- Hg<sup>2+</sup>:@:[mercury](mercury%20(element).md) <!--SR:!2030-12-20,1993,385-->
+- Hg<sup>2+</sup>:@:[mercury](<mercury%20(element).md>) <!--SR:!2030-12-20,1993,385-->
 - Ag<sup>+</sup>:@:[silver](silver.md) <!--SR:!2030-07-14,1867,387-->
 - Au<sup>3+</sup>:@:[gold](gold.md) <!--SR:!2030-10-09,1936,387-->
 - Pt<sup>4+</sup>:@:[platinum](platinum.md) <!--SR:!2031-03-11,2055,385-->
@@ -260,7 +260,7 @@ return chain.from_iterable([r.value for r in results])
 - [bismuth](bismuth.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2028-11-26,1306,310-->
 - [copper](copper.md):@:reacts slowly with [air](air.md) <!--SR:!2034-12-12,3155,310-->
 - [tungsten](tungsten.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2036-09-07,3754,350-->
-- [mercury](mercury%20(element).md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-08-19,883,330-->
+- [mercury](<mercury%20(element).md>):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-08-19,883,330-->
 - [silver](silver.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2027-03-31,1132,350-->
 - [gold](gold.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2027-05-25,1177,350-->
 - [platinum](platinum.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2027-09-28,1273,350-->
@@ -274,7 +274,7 @@ return chain.from_iterable([r.value for r in results])
 - reacts with [steam](steam.md) and [acids](acid.md):@:[beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2026-08-27,299,170-->
 - reacts with concentrated [mineral acids](mineral%20acid.md):@:[titanium](titanium.md) <!--SR:!2031-11-20,2146,345-->
 - reacts with [acids](acid.md), poorly with [steam](steam.md):@:[manganese](manganese.md), [zinc](zinc.md), [chromium](chromium.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2027-01-19,236,150-->
-- may react with some strong [oxidizing agents](oxidizing%20agent.md):@:[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!fsrs,2029-12-03T00:00:00.000Z,1265,1264.73222106,4.17854087,2,10,0,0,2026-06-17T00:00:00.000Z-->
+- may react with some strong [oxidizing agents](oxidizing%20agent.md):@:[antimony](antimony.md), [bismuth](bismuth.md), [tungsten](tungsten.md), [mercury](<mercury%20(element).md>), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!fsrs,2029-12-03T00:00:00.000Z,1265,1264.73222106,4.17854087,2,10,0,0,2026-06-17T00:00:00.000Z-->
 - reacts slowly with [air](air.md):@:[copper](copper.md) <!--SR:!2028-04-09,1171,365-->
 
 <!--/pytextgen-->
@@ -295,20 +295,20 @@ return chain.from_iterable([r.value for r in results])
 - [beryllium](beryllium.md):@:[electrolysis](electrolysis.md) <!--SR:!2029-03-06,1281,310-->
 - [aluminium](aluminium.md):@:[electrolysis](electrolysis.md) <!--SR:!2031-06-17,1866,250-->
 - [titanium](titanium.md):@:[pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md) <!--SR:!2026-10-19,258,150-->
-- [manganese](manganese.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2027-05-29,453,170-->
-- [zinc](zinc.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2029-01-20,1526,310-->
+- [manganese](manganese.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2027-05-29,453,170-->
+- [zinc](zinc.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2029-01-20,1526,310-->
 - [chromium](chromium.md):@:[aluminothermic reaction](aluminothermic%20reaction.md) <!--SR:!2029-10-27,1507,270-->
-- [iron](iron.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2035-07-04,3333,330-->
-- [cadmium](cadmium.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2032-10-21,2617,330-->
-- [cobalt](cobalt.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2032-04-03,2458,330-->
-- [nickel](nickel.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-12-25,976,330-->
-- [tin](tin.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2026-12-02,744,290-->
-- [lead](lead.md):@:[smelting](smelting.md) with [coke](coke%20(fuel).md) <!--SR:!2027-03-23,812,290-->
+- [iron](iron.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2035-07-04,3333,330-->
+- [cadmium](cadmium.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2032-10-21,2617,330-->
+- [cobalt](cobalt.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2032-04-03,2458,330-->
+- [nickel](nickel.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2026-12-25,976,330-->
+- [tin](tin.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2026-12-02,744,290-->
+- [lead](lead.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2027-03-23,812,290-->
 - [antimony](antimony.md):@:heat or physical extraction <!--SR:!2030-03-29,1742,310-->
 - [bismuth](bismuth.md):@:heat or physical extraction <!--SR:!2032-04-24,2468,330-->
 - [copper](copper.md):@:heat or physical extraction <!--SR:!2033-09-09,2846,330-->
 - [tungsten](tungsten.md):@:heat or physical extraction <!--SR:!2028-05-06,1446,350-->
-- [mercury](mercury%20(element).md):@:heat or physical extraction <!--SR:!2035-09-14,3481,350-->
+- [mercury](<mercury%20(element).md>):@:heat or physical extraction <!--SR:!2035-09-14,3481,350-->
 - [silver](silver.md):@:heat or physical extraction <!--SR:!2026-12-04,963,330-->
 - [gold](gold.md):@:heat or physical extraction <!--SR:!2027-04-23,1150,350-->
 - [platinum](platinum.md):@:heat or physical extraction <!--SR:!2027-05-14,1079,330-->
@@ -319,9 +319,9 @@ return chain.from_iterable([r.value for r in results])
 
 - [electrolysis](electrolysis.md):@:[caesium](caesium.md), [rubidium](rubidium.md), [potassium](potassium.md), [sodium](sodium.md), [lithium](lithium.md), [barium](barium.md), [strontium](strontium.md), [calcium](calcium.md), [magnesium](magnesium.md), [beryllium](beryllium.md), [aluminium](aluminium.md) <!--SR:!2026-07-16,74,130-->
 - [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md):@:[titanium](titanium.md) <!--SR:!2028-02-06,993,287-->
-- [smelting](smelting.md) with [coke](coke%20(fuel).md):@:[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2026-11-12,168,150-->
+- [smelting](smelting.md) with [coke](<coke%20(fuel).md>):@:[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!2026-11-12,168,150-->
 - [aluminothermic reaction](aluminothermic%20reaction.md):@:[chromium](chromium.md) <!--SR:!2027-05-03,750,267-->
-- heat or physical extraction:@:[antimony](antimony.md), [bismuth](bismuth.md), [copper](copper.md), [tungsten](tungsten.md), [mercury](mercury%20(element).md), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2026-12-05,664,285-->
+- heat or physical extraction:@:[antimony](antimony.md), [bismuth](bismuth.md), [copper](copper.md), [tungsten](tungsten.md), [mercury](<mercury%20(element).md>), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2026-12-05,664,285-->
 
 <!--/pytextgen-->
 
@@ -329,9 +329,9 @@ return chain.from_iterable([r.value for r in results])
 
 ### reactions between water and acids
 
-{@{More reactive [metals](metal.md)}@} react with {@{cold [water](water.md) to form the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}@}. <!--SR:!2027-08-02,1066,290!fsrs,2027-03-04T00:00:00.000Z,236,236.27546921,1,2,6,0,0,2026-07-11T00:00:00.000Z-->
+{@{More reactive [metals](metal.md)}@} react with {@{cold [water](water.md)}@} to form {@{the metal [hydroxide](hydroxide.md) and [hydrogen](hydrogen.md)}@}. <!--SR:!2027-08-02,1066,290!fsrs,2027-03-04T00:00:00.000Z,236,236.27546921,1,2,6,0,0,2026-07-11T00:00:00.000Z-->
 
-{@{Moderately reactive metals}@} react with {@{[steam](steam.md) or [acids](acid.md)}@} to form {@{respectively the metal [oxide](oxide.md) or [salt](salt%20(chemistry).md), along with [hydrogen](hydrogen.md)}@}. <!--SR:!2032-10-23,2375,270!2026-08-13,77,362!2026-08-13,77,362-->
+{@{Moderately reactive metals}@} react with {@{[steam](steam.md) or [acids](acid.md)}@} to form {@{respectively the metal [oxide](oxide.md) or [salt](<salt%20(chemistry).md>), along with [hydrogen](hydrogen.md)}@}. <!--SR:!2032-10-23,2375,270!2026-08-13,77,362!2026-08-13,77,362-->
 
 ## references
 

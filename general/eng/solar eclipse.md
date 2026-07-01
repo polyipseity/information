@@ -20,11 +20,11 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-A __solar eclipse__ occurs when {@{the [Moon](Moon.md) passes between [Earth](Earth.md) and the [Sun](Sun.md), thereby obscuring the view of the Sun from a small part of Earth, totally or partially}@}. Such an alignment occurs {@{approximately every six months, during the [eclipse season](eclipsee%20season.md) in its [new moon](new%20moon.md) phase}@}, when {@{the Moon is closest to the plane of [Earth's orbit](Earth's%20orbit.md)}@}. <!--SR:!2030-04-04,1533,310!2027-09-24,841,330!2028-07-01,1127,350-->
+A **solar eclipse** occurs when {@{the [Moon](Moon.md) passes between [Earth](Earth.md) and the [Sun](Sun.md), thereby obscuring the view of the Sun from a small part of Earth, totally or partially}@}. Such an alignment occurs {@{approximately every six months, during the [eclipse season](eclipsee%20season.md) in its [new moon](new%20moon.md) phase}@}, when {@{the Moon is closest to the plane of [Earth's orbit](Earth's%20orbit.md)}@}. <!--SR:!2030-04-04,1533,310!2027-09-24,841,330!2028-07-01,1127,350-->
 
 ## types
 
-The [Sun](Sun.md)'s distance from [Earth](Earth.md) is {@{about 400 times the [Moon](Moon.md)'s [distance](lunar%20distance.md), and the Sun's [diameter](diameter.md) is also about 400 times the Moon's [diameter](diameter.md)}@}. Because these ratios are approximately the same, {@{the Sun and the Moon as seen from Earth appear to be approximately the same size: about 0.5 [degree of arc](degree%20(angle).md) in [angular measure](angular%20diameter.md)}@}. <!--SR:!2027-09-22,897,330!2032-05-28,2192,330-->
+The [Sun](Sun.md)'s distance from [Earth](Earth.md) is {@{about 400 times the [Moon](Moon.md)'s [distance](lunar%20distance.md), and the Sun's [diameter](diameter.md) is also about 400 times the Moon's [diameter](diameter.md)}@}. Because these ratios are approximately the same, {@{the Sun and the Moon as seen from Earth}@} appear to be {@{approximately the same size: about 0.5 [degree of arc](<degree%20(angle).md>) in [angular measure](angular%20diameter.md)}@}. <!--SR:!2027-09-22,897,330!2032-05-28,2192,330-->
 
 The [Moon](Moon.md)'s orbit around [Earth](Earth.md) is {@{slightly [elliptical](elliptic%20orbit.md), as is Earth's orbit around the [Sun](Sun.md)}@}. The [apparent sizes](angular%20diameter.md) of the Sun and Moon therefore {@{vary}@}. The [magnitude of an eclipse](magnitude%20of%20eclipse.md) is {@{the ratio of the apparent size of the Moon to the apparent size of the Sun during an eclipse}@}. <!--SR:!2027-05-15,781,330!2027-10-23,904,330!2030-12-18,1766,330-->
 
@@ -36,7 +36,7 @@ A total eclipse occurs on average {@{every 18 months}@} when {@{the dark silhoue
 
 ### annular eclipse
 
-An annular eclipse, like a total eclipse, occurs when {@{the [Sun](Sun.md) and [Moon](Moon.md) are exactly in line with [Earth](Earth.md)}@}. During an annular eclipse, however, {@{the [apparent size](angular%20diameter.md) of the Moon is not large enough to completely block out the Sun}@}. Totality thus {@{does not occur; the Sun instead appears as a very bright ring, or [annulus](annulus%20(mathematics).md), surrounding the dark disk of the Moon}@}. Annular eclipses occur {@{once every one or two years, not annually}@}. Their name comes from {@{the [Latin](Latin.md) [root word](root%20(linguistics).md) _anulus_, meaning "ring", rather than _annus_, for "year"}@}. <!--SR:!2026-08-26,592,330!2028-03-21,1053,350!2028-01-28,1009,350!2026-12-24,687,330!2027-12-30,930,310-->
+An annular eclipse, like a total eclipse, occurs when {@{the [Sun](Sun.md) and [Moon](Moon.md) are exactly in line with [Earth](Earth.md)}@}. During an annular eclipse, however, {@{the [apparent size](angular%20diameter.md) of the Moon is not large enough to completely block out the Sun}@}. Totality thus {@{does not occur; the Sun instead appears as a very bright ring, or [annulus](<annulus%20(mathematics).md>), surrounding the dark disk of the Moon}@}. Annular eclipses occur {@{once every one or two years, not annually}@}. Their name comes from {@{the [Latin](Latin.md) [root word](<root%20(linguistics).md>) _anulus_, meaning "ring", rather than _annus_, for "year"}@}. <!--SR:!2026-08-26,592,330!2028-03-21,1053,350!2028-01-28,1009,350!2026-12-24,687,330!2027-12-30,930,310-->
 
 ### partial eclipse
 
@@ -74,12 +74,12 @@ fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap 
 
 <!--pytextgen generate section="9ac1"--><!-- The following content is generated at 2024-07-05T20:41:16.752680+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←first contact: When the [Moon](Moon.md)'s limb (edge) is exactly tangential to the [Sun](Sun.md)'s limb. <!--SR:!2028-08-10,1111,310!2028-06-21,1117,350-->
+- *(begin)*→::@::←first contact: When the [Moon](Moon.md)'s limb (edge) is exactly tangential to the [Sun](Sun.md)'s limb. <!--SR:!2028-08-10,1111,310!2028-06-21,1117,350-->
 - first contact: When the [Moon](Moon.md)'s limb (edge) is exactly tangential to the [Sun](Sun.md)'s limb.→::@::←second contact: Starting with [Baily's beads](Baily's%20beads.md) (caused by light shining through valleys on the [Moon](Moon.md)'s surface) and the diamond ring effect. Almost the entire disk is covered. <!--SR:!2028-03-16,893,290!2031-07-02,1913,330-->
 - second contact: Starting with [Baily's beads](Baily's%20beads.md) (caused by light shining through valleys on the [Moon](Moon.md)'s surface) and the diamond ring effect. Almost the entire disk is covered.→::@::←totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible. <!--SR:!2031-01-21,1725,310!2031-09-21,1968,330-->
 - totality: The [Moon](Moon.md) obscures the entire disk of the [Sun](Sun.md) and only the [solar corona](stellar%20corona.md) is visible.→::@::←third contact: When the first bright light becomes visible and the [Moon](Moon.md)'s [shadow](shadow.md) is moving away from the observer. Again a diamond ring may be observed. <!--SR:!2027-02-04,602,270!2028-06-28,1124,350-->
 - third contact: When the first bright light becomes visible and the [Moon](Moon.md)'s [shadow](shadow.md) is moving away from the observer. Again a diamond ring may be observed.→::@::←fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends. <!--SR:!2031-10-18,1994,330!2027-03-21,755,330-->
-- fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends.→::@::←_(end)_ <!--SR:!2028-11-28,1246,350!2026-07-22,521,310-->
+- fourth contact: When the trailing edge of the [Moon](Moon.md) ceases to overlap with the solar disk and the eclipse ends.→::@::←*(end)* <!--SR:!2028-11-28,1246,350!2026-07-22,521,310-->
 
 <!--/pytextgen-->
 

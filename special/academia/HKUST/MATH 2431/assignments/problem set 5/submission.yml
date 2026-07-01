@@ -1,0 +1,32 @@
+assignment:
+  comments: {}
+  content:
+    "Problem Set 5, due on Friday, 27/03/2026, until 13:30 (1:30 PM) Hong Kong
+    Time (UTC +8), to be uploaded on Canvas.
+
+    Update (16/03/2026, 12:15 PM): Question 4 updated.
+
+    PS5-v1.pdf
+
+
+
+
+    Download PS5-v1.pdf"
+  grade:
+    entered: 8
+    graded anonymously: false
+    possible: 8
+  id: 428344
+  properties:
+    due: 2026-03-27 13:30:00-07:00
+    points: 8
+    submitting:
+      - a text entry box or a file upload
+  submissions:
+    - datetime: 2026-03-23 15:52:00-07:00
+      id: -1
+  title: Problem Set 5
+course:
+  id: 69402
+  name: MATH2431
+type: submission/Canvas/canvas.ust.hk

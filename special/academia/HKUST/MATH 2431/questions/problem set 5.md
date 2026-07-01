@@ -1,0 +1,82 @@
+---
+aliases:
+    - HKUST MATH 2431 problem set 5
+    - HKUST MATH2431 problem set 5
+    - MATH 2431 problem set 5
+    - MATH2431 problem set 5
+tags:
+    - flashcard/active/special/academia/HKUST/MATH_2431/questions/problem_set_5
+    - language/in/English
+---
+
+# problem set 5
+
+- HKUST MATH 2431
+
+The questions on this page summarize the _official problem-set materials_ for problem set 5. The official materials are paraphrased into study-note form while preserving the underlying questions and core solution ideas.
+
+- topics: symmetric sigma-algebras; transformed densities; cumulative distribution functions; medians.
+
+> Symmetric sigma-algebra on two dice. Let $\Omega=\{1,\dots,6\}^2$, let $\mathcal F=\mathcal P(\Omega)$, and let
+>
+> $$\mathcal F_{\mathrm{sym}}=\{A\subseteq\Omega:(\omega_1,\omega_2)\in A\iff (\omega_2,\omega_1)\in A\}.$$
+>
+> - (a) When is $\mathcal F_{\mathrm{sym}}$ a natural modeling choice?
+> - (b) Show that it is a sigma-algebra.
+> - (c) Show that "one die shows $3$" belongs to $\mathcal F_{\mathrm{sym}}$ but "the blue die shows $3$" does not.
+> - (d) Decide whether $X(\omega_1,\omega_2)=\omega_1$ and $S(\omega_1,\omega_2)=\omega_1+\omega_2$ are random variables on $(\Omega,\mathcal F_{\mathrm{sym}})$.
+>
+> Solution:
+>
+> - (a) This sigma-algebra is natural when {@{the two coordinates are observationally indistinguishable}@}.
+> - (b) It contains {@{$\Omega$}@}, {@{the symmetry property is preserved}@} under {@{complements and countable unions}@}, so {@{$\mathcal F_{\mathrm{sym}}$ is a sigma-algebra}@}.
+> - (c) {@{"One die shows $3$"}@} is {@{invariant under swapping the two coordinates}@}, but {@{"the blue die shows $3$"}@} is not.
+> - (d) {@{The coordinate map $X$ is not measurable}@} because {@{events like $\{X\le 1\}$ break the symmetry}@}, whereas {@{the sum map $S$ is measurable}@} because {@{the condition $\omega_1+\omega_2\le a$ is symmetric}@}.
+
+<!-- markdownlint MD028 -->
+
+> Bubble radius and transformed densities. Suppose first that $R\sim U([1,10])$ and $V=\frac{4\pi}{3}R^3$.
+>
+> - (a) Find the density of $V$.
+> - (b) If instead $R\sim \ell N(\mu,\sigma^2)$, find the density of $R$.
+> - (c) Assuming the same distribution for $R$ as in (b), show that the bubble volume $V$ and surface area $A=4\pi R^2$ are also lognormal, and identify their parameters.
+>
+> Solution:
+>
+> - (a) Since {@{$v=\frac{4\pi}{3}r^3$ is increasing}@}, {@{the change-of-variables formula}@} gives {@{$f_V(v)=f_R(r(v))\,|dr/dv|$ with $r(v)=(3v/(4\pi))^{1/3}$}@}. Then {@{$dr/dv=\frac13(3/(4\pi))^{1/3}v^{-2/3}$}@}, and {@{$R\sim U([1,10])$ implies $f_R(r)=\frac19$}@}. Hence {@{$f_V(v)=\frac{1}{9}\left(\frac{3}{4\pi}\right)^{1/3}v^{-2/3}$ on $\left[\frac{4\pi}{3},\frac{4000\pi}{3}\right]$}@} and {@{$0$ outside}@}.
+> - (b) By definition {@{$R=e^Y$ with $Y\sim N(\mu,\sigma^2)$}@}. Using {@{the change-of-variables formula}@}, {@{$Y=g(R)=\log R$ so $g'(r)=1/r$}@}, thus {@{$f_R(r)=f_Y(g(r))\,|g'(r)|=\frac1r f_Y(\log r)$}@}. Substituting {@{$f_Y(y)=\frac1{\sqrt{2\pi\sigma^2}}e^{-(y-\mu)^2/(2\sigma^2)}$}@} gives {@{$f_R(x)=\frac{1}{x\sqrt{2\pi\sigma^2}}\exp\left(-\frac{(\log x-\mu)^2}{2\sigma^2}\right)\mathbf 1_{(0,\infty)}(x)$}@}.
+> - (c) By {@{the defining property of the lognormal}@}, {@{$R\sim\ell N(\mu,\sigma^2)$ means $\log R\sim N(\mu,\sigma^2)$}@}. Let {@{$Y=\log R$}@}. {@{Taking logarithms}@}: {@{$\log V = \log\frac{4\pi}{3} + 3\log R = \log\frac{4\pi}{3} + 3Y$}@}, {@{a linear transformation}@} of $Y$, so {@{$\log V\sim N(\log\frac{4\pi}{3}+3\mu,\;9\sigma^2)$}@}. Similarly {@{$\log A = \log(4\pi) + 2Y\sim N(\log(4\pi)+2\mu,\;4\sigma^2)$}@}. By {@{the same defining property ($\log X$ normal $\implies X$ lognormal)}@}, $V$ and $A$ are {@{lognormal with these parameters}@}.
+
+<!-- markdownlint MD028 -->
+
+> Piecewise cumulative distribution functions and named examples. Let $X$ be a real random variable with CDF
+>
+> $$F_X(x)=\begin{cases} \frac14 e^{x+2}+c, & x<-2,\\[2pt] \frac12+\frac x8, & -2\le x<0,\\[2pt] \frac{2+x}{3+x}, & 0\le x<5,\\[2pt] (\lambda-1)e^x+1, & x\ge5. \end{cases}$$
+>
+> - (a) Determine the constants $c,\lambda$ from the CDF axioms.
+> - (b) Compute $P(0\le X<5)$ and $P(-2<X\le5)$.
+> - (c) Calculate the CDF of $X\sim\operatorname{Bin}(4,\tfrac14)$ and draw a sketch.
+> - (d) Calculate the CDF of $Y\sim\operatorname{Cau}(1,2)$ and draw a sketch, where $\operatorname{Cau}(\mu,a)$ is the Cauchy distribution with density $f_Y(y)=\frac{a}{\pi(a^2+(y-\mu)^2)}$, $y\in\mathbb R$.
+>
+> Solution:
+>
+> - (a) {@{$\lim_{x\to-\infty}F_X(x)=0$}@} forces {@{the first piece to vanish}@}, so {@{$c=0$}@}. {@{$\lim_{x\to\infty}F_X(x)=1$}@} forces {@{the coefficient $(\lambda-1)$ to be $0$}@}, so {@{$\lambda=1$}@}.
+> - (b) For {@{$0\le X<5$}@} we need {@{left limits}@}: {@{$F_X(5-)=\frac{2+5}{3+5}=\frac78$, $F_X(0-)=\frac12+\frac08=\frac12$}@}, hence {@{$P(0\le X<5)=\frac78-\frac12 = \frac38$}@}. <p> For {@{$-2<X\le5$}@}: {@{$F_X(5)=(\lambda-1)e^5+1=1$, $F_X(-2)=\frac14 e^{0}+c=\frac14$}@}, hence {@{$P(-2<X\le5)=1-\frac14 = \frac34$}@}.
+> - (c) For {@{$X\sim\operatorname{Bin}(4,\tfrac14)$}@}: {@{$$F_X(x)=P[X\le x]=\sum_{0\le k\le\min\{4,x\}}\binom4k\Big(\frac14\Big)^k\Big(\frac34\Big)^{4-k} =\begin{cases} 0, & x<0,\\ 0.316, & x\in[0,1),\\ 0.738, & x\in[1,2),\\ 0.949, & x\in[2,3),\\ 0.996, & x\in[3,4),\\ 1, & x\ge4. \end{cases}$$}@}
+> - (d) For {@{$Y\sim\operatorname{Cau}(1,2)$}@}: {@{$$\begin{aligned} F_Y(y)&=\int_{-\infty}^y\frac{2}{\pi(4+(t-1)^2)}\,dt\\ &=\frac1{2\pi}\int_{-\infty}^y\frac{1}{1+\big(\frac{t-1}{2}\big)^2}\,dt\\ &=\frac1\pi\Big[\arctan\Big(\frac{t-1}{2}\Big)\Big]_{-\infty}^y\\ &=\frac1\pi\Big(\arctan\frac{y-1}{2}+\frac\pi2\Big). \end{aligned}$$}@}
+
+<!-- markdownlint MD028 -->
+
+> Medians of distribution functions.
+>
+> - (a) Show that the median condition $\lim_{y\uparrow m}F(y)\le \tfrac12\le F(m)$ is equivalent to $P([m,\infty))\ge\frac12$ and $P((-\infty,m])\ge\frac12$, where $P$ is the probability measure associated with $F$.
+> - (b) Show that every distribution function has at least one median.
+> - (c) Show that the set of medians of $F$ is a closed interval of $\mathbb R$.
+> - (d) Show that $F(m)=\frac12$ for any median $m$ if $F$ is continuous.
+>
+> Solution:
+>
+> - (a) By {@{definition of the CDF}@}, {@{$P((-\infty,m])=F(m)$}@}, so {@{$P((-\infty,m])\ge\frac12\iff F(m)\ge\frac12$}@}. <p> For {@{the right-side mass}@}, write {@{$P([m,\infty))=1-P((-\infty,m))$}@}. Since {@{$P((-\infty,m))=\lim_{y\uparrow m}F(y)$ (left limit of the CDF)}@}, we get {@{$P([m,\infty))\ge\frac12\iff 1-\lim_{y\uparrow m}F(y)\ge\frac12\iff \lim_{y\uparrow m}F(y)\le\frac12$}@}. <p> Hence {@{the median condition}@} is equivalent to {@{both $P((-\infty,m])\ge\frac12$ and $P([m,\infty))\ge\frac12$}@}.
+> - (b) Let {@{$A=\{x\in\mathbb R:F(x)<\frac12\}$ and $\alpha=\sup A$}@}. Since {@{$\lim_{x\to-\infty}F(x)=0<\frac12$, $A\neq\varnothing$, and since $\lim_{x\to\infty}F(x)=1>\frac12$}@}, $A$ is {@{bounded above, so $\alpha\in\mathbb R$ exists}@}. <p> First, show {@{$\lim_{y\uparrow\alpha}F(y)\le\frac12$}@}: pick {@{a sequence $\alpha_n\in A$ with $\alpha_n\uparrow\alpha$}@}. Because $F$ is {@{non-decreasing, $F(\alpha_n)<\frac12$ for all $n$}@}, so {@{$\lim_{y\uparrow\alpha}F(y)=\lim_{n\to\infty}F(\alpha_n)\le\frac12$}@}. <p> Second, show {@{$F(\alpha)\ge\frac12$}@}: suppose {@{not, i.e. $F(\alpha)<\frac12$}@}. {@{Right-continuity of $F$ (and completeness of the reals)}@} gives {@{$\varepsilon>0$ such that $F(x)<\frac12$ for all $x\in(\alpha,\alpha+\varepsilon)$}@}. Then those {@{$x$ belong to $A$, contradicting $\alpha=\sup A$}@}. Hence {@{$F(\alpha)\ge\frac12$}@}. <p> Thus $\alpha$ satisfies {@{the median condition and is a median}@}.
+> - (c) Let {@{$\beta=\sup\{x\in\mathbb R:F(x)\le\frac12\}$}@} — {@{the last point where the CDF is still $\le\frac12$}@}. <p> {@{_Medians are contained in $[\alpha,\beta]$<!-- LaTeX separator -->_}@}: If {@{$m$ is a median}@}, then {@{$F(m)\ge\frac12$}@}, so {@{$m\notin A$ and therefore $m\ge\sup A=\alpha$}@}. If {@{$m>\beta$}@}, choose {@{$\varepsilon=(m-\beta)/2>0$; then $F(\beta+\varepsilon)>\frac12$}@} (since {@{$\beta+\varepsilon>\beta$}@}), and by {@{monotonicity $\lim_{y\uparrow m}F(y)\ge F(\beta+\varepsilon)>\frac12$}@}, contradicting {@{the median condition. Hence $m\le\beta$}@}. <p> {@{_Every $m\in[\alpha,\beta]$ is a median_}@}: If {@{$m\in[\alpha,\beta]$}@}, then {@{$m\ge\alpha$ implies $F(m)\ge\frac12$}@} (otherwise {@{$m\in A$ would contradict $\alpha=\sup A$}@}). For {@{$y<m\le\beta$}@}, we have {@{$F(y)\le\frac12$, so $\lim_{y\uparrow m}F(y)\le\frac12$}@}. Thus $m$ {@{satisfies $(\star)$}@}. <p> Therefore {@{the full set of medians is $[\alpha,\beta]$}@}.
+> - (d) If {@{$F$ is continuous}@}, then {@{$\lim_{y\uparrow m}F(y)=F(m)$}@}. The median condition becomes {@{$F(m)\le\frac12\le F(m)$, which forces $F(m)=\frac12$}@}. So medians are {@{precisely the solutions of $F(m)=\frac12$}@}. If $F$ is {@{also strictly increasing}@}, then $F$ is {@{injective and the solution is unique}@}.

@@ -1,18 +1,26 @@
 """Utility routines shared by the academic-notes validator.
 
-Constants
----------
-
-DEFAULT_PATHS -- roots scanned when no paths are supplied on the command line
-
-
 This module contains text-processing helpers, frontmatter parsing, preview
-excerpt generation, and other small functions that are not rules themselves.
+excerpt generation, AST utilities, session header parsing, and other small
+functions shared between the validator and tests.
 """
 
 import re
+from collections.abc import Iterator
 
+import mistune
 from anyio import Path
+from mistune.plugins.formatting import strikethrough as _mistune_strikethrough
+from mistune.plugins.math import (
+    math as _mistune_math,
+)
+from mistune.plugins.math import (
+    math_in_list as _mistune_math_in_list,
+)
+from mistune.plugins.math import (
+    math_in_quote as _mistune_math_in_quote,
+)
+from mistune.plugins.table import table as _mistune_table
 
 from .models import PreviewEntry, ValidationMessage
 
@@ -26,9 +34,32 @@ __all__ = (
     "aggregate",
     "DEFAULT_PATHS",
     "FRONT_RE",
+    # AST helpers
+    "iter_ast",
+    "filter_ast",
+    "ast_collect_text",
+    "ast_headings",
+    "ast_sections",
+    # session/AST shared helpers
+    "_MD",
+    "SESSION_HEADING_RE",
+    "extract_ast_heading_positions",
+    "parse_session_headers",
 )
 
-# regex used by parse_frontmatter; accepts optional whitespace and both
+# shared mistune parser (AST output) used by validator and tests
+"""A mistune Markdown parser configured for AST output."""
+_MD = mistune.create_markdown(
+    renderer="ast",
+    plugins=[
+        _mistune_strikethrough,
+        _mistune_table,
+        _mistune_math,
+        _mistune_math_in_quote,
+        _mistune_math_in_list,
+    ],
+)
+
 """Default root directories scanned when no paths are supplied on the command line."""
 DEFAULT_PATHS = ["special/academia", "private/special/academia"]
 
@@ -39,6 +70,13 @@ FRONT_RE = re.compile(r"\A\s*---\s*\r?\n(.*?)\r?\n---\s*(\r?\n|$)", re.DOTALL)
 # flashcard tag matcher used by metadata rules
 """Regex matching the flashcard activation tag prefix in frontmatter tags."""
 FLASH_TAG_RE = re.compile(r"flashcard/active/special/academia/", re.IGNORECASE)
+
+# Regex for ## week N lecture|lab|tutorial [number] headings, used by session rules.
+"""Regex matching session headings: ``## week N type [number]``."""
+SESSION_HEADING_RE = re.compile(
+    r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
+    re.IGNORECASE | re.MULTILINE,
+)
 
 
 # location helpers -----------------------------------------------------------
@@ -118,9 +156,8 @@ async def get_excerpt(
 ) -> tuple[str, str | None]:
     """Generate a short preview snippet for *msg* in *path*.
 
-    The returned tuple is ``(excerpt, caret)``; ``caret`` may be ``None`` if
-    the snippet does not require a pointer line.  The heuristics are tuned to
-    produce useful excerpts for backend JSON output and console display.
+    Returns ``(excerpt, caret)``; ``caret`` may be ``None`` when the
+    snippet does not need a pointer line.
     """
     try:
         text = await path.read_text(encoding="utf-8")
@@ -131,79 +168,65 @@ async def get_excerpt(
         lines = text.splitlines()
         if 1 <= line <= len(lines):
             full = lines[line - 1].rstrip("\n")
-            # If the trimmed line is merely a LaTeX delimiter we prefer to show
-            # the next line of real math content (if any).  This makes error
-            # previews more helpful when the dollar sign sits alone on its own
-            # line, as often happens when authors split inline math across
-            # multiple lines for readability.  When we switch, adjust both
-            # *col* and *col_end* so that the caret spans the *entire* replacement
-            # line rather than just the first column; this gives a visual sense of
-            # the full LaTeX expression that triggered the rule.
+            # Skip lone LaTeX delimiters to show the next real content line
             if full.strip() in ("$", "$$") and line < len(lines):
                 nxt = lines[line]
                 if nxt.strip():
                     full = nxt.rstrip("\n")
                     if col is not None:
                         col = 1
-                        # highlight the whole line
                         col_end = len(full) if full else 1
             if col is not None:
                 start_idx = max(0, min(col - 1, len(full)))
-                if col_end and col_end >= col:
-                    width = col_end - col + 1
-                else:
-                    width = 1
-                # determine display window
+                width = (col_end - col + 1) if (col_end and col_end >= col) else 1
                 if len(full) > chars:
                     half = chars // 2
                     win_start = max(0, start_idx - half)
-
-                    def make_display(ws: int) -> tuple[str, int]:
-                        """Return a windowed display string of length *chars* starting at *ws*.
-
-                        The function builds a snippet with ellipses if the window does not
-                        include the start/end of the full line.  It also returns the
-                        absolute end index within *full* of the returned segment, which
-                        is used by the caller to adjust the caret position.
-                        """
-                        seg_len = chars
-                        end = min(len(full), ws + seg_len)
-                        pref = "..." if ws > 0 else ""
-                        suf = "..." if end < len(full) else ""
-                        avail = chars - len(pref) - len(suf)
-                        if avail < 0:
-                            avail = 0
-                        end = min(len(full), ws + avail)
-                        segment = full[ws:end]
-                        disp = pref + segment + suf
-                        return disp, end
-
-                    disp, win_end = make_display(win_start)
+                    # Build windowed display with ellipses
+                    seg_len = chars
+                    end = min(len(full), win_start + seg_len)
+                    pref = "..." if win_start > 0 else ""
+                    suf = "..." if end < len(full) else ""
+                    avail = chars - len(pref) - len(suf)
+                    segment = full[
+                        win_start : min(len(full), win_start + max(0, avail))
+                    ]
+                    display = pref + segment + suf
+                    # Adjust window if caret falls outside
                     if start_idx < win_start:
-                        win_start = start_idx
-                        disp, win_end = make_display(win_start)
-                    elif start_idx >= win_end:
-                        seg_len = len(disp)
-                        if disp.startswith("..."):
-                            seg_len -= 3
-                        if disp.endswith("..."):
-                            seg_len -= 3
-                        win_start = max(0, start_idx - seg_len // 2)
-                        disp, win_end = make_display(win_start)
-                    display = disp
+                        win_start2 = start_idx
+                        pref2 = "..." if win_start2 > 0 else ""
+                        end2 = min(len(full), win_start2 + chars - len(pref2))
+                        suf2 = "..." if end2 < len(full) else ""
+                        avail2 = chars - len(pref2) - len(suf2)
+                        segment2 = full[
+                            win_start2 : min(len(full), win_start2 + avail2)
+                        ]
+                        display = pref2 + segment2 + suf2
+                    elif start_idx >= end:
+                        seg_len_no_ellipsis = len(segment)
+                        if pref:
+                            seg_len_no_ellipsis = len(segment)
+                        if suf:
+                            pass
+                        win_start2 = max(0, start_idx - seg_len_no_ellipsis // 2)
+                        pref2 = "..." if win_start2 > 0 else ""
+                        end2 = min(len(full), win_start2 + chars - len(pref2))
+                        suf2 = "..." if end2 < len(full) else ""
+                        avail2 = chars - len(pref2) - len(suf2)
+                        segment2 = full[
+                            win_start2 : min(len(full), win_start2 + avail2)
+                        ]
+                        display = pref2 + segment2 + suf2
                     caret_start = (
                         start_idx - win_start + (3 if display.startswith("...") else 0)
                     )
                 else:
                     display = full
                     caret_start = start_idx
-                # ensure caret width does not overflow the displayed snippet
                 max_width = len(display) - caret_start
-                if max_width < 1:
-                    max_width = 1
-                actual_width = min(width, max_width)
-                caret_line = " " * caret_start + "^" * actual_width
-                return display.strip(), caret_line
+                actual_width = min(width, max(1, max_width))
+                return display.strip(), " " * caret_start + "^" * actual_width
             return full.strip(), None
     fm: str | None = parse_frontmatter(text)
     if "frontmatter" in msg.lower() or "tags:" in msg.lower():
@@ -212,7 +235,7 @@ async def get_excerpt(
             if lines:
                 return "\n".join(lines), None
         return text[:chars], None
-    # fallback heuristics
+    # fallback: skip frontmatter and markup lines, return first content line
     body = text
     if fm:
         m2 = FRONT_RE.match(text)
@@ -220,34 +243,11 @@ async def get_excerpt(
             body = text[m2.end() :]
     for ln in body.splitlines():
         stripped = ln.strip()
-        if not stripped:
+        if not stripped or stripped[0] in ("#", "-", "*"):
             continue
-        if (
-            stripped.startswith("#")
-            or stripped.startswith("-")
-            or stripped.startswith("*")
-        ):
-            continue
-        snippet = stripped
-        if len(snippet) > chars:
-            avail = max(0, chars - 3)
-            snippet = snippet[:avail].rstrip() + "..."
-        return snippet, None
-    for keyword in ["datetime:", "topic:", "lecture", "lab", "tutorial", "week"]:
-        idx = text.lower().find(keyword)
-        if idx != -1:
-            start = max(0, idx - 60)
-            return text[start : start + chars].strip().replace("\n", " "), None
-    body = text
-    if fm:
-        body = text[len(fm) + 4 :]
-    for ln in body.splitlines():
-        if ln.strip():
-            snippet = ln.strip()
-            if len(snippet) > chars:
-                avail = max(0, chars - 3)
-                snippet = snippet[:avail].rstrip() + "..."
-            return snippet, None
+        return (stripped[: chars - 3].rstrip() + "...") if len(
+            stripped
+        ) > chars else stripped, None
     return text[:chars].strip().replace("\n", " "), None
 
 
@@ -285,3 +285,133 @@ async def aggregate(
             entry.col = err.col
         agg.setdefault(err.rule_id, []).append(entry)
     return agg
+
+
+# AST/session helpers (mistune) --------------------------------------------
+
+
+def extract_ast_heading_positions(ast: list[dict] | None, text: str) -> set[int]:
+    """Return set of byte positions where the AST finds real headings.
+
+    Skips headings inside code blocks or comments that regex might match
+    but the Markdown parser does not recognise as real headings.
+    """
+    positions: set[int] = set()
+    if not ast:
+        return positions
+    for node in iter_ast(ast):
+        if node.get("type") == "heading":
+            raw_text = ast_collect_text(node)
+            needle = f"{'#' * node.get('attrs', {}).get('level', 2)} {raw_text}"
+            idx = text.find(needle)
+            # Consume previously-found positions so duplicates aren't lost.
+            while idx in positions and idx != -1:
+                idx = text.find(needle, idx + len(needle))
+            if idx != -1:
+                positions.add(idx)
+    return positions
+
+
+def parse_session_headers(
+    text: str, ast: list[dict] | None = None
+) -> list[tuple[str, str, str, int]]:
+    """Extract session heading metadata from *text*.
+
+    Looks for ``## week N lecture|lab|tutorial [number]`` headings.  When
+    *ast* is provided, results are filtered to only include positions that
+    correspond to real AST headings (excluding false positives from code
+    blocks or comments).
+
+    Returns a list of ``(week, type, raw_heading, byte_pos)`` tuples.
+    """
+    ast_positions = (
+        extract_ast_heading_positions(ast, text) if ast is not None else None
+    )
+    headers: list[tuple[str, str, str, int]] = []
+    for m in SESSION_HEADING_RE.finditer(text):
+        # Skip matches that don't correspond to real AST headings.
+        # Only filter when we actually found AST positions: an empty
+        # set means no headings in AST, so keep all regex matches.
+        if ast_positions and m.start() not in ast_positions:
+            continue
+        headers.append(
+            (m.group(1), m.group(2).strip().lower(), m.group(0).strip(), m.start())
+        )
+    return headers
+
+
+# AST helpers (mistune) ------------------------------------------------------
+
+
+def iter_ast(nodes: list[dict]) -> Iterator[dict]:
+    """Recursively yield all AST nodes depth-first pre-order from *nodes*."""
+    for node in nodes:
+        yield node
+        children = node.get("children")
+        if children:
+            yield from iter_ast(children)
+
+
+def filter_ast(nodes: list[dict], node_type: str) -> Iterator[dict]:
+    """Yield only AST nodes whose ``type`` equals *node_type*."""
+    return (n for n in iter_ast(nodes) if n.get("type") == node_type)
+
+
+def ast_collect_text(node: dict) -> str:
+    """Collect all ``raw`` text from *node* and its children recursively."""
+
+    def _walk(n: dict, parts: list[str]) -> None:
+        if "raw" in n:
+            parts.append(n["raw"])
+        for c in n.get("children", []):
+            _walk(c, parts)
+
+    parts: list[str] = []
+    _walk(node, parts)
+    return "".join(parts)
+
+
+def ast_headings(ast_nodes: list[dict]) -> list[dict]:
+    """Return summary dicts for every heading in *ast_nodes*.
+
+    Each result has keys ``type``, ``level``, ``text``, ``node``.
+    """
+    result: list[dict] = []
+    for node in filter_ast(ast_nodes, "heading"):
+        result.append(
+            {
+                "type": "heading",
+                "level": node.get("attrs", {}).get("level", 1),
+                "text": ast_collect_text(node),
+                "node": node,
+            }
+        )
+    return result
+
+
+def ast_sections(ast_nodes: list[dict]) -> list[dict]:
+    """Split the top-level AST into heading-delimited sections.
+
+    Returns a list of dicts with keys ``heading`` (the heading node, or
+    ``None`` for the preamble) and ``children`` (non-heading nodes in that
+    section).  ``blank_line`` nodes are silently dropped.
+    """
+    sections: list[dict] = []
+    current_children: list[dict] = []
+    current_heading: dict | None = None
+
+    for node in ast_nodes:
+        if node.get("type") == "heading":
+            if current_heading is not None or current_children:
+                sections.append(
+                    {"heading": current_heading, "children": current_children}
+                )
+            current_heading = node
+            current_children = []
+        elif node.get("type") != "blank_line":
+            current_children.append(node)
+
+    if current_heading is not None or current_children:
+        sections.append({"heading": current_heading, "children": current_children})
+
+    return sections

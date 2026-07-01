@@ -9,7 +9,7 @@ tags:
 
 # Hubble Ultra-Deep Field
 
-The __Hubble Ultra-Deep Field__ (__HUDF__) is {@{a [deep-field](list%20of%20deep%20fields.md) image of a small region of [space](outer%20space.md) in the constellation [Fornax](Fornax.md), containing an estimated 10&nbsp;000 [galaxies](galaxy.md)}@}. <!--SR:!2029-05-03,1067,250-->
+The **Hubble Ultra-Deep Field** (**HUDF**) is {@{a [deep-field](list%20of%20deep%20fields.md) image of a small region of [space](outer%20space.md) in the constellation [Fornax](Fornax.md)}@}, containing {@{an estimated 10&nbsp;000 [galaxies](galaxy.md)}@}. <!--SR:!2029-05-03,1067,250-->
 
 ## references
 

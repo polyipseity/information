@@ -1,7 +1,7 @@
 ---
 aliases:
-  - '*Q* factor'
-  - '*Q* factors'
+  - "*Q* factor"
+  - "*Q* factors"
   - <i>Q</i> factor
   - <i>Q</i> factors
   - quality factor
@@ -17,7 +17,7 @@ tags:
 
 # _Q_ factor
 
-The _Q_ factor also describes the sharpness of [resonance](resonance.md) curves {@{on a motional spectrum, i.e. [resonance transmissibility](transmissibility%20(vibration).md) $G(\omega_d)$ over frequency ratio $\omega_d / \omega_n$. Higher _Q_ factor indicates that the resonance curve is sharper}@}. <!--SR:!2032-03-15,2112,290-->
+{@{The _Q_ factor}@} also describes {@{the sharpness of [resonance](resonance.md) curves on a motional spectrum}@}, i.e. {@{[resonance transmissibility](<transmissibility%20(vibration).md>) $G(\omega_d)$ over frequency ratio $\omega_d / \omega_n$}@}. {@{Higher _Q_ factor}@} indicates that {@{the resonance curve is sharper}@}. <!--SR:!2032-03-15,2112,290-->
 
 ## references
 

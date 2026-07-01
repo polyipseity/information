@@ -36,3 +36,23 @@ Why this exists
 
 - Makes skills discoverable to agents and maintainers
 - Enables automated checks in CI and reduces drift between human docs and metadata
+
+## Running commands safely (avoid polluting skill folders)
+
+Some skill folders contain a `pyproject.toml` for tool configuration (e.g., `ty`
+type-checker settings). Running `uv run`, `uv sync`, or any `uv` command
+**inside** a skill folder will cause `uv` to create a `.venv/` directory and
+`uv.lock` file there, cluttering the folder and duplicating the project's
+actual environment.
+
+**Never run `uv` commands from inside a skill folder.** Always run from the
+workspace root (`/Users/polyipseity/dev/monorepo/self/information/`) and
+reference skill paths as arguments. Examples:
+
+- Tests: `uv run pytest .agents/skills/academic-notes/tests_a7392be/`
+- Validator: `uv run .agents/skills/academic-notes/check.py "special/academia/..."`
+
+This applies regardless of whether the command is run implicitly by an agent or
+explicitly by a human. If you accidentally create `.venv` or `uv.lock` inside a
+skill folder, delete them immediately (`rm -rf .agents/skills/*/.venv
+.agents/skills/*/uv.lock`).

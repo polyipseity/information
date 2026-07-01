@@ -4,7 +4,6 @@ Each function constructs a minimal ValidationContext and exercises a rule
 function, verifying expected messages or lack thereof.
 """
 
-import re
 from os import PathLike
 
 import pytest
@@ -15,10 +14,14 @@ from check_mods.rules import (
     agents_no_flashcard_markup,
     agents_title,
     aliases_sorted,
+    assignment_index_heading,
+    assignment_index_metadata,
+    assignment_index_sections,
     cloze_no_nested,
     cloze_open_close_matching,
     cloze_single_line,
     cloze_wrong_closing_token,
+    find_math_spans,
     folder_link_trailing_slash,
     header_flashcard_presence,
     header_flashcard_sections_duplicate,
@@ -37,6 +40,7 @@ from check_mods.rules import (
     latex_block_no_newline,
     latex_disallowed_delimiters,
     latex_environment_not_wrapped,
+    latex_not_standalone,
     latex_single_line,
     latex_spacing_after,
     latex_spacing_before,
@@ -60,14 +64,15 @@ from check_mods.rules import (
     session_heading_format,
     session_missing_topic,
     session_unscheduled_with_topic,
+    tag_index_function,
     tag_language,
     tag_path_flash,
     topic_note_redundant_filename_prefix,
     two_sided_calc_warning,
     unit_outside_math,
 )
-from check_mods.utils import FRONT_RE, parse_frontmatter
-from check_mods.validator import check_markdown_file
+from check_mods.utils import FRONT_RE, parse_frontmatter, parse_session_headers
+from check_mods.validator import _MD, check_markdown_file
 from pydantic_yaml import parse_yaml_raw_as
 
 # explicit imports reduce namespace clutter and make references clear
@@ -92,16 +97,12 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
     m = FRONT_RE.match(text)
     if m:
         body = text[m.end() :]
-    # Same pattern as validator: week N type [number]; type = lecture|lab|tutorial only (status has no bearing on heading)
-    session_headers: list[tuple[str, str, str, int]] = []
-    _re = re.compile(
-        r"^##\s+week\s+(\d+)\s+((?:lecture|lab|tutorial)(?:\s+\d+)?)\s*$",
-        re.IGNORECASE | re.MULTILINE,
-    )
-    for m2 in _re.finditer(text):
-        week = m2.group(1)
-        typ = m2.group(2).strip().lower()
-        session_headers.append((week, typ, m2.group(0).strip(), m2.start()))
+    # Same pattern as validator: parse AST and extract session headers
+    try:
+        ast = _MD(text)
+    except Exception:
+        ast = []
+    session_headers = parse_session_headers(text, ast)
     return ValidationContext(
         path=path,
         text=text,
@@ -109,6 +110,7 @@ def make_ctx(text: str, path: Path = Path("/tmp/course/index.md")) -> Validation
         data=data,
         body=body,
         session_headers=session_headers,
+        ast=ast,
     )
 
 
@@ -1110,6 +1112,28 @@ def test_cloze_wrong_closing_token_rule():
     assert not cloze_wrong_closing_token(good)
 
 
+def test_cloze_wrong_closing_token_latex_math():
+    """``}}`` inside ``$...$`` / ``$$...$$`` within a cloze is LaTeX brace nesting, not a
+    cloze terminator typo."""
+
+    # ``}}`` inside ``$...$`` inline math: \mathbf 1_{\{...\}} pattern
+    good = make_ctx(r"Text {@{$\mathbf 1_{\{Z>0\}}$}@} rest." "\n")
+    assert not cloze_wrong_closing_token(good)
+
+    # ``}}`` inside ``$$...$$`` display math
+    good = make_ctx(r"Text {@{$$x = \int_{\mathbb{R}} f\,d\mu$$}@} rest." "\n")
+    assert not cloze_wrong_closing_token(good)
+
+    # ``}}`` inside ``$...$`` with nested braces from \frac
+    good = make_ctx(r"Text {@{$\frac{n!}{(1+\mu)^{n+1}}$}@} rest." "\n")
+    assert not cloze_wrong_closing_token(good)
+
+    # Escaped ``\$`` should not be treated as a math delimiter
+    bad = make_ctx(r"Text {@{price is \$100}} next." "\n")
+    msgs = cloze_wrong_closing_token(bad)
+    assert msgs and any("wrong cloze closing token" in m.msg for m in msgs)
+
+
 def test_cloze_single_line_rule():
     """Multiline cloze content should be rejected."""
 
@@ -1166,7 +1190,12 @@ def test_latex_spacing_ignore_code():
 
 
 def test_latex_disallowed_delimiters():
-    r"""Only \(\) or \[\] should be flagged; generic \\ is fine."""
+    r"""Only \(\) or \[\] should be flagged; generic \\ is fine.
+
+    The regex uses a negative lookbehind ``(?<!\\)`` to avoid matching
+    ``\[``/``\]``/``\(``/``\)`` that follow a double backslash (common
+    in TeX line breaks like ``\\[4pt]``).
+    """
     txt = "Use \\(...\\) style instead of $...$\n"
     ctx = make_ctx(txt)
     msgs = latex_disallowed_delimiters(ctx)
@@ -1176,6 +1205,29 @@ def test_latex_disallowed_delimiters():
     ctx = make_ctx(txt)
     msgs = latex_disallowed_delimiters(ctx)
     assert not msgs, "plain double backslash should not trigger the rule"
+
+    # TeX line breaks with optional spacing arguments — the previous
+    # regex falsely flagged these because ``\[`` appears after ``\\``.
+    txt = "first line \\\\[4pt] second line\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert not msgs, r"\\[4pt] (TeX linebreak with spacing) should not trigger"
+
+    txt = "first line \\\\[2pt] second line\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert not msgs, r"\\[2pt] should not trigger"
+
+    txt = "first line \\\\[-2pt] second line\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert not msgs, r"\\[-2pt] (negative spacing) should not trigger"
+
+    # Standalone \[ / \] block delimiters should still be flagged.
+    txt = r"\[E = mc^2\] is block math.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_disallowed_delimiters(ctx)
+    assert msgs, r"\[ ... \] should still be flagged"
 
 
 def test_latex_environment_unwrapped():
@@ -1283,10 +1335,11 @@ def test_no_soft_wrap_list():
     msgs = no_soft_wrap_list(ctx)
     assert msgs and "soft-wrapped" in msgs[0].msg
 
-    # allowed list cases
+    # allowed list cases (consecutive items; intentional break via \\ or two spaces)
     for good in [
         "- first\n- second\n",
-        "- line1<br/>\nline2\n",
+        "- line1\\\nline2\n",
+        "- line1  \nline2\n",
     ]:
         assert not no_soft_wrap_list(make_ctx(good))
 
@@ -1294,6 +1347,16 @@ def test_no_soft_wrap_list():
     txt = "First line\nsecond line\n"
     ctx = make_ctx(txt)
     assert not no_soft_wrap_list(ctx)
+
+    # Soft-wrapped items separated by a blank line must both be flagged.
+    # Regression: the regex ^\s* consumed \n before the second item, causing
+    # body.find("\n", idx) to return idx (the same \n), producing an empty
+    # line that was silently skipped. The fix uses content_start computed
+    # via re.match(r"\s*", body[idx:]).end() to advance past consumed whitespace.
+    txt = "- item1\n  continuation\n\n- item2\n  continuation\n"
+    ctx = make_ctx(txt)
+    msgs = no_soft_wrap_list(ctx)
+    assert len(msgs) == 2
 
 
 def test_no_consecutive_source_newlines_rule():
@@ -1551,3 +1614,322 @@ async def test_file_level_suppression_redundant(tmp_path: PathLike[str]):
 
     msgs = list(await check_markdown_file(file))
     assert any(m.rule_id == "suppression-redundant" for m in msgs), msgs
+
+
+# assignment index rules -----------------------------------------------------
+
+
+def test_index_heading_skips_assignment_index():
+    """index_heading should not fire on assignments/*/index.md."""
+    # Assignment index without # index — should NOT fire
+    txt = "# problem set 3\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/assignments/problem set 3/index.md"))
+    assert not index_heading(ctx)
+
+    # Regular index without # index — SHOULD fire
+    ctx2 = make_ctx(txt, path=Path("/tmp/course/index.md"))
+    assert index_heading(ctx2)
+
+
+def test_index_children_skips_assignment_index():
+    """index_children should not fire on assignments/*/index.md."""
+    txt = "# problem set 3\n## attachments\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/assignments/problem set 3/index.md"))
+    assert not index_children(ctx)
+
+    # Regular index without children — SHOULD fire
+    txt2 = "# index\n"
+    ctx2 = make_ctx(txt2, path=Path("/tmp/course/index.md"))
+    assert index_children(ctx2)
+
+
+def test_tag_index_function_skips_assignment_index():
+    """tag_index_function should not fire on assignments/*/index.md."""
+    txt = "---\naliases: [a]\ntags: [language/in/English]\n---\n# problem set 3\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/assignments/problem set 3/index.md"))
+    assert not tag_index_function(ctx)
+
+    # Regular index without function/index tag — SHOULD fire
+    ctx2 = make_ctx(txt, path=Path("/tmp/course/index.md"))
+    assert tag_index_function(ctx2)
+
+
+def test_assignment_index_heading():
+    """assignment_index_heading checks for # problem set N heading."""
+    # Assignment index with correct heading — not an error
+    txt = "# problem set 3\n"
+    ctx = make_ctx(txt, path=Path("/tmp/course/assignments/problem set 3/index.md"))
+    assert not assignment_index_heading(ctx)
+
+    # Assignment index with wrong heading — SHOULD fire
+    txt2 = "# wrong heading\n"
+    ctx2 = make_ctx(txt2, path=Path("/tmp/course/assignments/problem set 3/index.md"))
+    msgs = assignment_index_heading(ctx2)
+    assert msgs and "missing heading" in msgs[0].msg
+
+    # Non-assignment path — should NOT fire
+    ctx3 = make_ctx(txt, path=Path("/tmp/course/index.md"))
+    assert not assignment_index_heading(ctx3)
+
+
+def test_assignment_index_metadata():
+    """assignment_index_metadata checks for title/due/points/submitting."""
+    complete = (
+        "---\n"
+        "aliases: [a]\n"
+        "tags: [language/in/English]\n"
+        "---\n"
+        "# problem set 3\n"
+        "---\n"
+        "- title: Some Title\n"
+        "- due: 2026-02-16\n"
+        "- points: 10\n"
+        "- submitting: Canvas\n"
+    )
+    ctx = make_ctx(
+        complete, path=Path("/tmp/course/assignments/problem set 3/index.md")
+    )
+    assert not assignment_index_metadata(ctx)
+
+    # Missing fields — SHOULD fire
+    missing = "---\naliases: [a]\ntags: [language/in/English]\n---\n# problem set 3\n---\n- title: only title\n"
+    ctx2 = make_ctx(
+        missing, path=Path("/tmp/course/assignments/problem set 3/index.md")
+    )
+    msgs = assignment_index_metadata(ctx2)
+    assert msgs
+    assert any("due" in m.msg for m in msgs)
+    assert any("points" in m.msg for m in msgs)
+    assert any("submitting" in m.msg for m in msgs)
+
+    # Non-assignment path — should NOT fire
+    ctx3 = make_ctx(missing, path=Path("/tmp/course/index.md"))
+    assert not assignment_index_metadata(ctx3)
+
+
+def test_assignment_index_sections():
+    """assignment_index_sections checks for attachments/submission/solution sections."""
+    complete = "# problem set 3\n\n## attachments\n\n## submission\n\n## solution\n"
+    ctx = make_ctx(
+        complete, path=Path("/tmp/course/assignments/problem set 3/index.md")
+    )
+    assert not assignment_index_sections(ctx)
+
+    # Missing sections — SHOULD fire
+    missing = "# problem set 3\n## attachments\n"
+    ctx2 = make_ctx(
+        missing, path=Path("/tmp/course/assignments/problem set 3/index.md")
+    )
+    msgs = assignment_index_sections(ctx2)
+    assert msgs
+    assert any("submission" in m.msg for m in msgs)
+    assert any("solution" in m.msg for m in msgs)
+
+    # Non-assignment path — should NOT fire
+    ctx3 = make_ctx(missing, path=Path("/tmp/course/index.md"))
+    assert not assignment_index_sections(ctx3)
+
+
+# ── find_math_spans state machine ─────────────────────────────────────
+
+
+def test_find_math_spans_empty():
+    """No math in text returns empty list."""
+    assert find_math_spans("") == []
+    assert find_math_spans("no dollars here") == []
+    assert find_math_spans("plain text with $ alone") == []
+
+
+def test_find_math_spans_inline_basic():
+    """Basic inline $...$ spans."""
+    assert find_math_spans("$a$") == [(0, 3)]
+    assert find_math_spans("$ab$") == [(0, 4)]
+    assert find_math_spans("x$a$y") == [(1, 4)]
+    assert find_math_spans("  $x=1$  ") == [(2, 7)]
+
+
+def test_find_math_spans_display_basic():
+    """Basic display $$...$$ spans."""
+    assert find_math_spans("$$a$$") == [(0, 5)]
+    assert find_math_spans("x$$ab$$y") == [(1, 7)]
+
+
+def test_find_math_spans_display_with_inline():
+    """Display math containing interior $ is still one span."""
+    assert find_math_spans("$$a$b$$") == [(0, 7)]
+    assert find_math_spans("$$x=1$$ $y=2$") == [(0, 7), (8, 13)]
+
+
+def test_find_math_spans_adjacent():
+    """Adjacent $...$ expressions with separators work correctly."""
+    assert find_math_spans("$a$, $b$") == [(0, 3), (5, 8)]
+    assert find_math_spans("$a=1$, $b=2$") == [(0, 5), (7, 12)]
+    assert find_math_spans("($a$), ($b$)") == [(1, 4), (8, 11)]
+    assert find_math_spans("$a$ and $b$") == [(0, 3), (8, 11)]
+
+
+def test_find_math_spans_adjacent_no_separator():
+    """Adjacent $...$ without separator ($a$$b$) — parsed as two inline spans."""
+    assert find_math_spans("$a$$b$") == [(0, 3), (3, 6)]
+    assert find_math_spans("$x=1$$y=2$") == [(0, 5), (5, 10)]
+    # $a$$$b$  →  $a$ (0,3), then $$ at (3,4) no close, then $b$ (4,7)
+    assert find_math_spans("$a$$$b$") == [(0, 3), (4, 7)]
+
+
+def test_find_math_spans_unpaired():
+    """Unpaired dollar signs don't produce spans."""
+    assert find_math_spans("$a") == []
+    assert find_math_spans("$$a") == []
+    assert find_math_spans("$a$b") == [(0, 3)]  # $b unpaired
+    assert find_math_spans("$a$$b") == [(0, 3)]  # $b unpaired
+    assert find_math_spans("$$a$$$") == [(0, 5)]  # trailing $ unpaired
+
+
+def test_find_math_spans_mixed():
+    """Multiple inline/display expressions on different lines."""
+    text = "inline $x$ and display $$y$$ and again $z$\n"
+    assert find_math_spans(text) == [(7, 10), (23, 28), (39, 42)]
+
+
+# ── latex_spacing_before with find_math_spans ─────────────────────────
+
+
+def test_latex_spacing_before_adjacent_math():
+    """Adjacent $...$ expressions don't produce false positives."""
+    txt = "values $x=1$, $y=2$ rest\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "adjacent inline math with comma separator is ok"
+
+    txt = "($a$)\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "paren before dollar is ok"
+
+    txt = "$a$ and $b$\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "two math expressions separated by text is ok"
+
+
+def test_latex_spacing_before_still_catches():
+    """Adjacent math parsing still detects real spacing issues."""
+    # 'a' directly before $ is a spacing error
+    txt = "word$a$ expression\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert msgs, "word directly before dollar should be caught"
+
+    # but punctuation before $ is ok
+    txt = "word,$a$ expression\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "comma before dollar is ok"
+
+    # comma-then-space before dollar is ok
+    txt = "word, $a$ expression\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_before(ctx)
+    assert not msgs, "comma-space before dollar is ok"
+
+
+# ── latex_spacing_after with find_math_spans ──────────────────────────
+
+
+def test_latex_spacing_after_adjacent_math():
+    """Adjacent $...$ expressions don't produce false positives for spacing after."""
+    txt = "values $x=1$, $y=2$ rest\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "comma after closing dollar is ok"
+
+    txt = "($x=1$)\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "closing paren after dollar is ok"
+
+
+def test_latex_spacing_after_still_catches():
+    """Adjacent math parsing still detects real spacing issues after math."""
+    txt = "Bad $x=1$word continuation\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert msgs, "word directly after dollar should be caught"
+
+    # punctuation after dollar is ok
+    txt = "Ok $x=1$, next\n"
+    ctx = make_ctx(txt)
+    msgs = latex_spacing_after(ctx)
+    assert not msgs, "comma after dollar is ok"
+
+
+# ── latex_not_standalone ──────────────────────────────────────────────
+
+
+def test_latex_not_standalone_passthrough():
+    """Inline math and display math sharing a line don't trigger."""
+    txt = "Inline $x = 1$ here.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_not_standalone(ctx)
+    assert not msgs, "inline math in prose is fine"
+
+    txt = "The equation $$x = 1$$ is important.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_not_standalone(ctx)
+    assert not msgs, "display math sharing a line with text does not trigger"
+
+
+def test_latex_not_standalone_detects():
+    """Display math occupying an entire line is flagged."""
+    txt = "$$\nx = 1\n$$\n"
+    ctx = make_ctx(txt)
+    msgs = latex_not_standalone(ctx)
+    assert msgs, "display math on its own line should be flagged"
+
+
+def test_latex_not_standalone_adjacent():
+    """Adjacent math expressions parsed by state machine don't confuse the rule."""
+    txt = "Values $x=1$, $y=2$ are set.\n"
+    ctx = make_ctx(txt)
+    msgs = latex_not_standalone(ctx)
+    assert not msgs, "adjacent inline math should be fine"
+
+    txt = "$$\nx=1\n$$\n\n$$\ny=2\n$$\n"
+    ctx = make_ctx(txt)
+    msgs = latex_not_standalone(ctx)
+    assert msgs, "multiple standalone display math blocks should each be flagged"
+
+
+# ── unit_outside_math with find_math_spans ────────────────────────────
+
+
+def test_unit_outside_math_adjacent():
+    """Adjacent math expressions don't generate false positives for unit rule."""
+    # Two adjacent math expressions, no unit
+    txt = "values $x=1$$y=2$ in text\n"
+    ctx = make_ctx(txt)
+    msgs = unit_outside_math(ctx)
+    assert not msgs, "adjacent math (no unit) should not trigger"
+
+    # Unit after adjacent math — should still trigger
+    txt = "current $I=10$ A in text\n"
+    ctx = make_ctx(txt)
+    msgs = unit_outside_math(ctx)
+    assert msgs, "unit after math should still trigger"
+
+    # Adjacent math with unit after second expression
+    txt = "The values $x=10$ $y=2$ A\n"
+    ctx = make_ctx(txt)
+    msgs = unit_outside_math(ctx)
+    assert msgs, "unit after second adjacent math should trigger"
+
+
+def test_unit_outside_math_no_false_positive_adjacent():
+    """Adjacent math where first ends with digit doesn't cause unit false alarm on second."""
+    # Both math expressions end with digits but no unit follows
+    txt = "values $x=10$$y=20$ here\n"
+    ctx = make_ctx(txt)
+    msgs = unit_outside_math(ctx)
+    assert not msgs, (
+        "adjacent math ending in digits with no following unit should not trigger"
+    )

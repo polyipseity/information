@@ -9,7 +9,7 @@ tags:
 
 # many-to-many (data model)
 
-A __many-to-many__ relationship {@{is a [cardinality](cardinality%20(data%20modeling).md) referring to a relationship between two entities A and B in which A is related to multiple Bs and vice versa}@}. <!--SR:!fsrs,2033-09-27T00:37:08.571Z,2670,2670.03498639,1,2,11,0,0,2026-06-06T00:37:08.571Z-->
+{@{A **many-to-many** relationship}@} is {@{a [cardinality](<cardinality%20(data%20modeling).md>) referring to a relationship between two entities A and B}@} in which {@{A is related to multiple Bs and vice versa}@}. <!--SR:!fsrs,2033-09-27T00:37:08.571Z,2670,2670.03498639,1,2,11,0,0,2026-06-06T00:37:08.571Z-->
 
 ## data relationships
 
@@ -17,4 +17,4 @@ In a [relational database management system](relational%20database.md#RDBMS), {@
 
 ## references
 
-This text incorporates [content](https://en.wikipedia.org/wiki/many-to-many_(data_model)) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+This text incorporates [content](<https://en.wikipedia.org/wiki/many-to-many_(data_model)>) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

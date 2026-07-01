@@ -126,6 +126,34 @@ Flashcards for this section are as follows:
 - same mean and variance do not imply same distribution ::@:: Counterexample: if $X=\pm1$ with probability $1/2$ each, while $Y\in\{-\sqrt2,0,\sqrt2\}$ with probabilities $1/4,1/2,1/4$, then both have mean $0$ and variance $1$, but $P[X=0]=0\neq 1/2=P[Y=0]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-08-01,78,344!2026-07-29,75,327-->
 - equal distributions imply equal densities only almost everywhere ::@:: If two laws are already known to admit densities, then equality of distributions forces those densities to agree only almost everywhere, not necessarily everywhere; for example $f(x)=\mathbf{1}_{(0,1)}(x)$ and $g(x)=\mathbf{1}_{(0,1)}(x)+100\mathbf{1}_{\{1/2\}}(x)$ define the same law even though they are not pointwise equal. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-07-29,75,327!2026-07-18,67,310-->
 
+## quantile function and transformations
+
+For a cumulative distribution function $F$, the generalized inverse or quantile function is defined by $F^{-1}(u)=\inf\{x\in\mathbb R:F(x)\ge u\}$ for $0<u<1$.
+
+In this course it is also written equivalently as $F^{-1}(u)=\sup\{y\in\mathbb R:F(y)<u\}$.
+
+The quantile function is the right replacement for the ordinary inverse when $F$ has flat parts or jumps. It underlies inverse-transform sampling and the concrete proof of the Lebesgue-Stieltjes theorem.
+
+If $g$ is increasing and $Y=g(X)$, then the CDF of $Y$ satisfies $F_Y(y)=P(g(X)\le y)=P(X\le g^{-1}(y))=F_X(g^{-1}(y))$.
+
+If $g$ is decreasing, the inequality reverses and one obtains $F_Y(y)=P(X\ge g^{-1}(y))=1-F_X(g^{-1}(y)-)$.
+
+Thus cumulative distribution functions are often the cleanest route to transformation formulas, especially for monotone maps.
+
+Quantiles also describe medians and percentiles: $m$ is a median exactly when it is a $1/2$-quantile in the generalized sense.
+
+---
+
+Flashcards for this section are as follows:
+
+- quantile function ::@:: The generalized inverse of a CDF is $F^{-1}(u)=\inf\{x\in\mathbb R:F(x)\ge u\}$ for $0<u<1$.
+- quantile function (sup formula) ::@:: An equivalent definition is $F^{-1}(u)=\sup\{y\in\mathbb R:F(y)<u\}$ for $0<u<1$.
+- why the generalized inverse is needed ::@:: An ordinary inverse may not exist when the CDF has flat pieces or jumps. The generalized inverse handles both: on a flat part it selects the left endpoint, and at a jump it sends an interval of $u$-values to the same point.
+- inverse-transform sampling via quantile function ::@:: If $U\sim\mathrm{U}(0,1)$ and $X=F^{-1}(U)$, then $X$ has cumulative distribution function $F$. This is the core simulation method for one-dimensional distributions.
+- CDF under an increasing transformation ::@:: If $Y=g(X)$ and $g$ is increasing, then $F_Y(y)=F_X(g^{-1}(y))$.
+- CDF under a decreasing transformation ::@:: If $g$ is decreasing, then $F_Y(y)=P(X\ge g^{-1}(y))=1-F_X(g^{-1}(y)-)$, where $F_X(g^{-1}(y)-)$ is the left limit at $g^{-1}(y)$.
+- median as a quantile ::@:: A median is a generalized $1/2$-quantile; the quantile function gives the smallest median $m=F^{-1}(1/2)$.
+
 ## mixed and pathological distributions
 
 A probability measure on $\mathbb{R}$ need not be purely discrete or purely continuous in the density sense. A simple mixed example is $P=\frac{1}{2}\delta_0+\frac{1}{2}\mathrm{U}(0,1)$, meaning that with probability $1/2$ the value is exactly $0$, while with probability $1/2$ it is drawn uniformly from $(0,1)$. Its cumulative distribution function has a jump of size $1/2$ at $0$ and then increases continuously on $(0,1)$, so one sees both an atomic part and an absolutely continuous part in the same law.

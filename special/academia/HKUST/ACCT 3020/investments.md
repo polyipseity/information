@@ -11,30 +11,30 @@ tags:
 
 # investments
 
-This note covers the ACCT 3020 material on debt investments, equity investments, the equity method, impairment, and the derivative-and-hedging appendix taught together with the investments topic. The recurring question is: __what is the business purpose of the instrument__? The answer drives measurement, income-statement treatment, and whether fair-value changes go to profit or loss or to other comprehensive income.
+This note covers the ACCT 3020 material on debt investments, equity investments, the equity method, impairment, and the derivative-and-hedging appendix taught together with the investments topic. The recurring question is: **what is the business purpose of the instrument**? The answer drives measurement, income-statement treatment, and whether fair-value changes go to profit or loss or to other comprehensive income.
 
 A useful map is:
 
-- __debt investments__: contractual principal-and-interest cash flows;
-- __equity investments__: ownership interests or rights linked to ownership interests;
-- __derivatives__: contracts whose value is derived from an underlying such as a share price, interest rate, commodity price, or exchange rate.
+- **debt investments**: contractual principal-and-interest cash flows;
+- **equity investments**: ownership interests or rights linked to ownership interests;
+- **derivatives**: contracts whose value is derived from an underlying such as a share price, interest rate, commodity price, or exchange rate.
 
-Before applying any of these investment categories, the course first asks whether the instrument is really __debt__ or __equity__. Debt has a contractual principal amount, interest pattern, and settlement logic. Equity does __not__ promise a fixed maturity amount or coupon stream, so the accounting turns instead on fair value, influence, and control.
+Before applying any of these investment categories, the course first asks whether the instrument is really **debt** or **equity**. Debt has a contractual principal amount, interest pattern, and settlement logic. Equity does **not** promise a fixed maturity amount or coupon stream, so the accounting turns instead on fair value, influence, and control.
 
 ## classification of debt investments
 
 Under IFRS 9, the course groups debt investments into three categories:
 
-- __held-for-collection__: measured at amortized cost;
-- __held-for-collection and selling__: measured using amortized cost during the period but adjusted to fair value at reporting dates, with unrealized gains and losses in OCI; and
-- __trading__: measured at fair value, with unrealized gains and losses in net income.
+- **held-for-collection**: measured at amortized cost;
+- **held-for-collection and selling**: measured using amortized cost during the period but adjusted to fair value at reporting dates, with unrealized gains and losses in OCI; and
+- **trading**: measured at fair value, with unrealized gains and losses in net income.
 
 The classification follows two ideas taught repeatedly in the slides:
 
-1. What is the company's __business model__ for managing the financial asset?
-2. What are the __contractual cash flow characteristics__ of the investment?
+1. What is the company's **business model** for managing the financial asset?
+2. What are the **contractual cash flow characteristics** of the investment?
 
-The second criterion is often called the __SPPI test__: the instrument's contractual cash flows must consist __solely of payments of principal and interest__ on the principal outstanding. A plain fixed-rate bond with regular coupons typically passes. An instrument whose cash flows depend on equity returns, a leveraged multiple, or any non-principal-and-interest formula fails — and must be measured at FVTPL regardless of business model. Separately, a company may irrevocably designate an otherwise SPPI-eligible debt instrument at __FVTPL__ (the fair value option, or __FVO__) if doing so eliminates or significantly reduces a measurement inconsistency; that designation cannot later be revoked.
+The second criterion is often called the **SPPI test**: the instrument's contractual cash flows must consist **solely of payments of principal and interest** on the principal outstanding. A plain fixed-rate bond with regular coupons typically passes. An instrument whose cash flows depend on equity returns, a leveraged multiple, or any non-principal-and-interest formula fails — and must be measured at FVTPL regardless of business model. Separately, a company may irrevocably designate an otherwise SPPI-eligible debt instrument at **FVTPL** (the fair value option, or **FVO**) if doing so eliminates or significantly reduces a measurement inconsistency; that designation cannot later be revoked.
 
 If the company mainly wants to collect contractual interest and principal, amortized-cost accounting is appropriate. If it may both collect and sell, fair value still matters, but the unrealized changes stay out of ordinary profit and loss until realization. If it is actively trading, fair value changes belong in income immediately.
 
@@ -42,10 +42,10 @@ The transcript repeatedly links this classification to a practical investor ques
 
 > _Initial classification example._ A company buys {@{€100&nbsp;000 face amount of 8% bonds}@} for {@{€92&nbsp;000}@}. Management documents that the purpose is to {@{collect contractual interest and principal rather than to sell actively}@}. The initial entry is the same purchase entry that any debt investment would use, but the stated business model determines whether later accounting will follow amortized cost, HFCS, or trading rules.
 >
-> | {@{Purchase debt investment classified as held-for-collection}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Debt investments}@} | {@{92&nbsp;000}@} | |
-> | {@{Cash}@} | | {@{92&nbsp;000}@} |
+> | {@{Purchase debt investment classified as held-for-collection}@} |                Dr |                Cr |
+> | ---------------------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Debt investments}@}                                           | {@{92&nbsp;000}@} |                   |
+> | {@{Cash}@}                                                       |                   | {@{92&nbsp;000}@} |
 >
 > _Explanation._ The initial purchase entry does {@{not by itself reveal the later category}@}. The category comes from the documented business purpose: {@{collect}@}, {@{collect and sell}@}, or {@{trade}@}. <!--SR:!fsrs,2026-08-08T12:07:59.539Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:07:59.539Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T11:54:24.222Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:54:24.222Z!fsrs,2026-08-08T11:59:55.728Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:55.728Z!fsrs,2026-08-08T12:25:51.447Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:51.447Z!fsrs,2026-08-08T12:59:58.600Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:58.600Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T13:02:06.161Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:06.161Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T11:54:39.449Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:54:39.449Z!fsrs,2026-08-08T12:26:14.010Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:14.010Z-->
 
@@ -65,60 +65,62 @@ Flashcards for this section are as follows:
 
 ## debt investments at amortized cost
 
-A held-for-collection debt investment is initially recorded at cost and then carried using the __effective-interest method__. The effective-interest method keeps two numbers distinct:
+A held-for-collection debt investment is initially recorded at cost and then carried using the **effective-interest method**. The effective-interest method keeps two numbers distinct:
 
-- __cash interest received__: based on the bond's stated coupon; and
-- __interest revenue__: based on the bond's carrying amount and effective yield.
+- **cash interest received**: based on the bond's stated coupon; and
+- **interest revenue**: based on the bond's carrying amount and effective yield.
 
 The difference between them is the amortization of discount or premium.
 
-- For a __discount bond__, interest revenue is greater than cash received, so the carrying amount rises over time.
-- For a __premium bond__, interest revenue is less than cash received, so the carrying amount falls over time.
+- For a **discount bond**, interest revenue is greater than cash received, so the carrying amount rises over time.
+- For a **premium bond**, interest revenue is less than cash received, so the carrying amount falls over time.
 
 > _Discount bond at amortized cost._ Robinson buys {@{€100&nbsp;000 of 8% bonds}@} for {@{€92&nbsp;278}@}. The bonds mature in {@{5 years and yield 10%}@}. Interest is paid each {@{July 1 and January 1}@}.
 >
-> | {@{Purchase debt investment at amortized cost}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Debt investments}@} | {@{92&nbsp;278}@} | |
-> | {@{Cash}@} | | {@{92&nbsp;278}@} | <!--SR:!fsrs,2026-08-08T12:59:18.604Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:18.604Z!fsrs,2026-08-08T12:26:53.398Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:53.398Z!fsrs,2026-08-15T12:14:12.794Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:14:12.794Z!fsrs,2026-08-08T12:25:31.319Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:31.319Z!fsrs,2026-08-08T12:12:54.851Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:54.851Z!fsrs,2026-08-08T12:03:12.413Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:12.413Z!fsrs,2026-08-08T12:07:28.294Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:07:28.294Z!fsrs,2026-08-08T12:05:25.253Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:25.253Z!fsrs,2026-08-08T12:47:47.115Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:47:47.115Z-->
+> | {@{Purchase debt investment at amortized cost}@} |                Dr |                Cr |
+> | ------------------------------------------------ | ----------------: | ----------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{Debt investments}@}                           | {@{92&nbsp;278}@} |                   |
+> | {@{Cash}@}                                       |                   | {@{92&nbsp;278}@} | <!--SR:!fsrs,2026-08-08T12:59:18.604Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:18.604Z!fsrs,2026-08-08T12:26:53.398Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:53.398Z!fsrs,2026-08-15T12:14:12.794Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:14:12.794Z!fsrs,2026-08-08T12:25:31.319Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:31.319Z!fsrs,2026-08-08T12:12:54.851Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:54.851Z!fsrs,2026-08-08T12:03:12.413Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:12.413Z!fsrs,2026-08-08T12:07:28.294Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:07:28.294Z!fsrs,2026-08-08T12:05:25.253Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:25.253Z!fsrs,2026-08-08T12:47:47.115Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:47:47.115Z--> |
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Purchase between coupon dates instead of on a clean interest date._ Suppose the same bond is purchased {@{3 months after the last semiannual coupon date}@}. The investor still records the bond at its {@{92&nbsp;278 carrying amount}@}, but must also pay the seller {@{3 months of accrued coupon interest = €100&nbsp;000 × 8% × 3/12 = €2&nbsp;000}@}.
 >
-> | {@{Purchase amortized-cost debt investment between coupon dates}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Debt investments}@} | {@{92&nbsp;278}@} | |
-> | {@{Interest receivable}@} | {@{2&nbsp;000}@} | |
-> | {@{Cash}@} | | {@{94&nbsp;278}@} |
+> | {@{Purchase amortized-cost debt investment between coupon dates}@} |                Dr |                Cr |
+> | ------------------------------------------------------------------ | ----------------: | ----------------: |
+> | {@{Debt investments}@}                                             | {@{92&nbsp;278}@} |                   |
+> | {@{Interest receivable}@}                                          |  {@{2&nbsp;000}@} |                   |
+> | {@{Cash}@}                                                         |                   | {@{94&nbsp;278}@} |
 >
 > _Explanation._ The buyer pays for both the {@{bond itself at its 92&nbsp;278 carrying amount}@} and the {@{seller's already-earned coupon period up to the purchase date}@}. The accrued-interest piece is {@{not part of the bond's carrying amount}@}.
 >
 > _At the next coupon date (3 months later)._ The investor receives the full {@{€4&nbsp;000 semiannual coupon}@}. Of that amount, {@{€2&nbsp;000 clears the Interest receivable recorded at purchase}@}. The remaining {@{3 months belong to the new investor}@}, so current-period interest revenue is {@{€92&nbsp;278 × 10% × 3/12 ≈ €2&nbsp;307}@}. Discount amortization for the 3-month holding period is therefore {@{€2&nbsp;307 − €2&nbsp;000 = €307}@}.
 >
-> | {@{Record the next coupon receipt after purchasing the bond between coupon dates}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{4&nbsp;000}@} | |
-> | {@{Debt investments}@} | {@{307}@} | |
-> | {@{Interest receivable}@} | | {@{2&nbsp;000}@} |
-> | {@{Interest revenue}@} | | {@{2&nbsp;307}@} |
+> | {@{Record the next coupon receipt after purchasing the bond between coupon dates}@} |               Dr |               Cr |
+> | ----------------------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Cash}@}                                                                          | {@{4&nbsp;000}@} |                  |
+> | {@{Debt investments}@}                                                              |        {@{307}@} |                  |
+> | {@{Interest receivable}@}                                                           |                  | {@{2&nbsp;000}@} |
+> | {@{Interest revenue}@}                                                              |                  | {@{2&nbsp;307}@} |
 >
 > _Interpretation._ The next coupon date mixes {@{recovery of the seller's accrued interest}@} with the {@{new investor's own 3-month effective-interest revenue and discount amortization}@}. That is why this entry differs from a clean-date purchase. The later year-end accrual uses the same structure again, except that {@{Interest receivable replaces Cash because the coupon has not yet been collected}@}. <!--SR:!fsrs,2026-08-08T13:00:01.821Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:01.821Z!fsrs,2026-08-08T12:30:11.919Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:30:11.919Z!fsrs,2026-08-08T12:26:41.942Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:41.942Z!fsrs,2026-08-08T12:24:34.312Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:34.312Z!fsrs,2026-08-08T12:25:24.010Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:24.010Z!fsrs,2026-08-08T13:00:12.196Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:12.196Z!fsrs,2026-08-08T13:03:36.391Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:36.391Z!fsrs,2026-08-08T13:00:31.506Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:31.506Z!fsrs,2026-08-08T12:08:20.899Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:20.899Z!fsrs,2026-08-08T12:26:52.560Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:52.560Z!fsrs,2026-08-08T12:26:35.942Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:35.942Z!fsrs,2026-08-08T12:22:36.706Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:36.706Z!fsrs,2026-08-08T12:59:02.747Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:02.747Z!fsrs,2026-08-08T12:25:06.691Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:06.691Z!fsrs,2026-08-08T13:03:49.014Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:49.014Z!fsrs,2026-08-08T12:25:11.444Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:11.444Z!fsrs,2026-08-08T12:09:10.099Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:09:10.099Z!fsrs,2026-08-08T12:11:04.005Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:11:04.005Z!fsrs,2026-08-08T12:12:02.846Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:02.846Z!fsrs,2026-08-08T12:23:00.352Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:00.352Z!fsrs,2026-08-08T12:25:59.225Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:59.225Z!fsrs,2026-08-08T12:28:13.134Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:28:13.134Z!fsrs,2026-08-08T12:08:17.349Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:17.349Z!fsrs,2026-08-08T13:03:42.407Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:42.407Z!fsrs,2026-08-08T13:01:37.994Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:37.994Z!fsrs,2026-08-15T12:26:41.225Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:26:41.225Z!fsrs,2026-08-08T13:03:19.956Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:19.956Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Sale of held-for-collection bonds before maturity._ Assume the carrying amount has already been updated through the sale date to {@{€96&nbsp;200}@}. Immediately before the sale entry, assume the investor must still record the last amortization update for the stub period: carrying amount before the update is {@{€95&nbsp;555}@}, and the final discount amortization needed to reach the sale-date amortized cost is therefore {@{€645 = €96&nbsp;200 − €95&nbsp;555}@}. That final stub-period interest revenue consists of {@{€2&nbsp;667 accrued interest revenue plus €645 discount amortization = €3&nbsp;312 total interest revenue}@}. The bonds are then sold for {@{99.60 plus accrued interest}@}, so cash received is {@{€102&nbsp;267 = €99&nbsp;600 + €2&nbsp;667 accrued interest}@}.
 >
-> | {@{Update the held-for-collection bond to its sale-date amortized cost before recording the sale}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Interest receivable}@} | {@{2&nbsp;667}@} | |
-> | {@{Debt investments}@} | {@{645}@} | |
-> | {@{Interest revenue}@} | | {@{3&nbsp;312}@} |
+> | {@{Update the held-for-collection bond to its sale-date amortized cost before recording the sale}@} |               Dr |               Cr |
+> | --------------------------------------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Interest receivable}@}                                                                           | {@{2&nbsp;667}@} |                  |
+> | {@{Debt investments}@}                                                                              |        {@{645}@} |                  |
+> | {@{Interest revenue}@}                                                                              |                  | {@{3&nbsp;312}@} |
 >
-> | {@{Sell held-for-collection debt investment before maturity}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{102&nbsp;267}@} | |
-> | {@{Interest receivable}@} | | {@{2&nbsp;667}@} |
-> | {@{Debt investments}@} | | {@{96&nbsp;200}@} |
-> | {@{Gain on sale of investments}@} | | {@{3&nbsp;400}@} |
+> | {@{Sell held-for-collection debt investment before maturity}@} |                 Dr |                Cr |
+> | -------------------------------------------------------------- | -----------------: | ----------------: |
+> | {@{Cash}@}                                                     | {@{102&nbsp;267}@} |                   |
+> | {@{Interest receivable}@}                                      |                    |  {@{2&nbsp;667}@} |
+> | {@{Debt investments}@}                                         |                    | {@{96&nbsp;200}@} |
+> | {@{Gain on sale of investments}@}                              |                    |  {@{3&nbsp;400}@} |
 >
 > _Explanation._ The sale-date entry combines the {@{collection of the already-accrued interest receivable}@} and the {@{realized gain on disposal versus carrying amount}@}. That is why the cash figure is larger than the clean bond price alone. <!--SR:!fsrs,2026-08-08T12:23:47.735Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:47.735Z!fsrs,2026-08-08T12:08:51.185Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:51.185Z!fsrs,2026-08-08T12:08:23.444Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:23.444Z!fsrs,2026-08-08T12:25:21.188Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:21.188Z!fsrs,2026-08-08T12:08:01.836Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:01.836Z!fsrs,2026-08-08T12:03:18.797Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:18.797Z!fsrs,2026-08-08T12:08:28.999Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:28.999Z!fsrs,2026-08-15T12:03:27.629Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:03:27.629Z!fsrs,2026-08-08T12:24:29.250Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:29.250Z!fsrs,2026-08-08T12:09:11.149Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:09:11.149Z!fsrs,2026-08-08T12:09:08.507Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:09:08.507Z!fsrs,2026-08-08T12:05:36.000Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:36.000Z!fsrs,2026-08-08T12:23:55.152Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:55.152Z!fsrs,2026-08-08T12:28:07.543Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:28:07.543Z!fsrs,2026-08-08T12:22:53.625Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:53.625Z!fsrs,2026-08-08T12:59:09.298Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:09.298Z!fsrs,2026-08-08T12:08:57.840Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:57.840Z!fsrs,2026-08-08T12:26:38.968Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:38.968Z-->
 
@@ -151,70 +153,73 @@ Flashcards for this section are as follows:
 
 ### held-for-collection and selling
 
-Debt investments held for both collection and possible sale follow the same interest-revenue and amortized-cost entries during the period, but at each reporting date the company also adjusts them to __fair value__. The unrealized change goes to __OCI__ rather than net income.
+Debt investments held for both collection and possible sale follow the same interest-revenue and amortized-cost entries during the period, but at each reporting date the company also adjusts them to **fair value**. The unrealized change goes to **OCI** rather than net income.
 
 > _HFCS bond at premium._ Graff buys {@{£100&nbsp;000 of 10% bonds}@} for {@{£108&nbsp;111}@}, giving an effective yield of {@{8%, so the bond carries a premium above face}@}. After recording interest revenue and premium amortization during the year, the amortized carrying amount at year-end is {@{£106&nbsp;732, but fair value is only £105&nbsp;000}@}.
 >
-> | {@{Record first semiannual HFCS interest revenue and premium amortization}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{5&nbsp;000}@} | |
-> | {@{Debt investments}@} | | {@{676}@} |
-> | {@{Interest revenue}@} | | {@{4&nbsp;324}@} |
+> | {@{Record first semiannual HFCS interest revenue and premium amortization}@} |               Dr |               Cr |
+> | ---------------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Cash}@}                                                                   | {@{5&nbsp;000}@} |                  |
+> | {@{Debt investments}@}                                                       |                  |        {@{676}@} |
+> | {@{Interest revenue}@}                                                       |                  | {@{4&nbsp;324}@} |
 >
-> | {@{Accrue year-end HFCS interest revenue and premium amortization}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Interest receivable}@} | {@{5&nbsp;000}@} | |
-> | {@{Debt investments}@} | | {@{703}@} |
-> | {@{Interest revenue}@} | | {@{4&nbsp;297}@} |
+> | {@{Accrue year-end HFCS interest revenue and premium amortization}@} |               Dr |               Cr |
+> | -------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Interest receivable}@}                                            | {@{5&nbsp;000}@} |                  |
+> | {@{Debt investments}@}                                               |                  |        {@{703}@} |
+> | {@{Interest revenue}@}                                               |                  | {@{4&nbsp;297}@} |
 >
-> | {@{Apply fair value to HFCS debt investment}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{1&nbsp;732}@} | |
-> | {@{Fair value adjustment}@} | | {@{1&nbsp;732}@} |
+> | {@{Apply fair value to HFCS debt investment}@}       |               Dr |               Cr |
+> | ---------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{1&nbsp;732}@} |                  |
+> | {@{Fair value adjustment}@}                          |                  | {@{1&nbsp;732}@} |
 >
 > _Explanation._ The bond is still shown at fair value on the statement of financial position, but the unrealized decline is kept out of current net income. Using the endpoint method, the required ending {@{Fair value adjustment credit balance is £1&nbsp;732 because fair value £105&nbsp;000 is £1&nbsp;732 below amortized carrying amount £106&nbsp;732}@}. If no earlier fair value adjustment balance exists, the full {@{£1&nbsp;732}@} is recorded now. <!--SR:!fsrs,2026-08-08T12:31:02.861Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:31:02.861Z!fsrs,2026-08-15T12:05:22.693Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:05:22.693Z!fsrs,2026-08-08T13:00:10.197Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:10.197Z!fsrs,2026-08-08T12:06:21.981Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:21.981Z!fsrs,2026-08-08T12:22:56.481Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:56.481Z!fsrs,2026-08-08T12:25:03.061Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:03.061Z!fsrs,2026-08-08T12:25:09.058Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:09.058Z!fsrs,2026-08-08T13:02:29.715Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:29.715Z!fsrs,2026-08-08T12:08:18.563Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:18.563Z!fsrs,2026-08-15T13:02:08.744Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T13:02:08.744Z!fsrs,2026-08-08T12:59:10.984Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:10.984Z!fsrs,2026-08-08T12:07:33.185Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:07:33.185Z!fsrs,2026-08-08T13:03:20.906Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:20.906Z!fsrs,2026-08-08T12:59:13.395Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:13.395Z!fsrs,2026-08-08T12:07:29.760Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:07:29.760Z!fsrs,2026-08-20T12:08:22.496Z,68,68.48173907,2.13040023,2,3,0,0,2026-06-13T12:08:22.496Z!fsrs,2026-08-08T12:25:27.735Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:27.735Z!fsrs,2026-08-08T12:28:08.827Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:28:08.827Z!fsrs,2026-08-08T12:06:58.399Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:58.399Z!fsrs,2026-08-08T12:25:55.168Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:55.168Z!fsrs,2026-08-08T12:22:22.340Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:22.340Z!fsrs,2026-08-08T12:23:18.790Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:18.790Z!fsrs,2026-08-08T12:12:22.068Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:22.068Z!fsrs,2026-08-08T12:24:21.824Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:21.824Z!fsrs,2026-08-08T13:01:36.795Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:36.795Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _HFCS portfolio fair value adjustment._ A company holds two HFCS bonds. One shows an unrealized loss of {@{€12&nbsp;000}@} and the other an unrealized gain of {@{€2&nbsp;500}@}. The portfolio therefore has a {@{net unrealized loss of €9&nbsp;500}@} at year-end.
 >
-> | {@{Record net portfolio fair value loss on HFCS debt investments}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{9&nbsp;500}@} | |
-> | {@{Fair value adjustment}@} | | {@{9&nbsp;500}@} |
+> | {@{Record net portfolio fair value loss on HFCS debt investments}@} |               Dr |               Cr |
+> | ------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Unrealized holding gain or loss — equity (OCI)}@}                | {@{9&nbsp;500}@} |                  |
+> | {@{Fair value adjustment}@}                                         |                  | {@{9&nbsp;500}@} |
 >
 > _Explanation._ This is the same endpoint method at the portfolio level: the required ending {@{Fair value adjustment credit balance is €9&nbsp;500}@}, so the entry simply moves the account to that balance. <!--SR:!fsrs,2026-08-08T12:12:55.725Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:55.725Z!fsrs,2026-08-08T12:26:26.409Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:26.409Z!fsrs,2026-08-15T12:12:33.174Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:12:33.174Z!fsrs,2026-08-08T12:10:28.417Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:28.417Z!fsrs,2026-08-08T12:05:20.170Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:20.170Z!fsrs,2026-08-08T13:02:39.140Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:39.140Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Sale of an HFCS bond._ One HFCS bond is sold for {@{€90&nbsp;000 plus accrued interest}@} when its amortized cost is {@{€94&nbsp;200}@}. Immediately before the sale entry, assume the investor must still record the last amortization update for the stub period: carrying amount before the update is {@{€93&nbsp;555}@}, and the final discount amortization needed to reach the sale-date amortized cost is therefore {@{€645 = €94&nbsp;200 − €93&nbsp;555}@}. That final stub-period interest revenue consists of {@{€2&nbsp;667 accrued interest revenue plus €645 discount amortization = €3&nbsp;312 total interest revenue}@}. Total cash received is therefore {@{€92&nbsp;667 = €90&nbsp;000 clean price + €2&nbsp;667 accrued interest}@}.
 >
-> | {@{Update the held-for-collection bond to its sale-date amortized cost before recording the sale}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Interest receivable}@} | {@{2&nbsp;667}@} | |
-> | {@{Debt investments}@} | {@{645}@} | |
-> | {@{Interest revenue}@} | | {@{3&nbsp;312}@} |
+> | {@{Update the held-for-collection bond to its sale-date amortized cost before recording the sale}@} |               Dr |               Cr |
+> | --------------------------------------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Interest receivable}@}                                                                           | {@{2&nbsp;667}@} |                  |
+> | {@{Debt investments}@}                                                                              |        {@{645}@} |                  |
+> | {@{Interest revenue}@}                                                                              |                  | {@{3&nbsp;312}@} |
 >
-> | {@{Sell HFCS debt investment and recognize realized loss}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{92&nbsp;667}@} | |
-> | {@{Interest receivable}@} | | {@{2&nbsp;667}@} |
-> | {@{Loss on sale of investments}@} | {@{4&nbsp;200}@} | |
-> | {@{Debt investments}@} | | {@{94&nbsp;200}@} |
+> | {@{Sell HFCS debt investment and recognize realized loss}@} |                Dr |                Cr |
+> | ----------------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Cash}@}                                                  | {@{92&nbsp;667}@} |                   |
+> | {@{Interest receivable}@}                                   |                   |  {@{2&nbsp;667}@} |
+> | {@{Loss on sale of investments}@}                           |  {@{4&nbsp;200}@} |                   |
+> | {@{Debt investments}@}                                      |                   | {@{94&nbsp;200}@} |
+>
+> _Explanation._ If this bond carries {@{no accumulated OCI / AOCI balance at the sale date}@}, there is {@{no OCI layer left to clear}@}; the disposal entry simply compares sale proceeds with the bond's {@{amortized cost at the sale date}@}. That is also why **trading debt investments** never need an OCI-clearing step on sale: their fair-value changes were already recognized in {@{net income rather than OCI}@}.
+
 <!-- markdownlint-disable MD028 -->
 
-> _Explanation._ If this bond carries {@{no accumulated OCI / AOCI balance at the sale date}@}, there is {@{no OCI layer left to clear}@}; the disposal entry simply compares sale proceeds with the bond's {@{amortized cost at the sale date}@}. That is also why __trading debt investments__ never need an OCI-clearing step on sale: their fair-value changes were already recognized in {@{net income rather than OCI}@}.
-
-> _Sale of an HFCS bond with an accumulated OCI balance._ Suppose the same bond also carries an existing {@{€3&nbsp;800 cumulative unrealized loss in OCI}@} from earlier fair-value adjustments, with a matching {@{€3&nbsp;800 credit balance in Fair value adjustment}@}. The bond's {@{amortized cost is still €94&nbsp;200}@}, but its {@{fair-value carrying amount is only €90&nbsp;400 = €94&nbsp;200 − €3&nbsp;800}@}. Because the note is measuring the disposal loss against {@{amortized cost}@}, the company should __not__ add a second standalone loss entry for OCI recycling on top of that. Instead it clears the fair-value layer as part of the overall disposal mechanics.
+> _Sale of an HFCS bond with an accumulated OCI balance._ Suppose the same bond also carries an existing {@{€3&nbsp;800 cumulative unrealized loss in OCI}@} from earlier fair-value adjustments, with a matching {@{€3&nbsp;800 credit balance in Fair value adjustment}@}. The bond's {@{amortized cost is still €94&nbsp;200}@}, but its {@{fair-value carrying amount is only €90&nbsp;400 = €94&nbsp;200 − €3&nbsp;800}@}. Because the note is measuring the disposal loss against {@{amortized cost}@}, the company should **not** add a second standalone loss entry for OCI recycling on top of that. Instead it clears the fair-value layer as part of the overall disposal mechanics.
 >
-> | {@{Sell HFCS debt investment when a prior OCI loss and matching fair value adjustment are still on the books}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{92&nbsp;667}@} | |
-> | {@{Fair value adjustment}@} | {@{3&nbsp;800}@} | |
-> | {@{Loss on sale of investments}@} | {@{4&nbsp;200}@} | |
-> | {@{Interest receivable}@} | | {@{2&nbsp;667}@} |
-> | {@{Debt investments}@} | | {@{94&nbsp;200}@} |
-> | {@{Accumulated comprehensive income}@} | | {@{3&nbsp;800}@} | <!--SR:!fsrs,2026-08-08T12:23:09.320Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:09.320Z!fsrs,2026-08-08T12:25:33.358Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:33.358Z!fsrs,2026-08-15T12:00:52.387Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:00:52.387Z!fsrs,2026-08-15T12:08:47.462Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:08:47.462Z!fsrs,2026-08-08T12:14:14.889Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:14:14.889Z!fsrs,2026-08-08T13:02:06.798Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:06.798Z!fsrs,2026-08-08T12:12:24.819Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:24.819Z!fsrs,2026-08-08T12:23:24.907Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:24.907Z!fsrs,2026-08-08T13:01:54.314Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:54.314Z!fsrs,2026-08-08T11:59:46.818Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:46.818Z!fsrs,2026-08-08T12:06:11.797Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:11.797Z!fsrs,2026-08-08T12:04:52.417Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:52.417Z!fsrs,2026-08-08T12:25:10.532Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:10.532Z!fsrs,2026-08-08T12:10:50.608Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:50.608Z!fsrs,2026-08-08T13:00:07.211Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:07.211Z!fsrs,2026-08-08T12:10:57.821Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:57.821Z!fsrs,2026-08-08T13:03:38.699Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:38.699Z!fsrs,2026-08-08T12:22:23.806Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:23.806Z-->
+> | {@{Sell HFCS debt investment when a prior OCI loss and matching fair value adjustment are still on the books}@} |                Dr |                Cr |
+> | --------------------------------------------------------------------------------------------------------------- | ----------------: | ----------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{Cash}@}                                                                                                      | {@{92&nbsp;667}@} |                   |
+> | {@{Fair value adjustment}@}                                                                                     |  {@{3&nbsp;800}@} |                   |
+> | {@{Loss on sale of investments}@}                                                                               |  {@{4&nbsp;200}@} |                   |
+> | {@{Interest receivable}@}                                                                                       |                   |  {@{2&nbsp;667}@} |
+> | {@{Debt investments}@}                                                                                          |                   | {@{94&nbsp;200}@} |
+> | {@{Accumulated comprehensive income}@}                                                                          |                   |  {@{3&nbsp;800}@} | <!--SR:!fsrs,2026-08-08T12:23:09.320Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:09.320Z!fsrs,2026-08-08T12:25:33.358Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:33.358Z!fsrs,2026-08-15T12:00:52.387Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:00:52.387Z!fsrs,2026-08-15T12:08:47.462Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:08:47.462Z!fsrs,2026-08-08T12:14:14.889Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:14:14.889Z!fsrs,2026-08-08T13:02:06.798Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:06.798Z!fsrs,2026-08-08T12:12:24.819Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:24.819Z!fsrs,2026-08-08T12:23:24.907Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:24.907Z!fsrs,2026-08-08T13:01:54.314Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:54.314Z!fsrs,2026-08-08T11:59:46.818Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:46.818Z!fsrs,2026-08-08T12:06:11.797Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:11.797Z!fsrs,2026-08-08T12:04:52.417Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:52.417Z!fsrs,2026-08-08T12:25:10.532Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:10.532Z!fsrs,2026-08-08T12:10:50.608Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:50.608Z!fsrs,2026-08-08T13:00:07.211Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:07.211Z!fsrs,2026-08-08T12:10:57.821Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:57.821Z!fsrs,2026-08-08T13:03:38.699Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:38.699Z!fsrs,2026-08-08T12:22:23.806Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:23.806Z--> |
 
-_Explanation._ Your concern is correct: if the sale loss is already being recorded as {@{sale proceeds versus amortized cost}@}, then a separate extra {@{Dr Loss on sale / Cr Accumulated comprehensive income}@} line would __double count__ the OCI loss. The correct mechanics are to record the total {@{€4&nbsp;200 loss once}@} and also clear the old {@{Fair value adjustment and related accumulated OCI balance}@}. A separate standalone OCI-to-loss reclassification entry would be used only under a different presentation where the disposal gain or loss were first measured against the bond's {@{fair-value carrying amount instead of amortized cost}@}. <!--SR:!fsrs,2026-08-08T13:03:44.621Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:44.621Z!fsrs,2026-08-08T13:00:00.297Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:00.297Z!fsrs,2026-08-08T12:06:30.139Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:30.139Z!fsrs,2026-09-13T00:00:00.000Z,68,68.45784196,4.97239934,2,3,0,0,2026-07-07T00:00:00.000Z!fsrs,2026-08-08T12:03:16.458Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:16.458Z-->
+_Explanation._ Your concern is correct: if the sale loss is already being recorded as {@{sale proceeds versus amortized cost}@}, then a separate extra {@{Dr Loss on sale / Cr Accumulated comprehensive income}@} line would **double count** the OCI loss. The correct mechanics are to record the total {@{€4&nbsp;200 loss once}@} and also clear the old {@{Fair value adjustment and related accumulated OCI balance}@}. A separate standalone OCI-to-loss reclassification entry would be used only under a different presentation where the disposal gain or loss were first measured against the bond's {@{fair-value carrying amount instead of amortized cost}@}. <!--SR:!fsrs,2026-08-08T13:03:44.621Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:44.621Z!fsrs,2026-08-08T13:00:00.297Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:00.297Z!fsrs,2026-08-08T12:06:30.139Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:30.139Z!fsrs,2026-09-13T00:00:00.000Z,68,68.45784196,4.97239934,2,3,0,0,2026-07-07T00:00:00.000Z!fsrs,2026-08-08T12:03:16.458Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:16.458Z-->
 
 <!-- markdownlint-enable MD028 -->
 
@@ -228,24 +233,24 @@ Flashcards for this section are as follows:
 - HFCS sale: realized gain or loss is based on what comparison? ::@:: Sale proceeds versus the investment's amortized cost at the sale date. <!--SR:!fsrs,2026-08-08T13:02:51.916Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:51.916Z!fsrs,2026-08-05T12:59:49.201Z,53,53.45649914,3.13101527,2,3,0,0,2026-06-13T12:59:49.201Z-->
 - HFCS sale with prior OCI history: what extra step is needed? ::@:: Clear the accumulated OCI balance related to that debt investment out of equity when the bond is sold, but do not double count the loss if disposal is already measured against amortized cost. <!--SR:!fsrs,2026-08-08T12:25:18.908Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:18.908Z!fsrs,2026-08-30T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-20T00:00:00.000Z-->
 
-When an HFCS debt investment is sold, the realized gain or loss is based on sale proceeds versus __amortized cost__, not versus original purchase price. The company must also update the fair-value-adjustment balances appropriately.
+When an HFCS debt investment is sold, the realized gain or loss is based on sale proceeds versus **amortized cost**, not versus original purchase price. The company must also update the fair-value-adjustment balances appropriately.
 
 ### trading debt investments
 
 Trading debt investments are simpler conceptually but more volatile in income:
 
 - they are held for short-term sale or active portfolio management;
-- they are measured at __fair value__; and
-- unrealized holding gains and losses go to __net income__.
+- they are measured at **fair value**; and
+- unrealized holding gains and losses go to **net income**.
 
-The fair-value adjustment for trading securities is usually done at the __portfolio__ level in this course.
+The fair-value adjustment for trading securities is usually done at the **portfolio** level in this course.
 
 > _Trading portfolio year-end adjustment._ Western Publishing measures a newly acquired trading debt portfolio and finds that fair value exceeds carrying amount by {@{3&nbsp;750}@}.
 >
-> | {@{Record year-end fair value increase for trading debt portfolio}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Fair value adjustment}@} | {@{3&nbsp;750}@} | |
-> | {@{Unrealized holding gain or loss — income}@} | | {@{3&nbsp;750}@} |
+> | {@{Record year-end fair value increase for trading debt portfolio}@} |               Dr |               Cr |
+> | -------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Fair value adjustment}@}                                          | {@{3&nbsp;750}@} |                  |
+> | {@{Unrealized holding gain or loss — income}@}                       |                  | {@{3&nbsp;750}@} |
 >
 > _Explanation._ The endpoint method works here too: the required ending {@{Fair value adjustment debit balance is 3&nbsp;750 because fair value exceeds carrying amount by that amount}@}. If the account already had a balance, only the difference needed to reach the required ending balance would be recorded. <!--SR:!fsrs,2026-08-08T12:26:40.208Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:40.208Z!fsrs,2026-08-15T12:14:14.212Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:14:14.212Z!fsrs,2026-08-08T13:02:34.576Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:34.576Z!fsrs,2026-08-08T12:04:51.613Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:51.613Z!fsrs,2026-08-08T12:22:58.347Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:58.347Z!fsrs,2026-08-08T12:24:06.004Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:06.004Z!fsrs,2026-08-08T12:06:13.289Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:13.289Z-->
 
@@ -259,7 +264,7 @@ Flashcards for this section are as follows:
 
 ## equity investments at fair value
 
-An equity investment represents an ownership interest such as ordinary shares, preference shares, warrants, or similar rights. For investments with less than 20% influence, the course separates two broad fair-value treatments. Because both categories are already carried at __fair value__, no separate impairment test is required for FVTPL or FVOCI-equity investments — any economic decline is captured through the recurring fair-value remeasurement each period.
+An equity investment represents an ownership interest such as ordinary shares, preference shares, warrants, or similar rights. For investments with less than 20% influence, the course separates two broad fair-value treatments. Because both categories are already carried at **fair value**, no separate impairment test is required for FVTPL or FVOCI-equity investments — any economic decline is captured through the recurring fair-value remeasurement each period.
 
 ---
 
@@ -276,37 +281,38 @@ Flashcards for this section are as follows:
 Under IFRS, a small equity investment is often presumed to be held for trading unless the company elects a non-trading OCI presentation for the particular investment. Trading equity investments are:
 
 - measured at fair value; and
-- all unrealized gains and losses go to __net income__.
+- all unrealized gains and losses go to **net income**.
 
-Cash dividends received are recognized as __dividend revenue__.
+Cash dividends received are recognized as **dividend revenue**.
 
 > _Trading equity portfolio acquired and remeasured._ A company buys a trading portfolio of ordinary shares for {@{€720&nbsp;000}@}. Before year-end, it receives {@{€4&nbsp;500 cash dividends}@}. At year-end the portfolio's fair value has fallen by {@{€36&nbsp;000}@}.
 >
-> | {@{Purchase trading equity investments}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Equity investments}@} | {@{720&nbsp;000}@} | |
-> | {@{Cash}@} | | {@{720&nbsp;000}@} |
+> | {@{Purchase trading equity investments}@} |                 Dr |                 Cr |
+> | ----------------------------------------- | -----------------: | -----------------: |
+> | {@{Equity investments}@}                  | {@{720&nbsp;000}@} |                    |
+> | {@{Cash}@}                                |                    | {@{720&nbsp;000}@} |
 >
-> | {@{Record dividend revenue on trading equity investments}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{4&nbsp;500}@} | |
-> | {@{Dividend revenue}@} | | {@{4&nbsp;500}@} |
+> | {@{Record dividend revenue on trading equity investments}@} |               Dr |               Cr |
+> | ----------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Cash}@}                                                  | {@{4&nbsp;500}@} |                  |
+> | {@{Dividend revenue}@}                                      |                  | {@{4&nbsp;500}@} |
 >
-> | {@{Record year-end fair value loss on trading equity portfolio}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — income}@} | {@{36&nbsp;000}@} | |
-> | {@{Fair value adjustment}@} | | {@{36&nbsp;000}@} |
+> | {@{Record year-end fair value loss on trading equity portfolio}@} |                Dr |                Cr |
+> | ----------------------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Unrealized holding gain or loss — income}@}                    | {@{36&nbsp;000}@} |                   |
+> | {@{Fair value adjustment}@}                                       |                   | {@{36&nbsp;000}@} |
 >
 > _Explanation._ The endpoint method works here as well: the required ending {@{Fair value adjustment credit balance is €36&nbsp;000 because fair value is €36&nbsp;000 below carrying amount}@}. If the account already had a balance, only the amount needed to move it to that ending balance would be recorded. <!--SR:!fsrs,2026-08-08T12:13:15.151Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:13:15.151Z!fsrs,2026-08-08T11:59:39.134Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:39.134Z!fsrs,2026-08-08T12:25:12.091Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:12.091Z!fsrs,2026-08-08T12:10:44.235Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:44.235Z!fsrs,2026-08-08T12:26:44.358Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:44.358Z!fsrs,2026-08-08T12:26:39.575Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:39.575Z!fsrs,2026-08-08T12:26:30.478Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:30.478Z!fsrs,2026-08-15T12:24:49.445Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:24:49.445Z!fsrs,2026-08-08T12:24:07.047Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:07.047Z!fsrs,2026-08-08T12:03:13.537Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:13.537Z!fsrs,2026-08-08T12:25:23.068Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:23.068Z!fsrs,2026-08-08T12:25:13.926Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:13.926Z!fsrs,2026-08-08T12:10:44.911Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:44.911Z!fsrs,2026-08-08T12:08:10.285Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:10.285Z!fsrs,2026-08-08T12:22:52.906Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:52.906Z!fsrs,2026-08-08T12:14:08.997Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:14:08.997Z!fsrs,2026-08-08T12:06:14.357Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:14.357Z!fsrs,2026-08-08T13:01:28.917Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:28.917Z!fsrs,2026-08-08T12:23:11.590Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:11.590Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Sale of a trading equity investment._ Later, one block of shares is sold for {@{€287&nbsp;000}@} when its adjusted carrying amount is {@{€260&nbsp;000}@}.
 >
-> | {@{Sell trading equity investment and recognize realized gain}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{287&nbsp;000}@} | |
-> | {@{Equity investments}@} | | {@{260&nbsp;000}@} |
-> | {@{Gain on sale of investments}@} | | {@{27&nbsp;000}@} |
+> | {@{Sell trading equity investment and recognize realized gain}@} |                 Dr |                 Cr |
+> | ---------------------------------------------------------------- | -----------------: | -----------------: |
+> | {@{Cash}@}                                                       | {@{287&nbsp;000}@} |                    |
+> | {@{Equity investments}@}                                         |                    | {@{260&nbsp;000}@} |
+> | {@{Gain on sale of investments}@}                                |                    |  {@{27&nbsp;000}@} |
 >
 > _Explanation._ No separate {@{AOCI or OCI reclassification entry is needed for the sale of a trading equity investment}@} because the investment's earlier unrealized fair-value changes were already recognized in {@{net income rather than OCI}@}. The sale entry therefore just removes the adjusted carrying amount and records the realized gain or loss. <!--SR:!fsrs,2026-08-08T12:23:07.823Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:07.823Z!fsrs,2026-08-08T12:06:38.765Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:38.765Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:24:16.164Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:16.164Z!fsrs,2026-08-08T12:03:38.615Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:38.615Z!fsrs,2026-08-08T12:10:41.141Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:41.141Z!fsrs,2026-08-08T12:23:41.668Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:41.668Z!fsrs,2026-08-08T11:59:51.673Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:51.673Z!fsrs,2026-08-08T12:23:04.985Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:04.985Z-->
 
@@ -320,36 +326,37 @@ Flashcards for this section are as follows:
 
 ### non-trading equity investments (OCI)
 
-Some small equity investments are strategic rather than trading-oriented. The course treats these as fair-value investments whose unrealized changes go to __OCI__ instead of net income. One detail from the slides matters:
+Some small equity investments are strategic rather than trading-oriented. The course treats these as fair-value investments whose unrealized changes go to **OCI** instead of net income. One detail from the slides matters:
 
-- the non-trading classification is applied __investment by investment__, not as a whole portfolio bucket.
+- the non-trading classification is applied **investment by investment**, not as a whole portfolio bucket.
 
 > _Non-trading strategic equity investment._ Republic buys {@{1&nbsp;000 Hawthorne ordinary shares}@} for {@{€20&nbsp;750}@}. At year-end, fair value is {@{€24&nbsp;000}@}, so the carrying value must increase by {@{€3&nbsp;250}@}.
 >
-> | {@{Increase non-trading equity investment to fair value}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Equity investment}@} | {@{3&nbsp;250}@} | |
-> | {@{Unrealized holding gain or loss — equity (OCI)}@} | | {@{3&nbsp;250}@} |
+> | {@{Increase non-trading equity investment to fair value}@} |               Dr |               Cr |
+> | ---------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Equity investment}@}                                    | {@{3&nbsp;250}@} |                  |
+> | {@{Unrealized holding gain or loss — equity (OCI)}@}       |                  | {@{3&nbsp;250}@} |
 >
 > _Interpretation._ Dividends still go to income, but the unrealized fair-value movement does not. The same endpoint logic still works: {@{€24&nbsp;000 fair value − €20&nbsp;750 carrying amount = €3&nbsp;250}@}. The only difference is that this course records the adjustment {@{directly in the Equity investment account instead of using a separate Fair value adjustment account}@}. <!--SR:!fsrs,2026-08-08T12:24:35.616Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:35.616Z!fsrs,2026-08-08T13:00:06.638Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:06.638Z!fsrs,2026-08-08T12:25:50.476Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:50.476Z!fsrs,2026-08-08T12:23:17.890Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:17.890Z!fsrs,2026-08-08T12:04:53.580Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:53.580Z!fsrs,2026-08-15T13:03:43.001Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T13:03:43.001Z!fsrs,2026-08-08T12:08:59.695Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:59.695Z!fsrs,2026-08-08T12:06:26.502Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:26.502Z!fsrs,2026-08-15T11:54:40.333Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T11:54:40.333Z!fsrs,2026-08-08T13:00:03.587Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:03.587Z!fsrs,2026-08-08T12:25:49.692Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:49.692Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Dividend and downward adjustment before sale for a non-trading equity investment._ Assume the same investment later pays a {@{€450 dividend}@}. Before sale, fair value falls from {@{€24&nbsp;000 to €22&nbsp;500}@}, so part of the earlier OCI gain must be reversed.
 >
-> | {@{Record dividend revenue on non-trading equity investment}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{450}@} | |
-> | {@{Dividend revenue}@} | | {@{450}@} |
+> | {@{Record dividend revenue on non-trading equity investment}@} |        Dr |        Cr |
+> | -------------------------------------------------------------- | --------: | --------: |
+> | {@{Cash}@}                                                     | {@{450}@} |           |
+> | {@{Dividend revenue}@}                                         |           | {@{450}@} |
 >
-> | {@{Reduce carrying amount of non-trading equity investment to new fair value}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{1&nbsp;500}@} | |
-> | {@{Equity investment}@} | | {@{1&nbsp;500}@} |
+> | {@{Reduce carrying amount of non-trading equity investment to new fair value}@} |               Dr |               Cr |
+> | ------------------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Unrealized holding gain or loss — equity (OCI)}@}                            | {@{1&nbsp;500}@} |                  |
+> | {@{Equity investment}@}                                                         |                  | {@{1&nbsp;500}@} |
 >
-> | {@{Sell non-trading equity investment at adjusted carrying amount}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{22&nbsp;500}@} | |
-> | {@{Equity investment}@} | | {@{22&nbsp;500}@} | <!--SR:!fsrs,2026-08-08T12:05:25.875Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:25.875Z!fsrs,2026-08-08T13:02:09.594Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:09.594Z!fsrs,2026-08-08T12:31:01.498Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:31:01.498Z!fsrs,2026-08-08T12:10:54.728Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:54.728Z!fsrs,2026-08-08T12:05:37.299Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:37.299Z!fsrs,2026-08-15T12:05:33.260Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:05:33.260Z!fsrs,2026-08-08T13:01:30.843Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:30.843Z!fsrs,2026-08-08T12:10:46.045Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:46.045Z!fsrs,2026-08-08T12:03:14.074Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:14.074Z!fsrs,2026-08-08T12:59:08.107Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:08.107Z!fsrs,2026-08-15T13:03:37.677Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T13:03:37.677Z!fsrs,2026-08-08T12:26:34.327Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:34.327Z!fsrs,2026-08-08T13:03:17.408Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:17.408Z!fsrs,2026-08-08T12:05:31.702Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:31.702Z!fsrs,2026-08-08T12:11:04.868Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:11:04.868Z-->
+> | {@{Sell non-trading equity investment at adjusted carrying amount}@} |                Dr |                Cr |
+> | -------------------------------------------------------------------- | ----------------: | ----------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{Cash}@}                                                           | {@{22&nbsp;500}@} |                   |
+> | {@{Equity investment}@}                                              |                   | {@{22&nbsp;500}@} | <!--SR:!fsrs,2026-08-08T12:05:25.875Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:25.875Z!fsrs,2026-08-08T13:02:09.594Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:09.594Z!fsrs,2026-08-08T12:31:01.498Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:31:01.498Z!fsrs,2026-08-08T12:10:54.728Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:54.728Z!fsrs,2026-08-08T12:05:37.299Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:37.299Z!fsrs,2026-08-15T12:05:33.260Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:05:33.260Z!fsrs,2026-08-08T13:01:30.843Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:30.843Z!fsrs,2026-08-08T12:10:46.045Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:46.045Z!fsrs,2026-08-08T12:03:14.074Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:14.074Z!fsrs,2026-08-08T12:59:08.107Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:08.107Z!fsrs,2026-08-15T13:03:37.677Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T13:03:37.677Z!fsrs,2026-08-08T12:26:34.327Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:34.327Z!fsrs,2026-08-08T13:03:17.408Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:17.408Z!fsrs,2026-08-08T12:05:31.702Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:31.702Z!fsrs,2026-08-08T12:11:04.868Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:11:04.868Z--> |
 
 _Explanation._ The investment is sold at its {@{already-updated fair-value carrying amount}@}, so there is {@{no additional gain or loss in net income from the sale entry itself}@}. Under the IFRS treatment used in this course, the earlier unrealized OCI balance on this non-trading equity investment is {@{not recycled to profit or loss on sale}@}; it remains an equity-side OCI history unless the company separately transfers it within equity. <!--SR:!fsrs,2026-08-08T12:24:30.861Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:30.861Z!fsrs,2026-08-08T12:27:57.727Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:27:57.727Z!fsrs,2026-08-30T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-20T00:00:00.000Z-->
 
@@ -367,33 +374,33 @@ Flashcards for this section are as follows:
 
 The course uses ownership influence to decide how to account for larger equity investments.
 
-- __Less than 20%__: usually fair-value accounting.
-- __20% to 50%__: presumed __significant influence__ and usually use the __equity method__.
-- __More than 50%__: control exists, so the investor is the parent and normally prepares consolidated financial statements.
+- **Less than 20%**: usually fair-value accounting.
+- **20% to 50%**: presumed **significant influence** and usually use the **equity method**.
+- **More than 50%**: control exists, so the investor is the parent and normally prepares consolidated financial statements.
 
-Under the __equity method__:
+Under the **equity method**:
 
 - record the investment initially at cost;
 - increase the carrying amount for the investor's share of the investee's income;
 - decrease the carrying amount for dividends received, because dividends are treated as a return of investment rather than as revenue; and
-- do __not__ keep remeasuring the investment to market value each period.
+- do **not** keep remeasuring the investment to market value each period.
 
 > _Equity-method example._ Company A buys a {@{20% interest in Company B}@} for {@{480&nbsp;000}@}. In the same year Company B reports {@{200&nbsp;000 net income}@} and later declares {@{100&nbsp;000 dividends}@}.
 >
-> | {@{Record initial equity-method investment}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Equity investment}@} | {@{480&nbsp;000}@} | |
-> | {@{Cash}@} | | {@{480&nbsp;000}@} |
+> | {@{Record initial equity-method investment}@} |                 Dr |                 Cr |
+> | --------------------------------------------- | -----------------: | -----------------: |
+> | {@{Equity investment}@}                       | {@{480&nbsp;000}@} |                    |
+> | {@{Cash}@}                                    |                    | {@{480&nbsp;000}@} |
 >
-> | {@{Record investor's share of investee income}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Equity investment}@} | {@{40&nbsp;000}@} | |
-> | {@{Investment income}@} | | {@{40&nbsp;000}@} |
+> | {@{Record investor's share of investee income}@} |                Dr |                Cr |
+> | ------------------------------------------------ | ----------------: | ----------------: |
+> | {@{Equity investment}@}                          | {@{40&nbsp;000}@} |                   |
+> | {@{Investment income}@}                          |                   | {@{40&nbsp;000}@} |
 >
-> | {@{Record dividends received under equity method}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{20&nbsp;000}@} | |
-> | {@{Equity investment}@} | | {@{20&nbsp;000}@} | <!--SR:!fsrs,2026-08-08T13:03:48.105Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:48.105Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:04:56.898Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:56.898Z!fsrs,2026-08-08T12:14:15.415Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:14:15.415Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T11:59:54.852Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:54.852Z!fsrs,2026-08-08T12:24:25.751Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:25.751Z!fsrs,2026-08-08T12:12:58.639Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:58.639Z!fsrs,2026-08-08T12:25:53.662Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:53.662Z!fsrs,2026-08-08T13:00:29.685Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:29.685Z!fsrs,2026-08-08T12:23:02.836Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:02.836Z!fsrs,2026-08-08T12:22:59.394Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:59.394Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T13:03:39.716Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:39.716Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:06:22.901Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:22.901Z!fsrs,2026-08-08T13:00:13.608Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:13.608Z!fsrs,2026-08-08T12:07:51.666Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:07:51.666Z-->
+> | {@{Record dividends received under equity method}@} |                Dr |                Cr |
+> | --------------------------------------------------- | ----------------: | ----------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+> | {@{Cash}@}                                          | {@{20&nbsp;000}@} |                   |
+> | {@{Equity investment}@}                             |                   | {@{20&nbsp;000}@} | <!--SR:!fsrs,2026-08-08T13:03:48.105Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:48.105Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:04:56.898Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:56.898Z!fsrs,2026-08-08T12:14:15.415Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:14:15.415Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T11:59:54.852Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:54.852Z!fsrs,2026-08-08T12:24:25.751Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:25.751Z!fsrs,2026-08-08T12:12:58.639Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:58.639Z!fsrs,2026-08-08T12:25:53.662Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:53.662Z!fsrs,2026-08-08T13:00:29.685Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:29.685Z!fsrs,2026-08-08T12:23:02.836Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:02.836Z!fsrs,2026-08-08T12:22:59.394Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:59.394Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T13:03:39.716Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:39.716Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:06:22.901Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:22.901Z!fsrs,2026-08-08T13:00:13.608Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:13.608Z!fsrs,2026-08-08T12:07:51.666Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:07:51.666Z--> |
 
 ---
 
@@ -408,14 +415,14 @@ Flashcards for this section are as follows:
 
 ### equity method: unrealized intercompany profit elimination
 
-Under IAS 28, the investor eliminates its proportionate share of any __unrealized profit__ from transactions between the investor and the investee — whether __downstream__ (investor sells to investee) or __upstream__ (investee sells to investor). As long as the goods remain unsold to an independent third party, the embedded profit has not been realized from the economic group's perspective.
+Under IAS 28, the investor eliminates its proportionate share of any **unrealized profit** from transactions between the investor and the investee — whether **downstream** (investor sells to investee) or **upstream** (investee sells to investor). As long as the goods remain unsold to an independent third party, the embedded profit has not been realized from the economic group's perspective.
 
 > _Downstream unrealized profit elimination._ Company A holds a {@{20% interest}@} in Company B. Company A sells inventory to Company B at a mark-up generating a profit of {@{€50&nbsp;000}@}. At year-end, Company B still holds {@{half of that inventory unsold}@}, leaving {@{€25&nbsp;000 of unrealized profit in Company B's closing inventory}@}. Company A must reduce its equity-method income by its ownership share: {@{20% × €25&nbsp;000 = €5&nbsp;000}@}.
 >
-> | {@{Eliminate investor's share of unrealized downstream profit in investee's closing inventory}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Investment income}@} | {@{5&nbsp;000}@} | |
-> | {@{Equity investment}@} | | {@{5&nbsp;000}@} |
+> | {@{Eliminate investor's share of unrealized downstream profit in investee's closing inventory}@} |               Dr |               Cr |
+> | ------------------------------------------------------------------------------------------------ | ---------------: | ---------------: |
+> | {@{Investment income}@}                                                                          | {@{5&nbsp;000}@} |                  |
+> | {@{Equity investment}@}                                                                          |                  | {@{5&nbsp;000}@} |
 >
 > _Explanation._ The entry reduces both {@{investment income}@} and the {@{equity investment carrying amount}@}. Once Company B later sells that inventory to a third party, the profit becomes realized and the investor reverses the elimination entry by {@{debiting Equity investment and crediting Investment income for the same €5&nbsp;000}@}. The same mechanics apply to upstream transactions using the investee's mark-up and the investor's ownership percentage. <!--SR:!fsrs,2026-08-08T12:25:25.024Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:25.024Z!fsrs,2026-08-08T11:59:40.947Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:40.947Z!fsrs,2026-08-08T12:06:23.727Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:23.727Z!fsrs,2026-08-08T11:59:54.037Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:54.037Z!fsrs,2026-08-08T12:24:26.591Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:26.591Z!fsrs,2026-08-08T13:02:02.578Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:02.578Z!fsrs,2026-08-08T12:12:27.155Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:27.155Z!fsrs,2026-08-08T12:03:19.713Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:19.713Z!fsrs,2026-08-08T11:54:20.471Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:54:20.471Z!fsrs,2026-08-08T12:00:55.208Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:00:55.208Z!fsrs,2026-08-15T12:59:10.175Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:59:10.175Z!fsrs,2026-08-08T12:23:38.391Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:38.391Z!fsrs,2026-08-08T12:08:00.966Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:00.966Z-->
 
@@ -429,40 +436,42 @@ Flashcards for this section are as follows:
 
 ### loss limitation when the equity-method investment would become negative
 
-Under the equity method, the investor does __not__ keep pushing the _Equity investment_ asset below zero just because the investee keeps reporting losses. Once the carrying amount has been reduced to __zero__, the normal rule is:
+Under the equity method, the investor does **not** keep pushing the _Equity investment_ asset below zero just because the investee keeps reporting losses. Once the carrying amount has been reduced to **zero**, the normal rule is:
 
 - stop recognizing additional equity-method losses;
-- keep the excess loss as an __unrecognized loss memorandum amount__; and
+- keep the excess loss as an **unrecognized loss memorandum amount**; and
 - resume recognizing future profits only after those later profits first absorb the previously unrecognized loss.
 
-The main exception is when the investor has gone beyond passive ownership and has __incurred a legal or constructive obligation__ to support the investee, or has already made payments on the investee's behalf. In that case, additional losses are recognized through a __liability__, not by making the investment asset negative.
+The main exception is when the investor has gone beyond passive ownership and has **incurred a legal or constructive obligation** to support the investee, or has already made payments on the investee's behalf. In that case, additional losses are recognized through a **liability**, not by making the investment asset negative.
 
 > _Equity-method losses larger than the remaining carrying amount._ Assume the investor's carrying amount in an associate is only {@{€30&nbsp;000}@}, but its share of the associate's current-year loss is {@{€50&nbsp;000}@}. The investor has {@{no guarantee or support obligation}@}, so it can recognize only the portion that reduces the investment to zero.
 >
-> | {@{Recognize equity-method loss only up to the remaining carrying amount of the investment}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Loss from equity-method investment}@} | {@{30&nbsp;000}@} | |
-> | {@{Equity investment}@} | | {@{30&nbsp;000}@} |
+> | {@{Recognize equity-method loss only up to the remaining carrying amount of the investment}@} |                Dr |                Cr |
+> | --------------------------------------------------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Loss from equity-method investment}@}                                                      | {@{30&nbsp;000}@} |                   |
+> | {@{Equity investment}@}                                                                       |                   | {@{30&nbsp;000}@} |
 >
 > _Explanation._ The remaining {@{€20&nbsp;000 share of loss is not recorded by making Equity investment negative}@}. Instead it becomes an {@{unrecognized loss tracked off-book for future equity-method profit recognition}@}. <!--SR:!fsrs,2026-08-08T12:10:51.201Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:51.201Z!fsrs,2026-08-08T12:11:00.655Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:11:00.655Z!fsrs,2026-08-08T12:23:39.707Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:39.707Z!fsrs,2026-08-08T13:03:46.063Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:46.063Z!fsrs,2026-08-08T12:58:59.083Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:58:59.083Z!fsrs,2026-08-08T12:12:49.768Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:49.768Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:22:57.396Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:57.396Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Same fact pattern, but the investor has a support obligation._ Suppose the investor has also guaranteed {@{€8&nbsp;000 of the associate's obligations}@}. That extra supported portion is recognized as a liability.
 >
-> | {@{Recognize additional equity-method loss to the extent of the investor's support obligation}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Loss from equity-method investment}@} | {@{8&nbsp;000}@} | |
-> | {@{Liability related to associate support}@} | | {@{8&nbsp;000}@} |
+> | {@{Recognize additional equity-method loss to the extent of the investor's support obligation}@} |               Dr |               Cr |
+> | ------------------------------------------------------------------------------------------------ | ---------------: | ---------------: |
+> | {@{Loss from equity-method investment}@}                                                         | {@{8&nbsp;000}@} |                  |
+> | {@{Liability related to associate support}@}                                                     |                  | {@{8&nbsp;000}@} |
 >
 > _Explanation._ The extra loss is recognized only because the investor has {@{gone beyond ordinary ownership and now has an obligation tied to the associate}@}. The accounting still does {@{not create a negative Equity investment asset}@}. <!--SR:!fsrs,2026-08-08T12:24:04.530Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:04.530Z!fsrs,2026-08-08T12:22:24.676Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:24.676Z!fsrs,2026-08-08T12:25:20.430Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:20.430Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:07:54.744Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:07:54.744Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Later return to profit after unrecognized losses existed._ If the associate later generates profit and the investor's share is {@{€25&nbsp;000}@}, while the previously unrecognized loss memorandum amount is still {@{€20&nbsp;000}@}, the investor recognizes only the excess {@{€5&nbsp;000}@}.
 >
-> | {@{Resume equity-method profit recognition only after prior unrecognized losses have first been absorbed}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Equity investment}@} | {@{5&nbsp;000}@} | |
-> | {@{Investment income}@} | | {@{5&nbsp;000}@} |
+> | {@{Resume equity-method profit recognition only after prior unrecognized losses have first been absorbed}@} |               Dr |               Cr |
+> | ----------------------------------------------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Equity investment}@}                                                                                     | {@{5&nbsp;000}@} |                  |
+> | {@{Investment income}@}                                                                                     |                  | {@{5&nbsp;000}@} |
 >
 > _Explanation._ The first {@{€20&nbsp;000 of the new profit merely reverses the previously unrecognized loss memorandum amount economically}@}. Only the excess {@{€5&nbsp;000}@} becomes current-period recognized investment income. <!--SR:!fsrs,2026-08-08T13:00:04.295Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:04.295Z!fsrs,2026-08-08T12:08:28.369Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:28.369Z!fsrs,2026-08-08T12:12:26.092Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:26.092Z!fsrs,2026-08-08T13:03:49.816Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:49.816Z!fsrs,2026-08-08T13:00:28.988Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:28.988Z!fsrs,2026-08-08T12:25:15.262Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:15.262Z!fsrs,2026-08-15T12:05:46.711Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:05:46.711Z-->
 
@@ -477,14 +486,14 @@ Flashcards for this section are as follows:
 
 ### equity method: impairment
 
-Even before the carrying amount reaches zero, the investor must assess at each reporting date whether there is objective evidence that the equity-method investment is impaired. The impairment test compares the investment's __carrying amount__ with its __recoverable amount__ — the higher of (a) value in use and (b) fair value less costs to sell. Any excess of carrying amount over recoverable amount is recognized as an impairment loss in income and the carrying amount is written down directly.
+Even before the carrying amount reaches zero, the investor must assess at each reporting date whether there is objective evidence that the equity-method investment is impaired. The impairment test compares the investment's **carrying amount** with its **recoverable amount** — the higher of (a) value in use and (b) fair value less costs to sell. Any excess of carrying amount over recoverable amount is recognized as an impairment loss in income and the carrying amount is written down directly.
 
 > _Equity-method investment impairment._ An investor carries its {@{25% interest}@} in an associate at a carrying amount of {@{€320&nbsp;000}@}. Due to prolonged operating losses and deteriorating market conditions at the associate, the estimated recoverable amount has fallen to {@{€260&nbsp;000}@}. The impairment loss is {@{€60&nbsp;000}@}.
 >
-> | {@{Recognize impairment loss on equity-method investment}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Loss on impairment of equity investment}@} | {@{60&nbsp;000}@} | |
-> | {@{Equity investment}@} | | {@{60&nbsp;000}@} |
+> | {@{Recognize impairment loss on equity-method investment}@} |                Dr |                Cr |
+> | ----------------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Loss on impairment of equity investment}@}               | {@{60&nbsp;000}@} |                   |
+> | {@{Equity investment}@}                                     |                   | {@{60&nbsp;000}@} |
 >
 > _Explanation._ This test is separate from the loss-limitation rule. {@{Loss limitation}@} applies when accumulated equity-method losses reduce the carrying amount toward zero. {@{Impairment}@} applies when the carrying amount still has positive value but exceeds the recoverable amount. If conditions later improve, the impairment loss may be reversed up to the carrying amount that would have existed (including normal equity-method adjustments) if no impairment had been recognized. <!--SR:!fsrs,2026-08-08T12:06:50.314Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:50.314Z!fsrs,2026-08-08T12:24:44.109Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:44.109Z!fsrs,2026-08-08T12:10:58.455Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:58.455Z!fsrs,2026-08-08T12:10:30.468Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:30.468Z!fsrs,2026-08-08T12:06:10.154Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:10.154Z!fsrs,2026-08-08T13:03:24.384Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:24.384Z!fsrs,2026-08-08T12:26:25.401Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:25.401Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:10:45.467Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:45.467Z!fsrs,2026-08-08T12:23:49.655Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:49.655Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
 
@@ -498,13 +507,13 @@ Flashcards for this section are as follows:
 
 ## impairment of debt investments
 
-The impairment material in this course focuses on debt investments, not on a broad everything-at-once write-down rule. The central distinction is between a decline caused by ordinary __market interest rate__ movement and a decline caused by worsening __credit quality__.
+The impairment material in this course focuses on debt investments, not on a broad everything-at-once write-down rule. The central distinction is between a decline caused by ordinary **market interest rate** movement and a decline caused by worsening **credit quality**.
 
 The transcript's expected-credit-loss structure is:
 
-- __stage 1__: no significant increase in credit risk -> recognize __12-month expected credit loss__;
-- __stage 2__: significant increase in credit risk -> recognize __lifetime expected credit loss__;
-- __stage 3__: the asset is credit-impaired or close to default -> still use __lifetime expected credit loss__, but now the situation is no longer just a warning signal.
+- **stage 1**: no significant increase in credit risk -> recognize **12-month expected credit loss**;
+- **stage 2**: significant increase in credit risk -> recognize **lifetime expected credit loss**;
+- **stage 3**: the asset is credit-impaired or close to default -> still use **lifetime expected credit loss**, but now the situation is no longer just a warning signal.
 
 So the accounting question is not merely whether fair value fell. The accounting question is whether the fall reflects a higher expected cash shortfall from the debtor.
 
@@ -519,46 +528,47 @@ Flashcards for this section are as follows:
 
 ### expected credit loss stages and what they mean for entries
 
-The stage labels matter because they change the __required allowance balance__, not because each stage has a completely different kind of account. The same basic allowance structure stays in place:
+The stage labels matter because they change the **required allowance balance**, not because each stage has a completely different kind of account. The same basic allowance structure stays in place:
 
-- record impairment losses by increasing the __allowance for impaired debt investments__ and recognizing loss in income;
+- record impairment losses by increasing the **allowance for impaired debt investments** and recognizing loss in income;
 - when credit risk worsens, increase the allowance to the newly required amount; and
 - when credit risk improves, reverse the allowance only to the extent justified under the reversal rules.
 
 The practical accounting meaning of the three stages is:
 
-- __stage 1__: no significant increase in credit risk -> allowance equals __12-month expected credit loss__;
-- __stage 2__: significant increase in credit risk -> allowance equals __lifetime expected credit loss__;
-- __stage 3__: asset is credit-impaired -> allowance still equals __lifetime expected credit loss__, but now the asset is in a much more severe condition and later estimates often change again.
+- **stage 1**: no significant increase in credit risk -> allowance equals **12-month expected credit loss**;
+- **stage 2**: significant increase in credit risk -> allowance equals **lifetime expected credit loss**;
+- **stage 3**: asset is credit-impaired -> allowance still equals **lifetime expected credit loss**, but now the asset is in a much more severe condition and later estimates often change again.
 
-So the stage transition entry is usually an __incremental top-up or reversal__, not a brand-new accounting model. The key comparison is always: __what allowance balance is required now versus what allowance balance is already on the books__?
+So the stage transition entry is usually an **incremental top-up or reversal**, not a brand-new accounting model. The key comparison is always: **what allowance balance is required now versus what allowance balance is already on the books**?
 
 > _Allowance mechanics across stages 1, 2, and 3._ Assume a debt investment starts the year in {@{stage 1 with required 12-month expected credit loss of €1&nbsp;200}@}. Later credit risk increases significantly, so the required allowance becomes {@{€6&nbsp;500 lifetime expected credit loss in stage 2}@}. By the following reporting date the asset becomes credit-impaired and the required lifetime expected credit loss rises further to {@{€9&nbsp;000 in stage 3}@}.
 >
-> | {@{Record stage 1 expected credit loss allowance}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Loss on impairment}@} | {@{1&nbsp;200}@} | |
-> | {@{Allowance for impaired debt investments}@} | | {@{1&nbsp;200}@} |
+> | {@{Record stage 1 expected credit loss allowance}@} |               Dr |               Cr |
+> | --------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Loss on impairment}@}                            | {@{1&nbsp;200}@} |                  |
+> | {@{Allowance for impaired debt investments}@}       |                  | {@{1&nbsp;200}@} |
 >
-> | {@{Top up the allowance when the investment moves from stage 1 to stage 2}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Loss on impairment}@} | {@{5&nbsp;300}@} | |
-> | {@{Allowance for impaired debt investments}@} | | {@{5&nbsp;300}@} |
+> | {@{Top up the allowance when the investment moves from stage 1 to stage 2}@} |               Dr |               Cr |
+> | ---------------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Loss on impairment}@}                                                     | {@{5&nbsp;300}@} |                  |
+> | {@{Allowance for impaired debt investments}@}                                |                  | {@{5&nbsp;300}@} |
 >
-> | {@{Top up the allowance again when the investment moves from stage 2 to stage 3 and lifetime expected credit loss increases further}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Loss on impairment}@} | {@{2&nbsp;500}@} | |
-> | {@{Allowance for impaired debt investments}@} | | {@{2&nbsp;500}@} |
+> | {@{Top up the allowance again when the investment moves from stage 2 to stage 3 and lifetime expected credit loss increases further}@} |               Dr |               Cr |
+> | -------------------------------------------------------------------------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Loss on impairment}@}                                                                                                               | {@{2&nbsp;500}@} |                  |
+> | {@{Allowance for impaired debt investments}@}                                                                                          |                  | {@{2&nbsp;500}@} |
 >
 > _Explanation._ Stage 2 does {@{not mean record a whole new €6&nbsp;500 loss on top of the existing €1&nbsp;200 without comparison}@}; it means the allowance must end at {@{€6&nbsp;500 total, so only the extra €5&nbsp;300 is recorded}@}. The same logic applies again in {@{stage 3}@}: if the required allowance becomes {@{€9&nbsp;000 total}@}, only the additional {@{€2&nbsp;500 top-up}@} is recognized at that date. <!--SR:!fsrs,2026-08-08T12:23:42.703Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:42.703Z!fsrs,2026-08-08T13:00:16.399Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:16.399Z!fsrs,2026-08-08T12:12:06.143Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:06.143Z!fsrs,2026-08-08T12:22:27.957Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:27.957Z!fsrs,2026-08-08T12:25:02.362Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:02.362Z!fsrs,2026-08-08T12:26:38.122Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:38.122Z!fsrs,2026-08-08T12:00:04.213Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:00:04.213Z!fsrs,2026-08-08T11:59:45.818Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:45.818Z!fsrs,2026-08-15T11:54:26.111Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T11:54:26.111Z!fsrs,2026-08-08T12:26:32.200Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:32.200Z!fsrs,2026-08-08T12:59:59.433Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:59.433Z!fsrs,2026-08-08T12:06:17.675Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:17.675Z!fsrs,2026-08-08T12:10:34.913Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:34.913Z!fsrs,2026-08-08T13:03:14.929Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:14.929Z!fsrs,2026-08-15T12:59:04.945Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:59:04.945Z!fsrs,2026-08-08T12:24:50.917Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:50.917Z!fsrs,2026-08-08T11:59:57.417Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:57.417Z!fsrs,2026-08-08T12:26:28.359Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:28.359Z!fsrs,2026-08-08T13:00:15.572Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:15.572Z!fsrs,2026-08-08T11:59:44.338Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:44.338Z!fsrs,2026-08-08T13:02:00.228Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:00.228Z!fsrs,2026-08-15T12:22:54.583Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:22:54.583Z!fsrs,2026-08-08T12:22:26.123Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:26.123Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Credit improvement after stage 3._ Suppose improved expectations later reduce the required allowance from {@{€9&nbsp;000 to €4&nbsp;000}@}. The company reverses only the excess allowance now on the books.
 >
-> | {@{Reverse the excess allowance when expected credit loss falls}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Allowance for impaired debt investments}@} | {@{5&nbsp;000}@} | |
-> | {@{Recovery of impairment loss}@} | | {@{5&nbsp;000}@} |
+> | {@{Reverse the excess allowance when expected credit loss falls}@} |               Dr |               Cr |
+> | ------------------------------------------------------------------ | ---------------: | ---------------: |
+> | {@{Allowance for impaired debt investments}@}                      | {@{5&nbsp;000}@} |                  |
+> | {@{Recovery of impairment loss}@}                                  |                  | {@{5&nbsp;000}@} |
 >
 > _Explanation._ The entry is still driven by the same endpoint logic for the allowance: the account currently stands at {@{€9&nbsp;000}@}, but only {@{€4&nbsp;000 is still required}@}, so the excess {@{€5&nbsp;000}@} is reversed. <!--SR:!fsrs,2026-08-08T12:05:21.271Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:21.271Z!fsrs,2026-08-08T13:00:06.179Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:06.179Z!fsrs,2026-08-08T11:54:16.824Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:54:16.824Z!fsrs,2026-08-15T12:23:45.129Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:23:45.129Z!fsrs,2026-08-08T12:24:45.249Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:45.249Z!fsrs,2026-08-15T13:02:49.571Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T13:02:49.571Z!fsrs,2026-08-08T12:10:31.579Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:31.579Z!fsrs,2026-08-08T12:22:31.457Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:31.457Z-->
 
@@ -573,54 +583,56 @@ Flashcards for this section are as follows:
 
 ### investments measured at amortized cost
 
-For amortized-cost debt investments, the company evaluates at each reporting date whether the investment has suffered credit-related impairment. If the investment is impaired, the carrying amount is written down and the loss is recognized in __net income__.
+For amortized-cost debt investments, the company evaluates at each reporting date whether the investment has suffered credit-related impairment. If the investment is impaired, the carrying amount is written down and the loss is recognized in **net income**.
 
 > _Amortized-cost impairment with ECL schedule — Mayhew and Bao._ Mayhew holds a {@{¥200&nbsp;000 par-value}@} debt investment in Bao, bearing {@{10% annual interest}@} with {@{4 years to maturity}@} (EIR 10%). At initial recognition the credit risk is low (Stage 1). By year-end, credit risk has increased significantly (Stage 2), requiring lifetime ECL. Expected annual interest receipts fall to {@{¥16&nbsp;000}@} against the contractual {@{¥20&nbsp;000}@}; the principal repayment is still expected in full.
 >
-> | Year | Contractual cash flow | Expected cash flow | ECL shortfall |
-> | ---: | ---: | ---: | ---: |
-> | 1 | {@{20&nbsp;000}@} | {@{16&nbsp;000}@} | {@{4&nbsp;000}@} |
-> | 2 | {@{20&nbsp;000}@} | {@{16&nbsp;000}@} | {@{4&nbsp;000}@} |
-> | 3 | {@{20&nbsp;000}@} | {@{16&nbsp;000}@} | {@{4&nbsp;000}@} |
-> | 4 | {@{20&nbsp;000}@} | {@{16&nbsp;000}@} | {@{4&nbsp;000}@} |
+> | Year | Contractual cash flow | Expected cash flow |    ECL shortfall |
+> | ---: | --------------------: | -----------------: | ---------------: |
+> |    1 |     {@{20&nbsp;000}@} |  {@{16&nbsp;000}@} | {@{4&nbsp;000}@} |
+> |    2 |     {@{20&nbsp;000}@} |  {@{16&nbsp;000}@} | {@{4&nbsp;000}@} |
+> |    3 |     {@{20&nbsp;000}@} |  {@{16&nbsp;000}@} | {@{4&nbsp;000}@} |
+> |    4 |     {@{20&nbsp;000}@} |  {@{16&nbsp;000}@} | {@{4&nbsp;000}@} |
 >
 > _Stage 1 (12-month ECL):_ only year 1's shortfall, discounted at the EIR of 10%: {@{¥4&nbsp;000 ÷ 1.10 = ¥3&nbsp;636}@}.
 >
-> | {@{Record stage 1 impairment allowance (12-month ECL)}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Loss on impairment}@} | {@{3&nbsp;636}@} | |
-> | {@{Allowance for impaired debt investments}@} | | {@{3&nbsp;636}@} |
+> | {@{Record stage 1 impairment allowance (12-month ECL)}@} |               Dr |               Cr |
+> | -------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Loss on impairment}@}                                 | {@{3&nbsp;636}@} |                  |
+> | {@{Allowance for impaired debt investments}@}            |                  | {@{3&nbsp;636}@} |
 >
 > _Stage 2 (lifetime ECL):_ all four years' shortfalls discounted at 10%: {@{¥4&nbsp;000 × (1 − 1/1.10^4) / 0.10 = ¥12&nbsp;680}@}. The existing Stage 1 allowance is {@{¥3&nbsp;636}@}, so only the incremental {@{¥9&nbsp;044}@} is recognized now.
 >
-> | {@{Top up allowance on moving from stage 1 to stage 2 (lifetime ECL)}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Loss on impairment}@} | {@{9&nbsp;044}@} | |
-> | {@{Allowance for impaired debt investments}@} | | {@{9&nbsp;044}@} |
+> | {@{Top up allowance on moving from stage 1 to stage 2 (lifetime ECL)}@} |               Dr |               Cr |
+> | ----------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Loss on impairment}@}                                                | {@{9&nbsp;044}@} |                  |
+> | {@{Allowance for impaired debt investments}@}                           |                  | {@{9&nbsp;044}@} |
 >
 > _Explanation._ The ECL shortfall arises entirely from {@{lower expected cash flows — ¥16&nbsp;000 instead of ¥20&nbsp;000 — not from any change in market interest rates}@}. A rise in market rates can reduce the bond's fair value but does not by itself create an ECL shortfall if contractual principal and interest are still expected to be paid in full. <!--SR:!fsrs,2026-08-08T12:23:27.423Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:27.423Z!fsrs,2026-08-08T12:06:16.768Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:16.768Z!fsrs,2026-08-08T12:24:27.557Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:27.557Z!fsrs,2026-08-08T12:14:09.563Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:14:09.563Z!fsrs,2026-08-08T11:59:49.973Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:49.973Z!fsrs,2026-08-08T11:54:25.169Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:54:25.169Z!fsrs,2026-08-08T12:22:34.953Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:34.953Z!fsrs,2026-08-08T12:05:28.218Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:28.218Z!fsrs,2026-08-08T12:26:16.218Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:16.218Z!fsrs,2026-08-08T11:54:18.922Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:54:18.922Z!fsrs,2026-08-08T13:02:04.098Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:04.098Z!fsrs,2026-08-08T12:59:57.933Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:57.933Z!fsrs,2026-08-15T12:03:15.341Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:03:15.341Z!fsrs,2026-08-08T12:25:34.380Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:34.380Z!fsrs,2026-08-08T12:23:28.457Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:28.457Z!fsrs,2026-08-08T12:10:29.611Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:29.611Z!fsrs,2026-08-08T13:01:53.329Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:53.329Z!fsrs,2026-08-08T13:02:43.859Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:43.859Z!fsrs,2026-08-08T12:30:10.383Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:30:10.383Z!fsrs,2026-08-08T13:02:42.916Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:42.916Z!fsrs,2026-08-08T12:12:22.843Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:22.843Z!fsrs,2026-08-08T12:06:11.133Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:11.133Z!fsrs,2026-08-08T12:12:21.118Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:21.118Z!fsrs,2026-08-08T12:47:48.637Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:47:48.637Z!fsrs,2026-08-15T12:22:21.376Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:22:21.376Z!fsrs,2026-08-08T12:25:26.308Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:26.308Z!fsrs,2026-08-08T11:54:41.416Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:54:41.416Z!fsrs,2026-08-08T12:24:02.524Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:02.524Z!fsrs,2026-08-08T12:25:27.110Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:27.110Z!fsrs,2026-08-08T12:04:49.930Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:49.930Z!fsrs,2026-08-08T12:26:47.758Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:47.758Z!fsrs,2026-08-08T12:00:56.952Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:00:56.952Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Recovery of impairment loss on amortized-cost debt investment._ If credit quality later improves and the allowable reversal is {@{€12&nbsp;680}@}, the recovery entry is:
 >
-> | {@{Reverse previously recognized impairment loss within the allowed limit}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Allowance for impaired debt investments}@} | {@{12&nbsp;680}@} | |
-> | {@{Recovery of impairment loss}@} | | {@{12&nbsp;680}@} | <!--SR:!fsrs,2026-08-08T12:26:03.591Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:03.591Z!fsrs,2026-08-08T12:03:20.681Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:20.681Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:06:15.311Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:15.311Z!fsrs,2026-08-08T12:25:12.884Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:12.884Z-->
+> | {@{Reverse previously recognized impairment loss within the allowed limit}@} |                Dr |                Cr |
+> | ---------------------------------------------------------------------------- | ----------------: | ----------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{Allowance for impaired debt investments}@}                                | {@{12&nbsp;680}@} |                   |
+> | {@{Recovery of impairment loss}@}                                            |                   | {@{12&nbsp;680}@} | <!--SR:!fsrs,2026-08-08T12:26:03.591Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:03.591Z!fsrs,2026-08-08T12:03:20.681Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:20.681Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:06:15.311Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:15.311Z!fsrs,2026-08-08T12:25:12.884Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:12.884Z--> |
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Partial recovery limited by the carrying-amount ceiling._ Suppose the impaired bond would have had amortized cost of only {@{€97&nbsp;000}@} if no impairment had ever been recognized. Its current carrying amount after impairment is {@{€88&nbsp;000}@}, and improved expected cash flows now support only {@{€95&nbsp;000}@}. The allowed recovery is therefore {@{€7&nbsp;000}@}, not the full gap back to original cost.
 >
-> | {@{Reverse impairment only up to the supported carrying amount}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Allowance for impaired debt investments}@} | {@{7&nbsp;000}@} | |
-> | {@{Recovery of impairment loss}@} | | {@{7&nbsp;000}@} |
+> | {@{Reverse impairment only up to the supported carrying amount}@} |               Dr |               Cr |
+> | ----------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Allowance for impaired debt investments}@}                     | {@{7&nbsp;000}@} |                  |
+> | {@{Recovery of impairment loss}@}                                 |                  | {@{7&nbsp;000}@} |
 >
 > _Explanation._ The recovery stops at the {@{carrying amount actually supported by the new expected cash flows}@}. Students often over-recover here by jumping straight back to the no-impairment amount. <!--SR:!fsrs,2026-08-08T13:00:05.642Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:05.642Z!fsrs,2026-08-08T13:01:59.028Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:59.028Z!fsrs,2026-08-08T13:02:08.092Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:08.092Z!fsrs,2026-08-08T12:10:40.170Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:40.170Z!fsrs,2026-08-08T12:10:35.937Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:35.937Z!fsrs,2026-08-15T12:05:34.524Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:05:34.524Z-->
 
 If credit conditions later improve, part or all of the impairment loss may be reversed, but the carrying amount after reversal cannot exceed the amortized cost that would have existed if no impairment had ever been recognized.
 
-The measurement intuition is to compare __contractual cash flows__ with __expected cash flows__. If the borrower still owes the same coupon and principal on paper but the investor now expects to collect less, the gap is the credit-loss problem. That is why the course warns students not to treat every lower present value as a credit impairment automatically; some declines are caused by market-rate movement rather than weaker cash collection.
+The measurement intuition is to compare **contractual cash flows** with **expected cash flows**. If the borrower still owes the same coupon and principal on paper but the investor now expects to collect less, the gap is the credit-loss problem. That is why the course warns students not to treat every lower present value as a credit impairment automatically; some declines are caused by market-rate movement rather than weaker cash collection.
 
 ---
 
@@ -636,16 +648,16 @@ Flashcards for this section are as follows:
 The reversal ceiling has two layers that students often mix up:
 
 1. the carrying amount after reversal must be supported by the updated expected-cash-flow estimate; and
-2. even if expected cash flows look very strong, the carrying amount still cannot rise above the __amortized cost that would have existed if no impairment had ever been recognized__.
+2. even if expected cash flows look very strong, the carrying amount still cannot rise above the **amortized cost that would have existed if no impairment had ever been recognized**.
 
 That second ceiling is the point of the allowance rule: you may reverse a loss, but you may not create a carrying amount that is better than the no-impairment path would have produced.
 
 > _Improved expected cash flows still do not permit recovery above the no-impairment amortized cost._ Suppose an impaired bond currently has carrying amount of {@{€88&nbsp;000}@}. If no impairment had ever been recognized, its amortized cost at the same date would have been only {@{€97&nbsp;000}@}. Updated expectations now look strong enough that management estimates recoverable value at {@{€101&nbsp;000}@}. The company still may reverse only {@{€9&nbsp;000}@}, not {@{€13&nbsp;000}@}.
 >
-> | {@{Reverse impairment only up to the no-impairment amortized-cost ceiling}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Allowance for impaired debt investments}@} | {@{9&nbsp;000}@} | |
-> | {@{Recovery of impairment loss}@} | | {@{9&nbsp;000}@} |
+> | {@{Reverse impairment only up to the no-impairment amortized-cost ceiling}@} |               Dr |               Cr |
+> | ---------------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Allowance for impaired debt investments}@}                                | {@{9&nbsp;000}@} |                  |
+> | {@{Recovery of impairment loss}@}                                            |                  | {@{9&nbsp;000}@} |
 >
 > _Explanation._ The ceiling is the {@{€97&nbsp;000 amortized cost that would have existed without prior impairment}@}, not the more optimistic {@{€101&nbsp;000 updated estimate}@}. The extra {@{€4&nbsp;000}@} is {@{not recoverable through the reversal entry because it would push the carrying amount above the no-impairment path}@}. <!--SR:!fsrs,2026-08-08T12:05:30.637Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:30.637Z!fsrs,2026-08-08T12:26:27.326Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:27.326Z!fsrs,2026-08-08T12:06:12.490Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:12.490Z!fsrs,2026-08-08T12:03:24.210Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:24.210Z!fsrs,2026-08-08T12:10:57.117Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:57.117Z!fsrs,2026-08-08T13:04:01.577Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:04:01.577Z!fsrs,2026-08-08T13:03:51.123Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:51.123Z!fsrs,2026-08-08T12:28:12.432Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:28:12.432Z!fsrs,2026-08-08T12:06:20.651Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:20.651Z!fsrs,2026-08-08T13:01:29.835Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:29.835Z!fsrs,2026-08-08T12:25:01.458Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:01.458Z!fsrs,2026-08-08T12:23:43.502Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:43.502Z!fsrs,2026-08-08T12:59:05.856Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:05.856Z!fsrs,2026-08-15T12:01:19.742Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:01:19.742Z-->
 
@@ -661,54 +673,57 @@ Flashcards for this section are as follows:
 
 HFCS debt investments are already at fair value, so the course distinguishes between:
 
-- fair-value change caused by __market interest rate movements__, which stays in OCI; and
-- fair-value change caused by __credit deterioration__, which is treated as impairment and goes to income.
+- fair-value change caused by **market interest rate movements**, which stays in OCI; and
+- fair-value change caused by **credit deterioration**, which is treated as impairment and goes to income.
 
 This is one of the most exam-friendly distinctions in the investments material: same overall fair-value decline, but different reporting locations depending on the cause.
 
 In other words, the company may need both:
 
-- a __fair value adjustment__ for the market-rate component; and
-- an __allowance for impaired debt investments__ for the credit-loss component.
+- a **fair value adjustment** for the market-rate component; and
+- an **allowance for impaired debt investments** for the credit-loss component.
 
 The slide logic is to separate cause before deciding the journal-entry destination.
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _HFCS impairment split between OCI and income._ An HFCS debt investment has amortized cost of {@{€100&nbsp;000}@}, but its year-end fair value has fallen to {@{€75&nbsp;000}@}. Of the total {@{€25&nbsp;000 decline}@}, management concludes that {@{€20&nbsp;000 comes from ordinary market-interest-rate movement}@} and {@{€5&nbsp;000 comes from credit deterioration}@}.
 >
-> | {@{Record market-driven fair value decline for HFCS debt investment}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{20&nbsp;000}@} | |
-> | {@{Fair value adjustment}@} | | {@{20&nbsp;000}@} |
+> | {@{Record market-driven fair value decline for HFCS debt investment}@} |                Dr |                Cr |
+> | ---------------------------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Unrealized holding gain or loss — equity (OCI)}@}                   | {@{20&nbsp;000}@} |                   |
+> | {@{Fair value adjustment}@}                                            |                   | {@{20&nbsp;000}@} |
 >
-> | {@{Record credit-loss impairment on HFCS debt investment}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Loss on impairment}@} | {@{5&nbsp;000}@} | |
-> | {@{Allowance for impaired debt investments}@} | | {@{5&nbsp;000}@} |
+> | {@{Record credit-loss impairment on HFCS debt investment}@} |               Dr |               Cr |
+> | ----------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Loss on impairment}@}                                    | {@{5&nbsp;000}@} |                  |
+> | {@{Allowance for impaired debt investments}@}               |                  | {@{5&nbsp;000}@} |
 >
 > _Explanation._ The same total decline is split by {@{cause}@}: the {@{market-rate component stays in OCI}@}, while the {@{credit-loss component goes to income as impairment}@}. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T11:59:42.961Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:42.961Z!fsrs,2026-08-08T12:04:45.666Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:45.666Z!fsrs,2026-08-08T13:02:05.366Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:05.366Z!fsrs,2026-07-14T12:25:57.788Z,31,30.53476645,5.48972837,2,2,0,0,2026-06-13T12:25:57.788Z!fsrs,2026-08-08T12:03:13.005Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:13.005Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:30:50.461Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:30:50.461Z!fsrs,2026-08-08T12:03:42.904Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:42.904Z!fsrs,2026-08-08T12:26:17.443Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:17.443Z!fsrs,2026-08-08T12:12:59.892Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:59.892Z!fsrs,2026-08-08T12:05:29.618Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:29.618Z!fsrs,2026-08-08T12:26:18.852Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:18.852Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Sale of an HFCS debt investment after both OCI and credit-loss adjustments._ Assume a bond still has original cost of {@{€1&nbsp;000&nbsp;000}@}, but it also carries a {@{€30&nbsp;000 allowance for impaired debt investments}@} and a {@{€10&nbsp;000 fair value adjustment related to market-rate decline}@}. The bond is sold for {@{€960&nbsp;000 cash}@}.
 >
-> | {@{Sell HFCS debt investment after separate OCI and impairment adjustments}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{960&nbsp;000}@} | |
-> | {@{Allowance for impaired debt investments}@} | {@{30&nbsp;000}@} | |
-> | {@{Fair value adjustment}@} | {@{10&nbsp;000}@} | |
-> | {@{Loss on sale of debt investment}@} | {@{10&nbsp;000}@} | |
-> | {@{Debt investments}@} | | {@{1&nbsp;000&nbsp;000}@} |
-> | {@{Accumulated comprehensive income}@} | | {@{10&nbsp;000}@} |
+> | {@{Sell HFCS debt investment after separate OCI and impairment adjustments}@} |                 Dr |                        Cr |
+> | ----------------------------------------------------------------------------- | -----------------: | ------------------------: |
+> | {@{Cash}@}                                                                    | {@{960&nbsp;000}@} |                           |
+> | {@{Allowance for impaired debt investments}@}                                 |  {@{30&nbsp;000}@} |                           |
+> | {@{Fair value adjustment}@}                                                   |  {@{10&nbsp;000}@} |                           |
+> | {@{Loss on sale of debt investment}@}                                         |  {@{10&nbsp;000}@} |                           |
+> | {@{Debt investments}@}                                                        |                    | {@{1&nbsp;000&nbsp;000}@} |
+> | {@{Accumulated comprehensive income}@}                                        |                    |         {@{10&nbsp;000}@} |
 >
 > _Explanation._ The sale removes the {@{cost basis, allowance, and fair value adjustment together}@}. The separate credit-loss allowance and market-rate OCI component do not vanish magically; they must be cleared as part of the disposal accounting. <!--SR:!fsrs,2026-08-08T13:00:11.515Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:11.515Z!fsrs,2026-08-08T13:00:32.097Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:32.097Z!fsrs,2026-08-08T12:08:55.592Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:55.592Z!fsrs,2026-08-08T12:07:58.483Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:07:58.483Z!fsrs,2026-07-14T12:06:08.883Z,31,30.53476645,5.48972837,2,2,0,0,2026-06-13T12:06:08.883Z!fsrs,2026-08-08T12:31:00.220Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:31:00.220Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:26:13.153Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:13.153Z!fsrs,2026-08-08T12:25:04.215Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:04.215Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:24:21.083Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:21.083Z!fsrs,2026-08-08T12:10:46.577Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:46.577Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-07-14T12:59:57.114Z,31,30.53476645,5.48972837,2,2,0,0,2026-06-13T12:59:57.114Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Recovery of HFCS credit impairment._ If later credit risk improves and the company can reverse {@{€15&nbsp;000}@} of previously recognized credit-loss impairment, it records:
 >
-> | {@{Reverse credit-loss impairment on HFCS debt investment}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Allowance for impaired debt investments}@} | {@{15&nbsp;000}@} | |
-> | {@{Recovery of impairment loss}@} | | {@{15&nbsp;000}@} | <!--SR:!fsrs,2026-08-08T12:24:33.457Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:33.457Z!fsrs,2026-08-08T12:08:44.270Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:44.270Z!fsrs,2026-08-08T12:11:01.957Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:11:01.957Z!fsrs,2026-08-08T12:09:03.782Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:09:03.782Z!fsrs,2026-08-15T12:58:57.915Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:58:57.915Z-->
+> | {@{Reverse credit-loss impairment on HFCS debt investment}@} |                Dr |                Cr |
+> | ------------------------------------------------------------ | ----------------: | ----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{Allowance for impaired debt investments}@}                | {@{15&nbsp;000}@} |                   |
+> | {@{Recovery of impairment loss}@}                            |                   | {@{15&nbsp;000}@} | <!--SR:!fsrs,2026-08-08T12:24:33.457Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:33.457Z!fsrs,2026-08-08T12:08:44.270Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:44.270Z!fsrs,2026-08-08T12:11:01.957Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:11:01.957Z!fsrs,2026-08-08T12:09:03.782Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:09:03.782Z!fsrs,2026-08-15T12:58:57.915Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:58:57.915Z--> |
 
 ---
 
@@ -724,13 +739,13 @@ Flashcards for this section are as follows:
 
 ## financial statement disclosures under IFRS 7
 
-IFRS 7 _Financial Instruments: Disclosures_ requires entities to provide information that enables users to evaluate the __significance of financial instruments__ for financial position and performance, and the __nature and extent of the risks__ arising from those instruments.
+IFRS 7 _Financial Instruments: Disclosures_ requires entities to provide information that enables users to evaluate the **significance of financial instruments** for financial position and performance, and the **nature and extent of the risks** arising from those instruments.
 
 Key disclosure areas:
 
-- __Credit risk__: maximum exposure to credit loss, concentrations of risk, collateral held, and — for instruments subject to the ECL model — a movement table showing the allowance balance by stage from opening to closing.
-- __Liquidity risk__: maturity analysis of financial liabilities, presenting contractual undiscounted cash flows arranged by time bucket (e.g., within one year, one to five years, over five years).
-- __Market risk__: sensitivity analysis showing the effect on profit or loss and on equity of a reasonably possible change in each relevant market variable (e.g., a 100 basis-point increase in interest rates, or a 10% depreciation of a functional currency).
+- **Credit risk**: maximum exposure to credit loss, concentrations of risk, collateral held, and — for instruments subject to the ECL model — a movement table showing the allowance balance by stage from opening to closing.
+- **Liquidity risk**: maturity analysis of financial liabilities, presenting contractual undiscounted cash flows arranged by time bucket (e.g., within one year, one to five years, over five years).
+- **Market risk**: sensitivity analysis showing the effect on profit or loss and on equity of a reasonably possible change in each relevant market variable (e.g., a 100 basis-point increase in interest rates, or a 10% depreciation of a functional currency).
 
 For equity investments irrevocably designated at FVOCI (non-trading), IFRS 7 additionally requires disclosure of the reason for making the irrevocable election and the amount of dividends recognized from those investments during the period.
 
@@ -744,13 +759,13 @@ Flashcards for this section are as follows:
 
 ## derivatives used for speculation
 
-A derivative is a financial instrument whose value is derived from an __underlying__ such as a share price, interest rate, commodity price, or exchange rate.
+A derivative is a financial instrument whose value is derived from an **underlying** such as a share price, interest rate, commodity price, or exchange rate.
 
 The slides stress three basic characteristics:
 
-1. it has an __underlying__;
+1. it has an **underlying**;
 2. it requires little or no initial investment relative to the exposure created; and
-3. it permits or requires __net settlement__.
+3. it permits or requires **net settlement**.
 
 The three main derivative families in the course are:
 
@@ -760,57 +775,58 @@ The three main derivative families in the course are:
 
 The transcript gives three quick recognition clues for a derivative:
 
-1. its value depends on an __underlying__ such as a share price, commodity price, or interest rate;
+1. its value depends on an **underlying** such as a share price, commodity price, or interest rate;
 2. it usually requires little or no initial investment compared with the exposure created; and
-3. it permits or requires __net settlement__ rather than forcing full physical delivery in every case.
+3. it permits or requires **net settlement** rather than forcing full physical delivery in every case.
 
-When derivatives are used for __speculation__, the accounting rule is direct:
+When derivatives are used for **speculation**, the accounting rule is direct:
 
 - recognize the derivative as an asset or liability;
-- measure it at __fair value__; and
-- report gains and losses in __income__ immediately.
+- measure it at **fair value**; and
+- report gains and losses in **income** immediately.
 
 A call option example makes the mechanics concrete.
 
-- __intrinsic value__ = market price of the underlying minus strike price, if positive;
-- __time value__ = total option value minus intrinsic value.
+- **intrinsic value** = market price of the underlying minus strike price, if positive;
+- **time value** = total option value minus intrinsic value.
 
-A __call option__ profits when the underlying price rises above the strike price. A __put option__ profits when the underlying price falls below the strike price. The lecture stresses that option premium is not all one thing: part is current exercise value, and part is the value of having time left before expiry.
+A **call option** profits when the underlying price rises above the strike price. A **put option** profits when the underlying price falls below the strike price. The lecture stresses that option premium is not all one thing: part is current exercise value, and part is the value of having time left before expiry.
 
-A __futures contract__ differs from an option in one crucial way: the holder is not just buying a right but entering a binding price commitment. Because of that, futures are especially useful in hedge questions about locking in a purchase price or sale price.
+A **futures contract** differs from an option in one crucial way: the holder is not just buying a right but entering a binding price commitment. Because of that, futures are especially useful in hedge questions about locking in a purchase price or sale price.
 
 > _Call option bought for speculation._ A company buys a call option for {@{€400}@} on {@{1&nbsp;000 shares}@} with strike price {@{€100}@}. By March 31 the share price rises to {@{€120, so intrinsic value becomes €20&nbsp;000}@}. The option's remaining time value is only {@{€100, so almost all of the option's value is now intrinsic rather than time value}@}.
 >
-> | {@{Record increase in intrinsic value of call option}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Call option}@} | {@{20&nbsp;000}@} | |
-> | {@{Unrealized holding gain or loss — income}@} | | {@{20&nbsp;000}@} |
+> | {@{Record increase in intrinsic value of call option}@} |                Dr |                Cr |
+> | ------------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Call option}@}                                       | {@{20&nbsp;000}@} |                   |
+> | {@{Unrealized holding gain or loss — income}@}          |                   | {@{20&nbsp;000}@} |
 >
-> | {@{Record decline in time value of call option}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — income}@} | {@{300}@} | |
-> | {@{Call option}@} | | {@{300}@} |
+> | {@{Record decline in time value of call option}@} |        Dr |        Cr |
+> | ------------------------------------------------- | --------: | --------: |
+> | {@{Unrealized holding gain or loss — income}@}    | {@{300}@} |           |
+> | {@{Call option}@}                                 |           | {@{300}@} |
 >
 > _Explanation._ Both the gain from intrinsic value and the loss from time-value decay hit income immediately because the option is being accounted for as a speculative derivative. <!--SR:!fsrs,2026-08-08T12:12:57.836Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:57.836Z!fsrs,2026-08-08T11:54:23.204Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:54:23.204Z!fsrs,2026-08-08T12:03:21.437Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:21.437Z!fsrs,2026-08-08T12:23:48.874Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:48.874Z!fsrs,2026-08-08T13:00:01.000Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:01.000Z!fsrs,2026-08-08T12:22:35.779Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:35.779Z!fsrs,2026-08-08T13:00:12.795Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:12.795Z!fsrs,2026-08-08T12:08:56.553Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:56.553Z!fsrs,2026-08-08T12:06:51.664Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:51.664Z!fsrs,2026-08-15T12:25:29.000Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:25:29.000Z!fsrs,2026-08-15T12:12:52.652Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:12:52.652Z!fsrs,2026-08-08T12:08:58.866Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:58.866Z!fsrs,2026-08-08T11:54:27.008Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:54:27.008Z!fsrs,2026-08-08T12:10:37.518Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:37.518Z!fsrs,2026-08-08T12:08:03.798Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:03.798Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Final remeasurement and settlement of a speculative call option._ Before settlement, intrinsic value falls by {@{€5&nbsp;000}@} and time value falls by another {@{€40, leaving a carrying amount of €15&nbsp;060 before settlement for €15&nbsp;000 cash}@}.
 >
-> | {@{Record decline in intrinsic value before settlement}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — income}@} | {@{5&nbsp;000}@} | |
-> | {@{Call option}@} | | {@{5&nbsp;000}@} |
+> | {@{Record decline in intrinsic value before settlement}@} |               Dr |               Cr |
+> | --------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Unrealized holding gain or loss — income}@}            | {@{5&nbsp;000}@} |                  |
+> | {@{Call option}@}                                         |                  | {@{5&nbsp;000}@} |
 >
-> | {@{Record final decline in time value before settlement}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — income}@} | {@{40}@} | |
-> | {@{Call option}@} | | {@{40}@} |
+> | {@{Record final decline in time value before settlement}@} |       Dr |       Cr |
+> | ---------------------------------------------------------- | -------: | -------: |
+> | {@{Unrealized holding gain or loss — income}@}             | {@{40}@} |          |
+> | {@{Call option}@}                                          |          | {@{40}@} |
 >
-> | {@{Settle speculative call option}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{15&nbsp;000}@} | |
-> | {@{Loss on settlement of call option}@} | {@{60}@} | |
-> | {@{Call option}@} | | {@{15&nbsp;060}@} | <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:10:27.306Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:27.306Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:59:02.136Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:02.136Z!fsrs,2026-08-08T12:59:03.460Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:03.460Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:22:51.607Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:51.607Z!fsrs,2026-08-08T13:02:29.087Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:29.087Z!fsrs,2026-08-08T12:23:46.825Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:46.825Z!fsrs,2026-08-08T13:02:01.682Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:01.682Z!fsrs,2026-08-08T12:24:17.041Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:17.041Z!fsrs,2026-08-08T13:02:47.579Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:47.579Z!fsrs,2026-08-08T12:23:44.197Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:44.197Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T13:00:05.084Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:05.084Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:30:59.247Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:30:59.247Z-->
+> | {@{Settle speculative call option}@}    |                Dr |                Cr |
+> | --------------------------------------- | ----------------: | ----------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{Cash}@}                              | {@{15&nbsp;000}@} |                   |
+> | {@{Loss on settlement of call option}@} |          {@{60}@} |                   |
+> | {@{Call option}@}                       |                   | {@{15&nbsp;060}@} | <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:10:27.306Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:27.306Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:59:02.136Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:02.136Z!fsrs,2026-08-08T12:59:03.460Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:03.460Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:22:51.607Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:51.607Z!fsrs,2026-08-08T13:02:29.087Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:29.087Z!fsrs,2026-08-08T12:23:46.825Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:46.825Z!fsrs,2026-08-08T13:02:01.682Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:01.682Z!fsrs,2026-08-08T12:24:17.041Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:17.041Z!fsrs,2026-08-08T13:02:47.579Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:47.579Z!fsrs,2026-08-08T12:23:44.197Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:44.197Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T13:00:05.084Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:05.084Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:30:59.247Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:30:59.247Z--> |
 
 ---
 
@@ -834,34 +850,32 @@ The course covers two hedge types that receive special accounting under IFRS.
 
 Flashcards for this section are as follows:
 
-- hedge accounting in this note: main split ::@:: Fair value hedges send both sides of the hedge to income, while cash flow hedges park the derivative's unrealized gain or loss in OCI first and reclassify it later. <!--SR:!fsrs,2026-08-30T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-20T00:00:00.000Z!fsrs,2026-07-14T13:01:52.335Z,31,30.53476645,5.48972837,2,2,0,0,2026-06-13T13:01:52.335Z-->
-- hedge accounting: why is location of gain or loss the key idea? ::@:: Because hedge accounting tries to make the derivative and the hedged item affect earnings in the same period or location where the underlying risk shows up. <!--SR:!fsrs,2026-08-30T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-20T00:00:00.000Z!fsrs,2026-08-08T12:05:07.533Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:07.533Z-->
-- fair value hedge: what is being hedged? ::@:: Exposure to changes in the fair value of a recognized asset or liability or of an unrecognized firm commitment. <!--SR:!fsrs,2026-08-30T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-20T00:00:00.000Z!fsrs,2026-08-30T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-20T00:00:00.000Z-->
-- cash flow hedge: what is being hedged? ::@:: Variability in expected future cash flows. <!--SR:!fsrs,2026-07-13T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-13T00:00:00.000Z!fsrs,2026-07-13T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-13T00:00:00.000Z--> <!--SR:!fsrs,2026-07-12T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-12T00:00:00.000Z!fsrs,2026-07-12T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-12T00:00:00.000Z--> <!--SR:!fsrs,2026-07-11T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-11T00:00:00.000Z!fsrs,2026-07-11T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-11T00:00:00.000Z--> <!--SR:!fsrs,2026-07-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-10T00:00:00.000Z!fsrs,2026-07-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-10T00:00:00.000Z--> <!--SR:!2000-01-01,1,250!fsrs,2026-07-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-10T00:00:00.000Z--> <!--SR:!fsrs,2026-07-09T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-09T00:00:00.000Z!fsrs,2026-07-09T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-09T00:00:00.000Z--> <!--SR:!fsrs,2026-07-16T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-08T00:00:00.000Z!fsrs,2026-07-16T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-08T00:00:00.000Z--> <!--SR:!fsrs,2026-07-07T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-07T00:00:00.000Z!fsrs,2026-07-07T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-07T00:00:00.000Z--> <!--SR:!fsrs,2026-07-06T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-06T00:00:00.000Z!fsrs,2026-07-06T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-06T00:00:00.000Z--> <!--SR:!fsrs,2026-07-13T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-05T00:00:00.000Z!fsrs,2026-07-13T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-05T00:00:00.000Z--> <!--SR:!fsrs,2026-07-12T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-04T00:00:00.000Z!fsrs,2026-07-12T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-04T00:00:00.000Z--> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-03T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-03T00:00:00.000Z--> <!--SR:!fsrs,2026-07-04T00:00:00.000Z,2,2.3065,2.11121424,2,2,0,0,2026-07-02T00:00:00.000Z!fsrs,2026-07-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-02T00:00:00.000Z--> <!--SR:!fsrs,2026-07-02T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-02T00:00:00.000Z!fsrs,2026-07-10T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-02T00:00:00.000Z--> <!--SR:!fsrs,2026-07-09T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-01T00:00:00.000Z!fsrs,2026-07-09T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-01T00:00:00.000Z--> <!--SR:!fsrs,2026-07-08T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-30T00:00:00.000Z!fsrs,2026-07-08T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-30T00:00:00.000Z--> <!--SR:!fsrs,2026-07-07T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-29T00:00:00.000Z!fsrs,2026-07-07T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-29T00:00:00.000Z--> <!--SR:!fsrs,2026-06-28T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-06-28T00:00:00.000Z!fsrs,2026-07-06T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-28T00:00:00.000Z--> <!--SR:!fsrs,2026-07-05T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-27T00:00:00.000Z!fsrs,2026-07-05T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-27T00:00:00.000Z--> <!--SR:!fsrs,2026-07-04T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-26T00:00:00.000Z!fsrs,2026-07-04T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-26T00:00:00.000Z--> <!--SR:!fsrs,2026-07-03T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-25T00:00:00.000Z!fsrs,2026-07-03T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-25T00:00:00.000Z--> <!--SR:!fsrs,2026-07-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-24T00:00:00.000Z!fsrs,2026-07-02T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-24T00:00:00.000Z--> <!--SR:!fsrs,2026-07-01T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-23T00:00:00.000Z!fsrs,2026-07-01T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-23T00:00:00.000Z--> <!--SR:!fsrs,2026-06-22T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-06-22T00:00:00.000Z!fsrs,2026-06-30T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-22T00:00:00.000Z--> <!--SR:!fsrs,2026-06-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-06-29T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-21T00:00:00.000Z--> <!--SR:!fsrs,2026-06-28T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-20T00:00:00.000Z!fsrs,2026-06-28T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-20T00:00:00.000Z--> <!--SR:!fsrs,2026-06-27T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-19T00:00:00.000Z!fsrs,2026-06-27T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-19T00:00:00.000Z--> <!--SR:!fsrs,2026-06-26T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-18T00:00:00.000Z!fsrs,2026-06-26T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-18T00:00:00.000Z--> <!--SR:!fsrs,2026-06-25T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-06-25T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-06-17T00:00:00.000Z--> <!--SR:!fsrs,2026-06-24T01:44:32.114Z,8,8.2956,1,2,1,0,0,2026-06-16T01:44:32.114Z!fsrs,2026-06-24T02:25:42.581Z,8,8.2956,1,2,1,0,0,2026-06-16T02:25:42.581Z--> <!--SR:!fsrs,2026-06-23T03:26:57.689Z,8,8.2956,1,2,1,0,0,2026-06-15T03:26:57.689Z!fsrs,2026-06-23T03:26:33.990Z,8,8.2956,1,2,1,0,0,2026-06-15T03:26:33.990Z--> <!--SR:!fsrs,2026-06-22T10:01:34.610Z,8,8.2956,1,2,1,0,0,2026-06-14T10:01:34.610Z!fsrs,2026-06-22T10:02:08.038Z,8,8.2956,1,2,1,0,0,2026-06-14T10:02:08.038Z--> <!--SR:!fsrs,2026-06-21T11:54:10.849Z,8,8.2956,1,2,1,0,0,2026-06-13T11:54:10.849Z!fsrs,2026-06-21T11:34:57.429Z,8,8.2956,1,2,1,0,0,2026-06-13T11:34:57.429Z--> <!--SR:!fsrs,2026-06-20T13:51:51.947Z,8,8.2956,1,2,1,0,0,2026-06-12T13:51:51.947Z!fsrs,2026-06-20T13:51:45.606Z,8,8.2956,1,2,1,0,0,2026-06-12T13:51:45.606Z--> <!--SR:!fsrs,2026-06-20T10:48:52.568Z,8,8.2956,1,2,1,0,0,2026-06-12T10:48:52.568Z!fsrs,2026-06-20T10:49:11.495Z,8,8.2956,1,2,1,0,0,2026-06-12T10:49:11.495Z--> <!--SR:!fsrs,2026-06-20T06:28:57.069Z,8,8.2956,1,2,1,0,0,2026-06-12T06:28:57.069Z!2000-01-01,1,250--> <!--SR:!2000-01-01,1,250!fsrs,2026-06-16T12:29:59.993Z,8,8.2956,1,2,1,0,0,2026-06-08T12:29:59.993Z-->
+- hedge accounting in this note: main split ::@:: Fair value hedges send both sides of the hedge to income, while cash flow hedges park the derivative's unrealized gain or loss in OCI first and reclassify it later.
+- hedge accounting: why is location of gain or loss the key idea? ::@:: Because hedge accounting tries to make the derivative and the hedged item affect earnings in the same period or location where the underlying risk shows up.
 
 ### fair value hedges
 
-A __fair value hedge__ offsets exposure to changes in the fair value of a recognized asset or liability or of an unrecognized firm commitment.
+A **fair value hedge** offsets exposure to changes in the fair value of a recognized asset or liability or of an unrecognized firm commitment.
 
 The key accounting idea is symmetrical:
 
-- the __hedged item__ is adjusted for the fair-value change attributable to the hedged risk; and
-- the __hedging derivative__ is also adjusted to fair value;
-- both effects go to __income__.
+- the **hedged item** is adjusted for the fair-value change attributable to the hedged risk; and
+- the **hedging derivative** is also adjusted to fair value;
+- both effects go to **income**.
 
-The transcript frames the reason very practically: if the hedged inventory or liability is already creating an income-statement gain or loss, the hedging derivative must hit __the same location__ or the hedge will fail to offset the reported volatility.
+The transcript frames the reason very practically: if the hedged inventory or liability is already creating an income-statement gain or loss, the hedging derivative must hit **the same location** or the hedge will fail to offset the reported volatility.
 
 > _Inventory hedged with a put option._ Hayward holds tractor-tire inventory with cost {@{€200&nbsp;000}@}. At March 31 the inventory's fair value declines by {@{10%}@}, or {@{€20&nbsp;000}@}. At the same time, the put option used as the hedge rises by {@{€20&nbsp;000}@}.
 >
-> | {@{Record fair-value decline on hedged inventory}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — income}@} | {@{20&nbsp;000}@} | |
-> | {@{Allowance to reduce inventory to fair value}@} | | {@{20&nbsp;000}@} |
+> | {@{Record fair-value decline on hedged inventory}@} |                Dr |                Cr |
+> | --------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Unrealized holding gain or loss — income}@}      | {@{20&nbsp;000}@} |                   |
+> | {@{Allowance to reduce inventory to fair value}@}   |                   | {@{20&nbsp;000}@} |
 >
-> | {@{Record fair-value increase on put option}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Put option}@} | {@{20&nbsp;000}@} | |
-> | {@{Unrealized holding gain or loss — income}@} | | {@{20&nbsp;000}@} |
+> | {@{Record fair-value increase on put option}@} |                Dr |                Cr |
+> | ---------------------------------------------- | ----------------: | ----------------: |
+> | {@{Put option}@}                               | {@{20&nbsp;000}@} |                   |
+> | {@{Unrealized holding gain or loss — income}@} |                   | {@{20&nbsp;000}@} |
 >
 > _Interpretation._ In a perfect hedge, the income effects offset. <!--SR:!fsrs,2026-08-08T12:24:03.441Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:03.441Z!fsrs,2026-08-08T13:00:09.537Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:09.537Z!fsrs,2026-08-08T13:02:00.928Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:00.928Z!fsrs,2026-08-15T12:10:38.414Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:10:38.414Z!fsrs,2026-08-08T12:26:35.038Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:35.038Z!fsrs,2026-07-31T12:23:26.291Z,48,48.21560005,3.98153807,2,3,0,0,2026-06-13T12:23:26.291Z!fsrs,2026-08-08T12:24:38.498Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:38.498Z!fsrs,2026-08-08T12:59:04.049Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:04.049Z!fsrs,2026-08-15T12:07:18.204Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:07:18.204Z!fsrs,2026-08-15T12:09:00.657Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:09:00.657Z!fsrs,2026-08-08T12:13:17.278Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:13:17.278Z!fsrs,2026-08-08T12:01:21.486Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:01:21.486Z!fsrs,2026-08-08T13:03:16.277Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:16.277Z!fsrs,2026-08-08T13:02:07.462Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:07.462Z-->
 
@@ -869,18 +883,19 @@ The transcript frames the reason very practically: if the hedged inventory or li
 
 Flashcards for this section are as follows:
 
+- fair value hedge: what is being hedged? ::@:: Exposure to changes in the fair value of a recognized asset or liability or of an unrecognized firm commitment.
 - fair value hedge: where do the hedged-item adjustment and derivative gain/loss go? ::@:: Both go to income so that the reported volatility from the hedged item is offset in the same place. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:06:55.721Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:55.721Z-->
 - fair value hedge: is OCI used for the derivative's unrealized gain or loss? ::@:: No. In this hedge type, the derivative and hedged-item fair-value effects go straight to income. <!--SR:!fsrs,2026-08-30T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-20T00:00:00.000Z!fsrs,2026-08-30T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-20T00:00:00.000Z-->
 - why does a fair value hedge hit income immediately? ::@:: Because the hedged item's fair-value change is already affecting income, so the derivative must go to the same location to offset it. <!--SR:!fsrs,2026-08-08T12:59:01.538Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:01.538Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
 
 ### cash flow hedges
 
-A __cash flow hedge__ offsets variability in expected future cash flows, not current fair value.
+A **cash flow hedge** offsets variability in expected future cash flows, not current fair value.
 
 For a qualifying cash flow hedge:
 
 - the derivative is still shown at fair value on the statement of financial position; but
-- the unrealized gain or loss goes to __OCI__ first.
+- the unrealized gain or loss goes to **OCI** first.
 
 Later, when the hedged forecast transaction affects earnings, the accumulated OCI is reclassified into income.
 
@@ -888,20 +903,21 @@ That OCI-first treatment matches the transcript's logic. At the start of a cash 
 
 > _Forecast inventory purchase hedged by futures._ Allied enters a futures contract to lock in the price of aluminum at {@{¥1&nbsp;550 per ton}@}. By year-end the futures contract has gained {@{¥25&nbsp;000}@}.
 >
-> | {@{Record year-end gain on qualifying cash flow hedge}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Futures contract}@} | {@{25&nbsp;000}@} | |
-> | {@{Unrealized holding gain or loss — equity (OCI)}@} | | {@{25&nbsp;000}@} |
+> | {@{Record year-end gain on qualifying cash flow hedge}@} |                Dr |                Cr |
+> | -------------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Futures contract}@}                                   | {@{25&nbsp;000}@} |                   |
+> | {@{Unrealized holding gain or loss — equity (OCI)}@}     |                   | {@{25&nbsp;000}@} |
 >
 > Later, when the related inventory is sold and _Cost of goods sold_ is recognized, the OCI amount is reclassified so that the hedge effect enters income in the same period as the hedged item. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:04:44.835Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:44.835Z!fsrs,2026-08-08T12:28:14.345Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:28:14.345Z!fsrs,2026-08-08T12:30:54.002Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:30:54.002Z!fsrs,2026-08-08T12:59:48.229Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:48.229Z!fsrs,2026-08-08T12:06:59.565Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:59.565Z!fsrs,2026-08-08T12:26:50.625Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:50.625Z-->
 
 <!-- markdownlint-disable-next-line MD028 -->
+
 > _Reclassification from OCI when the hedged inventory affects earnings._ When the finished goods made from the hedged inventory are sold, the accumulated hedge gain of {@{¥25&nbsp;000}@} is reclassified out of OCI.
 >
-> | {@{Reclassify cash flow hedge gain from OCI into cost of goods sold}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{25&nbsp;000}@} | |
-> | {@{Cost of goods sold}@} | | {@{25&nbsp;000}@} | <!--SR:!fsrs,2026-08-08T12:26:45.271Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:45.271Z!fsrs,2026-08-08T12:24:39.980Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:39.980Z!fsrs,2026-08-08T12:10:39.288Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:39.288Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:08:51.893Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:51.893Z-->
+> | {@{Reclassify cash flow hedge gain from OCI into cost of goods sold}@} |                Dr |                Cr |
+> | ---------------------------------------------------------------------- | ----------------: | ----------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | {@{Unrealized holding gain or loss — equity (OCI)}@}                   | {@{25&nbsp;000}@} |                   |
+> | {@{Cost of goods sold}@}                                               |                   | {@{25&nbsp;000}@} | <!--SR:!fsrs,2026-08-08T12:26:45.271Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:45.271Z!fsrs,2026-08-08T12:24:39.980Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:39.980Z!fsrs,2026-08-08T12:10:39.288Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:39.288Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-08T12:08:51.893Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:51.893Z--> |
 
 ---
 
@@ -913,34 +929,34 @@ Flashcards for this section are as follows:
 
 #### forecast purchase hedged through basis adjustment into inventory
 
-One common accounting path for a cash flow hedge of a forecast purchase of a __non-financial item__ is to remove the accumulated OCI amount from equity and build it into the carrying amount of the asset when that asset is finally recognized. For inventory, that means the hedge effect can be absorbed into __Inventory__ first and then flow into __Cost of goods sold__ naturally when the inventory is sold.
+One common accounting path for a cash flow hedge of a forecast purchase of a **non-financial item** is to remove the accumulated OCI amount from equity and build it into the carrying amount of the asset when that asset is finally recognized. For inventory, that means the hedge effect can be absorbed into **Inventory** first and then flow into **Cost of goods sold** naturally when the inventory is sold.
 
 > _Forecast inventory purchase with later basis adjustment._ Suppose the futures contract above has already produced a {@{¥25&nbsp;000 gain in OCI at year-end}@}. Before the actual inventory purchase date, the futures gain increases by another {@{¥7&nbsp;000}@}, so the total effective hedge gain accumulated in OCI is now {@{¥32&nbsp;000}@}. The inventory is then purchased for the current spot-based cash price of {@{¥1&nbsp;582&nbsp;000}@}, and the futures contract is settled for {@{¥32&nbsp;000 cash}@}.
 >
-> | {@{Record additional gain on the qualifying cash flow hedge before the forecast purchase occurs}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Futures contract}@} | {@{7&nbsp;000}@} | |
-> | {@{Unrealized holding gain or loss — equity (OCI)}@} | | {@{7&nbsp;000}@} |
+> | {@{Record additional gain on the qualifying cash flow hedge before the forecast purchase occurs}@} |               Dr |               Cr |
+> | -------------------------------------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Futures contract}@}                                                                             | {@{7&nbsp;000}@} |                  |
+> | {@{Unrealized holding gain or loss — equity (OCI)}@}                                               |                  | {@{7&nbsp;000}@} |
 >
-> | {@{Purchase the hedged inventory at the actual spot-based cash price}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Inventory}@} | {@{1&nbsp;582&nbsp;000}@} | |
-> | {@{Cash}@} | | {@{1&nbsp;582&nbsp;000}@} |
+> | {@{Purchase the hedged inventory at the actual spot-based cash price}@} |                        Dr |                        Cr |
+> | ----------------------------------------------------------------------- | ------------------------: | ------------------------: |
+> | {@{Inventory}@}                                                         | {@{1&nbsp;582&nbsp;000}@} |                           |
+> | {@{Cash}@}                                                              |                           | {@{1&nbsp;582&nbsp;000}@} |
 >
-> | {@{Settle the futures contract for cash}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{32&nbsp;000}@} | |
-> | {@{Futures contract}@} | | {@{32&nbsp;000}@} |
+> | {@{Settle the futures contract for cash}@} |                Dr |                Cr |
+> | ------------------------------------------ | ----------------: | ----------------: |
+> | {@{Cash}@}                                 | {@{32&nbsp;000}@} |                   |
+> | {@{Futures contract}@}                     |                   | {@{32&nbsp;000}@} |
 >
-> | {@{Remove the accumulated hedge gain from OCI and use it to reduce the carrying amount of the purchased inventory}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{32&nbsp;000}@} | |
-> | {@{Inventory}@} | | {@{32&nbsp;000}@} |
+> | {@{Remove the accumulated hedge gain from OCI and use it to reduce the carrying amount of the purchased inventory}@} |                Dr |                Cr |
+> | -------------------------------------------------------------------------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Unrealized holding gain or loss — equity (OCI)}@}                                                                 | {@{32&nbsp;000}@} |                   |
+> | {@{Inventory}@}                                                                                                      |                   | {@{32&nbsp;000}@} |
 >
-> | {@{Later recognize cost of goods sold after the basis-adjusted inventory is sold}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cost of goods sold}@} | {@{1&nbsp;550&nbsp;000}@} | |
-> | {@{Inventory}@} | | {@{1&nbsp;550&nbsp;000}@} |
+> | {@{Later recognize cost of goods sold after the basis-adjusted inventory is sold}@} |                        Dr |                        Cr |
+> | ----------------------------------------------------------------------------------- | ------------------------: | ------------------------: |
+> | {@{Cost of goods sold}@}                                                            | {@{1&nbsp;550&nbsp;000}@} |                           |
+> | {@{Inventory}@}                                                                     |                           | {@{1&nbsp;550&nbsp;000}@} |
 >
 > _Explanation._ The hedge gain first sits in {@{OCI because the forecast purchase has not yet affected earnings}@}. Once the inventory is recognized, the accumulated OCI is {@{taken out of equity and used to reduce Inventory from ¥1&nbsp;582&nbsp;000 to the hedged effective amount of ¥1&nbsp;550&nbsp;000}@}. The hedge effect then reaches income naturally through later {@{Cost of goods sold}@}. <!--SR:!fsrs,2026-08-08T12:26:37.489Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:37.489Z!fsrs,2026-08-08T12:05:27.298Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:27.298Z!fsrs,2026-08-15T13:02:35.487Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T13:02:35.487Z!fsrs,2026-08-08T12:23:46.029Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:46.029Z!fsrs,2026-08-08T12:09:17.628Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:09:17.628Z!fsrs,2026-08-08T12:05:10.166Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:10.166Z!fsrs,2026-08-08T12:14:12.211Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:14:12.211Z!fsrs,2026-08-08T12:12:51.342Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:51.342Z!fsrs,2026-08-08T12:24:18.441Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:18.441Z!fsrs,2026-08-08T12:05:41.897Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:41.897Z!fsrs,2026-07-31T13:01:58.172Z,48,48.21560005,3.98153807,2,3,0,0,2026-06-13T13:01:58.172Z!fsrs,2026-08-08T12:25:19.758Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:19.758Z!fsrs,2026-08-08T12:12:30.859Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:30.859Z!fsrs,2026-08-08T12:04:47.906Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:47.906Z!fsrs,2026-08-15T12:22:29.770Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:22:29.770Z!fsrs,2026-08-08T12:28:04.082Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:28:04.082Z!fsrs,2026-08-08T12:04:55.963Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:04:55.963Z!fsrs,2026-08-08T12:24:30.064Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:30.064Z!fsrs,2026-08-08T13:02:40.097Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:40.097Z!fsrs,2026-08-08T12:03:39.623Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:39.623Z!fsrs,2026-08-15T11:59:53.318Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T11:59:53.318Z!fsrs,2026-08-08T12:47:28.909Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:47:28.909Z!fsrs,2026-08-08T12:30:52.740Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:30:52.740Z!fsrs,2026-08-08T12:25:08.108Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:08.108Z!fsrs,2026-08-08T12:03:15.831Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:03:15.831Z!fsrs,2026-07-31T11:54:22.367Z,48,48.21560005,3.98153807,2,3,0,0,2026-06-13T11:54:22.367Z!fsrs,2026-08-08T12:28:11.010Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:28:11.010Z!fsrs,2026-08-08T12:22:32.774Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:32.774Z!fsrs,2026-08-08T11:59:48.484Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:48.484Z!fsrs,2026-08-08T11:59:58.801Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:58.801Z!fsrs,2026-08-08T12:10:47.191Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:47.191Z!fsrs,2026-08-08T12:26:12.258Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:12.258Z!fsrs,2026-08-08T12:24:41.757Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:41.757Z-->
 
@@ -953,29 +969,29 @@ Flashcards for this section are as follows:
 
 #### floating-rate debt hedged to fixed cash flows with a swap
 
-Cash flow hedge accounting is also common when a company wants to turn __floating-rate interest cash flows into fixed-like interest cash flows__. The debt itself still produces ordinary interest expense. The effective part of the swap's gain or loss is parked in __OCI__ first and then reclassified into __Interest expense__ when the hedged interest cash flow affects earnings.
+Cash flow hedge accounting is also common when a company wants to turn **floating-rate interest cash flows into fixed-like interest cash flows**. The debt itself still produces ordinary interest expense. The effective part of the swap's gain or loss is parked in **OCI** first and then reclassified into **Interest expense** when the hedged interest cash flow affects earnings.
 
 > _Floating-rate debt hedged with a pay-fixed, receive-floating swap._ Assume a company has floating-rate debt that produces {@{€52&nbsp;000 interest expense for the period}@}. The effective portion of the swap creates a {@{€8&nbsp;000 loss}@} for the same period because the company is effectively locking itself into a higher fixed rate. The swap is then settled for {@{€8&nbsp;000 cash}@}.
 >
-> | {@{Record periodic interest on the floating-rate debt itself}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Interest expense}@} | {@{52&nbsp;000}@} | |
-> | {@{Cash}@} | | {@{52&nbsp;000}@} |
+> | {@{Record periodic interest on the floating-rate debt itself}@} |                Dr |                Cr |
+> | --------------------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Interest expense}@}                                          | {@{52&nbsp;000}@} |                   |
+> | {@{Cash}@}                                                      |                   | {@{52&nbsp;000}@} |
 >
-> | {@{Record the effective loss on the cash flow hedge in OCI}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{8&nbsp;000}@} | |
-> | {@{Swap contract}@} | | {@{8&nbsp;000}@} |
+> | {@{Record the effective loss on the cash flow hedge in OCI}@} |               Dr |               Cr |
+> | ------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Unrealized holding gain or loss — equity (OCI)}@}          | {@{8&nbsp;000}@} |                  |
+> | {@{Swap contract}@}                                           |                  | {@{8&nbsp;000}@} |
 >
-> | {@{Settle the swap liability for cash}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Swap contract}@} | {@{8&nbsp;000}@} | |
-> | {@{Cash}@} | | {@{8&nbsp;000}@} |
+> | {@{Settle the swap liability for cash}@} |               Dr |               Cr |
+> | ---------------------------------------- | ---------------: | ---------------: |
+> | {@{Swap contract}@}                      | {@{8&nbsp;000}@} |                  |
+> | {@{Cash}@}                               |                  | {@{8&nbsp;000}@} |
 >
-> | {@{Reclassify the accumulated OCI loss into interest expense when the hedged interest cash flow affects earnings}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Interest expense}@} | {@{8&nbsp;000}@} | |
-> | {@{Unrealized holding gain or loss — equity (OCI)}@} | | {@{8&nbsp;000}@} |
+> | {@{Reclassify the accumulated OCI loss into interest expense when the hedged interest cash flow affects earnings}@} |               Dr |               Cr |
+> | ------------------------------------------------------------------------------------------------------------------- | ---------------: | ---------------: |
+> | {@{Interest expense}@}                                                                                              | {@{8&nbsp;000}@} |                  |
+> | {@{Unrealized holding gain or loss — equity (OCI)}@}                                                                |                  | {@{8&nbsp;000}@} |
 >
 > _Explanation._ The floating-rate debt itself creates {@{€52&nbsp;000 of ordinary interest expense}@}. The swap's effective loss is first parked in {@{OCI}@}, then reclassified into {@{Interest expense}@} so that total reported borrowing cost becomes {@{€60&nbsp;000 fixed-like cost}@} for the period. <!--SR:!fsrs,2026-08-08T13:01:33.965Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:01:33.965Z!fsrs,2026-08-08T11:59:40.092Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:40.092Z!fsrs,2026-08-08T12:05:28.924Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:28.924Z!fsrs,2026-08-08T12:23:01.990Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:01.990Z!fsrs,2026-08-08T12:00:00.601Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:00:00.601Z!fsrs,2026-08-08T12:24:01.153Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:01.153Z!fsrs,2026-07-31T12:25:28.412Z,48,48.21560005,3.98153807,2,3,0,0,2026-06-13T12:25:28.412Z!fsrs,2026-08-08T12:47:29.891Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:47:29.891Z!fsrs,2026-08-08T12:09:07.034Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:09:07.034Z!fsrs,2026-08-08T13:03:35.478Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:35.478Z!fsrs,2026-08-08T12:24:20.215Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:20.215Z!fsrs,2026-08-08T12:10:49.451Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:49.451Z!fsrs,2026-08-08T12:26:29.322Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:29.322Z!fsrs,2026-08-08T12:59:12.757Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:59:12.757Z!fsrs,2026-08-15T12:06:28.888Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:06:28.888Z!fsrs,2026-08-08T11:54:17.965Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:54:17.965Z!fsrs,2026-08-08T12:24:42.824Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:24:42.824Z!fsrs,2026-08-08T12:08:02.911Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:02.911Z!fsrs,2026-08-08T12:06:19.001Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:06:19.001Z!fsrs,2026-08-08T12:07:21.186Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:07:21.186Z!fsrs,2026-08-08T12:05:44.876Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:05:44.876Z!fsrs,2026-08-15T12:07:53.348Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:07:53.348Z!fsrs,2026-08-08T12:10:59.078Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:59.078Z!fsrs,2026-08-08T12:26:49.842Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:49.842Z!fsrs,2026-08-08T12:10:48.620Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:48.620Z!fsrs,2026-08-08T12:01:23.735Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:01:23.735Z!fsrs,2026-08-08T12:08:54.782Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:54.782Z-->
 
@@ -988,31 +1004,31 @@ Flashcards for this section are as follows:
 
 ### swaps and qualifying criteria
 
-A __swap__ is a contract in which two parties exchange payment streams. The most common example in the slides is an __interest rate swap__. One party pays fixed and receives floating; the other does the opposite.
+A **swap** is a contract in which two parties exchange payment streams. The most common example in the slides is an **interest rate swap**. One party pays fixed and receives floating; the other does the opposite.
 
 The classroom motivation is duration and interest-rate-risk management. A company with a fixed-rate bond liability may fear falling market rates, because falling rates increase the fair value of that liability. By entering a swap that receives fixed and pays floating, the company creates a derivative whose value can move in the opposite direction and offset part of that risk.
 
 > _Interest rate swap used as a fair value hedge of bonds payable._ A company has {@{€1&nbsp;000&nbsp;000 of 8% bonds payable}@}. It enters a pay-floating, receive-fixed swap that qualifies as a fair value hedge. At year-end it pays regular bond interest, receives a {@{€12&nbsp;000 swap settlement}@}, recognizes a {@{€40&nbsp;000 increase in the swap's fair value}@}, and recognizes the matching {@{€40&nbsp;000 loss from the increase in the fair value of the hedged bonds payable}@}.
 >
-> | {@{Record annual interest payment on bonds payable}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Interest expense}@} | {@{80&nbsp;000}@} | |
-> | {@{Cash}@} | | {@{80&nbsp;000}@} |
+> | {@{Record annual interest payment on bonds payable}@} |                Dr |                Cr |
+> | ----------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Interest expense}@}                                | {@{80&nbsp;000}@} |                   |
+> | {@{Cash}@}                                            |                   | {@{80&nbsp;000}@} |
 >
-> | {@{Record cash settlement received on interest rate swap}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Cash}@} | {@{12&nbsp;000}@} | |
-> | {@{Interest expense}@} | | {@{12&nbsp;000}@} |
+> | {@{Record cash settlement received on interest rate swap}@} |                Dr |                Cr |
+> | ----------------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Cash}@}                                                  | {@{12&nbsp;000}@} |                   |
+> | {@{Interest expense}@}                                      |                   | {@{12&nbsp;000}@} |
 >
-> | {@{Record increase in fair value of swap contract}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Swap contract}@} | {@{40&nbsp;000}@} | |
-> | {@{Unrealized holding gain or loss — income}@} | | {@{40&nbsp;000}@} |
+> | {@{Record increase in fair value of swap contract}@} |                Dr |                Cr |
+> | ---------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Swap contract}@}                                  | {@{40&nbsp;000}@} |                   |
+> | {@{Unrealized holding gain or loss — income}@}       |                   | {@{40&nbsp;000}@} |
 >
-> | {@{Record fair value loss on hedged bonds payable}@} | Dr | Cr |
-> | --- | ---: | ---: |
-> | {@{Unrealized holding gain or loss — income}@} | {@{40&nbsp;000}@} | |
-> | {@{Bonds payable}@} | | {@{40&nbsp;000}@} |
+> | {@{Record fair value loss on hedged bonds payable}@} |                Dr |                Cr |
+> | ---------------------------------------------------- | ----------------: | ----------------: |
+> | {@{Unrealized holding gain or loss — income}@}       | {@{40&nbsp;000}@} |                   |
+> | {@{Bonds payable}@}                                  |                   | {@{40&nbsp;000}@} |
 >
 > _Explanation._ In a fair value hedge, the {@{derivative gain and hedged-item loss go to the same income location}@}, so the accounting visibly shows the offset. <!--SR:!fsrs,2026-08-08T13:03:43.748Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:03:43.748Z!fsrs,2026-08-08T12:08:14.336Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:14.336Z!fsrs,2026-08-08T12:12:56.952Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:12:56.952Z!fsrs,2026-08-08T12:23:54.362Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:54.362Z!fsrs,2026-08-08T12:23:53.753Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:23:53.753Z!fsrs,2026-08-08T13:00:02.718Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:02.718Z!fsrs,2026-08-08T12:31:00.835Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:31:00.835Z!fsrs,2026-08-08T12:25:29.621Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:29.621Z!fsrs,2026-08-08T12:13:00.791Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:13:00.791Z!fsrs,2026-08-08T13:00:30.357Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:30.357Z!fsrs,2026-08-15T12:22:38.416Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:22:38.416Z!fsrs,2026-08-08T12:10:47.940Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:10:47.940Z!fsrs,2026-08-15T12:06:19.739Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:06:19.739Z!fsrs,2026-08-08T13:00:10.823Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:00:10.823Z!fsrs,2026-08-08T12:01:14.759Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:01:14.759Z!fsrs,2026-08-08T13:02:48.506Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T13:02:48.506Z!fsrs,2026-08-08T12:25:22.024Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:25:22.024Z!fsrs,2026-08-08T12:22:28.923Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:22:28.923Z!fsrs,2026-08-15T12:12:05.057Z,63,62.51337484,2.98092302,2,3,0,0,2026-06-13T12:12:05.057Z!fsrs,2026-08-08T12:26:43.625Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:43.625Z!fsrs,2026-08-08T12:01:22.036Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:01:22.036Z!fsrs,2026-08-08T11:59:59.768Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T11:59:59.768Z!fsrs,2026-08-08T12:08:45.982Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:08:45.982Z!fsrs,2026-07-31T13:02:04.599Z,48,48.21560005,3.98153807,2,3,0,0,2026-06-13T13:02:04.599Z!fsrs,2026-08-08T12:26:15.525Z,56,56.31566409,3.98153807,2,2,0,0,2026-06-13T12:26:15.525Z-->
 

@@ -54,6 +54,7 @@ Repository gotchas & quick tips
   and use Asyncer helpers for clearer return-value handling. Add short
   concurrency tests verifying behavior, as shown earlier.
 - Always prefer `bun run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
+- **NEVER `cd` into `.agents/skills/` to run `uv run` commands.** Any `uv run` inside a skill folder will create `.venv/`/`uv.lock` trash there and fail because dependencies are missing. Always run `uv` commands from the **repo root** and reference skill files by absolute or relative-from-root paths. Example: `uv run .agents/skills/academic-notes/check.py ...` or `uv run pytest .agents/skills/academic-notes/tests_a7392be/`.
 - When writing shell commands for Python in a PowerShell terminal, use a here-string and pipe into `uv run python -`. For example:
 
   ```powershell
