@@ -45,6 +45,8 @@ from check_mods.rules import (
     latex_single_line,
     latex_spacing_after,
     latex_spacing_before,
+    md028_bad_format,
+    md028_missing,
     metadata_aliases_present,
     metadata_flash_tag,
     metadata_tags_present,
@@ -2075,3 +2077,82 @@ def test_flashcard_tag_unique():
     msgs_mixed = flashcard_tag_unique(ctx_mixed)
     assert msgs_mixed and msgs_mixed[0].rule_id == "flashcard_tag_unique"
     assert "expected 1, found 2" in msgs_mixed[0].msg
+
+
+# ── md028 rules ─────────────────────────────────────────────────────────────
+
+
+def test_md028_missing_adjacent_bq():
+    """Two separate blockquotes (blank line between) without MD028 comment → error."""
+    txt = "> First blockquote.\n\n> Second blockquote.\n"
+    ctx = make_ctx(txt)
+    msgs = md028_missing(ctx)
+    assert msgs and msgs[0].rule_id == "md028_missing"
+    assert "separator" in msgs[0].msg
+
+
+def test_md028_missing_with_comment():
+    """Blockquotes with proper MD028 comment → no error."""
+    txt = (
+        "> First blockquote.\n"
+        "\n"
+        "<!-- markdownlint MD028 -->\n"
+        "\n"
+        "> Second blockquote.\n"
+    )
+    ctx = make_ctx(txt)
+    assert not md028_missing(ctx)
+
+
+def test_md028_missing_merged_bq():
+    """Two blockquotes without any blank line between (merged by mistune) → no error."""
+    # Without a blank line, mistune merges into one block_quote; no false positive.
+    txt = "> First line\n> Second line (same blockquote)\n"
+    ctx = make_ctx(txt)
+    assert not md028_missing(ctx)
+
+
+def test_md028_missing_non_adjacent():
+    """Blockquotes separated by a heading → not adjacent, no error."""
+    txt = "> First quote.\n\n## Heading\n\n> Second quote.\n"
+    ctx = make_ctx(txt)
+    assert not md028_missing(ctx)
+
+
+def test_md028_bad_format_correct():
+    """Perfectly formatted MD028 comment → no errors."""
+    txt = "> First.\n\n<!-- markdownlint MD028 -->\n\n> Second.\n"
+    ctx = make_ctx(txt)
+    assert not md028_bad_format(ctx)
+
+
+def test_md028_bad_format_text():
+    """Wrong comment text → md028_bad_format/text error."""
+    txt = "> First.\n\n<!-- markdownlint-disable-next-line MD028 -->\n\n> Second.\n"
+    ctx = make_ctx(txt)
+    msgs = md028_bad_format(ctx)
+    assert msgs and msgs[0].rule_id == "md028_bad_format/text"
+
+
+def test_md028_bad_format_blank_before():
+    """Missing blank line before MD028 comment → blank_before error."""
+    txt = "> First.\n<!-- markdownlint MD028 -->\n\n> Second.\n"
+    ctx = make_ctx(txt)
+    msgs = md028_bad_format(ctx)
+    assert msgs and msgs[0].rule_id == "md028_bad_format/blank_before"
+
+
+def test_md028_bad_format_blank_after():
+    """Missing blank line after MD028 comment → blank_after error."""
+    txt = "> First.\n\n<!-- markdownlint MD028 -->\n> Second.\n"
+    ctx = make_ctx(txt)
+    msgs = md028_bad_format(ctx)
+    assert msgs and msgs[0].rule_id == "md028_bad_format/blank_after"
+
+
+def test_md028_bad_format_trailing_whitespace():
+    """Trailing space on MD028 comment line → trailing_whitespace error."""
+    txt = "> First.\n\n<!-- markdownlint MD028 --> \n\n> Second.\n"
+    ctx = make_ctx(txt)
+    msgs = md028_bad_format(ctx)
+    assert msgs and msgs[0].rule_id == "md028_bad_format/trailing_whitespace"
