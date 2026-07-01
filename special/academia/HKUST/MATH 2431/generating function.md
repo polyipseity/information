@@ -23,14 +23,14 @@ Flashcards for this section are as follows:
 
 ## moment generating function
 
-The MGF $M_X(t)=E[e^{tX}]$ is said to **exist** if it is finite on an open interval $(-h,h)$ containing $0$. Whenever differentiation under the expectation is justified, $M_X^{(n)}(0)=E[X^n]$, so the MGF stores all moments. In particular, $M_X'(0)=E[X]$ and $M_X''(0)=E[X^2]$.
+The MGF $M_X(t)=E[e^{tX}]$ is said to __exist__ if it is finite on an open interval $(-h,h)$ containing $0$. Whenever differentiation under the expectation is justified, $M_X^{(n)}(0)=E[X^n]$, so the MGF stores all moments. In particular, $M_X'(0)=E[X]$ and $M_X''(0)=E[X^2]$.
 
 Existence properties:
 
-- **Moments from MGF:** $M_X^{(n)}(0)=E[X^n]$ (dominated convergence justifies differentiation on the interval).
-- **MGF uniquely determines the law:** if $M_X(t)=M_Y(t)$ for all $t$ in a neighborhood of $0$, then $X$ and $Y$ have the same distribution (analytic continuation to the CF, then Lévy's inversion formula).
-- **Analyticity:** $t\mapsto M_X(t)$ is infinitely differentiable and analytic on its domain; the power series $\sum_{k\ge0}E[X^k]t^k/k!$ converges to $M_X(t)$ on $(-h,h)$.
-- **Affine transformation:** $M_{aX+b}(t)=e^{tb}M_X(at)$.
+- __Moments from MGF:__ $M_X^{(n)}(0)=E[X^n]$ (dominated convergence justifies differentiation on the interval).
+- __MGF uniquely determines the law:__ if $M_X(t)=M_Y(t)$ for all $t$ in a neighborhood of $0$, then $X$ and $Y$ have the same distribution (analytic continuation to the CF, then Lévy's inversion formula).
+- __Analyticity:__ $t\mapsto M_X(t)$ is infinitely differentiable and analytic on its domain; the power series $\sum_{k\ge0}E[X^k]t^k/k!$ converges to $M_X(t)$ on $(-h,h)$.
+- __Affine transformation:__ $M_{aX+b}(t)=e^{tb}M_X(at)$.
 
 MGF existence near $0$ is stronger than mere finiteness of all moments. A counterexample is the lognormal distribution: $X\sim\operatorname{LogNormal}(0,1)$ has $E[X^n]=e^{n^2/2}<\infty$ for all $n$, but $E[e^{tX}]=\infty$ for all $t>0$. So theorems requiring MGF existence (Chernoff bounds, MGF uniqueness) are genuinely stronger than moment assumptions.
 
@@ -54,9 +54,9 @@ The three generating functions are related by substitution: $M_X(it)=\varphi_X(t
 
 Each generating function also recovers distributional information from its derivatives, and each uniquely determines the underlying law:
 
-- **MGF:** $M_X^{(n)}(0)=E[X^n]$ recovers moments; $M_X$ uniquely determines the distribution via analytic continuation to the CF.
-- **CF:** $\varphi_X$ uniquely determines the distribution via the inversion formula; $\varphi_X^{(n)}(0)=i^nE[X^n]$ when moments exist.
-- **PGF:** $G_X^{(k)}(0)/k!=P[X=k]$ recovers probabilities; $G_X$ uniquely determines the distribution as coefficients of its power series.
+- __MGF:__ $M_X^{(n)}(0)=E[X^n]$ recovers moments; $M_X$ uniquely determines the distribution via analytic continuation to the CF.
+- __CF:__ $\varphi_X$ uniquely determines the distribution via the inversion formula; $\varphi_X^{(n)}(0)=i^nE[X^n]$ when moments exist.
+- __PGF:__ $G_X^{(k)}(0)/k!=P[X=k]$ recovers probabilities; $G_X$ uniquely determines the distribution as coefficients of its power series.
 
 Moreover, for each transform, the existence of the first moment has a derivative-based characterisation: for the MGF, $E[X]=M_X'(0)$ (on the interval of existence); for the CF, $E[X]=-i\varphi_X'(0)$ when $E[|X|]<\infty$; and for the PGF, $E[X]=G_X'(1)=\lim_{t\uparrow 1}G_X'(t)$.
 
@@ -70,15 +70,15 @@ Flashcards for this section are as follows:
 
 ### uniqueness theorem
 
-For each generating function, the correspondence is **bidirectional**: $$\text{equal transforms (on the appropriate domain)}\quad\Longleftrightarrow\quad\text{equal probability laws}.$$
+For each generating function, the correspondence is __bidirectional__: $$\text{equal transforms (on the appropriate domain)}\quad\Longleftrightarrow\quad\text{equal probability laws}.$$
 
 The forward direction ($\Longleftarrow$) is trivial: equal distributions give equal expectations. The converse is the uniqueness theorem:
 
-- **CF (no condition needed):** Fourier inversion recovers the CDF at continuity points: $F_X(b)-F_X(a)=\frac1{2\pi}\lim_{T\to\infty}\int_{-T}^T\frac{e^{-ita}-e^{-itb}}{it}\,\varphi_X(t)\,dt$. Equal CFs $\Rightarrow$ equal right-hand sides $\Rightarrow$ equal CDFs.
+- __CF (no condition needed):__ Fourier inversion recovers the CDF at continuity points: $F_X(b)-F_X(a)=\frac1{2\pi}\lim_{T\to\infty}\int_{-T}^T\frac{e^{-ita}-e^{-itb}}{it}\,\varphi_X(t)\,dt$. Equal CFs $\Rightarrow$ equal right-hand sides $\Rightarrow$ equal CDFs.
 
-- **MGF (finite near $0$):** $M_X(z)=E[e^{zX}]$ is analytic on a strip $\{z:|\operatorname{Re}z|<h\}$. Equality on $(-h,h)$ forces equality on the strip, hence on the imaginary axis where it reduces to the CF; CF uniqueness then gives $X\stackrel d=Y$.
+- __MGF (finite near $0$):__ $M_X(z)=E[e^{zX}]$ is analytic on a strip $\{z:|\operatorname{Re}z|<h\}$. Equality on $(-h,h)$ forces equality on the strip, hence on the imaginary axis where it reduces to the CF; CF uniqueness then gives $X\stackrel d=Y$.
 
-- **PGF ($|s|\le1$):** $G_X(s)=\sum P[X=k]s^k$ is a power series. If $G_X(s)=G_Y(s)$ on $[0,1]$, the identity theorem forces equal coefficients $P[X=k]=P[Y=k]$ for all $k$.
+- __PGF ($|s|\le1$):__ $G_X(s)=\sum P[X=k]s^k$ is a power series. If $G_X(s)=G_Y(s)$ on $[0,1]$, the identity theorem forces equal coefficients $P[X=k]=P[Y=k]$ for all $k$.
 
 ---
 
@@ -152,14 +152,14 @@ Flashcards for this section are as follows:
 
 Key properties:
 
-- **Uniform continuity:** $|\varphi_X(t+h)-\varphi_X(t)|\le E[|e^{ihX}-1|]\to0$ as $h\to0$ (dominated convergence).
-- **Boundedness:** $|\varphi_X(t)|\le1$ for all $t$, $\varphi_X(0)=1$.
-- **Conjugate symmetry:** $\varphi_X(-t)=\overline{\varphi_X(t)}$.
-- **Independent sums:** $\varphi_{X+Y}(t)=\varphi_X(t)\varphi_Y(t)$, central to the CLT (Taylor-expand $\varphi_X$ and apply Lévy's continuity theorem).
-- **Affine transformation:** $\varphi_{aX+b}(t)=e^{itb}\varphi_X(at)$.
-- **Moments (when they exist):** $\varphi_X^{(n)}(0)=i^nE[X^n]$; conversely $\varphi_X^{(n)}(0)$ finite implies $E[|X|^{n}]<\infty$ (even $n$) or $E[|X|^{n-1}]<\infty$ (odd $n$).
-- **Uniqueness:** If $\varphi_X(t)=\varphi_Y(t)$ for all $t$, then $X\stackrel d=Y$ by the inversion formula.
-- **Lévy's continuity theorem:** $X_n\xrightarrow{d}X$ $\Rightarrow$ $\varphi_{X_n}(t)\to\varphi_X(t)$; conversely, if $\varphi_{X_n}$ converges pointwise to $\varphi$ continuous at $0$, $X_n\xrightarrow{d}X$ for some $X$ with CF $\varphi$.
+- __Uniform continuity:__ $|\varphi_X(t+h)-\varphi_X(t)|\le E[|e^{ihX}-1|]\to0$ as $h\to0$ (dominated convergence).
+- __Boundedness:__ $|\varphi_X(t)|\le1$ for all $t$, $\varphi_X(0)=1$.
+- __Conjugate symmetry:__ $\varphi_X(-t)=\overline{\varphi_X(t)}$.
+- __Independent sums:__ $\varphi_{X+Y}(t)=\varphi_X(t)\varphi_Y(t)$, central to the CLT (Taylor-expand $\varphi_X$ and apply Lévy's continuity theorem).
+- __Affine transformation:__ $\varphi_{aX+b}(t)=e^{itb}\varphi_X(at)$.
+- __Moments (when they exist):__ $\varphi_X^{(n)}(0)=i^nE[X^n]$; conversely $\varphi_X^{(n)}(0)$ finite implies $E[|X|^{n}]<\infty$ (even $n$) or $E[|X|^{n-1}]<\infty$ (odd $n$).
+- __Uniqueness:__ If $\varphi_X(t)=\varphi_Y(t)$ for all $t$, then $X\stackrel d=Y$ by the inversion formula.
+- __Lévy's continuity theorem:__ $X_n\xrightarrow{d}X$ $\Rightarrow$ $\varphi_{X_n}(t)\to\varphi_X(t)$; conversely, if $\varphi_{X_n}$ converges pointwise to $\varphi$ continuous at $0$, $X_n\xrightarrow{d}X$ for some $X$ with CF $\varphi$.
 
 ## probability generating functions for discrete distributions
 

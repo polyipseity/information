@@ -5,7 +5,7 @@ description: Ingest Wikipedia HTML, normalize links/media, and archive to knowle
 
 # Wiki Ingestion Workflow
 
-> **Continuous improvement:** see `continuous_improvement.md` in this
+> __Continuous improvement:__ see `continuous_improvement.md` in this
 > folder for a running log of lessons learned and guidance on evolving
 > the wiki-ingestion skill.
 
@@ -31,7 +31,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ### Step 1: Scaffold new note
 
-**Command**: `uv run -m templates.new_wiki_page`
+__Command__: `uv run -m templates.new_wiki_page`
 
 - Script prompts for Wikipedia article name (e.g., "Fourier Transform")
 - Generates YAML frontmatter template:
@@ -45,7 +45,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 - Adds Wikipedia link comment: `<!-- Source: https://en.wikipedia.org/wiki/Article_Name -->`
 - Copies template to clipboard
-- **Action**: Paste into new file `general/Article Name.md` (or `special/` if specialized content)
+- __Action__: Paste into new file `general/Article Name.md` (or `special/` if specialized content)
 
 ### Step 2: Copy Wikipedia HTML to clipboard
 
@@ -56,14 +56,14 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ### Step 3: Ingest HTML
 
-**Command**: `uv run -m convert_wiki`
+__Command__: `uv run -m convert_wiki`
 
 - Tool reads from clipboard
 - Normalizes Markdown formatting (lists, tables, code, emphasis)
 - Downloads images to `archives/Wikimedia Commons/` using `convert_wiki.filename_rename_map.jsonc` for filename renames
 - Normalizes links to relative paths with `%20` encoding (not `%3A` or other encodings)
 - Outputs Markdown that preserves Wikipedia structure
-- **Action**: Paste output below the frontmatter in your note file
+- __Action__: Paste output below the frontmatter in your note file
 
 ### Step 4: Flashcard state
 
@@ -91,27 +91,27 @@ these markers, the build updates pytextgen regions behind the scenes. See
 
 ## Best practices
 
-- **Check media archives**: Ensure all images/files downloaded to `archives/Wikimedia Commons/` with `%20`-encoded filenames
-- **Verify link normalization**: Relative paths only; no external URLs unless absolutely necessary
-- **YAML structure**: Use [markdown-notes](../instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`
-- **Keep attribution**: Preserve Wikipedia source URL in frontmatter or as HTML comment
-- **Review formatting**: Simplify complex tables/lists if needed; respect `.markdownlint.json` settings
-- **Test generation**: This is handled by CI/build automatically; the agent
+- __Check media archives__: Ensure all images/files downloaded to `archives/Wikimedia Commons/` with `%20`-encoded filenames
+- __Verify link normalization__: Relative paths only; no external URLs unless absolutely necessary
+- __YAML structure__: Use [markdown-notes](../instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`
+- __Keep attribution__: Preserve Wikipedia source URL in frontmatter or as HTML comment
+- __Review formatting__: Simplify complex tables/lists if needed; respect `.markdownlint.json` settings
+- __Test generation__: This is handled by CI/build automatically; the agent
   should not run the generator manually when verifying edits.
-- **Add cloze markup**: Manually annotate key terms with `{@{ }@}`, `::@::`, or `:@:` for active recall
+- __Add cloze markup__: Manually annotate key terms with `{@{ }@}`, `::@::`, or `:@:` for active recall
 
 ## Common issues
 
-1. **Media download failures**: Check if clipboard HTML is complete; retry `convert_wiki`
-2. **Broken relative links**: Verify `%20` encoding for spaces (not `%3A` or other encodings)
-3. **Complex tables**: Some Wikipedia tables don't convert well; manually edit to simpler Markdown format
-4. **Cloze markup missing**: Manually add after generation; see [pytextgen](../pytextgen/SKILL.md) skill for syntax
+1. __Media download failures__: Check if clipboard HTML is complete; retry `convert_wiki`
+2. __Broken relative links__: Verify `%20` encoding for spaces (not `%3A` or other encodings)
+3. __Complex tables__: Some Wikipedia tables don't convert well; manually edit to simpler Markdown format
+4. __Cloze markup missing__: Manually add after generation; see [pytextgen](../pytextgen/SKILL.md) skill for syntax
 
 ## Integration
 
-- **Note scaffolding**: Use [tools/SKILL.md](../tools/SKILL.md) (templates section) to understand frontmatter conventions
-- **Flashcard generation**: Use [pytextgen](../pytextgen/SKILL.md) to regenerate cloze markup into flashcards
-- **Edit conventions**: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules while editing imported notes
+- __Note scaffolding__: Use [tools/SKILL.md](../tools/SKILL.md) (templates section) to understand frontmatter conventions
+- __Flashcard generation__: Use [pytextgen](../pytextgen/SKILL.md) to regenerate cloze markup into flashcards
+- __Edit conventions__: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules while editing imported notes
 
 ## Typical command pattern
 

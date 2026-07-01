@@ -22,13 +22,13 @@ maintaining `index.md` files in `archives/`.
   tool.
 - Relative link encoding (`%20` for spaces) is important when referencing
   archived media from notes; the same rule applies across all skills.
-- **Scheduling rules** from other skills (full weekday names, no topic on
+- __Scheduling rules__ from other skills (full weekday names, no topic on
   unscheduled) apply when pyarchivist is used to archive timetable data or
   schedules scraped from web pages.
 - Run `bun run check:md` on affected index files after archiving to
   catch inadvertent markdown errors such as duplicate headings or
   misplaced YAML frontmatter.
-- **2026‑02‑22 consolidation:** this document was added as part of a
+- __2026‑02‑22 consolidation:__ this document was added as part of a
   repo‑wide effort to place continuous‑learning notes in every skill
   directory.
 

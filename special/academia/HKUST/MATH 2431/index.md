@@ -681,20 +681,20 @@ The content is in teaching order.
 
 ---
 
-> This is a reminder that the **midterm exam** for the course Honors Probability (MATH 2431) will take place: \
+> This is a reminder that the __midterm exam__ for the course Honors Probability (MATH 2431) will take place: \
 > Tomorrow, Friday (20/03/2026) from 13:30 – 14:50 in Room 6537, near Lifts 29–30 (the usual classroom + the usual class hours).
 >
-> Please refer to the guidelines for the midterm exam under the **Syllabus** Tab for procedural details. To guarantee a smooth procedure, please note the following:
+> Please refer to the guidelines for the midterm exam under the __Syllabus__ Tab for procedural details. To guarantee a smooth procedure, please note the following:
 >
 > - It is strongly recommended to arrive ca. 5 min early to the venue. The exam will start sharp (13:30) and end sharp (14:50).
-> - You are **not** allowed to start the exam / turn around the front page before instructed to do so. Starting the exam early will result in disqualification and 0 points.
-> - Please bring a pen with preferably **blue** or **black** ink. Do **not** write with red ink or with a pencil.
-> - Answers should be given **directly on the exam sheet**. Do **not** bring your own paper (there will be enough scratch paper available).
+> - You are __not__ allowed to start the exam / turn around the front page before instructed to do so. Starting the exam early will result in disqualification and 0 points.
+> - Please bring a pen with preferably __blue__ or __black__ ink. Do __not__ write with red ink or with a pencil.
+> - Answers should be given __directly on the exam sheet__. Do __not__ bring your own paper (there will be enough scratch paper available).
 > - Please bring your Student ID with you for identity verification.
-> - All electronic devices **must be switched off and stowed away at all time**. This includes calculators.
+> - All electronic devices __must be switched off and stowed away at all time__. This includes calculators.
 > - You are not allowed to leave the examination venue within the first 10 or the last 10 minutes of the examination.
-> - Please be reminded that the exam is **closed-book** exam. You do not need to memorize probability distribution functions or probability mass functions.
-> - Sample questions and solutions can be found in the **Modules** tab.
+> - Please be reminded that the exam is __closed-book__ exam. You do not need to memorize probability distribution functions or probability mass functions.
+> - Sample questions and solutions can be found in the __Modules__ tab.
 
 ## final examination
 
@@ -734,20 +734,20 @@ The content is in teaching order.
 
 ---
 
-> This is a reminder that the **final exam** for the course Honors Probability (MATH 2431) will take place: \
+> This is a reminder that the __final exam__ for the course Honors Probability (MATH 2431) will take place: \
 > In two days, Thursday (21/05/2026), 16:30 (4:30 PM) – 18:30 (6:30 PM) in the room G001, Cheng Yu Tung Building.
 >
-> Please refer to the guidelines for the final exam under the **Syllabus** Tab for procedural details. To guarantee a smooth procedure, please note the following:
+> Please refer to the guidelines for the final exam under the __Syllabus__ Tab for procedural details. To guarantee a smooth procedure, please note the following:
 >
 > - It is strongly recommended to arrive ca. 5–10 min early to the venue. The exam will start sharp (16:30 / 4:30 PM) and end sharp (18:30 / 6:30 PM).
-> - You are **not** allowed to start the exam / turn around the front page before instructed to do so. Starting the exam early will result in disqualification and 0 points.
-> - Please bring a pen with preferably **blue** or **black** ink. Do **not** write with red ink or with a pencil.
-> - Answers should be given **directly on the exam sheet**. Do **not** bring your own paper (there will be enough scratch paper available).
+> - You are __not__ allowed to start the exam / turn around the front page before instructed to do so. Starting the exam early will result in disqualification and 0 points.
+> - Please bring a pen with preferably __blue__ or __black__ ink. Do __not__ write with red ink or with a pencil.
+> - Answers should be given __directly on the exam sheet__. Do __not__ bring your own paper (there will be enough scratch paper available).
 > - Please bring your Student ID with you for identity verification.
-> - All electronic devices **must be switched off and stowed away at all time**. This includes calculators.
+> - All electronic devices __must be switched off and stowed away at all time__. This includes calculators.
 > - You are not allowed to leave the examination venue within the first 10 or the last 10 minutes of the examination.
-> - Please be reminded that the exam is **closed-book** exam.
-> - Please note that all solutions to the problem sets as well as collected in-class Mentimeter problems are available under the **Modules** tab.
+> - Please be reminded that the exam is __closed-book__ exam.
+> - Please note that all solutions to the problem sets as well as collected in-class Mentimeter problems are available under the __Modules__ tab.
 
 ## aftermath
 

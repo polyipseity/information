@@ -7,11 +7,11 @@ applyTo: "scripts/pytextgen/**"
 # Submodule PyTextGen Guidelines
 
 - This is a git submodule for the pytextgen content generation library (external dependency)
-- **Default behavior**: Avoid editing unless user explicitly requests it
-- **If editing is needed but not requested**: Ask the user for permission first
-- **When user approves edits**: Make changes here, test thoroughly, then contribute upstream
+- __Default behavior__: Avoid editing unless user explicitly requests it
+- __If editing is needed but not requested__: Ask the user for permission first
+- __When user approves edits__: Make changes here, test thoroughly, then contribute upstream
 - For upstream contributions: work in the pytextgen repo, merge changes, then update submodule pointer
-- **Submodule instructions**: This submodule has its own `AGENTS.md` and `.agents/instructions/` and `.agents/skills/` files that take priority when working within `scripts/pytextgen/`. Agents: consult `.agents/instructions/agent-quickstart.instructions.md` and the submodule `AGENTS.md` before editing; pytextgen fences and flashcard markup (cloze `{@{ }@}`, two-sided `::@::`,
+- __Submodule instructions__: This submodule has its own `AGENTS.md` and `.agents/instructions/` and `.agents/skills/` files that take priority when working within `scripts/pytextgen/`. Agents: consult `.agents/instructions/agent-quickstart.instructions.md` and the submodule `AGENTS.md` before editing; pytextgen fences and flashcard markup (cloze `{@{ }@}`, two-sided `::@::`,
 and one-sided `:@:`) are sensitive and must not be altered without explicit
 intent and tests.
 

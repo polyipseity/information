@@ -10,7 +10,7 @@ This document establishes a repository-wide convention for how Python scripts an
 
 ## Shebang Requirement
 
-All Python files with inline `# /// script` metadata **must** begin with the shebang `#!/usr/bin/env python` on the very first line (line 1). This enables direct execution on Unix-like systems and signals that the file is a runnable script.
+All Python files with inline `# /// script` metadata __must__ begin with the shebang `#!/usr/bin/env python` on the very first line (line 1). This enables direct execution on Unix-like systems and signals that the file is a runnable script.
 
 ```python
 #!/usr/bin/env python
@@ -26,17 +26,17 @@ All Python files with inline `# /// script` metadata **must** begin with the she
 
 The convention distinguishes between:
 
-1. **Async logic**: The main application logic (called `main0` or `main` depending on signature)
-2. **Sync dispatch wrapper**: A `__main__()` function that bridges sync and async using Asyncer's `runnify`
-3. **Entry point guard**: The classic `if __name__ == "__main__":` block that invokes the wrapper
+1. __Async logic__: The main application logic (called `main0` or `main` depending on signature)
+2. __Sync dispatch wrapper__: A `__main__()` function that bridges sync and async using Asyncer's `runnify`
+3. __Entry point guard__: The classic `if __name__ == "__main__":` block that invokes the wrapper
 
 ## Rationale
 
-- **Separation of concerns**: Core logic remains decoupled from entry-point machinery, enabling easier testing and code reuse.
-- **Asyncer integration**: Using `runnify` with `use_uvloop` provides reliable event-loop management, cross-platform compatibility, and performance optimization via uvloop.
-- **Consistency**: All scripts follow the same pattern, making codebases predictable and reducing cognitive load when onboarding or refactoring.
-- **Testability**: The async main function can be imported and tested directly without triggering the entry point guard.
-- **Type hints**: Functions are properly annotated with return types, enabling static analysis and documentation.
+- __Separation of concerns__: Core logic remains decoupled from entry-point machinery, enabling easier testing and code reuse.
+- __Asyncer integration__: Using `runnify` with `use_uvloop` provides reliable event-loop management, cross-platform compatibility, and performance optimization via uvloop.
+- __Consistency__: All scripts follow the same pattern, making codebases predictable and reducing cognitive load when onboarding or refactoring.
+- __Testability__: The async main function can be imported and tested directly without triggering the entry point guard.
+- __Type hints__: Functions are properly annotated with return types, enabling static analysis and documentation.
 
 ## Pattern: Async Entry Points
 
@@ -75,10 +75,10 @@ if __name__ == "__main__":
     __main__()
 ```
 
-**Key points**:
+__Key points__:
 
 - The async `main()` function is the true application entry point. Its signature is `main(argv: Sequence[str] | None = None) -> None` or similar (use `None` default for friendly testing).
-- The `__main__()` wrapper is **always sync** and has a docstring explaining its purpose.
+- The `__main__()` wrapper is __always sync__ and has a docstring explaining its purpose.
 - Use `runnify(main, backend_options={"use_uvloop": True})()` to run async code from sync context (uvloop is optional but recommended for performance on Unix; it is automatically skipped on Windows by Asyncer).
 - The guard `if __name__ == "__main__":` is placed at the end of the file; call only `__main__()` inside the guard.
 
@@ -149,7 +149,7 @@ if __name__ == "__main__":
     __main__()
 ```
 
-**Key points**:
+__Key points__:
 
 - `main()` is sync (no `async` keyword).
 - `__main__()` simply calls `main()` directly.
@@ -188,9 +188,9 @@ if __name__ == "__main__":
     __main__()
 ```
 
-**Key points**:
+__Key points__:
 
-- Module `__main__.py` files follow the **exact same pattern** as standalone scripts.
+- Module `__main__.py` files follow the __exact same pattern__ as standalone scripts.
 - Use `async def main()` for async dispatcher logic or `def main()` for sync.
 - Always include the `__main__()` wrapper and `if __name__ == "__main__":` guard for consistency.
 
@@ -217,8 +217,8 @@ async def test_main_with_args():
 
 This pattern allows both:
 
-1. **Direct execution**: `python script.py arg1 arg2` (uses CLI args)
-2. **Programmatic testing**: Call `await main(["arg1", "arg2"])` directly in tests
+1. __Direct execution__: `python script.py arg1 arg2` (uses CLI args)
+2. __Programmatic testing__: Call `await main(["arg1", "arg2"])` directly in tests
 
 ## Integrating with argparse and Click
 
@@ -258,9 +258,9 @@ if __name__ == "__main__":
 
 ## Type Hints and Documentation
 
-- **Type hints**: Always include return type hints on `main()` and `__main__()`. For sync entry points, `-> None` is common. For async, `async def main(...) -> None` follows the same convention.
-- **Docstrings**: Include a module-level docstring at the top of the file. Include docstrings on `main()` and `__main__()` explaining their purpose.
-- **Example docstring**:
+- __Type hints__: Always include return type hints on `main()` and `__main__()`. For sync entry points, `-> None` is common. For async, `async def main(...) -> None` follows the same convention.
+- __Docstrings__: Include a module-level docstring at the top of the file. Include docstrings on `main()` and `__main__()` explaining their purpose.
+- __Example docstring__:
 
   ```python
   """Convert wiki HTML to Markdown.
@@ -352,7 +352,7 @@ async def test_main_error_handling(tmp_path: Path):
     # assertions...
 ```
 
-**Testing rules**:
+__Testing rules__:
 
 - Import `main` directly in tests; do not trigger the `if __name__ == "__main__":` guard
 - Use `@pytest.mark.anyio` for async tests (with AnyIO pytest plugin)
@@ -362,34 +362,34 @@ async def test_main_error_handling(tmp_path: Path):
 
 ## Related Guidance
 
-- **Async helpers**: See `.agents/instructions/agent-quickstart.instructions.md` for Asyncer usage (`runnify`, `asyncify`, `soonify`, `create_task_group`)
-- **Script templates**: See `scripts/templates/` for scaffold examples
-- **Error handling**: Follow the project's error conventions (exit codes, stderr output)
-- **Logging**: Use Python's `logging` module with `basicConfig(level=INFO)` in `main()` when appropriate
+- __Async helpers__: See `.agents/instructions/agent-quickstart.instructions.md` for Asyncer usage (`runnify`, `asyncify`, `soonify`, `create_task_group`)
+- __Script templates__: See `scripts/templates/` for scaffold examples
+- __Error handling__: Follow the project's error conventions (exit codes, stderr output)
+- __Logging__: Use Python's `logging` module with `basicConfig(level=INFO)` in `main()` when appropriate
 
 ## Frequently Asked Questions
 
-**Q: Why wrap an async main in a sync `__main__()` function instead of calling `runnify()` directly in the guard?**
+__Q: Why wrap an async main in a sync `__main__()` function instead of calling `runnify()` directly in the guard?__
 
 A: This allows the sync wrapper to be tested/documented as a separate unit and makes the entry-point invocation more explicit and readable. It also mirrors the sync pattern exactly, reducing cognitive overhead.
 
-**Q: What if my script is purely sync?**
+__Q: What if my script is purely sync?__
 
 A: Use the sync pattern: `main()` calls the logic, `__main__()` calls `main()` without `runnify`, and the guard remains the same.
 
-**Q: Can I use `asyncio` directly instead of Asyncer?**
+__Q: Can I use `asyncio` directly instead of Asyncer?__
 
 A: No. The project uses AnyIO for cross-platform structured concurrency, with Asyncer providing convenient wrappers (`runnify`, `asyncify`, etc.). Avoid importing `asyncio` directly in new code.
 
-**Q: Should I call `sys.exit()` or `exit()` in main?**
+__Q: Should I call `sys.exit()` or `exit()` in main?__
 
 A: Use `exit(code)` or `return exit(code)` consistently. Both work; `exit()` is from builtins and is slightly more portable. Using `return exit(code)` makes the intent clear (early exit with status).
 
-**Q: Why always include `uvloop` backend option even on Windows?**
+__Q: Why always include `uvloop` backend option even on Windows?__
 
 A: Asyncer automatically skips uvloop on Windows and falls back to the standard asyncio event loop. Including the option makes the code portable and allows uvloop to be used on Unix/Linux/macOS without conditionals.
 
-**Q: Can scripts accept positional arguments without argparse?**
+__Q: Can scripts accept positional arguments without argparse?__
 
 A: Yes, `argv` is a plain list. You can parse it manually if argparse is overkill. However, for CLI scripts, argparse is preferred for consistency and automatic `--help` support.
 

@@ -64,7 +64,7 @@ Hence $$\begin{aligned}P[X=k\mid X+Y=n]&=\frac{P[X=k,\,Y=n-k]}{P[X+Y=n]} \\&=\fr
 
 so $X\mid(X+Y=n)\sim\mathrm{Bin}\!\left(n,\frac{\lambda}{\lambda+\mu}\right)$. Intuitively, each of the $n$ total arrivals is independently from $X$ with probability $\lambda/(\lambda+\mu)$.
 
-**Connection to Poisson thinning.** In a Poisson *process*, if $(N(t))$ is a Poisson process with rate $\lambda$ and each arrival is independently classified as type 1 with probability $p$ (type 2 with probability $1-p$), then the thinned processes $N_1(t)$ and $N_2(t)$ are independent Poisson processes with rates $\lambda p$ and $\lambda(1-p)$. This is *thinning* — the process-level counterpart of the static splitting result above. Both are instances of the same "independent marking" mechanism: each point is allocated by an independent Bernoulli trial. The independence $N_1\perp N_2$ follows because the marks assigned to arrivals in disjoint time intervals are independent Bernoulli trials, so the bivariate process has independent increments in each coordinate. The distinction is that splitting is a property of independent Poisson *random variables* conditioned on their sum, while thinning is a property of Poisson *processes* where arrivals are classified as they occur.
+__Connection to Poisson thinning.__ In a Poisson _process_, if $(N(t))$ is a Poisson process with rate $\lambda$ and each arrival is independently classified as type 1 with probability $p$ (type 2 with probability $1-p$), then the thinned processes $N_1(t)$ and $N_2(t)$ are independent Poisson processes with rates $\lambda p$ and $\lambda(1-p)$. This is _thinning_ — the process-level counterpart of the static splitting result above. Both are instances of the same "independent marking" mechanism: each point is allocated by an independent Bernoulli trial. The independence $N_1\perp N_2$ follows because the marks assigned to arrivals in disjoint time intervals are independent Bernoulli trials, so the bivariate process has independent increments in each coordinate. The distinction is that splitting is a property of independent Poisson _random variables_ conditioned on their sum, while thinning is a property of Poisson _processes_ where arrivals are classified as they occur.
 
 ---
 
@@ -80,20 +80,20 @@ Flashcards for this section are as follows:
 
 Once the conditional law is known, the conditional expectation of $X$ given $Y=y$ is defined as the expectation taken with respect to the conditional distribution.
 
-**Discrete case.** For $y$ with $p_Y(y)>0$, $$E[X\mid Y=y]=\sum_{x\in\Omega_X}x\,p_{X\mid Y=y}(x),$$
+__Discrete case.__ For $y$ with $p_Y(y)>0$, $$E[X\mid Y=y]=\sum_{x\in\Omega_X}x\,p_{X\mid Y=y}(x),$$
 
 provided $\sum_x|x|\,p_{X\mid Y=y}(x)<\infty$. This is exactly $E[X]$ under the conditional probability measure $P[\cdot\mid Y=y]$.
 
-**Continuous case.** For $y$ with $f_Y(y)>0$, $$E[X\mid Y=y]=\int_{-\infty}^{\infty}x\,f_{X\mid Y=y}(x)\,dx,$$
+__Continuous case.__ For $y$ with $f_Y(y)>0$, $$E[X\mid Y=y]=\int_{-\infty}^{\infty}x\,f_{X\mid Y=y}(x)\,dx,$$
 
 provided $\int_{-\infty}^{\infty}|x|\,f_{X\mid Y=y}(x)\,dx<\infty$.
 
-**Intuition: treat the conditioned variable as constant.** In expressions of the form $E[\text{expr}_1\mid\text{expr}_2]$, the conditioned variable may be treated as known/constant when evaluating the expectation. This produces the following algebraic rules:
+__Intuition: treat the conditioned variable as constant.__ In expressions of the form $E[\text{expr}_1\mid\text{expr}_2]$, the conditioned variable may be treated as known/constant when evaluating the expectation. This produces the following algebraic rules:
 
-- **Linearity (constant factors):** $E[\alpha X+\beta Y\mid Z]=\alpha E[X\mid Z]+\beta E[Y\mid Z]$, where $\alpha,\beta$ are real constants that pass through because the conditioning treats $Z$ as fixed.
-- **Pulling out known factors:** $E[g(Y)X\mid Y]=g(Y)\,E[X\mid Y]$; since $Y$ is known when conditioning on itself, $g(Y)$ acts like a constant.
-- **Tower property:** $E[E[X\mid Y]]=E[X]$; first average over uncertainty in $X$ given $Y$ (treating $Y$ as fixed), then average over $Y$.
-- **Additivity across events:** the expectation respects the law of total expectation by first smoothing over $X$ for each fixed $Y$, then averaging those conditional means.
+- __Linearity (constant factors):__ $E[\alpha X+\beta Y\mid Z]=\alpha E[X\mid Z]+\beta E[Y\mid Z]$, where $\alpha,\beta$ are real constants that pass through because the conditioning treats $Z$ as fixed.
+- __Pulling out known factors:__ $E[g(Y)X\mid Y]=g(Y)\,E[X\mid Y]$; since $Y$ is known when conditioning on itself, $g(Y)$ acts like a constant.
+- __Tower property:__ $E[E[X\mid Y]]=E[X]$; first average over uncertainty in $X$ given $Y$ (treating $Y$ as fixed), then average over $Y$.
+- __Additivity across events:__ the expectation respects the law of total expectation by first smoothing over $X$ for each fixed $Y$, then averaging those conditional means.
 
 These heuristics make manipulating conditional expectations feel algebraically natural even without writing integrals.
 
@@ -123,14 +123,14 @@ Flashcards for this section are as follows:
 
 Let $X,Y,Z$ be real random variables with $E[|X|]<\infty$, $E[|Y|]<\infty$. The following properties hold almost surely.
 
-- **Linearity:** $E[\alpha X+\beta Y\mid Z]=\alpha E[X\mid Z]+\beta E[Y\mid Z]$ for $\alpha,\beta\in\mathbb R$.
-- **Positivity:** if $X\ge 0$, then $E[X\mid Y]\ge 0$ almost surely.
-- **Tower property (law of total expectation):** $E[\,E[X\mid Y]\,]=E[X]$.
-- **Taking out what is known:** if $h$ is any measurable function such that $E[|h(Y)X|]<\infty$, then $E[h(Y)X\mid Y]=h(Y)\,E[X\mid Y]$.
-- **Independence:** if $X$ and $Y$ are independent, then $E[X\mid Y]=E[X]$ almost surely.
-- **Normalization:** $E[X\mid X]=X$ almost surely; more generally, if $X$ is $\sigma(Y)$-measurable then $E[X\mid Y]=X$ almost surely.
+- __Linearity:__ $E[\alpha X+\beta Y\mid Z]=\alpha E[X\mid Z]+\beta E[Y\mid Z]$ for $\alpha,\beta\in\mathbb R$.
+- __Positivity:__ if $X\ge 0$, then $E[X\mid Y]\ge 0$ almost surely.
+- __Tower property (law of total expectation):__ $E[\,E[X\mid Y]\,]=E[X]$.
+- __Taking out what is known:__ if $h$ is any measurable function such that $E[|h(Y)X|]<\infty$, then $E[h(Y)X\mid Y]=h(Y)\,E[X\mid Y]$.
+- __Independence:__ if $X$ and $Y$ are independent, then $E[X\mid Y]=E[X]$ almost surely.
+- __Normalization:__ $E[X\mid X]=X$ almost surely; more generally, if $X$ is $\sigma(Y)$-measurable then $E[X\mid Y]=X$ almost surely.
 
-**Proof (discrete case) of the tower property.**
+__Proof (discrete case) of the tower property.__
 
 Write $E[X\mid Y]$ as $g(Y)$ where $g(y)=E[X\mid Y=y]$. Then $$E[\,E[X\mid Y]\,] = E[g(Y)] = \sum_{y} g(y)\,p_Y(y) = \sum_{y}E[X\mid Y=y]\,p_Y(y).$$ Substituting the definition of the conditional mass function gives $$\sum_{y}\sum_{x}x\,p_{X\mid Y=y}(x)\,p_Y(y).$$ Interchanging the order of summation yields the unconditional mean $$\sum_{x,y}x\,p_{X,Y}(x,y)=E[X].$$ The continuous proof replaces sums with integrals: $E[g(Y)] = \int g(y)\,f_Y(y)\,dy = \iint x\,f_{X\mid Y=y}(x)\,f_Y(y)\,dx\,dy = \iint x\,f_{X,Y}(x,y)\,dx\,dy = E[X]$. The proofs of the other properties follow similarly by expanding the definitions.
 
@@ -177,12 +177,12 @@ Flashcards for this section are as follows:
 
 ### definition
 
-Let $(\Omega,\mathcal F,P)$ be a probability space and let $\mathcal G\subseteq\mathcal F$ be a sub-$\sigma$-algebra. For an integrable random variable $X$, the **conditional expectation of $X$ given $\mathcal G$**, denoted $E[X\mid\mathcal G]$, is the unique random variable $Z$ satisfying
+Let $(\Omega,\mathcal F,P)$ be a probability space and let $\mathcal G\subseteq\mathcal F$ be a sub-$\sigma$-algebra. For an integrable random variable $X$, the __conditional expectation of $X$ given $\mathcal G$__, denoted $E[X\mid\mathcal G]$, is the unique random variable $Z$ satisfying
 
 1. $Z$ is $\mathcal G$-measurable,
 2. $E[X\mathbf 1_A]=E[Z\mathbf 1_A]$ for every $A\in\mathcal G$.
 
-**Existence (Radon–Nikodym).** First consider $X\ge 0$. Define a set function $Q$ on $\mathcal G$ by $$Q(A)=E[X\mathbf 1_A],\qquad A\in\mathcal G.$$
+__Existence (Radon–Nikodym).__ First consider $X\ge 0$. Define a set function $Q$ on $\mathcal G$ by $$Q(A)=E[X\mathbf 1_A],\qquad A\in\mathcal G.$$
 
 $Q$ is a finite measure on $(\Omega,\mathcal G)$: countable additivity follows from the monotone convergence theorem, and $Q(\Omega)=E[X]<\infty$. Moreover $Q$ is absolutely continuous with respect to the restriction $P|_{\mathcal G}$: if $A\in\mathcal G$ and $P(A)=0$, then $X\mathbf 1_A=0$ a.s., so $Q(A)=0$.
 
@@ -194,13 +194,13 @@ For a general integrable $X$, write $X=X^+-X^-$ where $X^+=\max(X,0)$ and $X^-=\
 
 Linearity of the integral ensures that this satisfies the two defining properties.
 
-**Uniqueness almost surely.** Suppose $Z_1$ and $Z_2$ both satisfy conditions (1) and (2). Then for every $A\in\mathcal G$, $$E[(Z_1-Z_2)\mathbf 1_A]=E[Z_1\mathbf 1_A]-E[Z_2\mathbf 1_A]=E[X\mathbf 1_A]-E[X\mathbf 1_A]=0.$$
+__Uniqueness almost surely.__ Suppose $Z_1$ and $Z_2$ both satisfy conditions (1) and (2). Then for every $A\in\mathcal G$, $$E[(Z_1-Z_2)\mathbf 1_A]=E[Z_1\mathbf 1_A]-E[Z_2\mathbf 1_A]=E[X\mathbf 1_A]-E[X\mathbf 1_A]=0.$$
 
 Fix $\varepsilon>0$ and set $A_\varepsilon=\{Z_1-Z_2>\varepsilon\}\in\mathcal G$ (the set is in $\mathcal G$ because $Z_1-Z_2$ is $\mathcal G$-measurable). Then $$0=E[(Z_1-Z_2)\mathbf 1_{A_\varepsilon}] \ge \varepsilon\,P(A_\varepsilon),$$
 
 so $P(A_\varepsilon)=0$. Since $\varepsilon>0$ was arbitrary, $P(Z_1>Z_2)=0$, i.e., $Z_1\le Z_2$ almost surely. Reversing the roles of $Z_1$ and $Z_2$ gives $Z_2\le Z_1$ a.s., hence $Z_1=Z_2$ almost surely. In other words, $E[X\mid\mathcal G]$ is unique up to modifications on $P$-null sets — any two versions agree almost surely.
 
-**Example (trivial sigma-algebra).** Let $\mathcal G=\{\emptyset,\Omega\}$ be the trivial $\sigma$-algebra. The only $\mathcal G$-measurable random variables are constants. Condition (2) with $A=\Omega$ gives $E[X]=E[Z]$, so $Z=E[X]$ a.s. Therefore $$E[X\mid\{\emptyset,\Omega\}]=E[X]\quad\text{a.s.}$$
+__Example (trivial sigma-algebra).__ Let $\mathcal G=\{\emptyset,\Omega\}$ be the trivial $\sigma$-algebra. The only $\mathcal G$-measurable random variables are constants. Condition (2) with $A=\Omega$ gives $E[X]=E[Z]$, so $Z=E[X]$ a.s. Therefore $$E[X\mid\{\emptyset,\Omega\}]=E[X]\quad\text{a.s.}$$
 
 This confirms that conditioning on no information yields the unconditional expectation.
 
@@ -218,11 +218,11 @@ Flashcards for this section are as follows:
 
 When $\mathcal G=\sigma(Y)$ is the sigma-algebra generated by $Y$, the two definitions coincide: the unique $\sigma(Y)$-measurable random variable satisfying $E[X\mathbf 1_A]=E[Z\mathbf 1_A]$ for all $A\in\sigma(Y)$ is exactly $g(Y)$ where $g(y)=E[X\mid Y=y]$.
 
-To see this explicitly for **discrete** $Y$, write the sigma-algebra definition: $Z$ must be $\sigma(Y)$-measurable and satisfy $E[X\mathbf 1_A]=E[Z\mathbf 1_A]$ for every $A\in\sigma(Y)$. Since $\sigma(Y)$ is generated by the partition atoms $\{Y=y\}$, it suffices to check the condition on these atoms. For each $y$ with $P[Y=y]>0$, $$E[X\mathbf 1_{\{Y=y\}}]=E[Z\mathbf 1_{\{Y=y\}}].$$
+To see this explicitly for __discrete__ $Y$, write the sigma-algebra definition: $Z$ must be $\sigma(Y)$-measurable and satisfy $E[X\mathbf 1_A]=E[Z\mathbf 1_A]$ for every $A\in\sigma(Y)$. Since $\sigma(Y)$ is generated by the partition atoms $\{Y=y\}$, it suffices to check the condition on these atoms. For each $y$ with $P[Y=y]>0$, $$E[X\mathbf 1_{\{Y=y\}}]=E[Z\mathbf 1_{\{Y=y\}}].$$
 
 The left side is $E[X\mid Y=y]\,P[Y=y]$ by the elementary definition. Because $Z$ is $\sigma(Y)$-measurable it is constant on $\{Y=y\}$, so the right side equals $Z(y)\,P[Y=y]$. Cancelling $P[Y=y]$ gives $Z(y)=E[X\mid Y=y]$, hence $Z=g(Y)$ with $g(y)=E[X\mid Y=y]$.
 
-In the **continuous** case the same conclusion follows by a measure-theoretic argument: the condition $E[X\mathbf 1_{\{Y\le y\}}]=E[g(Y)\mathbf 1_{\{Y\le y\}}]$ for all $y$ uniquely determines $g$ up to a.s. equality, and the function $y\mapsto E[X\mid Y=y]$ defined via conditional densities satisfies it.
+In the __continuous__ case the same conclusion follows by a measure-theoretic argument: the condition $E[X\mathbf 1_{\{Y\le y\}}]=E[g(Y)\mathbf 1_{\{Y\le y\}}]$ for all $y$ uniquely determines $g$ up to a.s. equality, and the function $y\mapsto E[X\mid Y=y]$ defined via conditional densities satisfies it.
 
 ---
 
@@ -245,7 +245,7 @@ Flashcards for this section are as follows:
 
 ## law of total expectation
 
-The tower property (already stated above) is also called the **law of total expectation** or **law of iterated expectation**: $$E[E[X\mid Y]]=E[X].$$
+The tower property (already stated above) is also called the __law of total expectation__ or __law of iterated expectation__: $$E[E[X\mid Y]]=E[X].$$
 
 In the sigma-algebra formulation it follows immediately from the defining property by taking $A=\Omega$ (which is in every $\mathcal G$). Intuitively, the law says that the average of the conditional averages equals the overall average. It is especially useful when $E[X\mid Y]$ is simpler to compute than $E[X]$ directly, as in the random sum example below.
 
@@ -258,11 +258,11 @@ Flashcards for this section are as follows:
 
 ### application: law of total variance (variance decomposition)
 
-The law of total expectation yields the **law of total variance** (also called the conditional-variance decomposition): $$\operatorname{Var}(X)=E[\operatorname{Var}(X\mid Y)]+\operatorname{Var}(E[X\mid Y]).$$
+The law of total expectation yields the __law of total variance__ (also called the conditional-variance decomposition): $$\operatorname{Var}(X)=E[\operatorname{Var}(X\mid Y)]+\operatorname{Var}(E[X\mid Y]).$$
 
-**Proof sketch.** Write $X-E[X]=(X-E[X\mid Y])+(E[X\mid Y]-E[X])$, square, and take expectations. The cross term vanishes because $E[X-E[X\mid Y]\mid Y]=0$, so by the tower property $E[(X-E[X\mid Y])(E[X\mid Y]-E[X])]=0$.
+__Proof sketch.__ Write $X-E[X]=(X-E[X\mid Y])+(E[X\mid Y]-E[X])$, square, and take expectations. The cross term vanishes because $E[X-E[X\mid Y]\mid Y]=0$, so by the tower property $E[(X-E[X\mid Y])(E[X\mid Y]-E[X])]=0$.
 
-The term $E[\operatorname{Var}(X\mid Y)]$ is the *within-group* variance (average of the conditional variances), while $\operatorname{Var}(E[X\mid Y])$ is the *between-group* variance (variance of the conditional means).
+The term $E[\operatorname{Var}(X\mid Y)]$ is the _within-group_ variance (average of the conditional variances), while $\operatorname{Var}(E[X\mid Y])$ is the _between-group_ variance (variance of the conditional means).
 
 ---
 
@@ -280,7 +280,7 @@ provided $P[Y=y]>0$. Equivalently, for densities, $$f_{X\mid Y=y}(x)=\frac{f_{Y\
 
 Once the posterior law is known, posterior expectations are computed by integrating against it.
 
-Both formulas follow from the underlying **multplication rule** $P(A\cap B)=P(A)\,P(B\mid A)$ (or its density analogue $f_{X,Y}(x,y)=f_X(x)\,f_{Y\mid X=x}(y)$) divided by the marginal $P(Y=y)$ or $f_Y(y)$.
+Both formulas follow from the underlying __multplication rule__ $P(A\cap B)=P(A)\,P(B\mid A)$ (or its density analogue $f_{X,Y}(x,y)=f_X(x)\,f_{Y\mid X=x}(y)$) divided by the marginal $P(Y=y)$ or $f_Y(y)$.
 
 ---
 
@@ -296,7 +296,7 @@ Flashcards for this section are as follows:
 
 If $X\in L^2$ (i.e., $E[X^2]<\infty$), then $E[X\mid Y]$ is the best predictor of $X$ among all square-integrable functions of $Y$: $$E[(X-h(Y))^2]\ge E[(X-E[X\mid Y])^2]\qquad\text{for all measurable }h\text{ with }E[h(Y)^2]<\infty.$$
 
-**Proof sketch.** Write $X-h(Y)=(X-E[X\mid Y])+(E[X\mid Y]-h(Y))$. After squaring and taking expectations, the mixed term vanishes because $E[X-E[X\mid Y]\mid Y]=0$. Therefore the mean-square error splits into the optimal error plus the nonnegative correction term $E[(E[X\mid Y]-h(Y))^2]$.
+__Proof sketch.__ Write $X-h(Y)=(X-E[X\mid Y])+(E[X\mid Y]-h(Y))$. After squaring and taking expectations, the mixed term vanishes because $E[X-E[X\mid Y]\mid Y]=0$. Therefore the mean-square error splits into the optimal error plus the nonnegative correction term $E[(E[X\mid Y]-h(Y))^2]$.
 
 This is the $L^2$ projection interpretation: $E[X\mid Y]$ is the orthogonal projection of $X$ onto the closed subspace of $L^2$ consisting of $\sigma(Y)$-measurable square-integrable random variables. In Hilbert space terms, the inner product is $\langle U,V\rangle=E[UV]$, and the orthogonality condition $E[(X-E[X\mid Y])\,h(Y)]=0$ means the residual $X-E[X\mid Y]$ is perpendicular to every $\sigma(Y)$-measurable function — exactly the defining property of an orthogonal projection.
 
@@ -309,15 +309,15 @@ Flashcards for this section are as follows:
 
 ### best linear predictor
 
-The conditional expectation $E[Y\mid X]$ is the best *unrestricted* predictor, but computing it requires knowledge of the full conditional distribution. A simpler approach is to restrict to *affine* (linear) predictors $a+bX$ and choose $a,b$ to minimize $E[(Y-a-bX)^2]$.
+The conditional expectation $E[Y\mid X]$ is the best _unrestricted_ predictor, but computing it requires knowledge of the full conditional distribution. A simpler approach is to restrict to _affine_ (linear) predictors $a+bX$ and choose $a,b$ to minimize $E[(Y-a-bX)^2]$.
 
-**Lemma.** For random variables $X,Y$ with $E[X^2],E[Y^2]<\infty$, the minimizers are $$b=\frac{\operatorname{Cov}(X,Y)}{\operatorname{Var}(X)},\qquad a=E[Y]-b\,E[X],$$
+__Lemma.__ For random variables $X,Y$ with $E[X^2],E[Y^2]<\infty$, the minimizers are $$b=\frac{\operatorname{Cov}(X,Y)}{\operatorname{Var}(X)},\qquad a=E[Y]-b\,E[X],$$
 
 and the minimal mean-square error is $$E[(Y-a-bX)^2]=\operatorname{Var}(Y)-\frac{\operatorname{Cov}(X,Y)^2}{\operatorname{Var}(X)}=\operatorname{Var}(Y)\bigl(1-\rho(X,Y)^2\bigr),$$
 
 where $\rho(X,Y)$ is the correlation coefficient.
 
-**Proof.** Consider the decomposition $$E[(Y-a-bX)^2]=\operatorname{Var}(Y-a-bX)+(E[Y]-a-bE[X])^2.$$
+__Proof.__ Consider the decomposition $$E[(Y-a-bX)^2]=\operatorname{Var}(Y-a-bX)+(E[Y]-a-bE[X])^2.$$
 
 Both terms are non-negative. The second term is minimized by setting $a=E[Y]-bE[X]$, which makes it zero. For the first term, $$\operatorname{Var}(Y-bX)=\operatorname{Var}(Y)+b^2\operatorname{Var}(X)-2b\operatorname{Cov}(X,Y),$$
 
@@ -337,9 +337,9 @@ Flashcards for this section are as follows:
 
 If $Y$ and $X$ happen to be jointly normal, or more generally if $E[Y\mid X]$ is an affine function of $X$, then the best unrestricted predictor and the best linear predictor coincide. Otherwise the conditional expectation is strictly better (in the mean-square sense) than the best linear predictor.
 
-**Example.** Let $Y=X^2+X+Z$ with $X,Z\sim N(0,1)$ independent. The best prediction of $Y$ given $X$ is $$E[Y\mid X]=X^2+X+E[Z\mid X]=X^2+X,$$
+__Example.__ Let $Y=X^2+X+Z$ with $X,Z\sim N(0,1)$ independent. The best prediction of $Y$ given $X$ is $$E[Y\mid X]=X^2+X+E[Z\mid X]=X^2+X,$$
 
-with mean-square error $E[(Y-X^2-X)^2]=E[Z^2]=1$. The best *linear* prediction is $a+bX$ with $$b=\frac{\operatorname{Cov}(X,Y)}{\operatorname{Var}(X)}=\frac{\operatorname{Cov}(X,X^2+X)}{1}=1,\qquad a=E[Y]-bE[X]=E[X^2]+E[X]-0=1,$$
+with mean-square error $E[(Y-X^2-X)^2]=E[Z^2]=1$. The best _linear_ prediction is $a+bX$ with $$b=\frac{\operatorname{Cov}(X,Y)}{\operatorname{Var}(X)}=\frac{\operatorname{Cov}(X,X^2+X)}{1}=1,\qquad a=E[Y]-bE[X]=E[X^2]+E[X]-0=1,$$
 
 so the best linear predictor is $1+X$ and its mean-square error is $E[(Y-(1+X))^2]=E[(X^2+Z-1)^2]=3$. The unrestricted predictor is strictly better (error $1$ vs $3$) because the quadratic component $X^2$ cannot be captured by a linear function.
 

@@ -6,11 +6,11 @@ argument-hint: Optional extras (e.g., ticket=ABC-123). To skip committing, pass 
 
 # Commit Staged Change
 
-**Never ask for confirmation or clarification. Always proceed automatically using best-effort defaults and available context.**
+__Never ask for confirmation or clarification. Always proceed automatically using best-effort defaults and available context.__
 
 ## Workflow
 
-1. **Read staged changes**
+1. __Read staged changes__
    - Run a single compound command to print the staged file list and full staged patch:
 
      ```shell
@@ -19,20 +19,20 @@ argument-hint: Optional extras (e.g., ticket=ABC-123). To skip committing, pass 
 
    - Present the exact command to be run. If not executed, produce a best-effort commit message from available context and stop.
 
-2. **Compose commit message**
+2. __Compose commit message__
    - Inspect Command 1 output and repository conventions (CONTRIBUTING.md, `.agents/`, `package.json`, `commitlint`, `prek.toml`, `CHANGELOG.md`, etc.).
    - Produce a commit message with:
      - Short subject (~50 chars)
-     - Optional body (each line **must be wrapped to 72 characters or fewer**; bullets allowed)
+     - Optional body (each line __must be wrapped to 72 characters or fewer__; bullets allowed)
      - Footer (BREAKING CHANGE / Refs / Ticket), including `${input:extra}` if provided
-   - **If the commit is rejected by commitlint due to line length or other formatting, rewrap and retry until the commit passes.**
-   - Prefer tooling-enforced rules. If unsure, default to Conventional Commits. **Strictly enforce commit header and body line length (72 chars max) as required by commitlint.**
+   - __If the commit is rejected by commitlint due to line length or other formatting, rewrap and retry until the commit passes.__
+   - Prefer tooling-enforced rules. If unsure, default to Conventional Commits. __Strictly enforce commit header and body line length (72 chars max) as required by commitlint.__
    - Do not show the proposed commit message to the user for confirmation before creating the commit. Proceed automatically to creating the commit using best-effort defaults and available context.
 
-3. **Create the commit**
+3. __Create the commit__
    - If `${input:commitNow}` is `no`, skip this step and only present the message.
-   - Otherwise, present the exact command to create the commit from stdin and print the new SHA. **Both commands must be run in the same shell command block to ensure correct context.** Use the correct heredoc/here-string syntax for the detected shell:
-     - **PowerShell (Windows):**
+   - Otherwise, present the exact command to create the commit from stdin and print the new SHA. __Both commands must be run in the same shell command block to ensure correct context.__ Use the correct heredoc/here-string syntax for the detected shell:
+     - __PowerShell (Windows):__
 
        ```powershell
        (@'
@@ -40,10 +40,10 @@ argument-hint: Optional extras (e.g., ticket=ABC-123). To skip committing, pass 
        '@ | git commit --file=-) ; git rev-parse HEAD
        ```
 
-       **Note on special characters and quoting:**
+       __Note on special characters and quoting:__
        Prefer PowerShell single-quoted here-strings (`@'...'@`) to prevent variable expansion and avoid backtick (\`) escaping. If a double-quoted here-string (`@"..."@`) is used, be careful to escape backticks and `$` or switch to the single-quoted form.
 
-     - **Bash/zsh (Linux/macOS):**
+     - __Bash/zsh (Linux/macOS):__
 
        ```bash
        (git commit --file - <<'MSG'
@@ -52,12 +52,12 @@ argument-hint: Optional extras (e.g., ticket=ABC-123). To skip committing, pass 
        ) && git rev-parse HEAD
        ```
 
-       **Note on special characters and quoting:**
+       __Note on special characters and quoting:__
        Use a single-quoted heredoc delimiter (`<<'MSG'`) to prevent shell expansion (backticks and `$` are preserved). If the delimiter (e.g., `MSG`) appears verbatim in the message, choose a different delimiter to avoid conflicts.
 
    - If Command 2 fails due to quoting/heredoc syntax, retry up to 3 corrected forms. For other failures, report the error and do not modify the index.
 
-4. **Output**
+4. __Output__
    - 1–2 line summary: staged files and detected convention
    - Commit message block labelled `Commit message` (header/body/footer)
    - If Command 2 ran: `Commit result` with exit status and new commit SHA

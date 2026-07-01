@@ -14,7 +14,7 @@ Keep detailed policy, edge cases, and advanced note-writing rules in `SKILL.md`.
 ## Quick reminders
 
 - Keep the fenced `markdown` block machine-readable.
-- Put human guidance **outside** the fenced block.
+- Put human guidance __outside__ the fenced block.
 - For course indexes, include spaced and unspaced course-code aliases plus
   institution-prefixed variants, sorted alphabetically.
 - Use underscore-normalized path fragments in flashcard tags, for example

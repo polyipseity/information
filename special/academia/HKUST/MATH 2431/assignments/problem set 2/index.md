@@ -25,7 +25,7 @@ tags:
 
 ---
 
-Problem Set 2, due on <span style="color: #0e68b3">**Wednesday 25/02/2026, until 13:30 (1:30 PM)**</span> Hong Kong Time (UTC +8), to be uploaded on Canvas.
+Problem Set 2, due on <span style="color: #0e68b3">__Wednesday 25/02/2026, until 13:30 (1:30 PM)__</span> Hong Kong Time (UTC +8), to be uploaded on Canvas.
 
 [PS2.pdf](attachments/PS2.pdf)
 

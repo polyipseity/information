@@ -45,4 +45,4 @@ return (text, notes)
    - Nested cloze deletions with `{@{ }@}`
    - Hard-marked terms with `hard(...)` wrapper
 
-**Regeneration**: Flashcard and other generated content is handled by the repository’s build workflows; agents should never run `uv run -m init generate` themselves.
+__Regeneration__: Flashcard and other generated content is handled by the repository’s build workflows; agents should never run `uv run -m init generate` themselves.

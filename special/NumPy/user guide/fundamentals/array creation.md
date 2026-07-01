@@ -31,7 +31,7 @@ NumPy arrays can be defined using {@{Python sequences such as lists and tuples}@
 
 - a list of numbers will create ::@:: a 1D array,
 - a list of lists will create ::@:: a 2D array,
-- further nested lists will create ::@:: higher-dimensional arrays. In general, any array object is called an **ndarray** in NumPy.
+- further nested lists will create ::@:: higher-dimensional arrays. In general, any array object is called an __ndarray__ in NumPy.
 
 ```Python
 >>> import numpy as np

@@ -25,9 +25,9 @@ tags:
 
 ---
 
-Problem Set 5, due on <span style="color: #0e68b3">**Friday 27/03/2026, until 13:30 (1:30 PM)**</span> Hong Kong Time (UTC +8), to be uploaded on Canvas.
+Problem Set 5, due on <span style="color: #0e68b3">__Friday 27/03/2026, until 13:30 (1:30 PM)__</span> Hong Kong Time (UTC +8), to be uploaded on Canvas.
 
-**<span style="color: #e62429">Update (16/03/2026, 12:15 PM): Question 4 updated.</span>**
+__<span style="color: #e62429">Update (16/03/2026, 12:15 PM): Question 4 updated.</span>__
 
 [PS5-v1.pdf](attachments/PS5-v1.pdf)
 

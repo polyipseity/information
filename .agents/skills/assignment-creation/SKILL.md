@@ -10,7 +10,7 @@ content (problem sets, homework, project milestones, lab rounds, deliverable
 pages) to course knowledge bases under `special/academia/`.
 
 Flashcards and other generated content are rebuilt automatically by the build
-system; do **not** run `init generate` manually.
+system; do __not__ run `init generate` manually.
 
 For general academic-note conventions (frontmatter, topic notes, lecture
 content, flashcards, LaTeX), see the
@@ -23,18 +23,18 @@ in the same course to identify the conventions already in use. Match the
 existing style unless there is a compelling reason to deviate. Pay particular
 attention to:
 
-- **Naming** — folder naming (`problem set 1` vs `ps1` vs `homework 1` vs
+- __Naming__ — folder naming (`problem set 1` vs `ps1` vs `homework 1` vs
   `hw1`), file naming, heading capitalization
-- **Frontmatter** — alias combinations (which institution/course
+- __Frontmatter__ — alias combinations (which institution/course
   abbreviations), tag path patterns, tag categories
-- **Metadata** — which fields are included, their order, formatting style
-- **Description** — verbatim Canvas wording vs summarized, how colors and
+- __Metadata__ — which fields are included, their order, formatting style
+- __Description__ — verbatim Canvas wording vs summarized, how colors and
   formatting are preserved
-- **Section structure** — section ordering, which sections are present or
+- __Section structure__ — section ordering, which sections are present or
   absent, heading level conventions
-- **Companion pages** — which companion pages exist (`lab.md`, `prelab.md`,
+- __Companion pages__ — which companion pages exist (`lab.md`, `prelab.md`,
   etc.), how they are structured
-- **Submission and solution** — format, level of detail, which artifacts are
+- __Submission and solution__ — format, level of detail, which artifacts are
   tracked and how
 
 Consistency across assignments in the same course makes the knowledgebase
@@ -66,15 +66,15 @@ Common naming patterns:
 
 ## Creating a new assignment
 
-**Batch creation workflow:** When creating multiple assignments in one pass
+__Batch creation workflow:__ When creating multiple assignments in one pass
 (e.g., PS2–PS11), follow this order to minimize rework:
 
-0. **Populate artifacts from source files** — if a course source directory
+0. __Populate artifacts from source files__ — if a course source directory
    exists (e.g., `.course_sources/`), copy all artifacts (solution PDFs,
    submission PDFs, Apple Notes markdown, prompt PDFs, images) into each
    assignment folder in batch before writing index.md files. See the
    [Source file management](#source-file-management) section below.
-1. **Extract submission.yml from Canvas HTMLs** — see the
+1. __Extract submission.yml from Canvas HTMLs__ — see the
    [Submission metadata file](#submission-metadata-file) section below for
    how to drive `convert_canvas_submission.py` in batch. Do this after
    step 0 and before step 1, since the YAML feeds into verification later.
@@ -97,20 +97,20 @@ change, and having to retroactively fix earlier ones.
 
 Before creating an assignment page, ensure you have:
 
-- **Existing assignments** in the same course to use as style references.
+- __Existing assignments__ in the same course to use as style references.
   Examine their naming, frontmatter, metadata, section ordering, and
   companion pages to match conventions (see the guiding principle above).
-- The **course root** directory and `index.md` already exist.
-- The **Canvas HTML source** of the assignment, typically saved in a
+- The __course root__ directory and `index.md` already exist.
+- The __Canvas HTML source__ of the assignment, typically saved in a
   `.course_sources/` or a similar course-specific source directory. Search for
   the assignment by name in the Canvas HTML exports.
-- Any **attachments** (prompt PDFs, data files, images) from the Canvas
+- Any __attachments__ (prompt PDFs, data files, images) from the Canvas
   assignment page.
 
-> **Critical: Canvas-first data source.** All metadata (due dates, points,
+> __Critical: Canvas-first data source.__ All metadata (due dates, points,
 > submission type, description text, PDF filenames, update announcements, color
-> styling) MUST be extracted from the actual Canvas HTML page. **Never fabricate
-> or guess** these values — the user will catch and demand fixes. If the Canvas
+> styling) MUST be extracted from the actual Canvas HTML page. __Never fabricate
+> or guess__ these values — the user will catch and demand fixes. If the Canvas
 > HTML is unavailable, ask the user to provide it before proceeding.
 
 ### 2. Set up the directory structure
@@ -126,16 +126,16 @@ mkdir -p assignments/<assignment-name>/{attachments,submission,solution}
 The assignment's `index.md` follows a specific structure with these components
 in order:
 
-1. **YAML frontmatter** with aliases and tags
-2. **Heading and course line**
-3. **Metadata block** (between `---` separators): Canvas-derived title, due
+1. __YAML frontmatter__ with aliases and tags
+2. __Heading and course line__
+3. __Metadata block__ (between `---` separators): Canvas-derived title, due
    date, points, submitting type, etc.
-4. **Description prose** (optional): verbatim Canvas wording with formatting
+4. __Description prose__ (optional): verbatim Canvas wording with formatting
    preserved
-5. **Attachment links** (optional): inline PDF/data links
-6. **`## attachments`**: file list of assignment prompt materials
-7. **`## submission`**: submitted work (PDF, source markdown, metadata)
-8. **`## solution`**: official or self-made solution
+5. __Attachment links__ (optional): inline PDF/data links
+6. __`## attachments`__: file list of assignment prompt materials
+7. __`## submission`__: submitted work (PDF, source markdown, metadata)
+8. __`## solution`__: official or self-made solution
 
 #### YAML frontmatter
 
@@ -201,13 +201,13 @@ Problem Set 1, due on <span style="color: #0e68b3">**Friday 13/02/2026, until 13
 
 Rules:
 
-- Keep visible Canvas wording **verbatim**.
+- Keep visible Canvas wording __verbatim__.
 - Preserve color with `<span style>` tags.
 - Use Markdown for bold, italics, links, paragraphing, and line breaks.
 - Keep inline prose dates and times as-is (the normalized metadata block above
   carries the machine-readable equivalents).
 
-**Deadline extension text:** Canvas often adds extension notices in colored
+__Deadline extension text:__ Canvas often adds extension notices in colored
 span tags. Reproduce them exactly, including the exact phrasing and color.
 Common patterns seen in practice:
 
@@ -219,7 +219,7 @@ Common patterns seen in practice:
 <span style="color: #e62429">**(Attention: Extended deadline!)**</span>
 ```
 
-**Update announcements:** Canvas pages may have inline update notices
+__Update announcements:__ Canvas pages may have inline update notices
 (e.g., "Small clarification on Problem 1", "Question 4 updated"). Preserve
 both the heading and body verbatim, with the same color and bold styling:
 
@@ -240,7 +240,7 @@ List the assignment prompt files with links:
 - [`PS1-v4.pdf`](attachments/PS1-v4.pdf)
 ```
 
-**PDF display name vs actual file link:** When the on-disk file has a versioned
+__PDF display name vs actual file link:__ When the on-disk file has a versioned
 name (e.g., `PS7-3.pdf`, `PS10-1.pdf`) but Canvas references a base name
 (`PS7.pdf`, `PS10.pdf`), display the Canvas name while linking to the actual
 file. This keeps the page consistent with what students see on Canvas while
@@ -289,7 +289,7 @@ When the task still wants the public page to preserve the normal artifact
 routes, keep standard relative links in public `## submission` /
 `## solution` sections _as if the files were colocated_, for example
 `[submission.pdf](submission.pdf)` or
-`[HW1_Sol.pdf](solution/HW1_Sol.pdf)`. Do **not** rewrite those links to
+`[HW1_Sol.pdf](solution/HW1_Sol.pdf)`. Do __not__ rewrite those links to
 `private/` paths in the public note.
 
 #### Submission metadata file
@@ -323,18 +323,18 @@ Extract this from the Canvas assignment HTML page using the
 `convert_canvas_submission.py` tool, which reads a SingleFile-saved HTML
 and writes the YAML structure to stderr.
 
-**Tool characteristics:**
+__Tool characteristics:__
 
-- **Interactive by design** — no CLI arguments. It calls `input("HTML file? ")`
+- __Interactive by design__ — no CLI arguments. It calls `input("HTML file? ")`
   and expects the file path on stdin, then writes the YAML document to stderr.
-- **Single-file only** — one invocation per assignment page.
-- **Input** — a SingleFile (or equivalent full-page) HTML export of the Canvas
+- __Single-file only__ — one invocation per assignment page.
+- __Input__ — a SingleFile (or equivalent full-page) HTML export of the Canvas
   assignment page. The HTML must contain the Canvas URL in a comment
   (`` `url: ...` ``) and a saved-date comment; otherwise the tool silently
   exits with code 1.
-- **Output** — a single YAML mapping to stderr (exit code 0 on success).
+- __Output__ — a single YAML mapping to stderr (exit code 0 on success).
 
-**Driving the tool non-interactively:**
+__Driving the tool non-interactively:__
 
 Use a here-string to supply the file path on stdin and redirect stderr to
 capture the YAML:
@@ -345,12 +345,12 @@ uv run -m scripts.special.convert_canvas_submission \
   2> submission.yml
 ```
 
-**Canvas HTML filenames may be inconsistent** — the same course can have
+__Canvas HTML filenames may be inconsistent__ — the same course can have
 mixed naming conventions (e.g., `"HKUST Canvas - Problem Set N …"` for some
 assignments and `"Problem Set N …"` for others). Always `ls` the source
 directory to discover the actual filenames before writing loops.
 
-**Batch extraction loop:**
+__Batch extraction loop:__
 
 ```bash
 # Discover actual filenames first
@@ -367,7 +367,7 @@ for N in $(seq <first> <last>); do
 done
 ```
 
-**Comment author redaction:** After saving `submission.yml`, replace every `author:` value (which contains a real name) with `'[redacted]'` to protect privacy:
+__Comment author redaction:__ After saving `submission.yml`, replace every `author:` value (which contains a real name) with `'[redacted]'` to protect privacy:
 
 ```bash
 sed -i '' "s/author: .*/author: '[redacted]'/" assignments/problem\ set\ */submission.yml
@@ -382,38 +382,38 @@ Preserve the YAML output as-is — do not edit the extracted file (except for th
 Some submissions are written as Markdown files. Judge whether the file is an
 Apple Notes export (needs special handling) or regular Markdown.
 
-**Judging if a file is an Apple Notes markdown export:**
+__Judging if a file is an Apple Notes markdown export:__
 
 The file may already have our modifications (attachment path rewrites,
 suppression comments at top). Look past those and examine the body.
 
 A file is likely from Apple Notes if it has one or more of:
 
-- **UUID attachment paths** — Image references match
+- __UUID attachment paths__ — Image references match
   `(Attachments|../attachments)/<UUID>.<ext>` (e.g.,
   `Attachments/A1B2C3D4-...png`). Most reliable indicator.
-- **No YAML frontmatter** — The body starts directly with content.
-- **Apple formatting quirks** — Unusual heading styles or list spacing
+- __No YAML frontmatter__ — The body starts directly with content.
+- __Apple formatting quirks__ — Unusual heading styles or list spacing
   characteristic of Apple Notes output.
 
-A file is **not** an Apple Notes export if it has YAML frontmatter,
+A file is __not__ an Apple Notes export if it has YAML frontmatter,
 flashcard/pytextgen markup, or consistently manual formatting throughout.
 
 If unsure, treat as regular Markdown (no path rewrites, no suppression
 comments). The user can correct.
 
-**For Apple Notes markdown exports:**
+__For Apple Notes markdown exports:__
 
 1. Copy into `submission/` as `"<Course Name> problem set N.md"` (source may
    use hyphens; normalize to no hyphens).
-2. **Only** make these changes:
+2. __Only__ make these changes:
    - Rewrite image paths `Attachments/XXX.ext` → `../attachments/XXX.ext`.
    - Add file-level markdownlint and validator suppression comments at the
      very top.
-3. **Do NOT** make other changes. Preserve spelling, formatting, images,
+3. __Do NOT__ make other changes. Preserve spelling, formatting, images,
    and structure exactly. Edit in Apple Notes and re-export if needed.
 
-**For regular Markdown submissions:**
+__For regular Markdown submissions:__
 
 Copy as-is. Do not add suppression comments or rewrite attachment paths.
 
@@ -485,17 +485,17 @@ If the lecture already has a `topic:` and optional `status:`, add
 After creating or updating assignment pages, systematically verify each one
 against its Canvas HTML source. Check these fields:
 
-- **Due date** — ISO 8601 timestamp matches Canvas, including timezone
-- **Points** — exact integer or float
-- **Submission type** — matches Canvas wording (e.g., "a text entry box or a
+- __Due date__ — ISO 8601 timestamp matches Canvas, including timezone
+- __Points__ — exact integer or float
+- __Submission type__ — matches Canvas wording (e.g., "a text entry box or a
   file upload")
-- **Description body** — verbatim match, including all update announcements
+- __Description body__ — verbatim match, including all update announcements
   and colored span tags
-- **PDF filenames** — display name matches Canvas; link target matches
+- __PDF filenames__ — display name matches Canvas; link target matches
   on-disk file
-- **Metadata block** — title, due date, points, submitting all present
-- **`submission.yml` presence** — exists and is non-empty
-- **`assignment.id` match** — the extracted `id` field matches the known
+- __Metadata block__ — title, due date, points, submitting all present
+- __`submission.yml` presence__ — exists and is non-empty
+- __`assignment.id` match__ — the extracted `id` field matches the known
   Canvas assignment ID for that page. This catches cases where the wrong
   HTML file was used. Known IDs from Canvas can be read from the
   `url: https://<host>/courses/<course_id>/assignments/<assign_id>` comment
@@ -510,7 +510,7 @@ When the course has a source directory (e.g., `.course_sources/`), populate
 the assignment folder from source files. Copy (do not symlink) files — this
 keeps the archive self-contained and stable even if cleaned up later.
 
-**There is no fixed source hierarchy.** Every course source directory is
+__There is no fixed source hierarchy.__ Every course source directory is
 organized differently (by the user's personal convention, LMS export format,
 or ad-hoc collection). The examples below illustrate the _kind_ of work
 involved, not a structure to expect in any other course. Always start by
@@ -620,7 +620,7 @@ with local attachments. Canvas quizzes are the main exception: keep quiz notes
 in `questions/quiz N.md` (and the mirrored private quiz file when archived)
 rather than in `assignments/online quiz N/index.md`.
 
-**Follow existing conventions** — before creating a leaf index page, check an
+__Follow existing conventions__ — before creating a leaf index page, check an
 existing leaf index from the same course for section ordering, metadata style,
 and companion page patterns. The rules below describe the standard form, but
 the course may have established variations (e.g., extra sections, different
@@ -642,7 +642,7 @@ duration>` when both endpoints are known; use an ISO duration for pure
   `- Available until: 2026-04-09T13:30:59+08:00` rather than a human-readable
   phrase. Canvas start timestamps should use seconds `:00`; Canvas end
   timestamps should use seconds `:59`.
-- Apply that normalization to Canvas **metadata fields only**, not to the
+- Apply that normalization to Canvas __metadata fields only__, not to the
   ordinary prose body of `## description`. Keep description prose verbatim even
   when it contains human-readable dates or times, such as `This assignment was
 locked Mar 5 at 1:30pm.` or colored `Due on` notice text copied from Canvas.
@@ -701,7 +701,7 @@ When an assignment-style leaf folder also has companion pages such as
   given on the left-hand side: the specific waveform, filter, index formula, or
   before/after workflow that the student is supposed to remember.
 - When the user asks for "more context," prefer adding that context to the
-  **left-hand side prompt itself** rather than only expanding the answer. The
+  __left-hand side prompt itself__ rather than only expanding the answer. The
   question should carry the local givens before the separator.
 - Avoid meta-summary sections whose main job is to describe what the note
   covers. Companion pages should read like normal subject-matter notes: start

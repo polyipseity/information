@@ -49,9 +49,9 @@ Flashcards for this section are as follows:
 
 ### saturation, transistor types, and layout
 
-In practice the four switches are implemented with transistors. Brushed DC motors often need high current, so transistors are operated in saturation (fully on) to allow maximum collector current. In the course H-bridge layout the **top** side of the H (between supply and motor) uses **both PNP** transistors, and the **bottom** side (between motor and ground) uses **both NPN** transistors. Equivalently, the left leg of the H has one PNP and one NPN, and the right leg has one PNP and one NPN.
+In practice the four switches are implemented with transistors. Brushed DC motors often need high current, so transistors are operated in saturation (fully on) to allow maximum collector current. In the course H-bridge layout the __top__ side of the H (between supply and motor) uses __both PNP__ transistors, and the __bottom__ side (between motor and ground) uses __both NPN__ transistors. Equivalently, the left leg of the H has one PNP and one NPN, and the right leg has one PNP and one NPN.
 
-An **NPN** bipolar junction transistor (BJT) has three terminals: collector (C), base (B), and emitter (E). In the symbol the emitter has an arrow pointing *out* of the device. The base current controls a larger current from collector to emitter; when used as a switch, a HIGH base (relative to emitter) turns the transistor on (saturation), so current flows from collector to emitter. A **PNP** BJT also has C, B, and E; its emitter arrow points *into* the device. For a PNP, a LOW base (relative to emitter) turns it on, and current flows from emitter to collector. So the top row switches the positive rail to the motor (PNPs turn on when base is LOW), and the bottom row switches the motor to ground (NPNs turn on when base is HIGH). For one direction we turn on one diagonal: one PNP on the top and one NPN on the bottom (e.g. top-left PNP and bottom-right NPN), giving a path supply $\rightarrow$ PNP $\rightarrow$ motor $\rightarrow$ NPN $\rightarrow$ ground. For the other direction we turn on the other diagonal (the other top PNP and the other bottom NPN). See [transistor](transistor.md) for full definitions and symbols.
+An __NPN__ bipolar junction transistor (BJT) has three terminals: collector (C), base (B), and emitter (E). In the symbol the emitter has an arrow pointing _out_ of the device. The base current controls a larger current from collector to emitter; when used as a switch, a HIGH base (relative to emitter) turns the transistor on (saturation), so current flows from collector to emitter. A __PNP__ BJT also has C, B, and E; its emitter arrow points _into_ the device. For a PNP, a LOW base (relative to emitter) turns it on, and current flows from emitter to collector. So the top row switches the positive rail to the motor (PNPs turn on when base is LOW), and the bottom row switches the motor to ground (NPNs turn on when base is HIGH). For one direction we turn on one diagonal: one PNP on the top and one NPN on the bottom (e.g. top-left PNP and bottom-right NPN), giving a path supply $\rightarrow$ PNP $\rightarrow$ motor $\rightarrow$ NPN $\rightarrow$ ground. For the other direction we turn on the other diagonal (the other top PNP and the other bottom NPN). See [transistor](transistor.md) for full definitions and symbols.
 
 ---
 
@@ -60,8 +60,8 @@ Flashcards for this section are as follows:
 - H-bridge transistors: why use saturation? ::@:: Brushed motors need high current; operating the transistors in saturation (fully on) gives maximum collector current for driving the motor.
 - H-bridge layout (course): Where are the PNP and NPN transistors in the course H-bridge? ::@:: Top side of the H (supply to motor): both PNP. Bottom side (motor to ground): both NPN. Left leg has one PNP and one NPN; right leg has one PNP and one NPN.
 - H-bridge why NPN and PNP: Why use two NPN and two PNP (not four of one type)? ::@:: One current path goes from supply (through a PNP on top) to the motor to ground (through an NPN on the bottom). So we need both types: top row PNPs switch the positive rail, bottom row NPNs switch to ground.
-- NPN in H-bridge: What is an NPN and where is it in the course H-bridge? (C, B, E; bottom) ::@:: NPN: three terminals C, B, E; emitter arrow out. Base HIGH (vs emitter) turns it on; current flows C $\rightarrow$ E. In the course H-bridge both transistors on the **bottom** side (motor to ground) are NPN. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- PNP in H-bridge: What is a PNP and where is it in the course H-bridge? (C, B, E; top) ::@:: PNP: three terminals C, B, E; emitter arrow in. Base LOW (vs emitter) turns it on; current flows E $\rightarrow$ C. In the course H-bridge both transistors on the **top** side (supply to motor) are PNP. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- NPN in H-bridge: What is an NPN and where is it in the course H-bridge? (C, B, E; bottom) ::@:: NPN: three terminals C, B, E; emitter arrow out. Base HIGH (vs emitter) turns it on; current flows C $\rightarrow$ E. In the course H-bridge both transistors on the __bottom__ side (motor to ground) are NPN. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- PNP in H-bridge: What is a PNP and where is it in the course H-bridge? (C, B, E; top) ::@:: PNP: three terminals C, B, E; emitter arrow in. Base LOW (vs emitter) turns it on; current flows E $\rightarrow$ C. In the course H-bridge both transistors on the __top__ side (supply to motor) are PNP. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - H-bridge one diagonal path: For one motor direction, what is the current path? (top PNP, bottom NPN) ::@:: Supply $\rightarrow$ PNP (top) $\rightarrow$ motor $\rightarrow$ NPN (bottom) $\rightarrow$ ground. One diagonal (one top PNP and one bottom NPN) is on; the other diagonal is off. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### base voltage pattern
@@ -79,7 +79,7 @@ Flashcards for this section are as follows:
 
 ### direction (DIR) signal and inverter solution
 
-To control the H-bridge with a single **direction (DIR)** signal (e.g. $5\text{ V}$ for one way and $0\text{ V}$ for the other), one diagonal's bases get the DIR value directly but the other diagonal needs the inverted value. A single DIR line provides only one logic level, so the four bases (which need two complementary pairs) cannot be driven from DIR alone. An **inverter** is used: when DIR is $5\text{ V}$, one pair of bases sees $5\text{ V}$ and $0\text{ V}$ (from the inverter output); when DIR is $0\text{ V}$, the inverter outputs $5\text{ V}$ so the other pair is driven. One DIR line plus one inverter thus produce both $5\text{ V}$ and $0\text{ V}$ for the four transistors.
+To control the H-bridge with a single __direction (DIR)__ signal (e.g. $5\text{ V}$ for one way and $0\text{ V}$ for the other), one diagonal's bases get the DIR value directly but the other diagonal needs the inverted value. A single DIR line provides only one logic level, so the four bases (which need two complementary pairs) cannot be driven from DIR alone. An __inverter__ is used: when DIR is $5\text{ V}$, one pair of bases sees $5\text{ V}$ and $0\text{ V}$ (from the inverter output); when DIR is $0\text{ V}$, the inverter outputs $5\text{ V}$ so the other pair is driven. One DIR line plus one inverter thus produce both $5\text{ V}$ and $0\text{ V}$ for the four transistors.
 
 ---
 
@@ -93,7 +93,7 @@ Flashcards for this section are as follows:
 
 ### function and logic
 
-The course uses the **74HC14** integrated circuit, a hex inverter: it contains six independent inverters in one package. Each inverter has one input and one output; the logic is INPUT LOW $\Rightarrow$ OUTPUT HIGH, INPUT HIGH $\Rightarrow$ OUTPUT LOW. Any of the six inverters can be used; choose pins that suit the breadboard layout (e.g. one inverter for the left motor DIR, another for the right motor DIR).
+The course uses the __74HC14__ integrated circuit, a hex inverter: it contains six independent inverters in one package. Each inverter has one input and one output; the logic is INPUT LOW $\Rightarrow$ OUTPUT HIGH, INPUT HIGH $\Rightarrow$ OUTPUT LOW. Any of the six inverters can be used; choose pins that suit the breadboard layout (e.g. one inverter for the left motor DIR, another for the right motor DIR).
 
 ---
 
@@ -105,7 +105,7 @@ Flashcards for this section are as follows:
 
 ### power and pinout
 
-The IC does not generate power: **VCC** (pin 14 for the standard 14-pin package) connects to the positive supply voltage (in our course robot, $5\text{ V}$ is used); **GND** (pin 7) connects to ground. Pin 1 is at the top left when the "U" shape or notch at the top is identified; pins run down the left side (1–7) and up the right side (8–14). <p> ![74HC14 pinout (14-pin DIP)](attachments/74hc14_pinout.svg)
+The IC does not generate power: __VCC__ (pin 14 for the standard 14-pin package) connects to the positive supply voltage (in our course robot, $5\text{ V}$ is used); __GND__ (pin 7) connects to ground. Pin 1 is at the top left when the "U" shape or notch at the top is identified; pins run down the left side (1–7) and up the right side (8–14). <p> ![74HC14 pinout (14-pin DIP)](attachments/74hc14_pinout.svg)
 
 ---
 
@@ -120,7 +120,7 @@ Flashcards for this section are as follows:
 
 ### function and pins
 
-The **L293** is an integrated circuit that contains two complete H-bridges, so one IC can drive two DC motors (e.g. left and right wheels of a robot car). Each H-bridge has enable (EN), input (IN_1, IN_2), and output (OUT_1, OUT_2) pins. For each motor, the two IN pins set the direction (and the inverter, if used, provides the complementary signal from a single DIR line). The EN pin plays a different role: if EN is LOW, that H-bridge is disabled; if EN is HIGH, that H-bridge responds to its two IN pins. This also makes EN the natural place to apply PWM for speed control: keep the direction logic fixed on IN_1 and IN_2, and pulse EN on and off rapidly to vary the average motor voltage. <p> ![L293 dual H-bridge IC pinout (16-pin DIP)](attachments/l293_block.svg)
+The __L293__ is an integrated circuit that contains two complete H-bridges, so one IC can drive two DC motors (e.g. left and right wheels of a robot car). Each H-bridge has enable (EN), input (IN_1, IN_2), and output (OUT_1, OUT_2) pins. For each motor, the two IN pins set the direction (and the inverter, if used, provides the complementary signal from a single DIR line). The EN pin plays a different role: if EN is LOW, that H-bridge is disabled; if EN is HIGH, that H-bridge responds to its two IN pins. This also makes EN the natural place to apply PWM for speed control: keep the direction logic fixed on IN_1 and IN_2, and pulse EN on and off rapidly to vary the average motor voltage. <p> ![L293 dual H-bridge IC pinout (16-pin DIP)](attachments/l293_block.svg)
 
 ---
 
@@ -134,7 +134,7 @@ Flashcards for this section are as follows:
 
 ### supplies and bypass
 
-The L293 needs two supply voltages: **VS** (pin 8) for the motor supply (e.g. $12\text{ V}$) and **VCC** (pin 16) for the logic inputs (e.g. $5\text{ V}$). The distinction matters: the $12\text{ V}$ motor supply is only for the motor-driving output stage and the motor pins, whereas the logic/control side of the chip uses $5\text{ V}$ on VCC. So every logic-level connection — EN, IN_1, IN_2, IN_3, IN_4, and the 74HC14 interface — belongs to the $5\text{ V}$ logic domain, not to the $12\text{ V}$ motor rail. Ground pins and bypass capacitors (e.g. $0.1\,\mu\text{F}$) near the IC are required for stable operation, and the logic and motor supplies must share a common reference ground.
+The L293 needs two supply voltages: __VS__ (pin 8) for the motor supply (e.g. $12\text{ V}$) and __VCC__ (pin 16) for the logic inputs (e.g. $5\text{ V}$). The distinction matters: the $12\text{ V}$ motor supply is only for the motor-driving output stage and the motor pins, whereas the logic/control side of the chip uses $5\text{ V}$ on VCC. So every logic-level connection — EN, IN_1, IN_2, IN_3, IN_4, and the 74HC14 interface — belongs to the $5\text{ V}$ logic domain, not to the $12\text{ V}$ motor rail. Ground pins and bypass capacitors (e.g. $0.1\,\mu\text{F}$) near the IC are required for stable operation, and the logic and motor supplies must share a common reference ground.
 
 ---
 
@@ -148,7 +148,7 @@ Flashcards for this section are as follows:
 
 ### power sources ($12\text{ V}$ and $5\text{ V}$)
 
-In the course project the $12\text{ V}$ motor supply and regulated $5\text{ V}$ logic supply come from the **LM7805** regulator circuit (see [voltage regulator](voltage%20regulator.md)): a $12\text{ V}$ battery (or similar) feeds the LM7805 input, and the regulator output provides $5\text{ V}$ for the 74HC14 and L293 logic (VCC). The L293 motor supply (VS) is connected to the unregulated $12\text{ V}$ (before or from the same source as the regulator input). So one battery/input provides both $12\text{ V}$ for motors and $5\text{ V}$ (via LM7805) for logic. The key separation is: the $12\text{ V}$ rail should go only to the motor-supply side (VS and the motor current path), while the logic/control side of the L293 and the 74HC14 should stay on the regulated $5\text{ V}$ rail.
+In the course project the $12\text{ V}$ motor supply and regulated $5\text{ V}$ logic supply come from the __LM7805__ regulator circuit (see [voltage regulator](voltage%20regulator.md)): a $12\text{ V}$ battery (or similar) feeds the LM7805 input, and the regulator output provides $5\text{ V}$ for the 74HC14 and L293 logic (VCC). The L293 motor supply (VS) is connected to the unregulated $12\text{ V}$ (before or from the same source as the regulator input). So one battery/input provides both $12\text{ V}$ for motors and $5\text{ V}$ (via LM7805) for logic. The key separation is: the $12\text{ V}$ rail should go only to the motor-supply side (VS and the motor current path), while the logic/control side of the L293 and the 74HC14 should stay on the regulated $5\text{ V}$ rail.
 
 ---
 
@@ -159,7 +159,7 @@ Flashcards for this section are as follows:
 
 ### wiring DIR and inverters
 
-Two **74HC14** inverters are needed for the two motors (left and right DIR). Connect each motor's DIR line to one inverter input. Then use the original DIR signal and the inverter output as the two complementary logic inputs for that motor's L293 half: for example, DIR may go directly to one L293 input and the inverted DIR to the other. In that way each motor gets one HIGH and one LOW direction input, and flipping DIR swaps those two logic levels. If PWM speed control is needed later, apply PWM to the corresponding EN pin rather than to the DIR line.
+Two __74HC14__ inverters are needed for the two motors (left and right DIR). Connect each motor's DIR line to one inverter input. Then use the original DIR signal and the inverter output as the two complementary logic inputs for that motor's L293 half: for example, DIR may go directly to one L293 input and the inverted DIR to the other. In that way each motor gets one HIGH and one LOW direction input, and flipping DIR swaps those two logic levels. If PWM speed control is needed later, apply PWM to the corresponding EN pin rather than to the DIR line.
 
 ---
 
@@ -171,7 +171,7 @@ Flashcards for this section are as follows:
 
 ### rail labels and 74HC14 power
 
-When building the circuit on a breadboard, keep the $12\text{ V}$ and $5\text{ V}$ rails clearly identified so that nothing is accidentally connected to the wrong supply. Always connect VCC (to the positive supply; $5\text{ V}$ in the course robot) and GND (to the common ground of that $5\text{ V}$ logic supply) on the 74HC14; GND is *not* another $5\text{ V}$ pin. Without VCC and a proper ground reference the inverter outputs are undefined. In the ELEC 1100 lab sequence you normally build the LM7805, L293 and 74HC14 circuits once on the provided breadboard and keep them for later labs rather than dismantling and rebuilding each time.
+When building the circuit on a breadboard, keep the $12\text{ V}$ and $5\text{ V}$ rails clearly identified so that nothing is accidentally connected to the wrong supply. Always connect VCC (to the positive supply; $5\text{ V}$ in the course robot) and GND (to the common ground of that $5\text{ V}$ logic supply) on the 74HC14; GND is _not_ another $5\text{ V}$ pin. Without VCC and a proper ground reference the inverter outputs are undefined. In the ELEC 1100 lab sequence you normally build the LM7805, L293 and 74HC14 circuits once on the provided breadboard and keep them for later labs rather than dismantling and rebuilding each time.
 
 ---
 

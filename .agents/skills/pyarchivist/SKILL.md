@@ -5,7 +5,7 @@ description: Archive online content into archives/ with automatic index.md updat
 
 # pyarchivist Workflow
 
-> **Continuous improvement:** see `continuous_improvement.md` in this
+> __Continuous improvement:__ see `continuous_improvement.md` in this
 > folder for a history of feedback and tips for using pyarchivist.
 
 Use this skill when archiving web content, media, or online documents into the knowledge base.

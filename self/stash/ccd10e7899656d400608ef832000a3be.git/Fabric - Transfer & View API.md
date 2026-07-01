@@ -25,15 +25,15 @@ This may be revised if there are problems with the API while implementing it.
 
 ## Definitions
 
-- **Content**
+- __Content__
   a instance of an arbitrary type with arbitrary data that can be transferred or stored
-- **Transfer**
+- __Transfer__
   the relocation of an arbitrary amount of content between multiple participants
-- **Participant**
+- __Participant__
   an arbitrary entity that can be involved in transfers
-- **Controller**
+- __Controller__
   an arbitrary entity which executes the logic of transfers
-- **View**
+- __View__
   an arbitrary entity that contains content
 
 ### Rationale
@@ -47,11 +47,11 @@ Maintability is high as there are less constraints, which could be violated thro
 
 To achieve this, only essential things are specified.
 
-- **Content** represents the information being transferred in transfers and things stored in views.
-- **Transfer** is a part of the goal of this API and thus defined.
-- **Participant** represents the starting point(s) and ending point(s) of transfers.
-- **View** represents the storage of content.
-- **Controller** represents the consumer of this API.
+- __Content__ represents the information being transferred in transfers and things stored in views.
+- __Transfer__ is a part of the goal of this API and thus defined.
+- __Participant__ represents the starting point(s) and ending point(s) of transfers.
+- __View__ represents the storage of content.
+- __Controller__ represents the consumer of this API.
 
 ## Design
 

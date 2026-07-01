@@ -32,7 +32,7 @@ This page summarizes the written questions from the official final examination m
 > Solution: {@{$\psi_{X_1-X_2}(t)=\mathbb E[e^{tX_1-tX_2}]=\mathbb E[e^{tX_1}]\mathbb E[e^{-tX_2}]$}@} {@{${}=\psi_{X_1}(t)\psi_{X_2}(-t)$}@}.
 
 <!-- markdownlint MD028 -->
-> Which of the following statements is **not** true?
+> Which of the following statements is __not__ true?
 >
 > Solution: (E) is false. Take {@{$X\sim\mathrm{Pois}(1)+1$}@} and {@{$Y$ with density $f_Y(y)=\frac1{2y^3}\mathbf 1_{[1,\infty)}(y)$}@}; then $\mathbb E[Y]<\infty$ and $\psi_X(t)<\infty$ for all $t$, but {@{$\mathbb E[Y^X]=\infty$}@}.
 

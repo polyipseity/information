@@ -6,11 +6,11 @@ argument-hint: Provide flashcard counts and details. To skip committing, pass `c
 
 # Commit Staged Flashcard Notes Change
 
-**Never ask for confirmation or clarification. Always proceed automatically using best-effort defaults and available context.**
+__Never ask for confirmation or clarification. Always proceed automatically using best-effort defaults and available context.__
 
 ## Workflow
 
-1. **Read staged changes**
+1. __Read staged changes__
    - Run a single compound command to print the staged file list and full staged patch:
 
      ```shell
@@ -19,13 +19,13 @@ argument-hint: Provide flashcard counts and details. To skip committing, pass `c
 
    - Count notes added, edited, and deleted using a platform-specific
      command:
-     - **PowerShell (Windows):**
+     - __PowerShell (Windows):__
 
        ```powershell
        $staged = git diff --cached --name-status --no-color | Select-String -Pattern '^[AMD]\s+"?(general|special|self)/.*\.md"?$'; $added = ($staged | Select-String -Pattern '^A').Count; $modified = ($staged | Select-String -Pattern '^M').Count; $deleted = ($staged | Select-String -Pattern '^D').Count; Write-Host "Added: $added, Modified: $modified, Deleted: $deleted"
        ```
 
-     - **Bash/zsh (Linux/macOS):**
+     - __Bash/zsh (Linux/macOS):__
 
        ```bash
        staged=$(git diff --cached --name-status --no-color | grep -E '^[AMD]\s+"?(general|special|self)/.*\.md"?$'); added=$(echo "$staged" | grep '^A' | wc -l); modified=$(echo "$staged" | grep '^M' | wc -l); deleted=$(echo "$staged" | grep '^D' | wc -l); echo "Added: $added, Modified: $modified, Deleted: $deleted"
@@ -33,8 +33,8 @@ argument-hint: Provide flashcard counts and details. To skip committing, pass `c
 
    - Present the exact commands to be run. If not executed, produce a best-effort commit message from available context and stop.
 
-2. **Gather flashcard data**
-   - The user MUST provide at least **two** of the following inputs: `${input:Flashcards-prev}`,
+2. __Gather flashcard data__
+   - The user MUST provide at least __two__ of the following inputs: `${input:Flashcards-prev}`,
      `${input:Flashcards-now}`, `${input:Flashcards-delta}`. Use the user-provided values as the
      primary source of truth.
    - If exactly two values are provided, compute the missing value using shell arithmetic in the
@@ -65,7 +65,7 @@ argument-hint: Provide flashcard counts and details. To skip committing, pass `c
      consistent values.
    - If no flashcard-related counts apply, omit these trailers.
 
-3. **Compose commit message**
+3. __Compose commit message__
    - The commit header MUST begin with `feat(notes):` and SHOULD include
      counts in a concise, natural format that shows only nonzero values.
      Use `add <N> note(s)` when the added count is nonzero and
@@ -81,14 +81,14 @@ argument-hint: Provide flashcard counts and details. To skip committing, pass `c
      - `feat(notes): add 1 note(s); delete 2 note(s)`
    - If all counts are zero, omit counts from the header and use a
      short descriptive header (for example `feat(notes): tidy headings`).
-   - The body should briefly describe the changes. **Each line in the commit header, body, and all flashcard trailers must be wrapped to 72 characters or fewer. This is strictly enforced by commitlint. If the commit is rejected due to line length or formatting, rewrap and retry until the commit passes.**
-   - Add the three flashcard trailers as plain ASCII key/value pairs, one per line, before any optional footers. **Wrap each trailer line to 72 characters or fewer.**
+   - The body should briefly describe the changes. __Each line in the commit header, body, and all flashcard trailers must be wrapped to 72 characters or fewer. This is strictly enforced by commitlint. If the commit is rejected due to line length or formatting, rewrap and retry until the commit passes.__
+   - Add the three flashcard trailers as plain ASCII key/value pairs, one per line, before any optional footers. __Wrap each trailer line to 72 characters or fewer.__
    - Do not show the proposed commit message to the user for confirmation before creating the commit. Proceed automatically to creating the commit using best-effort defaults and available context.
 
-4. **Create the commit**
+4. __Create the commit__
     - If `${input:commitNow}` is `no`, skip this step and only present the message.
-    - Otherwise, present the exact command to create the commit from stdin and print the new SHA. **Both operations must be run in the same shell command block to ensure correct context.** Use the correct heredoc/here-string syntax for the detected shell:
-       - **PowerShell (Windows):**
+    - Otherwise, present the exact command to create the commit from stdin and print the new SHA. __Both operations must be run in the same shell command block to ensure correct context.__ Use the correct heredoc/here-string syntax for the detected shell:
+       - __PowerShell (Windows):__
 
          ```powershell
          (@'
@@ -96,12 +96,12 @@ argument-hint: Provide flashcard counts and details. To skip committing, pass `c
          '@ | git commit --file=-) ; git rev-parse HEAD
          ```
 
-         **Note on special characters and quoting:**
+         __Note on special characters and quoting:__
          Prefer PowerShell single-quoted here-strings (`@'... '@`) to avoid variable
          expansion and backtick escapes. If using double-quoted here-strings
          (`@"..."@`), escape backticks and `$` as needed or switch forms.
 
-       - **Bash/zsh (Linux/macOS):**
+       - __Bash/zsh (Linux/macOS):__
 
          ```bash
          (git commit --file - <<'MSG'
@@ -110,14 +110,14 @@ argument-hint: Provide flashcard counts and details. To skip committing, pass `c
          ) && git rev-parse HEAD
          ```
 
-         **Note on special characters and quoting:**
+         __Note on special characters and quoting:__
          Use a single-quoted heredoc (`<<'MSG'`) to prevent expansion so backticks
          and `$` are preserved. If the delimiter appears in the message, pick a
          different, unique delimiter to avoid syntax errors.
 
     - If the commit command fails due to quoting/heredoc syntax, retry up to 3 corrected forms. For other failures, report the error and do not modify the index.
 
-5. **Output**
+5. __Output__
    - 1–2 line summary: staged files and detected convention
    - Commit message block labelled `Commit message` (header/body/footer)
    - If the commit command ran: `Commit result` with exit status and new commit SHA
@@ -131,11 +131,11 @@ argument-hint: Provide flashcard counts and details. To skip committing, pass `c
 
 ## Inputs
 
-- `${input:Flashcards-prev}` — previous flashcard count (integer). Optional; **at least two** of the three
+- `${input:Flashcards-prev}` — previous flashcard count (integer). Optional; __at least two__ of the three
   flashcard inputs must be supplied.
-- `${input:Flashcards-now}` — new flashcard count (integer). Optional; **at least two** of the three
+- `${input:Flashcards-now}` — new flashcard count (integer). Optional; __at least two__ of the three
   flashcard inputs must be supplied.
-- `${input:Flashcards-delta}` — change in flashcard count (integer). Optional; **at least two** of the
+- `${input:Flashcards-delta}` — change in flashcard count (integer). Optional; __at least two__ of the
   three flashcard inputs must be supplied.
 - `${input:commitNow}` — `no` to skip committing; default is to commit
 - `${input:extra}` — optional extra text for footer

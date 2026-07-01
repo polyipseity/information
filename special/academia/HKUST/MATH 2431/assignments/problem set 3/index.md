@@ -25,9 +25,9 @@ tags:
 
 ---
 
-Problem Set 3, due on <span style="color: #0e68b3">**Friday 06/03/2026, until 13:30 (1:30 PM)**</span> Hong Kong Time (UTC +8), to be uploaded on Canvas.
+Problem Set 3, due on <span style="color: #0e68b3">__Friday 06/03/2026, until 13:30 (1:30 PM)__</span> Hong Kong Time (UTC +8), to be uploaded on Canvas.
 
-**<span style="color: #e62429">Update (04/03/2026, 10:20 PM): Small clarification on Problem 1.</span>**
+__<span style="color: #e62429">Update (04/03/2026, 10:20 PM): Small clarification on Problem 1.</span>__
 
 [PS3-v1.pdf](attachments/PS3-v1.pdf)
 

@@ -22,9 +22,9 @@ Flashcards for this section are as follows:
 
 ## conditional probability: definition and multiplication rule
 
-Let $(\Omega, \mathcal{F}, P)$ be a probability space and $B \in \mathcal{F}$ with $P[B] > 0$. Intuitively, $P[A\mid B]$ should describe how likely $A$ is once we know that $B$ has occurred; we should restrict attention to $B$ as the new sample space. Formally, the **conditional probability** of $A$ given $B$ is $P[A\mid B] = P[A \cap B]/P[B]$ for every $A \in \mathcal{F}$. The condition $P[B]>0$ is essential in this elementary definition: when the conditioning event has probability $0$, the ratio is not defined and one needs more advanced notions than the present notes are using.
+Let $(\Omega, \mathcal{F}, P)$ be a probability space and $B \in \mathcal{F}$ with $P[B] > 0$. Intuitively, $P[A\mid B]$ should describe how likely $A$ is once we know that $B$ has occurred; we should restrict attention to $B$ as the new sample space. Formally, the __conditional probability__ of $A$ given $B$ is $P[A\mid B] = P[A \cap B]/P[B]$ for every $A \in \mathcal{F}$. The condition $P[B]>0$ is essential in this elementary definition: when the conditioning event has probability $0$, the ratio is not defined and one needs more advanced notions than the present notes are using.
 
-When $A$ and $B$ are mutually exclusive ($A \cap B = \emptyset$), this gives $P[A\mid B] = 0$ whenever it is defined. Rearranging the definition yields the **multiplication theorem** (or product rule) $P[A \cap B] = P[B]\,P[A\mid B]$. This identity is useful because it turns a conditional statement back into an ordinary intersection probability, which can then be combined with disjoint decompositions and $\sigma$-additivity.
+When $A$ and $B$ are mutually exclusive ($A \cap B = \emptyset$), this gives $P[A\mid B] = 0$ whenever it is defined. Rearranging the definition yields the __multiplication theorem__ (or product rule) $P[A \cap B] = P[B]\,P[A\mid B]$. This identity is useful because it turns a conditional statement back into an ordinary intersection probability, which can then be combined with disjoint decompositions and $\sigma$-additivity.
 
 ---
 
@@ -38,7 +38,7 @@ Flashcards for this section are as follows:
 
 ## conditional probability as a probability measure
 
-Fix $B \in \mathcal{F}$ with $P[B] > 0$ and define $P_B[A] = P[A\mid B]$ for $A \in \mathcal{F}$. Then $P_B$ is itself a probability measure on the **same** measurable space $(\Omega, \mathcal{F})$: first $0 \le P[A \cap B] \le P[B]$ implies $0 \le P[A\mid B] \le 1$; next $P[\Omega\mid B] = P[\Omega \cap B]/P[B] = P[B]/P[B] = 1$; finally, for pairwise disjoint $(A_j)_{j\in\mathbb{N}}$, the sets $A_j \cap B$ are pairwise disjoint and $P[\bigcup_{j=1}^{\infty} A_j \mid B] = P[\bigcup_j (A_j \cap B)]/P[B] = \sum_j P[A_j \cap B]/P[B] = \sum_j P[A_j\mid B]$, showing $\sigma$-additivity.
+Fix $B \in \mathcal{F}$ with $P[B] > 0$ and define $P_B[A] = P[A\mid B]$ for $A \in \mathcal{F}$. Then $P_B$ is itself a probability measure on the __same__ measurable space $(\Omega, \mathcal{F})$: first $0 \le P[A \cap B] \le P[B]$ implies $0 \le P[A\mid B] \le 1$; next $P[\Omega\mid B] = P[\Omega \cap B]/P[B] = P[B]/P[B] = 1$; finally, for pairwise disjoint $(A_j)_{j\in\mathbb{N}}$, the sets $A_j \cap B$ are pairwise disjoint and $P[\bigcup_{j=1}^{\infty} A_j \mid B] = P[\bigcup_j (A_j \cap B)]/P[B] = \sum_j P[A_j \cap B]/P[B] = \sum_j P[A_j\mid B]$, showing $\sigma$-additivity.
 
 ---
 
@@ -52,7 +52,7 @@ Flashcards for this section are as follows:
 
 ## law of total probability and Bayes' theorem
 
-Let $B_1,\ldots,B_n \in \mathcal{F}$ with $P[B_j] > 0$ for all $j$, such that $B_j \cap B_k = \emptyset$ for $j \neq k$ and $\bigcup_{j=1}^n B_j = \Omega$. In this situation we say that $(B_j)_{j=1}^n$ is a **finite partition** of $\Omega$: every outcome $\omega \in \Omega$ lies in exactly one of the sets $B_j$, so the events are disjoint and cover the whole space. For any $A \in \mathcal{F}$ we then have the **law of total probability** $P[A] = \sum_{j=1}^n P[B_j]\,P[A\mid B_j]$, obtained by expanding $A$ as a disjoint union $A = \bigcup_{j=1}^n (A \cap B_j)$ and using $\sigma$-additivity together with the multiplication rule $P[A \cap B_j] = P[B_j] P[A\mid B_j]$ for each $j$. Combining the law of total probability with the definition of conditional probability yields **Bayes' theorem**: assuming $P[A]>0$ and $P[B_k]>0$, we obtain $P[B_k\mid A] = \dfrac{P[B_k]\,P[A\mid B_k]}{\sum_{j=1}^n P[B_j]\,P[A\mid B_j]}$ for each $k$. The same formulas hold for countable partitions $(B_j)_{j\in\mathbb{N}}$ with $P[B_j]>0$, with sums extended to $j\in\mathbb{N}$.
+Let $B_1,\ldots,B_n \in \mathcal{F}$ with $P[B_j] > 0$ for all $j$, such that $B_j \cap B_k = \emptyset$ for $j \neq k$ and $\bigcup_{j=1}^n B_j = \Omega$. In this situation we say that $(B_j)_{j=1}^n$ is a __finite partition__ of $\Omega$: every outcome $\omega \in \Omega$ lies in exactly one of the sets $B_j$, so the events are disjoint and cover the whole space. For any $A \in \mathcal{F}$ we then have the __law of total probability__ $P[A] = \sum_{j=1}^n P[B_j]\,P[A\mid B_j]$, obtained by expanding $A$ as a disjoint union $A = \bigcup_{j=1}^n (A \cap B_j)$ and using $\sigma$-additivity together with the multiplication rule $P[A \cap B_j] = P[B_j] P[A\mid B_j]$ for each $j$. Combining the law of total probability with the definition of conditional probability yields __Bayes' theorem__: assuming $P[A]>0$ and $P[B_k]>0$, we obtain $P[B_k\mid A] = \dfrac{P[B_k]\,P[A\mid B_k]}{\sum_{j=1}^n P[B_j]\,P[A\mid B_j]}$ for each $k$. The same formulas hold for countable partitions $(B_j)_{j\in\mathbb{N}}$ with $P[B_j]>0$, with sums extended to $j\in\mathbb{N}$.
 
 Bayes' theorem is best read as a rescaling rule. The factor $P[B_k]$ is the prior weight of hypothesis $B_k$, the factor $P[A\mid B_k]$ measures how compatible the observed evidence $A$ is with that hypothesis, and the denominator is the total probability of seeing $A$ at all. So Bayes' theorem does not invent information; it rebalances the hypotheses after the evidence has been observed.
 
@@ -89,14 +89,14 @@ Flashcards for this section are as follows:
 
 Two events $A,B \in \mathcal{F}$ should be independent if the occurrence of $A$ does not influence the probability of $B$, and vice versa. Formally, if $P[B]>0$ then $P[A\mid B]=P[A]$ means that $B$ carries no information about $A$; multiplying by $P[B]$ gives the symmetric condition $P[A \cap B] = P[A]\,P[B]$, which also works when $P[B]=0$.
 
-**Joint (stochastic) independence.** Let $I$ be a set. A family $(A_i)_{i\in I} \subseteq \mathcal{F}$ is called (jointly) independent if for every finite subfamily $\{i_1,\dots,i_m\} \subseteq I$ with pairwise distinct indices, $$P[A_{i_1} \cap \cdots \cap A_{i_m}] = P[A_{i_1}] \cdots P[A_{i_m}].$$ In particular, two events $A,B \in \mathcal{F}$ are independent iff $P[A \cap B] = P[A]\,P[B]$.
+__Joint (stochastic) independence.__ Let $I$ be a set. A family $(A_i)_{i\in I} \subseteq \mathcal{F}$ is called (jointly) independent if for every finite subfamily $\{i_1,\dots,i_m\} \subseteq I$ with pairwise distinct indices, $$P[A_{i_1} \cap \cdots \cap A_{i_m}] = P[A_{i_1}] \cdots P[A_{i_m}].$$ In particular, two events $A,B \in \mathcal{F}$ are independent iff $P[A \cap B] = P[A]\,P[B]$.
 
-**Remarks.**
+__Remarks.__
 
 - The definition covers the case when an event has probability $0$; if $P[A]>0$ and $P[B]>0$, independence is equivalent to $P[A] = P[A\mid B]$ (and $P[B] = P[B\mid A]$).
 - $\emptyset$ and $\Omega$ are independent of every event, because $P[\emptyset \cap A] = 0 = P[\emptyset]P[A]$ and $P[\Omega \cap A] = P[A] = P[\Omega]P[A]$.
 - Independence is not the same as disjointness. If $A \cap B = \emptyset$ with $A,B$ independent, then $0 = P[A \cap B] = P[A]P[B]$ forces $P[A]=0$ or $P[B]=0$; disjoint non‑null events are always dependent.
-- For more than two events, pairwise independence does **not** imply joint independence; it is possible that every pair factors while the triple intersection does not.
+- For more than two events, pairwise independence does __not__ imply joint independence; it is possible that every pair factors while the triple intersection does not.
 
 ---
 
@@ -107,7 +107,7 @@ Flashcards for this section are as follows:
 - definition / joint (mutual) independence for a family $(A_i)_{i\in I}$ ::@:: The family is jointly independent if for every finite subfamily $\{i_1,\dots,i_m\}$ with distinct indices, $P[A_{i_1} \cap \cdots \cap A_{i_m}] = P[A_{i_1}] \cdots P[A_{i_m}]$.
 - independence vs disjointness ::@:: Disjoint events with positive probability are never independent, because $0 = P[A\cap B] \neq P[A]P[B] > 0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - zero‑probability and sure events are independent of everything ::@:: $\emptyset$ and $\Omega$ are independent of any $A \in \mathcal{F}$, since $P[\emptyset \cap A] = 0 = P[\emptyset]P[A]$ and $P[\Omega \cap A] = P[A] = P[\Omega]P[A]$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- pairwise independence does not imply joint independence ::@:: It is possible for every pair in a family to satisfy the product condition while the entire family does not; joint independence requires the product to hold for **every** finite subfamily.
+- pairwise independence does not imply joint independence ::@:: It is possible for every pair in a family to satisfy the product condition while the entire family does not; joint independence requires the product to hold for __every__ finite subfamily.
 
 ### card‑deck
 
@@ -121,7 +121,7 @@ Flashcards for this section are as follows:
 
 ### coin‑toss
 
-Toss a fair coin twice, with $\Omega = \{HH, HT, TH, TT\}$ uniform. Define $A = \{\text{first toss heads}\}$, $B = \{\text{second toss heads}\}$, $C = \{\text{exactly one head}\}$. Each has probability $1/2$. All pairwise intersections have probability $1/4$, so $(A,B)$, $(A,C)$, and $(B,C)$ are pairwise independent. But $A \cap B \cap C = \emptyset$, so $P[A \cap B \cap C] = 0 \neq 1/8 = P[A]P[B]P[C]$, showing that pairwise independence does **not** imply joint independence.
+Toss a fair coin twice, with $\Omega = \{HH, HT, TH, TT\}$ uniform. Define $A = \{\text{first toss heads}\}$, $B = \{\text{second toss heads}\}$, $C = \{\text{exactly one head}\}$. Each has probability $1/2$. All pairwise intersections have probability $1/4$, so $(A,B)$, $(A,C)$, and $(B,C)$ are pairwise independent. But $A \cap B \cap C = \emptyset$, so $P[A \cap B \cap C] = 0 \neq 1/8 = P[A]P[B]P[C]$, showing that pairwise independence does __not__ imply joint independence.
 
 ---
 
@@ -138,7 +138,7 @@ Flashcards for this section are as follows:
 
 If $A_1,\dots,A_n \in \mathcal{F}$ are jointly independent, then also $B_1,\dots,B_n$ with $B_i \in \{A_i, A_i^{\,c}\}$ for $1 \le i \le n$ are jointly independent.
 
-*Proof for $n=2$.* Let $B_1 = A_1$ and $B_2 = A_2^{\,c}$. Since $(A_1 \cap A_2)$ and $(A_1 \cap A_2^{\,c})$ are disjoint and their union is $A_1$, we have $$P[A_1] = P[A_1 \cap A_2] + P[A_1 \cap A_2^{\,c}] = P[A_1]P[A_2] + P[A_1 \cap A_2^{\,c}].$$ Thus $P[A_1 \cap A_2^{\,c}] = P[A_1] - P[A_1]P[A_2] = P[A_1](1-P[A_2]) = P[A_1]P[A_2^{\,c}]$, which is the product condition for $(A_1, A_2^{\,c})$. The case $(A_1^{\,c}, A_2)$ is symmetric, and applying the same argument to $A_1^{\,c}$ and $A_2$ gives the condition for $(A_1^{\,c}, A_2^{\,c})$. The general $n$ case follows by induction.
+_Proof for $n=2$._ Let $B_1 = A_1$ and $B_2 = A_2^{\,c}$. Since $(A_1 \cap A_2)$ and $(A_1 \cap A_2^{\,c})$ are disjoint and their union is $A_1$, we have $$P[A_1] = P[A_1 \cap A_2] + P[A_1 \cap A_2^{\,c}] = P[A_1]P[A_2] + P[A_1 \cap A_2^{\,c}].$$ Thus $P[A_1 \cap A_2^{\,c}] = P[A_1] - P[A_1]P[A_2] = P[A_1](1-P[A_2]) = P[A_1]P[A_2^{\,c}]$, which is the product condition for $(A_1, A_2^{\,c})$. The case $(A_1^{\,c}, A_2)$ is symmetric, and applying the same argument to $A_1^{\,c}$ and $A_2$ gives the condition for $(A_1^{\,c}, A_2^{\,c})$. The general $n$ case follows by induction.
 
 ---
 

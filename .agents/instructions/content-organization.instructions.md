@@ -10,20 +10,20 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 
 ## Directory structure
 
-- **`general/`** — Encyclopedic content (mostly verbatim from Wikipedia).
+- __`general/`__ — Encyclopedic content (mostly verbatim from Wikipedia).
   - Flat `.md` files with YAML frontmatter (`aliases`, `tags`, `language`).
-  - Use **relative links** (encode spaces as `%20`) and store media under `archives/Wikimedia Commons/`.
+  - Use __relative links__ (encode spaces as `%20`) and store media under `archives/Wikimedia Commons/`.
   - Updated primarily via: `uv run -m convert_wiki`.
 
-- **`special/`** — Specialized materials: course notes, tutorials, and frameworks.
-  - `academia/` is organized by **institution → semester/year → course**; each institution typically includes `reviews.md` and course folders.
+- __`special/`__ — Specialized materials: course notes, tutorials, and frameworks.
+  - `academia/` is organized by __institution → semester/year → course__; each institution typically includes `reviews.md` and course folders.
   - Maintain `index.md` files for listings and cross-references.
 
-- **`archives/`** — Downloaded online content (media, pages, documents).
+- __`archives/`__ — Downloaded online content (media, pages, documents).
   - Subfolders: `Wikimedia Commons/` (media), `sparse/` (misc files).
   - Each archive directory should include an `index.md` with source URL, timestamp and description.
 
-- **`scripts/`** — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
+- __`scripts/`__ — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
   - Prefer running wrappers (`bun run ...` or `uv run -m ...`) rather than hand-editing generated outputs.
     Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.agents/instructions/agent-quickstart.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
 
@@ -31,12 +31,12 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 
 ## Intent & ownership
 
-- This is **primarily a public knowledgebase**; most content (encyclopedic articles, tutorials, course notes) is intended to be public and editable by maintainers.
+- This is __primarily a public knowledgebase__; most content (encyclopedic articles, tutorials, course notes) is intended to be public and editable by maintainers.
 - Small, well-documented fixes are welcome via PRs. Avoid bulk or automated rewrites unless there is an agreed plan and review.
 
 ## Git submodules
 
-- Common submodules: **`private/`**.
+- Common submodules: __`private/`__.
 - `self/stash/` is part of the parent repository and stores scratch scripts; treat it as ordinary repo content, not as a git submodule.
 
 ## Course content & migrations
@@ -52,7 +52,7 @@ uv run .agents/skills/academic-notes/check.py --content private/special/academia
 
 ## When to use `private/` vs public folders
 
-- Keep content public unless it contains **PII**, confidential academic records, commercial/embargoed research, contracts, or other sensitive material.
+- Keep content public unless it contains __PII__, confidential academic records, commercial/embargoed research, contracts, or other sensitive material.
 - If in doubt, place content in `private/` and consult the repository owner. Follow the publish/migration checklist (PII/license/redaction/validation) before requesting a public migration.
 
 ---
@@ -69,5 +69,5 @@ uv run .agents/skills/academic-notes/check.py --content private/special/academia
 
 ## Other important files
 
-- **`.obsidian/plugins/obsidian-latex/preamble.sty`** — LaTeX macros used by Extended MathJax in Obsidian.
-- **`.git/`**, **`.github/`**, **`.obsidian/`**, **`.vscode/`** — configuration and workspace files (do not edit unless explicitly requested).
+- __`.obsidian/plugins/obsidian-latex/preamble.sty`__ — LaTeX macros used by Extended MathJax in Obsidian.
+- __`.git/`__, __`.github/`__, __`.obsidian/`__, __`.vscode/`__ — configuration and workspace files (do not edit unless explicitly requested).

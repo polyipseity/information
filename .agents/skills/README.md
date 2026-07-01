@@ -11,7 +11,7 @@ Files
 
 Guidelines for new skills
 
-1. Add `SKILL.md` with YAML frontmatter. The **only** supported keys are:
+1. Add `SKILL.md` with YAML frontmatter. The __only__ supported keys are:
    - `name` (required)
    - `description` (required)
    - `argument-hint`
@@ -21,7 +21,7 @@ Guidelines for new skills
    - `metadata`
    - `user-invocable`
 
-  > **Note:** the `applyTo` key is no longer supported in skill
+  > __Note:__ the `applyTo` key is no longer supported in skill
   > frontmatter.  Older skills may still include it, but new skills
   > should omit it entirely or the validator will raise an error.
    Other keys are ignored and may prevent the skill from loading correctly.
@@ -41,11 +41,11 @@ Why this exists
 
 Some skill folders contain a `pyproject.toml` for tool configuration (e.g., `ty`
 type-checker settings). Running `uv run`, `uv sync`, or any `uv` command
-**inside** a skill folder will cause `uv` to create a `.venv/` directory and
+__inside__ a skill folder will cause `uv` to create a `.venv/` directory and
 `uv.lock` file there, cluttering the folder and duplicating the project's
 actual environment.
 
-**Never run `uv` commands from inside a skill folder.** Always run from the
+__Never run `uv` commands from inside a skill folder.__ Always run from the
 workspace root (`/Users/polyipseity/dev/monorepo/self/information/`) and
 reference skill paths as arguments. Examples:
 

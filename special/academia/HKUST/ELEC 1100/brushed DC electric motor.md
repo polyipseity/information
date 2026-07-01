@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 
 ### classification by power source
 
-Electric motors are classified by power source: **DC motors** are powered by direct current; **AC motors** by alternating current. DC motors are further divided into brushed motors (commutator and brushes), brushless motors (electronic commutation), and stepper motors. AC motors include induction and synchronous types. In ELEC 1100 labs and the project we use **brushed DC motors**, which are simple to drive with an H-bridge and a single DC supply.
+Electric motors are classified by power source: __DC motors__ are powered by direct current; __AC motors__ by alternating current. DC motors are further divided into brushed motors (commutator and brushes), brushless motors (electronic commutation), and stepper motors. AC motors include induction and synchronous types. In ELEC 1100 labs and the project we use __brushed DC motors__, which are simple to drive with an H-bridge and a single DC supply.
 
 ---
 
@@ -68,7 +68,7 @@ Most electric motors rely on magnetic fields.
 
 ### poles and forces
 
-A magnet has two poles, north (N) and south (S); like poles repel and opposite poles attract. Magnetic poles always come in pairs. **Magnetic monopoles** — isolated north or south poles with no partner — are predicted by some theories but have no experimental evidence yet; all known magnets have paired N and S poles. The **Earth's magnetic field** behaves as if a giant bar magnet lay inside the planet: the *magnetic* south pole of that equivalent magnet sits near Earth's *geographic* north pole (and vice versa), which is why a compass needle (N-seeking) points toward geographic north.
+A magnet has two poles, north (N) and south (S); like poles repel and opposite poles attract. Magnetic poles always come in pairs. __Magnetic monopoles__ — isolated north or south poles with no partner — are predicted by some theories but have no experimental evidence yet; all known magnets have paired N and S poles. The __Earth's magnetic field__ behaves as if a giant bar magnet lay inside the planet: the _magnetic_ south pole of that equivalent magnet sits near Earth's _geographic_ north pole (and vice versa), which is why a compass needle (N-seeking) points toward geographic north.
 
 ---
 
@@ -80,7 +80,7 @@ Flashcards for this section are as follows:
 
 ### permanent magnet
 
-A **permanent magnet** has fixed N and S positions and produces a magnetic field from N to S; it is effectively always "on" and cannot be turned off.
+A __permanent magnet__ has fixed N and S positions and produces a magnetic field from N to S; it is effectively always "on" and cannot be turned off.
 
 ---
 
@@ -90,7 +90,7 @@ Flashcards for this section are as follows:
 
 ### electromagnet and right-hand rule
 
-An **electromagnet** is made by passing current through a wire (often wound as a solenoid). The direction of current determines which end is N and which is S; the poles reverse if the current direction is reversed. The direction of the magnetic field around a current-carrying wire can be found using the **right-hand rule**. **Applying the right-hand rule:** for a straight wire, point your right thumb in the direction of conventional current; your fingers curl in the direction of the magnetic field around the wire. For a solenoid, grip the coil with your right hand so your fingers follow the current direction along the turns; your thumb then points toward the north pole of the electromagnet. Electromagnets can be turned on or off and their polarity reversed by changing the current, which is essential for motor control.
+An __electromagnet__ is made by passing current through a wire (often wound as a solenoid). The direction of current determines which end is N and which is S; the poles reverse if the current direction is reversed. The direction of the magnetic field around a current-carrying wire can be found using the __right-hand rule__. __Applying the right-hand rule:__ for a straight wire, point your right thumb in the direction of conventional current; your fingers curl in the direction of the magnetic field around the wire. For a solenoid, grip the coil with your right hand so your fingers follow the current direction along the turns; your thumb then points toward the north pole of the electromagnet. Electromagnets can be turned on or off and their polarity reversed by changing the current, which is essential for motor control.
 
 ---
 
@@ -105,7 +105,7 @@ Flashcards for this section are as follows:
 
 ### stator and rotor roles
 
-An electric motor operates through the interaction of the magnetic fields of a **stator** (fixed part) and a **rotor** (moving part). In a simple brushed DC motor the stator may be a permanent magnet and the rotor an electromagnet (solenoid).
+An electric motor operates through the interaction of the magnetic fields of a __stator__ (fixed part) and a __rotor__ (moving part). In a simple brushed DC motor the stator may be a permanent magnet and the rotor an electromagnet (solenoid).
 
 ---
 
@@ -115,7 +115,7 @@ Flashcards for this section are as follows:
 
 ### attraction, repulsion, and continuous rotation
 
-When power is applied, current in the rotor creates a magnetic field; the rotor's N and S poles are attracted to the opposite poles of the stator and repelled by the like poles, so the rotor turns until opposite poles align. Because of inertia the rotor overshoots; if we then **reverse the current** in the rotor, its N and S poles flip, and the forces again push it in the same rotational direction. Repeating this polarity reversal keeps the rotor spinning in one direction; the mechanical commutator and brushes perform this reversal automatically when the motor is driven by a DC source.
+When power is applied, current in the rotor creates a magnetic field; the rotor's N and S poles are attracted to the opposite poles of the stator and repelled by the like poles, so the rotor turns until opposite poles align. Because of inertia the rotor overshoots; if we then __reverse the current__ in the rotor, its N and S poles flip, and the forces again push it in the same rotational direction. Repeating this polarity reversal keeps the rotor spinning in one direction; the mechanical commutator and brushes perform this reversal automatically when the motor is driven by a DC source.
 
 ---
 
@@ -129,7 +129,7 @@ Flashcards for this section are as follows:
 
 ### commutation and the commutator and brushes
 
-The switching of the magnetic field in the rotor (reversing current direction) is called **commutation**. A DC source cannot by itself reverse the current in the rotor. In a **brushed DC motor** this is done mechanically: a **commutator** (e.g. a copper sleeve split into segments) rotates with the rotor, and **carbon brushes** (fixed) slide on the commutator and make contact with different segments. As the rotor turns, the brushes contact different segments so that the current through the rotor windings is effectively reversed at the right moments, keeping rotation in one direction. The DC current from the supply is in one direction at the brushes, but inside the motor the commutator and brushes perform the switching needed for continuous rotation.
+The switching of the magnetic field in the rotor (reversing current direction) is called __commutation__. A DC source cannot by itself reverse the current in the rotor. In a __brushed DC motor__ this is done mechanically: a __commutator__ (e.g. a copper sleeve split into segments) rotates with the rotor, and __carbon brushes__ (fixed) slide on the commutator and make contact with different segments. As the rotor turns, the brushes contact different segments so that the current through the rotor windings is effectively reversed at the right moments, keeping rotation in one direction. The DC current from the supply is in one direction at the brushes, but inside the motor the commutator and brushes perform the switching needed for continuous rotation.
 
 ---
 
@@ -156,7 +156,7 @@ Flashcards for this section are as follows:
 
 ### factors affecting speed
 
-Besides direction, we need to control **motor speed**. Speed can be influenced by the strength of the magnetic field: more coils in the solenoid or a higher voltage (larger current) generally give higher speed. In a built motor the number of coils is fixed, so speed control is usually done by changing the **voltage** (and thus current) supplied to the motor.
+Besides direction, we need to control __motor speed__. Speed can be influenced by the strength of the magnetic field: more coils in the solenoid or a higher voltage (larger current) generally give higher speed. In a built motor the number of coils is fixed, so speed control is usually done by changing the __voltage__ (and thus current) supplied to the motor.
 
 ---
 
@@ -167,7 +167,7 @@ Flashcards for this section are as follows:
 
 ### variable resistor, drawbacks, and PWM
 
-One simple method is a **variable resistor** in series with the motor: reducing the resistor increases the voltage across the motor and speeds it up. This approach has drawbacks: it is **inefficient** (energy dissipated as heat in the resistor, especially at low speeds), **imprecise**, and requires mechanical adjustment, so it is not computer-friendly. The course uses **pulse-width modulation (PWM)** for efficient, precise, and software-controllable speed control, covered in the next lecture.
+One simple method is a __variable resistor__ in series with the motor: reducing the resistor increases the voltage across the motor and speeds it up. This approach has drawbacks: it is __inefficient__ (energy dissipated as heat in the resistor, especially at low speeds), __imprecise__, and requires mechanical adjustment, so it is not computer-friendly. The course uses __pulse-width modulation (PWM)__ for efficient, precise, and software-controllable speed control, covered in the next lecture.
 
 ---
 

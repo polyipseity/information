@@ -16,15 +16,15 @@ description: |
 
 This skill automates the user’s process for converting Markdown prose into active‑recall flashcards.  It works interactively: you provide a file path or text snippet, the agent edits it in place with cloze markup, and the user refines.  The skill supports three forms of flashcards—inline cloze (`{@{ }@}`), two‑sided QA (`::@::`), and one‑sided QA (`:@:`).  QA cards must fit on one Markdown line; use `<br/>` or `<p>` for visual breaks.
 
-All style decisions are driven by the representative examples and heuristics embedded in this document.  When you encounter a new pattern, capture it here as an example or add a heuristic rule.  An optional prompt file (`flashcard-creation.prompt.md`) can solicit path/line information.  Do **not** run any commands such as `init generate` in the course of editing; operational advice belongs elsewhere.
+All style decisions are driven by the representative examples and heuristics embedded in this document.  When you encounter a new pattern, capture it here as an example or add a heuristic rule.  An optional prompt file (`flashcard-creation.prompt.md`) can solicit path/line information.  Do __not__ run any commands such as `init generate` in the course of editing; operational advice belongs elsewhere.
 
-**Academic content:** if editing `special/academia` material also consult the `academic-notes` skill for course‑specific conventions such as full hierarchical gloss paths and QA list separators; it links back here for general guidance.  Conversely, the `academic-notes` documentation refers you here for the general cloze/QA patterns and example transformations. **Topic notes:** by default do **not** add cloze cards; use only two-sided (::@::) or very rarely one-sided (:@:) cards and add more of those as needed. **Accounting journal-entry worked examples embedded in topic notes:** (a) Put a **very brief description** of the entry in the first column header of each journal-entry table; wrap that description and **each account name** in the first column in clozes so flashcards cover them fully. (b) Mask all debit and credit amounts in tables; add scenario (and calculation/explanation) clozes but leave **a few hint words** at the start or end; for calculations, cover **both sides of an equality separately** and cover the **text (non-equation) portion** with hint words uncovered; use `&nbsp;` for the thousands separator (see academic-notes skill § Journal entry examples in accounting topic notes). **Cloze delimiter:** the closing `}@}` must come **before** any trailing punctuation; place punctuation after the delimiter (e.g. `{@{text}@}.` not `{@{text.}@}`).
+__Academic content:__ if editing `special/academia` material also consult the `academic-notes` skill for course‑specific conventions such as full hierarchical gloss paths and QA list separators; it links back here for general guidance.  Conversely, the `academic-notes` documentation refers you here for the general cloze/QA patterns and example transformations. __Topic notes:__ by default do __not__ add cloze cards; use only two-sided (::@::) or very rarely one-sided (:@:) cards and add more of those as needed. __Accounting journal-entry worked examples embedded in topic notes:__ (a) Put a __very brief description__ of the entry in the first column header of each journal-entry table; wrap that description and __each account name__ in the first column in clozes so flashcards cover them fully. (b) Mask all debit and credit amounts in tables; add scenario (and calculation/explanation) clozes but leave __a few hint words__ at the start or end; for calculations, cover __both sides of an equality separately__ and cover the __text (non-equation) portion__ with hint words uncovered; use `&nbsp;` for the thousands separator (see academic-notes skill § Journal entry examples in accounting topic notes). __Cloze delimiter:__ the closing `}@}` must come __before__ any trailing punctuation; place punctuation after the delimiter (e.g. `{@{text}@}.` not `{@{text.}@}`).
 
 For private academic quiz archives where the user has explicitly confirmed that a checked option is correct, prefer a short `- explanation:` bullet with clozes over a bare answer-only card. Cloze the decisive method, condition, contrast, or reason that makes the selected answer correct; do not merely hide the same final option twice. If the question or answer depends on an embedded figure, still add the cloze-rich explanation instead of treating the image itself as sufficient review support. If the `Solution:` line contains the embedded image, keep at least one cloze on that `Solution:` line too so the chosen option or structural descriptor is directly quizzable there.
 
 For public academic quiz hints written as `::@::` cards, keep the hints in the same order as the archived/private question order. If the user wants slightly more context, add it mainly on the left-hand side prompt itself: use option-family cues, mutated-but-equivalent givens, or the decisive spectral, timing, or topology landmarks without copying the official choices verbatim.
 
-For academic topic notes, do not limit cards to isolated definitions. Prefer a balanced mix of comparison cards, intuition cards, example cards, counterexample cards, and worked-example cards when the material supports them. If a section needs only a small clarification, enhance the existing flashcards; if it needs a substantial new cluster of distinctions or examples, add new flashcards instead of overloading one old card. For worked examples, place **all** required givens, formulas, assumptions, and numeric input data on the left-hand side before `::@::` so the card is fully answerable in isolation.
+For academic topic notes, do not limit cards to isolated definitions. Prefer a balanced mix of comparison cards, intuition cards, example cards, counterexample cards, and worked-example cards when the material supports them. If a section needs only a small clarification, enhance the existing flashcards; if it needs a substantial new cluster of distinctions or examples, add new flashcards instead of overloading one old card. For worked examples, place __all__ required givens, formulas, assumptions, and numeric input data on the left-hand side before `::@::` so the card is fully answerable in isolation.
 
 For mathematically technical academic notes, preserve the derivation or proof spine in the flashcards instead of testing only the final formula. A strong default is to add at least one card for the governing equation or setup, one card for the decisive derivation step or inequality, and one card for the final result or interpretation when the source material supports that structure.
 
@@ -36,32 +36,32 @@ For conceptual math-law cards in academic notes, a descriptive prompt is often b
 
 Be careful when users add inline comments or annotations such as
 `<!-- check: ignore-line[...]: equation on left -->`. Such comments are
-rationales for validator suppressions and **not** editing instructions.
+rationales for validator suppressions and __not__ editing instructions.
 Never split or reflow the card simply because a comment mentions “left” or
-“right”; the left-hand portion always means *the text that appears before the
-`::@::` or `:@:` separator*, and it may be long when calculations are involved.
+“right”; the left-hand portion always means _the text that appears before the
+`::@::` or `:@:` separator_, and it may be long when calculations are involved.
 
 Invoke the skill when the user asks to “add flashcards”, “cloze this”, “quizify”, or similar.  The target file must already exist; never create new files or edit submodules/private content without permission.  Process one paragraph or logical block at a time and display the original text for confirmation.  Aim for at least 92 % coverage of each paragraph and about 80–92 % of every sentence.  Numeric facts or simple assignments may be clozed as atomic units.
 
 ## Workflow
 
-1. **Consult examples.**  Scan the index of representative patterns earlier in this file for descriptions matching the current passage.  Refer to the matching example numbers in your reasoning (e.g., “behaviour like example 3’s QA rewrite”).
-2. **Select a paragraph or contiguous block.**  Work on one at a time.  Use a separate tool call per paragraph rather than batching.  Pause after each block to retrieve the next.
-3. **Break text into meaning units.**  Look for definitions, names, dates, formulas, list items, pros/cons, conditional or contrast clauses, and semicolon‑separated ideas.  Treat each as a potential card.  If a sentence is mostly visible, add another cloze.  Do not hide an entire short sentence with no anchor word; leave a hint word or two visible.
+1. __Consult examples.__  Scan the index of representative patterns earlier in this file for descriptions matching the current passage.  Refer to the matching example numbers in your reasoning (e.g., “behaviour like example 3’s QA rewrite”).
+2. __Select a paragraph or contiguous block.__  Work on one at a time.  Use a separate tool call per paragraph rather than batching.  Pause after each block to retrieve the next.
+3. __Break text into meaning units.__  Look for definitions, names, dates, formulas, list items, pros/cons, conditional or contrast clauses, and semicolon‑separated ideas.  Treat each as a potential card.  If a sentence is mostly visible, add another cloze.  Do not hide an entire short sentence with no anchor word; leave a hint word or two visible.
    - Handle semicolon‑separated clauses like a list with separate clozes.
    - For conditional connectors (`if`, `when`, `once`, `unless`), hide the text after the connector unless the condition itself is being tested.
    - For contrastive conjunctions (`but`, `however`, `yet`, etc.) make separate clozes on either side.
-4. **Insert clozes guided by examples.**  Use the matched examples as
+4. __Insert clozes guided by examples.__  Use the matched examples as
    templates:
    - Wrap material based on meaning and recall effort rather than rigid word counts.  Dense or confusing ideas get smaller clozes; obvious concepts can be larger.
    - If text already has formatting (bold, italic, code, underline, etc.), enclose the entire formatted phrase inside the cloze rather than inserting braces within it.  For example use `{@{__foo__}@}` instead of `__{@{foo}@}__`.
    - Cloze both a leading proposition and its supporting detail if both are worth testing.  Leave one or two words outside the braces for a contextual hint.
    - When several closely related noun phrases appear, split them into multiple smaller clozes instead of a single huge one.
    - Place the cloze where it best prompts recall—the first word, last word, or middle as the example shows.
-   - **Never break a LaTeX equation.**  Hide the entire `$…$` or `$$…$$` block as a single atomic cloze.
+   - __Never break a LaTeX equation.__  Hide the entire `$…$` or `$$…$$` block as a single atomic cloze.
    - By default suggest inline clozes; only rewrite to `::@::` or `:@:` if the user explicitly requests QA style or if an example clearly uses that format.
    - Preserve Markdown, KaTeX, links, and line ordering.  Lists are handled item‑by‑item unless an example demonstrates a combined deletion.
-5. **Apply the edits directly** in the file and return the modified text.
+5. __Apply the edits directly__ in the file and return the modified text.
    Provide alternate versions or explanations only if the user asks.
 
 ## Continuous improvement
@@ -78,11 +78,11 @@ Invoke the skill when the user asks to “add flashcards”, “cloze this”, �
 
 Several patterns recur frequently; the first five entries below illustrate the kinds of transformations you should perform.  When editing a new passage, recall which example best matches and mimic its cloze placement and style.
 
-1. **Dense math paragraph** – multiple expressions and annotations require many inline clozes so each formula or qualifier can be tested separately.
-2. **Long technical paragraph** – break a single sentence containing several logical ideas into separate deletions rather than one giant blank.
-3. **Circuit cancellation description** – sequential procedural text with paired concepts gets split at each step; retain anchors such as “easiest way” or “however”.
-4. **Transform hierarchy statement** – simple declarative sentence with nested subjects encourages small, discrete clozes for each noun phrase.
-5. **Concentration/spread of Fourier transform** – comparative statement best handled by clozing each contrasted clause individually.
+1. __Dense math paragraph__ – multiple expressions and annotations require many inline clozes so each formula or qualifier can be tested separately.
+2. __Long technical paragraph__ – break a single sentence containing several logical ideas into separate deletions rather than one giant blank.
+3. __Circuit cancellation description__ – sequential procedural text with paired concepts gets split at each step; retain anchors such as “easiest way” or “however”.
+4. __Transform hierarchy statement__ – simple declarative sentence with nested subjects encourages small, discrete clozes for each noun phrase.
+5. __Concentration/spread of Fourier transform__ – comparative statement best handled by clozing each contrasted clause individually.
 
 Below are the full before/after examples for reference (copy them into the agent’s reasoning when needed):
 
@@ -96,7 +96,7 @@ Input: From another, perhaps more classical viewpoint, the Laplace transform by 
 Output: From another, perhaps {@{more classical viewpoint}@}, {@{the Laplace transform by its form}@} involves {@{an additional exponential regulating term}@} which lets it converge {@{outside of the imaginary line}@} where {@{the Fourier transform is defined}@}. As such it can {@{converge for at most exponentially divergent series and integrals}@}, whereas {@{the original Fourier decomposition cannot}@}, enabling {@{analysis of systems with divergent or critical elements}@}. Two particular examples from {@{linear signal processing}@} are the construction of {@{allpass filter networks from critical comb}@} and {@{mitigating filters}@} via {@{exact pole-zero cancellation on the unit circle}@}. Such designs are {@{common in audio processing}@}, where {@{highly nonlinear phase response}@} is {@{sought for, as in reverb}@}.
 ```
 
-*The remaining examples follow the same pattern; open the files for more entries if needed.*
+_The remaining examples follow the same pattern; open the files for more entries if needed._
 
 ## Heuristics and rules
 
@@ -106,7 +106,7 @@ The form of the examples above is complemented by a set of practical heuristics,
 
 - Preserve the source verbatim except for cloze markup; do not paraphrase or reflow text.
 - Equations stay whole: wrap an entire `$...$` or `$$...$$` block in a single cloze; never split math.
-- **Prompt length is irrelevant for calculations.**  When constructing two‑sided or one‑sided cards involving numeric problems, copy every number, parameter, and even full equations to the left of the separator; the prompt may be arbitrarily long.  The warning rules in the validator are designed to catch cases where the answer cannot possibly be deduced from the prompt, not to force brevity.  Resist any urge to split a single calculation across multiple cards purely to shorten the left-hand text – that reduces clarity and defeats the purpose of spaced repetition.
+- __Prompt length is irrelevant for calculations.__  When constructing two‑sided or one‑sided cards involving numeric problems, copy every number, parameter, and even full equations to the left of the separator; the prompt may be arbitrarily long.  The warning rules in the validator are designed to catch cases where the answer cannot possibly be deduced from the prompt, not to force brevity.  Resist any urge to split a single calculation across multiple cards purely to shorten the left-hand text – that reduces clarity and defeats the purpose of spaced repetition.
 - Anchor context: leave visible words around each deletion to give a hint; avoid blanking a sentence entirely unless context is crystal clear.
 - Mirror the user’s style when they supply examples or corrections.
 - Preserving HTML entities and escapes exactly; treat them as opaque literals.

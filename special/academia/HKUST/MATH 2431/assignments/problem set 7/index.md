@@ -25,7 +25,7 @@ tags:
 
 ---
 
-Problem Set 7, due on <span style="color: #0e68b3">**Friday 17/04/2026, until 13:30 (1:30 PM)**</span> Hong Kong Time (UTC +8), to be uploaded on Canvas.
+Problem Set 7, due on <span style="color: #0e68b3">__Friday 17/04/2026, until 13:30 (1:30 PM)__</span> Hong Kong Time (UTC +8), to be uploaded on Canvas.
 
 [PS7.pdf](attachments/PS7-3.pdf)
 

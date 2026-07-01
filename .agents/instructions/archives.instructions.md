@@ -8,10 +8,10 @@ applyTo: "archives/**/*.md"
 
 ## General Principles
 
-- **Permanence**: Once archived, files should remain stable (no renaming/deletion without good reason)
-- **Index maintenance**: Every archive subdirectory has `index.md` with metadata (source URL, timestamp, description, optional hash)
-- **Relative links**: Notes reference archived files using relative paths with `%20` encoding
-- **Organization**: Group related content into subdirectories; use descriptive or content-addressed filenames as appropriate
+- __Permanence__: Once archived, files should remain stable (no renaming/deletion without good reason)
+- __Index maintenance__: Every archive subdirectory has `index.md` with metadata (source URL, timestamp, description, optional hash)
+- __Relative links__: Notes reference archived files using relative paths with `%20` encoding
+- __Organization__: Group related content into subdirectories; use descriptive or content-addressed filenames as appropriate
 
 ## Current Subdirectories
 
@@ -20,7 +20,7 @@ applyTo: "archives/**/*.md"
   - May be renamed via `convert_wiki.filename_rename_map.jsonc` during Wikipedia ingestion
 
 - `archives/sparse/`: Miscellaneous archived content with user-defined filenames
-  - **Important**: Filenames are user-defined (descriptive or arbitrary), NOT automatically SHA-256 hashed
+  - __Important__: Filenames are user-defined (descriptive or arbitrary), NOT automatically SHA-256 hashed
   - Users manually add files with chosen filenames
   - Entry in `index.md` must include source URL, timestamp, and description
 
@@ -35,7 +35,7 @@ Additional archive categories may be added as needed:
 
 ## index.md Format
 
-**Required metadata for each entry**:
+__Required metadata for each entry__:
 
 - Filename (as Markdown link)
 - Description (brief summary)
@@ -44,7 +44,7 @@ Additional archive categories may be added as needed:
 - Hash (optional; SHA-256 for verification)
 - License (optional; for Wikimedia Commons media)
 
-**Example**:
+__Example__:
 
 ```markdown
 - [example-article.md](example-article.md) — Archived blog post about X
@@ -52,7 +52,7 @@ Additional archive categories may be added as needed:
   - Downloaded: 2024-01-20
 ```
 
-**Automation**: Archive content can be manually indexed with `index.md` files.
+__Automation__: Archive content can be manually indexed with `index.md` files.
 
 ## Best Practices
 

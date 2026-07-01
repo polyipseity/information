@@ -5,13 +5,13 @@ description: Regenerate programmatically-generated content blocks in knowledge b
 
 # pytextgen Workflow
 
-> **Continuous improvement:** see `continuous_improvement.md` in this
+> __Continuous improvement:__ see `continuous_improvement.md` in this
 > folder for documented lessons and evolving best practices.
 
 Use this skill when working with pytextgen-powered content generation, including regenerating flashcards, clearing generated regions, managing caches, and debugging generation issues.
 
-> **Agent note:** the examples below describe how the `init generate` tool works
-> when a human runs it. Agents should **not** trigger this command on their
+> __Agent note:__ the examples below describe how the `init generate` tool works
+> when a human runs it. Agents should __not__ trigger this command on their
 > own while editing notes—flashcard and other generated content are rebuilt
 > automatically during normal build and packaging workflows.
 
@@ -19,9 +19,9 @@ Use this skill when working with pytextgen-powered content generation, including
 
 pytextgen is a Python library (git submodule in `scripts/pytextgen/`) that generates content programmatically in Markdown files:
 
-- **Flashcard generation**: Creates spaced-repetition cards from cloze markup (`{@{ }@}`, `::@::`, `:@:`)
-- **Sequence exports**: Exports data structures as Markdown lists, tables, or custom formats
-- **Programmatic content**: Python code blocks that generate Markdown on-demand
+- __Flashcard generation__: Creates spaced-repetition cards from cloze markup (`{@{ }@}`, `::@::`, `:@:`)
+- __Sequence exports__: Exports data structures as Markdown lists, tables, or custom formats
+- __Programmatic content__: Python code blocks that generate Markdown on-demand
 
 ## When to use
 
@@ -35,7 +35,7 @@ pytextgen is a Python library (git submodule in `scripts/pytextgen/`) that gener
 
 ### Regenerate generated regions
 
-**Command**: `uv run -m init generate [pytextgen flags] <paths?>`
+__Command__: `uv run -m init generate [pytextgen flags] <paths?>`
 
 The `init.py` wrapper:
 
@@ -44,18 +44,18 @@ The `init.py` wrapper:
 - Normalizes newlines to `\n` before passing to pytextgen
 - Passes through pytextgen-specific flags
 
-**Common flags**:
+__Common flags__:
 
 - `-C` / `--no-cached`: Rebuild `init.py` cache from scratch
 - `--no-code-cache`: Disable pytextgen compile cache (in `__pycache__/`)
 - `--init-flashcards`: Initialize or re-seed flashcard state
 - `<paths>`: Optional; limit regeneration to specific files/directories
 
-**Example**: `uv run -m init generate -C --init-flashcards`
+__Example__: `uv run -m init generate -C --init-flashcards`
 
 ### Clear generated regions
 
-**Command**: `uv run -m init clear --type CONTENT <paths?>`
+__Command__: `uv run -m init clear --type CONTENT <paths?>`
 
 Clears generated content blocks without regenerating. Useful for:
 
@@ -63,7 +63,7 @@ Clears generated content blocks without regenerating. Useful for:
 - Resolving merge conflicts in generated regions
 - Debugging generation issues by starting fresh
 
-**Other ClearType values** (see `scripts/pytextgen/io.py`):
+__Other ClearType values__ (see `scripts/pytextgen/io.py`):
 
 - `CONTENT`: Clear generated text only
 - Additional types available in pytextgen documentation
@@ -85,7 +85,7 @@ Use templates in `scripts/templates/` to create new pytextgen fences:
 # pytextgen generate data="./relative/path/to/data.json" format="table"
 ```
 
-**Critical rules**:
+__Critical rules__:
 
 - Do NOT modify the `# pytextgen generate ...` comment line
 - Do NOT change fence delimiters (triple backticks with language identifier)
@@ -99,7 +99,7 @@ Generated content appears here
 <!--/pytextgen-->
 ```
 
-**Critical rules**:
+__Critical rules__:
 
 - Do NOT modify section IDs or format specifiers
 - Preserve opening/closing comment tags exactly
@@ -110,24 +110,24 @@ Generated content appears here
 pytextgen recognises three distinct patterns that drive flashcard
 creation. Keep them exactly as shown and understand their semantics:
 
-- **Cloze flashcards** use `{@{hidden text}@}`. The text between the
+- __Cloze flashcards__ use `{@{hidden text}@}`. The text between the
   delimiters is hidden during review and replaced with a blank that the user
   must recall. Clozes may appear anywhere in a paragraph and multiple clozes
   can coexist on a single line.
 
-- **Two-sided cards** use a single line with a separator `::@::`. Example:
+- __Two-sided cards__ use a single line with a separator `::@::`. Example:
   `term ::@:: definition`. Two cards are generated: one showing the left
   side and asking for the right, and vice versa. The entire source must be
   on one Markdown line; visual breaks are represented with `<br/>` or `<p>`.
 
-- **One-sided cards** use a single line with separator `:@:`. Only one card
+- __One-sided cards__ use a single line with separator `:@:`. Only one card
   is produced (recall right side from left). The same single-line rule
   applies.
 
-**Editing guidance**:
+__Editing guidance__:
 
-- Do **not** escape, encode or alter the delimiters in any way.
-- Do **not** reflow or split markup across multiple physical lines; the
+- Do __not__ escape, encode or alter the delimiters in any way.
+- Do __not__ reflow or split markup across multiple physical lines; the
   generator splits on newline characters and treats each line literally.
 - Preserve spacing inside `{@{ }@}` and around the `::@::` or `:@:`
   separators.
@@ -140,22 +140,22 @@ creation. Keep them exactly as shown and understand their semantics:
 
 ### Common errors
 
-1. **Syntax errors in fence comments**:
+1. __Syntax errors in fence comments__:
    - Check for typos in `# pytextgen generate ...` lines
    - Verify module/function names are correct
    - Ensure data paths are relative and exist
 
-2. **Fence delimiters broken**:
+2. __Fence delimiters broken__:
    - Ensure triple backticks are intact (not escaped)
    - Check language identifier matches expected format
    - Verify closing fence is present
 
-3. **Cache issues**:
+3. __Cache issues__:
    - Use `-C` / `--no-cached` to rebuild `init.py` cache
    - Use `--no-code-cache` to bypass pytextgen compile cache
    - Check `__pycache__/` for stale compiled modules
 
-4. **Cloze markup broken**:
+4. __Cloze markup broken__:
    - Verify `{@{ }@}` pairs are balanced
    - Check for accidental escaping or encoding
    - Ensure separators (`::@::`, `:@:`) are not modified
@@ -176,11 +176,11 @@ grep -n "# pytextgen generate" path/to/file.md
 
 ## Best practices
 
-- **Preserve fence syntax**: Never modify pytextgen comments or delimiters
-- **Cache management**: Use `-C` when unsure if cache is stale
-- **Incremental regeneration**: Pass specific paths to regenerate only changed files
-- **Flashcard initialization**: Use `--init-flashcards` when creating new flashcard-enabled notes
-- **Submodule updates**: If pytextgen behavior changes, check for submodule updates (`git submodule update --remote scripts/pytextgen`)
+- __Preserve fence syntax__: Never modify pytextgen comments or delimiters
+- __Cache management__: Use `-C` when unsure if cache is stale
+- __Incremental regeneration__: Pass specific paths to regenerate only changed files
+- __Flashcard initialization__: Use `--init-flashcards` when creating new flashcard-enabled notes
+- __Submodule updates__: If pytextgen behavior changes, check for submodule updates (`git submodule update --remote scripts/pytextgen`)
 
 ## When to ask for help
 
@@ -190,7 +190,7 @@ grep -n "# pytextgen generate" path/to/file.md
 
 ## Integration with other workflows
 
-- **Wiki ingestion**: After running `convert_wiki`, use `init generate` to create flashcards from cloze markup
-- **Academic notes**: Use pytextgen to generate course indexes, assignment lists, or reference tables
-- **Pack/publish**: Regenerate all content before packaging or publishing to ensure consistency
-- **Note conventions**: See [markdown-notes](../../instructions/markdown-notes.instructions.md) for cloze markup preservation rules and the `templates` section of [tools/SKILL.md](../tools/SKILL.md) for fence templates
+- __Wiki ingestion__: After running `convert_wiki`, use `init generate` to create flashcards from cloze markup
+- __Academic notes__: Use pytextgen to generate course indexes, assignment lists, or reference tables
+- __Pack/publish__: Regenerate all content before packaging or publishing to ensure consistency
+- __Note conventions__: See [markdown-notes](../../instructions/markdown-notes.instructions.md) for cloze markup preservation rules and the `templates` section of [tools/SKILL.md](../tools/SKILL.md) for fence templates
