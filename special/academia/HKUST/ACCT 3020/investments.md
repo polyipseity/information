@@ -82,7 +82,8 @@ The difference between them is the amortization of discount or premium.
 > | {@{Debt investments}@} | {@{92&nbsp;278}@} | |
 > | {@{Cash}@} | | {@{92&nbsp;278}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Purchase between coupon dates instead of on a clean interest date._ Suppose the same bond is purchased {@{3 months after the last semiannual coupon date}@}. The investor still records the bond at its {@{92&nbsp;278 carrying amount}@}, but must also pay the seller {@{3 months of accrued coupon interest = €100&nbsp;000 × 8% × 3/12 = €2&nbsp;000}@}.
 >
 > | {@{Purchase amortized-cost debt investment between coupon dates}@} | Dr | Cr |
@@ -104,7 +105,8 @@ The difference between them is the amortization of discount or premium.
 >
 > _Interpretation._ The next coupon date mixes {@{recovery of the seller's accrued interest}@} with the {@{new investor's own 3-month effective-interest revenue and discount amortization}@}. That is why this entry differs from a clean-date purchase. The later year-end accrual uses the same structure again, except that {@{Interest receivable replaces Cash because the coupon has not yet been collected}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Sale of held-for-collection bonds before maturity._ Assume the carrying amount has already been updated through the sale date to {@{€96&nbsp;200}@}. Immediately before the sale entry, assume the investor must still record the last amortization update for the stub period: carrying amount before the update is {@{€95&nbsp;555}@}, and the final discount amortization needed to reach the sale-date amortized cost is therefore {@{€645 = €96&nbsp;200 − €95&nbsp;555}@}. That final stub-period interest revenue consists of {@{€2&nbsp;667 accrued interest revenue plus €645 discount amortization = €3&nbsp;312 total interest revenue}@}. The bonds are then sold for {@{99.60 plus accrued interest}@}, so cash received is {@{€102&nbsp;267 = €99&nbsp;600 + €2&nbsp;667 accrued interest}@}.
 >
 > | {@{Update the held-for-collection bond to its sale-date amortized cost before recording the sale}@} | Dr | Cr |
@@ -174,7 +176,8 @@ Debt investments held for both collection and possible sale follow the same inte
 >
 > _Explanation._ The bond is still shown at fair value on the statement of financial position, but the unrealized decline is kept out of current net income. Using the endpoint method, the required ending {@{Fair value adjustment credit balance is £1&nbsp;732 because fair value £105&nbsp;000 is £1&nbsp;732 below amortized carrying amount £106&nbsp;732}@}. If no earlier fair value adjustment balance exists, the full {@{£1&nbsp;732}@} is recorded now.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _HFCS portfolio fair value adjustment._ A company holds two HFCS bonds. One shows an unrealized loss of {@{€12&nbsp;000}@} and the other an unrealized gain of {@{€2&nbsp;500}@}. The portfolio therefore has a {@{net unrealized loss of €9&nbsp;500}@} at year-end.
 >
 > | {@{Record net portfolio fair value loss on HFCS debt investments}@} | Dr | Cr |
@@ -184,7 +187,8 @@ Debt investments held for both collection and possible sale follow the same inte
 >
 > _Explanation._ This is the same endpoint method at the portfolio level: the required ending {@{Fair value adjustment credit balance is €9&nbsp;500}@}, so the entry simply moves the account to that balance.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Sale of an HFCS bond._ One HFCS bond is sold for {@{€90&nbsp;000 plus accrued interest}@} when its amortized cost is {@{€94&nbsp;200}@}. Immediately before the sale entry, assume the investor must still record the last amortization update for the stub period: carrying amount before the update is {@{€93&nbsp;555}@}, and the final discount amortization needed to reach the sale-date amortized cost is therefore {@{€645 = €94&nbsp;200 − €93&nbsp;555}@}. That final stub-period interest revenue consists of {@{€2&nbsp;667 accrued interest revenue plus €645 discount amortization = €3&nbsp;312 total interest revenue}@}. Total cash received is therefore {@{€92&nbsp;667 = €90&nbsp;000 clean price + €2&nbsp;667 accrued interest}@}.
 >
 > | {@{Update the held-for-collection bond to its sale-date amortized cost before recording the sale}@} | Dr | Cr |
@@ -202,7 +206,8 @@ Debt investments held for both collection and possible sale follow the same inte
 >
 > _Explanation._ If this bond carries {@{no accumulated OCI / AOCI balance at the sale date}@}, there is {@{no OCI layer left to clear}@}; the disposal entry simply compares sale proceeds with the bond's {@{amortized cost at the sale date}@}. That is also why __trading debt investments__ never need an OCI-clearing step on sale: their fair-value changes were already recognized in {@{net income rather than OCI}@}.
 
-<!-- markdownlint-disable MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Sale of an HFCS bond with an accumulated OCI balance._ Suppose the same bond also carries an existing {@{€3&nbsp;800 cumulative unrealized loss in OCI}@} from earlier fair-value adjustments, with a matching {@{€3&nbsp;800 credit balance in Fair value adjustment}@}. The bond's {@{amortized cost is still €94&nbsp;200}@}, but its {@{fair-value carrying amount is only €90&nbsp;400 = €94&nbsp;200 − €3&nbsp;800}@}. Because the note is measuring the disposal loss against {@{amortized cost}@}, the company should __not__ add a second standalone loss entry for OCI recycling on top of that. Instead it clears the fair-value layer as part of the overall disposal mechanics.
 >
 > | {@{Sell HFCS debt investment when a prior OCI loss and matching fair value adjustment are still on the books}@} | Dr | Cr |
@@ -215,8 +220,6 @@ Debt investments held for both collection and possible sale follow the same inte
 > | {@{Accumulated comprehensive income}@} | | {@{3&nbsp;800}@} |
 
 _Explanation._ Your concern is correct: if the sale loss is already being recorded as {@{sale proceeds versus amortized cost}@}, then a separate extra {@{Dr Loss on sale / Cr Accumulated comprehensive income}@} line would __double count__ the OCI loss. The correct mechanics are to record the total {@{€4&nbsp;200 loss once}@} and also clear the old {@{Fair value adjustment and related accumulated OCI balance}@}. A separate standalone OCI-to-loss reclassification entry would be used only under a different presentation where the disposal gain or loss were first measured against the bond's {@{fair-value carrying amount instead of amortized cost}@}.
-
-<!-- markdownlint-enable MD028 -->
 
 ---
 
@@ -299,7 +302,8 @@ Cash dividends received are recognized as __dividend revenue__.
 >
 > _Explanation._ The endpoint method works here as well: the required ending {@{Fair value adjustment credit balance is €36&nbsp;000 because fair value is €36&nbsp;000 below carrying amount}@}. If the account already had a balance, only the amount needed to move it to that ending balance would be recorded.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Sale of a trading equity investment._ Later, one block of shares is sold for {@{€287&nbsp;000}@} when its adjusted carrying amount is {@{€260&nbsp;000}@}.
 >
 > | {@{Sell trading equity investment and recognize realized gain}@} | Dr | Cr |
@@ -333,7 +337,8 @@ Some small equity investments are strategic rather than trading-oriented. The co
 >
 > _Interpretation._ Dividends still go to income, but the unrealized fair-value movement does not. The same endpoint logic still works: {@{€24&nbsp;000 fair value − €20&nbsp;750 carrying amount = €3&nbsp;250}@}. The only difference is that this course records the adjustment {@{directly in the Equity investment account instead of using a separate Fair value adjustment account}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Dividend and downward adjustment before sale for a non-trading equity investment._ Assume the same investment later pays a {@{€450 dividend}@}. Before sale, fair value falls from {@{€24&nbsp;000 to €22&nbsp;500}@}, so part of the earlier OCI gain must be reversed.
 >
 > | {@{Record dividend revenue on non-trading equity investment}@} | Dr | Cr |
@@ -446,7 +451,8 @@ The main exception is when the investor has gone beyond passive ownership and ha
 >
 > _Explanation._ The remaining {@{€20&nbsp;000 share of loss is not recorded by making Equity investment negative}@}. Instead it becomes an {@{unrecognized loss tracked off-book for future equity-method profit recognition}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Same fact pattern, but the investor has a support obligation._ Suppose the investor has also guaranteed {@{€8&nbsp;000 of the associate's obligations}@}. That extra supported portion is recognized as a liability.
 >
 > | {@{Recognize additional equity-method loss to the extent of the investor's support obligation}@} | Dr | Cr |
@@ -456,7 +462,8 @@ The main exception is when the investor has gone beyond passive ownership and ha
 >
 > _Explanation._ The extra loss is recognized only because the investor has {@{gone beyond ordinary ownership and now has an obligation tied to the associate}@}. The accounting still does {@{not create a negative Equity investment asset}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Later return to profit after unrecognized losses existed._ If the associate later generates profit and the investor's share is {@{€25&nbsp;000}@}, while the previously unrecognized loss memorandum amount is still {@{€20&nbsp;000}@}, the investor recognizes only the excess {@{€5&nbsp;000}@}.
 >
 > | {@{Resume equity-method profit recognition only after prior unrecognized losses have first been absorbed}@} | Dr | Cr |
@@ -552,7 +559,8 @@ So the stage transition entry is usually an __incremental top-up or reversal__, 
 >
 > _Explanation._ Stage 2 does {@{not mean record a whole new €6&nbsp;500 loss on top of the existing €1&nbsp;200 without comparison}@}; it means the allowance must end at {@{€6&nbsp;500 total, so only the extra €5&nbsp;300 is recorded}@}. The same logic applies again in {@{stage 3}@}: if the required allowance becomes {@{€9&nbsp;000 total}@}, only the additional {@{€2&nbsp;500 top-up}@} is recognized at that date.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Credit improvement after stage 3._ Suppose improved expectations later reduce the required allowance from {@{€9&nbsp;000 to €4&nbsp;000}@}. The company reverses only the excess allowance now on the books.
 >
 > | {@{Reverse the excess allowance when expected credit loss falls}@} | Dr | Cr |
@@ -600,7 +608,8 @@ For amortized-cost debt investments, the company evaluates at each reporting dat
 >
 > _Explanation._ The ECL shortfall arises entirely from {@{lower expected cash flows — ¥16&nbsp;000 instead of ¥20&nbsp;000 — not from any change in market interest rates}@}. A rise in market rates can reduce the bond's fair value but does not by itself create an ECL shortfall if contractual principal and interest are still expected to be paid in full.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Recovery of impairment loss on amortized-cost debt investment._ If credit quality later improves and the allowable reversal is {@{€12&nbsp;680}@}, the recovery entry is:
 >
 > | {@{Reverse previously recognized impairment loss within the allowed limit}@} | Dr | Cr |
@@ -608,7 +617,8 @@ For amortized-cost debt investments, the company evaluates at each reporting dat
 > | {@{Allowance for impaired debt investments}@} | {@{12&nbsp;680}@} | |
 > | {@{Recovery of impairment loss}@} | | {@{12&nbsp;680}@} |
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Partial recovery limited by the carrying-amount ceiling._ Suppose the impaired bond would have had amortized cost of only {@{€97&nbsp;000}@} if no impairment had ever been recognized. Its current carrying amount after impairment is {@{€88&nbsp;000}@}, and improved expected cash flows now support only {@{€95&nbsp;000}@}. The allowed recovery is therefore {@{€7&nbsp;000}@}, not the full gap back to original cost.
 >
 > | {@{Reverse impairment only up to the supported carrying amount}@} | Dr | Cr |
@@ -673,7 +683,8 @@ In other words, the company may need both:
 
 The slide logic is to separate cause before deciding the journal-entry destination.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _HFCS impairment split between OCI and income._ An HFCS debt investment has amortized cost of {@{€100&nbsp;000}@}, but its year-end fair value has fallen to {@{€75&nbsp;000}@}. Of the total {@{€25&nbsp;000 decline}@}, management concludes that {@{€20&nbsp;000 comes from ordinary market-interest-rate movement}@} and {@{€5&nbsp;000 comes from credit deterioration}@}.
 >
 > | {@{Record market-driven fair value decline for HFCS debt investment}@} | Dr | Cr |
@@ -688,7 +699,8 @@ The slide logic is to separate cause before deciding the journal-entry destinati
 >
 > _Explanation._ The same total decline is split by {@{cause}@}: the {@{market-rate component stays in OCI}@}, while the {@{credit-loss component goes to income as impairment}@}.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Sale of an HFCS debt investment after both OCI and credit-loss adjustments._ Assume a bond still has original cost of {@{€1&nbsp;000&nbsp;000}@}, but it also carries a {@{€30&nbsp;000 allowance for impaired debt investments}@} and a {@{€10&nbsp;000 fair value adjustment related to market-rate decline}@}. The bond is sold for {@{€960&nbsp;000 cash}@}.
 >
 > | {@{Sell HFCS debt investment after separate OCI and impairment adjustments}@} | Dr | Cr |
@@ -702,7 +714,8 @@ The slide logic is to separate cause before deciding the journal-entry destinati
 >
 > _Explanation._ The sale removes the {@{cost basis, allowance, and fair value adjustment together}@}. The separate credit-loss allowance and market-rate OCI component do not vanish magically; they must be cleared as part of the disposal accounting.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Recovery of HFCS credit impairment._ If later credit risk improves and the company can reverse {@{€15&nbsp;000}@} of previously recognized credit-loss impairment, it records:
 >
 > | {@{Reverse credit-loss impairment on HFCS debt investment}@} | Dr | Cr |
@@ -793,7 +806,8 @@ A __futures contract__ differs from an option in one crucial way: the holder is 
 >
 > _Explanation._ Both the gain from intrinsic value and the loss from time-value decay hit income immediately because the option is being accounted for as a speculative derivative.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Final remeasurement and settlement of a speculative call option._ Before settlement, intrinsic value falls by {@{€5&nbsp;000}@} and time value falls by another {@{€40, leaving a carrying amount of €15&nbsp;060 before settlement for €15&nbsp;000 cash}@}.
 >
 > | {@{Record decline in intrinsic value before settlement}@} | Dr | Cr |
@@ -894,7 +908,8 @@ That OCI-first treatment matches the transcript's logic. At the start of a cash 
 >
 > Later, when the related inventory is sold and _Cost of goods sold_ is recognized, the OCI amount is reclassified so that the hedge effect enters income in the same period as the hedged item.
 
-<!-- markdownlint-disable-next-line MD028 -->
+<!-- markdownlint MD028 -->
+
 > _Reclassification from OCI when the hedged inventory affects earnings._ When the finished goods made from the hedged inventory are sold, the accumulated hedge gain of {@{¥25&nbsp;000}@} is reclassified out of OCI.
 >
 > | {@{Reclassify cash flow hedge gain from OCI into cost of goods sold}@} | Dr | Cr |
