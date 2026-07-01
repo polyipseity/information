@@ -31,7 +31,14 @@ Agent quickstart pointer: See `.agents/instructions/agent-quickstart.instruction
 When two blockquote blocks (`> ...`) appear adjacent without intervening
 non-blockquote content, markdownlint rule MD028 fires. To suppress it
 legitimately (when the blockquotes are intentionally separate), always use
-the exact pattern below.
+the exact pattern below. The `<!-- markdownlint MD028 -->` comment is
+required **whenever two separate blockquote blocks** appear adjacent to
+each other (separated only by blank lines). If the blockquotes represent
+distinct content that should remain separate (e.g., questions and answers,
+different speakers, or separate quotations), you must insert the separator
+comment. If the blockquotes should be treated as a single continuous
+blockquote (same speaker, same context), write them as one blockquote
+without separation.
 
 ### Required pattern
 
@@ -57,6 +64,9 @@ the exact pattern below.
    directive. This is a plain HTML comment whose content merely names the
    rule; it is not a tool command.
 4. __No trailing whitespace__ on the comment line or the blank lines.
+5. __Use only when separation is intentional__: Insert the comment only
+   between blockquotes that are genuinely separate. If blockquotes form one
+   continuous quote, merge them into a single blockquote instead.
 
 ### Example
 

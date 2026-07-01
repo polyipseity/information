@@ -3210,3 +3210,213 @@ def week_monotonic(ctx: ValidationContext) -> list[ValidationMessage]:
             break
         prev_week = num
     return errors
+
+
+# MD028 comment rules -------------------------------------------------------
+
+
+@RULE_REGISTRY.register()
+def md028_missing(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error when adjacent separate blockquotes lack the ``<!-- markdownlint MD028 -->`` separator.
+
+    Uses the mistune AST to find consecutive ``block_quote`` nodes at the top
+    level separated only by blank lines (and/or HTML comments).  If no
+    ``block_html`` node containing ``markdownlint MD028`` appears between
+    them, the comment is missing.
+    """
+    errors: list[ValidationMessage] = []
+    ast = ctx.ast
+    if not ast:
+        return errors
+
+    prev_bq: dict | None = None
+    prev_idx = -1
+
+    for idx, node in enumerate(ast):
+        if node.get("type") != "block_quote":
+            continue
+
+        if prev_bq is not None:
+            between = ast[prev_idx + 1 : idx]
+            if not between:
+                continue
+            # Only blank_line and block_html are allowed between adjacent
+            # blockquotes for MD028 to apply.
+            if not all(n.get("type") in ("blank_line", "block_html") for n in between):
+                continue
+            if not any(n.get("type") == "blank_line" for n in between):
+                continue
+            # Check whether an MD028 HTML comment already exists.
+            has_comment = any(
+                "markdownlint MD028" in n.get("raw", "")
+                for n in between
+                if n.get("type") == "block_html"
+            )
+            if has_comment:
+                continue
+
+            # Try to locate the start of the second blockquote in the raw text.
+            bq_text = _first_text_content(node)
+            pos = ctx.text.find(bq_text) if bq_text else -1
+            if pos == -1:
+                pos = 0
+            line, col = locate(ctx.text, pos)
+            errors.append(
+                ValidationMessage(
+                    rule_id="md028_missing",
+                    msg=(
+                        "two separate blockquotes are adjacent without "
+                        "'<!-- markdownlint MD028 -->' separator; add the comment between them"
+                    ),
+                    line=line,
+                    col=col,
+                )
+            )
+
+        prev_bq = node
+        prev_idx = idx
+
+    return errors
+
+
+def _first_text_content(node: dict) -> str:
+    """Walk an AST node returning the first raw text content found."""
+    if node.get("type") == "text":
+        return node.get("raw", "")
+    for child in node.get("children", []):
+        result = _first_text_content(child)
+        if result:
+            return result
+    return ""
+
+
+@RULE_REGISTRY.register()
+def md028_bad_format(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Validate the formatting of existing ``<!-- markdownlint MD028 -->`` comments.
+
+    Checks:
+    - Comment text is the exact literal ``<!-- markdownlint MD028 -->``.
+    - Exactly one blank line before the comment.
+    - Exactly one blank line after the comment.
+    - No trailing whitespace on the comment line or the blank lines.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    lines = text.splitlines()
+
+    for m in re.finditer(r"<!--(.*?)-->", text, re.DOTALL):
+        comment_raw = m.group(0).strip()
+        if "MD028" not in comment_raw:
+            continue
+
+        full_match = m.group(0)
+        match_start = m.start()
+        line_no, col, col_end = locate_range(text, match_start, len(full_match))
+
+        # --- sub-rule: comment text must be literal ---
+        expected = "<!-- markdownlint MD028 -->"
+        if comment_raw != expected:
+            errors.append(
+                ValidationMessage(
+                    rule_id="md028_bad_format/text",
+                    msg=(
+                        f"MD028 comment must be exactly '{expected}'; "
+                        f"found '{comment_raw}'"
+                    ),
+                    line=line_no,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+            continue  # skip further checks for a wrong comment
+
+        # --- sub-rule: exactly one blank line before ---
+        comment_line_idx = text[:match_start].count("\n")
+        if comment_line_idx < 1:
+            # comment is on the first line; can't have a blank line before
+            errors.append(
+                ValidationMessage(
+                    rule_id="md028_bad_format/blank_before",
+                    msg="MD028 comment must be preceded by exactly one blank line",
+                    line=line_no,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+        else:
+            prev_line = lines[comment_line_idx - 1]
+            if prev_line.strip() != "":
+                errors.append(
+                    ValidationMessage(
+                        rule_id="md028_bad_format/blank_before",
+                        msg="MD028 comment must be preceded by exactly one blank line",
+                        line=line_no,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
+            elif comment_line_idx >= 2 and lines[comment_line_idx - 2].strip() == "":
+                # Two blank lines before the comment (i.e. more than one)
+                errors.append(
+                    ValidationMessage(
+                        rule_id="md028_bad_format/blank_before",
+                        msg="MD028 comment must be preceded by exactly one blank line (not more)",
+                        line=line_no,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
+
+        # --- sub-rule: exactly one blank line after ---
+        if comment_line_idx + 1 >= len(lines):
+            # Comment is the last line; no blank line after
+            errors.append(
+                ValidationMessage(
+                    rule_id="md028_bad_format/blank_after",
+                    msg="MD028 comment must be followed by exactly one blank line",
+                    line=line_no,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+        else:
+            next_line = lines[comment_line_idx + 1]
+            if next_line.strip() != "":
+                errors.append(
+                    ValidationMessage(
+                        rule_id="md028_bad_format/blank_after",
+                        msg="MD028 comment must be followed by exactly one blank line",
+                        line=line_no,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
+            elif (
+                comment_line_idx + 2 < len(lines)
+                and lines[comment_line_idx + 2].strip() == ""
+            ):
+                # Two blank lines after the comment (i.e. more than one)
+                errors.append(
+                    ValidationMessage(
+                        rule_id="md028_bad_format/blank_after",
+                        msg="MD028 comment must be followed by exactly one blank line (not more)",
+                        line=line_no,
+                        col=col,
+                        col_end=col_end,
+                    )
+                )
+
+        # --- sub-rule: no trailing whitespace ---
+        comment_line_text = lines[comment_line_idx]
+        if comment_line_text != comment_line_text.rstrip():
+            errors.append(
+                ValidationMessage(
+                    rule_id="md028_bad_format/trailing_whitespace",
+                    msg="MD028 comment line must not have trailing whitespace",
+                    line=line_no,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
+
+    return errors

@@ -53,6 +53,7 @@ The questions on this page combine the T1B tutorial session problems with supple
 > Solution: Note {@{the pointwise identity $X=\sum_{k=1}^\infty \mathbf 1_{\{X\ge k\}}$}@}: for each {@{$\omega$, a nonnegative integer $X(\omega)$}@} contributes {@{$1$ for every $k\le X(\omega)$, so the sum counts $1$ exactly $X(\omega)$ times}@}. Since {@{all terms are nonnegative, Tonelli's theorem}@} justifies {@{swapping expectation and summation}@}: {@{$$E[X]=\sum_{k=1}^\infty E[\mathbf 1_{\{X\ge k\}}]=\sum_{k=1}^\infty P(X\ge k).$$}@} This is {@{the layer-cake representation (or tail-sum formula)}@} for the expectation of {@{a nonnegative integer-valued random variable}@}.
 
 <!-- markdownlint MD028 -->
+
 > One of the numbers 1 through 10 is randomly chosen. You try to guess it by asking yes/no questions.
 >
 > - (a) Your _i_-th question is "Is it _i_?" (linear search). Find the expected number of questions.
@@ -64,6 +65,7 @@ The questions on this page combine the T1B tutorial session problems with supple
 > - For (b), {@{an optimal binary-search strategy}@} {@{halves the remaining set each time}@}. Since 10 lies {@{between $2^3=8$ and $2^4=16$}@}, the depth {@{ranges from 3 to 4 questions (worst-case $4$)}@}. Concretely, {@{6 of the 10 numbers are reached in 3 questions and the remaining 4 require 4 questions}@}, giving {@{$$E[X]=3\cdot\frac{6}{10}+4\cdot\frac{4}{10}=3.4.$$}@} Thus {@{binary search (3.4) beats linear search (5.5)}@} in expectation.
 
 <!-- markdownlint MD028 -->
+
 > Suppose $4$ fair dice are rolled. Find (a) the expected minimum $L$ and (b) the expected maximum $U$ of the $4$ rolls.
 >
 > Solution: For a single fair die, {@{$P(X\ge k)=\frac{7-k}{6}$ for $k=1,\dots,6$}@}.
