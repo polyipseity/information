@@ -53,6 +53,10 @@ __all__ = (
 """Rich console used for human-readable validation output (non-JSON)."""
 _CONSOLE = Console(markup=False, emoji=False, highlight=False)
 
+# Regex matching Markdown heading lines (``# title``, ``## section``, etc.)
+"""Regex matching a Markdown heading line (``^\\s*#{1,6}\\s+``)."""
+HEADING_LINE_RE = re.compile(r"^\s*#{1,6}\s+")
+
 
 async def check_markdown_file(path: Path) -> list[ValidationMessage]:
     """Validate a single Markdown file and return any messages found.
@@ -133,6 +137,17 @@ async def check_markdown_file(path: Path) -> list[ValidationMessage]:
                 for rid in rule_ids:
                     rid_map = suppressions.setdefault(target, {})
                     rid_map.setdefault(rid, set()).add(kind)
+
+        # warn when suppression directives are placed on a heading line
+        if matches and HEADING_LINE_RE.search(line):
+            errors.append(
+                ValidationMessage(
+                    "suppression-on-heading",
+                    "suppression comment on a heading line",
+                    severity=Severity.WARNING,
+                    line=lineno,
+                )
+            )
 
     front = parse_frontmatter(text)
     if not front:
