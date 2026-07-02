@@ -28,6 +28,10 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
 
 Repository gotchas & quick tips
 
+> __🔥 CRITICAL: Never `cd` into `.agents/skills/` to run `uv` commands.__
+> Always run `uv` from the repo root. Running `uv` inside a skill folder
+> creates `.venv/`/`uv.lock` trash there and fails due to missing deps.
+
 - Preserve `# pytextgen` fences and flashcard markup. There are three
   forms: cloze deletions `{@{...}@}` (common), two-sided pairs `::@::` (one
   line only, creates two cards), and one-sided pairs `:@:` (one line only,
@@ -54,7 +58,6 @@ Repository gotchas & quick tips
   and use Asyncer helpers for clearer return-value handling. Add short
   concurrency tests verifying behavior, as shown earlier.
 - Always prefer `bun run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
-- __NEVER `cd` into `.agents/skills/` to run `uv run` commands.__ Any `uv run` inside a skill folder will create `.venv/`/`uv.lock` trash there and fail because dependencies are missing. Always run `uv` commands from the __repo root__ and reference skill files by absolute or relative-from-root paths. Example: `uv run .agents/skills/academic-notes/check.py ...` or `uv run pytest .agents/skills/academic-notes/tests_a7392be/`.
 - When writing shell commands for Python in a PowerShell terminal, use a here-string and pipe into `uv run python -`. For example:
 
   ```powershell
