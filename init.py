@@ -2,7 +2,6 @@ from argparse import ONE_OR_MORE, ArgumentParser, Namespace
 from collections import defaultdict
 from collections.abc import (
     AsyncIterator,
-    Awaitable,
     Callable,
     Collection,
     Iterable,
@@ -21,7 +20,7 @@ from os import fspath, linesep, lstat
 from pathlib import PurePath
 from shutil import rmtree as _sync_rmtree
 from sys import argv, exit, stdin
-from typing import Any, final
+from typing import Any, Coroutine, final
 
 from anyio import Path
 from appdirs import AppDirs
@@ -153,7 +152,7 @@ async def main(args: Arguments):
                 data = {}
                 info("Cache data will be regenerated because it is empty or corrupted")
             data = defaultdict(dict, data)
-            finalizers = list[Callable[[], Awaitable[None]]]()
+            finalizers = list[Callable[[], Coroutine[Any, Any, object]]]()
 
             try:
                 old_args: Collection[str] = data["args"]

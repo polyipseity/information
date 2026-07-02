@@ -215,7 +215,8 @@ def parse_grade(
             ):
                 for test_case_ele in test_cases_ele.select("li"):
                     correct = (
-                        test_case_ele.find(attrs={"data-icon": "check"}) is not None
+                        test_case_ele.find(None, attrs={"data-icon": "check"})
+                        is not None
                     )
                     name = test_case_ele.select_one(".text-sm")
                     name = "" if name is None else name.text.strip()
@@ -302,7 +303,7 @@ def parse_properties(
             )
 
             due_ele = selected_assignment_ele.find(
-                attrs={"data-icon": "calendar-exclamation"}
+                None, attrs={"data-icon": "calendar-exclamation"}
             )
             due_ele = None if due_ele is None else due_ele.parent
             due_ele = None if due_ele is None else due_ele.next_sibling
@@ -313,7 +314,7 @@ def parse_properties(
             )
 
             retry_limit_ele = selected_assignment_ele.find(
-                attrs={"data-icon": "rotate-right"}
+                None, attrs={"data-icon": "rotate-right"}
             )
             retry_limit_ele = (
                 None if retry_limit_ele is None else retry_limit_ele.parent
