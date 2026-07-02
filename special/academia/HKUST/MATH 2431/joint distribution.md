@@ -342,7 +342,8 @@ Flashcards for this section are as follows:
 
 ---
 
-### ratio examples <!-- check: ignore-line[section_example_heading]: conceptual examples, not a copy of course layout -->
+<!-- check: ignore-next-line[section_example_heading]: conceptual examples, not a copy of course layout -->
+### ratio examples
 
 - __Cauchy distribution:__ If $X$ and $Y$ are independent $N(0,1)$, then $Z=X/Y$ is Cauchy with density $f_Z(z)=1/[\pi(1+z^2)]$. The Cauchy distribution has no finite moments — a striking consequence of the heavy tail produced by division near zero.
 - __F-distribution:__ If $U\sim\chi^2_p$ and $V\sim\chi^2_q$ are independent, then $F_{p,q}=(U/p)/(V/q)$ follows an F-distribution with $(p,q)$ degrees of freedom, the workhorse of ANOVA.
@@ -413,7 +414,8 @@ Flashcards for this section are as follows:
 
 ---
 
-### product examples <!-- check: ignore-line[section_example_heading]: conceptual examples, not a copy of course layout -->
+<!-- check: ignore-next-line[section_example_heading]: conceptual examples, not a copy of course layout -->
+### product examples
 
 - __Product of two independent $U([0,1])$ variables.__ Let $X,Y\sim U([0,1])$ independent. Then $Z=XY$ has density $f_Z(z)=-\log z$ for $0<z\le 1$, and $0$ otherwise. Derivation: $f_Z(z)=\int_z^{1}\frac{1}{y}\,dy=-\log z$ for $0<z\le 1$, using the general formula $f_Z(z)=\int_{0}^{1}\frac{1}{y}f_X(z/y)f_Y(y)\,dy$ with $f_X(x)=f_Y(y)=1$ and noting that $f_X(z/y)=1$ only when $z/y\le 1$, i.e. $y\ge z$.
 - __Product of two independent $N(0,1)$ variables.__ If $X,Y\sim N(0,1)$ independent, then $Z=XY$ follows a variance-gamma (also called normal product) distribution. Its density is $f_Z(z)=\frac{1}{\pi}K_0(|z|)$, where $K_0$ is the modified Bessel function of the second kind of order $0$. This distribution is symmetric about $0$, has mean $0$, and has infinite kurtosis relative to a normal.
@@ -424,7 +426,7 @@ Flashcards for this section are as follows:
 Flashcards for this section are as follows:
 
 - product of two independent uniforms: What is the density of $Z=XY$ when $X,Y\sim U([0,1])$ i.i.d.? ::@:: $f_Z(z)=-\log z$ for $0<z\le 1$, with $f_X(x)=f_Y(y)=1$ on $[0,1]$.<p>Derivation: $f_Z(z)=\int_0^1\frac1y\mathbf 1\{z/y\le1\}\,dy=\int_z^1\frac1y\,dy=[\log y]_z^1=-\log z$ for $0<z\le1$.
-- product of two independent standard normals: What distribution does $Z=XY$ follow when $X,Y\sim N(0,1)$ i.i.d.? ::@:: Variance-gamma (normal product) distribution with density $f_Z(z)=\frac1\pi K_0(|z|)$, where $K_0$ is the modified Bessel function of the second kind.<p>Derivation: $f_Z(z)=\int_{-\infty}^\infty\frac1{|y|}\phi(z/y)\phi(y)\,dy=\frac1{2\pi}\int_{-\infty}^\infty\frac1{|y|}e^{-((z/y)^2+y^2)/2}dy$.<p>Substituting $t=y^2$ yields $f_Z(z)=\frac1\pi\int_0^\infty\frac1{\sqrt{t}}e^{-(z^2/t+t)/2}dt=\frac1\pi K_0(|z|)$.
+- product of two independent standard normals: What distribution does $Z=XY$ follow when $X,Y\sim N(0,1)$ i.i.d.? ::@:: Variance-gamma (normal product) distribution with density $f_Z(z)=\frac1\pi K_0(|z|)$, where $K_0$ is the modified Bessel function of the second kind.<p>Derivation: $f_Z(z)=\int_{-\infty}^\infty\frac1{|y|}\phi(z/y)\phi(y)\,dy=\frac1{2\pi}\int_{-\infty}^\infty\frac1{|y|}e^{-((z/y)^2+y^2)/2}dy$. <p> By symmetry in $y$, $f_Z(z)=\frac1\pi\int_0^\infty\frac1{y}e^{-(z^2/y^2+y^2)/2}dy$. Substitute $t=y^2$ ($dy=dt/(2\sqrt t)$, $1/y=1/\sqrt t$): $$f_Z(z)=\frac1{2\pi}\int_0^\infty\frac1{t}e^{-(t+z^2/t)/2}dt=\frac1\pi K_0(|z|).$$
 - product under bivariate normality: How can $XY$ be expressed when $(X,Y)$ is bivariate normal with zero means? ::@:: $XY\stackrel{d}{=}\sigma_X\sigma_Y(\rho U^2+(1-\rho^2)^{1/2}UV)$ with $U,V\sim N(0,1)$ independent.<p>Derivation: standardize $X'=X/\sigma_X$, $Y'=Y/\sigma_Y$ and write $Y'=\rho X'+\sqrt{1-\rho^2}\,Z$ with $Z\sim N(0,1)$ independent of $X'$. Then $X'Y'=\rho X'^2+\sqrt{1-\rho^2}\,X'Z$, a linear combination of independent chi-square and normal-product terms.
 
 ---

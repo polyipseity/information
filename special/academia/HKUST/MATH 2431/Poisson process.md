@@ -127,7 +127,8 @@ Flashcards for this subsection are as follows:
 - thinning / proof sketch ::@:: Conditional on $N_t-N_s=n$, the number of type-A events is $\operatorname{Bin}(n,p)$. Unconditionally, $P(N_t^{(A)}-N_s^{(A)}=k)=E[\binom{N}{k}p^k(1-p)^{N-k}]$, where $N\sim\operatorname{Pois}(\lambda(t-s))$. Evaluating this expectation yields the $\operatorname{Pois}(\lambda p(t-s))$ probability. Independence of the two thinned processes follows from the binomial splitting within each interval combined with the independent-increments property. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - thinning / worked example ($\lambda=10$/s, $p=0.3$) ::@:: A Poisson particle source with $\lambda=10$/s hits a detector that registers each particle with probability $p=0.3$. Registered particles form a Poisson process with rate $3$/s; missed particles form an independent Poisson process with rate $7$/s. This is exact, not approximate, because of the thinning property.
 
-### PASTA property <!-- check: ignore-line[header_style]: PASTA is an acronym for Poisson Arrivals See Time Averages -->
+<!-- check: ignore-next-line[header_style]: PASTA is an acronym for Poisson Arrivals See Time Averages -->
+### PASTA property
 
 PASTA stands for _Poisson Arrivals See Time Averages_. In a queuing system where arrivals follow a Poisson process, the fraction of arrivals that find the system in a given state equals the time-average fraction of time the system spends in that state (in steady state).
 

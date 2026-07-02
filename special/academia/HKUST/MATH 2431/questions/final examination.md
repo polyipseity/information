@@ -57,7 +57,7 @@ This page summarizes the written questions from the official final examination m
 >
 > Solution: Separate {@{odd and even indices}@}: {@{$$S_n/n=\frac1n\Bigl(2\sum_{\substack{1\le i\le n\\ i\text{ odd}}}X_i+\sum_{\substack{1\le i\le n\\ i\text{ even}}}X_i\Bigr).$$}@} Let {@{$m_n=\#\{\text{odd }i\le n\}=\lceil n/2\rceil$}@}; then {@{$\#\{\text{even }i\le n\}=n-m_n=\lfloor n/2\rfloor$}@}.
 >
-> For {@{even $n=2m$, $m_n=m$}@}: {@{$$\begin{aligned} \frac{S_{2m}}{2m} &= \frac{2}{2m}\sum_{k=1}^{m}X_{2k-1}+\frac{1}{2m}\sum_{k=1}^{m}X_{2k} \\ &=\underbrace{\frac1m\sum_{k=1}^{m}X_{2k-1}}_{\xrightarrow{\text{a.s.}}\mathbb E[X_1]=1} +\frac12\underbrace{\frac1m\sum_{k=1}^{m}X_{2k}}_{\xrightarrow{\text{a.s.}}\mathbb E[X_1]=1} \,. \end{aligned}$$}@} By {@{SLLN \(i.i.d. with finite first moment\)}@}, both {@{sample means converge a.s. to $1$}@}, so {@{$S_{2m}/(2m)\xrightarrow{\text{a.s.}}1+\frac12={3/2}$}@}.
+> For {@{even $n=2m$, $m_n=m$}@}: {@{$$\begin{aligned} \frac{S_{2m}}{2m} &= \frac{2}{2m}\sum_{k=1}^{m}X_{2k-1}+\frac{1}{2m}\sum_{k=1}^{m}X_{2k} \\ &=\underbrace{\frac1m\sum_{k=1}^{m}X_{2k-1}}_{\xrightarrow{\text{a.s.}}\mathbb E[X_1]=1} +\frac12\underbrace{\frac1m\sum_{k=1}^{m}X_{2k}}_{\xrightarrow{\text{a.s.}}\mathbb E[X_1]=1} \,. \end{aligned}$$}@} By {@{SLLN (i.i.d. with finite first moment)}@}, both {@{sample means converge a.s. to $1$}@}, so {@{$S_{2m}/(2m)\xrightarrow{\text{a.s.}}1+\frac12={3/2}$}@}.
 >
 > For {@{odd $n=2m+1$}@}, {@{the extra term $Y_{2m+1}/(2m+1)=2X_{2m+1}/(2m+1)\xrightarrow{\text{a.s.}}0$}@}, hence {@{the same limit $3/2$ holds for all $n$}@}: {@{$S_n/n\xrightarrow{\text{a.s.}}3/2$}@}.
 
@@ -77,7 +77,7 @@ This page summarizes the written questions from the official final examination m
 
 > (True/False) For $(X_n)_{n\in\mathbb N}$ i.i.d. with values in $[1,2026]$, let $Z_n=\frac{X_1+\cdots+X_n}{X_1^4+\cdots+X_n^4}$. Then $Z_n$ converges $P$-a.s. to a constant.
 >
-> Solution: {@{True}@}. By {@{SLLN \(i.i.d. with finite first moment\)}@} and {@{continuous mapping theorem \(division, and denominator is a.s. bounded away from 0\)}@}, {@{$Z_n=\frac{\frac1n\sum X_i}{\frac1n\sum X_i^4}\xrightarrow{\text{a.s.}}\mathbb E[X_1]/\mathbb E[X_1^4]$}@}.
+> Solution: {@{True}@}. By {@{SLLN (i.i.d. with finite first moment)}@} and {@{continuous mapping theorem (division, and denominator is a.s. bounded away from 0)}@}, {@{$Z_n=\frac{\frac1n\sum X_i}{\frac1n\sum X_i^4}\xrightarrow{\text{a.s.}}\mathbb E[X_1]/\mathbb E[X_1^4]$}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -140,6 +140,5 @@ This page summarizes the written questions from the official final examination m
 >
 > Solution:
 >
-> - (a) {@{Convergence in probability}@}: {@{$Z_n\xrightarrow{P}Z$ iff $\forall\varepsilon>0:\lim_{n\to\infty}P[|Z_n-Z|>\varepsilon]=0$}@}. {@{Almost sure}@}: iff {@{$P[\lim_{n\to\infty}Z_n=Z]=1$}@}. <p> For {@{any $\varepsilon>0$, eventually $n^\alpha>\varepsilon$}@}, so {@{$P[|X_n|>\varepsilon]=1/n^2\to0$}@}, hence {@{$X_n\xrightarrow{P}0$}@}. <p> {@{$\mathbb E[X_n^r]=n^{\alpha r-2}$}@}. This tends to $0$ iff {@{$\alpha r-2<0$, i.e., $r<2/\alpha$}@}. <p>
-> {@{$\sum_{n=1}^\infty P[|X_n|>1/M]\le\sum1/n^2<\infty$}@}, so {@{Borel-Cantelli gives $P[|X_n|>1/M\text{ i.o.}]=0$}@}; hence {@{a.s. $|X_n|\le1/M$ for all large $n$}@}, and letting {@{$M\to\infty$ yields $X_n\to0$ a.s.}@}
+> - (a) {@{Convergence in probability}@}: {@{$Z_n\xrightarrow{P}Z$ iff $\forall\varepsilon>0:\lim_{n\to\infty}P[|Z_n-Z|>\varepsilon]=0$}@}. {@{Almost sure}@}: iff {@{$P[\lim_{n\to\infty}Z_n=Z]=1$}@}. <p> For {@{any $\varepsilon>0$, eventually $n^\alpha>\varepsilon$}@}, so {@{$P[|X_n|>\varepsilon]=1/n^2\to0$}@}, hence {@{$X_n\xrightarrow{P}0$}@}. <p> {@{$\mathbb E[X_n^r]=n^{\alpha r-2}$}@}. This tends to $0$ iff {@{$\alpha r-2<0$, i.e., $r<2/\alpha$}@}. <p> {@{$\sum_{n=1}^\infty P[|X_n|>1/M]\le\sum1/n^2<\infty$}@}, so {@{Borel-Cantelli gives $P[|X_n|>1/M\text{ i.o.}]=0$}@}; hence {@{a.s. $|X_n|\le1/M$ for all large $n$}@}, and letting {@{$M\to\infty$ yields $X_n\to0$ a.s.}@}
 > - (b) Let {@{$X_i=-\log U_i\sim\mathcal E(1)$}@}, so {@{$\mathbb E[X_i]=1$, $\mathrm{Var}[X_i]=1$}@}. <p> Write {@{$$(U_1\cdots U_n)^{n^{-1/2}}e^{n^{1/2}} = \exp\!\Bigl(\tfrac1{\sqrt n}\sum_{i=1}^n\log U_i+\sqrt n\Bigr) = \exp\!\Bigl(-\tfrac1{\sqrt n}\sum_{i=1}^nX_i+\sqrt n\Bigr) = \exp\!\Bigl(-\tfrac1{\sqrt n}\sum_{i=1}^n(X_i-1)\Bigr).$$}@} Thus {@{the event}@} is {@{$$[a,b]\ni\exp\!\Bigl(-\tfrac1{\sqrt n}\sum_{i=1}^n(X_i-1)\Bigr) \iff -\tfrac1{\sqrt n}\sum_{i=1}^n(X_i-1)\in[\log a,\log b] \iff \tfrac1{\sqrt n}\sum_{i=1}^n(X_i-1)\in[-\log b,-\log a].$$}@} By {@{CLT, $\frac1{\sqrt n}\sum_{i=1}^n(X_i-1)\xrightarrow{d}\mathcal N(0,1)$}@}, so the limit is {@{$\Phi(-\log a)-\Phi(-\log b)$}@}.
