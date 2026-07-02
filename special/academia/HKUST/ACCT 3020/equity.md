@@ -850,7 +850,7 @@ The journal entry should show the __movement by account__. The statement of fina
 > | {@{Share capital — preference}@} | | {@{50 000}@} |
 > | {@{Share premium — preference}@} | | {@{10 000}@} |
 >
-> _Presentation logic._ The journal entry shows the {@{movement in each equity account}@}. If the statement of financial position were prepared immediately afterward, the equity section would present those same balances as separate line items such as {@{Share capital — ordinary, Share premium — ordinary, Share capital — preference, Share premium — preference, Retained earnings, reserves, and Treasury shares (deduction)}@}. That is the clean way to present an equity-heavy transaction on an exam.
+> _Presentation logic._ {@{The journal entry}@} shows {@{the movement in each equity account}@}. If {@{the statement of financial position were prepared}@} immediately afterward, {@{the equity section}@} would {@{present those same balances as separate line items}@} such as {@{Share capital — ordinary, Share premium — ordinary, Share capital — preference, Share premium — preference}@}, {@{Retained earnings, reserves, and Treasury shares (deduction)}@}. That is {@{the clean way to present an equity-heavy transaction}@} on an exam.
 
 <!-- markdownlint MD028 -->
 

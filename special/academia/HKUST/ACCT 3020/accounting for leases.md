@@ -296,7 +296,7 @@ Flashcards for this section are as follows:
 
 <!-- markdownlint MD028 -->
 
-> Reigate Shipping (lessee — Scenario 1) recognizes a finance lease. ROU asset = LL = {@{€48&nbsp;000}@}. Depreciation per year: €48&nbsp;000 / 4 = {@{€12&nbsp;000}@}.
+> Reigate Shipping (lessee — Scenario 1) recognizes a finance lease over 4 years. Payment per year = €13&nbsp;419. ROU asset = {@{LL = €48&nbsp;000}@}. Depreciation per year: {@{€48&nbsp;000 / 4 = €12&nbsp;000}@}.
 >
 > | {@{1 January 2025 — lessee recognizes lease and first payment}@} | Dr | Cr |
 > | --- | ---: | ---: |
