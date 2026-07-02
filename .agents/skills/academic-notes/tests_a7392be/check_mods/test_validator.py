@@ -233,3 +233,90 @@ async def test_walk_and_check_single_file(tmp_path: PathLike[str]):
     # directory root would find bad but test single file explicitly
     res = await walk_and_check([bad])
     assert any(p == bad for p, _ in res.errors())
+
+
+@pytest.mark.anyio
+async def test_suppression_on_heading_ignore_line(tmp_path: PathLike[str]):
+    """ignore-line on a heading line should trigger suppression-on-heading warning."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "## Some heading <!-- check: ignore-line[unit_outside_math]: because -->\n"
+    )
+    file = Path(tmp_path) / "heading_line.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert any(
+        m.rule_id == "suppression-on-heading" and m.severity.name == "WARNING"
+        for m in msgs
+    ), f"expected suppression-on-heading warning, got {[m.rule_id for m in msgs]}"
+    # the suppression should still work for the actual rule
+    assert not any(m.rule_id == "unit_outside_math" for m in msgs)
+
+
+@pytest.mark.anyio
+async def test_suppression_not_on_heading(tmp_path: PathLike[str]):
+    """Suppression on a normal (non-heading) line should NOT trigger suppression-on-heading."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "Some ordinary text <!-- check: ignore-line[unit_outside_math]: because -->\n"
+        "More text $I=5$ A\n"
+    )
+    file = Path(tmp_path) / "non_heading.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert not any(m.rule_id == "suppression-on-heading" for m in msgs), msgs
+
+
+@pytest.mark.anyio
+async def test_suppression_not_on_heading_next_line(tmp_path: PathLike[str]):
+    """ignore-next-line on a normal line before a heading should NOT trigger suppression-on-heading."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-next-line[unit_outside_math]: because -->\n"
+        "## Some heading\n"
+    )
+    file = Path(tmp_path) / "heading_next.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert not any(m.rule_id == "suppression-on-heading" for m in msgs), msgs
+    # the suppression itself should be flagged as redundant (no unit_outside_math error exists)
+    assert any(m.rule_id == "suppression-redundant" for m in msgs), msgs
+
+
+@pytest.mark.anyio
+async def test_suppression_not_on_heading_file_level(tmp_path: PathLike[str]):
+    """ignore-file on a normal line before a heading should NOT trigger suppression-on-heading."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "<!-- check: ignore-file[unit_outside_math]: because -->\n"
+        "## Some heading\n"
+    )
+    file = Path(tmp_path) / "heading_file.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert not any(m.rule_id == "suppression-on-heading" for m in msgs), msgs
+
+
+@pytest.mark.anyio
+async def test_suppression_on_heading_with_other_errors(tmp_path: PathLike[str]):
+    """Heading line suppression should appear alongside other validation errors.
+
+    The ``suppression-on-heading`` warning does not prevent other rules from
+    firing; ``header_style`` and ``header_flashcard_presence`` should still
+    trigger as usual.
+    """
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "## Overview <!-- check: ignore-line[unit_outside_math]: spacing accepted -->\n"
+    )
+    file = Path(tmp_path) / "heading_mixed.md"
+    await file.write_text(text)
+
+    msgs = list(await check_markdown_file(file))
+    assert any(m.rule_id == "suppression-on-heading" for m in msgs), msgs
+    # other rules still fire (unit_outside_math never fires here, so suppression is redundant)
+    assert any(m.rule_id == "suppression-redundant" for m in msgs), msgs
