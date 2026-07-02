@@ -19,6 +19,7 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
    - `bun run prepare` # register Husky Git hooks
    - `bun run format` && `bun run check` # formatting & lint checks (when targeting specific files with `check:md` or `format:md`, remember to append `--no-globs` and list the explicit filenames to avoid accidentally processing the entire repo; in general, when running any bun script prefer supplying explicit paths to limit work and speed up the command)
    - `bun run test` # run tests locally (pre-push runs this automatically)
+   - Adopt a simplification-first mindset: before adding new code, verify whether deletion or inlining would suffice. The maintain instructions ("prefer deletion over abstraction") apply to ALL agent work, not just `/maintain` subagent runs.
 
 3. Common repository actions
    - Regenerate generated content: build workflows handle this automatically; manual `uv run -m init generate -C` is rarely needed and agents should not suggest it (see `core-workflows.instructions.md`).
@@ -97,6 +98,7 @@ Repository gotchas & quick tips
 4. When in doubt
    - Ask the user one short clarifying question before making non-trivial changes (e.g., “Should I modify `special/` or only add tests?”).
    - If the user is unavailable, prepare a short PR draft with the rationale and tests, and ask for approval.
+   - __Respect scope boundaries.__ When the user adds "only verify", "only plan", "do not edit", or similar scope qualifiers to a request, follow them strictly. Do not edit files, touch git, or start implementation. If the user wanted implementation, they would ask for it.
 
 ---
 
