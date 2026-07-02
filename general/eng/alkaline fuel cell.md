@@ -19,7 +19,7 @@ The __alkaline fuel cell__ (__AFC__) is {@{a [fuel cell](fuel%20cell.md) that co
 
 ## chemistry
 
-{@{Energy is produced}@} through {@{a [redox reaction](redox%20reaction.md) between [hydrogen](hydrogen.md) and [oxygen](oxygen.md)}@} in {@{hot concentrated [alkaline](alkali.md) [electrolyte](electrolyte.md) such as [potassium hydroxide](potassium%20hydroxide.md) with a temperature in between ambient temperature and 90&nbsp;°C}@}:
+{@{Energy is produced}@} through {@{a [redox reaction](redox%20reaction.md) between [hydrogen](hydrogen.md) and [oxygen](oxygen.md)}@} in {@{hot concentrated [alkaline](alkali.md) [electrolyte](electrolyte.md) such as [potassium hydroxide](potassium%20hydroxide.md)}@} with {@{a temperature in between ambient temperature and 90&nbsp;°C}@}:
 
 > - [anode](anode.md) ::@:: H<sub>2</sub>(g) + 2OH<sup>-</sup>(aq) → 2H<sub>2</sub>O(l) + 2e<sup>-</sup>
 > - [cathode](cathode.md) ::@:: O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq)
