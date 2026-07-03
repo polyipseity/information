@@ -109,53 +109,7 @@ extension work.
 - Questions pages are not topic notes. Official material should usually be in
   blockquotes; self-authored review prompts should usually be ordinary headings
   and lists.
-- Canvas quiz conversions should normally be split into a public `questions/`
-  review page and a private mirrored archival page. Keep shared metadata on
-  both sides; keep verbatim official question text on the private side; keep
-  hint/review prompts on the public side. Keep the public `## hints` in the
-  same order as the archived/private question order even when the wording later
-  becomes more conceptual. Do not keep a parallel
-  `assignments/online quiz N/index.md` stub once the quiz has a home under
-  `questions/`; quiz pages belong in the `questions/` family even when Canvas
-  surfaced them through the assignments UI. If only quiz timing or schedule
-  metadata is known, keep a minimal public placeholder in `questions/quiz N.md`
-  until fuller content is archived. Private quiz pages do not need a
-  stock explanatory paragraph before `## content`; start directly with the
-  archived questions unless a page-specific caveat is genuinely needed. If the
-  archive shows only a checked choice rather than explicit grading correctness,
-  record it as an archived selection instead of asserting it as a solution,
-  unless the user explicitly confirms that the checked choices are correct. In
-  that confirmed-correctness case, keep the solution and explanation inside the
-  same quoted question block, using quoted `Solution:` and `Explanation:` lines
-  rather than out-of-quote bullets. Add meaningful cloze coverage of the
-  method, condition, or conceptual reason rather than only re-clozing the final
-  option, and do this even when the prompt or confirmed answer depends on an
-  embedded image. If the `Solution:` line itself embeds an image, still put at
-  least one cloze on that `Solution:` line so the chosen option, label, or
-  structural descriptor is directly reviewable there rather than only in the
-  later `Explanation:`. When the archived quiz question contains actual figures, extract the
-  real image assets from the archived HTML into a local `attachments/` folder
-  beside the archival quiz family and embed them in Markdown instead of leaving
-  raw figure filenames such as `Q1_1.jpg` in the note body. Preserve the
-  original Canvas-exported filenames when available for traceability. Fall back
-  to a short textual identifier only when the archived source truly does not
-  preserve an extractable image payload. Keep the public quiz page pedagogical:
-  keep the hint one step away from the original question rather than many steps
-  away: preserve the option family, named property, band edge, timing pattern,
-  or transform form that helps the reader map the hint back to the quiz, but
-  avoid copying the full official prompt verbatim. When the user asks for more
-  context, add it mainly on the left-hand side prompt itself: use option-family
-  cues, mutated-but-equivalent givens, or the decisive spectral, timing, or
-  topology landmarks without reproducing the official choices verbatim. For
-  spectrum/block-diagram quiz explanations, describe the stage-by-stage signal
-  processing chain — such as carrier multiplication, band shifting, and which
-  replica the LTI block preserves or rejects — rather than only naming the
-  final cutoff or option. Use alternate-number toy equations only when they
-  genuinely clarify the same solving method. Do not mirror the full official
-  image-heavy prompt there unless the user asks for that. If the private
-  archival page intentionally keeps only archive tags,
-  use a local `metadata_flash_tag` suppression rather than inventing an active
-  tag.
+- Canvas quiz conversions: See the "Canvas quiz conversions" section in [../skills/academic-notes/SKILL.md](../skills/academic-notes/SKILL.md) for the complete public/private layout, solution conventions, attachment handling, and cloze coverage rules.
 - Split oversized `questions.md` files into `questions/index.md` plus child
   pages.
 - Keep distinct official question families distinct (tutorials, problem sets,
@@ -166,8 +120,6 @@ extension work.
   notes). For detailed rules on cloze strategy, inference-word attribution, and
   question-page authoring conventions, see the "Questions and problem-set pages"
   section in `../skills/academic-notes/SKILL.md`.
-  inline sub-answer labels, and step decomposition, consult
-  `../skills/academic-notes/SKILL.md`.
 - For detailed rules on quoted solutions, cloze coverage, MD028 handling,
   blockquote continuation, and subpart formatting, consult
   `../skills/academic-notes/SKILL.md`.

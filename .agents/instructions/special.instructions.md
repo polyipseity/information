@@ -310,16 +310,8 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 ### Common conventions
 
 - __Frontmatter__: YAML with `aliases`, `tags`, `language/in/<lang>` (or `language/for/<lang>` for language texts)
-- __Cloze & flashcard markup__: Preserve the three patterns exactly and
-  understand their purpose:
-  - `{@{ ... }@}` for cloze deletions (hide the inner text)
-  - `::@::` for two-sided Q/A pairs (one line only, generates two cards)
-  - `:@:` for one-sided Q/A pairs (one line only, generates a single card)
-    These markers are parsed by pytextgen; do not reflow, escape, or split
-    them across lines.
-- __pytextgen fences__: Do not modify `# pytextgen generate ...` comments or `return export_seq(...)` signatures
-  - Academic notes often use `await memorize_seq()` for ordered content
-  - Classical Chinese texts use `gen.TextCode.compile()` with embedded notes
+- __Cloze & flashcard markup__: See [editing-conventions.instructions.md](../editing-conventions.instructions.md) for complete syntax rules.
+- __pytextgen fences__: See [special-pytextgen.instructions.md](../special-pytextgen.instructions.md) for usage patterns. Preserve `# pytextgen generate ...` comments and `return export_seq(...)` signatures.
 - __Links__: Relative paths with `%20` encoding for spaces
   - Cross-references to `general/`: `[topic](../../general/topic.md)` or similar relative paths
   - Internal links: `[section](#section-header)` for same-file references
@@ -329,10 +321,8 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 ### Special-specific patterns
 
 - __Code blocks__: Command libraries, regex libraries, and programming references use fenced code blocks with language tags (`shell,`regex, ```Python, etc.)
-- __Embedded notes__ (Classical Chinese): `notes.embed('term', 'explanation')` within `gen.TextCode.compile()` blocks
-- __Difficulty markers__: `hard(...)` function in pytextgen blocks for challenging terms
+- __Classical Chinese annotations__: `notes.embed('term', 'explanation')` within `gen.TextCode.compile()` blocks (details in [special-pytextgen.instructions.md](../special-pytextgen.instructions.md))
 - __Parameter placeholders__: `$variable` format in command library templates
-- __Section markers__: pytextgen sections use `__env__.cwf_sects("id1", "id2")` for stable section identification
 - __Index cross-references__: Course indexes often use `[§ section](file.md#section)` format for sub-topic links
 
 ## Special Differences from general/
