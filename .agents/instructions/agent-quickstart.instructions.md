@@ -16,7 +16,7 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
 
 2. First commands (safe startup)
    - `bun install` # installs Node deps and triggers Python dev extras install
-   - `bun run prepare` # register Husky Git hooks
+   - `bun run prepare` # register prek hooks
    - `bun run format` && `bun run check` # formatting & lint checks (when targeting specific files with `check:md` or `format:md`, remember to append `--no-globs` and list the explicit filenames to avoid accidentally processing the entire repo; in general, when running any bun script prefer supplying explicit paths to limit work and speed up the command)
    - `bun run test` # run tests locally (pre-push runs this automatically)
    - Adopt a simplification-first mindset: before adding new code, verify whether deletion or inlining would suffice. The maintain instructions ("prefer deletion over abstraction") apply to ALL agent work, not just `/maintain` subagent runs.

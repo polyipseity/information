@@ -32,7 +32,7 @@ When two blockquote blocks (`> ...`) appear adjacent without intervening
 non-blockquote content, markdownlint rule MD028 fires. To suppress it
 legitimately (when the blockquotes are intentionally separate), always use
 the exact pattern below. The `<!-- markdownlint MD028 -->` comment is
-required **whenever two separate blockquote blocks** appear adjacent to
+required __whenever two separate blockquote blocks__ appear adjacent to
 each other (separated only by blank lines). If the blockquotes represent
 distinct content that should remain separate (e.g., questions and answers,
 different speakers, or separate quotations), you must insert the separator
@@ -112,7 +112,7 @@ directive keeps the intent explicit for both human readers and linters.
 
 ## Developer tooling & testing conventions
 
-- Dependency management: `pyproject.toml` is authoritative; add runtime deps to `[project].dependencies`, developer/test tools to `[dependency-groups].dev`, and the union of dependencies used in inline `# /// script` metadata to `[dependency-groups].scripts`. Inline script metadata should (1) begin with `#!/usr/bin/env python` shebang on line 1, (2) keep keys alphabetized, and (3) set `requires-python = ">=3.13.0"`. Run `bun install` (which triggers `prepare`, running `uv sync`) to register Husky hooks and install dev extras locally.
+- Dependency management: `pyproject.toml` is authoritative; add runtime deps to `[project].dependencies`, developer/test tools to `[dependency-groups].dev`, and the union of dependencies used in inline `# /// script` metadata to `[dependency-groups].scripts`. Inline script metadata should (1) begin with `#!/usr/bin/env python` shebang on line 1, (2) keep keys alphabetized, and (3) set `requires-python = ">=3.13.0"`. Run `bun install` (which triggers `prepare`, running `uv sync`) to register prek hooks and install dev extras locally.
 - Tests: Place tests in `tests/` and use `pytest` (`test_*.py` naming). Mirror source layout when helpful, and add unit and integration tests for any change to scripts or generators.
 - Async tests: Prefer `@pytest.mark.anyio` with the AnyIO pytest plugin and import concurrency helpers from Asyncer (`create_task_group`, `soonify`, `asyncify`) instead of calling `anyio.create_task_group` directly. Avoid using event-loop runners inside tests. Prefer deterministic fixtures like `tmp_path: os.PathLike[str]` and `monkeypatch`. When typing tests, annotate `tmp_path` parameters as `PathLike[str]`; and when converting `PathLike` objects to strings __always__ use `os.fspath(path_like)` rather than `str(path_like)`.
-- Local validation: Run `bun run format`, `bun run check`, and `bun run test` before pushing changes to avoid Husky hooks and CI failures. When only a subset of files are affected, supply explicit paths to these commands so they complete quickly instead of scanning the entire repo.
+- Local validation: Run `bun run format`, `bun run check`, and `bun run test` before pushing changes to avoid prek hooks and CI failures. When only a subset of files are affected, supply explicit paths to these commands so they complete quickly instead of scanning the entire repo.
