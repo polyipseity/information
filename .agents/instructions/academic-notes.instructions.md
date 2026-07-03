@@ -6,14 +6,9 @@ applyTo: "special/academia/**,private/special/academia/**"
 
 # Academic notes instruction
 
-This instruction file is the quick-reference checklist for work under
-`special/academia/**` and the mirrored `private/special/academia/**` path.
+This instruction file is the quick-reference checklist for work under `special/academia/**` and the mirrored `private/special/academia/**` path.
 
-The authoritative long-form policy lives in
-`../skills/academic-notes/SKILL.md`. Use that file for detailed guidance on
-machine-learning notes, honors and proof-heavy courses, Fourier and generalized-
-function notes, questions-page authoring, validation suppressions, and validator
-extension work.
+The authoritative long-form policy lives in `../skills/academic-notes/SKILL.md`. Use that file for detailed guidance on machine-learning notes, honors and proof-heavy courses, Fourier and generalized-function notes, questions-page authoring, validation suppressions, and validator extension work.
 
 ## Scope and source of truth
 
@@ -160,16 +155,14 @@ Validator commands:
 
 ## Continuous improvement
 
-If a task reveals a durable academic-notes lesson, update the authoritative
-files directly:
+If a task reveals a durable academic-notes lesson, update the authoritative files directly:
 
 - `../skills/academic-notes/SKILL.md`
 - `../skills/academic-notes/course-template.md`
 - this instruction file
 - related validator tests when appropriate
 
-Persistent memory is not the long-term documentation system for academic-notes
-work.
+Persistent memory is not the long-term documentation system for academic-notes work.
 
 ## Short author checklist
 

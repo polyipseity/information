@@ -40,5 +40,4 @@ This document describes the feedback loop for continuously improving the
 
 ---
 
-Additional domain-specific notes can be appended here as new situations
-arise.
+Additional domain-specific notes can be appended here as new situations arise.

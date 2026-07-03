@@ -21,8 +21,7 @@ applyTo: "general/**/*.md"
 
 ## Cloze & flashcard markup
 
-Flashcards are produced by three distinct markup conventions; agents and
-authors should know which one they are using and keep the syntax exact.
+Flashcards are produced by three distinct markup conventions; agents and authors should know which one they are using and keep the syntax exact.
 
 - __Cloze flashcards__ use `{@{hidden text}@}`. The text between the
   delimiters is hidden during review and the card asks you to recall the

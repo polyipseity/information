@@ -1,8 +1,6 @@
 # Continuous improvement — pyarchivist skill
 
-This document describes the feedback loop for continuously improving the
-`pyarchivist` skill, which handles archiving online content and
-maintaining `index.md` files in `archives/`.
+This document describes the feedback loop for continuously improving the `pyarchivist` skill, which handles archiving online content and maintaining `index.md` files in `archives/`.
 
 ## Feedback procedure
 

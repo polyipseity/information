@@ -5,23 +5,15 @@ description: Create and maintain assignment pages (problem sets, homework, proje
 
 # Assignment creation
 
-Use this skill when creating new assignment pages or adding assignment-related
-content (problem sets, homework, project milestones, lab rounds, deliverable
-pages) to course knowledge bases under `special/academia/`.
+Use this skill when creating new assignment pages or adding assignment-related content (problem sets, homework, project milestones, lab rounds, deliverable pages) to course knowledge bases under `special/academia/`.
 
-Flashcards and other generated content are rebuilt automatically by the build
-system; do __not__ run `init generate` manually.
+Flashcards and other generated content are rebuilt automatically by the build system; do __not__ run `init generate` manually.
 
-For general academic-note conventions (frontmatter, topic notes, lecture
-content, flashcards, LaTeX), see the
-[academic-notes](../academic-notes/SKILL.md) skill.
+For general academic-note conventions (frontmatter, topic notes, lecture content, flashcards, LaTeX), see the [academic-notes](../academic-notes/SKILL.md) skill.
 
 ## Guiding principle: follow existing conventions
 
-Before creating a new assignment page, examine 1–3 existing assignment pages
-in the same course to identify the conventions already in use. Match the
-existing style unless there is a compelling reason to deviate. Pay particular
-attention to:
+Before creating a new assignment page, examine 1–3 existing assignment pages in the same course to identify the conventions already in use. Match the existing style unless there is a compelling reason to deviate. Pay particular attention to:
 
 - __Naming__ — folder naming (`problem set 1` vs `ps1` vs `homework 1` vs
   `hw1`), file naming, heading capitalization
@@ -37,13 +29,11 @@ attention to:
 - __Submission and solution__ — format, level of detail, which artifacts are
   tracked and how
 
-Consistency across assignments in the same course makes the knowledgebase
-more predictable to navigate.
+Consistency across assignments in the same course makes the knowledgebase more predictable to navigate.
 
 ## Directory structure
 
-Each course with assignments should have an `assignments/` folder under the
-course root. The top-level `assignments/index.md` lists all assignments.
+Each course with assignments should have an `assignments/` folder under the course root. The top-level `assignments/index.md` lists all assignments.
 
 Each assignment lives in its own subfolder:
 
@@ -66,8 +56,7 @@ Common naming patterns:
 
 ## Creating a new assignment
 
-__Batch creation workflow:__ When creating multiple assignments in one pass
-(e.g., PS2–PS11), follow this order to minimize rework:
+__Batch creation workflow:__ When creating multiple assignments in one pass (e.g., PS2–PS11), follow this order to minimize rework:
 
 0. __Populate artifacts from source files__ — if a course source directory
    exists (e.g., `.course_sources/`), copy all artifacts (solution PDFs,
@@ -87,11 +76,9 @@ __Batch creation workflow:__ When creating multiple assignments in one pass
 5. Batch-validate — run `bun run check:md --no-globs <all files>` and verify
    each against its Canvas source.
 
-Steps 0 and 2 are independent and can be parallelized across assignments
-using shell loops.
+Steps 0 and 2 are independent and can be parallelized across assignments using shell loops.
 
-This avoids the inefficiency of creating one assignment, discovering a pattern
-change, and having to retroactively fix earlier ones.
+This avoids the inefficiency of creating one assignment, discovering a pattern change, and having to retroactively fix earlier ones.
 
 ### 1. Prerequisites
 
@@ -107,11 +94,7 @@ Before creating an assignment page, ensure you have:
 - Any __attachments__ (prompt PDFs, data files, images) from the Canvas
   assignment page.
 
-> __Critical: Canvas-first data source.__ All metadata (due dates, points,
-> submission type, description text, PDF filenames, update announcements, color
-> styling) MUST be extracted from the actual Canvas HTML page. __Never fabricate
-> or guess__ these values — the user will catch and demand fixes. If the Canvas
-> HTML is unavailable, ask the user to provide it before proceeding.
+> __Critical: Canvas-first data source.__ All metadata (due dates, points, submission type, description text, PDF filenames, update announcements, color styling) MUST be extracted from the actual Canvas HTML page. __Never fabricate or guess__ these values — the user will catch and demand fixes. If the Canvas HTML is unavailable, ask the user to provide it before proceeding.
 
 ### 2. Set up the directory structure
 
@@ -123,8 +106,7 @@ mkdir -p assignments/<assignment-name>/{attachments,submission,solution}
 
 ### 3. Create the assignment index.md
 
-The assignment's `index.md` follows a specific structure with these components
-in order:
+The assignment's `index.md` follows a specific structure with these components in order:
 
 1. __YAML frontmatter__ with aliases and tags
 2. __Heading and course line__
@@ -181,13 +163,11 @@ After the heading, separate metadata with `---` lines:
 - submitting: a text entry box or a file upload
 ```
 
-Normalize timestamps to ISO 8601 with timezone. For assignments with
-availability windows, use a range: `available: 2025-09-25T00:00:00+08:00/2025-10-03T23:59:59+08:00, P8DT23H59M59S`.
+Normalize timestamps to ISO 8601 with timezone. For assignments with availability windows, use a range: `available: 2025-09-25T00:00:00+08:00/2025-10-03T23:59:59+08:00, P8DT23H59M59S`.
 
 #### Description formatting
 
-Reproduce Canvas HTML verbatim, preserving formatting with Markdown and inline
-`<span style>` for colors:
+Reproduce Canvas HTML verbatim, preserving formatting with Markdown and inline `<span style>` for colors:
 
 ```markdown
 ---
@@ -207,9 +187,7 @@ Rules:
 - Keep inline prose dates and times as-is (the normalized metadata block above
   carries the machine-readable equivalents).
 
-__Deadline extension text:__ Canvas often adds extension notices in colored
-span tags. Reproduce them exactly, including the exact phrasing and color.
-Common patterns seen in practice:
+__Deadline extension text:__ Canvas often adds extension notices in colored span tags. Reproduce them exactly, including the exact phrasing and color. Common patterns seen in practice:
 
 ```markdown
 (Note: This assignment deadline has been extended)
@@ -219,9 +197,7 @@ Common patterns seen in practice:
 <span style="color: #e62429">**(Attention: Extended deadline!)**</span>
 ```
 
-__Update announcements:__ Canvas pages may have inline update notices
-(e.g., "Small clarification on Problem 1", "Question 4 updated"). Preserve
-both the heading and body verbatim, with the same color and bold styling:
+__Update announcements:__ Canvas pages may have inline update notices (e.g., "Small clarification on Problem 1", "Question 4 updated"). Preserve both the heading and body verbatim, with the same color and bold styling:
 
 ```markdown
 **<span style="color: #e62429">Update (04/03/2026, 10:20 PM): Small clarification on Problem 1</span>**
@@ -240,11 +216,7 @@ List the assignment prompt files with links:
 - [`PS1-v4.pdf`](attachments/PS1-v4.pdf)
 ```
 
-__PDF display name vs actual file link:__ When the on-disk file has a versioned
-name (e.g., `PS7-3.pdf`, `PS10-1.pdf`) but Canvas references a base name
-(`PS7.pdf`, `PS10.pdf`), display the Canvas name while linking to the actual
-file. This keeps the page consistent with what students see on Canvas while
-still serving the correct file:
+__PDF display name vs actual file link:__ When the on-disk file has a versioned name (e.g., `PS7-3.pdf`, `PS10-1.pdf`) but Canvas references a base name (`PS7.pdf`, `PS10.pdf`), display the Canvas name while linking to the actual file. This keeps the page consistent with what students see on Canvas while still serving the correct file:
 
 ```markdown
 [PS7.pdf](attachments/PS7-3.pdf)
@@ -270,8 +242,7 @@ Record submitted work. This can include:
   - source: [`HKUST MATH 2431 problem set 1.md`](submission/HKUST%20MATH%202431%20problem%20set%201.md)
 ```
 
-When an answer list is available (e.g., quizzes with short answers), include
-the numbered list:
+When an answer list is available (e.g., quizzes with short answers), include the numbered list:
 
 ```markdown
 ## submission
@@ -280,17 +251,9 @@ the numbered list:
 2. ...
 ```
 
-When the submission section needs archived-filename provenance or similar
-metadata, keep that extra structure only in `## submission`, for example
-`- file: [submission.pdf](submission.pdf)` followed by nested metadata
-bullets such as `- filename: ...`.
+When the submission section needs archived-filename provenance or similar metadata, keep that extra structure only in `## submission`, for example `- file: [submission.pdf](submission.pdf)` followed by nested metadata bullets such as `- filename: ...`.
 
-When the task still wants the public page to preserve the normal artifact
-routes, keep standard relative links in public `## submission` /
-`## solution` sections _as if the files were colocated_, for example
-`[submission.pdf](submission.pdf)` or
-`[HW1_Sol.pdf](solution/HW1_Sol.pdf)`. Do __not__ rewrite those links to
-`private/` paths in the public note.
+When the task still wants the public page to preserve the normal artifact routes, keep standard relative links in public `## submission` / `## solution` sections _as if the files were colocated_, for example `[submission.pdf](submission.pdf)` or `[HW1_Sol.pdf](solution/HW1_Sol.pdf)`. Do __not__ rewrite those links to `private/` paths in the public note.
 
 #### Submission metadata file
 
@@ -319,9 +282,7 @@ course:
   name: MATH2431
 ```
 
-Extract this from the Canvas assignment HTML page using the
-`convert_canvas_submission.py` tool, which reads a SingleFile-saved HTML
-and writes the YAML structure to stderr.
+Extract this from the Canvas assignment HTML page using the `convert_canvas_submission.py` tool, which reads a SingleFile-saved HTML and writes the YAML structure to stderr.
 
 __Tool characteristics:__
 
@@ -336,8 +297,7 @@ __Tool characteristics:__
 
 __Driving the tool non-interactively:__
 
-Use a here-string to supply the file path on stdin and redirect stderr to
-capture the YAML:
+Use a here-string to supply the file path on stdin and redirect stderr to capture the YAML:
 
 ```bash
 uv run -m scripts.special.convert_canvas_submission \
@@ -345,10 +305,7 @@ uv run -m scripts.special.convert_canvas_submission \
   2> submission.yml
 ```
 
-__Canvas HTML filenames may be inconsistent__ — the same course can have
-mixed naming conventions (e.g., `"HKUST Canvas - Problem Set N …"` for some
-assignments and `"Problem Set N …"` for others). Always `ls` the source
-directory to discover the actual filenames before writing loops.
+__Canvas HTML filenames may be inconsistent__ — the same course can have mixed naming conventions (e.g., `"HKUST Canvas - Problem Set N …"` for some assignments and `"Problem Set N …"` for others). Always `ls` the source directory to discover the actual filenames before writing loops.
 
 __Batch extraction loop:__
 
@@ -384,8 +341,7 @@ Apple Notes export (needs special handling) or regular Markdown.
 
 __Judging if a file is an Apple Notes markdown export:__
 
-The file may already have our modifications (attachment path rewrites,
-suppression comments at top). Look past those and examine the body.
+The file may already have our modifications (attachment path rewrites, suppression comments at top). Look past those and examine the body.
 
 A file is likely from Apple Notes if it has one or more of:
 
@@ -396,11 +352,9 @@ A file is likely from Apple Notes if it has one or more of:
 - __Apple formatting quirks__ — Unusual heading styles or list spacing
   characteristic of Apple Notes output.
 
-A file is __not__ an Apple Notes export if it has YAML frontmatter,
-flashcard/pytextgen markup, or consistently manual formatting throughout.
+A file is __not__ an Apple Notes export if it has YAML frontmatter, flashcard/pytextgen markup, or consistently manual formatting throughout.
 
-If unsure, treat as regular Markdown (no path rewrites, no suppression
-comments). The user can correct.
+If unsure, treat as regular Markdown (no path rewrites, no suppression comments). The user can correct.
 
 __For Apple Notes markdown exports:__
 
@@ -429,18 +383,13 @@ Link to the solution file:
 
 ### 4. Add attachments
 
-Place all assignment prompt files (PDFs, data CSVs, images) in the
-`attachments/` directory. Keep filenames as-is from the source.
+Place all assignment prompt files (PDFs, data CSVs, images) in the `attachments/` directory. Keep filenames as-is from the source.
 
-When an Apple Notes markdown submission (identified using the criteria in
-[Markdown submission source preservation](#markdown-submission-source-preservation))
-embeds HEIC, PNG, or other image formats, also place those images in
-`attachments/` and update the attachment paths as described in that section.
+When an Apple Notes markdown submission (identified using the criteria in [Markdown submission source preservation](#markdown-submission-source-preservation)) embeds HEIC, PNG, or other image formats, also place those images in `attachments/` and update the attachment paths as described in that section.
 
 ### 5. Update assignments/index.md
 
-The top-level `assignments/index.md` lists all assignments. Add a new child
-link for the new assignment:
+The top-level `assignments/index.md` lists all assignments. Add a new child link for the new assignment:
 
 ```markdown
 ---
@@ -466,8 +415,7 @@ tags:
 
 ### 6. Update course index.md
 
-Add an `- assignment:` entry in the course's `index.md` under the last lecture
-entry on or before the due date. Place it after `- topic:` and `- status:`:
+Add an `- assignment:` entry in the course's `index.md` under the last lecture entry on or before the due date. Place it after `- topic:` and `- status:`:
 
 ```markdown
 ## week N lecture
@@ -477,13 +425,11 @@ entry on or before the due date. Place it after `- topic:` and `- status:`:
 - assignment: [problem set 1](assignments/problem%20set%201/index.md)
 ```
 
-If the lecture already has a `topic:` and optional `status:`, add
-`assignment:` after them.
+If the lecture already has a `topic:` and optional `status:`, add `assignment:` after them.
 
 ### 7. Verify against Canvas sources
 
-After creating or updating assignment pages, systematically verify each one
-against its Canvas HTML source. Check these fields:
+After creating or updating assignment pages, systematically verify each one against its Canvas HTML source. Check these fields:
 
 - __Due date__ — ISO 8601 timestamp matches Canvas, including timezone
 - __Points__ — exact integer or float
@@ -501,29 +447,19 @@ against its Canvas HTML source. Check these fields:
   `url: https://<host>/courses/<course_id>/assignments/<assign_id>` comment
   in the source HTML.
 
-If the course has multiple assignments, verify them all in one pass and report
-any discrepancies to the user for resolution.
+If the course has multiple assignments, verify them all in one pass and report any discrepancies to the user for resolution.
 
 ### 8. Source file management
 
-When the course has a source directory (e.g., `.course_sources/`), populate
-the assignment folder from source files. Copy (do not symlink) files — this
-keeps the archive self-contained and stable even if cleaned up later.
+When the course has a source directory (e.g., `.course_sources/`), populate the assignment folder from source files. Copy (do not symlink) files — this keeps the archive self-contained and stable even if cleaned up later.
 
-__There is no fixed source hierarchy.__ Every course source directory is
-organized differently (by the user's personal convention, LMS export format,
-or ad-hoc collection). The examples below illustrate the _kind_ of work
-involved, not a structure to expect in any other course. Always start by
-exploring the actual source directory with `ls`/`tree`/`find` to discover
-its real layout before writing copy commands.
+__There is no fixed source hierarchy.__ Every course source directory is organized differently (by the user's personal convention, LMS export format, or ad-hoc collection). The examples below illustrate the _kind_ of work involved, not a structure to expect in any other course. Always start by exploring the actual source directory with `ls`/`tree`/`find` to discover its real layout before writing copy commands.
 
-To populate an assignment folder, you typically need to locate and copy
-these artifact types wherever they happen to live in the source tree:
+To populate an assignment folder, you typically need to locate and copy these artifact types wherever they happen to live in the source tree:
 
 #### Solution files
 
-Locate solution PDFs somewhere in the source tree (e.g., in a
-`questions/` subdirectory) and copy:
+Locate solution PDFs somewhere in the source tree (e.g., in a `questions/` subdirectory) and copy:
 
 ```bash
 cp <path-in-source>/SL{N}.pdf assignments/problem\ set\ {N}/solution/
@@ -531,8 +467,7 @@ cp <path-in-source>/SL{N}.pdf assignments/problem\ set\ {N}/solution/
 
 #### Submission PDFs
 
-Find the submission PDF (often named after the course and assignment) and
-copy it into the assignment's `submission/` folder:
+Find the submission PDF (often named after the course and assignment) and copy it into the assignment's `submission/` folder:
 
 ```bash
 cp <path-in-source>/"Course Name - problem set N.pdf" \
@@ -541,14 +476,9 @@ cp <path-in-source>/"Course Name - problem set N.pdf" \
 
 #### Markdown submission source (with path rewrites)
 
-Judge per
-[Markdown submission source preservation](#markdown-submission-source-preservation).
-If Apple Notes: detect naming pattern, create with suppression header and
-path rewrites, copy referenced UUID-named images from source attachments.
-Otherwise copy as-is.
+Judge per [Markdown submission source preservation](#markdown-submission-source-preservation). If Apple Notes: detect naming pattern, create with suppression header and path rewrites, copy referenced UUID-named images from source attachments. Otherwise copy as-is.
 
-A shell pipeline illustrating the process (paths are specific to one source
-layout; adapt to the actual layout):
+A shell pipeline illustrating the process (paths are specific to one source layout; adapt to the actual layout):
 
 ```bash
 # Detect source file name (may be with or without hyphen)
@@ -581,24 +511,15 @@ Find prompt PDFs in the source tree and copy into `attachments/`:
 cp <path-in-source>/PS{N}*.pdf assignments/problem\ set\ {N}/attachments/
 ```
 
-When the on-disk file is versioned (e.g., `PS7-3.pdf`) but Canvas references
-a base name (`PS7.pdf`), apply the
-[display-vs-link naming convention](#pdf-display-name-vs-actual-file-link).
+When the on-disk file is versioned (e.g., `PS7-3.pdf`) but Canvas references a base name (`PS7.pdf`), apply the [display-vs-link naming convention](#pdf-display-name-vs-actual-file-link).
 
 #### Submission metadata
 
-If a `submission.yml` already exists somewhere in the source (e.g., from a
-previous Canvas export extraction), copy it into the assignment folder.
-Otherwise, extract it from the Canvas HTML file using
-`convert_canvas_submission.py`. See the
-[Submission metadata file](#submission-metadata-file) section for the
-invocation pattern (here-string for stdin, stderr redirect for output).
+If a `submission.yml` already exists somewhere in the source (e.g., from a previous Canvas export extraction), copy it into the assignment folder. Otherwise, extract it from the Canvas HTML file using `convert_canvas_submission.py`. See the [Submission metadata file](#submission-metadata-file) section for the invocation pattern (here-string for stdin, stderr redirect for output).
 
 #### Batch copy workflow
 
-When populating multiple assignments at once from a shared source directory,
-first explore the source layout thoroughly, then combine copy operations
-into loops:
+When populating multiple assignments at once from a shared source directory, first explore the source layout thoroughly, then combine copy operations into loops:
 
 ```bash
 # Explore source layout first
@@ -614,17 +535,9 @@ Validate each loop's output before proceeding to the next.
 
 ## Assignment-style leaf index pages
 
-Some leaf folders represent a single Canvas or LMS assignment-like artifact,
-such as a lab round, homework, project milestone, or similar deliverable page
-with local attachments. Canvas quizzes are the main exception: keep quiz notes
-in `questions/quiz N.md` (and the mirrored private quiz file when archived)
-rather than in `assignments/online quiz N/index.md`.
+Some leaf folders represent a single Canvas or LMS assignment-like artifact, such as a lab round, homework, project milestone, or similar deliverable page with local attachments. Canvas quizzes are the main exception: keep quiz notes in `questions/quiz N.md` (and the mirrored private quiz file when archived) rather than in `assignments/online quiz N/index.md`.
 
-__Follow existing conventions__ — before creating a leaf index page, check an
-existing leaf index from the same course for section ordering, metadata style,
-and companion page patterns. The rules below describe the standard form, but
-the course may have established variations (e.g., extra sections, different
-heading levels) that should be preserved for consistency.
+__Follow existing conventions__ — before creating a leaf index page, check an existing leaf index from the same course for section ordering, metadata style, and companion page patterns. The rules below describe the standard form, but the course may have established variations (e.g., extra sections, different heading levels) that should be preserved for consistency.
 
 Use these rules when the source is a Canvas assignment HTML page:
 
@@ -673,8 +586,7 @@ locked Mar 5 at 1:30pm.` or colored `Due on` notice text copied from Canvas.
   wording as plain text or add a short absence note rather than inventing a
   fake file.
 
-When an assignment-style leaf folder also has companion pages such as
-`lab.md`, `prelab.md`, `submission.md`, or similar pages:
+When an assignment-style leaf folder also has companion pages such as `lab.md`, `prelab.md`, `submission.md`, or similar pages:
 
 - Let `index.md` own the Canvas wording, logistics, availability, file types,
   and attachments list.
@@ -719,10 +631,7 @@ When an assignment-style leaf folder also has companion pages such as
 
 ## Course index linkage
 
-When updating the course `index.md`, place `assignments/` immediately after
-`## children` and before session entries when the course has an assignments
-section. This order applies to course-root `index.md`, not to the assignment-
-specific `assignments/index.md`.
+When updating the course `index.md`, place `assignments/` immediately after `## children` and before session entries when the course has an assignments section. This order applies to course-root `index.md`, not to the assignment-specific `assignments/index.md`.
 
 Example course index child order:
 
@@ -738,10 +647,7 @@ Example course index child order:
 
 ## Flashcards
 
-Assignment creation rarely involves creating flashcards in the assignment
-pages themselves. Flashcards for solution techniques and problem-solving
-methods belong in the relevant topic notes or question pages. Assignment
-index pages are reference pages, not learning pages.
+Assignment creation rarely involves creating flashcards in the assignment pages themselves. Flashcards for solution techniques and problem-solving methods belong in the relevant topic notes or question pages. Assignment index pages are reference pages, not learning pages.
 
 ## Related skills
 

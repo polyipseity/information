@@ -23,5 +23,4 @@ This index summarizes the repository instruction files under `.agents/instructio
 
 Each instruction file contains its own metadata (`name`, `description`, `applyTo`, etc.) in the YAML frontmatter. Only `name`, `description`, and `applyTo` are supported keys – do not add other fields to instruction frontmatter, as they will be ignored.
 
-> __Note:__ Skills use a different set of allowed keys and no longer
-> support `applyTo`.  See `.agents/skills/README.md` for details.
+> __Note:__ Skills use a different set of allowed keys and no longer support `applyTo`.  See `.agents/skills/README.md` for details.

@@ -6,12 +6,12 @@
   "MD049": {
     "enabled": true,
     "severity": "error",
-    "style": "underscore"
+    "style": "underscore",
   },
   "MD050": {
     "enabled": true,
     "severity": "error",
-    "style": "underscore"
+    "style": "underscore",
   },
-  "MD051": false
+  "MD051": false,
 }

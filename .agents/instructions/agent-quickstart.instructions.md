@@ -30,8 +30,7 @@ This file is a short, actionable checklist for an AI agent (or new contributor) 
 Repository gotchas & quick tips
 
 > __🔥 CRITICAL: Never `cd` into `.agents/skills/` to run `uv` commands.__
-> Always run `uv` from the repo root. Running `uv` inside a skill folder
-> creates `.venv/`/`uv.lock` trash there and fails due to missing deps.
+> Always run `uv` from the repo root. Running `uv` inside a skill folder creates `.venv/`/`uv.lock` trash there and fails due to missing deps.
 
 - Preserve `# pytextgen` fences and flashcard markup. There are three
   forms: cloze deletions `{@{...}@}` (common), two-sided pairs `::@::` (one

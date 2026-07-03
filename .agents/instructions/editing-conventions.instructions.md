@@ -28,17 +28,7 @@ Agent quickstart pointer: See `.agents/instructions/agent-quickstart.instruction
 
 ## MD028 (consecutive blockquotes)
 
-When two blockquote blocks (`> ...`) appear adjacent without intervening
-non-blockquote content, markdownlint rule MD028 fires. To suppress it
-legitimately (when the blockquotes are intentionally separate), always use
-the exact pattern below. The `<!-- markdownlint MD028 -->` comment is
-required __whenever two separate blockquote blocks__ appear adjacent to
-each other (separated only by blank lines). If the blockquotes represent
-distinct content that should remain separate (e.g., questions and answers,
-different speakers, or separate quotations), you must insert the separator
-comment. If the blockquotes should be treated as a single continuous
-blockquote (same speaker, same context), write them as one blockquote
-without separation.
+When two blockquote blocks (`> ...`) appear adjacent without intervening non-blockquote content, markdownlint rule MD028 fires. To suppress it legitimately (when the blockquotes are intentionally separate), always use the exact pattern below. The `<!-- markdownlint MD028 -->` comment is required __whenever two separate blockquote blocks__ appear adjacent to each other (separated only by blank lines). If the blockquotes represent distinct content that should remain separate (e.g., questions and answers, different speakers, or separate quotations), you must insert the separator comment. If the blockquotes should be treated as a single continuous blockquote (same speaker, same context), write them as one blockquote without separation.
 
 ### Required pattern
 
@@ -82,10 +72,7 @@ without separation.
 
 ### Rationale
 
-The comment acts as a semantic separator (intentional break) that also
-prevents markdownlint from flagging adjacent blockquotes as a single
-merged block. Using a plain HTML comment instead of a suppression
-directive keeps the intent explicit for both human readers and linters.
+The comment acts as a semantic separator (intentional break) that also prevents markdownlint from flagging adjacent blockquotes as a single merged block. Using a plain HTML comment instead of a suppression directive keeps the intent explicit for both human readers and linters.
 
 ## Submodule editing policy
 
