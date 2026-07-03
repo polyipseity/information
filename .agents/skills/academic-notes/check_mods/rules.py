@@ -34,6 +34,7 @@ from .utils import (
     ast_headings,
     filter_ast,
     has_flash_tag,
+    html_cpt,
     iter_ast,
     locate,
     locate_range,
@@ -1753,6 +1754,71 @@ def one_sided_calc_warning(ctx: ValidationContext) -> list[ValidationMessage]:
                         col_end=col_end,
                     )
                 )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def misplaced_suppression_comment(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a suppression comment appears between the flashcard separator
+    and the card content, rather than at the end of the line.
+
+    Suppression comments (``<!-- check: ignore-line[...]: rationale -->``)
+    must be placed at the very end of the flashcard line, after all visible
+    content.  Placing them immediately after ``::@::`` or ``:@:`` before the
+    content is incorrect.
+    """
+    errors: list[ValidationMessage] = []
+    for idx, line in enumerate(ctx.text.splitlines(), start=1):
+        # determine which separator applies
+        if "::@::" in line:
+            sep = "::@::"
+        elif ":@:" in line:
+            sep = ":@:"
+        else:
+            continue
+
+        left, right = line.split(sep, 1)
+
+        # find the first suppression HTML comment on the right side
+        m = re.search(r"<!--\s*check:\s*ignore-(?:line|next-line|file)\[", right)
+        if not m:
+            continue  # no suppression comment
+
+        comment_start = m.start()
+        # content before the comment (excluding leading whitespace)
+        before_comment = right[:comment_start].strip()
+        # content after the comment (find closing -->)
+        close_m = re.search(r"-->", right[comment_start:])
+        if not close_m:
+            continue  # malformed, skip
+        after_comment = right[comment_start + close_m.end() :].strip()
+
+        # Comment is misplaced if it's at the very start of the right side
+        # (no non-whitespace content before it) and there IS content after it.
+        if not before_comment and after_comment:
+            col = line.find(sep) + 1
+            col_end = len(line) + 1
+            errors.append(
+                ValidationMessage(
+                    rule_id="misplaced_suppression_comment",
+                    msg=(
+                        "Suppression comment placed before card content on a "
+                        "flashcard line (after ``" + sep + "``). "
+                        "Move the comment to the end of the line, after all "
+                        "visible content. For example:\n"
+                        "before: ``- term ::@:: "
+                        + html_cpt("check: ignore-line[...]")
+                        + " $value$``\n"
+                        "after:  ``- term ::@:: $value$ "
+                        + html_cpt("check: ignore-line[...]: rationale")
+                        + "``\n"
+                    ),
+                    severity=Severity.ERROR,
+                    line=idx,
+                    col=col,
+                    col_end=col_end,
+                )
+            )
     return errors
 
 

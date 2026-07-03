@@ -45,6 +45,8 @@ __all__ = (
     "SESSION_HEADING_RE",
     "extract_ast_heading_positions",
     "parse_session_headers",
+    # string helpers
+    "html_cpt",
 )
 
 # shared mistune parser (AST output) used by validator and tests
@@ -415,3 +417,17 @@ def ast_sections(ast_nodes: list[dict]) -> list[dict]:
         sections.append({"heading": current_heading, "children": current_children})
 
     return sections
+
+
+# string helpers --------------------------------------------------------------
+
+
+def html_cpt(text: str) -> str:
+    """Return an HTML comment containing *text*.
+
+    This helper exists because the agent's file-editing tools treat
+    the HTML comment open delimiter as an HTML comment and mangle
+    literal occurrences in Python source strings.  Using this
+    function avoids that tool artifact.
+    """
+    return "<!-- " + text + " -->"
