@@ -78,7 +78,7 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
 
 6. This instruction applies repository-wide; submodules with their own `.agents/instructions/` may augment or override these rules for their subtree (innermost `AGENTS.md` wins).
 
-__Pre-commit validation:__ Before creating commits, agents MUST run repository formatting and validation steps using `bun` script wrappers when available (for example, `bun run format`, `bun run check`, and `bun run test`). When operating on a subset of files, supply explicit paths to these commands (e.g. `bun run check:md --no-globs file.md`) so they complete quickly. The repository includes Husky hooks (`pre-commit`, `commit-msg`, `pre-push`) and `pre-push` runs `bun run test` to prevent pushing failing tests. Ensuring these steps locally reduces CI failures and blocked pushes.
+__Pre-commit validation:__ Before creating commits, agents MUST run repository formatting and validation steps using `bun` script wrappers when available (for example, `bun run format`, `bun run check`, and `bun run test`). When operating on a subset of files, supply explicit paths to these commands (e.g. `bun run check:md --no-globs file.md`) so they complete quickly. The repository uses prek hooks (`pre-commit`, `commit-msg`, `pre-push`) and `pre-push` runs `bun run test` to prevent pushing failing tests. Ensuring these steps locally reduces CI failures and blocked pushes.
 
 ## Commitlint compliance
 

@@ -74,9 +74,11 @@ Repository gotchas & quick tips
 - For standalone Python files that use inline `# /// script` metadata: (1) begin
   with `#!/usr/bin/env python` shebang on line 1, (2) keep metadata keys
   alphabetized (`dependencies`, `requires-python`, `timestamp`), (3) set
-  `requires-python = ">=3.13.0"`, and (4) mirror the union of every
-  inline-script dependency in `pyproject.toml`'s `[dependency-groups].scripts`
-  even when a package is also present in `[project].dependencies`.
+  `requires-python = ">=3.13.0"` (inline scripts target >=3.13.0; the project
+  minimum in AGENTS.md is >=3.14 — the higher bar is intentional for the full
+  project), and (4) mirror the union of every inline-script dependency in
+  `pyproject.toml`'s `[dependency-groups].scripts` even when a package is also
+  present in `[project].dependencies`.
 - Generated content is refreshed automatically; agents should not advise running `uv run -m init generate -C` before pack or publishing workflows.
 - Use the Todo List Tool for multi-step tasks and present the proposed commit message to the user before committing (see `commit-convention.instructions.md`).
 
