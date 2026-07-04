@@ -25,7 +25,7 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 
 - __`scripts/`__ — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
   - Prefer running wrappers (`bun run ...` or `uv run -m ...`) rather than hand-editing generated outputs.
-    Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.agents/instructions/agent-quickstart.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
+    Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.agents/instructions/core-workflows.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
 
 ---
 

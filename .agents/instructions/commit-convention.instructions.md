@@ -6,7 +6,7 @@ applyTo: "**"
 
 # Commit convention for agent-made commits
 
-__Agent quickstart:__ See `.agents/instructions/agent-quickstart.instructions.md` for a short checklist of commands and workflow tips (present commit message to the user, run `bun run format`/`bun run check`, and prefer `bun install` + `bun run prepare` before making changes).
+__Agent quickstart:__ See `.agents/instructions/core-workflows.instructions.md` for a short checklist of commands and workflow tips (present commit message to the user, run `bun run format`/`bun run check`, and prefer `bun install` + `bun run prepare` before making changes).
 
 Whenever an automated agent or helper wishes to create a git commit on behalf of a user in this repository, the agent MUST follow this instruction __and ensure the commit message passes all commitlint rules enforced by the repository__ (including line length, header/body/footer formatting, and any other linting requirements).
 
