@@ -1,3 +1,15 @@
+# Init wrapper guardrails (inlined from init-wrapper.instructions.md)
+
+# - Preserve CLI interface (-c/--cached, -C/--no-cached, passthrough args)
+
+# - Keep exclusion list (.git, .obsidian, tools) and newline normalization (\n)
+
+# - Maintain caching (mtime,text) keyed by folder inode; respect --no-cached
+
+# - Keep async/anyio (anyio.Path, TaskGroup) and pytextgen wiring (entry.invoke)
+
+# - No absolute paths; keep module shims for tools.pytextgen import
+
 from argparse import ONE_OR_MORE, ArgumentParser, Namespace
 from collections import defaultdict
 from collections.abc import (
@@ -30,12 +42,14 @@ from pytextgen.meta import OPEN_TEXT_OPTIONS
 
 __all__ = ("Arguments", "main", "parser")
 
-# Gitignore-style spec: one pattern per line; order matters (last match wins).
-# Negated interpretation: pattern = include; !pattern = exclude. Default (no match) = excluded.
+# Gitignore-style spec: one pattern per line; order matters (last match wins)
+
+# Negated interpretation: pattern = include; !pattern = exclude. Default (no match) = excluded
+
 _GLOB_SPEC = """
-general/**/*.md
-private/general/**/*.md
-private/special/**/*.md
+general/__/*.md
+private/general/__/_.md
+private/special/**/_.md
 special/**/*.md
 """
 
