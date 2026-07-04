@@ -47,9 +47,9 @@ __all__ = ("Arguments", "main", "parser")
 # Negated interpretation: pattern = include; !pattern = exclude. Default (no match) = excluded
 
 _GLOB_SPEC = """
-general/__/*.md
-private/general/__/_.md
-private/special/**/_.md
+general/**/*.md
+private/general/**/*.md
+private/special/**/*.md
 special/**/*.md
 """
 
