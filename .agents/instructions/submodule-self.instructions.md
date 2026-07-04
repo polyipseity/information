@@ -6,16 +6,8 @@ applyTo: "self/arts/**, self/capture the flag/**, self/ledger/**, self/passwords
 
 # Submodule Self Guidelines
 
-- These paths are git submodules managed in separate upstream repositories
-- __Default behavior__: Avoid editing unless user explicitly requests it
-- __If editing is needed but not requested__: Ask the user for permission first
-- __When user approves edits__: Make changes here, then consider contributing upstream
-- Prefer `git submodule update --remote` workflows for syncing upstream changes
-- `self/stash/` is part of the parent repository and is intentionally __not__ covered by this instruction file.
+Unique rules for this subtree:
 
-## Developer tooling & testing (self/ submodules)
-
-- Apply the same repo-level developer and testing conventions inside submodules: use `pyproject.toml`, add unit and integration tests, run `bun run check` and `bun run test` locally (when possible supply explicit file arguments to limit scope and speed up the command), and document any submodule-specific deviations in the submodule's `AGENTS.md`.
-- If a submodule requires different Python or tooling constraints (different Python version or unique CI steps), document them clearly in the submodule `AGENTS.md` and `.agents/instructions/` so agents and CI can pick up the correct settings.
-- When editing Python code in a `self/` submodule, continue to follow the parent repo’s Asyncer/AnyIO guidance: avoid `asyncio`, import helpers from Asyncer for concurrency and sync/async bridging.
-- __Submodule instructions__: Each submodule under `self/` may have its own `AGENTS.md` and `.agents/instructions/` and `.agents/skills/` files that take priority when working within that specific submodule
+- `self/stash/` is __not__ a submodule; it is part of the parent repository and is not covered by this instruction.
+- Prefer `git submodule update --remote` for syncing upstream changes.
+- Each submodule under `self/` may have its own `AGENTS.md` and `.agents/` that take priority.
