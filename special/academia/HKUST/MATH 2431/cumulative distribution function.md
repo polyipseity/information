@@ -146,13 +146,13 @@ Quantiles also describe medians and percentiles: $m$ is a median exactly when it
 
 Flashcards for this section are as follows:
 
-- quantile function ::@:: The generalized inverse of a CDF is $F^{-1}(u)=\inf\{x\in\mathbb R:F(x)\ge u\}$ for $0<u<1$.
-- quantile function (sup formula) ::@:: An equivalent definition is $F^{-1}(u)=\sup\{y\in\mathbb R:F(y)<u\}$ for $0<u<1$.
-- why the generalized inverse is needed ::@:: An ordinary inverse may not exist when the CDF has flat pieces or jumps. The generalized inverse handles both: on a flat part it selects the left endpoint, and at a jump it sends an interval of $u$-values to the same point.
-- inverse-transform sampling via quantile function ::@:: If $U\sim\mathrm{U}(0,1)$ and $X=F^{-1}(U)$, then $X$ has cumulative distribution function $F$. This is the core simulation method for one-dimensional distributions.
-- CDF under an increasing transformation ::@:: If $Y=g(X)$ and $g$ is increasing, then $F_Y(y)=F_X(g^{-1}(y))$.
-- CDF under a decreasing transformation ::@:: If $g$ is decreasing, then $F_Y(y)=P(X\ge g^{-1}(y))=1-F_X(g^{-1}(y)-)$, where $F_X(g^{-1}(y)-)$ is the left limit at $g^{-1}(y)$.
-- median as a quantile ::@:: A median is a generalized $1/2$-quantile; the quantile function gives the smallest median $m=F^{-1}(1/2)$.
+- quantile function ::@:: The generalized inverse of a CDF is $F^{-1}(u)=\inf\{x\in\mathbb R:F(x)\ge u\}$ for $0<u<1$. <!--SR:!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
+- quantile function (sup formula) ::@:: An equivalent definition is $F^{-1}(u)=\sup\{y\in\mathbb R:F(y)<u\}$ for $0<u<1$. <!--SR:!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
+- why the generalized inverse is needed ::@:: An ordinary inverse may not exist when the CDF has flat pieces or jumps. The generalized inverse handles both: on a flat part it selects the left endpoint, and at a jump it sends an interval of $u$-values to the same point. <!--SR:!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
+- inverse-transform sampling via quantile function ::@:: If $U\sim\mathrm{U}(0,1)$ and $X=F^{-1}(U)$, then $X$ has cumulative distribution function $F$. This is the core simulation method for one-dimensional distributions. <!--SR:!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
+- CDF under an increasing transformation ::@:: If $Y=g(X)$ and $g$ is increasing, then $F_Y(y)=F_X(g^{-1}(y))$. <!--SR:!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
+- CDF under a decreasing transformation ::@:: If $g$ is decreasing, then $F_Y(y)=P(X\ge g^{-1}(y))=1-F_X(g^{-1}(y)-)$, where $F_X(g^{-1}(y)-)$ is the left limit at $g^{-1}(y)$. <!--SR:!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
+- median as a quantile ::@:: A median is a generalized $1/2$-quantile; the quantile function gives the smallest median $m=F^{-1}(1/2)$. <!--SR:!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 ## mixed and pathological distributions
 

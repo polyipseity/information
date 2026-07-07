@@ -22,7 +22,7 @@ tags:
 
 In {@{[economics](economics.md)}@}, {@{__total cost__ \(__TC__\)}@} is {@{the minimum financial cost of producing some quantity of output}@}. This is {@{the total [economic cost](economic%20cost.md) of production}@} and is made up of {@{[variable cost](variable%20cost.md), which varies according to the quantity of a good produced and includes inputs}@} such as {@{labor and raw materials}@}, plus {@{[fixed cost](fixed%20cost.md), which is independent of the quantity of a good produced and includes inputs that cannot be varied in the short term}@} such as {@{buildings and machinery, including possibly [sunk costs](sunk%20cost.md)}@}. <!--SR:!2030-05-05,1526,361!2030-06-07,1552,361!2030-03-24,1493,361!2030-06-22,1564,361!2026-09-28,474,321!2029-09-28,1345,350!2028-06-12,962,341!2030-04-05,1502,361-->
 
-{@{Total cost in economics}@} includes {@{the total [opportunity cost](opportunity%20cost.md) \(benefits received from the next-best alternative\)}@} of each {@{[factor of production](factors%20of%20production.md) as part of its fixed or variable costs}@}. <!--SR:!2030-03-12,1483,361!2029-05-21,1088,301-->
+{@{Total cost in economics}@} includes {@{the total [opportunity cost](opportunity%20cost.md) \(benefits received from the next-best alternative\)}@} of each {@{[factor of production](factors%20of%20production.md) as part of its fixed or variable costs}@}. <!--SR:!2030-03-12,1483,361!2029-05-21,1088,301!fsrs,2026-07-11T16:57:30.908Z,8,8.2956,1,2,1,0,0,2026-07-03T16:57:30.908Z-->
 
 {@{The additional total cost of one additional unit of production}@} is called {@{[marginal cost](marginal%20cost.md)}@}. <!--SR:!2030-03-22,1492,361!2030-01-30,1450,361-->
 

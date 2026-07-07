@@ -51,7 +51,7 @@ In {@{[electrical engineering](electrical%20engineering.md) and [electronics](el
 
 - {@{__[Component](electronic%20component.md)__}@}: {@{A device with two or more [terminals](<terminal%20(electronics).md>) into which, or out of which, current may flow.}@} <!--SR:!2029-02-26,1122,350!2029-11-15,1321,360-->
 
-- {@{__[Node](<node%20(circuits).md>)__}@}: {@{A point at which terminals of more than two components are joined}@}. {@{A conductor with a substantially zero resistance}@} is considered to be {@{a node for the purpose of analysis}@}. <!--SR:!2029-08-14,1255,350!2030-11-13,1631,369-->
+- {@{__[Node](<node%20(circuits).md>)__}@}: {@{A point at which terminals of more than two components are joined}@}. {@{A conductor with a substantially zero resistance}@} is considered to be {@{a node for the purpose of analysis}@}. <!--SR:!2029-08-14,1255,350!2030-11-13,1631,369!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 - {@{__Branch__}@}: {@{The component\(s\) joining two nodes.}@} <!--SR:!2028-11-28,1053,360!fsrs,2031-05-06T00:00:00.000Z,1758,1758.43253061,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
 

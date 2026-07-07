@@ -44,7 +44,7 @@ Representative journal entry examples:
 > | --------------------------------------------------------------------- | ------------- | ------------- |
 > | {@{Patents}@}                                                         | {@{150 000}@} |               |
 > | {@{Share capital — ordinary (10 000 × 10)}@}                          |               | {@{100 000}@} |
-> | {@{Share premium — ordinary}@}                                        |               | {@{50 000}@}  | <!--SR:!2026-07-31,81,339!2026-07-17,70,339!fsrs,2027-06-16T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-17,70,339!2026-07-31,81,339!2026-07-31,81,339!2026-07-28,78,339-->
+> | {@{Share premium — ordinary}@}                                        |               | {@{50 000}@}  | <!--SR:!2026-07-31,81,339!2026-07-17,70,339!fsrs,2027-06-16T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-17,70,339!2026-07-31,81,339!2026-07-31,81,339!2026-07-28,78,339!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -56,7 +56,7 @@ Representative journal entry examples:
 > | {@{Share capital — ordinary (10 000 × 10)}@}                  |               | {@{100 000}@} |
 > | {@{Share premium — ordinary}@}                                |               | {@{25 000}@}  |
 >
-> _Explanation._ In each case, the asset is recorded at its measured fair value and equity is credited for the same amount (par plus premium); only the measurement basis (shares, patent, or discounted cash flows) changes. <!--SR:!2026-07-13,66,328!2026-07-30,80,339!2026-07-31,81,339!2026-07-15,68,328!2026-07-28,78,339!2026-07-29,79,339!2026-07-19,72,339-->
+> _Explanation._ In each case, the asset is recorded at its measured fair value and equity is credited for the same amount (par plus premium); only the measurement basis (shares, patent, or discounted cash flows) changes. <!--SR:!2026-07-13,66,328!2026-07-30,80,339!2026-07-31,81,339!2026-07-15,68,328!2026-07-28,78,339!2026-07-29,79,339!2026-07-19,72,339!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -68,7 +68,7 @@ Representative journal entry examples:
 > | {@{Share premium — ordinary (shortfall/discount)}@}                           | {@{15 000}@}  |               |
 > | {@{Share capital — ordinary (10 000 × 10)}@}                                  |               | {@{100 000}@} |
 >
-> _Explanation._ _Share capital_ is credited at the full par amount of {@{100 000 for the 10 000 ordinary shares issued}@}. The asset is recorded at its fair value of {@{85 000 for the patent received}@}. The balancing debit of {@{15 000 falls on Share premium — ordinary}@}, giving it a {@{debit (negative) balance instead of the usual credit premium balance}@}. Under IFRS this is permissible but unusual. <!--SR:!2026-07-28,78,339!2026-07-31,81,339!2026-07-14,67,328!2026-07-30,80,339!2026-07-16,69,328!2026-07-30,80,339!2026-07-28,78,339!2026-07-20,73,339!2026-08-01,82,339!2026-08-01,82,339!2026-07-14,67,328-->
+> _Explanation._ _Share capital_ is credited at the full par amount of {@{100 000 for the 10 000 ordinary shares issued}@}. The asset is recorded at its fair value of {@{85 000 for the patent received}@}. The balancing debit of {@{15 000 falls on Share premium — ordinary}@}, giving it a {@{debit (negative) balance instead of the usual credit premium balance}@}. Under IFRS this is permissible but unusual. <!--SR:!2026-07-28,78,339!2026-07-31,81,339!2026-07-14,67,328!2026-07-30,80,339!2026-07-16,69,328!2026-07-30,80,339!2026-07-28,78,339!2026-07-20,73,339!2026-08-01,82,339!2026-08-01,82,339!2026-07-14,67,328!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -80,7 +80,7 @@ Representative journal entry examples:
 > | {@{Share capital — ordinary}@} | | {@{50 000}@} |
 > | {@{Share premium — ordinary}@} | | {@{10 000}@} |
 >
-> _Explanation._ The new positive premium does {@{not erase the earlier debit balance automatically}@}; it simply reduces the running {@{debit balance in Share premium — ordinary from 15 000 to 5 000}@}. <!--SR:!2026-08-09,90,361!2026-08-07,88,361!2026-08-08,89,361!2026-08-06,87,361!2026-08-08,89,361!2026-08-08,89,361!2026-08-07,86,355!2026-08-05,86,361!2026-08-07,88,361-->
+> _Explanation._ The new positive premium does {@{not erase the earlier debit balance automatically}@}; it simply reduces the running {@{debit balance in Share premium — ordinary from 15 000 to 5 000}@}. <!--SR:!2026-08-09,90,361!2026-08-07,88,361!2026-08-08,89,361!2026-08-06,87,361!2026-08-08,89,361!2026-08-08,89,361!2026-08-07,86,355!2026-08-05,86,361!2026-08-07,88,361!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 ---
 
@@ -138,7 +138,7 @@ Representative journal entry examples:
 > | {@{Cash}@}                                                                    | {@{150 000}@} |               |
 > | {@{Share capital — ordinary (net: 200 000 − 50 000 excess costs)}@}           |               | {@{150 000}@} |
 >
-> _Explanation._ Gross proceeds are {@{300 000 (200 000 × 1.50)}@}; premium before costs is {@{100 000}@}. Direct costs of {@{150 000}@} first exhaust the {@{100 000 premium, reducing Share premium to zero}@}, and the remaining {@{50 000 reduces Share capital from 200 000 to 150 000}@}. _Share premium_ ends at {@{zero rather than a negative balance}@}; the excess is borne by _Share capital_, not carried as a debit balance on _Share premium_. <!--SR:!2026-07-31,81,339!2026-07-30,80,339!2026-07-29,79,339!2026-07-18,71,339!2026-07-14,67,328!2026-08-01,82,339!2026-07-19,72,339!2026-08-01,82,339!2026-07-30,78,339!2026-08-01,82,339!2026-07-21,74,339-->
+> _Explanation._ Gross proceeds are {@{300 000 (200 000 × 1.50)}@}; premium before costs is {@{100 000}@}. Direct costs of {@{150 000}@} first exhaust the {@{100 000 premium, reducing Share premium to zero}@}, and the remaining {@{50 000 reduces Share capital from 200 000 to 150 000}@}. _Share premium_ ends at {@{zero rather than a negative balance}@}; the excess is borne by _Share capital_, not carried as a debit balance on _Share premium_. <!--SR:!2026-07-31,81,339!2026-07-30,80,339!2026-07-29,79,339!2026-07-18,71,339!2026-07-14,67,328!2026-08-01,82,339!2026-07-19,72,339!2026-08-01,82,339!2026-07-30,78,339!2026-08-01,82,339!2026-07-21,74,339!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -149,7 +149,7 @@ Representative journal entry examples:
 > | {@{Cash}@} | {@{196 000}@} | |
 > | {@{Share capital — preference (net after excess direct costs)}@} | | {@{196 000}@} |
 >
-> _Explanation._ Gross proceeds are {@{208 000 (40 000 × 5.20)}@}. Preference premium before costs is only {@{8 000}@}. Direct costs of {@{12 000}@} first eliminate that {@{8 000 preference premium}@}, and the remaining {@{4 000}@} reduces {@{Share capital — preference from 200 000 to 196 000}@}. The same exhaustion logic applies class by class: ordinary issue costs use {@{ordinary premium first}@}, while preference issue costs use {@{preference premium first}@}. <!--SR:!2026-08-09,90,361!2026-08-11,92,361!2026-08-07,88,361!2026-08-05,86,355!2026-08-05,86,355!2026-08-08,89,361!2026-08-13,92,361!2026-08-09,90,361!2026-08-05,86,361!2026-08-08,89,361!2026-08-09,90,361!2026-08-07,88,361!2026-08-02,83,355-->
+> _Explanation._ Gross proceeds are {@{208 000 (40 000 × 5.20)}@}. Preference premium before costs is only {@{8 000}@}. Direct costs of {@{12 000}@} first eliminate that {@{8 000 preference premium}@}, and the remaining {@{4 000}@} reduces {@{Share capital — preference from 200 000 to 196 000}@}. The same exhaustion logic applies class by class: ordinary issue costs use {@{ordinary premium first}@}, while preference issue costs use {@{preference premium first}@}. <!--SR:!2026-08-09,90,361!2026-08-11,92,361!2026-08-07,88,361!2026-08-05,86,355!2026-08-05,86,355!2026-08-08,89,361!2026-08-13,92,361!2026-08-09,90,361!2026-08-05,86,361!2026-08-08,89,361!2026-08-09,90,361!2026-08-07,88,361!2026-08-02,83,355!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 ---
 
@@ -274,7 +274,7 @@ That means both issuance entries and dividend-allocation calculations are usuall
 > | {@{Share capital — preference, Series B}@} | | {@{80 000}@} |
 > | {@{Share premium — preference, Series B}@} | | {@{8 000}@} |
 >
-> _Explanation._ The company does {@{not lump the two classes into one preference-share-capital figure before computing par and premium}@}. Each class keeps its own par-value and premium logic. <!--SR:!2026-08-11,92,361!2026-08-08,89,361!2026-08-05,86,355!2026-08-11,92,361!2026-08-08,89,361!2026-08-09,90,361!2026-08-08,89,361!2026-08-09,90,361!2026-08-04,85,355!2026-08-11,92,361!2026-08-10,91,361!2026-08-04,85,355-->
+> _Explanation._ The company does {@{not lump the two classes into one preference-share-capital figure before computing par and premium}@}. Each class keeps its own par-value and premium logic. <!--SR:!2026-08-11,92,361!2026-08-08,89,361!2026-08-05,86,355!2026-08-11,92,361!2026-08-08,89,361!2026-08-09,90,361!2026-08-08,89,361!2026-08-09,90,361!2026-08-04,85,355!2026-08-11,92,361!2026-08-10,91,361!2026-08-04,85,355!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -291,7 +291,7 @@ That means both issuance entries and dividend-allocation calculations are usuall
 > | {@{Dividends payable — preference, Series B}@} | | {@{4 800}@} |
 > | {@{Dividends payable — ordinary}@} | | {@{16 200}@} |
 >
-> _Explanation._ Different par values matter because the fixed preference dividend for each class is based on that class's own {@{par amount and stated rate}@}, not on a blended shortcut. <!--SR:!2026-08-09,90,361!2026-07-24,77,355!2026-08-07,88,361!2026-08-10,89,361!2026-08-10,91,361!2026-08-13,92,361!2026-08-06,87,361!2026-08-13,92,361!2026-08-06,87,361!2026-08-07,88,361!2026-08-11,92,361!2026-08-05,86,361!2026-08-05,86,355-->
+> _Explanation._ Different par values matter because the fixed preference dividend for each class is based on that class's own {@{par amount and stated rate}@}, not on a blended shortcut. <!--SR:!2026-08-09,90,361!2026-07-24,77,355!2026-08-07,88,361!2026-08-10,89,361!2026-08-10,91,361!2026-08-13,92,361!2026-08-06,87,361!2026-08-13,92,361!2026-08-06,87,361!2026-08-07,88,361!2026-08-11,92,361!2026-08-05,86,361!2026-08-05,86,355!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 Representative journal entry example at issuance:
 
@@ -342,7 +342,7 @@ Representative journal entry examples:
 > | ----------------------------------------------------------------------- | ------------ | ------------ |
 > | {@{Cash}@}                                                              | {@{45 000}@} |              |
 > | {@{Share premium — treasury (shortfall: 50 000 − 45 000)}@}             | {@{5 000}@}  |              |
-> | {@{Treasury shares (at cost)}@}                                         |              | {@{50 000}@} | <!--SR:!2026-08-02,81,339!2026-08-01,82,339!2026-07-31,81,339!fsrs,2027-06-16T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-16,69,339!2026-07-30,78,339!2026-07-27,77,339-->
+> | {@{Treasury shares (at cost)}@}                                         |              | {@{50 000}@} | <!--SR:!2026-08-02,81,339!2026-08-01,82,339!2026-07-31,81,339!fsrs,2027-06-16T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-16,69,339!2026-07-30,78,339!2026-07-27,77,339!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -355,7 +355,7 @@ Representative journal entry examples:
 > | {@{Retained earnings (remaining shortfall: 20 000 − 8 000)}@}                      | {@{12 000}@} |              |
 > | {@{Treasury shares (at cost)}@}                                                    |              | {@{50 000}@} |
 >
-> _Explanation._ Shortfall = {@{50 000 − 30 000 = 20 000}@}. The first {@{8 000}@} comes from _Share premium — treasury_ (exhausting it). The remaining {@{12 000}@} is debited to _Retained earnings_. If _Retained earnings_ was, say, only {@{5 000}@} before this entry, it would fall to {@{−7 000}@} — an accumulated deficit. The loss is absorbed by equity, not reported in profit or loss. <!--SR:!2026-07-29,79,339!fsrs,2027-06-16T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-29,79,339!2026-07-30,80,339!2026-07-30,80,339!2026-07-29,79,339!2026-08-01,82,339!fsrs,2027-06-16T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-30,80,339!2026-07-30,78,339!2026-07-28,78,339!2026-07-30,80,339!2026-08-01,82,339!2026-07-19,72,339-->
+> _Explanation._ Shortfall = {@{50 000 − 30 000 = 20 000}@}. The first {@{8 000}@} comes from _Share premium — treasury_ (exhausting it). The remaining {@{12 000}@} is debited to _Retained earnings_. If _Retained earnings_ was, say, only {@{5 000}@} before this entry, it would fall to {@{−7 000}@} — an accumulated deficit. The loss is absorbed by equity, not reported in profit or loss. <!--SR:!2026-07-29,79,339!fsrs,2027-06-16T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-29,79,339!2026-07-30,80,339!2026-07-30,80,339!2026-07-29,79,339!2026-08-01,82,339!fsrs,2027-06-16T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-12T00:00:00.000Z!2026-07-30,80,339!2026-07-30,78,339!2026-07-28,78,339!2026-07-30,80,339!2026-08-01,82,339!2026-07-19,72,339!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 ---
 
@@ -454,7 +454,7 @@ __Summary__: The most common equity account that can be negative is _Retained ea
 > | {@{Retained earnings}@} | {@{20&nbsp;000}@} | |
 > | {@{Treasury shares}@} | | {@{50&nbsp;000}@} |
 >
-> _Explanation._ If retained earnings had only {@{€12&nbsp;000}@} before the entry, it would fall to {@{a negative balance of €8&nbsp;000}@}, creating an accumulated deficit. <!--SR:!2026-08-11,92,361!2026-08-04,85,355!2026-08-07,86,355!2026-08-05,86,361!2026-08-07,88,361!2026-08-10,91,361!2026-08-09,88,361!2026-08-07,88,361!2026-08-10,89,361-->
+> _Explanation._ If retained earnings had only {@{€12&nbsp;000}@} before the entry, it would fall to {@{a negative balance of €8&nbsp;000}@}, creating an accumulated deficit. <!--SR:!2026-08-11,92,361!2026-08-04,85,355!2026-08-07,86,355!2026-08-05,86,361!2026-08-07,88,361!2026-08-10,91,361!2026-08-09,88,361!2026-08-07,88,361!2026-08-10,89,361!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 ---
 
@@ -533,7 +533,7 @@ Representative journal entry examples:
 > | {@{At date of distribution (January 30, 2025)}@} | Dr              | Cr              |
 > | ------------------------------------------------ | --------------- | --------------- |
 > | {@{Property dividends payable}@}                 | {@{2 000 000}@} |                 |
-> | {@{Equity investments}@}                         |                 | {@{2 000 000}@} | <!--SR:!2026-07-29,79,339!2026-07-27,77,339!2026-07-31,81,339!2026-07-29,79,339!2026-07-28,78,339!2026-07-19,72,339!2026-08-01,82,339!2026-07-28,78,339!2026-07-30,80,339!2026-07-17,70,339!2026-07-30,80,339!2026-07-17,70,339!2026-07-16,69,339!2026-07-29,79,339-->
+> | {@{Equity investments}@}                         |                 | {@{2 000 000}@} | <!--SR:!2026-07-29,79,339!2026-07-27,77,339!2026-07-31,81,339!2026-07-29,79,339!2026-07-28,78,339!2026-07-19,72,339!2026-08-01,82,339!2026-07-28,78,339!2026-07-30,80,339!2026-07-17,70,339!2026-07-30,80,339!2026-07-17,70,339!2026-07-16,69,339!2026-07-29,79,339!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -544,7 +544,7 @@ Representative journal entry examples:
 > | {@{Income tax expense}@} | {@{187 500}@} | |
 > | {@{Income taxes payable}@} | | {@{187 500}@} |
 >
-> _Explanation._ The property dividend can therefore trigger both a {@{distribution of assets}@} and a {@{current tax charge on the remeasurement gain}@}. <!--SR:!2026-08-03,84,355!2026-08-06,87,361!2026-08-07,88,361!2026-08-10,91,361!2026-08-09,90,361!2026-08-07,86,355!2026-07-30,80,355-->
+> _Explanation._ The property dividend can therefore trigger both a {@{distribution of assets}@} and a {@{current tax charge on the remeasurement gain}@}. <!--SR:!2026-08-03,84,355!2026-08-06,87,361!2026-08-07,88,361!2026-08-10,91,361!2026-08-09,90,361!2026-08-07,86,355!2026-07-30,80,355!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -559,7 +559,7 @@ Representative journal entry examples:
 > | {@{At date of payment}@} | Dr              | Cr              |
 > | ------------------------ | --------------- | --------------- |
 > | {@{Dividends payable}@}  | {@{1 200 000}@} |                 |
-> | {@{Cash}@}               |                 | {@{1 200 000}@} | <!--SR:!2026-07-31,81,339!2026-07-28,78,339!2026-08-02,81,339!2026-07-23,73,328!2026-07-20,73,339!2026-08-03,82,339!2026-07-31,81,339!2026-07-29,79,339!2026-08-02,81,339!2026-07-14,67,328!2026-07-13,66,328!2026-08-01,80,339-->
+> | {@{Cash}@}               |                 | {@{1 200 000}@} | <!--SR:!2026-07-31,81,339!2026-07-28,78,339!2026-08-02,81,339!2026-07-23,73,328!2026-07-20,73,339!2026-08-03,82,339!2026-07-31,81,339!2026-07-29,79,339!2026-08-02,81,339!2026-07-14,67,328!2026-07-13,66,328!2026-08-01,80,339!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -573,7 +573,7 @@ Representative journal entry examples:
 > | {@{At date of distribution}@}               | Dr           | Cr           |
 > | ------------------------------------------- | ------------ | ------------ |
 > | {@{Ordinary share dividend distributable}@} | {@{10 000}@} |              |
-> | {@{Share capital — ordinary}@}              |              | {@{10 000}@} | <!--SR:!2026-07-28,78,339!2026-07-13,66,328!2026-07-28,78,339!2026-07-13,66,328!2026-08-01,82,339!2026-07-29,77,339!2026-07-30,80,339!2026-07-15,68,328!2026-07-28,78,339!2026-08-01,82,339-->
+> | {@{Share capital — ordinary}@}              |              | {@{10 000}@} | <!--SR:!2026-07-28,78,339!2026-07-13,66,328!2026-07-28,78,339!2026-07-13,66,328!2026-08-01,82,339!2026-07-29,77,339!2026-07-30,80,339!2026-07-15,68,328!2026-07-28,78,339!2026-08-01,82,339!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -589,7 +589,7 @@ Representative journal entry examples:
 > | {@{Ordinary share dividend distributable}@} | {@{40 000}@} |              |
 > | {@{Share capital — ordinary (20 000 × 2)}@} |              | {@{40 000}@} |
 >
-> _IFRS vs US GAAP comparison for the Copperleaf example._ Under __IFRS__ (this course), _Retained earnings_ decreases by only {@{40 000}@} (par 2 × 20 000 new shares) and _Share capital_ increases by the same {@{40 000}@}; _Share premium_ is unchanged. Under __US GAAP__ (large dividend, for comparison), _Retained earnings_ would decrease by {@{360 000}@} (fair value 18 × 20 000 shares), _Share capital_ would increase {@{40 000}@} (par), and _Share premium_ would increase {@{320 000}@} (excess). The IFRS par-value method results in a smaller reduction to _Retained earnings_ and no premium creation; the US GAAP fair-value method transfers more from _Retained earnings_ and recognises the economic significance of issuing a large block of new shares. <!--SR:!2026-08-01,82,339!2026-08-01,82,339!2026-07-27,77,339!2026-07-28,78,339!2026-07-30,80,339!2026-07-31,81,339!2026-07-30,80,339!2026-07-28,78,339!fsrs,2027-06-22T00:00:00.000Z,344,343.6736239,1,2,7,0,0,2026-07-13T00:00:00.000Z!2026-07-29,77,339!2026-07-22,72,328!2026-07-29,79,339!2026-07-30,80,339!2026-08-02,81,339!2026-07-29,77,339-->
+> _IFRS vs US GAAP comparison for the Copperleaf example._ Under __IFRS__ (this course), _Retained earnings_ decreases by only {@{40 000}@} (par 2 × 20 000 new shares) and _Share capital_ increases by the same {@{40 000}@}; _Share premium_ is unchanged. Under __US GAAP__ (large dividend, for comparison), _Retained earnings_ would decrease by {@{360 000}@} (fair value 18 × 20 000 shares), _Share capital_ would increase {@{40 000}@} (par), and _Share premium_ would increase {@{320 000}@} (excess). The IFRS par-value method results in a smaller reduction to _Retained earnings_ and no premium creation; the US GAAP fair-value method transfers more from _Retained earnings_ and recognises the economic significance of issuing a large block of new shares. <!--SR:!2026-08-01,82,339!2026-08-01,82,339!2026-07-27,77,339!2026-07-28,78,339!2026-07-30,80,339!2026-07-31,81,339!2026-07-30,80,339!2026-07-28,78,339!fsrs,2027-06-22T00:00:00.000Z,344,343.6736239,1,2,7,0,0,2026-07-13T00:00:00.000Z!2026-07-29,77,339!2026-07-22,72,328!2026-07-29,79,339!2026-07-30,80,339!2026-08-02,81,339!2026-07-29,77,339!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -600,7 +600,7 @@ Representative journal entry examples:
 > | {@{Ordinary share dividend distributable}@} | {@{40 000}@} | |
 > | {@{Share capital — ordinary}@} | | {@{40 000}@} |
 >
-> _Explanation._ The exam trap is to think the later market price rewrites the dividend accounting. It does {@{not rewrite the already-fixed declaration-date measurement}@}. The relevant amount is already fixed when the dividend is {@{declared}@}; IFRS stays at {@{par value}@}, and even the US-GAAP comparison would keep the {@{declaration-date fair-value measurement}@} rather than remeasuring again before distribution. <!--SR:!2026-08-06,87,361!2026-08-09,90,361!2026-08-05,86,361!2026-08-08,87,361!2026-08-08,89,361!2026-08-10,91,361!2026-08-08,89,361!2026-08-05,86,355!2026-08-13,92,361-->
+> _Explanation._ The exam trap is to think the later market price rewrites the dividend accounting. It does {@{not rewrite the already-fixed declaration-date measurement}@}. The relevant amount is already fixed when the dividend is {@{declared}@}; IFRS stays at {@{par value}@}, and even the US-GAAP comparison would keep the {@{declaration-date fair-value measurement}@} rather than remeasuring again before distribution. <!--SR:!2026-08-06,87,361!2026-08-09,90,361!2026-08-05,86,361!2026-08-08,87,361!2026-08-08,89,361!2026-08-10,91,361!2026-08-08,89,361!2026-08-05,86,355!2026-08-13,92,361!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -620,7 +620,7 @@ Representative journal entry examples:
 > | ------------------------------------------------------ | ------------ | ------------ |
 > | {@{Retained earnings}@}                                | {@{50 000}@} |              |
 > | {@{Dividends payable — preference}@}                   |              | {@{18 000}@} |
-> | {@{Dividends payable — ordinary}@}                     |              | {@{32 000}@} | <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z-->
+> | {@{Dividends payable — ordinary}@}                     |              | {@{32 000}@} | <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -721,7 +721,7 @@ Finally, some transactions interact with share dividends before the distribution
 > | {@{Retained earnings}@} | {@{47&nbsp;500}@} | |
 > | {@{Dividends payable — ordinary}@} | | {@{47&nbsp;500}@} |
 >
-> _Explanation._ Treasury shares are {@{not treated as outstanding for dividend entitlement}@}, so they are excluded from the dividend calculation. <!--SR:!2026-08-06,87,361!2026-08-06,87,361!2026-08-11,92,361!2026-08-07,88,361!2026-08-03,84,355!2026-08-06,87,361-->
+> _Explanation._ Treasury shares are {@{not treated as outstanding for dividend entitlement}@}, so they are excluded from the dividend calculation. <!--SR:!2026-08-06,87,361!2026-08-06,87,361!2026-08-11,92,361!2026-08-07,88,361!2026-08-03,84,355!2026-08-06,87,361!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 ---
 
@@ -850,7 +850,7 @@ The journal entry should show the __movement by account__. The statement of fina
 > | {@{Share capital — preference}@} | | {@{50 000}@} |
 > | {@{Share premium — preference}@} | | {@{10 000}@} |
 >
-> _Presentation logic._ The journal entry shows the {@{movement in each equity account}@}. If the statement of financial position were prepared immediately afterward, the equity section would present those same balances as separate line items such as {@{Share capital — ordinary, Share premium — ordinary, Share capital — preference, Share premium — preference, Retained earnings, reserves, and Treasury shares (deduction)}@}. That is the clean way to present an equity-heavy transaction on an exam. <!--SR:!2026-08-03,84,355!2026-08-10,91,361!2026-08-07,88,361!2026-08-11,92,361!2026-08-06,87,361!2026-08-08,89,361!2026-08-10,91,361!2026-08-02,83,355!2026-08-07,88,361!2026-07-31,81,355!2026-08-04,85,355!2026-08-09,88,361!2026-08-12,91,361-->
+> _Presentation logic._ The journal entry shows the {@{movement in each equity account}@}. If the statement of financial position were prepared immediately afterward, the equity section would present those same balances as separate line items such as {@{Share capital — ordinary, Share premium — ordinary, Share capital — preference, Share premium — preference, Retained earnings, reserves, and Treasury shares (deduction)}@}. That is the clean way to present an equity-heavy transaction on an exam. <!--SR:!2026-08-03,84,355!2026-08-10,91,361!2026-08-07,88,361!2026-08-11,92,361!2026-08-06,87,361!2026-08-08,89,361!2026-08-10,91,361!2026-08-02,83,355!2026-08-07,88,361!2026-07-31,81,355!2026-08-04,85,355!2026-08-09,88,361!2026-08-12,91,361!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -861,7 +861,7 @@ The journal entry should show the __movement by account__. The statement of fina
 > | {@{Retained earnings}@} | {@{300 000}@} | {@{+120 000 − 40 000 − 20 000}@} | {@{360 000}@} |
 > | {@{Capital expenditure reserve}@} | {@{0}@} | {@{+20 000}@} | {@{20 000}@} |
 >
-> _Interpretation._ Total equity rises because profit exceeds the dividend, but the statement of changes in equity also shows that not all of the increase stays in retained earnings. <!--SR:!2026-08-09,90,361!2026-08-11,92,361!2026-08-11,92,361!2026-07-28,78,355!2026-08-03,84,355!2026-08-05,86,355!2026-08-10,91,361!2026-08-03,84,355-->
+> _Interpretation._ Total equity rises because profit exceeds the dividend, but the statement of changes in equity also shows that not all of the increase stays in retained earnings. <!--SR:!2026-08-09,90,361!2026-08-11,92,361!2026-08-11,92,361!2026-07-28,78,355!2026-08-03,84,355!2026-08-05,86,355!2026-08-10,91,361!2026-08-03,84,355!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 ---
 

@@ -9,7 +9,7 @@ tags:
 
 # many-to-many (data model)
 
-{@{A __many-to-many__ relationship}@} is {@{a [cardinality](<cardinality%20(data%20modeling).md>) referring to a relationship between two entities A and B}@} in which {@{A is related to multiple Bs and vice versa}@}. <!--SR:!fsrs,2033-09-27T00:37:08.571Z,2670,2670.03498639,1,2,11,0,0,2026-06-06T00:37:08.571Z-->
+{@{A __many-to-many__ relationship}@} is {@{a [cardinality](<cardinality%20(data%20modeling).md>) referring to a relationship between two entities A and B}@} in which {@{A is related to multiple Bs and vice versa}@}. <!--SR:!fsrs,2033-09-27T00:37:08.571Z,2670,2670.03498639,1,2,11,0,0,2026-06-06T00:37:08.571Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z-->
 
 ## data relationships
 

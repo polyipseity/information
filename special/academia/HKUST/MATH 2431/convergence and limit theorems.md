@@ -17,7 +17,7 @@ The final part of the course studies how sequences of random variables behave as
 
 Flashcards for this section are as follows:
 
-- overview ::@:: Limit theorems describe the asymptotic behavior of sequences of random variables and explain why averages and normalized sums become predictable.
+- overview ::@:: Limit theorems describe the asymptotic behavior of sequences of random variables and explain why averages and normalized sums become predictable. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## convergence in probability
 
@@ -38,9 +38,9 @@ The key contrast with convergence in distribution is that no constant limit is n
 
 Flashcards for this section are as follows:
 
-- convergence in probability / definition ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_n\to X$ in probability means $P(|X_n-X|>\varepsilon)\to0$ for every $\varepsilon>0$. The defect set $A_n^X(\varepsilon)=\{\omega:|X_n(\omega)-X(\omega)|>\varepsilon\}$ captures where the approximation fails.
-- continuous mapping for convergence in probability ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $g$ is continuous and $X_n\xrightarrow{p}X$, then $g(X_n)\xrightarrow{p}g(X)$.
-- algebra of convergence in probability ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\to X$, $Y_n\to Y$ in probability, then $X_n\pm Y_n$, $X_nY_n$, $X_n/Y_n$ (when $P(Y=0)=0$), $(X_n,Y_n)$, and $\max/\min/|\cdot|$ all converge accordingly. No constant limit is needed, unlike Slutsky's theorem for convergence in distribution.
+- convergence in probability / definition ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_n\to X$ in probability means $P(|X_n-X|>\varepsilon)\to0$ for every $\varepsilon>0$. The defect set $A_n^X(\varepsilon)=\{\omega:|X_n(\omega)-X(\omega)|>\varepsilon\}$ captures where the approximation fails. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- continuous mapping for convergence in probability ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $g$ is continuous and $X_n\xrightarrow{p}X$, then $g(X_n)\xrightarrow{p}g(X)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- algebra of convergence in probability ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\to X$, $Y_n\to Y$ in probability, then $X_n\pm Y_n$, $X_nY_n$, $X_n/Y_n$ (when $P(Y=0)=0$), $(X_n,Y_n)$, and $\max/\min/|\cdot|$ all converge accordingly. No constant limit is needed, unlike Slutsky's theorem for convergence in distribution. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## convergence in p-th mean
 
@@ -58,10 +58,10 @@ By Lyapunov's inequality (a consequence of Jensen), $\|X\|_q\le\|X\|_p$ for $1\l
 
 Flashcards for this section are as follows:
 
-- convergence in $p$-th mean / definition ::@:: For $p\ge1$, $E[|Z_n|^p],E[|Z|^p]<\infty$ and $E[|Z_n-Z|^p]\to0$.
-- $p$-th mean implies convergence in probability ::@:: $P(|Z_n-Z|>\varepsilon)\le E[|Z_n-Z|^p]/\varepsilon^p\to0$ by Markov's inequality.
-- Lyapunov inequality / monotonicity ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> For $1\le q\le p$, $\|X\|_q\le\|X\|_p$ by Jensen, so $L^p$ convergence implies $L^q$ convergence.
-- $L^p$ vs almost-sure convergence ::@:: $L^p$ convergence does not imply almost-sure convergence (typewriter sequence), but every $L^p$-convergent sequence has an a.s. convergent subsequence. If $X_n\to X$ in $L^p$, then $E[|X_n|^p]\to E[|X|^p]$.
+- convergence in $p$-th mean / definition ::@:: For $p\ge1$, $E[|Z_n|^p],E[|Z|^p]<\infty$ and $E[|Z_n-Z|^p]\to0$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- $p$-th mean implies convergence in probability ::@:: $P(|Z_n-Z|>\varepsilon)\le E[|Z_n-Z|^p]/\varepsilon^p\to0$ by Markov's inequality. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Lyapunov inequality / monotonicity ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> For $1\le q\le p$, $\|X\|_q\le\|X\|_p$ by Jensen, so $L^p$ convergence implies $L^q$ convergence. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- $L^p$ vs almost-sure convergence ::@:: $L^p$ convergence does not imply almost-sure convergence (typewriter sequence), but every $L^p$-convergent sequence has an a.s. convergent subsequence. If $X_n\to X$ in $L^p$, then $E[|X_n|^p]\to E[|X|^p]$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## convergence in distribution
 
@@ -103,13 +103,13 @@ __Subsequence convergence and identification.__ By Prokhorov's theorem, tightnes
 
 Flashcards for this section are as follows:
 
-- convergence in distribution / definition ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_n\xrightarrow{d} X$ means $F_{X_n}(x)\to F_X(x)$ at every continuity point of $F_X$. Equivalently (Portmanteau): $E[f(X_n)]\to E[f(X)]$ for bounded continuous $f$, or $\limsup P(X_n\in F)\le P(X\in F)$ for closed $F$.
-- vanishing perturbation ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $Y_n\xrightarrow{d} X$ and $X_n-Y_n\to0$ in probability, then $X_n\xrightarrow{d} X$. Proof: sandwich $F_{X_n}(x)$ via $F_{Y_n}(x\pm\varepsilon)$ and $P(|X_n-Y_n|\ge\varepsilon)$.
-- smoothing effect of CDF integration ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The CDF integrates the PDF/PMF, acting as a low-pass filter. Convergence in distribution is strictly weaker: $f_n(x)=1+\sin(2\pi n x)$ oscillates but $F_n\to x$ uniformly, and discrete uniforms on $\{k/n\}$ converge to $\operatorname{Uniform}(0,1)$.
-- proof that convergence in probability implies convergence in distribution ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Sandwich: $F_{X_n}(x)\le F_X(x+\varepsilon)+P(|X_n-X|>\varepsilon)$ and $F_X(x-\varepsilon)\le F_{X_n}(x)+P(|X_n-X|>\varepsilon)$; let $n\to\infty$ then $\varepsilon\downarrow0$.
-- Portmanteau theorem: four equivalent formulations ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> (1) $E[f(X_n)]\to E[f(X)]$ for bounded continuous $f$; (2) $\limsup P(X_n\in F)\le P(X\in F)$ for closed $F$; (3) $\liminf P(X_n\in G)\ge P(X\in G)$ for open $G$; (4) $P(X_n\in B)\to P(X\in B)$ for continuity sets $B$. (2) and (3) are dual via complement.
-- Lévy's continuity theorem ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_n\xrightarrow{d} X$ iff $\phi_n(t)\to\phi(t)$ pointwise for all $t\in\mathbb R$. Forward: $e^{itx}$ bounded continuous, so Portmanteau gives $\phi_n(t)\to\phi(t)$. Reverse (tightness + identification): (1) $\phi(0)=1$ and $\phi$ continuous at 0 (hypothesis); (2) Fubini + $\int_{-\delta}^\delta e^{itx}dt=2\sin(\delta x)/x$ gives tail bound $P(|X_n|>2/\delta)\le\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt$; (3) DCT on $[-\delta,\delta]$ (dominated by 2 since $|\phi_n|\le1$) + continuity of $\phi$ gives $\limsup_n P(|X_n|>2/\delta)<2\varepsilon$, hence tightness; (4) Prokhorov $\Rightarrow$ every subsequence has a further subsequence converging to some $Q$; (5) forward direction identifies $\phi_Q=\phi$, and uniqueness of CF makes every subsequential limit $P$, so $X_n\xrightarrow{d} P$.
-- Lévy reverse: tightness via DCT ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> DCT on $[-\delta,\delta]$: $\lim_n\frac1\delta\int_{-\delta}^\delta(1-\phi_n)dt = \frac1\delta\int_{-\delta}^\delta(1-\phi)dt$ (dominated by 2 since $|\phi_n|\le1$). Continuity of $\phi$ at 0 bounds the limit $<2\varepsilon$, so via tail inequality $\limsup_n P(|X_n|>2/\delta)<2\varepsilon$ ($\varepsilon$ arbitrary), hence $\{X_n\}$ tight.
+- convergence in distribution / definition ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_n\xrightarrow{d} X$ means $F_{X_n}(x)\to F_X(x)$ at every continuity point of $F_X$. Equivalently (Portmanteau): $E[f(X_n)]\to E[f(X)]$ for bounded continuous $f$, or $\limsup P(X_n\in F)\le P(X\in F)$ for closed $F$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- vanishing perturbation ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $Y_n\xrightarrow{d} X$ and $X_n-Y_n\to0$ in probability, then $X_n\xrightarrow{d} X$. Proof: sandwich $F_{X_n}(x)$ via $F_{Y_n}(x\pm\varepsilon)$ and $P(|X_n-Y_n|\ge\varepsilon)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- smoothing effect of CDF integration ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The CDF integrates the PDF/PMF, acting as a low-pass filter. Convergence in distribution is strictly weaker: $f_n(x)=1+\sin(2\pi n x)$ oscillates but $F_n\to x$ uniformly, and discrete uniforms on $\{k/n\}$ converge to $\operatorname{Uniform}(0,1)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- proof that convergence in probability implies convergence in distribution ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Sandwich: $F_{X_n}(x)\le F_X(x+\varepsilon)+P(|X_n-X|>\varepsilon)$ and $F_X(x-\varepsilon)\le F_{X_n}(x)+P(|X_n-X|>\varepsilon)$; let $n\to\infty$ then $\varepsilon\downarrow0$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Portmanteau theorem: four equivalent formulations ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> (1) $E[f(X_n)]\to E[f(X)]$ for bounded continuous $f$; (2) $\limsup P(X_n\in F)\le P(X\in F)$ for closed $F$; (3) $\liminf P(X_n\in G)\ge P(X\in G)$ for open $G$; (4) $P(X_n\in B)\to P(X\in B)$ for continuity sets $B$. (2) and (3) are dual via complement. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Lévy's continuity theorem ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_n\xrightarrow{d} X$ iff $\phi_n(t)\to\phi(t)$ pointwise for all $t\in\mathbb R$. Forward: $e^{itx}$ bounded continuous, so Portmanteau gives $\phi_n(t)\to\phi(t)$. Reverse (tightness + identification): (1) $\phi(0)=1$ and $\phi$ continuous at 0 (hypothesis); (2) Fubini + $\int_{-\delta}^\delta e^{itx}dt=2\sin(\delta x)/x$ gives tail bound $P(|X_n|>2/\delta)\le\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt$; (3) DCT on $[-\delta,\delta]$ (dominated by 2 since $|\phi_n|\le1$) + continuity of $\phi$ gives $\limsup_n P(|X_n|>2/\delta)<2\varepsilon$, hence tightness; (4) Prokhorov $\Rightarrow$ every subsequence has a further subsequence converging to some $Q$; (5) forward direction identifies $\phi_Q=\phi$, and uniqueness of CF makes every subsequential limit $P$, so $X_n\xrightarrow{d} P$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-03T00:06:00.000Z,0,1.2931,5.11217071,1,1,0,0,2026-07-03T00:00:00.000Z-->
+- Lévy reverse: tightness via DCT ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> DCT on $[-\delta,\delta]$: $\lim_n\frac1\delta\int_{-\delta}^\delta(1-\phi_n)dt = \frac1\delta\int_{-\delta}^\delta(1-\phi)dt$ (dominated by 2 since $|\phi_n|\le1$). Continuity of $\phi$ at 0 bounds the limit $<2\varepsilon$, so via tail inequality $\limsup_n P(|X_n|>2/\delta)<2\varepsilon$ ($\varepsilon$ arbitrary), hence $\{X_n\}$ tight. <!--SR:!fsrs,2026-07-03T00:06:00.000Z,0,1.2931,5.11217071,1,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-03T00:06:00.000Z,0,1.2931,5.11217071,1,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## relations between convergence modes
 
@@ -129,9 +129,9 @@ A useful partial converse connects weak convergence with vanishing perturbations
 
 Flashcards for this section are as follows:
 
-- hierarchy of convergence modes / summary ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Almost-sure $\Rightarrow$ in probability $\Rightarrow$ in distribution; $p$-th mean $\Rightarrow$ in probability. No other implications hold in general.
-- convergence in probability implies weak convergence: If $X_n\to X$ in probability, what can you conclude about $X_n\xrightarrow{d} X$? ::@:: One has $X_n\xrightarrow{d} X$.
-- vanishing product: $X_n\xrightarrow{d} X$ and $Y_n\to_P0$ imply $X_nY_n\to_P0$ ::@:: If $X_n\xrightarrow{d} X$ and $Y_n\to0$ in probability, then $X_nY_n\to0$ in probability.
+- hierarchy of convergence modes / summary ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Almost-sure $\Rightarrow$ in probability $\Rightarrow$ in distribution; $p$-th mean $\Rightarrow$ in probability. No other implications hold in general. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- convergence in probability implies weak convergence: If $X_n\to X$ in probability, what can you conclude about $X_n\xrightarrow{d} X$? ::@:: One has $X_n\xrightarrow{d} X$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- vanishing product: $X_n\xrightarrow{d} X$ and $Y_n\to_P0$ imply $X_nY_n\to_P0$ ::@:: If $X_n\xrightarrow{d} X$ and $Y_n\to0$ in probability, then $X_nY_n\to0$ in probability. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## almost sure convergence
 
@@ -147,13 +147,13 @@ __Proof.__ Assume $Z_n\xrightarrow{\text{a.s.}} Z$. For any $\varepsilon>0$, $P(
 
 Flashcards for this section are as follows:
 
-- almost sure convergence / definition ::@:: $Z_n$ converges $P$-almost surely to $Z$ if $P(\{\omega\in\Omega:\lim_{n\to\infty}Z_n(\omega)=Z(\omega)\})=1$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- convergence set is measurable ::@:: The set $\{\omega\in\Omega:\lim_{n\to\infty}Z_n(\omega)=Z(\omega)\}$ belongs to $\mathcal F$ because $\limsup_{n\to\infty}|Z_n-Z|$ is measurable, and $\{\lim Z_n=Z\} = \bigcap_{k=1}^\infty \{\limsup_{n\to\infty}|Z_n-Z| < 1/k\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- almost sure convergence implies convergence in probability: proof sketch ::@:: $P(|Z_n-Z|>\varepsilon) \le P(\bigcup_{k=n}^\infty \{|Z_k-Z|>\varepsilon\}) \to P(\{|Z_k-Z|>\varepsilon\}\text{ infinitely often (i.o.)}) \le P(\lim Z_n \neq Z)=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- $\limsup$ of random variables is measurable ::@:: For each $m$, $\sup_{n\ge m}Y_n$ is measurable because $\{\sup_{n\ge m}Y_n\le t\}=\bigcap_{n\ge m}\{Y_n\le t\}$, and $\limsup Y_n = \inf_{m\ge 1}\sup_{n\ge m}Y_n$, so it remains measurable.
-- convergence set as intersection of $\limsup$ conditions ::@:: $\{\lim Z_n = Z\} = \{\limsup_{n\to\infty}|Z_n-Z| = 0\} = \bigcap_{k=1}^\infty \{\limsup|Z_n-Z| < 1/k\}$, proving the convergence set is in $\mathcal F$.
-- continuity from above in the a.s. $\Rightarrow$ in prob proof ::@:: $B_n = \bigcup_{k=n}^\infty\{|Z_k-Z|>\varepsilon\}$ forms a decreasing sequence; by continuity from above $P(B_n)\to P(\bigcap_n B_n)=P(\{|Z_k-Z|>\varepsilon\}\text{ infinitely often (i.o.)})$.
-- i.o. set containment in convergence-failure set ::@:: $\{|Z_k-Z|>\varepsilon\}\text{ infinitely often (i.o.)} \subseteq \{\lim Z_n \neq Z\}$, because if $|Z_k-Z|>\varepsilon$ for infinitely many $k$, the limit cannot be $Z$. Thus $P(\{|Z_k-Z|>\varepsilon\}\text{ infinitely often (i.o.)})\le P(\lim Z_n\neq Z)=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- almost sure convergence / definition ::@:: $Z_n$ converges $P$-almost surely to $Z$ if $P(\{\omega\in\Omega:\lim_{n\to\infty}Z_n(\omega)=Z(\omega)\})=1$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- convergence set is measurable ::@:: The set $\{\omega\in\Omega:\lim_{n\to\infty}Z_n(\omega)=Z(\omega)\}$ belongs to $\mathcal F$ because $\limsup_{n\to\infty}|Z_n-Z|$ is measurable, and $\{\lim Z_n=Z\} = \bigcap_{k=1}^\infty \{\limsup_{n\to\infty}|Z_n-Z| < 1/k\}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- almost sure convergence implies convergence in probability: proof sketch ::@:: $P(|Z_n-Z|>\varepsilon) \le P(\bigcup_{k=n}^\infty \{|Z_k-Z|>\varepsilon\}) \to P(\{|Z_k-Z|>\varepsilon\}\text{ infinitely often (i.o.)}) \le P(\lim Z_n \neq Z)=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- $\limsup$ of random variables is measurable ::@:: For each $m$, $\sup_{n\ge m}Y_n$ is measurable because $\{\sup_{n\ge m}Y_n\le t\}=\bigcap_{n\ge m}\{Y_n\le t\}$, and $\limsup Y_n = \inf_{m\ge 1}\sup_{n\ge m}Y_n$, so it remains measurable. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- convergence set as intersection of $\limsup$ conditions ::@:: $\{\lim Z_n = Z\} = \{\limsup_{n\to\infty}|Z_n-Z| = 0\} = \bigcap_{k=1}^\infty \{\limsup|Z_n-Z| < 1/k\}$, proving the convergence set is in $\mathcal F$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- continuity from above in the a.s. $\Rightarrow$ in prob proof ::@:: $B_n = \bigcup_{k=n}^\infty\{|Z_k-Z|>\varepsilon\}$ forms a decreasing sequence; by continuity from above $P(B_n)\to P(\bigcap_n B_n)=P(\{|Z_k-Z|>\varepsilon\}\text{ infinitely often (i.o.)})$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- i.o. set containment in convergence-failure set ::@:: $\{|Z_k-Z|>\varepsilon\}\text{ infinitely often (i.o.)} \subseteq \{\lim Z_n \neq Z\}$, because if $|Z_k-Z|>\varepsilon$ for infinitely many $k$, the limit cannot be $Z$. Thus $P(\{|Z_k-Z|>\varepsilon\}\text{ infinitely often (i.o.)})\le P(\lim Z_n\neq Z)=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## continuous mapping theorem
 
@@ -175,9 +175,9 @@ __Example.__ For i.i.d. $X_i\sim\operatorname{Exp}(\lambda)$, SLLN gives $\overl
 
 Flashcards for this section are as follows:
 
-- continuous mapping theorem (a.s. and probability versions) ::@:: If $Z_n\to Z$ in probability (resp. a.s.) and $g$ is measurable with $P(Z\in D_g)=0$, then $g(Z_n)\to g(Z)$ in probability (resp. a.s.). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- continuous mapping theorem: a.s. case proof ::@:: Restrict to the a.s. convergence set where $Z_n\to Z$ and $Z\notin D_g$; then $g(Z_n)\to g(Z)$ pointwise by continuity. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- continuous mapping theorem: probability case proof sketch ::@:: $P(|g(Z_n)-g(Z)|>\varepsilon)\le P(|Z_n-Z|\ge\delta)+P(Z\in B_\delta)+P(Z\in D_g)$. Let $n\to\infty$ then $\delta\downarrow0$. $B_\delta$ contains points near discontinuities where $g$ jumps by $>\varepsilon$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- continuous mapping theorem (a.s. and probability versions) ::@:: If $Z_n\to Z$ in probability (resp. a.s.) and $g$ is measurable with $P(Z\in D_g)=0$, then $g(Z_n)\to g(Z)$ in probability (resp. a.s.). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- continuous mapping theorem: a.s. case proof ::@:: Restrict to the a.s. convergence set where $Z_n\to Z$ and $Z\notin D_g$; then $g(Z_n)\to g(Z)$ pointwise by continuity. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T18:14:08.228Z,8,8.2956,1,2,1,0,0,2026-07-03T18:14:08.228Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- continuous mapping theorem: probability case proof sketch ::@:: $P(|g(Z_n)-g(Z)|>\varepsilon)\le P(|Z_n-Z|\ge\delta)+P(Z\in B_\delta)+P(Z\in D_g)$. Let $n\to\infty$ then $\delta\downarrow0$. $B_\delta$ contains points near discontinuities where $g$ jumps by $>\varepsilon$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## weak law of large numbers
 
@@ -207,11 +207,11 @@ __Remarks (assumptions).__
 
 Flashcards for this section are as follows:
 
-- sample mean in the weak law: If $X_1,X_2,\dots$ are iid, how is $\overline X_n$ defined? ::@:: $\overline X_n=\frac1n\sum_{j=1}^n X_j$.
-- weak law of large numbers: If $X_1,X_2,\dots$ are iid with mean $\mu$ and finite variance, what happens to $\overline X_n$? ::@:: $\overline X_n\to \mu$ in probability.
-- variance of the sample mean: Under the weak-law hypotheses, what is $\operatorname{Var}(\overline X_n)$? ::@:: $\operatorname{Var}(\overline X_n)=\sigma^2/n$.
-- WLLN: relaxation to pairwise uncorrelated ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The theorem only needs $\operatorname{Var}(\overline X_n)\to0$, which holds if the $X_j$ are pairwise uncorrelated with uniformly bounded variance (independence is not required).
-- WLLN: relaxation to infinite variance ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $E[|X_1|]<\infty$ but $\operatorname{Var}(X_1)=\infty$, truncation still yields $\overline X_n\to\mu$ in probability. If $E[|X_1|]=\infty$, the WLLN can fail.
+- sample mean in the weak law: If $X_1,X_2,\dots$ are iid, how is $\overline X_n$ defined? ::@:: $\overline X_n=\frac1n\sum_{j=1}^n X_j$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- weak law of large numbers: If $X_1,X_2,\dots$ are iid with mean $\mu$ and finite variance, what happens to $\overline X_n$? ::@:: $\overline X_n\to \mu$ in probability. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- variance of the sample mean: Under the weak-law hypotheses, what is $\operatorname{Var}(\overline X_n)$? ::@:: $\operatorname{Var}(\overline X_n)=\sigma^2/n$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- WLLN: relaxation to pairwise uncorrelated ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The theorem only needs $\operatorname{Var}(\overline X_n)\to0$, which holds if the $X_j$ are pairwise uncorrelated with uniformly bounded variance (independence is not required). <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T17:03:40.221Z,8,8.2956,1,2,1,0,0,2026-07-03T17:03:40.221Z-->
+- WLLN: relaxation to infinite variance ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $E[|X_1|]<\infty$ but $\operatorname{Var}(X_1)=\infty$, truncation still yields $\overline X_n\to\mu$ in probability. If $E[|X_1|]=\infty$, the WLLN can fail. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### Khinchin's weak law <!-- check: ignore-line[header_style]: proper noun -->
 
@@ -225,10 +225,10 @@ This proof is more powerful than Chebyshev's: it only requires $E[|X_1|]<\infty$
 
 Flashcards for this section are as follows:
 
-- Khinchin's WLLN: assumptions and conclusion ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> For iid $X_j$ with $E[|X_1|]<\infty$ (no variance needed), $\overline X_n\to\mu$ in probability.
-- Khinchin's WLLN: proof via characteristic functions ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $\varphi_{\overline X_n}(t)=(\varphi_X(t/n))^n$ expands to $(1+i\mu t/n+o(1/n))^n\to e^{i\mu t}$, identifying the limit as $\delta_\mu$.
-- Khinchin's WLLN: why the characteristic-function expansion works ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $E[|X_1|]<\infty$ ensures $\varphi_X(t)$ is differentiable at $t=0$ with $\varphi_X'(0)=i\mu$, giving $\varphi_X(t)=1+i\mu t+o(t)$.
-- convergence in distribution to a constant implies convergence in probability ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $Z_n\xrightarrow{d}\delta_c$, then $P(|Z_n-c|>\varepsilon)\to0$ for every $\varepsilon>0$, which means $Z_n\to c$ in probability.
+- Khinchin's WLLN: assumptions and conclusion ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> For iid $X_j$ with $E[|X_1|]<\infty$ (no variance needed), $\overline X_n\to\mu$ in probability. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Khinchin's WLLN: proof via characteristic functions ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $\varphi_{\overline X_n}(t)=(\varphi_X(t/n))^n$ expands to $(1+i\mu t/n+o(1/n))^n\to e^{i\mu t}$, identifying the limit as $\delta_\mu$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Khinchin's WLLN: why the characteristic-function expansion works ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $E[|X_1|]<\infty$ ensures $\varphi_X(t)$ is differentiable at $t=0$ with $\varphi_X'(0)=i\mu$, giving $\varphi_X(t)=1+i\mu t+o(t)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- convergence in distribution to a constant implies convergence in probability ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $Z_n\xrightarrow{d}\delta_c$, then $P(|Z_n-c|>\varepsilon)\to0$ for every $\varepsilon>0$, which means $Z_n\to c$ in probability. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### Feller's necessary and sufficient condition <!-- check: ignore-line[header_style]: proper noun -->
 
@@ -240,9 +240,9 @@ __Remarks.__ (i) The condition is strictly weaker than finite expectation: it co
 
 Flashcards for this section are as follows:
 
-- Feller's necessary and sufficient condition for the WLLN ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $\lim_{x\to\infty}xP(|X_1|>x)=0$; centering constants $a_n=E[X_1\mathbb I_{|X_1|\le n}]$.
-- Feller's condition: intuitive meaning ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $xP(|X_1|>x)\to0$ means $P(|X_1|>x)$ decays faster than $1/x$. It is strictly weaker than finite expectation.
-- centering constant in Feller's WLLN ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $a_n=E[X_1\mathbb I_{|X_1|\le n}]$ corrects for the truncated mean; when $E[X_1]=\mu$ is finite, $a_n\to\mu$ and the classical WLLN is recovered.
+- Feller's necessary and sufficient condition for the WLLN ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $\lim_{x\to\infty}xP(|X_1|>x)=0$; centering constants $a_n=E[X_1\mathbb I_{|X_1|\le n}]$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Feller's condition: intuitive meaning ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $xP(|X_1|>x)\to0$ means $P(|X_1|>x)$ decays faster than $1/x$. It is strictly weaker than finite expectation. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- centering constant in Feller's WLLN ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $a_n=E[X_1\mathbb I_{|X_1|\le n}]$ corrects for the truncated mean; when $E[X_1]=\mu$ is finite, $a_n\to\mu$ and the classical WLLN is recovered. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### Cauchy counterexample <!-- check: ignore-line[header_style]: proper noun -->
 
@@ -254,9 +254,9 @@ This shows that the WLLN is not universal: heavy-tailed distributions can defeat
 
 Flashcards for this section are as follows:
 
-- Cauchy counterexample to the WLLN ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> For iid Cauchy variables, $\overline X_n\sim\text{Cauchy}(0,1)$ — no concentration, tails too heavy ($xP(|X_1|>x)\to 1/\pi$), violating Feller's condition.
-- Cauchy: stability under averaging ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The characteristic function of Cauchy(0,1) is $\varphi(t)=e^{-|t|}$; then $\varphi_{\overline X_n}(t)=(\varphi(t/n))^n=e^{-|t|}$, so $\overline X_n$ has the same Cauchy(0,1) distribution for every $n$.
-- Cauchy: tail-decay rate ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Density $f(x)=1/(\pi(1+x^2))$ gives $P(|X_1|>x)\sim 1/(\pi x)$, so $xP(|X_1|>x)\to 1/\pi$, violating Feller's condition.
+- Cauchy counterexample to the WLLN ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> For iid Cauchy variables, $\overline X_n\sim\text{Cauchy}(0,1)$ — no concentration, tails too heavy ($xP(|X_1|>x)\to 1/\pi$), violating Feller's condition. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Cauchy: stability under averaging ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The characteristic function of Cauchy(0,1) is $\varphi(t)=e^{-|t|}$; then $\varphi_{\overline X_n}(t)=(\varphi(t/n))^n=e^{-|t|}$, so $\overline X_n$ has the same Cauchy(0,1) distribution for every $n$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T17:00:10.846Z,8,8.2956,1,2,1,0,0,2026-07-03T17:00:10.846Z-->
+- Cauchy: tail-decay rate ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Density $f(x)=1/(\pi(1+x^2))$ gives $P(|X_1|>x)\sim 1/(\pi x)$, so $xP(|X_1|>x)\to 1/\pi$, violating Feller's condition. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### WLLN vs SLLN comparison <!-- check: ignore-line[header_style]: proper noun -->
 
@@ -273,8 +273,8 @@ The WLLN holds under strictly weaker conditions than the SLLN (cf. Feller's cond
 
 Flashcards for this section are as follows:
 
-- WLLN vs SLLN comparison ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> WLLN requires only $xP(|X_1|>x)\to0$ (Feller) for convergence in probability; SLLN needs $E[|X_1|]<\infty$ for almost sure convergence.
-- WLLN vs SLLN: rate of convergence ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Under finite variance, WLLN gives $O_P(1/\sqrt n)$. The SLLN has no universal $n^{-\alpha}$ a.s. rate; the Hartman–Wintner LIL gives $O(\sqrt{\log\log n/n})$ a.s.
+- WLLN vs SLLN comparison ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> WLLN requires only $xP(|X_1|>x)\to0$ (Feller) for convergence in probability; SLLN needs $E[|X_1|]<\infty$ for almost sure convergence. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- WLLN vs SLLN: rate of convergence ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Under finite variance, WLLN gives $O_P(1/\sqrt n)$. The SLLN has no universal $n^{-\alpha}$ a.s. rate; the Hartman–Wintner LIL gives $O(\sqrt{\log\log n/n})$ a.s. <!--SR:!fsrs,2026-07-11T18:33:10.929Z,8,8.2956,1,2,1,0,0,2026-07-03T18:33:10.929Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## strong law of large numbers
 
@@ -300,8 +300,8 @@ This turns divergent sums of independent probabilities into almost-sure infinite
 
 Flashcards for this subsection are as follows:
 
-- first Borel-Cantelli lemma ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $\sum_n P(A_n)<\infty$, what is $P(A_n \text{ i.o.})$? $P(A_n \text{ i.o.})=0$.
-- second Borel-Cantelli lemma ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If the events $A_n$ are independent and $\sum_n P(A_n)=\infty$, what is $P(A_n \text{ i.o.})$? $P(A_n \text{ i.o.})=1$.
+- first Borel-Cantelli lemma ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $\sum_n P(A_n)<\infty$, what is $P(A_n \text{ i.o.})$? $P(A_n \text{ i.o.})=0$. <!--SR:!fsrs,2026-07-11T17:02:51.704Z,8,8.2956,1,2,1,0,0,2026-07-03T17:02:51.704Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- second Borel-Cantelli lemma ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If the events $A_n$ are independent and $\sum_n P(A_n)=\infty$, what is $P(A_n \text{ i.o.})$? $P(A_n \text{ i.o.})=1$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### strong-law proof
 
@@ -317,10 +317,10 @@ __Lemma (subsequence criterion for a.s. convergence).__ $Z_n\to Z$ almost surely
 
 Flashcards for this section are as follows:
 
-- strong law of large numbers: Under the strong-law hypotheses, what is the almost-sure limit of $\overline X_n$? ::@:: The sample mean converges almost surely to the true mean.
-- SLLN: why the subsequence $n_k=k^2$ works ::@:: Along $k^2$, Chebyshev gives $P(|\overline X_{k^2}-\mu|>\varepsilon)\le\sigma^2/(k^2\varepsilon^2)$, summable, so Borel-Cantelli yields almost sure convergence.
-- SLLN: gap-filling idea ::@:: Assuming $|X_j|\le C$, split $\overline X_n-\overline X_{k^2}=(\frac1n-\frac1{k^2})\sum_{j=1}^{k^2}X_j+\frac1n\sum_{j=k^2+1}^n X_j$; bound $|\cdot|\le\frac{n-k^2}{n}C+\frac{n-k^2}{n}C=2\frac{n-k^2}{n}C$. With $n-k^2\le2k+1$ for $n\le(k+1)^2$, get $\le\frac{4C}{k}+O(1/k^2)\to0$, so $\overline X_n\to\mu$ a.s. for all $n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- subsequence criterion for a.s. convergence ::@:: $Z_n\to Z$ a.s. iff every subsequence contains a further sub-subsequence converging a.s. to $Z$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- strong law of large numbers: Under the strong-law hypotheses, what is the almost-sure limit of $\overline X_n$? ::@:: The sample mean converges almost surely to the true mean. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- SLLN: why the subsequence $n_k=k^2$ works ::@:: Along $k^2$, Chebyshev gives $P(|\overline X_{k^2}-\mu|>\varepsilon)\le\sigma^2/(k^2\varepsilon^2)$, summable, so Borel-Cantelli yields almost sure convergence. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- SLLN: gap-filling idea ::@:: Assuming $|X_j|\le C$, split $\overline X_n-\overline X_{k^2}=(\frac1n-\frac1{k^2})\sum_{j=1}^{k^2}X_j+\frac1n\sum_{j=k^2+1}^n X_j$; bound $|\cdot|\le\frac{n-k^2}{n}C+\frac{n-k^2}{n}C=2\frac{n-k^2}{n}C$. With $n-k^2\le2k+1$ for $n\le(k+1)^2$, get $\le\frac{4C}{k}+O(1/k^2)\to0$, so $\overline X_n\to\mu$ a.s. for all $n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- subsequence criterion for a.s. convergence ::@:: $Z_n\to Z$ a.s. iff every subsequence contains a further sub-subsequence converging a.s. to $Z$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## law of the iterated logarithm
 
@@ -330,8 +330,8 @@ __Law of the iterated logarithm (Hartman–Wintner).__ For iid $X_j$ with mean $
 
 Flashcards for this section are as follows:
 
-- LIL / statement ::@:: For iid $X_j$ with mean $\mu$ and finite variance $\sigma^2$, $\limsup_{n\to\infty}\frac{\overline X_n-\mu}{\sigma\sqrt{2\log\log n/n}}=1$ a.s. and $\liminf$ is $-1$, so the normalized sample mean oscillates between $\pm1$ infinitely often. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- LIL / intuition ::@:: The LIL gives the a.s. fluctuation envelope $\sqrt{2n\log\log n}$, only slightly larger than the CLT's $\sqrt{n}$ scale. The extra $\sqrt{\log\log n}$ grows so slowly that for typical sample sizes the two scales are nearly the same size. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- LIL / statement ::@:: For iid $X_j$ with mean $\mu$ and finite variance $\sigma^2$, $\limsup_{n\to\infty}\frac{\overline X_n-\mu}{\sigma\sqrt{2\log\log n/n}}=1$ a.s. and $\liminf$ is $-1$, so the normalized sample mean oscillates between $\pm1$ infinitely often. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- LIL / intuition ::@:: The LIL gives the a.s. fluctuation envelope $\sqrt{2n\log\log n}$, only slightly larger than the CLT's $\sqrt{n}$ scale. The extra $\sqrt{\log\log n}$ grows so slowly that for typical sample sizes the two scales are nearly the same size. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## central limit theorem
 
@@ -349,8 +349,8 @@ So the law of large numbers gives the deterministic limit, while the central lim
 
 Flashcards for this section are as follows:
 
-- central limit theorem for sums: If $X_1,X_2,\dots$ are iid with mean $\mu$ and variance $\sigma^2>0$, what is the limiting law of $\frac{\sum_{j=1}^n X_j-n\mu}{\sigma\sqrt n}$? ::@:: The normalized sum converges in distribution to $N(0,1)$.
-- central limit theorem for the sample mean: Under the CLT hypotheses, what is the limiting law of $\sqrt n\,\frac{\overline X_n-\mu}{\sigma}$? ::@:: The normalized sample mean converges in distribution to $N(0,1)$.
+- central limit theorem for sums: If $X_1,X_2,\dots$ are iid with mean $\mu$ and variance $\sigma^2>0$, what is the limiting law of $\frac{\sum_{j=1}^n X_j-n\mu}{\sigma\sqrt n}$? ::@:: The normalized sum converges in distribution to $N(0,1)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- central limit theorem for the sample mean: Under the CLT hypotheses, what is the limiting law of $\sqrt n\,\frac{\overline X_n-\mu}{\sigma}$? ::@:: The normalized sample mean converges in distribution to $N(0,1)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T17:03:18.195Z,8,8.2956,1,2,1,0,0,2026-07-03T17:03:18.195Z-->
 
 ### MGF convergence and convergence in distribution <!-- check: ignore-line[header_style]: MGF is an acronym -->
 
@@ -382,13 +382,13 @@ In the CLT setting only the forward direction is used.
 
 Flashcards for this section are as follows:
 
-- MGF convergence theorem (forward direction) ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $\psi_n(t)=E[e^{tZ_n}]$ and $\psi(t)=E[e^{tZ}]$ exist on $(-\delta,\delta)$ and $\psi_n(t)\to\psi(t)$ pointwise there, then $Z_n\xrightarrow{d}Z$. Three stages: (i) convexity upgrades pointwise to uniform convergence on compacta; (ii) Vitali's theorem extends convergence from the real interval to the complex strip $|\Re(z)|<\delta$; (iii) restricting to $z=it$ gives CF convergence $\phi_n(t)\to\phi(t)$, so Lévy's continuity theorem applies.
-- MGF convergence: convexity → uniform on compacta ::@:: MGFs are convex on the real interval where they exist. A sequence of convex functions converging pointwise on an interval converges uniformly on every compact subinterval. This uniform control is what lets the complex-analytic step go through.
-- MGF convergence: why convergence extends to CFs ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Each $\psi_n(z)=E[e^{zZ_n}]$ extends analytically to the strip $|\Re(z)|<\delta$. Uniform convergence on real compacta implies uniform boundedness there, which propagates to complex compacta via analyticity. Vitali's theorem then forces $\psi_n(z)\to\psi(z)$ on the whole strip; taking $z=it$ yields $\phi_n(t)\to\phi(t)$, and Lévy's continuity theorem gives $Z_n\xrightarrow{d}Z$.
-- MGF vs characteristic function ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Characteristic functions $\phi(t)=E[e^{itX}]$ always exist (bounded modulus 1) and are the gold standard; MGFs $\psi(t)=E[e^{tX}]$ may be infinite for some $t>0$, restricting their use to light-tailed distributions.
-- MGF of $N(0,1)$ ::@:: $\psi_Z(t)=e^{t^2/2}$.
-- counterexample: reverse direction of MGF lemma fails even with MGFs ::@:: For $Z_n=n$ w.p. $1/n$, $0$ otherwise, $Z_n\xrightarrow{d}0$; each $\psi_{Z_n}(t)=(1-1/n)+(1/n)e^{tn}$ exists on all $\mathbb R$ yet $\psi_n(t)\to\infty$ for $t>0$ (while $\psi_0(t)=1$). MGF existence alone does not salvage the reverse direction — UI of $\{e^{tZ_n}\}$ is needed. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- why UI is sufficient for the reverse MGF lemma ::@:: Step 1: truncate $e^{tz}$ at $M$, defining $g_M(z)=e^{tz}\land M$ (bounded continuous). Step 2: triangle inequality $|E[e^{tZ_n}]-E[e^{tZ}]|\le|E[g_M(Z_n)]-E[g_M(Z)]|+E[e^{tZ_n}\mathbf{1}_{e^{tZ_n}>M}]+E[e^{tZ}\mathbf{1}_{e^{tZ}>M}]$. Step 3: for fixed $M$, portmanteau $\Rightarrow\ E[g_M(Z_n)]\to E[g_M(Z)]$; first term $\to0$. Step 4: UI of $\{e^{tZ_n}\}$ makes the two tail expectations $<\varepsilon$ uniformly in $n$ for large $M$. Step 5: let $n\to\infty$ then $M\to\infty$ to get $\psi_n(t)\to\psi(t)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- MGF convergence theorem (forward direction) ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $\psi_n(t)=E[e^{tZ_n}]$ and $\psi(t)=E[e^{tZ}]$ exist on $(-\delta,\delta)$ and $\psi_n(t)\to\psi(t)$ pointwise there, then $Z_n\xrightarrow{d}Z$. Three stages: (i) convexity upgrades pointwise to uniform convergence on compacta; (ii) Vitali's theorem extends convergence from the real interval to the complex strip $|\Re(z)|<\delta$; (iii) restricting to $z=it$ gives CF convergence $\phi_n(t)\to\phi(t)$, so Lévy's continuity theorem applies. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- MGF convergence: convexity → uniform on compacta ::@:: MGFs are convex on the real interval where they exist. A sequence of convex functions converging pointwise on an interval converges uniformly on every compact subinterval. This uniform control is what lets the complex-analytic step go through. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- MGF convergence: why convergence extends to CFs ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Each $\psi_n(z)=E[e^{zZ_n}]$ extends analytically to the strip $|\Re(z)|<\delta$. Uniform convergence on real compacta implies uniform boundedness there, which propagates to complex compacta via analyticity. Vitali's theorem then forces $\psi_n(z)\to\psi(z)$ on the whole strip; taking $z=it$ yields $\phi_n(t)\to\phi(t)$, and Lévy's continuity theorem gives $Z_n\xrightarrow{d}Z$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- MGF vs characteristic function ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Characteristic functions $\phi(t)=E[e^{itX}]$ always exist (bounded modulus 1) and are the gold standard; MGFs $\psi(t)=E[e^{tX}]$ may be infinite for some $t>0$, restricting their use to light-tailed distributions. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- MGF of $N(0,1)$ ::@:: $\psi_Z(t)=e^{t^2/2}$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- counterexample: reverse direction of MGF lemma fails even with MGFs ::@:: For $Z_n=n$ w.p. $1/n$, $0$ otherwise, $Z_n\xrightarrow{d}0$; each $\psi_{Z_n}(t)=(1-1/n)+(1/n)e^{tn}$ exists on all $\mathbb R$ yet $\psi_n(t)\to\infty$ for $t>0$ (while $\psi_0(t)=1$). MGF existence alone does not salvage the reverse direction — UI of $\{e^{tZ_n}\}$ is needed. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T17:02:34.534Z,8,8.2956,1,2,1,0,0,2026-07-03T17:02:34.534Z-->
+- why UI is sufficient for the reverse MGF lemma ::@:: Step 1: truncate $e^{tz}$ at $M$, defining $g_M(z)=e^{tz}\land M$ (bounded continuous). Step 2: triangle inequality $|E[e^{tZ_n}]-E[e^{tZ}]|\le|E[g_M(Z_n)]-E[g_M(Z)]|+E[e^{tZ_n}\mathbf{1}_{e^{tZ_n}>M}]+E[e^{tZ}\mathbf{1}_{e^{tZ}>M}]$. Step 3: for fixed $M$, portmanteau $\Rightarrow\ E[g_M(Z_n)]\to E[g_M(Z)]$; first term $\to0$. Step 4: UI of $\{e^{tZ_n}\}$ makes the two tail expectations $<\varepsilon$ uniformly in $n$ for large $M$. Step 5: let $n\to\infty$ then $M\to\infty$ to get $\psi_n(t)\to\psi(t)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### proof sketch for the CLT
 
@@ -412,12 +412,12 @@ where $C$ is a universal constant. The best known bounds are $0.40973\le C<0.474
 
 Flashcards for this section are as follows:
 
-- normalized variables in the CLT proof: How are $Y_j$ and $S_n$ defined? ::@:: $Y_j=\frac{X_j-\mu}{\sigma}$ and $S_n=\frac{Y_1+\cdots+Y_n}{\sqrt n}$.
-- CLT proof via MGFs: log Taylor expansion ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Let $L(u)=\log\psi_{Y_1}(u)$. $L(0)=0$, $L'(0)=0$, $L''(0)=1$; expanding $L(t/\sqrt n)$ yields $\log\psi_{S_n}(t)=nL(t/\sqrt n)\to t^2/2$, so $\psi_{S_n}(t)\to e^{t^2/2}$.
-- CLT proof: the $(1+a_n/n)^n$ limit ::@:: $\varphi_{S_n}(t)=(1-t^2/(2n)+o(1/n))^n\to e^{-t^2/2}$ via $(1+a_n/n)^n\to e^a$ whenever $a_n\to a$.
-- why the second-order expansion is valid ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Finite variance ensures $\varphi_{Y_1}(t)$ is twice differentiable at $0$; $\varphi_{Y_1}'(0)=iE[Y_1]=0$ and $\varphi_{Y_1}''(0)=-E[Y_1^2]=-1$, so Taylor's theorem gives $\varphi_{Y_1}(t)=1-t^2/2+o(t^2)$.
-- Berry–Esseen theorem: rate of convergence in the CLT ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $E[|X_1-\mu|^3]<\infty$, then $|P(S_n\le x)-\Phi(x)|\le C\rho/(\sigma^3\sqrt n)$ where $\rho=E[|X_1-\mu|^3]$ and $0.40973\le C<0.4748$ — an $O(1/\sqrt n)$ bound.
-- CLT proof via MGFs ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> When MGFs exist, $\psi_{Y_1}(t)=1+t^2/2+o(t^2)$, so $\psi_{S_n}(t)=(1+t^2/(2n)+o(1/n))^n\to e^{t^2/2}$, the MGF of $N(0,1)$.
+- normalized variables in the CLT proof: How are $Y_j$ and $S_n$ defined? ::@:: $Y_j=\frac{X_j-\mu}{\sigma}$ and $S_n=\frac{Y_1+\cdots+Y_n}{\sqrt n}$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- CLT proof via MGFs: log Taylor expansion ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Let $L(u)=\log\psi_{Y_1}(u)$. $L(0)=0$, $L'(0)=0$, $L''(0)=1$; expanding $L(t/\sqrt n)$ yields $\log\psi_{S_n}(t)=nL(t/\sqrt n)\to t^2/2$, so $\psi_{S_n}(t)\to e^{t^2/2}$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- CLT proof: the $(1+a_n/n)^n$ limit ::@:: $\varphi_{S_n}(t)=(1-t^2/(2n)+o(1/n))^n\to e^{-t^2/2}$ via $(1+a_n/n)^n\to e^a$ whenever $a_n\to a$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- why the second-order expansion is valid ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Finite variance ensures $\varphi_{Y_1}(t)$ is twice differentiable at $0$; $\varphi_{Y_1}'(0)=iE[Y_1]=0$ and $\varphi_{Y_1}''(0)=-E[Y_1^2]=-1$, so Taylor's theorem gives $\varphi_{Y_1}(t)=1-t^2/2+o(t^2)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Berry–Esseen theorem: rate of convergence in the CLT ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $E[|X_1-\mu|^3]<\infty$, then $|P(S_n\le x)-\Phi(x)|\le C\rho/(\sigma^3\sqrt n)$ where $\rho=E[|X_1-\mu|^3]$ and $0.40973\le C<0.4748$ — an $O(1/\sqrt n)$ bound. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- CLT proof via MGFs ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> When MGFs exist, $\psi_{Y_1}(t)=1+t^2/2+o(t^2)$, so $\psi_{S_n}(t)=(1+t^2/(2n)+o(1/n))^n\to e^{t^2/2}$, the MGF of $N(0,1)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### proof structure summary
 
@@ -433,7 +433,7 @@ Both approaches follow the same template:
 
 Flashcards for this section are as follows:
 
-- CLT proof structure template ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Center/scale $\to$ expand transform near 0 $\to$ raise to $n$ via independence $\to$ identify limit as $N(0,1)$ transform.
+- CLT proof structure template ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Center/scale $\to$ expand transform near 0 $\to$ raise to $n$ via independence $\to$ identify limit as $N(0,1)$ transform. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### examples <!-- check: ignore-line[section_example_heading]: die-roll CLT as numerical illustration of limit theorems -->
 
@@ -447,9 +447,9 @@ _Proof sketch._ Write $Y_i=(X_i-\mu)^2$ so that $E[Y_1]=\sigma^2$ and $\operator
 
 Flashcards for this section are as follows:
 
-- die-roll sum CLT example: $P(S_{100}>400)$ approximation ::@:: $S_{100}$ has mean $350$, variance $100\cdot35/12\approx291.67$; CLT gives $P(Z>50/\sqrt{291.67})\approx0.0017$.
-- empirical variance: asymptotic distribution ::@:: $\sqrt n(S_n^2-\sigma^2)\xrightarrow{d} N(0,E[(X_1-\mu)^4]-\sigma^4)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- empirical variance: proof idea ::@:: Write $S_n^2-\sigma^2=(\overline Y_n-\sigma^2)+(\mu^2-\overline X_n^2)$ where $Y_i=(X_i-\mu)^2$; CLT handles the first term, SLLN+Slutsky eliminates the second. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- die-roll sum CLT example: $P(S_{100}>400)$ approximation ::@:: $S_{100}$ has mean $350$, variance $100\cdot35/12\approx291.67$; CLT gives $P(Z>50/\sqrt{291.67})\approx0.0017$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- empirical variance: asymptotic distribution ::@:: $\sqrt n(S_n^2-\sigma^2)\xrightarrow{d} N(0,E[(X_1-\mu)^4]-\sigma^4)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- empirical variance: proof idea ::@:: Write $S_n^2-\sigma^2=(\overline Y_n-\sigma^2)+(\mu^2-\overline X_n^2)$ where $Y_i=(X_i-\mu)^2$; CLT handles the first term, SLLN+Slutsky eliminates the second. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## Slutsky's theorem and vanishing perturbation <!-- check: ignore-line[header_style]: Slutsky is a proper noun (eponymous) -->
 
@@ -467,10 +467,10 @@ _Proof sketch._ Let $Z_n=Y_n-X_n\to0$ in probability. For a continuity point $x$
 
 Flashcards for this subsection are as follows:
 
-- intuition: vanishing-perturbation proposition ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If two sequences are asymptotically indistinguishable (difference $\to0$ in probability), they share the same weak limit — like two converging paths must lead to the same destination.
-- vanishing-perturbation proposition ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $X_n-Y_n\to0$ in probability, then $Y_n\xrightarrow{d}X$.
-- proof: sandwich argument ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Bound $F_{Y_n}(x)\le F_{X_n}(x+\varepsilon)+P(|X_n-Y_n|\ge\varepsilon)$ and $F_{Y_n}(x)\ge F_{X_n}(x-\varepsilon)-P(|X_n-Y_n|\ge\varepsilon)$; take $\limsup/\liminf$, then $\varepsilon\downarrow0$.
-- why "vanishing perturbation" ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The difference $X_n-Y_n$ is a perturbation that vanishes in probability; it is too small to affect the limiting distribution.
+- intuition: vanishing-perturbation proposition ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If two sequences are asymptotically indistinguishable (difference $\to0$ in probability), they share the same weak limit — like two converging paths must lead to the same destination. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- vanishing-perturbation proposition ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $X_n-Y_n\to0$ in probability, then $Y_n\xrightarrow{d}X$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- proof: sandwich argument ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Bound $F_{Y_n}(x)\le F_{X_n}(x+\varepsilon)+P(|X_n-Y_n|\ge\varepsilon)$ and $F_{Y_n}(x)\ge F_{X_n}(x-\varepsilon)-P(|X_n-Y_n|\ge\varepsilon)$; take $\limsup/\liminf$, then $\varepsilon\downarrow0$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- why "vanishing perturbation" ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The difference $X_n-Y_n$ is a perturbation that vanishes in probability; it is too small to affect the limiting distribution. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### Slutsky's theorem <!-- check: ignore-line[header_style]: Slutsky is a proper noun (eponymous) -->
 
@@ -484,12 +484,12 @@ _Proof._ For the sum, $(X_n+Y_n)-(X_n+c)=Y_n-c\to0$ in probability, so the vanis
 
 Flashcards for this subsection are as follows:
 
-- intuition: Slutsky's theorem ::@:: When one sequence converges to a constant, the constant passes cleanly through addition, multiplication, and division — the stochastic and deterministic parts separate in the limit.
-- Slutsky's theorem: sum ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c$, then $X_n+Y_n\xrightarrow{d}X+c$.
-- Slutsky's theorem: product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c$, then $X_nY_n\xrightarrow{d}cX$.
-- Slutsky's theorem: quotient ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c\neq0$, then $X_n/Y_n\xrightarrow{d}X/c$.
-- proof: Slutsky's theorem ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Sum: vanishing-perturbation on $(X_n+Y_n)-(X_n+c)$. Product: CMT gives $cX_n\xrightarrow{d}cX$; vanishing product on $X_n(Y_n-c)$; vanishing-perturbation again. Quotient: analogous.
-- why a constant limit is needed ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Slutsky requires $Y_n\xrightarrow{p}c$ (constant). If $Y_n\xrightarrow{d}Y$ with random $Y$, the joint distribution of $(X_n,Y_n)$ is uncontrolled, so algebraic operations don't pass through cleanly.
+- intuition: Slutsky's theorem ::@:: When one sequence converges to a constant, the constant passes cleanly through addition, multiplication, and division — the stochastic and deterministic parts separate in the limit. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Slutsky's theorem: sum ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c$, then $X_n+Y_n\xrightarrow{d}X+c$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Slutsky's theorem: product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c$, then $X_nY_n\xrightarrow{d}cX$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Slutsky's theorem: quotient ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\xrightarrow{p}c\neq0$, then $X_n/Y_n\xrightarrow{d}X/c$. <!--SR:!fsrs,2026-07-11T17:01:32.956Z,8,8.2956,1,2,1,0,0,2026-07-03T17:01:32.956Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- proof: Slutsky's theorem ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Sum: vanishing-perturbation on $(X_n+Y_n)-(X_n+c)$. Product: CMT gives $cX_n\xrightarrow{d}cX$; vanishing product on $X_n(Y_n-c)$; vanishing-perturbation again. Quotient: analogous. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- why a constant limit is needed ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Slutsky requires $Y_n\xrightarrow{p}c$ (constant). If $Y_n\xrightarrow{d}Y$ with random $Y$, the joint distribution of $(X_n,Y_n)$ is uncontrolled, so algebraic operations don't pass through cleanly. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### vanishing product
 
@@ -503,10 +503,10 @@ _Proof._ For any $\varepsilon,k>0$, $$P(|X_nY_n|\ge\varepsilon)\le P(|X_n|>k)+P\
 
 Flashcards for this subsection are as follows:
 
-- intuition: vanishing product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_n$ is tight (large values have small probability) while $Y_n\to_p0$; the product shrinks because $X_n$ can't blow up often enough to offset the vanishing $Y_n$.
-- vanishing product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\to0$ in probability, then $X_nY_n\to0$ in probability.
-- proof: vanishing product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $P(|X_nY_n|\ge\varepsilon)\le P(|X_n|>k)+P(|Y_n|\ge\varepsilon/k)$; $n\to\infty$ then $k\to\infty$ sends both terms to $0$.
-- role of tightness ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Without tightness of $\{X_n\}$, $Y_n\to_p0$ alone could fail — $X_n$ might take unboundedly large values that offset a small $Y_n$.
+- intuition: vanishing product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_n$ is tight (large values have small probability) while $Y_n\to_p0$; the product shrinks because $X_n$ can't blow up often enough to offset the vanishing $Y_n$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- vanishing product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $X_n\xrightarrow{d}X$ and $Y_n\to0$ in probability, then $X_nY_n\to0$ in probability. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- proof: vanishing product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $P(|X_nY_n|\ge\varepsilon)\le P(|X_n|>k)+P(|Y_n|\ge\varepsilon/k)$; $n\to\infty$ then $k\to\infty$ sends both terms to $0$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- role of tightness ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Without tightness of $\{X_n\}$, $Y_n\to_p0$ alone could fail — $X_n$ might take unboundedly large values that offset a small $Y_n$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### example: empirical variance <!-- check: ignore-line[section_example_heading]: worked example integrated within Slutsky section -->
 
@@ -533,12 +533,12 @@ __Step 4: apply the vanishing-perturbation proposition.__ Since $\sqrt n(\hat\si
 
 Flashcards for this subsection are as follows:
 
-- intuition for the empirical-variance derivation: why can we ignore the correction $(\overline X_n-\mu)^2$ in the limit? ::@:: Replacing the true mean $\mu$ by the sample mean $\overline X_n$ creates a correction $(\overline X_n-\mu)^2$ that vanishes in probability; Slutsky lets us ignore it in the limit.
-- finite fourth moment: why is $E[X_1^4]<\infty$ required for the asymptotic distribution of $\hat\sigma_n^2$? ::@:: The CLT for $\frac1n\sum(X_i-\mu)^2$ requires $\operatorname{Var}((X_i-\mu)^2)=\mu_4^{(c)}-\sigma^4$ to be finite, where $\mu_4^{(c)}=E[(X_1-\mu)^4]$ is the fourth central moment and $\sigma^2=\operatorname{Var}(X_1)$; this holds iff the fourth moment is finite.
-- expansion of $\hat\sigma_n^2$ around the true mean $\mu$: what formula relates $\hat\sigma_n^2$ to the infeasible estimator $\frac1n\sum Y_i$? ::@:: $\hat\sigma_n^2 = \frac1n\sum Y_i - (\overline X_n-\mu)^2$ where $\hat\sigma_n^2$ is the empirical variance, $\overline X_n$ is the sample mean, $\mu$ is the true mean, and $Y_i=(X_i-\mu)^2$. Expanding $(X_i-\overline X_n)^2$ and simplifying shows the squared-mean correction appears because centering at $\overline X_n$ rather than $\mu$ subtracts exactly $(\overline X_n-\mu)^2$.
-- vanishing of the squared-mean correction term: why does $\sqrt n(\overline X_n-\mu)^2$ converge in probability to 0? ::@:: $\sqrt n(\overline X_n-\mu)(\overline X_n-\mu)\to_p0$: the sample-mean deviation $\overline X_n-\mu$ (where $\mu$ is the true mean) vanishes in probability (WLLN) while $\sqrt n(\overline X_n-\mu)$ is tight (CLT), so the vanishing-product result applies.
-- how the vanishing-perturbation proposition applies to the empirical-variance derivation: why does the correction not affect the limiting distribution? ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The difference $\sqrt n(\hat\sigma_n^2-\sigma^2)-\sqrt n(\frac1n\sum Y_i-\sigma^2)$ vanishes in probability, where $\hat\sigma_n^2$ is the empirical variance, $\sigma^2$ is the true variance, and $Y_i=(X_i-\mu)^2$; so the vanishing-perturbation proposition equates their weak limits.
-- asymptotic distribution of the empirical variance: what is the weak limit of $\sqrt n(\hat\sigma_n^2-\sigma^2)$? ::@:: $\sqrt n(\hat\sigma_n^2-\sigma^2)\xrightarrow{d}N(0,\mu_4^{(c)}-\sigma^4)$, where $\hat\sigma_n^2$ is the empirical variance, $\sigma^2$ is the true variance, and $\mu_4^{(c)}=E[(X_1-\mu)^4]$ is the fourth central moment.
+- intuition for the empirical-variance derivation: why can we ignore the correction $(\overline X_n-\mu)^2$ in the limit? ::@:: Replacing the true mean $\mu$ by the sample mean $\overline X_n$ creates a correction $(\overline X_n-\mu)^2$ that vanishes in probability; Slutsky lets us ignore it in the limit. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T17:02:40.414Z,8,8.2956,1,2,1,0,0,2026-07-03T17:02:40.414Z-->
+- finite fourth moment: why is $E[X_1^4]<\infty$ required for the asymptotic distribution of $\hat\sigma_n^2$? ::@:: The CLT for $\frac1n\sum(X_i-\mu)^2$ requires $\operatorname{Var}((X_i-\mu)^2)=\mu_4^{(c)}-\sigma^4$ to be finite, where $\mu_4^{(c)}=E[(X_1-\mu)^4]$ is the fourth central moment and $\sigma^2=\operatorname{Var}(X_1)$; this holds iff the fourth moment is finite. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- expansion of $\hat\sigma_n^2$ around the true mean $\mu$: what formula relates $\hat\sigma_n^2$ to the infeasible estimator $\frac1n\sum Y_i$? ::@:: $\hat\sigma_n^2 = \frac1n\sum Y_i - (\overline X_n-\mu)^2$ where $\hat\sigma_n^2$ is the empirical variance, $\overline X_n$ is the sample mean, $\mu$ is the true mean, and $Y_i=(X_i-\mu)^2$. Expanding $(X_i-\overline X_n)^2$ and simplifying shows the squared-mean correction appears because centering at $\overline X_n$ rather than $\mu$ subtracts exactly $(\overline X_n-\mu)^2$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- vanishing of the squared-mean correction term: why does $\sqrt n(\overline X_n-\mu)^2$ converge in probability to 0? ::@:: $\sqrt n(\overline X_n-\mu)(\overline X_n-\mu)\to_p0$: the sample-mean deviation $\overline X_n-\mu$ (where $\mu$ is the true mean) vanishes in probability (WLLN) while $\sqrt n(\overline X_n-\mu)$ is tight (CLT), so the vanishing-product result applies. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- how the vanishing-perturbation proposition applies to the empirical-variance derivation: why does the correction not affect the limiting distribution? ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The difference $\sqrt n(\hat\sigma_n^2-\sigma^2)-\sqrt n(\frac1n\sum Y_i-\sigma^2)$ vanishes in probability, where $\hat\sigma_n^2$ is the empirical variance, $\sigma^2$ is the true variance, and $Y_i=(X_i-\mu)^2$; so the vanishing-perturbation proposition equates their weak limits. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- asymptotic distribution of the empirical variance: what is the weak limit of $\sqrt n(\hat\sigma_n^2-\sigma^2)$? ::@:: $\sqrt n(\hat\sigma_n^2-\sigma^2)\xrightarrow{d}N(0,\mu_4^{(c)}-\sigma^4)$, where $\hat\sigma_n^2$ is the empirical variance, $\sigma^2$ is the true variance, and $\mu_4^{(c)}=E[(X_1-\mu)^4]$ is the fourth central moment. <!--SR:!fsrs,2026-07-11T18:13:30.561Z,8,8.2956,1,2,1,0,0,2026-07-03T18:13:30.561Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 #### zero asymptotic variance
 
@@ -554,10 +554,10 @@ In both regimes the leading CLT term vanishes, so $\hat\sigma_n^2$ converges to 
 
 Flashcards for this subsection are as follows:
 
-- zero asymptotic variance: what does $\mu_4^{(c)}=\sigma^4$ imply about $(X_1-\mu)^2$? ::@:: $\operatorname{Var}((X_1-\mu)^2)=0$, so $(X_1-\mu)^2$ is almost surely equal to $\sigma^2$; the squared deviation has no randomness.
-- zero asymptotic variance: degenerate case ($\sigma^2=0$) ::@:: $X_1$ is almost surely constant; there is no variance to estimate and the asymptotic variance is trivially zero ($\mu_4^{(c)}=0=\sigma^4$).
-- zero asymptotic variance: symmetric two-point case ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_1$ takes values $\mu\pm\sigma$ each with probability $1/2$; then every $(X_i-\mu)^2=\sigma^2$ deterministically, so $\mu_4^{(c)}=\sigma^4$ and the asymptotic variance is zero even though $\sigma^2>0$. (A rescaled symmetric Bernoulli.)
-- zero asymptotic variance: convergence rate when $\mu_4^{(c)}=\sigma^4$ ::@:: The leading CLT term vanishes, so $\hat\sigma_n^2-\sigma^2=o_p(n^{-1/2})$ — convergence is faster than $1/\sqrt n$. The usual $\sqrt n$ scaling overestimates the rate.
+- zero asymptotic variance: what does $\mu_4^{(c)}=\sigma^4$ imply about $(X_1-\mu)^2$? ::@:: $\operatorname{Var}((X_1-\mu)^2)=0$, so $(X_1-\mu)^2$ is almost surely equal to $\sigma^2$; the squared deviation has no randomness. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- zero asymptotic variance: degenerate case ($\sigma^2=0$) ::@:: $X_1$ is almost surely constant; there is no variance to estimate and the asymptotic variance is trivially zero ($\mu_4^{(c)}=0=\sigma^4$). <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- zero asymptotic variance: symmetric two-point case ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $X_1$ takes values $\mu\pm\sigma$ each with probability $1/2$; then every $(X_i-\mu)^2=\sigma^2$ deterministically, so $\mu_4^{(c)}=\sigma^4$ and the asymptotic variance is zero even though $\sigma^2>0$. (A rescaled symmetric Bernoulli.) <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- zero asymptotic variance: convergence rate when $\mu_4^{(c)}=\sigma^4$ ::@:: The leading CLT term vanishes, so $\hat\sigma_n^2-\sigma^2=o_p(n^{-1/2})$ — convergence is faster than $1/\sqrt n$. The usual $\sqrt n$ scaling overestimates the rate. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## normal approximations and continuity correction
 
@@ -573,12 +573,12 @@ __Inverse problem: required sample size.__ Given a desired margin of error $\del
 
 Flashcards for this section are as follows:
 
-- continuity correction for $S_n\le k$ ::@:: For lattice variables, one often improves a normal approximation by replacing an event such as $S_n\le k$ with $S_n\le k+1/2$ before standardizing.
-- continuity correction for binomial probabilities ::@:: $P(a\le S_n\le b)\approx\Phi((b+1/2-np)/\sqrt{np(1-p)})-\Phi((a-1/2-np)/\sqrt{np(1-p)})$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- why continuity correction works ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Binomial increments are integer-valued; approximating a discrete $P(S_n\le k)$ by a continuous normal $P(S_n\le k)$ underestimates coverage by $0.5$ on average. Adding $1/2$ before standardizing centers the bar at $k$ correctly.
-- binomial CLT example: $P(40\le S_{100}\le 60)$ with $p=0.5$ ::@:: Mean $50$, variance $25$, continuity-corrected: $\Phi((60.5-50)/5)-\Phi((39.5-50)/5)=\Phi(2.1)-\Phi(-2.1)\approx0.964$.
-- normal approximation to binomial: rule of thumb ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Reliable when $np\ge5$ and $n(1-p)\ge5$; otherwise Poisson approximation is more accurate.
-- inverse problem: sample size for desired precision ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> For margin $\delta$ and confidence $1-\alpha$, $n\ge z_{\alpha/2}^2\,p(1-p)/\delta^2$; worst-case $p=1/2$ gives $n\ge z_{\alpha/2}^2/(4\delta^2)$.
+- continuity correction for $S_n\le k$ ::@:: For lattice variables, one often improves a normal approximation by replacing an event such as $S_n\le k$ with $S_n\le k+1/2$ before standardizing. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- continuity correction for binomial probabilities ::@:: $P(a\le S_n\le b)\approx\Phi((b+1/2-np)/\sqrt{np(1-p)})-\Phi((a-1/2-np)/\sqrt{np(1-p)})$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- why continuity correction works ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Binomial increments are integer-valued; approximating a discrete $P(S_n\le k)$ by a continuous normal $P(S_n\le k)$ underestimates coverage by $0.5$ on average. Adding $1/2$ before standardizing centers the bar at $k$ correctly. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- binomial CLT example: $P(40\le S_{100}\le 60)$ with $p=0.5$ ::@:: Mean $50$, variance $25$, continuity-corrected: $\Phi((60.5-50)/5)-\Phi((39.5-50)/5)=\Phi(2.1)-\Phi(-2.1)\approx0.964$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- normal approximation to binomial: rule of thumb ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Reliable when $np\ge5$ and $n(1-p)\ge5$; otherwise Poisson approximation is more accurate. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- inverse problem: sample size for desired precision ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> For margin $\delta$ and confidence $1-\alpha$, $n\ge z_{\alpha/2}^2\,p(1-p)/\delta^2$; worst-case $p=1/2$ gives $n\ge z_{\alpha/2}^2/(4\delta^2)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ## applications and intuition
 
@@ -594,8 +594,8 @@ As long as the transformed variables are iid with finite variance, the same argu
 
 Flashcards for this section are as follows:
 
-- why the weak law matters for large $n$ ::@:: It explains why empirical averages stabilize and become reliable approximations to the true mean for large $n$.
-- transformed-observation average $\frac1n\sum_{j=1}^n e^{-X_j/2}$ in the weak law: What kind of average is still covered when the transformed variables are iid with finite variance? ::@:: An average such as $\frac1n\sum_{j=1}^n e^{-X_j/2}$ is still covered.
+- why the weak law matters for large $n$ ::@:: It explains why empirical averages stabilize and become reliable approximations to the true mean for large $n$. <!--SR:!fsrs,2026-07-03T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- transformed-observation average $\frac1n\sum_{j=1}^n e^{-X_j/2}$ in the weak law: What kind of average is still covered when the transformed variables are iid with finite variance? ::@:: An average such as $\frac1n\sum_{j=1}^n e^{-X_j/2}$ is still covered. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### Monte Carlo integration <!-- check: ignore-line[header_style]: proper noun -->
 
@@ -607,8 +607,8 @@ By choosing a different sampling distribution, other integrals can be handled. F
 
 Flashcards for this subsection are as follows:
 
-- Monte Carlo integration: basic idea ::@:: Approximate $I=\int_0^1 h(x)\,dx$ by $\frac1n\sum_{i=1}^n h(U_i)$ with $U_i\sim\operatorname{Uniform}(0,1)$ i.i.d. By the SLLN the estimate converges to $I$ almost surely. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- Monte Carlo integration for normal distributions ::@:: With $X_i\sim N(0,1)$ i.i.d., $\frac{\sqrt{2\pi}}{n}\sum_{i=1}^n h(X_i)\to\int_{-\infty}^\infty e^{-x^2/2}h(x)\,dx$ a.s. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Monte Carlo integration: basic idea ::@:: Approximate $I=\int_0^1 h(x)\,dx$ by $\frac1n\sum_{i=1}^n h(U_i)$ with $U_i\sim\operatorname{Uniform}(0,1)$ i.i.d. By the SLLN the estimate converges to $I$ almost surely. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- Monte Carlo integration for normal distributions ::@:: With $X_i\sim N(0,1)$ i.i.d., $\frac{\sqrt{2\pi}}{n}\sum_{i=1}^n h(X_i)\to\int_{-\infty}^\infty e^{-x^2/2}h(x)\,dx$ a.s. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
 ### application to random walks
 
@@ -632,11 +632,11 @@ The LLN squashes the walk to a point (linear $n$ scale), while the CLT reveals t
 
 Flashcards for this section are as follows:
 
-- simple symmetric random walk position: How is $X_n$ written in terms of the increments $\xi_j$? ::@:: $X_n=\xi_1+\cdots+\xi_n$.
-- law of large numbers for the random walk: What happens to $X_n/n$? ::@:: It converges to $0$ in probability and almost surely.
-- central limit theorem for the random walk: What happens to $X_n/\sqrt n$? ::@:: It converges in distribution to $N(0,1)$.
-- scaling disconnect between LLN and CLT ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> LLN scales by $n$, squashing to a point; CLT scales by $\sqrt n$, revealing diffusive dynamics.
-- origin of the $\sqrt n$ scale ::@:: Uncorrelated increments give $\operatorname{Var}(X_n)=n$, so the RMS distance grows as $\sqrt n$ — the generic diffusive scale.
-- random walk to Brownian motion ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The $x^2\sim t$ scaling leads to Brownian motion via Donsker's invariance principle (functional CLT), formalizing the microscopic basis of the heat equation.
-- recurrence and Pólya's theorem ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Local mass at origin $\sim 1/\sqrt n$; $\sum 1/\sqrt n$ diverges, so the walk returns infinitely often with probability 1.
-- unbounded fluctuations despite mean zero ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Average velocity 0 but $\sqrt n$ fluctuations are unbounded — a gambler with finite capital faces almost sure ruin.
+- simple symmetric random walk position: How is $X_n$ written in terms of the increments $\xi_j$? ::@:: $X_n=\xi_1+\cdots+\xi_n$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- law of large numbers for the random walk: What happens to $X_n/n$? ::@:: It converges to $0$ in probability and almost surely. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- central limit theorem for the random walk: What happens to $X_n/\sqrt n$? ::@:: It converges in distribution to $N(0,1)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- scaling disconnect between LLN and CLT ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> LLN scales by $n$, squashing to a point; CLT scales by $\sqrt n$, revealing diffusive dynamics. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- origin of the $\sqrt n$ scale ::@:: Uncorrelated increments give $\operatorname{Var}(X_n)=n$, so the RMS distance grows as $\sqrt n$ — the generic diffusive scale. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- random walk to Brownian motion ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The $x^2\sim t$ scaling leads to Brownian motion via Donsker's invariance principle (functional CLT), formalizing the microscopic basis of the heat equation. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- recurrence and Pólya's theorem ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Local mass at origin $\sim 1/\sqrt n$; $\sum 1/\sqrt n$ diverges, so the walk returns infinitely often with probability 1. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
+- unbounded fluctuations despite mean zero ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Average velocity 0 but $\sqrt n$ fluctuations are unbounded — a gambler with finite capital faces almost sure ruin. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->

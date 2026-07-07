@@ -19,7 +19,7 @@ The __alkaline fuel cell__ (__AFC__) is {@{a [fuel cell](fuel%20cell.md) that co
 
 ## chemistry
 
-{@{Energy is produced}@} through {@{a [redox reaction](redox%20reaction.md) between [hydrogen](hydrogen.md) and [oxygen](oxygen.md)}@} in {@{hot concentrated [alkaline](alkali.md) [electrolyte](electrolyte.md) such as [potassium hydroxide](potassium%20hydroxide.md) with a temperature in between ambient temperature and 90&nbsp;°C}@}: <!--SR:!2031-04-16,1782,252-->
+{@{Energy is produced}@} through {@{a [redox reaction](redox%20reaction.md) between [hydrogen](hydrogen.md) and [oxygen](oxygen.md)}@} in {@{hot concentrated [alkaline](alkali.md) [electrolyte](electrolyte.md) such as [potassium hydroxide](potassium%20hydroxide.md) with a temperature in between ambient temperature and 90&nbsp;°C}@}: <!--SR:!2031-04-16,1782,252!fsrs,2026-07-21T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-13T00:00:00.000Z!fsrs,2026-07-13T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-13T00:00:00.000Z-->
 
 > - [anode](anode.md) ::@:: H<sub>2</sub>(g) + 2OH<sup>-</sup>(aq) → 2H<sub>2</sub>O(l) + 2e<sup>-</sup> <!--SR:!2028-02-09,1166,290!2028-05-24,981,280-->
 > - [cathode](cathode.md) ::@:: O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq) <!--SR:!2027-05-09,847,292!2026-09-07,629,320-->
