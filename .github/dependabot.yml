@@ -14,7 +14,8 @@ registries:
 updates:
   # Bun (bun.lock)
   - package-ecosystem: "bun"
-    directory: "/"
+    directories:
+      - "**/*"
     schedule:
       interval: "monthly"
     commit-message:
@@ -40,7 +41,8 @@ updates:
 
   # GitHub Actions (workflow dependencies)
   - package-ecosystem: "github-actions"
-    directory: "/"
+    directories:
+      - "**/*"
     schedule:
       interval: "monthly"
     commit-message:
@@ -63,7 +65,8 @@ updates:
 
   # Git submodules (gitmodules)
   - package-ecosystem: "gitsubmodule"
-    directory: "/"
+    directories:
+      - "**/*"
     schedule:
       interval: "monthly"
     commit-message:
@@ -86,7 +89,8 @@ updates:
 
   # Python (pyproject.toml)
   - package-ecosystem: "uv"
-    directory: "/"
+    directories:
+      - "**/*"
     schedule:
       interval: "monthly"
     commit-message:
@@ -103,9 +107,6 @@ updates:
           - "*"
     cooldown:
       default-days: 5
-    exclude-paths:
-      # wtf: <https://github.com/dependabot/dependabot-core/issues/13960>
-      - "LICENSE.txt"
     registries:
       # Make all submodules clone successfully
       - github-private
