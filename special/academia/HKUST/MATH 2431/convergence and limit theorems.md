@@ -279,11 +279,11 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: proper noun -->
 ### WLLN vs SLLN comparison
 
-| Aspect                        | WLLN                                                                         | SLLN                                                                                          |
-| ----------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Convergence mode              | In probability                                                               | Almost surely                                                                                 |
-| Typical assumptions           | $E[\vert X_1\vert]<\infty$ (Khinchin) or $xP(\vert X_1\vert>x)\to0$ (Feller) | $E[\vert X_1\vert]<\infty$ (Kolmogorov)                                                       |
-| Necessary condition           | $xP(\vert X_1\vert>x)\to0$ (Feller)                                          | $E[\vert X_1\vert]<\infty$                                                                    |
+| Aspect                        | WLLN                                                                         | SLLN                                                                                                      |
+| ----------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Convergence mode              | In probability                                                               | Almost surely                                                                                             |
+| Typical assumptions           | $E[\vert X_1\vert]<\infty$ (Khinchin) or $xP(\vert X_1\vert>x)\to0$ (Feller) | $E[\vert X_1\vert]<\infty$ (Kolmogorov)                                                                   |
+| Necessary condition           | $xP(\vert X_1\vert>x)\to0$ (Feller)                                          | $E[\vert X_1\vert]<\infty$                                                                                |
 | Speed (under finite variance) | $O_P(1/\sqrt n)$                                                             | No universal $n^{-\alpha}$ a.s. rate; Hartman–Wintner LIL gives $O\bigl(\sqrt{(\log\log n)/n}\bigr)$ a.s. |
 
 The WLLN holds under strictly weaker conditions than the SLLN (cf. Feller's condition vs finite expectation). The SLLN gives a stronger conclusion but demands more of the tails.
