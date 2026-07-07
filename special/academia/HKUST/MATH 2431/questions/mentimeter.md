@@ -19,13 +19,13 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 
 > Let $\Omega=\{\heartsuit,\checkmark\}$. How many $\sigma$-algebras exist on $\Omega$?
 >
-> - (A) $1$.
-> - (B) $2$.
-> - (C) $4$.
+> - (A) 1.
+> - (B) 2.
+> - (C) 4.
 > - (D) Infinitely many, but countably many.
 >
-> - answer: {@{C}@}
-> - explanation: {@{On a two-element set there are $4$ $\sigma$-algebras: $\{\varnothing,\Omega\}$, $\{\varnothing,\{\heartsuit\},\Omega\}$, $\{\varnothing,\{\checkmark\},\Omega\}$, and $\mathcal P(\Omega)$.}@}
+> - answer: {@{B}@}
+> - explanation: {@{On a two-element set there are 2 $\sigma$-algebras: $\{\varnothing,\Omega\}$ and $\mathcal P(\Omega)$.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -255,7 +255,7 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 > - (C) $B\in\mathcal D$, $A\subseteq B$ $\implies$ $A\in\mathcal D$.
 >
 > - answer: {@{C}@}
-> - explanation: {@{Dynkin systems are closed under complement and countable disjoint unions, but not under arbitrary subsets. Option (C) is closure under subsets, which is a property of $\sigma$-algebras, not Dynkin systems.}@}
+> - explanation: {@{Dynkin systems are closed under complement and countable disjoint unions, but not under arbitrary subsets. Option (C) is closure under subsets, which is a property neither of Dynkin systems nor of $\sigma$-algebras.}@}
 
 <!-- markdownlint MD028 -->
 

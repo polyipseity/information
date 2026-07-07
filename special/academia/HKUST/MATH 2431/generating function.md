@@ -32,7 +32,7 @@ Existence properties:
 - __Analyticity:__ $t\mapsto M_X(t)$ is infinitely differentiable and analytic on its domain; the power series $\sum_{k\ge0}E[X^k]t^k/k!$ converges to $M_X(t)$ on $(-h,h)$.
 - __Affine transformation:__ $M_{aX+b}(t)=e^{tb}M_X(at)$.
 
-MGF existence near $0$ is stronger than mere finiteness of all moments. A counterexample is the lognormal distribution: $X\sim\operatorname{LogNormal}(0,1)$ has $E[X^n]=e^{n^2/2}<\infty$ for all $n$, but $E[e^{tX}]=\infty$ for all $t>0$. So theorems requiring MGF existence (Chernoff bounds, MGF uniqueness) are genuinely stronger than moment assumptions.
+MGF existence near $0$ is stronger than mere finiteness of all moments. A counterexample is the lognormal distribution: $X=e^Y$ with $Y\sim N(0,1)$. Compute $E[X^n]=E[e^{nY}]=e^{n^2/2}<\infty$ for all $n$ (the MGF of $N(0,1)$ at $t=n$). But $E[e^{tX}]=E[e^{te^Y}]=\frac1{\sqrt{2\pi}}\int_{-\infty}^{\infty}\exp(te^y-y^2/2)\,dy$ diverges for $t>0$ because $te^y$ dominates $y^2/2$ as $y\to\infty$, making the integrand unbounded. So theorems requiring MGF existence (Chernoff bounds, MGF uniqueness) are genuinely stronger than moment assumptions.
 
 ---
 
@@ -46,7 +46,7 @@ Flashcards for this section are as follows:
 - MGF uniqueness proof idea: How does MGF uniqueness follow from CF uniqueness? ::@:: Agreement of MGFs near $0$ implies agreement of CFs after analytic continuation $t\mapsto it$; CFs determine the law uniquely by the inversion formula. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - MGF analyticity: When $M_X(t)$ exists in $(-h,h)$, what are the analytic properties of $t\mapsto M_X(t)$? ::@:: It is infinitely differentiable and analytic on its domain; in particular $M_X^{(k)}(0)=E[X^k]$ and the power series $\sum_{k\ge0}E[X^k]t^k/k!$ converges to $M_X(t)$ on $(-h,h)$.
 - MGF vs all moments: How does MGF existence near $0$ compare with having all moments $E[X^n]$? ::@:: MGF existence near $0$ is stronger; it implies all moments exist and gives analytic control.
-- lognormal counterexample: Give a distribution with all moments finite but no MGF near $0$. ::@:: $X\sim\operatorname{LogNormal}(0,1)$ has $E[X^n]=e^{n^2/2}<\infty$ for all $n$, but $E[e^{tX}]=\infty$ for all $t>0$ because $e^{tx}$ grows faster than any polynomial.
+- lognormal counterexample: Give a distribution with all moments finite but no MGF near $0$. ::@:: $X=e^Y$ with $Y\sim N(0,1)$. Moments: $E[X^n]=E[e^{nY}]=e^{n^2/2}<\infty$ (MGF of $N(0,1)$ at $t=n$). MGF: $E[e^{tX}]=\frac1{\sqrt{2\pi}}\int_{-\infty}^{\infty}\exp(te^y-y^2/2)\,dy$, which diverges for $t>0$ because $te^y$ outgrows $y^2/2$ as $y\to\infty$, so no MGF exists on any $t>0$.
 
 ## relations between generating functions and uniqueness
 
@@ -58,7 +58,7 @@ Each generating function also recovers distributional information from its deriv
 - __CF:__ $\varphi_X$ uniquely determines the distribution via the inversion formula; $\varphi_X^{(n)}(0)=i^nE[X^n]$ when moments exist.
 - __PGF:__ $G_X^{(k)}(0)/k!=P[X=k]$ recovers probabilities; $G_X$ uniquely determines the distribution as coefficients of its power series.
 
-Moreover, for each transform, the existence of the first moment has a derivative-based characterisation: for the MGF, $E[X]=M_X'(0)$ (on the interval of existence); for the CF, $E[X]=-i\varphi_X'(0)$ when $E[|X|]<\infty$; and for the PGF, $E[X]=G_X'(1)=\lim_{t\uparrow 1}G_X'(t)$.
+Moreover, for each transform, the existence of the first moment has a derivative-based characterisation: for the MGF, $E[X]=M_X'(0)$ (on the interval of existence); for the CF, $E[X]=-i\varphi_X'(0)$ when $E[|X|]<\infty$; and for the PGF, $E[X]=G_X'(1)=\lim_{t\uparrow 1}G_X'(t)$ (the derivative at $1$ is a left-hand limit only — the notation $G_X'(1)$ is deceptive shorthand; see the PGF section).
 
 ---
 
@@ -66,7 +66,7 @@ Flashcards for this section are as follows:
 
 - How are MGF, CF, and PGF related by substitution? ::@:: $M_X(it)=\varphi_X(t)$ (analytic continuation); $G_X(e^t)=M_X(t)$ and $\varphi_X(t)=G_X(e^{it})$ for integer-valued $X\ge0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - Similarity across MGF, CF, PGF: How does each generating function recover distributional information from its derivatives and uniquely determine the law? ::@:: MGF: $M_X^{(n)}(0)=E[X^n]$ (moments); uniquely via analytic continuation to CF. CF: $\varphi_X^{(n)}(0)=i^nE[X^n]$ (moments); uniquely via inversion formula. PGF: $G_X^{(k)}(0)/k!=P[X=k]$ (probabilities); uniquely as power-series coefficients. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- First moment from each generating function: Express $E[X]$ from the MGF, CF, and PGF in terms of their derivatives. ::@:: MGF: $E[X]=M_X'(0)$ on its interval of existence. CF: $E[X]=-i\varphi_X'(0)$ when $E[|X|]<\infty$. PGF: $E[X]=G_X'(1)=\lim_{t\uparrow 1}G_X'(t)$.
+- First moment from each generating function: Express $E[X]$ from the MGF, CF, and PGF in terms of their derivatives. ::@:: MGF: $E[X]=M_X'(0)$ on its interval of existence. CF: $E[X]=-i\varphi_X'(0)$ when $E[|X|]<\infty$. PGF: $E[X]=G_X'(1)=\lim_{t\uparrow 1}G_X'(t)$ (the derivative at $1$ is a left-hand limit only; $G_X'(1)$ is deceptive shorthand for a one-sided limit).
 
 ### uniqueness theorem
 
@@ -137,6 +137,8 @@ Flashcards for this section are as follows:
 
 The characteristic function $\varphi_X(t)=E[e^{itX}]$ exists for all $t\in\mathbb R$ since $|e^{itX}|=1$ guarantees finiteness, making it the universal Fourier transform of a probability law.
 
+Uniform continuity follows from the difference bound $|\varphi_X(t+h)-\varphi_X(t)|=|E[e^{itX}(e^{ihX}-1)]|\le E[|e^{ihX}-1|]$, where the right-hand side does not depend on $t$ and tends to $0$ as $h\to0$ by dominated convergence ($|e^{ihX}-1|\le2$).
+
 ---
 
 Flashcards for this section are as follows:
@@ -144,7 +146,7 @@ Flashcards for this section are as follows:
 - characteristic function definition: For a random variable $X$, what is $\varphi_X(t)$? ::@:: $\varphi_X(t)=E[e^{itX}]$ for $t\in\mathbb R$.
 - why characteristic functions always exist: Why does $|e^{itX}|=1$ guarantee that $\varphi_X(t)=E[e^{itX}]$ is always defined? ::@:: The modulus is always $1$, so the expectation is bounded and therefore exists.
 - CF of independent sums: If $X$ and $Y$ are independent, what is $\varphi_{X+Y}(t)$? ::@:: $\varphi_{X+Y}(t)=\varphi_X(t)\varphi_Y(t)$.
-- CF uniform continuity property: What is the modulus-of-continuity property of $\varphi_X$? ::@:: $\varphi_X$ is uniformly continuous on $\mathbb R$; $|\varphi_X(t+h)-\varphi_X(t)|\le E[|e^{ihX}-1|]\to0$ as $h\to0$ by dominated convergence.
+- CF uniform continuity property: Derive the uniform continuity of $\varphi_X(t)=E[e^{itX}]$. ::@:: $|\varphi_X(t+h)-\varphi_X(t)|=|E[e^{itX}(e^{ihX}-1)]|\le E[|e^{ihX}-1|]$ (triangle inequality + $|e^{itX}|=1$). The RHS is independent of $t$ and $\to0$ as $h\to0$ by dominated convergence ($|e^{ihX}-1|\le2$), so $\varphi_X$ is uniformly continuous.
 - CF boundedness: What bounds hold for $|\varphi_X(t)|$? ::@:: $|\varphi_X(t)|\le1$ for all $t$, with $\varphi_X(0)=1$.
 - CF conjugate symmetry: How is $\varphi_X(-t)$ related to $\varphi_X(t)$? ::@:: $\varphi_X(-t)=\overline{\varphi_X(t)}$ because $e^{-itX}$ is the complex conjugate of $e^{itX}$.
 - CF of affine transformation: If $Y=aX+b$, what is $\varphi_Y(t)$ in terms of $\varphi_X$? ::@:: $\varphi_{aX+b}(t)=e^{itb}\varphi_X(at)$.
@@ -169,7 +171,7 @@ Since $G_X$ is a power series convergent on $|s|\le1$, coefficients can be extra
 
 Thus $G_X$ uniquely determines the distribution: if $G_X=G_Y$ on $[0,1]$, then $P[X=k]=P[Y=k]$ for all $k$ by the identity theorem for power series.
 
-Derivatives at $s=1$ give factorial moments: $G_X'(1)=E[X]$, $G_X''(1)=E[X(X-1)]$, and more generally $G_X^{(m)}(1)=E[X(X-1)\cdots(X-m+1)]$. Ordinary moments follow via Stirling numbers, e.g. $E[X^2]=G_X''(1)+G_X'(1)$ and $E[X^3]=G_X'''(1)+3G_X''(1)+G_X'(1)$.
+Derivatives at $s=1$ give factorial moments: $E[X] = G_X'(1) = \lim_{t\uparrow 1}G_X'(t)$, $G_X''(1)=E[X(X-1)]$, and more generally $G_X^{(m)}(1)=E[X(X-1)\cdots(X-m+1)]$. Ordinary moments follow via Stirling numbers, e.g. $E[X^2]=G_X''(1)+G_X'(1)$ and $E[X^3]=G_X'''(1)+3G_X''(1)+G_X'(1)$.
 
 Named PGF formulas:
 
@@ -178,7 +180,7 @@ Named PGF formulas:
 - $X\sim\mathrm{Geom}(p)$ (trials until first success): $G_X(s)=ps/(1-(1-p)s)$.
 - $X\sim\mathrm{Pois}(\lambda)$: $G_X(s)=\exp(\lambda(s-1))$.
 
-The mean $E[X]=G_X'(1)$ exists finitely iff $\lim_{t\uparrow1}G_X'(t)<\infty$.
+The notation $G_X'(1)$ is deceptive: it suggests a two-sided derivative, but only a left-hand limit is guaranteed. The PGF $G_X(s)=\sum_{k\ge 0}P[X=k]s^k$ is a power series convergent on $|s|\le 1$. Termwise differentiation gives $\sum_{k\ge 1}kP[X=k]s^{k-1}$, which converges for $|s|<1$ by the same radius of convergence. At $s=1$, the differentiated series $\sum kP[X=k]$ is exactly $E[X]$, which may be finite or infinite. This value is obtained as the left-hand limit $\lim_{t\uparrow 1}G_X'(t)$ (by Abel's theorem for power series, or by monotone convergence on $[0,1)$). A two-sided derivative at $1$ is not necessary because $G_X$ is defined only on $|s|\le 1$ — for $s>1$ the defining series may diverge (unless the distribution has finite support or light-enough tails to extend the radius). Hence $E[X]<\infty$ iff $\lim_{t\uparrow 1}G_X'(t)<\infty$, and when finite the limit equals $E[X]$.
 
 ---
 
@@ -189,15 +191,18 @@ Flashcards for this section are as follows:
 - PGF recovers probabilities: How can you recover $P[X=k]$ from the PGF $G_X(s)$? ::@:: $P[X=k]=G_X^{(k)}(0)/k!$; differentiate $k$ times and evaluate at $s=0$.
 - PGF uniqueness: If $G_X(s)=G_Y(s)$ for all $s\in[0,1]$, what follows about $X$ and $Y$? ::@:: They have the same distribution, because a convergent power series is uniquely determined by its coefficients.
 - PGF as discrete-counting analogue of MGF: Why are PGFs considered the discrete-counting analogue of MGFs? ::@:: Both turn convolutions into products: $G_{X+Y}(s)=G_X(s)G_Y(s)$ and $M_{X+Y}(t)=M_X(t)M_Y(t)$; the difference is domain (nonnegative integers vs general reals), so PGFs are specialised for counting variables. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- factorial moments from PGFs: If $G_X(s)=E[s^X]$, what do derivatives of $G_X$ at $s=1$ recover? ::@:: They recover factorial moments, for example $G_X'(1)=E[X]$ and $G_X''(1)=E[X(X-1)]$.
+- factorial moments from PGFs: If $G_X(s)=E[s^X]$, what do derivatives of $G_X$ at $s=1$ recover? ::@:: They recover factorial moments, for example $G_X'(1)=\lim_{t\uparrow 1}G_X'(t)=E[X]$ and $G_X''(1)=E[X(X-1)]$ (the first derivative is a left-hand limit only; $G_X'(1)$ is shorthand).
 - Bernoulli PGF: If $X\sim\mathrm{Bern}(p)$, what is $G_X(s)$? ::@:: $G_X(s)=1-p+ps$.
 - Binomial PGF: If $X\sim\mathrm{Bin}(n,p)$, what is $G_X(s)$? ::@:: $G_X(s)=(1-p+ps)^n$.
 - Geometric PGF: If $X\sim\mathrm{Geom}(p)$ (trials until first success, $P[X=k]=p(1-p)^{k-1}$ for $k\ge1$), what is $G_X(s)$? ::@:: $G_X(s)=\dfrac{ps}{1-(1-p)s}$.
 - Poisson PGF: If $X\sim\mathrm{Pois}(\lambda)$, what is $G_X(s)$? ::@:: $G_X(s)=\exp(\lambda(s-1))$.
 - PGF factorial to ordinary moments: How do you convert factorial moments $G_X^{(m)}(1)$ into $E[X^2]$ and $E[X^3]$? ::@:: $E[X^2]=G_X''(1)+G_X'(1)$; $E[X^3]=G_X'''(1)+3G_X''(1)+G_X'(1)$, using Stirling numbers of the second kind.
-- PGF mean derivation: Derive $E[X]=G_X'(1)$ from the series definition of $G_X$. ::@:: $G_X'(s)=\sum_{k=1}^\infty k P[X=k]s^{k-1}$; evaluating at $s=1$ gives $G_X'(1)=\sum_{k=1}^\infty k P[X=k]=E[X]$.
+- PGF mean derivation: Derive $E[X]=G_X'(1)$ from the series definition of $G_X$, being careful about the one-sided limit. ::@:: $G_X'(s)=\sum_{k=1}^\infty k P[X=k]s^{k-1}$ for $|s|<1$. Let $s\uparrow 1$; by monotone convergence (or Abel's theorem) $\lim_{s\uparrow 1}G_X'(s)=\sum_{k=1}^\infty k P[X=k]=E[X]$. The expression $G_X'(1)$ is shorthand for this one-sided limit; termwise evaluation at $s=1$ would be unjustified because $G_X$ may not be differentiable at the boundary of its convergence disk.
 - PGF mean existence condition: What condition on $G_X'$ characterises $E[X]<\infty$? ::@:: $E[X]<\infty$ iff $\lim_{t\uparrow 1}G_X'(t)$ is finite; the limit equals $E[X]$ by monotone convergence.
 - PGF factorial moments in applications: Why are factorial moments $G_X^{(m)}(1)$ natural in Poisson-type and branching-process calculations? ::@:: For $X\sim\mathrm{Pois}(\lambda)$, $G_X(s)=\exp(\lambda(s-1))$ gives $G_X^{(m)}(1)=\lambda^m$ directly, avoiding polynomial conversion; they also arise naturally in Galton-Watson branching-process recursions.
+- PGF at boundary of convergence: Why is the notation $G_X'(1)$ for $E[X]$ mathematically deceptive? ::@:: $G_X$ is a power series convergent on $|s|\le 1$; termwise differentiation gives series convergent on $|s|<1$. At $s=1$ (the boundary), evaluation at $s=1$ of the differentiated series would be unjustified because convergence at the boundary is not guaranteed. The correct expression is the left-hand limit $\lim_{t\uparrow 1}G_X'(t)$, which equals $E[X]$ by monotone convergence or Abel's theorem.
+- PGF why one-sided limit only: For the PGF $G_X(s)=\sum_{k\ge 0}P[X=k]s^k$, why is only a left-hand limit needed to recover $E[X]$? ::@:: The PGF is defined on $|s|\le 1$, which is the natural domain of its power series. For $s>1$ the series may diverge — unless the distribution has finite support or light-enough tails to extend the radius. So there is no right-hand side to take a limit from; a two-sided derivative at $1$ is not meaningful in general.
+- PGF left-hand limit convergence justification: What theorems justify $\lim_{s\uparrow 1}G_X'(s)=E[X]$? ::@:: (1) Monotone convergence: $G_X'(s)=\sum kP[X=k]s^{k-1}$ is monotone in $s$ (nondecreasing for $s\ge0$) and the limit as $s\uparrow 1$ equals $\sum kP[X=k]=E[X]$. (2) Abel's theorem for power series: if $\sum a_k$ converges, then $\lim_{s\uparrow 1}\sum a_k s^k=\sum a_k$; applied to $kP[X=k]$ as coefficients.
 
 <!-- check: ignore-next-line[header_style]: proper noun (Chernoff is a person's name) -->
 ## Chernoff bounds and transform methods
