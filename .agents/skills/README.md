@@ -21,9 +21,7 @@ Guidelines for new skills
    - `metadata`
    - `user-invocable`
 
-  > __Note:__ the `applyTo` key is no longer supported in skill
-  > frontmatter.  Older skills may still include it, but new skills
-  > should omit it entirely or the validator will raise an error.
+  > __Note:__ the `applyTo` key is no longer supported in skill frontmatter.  Older skills may still include it, but new skills should omit it entirely or the validator will raise an error.
    Other keys are ignored and may prevent the skill from loading correctly.
 
    Example: the newly added `flashcard-creation` skill uses only
@@ -39,20 +37,11 @@ Why this exists
 
 ## Running commands safely (avoid polluting skill folders)
 
-Some skill folders contain a `pyproject.toml` for tool configuration (e.g., `ty`
-type-checker settings). Running `uv run`, `uv sync`, or any `uv` command
-__inside__ a skill folder will cause `uv` to create a `.venv/` directory and
-`uv.lock` file there, cluttering the folder and duplicating the project's
-actual environment.
+Some skill folders contain a `pyproject.toml` for tool configuration (e.g., `ty` type-checker settings). Running `uv run`, `uv sync`, or any `uv` command __inside__ a skill folder will cause `uv` to create a `.venv/` directory and `uv.lock` file there, cluttering the folder and duplicating the project's actual environment.
 
-__Never run `uv` commands from inside a skill folder.__ Always run from the
-workspace root (`/Users/polyipseity/dev/monorepo/self/information/`) and
-reference skill paths as arguments. Examples:
+__Never run `uv` commands from inside a skill folder.__ Always run from the workspace root (`/Users/polyipseity/dev/monorepo/self/information/`) and reference skill paths as arguments. Examples:
 
 - Tests: `uv run pytest .agents/skills/academic-notes/tests_a7392be/`
 - Validator: `uv run .agents/skills/academic-notes/check.py "special/academia/..."`
 
-This applies regardless of whether the command is run implicitly by an agent or
-explicitly by a human. If you accidentally create `.venv` or `uv.lock` inside a
-skill folder, delete them immediately (`rm -rf .agents/skills/*/.venv
-.agents/skills/*/uv.lock`).
+This applies regardless of whether the command is run implicitly by an agent or explicitly by a human. If you accidentally create `.venv` or `uv.lock` inside a skill folder, delete them immediately (`rm -rf .agents/skills/*/.venv .agents/skills/*/uv.lock`).

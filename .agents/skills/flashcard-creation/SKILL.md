@@ -34,9 +34,7 @@ For conceptual math-law cards in academic notes, a descriptive prompt is often b
 
 ## When to use
 
-Be careful when users add inline comments or annotations such as
-`<!-- check: ignore-line[...]: equation on left -->`. Such comments are
-rationales for validator suppressions and __not__ editing instructions.
+Be careful when users add inline comments or annotations such as `<!-- check: ignore-line[...]: equation on left -->`. Such comments are rationales for validator suppressions and __not__ editing instructions.
 Never split or reflow the card simply because a comment mentions “left” or
 “right”; the left-hand portion always means _the text that appears before the
 `::@::` or `:@:` separator_, and it may be long when calculations are involved.

@@ -1,8 +1,19 @@
+# Init wrapper guardrails (inlined from init-wrapper.instructions.md)
+
+# - Preserve CLI interface (-c/--cached, -C/--no-cached, passthrough args)
+
+# - Keep exclusion list (.git, .obsidian, tools) and newline normalization (\n)
+
+# - Maintain caching (mtime,text) keyed by folder inode; respect --no-cached
+
+# - Keep async/anyio (anyio.Path, TaskGroup) and pytextgen wiring (entry.invoke)
+
+# - No absolute paths; keep module shims for tools.pytextgen import
+
 from argparse import ONE_OR_MORE, ArgumentParser, Namespace
 from collections import defaultdict
 from collections.abc import (
     AsyncIterator,
-    Awaitable,
     Callable,
     Collection,
     Iterable,
@@ -21,7 +32,7 @@ from os import fspath, linesep, lstat
 from pathlib import PurePath
 from shutil import rmtree as _sync_rmtree
 from sys import argv, exit, stdin
-from typing import Any, final
+from typing import Any, Coroutine, final
 
 from anyio import Path
 from appdirs import AppDirs
@@ -31,8 +42,10 @@ from pytextgen.meta import OPEN_TEXT_OPTIONS
 
 __all__ = ("Arguments", "main", "parser")
 
-# Gitignore-style spec: one pattern per line; order matters (last match wins).
-# Negated interpretation: pattern = include; !pattern = exclude. Default (no match) = excluded.
+# Gitignore-style spec: one pattern per line; order matters (last match wins)
+
+# Negated interpretation: pattern = include; !pattern = exclude. Default (no match) = excluded
+
 _GLOB_SPEC = """
 general/**/*.md
 private/general/**/*.md
@@ -153,7 +166,7 @@ async def main(args: Arguments):
                 data = {}
                 info("Cache data will be regenerated because it is empty or corrupted")
             data = defaultdict(dict, data)
-            finalizers = list[Callable[[], Awaitable[None]]]()
+            finalizers = list[Callable[[], Coroutine[Any, Any, object]]]()
 
             try:
                 old_args: Collection[str] = data["args"]

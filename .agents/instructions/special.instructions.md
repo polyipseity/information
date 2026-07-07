@@ -310,16 +310,8 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 ### Common conventions
 
 - __Frontmatter__: YAML with `aliases`, `tags`, `language/in/<lang>` (or `language/for/<lang>` for language texts)
-- __Cloze & flashcard markup__: Preserve the three patterns exactly and
-  understand their purpose:
-  - `{@{ ... }@}` for cloze deletions (hide the inner text)
-  - `::@::` for two-sided Q/A pairs (one line only, generates two cards)
-  - `:@:` for one-sided Q/A pairs (one line only, generates a single card)
-    These markers are parsed by pytextgen; do not reflow, escape, or split
-    them across lines.
-- __pytextgen fences__: Do not modify `# pytextgen generate ...` comments or `return export_seq(...)` signatures
-  - Academic notes often use `await memorize_seq()` for ordered content
-  - Classical Chinese texts use `gen.TextCode.compile()` with embedded notes
+- __Cloze & flashcard markup__: See [editing-conventions.instructions.md](../editing-conventions.instructions.md) for complete syntax rules.
+- __pytextgen fences__: Preserve `# pytextgen generate ...` comments and `return export_seq(...)` signatures. See the pytextgen patterns section below for usage patterns.
 - __Links__: Relative paths with `%20` encoding for spaces
   - Cross-references to `general/`: `[topic](../../general/topic.md)` or similar relative paths
   - Internal links: `[section](#section-header)` for same-file references
@@ -329,11 +321,48 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 ### Special-specific patterns
 
 - __Code blocks__: Command libraries, regex libraries, and programming references use fenced code blocks with language tags (`shell,`regex, ```Python, etc.)
-- __Embedded notes__ (Classical Chinese): `notes.embed('term', 'explanation')` within `gen.TextCode.compile()` blocks
-- __Difficulty markers__: `hard(...)` function in pytextgen blocks for challenging terms
+- __Classical Chinese annotations__: `notes.embed('term', 'explanation')` within `gen.TextCode.compile()` blocks (see pytextgen patterns section below for examples)
 - __Parameter placeholders__: `$variable` format in command library templates
-- __Section markers__: pytextgen sections use `__env__.cwf_sects("id1", "id2")` for stable section identification
 - __Index cross-references__: Course indexes often use `[§ section](file.md#section)` format for sub-topic links
+
+### pytextgen patterns in special/
+
+Different content types use pytextgen differently. Common patterns:
+
+1. Sequential lists (business frameworks, technical guides):
+
+```python
+return await memorize_seq(
+  __env__.cwf_sects("id1", "id2"),
+  items,
+)
+```
+
+1. Mapped content (key-value pairs):
+
+```python
+return await memorize_map(
+  __env__.cwf_sects("id1", "id2"),
+  items,
+)
+```
+
+1. Classical texts with annotations:
+
+```python
+notes = Notes()
+text = gen.TextCode.compile(
+  f"""..."""
+)
+return (text, notes)
+```
+
+1. Custom formatting (questions, specialized layouts):
+   - Strategy/solution pairs with `:@:` separator (one-sided Q/A); two-sided pairs use `::@::`, and arbitrary cloze deletions use `{@{ }@}`
+   - Nested cloze deletions with `{@{ }@}`
+   - Hard-marked terms with `hard(...)` wrapper
+
+__Regeneration__: Generated content is handled by the repository's build workflows; agents should never run `uv run -m init generate` themselves.
 
 ## Special Differences from general/
 
@@ -474,7 +503,3 @@ __Files__:
 - __`scripts/`__:
   - `scripts/special/`: Academic LMS converters for maintaining `special/academia/`
   - `scripts/utility.py.md`: Utility module imported by many `special/` notes for pytextgen helpers
-
-For `pytextgen` usage patterns and regeneration guidance see `special-pytextgen.instructions.md` (keeps `special.instructions.md` focused on organization and editorial conventions).
-
-<!-- NOTE: expanded pytextgen guidance moved to `.agents/instructions/special-pytextgen.instructions.md` -->

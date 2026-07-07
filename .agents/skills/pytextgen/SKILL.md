@@ -107,8 +107,7 @@ __Critical rules__:
 
 ### Cloze & Flashcard markup
 
-pytextgen recognises three distinct patterns that drive flashcard
-creation. Keep them exactly as shown and understand their semantics:
+pytextgen recognises three distinct patterns that drive flashcard creation. Keep them exactly as shown and understand their semantics:
 
 - __Cloze flashcards__ use `{@{hidden text}@}`. The text between the
   delimiters is hidden during review and replaced with a blank that the user

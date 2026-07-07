@@ -125,7 +125,6 @@ Instruction files auto-apply via glob patterns. See `.agents/instructions/` for 
 - [editing-conventions.instructions.md](.agents/instructions/editing-conventions.instructions.md) → `**/*.md` (general editing rules)
 - [markdown-notes.instructions.md](.agents/instructions/markdown-notes.instructions.md) → `general/**/*.md`
 - [special.instructions.md](.agents/instructions/special.instructions.md) → `special/**/*.md`, `special/**/*.py`
-- [special-pytextgen.instructions.md](.agents/instructions/special-pytextgen.instructions.md) → `special/**/*.md` (pytextgen usage & regeneration)
 - [archives.instructions.md](.agents/instructions/archives.instructions.md) → `archives/**/*.md`
 - [commit-convention.instructions.md](.agents/instructions/commit-convention.instructions.md) → `**` (enforce conventional commit usage for agent-made commits; prompt for flashcard counts and append machine-readable trailers when changes affect `general/`, `special/`, or `self/`; see it for the `commit-staged-flashcard-progress` prompt and flashcard progress commit format.)
 
@@ -133,13 +132,8 @@ Instruction files auto-apply via glob patterns. See `.agents/instructions/` for 
 
 - [core-workflows.instructions.md](.agents/instructions/core-workflows.instructions.md) → `**` (command-line workflows)
 
-### Tools
+### Config folders
 
-- [init-wrapper.instructions.md](.agents/instructions/init-wrapper.instructions.md) → `init.py`
-
-### LaTeX & config
-
-- [latex-preamble.instructions.md](.agents/instructions/latex-preamble.instructions.md) → `.obsidian/plugins/obsidian-latex/preamble.sty`
 - [config-folders.instructions.md](.agents/instructions/config-folders.instructions.md) → `.git/**`, `.obsidian/**`, `.vscode/**`
 
 ### Submodule guards
@@ -165,14 +159,14 @@ __Skill flow__: Most workflows use multiple skills in sequence; see individual s
 ## Recent updates (agent guidance)
 
 - 2026-04-20: Inline `# /// script` policy tightened — every package referenced by inline script metadata must also appear in `[dependency-groups].scripts`; inline metadata keys should stay alphabetized and include `requires-python = ">=3.13.0"`. Clarified that `self/stash/` is part of the parent repo while only specific `self/*` folders are git submodules.
-- 2026-02-09: Added `.agents/instructions/agent-quickstart.instructions.md` — a one-page checklist for AI agents (startup commands, quick gotchas, test/format sequence, and submodule guardrails). Linked core instruction files and submodule AGENTS.md to improve discoverability and cohesion.
+- 2026-02-09: Added `.agents/instructions/agent-quickstart.instructions.md` (now merged into `core-workflows.instructions.md`) — startup commands, quick gotchas, test/format sequence, and submodule guardrails.
 - 2026-02-09: Updated commit message guidance — agents should prefer wrapping commit body lines to __72 characters__ (readability/buffer). Tooling (commitlint) continues to enforce a __100-character__ hard limit, so ensure lines are ≤100 to pass.
 - 2026-03-02: Validation strictness increased — __all warnings must be addressed just like errors__ (fix or suppress with a valid rationale). The validator message has been updated accordingly.
 - __MD060 (table-column-style):__ Agents should __ignore__ MD060 violations; do not attempt to fix them. The human will fix table formatting manually.
 
 ## AI agent quickstart ✅
 
-- See `.agents/instructions/agent-quickstart.instructions.md` for a concise checklist agents should follow before changing files or making commits.
+- See `.agents/instructions/core-workflows.instructions.md` for a concise checklist agents should follow before changing files or making commits.
 - Recommended workspace settings: `chat.useAgentsMdFile = true`, `chat.useAgentSkills = true` to enable skill-based guidance and the root `AGENTS.md` for context.
 - Safe startup: `bun install` → `bun run prepare` → `bun run format` → `bun run check` → `bun run test`.
 - Regeneration of content happens automatically, so there's no need to run `uv run -m init generate -C`; use `uv run -m pack` and `uv run -m publish` only after tests pass and user approval for publishing sensitive content.

@@ -1,9 +1,6 @@
 # Continuous improvement — wiki-ingestion skill
 
-This document describes the feedback loop for continuously improving the
-`wiki-ingestion` skill.  Whenever the workflow or its documentation
-receives feedback from the user, summarise the lesson here and update
-examples or the SKILL.md accordingly.
+This document describes the feedback loop for continuously improving the `wiki-ingestion` skill.  Whenever the workflow or its documentation receives feedback from the user, summarise the lesson here and update examples or the SKILL.md accordingly.
 
 ## Feedback process
 

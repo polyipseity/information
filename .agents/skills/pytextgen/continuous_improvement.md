@@ -1,8 +1,6 @@
 # Continuous improvement — pytextgen skill
 
-This document describes the feedback loop for continuously improving the
-`pytextgen` skill, which deals with programmatically-generated Markdown
-content and the `init.py` wrapper.
+This document describes the feedback loop for continuously improving the `pytextgen` skill, which deals with programmatically-generated Markdown content and the `init.py` wrapper.
 
 ## Feedback process
 

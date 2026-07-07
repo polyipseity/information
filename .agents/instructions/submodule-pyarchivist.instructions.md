@@ -6,17 +6,9 @@ applyTo: "scripts/pyarchivist/**"
 
 # Submodule PyArchivist Guidelines
 
-- This is a git submodule for the pyarchivist archiving tool (external dependency)
-- __Default behavior__: Avoid editing unless user explicitly requests it
-- __If editing is needed but not requested__: Ask the user for permission first
-- __When user approves edits__: Make changes here, test thoroughly, then contribute upstream
-- For upstream contributions: work in the pyarchivist repo, merge changes, then update submodule pointer
-- __Submodule instructions__: This submodule has its own `AGENTS.md` and `.agents/instructions/` and `.agents/skills/` files that take priority when working within `scripts/pyarchivist/`. Agents: consult `.agents/instructions/agent-quickstart.instructions.md` before running archive-related workflows — pay attention to batching/concurrency limits and run small deterministic test runs first.
-- __Working directory__: Always set your current working directory to the submodule root before running project or release commands. Run `cd scripts/pyarchivist` first and then execute `uv`, `git`, or build commands from there.
-- __Release reminder__: When publishing a new version, after updating the package version string run `uv sync` to refresh `uv.lock`; add and commit `uv.lock` (or include it in the release commit) before creating the release tag and pushing.
+Unique rules for this submodule:
 
-## Developer tooling & testing (pyarchivist submodule)
-
-- Edits that affect archiving or index generation must include tests that verify index updates, idempotency, and correct metadata. Tests should run against a temporary directory and verify `index.md` changes and downloaded media placement.
-- Async helpers in this submodule should follow the same AnyIO/Asyncer conventions used by the parent repo; avoid direct asyncio usage. Import from Asyncer (`create_task_group`, `soonify`, `asyncify`, `syncify`, `runnify`) when writing asynchronous utilities.
-- Coordinate with the parent repo to ensure that post-install behavior and `pyproject.toml` dependency declarations remain consistent.
+- __Working directory__: Always `cd scripts/pyarchivist` before running project or release commands.
+- __Release workflow__: After updating version string, run `uv sync` to refresh `uv.lock`; commit `uv.lock` before creating the release tag and pushing.
+- __Tests__: Changes affecting archiving/index generation must include tests that verify index updates, idempotency, and correct metadata (run against a temp directory).
+- This submodule has its own `AGENTS.md` and `.agents/` that take priority when working inside `scripts/pyarchivist/`.

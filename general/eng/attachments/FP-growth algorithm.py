@@ -1,7 +1,7 @@
 from collections import Counter, defaultdict
 from collections.abc import Mapping, MutableMapping, MutableSequence, Set
 from dataclasses import InitVar, dataclass, field
-from typing import Self, TypeVar
+from typing import Self, TypeVar, override
 
 _TExtendsFPNode = TypeVar("_TExtendsFPNode", bound="FPNode")
 Database = Mapping[Set[str], int]
@@ -30,6 +30,7 @@ class FPNode:
     def __post_init__(self, table: FPTable) -> None:
         self.children = self._ChildrenDict(self, table)
 
+    @override
     def __str__(self) -> str:
         children = self.children
         last_children_idx = len(children) - 1

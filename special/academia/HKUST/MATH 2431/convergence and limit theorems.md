@@ -213,7 +213,8 @@ Flashcards for this section are as follows:
 - WLLN: relaxation to pairwise uncorrelated ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The theorem only needs $\operatorname{Var}(\overline X_n)\to0$, which holds if the $X_j$ are pairwise uncorrelated with uniformly bounded variance (independence is not required). <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T17:03:40.221Z,8,8.2956,1,2,1,0,0,2026-07-03T17:03:40.221Z-->
 - WLLN: relaxation to infinite variance ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $E[|X_1|]<\infty$ but $\operatorname{Var}(X_1)=\infty$, truncation still yields $\overline X_n\to\mu$ in probability. If $E[|X_1|]=\infty$, the WLLN can fail. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
-### Khinchin's weak law <!-- check: ignore-line[header_style]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
+### Khinchin's weak law
 
 If $X_1,X_2,\dots$ are iid with finite mean $\mu$ (no variance assumption), then $\overline X_n\to\mu$ in probability.
 
@@ -230,7 +231,8 @@ Flashcards for this section are as follows:
 - Khinchin's WLLN: why the characteristic-function expansion works ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $E[|X_1|]<\infty$ ensures $\varphi_X(t)$ is differentiable at $t=0$ with $\varphi_X'(0)=i\mu$, giving $\varphi_X(t)=1+i\mu t+o(t)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 - convergence in distribution to a constant implies convergence in probability ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> If $Z_n\xrightarrow{d}\delta_c$, then $P(|Z_n-c|>\varepsilon)\to0$ for every $\varepsilon>0$, which means $Z_n\to c$ in probability. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
-### Feller's necessary and sufficient condition <!-- check: ignore-line[header_style]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
+### Feller's necessary and sufficient condition
 
 A necessary and sufficient condition for a weak law to hold (with suitable centering constants $a_n$) is Feller's condition: $$\lim_{x\to\infty} x\,P(|X_1|>x)=0.$$ When this holds, one can take $a_n=E[X_1\mathbb I_{|X_1|\le n}]$ and obtain $\overline X_n-a_n\to0$ in probability.
 
@@ -244,7 +246,8 @@ Flashcards for this section are as follows:
 - Feller's condition: intuitive meaning ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $xP(|X_1|>x)\to0$ means $P(|X_1|>x)$ decays faster than $1/x$. It is strictly weaker than finite expectation. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 - centering constant in Feller's WLLN ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $a_n=E[X_1\mathbb I_{|X_1|\le n}]$ corrects for the truncated mean; when $E[X_1]=\mu$ is finite, $a_n\to\mu$ and the classical WLLN is recovered. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
-### Cauchy counterexample <!-- check: ignore-line[header_style]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
+### Cauchy counterexample
 
 Let $X_1,X_2,\dots$ be iid Cauchy $(0,1)$ with density $f(x)=1/(\pi(1+x^2))$. Then $P(|X_1|>x)\sim 1/(\pi x)$, so $xP(|X_1|>x)\to 1/\pi\neq0$, violating Feller's condition. The sample mean is again Cauchy $(0,1)$ — stable under averaging — so $\overline X_n$ has the same distribution as $X_1$ and does not concentrate. There is no finite limit $\mu$ or centering $a_n$ such that $\overline X_n-a_n\to0$ in probability.
 
@@ -258,7 +261,8 @@ Flashcards for this section are as follows:
 - Cauchy: stability under averaging ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The characteristic function of Cauchy(0,1) is $\varphi(t)=e^{-|t|}$; then $\varphi_{\overline X_n}(t)=(\varphi(t/n))^n=e^{-|t|}$, so $\overline X_n$ has the same Cauchy(0,1) distribution for every $n$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T17:00:10.846Z,8,8.2956,1,2,1,0,0,2026-07-03T17:00:10.846Z-->
 - Cauchy: tail-decay rate ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Density $f(x)=1/(\pi(1+x^2))$ gives $P(|X_1|>x)\sim 1/(\pi x)$, so $xP(|X_1|>x)\to 1/\pi$, violating Feller's condition. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
-### WLLN vs SLLN comparison <!-- check: ignore-line[header_style]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
+### WLLN vs SLLN comparison
 
 | Aspect                        | WLLN                                                                         | SLLN                                                                                          |
 | ----------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -284,7 +288,8 @@ $\overline X_n\to \mu$ almost surely.
 
 The route taken in the course passes through the Borel-Cantelli lemmas.
 
-### Borel-Cantelli lemmas <!-- check: ignore-line[header_style]: Borel-Cantelli is a proper noun (eponymous) -->
+<!-- check: ignore-next-line[header_style]: Borel-Cantelli is a proper noun (eponymous) -->
+### Borel-Cantelli lemmas
 
 __First Borel-Cantelli lemma.__ If $\sum_n P(A_n)<\infty$, then $P(A_n \text{ i.o.})=0$.
 
@@ -352,7 +357,8 @@ Flashcards for this section are as follows:
 - central limit theorem for sums: If $X_1,X_2,\dots$ are iid with mean $\mu$ and variance $\sigma^2>0$, what is the limiting law of $\frac{\sum_{j=1}^n X_j-n\mu}{\sigma\sqrt n}$? ::@:: The normalized sum converges in distribution to $N(0,1)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 - central limit theorem for the sample mean: Under the CLT hypotheses, what is the limiting law of $\sqrt n\,\frac{\overline X_n-\mu}{\sigma}$? ::@:: The normalized sample mean converges in distribution to $N(0,1)$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T17:03:18.195Z,8,8.2956,1,2,1,0,0,2026-07-03T17:03:18.195Z-->
 
-### MGF convergence and convergence in distribution <!-- check: ignore-line[header_style]: MGF is an acronym -->
+<!-- check: ignore-next-line[header_style]: MGF is an acronym -->
+### MGF convergence and convergence in distribution
 
 If the MGFs of a sequence of random variables converge pointwise to the MGF of a limit in a neighborhood of $0$, convergence in distribution follows. This is the engine behind the CLT proof when MGFs exist.
 
@@ -435,7 +441,8 @@ Flashcards for this section are as follows:
 
 - CLT proof structure template ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Center/scale $\to$ expand transform near 0 $\to$ raise to $n$ via independence $\to$ identify limit as $N(0,1)$ transform. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
-### examples <!-- check: ignore-line[section_example_heading]: die-roll CLT as numerical illustration of limit theorems -->
+<!-- check: ignore-next-line[section_example_heading]: die-roll CLT as numerical illustration of limit theorems -->
+### examples
 
 Roll a fair die $n=100$ times. The sum $S_{100}=\sum_{i=1}^{100}X_i$ has mean $100\cdot3.5=350$ and variance $100\cdot(35/12)\approx291.67$. By the CLT, $$P(S_{100}>400)=P\!\left(\frac{S_{100}-350}{\sqrt{291.67}}>\frac{50}{\sqrt{291.67}}\approx2.928\right)\approx P(Z>2.928)\approx0.0017.$$
 
@@ -451,7 +458,8 @@ Flashcards for this section are as follows:
 - empirical variance: asymptotic distribution ::@:: $\sqrt n(S_n^2-\sigma^2)\xrightarrow{d} N(0,E[(X_1-\mu)^4]-\sigma^4)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 - empirical variance: proof idea ::@:: Write $S_n^2-\sigma^2=(\overline Y_n-\sigma^2)+(\mu^2-\overline X_n^2)$ where $Y_i=(X_i-\mu)^2$; CLT handles the first term, SLLN+Slutsky eliminates the second. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
-## Slutsky's theorem and vanishing perturbation <!-- check: ignore-line[header_style]: Slutsky is a proper noun (eponymous) -->
+<!-- check: ignore-next-line[header_style]: Slutsky is a proper noun (eponymous) -->
+## Slutsky's theorem and vanishing perturbation
 
 These results let one "clean up" a weak-convergence limit by discarding asymptotically negligible perturbations. They formalize the idea that if two sequences are asymptotically indistinguishable — their difference vanishes in probability — they must share the same limiting distribution, and that constants in the limit can absorb many operations cleanly.
 
@@ -472,7 +480,8 @@ Flashcards for this subsection are as follows:
 - proof: sandwich argument ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Bound $F_{Y_n}(x)\le F_{X_n}(x+\varepsilon)+P(|X_n-Y_n|\ge\varepsilon)$ and $F_{Y_n}(x)\ge F_{X_n}(x-\varepsilon)-P(|X_n-Y_n|\ge\varepsilon)$; take $\limsup/\liminf$, then $\varepsilon\downarrow0$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 - why "vanishing perturbation" ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> The difference $X_n-Y_n$ is a perturbation that vanishes in probability; it is too small to affect the limiting distribution. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
-### Slutsky's theorem <!-- check: ignore-line[header_style]: Slutsky is a proper noun (eponymous) -->
+<!-- check: ignore-next-line[header_style]: Slutsky is a proper noun (eponymous) -->
+### Slutsky's theorem
 
 _Intuition._ When one operand converges to a constant, joint limiting behavior simplifies dramatically — the constant passes through addition, multiplication, and division as if it were deterministic. This is why we can normalize a sample mean by an estimated standard deviation and still obtain a standard normal limit.
 
@@ -508,7 +517,8 @@ Flashcards for this subsection are as follows:
 - proof: vanishing product ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> $P(|X_nY_n|\ge\varepsilon)\le P(|X_n|>k)+P(|Y_n|\ge\varepsilon/k)$; $n\to\infty$ then $k\to\infty$ sends both terms to $0$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 - role of tightness ::@:: <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> Without tightness of $\{X_n\}$, $Y_n\to_p0$ alone could fail — $X_n$ might take unboundedly large values that offset a small $Y_n$. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
-### example: empirical variance <!-- check: ignore-line[section_example_heading]: worked example integrated within Slutsky section -->
+<!-- check: ignore-next-line[section_example_heading]: worked example integrated within Slutsky section -->
+### example: empirical variance
 
 _Intuition._ The empirical variance uses the estimated mean $\overline X_n$, introducing an extra source of error. Remarkably, this error is of smaller order — it vanishes in probability — so the asymptotic distribution of $\sqrt n(\hat\sigma_n^2-\sigma^2)$ is the same as if the true mean were known.
 
@@ -597,7 +607,8 @@ Flashcards for this section are as follows:
 - why the weak law matters for large $n$ ::@:: It explains why empirical averages stabilize and become reliable approximations to the true mean for large $n$. <!--SR:!fsrs,2026-07-03T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 - transformed-observation average $\frac1n\sum_{j=1}^n e^{-X_j/2}$ in the weak law: What kind of average is still covered when the transformed variables are iid with finite variance? ::@:: An average such as $\frac1n\sum_{j=1}^n e^{-X_j/2}$ is still covered. <!--SR:!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z!fsrs,2026-07-11T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-07-03T00:00:00.000Z-->
 
-### Monte Carlo integration <!-- check: ignore-line[header_style]: proper noun -->
+<!-- check: ignore-next-line[header_style]: proper noun -->
+### Monte Carlo integration
 
 A direct application of the strong law (or weak law) is Monte Carlo estimation. For a piecewise continuous function $h:[0,1]\to\mathbb R$ with $\int_0^1 h^2(x)\,dx<\infty$, one can approximate the integral $I=\int_0^1 h(x)\,dx$ by $$\widehat I_n=\frac1n\sum_{i=1}^n h(U_i),$$ where $U_1,\dots,U_n$ are i.i.d. $\operatorname{Uniform}(0,1)$. The SLLN gives $\widehat I_n\to I$ almost surely.
 

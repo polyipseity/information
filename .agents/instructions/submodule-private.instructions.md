@@ -4,36 +4,18 @@ description: private/ is a git submodule; edit only with explicit owner approval
 applyTo: "private/**"
 ---
 
-# Overview
+# Submodule Private Guidelines
 
-`private/` is a git submodule pointing to a separate private repository. It contains sensitive or restricted content and must not be modified without explicit owner permission.
+- `private/` contains sensitive/restricted content.
+- __Do not__ copy or move files from `private/` into public trees (`general/`, `special/`, `archives/`) manually.
+- If publishing: prepare a migration checklist covering PII, licenses, sensitive datasets, and redactions.
+- Validate academic content before migrating:
 
-## Rules
+  ```sh
+  uv run .agents/skills/academic-notes/check.py --content private/special/academia/<INSTITUTION>
+  ```
 
-- Do not edit files in `private/` unless the repository owner or maintainer explicitly approves the change.
-- Do not copy or move files from `private/` into public trees (`general/`, `special/`, `archives/`) manually.
-- Follow submodule-local instructions (for example, `AGENTS.md`, `.agents/instructions/`, and `.agents/skills/`) when working inside `private/`. The innermost (submodule-local) instructions take priority over top-level repository guidance.
-
-## When edits are allowed
-
-Acceptable reasons include upstream syncs, urgent security fixes, owner-requested public releases, or owner-approved cleanup.
-
-Required artifacts when proposing edits:
-
-- Owner approval
-- Short justification
-- If publishing: a migration checklist covering PII, licenses, sensitive datasets, and redactions
-
-## Migration workflow (recommended)
-
-1. Validate academic content (if applicable):
-
-```sh
-uv run .agents/skills/academic-notes/check.py --content private/special/academia/<INSTITUTION>
-```
-
-1. Prepare a migration checklist and a sanitized patch/diff.
-2. Use `publish.py` to mirror curated content into the public repository; do not copy files manually.
+1. Use `publish.py` to mirror curated content into the public repository; do not copy files manually.
 
 ## Migration checklist (example)
 

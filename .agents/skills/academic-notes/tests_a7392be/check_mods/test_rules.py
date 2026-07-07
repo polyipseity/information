@@ -50,6 +50,7 @@ from check_mods.rules import (
     metadata_aliases_present,
     metadata_flash_tag,
     metadata_tags_present,
+    misplaced_suppression_comment,
     missing_yaml_frontmatter,
     no_consecutive_source_newlines,
     no_control_characters,
@@ -75,7 +76,12 @@ from check_mods.rules import (
     two_sided_calc_warning,
     unit_outside_math,
 )
-from check_mods.utils import FRONT_RE, parse_frontmatter, parse_session_headers
+from check_mods.utils import (
+    FRONT_RE,
+    html_cpt,
+    parse_frontmatter,
+    parse_session_headers,
+)
 from check_mods.validator import _MD, check_markdown_file
 from pydantic_yaml import parse_yaml_raw_as
 
@@ -727,6 +733,83 @@ def test_two_sided_calc_warning():
     # two-sided cards should not trigger the one-sided rule even if they
     # contain a ":@:" substring
     assert not one_sided_calc_warning(make_ctx("- a :@: $b$ ::@:: dummy\n"))
+
+
+def test_misplaced_suppression_comment():
+    """Warn when suppression comment appears before card content."""
+    _hc = html_cpt
+
+    # Comment before content (misplaced)
+    txt = (
+        "- def ::@:: "
+        + _hc("check: ignore-line[two_sided_calc_warning]: conceptual")
+        + " $X_n\\to X$\n"
+    )
+    ctx = make_ctx(txt)
+    msgs = misplaced_suppression_comment(ctx)
+    assert msgs
+    assert msgs[0].rule_id == "misplaced_suppression_comment"
+    assert msgs[0].severity == Severity.ERROR
+    assert "before" in msgs[0].msg
+    assert "after" in msgs[0].msg
+
+    # Comment after content (correct) → no error
+    txt2 = (
+        "- def ::@:: $X_n\\to X$ "
+        + _hc("check: ignore-line[two_sided_calc_warning]: conceptual")
+        + "\n"
+    )
+    ctx2 = make_ctx(txt2)
+    assert not misplaced_suppression_comment(ctx2)
+
+    # No comment at all → no error
+    txt3 = "- def ::@:: $X_n\\to X$\n"
+    ctx3 = make_ctx(txt3)
+    assert not misplaced_suppression_comment(ctx3)
+
+    # One-sided, comment before content
+    txt4 = (
+        "- term :@: "
+        + _hc("check: ignore-line[one_sided_calc_warning]: conceptual")
+        + " $val$\n"
+    )
+    ctx4 = make_ctx(txt4)
+    msgs4 = misplaced_suppression_comment(ctx4)
+    assert msgs4 and msgs4[0].rule_id == "misplaced_suppression_comment"
+
+    # One-sided, comment after content (correct) → no error
+    txt5 = (
+        "- term :@: $val$ "
+        + _hc("check: ignore-line[one_sided_calc_warning]: conceptual")
+        + "\n"
+    )
+    ctx5 = make_ctx(txt5)
+    assert not misplaced_suppression_comment(ctx5)
+
+    # Comment is the only content → no error (nothing to move)
+    txt6 = (
+        "- def ::@:: "
+        + _hc("check: ignore-line[two_sided_calc_warning]: conceptual")
+        + "\n"
+    )
+    ctx6 = make_ctx(txt6)
+    assert not misplaced_suppression_comment(ctx6)
+
+
+@pytest.mark.anyio
+async def test_misplaced_suppression_comment_integration(tmp_path: PathLike[str]):
+    """Integration test through check_markdown_file."""
+    text = (
+        "---\naliases: [a]\ntags: [language/in/English, flashcard/active/special/academia/test]\n---\n"
+        "- term ::@:: "
+        + html_cpt("check: ignore-line[two_sided_calc_warning]: conceptual")
+        + " $X_n\\to X$\n"
+    )
+    file = Path(tmp_path) / "note.md"
+    await file.write_text(text)
+    msgs = list(await check_markdown_file(file))
+    # Should have misplaced_suppression_comment error
+    assert any(m.rule_id == "misplaced_suppression_comment" for m in msgs)
 
 
 def test_session_rules():
@@ -2093,13 +2176,7 @@ def test_md028_missing_adjacent_bq():
 
 def test_md028_missing_with_comment():
     """Blockquotes with proper MD028 comment → no error."""
-    txt = (
-        "> First blockquote.\n"
-        "\n"
-        "<!-- markdownlint MD028 -->\n"
-        "\n"
-        "> Second blockquote.\n"
-    )
+    txt = "> First blockquote.\n\n<!-- markdownlint MD028 -->\n\n> Second blockquote.\n"
     ctx = make_ctx(txt)
     assert not md028_missing(ctx)
 
