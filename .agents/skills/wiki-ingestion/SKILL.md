@@ -5,9 +5,7 @@ description: Ingest Wikipedia HTML, normalize links/media, and archive to knowle
 
 # Wiki Ingestion Workflow
 
-> __Continuous improvement:__ see `continuous_improvement.md` in this
-> folder for a running log of lessons learned and guidance on evolving
-> the wiki-ingestion skill.
+> __Continuous improvement:__ see `continuous_improvement.md` in this folder for a running log of lessons learned and guidance on evolving the wiki-ingestion skill.
 
 Use this skill when importing Wikipedia articles or converting HTML content into Markdown notes.
 
@@ -33,8 +31,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 __Command__: `uv run -m templates.new_wiki_page`
 
-The script prompts for two inputs, then atomically creates the note file and a
-symlink.
+The script prompts for two inputs, then atomically creates the note file and a symlink.
 
 #### Inputs
 
@@ -54,14 +51,10 @@ symlink.
 #### Language code resolution
 
 1. Input is stripped and lowercased.
-2. Matched against pycountry: first tries `alpha_2` (ISO 639‑1), then `alpha_3`
-   (ISO 639‑3).
-3. Directory code uses the **longest available** code via the fallback chain:
-   ``alpha_3`` → ``alpha_2``. This ensures 3-letter codes are preferred when
-   they exist.
+2. Matched against pycountry: first tries `alpha_2` (ISO 639‑1), then `alpha_3` (ISO 639‑3).
+3. Directory code uses the **longest available** code via the fallback chain: ``alpha_3`` → ``alpha_2``. This ensures 3-letter codes are preferred when they exist.
 4. Human-readable name is taken from `lang.name`.
-5. The corresponding subdirectory under `general/` must already exist (e.g.
-   `general/eng/`, `general/zho/`).
+5. The corresponding subdirectory under `general/` must already exist (e.g. `general/eng/`, `general/zho/`).
 
 #### Generated YAML frontmatter
 
@@ -84,13 +77,9 @@ tags:
 
 #### File layout
 
-- **Note file**: `general/<dir_code>/<name>.md` — contains the YAML frontmatter
-  and the attribution footer.
-- **Symlink**: `general/<name>.md` → `<dir_code>/<name>.md` — a relative
-  symlink at the top level of `general/` for convenient access.
-- **Atomicity**: Both files are written to temporary paths first, then
-  atomically renamed into place. If either operation fails, both files are
-  cleaned up — the creation either succeeds completely or has no effect.
+- **Note file**: `general/<dir_code>/<name>.md` — contains the YAML frontmatter and the attribution footer.
+- **Symlink**: `general/<name>.md` → `<dir_code>/<name>.md` — a relative symlink at the top level of `general/` for convenient access.
+- **Atomicity**: Both files are written to temporary paths first, then atomically renamed into place. If either operation fails, both files are cleaned up — the creation either succeeds completely or has no effect.
 
 #### Example walkthrough
 
@@ -129,9 +118,7 @@ And `general/Fourier transform.md` → `zho/Fourier transform.md` (relative syml
 - Copy (Ctrl+C or Cmd+C)
 - Content is now in clipboard
 
-⏸️ **Stop here.** The agent cannot perform this step. A human must manually
-copy the article content from the Wikipedia page. Resume once the HTML is in
-the clipboard.
+⏸️ **Stop here.** The agent cannot perform this step. A human must manually copy the article content from the Wikipedia page. Resume once the HTML is in the clipboard.
 
 ### Step 3: Ingest HTML
 
@@ -150,9 +137,7 @@ This step is empty for now.
 
 ### Step 5: Manual review and editing
 
-⏸️ **Stop here.** Let humans review the Markdown output manually, fix
-formatting issues, add flashcards (cloze or QA markup), and make any other
-edits. The agent should not perform these tasks.
+⏸️ **Stop here.** Let humans review the Markdown output manually, fix formatting issues, add flashcards (cloze or QA markup), and make any other edits. The agent should not perform these tasks.
 
 ### Step 6: Review and finalize
 
@@ -162,27 +147,15 @@ edits. The agent should not perform these tasks.
 
 ### Step 7: Commit the note
 
-Stage and commit the new note using the
-[commit-staged-flashcard-notes](../prompts/commit-staged-flashcard-notes.prompt.md)
-prompt.
+Stage and commit the new note using the [commit-staged-flashcard-notes](../prompts/commit-staged-flashcard-notes.prompt.md) prompt.
 
-The agent **must ask the user** to provide at least two of the three flashcard
-count values (`Flashcards-prev`, `Flashcards-now`, `Flashcards-delta`). The
-agent must **not** compute these values itself. The agent then follows the
-commit-staged-flashcard-notes workflow to compose and create the commit.
+The agent __must ask the user__ to provide at least two of the three flashcard count values (`Flashcards-prev`, `Flashcards-now`, `Flashcards-delta`). The agent must __not__ compute these values itself. The agent then follows the commit-staged-flashcard-notes workflow to compose and create the commit.
 
 ## Post-ingestion checks
 
-- __Media archives__: Ensure all images/files are downloaded to
-  `archives/Wikimedia Commons/` with `%20`-encoded filenames. If downloads fail,
-  check that clipboard HTML was complete and retry `convert_wiki`.
-- __Link normalization__: Use relative paths only; verify `%20` encoding for
-  spaces (not `%3A` or other encodings).
-- __Formatting__: Simplify complex tables/lists if needed; respect
-  `.markdownlint.json` settings.
-- __Frontmatter__: Follow [markdown-notes](../instructions/markdown-notes.instructions.md) conventions
-  for `aliases` and `tags`.
-- __Attribution__: Preserve the Wikipedia source URL in frontmatter or as an HTML
-  comment.
-- __Editing rules__: See [editing-conventions](../instructions/editing-conventions.instructions.md) for
-  general rules when editing imported notes.
+- __Media archives__: Ensure all images/files are downloaded to `archives/Wikimedia Commons/` with `%20`-encoded filenames. If downloads fail, check that clipboard HTML was complete and retry `convert_wiki`.
+- __Link normalization__: Use relative paths only; verify `%20` encoding for spaces (not `%3A` or other encodings).
+- __Formatting__: Simplify complex tables/lists if needed; respect `.markdownlint.json` settings.
+- __Frontmatter__: Follow [markdown-notes](../instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`.
+- __Attribution__: Preserve the Wikipedia source URL in frontmatter or as an HTML comment.
+- __Editing rules__: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules when editing imported notes.
