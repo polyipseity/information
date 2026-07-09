@@ -25,7 +25,9 @@ _REPO_ROOT = Path(__file__).resolve().parent.parent
 def _resolve_lang(code: str) -> tuple[str, str]:
     """Validate an ISO language code and return (directory_code, human_name).
 
-    Accepts ISO 639‑1 (2‑letter) or ISO 639‑2 (3‑letter) codes.
+    Accepts ISO 639‑1 (2‑letter), ISO 639‑2 (3‑letter), and ISO 639‑3
+    (3‑letter) codes. Resolves to the longest available directory code via
+    the fallback chain ``alpha_3`` → ``bibliographic`` → ``alpha_2``.
     """
     code = code.strip().lower()
     lang = pycountry.languages.get(alpha_2=code) or pycountry.languages.get(
@@ -34,7 +36,8 @@ def _resolve_lang(code: str) -> tuple[str, str]:
     if lang is None:
         msg = f"unknown language code: {code!r}"
         raise LookupError(msg)
-    return lang.alpha_3, lang.name
+    dir_code = lang.alpha_3 or lang.bibliographic or lang.alpha_2
+    return dir_code, lang.name
 
 
 async def main() -> None:
