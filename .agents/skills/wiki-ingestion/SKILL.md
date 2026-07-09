@@ -129,6 +129,10 @@ And `general/Fourier transform.md` → `zho/Fourier transform.md` (relative syml
 - Copy (Ctrl+C or Cmd+C)
 - Content is now in clipboard
 
+⏸️ **Stop here.** The agent cannot perform this step. A human must manually
+copy the article content from the Wikipedia page. Resume once the HTML is in
+the clipboard.
+
 ### Step 3: Ingest HTML
 
 __Command__: `uv run -m convert_wiki`
@@ -140,23 +144,23 @@ __Command__: `uv run -m convert_wiki`
 - Outputs Markdown that preserves Wikipedia structure
 - __Action__: Paste output below the frontmatter in your note file
 
-### Step 4: Flashcard state
+### Step 4: Clean up Markdown
 
-Flashcard creation is managed automatically by the repository's build workflows; agents and authors are not expected to run any commands to produce flashcards. The generator scans for three kinds of markup:
+This step is empty for now.
 
-- `{@{ hidden text }@}` for cloze deletions (hide text within a paragraph),
-- `::@::` for two-sided question/answer pairs (line-only, two cards), and
-- `:@:` for one-sided question/answer pairs (line-only, single card).
+### Step 5: Add flashcards manually
 
-The source must honour the single‑line restriction for the latter two formats; use `<br/>` or `<p>` for any desired visual breaks. When you add these markers, the build updates pytextgen regions behind the scenes. See [pytextgen](../pytextgen/SKILL.md) skill for additional details.
+⏸️ **Stop here.** Let humans add flashcards manually. The agent should not
+add flashcards or cloze markup.
 
-### Step 5: Review and finalize
+### Step 6: Flashcard state
+
+This step is empty for now.
+
+### Step 7: Review and finalize
 
 - Review `aliases` and `tags` in YAML frontmatter
 - Ensure all media references are correct (check `archives/Wikimedia Commons/`)
-- Verify cloze markup is added to key terms
-- Trust the automated build process to regenerate flashcards; there is no
-  need for manual commands.
 - Commit when satisfied
 
 ## Best practices
@@ -166,21 +170,16 @@ The source must honour the single‑line restriction for the latter two formats;
 - __YAML structure__: Use [markdown-notes](../instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`
 - __Keep attribution__: Preserve Wikipedia source URL in frontmatter or as HTML comment
 - __Review formatting__: Simplify complex tables/lists if needed; respect `.markdownlint.json` settings
-- __Test generation__: This is handled by CI/build automatically; the agent
-  should not run the generator manually when verifying edits.
-- __Add cloze markup__: Manually annotate key terms with `{@{ }@}`, `::@::`, or `:@:` for active recall
 
 ## Common issues
 
 1. __Media download failures__: Check if clipboard HTML is complete; retry `convert_wiki`
 2. __Broken relative links__: Verify `%20` encoding for spaces (not `%3A` or other encodings)
 3. __Complex tables__: Some Wikipedia tables don't convert well; manually edit to simpler Markdown format
-4. __Cloze markup missing__: Manually add after generation; see [pytextgen](../pytextgen/SKILL.md) skill for syntax
 
 ## Integration
 
 - __Note scaffolding__: Use [tools/SKILL.md](../tools/SKILL.md) (templates section) to understand frontmatter conventions
-- __Flashcard generation__: Use [pytextgen](../pytextgen/SKILL.md) to regenerate cloze markup into flashcards
 - __Edit conventions__: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules while editing imported notes
 
 ## Typical command pattern
