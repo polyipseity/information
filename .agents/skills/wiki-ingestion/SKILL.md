@@ -148,20 +148,28 @@ __Command__: `uv run -m convert_wiki`
 
 This step is empty for now.
 
-### Step 5: Add flashcards manually
+### Step 5: Manual review and editing
 
-⏸️ **Stop here.** Let humans add flashcards manually. The agent should not
-add flashcards or cloze markup.
+⏸️ **Stop here.** Let humans review the Markdown output manually, fix
+formatting issues, add flashcards (cloze or QA markup), and make any other
+edits. The agent should not perform these tasks.
 
-### Step 6: Flashcard state
-
-This step is empty for now.
-
-### Step 7: Review and finalize
+### Step 6: Review and finalize
 
 - Review `aliases` and `tags` in YAML frontmatter
 - Ensure all media references are correct (check `archives/Wikimedia Commons/`)
-- Commit when satisfied
+- Ensure the note is complete before committing
+
+### Step 7: Commit the note
+
+Stage and commit the new note using the
+[commit-staged-flashcard-notes](../prompts/commit-staged-flashcard-notes.prompt.md)
+prompt.
+
+The agent **must ask the user** to provide at least two of the three flashcard
+count values (`Flashcards-prev`, `Flashcards-now`, `Flashcards-delta`). The
+agent must **not** compute these values itself. The agent then follows the
+commit-staged-flashcard-notes workflow to compose and create the commit.
 
 ## Best practices
 
