@@ -171,31 +171,18 @@ count values (`Flashcards-prev`, `Flashcards-now`, `Flashcards-delta`). The
 agent must **not** compute these values itself. The agent then follows the
 commit-staged-flashcard-notes workflow to compose and create the commit.
 
-## Best practices
+## Post-ingestion checks
 
-- __Check media archives__: Ensure all images/files downloaded to `archives/Wikimedia Commons/` with `%20`-encoded filenames
-- __Verify link normalization__: Relative paths only; no external URLs unless absolutely necessary
-- __YAML structure__: Use [markdown-notes](../instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`
-- __Keep attribution__: Preserve Wikipedia source URL in frontmatter or as HTML comment
-- __Review formatting__: Simplify complex tables/lists if needed; respect `.markdownlint.json` settings
-
-## Common issues
-
-1. __Media download failures__: Check if clipboard HTML is complete; retry `convert_wiki`
-2. __Broken relative links__: Verify `%20` encoding for spaces (not `%3A` or other encodings)
-3. __Complex tables__: Some Wikipedia tables don't convert well; manually edit to simpler Markdown format
-
-## Integration
-
-- __Note scaffolding__: Use [tools/SKILL.md](../tools/SKILL.md) (templates section) to understand frontmatter conventions
-- __Edit conventions__: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules while editing imported notes
-
-## Typical command pattern
-
-```bash
-# Scaffold new wiki-sourced note (creates file + symlink)
-uv run -m templates.new_wiki_page
-
-# Ingest from clipboard
-uv run -m convert_wiki
-```
+- __Media archives__: Ensure all images/files are downloaded to
+  `archives/Wikimedia Commons/` with `%20`-encoded filenames. If downloads fail,
+  check that clipboard HTML was complete and retry `convert_wiki`.
+- __Link normalization__: Use relative paths only; verify `%20` encoding for
+  spaces (not `%3A` or other encodings).
+- __Formatting__: Simplify complex tables/lists if needed; respect
+  `.markdownlint.json` settings.
+- __Frontmatter__: Follow [markdown-notes](../instructions/markdown-notes.instructions.md) conventions
+  for `aliases` and `tags`.
+- __Attribution__: Preserve the Wikipedia source URL in frontmatter or as an HTML
+  comment.
+- __Editing rules__: See [editing-conventions](../instructions/editing-conventions.instructions.md) for
+  general rules when editing imported notes.
