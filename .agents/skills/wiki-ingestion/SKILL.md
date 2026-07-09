@@ -41,7 +41,7 @@ symlink.
 | Prompt | Default | Example | Notes |
 |--------|---------|---------|-------|
 | `Language? (ISO code)` | `eng` | `eng`, `en`, `zho`, `deu`, `fra` | Case-insensitive. Accepts ISO 639‑1 (2‑letter), ISO 639‑2 (3‑letter), or ISO 639‑3 (3‑letter) codes. Validated via pycountry. |
-| `Name?` | — | `Fourier transform`, `Machine learning` | The Wikipedia article title — not URL-encoded, no underscores. Cannot be empty. |
+| `Name?` | — | `Fourier transform`, `machine learning` | The Wikipedia article title — not URL-encoded, no underscores. Cannot be empty. |
 
 #### Transformations applied to the article name
 
