@@ -57,8 +57,8 @@ symlink.
 2. Matched against pycountry: first tries `alpha_2` (ISO 639‑1), then `alpha_3`
    (ISO 639‑3).
 3. Directory code uses the **longest available** code via the fallback chain:
-   ``alpha_3`` → ``bibliographic`` (ISO 639‑2/B) → ``alpha_2``. This ensures
-   3-letter codes are preferred when they exist.
+   ``alpha_3`` → ``alpha_2``. This ensures 3-letter codes are preferred when
+   they exist.
 4. Human-readable name is taken from `lang.name`.
 5. The corresponding subdirectory under `general/` must already exist (e.g.
    `general/eng/`, `general/zho/`).
