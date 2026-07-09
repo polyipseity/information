@@ -33,19 +33,23 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 __Command__: `uv run -m templates.new_wiki_page`
 
-- Script prompts for Wikipedia article name (e.g., "Fourier Transform")
+- Script prompts for language (ISO code, default `eng`) and Wikipedia article
+  name (e.g., "Fourier Transform")
+- Validates the language code via pycountry (accepts ISO 639‑1 or 639‑2)
 - Generates YAML frontmatter template:
 
   ```yaml
   ---
   aliases: [Alternative name]
-  tags: [flashcard/active, language/in/English]
+  tags: [flashcard/active/general/<lang>/, language/in/<Language>]
   ---
   ```
 
 - Adds Wikipedia link comment: `<!-- Source: https://en.wikipedia.org/wiki/Article_Name -->`
-- Copies template to clipboard
-- __Action__: Paste into new file `general/Article Name.md` (or `special/` if specialized content)
+- Creates `general/<lang>/<name>.md` with the frontmatter
+- Creates a relative symlink `general/<name>.md` → `<lang>/<name>.md`
+- The two file operations are atomic: either both succeed or the script rolls
+  back entirely and exits with an error
 
 ### Step 2: Copy Wikipedia HTML to clipboard
 
@@ -111,9 +115,9 @@ The source must honour the single‑line restriction for the latter two formats;
 ## Typical command pattern
 
 ```bash
+# Scaffold new wiki-sourced note (creates file + symlink)
+uv run -m templates.new_wiki_page
+
 # Ingest from clipboard
 uv run -m convert_wiki
-
-# Scaffold new wiki-sourced note
-uv run -m templates.new_wiki_page
 ```

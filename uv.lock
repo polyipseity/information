@@ -764,6 +764,7 @@ dependencies = [
     { name = "mistune" },
     { name = "numpy" },
     { name = "pyarchivist" },
+    { name = "pycountry" },
     { name = "pydantic" },
     { name = "pydantic-yaml" },
     { name = "pyperclip" },
@@ -831,6 +832,7 @@ requires-dist = [
     { name = "pandas", marker = "extra == 'scripts'", specifier = ">=3.0.3" },
     { name = "pillow", marker = "extra == 'scripts'", specifier = ">=10.3.0" },
     { name = "pyarchivist", specifier = ">=3.0.0" },
+    { name = "pycountry", specifier = ">=24.6.1" },
     { name = "pydantic", specifier = ">=2.13.4" },
     { name = "pydantic-yaml", specifier = ">=1.7.0" },
     { name = "pyperclip", specifier = ">=1.9.0" },
@@ -1786,6 +1788,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/cd/bd/b1abc048a8d4a47856183b34442c69a9c3a5b3708e3ff4a3cf5fb2840237/pyarchivist-3.1.0.tar.gz", hash = "sha256:1d28c27bc9a43873b38cdc276e12d75d806f60cc40dd47829028f5134e3b6157", size = 34077, upload-time = "2026-03-24T05:14:27.499Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/8f/e8/f5a425a8f5f3797f6e8530be4592b4017436d48f31d62ef5bcf199da413a/pyarchivist-3.1.0-py3-none-any.whl", hash = "sha256:f7aab128dcedec5f53026bb8a981b01eab532002ad992452193a6582323ce8da", size = 25554, upload-time = "2026-03-24T05:14:26.154Z" },
+]
+
+[[package]]
+name = "pycountry"
+version = "26.2.16"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/de/1d/061b9e7a48b85cfd69f33c33d2ef784a531c359399ad764243399673c8f5/pycountry-26.2.16.tar.gz", hash = "sha256:5b6027d453fcd6060112b951dd010f01f168b51b4bf8a1f1fc8c95c8d94a0801", size = 7711342, upload-time = "2026-02-17T03:42:52.367Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/9c/42/7703bd45b62fecd44cd7d3495423097e2f7d28bc2e99e7c1af68892ab157/pycountry-26.2.16-py3-none-any.whl", hash = "sha256:115c4baf7cceaa30f59a4694d79483c9167dbce7a9de4d3d571c5f3ea77c305a", size = 8044600, upload-time = "2026-02-17T03:42:49.777Z" },
 ]
 
 [[package]]
