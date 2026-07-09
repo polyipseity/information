@@ -27,7 +27,7 @@ def _resolve_lang(code: str) -> tuple[str, str]:
 
     Accepts ISO 639‑1 (2‑letter), ISO 639‑2 (3‑letter), and ISO 639‑3
     (3‑letter) codes. Resolves to the longest available directory code via
-    the fallback chain ``alpha_3`` → ``bibliographic`` → ``alpha_2``.
+    the fallback chain ``alpha_3`` → ``alpha_2``.
     """
     code = code.strip().lower()
     lang = pycountry.languages.get(alpha_2=code) or pycountry.languages.get(
@@ -36,7 +36,7 @@ def _resolve_lang(code: str) -> tuple[str, str]:
     if lang is None:
         msg = f"unknown language code: {code!r}"
         raise LookupError(msg)
-    dir_code = lang.alpha_3 or lang.bibliographic or lang.alpha_2
+    dir_code = lang.alpha_3 or lang.alpha_2
     return dir_code, lang.name
 
 
