@@ -15,7 +15,14 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
    - __Agents SHOULD wrap commit body lines at 72 characters or fewer (preferred for readability and buffer). Note: commitlint enforces a hard limit of 100 characters — ensure lines are ≤100 to pass.__
    - Proper use of footers and trailers
 
-2. If the changes touch any of the `general/`, `special/`, or `self/` trees, the agent SHOULD suggest the following commit format to the user and prefer splitting documentation and content changes from functional changes. __Agents SHOULD aim to wrap commit body lines at 72 characters or fewer (preferred for readability and buffer); commitlint enforces a hard limit of 100 characters — ensure lines are ≤100 to pass.__
+2. If the changes touch `.md` files under `general/`, `special/`, or `self/` trees, the agent SHOULD suggest the following commit format to the user and prefer splitting documentation and content changes from functional changes. __Agents SHOULD aim to wrap commit body lines at 72 characters or fewer (preferred for readability and buffer); commitlint enforces a hard limit of 100 characters — ensure lines are ≤100 to pass.__
+
+   Flashcard trailers (`Flashcards-delta`, `Flashcards-prev`, `Flashcards-now`) in this format only apply when __all__ of the following conditions are met:
+   - (a) The changes touch `.md` files under `general/`, `special/`, or `self/`.
+   - (b) At least one of the modified `.md` files has flashcard-related tags in its YAML frontmatter (e.g. `flashcard/active`, `flashcard/archive`).
+   - (c) The change is intended to add or remove flashcards — not a simple fix, metadata-only edit, reformatting, or other change that does not alter flashcard content.
+
+   When any condition is false, omit the flashcard trailers. When the conditions are met, proceed with the trailer examples below.
    - If a commit message fails commitlint due to line length, the agent MUST rewrap the body to ≤ 100 chars/line and retry until it passes, or report the error if it cannot be resolved.
 
    Header example:
@@ -36,23 +43,20 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
    `commit-staged-flashcard-progress` prompt. These commits MUST use
    Conventional Commit headers in one of these forms (wrap lines to 72
    characters or fewer):
-
    - Learn only: `chore(flashcards): learn N cards`
    - Review only: `chore(flashcards): review D/T
-     cards (YYYY-MM-DD)`
+cards (YYYY-MM-DD)`
    - Both learn and review: `chore(flashcards): learn N; review D/T cards
-     (YYYY-MM-DD)`
+(YYYY-MM-DD)`
 
    Required trailers (plain ASCII key/value, one per line, wrapped to 72
    characters or fewer):
-
    - `Flashcards-learned: <N>`
    - `Flashcards-review-target: <T>`
    - `Flashcards-review-done: <D>`
    - `Flashcards-review-date: <YYYY-MM-DD>`
 
    Optional trailers:
-
    - `Flashcards-review-remaining: <R>` (if provided)
    - `Flashcards-prev`, `Flashcards-now`, `Flashcards-delta` may be included
      when relevant to note updates.
@@ -62,7 +66,7 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
    result for traceability. Agents must ensure progress commits pass
    commitlint; if commitlint rejects the message, rewrap/reformat and retry.
 
-   The agent MUST prompt the user for the previous flashcard count and the new flashcard count (or otherwise confirm the values) before finalizing the commit. The agent computes `Flashcards-delta = Flashcards-now - Flashcards-prev` and inserts the three trailers exactly as single-line trailers at the end of the commit message.
+   When the three conditions above for flashcard trailers are met, the agent MUST prompt the user for the previous flashcard count and the new flashcard count (or otherwise confirm the values) before finalizing the commit. The agent computes `Flashcards-delta = Flashcards-now - Flashcards-prev` and inserts the three trailers exactly as single-line trailers at the end of the commit message.
 
 3. Trailers must be plain ASCII key/value pairs, one per line. Place them before any repository footers if present. Note: this repository does not require a `Signed-off-by:` footer — any such footer is optional and stylistic.
 
@@ -72,7 +76,10 @@ Whenever an automated agent or helper wishes to create a git commit on behalf of
    Flashcards-prev: 118117
    Flashcards-now: 118158
 
-4. If no flashcard-related counts apply to the change, the agent should omit these trailers.
+4. Flashcard trailers only apply when all three conditions from point 2 are met. Specifically, omit the trailers when:
+   - The changes do not touch `.md` files under `general/`, `special/`, or `self/`, or
+   - None of the modified `.md` files have flashcard-related tags in their YAML frontmatter, or
+   - The change does not add or remove flashcards (e.g., simple fixes, metadata updates, reformatting).
 
 5. The agent MUST always show the proposed commit message to the user for confirmation before creating the commit. If the user requests changes to the message or the trailer values, the agent must accept and re-present the updated commit message for final confirmation. __The agent MUST check that the message is commitlint-compliant before presenting or using it.__
 
@@ -92,6 +99,8 @@ All commit messages MUST pass commitlint checks. In particular:
 If a commit message fails commitlint, the agent MUST rewrap or reformat the message and retry until it passes, or report the error if it cannot be resolved. __Agents must never allow a commit message with a body line exceeding 100 characters (commitlint will block the commit).__
 
 ---
+
+The examples below show the trailer format when flashcard trailers are applicable (all three conditions in point 2 satisfied).
 
 Examples
 
