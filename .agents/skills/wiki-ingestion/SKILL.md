@@ -33,23 +33,94 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 __Command__: `uv run -m templates.new_wiki_page`
 
-- Script prompts for language (ISO code, default `eng`) and Wikipedia article
-  name (e.g., "Fourier Transform")
-- Validates the language code via pycountry (accepts ISO 639‑1 or 639‑2)
-- Generates YAML frontmatter template:
+The script prompts for two inputs, then atomically creates the note file and a
+symlink.
 
-  ```yaml
-  ---
-  aliases: [Alternative name]
-  tags: [flashcard/active/general/<lang>/, language/in/<Language>]
-  ---
-  ```
+#### Inputs
 
-- Adds Wikipedia link comment: `<!-- Source: https://en.wikipedia.org/wiki/Article_Name -->`
-- Creates `general/<lang>/<name>.md` with the frontmatter
-- Creates a relative symlink `general/<name>.md` → `<lang>/<name>.md`
-- The two file operations are atomic: either both succeed or the script rolls
-  back entirely and exits with an error
+| Prompt | Default | Example | Notes |
+|--------|---------|---------|-------|
+| `Language? (ISO code)` | `eng` | `eng`, `en`, `zho`, `deu`, `fra` | Case-insensitive. Accepts ISO 639‑1 (2‑letter), ISO 639‑2 (3‑letter), or ISO 639‑3 (3‑letter) codes. Validated via pycountry. |
+| `Name?` | — | `Fourier transform`, `Machine learning` | The Wikipedia article title — not URL-encoded, no underscores. Cannot be empty. |
+
+#### Transformations applied to the article name
+
+| Output field | How it is derived | Example (`Fourier transform (disambiguation)`) |
+|---|---|---|
+| **Wikipedia URL name** | Spaces → underscores (used for ``<!-- Source: -->`` comment). | `Fourier_transform_(disambiguation)` |
+| **Title** | Trailing parenthetical disambiguation is stripped via regex ``\s\([^()]+\)$``. | `Fourier transform` |
+| **Tag name** | Non-alphanumeric chars → ``_`` (except ``–``/``—`` → ``-``). Falls back to ``{title}_`` if result is empty or purely numeric. | `Fourier_transform_(disambiguation)` → `Fourier_transform__disambiguation_` |
+
+#### Language code resolution
+
+1. Input is stripped and lowercased.
+2. Matched against pycountry: first tries `alpha_2` (ISO 639‑1), then `alpha_3`
+   (ISO 639‑3).
+3. Directory code uses the **longest available** code via the fallback chain:
+   ``alpha_3`` → ``bibliographic`` (ISO 639‑2/B) → ``alpha_2``. This ensures
+   3-letter codes are preferred when they exist.
+4. Human-readable name is taken from `lang.name`.
+5. The corresponding subdirectory under `general/` must already exist (e.g.
+   `general/eng/`, `general/zho/`).
+
+#### Generated YAML frontmatter
+
+```yaml
+---
+aliases:
+  - {title}           # Title derived from the article name (disambiguation stripped)
+tags:
+  - flashcard/active/general/{dir_code}/{tag_name}
+  - language/in/{lang_name}   # Human language name (e.g. "English", "Chinese")
+---
+```
+
+| Placeholder | Source | Example |
+|---|---|---|
+| `{title}` | Article name with trailing parenthetical stripped | `Fourier transform` |
+| `{dir_code}` | Language ISO code (3-letter preferred) | `eng`, `zho` |
+| `{tag_name}` | Article name sanitised for tag use | `Fourier_transform` |
+| `{lang_name}` | Human-readable language name from pycountry | `English`, `Chinese` |
+
+#### File layout
+
+- **Note file**: `general/<dir_code>/<name>.md` — contains the YAML frontmatter
+  and the attribution footer.
+- **Symlink**: `general/<name>.md` → `<dir_code>/<name>.md` — a relative
+  symlink at the top level of `general/` for convenient access.
+- **Atomicity**: Both files are written to temporary paths first, then
+  atomically renamed into place. If either operation fails, both files are
+  cleaned up — the creation either succeeds completely or has no effect.
+
+#### Example walkthrough
+
+```
+$ uv run -m templates.new_wiki_page
+Language? (ISO code, default: eng) zho
+Name? Fourier transform
+Created: general/zho/Fourier transform.md
+Symlink: general/Fourier transform.md -> zho/Fourier transform.md
+```
+
+Resulting `general/zho/Fourier transform.md`:
+
+```yaml
+---
+aliases:
+  - Fourier transform
+tags:
+  - flashcard/active/general/zho/Fourier_transform
+  - language/in/Chinese
+---
+
+# Fourier transform
+
+## references
+
+This text incorporates [content](https://en.wikipedia.org/wiki/Fourier_transform) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+```
+
+And `general/Fourier transform.md` → `zho/Fourier transform.md` (relative symlink).
 
 ### Step 2: Copy Wikipedia HTML to clipboard
 
