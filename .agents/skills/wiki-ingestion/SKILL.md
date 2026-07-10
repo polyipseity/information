@@ -27,6 +27,11 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ## Detailed workflow
 
+The workflow alternates between agent-run and human-run steps. After each manual step (marked with ⏸️), the user re-invokes this skill to continue. When resuming, the agent should ask the user:
+
+- Which step to resume from
+- The file path of the note being ingested (`general/<dir_code>/<name>.md`)
+
 ### Step 1: Scaffold new note
 
 __Command__: `uv run -m templates.new_wiki_page`
@@ -111,6 +116,8 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Fourier_transform
 
 And `general/Fourier transform.md` → `zho/Fourier transform.md` (relative symlink).
 
+Note the created file path — you will need it when re-invoking the skill after later manual steps.
+
 ### Step 2: Copy Wikipedia HTML to clipboard
 
 - Open Wikipedia article in browser
@@ -119,6 +126,8 @@ And `general/Fourier transform.md` → `zho/Fourier transform.md` (relative syml
 - Content is now in clipboard
 
 ⏸️ **Stop here.** The agent cannot perform this step. A human must manually copy the article content from the Wikipedia page. Resume once the HTML is in the clipboard.
+
+When re-invoking the skill to continue, tell the agent the file path of the note being ingested and that Step 2 (copying HTML) is done.
 
 ### Step 3: Ingest HTML
 
@@ -138,6 +147,8 @@ This step is empty for now.
 ### Step 5: Manual review and editing
 
 ⏸️ **Stop here.** Let humans review the Markdown output manually, fix formatting issues, add flashcards (cloze or QA markup), and make any other edits. The agent should not perform these tasks.
+
+When re-invoking the skill to continue, tell the agent the file path of the note being reviewed and that manual editing is complete.
 
 ### Step 6: Review and finalize
 
