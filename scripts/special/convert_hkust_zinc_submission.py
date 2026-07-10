@@ -6,7 +6,7 @@ from copy import copy
 from datetime import datetime, timedelta
 from enum import StrEnum
 from io import StringIO
-from re import Pattern
+from re import Pattern, search
 from re import compile as re_compile
 from sys import stderr
 from typing import NamedTuple, final
@@ -133,7 +133,9 @@ def parse_datetime(
 
     string = string[start_index:end_index].replace("\n", " ")
     delta = timedelta(hours=12) if string.endswith("pm") else timedelta()
-    if string.endswith("12am") or string.endswith("12pm"):
+    hour_match = search(r"(\d+):", string) or search(r"(\d+)\s*[ap]m", string.lower())
+    hour = int(hour_match.group(1)) if hour_match else 0
+    if hour == 12:
         delta -= timedelta(hours=12)
 
     for transformer, format in _FORMATS:
@@ -305,8 +307,9 @@ def parse_properties(
             due_ele = selected_assignment_ele.find(
                 None, attrs={"data-icon": "calendar-exclamation"}
             )
-            due_ele = None if due_ele is None else due_ele.parent
-            due_ele = None if due_ele is None else due_ele.next_sibling
+            due_ele = (
+                None if due_ele is None else due_ele.find_next_sibling()
+            )
             properties_raw["due"] = (
                 ""
                 if due_ele is None
@@ -317,10 +320,9 @@ def parse_properties(
                 None, attrs={"data-icon": "rotate-right"}
             )
             retry_limit_ele = (
-                None if retry_limit_ele is None else retry_limit_ele.parent
-            )
-            retry_limit_ele = (
-                None if retry_limit_ele is None else retry_limit_ele.next_sibling
+                None
+                if retry_limit_ele is None
+                else retry_limit_ele.find_next_sibling()
             )
             properties_raw["retry limit"] = (
                 "" if retry_limit_ele is None else retry_limit_ele.text.strip()
