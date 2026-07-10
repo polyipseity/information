@@ -15,16 +15,17 @@ from datetime import datetime, timedelta, timezone
 from json import JSONDecodeError
 from json import dump as json_dump
 from json import load as json_load
-from logging import INFO, basicConfig
+from logging import INFO, basicConfig, getLogger
 from os import PathLike, chdir, getcwd, replace as os_replace, scandir, symlink
 from pathlib import Path as PathlibPath
 from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
-from sys import argv, version
+from sys import version
 from typing import Any
 from urllib.parse import quote, unquote
 
+import argparse
 import json5
 from aiohttp import ClientSession, TCPConnector
 import anyio
@@ -217,6 +218,9 @@ _TABLE_IN_TABLE_HEADER_REGEX: Pattern[str] = compile(r"\| (__.*?__) \|")
 _TABLE_IN_TABLE_LEADING_VERTICAL_REGEX: Pattern[str] = compile(r"\s*\|")
 "Regex for stripping trailing pipes in nested tables."
 _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX: Pattern[str] = compile(r"\|\s*")
+
+"Module-level logger."
+_logger = getLogger(__name__)
 
 
 def _bs4_new_element(tag_str: str) -> PageElement:
@@ -943,11 +947,25 @@ async def wiki_html_to_plaintext(
 
 async def main() -> None:
     """Read Wikipedia HTML from the clipboard and print its Markdown equivalent."""
-    refs = "--no-refs" not in argv[1:]
+    parser = argparse.ArgumentParser(
+        description="Convert Wikipedia HTML from clipboard to Markdown."
+    )
+    parser.add_argument(
+        "--no-refs",
+        action="store_true",
+        help="Omit reference citations.",
+    )
+    args = parser.parse_args()
+    refs = not args.no_refs
+
+    basicConfig(level=INFO)
+    _logger.info("Starting Wikipedia HTML to Markdown conversion")
 
     input("HTML (will read from clipboard)? ")
     html_text = paste_html()
-    assert isinstance(html_text, str)
+    if not isinstance(html_text, str):
+        msg = f"Clipboard does not contain HTML text (got {type(html_text).__name__})"
+        raise TypeError(msg)
 
     html = BeautifulSoup(html_text, "html.parser")
 
@@ -976,7 +994,7 @@ async def main() -> None:
 
     if out_to_archive:
         try:
-            basicConfig(level=INFO)
+            _logger.info("Archiving %d media files", len(out_to_archive))
             await pyarchivist_Wikimedia_Commons_main(
                 pyarchivist_Wikimedia_Commons_Args(
                     inputs=tuple(out_to_archive),
