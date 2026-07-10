@@ -27,6 +27,7 @@ from urllib.parse import quote, unquote
 
 import json5
 from aiohttp import ClientSession, TCPConnector
+import anyio
 from anyio import Path
 from asyncer import SoonValue, create_task_group, runnify
 from bs4 import BeautifulSoup, Tag
@@ -182,6 +183,14 @@ _REDIRECT_CACHE_PATH = _DATA_DIRECTORY / f"{BASE_NAME}.redirect_cache.json"
 _API_MAX_TITLES_PER_REQUEST = 50
 "TTL for the redirect cache."
 _CACHE_TTL = timedelta(days=1)
+"Maximum number of retries for 429 Too Many Requests."
+_API_MAX_RETRIES = 3
+"Initial backoff in seconds for 429 retry."
+_API_INITIAL_BACKOFF = 1.0
+"Multiplier for exponential backoff."
+_API_BACKOFF_MULTIPLIER = 2.0
+"Maximum backoff in seconds."
+_API_MAX_BACKOFF = 30.0
 
 
 def _bs4_new_element(tag_str: str) -> PageElement:
@@ -306,6 +315,36 @@ def _save_redirect_cache(cache: dict[str, _RedirectInfo]) -> None:
         raise
 
 
+async def _api_request(
+    session: ClientSession,
+    params: Query,
+) -> Any:
+    """Make a Wikipedia API request with retry on HTTP 429."""
+    url = URL.build(
+        scheme=_WIKI_HOST_URL.scheme,
+        host=str(_WIKI_HOST_URL.host),
+        path="/w/api.php",
+        query=params,
+    )
+    backoff = _API_INITIAL_BACKOFF
+    for attempt in range(_API_MAX_RETRIES):
+        async with session.get(url) as req:
+            if req.status == 429:
+                retry_after_str = req.headers.get("Retry-After")
+                if retry_after_str is not None:
+                    try:
+                        backoff = float(retry_after_str)
+                    except ValueError:
+                        pass
+                await anyio.sleep(min(backoff, _API_MAX_BACKOFF))
+                backoff = min(backoff * _API_BACKOFF_MULTIPLIER, _API_MAX_BACKOFF)
+                continue
+            return await req.json()
+    # last attempt — raise on any non-200 status
+    async with session.get(url) as req:
+        return await req.json()
+
+
 async def _resolve_redirects(
     session: ClientSession,
     titles: set[str],
@@ -329,14 +368,7 @@ async def _resolve_redirects(
             "titles": "|".join(batch),
             "redirects": "",
         }
-        url = URL.build(
-            scheme=_WIKI_HOST_URL.scheme,
-            host=str(_WIKI_HOST_URL.host),
-            path="/w/api.php",
-            query=params,
-        )
-        async with session.get(url) as req:
-            result = await req.json()
+        result = await _api_request(session, params)
         redirected_from = set[str]()
         for r in result.get("query", {}).get("redirects", []):
             cache[r["from"]] = _RedirectInfo(
