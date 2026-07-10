@@ -5,17 +5,15 @@ downloads referenced media to ``archives/Wikimedia Commons/``,
 and prints the result ready to be pasted into a knowledge-base note.
 """
 
-from collections.abc import Awaitable, Callable, Mapping, MutableSet
+from collections.abc import Awaitable, Callable, Iterator, Mapping, MutableSet
 from contextlib import contextmanager, suppress
 from copy import copy
 from logging import INFO, basicConfig
 from os import chdir, getcwd, scandir, symlink
-from os.path import abspath
 from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
 from sys import argv, version
-from typing import Iterator
 from urllib.parse import quote, unquote
 
 import json5
@@ -132,7 +130,7 @@ _ARCHIVE_REGEXES = {
     ),
 }
 "Script directory for resolving relative data files."
-_SCRIPT_DIRECTORY = Path(abspath(__file__)).parent
+_SCRIPT_DIRECTORY = Path(PurePath(__file__).parent)
 "Directory where converted Wikipedia Markdown notes are stored."
 _CONVERTED_WIKI_DIRECTORY = _SCRIPT_DIRECTORY.parent / "general"
 "Subdirectory for non-English language Wikipedia notes."
