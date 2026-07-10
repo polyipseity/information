@@ -22,13 +22,12 @@ from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
 from sys import version
-from typing import Any
+from typing import NotRequired, TypedDict
 from urllib.parse import quote, unquote
 
 import anyio
 import json5
 from aiohttp import ClientSession, TCPConnector
-from aiohttp.typedefs import Query
 from anyio import Path
 from asyncer import SoonValue, create_task_group, runnify
 from bs4 import BeautifulSoup, Tag
@@ -49,7 +48,7 @@ __all__ = ()
 
 
 @contextmanager
-def _with_cwd(cwd: PathLike[str] | str):
+def _with_cwd(cwd: PathLike[str]):
     """Temporarily change the current working directory."""
     old_cwd = getcwd()
     chdir(cwd)
@@ -284,6 +283,29 @@ class _RedirectInfo:
     tofragment: str = ""
 
 
+_RedirectItem = TypedDict(
+    "_RedirectItem",
+    {
+        # A single redirect entry from the MediaWiki API response.
+        "from": str,  # Original page title (required)
+        "to": NotRequired[str],  # Redirect target title
+        "tofragment": NotRequired[str],  # Section fragment
+    },
+)
+
+
+class _ApiQueryBody(TypedDict, total=False):
+    """The ``query`` section of a MediaWiki API response."""
+
+    redirects: list[_RedirectItem]
+
+
+class _ApiResponse(TypedDict, total=False):
+    """A MediaWiki ``action=query`` API response with redirects."""
+
+    query: _ApiQueryBody
+
+
 def _collect_link_titles(html: Tag) -> set[str]:
     """Collect all link titles that need redirect resolution."""
     titles = set[str]()
@@ -343,8 +365,8 @@ def _save_redirect_cache(cache: dict[str, _RedirectInfo]) -> None:
 
 async def _api_request(
     session: ClientSession,
-    params: Query,
-) -> Any:
+    params: dict[str, str | int],
+) -> _ApiResponse:
     """Make a Wikipedia API request with retry on HTTP 429."""
     url = URL.build(
         scheme=_WIKI_HOST_URL.scheme,
@@ -353,7 +375,7 @@ async def _api_request(
         query=params,
     )
     backoff = _API_INITIAL_BACKOFF
-    for attempt in range(_API_MAX_RETRIES):
+    for _attempt in range(_API_MAX_RETRIES):
         async with session.get(url) as req:
             if req.status == 429:
                 retry_after_str = req.headers.get("Retry-After")
@@ -387,7 +409,7 @@ async def _resolve_redirects(
     titles_list = list(uncached)
     for i in range(0, len(titles_list), _API_MAX_TITLES_PER_REQUEST):
         batch = titles_list[i : i + _API_MAX_TITLES_PER_REQUEST]
-        params: Query = {
+        params: dict[str, str | int] = {
             "format": "json",
             "formatversion": 2,
             "action": "query",
@@ -396,12 +418,13 @@ async def _resolve_redirects(
         }
         result = await _api_request(session, params)
         redirected_from = set[str]()
-        for r in result.get("query", {}).get("redirects", []):
-            cache[r["from"]] = _RedirectInfo(
-                to=r.get("to", r["from"]),
-                tofragment=r.get("tofragment", ""),
-            )
-            redirected_from.add(r["from"])
+        if (query_body := result.get("query")) is not None:
+            for r in query_body.get("redirects") or []:
+                cache[r["from"]] = _RedirectInfo(
+                    to=r.get("to", r["from"]),
+                    tofragment=r.get("tofragment", ""),
+                )
+                redirected_from.add(r["from"])
         for title in batch:
             if title not in redirected_from:
                 cache.setdefault(title, _RedirectInfo(to=title))

@@ -10,14 +10,10 @@ import dataclasses
 import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import TYPE_CHECKING
 
 import anyio
 import pytest
 from bs4 import BeautifulSoup
-
-if TYPE_CHECKING:
-    pass
 
 from scripts import convert_wiki as _mod
 
