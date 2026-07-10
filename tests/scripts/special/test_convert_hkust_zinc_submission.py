@@ -114,7 +114,7 @@ class TestParseDatetime:
             "15/09/2023 at 12:00:00am", reference_datetime=self.REF
         )
         assert result is not None
-        assert result.result == datetime(2023, 9, 15, 12, 0)
+        assert result.result == datetime(2023, 9, 15, 0, 0)
 
     def test_12pm_noon(self) -> None:
         """12pm stays at 12:00."""
@@ -122,7 +122,7 @@ class TestParseDatetime:
             "15/09/2023 at 12:00:00pm", reference_datetime=self.REF
         )
         assert result is not None
-        assert result.result == datetime(2023, 9, 16, 0, 0)
+        assert result.result == datetime(2023, 9, 15, 12, 0)
 
     def test_chinese_pm(self) -> None:
         """下午 → pm should be replaced."""
@@ -493,9 +493,9 @@ class TestParseProperties:
         # because Zinc parse_datetime doesn't match that format (no am/pm, no dd/mm).
         # So it stays as a generic string via the fallback path.
         assert "release datetime" in props
-        # due — source code parent/next_sibling navigation doesn't reach it → ""
-        assert props.get("due") == ""
-        # retry limit — "3" has no colon, so ValueError → -1
+        # due — now found via find_next_sibling(), parsed as datetime
+        assert isinstance(props.get("due"), datetime)
+        # retry limit — "3" has no colon, so index(":") raises ValueError → -1
         assert props.get("retry limit") == -1
 
     def test_selected_assignment_retry_limit_with_colon(self) -> None:
@@ -515,7 +515,7 @@ class TestParseProperties:
             page_type=_mod.AssignmentPageType.SUBMISSION,
             reference_datetime=self.REF,
         )
-        assert result.properties.get("retry limit") == -1
+        assert result.properties.get("retry limit") == 3
 
     def test_selected_assignment_due_prefix_stripped(self) -> None:
         """'Due on ' prefix is stripped before datetime parsing."""
@@ -535,8 +535,8 @@ class TestParseProperties:
             reference_datetime=self.REF,
         )
         due = result.properties.get("due")
-        # Source code parent/next_sibling navigation doesn't reach the due element
-        assert due == ""
+        # Due is now found via find_next_sibling() and parsed as datetime
+        assert due == datetime(2023, 9, 15, 23, 59, 0, tzinfo=timezone.utc)
 
     def test_invalid_page_type(self) -> None:
         soup = BeautifulSoup("<div></div>", "html.parser")
@@ -677,5 +677,5 @@ saved date: Thu Sep 14 2023 10:00:00 UTC+0000
         assert "TC1" in result
         assert "TC2" in result
         # Breakdown values are int(True)→1 and int(False)→0 from source code
-        assert " 1" in result
-        assert " 0" in result
+        assert "TC1: 1" in result
+        assert "TC2: 0" in result
