@@ -192,6 +192,32 @@ _API_BACKOFF_MULTIPLIER = 2.0
 "Maximum backoff in seconds."
 _API_MAX_BACKOFF = 30.0
 
+# regex patterns
+"Regex for filesystem-unsafe characters in filenames."
+_BAD_CHARACTERS: Pattern[str] = compile(r"[/:\\]")
+"Regex for matching header tag names (h1-h6)."
+_HEADER_REGEX: Pattern[str] = compile(r"h(\d?)")
+"Regex for detecting bold font-weight in inline styles."
+_BOLD_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-weight: *bold")
+"Regex for detecting italic font-style in inline styles."
+_ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic")
+"Regex for escaping special Markdown characters."
+_MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]")
+"Regex for splitting bold/italic strings with surrounding whitespace."
+_PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)( *)$", DOTALL)
+"Regex for extracting reference content from citation brackets."
+_REF_CONTENT_REGEX: Pattern[str] = compile(r"\[([^]]*)\]")
+"Regex for collapsing consecutive newlines."
+_CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n+")
+"Regex for stripping leading whitespace on each line."
+_CONSECUTIVE_LEADING_WHITESPACES_REGEX: Pattern[str] = compile(r"^[ \t]+", MULTILINE)
+"Regex for handling table-in-table headers."
+_TABLE_IN_TABLE_HEADER_REGEX: Pattern[str] = compile(r"\| (__.*?__) \|")
+"Regex for stripping leading pipes in nested tables."
+_TABLE_IN_TABLE_LEADING_VERTICAL_REGEX: Pattern[str] = compile(r"\s*\|")
+"Regex for stripping trailing pipes in nested tables."
+_TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX: Pattern[str] = compile(r"\|\s*")
+
 
 def _bs4_new_element(tag_str: str) -> PageElement:
     """Parse an HTML tag string and return the first element."""
@@ -223,11 +249,7 @@ def _fix_name_maybe(
     return ret
 
 
-def _fix_filename(
-    filename: str,
-    *,
-    _BAD_CHARACTERS: Pattern[str] = compile(r"[/:\\]"),
-) -> str:
+def _fix_filename(filename: str) -> str:
     """Replace filesystem-unsafe characters in a filename with underscores."""
     return _BAD_CHARACTERS.sub("_", filename)
 
@@ -392,19 +414,6 @@ async def wiki_html_to_plaintext(
     escape: bool = True,
     refs: bool,
     redirect_map: dict[str, _RedirectInfo],
-    _HEADER_REGEX: Pattern[str] = compile(r"h(\d?)"),
-    _BOLD_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-weight: *bold"),
-    _ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic"),
-    _MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]"),
-    _PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)( *)$", DOTALL),
-    _REF_CONTENT_REGEX: Pattern[str] = compile(r"\[([^]]*)\]"),
-    _CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n+"),
-    _CONSECUTIVE_LEADING_WHITESPACES_REGEX: Pattern[str] = compile(
-        r"^[ \t]+", MULTILINE
-    ),
-    _TABLE_IN_TABLE_HEADER_REGEX: Pattern[str] = compile(r"\| (__.*?__) \|"),
-    _TABLE_IN_TABLE_LEADING_VERTICAL_REGEX: Pattern[str] = compile(r"\s*\|"),
-    _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX: Pattern[str] = compile(r"\|\s*"),
 ) -> str:
     """Convert a Wikipedia HTML element tree to a Markdown string."""
 
