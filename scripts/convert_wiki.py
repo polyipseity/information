@@ -39,7 +39,7 @@ __all__ = ()
 
 
 @contextmanager
-def _with_cwd(cwd: Path):
+def _with_cwd(cwd: str | os.PathLike[str]):
     """Temporarily change the current working directory."""
     old_cwd = getcwd()
     chdir(cwd)
@@ -132,13 +132,15 @@ _ARCHIVE_REGEXES = {
 }
 "Script directory for resolving relative data files."
 _SCRIPT_DIRECTORY = PathlibPath(__file__).resolve(strict=True).parent
+"Data directory for auxiliary data files (rename maps, caches, etc.)."
+_DATA_DIRECTORY = _SCRIPT_DIRECTORY / "assets"
 "Directory where converted Wikipedia Markdown notes are stored."
 _CONVERTED_WIKI_DIRECTORY = _SCRIPT_DIRECTORY.parent / "general"
 "Subdirectory for non-English language Wikipedia notes."
 _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 
 with open(
-    _SCRIPT_DIRECTORY / f"{BASE_NAME}.filename_rename_map.jsonc",
+    _DATA_DIRECTORY / f"{BASE_NAME}.filename_rename_map.jsonc",
     "rt",
     encoding="UTF-8",
 ) as names_map_file:
@@ -166,6 +168,8 @@ if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)
 "Combined filename rename map merging auto-detected and manual entries."
 _NAMES_MAP = _names_map | _names_map_manual
+"Path to the redirect resolution cache file."
+_REDIRECT_CACHE_PATH = _DATA_DIRECTORY / f"{BASE_NAME}.redirect_cache.json"
 
 
 def _bs4_new_element(tag_str: str) -> PageElement:
@@ -676,7 +680,7 @@ async def wiki_html_to_plaintext(
                         redirect_file = (
                             _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
                         )
-                        if not await redirect_file.exists():
+                        if not redirect_file.exists():
                             # no async
                             with _with_cwd(_CONVERTED_WIKI_LANGUAGE_DIRECTORY):
                                 with suppress(FileExistsError):
