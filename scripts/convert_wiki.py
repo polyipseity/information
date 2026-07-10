@@ -918,13 +918,12 @@ async def wiki_html_to_plaintext(
     soon_values: list[SoonValue[str]] = []
 
     async with create_task_group() as tg:
-        # inline helper capturing the specific coroutine
-        async def _identity(c: Awaitable[str]) -> str:
-            """Await and return the result of a coroutine."""
-            return await c
-
         for coro in process_children():
-            soon_values.append(tg.soonify(_identity)(coro))
+
+            async def _run(c=coro) -> str:
+                return await c
+
+            soon_values.append(tg.soonify(_run)())
 
     # by the time we exit the async with block all tasks have finished
     strings = joiner.join(sv.value for sv in soon_values)
