@@ -5,16 +5,24 @@ downloads referenced media to ``archives/Wikimedia Commons/``,
 and prints the result ready to be pasted into a knowledge-base note.
 """
 
-from collections.abc import Awaitable, Callable, Iterator, Mapping, MutableSet
+from aiohttp.typedefs import Query
+
+from collections.abc import Awaitable, Callable, Iterator, MutableSet
 from contextlib import contextmanager, suppress
 from copy import copy
+from dataclasses import dataclass
+from datetime import datetime, timedelta, timezone
+from json import JSONDecodeError
+from json import dump as json_dump
+from json import load as json_load
 from logging import INFO, basicConfig
-from os import chdir, getcwd, scandir, symlink
+from os import PathLike, chdir, getcwd, replace as os_replace, scandir, symlink
 from pathlib import Path as PathlibPath
 from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
 from sys import argv, version
+from typing import Any
 from urllib.parse import quote, unquote
 
 import json5
@@ -39,7 +47,7 @@ __all__ = ()
 
 
 @contextmanager
-def _with_cwd(cwd: str | os.PathLike[str]):
+def _with_cwd(cwd: PathLike[str] | str):
     """Temporarily change the current working directory."""
     old_cwd = getcwd()
     chdir(cwd)
@@ -170,6 +178,10 @@ if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
 _NAMES_MAP = _names_map | _names_map_manual
 "Path to the redirect resolution cache file."
 _REDIRECT_CACHE_PATH = _DATA_DIRECTORY / f"{BASE_NAME}.redirect_cache.json"
+"Maximum titles per batch when querying redirects."
+_API_MAX_TITLES_PER_REQUEST = 50
+"TTL for the redirect cache."
+_CACHE_TTL = timedelta(days=1)
 
 
 def _bs4_new_element(tag_str: str) -> PageElement:
@@ -229,6 +241,117 @@ def _tag_affixes(name: str) -> tuple[str, str]:
     return f"<{name}>", f"</{name}>"
 
 
+@dataclass(frozen=True)
+class _RedirectInfo:
+    """Resolved redirect information for a Wikipedia page title."""
+
+    to: str
+    tofragment: str = ""
+
+
+def _collect_link_titles(html: Tag) -> set[str]:
+    """Collect all link titles that need redirect resolution."""
+    titles = set[str]()
+    for a in html.find_all("a", title=True):
+        classes = frozenset(a.get_attribute_list("class"))
+        # Skip links that do not need (or cannot have) redirect resolution
+        if {"mw-file-description", "mw-selflink"} & classes:
+            continue
+        if "extiw" in classes:
+            continue
+        if "new" in classes:
+            continue
+        title = str(a["title"])
+        if title in _BAD_TITLES:
+            continue
+        if any(title.startswith(prefix) for prefix in _PRESERVED_PAGE_PREFIXES):
+            continue
+        titles.add(title)
+    return titles
+
+
+def _load_redirect_cache() -> dict[str, _RedirectInfo]:
+    """Load the redirect cache, respecting TTL."""
+    path = _REDIRECT_CACHE_PATH
+    try:
+        mtime = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
+        if datetime.now(timezone.utc) - mtime > _CACHE_TTL:
+            return {}
+        with open(path, "r", encoding="UTF-8") as f:
+            data = json_load(f)
+        assert isinstance(data, dict)
+        unpacked: dict[str, _RedirectInfo] = {}
+        for k, v in data.items():
+            assert isinstance(k, str) and isinstance(v, dict)
+            to = v.get("to", k)
+            tofragment = v.get("tofragment", "")
+            assert isinstance(to, str) and isinstance(tofragment, str)
+            unpacked[k] = _RedirectInfo(to=to, tofragment=tofragment)
+        return unpacked
+    except (FileNotFoundError, JSONDecodeError, OSError, AssertionError):
+        return {}
+
+
+def _save_redirect_cache(cache: dict[str, _RedirectInfo]) -> None:
+    """Atomically save the redirect cache."""
+    data = {k: {"to": v.to, "tofragment": v.tofragment} for k, v in cache.items()}
+    tmp = _REDIRECT_CACHE_PATH.with_suffix(".tmp")
+    try:
+        with open(tmp, "w", encoding="UTF-8") as f:
+            json_dump(data, f, ensure_ascii=False, indent=2)
+        os_replace(tmp, _REDIRECT_CACHE_PATH)
+    except BaseException:
+        with suppress(FileNotFoundError):
+            PathlibPath(tmp).unlink()
+        raise
+
+
+async def _resolve_redirects(
+    session: ClientSession,
+    titles: set[str],
+    cache: dict[str, _RedirectInfo],
+) -> dict[str, _RedirectInfo]:
+    """Resolve redirects for uncached titles via batched API queries.
+
+    Results are merged into *cache* and persisted to disk atomically.
+    """
+    uncached = titles - cache.keys()
+    if not uncached:
+        return cache
+
+    titles_list = list(uncached)
+    for i in range(0, len(titles_list), _API_MAX_TITLES_PER_REQUEST):
+        batch = titles_list[i : i + _API_MAX_TITLES_PER_REQUEST]
+        params: Query = {
+            "format": "json",
+            "formatversion": 2,
+            "action": "query",
+            "titles": "|".join(batch),
+            "redirects": "",
+        }
+        url = URL.build(
+            scheme=_WIKI_HOST_URL.scheme,
+            host=str(_WIKI_HOST_URL.host),
+            path="/w/api.php",
+            query=params,
+        )
+        async with session.get(url) as req:
+            result = await req.json()
+        redirected_from = set[str]()
+        for r in result.get("query", {}).get("redirects", []):
+            cache[r["from"]] = _RedirectInfo(
+                to=r.get("to", r["from"]),
+                tofragment=r.get("tofragment", ""),
+            )
+            redirected_from.add(r["from"])
+        for title in batch:
+            if title not in redirected_from:
+                cache.setdefault(title, _RedirectInfo(to=title))
+
+    _save_redirect_cache(cache)
+    return cache
+
+
 async def wiki_html_to_plaintext(
     ele: PageElement,
     *,
@@ -236,7 +359,7 @@ async def wiki_html_to_plaintext(
     list_stack: tuple[int, ...] = (),
     escape: bool = True,
     refs: bool,
-    session: ClientSession,
+    redirect_map: dict[str, _RedirectInfo],
     _HEADER_REGEX: Pattern[str] = compile(r"h(\d?)"),
     _BOLD_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-weight: *bold"),
     _ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic"),
@@ -612,26 +735,10 @@ async def wiki_html_to_plaintext(
                 href = str(ele.get("href", ""))
                 to_fragment = href.split("#", 1)[-1] if "#" in href else ""
 
-                async with session.get(
-                    URL.build(
-                        scheme=_WIKI_HOST_URL.scheme,
-                        host=str(_WIKI_HOST_URL.host),
-                        path="/w/api.php",
-                        query={
-                            "format": "json",
-                            "formatversion": 2,
-                            "action": "query",
-                            "titles": title,
-                            "redirects": "",
-                        },
-                    )
-                ) as req:
-                    redirect: Mapping[str, str] = (
-                        (await req.json()).get("query", {}).get("redirects", ({},))[0]
-                    )
-                    to = redirect.get("to", title)
-                    if not to_fragment:
-                        to_fragment = redirect.get("tofragment", "")
+                info = redirect_map.get(title, _RedirectInfo(to=title))
+                to = info.to
+                if not to_fragment:
+                    to_fragment = info.tofragment
 
                 if any(to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES):
                     pass  # noop
@@ -648,9 +755,11 @@ async def wiki_html_to_plaintext(
                         f"]({url_format[0].format(f'{quote(url_format[1])}{to_fragment and "#"}{quote(to_fragment, safe="")}')})",
                     )
                 elif "extiw" in classes:
-                    lang_code, title = title.split(":", 1)
+                    lang_code, extiw_page = to.split(":", 1)
                     lang_code = str(convert(lang_code, to="ISO3")).casefold()
-                    from_filename = _fix_name_maybe(title, replace_underscores=True)
+                    from_filename = _fix_name_maybe(
+                        extiw_page, replace_underscores=True
+                    )
                     prefix, suffix = (
                         "[",
                         f"](../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
@@ -770,7 +879,7 @@ async def wiki_html_to_plaintext(
                 list_stack=list_stack,
                 escape=escape and ele.name not in {"code", "math"},
                 refs=refs,
-                session=session,
+                redirect_map=redirect_map,
             )
 
     # concurrently evaluate each child coroutine preserving order
@@ -810,10 +919,13 @@ async def main() -> None:
             "User-Agent": USER_AGENT,
         },
     ) as session:
+        titles = _collect_link_titles(html)
+        cache = _load_redirect_cache()
+        redirect_map = await _resolve_redirects(session, titles, cache)
         output = await wiki_html_to_plaintext(
             html,
             out_to_archive=out_to_archive,
-            session=session,
+            redirect_map=redirect_map,
             refs=refs,
         )
     output = (
