@@ -10,7 +10,7 @@ from contextlib import contextmanager, suppress
 from copy import copy
 from logging import INFO, basicConfig
 from os import chdir, getcwd, scandir, symlink
-from pathlib import PurePath
+from pathlib import Path as PathlibPath, PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
 from sys import argv, version
@@ -130,7 +130,7 @@ _ARCHIVE_REGEXES = {
     ),
 }
 "Script directory for resolving relative data files."
-_SCRIPT_DIRECTORY = Path(PurePath(__file__).parent)
+_SCRIPT_DIRECTORY = PathlibPath(__file__).resolve().parent
 "Directory where converted Wikipedia Markdown notes are stored."
 _CONVERTED_WIKI_DIRECTORY = _SCRIPT_DIRECTORY.parent / "general"
 "Subdirectory for non-English language Wikipedia notes."
