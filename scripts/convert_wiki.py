@@ -15,6 +15,7 @@ from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
 from sys import argv, version
+from typing import Iterator
 from urllib.parse import quote, unquote
 
 import json5
@@ -749,7 +750,7 @@ async def wiki_html_to_plaintext(
         suffix = "\n\n"
         process_strings = process_strings_blockquote
 
-    def process_children():
+    def process_children() -> Iterator[Awaitable[str]]:
         """Yield coroutines that convert each child element to Markdown text."""
         nonlocal list_stack
         for child in ele.children:
