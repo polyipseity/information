@@ -5,8 +5,7 @@ downloads referenced media to ``archives/Wikimedia Commons/``,
 and prints the result ready to be pasted into a knowledge-base note.
 """
 
-from aiohttp.typedefs import Query
-
+import argparse
 from collections.abc import Awaitable, Callable, Iterator, MutableSet
 from contextlib import contextmanager, suppress
 from copy import copy
@@ -16,7 +15,8 @@ from json import JSONDecodeError
 from json import dump as json_dump
 from json import load as json_load
 from logging import INFO, basicConfig, getLogger
-from os import PathLike, chdir, getcwd, replace as os_replace, scandir, symlink
+from os import PathLike, chdir, getcwd, scandir, symlink
+from os import replace as os_replace
 from pathlib import Path as PathlibPath
 from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
@@ -25,10 +25,10 @@ from sys import version
 from typing import Any
 from urllib.parse import quote, unquote
 
-import argparse
+import anyio
 import json5
 from aiohttp import ClientSession, TCPConnector
-import anyio
+from aiohttp.typedefs import Query
 from anyio import Path
 from asyncer import SoonValue, create_task_group, runnify
 from bs4 import BeautifulSoup, Tag
