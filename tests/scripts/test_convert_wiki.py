@@ -451,6 +451,8 @@ class TestRedirectCache:
         assert loaded["A"].tofragment == ""
         assert loaded["C"].tofragment == "s"
         assert loaded["E"].to == "E"
+        # cached_at should be set on round-trip
+        assert isinstance(loaded["A"].cached_at, str) and loaded["A"].cached_at
 
     def test_load_missing_file(
         self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
@@ -473,17 +475,47 @@ class TestRedirectCache:
     def test_load_expired_ttl(
         self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
     ) -> None:
-        """Should return empty dict when cache is older than TTL."""
+        """Should skip entries with expired cached_at."""
 
-        cache = {"X": _mod._RedirectInfo(to="Y")}  # noqa: SLF001
-        path = tmp_path / "old_cache.json"
+        path = tmp_path / "old_entries.json"
+        old_ts = (datetime.now(timezone.utc) - timedelta(days=2)).isoformat()
+        path.write_text(
+            json.dumps({"X": {"to": "Y", "tofragment": "", "cached_at": old_ts}}),
+            encoding="UTF-8",
+        )
         monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", path)
         monkeypatch.setattr(_mod, "_CACHE_TTL", timedelta(days=1))
-        _mod._save_redirect_cache(cache)  # noqa: SLF001
-        # Backdate the mtime
-        old_time = (datetime.now(timezone.utc) - timedelta(days=2)).timestamp()
+        loaded = _mod._load_redirect_cache()  # noqa: SLF001
+        assert loaded == {}
 
-        os.utime(path, (old_time, old_time))
+    def test_old_format_missing_cached_at_stamped(
+        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+    ) -> None:
+        """Should stamp non-empty cached_at for entries without the field."""
+
+        path = tmp_path / "old_format.json"
+        path.write_text(
+            json.dumps({"X": {"to": "Y", "tofragment": ""}}),
+            encoding="UTF-8",
+        )
+        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", path)
+        loaded = _mod._load_redirect_cache()  # noqa: SLF001
+        assert len(loaded) == 1
+        assert loaded["X"].cached_at  # non-empty string
+
+    def test_malformed_cached_at_skipped(
+        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+    ) -> None:
+        """Should skip entries with malformed cached_at."""
+
+        path = tmp_path / "malformed.json"
+        path.write_text(
+            json.dumps(
+                {"X": {"to": "Y", "tofragment": "", "cached_at": "not-a-timestamp"}}
+            ),
+            encoding="UTF-8",
+        )
+        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", path)
         loaded = _mod._load_redirect_cache()  # noqa: SLF001
         assert loaded == {}
 
@@ -754,8 +786,8 @@ class TestResolveRedirects:
     def test_expired_cache_triggers_redirect_resolution(
         self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
     ) -> None:
-        """Should re-fetch via API and rewrite cache when cache is empty
-        (simulating TTL expiry)."""
+        """Should re-fetch via API and rewrite cache when cache entries have
+        expired."""
 
         monkeypatch.setattr(
             _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
@@ -763,21 +795,18 @@ class TestResolveRedirects:
         monkeypatch.setattr(_mod, "_CACHE_TTL", timedelta(days=1))
 
         async def run() -> None:
-            # Pre-populate a stale cache file on disk.
+            # Pre-populate a stale cache file with expired entries on disk.
+            old_ts = (datetime.now(timezone.utc) - timedelta(days=2)).isoformat()
             stale_cache = {
-                "Page X": _mod._RedirectInfo(to="Page X"),  # noqa: SLF001
-                "Page Y": _mod._RedirectInfo(to="Page Y"),  # noqa: SLF001
+                "Page X": _mod._RedirectInfo(to="Page X", cached_at=old_ts),  # noqa: SLF001
+                "Page Y": _mod._RedirectInfo(to="Page Y", cached_at=old_ts),  # noqa: SLF001
             }
             _mod._save_redirect_cache(stale_cache)  # noqa: SLF001
-            cache_file: Path = tmp_path / "redirect_cache.json"
-            old_mtime = cache_file.stat().st_mtime
 
-            # Backdate the cache file past TTL.
-            old_time = (datetime.now(timezone.utc) - timedelta(days=2)).timestamp()
-            os.utime(cache_file, (old_time, old_time))
+            # Load cache — expired entries should be skipped.
+            loaded = _mod._load_redirect_cache()  # noqa: SLF001
+            assert loaded == {}
 
-            # Simulate TTL expiry: caller gets {} from _load_redirect_cache
-            # and passes {} to _resolve_redirects.
             titles = {"Page X", "Page Z"}
             api_call_count = 0
 
@@ -823,14 +852,15 @@ class TestResolveRedirects:
             result = await _mod._resolve_redirects(  # noqa: SLF001
                 MockSession(),  # type: ignore[arg-type]
                 titles,
-                {},
+                loaded,
             )
             assert api_call_count >= 1
             assert result["Page X"].to == "Page X"
             assert result["Page Z"].to == "Page Z"
-            # Cache file should have been rewritten (mtime advanced).
-            new_mtime = cache_file.stat().st_mtime
-            assert new_mtime > old_mtime
+            # Cache file should have been rewritten (fresh cached_at).
+            reloaded = _mod._load_redirect_cache()  # noqa: SLF001
+            assert "Page X" in reloaded
+            assert "Page Z" in reloaded
 
         anyio.run(run, backend="asyncio")
 

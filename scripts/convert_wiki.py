@@ -291,6 +291,7 @@ class _RedirectInfo:
 
     to: str
     tofragment: str = ""
+    cached_at: str = ""
 
 
 _RedirectItem = TypedDict(
@@ -349,20 +350,29 @@ def _load_redirect_cache(
     """
     path = _REDIRECT_CACHE_PATH if cache_path is None else cache_path
     try:
-        mtime = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
-        if datetime.now(timezone.utc) - mtime > _CACHE_TTL:
-            _logger.info("Redirect cache expired, re-fetching...")
-            return {}
         with open(path, "r", encoding="UTF-8") as f:
             data = json_load(f)
         assert isinstance(data, dict)
+        now = datetime.now(timezone.utc)
         unpacked: dict[str, _RedirectInfo] = {}
         for k, v in data.items():
             assert isinstance(k, str) and isinstance(v, dict)
             to = v.get("to", k)
             tofragment = v.get("tofragment", "")
             assert isinstance(to, str) and isinstance(tofragment, str)
-            unpacked[k] = _RedirectInfo(to=to, tofragment=tofragment)
+            cached_at_str = v.get("cached_at", "")
+            if not cached_at_str:
+                # Old-format entry — stamp with current time.
+                cached_at_str = now.isoformat()
+            try:
+                cached_at = datetime.fromisoformat(cached_at_str)
+            except ValueError:
+                continue  # malformed → skip
+            if now - cached_at > _CACHE_TTL:
+                continue  # expired
+            unpacked[k] = _RedirectInfo(
+                to=to, tofragment=tofragment, cached_at=cached_at_str
+            )
         return unpacked
     except (FileNotFoundError, JSONDecodeError, OSError, AssertionError):
         return {}
@@ -381,7 +391,14 @@ def _save_redirect_cache(
     cache_path:
         Path to the cache JSON file (default: ``_REDIRECT_CACHE_PATH``).
     """
-    data = {k: {"to": v.to, "tofragment": v.tofragment} for k, v in cache.items()}
+    data = {
+        k: {
+            "to": v.to,
+            "tofragment": v.tofragment,
+            "cached_at": v.cached_at or datetime.now(timezone.utc).isoformat(),
+        }
+        for k, v in cache.items()
+    }
     resolved_path = (
         _REDIRECT_CACHE_PATH if cache_path is None else PathlibPath(cache_path)
     )
@@ -446,6 +463,7 @@ async def _resolve_redirects(
         return cache
 
     titles_list = list(uncached)
+    now_iso = datetime.now(timezone.utc).isoformat()
     for i in range(0, len(titles_list), _API_MAX_TITLES_PER_REQUEST):
         batch = titles_list[i : i + _API_MAX_TITLES_PER_REQUEST]
         params: dict[str, str | int] = {
@@ -462,11 +480,12 @@ async def _resolve_redirects(
                 cache[r["from"]] = _RedirectInfo(
                     to=r.get("to", r["from"]),
                     tofragment=r.get("tofragment", ""),
+                    cached_at=now_iso,
                 )
                 redirected_from.add(r["from"])
         for title in batch:
             if title not in redirected_from:
-                cache.setdefault(title, _RedirectInfo(to=title))
+                cache.setdefault(title, _RedirectInfo(to=title, cached_at=now_iso))
 
     resolved_cache_path = _REDIRECT_CACHE_PATH if cache_path is None else cache_path
     _save_redirect_cache(cache, cache_path=resolved_cache_path)
