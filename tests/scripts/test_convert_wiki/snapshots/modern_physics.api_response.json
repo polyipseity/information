@@ -1,0 +1,1036 @@
+{
+  "batch_0": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Compton effect",
+          "to": "Compton scattering"
+        },
+        {
+          "from": "Classical optics",
+          "to": "Optics",
+          "tofragment": "Classical optics"
+        },
+        {
+          "from": "Fermi–Dirac distribution",
+          "to": "Fermi–Dirac statistics"
+        }
+      ],
+      "pages": [
+        {
+          "pageid": 1198,
+          "ns": 0,
+          "title": "Acoustics"
+        },
+        {
+          "pageid": 7794,
+          "ns": 0,
+          "title": "Crystallography"
+        },
+        {
+          "pageid": 19559,
+          "ns": 0,
+          "title": "Mechanics"
+        },
+        {
+          "pageid": 19830,
+          "ns": 0,
+          "title": "Maxwell–Boltzmann distribution"
+        },
+        {
+          "pageid": 21285,
+          "ns": 0,
+          "title": "Nuclear physics"
+        },
+        {
+          "pageid": 22483,
+          "ns": 0,
+          "title": "Optics"
+        },
+        {
+          "pageid": 22939,
+          "ns": 0,
+          "title": "Physics"
+        },
+        {
+          "pageid": 25081,
+          "ns": 0,
+          "title": "Paradigm shift"
+        },
+        {
+          "pageid": 54962,
+          "ns": 0,
+          "title": "Geophysics"
+        },
+        {
+          "pageid": 55212,
+          "ns": 0,
+          "title": "Newton's laws of motion"
+        },
+        {
+          "pageid": 55236,
+          "ns": 0,
+          "title": "Compton scattering"
+        },
+        {
+          "pageid": 58772,
+          "ns": 0,
+          "title": "Timeline of atomic and subatomic physics"
+        },
+        {
+          "pageid": 58939,
+          "ns": 0,
+          "title": "Timeline of cosmological theories"
+        },
+        {
+          "pageid": 66400,
+          "ns": 0,
+          "title": "Transfermium Wars"
+        },
+        {
+          "pageid": 106418,
+          "ns": 0,
+          "title": "Computational physics"
+        },
+        {
+          "pageid": 151066,
+          "ns": 0,
+          "title": "Classical physics"
+        },
+        {
+          "pageid": 159225,
+          "ns": 0,
+          "title": "Fermi–Dirac statistics"
+        },
+        {
+          "pageid": 176399,
+          "ns": 0,
+          "title": "Zeeman effect"
+        },
+        {
+          "pageid": 187779,
+          "ns": 0,
+          "title": "Human scale"
+        },
+        {
+          "pageid": 191911,
+          "ns": 0,
+          "title": "Timeline of quantum computing and communication"
+        },
+        {
+          "pageid": 218320,
+          "ns": 0,
+          "title": "Ultraviolet catastrophe"
+        },
+        {
+          "pageid": 240105,
+          "ns": 0,
+          "title": "Room temperature"
+        },
+        {
+          "pageid": 387440,
+          "ns": 0,
+          "title": "Physical oceanography"
+        },
+        {
+          "pageid": 509689,
+          "ns": 0,
+          "title": "The Martians (scientists)"
+        },
+        {
+          "pageid": 639790,
+          "ns": 0,
+          "title": "Discovery of cosmic microwave background radiation"
+        },
+        {
+          "pageid": 685311,
+          "ns": 0,
+          "title": "Experimental physics"
+        },
+        {
+          "pageid": 731780,
+          "ns": 0,
+          "title": "Geometrical optics"
+        },
+        {
+          "pageid": 740540,
+          "ns": 0,
+          "title": "Engineering physics"
+        },
+        {
+          "pageid": 856680,
+          "ns": 0,
+          "title": "History of loop quantum gravity"
+        },
+        {
+          "pageid": 962171,
+          "ns": 0,
+          "title": "Stern–Gerlach experiment"
+        },
+        {
+          "pageid": 1025272,
+          "ns": 0,
+          "title": "Bohr–Einstein debates"
+        },
+        {
+          "pageid": 1092713,
+          "ns": 0,
+          "title": "Approximation theory"
+        },
+        {
+          "pageid": 1828131,
+          "ns": 0,
+          "title": "Davisson–Germer experiment"
+        },
+        {
+          "pageid": 2239159,
+          "ns": 0,
+          "title": "Mechanical equivalent of heat"
+        },
+        {
+          "pageid": 2748665,
+          "ns": 0,
+          "title": "Copernican Revolution"
+        },
+        {
+          "pageid": 3114255,
+          "ns": 0,
+          "title": "History of classical mechanics"
+        },
+        {
+          "pageid": 4022767,
+          "ns": 0,
+          "title": "Relativity priority dispute"
+        },
+        {
+          "pageid": 6004113,
+          "ns": 0,
+          "title": "History of string theory"
+        },
+        {
+          "pageid": 7071490,
+          "ns": 0,
+          "title": "History of molecular theory"
+        },
+        {
+          "pageid": 17944118,
+          "ns": 0,
+          "title": "Physics in the medieval Islamic world"
+        },
+        {
+          "pageid": 22688097,
+          "ns": 0,
+          "title": "Branches of physics"
+        },
+        {
+          "pageid": 24084197,
+          "ns": 0,
+          "title": "Timeline of quantum mechanics"
+        },
+        {
+          "pageid": 35980148,
+          "ns": 0,
+          "title": "History of spectroscopy"
+        },
+        {
+          "pageid": 36030827,
+          "ns": 0,
+          "title": "History of nuclear power"
+        },
+        {
+          "pageid": 36772327,
+          "ns": 0,
+          "title": "Search for the Higgs boson"
+        },
+        {
+          "pageid": 39304805,
+          "ns": 0,
+          "title": "History of Maxwell's equations"
+        },
+        {
+          "pageid": 46190717,
+          "ns": 0,
+          "title": "Discovery of the neutron"
+        },
+        {
+          "pageid": 49396186,
+          "ns": 0,
+          "title": "First observation of gravitational waves"
+        },
+        {
+          "pageid": 64011351,
+          "ns": 0,
+          "title": "Discovery of nuclear fission"
+        }
+      ]
+    }
+  },
+  "batch_1": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Nuclear Fission",
+          "to": "Nuclear fission"
+        },
+        {
+          "from": "History of relativity",
+          "to": "History of special relativity"
+        },
+        {
+          "from": "Jump up",
+          "to": "Jump Up"
+        },
+        {
+          "from": "Geiger–Marsden experiment",
+          "to": "Rutherford scattering experiments"
+        }
+      ],
+      "pages": [
+        {
+          "pageid": 736,
+          "ns": 0,
+          "title": "Albert Einstein"
+        },
+        {
+          "pageid": 1200,
+          "ns": 0,
+          "title": "Atomic physics"
+        },
+        {
+          "pageid": 1418,
+          "ns": 0,
+          "title": "Absolute zero"
+        },
+        {
+          "pageid": 2844,
+          "ns": 0,
+          "title": "History of atomic theory"
+        },
+        {
+          "pageid": 5918,
+          "ns": 0,
+          "title": "Continuum mechanics"
+        },
+        {
+          "pageid": 12024,
+          "ns": 0,
+          "title": "General relativity"
+        },
+        {
+          "pageid": 19848,
+          "ns": 0,
+          "title": "Max Planck"
+        },
+        {
+          "pageid": 22054,
+          "ns": 0,
+          "title": "Nuclear fission"
+        },
+        {
+          "pageid": 23269,
+          "ns": 0,
+          "title": "Physicist"
+        },
+        {
+          "pageid": 23579,
+          "ns": 0,
+          "title": "Photoelectric effect"
+        },
+        {
+          "pageid": 29952,
+          "ns": 0,
+          "title": "Thermodynamics"
+        },
+        {
+          "pageid": 48579,
+          "ns": 0,
+          "title": "Atomic, molecular, and optical physics"
+        },
+        {
+          "pageid": 58764,
+          "ns": 0,
+          "title": "Timeline of classical mechanics"
+        },
+        {
+          "pageid": 58777,
+          "ns": 0,
+          "title": "Timeline of thermodynamics"
+        },
+        {
+          "pageid": 91100,
+          "ns": 0,
+          "title": "Michelson–Morley experiment"
+        },
+        {
+          "pageid": 102182,
+          "ns": 0,
+          "title": "Celestial mechanics"
+        },
+        {
+          "pageid": 202584,
+          "ns": 0,
+          "title": "Medical physics"
+        },
+        {
+          "pageid": 242883,
+          "ns": 0,
+          "title": "History of nuclear weapons"
+        },
+        {
+          "pageid": 319834,
+          "ns": 0,
+          "title": "Rutherford scattering experiments"
+        },
+        {
+          "pageid": 468641,
+          "ns": 0,
+          "title": "History of perpetual motion machines"
+        },
+        {
+          "pageid": 614763,
+          "ns": 0,
+          "title": "Stark effect"
+        },
+        {
+          "pageid": 776713,
+          "ns": 0,
+          "title": "Unified field theory"
+        },
+        {
+          "pageid": 1352262,
+          "ns": 0,
+          "title": "Great Debate (astronomy)"
+        },
+        {
+          "pageid": 1608886,
+          "ns": 0,
+          "title": "Tests of special relativity"
+        },
+        {
+          "pageid": 1790788,
+          "ns": 0,
+          "title": "History of special relativity"
+        },
+        {
+          "pageid": 1840164,
+          "ns": 0,
+          "title": "Via Panisperna boys"
+        },
+        {
+          "pageid": 1963519,
+          "ns": 0,
+          "title": "History of general relativity"
+        },
+        {
+          "pageid": 2078963,
+          "ns": 0,
+          "title": "History of quantum field theory"
+        },
+        {
+          "pageid": 2206712,
+          "ns": 0,
+          "title": "History of fluid mechanics"
+        },
+        {
+          "pageid": 2639335,
+          "ns": 0,
+          "title": "Timeline of astronomy"
+        },
+        {
+          "pageid": 2711029,
+          "ns": 0,
+          "title": "Physics education"
+        },
+        {
+          "pageid": 3362809,
+          "ns": 0,
+          "title": "Galileo affair"
+        },
+        {
+          "pageid": 3671687,
+          "ns": 0,
+          "title": "Leibniz–Newton calculus controversy"
+        },
+        {
+          "pageid": 3801913,
+          "ns": 0,
+          "title": "History of electrical engineering"
+        },
+        {
+          "pageid": 4555383,
+          "ns": 0,
+          "title": "Oxford Calculators"
+        },
+        {
+          "pageid": 4699622,
+          "ns": 0,
+          "title": "History of entropy"
+        },
+        {
+          "pageid": 5513132,
+          "ns": 0,
+          "title": "Jump Up"
+        },
+        {
+          "pageid": 10761967,
+          "ns": 0,
+          "title": "Eötvös experiment"
+        },
+        {
+          "pageid": 14464099,
+          "ns": 0,
+          "title": "Outline of astrophysics"
+        },
+        {
+          "pageid": 16385315,
+          "ns": 0,
+          "title": "Harvard Computers"
+        },
+        {
+          "pageid": 18134112,
+          "ns": 0,
+          "title": "Golden age of cosmology"
+        },
+        {
+          "pageid": 19389837,
+          "ns": 0,
+          "title": "Relativistic quantum mechanics"
+        },
+        {
+          "pageid": 19555586,
+          "ns": 0,
+          "title": "Classical mechanics"
+        },
+        {
+          "pageid": 19594028,
+          "ns": 0,
+          "title": "Theoretical physics"
+        },
+        {
+          "pageid": 24896900,
+          "ns": 0,
+          "title": "Rømer's determination of the speed of light"
+        },
+        {
+          "pageid": 36626070,
+          "ns": 0,
+          "title": "Glossary of physics"
+        },
+        {
+          "pageid": 41555255,
+          "ns": 0,
+          "title": "History of subatomic physics"
+        },
+        {
+          "pageid": 62770607,
+          "ns": 0,
+          "title": "List of physics awards"
+        },
+        {
+          "pageid": 75336808,
+          "ns": 0,
+          "title": "List of experiments in physics"
+        },
+        {
+          "pageid": 82994936,
+          "ns": 0,
+          "title": "History of the twin paradox"
+        }
+      ]
+    }
+  },
+  "batch_2": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "W. H. Freeman",
+          "to": "W. H. Freeman and Company"
+        },
+        {
+          "from": "McGraw-Hill",
+          "to": "McGraw Hill Education"
+        },
+        {
+          "from": "ISBN (identifier)",
+          "to": "ISBN"
+        },
+        {
+          "from": "LCCN (identifier)",
+          "to": "Library of Congress Control Number"
+        }
+      ],
+      "pages": [
+        {
+          "pageid": 5387,
+          "ns": 0,
+          "title": "Condensed matter physics"
+        },
+        {
+          "pageid": 6943,
+          "ns": 0,
+          "title": "Cathode ray"
+        },
+        {
+          "pageid": 9532,
+          "ns": 0,
+          "title": "Electromagnetism"
+        },
+        {
+          "pageid": 13758,
+          "ns": 0,
+          "title": "History of physics"
+        },
+        {
+          "pageid": 14021,
+          "ns": 0,
+          "title": "History of astronomy"
+        },
+        {
+          "pageid": 14919,
+          "ns": 0,
+          "title": "ISBN"
+        },
+        {
+          "pageid": 23259,
+          "ns": 0,
+          "title": "Particle physics"
+        },
+        {
+          "pageid": 24489,
+          "ns": 0,
+          "title": "Outline of physics"
+        },
+        {
+          "pageid": 25202,
+          "ns": 0,
+          "title": "Quantum mechanics"
+        },
+        {
+          "pageid": 25267,
+          "ns": 0,
+          "title": "Quantum field theory"
+        },
+        {
+          "pageid": 26962,
+          "ns": 0,
+          "title": "Special relativity"
+        },
+        {
+          "pageid": 28481,
+          "ns": 0,
+          "title": "Statistical mechanics"
+        },
+        {
+          "pageid": 28736,
+          "ns": 0,
+          "title": "Speed of light"
+        },
+        {
+          "pageid": 47641,
+          "ns": 0,
+          "title": "Standard Model"
+        },
+        {
+          "pageid": 52497,
+          "ns": 0,
+          "title": "Nobel Prize in Physics"
+        },
+        {
+          "pageid": 54000,
+          "ns": 0,
+          "title": "Biophysics"
+        },
+        {
+          "pageid": 58742,
+          "ns": 0,
+          "title": "Timeline of materials technology"
+        },
+        {
+          "pageid": 58785,
+          "ns": 0,
+          "title": "Timeline of gravitational physics and relativity"
+        },
+        {
+          "pageid": 123450,
+          "ns": 0,
+          "title": "Philosophy of physics"
+        },
+        {
+          "pageid": 173416,
+          "ns": 0,
+          "title": "Mathematical physics"
+        },
+        {
+          "pageid": 183089,
+          "ns": 0,
+          "title": "List of unsolved problems in physics"
+        },
+        {
+          "pageid": 191123,
+          "ns": 0,
+          "title": "Planck's law"
+        },
+        {
+          "pageid": 426219,
+          "ns": 0,
+          "title": "Classical electromagnetism"
+        },
+        {
+          "pageid": 439497,
+          "ns": 0,
+          "title": "Classical limit"
+        },
+        {
+          "pageid": 472429,
+          "ns": 0,
+          "title": "Non-equilibrium thermodynamics"
+        },
+        {
+          "pageid": 675130,
+          "ns": 0,
+          "title": "Molecular physics"
+        },
+        {
+          "pageid": 733929,
+          "ns": 0,
+          "title": "Chemical physics"
+        },
+        {
+          "pageid": 1491462,
+          "ns": 0,
+          "title": "Library of Congress Control Number"
+        },
+        {
+          "pageid": 2281782,
+          "ns": 0,
+          "title": "History of thermodynamics"
+        },
+        {
+          "pageid": 2460242,
+          "ns": 0,
+          "title": "Physical optics"
+        },
+        {
+          "pageid": 2641938,
+          "ns": 0,
+          "title": "Applied physics"
+        },
+        {
+          "pageid": 3304608,
+          "ns": 0,
+          "title": "Astronomy in the medieval Islamic world"
+        },
+        {
+          "pageid": 4387043,
+          "ns": 0,
+          "title": "History of gravitational theory"
+        },
+        {
+          "pageid": 5586409,
+          "ns": 0,
+          "title": "History of variational principles in physics"
+        },
+        {
+          "pageid": 7058047,
+          "ns": 0,
+          "title": "History of Lorentz transformations"
+        },
+        {
+          "pageid": 7064233,
+          "ns": 0,
+          "title": "History of nanotechnology"
+        },
+        {
+          "pageid": 7932544,
+          "ns": 0,
+          "title": "Women in physics"
+        },
+        {
+          "pageid": 9067941,
+          "ns": 0,
+          "title": "History of quantum mechanics"
+        },
+        {
+          "pageid": 18626991,
+          "ns": 0,
+          "title": "W. H. Freeman and Company"
+        },
+        {
+          "pageid": 20646064,
+          "ns": 0,
+          "title": "Quantum"
+        },
+        {
+          "pageid": 21664797,
+          "ns": 0,
+          "title": "Floyd K. Richtmyer"
+        },
+        {
+          "pageid": 30863191,
+          "ns": 0,
+          "title": "Basic research"
+        },
+        {
+          "pageid": 38438395,
+          "ns": 0,
+          "title": "Index of physics articles"
+        },
+        {
+          "pageid": 40119871,
+          "ns": 0,
+          "title": "History of aerodynamics"
+        },
+        {
+          "pageid": 40973603,
+          "ns": 0,
+          "title": "McGraw Hill Education"
+        },
+        {
+          "pageid": 43239622,
+          "ns": 0,
+          "title": "Physics education research"
+        },
+        {
+          "pageid": 74461062,
+          "ns": 0,
+          "title": "Timeline of condensed matter physics"
+        },
+        {
+          "pageid": 74491768,
+          "ns": 0,
+          "title": "Timeline of fluid and continuum mechanics"
+        },
+        {
+          "pageid": 74701437,
+          "ns": 0,
+          "title": "Chandrasekhar–Eddington dispute"
+        },
+        {
+          "pageid": 79754945,
+          "ns": 0,
+          "title": "Physical crystallography before X-rays"
+        }
+      ]
+    }
+  },
+  "batch_3": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Bose–Einstein distribution",
+          "to": "Bose–Einstein statistics"
+        },
+        {
+          "from": "Newton–Hooke priority controversy for the inverse square law",
+          "to": "Hooke–Newton inverse square law controversy"
+        }
+      ],
+      "pages": [
+        {
+          "pageid": 19622,
+          "ns": 0,
+          "title": "Materials science"
+        },
+        {
+          "pageid": 23633,
+          "ns": 0,
+          "title": "List of physicists"
+        },
+        {
+          "pageid": 30001,
+          "ns": 0,
+          "title": "Theory of relativity"
+        },
+        {
+          "pageid": 48900,
+          "ns": 0,
+          "title": "Atomic radius"
+        },
+        {
+          "pageid": 58775,
+          "ns": 0,
+          "title": "Timeline of electromagnetism and classical optics"
+        },
+        {
+          "pageid": 102847,
+          "ns": 0,
+          "title": "Solid-state physics"
+        },
+        {
+          "pageid": 187344,
+          "ns": 0,
+          "title": "Oil drop experiment"
+        },
+        {
+          "pageid": 188935,
+          "ns": 0,
+          "title": "Bose–Einstein statistics"
+        },
+        {
+          "pageid": 197767,
+          "ns": 0,
+          "title": "Radioactive decay"
+        },
+        {
+          "pageid": 243349,
+          "ns": 0,
+          "title": "Rayleigh–Jeans law"
+        },
+        {
+          "pageid": 361897,
+          "ns": 0,
+          "title": "Astrophysics"
+        },
+        {
+          "pageid": 381805,
+          "ns": 0,
+          "title": "Franck–Hertz experiment"
+        },
+        {
+          "pageid": 454450,
+          "ns": 0,
+          "title": "Analytical mechanics"
+        },
+        {
+          "pageid": 659094,
+          "ns": 0,
+          "title": "Quantum information science"
+        },
+        {
+          "pageid": 726748,
+          "ns": 0,
+          "title": "Black-body radiation"
+        },
+        {
+          "pageid": 801420,
+          "ns": 0,
+          "title": "Atmospheric physics"
+        },
+        {
+          "pageid": 1688179,
+          "ns": 0,
+          "title": "History of materials science"
+        },
+        {
+          "pageid": 1784313,
+          "ns": 0,
+          "title": "Tests of general relativity"
+        },
+        {
+          "pageid": 1790788,
+          "ns": 0,
+          "title": "History of special relativity"
+        },
+        {
+          "pageid": 1929545,
+          "ns": 0,
+          "title": "History of superconductivity"
+        },
+        {
+          "pageid": 2021419,
+          "ns": 0,
+          "title": "Relativistic mechanics"
+        },
+        {
+          "pageid": 2470776,
+          "ns": 0,
+          "title": "Timeline of particle discoveries"
+        },
+        {
+          "pageid": 2627738,
+          "ns": 0,
+          "title": "History of optics"
+        },
+        {
+          "pageid": 2794117,
+          "ns": 0,
+          "title": "History of the Big Bang theory"
+        },
+        {
+          "pageid": 3648693,
+          "ns": 0,
+          "title": "List of physics journals"
+        },
+        {
+          "pageid": 4769321,
+          "ns": 0,
+          "title": "Timeline of fundamental physics discoveries"
+        },
+        {
+          "pageid": 5951576,
+          "ns": 0,
+          "title": "History of electromagnetic theory"
+        },
+        {
+          "pageid": 11470059,
+          "ns": 0,
+          "title": "History of energy"
+        },
+        {
+          "pageid": 17553674,
+          "ns": 0,
+          "title": "Golden age of physics"
+        },
+        {
+          "pageid": 17574685,
+          "ns": 0,
+          "title": "History of geophysics"
+        },
+        {
+          "pageid": 26551602,
+          "ns": 0,
+          "title": "Limit (mathematics)"
+        },
+        {
+          "pageid": 26692522,
+          "ns": 0,
+          "title": "History of metamaterials"
+        },
+        {
+          "pageid": 35520902,
+          "ns": 0,
+          "title": "Timeline of computational physics"
+        },
+        {
+          "pageid": 53768694,
+          "ns": 0,
+          "title": "History of classical field theory"
+        },
+        {
+          "pageid": 55264361,
+          "ns": 0,
+          "title": "Discovery of graphene"
+        },
+        {
+          "pageid": 60880859,
+          "ns": 0,
+          "title": "Eddington experiment"
+        },
+        {
+          "pageid": 65595160,
+          "ns": 0,
+          "title": "General relativity priority dispute"
+        },
+        {
+          "pageid": 67952883,
+          "ns": 0,
+          "title": "History of nuclear fusion"
+        },
+        {
+          "pageid": 69602684,
+          "ns": 0,
+          "title": "Timeline of special relativity and the speed of light"
+        },
+        {
+          "pageid": 75135232,
+          "ns": 0,
+          "title": "Hooke–Newton inverse square law controversy"
+        }
+      ]
+    }
+  }
+}

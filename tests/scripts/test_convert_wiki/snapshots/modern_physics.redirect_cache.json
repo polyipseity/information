@@ -1,0 +1,762 @@
+{
+  "Compton effect": {
+    "to": "Compton scattering",
+    "tofragment": ""
+  },
+  "Classical optics": {
+    "to": "Optics",
+    "tofragment": "Classical optics"
+  },
+  "Fermi–Dirac distribution": {
+    "to": "Fermi–Dirac statistics",
+    "tofragment": ""
+  },
+  "Geophysics": {
+    "to": "Geophysics",
+    "tofragment": ""
+  },
+  "Mechanics": {
+    "to": "Mechanics",
+    "tofragment": ""
+  },
+  "History of molecular theory": {
+    "to": "History of molecular theory",
+    "tofragment": ""
+  },
+  "Relativity priority dispute": {
+    "to": "Relativity priority dispute",
+    "tofragment": ""
+  },
+  "Transfermium Wars": {
+    "to": "Transfermium Wars",
+    "tofragment": ""
+  },
+  "First observation of gravitational waves": {
+    "to": "First observation of gravitational waves",
+    "tofragment": ""
+  },
+  "Room temperature": {
+    "to": "Room temperature",
+    "tofragment": ""
+  },
+  "Zeeman effect": {
+    "to": "Zeeman effect",
+    "tofragment": ""
+  },
+  "Maxwell–Boltzmann distribution": {
+    "to": "Maxwell–Boltzmann distribution",
+    "tofragment": ""
+  },
+  "Discovery of cosmic microwave background radiation": {
+    "to": "Discovery of cosmic microwave background radiation",
+    "tofragment": ""
+  },
+  "Stern–Gerlach experiment": {
+    "to": "Stern–Gerlach experiment",
+    "tofragment": ""
+  },
+  "Acoustics": {
+    "to": "Acoustics",
+    "tofragment": ""
+  },
+  "Physics": {
+    "to": "Physics",
+    "tofragment": ""
+  },
+  "History of spectroscopy": {
+    "to": "History of spectroscopy",
+    "tofragment": ""
+  },
+  "Bohr–Einstein debates": {
+    "to": "Bohr–Einstein debates",
+    "tofragment": ""
+  },
+  "Computational physics": {
+    "to": "Computational physics",
+    "tofragment": ""
+  },
+  "Nuclear physics": {
+    "to": "Nuclear physics",
+    "tofragment": ""
+  },
+  "History of Maxwell's equations": {
+    "to": "History of Maxwell's equations",
+    "tofragment": ""
+  },
+  "Experimental physics": {
+    "to": "Experimental physics",
+    "tofragment": ""
+  },
+  "Classical physics": {
+    "to": "Classical physics",
+    "tofragment": ""
+  },
+  "Human scale": {
+    "to": "Human scale",
+    "tofragment": ""
+  },
+  "Search for the Higgs boson": {
+    "to": "Search for the Higgs boson",
+    "tofragment": ""
+  },
+  "Paradigm shift": {
+    "to": "Paradigm shift",
+    "tofragment": ""
+  },
+  "History of loop quantum gravity": {
+    "to": "History of loop quantum gravity",
+    "tofragment": ""
+  },
+  "The Martians (scientists)": {
+    "to": "The Martians (scientists)",
+    "tofragment": ""
+  },
+  "Newton's laws of motion": {
+    "to": "Newton's laws of motion",
+    "tofragment": ""
+  },
+  "Engineering physics": {
+    "to": "Engineering physics",
+    "tofragment": ""
+  },
+  "Timeline of atomic and subatomic physics": {
+    "to": "Timeline of atomic and subatomic physics",
+    "tofragment": ""
+  },
+  "Timeline of quantum mechanics": {
+    "to": "Timeline of quantum mechanics",
+    "tofragment": ""
+  },
+  "Mechanical equivalent of heat": {
+    "to": "Mechanical equivalent of heat",
+    "tofragment": ""
+  },
+  "Physical oceanography": {
+    "to": "Physical oceanography",
+    "tofragment": ""
+  },
+  "Discovery of nuclear fission": {
+    "to": "Discovery of nuclear fission",
+    "tofragment": ""
+  },
+  "Physics in the medieval Islamic world": {
+    "to": "Physics in the medieval Islamic world",
+    "tofragment": ""
+  },
+  "Crystallography": {
+    "to": "Crystallography",
+    "tofragment": ""
+  },
+  "History of string theory": {
+    "to": "History of string theory",
+    "tofragment": ""
+  },
+  "Timeline of cosmological theories": {
+    "to": "Timeline of cosmological theories",
+    "tofragment": ""
+  },
+  "Approximation theory": {
+    "to": "Approximation theory",
+    "tofragment": ""
+  },
+  "Branches of physics": {
+    "to": "Branches of physics",
+    "tofragment": ""
+  },
+  "Geometrical optics": {
+    "to": "Geometrical optics",
+    "tofragment": ""
+  },
+  "Ultraviolet catastrophe": {
+    "to": "Ultraviolet catastrophe",
+    "tofragment": ""
+  },
+  "Optics": {
+    "to": "Optics",
+    "tofragment": ""
+  },
+  "Timeline of quantum computing and communication": {
+    "to": "Timeline of quantum computing and communication",
+    "tofragment": ""
+  },
+  "History of nuclear power": {
+    "to": "History of nuclear power",
+    "tofragment": ""
+  },
+  "Copernican Revolution": {
+    "to": "Copernican Revolution",
+    "tofragment": ""
+  },
+  "Discovery of the neutron": {
+    "to": "Discovery of the neutron",
+    "tofragment": ""
+  },
+  "Davisson–Germer experiment": {
+    "to": "Davisson–Germer experiment",
+    "tofragment": ""
+  },
+  "History of classical mechanics": {
+    "to": "History of classical mechanics",
+    "tofragment": ""
+  },
+  "Nuclear Fission": {
+    "to": "Nuclear fission",
+    "tofragment": ""
+  },
+  "History of relativity": {
+    "to": "History of special relativity",
+    "tofragment": ""
+  },
+  "Jump up": {
+    "to": "Jump Up",
+    "tofragment": ""
+  },
+  "Geiger–Marsden experiment": {
+    "to": "Rutherford scattering experiments",
+    "tofragment": ""
+  },
+  "Great Debate (astronomy)": {
+    "to": "Great Debate (astronomy)",
+    "tofragment": ""
+  },
+  "Albert Einstein": {
+    "to": "Albert Einstein",
+    "tofragment": ""
+  },
+  "List of experiments in physics": {
+    "to": "List of experiments in physics",
+    "tofragment": ""
+  },
+  "Glossary of physics": {
+    "to": "Glossary of physics",
+    "tofragment": ""
+  },
+  "Timeline of astronomy": {
+    "to": "Timeline of astronomy",
+    "tofragment": ""
+  },
+  "History of perpetual motion machines": {
+    "to": "History of perpetual motion machines",
+    "tofragment": ""
+  },
+  "Celestial mechanics": {
+    "to": "Celestial mechanics",
+    "tofragment": ""
+  },
+  "Michelson–Morley experiment": {
+    "to": "Michelson–Morley experiment",
+    "tofragment": ""
+  },
+  "History of nuclear weapons": {
+    "to": "History of nuclear weapons",
+    "tofragment": ""
+  },
+  "Continuum mechanics": {
+    "to": "Continuum mechanics",
+    "tofragment": ""
+  },
+  "Medical physics": {
+    "to": "Medical physics",
+    "tofragment": ""
+  },
+  "Harvard Computers": {
+    "to": "Harvard Computers",
+    "tofragment": ""
+  },
+  "Outline of astrophysics": {
+    "to": "Outline of astrophysics",
+    "tofragment": ""
+  },
+  "Galileo affair": {
+    "to": "Galileo affair",
+    "tofragment": ""
+  },
+  "Physics education": {
+    "to": "Physics education",
+    "tofragment": ""
+  },
+  "History of entropy": {
+    "to": "History of entropy",
+    "tofragment": ""
+  },
+  "Theoretical physics": {
+    "to": "Theoretical physics",
+    "tofragment": ""
+  },
+  "Thermodynamics": {
+    "to": "Thermodynamics",
+    "tofragment": ""
+  },
+  "Timeline of classical mechanics": {
+    "to": "Timeline of classical mechanics",
+    "tofragment": ""
+  },
+  "Leibniz–Newton calculus controversy": {
+    "to": "Leibniz–Newton calculus controversy",
+    "tofragment": ""
+  },
+  "Golden age of cosmology": {
+    "to": "Golden age of cosmology",
+    "tofragment": ""
+  },
+  "Max Planck": {
+    "to": "Max Planck",
+    "tofragment": ""
+  },
+  "Relativistic quantum mechanics": {
+    "to": "Relativistic quantum mechanics",
+    "tofragment": ""
+  },
+  "List of physics awards": {
+    "to": "List of physics awards",
+    "tofragment": ""
+  },
+  "Absolute zero": {
+    "to": "Absolute zero",
+    "tofragment": ""
+  },
+  "Eötvös experiment": {
+    "to": "Eötvös experiment",
+    "tofragment": ""
+  },
+  "Classical mechanics": {
+    "to": "Classical mechanics",
+    "tofragment": ""
+  },
+  "History of the twin paradox": {
+    "to": "History of the twin paradox",
+    "tofragment": ""
+  },
+  "Tests of special relativity": {
+    "to": "Tests of special relativity",
+    "tofragment": ""
+  },
+  "Via Panisperna boys": {
+    "to": "Via Panisperna boys",
+    "tofragment": ""
+  },
+  "Photoelectric effect": {
+    "to": "Photoelectric effect",
+    "tofragment": ""
+  },
+  "History of fluid mechanics": {
+    "to": "History of fluid mechanics",
+    "tofragment": ""
+  },
+  "Physicist": {
+    "to": "Physicist",
+    "tofragment": ""
+  },
+  "History of subatomic physics": {
+    "to": "History of subatomic physics",
+    "tofragment": ""
+  },
+  "Stark effect": {
+    "to": "Stark effect",
+    "tofragment": ""
+  },
+  "Timeline of thermodynamics": {
+    "to": "Timeline of thermodynamics",
+    "tofragment": ""
+  },
+  "Atomic, molecular, and optical physics": {
+    "to": "Atomic, molecular, and optical physics",
+    "tofragment": ""
+  },
+  "Oxford Calculators": {
+    "to": "Oxford Calculators",
+    "tofragment": ""
+  },
+  "General relativity": {
+    "to": "General relativity",
+    "tofragment": ""
+  },
+  "Unified field theory": {
+    "to": "Unified field theory",
+    "tofragment": ""
+  },
+  "Rømer's determination of the speed of light": {
+    "to": "Rømer's determination of the speed of light",
+    "tofragment": ""
+  },
+  "Atomic physics": {
+    "to": "Atomic physics",
+    "tofragment": ""
+  },
+  "History of electrical engineering": {
+    "to": "History of electrical engineering",
+    "tofragment": ""
+  },
+  "History of atomic theory": {
+    "to": "History of atomic theory",
+    "tofragment": ""
+  },
+  "History of general relativity": {
+    "to": "History of general relativity",
+    "tofragment": ""
+  },
+  "History of quantum field theory": {
+    "to": "History of quantum field theory",
+    "tofragment": ""
+  },
+  "W. H. Freeman": {
+    "to": "W. H. Freeman and Company",
+    "tofragment": ""
+  },
+  "McGraw-Hill": {
+    "to": "McGraw Hill Education",
+    "tofragment": ""
+  },
+  "ISBN (identifier)": {
+    "to": "ISBN",
+    "tofragment": ""
+  },
+  "LCCN (identifier)": {
+    "to": "Library of Congress Control Number",
+    "tofragment": ""
+  },
+  "History of variational principles in physics": {
+    "to": "History of variational principles in physics",
+    "tofragment": ""
+  },
+  "Quantum": {
+    "to": "Quantum",
+    "tofragment": ""
+  },
+  "Astronomy in the medieval Islamic world": {
+    "to": "Astronomy in the medieval Islamic world",
+    "tofragment": ""
+  },
+  "Physical crystallography before X-rays": {
+    "to": "Physical crystallography before X-rays",
+    "tofragment": ""
+  },
+  "History of thermodynamics": {
+    "to": "History of thermodynamics",
+    "tofragment": ""
+  },
+  "Timeline of gravitational physics and relativity": {
+    "to": "Timeline of gravitational physics and relativity",
+    "tofragment": ""
+  },
+  "Statistical mechanics": {
+    "to": "Statistical mechanics",
+    "tofragment": ""
+  },
+  "Applied physics": {
+    "to": "Applied physics",
+    "tofragment": ""
+  },
+  "Non-equilibrium thermodynamics": {
+    "to": "Non-equilibrium thermodynamics",
+    "tofragment": ""
+  },
+  "Classical electromagnetism": {
+    "to": "Classical electromagnetism",
+    "tofragment": ""
+  },
+  "History of gravitational theory": {
+    "to": "History of gravitational theory",
+    "tofragment": ""
+  },
+  "Timeline of materials technology": {
+    "to": "Timeline of materials technology",
+    "tofragment": ""
+  },
+  "History of physics": {
+    "to": "History of physics",
+    "tofragment": ""
+  },
+  "Women in physics": {
+    "to": "Women in physics",
+    "tofragment": ""
+  },
+  "History of aerodynamics": {
+    "to": "History of aerodynamics",
+    "tofragment": ""
+  },
+  "Chandrasekhar–Eddington dispute": {
+    "to": "Chandrasekhar–Eddington dispute",
+    "tofragment": ""
+  },
+  "Philosophy of physics": {
+    "to": "Philosophy of physics",
+    "tofragment": ""
+  },
+  "Cathode ray": {
+    "to": "Cathode ray",
+    "tofragment": ""
+  },
+  "Standard Model": {
+    "to": "Standard Model",
+    "tofragment": ""
+  },
+  "Quantum mechanics": {
+    "to": "Quantum mechanics",
+    "tofragment": ""
+  },
+  "List of unsolved problems in physics": {
+    "to": "List of unsolved problems in physics",
+    "tofragment": ""
+  },
+  "Timeline of fluid and continuum mechanics": {
+    "to": "Timeline of fluid and continuum mechanics",
+    "tofragment": ""
+  },
+  "Special relativity": {
+    "to": "Special relativity",
+    "tofragment": ""
+  },
+  "History of nanotechnology": {
+    "to": "History of nanotechnology",
+    "tofragment": ""
+  },
+  "Condensed matter physics": {
+    "to": "Condensed matter physics",
+    "tofragment": ""
+  },
+  "History of quantum mechanics": {
+    "to": "History of quantum mechanics",
+    "tofragment": ""
+  },
+  "Outline of physics": {
+    "to": "Outline of physics",
+    "tofragment": ""
+  },
+  "Particle physics": {
+    "to": "Particle physics",
+    "tofragment": ""
+  },
+  "Speed of light": {
+    "to": "Speed of light",
+    "tofragment": ""
+  },
+  "Index of physics articles": {
+    "to": "Index of physics articles",
+    "tofragment": ""
+  },
+  "Planck's law": {
+    "to": "Planck's law",
+    "tofragment": ""
+  },
+  "Floyd K. Richtmyer": {
+    "to": "Floyd K. Richtmyer",
+    "tofragment": ""
+  },
+  "Timeline of condensed matter physics": {
+    "to": "Timeline of condensed matter physics",
+    "tofragment": ""
+  },
+  "History of Lorentz transformations": {
+    "to": "History of Lorentz transformations",
+    "tofragment": ""
+  },
+  "Chemical physics": {
+    "to": "Chemical physics",
+    "tofragment": ""
+  },
+  "Electromagnetism": {
+    "to": "Electromagnetism",
+    "tofragment": ""
+  },
+  "Basic research": {
+    "to": "Basic research",
+    "tofragment": ""
+  },
+  "Biophysics": {
+    "to": "Biophysics",
+    "tofragment": ""
+  },
+  "Quantum field theory": {
+    "to": "Quantum field theory",
+    "tofragment": ""
+  },
+  "Nobel Prize in Physics": {
+    "to": "Nobel Prize in Physics",
+    "tofragment": ""
+  },
+  "Molecular physics": {
+    "to": "Molecular physics",
+    "tofragment": ""
+  },
+  "Physics education research": {
+    "to": "Physics education research",
+    "tofragment": ""
+  },
+  "History of astronomy": {
+    "to": "History of astronomy",
+    "tofragment": ""
+  },
+  "Classical limit": {
+    "to": "Classical limit",
+    "tofragment": ""
+  },
+  "Mathematical physics": {
+    "to": "Mathematical physics",
+    "tofragment": ""
+  },
+  "Physical optics": {
+    "to": "Physical optics",
+    "tofragment": ""
+  },
+  "Bose–Einstein distribution": {
+    "to": "Bose–Einstein statistics",
+    "tofragment": ""
+  },
+  "Newton–Hooke priority controversy for the inverse square law": {
+    "to": "Hooke–Newton inverse square law controversy",
+    "tofragment": ""
+  },
+  "Timeline of electromagnetism and classical optics": {
+    "to": "Timeline of electromagnetism and classical optics",
+    "tofragment": ""
+  },
+  "History of nuclear fusion": {
+    "to": "History of nuclear fusion",
+    "tofragment": ""
+  },
+  "History of special relativity": {
+    "to": "History of special relativity",
+    "tofragment": ""
+  },
+  "Discovery of graphene": {
+    "to": "Discovery of graphene",
+    "tofragment": ""
+  },
+  "History of superconductivity": {
+    "to": "History of superconductivity",
+    "tofragment": ""
+  },
+  "Materials science": {
+    "to": "Materials science",
+    "tofragment": ""
+  },
+  "Timeline of special relativity and the speed of light": {
+    "to": "Timeline of special relativity and the speed of light",
+    "tofragment": ""
+  },
+  "Eddington experiment": {
+    "to": "Eddington experiment",
+    "tofragment": ""
+  },
+  "Black-body radiation": {
+    "to": "Black-body radiation",
+    "tofragment": ""
+  },
+  "Timeline of fundamental physics discoveries": {
+    "to": "Timeline of fundamental physics discoveries",
+    "tofragment": ""
+  },
+  "Analytical mechanics": {
+    "to": "Analytical mechanics",
+    "tofragment": ""
+  },
+  "History of electromagnetic theory": {
+    "to": "History of electromagnetic theory",
+    "tofragment": ""
+  },
+  "Rayleigh–Jeans law": {
+    "to": "Rayleigh–Jeans law",
+    "tofragment": ""
+  },
+  "History of optics": {
+    "to": "History of optics",
+    "tofragment": ""
+  },
+  "Atmospheric physics": {
+    "to": "Atmospheric physics",
+    "tofragment": ""
+  },
+  "History of metamaterials": {
+    "to": "History of metamaterials",
+    "tofragment": ""
+  },
+  "Radioactive decay": {
+    "to": "Radioactive decay",
+    "tofragment": ""
+  },
+  "Timeline of particle discoveries": {
+    "to": "Timeline of particle discoveries",
+    "tofragment": ""
+  },
+  "History of geophysics": {
+    "to": "History of geophysics",
+    "tofragment": ""
+  },
+  "Atomic radius": {
+    "to": "Atomic radius",
+    "tofragment": ""
+  },
+  "Limit (mathematics)": {
+    "to": "Limit (mathematics)",
+    "tofragment": ""
+  },
+  "History of classical field theory": {
+    "to": "History of classical field theory",
+    "tofragment": ""
+  },
+  "Astrophysics": {
+    "to": "Astrophysics",
+    "tofragment": ""
+  },
+  "List of physicists": {
+    "to": "List of physicists",
+    "tofragment": ""
+  },
+  "List of physics journals": {
+    "to": "List of physics journals",
+    "tofragment": ""
+  },
+  "Tests of general relativity": {
+    "to": "Tests of general relativity",
+    "tofragment": ""
+  },
+  "Franck–Hertz experiment": {
+    "to": "Franck–Hertz experiment",
+    "tofragment": ""
+  },
+  "Quantum information science": {
+    "to": "Quantum information science",
+    "tofragment": ""
+  },
+  "Golden age of physics": {
+    "to": "Golden age of physics",
+    "tofragment": ""
+  },
+  "History of the Big Bang theory": {
+    "to": "History of the Big Bang theory",
+    "tofragment": ""
+  },
+  "General relativity priority dispute": {
+    "to": "General relativity priority dispute",
+    "tofragment": ""
+  },
+  "Oil drop experiment": {
+    "to": "Oil drop experiment",
+    "tofragment": ""
+  },
+  "History of energy": {
+    "to": "History of energy",
+    "tofragment": ""
+  },
+  "Theory of relativity": {
+    "to": "Theory of relativity",
+    "tofragment": ""
+  },
+  "Solid-state physics": {
+    "to": "Solid-state physics",
+    "tofragment": ""
+  },
+  "Timeline of computational physics": {
+    "to": "Timeline of computational physics",
+    "tofragment": ""
+  },
+  "Relativistic mechanics": {
+    "to": "Relativistic mechanics",
+    "tofragment": ""
+  },
+  "History of materials science": {
+    "to": "History of materials science",
+    "tofragment": ""
+  }
+}

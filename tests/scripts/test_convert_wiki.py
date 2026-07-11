@@ -5,6 +5,7 @@ testable without HTTP requests or clipboard access.
 """
 
 import dataclasses
+import json
 import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -931,9 +932,6 @@ class TestWikiHtmlToPlaintextSnapshot:
         Uses an isolated converter with ``tmp_path``-based directories to avoid
         polluting the real ``general/`` tree with symlinks or cache files.
         """
-        monkeypatch.setattr(
-            _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
-        )
         isolated_lang = tmp_path / "general" / "eng"
         isolated_lang.mkdir(parents=True)
         isolated_converter = _mod.WikiHtmlConverter(
@@ -951,29 +949,23 @@ class TestWikiHtmlToPlaintextSnapshot:
         # Parse HTML
         html = BeautifulSoup(html_text, "html.parser")
 
+        # Load pre-computed redirect map instead of hitting the live API.
+        cache_path = _SNAPSHOT_DIR / f"{name}.redirect_cache.json"
+        raw_cache = json.loads(cache_path.read_text(encoding="UTF-8"))
+        redirect_map = {
+            k: _mod._RedirectInfo(to=v["to"], tofragment=v.get("tofragment", ""))
+            for k, v in raw_cache.items()
+        }
+
         # Run the same pipeline as main()
         out_to_archive: set[str] = set()
-        async with _mod.ClientSession(
-            connector=_mod.TCPConnector(
-                limit_per_host=_mod._MAX_CONCURRENT_REQUESTS_PER_HOST
-            ),
-            headers={
-                "Accept-Encoding": "gzip",
-                "User-Agent": _mod.USER_AGENT,
-            },
-        ) as session:
-            titles = _mod._collect_link_titles(html)  # noqa: SLF001
-            cache = _mod._load_redirect_cache()  # noqa: SLF001
-            redirect_map = await _mod._resolve_redirects(  # noqa: SLF001
-                session, titles, cache
-            )
-            output = await _mod.wiki_html_to_plaintext(
-                html,
-                out_to_archive=out_to_archive,
-                redirect_map=redirect_map,
-                refs=True,
-                converter=isolated_converter,
-            )
+        output = await _mod.wiki_html_to_plaintext(
+            html,
+            out_to_archive=out_to_archive,
+            redirect_map=redirect_map,
+            refs=True,
+            converter=isolated_converter,
+        )
 
         # Post-process (same as main())
         output = output.replace("\xa0", " ").replace("\u200a", "&hairsp;").strip()
