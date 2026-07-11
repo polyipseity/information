@@ -745,3 +745,73 @@ class TestResolveRedirects:
             assert result["Normal Page"].to == "Normal Page"
 
         anyio.run(run, backend="asyncio")
+
+
+_SNAPSHOT_DIR = Path(__file__).resolve(strict=True).with_name("test_convert_wiki") / "snapshots"
+
+
+def _discover_snapshot_cases() -> list[str]:
+    """Return fixture names by scanning ``*.input.html`` files."""
+    if not _SNAPSHOT_DIR.is_dir():
+        return []
+    return sorted(
+        f.stem.removesuffix(".input")
+        for f in sorted(_SNAPSHOT_DIR.glob("*.input.html"))
+    )
+
+
+class TestWikiHtmlToPlaintextSnapshot:
+    """Snapshot tests for the core wiki_html_to_plaintext function.
+
+    Each pair of ``<name>.input.html`` and ``<name>.expected.md`` files in the
+    ``snapshots/`` directory defines one parametrized test case.
+    """
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        "name",
+        _discover_snapshot_cases(),
+    )
+    async def test_snapshot(self, name: str) -> None:
+        """Verify that converting *name*.input.html matches *name*.expected.md."""
+        input_path = _SNAPSHOT_DIR / f"{name}.input.html"
+        expected_path = _SNAPSHOT_DIR / f"{name}.expected.md"
+
+        # Read fixture files
+        html_text = input_path.read_text(encoding="UTF-8")
+        expected = expected_path.read_text(encoding="UTF-8").strip()
+
+        # Parse HTML
+        html = BeautifulSoup(html_text, "html.parser")
+
+        # Run the same pipeline as main()
+        out_to_archive: set[str] = set()
+        async with _mod.ClientSession(
+            connector=_mod.TCPConnector(
+                limit_per_host=_mod._MAX_CONCURRENT_REQUESTS_PER_HOST
+            ),
+            headers={
+                "Accept-Encoding": "gzip",
+                "User-Agent": _mod.USER_AGENT,
+            },
+        ) as session:
+            titles = _mod._collect_link_titles(html)  # noqa: SLF001
+            cache = _mod._load_redirect_cache()  # noqa: SLF001
+            redirect_map = await _mod._resolve_redirects(  # noqa: SLF001
+                session, titles, cache
+            )
+            output = await _mod.wiki_html_to_plaintext(
+                html,
+                out_to_archive=out_to_archive,
+                redirect_map=redirect_map,
+                refs=True,
+            )
+
+        # Post-process (same as main())
+        output = (
+            output.replace("\xa0", " ")
+            .replace("\u200a", "&hairsp;")
+            .strip()
+        )
+
+        assert output == expected
