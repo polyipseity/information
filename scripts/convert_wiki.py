@@ -2,7 +2,8 @@
 
 Reads HTML from the system clipboard, normalises it to Markdown,
 downloads referenced media to ``archives/Wikimedia Commons/``,
-and prints the result ready to be pasted into a knowledge-base note.
+and outputs the result.  Supports four output modes: clipboard
+(default), stdout, stderr, or append to a specified file.
 """
 
 import argparse
@@ -21,7 +22,7 @@ from pathlib import Path as PathlibPath
 from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
-from sys import version
+from sys import stderr, version
 from typing import NotRequired, TypedDict
 from urllib.parse import quote, unquote
 
@@ -978,8 +979,24 @@ async def main() -> None:
         action="store_true",
         help="Omit reference citations.",
     )
+    parser.add_argument(
+        "--output-mode",
+        "-m",
+        choices=["clipboard", "stdout", "stderr", "append"],
+        default="clipboard",
+        help="Output mode (default: clipboard).",
+    )
+    parser.add_argument(
+        "--output-file",
+        "-f",
+        type=PathlibPath,
+        help="File path for append output mode.",
+    )
     args = parser.parse_args()
     refs = not args.no_refs
+
+    if args.output_mode == "append" and args.output_file is None:
+        parser.error("--output-file is required when --output-mode is append.")
 
     basicConfig(level=INFO)
     _logger.info("Starting Wikipedia HTML to Markdown conversion")
@@ -1029,9 +1046,19 @@ async def main() -> None:
         except SystemExit:
             pass
 
-    print(output)
-    clip_copy(output)
-    print(":)")
+    match args.output_mode:
+        case "clipboard":
+            print(output)
+            clip_copy(output)
+            print(":)")
+        case "stdout":
+            print(output)
+        case "stderr":
+            print(output, file=stderr)
+        case "append":
+            with open(args.output_file, "a") as f:
+                f.write(output)
+                f.write("\n")
 
 
 def __main__() -> None:
