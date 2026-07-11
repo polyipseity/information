@@ -49,15 +49,15 @@ The script prompts for two inputs, then atomically creates the note file and a s
 
 | Output field | How it is derived | Example (`Fourier transform (disambiguation)`) |
 |---|---|---|
-| **Wikipedia URL name** | Spaces → underscores (used for ``<!-- Source: -->`` comment). | `Fourier_transform_(disambiguation)` |
-| **Title** | Trailing parenthetical disambiguation is stripped via regex ``\s\([^()]+\)$``. | `Fourier transform` |
-| **Tag name** | Non-alphanumeric chars → ``_`` (except ``–``/``—`` → ``-``). Falls back to ``{title}_`` if result is empty or purely numeric. | `Fourier_transform_(disambiguation)` → `Fourier_transform__disambiguation_` |
+| __Wikipedia URL name__ | Spaces → underscores (used for ``<!-- Source: -->`` comment). | `Fourier_transform_(disambiguation)` |
+| __Title__ | Trailing parenthetical disambiguation is stripped via regex ``\s\([^()]+\)$``. | `Fourier transform` |
+| __Tag name__ | Non-alphanumeric chars → ``_`` (except ``–``/``—`` → ``-``). Falls back to ``{title}_`` if result is empty or purely numeric. | `Fourier_transform_(disambiguation)` → `Fourier_transform__disambiguation_` |
 
 #### Language code resolution
 
 1. Input is stripped and lowercased.
 2. Matched against pycountry: first tries `alpha_2` (ISO 639‑1), then `alpha_3` (ISO 639‑3).
-3. Directory code uses the **longest available** code via the fallback chain: ``alpha_3`` → ``alpha_2``. This ensures 3-letter codes are preferred when they exist.
+3. Directory code uses the __longest available__ code via the fallback chain: ``alpha_3`` → ``alpha_2``. This ensures 3-letter codes are preferred when they exist.
 4. Human-readable name is taken from `lang.name`.
 5. The corresponding subdirectory under `general/` must already exist (e.g. `general/eng/`, `general/zho/`).
 
@@ -82,9 +82,9 @@ tags:
 
 #### File layout
 
-- **Note file**: `general/<dir_code>/<name>.md` — contains the YAML frontmatter and the attribution footer.
-- **Symlink**: `general/<name>.md` → `<dir_code>/<name>.md` — a relative symlink at the top level of `general/` for convenient access.
-- **Atomicity**: Both files are written to temporary paths first, then atomically renamed into place. If either operation fails, both files are cleaned up — the creation either succeeds completely or has no effect.
+- __Note file__: `general/<dir_code>/<name>.md` — contains the YAML frontmatter and the attribution footer.
+- __Symlink__: `general/<name>.md` → `<dir_code>/<name>.md` — a relative symlink at the top level of `general/` for convenient access.
+- __Atomicity__: Both files are written to temporary paths first, then atomically renamed into place. If either operation fails, both files are cleaned up — the creation either succeeds completely or has no effect.
 
 #### Example walkthrough
 
@@ -125,7 +125,7 @@ Note the created file path — you will need it when re-invoking the skill after
 - Copy (Ctrl+C or Cmd+C)
 - Content is now in clipboard
 
-⏸️ **Stop here.** The agent cannot perform this step. A human must manually copy the article content from the Wikipedia page. Resume once the HTML is in the clipboard.
+⏸️ __Stop here.__ The agent cannot perform this step. A human must manually copy the article content from the Wikipedia page. Resume once the HTML is in the clipboard.
 
 When re-invoking the skill to continue, tell the agent the file path of the note being ingested and that Step 2 (copying HTML) is done.
 
@@ -146,7 +146,7 @@ This step is empty for now.
 
 ### Step 5: Manual review and editing
 
-⏸️ **Stop here.** Let humans review the Markdown output manually, fix formatting issues, add flashcards (cloze or QA markup), and make any other edits. The agent should not perform these tasks.
+⏸️ __Stop here.__ Let humans review the Markdown output manually, fix formatting issues, add flashcards (cloze or QA markup), and make any other edits. The agent should not perform these tasks.
 
 When re-invoking the skill to continue, tell the agent the file path of the note being reviewed and that manual editing is complete.
 
