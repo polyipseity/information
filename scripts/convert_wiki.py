@@ -616,9 +616,6 @@ class WikiHtmlConverter:
         ):
             return self._handle_bold_italic(ele, classes)
 
-        if ele.name == "a" and "mw-selflink" in classes:
-            return self._handle_selflink(ele, classes)
-
         if {"mw-tmh-play", "oo-ui-buttonElement-button"} & classes:
             return self._handle_audio(ele, classes)
 
@@ -1065,6 +1062,9 @@ async def wiki_html_to_plaintext(
         refs=refs,
         redirect_map=redirect_map,
     )
+
+
+async def main() -> None:
     parser = argparse.ArgumentParser(
         description="Convert Wikipedia HTML to Markdown. Reads from stdin by default."
     )
