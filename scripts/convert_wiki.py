@@ -22,7 +22,7 @@ from pathlib import Path as PathlibPath
 from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
-from sys import stderr, version
+from sys import stderr, stdin, version
 from typing import NotRequired, TypedDict
 from urllib.parse import quote, unquote
 
@@ -970,9 +970,9 @@ async def wiki_html_to_plaintext(
 
 
 async def main() -> None:
-    """Read Wikipedia HTML from the clipboard and print its Markdown equivalent."""
+    """Read Wikipedia HTML and print its Markdown equivalent."""
     parser = argparse.ArgumentParser(
-        description="Convert Wikipedia HTML from clipboard to Markdown."
+        description="Convert Wikipedia HTML to Markdown. Reads from stdin by default."
     )
     parser.add_argument(
         "--no-refs",
@@ -992,6 +992,19 @@ async def main() -> None:
         type=PathlibPath,
         help="File path for append output mode.",
     )
+    parser.add_argument(
+        "--input-file",
+        "-i",
+        type=PathlibPath,
+        default="-",
+        help="Read HTML from file instead of stdin (default: stdin).",
+    )
+    parser.add_argument(
+        "--clipboard",
+        "-c",
+        action="store_true",
+        help="Read HTML from system clipboard (overrides --input-file).",
+    )
     args = parser.parse_args()
     refs = not args.no_refs
 
@@ -1001,11 +1014,15 @@ async def main() -> None:
     basicConfig(level=INFO)
     _logger.info("Starting Wikipedia HTML to Markdown conversion")
 
-    input("HTML (will read from clipboard)? ")
-    html_text = paste_html()
-    if not isinstance(html_text, str):
-        msg = f"Clipboard does not contain HTML text (got {type(html_text).__name__})"
-        raise TypeError(msg)
+    if args.clipboard:
+        html_text = paste_html()
+        if not isinstance(html_text, str):
+            msg = f"Clipboard does not contain HTML text (got {type(html_text).__name__})"
+            raise TypeError(msg)
+    else:
+        source = stdin if args.input_file == PathlibPath("-") else open(args.input_file)
+        with source:
+            html_text = source.read()
 
     html = BeautifulSoup(html_text, "html.parser")
 
