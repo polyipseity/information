@@ -614,6 +614,17 @@ class WikiHtmlConverter:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
             config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
 
+        if {"sidebar-navbar", "navbar"} & classes:
+            original_process = process_strings
+
+            def process_strings_comment(strings: str) -> str:
+                result = original_process(strings).strip()
+                return f"<!-- {result} -->" if result else result
+
+            process_strings = process_strings_comment
+            config.prefix = ""
+            config.suffix = ""
+
         if (
             ele.name == "figure"
             or {
