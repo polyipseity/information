@@ -75,27 +75,17 @@ VERSION = "∞"
 "User agent string for HTTP requests."
 USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
 
+# Wikipedia configuration
 "Base URL for the English Wikipedia wiki host."
 _WIKI_HOST_URL = URL.build(scheme="https", host="en.wikipedia.org")
 "Maximum concurrent HTTP requests per host."
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
-"Indentation string for nested Markdown lists."
-_LIST_INDENT = "    "
-"Characters considered as separators in Markdown formatting."
-_MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}\xa0".translate(
-    {
-        ord("/"): "",
-        ord("_"): "",
-    }
-)
-"HTML comment used as a Markdown formatting separator."
-_MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
-"Suffix appended to page titles that do not exist."
-_PAGE_DOES_NOT_EXIST_SUFFIX = " (page does not exist)"
 "Set of page titles to ignore when converting links."
 _BAD_TITLES = frozenset({"Edit this at Wikidata"})
 "Set of name prefixes to ignore when fixing link names."
 _IGNORED_NAME_PREFIXES = frozenset[str]()
+"Suffix appended to page titles that do not exist."
+_PAGE_DOES_NOT_EXIST_SUFFIX = " (page does not exist)"
 "Mapping of Wikipedia page prefixes to their external URL formats."
 _PRESERVED_PAGE_PREFIXES = {
     "Category:": f"{_WIKI_HOST_URL}/wiki/Category:{{}}",
@@ -124,31 +114,31 @@ _PRESERVED_PAGE_PREFIXES = {
     "wikt:": "https://en.wiktionary.org/wiki/{}",
     "wiktionary:": "https://en.wiktionary.org/wiki/{}",
 }
-"Mapping of URL regexes to archive filename and path format pairs."
-_ARCHIVE_REGEXES = {
-    compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/[0-9a-f]/[0-9a-f]{2}/([^/]*)$"
-    ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
-    compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
-    ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
-    compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/transcoded/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
-    ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
-    compile(r"^https://[^\.]*.?wikipedia.org/wiki/File:(.*)$"): (
-        "File:{}",
-        "../../archives/Wikimedia Commons/{}",
-    ),
-}
+
+# Markdown formatting constants
+"Indentation string for nested Markdown lists."
+_LIST_INDENT = "    "
+"Characters considered as separators in Markdown formatting."
+_MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}\xa0".translate(
+    {
+        ord("/"): "",
+        ord("_"): "",
+    }
+)
+"HTML comment used as a Markdown formatting separator."
+_MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
+
+# File paths
 "Script directory for resolving relative data files."
 _SCRIPT_DIRECTORY = PathlibPath(__file__).resolve(strict=True).parent
 "Data directory for auxiliary data files (rename maps, caches, etc.)."
 _DATA_DIRECTORY = _SCRIPT_DIRECTORY / "assets"
 "Directory where converted Wikipedia Markdown notes are stored."
 _CONVERTED_WIKI_DIRECTORY = _SCRIPT_DIRECTORY.parent / "general"
-"Subdirectory for non-English language Wikipedia notes."
+"Subdirectory for language-specific Wikipedia notes (will be made dynamic in Phase 7)."
 _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 
+# Filename rename map
 with open(
     _DATA_DIRECTORY / f"{BASE_NAME}.filename_rename_map.jsonc",
     "rt",
@@ -178,6 +168,8 @@ if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
     raise ValueError(_names_map_overlap)
 "Combined filename rename map merging auto-detected and manual entries."
 _NAMES_MAP = _names_map | _names_map_manual
+
+# Redirect cache & API configuration
 "Path to the redirect resolution cache file."
 _REDIRECT_CACHE_PATH = _DATA_DIRECTORY / f"{BASE_NAME}.redirect_cache.json"
 "Maximum titles per batch when querying redirects."
@@ -193,7 +185,7 @@ _API_BACKOFF_MULTIPLIER = 2.0
 "Maximum backoff in seconds."
 _API_MAX_BACKOFF = 30.0
 
-# regex patterns
+# Regex patterns
 "Regex for filesystem-unsafe characters in filenames."
 _BAD_CHARACTERS: Pattern[str] = compile(r"[/:\\]")
 "Regex for matching header tag names (h1-h6)."
@@ -218,6 +210,22 @@ _TABLE_IN_TABLE_HEADER_REGEX: Pattern[str] = compile(r"\| (__.*?__) \|")
 _TABLE_IN_TABLE_LEADING_VERTICAL_REGEX: Pattern[str] = compile(r"\s*\|")
 "Regex for stripping trailing pipes in nested tables."
 _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX: Pattern[str] = compile(r"\|\s*")
+"Regexes mapping Wikimedia upload URLs to archive filename and path formats."
+_ARCHIVE_REGEXES = {
+    compile(
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/[0-9a-f]/[0-9a-f]{2}/([^/]*)$"
+    ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
+    compile(
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
+    ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
+    compile(
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/transcoded/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
+    ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
+    compile(r"^https://[^\.]*.?wikipedia.org/wiki/File:(.*)$"): (
+        "File:{}",
+        "../../archives/Wikimedia Commons/{}",
+    ),
+}
 
 "Module-level logger."
 _logger = getLogger(__name__)
