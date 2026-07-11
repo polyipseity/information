@@ -24,7 +24,6 @@ if TYPE_CHECKING:
 
 from scripts.special import get_hkust_undergraduate_courses as _mod
 
-
 # ---------------------------------------------------------------------------
 # TestSubject
 # ---------------------------------------------------------------------------

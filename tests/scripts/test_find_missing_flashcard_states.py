@@ -2,15 +2,12 @@
 
 from __future__ import annotations
 
-from collections.abc import AsyncIterator
 from pathlib import Path
-from re import compile as re_compile
 from typing import TYPE_CHECKING
 
 import pytest
 
 if TYPE_CHECKING:
-    from collections.abc import Callable
     from typing import Any
 
 from scripts import find_missing_flashcard_states as _mod

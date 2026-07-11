@@ -11,7 +11,6 @@ cannot be imported at module level — they are tested indirectly via main().
 from __future__ import annotations
 
 from dataclasses import FrozenInstanceError
-from io import BytesIO
 from pathlib import Path
 from typing import TYPE_CHECKING
 from zipfile import ZipFile
@@ -20,12 +19,10 @@ import numpy as np
 import pytest
 
 if TYPE_CHECKING:
-    from collections.abc import Mapping, Sequence, Set
+    from collections.abc import Mapping, Set
 
-    from numpy.typing import NDArray
 
 from scripts import pack as _mod
-
 
 # ---------------------------------------------------------------------------
 # TestArguments
