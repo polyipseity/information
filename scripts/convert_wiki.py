@@ -23,7 +23,7 @@ from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
 from sys import stderr, stdin, version
-from typing import NotRequired, TypedDict
+from typing import ClassVar, NotRequired, TypedDict
 from urllib.parse import quote, unquote
 
 import anyio
@@ -442,6 +442,611 @@ async def _resolve_redirects(
     return cache
 
 
+@dataclass
+class _HandlerConfig:
+    """Configuration returned by a tag handler for processing element children content."""
+    joiner: str = ""
+    prefix: str = ""
+    suffix: str = ""
+    process_strings: Callable[[str], str] = lambda s: s
+    full_result: bool = False
+    list_stack: tuple[int, ...] | None = None
+
+
+class WikiHtmlConverter:
+    """Converts Wikipedia HTML elements to Markdown text.
+
+    Extend by registering handlers via :meth:`register` or directly
+    modifying the ``_tag_handlers`` / ``_class_handlers`` class dicts.
+    """
+
+    _tag_handlers: ClassVar[dict[str, Callable[["WikiHtmlConverter", Tag, frozenset], _HandlerConfig | None]]] = {}
+    _class_handlers: ClassVar[dict[str, Callable[["WikiHtmlConverter", Tag, frozenset], _HandlerConfig | None]]] = {}
+
+    @classmethod
+    def register(cls, *, tag_name: str | None = None, class_name: str | None = None):
+        """Decorator to register a handler for an HTML tag or CSS class."""
+        def decorator(func):
+            if tag_name is not None:
+                cls._tag_handlers[tag_name] = func
+            if class_name is not None:
+                cls._class_handlers[class_name] = func
+            return func
+        return decorator
+
+    async def convert(
+        self,
+        ele: PageElement,
+        *,
+        out_to_archive: MutableSet[str],
+        list_stack: tuple[int, ...] = (),
+        escape: bool = True,
+        refs: bool,
+        redirect_map: dict[str, _RedirectInfo],
+    ) -> str:
+        """Convert a Wikipedia HTML element tree to a Markdown string."""
+
+        def escape_markdown(text: str) -> str:
+            return _MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
+
+        if not isinstance(ele, Tag):
+            return (
+                (escape_markdown(ele) if escape else ele)
+                if isinstance(ele, NavigableString)
+                and not isinstance(ele, PreformattedString)
+                and not isinstance(ele.parent, BeautifulSoup)
+                else ""
+            )
+
+        classes = frozenset(ele.get_attribute_list("class"))
+        if {"mw-cite-backlink", "mw-editsection"} & classes:
+            return ""
+
+        if "reference" in classes:
+            if refs:
+                ref_str = "".join(ele.stripped_strings)
+                if ref_content := _REF_CONTENT_REGEX.search(ref_str):
+                    ref_content = ref_content[1]
+                    return f"<sup>[{escape_markdown(f'[{ref_content}]')}]({_markdown_fragment(f'^ref-{ref_content}')})</sup>"
+            else:
+                return ""
+
+        self._out_to_archive = out_to_archive
+        self._redirect_map = redirect_map
+
+        config = self._dispatch(ele, classes, list_stack=list_stack)
+        if config is None:
+            config = _HandlerConfig()
+
+        joiner = config.joiner
+        process_strings = config.process_strings
+        if config.list_stack is not None:
+            list_stack = config.list_stack
+
+        if "hatnote" in classes:
+            config.prefix = f"- {config.prefix.removesuffix('_')}"
+            config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
+
+        if (
+            ele.name == "figure"
+            or {
+                "catlinks",
+                "math_theorem",
+                "portalbox",
+                "tmulti",
+                "unsolved",
+            }
+            & classes
+        ):
+            original_process = process_strings
+
+            def process_strings_blockquote(strings: str) -> str:
+                strings = original_process(strings)
+                return "".join(
+                    f">{line.strip() and ' '}{line}"
+                    for line in strings.strip().splitlines(keepends=True)
+                )
+
+            config.suffix = "\n\n"
+            process_strings = process_strings_blockquote
+
+        def process_children() -> Iterator[Awaitable[str]]:
+            nonlocal list_stack
+            for child in ele.children:
+                if (
+                    list_stack
+                    and list_stack[-1] >= 0
+                    and isinstance(child, Tag)
+                    and child.name == "li"
+                ):
+                    list_stack = (*list_stack[:-1], list_stack[-1] + 1)
+                yield self.convert(
+                    child,
+                    out_to_archive=out_to_archive,
+                    list_stack=list_stack,
+                    escape=escape and ele.name not in {"code", "math"},
+                    refs=refs,
+                    redirect_map=redirect_map,
+                )
+
+        soon_values: list[SoonValue[str]] = []
+        async with create_task_group() as tg:
+            for coro in process_children():
+
+                async def _run(c=coro) -> str:
+                    return await c
+
+                soon_values.append(tg.soonify(_run)())
+
+        strings = joiner.join(sv.value for sv in soon_values)
+        if config.full_result:
+            return process_strings(strings) or ""
+        strings = process_strings(strings)
+        return strings and f"{config.prefix}{strings}{config.suffix}"
+
+    def _dispatch(
+        self,
+        ele: Tag,
+        classes: frozenset,
+        *,
+        list_stack: tuple[int, ...],
+    ) -> _HandlerConfig | None:
+        """Dispatch to a handler for the given element."""
+        for cls in classes:
+            if cls in self._class_handlers:
+                result = self._class_handlers[cls](self, ele, classes)
+                if result is not None:
+                    return result
+
+        if ele.name in self._tag_handlers:
+            result = self._tag_handlers[ele.name](self, ele, classes)
+            if result is not None:
+                return result
+
+        if header_match := _HEADER_REGEX.match(ele.name):
+            return self._handle_header(ele, classes, header_match)
+
+        if ele.name == "a" and "mw-selflink" in classes:
+            return self._handle_selflink(ele, classes)
+
+        if (
+            ele.name in {"b", "em", "i", "strong"}
+            or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+            or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+        ):
+            return self._handle_bold_italic(ele, classes)
+
+        if ele.name == "a" and "mw-selflink" in classes:
+            return self._handle_selflink(ele, classes)
+
+        if {"mw-tmh-play", "oo-ui-buttonElement-button"} & classes:
+            return self._handle_audio(ele, classes)
+
+        if ele.name == "img" and not {
+            "mwe-math-fallback-image-display",
+            "mwe-math-fallback-image-inline",
+        } & classes:
+            return self._handle_image(ele, classes)
+
+        if ele.name == "a" and "mw-file-description" not in classes:
+            return self._handle_link(ele, classes)
+
+        if ele.name == "ol":
+            return self._handle_ol(ele, classes, list_stack)
+        if ele.name == "ul":
+            return self._handle_ul(ele, classes, list_stack)
+        if ele.name == "li":
+            return self._handle_li(ele, classes, list_stack)
+
+        handler = getattr(self, f"_handle_{ele.name}", None)
+        if handler is not None:
+            return handler(ele, classes)
+
+        return None
+
+    # --- Tag handlers ---
+
+    def _handle_br(self, ele: Tag, classes: frozenset) -> _HandlerConfig | None:
+        def process(strings: str) -> str:
+            return f"{strings}\n"
+        return _HandlerConfig(process_strings=process)
+
+    def _handle_header(self, ele: Tag, classes: frozenset, header_match) -> _HandlerConfig:
+        level = int(header_match[1] or "1")
+        prefix = f"{'#' * level} "
+        suffix = "\n\n"
+
+        def process(strings: str) -> str:
+            return _fix_name_maybe(strings.strip())
+        return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
+
+    def _handle_selflink(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        def process(strings: str) -> str:
+            return strings.strip().replace("\n", " <br/> ")
+        return _HandlerConfig(
+            prefix="[",
+            suffix=f"]({_WIKI_HOST_URL / 'wiki/Help:Self_link'})",
+            process_strings=process,
+        )
+
+    def _handle_bold_italic(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        bold = (
+            ele.name in {"b", "strong"}
+            or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+            and "mw-heading" not in classes
+        )
+        italic = ele.name in {"em", "i"} or _ITALIC_FONT_STYLE_REGEX.search(
+            str(ele.get("style", ""))
+        )
+        bold_str = "__" if bold else ""
+        italic_str = "_" if italic else ""
+        prefix = f"{bold_str}{italic_str}"
+        suffix = f"{italic_str}{bold_str}"
+
+        if (
+            ele.previous_sibling
+            and isinstance(ele.previous_sibling, NavigableString)
+            and ele.previous_sibling.rstrip(_MARKDOWN_SEPARATOR_CHARACTERS) == ele.previous_sibling
+        ):
+            prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
+        if (
+            ele.next_sibling
+            and isinstance(ele.next_sibling, NavigableString)
+            and ele.next_sibling.lstrip(_MARKDOWN_SEPARATOR_CHARACTERS) == ele.next_sibling
+        ):
+            suffix += _MARKDOWN_SEPARATOR
+
+        config = _HandlerConfig(prefix=prefix, suffix=suffix, full_result=False)
+
+        def process(strings: str) -> str:
+            match = _PROCESS_STRINGS_BI_REGEX.match(strings)
+            assert match
+            config.prefix = f"{match[1]}{config.prefix}"
+            config.suffix += match[3]
+            return match[2]
+
+        config.process_strings = process
+        return config
+
+    def _handle_s(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        prefix, suffix = _tag_affixes("s")
+        return _HandlerConfig(prefix=prefix, suffix=suffix)
+
+    def _handle_sub(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        prefix, suffix = _tag_affixes("sub")
+        return _HandlerConfig(prefix=prefix, suffix=suffix)
+
+    def _handle_sup(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        prefix, suffix = _tag_affixes("sup")
+        return _HandlerConfig(prefix=prefix, suffix=suffix)
+
+    def _handle_u(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        prefix, suffix = _tag_affixes("u")
+        return _HandlerConfig(prefix=prefix, suffix=suffix)
+
+    def _handle_div(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        return _HandlerConfig(suffix="\n\n")
+
+    def _handle_dd(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        return _HandlerConfig(suffix="\n\n")
+
+    def _handle_dt(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        return _HandlerConfig(suffix="\n\n")
+
+    def _handle_p(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        return _HandlerConfig(suffix="\n\n")
+
+    def _handle_code(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        def process(strings: str) -> str:
+            delimiter = "`"
+            while delimiter in strings:
+                delimiter += "`"
+            if strings.startswith("`") or strings.endswith("`"):
+                strings = f" {strings} "
+            return f"{delimiter}{strings}{delimiter}"
+        return _HandlerConfig(process_strings=process)
+
+    def _handle_math(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        prefix = suffix = ""
+        if alt_text := ele.get("alttext"):
+            alt_text = str(alt_text).strip()
+            orig_len = len(alt_text)
+            alt_text = alt_text.removeprefix(R"{\displaystyle").lstrip()
+            if len(alt_text) == orig_len:
+                alt_text = alt_text.removeprefix(R"{\textstyle").lstrip()
+            if len(alt_text) < orig_len:
+                alt_text = alt_text.removesuffix(R"}")
+            if alt_text.endswith(R"\ "):
+                alt_text += "{}"
+            else:
+                alt_text = alt_text.rstrip()
+            alt_text = (
+                alt_text.replace(R":@:", R": @ :")
+                .replace(R"?@?", R"? @ ?")
+                .replace(R"{@{", R"{ @ {")
+                .replace(R"}@}", R"} @ }")
+            )
+            while (alt_text_2 := alt_text.replace(R"{{", "{ {").replace(R"}}", "} }")) != alt_text:
+                alt_text = alt_text_2
+
+            is_not_separate_paragraph = (
+                (parent := ele.parent)
+                and (parent := parent.parent)
+                and (parent := parent.parent)
+                and len(parent) > 1
+            )
+            is_inline = (parent := ele.parent) and "inline" in str(parent.get("class", ""))
+            inline = is_not_separate_paragraph and is_inline
+
+            prefix, suffix = "$" if inline else " $$", "$" if inline else "$$"
+
+            if inline:
+                for char in ".,":
+                    if alt_text.endswith(R"\,"):
+                        continue
+                    if alt_text.endswith(char):
+                        suffix += alt_text[-1]
+                        alt_text = alt_text[:-1]
+                alt_text = alt_text.rstrip()
+
+            ele.clear()
+            ele.append(alt_text)
+
+        return _HandlerConfig(prefix=prefix, suffix=suffix)
+
+    def _handle_ol(self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]) -> _HandlerConfig:
+        return _HandlerConfig(
+            prefix="\n" if list_stack else "\n\n",
+            suffix="\n\n",
+            list_stack=(*list_stack, 0),
+        )
+
+    def _handle_ul(self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]) -> _HandlerConfig:
+        return _HandlerConfig(
+            prefix="\n" if list_stack else "\n\n",
+            suffix="\n\n",
+            list_stack=(*list_stack, -1),
+        )
+
+    def _handle_li(self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]) -> _HandlerConfig:
+        item = list_stack[-1] if list_stack else -1
+        if item >= 1:
+            prefix = f"{_LIST_INDENT * (len(list_stack) - 1)}{item}. "
+            suffix = "\n"
+            if str(ele.get("id", "")).startswith("cite_"):
+                def process(strings: str, item: int = item) -> str:
+                    try:
+                        idx = strings.index("\n")
+                    except ValueError:
+                        idx = len(strings)
+                    return f'{strings[:idx]} <a id="^ref-{item}"></a>^ref-{item}{strings[idx:].rstrip()}'
+                return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
+            return _HandlerConfig(prefix=prefix, suffix=suffix)
+        else:
+            return _HandlerConfig(
+                prefix=f"{_LIST_INDENT * (len(list_stack) - 1)}- ",
+                suffix="\n",
+            )
+
+    def _handle_cite(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        prefix = ""
+        if id := ele.get("id"):
+            id = str(id).replace("_", " ")
+            prefix = f'<a id="{id}"></a> '
+        return _HandlerConfig(prefix=prefix)
+
+    def _handle_tbody(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        self._normalize_table_cells(ele)
+        return _HandlerConfig(prefix="\n", suffix="\n\n")
+
+    def _handle_thead(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        self._normalize_table_cells(ele)
+        return _HandlerConfig(prefix="\n", suffix="\n\n")
+
+    @staticmethod
+    def _normalize_table_cells(ele: Tag) -> None:
+        for tdh in tuple(ele.find_all(("td", "th"))):
+            assert isinstance(tdh, Tag)
+            col_span = str(tdh.get("colspan", "1"))
+            try:
+                col_span = int(col_span)
+            except ValueError:
+                pass
+            else:
+                tdh["colspan"] = "1"
+                for _ in range(1, col_span):
+                    new_tdh = copy(tdh)
+                    new_tdh.clear()
+                    tdh.insert_after(new_tdh)
+        for tdh in tuple(ele.find_all(("th", "td"))):
+            assert isinstance(tdh, Tag)
+            row_span = str(tdh.get("rowspan", "1"))
+            try:
+                row_span = int(row_span)
+            except ValueError:
+                pass
+            else:
+                if (current_row := tdh.parent) is not None:
+                    col_idx = current_row.index(tdh)
+                    tdh["rowspan"] = "1"
+                    for _ in range(1, row_span):
+                        if not isinstance(current_row := current_row.next_sibling, Tag):
+                            break
+                        new_tdh = copy(tdh)
+                        new_tdh.clear()
+                        current_row.insert(col_idx, new_tdh)
+
+    def _handle_tr(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        joiner = " | "
+        prefix = "| "
+        suffix = " |\n"
+        if ele.contents and all(
+            isinstance(child, Tag) and child.name == "th" for child in ele.contents
+        ):
+            suffix += f"|{' - |' * len(ele.contents)}\n"
+        else:
+            for child in ele.children:
+                if isinstance(child, Tag) and child.name == "th":
+                    new_b = _bs4_new_element("<b></b>")
+                    assert isinstance(new_b, Tag)
+                    for child_child in child.contents[:]:
+                        new_b.append(child_child.extract())
+                    child.append(new_b)
+        return _HandlerConfig(joiner=joiner, prefix=prefix, suffix=suffix)
+
+    def _handle_td(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        return _HandlerConfig(process_strings=self._process_table_cell)
+
+    def _handle_th(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        return _HandlerConfig(process_strings=self._process_table_cell)
+
+    @staticmethod
+    def _process_table_cell(strings: str) -> str:
+        strings = strings.strip()
+        strings = _CONSECUTIVE_NEWLINES_REGEX.sub("\n", strings)
+        strings = _CONSECUTIVE_LEADING_WHITESPACES_REGEX.sub(
+            lambda match: match[0].replace(" ", "&nbsp;").replace("\t", "&emsp;"),
+            strings,
+        )
+        strings = strings.replace("| |", "|")
+        strings = _TABLE_IN_TABLE_HEADER_REGEX.sub(
+            lambda match: f"|{match[1]} <p> ", strings
+        )
+        strings = strings.replace("|\n|", " <p> ")
+        strings = _TABLE_IN_TABLE_LEADING_VERTICAL_REGEX.sub(
+            lambda match: match[0][: -len("|")], strings
+        )
+        strings = _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX.sub(
+            lambda match: match[0][len("|") :], strings
+        )
+        strings = strings.replace("|", "&#124;")
+        strings = strings.strip()
+        strings = strings.replace("\n", " <br/> ")
+        return strings
+
+    def _handle_audio(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        if src := ele.get("href"):
+            def process(strings: str) -> str:
+                src_url = _WIKI_HOST_URL.join(URL(str(src)))
+                src_url_str = str(src_url)
+                for regex, formats in _ARCHIVE_REGEXES.items():
+                    if not (match := regex.search(src_url.human_repr())):
+                        continue
+                    to_archive = unquote(match[1])
+                    self._out_to_archive.add(formats[0].format(to_archive))
+                    src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
+                embed = "!" if {"mw-tmh-player"} & classes else ""
+                return f"{embed}[{strings.strip()}]({src_url_str})"
+            return _HandlerConfig(suffix="\n\n", process_strings=process)
+        return _HandlerConfig()
+
+    def _handle_image(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        if src := ele.get("src"):
+            def process(strings: str) -> str:
+                src_url = _WIKI_HOST_URL.join(URL(str(src)))
+                src_url_str = str(src_url)
+                for regex, formats in _ARCHIVE_REGEXES.items():
+                    if not (match := regex.search(src_url.human_repr())):
+                        continue
+                    to_archive = unquote(match[1])
+                    self._out_to_archive.add(formats[0].format(to_archive))
+                    src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
+                alt = str(ele.get("alt", "")).strip()
+                return f"{strings}![{_MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf'\{m[0]}', alt)}]({src_url_str})"
+            return _HandlerConfig(suffix="\n\n", process_strings=process)
+        return _HandlerConfig()
+
+    def _handle_link(self, ele: Tag, classes: frozenset) -> _HandlerConfig | None:
+        if (title := ele.get("title")) and title not in _BAD_TITLES:
+            title = str(title)
+            if "new" in classes:
+                title = title.removesuffix(_PAGE_DOES_NOT_EXIST_SUFFIX)
+            href = str(ele.get("href", ""))
+            to_fragment = href.split("#", 1)[-1] if "#" in href else ""
+
+            info = self._redirect_map.get(title, _RedirectInfo(to=title))
+            to = info.to
+            if not to_fragment:
+                to_fragment = info.tofragment
+
+            if any(to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES):
+                pass
+            elif url_format := next(
+                (
+                    (format, to[len(prefix) :])
+                    for prefix, format in _PRESERVED_PAGE_PREFIXES.items()
+                    if to.startswith(prefix)
+                ),
+                None,
+            ):
+                def process(strings: str) -> str:
+                    return strings.strip().replace("\n", " <br/> ")
+                return _HandlerConfig(
+                    prefix="[",
+                    suffix=f"]({url_format[0].format(f'{quote(url_format[1])}{to_fragment and "#"}{quote(to_fragment, safe="")}')})",
+                    process_strings=process,
+                )
+            elif "extiw" in classes:
+                lang_code, extiw_page = to.split(":", 1)
+                lang_code = str(convert(lang_code, to="ISO3")).casefold()
+                from_filename = _fix_name_maybe(extiw_page, replace_underscores=True)
+
+                def process(strings: str) -> str:
+                    return strings.strip().replace("\n", " <br/> ")
+                return _HandlerConfig(
+                    prefix="[",
+                    suffix=f"](../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
+                    process_strings=process,
+                )
+            else:
+                from_filename, to_filename = (
+                    _fix_name_maybe(title, replace_underscores=True),
+                    _fix_name_maybe(to, replace_underscores=True),
+                )
+
+                def process(strings: str) -> str:
+                    return strings.strip().replace("\n", " <br/> ")
+                config = _HandlerConfig(
+                    prefix="[",
+                    suffix=f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
+                    process_strings=process,
+                )
+                from_filename, to_filename = (
+                    _fix_filename(from_filename),
+                    _fix_filename(to_filename),
+                )
+                if from_filename != to_filename:
+                    redirect_file = _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
+                    if not redirect_file.exists():
+                        with _with_cwd(_CONVERTED_WIKI_LANGUAGE_DIRECTORY):
+                            with suppress(FileExistsError):
+                                symlink(
+                                    f"{to_filename}.md",
+                                    redirect_file.relative_to(_CONVERTED_WIKI_LANGUAGE_DIRECTORY),
+                                    target_is_directory=False,
+                                )
+                        with _with_cwd(_CONVERTED_WIKI_DIRECTORY):
+                            with suppress(FileExistsError):
+                                symlink(
+                                    redirect_file.relative_to(_CONVERTED_WIKI_DIRECTORY),
+                                    f"{from_filename}.md",
+                                    target_is_directory=False,
+                                )
+                return config
+        elif href := ele.get("href"):
+            href = str(href)
+            if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
+                href = _markdown_fragment(
+                    _fix_name_maybe(href[href.index("#") + 1 :], replace_underscores=True)
+                )
+
+            def process(strings: str) -> str:
+                return strings.strip().replace("\n", " <br/> ")
+            return _HandlerConfig(prefix="[", suffix=f"]({href})", process_strings=process)
+
+        return None
+
+
 async def wiki_html_to_plaintext(
     ele: PageElement,
     *,
@@ -452,533 +1057,14 @@ async def wiki_html_to_plaintext(
     redirect_map: dict[str, _RedirectInfo],
 ) -> str:
     """Convert a Wikipedia HTML element tree to a Markdown string."""
-
-    def escape_markdown(text: str) -> str:
-        """Escape special Markdown characters in the given text."""
-        return _MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
-
-    if not isinstance(ele, Tag):
-        return (
-            (escape_markdown(ele) if escape else ele)
-            if isinstance(ele, NavigableString)
-            and not isinstance(ele, PreformattedString)
-            and not isinstance(ele.parent, BeautifulSoup)
-            else ""
-        )
-
-    classes = frozenset(ele.get_attribute_list("class"))
-    if {"mw-cite-backlink", "mw-editsection"} & classes:
-        return ""
-
-    if "reference" in classes:
-        if refs:
-            ref_str = "".join(ele.stripped_strings)
-            if ref_content := _REF_CONTENT_REGEX.search(ref_str):
-                ref_content = ref_content[1]
-                return f"<sup>[{escape_markdown(f'[{ref_content}]')}]({_markdown_fragment(f'^ref-{ref_content}')})</sup>"
-        else:
-            return ""
-
-    def process_strings_default(strings: str) -> str:
-        """Return the strings unchanged."""
-        return strings
-
-    process_strings: Callable[[str], str] = process_strings_default
-
-    joiner, prefix, suffix = "", "", ""
-    match ele.name:
-        # newlines
-        case "br":
-
-            def process_strings_br(strings: str) -> str:
-                """Append a newline after the string for a line break."""
-                return f"{strings}\n"
-
-            process_strings = process_strings_br
-
-        # headers; should come before bold
-        case name if header_match := _HEADER_REGEX.match(name):
-            prefix, suffix = f"{'#' * int(header_match[1] or '1')} ", "\n\n"
-
-            def process_strings_header(strings: str) -> str:
-                """Strip and normalise the header text."""
-                return _fix_name_maybe(strings.strip())
-
-            process_strings = process_strings_header
-
-        # links: self-links; should come before bold
-        case _ if ele.name == "a" and "mw-selflink" in classes:
-
-            def process_strings_self_link(strings: str) -> str:
-                """Strip and replace newlines with HTML line breaks for self-links."""
-                return strings.strip().replace("\n", " <br/> ")
-
-            process_strings = process_strings_self_link
-
-            prefix, suffix = (
-                "[",
-                f"]({_WIKI_HOST_URL / 'wiki/Help:Self_link'})",
-            )
-        # bold, italic, bold & italic
-        case _ if (
-            ele.name in {"b", "em", "i", "strong"}
-            or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
-            or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
-        ):
-            bold = (
-                ele.name in {"b", "strong"}
-                or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
-                and "mw-heading" not in classes
-            )
-            italic = ele.name in {"em", "i"} or _ITALIC_FONT_STYLE_REGEX.search(
-                str(ele.get("style", ""))
-            )
-            bold = "__" if bold else ""
-            italic = "_" if italic else ""
-
-            prefix, suffix = f"{bold}{italic}", f"{italic}{bold}"
-            if (
-                ele.previous_sibling
-                and isinstance(ele.previous_sibling, NavigableString)
-                and ele.previous_sibling.rstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
-                == ele.previous_sibling
-            ):
-                prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
-            if (
-                ele.next_sibling
-                and isinstance(ele.next_sibling, NavigableString)
-                and ele.next_sibling.lstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
-                == ele.next_sibling
-            ):
-                suffix += _MARKDOWN_SEPARATOR
-
-            def process_strings_bi(strings: str) -> str:
-                """Adjust bold/italic prefix and suffix around surrounding whitespace."""
-                nonlocal prefix, suffix
-                match = _PROCESS_STRINGS_BI_REGEX.match(strings)
-                assert match
-                prefix = f"{match[1]}{prefix}"
-                suffix += match[3]
-                return match[2]
-
-            process_strings = process_strings_bi
-        # literal tags
-        case "s" | "sub" | "sup" | "u":
-            prefix, suffix = _tag_affixes(ele.name)
-        # newlines
-        case "div" | "dd" | "dt" | "p":  # <dl>
-            suffix = "\n\n"
-        # code
-        case "code":
-
-            def process_strings_code(strings: str) -> str:
-                """Wrap code strings in the appropriate backtick delimiter."""
-                nonlocal prefix, suffix
-                delimiter = "`"
-                while delimiter in strings:
-                    delimiter += "`"
-                prefix, suffix = delimiter, delimiter
-                if strings.startswith("`") or strings.endswith("`"):
-                    strings = f" {strings} "
-                return strings
-
-            process_strings = process_strings_code
-        # mathematics
-        case "math":
-            if alt_text := ele.get("alttext"):
-                alt_text = str(alt_text).strip()
-                orig_alt_text_len = len(alt_text)
-                alt_text = alt_text.removeprefix(R"{\displaystyle").lstrip()
-                if len(alt_text) == orig_alt_text_len:
-                    alt_text = alt_text.removeprefix(R"{\textstyle").lstrip()
-                if len(alt_text) < orig_alt_text_len:
-                    alt_text = (
-                        alt_text.removesuffix(R"}")
-                        # .rstrip() # The trailing space may be preceded by a backslash.
-                    )
-                if alt_text.endswith(R"\ "):
-                    alt_text += "{}"
-                else:
-                    alt_text = alt_text.rstrip()
-                alt_text = (
-                    alt_text.replace(R":@:", R": @ :")
-                    .replace(R"?@?", R"? @ ?")
-                    .replace(R"{@{", R"{ @ {")
-                    .replace(R"}@}", R"} @ }")
-                )
-                while (
-                    alt_text_2 := alt_text.replace(R"{{", "{ {").replace(R"}}", "} }")
-                ) != alt_text:
-                    alt_text = alt_text_2
-
-                is_not_separate_paragraph = (
-                    (parent := ele.parent)
-                    and (parent := parent.parent)
-                    and (parent := parent.parent)
-                    and len(parent) > 1
-                )
-                is_inline = (parent := ele.parent) and "inline" in str(
-                    parent.get("class", "")
-                )
-                inline = is_not_separate_paragraph and is_inline
-
-                prefix, suffix = "$" if inline else " $$", "$" if inline else "$$"
-
-                if inline:
-                    for char in ".,":
-                        if alt_text.endswith(R"\,"):
-                            continue
-                        if alt_text.endswith(char):
-                            suffix += alt_text[-1]
-                            alt_text = alt_text[:-1]
-                    alt_text = alt_text.rstrip()
-
-                ele.clear()
-                ele.append(alt_text)
-        # lists
-        case "ol":
-            prefix, suffix = ("\n" if list_stack else "\n\n"), "\n\n"
-            list_stack += (0,)
-        case "ul":
-            prefix, suffix = ("\n" if list_stack else "\n\n"), "\n\n"
-            list_stack += (-1,)
-        case "li":
-            item = list_stack[-1] if list_stack else -1
-            if item >= 1:
-                prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}{item}. ", "\n"
-                if str(ele.get("id", "")).startswith("cite_"):
-
-                    def process_strings_li_cite(strings: str, item: int = item) -> str:
-                        """Append citation anchors to the first line of a list item."""
-                        try:
-                            idx = strings.index("\n")
-                        except ValueError:
-                            idx = len(strings)
-                        return f'{strings[:idx]} <a id="^ref-{item}"></a>^ref-{item}{strings[idx:].rstrip()}'
-
-                    process_strings = process_strings_li_cite
-            else:
-                prefix, suffix = f"{_LIST_INDENT * (len(list_stack) - 1)}- ", "\n"
-        # citations
-        case "cite":
-            if id := ele.get("id"):
-                id = str(id).replace("_", " ")
-                prefix = f'<a id="{id}"></a> '
-        # tables
-        case "tbody" | "thead":
-            prefix, suffix = "\n", "\n\n"
-
-            # normalize cells
-            for tdh in tuple(ele.find_all(("td", "th"))):
-                assert isinstance(tdh, Tag)
-                col_span = str(tdh.get("colspan", "1"))
-                try:
-                    col_span = int(col_span)
-                except ValueError:
-                    pass
-                else:
-                    tdh["colspan"] = "1"
-                    for _ in range(1, col_span):
-                        new_tdh = copy(tdh)
-                        new_tdh.clear()
-                        tdh.insert_after(new_tdh)
-            for tdh in tuple(ele.find_all(("th", "td"))):
-                assert isinstance(tdh, Tag)
-                row_span = str(tdh.get("rowspan", "1"))
-                try:
-                    row_span = int(row_span)
-                except ValueError:
-                    pass
-                else:
-                    if (current_row := tdh.parent) is not None:
-                        col_idx = current_row.index(tdh)
-                        tdh["rowspan"] = "1"
-                        for _ in range(1, row_span):
-                            if not isinstance(
-                                current_row := current_row.next_sibling, Tag
-                            ):
-                                break
-                            new_tdh = copy(tdh)
-                            new_tdh.clear()
-                            current_row.insert(col_idx, new_tdh)
-        case "tr":
-            joiner = " | "
-            prefix, suffix = "| ", " |\n"
-            if ele.contents and all(
-                isinstance(child, Tag) and child.name == "th" for child in ele.contents
-            ):
-                suffix += f"|{' - |' * len(ele.contents)}\n"
-            else:
-                for child in ele.children:
-                    if isinstance(child, Tag) and child.name == "th":
-                        new_b = _bs4_new_element("<b></b>")
-                        assert isinstance(new_b, Tag)
-                        for child_child in child.contents[:]:
-                            new_b.append(child_child.extract())
-                        child.append(new_b)
-
-        case "td" | "th":
-
-            def process_strings_tdh(strings: str) -> str:
-                """Normalise table cell content for Markdown table syntax."""
-                strings = strings.strip()
-
-                strings = _CONSECUTIVE_NEWLINES_REGEX.sub("\n", strings)
-                strings = _CONSECUTIVE_LEADING_WHITESPACES_REGEX.sub(
-                    lambda match: (
-                        match[0].replace(" ", "&nbsp;").replace("\t", "&emsp;")
-                    ),
-                    strings,
-                )
-
-                # tables in tables
-                strings = strings.replace("| |", "|")  # empty cells
-                strings = _TABLE_IN_TABLE_HEADER_REGEX.sub(
-                    lambda match: f"|{match[1]} <p> ", strings
-                )
-                strings = strings.replace("|\n|", " <p> ")
-                strings = _TABLE_IN_TABLE_LEADING_VERTICAL_REGEX.sub(
-                    lambda match: match[0][: -len("|")], strings
-                )
-                strings = _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX.sub(
-                    lambda match: match[0][len("|") :], strings
-                )
-                strings = strings.replace("|", "&#124;")
-
-                strings = strings.strip()
-                strings = strings.replace("\n", " <br/> ")
-                return strings
-
-            process_strings = process_strings_tdh
-        # audios
-        case _ if {"mw-tmh-play", "oo-ui-buttonElement-button"} & classes:
-            if src := ele.get("href"):
-
-                def process_strings_audio(strings: str) -> str:
-                    """Build a Markdown link for an audio element."""
-                    src_url = _WIKI_HOST_URL.join(URL(str(src)))
-                    src_url_str = str(src_url)
-
-                    for regex, formats in _ARCHIVE_REGEXES.items():
-                        if not (match := regex.search(src_url.human_repr())):
-                            continue
-                        to_archive = unquote(match[1])
-                        out_to_archive.add(formats[0].format(to_archive))
-                        src_url_str = quote(
-                            formats[1].format(to_archive.replace("_", " "))
-                        )
-
-                    embed = "!" if {"mw-tmh-player"} & classes else ""
-                    return f"{embed}[{strings.strip()}]({src_url_str})"
-
-                suffix = "\n\n"
-                process_strings = process_strings_audio
-        # images
-        case _ if (
-            ele.name == "img"
-            and not {
-                "mwe-math-fallback-image-display",
-                "mwe-math-fallback-image-inline",
-            }
-            & classes
-        ):
-            if src := ele.get("src"):
-
-                def process_strings_img(strings: str, ele: Tag = ele) -> str:
-                    """Build a Markdown image link for an img element."""
-                    src_url = _WIKI_HOST_URL.join(URL(str(src)))
-                    src_url_str = str(src_url)
-
-                    for regex, formats in _ARCHIVE_REGEXES.items():
-                        if not (match := regex.search(src_url.human_repr())):
-                            continue
-                        to_archive = unquote(match[1])
-                        out_to_archive.add(formats[0].format(to_archive))
-                        src_url_str = quote(
-                            formats[1].format(to_archive.replace("_", " "))
-                        )
-
-                    return f"{strings}![{escape_markdown(str(ele.get('alt', '')).strip())}]({src_url_str})"
-
-                suffix = "\n\n"
-                process_strings = process_strings_img
-        # links
-        case _ if ele.name == "a" and "mw-file-description" not in classes:
-            process = True
-            if (title := ele.get("title")) and title not in _BAD_TITLES:
-                title = str(title)
-                if "new" in classes:
-                    title = title.removesuffix(_PAGE_DOES_NOT_EXIST_SUFFIX)
-                href = str(ele.get("href", ""))
-                to_fragment = href.split("#", 1)[-1] if "#" in href else ""
-
-                info = redirect_map.get(title, _RedirectInfo(to=title))
-                to = info.to
-                if not to_fragment:
-                    to_fragment = info.tofragment
-
-                if any(to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES):
-                    pass  # noop
-                elif url_format := next(
-                    (
-                        (format, to[len(prefix) :])
-                        for prefix, format in _PRESERVED_PAGE_PREFIXES.items()
-                        if to.startswith(prefix)
-                    ),
-                    None,
-                ):
-                    prefix, suffix = (
-                        "[",
-                        f"]({url_format[0].format(f'{quote(url_format[1])}{to_fragment and "#"}{quote(to_fragment, safe="")}')})",
-                    )
-                elif "extiw" in classes:
-                    lang_code, extiw_page = to.split(":", 1)
-                    lang_code = str(convert(lang_code, to="ISO3")).casefold()
-                    from_filename = _fix_name_maybe(
-                        extiw_page, replace_underscores=True
-                    )
-                    prefix, suffix = (
-                        "[",
-                        f"](../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
-                    )
-                else:
-                    # prefix, suffix = (
-                    #     "[",
-                    #     f"]({_markdown_link_target(_fix_name_maybe(
-                    #         to, replace_underscores=True,
-                    #     ), _fix_name_maybe(
-                    #         to_fragment, replace_underscores=True,
-                    #     ))})",
-                    # )
-                    from_filename, to_filename = (
-                        _fix_name_maybe(title, replace_underscores=True),
-                        _fix_name_maybe(to, replace_underscores=True),
-                    )
-                    prefix, suffix = (
-                        "[",
-                        f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
-                    )
-                    from_filename, to_filename = (
-                        _fix_filename(from_filename),
-                        _fix_filename(to_filename),
-                    )
-                    if from_filename != to_filename:
-                        redirect_file = (
-                            _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
-                        )
-                        if not redirect_file.exists():
-                            # no async
-                            with _with_cwd(_CONVERTED_WIKI_LANGUAGE_DIRECTORY):
-                                with suppress(FileExistsError):
-                                    # `src` <- `dst`
-                                    symlink(
-                                        f"{to_filename}.md",
-                                        redirect_file.relative_to(
-                                            _CONVERTED_WIKI_LANGUAGE_DIRECTORY
-                                        ),
-                                        target_is_directory=False,
-                                    )
-                            with _with_cwd(_CONVERTED_WIKI_DIRECTORY):
-                                with suppress(FileExistsError):
-                                    # `src` <- `dst`
-                                    symlink(
-                                        redirect_file.relative_to(
-                                            _CONVERTED_WIKI_DIRECTORY
-                                        ),
-                                        f"{from_filename}.md",
-                                        target_is_directory=False,
-                                    )
-            elif href := ele.get("href"):
-                href = str(href)
-                if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
-                    href = _markdown_fragment(
-                        _fix_name_maybe(
-                            href[href.index("#") + 1 :], replace_underscores=True
-                        )
-                    )
-                prefix, suffix = "[", f"]({href})"
-            else:
-                process = False
-
-            if process:
-
-                def process_strings_a(strings: str) -> str:
-                    """Strip and replace newlines with HTML line breaks for anchor text."""
-                    return strings.strip().replace("\n", " <br/> ")
-
-                process_strings = process_strings_a
-        # unhandled tags
-        case _:
-            pass
-
-    if "hatnote" in classes:
-        prefix = f"- {prefix.removesuffix('_')}"
-        suffix = f"{suffix.removeprefix('_')}\n\n"
-
-    # blockquotes: categories, figures, portals, ...
-    if (
-        ele.name == "figure"
-        or {
-            "catlinks",
-            # "gallerybox",
-            "math_theorem",
-            "portalbox",
-            "tmulti",
-            "unsolved",
-        }
-        & classes
-    ):
-
-        def process_strings_blockquote(strings: str) -> str:
-            """Prefix each line with a Markdown blockquote marker."""
-            return "".join(
-                f">{line.strip() and ' '}{line}"
-                for line in strings.strip().splitlines(keepends=True)
-            )
-
-        suffix = "\n\n"
-        process_strings = process_strings_blockquote
-
-    def process_children() -> Iterator[Awaitable[str]]:
-        """Yield coroutines that convert each child element to Markdown text."""
-        nonlocal list_stack
-        for child in ele.children:
-            if (
-                list_stack
-                and list_stack[-1] >= 0
-                and isinstance(child, Tag)
-                and child.name == "li"
-            ):
-                list_stack = (*list_stack[:-1], list_stack[-1] + 1)
-            yield wiki_html_to_plaintext(
-                child,
-                out_to_archive=out_to_archive,
-                list_stack=list_stack,
-                escape=escape and ele.name not in {"code", "math"},
-                refs=refs,
-                redirect_map=redirect_map,
-            )
-
-    # concurrently evaluate each child coroutine preserving order
-    soon_values: list[SoonValue[str]] = []
-
-    async with create_task_group() as tg:
-        for coro in process_children():
-
-            async def _run(c=coro) -> str:
-                return await c
-
-            soon_values.append(tg.soonify(_run)())
-
-    # by the time we exit the async with block all tasks have finished
-    strings = joiner.join(sv.value for sv in soon_values)
-    strings = process_strings(strings)
-
-    return strings and f"{prefix}{strings}{suffix}"
-
-
-async def main() -> None:
-    """Read Wikipedia HTML and print its Markdown equivalent."""
+    return await WikiHtmlConverter().convert(
+        ele,
+        out_to_archive=out_to_archive,
+        list_stack=list_stack,
+        escape=escape,
+        refs=refs,
+        redirect_map=redirect_map,
+    )
     parser = argparse.ArgumentParser(
         description="Convert Wikipedia HTML to Markdown. Reads from stdin by default."
     )
