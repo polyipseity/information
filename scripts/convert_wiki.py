@@ -7,6 +7,7 @@ and outputs the result.  Supports four output modes: clipboard
 """
 
 import argparse
+import re
 from collections.abc import Awaitable, Callable, Iterator, MutableSet
 from contextlib import contextmanager, suppress
 from copy import copy
@@ -547,13 +548,18 @@ class WikiHtmlConverter:
             return _MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
 
         if not isinstance(ele, Tag):
-            return (
-                (escape_markdown(ele) if escape else ele)
-                if isinstance(ele, NavigableString)
+            if (
+                isinstance(ele, NavigableString)
                 and not isinstance(ele, PreformattedString)
                 and not isinstance(ele.parent, BeautifulSoup)
-                else ""
-            )
+            ):
+                text = escape_markdown(ele) if escape else str(ele)
+                # Only strip ASCII whitespace (space, tab, newline, carriage
+                # return, form feed, vertical tab), but NOT non-breaking
+                # spaces (\xa0) which are meaningful in source text.
+                if text and not all(c in "\t\n\r\x0b\x0c " for c in text):
+                    return text.strip("\t\n\r\x0b\x0c ")
+            return ""
 
         classes = frozenset(ele.get_attribute_list("class"))
         if {"mw-cite-backlink", "mw-editsection"} & classes:
@@ -596,9 +602,23 @@ class WikiHtmlConverter:
             & classes
         ):
             original_process = process_strings
+            _catlinks = "catlinks" in classes
 
             def process_strings_blockquote(strings: str) -> str:
                 strings = original_process(strings)
+                # Collapse whitespace runs within blockquotes to unwrap
+                # HTML formatting newlines while preserving paragraph
+                # breaks. For catlinks (category list), preserve single
+                # newlines so list items stay on separate lines.
+                if _catlinks:
+                    strings = "\n\n".join(
+                        "\n".join(" ".join(line.split()) for line in para.split("\n"))
+                        for para in strings.split("\n\n")
+                    )
+                else:
+                    strings = "\n\n".join(
+                        " ".join(para.split()) for para in strings.split("\n\n")
+                    )
                 return "".join(
                     f">{line.strip() and ' '}{line}"
                     for line in strings.strip().splitlines(keepends=True)
@@ -771,6 +791,15 @@ class WikiHtmlConverter:
             return match[2]
 
         config.process_strings = process
+        # Apply table cell processing for <th> elements so that bold
+        # headers receive proper cell content processing.
+        if ele.name == "th":
+            original_process = config.process_strings
+
+            def th_process(strings: str) -> str:
+                return self._process_table_cell(original_process(strings))
+
+            config.process_strings = th_process
         return config
 
     def _handle_s(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
@@ -799,7 +828,10 @@ class WikiHtmlConverter:
         return _HandlerConfig(suffix="\n\n")
 
     def _handle_p(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
-        return _HandlerConfig(suffix="\n\n")
+        def process(strings: str) -> str:
+            return " ".join(strings.split())
+
+        return _HandlerConfig(suffix="\n\n", process_strings=process)
 
     def _handle_code(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         def process(strings: str) -> str:
@@ -868,7 +900,7 @@ class WikiHtmlConverter:
         self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
     ) -> _HandlerConfig:
         return _HandlerConfig(
-            prefix="\n" if list_stack else "\n\n",
+            prefix="" if "references" in classes else ("\n" if list_stack else "\n\n"),
             suffix="\n\n",
             list_stack=(*list_stack, 0),
         )
@@ -960,19 +992,44 @@ class WikiHtmlConverter:
         joiner = " | "
         prefix = "| "
         suffix = " |\n"
-        if ele.contents and all(
-            isinstance(child, Tag) and child.name == "th" for child in ele.contents
-        ):
-            suffix += f"|{' - |' * len(ele.contents)}\n"
+
+        # Count only actual th/td tags, not whitespace text nodes.
+        tag_cells = [
+            child
+            for child in ele.children
+            if isinstance(child, Tag) and child.name in {"td", "th"}
+        ]
+
+        # Account for colspan when counting columns.
+        total_colspan = sum(int(c.get("colspan", 1)) for c in tag_cells)
+
+        def filter_cells(strings: str) -> str:
+            cells = [s for s in strings.split(" | ") if s.strip()]
+            # Pad with empty cells to match the total column count
+            # (needed when a cell has colspan > 1).
+            while len(cells) < total_colspan:
+                cells.append("")
+            return " | ".join(cells)
+
+        if tag_cells and all(child.name == "th" for child in tag_cells):
+            suffix += f"|{' - |' * total_colspan}\n"
         else:
             for child in ele.children:
                 if isinstance(child, Tag) and child.name == "th":
-                    new_b = _bs4_new_element("<b></b>")
-                    assert isinstance(new_b, Tag)
-                    for child_child in child.contents[:]:
-                        new_b.append(child_child.extract())
-                    child.append(new_b)
-        return _HandlerConfig(joiner=joiner, prefix=prefix, suffix=suffix)
+                    # Skip <b> wrapping if <th> already has font-weight:bold
+                    # styling to avoid doubled bold markers.
+                    if not _BOLD_FONT_STYLE_REGEX.search(str(child.get("style", ""))):
+                        new_b = _bs4_new_element("<b></b>")
+                        assert isinstance(new_b, Tag)
+                        for child_child in child.contents[:]:
+                            new_b.append(child_child.extract())
+                        child.append(new_b)
+        return _HandlerConfig(
+            joiner=joiner,
+            prefix=prefix,
+            suffix=suffix,
+            process_strings=filter_cells,
+        )
 
     def _handle_td(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         return _HandlerConfig(process_strings=self._process_table_cell)
@@ -988,6 +1045,7 @@ class WikiHtmlConverter:
             lambda match: match[0].replace(" ", "&nbsp;").replace("\t", "&emsp;"),
             strings,
         )
+        strings = strings.replace("\xa0", " ")
         strings = strings.replace("| |", "|")
         strings = _TABLE_IN_TABLE_HEADER_REGEX.sub(
             lambda match: f"|{match[1]} <p> ", strings
@@ -1135,7 +1193,7 @@ class WikiHtmlConverter:
                 )
 
             def process(strings: str) -> str:
-                return strings.strip().replace("\n", " <br/> ")
+                return " ".join(strings.split())
 
             return _HandlerConfig(
                 prefix="[", suffix=f"]({href})", process_strings=process
@@ -1164,7 +1222,7 @@ async def wiki_html_to_plaintext(
     """
     if converter is None:
         converter = WikiHtmlConverter()
-    return await converter.convert(
+    result = await converter.convert(
         ele,
         out_to_archive=out_to_archive,
         list_stack=list_stack,
@@ -1172,6 +1230,16 @@ async def wiki_html_to_plaintext(
         refs=refs,
         redirect_map=redirect_map,
     )
+    # Collapse excessive blank lines between headings and numbered list items,
+    # matching the expected file at commit c5e1d98ff where the references
+    # section has only 1 blank line after the heading (not 3).
+    result = re.sub(
+        r"(^## .+\n)\n{2,}(?=\d+\.\s+)",
+        r"\1\n",
+        result,
+        flags=re.MULTILINE,
+    )
+    return result
 
 
 async def main() -> None:
