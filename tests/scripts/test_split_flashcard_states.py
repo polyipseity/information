@@ -7,13 +7,11 @@ as a library (``__all__ = ()``), so we test via ``from scripts import split_flas
 """
 
 import builtins
-from typing import TYPE_CHECKING
+
+from _pytest.capture import CaptureFixture
+from pytest import MonkeyPatch
 
 from scripts import split_flashcard_states as _mod
-
-if TYPE_CHECKING:
-    from _pytest.capture import CaptureFixture
-    from pytest import MonkeyPatch
 
 __all__ = ()
 

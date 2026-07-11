@@ -10,16 +10,11 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import TYPE_CHECKING
 
 import pytest
 from bs4 import BeautifulSoup
 
 from scripts.special import convert_canvas_submission as _mod
-
-if TYPE_CHECKING:
-    pass
-
 
 # ---------------------------------------------------------------------------
 # AssignmentPageType

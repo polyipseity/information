@@ -7,13 +7,11 @@ internal helper ``_pow`` as well as the interactive entry points by mocking
 """
 
 import builtins
-from typing import TYPE_CHECKING
+
+from _pytest.capture import CaptureFixture
+from pytest import MonkeyPatch
 
 from scripts import power as _mod
-
-if TYPE_CHECKING:
-    from _pytest.capture import CaptureFixture
-    from pytest import MonkeyPatch
 
 __all__ = ()
 

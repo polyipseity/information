@@ -7,20 +7,15 @@ stdout), main() (mocked HTTP and I/O).
 
 from __future__ import annotations
 
+from collections.abc import Callable, Mapping
 from dataclasses import FrozenInstanceError
 from io import StringIO
 from os import fspath
 from pathlib import Path
 from sys import stdout
-from typing import TYPE_CHECKING
 
 import pytest
-
-if TYPE_CHECKING:
-    from collections.abc import Callable, Mapping
-    from typing import Any
-
-    from aiohttp import ClientSession
+from aiohttp import ClientSession
 
 from scripts.special import get_hkust_undergraduate_courses as _mod
 
