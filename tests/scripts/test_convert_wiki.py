@@ -747,7 +747,158 @@ class TestResolveRedirects:
         anyio.run(run, backend="asyncio")
 
 
-_SNAPSHOT_DIR = Path(__file__).resolve(strict=True).with_name("test_convert_wiki") / "snapshots"
+class TestSymlinkCreation:
+    """Tests for symlink creation in _handle_link.
+
+    When a Wikipedia page redirects to another page, symlinks are created
+    so that both filenames resolve to the same Markdown file.
+    """
+
+    @pytest.mark.anyio
+    async def test_symlink_created_when_from_missing_and_differs(
+        self, tmp_path: Path
+    ) -> None:
+        """Should create both symlinks when from/to differ and FROM is missing."""
+        lang_dir = tmp_path / "general" / "eng"
+        top_dir = tmp_path / "general"
+        lang_dir.mkdir(parents=True)
+
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=top_dir,
+            converted_wiki_lang_dir=lang_dir,
+        )
+        html = BeautifulSoup(
+            '<a title="From Page" href="/wiki/From_Page">link</a>',
+            "html.parser",
+        )
+        redirect_map = {
+            "From Page": _mod._RedirectInfo(to="To Page"),  # noqa: SLF001
+        }
+
+        await converter.convert(
+            html,
+            out_to_archive=set(),
+            redirect_map=redirect_map,
+            refs=True,
+        )
+
+        from_symlink = lang_dir / "From Page.md"
+        top_symlink = top_dir / "From Page.md"
+        assert from_symlink.is_symlink()
+        assert top_symlink.is_symlink()
+        assert os.readlink(from_symlink) == "To Page.md"
+        assert os.readlink(top_symlink) == "eng/From Page.md"
+
+    @pytest.mark.anyio
+    async def test_symlink_not_created_when_same(self, tmp_path: Path) -> None:
+        """Should not create symlinks when from/to filenames are identical."""
+        lang_dir = tmp_path / "general" / "eng"
+        top_dir = tmp_path / "general"
+        lang_dir.mkdir(parents=True)
+
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=top_dir,
+            converted_wiki_lang_dir=lang_dir,
+        )
+        html = BeautifulSoup(
+            '<a title="Same Page" href="/wiki/Same_Page">link</a>',
+            "html.parser",
+        )
+        redirect_map = {
+            "Same Page": _mod._RedirectInfo(to="Same Page"),  # noqa: SLF001
+        }
+
+        await converter.convert(
+            html,
+            out_to_archive=set(),
+            redirect_map=redirect_map,
+            refs=True,
+        )
+
+        assert not (lang_dir / "Same Page.md").is_symlink()
+        assert not (top_dir / "Same Page.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_symlink_not_created_when_from_exists(self, tmp_path: Path) -> None:
+        """Should skip symlink creation when FROM file already exists."""
+        lang_dir = tmp_path / "general" / "eng"
+        top_dir = tmp_path / "general"
+        lang_dir.mkdir(parents=True)
+
+        # Pre-create the FROM file
+        (lang_dir / "From Page.md").write_text("existing content", encoding="UTF-8")
+
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=top_dir,
+            converted_wiki_lang_dir=lang_dir,
+        )
+        html = BeautifulSoup(
+            '<a title="From Page" href="/wiki/From_Page">link</a>',
+            "html.parser",
+        )
+        redirect_map = {
+            "From Page": _mod._RedirectInfo(to="To Page"),  # noqa: SLF001
+        }
+
+        await converter.convert(
+            html,
+            out_to_archive=set(),
+            redirect_map=redirect_map,
+            refs=True,
+        )
+
+        # FROM file should remain a regular file (not a symlink)
+        assert (lang_dir / "From Page.md").is_file()
+        assert not (lang_dir / "From Page.md").is_symlink()
+        # Top-level symlink should not exist
+        assert not (top_dir / "From Page.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_symlink_file_exists_error_suppressed(self, tmp_path: Path) -> None:
+        """Should suppress FileExistsError when FROM is a broken symlink.
+
+        A broken symlink has exists()=False but can't be overwritten by
+        os.symlink(), so the suppress() guard handles it.
+        """
+        lang_dir = tmp_path / "general" / "eng"
+        top_dir = tmp_path / "general"
+        lang_dir.mkdir(parents=True)
+
+        # Create a broken symlink at FROM path: exists() returns False,
+        # but os.symlink() raises FileExistsError
+        os.symlink("nonexistent.md", lang_dir / "From Page.md")
+        assert not (lang_dir / "From Page.md").exists()  # broken symlink
+
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=top_dir,
+            converted_wiki_lang_dir=lang_dir,
+        )
+        html = BeautifulSoup(
+            '<a title="From Page" href="/wiki/From_Page">link</a>',
+            "html.parser",
+        )
+        redirect_map = {
+            "From Page": _mod._RedirectInfo(to="To Page"),  # noqa: SLF001
+        }
+
+        # Should not crash despite FileExistsError
+        await converter.convert(
+            html,
+            out_to_archive=set(),
+            redirect_map=redirect_map,
+            refs=True,
+        )
+
+        # Broken symlink should remain unchanged
+        assert (lang_dir / "From Page.md").is_symlink()
+        assert os.readlink(lang_dir / "From Page.md") == "nonexistent.md"
+        # Top-level symlink should still be created (separate guard)
+        assert (top_dir / "From Page.md").is_symlink()
+
+
+_SNAPSHOT_DIR = (
+    Path(__file__).resolve(strict=True).with_name("test_convert_wiki") / "snapshots"
+)
 
 
 def _discover_snapshot_cases() -> list[str]:
@@ -772,8 +923,24 @@ class TestWikiHtmlToPlaintextSnapshot:
         "name",
         _discover_snapshot_cases(),
     )
-    async def test_snapshot(self, name: str) -> None:
-        """Verify that converting *name*.input.html matches *name*.expected.md."""
+    async def test_snapshot(
+        self, name: str, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+    ) -> None:
+        """Verify that converting *name*.input.html matches *name*.expected.md.
+
+        Uses an isolated converter with ``tmp_path``-based directories to avoid
+        polluting the real ``general/`` tree with symlinks or cache files.
+        """
+        monkeypatch.setattr(
+            _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
+        )
+        isolated_lang = tmp_path / "general" / "eng"
+        isolated_lang.mkdir(parents=True)
+        isolated_converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=tmp_path / "general",
+            converted_wiki_lang_dir=isolated_lang,
+        )
+
         input_path = _SNAPSHOT_DIR / f"{name}.input.html"
         expected_path = _SNAPSHOT_DIR / f"{name}.expected.md"
 
@@ -805,13 +972,10 @@ class TestWikiHtmlToPlaintextSnapshot:
                 out_to_archive=out_to_archive,
                 redirect_map=redirect_map,
                 refs=True,
+                converter=isolated_converter,
             )
 
         # Post-process (same as main())
-        output = (
-            output.replace("\xa0", " ")
-            .replace("\u200a", "&hairsp;")
-            .strip()
-        )
+        output = output.replace("\xa0", " ").replace("\u200a", "&hairsp;").strip()
 
         assert output == expected
