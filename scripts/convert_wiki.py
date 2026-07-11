@@ -811,15 +811,15 @@ class WikiHtmlConverter:
             return match[2]
 
         config.process_strings = process
-        # Apply table cell processing for <th> elements so that bold
-        # headers receive proper cell content processing.
-        if ele.name == "th":
+        # Apply table cell processing for <th>/<td> elements so that bold
+        # headers/cells receive proper cell content processing.
+        if ele.name in {"td", "th"}:
             original_process = config.process_strings
 
-            def th_process(strings: str) -> str:
+            def cell_process(strings: str) -> str:
                 return self._process_table_cell(original_process(strings))
 
-            config.process_strings = th_process
+            config.process_strings = cell_process
         return config
 
     def _handle_s(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
