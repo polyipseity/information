@@ -748,6 +748,95 @@ class TestResolveRedirects:
         anyio.run(run, backend="asyncio")
 
 
+class TestResolveRedirectsWithRealResponses:
+    """Parsing-correctness tests using real Wikipedia API responses.
+
+    These tests verify that ``_resolve_redirects`` correctly parses the
+    actual JSON shape returned by the Wikipedia API. The response data
+    was captured live and stored alongside the input fixture so these
+    tests remain offline.
+    """
+
+    @pytest.mark.anyio
+    async def test_parses_modern_physics_api_response(
+        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+    ) -> None:
+        """Feed the real modern_physics API response through
+        _resolve_redirects and verify the output matches the cache file."""
+
+        monkeypatch.setattr(
+            _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
+        )
+
+        # Load the raw API responses captured from the live Wikipedia API.
+        raw_path = _SNAPSHOT_DIR / "modern_physics.api_response.json"
+        raw_batches: list[dict] = list(
+            json.loads(raw_path.read_text(encoding="UTF-8")).values()
+        )
+
+        # Build a mock session that returns each batch response in order.
+        class MockResponse:
+            def __init__(
+                self, data: dict, status: int = 200
+            ) -> None:
+                self.status = status
+                self._data = data
+
+            @property
+            def headers(self) -> dict:
+                return {}
+
+            async def json(self) -> dict:
+                return self._data
+
+            async def __aenter__(self) -> "MockResponse":
+                return self
+
+            async def __aexit__(self, *args: object) -> None:
+                pass
+
+        call_index = 0
+        total_calls = len(raw_batches)
+
+        class MockGet:
+            @staticmethod
+            def __call__(url: object) -> MockResponse:
+                nonlocal call_index
+                if call_index >= total_calls:
+                    msg = f"Unexpected API call #{call_index} (expected {total_calls})"
+                    raise RuntimeError(msg)
+                resp = MockResponse(raw_batches[call_index])
+                call_index += 1
+                return resp
+
+        class MockSession:
+            get = MockGet()
+
+        # Collect titles the same way the snapshot test does.
+        html_path = _SNAPSHOT_DIR / "modern_physics.input.html"
+        html = BeautifulSoup(html_path.read_text(encoding="UTF-8"), "html.parser")
+        titles = _mod._collect_link_titles(html)  # noqa: SLF001
+
+        result = await _mod._resolve_redirects(  # noqa: SLF001
+            MockSession(),  # type: ignore[arg-type]
+            titles,
+            {},
+        )
+
+        # Load the expected cache to compare.
+        cache_path = _SNAPSHOT_DIR / "modern_physics.redirect_cache.json"
+        expected_raw = json.loads(cache_path.read_text(encoding="UTF-8"))
+
+        assert len(result) == len(expected_raw)
+        for title, info in expected_raw.items():
+            assert title in result, f"Missing title: {title!r}"
+            assert result[title].to == info["to"]
+            assert result[title].tofragment == info.get("tofragment", "")
+
+        # All batches should have been consumed.
+        assert call_index == total_calls
+
+
 class TestSymlinkCreation:
     """Tests for symlink creation in _handle_link.
 
