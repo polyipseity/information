@@ -1152,9 +1152,19 @@ async def wiki_html_to_plaintext(
     escape: bool = True,
     refs: bool,
     redirect_map: dict[str, _RedirectInfo],
+    converter: WikiHtmlConverter | None = None,
 ) -> str:
-    """Convert a Wikipedia HTML element tree to a Markdown string."""
-    return await WikiHtmlConverter().convert(
+    """Convert a Wikipedia HTML element tree to a Markdown string.
+
+    Parameters
+    ----------
+    converter:
+        Optional pre-configured converter instance (e.g. with custom
+        paths for testing). Creates a default one if not provided.
+    """
+    if converter is None:
+        converter = WikiHtmlConverter()
+    return await converter.convert(
         ele,
         out_to_archive=out_to_archive,
         list_stack=list_stack,
