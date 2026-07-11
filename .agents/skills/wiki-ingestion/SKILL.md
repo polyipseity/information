@@ -145,11 +145,18 @@ __Command__: `uv run -m convert_wiki`
 - Downloads images to `archives/Wikimedia Commons/` using `convert_wiki.filename_rename_map.jsonc` for filename renames
 - Normalizes links to relative paths with `%20` encoding (not `%3A` or other encodings)
 - Outputs Markdown that preserves Wikipedia structure
-- __Action__: Paste output below the frontmatter in your note file
+- __Action__: Paste output at the end of your note file (after the existing `## references` section).
 
 ### Step 4: Clean up Markdown
 
-This step is empty for now.
+#### Merge `## references` sections
+
+After pasting, the file has two `## references` sections: the __template section__ (top, contains the CC-BY-SA attribution) and the __Wikipedia section__ (inside the pasted content, may contain external links / footnotes). The pasted content is everything after the template's `## references`.
+
+1. Search for `## references` only within the __pasted Wikipedia content__ (i.e. after the template's `## references`). Find the __last__ occurrence in that region — this is the Wikipedia references heading. If there is none, skip to step 4.
+2. Prepend the template's reference content (everything between the template's `## references` heading and the pasted content) to the Wikipedia `## references` section: insert it right after the heading line, with a blank line between heading and content. Preserve the exact text and line breaks of the template's attribution.
+3. Delete the template's `## references` section (heading + its content, including trailing blank line) from the top of the file.
+4. If the pasted content has __no__ `## references`, leave the template's `## references` in place — the attribution stays at its current position.
 
 ### Step 5: Manual review and editing
 
