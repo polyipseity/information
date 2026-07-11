@@ -89,6 +89,7 @@ The comment acts as a semantic separator (intentional break) that also prevents 
 ## Formatting & linting
 
 - __markdownlint__: Configuration in `.markdownlint.json` (root, `scripts/`, `special/`, `archives/`) disables MD013 (line length), MD033 (HTML blocks), MD051 (link spacing)
+  - Per-directory configs (in `scripts/`, `special/`, `archives/`, and subdirectories) extend the root config via `"extends": "../.markdownlint.jsonc"`.
 - __running markdownlint-cli2__: when invoking the CLI with explicit file paths or filenames (for example `bun run check:md file1.md file2.md` or `bun run format:md file1.md`), __always__ include `--no-globs` and list the exact files you want to process. Without `--no-globs` markdownlint-cli2 will treat the arguments as a glob pattern, which may cause it to scan the entire repository instead of just the files you specified. This applies whether you call the command directly or via a bun script.
   - Respects and preserves existing formatting; avoid auto-reformatting unless requested
   - Useful for validating structure without breaking KaTeX or special layouts
