@@ -445,6 +445,7 @@ async def _resolve_redirects(
 @dataclass
 class _HandlerConfig:
     """Configuration returned by a tag handler for processing element children content."""
+
     joiner: str = ""
     prefix: str = ""
     suffix: str = ""
@@ -460,18 +461,28 @@ class WikiHtmlConverter:
     modifying the ``_tag_handlers`` / ``_class_handlers`` class dicts.
     """
 
-    _tag_handlers: ClassVar[dict[str, Callable[["WikiHtmlConverter", Tag, frozenset], _HandlerConfig | None]]] = {}
-    _class_handlers: ClassVar[dict[str, Callable[["WikiHtmlConverter", Tag, frozenset], _HandlerConfig | None]]] = {}
+    _tag_handlers: ClassVar[
+        dict[
+            str, Callable[["WikiHtmlConverter", Tag, frozenset], _HandlerConfig | None]
+        ]
+    ] = {}
+    _class_handlers: ClassVar[
+        dict[
+            str, Callable[["WikiHtmlConverter", Tag, frozenset], _HandlerConfig | None]
+        ]
+    ] = {}
 
     @classmethod
     def register(cls, *, tag_name: str | None = None, class_name: str | None = None):
         """Decorator to register a handler for an HTML tag or CSS class."""
+
         def decorator(func):
             if tag_name is not None:
                 cls._tag_handlers[tag_name] = func
             if class_name is not None:
                 cls._class_handlers[class_name] = func
             return func
+
         return decorator
 
     async def convert(
@@ -619,10 +630,14 @@ class WikiHtmlConverter:
         if {"mw-tmh-play", "oo-ui-buttonElement-button"} & classes:
             return self._handle_audio(ele, classes)
 
-        if ele.name == "img" and not {
-            "mwe-math-fallback-image-display",
-            "mwe-math-fallback-image-inline",
-        } & classes:
+        if (
+            ele.name == "img"
+            and not {
+                "mwe-math-fallback-image-display",
+                "mwe-math-fallback-image-inline",
+            }
+            & classes
+        ):
             return self._handle_image(ele, classes)
 
         if ele.name == "a" and "mw-file-description" not in classes:
@@ -646,20 +661,25 @@ class WikiHtmlConverter:
     def _handle_br(self, ele: Tag, classes: frozenset) -> _HandlerConfig | None:
         def process(strings: str) -> str:
             return f"{strings}\n"
+
         return _HandlerConfig(process_strings=process)
 
-    def _handle_header(self, ele: Tag, classes: frozenset, header_match) -> _HandlerConfig:
+    def _handle_header(
+        self, ele: Tag, classes: frozenset, header_match
+    ) -> _HandlerConfig:
         level = int(header_match[1] or "1")
         prefix = f"{'#' * level} "
         suffix = "\n\n"
 
         def process(strings: str) -> str:
             return _fix_name_maybe(strings.strip())
+
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
     def _handle_selflink(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         def process(strings: str) -> str:
             return strings.strip().replace("\n", " <br/> ")
+
         return _HandlerConfig(
             prefix="[",
             suffix=f"]({_WIKI_HOST_URL / 'wiki/Help:Self_link'})",
@@ -683,13 +703,15 @@ class WikiHtmlConverter:
         if (
             ele.previous_sibling
             and isinstance(ele.previous_sibling, NavigableString)
-            and ele.previous_sibling.rstrip(_MARKDOWN_SEPARATOR_CHARACTERS) == ele.previous_sibling
+            and ele.previous_sibling.rstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
+            == ele.previous_sibling
         ):
             prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
         if (
             ele.next_sibling
             and isinstance(ele.next_sibling, NavigableString)
-            and ele.next_sibling.lstrip(_MARKDOWN_SEPARATOR_CHARACTERS) == ele.next_sibling
+            and ele.next_sibling.lstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
+            == ele.next_sibling
         ):
             suffix += _MARKDOWN_SEPARATOR
 
@@ -741,6 +763,7 @@ class WikiHtmlConverter:
             if strings.startswith("`") or strings.endswith("`"):
                 strings = f" {strings} "
             return f"{delimiter}{strings}{delimiter}"
+
         return _HandlerConfig(process_strings=process)
 
     def _handle_math(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
@@ -763,7 +786,9 @@ class WikiHtmlConverter:
                 .replace(R"{@{", R"{ @ {")
                 .replace(R"}@}", R"} @ }")
             )
-            while (alt_text_2 := alt_text.replace(R"{{", "{ {").replace(R"}}", "} }")) != alt_text:
+            while (
+                alt_text_2 := alt_text.replace(R"{{", "{ {").replace(R"}}", "} }")
+            ) != alt_text:
                 alt_text = alt_text_2
 
             is_not_separate_paragraph = (
@@ -772,7 +797,9 @@ class WikiHtmlConverter:
                 and (parent := parent.parent)
                 and len(parent) > 1
             )
-            is_inline = (parent := ele.parent) and "inline" in str(parent.get("class", ""))
+            is_inline = (parent := ele.parent) and "inline" in str(
+                parent.get("class", "")
+            )
             inline = is_not_separate_paragraph and is_inline
 
             prefix, suffix = "$" if inline else " $$", "$" if inline else "$$"
@@ -791,33 +818,43 @@ class WikiHtmlConverter:
 
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
-    def _handle_ol(self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]) -> _HandlerConfig:
+    def _handle_ol(
+        self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
+    ) -> _HandlerConfig:
         return _HandlerConfig(
             prefix="\n" if list_stack else "\n\n",
             suffix="\n\n",
             list_stack=(*list_stack, 0),
         )
 
-    def _handle_ul(self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]) -> _HandlerConfig:
+    def _handle_ul(
+        self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
+    ) -> _HandlerConfig:
         return _HandlerConfig(
             prefix="\n" if list_stack else "\n\n",
             suffix="\n\n",
             list_stack=(*list_stack, -1),
         )
 
-    def _handle_li(self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]) -> _HandlerConfig:
+    def _handle_li(
+        self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
+    ) -> _HandlerConfig:
         item = list_stack[-1] if list_stack else -1
         if item >= 1:
             prefix = f"{_LIST_INDENT * (len(list_stack) - 1)}{item}. "
             suffix = "\n"
             if str(ele.get("id", "")).startswith("cite_"):
+
                 def process(strings: str, item: int = item) -> str:
                     try:
                         idx = strings.index("\n")
                     except ValueError:
                         idx = len(strings)
                     return f'{strings[:idx]} <a id="^ref-{item}"></a>^ref-{item}{strings[idx:].rstrip()}'
-                return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
+
+                return _HandlerConfig(
+                    prefix=prefix, suffix=suffix, process_strings=process
+                )
             return _HandlerConfig(prefix=prefix, suffix=suffix)
         else:
             return _HandlerConfig(
@@ -923,6 +960,7 @@ class WikiHtmlConverter:
 
     def _handle_audio(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         if src := ele.get("href"):
+
             def process(strings: str) -> str:
                 src_url = _WIKI_HOST_URL.join(URL(str(src)))
                 src_url_str = str(src_url)
@@ -934,11 +972,13 @@ class WikiHtmlConverter:
                     src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
                 embed = "!" if {"mw-tmh-player"} & classes else ""
                 return f"{embed}[{strings.strip()}]({src_url_str})"
+
             return _HandlerConfig(suffix="\n\n", process_strings=process)
         return _HandlerConfig()
 
     def _handle_image(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         if src := ele.get("src"):
+
             def process(strings: str) -> str:
                 src_url = _WIKI_HOST_URL.join(URL(str(src)))
                 src_url_str = str(src_url)
@@ -950,6 +990,7 @@ class WikiHtmlConverter:
                     src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
                 alt = str(ele.get("alt", "")).strip()
                 return f"{strings}![{_MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf'\{m[0]}', alt)}]({src_url_str})"
+
             return _HandlerConfig(suffix="\n\n", process_strings=process)
         return _HandlerConfig()
 
@@ -976,8 +1017,10 @@ class WikiHtmlConverter:
                 ),
                 None,
             ):
+
                 def process(strings: str) -> str:
                     return strings.strip().replace("\n", " <br/> ")
+
                 return _HandlerConfig(
                     prefix="[",
                     suffix=f"]({url_format[0].format(f'{quote(url_format[1])}{to_fragment and "#"}{quote(to_fragment, safe="")}')})",
@@ -990,6 +1033,7 @@ class WikiHtmlConverter:
 
                 def process(strings: str) -> str:
                     return strings.strip().replace("\n", " <br/> ")
+
                 return _HandlerConfig(
                     prefix="[",
                     suffix=f"](../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
@@ -1003,6 +1047,7 @@ class WikiHtmlConverter:
 
                 def process(strings: str) -> str:
                     return strings.strip().replace("\n", " <br/> ")
+
                 config = _HandlerConfig(
                     prefix="[",
                     suffix=f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
@@ -1013,19 +1058,25 @@ class WikiHtmlConverter:
                     _fix_filename(to_filename),
                 )
                 if from_filename != to_filename:
-                    redirect_file = _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
+                    redirect_file = (
+                        _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
+                    )
                     if not redirect_file.exists():
                         with _with_cwd(_CONVERTED_WIKI_LANGUAGE_DIRECTORY):
                             with suppress(FileExistsError):
                                 symlink(
                                     f"{to_filename}.md",
-                                    redirect_file.relative_to(_CONVERTED_WIKI_LANGUAGE_DIRECTORY),
+                                    redirect_file.relative_to(
+                                        _CONVERTED_WIKI_LANGUAGE_DIRECTORY
+                                    ),
                                     target_is_directory=False,
                                 )
                         with _with_cwd(_CONVERTED_WIKI_DIRECTORY):
                             with suppress(FileExistsError):
                                 symlink(
-                                    redirect_file.relative_to(_CONVERTED_WIKI_DIRECTORY),
+                                    redirect_file.relative_to(
+                                        _CONVERTED_WIKI_DIRECTORY
+                                    ),
                                     f"{from_filename}.md",
                                     target_is_directory=False,
                                 )
@@ -1034,12 +1085,17 @@ class WikiHtmlConverter:
             href = str(href)
             if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
                 href = _markdown_fragment(
-                    _fix_name_maybe(href[href.index("#") + 1 :], replace_underscores=True)
+                    _fix_name_maybe(
+                        href[href.index("#") + 1 :], replace_underscores=True
+                    )
                 )
 
             def process(strings: str) -> str:
                 return strings.strip().replace("\n", " <br/> ")
-            return _HandlerConfig(prefix="[", suffix=f"]({href})", process_strings=process)
+
+            return _HandlerConfig(
+                prefix="[", suffix=f"]({href})", process_strings=process
+            )
 
         return None
 
@@ -1111,7 +1167,9 @@ async def main() -> None:
     if args.clipboard:
         html_text = paste_html()
         if not isinstance(html_text, str):
-            msg = f"Clipboard does not contain HTML text (got {type(html_text).__name__})"
+            msg = (
+                f"Clipboard does not contain HTML text (got {type(html_text).__name__})"
+            )
             raise TypeError(msg)
     else:
         source = stdin if args.input_file == PathlibPath("-") else open(args.input_file)
