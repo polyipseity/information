@@ -203,6 +203,8 @@ _PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)( *)$", DOTALL)
 _REF_CONTENT_REGEX: Pattern[str] = compile(r"\[([^]]*)\]")
 "Regex for collapsing consecutive newlines."
 _CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n+")
+"Regex for collapsing consecutive empty blockquote lines."
+_COLLAPSE_EMPTY_BLOCKQUOTE_RE: Pattern[str] = compile(r"(?:^>\n){2,}", MULTILINE)
 "Regex for stripping leading whitespace on each line."
 _CONSECUTIVE_LEADING_WHITESPACES_REGEX: Pattern[str] = compile(r"^[ \t]+", MULTILINE)
 "Regex for handling table-in-table headers."
@@ -639,10 +641,11 @@ class WikiHtmlConverter:
                     strings = "\n\n".join(
                         " ".join(para.split()) for para in strings.split("\n\n")
                     )
-                return "".join(
+                result = "".join(
                     f">{line.strip() and ' '}{line}"
                     for line in strings.strip().splitlines(keepends=True)
                 )
+                return _COLLAPSE_EMPTY_BLOCKQUOTE_RE.sub(">\n", result)
 
             config.suffix = "\n\n"
             process_strings = process_strings_blockquote
