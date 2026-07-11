@@ -137,14 +137,16 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 
 ### Step 3: Ingest HTML
 
-__Command__: `uv run -m scripts.convert_wiki`
+__Command__: `uv run -m scripts.convert_wiki --output-mode append --output-file "<note_path>"`
+
+Replace `<note_path>` with the path to the note file created in Step 1 (e.g. `general/eng/Fourier transform.md`).
 
 - Tool reads from clipboard
 - Normalizes Markdown formatting (lists, tables, code, emphasis)
 - Downloads images to `archives/Wikimedia Commons/` using `scripts/assets/convert_wiki.filename_rename_map.jsonc` for filename renames
 - Normalizes links to relative paths with `%20` encoding (not `%3A` or other encodings)
 - Outputs Markdown that preserves Wikipedia structure
-- __Action__: Paste output at the end of your note file (after the existing `## references` section).
+- The script appends the generated Markdown directly to your note file.
 
 ### Step 4: Clean up Markdown
 
