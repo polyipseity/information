@@ -19,6 +19,7 @@ applyTo: "**"
    ```
 
    When targeting specific files with `check:md` or `format:md`, always append `--no-globs` and list the explicit filenames to avoid accidentally processing the entire repo.
+
 3. Adopt a simplification-first mindset: before adding new code, verify whether deletion or inlining would suffice.
 
 ## Repository gotchas
@@ -48,8 +49,8 @@ Clears generated content blocks without regenerating. Useful for resolving merge
 
 ### Wiki ingestion
 
-- Scaffold: `uv run -m templates.new_wiki_page`
-- Ingest: `uv run -m convert_wiki` (reads clipboard HTML)
+- Scaffold: `uv run -m scripts.new_wiki_page`
+- Ingest: `uv run -m scripts.convert_wiki` (reads clipboard HTML)
 - Flashcards: handled automatically by build workflows
 - __See__: [wiki-ingestion](../skills/wiki-ingestion/SKILL.md) skill for step-by-step guidance
 

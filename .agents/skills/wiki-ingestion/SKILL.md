@@ -34,30 +34,30 @@ The workflow alternates between agent-run and human-run steps. After each manual
 
 ### Step 1: Scaffold new note
 
-__Command__: `uv run -m templates.new_wiki_page`
+__Command__: `uv run -m scripts.new_wiki_page`
 
 The script prompts for two inputs, then atomically creates the note file and a symlink.
 
 #### Inputs
 
-| Prompt | Default | Example | Notes |
-|--------|---------|---------|-------|
-| `Language? (ISO code)` | `eng` | `eng`, `en`, `zho`, `deu`, `fra` | Case-insensitive. Accepts ISO 639‑1 (2‑letter), ISO 639‑2 (3‑letter), or ISO 639‑3 (3‑letter) codes. Validated via pycountry. |
-| `Name?` | — | `Fourier transform`, `machine learning` | The Wikipedia article title — not URL-encoded, no underscores. Cannot be empty. |
+| Prompt                 | Default | Example                                 | Notes                                                                                                                         |
+| ---------------------- | ------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `Language? (ISO code)` | `eng`   | `eng`, `en`, `zho`, `deu`, `fra`        | Case-insensitive. Accepts ISO 639‑1 (2‑letter), ISO 639‑2 (3‑letter), or ISO 639‑3 (3‑letter) codes. Validated via pycountry. |
+| `Name?`                | —       | `Fourier transform`, `machine learning` | The Wikipedia article title — not URL-encoded, no underscores. Cannot be empty.                                               |
 
 #### Transformations applied to the article name
 
-| Output field | How it is derived | Example (`Fourier transform (disambiguation)`) |
-|---|---|---|
-| __Wikipedia URL name__ | Spaces → underscores (used for ``<!-- Source: -->`` comment). | `Fourier_transform_(disambiguation)` |
-| __Title__ | Trailing parenthetical disambiguation is stripped via regex ``\s\([^()]+\)$``. | `Fourier transform` |
-| __Tag name__ | Non-alphanumeric chars → ``_`` (except ``–``/``—`` → ``-``). Falls back to ``{title}_`` if result is empty or purely numeric. | `Fourier_transform_(disambiguation)` → `Fourier_transform__disambiguation_` |
+| Output field           | How it is derived                                                                                                   | Example (`Fourier transform (disambiguation)`)                              |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| __Wikipedia URL name__ | Spaces → underscores (used for `<!-- Source: -->` comment).                                                         | `Fourier_transform_(disambiguation)`                                        |
+| __Title__              | Trailing parenthetical disambiguation is stripped via regex `\s\([^()]+\)$`.                                        | `Fourier transform`                                                         |
+| __Tag name__           | Non-alphanumeric chars → `_` (except `–`/`—` → `-`). Falls back to `{title}_` if result is empty or purely numeric. | `Fourier_transform_(disambiguation)` → `Fourier_transform__disambiguation_` |
 
 #### Language code resolution
 
 1. Input is stripped and lowercased.
 2. Matched against pycountry: first tries `alpha_2` (ISO 639‑1), then `alpha_3` (ISO 639‑3).
-3. Directory code uses the __longest available__ code via the fallback chain: ``alpha_3`` → ``alpha_2``. This ensures 3-letter codes are preferred when they exist.
+3. Directory code uses the __longest available__ code via the fallback chain: `alpha_3` → `alpha_2`. This ensures 3-letter codes are preferred when they exist.
 4. Human-readable name is taken from `lang.name`.
 5. The corresponding subdirectory under `general/` must already exist (e.g. `general/eng/`, `general/zho/`).
 
@@ -66,19 +66,19 @@ The script prompts for two inputs, then atomically creates the note file and a s
 ```yaml
 ---
 aliases:
-  - {title}           # Title derived from the article name (disambiguation stripped)
+  - { title } # Title derived from the article name (disambiguation stripped)
 tags:
   - flashcard/active/general/{dir_code}/{tag_name}
-  - language/in/{lang_name}   # Human language name (e.g. "English", "Chinese")
+  - language/in/{lang_name} # Human language name (e.g. "English", "Chinese")
 ---
 ```
 
-| Placeholder | Source | Example |
-|---|---|---|
-| `{title}` | Article name with trailing parenthetical stripped | `Fourier transform` |
-| `{dir_code}` | Language ISO code (3-letter preferred) | `eng`, `zho` |
-| `{tag_name}` | Article name sanitised for tag use | `Fourier_transform` |
-| `{lang_name}` | Human-readable language name from pycountry | `English`, `Chinese` |
+| Placeholder   | Source                                            | Example              |
+| ------------- | ------------------------------------------------- | -------------------- |
+| `{title}`     | Article name with trailing parenthetical stripped | `Fourier transform`  |
+| `{dir_code}`  | Language ISO code (3-letter preferred)            | `eng`, `zho`         |
+| `{tag_name}`  | Article name sanitised for tag use                | `Fourier_transform`  |
+| `{lang_name}` | Human-readable language name from pycountry       | `English`, `Chinese` |
 
 #### File layout
 
@@ -89,7 +89,7 @@ tags:
 #### Example walkthrough
 
 ```
-$ uv run -m templates.new_wiki_page
+$ uv run -m scripts.new_wiki_page
 Language? (ISO code, default: eng) zho
 Name? Fourier transform
 Created: general/zho/Fourier transform.md
@@ -106,7 +106,6 @@ tags:
   - flashcard/active/general/zho/Fourier_transform
   - language/in/Chinese
 ---
-
 # Fourier transform
 
 ## references
@@ -138,11 +137,11 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 
 ### Step 3: Ingest HTML
 
-__Command__: `uv run -m convert_wiki`
+__Command__: `uv run -m scripts.convert_wiki`
 
 - Tool reads from clipboard
 - Normalizes Markdown formatting (lists, tables, code, emphasis)
-- Downloads images to `archives/Wikimedia Commons/` using `convert_wiki.filename_rename_map.jsonc` for filename renames
+- Downloads images to `archives/Wikimedia Commons/` using `scripts/assets/convert_wiki.filename_rename_map.jsonc` for filename renames
 - Normalizes links to relative paths with `%20` encoding (not `%3A` or other encodings)
 - Outputs Markdown that preserves Wikipedia structure
 - __Action__: Paste output at the end of your note file (after the existing `## references` section).

@@ -21,8 +21,8 @@ __Creating notes__:
 
 ```bash
 # Scaffold new wiki-sourced note (see wiki-ingestion skill)
-uv run -m templates.new_wiki_page
-uv run -m convert_wiki  # Paste Wikipedia HTML from clipboard
+uv run -m scripts.new_wiki_page
+uv run -m scripts.convert_wiki  # Paste Wikipedia HTML from clipboard
 # Flashcards are created automatically by the build; do not run
 # `uv run -m init generate` yourself.
 ```
