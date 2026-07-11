@@ -22,12 +22,16 @@ __all__ = ()
 _REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
-def _resolve_lang(code: str) -> tuple[str, str]:
-    """Validate an ISO language code and return (directory_code, human_name).
+def _resolve_lang(code: str) -> tuple[str, str, str]:
+    """Validate an ISO language code and return (directory_code, human_name, wikipedia_lang).
 
     Accepts ISO 639‑1 (2‑letter), ISO 639‑2 (3‑letter), and ISO 639‑3
-    (3‑letter) codes. Resolves to the longest available directory code via
-    the fallback chain ``alpha_3`` → ``alpha_2``.
+    (3‑letter) codes.
+
+    - ``directory_code``: longest available code via fallback chain
+      ``alpha_3`` → ``alpha_2`` (used for filesystem directory).
+    - ``wikipedia_lang``: shortest available code via fallback chain
+      ``alpha_2`` → ``alpha_3`` (used for Wikipedia subdomain).
     """
     code = code.strip().lower()
     lang = pycountry.languages.get(alpha_2=code) or pycountry.languages.get(
@@ -37,7 +41,8 @@ def _resolve_lang(code: str) -> tuple[str, str]:
         msg = f"unknown language code: {code!r}"
         raise LookupError(msg)
     dir_code = lang.alpha_3 or lang.alpha_2
-    return dir_code, lang.name
+    wikipedia_lang = lang.alpha_2 or lang.alpha_3
+    return dir_code, lang.name, wikipedia_lang
 
 
 async def main() -> None:
@@ -45,7 +50,7 @@ async def main() -> None:
     # --- Language ---
     raw = input("Language? (ISO code, default: eng) ").strip()
     lang_code = normalize("NFC", raw) if raw else "eng"
-    dir_code, lang_name = _resolve_lang(lang_code)
+    dir_code, lang_name, wikipedia_lang = _resolve_lang(lang_code)
 
     lang_dir = _REPO_ROOT / "general" / dir_code
     if not lang_dir.is_dir():
@@ -81,7 +86,7 @@ tags:
 
 ## references
 
-This text incorporates [content](https://en.wikipedia.org/wiki/{wikipedia_name}) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+This text incorporates [content](https://{wikipedia_lang}.wikipedia.org/wiki/{wikipedia_name}) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 """
 
     # --- File paths ---

@@ -111,7 +111,7 @@ tags:
 
 ## references
 
-This text incorporates [content](https://en.wikipedia.org/wiki/Fourier_transform) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+This text incorporates [content](https://zh.wikipedia.org/wiki/Fourier_transform) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ```
 
 And `general/Fourier transform.md` → `zho/Fourier transform.md` (relative symlink).
@@ -120,9 +120,9 @@ Note the created file path — you will need it when re-invoking the skill after
 
 ### Step 2: Copy Wikipedia HTML to clipboard
 
-The agent constructs the Wikipedia URL from the article name (provided in Step 1) by replacing spaces with underscores and prefixing `https://en.wikipedia.org/wiki/`. Present it as a clickable Markdown link.
+The agent constructs the Wikipedia URL from the article name (provided in Step 1) by replacing spaces with underscores and using the language selected in Step 1 to determine the subdomain: `https://{<wikipedia_lang>}.wikipedia.org/wiki/{<article_name>}`. Wikipedia uses 2-letter ISO 639-1 codes for language subdomains (e.g., `en.wikipedia.org` for English, `zh.wikipedia.org` for Chinese, `de.wikipedia.org` for German). Present it as a clickable Markdown link.
 
-For example, if the article name is `Fourier transform`:
+For example, if the article name is `Fourier transform` and the language is English:
 
 → [`Fourier transform`](https://en.wikipedia.org/wiki/Fourier_transform)
 
@@ -134,7 +134,7 @@ Then instruct the user:
 
 ⏸️ __Stop here.__ This step requires human action. Open the link, select all content, and copy the HTML. Resume once the HTML is in the clipboard.
 
-When re-invoking the skill to continue, tell the agent the file path of th note being ingested (`general/<dir_code>/<name>.md`) and that Step 2 (copying HTML) is done.
+When re-invoking the skill to continue, tell the agent the file path of the note being ingested (`general/<dir_code>/<name>.md`) and that Step 2 (copying HTML) is done.
 
 ### Step 3: Ingest HTML
 
