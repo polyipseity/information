@@ -203,6 +203,8 @@ _PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)( *)$", DOTALL)
 _REF_CONTENT_REGEX: Pattern[str] = compile(r"\[([^]]*)\]")
 "Regex for collapsing consecutive newlines."
 _CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n+")
+"Regex for extracting text-align values from inline styles."
+_TEXT_ALIGN_REGEX: Pattern[str] = compile(r"text-align:\s*(left|center|right)")
 "Regex for collapsing consecutive empty blockquote lines."
 _COLLAPSE_EMPTY_BLOCKQUOTE_RE: Pattern[str] = compile(r"(?:^>\n){2,}", MULTILINE)
 "Regex for stripping leading whitespace on each line."
@@ -1035,7 +1037,22 @@ class WikiHtmlConverter:
             return " | ".join(cells)
 
         if tag_cells and all(child.name == "th" for child in tag_cells):
-            suffix += f"|{' - |' * total_colspan}\n"
+            # Build alignment markers based on each cell's text-align style.
+            alignments: list[str] = []
+            for child in tag_cells:
+                style = str(child.get("style", ""))
+                ta_match = _TEXT_ALIGN_REGEX.search(style)
+                if ta_match:
+                    ta = ta_match[1]
+                    if ta == "center":
+                        alignments.append(":-:")
+                    elif ta == "right":
+                        alignments.append(" -:")
+                    else:
+                        alignments.append(" - ")
+                else:
+                    alignments.append(" - ")
+            suffix += f"|{'|'.join(alignments)}|\n"
         else:
             for child in ele.children:
                 if isinstance(child, Tag) and child.name == "th":
