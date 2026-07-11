@@ -336,9 +336,17 @@ def _collect_link_titles(html: Tag) -> set[str]:
     return titles
 
 
-def _load_redirect_cache() -> dict[str, _RedirectInfo]:
-    """Load the redirect cache, respecting TTL."""
-    path = _REDIRECT_CACHE_PATH
+def _load_redirect_cache(
+    cache_path: PurePath | None = None,
+) -> dict[str, _RedirectInfo]:
+    """Load the redirect cache, respecting TTL.
+
+    Parameters
+    ----------
+    cache_path:
+        Path to the cache JSON file (default: ``_REDIRECT_CACHE_PATH``).
+    """
+    path = _REDIRECT_CACHE_PATH if cache_path is None else cache_path
     try:
         mtime = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
         if datetime.now(timezone.utc) - mtime > _CACHE_TTL:
@@ -358,14 +366,28 @@ def _load_redirect_cache() -> dict[str, _RedirectInfo]:
         return {}
 
 
-def _save_redirect_cache(cache: dict[str, _RedirectInfo]) -> None:
-    """Atomically save the redirect cache."""
+def _save_redirect_cache(
+    cache: dict[str, _RedirectInfo],
+    cache_path: PurePath | None = None,
+) -> None:
+    """Atomically save the redirect cache.
+
+    Parameters
+    ----------
+    cache:
+        Redirect info by page title.
+    cache_path:
+        Path to the cache JSON file (default: ``_REDIRECT_CACHE_PATH``).
+    """
     data = {k: {"to": v.to, "tofragment": v.tofragment} for k, v in cache.items()}
-    tmp = _REDIRECT_CACHE_PATH.with_suffix(".tmp")
+    resolved_path = (
+        _REDIRECT_CACHE_PATH if cache_path is None else PathlibPath(cache_path)
+    )
+    tmp = resolved_path.with_suffix(".tmp")
     try:
         with open(tmp, "w", encoding="UTF-8") as f:
             json_dump(data, f, ensure_ascii=False, indent=2)
-        os_replace(tmp, _REDIRECT_CACHE_PATH)
+        os_replace(tmp, resolved_path)
     except BaseException:
         with suppress(FileNotFoundError):
             PathlibPath(tmp).unlink()
@@ -406,10 +428,16 @@ async def _resolve_redirects(
     session: ClientSession,
     titles: set[str],
     cache: dict[str, _RedirectInfo],
+    cache_path: PurePath | None = None,
 ) -> dict[str, _RedirectInfo]:
     """Resolve redirects for uncached titles via batched API queries.
 
     Results are merged into *cache* and persisted to disk atomically.
+
+    Parameters
+    ----------
+    cache_path:
+        Path to persist the updated cache (default: ``_REDIRECT_CACHE_PATH``).
     """
     uncached = titles - cache.keys()
     if not uncached:
@@ -438,7 +466,8 @@ async def _resolve_redirects(
             if title not in redirected_from:
                 cache.setdefault(title, _RedirectInfo(to=title))
 
-    _save_redirect_cache(cache)
+    resolved_cache_path = _REDIRECT_CACHE_PATH if cache_path is None else cache_path
+    _save_redirect_cache(cache, cache_path=resolved_cache_path)
     return cache
 
 
@@ -459,6 +488,14 @@ class WikiHtmlConverter:
 
     Extend by registering handlers via :meth:`register` or directly
     modifying the ``_tag_handlers`` / ``_class_handlers`` class dicts.
+
+    Parameters
+    ----------
+    converted_wiki_dir:
+        Directory where converted Wikipedia Markdown notes are stored
+        (used for symlink creation on redirects).
+    converted_wiki_lang_dir:
+        Language-specific subdirectory for converted notes.
     """
 
     _tag_handlers: ClassVar[
@@ -471,6 +508,15 @@ class WikiHtmlConverter:
             str, Callable[["WikiHtmlConverter", Tag, frozenset], _HandlerConfig | None]
         ]
     ] = {}
+
+    def __init__(
+        self,
+        *,
+        converted_wiki_dir: PathlibPath = _CONVERTED_WIKI_DIRECTORY,
+        converted_wiki_lang_dir: PathlibPath = _CONVERTED_WIKI_LANGUAGE_DIRECTORY,
+    ) -> None:
+        self._converted_wiki_dir = converted_wiki_dir
+        self._converted_wiki_lang_dir = converted_wiki_lang_dir
 
     @classmethod
     def register(cls, *, tag_name: str | None = None, class_name: str | None = None):
@@ -1059,24 +1105,22 @@ class WikiHtmlConverter:
                 )
                 if from_filename != to_filename:
                     redirect_file = (
-                        _CONVERTED_WIKI_LANGUAGE_DIRECTORY / f"{from_filename}.md"
+                        self._converted_wiki_lang_dir / f"{from_filename}.md"
                     )
                     if not redirect_file.exists():
-                        with _with_cwd(_CONVERTED_WIKI_LANGUAGE_DIRECTORY):
+                        with _with_cwd(self._converted_wiki_lang_dir):
                             with suppress(FileExistsError):
                                 symlink(
                                     f"{to_filename}.md",
                                     redirect_file.relative_to(
-                                        _CONVERTED_WIKI_LANGUAGE_DIRECTORY
+                                        self._converted_wiki_lang_dir
                                     ),
                                     target_is_directory=False,
                                 )
-                        with _with_cwd(_CONVERTED_WIKI_DIRECTORY):
+                        with _with_cwd(self._converted_wiki_dir):
                             with suppress(FileExistsError):
                                 symlink(
-                                    redirect_file.relative_to(
-                                        _CONVERTED_WIKI_DIRECTORY
-                                    ),
+                                    redirect_file.relative_to(self._converted_wiki_dir),
                                     f"{from_filename}.md",
                                     target_is_directory=False,
                                 )
