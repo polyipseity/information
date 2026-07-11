@@ -3,12 +3,8 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import TYPE_CHECKING
 
 import pytest
-
-if TYPE_CHECKING:
-    from typing import Any
 
 from scripts import find_missing_flashcard_states as _mod
 
@@ -221,7 +217,7 @@ def _fake_path(
     is_dir: bool = False,
     is_symlink: bool = False,
     text: str = "",
-) -> Any:
+) -> object:
     """Return a stub Path-like object for _check_file testing."""
 
     class _FakePath:

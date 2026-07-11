@@ -5,12 +5,8 @@ from __future__ import annotations
 import os
 from argparse import ArgumentParser
 from pathlib import Path, PurePath
-from typing import TYPE_CHECKING
 
 import pytest
-
-if TYPE_CHECKING:
-    from typing import Any
 
 from scripts import publish as _mod
 
@@ -83,7 +79,7 @@ class TestExec:
     @pytest.mark.anyio
     async def test_success(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Should return (stdout, stderr) on subprocess success."""
-        async def mock_run_process(*args: Any, **kwargs: Any) -> MockProcessResult:
+        async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
             return MockProcessResult(stdout=b"out\n", stderr=b"", returncode=0)
 
         monkeypatch.setattr("scripts.publish.run_process", mock_run_process)
@@ -94,7 +90,7 @@ class TestExec:
     @pytest.mark.anyio
     async def test_failure(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Should raise ChildProcessError on non-zero return code."""
-        async def mock_run_process(*args: Any, **kwargs: Any) -> MockProcessResult:
+        async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
             return MockProcessResult(stdout=b"", stderr=b"fatal", returncode=1)
 
         monkeypatch.setattr("scripts.publish.run_process", mock_run_process)
@@ -104,9 +100,9 @@ class TestExec:
     @pytest.mark.anyio
     async def test_passes_input(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Should pass input bytes through to run_process."""
-        captured: dict[str, Any] = {}
+        captured: dict[str, object] = {}
 
-        async def mock_run_process(*args: Any, **kwargs: Any) -> MockProcessResult:
+        async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
             captured.update(kwargs)
             return MockProcessResult(stdout=b"", stderr=b"", returncode=0)
 
@@ -117,9 +113,9 @@ class TestExec:
     @pytest.mark.anyio
     async def test_empty_input_passes_none(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Should pass input=None when no input is given."""
-        captured: dict[str, Any] = {}
+        captured: dict[str, object] = {}
 
-        async def mock_run_process(*args: Any, **kwargs: Any) -> MockProcessResult:
+        async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
             captured.update(kwargs)
             return MockProcessResult(stdout=b"", stderr=b"", returncode=0)
 
@@ -246,7 +242,7 @@ class TestMain:
         ]
         exec_index = [0]
 
-        async def mock_exec(*a: Any, **kw: Any) -> tuple[str, str]:
+        async def mock_exec(*a: object, **kw: object) -> tuple[str, str]:
             idx = exec_index[0]
             exec_index[0] += 1
             if idx >= len(exec_results):
@@ -265,13 +261,13 @@ class TestMain:
         (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
 
         class FakeTemporaryDirectory:
-            def __init__(self, **kw: Any) -> None:
+            def __init__(self, **kw: object) -> None:
                 self.name = os.fspath(fake_tmp)
 
             def __enter__(self) -> str:
                 return self.name
 
-            def __exit__(self, *args: Any) -> None:
+            def __exit__(self, *args: object) -> None:
                 pass
 
         monkeypatch.setattr(
@@ -365,7 +361,7 @@ class TestMain:
         ]
         exec_index = [0]
 
-        async def mock_exec(*a: Any, **kw: Any) -> tuple[str, str]:
+        async def mock_exec(*a: object, **kw: object) -> tuple[str, str]:
             idx = exec_index[0]
             exec_index[0] += 1
             if idx >= len(exec_results):
@@ -383,13 +379,13 @@ class TestMain:
         (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
 
         class FakeTemporaryDirectory2:
-            def __init__(self, **kw: Any) -> None:
+            def __init__(self, **kw: object) -> None:
                 self.name = os.fspath(fake_tmp)
 
             def __enter__(self) -> str:
                 return self.name
 
-            def __exit__(self, *args: Any) -> None:
+            def __exit__(self, *args: object) -> None:
                 pass
 
         monkeypatch.setattr(

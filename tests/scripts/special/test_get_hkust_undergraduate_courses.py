@@ -138,7 +138,7 @@ class _FakeClientSession:
     ``ClientSession(...) as session`` in the source code.
     """
 
-    def __init__(self, get_fn: Callable[..., Any]) -> None:
+    def __init__(self, get_fn: Callable[..., object]) -> None:
         self.get = get_fn
 
     async def __aenter__(self) -> _FakeClientSession:
@@ -148,7 +148,7 @@ class _FakeClientSession:
         return None
 
 
-def _fake_session(get_fn: Callable[..., Any]) -> ClientSession:
+def _fake_session(get_fn: Callable[..., object]) -> ClientSession:
     """Build a fake aiohttp.ClientSession with a configurable .get method."""
     return _FakeClientSession(get_fn)  # type: ignore[return-value]
 
@@ -404,7 +404,7 @@ class TestOpenDest:
 def _fake_session_factory(
     subjects_html: str,
     courses_by_subject: Mapping[str, str],
-) -> Callable[..., Any]:
+) -> Callable[..., object]:
     """Return a fake session.get that returns appropriate HTML per URL.
 
     The returned function is synchronous — it returns a _FakeResponse
