@@ -120,14 +120,21 @@ Note the created file path — you will need it when re-invoking the skill after
 
 ### Step 2: Copy Wikipedia HTML to clipboard
 
-- Open Wikipedia article in browser
-- Select all content (Ctrl+A or Cmd+A)
-- Copy (Ctrl+C or Cmd+C)
-- Content is now in clipboard
+The agent constructs the Wikipedia URL from the article name (provided in Step 1) by replacing spaces with underscores and prefixing `https://en.wikipedia.org/wiki/`. Present it as a clickable Markdown link.
 
-⏸️ __Stop here.__ The agent cannot perform this step. A human must manually copy the article content from the Wikipedia page. Resume once the HTML is in the clipboard.
+For example, if the article name is `Fourier transform`:
 
-When re-invoking the skill to continue, tell the agent the file path of the note being ingested and that Step 2 (copying HTML) is done.
+→ [`Fourier transform`](https://en.wikipedia.org/wiki/Fourier_transform)
+
+Then instruct the user:
+
+1. Click the link above to open the article in your browser.
+2. Select all content (Ctrl+A on Windows/Linux, Cmd+A on macOS).
+3. Copy (Ctrl+C on Windows/Linux, Cmd+C on macOS).
+
+⏸️ __Stop here.__ This step requires human action. Open the link, select all content, and copy the HTML. Resume once the HTML is in the clipboard.
+
+When re-invoking the skill to continue, tell the agent the file path of th note being ingested (`general/<dir_code>/<name>.md`) and that Step 2 (copying HTML) is done.
 
 ### Step 3: Ingest HTML
 
