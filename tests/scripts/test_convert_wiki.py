@@ -4,8 +4,6 @@ These tests cover the pure functions and module-level constants that are
 testable without HTTP requests or clipboard access.
 """
 
-from __future__ import annotations
-
 import dataclasses
 import os
 from datetime import datetime, timedelta, timezone

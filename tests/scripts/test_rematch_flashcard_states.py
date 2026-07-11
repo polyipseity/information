@@ -1,7 +1,5 @@
 """Tests for scripts/rematch_flashcard_states.py."""
 
-from __future__ import annotations
-
 import pytest
 
 from scripts.rematch_flashcard_states import (

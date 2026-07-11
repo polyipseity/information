@@ -6,8 +6,6 @@ parse_properties, parse_comments), the async convert() function, and
 the main() entry point.
 """
 
-from __future__ import annotations
-
 from datetime import datetime, timezone
 from pathlib import Path
 

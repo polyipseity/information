@@ -8,8 +8,6 @@ Note: ProcessMarkdownFileResult and MetadataJSONEncoder are local to main() and
 cannot be imported at module level — they are tested indirectly via main().
 """
 
-from __future__ import annotations
-
 from collections.abc import Mapping, Set
 from dataclasses import FrozenInstanceError
 from pathlib import Path

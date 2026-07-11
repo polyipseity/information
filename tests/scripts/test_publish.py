@@ -1,7 +1,5 @@
 """Tests for scripts/publish.py."""
 
-from __future__ import annotations
-
 import os
 from argparse import ArgumentParser
 from pathlib import Path, PurePath

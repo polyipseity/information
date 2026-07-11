@@ -6,8 +6,6 @@ parse_properties), and the async convert() function.  Note that this
 module has no main() entry point.
 """
 
-from __future__ import annotations
-
 from datetime import datetime, timezone
 
 import pytest

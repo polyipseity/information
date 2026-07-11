@@ -1,7 +1,5 @@
 """Tests for scripts/new_wiki_page.py."""
 
-from __future__ import annotations
-
 from collections.abc import Iterator
 from pathlib import Path
 

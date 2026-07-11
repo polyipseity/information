@@ -5,8 +5,6 @@ fetch_subject_courses (HTML parsing from mock response), open_dest (file vs
 stdout), main() (mocked HTTP and I/O).
 """
 
-from __future__ import annotations
-
 from collections.abc import Callable, Mapping
 from dataclasses import FrozenInstanceError
 from io import StringIO
@@ -113,7 +111,7 @@ class _FakeResponse:
         """Return the preset HTML text."""
         return self._text
 
-    async def __aenter__(self) -> _FakeResponse:
+    async def __aenter__(self) -> "_FakeResponse":
         """Support async with."""
         return self
 
@@ -136,7 +134,7 @@ class _FakeClientSession:
     def __init__(self, get_fn: Callable[..., object]) -> None:
         self.get = get_fn
 
-    async def __aenter__(self) -> _FakeClientSession:
+    async def __aenter__(self) -> "_FakeClientSession":
         return self
 
     async def __aexit__(self, *args: object) -> None:
