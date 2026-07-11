@@ -487,6 +487,10 @@ class TestRedirectCache:
         loaded = _mod._load_redirect_cache()  # noqa: SLF001
         assert loaded == {}
 
+    def test_default_ttl_is_one_day(self) -> None:
+        """Default cache TTL should be exactly 1 day."""
+        assert _mod._CACHE_TTL == timedelta(days=1)  # noqa: SLF001
+
 
 class TestApiRequest:
     """Tests for _api_request function."""
@@ -747,6 +751,89 @@ class TestResolveRedirects:
 
         anyio.run(run, backend="asyncio")
 
+    def test_expired_cache_triggers_redirect_resolution(
+        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+    ) -> None:
+        """Should re-fetch via API and rewrite cache when cache is empty
+        (simulating TTL expiry)."""
+
+        monkeypatch.setattr(
+            _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
+        )
+        monkeypatch.setattr(_mod, "_CACHE_TTL", timedelta(days=1))
+
+        async def run() -> None:
+            # Pre-populate a stale cache file on disk.
+            stale_cache = {
+                "Page X": _mod._RedirectInfo(to="Page X"),  # noqa: SLF001
+                "Page Y": _mod._RedirectInfo(to="Page Y"),  # noqa: SLF001
+            }
+            _mod._save_redirect_cache(stale_cache)  # noqa: SLF001
+            cache_file: Path = tmp_path / "redirect_cache.json"
+            old_mtime = cache_file.stat().st_mtime
+
+            # Backdate the cache file past TTL.
+            old_time = (datetime.now(timezone.utc) - timedelta(days=2)).timestamp()
+            os.utime(cache_file, (old_time, old_time))
+
+            # Simulate TTL expiry: caller gets {} from _load_redirect_cache
+            # and passes {} to _resolve_redirects.
+            titles = {"Page X", "Page Z"}
+            api_call_count = 0
+
+            class MockResponse:
+                status = 200
+
+                def __init__(self, data: dict) -> None:
+                    self._data = data
+
+                @property
+                def headers(self) -> dict:
+                    return {}
+
+                async def json(self) -> dict:
+                    return self._data
+
+                async def __aenter__(self) -> "MockResponse":
+                    return self
+
+                async def __aexit__(self, *args: object) -> None:
+                    pass
+
+            class MockGet:
+                @staticmethod
+                def __call__(url: object) -> MockResponse:
+                    nonlocal api_call_count
+                    api_call_count += 1
+                    return MockResponse(
+                        {
+                            "query": {
+                                "redirects": [],
+                                "pages": [
+                                    {"pageid": i + 1, "ns": 0, "title": t}
+                                    for i, t in enumerate(sorted(titles))
+                                ],
+                            }
+                        }
+                    )
+
+            class MockSession:
+                get = MockGet()
+
+            result = await _mod._resolve_redirects(  # noqa: SLF001
+                MockSession(),  # type: ignore[arg-type]
+                titles,
+                {},
+            )
+            assert api_call_count >= 1
+            assert result["Page X"].to == "Page X"
+            assert result["Page Z"].to == "Page Z"
+            # Cache file should have been rewritten (mtime advanced).
+            new_mtime = cache_file.stat().st_mtime
+            assert new_mtime > old_mtime
+
+        anyio.run(run, backend="asyncio")
+
 
 class TestResolveRedirectsWithRealResponses:
     """Parsing-correctness tests using real Wikipedia API responses.
@@ -776,9 +863,7 @@ class TestResolveRedirectsWithRealResponses:
 
         # Build a mock session that returns each batch response in order.
         class MockResponse:
-            def __init__(
-                self, data: dict, status: int = 200
-            ) -> None:
+            def __init__(self, data: dict, status: int = 200) -> None:
                 self.status = status
                 self._data = data
 

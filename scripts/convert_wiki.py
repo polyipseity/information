@@ -351,6 +351,7 @@ def _load_redirect_cache(
     try:
         mtime = datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc)
         if datetime.now(timezone.utc) - mtime > _CACHE_TTL:
+            _logger.info("Redirect cache expired, re-fetching...")
             return {}
         with open(path, "r", encoding="UTF-8") as f:
             data = json_load(f)
