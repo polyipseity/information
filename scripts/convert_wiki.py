@@ -128,6 +128,13 @@ _MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}\xa0".translate(
 )
 "HTML comment used as a Markdown formatting separator."
 _MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
+"Constant mapping table column alignment specifiers to string justification methods."
+_JUSTIFY_MAP: dict[str, Callable[[str, int], str]] = {
+    "---": str.ljust,
+    ":--": str.ljust,
+    "--:": str.rjust,
+    ":-:": str.center,
+}
 
 # File paths
 "Script directory for resolving relative data files."
@@ -1541,13 +1548,6 @@ def _pad_table_block(lines: list[str]) -> list[str]:
     # Ensure every column is at least 3 characters wide (GFM minimum).
     col_widths = [max(w, 3) for w in col_widths]
 
-    justify_map = {
-        "---": str.ljust,
-        ":--": str.ljust,
-        "--:": str.rjust,
-        ":-:": str.center,
-    }
-
     result: list[str] = []
     for i, cells in enumerate(parsed):
         padded = list(cells)
@@ -1562,7 +1562,7 @@ def _pad_table_block(lines: list[str]) -> list[str]:
             result.append("| " + " | ".join(sep_cells) + " |")
         else:
             data_cells = [
-                justify_map[alignments[j]](padded[j], col_widths[j])
+                _JUSTIFY_MAP[alignments[j]](padded[j], col_widths[j])
                 for j in range(ncols)
             ]
             result.append("| " + " | ".join(data_cells) + " |")
