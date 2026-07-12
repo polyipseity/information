@@ -835,6 +835,10 @@ class WikiHtmlConverter:
         italic_str = "_" if italic else ""
         prefix = f"{bold_str}{italic_str}"
         suffix = f"{italic_str}{bold_str}"
+        # Sidebar title headers get <big> wrapping inside bold markers.
+        if "sidebar-title-with-pretitle" in classes:
+            prefix = f"{bold_str}<big>"
+            suffix = f"</big>{bold_str}"
 
         if (
             ele.previous_sibling
@@ -888,19 +892,33 @@ class WikiHtmlConverter:
         prefix, suffix = _tag_affixes("u")
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
+    def _handle_big(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        prefix, suffix = _tag_affixes("big")
+        return _HandlerConfig(prefix=prefix, suffix=suffix)
+
     @staticmethod
     def _in_table_cell(ele: Tag) -> bool:
         """Check if element is nested inside a <td> or <th>."""
         return any(isinstance(p, Tag) and p.name in {"td", "th"} for p in ele.parents)
 
+    @staticmethod
+    def _in_navbox(ele: Tag) -> bool:
+        """Check if element is inside a navbox table."""
+        return any(
+            isinstance(p, Tag) and "navbox" in p.get("class", []) for p in ele.parents
+        )
+
     def _handle_div(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
-        return _HandlerConfig(suffix="\n\n")
+        suffix = "\n\n" if self._in_table_cell(ele) else ""
+        return _HandlerConfig(suffix=suffix)
 
     def _handle_dd(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
-        return _HandlerConfig(suffix="\n\n")
+        suffix = "\n\n" if self._in_table_cell(ele) else ""
+        return _HandlerConfig(suffix=suffix)
 
     def _handle_dt(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
-        return _HandlerConfig(suffix="\n\n")
+        suffix = "\n\n" if self._in_table_cell(ele) else ""
+        return _HandlerConfig(suffix=suffix)
 
     def _handle_p(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         def process(strings: str) -> str:
@@ -1109,6 +1127,10 @@ class WikiHtmlConverter:
                 pass
             else:
                 tdh["colspan"] = "1"
+                navbox = any(
+                    isinstance(p, Tag) and "navbox" in p.get("class", [])
+                    for p in tdh.parents
+                )
                 for _ in range(1, col_span):
                     new_tdh = copy(tdh)
                     # Strip style from cloned cells so split cells
@@ -1116,7 +1138,12 @@ class WikiHtmlConverter:
                     if "style" in new_tdh.attrs:
                         del new_tdh.attrs["style"]
                     new_tdh.clear()
-                    tdh.insert_after(new_tdh)
+                    # Navbox tables use the first column for group labels,
+                    # so insert empty clone before the original content cell.
+                    if navbox:
+                        tdh.insert_before(new_tdh)
+                    else:
+                        tdh.insert_after(new_tdh)
         for tdh in tuple(ele.find_all(("th", "td"))):
             assert isinstance(tdh, Tag)
             row_span = str(tdh.get("rowspan", "1"))
@@ -1140,6 +1167,15 @@ class WikiHtmlConverter:
         prefix = "| "
         suffix = " |\n"
 
+        # Strip whitespace-only text nodes to prevent phantom empty cells
+        # from newlines/spaces between <td>/<th> tags.
+        for child in list(ele.children):
+            if isinstance(child, NavigableString) and not child.strip():
+                child.extract()
+
+        # Detect navbox context for column layout adjustments.
+        is_navbox = self._in_navbox(ele)
+
         # Count only actual th/td tags, not whitespace text nodes.
         tag_cells = [
             child
@@ -1151,17 +1187,33 @@ class WikiHtmlConverter:
         total_colspan = sum(int(c.get("colspan", 1)) for c in tag_cells)
 
         def filter_cells(strings: str) -> str:
-            cells = [s.strip() for s in strings.split(" | ") if s.strip()]
+            cells = [s.strip() for s in strings.split(" | ")]
+            if not is_navbox:
+                cells = [c for c in cells if c]
             # Pad with empty cells to match the total column count
             # (needed when a cell has colspan > 1).
             while len(cells) < total_colspan:
                 cells.append("")
-            return " | ".join(cells)
+            result = " | ".join(cells)
+            # Navbox rows may have an empty first cell (cloned from
+            # colspan-split). The row prefix "| " followed by the
+            # " | " joiner on an empty cell produces "|  |" (two
+            # spaces between pipes). Collapse the leading space from
+            # the joiner when the first cell is empty to get "| |".
+            if is_navbox and cells and not cells[0] and result.startswith(" |"):
+                result = "|" + result[2:]
+            return result
 
         if tag_cells and all(child.name == "th" for child in tag_cells):
+            # Check if table uses first-column headers (<th scope="row">).
+            table = ele.find_parent("table")
+            has_scope_row = (
+                table is not None and table.find("th", scope="row") is not None
+            )
+
             # Build alignment markers based on each cell's text-align style.
             alignments: list[str] = []
-            for child in tag_cells:
+            for i, child in enumerate(tag_cells):
                 style = str(child.get("style", ""))
                 ta_match = _TEXT_ALIGN_REGEX.search(style)
                 if ta_match:
@@ -1174,6 +1226,10 @@ class WikiHtmlConverter:
                         alignments.append(" - ")
                 else:
                     alignments.append(" - ")
+            # Override first column to right-aligned when the table uses
+            # first-column headers (detected by <th scope="row">).
+            if has_scope_row and alignments:
+                alignments[0] = " -:"
             suffix += f"|{'|'.join(alignments)}|\n"
         else:
             for child in ele.children:
@@ -1197,6 +1253,12 @@ class WikiHtmlConverter:
         return _HandlerConfig(process_strings=self._process_table_cell)
 
     def _handle_th(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        if "sidebar-title-with-pretitle" in classes:
+            return _HandlerConfig(
+                prefix="<big>",
+                suffix="</big>",
+                process_strings=self._process_table_cell,
+            )
         return _HandlerConfig(process_strings=self._process_table_cell)
 
     @staticmethod
@@ -1374,9 +1436,26 @@ class WikiHtmlConverter:
             def process(strings: str) -> str:
                 return " ".join(strings.split())
 
-            return _HandlerConfig(
-                prefix="[", suffix=f"]({href})", process_strings=process
-            )
+            # Wrap authority-control edit icon links in HTML comments.
+            # Detect by checking for parent <span typeof="mw:File/Frameless">
+            # inside the authority-control navbox.
+            if any(
+                isinstance(p, Tag) and p.get("typeof") == "mw:File/Frameless"
+                for p in ele.parents
+            ) and any(
+                isinstance(p, Tag) and "authority-control" in p.get("class", [])
+                for p in ele.parents
+            ):
+                config = _HandlerConfig(
+                    prefix="<!-- [",
+                    suffix=f"]({href}) -->",
+                    process_strings=process,
+                )
+            else:
+                config = _HandlerConfig(
+                    prefix="[", suffix=f"]({href})", process_strings=process
+                )
+            return config
 
         return None
 
