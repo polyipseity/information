@@ -1212,12 +1212,13 @@ class WikiHtmlConverter:
             while len(cells) < total_colspan:
                 cells.append("")
             result = " | ".join(cells)
-            # Navbox rows may have an empty first cell (cloned from
-            # colspan-split). The row prefix "| " followed by the
-            # " | " joiner on an empty cell produces "|  |" (two
-            # spaces between pipes). Collapse the leading space from
-            # the joiner when the first cell is empty to get "| |".
-            if is_navbox and cells and not cells[0] and result.startswith(" |"):
+            # Rows may have an empty first cell (e.g. from a
+            # colspan-split in navboxes). The row prefix "| " followed
+            # by the " | " joiner on an empty cell produces "|  |"
+            # (two spaces between pipes). Collapse the leading space
+            # from the joiner when the first cell is empty to get
+            # "| |".
+            if cells and not cells[0] and result.startswith(" |"):
                 result = "|" + result[2:]
             return result
 
