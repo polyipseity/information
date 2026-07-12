@@ -1003,9 +1003,12 @@ class WikiHtmlConverter:
                 isinstance(p, Tag) and p.name == "li" for p in ele.parents
             )
             if is_sub_list or "references" in classes:
-                prefix = (
-                    "" if "references" in classes else ("\n" if list_stack else "\n\n")
-                )
+                if "references" in classes:
+                    prefix = ""
+                elif list_stack:
+                    prefix = "\n"
+                else:
+                    prefix = "\n\n"
                 suffix = ""
             else:
                 prefix = ""
@@ -1016,7 +1019,12 @@ class WikiHtmlConverter:
                 list_stack=(*list_stack, 0),
             )
         else:
-            prefix = "" if "references" in classes else ("\n" if list_stack else "\n\n")
+            if "references" in classes:
+                prefix = ""
+            elif list_stack:
+                prefix = "\n"
+            else:
+                prefix = "\n\n"
             suffix = "\n\n"
             return _HandlerConfig(
                 prefix=prefix,
