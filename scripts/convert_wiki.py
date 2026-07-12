@@ -198,15 +198,19 @@ _ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic")
 "Regex for escaping special Markdown characters."
 _MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]")
 "Regex for splitting bold/italic strings with surrounding whitespace."
-_PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)( *)$", DOTALL)
+_PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)([\n ]*)$", DOTALL)
 "Regex for extracting reference content from citation brackets."
 _REF_CONTENT_REGEX: Pattern[str] = compile(r"\[([^]]*)\]")
 "Regex for collapsing consecutive newlines."
-_CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n+")
+_CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n{3,}")
 "Regex for extracting text-align values from inline styles."
 _TEXT_ALIGN_REGEX: Pattern[str] = compile(r"text-align:\s*(left|center|right)")
 "Regex for collapsing consecutive empty blockquote lines."
 _COLLAPSE_EMPTY_BLOCKQUOTE_RE: Pattern[str] = compile(r"(?:^>\n){2,}", MULTILINE)
+"Regex for merging sidebar pretitle+title header rows."
+_SIDEBAR_HEADER_MERGE_RE: Pattern[str] = compile(
+    r"^\| ([^|]+) \|\n\| ([^|]+) \|\n\| ([^|]+) \|\n"
+)
 "Regex for stripping leading whitespace on each line."
 _CONSECUTIVE_LEADING_WHITESPACES_REGEX: Pattern[str] = compile(r"^[ \t]+", MULTILINE)
 "Regex for handling table-in-table headers."
@@ -615,15 +619,25 @@ class WikiHtmlConverter:
             config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
 
         if {"sidebar-navbar", "navbar"} & classes:
-            original_process = process_strings
+            # Suppress comment wrapping for inner navbar/sidebar-navbar
+            # elements that are already nested inside an outer sidebar-navbar
+            # wrapper (prevents double-wrapping of VTE content).
+            parent = ele.parent
+            while parent is not None:
+                parent_classes = parent.get_attribute_list("class")
+                if "sidebar-navbar" in parent_classes or "navbar" in parent_classes:
+                    break
+                parent = parent.parent
+            if parent is None:
+                original_process = process_strings
 
-            def process_strings_comment(strings: str) -> str:
-                result = original_process(strings).strip()
-                return f"<!-- {result} -->" if result else result
+                def process_strings_comment(strings: str) -> str:
+                    result = original_process(strings).strip()
+                    return f"<!-- {result} --> " if result else result
 
-            process_strings = process_strings_comment
-            config.prefix = ""
-            config.suffix = ""
+                process_strings = process_strings_comment
+                config.prefix = ""
+                config.suffix = ""
 
         if (
             ele.name == "figure"
@@ -747,6 +761,8 @@ class WikiHtmlConverter:
 
         if ele.name == "ol":
             return self._handle_ol(ele, classes, list_stack)
+        if ele.name == "ul" and "portalbox" in classes:
+            return self._handle_portalbox(ele, classes)
         if ele.name == "ul":
             return self._handle_ul(ele, classes, list_stack)
         if ele.name == "li":
@@ -779,12 +795,30 @@ class WikiHtmlConverter:
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
     def _handle_selflink(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        # Resolve self-link anchor to a proper relative markdown link,
+        # extracting the page title from the href attribute.
+        href = str(ele.get("href", ""))
+        wiki_prefix = f"{_WIKI_HOST_URL}/wiki/"
+        if href.startswith(wiki_prefix):
+            title = unquote(href[len(wiki_prefix) :].split("#")[0]).replace("_", " ")
+        elif href.startswith("/wiki/"):
+            title = unquote(href[6:].split("#")[0]).replace("_", " ")
+        else:
+            return _HandlerConfig()
+        info = self._redirect_map.get(title, _RedirectInfo(to=title))
+        to = info.to
+        to_filename = _fix_name_maybe(to, replace_underscores=True)
+        target = _markdown_link_target(
+            to_filename,
+            _fix_name_maybe(info.tofragment, replace_underscores=True),
+        )
+
         def process(strings: str) -> str:
             return strings.strip().replace("\n", " <br/> ")
 
         return _HandlerConfig(
             prefix="[",
-            suffix=f"]({_WIKI_HOST_URL / 'wiki/Help:Self_link'})",
+            suffix=f"]({target})",
             process_strings=process,
         )
 
@@ -854,20 +888,32 @@ class WikiHtmlConverter:
         prefix, suffix = _tag_affixes("u")
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
+    @staticmethod
+    def _in_table_cell(ele: Tag) -> bool:
+        """Check if element is nested inside a <td> or <th>."""
+        return any(isinstance(p, Tag) and p.name in {"td", "th"} for p in ele.parents)
+
     def _handle_div(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        if self._in_table_cell(ele):
+            return _HandlerConfig()
         return _HandlerConfig(suffix="\n\n")
 
     def _handle_dd(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        if self._in_table_cell(ele):
+            return _HandlerConfig()
         return _HandlerConfig(suffix="\n\n")
 
     def _handle_dt(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+        if self._in_table_cell(ele):
+            return _HandlerConfig()
         return _HandlerConfig(suffix="\n\n")
 
     def _handle_p(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         def process(strings: str) -> str:
             return " ".join(strings.split())
 
-        return _HandlerConfig(suffix="\n\n", process_strings=process)
+        suffix = "" if self._in_table_cell(ele) else "\n\n"
+        return _HandlerConfig(suffix=suffix, process_strings=process)
 
     def _handle_code(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         def process(strings: str) -> str:
@@ -935,28 +981,87 @@ class WikiHtmlConverter:
     def _handle_ol(
         self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
     ) -> _HandlerConfig:
-        return _HandlerConfig(
-            prefix="" if "references" in classes else ("\n" if list_stack else "\n\n"),
-            suffix="\n\n",
-            list_stack=(*list_stack, 0),
-        )
+        if self._in_table_cell(ele):
+            is_sub_list = any(
+                isinstance(p, Tag) and p.name == "li" for p in ele.parents
+            )
+            if is_sub_list or "references" in classes:
+                prefix = (
+                    "" if "references" in classes else ("\n" if list_stack else "\n\n")
+                )
+                suffix = ""
+            else:
+                prefix = ""
+                suffix = ""
+            return _HandlerConfig(
+                prefix=prefix,
+                suffix=suffix,
+                list_stack=(*list_stack, 0),
+            )
+        else:
+            prefix = "" if "references" in classes else ("\n" if list_stack else "\n\n")
+            suffix = "\n\n"
+            return _HandlerConfig(
+                prefix=prefix,
+                suffix=suffix,
+                list_stack=(*list_stack, 0),
+            )
+
+    def _handle_portalbox(self, ele: Tag, classes: frozenset) -> _HandlerConfig | None:
+        if ele.name != "ul":
+            return None
+
+        # Portalbox items are inline (icon + portal caption on one
+        # line), so strip list prefixes and join with a single space.
+        def process(strings: str) -> str:
+            lines = [line.strip() for line in strings.split("\n")]
+            parts = [
+                line.removeprefix("- ").removeprefix("* ") for line in lines if line
+            ]
+            return " ".join(parts)
+
+        return _HandlerConfig(process_strings=process)
 
     def _handle_ul(
         self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
     ) -> _HandlerConfig:
-        return _HandlerConfig(
-            prefix="\n" if list_stack else "\n\n",
-            suffix="\n\n",
-            list_stack=(*list_stack, -1),
-        )
+        if self._in_table_cell(ele):
+            is_sub_list = any(
+                isinstance(p, Tag) and p.name == "li" for p in ele.parents
+            )
+            if is_sub_list:
+                prefix = "\n" if list_stack else "\n\n"
+                suffix = ""
+            else:
+                prefix = ""
+                suffix = ""
+            return _HandlerConfig(
+                prefix=prefix,
+                suffix=suffix,
+                list_stack=(*list_stack, -1),
+            )
+        else:
+            prefix = "\n" if list_stack else "\n\n"
+            suffix = "\n\n"
+            return _HandlerConfig(
+                prefix=prefix,
+                suffix=suffix,
+                list_stack=(*list_stack, -1),
+            )
 
     def _handle_li(
         self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
     ) -> _HandlerConfig:
         item = list_stack[-1] if list_stack else -1
+        # Suppress suffix in table cells when the <li> contains
+        # a sub-list, to prevent the sub-list's last item \n from
+        # combining with this <li>'s suffix to create \n\n.
+        if self._in_table_cell(ele) and ele.find(("ul", "ol")) is not None:
+            li_suffix = ""
+        else:
+            li_suffix = "\n"
         if item >= 1:
             prefix = f"{_LIST_INDENT * (len(list_stack) - 1)}{item}. "
-            suffix = "\n"
             if str(ele.get("id", "")).startswith("cite_"):
 
                 def process(strings: str, item: int = item) -> str:
@@ -967,13 +1072,13 @@ class WikiHtmlConverter:
                     return f'{strings[:idx]} <a id="^ref-{item}"></a>^ref-{item}{strings[idx:].rstrip()}'
 
                 return _HandlerConfig(
-                    prefix=prefix, suffix=suffix, process_strings=process
+                    prefix=prefix, suffix=li_suffix, process_strings=process
                 )
-            return _HandlerConfig(prefix=prefix, suffix=suffix)
+            return _HandlerConfig(prefix=prefix, suffix=li_suffix)
         else:
             return _HandlerConfig(
                 prefix=f"{_LIST_INDENT * (len(list_stack) - 1)}- ",
-                suffix="\n",
+                suffix=li_suffix,
             )
 
     def _handle_cite(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
@@ -985,6 +1090,14 @@ class WikiHtmlConverter:
 
     def _handle_tbody(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         self._normalize_table_cells(ele)
+        if isinstance(ele.parent, Tag) and "sidebar" in ele.parent.get("class", []):
+            return _HandlerConfig(
+                prefix="\n",
+                suffix="\n\n",
+                process_strings=lambda s: _SIDEBAR_HEADER_MERGE_RE.sub(
+                    r"| \1 <br/> \2 |\n|:-:|\n", s
+                ),
+            )
         return _HandlerConfig(prefix="\n", suffix="\n\n")
 
     def _handle_thead(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
@@ -1004,6 +1117,10 @@ class WikiHtmlConverter:
                 tdh["colspan"] = "1"
                 for _ in range(1, col_span):
                     new_tdh = copy(tdh)
+                    # Strip style from cloned cells so split cells
+                    # don't inherit alignment from the original.
+                    if "style" in new_tdh.attrs:
+                        del new_tdh.attrs["style"]
                     new_tdh.clear()
                     tdh.insert_after(new_tdh)
         for tdh in tuple(ele.find_all(("th", "td"))):
@@ -1040,7 +1157,7 @@ class WikiHtmlConverter:
         total_colspan = sum(int(c.get("colspan", 1)) for c in tag_cells)
 
         def filter_cells(strings: str) -> str:
-            cells = [s for s in strings.split(" | ") if s.strip()]
+            cells = [s.strip() for s in strings.split(" | ") if s.strip()]
             # Pad with empty cells to match the total column count
             # (needed when a cell has colspan > 1).
             while len(cells) < total_colspan:
@@ -1056,7 +1173,7 @@ class WikiHtmlConverter:
                 if ta_match:
                     ta = ta_match[1]
                     if ta == "center":
-                        alignments.append(":-:")
+                        alignments.append(" - ")
                     elif ta == "right":
                         alignments.append(" -:")
                     else:
@@ -1091,7 +1208,7 @@ class WikiHtmlConverter:
     @staticmethod
     def _process_table_cell(strings: str) -> str:
         strings = strings.strip()
-        strings = _CONSECUTIVE_NEWLINES_REGEX.sub("\n", strings)
+        strings = _CONSECUTIVE_NEWLINES_REGEX.sub("\n\n", strings)
         strings = _CONSECUTIVE_LEADING_WHITESPACES_REGEX.sub(
             lambda match: match[0].replace(" ", "&nbsp;").replace("\t", "&emsp;"),
             strings,
@@ -1110,6 +1227,7 @@ class WikiHtmlConverter:
         )
         strings = strings.replace("|", "&#124;")
         strings = strings.strip()
+        strings = strings.replace("\n\n", " <br/> <br/> ")
         strings = strings.replace("\n", " <br/> ")
         return strings
 
@@ -1128,7 +1246,15 @@ class WikiHtmlConverter:
                 embed = "!" if {"mw-tmh-player"} & classes else ""
                 return f"{embed}[{strings.strip()}]({src_url_str})"
 
-            return _HandlerConfig(suffix="\n\n", process_strings=process)
+            # Don't add paragraph break inside table cells where
+            # _process_table_cell would convert \n\n to <br/> <br/>
+            # instead of a space between inline elements.
+            cell = any(
+                isinstance(p, Tag) and p.name in {"td", "th"} for p in ele.parents
+            )
+            return _HandlerConfig(
+                suffix="" if cell else "\n\n", process_strings=process
+            )
         return _HandlerConfig()
 
     def _handle_image(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
@@ -1146,7 +1272,15 @@ class WikiHtmlConverter:
                 alt = str(ele.get("alt", "")).strip()
                 return f"{strings}![{_MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf'\{m[0]}', alt)}]({src_url_str})"
 
-            return _HandlerConfig(suffix="\n\n", process_strings=process)
+            # Don't add paragraph break inside table cells where
+            # _process_table_cell would convert \n\n to <br/> <br/>
+            # instead of a space between inline elements.
+            cell = any(
+                isinstance(p, Tag) and p.name in {"td", "th"} for p in ele.parents
+            )
+            return _HandlerConfig(
+                suffix="" if cell else "\n\n", process_strings=process
+            )
         return _HandlerConfig()
 
     def _handle_link(self, ele: Tag, classes: frozenset) -> _HandlerConfig | None:
