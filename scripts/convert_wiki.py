@@ -1303,29 +1303,29 @@ class WikiHtmlConverter:
         strings = strings.replace("\n", " <br/> ")
         return strings
 
+    def _process_archive_url(self, src: str) -> str:
+        """Resolve a media URL to a local archive path."""
+        src_url = _WIKI_HOST_URL.join(URL(str(src)))
+        src_url_str = str(src_url)
+        for regex, formats in _ARCHIVE_REGEXES.items():
+            if not (match := regex.search(src_url.human_repr())):
+                continue
+            to_archive = unquote(match[1])
+            self._out_to_archive.add(formats[0].format(to_archive))
+            src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
+        return src_url_str
+
     def _handle_audio(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         if src := ele.get("href"):
 
             def process(strings: str) -> str:
-                src_url = _WIKI_HOST_URL.join(URL(str(src)))
-                src_url_str = str(src_url)
-                for regex, formats in _ARCHIVE_REGEXES.items():
-                    if not (match := regex.search(src_url.human_repr())):
-                        continue
-                    to_archive = unquote(match[1])
-                    self._out_to_archive.add(formats[0].format(to_archive))
-                    src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
+                src_url_str = self._process_archive_url(src)
                 embed = "!" if {"mw-tmh-player"} & classes else ""
                 return f"{embed}[{strings.strip()}]({src_url_str})"
 
-            # Don't add paragraph break inside table cells where
-            # _process_table_cell would convert \n\n to <br/> <br/>
-            # instead of a space between inline elements.
-            cell = any(
-                isinstance(p, Tag) and p.name in {"td", "th"} for p in ele.parents
-            )
             return _HandlerConfig(
-                suffix="" if cell else "\n\n", process_strings=process
+                suffix="" if self._in_table_cell(ele) else "\n\n",
+                process_strings=process,
             )
         return _HandlerConfig()
 
@@ -1333,25 +1333,13 @@ class WikiHtmlConverter:
         if src := ele.get("src"):
 
             def process(strings: str) -> str:
-                src_url = _WIKI_HOST_URL.join(URL(str(src)))
-                src_url_str = str(src_url)
-                for regex, formats in _ARCHIVE_REGEXES.items():
-                    if not (match := regex.search(src_url.human_repr())):
-                        continue
-                    to_archive = unquote(match[1])
-                    self._out_to_archive.add(formats[0].format(to_archive))
-                    src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
+                src_url_str = self._process_archive_url(src)
                 alt = str(ele.get("alt", "")).strip()
                 return f"{strings}![{_MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf'\{m[0]}', alt)}]({src_url_str})"
 
-            # Don't add paragraph break inside table cells where
-            # _process_table_cell would convert \n\n to <br/> <br/>
-            # instead of a space between inline elements.
-            cell = any(
-                isinstance(p, Tag) and p.name in {"td", "th"} for p in ele.parents
-            )
             return _HandlerConfig(
-                suffix="" if cell else "\n\n", process_strings=process
+                suffix="" if self._in_table_cell(ele) else "\n\n",
+                process_strings=process,
             )
         return _HandlerConfig()
 
