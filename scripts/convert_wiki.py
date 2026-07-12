@@ -894,18 +894,12 @@ class WikiHtmlConverter:
         return any(isinstance(p, Tag) and p.name in {"td", "th"} for p in ele.parents)
 
     def _handle_div(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
-        if self._in_table_cell(ele):
-            return _HandlerConfig()
         return _HandlerConfig(suffix="\n\n")
 
     def _handle_dd(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
-        if self._in_table_cell(ele):
-            return _HandlerConfig()
         return _HandlerConfig(suffix="\n\n")
 
     def _handle_dt(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
-        if self._in_table_cell(ele):
-            return _HandlerConfig()
         return _HandlerConfig(suffix="\n\n")
 
     def _handle_p(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
