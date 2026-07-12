@@ -1089,7 +1089,7 @@ class WikiHtmlConverter:
                 prefix="\n",
                 suffix="\n\n",
                 process_strings=lambda s: _SIDEBAR_HEADER_MERGE_RE.sub(
-                    r"| \1 <br/> \2 |\n|:-:|\n", s
+                    r"| \1 <br/> \2 |\n| - |\n", s
                 ),
             )
         return _HandlerConfig(prefix="\n", suffix="\n\n")
