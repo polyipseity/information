@@ -908,17 +908,13 @@ class WikiHtmlConverter:
             isinstance(p, Tag) and "navbox" in p.get("class", []) for p in ele.parents
         )
 
-    def _handle_div(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_block_level(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         suffix = "\n\n" if self._in_table_cell(ele) else ""
         return _HandlerConfig(suffix=suffix)
 
-    def _handle_dd(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
-        suffix = "\n\n" if self._in_table_cell(ele) else ""
-        return _HandlerConfig(suffix=suffix)
-
-    def _handle_dt(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
-        suffix = "\n\n" if self._in_table_cell(ele) else ""
-        return _HandlerConfig(suffix=suffix)
+    _handle_div = _handle_block_level
+    _handle_dd = _handle_block_level
+    _handle_dt = _handle_block_level
 
     def _handle_p(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         def process(strings: str) -> str:
