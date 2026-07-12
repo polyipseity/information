@@ -616,7 +616,7 @@ class WikiHtmlConverter:
 
         if "hatnote" in classes:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
-            config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
+            config.suffix = f"{config.suffix.removeprefix('_')}\n"
 
         if {"sidebar-navbar", "navbar"} & classes:
             # Suppress comment wrapping for inner navbar/sidebar-navbar
@@ -924,8 +924,10 @@ class WikiHtmlConverter:
         def process(strings: str) -> str:
             return " ".join(strings.split())
 
-        suffix = "" if self._in_table_cell(ele) else "\n\n"
-        return _HandlerConfig(suffix=suffix, process_strings=process)
+        in_table = self._in_table_cell(ele)
+        prefix = "\n" if not in_table else ""
+        suffix = "" if in_table else "\n\n"
+        return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
     def _handle_code(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         def process(strings: str) -> str:
@@ -1077,6 +1079,7 @@ class WikiHtmlConverter:
             if str(ele.get("id", "")).startswith("cite_"):
 
                 def process(strings: str, item: int = item) -> str:
+                    strings = strings.lstrip("\t\n\r\x0b\x0c \xa0")
                     try:
                         idx = strings.index("\n")
                     except ValueError:
@@ -1107,7 +1110,7 @@ class WikiHtmlConverter:
                 prefix="\n",
                 suffix="\n\n",
                 process_strings=lambda s: _SIDEBAR_HEADER_MERGE_RE.sub(
-                    r"| \1 <br/> \2 |\n| - |\n", s
+                    r"| \1 <br/> \2 |\n| --- |\n", s
                 ),
             )
         return _HandlerConfig(prefix="\n", suffix="\n\n")
@@ -1144,6 +1147,17 @@ class WikiHtmlConverter:
                         tdh.insert_before(new_tdh)
                     else:
                         tdh.insert_after(new_tdh)
+                # Strip text-align from the original cell after navbox
+                # colspan splitting, since its alignment was for the
+                # colspan'd span and does not reflect column alignment.
+                if navbox and "style" in tdh.attrs:
+                    tdh["style"] = re.sub(
+                        r"\btext-align\s*:\s*[^;]+;?\s*",
+                        "",
+                        tdh["style"],
+                    ).strip()
+                    if not tdh["style"]:
+                        del tdh.attrs["style"]
         for tdh in tuple(ele.find_all(("th", "td"))):
             assert isinstance(tdh, Tag)
             row_span = str(tdh.get("rowspan", "1"))
@@ -1212,6 +1226,8 @@ class WikiHtmlConverter:
             )
 
             # Build alignment markers based on each cell's text-align style.
+            # GFM markers: --- (left/default), :-- (explicit left),
+            # :-: (center), --: (right). Minimum 3 characters including colons.
             alignments: list[str] = []
             for i, child in enumerate(tag_cells):
                 style = str(child.get("style", ""))
@@ -1219,18 +1235,18 @@ class WikiHtmlConverter:
                 if ta_match:
                     ta = ta_match[1]
                     if ta == "center":
-                        alignments.append(" - ")
+                        alignments.append(":-:")
                     elif ta == "right":
-                        alignments.append(" -:")
+                        alignments.append("--:")
                     else:
-                        alignments.append(" - ")
+                        alignments.append(":--")
                 else:
-                    alignments.append(" - ")
+                    alignments.append("---")
             # Override first column to right-aligned when the table uses
             # first-column headers (detected by <th scope="row">).
             if has_scope_row and alignments:
-                alignments[0] = " -:"
-            suffix += f"|{'|'.join(alignments)}|\n"
+                alignments[0] = "--:"
+            suffix += f"| {' | '.join(alignments)} |\n"
         else:
             for child in ele.children:
                 if isinstance(child, Tag) and child.name == "th":
@@ -1460,6 +1476,139 @@ class WikiHtmlConverter:
         return None
 
 
+_SEPARATOR_CELL_RE: Pattern[str] = compile(r":?-+:?")
+
+
+def _is_separator_cell(cell: str) -> bool:
+    """Check if a table cell is a GFM separator (e.g. ---, :--, --:, :-:)."""
+    return bool(_SEPARATOR_CELL_RE.fullmatch(cell)) and len(cell) >= 3
+
+
+def _get_separator_alignment(cell: str) -> str:
+    """Extract the GFM alignment marker from a separator cell."""
+    if cell.startswith(":") and cell.endswith(":"):
+        return ":-:"
+    if cell.endswith(":"):
+        return "--:"
+    if cell.startswith(":"):
+        return ":--"
+    return "---"
+
+
+def _format_separator_cell(width: int, alignment: str) -> str:
+    """Build a separator cell padded to the given column width."""
+    width = max(width, 3)
+    if alignment == "---":
+        return "-" * width
+    if alignment == ":--":
+        return ":" + "-" * (width - 1)
+    if alignment == "--:":
+        return "-" * (width - 1) + ":"
+    # :-:
+    return ":" + "-" * (width - 2) + ":"
+
+
+def _parse_table_row(line: str) -> list[str] | None:
+    """Parse a pipe-table row into cell contents.  Returns None if the line
+    is not a valid table row."""
+    line = line.rstrip("\n")
+    if not (line.startswith("|") and line.endswith("|")):
+        return None
+    inner = line[1:-1]  # strip outer pipes
+    return [p.strip() for p in inner.split(" | ")]
+
+
+def _pad_table_block(lines: list[str]) -> list[str]:
+    """Reformat a pipe-table block with columns padded to the widest cell per
+    column.  Expects at least 2 rows including one separator row."""
+    if len(lines) < 2:
+        return lines
+
+    parsed: list[list[str]] = []
+    sep_indices: list[int] = []
+    for i, line in enumerate(lines):
+        cells = _parse_table_row(line)
+        if cells is None:
+            return lines  # not a valid table — pass through unchanged
+        parsed.append(cells)
+        if len(cells) > 0 and all(_is_separator_cell(c) for c in cells):
+            sep_indices.append(i)
+
+    if not sep_indices:
+        return lines
+
+    ncols = max(len(cells) for cells in parsed)
+
+    # Get alignment per column from the first separator row.
+    alignments: list[str] = []
+    for j in range(ncols):
+        sep_row_idx = sep_indices[0]
+        sep_cell = parsed[sep_row_idx][j] if j < len(parsed[sep_row_idx]) else ""
+        alignments.append(_get_separator_alignment(sep_cell))
+
+    # Column width = max content width across all content rows (not separators).
+    col_widths = [0] * ncols
+    for i, cells in enumerate(parsed):
+        if i in sep_indices:
+            continue
+        for j in range(len(cells)):
+            col_widths[j] = max(col_widths[j], len(cells[j]))
+
+    # Ensure every column is at least 3 characters wide (GFM minimum).
+    col_widths = [max(w, 3) for w in col_widths]
+
+    justify_map = {
+        "---": str.ljust,
+        ":--": str.ljust,
+        "--:": str.rjust,
+        ":-:": str.center,
+    }
+
+    result: list[str] = []
+    for i, cells in enumerate(parsed):
+        padded = list(cells)
+        while len(padded) < ncols:
+            padded.append("")
+
+        if i in sep_indices:
+            sep_cells = [
+                _format_separator_cell(col_widths[j], alignments[j])
+                for j in range(ncols)
+            ]
+            result.append("| " + " | ".join(sep_cells) + " |")
+        else:
+            data_cells = [
+                justify_map[alignments[j]](padded[j], col_widths[j])
+                for j in range(ncols)
+            ]
+            result.append("| " + " | ".join(data_cells) + " |")
+
+    return result
+
+
+def _pad_table_blocks(text: str) -> str:
+    """Find all pipe-table blocks in *text* and pad columns to the widest
+    content per column."""
+    lines = text.split("\n")
+    result: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if line.startswith("|") and line.endswith("|"):
+            block: list[str] = [line]
+            i += 1
+            while (
+                i < len(lines) and lines[i].startswith("|") and lines[i].endswith("|")
+            ):
+                block.append(lines[i])
+                i += 1
+            result.extend(_pad_table_block(block))
+        else:
+            result.append(line)
+            i += 1
+    return "\n".join(result)
+
+
 async def wiki_html_to_plaintext(
     ele: PageElement,
     *,
@@ -1488,15 +1637,13 @@ async def wiki_html_to_plaintext(
         refs=refs,
         redirect_map=redirect_map,
     )
-    # Collapse excessive blank lines between headings and numbered list items,
-    # matching the expected file at commit c5e1d98ff where the references
-    # section has only 1 blank line after the heading (not 3).
-    result = re.sub(
-        r"(^## .+\n)\n{2,}(?=\d+\.\s+)",
-        r"\1\n",
-        result,
-        flags=re.MULTILINE,
-    )
+    # Replace non-breaking spaces with regular spaces (residues from
+    # citation spans, HTML &nbsp; in list items, etc.).
+    result = result.replace("\xa0", " ")
+    # Pad table columns to the widest content per column.
+    result = _pad_table_blocks(result)
+    # Collapse excessive blank lines.
+    result = re.sub(r"\n{3,}", r"\n\n", result)
     return result
 
 
