@@ -1745,6 +1745,126 @@ async def wiki_html_to_plaintext(
     return result
 
 
+async def run_pipeline(
+    html: Tag,
+    *,
+    session: ClientSession | None = None,
+    redirect_map: dict[str, _RedirectInfo] | None = None,
+    image_metadata: dict[str, str] | None = None,
+    cache_path: PurePath | None = None,
+    names_map: dict[str, str] | None = None,
+    wiki_dir: PathlibPath | None = None,
+    wiki_lang_dir: PathlibPath | None = None,
+    refs: bool = True,
+) -> tuple[str, set[str]]:
+    """Run the full conversion pipeline on parsed Wikipedia HTML.
+
+    Every external-data dependency can be overridden, making it possible
+    to test the full pipeline without HTTP requests or filesystem access.
+
+    Parameters
+    ----------
+    html:
+        Parsed HTML tree to convert.
+    session:
+        ``aiohttp.ClientSession`` to use for API calls. If not provided and
+        needed (when *redirect_map* or *image_metadata* is ``None``), one is
+        created automatically.
+    redirect_map:
+        Pre-resolved redirect map. If provided, skips all redirect
+        resolution and session creation.
+    image_metadata:
+        Pre-resolved image description metadata (``File:XXX`` → description).
+        If provided, skips the image-metadata API calls.
+    cache_path:
+        Alternative path for the redirect cache file.
+        Defaults to ``_REDIRECT_CACHE_PATH``.
+    names_map:
+        Alternative filename rename map. Passed to ``WikiHtmlConverter``.
+        ``None``, the module-level ``_NAMES_MAP`` is used.
+    wiki_dir:
+        Alternative wiki root directory.
+        Defaults to ``_CONVERTED_WIKI_DIRECTORY``.
+    wiki_lang_dir:
+        Alternative language subdirectory.
+        Defaults to ``_CONVERTED_WIKI_LANGUAGE_DIRECTORY``.
+    refs:
+        Whether to include reference citations in the output.
+
+    Returns
+    -------
+    tuple[str, set[str]]
+        ``(output_text, set_of_filenames_to_archive)``.
+    """
+    out_to_archive = set[str]()
+
+    def _make_converter() -> WikiHtmlConverter:
+        return WikiHtmlConverter(
+            converted_wiki_dir=wiki_dir or _CONVERTED_WIKI_DIRECTORY,
+            converted_wiki_lang_dir=wiki_lang_dir or _CONVERTED_WIKI_LANGUAGE_DIRECTORY,
+            image_metadata=image_metadata or {},
+            names_map=names_map,
+        )
+
+    # If all data is already provided, skip session/API entirely.
+    if redirect_map is not None and image_metadata is not None:
+        converter = _make_converter()
+        output = await wiki_html_to_plaintext(
+            html,
+            out_to_archive=out_to_archive,
+            redirect_map=redirect_map,
+            refs=refs,
+            converter=converter,
+        )
+        output = output.replace("\xa0", " ").replace("\u200a", "&hairsp;").strip()
+        return output, out_to_archive
+
+    # Need a session for API calls \u2014 create one if not provided.
+    if session is None:
+        async with ClientSession(
+            connector=TCPConnector(limit_per_host=_MAX_CONCURRENT_REQUESTS_PER_HOST),
+            headers={
+                "Accept-Encoding": "gzip",
+                "User-Agent": USER_AGENT,
+            },
+        ) as created_session:
+            return await run_pipeline(
+                html,
+                session=created_session,
+                redirect_map=redirect_map,
+                image_metadata=image_metadata,
+                cache_path=cache_path,
+                names_map=names_map,
+                wiki_dir=wiki_dir,
+                wiki_lang_dir=wiki_lang_dir,
+                refs=refs,
+            )
+
+    # Resolve redirects if needed.
+    if redirect_map is None:
+        titles = _collect_link_titles(html)
+        cache = _load_redirect_cache(cache_path=cache_path)
+        redirect_map = await _resolve_redirects(session, titles, cache, cache_path=cache_path)
+
+    # Resolve image metadata if needed.
+    if image_metadata is None:
+        image_metadata = await _resolve_image_metadata(
+            session, _collect_image_filenames(html)
+        )
+
+    # Convert.
+    converter = _make_converter()
+    output = await wiki_html_to_plaintext(
+        html,
+        out_to_archive=out_to_archive,
+        redirect_map=redirect_map,
+        refs=refs,
+        converter=converter,
+    )
+    output = output.replace("\xa0", " ").replace("\u200a", "&hairsp;").strip()
+    return output, out_to_archive
+
+
 async def main() -> None:
     parser = argparse.ArgumentParser(
         description="Convert Wikipedia HTML to Markdown. Reads from stdin by default."
@@ -1803,32 +1923,7 @@ async def main() -> None:
 
     html = BeautifulSoup(html_text, "html.parser")
 
-    out_to_archive = set[str]()
-    async with ClientSession(
-        connector=TCPConnector(limit_per_host=_MAX_CONCURRENT_REQUESTS_PER_HOST),
-        headers={
-            "Accept-Encoding": "gzip",
-            "User-Agent": USER_AGENT,
-        },
-    ) as session:
-        titles = _collect_link_titles(html)
-        cache = _load_redirect_cache()
-        redirect_map = await _resolve_redirects(session, titles, cache)
-        image_metadata = await _resolve_image_metadata(
-            session, _collect_image_filenames(html)
-        )
-        output = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=out_to_archive,
-            redirect_map=redirect_map,
-            refs=refs,
-            image_metadata=image_metadata,
-        )
-    output = (
-        output.replace("\xa0", " ")  # replace non-breaking spaces with spaces
-        .replace("\u200a", "&hairsp;")  # replace hair spaces with its HTML entity
-        .strip()
-    )
+    output, out_to_archive = await run_pipeline(html, refs=refs)
 
     if out_to_archive:
         _logger.info("Archiving %d media files", len(out_to_archive))
