@@ -261,15 +261,17 @@ def _fix_name_maybe(
     *,
     normalize: bool = True,
     replace_underscores: bool = False,
+    names_map: dict[str, str] | None = None,
 ) -> str:
     """Normalise and map a Wikipedia page name to the local filename stem."""
+    names_map = names_map or _NAMES_MAP
     if normalize:
         name = name.replace("\u00a0", " ")
-    if (ret := _NAMES_MAP.get(name)) is not None:
+    if (ret := names_map.get(name)) is not None:
         return ret
     if replace_underscores:
         name = name.replace("_", " ")
-    ret = _NAMES_MAP.get(
+    ret = names_map.get(
         name,
         (
             f"{name[:1].lower()}{name[1:]}"
@@ -636,10 +638,12 @@ class WikiHtmlConverter:
         converted_wiki_dir: PathlibPath = _CONVERTED_WIKI_DIRECTORY,
         converted_wiki_lang_dir: PathlibPath = _CONVERTED_WIKI_LANGUAGE_DIRECTORY,
         image_metadata: dict[str, str] | None = None,
+        names_map: dict[str, str] | None = None,
     ) -> None:
         self._converted_wiki_dir = converted_wiki_dir
         self._converted_wiki_lang_dir = converted_wiki_lang_dir
         self._image_metadata = image_metadata or {}
+        self._names_map = names_map or _NAMES_MAP
 
     async def convert(
         self,
@@ -860,7 +864,7 @@ class WikiHtmlConverter:
         suffix = "\n\n"
 
         def process(strings: str) -> str:
-            return _fix_name_maybe(strings.strip())
+            return _fix_name_maybe(strings.strip(), names_map=self._names_map)
 
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
@@ -877,10 +881,10 @@ class WikiHtmlConverter:
             return _HandlerConfig()
         info = self._redirect_map.get(title, _RedirectInfo(to=title))
         to = info.to
-        to_filename = _fix_name_maybe(to, replace_underscores=True)
+        to_filename = _fix_name_maybe(to, replace_underscores=True, names_map=self._names_map)
         target = _markdown_link_target(
             to_filename,
-            _fix_name_maybe(info.tofragment, replace_underscores=True),
+            _fix_name_maybe(info.tofragment, replace_underscores=True, names_map=self._names_map),
         )
 
         def process(strings: str) -> str:
@@ -1466,22 +1470,22 @@ class WikiHtmlConverter:
             elif "extiw" in classes:
                 lang_code, extiw_page = to.split(":", 1)
                 lang_code = str(convert(lang_code, to="ISO3")).casefold()
-                from_filename = _fix_name_maybe(extiw_page, replace_underscores=True)
+                from_filename = _fix_name_maybe(extiw_page, replace_underscores=True, names_map=self._names_map)
 
                 return _HandlerConfig(
                     prefix="[",
-                    suffix=f"](../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
+                    suffix=f"](../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True, names_map=self._names_map))})",
                     process_strings=_process_link_text,
                 )
             else:
                 from_filename, to_filename = (
-                    _fix_name_maybe(title, replace_underscores=True),
-                    _fix_name_maybe(to, replace_underscores=True),
+                    _fix_name_maybe(title, replace_underscores=True, names_map=self._names_map),
+                    _fix_name_maybe(to, replace_underscores=True, names_map=self._names_map),
                 )
 
                 config = _HandlerConfig(
                     prefix="[",
-                    suffix=f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
+                    suffix=f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True, names_map=self._names_map))})",
                     process_strings=_process_link_text,
                 )
                 from_filename, to_filename = (
@@ -1515,7 +1519,7 @@ class WikiHtmlConverter:
             if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
                 href = _markdown_fragment(
                     _fix_name_maybe(
-                        href[href.index("#") + 1 :], replace_underscores=True
+                        href[href.index("#") + 1 :], replace_underscores=True, names_map=self._names_map
                     )
                 )
 
