@@ -962,7 +962,11 @@ class WikiHtmlConverter:
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
     def _list_prefix_suffix(
-        self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...], *,
+        self,
+        ele: Tag,
+        classes: frozenset,
+        list_stack: tuple[int, ...],
+        *,
         references_override: bool = False,
     ) -> tuple[str, str]:
         if self._in_table_cell(ele):
@@ -997,7 +1001,9 @@ class WikiHtmlConverter:
             ele, classes, list_stack, references_override=True
         )
         return _HandlerConfig(
-            prefix=prefix, suffix=suffix, list_stack=(*list_stack, 0),
+            prefix=prefix,
+            suffix=suffix,
+            list_stack=(*list_stack, 0),
         )
 
     def _handle_portalbox(self, ele: Tag, classes: frozenset) -> _HandlerConfig | None:
@@ -1020,7 +1026,9 @@ class WikiHtmlConverter:
     ) -> _HandlerConfig:
         prefix, suffix = self._list_prefix_suffix(ele, classes, list_stack)
         return _HandlerConfig(
-            prefix=prefix, suffix=suffix, list_stack=(*list_stack, -1),
+            prefix=prefix,
+            suffix=suffix,
+            list_stack=(*list_stack, -1),
         )
 
     def _handle_li(
@@ -1317,7 +1325,8 @@ class WikiHtmlConverter:
             if not to_fragment:
                 to_fragment = info.tofragment
 
-            _process_link_text = lambda s: s.strip().replace("\n", " <br/> ")
+            def _process_link_text(s: str) -> str:
+                return s.strip().replace("\n", " <br/> ")
 
             if any(to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES):
                 pass
@@ -1329,7 +1338,6 @@ class WikiHtmlConverter:
                 ),
                 None,
             ):
-
                 return _HandlerConfig(
                     prefix="[",
                     suffix=f"]({url_format[0].format(f'{quote(url_format[1])}{to_fragment and "#"}{quote(to_fragment, safe="")}')})",
