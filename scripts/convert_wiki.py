@@ -116,6 +116,11 @@ _PRESERVED_PAGE_PREFIXES = {
     "wiktionary:": "https://en.wiktionary.org/wiki/{}",
 }
 
+"HTML child tag names for table cells."
+_TD_OR_TH = frozenset({"td", "th"})
+"HTML child tag names for bold/italic inline elements."
+_BOLD_OR_ITALIC = frozenset({"b", "em", "i", "strong"})
+
 # Markdown formatting constants
 "Indentation string for nested Markdown lists."
 _LIST_INDENT = "    "
@@ -706,7 +711,7 @@ class WikiHtmlConverter:
             return self._handle_selflink(ele, classes)
 
         if (
-            ele.name in {"b", "em", "i", "strong"}
+            ele.name in _BOLD_OR_ITALIC
             or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
             or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
         ):
@@ -836,7 +841,7 @@ class WikiHtmlConverter:
         config.process_strings = process
         # Apply table cell processing for <th>/<td> elements so that bold
         # headers/cells receive proper cell content processing.
-        if ele.name in {"td", "th"}:
+        if ele.name in _TD_OR_TH:
             original_process = config.process_strings
 
             def cell_process(strings: str) -> str:
@@ -868,7 +873,7 @@ class WikiHtmlConverter:
     @staticmethod
     def _in_table_cell(ele: Tag) -> bool:
         """Check if element is nested inside a <td> or <th>."""
-        return any(isinstance(p, Tag) and p.name in {"td", "th"} for p in ele.parents)
+        return any(isinstance(p, Tag) and p.name in _TD_OR_TH for p in ele.parents)
 
     @staticmethod
     def _in_navbox(ele: Tag) -> bool:
@@ -1076,7 +1081,7 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _normalize_table_cells(ele: Tag) -> None:
-        for tdh in tuple(ele.find_all(("td", "th"))):
+        for tdh in tuple(ele.find_all(_TD_OR_TH)):
             assert isinstance(tdh, Tag)
             col_span = str(tdh.get("colspan", "1"))
             try:
@@ -1149,7 +1154,7 @@ class WikiHtmlConverter:
         tag_cells = [
             child
             for child in ele.children
-            if isinstance(child, Tag) and child.name in {"td", "th"}
+            if isinstance(child, Tag) and child.name in _TD_OR_TH
         ]
 
         # Account for colspan when counting columns.
