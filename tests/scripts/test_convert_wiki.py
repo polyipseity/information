@@ -893,11 +893,10 @@ class TestResolveRedirectsWithRealResponses:
             _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
         )
 
-        # Load the raw API responses captured from the live Wikipedia API.
-        raw_path = _SNAPSHOT_DIR / "modern physics.api_response.json"
-        raw_batches: list[dict] = list(
-            json.loads(raw_path.read_text(encoding="UTF-8")).values()
-        )
+        # Load the raw API responses from the consolidated aux fixture.
+        aux_path = _SNAPSHOT_DIR / "modern physics.aux.json"
+        aux = json.loads(aux_path.read_text(encoding="UTF-8"))
+        raw_batches: list[dict] = aux["api_responses"]
 
         # Build a mock session that returns each batch response in order.
         class MockResponse:
@@ -946,9 +945,8 @@ class TestResolveRedirectsWithRealResponses:
             {},
         )
 
-        # Load the expected cache to compare.
-        cache_path = _SNAPSHOT_DIR / "modern physics.redirect_cache.json"
-        expected_raw = json.loads(cache_path.read_text(encoding="UTF-8"))
+        # Load the expected cache from the consolidated aux fixture.
+        expected_raw = aux["redirect_cache"]
 
         assert len(result) == len(expected_raw)
         for title, info in expected_raw.items():
@@ -1147,16 +1145,15 @@ class TestWikiHtmlToPlaintextSnapshot:
         isolated_lang = tmp_path / "general" / "eng"
         isolated_lang.mkdir(parents=True)
 
-        # Load image_metadata if available for this snapshot case.
-        meta_path = _SNAPSHOT_DIR / f"{name}.image_metadata.json"
-        image_metadata = None
-        if meta_path.exists():
-            image_metadata = json.loads(meta_path.read_text(encoding="UTF-8"))
+        # Load consolidated auxiliary data.
+        aux_path = _SNAPSHOT_DIR / f"{name}.aux.json"
+        aux = json.loads(aux_path.read_text(encoding="UTF-8"))
 
         isolated_converter = _mod.WikiHtmlConverter(
             converted_wiki_dir=tmp_path / "general",
             converted_wiki_lang_dir=isolated_lang,
-            image_metadata=image_metadata,
+            image_metadata=aux.get("image_metadata"),
+            names_map=aux.get("rename_map"),
         )
 
         input_path = _SNAPSHOT_DIR / f"{name}.input.html"
@@ -1169,12 +1166,10 @@ class TestWikiHtmlToPlaintextSnapshot:
         # Parse HTML
         html = BeautifulSoup(html_text, "html.parser")
 
-        # Load pre-computed redirect map instead of hitting the live API.
-        cache_path = _SNAPSHOT_DIR / f"{name}.redirect_cache.json"
-        raw_cache = json.loads(cache_path.read_text(encoding="UTF-8"))
+        # Load pre-computed redirect map from aux data instead of hitting the live API.
         redirect_map = {
             k: _mod._RedirectInfo(to=v["to"], tofragment=v.get("tofragment", ""))
-            for k, v in raw_cache.items()
+            for k, v in aux["redirect_cache"].items()
         }
 
         # Run the same pipeline as main()
