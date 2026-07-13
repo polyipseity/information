@@ -582,7 +582,26 @@ async def _resolve_image_metadata(
             extmetadata = imageinfo[0].get("extmetadata") or {}
             description_obj = extmetadata.get("ImageDescription") or {}
             if description_value := description_obj.get("value", ""):
-                result[title] = str(description_value).strip()
+                # Commons API returns HTML — convert through the converter
+                # pipeline to produce proper Markdown formatting.  Strip
+                # ``title`` attributes from ``<a>`` tags first so the
+                # converter treats them as external links (preserving the
+                # original ``href`` URL) rather than resolving them as
+                # internal Wikipedia interwiki links.
+                fragment = BeautifulSoup(
+                    f"<div>{description_value}</div>", "html.parser"
+                )
+                for a_tag in fragment.find_all("a"):
+                    if a_tag.has_attr("title"):
+                        del a_tag["title"]
+                desc_converter = WikiHtmlConverter()
+                converted = await desc_converter.convert(
+                    fragment.div,
+                    out_to_archive=set(),
+                    redirect_map={},
+                    refs=False,
+                )
+                result[title] = converted.strip()
 
     return result
 
@@ -1383,7 +1402,16 @@ class WikiHtmlConverter:
                 alt = str(ele.get("alt", "")).strip()
                 if not alt:
                     alt = self._fallback_alt(ele)
-                return f"{strings}![{_MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf'\{m[0]}', alt)}]({src_url_str})"
+                    # Level-2 (Commons description) is pre-converted
+                    # Markdown — do not escape again.
+                    filename = _get_image_filename(ele)
+                    if not (filename and f"File:{filename}" in self._image_metadata):
+                        # Level-3 (filename) is plain text — escape.
+                        alt = _MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
+                else:
+                    # Level-1 (HTML alt attribute) is plain text.
+                    alt = _MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
+                return f"{strings}![{alt}]({src_url_str})"
 
             return _HandlerConfig(
                 suffix="" if self._in_table_cell(ele) else "\n\n",
