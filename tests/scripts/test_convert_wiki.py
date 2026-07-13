@@ -878,7 +878,7 @@ class TestResolveRedirectsWithRealResponses:
     async def test_parses_modern_physics_api_response(
         self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
     ) -> None:
-        """Feed the real modern_physics API response through
+        """Feed the real modern physics API response through
         _resolve_redirects and verify the output matches the cache file."""
 
         monkeypatch.setattr(
@@ -886,7 +886,7 @@ class TestResolveRedirectsWithRealResponses:
         )
 
         # Load the raw API responses captured from the live Wikipedia API.
-        raw_path = _SNAPSHOT_DIR / "modern_physics.api_response.json"
+        raw_path = _SNAPSHOT_DIR / "modern physics.api_response.json"
         raw_batches: list[dict] = list(
             json.loads(raw_path.read_text(encoding="UTF-8")).values()
         )
@@ -928,7 +928,7 @@ class TestResolveRedirectsWithRealResponses:
             get = MockGet()
 
         # Collect titles the same way the snapshot test does.
-        html_path = _SNAPSHOT_DIR / "modern_physics.input.html"
+        html_path = _SNAPSHOT_DIR / "modern physics.input.html"
         html = BeautifulSoup(html_path.read_text(encoding="UTF-8"), "html.parser")
         titles = _mod._collect_link_titles(html)  # noqa: SLF001
 
@@ -939,7 +939,7 @@ class TestResolveRedirectsWithRealResponses:
         )
 
         # Load the expected cache to compare.
-        cache_path = _SNAPSHOT_DIR / "modern_physics.redirect_cache.json"
+        cache_path = _SNAPSHOT_DIR / "modern physics.redirect_cache.json"
         expected_raw = json.loads(cache_path.read_text(encoding="UTF-8"))
 
         assert len(result) == len(expected_raw)
