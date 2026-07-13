@@ -957,15 +957,16 @@ class WikiHtmlConverter:
 
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
-    def _handle_ol(
-        self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
-    ) -> _HandlerConfig:
+    def _list_prefix_suffix(
+        self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...], *,
+        references_override: bool = False,
+    ) -> tuple[str, str]:
         if self._in_table_cell(ele):
             is_sub_list = any(
                 isinstance(p, Tag) and p.name == "li" for p in ele.parents
             )
-            if is_sub_list or "references" in classes:
-                if "references" in classes:
+            if is_sub_list or (references_override and "references" in classes):
+                if references_override and "references" in classes:
                     prefix = ""
                 elif list_stack:
                     prefix = "\n"
@@ -975,24 +976,25 @@ class WikiHtmlConverter:
             else:
                 prefix = ""
                 suffix = ""
-            return _HandlerConfig(
-                prefix=prefix,
-                suffix=suffix,
-                list_stack=(*list_stack, 0),
-            )
         else:
-            if "references" in classes:
+            if references_override and "references" in classes:
                 prefix = ""
             elif list_stack:
                 prefix = "\n"
             else:
                 prefix = "\n\n"
             suffix = "\n\n"
-            return _HandlerConfig(
-                prefix=prefix,
-                suffix=suffix,
-                list_stack=(*list_stack, 0),
-            )
+        return prefix, suffix
+
+    def _handle_ol(
+        self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
+    ) -> _HandlerConfig:
+        prefix, suffix = self._list_prefix_suffix(
+            ele, classes, list_stack, references_override=True
+        )
+        return _HandlerConfig(
+            prefix=prefix, suffix=suffix, list_stack=(*list_stack, 0),
+        )
 
     def _handle_portalbox(self, ele: Tag, classes: frozenset) -> _HandlerConfig | None:
         if ele.name != "ul":
@@ -1012,29 +1014,10 @@ class WikiHtmlConverter:
     def _handle_ul(
         self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
     ) -> _HandlerConfig:
-        if self._in_table_cell(ele):
-            is_sub_list = any(
-                isinstance(p, Tag) and p.name == "li" for p in ele.parents
-            )
-            if is_sub_list:
-                prefix = "\n" if list_stack else "\n\n"
-                suffix = ""
-            else:
-                prefix = ""
-                suffix = ""
-            return _HandlerConfig(
-                prefix=prefix,
-                suffix=suffix,
-                list_stack=(*list_stack, -1),
-            )
-        else:
-            prefix = "\n" if list_stack else "\n\n"
-            suffix = "\n\n"
-            return _HandlerConfig(
-                prefix=prefix,
-                suffix=suffix,
-                list_stack=(*list_stack, -1),
-            )
+        prefix, suffix = self._list_prefix_suffix(ele, classes, list_stack)
+        return _HandlerConfig(
+            prefix=prefix, suffix=suffix, list_stack=(*list_stack, -1),
+        )
 
     def _handle_li(
         self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
