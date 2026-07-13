@@ -1146,9 +1146,17 @@ class TestWikiHtmlToPlaintextSnapshot:
         """
         isolated_lang = tmp_path / "general" / "eng"
         isolated_lang.mkdir(parents=True)
+
+        # Load image_metadata if available for this snapshot case.
+        meta_path = _SNAPSHOT_DIR / f"{name}.image_metadata.json"
+        image_metadata = None
+        if meta_path.exists():
+            image_metadata = json.loads(meta_path.read_text(encoding="UTF-8"))
+
         isolated_converter = _mod.WikiHtmlConverter(
             converted_wiki_dir=tmp_path / "general",
             converted_wiki_lang_dir=isolated_lang,
+            image_metadata=image_metadata,
         )
 
         input_path = _SNAPSHOT_DIR / f"{name}.input.html"
@@ -1183,51 +1191,6 @@ class TestWikiHtmlToPlaintextSnapshot:
         output = output.replace("\xa0", " ").replace("\u200a", "&hairsp;").strip()
 
         assert output == expected
-
-    @pytest.mark.anyio
-    async def test_snapshot_with_metadata(self, tmp_path: Path) -> None:
-        """Verify conversion output when Commons image metadata is provided.
-
-        Same input as ``test_snapshot``, but also passes pre-recorded
-        ``ImageDescription`` metadata so the level-2 fallback (Commons
-        description) is exercised instead of the level-3 (filename) fallback.
-        """
-        isolated_lang = tmp_path / "general" / "eng"
-        isolated_lang.mkdir(parents=True)
-
-        html = BeautifulSoup(
-            (_SNAPSHOT_DIR / "modern physics.input.html").read_text(encoding="UTF-8"),
-            "html.parser",
-        )
-
-        cache_path = _SNAPSHOT_DIR / "modern physics.redirect_cache.json"
-        raw_cache = json.loads(cache_path.read_text(encoding="UTF-8"))
-        redirect_map = {
-            k: _mod._RedirectInfo(to=v["to"], tofragment=v.get("tofragment", ""))
-            for k, v in raw_cache.items()
-        }
-
-        meta_path = _SNAPSHOT_DIR / "modern physics.image_metadata.json"
-        image_metadata = json.loads(meta_path.read_text(encoding="UTF-8"))
-
-        converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=tmp_path / "general",
-            converted_wiki_lang_dir=isolated_lang,
-            image_metadata=image_metadata,
-        )
-
-        out_to_archive: set[str] = set()
-        output = await _mod.wiki_html_to_plaintext(
-            html,
-            out_to_archive=out_to_archive,
-            redirect_map=redirect_map,
-            refs=True,
-            converter=converter,
-        )
-        output = output.replace("\xa0", " ").replace("\u200a", "&hairsp;").strip()
-
-        expected_path = _SNAPSHOT_DIR / "modern physics.with_metadata.expected.md"
-        assert output == expected_path.read_text(encoding="UTF-8").strip()
 
 
 class TestImageAltTextFallback:
