@@ -909,12 +909,11 @@ class WikiHtmlConverter:
         prefix = suffix = ""
         if alt_text := ele.get("alttext"):
             alt_text = str(alt_text).strip()
-            orig_len = len(alt_text)
-            alt_text = alt_text.removeprefix(R"{\displaystyle").lstrip()
-            if len(alt_text) == orig_len:
-                alt_text = alt_text.removeprefix(R"{\textstyle").lstrip()
-            if len(alt_text) < orig_len:
-                alt_text = alt_text.removesuffix(R"}")
+            for _prefix in (R"{\displaystyle", R"{\textstyle"):
+                if alt_text.startswith(_prefix):
+                    alt_text = alt_text.removeprefix(_prefix).lstrip()
+                    alt_text = alt_text.removesuffix(R"}")
+                    break
             if alt_text.endswith(R"\ "):
                 alt_text += "{}"
             else:
