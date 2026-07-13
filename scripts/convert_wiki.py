@@ -36,12 +36,8 @@ from bs4 import BeautifulSoup, Tag
 from bs4.element import NavigableString, PageElement, PreformattedString
 from country_converter import convert
 from jaraco.clipboard import paste_html
-from pyarchivist.Wikimedia_Commons.main import (
-    Args as pyarchivist_Wikimedia_Commons_Args,
-)
-from pyarchivist.Wikimedia_Commons.main import (
-    main as pyarchivist_Wikimedia_Commons_main,
-)
+from pyarchivist import ArchiveResult, Args
+from pyarchivist.Wikimedia_Commons import archive as pyarchivist_archive
 from pyperclip import copy as clip_copy
 from yarl import URL
 
@@ -1672,18 +1668,39 @@ async def main() -> None:
     )
 
     if out_to_archive:
-        try:
-            _logger.info("Archiving %d media files", len(out_to_archive))
-            await pyarchivist_Wikimedia_Commons_main(
-                pyarchivist_Wikimedia_Commons_Args(
-                    inputs=tuple(out_to_archive),
-                    dest=Path("../archives/Wikimedia Commons/"),
-                    index=Path("../archives/Wikimedia Commons/index.md"),
-                    ignore_individual_errors=True,
-                )
+        _logger.info("Archiving %d media files", len(out_to_archive))
+        downloaded_so_far = 0
+
+        def _on_progress(current: int, total: int) -> None:
+            nonlocal downloaded_so_far
+            if current - downloaded_so_far >= 5:
+                _logger.info("Archiving progress: %d/%d", current, total)
+                downloaded_so_far = current
+
+        result: ArchiveResult = await pyarchivist_archive(
+            Args(
+                inputs=tuple(out_to_archive),
+                dest=Path("../archives/Wikimedia Commons/"),
+                index=Path("../archives/Wikimedia Commons/index.md"),
+                ignore_individual_errors=True,
+                skip_existing=True,
+                request_timeout=30.0,
+                progress_callback=_on_progress,
             )
-        except SystemExit:
-            pass
+        )
+        if result.errors:
+            for err in result.errors:
+                _logger.warning(
+                    "Archive error [%s] %s: %s",
+                    err.phase,
+                    err.title,
+                    err.message,
+                )
+        _logger.info(
+            "Archiving done: %d downloaded, %d skipped",
+            result.downloaded,
+            result.skipped,
+        )
 
     match args.output_mode:
         case "clipboard":

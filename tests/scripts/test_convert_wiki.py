@@ -228,6 +228,14 @@ class TestConstants:
         assert "/" not in _mod._MARKDOWN_SEPARATOR_CHARACTERS  # noqa: SLF001
         assert "_" not in _mod._MARKDOWN_SEPARATOR_CHARACTERS  # noqa: SLF001
 
+    def test_pyarchivist_args_import(self) -> None:
+        """pyarchivist Args should be importable from the module."""
+        assert hasattr(_mod, "Args")
+
+    def test_pyarchivist_archive_import(self) -> None:
+        """pyarchivist archive function should be importable from the module."""
+        assert hasattr(_mod, "pyarchivist_archive")
+
 
 class TestWithCwd:
     """Tests for the _with_cwd context manager."""

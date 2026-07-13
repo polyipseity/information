@@ -14,6 +14,10 @@ resolution-markers = [
 exclude-newer = "0001-01-01T00:00:00Z" # This has no effect and is included for backwards compatibility when using relative exclude-newer values.
 exclude-newer-span = "P5D"
 
+[options.exclude-newer-package]
+pyarchivist = false
+pytextgen = false
+
 [manifest]
 members = [
     "hkust-comp-2211-4d8fbebf-9d5a-4915-bcd3-56445eaea66e",
@@ -717,15 +721,6 @@ requires-dist = [
 ]
 
 [[package]]
-name = "html2text"
-version = "2025.4.15"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f8/27/e158d86ba1e82967cc2f790b0cb02030d4a8bef58e0c79a8590e9678107f/html2text-2025.4.15.tar.gz", hash = "sha256:948a645f8f0bc3abe7fd587019a2197a12436cd73d0d4908af95bfc8da337588", size = 64316, upload-time = "2025-04-15T04:02:30.045Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/1d/84/1a0f9555fd5f2b1c924ff932d99b40a0f8a6b12f6dd625e2a47f415b00ea/html2text-2025.4.15-py3-none-any.whl", hash = "sha256:00569167ffdab3d7767a4cdf589b7f57e777a5ed28d12907d8c58769ec734acc", size = 34656, upload-time = "2025-04-15T04:02:28.44Z" },
-]
-
-[[package]]
 name = "hypothesis"
 version = "6.155.7"
 source = { registry = "https://pypi.org/simple" }
@@ -831,7 +826,7 @@ requires-dist = [
     { name = "opencv-python", marker = "extra == 'scripts'", specifier = ">=4.13.0" },
     { name = "pandas", marker = "extra == 'scripts'", specifier = ">=3.0.3" },
     { name = "pillow", marker = "extra == 'scripts'", specifier = ">=10.3.0" },
-    { name = "pyarchivist", specifier = ">=3.0.0" },
+    { name = "pyarchivist", specifier = ">=4.0.0" },
     { name = "pycountry", specifier = ">=24.6.1" },
     { name = "pydantic", specifier = ">=2.13.4" },
     { name = "pydantic-yaml", specifier = ">=1.7.0" },
@@ -1773,21 +1768,18 @@ wheels = [
 
 [[package]]
 name = "pyarchivist"
-version = "3.1.0"
+version = "4.0.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
     { name = "anyio" },
     { name = "asyncer" },
-    { name = "html2text" },
     { name = "pydantic" },
-    { name = "uvloop", marker = "sys_platform != 'win32'" },
-    { name = "winloop", marker = "sys_platform == 'win32'" },
     { name = "yarl" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/cd/bd/b1abc048a8d4a47856183b34442c69a9c3a5b3708e3ff4a3cf5fb2840237/pyarchivist-3.1.0.tar.gz", hash = "sha256:1d28c27bc9a43873b38cdc276e12d75d806f60cc40dd47829028f5134e3b6157", size = 34077, upload-time = "2026-03-24T05:14:27.499Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/2e/58/98d02756bfe1eadaf0f9191e220ea0fc1b4ea7e0a35ed99a9fcc0361c1a2/pyarchivist-4.0.0.tar.gz", hash = "sha256:616ae5f1c3f3938808f7c2b6aea8d6265e7a76a3fd70ac27182994210acf2344", size = 35464, upload-time = "2026-07-13T07:50:43.664Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8f/e8/f5a425a8f5f3797f6e8530be4592b4017436d48f31d62ef5bcf199da413a/pyarchivist-3.1.0-py3-none-any.whl", hash = "sha256:f7aab128dcedec5f53026bb8a981b01eab532002ad992452193a6582323ce8da", size = 25554, upload-time = "2026-03-24T05:14:26.154Z" },
+    { url = "https://files.pythonhosted.org/packages/26/9d/0ca9432afae9d3751ad0a6a24fdb87a71e7b7188238e3fa0f69344bdc099/pyarchivist-4.0.0-py3-none-any.whl", hash = "sha256:092058e15c86665c92139d362024fdbc00404a4bb0dc11a40bcbc8229b1fbd32", size = 27683, upload-time = "2026-07-13T07:50:42.355Z" },
 ]
 
 [[package]]
