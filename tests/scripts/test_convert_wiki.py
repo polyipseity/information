@@ -1137,12 +1137,12 @@ class TestWikiHtmlToPlaintextSnapshot:
         _discover_snapshot_cases(),
     )
     async def test_snapshot(
-        self, name: str, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+        self, name: str, tmp_path: Path
     ) -> None:
         """Verify that converting *name*.input.html matches *name*.expected.md.
 
-        Uses an isolated converter with ``tmp_path``-based directories to avoid
-        polluting the real ``general/`` tree with symlinks or cache files.
+        Uses ``run_pipeline`` with overridden data to avoid HTTP requests,
+        filesystem access, and manual post-processing.
         """
         isolated_lang = tmp_path / "general" / "eng"
         isolated_lang.mkdir(parents=True)
@@ -1150,13 +1150,6 @@ class TestWikiHtmlToPlaintextSnapshot:
         # Load consolidated auxiliary data.
         aux_path = _SNAPSHOT_DIR / f"{name}.aux.json"
         aux = json.loads(aux_path.read_text(encoding="UTF-8"))
-
-        isolated_converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=tmp_path / "general",
-            converted_wiki_lang_dir=isolated_lang,
-            image_metadata=aux.get("image_metadata"),
-            names_map=aux.get("rename_map"),
-        )
 
         input_path = _SNAPSHOT_DIR / f"{name}.input.html"
         expected_path = _SNAPSHOT_DIR / f"{name}.expected.md"
@@ -1168,24 +1161,22 @@ class TestWikiHtmlToPlaintextSnapshot:
         # Parse HTML
         html = BeautifulSoup(html_text, "html.parser")
 
-        # Load pre-computed redirect map from aux data instead of hitting the live API.
+        # Load pre-computed data from aux instead of hitting the live API.
         redirect_map = {
             k: _mod._RedirectInfo(to=v["to"], tofragment=v.get("tofragment", ""))
             for k, v in aux["redirect_cache"].items()
         }
 
-        # Run the same pipeline as main()
-        out_to_archive: set[str] = set()
-        output = await _mod.wiki_html_to_plaintext(
+        # run_pipeline handles all post-processing (nbsp→space, hair→&hairsp;, strip).
+        output, _ = await _mod.run_pipeline(
             html,
-            out_to_archive=out_to_archive,
             redirect_map=redirect_map,
+            image_metadata=aux.get("image_metadata"),
+            names_map=aux.get("rename_map"),
+            wiki_dir=tmp_path / "general",
+            wiki_lang_dir=isolated_lang,
             refs=True,
-            converter=isolated_converter,
         )
-
-        # Post-process (same as main())
-        output = output.replace("\xa0", " ").replace("\u200a", "&hairsp;").strip()
 
         assert output == expected
 
