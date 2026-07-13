@@ -1313,6 +1313,8 @@ class WikiHtmlConverter:
             if not to_fragment:
                 to_fragment = info.tofragment
 
+            _process_link_text = lambda s: s.strip().replace("\n", " <br/> ")
+
             if any(to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES):
                 pass
             elif url_format := next(
@@ -1324,26 +1326,20 @@ class WikiHtmlConverter:
                 None,
             ):
 
-                def process(strings: str) -> str:
-                    return strings.strip().replace("\n", " <br/> ")
-
                 return _HandlerConfig(
                     prefix="[",
                     suffix=f"]({url_format[0].format(f'{quote(url_format[1])}{to_fragment and "#"}{quote(to_fragment, safe="")}')})",
-                    process_strings=process,
+                    process_strings=_process_link_text,
                 )
             elif "extiw" in classes:
                 lang_code, extiw_page = to.split(":", 1)
                 lang_code = str(convert(lang_code, to="ISO3")).casefold()
                 from_filename = _fix_name_maybe(extiw_page, replace_underscores=True)
 
-                def process(strings: str) -> str:
-                    return strings.strip().replace("\n", " <br/> ")
-
                 return _HandlerConfig(
                     prefix="[",
                     suffix=f"](../{lang_code}/{_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
-                    process_strings=process,
+                    process_strings=_process_link_text,
                 )
             else:
                 from_filename, to_filename = (
@@ -1351,13 +1347,10 @@ class WikiHtmlConverter:
                     _fix_name_maybe(to, replace_underscores=True),
                 )
 
-                def process(strings: str) -> str:
-                    return strings.strip().replace("\n", " <br/> ")
-
                 config = _HandlerConfig(
                     prefix="[",
                     suffix=f"]({_markdown_link_target(from_filename, _fix_name_maybe(to_fragment, replace_underscores=True))})",
-                    process_strings=process,
+                    process_strings=_process_link_text,
                 )
                 from_filename, to_filename = (
                     _fix_filename(from_filename),
