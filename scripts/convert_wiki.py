@@ -75,6 +75,8 @@ USER_AGENT = f"{NAME}/{VERSION} ({AUTHORS[0]['email']}) Python/{version}"
 # Wikipedia configuration
 "Base URL for the English Wikipedia wiki host."
 _WIKI_HOST_URL = URL.build(scheme="https", host="en.wikipedia.org")
+"Base URL for Wikimedia Commons API."
+_COMMONS_HOST_URL = URL.build(scheme="https", host="commons.wikimedia.org")
 "Maximum concurrent HTTP requests per host."
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 "Set of page titles to ignore when converting links."
@@ -301,6 +303,39 @@ def _tag_affixes(name: str) -> tuple[str, str]:
     return f"<{name}>", f"</{name}>"
 
 
+def _get_image_filename(ele: Tag) -> str | None:
+    """Extract the original uploaded filename from an ``<img>`` element.
+
+    Returns the filename without ``File:`` prefix (e.g. ``Modernphysicsfields.svg``)
+    or ``None`` if it cannot be determined from either ``resource`` or ``src``.
+    """
+    if resource := ele.get("resource"):
+        src_url = _WIKI_HOST_URL.join(URL(str(resource)))
+        src_url_str = src_url.human_repr()
+        for regex in _ARCHIVE_REGEXES:
+            if match := regex.search(src_url_str):
+                return unquote(match[1]).replace("_", " ")
+    if src := ele.get("src"):
+        src_url = _WIKI_HOST_URL.join(URL(str(src)))
+        src_url_str = src_url.human_repr()
+        for regex in _ARCHIVE_REGEXES:
+            if match := regex.search(src_url_str):
+                return unquote(match[1]).replace("_", " ")
+    return None
+
+
+def _collect_image_filenames(html: Tag) -> set[str]:
+    """Collect all image file titles from ``<img>`` elements in the HTML tree.
+
+    Returns a set of ``File:XXX`` titles (e.g. ``File:Modernphysicsfields.svg``).
+    """
+    filenames = set[str]()
+    for img in html.find_all("img"):
+        if filename := _get_image_filename(img):
+            filenames.add(f"File:{filename}")
+    return filenames
+
+
 @dataclass(frozen=True)
 class _RedirectInfo:
     """Resolved redirect information for a Wikipedia page title."""
@@ -432,11 +467,12 @@ def _save_redirect_cache(
 async def _api_request(
     session: ClientSession,
     params: dict[str, str | int],
+    host: URL = _WIKI_HOST_URL,
 ) -> _ApiResponse:
-    """Make a Wikipedia API request with retry on HTTP 429."""
+    """Make a MediaWiki API request with retry on HTTP 429."""
     url = URL.build(
-        scheme=_WIKI_HOST_URL.scheme,
-        host=str(_WIKI_HOST_URL.host),
+        scheme=host.scheme,
+        host=str(host.host),
         path="/w/api.php",
         query=params,
     )
@@ -508,6 +544,49 @@ async def _resolve_redirects(
     return cache
 
 
+async def _resolve_image_metadata(
+    session: ClientSession,
+    filenames: set[str],
+) -> dict[str, str]:
+    """Fetch image description metadata from Wikimedia Commons API.
+
+    Returns a mapping of ``File:XXX`` titles to their ``ImageDescription``
+    text.  Files without descriptions or with API errors are omitted.
+    """
+    if not filenames:
+        return {}
+
+    result: dict[str, str] = {}
+    titles_list = list(filenames)
+
+    for i in range(0, len(titles_list), _API_MAX_TITLES_PER_REQUEST):
+        batch = titles_list[i : i + _API_MAX_TITLES_PER_REQUEST]
+        params: dict[str, str | int] = {
+            "format": "json",
+            "formatversion": 2,
+            "action": "query",
+            "prop": "imageinfo",
+            "titles": "|".join(batch),
+            "iiprop": "extmetadata",
+        }
+        api_result = await _api_request(session, params, host=_COMMONS_HOST_URL)
+
+        if (query_body := api_result.get("query")) is None:
+            continue
+
+        for page in query_body.get("pages") or []:
+            title = page.get("title", "")
+            imageinfo = page.get("imageinfo") or []
+            if not imageinfo:
+                continue
+            extmetadata = imageinfo[0].get("extmetadata") or {}
+            description_obj = extmetadata.get("ImageDescription") or {}
+            if description_value := description_obj.get("value", ""):
+                result[title] = str(description_value).strip()
+
+    return result
+
+
 @dataclass
 class _HandlerConfig:
     """Configuration returned by a tag handler for processing element children content."""
@@ -537,9 +616,11 @@ class WikiHtmlConverter:
         *,
         converted_wiki_dir: PathlibPath = _CONVERTED_WIKI_DIRECTORY,
         converted_wiki_lang_dir: PathlibPath = _CONVERTED_WIKI_LANGUAGE_DIRECTORY,
+        image_metadata: dict[str, str] | None = None,
     ) -> None:
         self._converted_wiki_dir = converted_wiki_dir
         self._converted_wiki_lang_dir = converted_wiki_lang_dir
+        self._image_metadata = image_metadata or {}
 
     async def convert(
         self,
@@ -1300,6 +1381,8 @@ class WikiHtmlConverter:
             def process(strings: str) -> str:
                 src_url_str = self._process_archive_url(src)
                 alt = str(ele.get("alt", "")).strip()
+                if not alt:
+                    alt = self._fallback_alt(ele)
                 return f"{strings}![{_MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf'\{m[0]}', alt)}]({src_url_str})"
 
             return _HandlerConfig(
@@ -1307,6 +1390,19 @@ class WikiHtmlConverter:
                 process_strings=process,
             )
         return _HandlerConfig()
+
+    def _fallback_alt(self, ele: Tag) -> str:
+        """Compute alt text fallback for an ``<img>`` element.
+
+        Uses Wikimedia API descriptions first, then falls back to the plain filename.
+        """
+        filename = _get_image_filename(ele)
+        if not filename:
+            return ""
+        file_title = f"File:{filename}"
+        if desc := self._image_metadata.get(file_title, ""):
+            return desc
+        return file_title
 
     def _handle_link(self, ele: Tag, classes: frozenset) -> _HandlerConfig | None:
         if (title := ele.get("title")) and title not in _BAD_TITLES:
@@ -1557,6 +1653,7 @@ async def wiki_html_to_plaintext(
     refs: bool,
     redirect_map: dict[str, _RedirectInfo],
     converter: WikiHtmlConverter | None = None,
+    image_metadata: dict[str, str] | None = None,
 ) -> str:
     """Convert a Wikipedia HTML element tree to a Markdown string.
 
@@ -1565,9 +1662,11 @@ async def wiki_html_to_plaintext(
     converter:
         Optional pre-configured converter instance (e.g. with custom
         paths for testing). Creates a default one if not provided.
+    image_metadata:
+        Pre-fetched image description metadata (``File:XXX`` → description).
     """
     if converter is None:
-        converter = WikiHtmlConverter()
+        converter = WikiHtmlConverter(image_metadata=image_metadata)
     result = await converter.convert(
         ele,
         out_to_archive=out_to_archive,
@@ -1655,11 +1754,15 @@ async def main() -> None:
         titles = _collect_link_titles(html)
         cache = _load_redirect_cache()
         redirect_map = await _resolve_redirects(session, titles, cache)
+        image_metadata = await _resolve_image_metadata(
+            session, _collect_image_filenames(html)
+        )
         output = await wiki_html_to_plaintext(
             html,
             out_to_archive=out_to_archive,
             redirect_map=redirect_map,
             refs=refs,
+            image_metadata=image_metadata,
         )
     output = (
         output.replace("\xa0", " ")  # replace non-breaking spaces with spaces

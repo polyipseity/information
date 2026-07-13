@@ -1183,3 +1183,102 @@ class TestWikiHtmlToPlaintextSnapshot:
         output = output.replace("\xa0", " ").replace("\u200a", "&hairsp;").strip()
 
         assert output == expected
+
+
+class TestImageAltTextFallback:
+    """Tests for image alt text fallback chain (``_get_image_filename``, ``_fallback_alt``, ``_collect_image_filenames``)."""
+
+    def test_get_image_filename_from_resource(self) -> None:
+        """``_get_image_filename`` should extract filename from ``resource`` attribute."""
+        html = _mod.BeautifulSoup(
+            '<img resource="//en.wikipedia.org/wiki/File:Foo_Bar.svg" src=""/>',
+            "html.parser",
+        )
+        img = html.find("img")
+        result = _mod._get_image_filename(img)  # noqa: SLF001
+        assert result == "Foo Bar.svg"
+
+    def test_get_image_filename_from_src_upload(self) -> None:
+        """``_get_image_filename`` should fall back to ``src`` when ``resource`` is missing."""
+        # This is a `src` URL matching the first upload regex pattern
+        html = _mod.BeautifulSoup(
+            '<img src="https://upload.wikimedia.org/wikipedia/en/9/9a/ExampleImage.svg"/>',
+            "html.parser",
+        )
+        img = html.find("img")
+        result = _mod._get_image_filename(img)  # noqa: SLF001
+        assert result == "ExampleImage.svg"
+
+    def test_get_image_filename_from_src_thumb(self) -> None:
+        """``_get_image_filename`` should extract filename from thumb ``src`` URL."""
+        html = _mod.BeautifulSoup(
+            '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Modernphysicsfields.svg/500px-Modernphysicsfields.svg.png"/>',
+            "html.parser",
+        )
+        img = html.find("img")
+        result = _mod._get_image_filename(img)  # noqa: SLF001
+        assert result == "Modernphysicsfields.svg"
+
+    def test_get_image_filename_missing(self) -> None:
+        """``_get_image_filename`` should return ``None`` when neither attribute is usable."""
+        html = _mod.BeautifulSoup('<img alt="no url"/>', "html.parser")
+        img = html.find("img")
+        result = _mod._get_image_filename(img)  # noqa: SLF001
+        assert result is None
+
+    def test_get_image_filename_non_matching_src(self) -> None:
+        """``_get_image_filename`` should return ``None`` when src doesn't match archive patterns."""
+        html = _mod.BeautifulSoup(
+            '<img src="https://example.com/not/a/wikimedia/url.svg"/>',
+            "html.parser",
+        )
+        img = html.find("img")
+        result = _mod._get_image_filename(img)  # noqa: SLF001
+        assert result is None
+
+    def test_collect_image_filenames(self) -> None:
+        """``_collect_image_filenames`` should collect ``File:XXX`` titles from all images."""
+        html = _mod.BeautifulSoup(
+            """
+            <html>
+            <img resource="//en.wikipedia.org/wiki/File:First.svg" src=""/>
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Second.svg"/>
+            <img alt="no resource"/>
+            </html>
+            """,
+            "html.parser",
+        )
+        result = _mod._collect_image_filenames(html)  # noqa: SLF001
+        assert result == {"File:First.svg", "File:Second.svg"}
+
+    def test_fallback_alt_empty_metadata(self) -> None:
+        """``_fallback_alt`` should return ``File:XXX`` when metadata dict is empty."""
+        converter = _mod.WikiHtmlConverter(image_metadata={})
+        html = _mod.BeautifulSoup(
+            '<img resource="//en.wikipedia.org/wiki/File:Foo.svg" src=""/>',
+            "html.parser",
+        )
+        img = html.find("img")
+        result = converter._fallback_alt(img)  # noqa: SLF001
+        assert result == "File:Foo.svg"
+
+    def test_fallback_alt_with_metadata(self) -> None:
+        """``_fallback_alt`` should return metadata description when available."""
+        converter = _mod.WikiHtmlConverter(
+            image_metadata={"File:Foo.svg": "A description of Foo"}
+        )
+        html = _mod.BeautifulSoup(
+            '<img resource="//en.wikipedia.org/wiki/File:Foo.svg" src=""/>',
+            "html.parser",
+        )
+        img = html.find("img")
+        result = converter._fallback_alt(img)  # noqa: SLF001
+        assert result == "A description of Foo"
+
+    def test_fallback_alt_unmapped_image(self) -> None:
+        """``_fallback_alt`` should return empty string when image cannot be mapped to any filename."""
+        converter = _mod.WikiHtmlConverter(image_metadata={})
+        html = _mod.BeautifulSoup('<img alt="no url"/>', "html.parser")
+        img = html.find("img")
+        result = converter._fallback_alt(img)  # noqa: SLF001
+        assert result == ""
