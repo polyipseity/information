@@ -149,36 +149,52 @@ _CONVERTED_WIKI_DIRECTORY = _SCRIPT_DIRECTORY.parent / "general"
 "Subdirectory for language-specific Wikipedia notes (will be made dynamic in Phase 7)."
 _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 
-# Filename rename map
-with open(
-    _DATA_DIRECTORY / f"{BASE_NAME}.filename_rename_map.jsonc",
-    "rt",
-    encoding="UTF-8",
-) as names_map_file:
-    "Manually curated filename rename map loaded from JSON5/JSONC."
-    _names_map_manual: dict[str, str] = json5.load(names_map_file)
-"Filename rename map derived from existing Markdown files in the wiki directory."
-_names_map = {
-    key: val
-    for entry in scandir(_CONVERTED_WIKI_DIRECTORY)
-    if (filename := entry.name).endswith(".md")
-    for key, val in (
-        (f"{filename[:1].upper()}{filename[1:-3]}", filename[:-3]),
-        (
-            f"{filename[:1].upper()}{filename[1:-3]}".replace("'", "’"),
-            filename[:-3].replace("'", "’"),
-        ),
-        (f"{filename[:1].lower()}{filename[1:-3]}", filename[:-3]),
-        (
-            f"{filename[:1].lower()}{filename[1:-3]}".replace("'", "’"),
-            filename[:-3].replace("'", "’"),
-        ),
-    )
-}
-if _names_map_overlap := frozenset(_names_map).intersection(_names_map_manual):
-    raise ValueError(_names_map_overlap)
 "Combined filename rename map merging auto-detected and manual entries."
-_NAMES_MAP = _names_map | _names_map_manual
+_NAMES_MAP: dict[str, str]
+
+
+def _build_names_map(
+    rename_map_path: PurePath | None = None,
+    wiki_dir: PathlibPath | None = None,
+) -> dict[str, str]:
+    """Build the combined filename rename map from the JSONC file and wiki directory scan.
+
+    Parameters
+    ----------
+    rename_map_path:
+        Path to the manual rename map JSONC file.
+        Defaults to ``_DATA_DIRECTORY / f\"{BASE_NAME}.filename_rename_map.jsonc\"``.
+    wiki_dir:
+        Wiki directory to scan for Markdown files.
+        Defaults to ``_CONVERTED_WIKI_DIRECTORY``.
+    """
+    path = rename_map_path or _DATA_DIRECTORY / f"{BASE_NAME}.filename_rename_map.jsonc"
+    with open(path, "rt", encoding="UTF-8") as f:
+        names_map_manual = json5.load(f)
+    wiki_dir = wiki_dir or _CONVERTED_WIKI_DIRECTORY
+    names_map = {
+        key: val
+        for entry in scandir(wiki_dir)
+        if (filename := entry.name).endswith(".md")
+        for key, val in (
+            (f"{filename[:1].upper()}{filename[1:-3]}", filename[:-3]),
+            (
+                f"{filename[:1].upper()}{filename[1:-3]}".replace("'", "’"),
+                filename[:-3].replace("'", "’"),
+            ),
+            (f"{filename[:1].lower()}{filename[1:-3]}", filename[:-3]),
+            (
+                f"{filename[:1].lower()}{filename[1:-3]}".replace("'", "’"),
+                filename[:-3].replace("'", "’"),
+            ),
+        )
+    }
+    if overlap := frozenset(names_map).intersection(names_map_manual):
+        raise ValueError(overlap)
+    return names_map | names_map_manual
+
+
+_NAMES_MAP = _build_names_map()
 
 # Redirect cache & API configuration
 "Path to the redirect resolution cache file."
@@ -881,10 +897,14 @@ class WikiHtmlConverter:
             return _HandlerConfig()
         info = self._redirect_map.get(title, _RedirectInfo(to=title))
         to = info.to
-        to_filename = _fix_name_maybe(to, replace_underscores=True, names_map=self._names_map)
+        to_filename = _fix_name_maybe(
+            to, replace_underscores=True, names_map=self._names_map
+        )
         target = _markdown_link_target(
             to_filename,
-            _fix_name_maybe(info.tofragment, replace_underscores=True, names_map=self._names_map),
+            _fix_name_maybe(
+                info.tofragment, replace_underscores=True, names_map=self._names_map
+            ),
         )
 
         def process(strings: str) -> str:
@@ -1470,7 +1490,9 @@ class WikiHtmlConverter:
             elif "extiw" in classes:
                 lang_code, extiw_page = to.split(":", 1)
                 lang_code = str(convert(lang_code, to="ISO3")).casefold()
-                from_filename = _fix_name_maybe(extiw_page, replace_underscores=True, names_map=self._names_map)
+                from_filename = _fix_name_maybe(
+                    extiw_page, replace_underscores=True, names_map=self._names_map
+                )
 
                 return _HandlerConfig(
                     prefix="[",
@@ -1479,8 +1501,12 @@ class WikiHtmlConverter:
                 )
             else:
                 from_filename, to_filename = (
-                    _fix_name_maybe(title, replace_underscores=True, names_map=self._names_map),
-                    _fix_name_maybe(to, replace_underscores=True, names_map=self._names_map),
+                    _fix_name_maybe(
+                        title, replace_underscores=True, names_map=self._names_map
+                    ),
+                    _fix_name_maybe(
+                        to, replace_underscores=True, names_map=self._names_map
+                    ),
                 )
 
                 config = _HandlerConfig(
@@ -1519,7 +1545,9 @@ class WikiHtmlConverter:
             if href.startswith(f"{_WIKI_HOST_URL}/wiki/") and "#" in href:
                 href = _markdown_fragment(
                     _fix_name_maybe(
-                        href[href.index("#") + 1 :], replace_underscores=True, names_map=self._names_map
+                        href[href.index("#") + 1 :],
+                        replace_underscores=True,
+                        names_map=self._names_map,
                     )
                 )
 

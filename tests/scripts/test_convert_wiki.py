@@ -208,8 +208,10 @@ class TestConstants:
         assert _mod._CONVERTED_WIKI_LANGUAGE_DIRECTORY.name == "eng"  # noqa: SLF001
 
     def test_filename_rename_map_loaded(self) -> None:
-        """_names_map_manual should be a dict loaded from JSONC."""
-        assert isinstance(_mod._names_map_manual, dict)  # noqa: SLF001
+        """_build_names_map should return a non-empty dict from JSONC and wiki scan."""
+        result = _mod._build_names_map()  # noqa: SLF001
+        assert isinstance(result, dict)
+        assert len(result) > 0
 
     def test_names_map_exists(self) -> None:
         """_NAMES_MAP should be a dict with entries from both maps."""
