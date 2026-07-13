@@ -24,7 +24,7 @@ from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
 from sys import stderr, stdin, version
-from typing import ClassVar, NotRequired, TypedDict
+from typing import NotRequired, TypedDict
 from urllib.parse import quote, unquote
 
 import anyio
@@ -522,9 +522,6 @@ class _HandlerConfig:
 class WikiHtmlConverter:
     """Converts Wikipedia HTML elements to Markdown text.
 
-    Extend by registering handlers via :meth:`register` or directly
-    modifying the ``_tag_handlers`` / ``_class_handlers`` class dicts.
-
     Parameters
     ----------
     converted_wiki_dir:
@@ -534,17 +531,6 @@ class WikiHtmlConverter:
         Language-specific subdirectory for converted notes.
     """
 
-    _tag_handlers: ClassVar[
-        dict[
-            str, Callable[["WikiHtmlConverter", Tag, frozenset], _HandlerConfig | None]
-        ]
-    ] = {}
-    _class_handlers: ClassVar[
-        dict[
-            str, Callable[["WikiHtmlConverter", Tag, frozenset], _HandlerConfig | None]
-        ]
-    ] = {}
-
     def __init__(
         self,
         *,
@@ -553,19 +539,6 @@ class WikiHtmlConverter:
     ) -> None:
         self._converted_wiki_dir = converted_wiki_dir
         self._converted_wiki_lang_dir = converted_wiki_lang_dir
-
-    @classmethod
-    def register(cls, *, tag_name: str | None = None, class_name: str | None = None):
-        """Decorator to register a handler for an HTML tag or CSS class."""
-
-        def decorator(func):
-            if tag_name is not None:
-                cls._tag_handlers[tag_name] = func
-            if class_name is not None:
-                cls._class_handlers[class_name] = func
-            return func
-
-        return decorator
 
     async def convert(
         self,
@@ -726,17 +699,6 @@ class WikiHtmlConverter:
         list_stack: tuple[int, ...],
     ) -> _HandlerConfig | None:
         """Dispatch to a handler for the given element."""
-        for cls in classes:
-            if cls in self._class_handlers:
-                result = self._class_handlers[cls](self, ele, classes)
-                if result is not None:
-                    return result
-
-        if ele.name in self._tag_handlers:
-            result = self._tag_handlers[ele.name](self, ele, classes)
-            if result is not None:
-                return result
-
         if header_match := _HEADER_REGEX.match(ele.name):
             return self._handle_header(ele, classes, header_match)
 
