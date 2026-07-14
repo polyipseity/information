@@ -185,3 +185,85 @@ The agent __must ask the user__ to provide at least two of the three flashcard c
 - __Frontmatter__: Follow [markdown-notes](../instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`.
 - __Attribution__: Preserve the Wikipedia source URL in frontmatter or as an HTML comment.
 - __Editing rules__: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules when editing imported notes.
+
+## Reference: name_map mechanism in `convert_wiki.py`
+
+The name_map is a `dict[str, str]` that maps Wikipedia page titles (or variants) to
+local filename stems used in `general/eng/`. It ensures links and section headers in
+ingested Wikipedia articles use the correct casing to match actual `general/eng/*.md` files.
+
+### How entries are generated (`_build_names_map`)
+
+Auto-discovers all `general/*/*.md` files, producing __4 entries per file__:
+
+| Key (Wikipedia-style title) | Value (local filename stem) |
+|---|---|
+| `Three-dimensional space (mathematics)` | `Three-dimensional space (mathematics)` |
+| `Three-dimensional space (mathematics)` with `'`→`’` (curly apostrophe) | same with curly apostrophe |
+| `three-...` (first char lowercased) | `Three-dimensional space (mathematics)` |
+| lowercased + curly apostrophe variant | same with curly apostrophe |
+
+Then merged with manual entries from `scripts/assets/convert_wiki.name_map.jsonc`.
+Conflicting keys between auto and manual map raise `ValueError`.
+
+### How lookup works (`_fix_name_maybe`)
+
+```python
+def _fix_name_maybe(name, *, normalize=True, replace_underscores=False, names_map=None):
+```
+
+The function applies a single sequential heuristic:
+
+1. __Normalize__: replace ` ` (nbsp) → space if `normalize=True` (default).
+2. __Exact lookup__ in `names_map` — if found, return immediately.
+3. __Underscores__: if `replace_underscores=True`, replace `_` with space.
+4. __Retry lookup__ with the (potentially underscore-replaced) name. If still not found,
+   apply the __lowercase-first-char fallback__:
+   `name[1:].islower() or len(name)≤1` → lowercase first char, else identity.
+
+This lowercases the first character when the rest is all lowercase (normal English
+capitalisation like `Fourier...` → `fourier...`), and leaves mixed-case names like
+`iPhone` alone.
+
+### Where `_fix_name_maybe` is called
+
+| Call site | `replace_underscores` | Input |
+|---|---|---|
+| `_handle_header` | `False` | Section header text |
+| `_handle_link` — `title` param | `True` | Link display text / page title |
+| `_handle_link` — `to` param | `True` | Redirect-resolved target filename |
+| `_handle_link` — `to_fragment` | `True` | `#fragment` part of link |
+
+__Critical__: `title` and `to` are independent inputs — `title` is the `<a>` tag's
+`title` attribute, `to` is `redirect_map[title].to`. Both go through the same
+`_fix_name_maybe` independently. A name_map entry covering the display text does
+NOT cover the link target; both need separate entries if they differ.
+
+### Snapshot tests and `aux.json`
+
+The snapshot test uses `tests/scripts/test_convert_wiki/snapshots/<name>.aux.json`
+to supply a pre-computed `name_map` isolating the test from the live filesystem:
+
+```json
+{
+  "redirect_cache": { "Wikipedia title": {"to": "...", "tofragment": ""} },
+  "name_map": { "Fourier transform": "Fourier transform", "fourier transform": "Fourier transform", ... },
+  "image_metadata": {}
+}
+```
+
+### Key gotchas
+
+- __Headers vs links__: By convention, section headers never use underscore
+  replacement (`replace_underscores=False`). Wikipedia section headings use
+  spaces, not underscores, so any underscore in a header is a literal underscore
+  and must not be converted. Links use `replace_underscores=True` because
+  Wikipedia URLs encode spaces as underscores.
+- __nbsp__: Non-breaking spaces (`\u00a0`) are normalized to regular space before
+  lookup, but all other whitespace must match the key exactly.
+- __Prettier + snapshot__: Running Prettier on `aux.json` reorders JSON keys,
+  which can slightly alter pipeline output (table LaTeX wrapping). Always
+  regenerate `expected.md` after running Prettier on `aux.json`.
+- __Link target fixes__: When fixing link target casing, remember that the `to`
+  parameter is passed through `_fix_name_maybe` independently — name_map entries
+  must cover the Wikipedia title case of the target, not just the display text.
