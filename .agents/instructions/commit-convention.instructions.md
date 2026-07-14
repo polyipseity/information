@@ -87,6 +87,18 @@ cards (YYYY-MM-DD)`
 
 __Pre-commit validation:__ Before creating commits, agents MUST run repository formatting and validation steps using `bun` script wrappers when available (for example, `bun run format`, `bun run check`, and `bun run test`). When operating on a subset of files, supply explicit paths to these commands (e.g. `bun run check:md --no-globs file.md`) so they complete quickly. The repository uses prek hooks (`pre-commit`, `commit-msg`, `pre-push`) and `pre-push` runs `bun run test` to prevent pushing failing tests. Ensuring these steps locally reduces CI failures and blocked pushes.
 
+   __Hook failure recovery:__ When a `git commit` fails (e.g., a pre-commit
+   hook modified files and aborted the commit), immediately read the hook
+   output to identify which tool ran and which files it changed. If the
+   terminal output is too large to read, use `git diff --cached` to
+   inspect hook-introduced changes. If a Markdown-specific tool
+   (`markdownlint-cli2`) or Prettier touched non-`.md` files, this is a
+   __hook configuration bug__ — do not re-stage the corrupted files.
+   Instead, restore the originals (`git checkout -- <file>`) and fix the
+   hook (e.g., add a `types_or` filter in `prek.toml`). Never re-run
+   `format:md` or `check:md` as a workaround after a failed commit —
+   doing so will corrupt non-markdown files.
+
 ## Commitlint compliance
 
 All commit messages MUST pass commitlint checks. In particular:
