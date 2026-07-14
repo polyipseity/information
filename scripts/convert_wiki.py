@@ -154,21 +154,21 @@ _NAMES_MAP: dict[str, str]
 
 
 def _build_names_map(
-    rename_map_path: PurePath | None = None,
+    name_map_path: PurePath | None = None,
     wiki_dir: PathlibPath | None = None,
 ) -> dict[str, str]:
     """Build the combined filename rename map from the JSONC file and wiki directory scan.
 
     Parameters
     ----------
-    rename_map_path:
-        Path to the manual rename map JSONC file.
-        Defaults to ``_DATA_DIRECTORY / f\"{BASE_NAME}.filename_rename_map.jsonc\"``.
+    name_map_path:
+        Path to the manual name map JSONC file.
+        Defaults to ``_DATA_DIRECTORY / f\"{BASE_NAME}.name_map.jsonc\"``.
     wiki_dir:
         Wiki directory to scan for Markdown files.
         Defaults to ``_CONVERTED_WIKI_DIRECTORY``.
     """
-    path = rename_map_path or _DATA_DIRECTORY / f"{BASE_NAME}.filename_rename_map.jsonc"
+    path = name_map_path or _DATA_DIRECTORY / f"{BASE_NAME}.name_map.jsonc"
     with open(path, "rt", encoding="UTF-8") as f:
         names_map_manual = json5.load(f)
     wiki_dir = wiki_dir or _CONVERTED_WIKI_DIRECTORY
@@ -1844,7 +1844,9 @@ async def run_pipeline(
     if redirect_map is None:
         titles = _collect_link_titles(html)
         cache = _load_redirect_cache(cache_path=cache_path)
-        redirect_map = await _resolve_redirects(session, titles, cache, cache_path=cache_path)
+        redirect_map = await _resolve_redirects(
+            session, titles, cache, cache_path=cache_path
+        )
 
     # Resolve image metadata if needed.
     if image_metadata is None:

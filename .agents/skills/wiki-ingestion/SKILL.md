@@ -143,7 +143,7 @@ Replace `<note_path>` with the path to the note file created in Step 1 (e.g. `ge
 
 - Tool reads from clipboard
 - Normalizes Markdown formatting (lists, tables, code, emphasis)
-- Downloads images to `archives/Wikimedia Commons/` using `scripts/assets/convert_wiki.filename_rename_map.jsonc` for filename renames
+- Downloads images to `archives/Wikimedia Commons/` using `scripts/assets/convert_wiki.name_map.jsonc` for filename renames
 - Normalizes links to relative paths with `%20` encoding (not `%3A` or other encodings)
 - Outputs Markdown that preserves Wikipedia structure
 - The script appends the generated Markdown directly to your note file.

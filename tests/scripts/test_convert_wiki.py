@@ -207,7 +207,7 @@ class TestConstants:
         """_CONVERTED_WIKI_LANGUAGE_DIRECTORY should point to general/eng."""
         assert _mod._CONVERTED_WIKI_LANGUAGE_DIRECTORY.name == "eng"  # noqa: SLF001
 
-    def test_filename_rename_map_loaded(self) -> None:
+    def test_name_map_loaded(self) -> None:
         """_build_names_map should return a non-empty dict from JSONC and wiki scan."""
         result = _mod._build_names_map()  # noqa: SLF001
         assert isinstance(result, dict)
@@ -1136,9 +1136,7 @@ class TestWikiHtmlToPlaintextSnapshot:
         "name",
         _discover_snapshot_cases(),
     )
-    async def test_snapshot(
-        self, name: str, tmp_path: Path
-    ) -> None:
+    async def test_snapshot(self, name: str, tmp_path: Path) -> None:
         """Verify that converting *name*.input.html matches *name*.expected.md.
 
         Uses ``run_pipeline`` with overridden data to avoid HTTP requests,
@@ -1172,7 +1170,7 @@ class TestWikiHtmlToPlaintextSnapshot:
             html,
             redirect_map=redirect_map,
             image_metadata=aux.get("image_metadata"),
-            names_map=aux.get("rename_map"),
+            names_map=aux.get("name_map"),
             wiki_dir=tmp_path / "general",
             wiki_lang_dir=isolated_lang,
             refs=True,
