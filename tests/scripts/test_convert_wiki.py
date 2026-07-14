@@ -1169,13 +1169,13 @@ class TestWikiHtmlToPlaintextSnapshot:
 
         # Build the name_map: start with the shared baseline, then apply
         # per-test overrides (for titles not in the global name_map).
-        names_map = shared_name_map | aux.get("name_map_overrides", {})
+        names_map = shared_name_map | aux["name_map_overrides"]
 
         # run_pipeline handles all post-processing (nbsp→space, hair→&hairsp;, strip).
         output, _ = await _mod.run_pipeline(
             html,
             redirect_map=redirect_map,
-            image_metadata=aux.get("image_metadata"),
+            image_metadata=aux["image_metadata"],
             names_map=names_map,
             wiki_dir=tmp_path / "general",
             wiki_lang_dir=isolated_lang,
