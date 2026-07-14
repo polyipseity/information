@@ -92,12 +92,11 @@ __Pre-commit validation:__ Before creating commits, agents MUST run repository f
    output to identify which tool ran and which files it changed. If the
    terminal output is too large to read, use `git diff --cached` to
    inspect hook-introduced changes. If a Markdown-specific tool
-   (`markdownlint-cli2`) or Prettier touched non-`.md` files, this is a
-   __hook configuration bug__ — do not re-stage the corrupted files.
-   Instead, restore the originals (`git checkout -- <file>`) and fix the
-   hook (e.g., add a `types_or` filter in `prek.toml`). Never re-run
-   `format:md` or `check:md` as a workaround after a failed commit —
-   doing so will corrupt non-markdown files.
+   (`markdownlint-cli2`) or Prettier touched non-`.md` files,
+   do not re-stage the corrupted files. Instead, restore the originals
+   (`git checkout -- <file>`). Never re-run `format:md` or `check:md` as a
+   workaround after a failed commit — doing so will corrupt non-markdown
+   files.
 
 ## Commitlint compliance
 
