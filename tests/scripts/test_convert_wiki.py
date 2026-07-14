@@ -1145,7 +1145,9 @@ class TestWikiHtmlToPlaintextSnapshot:
         isolated_lang = tmp_path / "general" / "eng"
         isolated_lang.mkdir(parents=True)
 
-        # Load consolidated auxiliary data.
+        # Load shared name_map and per-test auxiliary data.
+        shared_name_map_path = _SNAPSHOT_DIR / "name_map.json"
+        shared_name_map = json.loads(shared_name_map_path.read_text(encoding="UTF-8"))
         aux_path = _SNAPSHOT_DIR / f"{name}.aux.json"
         aux = json.loads(aux_path.read_text(encoding="UTF-8"))
 
@@ -1165,12 +1167,16 @@ class TestWikiHtmlToPlaintextSnapshot:
             for k, v in aux["redirect_cache"].items()
         }
 
+        # Build the name_map: start with the shared baseline, then apply
+        # per-test overrides (for titles not in the global name_map).
+        names_map = shared_name_map | aux.get("name_map_overrides", {})
+
         # run_pipeline handles all post-processing (nbsp→space, hair→&hairsp;, strip).
         output, _ = await _mod.run_pipeline(
             html,
             redirect_map=redirect_map,
             image_metadata=aux.get("image_metadata"),
-            names_map=aux.get("name_map"),
+            names_map=names_map,
             wiki_dir=tmp_path / "general",
             wiki_lang_dir=isolated_lang,
             refs=True,
