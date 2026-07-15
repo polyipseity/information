@@ -11,10 +11,9 @@ from io import StringIO
 from os import fspath
 from pathlib import Path
 from sys import stdout
-
-import pytest
 from typing import Any, cast
 
+import pytest
 from aiohttp import ClientSession
 
 from scripts.special import get_hkust_undergraduate_courses as _mod

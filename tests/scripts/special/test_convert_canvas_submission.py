@@ -8,11 +8,10 @@ the main() entry point.
 
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import cast
 
 import pytest
 from bs4 import BeautifulSoup
-
-from typing import cast
 
 from scripts.special import convert_canvas_submission as _mod
 

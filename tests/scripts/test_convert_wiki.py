@@ -14,7 +14,7 @@ from typing import cast
 import anyio
 import pytest
 from aiohttp import ClientSession
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, Tag
 
 from scripts import convert_wiki as _mod
 

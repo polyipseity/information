@@ -1,6 +1,6 @@
 """Convert HKUST Zinc LMS HTML submission pages to YAML/Markdown."""
 
-from collections.abc import Callable, Collection, Mapping, Sequence
+from collections.abc import Callable, Mapping, Sequence, Set
 from contextlib import suppress
 from copy import copy
 from datetime import datetime, timedelta
@@ -39,61 +39,63 @@ class ParseDatetimeResult(NamedTuple):
 def html_to_text(
     tag: Tag,
     *,
-    _NON_BREAKING_ELEMENTS: Collection[str] = (
-        "a",
-        "abbr",
-        "acronym",
-        "audio",
-        "b",
-        "bdi",
-        "bdo",
-        "big",
-        "button",
-        "canvas",
-        "cite",
-        "code",
-        "data",
-        "datalist",
-        "del",
-        "dfn",
-        "em",
-        "embed",
-        "i",
-        "iframe",
-        "img",
-        "input",
-        "ins",
-        "kbd",
-        "label",
-        "map",
-        "mark",
-        "meter",
-        "noscript",
-        "object",
-        "output",
-        "picture",
-        "progress",
-        "q",
-        "ruby",
-        "s",
-        "samp",
-        "script",
-        "select",
-        "slot",
-        "small",
-        "span",
-        "strong",
-        "sub",
-        "sup",
-        "svg",
-        "template",
-        "textarea",
-        "time",
-        "u",
-        "tt",
-        "var",
-        "video",
-        "wbr",
+    _NON_BREAKING_ELEMENTS: Set[str] = frozenset(
+        (
+            "a",
+            "abbr",
+            "acronym",
+            "audio",
+            "b",
+            "bdi",
+            "bdo",
+            "big",
+            "button",
+            "canvas",
+            "cite",
+            "code",
+            "data",
+            "datalist",
+            "del",
+            "dfn",
+            "em",
+            "embed",
+            "i",
+            "iframe",
+            "img",
+            "input",
+            "ins",
+            "kbd",
+            "label",
+            "map",
+            "mark",
+            "meter",
+            "noscript",
+            "object",
+            "output",
+            "picture",
+            "progress",
+            "q",
+            "ruby",
+            "s",
+            "samp",
+            "script",
+            "select",
+            "slot",
+            "small",
+            "span",
+            "strong",
+            "sub",
+            "sup",
+            "svg",
+            "template",
+            "textarea",
+            "time",
+            "u",
+            "tt",
+            "var",
+            "video",
+            "wbr",
+        )
     ),
 ) -> str:
     """Convert an HTML tag to plain text, using newlines for block-level elements."""
@@ -307,9 +309,7 @@ def parse_properties(
             due_ele = selected_assignment_ele.find(
                 None, attrs={"data-icon": "calendar-exclamation"}
             )
-            due_ele = (
-                None if due_ele is None else due_ele.find_next_sibling()
-            )
+            due_ele = None if due_ele is None else due_ele.find_next_sibling()
             properties_raw["due"] = (
                 ""
                 if due_ele is None
@@ -320,9 +320,7 @@ def parse_properties(
                 None, attrs={"data-icon": "rotate-right"}
             )
             retry_limit_ele = (
-                None
-                if retry_limit_ele is None
-                else retry_limit_ele.find_next_sibling()
+                None if retry_limit_ele is None else retry_limit_ele.find_next_sibling()
             )
             properties_raw["retry limit"] = (
                 "" if retry_limit_ele is None else retry_limit_ele.text.strip()

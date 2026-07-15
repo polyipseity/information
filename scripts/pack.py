@@ -77,7 +77,7 @@ class Arguments:
     damping_factor: float
     page_rank_iterations: int
     exclude_extensions: Collection[str]
-    files: Collection[Path]
+    files: Sequence[Path]
 
     def __post_init__(self) -> None:
         """Coerce mutable sequences to tuples to satisfy the frozen dataclass contract."""

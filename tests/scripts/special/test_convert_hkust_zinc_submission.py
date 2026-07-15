@@ -7,11 +7,10 @@ module has no main() entry point.
 """
 
 from datetime import datetime, timezone
+from typing import cast
 
 import pytest
 from bs4 import BeautifulSoup
-
-from typing import cast
 
 from scripts.special import convert_hkust_zinc_submission as _mod
 

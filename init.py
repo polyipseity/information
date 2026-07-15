@@ -15,7 +15,6 @@ from collections import defaultdict
 from collections.abc import (
     AsyncIterator,
     Callable,
-    Collection,
     Iterable,
     MutableMapping,
     Sequence,
@@ -169,7 +168,7 @@ async def main(args: Arguments):
             finalizers = list[Callable[[], Coroutine[Any, Any, object]]]()
 
             try:
-                old_args: Collection[str] = data["args"]
+                old_args: Sequence[str] = data["args"]
             except KeyError:
                 old_args = ()
             diff_args = any(
