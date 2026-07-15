@@ -330,8 +330,8 @@ async def main(args: Arguments) -> None:
 
 
 def modified_page_rank_stochastic_mat(
-    initial: Set[Path],
-    links: Mapping[Path, Set[Path]],
+    initial: Collection[Path],
+    links: Mapping[Path, Collection[Path]],
     *,
     damping: float,
 ) -> tuple[Sequence[Path], NDArray[float64]]:
@@ -342,7 +342,7 @@ def modified_page_rank_stochastic_mat(
     path_indices = {path: idx for idx, path in enumerate(ordered_paths)}
     size = len(path_indices)
 
-    def make_link_array(links: Set[Path]):
+    def make_link_array(links: Collection[Path]) -> NDArray[float64]:
         """Return a column probability vector for the given outbound link set, or a uniform vector if empty."""
         if links:
             ret = zeros((size,), dtype=float64)
