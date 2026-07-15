@@ -8,7 +8,15 @@ and outputs the result.  Supports four output modes: clipboard
 
 import argparse
 import re
-from collections.abc import Awaitable, Callable, Iterator, MutableSet
+from collections.abc import (
+    Awaitable,
+    Callable,
+    Iterator,
+    Mapping,
+    MutableMapping,
+    MutableSet,
+    Set,
+)
 from contextlib import contextmanager, suppress
 from copy import copy
 from dataclasses import dataclass
@@ -80,9 +88,9 @@ _COMMONS_HOST_URL = URL.build(scheme="https", host="commons.wikimedia.org")
 "Maximum concurrent HTTP requests per host."
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 "Set of page titles to ignore when converting links."
-_BAD_TITLES = frozenset({"Edit this at Wikidata"})
+_BAD_TITLES: Set[str] = frozenset({"Edit this at Wikidata"})
 "Set of name prefixes to ignore when fixing link names."
-_IGNORED_NAME_PREFIXES = frozenset[str]()
+_IGNORED_NAME_PREFIXES: Set[str] = frozenset()
 "Suffix appended to page titles that do not exist."
 _PAGE_DOES_NOT_EXIST_SUFFIX = " (page does not exist)"
 "Mapping of Wikipedia page prefixes to their external URL formats."
@@ -115,9 +123,9 @@ _PRESERVED_PAGE_PREFIXES = {
 }
 
 "HTML child tag names for table cells."
-_TD_OR_TH = frozenset({"td", "th"})
+_TD_OR_TH: Set[str] = frozenset({"td", "th"})
 "HTML child tag names for bold/italic inline elements."
-_BOLD_OR_ITALIC = frozenset({"b", "em", "i", "strong"})
+_BOLD_OR_ITALIC: Set[str] = frozenset({"b", "em", "i", "strong"})
 
 # Markdown formatting constants
 "Indentation string for nested Markdown lists."
@@ -272,7 +280,7 @@ def _fix_name_maybe(
     *,
     normalize: bool = True,
     replace_underscores: bool = False,
-    names_map: dict[str, str] | None = None,
+    names_map: Mapping[str, str] | None = None,
 ) -> str:
     """Normalise and map a Wikipedia page name to the local filename stem."""
     names_map = names_map or _NAMES_MAP
@@ -416,14 +424,17 @@ def _load_redirect_cache(
     try:
         with open(path, "r", encoding="UTF-8") as f:
             data = json_load(f)
-        assert isinstance(data, dict)
+        if not isinstance(data, dict):
+            return {}
         now = datetime.now(timezone.utc)
         unpacked: dict[str, _RedirectInfo] = {}
         for k, v in data.items():
-            assert isinstance(k, str) and isinstance(v, dict)
+            if not (isinstance(k, str) and isinstance(v, dict)):
+                continue
             to = v.get("to", k)
             tofragment = v.get("tofragment", "")
-            assert isinstance(to, str) and isinstance(tofragment, str)
+            if not (isinstance(to, str) and isinstance(tofragment, str)):
+                continue
             cached_at_str = v.get("cached_at", "")
             if not cached_at_str:
                 # Old-format entry — stamp with current time.
@@ -438,12 +449,12 @@ def _load_redirect_cache(
                 to=to, tofragment=tofragment, cached_at=cached_at_str
             )
         return unpacked
-    except (FileNotFoundError, JSONDecodeError, OSError, AssertionError):
+    except (FileNotFoundError, JSONDecodeError, OSError):
         return {}
 
 
 def _save_redirect_cache(
-    cache: dict[str, _RedirectInfo],
+    cache: MutableMapping[str, _RedirectInfo],
     cache_path: PurePath | None = None,
 ) -> None:
     """Atomically save the redirect cache.
@@ -511,9 +522,9 @@ async def _api_request(
 async def _resolve_redirects(
     session: ClientSession,
     titles: set[str],
-    cache: dict[str, _RedirectInfo],
+    cache: MutableMapping[str, _RedirectInfo],
     cache_path: PurePath | None = None,
-) -> dict[str, _RedirectInfo]:
+) -> MutableMapping[str, _RedirectInfo]:
     """Resolve redirects for uncached titles via batched API queries.
 
     Results are merged into *cache* and persisted to disk atomically.
@@ -608,13 +619,15 @@ async def _resolve_image_metadata(
                     if a_tag.has_attr("title"):
                         del a_tag["title"]
                 desc_converter = WikiHtmlConverter()
-                converted = await desc_converter.convert(
-                    fragment.div,
-                    out_to_archive=set(),
-                    redirect_map={},
-                    refs=False,
-                )
-                result[title] = converted.strip()
+                desc = fragment.div
+                if desc is not None:
+                    converted = await desc_converter.convert(
+                        desc,
+                        out_to_archive=set(),
+                        redirect_map={},
+                        refs=False,
+                    )
+                    result[title] = converted.strip()
 
     return result
 
@@ -648,8 +661,8 @@ class WikiHtmlConverter:
         *,
         converted_wiki_dir: PathlibPath = _CONVERTED_WIKI_DIRECTORY,
         converted_wiki_lang_dir: PathlibPath = _CONVERTED_WIKI_LANGUAGE_DIRECTORY,
-        image_metadata: dict[str, str] | None = None,
-        names_map: dict[str, str] | None = None,
+        image_metadata: Mapping[str, str] | None = None,
+        names_map: Mapping[str, str] | None = None,
     ) -> None:
         self._converted_wiki_dir = converted_wiki_dir
         self._converted_wiki_lang_dir = converted_wiki_lang_dir
@@ -664,7 +677,7 @@ class WikiHtmlConverter:
         list_stack: tuple[int, ...] = (),
         escape: bool = True,
         refs: bool,
-        redirect_map: dict[str, _RedirectInfo],
+        redirect_map: Mapping[str, _RedirectInfo],
     ) -> str:
         """Convert a Wikipedia HTML element tree to a Markdown string."""
 
@@ -816,7 +829,7 @@ class WikiHtmlConverter:
     def _dispatch(
         self,
         ele: Tag,
-        classes: frozenset,
+        classes: Set[str],
         *,
         list_stack: tuple[int, ...],
     ) -> _HandlerConfig | None:
@@ -867,14 +880,14 @@ class WikiHtmlConverter:
 
     # --- Tag handlers ---
 
-    def _handle_br(self, ele: Tag, classes: frozenset) -> _HandlerConfig | None:
+    def _handle_br(self, ele: Tag, classes: Set[str]) -> _HandlerConfig | None:
         def process(strings: str) -> str:
             return f"{strings}\n"
 
         return _HandlerConfig(process_strings=process)
 
     def _handle_header(
-        self, ele: Tag, classes: frozenset, header_match
+        self, ele: Tag, classes: Set[str], header_match
     ) -> _HandlerConfig:
         level = int(header_match[1] or "1")
         prefix = f"{'#' * level} "
@@ -885,7 +898,7 @@ class WikiHtmlConverter:
 
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
-    def _handle_selflink(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_selflink(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         # Resolve self-link anchor to a proper relative markdown link,
         # extracting the page title from the href attribute.
         href = str(ele.get("href", ""))
@@ -917,7 +930,7 @@ class WikiHtmlConverter:
             process_strings=process,
         )
 
-    def _handle_bold_italic(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_bold_italic(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         bold = (
             ele.name in {"b", "strong"}
             or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
@@ -954,7 +967,8 @@ class WikiHtmlConverter:
 
         def process(strings: str) -> str:
             match = _PROCESS_STRINGS_BI_REGEX.match(strings)
-            assert match
+            if not match:
+                return strings
             config.prefix = f"{match[1]}{config.prefix}"
             config.suffix += match[3]
             return match[2]
@@ -971,23 +985,23 @@ class WikiHtmlConverter:
             config.process_strings = cell_process
         return config
 
-    def _handle_s(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_s(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         prefix, suffix = _tag_affixes("s")
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
-    def _handle_sub(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_sub(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         prefix, suffix = _tag_affixes("sub")
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
-    def _handle_sup(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_sup(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         prefix, suffix = _tag_affixes("sup")
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
-    def _handle_u(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_u(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         prefix, suffix = _tag_affixes("u")
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
-    def _handle_big(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_big(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         prefix, suffix = _tag_affixes("big")
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
@@ -1030,7 +1044,8 @@ class WikiHtmlConverter:
             target_tr = header_trs[-1]
             target_cell = target_tr.find(("th", "td"))
 
-        assert target_cell is not None, "target_cell should not be None"
+        if target_cell is None:
+            return
 
         # For sidebar-title-with-pretitle: wrap inner content in <big> in the
         # DOM, then change class to sidebar-title so _handle_th won't double-wrap.
@@ -1045,7 +1060,7 @@ class WikiHtmlConverter:
                 c for c in cell_classes if c != "sidebar-title-with-pretitle"
             ]
             cell_classes.append("sidebar-title")
-            target_cell["class"] = cell_classes
+            target_cell["class"] = " ".join(cell_classes)
 
         # Remove font-weight: bold from the cell's inline style to prevent
         # _handle_bold_italic from bold-wrapping the entire merged cell.
@@ -1092,10 +1107,11 @@ class WikiHtmlConverter:
     def _in_navbox(ele: Tag) -> bool:
         """Check if element is inside a navbox table."""
         return any(
-            isinstance(p, Tag) and "navbox" in p.get("class", []) for p in ele.parents
+            isinstance(p, Tag) and "navbox" in (p.get("class") or [])
+            for p in ele.parents
         )
 
-    def _handle_block_level(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_block_level(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         suffix = "\n\n" if self._in_table_cell(ele) else ""
         return _HandlerConfig(suffix=suffix)
 
@@ -1103,7 +1119,7 @@ class WikiHtmlConverter:
     _handle_dd = _handle_block_level
     _handle_dt = _handle_block_level
 
-    def _handle_p(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_p(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         def process(strings: str) -> str:
             return " ".join(strings.split())
 
@@ -1112,7 +1128,7 @@ class WikiHtmlConverter:
         suffix = "" if in_table else "\n\n"
         return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
 
-    def _handle_code(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_code(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         def process(strings: str) -> str:
             delimiter = "`"
             while delimiter in strings:
@@ -1123,7 +1139,7 @@ class WikiHtmlConverter:
 
         return _HandlerConfig(process_strings=process)
 
-    def _handle_math(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_math(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         prefix = suffix = ""
         if alt_text := ele.get("alttext"):
             alt_text = str(alt_text).strip()
@@ -1177,7 +1193,7 @@ class WikiHtmlConverter:
     def _list_prefix_suffix(
         self,
         ele: Tag,
-        classes: frozenset,
+        classes: Set[str],
         list_stack: tuple[int, ...],
         *,
         references_override: bool = False,
@@ -1208,7 +1224,7 @@ class WikiHtmlConverter:
         return prefix, suffix
 
     def _handle_ol(
-        self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
+        self, ele: Tag, classes: Set[str], list_stack: tuple[int, ...]
     ) -> _HandlerConfig:
         prefix, suffix = self._list_prefix_suffix(
             ele, classes, list_stack, references_override=True
@@ -1219,7 +1235,7 @@ class WikiHtmlConverter:
             list_stack=(*list_stack, 0),
         )
 
-    def _handle_portalbox(self, ele: Tag, classes: frozenset) -> _HandlerConfig | None:
+    def _handle_portalbox(self, ele: Tag, classes: Set[str]) -> _HandlerConfig | None:
         if ele.name != "ul":
             return None
 
@@ -1235,7 +1251,7 @@ class WikiHtmlConverter:
         return _HandlerConfig(process_strings=process)
 
     def _handle_ul(
-        self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
+        self, ele: Tag, classes: Set[str], list_stack: tuple[int, ...]
     ) -> _HandlerConfig:
         prefix, suffix = self._list_prefix_suffix(ele, classes, list_stack)
         return _HandlerConfig(
@@ -1245,7 +1261,7 @@ class WikiHtmlConverter:
         )
 
     def _handle_li(
-        self, ele: Tag, classes: frozenset, list_stack: tuple[int, ...]
+        self, ele: Tag, classes: Set[str], list_stack: tuple[int, ...]
     ) -> _HandlerConfig:
         item = list_stack[-1] if list_stack else -1
         # Suppress suffix in table cells when the <li> contains
@@ -1277,19 +1293,19 @@ class WikiHtmlConverter:
                 suffix=li_suffix,
             )
 
-    def _handle_cite(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_cite(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         prefix = ""
         if id := ele.get("id"):
             id = str(id).replace("_", " ")
             prefix = f'<a id="{id}"></a> '
         return _HandlerConfig(prefix=prefix)
 
-    def _handle_tbody(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_tbody(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         self._normalize_table_cells(ele)
         self._merge_sidebar_headers(ele)
         return _HandlerConfig(prefix="\n", suffix="\n\n")
 
-    def _handle_thead(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_thead(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         self._normalize_table_cells(ele)
         return _HandlerConfig(prefix="\n", suffix="\n\n")
 
@@ -1305,7 +1321,7 @@ class WikiHtmlConverter:
             else:
                 tdh["colspan"] = "1"
                 navbox = any(
-                    isinstance(p, Tag) and "navbox" in p.get("class", [])
+                    isinstance(p, Tag) and "navbox" in (p.get("class") or [])
                     for p in tdh.parents
                 )
                 for _ in range(1, col_span):
@@ -1325,10 +1341,11 @@ class WikiHtmlConverter:
                 # colspan splitting, since its alignment was for the
                 # colspan'd span and does not reflect column alignment.
                 if navbox and "style" in tdh.attrs:
+                    style = str(tdh.get("style", ""))
                     tdh["style"] = re.sub(
                         r"\btext-align\s*:\s*[^;]+;?\s*",
                         "",
-                        tdh["style"],
+                        style,
                     ).strip()
                     if not tdh["style"]:
                         del tdh.attrs["style"]
@@ -1350,7 +1367,7 @@ class WikiHtmlConverter:
                         new_tdh.clear()
                         current_row.insert(col_idx, new_tdh)
 
-    def _handle_tr(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_tr(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         joiner = " | "
         prefix = "| "
         suffix = " |\n"
@@ -1372,7 +1389,7 @@ class WikiHtmlConverter:
         ]
 
         # Account for colspan when counting columns.
-        total_colspan = sum(int(c.get("colspan", 1)) for c in tag_cells)
+        total_colspan = sum(int(str(c.get("colspan", "1"))) for c in tag_cells)
 
         def filter_cells(strings: str) -> str:
             cells = [s.strip() for s in strings.split(" | ")]
@@ -1440,10 +1457,10 @@ class WikiHtmlConverter:
             process_strings=filter_cells,
         )
 
-    def _handle_td(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_td(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         return _HandlerConfig(process_strings=self._process_table_cell)
 
-    def _handle_th(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_th(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         if "sidebar-title-with-pretitle" in classes:
             return _HandlerConfig(
                 prefix="<big>",
@@ -1490,11 +1507,11 @@ class WikiHtmlConverter:
             src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
         return src_url_str
 
-    def _handle_audio(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_audio(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         if src := ele.get("href"):
 
             def process(strings: str) -> str:
-                src_url_str = self._process_archive_url(src)
+                src_url_str = self._process_archive_url(str(src))
                 embed = "!" if {"mw-tmh-player"} & classes else ""
                 return f"{embed}[{strings.strip()}]({src_url_str})"
 
@@ -1504,11 +1521,11 @@ class WikiHtmlConverter:
             )
         return _HandlerConfig()
 
-    def _handle_image(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
+    def _handle_image(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         if src := ele.get("src"):
 
             def process(strings: str) -> str:
-                src_url_str = self._process_archive_url(src)
+                src_url_str = self._process_archive_url(str(src))
                 alt = str(ele.get("alt", "")).strip()
                 if not alt:
                     alt = self._fallback_alt(ele)
@@ -1542,7 +1559,7 @@ class WikiHtmlConverter:
             return desc
         return file_title
 
-    def _handle_link(self, ele: Tag, classes: frozenset) -> _HandlerConfig | None:
+    def _handle_link(self, ele: Tag, classes: Set[str]) -> _HandlerConfig | None:
         if (title := ele.get("title")) and title not in _BAD_TITLES:
             title = str(title)
             if "new" in classes:
@@ -1647,7 +1664,7 @@ class WikiHtmlConverter:
                 isinstance(p, Tag) and p.get("typeof") == "mw:File/Frameless"
                 for p in ele.parents
             ) and any(
-                isinstance(p, Tag) and "authority-control" in p.get("class", [])
+                isinstance(p, Tag) and "authority-control" in (p.get("class") or [])
                 for p in ele.parents
             ):
                 config = _HandlerConfig(
@@ -1797,9 +1814,9 @@ async def wiki_html_to_plaintext(
     list_stack: tuple[int, ...] = (),
     escape: bool = True,
     refs: bool,
-    redirect_map: dict[str, _RedirectInfo],
+    redirect_map: Mapping[str, _RedirectInfo],
     converter: WikiHtmlConverter | None = None,
-    image_metadata: dict[str, str] | None = None,
+    image_metadata: Mapping[str, str] | None = None,
 ) -> str:
     """Convert a Wikipedia HTML element tree to a Markdown string.
 
@@ -1835,10 +1852,10 @@ async def run_pipeline(
     html: Tag,
     *,
     session: ClientSession | None = None,
-    redirect_map: dict[str, _RedirectInfo] | None = None,
-    image_metadata: dict[str, str] | None = None,
+    redirect_map: MutableMapping[str, _RedirectInfo] | None = None,
+    image_metadata: Mapping[str, str] | None = None,
     cache_path: PurePath | None = None,
-    names_map: dict[str, str] | None = None,
+    names_map: Mapping[str, str] | None = None,
     wiki_dir: PathlibPath | None = None,
     wiki_lang_dir: PathlibPath | None = None,
     refs: bool = True,
