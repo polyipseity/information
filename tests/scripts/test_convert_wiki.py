@@ -9,10 +9,12 @@ import json
 import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import cast
 
 import anyio
 import pytest
-from bs4 import BeautifulSoup
+from aiohttp import ClientSession
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 from scripts import convert_wiki as _mod
 
@@ -138,11 +140,13 @@ class TestBs4NewElement:
     def test_parse_simple_tag(self) -> None:
         """Should parse a simple HTML tag string."""
         result = _mod._bs4_new_element("<b></b>")  # noqa: SLF001
+        assert isinstance(result, Tag)
         assert result.name == "b"
 
     def test_parse_tag_with_content(self) -> None:
         """Should parse a tag with text content."""
         result = _mod._bs4_new_element("<i>text</i>")  # noqa: SLF001
+        assert isinstance(result, Tag)
         assert result.name == "i"
         assert result.string == "text"
 
@@ -249,10 +253,12 @@ class TestWithCwd:
         # We need to monkeypatch getcwd/chdir since we can't actually chdir without
         # affecting other tests
 
-        def tracking_chdir(path: str) -> None:
-            tracking_chdir.last_path = path  # type: ignore[attr-defined]
+        last_path: str | None = None
 
-        tracking_chdir.last_path = None  # type: ignore[attr-defined]
+        def tracking_chdir(path: str) -> None:
+            nonlocal last_path
+            last_path = path
+
         monkeypatch.setattr("scripts.convert_wiki.chdir", tracking_chdir)
         # Note: we test through the context manager but can't fully test
         # without actually changing the cwd
@@ -275,7 +281,7 @@ class TestWithCwd:
         monkeypatch.setattr("scripts.convert_wiki.chdir", tracking_chdir)
 
         try:
-            with _mod._with_cwd("/tmp"):  # noqa: SLF001
+            with _mod._with_cwd(Path("/tmp")):  # noqa: SLF001
                 raise ValueError("test exception")
         except ValueError:
             pass
@@ -561,7 +567,7 @@ class TestApiRequest:
                 get = MockGet()
 
             result = await _mod._api_request(  # noqa: SLF001
-                MockSession(),  # type: ignore[arg-type]
+                cast(ClientSession, MockSession()),
                 {"action": "query"},
             )
             assert result == {"key": "value"}
@@ -605,7 +611,7 @@ class TestApiRequest:
                 get = MockGet()
 
             result = await _mod._api_request(  # noqa: SLF001
-                MockSession(),  # type: ignore[arg-type]
+                cast(ClientSession, MockSession()),
                 {"action": "query"},
             )
             assert result == {"key": "value"}
@@ -633,7 +639,7 @@ class TestResolveRedirects:
                     raise RuntimeError(msg)
 
             result = await _mod._resolve_redirects(  # noqa: SLF001
-                MockSession(),  # type: ignore[arg-type]
+                cast(ClientSession, MockSession()),
                 titles,
                 cache,
             )
@@ -687,7 +693,7 @@ class TestResolveRedirects:
                 get = MockGet()
 
             result = await _mod._resolve_redirects(  # noqa: SLF001
-                MockSession(),  # type: ignore[arg-type]
+                cast(ClientSession, MockSession()),
                 titles,
                 cache,
             )
@@ -739,7 +745,7 @@ class TestResolveRedirects:
                 get = MockGet()
 
             result = await _mod._resolve_redirects(  # noqa: SLF001
-                MockSession(),  # type: ignore[arg-type]
+                cast(ClientSession, MockSession()),
                 titles,
                 cache,
             )
@@ -785,7 +791,7 @@ class TestResolveRedirects:
                 get = MockGet()
 
             result = await _mod._resolve_redirects(  # noqa: SLF001
-                MockSession(),  # type: ignore[arg-type]
+                cast(ClientSession, MockSession()),
                 titles,
                 cache,
             )
@@ -823,14 +829,14 @@ class TestResolveRedirects:
             class MockResponse:
                 status = 200
 
-                def __init__(self, data: dict) -> None:
+                def __init__(self, data: dict[str, object]) -> None:
                     self._data = data
 
                 @property
-                def headers(self) -> dict:
+                def headers(self) -> dict[str, str]:
                     return {}
 
-                async def json(self) -> dict:
+                async def json(self) -> dict[str, object]:
                     return self._data
 
                 async def __aenter__(self) -> "MockResponse":
@@ -860,7 +866,7 @@ class TestResolveRedirects:
                 get = MockGet()
 
             result = await _mod._resolve_redirects(  # noqa: SLF001
-                MockSession(),  # type: ignore[arg-type]
+                cast(ClientSession, MockSession()),
                 titles,
                 loaded,
             )
@@ -898,19 +904,19 @@ class TestResolveRedirectsWithRealResponses:
         # Load the raw API responses from the consolidated aux fixture.
         aux_path = _SNAPSHOT_DIR / "modern physics.aux.json"
         aux = json.loads(aux_path.read_text(encoding="UTF-8"))
-        raw_batches: list[dict] = aux["api_responses"]
+        raw_batches: list[dict[str, object]] = aux["api_responses"]
 
         # Build a mock session that returns each batch response in order.
         class MockResponse:
-            def __init__(self, data: dict, status: int = 200) -> None:
+            def __init__(self, data: dict[str, object], status: int = 200) -> None:
                 self.status = status
                 self._data = data
 
             @property
-            def headers(self) -> dict:
+            def headers(self) -> dict[str, str]:
                 return {}
 
-            async def json(self) -> dict:
+            async def json(self) -> dict[str, object]:
                 return self._data
 
             async def __aenter__(self) -> "MockResponse":
@@ -942,7 +948,7 @@ class TestResolveRedirectsWithRealResponses:
         titles = _mod._collect_link_titles(html)  # noqa: SLF001
 
         result = await _mod._resolve_redirects(  # noqa: SLF001
-            MockSession(),  # type: ignore[arg-type]
+            cast(ClientSession, MockSession()),
             titles,
             {},
         )
@@ -1195,6 +1201,7 @@ class TestImageAltTextFallback:
             "html.parser",
         )
         img = html.find("img")
+        assert isinstance(img, Tag)
         result = _mod._get_image_filename(img)  # noqa: SLF001
         assert result == "Foo Bar.svg"
 
@@ -1206,6 +1213,7 @@ class TestImageAltTextFallback:
             "html.parser",
         )
         img = html.find("img")
+        assert isinstance(img, Tag)
         result = _mod._get_image_filename(img)  # noqa: SLF001
         assert result == "ExampleImage.svg"
 
@@ -1216,6 +1224,7 @@ class TestImageAltTextFallback:
             "html.parser",
         )
         img = html.find("img")
+        assert isinstance(img, Tag)
         result = _mod._get_image_filename(img)  # noqa: SLF001
         assert result == "Modernphysicsfields.svg"
 
@@ -1223,6 +1232,7 @@ class TestImageAltTextFallback:
         """``_get_image_filename`` should return ``None`` when neither attribute is usable."""
         html = _mod.BeautifulSoup('<img alt="no url"/>', "html.parser")
         img = html.find("img")
+        assert isinstance(img, Tag)
         result = _mod._get_image_filename(img)  # noqa: SLF001
         assert result is None
 
@@ -1233,6 +1243,7 @@ class TestImageAltTextFallback:
             "html.parser",
         )
         img = html.find("img")
+        assert isinstance(img, Tag)
         result = _mod._get_image_filename(img)  # noqa: SLF001
         assert result is None
 
@@ -1259,6 +1270,7 @@ class TestImageAltTextFallback:
             "html.parser",
         )
         img = html.find("img")
+        assert isinstance(img, Tag)
         result = converter._fallback_alt(img)  # noqa: SLF001
         assert result == "File:Foo.svg"
 
@@ -1272,6 +1284,7 @@ class TestImageAltTextFallback:
             "html.parser",
         )
         img = html.find("img")
+        assert isinstance(img, Tag)
         result = converter._fallback_alt(img)  # noqa: SLF001
         assert result == "A description of Foo"
 
@@ -1280,5 +1293,6 @@ class TestImageAltTextFallback:
         converter = _mod.WikiHtmlConverter(image_metadata={})
         html = _mod.BeautifulSoup('<img alt="no url"/>', "html.parser")
         img = html.find("img")
+        assert isinstance(img, Tag)
         result = converter._fallback_alt(img)  # noqa: SLF001
         assert result == ""
