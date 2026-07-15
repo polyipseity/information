@@ -233,11 +233,6 @@ _CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n{3,}")
 _TEXT_ALIGN_REGEX: Pattern[str] = compile(r"text-align:\s*(left|center|right)")
 "Regex for collapsing consecutive empty blockquote lines."
 _COLLAPSE_EMPTY_BLOCKQUOTE_RE: Pattern[str] = compile(r"(?:^>\n){2,}", MULTILINE)
-"Regex for merging sidebar pretitle+title header rows."
-_SIDEBAR_HEADER_MERGE_RE: Pattern[str] = compile(
-    r"^\| ([^|]+) \|\n\| ([^|]+) \|\n\| ([^|]+) \|\n"
-)
-"Regex for stripping leading whitespace on each line."
 _CONSECUTIVE_LEADING_WHITESPACES_REGEX: Pattern[str] = compile(r"^[ \t]+", MULTILINE)
 "Regex for handling table-in-table headers."
 _TABLE_IN_TABLE_HEADER_REGEX: Pattern[str] = compile(r"\| (__.*?__) \|")
@@ -997,6 +992,98 @@ class WikiHtmlConverter:
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
     @staticmethod
+    def _merge_sidebar_headers(ele: Tag) -> None:
+        """Merge sidebar header rows (pretitle + title) into a single <tr>.
+
+        Wikipedia sidebar tables separate the pretitle ("Part of a series on")
+        and title into different <tr> elements. Markdown pipe tables only
+        support a single header row before the |---| separator, so we
+        collapse header rows into one at the DOM level.
+        """
+        trs = [c for c in ele.children if isinstance(c, Tag) and c.name == "tr"]
+        header_trs: list[Tag] = []
+        target_tr: Tag | None = None
+        target_cell: Tag | None = None
+
+        for tr in trs:
+            first_cell = tr.find(("th", "td"))
+            if first_cell is None:
+                continue
+            cell_classes = first_cell.get_attribute_list("class")
+            if (
+                "sidebar-pretitle" in cell_classes
+                or "sidebar-title" in cell_classes
+                or "sidebar-title-with-pretitle" in cell_classes
+            ):
+                header_trs.append(tr)
+                if first_cell.name == "th":
+                    target_tr = tr
+                    target_cell = first_cell
+            else:
+                break
+
+        if len(header_trs) <= 1:
+            return
+
+        # If no <th> header row found, use the last header row as target.
+        if target_tr is None:
+            target_tr = header_trs[-1]
+            target_cell = target_tr.find(("th", "td"))
+
+        assert target_cell is not None, "target_cell should not be None"
+
+        # For sidebar-title-with-pretitle: wrap inner content in <big> in the
+        # DOM, then change class to sidebar-title so _handle_th won't double-wrap.
+        cell_classes = target_cell.get_attribute_list("class")
+        if "sidebar-title-with-pretitle" in cell_classes:
+            big = _bs4_new_element("<big></big>")
+            assert isinstance(big, Tag)
+            for child in list(target_cell.contents):
+                big.append(child.extract())
+            target_cell.append(big)
+            cell_classes = [
+                c for c in cell_classes if c != "sidebar-title-with-pretitle"
+            ]
+            cell_classes.append("sidebar-title")
+            target_cell["class"] = cell_classes
+
+        # Remove font-weight: bold from the cell's inline style to prevent
+        # _handle_bold_italic from bold-wrapping the entire merged cell.
+        style = str(target_cell.get("style", ""))
+        if style:
+            new_style = _BOLD_FONT_STYLE_REGEX.sub("", style).strip()
+            if new_style:
+                target_cell["style"] = new_style
+            else:
+                del target_cell.attrs["style"]
+
+        # Wrap all existing content of the target cell in <b> for bold
+        # wrapping (the title should remain bold in the merged header).
+        b_tag = _bs4_new_element("<b></b>")
+        assert isinstance(b_tag, Tag)
+        for child in list(target_cell.contents):
+            b_tag.append(child.extract())
+        target_cell.append(b_tag)
+
+        # Move content from extra header rows into the target cell.
+        for tr in header_trs:
+            if tr is target_tr:
+                continue
+            first_cell = tr.find(("th", "td"))
+            if first_cell is None:
+                continue
+
+            children = list(first_cell.children)
+            # Insert <br/> before the <b>-wrapped content.
+            br = _bs4_new_element("<br/>")
+            target_cell.insert(0, br)
+            # Prepend children in reverse to preserve original order.
+            for child in reversed(children):
+                target_cell.insert(0, child.extract())
+
+            tr.decompose()
+
+    @staticmethod
     def _in_table_cell(ele: Tag) -> bool:
         """Check if element is nested inside a <td> or <th>."""
         return any(isinstance(p, Tag) and p.name in _TD_OR_TH for p in ele.parents)
@@ -1199,14 +1286,7 @@ class WikiHtmlConverter:
 
     def _handle_tbody(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
         self._normalize_table_cells(ele)
-        if isinstance(ele.parent, Tag) and "sidebar" in ele.parent.get("class", []):
-            return _HandlerConfig(
-                prefix="\n",
-                suffix="\n\n",
-                process_strings=lambda s: _SIDEBAR_HEADER_MERGE_RE.sub(
-                    r"| \1 <br/> \2 |\n| --- |\n", s
-                ),
-            )
+        self._merge_sidebar_headers(ele)
         return _HandlerConfig(prefix="\n", suffix="\n\n")
 
     def _handle_thead(self, ele: Tag, classes: frozenset) -> _HandlerConfig:
