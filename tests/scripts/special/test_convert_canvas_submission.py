@@ -12,6 +12,8 @@ from pathlib import Path
 import pytest
 from bs4 import BeautifulSoup
 
+from typing import cast
+
 from scripts.special import convert_canvas_submission as _mod
 
 # ---------------------------------------------------------------------------
@@ -303,7 +305,7 @@ class TestParseTitleAndContent:
         """An invalid page type should raise ValueError."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         with pytest.raises(ValueError, match="invalid"):
-            _mod.parse_title_and_content(soup, page_type="invalid")  # type: ignore[arg-type]
+            _mod.parse_title_and_content(soup, page_type=cast(_mod.AssignmentPageType, "invalid"))
 
 
 # ---------------------------------------------------------------------------
@@ -417,7 +419,7 @@ class TestParseGrade:
     def test_invalid_page_type(self) -> None:
         soup = BeautifulSoup("<div></div>", "html.parser")
         with pytest.raises(ValueError, match="invalid"):
-            _mod.parse_grade(soup, page_type="invalid")  # type: ignore[arg-type]
+            _mod.parse_grade(soup, page_type=cast(_mod.AssignmentPageType, "invalid"))
 
 
 # ---------------------------------------------------------------------------
@@ -574,7 +576,7 @@ class TestParseProperties:
         with pytest.raises(ValueError, match="invalid"):
             _mod.parse_properties(
                 soup,
-                page_type="invalid",  # type: ignore[arg-type]
+                page_type=cast(_mod.AssignmentPageType, "invalid"),
                 reference_datetime=self.REF,
             )
 
@@ -709,7 +711,7 @@ class TestParseComments:
         with pytest.raises(ValueError):
             _mod.parse_comments(
                 soup,
-                page_type="invalid",  # type: ignore[arg-type]
+                page_type=cast(_mod.AssignmentPageType, "invalid"),
                 reference_datetime=self.REF,
             )
 

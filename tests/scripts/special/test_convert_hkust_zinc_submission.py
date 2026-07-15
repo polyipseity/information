@@ -11,6 +11,8 @@ from datetime import datetime, timezone
 import pytest
 from bs4 import BeautifulSoup
 
+from typing import cast
+
 from scripts.special import convert_hkust_zinc_submission as _mod
 
 # ---------------------------------------------------------------------------
@@ -243,7 +245,7 @@ class TestParseTitleAndContent:
         soup = BeautifulSoup("<div></div>", "html.parser")
         with pytest.raises(ValueError, match="invalid"):
             _mod.parse_title_and_content(
-                soup, page_type="invalid"  # type: ignore[arg-type]
+                soup, page_type=cast(_mod.AssignmentPageType, "invalid")
             )
 
 
@@ -342,7 +344,7 @@ class TestParseGrade:
         soup = BeautifulSoup("<div></div>", "html.parser")
         with pytest.raises(ValueError, match="invalid"):
             _mod.parse_grade(
-                soup, page_type="invalid"  # type: ignore[arg-type]
+                soup, page_type=cast(_mod.AssignmentPageType, "invalid")
             )
 
 
@@ -541,7 +543,7 @@ class TestParseProperties:
             _mod.parse_properties(
                 soup,
                 soup,
-                page_type="invalid",  # type: ignore[arg-type]
+                page_type=cast(_mod.AssignmentPageType, "invalid"),
                 reference_datetime=self.REF,
             )
 

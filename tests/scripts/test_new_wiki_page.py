@@ -1,6 +1,6 @@
 """Tests for scripts/new_wiki_page.py."""
 
-from collections.abc import Iterator
+from collections.abc import Callable
 from pathlib import Path
 
 import pytest
@@ -13,31 +13,31 @@ class TestResolveLang:
 
     def test_english_alpha2(self) -> None:
         """Should resolve 'en' to English."""
-        dir_code, name = _mod._resolve_lang("en")  # noqa: SLF001
+        dir_code, name, _ = _mod._resolve_lang("en")  # noqa: SLF001
         assert dir_code == "eng"
         assert name == "English"
 
     def test_english_alpha3(self) -> None:
         """Should resolve 'eng' to English."""
-        dir_code, name = _mod._resolve_lang("eng")  # noqa: SLF001
+        dir_code, name, _ = _mod._resolve_lang("eng")  # noqa: SLF001
         assert dir_code == "eng"
         assert name == "English"
 
     def test_chinese_alpha2(self) -> None:
         """Should resolve 'zh' to Chinese."""
-        dir_code, name = _mod._resolve_lang("zh")  # noqa: SLF001
+        dir_code, name, _ = _mod._resolve_lang("zh")  # noqa: SLF001
         assert dir_code == "zho"
         assert name == "Chinese"
 
     def test_chinese_alpha3(self) -> None:
         """Should resolve 'zho' to Chinese."""
-        dir_code, name = _mod._resolve_lang("zho")  # noqa: SLF001
+        dir_code, name, _ = _mod._resolve_lang("zho")  # noqa: SLF001
         assert dir_code == "zho"
         assert name == "Chinese"
 
     def test_case_and_whitespace_insensitive(self) -> None:
         """Should be case and whitespace insensitive."""
-        dir_code, name = _mod._resolve_lang("  EN  ")  # noqa: SLF001
+        dir_code, name, _ = _mod._resolve_lang("  EN  ")  # noqa: SLF001
         assert dir_code == "eng"
         assert name == "English"
 
@@ -50,11 +50,11 @@ class TestResolveLang:
 class TestMain:
     """Tests for the main() function."""
 
-    def _fake_input(self, answers: list[str]) -> Iterator[str]:
+    def _fake_input(self, answers: list[str]) -> Callable[[str], str]:
         """Return a fake input() that yields pre-defined answers."""
         answers_iter = iter(answers)
 
-        def fake(prompt: str = "") -> str:  # type: ignore[assignment]
+        def fake(prompt: str = "") -> str:
             return next(answers_iter)
 
         return fake
@@ -162,10 +162,12 @@ class TestMain:
         # Simulate an OSError during temp file write
         original_write_text = Path.write_text
 
-        def broken_write_text(self, *args: object, **kwargs: object) -> None:
+        def broken_write_text(
+            self, data: str, encoding: str | None = None, errors: str | None = None, newline: str | None = None
+        ) -> int:
             if str(self).endswith(".md.tmp"):
                 raise OSError("Simulated write failure")
-            return original_write_text(self, *args, **kwargs)  # type: ignore[return-value]
+            return original_write_text(self, data, encoding=encoding, errors=errors, newline=newline)
 
         monkeypatch.setattr(Path, "write_text", broken_write_text)
 

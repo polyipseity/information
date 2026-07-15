@@ -1,7 +1,9 @@
 """Tests for scripts/find_missing_flashcard_states.py."""
 
+from os import fspath
 from pathlib import Path
 
+import anyio
 import pytest
 
 from scripts import find_missing_flashcard_states as _mod
@@ -42,96 +44,115 @@ class TestCheckFile:
 
     @pytest.mark.anyio
     async def test_skip_directory(
-        self, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+        self, capsys: pytest.CaptureFixture[str], tmp_path: Path
     ) -> None:
         """Should not print anything for a directory."""
-        fake_path = _fake_path(monkeypatch, is_dir=True, text="")
-        await _mod._check_file(fake_path)  # noqa: SLF001
+        dir_path = tmp_path / "somedir"
+        dir_path.mkdir()
+        await _mod._check_file(anyio.Path(fspath(dir_path)))  # noqa: SLF001
         captured = capsys.readouterr()
         assert captured.out == ""
 
     @pytest.mark.anyio
     async def test_skip_symlink(
-        self, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+        self, capsys: pytest.CaptureFixture[str], tmp_path: Path
     ) -> None:
         """Should not print anything for a symlink."""
-        fake_path = _fake_path(monkeypatch, is_symlink=True, text="")
-        await _mod._check_file(fake_path)  # noqa: SLF001
+        target = tmp_path / "target"
+        target.write_text("content", encoding="utf-8")
+        link = tmp_path / "link"
+        link.symlink_to(target)
+        await _mod._check_file(anyio.Path(fspath(link)))  # noqa: SLF001
         captured = capsys.readouterr()
         assert captured.out == ""
 
     @pytest.mark.anyio
     async def test_no_markers_no_states(
-        self, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+        self, capsys: pytest.CaptureFixture[str], tmp_path: Path
     ) -> None:
         """Should not print if there are no flashcard markers at all."""
-        fake_path = _fake_path(monkeypatch, text="plain text without markers")
-        await _mod._check_file(fake_path)  # noqa: SLF001
+        file_path = tmp_path / "test.md"
+        file_path.write_text("plain text without markers", encoding="utf-8")
+        await _mod._check_file(anyio.Path(fspath(file_path)))  # noqa: SLF001
         captured = capsys.readouterr()
         assert captured.out == ""
 
     @pytest.mark.anyio
     async def test_equal_markers_and_states(
-        self, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+        self, capsys: pytest.CaptureFixture[str], tmp_path: Path
     ) -> None:
         """Should not print if flashcard markers equal flashcard states."""
-        text = "{@{cloze}@} <!--SR:!2024-01-15,100,5-->"
-        fake_path = _fake_path(monkeypatch, text=text)
-        await _mod._check_file(fake_path)  # noqa: SLF001
+        file_path = tmp_path / "test.md"
+        file_path.write_text(
+            "{@{cloze}@} <!--SR:!2024-01-15,100,5-->", encoding="utf-8"
+        )
+        await _mod._check_file(anyio.Path(fspath(file_path)))  # noqa: SLF001
         captured = capsys.readouterr()
         assert captured.out == ""
 
     @pytest.mark.anyio
     async def test_more_states_than_markers(
-        self, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+        self, capsys: pytest.CaptureFixture[str], tmp_path: Path
     ) -> None:
         """Should not print if there are more states than markers (unexpected but handled)."""
-        text = "{@{cloze}@} <!--SR:!2024-01-15,100,5!2024-01-16,200,6-->"
-        fake_path = _fake_path(monkeypatch, text=text)
-        await _mod._check_file(fake_path)  # noqa: SLF001
+        file_path = tmp_path / "test.md"
+        file_path.write_text(
+            "{@{cloze}@} <!--SR:!2024-01-15,100,5!2024-01-16,200,6-->",
+            encoding="utf-8",
+        )
+        await _mod._check_file(anyio.Path(fspath(file_path)))  # noqa: SLF001
         captured = capsys.readouterr()
         assert captured.out == ""
 
     @pytest.mark.anyio
     async def test_missing_states_printed(
-        self, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+        self, capsys: pytest.CaptureFixture[str], tmp_path: Path
     ) -> None:
         """Should print file path when there are fewer states than markers."""
-        text = "{@{cloze_a}@} {@{cloze_b}@} <!--SR:!2024-01-15,100,5-->"
-        fake_path = _fake_path(monkeypatch, text=text)
-        await _mod._check_file(fake_path)  # noqa: SLF001
+        file_path = tmp_path / "test.md"
+        file_path.write_text(
+            "{@{cloze_a}@} {@{cloze_b}@} <!--SR:!2024-01-15,100,5-->",
+            encoding="utf-8",
+        )
+        await _mod._check_file(anyio.Path(fspath(file_path)))  # noqa: SLF001
         captured = capsys.readouterr()
-        assert str(fake_path) in captured.out
+        assert str(file_path) in captured.out
 
     @pytest.mark.anyio
     async def test_counts_qa_markers(
-        self, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+        self, capsys: pytest.CaptureFixture[str], tmp_path: Path
     ) -> None:
         """Should count ::@:: and :@: markers in addition to {@{."""
-        text = "question ::@:: answer :@:"
-        fake_path = _fake_path(monkeypatch, text=text)
-        await _mod._check_file(fake_path)  # noqa: SLF001
+        file_path = tmp_path / "test.md"
+        file_path.write_text("question ::@:: answer :@:", encoding="utf-8")
+        await _mod._check_file(anyio.Path(fspath(file_path)))  # noqa: SLF001
         captured = capsys.readouterr()
-        assert str(fake_path) in captured.out
+        assert str(file_path) in captured.out
 
     @pytest.mark.anyio
     async def test_mixed_markers_missing_states(
-        self, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+        self, capsys: pytest.CaptureFixture[str], tmp_path: Path
     ) -> None:
         """Should detect missing states with mixed cloze and QA markers."""
-        text = "{@{cloze}@} ::@:: <!--SR:!2024-01-15,100,5-->"
-        fake_path = _fake_path(monkeypatch, text=text)
-        await _mod._check_file(fake_path)  # noqa: SLF001
+        file_path = tmp_path / "test.md"
+        file_path.write_text(
+            "{@{cloze}@} ::@:: <!--SR:!2024-01-15,100,5-->",
+            encoding="utf-8",
+        )
+        await _mod._check_file(anyio.Path(fspath(file_path)))  # noqa: SLF001
         captured = capsys.readouterr()
-        assert str(fake_path) in captured.out
+        assert str(file_path) in captured.out
 
     @pytest.mark.anyio
     async def test_zero_markers_any_states(
-        self, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+        self, capsys: pytest.CaptureFixture[str], tmp_path: Path
     ) -> None:
         """Should not print when there are zero markers regardless of states."""
-        fake_path = _fake_path(monkeypatch, text="<!--SR:!2024-01-15,100,5-->")
-        await _mod._check_file(fake_path)  # noqa: SLF001
+        file_path = tmp_path / "test.md"
+        file_path.write_text(
+            "<!--SR:!2024-01-15,100,5-->", encoding="utf-8"
+        )
+        await _mod._check_file(anyio.Path(fspath(file_path)))  # noqa: SLF001
         captured = capsys.readouterr()
         assert captured.out == ""
 
@@ -204,36 +225,3 @@ class TestMain:
         assert captured.out == ""
 
 
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
-
-
-def _fake_path(
-    monkeypatch: pytest.MonkeyPatch,
-    *,
-    is_dir: bool = False,
-    is_symlink: bool = False,
-    text: str = "",
-) -> object:
-    """Return a stub Path-like object for _check_file testing."""
-
-    class _FakePath:
-        def __init__(self) -> None:
-            self._is_dir = is_dir
-            self._is_symlink = is_symlink
-            self._text = text
-
-        async def is_dir(self) -> bool:
-            return self._is_dir
-
-        async def is_symlink(self) -> bool:
-            return self._is_symlink
-
-        async def read_text(self) -> str:
-            return self._text
-
-        def __str__(self) -> str:
-            return "/fake/path.md"
-
-    return _FakePath()

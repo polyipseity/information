@@ -13,6 +13,8 @@ from pathlib import Path
 from sys import stdout
 
 import pytest
+from typing import Any, cast
+
 from aiohttp import ClientSession
 
 from scripts.special import get_hkust_undergraduate_courses as _mod
@@ -36,7 +38,7 @@ class TestSubject:
         """Should raise FrozenInstanceError when modifying attributes."""
         s = _mod.Subject(code="MATH", name="Mathematics", credit="4")
         with pytest.raises(FrozenInstanceError):
-            s.code = "PHYS"  # type: ignore[misc]
+            cast(Any, s).code = "PHYS"
 
     def test_hashable(self) -> None:
         """Should be usable as a dict key."""
@@ -66,7 +68,7 @@ class TestSubject:
     def test_kw_only(self) -> None:
         """Should require keyword arguments."""
         with pytest.raises(TypeError):
-            _mod.Subject("COMP", "CS", "3")  # type: ignore[call-arg]
+            cast(Any, _mod.Subject)("COMP", "CS", "3")
 
 
 # ---------------------------------------------------------------------------
@@ -143,7 +145,7 @@ class _FakeClientSession:
 
 def _fake_session(get_fn: Callable[..., object]) -> ClientSession:
     """Build a fake aiohttp.ClientSession with a configurable .get method."""
-    return _FakeClientSession(get_fn)  # type: ignore[return-value]
+    return cast(ClientSession, _FakeClientSession(get_fn))
 
 
 # ---------------------------------------------------------------------------
