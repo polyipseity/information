@@ -10,11 +10,13 @@ cannot be imported at module level — they are tested indirectly via main().
 
 from collections.abc import Mapping, Set
 from dataclasses import FrozenInstanceError
-from pathlib import Path
+from pathlib import Path as PathlibPath
+from typing import Any, cast
 from zipfile import ZipFile
 
 import numpy as np
 import pytest
+from anyio import Path
 
 from scripts import pack as _mod
 
@@ -83,7 +85,7 @@ class TestArguments:
             files=(),
         )
         with pytest.raises(FrozenInstanceError):
-            args.count = 99  # type: ignore[misc]
+            cast(Any, args).count = 99
 
     def test_repr(self) -> None:
         """repr should include fields."""
@@ -102,7 +104,15 @@ class TestArguments:
 
     def test_eq(self) -> None:
         """Equality should work."""
-        kw = dict(
+        assert _mod.Arguments(
+            output=_mod.Path("o"),
+            root=None,
+            count=1,
+            damping_factor=0.5,
+            page_rank_iterations=1,
+            exclude_extensions=(),
+            files=(),
+        ) == _mod.Arguments(
             output=_mod.Path("o"),
             root=None,
             count=1,
@@ -111,7 +121,6 @@ class TestArguments:
             exclude_extensions=(),
             files=(),
         )
-        assert _mod.Arguments(**kw) == _mod.Arguments(**kw)
 
     def test_root_none_allowed(self) -> None:
         """root may be None."""
@@ -419,7 +428,7 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_root_not_contain_files_raises(
-        self, tmp_path: Path
+        self, tmp_path: PathlibPath
     ) -> None:
         """Should raise ValueError when root does not contain all files."""
         output = tmp_path / "out.zip"
@@ -445,7 +454,7 @@ class TestMain:
             await _mod.main(args)
 
     @pytest.mark.anyio
-    async def test_simple_markdown_file(self, tmp_path: Path) -> None:
+    async def test_simple_markdown_file(self, tmp_path: PathlibPath) -> None:
         """Should pack a single markdown file with no links."""
         root = tmp_path / "root"
         root.mkdir()
@@ -473,7 +482,7 @@ class TestMain:
             assert any(n.startswith("metadata") for n in names)
 
     @pytest.mark.anyio
-    async def test_two_files_with_link(self, tmp_path: Path) -> None:
+    async def test_two_files_with_link(self, tmp_path: PathlibPath) -> None:
         """Should handle a file linking to another in the same dir."""
         root = tmp_path / "root"
         root.mkdir()
@@ -500,7 +509,7 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_directory_input_expanded(
-        self, tmp_path: Path
+        self, tmp_path: PathlibPath
     ) -> None:
         """When a file argument is a directory, it should be expanded recursively."""
         root = tmp_path / "root"
@@ -530,7 +539,7 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_exclude_extension_skips(
-        self, tmp_path: Path
+        self, tmp_path: PathlibPath
     ) -> None:
         """Files with excluded extensions should not appear in output."""
         root = tmp_path / "root"
@@ -560,7 +569,7 @@ class TestMain:
             assert not any("doc.txt" in n for n in names)
 
     @pytest.mark.anyio
-    async def test_negative_count_keeps_all(self, tmp_path: Path) -> None:
+    async def test_negative_count_keeps_all(self, tmp_path: PathlibPath) -> None:
         """Negative count should keep all files (no filtering)."""
         root = tmp_path / "root"
         root.mkdir()
@@ -586,7 +595,7 @@ class TestMain:
             assert "b.md" in names
 
     @pytest.mark.anyio
-    async def test_missing_link_target_recorded(self, tmp_path: Path) -> None:
+    async def test_missing_link_target_recorded(self, tmp_path: PathlibPath) -> None:
         """Links to non-existent files should be recorded in metadata as missing."""
         root = tmp_path / "root"
         root.mkdir()
@@ -614,7 +623,7 @@ class TestMain:
             assert any("nonexistent" in p for p in meta["missing_paths"])
 
     @pytest.mark.anyio
-    async def test_metadata_contains_arguments(self, tmp_path: Path) -> None:
+    async def test_metadata_contains_arguments(self, tmp_path: PathlibPath) -> None:
         """Metadata JSON should include the serialised Arguments."""
         root = tmp_path / "root"
         root.mkdir()

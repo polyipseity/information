@@ -3,6 +3,7 @@
 import os
 from argparse import ArgumentParser
 from pathlib import Path, PurePath
+from typing import Any, cast
 
 import pytest
 
@@ -127,7 +128,7 @@ class TestArguments:
 
     def test_create(self) -> None:
         """Should create instance with valid arguments."""
-        p = Path("test.txt")
+        p = _mod.Path("test.txt")
         args = _mod.Arguments(
             allow_trailing_whitespaces_in_paths=False,
             paths_file=p,
@@ -139,16 +140,16 @@ class TestArguments:
         """Should be immutable (frozen dataclass)."""
         args = _mod.Arguments(
             allow_trailing_whitespaces_in_paths=False,
-            paths_file=Path("test.txt"),
+            paths_file=_mod.Path("test.txt"),
         )
         with pytest.raises(AttributeError):
-            args.allow_trailing_whitespaces_in_paths = True  # type: ignore[misc]
+            cast(Any, args).allow_trailing_whitespaces_in_paths = True
 
     def test_allow_trailing_whitespaces_true(self) -> None:
         """Should store True for allow_trailing_whitespaces_in_paths."""
         args = _mod.Arguments(
             allow_trailing_whitespaces_in_paths=True,
-            paths_file=Path("test.txt"),
+            paths_file=_mod.Path("test.txt"),
         )
         assert args.allow_trailing_whitespaces_in_paths is True
 
