@@ -1,11 +1,12 @@
 """Tests for scripts/publish.py."""
 
-import os
 from argparse import ArgumentParser
-from pathlib import Path, PurePath
+from os import PathLike, fspath
+from pathlib import PurePath
 from typing import Any, cast
 
 import pytest
+from anyio import Path
 
 from scripts import publish as _mod
 
@@ -199,28 +200,29 @@ class TestMain:
     async def test_success(
         self,
         monkeypatch: pytest.MonkeyPatch,
-        tmp_path: Path,
+        tmp_path: PathLike[str],
         capsys: pytest.CaptureFixture[str],
     ) -> None:
         """Should run the full publish pipeline without errors."""
+        tmp = Path(tmp_path)
         # Setup: create git dirs that resolve(strict=True) will find
-        (tmp_path / "private" / ".git").mkdir(parents=True)
-        (tmp_path / "public" / ".git").mkdir(parents=True)
+        await (tmp / "private" / ".git").mkdir(parents=True)
+        await (tmp / "public" / ".git").mkdir(parents=True)
         monkeypatch.setattr(
             "scripts.publish._PRIVATE_GIT_DIRECTORY",
-            PurePath(os.fspath(tmp_path / "private" / ".git")),
+            PurePath(fspath(tmp / "private" / ".git")),
         )
         monkeypatch.setattr(
             "scripts.publish._PUBLIC_GIT_DIRECTORY",
-            PurePath(os.fspath(tmp_path / "public" / ".git")),
+            PurePath(fspath(tmp / "public" / ".git")),
         )
 
         # Setup: paths file
-        paths_file = tmp_path / "paths.txt"
-        paths_file.write_text("file1\nfile2\n")
+        paths_file = tmp / "paths.txt"
+        await paths_file.write_text("file1\nfile2\n")
         args = _mod.Arguments(
             allow_trailing_whitespaces_in_paths=False,
-            paths_file=_mod.Path(os.fspath(paths_file)),
+            paths_file=_mod.Path(fspath(paths_file)),
         )
 
         # Mock _which2 (async, for soonify)
@@ -252,16 +254,16 @@ class TestMain:
         monkeypatch.setattr("scripts.publish._exec", mock_exec)
 
         # Mock TemporaryDirectory to use a controlled path under tmp_path
-        fake_tmp = tmp_path / "fakerepo"
-        fake_tmp.mkdir(parents=True, exist_ok=True)
-        (fake_tmp / ".git" / "filter-repo" / "analysis").mkdir(
+        fake_tmp = tmp / "fakerepo"
+        await fake_tmp.mkdir(parents=True, exist_ok=True)
+        await (fake_tmp / ".git" / "filter-repo" / "analysis").mkdir(
             parents=True, exist_ok=True
         )
-        (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
+        await (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
 
         class FakeTemporaryDirectory:
             def __init__(self, **kw: object) -> None:
-                self.name = os.fspath(fake_tmp)
+                self.name = fspath(fake_tmp)
 
             def __enter__(self) -> str:
                 return self.name
@@ -287,26 +289,27 @@ class TestMain:
     async def test_trailing_whitespace_error(
         self,
         monkeypatch: pytest.MonkeyPatch,
-        tmp_path: Path,
+        tmp_path: PathLike[str],
     ) -> None:
         """Should raise ValueError when paths have trailing whitespace."""
-        (tmp_path / "private" / ".git").mkdir(parents=True)
-        (tmp_path / "public" / ".git").mkdir(parents=True)
+        tmp = Path(tmp_path)
+        await (tmp / "private" / ".git").mkdir(parents=True)
+        await (tmp / "public" / ".git").mkdir(parents=True)
         monkeypatch.setattr(
             "scripts.publish._PRIVATE_GIT_DIRECTORY",
-            PurePath(os.fspath(tmp_path / "private" / ".git")),
+            PurePath(fspath(tmp / "private" / ".git")),
         )
         monkeypatch.setattr(
             "scripts.publish._PUBLIC_GIT_DIRECTORY",
-            PurePath(os.fspath(tmp_path / "public" / ".git")),
+            PurePath(fspath(tmp / "public" / ".git")),
         )
 
         # Paths file with trailing whitespace
-        paths_file = tmp_path / "paths.txt"
-        paths_file.write_text("file1 \n")
+        paths_file = tmp / "paths.txt"
+        await paths_file.write_text("file1 \n")
         args = _mod.Arguments(
             allow_trailing_whitespaces_in_paths=False,
-            paths_file=_mod.Path(os.fspath(paths_file)),
+            paths_file=_mod.Path(fspath(paths_file)),
         )
 
         async def mock_which2(cmd: str) -> str:
@@ -321,26 +324,27 @@ class TestMain:
     async def test_allow_trailing_whitespace_ok(
         self,
         monkeypatch: pytest.MonkeyPatch,
-        tmp_path: Path,
+        tmp_path: PathLike[str],
         capsys: pytest.CaptureFixture[str],
     ) -> None:
         """Should allow trailing whitespace when the flag is set."""
-        (tmp_path / "private" / ".git").mkdir(parents=True)
-        (tmp_path / "public" / ".git").mkdir(parents=True)
+        tmp = Path(tmp_path)
+        await (tmp / "private" / ".git").mkdir(parents=True)
+        await (tmp / "public" / ".git").mkdir(parents=True)
         monkeypatch.setattr(
             "scripts.publish._PRIVATE_GIT_DIRECTORY",
-            PurePath(os.fspath(tmp_path / "private" / ".git")),
+            PurePath(fspath(tmp / "private" / ".git")),
         )
         monkeypatch.setattr(
             "scripts.publish._PUBLIC_GIT_DIRECTORY",
-            PurePath(os.fspath(tmp_path / "public" / ".git")),
+            PurePath(fspath(tmp / "public" / ".git")),
         )
 
-        paths_file = tmp_path / "paths.txt"
-        paths_file.write_text("file1 \n")
+        paths_file = tmp / "paths.txt"
+        await paths_file.write_text("file1 \n")
         args = _mod.Arguments(
             allow_trailing_whitespaces_in_paths=True,
-            paths_file=_mod.Path(os.fspath(paths_file)),
+            paths_file=_mod.Path(fspath(paths_file)),
         )
 
         async def mock_which2(cmd: str) -> str:
@@ -370,16 +374,16 @@ class TestMain:
 
         monkeypatch.setattr("scripts.publish._exec", mock_exec)
 
-        fake_tmp = tmp_path / "fakerepo2"
-        fake_tmp.mkdir(parents=True, exist_ok=True)
-        (fake_tmp / ".git" / "filter-repo" / "analysis").mkdir(
+        fake_tmp = tmp / "fakerepo2"
+        await fake_tmp.mkdir(parents=True, exist_ok=True)
+        await (fake_tmp / ".git" / "filter-repo" / "analysis").mkdir(
             parents=True, exist_ok=True
         )
-        (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
+        await (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
 
         class FakeTemporaryDirectory2:
             def __init__(self, **kw: object) -> None:
-                self.name = os.fspath(fake_tmp)
+                self.name = fspath(fake_tmp)
 
             def __enter__(self) -> str:
                 return self.name

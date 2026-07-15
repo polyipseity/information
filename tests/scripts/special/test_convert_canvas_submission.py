@@ -7,10 +7,11 @@ the main() entry point.
 """
 
 from datetime import datetime, timezone
-from pathlib import Path
+from os import PathLike, fspath
 from typing import cast
 
 import pytest
+from anyio import Path
 from bs4 import BeautifulSoup
 
 from scripts.special import convert_canvas_submission as _mod
@@ -844,11 +845,12 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_main_success(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """main() with valid HTML file prints YAML to stderr and exits 0."""
-        html_file = tmp_path / "test.html"
-        html_file.write_text(
+        tmp = Path(tmp_path)
+        html_file = tmp / "test.html"
+        await html_file.write_text(
             "url: https://canvas.example.edu/courses/1/assignments/2\n"
             "saved date: Thu Sep 14 2023 10:00:00 UTC+0000\n"
             '<a href="https://canvas.example.edu/courses/1">C</a>\n'
@@ -857,7 +859,7 @@ class TestMain:
         )
         monkeypatch.setattr(
             "builtins.input",
-            lambda _: str(html_file),
+            lambda _: fspath(html_file),
         )
         printed: list[str] = []
         monkeypatch.setattr("builtins.print", lambda *a, **kw: printed.append(a[0]))
@@ -872,14 +874,15 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_main_failure(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """main() with invalid HTML exits 1."""
-        html_file = tmp_path / "bad.html"
-        html_file.write_text("no url here")
+        tmp = Path(tmp_path)
+        html_file = tmp / "bad.html"
+        await html_file.write_text("no url here")
         monkeypatch.setattr(
             "builtins.input",
-            lambda _: str(html_file),
+            lambda _: fspath(html_file),
         )
         exit_codes: list[int] = []
         monkeypatch.setattr(

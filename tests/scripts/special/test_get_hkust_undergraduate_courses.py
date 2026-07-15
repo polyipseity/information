@@ -8,13 +8,13 @@ stdout), main() (mocked HTTP and I/O).
 from collections.abc import Callable, Mapping
 from dataclasses import FrozenInstanceError
 from io import StringIO
-from os import fspath
-from pathlib import Path
+from os import PathLike, fspath
 from sys import stdout
 from typing import Any, cast
 
 import pytest
 from aiohttp import ClientSession
+from anyio import Path
 
 from scripts.special import get_hkust_undergraduate_courses as _mod
 
@@ -340,32 +340,35 @@ class TestOpenDest:
     """Tests for the open_dest async context manager."""
 
     @pytest.mark.anyio
-    async def test_to_file_creates_if_not_exists(self, tmp_path: Path) -> None:
+    async def test_to_file_creates_if_not_exists(self, tmp_path: PathLike[str]) -> None:
         """Should create the file if it doesn't exist."""
-        dest = tmp_path / "output.csv"
-        assert not dest.exists()
+        tmp = Path(tmp_path)
+        dest = tmp / "output.csv"
+        assert not await dest.exists()
         async with _mod.open_dest(fspath(dest)) as fh:
-            assert dest.exists()
+            assert await dest.exists()
             assert isinstance(fh, _mod.AsyncFile)
 
     @pytest.mark.anyio
-    async def test_to_file_writable(self, tmp_path: Path) -> None:
+    async def test_to_file_writable(self, tmp_path: PathLike[str]) -> None:
         """Should allow writing to the file."""
-        dest = tmp_path / "output.csv"
+        tmp = Path(tmp_path)
+        dest = tmp / "output.csv"
         async with _mod.open_dest(fspath(dest)) as fh:
             await fh.write("hello")
-        assert dest.read_text(encoding="UTF-8") == "hello"
+        assert await dest.read_text(encoding="UTF-8") == "hello"
 
     @pytest.mark.anyio
-    async def test_to_file_opens_existing(self, tmp_path: Path) -> None:
+    async def test_to_file_opens_existing(self, tmp_path: PathLike[str]) -> None:
         """Should open an existing file for r/w."""
-        dest = tmp_path / "existing.csv"
-        dest.write_text("old content", encoding="UTF-8")
+        tmp = Path(tmp_path)
+        dest = tmp / "existing.csv"
+        await dest.write_text("old content", encoding="UTF-8")
         async with _mod.open_dest(fspath(dest)) as fh:
             content = await fh.read()
             assert "old content" in content
             await fh.write(" + new")
-        assert "old content" in dest.read_text(encoding="UTF-8")
+        assert "old content" in await dest.read_text(encoding="UTF-8")
 
     @pytest.mark.anyio
     async def test_to_stdout(self) -> None:
@@ -380,12 +383,13 @@ class TestOpenDest:
             assert fh.wrapped is stdout
 
     @pytest.mark.anyio
-    async def test_to_file_with_anyio_path(self, tmp_path: Path) -> None:
+    async def test_to_file_with_anyio_path(self, tmp_path: PathLike[str]) -> None:
         """Should accept an anyio.Path object."""
-        dest = _mod.Path(fspath(tmp_path / "anyio_output.csv"))
+        tmp = Path(tmp_path)
+        dest = _mod.Path(fspath(tmp / "anyio_output.csv"))
         async with _mod.open_dest(dest) as fh:
             await fh.write("anyio path")
-        assert (tmp_path / "anyio_output.csv").read_text(encoding="UTF-8") == (
+        assert await (tmp / "anyio_output.csv").read_text(encoding="UTF-8") == (
             "anyio path"
         )
 
@@ -457,11 +461,12 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_existing_courses_merged(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should merge existing courses from file with freshly fetched ones."""
-        dest = tmp_path / "courses.csv"
-        dest.write_text(
+        tmp = Path(tmp_path)
+        dest = tmp / "courses.csv"
+        await dest.write_text(
             "code,name,credit\nEXIST1,Existing Course,3\n", encoding="UTF-8"
         )
 
@@ -486,7 +491,7 @@ class TestMain:
 
         await _mod.main()
 
-        content = dest.read_text(encoding="UTF-8")
+        content = await dest.read_text(encoding="UTF-8")
         assert "EXIST1" in content
         assert "COMP2011" in content
         assert "Existing Course" in content
@@ -494,10 +499,11 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_multiple_subjects(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should handle multiple subject areas."""
-        dest = tmp_path / "multi.csv"
+        tmp = Path(tmp_path)
+        dest = tmp / "multi.csv"
 
         subjects_html = """\
 <div class="subject">
@@ -532,7 +538,7 @@ class TestMain:
 
         await _mod.main()
 
-        content = dest.read_text(encoding="UTF-8")
+        content = await dest.read_text(encoding="UTF-8")
         assert "COMP2011" in content
         assert "MATH1011" in content
         # Should be sorted alphabetically by course code
@@ -542,11 +548,12 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_existing_course_overwritten(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Same course code should be overwritten by new data."""
-        dest = tmp_path / "overwrite.csv"
-        dest.write_text(
+        tmp = Path(tmp_path)
+        dest = tmp / "overwrite.csv"
+        await dest.write_text(
             "code,name,credit\nCOMP2011,Old Name,2\n", encoding="UTF-8"
         )
 
@@ -571,17 +578,18 @@ class TestMain:
 
         await _mod.main()
 
-        content = dest.read_text(encoding="UTF-8")
+        content = await dest.read_text(encoding="UTF-8")
         assert "Data Structures" in content
         assert "4" in content
         assert "Old Name" not in content
 
     @pytest.mark.anyio
     async def test_csv_format(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should produce valid CSV with header."""
-        dest = tmp_path / "fmt.csv"
+        tmp = Path(tmp_path)
+        dest = tmp / "fmt.csv"
 
         subjects_html = """\
 <div class="subject">
@@ -604,16 +612,17 @@ class TestMain:
 
         await _mod.main()
 
-        lines = dest.read_text(encoding="UTF-8").strip().split("\n")
+        lines = (await dest.read_text(encoding="UTF-8")).strip().split("\n")
         assert lines[0] == "code,name,credit"
         assert len(lines) == 2
 
     @pytest.mark.anyio
     async def test_no_subjects_found(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should produce header-only CSV when no subjects are found."""
-        dest = tmp_path / "empty.csv"
+        tmp = Path(tmp_path)
+        dest = tmp / "empty.csv"
 
         monkeypatch.setattr("builtins.input", lambda prompt="": fspath(dest))
         fake_get = _fake_session_factory("<html></html>", {})
@@ -624,5 +633,5 @@ class TestMain:
 
         await _mod.main()
 
-        content = dest.read_text(encoding="UTF-8").strip()
+        content = (await dest.read_text(encoding="UTF-8")).strip()
         assert content == "code,name,credit"

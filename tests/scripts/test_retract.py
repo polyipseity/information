@@ -1,11 +1,12 @@
 """Tests for scripts/retract.py."""
 
-import os
 from argparse import ArgumentParser
-from pathlib import Path, PurePath
+from os import PathLike, fspath
+from pathlib import PurePath
 from typing import Any, cast
 
 import pytest
+from anyio import Path
 
 from scripts import retract as _mod
 
@@ -220,23 +221,24 @@ class TestMain:
     async def test_success(
         self,
         monkeypatch: pytest.MonkeyPatch,
-        tmp_path: Path,
+        tmp_path: PathLike[str],
         capsys: pytest.CaptureFixture[str],
     ) -> None:
         """Should run the full retract pipeline without errors (empty data flow)."""
+        tmp = Path(tmp_path)
         # Setup: create public git dir
-        (tmp_path / "public" / ".git").mkdir(parents=True)
+        await (tmp / "public" / ".git").mkdir(parents=True)
         monkeypatch.setattr(
             "scripts.retract._PUBLIC_GIT_DIRECTORY",
-            PurePath(os.fspath(tmp_path / "public" / ".git")),
+            PurePath(fspath(tmp / "public" / ".git")),
         )
 
         # Setup: paths file
-        paths_file = tmp_path / "paths.txt"
-        paths_file.write_text("secret.txt\n")
+        paths_file = tmp / "paths.txt"
+        await paths_file.write_text("secret.txt\n")
         args = _mod.Arguments(
             allow_trailing_whitespaces_in_paths=False,
-            paths_file=_mod.Path(os.fspath(paths_file)),
+            paths_file=_mod.Path(fspath(paths_file)),
             refs=(),
         )
 
@@ -247,20 +249,20 @@ class TestMain:
         monkeypatch.setattr("scripts.retract._which2", mock_which2)
 
         # Mock TemporaryDirectory(delete=False) with a controlled path
-        fake_tmp = tmp_path / "fakerepo"
-        fake_tmp.mkdir(parents=True, exist_ok=True)
+        fake_tmp = tmp / "fakerepo"
+        await fake_tmp.mkdir(parents=True, exist_ok=True)
         # Create directory structure needed during main()
-        (fake_tmp / ".git" / "filter-repo" / "analysis").mkdir(
+        await (fake_tmp / ".git" / "filter-repo" / "analysis").mkdir(
             parents=True, exist_ok=True
         )
-        (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
-        (fake_tmp / ".git" / "filter-repo" / "commit-map").write_text("")
-        (fake_tmp / ".git" / "filter-branch").mkdir(parents=True, exist_ok=True)
-        (fake_tmp / ".git" / "filter-branch" / "commit-map").write_text("")
+        await (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
+        await (fake_tmp / ".git" / "filter-repo" / "commit-map").write_text("")
+        await (fake_tmp / ".git" / "filter-branch").mkdir(parents=True, exist_ok=True)
+        await (fake_tmp / ".git" / "filter-branch" / "commit-map").write_text("")
 
         class FakeTemporaryDirectory:
             def __init__(self, **kw: object) -> None:
-                self.name = os.fspath(fake_tmp)
+                self.name = fspath(fake_tmp)
 
             def __enter__(self) -> str:
                 return self.name
@@ -314,20 +316,21 @@ class TestMain:
     async def test_trailing_whitespace_error(
         self,
         monkeypatch: pytest.MonkeyPatch,
-        tmp_path: Path,
+        tmp_path: PathLike[str],
     ) -> None:
         """Should raise ValueError when paths have trailing whitespace."""
-        (tmp_path / "public" / ".git").mkdir(parents=True)
+        tmp = Path(tmp_path)
+        await (tmp / "public" / ".git").mkdir(parents=True)
         monkeypatch.setattr(
             "scripts.retract._PUBLIC_GIT_DIRECTORY",
-            PurePath(os.fspath(tmp_path / "public" / ".git")),
+            PurePath(fspath(tmp / "public" / ".git")),
         )
 
-        paths_file = tmp_path / "paths.txt"
-        paths_file.write_text("secret.txt \n")  # trailing space
+        paths_file = tmp / "paths.txt"
+        await paths_file.write_text("secret.txt \n")  # trailing space
         args = _mod.Arguments(
             allow_trailing_whitespaces_in_paths=False,
-            paths_file=_mod.Path(os.fspath(paths_file)),
+            paths_file=_mod.Path(fspath(paths_file)),
             refs=(),
         )
 
@@ -343,21 +346,22 @@ class TestMain:
     async def test_with_refs(
         self,
         monkeypatch: pytest.MonkeyPatch,
-        tmp_path: Path,
+        tmp_path: PathLike[str],
         capsys: pytest.CaptureFixture[str],
     ) -> None:
         """Should handle additional --ref refs without error."""
-        (tmp_path / "public" / ".git").mkdir(parents=True)
+        tmp = Path(tmp_path)
+        await (tmp / "public" / ".git").mkdir(parents=True)
         monkeypatch.setattr(
             "scripts.retract._PUBLIC_GIT_DIRECTORY",
-            PurePath(os.fspath(tmp_path / "public" / ".git")),
+            PurePath(fspath(tmp / "public" / ".git")),
         )
 
-        paths_file = tmp_path / "paths.txt"
-        paths_file.write_text("secret.txt\n")
+        paths_file = tmp / "paths.txt"
+        await paths_file.write_text("secret.txt\n")
         args = _mod.Arguments(
             allow_trailing_whitespaces_in_paths=False,
-            paths_file=_mod.Path(os.fspath(paths_file)),
+            paths_file=_mod.Path(fspath(paths_file)),
             refs=("other-branch",),
         )
 
@@ -366,19 +370,19 @@ class TestMain:
 
         monkeypatch.setattr("scripts.retract._which2", mock_which2)
 
-        fake_tmp = tmp_path / "fakerepo2"
-        fake_tmp.mkdir(parents=True, exist_ok=True)
-        (fake_tmp / ".git" / "filter-repo" / "analysis").mkdir(
+        fake_tmp = tmp / "fakerepo2"
+        await fake_tmp.mkdir(parents=True, exist_ok=True)
+        await (fake_tmp / ".git" / "filter-repo" / "analysis").mkdir(
             parents=True, exist_ok=True
         )
-        (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
-        (fake_tmp / ".git" / "filter-repo" / "commit-map").write_text("")
-        (fake_tmp / ".git" / "filter-branch").mkdir(parents=True, exist_ok=True)
-        (fake_tmp / ".git" / "filter-branch" / "commit-map").write_text("")
+        await (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
+        await (fake_tmp / ".git" / "filter-repo" / "commit-map").write_text("")
+        await (fake_tmp / ".git" / "filter-branch").mkdir(parents=True, exist_ok=True)
+        await (fake_tmp / ".git" / "filter-branch" / "commit-map").write_text("")
 
         class FakeTemporaryDirectory2:
             def __init__(self, **kw: object) -> None:
-                self.name = os.fspath(fake_tmp)
+                self.name = fspath(fake_tmp)
 
             def __enter__(self) -> str:
                 return self.name

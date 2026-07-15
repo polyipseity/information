@@ -1,9 +1,11 @@
 """Tests for scripts/new_wiki_page.py."""
 
 from collections.abc import Callable
-from pathlib import Path
+from os import PathLike
+from pathlib import Path as PathlibPath
 
 import pytest
+from anyio import Path
 
 from scripts import new_wiki_page as _mod
 
@@ -61,13 +63,14 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_normal_creation(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should create a note file and symlink for a valid language/article."""
         # Point REPO_ROOT to tmp_path
-        general_dir = tmp_path / "general"
+        tmp = Path(tmp_path)
+        general_dir = tmp / "general"
         eng_dir = general_dir / "eng"
-        eng_dir.mkdir(parents=True)
+        await eng_dir.mkdir(parents=True)
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
         monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
@@ -76,25 +79,26 @@ class TestMain:
 
         # Check the note file was created
         note_path = eng_dir / "Fourier transform.md"
-        assert note_path.is_file()
-        content = note_path.read_text(encoding="utf-8")
+        assert await note_path.is_file()
+        content = await note_path.read_text(encoding="utf-8")
         assert "Fourier transform" in content
         assert "eng" in content
         assert "English" in content
 
         # Check the symlink was created
         link_path = general_dir / "Fourier transform.md"
-        assert link_path.is_symlink()
+        assert await link_path.is_symlink()
 
     @pytest.mark.anyio
     async def test_note_already_exists(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should raise FileExistsError when note already exists."""
-        general_dir = tmp_path / "general"
+        tmp = Path(tmp_path)
+        general_dir = tmp / "general"
         eng_dir = general_dir / "eng"
-        eng_dir.mkdir(parents=True)
-        (eng_dir / "Fourier transform.md").touch()
+        await eng_dir.mkdir(parents=True)
+        await (eng_dir / "Fourier transform.md").touch()
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
         monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
@@ -104,13 +108,14 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_symlink_already_exists(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should raise FileExistsError when symlink target already exists."""
-        general_dir = tmp_path / "general"
+        tmp = Path(tmp_path)
+        general_dir = tmp / "general"
         eng_dir = general_dir / "eng"
-        eng_dir.mkdir(parents=True)
-        (general_dir / "Fourier transform.md").touch()
+        await eng_dir.mkdir(parents=True)
+        await (general_dir / "Fourier transform.md").touch()
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
         monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
@@ -120,11 +125,12 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_missing_language_directory(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should raise FileNotFoundError when language directory does not exist."""
-        general_dir = tmp_path / "general"
-        general_dir.mkdir()
+        tmp = Path(tmp_path)
+        general_dir = tmp / "general"
+        await general_dir.mkdir()
         # No eng/ directory
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
         monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
@@ -134,12 +140,13 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_empty_name_raises(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should raise ValueError when name is empty."""
-        general_dir = tmp_path / "general"
+        tmp = Path(tmp_path)
+        general_dir = tmp / "general"
         eng_dir = general_dir / "eng"
-        eng_dir.mkdir(parents=True)
+        await eng_dir.mkdir(parents=True)
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
         monkeypatch.setattr("builtins.input", self._fake_input(["", ""]))
@@ -149,18 +156,19 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_cleanup_on_failure(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should clean up temporary files on failure."""
-        general_dir = tmp_path / "general"
+        tmp = Path(tmp_path)
+        general_dir = tmp / "general"
         eng_dir = general_dir / "eng"
-        eng_dir.mkdir(parents=True)
+        await eng_dir.mkdir(parents=True)
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
         monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
 
         # Simulate an OSError during temp file write
-        original_write_text = Path.write_text
+        original_write_text = PathlibPath.write_text
 
         def broken_write_text(
             self, data: str, encoding: str | None = None, errors: str | None = None, newline: str | None = None
@@ -169,24 +177,25 @@ class TestMain:
                 raise OSError("Simulated write failure")
             return original_write_text(self, data, encoding=encoding, errors=errors, newline=newline)
 
-        monkeypatch.setattr(Path, "write_text", broken_write_text)
+        monkeypatch.setattr(PathlibPath, "write_text", broken_write_text)
 
         with pytest.raises(OSError, match="Simulated write failure"):
             await _mod.main()
 
         # Verify no temp files or partial output remains
-        assert not (eng_dir / "Fourier transform.md").exists()
-        assert not (eng_dir / "Fourier transform.md.tmp").exists()
-        assert not (general_dir / "Fourier transform.md.link.tmp").exists()
+        assert not await (eng_dir / "Fourier transform.md").exists()
+        assert not await (eng_dir / "Fourier transform.md.tmp").exists()
+        assert not await (general_dir / "Fourier transform.md.link.tmp").exists()
 
     @pytest.mark.anyio
     async def test_uppercases_title_correctly(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should handle titles with special characters."""
-        general_dir = tmp_path / "general"
+        tmp = Path(tmp_path)
+        general_dir = tmp / "general"
         eng_dir = general_dir / "eng"
-        eng_dir.mkdir(parents=True)
+        await eng_dir.mkdir(parents=True)
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
         monkeypatch.setattr(
@@ -197,7 +206,7 @@ class TestMain:
         await _mod.main()
 
         note_path = eng_dir / "Fourier transform (disambiguation).md"
-        content = note_path.read_text(encoding="utf-8")
+        content = await note_path.read_text(encoding="utf-8")
         # Title should have disambiguation stripped
         assert "aliases:\n  - Fourier transform" in content
         # Wikipedia URL should have underscores
@@ -205,12 +214,13 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_symlink_target_is_correct(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should create symlink pointing to the correct relative target."""
-        general_dir = tmp_path / "general"
+        tmp = Path(tmp_path)
+        general_dir = tmp / "general"
         eng_dir = general_dir / "eng"
-        eng_dir.mkdir(parents=True)
+        await eng_dir.mkdir(parents=True)
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
         monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
@@ -218,5 +228,5 @@ class TestMain:
         await _mod.main()
 
         link_path = general_dir / "Fourier transform.md"
-        assert link_path.is_symlink()
-        assert link_path.readlink() == Path("eng/Fourier transform.md")
+        assert await link_path.is_symlink()
+        assert await link_path.readlink() == Path("eng/Fourier transform.md")
