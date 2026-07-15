@@ -718,6 +718,12 @@ class WikiHtmlConverter:
         if "hatnote" in classes:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
             config.suffix = f"{config.suffix.removeprefix('_')}\n"
+            original_process = process_strings
+
+            def _hatnote_process(strings: str) -> str:
+                return original_process(strings).lstrip("\n")
+
+            process_strings = _hatnote_process
 
         if {"sidebar-navbar", "navbar"} & classes:
             # Suppress comment wrapping for inner navbar/sidebar-navbar

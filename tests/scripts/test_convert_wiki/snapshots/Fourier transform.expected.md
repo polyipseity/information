@@ -1,5 +1,4 @@
-- 
-Not to be confused with [Fourier method](separation%20of%20variables.md) or Fourier's original [sine and cosine transforms](sine%20and%20cosine%20transforms.md).
+- Not to be confused with [Fourier method](separation%20of%20variables.md) or Fourier's original [sine and cosine transforms](sine%20and%20cosine%20transforms.md).
 
 | [Fourier transforms](Fourier%20transform.md) <br/> --- |
 | ------------------------------------------------------ |
