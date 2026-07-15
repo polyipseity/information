@@ -10,7 +10,7 @@ cannot be imported at module level — they are tested indirectly via main().
 
 from collections.abc import Mapping, Set
 from dataclasses import FrozenInstanceError
-from pathlib import Path as PathlibPath
+from os import PathLike
 from typing import Any, cast
 from zipfile import ZipFile
 
@@ -428,15 +428,16 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_root_not_contain_files_raises(
-        self, tmp_path: PathlibPath
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Should raise ValueError when root does not contain all files."""
-        output = tmp_path / "out.zip"
-        root = tmp_path / "root"
-        root.mkdir()
-        file_outside = tmp_path / "outside" / "a.md"
-        file_outside.parent.mkdir()
-        file_outside.write_text("content")
+        tmp = Path(tmp_path)
+        output = tmp / "out.zip"
+        root = tmp / "root"
+        await root.mkdir()
+        file_outside = tmp / "outside" / "a.md"
+        await file_outside.parent.mkdir()
+        await file_outside.write_text("content")
 
         args = _mod.Arguments(
             output=_mod.Path(output),
@@ -454,12 +455,13 @@ class TestMain:
             await _mod.main(args)
 
     @pytest.mark.anyio
-    async def test_simple_markdown_file(self, tmp_path: PathlibPath) -> None:
+    async def test_simple_markdown_file(self, tmp_path: PathLike[str]) -> None:
         """Should pack a single markdown file with no links."""
-        root = tmp_path / "root"
-        root.mkdir()
-        (root / "doc.md").write_text("Just text.")
-        output = tmp_path / "out.zip"
+        tmp = Path(tmp_path)
+        root = tmp / "root"
+        await root.mkdir()
+        await (root / "doc.md").write_text("Just text.")
+        output = tmp / "out.zip"
 
         args = _mod.Arguments(
             output=_mod.Path(output),
@@ -473,8 +475,8 @@ class TestMain:
 
         await _mod.main(args)
 
-        assert output.exists()
-        assert output.stat().st_size > 0
+        assert await output.exists()
+        assert (await output.stat()).st_size > 0
 
         with ZipFile(output) as zf:
             names = zf.namelist()
@@ -482,13 +484,14 @@ class TestMain:
             assert any(n.startswith("metadata") for n in names)
 
     @pytest.mark.anyio
-    async def test_two_files_with_link(self, tmp_path: PathlibPath) -> None:
+    async def test_two_files_with_link(self, tmp_path: PathLike[str]) -> None:
         """Should handle a file linking to another in the same dir."""
-        root = tmp_path / "root"
-        root.mkdir()
-        (root / "a.md").write_text("[b](b.md)")
-        (root / "b.md").write_text("Target.")
-        output = tmp_path / "out.zip"
+        tmp = Path(tmp_path)
+        root = tmp / "root"
+        await root.mkdir()
+        await (root / "a.md").write_text("[b](b.md)")
+        await (root / "b.md").write_text("Target.")
+        output = tmp / "out.zip"
 
         args = _mod.Arguments(
             output=_mod.Path(output),
@@ -509,16 +512,17 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_directory_input_expanded(
-        self, tmp_path: PathlibPath
+        self, tmp_path: PathLike[str]
     ) -> None:
         """When a file argument is a directory, it should be expanded recursively."""
-        root = tmp_path / "root"
-        root.mkdir()
+        tmp = Path(tmp_path)
+        root = tmp / "root"
+        await root.mkdir()
         sub = root / "sub"
-        sub.mkdir()
-        (root / "a.md").write_text("")
-        (sub / "b.md").write_text("")
-        output = tmp_path / "out.zip"
+        await sub.mkdir()
+        await (root / "a.md").write_text("")
+        await (sub / "b.md").write_text("")
+        output = tmp / "out.zip"
 
         args = _mod.Arguments(
             output=_mod.Path(output),
@@ -539,15 +543,16 @@ class TestMain:
 
     @pytest.mark.anyio
     async def test_exclude_extension_skips(
-        self, tmp_path: PathlibPath
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Files with excluded extensions should not appear in output."""
-        root = tmp_path / "root"
-        root.mkdir()
-        (root / "doc.md").write_text("")
-        (root / "ignore.pdf").write_text("")
-        (root / "doc.txt").write_text("")
-        output = tmp_path / "out.zip"
+        tmp = Path(tmp_path)
+        root = tmp / "root"
+        await root.mkdir()
+        await (root / "doc.md").write_text("")
+        await (root / "ignore.pdf").write_text("")
+        await (root / "doc.txt").write_text("")
+        output = tmp / "out.zip"
 
         args = _mod.Arguments(
             output=_mod.Path(output),
@@ -569,13 +574,14 @@ class TestMain:
             assert not any("doc.txt" in n for n in names)
 
     @pytest.mark.anyio
-    async def test_negative_count_keeps_all(self, tmp_path: PathlibPath) -> None:
+    async def test_negative_count_keeps_all(self, tmp_path: PathLike[str]) -> None:
         """Negative count should keep all files (no filtering)."""
-        root = tmp_path / "root"
-        root.mkdir()
-        (root / "a.md").write_text("")
-        (root / "b.md").write_text("")
-        output = tmp_path / "out.zip"
+        tmp = Path(tmp_path)
+        root = tmp / "root"
+        await root.mkdir()
+        await (root / "a.md").write_text("")
+        await (root / "b.md").write_text("")
+        output = tmp / "out.zip"
 
         args = _mod.Arguments(
             output=_mod.Path(output),
@@ -595,12 +601,13 @@ class TestMain:
             assert "b.md" in names
 
     @pytest.mark.anyio
-    async def test_missing_link_target_recorded(self, tmp_path: PathlibPath) -> None:
+    async def test_missing_link_target_recorded(self, tmp_path: PathLike[str]) -> None:
         """Links to non-existent files should be recorded in metadata as missing."""
-        root = tmp_path / "root"
-        root.mkdir()
-        (root / "doc.md").write_text("[missing](nonexistent.md)")
-        output = tmp_path / "out.zip"
+        tmp = Path(tmp_path)
+        root = tmp / "root"
+        await root.mkdir()
+        await (root / "doc.md").write_text("[missing](nonexistent.md)")
+        output = tmp / "out.zip"
 
         args = _mod.Arguments(
             output=_mod.Path(output),
@@ -623,12 +630,13 @@ class TestMain:
             assert any("nonexistent" in p for p in meta["missing_paths"])
 
     @pytest.mark.anyio
-    async def test_metadata_contains_arguments(self, tmp_path: PathlibPath) -> None:
+    async def test_metadata_contains_arguments(self, tmp_path: PathLike[str]) -> None:
         """Metadata JSON should include the serialised Arguments."""
-        root = tmp_path / "root"
-        root.mkdir()
-        (root / "doc.md").write_text("content")
-        output = tmp_path / "out.zip"
+        tmp = Path(tmp_path)
+        root = tmp / "root"
+        await root.mkdir()
+        await (root / "doc.md").write_text("content")
+        output = tmp / "out.zip"
 
         args = _mod.Arguments(
             output=_mod.Path(output),
