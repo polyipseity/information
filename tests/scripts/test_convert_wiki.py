@@ -8,12 +8,14 @@ import dataclasses
 import json
 import os
 from datetime import datetime, timedelta, timezone
-from pathlib import Path
+from os import PathLike
+from pathlib import Path as PathlibPath
 from typing import cast
 
 import anyio
 import pytest
 from aiohttp import ClientSession
+from anyio import Path
 from bs4 import BeautifulSoup, Tag
 
 from scripts import convert_wiki as _mod
@@ -247,7 +249,7 @@ class TestWithCwd:
     """Tests for the _with_cwd context manager."""
 
     def test_changes_and_restores_cwd(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
     ) -> None:
         """Should temporarily change the working directory and restore it."""
         # We need to monkeypatch getcwd/chdir since we can't actually chdir without
@@ -449,12 +451,11 @@ class TestRedirectCache:
     """Tests for _load_redirect_cache and _save_redirect_cache."""
 
     def test_save_and_load(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """Should round-trip cache data through JSON."""
-        monkeypatch.setattr(
-            _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
-        )
+        tmp = Path(tmp_path)
+        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
         cache = {
             "A": _mod._RedirectInfo(to="B", tofragment=""),  # noqa: SLF001
             "C": _mod._RedirectInfo(to="D", tofragment="s"),  # noqa: SLF001
@@ -471,31 +472,36 @@ class TestRedirectCache:
         assert isinstance(loaded["A"].cached_at, str) and loaded["A"].cached_at
 
     def test_load_missing_file(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """Should return empty dict when cache file does not exist."""
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp_path / "nonexistent.json")
+        tmp = Path(tmp_path)
+        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "nonexistent.json")
         loaded = _mod._load_redirect_cache()  # noqa: SLF001
         assert loaded == {}
 
-    def test_load_corrupted_file(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+    @pytest.mark.anyio
+    async def test_load_corrupted_file(
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """Should return empty dict when cache file is corrupted."""
-        path = tmp_path / "corrupt.json"
-        path.write_text("{bad json}", encoding="UTF-8")
+        tmp = Path(tmp_path)
+        path = tmp / "corrupt.json"
+        await path.write_text("{bad json}", encoding="UTF-8")
         monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", path)
         loaded = _mod._load_redirect_cache()  # noqa: SLF001
         assert loaded == {}
 
-    def test_load_expired_ttl(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+    @pytest.mark.anyio
+    async def test_load_expired_ttl(
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """Should skip entries with expired cached_at."""
 
-        path = tmp_path / "old_entries.json"
+        tmp = Path(tmp_path)
+        path = tmp / "old_entries.json"
         old_ts = (datetime.now(timezone.utc) - timedelta(days=2)).isoformat()
-        path.write_text(
+        await path.write_text(
             json.dumps({"X": {"to": "Y", "tofragment": "", "cached_at": old_ts}}),
             encoding="UTF-8",
         )
@@ -504,13 +510,15 @@ class TestRedirectCache:
         loaded = _mod._load_redirect_cache()  # noqa: SLF001
         assert loaded == {}
 
-    def test_old_format_missing_cached_at_stamped(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+    @pytest.mark.anyio
+    async def test_old_format_missing_cached_at_stamped(
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """Should stamp non-empty cached_at for entries without the field."""
 
-        path = tmp_path / "old_format.json"
-        path.write_text(
+        tmp = Path(tmp_path)
+        path = tmp / "old_format.json"
+        await path.write_text(
             json.dumps({"X": {"to": "Y", "tofragment": ""}}),
             encoding="UTF-8",
         )
@@ -519,13 +527,15 @@ class TestRedirectCache:
         assert len(loaded) == 1
         assert loaded["X"].cached_at  # non-empty string
 
-    def test_malformed_cached_at_skipped(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+    @pytest.mark.anyio
+    async def test_malformed_cached_at_skipped(
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """Should skip entries with malformed cached_at."""
 
-        path = tmp_path / "malformed.json"
-        path.write_text(
+        tmp = Path(tmp_path)
+        path = tmp / "malformed.json"
+        await path.write_text(
             json.dumps(
                 {"X": {"to": "Y", "tofragment": "", "cached_at": "not-a-timestamp"}}
             ),
@@ -650,13 +660,12 @@ class TestResolveRedirects:
         anyio.run(run, backend="asyncio")
 
     def test_resolves_redirect(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """Should resolve redirect via API and cache the result."""
 
-        monkeypatch.setattr(
-            _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
-        )
+        tmp = Path(tmp_path)
+        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
 
         async def run() -> None:
             cache: dict[str, _mod._RedirectInfo] = {}  # noqa: SLF001
@@ -702,13 +711,12 @@ class TestResolveRedirects:
         anyio.run(run, backend="asyncio")
 
     def test_redirect_with_fragment(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """Should preserve tofragment from API response."""
 
-        monkeypatch.setattr(
-            _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
-        )
+        tmp = Path(tmp_path)
+        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
 
         async def run() -> None:
             cache: dict[str, _mod._RedirectInfo] = {}  # noqa: SLF001
@@ -754,13 +762,12 @@ class TestResolveRedirects:
         anyio.run(run, backend="asyncio")
 
     def test_non_redirect_resolved_to_self(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """Should map non-redirect pages to themselves in cache."""
 
-        monkeypatch.setattr(
-            _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
-        )
+        tmp = Path(tmp_path)
+        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
 
         async def run() -> None:
             cache: dict[str, _mod._RedirectInfo] = {}  # noqa: SLF001
@@ -800,14 +807,13 @@ class TestResolveRedirects:
         anyio.run(run, backend="asyncio")
 
     def test_expired_cache_triggers_redirect_resolution(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """Should re-fetch via API and rewrite cache when cache entries have
         expired."""
 
-        monkeypatch.setattr(
-            _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
-        )
+        tmp = Path(tmp_path)
+        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
         monkeypatch.setattr(_mod, "_CACHE_TTL", timedelta(days=1))
 
         async def run() -> None:
@@ -892,14 +898,13 @@ class TestResolveRedirectsWithRealResponses:
 
     @pytest.mark.anyio
     async def test_parses_modern_physics_api_response(
-        self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
     ) -> None:
         """Feed the real modern physics API response through
         _resolve_redirects and verify the output matches the cache file."""
 
-        monkeypatch.setattr(
-            _mod, "_REDIRECT_CACHE_PATH", tmp_path / "redirect_cache.json"
-        )
+        tmp = Path(tmp_path)
+        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
 
         # Load the raw API responses from the consolidated aux fixture.
         aux_path = _SNAPSHOT_DIR / "modern physics.aux.json"
@@ -975,16 +980,17 @@ class TestSymlinkCreation:
 
     @pytest.mark.anyio
     async def test_symlink_created_when_from_missing_and_differs(
-        self, tmp_path: Path
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Should create both symlinks when from/to differ and FROM is missing."""
-        lang_dir = tmp_path / "general" / "eng"
-        top_dir = tmp_path / "general"
-        lang_dir.mkdir(parents=True)
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        top_dir = tmp / "general"
+        await lang_dir.mkdir(parents=True)
 
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=top_dir,
-            converted_wiki_lang_dir=lang_dir,
+            converted_wiki_dir=PathlibPath(top_dir),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
         )
         html = BeautifulSoup(
             '<a title="From Page" href="/wiki/From_Page">link</a>',
@@ -1003,21 +1009,22 @@ class TestSymlinkCreation:
 
         from_symlink = lang_dir / "From Page.md"
         top_symlink = top_dir / "From Page.md"
-        assert from_symlink.is_symlink()
-        assert top_symlink.is_symlink()
+        assert await from_symlink.is_symlink()
+        assert await top_symlink.is_symlink()
         assert os.readlink(from_symlink) == "To Page.md"
         assert os.readlink(top_symlink) == "eng/From Page.md"
 
     @pytest.mark.anyio
-    async def test_symlink_not_created_when_same(self, tmp_path: Path) -> None:
+    async def test_symlink_not_created_when_same(self, tmp_path: PathLike[str]) -> None:
         """Should not create symlinks when from/to filenames are identical."""
-        lang_dir = tmp_path / "general" / "eng"
-        top_dir = tmp_path / "general"
-        lang_dir.mkdir(parents=True)
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        top_dir = tmp / "general"
+        await lang_dir.mkdir(parents=True)
 
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=top_dir,
-            converted_wiki_lang_dir=lang_dir,
+            converted_wiki_dir=PathlibPath(top_dir),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
         )
         html = BeautifulSoup(
             '<a title="Same Page" href="/wiki/Same_Page">link</a>',
@@ -1034,22 +1041,27 @@ class TestSymlinkCreation:
             refs=True,
         )
 
-        assert not (lang_dir / "Same Page.md").is_symlink()
-        assert not (top_dir / "Same Page.md").is_symlink()
+        assert not await (lang_dir / "Same Page.md").is_symlink()
+        assert not await (top_dir / "Same Page.md").is_symlink()
 
     @pytest.mark.anyio
-    async def test_symlink_not_created_when_from_exists(self, tmp_path: Path) -> None:
+    async def test_symlink_not_created_when_from_exists(
+        self, tmp_path: PathLike[str]
+    ) -> None:
         """Should skip symlink creation when FROM file already exists."""
-        lang_dir = tmp_path / "general" / "eng"
-        top_dir = tmp_path / "general"
-        lang_dir.mkdir(parents=True)
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        top_dir = tmp / "general"
+        await lang_dir.mkdir(parents=True)
 
         # Pre-create the FROM file
-        (lang_dir / "From Page.md").write_text("existing content", encoding="UTF-8")
+        await (lang_dir / "From Page.md").write_text(
+            "existing content", encoding="UTF-8"
+        )
 
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=top_dir,
-            converted_wiki_lang_dir=lang_dir,
+            converted_wiki_dir=PathlibPath(top_dir),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
         )
         html = BeautifulSoup(
             '<a title="From Page" href="/wiki/From_Page">link</a>',
@@ -1067,30 +1079,33 @@ class TestSymlinkCreation:
         )
 
         # FROM file should remain a regular file (not a symlink)
-        assert (lang_dir / "From Page.md").is_file()
-        assert not (lang_dir / "From Page.md").is_symlink()
+        assert await (lang_dir / "From Page.md").is_file()
+        assert not await (lang_dir / "From Page.md").is_symlink()
         # Top-level symlink should not exist
-        assert not (top_dir / "From Page.md").is_symlink()
+        assert not await (top_dir / "From Page.md").is_symlink()
 
     @pytest.mark.anyio
-    async def test_symlink_file_exists_error_suppressed(self, tmp_path: Path) -> None:
+    async def test_symlink_file_exists_error_suppressed(
+        self, tmp_path: PathLike[str]
+    ) -> None:
         """Should suppress FileExistsError when FROM is a broken symlink.
 
         A broken symlink has exists()=False but can't be overwritten by
         os.symlink(), so the suppress() guard handles it.
         """
-        lang_dir = tmp_path / "general" / "eng"
-        top_dir = tmp_path / "general"
-        lang_dir.mkdir(parents=True)
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        top_dir = tmp / "general"
+        await lang_dir.mkdir(parents=True)
 
         # Create a broken symlink at FROM path: exists() returns False,
         # but os.symlink() raises FileExistsError
         os.symlink("nonexistent.md", lang_dir / "From Page.md")
-        assert not (lang_dir / "From Page.md").exists()  # broken symlink
+        assert not await (lang_dir / "From Page.md").exists()  # broken symlink
 
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=top_dir,
-            converted_wiki_lang_dir=lang_dir,
+            converted_wiki_dir=PathlibPath(top_dir),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
         )
         html = BeautifulSoup(
             '<a title="From Page" href="/wiki/From_Page">link</a>',
@@ -1109,14 +1124,15 @@ class TestSymlinkCreation:
         )
 
         # Broken symlink should remain unchanged
-        assert (lang_dir / "From Page.md").is_symlink()
+        assert await (lang_dir / "From Page.md").is_symlink()
         assert os.readlink(lang_dir / "From Page.md") == "nonexistent.md"
         # Top-level symlink should still be created (separate guard)
-        assert (top_dir / "From Page.md").is_symlink()
+        assert await (top_dir / "From Page.md").is_symlink()
 
 
 _SNAPSHOT_DIR = (
-    Path(__file__).resolve(strict=True).with_name("test_convert_wiki") / "snapshots"
+    PathlibPath(__file__).resolve(strict=True).with_name("test_convert_wiki")
+    / "snapshots"
 )
 
 
@@ -1142,14 +1158,15 @@ class TestWikiHtmlToPlaintextSnapshot:
         "name",
         _discover_snapshot_cases(),
     )
-    async def test_snapshot(self, name: str, tmp_path: Path) -> None:
+    async def test_snapshot(self, name: str, tmp_path: PathLike[str]) -> None:
         """Verify that converting *name*.input.html matches *name*.expected.md.
 
         Uses ``run_pipeline`` with overridden data to avoid HTTP requests,
         filesystem access, and manual post-processing.
         """
-        isolated_lang = tmp_path / "general" / "eng"
-        isolated_lang.mkdir(parents=True)
+        tmp = Path(tmp_path)
+        isolated_lang = tmp / "general" / "eng"
+        await isolated_lang.mkdir(parents=True)
 
         # Load shared name_map and per-test auxiliary data.
         shared_name_map_path = _SNAPSHOT_DIR / "name_map.json"
@@ -1183,8 +1200,8 @@ class TestWikiHtmlToPlaintextSnapshot:
             redirect_map=redirect_map,
             image_metadata=aux["image_metadata"],
             names_map=names_map,
-            wiki_dir=tmp_path / "general",
-            wiki_lang_dir=isolated_lang,
+            wiki_dir=PathlibPath(tmp / "general"),
+            wiki_lang_dir=PathlibPath(isolated_lang),
             refs=True,
         )
 
