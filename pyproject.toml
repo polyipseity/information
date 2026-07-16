@@ -76,6 +76,7 @@ addopts = [
   "--dist=loadscope",
   "-n=auto",
   "--strict-markers",
+  "-p no:unihan_etl",
 ]
 testpaths = [".agents/skills/**/tests_*", "tests"]
 python_files = "test_*.py"

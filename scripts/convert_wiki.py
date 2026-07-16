@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Convert Wikipedia HTML from the clipboard into a Markdown note.
 
 Reads HTML from the system clipboard, normalises it to Markdown,
