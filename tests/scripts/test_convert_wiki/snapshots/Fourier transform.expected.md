@@ -517,8 +517,7 @@ However, when you try to measure a frequency that is not present, both the real 
 
 Real and imaginary parts of the integrand for its Fourier transform
             at +5 Hz.
-
-- ![Magnitude of its Fourier transform, with +3 and +5 Hz labeled.](../../archives/Wikimedia%20Commons/Fourier%20transform%20of%20oscillating%20function.svg)
+ - ![Magnitude of its Fourier transform, with +3 and +5 Hz labeled.](../../archives/Wikimedia%20Commons/Fourier%20transform%20of%20oscillating%20function.svg)
 
 Magnitude of its Fourier transform, with +3 and +5 Hz labeled.
 
@@ -527,7 +526,6 @@ To re-enforce an earlier point, the reason for the response at $\xi =-3$ Hz is b
 ## applications
 
 - See also: [Spectral density § Applications](spectral%20density.md#applications)
-
 > ![Diagram designed to illustrate how the Fourier transform may be used to solve a problem when it is simplified by applying the Fourier transform.](../../archives/Wikimedia%20Commons/Commutative%20diagram%20illustrating%20problem%20solving%20via%20the%20Fourier%20transform.svg)
 >
 > Some problems, such as certain differential equations, become easier to solve when the Fourier transform is applied. In that case the solution to the original problem is recovered using the inverse Fourier transform.
@@ -797,8 +795,8 @@ The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITERE
 - [Indirect Fourier transform](indirect%20Fourier%20transform.md)
 - [Integral transform](integral%20transform.md) – Mapping involving integration
             between function spaces
-  - [Hankel transform](Hankel%20transform.md) – Mathematical operation
-  - [Hartley transform](Hartley%20transform.md) – Integral transform closely
+    - [Hankel transform](Hankel%20transform.md) – Mathematical operation
+    - [Hartley transform](Hartley%20transform.md) – Integral transform closely
                 related to the Fourier transform
 
 - [Laplace transform](Laplace%20transform.md) – Integral transform useful in
@@ -819,7 +817,7 @@ The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITERE
             signals that change over time
 - [Spectral density](spectral%20density.md) – Relative importance of certain
             frequencies in a composite signal
-  - [Spectral density estimation](spectral%20density%20estimation.md) – Signal processing technique
+    - [Spectral density estimation](spectral%20density%20estimation.md) – Signal processing technique
 
 - [Symbolic integration](symbolic%20integration.md) – Computation of an
             antiderivatives
@@ -1069,7 +1067,6 @@ The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITERE
 - ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg)
 
  Media related to [Fourier transformation](https://commons.wikimedia.org/wiki/Category%3AFourier%20transformation) at Wikimedia Commons
-
 - [Encyclopedia of Mathematics](https://www.encyclopediaofmath.org/index.php/Fourier_transform)
 - <a id="CITEREFWeisstein"></a> [Weisstein, Eric W.](Eric%20W.%20Weisstein.md) ["Fourier Transform"](https://mathworld.wolfram.com/FourierTransform.html). _[MathWorld](MathWorld.md)_.
 - [Fourier Transform in Crystallography](https://www.xtal.iqf.csic.es/Cristalografia/parte_05-en.html)
