@@ -696,9 +696,12 @@ class WikiHtmlConverter:
                 and not isinstance(ele.parent, BeautifulSoup)
             ):
                 text = escape_markdown(ele) if escape else str(ele)
+                # Collapse newlines introduced by HTML source formatting
+                # (indentation and line breaks between tags) to spaces.
                 # Only strip ASCII whitespace (space, tab, newline, carriage
                 # return, form feed, vertical tab), but NOT non-breaking
                 # spaces (\xa0) which are meaningful in source text.
+                text = text.replace("\n", " ")
                 if text and not all(c in "\t\n\r\x0b\x0c " for c in text):
                     return text.strip("\t\n\r\x0b\x0c ")
             return ""
