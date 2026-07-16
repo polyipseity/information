@@ -564,6 +564,7 @@ class TestApiRequest:
 
         async def run() -> None:
             """Run the async test body."""
+
             class MockResponse:
                 """Mock aiohttp response returning fixed JSON."""
 
@@ -1406,3 +1407,243 @@ class TestImageAltTextFallback:
         assert isinstance(img, Tag)
         result = converter._fallback_alt(img)  # noqa: SLF001
         assert result == ""
+
+
+class TestFormattingAgnostic:
+    """Verify that conversion output is invariant under HTML source formatting whitespace.
+
+    HTML-to-Markdown conversion must produce identical output regardless of
+    HTML source formatting whitespace (indentation, newlines between tags).
+    It must only depend on HTML hierarchy and semantic data (tag names,
+    attributes, structure).
+    """
+
+    @pytest.mark.anyio
+    async def test_list_text_formatting_invariant(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """List item text should not be hard-wrapped by source formatting."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=PathlibPath(tmp / "general"),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
+        )
+
+        compact = _mod.BeautifulSoup(
+            "<ul><li>Multi-line list item.</li></ul>", "html.parser"
+        )
+        expanded = _mod.BeautifulSoup(
+            "<ul><li>\n  Multi-line\n  list item.\n</li></ul>", "html.parser"
+        )
+
+        result_compact = await converter.convert(
+            compact, out_to_archive=set(), redirect_map={}, refs=True
+        )
+        result_expanded = await converter.convert(
+            expanded, out_to_archive=set(), redirect_map={}, refs=True
+        )
+        assert result_compact == result_expanded
+
+    @pytest.mark.anyio
+    async def test_paragraph_formatting_invariant(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Paragraph text should not be hard-wrapped by source formatting."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=PathlibPath(tmp / "general"),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
+        )
+
+        compact = _mod.BeautifulSoup("<p>Multi-line paragraph.</p>", "html.parser")
+        expanded = _mod.BeautifulSoup(
+            "<p>\n  Multi-line\n  paragraph.\n</p>", "html.parser"
+        )
+
+        assert await converter.convert(
+            compact, out_to_archive=set(), redirect_map={}, refs=True
+        ) == await converter.convert(
+            expanded, out_to_archive=set(), redirect_map={}, refs=True
+        )
+
+    @pytest.mark.anyio
+    async def test_link_text_formatting_invariant(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Link display text should be single-line regardless of source formatting."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=PathlibPath(tmp / "general"),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
+        )
+
+        compact = _mod.BeautifulSoup(
+            '<a href="/wiki/Test" title="Test">Multi-line link</a>',
+            "html.parser",
+        )
+        expanded = _mod.BeautifulSoup(
+            '<a href="/wiki/Test" title="Test">\n  Multi-line\n  link\n</a>',
+            "html.parser",
+        )
+
+        assert await converter.convert(
+            compact, out_to_archive=set(), redirect_map={}, refs=True
+        ) == await converter.convert(
+            expanded, out_to_archive=set(), redirect_map={}, refs=True
+        )
+
+    @pytest.mark.anyio
+    async def test_header_formatting_invariant(self, tmp_path: PathLike[str]) -> None:
+        """Header text should be single-line regardless of source formatting."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=PathlibPath(tmp / "general"),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
+        )
+
+        compact = _mod.BeautifulSoup("<h2>Multi-line header</h2>", "html.parser")
+        expanded = _mod.BeautifulSoup(
+            "<h2>\n  Multi-line\n  header\n</h2>", "html.parser"
+        )
+
+        assert await converter.convert(
+            compact, out_to_archive=set(), redirect_map={}, refs=True
+        ) == await converter.convert(
+            expanded, out_to_archive=set(), redirect_map={}, refs=True
+        )
+
+    @pytest.mark.anyio
+    async def test_table_cell_formatting_invariant(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Table cell text should be invariant under source formatting."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=PathlibPath(tmp / "general"),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
+        )
+
+        compact = _mod.BeautifulSoup(
+            "<table><tr><td>Multi-line cell</td></tr></table>", "html.parser"
+        )
+        expanded = _mod.BeautifulSoup(
+            "<table><tr><td>\n  Multi-line\n  cell\n</td></tr></table>",
+            "html.parser",
+        )
+
+        assert await converter.convert(
+            compact, out_to_archive=set(), redirect_map={}, refs=True
+        ) == await converter.convert(
+            expanded, out_to_archive=set(), redirect_map={}, refs=True
+        )
+
+    @pytest.mark.anyio
+    async def test_span_formatting_invariant(self, tmp_path: PathLike[str]) -> None:
+        """Span text should not be affected by source formatting."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=PathlibPath(tmp / "general"),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
+        )
+
+        compact = _mod.BeautifulSoup(
+            "<p>Some <span>inline</span> text.</p>", "html.parser"
+        )
+        expanded = _mod.BeautifulSoup(
+            "<p>Some\n<span>inline</span>\ntext.</p>",
+            "html.parser",
+        )
+
+        assert await converter.convert(
+            compact, out_to_archive=set(), redirect_map={}, refs=True
+        ) == await converter.convert(
+            expanded, out_to_archive=set(), redirect_map={}, refs=True
+        )
+
+    @pytest.mark.anyio
+    async def test_mixed_bold_italic_formatting_invariant(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Mixed bold/italic formatting should survive source whitespace."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=PathlibPath(tmp / "general"),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
+        )
+
+        compact = _mod.BeautifulSoup(
+            "<p><b>Bold</b> and <i>italic</i> text.</p>", "html.parser"
+        )
+        expanded = _mod.BeautifulSoup(
+            "<p>\n  <b>Bold</b>\n  and\n  <i>italic</i>\n  text.\n</p>",
+            "html.parser",
+        )
+
+        assert await converter.convert(
+            compact, out_to_archive=set(), redirect_map={}, refs=True
+        ) == await converter.convert(
+            expanded, out_to_archive=set(), redirect_map={}, refs=True
+        )
+
+    @pytest.mark.anyio
+    async def test_selflink_formatting_invariant(self, tmp_path: PathLike[str]) -> None:
+        """Self-link display text should be single-line regardless of source formatting."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=PathlibPath(tmp / "general"),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
+        )
+
+        compact = _mod.BeautifulSoup(
+            '<a class="mw-selflink" href="/wiki/Test">Multi-line selflink</a>',
+            "html.parser",
+        )
+        expanded = _mod.BeautifulSoup(
+            '<a class="mw-selflink" href="/wiki/Test">\n  Multi-line\n  selflink\n</a>',
+            "html.parser",
+        )
+
+        assert await converter.convert(
+            compact, out_to_archive=set(), redirect_map={}, refs=True
+        ) == await converter.convert(
+            expanded, out_to_archive=set(), redirect_map={}, refs=True
+        )
+
+    @pytest.mark.anyio
+    async def test_list_text_not_hard_wrapped(self, tmp_path: PathLike[str]) -> None:
+        """Regression: hard-wrapped HTML source should not produce hard-wrapped Markdown."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = _mod.WikiHtmlConverter(
+            converted_wiki_dir=PathlibPath(tmp / "general"),
+            converted_wiki_lang_dir=PathlibPath(lang_dir),
+        )
+
+        html = _mod.BeautifulSoup(
+            "<ul><li>\n    Some text that is hard-wrapped\n    in the HTML source.\n</li></ul>",
+            "html.parser",
+        )
+        result = await converter.convert(
+            html, out_to_archive=set(), redirect_map={}, refs=True
+        )
+        # List item content (after "- " prefix) should be a single line
+        assert (
+            result == "\n\n- Some text that is hard-wrapped in the HTML source.\n\n\n"
+        )

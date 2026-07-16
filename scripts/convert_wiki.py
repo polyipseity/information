@@ -243,6 +243,8 @@ _CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n{3,}")
 _TEXT_ALIGN_REGEX: Pattern[str] = compile(r"text-align:\s*(left|center|right)")
 "Regex for collapsing consecutive empty blockquote lines."
 _COLLAPSE_EMPTY_BLOCKQUOTE_RE: Pattern[str] = compile(r"(?:^>\n){2,}", MULTILINE)
+"Regex for collapsing runs of consecutive regular spaces in text nodes."
+_COLLAPSE_SPACES_REGEX: Pattern[str] = compile(r" {2,}")
 """Regex for collapsing consecutive leading whitespace characters across multiple lines."""
 _CONSECUTIVE_LEADING_WHITESPACES_REGEX: Pattern[str] = compile(r"^[ \t]+", MULTILINE)
 "Regex for handling table-in-table headers."
@@ -685,6 +687,18 @@ class WikiHtmlConverter:
     ) -> str:
         """Convert a Wikipedia HTML element tree to a Markdown string."""
 
+        # ---- Formatting-agnostic principle ----
+        # HTML-to-Markdown conversion must be invariant under formatting
+        # whitespace in the HTML source. All NavigableString text nodes
+        # must have their interior formatting whitespace (newlines, tabs,
+        # carriage returns) normalized to a single space before any
+        # further processing. Structural whitespace from <br>, <p>, <li>,
+        # block-level suffixes, and similar semantic elements is injected
+        # by the tag handler configs, not the text nodes. Keeping
+        # normalization in the NavigableString handler and ensuring all
+        # process_strings callbacks downstream only react to structural
+        # newlines guarantees this property.
+
         def escape_markdown(text: str) -> str:
             """Escape Markdown special characters in text."""
             return _MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
@@ -696,12 +710,19 @@ class WikiHtmlConverter:
                 and not isinstance(ele.parent, BeautifulSoup)
             ):
                 text = escape_markdown(ele) if escape else str(ele)
-                # Collapse newlines introduced by HTML source formatting
-                # (indentation and line breaks between tags) to spaces.
-                # Only strip ASCII whitespace (space, tab, newline, carriage
-                # return, form feed, vertical tab), but NOT non-breaking
-                # spaces (\xa0) which are meaningful in source text.
-                text = text.replace("\n", " ")
+                # See the formatting-agnostic principle documented above.
+                # Collapse formatting whitespace (indentation and line breaks
+                # between tags) to spaces. Translate all ASCII formatting
+                # whitespace to handle varying line-ending conventions across
+                # HTML sources, then collapse consecutive regular spaces (from
+                # indentation) into a single space, matching HTML rendering
+                # semantics. Use a character-class regex instead of
+                # str.split() to avoid treating non-breaking spaces (\xa0) as
+                # whitespace — str.split() eliminates \xa0, but it must be
+                # preserved as a meaningful content separator in source text.
+                # Only strip ASCII whitespace, but NOT non-breaking spaces.
+                text = text.translate(str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"}))
+                text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
                 if text and not all(c in "\t\n\r\x0b\x0c " for c in text):
                     return text.strip("\t\n\r\x0b\x0c ")
             return ""
