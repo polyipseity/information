@@ -61,6 +61,7 @@ class TestPowerInteractive:
         inputs = iter(["2", "3"])
 
         def mock_input(_prompt: str = "") -> str:
+            """Return next value from pre-defined inputs iterator."""
             return next(inputs)
 
         monkeypatch.setattr(builtins, "input", mock_input)
@@ -77,6 +78,7 @@ class TestPowerInteractive:
         inputs = iter(["5", "3"])
 
         def mock_input(_prompt: str = "") -> str:
+            """Return next value from pre-defined inputs iterator."""
             return next(inputs)
 
         monkeypatch.setattr(builtins, "input", mock_input)
@@ -94,6 +96,7 @@ class TestPowerInteractive:
         inputs = iter(["a", "2", "3"])
 
         def mock_input(_prompt: str = "") -> str:
+            """Return next value from pre-defined inputs iterator."""
             return next(inputs)
 
         monkeypatch.setattr(builtins, "input", mock_input)
@@ -112,6 +115,7 @@ class TestPowerInteractive:
         inputs = iter(["b", "5", "3"])
 
         def mock_input(_prompt: str = "") -> str:
+            """Return next value from pre-defined inputs iterator."""
             return next(inputs)
 
         monkeypatch.setattr(builtins, "input", mock_input)
@@ -133,6 +137,7 @@ class TestPowerInteractive:
         inputs = iter(["x", "2", "3", "100", "5"])
 
         def mock_input(_prompt: str = "") -> str:
+            """Return next value from pre-defined inputs iterator."""
             return next(inputs)
 
         monkeypatch.setattr(builtins, "input", mock_input)
@@ -151,6 +156,7 @@ class TestPowerInteractive:
         inputs = iter(["7", "2", "13", ""])
 
         def mock_input(_prompt: str = "") -> str:
+            """Return next value from pre-defined inputs iterator."""
             return next(inputs)
 
         monkeypatch.setattr(builtins, "input", mock_input)

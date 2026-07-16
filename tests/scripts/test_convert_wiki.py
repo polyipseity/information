@@ -261,6 +261,7 @@ class TestWithCwd:
         last_path: str | None = None
 
         def tracking_chdir(path: str) -> None:
+            """Track the last chdir path."""
             nonlocal last_path
             last_path = path
 
@@ -275,11 +276,13 @@ class TestWithCwd:
         cwds: list[str] = []
 
         def tracking_getcwd() -> str:
+            """Return tracked cwd or original."""
             if cwds:
                 return cwds[-1]
             return original_cwd
 
         def tracking_chdir(path: str) -> None:
+            """Track chdir by appending to cwds list."""
             cwds.append(path)
 
         monkeypatch.setattr("scripts.convert_wiki.getcwd", tracking_getcwd)
@@ -560,23 +563,34 @@ class TestApiRequest:
         """Should return parsed JSON on HTTP 200."""
 
         async def run() -> None:
+            """Run the async test body."""
             class MockResponse:
+                """Mock aiohttp response returning fixed JSON."""
+
                 status = 200
 
                 async def json(self):
+                    """Return fixed JSON data."""
                     return {"key": "value"}
 
                 async def __aenter__(self):
+                    """Return self as context manager."""
                     return self
 
                 async def __aexit__(self, *args):
+                    """No-op cleanup."""
                     pass
 
             class MockGet:
+                """Mock aiohttp get callable."""
+
                 def __call__(self, url):
+                    """Return a mock response."""
                     return MockResponse()
 
             class MockSession:
+                """Mock aiohttp ClientSession."""
+
                 get = MockGet()
 
             result = await _mod._api_request(  # noqa: SLF001
@@ -591,36 +605,49 @@ class TestApiRequest:
         """Should retry after 429 and eventually succeed."""
 
         async def run() -> None:
+            """Run the async test body."""
             call_count = 0
 
             class MockResponse:
+                """Mock aiohttp response with configurable status."""
+
                 def __init__(self, status, retry_after=None):
+                    """Store status and optional retry-after."""
                     self.status = status
                     self._retry_after = retry_after
 
                 @property
                 def headers(self):
+                    """Return retry-after header if set."""
                     if self._retry_after:
                         return {"Retry-After": self._retry_after}
                     return {}
 
                 async def json(self):
+                    """Return fixed JSON data."""
                     return {"key": "value"}
 
                 async def __aenter__(self):
+                    """Return self as context manager."""
                     return self
 
                 async def __aexit__(self, *args):
+                    """Increment call count on exit."""
                     nonlocal call_count
                     call_count += 1
 
             class MockGet:
+                """Mock aiohttp get callable."""
+
                 def __call__(self, url):
+                    """Return 429 for first calls, then 200."""
                     if call_count < 2:
                         return MockResponse(429)
                     return MockResponse(200)
 
             class MockSession:
+                """Mock aiohttp ClientSession."""
+
                 get = MockGet()
 
             result = await _mod._api_request(  # noqa: SLF001
@@ -640,6 +667,7 @@ class TestResolveRedirects:
         """Should skip API call when all titles are already in cache."""
 
         async def run() -> None:
+            """Run the async test body."""
             cache = {
                 "Page A": _mod._RedirectInfo(to="Page A"),  # noqa: SLF001
                 "Page B": _mod._RedirectInfo(to="Page B"),  # noqa: SLF001
@@ -647,7 +675,10 @@ class TestResolveRedirects:
             titles = {"Page A", "Page B"}
 
             class MockSession:
+                """Mock aiohttp ClientSession."""
+
                 def get(self, url):
+                    """Assert no API call is made (all cached)."""
                     msg = "API call should not be made"
                     raise RuntimeError(msg)
 
@@ -671,13 +702,17 @@ class TestResolveRedirects:
         monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
 
         async def run() -> None:
+            """Run the async test body."""
             cache: dict[str, _mod._RedirectInfo] = {}  # noqa: SLF001
             titles = {"Redirect to Page"}
 
             class MockResponse:
+                """Mock aiohttp response returning redirect JSON."""
+
                 status = 200
 
                 async def json(self):
+                    """Return redirect API response."""
                     return {
                         "query": {
                             "redirects": [
@@ -692,16 +727,23 @@ class TestResolveRedirects:
                     }
 
                 async def __aenter__(self):
+                    """Return self as context manager."""
                     return self
 
                 async def __aexit__(self, *args):
+                    """No-op cleanup."""
                     pass
 
             class MockGet:
+                """Mock aiohttp get callable."""
+
                 def __call__(self, url):
+                    """Return a mock response."""
                     return MockResponse()
 
             class MockSession:
+                """Mock aiohttp ClientSession."""
+
                 get = MockGet()
 
             result = await _mod._resolve_redirects(  # noqa: SLF001
@@ -722,13 +764,17 @@ class TestResolveRedirects:
         monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
 
         async def run() -> None:
+            """Run the async test body."""
             cache: dict[str, _mod._RedirectInfo] = {}  # noqa: SLF001
             titles = {"Dest with Anchor"}
 
             class MockResponse:
+                """Mock aiohttp response returning fragment redirect JSON."""
+
                 status = 200
 
                 async def json(self):
+                    """Return redirect API response with fragment."""
                     return {
                         "query": {
                             "redirects": [
@@ -743,16 +789,23 @@ class TestResolveRedirects:
                     }
 
                 async def __aenter__(self):
+                    """Return self as context manager."""
                     return self
 
                 async def __aexit__(self, *args):
+                    """No-op cleanup."""
                     pass
 
             class MockGet:
+                """Mock aiohttp get callable."""
+
                 def __call__(self, url):
+                    """Return a mock response."""
                     return MockResponse()
 
             class MockSession:
+                """Mock aiohttp ClientSession."""
+
                 get = MockGet()
 
             result = await _mod._resolve_redirects(  # noqa: SLF001
@@ -773,13 +826,17 @@ class TestResolveRedirects:
         monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
 
         async def run() -> None:
+            """Run the async test body."""
             cache: dict[str, _mod._RedirectInfo] = {}  # noqa: SLF001
             titles = {"Normal Page"}
 
             class MockResponse:
+                """Mock aiohttp response returning self-redirect JSON."""
+
                 status = 200
 
                 async def json(self):
+                    """Return API response with no redirects."""
                     return {
                         "query": {
                             "redirects": [],
@@ -788,16 +845,23 @@ class TestResolveRedirects:
                     }
 
                 async def __aenter__(self):
+                    """Return self as context manager."""
                     return self
 
                 async def __aexit__(self, *args):
+                    """No-op cleanup."""
                     pass
 
             class MockGet:
+                """Mock aiohttp get callable."""
+
                 def __call__(self, url):
+                    """Return a mock response."""
                     return MockResponse()
 
             class MockSession:
+                """Mock aiohttp ClientSession."""
+
                 get = MockGet()
 
             result = await _mod._resolve_redirects(  # noqa: SLF001
@@ -820,6 +884,7 @@ class TestResolveRedirects:
         monkeypatch.setattr(_mod, "_CACHE_TTL", timedelta(days=1))
 
         async def run() -> None:
+            """Run the async test body."""
             # Pre-populate a stale cache file with expired entries on disk.
             old_ts = (datetime.now(timezone.utc) - timedelta(days=2)).isoformat()
             stale_cache = {
@@ -836,27 +901,37 @@ class TestResolveRedirects:
             api_call_count = 0
 
             class MockResponse:
+                """Mock aiohttp response with typed interface."""
+
                 status = 200
 
                 def __init__(self, data: dict[str, object]) -> None:
+                    """Store response data."""
                     self._data = data
 
                 @property
                 def headers(self) -> dict[str, str]:
+                    """Return empty headers."""
                     return {}
 
                 async def json(self) -> dict[str, object]:
+                    """Return stored response data."""
                     return self._data
 
                 async def __aenter__(self) -> "MockResponse":
+                    """Return self as context manager."""
                     return self
 
                 async def __aexit__(self, *args: object) -> None:
+                    """No-op cleanup."""
                     pass
 
             class MockGet:
+                """Mock aiohttp get callable."""
+
                 @staticmethod
                 def __call__(url: object) -> MockResponse:
+                    """Return mock response and increment call count."""
                     nonlocal api_call_count
                     api_call_count += 1
                     return MockResponse(
@@ -872,6 +947,8 @@ class TestResolveRedirects:
                     )
 
             class MockSession:
+                """Mock aiohttp ClientSession."""
+
                 get = MockGet()
 
             result = await _mod._resolve_redirects(  # noqa: SLF001
@@ -916,29 +993,39 @@ class TestResolveRedirectsWithRealResponses:
 
         # Build a mock session that returns each batch response in order.
         class MockResponse:
+            """Mock aiohttp response with configurable data and status."""
+
             def __init__(self, data: dict[str, object], status: int = 200) -> None:
+                """Store response data and status."""
                 self.status = status
                 self._data = data
 
             @property
             def headers(self) -> dict[str, str]:
+                """Return empty headers."""
                 return {}
 
             async def json(self) -> dict[str, object]:
+                """Return stored response data."""
                 return self._data
 
             async def __aenter__(self) -> "MockResponse":
+                """Return self as context manager."""
                 return self
 
             async def __aexit__(self, *args: object) -> None:
+                """No-op cleanup."""
                 pass
 
         call_index = 0
         total_calls = len(raw_batches)
 
         class MockGet:
+            """Mock aiohttp get callable."""
+
             @staticmethod
             def __call__(url: object) -> MockResponse:
+                """Return next batch response and advance index."""
                 nonlocal call_index
                 if call_index >= total_calls:
                     msg = f"Unexpected API call #{call_index} (expected {total_calls})"
@@ -948,6 +1035,8 @@ class TestResolveRedirectsWithRealResponses:
                 return resp
 
         class MockSession:
+            """Mock aiohttp ClientSession."""
+
             get = MockGet()
 
         # Collect titles the same way the snapshot test does.

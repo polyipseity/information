@@ -149,6 +149,7 @@ class TestModifiedPageRankStochasticMat:
 
     @staticmethod
     def _p(*parts: str) -> Path:
+        """Create a Path from parts."""
         return Path(*parts)
 
     def test_two_node_graph(self) -> None:
@@ -684,6 +685,7 @@ class TestMain0:
         called = False
 
         async def fake_main(args: object) -> None:
+            """Fake main() that records invocation."""
             nonlocal called
             called = True
 

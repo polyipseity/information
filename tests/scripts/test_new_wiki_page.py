@@ -60,6 +60,7 @@ class TestMain:
         answers_iter = iter(answers)
 
         def fake(prompt: str = "") -> str:
+            """Return next answer from pre-defined list."""
             return next(answers_iter)
 
         return fake
@@ -176,6 +177,7 @@ class TestMain:
         def broken_write_text(
             self, data: str, encoding: str | None = None, errors: str | None = None, newline: str | None = None
         ) -> int:
+            """Simulate write failure for .md.tmp files."""
             if str(self).endswith(".md.tmp"):
                 raise OSError("Simulated write failure")
             return original_write_text(self, data, encoding=encoding, errors=errors, newline=newline)

@@ -72,6 +72,7 @@ class MockProcessResult:
         stderr: bytes = b"",
         returncode: int = 0,
     ) -> None:
+        """Store process output and return code."""
         self.stdout = stdout
         self.stderr = stderr
         self.returncode = returncode
@@ -84,6 +85,7 @@ class TestExec:
     async def test_success(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Should return (stdout, stderr) on subprocess success."""
         async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
+            """Return successful process result."""
             return MockProcessResult(stdout=b"out\n", stderr=b"", returncode=0)
 
         monkeypatch.setattr("scripts.retract.run_process", mock_run_process)
@@ -95,6 +97,7 @@ class TestExec:
     async def test_failure(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Should raise ChildProcessError on non-zero return code."""
         async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
+            """Return failed process result."""
             return MockProcessResult(stdout=b"", stderr=b"fatal", returncode=1)
 
         monkeypatch.setattr("scripts.retract.run_process", mock_run_process)
@@ -107,6 +110,7 @@ class TestExec:
         captured: dict[str, object] = {}
 
         async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
+            """Capture kwargs and return empty process result."""
             captured.update(kwargs)
             return MockProcessResult(stdout=b"", stderr=b"", returncode=0)
 
@@ -120,6 +124,7 @@ class TestExec:
         captured: dict[str, object] = {}
 
         async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
+            """Capture kwargs and return empty process result."""
             captured.update(kwargs)
             return MockProcessResult(stdout=b"", stderr=b"", returncode=0)
 
@@ -247,6 +252,7 @@ class TestMain:
 
         # Mock _which2
         async def mock_which2(cmd: str) -> str:
+            """Return a fake git path."""
             return "/usr/bin/git"
 
         monkeypatch.setattr("scripts.retract._which2", mock_which2)
@@ -264,13 +270,18 @@ class TestMain:
         await (fake_tmp / ".git" / "filter-branch" / "commit-map").write_text("")
 
         class FakeTemporaryDirectory:
+            """Fake temp dir pointing at a controlled path."""
+
             def __init__(self, **kw: object) -> None:
+                """Store the controlled path."""
                 self.name = fspath(fake_tmp)
 
             def __enter__(self) -> str:
+                """Return the controlled path."""
                 return self.name
 
             def __exit__(self, *args: object) -> None:
+                """No-op cleanup."""
                 pass
 
         monkeypatch.setattr(
@@ -293,6 +304,7 @@ class TestMain:
         exec_index = [0]
 
         async def mock_exec(*a: object, **kw: object) -> tuple[str, str]:
+            """Return next pre-defined exec result."""
             idx = exec_index[0]
             exec_index[0] += 1
             if idx >= len(exec_results):
@@ -338,6 +350,7 @@ class TestMain:
         )
 
         async def mock_which2(cmd: str) -> str:
+            """Return a fake git path."""
             return "/usr/bin/git"
 
         monkeypatch.setattr("scripts.retract._which2", mock_which2)
@@ -369,6 +382,7 @@ class TestMain:
         )
 
         async def mock_which2(cmd: str) -> str:
+            """Return a fake git path."""
             return "/usr/bin/git"
 
         monkeypatch.setattr("scripts.retract._which2", mock_which2)
@@ -384,13 +398,18 @@ class TestMain:
         await (fake_tmp / ".git" / "filter-branch" / "commit-map").write_text("")
 
         class FakeTemporaryDirectory2:
+            """Fake temp dir pointing at a controlled path."""
+
             def __init__(self, **kw: object) -> None:
+                """Store the controlled path."""
                 self.name = fspath(fake_tmp)
 
             def __enter__(self) -> str:
+                """Return the controlled path."""
                 return self.name
 
             def __exit__(self, *args: object) -> None:
+                """No-op cleanup."""
                 pass
 
         monkeypatch.setattr(
@@ -412,6 +431,7 @@ class TestMain:
         exec_index = [0]
 
         async def mock_exec(*a: object, **kw: object) -> tuple[str, str]:
+            """Return next pre-defined exec result."""
             idx = exec_index[0]
             exec_index[0] += 1
             if idx >= len(exec_results):
