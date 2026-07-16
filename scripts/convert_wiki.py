@@ -973,6 +973,34 @@ class WikiHtmlConverter:
             process_strings=process,
         )
 
+    @staticmethod
+    def _needs_separator_before(sibling: PageElement | None) -> bool:
+        """Check if previous sibling lacks a trailing separator.
+
+        When the previous sibling is a text node that does not end with a separator
+        character, the element's Markdown emphasis markers would merge with that
+        text. Returns True when a ``<!-- markdown separator -->`` should be inserted
+        before the markers.
+        """
+        return (
+            isinstance(sibling, NavigableString)
+            and sibling.rstrip(_MARKDOWN_SEPARATOR_CHARACTERS) == sibling
+        )
+
+    @staticmethod
+    def _needs_separator_after(sibling: PageElement | None) -> bool:
+        """Check if next sibling lacks a leading separator.
+
+        When the next sibling is a text node that does not start with a separator
+        character, the element's Markdown emphasis markers would merge with that
+        text. Returns True when a ``<!-- markdown separator -->`` should be inserted
+        after the markers.
+        """
+        return (
+            isinstance(sibling, NavigableString)
+            and sibling.lstrip(_MARKDOWN_SEPARATOR_CHARACTERS) == sibling
+        )
+
     def _handle_bold_italic(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         """Render bold/italic text with Markdown emphasis markers."""
         bold = (
@@ -992,19 +1020,9 @@ class WikiHtmlConverter:
             prefix = f"{bold_str}<big>"
             suffix = f"</big>{bold_str}"
 
-        if (
-            ele.previous_sibling
-            and isinstance(ele.previous_sibling, NavigableString)
-            and ele.previous_sibling.rstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
-            == ele.previous_sibling
-        ):
+        if self._needs_separator_before(ele.previous_sibling):
             prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
-        if (
-            ele.next_sibling
-            and isinstance(ele.next_sibling, NavigableString)
-            and ele.next_sibling.lstrip(_MARKDOWN_SEPARATOR_CHARACTERS)
-            == ele.next_sibling
-        ):
+        if self._needs_separator_after(ele.next_sibling):
             suffix += _MARKDOWN_SEPARATOR
 
         config = _HandlerConfig(prefix=prefix, suffix=suffix, full_result=False)
