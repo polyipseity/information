@@ -1606,6 +1606,36 @@ class WikiHtmlConverter:
             return desc
         return file_title
 
+    @staticmethod
+    def _create_redirect_symlinks(
+        wiki_dir: PathlibPath,
+        wiki_lang_dir: PathlibPath,
+        from_filename: str,
+        to_filename: str,
+    ) -> None:
+        """Create redirect symlinks for a renamed page.
+
+        Creates a symlink under the language directory (``from_filename.md``
+        → ``to_filename.md``) and a top-level symlink under the wiki root
+        (``from_filename.md`` → relative path to the lang-dir copy).
+        """
+        redirect_file = wiki_lang_dir / f"{from_filename}.md"
+        if not redirect_file.exists():
+            with _with_cwd(wiki_lang_dir):
+                with suppress(FileExistsError):
+                    symlink(
+                        f"{to_filename}.md",
+                        redirect_file.relative_to(wiki_lang_dir),
+                        target_is_directory=False,
+                    )
+            with _with_cwd(wiki_dir):
+                with suppress(FileExistsError):
+                    symlink(
+                        redirect_file.relative_to(wiki_dir),
+                        f"{from_filename}.md",
+                        target_is_directory=False,
+                    )
+
     def _handle_link(self, ele: Tag, classes: Set[str]) -> _HandlerConfig | None:
         """Handle <a> link elements."""
         if (title := ele.get("title")) and title not in _BAD_TITLES:
@@ -1672,26 +1702,12 @@ class WikiHtmlConverter:
                     _fix_filename(to_filename),
                 )
                 if from_filename != to_filename:
-                    redirect_file = (
-                        self._converted_wiki_lang_dir / f"{from_filename}.md"
+                    self._create_redirect_symlinks(
+                        self._converted_wiki_dir,
+                        self._converted_wiki_lang_dir,
+                        from_filename,
+                        to_filename,
                     )
-                    if not redirect_file.exists():
-                        with _with_cwd(self._converted_wiki_lang_dir):
-                            with suppress(FileExistsError):
-                                symlink(
-                                    f"{to_filename}.md",
-                                    redirect_file.relative_to(
-                                        self._converted_wiki_lang_dir
-                                    ),
-                                    target_is_directory=False,
-                                )
-                        with _with_cwd(self._converted_wiki_dir):
-                            with suppress(FileExistsError):
-                                symlink(
-                                    redirect_file.relative_to(self._converted_wiki_dir),
-                                    f"{from_filename}.md",
-                                    target_is_directory=False,
-                                )
                 return config
         elif href := ele.get("href"):
             href = str(href)
