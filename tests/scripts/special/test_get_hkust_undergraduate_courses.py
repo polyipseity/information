@@ -109,6 +109,7 @@ class _FakeResponse:
     """Simulates an aiohttp.ClientResponse with a .text() coroutine."""
 
     def __init__(self, text: str) -> None:
+        """Initialize with the preset HTML text."""
         self._text = text
 
     async def text(self) -> str:
@@ -136,12 +137,15 @@ class _FakeClientSession:
     """
 
     def __init__(self, get_fn: Callable[..., object]) -> None:
+        """Initialize with a configurable .get method."""
         self.get = get_fn
 
     async def __aenter__(self) -> "_FakeClientSession":
+        """Support async with."""
         return self
 
     async def __aexit__(self, *args: object) -> None:
+        """Support async with."""
         return None
 
 
@@ -414,6 +418,7 @@ def _fake_session_factory(
     """
 
     def fake_get(url: object, **kwargs: object) -> _FakeResponse:
+        """Return a fake response based on URL matching."""
         url_str = str(url)
         if url_str == str(_mod._UNDERGRADUATE_COURSES_URL):
             return _FakeResponse(subjects_html)

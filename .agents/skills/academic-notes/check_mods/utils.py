@@ -363,6 +363,7 @@ def ast_collect_text(node: dict) -> str:
     """Collect all ``raw`` text from *node* and its children recursively."""
 
     def _walk(n: dict, parts: list[str]) -> None:
+        """Recursively collect raw text from an AST node into parts list."""
         if "raw" in n:
             parts.append(n["raw"])
         for c in n.get("children", []):

@@ -19,6 +19,7 @@ from asyncer import runnify
 """Exported names from this module (none: standalone script, not importable as a library)."""
 __all__ = ()
 
+"""Absolute path to the repository root directory."""
 _REPO_ROOT = Path(__file__).resolve().parent.parent
 
 

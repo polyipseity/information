@@ -26,9 +26,11 @@ class TestAssignmentPageType:
     """Tests for the AssignmentPageType StrEnum (SUBMISSION only)."""
 
     def test_submission_value(self) -> None:
+        """Verify the SUBMISSION enum has the expected string value."""
         assert _mod.AssignmentPageType.SUBMISSION.value == "submission"
 
     def test_str(self) -> None:
+        """Verify str() returns the expected string for the SUBMISSION member."""
         assert str(_mod.AssignmentPageType.SUBMISSION) == "submission"
 
     def test_only_submission(self) -> None:
@@ -46,14 +48,17 @@ class TestHtmlToText:
     """Tests for the html_to_text pure function (shared logic with Canvas)."""
 
     def test_plain_text(self) -> None:
+        """Verify html_to_text extracts plain text from a simple div."""
         soup = BeautifulSoup("<div>Hello World</div>", "html.parser")
         assert _mod.html_to_text(soup) == "Hello World"
 
     def test_br_newline(self) -> None:
+        """Verify <br> becomes a newline in text output."""
         soup = BeautifulSoup("<div>Line1<br>Line2</div>", "html.parser")
         assert _mod.html_to_text(soup) == "Line1\nLine2"
 
     def test_div_block_newline(self) -> None:
+        """Verify block-level elements add double newline."""
         soup = BeautifulSoup(
             "<div><div>A</div><div>B</div></div>", "html.parser"
         )
@@ -61,16 +66,19 @@ class TestHtmlToText:
         assert "A\n\nB" in result
 
     def test_inline_elements_no_break(self) -> None:
+        """Verify inline elements do not introduce newlines."""
         soup = BeautifulSoup(
             "<div><span>ab</span><b>cd</b></div>", "html.parser"
         )
         assert _mod.html_to_text(soup) == "abcd"
 
     def test_empty_tag(self) -> None:
+        """Verify empty div produces empty string."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         assert _mod.html_to_text(soup) == ""
 
     def test_list_items(self) -> None:
+        """Verify <li> elements add double newline between items."""
         soup = BeautifulSoup(
             "<ul><li>A</li><li>B</li></ul>", "html.parser"
         )
@@ -214,6 +222,7 @@ class TestParseTitleAndContent:
     """Tests for the Zinc-specific parse_title_and_content function."""
 
     def test_submission_with_title_and_content(self) -> None:
+        """Parse submission with both h1 title and body content."""
         soup = BeautifulSoup(
             "<h1>Lab 1</h1>"
             '<div class="leading-4">Description text</div>',
@@ -227,6 +236,7 @@ class TestParseTitleAndContent:
         assert "Description text" in result.content
 
     def test_submission_no_h1(self) -> None:
+        """Parse submission with no h1 returns None."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         result = _mod.parse_title_and_content(
             soup, page_type=_mod.AssignmentPageType.SUBMISSION
@@ -244,6 +254,7 @@ class TestParseTitleAndContent:
         assert result.content == ""
 
     def test_invalid_page_type(self) -> None:
+        """Invalid page type raises ValueError."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         with pytest.raises(ValueError, match="invalid"):
             _mod.parse_title_and_content(
@@ -260,6 +271,7 @@ class TestParseGrade:
     """Tests for the Zinc-specific parse_grade with breakdown field."""
 
     def test_submission_with_grade(self) -> None:
+        """Parse submission grade with entered and possible scores."""
         soup = BeautifulSoup(
             "<div><div>Total Score</div></div><div>85/100</div>",
             "html.parser",
@@ -282,6 +294,7 @@ class TestParseGrade:
         assert result is None
 
     def test_submission_with_breakdown(self) -> None:
+        """Parse submission grade with test case breakdown."""
         soup = BeautifulSoup(
             "<div><div>Total Score</div></div><div>85/100</div>"
             "<div>Test Cases</div>"
@@ -318,6 +331,7 @@ class TestParseGrade:
         assert result.breakdown[""] == 1
 
     def test_entered_grade_float(self) -> None:
+        """Parse submission grade with float entered and possible scores."""
         soup = BeautifulSoup(
             "<div><div>Total Score</div></div><div>88.5/100.0</div>",
             "html.parser",
@@ -343,6 +357,7 @@ class TestParseGrade:
         assert result.possible_grade == ""
 
     def test_invalid_page_type(self) -> None:
+        """Invalid page type raises ValueError."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         with pytest.raises(ValueError, match="invalid"):
             _mod.parse_grade(
@@ -439,6 +454,7 @@ class TestParseProperties:
         assert result.submission_datetime == "unknown-date"
 
     def test_retries_remaining(self) -> None:
+        """Parse retries remaining property from submission page."""
         soup = BeautifulSoup(
             "<div>Auto Grader graded your submission on"
             "<span>15/09/2023 at 11:59:00pm</span></div>"
@@ -540,6 +556,7 @@ class TestParseProperties:
         assert due == datetime(2023, 9, 15, 23, 59, 0, tzinfo=timezone.utc)
 
     def test_invalid_page_type(self) -> None:
+        """Invalid page type raises ValueError."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         with pytest.raises(ValueError, match="invalid"):
             _mod.parse_properties(
@@ -656,6 +673,7 @@ saved date: Thu Sep 14 2023 10:00:00 UTC+0000
 
     @pytest.mark.anyio
     async def test_convert_output_keys(self) -> None:
+        """Verify conversion output contains expected keys for course, assignment, grade, and breakdown."""
         result = await _mod.convert(self.MINIMAL_HTML)
         assert result is not None
         assert "COMP 2012" in result
@@ -665,6 +683,7 @@ saved date: Thu Sep 14 2023 10:00:00 UTC+0000
 
     @pytest.mark.anyio
     async def test_convert_with_breakdown(self) -> None:
+        """Verify conversion output includes test case breakdown."""
         html = self.MINIMAL_HTML + (
             '<div>Test Cases</div><ul>'
             '<li><span data-icon="check"></span>'

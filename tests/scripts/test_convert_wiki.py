@@ -1133,6 +1133,7 @@ class TestSymlinkCreation:
         assert await (top_dir / "From Page.md").is_symlink()
 
 
+"""Absolute path to the snapshot test fixtures directory."""
 _SNAPSHOT_DIR = (
     PathlibPath(__file__).resolve(strict=True).with_name("test_convert_wiki")
     / "snapshots"

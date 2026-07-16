@@ -13,6 +13,7 @@ from pytest import MonkeyPatch
 
 from scripts import power as _mod
 
+"""No public symbols exported from this test module."""
 __all__ = ()
 
 

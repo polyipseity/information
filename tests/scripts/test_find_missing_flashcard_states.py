@@ -10,6 +10,7 @@ from scripts import find_missing_flashcard_states as _mod
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
 
+"""Regex pattern matching flashcard state date annotations (prefix ``!`` followed by ``YYYY-MM-DD``)."""
 FLASHCARD_STATE_REGEX_PATTERN = r"!\d{4}-\d{2}-\d{2}"
 
 

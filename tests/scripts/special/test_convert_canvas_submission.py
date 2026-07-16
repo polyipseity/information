@@ -28,16 +28,20 @@ class TestAssignmentPageType:
     """Tests for the AssignmentPageType StrEnum."""
 
     def test_assignment_value(self) -> None:
+        """Verify the ASSIGNMENT enum has the expected string value."""
         assert _mod.AssignmentPageType.ASSIGNMENT.value == "assignment"
 
     def test_submission_value(self) -> None:
+        """Verify the SUBMISSION enum has the expected string value."""
         assert _mod.AssignmentPageType.SUBMISSION.value == "submission"
 
     def test_str(self) -> None:
+        """Verify str() returns the expected string for each enum member."""
         assert str(_mod.AssignmentPageType.ASSIGNMENT) == "assignment"
         assert str(_mod.AssignmentPageType.SUBMISSION) == "submission"
 
     def test_membership(self) -> None:
+        """Verify both enum values are registered as valid members."""
         assert "assignment" in _mod.AssignmentPageType._value2member_map_
         assert "submission" in _mod.AssignmentPageType._value2member_map_
 
@@ -51,10 +55,12 @@ class TestHtmlToText:
     """Tests for the html_to_text pure function."""
 
     def test_plain_text(self) -> None:
+        """Verify html_to_text extracts plain text from a simple div."""
         soup = BeautifulSoup("<div>Hello World</div>", "html.parser")
         assert _mod.html_to_text(soup) == "Hello World"
 
     def test_br_newline(self) -> None:
+        """Verify <br> becomes a newline in text output."""
         soup = BeautifulSoup("<div>Line1<br>Line2</div>", "html.parser")
         assert _mod.html_to_text(soup) == "Line1\nLine2"
 
@@ -87,14 +93,17 @@ class TestHtmlToText:
         assert "Item1\n\nItem2" in result
 
     def test_empty_tag(self) -> None:
+        """Verify empty div produces empty string."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         assert _mod.html_to_text(soup) == ""
 
     def text_only_whitespace(self) -> None:
+        """Verify whitespace-only content produces empty string."""
         soup = BeautifulSoup("<div>  </div>", "html.parser")
         assert _mod.html_to_text(soup) == ""
 
     def test_mixed_nesting(self) -> None:
+        """Verify mixed <p>, <br> nesting produces expected inline text."""
         soup = BeautifulSoup(
             "<div><p>P1<br>P1b</p><p>P2</p></div>", "html.parser"
         )
@@ -252,6 +261,7 @@ class TestParseTitleAndContent:
     """Tests for the parse_title_and_content function."""
 
     def test_assignment_with_title_and_content(self) -> None:
+        """Parse assignment with both title and body content."""
         soup = BeautifulSoup(
             '<div class="assignment-title">'
             '<span class="title-content">Homework 1</span></div>'
@@ -266,6 +276,7 @@ class TestParseTitleAndContent:
         assert "Body text" in result.content
 
     def test_assignment_no_title(self) -> None:
+        """Parse assignment with no title returns None."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         result = _mod.parse_title_and_content(
             soup, page_type=_mod.AssignmentPageType.ASSIGNMENT
@@ -273,6 +284,7 @@ class TestParseTitleAndContent:
         assert result is None
 
     def test_assignment_title_only(self) -> None:
+        """Parse assignment with title but no body content."""
         soup = BeautifulSoup(
             '<div class="assignment-title">'
             '<span class="title-content">Homework 1</span></div>',
@@ -286,6 +298,7 @@ class TestParseTitleAndContent:
         assert result.content == ""
 
     def test_submission_with_title(self) -> None:
+        """Parse submission with title from header heading."""
         soup = BeautifulSoup(
             '<div class="submission-details-header__heading">HW1</div>',
             "html.parser",
@@ -298,6 +311,7 @@ class TestParseTitleAndContent:
         assert result.content == ""
 
     def test_submission_no_title(self) -> None:
+        """Parse submission with no title returns None."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         result = _mod.parse_title_and_content(
             soup, page_type=_mod.AssignmentPageType.SUBMISSION
@@ -322,6 +336,7 @@ class TestParseGrade:
     # -- ASSIGNMENT --
 
     def test_assignment_with_grade(self) -> None:
+        """Parse grade from assignment page with full grade info."""
         soup = BeautifulSoup(
             '<div class="details"><div class="content">'
             '<div class="module">Grade: 85/100<span>  /100</span>'
@@ -337,6 +352,7 @@ class TestParseGrade:
         assert result.graded_anonymously is True
 
     def test_assignment_no_grade(self) -> None:
+        """Parse assignment with no grade element returns None."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         result = _mod.parse_grade(
             soup, page_type=_mod.AssignmentPageType.ASSIGNMENT
@@ -344,6 +360,7 @@ class TestParseGrade:
         assert result is None
 
     def test_assignment_no_graded_anonymously(self) -> None:
+        """Parse assignment grade with no anonymously graded flag."""
         soup = BeautifulSoup(
             '<div class="details"><div class="content">'
             '<div class="module">Grade: 90<span>  /100</span></div>'
@@ -357,6 +374,7 @@ class TestParseGrade:
         assert result.graded_anonymously is None
 
     def test_assignment_graded_anonymously_no(self) -> None:
+        """Parse assignment grade with graded_anonymously set to No."""
         soup = BeautifulSoup(
             '<div class="details"><div class="content">'
             '<div class="module">Grade: 90<span>  /100</span>'
@@ -386,6 +404,7 @@ class TestParseGrade:
     # -- SUBMISSION --
 
     def test_submission_with_grade(self) -> None:
+        """Parse grade from submission page with entered grade."""
         soup = BeautifulSoup(
             '<div class="entered_grade">85</div>',
             "html.parser",
@@ -399,6 +418,7 @@ class TestParseGrade:
         assert result.graded_anonymously is None
 
     def test_submission_no_grade(self) -> None:
+        """Parse submission with no grade element returns None."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         result = _mod.parse_grade(
             soup, page_type=_mod.AssignmentPageType.SUBMISSION
@@ -420,6 +440,7 @@ class TestParseGrade:
         assert isinstance(result.possible_grade, str)
 
     def test_invalid_page_type(self) -> None:
+        """Invalid page type raises ValueError."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         with pytest.raises(ValueError, match="invalid"):
             _mod.parse_grade(soup, page_type=cast(_mod.AssignmentPageType, "invalid"))
@@ -451,6 +472,7 @@ class TestParseProperties:
         assert isinstance(result.submission_datetime, datetime)
 
     def test_assignment_with_properties(self) -> None:
+        """Parse assignment page with full properties overview."""
         soup = BeautifulSoup(
             '<div class="details"><div class="content">'
             '<div>Due: Sep 15, 2023 at 11:59pm</div>'
@@ -499,6 +521,7 @@ class TestParseProperties:
         assert result.properties == {}
 
     def test_submission_with_properties(self) -> None:
+        """Parse submission page with attempts info properties."""
         soup = BeautifulSoup(
             '<div class="submission-details-header__time">'
             "Sep 15, 2023 at 11:59pm</div>"
@@ -575,6 +598,7 @@ class TestParseProperties:
         assert attempts == 3
 
     def test_invalid_page_type(self) -> None:
+        """Invalid page type raises ValueError."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         with pytest.raises(ValueError, match="invalid"):
             _mod.parse_properties(
@@ -595,6 +619,7 @@ class TestParseComments:
     REF = datetime(2023, 9, 15, tzinfo=timezone.utc)
 
     def test_assignment_no_comments(self) -> None:
+        """Parse assignment page with no comments returns empty list."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         result = _mod.parse_comments(
             soup,
@@ -604,6 +629,7 @@ class TestParseComments:
         assert result == []
 
     def test_assignment_with_comment(self) -> None:
+        """Parse assignment comment with full signature info."""
         soup = BeautifulSoup(
             '<div class="comments">'
             '<div class="comment" id="comment-42">'
@@ -624,6 +650,7 @@ class TestParseComments:
         assert isinstance(result[0].datetime, datetime)
 
     def test_assignment_comment_no_signature(self) -> None:
+        """Parse assignment comment with no signature information."""
         soup = BeautifulSoup(
             '<div class="comments">'
             '<div class="comment" id="comment-7">'
@@ -660,6 +687,7 @@ class TestParseComments:
         assert result[0].datetime == ""
 
     def test_submission_no_comments(self) -> None:
+        """Parse submission page with no comments returns empty list."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         result = _mod.parse_comments(
             soup,
@@ -669,6 +697,7 @@ class TestParseComments:
         assert result == []
 
     def test_submission_with_comment(self) -> None:
+        """Parse submission comment with author and datetime."""
         soup = BeautifulSoup(
             '<div class="comment_list">'
             '<div class="comment" id="submission_comment_99">'
@@ -690,6 +719,7 @@ class TestParseComments:
         assert isinstance(result[0].datetime, datetime)
 
     def test_submission_comment_with_attachments(self) -> None:
+        """Parse submission comment that includes file attachments."""
         soup = BeautifulSoup(
             '<div class="comment_list">'
             '<div class="comment" id="submission_comment_1">'
@@ -719,6 +749,7 @@ class TestParseComments:
             )
 
     def test_assignment_multiple_comments(self) -> None:
+        """Parse assignment page with multiple comments."""
         soup = BeautifulSoup(
             '<div class="comments">'
             '<div class="comment" id="comment-1">'
@@ -824,6 +855,7 @@ saved date: Thu Sep 14 2023 10:00:00 UTC+0000
 
     @pytest.mark.anyio
     async def test_assignment_output_has_expected_keys(self) -> None:
+        """Verify assignment conversion output contains expected fields."""
         result = await _mod.convert(self.MINIMAL_ASSIGNMENT_HTML)
         assert result is not None
         assert "title: Assignment 1" in result
@@ -832,6 +864,7 @@ saved date: Thu Sep 14 2023 10:00:00 UTC+0000
 
     @pytest.mark.anyio
     async def test_submission_output_has_expected_keys(self) -> None:
+        """Verify submission conversion output contains expected fields."""
         result = await _mod.convert(self.MINIMAL_SUBMISSION_HTML)
         assert result is not None
         assert "grade:" in result
