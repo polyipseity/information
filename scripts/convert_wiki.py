@@ -508,9 +508,9 @@ async def _api_request(
         query=params,
     )
     backoff = _API_INITIAL_BACKOFF
-    for _attempt in range(_API_MAX_RETRIES):
+    for attempt in range(_API_MAX_RETRIES):
         async with session.get(url) as req:
-            if req.status == 429:
+            if req.status == 429 and attempt < _API_MAX_RETRIES - 1:
                 retry_after_str = req.headers.get("Retry-After")
                 if retry_after_str is not None:
                     try:
@@ -521,9 +521,7 @@ async def _api_request(
                 backoff = min(backoff * _API_BACKOFF_MULTIPLIER, _API_MAX_BACKOFF)
                 continue
             return await req.json()
-    # last attempt — return the API response regardless of status
-    async with session.get(url) as req:
-        return await req.json()
+    raise AssertionError("unreachable")
 
 
 async def _resolve_redirects(
