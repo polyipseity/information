@@ -1738,6 +1738,12 @@ def _format_separator_cell(width: int, alignment: str) -> str:
     return ":" + "-" * (width - 2) + ":"
 
 
+# Characters that are zero-width in terminal display but count as width 1 in
+# Python ``len()``.  MD060 (table-column-style) fires when these skew column
+# widths.  Strip them from table cell content before computing widths.
+_ZERO_WIDTH_CHARS_RE = re.compile("[\u200b\u200c\u200d\u2060\ufeff]")
+
+
 def _parse_table_row(line: str) -> list[str] | None:
     """Parse a pipe-table row into cell contents.  Returns None if the line
     is not a valid table row."""
@@ -1745,7 +1751,7 @@ def _parse_table_row(line: str) -> list[str] | None:
     if not (line.startswith("|") and line.endswith("|")):
         return None
     inner = line[1:-1]  # strip outer pipes
-    return [p.strip() for p in inner.split(" | ")]
+    return [_ZERO_WIDTH_CHARS_RE.sub("", p.strip()) for p in inner.split(" | ")]
 
 
 def _pad_table_block(lines: list[str]) -> list[str]:
@@ -1868,6 +1874,13 @@ async def wiki_html_to_plaintext(
     result = result.replace("\xa0", " ")
     # Pad table columns to the widest content per column.
     result = _pad_table_blocks(result)
+    # Insert MD028 suppression comments between adjacent blockquote blocks.
+    result = re.sub(
+        r"(^(?:>[^\n]*\n)+)\n+(^>(?:[^\n]*\n?)+)",
+        r"\1\n<!-- markdownlint MD028 -->\n\n\2",
+        result,
+        flags=re.MULTILINE,
+    )
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
     return result
