@@ -1967,18 +1967,14 @@ async def run_pipeline(
     """
     out_to_archive = set[str]()
 
-    def _make_converter() -> WikiHtmlConverter:
-        """Create a converter for a specific Wikipedia language."""
-        return WikiHtmlConverter(
+    # If all data is already provided, skip session/API entirely.
+    if redirect_map is not None and image_metadata is not None:
+        converter = WikiHtmlConverter(
             converted_wiki_dir=wiki_dir or _CONVERTED_WIKI_DIRECTORY,
             converted_wiki_lang_dir=wiki_lang_dir or _CONVERTED_WIKI_LANGUAGE_DIRECTORY,
             image_metadata=image_metadata or {},
             names_map=names_map,
         )
-
-    # If all data is already provided, skip session/API entirely.
-    if redirect_map is not None and image_metadata is not None:
-        converter = _make_converter()
         output = await wiki_html_to_plaintext(
             html,
             out_to_archive=out_to_archive,
@@ -2024,7 +2020,12 @@ async def run_pipeline(
         )
 
     # Convert.
-    converter = _make_converter()
+    converter = WikiHtmlConverter(
+        converted_wiki_dir=wiki_dir or _CONVERTED_WIKI_DIRECTORY,
+        converted_wiki_lang_dir=wiki_lang_dir or _CONVERTED_WIKI_LANGUAGE_DIRECTORY,
+        image_metadata=image_metadata or {},
+        names_map=names_map,
+    )
     output = await wiki_html_to_plaintext(
         html,
         out_to_archive=out_to_archive,
