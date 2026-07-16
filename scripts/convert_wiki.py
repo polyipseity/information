@@ -1405,6 +1405,41 @@ class WikiHtmlConverter:
                         new_tdh.clear()
                         current_row.insert(col_idx, new_tdh)
 
+    @staticmethod
+    def _cell_alignment(cell: Tag) -> str:
+        """Derive a GFM alignment marker from a table cell's text-align style.
+
+        Returns ``:--`` (left), ``:-:`` (center), ``--:`` (right), or
+        ``---`` (default).
+        """
+        style = str(cell.get("style", ""))
+        if ta_match := _TEXT_ALIGN_REGEX.search(style):
+            ta = ta_match[1]
+            if ta == "center":
+                return ":-:"
+            elif ta == "right":
+                return "--:"
+            return ":--"
+        return "---"
+
+    @staticmethod
+    def _filter_table_cells(
+        strings: str,
+        *,
+        is_navbox: bool,
+        total_colspan: int,
+    ) -> str:
+        """Filter, pad, and clean table cell strings for ``_handle_tr``."""
+        cells = [s.strip() for s in strings.split(" | ")]
+        if not is_navbox:
+            cells = [c for c in cells if c]
+        while len(cells) < total_colspan:
+            cells.append("")
+        result = " | ".join(cells)
+        if cells and not cells[0] and result.startswith(" |"):
+            result = "|" + result[2:]
+        return result
+
     def _handle_tr(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         """Handle <tr> table row elements."""
         joiner = " | "
@@ -1430,26 +1465,6 @@ class WikiHtmlConverter:
         # Account for colspan when counting columns.
         total_colspan = sum(int(str(c.get("colspan", "1"))) for c in tag_cells)
 
-        def filter_cells(strings: str) -> str:
-            """Filter and pad table cells to match column count."""
-            cells = [s.strip() for s in strings.split(" | ")]
-            if not is_navbox:
-                cells = [c for c in cells if c]
-            # Pad with empty cells to match the total column count
-            # (needed when a cell has colspan > 1).
-            while len(cells) < total_colspan:
-                cells.append("")
-            result = " | ".join(cells)
-            # Rows may have an empty first cell (e.g. from a
-            # colspan-split in navboxes). The row prefix "| " followed
-            # by the " | " joiner on an empty cell produces "|  |"
-            # (two spaces between pipes). Collapse the leading space
-            # from the joiner when the first cell is empty to get
-            # "| |".
-            if cells and not cells[0] and result.startswith(" |"):
-                result = "|" + result[2:]
-            return result
-
         if tag_cells and all(child.name == "th" for child in tag_cells):
             # Check if table uses first-column headers (<th scope="row">).
             table = ele.find_parent("table")
@@ -1457,23 +1472,7 @@ class WikiHtmlConverter:
                 table is not None and table.find("th", scope="row") is not None
             )
 
-            # Build alignment markers based on each cell's text-align style.
-            # GFM markers: --- (left/default), :-- (explicit left),
-            # :-: (center), --: (right). Minimum 3 characters including colons.
-            alignments: list[str] = []
-            for i, child in enumerate(tag_cells):
-                style = str(child.get("style", ""))
-                ta_match = _TEXT_ALIGN_REGEX.search(style)
-                if ta_match:
-                    ta = ta_match[1]
-                    if ta == "center":
-                        alignments.append(":-:")
-                    elif ta == "right":
-                        alignments.append("--:")
-                    else:
-                        alignments.append(":--")
-                else:
-                    alignments.append("---")
+            alignments = [self._cell_alignment(child) for child in tag_cells]
             # Override first column to right-aligned when the table uses
             # first-column headers (detected by <th scope="row">).
             if has_scope_row and alignments:
@@ -1494,7 +1493,7 @@ class WikiHtmlConverter:
             joiner=joiner,
             prefix=prefix,
             suffix=suffix,
-            process_strings=filter_cells,
+            process_strings=lambda s: self._filter_table_cells(s, is_navbox=is_navbox, total_colspan=total_colspan),
         )
 
     def _handle_td(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
