@@ -283,6 +283,8 @@ def _bs4_new_element(tag_str: str) -> PageElement:
 def _fix_name_maybe(
     name: str,
     *,
+    # Normalize nbsp to space. Kept as a parameter for future callers that
+    # may pass pre-normalized strings and wish to skip this step.
     normalize: bool = True,
     replace_underscores: bool = False,
     names_map: Mapping[str, str] | None = None,
@@ -1622,6 +1624,7 @@ class WikiHtmlConverter:
                 """Strip and flatten link display text."""
                 return s.strip().replace("\n", " <br/> ")
 
+            # Reserved for ignored name prefixes — see _IGNORED_NAME_PREFIXES.
             if any(to.startswith(prefix) for prefix in _IGNORED_NAME_PREFIXES):
                 pass
             elif url_format := next(
