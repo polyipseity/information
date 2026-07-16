@@ -1183,6 +1183,62 @@ class WikiHtmlConverter:
 
         return _HandlerConfig(process_strings=process)
 
+    @staticmethod
+    def _is_inline_math(ele: Tag) -> bool:
+        """Determine if a ``<math>`` element should use inline ``$`` delimiters.
+
+        Walks up three parent levels from the element.  Math is considered inline
+        when the immediate parent has an ``"inline"`` CSS class and the
+        great-grandparent has multiple children (i.e. the math is not the sole
+        content of the enclosing paragraph).
+        """
+        parent = ele.parent
+        if not parent or "inline" not in str(parent.get("class", "")):
+            return False
+        for _ in range(2):
+            parent = parent.parent
+            if parent is None:
+                return False
+        return len(parent) > 1
+
+    @staticmethod
+    def _strip_trailing_punctuation(text: str) -> tuple[str, str]:
+        """Strip ``.`` or ``,`` from the end of inline math, preserving ``\\,``.
+
+        Returns ``(cleaned_text, extracted_punctuation)``.  The punctuation
+        characters are moved outside the math delimiters so they render
+        correctly.
+        """
+        suffix = ""
+        for char in ".,":
+            if text.endswith(R"\,"):
+                continue
+            if text.endswith(char):
+                suffix += text[-1]
+                text = text[:-1]
+        return text.rstrip(), suffix
+
+    @staticmethod
+    def _escape_flashcard_delimiters(text: str) -> str:
+        """Insert spaces around flashcard and LaTeX delimiters inside math.
+
+        Flashcard markup (``:@:``, ``::@::``, ``{@{``, ``}@}``) and LaTeX
+        double-braces (``{{``/``}}``) need whitespace inserted to prevent
+        pytextgen from misinterpreting them as actual flashcard markers.
+        """
+        text = (
+            text.replace(R":@:", R": @ :")
+            .replace(R"?@?", R"? @ ?")
+            .replace(R"{@{", R"{ @ {")
+            .replace(R"}@}", R"} @ }")
+        )
+        while True:
+            new_text = text.replace(R"{{", "{ {").replace(R"}}", "} }")
+            if new_text == text:
+                break
+            text = new_text
+        return text
+
     def _handle_math(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         """Render <math> elements with LaTeX delimiters."""
         prefix = suffix = ""
@@ -1197,38 +1253,14 @@ class WikiHtmlConverter:
                 alt_text += "{}"
             else:
                 alt_text = alt_text.rstrip()
-            alt_text = (
-                alt_text.replace(R":@:", R": @ :")
-                .replace(R"?@?", R"? @ ?")
-                .replace(R"{@{", R"{ @ {")
-                .replace(R"}@}", R"} @ }")
-            )
-            while (
-                alt_text_2 := alt_text.replace(R"{{", "{ {").replace(R"}}", "} }")
-            ) != alt_text:
-                alt_text = alt_text_2
+            alt_text = self._escape_flashcard_delimiters(alt_text)
 
-            is_not_separate_paragraph = (
-                (parent := ele.parent)
-                and (parent := parent.parent)
-                and (parent := parent.parent)
-                and len(parent) > 1
-            )
-            is_inline = (parent := ele.parent) and "inline" in str(
-                parent.get("class", "")
-            )
-            inline = is_not_separate_paragraph and is_inline
-
+            inline = self._is_inline_math(ele)
             prefix, suffix = "$" if inline else " $$", "$" if inline else "$$"
 
             if inline:
-                for char in ".,":
-                    if alt_text.endswith(R"\,"):
-                        continue
-                    if alt_text.endswith(char):
-                        suffix += alt_text[-1]
-                        alt_text = alt_text[:-1]
-                alt_text = alt_text.rstrip()
+                alt_text, punct = self._strip_trailing_punctuation(alt_text)
+                suffix += punct
 
             ele.clear()
             ele.append(alt_text)
