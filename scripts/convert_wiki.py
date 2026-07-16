@@ -521,7 +521,7 @@ async def _api_request(
                 backoff = min(backoff * _API_BACKOFF_MULTIPLIER, _API_MAX_BACKOFF)
                 continue
             return await req.json()
-    # last attempt — raise on any non-200 status
+    # last attempt — return the API response regardless of status
     async with session.get(url) as req:
         return await req.json()
 
