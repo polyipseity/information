@@ -18,6 +18,9 @@ from anyio import Path
 
 from scripts.special import get_hkust_undergraduate_courses as _mod
 
+"""Public API of this test module (empty: no symbols are exported)."""
+__all__ = ()
+
 # ---------------------------------------------------------------------------
 # TestSubject
 # ---------------------------------------------------------------------------

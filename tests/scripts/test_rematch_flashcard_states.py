@@ -9,6 +9,9 @@ from scripts.rematch_flashcard_states import (
     normalize_line_endings,
 )
 
+"""Public API of this test module (empty: no symbols are exported)."""
+__all__ = ()
+
 # ── normalize_line_endings ──────────────────────────────────────────────
 
 

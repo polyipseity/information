@@ -14,6 +14,9 @@ from bs4 import BeautifulSoup
 
 from scripts.special import convert_hkust_zinc_submission as _mod
 
+"""Public API of this test module (empty: no symbols are exported)."""
+__all__ = ()
+
 # ---------------------------------------------------------------------------
 # AssignmentPageType
 # ---------------------------------------------------------------------------

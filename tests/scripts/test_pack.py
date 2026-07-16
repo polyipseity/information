@@ -20,6 +20,9 @@ from anyio import Path
 
 from scripts import pack as _mod
 
+"""Public API of this test module (empty: no symbols are exported)."""
+__all__ = ()
+
 # ---------------------------------------------------------------------------
 # TestArguments
 # ---------------------------------------------------------------------------

@@ -10,6 +10,9 @@ from anyio import Path
 
 from scripts import retract as _mod
 
+"""Public API of this test module (empty: no symbols are exported)."""
+__all__ = ()
+
 
 class TestConstants:
     """Tests for module-level constants."""

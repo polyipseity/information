@@ -20,6 +20,9 @@ from bs4 import BeautifulSoup, Tag
 
 from scripts import convert_wiki as _mod
 
+"""Public API of this test module (empty: no symbols are exported)."""
+__all__ = ()
+
 
 class TestFixNameMaybe:
     """Tests for the _fix_name_maybe function."""

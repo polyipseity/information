@@ -9,6 +9,9 @@ from anyio import Path
 
 from scripts import new_wiki_page as _mod
 
+"""Public API of this test module (empty: no symbols are exported)."""
+__all__ = ()
+
 
 class TestResolveLang:
     """Tests for the _resolve_lang function."""
