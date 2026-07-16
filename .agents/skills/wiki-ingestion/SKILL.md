@@ -88,7 +88,7 @@ tags:
 
 #### Example walkthrough
 
-```
+```text
 $ uv run -m scripts.new_wiki_page
 Language? (ISO code, default: eng) zho
 Name? Fourier transform
