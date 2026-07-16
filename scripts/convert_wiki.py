@@ -1898,7 +1898,8 @@ async def wiki_html_to_plaintext(
     )
     # Replace non-breaking spaces with regular spaces (residues from
     # citation spans, HTML &nbsp; in list items, etc.).
-    result = result.replace("\xa0", " ")
+    # Also replace hair spaces with HTML entity.
+    result = result.replace("\xa0", " ").replace("\u200a", "&hairsp;")
     # Pad table columns to the widest content per column.
     result = _pad_table_blocks(result)
     # Insert MD028 suppression comments between adjacent blockquote blocks.
@@ -1910,7 +1911,7 @@ async def wiki_html_to_plaintext(
     )
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
-    return result
+    return result.strip()
 
 
 async def run_pipeline(
@@ -1985,7 +1986,6 @@ async def run_pipeline(
             refs=refs,
             converter=converter,
         )
-        output = output.replace("\xa0", " ").replace("\u200a", "&hairsp;").strip()
         return output, out_to_archive
 
     # Need a session for API calls \u2014 create one if not provided.
@@ -2032,7 +2032,6 @@ async def run_pipeline(
         refs=refs,
         converter=converter,
     )
-    output = output.replace("\xa0", " ").replace("\u200a", "&hairsp;").strip()
     return output, out_to_archive
 
 
