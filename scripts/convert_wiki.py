@@ -892,6 +892,7 @@ class WikiHtmlConverter:
 
     def _handle_br(self, ele: Tag, classes: Set[str]) -> _HandlerConfig | None:
         """Render a <br> tag as a newline."""
+
         def process(strings: str) -> str:
             """Append newline to strings."""
             return f"{strings}\n"
@@ -1030,95 +1031,63 @@ class WikiHtmlConverter:
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
     @staticmethod
-    def _merge_sidebar_headers(ele: Tag) -> None:
-        """Merge sidebar header rows (pretitle + title) into a single <tr>.
+    def _merge_header_rows(ele: Tag) -> None:
+        """Merge consecutive header rows in <tbody> into a single row.
 
-        Wikipedia sidebar tables separate the pretitle ("Part of a series on")
-        and title into different <tr> elements. Markdown pipe tables only
-        support a single header row before the |---| separator, so we
-        collapse header rows into one at the DOM level.
+        Markdown pipe tables only support a single header row before the
+        |---| separator. When a <tbody> has multiple consecutive rows at
+        the start that are header rows (all-<th> rows plus any <td> rows
+        before the first all-<th> row), they are collapsed into the last
+        all-<th> row.
         """
         trs = [c for c in ele.children if isinstance(c, Tag) and c.name == "tr"]
         header_trs: list[Tag] = []
         target_tr: Tag | None = None
-        target_cell: Tag | None = None
+        seen_th = False
 
         for tr in trs:
-            first_cell = tr.find(("th", "td"))
-            if first_cell is None:
+            cells = [
+                c for c in tr.children if isinstance(c, Tag) and c.name in _TD_OR_TH
+            ]
+            if not cells:
                 continue
-            cell_classes = first_cell.get_attribute_list("class")
-            if (
-                "sidebar-pretitle" in cell_classes
-                or "sidebar-title" in cell_classes
-                or "sidebar-title-with-pretitle" in cell_classes
-            ):
+            all_th = all(c.name == "th" for c in cells)
+            if all_th:
                 header_trs.append(tr)
-                if first_cell.name == "th":
-                    target_tr = tr
-                    target_cell = first_cell
+                target_tr = tr
+                seen_th = True
+            elif not seen_th:
+                # Rows before the first all-<th> row (e.g. pretitle <td> rows)
+                # are also part of the header block.
+                header_trs.append(tr)
             else:
                 break
 
-        if len(header_trs) <= 1:
+        if target_tr is None or len(header_trs) <= 1:
             return
 
-        # If no <th> header row found, use the last header row as target.
-        if target_tr is None:
-            target_tr = header_trs[-1]
-            target_cell = target_tr.find(("th", "td"))
-
-        if target_cell is None:
-            return
-
-        # For sidebar-title-with-pretitle: wrap inner content in <big> in the
-        # DOM, then change class to sidebar-title so _handle_th won't double-wrap.
-        cell_classes = target_cell.get_attribute_list("class")
-        if "sidebar-title-with-pretitle" in cell_classes:
-            big = _bs4_new_element("<big></big>")
-            assert isinstance(big, Tag)
-            for child in list(target_cell.contents):
-                big.append(child.extract())
-            target_cell.append(big)
-            cell_classes = [
-                c for c in cell_classes if c != "sidebar-title-with-pretitle"
-            ]
-            cell_classes.append("sidebar-title")
-            target_cell["class"] = " ".join(cell_classes)
-
-        # Remove font-weight: bold from the cell's inline style to prevent
-        # _handle_bold_italic from bold-wrapping the entire merged cell.
-        style = str(target_cell.get("style", ""))
-        if style:
-            new_style = _BOLD_FONT_STYLE_REGEX.sub("", style).strip()
-            if new_style:
-                target_cell["style"] = new_style
-            else:
-                del target_cell.attrs["style"]
-
-        # Wrap all existing content of the target cell in <b> for bold
-        # wrapping (the title should remain bold in the merged header).
-        b_tag = _bs4_new_element("<b></b>")
-        assert isinstance(b_tag, Tag)
-        for child in list(target_cell.contents):
-            b_tag.append(child.extract())
-        target_cell.append(b_tag)
-
-        # Move content from extra header rows into the target cell.
+        # Merge each extra header row's cells into the target row.
         for tr in header_trs:
             if tr is target_tr:
                 continue
-            first_cell = tr.find(("th", "td"))
-            if first_cell is None:
-                continue
+            extra_cells = [
+                c for c in tr.children if isinstance(c, Tag) and c.name in _TD_OR_TH
+            ]
+            target_cells = [
+                c
+                for c in target_tr.children
+                if isinstance(c, Tag) and c.name in _TD_OR_TH
+            ]
 
-            children = list(first_cell.children)
-            # Insert <br/> before the <b>-wrapped content.
-            br = _bs4_new_element("<br/>")
-            target_cell.insert(0, br)
-            # Prepend children in reverse to preserve original order.
-            for child in reversed(children):
-                target_cell.insert(0, child.extract())
+            for i, extra_cell in enumerate(extra_cells):
+                if i < len(target_cells):
+                    target_cell = target_cells[i]
+                    children = list(extra_cell.children)
+                    if children:
+                        br = _bs4_new_element("<br/>")
+                        target_cell.insert(0, br)
+                        for child in reversed(children):
+                            target_cell.insert(0, child.extract())
 
             tr.decompose()
 
@@ -1146,6 +1115,7 @@ class WikiHtmlConverter:
 
     def _handle_p(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         """Render a <p> paragraph with appropriate spacing."""
+
         def process(strings: str) -> str:
             """Collapse whitespace runs in paragraph text."""
             return " ".join(strings.split())
@@ -1157,6 +1127,7 @@ class WikiHtmlConverter:
 
     def _handle_code(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         """Render inline <code> with backtick markers."""
+
         def process(strings: str) -> str:
             """Wrap code text in backtick delimiters."""
             delimiter = "`"
@@ -1341,7 +1312,7 @@ class WikiHtmlConverter:
     def _handle_tbody(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
         """Handle <tbody> table body elements."""
         self._normalize_table_cells(ele)
-        self._merge_sidebar_headers(ele)
+        self._merge_header_rows(ele)
         return _HandlerConfig(prefix="\n", suffix="\n\n")
 
     def _handle_thead(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
