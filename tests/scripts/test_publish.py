@@ -6,7 +6,7 @@ from pathlib import PurePath
 from typing import Any, cast
 
 import pytest
-from anyio import Path
+from anyio import Path, Semaphore
 
 from scripts import publish as _mod
 
@@ -35,8 +35,6 @@ class TestConstants:
 
     def test_semaphore_type(self) -> None:
         """_SUBPROCESS_SEMAPHORE should be a Semaphore."""
-        from anyio import Semaphore
-
         assert isinstance(_mod._SUBPROCESS_SEMAPHORE, Semaphore)
 
     def test_message_property_key_type(self) -> None:
