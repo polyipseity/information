@@ -8,6 +8,8 @@ Note: ProcessMarkdownFileResult and MetadataJSONEncoder are local to main() and
 cannot be imported at module level — they are tested indirectly via main().
 """
 
+import json
+from argparse import ArgumentParser
 from collections.abc import Mapping, Set
 from dataclasses import FrozenInstanceError
 from os import PathLike
@@ -184,9 +186,7 @@ class TestModifiedPageRankStochasticMat:
         a = self._p("a.md")
         initial: Set[Path] = {a}
         links: Mapping[Path, Set[Path]] = {a: set()}
-        _, mat = _mod.modified_page_rank_stochastic_mat(
-            initial, links, damping=0.5
-        )
+        _, mat = _mod.modified_page_rank_stochastic_mat(initial, links, damping=0.5)
         # damping * uniform(1) + (1-damping) * uniform(1) = [[1]]
         np.testing.assert_allclose(mat, np.ones((1, 1)))
 
@@ -229,9 +229,7 @@ class TestModifiedPageRankStochasticMat:
         b = self._p("b.md")
         initial: Set[Path] = {a, b}
         links: Mapping[Path, Set[Path]] = {}
-        _, mat = _mod.modified_page_rank_stochastic_mat(
-            initial, links, damping=0.5
-        )
+        _, mat = _mod.modified_page_rank_stochastic_mat(initial, links, damping=0.5)
         np.testing.assert_allclose(mat, np.full((2, 2), 0.5))
 
     def test_all_nodes_initial(self) -> None:
@@ -245,7 +243,7 @@ class TestModifiedPageRankStochasticMat:
             initial, links, damping=0.5
         )
         np.testing.assert_allclose(mat.sum(axis=0), np.ones(3))
-        idx_a, idx_b, idx_c = ordered.index(a), ordered.index(b), ordered.index(c)
+        idx_a, idx_b, _ = ordered.index(a), ordered.index(b), ordered.index(c)
         # Column a: 0.5 * link(a->b) + 0.5 * uniform
         assert np.isclose(mat[idx_b, idx_a], 0.5 * 1.0 + 0.5 * 1 / 3)
         assert np.isclose(mat[idx_a, idx_a], 0.5 * 1 / 3)
@@ -256,18 +254,14 @@ class TestModifiedPageRankStochasticMat:
         b = self._p("a.md")
         initial: Set[Path] = {a, b}
         links: Mapping[Path, Set[Path]] = {a: {b}}
-        ordered, _ = _mod.modified_page_rank_stochastic_mat(
-            initial, links, damping=0.5
-        )
+        ordered, _ = _mod.modified_page_rank_stochastic_mat(initial, links, damping=0.5)
         assert set(ordered) == {a, b}
 
     def test_matrix_type(self) -> None:
         """Should return NDArray[float64]."""
         a = self._p("a.md")
         initial: Set[Path] = {a}
-        _, mat = _mod.modified_page_rank_stochastic_mat(
-            initial, {}, damping=0.5
-        )
+        _, mat = _mod.modified_page_rank_stochastic_mat(initial, {}, damping=0.5)
         assert mat.dtype == np.float64
 
 
@@ -281,8 +275,6 @@ class TestParser:
 
     def test_returns_argument_parser(self) -> None:
         """Should return an ArgumentParser."""
-        from argparse import ArgumentParser
-
         p = _mod.parser()
         assert isinstance(p, ArgumentParser)
 
@@ -354,13 +346,12 @@ class TestParser:
 
     def test_parser_with_parent(self) -> None:
         """Should accept a parent parser factory."""
-        from argparse import ArgumentParser as AP
 
-        parent = lambda **kw: AP(**kw)
+        def parent(**kw: Any) -> ArgumentParser:
+            return ArgumentParser(**kw)
+
         p = _mod.parser(parent=parent)
-        import argparse
-
-        assert isinstance(p, argparse.ArgumentParser)
+        assert isinstance(p, ArgumentParser)
 
     def test_negative_count_allowed(self) -> None:
         """Negative count should be parsed (means 'all files')."""
@@ -431,9 +422,7 @@ class TestMain:
             await _mod.main(args)
 
     @pytest.mark.anyio
-    async def test_root_not_contain_files_raises(
-        self, tmp_path: PathLike[str]
-    ) -> None:
+    async def test_root_not_contain_files_raises(self, tmp_path: PathLike[str]) -> None:
         """Should raise ValueError when root does not contain all files."""
         tmp = Path(tmp_path)
         output = tmp / "out.zip"
@@ -453,9 +442,7 @@ class TestMain:
             files=(_mod.Path(file_outside),),
         )
 
-        with pytest.raises(
-            ValueError, match="The specified root does not contain"
-        ):
+        with pytest.raises(ValueError, match="The specified root does not contain"):
             await _mod.main(args)
 
     @pytest.mark.anyio
@@ -515,9 +502,7 @@ class TestMain:
             assert "b.md" in names  # discovered via link
 
     @pytest.mark.anyio
-    async def test_directory_input_expanded(
-        self, tmp_path: PathLike[str]
-    ) -> None:
+    async def test_directory_input_expanded(self, tmp_path: PathLike[str]) -> None:
         """When a file argument is a directory, it should be expanded recursively."""
         tmp = Path(tmp_path)
         root = tmp / "root"
@@ -546,9 +531,7 @@ class TestMain:
             assert "sub/b.md" in names
 
     @pytest.mark.anyio
-    async def test_exclude_extension_skips(
-        self, tmp_path: PathLike[str]
-    ) -> None:
+    async def test_exclude_extension_skips(self, tmp_path: PathLike[str]) -> None:
         """Files with excluded extensions should not appear in output."""
         tmp = Path(tmp_path)
         root = tmp / "root"
@@ -625,8 +608,6 @@ class TestMain:
 
         await _mod.main(args)
 
-        import json
-
         with ZipFile(output) as zf:
             metadata_name = [n for n in zf.namelist() if n.startswith("metadata")][0]
             meta = json.loads(zf.read(metadata_name))
@@ -653,8 +634,6 @@ class TestMain:
         )
 
         await _mod.main(args)
-
-        import json
 
         with ZipFile(output) as zf:
             metadata_name = [n for n in zf.namelist() if n.startswith("metadata")][0]
