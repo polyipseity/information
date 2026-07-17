@@ -59,17 +59,13 @@ class TestHtmlToText:
 
     def test_div_block_newline(self) -> None:
         """Verify block-level elements add double newline."""
-        soup = BeautifulSoup(
-            "<div><div>A</div><div>B</div></div>", "html.parser"
-        )
+        soup = BeautifulSoup("<div><div>A</div><div>B</div></div>", "html.parser")
         result = _mod.html_to_text(soup)
         assert "A\n\nB" in result
 
     def test_inline_elements_no_break(self) -> None:
         """Verify inline elements do not introduce newlines."""
-        soup = BeautifulSoup(
-            "<div><span>ab</span><b>cd</b></div>", "html.parser"
-        )
+        soup = BeautifulSoup("<div><span>ab</span><b>cd</b></div>", "html.parser")
         assert _mod.html_to_text(soup) == "abcd"
 
     def test_empty_tag(self) -> None:
@@ -79,9 +75,7 @@ class TestHtmlToText:
 
     def test_list_items(self) -> None:
         """Verify <li> elements add double newline between items."""
-        soup = BeautifulSoup(
-            "<ul><li>A</li><li>B</li></ul>", "html.parser"
-        )
+        soup = BeautifulSoup("<ul><li>A</li><li>B</li></ul>", "html.parser")
         result = _mod.html_to_text(soup)
         assert "A\n\nB" in result
 
@@ -151,40 +145,30 @@ class TestParseDatetime:
 
     def test_sept_to_sep(self) -> None:
         """'Sept' → 'Sep' normalisation for format '%d %b %Y'."""
-        result = _mod.parse_datetime(
-            "15 Sept 2023", reference_datetime=self.REF
-        )
+        result = _mod.parse_datetime("15 Sept 2023", reference_datetime=self.REF)
         assert result is not None
         assert result.result == datetime(2023, 9, 15, 0, 0, 0)
 
     def test_date_only_dd_mon_yyyy(self) -> None:
         """Date-only string matching '%d %b %Y'."""
-        result = _mod.parse_datetime(
-            "15 Sep 2023", reference_datetime=self.REF
-        )
+        result = _mod.parse_datetime("15 Sep 2023", reference_datetime=self.REF)
         assert result is not None
         assert result.result == datetime(2023, 9, 15, 0, 0, 0)
 
     def test_no_match_invalid_format(self) -> None:
         """String that doesn't match any format returns None."""
-        result = _mod.parse_datetime(
-            "Sep 15, 2023", reference_datetime=self.REF
-        )
+        result = _mod.parse_datetime("Sep 15, 2023", reference_datetime=self.REF)
         assert result is None
 
     def test_no_match_gibberish(self) -> None:
         """Completely unrelated string returns None."""
-        result = _mod.parse_datetime(
-            "hello world", reference_datetime=self.REF
-        )
+        result = _mod.parse_datetime("hello world", reference_datetime=self.REF)
         assert result is None
 
     def test_timezone_inherited(self) -> None:
         """Result should use reference_datetime's timezone."""
         ref = datetime(2023, 9, 15, tzinfo=timezone.utc)
-        result = _mod.parse_datetime(
-            "15/09/2023 at 11:59:00pm", reference_datetime=ref
-        )
+        result = _mod.parse_datetime("15/09/2023 at 11:59:00pm", reference_datetime=ref)
         assert result is not None
         assert result.result.tzinfo is timezone.utc
 
@@ -224,8 +208,7 @@ class TestParseTitleAndContent:
     def test_submission_with_title_and_content(self) -> None:
         """Parse submission with both h1 title and body content."""
         soup = BeautifulSoup(
-            "<h1>Lab 1</h1>"
-            '<div class="leading-4">Description text</div>',
+            '<h1>Lab 1</h1><div class="leading-4">Description text</div>',
             "html.parser",
         )
         result = _mod.parse_title_and_content(
@@ -276,9 +259,7 @@ class TestParseGrade:
             "<div><div>Total Score</div></div><div>85/100</div>",
             "html.parser",
         )
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.SUBMISSION
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.SUBMISSION)
         assert result is not None
         assert result.entered_grade == 85
         assert result.possible_grade == 100
@@ -288,9 +269,7 @@ class TestParseGrade:
     def test_submission_no_grade(self) -> None:
         """No 'Total Score' element returns None."""
         soup = BeautifulSoup("<div></div>", "html.parser")
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.SUBMISSION
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.SUBMISSION)
         assert result is None
 
     def test_submission_with_breakdown(self) -> None:
@@ -306,9 +285,7 @@ class TestParseGrade:
             "</ul>",
             "html.parser",
         )
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.SUBMISSION
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.SUBMISSION)
         assert result is not None
         assert result.breakdown == {"Test A": True, "Test B": False}
 
@@ -322,9 +299,7 @@ class TestParseGrade:
             "</ul>",
             "html.parser",
         )
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.SUBMISSION
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.SUBMISSION)
         assert result is not None
         # Test case with no .text-sm → name = ""
         assert "" in result.breakdown
@@ -336,9 +311,7 @@ class TestParseGrade:
             "<div><div>Total Score</div></div><div>88.5/100.0</div>",
             "html.parser",
         )
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.SUBMISSION
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.SUBMISSION)
         assert result is not None
         assert result.entered_grade == 88.5
         assert result.possible_grade == 100.0
@@ -349,9 +322,7 @@ class TestParseGrade:
             "<div><div>Total Score</div></div><div>85</div>",
             "html.parser",
         )
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.SUBMISSION
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.SUBMISSION)
         assert result is not None
         assert result.entered_grade == 85
         assert result.possible_grade == ""
@@ -360,9 +331,7 @@ class TestParseGrade:
         """Invalid page type raises ValueError."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         with pytest.raises(ValueError, match="invalid"):
-            _mod.parse_grade(
-                soup, page_type=cast(_mod.AssignmentPageType, "invalid")
-            )
+            _mod.parse_grade(soup, page_type=cast(_mod.AssignmentPageType, "invalid"))
 
 
 # ---------------------------------------------------------------------------
@@ -427,9 +396,7 @@ class TestParseProperties:
 
     def test_submission_no_datetime_element(self) -> None:
         """No 'Auto Grader graded...' text — submission_datetime is empty."""
-        soup = BeautifulSoup(
-            "<div>Submission Report #1</div>", "html.parser"
-        )
+        soup = BeautifulSoup("<div>Submission Report #1</div>", "html.parser")
         result = _mod.parse_properties(
             soup,
             soup,
@@ -441,8 +408,7 @@ class TestParseProperties:
     def test_submission_datetime_unparseable(self) -> None:
         """When datetime text can't be parsed, raw string is returned."""
         soup = BeautifulSoup(
-            "<div>Auto Grader graded your submission on"
-            "<span>unknown-date</span></div>",
+            "<div>Auto Grader graded your submission on<span>unknown-date</span></div>",
             "html.parser",
         )
         result = _mod.parse_properties(
@@ -605,10 +571,7 @@ saved date: Thu Sep 14 2023 10:00:00 UTC+0000
     @pytest.mark.anyio
     async def test_invalid_date(self) -> None:
         """URL and date regex match but date can't be parsed returns None."""
-        html = (
-            "url: https://zinc.cse.ust.hk/assignments/1\n"
-            "saved date: not-a-real-date"
-        )
+        html = "url: https://zinc.cse.ust.hk/assignments/1\nsaved date: not-a-real-date"
         result = await _mod.convert(html)
         assert result is None
 
@@ -685,7 +648,7 @@ saved date: Thu Sep 14 2023 10:00:00 UTC+0000
     async def test_convert_with_breakdown(self) -> None:
         """Verify conversion output includes test case breakdown."""
         html = self.MINIMAL_HTML + (
-            '<div>Test Cases</div><ul>'
+            "<div>Test Cases</div><ul>"
             '<li><span data-icon="check"></span>'
             '<span class="text-sm">TC1</span></li>'
             '<li><span data-icon="xmark"></span>'

@@ -71,24 +71,18 @@ class TestHtmlToText:
 
     def test_div_block_newline(self) -> None:
         """Block-level elements add double newline."""
-        soup = BeautifulSoup(
-            "<div><div>A</div><div>B</div></div>", "html.parser"
-        )
+        soup = BeautifulSoup("<div><div>A</div><div>B</div></div>", "html.parser")
         result = _mod.html_to_text(soup)
         assert "A\n\nB" in result
 
     def test_inline_elements_no_break(self) -> None:
         """Inline elements should not introduce newlines."""
-        soup = BeautifulSoup(
-            "<div><span>ab</span><b>cd</b></div>", "html.parser"
-        )
+        soup = BeautifulSoup("<div><span>ab</span><b>cd</b></div>", "html.parser")
         assert _mod.html_to_text(soup) == "abcd"
 
     def test_list_li(self) -> None:
         """<li> (block-level) adds double newline between items."""
-        soup = BeautifulSoup(
-            "<ul><li>Item1</li><li>Item2</li></ul>", "html.parser"
-        )
+        soup = BeautifulSoup("<ul><li>Item1</li><li>Item2</li></ul>", "html.parser")
         result = _mod.html_to_text(soup)
         assert "Item1\n\nItem2" in result
 
@@ -104,17 +98,13 @@ class TestHtmlToText:
 
     def test_mixed_nesting(self) -> None:
         """Verify mixed <p>, <br> nesting produces expected inline text."""
-        soup = BeautifulSoup(
-            "<div><p>P1<br>P1b</p><p>P2</p></div>", "html.parser"
-        )
+        soup = BeautifulSoup("<div><p>P1<br>P1b</p><p>P2</p></div>", "html.parser")
         result = _mod.html_to_text(soup)
         assert "P1\nP1bP2" in result
 
     def test_a_tag_inline(self) -> None:
         """<a> is non-blocking, should not add newline."""
-        soup = BeautifulSoup(
-            '<div>click <a href="#">here</a></div>', "html.parser"
-        )
+        soup = BeautifulSoup('<div>click <a href="#">here</a></div>', "html.parser")
         assert _mod.html_to_text(soup) == "click here"
 
 
@@ -207,16 +197,12 @@ class TestParseDatetime:
 
     def test_no_match_no_month(self) -> None:
         """No month name in the string returns None."""
-        result = _mod.parse_datetime(
-            "no month here 1pm", reference_datetime=self.REF
-        )
+        result = _mod.parse_datetime("no month here 1pm", reference_datetime=self.REF)
         assert result is None
 
     def test_no_match_no_am_pm(self) -> None:
         """Date-like string without am/pm after the month returns None."""
-        result = _mod.parse_datetime(
-            "Sep 15, 2023", reference_datetime=self.REF
-        )
+        result = _mod.parse_datetime("Sep 15, 2023", reference_datetime=self.REF)
         assert result is None
 
     def test_different_month(self) -> None:
@@ -246,9 +232,7 @@ class TestParseDatetime:
 
     def test_no_match_nonexistent_format(self) -> None:
         """String with month and am/pm but wrong format returns None."""
-        result = _mod.parse_datetime(
-            "Sep/15/2023 11pm", reference_datetime=self.REF
-        )
+        result = _mod.parse_datetime("Sep/15/2023 11pm", reference_datetime=self.REF)
         assert result is None
 
 
@@ -322,7 +306,9 @@ class TestParseTitleAndContent:
         """An invalid page type should raise ValueError."""
         soup = BeautifulSoup("<div></div>", "html.parser")
         with pytest.raises(ValueError, match="invalid"):
-            _mod.parse_title_and_content(soup, page_type=cast(_mod.AssignmentPageType, "invalid"))
+            _mod.parse_title_and_content(
+                soup, page_type=cast(_mod.AssignmentPageType, "invalid")
+            )
 
 
 # ---------------------------------------------------------------------------
@@ -343,9 +329,7 @@ class TestParseGrade:
             "Graded Anonymously: Yes</div></div></div>",
             "html.parser",
         )
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.ASSIGNMENT
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.ASSIGNMENT)
         assert result is not None
         assert result.possible_grade == 100
         assert result.entered_grade == "85/100"
@@ -354,9 +338,7 @@ class TestParseGrade:
     def test_assignment_no_grade(self) -> None:
         """Parse assignment with no grade element returns None."""
         soup = BeautifulSoup("<div></div>", "html.parser")
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.ASSIGNMENT
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.ASSIGNMENT)
         assert result is None
 
     def test_assignment_no_graded_anonymously(self) -> None:
@@ -367,9 +349,7 @@ class TestParseGrade:
             "</div></div>",
             "html.parser",
         )
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.ASSIGNMENT
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.ASSIGNMENT)
         assert result is not None
         assert result.graded_anonymously is None
 
@@ -381,9 +361,7 @@ class TestParseGrade:
             "Graded Anonymously: No</div></div></div>",
             "html.parser",
         )
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.ASSIGNMENT
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.ASSIGNMENT)
         assert result is not None
         assert result.graded_anonymously is False
 
@@ -395,9 +373,7 @@ class TestParseGrade:
             "</div></div></div>",
             "html.parser",
         )
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.ASSIGNMENT
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.ASSIGNMENT)
         assert result is not None
         assert result.possible_grade == 100.0
 
@@ -409,9 +385,7 @@ class TestParseGrade:
             '<div class="entered_grade">85</div>',
             "html.parser",
         )
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.SUBMISSION
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.SUBMISSION)
         assert result is not None
         assert result.entered_grade == 85
         assert result.possible_grade == ""
@@ -420,9 +394,7 @@ class TestParseGrade:
     def test_submission_no_grade(self) -> None:
         """Parse submission with no grade element returns None."""
         soup = BeautifulSoup("<div></div>", "html.parser")
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.SUBMISSION
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.SUBMISSION)
         assert result is None
 
     def test_submission_with_possible_grade(self) -> None:
@@ -431,9 +403,7 @@ class TestParseGrade:
             '<div class="entered_grade">85</div>/100',
             "html.parser",
         )
-        result = _mod.parse_grade(
-            soup, page_type=_mod.AssignmentPageType.SUBMISSION
-        )
+        result = _mod.parse_grade(soup, page_type=_mod.AssignmentPageType.SUBMISSION)
         assert result is not None
         assert result.entered_grade == 85
         # possible_grade from "/100" stays as string after failed int/float
@@ -459,8 +429,8 @@ class TestParseProperties:
     def test_assignment_no_properties(self) -> None:
         """ASSIGNMENT with no overview section yields empty properties."""
         soup = BeautifulSoup(
-                '<div class="details"><div class="content">'
-                '<div>Due: Sep 15, 2023 at 11:59pm</div></div></div>',
+            '<div class="details"><div class="content">'
+            "<div>Due: Sep 15, 2023 at 11:59pm</div></div></div>",
             "html.parser",
         )
         result = _mod.parse_properties(
@@ -475,7 +445,7 @@ class TestParseProperties:
         """Parse assignment page with full properties overview."""
         soup = BeautifulSoup(
             '<div class="details"><div class="content">'
-            '<div>Due: Sep 15, 2023 at 11:59pm</div>'
+            "<div>Due: Sep 15, 2023 at 11:59pm</div>"
             '<ul class="student-assignment-overview">'
             '<li><span class="title">Due</span>'
             '<span class="value">Sep 15, 2023 at 11:59pm</span></li>'
@@ -527,7 +497,7 @@ class TestParseProperties:
             "Sep 15, 2023 at 11:59pm</div>"
             '<div class="submission-details-header__attempts_info">'
             '<span class="bold">Due:</span>'
-            '<span>Sep 15, 2023 at 11:59pm</span></div>',
+            "<span>Sep 15, 2023 at 11:59pm</span></div>",
             "html.parser",
         )
         result = _mod.parse_properties(
@@ -541,7 +511,7 @@ class TestParseProperties:
         """'available until' should parse as end-only."""
         soup = BeautifulSoup(
             '<div class="details"><div class="content">'
-            '<div>Due: Sep 15, 2023 at 11:59pm</div>'
+            "<div>Due: Sep 15, 2023 at 11:59pm</div>"
             '<ul class="student-assignment-overview">'
             '<li><span class="title">Available</span>'
             '<span class="value">until Sep 15, 2023 at 11:59pm</span></li>'
@@ -562,7 +532,7 @@ class TestParseProperties:
         """'available after' should parse as start-only."""
         soup = BeautifulSoup(
             '<div class="details"><div class="content">'
-            '<div>Due: Sep 15, 2023 at 11:59pm</div>'
+            "<div>Due: Sep 15, 2023 at 11:59pm</div>"
             '<ul class="student-assignment-overview">'
             '<li><span class="title">Available</span>'
             '<span class="value">after Sep 1, 2023 at 12am</span></li>'
@@ -586,7 +556,7 @@ class TestParseProperties:
             "Sep 15, 2023 at 11:59pm</div>"
             '<div class="submission-details-header__attempts_info">'
             '<span class="bold">Attempts:</span>'
-            '<span>3</span></div>',
+            "<span>3</span></div>",
             "html.parser",
         )
         result = _mod.parse_properties(
@@ -929,9 +899,7 @@ class TestMain:
         assert 1 in exit_codes
 
     @pytest.mark.anyio
-    async def test_main_file_not_found(
-        self, monkeypatch: pytest.MonkeyPatch
-    ) -> None:
+    async def test_main_file_not_found(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """main() with nonexistent file should propagate the error."""
         monkeypatch.setattr(
             "builtins.input",

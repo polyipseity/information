@@ -81,7 +81,10 @@ class TestExec:
     @pytest.mark.anyio
     async def test_success(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Should return (stdout, stderr) on subprocess success."""
-        async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
+
+        async def mock_run_process(
+            *args: object, **kwargs: object
+        ) -> MockProcessResult:
             """Return successful process result."""
             return MockProcessResult(stdout=b"out\n", stderr=b"", returncode=0)
 
@@ -93,7 +96,10 @@ class TestExec:
     @pytest.mark.anyio
     async def test_failure(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Should raise ChildProcessError on non-zero return code."""
-        async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
+
+        async def mock_run_process(
+            *args: object, **kwargs: object
+        ) -> MockProcessResult:
             """Return failed process result."""
             return MockProcessResult(stdout=b"", stderr=b"fatal", returncode=1)
 
@@ -106,7 +112,9 @@ class TestExec:
         """Should pass input bytes through to run_process."""
         captured: dict[str, object] = {}
 
-        async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
+        async def mock_run_process(
+            *args: object, **kwargs: object
+        ) -> MockProcessResult:
             """Capture kwargs and return empty process result."""
             captured.update(kwargs)
             return MockProcessResult(stdout=b"", stderr=b"", returncode=0)
@@ -116,11 +124,15 @@ class TestExec:
         assert captured.get("input") == b"test\n"
 
     @pytest.mark.anyio
-    async def test_empty_input_passes_none(self, monkeypatch: pytest.MonkeyPatch) -> None:
+    async def test_empty_input_passes_none(
+        self, monkeypatch: pytest.MonkeyPatch
+    ) -> None:
         """Should pass input=None when no input is given."""
         captured: dict[str, object] = {}
 
-        async def mock_run_process(*args: object, **kwargs: object) -> MockProcessResult:
+        async def mock_run_process(
+            *args: object, **kwargs: object
+        ) -> MockProcessResult:
             """Capture kwargs and return empty process result."""
             captured.update(kwargs)
             return MockProcessResult(stdout=b"", stderr=b"", returncode=0)
@@ -240,13 +252,13 @@ class TestMain:
 
         # Mock _exec with ordered results for the 7 subprocess calls
         exec_results: list[tuple[str, str]] = [
-            ("", ""),          # 0: git clone
-            ("", ""),          # 1: filter-repo --analyze
-            ("", ""),          # 2: filter-repo --commit-callback
-            ("main\n", ""),    # 3: branch --show-current
-            ("", ""),          # 4: rebase
-            ("", ""),          # 5: remote add
-            ("", ""),          # 6: remote update
+            ("", ""),  # 0: git clone
+            ("", ""),  # 1: filter-repo --analyze
+            ("", ""),  # 2: filter-repo --commit-callback
+            ("main\n", ""),  # 3: branch --show-current
+            ("", ""),  # 4: rebase
+            ("", ""),  # 5: remote add
+            ("", ""),  # 6: remote update
         ]
         exec_index = [0]
 
@@ -267,7 +279,9 @@ class TestMain:
         await (fake_tmp / ".git" / "filter-repo" / "analysis").mkdir(
             parents=True, exist_ok=True
         )
-        await (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
+        await (
+            fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt"
+        ).write_text("")
 
         class FakeTemporaryDirectory:
             """Fake temp dir pointing at a controlled path."""
@@ -395,7 +409,9 @@ class TestMain:
         await (fake_tmp / ".git" / "filter-repo" / "analysis").mkdir(
             parents=True, exist_ok=True
         )
-        await (fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt").write_text("")
+        await (
+            fake_tmp / ".git" / "filter-repo" / "analysis" / "renames.txt"
+        ).write_text("")
 
         class FakeTemporaryDirectory2:
             """Fake temp dir pointing at a controlled path."""

@@ -77,7 +77,9 @@ class TestMain:
         await eng_dir.mkdir(parents=True)
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
-        monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
+        monkeypatch.setattr(
+            "builtins.input", self._fake_input(["", "Fourier transform"])
+        )
 
         await _mod.main()
 
@@ -105,7 +107,9 @@ class TestMain:
         await (eng_dir / "Fourier transform.md").touch()
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
-        monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
+        monkeypatch.setattr(
+            "builtins.input", self._fake_input(["", "Fourier transform"])
+        )
 
         with pytest.raises(FileExistsError, match="note already exists"):
             await _mod.main()
@@ -122,7 +126,9 @@ class TestMain:
         await (general_dir / "Fourier transform.md").touch()
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
-        monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
+        monkeypatch.setattr(
+            "builtins.input", self._fake_input(["", "Fourier transform"])
+        )
 
         with pytest.raises(FileExistsError, match="symlink target already exists"):
             await _mod.main()
@@ -137,9 +143,13 @@ class TestMain:
         await general_dir.mkdir()
         # No eng/ directory
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
-        monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
+        monkeypatch.setattr(
+            "builtins.input", self._fake_input(["", "Fourier transform"])
+        )
 
-        with pytest.raises(FileNotFoundError, match="language directory does not exist"):
+        with pytest.raises(
+            FileNotFoundError, match="language directory does not exist"
+        ):
             await _mod.main()
 
     @pytest.mark.anyio
@@ -169,18 +179,26 @@ class TestMain:
         await eng_dir.mkdir(parents=True)
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
-        monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
+        monkeypatch.setattr(
+            "builtins.input", self._fake_input(["", "Fourier transform"])
+        )
 
         # Simulate an OSError during temp file write
         original_write_text = PathlibPath.write_text
 
         def broken_write_text(
-            self, data: str, encoding: str | None = None, errors: str | None = None, newline: str | None = None
+            self,
+            data: str,
+            encoding: str | None = None,
+            errors: str | None = None,
+            newline: str | None = None,
         ) -> int:
             """Simulate write failure for .md.tmp files."""
             if str(self).endswith(".md.tmp"):
                 raise OSError("Simulated write failure")
-            return original_write_text(self, data, encoding=encoding, errors=errors, newline=newline)
+            return original_write_text(
+                self, data, encoding=encoding, errors=errors, newline=newline
+            )
 
         monkeypatch.setattr(PathlibPath, "write_text", broken_write_text)
 
@@ -228,7 +246,9 @@ class TestMain:
         await eng_dir.mkdir(parents=True)
 
         monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
-        monkeypatch.setattr("builtins.input", self._fake_input(["", "Fourier transform"]))
+        monkeypatch.setattr(
+            "builtins.input", self._fake_input(["", "Fourier transform"])
+        )
 
         await _mod.main()
 

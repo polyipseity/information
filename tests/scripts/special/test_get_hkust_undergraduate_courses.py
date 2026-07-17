@@ -185,12 +185,8 @@ class TestFetchSubjects:
         """Should join relative href with the base URL."""
         session = _fake_session(lambda url, **kw: _FakeResponse(self._SUBJECTS_HTML))
         result = await _mod.fetch_subjects(session=session)
-        assert str(result["ACCT"]) == (
-            "https://prog-crs.hkust.edu.hk/ugcourse/ACCT"
-        )
-        assert str(result["COMP"]) == (
-            "https://prog-crs.hkust.edu.hk/ugcourse/COMP"
-        )
+        assert str(result["ACCT"]) == ("https://prog-crs.hkust.edu.hk/ugcourse/ACCT")
+        assert str(result["COMP"]) == ("https://prog-crs.hkust.edu.hk/ugcourse/COMP")
 
     @pytest.mark.anyio
     async def test_missing_subject_code_raises(self) -> None:
@@ -249,9 +245,7 @@ class TestFetchSubjectCourses:
     @pytest.mark.anyio
     async def test_yields_subjects(self) -> None:
         """Should yield Subject objects from .crse-header blocks."""
-        session = _fake_session(
-            lambda url, **kw: _FakeResponse(self._COURSES_HTML)
-        )
+        session = _fake_session(lambda url, **kw: _FakeResponse(self._COURSES_HTML))
         subjects = [
             s
             async for s in _mod.fetch_subject_courses(
@@ -269,9 +263,7 @@ class TestFetchSubjectCourses:
     @pytest.mark.anyio
     async def test_empty_course_list(self) -> None:
         """Should yield nothing when there are no .crse-header elements."""
-        session = _fake_session(
-            lambda url, **kw: _FakeResponse("<html></html>")
-        )
+        session = _fake_session(lambda url, **kw: _FakeResponse("<html></html>"))
         subjects = [
             s
             async for s in _mod.fetch_subject_courses(

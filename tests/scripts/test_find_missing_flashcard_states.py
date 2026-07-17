@@ -161,9 +161,7 @@ class TestCheckFile:
         """Should not print when there are zero markers regardless of states."""
         tmp = Path(tmp_path)
         file_path = tmp / "test.md"
-        await file_path.write_text(
-            "<!--SR:!2024-01-15,100,5-->", encoding="utf-8"
-        )
+        await file_path.write_text("<!--SR:!2024-01-15,100,5-->", encoding="utf-8")
         await _mod._check_file(file_path)  # noqa: SLF001
         captured = capsys.readouterr()
         assert captured.out == ""

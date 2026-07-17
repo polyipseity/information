@@ -1541,7 +1541,9 @@ class WikiHtmlConverter:
             joiner=joiner,
             prefix=prefix,
             suffix=suffix,
-            process_strings=lambda s: self._filter_table_cells(s, is_navbox=is_navbox, total_colspan=total_colspan),
+            process_strings=lambda s: self._filter_table_cells(
+                s, is_navbox=is_navbox, total_colspan=total_colspan
+            ),
         )
 
     def _handle_td(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
