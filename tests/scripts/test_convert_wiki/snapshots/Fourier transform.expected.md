@@ -787,9 +787,8 @@ The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITERE
 - [Fractional Fourier transform](fractional%20Fourier%20transform.md) – Mathematical operation
 - [Indirect Fourier transform](indirect%20Fourier%20transform.md)
 - [Integral transform](integral%20transform.md) – Mapping involving integration between function spaces
-  - [Hankel transform](Hankel%20transform.md) – Mathematical operation
-  - [Hartley transform](Hartley%20transform.md) – Integral transform closely related to the Fourier transform
-
+    - [Hankel transform](Hankel%20transform.md) – Mathematical operation
+    - [Hartley transform](Hartley%20transform.md) – Integral transform closely related to the Fourier transform
 - [Laplace transform](Laplace%20transform.md) – Integral transform useful in probability theory, physics, and engineering
 - [Least-squares spectral analysis](least-squares%20spectral%20analysis.md) – Periodicity computation method
 - [Linear canonical transform](linear%20canonical%20transform.md)
@@ -802,8 +801,7 @@ The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITERE
 - [Quantum Fourier transform](quantum%20Fourier%20transform.md) – Change of basis applied in quantum computing
 - [Short-time Fourier transform](short-time%20Fourier%20transform.md) – Fourier-related transform for signals that change over time
 - [Spectral density](spectral%20density.md) – Relative importance of certain frequencies in a composite signal
-  - [Spectral density estimation](spectral%20density%20estimation.md) – Signal processing technique
-
+    - [Spectral density estimation](spectral%20density%20estimation.md) – Signal processing technique
 - [Symbolic integration](symbolic%20integration.md) – Computation of an antiderivatives
 - [Time stretch dispersive Fourier transform](time%20stretch%20dispersive%20Fourier%20transform.md)
 - [Transform \(mathematics\)](transform%20(mathematics).md) – Function that applies a set to itself
