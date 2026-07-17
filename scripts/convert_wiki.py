@@ -754,7 +754,18 @@ class WikiHtmlConverter:
 
         if "hatnote" in classes:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
-            config.suffix = f"{config.suffix.removeprefix('_')}\n"
+            # Add an extra blank line after the hatnote when followed by a
+            # blockquote-like element (figure, catlinks, etc.) to ensure
+            # proper spacing before the blockquote.
+            next_sib = ele.find_next_sibling()
+            if isinstance(next_sib, Tag) and (
+                next_sib.name == "figure"
+                or {"catlinks", "math_theorem", "portalbox", "tmulti", "unsolved"}
+                & frozenset(next_sib.get_attribute_list("class"))
+            ):
+                config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
+            else:
+                config.suffix = f"{config.suffix.removeprefix('_')}\n"
             original_process = process_strings
 
             def _hatnote_process(strings: str) -> str:
@@ -1962,9 +1973,16 @@ async def wiki_html_to_plaintext(
         redirect_map=redirect_map,
     )
     # Replace non-breaking spaces with regular spaces (residues from
-    # citation spans, HTML &nbsp; in list items, etc.).
+    # citation spans, HTML &nbsp; in list items, etc.). Replace \n\xa0
+    # (newline followed by non-breaking space) first to remove leading
+    # non-breaking spaces on empty-looking lines, then replace remaining
+    # \xa0 with regular spaces.
     # Also replace hair spaces with HTML entity.
-    result = result.replace("\xa0", " ").replace("\u200a", "&hairsp;")
+    result = (
+        result.replace("\n\xa0", "\n")
+        .replace("\xa0", " ")
+        .replace("\u200a", "&hairsp;")
+    )
     # Pad table columns to the widest content per column.
     result = _pad_table_blocks(result)
     # Insert MD028 suppression comments between adjacent blockquote blocks.
