@@ -348,6 +348,7 @@ class TestParser:
         """Should accept a parent parser factory."""
 
         def parent(**kw: Any) -> ArgumentParser:
+            """Create an ArgumentParser with the given keyword arguments."""
             return ArgumentParser(**kw)
 
         p = _mod.parser(parent=parent)
