@@ -750,20 +750,28 @@ class WikiHtmlConverter:
             ):
                 text = escape_markdown(ele) if escape else str(ele)
                 # See the formatting-agnostic principle documented above.
-                # Collapse formatting whitespace (indentation and line breaks
-                # between tags) to spaces. Translate all ASCII formatting
-                # whitespace to handle varying line-ending conventions across
-                # HTML sources, then collapse consecutive regular spaces (from
-                # indentation) into a single space, matching HTML rendering
-                # semantics. Use a character-class regex instead of
-                # str.split() to avoid treating non-breaking spaces (\xa0) as
-                # whitespace — str.split() eliminates \xa0, but it must be
-                # preserved as a meaningful content separator in source text.
-                # Only strip ASCII whitespace, but NOT non-breaking spaces.
+                # Step 1: Translate formatting whitespace (\t\n\r\x0b\x0c) to
+                # regular spaces. In HTML, any run of these characters (tabs,
+                # newlines, form feeds, carriage returns) between inline
+                # elements is equivalent to a single space. Converting them
+                # to ASCII spaces first lets the next step collapse them
+                # together with any regular spaces from the source.
                 text = text.translate(str.maketrans({c: " " for c in "\t\n\r\x0b\x0c"}))
+                # Step 2: Collapse consecutive spaces into a single space,
+                # matching HTML rendering semantics for inline whitespace.
+                # After Step 1, any formatting whitespace is already a
+                # regular space, so this collapses both indentation runs
+                # and inter-element spacing into single spaces.
                 text = _COLLAPSE_SPACES_REGEX.sub(" ", text)
+                # Step 3: Return text if it has content characters beyond
+                # whitespace. Nodes consisting solely of whitespace (from
+                # collapsed runs between block elements) are filtered out.
+                # The \xa0 (non-breaking space from &nbsp;) is intentionally
+                # preserved — it is a content-level character per HTML spec,
+                # not formatting whitespace. It will be converted to a
+                # regular space in wiki_html_to_plaintext() post-processing.
                 if text and not all(c in "\t\n\r\x0b\x0c " for c in text):
-                    return text.strip("\t\n\r\x0b\x0c ")
+                    return text
             return ""
 
         classes = frozenset(ele.get_attribute_list("class"))
@@ -808,8 +816,8 @@ class WikiHtmlConverter:
             original_process = process_strings
 
             def _hatnote_process(strings: str) -> str:
-                """Process hatnote text by stripping leading newlines."""
-                return original_process(strings).lstrip("\n")
+                """Process hatnote text by stripping leading whitespace."""
+                return original_process(strings).lstrip("\n ")
 
             process_strings = _hatnote_process
 
@@ -924,7 +932,7 @@ class WikiHtmlConverter:
         if ele.name == "a" and "mw-selflink" in classes:
             return self._handle_selflink(ele, classes)
 
-        if (
+        if "hatnote" not in classes and (
             ele.name in _BOLD_OR_ITALIC
             or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
             or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
@@ -1420,9 +1428,15 @@ class WikiHtmlConverter:
                 )
             return _HandlerConfig(prefix=prefix, suffix=li_suffix)
         else:
+
+            def process(strings: str) -> str:
+                """Remove leading/trailing formatting spaces from list-item content."""
+                return strings.strip(" \t\n\r\x0b\x0c")
+
             return _HandlerConfig(
                 prefix=f"{_LIST_INDENT * (len(list_stack) - 1)}- ",
                 suffix=li_suffix,
+                process_strings=process,
             )
 
     def _handle_cite(self, ele: Tag, classes: Set[str]) -> _HandlerConfig:
@@ -2033,6 +2047,11 @@ async def wiki_html_to_plaintext(
         .replace("\xa0", " ")
         .replace("\u200a", "&hairsp;")
     )
+    # Strip trailing whitespace from each line. HTML formatting whitespace
+    # collapsing preserves edge spaces that were formatting indentation,
+    # producing trailing spaces on output lines. Strip them here, before
+    # table padding (which intentionally adds trailing spaces for alignment).
+    result = "\n".join(line.rstrip(" \t") for line in result.split("\n"))
     # Pad table columns to the widest content per column.
     result = _pad_table_blocks(result)
     # Insert MD028 suppression comments between adjacent blockquote blocks.
