@@ -46,12 +46,12 @@ Net income _decreases_ by 100 \* \(1 – 34%\) = \$66 million. Cash flow _increa
 ---
 
 - balance sheet
-  - January: fixed assets increases, liability increases
-  - December: fixed assets decreases, equity decreases
+    - January: fixed assets increases, liability increases
+    - December: fixed assets decreases, equity decreases
 - income statement
-  - depreciation expense increases
-  - net income decreases
+    - depreciation expense increases
+    - net income decreases
 - cash flow statement
-  - operating cash flow increases due to depreciation
-  - investment cash flow decreases due to capital expenditure
-  - financing cash flow is unknown, since debt increases it but debt interest decreases it
+    - operating cash flow increases due to depreciation
+    - investment cash flow decreases due to capital expenditure
+    - financing cash flow is unknown, since debt increases it but debt interest decreases it

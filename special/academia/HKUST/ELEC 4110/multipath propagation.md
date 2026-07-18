@@ -146,7 +146,7 @@ By comparing {@{the signal-level parameters to the channel limits}@} we classify
 
 - _Slow fading_: ::@:: $T_s \ll T_c$ – the channel changes much more slowly than the symbol duration. Often, this is a thousand or more symbol periods. (annotation: __this course__: For simplicity, treat $T_s < T_c$ as slow fading unless otherwise specified.)
 - _Fast fading_: ::@:: $T_s \gg T_c$ – significant channel variation occurs within ten to a few hundred symbol period. (annotation: __this course__: For simplicity, treat $T_s > T_c$ as fast fading unless otherwise specified.)
-  - _Very fast fading_: ::@:: $T_s < T_c$: the channel's coherence time is shorter than the symbol period, so the channel varies faster than the baseband signal (a very rare phenomenon in practical systems).  (annotation: __this course__: For simplicity, ignore this unless otherwise specified.)
+    - _Very fast fading_: ::@:: $T_s < T_c$: the channel's coherence time is shorter than the symbol period, so the channel varies faster than the baseband signal (a very rare phenomenon in practical systems).  (annotation: __this course__: For simplicity, ignore this unless otherwise specified.)
 - _Frequency‑flat fading_: ::@:: $\mathcal{W}_{tx} \ll B_c$ – the channel response is essentially constant across the signal bandwidth.  
 - _Frequency‑selective fading_: ::@:: $\mathcal{W}_{tx} \gg B_c$ – the channel varies markedly over the transmitted spectrum.
 

@@ -91,10 +91,10 @@ Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](intege
 - In {@{an [abelian category](abelian%20category.md) all pullbacks exist}@},<sup>[\[4\]](#^ref-4)</sup> and they {@{preserve [kernels](kernel%20(category%20theory).md), in the following sense}@}: {@{if <p> ![categorical pullback commutative diagram](../../archives/Wikimedia%20Commons/Categorical%20pullback.svg) <p> is a pullback diagram}@}, then {@{the induced morphism ker\(_p_<sub>2</sub>\) → ker\(_f_\) is an isomorphism}@},<sup>[\[5\]](#^ref-5)</sup> and so is {@{the induced morphism ker\(_p_<sub>1</sub>\) → ker\(_g_\)}@}. {@{Every pullback diagram}@} thus {@{gives rise to a commutative diagram of the following form}@}, where {@{all rows and columns are [exact](exact%20sequence.md)}@}: {@{$${\begin{array}{ccccccc}&&&&0&&0\\&&&&\downarrow &&\downarrow \\&&&&L&=&L\\&&&&\downarrow &&\downarrow \\0&\rightarrow &K&\rightarrow &P&\rightarrow &Y\\&&\parallel &&\downarrow &&\downarrow \\0&\rightarrow &K&\rightarrow &X&\rightarrow &Z\end{array} }$$}@} Furthermore, in {@{an abelian category}@}, {@{if _X_ → _Z_ is an epimorphism, then so is its pullback _P_ → _Y_}@}, and {@{symmetrically: if _Y_ → _Z_ is an epimorphism, then so is its pullback _P_ → _X_}@}.<sup>[\[6\]](#^ref-6)</sup> In these situations, {@{the pullback square is also a pushout square}@}.<sup>[\[7\]](#^ref-7)</sup>
 
 - There is {@{a natural isomorphism \(_A_<!-- markdown separator -->×<sub>_C_</sub>_B_\)×<sub>_B_</sub> _D_ ≅ _A_<!-- markdown separator -->×<sub>_C_</sub>_D_}@}. Explicitly, this means:
-  - if maps _f_ : _A_ → _C_, _g_ : _B_ → _C_ and _h_ : _D_ → _B_ are given and
-  - the pullback of _f_ and _g_ is given by _r_ : _P_ → _A_ and _s_ : _P_ → _B_, and
-  - the pullback of _s_ and _h_ is given by _t_ : _Q_ → _P_ and _u_ : _Q_ → _D_ ,
-  - then the pullback of _f_ and _gh_ is given by _rt_ : _Q_ → _A_ and _u_ : _Q_ → _D_.
+    - if maps _f_ : _A_ → _C_, _g_ : _B_ → _C_ and _h_ : _D_ → _B_ are given and
+    - the pullback of _f_ and _g_ is given by _r_ : _P_ → _A_ and _s_ : _P_ → _B_, and
+    - the pullback of _s_ and _h_ is given by _t_ : _Q_ → _P_ and _u_ : _Q_ → _D_ ,
+    - then the pullback of _f_ and _gh_ is given by _rt_ : _Q_ → _A_ and _u_ : _Q_ → _D_.
 
   Graphically this means that {@{two pullback squares, placed side by side and sharing one morphism}@}, form {@{a larger pullback square when ignoring the inner shared morphism}@}. {@{$${\begin{array}{ccccc}Q&{\xrightarrow {t} }&P&{\xrightarrow {r} }&A\\\downarrow _{u}&&\downarrow _{s}&&\downarrow _{f}\\D&{\xrightarrow {h} }&B&{\xrightarrow {g} }&C\end{array} }$$}@}
 

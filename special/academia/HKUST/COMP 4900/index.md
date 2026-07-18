@@ -27,7 +27,7 @@ tags:
 The content is in teaching order.
 
 - logistics
-  - requirements: <https://cse.hkust.edu.hk/ug/comp4900/>
+    - requirements: <https://cse.hkust.edu.hk/ug/comp4900/>
 
 ---
 
@@ -48,4 +48,4 @@ The content is in teaching order.
 ## 2025 fall
 
 - 2025-09-17T18:00:00+08:00/2025-09-17T18:50:00+08:00, PT50M: Sun Hung Kai Properties \(SHKP\)
-  - [seminar reflection](assignments/[2025.9.17]%20Reflection%20Report_%20Sun%20Hung%20Kai%20Properties%20(SHKP)/index.md)
+    - [seminar reflection](assignments/[2025.9.17]%20Reflection%20Report_%20Sun%20Hung%20Kai%20Properties%20(SHKP)/index.md)

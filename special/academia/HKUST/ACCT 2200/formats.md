@@ -42,10 +42,10 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@}
 
 - materials requisition form ::@:: information, table, authorized signature
-  - materials requisition form / information ::@:: materials requisition number, date, job number, description
-  - materials requisition form / table
-    - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost
-    - materials requisition form / table / row headers ::@:: material description, (materials...), total cost
+    - materials requisition form / information ::@:: materials requisition number, date, job number, description
+    - materials requisition form / table
+        - materials requisition form / table / column headers ::@:: material description (including numbers or sizes if needed), quantity, unit cost, total cost
+        - materials requisition form / table / row headers ::@:: material description, (materials...), total cost
 
 ## direct labor time ticket
 
@@ -72,10 +72,10 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > {@{Authorized Signature \_\_\_\_\_\_\_\_\_\_}@}
 
 - direct labor time ticket ::@:: information, table, authorized signature
-  - direct labor time ticket / information ::@:: dates, ticket number, employee
-  - direct labor time ticket / table
-    - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number
-    - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total
+    - direct labor time ticket / information ::@:: dates, ticket number, employee
+    - direct labor time ticket / table
+        - direct labor time ticket / table / column headers ::@:: date, time started, time ended, total hours, hourly rate, total amount, job number
+        - direct labor time ticket / table / row headers ::@:: date, (consecutive working periods...), (whatever, e.g. weekly) total
 
 ## job cost sheet
 
@@ -107,12 +107,12 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | &emsp;{@{Total Cost}@}               | {@{<u>&dollar;&nbsp;9&nbsp;290</u>}@} |
 
 - job cost sheet ::@:: information, tables, cost summary
-  - job cost sheet / information ::@:: job number, date started, date completed, description
-  - job cost sheet / tables ::@:: actual direct materials, actual direct labor, applied manufacturing overhead
-    - job cost sheet / tables / actual direct materials ::@:: req. no, amount
-    - job cost sheet / tables / actual direct labor ::@:: ticket, hours, amount
-    - job cost sheet / tables / applied manufacturing overhead ::@:: (primary cost driver unit), amount
-  - job cost sheet / cost summary ::@:: direct materials cost + direct labor cost + applied manufacturing overhead = total cost
+    - job cost sheet / information ::@:: job number, date started, date completed, description
+    - job cost sheet / tables ::@:: actual direct materials, actual direct labor, applied manufacturing overhead
+        - job cost sheet / tables / actual direct materials ::@:: req. no, amount
+        - job cost sheet / tables / actual direct labor ::@:: ticket, hours, amount
+        - job cost sheet / tables / applied manufacturing overhead ::@:: (primary cost driver unit), amount
+    - job cost sheet / cost summary ::@:: direct materials cost + direct labor cost + applied manufacturing overhead = total cost
 
 ## cost of goods manufacturing report
 
@@ -135,8 +135,8 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Cost of goods manufactured}@}                      | {@{__&dollar;<u>2&nbsp;750</u>__}@} |
 
 - cost of goods manufacturing report ::@:: total current manufacturing costs + \(plus:\) beginning work in process inventory − \(less:\) ending work in process inventory = cost of goods manufactured
-  - cost of goods manufacturing report / total current manufacturing costs ::@:: direct materials used + direct labor + manufacturing overhead _applied_ \(not _actual_\)
-  - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory
+    - cost of goods manufacturing report / total current manufacturing costs ::@:: direct materials used + direct labor + manufacturing overhead _applied_ \(not _actual_\)
+    - cost of goods manufactured report / direct materials used ::@:: beginning raw materials inventory + \(plus:\) raw material purchases − \(less:\) indirect materials \(_important_\) − \(less:\) ending raw materials inventory
 
 ## income statement (cost of goods sold)
 
@@ -154,7 +154,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | &emsp;{@{Less: Overapplied manufacturing overhead}@} | {@{<u>\(150\)</u>}@} | {@{<u>3&nbsp;000</u>}@} |
 
 - income statement \(cost of goods sold\) ::@:: _unadjusted_ cost of goods sold +/− \(plus:\) underapplied manufacturing overhead/\(less:\) overapplied manufacturing overhead = \(adjusted\) cost of goods sold
-  - income statement \(cost of goods sold\) / unadjusted cost of goods sold ::@:: beginning finished goods inventory + \(plus:\) cost of goods manufactured − \(less:\) ending finished goods inventory
+    - income statement \(cost of goods sold\) / unadjusted cost of goods sold ::@:: beginning finished goods inventory + \(plus:\) cost of goods manufactured − \(less:\) ending finished goods inventory
 - income statement ::@:: sales revenue − \(less:\) cost of goods sold = gross profit <br/> gross profit − \(less:\) selling and administrative expenses = net operating income
 
 ## T account
@@ -176,7 +176,7 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Ending balance}@}    | {@{__150__}@}           |                                                    |                 |
 
 - T account ::@:: Draw a (big) "T". Write the account name (and optionally its type) on above the "T". Add a header for each of the two spaces below the horizontal line of the "T": "Debits (Dr)" on the left, "Credits (Cr)" on the right. Optionally, write "Increase" and "Decrease" above the account name, labeling which side is the _normal_ balance.
-  - T account / recording ::@:: For each change to the account, write a number on either the left or the right side, depending on if it is a debit or credit. Optionally, label the number with a brief description. <p> To calculate the final account balance, draw a horizontal line below all the numbers. Calculate the remaining balance is on which side and write the number on the corresponding side below the new horizontal line.
+    - T account / recording ::@:: For each change to the account, write a number on either the left or the right side, depending on if it is a debit or credit. Optionally, label the number with a brief description. <p> To calculate the final account balance, draw a horizontal line below all the numbers. Calculate the remaining balance is on which side and write the number on the corresponding side below the new horizontal line.
 
 ## process costing (weighted average)
 
@@ -229,16 +229,16 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Total}@}                   | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} |
 
 - process costing \(weighted average\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs
-  - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for
-    - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion
-    - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total
-  - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total
-  - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total
-  - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit
-  - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total
+    - process costing \(weighted average\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for
+        - process costing \(weighted average\) / column headers / units ::@:: physical units, direct materials, conversion
+        - process costing \(weighted average\) / column headers / cost ::@:: direct materials, conversion, total
+    - process costing \(weighted average\) / find physical units ::@:: _row headers_: beginning period, started this period, total
+    - process costing \(weighted average\) / convert physical units into equivalent units ::@:: _row headers_: completed/transferred, ending inventory, total
+    - process costing \(weighted average\) / calculate cost per equivalent unit ::@:: _row headers_: beginning inventory, cost added in this period, total cost, equivalent units, cost per equivalent unit
+    - process costing \(weighted average\) / reconcile costs ::@:: _row headers_: cost of units completed, ending inventory, total
 - production report \(weighted average\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4
-  - production report \(weighted average\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\)
-  - production report \(weighted average\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
+    - production report \(weighted average\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(Weighted Average Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\)
+    - production report \(weighted average\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
 
 ## process costing (first-in, first-out)
 
@@ -292,16 +292,16 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Total}@}                                         | {@{&dollar;&emsp;1&nbsp;100}@} | {@{&dollar;&emsp;1&nbsp;090}@} | {@{&dollar;&emsp;2&nbsp;190}@} |
 
 - process costing \(first-in, first-out\) ::@:: find physical units, convert physical units into equivalent units, calculate cost per equivalent unit, reconcile costs
-  - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for
-    - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion
-    - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total
-  - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total
-  - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total
-  - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit
-  - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total
+    - process costing \(first-in, first-out\) / column headers ::@:: diagonal header: units to be accounted for, units accounted for, cost to be accounted for, cost accounted for
+        - process costing \(first-in, first-out\) / column headers / units ::@:: physical units, direct materials, conversion
+        - process costing \(first-in, first-out\) / column headers / cost ::@:: direct materials, conversion, total
+    - process costing \(first-in, first-out\) / find physical units ::@:: _row headers_: beginning period, started this period, total
+    - process costing \(first-in, first-out\) / convert physical units into equivalent units ::@:: _row headers_: beginning work in process, completed/transferred, ending inventory, total
+    - process costing \(first-in, first-out\) / calculate cost per equivalent unit ::@:: _row headers_: cost added in this period, equivalent units, cost per equivalent unit
+    - process costing \(first-in, first-out\) / reconcile costs ::@:: _row headers_: cost added to beginning inventory last period, cost to complete beginning inventory, started and completed, ending inventory, total
 - production report \(first-in, first-out\) ::@:: section 1: step 1, step 2 <br/> section 2: step 3 <br/> section 3: step 4
-  - production report \(first-in, first-out\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\)
-  - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
+    - production report \(first-in, first-out\) / headers ::@:: Section \(\#\) of Production Report <br/> \(company name\) <br/> Process Costing Production Report \(FIFO Method\) <br/> \(process name\) Process <br/> For \(time, e.g. the Quarter Ended March 31, 2025\)
+    - production report \(first-in, first-out\) / formatting ::@:: Add dollar signs if needed to the first and last currency number in the same column. Underline total costs in section 3.
 
 ## activity cost pool
 
@@ -328,8 +328,8 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > |                          | {@{&dollar;&emsp;2&nbsp;000}@} | {@{&dollar;&emsp;2&nbsp;200}@} | {@{&dollar;&emsp;4&nbsp;200}@} |
 
 - activity cost allocation
-  - activity cost allocation / column headers ::@:: activity cost pool, \(processes...\), total
-  - activity cost allocation / row headers ::@:: activity cost pool, \(activity driver unit\), activity rate, \(empty\)
+    - activity cost allocation / column headers ::@:: activity cost pool, \(processes...\), total
+    - activity cost allocation / row headers ::@:: activity cost pool, \(activity driver unit\), activity rate, \(empty\)
 
 ## activity cost driver - setups
 
@@ -344,8 +344,8 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Number of Setups}@}         | {@{300/20 = 15}@} | {@{100/5 = 20}@} | {@{35}@}    |
 
 - activity cost driver - setups
-  - activity cost driver - setups / column headers ::@:: activity cost pool, \(processes...\), total
-  - activity cost driver - setups / row headers ::@:: activity cost pool, number of units produced, average units per batch, number of setups
+    - activity cost driver - setups / column headers ::@:: activity cost pool, \(processes...\), total
+    - activity cost driver - setups / row headers ::@:: activity cost pool, number of units produced, average units per batch, number of setups
 
 ## total manufacturing overhead
 
@@ -360,8 +360,8 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{Total Manufacturing Overhead Cost}@} | {@{&dollar;&emsp;3&nbsp;500}@} | {@{&dollar;&emsp;4&nbsp;200}@} | {@{&dollar;&emsp;7&nbsp;700}@} |
 
 - total manufacturing overhead
-  - total manufacturing overhead / column headers ::@:: activity cost pool, (activity pools...), total manufacturing overhead cost
-  - total manufacturing overhead / row headers ::@:: activity cost pool, (processes...), total
+    - total manufacturing overhead / column headers ::@:: activity cost pool, (activity pools...), total manufacturing overhead cost
+    - total manufacturing overhead / row headers ::@:: activity cost pool, (processes...), total
 
 ## contribution margin income statement
 
@@ -385,10 +385,10 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | &emsp;{@{net operating income}@} |                    |                        |                                    |                    |                         |                                 | {@{&dollar;300}@}        |                                    |
 
 - contribution margin income statement ::@:: headers, products & overall, row headers
-  - contribution margin income statement / headers ::@:: \(company name\), contribution margin income statement, based on breakeven/target profit of &dollar;\(target profit\)
-  - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both
-  - contribution margin income statement / row headers ::@:: sales revenue, less: variable costs, contribution margin, less: fixed costs, net operating income
-  - contribution margin income statement / sub-formats ::@:: Only using overall gives the income statement under variable costing.
+    - contribution margin income statement / headers ::@:: \(company name\), contribution margin income statement, based on breakeven/target profit of &dollar;\(target profit\)
+    - contribution margin income statement / products & overall ::@:: per unit, total, percent; per unit is for products, and choose per unit, percent, or both
+    - contribution margin income statement / row headers ::@:: sales revenue, less: variable costs, contribution margin, less: fixed costs, net operating income
+    - contribution margin income statement / sub-formats ::@:: Only using overall gives the income statement under variable costing.
 
 ## incremental analysis (unit)
 
@@ -411,8 +411,8 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{incremental profit \(loss\)}@}          | {@{&dollar;1}@} | {@{&dollar;20}@}  |
 
 - incremental analysis \(unit\) ::@:: "incremental analysis of \(decision\)", column headers, row headers
-  - incremental analysis \(unit\) / column headers ::@:: \(empty\), per unit, total
-  - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\)
+    - incremental analysis \(unit\) / column headers ::@:: \(empty\), per unit, total
+    - incremental analysis \(unit\) / row headers ::@:: incremental revenue, less: incremental costs \(subitems\), _total_ incremental costs, \(other costs and benefits\), incremental profit \(loss\)
 
 ## incremental analysis (comparative)
 
@@ -432,8 +432,8 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{net operating profit}@}     | {@{&dollar;5}@}               | {@{&dollar;6}@}             | {@{&dollar;1}@}                                      |
 
 - incremental analysis \(comparative\) ::@:: column headers, row headers
-  - incremental analysis \(comparative\) / column headers ::@:: \(empty\), option 1: \(description\), option 2: \(description\), difference: \(cost\) or benefit of \(option 2 description\)
-  - incremental analysis \(comparative\) / row headers ::@:: incremental revenue, less: + subitems, \(other costs and benefits\), incremental profit \(loss\)
+    - incremental analysis \(comparative\) / column headers ::@:: \(empty\), option 1: \(description\), option 2: \(description\), difference: \(cost\) or benefit of \(option 2 description\)
+    - incremental analysis \(comparative\) / row headers ::@:: incremental revenue, less: + subitems, \(other costs and benefits\), incremental profit \(loss\)
 
 ## incremental analysis (incremental)
 
@@ -455,8 +455,8 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{__net effect eliminating product A__}@}     | {@{__&dollar;\(10\)__}@} |
 
 - incremental analysis \(incremental\) ::@:: column headers, row headers
-  - incremental analysis \(incremental\) / column headers ::@:: \(empty\), \(empty\)
-  - incremental analysis \(incremental\) / row headers ::@:: main effect + subitems, \(side effects + subitems\), net effect
+    - incremental analysis \(incremental\) / column headers ::@:: \(empty\), \(empty\)
+    - incremental analysis \(incremental\) / row headers ::@:: main effect + subitems, \(side effects + subitems\), net effect
 
 ## constrained optimization using contribution margin
 
@@ -473,9 +473,9 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{total contribution margin}@}       | {@{&dollar;90}@} | {@{&dollar;40}@} | {@{&dollar;10}@}           |
 
 - constrained optimization using contribution margin ::@:: column headers, row headers
-  - constrained optimization using contribution margin / column headers ::@:: priority, \(items in decreasing priorities\)
-  - constrained optimization using contribution margin / row headers ::@:: contribution margin per capacity or resource, units produced, capacity or resource required per unit, total required capacity or resource, total contribution margin
-  - constrained optimization using contribution margin / note ::@:: Do not multiply contribution margin per capacity or resource by units produced to get total contribution margin! Multiply it by total required capacity or resouce instead.
+    - constrained optimization using contribution margin / column headers ::@:: priority, \(items in decreasing priorities\)
+    - constrained optimization using contribution margin / row headers ::@:: contribution margin per capacity or resource, units produced, capacity or resource required per unit, total required capacity or resource, total contribution margin
+    - constrained optimization using contribution margin / note ::@:: Do not multiply contribution margin per capacity or resource by units produced to get total contribution margin! Multiply it by total required capacity or resouce instead.
 
 ## budget
 
@@ -502,11 +502,11 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{budgeted cash payments}@}                              | {@{<u>&dollar;150</u>}@}      | {@{<u>&dollar;50</u>}@}       | {@{<u>&dollar;250</u>}@}      | {@{<u>&dollar;350</u>}@}      | {@{<u>&dollar;800</u>}@} |
 
 - budget ::@:: headers, column headers, row headers, format
-  - budget / headers ::@:: \(company name\), \(budget name\), \(duration, e.g. "For the Year Ended December 31, 2025"\)
-  - budget / columns headers ::@:: \(duration segments, e.g. "Quarter 1 \(newline\) Jan–Mar"\), \(duration, e.g. "Yearly \(newline\) Total"\)
-  - budget / row headers ::@:: Many items. A total at the end. Indent as needed.
-  - budget / format ::@:: Dollar signs \(&dollar;\) for the first rows, subtotals, and the total. For subtotals and the total, add a line above them. For the total, double underline it.
-  - budget / no information ::@:: If there are no information for some numbers, just indicate them as blank. Derive as much numbers as possible, up until derived numbers that depend on missing numbers. <p> The yearly total is likely not applicable with missing data, e.g. halfway through a year.
+    - budget / headers ::@:: \(company name\), \(budget name\), \(duration, e.g. "For the Year Ended December 31, 2025"\)
+    - budget / columns headers ::@:: \(duration segments, e.g. "Quarter 1 \(newline\) Jan–Mar"\), \(duration, e.g. "Yearly \(newline\) Total"\)
+    - budget / row headers ::@:: Many items. A total at the end. Indent as needed.
+    - budget / format ::@:: Dollar signs \(&dollar;\) for the first rows, subtotals, and the total. For subtotals and the total, add a line above them. For the total, double underline it.
+    - budget / no information ::@:: If there are no information for some numbers, just indicate them as blank. Derive as much numbers as possible, up until derived numbers that depend on missing numbers. <p> The yearly total is likely not applicable with missing data, e.g. halfway through a year.
 
 ## delayed cash receipts or payments
 
@@ -523,8 +523,8 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{total cash collections}@} | {@{&dollar;700}@}                                    | {@{&dollar;1&nbsp;200}@}                             |
 
 - delayed cash receipts or payments ::@:: column headers, row headers
-  - delayed cash receipts or payments / column headers ::@:: \(empty\), cash collected/paid in \(time\)...
-  - delayed cash receipts or payments / row headers ::@:: sales/purhcases in \(time\)..., total cash collections/payments
+    - delayed cash receipts or payments / column headers ::@:: \(empty\), cash collected/paid in \(time\)...
+    - delayed cash receipts or payments / row headers ::@:: sales/purhcases in \(time\)..., total cash collections/payments
 
 ## standard cost card
 
@@ -541,5 +541,5 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 > | {@{standard manufacturing cost per unit}@}           |                         |                           | {@{&dollar;1&nbsp;109.90}@} |
 
 - standard cost card ::@:: column headers, row headers
-  - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost
-  - standard cost card / row headers ::@:: direct materials, direct labor, variable overhead, fixed overhead, standard manufacturing cost per unit
+    - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost
+    - standard cost card / row headers ::@:: direct materials, direct labor, variable overhead, fixed overhead, standard manufacturing cost per unit

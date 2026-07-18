@@ -118,13 +118,13 @@ For {@{a two-dimensional field}@}, the vorticity acts as {@{a measure of the _lo
 > Examples of {@{potential and gradient fields in physics}@}:
 >
 > - <span class="legend-color mw-no-invert" style="background-color:yellow; color:black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> {@{Scalar fields, scalar potentials}@}:
->   - __V<sub>G</sub>__, {@{gravitational potential}@}
->   - __W<sub>pot</sub>__, {@{\(gravitational or electrostatic\) potential energy}@}
->   - __V<sub>C</sub>__, {@{Coulomb potential}@}
+>     - __V<sub>G</sub>__, {@{gravitational potential}@}
+>     - __W<sub>pot</sub>__, {@{\(gravitational or electrostatic\) potential energy}@}
+>     - __V<sub>C</sub>__, {@{Coulomb potential}@}
 > - <span class="legend-color mw-no-invert" style="background-color:cyan; color:black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> {@{Vector fields, gradient fields}@}:
->   - __a<sub>G</sub>__, {@{gravitational acceleration}@}
->   - __F__, {@{\(gravitational or electrostatic\) force}@}
->   - __E__, {@{electric field strength}@}
+>     - __a<sub>G</sub>__, {@{gravitational acceleration}@}
+>     - __F__, {@{\(gravitational or electrostatic\) force}@}
+>     - __E__, {@{electric field strength}@}
 
 If {@{the vector field associated to a force $\mathbf {F}$ is conservative}@}, then {@{the force is said to be a [conservative force](conservative%20force.md)}@}.
 

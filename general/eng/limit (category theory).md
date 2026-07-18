@@ -83,10 +83,10 @@ Limits and colimits can also be {@{defined for collections of objects and morphi
 - {@{__[Terminal objects](terminal%20object.md)__}@}. If {@{_J_ is the empty category}@} there is {@{only one diagram of shape _J_: the empty one \(similar to the [empty function](empty%20function.md#standard%20functions) in set theory\)}@}. {@{A cone to the empty diagram}@} is {@{essentially just an object of _C_}@}. {@{The limit of _F_}@} is {@{any object that is uniquely factored through by every other object}@}. This is {@{just the definition of a _terminal object_}@}.
 
 - {@{__[Products](product%20(category%20theory).md)__}@}. If {@{_J_ is a [discrete category](discrete%20category.md)}@} then {@{a diagram _F_ is essentially nothing but a [family](indexed%20family.md) of objects of _C_, indexed by _J_}@}. {@{The limit _L_ of _F_}@} is called {@{the _product_ of these objects}@}. {@{The cone _φ_}@} consists of {@{a family of morphisms _φ_<sub>_X_</sub> : _L_ → _F_\(_X_\) called the _projections_ of the product}@}. In {@{the [category of sets](category%20of%20sets.md)}@}, for instance, {@{the products are given by [Cartesian products](Cartesian%20product.md)}@} and {@{the projections are just the natural projections onto the various factors}@}.
-  - {@{__Powers__}@}. {@{A special case of a product}@} is when {@{the diagram _F_ is a [constant functor](constant%20functor.md#examples) to an object _X_ of _C_ (annotation: that is, the product of _X_ with itself for a number of times that is the number of objects in the _discrete_ category _J_)}@}. {@{The limit of this diagram}@} is called {@{the _J<sup>th</sup> power_ of _X_ and denoted _X_<sup>_J_</sup>}@}.
+    - {@{__Powers__}@}. {@{A special case of a product}@} is when {@{the diagram _F_ is a [constant functor](constant%20functor.md#examples) to an object _X_ of _C_ (annotation: that is, the product of _X_ with itself for a number of times that is the number of objects in the _discrete_ category _J_)}@}. {@{The limit of this diagram}@} is called {@{the _J<sup>th</sup> power_ of _X_ and denoted _X_<sup>_J_</sup>}@}.
 
 - {@{__[Equalizers](equalizer%20(mathematics).md)__}@}. If {@{_J_ is a category with two objects and two parallel morphisms from one object to the other}@}, then {@{a diagram of shape _J_ is a pair of parallel morphisms in _C_}@}. {@{The limit _L_ of such a diagram}@} is called {@{an _equalizer_ of those morphisms}@} \(annotation: the equalizer is given by {@{_φ_<sub>_X_</sub> where _F_\(_X_\) is the source of the two parallel morphisms}@}; the other morphism {@{_φ_<sub>_Y_</sub> enforces the equalizer requirements}@}\).
-  - {@{__[Kernels](kernel%20(category%20theory).md)__}@}. A _kernel_ is {@{a special case of an equalizer where one of the morphisms is a [zero morphism](zero%20morphism.md)}@}.
+    - {@{__[Kernels](kernel%20(category%20theory).md)__}@}. A _kernel_ is {@{a special case of an equalizer where one of the morphisms is a [zero morphism](zero%20morphism.md)}@}.
 
 - {@{__[Pullbacks](pullback%20(category%20theory).md)__}@}. Let {@{_F_ be a diagram that picks out three objects _X_, _Y_, and _Z_ in _C_}@}, where {@{the only non-identity morphisms (annotation: the other non-identity morphisms may be in the category but not in the diagram) are _f_ : _X_ → _Z_ and _g_ : _Y_ → _Z_}@}. {@{The limit _L_ of _F_}@} is called {@{a _pullback_ or a _fiber product_}@}. It can {@{nicely be visualized as a [commutative square](commutative%20diagram.md)}@}: <p> {@{![commutative diagram for a categorical pullback](../../archives/Wikimedia%20Commons/Pullback%20categories.svg) (annotation: _φ_<sub>_Z_</sub> = _f_ ∘ _φ_<sub>_X_</sub> = _g_ ∘  _φ_<sub>_Y_</sub>)}@}
 
@@ -103,9 +103,9 @@ Limits and colimits can also be {@{defined for collections of objects and morphi
 
 - __[Initial objects](initial%20object.md)__ ::@:: are colimits of empty diagrams.
 - __[Coproducts](coproduct.md)__ ::@:: are colimits of diagrams indexed by discrete categories.
-  - __Copowers__ ::@:: are colimits of constant diagrams from discrete categories.
+    - __Copowers__ ::@:: are colimits of constant diagrams from discrete categories.
 - __[Coequalizers](coequalizer.md)__ ::@:: are colimits of a parallel pair of morphisms.
-  - __[Cokernels](cokernel.md)__ ::@:: are coequalizers of a morphism and a parallel zero morphism.
+    - __[Cokernels](cokernel.md)__ ::@:: are coequalizers of a morphism and a parallel zero morphism.
 - __[Pushouts](pushout%20(category%20theory).md)__ ::@:: are colimits of a pair of morphisms with common domain.
 - __[Direct limits](direct%20limit.md)__ ::@:: are colimits of diagrams indexed by directed sets.
 

@@ -27,10 +27,10 @@ For [endothermic processes](endothermic%20process.md), {@{heat is absorbed while
 > where
 >
 > - {@{[state variables](state%20variable.md)}@}
->   - {@{$H$}@} is {@{the enthalpy}@}
->   - {@{$U$}@} is {@{the [internal energy](internal%20energy.md)}@}
->   - {@{$p$}@} is {@{the [pressure](pressure.md)}@}
->   - {@{$V$}@} is {@{the [volume](volume.md)}@}
+>     - {@{$H$}@} is {@{the enthalpy}@}
+>     - {@{$U$}@} is {@{the [internal energy](internal%20energy.md)}@}
+>     - {@{$p$}@} is {@{the [pressure](pressure.md)}@}
+>     - {@{$V$}@} is {@{the [volume](volume.md)}@}
 
 ## applications
 

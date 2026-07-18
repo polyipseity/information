@@ -15,5 +15,5 @@ HKUST COMP 2011
 ## problem 2(a) (2 points)
 
 - (-2 points) Not sure if it is accepted...
-  - Can pass variables as parameters that are with different values in each recursive call, for example, a variable with the level (or other variables) that so that what the recursive call does depends on the level.
-  - Perhaps different random numbers are picked (or different values for a certain local variable are generate) in the recursive function so that what the recurive call does depends on the different values.
+    - Can pass variables as parameters that are with different values in each recursive call, for example, a variable with the level (or other variables) that so that what the recursive call does depends on the level.
+    - Perhaps different random numbers are picked (or different values for a certain local variable are generate) in the recursive function so that what the recurive call does depends on the different values.

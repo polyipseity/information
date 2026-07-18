@@ -15,18 +15,18 @@ tags:
 
 - type: quiz
 - datetime: 2025-04-30T08:35:00-05:00/2025-04-30T08:55:00-05:00, PT20M
-  - local: 2025-04-30T21:35:00+08:00/2025-04-30T21:55:00+08:00, PT20M
+    - local: 2025-04-30T21:35:00+08:00/2025-04-30T21:55:00+08:00, PT20M
 
 ---
 
 - list
-  - Miles Davis – _Kind of Blue_: <https://musicbrainz.org/release-group/8e8a594f-2175-38c7-a871-abb68ec363e7>
-  - The Oscar Peterson Trio – _We Get Requests_: <https://musicbrainz.org/release-group/63c29e2d-69d4-3b99-9658-9e2dcb20fa6c>
-  - Stan Getz – _Getz/Gilberto_: <https://musicbrainz.org/release-group/b248d212-aace-3c3e-a23d-e13aaac1f87a>
-  - The Dave Brubeck Quartet – _Time Out_: <https://musicbrainz.org/release-group/035a7881-3e2c-39d2-b110-fe26a4de94e5>
-  - Ornette Coleman – _The Shape of Jazz to Come_: <https://musicbrainz.org/release-group/5879cfca-e1d0-3ef4-8014-3b284832ed18>
-  - John Coltrane – _Giant Steps_: <https://musicbrainz.org/release-group/2cdca11d-3e45-3152-93e5-4d2a4ddb1bc6>
-  - Thelonious Monk – _Solo Monk_: <https://musicbrainz.org/release-group/fbde6943-13f7-4273-a583-de46807760eb>
+    - Miles Davis – _Kind of Blue_: <https://musicbrainz.org/release-group/8e8a594f-2175-38c7-a871-abb68ec363e7>
+    - The Oscar Peterson Trio – _We Get Requests_: <https://musicbrainz.org/release-group/63c29e2d-69d4-3b99-9658-9e2dcb20fa6c>
+    - Stan Getz – _Getz/Gilberto_: <https://musicbrainz.org/release-group/b248d212-aace-3c3e-a23d-e13aaac1f87a>
+    - The Dave Brubeck Quartet – _Time Out_: <https://musicbrainz.org/release-group/035a7881-3e2c-39d2-b110-fe26a4de94e5>
+    - Ornette Coleman – _The Shape of Jazz to Come_: <https://musicbrainz.org/release-group/5879cfca-e1d0-3ef4-8014-3b284832ed18>
+    - John Coltrane – _Giant Steps_: <https://musicbrainz.org/release-group/2cdca11d-3e45-3152-93e5-4d2a4ddb1bc6>
+    - Thelonious Monk – _Solo Monk_: <https://musicbrainz.org/release-group/fbde6943-13f7-4273-a583-de46807760eb>
 
 > Thank you for a wonderful class. I am always available for you if you need anything. Just send me an email.
 >

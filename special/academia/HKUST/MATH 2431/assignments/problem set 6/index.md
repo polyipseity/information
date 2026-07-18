@@ -36,8 +36,8 @@ Problem Set 6, due on <span style="color: #0e68b3">__Friday 10/04/2026, until 13
 ## submission
 
 - submission: [`HKUST MATH 2431 - problem set 6.pdf`](submission/HKUST%20MATH%202431%20-%20problem%20set%206.pdf)
-  - metadata: [`submission.yml`](submission.yml)
-  - source: [`HKUST MATH 2431 problem set 6.md`](submission/HKUST%20MATH%202431%20problem%20set%206.md)
+    - metadata: [`submission.yml`](submission.yml)
+    - source: [`HKUST MATH 2431 problem set 6.md`](submission/HKUST%20MATH%202431%20problem%20set%206.md)
 
 ## solution
 

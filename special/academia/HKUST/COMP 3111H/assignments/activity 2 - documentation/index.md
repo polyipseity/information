@@ -60,5 +60,5 @@ Templates are provided for reference. You are required to adopt this particular 
 ## submission
 
 - file: [`submission.pdf`](submission/submission.pdf)
-  - name: `group14_documentation.pdf`
-  - source: [`submission/`](submission/)
+    - name: `group14_documentation.pdf`
+    - source: [`submission/`](submission/)

@@ -322,9 +322,9 @@ In {@{[Bayesian statistics](Bayesian%20statistics.md)}@}, {@{the [conjugate prio
 ## see also
 
 - [Chi distribution](chi%20distribution.md), ::@:: the [pdf](probability%20density%20function.md) of the [2-norm](norm%20(mathematics).md#p-norm) \([Euclidean norm](Euclidean%20norm.md#Euclidean%20norm) or [vector length](vector%20length.md)\) of a multivariate normally distributed vector \(uncorrelated and zero centered\).
-  - [Rayleigh distribution](rayleigh%20distribution.md), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(uncorrelated and zero centered\)
-  - [Rice distribution](rice%20distribution.md), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(uncorrelated and non-centered\)
-  - [Hoyt distribution](Hoyt%20distribution.md#Hoyt), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(correlated and centered\)
+    - [Rayleigh distribution](rayleigh%20distribution.md), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(uncorrelated and zero centered\)
+    - [Rice distribution](rice%20distribution.md), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(uncorrelated and non-centered\)
+    - [Hoyt distribution](Hoyt%20distribution.md#Hoyt), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(correlated and centered\)
 - [Complex normal distribution](complex%20normal%20distribution.md), ::@:: an application of bivariate normal distribution
 - [Copula](Gaussian%20copula.md#Gaussian%20copula), ::@:: for the definition of the Gaussian or normal copula model.
 - [Multivariate t-distribution](multivariate%20t-distribution.md), ::@:: which is another widely used spherically symmetric multivariate distribution.

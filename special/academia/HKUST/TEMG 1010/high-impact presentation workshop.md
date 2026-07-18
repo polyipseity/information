@@ -30,18 +30,18 @@ Another important aspect is {@{your body movement}@}.
 - facial movement ::@:: Exaggerate your facial movement as much as you can. Do not worry about being over-exaggerated — it is very difficult to do so even if you try really hard, and others would very unlikely to interpret it as over-exaggerated.
 - looking direction ::@:: If you look up, it seems like you are recalling something from your memory. If you look down, it seems like you are feeling something. When presenting, avoid both of these, and look at the audience directly.
 - hand gesture ::@:: Somewhat arbitrary. It does not need to have any specific meaning, but it should sync with your speech. Another thing is that your hand gesture should vary naturally.
-  - hand gesture / width ::@:: Hand gesture can be classified into off-body movement and on-body movement. You should have both, but too many on-body movement makes you look nervous.
-  - hand gesture / height ::@:: Hand gesture can also be on chest-level or waist-level in terms of height. You should have both, and prefer to be on the chest level. Too many waist-level hand gestures make the presentation less energetic.
-  - hand gesture / bouncing ::@:: Do not bounce your hand gesture! Changing your hand gesture continuously without stopping also makes you look nervous.
+    - hand gesture / width ::@:: Hand gesture can be classified into off-body movement and on-body movement. You should have both, but too many on-body movement makes you look nervous.
+    - hand gesture / height ::@:: Hand gesture can also be on chest-level or waist-level in terms of height. You should have both, and prefer to be on the chest level. Too many waist-level hand gestures make the presentation less energetic.
+    - hand gesture / bouncing ::@:: Do not bounce your hand gesture! Changing your hand gesture continuously without stopping also makes you look nervous.
 - leg movement ::@:: You can move around when presenting. Try to move around for a bit, but not too much (sometimes, stand on a position for a while). The most important thing to control is the distance to the audience.
-  - leg movement / distance to the audience ::@:: If you are close to the audience, you sound more authoritative. Try to have various distance to the audience, preferring to be closer.
+    - leg movement / distance to the audience ::@:: If you are close to the audience, you sound more authoritative. Try to have various distance to the audience, preferring to be closer.
 - microphone vs. clip mic ::@:: Both are okay. But with a microphone, you can control the distance to the microphone to control your voice for more effects.
 - speech speed ::@:: Try to have various speech speed. If you say a sentence too quick, make the next sentence slower, and vice versa, like a rollercoaster. You can slow down your speech to emphasize something.
 - filler ::@:: Avoid fillers. Think quietly. It is okay to be silent. If you do not look embarrassed to be silent, the audience will be the one to feel embarrassed instead.
 - tone ::@:: Vary your tone between moving up and down for different sentences. A common mistake is always moving up/down. Moving up makes every sentence feel like a question.
 - pitch ::@:: Try to have lower pitch (most of the time) to make you feel more authoritative and serious.
 - Mark Zuckerberg ::@:: He is not known to be a good speaker, unlike Steve Jobs. There is a reason why he seems robotic... He lacks variety when presenting.
-  - Mark Zuckerberg / presentation problems ::@:: curled arms, curled fingers, mostly looking up, touching hands (makes one wants to rub), tone almost always going up, too many on-body movement
+    - Mark Zuckerberg / presentation problems ::@:: curled arms, curled fingers, mostly looking up, touching hands (makes one wants to rub), tone almost always going up, too many on-body movement
 - finger ::@:: Try to not curl your fingers (and arms). Try to not point your fingers downward, and instead point horizontally.
 - hand ::@:: Most of the time, your hand palm should face inward. Sometimes it is okay to vary this, but too much of hand palm facing outward makes you look unserious or too exciting.
 - authoritative vs. lively ::@:: It depends on context. Usually it is best to strike a balance.

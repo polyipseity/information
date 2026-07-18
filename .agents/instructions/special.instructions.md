@@ -98,9 +98,9 @@ __`audio signal processing/`__: Complete course on audio signal processing
 
 - __Structure__: 10 modules with hierarchical index showing learning order
 - __Content types__:
-  - Conceptual notes (signal mathematics, discrete Fourier transform, STFT, etc.)
-  - Tool usage guides (Audacity, SonicVisualiser, sms-tools, Freesound)
-  - Programming guides (Python/NumPy for signal processing, Essentia library)
+    - Conceptual notes (signal mathematics, discrete Fourier transform, STFT, etc.)
+    - Tool usage guides (Audacity, SonicVisualiser, sms-tools, Freesound)
+    - Programming guides (Python/NumPy for signal processing, Essentia library)
 - __Index format__: Module-by-module breakdown with subsections linking to specific topics
 - __Source attribution__: References Coursera course "Audio Signal Processing for Music Applications"
 - __Cross-references__: Links to related `general/` articles (e.g., `[Music Technology Group](../../general/Music%20Technology%20Group.md)`)
@@ -295,13 +295,13 @@ __Education__:
 __Nutritional information__:
 
 - `nutritional information/` subdirectory
-  - `Redoxon Triple Action.md`: Supplement information
-  - `VÖOST Collagen Formation.md`: Supplement information
+    - `Redoxon Triple Action.md`: Supplement information
+    - `VÖOST Collagen Formation.md`: Supplement information
 
 __Attachments__:
 
 - `attachments/` subdirectory: Supporting files like images, PDFs, and specialized scripts
-  - Example: `GhostScript remove metadata pdfmark.txt`
+    - Example: `GhostScript remove metadata pdfmark.txt`
 
 ## Markdown Conventions
 
@@ -313,8 +313,8 @@ Apply the same conventions as `general/` notes, with domain-specific adaptations
 - __Cloze & flashcard markup__: See [editing-conventions.instructions.md](../editing-conventions.instructions.md) for complete syntax rules.
 - __pytextgen fences__: Preserve `# pytextgen generate ...` comments and `return export_seq(...)` signatures. See the pytextgen patterns section below for usage patterns.
 - __Links__: Relative paths with `%20` encoding for spaces
-  - Cross-references to `general/`: `[topic](../../general/topic.md)` or similar relative paths
-  - Internal links: `[section](#section-header)` for same-file references
+    - Cross-references to `general/`: `[topic](../../general/topic.md)` or similar relative paths
+    - Internal links: `[section](#section-header)` for same-file references
 - __Math__: KaTeX `$inline$` and `$$display$$` formats (heavily used in questions, mathematical notes)
 - __Media__: Reference files in `archives/` with relative paths (e.g., IPA audio files, images)
 
@@ -436,9 +436,9 @@ __Files__:
 - __Consistency__: Follow domain-specific conventions (institution naming, course code formats, etc.)
 - __Index maintenance__: Keep `index.md` files current when adding/removing courses, modules, or materials
 - __Cross-references__: Actively link between:
-  - Related courses (prerequisites, follow-ups)
-  - `general/` encyclopedia entries for concepts
-  - Other `special/` materials (e.g., programming ref from course notes)
+    - Related courses (prerequisites, follow-ups)
+    - `general/` encyclopedia entries for concepts
+    - Other `special/` materials (e.g., programming ref from course notes)
 
 ### Developer tooling & tests (special/)
 
@@ -493,13 +493,13 @@ __Files__:
 ## Integration with Other Directories
 
 - __`general/`__: `special/` notes frequently reference `general/` encyclopedia articles for foundational concepts
-  - Use relative paths: `../../general/article.md` or deeper as needed
-  - `general/` articles may backlink to `special/` materials (e.g., course notes, detailed tutorials)
+    - Use relative paths: `../../general/article.md` or deeper as needed
+    - `general/` articles may backlink to `special/` materials (e.g., course notes, detailed tutorials)
 
 - __`archives/`__: Media files (images, audio, videos) referenced in `special/` notes
-  - Common: `../../archives/Wikimedia%20Commons/` for IPA audio, images
-  - Less common: `../../archives/sparse/` for specialized content
+    - Common: `../../archives/Wikimedia%20Commons/` for IPA audio, images
+    - Less common: `../../archives/sparse/` for specialized content
 
 - __`scripts/`__:
-  - `scripts/special/`: Academic LMS converters for maintaining `special/academia/`
-  - `scripts/utility.py.md`: Utility module imported by many `special/` notes for pytextgen helpers
+    - `scripts/special/`: Academic LMS converters for maintaining `special/academia/`
+    - `scripts/utility.py.md`: Utility module imported by many `special/` notes for pytextgen helpers

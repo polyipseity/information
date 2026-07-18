@@ -24,30 +24,30 @@ tags:
 The content is in teaching order.
 
 - grading
-  - scheme
-    - lab assignment ×2: 0.3
-    - final exam: 0.6
-    - class participation: 0.1
+    - scheme
+        - lab assignment ×2: 0.3
+        - final exam: 0.6
+        - class participation: 0.1
 - logistics
-  - regrading policy: appeal within 1 week of posting of grade
+    - regrading policy: appeal within 1 week of posting of grade
 - syllabus
-  - topic 1: list, array, and Pandas \(1 lecture\)
-    - list
-    - array
-    - Pandas dataframe and series
-  - topic 2: data processing \(3 lectures\)
-    - missing data
-    - data slicing
-    - feature engineering
-    - exploratory data analysis
-  - topic 3: learning regression with Python \(2 lectures\)
-    - review of simple linear regression model
-    - parameter estimate and interpretation
-    - residual analysis
-    - multicollinearity
-    - hypothesis testing and confidence interval
-    - evaluating prediction accuracy using test set
-    - making prediction and outliers
+    - topic 1: list, array, and Pandas \(1 lecture\)
+        - list
+        - array
+        - Pandas dataframe and series
+    - topic 2: data processing \(3 lectures\)
+        - missing data
+        - data slicing
+        - feature engineering
+        - exploratory data analysis
+    - topic 3: learning regression with Python \(2 lectures\)
+        - review of simple linear regression model
+        - parameter estimate and interpretation
+        - residual analysis
+        - multicollinearity
+        - hypothesis testing and confidence interval
+        - evaluating prediction accuracy using test set
+        - making prediction and outliers
 
 ## children
 
@@ -184,28 +184,28 @@ The content is in teaching order.
 - datetime: 2025-05-28T16:30:00+08:00/2025-05-28T17:30:00+08:00, PT1H
 - venue: S H Ho Sports Hall, Academic Building
 - format
-  - calculator: yes
-  - cheatsheet: 1 page, A4-sized, double-sided
-    - [final examination cheatsheet](final%20examination%20cheatsheet.md)
-  - referencing: closed book
-  - provided: \(none\)
-  - questions: multiple choice questions ×30
+    - calculator: yes
+    - cheatsheet: 1 page, A4-sized, double-sided
+        - [final examination cheatsheet](final%20examination%20cheatsheet.md)
+    - referencing: closed book
+    - provided: \(none\)
+    - questions: multiple choice questions ×30
 - grades: 28/30 → 28/30
-  - statistics
-    - timestamps: 2025-05-29T15:20+08:00 → 2025-05-31+08:00
-    - mean: ? \(provided: 23.1\) → ?
-    - standard deviation: ? \(provided: 5.2\) → ?
-    - low: ? → ?
-    - lower quartile: ? → ?
-    - median: ? → ?
-    - upper quartile: ? → ?
-    - high: ? → ?
-    - distribution: ? → ?
+    - statistics
+        - timestamps: 2025-05-29T15:20+08:00 → 2025-05-31+08:00
+        - mean: ? \(provided: 23.1\) → ?
+        - standard deviation: ? \(provided: 5.2\) → ?
+        - low: ? → ?
+        - lower quartile: ? → ?
+        - median: ? → ?
+        - upper quartile: ? → ?
+        - high: ? → ?
+        - distribution: ? → ?
 - report: \(none\)
 - check
-  - datetime: 2025-05-30T14:00:00+08:00/2025-05-30T15:30:00+08:00, PT1H30M
-  - venue: Room 4083, LSKBB
-  - report: \(none; did not go\)
+    - datetime: 2025-05-30T14:00:00+08:00/2025-05-30T15:30:00+08:00, PT1H30M
+    - venue: Room 4083, LSKBB
+    - report: \(none; did not go\)
 
 ---
 
@@ -242,4 +242,4 @@ The content is in teaching order.
 ### total
 
 - grades: 96/100
-  - statistics: \(none\)
+    - statistics: \(none\)

@@ -16,93 +16,93 @@ tags:
 The content is in teaching order.
 
 - engineer
-  - engineer, according to Wikipedia
-    - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test
-    - engineer goals ::@:: fulfill functional objectives and requirements
-    - engineer limitations ::@:: limited by cost, practicality, regulation, and safety
-    - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook
-  - engineer, according to the World Federation of Engineering Organizations (WFEO)
-    - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience
-    - engineer sustainability ::@:: restore and safeguard the biophysical environment
-  - [engineer types](#engineer%20types)
-  - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature.
+    - engineer, according to Wikipedia
+        - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test
+        - engineer goals ::@:: fulfill functional objectives and requirements
+        - engineer limitations ::@:: limited by cost, practicality, regulation, and safety
+        - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook
+    - engineer, according to the World Federation of Engineering Organizations (WFEO)
+        - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience
+        - engineer sustainability ::@:: restore and safeguard the biophysical environment
+    - [engineer types](#engineer%20types)
+    - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature.
 - civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure
-  - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes.
-  - civil engineer characteristics ::@:: problem solvers
-  - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector.
-  - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning
-    - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present.
+    - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes.
+    - civil engineer characteristics ::@:: problem solvers
+    - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector.
+    - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning
+        - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present.
 - civil engineering importance ::@:: improving living environments, productivity, and working efficiency
-  - [civil engineering examples](#civil%20engineering%20examples)
-  - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
+    - [civil engineering examples](#civil%20engineering%20examples)
+    - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
-  - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
-  - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives.
-    - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage
-    - structural failure consequences ::@:: building toppling over, killing workers, prosecution
-    - [structural failure example](#structural%20failure%20example)
-  - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures
-    - [complex shape examples](#complex%20shape%20examples)
-    - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels
-  - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
-    - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982)
-      - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier.
+    - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
+    - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives.
+        - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage
+        - structural failure consequences ::@:: building toppling over, killing workers, prosecution
+        - [structural failure example](#structural%20failure%20example)
+    - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures
+        - [complex shape examples](#complex%20shape%20examples)
+        - [long-span structure examples](#long%20span%20structure%20examples)
+        - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels
+    - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
+        - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982)
+            - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier.
 - civil engineering solutions ::@:: smart cities
-  - smart cities examples ::@:: Using technology to gather information, predict events, and notify people.
+    - smart cities examples ::@:: Using technology to gather information, predict events, and notify people.
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
 - structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters
-  - [structural engineering examples](#structural%20engineering%20examples)
-  - [natural disasters examples](#natural%20disaster%20examples)
-  - structural engineering goals ::@:: - _safety_: no collapse without warning <br/> - _serviceability_: deformation does not disrupt use
-  - construction material factors ::@:: depends on availability, cost, project nature
-    - [construction material examples](#construction%20material%20examples)
-      - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
-      - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
-      - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany
-  - structural codes of practice or design codes ::@:: different countries have different standards
-    - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
+    - [structural engineering examples](#structural%20engineering%20examples)
+    - [natural disasters examples](#natural%20disaster%20examples)
+    - structural engineering goals ::@:: - _safety_: no collapse without warning <br/> - _serviceability_: deformation does not disrupt use
+    - construction material factors ::@:: depends on availability, cost, project nature
+        - [construction material examples](#construction%20material%20examples)
+            - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
+            - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
+            - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany
+    - structural codes of practice or design codes ::@:: different countries have different standards
+        - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::@:: behavior of rock, soil, and underground water
-  - geo-technical engineering structures ::@:: design and construction of earthworks and foundations
-    - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
-  - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
-    - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society
+    - geo-technical engineering structures ::@:: design and construction of earthworks and foundations
+        - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
+    - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
+        - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society
 - hydraulic engineering ::@:: conveyance and flow of fluids, principally sewage and water
-  - hydraulic engineering structures ::@:: design and construction of hydraulic structures
-    - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
-  - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources
-    - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
+    - hydraulic engineering structures ::@:: design and construction of hydraulic structures
+        - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
+    - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources
+        - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
 - environmental engineering ::@:: application of engineering and science to improve the natural environment and minimize environmental impact
-  - [environmental engineering areas](#environmental%20engineering%20areas)
-    - air engineering ::@:: air pollution control, air quality monitoring, ozone layer protection
-    - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management
-    - [water engineering](#water%20engineering)
-    - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise)
-    - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed
-      - [environmental impact components](#environmental%20impact%20components)
-      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997
+    - [environmental engineering areas](#environmental%20engineering%20areas)
+        - air engineering ::@:: air pollution control, air quality monitoring, ozone layer protection
+        - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management
+        - [water engineering](#water%20engineering)
+        - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise)
+        - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed
+            - [environmental impact components](#environmental%20impact%20components)
+            - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997
 - transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably
-  - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures
-    - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
+    - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures
+        - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
-  - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs
-  - materials engineer jobs ::@:: highly varied
-    - [materials engineer job examples](#materials%20engineer%20job%20examples)
-  - materials engineering materials ::@:: development of improved or new materials
-    - [materials engineering material examples](#materials%20engineering%20material%20examples)
-  - materials engineering repair ::@:: design of materials and methods to repair
-    - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer
+    - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs
+    - materials engineer jobs ::@:: highly varied
+        - [materials engineer job examples](#materials%20engineer%20job%20examples)
+    - materials engineering materials ::@:: development of improved or new materials
+        - [materials engineering material examples](#materials%20engineering%20material%20examples)
+    - materials engineering repair ::@:: design of materials and methods to repair
+        - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer
 - construction engineering ::@:: planning and execution of the designs from other fields of engineers
-  - [construction engineer skills](#construction%20engineer%20skills)
-  - [construction engineer jobs](#construction%20engineer%20jobs)
+    - [construction engineer skills](#construction%20engineer%20skills)
+    - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::@:: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors.
-  - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
-  - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
-  - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants)
-    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
-      - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools
-      - Buildings Department (BD) ::@:: illegal structures, private buildings
-      - Housing Department (HD) ::@:: home ownership scheme, public housing
+    - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones.
+    - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
+    - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants)
+        - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD)
+            - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools
+            - Buildings Department (BD) ::@:: illegal structures, private buildings
+            - Housing Department (HD) ::@:: home ownership scheme, public housing
 
 ## oversized data
 

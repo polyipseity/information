@@ -741,7 +741,7 @@ Properties of companion objects:
 - separate namespaces ::@:: – Types reside in the _type_ namespace; values (including objects) reside in the _term_ namespace.
 - mutual access ::@:: – A companion object can access private members of its class and vice versa.
 - static-like behavior ::@:: – Since Scala lacks Java's `static` keyword, companion objects serve the same purpose for grouping utility functions or constants related to a class.
-  - static-like behavior / factory methods ::@:: – Companion objects often provide convenient constructors, analogous to static factory methods in Java (`IntSet.singleton`).
+    - static-like behavior / factory methods ::@:: – Companion objects often provide convenient constructors, analogous to static factory methods in Java (`IntSet.singleton`).
 
 Together, {@{singleton objects and companions}@} give Scala {@{concise, type-safe mechanisms}@} for {@{representing unique values and packaging helper functionality}@} without resorting to {@{mutable global state}@}.
 

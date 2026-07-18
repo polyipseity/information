@@ -42,8 +42,8 @@ In {@{[digital communications](digital%20communications.md)}@}, {@{the equalizer
 ### digital equalizer types
 
 - {@{Linear equalizer}@}: {@{processes the incoming signal}@} with {@{a linear filter}@}
-  - {@{[MMSE](minimum%20mean%20square%20error.md) equalizer}@}: designs the filter to {@{minimize E\[\|e\|<sup>2</sup>\]}@}, where e is {@{the error signal, which is the filter output minus the transmitted signal}@}.<sup>[\[1\]](#^ref-1)</sup>
-  - {@{[Zero-forcing equalizer](zero-forcing%20equalizer.md)}@}: {@{approximates the inverse of the channel}@} with {@{a linear filter}@}.
+    - {@{[MMSE](minimum%20mean%20square%20error.md) equalizer}@}: designs the filter to {@{minimize E\[\|e\|<sup>2</sup>\]}@}, where e is {@{the error signal, which is the filter output minus the transmitted signal}@}.<sup>[\[1\]](#^ref-1)</sup>
+    - {@{[Zero-forcing equalizer](zero-forcing%20equalizer.md)}@}: {@{approximates the inverse of the channel}@} with {@{a linear filter}@}.
 
 - {@{[Decision feedback equalizer](decision%20feedback%20equalizer.md)}@}: {@{augments a linear equalizer}@} by adding {@{a filtered version of previous symbol estimates}@} to {@{the original filter output}@}.<sup>[\[2\]](#^ref-2)</sup>
 

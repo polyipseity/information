@@ -64,13 +64,13 @@ The basic approach is as follows.
 
 - Draw a line with length __trunkLength__
 - If the maximum depth has not yet been reached, then:
-  - turn left by a particular __angle__, and then recursively call the __tree__ function to draw a tree with half the line length and one depth higher, i.e.:
+    - turn left by a particular __angle__, and then recursively call the __tree__ function to draw a tree with half the line length and one depth higher, i.e.:
 
   ```Python
   tree(trunkLength / 2, currentDepth + 1, maximumDepth)
   ```
 
-  - turn right by __2 \* angle__, and then recursively call the __tree__ function to draw a tree with half the line length and one level lower, i.e.:
+    - turn right by __2 \* angle__, and then recursively call the __tree__ function to draw a tree with half the line length and one level lower, i.e.:
 
   ```Python
   tree(trunkLength / 2, currentDepth + 1, maximumDepth)

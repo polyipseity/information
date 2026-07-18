@@ -143,11 +143,11 @@ was {@{seen as paradoxical in the early days of set theory}@}; see {@{[Skolem's 
 Countable sets can be {@{[totally ordered](total%20order.md) in various ways}@}, for example:
 
 - [Well-orders](well-order.md) \(see also {@{[ordinal number](ordinal%20number.md)}@}\):
-  - The usual order of {@{natural numbers}@} \(0, 1, 2, 3, 4, 5, ...\)
-  - The integers in the order {@{\(0, 1, 2, 3, ...; −1, −2, −3, ...\)}@}
+    - The usual order of {@{natural numbers}@} \(0, 1, 2, 3, 4, 5, ...\)
+    - The integers in the order {@{\(0, 1, 2, 3, ...; −1, −2, −3, ...\)}@}
 - Other \({@{_not_ well orders}@}\):
-  - The usual order of {@{integers}@} \(..., −3, −2, −1, 0, 1, 2, 3, ...\)
-  - The usual order of {@{rational numbers}@} \({@{Cannot be explicitly written as an ordered list!}@}\)
+    - The usual order of {@{integers}@} \(..., −3, −2, −1, 0, 1, 2, 3, ...\)
+    - The usual order of {@{rational numbers}@} \({@{Cannot be explicitly written as an ordered list!}@}\)
 
 In {@{both examples of well orders here}@}, {@{any subset has a _least element_}@}; and in {@{both examples of non-well orders}@}, {@{_some_ subsets do not have a _least element_}@}. This is {@{the key definition that determines whether a total order is also a well order}@}.
 

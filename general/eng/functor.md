@@ -38,8 +38,8 @@ Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __funct
 
 - (annotation: object) ::@:: associates each [object](mathematical%20object.md) $X$ in _C_ to an object $F(X)$ in _D_,
 - (annotation: morphism) ::@:: associates each [morphism](morphism.md) $f\colon X\to Y$ in _C_ to a morphism $F(f)\colon F(X)\to F(Y)$ in _D_ such that the following two conditions hold: (annotation: identity, composition)
-  - (annotation: identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_,
-  - (annotation: composition) ::@:: $F(g\circ f)=F(g)\circ F(f)$ for all morphisms $f\colon X\to Y\,\!$ and $g\colon Y\to Z$ in _C_.
+      - (annotation: identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_,
+      - (annotation: composition) ::@:: $F(g\circ f)=F(g)\circ F(f)$ for all morphisms $f\colon X\to Y\,\!$ and $g\colon Y\to Z$ in _C_.
 - (annotation: functor, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.)
 
 That is, functors must {@{preserve [identity morphisms](morphism.md#definition) and [composition](function%20composition.md) of morphisms}@}.
@@ -52,17 +52,17 @@ There are {@{many constructions in mathematics that would be functors}@} but for
 
 - (annotation: contravariant, object) ::@:: associates each object $X$ in _C_ with an object $F(X)$ in _D_,
 - (annotation: contravariant, morphism) ::@:: associates each morphism $f\colon X\to Y$ in _C_ with a morphism $F(f)\colon F(Y)\to F(X)$ in _D_ such that the following two conditions hold: (annotation: identity, composition)
-  - (annotation: contravariant, identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_,
-  - (annotation: contravariant, morphism) ::@:: $F(g\circ f)=F(f)\circ F(g)$ for all morphisms $f\colon X\to Y$ and $g\colon Y\to Z$ in _C_.
+      - (annotation: contravariant, identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_,
+      - (annotation: contravariant, morphism) ::@:: $F(g\circ f)=F(f)\circ F(g)$ for all morphisms $f\colon X\to Y$ and $g\colon Y\to Z$ in _C_.
 
 Variance of functor ::@:: \(composite\)<sup>[\[4\]](#^ref-4)</sup>
 
 - The composite of two functors of the same variance: ::@:: (annotation: composite is covariant)
-  - $\mathrm {Covariant} \circ \mathrm {Covariant} \to \mathrm {Covariant}$
-  - $\mathrm {Contravariant} \circ \mathrm {Contravariant} \to \mathrm {Covariant}$
+      - $\mathrm {Covariant} \circ \mathrm {Covariant} \to \mathrm {Covariant}$
+      - $\mathrm {Contravariant} \circ \mathrm {Contravariant} \to \mathrm {Covariant}$
 - The composite of two functors of opposite variance: ::@:: (annotation: composite is contravariant)
-  - $\mathrm {Covariant} \circ \mathrm {Contravariant} \to \mathrm {Contravariant}$
-  - $\mathrm {Contravariant} \circ \mathrm {Covariant} \to \mathrm {Contravariant}$
+      - $\mathrm {Covariant} \circ \mathrm {Contravariant} \to \mathrm {Contravariant}$
+      - $\mathrm {Contravariant} \circ \mathrm {Covariant} \to \mathrm {Contravariant}$
 
 Note that contravariant functors {@{reverse the direction of composition}@}.
 

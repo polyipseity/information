@@ -169,21 +169,21 @@ Listed below are the primary tasks/services performed by management accountants.
 There are {@{several related professional qualifications and certifications}@} in the field of accountancy including:
 
 - Management Accountancy Qualifications
-  - [CIMA](Chartered%20Institute%20of%20Management%20Accountants.md)
-  - [ICMA](Institute%20of%20Certified%20Management%20Accountants.md)
-  - [ICAI-CMA](Institute%20of%20Cost%20Accountants%20of%20India.md)
-  - [ICMAP](Institute%20of%20Cost%20and%20Management%20Accountants%20of%20Pakistan.md)
-  - [CMA](Certified%20Management%20Accountant.md)
+      - [CIMA](Chartered%20Institute%20of%20Management%20Accountants.md)
+      - [ICMA](Institute%20of%20Certified%20Management%20Accountants.md)
+      - [ICAI-CMA](Institute%20of%20Cost%20Accountants%20of%20India.md)
+      - [ICMAP](Institute%20of%20Cost%20and%20Management%20Accountants%20of%20Pakistan.md)
+      - [CMA](Certified%20Management%20Accountant.md)
 - Other Professional Accountancy Qualifications
-  - [Chartered Institute of Public Finance and Accountancy](Chartered%20Institute%20of%20Public%20Finance%20and%20Accountancy.md), CIPFA
-  - [Chartered Certified Accountant](Association%20of%20Chartered%20Certified%20Accountants.md#qualifications) ([ACCA](Association%20of%20Chartered%20Certified%20Accountants.md))
-  - [Cost & Management Accountant](Certified%20Management%20Accountant.md) ([CMA](Certified%20Management%20Accountant.md))
-  - [Chartered Accountant](chartered%20accountant.md) ([CA](chartered%20accountant.md))
-  - [Chartered Professional Accountant](Chartered%20Professional%20Accountant.md) ([CPA](Chartered%20Professional%20Accountant.md) - Canada)
-  - [Certified Public Accountant](Certified%20Public%20Accountant.md) ([CPA](Certified%20Public%20Accountant.md) - US)
-    - [American Institute of Certified Public Accountants](American%20Institute%20of%20Certified%20Public%20Accountants.md)
-  - [Certified Practicing Accountant](CPA%20Australia.md) (CPA Australia)
-  - [Chartered Global Management Accountant](Chartered%20Global%20Management%20Accountant.md)
+      - [Chartered Institute of Public Finance and Accountancy](Chartered%20Institute%20of%20Public%20Finance%20and%20Accountancy.md), CIPFA
+      - [Chartered Certified Accountant](Association%20of%20Chartered%20Certified%20Accountants.md#qualifications) ([ACCA](Association%20of%20Chartered%20Certified%20Accountants.md))
+      - [Cost & Management Accountant](Certified%20Management%20Accountant.md) ([CMA](Certified%20Management%20Accountant.md))
+      - [Chartered Accountant](chartered%20accountant.md) ([CA](chartered%20accountant.md))
+      - [Chartered Professional Accountant](Chartered%20Professional%20Accountant.md) ([CPA](Chartered%20Professional%20Accountant.md) - Canada)
+      - [Certified Public Accountant](Certified%20Public%20Accountant.md) ([CPA](Certified%20Public%20Accountant.md) - US)
+            - [American Institute of Certified Public Accountants](American%20Institute%20of%20Certified%20Public%20Accountants.md)
+      - [Certified Practicing Accountant](CPA%20Australia.md) (CPA Australia)
+      - [Chartered Global Management Accountant](Chartered%20Global%20Management%20Accountant.md)
 
 ## methods
 

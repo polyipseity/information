@@ -32,5 +32,5 @@ Make an individual submission of a PDF file through Canvas with the following in
 ## submission
 
 - file: [`submission.pdf`](submission/submission.pdf)
-  - source: [`submission.md`](submission/submission.md)
-  - metadata: [`submission.pdf.yml`](submission/submission.pdf.yml)
+    - source: [`submission.md`](submission/submission.md)
+    - metadata: [`submission.pdf.yml`](submission/submission.pdf.yml)

@@ -28,10 +28,10 @@ tags:
 - Submit the URL of your team repo for assessment
 - Only one group member need to submit the team repo URL
 - Criteria of assessment for the team repo:
-  - Must be a private repository;
-  - Must have invited all team members and the following __TA\(s\)__ as collaborator;
-  - Must contain an audit record showing that every team member had already made at least one pull request \(the "Trivial PR"\) and approved it;
-  - Must display the content of __README.md__ showing the Team ID, members’ contact information \(name, email ID, GitHub ID\), and individual task assignment
+    - Must be a private repository;
+    - Must have invited all team members and the following __TA\(s\)__ as collaborator;
+    - Must contain an audit record showing that every team member had already made at least one pull request \(the "Trivial PR"\) and approved it;
+    - Must display the content of __README.md__ showing the Team ID, members’ contact information \(name, email ID, GitHub ID\), and individual task assignment
 
 Please Invite following TA as a collaborator to your GitHub Repositorey
 
@@ -44,6 +44,6 @@ Please Invite following TA as a collaborator to your GitHub Repositorey
 ## submission
 
 - URL: <https://github.com/cx0014/Lab5TeamRepoG14>
-  - copies
-    - [`submission.7z`](submission/submission.7z)
-    - <https://github.com/polyipseity/hkust-comp-3111h-labs/tree/main/lab5>
+    - copies
+        - [`submission.7z`](submission/submission.7z)
+        - <https://github.com/polyipseity/hkust-comp-3111h-labs/tree/main/lab5>

@@ -146,13 +146,13 @@ Though {@{signatures}@} might {@{in some cases imply how non-logical symbols are
 In this approach, {@{every non-logical symbol}@} is {@{of one of the following types}@}:
 
 - A _predicate symbol_ \(or _relation symbol_\) with some _valence_ \(or _arity_, number of arguments\) greater than or equal to 0. ::@:: These are often denoted by uppercase letters such as _P_, _Q_ and _R_. Examples:
-  - In _P_\(_x_\), ::@:: _P_ is a predicate symbol of valence 1. One possible interpretation is "_x_ is a man".
-  - In _Q_\(_x_,_y_\), ::@:: _Q_ is a predicate symbol of valence 2. Possible interpretations include "_x_ is greater than _y_" and "_x_ is the father of _y_".
-  - Relations of valence 0 ::@:: can be identified with [propositional variables](propositional%20variable.md), which can stand for any statement. One possible interpretation of _R_ is "Socrates is a man".
+    - In _P_\(_x_\), ::@:: _P_ is a predicate symbol of valence 1. One possible interpretation is "_x_ is a man".
+    - In _Q_\(_x_,_y_\), ::@:: _Q_ is a predicate symbol of valence 2. Possible interpretations include "_x_ is greater than _y_" and "_x_ is the father of _y_".
+    - Relations of valence 0 ::@:: can be identified with [propositional variables](propositional%20variable.md), which can stand for any statement. One possible interpretation of _R_ is "Socrates is a man".
 - A _function symbol_, with some valence greater than or equal to 0. ::@:: These are often denoted by lowercase [roman letters](Latin%20script.md) such as _f_, _g_ and _h_. Examples:
-  - _f_\(_x_\) ::@:: may be interpreted as "the father of _x_". In [arithmetic](arithmetic.md), it may stand for "-x". In set theory, it may stand for "the [power set](power%20set.md) of x".
-  - In arithmetic, _g_\(_x_,_y_\) ::@:: may stand for "_x_+_y_". In set theory, it may stand for "the union of _x_ and _y_".
-  - Function symbols of valence 0 are called _constant symbols_, and are often denoted by lowercase letters at the beginning of the alphabet such as _a_, _b_ and _c_. ::@:: The symbol _a_ may stand for Socrates. In arithmetic, it may stand for 0. In set theory, it may stand for the [empty set](empty%20set.md).
+    - _f_\(_x_\) ::@:: may be interpreted as "the father of _x_". In [arithmetic](arithmetic.md), it may stand for "-x". In set theory, it may stand for "the [power set](power%20set.md) of x".
+    - In arithmetic, _g_\(_x_,_y_\) ::@:: may stand for "_x_+_y_". In set theory, it may stand for "the union of _x_ and _y_".
+    - Function symbols of valence 0 are called _constant symbols_, and are often denoted by lowercase letters at the beginning of the alphabet such as _a_, _b_ and _c_. ::@:: The symbol _a_ may stand for Socrates. In arithmetic, it may stand for 0. In set theory, it may stand for the [empty set](empty%20set.md).
 
 {@{The traditional approach}@} can be {@{recovered in the modern approach}@}, by {@{simply specifying the "custom" signature}@} to {@{consist of the traditional sequences of non-logical symbols}@}.
 

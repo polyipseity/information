@@ -29,33 +29,33 @@ Compare with [nonmetal § properties](nonmetal.md#properties).
 >
 > - properties ::@:: appearance, deformability (as a solid), density, electrical conductivity, form, melting point, thermal conductivity, etc.
 > - appearance
->   - appearance / metal :@: - mostly shiny and grey-white
->   - appearance / metalloid :@: - shiny and grey-white
->   - appearance / nonmetal :@: - mostly dull
+>     - appearance / metal :@: - mostly shiny and grey-white
+>     - appearance / metalloid :@: - shiny and grey-white
+>     - appearance / nonmetal :@: - mostly dull
 > - deformability (as a solid)
->   - deformability (as a solid) / metal :@: - mostly [ductile](ductility.md) and [malleable](malleability.md) <br/> - some brittle
->   - deformability (as a solid) / metalloid :@: - brittle
->   - deformability (as a solid) / nonmetal :@: - brittle <br/> - some non-brittle
+>     - deformability (as a solid) / metal :@: - mostly [ductile](ductility.md) and [malleable](malleability.md) <br/> - some brittle
+>     - deformability (as a solid) / metalloid :@: - brittle
+>     - deformability (as a solid) / nonmetal :@: - brittle <br/> - some non-brittle
 > - [density](density.md)
->   - [density](density.md) / metal :@: - mostly high <br/> - exceptional example(s): [alkali metals](alkali%20metal.md)
->   - [density](density.md) / metalloid :@: - between metals and nonmetals
->   - [density](density.md) / nonmetal :@: - mostly low
+>     - [density](density.md) / metal :@: - mostly high <br/> - exceptional example(s): [alkali metals](alkali%20metal.md)
+>     - [density](density.md) / metalloid :@: - between metals and nonmetals
+>     - [density](density.md) / nonmetal :@: - mostly low
 > - [electrical conductivity](electrical%20conductivity.md)
->   - [electrical conductivity](electrical%20conductivity.md) / metal :@: - good to high
->   - [electrical conductivity](electrical%20conductivity.md) / metalloid :@: - intermediate to good
->   - [electrical conductivity](electrical%20conductivity.md) / nonmetal :@: - poor to good
+>     - [electrical conductivity](electrical%20conductivity.md) / metal :@: - good to high
+>     - [electrical conductivity](electrical%20conductivity.md) / metalloid :@: - intermediate to good
+>     - [electrical conductivity](electrical%20conductivity.md) / nonmetal :@: - poor to good
 > - form
->   - form / metal :@: - almost all [solid](solid.md) <br/> - [liquid](liquid.md): [Cs](caesium.md) (near [room temperature](room%20tempeature.md)), [Fr](francium.md) (near [room temperature](room%20tempeature.md)), [Ga](gallium.md) (near [room temperature](room%20tempeature.md)), [Hg](mercury%20(element).md), [Rb](rubidium.md) (near [room temperature](room%20tempeature.md))
->   - form / metalloid :@: - all [solid](solid.md)
->   - form / nonmetal :@: - mostly [gas](gas.md) <br/> - [solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md) <br/> - [liquid](liquid.md): [Br](bromine.md)
+>     - form / metal :@: - almost all [solid](solid.md) <br/> - [liquid](liquid.md): [Cs](caesium.md) (near [room temperature](room%20tempeature.md)), [Fr](francium.md) (near [room temperature](room%20tempeature.md)), [Ga](gallium.md) (near [room temperature](room%20tempeature.md)), [Hg](mercury%20(element).md), [Rb](rubidium.md) (near [room temperature](room%20tempeature.md))
+>     - form / metalloid :@: - all [solid](solid.md)
+>     - form / nonmetal :@: - mostly [gas](gas.md) <br/> - [solid](solid.md): [C](carbon.md), [I](iodine.md), [P](phosphorus.md), [Se](selenium.md) <br/> - [liquid](liquid.md): [Br](bromine.md)
 > - [melting point](melting%20point.md)
->   - [melting point](melting%20point.md) / metal :@: - mostly high <br/> - exceptional example(s): [Na](sodium.md)
->   - [melting point](melting%20point.md) / metalloid :@: - mostly high
->   - [melting point](melting%20point.md) / nonmetal :@: - mostly low
+>     - [melting point](melting%20point.md) / metal :@: - mostly high <br/> - exceptional example(s): [Na](sodium.md)
+>     - [melting point](melting%20point.md) / metalloid :@: - mostly high
+>     - [melting point](melting%20point.md) / nonmetal :@: - mostly low
 > - [thermal conductivity](thermal%20conductivity.md)
->   - [thermal conductivity](thermal%20conductivity.md) / metal :@: - medium to high
->   - [thermal conductivity](thermal%20conductivity.md) / metalloid :@: - mostly intermediate <br/> - high: [Si](silicon.md)
->   - [thermal conductivity](thermal%20conductivity.md) / nonmetal :@: - almost negligible to very high
+>     - [thermal conductivity](thermal%20conductivity.md) / metal :@: - medium to high
+>     - [thermal conductivity](thermal%20conductivity.md) / metalloid :@: - mostly intermediate <br/> - high: [Si](silicon.md)
+>     - [thermal conductivity](thermal%20conductivity.md) / nonmetal :@: - almost negligible to very high
 
 ## references
 

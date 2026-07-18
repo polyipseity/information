@@ -29,7 +29,7 @@ __Coupon Instructions:__
 - Student ID: <u>24944268</u>
 - Student Name: <u>Suo Xun Xin</u>
 - Seat No.: <u>143</u>
-  - (Your seat number is the one used in the midterm exam. You could also check it in the HW page in Canvas.)
+    - (Your seat number is the one used in the midterm exam. You could also check it in the HW page in Canvas.)
 
 | __Question__ | __Full Mark__ | __Mark__ |
 |:------------:|:-------------:|:--------:|
@@ -107,48 +107,48 @@ What are the final values of w<sub>1</sub>, w<sub>2</sub> and b after these five
 ---
 
 - 1st step
-  - (w_1, w_2, b) = (0.3, 0.3, 0.3)
-  - y' = 0.3 \* 2 + 0.3 \* 0 + 0.3 = 0.9
-  - y = 1 (y' >= 0)
-  - diff = d - y = 0 - 1 = -1
-  - w_1 = 0.3 + 0.6 \* diff \* 2 = 0.3 - 1.2 = -0.9
-  - w_2 = 0.3 + 0.6 \* diff \* 0 = 0.3
-  - b = 0.3 + 0.6 \* diff = -0.3
-  - (w_1, w_2, b) = (-0.9, 0.3, -0.3)
+    - (w_1, w_2, b) = (0.3, 0.3, 0.3)
+    - y' = 0.3 \* 2 + 0.3 \* 0 + 0.3 = 0.9
+    - y = 1 (y' >= 0)
+    - diff = d - y = 0 - 1 = -1
+    - w_1 = 0.3 + 0.6 \* diff \* 2 = 0.3 - 1.2 = -0.9
+    - w_2 = 0.3 + 0.6 \* diff \* 0 = 0.3
+    - b = 0.3 + 0.6 \* diff = -0.3
+    - (w_1, w_2, b) = (-0.9, 0.3, -0.3)
 - 2nd step
-  - (w_1, w_2, b) = (-0.9, 0.3, -0.3)
-  - y' = -0.9 \* 0 + 0.3 \* 2 - 0.3 = 0.3
-  - y = 1 (y' >= 0)
-  - diff = d - y = 0 - 1 = -1
-  - w_1 = -0.9 + 0.6 \* diff \* 0 = -0.9
-  - w_2 = 0.3 + 0.6 \* diff \* 2 = 0.3 - 1.2 = -0.9
-  - b = -0.3 + 0.6 \* diff = -0.9
-  - (w_1, w_2, b) = (-0.9, -0.9, -0.9)
+    - (w_1, w_2, b) = (-0.9, 0.3, -0.3)
+    - y' = -0.9 \* 0 + 0.3 \* 2 - 0.3 = 0.3
+    - y = 1 (y' >= 0)
+    - diff = d - y = 0 - 1 = -1
+    - w_1 = -0.9 + 0.6 \* diff \* 0 = -0.9
+    - w_2 = 0.3 + 0.6 \* diff \* 2 = 0.3 - 1.2 = -0.9
+    - b = -0.3 + 0.6 \* diff = -0.9
+    - (w_1, w_2, b) = (-0.9, -0.9, -0.9)
 - 3rd step
-  - (w_1, w_2, b) = (-0.9, -0.9, -0.9)
-  - y' = -0.9 \* 4 + -0.9 \* 2 - 0.9 = -6.3
-  - y = 0 (y' < 0)
-  - diff = d - y = 1 - 0 = 1
-  - w_1 = -0.9 + 0.6 \* diff \* 4 = 1.5
-  - w_2 = -0.9 + 0.6 \* diff \* 2 = 0.3
-  - b = -0.9 + 0.6 \* diff = -0.3
-  - (w_1, w_2, b) = (1.5, 0.3, -0.3)
+    - (w_1, w_2, b) = (-0.9, -0.9, -0.9)
+    - y' = -0.9 \* 4 + -0.9 \* 2 - 0.9 = -6.3
+    - y = 0 (y' < 0)
+    - diff = d - y = 1 - 0 = 1
+    - w_1 = -0.9 + 0.6 \* diff \* 4 = 1.5
+    - w_2 = -0.9 + 0.6 \* diff \* 2 = 0.3
+    - b = -0.9 + 0.6 \* diff = -0.3
+    - (w_1, w_2, b) = (1.5, 0.3, -0.3)
 - 4th step
-  - (w_1, w_2, b) = (1.5, 0.3, -0.3)
-  - y' = 1.5 \* 2 + 0.3 \* 4 - 0.3 = 3.9
-  - y = 1 (y' >= 0)
-  - diff = d - y = 1 - 1 = 0
-  - diff is 0, can skip updating, as updating does not change any values
-  - (w_1, w_2, b) = (1.5, 0.3, -0.3)
+    - (w_1, w_2, b) = (1.5, 0.3, -0.3)
+    - y' = 1.5 \* 2 + 0.3 \* 4 - 0.3 = 3.9
+    - y = 1 (y' >= 0)
+    - diff = d - y = 1 - 1 = 0
+    - diff is 0, can skip updating, as updating does not change any values
+    - (w_1, w_2, b) = (1.5, 0.3, -0.3)
 - 5th step
-  - (w_1, w_2, b) = (1.5, 0.3, -0.3)
-  - y' = 1.5 \* 2 + 0.3 \* 0 - 0.3 = 2.7
-  - y = 1 (y' >= 0)
-  - diff = d - y = 0 - 1 = -1
-  - w_1 = 1.5 + 0.6 \* diff \* 2 = 0.3
-  - w_2 = 0.3 + 0.6 \* diff \* 0 = 0.3
-  - b = -0.3 + 0.6 \* diff = -0.9
-  - (w_1, w_2, b) = (0.3, 0.3, -0.9)
+    - (w_1, w_2, b) = (1.5, 0.3, -0.3)
+    - y' = 1.5 \* 2 + 0.3 \* 0 - 0.3 = 2.7
+    - y = 1 (y' >= 0)
+    - diff = d - y = 0 - 1 = -1
+    - w_1 = 1.5 + 0.6 \* diff \* 2 = 0.3
+    - w_2 = 0.3 + 0.6 \* diff \* 0 = 0.3
+    - b = -0.3 + 0.6 \* diff = -0.9
+    - (w_1, w_2, b) = (0.3, 0.3, -0.9)
 - The final values are (w_1, w_2, b) = (0.3, 0.3, -0.9).
 
 ## Q2
@@ -170,10 +170,10 @@ Please illustrate with the above example when L=2 and K=1. Please write the numb
 - total = a + b + c + d = (6, 6) + (8, 8) + (5, 9) + (9, 5) = (28, 28)
 - mean = total / 4 = (7, 7)
 - modify data points
-  - a' = a - mean = (6, 6) - (7, 7) = (-1, -1)
-  - b' = b - mean = (8, 8) - (7, 7) = (1, 1)
-  - c' = c - mean = (5, 9) - (7, 7) = (-2, 2)
-  - d' = d - mean = (9, 5) - (7, 7) = (2, -2)
+    - a' = a - mean = (6, 6) - (7, 7) = (-1, -1)
+    - b' = b - mean = (8, 8) - (7, 7) = (1, 1)
+    - c' = c - mean = (5, 9) - (7, 7) = (-2, 2)
+    - d' = d - mean = (9, 5) - (7, 7) = (2, -2)
 - covariance matrix: $$\begin{aligned}
 & \phantom = \text{covariance matrix} \\
 & = \frac 1 4 \begin{bmatrix} -1 & 1 & -2 & 2 \\ -1 & 1 & 2 & -2 \end{bmatrix} \begin{bmatrix} -1 & -1 \\ 1 & 1 \\ -2 & 2 \\ 2 & -2 \end{bmatrix} \\
@@ -279,12 +279,12 @@ Run the following algorithm:
 
 - Set S to {top view}.
 - While the sum of sizes of views in S is less than X:
-  - Find the view V with the highest benefit given the views in S is materialized B(V, S).
-  - Set S' to the union of S and {V}.
-  - If the sum of sizes of views in S' is less than or equal to X:
-    - Set S to S'.
-  - Else:
-    - Stop the while statement.
+    - Find the view V with the highest benefit given the views in S is materialized B(V, S).
+    - Set S' to the union of S and {V}.
+    - If the sum of sizes of views in S' is less than or equal to X:
+        - Set S to S'.
+    - Else:
+        - Stop the while statement.
 - The resulting S is the solution and is also a greedy selection.
 
 <!--

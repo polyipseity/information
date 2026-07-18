@@ -312,8 +312,8 @@ When {@{describing general motion}@}, {@{the actual forces acting on a particle}
 - [Covariance and contravariance](covariance%20and%20contravariance%20of%20vectors.md)
 - [Introduction to the mathematics of general relativity](introduction%20to%20the%20mathematics%20of%20general%20relativity.md)
 - Special cases:
-  - [Orthogonal coordinates](orthogonal%20coordinates.md)
-  - [Skew coordinates](skew%20coordinates.md)
+    - [Orthogonal coordinates](orthogonal%20coordinates.md)
+    - [Skew coordinates](skew%20coordinates.md)
 - [Tensors in curvilinear coordinates](tensors%20in%20curvilinear%20coordinates.md)
 - [Frenet–Serret formulas](Frenet–Serret%20formulas.md)
 - [Covariant derivative](covariant%20derivative.md)

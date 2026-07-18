@@ -27,8 +27,8 @@ So, you'll soon write a function called tree\(trunkLength, currentDepth, maximum
 
 - If the current depth is 0, we just draw a line at the given trunkLength and we're finished.
 - Otherwise, we draw a line of the given trunkLength, then:
-  - Turn left by a particular angle \(such as 30 degrees\), and recursively call the tree function to draw a tree with half the trunk length and one depth higher.
-  - When that's done, we rotate the turtle to the right and draw a second tree, recursively, just like we did with the first smaller tree.
+    - Turn left by a particular angle \(such as 30 degrees\), and recursively call the tree function to draw a tree with half the trunk length and one depth higher.
+    - When that's done, we rotate the turtle to the right and draw a second tree, recursively, just like we did with the first smaller tree.
 
 There's one thing that you'll need to be careful to do here. It's very important that when the turtle is done drawing the tree, it returns to where it started and facing in the same direction that it started.
 

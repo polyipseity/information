@@ -167,18 +167,18 @@ __Metadata fields__ (order within the section is flexible; list them grouped by 
   e.g., `scope: topic 1, topic 2, topic 3`). Omit if the exam is cumulative and the course overview already lists all topics.
 - `format:` — Document the exam conditions as a YAML list of single-key
   mappings (bullet items), not as a flat map. Common keys:
-  - `calculator:` — `yes` / `no`
-  - `cheatsheet:` — `yes` / `no` / `yes (unlimited)` / `yes (one A4 page)`
-  - `referencing:` — e.g., `closed book, closed notes`
-  - `provided:` — Materials handed out with the exam, or `(none)`
-  - `questions:` — e.g., `long questions ×8` or `question ×5 (with subquestions)`
+    - `calculator:` — `yes` / `no`
+    - `cheatsheet:` — `yes` / `no` / `yes (unlimited)` / `yes (one A4 page)`
+    - `referencing:` — e.g., `closed book, closed notes`
+    - `provided:` — Materials handed out with the exam, or `(none)`
+    - `questions:` — e.g., `long questions ×8` or `question ×5 (with subquestions)`
 - `note:` — Optional free-form note about unexpected exam conditions (e.g.,
   an error found mid-exam that added extra time). Always present this field even if empty; use `(none)` for no content.
 - `grade:` — Personal score (e.g., `89/100`). When bonus marks are
   included, use the form `base+bonus/max+max bonus`
   (e.g., `80+5/100+10`). Nested fields:
-  - `letter grade:` — Letter grade (e.g., `A+`), or `(none)` if unknown.
-  - `statistics:` — Class statistics. Group values under a session key
+    - `letter grade:` — Letter grade (e.g., `A+`), or `(none)` if unknown.
+    - `statistics:` — Class statistics. Group values under a session key
     that identifies the lecture section the exam belongs to (the course section identifier such as `L1`, not the week number). Include all of the following keys, using `(none)` for any value that is unavailable: `timestamp`, `count`, `mean`, `standard deviation`, `low`, `lower quartile`, `median`, `upper quartile`, `high`, `distribution`, and `data`.
 
     `timestamp:` — Set to the Canvas announcement posting datetime (ISO 8601 with timezone), not the exam start/end time. Extract from the announcement page's "Posted" metadata. When no announcement is available, use the data-extraction date.
@@ -189,14 +189,14 @@ __Metadata fields__ (order within the section is flexible; list them grouped by 
 
     __Canvas single-student view__ provides: mean, median, high, low, upper quartile, lower quartile (displayed as "Upper Quartile", "Lower Quartile"). It does __not__ provide: standard deviation, count, distribution — use `(none)` for those fields.
 
-  - `breakdown:` — Optional per-question scores. One bullet per question
+    - `breakdown:` — Optional per-question scores. One bullet per question
     using `score/max` format (e.g., `Q11: 8/10`). When the per-question max is unknown, omit the `/max` part entirely (e.g., `Q11: 5`). If a question includes bonus marks, use `base+bonus/max+max bonus` (e.g., `Q13: 8+0.5/8+2`).
 
 - `report:` — Optional retrospective analysis using flashcards (`::@::`). Each
   bullet covers a mistake, surprise, or lesson learned. Use nested bullets for sub-topics. This section is the most valuable part for future review; write substantive cards that explain _why_ the mistake happened and what to do differently. Include the point deduction in parentheses (e.g., `(–1)` or `(+1.5)`) after the topic name. Always present this field even if empty; use `(none)` as the sole bullet for no content (not `(to be filled)` or other placeholders).
 - `check:` — Optional paper-checking session. Sub-fields:
-  - `datetime:` and `venue:` as usual.
-  - `report:` — Optional nested section documenting what was
+    - `datetime:` and `venue:` as usual.
+    - `report:` — Optional nested section documenting what was
     contested and whether the score changed. Use the same `(–N)` / `(+N)` notation as in the main report.
 
 #### total
@@ -205,7 +205,7 @@ A course-grade summary placed in an `## aftermath` section after the final exam.
 
 - `grade:` — Overall course grade as score out of total (e.g., `89.15/100`).
   Do __not__ write the marking scheme formula or percentage.
-  - `letter grade:` — Always present; the letter grade (e.g., `A+`), or
+    - `letter grade:` — Always present; the letter grade (e.g., `A+`), or
     `(none)` if unknown.
 - `statistics:` — Class statistics. Group values under the course's lecture
   section key (e.g., `- L1:`), using the same format as exam statistics.
@@ -637,27 +637,27 @@ Create a topic note when a concept deserves a durable, reusable home. Topic note
 
 - __Flashcard question phrasing.__ Each `::@::` left-hand side must be a
   descriptive phrase that uniquely identifies the concept. Use a `category / specific-description` format, all on one line. Avoid terse labels like `Poisson process: definition` — the left side should be independently understandable. Examples from existing notes:
-  - `Kolmogorov axiom (P1) / normalization ::@:: $P[\Omega] = 1$`
-  - `algebraic properties / complement rule ::@:: $P[A^c] = 1 - P[A]$`
-  - `continuity / continuity from below ::@:: If $A_1\subseteq A_2\subseteq\cdots$ then $P[\bigcup_j A_j] = \lim_{n\to\infty} P[A_n]$.`
+    - `Kolmogorov axiom (P1) / normalization ::@:: $P[\Omega] = 1$`
+    - `algebraic properties / complement rule ::@:: $P[A^c] = 1 - P[A]$`
+    - `continuity / continuity from below ::@:: If $A_1\subseteq A_2\subseteq\cdots$ then $P[\bigcup_j A_j] = \lim_{n\to\infty} P[A_n]$.`
 
 - __Overview flashcard.__ The first section's flashcard block must begin with an
   `overview ::@:: <single-sentence definition>` card. For other sections, consider an overview card at the start of that section's flashcard block as well.
 
 - __Lint suppression comments.__ Every `::@::` flashcard line MUST end with a
   trailing lint suppression comment, except when the card legitimately triggers a calculation warning that should not be suppressed. Standard patterns:
-  - `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->` for
+    - `<!-- check: ignore-line[two_sided_calc_warning]: conceptual -->` for
     conceptual cards (definitions, overviews, interpretations, examples without heavy algebra).
-  - If a card contains explicit derivation steps, it may omit the
+    - If a card contains explicit derivation steps, it may omit the
     `two_sided_calc_warning` suppression since the warning is legitimate there.
-  - For headings that must capitalize a proper noun, suppress the header-style
+    - For headings that must capitalize a proper noun, suppress the header-style
     check on the line above:
     `<!-- check: ignore-next-line[header_style]: proper noun -->`.
 
 - __Elaborated answers.__ The right-hand side of a `::@::` card should include
   contextual framing beyond the bare formula. For proof-based cards, embed the key steps with "Derivation:" or "Proof:" inline. Examples:
-  - `algebraic properties / inclusion-exclusion for two sets ::@:: $P[A\cup B] = P[A] + P[B] - P[A\cap B]$, proved by disjoint union $B = (A\cap B)\cup(B\setminus A)$ and additivity.`
-  - `algebraic properties / why $P[\emptyset]=0$ ::@:: $P[\emptyset]=0$ from $\sigma$-additivity: $P[\emptyset] = P[\emptyset\cup\emptyset\cup\cdots] = \sum P[\emptyset]$.
+    - `algebraic properties / inclusion-exclusion for two sets ::@:: $P[A\cup B] = P[A] + P[B] - P[A\cap B]$, proved by disjoint union $B = (A\cap B)\cup(B\setminus A)$ and additivity.`
+    - `algebraic properties / why $P[\emptyset]=0$ ::@:: $P[\emptyset]=0$ from $\sigma$-additivity: $P[\emptyset] = P[\emptyset\cup\emptyset\cup\cdots] = \sum P[\emptyset]$.
 
 - For "iff" theorems, embed both direction sketches in the same card so the
   reader can review the complete logical equivalence. Use "Proof sketch (forward direction):" and "Proof sketch (reverse direction):" markers within the right-hand side, separated by `<br/>`.`

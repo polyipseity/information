@@ -36,5 +36,5 @@ Please name the file you upload with the format "Student ID Student Name.zip".
 ## submission
 
 - file: [`submission.7z`](submission.7z)
-  - filename: `submission.zip`
-  - source: [`submission/`](submission/)
+    - filename: `submission.zip`
+    - source: [`submission/`](submission/)

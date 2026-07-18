@@ -207,4 +207,4 @@ Submit a single `zip` archive containing the source files. All files will be ext
 ## submission
 
 - file: [`submission.zip`](submission.zip)
-  - source: [`submission/`](submission/)
+    - source: [`submission/`](submission/)

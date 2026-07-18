@@ -152,35 +152,35 @@ The following table gives {@{the expected values of some commonly occurring [pro
 > __flashcards__
 >
 > - [Bernoulli](Bernoulli%20distribution.md)<sup>[\[24\]](#^ref-24)</sup>
->   - [Bernoulli](Bernoulli%20distribution.md)<sup>[\[24\]](#^ref-24)</sup> / Notation ::@:: $X\sim ~b(1,p)$
->   - [Bernoulli](Bernoulli%20distribution.md)<sup>[\[24\]](#^ref-24)</sup> / Mean E\(X\) ::@:: $0\cdot (1-p)+1\cdot p=p$
+>     - [Bernoulli](Bernoulli%20distribution.md)<sup>[\[24\]](#^ref-24)</sup> / Notation ::@:: $X\sim ~b(1,p)$
+>     - [Bernoulli](Bernoulli%20distribution.md)<sup>[\[24\]](#^ref-24)</sup> / Mean E\(X\) ::@:: $0\cdot (1-p)+1\cdot p=p$
 > - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup>
->   - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup> / Notation ::@:: $X\sim B(n,p)$
->   - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{n}i{n \choose i}p^{i}(1-p)^{n-i}=np$
+>     - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup> / Notation ::@:: $X\sim B(n,p)$
+>     - [Binomial](binomial%20distribution.md)<sup>[\[25\]](#^ref-25)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{n}i{n \choose i}p^{i}(1-p)^{n-i}=np$
 > - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup>
->   - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup> / Notation ::@:: $X\sim \mathrm {Po} (\lambda )$
->   - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{\infty }{\frac {ie^{-\lambda }\lambda ^{i} }{i!} }=\lambda$
+>     - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup> / Notation ::@:: $X\sim \mathrm {Po} (\lambda )$
+>     - [Poisson](Poisson%20distribution.md)<sup>[\[26\]](#^ref-26)</sup> / Mean E\(X\) ::@:: $\sum _{i=0}^{\infty }{\frac {ie^{-\lambda }\lambda ^{i} }{i!} }=\lambda$
 > - [Geometric](geometric%20distribution.md)<sup>[\[27\]](#^ref-27)</sup>
->   - [Geometric](geometric%20distribution.md)<sup>[\[27\]](#^ref-27)</sup> / Notation ::@:: $X\sim \mathrm {Geometric} (p)$ \(shifted\)
->   - [Geometric](geometric%20distribution.md)<sup>[\[27\]](#^ref-27)</sup> / Mean E\(X\) ::@:: $\sum _{i=1}^{\infty }ip(1-p)^{i-1}={\frac {1}{p} }$ \(unshifted: $\frac {1 - p} p$\)
+>     - [Geometric](geometric%20distribution.md)<sup>[\[27\]](#^ref-27)</sup> / Notation ::@:: $X\sim \mathrm {Geometric} (p)$ \(shifted\)
+>     - [Geometric](geometric%20distribution.md)<sup>[\[27\]](#^ref-27)</sup> / Mean E\(X\) ::@:: $\sum _{i=1}^{\infty }ip(1-p)^{i-1}={\frac {1}{p} }$ \(unshifted: $\frac {1 - p} p$\)
 > - [Uniform](continuous%20uniform%20distribution.md)<sup>[\[28\]](#^ref-28)</sup>
->   - [Uniform](continuous%20uniform%20distribution.md)<sup>[\[28\]](#^ref-28)</sup> / Notation ::@:: $X\sim U(a,b)$
->   - [Uniform](continuous%20uniform%20distribution.md)<sup>[\[28\]](#^ref-28)</sup> / Mean E\(X\) ::@:: $\int _{a}^{b}{\frac {x}{b-a} }\,dx={\frac {a+b}{2} }$
+>     - [Uniform](continuous%20uniform%20distribution.md)<sup>[\[28\]](#^ref-28)</sup> / Notation ::@:: $X\sim U(a,b)$
+>     - [Uniform](continuous%20uniform%20distribution.md)<sup>[\[28\]](#^ref-28)</sup> / Mean E\(X\) ::@:: $\int _{a}^{b}{\frac {x}{b-a} }\,dx={\frac {a+b}{2} }$
 > - [Exponential](exponential%20distribution.md)<sup>[\[29\]](#^ref-29)</sup>
->   - [Exponential](exponential%20distribution.md)<sup>[\[29\]](#^ref-29)</sup> / Notation ::@:: $X\sim \exp(\lambda )$
->   - [Exponential](exponential%20distribution.md)<sup>[\[29\]](#^ref-29)</sup> / Mean E\(X\) ::@:: $\int _{0}^{\infty }\lambda xe^{-\lambda x}\,dx={\frac {1}{\lambda } }$
+>     - [Exponential](exponential%20distribution.md)<sup>[\[29\]](#^ref-29)</sup> / Notation ::@:: $X\sim \exp(\lambda )$
+>     - [Exponential](exponential%20distribution.md)<sup>[\[29\]](#^ref-29)</sup> / Mean E\(X\) ::@:: $\int _{0}^{\infty }\lambda xe^{-\lambda x}\,dx={\frac {1}{\lambda } }$
 > - [Normal](normal%20distribution.md)<sup>[\[30\]](#^ref-30)</sup>
->   - [Normal](normal%20distribution.md)<sup>[\[30\]](#^ref-30)</sup> / Notation ::@:: $X\sim N(\mu ,\sigma ^{2})$
->   - [Normal](normal%20distribution.md)<sup>[\[30\]](#^ref-30)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\sqrt {2\pi \sigma ^{2} } } }\int _{-\infty }^{\infty }x\,e^{-{\frac {1}{2} }\left({\frac {x-\mu }{\sigma } }\right)^{2} }\,dx=\mu$
+>     - [Normal](normal%20distribution.md)<sup>[\[30\]](#^ref-30)</sup> / Notation ::@:: $X\sim N(\mu ,\sigma ^{2})$
+>     - [Normal](normal%20distribution.md)<sup>[\[30\]](#^ref-30)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\sqrt {2\pi \sigma ^{2} } } }\int _{-\infty }^{\infty }x\,e^{-{\frac {1}{2} }\left({\frac {x-\mu }{\sigma } }\right)^{2} }\,dx=\mu$
 > - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup>
->   - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup> / Notation ::@:: $X\sim N(0,1)$
->   - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\sqrt {2\pi } } }\int _{-\infty }^{\infty }xe^{-x^{2}/2}\,dx=0$
+>     - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup> / Notation ::@:: $X\sim N(0,1)$
+>     - [Standard Normal](normal%20distribution.md#standard%20normal%20distribution)<sup>[\[31\]](#^ref-31)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\sqrt {2\pi } } }\int _{-\infty }^{\infty }xe^{-x^{2}/2}\,dx=0$
 > - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup>
->   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Notation ::@:: $X\sim \mathrm {Par} (\alpha ,k)$
->   - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Mean E\(X\) ::@:: $\int _{k}^{\infty }\alpha k^{\alpha }x^{-\alpha }\,dx={\begin{cases}{\frac {\alpha k}{\alpha -1} }&{\text{if  } }\alpha >1\\\infty &{\text{if } }0<\alpha \leq 1\end{cases} }$
+>     - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Notation ::@:: $X\sim \mathrm {Par} (\alpha ,k)$
+>     - [Pareto](Pareto%20distribution.md)<sup>[\[32\]](#^ref-32)</sup> / Mean E\(X\) ::@:: $\int _{k}^{\infty }\alpha k^{\alpha }x^{-\alpha }\,dx={\begin{cases}{\frac {\alpha k}{\alpha -1} }&{\text{if  } }\alpha >1\\\infty &{\text{if } }0<\alpha \leq 1\end{cases} }$
 > - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup>
->   - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Notation ::@:: $X\sim \mathrm {Cauchy} (x_{0},\gamma )$
->   - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\pi } }\int _{-\infty }^{\infty }{\frac {\gamma x}{(x-x_{0})^{2}+\gamma ^{2} } }\,dx$ is [undefined](indeterminate%20form.md)
+>     - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Notation ::@:: $X\sim \mathrm {Cauchy} (x_{0},\gamma )$
+>     - [Cauchy](Cauchy%20distribution.md)<sup>[\[33\]](#^ref-33)</sup> / Mean E\(X\) ::@:: ${\frac {1}{\pi } }\int _{-\infty }^{\infty }{\frac {\gamma x}{(x-x_{0})^{2}+\gamma ^{2} } }\,dx$ is [undefined](indeterminate%20form.md)
 
 ## properties
 
@@ -235,9 +235,9 @@ Analogously, for {@{general sequence of random variables $\{Y_{n}:n\geq 0\}$}@},
 - {@{[Fatou's lemma](Fatou's%20lemma.md)}@}: Let {@{$\{X_{n}\geq 0:n\geq 0\}$ be a sequence of non-negative random variables}@}. Fatou's lemma states that {@{$$\operatorname {E} [\liminf _{n}X_{n}]\leq \liminf _{n}\operatorname {E} [X_{n}].$$}@} \(annotation: Intuitively, this is because {@{taking the infimum directly makes it sensitive to "noise", so the infimum is more likely to be lower}@}, considering the definition of infimum {@{requires being less than or equal to all values after a certain point}@}, which includes {@{the "noise"}@}. {@{Taking the infimum after taking the expectation}@} {@{smoothens out this "noise"}@}.\) <p> __Corollary.__ Let {@{$X_{n}\geq 0$ with $\operatorname {E} [X_{n}]\leq C$ for all $n\geq 0$. If $X_{n}\to X$ \(a.s\), then $\operatorname {E} [X]\leq C$}@}. <p> __Proof__ is by {@{observing that $X=\liminf _{n}X_{n}$ \(a.s.\) \(annotation: because $X = \lim_n X_n$ \(a.s.\)\)}@} and {@{applying Fatou's lemma}@}.
 
 - {@{[Dominated convergence theorem](dominated%20convergence%20theorem.md)}@}: Let {@{$\{X_{n}:n\geq 0\}$ be a sequence of random variables}@}. If {@{$X_{n}\to X$ [pointwise](pointwise%20convergence.md) \(a.s.\), $|X_{n}|\leq Y\leq +\infty$ \(a.s.\), and $\operatorname {E} [Y]<\infty$}@}. Then, according to the dominated convergence theorem,
-  - \(annotation: [dominated convergence theorem](dominated%20convergence%20theorem.md) / {@{dominance}@}\) {@{$\operatorname {E} |X|\leq \operatorname {E} [Y]<\infty$}@};
-  - \(annotation: [dominated convergence theorem](dominated%20convergence%20theorem.md) / {@{convergence}@}\) {@{$\lim _{n}\operatorname {E} [X_{n}]=\operatorname {E} [X]$}@}
-  - \(annotation: [dominated convergence theorem](dominated%20convergence%20theorem.md) / {@{convergence of difference}@}\) {@{$\lim _{n}\operatorname {E} |X_{n}-X|=0.$}@}
+    - \(annotation: [dominated convergence theorem](dominated%20convergence%20theorem.md) / {@{dominance}@}\) {@{$\operatorname {E} |X|\leq \operatorname {E} [Y]<\infty$}@};
+    - \(annotation: [dominated convergence theorem](dominated%20convergence%20theorem.md) / {@{convergence}@}\) {@{$\lim _{n}\operatorname {E} [X_{n}]=\operatorname {E} [X]$}@}
+    - \(annotation: [dominated convergence theorem](dominated%20convergence%20theorem.md) / {@{convergence of difference}@}\) {@{$\lim _{n}\operatorname {E} |X_{n}-X|=0.$}@}
 
 - {@{[Uniform integrability](uniform%20integrability.md)}@}: In some cases, {@{the equality $\lim _{n}\operatorname {E} [X_{n}]=\operatorname {E} [\lim _{n}X_{n}]$ holds}@} when {@{the sequence $\{X_{n}\}$ is _uniformly integrable_}@}.
 

@@ -89,7 +89,7 @@ The above is {@{a sufficient definition for a [one-port](one-port.md) network}@}
 
 - Impedances in [series](series%20and%20parallel%20circuits.md#series%20circuits): ::@:: $$Z_{\mathrm {eq} }=Z_{1}+Z_{2}+\,\cdots \,+Z_{n}.$$
 - Impedances in [parallel](series%20and%20parallel%20circuits.md#parallel%20circuits): ::@:: $${\frac {1}{Z_{\mathrm {eq} } } }={\frac {1}{Z_{1} } }+{\frac {1}{Z_{2} } }+\,\cdots \,+{\frac {1}{Z_{n} } }.$$
-  - The above simplified for only two impedances in parallel: ::@:: $$Z_{\mathrm {eq} }={\frac {Z_{1}Z_{2} }{Z_{1}+Z_{2} } }.$$
+    - The above simplified for only two impedances in parallel: ::@:: $$Z_{\mathrm {eq} }={\frac {Z_{1}Z_{2} }{Z_{1}+Z_{2} } }.$$
 
 ### delta-wye transformation
 

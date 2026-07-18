@@ -41,7 +41,7 @@ __No late submission will be accepted.__
 ## submission
 
 - file: [`submission.7z`](submission.7z)
-  - name: `comp3111h-project-main.zip`
-  - source
-    - <https://github.com/cx0014/comp3111h-project.git>
-    - <https://github.com/polyipseity/hkust-comp-3111h.git>
+    - name: `comp3111h-project-main.zip`
+    - source
+        - <https://github.com/cx0014/comp3111h-project.git>
+        - <https://github.com/polyipseity/hkust-comp-3111h.git>

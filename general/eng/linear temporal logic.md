@@ -86,34 +86,34 @@ Some authors also define {@{a _weak until_ binary operator, denoted __W__}@}, wi
 >
 > - [unary operators](unary%20operation.md) ::@:: - __X__ _φ_ <br/> - __F__ _φ_ <br/> - __G__ _φ_
 > - __X__ _φ_
->   - __X__ _φ_ / symbolic ::@:: $\bigcirc \varphi$
->   - __X__ _φ_ / explanation ::@:: ne<!-- markdown separator -->__X__<!-- markdown separator -->t: _φ_ has to hold at the next state.
->   - __X__ _φ_ / diagram ::@:: ![LTI next diagram](../../archives/Wikimedia%20Commons/Ltlnext.svg)
+>     - __X__ _φ_ / symbolic ::@:: $\bigcirc \varphi$
+>     - __X__ _φ_ / explanation ::@:: ne<!-- markdown separator -->__X__<!-- markdown separator -->t: _φ_ has to hold at the next state.
+>     - __X__ _φ_ / diagram ::@:: ![LTI next diagram](../../archives/Wikimedia%20Commons/Ltlnext.svg)
 > - __F__ _φ_
->   - __F__ _φ_ / symbolic ::@:: $\Diamond \varphi$
->   - __F__ _φ_ / explanation ::@:: __F__<!-- markdown separator -->inally: _φ_ eventually has to hold \(somewhere on the subsequent path\).
->   - __F__ _φ_ / diagram ::@:: ![LTI finally diagram](../../archives/Wikimedia%20Commons/Ltleventually.svg)
+>     - __F__ _φ_ / symbolic ::@:: $\Diamond \varphi$
+>     - __F__ _φ_ / explanation ::@:: __F__<!-- markdown separator -->inally: _φ_ eventually has to hold \(somewhere on the subsequent path\).
+>     - __F__ _φ_ / diagram ::@:: ![LTI finally diagram](../../archives/Wikimedia%20Commons/Ltleventually.svg)
 > - __G__ _φ_
->   - __G__ _φ_ / symbolic ::@:: $\Box \varphi$
->   - __G__ _φ_ / explanation ::@:: __G__<!-- markdown separator -->lobally: _φ_ has to hold on the entire subsequent path.
->   - __G__ _φ_ / diagram ::@:: ![LTI globally diagram](../../archives/Wikimedia%20Commons/Ltlalways.svg)
+>     - __G__ _φ_ / symbolic ::@:: $\Box \varphi$
+>     - __G__ _φ_ / explanation ::@:: __G__<!-- markdown separator -->lobally: _φ_ has to hold on the entire subsequent path.
+>     - __G__ _φ_ / diagram ::@:: ![LTI globally diagram](../../archives/Wikimedia%20Commons/Ltlalways.svg)
 > - [binary operators](binary%20operation.md) ::@:: - _ψ_ __U__ _φ_ <br/> - _ψ_ __R__ _φ_ <br/> - _ψ_ __W__ _φ_ <br/> - _ψ_ __M__ _φ_
 > - _ψ_ __U__ _φ_
->   - _ψ_ __U__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {U} }\,\varphi$
->   - _ψ_ __U__ _φ_ / explanation ::@:: __U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position.
->   - _ψ_ __U__ _φ_ / diagram ::@:: ![LTI until diagram](../../archives/Wikimedia%20Commons/Ltluntil.svg)
+>     - _ψ_ __U__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {U} }\,\varphi$
+>     - _ψ_ __U__ _φ_ / explanation ::@:: __U__<!-- markdown separator -->ntil: _ψ_ has to hold _at least_ until _φ_ becomes true, which must hold at the current or a future position.
+>     - _ψ_ __U__ _φ_ / diagram ::@:: ![LTI until diagram](../../archives/Wikimedia%20Commons/Ltluntil.svg)
 > - _ψ_ __R__ _φ_
->   - _ψ_ __R__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {R} }\,\varphi$
->   - _ψ_ __R__ _φ_ / explanation ::@:: __R__<!-- markdown separator -->elease: _φ_ has to be true until and including the point where _ψ_ first becomes true; if _ψ_ never becomes true, _φ_ must remain true forever.
->   - _ψ_ __R__ _φ_ / diagram ::@:: ![LTI release diagram with release](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <p> ![LTI release diagram without release](../../archives/Wikimedia%20Commons/Ltlrelease-nostop.svg)
+>     - _ψ_ __R__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {R} }\,\varphi$
+>     - _ψ_ __R__ _φ_ / explanation ::@:: __R__<!-- markdown separator -->elease: _φ_ has to be true until and including the point where _ψ_ first becomes true; if _ψ_ never becomes true, _φ_ must remain true forever.
+>     - _ψ_ __R__ _φ_ / diagram ::@:: ![LTI release diagram with release](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg) <p> ![LTI release diagram without release](../../archives/Wikimedia%20Commons/Ltlrelease-nostop.svg)
 > - _ψ_ __W__ _φ_
->   - _ψ_ __W__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {W} }\,\varphi$
->   - _ψ_ __W__ _φ_ / explanation ::@:: __W__<!-- markdown separator -->eak until: _ψ_ has to hold _at least_ until _φ_<!-- markdown separator -->; if _φ_ never becomes true, _ψ_ must remain true forever.
->   - _ψ_ __W__ _φ_ / diagram ::@:: ![LTI weak until diagram with until](../../archives/Wikimedia%20Commons/Ltluntil.svg) <p> ![LTI weak until diagram without until](../../archives/Wikimedia%20Commons/Ltlweakuntil2.svg)
+>     - _ψ_ __W__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {W} }\,\varphi$
+>     - _ψ_ __W__ _φ_ / explanation ::@:: __W__<!-- markdown separator -->eak until: _ψ_ has to hold _at least_ until _φ_<!-- markdown separator -->; if _φ_ never becomes true, _ψ_ must remain true forever.
+>     - _ψ_ __W__ _φ_ / diagram ::@:: ![LTI weak until diagram with until](../../archives/Wikimedia%20Commons/Ltluntil.svg) <p> ![LTI weak until diagram without until](../../archives/Wikimedia%20Commons/Ltlweakuntil2.svg)
 > - _ψ_ __M__ _φ_
->   - _ψ_ __M__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {M} }\,\varphi$
->   - _ψ_ __M__ _φ_ / explanation ::@:: Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position.
->   - _ψ_ __M__ _φ_ / diagram ::@:: ![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg)
+>     - _ψ_ __M__ _φ_ / symbolic ::@:: $\psi \;{\mathcal {M} }\,\varphi$
+>     - _ψ_ __M__ _φ_ / explanation ::@:: Strong release: _φ_ has to be true until and including the point where _ψ_ first becomes true, which must hold at the current or a future position.
+>     - _ψ_ __M__ _φ_ / diagram ::@:: ![LTI strong release diagram](../../archives/Wikimedia%20Commons/Ltlrelease-stop.svg)
 
 ## equivalences
 

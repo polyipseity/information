@@ -81,8 +81,8 @@ For {@{[liquid assets](market%20liquidity.md) \("tradeables"\)}@}, {@{spot–for
 - \(annotation: income\) ::@:: pays income, and if so whether this is on a discrete or continuous basis
 - \(annotation: storage\) ::@:: incurs storage costs
 - \(annotation: use\) ::@:: is regarded as \(annotation: investment asset, consumption asset\)
-  - an _investment asset_, ::@:: i.e. an asset held primarily for investment purposes \(e.g. gold, financial securities\);
-  - or a _consumption asset_, ::@:: i.e. an asset held primarily for consumption \(e.g. oil, iron ore etc.\)
+    - an _investment asset_, ::@:: i.e. an asset held primarily for investment purposes \(e.g. gold, financial securities\);
+    - or a _consumption asset_, ::@:: i.e. an asset held primarily for consumption \(e.g. oil, iron ore etc.\)
 
 ### investment assets
 

@@ -53,7 +53,7 @@ When coupled with {@{a complete [search algorithm](search%20algorithm.md)}@}, th
 
 - All sentences in the knowledge base and the _negation_ of the sentence to be proved \(the _conjecture_\) ::@:: are conjunctively connected.
 - The resulting sentence ::@:: is transformed into a conjunctive normal form with the conjuncts viewed as elements in a set, _S_, of clauses.<sup>[\[4\]](#^ref-4)</sup>
-  - For example, $(A_{1}\lor A_{2})\land (B_{1}\lor B_{2}\lor B_{3})\land (C_{1})$ ::@:: gives rise to the set $S=\{A_{1}\lor A_{2},B_{1}\lor B_{2}\lor B_{3},C_{1}\}$.
+    - For example, $(A_{1}\lor A_{2})\land (B_{1}\lor B_{2}\lor B_{3})\land (C_{1})$ ::@:: gives rise to the set $S=\{A_{1}\lor A_{2},B_{1}\lor B_{2}\lor B_{3},C_{1}\}$.
 - The resolution rule is applied to {@{all possible pairs of clauses that contain complementary literals}@}. After {@{each application of the resolution rule}@}, the resulting sentence is {@{simplified by removing repeated literals}@}. If {@{the clause contains complementary literals}@}, it is {@{discarded \(as a tautology\)}@}. If {@{not, and if it is not yet present in the clause set _S_}@}, it is {@{added to _S_, and is considered for further resolution inferences}@}.
 - If after {@{applying a resolution rule}@} {@{the _empty clause_ is derived}@}, {@{the original formula is unsatisfiable \(or _contradictory_\)}@}, and hence it can be concluded that {@{the initial conjecture [follows from](logical%20consequence.md) the axioms}@}.
 - If, on the other hand, {@{the empty clause cannot be derived}@}, and {@{the resolution rule cannot be applied to derive any more new clauses}@}, the conjecture is {@{not a theorem of the original knowledge base}@}.

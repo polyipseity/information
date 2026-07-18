@@ -63,14 +63,14 @@ Another special case occurs when {@{both $S$ and $T$ are functors with domain ${
 For {@{each comma category}@} there are {@{forgetful functors from it}@}. (annotation: they are {@{the domain, codomain, and arrow functor}@})
 
 - Domain functor, ::@:: $S\downarrow T\to {\mathcal {A} }$, which maps:
-  - (annotation: domain functor) objects: ::@:: $(A,B,h)\mapsto A$;
-  - (annotation: domain functor) morphisms: ::@:: $(f,g)\mapsto f$;
+    - (annotation: domain functor) objects: ::@:: $(A,B,h)\mapsto A$;
+    - (annotation: domain functor) morphisms: ::@:: $(f,g)\mapsto f$;
 - Codomain functor, ::@:: $S\downarrow T\to {\mathcal {B} }$, which maps:
-  - (annotation: codomain functor) objects: ::@:: $(A,B,h)\mapsto B$;
-  - (annotation: codomain functor) morphisms: ::@:: $(f,g)\mapsto g$.
+    - (annotation: codomain functor) objects: ::@:: $(A,B,h)\mapsto B$;
+    - (annotation: codomain functor) morphisms: ::@:: $(f,g)\mapsto g$.
 - Arrow functor, ::@:: $S\downarrow T\to {\mathcal {C} }^{\rightarrow }$, which maps:
-  - (annotation: arrow functor) objects: ::@:: $(A,B,h)\mapsto h$;
-  - (annotation: arrow functor) morphisms: ::@:: $(f,g)\mapsto (Sf,Tg)$;
+    - (annotation: arrow functor) objects: ::@:: $(A,B,h)\mapsto h$;
+    - (annotation: arrow functor) morphisms: ::@:: $(f,g)\mapsto (Sf,Tg)$;
 
 ## examples of use
 

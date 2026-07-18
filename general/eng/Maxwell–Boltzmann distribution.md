@@ -26,8 +26,8 @@ tags:
 > where
 >
 > - [function](function%20(mathematics).md) properties
->   - {@{$f(\vec{v})$}@} is {@{a [probability density function](probability%20density%20function.md)}@}, showing {@{the fraction of [particles](particle.md) within an infinitesimal element of the three-dimensional velocity space $\mathrm{d}^3\vec{v}$}@} centered on {@{a velocity vector $\vec{v}$}@}, {@{properly normalized}@} such that {@{$\int f(\vec{v}) \,\mathrm{d}^3\vec{v}$ over all velocity vectors is unity}@}
->   - {@{$f(v)$}@} is {@{another [probability density function](probability%20density%20function.md)}@}, showing {@{the density of [particles](particle.md) with velocity $v$}@}, {@{properly normalized}@} such that {@{$\int_0^\infty f(v) \,\mathrm{d}v$ is unity}@}
+>     - {@{$f(\vec{v})$}@} is {@{a [probability density function](probability%20density%20function.md)}@}, showing {@{the fraction of [particles](particle.md) within an infinitesimal element of the three-dimensional velocity space $\mathrm{d}^3\vec{v}$}@} centered on {@{a velocity vector $\vec{v}$}@}, {@{properly normalized}@} such that {@{$\int f(\vec{v}) \,\mathrm{d}^3\vec{v}$ over all velocity vectors is unity}@}
+>     - {@{$f(v)$}@} is {@{another [probability density function](probability%20density%20function.md)}@}, showing {@{the density of [particles](particle.md) with velocity $v$}@}, {@{properly normalized}@} such that {@{$\int_0^\infty f(v) \,\mathrm{d}v$ is unity}@}
 > - system properties: $m$ is {@{the [particle](particle.md) [mass](mass.md)}@} and $T$ is {@{the [thermodynamic temperature](thermodynamic%20temperature.md)}@}
 > - {@{$k_\text{B} = 1.380\,649 \times 10^{−23} \mathrm{\ J \cdot K^{−1} }$}@} is {@{the [Boltzmann constant](Boltzmann%20constant.md)}@}
 

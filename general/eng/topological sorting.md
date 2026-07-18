@@ -301,11 +301,11 @@ Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{t
 > - Let {@{_d_ be an array of the same length as _V_}@}; this will {@{hold the shortest-path distances from _s_}@}. Set {@{_d_\[_s_\] = 0, all other _d_\[_u_\] = ∞}@}.
 > - Let {@{_p_ be an array of the same length as _V_, with all elements initialized to nil}@}. Each _p_\[_u_\] will {@{hold the predecessor of _u_ in the shortest path from _s_ to _u_}@}.
 > - Loop over {@{the vertices _u_ as ordered in _V_, starting from _s_}@}:
->   - For {@{each vertex _v_ directly following _u_ \(i.e., there exists an edge from _u_ to _v_\)}@}:
->     - Let {@{_w_ be the weight of the edge from _u_ to _v_}@}.
->     - Relax {@{the edge: if _d_\[_v_\] \> _d_\[_u_\] + _w_}@}, set
->       - {@{_d_\[_v_\] ← _d_\[_u_\] + _w_}@},
->       - {@{_p_\[_v_\] ← _u_}@}.
+>     - For {@{each vertex _v_ directly following _u_ \(i.e., there exists an edge from _u_ to _v_\)}@}:
+>         - Let {@{_w_ be the weight of the edge from _u_ to _v_}@}.
+>         - Relax {@{the edge: if _d_\[_v_\] \> _d_\[_u_\] + _w_}@}, set
+>             - {@{_d_\[_v_\] ← _d_\[_u_\] + _w_}@},
+>             - {@{_p_\[_v_\] ← _u_}@}.
 
 Equivalently:
 
@@ -314,11 +314,11 @@ Equivalently:
 > - Let {@{_d_ be an array of the same length as _V_}@}; this will {@{hold the shortest-path distances from _s_}@}. Set {@{_d_\[_s_\] = 0, all other _d_\[_u_\] = ∞}@}.
 > - Let {@{_p_ be an array of the same length as _V_, with all elements initialized to nil}@}. Each _p_\[_u_\] will {@{hold the predecessor of _u_ in the shortest path from _s_ to _u_}@}.
 > - Loop over {@{the vertices _u_ as ordered in _V_, starting from _s_}@}:
->   - For {@{each vertex _v_ into _u_ \(i.e., there exists an edge from _v_ to _u_\)}@}:
->     - Let {@{_w_ be the weight of the edge from _v_ to _u_}@}.
->     - Relax {@{the edge: if _d_\[_u_\] \> _d_\[_v_\] + _w_}@}, set
->       - {@{_d_\[_u_\] ← _d_\[_v_\] + _w_}@},
->       - {@{_p_\[_u_\] ← _v_}@}.
+>     - For {@{each vertex _v_ into _u_ \(i.e., there exists an edge from _v_ to _u_\)}@}:
+>         - Let {@{_w_ be the weight of the edge from _v_ to _u_}@}.
+>         - Relax {@{the edge: if _d_\[_u_\] \> _d_\[_v_\] + _w_}@}, set
+>             - {@{_d_\[_u_\] ← _d_\[_v_\] + _w_}@},
+>             - {@{_p_\[_u_\] ← _v_}@}.
 
 On {@{a graph of _n_ vertices and _m_ edges}@}, this algorithm {@{takes Θ\(_n_ + _m_\), i.e., [linear](time%20complexity.md#linear%20time), time}@}.<sup>[\[3\]](#^ref-3)</sup>
 

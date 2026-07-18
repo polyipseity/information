@@ -420,9 +420,9 @@ The notion of {@{normal distribution}@}, being {@{one of the most important dist
 - {@{[Matrix normal distribution](matrix%20normal%20distribution.md)}@} describes {@{the case of normally distributed matrices}@}.
 
 - {@{[Gaussian processes](Gaussian%20process.md)}@} are {@{the normally distributed [stochastic processes](stochastic%20process.md)}@}. These can be viewed as {@{elements of some infinite-dimensional [Hilbert space](Hilbert%20space.md) _H_}@}, and thus are {@{the analogues of multivariate normal vectors for the case _k_ = ∞}@}. {@{A random element _h_ ∈ _H_ is said to be normal}@} if {@{for any constant _a_ ∈ _H_ the [scalar product](scalar%20product.md) \(_a_, _h_\) has a \(univariate\) normal distribution}@}. \(annotation: Just as {@{any finite linear combination of points from a Gaussian process}@} must be {@{normally distributed}@}, {@{the inner product $\langle a, h \rangle$}@} is {@{also normally distributed}@} because it represents {@{the continuous, infinite-dimensional analogue of such a weighted sum}@}.\) {@{The variance structure of such Gaussian random element}@} can be described in terms of {@{the linear _covariance operator_ _K_: _H_ → _H_}@}. \(annotation: {@{The covariance operator}@} is used as follows: {@{$\operatorname{Var}(\langle a, h \rangle) = \langle K(a), a \rangle$}@}.\) {@{Several Gaussian processes became popular enough}@} to {@{have their own names}@}: (annotation: 3 items: {@{Brownian motion (Wiener process), Brownian bridge, Ornstein–Uhlenbeck process}@})
-  - [Brownian motion](Wiener%20process.md);
-  - [Brownian bridge](Brownian%20bridge.md); and
-  - [Ornstein–Uhlenbeck process](Ornstein–Uhlenbeck%20process.md).
+    - [Brownian motion](Wiener%20process.md);
+    - [Brownian bridge](Brownian%20bridge.md); and
+    - [Ornstein–Uhlenbeck process](Ornstein–Uhlenbeck%20process.md).
 
 - {@{[Gaussian q-distribution](Gaussian%20q-distribution.md)}@} is {@{an abstract mathematical construction}@} that represents {@{a [q-analogue](q-analogue.md) of the normal distribution}@}.
 
@@ -592,8 +592,8 @@ For {@{a set of [i.i.d.](i.i.d..md) normally distributed data points __X__ of si
 {@{_Approximately_ normal distributions}@} occur in {@{many situations, as explained by the [central limit theorem](central%20limit%20theorem.md)}@}. When the outcome is produced {@{by many small effects acting _additively and independently_}@}, its {@{distribution will be close to normal}@}. {@{The normal approximation will not be valid}@} if the effects {@{act multiplicatively \(instead of additively\)}@}, or if there is a single {@{external influence that has a considerably larger magnitude than the rest of the effects}@}.
 
 - In {@{counting problems}@}, where {@{the central limit theorem includes a discrete-to-continuum approximation}@} and where {@{[infinitely divisible](infinitely%20divisible.md) and [decomposable](indecomposable%20distribution.md) distributions}@} are involved, such as (annotation: 2 items: {@{binomial random variables, Poisson random variables}@})
-  - {@{[Binomial random variables](binomial%20distribution.md)}@}, {@{associated with binary response variables}@};
-  - {@{[Poisson random variables](Poisson%20random%20variables.md)}@}, {@{associated with rare events}@};
+    - {@{[Binomial random variables](binomial%20distribution.md)}@}, {@{associated with binary response variables}@};
+    - {@{[Poisson random variables](Poisson%20random%20variables.md)}@}, {@{associated with rare events}@};
 - {@{[Thermal radiation](thermal%20radiation.md)}@} has {@{a [Bose–Einstein](Bose–Einstein%20statistics.md) distribution on very short time scales}@}, and {@{a normal distribution on longer timescales}@} due to {@{the central limit theorem}@}.
 
 ### assumed normality
@@ -611,9 +611,9 @@ For {@{a set of [i.i.d.](i.i.d..md) normally distributed data points __X__ of si
 There are {@{statistical methods}@} to {@{empirically test that assumption}@}; see {@{the above [Normality tests](#normality%20tests)}@} section.
 
 - In {@{[biology](biology.md)}@}, {@{the _logarithm_ of various variables}@} tend to {@{have a normal distribution}@}, that is, they tend to {@{have a [log-normal distribution](log-normal%20distribution.md)}@} \(after {@{separation on male/female subpopulations}@}\), with examples including:
-  - Measures of {@{size of living tissue}@} \({@{length, height, skin area, weight}@}\);<sup>[\[59\]](#^ref-59)</sup>
-  - {@{The _length_ of _inert_ appendages}@} \({@{hair, claws, nails, teeth}@}\) of biological specimens, {@{_in the direction of growth_}@}; presumably {@{the thickness of tree bark}@} also falls under this category;
-  - Certain {@{physiological measurements}@}, such as {@{blood pressure of adult humans}@}.
+    - Measures of {@{size of living tissue}@} \({@{length, height, skin area, weight}@}\);<sup>[\[59\]](#^ref-59)</sup>
+    - {@{The _length_ of _inert_ appendages}@} \({@{hair, claws, nails, teeth}@}\) of biological specimens, {@{_in the direction of growth_}@}; presumably {@{the thickness of tree bark}@} also falls under this category;
+    - Certain {@{physiological measurements}@}, such as {@{blood pressure of adult humans}@}.
 
 - In {@{finance, in particular the [Black–Scholes model](Black–Scholes%20model.md)}@}, {@{changes in the _logarithm_ of exchange rates, price indices, and stock market indices}@} are {@{assumed normal}@} \(these variables behave like {@{[compound interest](compound%20interest.md), not like simple interest}@}, and so are {@{multiplicative}@}\). {@{Some mathematicians such as [Benoit Mandelbrot](Benoit%20Mandelbrot.md)}@} have argued that {@{[log-Levy distributions](Levy%20skew%20alpha-stable%20distribution.md)}@}, which {@{possess [heavy tails](heavy%20tails.md), would be a more appropriate model}@}, in particular for {@{the analysis for [stock market crashes](stock%20market%20crash.md)}@}. The use of {@{the assumption of normal distribution occurring in financial models}@} has also been criticized by {@{[Nassim Nicholas Taleb](Nassim%20Nicholas%20Taleb.md) in his works}@}.
 
@@ -651,11 +651,11 @@ In {@{computer simulations, especially in applications of the [Monte-Carlo metho
 - {@{The [Marsaglia polar method](Marsaglia%20polar%20method.md)}@} is {@{a modification of the Box–Muller method}@} which {@{does not require computation of the sine and cosine functions}@}. In this method, _U_ and _V_ are {@{drawn from the uniform \(−1,1\) distribution}@}, and then {@{_S_ = _U_<sup>2</sup> + _V_<sup>2</sup> is computed}@}. If {@{_S_ is greater or equal to 1}@}, then {@{the method starts over}@}, otherwise {@{the two quantities $$X=U{\sqrt {\frac {-2\ln S}{S} } },\qquad Y=V{\sqrt {\frac {-2\ln S}{S} } }$$}@} are returned. Again, _X_ and _Y_ are {@{independent, standard normal random variables}@}. (annotation: Intuitively, to determine {@{the random phase without using trigonometric functions}@}, you can {@{draw a random point in the unit circle}@}. First, draw {@{a random point $(U, V)$ in the square \(−1,1\) × \(−1,1\)}@}, and if {@{the point is outside the unit disk}@}, then {@{start over}@}. Otherwise, {@{the angle of the point with respect to the origin}@} will be {@{distributed uniformly around the circle}@}. Divide both {@{the x and y coordinates of the point by the radius of the point $\sqrt S$}@} to get {@{the sine and cosine of the angle}@}. Now, note {@{the radius of the point $\sqrt S$}@} follows {@{the distribution of the radius of a point uniformly distributed in the unit disk}@}, which is {@{a distribution with the cumulative distribution function $F_{\sqrt S}(r) = r^2$}@}. Taking {@{its square $S$}@} – {@{$F_S(s) = P(S \le s) = P\!\left(\sqrt S \le \sqrt s\right) = F_{\sqrt S}(\sqrt s) = s$}@} noting that {@{we require $\sqrt S \ge 0$}@} – it follows that {@{the distribution of $\sqrt S$ is uniform on \(0,1\)}@}. Finally, as before, multiply by {@{the radius of the point in the 2D plane $\sqrt{-2 \ln S}$}@} to get {@{the normally distributed random variable}@}.)
 
 - {@{The Ratio method}@}<sup>[\[65\]](#^ref-65)</sup> is {@{a rejection method}@}. {@{The algorithm proceeds}@} as follows:
-  - Generate {@{two independent uniform deviates _U_ and _V_ (annotation: on \(0, 1\))}@};
-  - Compute {@{$X = \sqrt{8 / e} (V - 0.5) / U$}@};
-  - {@{Optional}@}: if {@{_X_<sup>2</sup> ≤ 5 − 4<!-- markdown separator -->_e_<sup>1/4</sup>_U_}@} then {@{accept _X_ and terminate algorithm}@};
-  - {@{Optional}@}: if {@{_X_<sup>2</sup> ≥ 4<!-- markdown separator -->_e_<sup>−1.35</sup>/<!-- markdown separator -->_U_ + 1.4}@} then {@{reject _X_ and start over from step 1}@};
-  - If {@{_X_<sup>2</sup> ≤ −4 ln _U_}@} then {@{accept _X_, otherwise start over the algorithm}@}.
+    - Generate {@{two independent uniform deviates _U_ and _V_ (annotation: on \(0, 1\))}@};
+    - Compute {@{$X = \sqrt{8 / e} (V - 0.5) / U$}@};
+    - {@{Optional}@}: if {@{_X_<sup>2</sup> ≤ 5 − 4<!-- markdown separator -->_e_<sup>1/4</sup>_U_}@} then {@{accept _X_ and terminate algorithm}@};
+    - {@{Optional}@}: if {@{_X_<sup>2</sup> ≥ 4<!-- markdown separator -->_e_<sup>−1.35</sup>/<!-- markdown separator -->_U_ + 1.4}@} then {@{reject _X_ and start over from step 1}@};
+    - If {@{_X_<sup>2</sup> ≤ −4 ln _U_}@} then {@{accept _X_, otherwise start over the algorithm}@}.
 
   {@{The two optional steps}@} allow the evaluation of {@{the logarithm in the last step to be avoided in most cases}@}. These steps can be {@{greatly improved<sup>[\[66\]](#^ref-66)</sup> so that the logarithm is rarely evaluated}@}.
 

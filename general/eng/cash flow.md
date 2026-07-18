@@ -64,11 +64,11 @@ Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used
 {@{The \(total\) net cash flow}@} of a company {@{over a period \(typically a quarter, half year, or a full year\)}@} is {@{equal to the change in cash balance over this period}@}: {@{positive if the cash balance increases \(more cash becomes available\), negative if the cash balance decreases}@}. {@{The total net cash flow for a project}@} is {@{the sum of cash flows that are classified in three areas}@}: (annotation: they are {@{operational cash flow (OCF), change in net working capital, [capital expenditure](capital%20expenditure.md)}@})
 
 - [Operational cash flows](operating%20cash%20flow.md): (annotation: Not to be confused with cash flow from operations (CFO) or operating/operational cash flow (OCF) in _accounting_!!!) ::@:: cash received or expended as a result of the company's internal business activities. Operating cash flow of a project is determined by:
-  - (annotation: OCF / incremental earnings) ::@:: OCF = incremental earnings+depreciation=\(earning before interest and tax−tax\)+depreciation
-  - (annotation: OCF / EBIT) ::@:: OCF = earning before interest and tax\*\(1−tax rate\)+ depreciation
-  - (annotation: OCF / full form) ::@:: OCF = \(revenue − cost of good sold − operating expense − depreciation\)\* \(1−tax rate\)+depreciation
-  - (annotation: OCF / depreciation shield) ::@:: OCF = \(Revenue − cost of good sold − operating expense\)\* \(1−tax rate\)+ depreciation\* \(tax rate\)
-    - Depreciation\*\(tax rate\) which locates at the end of the formula ::@:: is called depreciation shield through which we can see that there is a negative relation between depreciation and cash flow (annotation: more depreciation (more negative) means more cash flow (more positive)).
+    - (annotation: OCF / incremental earnings) ::@:: OCF = incremental earnings+depreciation=\(earning before interest and tax−tax\)+depreciation
+    - (annotation: OCF / EBIT) ::@:: OCF = earning before interest and tax\*\(1−tax rate\)+ depreciation
+    - (annotation: OCF / full form) ::@:: OCF = \(revenue − cost of good sold − operating expense − depreciation\)\* \(1−tax rate\)+depreciation
+    - (annotation: OCF / depreciation shield) ::@:: OCF = \(Revenue − cost of good sold − operating expense\)\* \(1−tax rate\)+ depreciation\* \(tax rate\)
+        - Depreciation\*\(tax rate\) which locates at the end of the formula ::@:: is called depreciation shield through which we can see that there is a negative relation between depreciation and cash flow (annotation: more depreciation (more negative) means more cash flow (more positive)).
 - Changing in net working capital: ::@:: it is the cost or revenue related to the company's short-term asset like inventory.
 - [Capital spending](capital%20expenditure.md): ::@:: this is the cost or gain related to the company's fix asset such as the cash used to buy a new equipment or the cash which is gained from selling an old equipment.
 

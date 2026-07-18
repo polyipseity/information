@@ -33,7 +33,7 @@ This tool needs to be loaded in a new browser window
 ## submission
 
 - file: [submission.pdf](submission.pdf)
-  - source: [submission.docx](submission.docx)
+    - source: [submission.docx](submission.docx)
 
 ## solution
 

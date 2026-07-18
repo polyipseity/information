@@ -31,7 +31,7 @@ tags:
 -->
 
 - 2024-11-04T18:00:00+08:00/2024-11-04T19:20:00+08:00, PT1H20M: Introduction to Green Building \(ENV\)
-  - [seminar reflection](assignments/Seminar%20Reflection%20on%202024-11-04%20[ENV]%20Introduction%20to%20Green%20Building/index.md)
+    - [seminar reflection](assignments/Seminar%20Reflection%20on%202024-11-04%20[ENV]%20Introduction%20to%20Green%20Building/index.md)
 
 <!--
 - 2024-11-15T13:30:00+08:00/2024-11-15T14:50:00+08:00. PT1H20M: Workshop: Life-Cycle Thinking - Concept and Application \(ENV\)
@@ -42,4 +42,4 @@ tags:
 ## 2025 spring
 
 - 2025-03-24T18:00:00+08:00/2025-03-24T19:20:00+08:00, PT1H20M: Ethics in Practice for Engineers \(E&P\)
-  - [seminar reflection](assignments/Seminar%20Reflection%20on%202025-03-24%20[E&P]%20Ethics%20in%20Practice%20for%20Engineers/index.md)
+    - [seminar reflection](assignments/Seminar%20Reflection%20on%202025-03-24%20[E&P]%20Ethics%20in%20Practice%20for%20Engineers/index.md)

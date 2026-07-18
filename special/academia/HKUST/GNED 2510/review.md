@@ -30,8 +30,8 @@ The course is open to all undergraduate students, with priority given to Year 2 
 least boring course
 
 - instructors
-  - SIU, Wai Sze Grace: recommended
-  - YOUSAF, Syeda Noor-ul-ain: recommended
+    - SIU, Wai Sze Grace: recommended
+    - YOUSAF, Syeda Noor-ul-ain: recommended
 - mirrors: [USTSPACE](https://ust.space/review/GNED2510/view/IjI6jpRwAxyYA9Zdq0Lt8Y6li4yRoMkk)
 - semester: 2023—24 fall
 

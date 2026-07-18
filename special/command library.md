@@ -18,8 +18,8 @@ exiftool -tagsFromFile "$input_" -all:all -extractEmbedded -FileModifyDate -over
 ```
 
 - parameters
-  - `$input_`: input filename
-  - `$output`: output filename
+    - `$input_`: input filename
+    - `$output`: output filename
 
 ## FFmpeg
 
@@ -31,11 +31,11 @@ exiftool -tagsFromFile "$input_v" -tagsFromFile "$input_a" -all:all -extractEmbe
 ```
 
 - parameters
-  - `$offset_a` = `0`: audio offset
-  - `$offset_v` = `0`: video offset
-  - `$input_a`: input audio filename
-  - `$input_v`: input video filename
-  - `$output`: output filename
+    - `$offset_a` = `0`: audio offset
+    - `$offset_v` = `0`: video offset
+    - `$input_a`: input audio filename
+    - `$input_v`: input video filename
+    - `$output`: output filename
 
 ### measure loudness
 
@@ -44,7 +44,7 @@ ffmpeg -i "$input_" -af ebur128=framelog=verbose -f null -
 ```
 
 - parameters
-  - `$input_`: input filename
+    - `$input_`: input filename
 - source: <https://superuser.com/a/1424365>
 
 ### transcode
@@ -57,9 +57,9 @@ exiftool -tagsFromFile "$input_" -all:all -extractEmbedded -FileModifyDate -over
 ```
 
 - parameters
-  - `$bitrate` = `320000`: bitrate in bits per second (bps)
-  - `$input_`: input filename
-  - `$output`: output filename without extension
+    - `$bitrate` = `320000`: bitrate in bits per second (bps)
+    - `$input_`: input filename
+    - `$output`: output filename without extension
 
 #### AV1 and Opus in WebM
 
@@ -69,12 +69,12 @@ exiftool -tagsFromFile "$input_" -all:all -extractEmbedded -FileModifyDate -over
 ```
 
 - parameters
-  - `$audio_bitrate` = `320000`: audio bitrate in bits per second (bps)
-  - `$color_range` = `pc`: `pc` or `tv`; color range
-  - `$fps` = `60`: frames per second
-  - `$input_`: input filename
-  - `$output`: output filename without extension
-  - `$pixel_format` = `yuv420p`: pixel format
+    - `$audio_bitrate` = `320000`: audio bitrate in bits per second (bps)
+    - `$color_range` = `pc`: `pc` or `tv`; color range
+    - `$fps` = `60`: frames per second
+    - `$input_`: input filename
+    - `$output`: output filename without extension
+    - `$pixel_format` = `yuv420p`: pixel format
 
 #### HEVC and AAC in QTFF
 
@@ -84,12 +84,12 @@ exiftool -tagsFromFile "$input_" -all:all -extractEmbedded -FileModifyDate -over
 ```
 
 - parameters
-  - `$audio_bitrate` = `320000`: audio bitrate in bits per second (bps)
-  - `$color_range` = `pc`: `pc` or `tv`; color range
-  - `$fps` = `60`: frames per second
-  - `$input_`: input filename
-  - `$output`: output filename without extension
-  - `$pixel_format` = `yuv420p`: pixel format
+    - `$audio_bitrate` = `320000`: audio bitrate in bits per second (bps)
+    - `$color_range` = `pc`: `pc` or `tv`; color range
+    - `$fps` = `60`: frames per second
+    - `$input_`: input filename
+    - `$output`: output filename without extension
+    - `$pixel_format` = `yuv420p`: pixel format
 
 ## GhostScript
 
@@ -100,9 +100,9 @@ gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=pdfwrite "-dPDFSETTINGS=$preset" '-dCompat
 ```
 
 - parameters
-  - `$preset` = `/default`: `/default` or (`/screen` &lt; `/ebook` &lt; `/printer` &lt; `/prepress`); distiller parameters preset
-  - `$input_`: input filename
-  - `$output`: output filename
+    - `$preset` = `/default`: `/default` or (`/screen` &lt; `/ebook` &lt; `/printer` &lt; `/prepress`); distiller parameters preset
+    - `$input_`: input filename
+    - `$output`: output filename
 - source: <https://askubuntu.com/a/256449>
 
 ### remove metadata
@@ -114,9 +114,9 @@ gs -dBATCH -dNOPAUSE -dQUIET -sDEVICE=pdfwrite -dOmitXMP=true "-sOutputFile=$out
 ```
 
 - parameters
-  - `$input_`: input filename
-  - `$output`: output filename
-  - `$pdfmark`: a filename without extension, referring to a text file containing the content specified below
+    - `$input_`: input filename
+    - `$output`: output filename
+    - `$pdfmark`: a filename without extension, referring to a text file containing the content specified below
 - source: <https://github.com/ArtifexSoftware/Ghostscript.NET/issues/117>
 
 For `pdfmark.txt`, see [`GhostScript remove metadata pdfmark.txt`](attachments/GhostScript%20remove%20metadata%20pdfmark.txt):
@@ -144,8 +144,8 @@ magick $inputs "$output.pdf"
 ```
 
 - parameters
-  - `$inputs`: input filenames
-  - `$output`: output filename without extension
+    - `$inputs`: input filenames
+    - `$output`: output filename without extension
 
 ## PowerShell
 
@@ -157,8 +157,8 @@ New-Item -ItemType Junction -Path "$from" -Value "$to" # for directory
 ```
 
 - parameters
-  - `$from`: link name
-  - `$to`: link target
+    - `$from`: link name
+    - `$to`: link target
 
 ### create symbolic link
 
@@ -167,8 +167,8 @@ New-Item -ItemType SymbolicLink -Path "$from" -Value "$to"
 ```
 
 - parameters
-  - `$from`: link name
-  - `$to`: link target
+    - `$from`: link name
+    - `$to`: link target
 
 ## rsync
 
@@ -179,5 +179,5 @@ rsync -avzuk --delete --progress "$source" "$destination"
 ```
 
 - parameters
-  - `$source`: source
-  - `$destination`: destination
+    - `$source`: source
+    - `$destination`: destination
