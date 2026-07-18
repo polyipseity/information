@@ -1647,3 +1647,71 @@ class TestFormattingAgnostic:
         assert (
             result == "\n\n- Some text that is hard-wrapped in the HTML source.\n\n\n"
         )
+
+
+class TestConverterLinkSpacing:
+    """Regression tests for link spacing preservation in image descriptions.
+
+    The ``_resolve_image_metadata`` function wraps HTML in a ``<div>`` and
+    processes it through ``WikiHtmlConverter.convert()``.  The converter must
+    preserve spaces around links — a space before a markdown link ``[...](...)``
+    must remain a space, and a space after must remain a space.  The bug was
+    that spaces around links in Commons API image descriptions were being
+    dropped, producing text like ``a[link](url)applied`` (missing spaces).
+    """
+
+    @pytest.mark.anyio
+    async def test_preserves_spaces_around_links(self) -> None:
+        """Spaces before and after a single link in image description must be preserved."""
+        soup = _mod.BeautifulSoup(
+            '<div>a <a href="https://en.wikipedia.org/wiki/Example" class="extiw" title="w:Example">link</a> applied</div>',
+            "html.parser",
+        )
+        div = soup.find("div")
+        assert isinstance(div, Tag)
+        for a in div.find_all("a"):
+            a.attrs.pop("title", None)
+        converter = _mod.WikiHtmlConverter()
+        result = await converter.convert(
+            div, out_to_archive=set(), refs=False, redirect_map={}
+        )
+        assert "a [link](https://en.wikipedia.org/wiki/Example) applied" in result
+
+    @pytest.mark.anyio
+    async def test_preserves_spaces_around_multiple_links(self) -> None:
+        """Multiple links in image description must each have correct spacing."""
+        soup = _mod.BeautifulSoup(
+            '<div>are <a href="https://en.wikipedia.org/wiki/Overtone" class="extiw">overtones</a> and <a href="https://en.wikipedia.org/wiki/Harmonic" class="extiw">harmonics</a> here</div>',
+            "html.parser",
+        )
+        div = soup.find("div")
+        assert isinstance(div, Tag)
+        for a in div.find_all("a"):
+            a.attrs.pop("title", None)
+        converter = _mod.WikiHtmlConverter()
+        result = await converter.convert(
+            div, out_to_archive=set(), refs=False, redirect_map={}
+        )
+        assert (
+            "are [overtones](https://en.wikipedia.org/wiki/Overtone) and [harmonics](https://en.wikipedia.org/wiki/Harmonic) here"
+            in result
+        )
+
+    @pytest.mark.anyio
+    async def test_preserves_spaces_link_at_start(self) -> None:
+        """A link at the start of an image description must have correct spacing after."""
+        soup = _mod.BeautifulSoup(
+            '<div><a href="https://en.wikipedia.org/wiki/Graph_of_a_function" class="extiw">Graph</a> of the normalized function</div>',
+            "html.parser",
+        )
+        div = soup.find("div")
+        assert isinstance(div, Tag)
+        for a in div.find_all("a"):
+            a.attrs.pop("title", None)
+        converter = _mod.WikiHtmlConverter()
+        result = await converter.convert(
+            div, out_to_archive=set(), refs=False, redirect_map={}
+        )
+        assert result.startswith(
+            "[Graph](https://en.wikipedia.org/wiki/Graph_of_a_function) of"
+        )
