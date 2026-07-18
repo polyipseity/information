@@ -748,7 +748,7 @@ class WikiHtmlConverter:
                 and not isinstance(ele, PreformattedString)
                 and not isinstance(ele.parent, BeautifulSoup)
             ):
-                text = escape_markdown(ele) if escape else str(ele)
+                text = str(ele)
                 # See the formatting-agnostic principle documented above.
                 # Step 1: Translate formatting whitespace (\t\n\r\x0b\x0c) to
                 # regular spaces. In HTML, any run of these characters (tabs,
@@ -770,8 +770,9 @@ class WikiHtmlConverter:
                 # preserved — it is a content-level character per HTML spec,
                 # not formatting whitespace. It will be converted to a
                 # regular space in wiki_html_to_plaintext() post-processing.
-                if text and not all(c in "\t\n\r\x0b\x0c " for c in text):
-                    return text
+                if all(c in "\t\n\r\x0b\x0c " for c in text):
+                    return ""
+                return escape_markdown(text) if escape else text
             return ""
 
         classes = frozenset(ele.get_attribute_list("class"))
