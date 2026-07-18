@@ -265,7 +265,7 @@ class TestWithCwd:
             nonlocal last_path
             last_path = path
 
-        monkeypatch.setattr("scripts.convert_wiki.chdir", tracking_chdir)
+        monkeypatch.setattr("scripts.convert_wiki.config.chdir", tracking_chdir)
         # Note: we test through the context manager but can't fully test
         # without actually changing the cwd
 
@@ -285,8 +285,8 @@ class TestWithCwd:
             """Track chdir by appending to cwds list."""
             cwds.append(path)
 
-        monkeypatch.setattr("scripts.convert_wiki.getcwd", tracking_getcwd)
-        monkeypatch.setattr("scripts.convert_wiki.chdir", tracking_chdir)
+        monkeypatch.setattr("scripts.convert_wiki.config.getcwd", tracking_getcwd)
+        monkeypatch.setattr("scripts.convert_wiki.config.chdir", tracking_chdir)
 
         try:
             with _mod._with_cwd(Path("/tmp")):  # noqa: SLF001

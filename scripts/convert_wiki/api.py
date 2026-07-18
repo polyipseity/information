@@ -18,6 +18,7 @@ from yarl import URL
 
 from . import config as _cfg
 from .types import _RedirectInfo
+from .utils import _get_image_filename
 
 """Exported names from this module."""
 __all__ = ()
@@ -224,9 +225,12 @@ async def _resolve_redirects(
                     title, _RedirectInfo(to=title, cached_at=now_iso)
                 )
 
-    resolved_cache_path = (
-        _cfg._REDIRECT_CACHE_PATH if cache_path is None else cache_path
-    )
+    if cache_path is not None:
+        resolved_cache_path = cache_path
+    else:
+        from scripts import convert_wiki as _top_mod
+
+        resolved_cache_path = _top_mod._REDIRECT_CACHE_PATH
     _save_redirect_cache(cache, cache_path=resolved_cache_path)
     return cache
 

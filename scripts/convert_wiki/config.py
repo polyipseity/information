@@ -26,14 +26,12 @@ __all__ = ()
 @contextmanager
 def _with_cwd(cwd: PathLike[str]):
     """Temporarily change the current working directory."""
-    import os
-
-    old_cwd = os.getcwd()
-    os.chdir(cwd)
+    old_cwd = getcwd()
+    chdir(cwd)
     try:
         yield
     finally:
-        os.chdir(old_cwd)
+        chdir(old_cwd)
 
 
 "Script filename."

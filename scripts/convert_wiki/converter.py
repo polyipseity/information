@@ -54,18 +54,18 @@ _COLLAPSE_EMPTY_BLOCKQUOTE_RE = re.compile(r">\n(?:>\n)+")
 #: Collapse consecutive spaces.
 _COLLAPSE_SPACES_REGEX = re.compile(r" {2,}")
 #: Captures the separator-prefixed display text in bold/italic processing.
-_PROCESS_STRINGS_BI_REGEX = re.compile(r"^([. ,:;\-]*)(.*?)([. ,:;\-]*)$")
+_PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
 #: Extract reference content from ``str.strip()``-style dumps.
 _REF_CONTENT_REGEX = re.compile(r"\[(.+?)]")
 #: Consecutive newline runs.
 _CONSECUTIVE_NEWLINES_REGEX = re.compile(r"\n\n+")
 #: Leading whitespace lines at the start of a cell.
 _CONSECUTIVE_LEADING_WHITESPACES_REGEX = re.compile(r"(?:^|\n)([ \t]+)", re.MULTILINE)
-#: ``| .. | {heading} |`` → the heading should be separated by a space.
-_TABLE_IN_TABLE_HEADER_REGEX = re.compile(r"\|(\s*\w+\s*)\|")
+#: ``| __bold__ |`` bold table headers separated by spaces.
+_TABLE_IN_TABLE_HEADER_REGEX = re.compile(r"\| (__.*?__) \|")
 #: ``|`` that shouldn't be consumed as part of a pipe table cell.
-_TABLE_IN_TABLE_LEADING_VERTICAL_REGEX = re.compile(r"\s\|\n")
-_TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX = re.compile(r"\n\|\s")
+_TABLE_IN_TABLE_LEADING_VERTICAL_REGEX = re.compile(r"\s*\|")
+_TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX = re.compile(r"\|\s*")
 #: Whitespace and separator chars for sidebar tight wrapping.
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 #: Markdown separator character set used for emphasis adjacency.
