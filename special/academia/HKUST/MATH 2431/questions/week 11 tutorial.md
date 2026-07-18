@@ -19,7 +19,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > Let $g$ be a nonnegative function and let $X$ be a random variable. Show that for every $c>0$, $$P(g(X)\ge c)\le \frac{E[g(X)]}{c}.$$
 >
-> Solution: Since {@{$g(X)\ge 0$}@}, we may estimate {@{$$E[g(X)]\ge E[\mathbf 1_{\{g(X)\ge c\}}g(X)]\ge c\,E[\mathbf 1_{\{g(X)\ge c\}}]=cP(g(X)\ge c).$$}@} Rearranging gives {@{the generalized Markov inequality}@}.
+> Solution: Since {@{$g(X)\ge 0$}@}, it {@{itself is a nonnegative random variable}@}. With this view, the above is {@{simply the Markov inequality (not to be confused with the generalized Markov inequality below)}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -58,7 +58,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > Let $X$ be a random variable and $g:\mathbb R\to[0,\infty)$ be measurable and non-decreasing, with $E[g(X)]$ finite. Show that for every $t\in\mathbb R$ with $g(t)>0$, $$P(X\ge t)\le\frac{E[g(X)]}{g(t)}.$$
 >
-> Solution: Since $g$ is {@{non-decreasing, $\{X\ge t\}\subseteq\{g(X)\ge g(t)\}$}@}. Applying {@{the generalized Markov inequality to $g(X)$}@} gives {@{$$P(X\ge t)\le P(g(X)\ge g(t))\le\frac{E[g(X)]}{g(t)}.$$}@} This is {@{Markov's inequality with a non-decreasing transform}@}, extending {@{the standard version beyond the identity function}@}.
+> Solution: Since $g$ is {@{non-decreasing, $\{X\ge t\}\subseteq\{g(X)\ge g(t)\}$}@}. Applying {@{the Markov inequality to $g(X)$}@} gives {@{$$P(X\ge t)\le P(g(X)\ge g(t))\le\frac{E[g(X)]}{g(t)}.$$}@} This is {@{Markov's inequality with a non-decreasing transform (generalized Markov inequality)}@}, extending {@{the standard version beyond the identity function}@}.
 
 <!-- markdownlint MD028 -->
 

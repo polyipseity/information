@@ -130,7 +130,7 @@ int anInteger = (int) -3.14; // the `double` of value -3.14 is explicitly conver
 assert anInteger == 3;
 ```
 
-The above explicit conversion is called {@{casting. A value can be casted to any type without any compilation error. However, only casting that makes sense will not result in a runtime error}@}:
+{@{The above explicit conversion (annotation: `(int) -3.14`)}@} is called {@{casting}@}. A value can be {@{casted to any type without any compilation error}@}. However, only {@{casting that makes sense will not result in a runtime error}@}:
 
 ```Java
 int anInteger = (int) -3.14; // no compilation error and runtime error

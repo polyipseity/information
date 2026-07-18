@@ -82,7 +82,7 @@ Other approach is {@{the German [Grenzplankostenrechnung](grenzplankostenrechnun
 
 Another accounting practice available today is {@{[resource consumption accounting](resource%20consumption%20accounting.md) (RCA)}@}. RCA has been {@{recognized by the [International Federation of Accountants](International%20Federation%20of%20Accountants.md) (IFAC) as a "sophisticated approach at the upper levels of the continuum of costing techniques"}@}<sup>[\[14\]](#^ref-14)</sup>. The approach provides {@{the ability to derive costs directly from operational resource data or to isolate and measure unused capacity costs}@}. RCA was derived by {@{taking costing characteristics of GPK, and combining the use of activity-based drivers when needed}@}, such as {@{those used in activity-based costing}@}.<sup>[\[14\]](#^ref-14)</sup>
 
-A modern approach close to accounting is {@{continuous accounting, which focuses on achieving a point-in-time close, where accounting processes typically performed at period-end are distributed evenly throughout the period}@}.
+{@{A modern approach}@} close to accounting is {@{continuous accounting, which focuses on achieving a point-in-time close}@}, where accounting processes {@{typically performed at period-end are distributed evenly throughout the period}@}.
 
 ## role within a corporation
 

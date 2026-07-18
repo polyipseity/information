@@ -61,7 +61,7 @@ Flashcards for this section are as follows:
 - convergence in $p$-th mean / definition ::@:: For $p\ge1$, $E[|Z_n|^p],E[|Z|^p]<\infty$ and $E[|Z_n-Z|^p]\to0$.
 - $p$-th mean implies convergence in probability ::@:: $P(|Z_n-Z|>\varepsilon)\le E[|Z_n-Z|^p]/\varepsilon^p\to0$ by Markov's inequality.
 - Lyapunov inequality / monotonicity ::@:: For $1\le q\le p$, $\|X\|_q\le\|X\|_p$ by Jensen, so $L^p$ convergence implies $L^q$ convergence. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- $L^p$ vs almost-sure convergence ::@:: $L^p$ convergence does not imply almost-sure convergence (typewriter sequence), but every $L^p$-convergent sequence has an a.s. convergent subsequence. If $X_n\to X$ in $L^p$, then $E[|X_n|^p]\to E[|X|^p]$.
+- $L^p$ convergence: implications for almost-sure convergence ::@:: $L^p$ convergence does __not__ imply almost-sure convergence (counterexample: typewriter sequence). However: (1) every $L^p$-convergent sequence has an almost-surely convergent subsequence; (2) $X_n\xrightarrow{L^p} X$ implies $E[|X_n|^p]\to E[|X|^p]$.
 
 ## convergence in distribution
 
@@ -108,8 +108,11 @@ Flashcards for this section are as follows:
 - smoothing effect of CDF integration ::@:: The CDF integrates the PDF/PMF, acting as a low-pass filter. Convergence in distribution is strictly weaker: $f_n(x)=1+\sin(2\pi n x)$ oscillates but $F_n\to x$ uniformly, and discrete uniforms on $\{k/n\}$ converge to $\operatorname{Uniform}(0,1)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - proof that convergence in probability implies convergence in distribution ::@:: Sandwich: $F_{X_n}(x)\le F_X(x+\varepsilon)+P(|X_n-X|>\varepsilon)$ and $F_X(x-\varepsilon)\le F_{X_n}(x)+P(|X_n-X|>\varepsilon)$; let $n\to\infty$ then $\varepsilon\downarrow0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - Portmanteau theorem: four equivalent formulations ::@:: (1) $E[f(X_n)]\to E[f(X)]$ for bounded continuous $f$; (2) $\limsup P(X_n\in F)\le P(X\in F)$ for closed $F$; (3) $\liminf P(X_n\in G)\ge P(X\in G)$ for open $G$; (4) $P(X_n\in B)\to P(X\in B)$ for continuity sets $B$. (2) and (3) are dual via complement. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- Lévy's continuity theorem ::@:: $X_n\xrightarrow{d} X$ iff $\phi_n(t)\to\phi(t)$ pointwise for all $t\in\mathbb R$. Forward: $e^{itx}$ bounded continuous, so Portmanteau gives $\phi_n(t)\to\phi(t)$. Reverse (tightness + identification): (1) $\phi(0)=1$ and $\phi$ continuous at 0 (hypothesis); (2) Fubini + $\int_{-\delta}^\delta e^{itx}dt=2\sin(\delta x)/x$ gives tail bound $P(|X_n|>2/\delta)\le\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt$; (3) DCT on $[-\delta,\delta]$ (dominated by 2 since $|\phi_n|\le1$) + continuity of $\phi$ gives $\limsup_n P(|X_n|>2/\delta)<2\varepsilon$, hence tightness; (4) Prokhorov $\Rightarrow$ every subsequence has a further subsequence converging to some $Q$; (5) forward direction identifies $\phi_Q=\phi$, and uniqueness of CF makes every subsequential limit $P$, so $X_n\xrightarrow{d} P$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- Lévy reverse: tightness via DCT ::@:: DCT on $[-\delta,\delta]$: $\lim_n\frac1\delta\int_{-\delta}^\delta(1-\phi_n)dt = \frac1\delta\int_{-\delta}^\delta(1-\phi)dt$ (dominated by 2 since $|\phi_n|\le1$). Continuity of $\phi$ at 0 bounds the limit $<2\varepsilon$, so via tail inequality $\limsup_n P(|X_n|>2/\delta)<2\varepsilon$ ($\varepsilon$ arbitrary), hence $\{X_n\}$ tight. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Lévy's continuity theorem, forward direction ::@:: If $X_n\xrightarrow{d} X$, then $\phi_n(t)\to\phi(t)$ pointwise for all $t\in\mathbb R$. Proof: $e^{itx}$ is bounded and continuous, so Portmanteau gives $\phi_n(t)\to\phi(t)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Lévy's continuity theorem, reverse direction / outline ::@:: If $\phi_n(t)\to\phi(t)$ pointwise for all $t\in\mathbb R$ and $\phi$ is continuous at $0$, then $X_n\xrightarrow{d} X$. The proof proceeds in two phases: first show $\{X_n\}$ is tight (mass does not escape to infinity), then identify every subsequential limit as the same distribution $P$ (the law whose CF is $\phi$). Tightness is proved via a tail bound for CFs combined with dominated convergence; identification uses Prokhorov's theorem, the forward direction, and uniqueness of characteristic functions. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Lévy reverse: tail inequality for CFs ::@:: By Fubini's theorem and Euler's formula, $\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt = E[\,\frac1\delta\int_{-\delta}^\delta(1-e^{itX_n})\,dt\,] = E[2-2\sin(\delta X_n)/(\delta X_n)]$. Define $h(y)=2-2\sin y/y$. For $|y|\ge2$, $|\sin y|\le1$ implies $h(y)\ge2-2/|y|\ge1$; $h(y)\ge0$ everywhere. Hence $P(|X_n|>2/\delta)\le E[h(\delta X_n)] = \frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt$. This bound connects the tail probability of $X_n$ to an average of the CF $\phi_n$ near $0$ — if $\phi_n\approx1$ near $0$, the right side is small and $X_n$ is unlikely to be large. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Lévy reverse: tightness via DCT ::@:: Fix $\varepsilon>0$. Since $\phi$ is continuous at $0$ with $\phi(0)=1$, there exists $\delta>0$ such that $|1-\phi(t)|<\varepsilon$ for $|t|<\delta$. Then $\frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt \le \frac1\delta\int_{-\delta}^\delta|1-\phi(t)|\,dt < 2\varepsilon$ (the integral is real because the imaginary part cancels by $\phi(-t)=\overline{\phi(t)}$). For each $n$, $|1-\phi_n(t)|\le2$ (since $|\phi_n|\le1$) and $1-\phi_n(t)\to1-\phi(t)$ pointwise. DCT on $[-\delta,\delta]$ (dominated by the constant $2$) gives $\lim_n\frac1\delta\int_{-\delta}^\delta(1-\phi_n(t))\,dt = \frac1\delta\int_{-\delta}^\delta(1-\phi(t))\,dt < 2\varepsilon$. Combining with the tail inequality, $\limsup_n P(|X_n|>2/\delta) < 2\varepsilon$. Since $\varepsilon$ is arbitrary, $\{X_n\}$ is tight. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- Lévy reverse: identification of the limit ::@:: By Prokhorov's theorem, tightness implies relative compactness: every subsequence of $\{X_n\}$ contains a further subsequence $\{X_{n_k}\}$ converging in distribution to some $Q$. The forward direction of Lévy's theorem identifies the CF of $Q$: $\phi_Q(t)=\lim_k\phi_{n_k}(t)=\phi(t)$. Characteristic functions uniquely determine the law, so every subsequential limit must be the same distribution $P$ (the distribution whose CF is $\phi$). Hence the whole sequence converges in distribution to $P$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## relations between convergence modes
 
@@ -121,7 +124,9 @@ The different modes of convergence form a hierarchy. Some modes imply others, an
 
 These implications can be summarized as: $$X_n\xrightarrow{\text{a.s.}}X\;\Rightarrow\; X_n\xrightarrow{P}X\;\Rightarrow\; X_n\xrightarrow{d} X,$$
 
-and $X_n\xrightarrow{(p)}X\;\Rightarrow\;X_n\xrightarrow{P}X$, with no other implications in general. Counterexamples exist for each missing implication: the typewriter sequence converges in probability but not almost surely, and oscillating densities converge in distribution but not in probability.
+and $X_n\xrightarrow{(p)}X\;\Rightarrow\;X_n\xrightarrow{P}X$, with no other implications in general. Counterexamples exist for each missing implication: the typewriter sequence converges in probability (and in $L^p$) but not almost surely, and oscillating densities converge in distribution but not in probability.
+
+__The typewriter sequence.__ Take $([0,1],\mathcal B,\lambda)$ as the probability space, where $\lambda$ is the Lebesgue measure. Write each $n\ge1$ uniquely as $n=2^k+m$ with $k\ge0$ and $0\le m<2^k$ (so $k=\lfloor\log_2 n\rfloor$), and define $$X_n(\omega)=1_{[m/2^k,\;(m+1)/2^k]}(\omega).$$ The indicator sweeps across $[0,1]$ in dyadic blocks: $X_1=1$ on the whole interval, $X_2,X_3$ each cover half, $X_4$–$X_7$ cover quarters, and so on. For any $\omega\in[0,1]$ and each resolution level $k$, there is exactly one $n$ in $\{2^k,\dots,2^{k+1}-1\}$ whose interval contains $\omega$; consequently $X_n(\omega)=1$ for infinitely many $n$ (once per level), and $\limsup_{n\to\infty}X_n=1$ almost surely. Since $P(|X_n-0|>\varepsilon)=2^{-k}\to0$ for any $\varepsilon\in(0,1)$, we have $X_n\to0$ in probability (and in $L^p$ for every $p\ge1$). Yet $X_n$ does not converge to $0$ almost surely — the sequence oscillates between $0$ and $1$ at every $\omega$ infinitely often.
 
 A useful partial converse connects weak convergence with vanishing perturbations: if $X_n\xrightarrow{d} X$ and $Y_n\to0$ in probability, then $X_nY_n\to0$ in probability. This result is closely related to Slutsky's theorem and supports many of the applications later in this chapter.
 
@@ -132,6 +137,8 @@ Flashcards for this section are as follows:
 - hierarchy of convergence modes / summary ::@:: Almost-sure $\Rightarrow$ in probability $\Rightarrow$ in distribution; $p \ge 1$-th mean $\Rightarrow$ in probability. No other implications hold in general. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - convergence in probability implies weak convergence: If $X_n\to X$ in probability, what can you conclude about $X_n\xrightarrow{d} X$? ::@:: One has $X_n\xrightarrow{d} X$.
 - vanishing product: $X_n\xrightarrow{d} X$ and $Y_n\to_P0$ imply $X_nY_n\to_P0$ ::@:: If $X_n\xrightarrow{d} X$ and $Y_n\to0$ in probability, then $X_nY_n\to0$ in probability.
+- typewriter sequence / intuition ::@:: Write $n=2^k+m$ ($0\le m<2^k$). The indicator $1_{[m/2^k,(m+1)/2^k]}$ sweeps across $[0,1]$ in dyadic blocks of width $2^{-k}$. As $n$ increases the blocks get narrower, scanning the whole interval like a typewriter. Each point $\omega$ is covered exactly once per level $k$, so $X_n(\omega)=1$ infinitely often ($\limsup X_n=1$ a.s.), yet the probability mass of each block shrinks to 0.
+- typewriter sequence / counterexample ::@:: On $([0,1],\lambda)$ (Lebesgue measure), define $X_n=1_{[m/2^k,(m+1)/2^k]}$ where $n=2^k+m$ ($0\le m<2^k$). Then $X_n\to0$ in probability and in $L^p$, but $\limsup X_n=1$ a.s., so $X_n\not\to0$ almost surely. Shows convergence in probability (and $L^p$) does __not__ imply almost sure convergence. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## almost sure convergence
 
@@ -175,9 +182,9 @@ __Example.__ For i.i.d. $X_i\sim\operatorname{Exp}(\lambda)$, SLLN gives $\overl
 
 Flashcards for this section are as follows:
 
-- continuous mapping theorem (a.s. and probability versions) ::@:: If $Z_n\to Z$ in probability (resp. a.s.) and $g$ is measurable with $P(Z\in D_g)=0$, then $g(Z_n)\to g(Z)$ in probability (resp. a.s.). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- continuous mapping theorem: a.s. case proof ::@:: Restrict to the a.s. convergence set where $Z_n\to Z$ and $Z\notin D_g$; then $g(Z_n)\to g(Z)$ pointwise by continuity. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- continuous mapping theorem: probability case proof sketch ::@:: $P(|g(Z_n)-g(Z)|>\varepsilon)\le P(|Z_n-Z|\ge\delta)+P(Z\in B_\delta)+P(Z\in D_g)$. Let $n\to\infty$ then $\delta\downarrow0$. $B_\delta$ contains points near discontinuities where $g$ jumps by $>\varepsilon$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- continuous mapping theorem (a.s. and probability versions) ::@:: Let $D_g$ be the discontinuity set of $g$. If $Z_n\to Z$ in probability (resp. a.s.) and $g$ is measurable with $P(Z\in D_g)=0$, then $g(Z_n)\to g(Z)$ in probability (resp. a.s.). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- continuous mapping theorem: a.s. case proof ::@:: Let $D_g$ be $g$'s discontinuity set. Restrict to the probability-1 set where $Z_n(\omega)\to Z(\omega)$ and $Z(\omega)\notin D_g$; on this set $g$ is continuous at $Z(\omega)$, so $g(Z_n(\omega))\to g(Z(\omega))$ pointwise. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- continuous mapping theorem: probability case proof sketch ::@:: $P(|g(Z_n)-g(Z)|>\varepsilon)\le P(|Z_n-Z|\ge\delta)+P(Z\in B_\delta)+P(Z\in D_g)$, where $D_g$ is $g$'s discontinuity set and $B_\delta=\{x\notin D_g:\exists y,\,|x-y|<\delta,\,|g(x)-g(y)|>\varepsilon\}$ (points where a $\delta$-perturbation of $x$ can change $g$ by $>\varepsilon$). Let $n\to\infty$ (distance term $\to0$), then $\delta\downarrow0$ (sensitivity term $\to0$ because $P(Z\in B_\delta)\to0$ at continuity points). The discontinuity term is zero by $P(Z\in D_g)=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## weak law of large numbers
 
@@ -311,13 +318,37 @@ The route taken in the course passes through the Borel-Cantelli lemmas and a tru
 <!-- check: ignore-next-line[header_style]: Borel-Cantelli is a proper noun (eponymous) -->
 ### Borel-Cantelli lemmas
 
-__First Borel-Cantelli lemma.__ If $\sum_n P(A_n)<\infty$, then $P(A_n \text{ i.o.})=0$.
+The Borel-Cantelli lemmas are the fundamental tools for converting probability estimates into almost-sure statements. They answer a basic question: given a sequence of events $A_n$, when can we be sure that infinitely many of them happen (or don't)?
+
+__Intuition for the two lemmas.__ BC1 says that if the total probability mass $\sum P(A_n)$ is finite, there simply isn't enough "room" for infinitely many events to occur — like a finite budget that can only cover finitely many purchases. BC2 says the opposite: if the total mass is infinite and the events are independent (no "coordination" to avoid each other), then infinitely many must occur almost surely — like having unlimited budget guarantees you'll buy infinitely many items, provided each purchase decision is made independently.
+
+The set $\{A_n\text{ i.o.}\}$ is $\bigcap_{m=1}^\infty\bigcup_{n=m}^\infty A_n$, the $\limsup$ of the events — the collection of outcomes that belong to $A_n$ for arbitrarily large $n$. It is a kind of "supremum over tails": as $m$ grows, the tail union $\bigcup_{n=m}^\infty A_n$ shrinks, and their intersection catches what persists in all tails.
+
+__First Borel-Cantelli lemma.__ If $\sum_n P(A_n)<\infty$, then $P(\bigcap_{m=1}^\infty\bigcup_{n=m}^\infty A_n)=P(A_n \text{ i.o.})=0$.
+
+__Intuition for the proof.__ The i.o. set is the limit of decreasing tail unions; by continuity from above its probability is the limit of $P(\bigcup_{n=m}^\infty A_n)$ as $m\to\infty$. The union bound controls each tail union by the remaining tail sum $\sum_{n=m}^\infty P(A_n)$, which tends to $0$ because the full sum converges.
 
 __Proof.__ Since
 
-$\{A_n \text{ i.o.}\}=\bigcap_{m=1}^{\infty}\bigcup_{n\ge m}A_n$, the union bound shows $P\left(\bigcup_{n\ge m}A_n\right)\le \sum_{n\ge m}P(A_n)\to 0$, and continuity from above finishes the proof.
+$\{A_n \text{ i.o.}\}=\bigcap_{m=1}^{\infty}\bigcup_{n\ge m}A_n=\limsup_{n\to\infty}A_n$ (the set-theoretic limsup, a supremum over tails in the sense that it is the limit of the decreasing sequence of tail unions $\bigcup_{n\ge m}A_n$ as $m\to\infty$), the union bound shows $P\left(\bigcup_{n\ge m}A_n\right)\le \sum_{n\ge m}P(A_n)\to 0$, and continuity from above finishes the proof.
 
-__Second Borel-Cantelli lemma.__ If the $A_n$ are independent and $\sum_n P(A_n)=\infty$, then $P(A_n \text{ i.o.})=1$.
+__Second Borel-Cantelli lemma.__ If the $A_n$ are independent and $\sum_n P(A_n)=\infty$, then $P(\bigcap_{m=1}^\infty\bigcup_{n=m}^\infty A_n)=P(A_n \text{ i.o.})=1$.
+
+__Intuition for the proof.__ We show that the complement — "$A_n$ occurs only finitely often" — has probability zero. That complement is $\bigcup_{m=1}^\infty\bigcap_{n=m}^\infty A_n^c$ (eventually all complements happen). By independence, $P(A_n^c\text{ eventually})=P(\bigcap_{n=m}^\infty A_n^c)$ for some $m$ is a product $\prod_{n=m}^\infty(1-P(A_n))$. The bound $1-x\le e^{-x}$ turns the product into $\exp(-\sum_{n=m}^\infty P(A_n))$, which is $0$ because the tail sum diverges. So the probability that all $A_n$ eventually stop happening is zero — hence infinitely many $A_n$ happen.
+
+__Proof.__ Since $A_n$ are independent, so are their complements $A_n^c$. Then
+
+$$P\!\left(\bigcap_{n=m}^\infty A_n^c\right)=\prod_{n=m}^\infty(1-P(A_n)).$$
+
+Using $1-x\le e^{-x}$ for all $x\in\mathbb R$,
+
+$$\prod_{n=m}^\infty(1-P(A_n))\le\exp\!\Bigl(-\sum_{n=m}^\infty P(A_n)\Bigr)=0,$$
+
+because the tail sum diverges. Hence $P(\bigcup_{n=m}^\infty A_n)=1$ for every $m$. By continuity from above on the decreasing sequence $\{\bigcup_{n=m}^\infty A_n\}_{m=1}^\infty$, we obtain
+
+$$P\!\left(\bigcap_{m=1}^\infty\bigcup_{n=m}^\infty A_n\right)=\lim_{m\to\infty}P\!\left(\bigcup_{n=m}^\infty A_n\right)=1.$$
+
+Thus $A_n$ occurs infinitely often with probability $1$.
 
 This turns divergent sums of independent probabilities into almost-sure infinitely-often events.
 
@@ -325,8 +356,14 @@ This turns divergent sums of independent probabilities into almost-sure infinite
 
 Flashcards for this subsection are as follows:
 
-- first Borel-Cantelli lemma ::@:: If $\sum_n P(A_n)<\infty$, what is $P(A_n \text{ i.o.})$? $P(A_n \text{ i.o.})=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- second Borel-Cantelli lemma ::@:: If the events $A_n$ are independent and $\sum_n P(A_n)=\infty$, what is $P(A_n \text{ i.o.})$? $P(A_n \text{ i.o.})=1$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- first Borel-Cantelli lemma ::@:: If $\sum_n P(A_n)<\infty$, what is $P(A_n \text{ i.o.})$? $P(\bigcap_{m=1}^\infty\bigcup_{n=m}^\infty A_n)=P(A_n \text{ i.o.})=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- BC1 / intuition ::@:: Finite total probability mass ⇒ not enough "room" for infinitely many events to occur. Like a finite budget that can only cover finitely many purchases. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- BC1 proof / intuition ::@:: The i.o. set is the limit of decreasing tail unions $\bigcup_{n=m}^\infty A_n$. By continuity from above, $P(\text{i.o.})=\lim_{m\to\infty}P(\bigcup_{n=m}^\infty A_n)$. The union bound controls each tail union by the remaining tail sum $\sum_{n=m}^\infty P(A_n)$, which →0 because the full sum converges. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- first Borel-Cantelli lemma / proof ::@:: $\{A_n\text{ i.o.}\}=\bigcap_{m=1}^\infty\bigcup_{n\ge m}A_n$; union bound gives $P(\bigcup_{n\ge m}A_n)\le\sum_{n\ge m}P(A_n)\to0$; continuity from above yields $P(\{A_n\text{ i.o.}\})=0$.
+- second Borel-Cantelli lemma ::@:: If the events $A_n$ are independent and $\sum_n P(A_n)=\infty$, what is $P(A_n \text{ i.o.})$? $P(\bigcap_{m=1}^\infty\bigcup_{n=m}^\infty A_n)=P(A_n \text{ i.o.})=1$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- BC2 / intuition ::@:: Infinite total probability mass + independence ⇒ infinitely many events must occur almost surely. Independence prevents "coordination" to avoid each other — like having unlimited budget guarantees infinitely many purchases if each decision is independent. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- BC2 proof / intuition ::@:: Prove complement (eventually all $A_n^c$) has probability 0. Independence makes $P(A_n^c\text{ eventually})$ a product $\prod(1-P(A_n))$; the bound $1-x\le e^{-x}$ turns it into $\exp(-\sum P(A_n))=0$ when the tail sum diverges. So eventually-all-complements is impossible → i.o. must happen. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- second Borel-Cantelli lemma / proof ::@:: For independent $A_n$, $P(\bigcap_{n=m}^\infty A_n^c)=\prod_{n=m}^\infty(1-P(A_n))\le\exp(-\sum_{n=m}^\infty P(A_n))=0$, so $P(\bigcup_{n=m}^\infty A_n)=1$ for all $m$; continuity from above on the decreasing tail unions gives $P(\bigcap_{m=1}^\infty\bigcup_{n=m}^\infty A_n)=1$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ### strong-law proof
 
@@ -352,7 +389,7 @@ Flashcards for this section are as follows:
 - SLLN: truncation purpose and steps ::@:: Under $E[|X_1|]<\infty$, truncate $X_j$ at $j$ ($Y_j=X_j\mathbf1_{|X_j|\le j}$). Borel-Cantelli shows the discarded tails contribute zero a.s. ($\sum P(|X_1|>j)\le E[|X_1|]<\infty$). Dominated convergence gives $E[Y_j]\to\mu$. The truncated variables are bounded, so the bounded-variable proof applies. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - SLLN: truncation tail estimate ::@:: $\sum_{j=1}^\infty P(|X_1|>j)\le E[|X_1|]<\infty$, so by Borel-Cantelli $P(X_j\neq Y_j\text{ i.o.})=0$. Where $X_j=Y_j$ eventually, the two averages differ by only finitely many terms (contribution $\to0$ as $n\to\infty$), so their a.s. limits coincide. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - SLLN: why the subsequence $n_k=k^2$ works ::@:: Along $k^2$, Chebyshev gives $P(|\overline X_{k^2}-\mu|>\varepsilon)\le\sigma^2/(k^2\varepsilon^2)$, summable, so Borel-Cantelli yields almost sure convergence.
-- SLLN: gap-filling idea ::@:: Assuming $|X_j|\le C$, split $\overline X_n-\overline X_{k^2}=(\frac1n-\frac1{k^2})\sum_{j=1}^{k^2}X_j+\frac1n\sum_{j=k^2+1}^n X_j$; bound $|\cdot|\le\frac{n-k^2}{n}C+\frac{n-k^2}{n}C=2\frac{n-k^2}{n}C$. With $n-k^2\le2k+1$ for $n\le(k+1)^2$, get $\le\frac{4C}{k}+O(1/k^2)\to0$, so $\overline X_n\to\mu$ a.s. for all $n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- SLLN: gap-filling idea ::@:: Extend a.s. convergence from squares $n_k=k^2$ to all $n$ by controlling $|\overline X_n-\overline X_{k^2}|$. Split the sample-mean difference: $\overline X_n-\overline X_{k^2}=(\frac1n-\frac1{k^2})\sum_{j=1}^{k^2}X_j+\frac1n\sum_{j=k^2+1}^n X_j$ — the first term corrects the averaging factor on the common part, the second adds the fresh terms. Bound each piece using $|X_j|\le C$. For the first term, $\frac1n<\frac1{k^2}$ makes $(\frac1n-\frac1{k^2})$ negative, so $|(\frac1n-\frac1{k^2})\sum_{j=1}^{k^2}X_j|\le(\frac1{k^2}-\frac1n)k^2C=\frac{n-k^2}{n}C$. The second term is at most $\frac{n-k^2}{n}C$. Hence $|\overline X_n-\overline X_{k^2}|\le2\frac{n-k^2}{n}C$. For $n\in[k^2,(k+1)^2]$, the gap satisfies $n-k^2\le2k+1$, so $2\frac{n-k^2}{n}C\le2\frac{2k+1}{k^2}C=\frac{4C}{k}+O(1/k^2)\to0$. Thus the gap closes uniformly within each block, and $\overline X_{k^2}\to\mu$ a.s. forces $\overline X_n\to\mu$ a.s. for all $n$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - subsequence criterion for a.s. convergence ::@:: $Z_n\to Z$ a.s. iff every subsequence contains a further sub-subsequence converging a.s. to $Z$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - SLLN: non-iid variant exists ::@:: For independent (not necessarily i.i.d.) $X_j$ with $E[X_j^2]<\infty$ and $\sum_{k=1}^\infty\frac1{k^2}\operatorname{Var}[X_k]<\infty$, $\overline X_n-E[\overline X_n]\xrightarrow{\text{a.s.}}0$. The identical-distribution assumption is not essential — only moment control is. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
@@ -642,7 +679,15 @@ This correction is especially relevant when approximating binomial probabilities
 
 __Rule of thumb.__ The normal approximation to the binomial is reliable when $np\ge5$ and $n(1-p)\ge5$. When $np$ is small, the Poisson approximation is more accurate.
 
-__Inverse problem: required sample size.__ Given a desired margin of error $\delta>0$ and confidence level $1-\alpha$, one can solve for $n$ such that $P(|\hat p-p|<\delta)\ge 1-\alpha$. Using the CLT approximation $\hat p\approx N(p,p(1-p)/n)$, the condition becomes $$\delta\ge z_{\alpha/2}\sqrt{\frac{p(1-p)}{n}}\quad\Longrightarrow\quad n\ge\frac{z_{\alpha/2}^2\,p(1-p)}{\delta^2}.$$ Since $p$ is unknown, the worst-case $p=1/2$ (maximizing $p(1-p)=1/4$) gives the conservative bound $n\ge z_{\alpha/2}^2/(4\delta^2)$. For $\alpha=0.05$ ($z_{0.025}\approx1.96$) and $\delta=0.05$, this yields $n\ge385$.
+__Inverse problem: required sample size.__ Given a desired margin of error $\delta>0$ and confidence level $1-\alpha$, one can solve for $n$ such that $P(|\hat p-p|<\delta)\ge 1-\alpha$, where $\hat p=S_n/n$ with $S_n\sim\operatorname{Binomial}(n,p)$ (the sample proportion). The CLT gives $\hat p\approx N(p,p(1-p)/n)$, so standardizing yields $Z:=\frac{\hat p-p}{\sqrt{p(1-p)/n}}\approx N(0,1)$ and
+
+$$P(|\hat p-p|<\delta)=P\!\left(|Z|<\frac{\delta}{\sqrt{p(1-p)/n}}\right).$$
+
+For $N(0,1)$, $P(|Z|<z_{\alpha/2})=1-\alpha$, so requiring this probability to be at least $1-\alpha$ implies $\frac{\delta}{\sqrt{p(1-p)/n}}\ge z_{\alpha/2}$. Squaring and rearranging:
+
+$$\delta\ge z_{\alpha/2}\sqrt{\frac{p(1-p)}{n}}\quad\Longrightarrow\quad n\ge\frac{z_{\alpha/2}^2\,p(1-p)}{\delta^2}.$$
+
+Since $p$ is unknown, the worst-case $p=1/2$ (maximizing $p(1-p)=1/4$) gives the conservative bound $n\ge z_{\alpha/2}^2/(4\delta^2)$. For $\alpha=0.05$ ($z_{0.025}\approx1.96$) and $\delta=0.05$, this yields $n\ge385$.
 
 ---
 
@@ -653,7 +698,7 @@ Flashcards for this section are as follows:
 - why continuity correction works ::@:: Binomial increments are integer-valued; approximating a discrete $P(S_n\le k)$ by a continuous normal $P(S_n\le k)$ underestimates coverage by $0.5$ on average. Adding $1/2$ before standardizing centers the bar at $k$ correctly. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - binomial CLT example (sum of 100 dice): $P(40\le S_{100}\le 60)$ with $p=0.5$ ::@:: Mean $50$, variance $25$, continuity-corrected: $\Phi((60.5-50)/5)-\Phi((39.5-50)/5)=\Phi(2.1)-\Phi(-2.1)\approx0.964$.
 - normal approximation to binomial: rule of thumb ::@:: Reliable when $np\ge5$ and $n(1-p)\ge5$; otherwise Poisson approximation is more accurate. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- inverse problem: sample size for desired precision ::@:: For margin $\delta$ and confidence $1-\alpha$, $n\ge z_{\alpha/2}^2\,p(1-p)/\delta^2$; worst-case $p=1/2$ gives $n\ge z_{\alpha/2}^2/(4\delta^2)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- required $n$ for $P(|\hat p-p|<\delta)\ge 1-\alpha$ with $\hat p=S_n/n\sim\operatorname{Binomial}(n,p)$ ::@:: CLT $\Rightarrow\hat p\approx N(p,p(1-p)/n)$, so $Z:=(\hat p-p)/\sqrt{p(1-p)/n}\approx N(0,1)$. Then $P(|\hat p-p|<\delta)=P(|Z|<\delta/\sqrt{p(1-p)/n})\ge 1-\alpha$ requires $\delta/\sqrt{p(1-p)/n}\ge z_{\alpha/2}$. Square $\Rightarrow n\ge z_{\alpha/2}^2\,p(1-p)/\delta^2$. Worst-case $p=1/2$ gives $n\ge z_{\alpha/2}^2/(4\delta^2)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
 ## applications and intuition
 
