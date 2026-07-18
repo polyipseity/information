@@ -737,6 +737,11 @@ class WikiHtmlConverter:
             """Escape Markdown special characters in text."""
             return _MARKDOWN_ESCAPE_REGEX.sub(lambda match: Rf"\{match[0]}", text)
 
+        # Strip <style> tags — CSS is never content in any conversion context.
+        if isinstance(ele, Tag):
+            for style_tag in ele.find_all("style"):
+                style_tag.decompose()
+
         if not isinstance(ele, Tag):
             if (
                 isinstance(ele, NavigableString)
