@@ -233,6 +233,40 @@ _BOLD_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-weight: *bold")
 _ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic")
 "Regex for escaping special Markdown characters."
 _MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]")
+
+
+def _balance_brackets(text: str) -> str:
+    """Escape unbalanced ``[`` and ``]`` in *text*.
+
+    Uses a two-pass stack algorithm:
+    - Pass 1: scan left-to-right, track unmatched ``[`` positions on a stack.
+              A ``]`` pops the stack if non-empty (matched pair) or is marked
+              unbalanced if empty. Remaining stack positions at EOF are
+              unclosed ``[``.
+    - Pass 2: backslash-escape all unbalanced brackets.
+
+    Balanced ``[...]`` pairs pass through unchanged per CommonMark \u00a76.3.
+    Escaped ``\\[``/``\\]`` are inert per CommonMark \u00a72.4.
+    """
+    _stack: list[int] = []
+    _unbalanced: set[int] = set()
+    for _i, _c in enumerate(text):
+        if _c == "[":
+            _stack.append(_i)
+        elif _c == "]":
+            if _stack:
+                _stack.pop()
+            else:
+                _unbalanced.add(_i)
+    _unbalanced.update(_stack)
+    if _unbalanced:
+        _chars = list(text)
+        for _i in sorted(_unbalanced):
+            _chars[_i] = "\\" + _chars[_i]
+        return "".join(_chars)
+    return text
+
+
 "Regex for splitting bold/italic strings with surrounding whitespace."
 _PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)([\n ]*)$", DOTALL)
 "Regex for extracting reference content from citation brackets."
@@ -1636,15 +1670,26 @@ class WikiHtmlConverter:
                 alt = str(ele.get("alt", "")).strip()
                 if not alt:
                     alt = self._fallback_alt(ele)
-                    # Level-2 (Commons description) is pre-converted
-                    # Markdown — do not escape again.
                     filename = _get_image_filename(ele)
-                    if not (filename and f"File:{filename}" in self._image_metadata):
+                    if filename and f"File:{filename}" in self._image_metadata:
+                        # Level-2 (Commons description) is pre-converted
+                        # Markdown. Escape only unbalanced ``[``/``]``;
+                        # balanced pairs are valid per CommonMark \u00a76.3,
+                        # escaped brackets inert per \u00a72.4.
+                        alt = _balance_brackets(alt)
+                    else:
                         # Level-3 (filename) is plain text — escape.
                         alt = _MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
                 else:
                     # Level-1 (HTML alt attribute) is plain text.
                     alt = _MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
+                # Coerce to a single line for maximum viewer compatibility.
+                # Use ``<p>`` as a paragraph separator, never as a wrapper:
+                #   correct:   para 1 <p> para 2
+                #   incorrect: <p> para 1 </p> <p> para 2 </p>
+                paragraphs = alt.split("\n\n")
+                alt = (" <p> ".join(paragraphs)).strip()
+                alt = alt.replace("\n", " <br/> ")
                 return f"{strings}![{alt}]({src_url_str})"
 
             return _HandlerConfig(
