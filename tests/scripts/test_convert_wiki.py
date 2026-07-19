@@ -677,28 +677,3 @@ class TestConverterLinkSpacing:
         assert result.startswith(
             "[Graph](https://en.wikipedia.org/wiki/Graph_of_a_function) of"
         )
-
-
-# Import submodule test classes so they are discoverable from this module.
-from .convert_wiki.test_api import (  # noqa: F401, E402
-    TestApiRequest,
-    TestCollectLinkTitles,
-    TestRedirectCache,
-    TestResolveRedirects,
-    TestResolveRedirectsWithRealResponses,
-)
-from .convert_wiki.test_config import (  # noqa: F401, E402
-    TestConstants,
-    TestNewApiConstants,
-    TestNewRegexConstants,
-    TestWithCwd,
-)
-from .convert_wiki.test_types import TestRedirectInfo  # noqa: F401, E402
-from .convert_wiki.test_utils import (  # noqa: F401, E402
-    TestBs4NewElement,
-    TestFixFilename,
-    TestFixNameMaybe,
-    TestMarkdownFragment,
-    TestMarkdownLinkTarget,
-    TestTagAffixes,
-)

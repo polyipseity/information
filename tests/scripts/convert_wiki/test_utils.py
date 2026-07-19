@@ -21,9 +21,14 @@ class TestFixNameMaybe:
 
     def test_mapped_name(self) -> None:
         """Should return the mapped name if it exists in _NAMES_MAP."""
-        # We can verify it uses _NAMES_MAP by checking known entries
-        # but the map is dynamic, so just verify the function runs
-        assert isinstance(_mod._fix_name_maybe("test"), str)  # noqa: SLF001
+        # Verify the first mapping entry round-trips correctly.
+        for key, expected in _mod._NAMES_MAP.items():  # noqa: SLF001
+            result = _mod._fix_name_maybe(key)  # noqa: SLF001
+            assert result == expected
+            break
+        else:
+            # Empty names map — fall back to basic smoke test.
+            assert isinstance(_mod._fix_name_maybe("test"), str)  # noqa: SLF001
 
     def test_replace_underscores(self) -> None:
         """Should replace underscores with spaces when requested."""

@@ -59,7 +59,7 @@ class TestConstants:
         assert "Category:" in _mod._PRESERVED_PAGE_PREFIXES  # noqa: SLF001
 
     def test_archive_regexes(self) -> None:
-        """_ARCHIVE_REGEXES should be a non-empty list."""
+        """_ARCHIVE_REGEXES should be a non-empty dict."""
         assert len(_mod._ARCHIVE_REGEXES) > 0  # noqa: SLF001
 
     def test_script_directory(self) -> None:
@@ -114,17 +114,19 @@ class TestWithCwd:
         # We pass mock chdir/getcwd since we can't actually chdir without
         # affecting other tests.
 
-        last_path: str | None = None
+        last_paths: list[str] = []
 
         def tracking_chdir(path: str) -> None:
-            """Track the last chdir path."""
-            nonlocal last_path
-            last_path = path
+            """Track chdir paths in order."""
+            last_paths.append(path)
 
         with _mod._with_cwd(  # noqa: SLF001
             Path("/tmp"), chdir=tracking_chdir
         ):
             pass
+        # Two calls: set to /tmp, then restore to original cwd.
+        assert len(last_paths) == 2
+        assert os.fspath(last_paths[0]) == os.fspath(Path("/tmp"))
 
     def test_restores_cwd_on_exception(self) -> None:
         """Should restore the original cwd even when the body raises."""
@@ -190,11 +192,13 @@ class TestNewRegexConstants:
         assert hasattr(_mod._BAD_CHARACTERS, "search")  # noqa: SLF001
 
     def test_header_regex(self) -> None:
-        """_HEADER_REGEX should match h1-h6."""
+        """_HEADER_REGEX should match h1-h6 (converter's stricter pattern)."""
 
         assert _mod._HEADER_REGEX.match("h1")  # noqa: SLF001
         assert _mod._HEADER_REGEX.match("h6")  # noqa: SLF001
         assert not _mod._HEADER_REGEX.match("div")  # noqa: SLF001
+        assert not _mod._HEADER_REGEX.match("h")  # noqa: SLF001 — must have digit
+        assert not _mod._HEADER_REGEX.match("h12")  # noqa: SLF001 — exactly one digit
 
     def test_markdown_escape_regex(self) -> None:
         """_MARKDOWN_ESCAPE_REGEX should match special chars."""
