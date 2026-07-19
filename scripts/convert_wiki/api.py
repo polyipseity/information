@@ -4,13 +4,11 @@ Provides functions for batch-resolving Wikipedia redirects and fetching
 image description metadata from Wikimedia Commons.
 """
 
-import os
 from collections.abc import MutableMapping
 from contextlib import suppress
 from datetime import datetime, timezone
 from json import JSONDecodeError
 from os import PathLike
-from os import replace as os_replace
 
 import anyio
 from aiohttp import ClientSession
@@ -103,7 +101,7 @@ def _load_redirect_cache(
         return {}
 
 
-def _save_redirect_cache(
+async def _save_redirect_cache(
     cache: MutableMapping[str, _RedirectInfo],
     cache_path: PathLike[str],
 ) -> None:
@@ -129,10 +127,10 @@ def _save_redirect_cache(
     try:
         with open(tmp, "w", encoding="UTF-8") as f:
             _cfg._json_dump(data, f, ensure_ascii=False, indent=2)
-        os_replace(tmp, resolved_path)
+        await tmp.replace(resolved_path)
     except BaseException:
         with suppress(FileNotFoundError):
-            os.unlink(os.fspath(tmp))
+            await tmp.unlink()
         raise
 
 
@@ -146,7 +144,7 @@ async def _api_request(
         scheme=host.scheme,
         host=str(host.host),
         path="/w/api.php",
-        query={k: str(v) for k, v in params.items()},
+        query=params,
     )
     backoff = _cfg._API_INITIAL_BACKOFF
     for attempt in range(_cfg._API_MAX_RETRIES):
@@ -210,7 +208,7 @@ async def _resolve_redirects(
         for title in batch:
             if title not in redirected_from:
                 cache.setdefault(title, _RedirectInfo(to=title, cached_at=now_iso))
-    _save_redirect_cache(cache, cache_path=cache_path)
+    await _save_redirect_cache(cache, cache_path=cache_path)
     return cache
 
 

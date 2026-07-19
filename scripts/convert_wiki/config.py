@@ -11,7 +11,7 @@ from datetime import timedelta
 from json import dump as _json_dump  # noqa: F401
 from json import load as _json_load  # noqa: F401
 from logging import getLogger
-from os import PathLike, chdir, getcwd, scandir
+from os import PathLike, chdir, getcwd
 from pathlib import Path as PathlibPath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
@@ -150,7 +150,7 @@ def _build_names_map(
     wiki_dir = wiki_dir or _CONVERTED_WIKI_DIRECTORY
     names_map = {
         key: val
-        for entry in scandir(wiki_dir)
+        for entry in PathlibPath(wiki_dir).iterdir()
         if (filename := entry.name).endswith(".md")
         for key, val in (
             (f"{filename[:1].upper()}{filename[1:-3]}", filename[:-3]),

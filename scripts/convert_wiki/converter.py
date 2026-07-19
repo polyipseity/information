@@ -4,11 +4,11 @@ Contains ``WikiHtmlConverter``, the main class that walks a BeautifulSoup
 HTML tree and emits Markdown text via tag-specific handler methods.
 """
 
-import os
 import re
 from collections.abc import Awaitable, Iterator, Mapping, MutableSet
 from contextlib import suppress
 from copy import copy
+from os import PathLike
 from urllib.parse import quote, unquote
 
 from anyio import Path
@@ -86,8 +86,8 @@ class WikiHtmlConverter:
     def __init__(
         self,
         *,
-        converted_wiki_dir: os.PathLike[str] = _cfg._CONVERTED_WIKI_DIRECTORY,
-        converted_wiki_lang_dir: os.PathLike[
+        converted_wiki_dir: PathLike[str] = _cfg._CONVERTED_WIKI_DIRECTORY,
+        converted_wiki_lang_dir: PathLike[
             str
         ] = _cfg._CONVERTED_WIKI_LANGUAGE_DIRECTORY,
         image_metadata: Mapping[str, str] | None = None,
@@ -166,7 +166,7 @@ class WikiHtmlConverter:
         self._out_to_archive = out_to_archive
         self._redirect_map = redirect_map
 
-        config = self._dispatch(ele, classes, list_stack=list_stack)
+        config = await self._dispatch(ele, classes, list_stack=list_stack)
         if config is None:
             config = _HandlerConfig()
 
@@ -284,7 +284,7 @@ class WikiHtmlConverter:
         strings = process_strings(strings)
         return strings and f"{config.prefix}{strings}{config.suffix}"
 
-    def _dispatch(
+    async def _dispatch(
         self,
         ele: Tag,
         classes: frozenset[str],
@@ -319,7 +319,7 @@ class WikiHtmlConverter:
             return self._handle_image(ele, classes)
 
         if ele.name == "a" and "mw-file-description" not in classes:
-            return self._handle_link(ele, classes)
+            return await self._handle_link(ele, classes)
 
         if ele.name == "ol":
             return self._handle_ol(ele, classes, list_stack)
@@ -1033,9 +1033,9 @@ class WikiHtmlConverter:
         return file_title
 
     @staticmethod
-    def _create_redirect_symlinks(
-        wiki_dir: os.PathLike[str],
-        wiki_lang_dir: os.PathLike[str],
+    async def _create_redirect_symlinks(
+        wiki_dir: PathLike[str],
+        wiki_lang_dir: PathLike[str],
         from_filename: str,
         to_filename: str,
     ) -> None:
@@ -1043,23 +1043,21 @@ class WikiHtmlConverter:
         wiki_dir_path = Path(wiki_dir)
         wiki_lang_dir_path = Path(wiki_lang_dir)
         redirect_file = wiki_lang_dir_path / f"{from_filename}.md"
-        if not os.path.exists(os.fspath(redirect_file)):
-            with _cfg._with_cwd(wiki_lang_dir_path):
-                with suppress(FileExistsError):
-                    os.symlink(
-                        f"{to_filename}.md",
-                        str(redirect_file.relative_to(wiki_lang_dir_path)),
-                        target_is_directory=False,
-                    )
-            with _cfg._with_cwd(wiki_dir_path):
-                with suppress(FileExistsError):
-                    os.symlink(
-                        str(redirect_file.relative_to(wiki_dir_path)),
-                        f"{from_filename}.md",
-                        target_is_directory=False,
-                    )
+        if not await redirect_file.exists():
+            with suppress(FileExistsError):
+                await redirect_file.symlink_to(
+                    f"{to_filename}.md",
+                    target_is_directory=False,
+                )
+            with suppress(FileExistsError):
+                await (wiki_dir_path / f"{from_filename}.md").symlink_to(
+                    str(redirect_file.relative_to(wiki_dir_path)),
+                    target_is_directory=False,
+                )
 
-    def _handle_link(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
+    async def _handle_link(
+        self, ele: Tag, classes: frozenset[str]
+    ) -> _HandlerConfig | None:
         """Handle <a> link elements."""
         if (title := ele.get("title")) and title not in _cfg._BAD_TITLES:
             title = str(title)
@@ -1139,7 +1137,7 @@ class WikiHtmlConverter:
                     _fix_filename(to_filename),
                 )
                 if from_filename != to_filename:
-                    self._create_redirect_symlinks(
+                    await self._create_redirect_symlinks(
                         self._converted_wiki_dir,
                         self._converted_wiki_lang_dir,
                         from_filename,

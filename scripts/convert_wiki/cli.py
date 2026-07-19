@@ -5,8 +5,8 @@ asyncer.runnify for async dispatch).
 """
 
 import argparse
-import os
 from logging import INFO, basicConfig
+from os import fspath
 from sys import stderr, stdin
 
 import anyio
@@ -78,7 +78,7 @@ async def main() -> None:
             )
             raise TypeError(msg)
     else:
-        source = stdin if os.fspath(args.input_file) == "-" else open(args.input_file)
+        source = stdin if fspath(args.input_file) == "-" else open(args.input_file)
         with source:
             html_text = source.read()
 

@@ -103,7 +103,8 @@ class TestCollectLinkTitles:
 class TestRedirectCache:
     """Tests for _load_redirect_cache and _save_redirect_cache."""
 
-    def test_save_and_load(self, tmp_path: PathLike[str]) -> None:
+    @pytest.mark.anyio
+    async def test_save_and_load(self, tmp_path: PathLike[str]) -> None:
         """Should round-trip cache data through JSON."""
         path = Path(tmp_path) / "redirect_cache.json"
         cache = {
@@ -111,7 +112,7 @@ class TestRedirectCache:
             "C": _mod._RedirectInfo(to="D", tofragment="s"),  # noqa: SLF001
             "E": _mod._RedirectInfo(to="E"),  # noqa: SLF001  # non-redirect
         }
-        _mod._save_redirect_cache(cache, cache_path=path)  # noqa: SLF001
+        await _mod._save_redirect_cache(cache, cache_path=path)  # noqa: SLF001
         loaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
         assert len(loaded) == 3
         assert loaded["A"].to == "B"
@@ -515,7 +516,7 @@ class TestResolveRedirects:
                 "Page X": _mod._RedirectInfo(to="Page X", cached_at=old_ts),  # noqa: SLF001
                 "Page Y": _mod._RedirectInfo(to="Page Y", cached_at=old_ts),  # noqa: SLF001
             }
-            _mod._save_redirect_cache(stale_cache, cache_path=path)  # noqa: SLF001
+            await _mod._save_redirect_cache(stale_cache, cache_path=path)  # noqa: SLF001
 
             # Load cache — expired entries should be skipped.
             loaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
