@@ -18,7 +18,8 @@ from . import config as _cfg
 __all__ = ()
 
 
-"Regex for matching GFM table separator cells (e.g. ``---``, ``:--``, ``--:``, ``:-:``)."
+#: Regex for matching GFM table separator cells (e.g. ``---``, ``:--``, ``--:``,
+#: ``:-:``).
 _SEPARATOR_CELL_RE: Pattern[str] = compile(r":?-+:?")
 
 
@@ -172,9 +173,9 @@ def _format_separator_cell(width: int, alignment: str) -> str:
     return ":" + "-" * (width - 2) + ":"
 
 
-"""Characters that are zero-width in terminal display but count as width 1 in
-Python ``len()``.  MD060 (table-column-style) fires when these skew column
-widths.  Strip them from table cell content before computing widths."""
+#: Characters that are zero-width in terminal display but count as width 1 in
+#: Python ``len()``.  MD060 (table-column-style) fires when these skew column
+#: widths.  Strip them from table cell content before computing widths.
 _ZERO_WIDTH_CHARS_RE = re.compile("[\u200b\u200c\u200d\u2060\ufeff]")
 
 

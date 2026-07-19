@@ -68,9 +68,8 @@ def _load_redirect_cache(
     cache_path:
         Path to the cache JSON file.
     """
-    path = cache_path
     try:
-        with open(path, "r", encoding="UTF-8") as f:
+        with open(cache_path, "r", encoding="UTF-8") as f:
             data = _cfg._json_load(f)
         if not isinstance(data, dict):
             return {}

@@ -606,13 +606,13 @@ class WikiHtmlConverter:
     def _escape_flashcard_delimiters(text: str) -> str:
         """Insert spaces around flashcard and LaTeX delimiters inside math."""
         text = (
-            text.replace(R":@:", R": @ :")
-            .replace(R"?@?", R"? @ ?")
-            .replace(R"{@{", R"{ @ {")
-            .replace(R"}@}", R"} @ }")
+            text.replace(":@:", ": @ :")
+            .replace("?@?", "? @ ?")
+            .replace("{@{", "{ @ {")
+            .replace("}@}", "} @ }")
         )
         while True:
-            new_text = text.replace(R"{{", "{ {").replace(R"}}", "} }")
+            new_text = text.replace("{{", "{ {").replace("}}", "} }")
             if new_text == text:
                 break
             text = new_text
