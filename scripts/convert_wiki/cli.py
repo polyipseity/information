@@ -9,6 +9,7 @@ from logging import INFO, basicConfig
 from pathlib import Path as PathlibPath
 from sys import stderr, stdin
 
+import anyio
 from asyncer import runnify
 from bs4 import BeautifulSoup
 from jaraco.clipboard import paste_html
@@ -98,8 +99,8 @@ async def main() -> None:
         result: ArchiveResult = await pyarchivist_archive(
             Args(
                 inputs=tuple(out_to_archive),
-                dest=PathlibPath("../archives/Wikimedia Commons/"),
-                index=PathlibPath("../archives/Wikimedia Commons/index.md"),
+                dest=anyio.Path("../archives/Wikimedia Commons/"),
+                index=anyio.Path("../archives/Wikimedia Commons/index.md"),
                 ignore_individual_errors=True,
                 skip_existing=True,
                 request_timeout=30.0,

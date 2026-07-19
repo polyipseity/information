@@ -17,15 +17,12 @@ from bs4 import BeautifulSoup, Tag
 from yarl import URL
 
 from . import config as _cfg
-from .types import _RedirectInfo
+from .converter import WikiHtmlConverter
+from .types import _ApiResponse, _RedirectInfo
 from .utils import _get_image_filename
 
 """Exported names from this module."""
 __all__ = ()
-
-"""Type alias for the API response body of a MediaWiki ``action=query``
-request, to be unpacked before type narrowing."""
-_ApiResponse = dict
 
 
 def _collect_link_titles(html: Tag) -> set[str]:
@@ -210,9 +207,7 @@ async def _resolve_redirects(
                 redirected_from.add(r["from"])
         for title in batch:
             if title not in redirected_from:
-                cache.setdefault(
-                    title, _RedirectInfo(to=title, cached_at=now_iso)
-                )
+                cache.setdefault(title, _RedirectInfo(to=title, cached_at=now_iso))
     _save_redirect_cache(cache, cache_path=cache_path)
     return cache
 
@@ -267,9 +262,6 @@ async def _resolve_image_metadata(
                 for a_tag in fragment.find_all("a"):
                     if a_tag.has_attr("title"):
                         del a_tag["title"]
-                # Lazy import to avoid circular dependency:
-                # api.py ⟶ converter.py but converter.py ⟶ types.py (not api.py).
-                from .converter import WikiHtmlConverter  # noqa: PLC0415
 
                 desc_converter = WikiHtmlConverter()
                 desc = fragment.div

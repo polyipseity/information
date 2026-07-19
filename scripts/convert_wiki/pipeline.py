@@ -29,9 +29,7 @@ from .utils import _pad_table_blocks
 __all__ = ()
 
 #: Regex for MD028 suppression between adjacent blockquote blocks.
-_MD028_RE = re.compile(
-    r"(^(?:>[^\n]*\n)+)\n+(^>(?:[^\n]*\n?)+)", re.MULTILINE
-)
+_MD028_RE = re.compile(r"(^(?:>[^\n]*\n)+)\n+(^>(?:[^\n]*\n?)+)", re.MULTILINE)
 
 
 async def wiki_html_to_plaintext(
@@ -80,9 +78,7 @@ async def wiki_html_to_plaintext(
     # Pad table columns to the widest content per column.
     result = _pad_table_blocks(result)
     # Insert MD028 suppression comments between adjacent blockquote blocks.
-    result = _MD028_RE.sub(
-        r"\1\n<!-- markdownlint MD028 -->\n\n\2", result
-    )
+    result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", result)
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
     return result.strip()
@@ -187,7 +183,7 @@ async def run_pipeline(
         resolved_cache_path: PurePath = (
             cache_path if cache_path is not None else _cfg._REDIRECT_CACHE_PATH
         )
-        titles = await _collect_link_titles(html)
+        titles = _collect_link_titles(html)
         cache = _load_redirect_cache(cache_path=resolved_cache_path)
         redirect_map = await _resolve_redirects(
             session, titles, cache, cache_path=resolved_cache_path
@@ -196,9 +192,7 @@ async def run_pipeline(
     # Resolve image metadata if needed.
     if image_metadata is None:
         image_filenames = _collect_image_filenames(html)
-        image_metadata = await _resolve_image_metadata(
-            session, image_filenames
-        )
+        image_metadata = await _resolve_image_metadata(session, image_filenames)
 
     # Convert.
     converter = WikiHtmlConverter(

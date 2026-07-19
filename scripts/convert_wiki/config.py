@@ -13,7 +13,6 @@ from json import load as _json_load  # noqa: F401
 from logging import getLogger
 from os import PathLike, chdir, getcwd, scandir
 from pathlib import Path as PathlibPath
-from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
 from sys import version
@@ -94,10 +93,6 @@ _PRESERVED_PAGE_PREFIXES = {
     "wiktionary:": "https://en.wiktionary.org/wiki/{}",
 }
 
-"HTML child tag names for table cells."
-_TD_OR_TH: Set[str] = frozenset({"td", "th"})
-"HTML child tag names for bold/italic inline elements."
-_BOLD_OR_ITALIC: Set[str] = frozenset({"b", "em", "i", "strong"})
 
 # Markdown formatting constants
 "Indentation string for nested Markdown lists."
@@ -109,8 +104,6 @@ _MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}\xa0".translate(
         ord("_"): "",
     }
 )
-"HTML comment used as a Markdown formatting separator."
-_MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
 "Constant mapping table column alignment specifiers to string justification methods."
 _JUSTIFY_MAP: dict[str, Callable[[str, int], str]] = {
     "---": str.ljust,
@@ -137,7 +130,7 @@ _NAMES_MAP: dict[str, str]
 
 
 def _build_names_map(
-    name_map_path: PurePath | None = None,
+    name_map_path: PathlibPath | None = None,
     wiki_dir: PathlibPath | None = None,
 ) -> dict[str, str]:
     """Build the combined filename rename map from the JSONC file and wiki directory scan.

@@ -4,8 +4,9 @@ Contains ``_RedirectInfo``, ``_HandlerConfig``, ``_RedirectItem``,
 ``_ApiQueryBody``, and ``_ApiResponse``.
 """
 
+from collections.abc import Callable
 from dataclasses import dataclass
-from typing import Callable, NotRequired, TypedDict
+from typing import NotRequired, TypedDict
 
 """Exported names from this module."""
 __all__ = ()
@@ -31,14 +32,34 @@ _RedirectItem = TypedDict(
 )
 
 
+class _ExtMetadataValue(TypedDict, total=False):
+    """A single value in the ``extmetadata`` dict of an ``imageinfo`` entry."""
+
+    value: str
+
+
+class _ImageInfo(TypedDict, total=False):
+    """A single ``imageinfo`` entry for a page in a MediaWiki API response."""
+
+    extmetadata: dict[str, _ExtMetadataValue]
+
+
+class _ApiPage(TypedDict, total=False):
+    """A ``page`` entry in the ``query`` section of a MediaWiki API response."""
+
+    title: str
+    imageinfo: list[_ImageInfo]
+
+
 class _ApiQueryBody(TypedDict, total=False):
     """The ``query`` section of a MediaWiki API response."""
 
     redirects: list[_RedirectItem]
+    pages: list[_ApiPage]
 
 
 class _ApiResponse(TypedDict, total=False):
-    """A MediaWiki ``action=query`` API response with redirects."""
+    """A MediaWiki ``action=query`` API response with redirects and pages."""
 
     query: _ApiQueryBody
 

@@ -7,19 +7,15 @@ when the module was monolithic.
 
 # isort: skip_file
 
-# Re-export from os (was module-level in the monolithic file)
-from os import chdir, getcwd
-
 # Re-export from bs4 (was module-level in the monolithic file)
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup  # noqa: F401
 
 # Re-export from pyarchivist (was module-level in the monolithic file)
-from pyarchivist import ArchiveResult, Args
-from pyarchivist.Wikimedia_Commons import archive as pyarchivist_archive
+from pyarchivist import Args  # noqa: F401
+from pyarchivist.Wikimedia_Commons import archive as pyarchivist_archive  # noqa: F401
 
 # Config / constants
-from . import config as _cfg
-from .config import (
+from .config import (  # noqa: F401
     AUTHORS,
     BASE_NAME,
     NAME,
@@ -36,14 +32,13 @@ from .config import (
     _BAD_TITLES,
     _build_names_map,
     _CACHE_TTL,
+    _COMMONS_HOST_URL,
     _CONVERTED_WIKI_DIRECTORY,
     _CONVERTED_WIKI_LANGUAGE_DIRECTORY,
     _DATA_DIRECTORY,
-    _HEADER_REGEX,
     _IGNORED_NAME_PREFIXES,
     _LIST_INDENT,
     _MARKDOWN_ESCAPE_REGEX,
-    _MARKDOWN_SEPARATOR,
     _MARKDOWN_SEPARATOR_CHARACTERS,
     _MAX_CONCURRENT_REQUESTS_PER_HOST,
     _NAMES_MAP,
@@ -57,10 +52,11 @@ from .config import (
 )
 
 # Types
-from .types import _RedirectInfo
+from .types import _RedirectInfo  # noqa: F401
 
 # Utilities
-from .utils import (
+from .utils import (  # noqa: F401
+    _balance_brackets,
     _bs4_new_element,
     _fix_filename,
     _fix_name_maybe,
@@ -72,7 +68,7 @@ from .utils import (
 )
 
 # API / network helpers
-from .api import (
+from .api import (  # noqa: F401
     _api_request,
     _collect_image_filenames,
     _collect_link_titles,
@@ -82,7 +78,14 @@ from .api import (
 )
 
 # Converter
-from .converter import WikiHtmlConverter
+from .converter import (  # noqa: F401
+    WikiHtmlConverter,
+    _HEADER_REGEX,
+    _MARKDOWN_SEPARATOR,
+)
 
 # Pipeline
-from .pipeline import run_pipeline
+from .pipeline import (  # noqa: F401
+    run_pipeline,
+    wiki_html_to_plaintext,
+)

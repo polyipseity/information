@@ -4,6 +4,7 @@ Pure helper functions with no class dependencies.
 """
 
 import re
+from collections.abc import Mapping
 from re import Pattern, compile
 from urllib.parse import unquote
 
@@ -26,7 +27,7 @@ def _fix_name_maybe(
     *,
     normalize: bool = True,
     replace_underscores: bool = False,
-    names_map: dict[str, str] | None = None,
+    names_map: Mapping[str, str] | None = None,
 ) -> str:
     """Normalise a Wikipedia page title via the name map with fallback.
 
@@ -103,6 +104,9 @@ def _bs4_new_element(html: str) -> Tag | NavigableString:
     element = next(iter(soup), None)
     if element is None or isinstance(element, NavigableString):
         msg = f"Could not parse HTML: {html!r}"
+        raise ValueError(msg)
+    if not isinstance(element, Tag):
+        msg = f"Expected a Tag element, got {type(element).__name__}: {html!r}"
         raise ValueError(msg)
     return element
 
