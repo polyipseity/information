@@ -24,7 +24,7 @@ Environmental Engineering and Management
 What is Environmental Engineering?
 
 - What is environmental engineering? ::@:: Apply science and engineering principles to solve environmental problems. <!--SR:!2028-03-10,1079,350!fsrs,2032-11-07T00:00:00.000Z,2323,2322.84090808,1,2,10,0,0,2026-06-29T00:00:00.000Z-->
-  - environmental engineering relevance ::@:: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2031-08-12,1969,330!2027-02-26,770,330-->
+    - environmental engineering relevance ::@:: practical and lots of satisfaction, prevent environment deterioration, related to daily life <!--SR:!2031-08-12,1969,330!2027-02-26,770,330-->
 
 ## page 3
 
@@ -177,8 +177,8 @@ Is it a serious problem in Hong Kong?
 Daily Domestic Waste Generation Rates per Capita Compared
 
 - daily domestic waste generation rate per capita (DPWGR per capita)
-  - DPWGR per capita in Hong Kong ::@:: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2027-06-01,780,290!2027-05-29,790,330-->
-  - DPWGR per capita other locations ::@:: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!fsrs,2032-02-15T00:00:00.000Z,2068,2068.31345621,1,2,10,0,0,2026-06-18T00:00:00.000Z!2027-04-21,802,330-->
+    - DPWGR per capita in Hong Kong ::@:: 1.36 kg/person/day, recycling rate: 37% <!--SR:!2027-06-01,780,290!2027-05-29,790,330-->
+    - DPWGR per capita other locations ::@:: Metro Tokyo: 0.77 kg/person/day, Seoul City: 0.95 kg/person/day, Taipei city: 1.00 kg/person/day <!--SR:!fsrs,2032-02-15T00:00:00.000Z,2068,2068.31345621,1,2,10,0,0,2026-06-18T00:00:00.000Z!2027-04-21,802,330-->
 
 ## page 10
 
@@ -191,33 +191,33 @@ Landfills in Hong Kong
 Sustainable Waste Management
 
 - sustainable waste management triangle ::@:: top: waste avoidance + 3Rs, left: incineration (waste-to-energy), right: landfill (methane (CH<sub>4</sub>) to energy) <!--SR:!2028-04-22,1036,310!2029-11-21,1524,330-->
-  - sustainable waste management triangle arrows ::@:: top → left, right; left → right <!--SR:!2026-09-10,632,330!2027-06-05,849,330-->
+    - sustainable waste management triangle arrows ::@:: top → left, right; left → right <!--SR:!2026-09-10,632,330!2027-06-05,849,330-->
 
 ## page 12
 
 3Rs Concept
 
 - 3Rs ::@:: (highest priority) reduce, reuse, recycle (lowest priority) <!--SR:!2029-05-29,1427,350!2027-07-12,859,330-->
-  - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2027-05-14,781,330!2028-07-09,1174,350-->
-  - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!fsrs,2031-10-29T00:00:00.000Z,1960,1959.87371981,1,2,10,0,0,2026-06-17T00:00:00.000Z!2026-11-30,694,330-->
-  - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2031-12-11,2095,330!2028-06-07,1147,350-->
-    - recycle example ::@:: plastic bottle (PET or HDPE) → chips → fiber → T-shirt or bag <!--SR:!2030-08-04,1648,310!2027-05-11,776,330-->
+    - reduce ::@:: reduce the amount of solid waste generation <!--SR:!2027-05-14,781,330!2028-07-09,1174,350-->
+    - reuse ::@:: multiple uses of an item in its original form with or without reconditioning <!--SR:!fsrs,2031-10-29T00:00:00.000Z,1960,1959.87371981,1,2,10,0,0,2026-06-17T00:00:00.000Z!2026-11-30,694,330-->
+    - recycle ::@:: materials are collected and recovered to be used as raw material <!--SR:!2031-12-11,2095,330!2028-06-07,1147,350-->
+        - recycle example ::@:: plastic bottle (PET or HDPE) → chips → fiber → T-shirt or bag <!--SR:!2030-08-04,1648,310!2027-05-11,776,330-->
 
 ## page 13
 
 How to provide motivation for waste reduction, reuse and recycling?
 
 - How to charge your MSW? ::@:: fixed charge, proxy system, quantity-based system <!--SR:!2027-03-13,781,330!2026-09-03,634,330-->
-  - quantity-based system example ::@:: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2027-12-28,924,290!2028-07-23,1001,290-->
+    - quantity-based system example ::@:: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2027-12-28,924,290!2028-07-23,1001,290-->
 
 ## page 14
 
 MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!2026-07-25,420,250!2027-07-03,807,290-->
-  - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2026-11-26,631,310!fsrs,2033-01-17T00:00:00.000Z,2375,2374.84465143,1,2,10,0,0,2026-07-18T00:00:00.000Z-->
-  - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2027-01-13,679,290!2028-04-24,1113,350-->
-  - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2029-09-07,1423,330!2026-09-01,583,310-->
+    - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2026-11-26,631,310!fsrs,2033-01-17T00:00:00.000Z,2375,2374.84465143,1,2,10,0,0,2026-07-18T00:00:00.000Z-->
+    - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2027-01-13,679,290!2028-04-24,1113,350-->
+    - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2029-09-07,1423,330!2026-09-01,583,310-->
 
 Will this waste charging scheme waste generation?
 
@@ -226,10 +226,10 @@ Will this waste charging scheme waste generation?
 Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::@:: scheme to reduce plastic shopping bags <!--SR:!2028-03-25,1093,350!2027-06-27,849,330-->
-  - Environmental Levy Scheme launch time ::@:: launched in 2009 <!--SR:!2029-08-05,1429,330!2028-06-28,1163,350-->
-  - Environmental Levy Scheme coverage ::@:: 40 registered retailers with ~3100 retail outlets <!--SR:!2029-01-26,1265,310!2026-09-09,631,330-->
-  - Environmental Levy Scheme effect ::@:: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!fsrs,2030-12-05T00:00:00.000Z,1604,1604.12776295,2.98092302,2,10,0,0,2026-07-15T00:00:00.000Z!2030-12-31,1760,310-->
-  - Environmental Levy Scheme income ::@:: HK$25.5 million in 2009 <!--SR:!2027-03-06,719,290!2031-08-30,2016,330-->
+    - Environmental Levy Scheme launch time ::@:: launched in 2009 <!--SR:!2029-08-05,1429,330!2028-06-28,1163,350-->
+    - Environmental Levy Scheme coverage ::@:: 40 registered retailers with ~3100 retail outlets <!--SR:!2029-01-26,1265,310!2026-09-09,631,330-->
+    - Environmental Levy Scheme effect ::@:: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!fsrs,2030-12-05T00:00:00.000Z,1604,1604.12776295,2.98092302,2,10,0,0,2026-07-15T00:00:00.000Z!2030-12-31,1760,310-->
+    - Environmental Levy Scheme income ::@:: HK$25.5 million in 2009 <!--SR:!2027-03-06,719,290!2031-08-30,2016,330-->
 
 ## page 16
 
@@ -242,21 +242,21 @@ Water Pollution: A serious problem in Hong Kong?
 Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
 
 - Hong Kong Harbour Area Treatment Scheme Stage I ::@:: HATS Stage 1 <!--SR:!2028-03-09,1079,350!2028-06-02,1142,350-->
-  - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2028-07-05,991,290!2027-07-06,745,270-->
-  - HATS Stage 1 scheme cost ::@:: HK$8.2 billion <!--SR:!2026-12-26,574,290!2027-10-13,865,290-->
-  - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2027-12-19,911,290!2026-08-17,562,310-->
-  - HATS Stage 1 geographic coverage ::@:: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2026-11-06,570,270!2026-09-12,641,330-->
-  - HATS Stage 1 coverage in numbers ::@:: 3.5 million people, 75% from harbour area <!--SR:!2030-03-15,1547,310!2028-02-27,1001,310-->
-  - HATS Stage 1 capacities ::@:: current: ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2031-06-30,1969,330!2032-03-06,2163,330-->
+    - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2028-07-05,991,290!2027-07-06,745,270-->
+    - HATS Stage 1 scheme cost ::@:: HK$8.2 billion <!--SR:!2026-12-26,574,290!2027-10-13,865,290-->
+    - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2027-12-19,911,290!2026-08-17,562,310-->
+    - HATS Stage 1 geographic coverage ::@:: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2026-11-06,570,270!2026-09-12,641,330-->
+    - HATS Stage 1 coverage in numbers ::@:: 3.5 million people, 75% from harbour area <!--SR:!2030-03-15,1547,310!2028-02-27,1001,310-->
+    - HATS Stage 1 capacities ::@:: current: ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2031-06-30,1969,330!2032-03-06,2163,330-->
 
 ## page 18
 
 HATS Stage 2 Overview
 
 - Hong Kong Harbour Area Treatment Scheme Stage II ::@:: HATS Stage 2 <!--SR:!2028-05-16,1133,350!2028-10-29,1247,350-->
-  - HATS Stage 2 phases ::@:: 2 phases, stage 2A and stage 2B <!--SR:!2028-05-10,1124,350!2028-08-02,1183,350-->
-  - HATS Stage 2A ::@:: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2031-04-25,1787,290!2028-08-03,1117,310-->
-  - HATS Stage 2B ::@:: biological treatment <!--SR:!2026-08-29,577,310!2032-05-05,2167,330-->
+    - HATS Stage 2 phases ::@:: 2 phases, stage 2A and stage 2B <!--SR:!2028-05-10,1124,350!2028-08-02,1183,350-->
+    - HATS Stage 2A ::@:: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2031-04-25,1787,290!2028-08-03,1117,310-->
+    - HATS Stage 2B ::@:: biological treatment <!--SR:!2026-08-29,577,310!2032-05-05,2167,330-->
 
 ## page 19
 
@@ -267,8 +267,8 @@ HATS Stage 2A — Overall Layout
 Sewage Conveyance System
 
 - HATS Stage 2A
-  - HATS Stage 2A tunnel ::@:: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2030-06-23,1622,330!2026-10-11,597,310-->
-    - HATS Stage 2A tunnel sizes ::@:: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2029-04-06,1210,270!2029-01-29,1334,350-->
+    - HATS Stage 2A tunnel ::@:: a drop shaft, a tunnel, and a riser shaft, from PTWs to SCISTW across the Victoria Harbour <!--SR:!2030-06-23,1622,330!2026-10-11,597,310-->
+        - HATS Stage 2A tunnel sizes ::@:: 21 km tunnel, about 70 to 160 m (inside bedrock) below sea level <!--SR:!2029-04-06,1210,270!2029-01-29,1334,350-->
 
 ## page 21
 
@@ -281,7 +281,7 @@ Sewage Conveyance System
 Clean Victoria Harbor
 
 - HATS result ::@:: clean Victoria Harbor <!--SR:!2027-03-18,772,330!2028-02-13,1060,350-->
-  - HATS result example ::@:: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2029-02-09,1073,250!2028-03-03,1071,350-->
+    - HATS result example ::@:: On 2017-10-29, 3000 swimmers participate in a previously-discontinued annual cross-harbor race. The race continues to be held. <!--SR:!2029-02-09,1073,250!2028-03-03,1071,350-->
 
 ## page 23
 
@@ -294,22 +294,22 @@ Noise Pollution: A serious problem in Hong Kong?
 Noise Levels and Causes
 
 - noise level measure ::@:: sound pressure level, in dB(A) <!--SR:!2032-02-16,2118,330!2027-06-14,803,330-->
-  - airplane passing ::@:: 120 dB(A) <!--SR:!2027-05-25,827,330!2027-06-01,829,330-->
-  - construction site ::@:: 110 dB(A) <!--SR:!2028-12-27,1225,310!2027-02-10,686,310-->
-  - concert ::@:: 100 dB(A) <!--SR:!2027-09-22,918,330!2027-10-13,935,330-->
-  - drilling ::@:: 90 dB(A) <!--SR:!2026-09-07,584,310!2027-12-04,955,310-->
-  - train passing ::@:: 80 dB(A) <!--SR:!2026-11-09,619,310!2026-08-28,569,310-->
-  - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2026-10-04,595,310!2030-03-06,1537,310-->
-  - home with TV on ::@:: 60 dB(A) <!--SR:!2027-03-21,789,330!fsrs,2031-11-01T09:16:20.243Z,1966,1966.40047023,1,2,10,0,0,2026-06-14T09:16:20.243Z-->
-  - library ::@:: 40 dB(A) <!--SR:!2026-11-05,617,310!2031-09-06,1985,330-->
-  - park ::@:: 30 dB(A) <!--SR:!2028-07-06,1170,350!2027-10-14,961,350-->
+    - airplane passing ::@:: 120 dB(A) <!--SR:!2027-05-25,827,330!2027-06-01,829,330-->
+    - construction site ::@:: 110 dB(A) <!--SR:!2028-12-27,1225,310!2027-02-10,686,310-->
+    - concert ::@:: 100 dB(A) <!--SR:!2027-09-22,918,330!2027-10-13,935,330-->
+    - drilling ::@:: 90 dB(A) <!--SR:!2026-09-07,584,310!2027-12-04,955,310-->
+    - train passing ::@:: 80 dB(A) <!--SR:!2026-11-09,619,310!2026-08-28,569,310-->
+    - highway (harm threshold) ::@:: 70 dB(A) <!--SR:!2026-10-04,595,310!2030-03-06,1537,310-->
+    - home with TV on ::@:: 60 dB(A) <!--SR:!2027-03-21,789,330!fsrs,2031-11-01T09:16:20.243Z,1966,1966.40047023,1,2,10,0,0,2026-06-14T09:16:20.243Z-->
+    - library ::@:: 40 dB(A) <!--SR:!2026-11-05,617,310!2031-09-06,1985,330-->
+    - park ::@:: 30 dB(A) <!--SR:!2028-07-06,1170,350!2027-10-14,961,350-->
 
 ## page 25
 
 Properties of Sound Waves
 
 - sound level calculation ::@:: root mean square of sound pressure $p_{\text{rms} }$ is used <!--SR:!2027-08-20,891,330!2028-12-22,1301,350-->
-  - root mean square of sound pressure calculation ::@:: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2029-12-29,1491,310!2027-12-14,927,330-->
+    - root mean square of sound pressure calculation ::@:: $$p_{\text{rms} } = \left(\overline{p^2} \right)^{0.5} = \left(\frac 1 T \int_0^T \! p^2(t) \,\mathrm{d}t \right)^{0.5}$$, where $T$ is duration of time period concerned, $t$ is time, $p(t)$ is pressure that may varies with time, and the overbar means the average over time <!--SR:!2029-12-29,1491,310!2027-12-14,927,330-->
 
 ## page 26
 
@@ -318,26 +318,26 @@ Air Pollution: A serious problem in Hong Kong?
 - regional air pollution concerns ::@:: outdoor and indoor air pollution <!--SR:!2030-04-09,1636,330!2027-07-20,867,330-->
 - global air pollution concerns ::@:: acid rain and climate change <!--SR:!2028-11-02,1251,350!2027-01-03,720,330-->
 - 3 major reasons causing air pollution in Hong Kong: <https://youtube.com/watch?v=XVvsQyyZHVg&feature=related>
-  - industrial activities in China's Pearl River Delta
-  - land use change affects air circulation
-  - air pollution regulations are outdated (16 years old)
-  - 3 major reasons causing air pollution in Hong Kong ::@:: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!2026-09-12,588,310!2028-01-15,1005,330-->
+    - industrial activities in China's Pearl River Delta
+    - land use change affects air circulation
+    - air pollution regulations are outdated (16 years old)
+    - 3 major reasons causing air pollution in Hong Kong ::@:: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!2026-09-12,588,310!2028-01-15,1005,330-->
 
 ## page 27
 
 Air Quality Health Index
 
 - Air Quality Health Index ::@:: AQHI <!--SR:!2027-04-30,807,330!2029-03-02,1350,350-->
-  - AQHI history ::@:: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2031-03-14,1749,290!2028-08-23,1204,350-->
-  - AQHI scale ::@:: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2028-02-17,1060,350!2028-01-04,1028,350-->
-  - AQHI health risk categories ::@:: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2027-06-28,851,330!2027-04-02,750,330-->
+    - AQHI history ::@:: AQHI has replaced the Air Pollution Index (API) since 2013-12-30. <!--SR:!2031-03-14,1749,290!2028-08-23,1204,350-->
+    - AQHI scale ::@:: 1 to 10 and 10+, grouped into 5 health risk categories <!--SR:!2028-02-17,1060,350!2028-01-04,1028,350-->
+    - AQHI health risk categories ::@:: low (green): 1~3, moderate (yellow): 4~6, high (red): 7, very high (brown): 8~10, serious (black): 10+ <!--SR:!2027-06-28,851,330!2027-04-02,750,330-->
 
 ## page 28
 
 FORECAST of Health Risk
 
 - AQHI calculation ::@:: 3-hour moving average concentrations of 4 air pollutants <!--SR:!2027-04-07,788,330!2028-10-15,1233,350-->
-  - AQHI calculation main pollutants ::@:: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2029-12-31,1448,290!2028-05-01,1120,350-->
+    - AQHI calculation main pollutants ::@:: nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), particulate matter (PM<sub>2.5</sub>, PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>) <!--SR:!2029-12-31,1448,290!2028-05-01,1120,350-->
 
 ## page 29
 
@@ -345,10 +345,10 @@ Indoor Air Quality
 
 - sick building syndrome ::@:: fatigue, headache, nasal congestion <!--SR:!2028-11-03,1252,350!2027-11-25,995,350-->
 - common indoor air pollutant ::@:: 12 parameters <!--SR:!2031-01-03,1816,330!2028-08-26,1207,350-->
-  - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2027-08-04,819,290!2032-02-07,2101,330-->
-    - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2027-09-28,850,290!2029-12-25,1414,330-->
-    - carbon monoxide limits ::@:: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2028-05-08,823,230!fsrs,2031-10-21T00:00:00.000Z,1950,1949.97677109,1,2,10,0,0,2026-06-19T00:00:00.000Z-->
-    - respirable suspended particulate limits ::@:: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2027-09-15,837,290!2028-01-14,954,310-->
+    - common indoor air pollutant examples ::@:: carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), respirable suspended particulate (RSP/PM<sub>10</sub>) <!--SR:!2027-08-04,819,290!2032-02-07,2101,330-->
+        - carbon dioxide limits ::@:: excellent: < 800 ppmv; good: < 1000 ppmv <!--SR:!2027-09-28,850,290!2029-12-25,1414,330-->
+        - carbon monoxide limits ::@:: excellent: < 2000 μg/m<sup>3</sup>, < 1.7 ppmv; good: < 10000 μg/m<sup>3</sup>, < 8.7 ppmv <!--SR:!2028-05-08,823,230!fsrs,2031-10-21T00:00:00.000Z,1950,1949.97677109,1,2,10,0,0,2026-06-19T00:00:00.000Z-->
+        - respirable suspended particulate limits ::@:: excellent: < 20 μg/m<sup>3</sup>; good: < 180 μg/m<sup>3</sup> <!--SR:!2027-09-15,837,290!2028-01-14,954,310-->
 
 ## page 30
 
@@ -409,33 +409,33 @@ Observed Global Climate Change
 Observed climate change in Hong Kong
 
 - climate change consequences in Hong Kong ::@:: rainfall become more variable, sea level rises, temperature increases <!--SR:!2032-06-30,2245,330!2028-09-08,1220,350-->
-  - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2028-06-04,1147,350!2027-09-11,909,330-->
-  - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2028-02-21,1064,350!2027-02-05,754,330-->
-  - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2028-09-30,1087,270!2027-08-02,880,330-->
+    - temperature increase consequences ::@:: less cold days, more very hot days and hot nights <!--SR:!2028-06-04,1147,350!2027-09-11,909,330-->
+    - rainfall become more variable consequences ::@:: probability of rainfall extremes increases <!--SR:!2028-02-21,1064,350!2027-02-05,754,330-->
+    - climate change example in Hong Kong ::@:: On 2017-08-22, max temperature reaches 36.6 °C in the Hong Kong Observatory headquarters, coinciding with the super typhoon Hato. <!--SR:!2028-09-30,1087,270!2027-08-02,880,330-->
 
 ## page 33
 
 Concentration Units for Liquids
 
 - concentration units for liquids ::@:: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2027-12-20,912,290!2032-02-18,2144,330-->
-  - mass of substance per unit volume of mixture units for liquids ::@:: mol/L (mol is not strictly mass), mg/L <!--SR:!fsrs,2032-12-12T00:00:00.000Z,2347,2347.1286463,1,2,10,0,0,2026-07-10T00:00:00.000Z!2026-09-02,573,310-->
-  - mass of substance per unit mass of mixture units for liquids ::@:: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2026-12-05,636,310!2029-04-12,1391,350-->
+    - mass of substance per unit volume of mixture units for liquids ::@:: mol/L (mol is not strictly mass), mg/L <!--SR:!fsrs,2032-12-12T00:00:00.000Z,2347,2347.1286463,1,2,10,0,0,2026-07-10T00:00:00.000Z!2026-09-02,573,310-->
+    - mass of substance per unit mass of mixture units for liquids ::@:: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2026-12-05,636,310!2029-04-12,1391,350-->
 
 ## page 34
 
 Relationship between PPM and mg/L
 
 - relationship between ppm<sub>w</sub> and mg/L for dilute solutions ::@:: 1 mg/L ≈ 1 ppm<sub>w</sub>, 1 µg/L ≈ 1 ppb<sub>w</sub> <!--SR:!2028-07-13,996,290!2029-03-01,1349,350-->
-  - relationship between ppm<sub>w</sub> and mg/L derivation ::@:: convert the volume to mass or mass to volume using density <!--SR:!2027-10-05,929,330!2027-10-07,957,350-->
-  - density of water ::@:: about 1 kg/L <!--SR:!2028-12-12,1291,350!2027-04-12,758,330-->
+    - relationship between ppm<sub>w</sub> and mg/L derivation ::@:: convert the volume to mass or mass to volume using density <!--SR:!2027-10-05,929,330!2027-10-07,957,350-->
+    - density of water ::@:: about 1 kg/L <!--SR:!2028-12-12,1291,350!2027-04-12,758,330-->
 
 ## page 35
 
 Relationship between PPM and mg/L
 
 - relationship between ppm<sub>w</sub> and mg/L for other solutions
-  - relationship between ppm<sub>w</sub> and mg/L examples
-  - relationship between ppm<sub>w</sub> and mg/L for other solutions ::@:: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2028-05-11,956,290!2032-06-09,2197,330-->
+    - relationship between ppm<sub>w</sub> and mg/L examples
+    - relationship between ppm<sub>w</sub> and mg/L for other solutions ::@:: 1 mg/L = (1 / SG) ppm<sub>w</sub> <!--SR:!2028-05-11,956,290!2032-06-09,2197,330-->
 - specific gravity (SG) of a mixture ::@:: density of mixture divided by density of water <!--SR:!2028-04-23,1115,350!2028-11-16,1265,350-->
 
 ## page 36
@@ -443,20 +443,20 @@ Relationship between PPM and mg/L
 Concentration Units for Gases
 
 - concentration units for gases ::@:: mass of substance per unit volume of mixture, volume of substance per unit volume of mixture <!--SR:!2030-04-10,1548,310!2027-07-26,871,330-->
-  - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2028-07-24,1174,350!2026-08-08,592,310-->
-  - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2026-10-08,598,310!fsrs,2030-04-05T09:16:21.904Z,1391,1390.56494601,1,2,9,0,0,2026-06-14T09:16:21.904Z-->
+    - volume of substance per unit volume of mixture for gases ::@:: ppm by volume (ppm<sub>v</sub>) <!--SR:!2028-07-24,1174,350!2026-08-08,592,310-->
+    - mass of substance per unit volume of mixture for gases ::@:: µg/m<sup>3</sup>, mg/m<sup>3</sup> <!--SR:!2026-10-08,598,310!fsrs,2030-04-05T09:16:21.904Z,1391,1390.56494601,1,2,9,0,0,2026-06-14T09:16:21.904Z-->
 
 ## page 37
 
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> ::@:: [ideal gas law](../../../../../general/ideal%20gas%20law.md) <!--SR:!2027-12-03,970,330!2026-07-28,609,330-->
-  - ideal gas law equation ::@:: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!fsrs,2032-04-26T00:00:00.000Z,2117,2117.35503106,1,2,10,0,0,2026-07-10T00:00:00.000Z!2028-10-24,1242,350-->
+    - ideal gas law equation ::@:: $$pV = nRT$$, where $p$ is the absolute pressure in atm, $V$ is the volume in m<sup>3</sup>, $n$ is the number of moles, $R \approx 0.082056\mathrm{\ L \cdot atm \cdot K^{-1} \cdot mol^{-1} }$ is the [ideal gas constant](../../../../../general/gas%20constant.md), and $T$ is the absolute temperature in K <!--SR:!fsrs,2032-04-26T00:00:00.000Z,2117,2117.35503106,1,2,10,0,0,2026-07-10T00:00:00.000Z!2028-10-24,1242,350-->
 
 ## page 38
 
 Relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
 
 - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup>
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::@:: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2027-08-10,735,290!2028-06-06,971,290-->
-  - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::@:: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2028-04-07,999,290!2027-09-24,803,290-->
+    - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at 0 °C and 1 atm ::@:: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {22.414\mathrm{\ (L/mol)} }$$ <!--SR:!2027-08-10,735,290!2028-06-06,971,290-->
+    - relationship between ppm<sub>v</sub> and mg/m<sup>3</sup> at other temperature and pressure ::@:: $$\mathrm{conc.\ \left(mg/m^3\right)} = \frac {\mathrm{conc.\ (ppm_v)} \times \mathrm{mol.\ wt.\ (g/mol)} } {\mathrm{22.414\ (L/mol)} } \times \frac {273.15\mathrm{\ K} } {T\mathrm{\ (K)} } \times \frac {p\mathrm{\ (atm)} } {1\mathrm{\ atm} }$$ <!--SR:!2028-04-07,999,290!2027-09-24,803,290-->

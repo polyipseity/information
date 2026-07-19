@@ -26,11 +26,11 @@ tags:
 The content is in teaching order.
 
 - grading
-  - scheme
-    - participation: 10%
-    - homework: 20%
-    - final examination: 40%
-    - course project: 30%
+    - scheme
+        - participation: 10%
+        - homework: 20%
+        - final examination: 40%
+        - course project: 30%
 
 ## children
 
@@ -59,71 +59,71 @@ The content is in teaching order.
 - datetime: 2025-09-02T16:30:00+08:00/2025-09-02T17:50:00+08:00, PT1H20M
 - topic: logistics; real-world applications of data science in physical, chemical, and life sciences
 - BIEN 3300
-  - BIEN 3300 / logistics
-  - BIEN 3300 / getting to know us ::@:: What year are you? What subject(s) are you best at? How familiar are you with data science? Q&A <!--SR:!2026-10-18,287,330!2026-09-01,254,330-->
-  - BIEN 3300 / rules
+    - BIEN 3300 / logistics
+    - BIEN 3300 / getting to know us ::@:: What year are you? What subject(s) are you best at? How familiar are you with data science? Q&A <!--SR:!2026-10-18,287,330!2026-09-01,254,330-->
+    - BIEN 3300 / rules
 - [data](../../../../general/data.md) ::@:: They are a collection of discrete or continuous values that convey information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally. <!--SR:!2026-10-06,275,330!2026-10-22,291,330-->
 - [data science](../../../../general/data%20science.md) ::@:: It is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms and systems to extract or extrapolate knowledge from potentially noisy, structured, or unstructured data. <!--SR:!2026-09-22,261,330!2026-08-07,233,330-->
-  - data science / learning ::@:: Given input data and output data, data science allows us to learn things from it and apply it to new input data. <!--SR:!2026-09-23,262,330!2026-08-22,246,330-->
-  - data science / examples ::@:: AlphaFold \(protein structure prediction\), AlphaGo <!--SR:!2026-10-02,271,330!2026-08-14,239,330-->
-    - data science / examples / chemistry ::@:: process optimization, protein structure prediction \(AlphaFold\), reaction condition prediction, reaction optimization, synthesis planning, etc. <!--SR:!2026-10-06,275,330!2026-08-28,251,330-->
-    - data science / examples / molecular engineering ::@:: antibody discovery, drug discovery, genomics, protein structure prediction, materials design, simulation and modeling, etc. <!--SR:!2026-10-07,276,330!2026-08-12,237,330-->
-  - data science / vs. AI ::@:: The former extracts _knowledge_ and _insights_ from structured and unstructured data. The latter builds systems that can perform tasks typically requiring human _intelligence_. <p> \(__this course__: They are used interchangeably in this course.\) <!--SR:!2026-10-19,288,330!2026-10-03,272,330-->
+    - data science / learning ::@:: Given input data and output data, data science allows us to learn things from it and apply it to new input data. <!--SR:!2026-09-23,262,330!2026-08-22,246,330-->
+    - data science / examples ::@:: AlphaFold \(protein structure prediction\), AlphaGo <!--SR:!2026-10-02,271,330!2026-08-14,239,330-->
+        - data science / examples / chemistry ::@:: process optimization, protein structure prediction \(AlphaFold\), reaction condition prediction, reaction optimization, synthesis planning, etc. <!--SR:!2026-10-06,275,330!2026-08-28,251,330-->
+        - data science / examples / molecular engineering ::@:: antibody discovery, drug discovery, genomics, protein structure prediction, materials design, simulation and modeling, etc. <!--SR:!2026-10-07,276,330!2026-08-12,237,330-->
+    - data science / vs. AI ::@:: The former extracts _knowledge_ and _insights_ from structured and unstructured data. The latter builds systems that can perform tasks typically requiring human _intelligence_. <p> \(__this course__: They are used interchangeably in this course.\) <!--SR:!2026-10-19,288,330!2026-10-03,272,330-->
 - [molecular engineering](../../../../general/molecular%20engineering.md) ::@:: It is an emerging field of study concerned with the design and testing of molecular properties, behavior and interactions in order to assemble better materials, systems, and processes for specific functions. <!--SR:!2026-09-16,255,330!2026-08-05,231,330-->
-  - molecular engineering / data science ::@:: Analyze, make predictions about molecules, and design molecules. <p> It is helpful because we do not have _complete_ knowledge of underlying rules of interactions between molecules. <!--SR:!2026-09-29,268,330!2026-10-16,285,330-->
+    - molecular engineering / data science ::@:: Analyze, make predictions about molecules, and design molecules. <p> It is helpful because we do not have _complete_ knowledge of underlying rules of interactions between molecules. <!--SR:!2026-09-29,268,330!2026-10-16,285,330-->
 - data science
-  - data science / examples
-    - data science / examples / chemistry
-    - data science / examples / molecular engineering
+    - data science / examples
+        - data science / examples / chemistry
+        - data science / examples / molecular engineering
 - BIEN 3300
-  - BIEN 3300 / course intended learning outcomes \(CILOs\)
-  - BIEN 3300 / grading
-  - BIEN 3300 / homework
-    - BIEN 3300 / homework / rules
-  - BIEN 3300 / project ::@:: Choose a data science problem \(preferably in molecular engineering\). Define problem. Collect data. Use existing models or develop new models. Train and/or evaluate models. Analyze results. Present findings. <!--SR:!2026-10-02,271,330!2026-09-02,255,330-->
-  - BIEN 3300 / format
-    - BIEN 3300 / format / lectures
-    - BIEN 3300 / format / tutorials
-  - BIEN 3300 / schedule
-  - BIEN 3300 / most unclear discussion \(MUD\) ::@:: Slido is used to collect feedback on what the instructor can improve on. <!--SR:!2026-08-24,247,330!2026-09-29,268,330-->
+    - BIEN 3300 / course intended learning outcomes \(CILOs\)
+    - BIEN 3300 / grading
+    - BIEN 3300 / homework
+        - BIEN 3300 / homework / rules
+    - BIEN 3300 / project ::@:: Choose a data science problem \(preferably in molecular engineering\). Define problem. Collect data. Use existing models or develop new models. Train and/or evaluate models. Analyze results. Present findings. <!--SR:!2026-10-02,271,330!2026-09-02,255,330-->
+    - BIEN 3300 / format
+        - BIEN 3300 / format / lectures
+        - BIEN 3300 / format / tutorials
+    - BIEN 3300 / schedule
+    - BIEN 3300 / most unclear discussion \(MUD\) ::@:: Slido is used to collect feedback on what the instructor can improve on. <!--SR:!2026-08-24,247,330!2026-09-29,268,330-->
 
 ## week 1 lecture 2
 
 - datetime: 2025-09-04T16:30:00+08:00/2025-09-04T17:50:00+08:00, PT1H20M
 - topic: Python syntax; Python variables; Python scripting
 - [Python](Python/Python.md)
-  - [§ installation](Python/Python.md#installation)
-  - Python / terminal ::@:: You can type `python` in a terminal to enter its REPL. Then you can run Python code. <!--SR:!2026-10-12,281,330!2026-09-17,256,330-->
-  - Python / [basics](Python/basics.md)
-    - [§ operators](Python/basics.md#operators)
-    - [§ arithmetic operators](Python/basics.md#arithmetic%20operators)
-  - Python / [console](Python/console.md)
-    - [§ print](Python/console.md#print)
-  - Python / [comment](Python/comment.md)
-    - [§ comment](Python/comment.md#comment)
-  - Python / scripts ::@:: You can write Python scripts like a text document. Remember to change the extension from `.txt` to `.py`. <!--SR:!2026-08-21,245,330!2026-09-29,268,330-->
-  - Python / [basics](Python/basics.md)
-    - [§ variable](Python/basics.md#variable)
-    - [§ augmented assignment](Python/basics.md#augmented%20assignment)
-  - Python / [variable](Python/variable.md)
-    - [§ scope](Python/variable.md#scope)
-  - Python / [sequence](Python/sequence.md)
-    - [§ string](Python/sequence.md#string)
-    - [§ length](Python/sequence.md#length)
-    - [§ concatenation](Python/sequence.md#concatenation)
-    - [§ indexing](Python/sequence.md#indexing)
-  - Python / [string](Python/string.md)
-    - [§ formatting](Python/string.md#formatting)
-    - [§ string concatenation](Python/string.md#string%20concatenation)
-    - [§ `str.format`](Python/string.md#`str.format`)
-    - [§ f-string](Python/string.md#f-string)
-  - Python / [control flow](Python/control%20flow.md)
-    - [§ iteration](Python/control%20flow.md#iteration)
-  - Python / [basics](Python/basics.md)
-    - [§ comparison operators](Python/basics.md#comparison%20operators)
-    - [§ logic operators](Python/basics.md#logic%20operators)
-  - Python / [control flow](Python/control%20flow.md)
-    - [§ branching](Python/control%20flow.md#branching)
+    - [§ installation](Python/Python.md#installation)
+    - Python / terminal ::@:: You can type `python` in a terminal to enter its REPL. Then you can run Python code. <!--SR:!2026-10-12,281,330!2026-09-17,256,330-->
+    - Python / [basics](Python/basics.md)
+        - [§ operators](Python/basics.md#operators)
+        - [§ arithmetic operators](Python/basics.md#arithmetic%20operators)
+    - Python / [console](Python/console.md)
+        - [§ print](Python/console.md#print)
+    - Python / [comment](Python/comment.md)
+        - [§ comment](Python/comment.md#comment)
+    - Python / scripts ::@:: You can write Python scripts like a text document. Remember to change the extension from `.txt` to `.py`. <!--SR:!2026-08-21,245,330!2026-09-29,268,330-->
+    - Python / [basics](Python/basics.md)
+        - [§ variable](Python/basics.md#variable)
+        - [§ augmented assignment](Python/basics.md#augmented%20assignment)
+    - Python / [variable](Python/variable.md)
+        - [§ scope](Python/variable.md#scope)
+    - Python / [sequence](Python/sequence.md)
+        - [§ string](Python/sequence.md#string)
+        - [§ length](Python/sequence.md#length)
+        - [§ concatenation](Python/sequence.md#concatenation)
+        - [§ indexing](Python/sequence.md#indexing)
+    - Python / [string](Python/string.md)
+        - [§ formatting](Python/string.md#formatting)
+        - [§ string concatenation](Python/string.md#string%20concatenation)
+        - [§ `str.format`](Python/string.md#`str.format`)
+        - [§ f-string](Python/string.md#f-string)
+    - Python / [control flow](Python/control%20flow.md)
+        - [§ iteration](Python/control%20flow.md#iteration)
+    - Python / [basics](Python/basics.md)
+        - [§ comparison operators](Python/basics.md#comparison%20operators)
+        - [§ logic operators](Python/basics.md#logic%20operators)
+    - Python / [control flow](Python/control%20flow.md)
+        - [§ branching](Python/control%20flow.md#branching)
 - quiz: [pre-quiz](questions/pre-quiz.md)
 
 ## week 2 tutorial
@@ -141,4 +141,4 @@ The content is in teaching order.
 ### total
 
 - grades: ?/100
-  - statistics: ?
+    - statistics: ?

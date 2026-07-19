@@ -271,7 +271,7 @@ For `Tree.updated`, one possible implementation would be to peek at the next seg
 ## submission
 
 - file: [`submission.scala`](submission.scala)
-  - filename: `Tree.scala`
-  - source
-    - [`submission/`](submission/)
-    - [`submission/src/main/scala/ass1/Tree.scala`](submission/src/main/scala/ass1/Tree.scala)
+    - filename: `Tree.scala`
+    - source
+        - [`submission/`](submission/)
+        - [`submission/src/main/scala/ass1/Tree.scala`](submission/src/main/scala/ass1/Tree.scala)

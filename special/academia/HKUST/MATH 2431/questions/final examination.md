@@ -131,10 +131,10 @@ This page summarizes the written questions from the official final examination m
 <!-- markdownlint MD028 -->
 
 > - (a) Consider $(X_n)_{n\ge1}$ with $P[X_n=0]=1-1/n^2$, $P[X_n=n^\alpha]=1/n^2$ for $\alpha>0$.
->   - Define convergence in probability and almost sure convergence.
->   - Does $X_n\xrightarrow{P}0$?
->   - For which $r>0$ does $\mathbb E[X_n^r]\to0$?
->   - Does $X_n\to0$ almost surely?
+>     - Define convergence in probability and almost sure convergence.
+>     - Does $X_n\xrightarrow{P}0$?
+>     - For which $r>0$ does $\mathbb E[X_n^r]\to0$?
+>     - Does $X_n\to0$ almost surely?
 > - (b) Let $(U_n)_{n\ge1}$ be i.i.d. $U([0,1])$. For $0<a<b$, compute
 > $$\lim_{n\to\infty}P\left[(U_1\cdots U_n)^{n^{-1/2}}e^{n^{1/2}}\in[a,b]\right].$$
 >

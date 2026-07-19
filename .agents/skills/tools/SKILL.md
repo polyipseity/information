@@ -49,12 +49,12 @@ The `scripts/` directory contains all helper scripts and utilities:
 ### Subfolder tools
 
 - __`scripts/special/`__: Academic LMS converters and course management (see `tools-special` skill)
-  - Canvas/HKUST Zinc converters
-  - Course catalog fetchers
+    - Canvas/HKUST Zinc converters
+    - Course catalog fetchers
 
 - __`scripts/templates/`__: Note scaffolding and pytextgen templates (see `tools-templates` skill)
-  - `new_wiki_page.py`
-  - `pytextgen generate *.md` templates
+    - `new_wiki_page.py`
+    - `pytextgen generate *.md` templates
 
 ## When to use this skill
 

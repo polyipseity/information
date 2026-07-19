@@ -42,7 +42,7 @@ If {@{$T_{\max}$ and $T_{\min}$}@} denote {@{the largest and smallest significan
 
 ### coherence bandwidth
 
-{@{The _coherence bandwidth_ $B_c$}@} describes {@{the frequency range over which a channel can be considered "flat"}@} – {@{all tones within this band}@} experience {@{essentially the same amplitude fading and linear phase shift}@}. <!--SR:!2026-12-07,255,330!2026-12-14,259,330!2026-11-21,241,330!2026-11-30,249,330-->  
+{@{The _coherence bandwidth_ $B_c$}@} describes {@{the frequency range over which a channel can be considered "flat"}@} – {@{all tones within this band}@} experience {@{essentially the same amplitude fading and linear phase shift}@}. <!--SR:!2026-12-07,255,330!2026-12-14,259,330!2026-11-21,241,330!2026-11-30,249,330-->
 
 It is defined statistically as {@{the maximum frequency separation $\Delta f$}@} for which {@{the magnitude of the correlation coefficient between two frequency responses remains above a chosen threshold}@}: {@{$$p(\Delta f)\;=\; \frac{\mathbb{E}\!\left[H(f)\,H^{*}(f-\Delta f)\right]} {\sqrt{\mathbb{E}[|H(f)|^2]\,\mathbb{E}[|H(f-\Delta f)|^2]} } \;\geq\; \text{threshold}.$$}@} {@{Typical thresholds}@} are {@{0.9 (90% correlation) or 0.5 (50% correlation)}@}. <!--SR:!2027-01-08,279,330!2026-11-24,244,330!2027-01-12,282,330!2026-12-06,254,330!2026-12-07,254,330-->
 
@@ -146,7 +146,7 @@ By comparing {@{the signal-level parameters to the channel limits}@} we classify
 
 - _Slow fading_: ::@:: $T_s \ll T_c$ – the channel changes much more slowly than the symbol duration. Often, this is a thousand or more symbol periods. (annotation: __this course__: For simplicity, treat $T_s < T_c$ as slow fading unless otherwise specified.) <!--SR:!2026-12-03,251,330!2026-12-10,256,330-->
 - _Fast fading_: ::@:: $T_s \gg T_c$ – significant channel variation occurs within ten to a few hundred symbol period. (annotation: __this course__: For simplicity, treat $T_s > T_c$ as fast fading unless otherwise specified.) <!--SR:!2026-11-05,227,330!2026-11-22,242,330-->
-  - _Very fast fading_: ::@:: $T_s < T_c$: the channel's coherence time is shorter than the symbol period, so the channel varies faster than the baseband signal (a very rare phenomenon in practical systems).  (annotation: __this course__: For simplicity, ignore this unless otherwise specified.) <!--SR:!2026-11-25,245,330!2026-11-12,234,330-->
+    - _Very fast fading_: ::@:: $T_s < T_c$: the channel's coherence time is shorter than the symbol period, so the channel varies faster than the baseband signal (a very rare phenomenon in practical systems).  (annotation: __this course__: For simplicity, ignore this unless otherwise specified.) <!--SR:!2026-11-25,245,330!2026-11-12,234,330-->
 - _Frequency‑flat fading_: ::@:: $\mathcal{W}_{tx} \ll B_c$ – the channel response is essentially constant across the signal bandwidth. <!--SR:!2026-11-08,230,330!2027-01-15,285,330-->
 - _Frequency‑selective fading_: ::@:: $\mathcal{W}_{tx} \gg B_c$ – the channel varies markedly over the transmitted spectrum. <!--SR:!2026-12-03,251,330!2026-11-06,228,330-->
 
@@ -158,7 +158,7 @@ Combining {@{the temporal and spectral axes}@} yields {@{4 combinations}@}: {@{s
 
 ### line-of-sight fading
 
-While many systems assume {@{a simple flat or Rayleigh fading model}@}, practical deployments often {@{encounter two distinct propagation regimes}@}: {@{_Non-Line-of-Sight (Non-LOS)_ and _Line-of-Sight (LOS)_}@} channels. <!--SR:!2026-12-23,267,330!2026-12-02,251,330!2027-01-21,290,330-->  
+While many systems assume {@{a simple flat or Rayleigh fading model}@}, practical deployments often {@{encounter two distinct propagation regimes}@}: {@{_Non-Line-of-Sight (Non-LOS)_ and _Line-of-Sight (LOS)_}@} channels. <!--SR:!2026-12-23,267,330!2026-12-02,251,330!2027-01-21,290,330-->
 
 {@{A _non-LOS_ channel occurs}@} when {@{obstacles—such as buildings, trees, or terrain}@}—block {@{the direct path between a transmitter and receiver}@}.  {@{The received signal}@} is then composed of {@{many reflected, diffracted, and scattered waves that arrive at slightly different times and angles}@}.  When {@{the complex baseband envelope of such a channel}@} is expressed in terms of {@{its real and imaginary parts}@}, each component can be modeled as an {@{independent zero-mean Gaussian random variable with equal variance}@}.  Consequently, {@{the magnitude of the signal}@} follows a {@{_Rayleigh_ distribution}@} while {@{the phase remains uniformly distributed over $[0,2\pi)$}@}.  {@{This statistical characterization}@} captures {@{the rapid amplitude fluctuations typical of urban outdoor cellular links}@}. <!--SR:!2027-01-26,294,330!2026-11-21,241,330!2027-01-23,291,330!2026-11-22,242,330!2027-01-07,278,330!2026-11-30,249,330!2026-11-15,237,330!2026-12-25,268,330!2027-01-26,294,330!2026-12-23,267,330!2027-01-01,274,330!2026-12-07,253,330!2026-12-02,251,330-->
 

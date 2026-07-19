@@ -66,8 +66,8 @@ A stronger notion is that of {@{an __absolute coequalizer__}@}, this is {@{a coe
 This text incorporates [content](https://en.wikipedia.org/wiki/coequalizer) from [Wikipedia](Wikipedia.md) available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 - <a id="CITEREFMac Lane1998"></a> [Mac Lane, Saunders](Saunders%20Mac%20Lane.md) \(1998\). _[Categories for the Working Mathematician](Categories%20for%20the%20Working%20Mathematician.md)_. [Graduate Texts in Mathematics](Graduate%20Texts%20in%20Mathematics.md). Vol. 5 \(2nd ed.\). [Springer-Verlag](Springer-Verlag.md#history). [ISBN](ISBN%20(identifier).md) [0-387-98403-8](https://en.wikipedia.org/wiki/Special:BookSources/0-387-98403-8). [Zbl](Zbl%20(identifier).md) [0906.18001](https://zbmath.org/?format=complete&q=an:0906.18001).
-  - Coequalizers – page 65
-  - Absolute coequalizers – page 149
+    - Coequalizers – page 65
+    - Absolute coequalizers – page 149
 
 ## external links
 

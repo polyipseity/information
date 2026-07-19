@@ -36,8 +36,8 @@ Problem Set 2, due on <span style="color: #0e68b3">__Wednesday 25/02/2026, until
 ## submission
 
 - submission: [`HKUST MATH 2431 - problem set 2.pdf`](submission/HKUST%20MATH%202431%20-%20problem%20set%202.pdf)
-  - metadata: [`submission.yml`](submission.yml)
-  - source: [`HKUST MATH 2431 problem set 2.md`](submission/HKUST%20MATH%202431%20problem%20set%202.md)
+    - metadata: [`submission.yml`](submission.yml)
+    - source: [`HKUST MATH 2431 problem set 2.md`](submission/HKUST%20MATH%202431%20problem%20set%202.md)
 
 ## solution
 

@@ -25,10 +25,10 @@ __AGENTS.md flashcard markup rule__: The academic-notes validator flags literal 
 ## content structure
 
 - The four consolidated topic notes (as of 2026-04-05):
-  - __道家概論__: merged from "道家與中國哲學的脈絡" + "道家的歷史背景"
-  - __老子__: merged from "老子 (person)" + "《老子》重要篇章"
-  - __莊子__: merged from "莊子 (person)" + "《莊子》重要篇章"
-  - __魏晉玄學__: consolidated and rewritten with substantive content, pure Traditional Chinese
+    - __道家概論__: merged from "道家與中國哲學的脈絡" + "道家的歷史背景"
+    - __老子__: merged from "老子 (person)" + "《老子》重要篇章"
+    - __莊子__: merged from "莊子 (person)" + "《莊子》重要篇章"
+    - __魏晉玄學__: consolidated and rewritten with substantive content, pure Traditional Chinese
 - These are consolidated pages; deepen them as lecture notes and primary-text excerpts arrive. Do not create new overlapping topic-note pages without a strong reason.
 - If specific 《老子》 or 《莊子》 chapters are later assigned, add the chapter mapping and annotations to the existing 老子.md or 莊子.md note rather than creating separate chapter pages.
 - 索引與背誦卡可集中於單一輔助頁（現用：`老莊索引與背誦卡.md`），以保持 `老子.md`、`莊子.md` 主文流暢；主文仍以講解內容為主。

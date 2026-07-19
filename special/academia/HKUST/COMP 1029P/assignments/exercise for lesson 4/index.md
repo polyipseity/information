@@ -164,8 +164,8 @@ Write a function called `db_query()` that takes no inputs and works like this:
 - If no file with that name exists, an exception is caught using `try-except` and the user is asked to enter a new file name.
 - When a valid file name is given, the function loads the names and phone numbers from the file into a Python ___dictionary___ where the keys are the names and the values are the phone numbers.
 - Then, the program goes into a loop where the user is asked for a name and the program prints the phone number.
-  - If the user types `"done"` for the name, the program prints `"Done."` and ends.
-  - If the user types a name that is not in the database and not `"done"`, then a friendly error message is displayed, such as `"Sorry, there is no number for that name."`
+    - If the user types `"done"` for the name, the program prints `"Done."` and ends.
+    - If the user types a name that is not in the database and not `"done"`, then a friendly error message is displayed, such as `"Sorry, there is no number for that name."`
 
 Notice that `db_create()` and `db_add()` can create duplicated entries \(entries which use the same name\) in the database. Because you will use a dictionary in `db_query()` if you ask for a name with more than one entry in the database `db_query()` will return only one of the phone numbers. This is fine for the exercise but in the real world, when the user wants to add an entry with the same name the database should warn the user the name has been stored in the database.
 

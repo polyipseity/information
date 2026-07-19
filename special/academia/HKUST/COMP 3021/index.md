@@ -43,27 +43,27 @@ The content is in teaching order.
 - datetime: 2024-12-16T16:30:00+08:00/2024-12-16T18:30:00+08:00, PT2H
 - venue: \[SEAFRONT\]TST Sports Ctr MP RM
 - format: no electronic devices, open book (unlimited), open notes (unlimited)
-  - cheatsheet: none (I didn't prepare any...)
+    - cheatsheet: none (I didn't prepare any...)
 - grades: 82.92/100 → 83.33/100
-  - statistics
-    - mean: 41.08 (provided: 41.08) → 42.45
-    - standard deviation: ? (provided: 16.68) → ?
-    - low: 10.42 → 13.42
-    - lower quartile: 27.71 → 27.71
-    - median: 39.58 → 40.42
-    - upper quartile: 52.71 → 54.17
-    - high: 82.92 → 83.33
-    - distribution: ? → ?
+    - statistics
+        - mean: 41.08 (provided: 41.08) → 42.45
+        - standard deviation: ? (provided: 16.68) → ?
+        - low: 10.42 → 13.42
+        - lower quartile: 27.71 → 27.71
+        - median: 39.58 → 40.42
+        - upper quartile: 52.71 → 54.17
+        - high: 82.92 → 83.33
+        - distribution: ? → ?
 - report
-  - examination format ::@:: There are 20 multiple choice questions (MCQ), each worth 5 score. Each MCQ has a variable number of choices, with the most up to about 10 choices. Choosing any wrong option yields 0 score. Otherwise, you get $\text{score} = 5 \cdot \frac {\text{\# of answers} } {\text{\# of solutions} }$. <!--SR:!2029-08-09,1306,350!2028-11-08,1102,350-->
-  - conservative strategy ::@:: Er... Somehow did not select any wrong answers. It was a very nice strategy to be conservative... <!--SR:!2027-11-26,816,330!2029-08-17,1314,350-->
-  - time limit ::@:: The time limit was... kinda irrelevant here, since you always want to make sure you have not chosen any wrong answers. <!--SR:!2027-06-08,685,330!2029-05-02,1240,350-->
+    - examination format ::@:: There are 20 multiple choice questions (MCQ), each worth 5 score. Each MCQ has a variable number of choices, with the most up to about 10 choices. Choosing any wrong option yields 0 score. Otherwise, you get $\text{score} = 5 \cdot \frac {\text{\# of answers} } {\text{\# of solutions} }$. <!--SR:!2029-08-09,1306,350!2028-11-08,1102,350-->
+    - conservative strategy ::@:: Er... Somehow did not select any wrong answers. It was a very nice strategy to be conservative... <!--SR:!2027-11-26,816,330!2029-08-17,1314,350-->
+    - time limit ::@:: The time limit was... kinda irrelevant here, since you always want to make sure you have not chosen any wrong answers. <!--SR:!2027-06-08,685,330!2029-05-02,1240,350-->
 - check
-  - datetime: 2024-12-18T12:30:00+08:00/2024-12-18T14:30:00+08:00, PT2H
-  - venue: Room 2128C, Academic Building
+    - datetime: 2024-12-18T12:30:00+08:00/2024-12-18T14:30:00+08:00, PT2H
+    - venue: Room 2128C, Academic Building
 - materials
-  - [solution: version A](attachments/solutions-print-a.pdf)
-  - [solution: version B](attachments/solutions-print-b.pdf)
+    - [solution: version A](attachments/solutions-print-a.pdf)
+    - [solution: version B](attachments/solutions-print-b.pdf)
 
 > __COMP3021 Final exam on Dec 16 (Mon) at 4:30PM; Paper checking on Dec 18 (Wed)__
 >

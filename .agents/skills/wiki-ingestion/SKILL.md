@@ -196,12 +196,12 @@ ingested Wikipedia articles use the correct casing to match actual `general/eng/
 
 Auto-discovers all `general/*/*.md` files, producing __4 entries per file__:
 
-| Key (Wikipedia-style title) | Value (local filename stem) |
-|---|---|
-| `Three-dimensional space (mathematics)` | `Three-dimensional space (mathematics)` |
-| `Three-dimensional space (mathematics)` with `'`→`’` (curly apostrophe) | same with curly apostrophe |
-| `three-...` (first char lowercased) | `Three-dimensional space (mathematics)` |
-| lowercased + curly apostrophe variant | same with curly apostrophe |
+| Key (Wikipedia-style title)                                             | Value (local filename stem)             |
+| ----------------------------------------------------------------------- | --------------------------------------- |
+| `Three-dimensional space (mathematics)`                                 | `Three-dimensional space (mathematics)` |
+| `Three-dimensional space (mathematics)` with `'`→`’` (curly apostrophe) | same with curly apostrophe              |
+| `three-...` (first char lowercased)                                     | `Three-dimensional space (mathematics)` |
+| lowercased + curly apostrophe variant                                   | same with curly apostrophe              |
 
 Then merged with manual entries from `scripts/assets/convert_wiki.name_map.jsonc`.
 Conflicting keys between auto and manual map raise `ValueError`.
@@ -227,12 +227,12 @@ capitalisation like `Fourier...` → `fourier...`), and leaves mixed-case names 
 
 ### Where `_fix_name_maybe` is called
 
-| Call site | `replace_underscores` | Input |
-|---|---|---|
-| `_handle_header` | `False` | Section header text |
-| `_handle_link` — `title` param | `True` | Link display text / page title |
-| `_handle_link` — `to` param | `True` | Redirect-resolved target filename |
-| `_handle_link` — `to_fragment` | `True` | `#fragment` part of link |
+| Call site                      | `replace_underscores` | Input                             |
+| ------------------------------ | --------------------- | --------------------------------- |
+| `_handle_header`               | `False`               | Section header text               |
+| `_handle_link` — `title` param | `True`                | Link display text / page title    |
+| `_handle_link` — `to` param    | `True`                | Redirect-resolved target filename |
+| `_handle_link` — `to_fragment` | `True`                | `#fragment` part of link          |
 
 __Critical__: `title` and `to` are independent inputs — `title` is the `<a>` tag's
 `title` attribute, `to` is `redirect_map[title].to`. Both go through the same

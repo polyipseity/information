@@ -146,13 +146,13 @@ Though {@{signatures}@} might {@{in some cases imply how non-logical symbols are
 In this approach, {@{every non-logical symbol}@} is {@{of one of the following types}@}: <!--SR:!2026-10-05,346,364!2027-01-26,437,382-->
 
 - A _predicate symbol_ \(or _relation symbol_\) with some _valence_ \(or _arity_, number of arguments\) greater than or equal to 0. ::@:: These are often denoted by uppercase letters such as _P_, _Q_ and _R_. Examples: <!--SR:!2026-10-23,361,364!2027-02-16,455,382-->
-  - In _P_\(_x_\), ::@:: _P_ is a predicate symbol of valence 1. One possible interpretation is "_x_ is a man". <!--SR:!2026-10-23,357,364!2026-12-14,400,364-->
-  - In _Q_\(_x_,_y_\), ::@:: _Q_ is a predicate symbol of valence 2. Possible interpretations include "_x_ is greater than _y_" and "_x_ is the father of _y_". <!--SR:!fsrs,2029-07-19T00:00:00.000Z,1126,1126.0868747,1,2,9,0,0,2026-06-19T00:00:00.000Z!2026-12-06,393,364-->
-  - Relations of valence 0 ::@:: can be identified with [propositional variables](propositional%20variable.md), which can stand for any statement. One possible interpretation of _R_ is "Socrates is a man". <!--SR:!2027-01-28,439,382!2026-11-27,386,364-->
+    - In _P_\(_x_\), ::@:: _P_ is a predicate symbol of valence 1. One possible interpretation is "_x_ is a man". <!--SR:!2026-10-23,357,364!2026-12-14,400,364-->
+    - In _Q_\(_x_,_y_\), ::@:: _Q_ is a predicate symbol of valence 2. Possible interpretations include "_x_ is greater than _y_" and "_x_ is the father of _y_". <!--SR:!fsrs,2029-07-19T00:00:00.000Z,1126,1126.0868747,1,2,9,0,0,2026-06-19T00:00:00.000Z!2026-12-06,393,364-->
+    - Relations of valence 0 ::@:: can be identified with [propositional variables](propositional%20variable.md), which can stand for any statement. One possible interpretation of _R_ is "Socrates is a man". <!--SR:!2027-01-28,439,382!2026-11-27,386,364-->
 - A _function symbol_, with some valence greater than or equal to 0. ::@:: These are often denoted by lowercase [roman letters](Latin%20script.md) such as _f_, _g_ and _h_. Examples: <!--SR:!2026-12-06,393,364!2026-11-18,379,364-->
-  - _f_\(_x_\) ::@:: may be interpreted as "the father of _x_". In [arithmetic](arithmetic.md), it may stand for "-x". In set theory, it may stand for "the [power set](power%20set.md) of x". <!--SR:!2026-11-08,369,364!2026-11-19,379,364-->
-  - In arithmetic, _g_\(_x_,_y_\) ::@:: may stand for "_x_+_y_". In set theory, it may stand for "the union of _x_ and _y_". <!--SR:!2026-12-05,392,364!2026-10-26,360,364-->
-  - Function symbols of valence 0 are called _constant symbols_, and are often denoted by lowercase letters at the beginning of the alphabet such as _a_, _b_ and _c_. ::@:: The symbol _a_ may stand for Socrates. In arithmetic, it may stand for 0. In set theory, it may stand for the [empty set](empty%20set.md). <!--SR:!2026-08-18,284,344!2026-08-04,292,346-->
+    - _f_\(_x_\) ::@:: may be interpreted as "the father of _x_". In [arithmetic](arithmetic.md), it may stand for "-x". In set theory, it may stand for "the [power set](power%20set.md) of x". <!--SR:!2026-11-08,369,364!2026-11-19,379,364-->
+    - In arithmetic, _g_\(_x_,_y_\) ::@:: may stand for "_x_+_y_". In set theory, it may stand for "the union of _x_ and _y_". <!--SR:!2026-12-05,392,364!2026-10-26,360,364-->
+    - Function symbols of valence 0 are called _constant symbols_, and are often denoted by lowercase letters at the beginning of the alphabet such as _a_, _b_ and _c_. ::@:: The symbol _a_ may stand for Socrates. In arithmetic, it may stand for 0. In set theory, it may stand for the [empty set](empty%20set.md). <!--SR:!2026-08-18,284,344!2026-08-04,292,346-->
 
 {@{The traditional approach}@} can be {@{recovered in the modern approach}@}, by {@{simply specifying the "custom" signature}@} to {@{consist of the traditional sequences of non-logical symbols}@}. <!--SR:!2026-11-22,381,364!2026-08-14,296,346!2027-02-13,453,382!2026-11-14,376,364-->
 

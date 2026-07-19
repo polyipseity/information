@@ -19,14 +19,14 @@ For a given $n \ge 1$, from the set of integers from 1 to $n$, find the subset s
 - According to the [fundamental theorem of arithmetic](../../general/fundamental%20theorem%20of%20arithmetic.md), every integer greater than 1 can be represented uniquely as a product of [prime numbers](../../general/prime%20number.md).
 - 1 is coprime with every integer.
 - Two numbers are coprime with each other if they do not share any prime divisors.
-  - Multiple numbers are coprime with each other if every prime number appears at most once in their divisors.
+    - Multiple numbers are coprime with each other if every prime number appears at most once in their divisors.
 - Taking all the primes and 1 is not the right answer.
-  - Let $n = 9$. Taking all the primes and 1 yields $\set{1, 2, 3, 5, 7}$, which has a sum of 18, but $\set{1, 4, 5, 7, 9}$ also has all its elements being coprime and has a sum of 26.
-  - From the above example, one can see that multiplying primes instead of adding can yield a larger subset sum.
+    - Let $n = 9$. Taking all the primes and 1 yields $\set{1, 2, 3, 5, 7}$, which has a sum of 18, but $\set{1, 4, 5, 7, 9}$ also has all its elements being coprime and has a sum of 26.
+    - From the above example, one can see that multiplying primes instead of adding can yield a larger subset sum.
 - If a subset with all its element being coprime does not use all the prime numbers in their divisors, one can always produce a subset also with all its element being coprime that has a larger subset sum by adding the missing prime numbers to the subset.
-  - Let $n = 3$. $\set{1, 2}$ is worse than $\set{1, 2, 3}$.
+    - Let $n = 3$. $\set{1, 2}$ is worse than $\set{1, 2, 3}$.
 - For a subset with all its element being coprime uses all the prime numbers in their divisors, one may be able to produce a subset also with all its element being coprime that has a larger subset sum by repeating the same prime number for a single number in the subset.
-  - Let $n = 9$. $\set{1, 2, 3, 5, 7}$ is worse than $\set{1, 2 \cdot 2, 3 \cdot 3, 5, 7} = \set{1, 4, 5, 7, 9}$.
+    - Let $n = 9$. $\set{1, 2, 3, 5, 7}$ is worse than $\set{1, 2 \cdot 2, 3 \cdot 3, 5, 7} = \set{1, 4, 5, 7, 9}$.
 
 ## strategy
 

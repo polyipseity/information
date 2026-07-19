@@ -10,8 +10,8 @@ tags:
 # quote
 
 - files
-  - PNG: [`quote.png`](quote.png)
-  - SVG: [`quote.svg`](quote.svg)
+    - PNG: [`quote.png`](quote.png)
+    - SVG: [`quote.svg`](quote.svg)
 - source: [§ source](#source)
 
 ## source

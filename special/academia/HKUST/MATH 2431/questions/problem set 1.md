@@ -45,26 +45,26 @@ The questions on this page summarize the _official problem-set materials_ for pr
 > Set operations and de Morgan's rules. A fair die is rolled $N$ times. Let $A_k$ be the event that roll $k$ is $3$, and $B_k$ the event that roll $k$ is $6$.
 >
 > - (a) Express the following events using the sets $A_k$, $B_k$, and elementary set operations:
->   - (i) No $6$ ever appears.
->   - (ii) A $3$ appears at least once.
->   - (iii) A $6$ appears at least once and a $3$ appears at least twice.
+>     - (i) No $6$ ever appears.
+>     - (ii) A $3$ appears at least once.
+>     - (iii) A $6$ appears at least once and a $3$ appears at least twice.
 > - (b) Describe in words the events below:
->   - (i) $\left(\bigcup_{i=1}^{N}A_i^c\right)^c$
->   - (ii) $\bigcup_{i=1}^{N-2}(A_i\cap A_{i+1}\cap B_{i+2})$
->   - (iii) $\bigcap_{i=1}^{N-1}(A_i\cup B_{i+1})$
+>     - (i) $\left(\bigcup_{i=1}^{N}A_i^c\right)^c$
+>     - (ii) $\bigcup_{i=1}^{N-2}(A_i\cap A_{i+1}\cap B_{i+2})$
+>     - (iii) $\bigcap_{i=1}^{N-1}(A_i\cup B_{i+1})$
 > - (c) Prove $\left(\bigcup_{i\in I}A_i\right)^c=\bigcap_{i\in I}A_i^c$.
 > - (d) Prove $\left(\bigcap_{i\in I}A_i\right)^c=\bigcup_{i\in I}A_i^c$.
 >
 > Solution:
 >
 > - (a) The required set formulas are:
->   - (i) {@{$\bigcap_{k=1}^{N}B_k^c$}@}
->   - (ii) {@{$\bigcup_{k=1}^{N}A_k$}@}
->   - (iii) {@{$\left(\bigcup_{k=1}^{N}B_k\right)\cap\left(\bigcup_{\ell,m=1\,;\,\ell\ne m}^{N}(A_\ell\cap A_m)\right)$}@}
+>     - (i) {@{$\bigcap_{k=1}^{N}B_k^c$}@}
+>     - (ii) {@{$\bigcup_{k=1}^{N}A_k$}@}
+>     - (iii) {@{$\left(\bigcup_{k=1}^{N}B_k\right)\cap\left(\bigcup_{\ell,m=1\,;\,\ell\ne m}^{N}(A_\ell\cap A_m)\right)$}@}
 > - (b) The three events mean:
->   - (i) {@{Every roll is a $3$}@}.
->   - (ii) {@{The pattern $3$-$3$-$6$ occurs somewhere in consecutive positions}@}.
->   - (iii) {@{For every adjacent pair of times, either the left roll is $3$ or the next roll is $6$}@}.
+>     - (i) {@{Every roll is a $3$}@}.
+>     - (ii) {@{The pattern $3$-$3$-$6$ occurs somewhere in consecutive positions}@}.
+>     - (iii) {@{For every adjacent pair of times, either the left roll is $3$ or the next roll is $6$}@}.
 > - (c) Argue elementwise: {@{$\omega\in\left(\bigcup_iA_i\right)^c$ iff $\omega\notin A_i$ for every $i$ iff $\omega\in A_i^c$ for every $i$ iff $\omega\in\bigcap_iA_i^c$}@}.
 > - (d) Similarly, {@{$\omega\in\left(\bigcap_iA_i\right)^c$ iff $\omega\notin A_i$ for at least one $i$ iff $\omega\in A_i^c$ for at least one $i$ iff $\omega\in\bigcup_iA_i^c$}@}. Thus both {@{de Morgan identities follow directly from membership logic}@}. <!--SR:!fsrs,2027-05-30T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-05-04T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-05-04T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-07-30T00:00:00.000Z,375,375.15083479,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-06-10T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
 
@@ -91,8 +91,8 @@ The questions on this page summarize the _official problem-set materials_ for pr
 >
 > - (a) The full inclusion-exclusion formula $P\left[\bigcup_{j=1}^{n}A_j\right]=\sum_{k=1}^{n}(-1)^{k+1}\sum_{1\le i_1<\cdots<i_k\le n}P\left[A_{i_1}\cap\cdots\cap A_{i_k}\right]$.
 > - (b) The bounds
->   - $P\left[\bigcup_{j=1}^{n}A_j\right]\le\sum_{j=1}^{n}P[A_j]-\sum_{j=1}^{n-1}P[A_j\cap A_{j+1}]$
->   - $P\left[\bigcup_{j=1}^{n}A_j\right]\ge\sum_{j=1}^{n}P[A_j]-\sum_{1\le i<j\le n}P[A_i\cap A_j]$
+>     - $P\left[\bigcup_{j=1}^{n}A_j\right]\le\sum_{j=1}^{n}P[A_j]-\sum_{j=1}^{n-1}P[A_j\cap A_{j+1}]$
+>     - $P\left[\bigcup_{j=1}^{n}A_j\right]\ge\sum_{j=1}^{n}P[A_j]-\sum_{1\le i<j\le n}P[A_i\cap A_j]$
 >
 > Solution:
 >

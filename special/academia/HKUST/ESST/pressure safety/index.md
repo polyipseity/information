@@ -20,45 +20,45 @@ tags:
 The content is in teaching order.
 
 - [pressure](../../../../../general/pressure.md) _P_ ::@:: [force](../../../../../general/force.md) applied perpendicular to a surface per unit area <!--SR:!2024-05-16,66,322!2024-05-03,56,317-->
-  - [pressure](../../../../../general/pressure.md) [units of measurement](../../../../../general/unit%20of%20measurement.md) ::@:: [SI unit](../../../../../general/International%20System%20of%20Units.md): [pascal](../../../../../general/pascal%20(unit).md) (Pa), Pa = N/m<sup>2</sup>, 1 bar = 100000 Pa, 1 atm = 101325 Pa <!--SR:!2024-05-14,64,317!2024-05-21,71,326-->
+    - [pressure](../../../../../general/pressure.md) [units of measurement](../../../../../general/unit%20of%20measurement.md) ::@:: [SI unit](../../../../../general/International%20System%20of%20Units.md): [pascal](../../../../../general/pascal%20(unit).md) (Pa), Pa = N/m<sup>2</sup>, 1 bar = 100000 Pa, 1 atm = 101325 Pa <!--SR:!2024-05-14,64,317!2024-05-21,71,326-->
 - pressured system ::@:: One or more [pressure vessels](../../../../../general/pressure%20vessel.md), pipework, and associated protective devices. <!--SR:!2024-09-02,147,326!2024-05-12,62,317-->
-  - pressured system classification in [Hong Kong](../../../../../general/Hong%20Kong.md) ::@:: [boiler](../../../../../general/boiler.md) and [pressure vessel](../../../../../general/pressure%20vessel.md) <!--SR:!2024-05-20,70,323!2024-05-28,76,326-->
-    - [boiler examples](#boiler%20examples)
-    - [pressure vessel examples](#pressure%20vessel%20examples)
-  - an example of a pressured system ::@:: Several boilers are connected to an air receiver. Each boiler has a control for controlling the flow to the air receiver. The air receiver can be used for many applications. <!--SR:!2024-04-14,40,306!2024-05-26,76,326-->
+    - pressured system classification in [Hong Kong](../../../../../general/Hong%20Kong.md) ::@:: [boiler](../../../../../general/boiler.md) and [pressure vessel](../../../../../general/pressure%20vessel.md) <!--SR:!2024-05-20,70,323!2024-05-28,76,326-->
+        - [boiler examples](#boiler%20examples)
+        - [pressure vessel examples](#pressure%20vessel%20examples)
+    - an example of a pressured system ::@:: Several boilers are connected to an air receiver. Each boiler has a control for controlling the flow to the air receiver. The air receiver can be used for many applications. <!--SR:!2024-04-14,40,306!2024-05-26,76,326-->
 - hazards
-  - [hazard causes](#hazard%20causes)
-  - [hazard types](#hazard%20types)
-  - [hazard factors](#hazard%20factors)
+    - [hazard causes](#hazard%20causes)
+    - [hazard types](#hazard%20types)
+    - [hazard factors](#hazard%20factors)
 - [design safety](#design%20safety)
 - technical requirements ::@:: Boilers and Pressure Vessels Regulations 2002 (Cap. 56A) <!--SR:!2024-04-10,6,246!2024-04-10,38,303-->
-  - [boiler requirements](#boiler%20requirements)
-  - [air or steam receiver requirements](#air%20or%20steam%20receiver%20requirements)
-  - [pressurized fuel container requirements](#pressurized%20fuel%20container%20requirements)
-  - [auxiliary equipments](#auxiliary%20equipments)
+    - [boiler requirements](#boiler%20requirements)
+    - [air or steam receiver requirements](#air%20or%20steam%20receiver%20requirements)
+    - [pressurized fuel container requirements](#pressurized%20fuel%20container%20requirements)
+    - [auxiliary equipments](#auxiliary%20equipments)
 - [safety measures](#safety%20measures)
-  - spring-loaded safety valve ::@:: Ensures the pressure is below the maximum permissible working pressure. Positioned downstream. Away from inlets to avoid disturbances. <!--SR:!2024-06-13,66,266!2024-04-24,49,303-->
-  - calibrated pressure gauge ::@:: Has red marking indicating the maximum permissible working pressure. Allows a test device to be fitted. <!--SR:!2024-05-09,59,317!2024-05-19,69,326-->
-  - thermal protection ::@:: Shutdown requires action to be taken first to avoid overheating. Install fusible pressure release plug. <!--SR:!2024-04-21,46,306!2024-05-04,57,326-->
-  - coolant protection ::@:: Shuts down compressors when the water temperature exceeds maximum. <!--SR:!2024-04-27,52,306!2024-04-09,36,306-->
-  - lubricant protection ::@:: Shuts down compressors when the lubricant pressure drops below minimum. <!--SR:!2024-05-19,69,326!2024-04-20,45,297-->
-  - air inlet and outlet monitoring ::@:: A water manometer or pressure-indicating device for each compressor air inlet. <!--SR:!2024-05-17,56,263!2024-04-16,43,303-->
+    - spring-loaded safety valve ::@:: Ensures the pressure is below the maximum permissible working pressure. Positioned downstream. Away from inlets to avoid disturbances. <!--SR:!2024-06-13,66,266!2024-04-24,49,303-->
+    - calibrated pressure gauge ::@:: Has red marking indicating the maximum permissible working pressure. Allows a test device to be fitted. <!--SR:!2024-05-09,59,317!2024-05-19,69,326-->
+    - thermal protection ::@:: Shutdown requires action to be taken first to avoid overheating. Install fusible pressure release plug. <!--SR:!2024-04-21,46,306!2024-05-04,57,326-->
+    - coolant protection ::@:: Shuts down compressors when the water temperature exceeds maximum. <!--SR:!2024-04-27,52,306!2024-04-09,36,306-->
+    - lubricant protection ::@:: Shuts down compressors when the lubricant pressure drops below minimum. <!--SR:!2024-05-19,69,326!2024-04-20,45,297-->
+    - air inlet and outlet monitoring ::@:: A water manometer or pressure-indicating device for each compressor air inlet. <!--SR:!2024-05-17,56,263!2024-04-16,43,303-->
 - hydraulic system
-  - hydraulic system hazards ::@:: burns, flailing or ruptured fittings or hoses, pinhole leak injury <!--SR:!2024-05-29,51,263!2024-05-06,59,323-->
-  - [hydraulic system safety measures](#hydraulic%20system%20safety%20measures)
-  - [combined gas law](../../../../../general/ideal%20gas%20law.md#combined%20gas%20law) ::@:: _PV_/_T_ = _k_: When volume decreases or temperature increases, pressure increases. <!--SR:!2024-05-26,74,323!2024-05-15,65,323-->
+    - hydraulic system hazards ::@:: burns, flailing or ruptured fittings or hoses, pinhole leak injury <!--SR:!2024-05-29,51,263!2024-05-06,59,323-->
+    - [hydraulic system safety measures](#hydraulic%20system%20safety%20measures)
+    - [combined gas law](../../../../../general/ideal%20gas%20law.md#combined%20gas%20law) ::@:: _PV_/_T_ = _k_: When volume decreases or temperature increases, pressure increases. <!--SR:!2024-05-26,74,323!2024-05-15,65,323-->
 - compressed gas cylinder
-  - compressed gas cylinder hazards ::@:: Pressure can reach over 100 bars. Leaking gas produce a force 20 to 50 times the cylinder weight, which is about 100 kg, similar to a rocket or guided missile. Over-pressurized vessel fail at a weak point if it exists. If that point is very weak, the vessel can fail at or below normal operating pressure. <!--SR:!2024-03-27,24,286!2024-04-04,32,303-->
-  - [compressed gas cylinder safety measures](#compressed%20gas%20cylinder%20safety%20measures)
+    - compressed gas cylinder hazards ::@:: Pressure can reach over 100 bars. Leaking gas produce a force 20 to 50 times the cylinder weight, which is about 100 kg, similar to a rocket or guided missile. Over-pressurized vessel fail at a weak point if it exists. If that point is very weak, the vessel can fail at or below normal operating pressure. <!--SR:!2024-03-27,24,286!2024-04-04,32,303-->
+    - [compressed gas cylinder safety measures](#compressed%20gas%20cylinder%20safety%20measures)
 - [relevant legislation in Hong Kong](#relevant%20legislation%20in%20Hong%20Kong)
-  - Boilers and Pressure Vessels Ordinance (Cap. 56) ::@:: Provision of control and operation of boilers and pressure vessels. Ensures standards. Defines _appointed examiners_ and _competent person_. Requires certificate of examination and certificate of fitness. <!--SR:!2024-04-10,34,286!2024-06-03,56,266-->
-  - certificate of fitness ::@:: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test. <!--SR:!2024-04-18,30,226!2024-05-30,69,283-->
-  - hydraulic test
-    - hydraulic test for seamless steel air receivers ::@:: $\text{test pressure} = \begin{cases} \mathrm{MPWP} + 1.4 \times 10^7 \mathrm{\ Pa} & \text{ if } 1.4 \times 10^7 \mathrm{\ Pa} < \mathrm{MPWP} \le 2.8 \times 10^7 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} > 2.8 \times 10^7 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-04-09,22,226!2024-06-20,73,286-->
-    - hydraulic test for other air receivers ::@:: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-04-16,8,203!2024-04-08,35,283-->
-  - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) ::@:: Governs pressurized cylinders. <!--SR:!2024-04-11,36,283!2024-03-30,27,263-->
-  - pressurized cylinder ::@:: Governed by Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) instead. Requires hydraulic stretch test and hydraulic pressure test. Valid for 5 years. <!--SR:!2024-04-12,38,283!2024-04-02,32,270-->
-  - hydraulic stretch test and hydraulic pressure test ::@:: For permanent gas, the pressure for hydraulic stretch test is not less than 21 MPa and for hydraulic pressure test is not less than 20 MPa. For liquefied gas, the pressure is not less than 4/3 of the working pressure for both tests. The cylinder shall be destroyed if it shows a permanent volumetric expansion of more than 10%, leakage, or deformation under the tests. <!--SR:!2024-04-01,24,246!2024-07-05,92,297-->
+    - Boilers and Pressure Vessels Ordinance (Cap. 56) ::@:: Provision of control and operation of boilers and pressure vessels. Ensures standards. Defines _appointed examiners_ and _competent person_. Requires certificate of examination and certificate of fitness. <!--SR:!2024-04-10,34,286!2024-06-03,56,266-->
+    - certificate of fitness ::@:: Required for auxiliary equipment, boiler pressure vessel, and steam container, but NOT pressurized fuel container, to be used. Valid for 26 months. Must renew after hired, prohibition order, repair, or sold. The examination process is outlined under hydraulic test. <!--SR:!2024-04-18,30,226!2024-05-30,69,283-->
+    - hydraulic test
+        - hydraulic test for seamless steel air receivers ::@:: $\text{test pressure} = \begin{cases} \mathrm{MPWP} + 1.4 \times 10^7 \mathrm{\ Pa} & \text{ if } 1.4 \times 10^7 \mathrm{\ Pa} < \mathrm{MPWP} \le 2.8 \times 10^7 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} > 2.8 \times 10^7 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-04-09,22,226!2024-06-20,73,286-->
+        - hydraulic test for other air receivers ::@:: $\text{test pressure} = \begin{cases} 2 \,\mathrm{MPWP} & \text{ if } \mathrm{MPWP} \le 7 \times 10^5 \mathrm{\ Pa} \\ 1.5 \,\mathrm{MPWP} + 3.5 \times 10^5 \mathrm{\ Pa} & \text{ if } \mathrm{MPWP} > 7 \times 10^5 \mathrm{\ Pa} \end{cases}$. <!--SR:!2024-04-16,8,203!2024-04-08,35,283-->
+    - Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) ::@:: Governs pressurized cylinders. <!--SR:!2024-04-11,36,283!2024-03-30,27,263-->
+    - pressurized cylinder ::@:: Governed by Dangerous Goods (General) Regulations (Repealed) (Cap. 295B) instead. Requires hydraulic stretch test and hydraulic pressure test. Valid for 5 years. <!--SR:!2024-04-12,38,283!2024-04-02,32,270-->
+    - hydraulic stretch test and hydraulic pressure test ::@:: For permanent gas, the pressure for hydraulic stretch test is not less than 21 MPa and for hydraulic pressure test is not less than 20 MPa. For liquefied gas, the pressure is not less than 4/3 of the working pressure for both tests. The cylinder shall be destroyed if it shows a permanent volumetric expansion of more than 10%, leakage, or deformation under the tests. <!--SR:!2024-04-01,24,246!2024-07-05,92,297-->
 
 ## oversized data
 

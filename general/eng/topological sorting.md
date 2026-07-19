@@ -301,11 +301,11 @@ Note that {@{the [prefix sum](prefix%20sum.md#parallel%20algorithms)}@} for {@{t
 > - Let {@{_d_ be an array of the same length as _V_}@}; this will {@{hold the shortest-path distances from _s_}@}. Set {@{_d_\[_s_\] = 0, all other _d_\[_u_\] = ∞}@}.
 > - Let {@{_p_ be an array of the same length as _V_, with all elements initialized to nil}@}. Each _p_\[_u_\] will {@{hold the predecessor of _u_ in the shortest path from _s_ to _u_}@}.
 > - Loop over {@{the vertices _u_ as ordered in _V_, starting from _s_}@}:
->   - For {@{each vertex _v_ directly following _u_ \(i.e., there exists an edge from _u_ to _v_\)}@}:
->     - Let {@{_w_ be the weight of the edge from _u_ to _v_}@}.
->     - Relax {@{the edge: if _d_\[_v_\] \> _d_\[_u_\] + _w_}@}, set
->       - {@{_d_\[_v_\] ← _d_\[_u_\] + _w_}@},
->       - {@{_p_\[_v_\] ← _u_}@}. <!--SR:!2031-09-26,2001,391!2029-04-07,1255,371!fsrs,2032-04-17T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-06-22T00:00:00.000Z!fsrs,2032-02-13T16:37:00.318Z,2077,2077.41341492,1,2,10,0,0,2026-06-07T16:37:00.318Z!fsrs,2032-03-09T08:41:50.834Z,2096,2096.17667112,1,2,10,0,0,2026-06-13T08:41:50.834Z!2030-07-27,1626,379!2031-10-12,2014,391!2029-05-18,1206,358!2028-05-20,962,339!2031-11-19,2038,391!2027-03-05,621,334-->
+>     - For {@{each vertex _v_ directly following _u_ \(i.e., there exists an edge from _u_ to _v_\)}@}:
+>         - Let {@{_w_ be the weight of the edge from _u_ to _v_}@}.
+>         - Relax {@{the edge: if _d_\[_v_\] \> _d_\[_u_\] + _w_}@}, set
+>             - {@{_d_\[_v_\] ← _d_\[_u_\] + _w_}@},
+>             - {@{_p_\[_v_\] ← _u_}@}. <!--SR:!2031-09-26,2001,391!2029-04-07,1255,371!fsrs,2032-04-17T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-06-22T00:00:00.000Z!fsrs,2032-02-13T16:37:00.318Z,2077,2077.41341492,1,2,10,0,0,2026-06-07T16:37:00.318Z!fsrs,2032-03-09T08:41:50.834Z,2096,2096.17667112,1,2,10,0,0,2026-06-13T08:41:50.834Z!2030-07-27,1626,379!2031-10-12,2014,391!2029-05-18,1206,358!2028-05-20,962,339!2031-11-19,2038,391!2027-03-05,621,334-->
 
 Equivalently:
 
@@ -314,11 +314,11 @@ Equivalently:
 > - Let {@{_d_ be an array of the same length as _V_}@}; this will {@{hold the shortest-path distances from _s_}@}. Set {@{_d_\[_s_\] = 0, all other _d_\[_u_\] = ∞}@}.
 > - Let {@{_p_ be an array of the same length as _V_, with all elements initialized to nil}@}. Each _p_\[_u_\] will {@{hold the predecessor of _u_ in the shortest path from _s_ to _u_}@}.
 > - Loop over {@{the vertices _u_ as ordered in _V_, starting from _s_}@}:
->   - For {@{each vertex _v_ into _u_ \(i.e., there exists an edge from _v_ to _u_\)}@}:
->     - Let {@{_w_ be the weight of the edge from _v_ to _u_}@}.
->     - Relax {@{the edge: if _d_\[_u_\] \> _d_\[_v_\] + _w_}@}, set
->       - {@{_d_\[_u_\] ← _d_\[_v_\] + _w_}@},
->       - {@{_p_\[_u_\] ← _v_}@}. <!--SR:!2032-06-08,2215,399!2031-10-26,2014,391!2030-12-27,1764,378!2031-11-15,2034,391!2031-07-28,1950,391!2030-08-30,1653,379!2030-10-13,1705,378!2032-01-27,2096,391!2031-01-22,1785,378!2032-09-06,2288,399!2032-01-14,2083,391-->
+>     - For {@{each vertex _v_ into _u_ \(i.e., there exists an edge from _v_ to _u_\)}@}:
+>         - Let {@{_w_ be the weight of the edge from _v_ to _u_}@}.
+>         - Relax {@{the edge: if _d_\[_u_\] \> _d_\[_v_\] + _w_}@}, set
+>             - {@{_d_\[_u_\] ← _d_\[_v_\] + _w_}@},
+>             - {@{_p_\[_u_\] ← _v_}@}. <!--SR:!2032-06-08,2215,399!2031-10-26,2014,391!2030-12-27,1764,378!2031-11-15,2034,391!2031-07-28,1950,391!2030-08-30,1653,379!2030-10-13,1705,378!2032-01-27,2096,391!2031-01-22,1785,378!2032-09-06,2288,399!2032-01-14,2083,391-->
 
 On {@{a graph of _n_ vertices and _m_ edges}@}, this algorithm {@{takes Θ\(_n_ + _m_\), i.e., [linear](time%20complexity.md#linear%20time), time}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2031-05-17,1877,378!2032-08-07,2262,399-->
 

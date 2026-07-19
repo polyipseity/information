@@ -25,8 +25,8 @@ Flashcards for this section are as follows:
 - due: 2026-03-06
 - weight: part of the 40% essay component
 - notes
-  - The outline should support a final essay of around 3,000 words.
-  - The public notes currently track only official milestone information; add topic ideas or source notes once they exist.
+    - The outline should support a final essay of around 3,000 words.
+    - The public notes currently track only official milestone information; add topic ideas or source notes once they exist.
 
 ---
 

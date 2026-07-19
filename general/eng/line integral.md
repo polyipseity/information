@@ -174,10 +174,10 @@ This text incorporates [content](https://en.wikipedia.org/wiki/line_integral) fr
 
 - ["Integral over trajectories"](https://www.encyclopediaofmath.org/index.php?title=Integral_over_trajectories), _[Encyclopedia of Mathematics](Encyclopedia%20of%20Mathematics.md)_, [EMS Press](European%20Mathematical%20Society.md), 2001 \[1994\]
 - [Khan Academy](Khan%20Academy.md) modules:
-  - ["Introduction to the Line Integral"](http://www.khanacademy.org/video/introduction-to-the-line-integral?playlist=Calculus)
-  - ["Line Integral Example 1"](http://www.khanacademy.org/video/line-integral-example-1?playlist=Calculus)
-  - ["Line Integral Example 2 \(part 1\)"](https://web.archive.org/web/20111219141618/http://www.khanacademy.org/video/line-integral-example-2--part-1?playlist=Calculus)
-  - ["Line Integral Example 2 \(part 2\)"](https://web.archive.org/web/20111219142026/http://www.khanacademy.org/video/line-integral-example-2--part-2?playlist=Calculus)
+    - ["Introduction to the Line Integral"](http://www.khanacademy.org/video/introduction-to-the-line-integral?playlist=Calculus)
+    - ["Line Integral Example 1"](http://www.khanacademy.org/video/line-integral-example-1?playlist=Calculus)
+    - ["Line Integral Example 2 \(part 1\)"](https://web.archive.org/web/20111219141618/http://www.khanacademy.org/video/line-integral-example-2--part-1?playlist=Calculus)
+    - ["Line Integral Example 2 \(part 2\)"](https://web.archive.org/web/20111219142026/http://www.khanacademy.org/video/line-integral-example-2--part-2?playlist=Calculus)
 - [Path integral](https://planetmath.org/LineIntegral) at [PlanetMath](PlanetMath.md).
 - [Line integral of a vector field – Interactive](http://mathinsight.org/line_integral_vector_field_introduction)
 

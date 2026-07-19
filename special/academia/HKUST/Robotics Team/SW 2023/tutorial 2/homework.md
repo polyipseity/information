@@ -38,8 +38,8 @@ Consider 2 uses for a single button: (choose BTN1 or BTN2)
 - While it is not, flash the LED (at least one LED). __(@1)__
 - Two actions should not happen simultaneously.
 - Hints:
-  - In this case every time the loop comes around, we are concerned with the __current state__ (or level) of the buttons GPIO Pin
-  - The implementation of the button reading here should be obvious and simple
+    - In this case every time the loop comes around, we are concerned with the __current state__ (or level) of the buttons GPIO Pin
+    - The implementation of the button reading here should be obvious and simple
 
 ![Q1 image](qSrTmjr.gif)
 
@@ -51,8 +51,8 @@ Consider 2 uses for a single button: (choose BTN1 or BTN2)
 - When the button is released, we want to flash the LED for 1 second, but again only once. __(@1)__
 - The process repeats. i.e. it will print text again if you click the button. __(@1)__
 - Keywords:
-  - The event of a signal going from low to high is called the ___rising edge___ and the opposite is the ___falling edge___
-  - The `gpio_read()` macro gives us the current state, but edge triggering also requires knowledge of the __past state__ as well as some logic
+    - The event of a signal going from low to high is called the ___rising edge___ and the opposite is the ___falling edge___
+    - The `gpio_read()` macro gives us the current state, but edge triggering also requires knowledge of the __past state__ as well as some logic
 - Hints: How can we design some code that can call a function _only_ when the button is first clicked? (Rising edge)
 
 #### __Bonus__

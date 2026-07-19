@@ -185,9 +185,9 @@ In analysis of {@{[three phase](three%20phase.md) AC power systems}@}, usually {
 ## see also
 
 - [In-phase and quadrature components](in-phase%20and%20quadrature%20components.md)
-  - [Constellation diagram](constellation%20diagram.md)
+    - [Constellation diagram](constellation%20diagram.md)
 - [Analytic signal](analytic%20signal.md), ::@:: a generalization of phasors for time-variant amplitude, phase, and frequency. <!--SR:!fsrs,2029-05-18T14:28:11.950Z,1071,1070.94788021,1,2,9,0,0,2026-06-12T14:28:11.950Z!fsrs,2029-06-29T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-06-22T00:00:00.000Z-->
-  - [Complex envelope](complex%20envelope.md#complex%20envelope)
+    - [Complex envelope](complex%20envelope.md#complex%20envelope)
 - [Phase factor](phase%20factor.md), ::@:: a phasor of unit magnitude <!--SR:!fsrs,2029-07-16T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-06-27T00:00:00.000Z!2026-08-14,290,330-->
 
 ## footnotes

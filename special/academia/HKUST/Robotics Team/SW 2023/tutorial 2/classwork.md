@@ -26,9 +26,9 @@ void tft_classwork(void);
 - When `BTN1` is held, `LED1` should be on. __(@1)__
 - When `BTN2` is held, `LED2` should be flashing (toggle in 50ms).__(@1)__
 - When both `BTN1` and `BTN2` are held, the following sequence is conducted:__(@2)__
-  - `LED1` and `LED3` are on while `LED2` are flashing.
-  - After 1 second, `LED1` and `LED3` are flashing while `LED2` are on.
-  - After 1 second, repeat from step 1.
+    - `LED1` and `LED3` are on while `LED2` are flashing.
+    - After 1 second, `LED1` and `LED3` are flashing while `LED2` are on.
+    - After 1 second, repeat from step 1.
 - Keyword: Finite State Machine
 
 ![task 1 image](zF0Q2Lg.gif)
@@ -46,11 +46,11 @@ void tft_classwork(void);
 - Print a 50px $\times$ 50px square directly under the elapsed time where its color changes when 1 second passed.__(@2)__
 - Keywords: `HAL_GetTick`
 - Hints:
-  - ​$1234\mod10=4$
-  - Integer division
-    - $\frac{1234}{10}=123$
-  - 1 min = 60 second, 1 second = 1000 milliseconds
+    - ​$1234\mod10=4$
+    - Integer division
+        - $\frac{1234}{10}=123$
+    - 1 min = 60 second, 1 second = 1000 milliseconds
 - ​![task 2 image](2K6QaHR.gif)
-  - The actual size of square printed on TFT should be larger than this one
+    - The actual size of square printed on TFT should be larger than this one
 
 > ⚠ Don't use`__forceinline static void fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color)` as it seems to cause error

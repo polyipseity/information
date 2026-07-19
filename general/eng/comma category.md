@@ -63,14 +63,14 @@ Another special case occurs when {@{both $S$ and $T$ are functors with domain ${
 For {@{each comma category}@} there are {@{forgetful functors from it}@}. (annotation: they are {@{the domain, codomain, and arrow functor}@}) <!--SR:!2028-02-17,865,342!2030-05-11,1532,374!2026-08-04,128,402-->
 
 - Domain functor, ::@:: $S\downarrow T\to {\mathcal {A} }$, which maps: <!--SR:!2031-01-12,1721,374!2031-01-16,1725,374-->
-  - (annotation: domain functor) objects: ::@:: $(A,B,h)\mapsto A$; <!--SR:!2030-09-11,1630,374!2030-09-08,1627,374-->
-  - (annotation: domain functor) morphisms: ::@:: $(f,g)\mapsto f$; <!--SR:!2029-01-03,1123,354!2030-09-28,1645,374-->
+    - (annotation: domain functor) objects: ::@:: $(A,B,h)\mapsto A$; <!--SR:!2030-09-11,1630,374!2030-09-08,1627,374-->
+    - (annotation: domain functor) morphisms: ::@:: $(f,g)\mapsto f$; <!--SR:!2029-01-03,1123,354!2030-09-28,1645,374-->
 - Codomain functor, ::@:: $S\downarrow T\to {\mathcal {B} }$, which maps: <!--SR:!2031-02-09,1749,374!2030-07-06,1562,362-->
-  - (annotation: codomain functor) objects: ::@:: $(A,B,h)\mapsto B$; <!--SR:!2030-07-25,1578,362!2029-12-09,1399,362-->
-  - (annotation: codomain functor) morphisms: ::@:: $(f,g)\mapsto g$. <!--SR:!2030-03-18,1488,374!2031-02-03,1743,374-->
+    - (annotation: codomain functor) objects: ::@:: $(A,B,h)\mapsto B$; <!--SR:!2030-07-25,1578,362!2029-12-09,1399,362-->
+    - (annotation: codomain functor) morphisms: ::@:: $(f,g)\mapsto g$. <!--SR:!2030-03-18,1488,374!2031-02-03,1743,374-->
 - Arrow functor, ::@:: $S\downarrow T\to {\mathcal {C} }^{\rightarrow }$, which maps: <!--SR:!2029-12-06,1398,362!2027-05-11,639,330-->
-  - (annotation: arrow functor) objects: ::@:: $(A,B,h)\mapsto h$; <!--SR:!2031-02-07,1747,374!2030-06-24,1553,362-->
-  - (annotation: arrow functor) morphisms: ::@:: $(f,g)\mapsto (Sf,Tg)$; <!--SR:!2028-10-25,995,342!2030-06-05,1551,374-->
+    - (annotation: arrow functor) objects: ::@:: $(A,B,h)\mapsto h$; <!--SR:!2031-02-07,1747,374!2030-06-24,1553,362-->
+    - (annotation: arrow functor) morphisms: ::@:: $(f,g)\mapsto (Sf,Tg)$; <!--SR:!2028-10-25,995,342!2030-06-05,1551,374-->
 
 ## examples of use
 

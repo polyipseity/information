@@ -38,8 +38,8 @@ Let {@{_C_ and _D_ be [categories](category%20(mathematics).md)}@}. {@{A __funct
 
 - (annotation: object) ::@:: associates each [object](mathematical%20object.md) $X$ in _C_ to an object $F(X)$ in _D_, <!--SR:!2029-09-19,1335,350!2031-01-13,1746,377-->
 - (annotation: morphism) ::@:: associates each [morphism](morphism.md) $f\colon X\to Y$ in _C_ to a morphism $F(f)\colon F(X)\to F(Y)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2030-04-18,1518,366!2027-02-17,565,310-->
-  - (annotation: identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2029-09-16,1332,350!2031-02-06,1766,377-->
-  - (annotation: composition) ::@:: $F(g\circ f)=F(g)\circ F(f)$ for all morphisms $f\colon X\to Y\,\!$ and $g\colon Y\to Z$ in _C_. <!--SR:!2030-10-22,1679,377!2029-09-17,1333,350-->
+      - (annotation: identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2029-09-16,1332,350!2031-02-06,1766,377-->
+      - (annotation: composition) ::@:: $F(g\circ f)=F(g)\circ F(f)$ for all morphisms $f\colon X\to Y\,\!$ and $g\colon Y\to Z$ in _C_. <!--SR:!2030-10-22,1679,377!2029-09-17,1333,350-->
 - (annotation: functor, notes) ::@:: (annotation: The object and morphism mappings are _not_ required to be injective or surjective. For example, see [constant functor](constant%20functor.md#examples), which maps every object to the same object and every morphism to the identity morphism of that object.) <!--SR:!2031-12-17,2027,387!2031-11-25,2007,387-->
 
 That is, functors must {@{preserve [identity morphisms](morphism.md#definition) and [composition](function%20composition.md) of morphisms}@}. <!--SR:!2031-01-02,1735,377-->
@@ -52,17 +52,17 @@ There are {@{many constructions in mathematics that would be functors}@} but for
 
 - (annotation: contravariant, object) ::@:: associates each object $X$ in _C_ with an object $F(X)$ in _D_, <!--SR:!2030-03-05,1482,366!2028-08-14,1014,346-->
 - (annotation: contravariant, morphism) ::@:: associates each morphism $f\colon X\to Y$ in _C_ with a morphism $F(f)\colon F(Y)\to F(X)$ in _D_ such that the following two conditions hold: (annotation: identity, composition) <!--SR:!2031-03-13,1784,377!2030-11-11,1695,377-->
-  - (annotation: contravariant, identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2030-10-09,1670,377!2030-04-09,1511,366-->
-  - (annotation: contravariant, morphism) ::@:: $F(g\circ f)=F(f)\circ F(g)$ for all morphisms $f\colon X\to Y$ and $g\colon Y\to Z$ in _C_. <!--SR:!2031-01-20,1750,377!2029-09-26,1342,350-->
+      - (annotation: contravariant, identity) ::@:: $F(\mathrm {id} _{X})=\mathrm {id} _{F(X)}\,\!$ for every object $X$ in _C_, <!--SR:!2030-10-09,1670,377!2030-04-09,1511,366-->
+      - (annotation: contravariant, morphism) ::@:: $F(g\circ f)=F(f)\circ F(g)$ for all morphisms $f\colon X\to Y$ and $g\colon Y\to Z$ in _C_. <!--SR:!2031-01-20,1750,377!2029-09-26,1342,350-->
 
 Variance of functor ::@:: \(composite\)<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-09-29,1345,350!2029-09-27,1343,350-->
 
 - The composite of two functors of the same variance: ::@:: (annotation: composite is covariant) <!--SR:!2029-03-19,1118,346!2030-09-29,1661,377-->
-  - $\mathrm {Covariant} \circ \mathrm {Covariant} \to \mathrm {Covariant}$
-  - $\mathrm {Contravariant} \circ \mathrm {Contravariant} \to \mathrm {Covariant}$
+      - $\mathrm {Covariant} \circ \mathrm {Covariant} \to \mathrm {Covariant}$
+      - $\mathrm {Contravariant} \circ \mathrm {Contravariant} \to \mathrm {Covariant}$
 - The composite of two functors of opposite variance: ::@:: (annotation: composite is contravariant) <!--SR:!2030-08-20,1628,377!2030-12-26,1732,377-->
-  - $\mathrm {Covariant} \circ \mathrm {Contravariant} \to \mathrm {Contravariant}$
-  - $\mathrm {Contravariant} \circ \mathrm {Covariant} \to \mathrm {Contravariant}$
+      - $\mathrm {Covariant} \circ \mathrm {Contravariant} \to \mathrm {Contravariant}$
+      - $\mathrm {Contravariant} \circ \mathrm {Covariant} \to \mathrm {Contravariant}$
 
 Note that contravariant functors {@{reverse the direction of composition}@}. <!--SR:!2029-09-26,1342,350-->
 

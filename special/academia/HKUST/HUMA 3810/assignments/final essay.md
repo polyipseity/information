@@ -26,8 +26,8 @@ Flashcards for this section are as follows:
 - length: around 3,000 words
 - weight: 40%
 - notes
-  - According to the syllabus, the essay should be neatly typed and double-spaced, or clearly handwritten.
-  - Generative AI may assist with brainstorming or source-finding, but it must not compose the essay in whole or in part.
+    - According to the syllabus, the essay should be neatly typed and double-spaced, or clearly handwritten.
+    - Generative AI may assist with brainstorming or source-finding, but it must not compose the essay in whole or in part.
 
 ---
 

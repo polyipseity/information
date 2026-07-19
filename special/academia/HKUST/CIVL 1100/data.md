@@ -222,7 +222,7 @@ See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 - designers ::@:: Michel Virlogeux, Norman Foster <!--SR:!2029-07-29,1495,396!2027-01-26,801,416-->
 - geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2028-12-25,1328,396!2029-05-17,1446,396-->
 - height ::@:: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2029-12-21,1422,316!2026-12-05,758,416-->
-  - height record ::@:: as of October 2023, tallest bridge in the world <!--SR:!2033-07-31,2704,416!2026-10-10,718,416-->
+    - height record ::@:: as of October 2023, tallest bridge in the world <!--SR:!2033-07-31,2704,416!2026-10-10,718,416-->
 - length ::@:: 2450 m = 204 m + 342 m × 6 + 204 m, longest span: 342 m <!--SR:!2029-11-25,1389,316!2033-05-09,2638,416-->
 - image ::@:: ![Millau Viaduct image](../../../../archives/Wikimedia%20Commons/ViaducdeMillau.jpg) <!--SR:!2026-11-14,740,416!2031-11-19,2227,416-->
 - opening time ::@:: 2004-12-16, 09:00 <!--SR:!fsrs,2030-08-13T00:00:00.000Z,1493,1493.42654447,2.6807385,2,10,0,0,2026-07-12T00:00:00.000Z!2029-05-18,1447,396-->

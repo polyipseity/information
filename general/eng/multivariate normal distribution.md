@@ -322,9 +322,9 @@ In {@{[Bayesian statistics](Bayesian%20statistics.md)}@}, {@{the [conjugate prio
 ## see also
 
 - [Chi distribution](chi%20distribution.md), ::@:: the [pdf](probability%20density%20function.md) of the [2-norm](norm%20(mathematics).md#p-norm) \([Euclidean norm](Euclidean%20norm.md#Euclidean%20norm) or [vector length](vector%20length.md)\) of a multivariate normally distributed vector \(uncorrelated and zero centered\). <!--SR:!2027-06-22,404,368!2027-03-30,334,342-->
-  - [Rayleigh distribution](rayleigh%20distribution.md), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(uncorrelated and zero centered\) <!--SR:!2027-06-23,405,368!2027-06-06,398,368-->
-  - [Rice distribution](rice%20distribution.md), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(uncorrelated and non-centered\) <!--SR:!2027-03-25,329,342!2027-04-23,358,357-->
-  - [Hoyt distribution](Hoyt%20distribution.md#Hoyt), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(correlated and centered\) <!--SR:!2027-08-08,452,379!2027-07-09,421,382-->
+    - [Rayleigh distribution](rayleigh%20distribution.md), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(uncorrelated and zero centered\) <!--SR:!2027-06-23,405,368!2027-06-06,398,368-->
+    - [Rice distribution](rice%20distribution.md), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(uncorrelated and non-centered\) <!--SR:!2027-03-25,329,342!2027-04-23,358,357-->
+    - [Hoyt distribution](Hoyt%20distribution.md#Hoyt), ::@:: the pdf of the vector length of a bivariate normally distributed vector \(correlated and centered\) <!--SR:!2027-08-08,452,379!2027-07-09,421,382-->
 - [Complex normal distribution](complex%20normal%20distribution.md), ::@:: an application of bivariate normal distribution <!--SR:!2027-08-17,460,379!2027-08-12,455,379-->
 - [Copula](Gaussian%20copula.md#Gaussian%20copula), ::@:: for the definition of the Gaussian or normal copula model. <!--SR:!2027-05-20,383,368!2027-08-16,459,382-->
 - [Multivariate t-distribution](multivariate%20t-distribution.md), ::@:: which is another widely used spherically symmetric multivariate distribution. <!--SR:!2027-08-16,459,382!2027-06-27,409,368-->

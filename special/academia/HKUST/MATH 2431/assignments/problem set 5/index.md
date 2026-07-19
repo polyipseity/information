@@ -38,8 +38,8 @@ __<span style="color: #e62429">Update (16/03/2026, 12:15 PM): Question 4 updated
 ## submission
 
 - submission: [`HKUST MATH 2431 - problem set 5.pdf`](submission/HKUST%20MATH%202431%20-%20problem%20set%205.pdf)
-  - metadata: [`submission.yml`](submission.yml)
-  - source: [`HKUST MATH 2431 problem set 5.md`](submission/HKUST%20MATH%202431%20problem%20set%205.md)
+    - metadata: [`submission.yml`](submission.yml)
+    - source: [`HKUST MATH 2431 problem set 5.md`](submission/HKUST%20MATH%202431%20problem%20set%205.md)
 
 ## solution
 

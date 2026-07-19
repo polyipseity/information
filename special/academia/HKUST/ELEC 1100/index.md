@@ -30,23 +30,23 @@ The content is in teaching order.
 ## logistics
 
 - grading
-  - labs ×6: 29%; first 5 labs 5% each, final lab 4%
-  - quizzes ×8: 3%; pop‑up in‑tutorial open book; to earn full 3% answer at least 6 questions correctly (each worth 0.5 points)
-  - lab exam: 20%; close book
-  - written exam: 25%; close book
-  - project demo: 20%
-  - project report: 3%
+    - labs ×6: 29%; first 5 labs 5% each, final lab 4%
+    - quizzes ×8: 3%; pop‑up in‑tutorial open book; to earn full 3% answer at least 6 questions correctly (each worth 0.5 points)
+    - lab exam: 20%; close book
+    - written exam: 25%; close book
+    - project demo: 20%
+    - project report: 3%
 - sections:
-  - lecture: L1
-    - L1: CYT-LTL; MondayT16:00:00/MondayT16:50:00,FridayT11:30:00/FridayT12:20:00
-  - tutorials: T2
-    - T1: CYT-G001; FridayT10:30:00/FridayT11:20:00
-    - T2: CYT-G001; MondayT14:30:00/MondayT15:20:00
-    - T3: LG3009; ThursdayT16:30:00/ThursdayT17:20:00
-  - labs: LA3
-    - LA1: Room 2133 & 2134, Academic Building; TuesdayT13:30:00/TuesdayT16:20:00
-    - LA2: Room 2133 & 2134, Academic Building; FridayT13:30:00/FridayT16:20:00
-    - LA3: Room 2133 & 2134, Academic Building; MondayT10:30:00/MondayT13:20:00
+    - lecture: L1
+        - L1: CYT-LTL; MondayT16:00:00/MondayT16:50:00,FridayT11:30:00/FridayT12:20:00
+    - tutorials: T2
+        - T1: CYT-G001; FridayT10:30:00/FridayT11:20:00
+        - T2: CYT-G001; MondayT14:30:00/MondayT15:20:00
+        - T3: LG3009; ThursdayT16:30:00/ThursdayT17:20:00
+    - labs: LA3
+        - LA1: Room 2133 & 2134, Academic Building; TuesdayT13:30:00/TuesdayT16:20:00
+        - LA2: Room 2133 & 2134, Academic Building; FridayT13:30:00/FridayT16:20:00
+        - LA3: Room 2133 & 2134, Academic Building; MondayT10:30:00/MondayT13:20:00
 
 ## children
 
@@ -66,26 +66,26 @@ The content is in teaching order.
 ## H-bridge (sections and subsections)
 
 - [H-bridge](H-bridge.md)
-  - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control)
-    - [§ switches and current path](H-bridge.md#switches%20and%20current%20path)
-    - [§ hazards](H-bridge.md#hazards)
-  - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors)
-    - [§ saturation, transistor types, and layout](H-bridge.md#saturation-transistor-types-and-layout)
-    - [§ base voltage pattern](H-bridge.md#base%20voltage%20pattern)
-  - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter)
-    - [§ direction (DIR) signal and inverter solution](H-bridge.md#direction%20(dir)%20signal%20and%20inverter%20solution)
-  - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter)
-    - [§ function and logic](H-bridge.md#function%20and%20logic)
-    - [§ power and pinout](H-bridge.md#power%20and%20pinout)
-  - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293))
-    - [§ function and pins](H-bridge.md#function%20and%20pins)
-    - [§ supplies and bypass](H-bridge.md#supplies%20and%20bypass)
-  - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
-    - [§ power sources ($12\text{ V}$ and $5\text{ V}$)](H-bridge.md#power%20sources%20(%2412%5Ctext%7B%20V%7D%24%20and%20%245%5Ctext%7B%20V%7D%24))
-    - [§ wiring DIR and inverters](H-bridge.md#wiring%20dir%20and%20inverters)
-  - [§ breadboard layout](H-bridge.md#breadboard%20layout)
-    - [§ rail labels and 74HC14 power](H-bridge.md#rail%20labels%20and%2074hc14%20power)
-    - [§ pin counts and placement](H-bridge.md#pin%20counts%20and%20placement)
+    - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control)
+        - [§ switches and current path](H-bridge.md#switches%20and%20current%20path)
+        - [§ hazards](H-bridge.md#hazards)
+    - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors)
+        - [§ saturation, transistor types, and layout](H-bridge.md#saturation-transistor-types-and-layout)
+        - [§ base voltage pattern](H-bridge.md#base%20voltage%20pattern)
+    - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter)
+        - [§ direction (DIR) signal and inverter solution](H-bridge.md#direction%20(dir)%20signal%20and%20inverter%20solution)
+    - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter)
+        - [§ function and logic](H-bridge.md#function%20and%20logic)
+        - [§ power and pinout](H-bridge.md#power%20and%20pinout)
+    - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293))
+        - [§ function and pins](H-bridge.md#function%20and%20pins)
+        - [§ supplies and bypass](H-bridge.md#supplies%20and%20bypass)
+    - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
+        - [§ power sources ($12\text{ V}$ and $5\text{ V}$)](H-bridge.md#power%20sources%20(%2412%5Ctext%7B%20V%7D%24%20and%20%245%5Ctext%7B%20V%7D%24))
+        - [§ wiring DIR and inverters](H-bridge.md#wiring%20dir%20and%20inverters)
+    - [§ breadboard layout](H-bridge.md#breadboard%20layout)
+        - [§ rail labels and 74HC14 power](H-bridge.md#rail%20labels%20and%2074hc14%20power)
+        - [§ pin counts and placement](H-bridge.md#pin%20counts%20and%20placement)
 
 ## assignments
 
@@ -108,32 +108,32 @@ The content is in teaching order.
 - status: scheduled
 - topic: course introduction
 - ELEC 1100
-  - ELEC 1100 / course overview
-    - ELEC 1100 / course overview / description ::@:: Designed to provide fundamental knowledge in electrical engineering, basic electronic components and robot design <!--SR:!2026-11-09,177,310!2027-01-26,255,330-->
-    - ELEC 1100 / course overview / outcomes ::@:: Analyze and design simple analog circuits; implement control strategies; build/debug systems using hierarchical design; manage projects; execute full project lifecycle <!--SR:!2027-01-11,242,330!2027-01-14,245,330-->
-  - ELEC 1100 / pedagogy
-    - ELEC 1100 / pedagogy / methodology ::@:: Reverse engineering approach: start with engineering, then physics, then mathematics; emphasizes learning by doing <!--SR:!2027-01-21,251,330!2027-01-06,238,330-->
-    - ELEC 1100 / pedagogy / traditional approach ::@:: Traditional: mathematics ➜ physics ➜ engineering; may tell you and you forget, teach you and you remember <!--SR:!2027-01-13,244,330!2027-01-07,239,330-->
-    - ELEC 1100 / pedagogy / reverse approach details ::@:: Reverse engineering: engineering ➜ physics ➜ mathematics; many things can be learned but not taught; learning requires an objective usually from needs and experience; involve me and I learn <!--SR:!2026-12-30,231,330!2027-01-14,245,330-->
-    - ELEC 1100 / pedagogy / traditional limitations ::@:: Traditional education teaches knowledge that may become obsolete and does not focus on application; may not evolve with information era; knowledge may be forgotten or redundant after graduation <!--SR:!2027-01-17,247,330!2026-12-31,232,330-->
-    - ELEC 1100 / pedagogy / retention question ::@:: One month after taking a class, how much material can you still recall? <!--SR:!2027-01-09,241,330!2026-12-28,229,330-->
-  - ELEC 1100 / class expectation ::@:: Attend lectures, tutorials and labs on time; be ready to learn, ask questions and enjoy the experience <!--SR:!2027-01-05,237,330!2027-01-16,246,330-->
-  - ELEC 1100 / what is this class about? ::@:: Not a LEGO robot programming class; start from basic concepts and construct robot from basic components; learn managing power supply, driving motors, reading sensor output, logic control and decision making; will construct autonomous "robot" to finish a task <!--SR:!2027-01-03,235,330!2026-10-26,166,310-->
-  - ELEC 1100 / what is a robot?
-    - ELEC 1100 / what is a robot? / history of the terms "robot" and "robotics" ::@:: The word _robot_ was first used in 1921 by the Czech playwright Karel Čapek, and the related term _robotics_ appeared later in Isaac Asimov's 1942 fiction. The lecture point is that the core vocabulary of robots predates modern computers, integrated circuits, transistors, and AI. <!--SR:!2027-01-17,247,330!2027-01-05,237,330-->
-    - ELEC 1100 / what is a robot? / laws ::@:: Asimov's Three Laws of Robotics (1950): <p> - 1) A robot may not injure a human or through inaction allow harm. <br/> - 2) A robot must obey human orders unless they conflict with Law 1. <br/> - 3) A robot must protect its own existence unless such protection conflicts with Law 1 or 2 <!--SR:!2027-01-24,253,330!2027-01-19,249,330-->
-    - ELEC 1100 / what is a robot? / definitions ::@:: - Robot Institute of America definition: a reprogrammable, multifunctional manipulator designed to move material, parts, tools, or specialised devices through various programmed motions for the performance of a variety of tasks. <br/> - Webster definition: "an automatic device that performs functions normally ascribed to humans or a machine in the form of a human." <!--SR:!2027-01-15,246,330!2027-01-24,253,330-->
-    - ELEC 1100 / what is a robot? / features ::@:: - artificially created and programmable <br/>  - can sense its environment and manipulate or interact with things in it <br/>  - has some ability to make choices based on the environment, often using automatic control or a preprogrammed sequence <br/>  - moves without direct human interaction <br/>  - discussion questions: are animals robots? is a motorcycle a robot? is a helicopter a robot? <!--SR:!2026-10-18,170,310!2027-01-18,248,330-->
-    - ELEC 1100 / what is a robot? / examples ::@:: - First real robot Unimate (Engelberger & Devol, 1961) – development began 1954 inspired by Asimov <br/>  - Modern robots: Boston Dynamics dancing robots; Roomba vacuum cleaner; Aqua 2 underwater robot; DJI Air 2S drone <br/>  - Categories: aerospace, consumer, exoskeletons, drones, self-driving cars, industrial, disaster response, humanoids <!--SR:!2027-01-23,252,330!2027-01-12,243,330-->
-  - ELEC 1100 / robotics discipline ::@:: Science of perceiving and manipulating the physical world through computer-controlled mechanical devices; interdisciplinary branch of computer science and engineering involving design, construction, operation, and use of robots to help and assist humans <!--SR:!2027-01-25,254,330!2027-01-07,239,330-->
-  - ELEC 1100 / human vs robot analogy ::@:: Compare sensing, structure, motion, fuel, control and communication between humans and robots <!--SR:!2027-01-01,233,330!2027-01-21,251,330-->
-  - ELEC 1100 / mobile robot components ::@:: - Sensing: vision, sonar, GPS, gyro compass <br/> - Controller: signal processing, memory map, planned motion command, control algorithm; <br/> - Power: DC for analog/digital circuits, solar/portable sources; <br/> - Mechanical motion: wheels, axles, structures <!--SR:!2027-01-13,244,330!2027-01-09,240,330-->
-  - ELEC 1100 / design principles
-    - ELEC 1100 / design principles / hierarchical decomposition ::@:: Divide-and-conquer decomposition into subsystems such as power, sensors, controller, mechanical; complex systems like a Mars rover use specialised subteams (control, communication, signal processing, mechanical, rocket, etc.) each handling tasks (e.g. control team: obstacle avoidance, speed/landing control) <!--SR:!2027-01-04,236,330!2027-01-09,241,330-->
-  - ELEC 1100 / robot system structure ::@:: Robot system accepts inputs and produces actions; electronic and mechanical subsystems feed into the overall system with further sub‑subsystems <!--SR:!2026-12-26,227,330!2027-01-02,234,330-->
-    - ELEC 1100 / design principles / robot system structure / electronic decomposition ::@:: - Electronic subsystem breaks into control processor (sensor/other input, memory, logic power supply, control logic), motor drive and motor power supply with power amplifier; <br/> - outputs to mechanical subsystem; <br/> - mobile robot components include sensing (vision, sonar, GPS, gyro), controller, power sources, mechanical motion elements <!--SR:!2026-11-04,185,310!2026-12-29,230,330-->
-  - ELEC 1100 / course roadmap ::@:: Weekly topics from basic electronics through Arduino programming and final project (sensor basics wk6; logic & MCU wk7‑9; motor power/transistor/H‑bridge/ PWM wk4‑6; basic electronics and KCL/KVL early weeks) <!--SR:!2027-01-16,246,330!2027-01-26,255,330-->
-  - ELEC 1100 / references ::@:: - No major text; mainly use handouts provided by the instructors <br/>  - Major references: L. Richard Carley and Pradeep Khosla, "Introduction to Electrical and Computer Engineering- taught in Context", The McGraw-Hill Companies, Inc. <br/>  - G. Rizzoni, "Principles and Applications of Electrical Engineering," 5th edition, McGraw Hill, 2007 <br/>  - D. V. Kerns and J.D. Irwin, "Essentials of Electrical and Computer Engineering", Pearson, 2004 <br/>  - M. M. Mano and C.R. Kime, "Logic and Computer Design fundamentals", 3rd edition, Prentice-Hall, 2004 <!--SR:!2027-01-06,238,330!2027-01-07,239,330-->
+    - ELEC 1100 / course overview
+        - ELEC 1100 / course overview / description ::@:: Designed to provide fundamental knowledge in electrical engineering, basic electronic components and robot design <!--SR:!2026-11-09,177,310!2027-01-26,255,330-->
+        - ELEC 1100 / course overview / outcomes ::@:: Analyze and design simple analog circuits; implement control strategies; build/debug systems using hierarchical design; manage projects; execute full project lifecycle <!--SR:!2027-01-11,242,330!2027-01-14,245,330-->
+    - ELEC 1100 / pedagogy
+        - ELEC 1100 / pedagogy / methodology ::@:: Reverse engineering approach: start with engineering, then physics, then mathematics; emphasizes learning by doing <!--SR:!2027-01-21,251,330!2027-01-06,238,330-->
+        - ELEC 1100 / pedagogy / traditional approach ::@:: Traditional: mathematics ➜ physics ➜ engineering; may tell you and you forget, teach you and you remember <!--SR:!2027-01-13,244,330!2027-01-07,239,330-->
+        - ELEC 1100 / pedagogy / reverse approach details ::@:: Reverse engineering: engineering ➜ physics ➜ mathematics; many things can be learned but not taught; learning requires an objective usually from needs and experience; involve me and I learn <!--SR:!2026-12-30,231,330!2027-01-14,245,330-->
+        - ELEC 1100 / pedagogy / traditional limitations ::@:: Traditional education teaches knowledge that may become obsolete and does not focus on application; may not evolve with information era; knowledge may be forgotten or redundant after graduation <!--SR:!2027-01-17,247,330!2026-12-31,232,330-->
+        - ELEC 1100 / pedagogy / retention question ::@:: One month after taking a class, how much material can you still recall? <!--SR:!2027-01-09,241,330!2026-12-28,229,330-->
+    - ELEC 1100 / class expectation ::@:: Attend lectures, tutorials and labs on time; be ready to learn, ask questions and enjoy the experience <!--SR:!2027-01-05,237,330!2027-01-16,246,330-->
+    - ELEC 1100 / what is this class about? ::@:: Not a LEGO robot programming class; start from basic concepts and construct robot from basic components; learn managing power supply, driving motors, reading sensor output, logic control and decision making; will construct autonomous "robot" to finish a task <!--SR:!2027-01-03,235,330!2026-10-26,166,310-->
+    - ELEC 1100 / what is a robot?
+        - ELEC 1100 / what is a robot? / history of the terms "robot" and "robotics" ::@:: The word _robot_ was first used in 1921 by the Czech playwright Karel Čapek, and the related term _robotics_ appeared later in Isaac Asimov's 1942 fiction. The lecture point is that the core vocabulary of robots predates modern computers, integrated circuits, transistors, and AI. <!--SR:!2027-01-17,247,330!2027-01-05,237,330-->
+        - ELEC 1100 / what is a robot? / laws ::@:: Asimov's Three Laws of Robotics (1950): <p> - 1) A robot may not injure a human or through inaction allow harm. <br/> - 2) A robot must obey human orders unless they conflict with Law 1. <br/> - 3) A robot must protect its own existence unless such protection conflicts with Law 1 or 2 <!--SR:!2027-01-24,253,330!2027-01-19,249,330-->
+        - ELEC 1100 / what is a robot? / definitions ::@:: - Robot Institute of America definition: a reprogrammable, multifunctional manipulator designed to move material, parts, tools, or specialised devices through various programmed motions for the performance of a variety of tasks. <br/> - Webster definition: "an automatic device that performs functions normally ascribed to humans or a machine in the form of a human." <!--SR:!2027-01-15,246,330!2027-01-24,253,330-->
+        - ELEC 1100 / what is a robot? / features ::@:: - artificially created and programmable <br/>  - can sense its environment and manipulate or interact with things in it <br/>  - has some ability to make choices based on the environment, often using automatic control or a preprogrammed sequence <br/>  - moves without direct human interaction <br/>  - discussion questions: are animals robots? is a motorcycle a robot? is a helicopter a robot? <!--SR:!2026-10-18,170,310!2027-01-18,248,330-->
+        - ELEC 1100 / what is a robot? / examples ::@:: - First real robot Unimate (Engelberger & Devol, 1961) – development began 1954 inspired by Asimov <br/>  - Modern robots: Boston Dynamics dancing robots; Roomba vacuum cleaner; Aqua 2 underwater robot; DJI Air 2S drone <br/>  - Categories: aerospace, consumer, exoskeletons, drones, self-driving cars, industrial, disaster response, humanoids <!--SR:!2027-01-23,252,330!2027-01-12,243,330-->
+    - ELEC 1100 / robotics discipline ::@:: Science of perceiving and manipulating the physical world through computer-controlled mechanical devices; interdisciplinary branch of computer science and engineering involving design, construction, operation, and use of robots to help and assist humans <!--SR:!2027-01-25,254,330!2027-01-07,239,330-->
+    - ELEC 1100 / human vs robot analogy ::@:: Compare sensing, structure, motion, fuel, control and communication between humans and robots <!--SR:!2027-01-01,233,330!2027-01-21,251,330-->
+    - ELEC 1100 / mobile robot components ::@:: - Sensing: vision, sonar, GPS, gyro compass <br/> - Controller: signal processing, memory map, planned motion command, control algorithm; <br/> - Power: DC for analog/digital circuits, solar/portable sources; <br/> - Mechanical motion: wheels, axles, structures <!--SR:!2027-01-13,244,330!2027-01-09,240,330-->
+    - ELEC 1100 / design principles
+        - ELEC 1100 / design principles / hierarchical decomposition ::@:: Divide-and-conquer decomposition into subsystems such as power, sensors, controller, mechanical; complex systems like a Mars rover use specialised subteams (control, communication, signal processing, mechanical, rocket, etc.) each handling tasks (e.g. control team: obstacle avoidance, speed/landing control) <!--SR:!2027-01-04,236,330!2027-01-09,241,330-->
+    - ELEC 1100 / robot system structure ::@:: Robot system accepts inputs and produces actions; electronic and mechanical subsystems feed into the overall system with further sub‑subsystems <!--SR:!2026-12-26,227,330!2027-01-02,234,330-->
+        - ELEC 1100 / design principles / robot system structure / electronic decomposition ::@:: - Electronic subsystem breaks into control processor (sensor/other input, memory, logic power supply, control logic), motor drive and motor power supply with power amplifier; <br/> - outputs to mechanical subsystem; <br/> - mobile robot components include sensing (vision, sonar, GPS, gyro), controller, power sources, mechanical motion elements <!--SR:!2026-11-04,185,310!2026-12-29,230,330-->
+    - ELEC 1100 / course roadmap ::@:: Weekly topics from basic electronics through Arduino programming and final project (sensor basics wk6; logic & MCU wk7‑9; motor power/transistor/H‑bridge/ PWM wk4‑6; basic electronics and KCL/KVL early weeks) <!--SR:!2027-01-16,246,330!2027-01-26,255,330-->
+    - ELEC 1100 / references ::@:: - No major text; mainly use handouts provided by the instructors <br/>  - Major references: L. Richard Carley and Pradeep Khosla, "Introduction to Electrical and Computer Engineering- taught in Context", The McGraw-Hill Companies, Inc. <br/>  - G. Rizzoni, "Principles and Applications of Electrical Engineering," 5th edition, McGraw Hill, 2007 <br/>  - D. V. Kerns and J.D. Irwin, "Essentials of Electrical and Computer Engineering", Pearson, 2004 <br/>  - M. M. Mano and C.R. Kime, "Logic and Computer Design fundamentals", 3rd edition, Prentice-Hall, 2004 <!--SR:!2027-01-06,238,330!2027-01-07,239,330-->
 
 ---
 
@@ -145,16 +145,16 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - topic: basic components
 - ELEC 1100
-  - ELEC 1100 / ECE areas relevant to robotics ::@:: Robotics draws on multiple ECE subfields grouped by function: __hardware__ (nanoelectronics for core devices; MEMS for micro‑robots and sensors; photonics for optical sensors), __computation & control__ (integrated circuits & systems and system automation for control algorithms; multimedia & signal processing for information processing; computer engineering for decision‑making) and __communications__ (wireless communication and networking for robot links). <!--SR:!2026-10-20,172,310!2027-01-08,240,330-->
-  - ELEC 1100 / [electronic component](electronic%20component.md#electrical%20fundamentals)
-    - [§ electricity](electronic%20component.md#electricity)
-    - [§ atoms and charge](electronic%20component.md#atoms%20and%20charge)
-    - [§ conductors and insulators](electronic%20component.md#conductors%20and%20insulators)
-    - [§ current](electronic%20component.md#current)
-    - [§ voltage and potential difference](electronic%20component.md#voltage%20and%20potential%20difference)
-    - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors)
-    - [§ capacitors](electronic%20component.md#capacitors)
-    - [§ capacitor actions](electronic%20component.md#capacitor%20actions)
+    - ELEC 1100 / ECE areas relevant to robotics ::@:: Robotics draws on multiple ECE subfields grouped by function: __hardware__ (nanoelectronics for core devices; MEMS for micro‑robots and sensors; photonics for optical sensors), __computation & control__ (integrated circuits & systems and system automation for control algorithms; multimedia & signal processing for information processing; computer engineering for decision‑making) and __communications__ (wireless communication and networking for robot links). <!--SR:!2026-10-20,172,310!2027-01-08,240,330-->
+    - ELEC 1100 / [electronic component](electronic%20component.md#electrical%20fundamentals)
+        - [§ electricity](electronic%20component.md#electricity)
+        - [§ atoms and charge](electronic%20component.md#atoms%20and%20charge)
+        - [§ conductors and insulators](electronic%20component.md#conductors%20and%20insulators)
+        - [§ current](electronic%20component.md#current)
+        - [§ voltage and potential difference](electronic%20component.md#voltage%20and%20potential%20difference)
+        - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors)
+        - [§ capacitors](electronic%20component.md#capacitors)
+        - [§ capacitor actions](electronic%20component.md#capacitor%20actions)
 
 ### week 2 lab 1
 
@@ -168,21 +168,21 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-G001
 - topic: prepare for lab 1
 - ELEC 1100
-  - ELEC 1100 / [lab equipment](lab%20equipment.md)
-    - [§ equipment overview](lab%20equipment.md#equipment%20overview)
-    - [§ breadboard structure and connections](lab%20equipment.md#breadboard%20structure%20and%20connections)
-    - [§ component symbols and power rails](lab%20equipment.md#component%20symbols%20and%20power%20rails)
-    - [§ resistor colour code](lab%20equipment.md#resistor%20colour%20code)
-    - [§ reading the DSO](lab%20equipment.md#reading%20the%20dso)
-    - [§ LED](lab%20equipment.md#led)
-    - [§ lab safety](lab%20equipment.md#lab%20safety)
-  - ELEC 1100 / [lab 1](labs/lab%201/index.md)
-  - ELEC 1100 / lab 1 preparation (logistics only; topic content in [lab equipment](lab%20equipment.md))
-    - ELEC 1100 / lab 1 preparation / project context ::@:: The course project is a line follower robot; early labs teach the basic components, breadboard wiring and measurements needed to build and debug its subsystems. <!--SR:!fsrs,2027-11-15T00:00:00.000Z,499,499.46479977,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
-    - ELEC 1100 / lab 1 preparation / lab groups and submission ::@:: Form groups of two students within the same lab section; either self sign up on Canvas or be randomly assigned.<br/>Each student uploads their own completed summary sheet to Canvas before the end of their lab slot; late submissions are not accepted. <!--SR:!fsrs,2027-11-27T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-11-04T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-02T00:00:00.000Z-->
-    - ELEC 1100 / lab 1 preparation / lab workflow and bonus ::@:: Before lab, attend tutorial and read the lab manual and summary sheet so you know the required checks.<br/>During lab, demonstrate to the TA for a record; a bonus mark is awarded if all TA checks are completed within roughly the first two hours of the lab. <!--SR:!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-12-16T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
-    - ELEC 1100 / lab 1 preparation / Canvas and grades ::@:: Canvas hosts the syllabus, lecture/tutorial/lab materials and project documents; it also records quiz, lab, project and exam grades and pushes announcements to your HKUST email. <!--SR:!fsrs,2027-11-02T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-06-30T00:00:00.000Z!fsrs,2027-09-26T00:00:00.000Z,459,459.47302665,1,2,7,0,0,2026-06-24T00:00:00.000Z-->
-    - ELEC 1100 / lab 1 preparation / quiz system (iPRS) ::@:: In‑tutorial quizzes use the iPRS system via the HKUST iLearn app or web interface; you are responsible for ensuring your own device connects and works during quizzes. <!--SR:!fsrs,2027-10-04T00:00:00.000Z,465,464.50059801,1,2,7,0,0,2026-06-26T00:00:00.000Z!fsrs,2027-10-16T00:00:00.000Z,475,474.53060446,1,2,7,0,0,2026-06-28T00:00:00.000Z-->
+    - ELEC 1100 / [lab equipment](lab%20equipment.md)
+        - [§ equipment overview](lab%20equipment.md#equipment%20overview)
+        - [§ breadboard structure and connections](lab%20equipment.md#breadboard%20structure%20and%20connections)
+        - [§ component symbols and power rails](lab%20equipment.md#component%20symbols%20and%20power%20rails)
+        - [§ resistor colour code](lab%20equipment.md#resistor%20colour%20code)
+        - [§ reading the DSO](lab%20equipment.md#reading%20the%20dso)
+        - [§ LED](lab%20equipment.md#led)
+        - [§ lab safety](lab%20equipment.md#lab%20safety)
+    - ELEC 1100 / [lab 1](labs/lab%201/index.md)
+    - ELEC 1100 / lab 1 preparation (logistics only; topic content in [lab equipment](lab%20equipment.md))
+        - ELEC 1100 / lab 1 preparation / project context ::@:: The course project is a line follower robot; early labs teach the basic components, breadboard wiring and measurements needed to build and debug its subsystems. <!--SR:!fsrs,2027-11-15T00:00:00.000Z,499,499.46479977,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
+        - ELEC 1100 / lab 1 preparation / lab groups and submission ::@:: Form groups of two students within the same lab section; either self sign up on Canvas or be randomly assigned.<br/>Each student uploads their own completed summary sheet to Canvas before the end of their lab slot; late submissions are not accepted. <!--SR:!fsrs,2027-11-27T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-11-04T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-02T00:00:00.000Z-->
+        - ELEC 1100 / lab 1 preparation / lab workflow and bonus ::@:: Before lab, attend tutorial and read the lab manual and summary sheet so you know the required checks.<br/>During lab, demonstrate to the TA for a record; a bonus mark is awarded if all TA checks are completed within roughly the first two hours of the lab. <!--SR:!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-12-16T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
+        - ELEC 1100 / lab 1 preparation / Canvas and grades ::@:: Canvas hosts the syllabus, lecture/tutorial/lab materials and project documents; it also records quiz, lab, project and exam grades and pushes announcements to your HKUST email. <!--SR:!fsrs,2027-11-02T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-06-30T00:00:00.000Z!fsrs,2027-09-26T00:00:00.000Z,459,459.47302665,1,2,7,0,0,2026-06-24T00:00:00.000Z-->
+        - ELEC 1100 / lab 1 preparation / quiz system (iPRS) ::@:: In‑tutorial quizzes use the iPRS system via the HKUST iLearn app or web interface; you are responsible for ensuring your own device connects and works during quizzes. <!--SR:!fsrs,2027-10-04T00:00:00.000Z,465,464.50059801,1,2,7,0,0,2026-06-26T00:00:00.000Z!fsrs,2027-10-16T00:00:00.000Z,475,474.53060446,1,2,7,0,0,2026-06-28T00:00:00.000Z-->
 
 ### week 2 lecture 1
 
@@ -191,16 +191,16 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - status: scheduled
 - topic: basic electronics review, energy & power, resistor networks
 - ELEC 1100
-  - ELEC 1100 / [electronic component](electronic%20component.md#electrical%20fundamentals)
-    - [§ electrical fundamentals](electronic%20component.md#electrical%20fundamentals)
-    - [§ atoms and charge](electronic%20component.md#atoms%20and%20charge) ::@:: outer electrons are weakly held and participate in conduction <!--SR:!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
-    - [§ conductors and insulators](electronic%20component.md#conductors%20and%20insulators) ::@:: conductors allow easy charge flow, insulators restrict it <!--SR:!2026-07-23,93,368!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
-    - [§ current](electronic%20component.md#current) $I=\Delta q/\Delta t$ ::@:: current $I=\Delta q/\Delta t$ and conventional direction <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-12-16T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
-    - [§ voltage and potential difference](electronic%20component.md#voltage%20and%20potential%20difference) ::@:: voltage is energy per charge between two points <!--SR:!fsrs,2027-12-28T00:00:00.000Z,524,524.20858032,1,2,8,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
-    - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors) $V=IR$ ::@:: Ohm's law $V=IR$, resistivity formula $R=\rho L/A$ <!--SR:!2026-07-24,94,368!fsrs,2027-12-16T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
-    - [§ capacitors](electronic%20component.md#capacitors) ::@:: two plates store charge, discharge provides transient power <!--SR:!fsrs,2027-12-22T00:00:00.000Z,519,519.27443468,1,2,8,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
-    - [§ energy and power](electronic%20component.md#energy%20and%20power) $E=qV$, $P=IV$ ::@:: $E=qV$, $P=IV=I^{2}R=V^{2}/R$ <p> Human/robot energy analogy; DC vs AC sources; lab gear (bench supply, function generator, breadboard, battery monitor, LiPo); human body energy comparison; Galileo $v=\sqrt{2gh}$; resistor heating/short‑circuit hazard and worked numerical examples. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-12-22T00:00:00.000Z,519,519.27443468,1,2,8,0,0,2026-07-21T00:00:00.000Z-->
-    - [§ resistor networks](electronic%20component.md#resistor%20networks) $R_{\text{eq}}$ ::@:: series add, parallel combine via reciprocal conductance <!--SR:!fsrs,2027-10-28T00:00:00.000Z,485,484.52796027,1,2,7,0,0,2026-06-30T00:00:00.000Z!2026-07-23,93,368-->
+    - ELEC 1100 / [electronic component](electronic%20component.md#electrical%20fundamentals)
+        - [§ electrical fundamentals](electronic%20component.md#electrical%20fundamentals)
+        - [§ atoms and charge](electronic%20component.md#atoms%20and%20charge) ::@:: outer electrons are weakly held and participate in conduction <!--SR:!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
+        - [§ conductors and insulators](electronic%20component.md#conductors%20and%20insulators) ::@:: conductors allow easy charge flow, insulators restrict it <!--SR:!2026-07-23,93,368!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
+        - [§ current](electronic%20component.md#current) $I=\Delta q/\Delta t$ ::@:: current $I=\Delta q/\Delta t$ and conventional direction <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-12-16T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
+        - [§ voltage and potential difference](electronic%20component.md#voltage%20and%20potential%20difference) ::@:: voltage is energy per charge between two points <!--SR:!fsrs,2027-12-28T00:00:00.000Z,524,524.20858032,1,2,8,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
+        - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors) $V=IR$ ::@:: Ohm's law $V=IR$, resistivity formula $R=\rho L/A$ <!--SR:!2026-07-24,94,368!fsrs,2027-12-16T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
+        - [§ capacitors](electronic%20component.md#capacitors) ::@:: two plates store charge, discharge provides transient power <!--SR:!fsrs,2027-12-22T00:00:00.000Z,519,519.27443468,1,2,8,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
+        - [§ energy and power](electronic%20component.md#energy%20and%20power) $E=qV$, $P=IV$ ::@:: $E=qV$, $P=IV=I^{2}R=V^{2}/R$ <p> Human/robot energy analogy; DC vs AC sources; lab gear (bench supply, function generator, breadboard, battery monitor, LiPo); human body energy comparison; Galileo $v=\sqrt{2gh}$; resistor heating/short‑circuit hazard and worked numerical examples. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-12-22T00:00:00.000Z,519,519.27443468,1,2,8,0,0,2026-07-21T00:00:00.000Z-->
+        - [§ resistor networks](electronic%20component.md#resistor%20networks) $R_{\text{eq}}$ ::@:: series add, parallel combine via reciprocal conductance <!--SR:!fsrs,2027-10-28T00:00:00.000Z,485,484.52796027,1,2,7,0,0,2026-06-30T00:00:00.000Z!2026-07-23,93,368-->
 
 ### week 2 lecture 2
 
@@ -208,13 +208,13 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - topic: KCL & KVL
 - ELEC 1100
-  - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md) ::@:: Two fundamental relations (KCL and KVL) <!--SR:!fsrs,2027-05-11T00:00:00.000Z,310,309.87809861,1.06915337,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-11-15T00:00:00.000Z,499,499.46479977,1,2,7,0,0,2026-07-04T00:00:00.000Z-->
-    - [§ background](Kirchhoff%27s%20circuit%20laws.md#background) ::@:: Series/parallel formulas motivate the need for general laws <!--SR:!fsrs,2027-10-28T00:00:00.000Z,485,484.52796027,1,2,7,0,0,2026-06-30T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
-    - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law) ::@:: Sum of currents entering a node equals sum leaving it <!--SR:!fsrs,2027-06-21T06:24:59.482Z,372,371.53814237,1,2,7,0,0,2026-06-14T06:24:59.482Z!fsrs,2027-11-09T00:00:00.000Z,494,494.49362227,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
-    - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20voltage%20law) ::@:: Sum of voltage drops around a closed loop equals zero <!--SR:!fsrs,2027-12-28T00:00:00.000Z,524,524.20858032,1,2,8,0,0,2026-07-22T00:00:00.000Z!2026-07-23,93,368-->
-    - [§ circuit analysis using Kirchhoff's laws](Kirchhoff%27s%20circuit%20laws.md#circuit%20analysis%20using%20kirchhoff%27s%20laws) ::@:: Procedure combining KCL and KVL to solve networks <!--SR:!fsrs,2027-11-27T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
-    - [§ integrated numerical calculations](Kirchhoff%27s%20circuit%20laws.md#integrated%20numerical%20calculations) ::@:: Worked calculations using KCL and KVL for simple and bridge circuits <!--SR:!fsrs,2027-11-21T00:00:00.000Z,504,504.42839088,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-12-16T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
-    - [§ equivalence and application](Kirchhoff%27s%20circuit%20laws.md#equivalence%20and%20application) ::@:: When to apply KCL and KVL laws and how to compute equivalent resistance <!--SR:!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-10-10T00:00:00.000Z,470,469.51971005,1,2,7,0,0,2026-06-27T00:00:00.000Z-->
+    - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md) ::@:: Two fundamental relations (KCL and KVL) <!--SR:!fsrs,2027-05-11T00:00:00.000Z,310,309.87809861,1.06915337,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-11-15T00:00:00.000Z,499,499.46479977,1,2,7,0,0,2026-07-04T00:00:00.000Z-->
+        - [§ background](Kirchhoff%27s%20circuit%20laws.md#background) ::@:: Series/parallel formulas motivate the need for general laws <!--SR:!fsrs,2027-10-28T00:00:00.000Z,485,484.52796027,1,2,7,0,0,2026-06-30T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
+        - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law) ::@:: Sum of currents entering a node equals sum leaving it <!--SR:!fsrs,2027-06-21T06:24:59.482Z,372,371.53814237,1,2,7,0,0,2026-06-14T06:24:59.482Z!fsrs,2027-11-09T00:00:00.000Z,494,494.49362227,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
+        - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20voltage%20law) ::@:: Sum of voltage drops around a closed loop equals zero <!--SR:!fsrs,2027-12-28T00:00:00.000Z,524,524.20858032,1,2,8,0,0,2026-07-22T00:00:00.000Z!2026-07-23,93,368-->
+        - [§ circuit analysis using Kirchhoff's laws](Kirchhoff%27s%20circuit%20laws.md#circuit%20analysis%20using%20kirchhoff%27s%20laws) ::@:: Procedure combining KCL and KVL to solve networks <!--SR:!fsrs,2027-11-27T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
+        - [§ integrated numerical calculations](Kirchhoff%27s%20circuit%20laws.md#integrated%20numerical%20calculations) ::@:: Worked calculations using KCL and KVL for simple and bridge circuits <!--SR:!fsrs,2027-11-21T00:00:00.000Z,504,504.42839088,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-12-16T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-20T00:00:00.000Z-->
+        - [§ equivalence and application](Kirchhoff%27s%20circuit%20laws.md#equivalence%20and%20application) ::@:: When to apply KCL and KVL laws and how to compute equivalent resistance <!--SR:!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-10-10T00:00:00.000Z,470,469.51971005,1,2,7,0,0,2026-06-27T00:00:00.000Z-->
 
 ### week 3 lab 1
 
@@ -246,22 +246,22 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: Room 2133 & 2134, Academic Building
 - topic: lab 1 equipment
 - ELEC 1100
-  - ELEC 1100 / [electronic component](electronic%20component.md) (for lab 1)
-    - [§ electrical fundamentals](electronic%20component.md#electrical%20fundamentals)
-    - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors)
-    - [§ energy and power](electronic%20component.md#energy%20and%20power)
-    - [§ energy sources in lab](electronic%20component.md#energy%20sources%20in%20lab)
-    - [§ resistor networks](electronic%20component.md#resistor%20networks)
-    - [§ capacitors](electronic%20component.md#capacitors)
-  - ELEC 1100 / [lab equipment](lab%20equipment.md)
-    - [§ equipment overview](lab%20equipment.md#equipment%20overview)
-    - [§ breadboard structure and connections](lab%20equipment.md#breadboard%20structure%20and%20connections)
-    - [§ component symbols and power rails](lab%20equipment.md#component%20symbols%20and%20power%20rails)
-    - [§ resistor colour code](lab%20equipment.md#resistor%20colour%20code)
-    - [§ reading the DSO](lab%20equipment.md#reading%20the%20dso)
-    - [§ LED](lab%20equipment.md#led)
-    - [§ lab safety](lab%20equipment.md#lab%20safety)
-  - ELEC 1100 / [lab 1](labs/lab%201/index.md)
+    - ELEC 1100 / [electronic component](electronic%20component.md) (for lab 1)
+        - [§ electrical fundamentals](electronic%20component.md#electrical%20fundamentals)
+        - [§ resistance and resistors](electronic%20component.md#resistance%20and%20resistors)
+        - [§ energy and power](electronic%20component.md#energy%20and%20power)
+        - [§ energy sources in lab](electronic%20component.md#energy%20sources%20in%20lab)
+        - [§ resistor networks](electronic%20component.md#resistor%20networks)
+        - [§ capacitors](electronic%20component.md#capacitors)
+    - ELEC 1100 / [lab equipment](lab%20equipment.md)
+        - [§ equipment overview](lab%20equipment.md#equipment%20overview)
+        - [§ breadboard structure and connections](lab%20equipment.md#breadboard%20structure%20and%20connections)
+        - [§ component symbols and power rails](lab%20equipment.md#component%20symbols%20and%20power%20rails)
+        - [§ resistor colour code](lab%20equipment.md#resistor%20colour%20code)
+        - [§ reading the DSO](lab%20equipment.md#reading%20the%20dso)
+        - [§ LED](lab%20equipment.md#led)
+        - [§ lab safety](lab%20equipment.md#lab%20safety)
+    - ELEC 1100 / [lab 1](labs/lab%201/index.md)
 
 ### week 4 tutorial 1
 
@@ -269,29 +269,29 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-G001
 - topic: prepare for lab 2
 - ELEC 1100
-  - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
-    - [§ background](Kirchhoff%27s%20circuit%20laws.md#background)
-    - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law)
-    - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20voltage%20law)
-    - [§ circuit analysis using Kirchhoff's laws](Kirchhoff%27s%20circuit%20laws.md#circuit%20analysis%20using%20kirchhoff%27s%20laws)
-    - [§ integrated numerical calculations](Kirchhoff%27s%20circuit%20laws.md#integrated%20numerical%20calculations)
-    - [§ equivalence and application](Kirchhoff%27s%20circuit%20laws.md#equivalence%20and%20application)
-  - ELEC 1100 / [electronic component](electronic%20component.md) (resistor networks including infinite ladder, power)
-    - [§ resistor networks](electronic%20component.md#resistor%20networks)
-    - [§ energy and power](electronic%20component.md#energy%20and%20power)
-  - ELEC 1100 / lab 2 preparation
-    - ELEC 1100 / lab 2 preparation / review of Ohm's law ($I = V/R$) ::@:: Ohm's law $I = V/R$ lets you relate the total voltage, current and resistance of a resistor or equivalent resistor network. <!--SR:!fsrs,2027-11-09T00:00:00.000Z,494,494.49362227,1,2,7,0,0,2026-07-03T00:00:00.000Z!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
-    - ELEC 1100 / lab 2 preparation / series equivalent resistance ($R_{\text{eq}} = R_1 + R_2 + \cdots$) ::@:: For resistors in series the same current flows through each and the equivalent resistance is $R_{\text{eq}} = R_1 + R_2 + \cdots$. <!--SR:!fsrs,2027-12-28T00:00:00.000Z,524,524.20858032,1,2,8,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-10-22T00:00:00.000Z,480,479.53327656,1,2,7,0,0,2026-06-29T00:00:00.000Z-->
-    - ELEC 1100 / lab 2 preparation / parallel equivalent resistance ($1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$) ::@:: For resistors in parallel the node voltages are equal and the equivalent resistance satisfies $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$ (always less than the smallest branch). <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-12-22T00:00:00.000Z,519,519.27443468,1,2,8,0,0,2026-07-21T00:00:00.000Z-->
-    - ELEC 1100 / lab 2 preparation / measuring total resistance with DMM ::@:: To measure an equivalent resistance you disconnect the network from any sources, place the DMM in resistance mode and connect across the two terminals of interest. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2028-01-03T00:00:00.000Z,529,529.13554749,1,2,8,0,0,2026-07-23T00:00:00.000Z-->
-  - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node
-    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / when KVL and KCL are needed ::@:: Simple series/parallel reduction does not work for more complex networks, so you use Kirchhoff's Voltage Law (sum of signed drops around any loop is zero) and Kirchhoff's Current Law (sum of currents into a node equals sum out) to solve them. <!--SR:!fsrs,2027-11-27T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
-    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / reference node convention ($0\text{ V}$ reference) ::@:: In this course the negative terminal of the DC supply is normally chosen as the reference node with $0\text{ V}$ potential and is marked with the ground symbol in schematics. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
-    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / verifying KVL in lab ::@:: To check KVL you measure each element's voltage around a loop (respecting polarities) and confirm that the algebraic sum of the measured rises and drops is approximately zero. <!--SR:!fsrs,2028-01-03T00:00:00.000Z,529,529.13554749,1,2,8,0,0,2026-07-23T00:00:00.000Z!fsrs,2028-01-03T00:00:00.000Z,529,529.13554749,1,2,8,0,0,2026-07-23T00:00:00.000Z-->
-    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / verifying KCL in lab ($I_{\text{in}}$ vs $I_{\text{out}}$) ::@:: To check KCL you compute or measure the branch currents at a node and verify that $I_{\text{in, total}} \approx I_{\text{out, total}}$ within measurement error. <!--SR:!fsrs,2027-12-16T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
-  - ELEC 1100 / lab 2 preparation / current measurement safety
-    - ELEC 1100 / lab 2 preparation / current measurement safety / using the mA terminals correctly ::@:: When measuring current the multimeter's mA terminals behave like a short and must be placed _in series_ with the branch whose current you want; never connect the mA terminals directly across a component or source. <!--SR:!fsrs,2027-09-26T00:00:00.000Z,459,459.47302665,1,2,7,0,0,2026-06-24T00:00:00.000Z!fsrs,2027-11-14T00:00:00.000Z,499,499.46479977,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
-    - ELEC 1100 / lab 2 preparation / current measurement safety / danger of incorrect current connection ::@:: Mis‑using the mA input (placing it in parallel) can create a short circuit that damages both the multimeter's current channel and the circuit under test. <!--SR:!2026-07-24,94,368!fsrs,2027-12-28T00:00:00.000Z,524,524.20858032,1,2,8,0,0,2026-07-22T00:00:00.000Z-->
+    - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
+        - [§ background](Kirchhoff%27s%20circuit%20laws.md#background)
+        - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law)
+        - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20voltage%20law)
+        - [§ circuit analysis using Kirchhoff's laws](Kirchhoff%27s%20circuit%20laws.md#circuit%20analysis%20using%20kirchhoff%27s%20laws)
+        - [§ integrated numerical calculations](Kirchhoff%27s%20circuit%20laws.md#integrated%20numerical%20calculations)
+        - [§ equivalence and application](Kirchhoff%27s%20circuit%20laws.md#equivalence%20and%20application)
+    - ELEC 1100 / [electronic component](electronic%20component.md) (resistor networks including infinite ladder, power)
+        - [§ resistor networks](electronic%20component.md#resistor%20networks)
+        - [§ energy and power](electronic%20component.md#energy%20and%20power)
+    - ELEC 1100 / lab 2 preparation
+        - ELEC 1100 / lab 2 preparation / review of Ohm's law ($I = V/R$) ::@:: Ohm's law $I = V/R$ lets you relate the total voltage, current and resistance of a resistor or equivalent resistor network. <!--SR:!fsrs,2027-11-09T00:00:00.000Z,494,494.49362227,1,2,7,0,0,2026-07-03T00:00:00.000Z!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
+        - ELEC 1100 / lab 2 preparation / series equivalent resistance ($R_{\text{eq}} = R_1 + R_2 + \cdots$) ::@:: For resistors in series the same current flows through each and the equivalent resistance is $R_{\text{eq}} = R_1 + R_2 + \cdots$. <!--SR:!fsrs,2027-12-28T00:00:00.000Z,524,524.20858032,1,2,8,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-10-22T00:00:00.000Z,480,479.53327656,1,2,7,0,0,2026-06-29T00:00:00.000Z-->
+        - ELEC 1100 / lab 2 preparation / parallel equivalent resistance ($1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$) ::@:: For resistors in parallel the node voltages are equal and the equivalent resistance satisfies $1/R_{\text{eq}} = 1/R_1 + 1/R_2 + \cdots$ (always less than the smallest branch). <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-12-22T00:00:00.000Z,519,519.27443468,1,2,8,0,0,2026-07-21T00:00:00.000Z-->
+        - ELEC 1100 / lab 2 preparation / measuring total resistance with DMM ::@:: To measure an equivalent resistance you disconnect the network from any sources, place the DMM in resistance mode and connect across the two terminals of interest. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2028-01-03T00:00:00.000Z,529,529.13554749,1,2,8,0,0,2026-07-23T00:00:00.000Z-->
+    - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node
+        - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / when KVL and KCL are needed ::@:: Simple series/parallel reduction does not work for more complex networks, so you use Kirchhoff's Voltage Law (sum of signed drops around any loop is zero) and Kirchhoff's Current Law (sum of currents into a node equals sum out) to solve them. <!--SR:!fsrs,2027-11-27T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
+        - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / reference node convention ($0\text{ V}$ reference) ::@:: In this course the negative terminal of the DC supply is normally chosen as the reference node with $0\text{ V}$ potential and is marked with the ground symbol in schematics. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
+        - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / verifying KVL in lab ::@:: To check KVL you measure each element's voltage around a loop (respecting polarities) and confirm that the algebraic sum of the measured rises and drops is approximately zero. <!--SR:!fsrs,2028-01-03T00:00:00.000Z,529,529.13554749,1,2,8,0,0,2026-07-23T00:00:00.000Z!fsrs,2028-01-03T00:00:00.000Z,529,529.13554749,1,2,8,0,0,2026-07-23T00:00:00.000Z-->
+        - ELEC 1100 / lab 2 preparation / KVL, KCL and reference node / verifying KCL in lab ($I_{\text{in}}$ vs $I_{\text{out}}$) ::@:: To check KCL you compute or measure the branch currents at a node and verify that $I_{\text{in, total}} \approx I_{\text{out, total}}$ within measurement error. <!--SR:!fsrs,2027-12-16T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
+    - ELEC 1100 / lab 2 preparation / current measurement safety
+        - ELEC 1100 / lab 2 preparation / current measurement safety / using the mA terminals correctly ::@:: When measuring current the multimeter's mA terminals behave like a short and must be placed _in series_ with the branch whose current you want; never connect the mA terminals directly across a component or source. <!--SR:!fsrs,2027-09-26T00:00:00.000Z,459,459.47302665,1,2,7,0,0,2026-06-24T00:00:00.000Z!fsrs,2027-11-14T00:00:00.000Z,499,499.46479977,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
+        - ELEC 1100 / lab 2 preparation / current measurement safety / danger of incorrect current connection ::@:: Mis‑using the mA input (placing it in parallel) can create a short circuit that damages both the multimeter's current channel and the circuit under test. <!--SR:!2026-07-24,94,368!fsrs,2027-12-28T00:00:00.000Z,524,524.20858032,1,2,8,0,0,2026-07-22T00:00:00.000Z-->
 
 ### week 4 lecture 1
 
@@ -299,18 +299,18 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - topic: DC regulation
 - ELEC 1100
-  - ELEC 1100 / DC regulation: why use a regulator with a DC source in a robot circuit? ::@:: Real DC sources are non-ideal: their terminal voltage changes with discharge, temperature, and loading. A regulator is used so downstream circuits still see a predictable supply rail such as a stable $5\text{ V}$ logic supply. <!--SR:!2026-09-19,127,402!2026-09-25,132,402-->
-    - ELEC 1100 / DC regulation / direct current (DC) ::@:: "Unidirectional" current flow; in practice used as an adjective meaning approximately "constant" voltage/current (vs AC oscillation). <!--SR:!2026-09-18,126,402!2026-09-14,122,402-->
-    - ELEC 1100 / DC regulation / common DC source ::@:: Batteries provide DC voltage from chemical reactions; AC adapters convert wall AC into DC for devices like laptops. <!--SR:!2026-09-26,133,402!2026-10-03,139,402-->
-    - ELEC 1100 / DC regulation / connecting ideal sources ::@:: Ideal voltage sources can be in series; they can be in parallel only if they have the same value (different values in parallel is invalid). <!--SR:!2026-09-24,131,402!2026-09-30,136,402-->
-    - ELEC 1100 / DC regulation / KVL two-source example: A single loop has two ideal DC sources $V_1=9\text{ V}$ and $V_2=5\text{ V}$ connected in series but opposing (their + terminals face the resistor), with a resistor $R=100\,\Omega$ between the two + terminals. Assume loop current $I$ flows from the $V_1$ + terminal through $R$ toward the $V_2$ + terminal. Find the resistor voltage magnitude $V_R$, the current $I$, and resistor power $P$. ::@:: With the stated polarities and traversal direction, KVL gives $-V_1 + IR + V_2 = 0$, so $IR = V_1 - V_2 = 4\text{ V}$. Therefore $I = V_R/R = 4/100 = 0.04\text{ A}$ and $P = V_R^{2}/R = 4^{2}/100 = 0.16\text{ W}$. <!--SR:!2026-10-02,138,402!2026-10-01,137,402-->
-    - ELEC 1100 / DC regulation / why regulation is needed ::@:: Battery terminal voltage varies with discharge, temperature, and internal resistance, so the same source does not always deliver the same terminal voltage under real conditions. A regulator makes the supply seen by the circuit much more predictable. <!--SR:!2026-09-19,127,402!2026-10-02,138,402-->
-    - ELEC 1100 / DC regulation / non-ideal source model: Use $V_{\text{out}} = V_{S} - iR_{S}$ to model source droop. ::@:: Model a practical source as an ideal source $V_S$ in series with internal resistance $R_S$. Then the terminal voltage becomes $V_{\text{out}} = V_{S} - iR_{S}$, showing directly why larger load current causes source-voltage droop. <!--SR:!2026-10-02,138,402!2026-09-24,131,402-->
-  - ELEC 1100 / [voltage regulator](voltage%20regulator.md): define regulated $V_{\text{out}}$ versus $V_{\text{in}}$ and load changes. ::@:: A regulator keeps $V_{\text{out}}$ approximately constant even when the input voltage changes and even when the load draws different amounts of current, provided the regulator stays within its operating range. <!--SR:!2026-10-01,137,402!2026-09-22,129,402-->
-    - [§ why regulation is needed](voltage%20regulator.md#why%20regulation%20is%20needed) ::@:: Batteries are non-ideal: they droop with discharge and temperature, and their internal resistance makes terminal voltage fall as load current increases. Regulation is introduced so the electronics see a much steadier supply. <!--SR:!2026-09-18,126,402!2026-09-30,136,402-->
-    - [§ diode and zener diode as regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators): what does the Zener clamp near $V_Z$ do? ::@:: A Zener in reverse breakdown can clamp a node near $V_Z$ when used with a series current-limiting resistor. <!--SR:!2026-09-30,136,402!2026-10-03,139,402-->
-    - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805)): what rails are produced ($12\text{ V}$ motor, $5\text{ V}$ logic)? ::@:: The LM7805 converts a higher raw input into a regulated $5\text{ V}$ rail for logic/control electronics. In the project, the raw $12\text{ V}$ rail is kept for motor power, while the regulated $5\text{ V}$ rail is used for the other circuits with stabilizing capacitors. <!--SR:!2026-09-16,124,402!2026-09-17,125,402-->
-    - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics): define line and load regulation as $\Delta V_O/\Delta V_I$ and $\Delta V_O/\Delta I_O$, and what do they test physically? ::@:: Line regulation $\Delta V_O/\Delta V_I$ measures how much the output voltage changes when the input voltage changes, so it tests immunity to source-side variation. Load regulation $\Delta V_O/\Delta I_O$ measures how much the output voltage changes when output current demand changes, so it tests how well the regulator holds the rail steady against load changes. Ideally both are $0$ or very small. <!--SR:!2026-09-20,128,402!2026-09-15,123,402-->
+    - ELEC 1100 / DC regulation: why use a regulator with a DC source in a robot circuit? ::@:: Real DC sources are non-ideal: their terminal voltage changes with discharge, temperature, and loading. A regulator is used so downstream circuits still see a predictable supply rail such as a stable $5\text{ V}$ logic supply. <!--SR:!2026-09-19,127,402!2026-09-25,132,402-->
+        - ELEC 1100 / DC regulation / direct current (DC) ::@:: "Unidirectional" current flow; in practice used as an adjective meaning approximately "constant" voltage/current (vs AC oscillation). <!--SR:!2026-09-18,126,402!2026-09-14,122,402-->
+        - ELEC 1100 / DC regulation / common DC source ::@:: Batteries provide DC voltage from chemical reactions; AC adapters convert wall AC into DC for devices like laptops. <!--SR:!2026-09-26,133,402!2026-10-03,139,402-->
+        - ELEC 1100 / DC regulation / connecting ideal sources ::@:: Ideal voltage sources can be in series; they can be in parallel only if they have the same value (different values in parallel is invalid). <!--SR:!2026-09-24,131,402!2026-09-30,136,402-->
+        - ELEC 1100 / DC regulation / KVL two-source example: A single loop has two ideal DC sources $V_1=9\text{ V}$ and $V_2=5\text{ V}$ connected in series but opposing (their + terminals face the resistor), with a resistor $R=100\,\Omega$ between the two + terminals. Assume loop current $I$ flows from the $V_1$ + terminal through $R$ toward the $V_2$ + terminal. Find the resistor voltage magnitude $V_R$, the current $I$, and resistor power $P$. ::@:: With the stated polarities and traversal direction, KVL gives $-V_1 + IR + V_2 = 0$, so $IR = V_1 - V_2 = 4\text{ V}$. Therefore $I = V_R/R = 4/100 = 0.04\text{ A}$ and $P = V_R^{2}/R = 4^{2}/100 = 0.16\text{ W}$. <!--SR:!2026-10-02,138,402!2026-10-01,137,402-->
+        - ELEC 1100 / DC regulation / why regulation is needed ::@:: Battery terminal voltage varies with discharge, temperature, and internal resistance, so the same source does not always deliver the same terminal voltage under real conditions. A regulator makes the supply seen by the circuit much more predictable. <!--SR:!2026-09-19,127,402!2026-10-02,138,402-->
+        - ELEC 1100 / DC regulation / non-ideal source model: Use $V_{\text{out}} = V_{S} - iR_{S}$ to model source droop. ::@:: Model a practical source as an ideal source $V_S$ in series with internal resistance $R_S$. Then the terminal voltage becomes $V_{\text{out}} = V_{S} - iR_{S}$, showing directly why larger load current causes source-voltage droop. <!--SR:!2026-10-02,138,402!2026-09-24,131,402-->
+    - ELEC 1100 / [voltage regulator](voltage%20regulator.md): define regulated $V_{\text{out}}$ versus $V_{\text{in}}$ and load changes. ::@:: A regulator keeps $V_{\text{out}}$ approximately constant even when the input voltage changes and even when the load draws different amounts of current, provided the regulator stays within its operating range. <!--SR:!2026-10-01,137,402!2026-09-22,129,402-->
+        - [§ why regulation is needed](voltage%20regulator.md#why%20regulation%20is%20needed) ::@:: Batteries are non-ideal: they droop with discharge and temperature, and their internal resistance makes terminal voltage fall as load current increases. Regulation is introduced so the electronics see a much steadier supply. <!--SR:!2026-09-18,126,402!2026-09-30,136,402-->
+        - [§ diode and zener diode as regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators): what does the Zener clamp near $V_Z$ do? ::@:: A Zener in reverse breakdown can clamp a node near $V_Z$ when used with a series current-limiting resistor. <!--SR:!2026-09-30,136,402!2026-10-03,139,402-->
+        - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805)): what rails are produced ($12\text{ V}$ motor, $5\text{ V}$ logic)? ::@:: The LM7805 converts a higher raw input into a regulated $5\text{ V}$ rail for logic/control electronics. In the project, the raw $12\text{ V}$ rail is kept for motor power, while the regulated $5\text{ V}$ rail is used for the other circuits with stabilizing capacitors. <!--SR:!2026-09-16,124,402!2026-09-17,125,402-->
+        - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics): define line and load regulation as $\Delta V_O/\Delta V_I$ and $\Delta V_O/\Delta I_O$, and what do they test physically? ::@:: Line regulation $\Delta V_O/\Delta V_I$ measures how much the output voltage changes when the input voltage changes, so it tests immunity to source-side variation. Load regulation $\Delta V_O/\Delta I_O$ measures how much the output voltage changes when output current demand changes, so it tests how well the regulator holds the rail steady against load changes. Ideally both are $0$ or very small. <!--SR:!2026-09-20,128,402!2026-09-15,123,402-->
 
 ### week 4 lecture 2
 
@@ -318,23 +318,23 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - topic: transistors
 - ELEC 1100
-  - ELEC 1100 / [diode](diode.md)
-    - ELEC 1100 / [diode](diode.md) / circuit analysis (ideal or $0.7\text{ V}$ drop model): overall method? ::@:: Pick a diode model (ideal or constant $0.7\text{ V}$). Assume the diode is ON or OFF, replace it with the equivalent circuit (ON: short/short + $0.7\text{ V}$ drop; OFF: open), then solve the circuit using KVL/Ohm's law. <!--SR:!fsrs,2027-11-21T00:00:00.000Z,504,504.42839088,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-11-04T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-02T00:00:00.000Z-->
-    - ELEC 1100 / [diode](diode.md) / circuit analysis consistency check ($V_D$, $I_D$): what do you verify? ::@:: After solving, check that the computed diode voltage/current match the assumed state (forward-bias with $V_D\approx0.7\text{ V}$ and $I_D>0$ for ON; reverse/blocked with $I_D\approx0$ for OFF). If inconsistent, flip the assumption and re-solve. <!--SR:!fsrs,2027-06-26T06:24:51.019Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:24:51.019Z!fsrs,2028-01-03T00:00:00.000Z,529,529.13554749,1,2,8,0,0,2026-07-23T00:00:00.000Z-->
-    - ELEC 1100 / [diode](diode.md) / [pn junction and biasing](diode.md#pn%20junction%20and%20biasing) ($\approx0.7\text{ V}$ barrier, anode/cathode): key ideas? ::@:: PN junction is formed by joining P-type and N-type semiconductor regions; the depletion region creates a barrier potential of about $0.7\text{ V}$ for silicon.<br/> The P side is the anode and the N side the cathode; forward bias (anode higher than cathode) allows current, reverse bias blocks it. Conventional current flows from anode to cathode when forward biased. <!--SR:!2026-07-23,93,368!fsrs,2027-05-16T01:52:07.125Z,344,344.15252586,1,2,7,0,0,2026-06-06T01:52:07.125Z-->
-    - ELEC 1100 / [diode](diode.md) / [diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models) (ideal vs $0.7\text{ V}$ model, ON/OFF method): key points? ::@:: Ideal model: diode is a short when forward biased and an open when reverse biased.<br/> Constant-voltage model: when ON, $V_D\approx0.7\text{ V}$; when OFF, $I_D\approx0$. Use the ON/OFF assumption method: assume a state, replace with the equivalent circuit, solve, then check consistency of $V_D$ and $I_D$ with that state. <!--SR:!fsrs,2027-06-26T06:24:49.382Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:24:49.382Z!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
-    - ELEC 1100 / [diode](diode.md) / [simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety) (e.g. $1\text{ k}\Omega$ series $R$): why? ::@:: In a series source–resistor–diode circuit, use $I_D\approx(V_S-0.7\text{ V})/R$ when the diode is ON and $V_S>0.7\text{ V}$; when $V_S<0.7\text{ V}$ the diode is OFF and $I_D\approx0$.<br/> A series resistor (e.g. $1\text{ k}\Omega$) is essential to limit current through the diode or LED so that the device is not damaged by excessive current when it turns on. <!--SR:!2026-07-24,94,368!fsrs,2027-10-10T00:00:00.000Z,470,469.51971005,1,2,7,0,0,2026-06-27T00:00:00.000Z-->
-  - ELEC 1100 / transistor basics: terminals and types (C, B, E; NPN/PNP)? ::@:: A BJT has three terminals: collector (C), base (B), emitter (E). The two main types are NPN and PNP. <!--SR:!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-06-26T06:24:58.753Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:24:58.753Z-->
-  - ELEC 1100 / transistor basics: what are $V_{CC}$ and $V_{CE}$ ($V_{CE}=V_C-V_E$)? ::@:: $V_{CC}$ is the DC supply rail feeding the collector/load network. $V_{CE}$ is the collector-to-emitter voltage: $V_{CE}=V_C-V_E$. <!--SR:!fsrs,2027-10-10T00:00:00.000Z,470,469.51971005,1,2,7,0,0,2026-06-27T00:00:00.000Z!fsrs,2027-11-21T00:00:00.000Z,504,504.42839088,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
-  - ELEC 1100 / transistor basics: three modes (OFF/AMP/SAT) using $I_B$, $I_C$, $\beta$, $V_{CE}$? ::@:: OFF: $I_B\approx0\Rightarrow I_C\approx0$. AMPLIFICATION: $I_C\approx\beta I_B$. SATURATION: $I_C$ limited by the external circuit and $V_{CE}\approx0.2\text{ V}$. <!--SR:!fsrs,2027-12-28T00:00:00.000Z,524,524.20858032,1,2,8,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-10-22T00:00:00.000Z,480,479.53327656,1,2,7,0,0,2026-06-29T00:00:00.000Z-->
-    - ELEC 1100 / transistor / [structure](transistor.md#structure) (C, B, E; NPN/PNP symbol): key points? ::@:: BJT is a PN junction with an extra layer (NPN or PNP); base is the middle leg in the symbol, emitter has the arrow (out for NPN, in for PNP), collector is the other leg. <!--SR:!fsrs,2027-06-26T06:25:00.251Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:25:00.251Z!fsrs,2027-05-15T01:54:33.931Z,343,342.56658939,1,2,7,0,0,2026-06-06T01:54:33.931Z-->
-    - ELEC 1100 / transistor / [historical context](transistor.md#historical%20context): key points? ::@:: First working transistor at Bell Labs (1947, Bardeen, Brattain, Shockley); foundation of modern electronics (computers, phones); Shockley's company in Palo Alto helped start Silicon Valley. <!--SR:!fsrs,2027-05-25T01:54:34.729Z,353,353.49484236,1,2,7,0,0,2026-06-06T01:54:34.729Z!fsrs,2027-11-21T00:00:00.000Z,504,504.42839088,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
-    - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): OFF condition ($V_{BE}<0.7\text{ V}$)? ::@:: OFF: if $V_{BE}<0.7\text{ V}$ then the B–E junction is not forward-biased, so $I_B\approx0$ and therefore $I_C\approx0$ (no conduction). <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-05-26T01:54:35.303Z,354,353.84132216,1,2,7,0,0,2026-06-06T01:54:35.303Z-->
-    - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): amplification/active ($V_{BE}>0.7\text{ V}$, $I_C\approx\beta I_B$)? ::@:: AMPLIFICATION (active): with $V_{BE}>0.7\text{ V}$, a small base current flows and the collector current is approximately $I_C\approx\beta I_B$; $V_{CE}$ is not forced tiny (it sits somewhere between saturation and the supply). <!--SR:!fsrs,2027-12-22T00:00:00.000Z,519,519.27443468,1,2,8,0,0,2026-07-21T00:00:00.000Z!2026-07-23,93,368-->
-    - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): saturation ($V_{CE}\approx0.2\text{ V}$, $I_C\approx I_{C,\max}$)? ::@:: SATURATION: base drive is strong enough that the circuit limits the collector current, so $I_C\approx I_{C,\max}$ (e.g. $\approx(V_{CC}-0.2\text{ V})/R_C$) and $V_{CE}\approx0.2\text{ V}$; increasing $I_B$ further does not increase $I_C$ much. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,301,300.51699518,1.06915337,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-06-26T06:24:57.890Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:24:57.890Z-->
-    - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): what does "NPN low-side" mean? ::@:: "Low-side" means the transistor is between the load and ground, so current flows supply → load → transistor → ground (when on). <!--SR:!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-11-15T00:00:00.000Z,499,499.46479977,1,2,7,0,0,2026-07-04T00:00:00.000Z-->
-    - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): NPN low-side connections (E, C, base / $R_B$)? ::@:: Emitter to ground, collector to the load (and the other side of the load to $V_{CC}$), base driven from $V_{\text{IN}}$ through a resistor $R_B$ to limit $I_B$. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!2026-07-24,94,368-->
-    - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): OFF vs ON condition ($V_{\text{IN}}<0.7\text{ V}$, saturation)? ::@:: If $V_{\text{IN}}<0.7\text{ V}$ then $V_{BE}$ is not forward-biased and the transistor is OFF ($I_C\approx0$). If $V_{\text{IN}}$ is high enough to drive base current, the transistor can turn ON; if base drive is strong it saturates with $V_{CE}\approx0.2\text{ V}$ and the load current is near its maximum. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-11-09T00:00:00.000Z,494,494.49362227,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
+    - ELEC 1100 / [diode](diode.md)
+        - ELEC 1100 / [diode](diode.md) / circuit analysis (ideal or $0.7\text{ V}$ drop model): overall method? ::@:: Pick a diode model (ideal or constant $0.7\text{ V}$). Assume the diode is ON or OFF, replace it with the equivalent circuit (ON: short/short + $0.7\text{ V}$ drop; OFF: open), then solve the circuit using KVL/Ohm's law. <!--SR:!fsrs,2027-11-21T00:00:00.000Z,504,504.42839088,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-11-04T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-02T00:00:00.000Z-->
+        - ELEC 1100 / [diode](diode.md) / circuit analysis consistency check ($V_D$, $I_D$): what do you verify? ::@:: After solving, check that the computed diode voltage/current match the assumed state (forward-bias with $V_D\approx0.7\text{ V}$ and $I_D>0$ for ON; reverse/blocked with $I_D\approx0$ for OFF). If inconsistent, flip the assumption and re-solve. <!--SR:!fsrs,2027-06-26T06:24:51.019Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:24:51.019Z!fsrs,2028-01-03T00:00:00.000Z,529,529.13554749,1,2,8,0,0,2026-07-23T00:00:00.000Z-->
+        - ELEC 1100 / [diode](diode.md) / [pn junction and biasing](diode.md#pn%20junction%20and%20biasing) ($\approx0.7\text{ V}$ barrier, anode/cathode): key ideas? ::@:: PN junction is formed by joining P-type and N-type semiconductor regions; the depletion region creates a barrier potential of about $0.7\text{ V}$ for silicon.<br/> The P side is the anode and the N side the cathode; forward bias (anode higher than cathode) allows current, reverse bias blocks it. Conventional current flows from anode to cathode when forward biased. <!--SR:!2026-07-23,93,368!fsrs,2027-05-16T01:52:07.125Z,344,344.15252586,1,2,7,0,0,2026-06-06T01:52:07.125Z-->
+        - ELEC 1100 / [diode](diode.md) / [diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models) (ideal vs $0.7\text{ V}$ model, ON/OFF method): key points? ::@:: Ideal model: diode is a short when forward biased and an open when reverse biased.<br/> Constant-voltage model: when ON, $V_D\approx0.7\text{ V}$; when OFF, $I_D\approx0$. Use the ON/OFF assumption method: assume a state, replace with the equivalent circuit, solve, then check consistency of $V_D$ and $I_D$ with that state. <!--SR:!fsrs,2027-06-26T06:24:49.382Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:24:49.382Z!fsrs,2027-12-10T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
+        - ELEC 1100 / [diode](diode.md) / [simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety) (e.g. $1\text{ k}\Omega$ series $R$): why? ::@:: In a series source–resistor–diode circuit, use $I_D\approx(V_S-0.7\text{ V})/R$ when the diode is ON and $V_S>0.7\text{ V}$; when $V_S<0.7\text{ V}$ the diode is OFF and $I_D\approx0$.<br/> A series resistor (e.g. $1\text{ k}\Omega$) is essential to limit current through the diode or LED so that the device is not damaged by excessive current when it turns on. <!--SR:!2026-07-24,94,368!fsrs,2027-10-10T00:00:00.000Z,470,469.51971005,1,2,7,0,0,2026-06-27T00:00:00.000Z-->
+    - ELEC 1100 / transistor basics: terminals and types (C, B, E; NPN/PNP)? ::@:: A BJT has three terminals: collector (C), base (B), emitter (E). The two main types are NPN and PNP. <!--SR:!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-06-26T06:24:58.753Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:24:58.753Z-->
+    - ELEC 1100 / transistor basics: what are $V_{CC}$ and $V_{CE}$ ($V_{CE}=V_C-V_E$)? ::@:: $V_{CC}$ is the DC supply rail feeding the collector/load network. $V_{CE}$ is the collector-to-emitter voltage: $V_{CE}=V_C-V_E$. <!--SR:!fsrs,2027-10-10T00:00:00.000Z,470,469.51971005,1,2,7,0,0,2026-06-27T00:00:00.000Z!fsrs,2027-11-21T00:00:00.000Z,504,504.42839088,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
+    - ELEC 1100 / transistor basics: three modes (OFF/AMP/SAT) using $I_B$, $I_C$, $\beta$, $V_{CE}$? ::@:: OFF: $I_B\approx0\Rightarrow I_C\approx0$. AMPLIFICATION: $I_C\approx\beta I_B$. SATURATION: $I_C$ limited by the external circuit and $V_{CE}\approx0.2\text{ V}$. <!--SR:!fsrs,2027-12-28T00:00:00.000Z,524,524.20858032,1,2,8,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-10-22T00:00:00.000Z,480,479.53327656,1,2,7,0,0,2026-06-29T00:00:00.000Z-->
+        - ELEC 1100 / transistor / [structure](transistor.md#structure) (C, B, E; NPN/PNP symbol): key points? ::@:: BJT is a PN junction with an extra layer (NPN or PNP); base is the middle leg in the symbol, emitter has the arrow (out for NPN, in for PNP), collector is the other leg. <!--SR:!fsrs,2027-06-26T06:25:00.251Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:25:00.251Z!fsrs,2027-05-15T01:54:33.931Z,343,342.56658939,1,2,7,0,0,2026-06-06T01:54:33.931Z-->
+        - ELEC 1100 / transistor / [historical context](transistor.md#historical%20context): key points? ::@:: First working transistor at Bell Labs (1947, Bardeen, Brattain, Shockley); foundation of modern electronics (computers, phones); Shockley's company in Palo Alto helped start Silicon Valley. <!--SR:!fsrs,2027-05-25T01:54:34.729Z,353,353.49484236,1,2,7,0,0,2026-06-06T01:54:34.729Z!fsrs,2027-11-21T00:00:00.000Z,504,504.42839088,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
+        - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): OFF condition ($V_{BE}<0.7\text{ V}$)? ::@:: OFF: if $V_{BE}<0.7\text{ V}$ then the B–E junction is not forward-biased, so $I_B\approx0$ and therefore $I_C\approx0$ (no conduction). <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-05-26T01:54:35.303Z,354,353.84132216,1,2,7,0,0,2026-06-06T01:54:35.303Z-->
+        - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): amplification/active ($V_{BE}>0.7\text{ V}$, $I_C\approx\beta I_B$)? ::@:: AMPLIFICATION (active): with $V_{BE}>0.7\text{ V}$, a small base current flows and the collector current is approximately $I_C\approx\beta I_B$; $V_{CE}$ is not forced tiny (it sits somewhere between saturation and the supply). <!--SR:!fsrs,2027-12-22T00:00:00.000Z,519,519.27443468,1,2,8,0,0,2026-07-21T00:00:00.000Z!2026-07-23,93,368-->
+        - ELEC 1100 / transistor / [transistor operation modes](transistor.md#transistor%20operation%20modes): saturation ($V_{CE}\approx0.2\text{ V}$, $I_C\approx I_{C,\max}$)? ::@:: SATURATION: base drive is strong enough that the circuit limits the collector current, so $I_C\approx I_{C,\max}$ (e.g. $\approx(V_{CC}-0.2\text{ V})/R_C$) and $V_{CE}\approx0.2\text{ V}$; increasing $I_B$ further does not increase $I_C$ much. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,301,300.51699518,1.06915337,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-06-26T06:24:57.890Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:24:57.890Z-->
+        - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): what does "NPN low-side" mean? ::@:: "Low-side" means the transistor is between the load and ground, so current flows supply → load → transistor → ground (when on). <!--SR:!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-11-15T00:00:00.000Z,499,499.46479977,1,2,7,0,0,2026-07-04T00:00:00.000Z-->
+        - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): NPN low-side connections (E, C, base / $R_B$)? ::@:: Emitter to ground, collector to the load (and the other side of the load to $V_{CC}$), base driven from $V_{\text{IN}}$ through a resistor $R_B$ to limit $I_B$. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!2026-07-24,94,368-->
+        - ELEC 1100 / transistor / [transistor as a switch](transistor.md#transistor%20as%20a%20switch): OFF vs ON condition ($V_{\text{IN}}<0.7\text{ V}$, saturation)? ::@:: If $V_{\text{IN}}<0.7\text{ V}$ then $V_{BE}$ is not forward-biased and the transistor is OFF ($I_C\approx0$). If $V_{\text{IN}}$ is high enough to drive base current, the transistor can turn ON; if base drive is strong it saturates with $V_{CE}\approx0.2\text{ V}$ and the load current is near its maximum. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-11-09T00:00:00.000Z,494,494.49362227,1,2,7,0,0,2026-07-03T00:00:00.000Z-->
 
 ### week 5 lab 1
 
@@ -342,17 +342,17 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: Room 2133 & 2134, Academic Building
 - topic: lab 2 KCL & KVL
 - ELEC 1100
-  - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
-    - [§ background](Kirchhoff%27s%20circuit%20laws.md#background)
-    - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law)
-    - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20voltage%20law)
-    - [§ circuit analysis using Kirchhoff's laws](Kirchhoff%27s%20circuit%20laws.md#circuit%20analysis%20using%20kirchhoff%27s%20laws)
-    - [§ integrated numerical calculations](Kirchhoff%27s%20circuit%20laws.md#integrated%20numerical%20calculations)
-    - [§ equivalence and application](Kirchhoff%27s%20circuit%20laws.md#equivalence%20and%20application)
-  - ELEC 1100 / [electronic component](electronic%20component.md) (resistor networks including infinite ladder, power)
-    - [§ resistor networks](electronic%20component.md#resistor%20networks)
-    - [§ energy and power](electronic%20component.md#energy%20and%20power)
-  - ELEC 1100 / [lab 2](labs/lab%202/index.md)
+    - ELEC 1100 / [Kirchhoff's circuit laws](Kirchhoff%27s%20circuit%20laws.md)
+        - [§ background](Kirchhoff%27s%20circuit%20laws.md#background)
+        - [§ Kirchhoff's current law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20current%20law)
+        - [§ Kirchhoff's voltage law](Kirchhoff%27s%20circuit%20laws.md#kirchhoff%27s%20voltage%20law)
+        - [§ circuit analysis using Kirchhoff's laws](Kirchhoff%27s%20circuit%20laws.md#circuit%20analysis%20using%20kirchhoff%27s%20laws)
+        - [§ integrated numerical calculations](Kirchhoff%27s%20circuit%20laws.md#integrated%20numerical%20calculations)
+        - [§ equivalence and application](Kirchhoff%27s%20circuit%20laws.md#equivalence%20and%20application)
+    - ELEC 1100 / [electronic component](electronic%20component.md) (resistor networks including infinite ladder, power)
+        - [§ resistor networks](electronic%20component.md#resistor%20networks)
+        - [§ energy and power](electronic%20component.md#energy%20and%20power)
+    - ELEC 1100 / [lab 2](labs/lab%202/index.md)
 
 ### week 5 tutorial 1
 
@@ -360,16 +360,16 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-G001
 - topic: prepare for lab 3
 - ELEC 1100
-  - ELEC 1100 / [diode](diode.md)
-    - [§ pn junction and biasing](diode.md#pn%20junction%20and%20biasing)
-    - [§ diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models)
-    - [§ simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety)
-  - ELEC 1100 / [voltage regulator](voltage%20regulator.md)
-    - [§ why regulation is needed](voltage%20regulator.md#why%20regulation%20is%20needed)
-    - [§ diode and zener diode as regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators)
-    - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805))
-    - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics)
-    - ELEC 1100 / voltage regulator / reading Zener breakdown from $V_Z$–$V_{\text{in}}$ graph: Given a plot of $V_Z$ versus $V_{\text{in}}$ for the ELEC 1100 Zener clamp, how do you estimate the breakdown voltage? ::@:: From the $V_Z$ versus $V_{\text{in}}$ plot, identify where the curve stops rising with $V_{\text{in}}$ and flattens into a plateau; the plateau level of $V_Z$ in this region is the Zener breakdown voltage (about $5.7\text{ V}$ in the tutorial example). <!--SR:!fsrs,2027-12-22T00:00:00.000Z,519,519.27443468,1,2,8,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-06-26T06:24:50.240Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:24:50.240Z-->
+    - ELEC 1100 / [diode](diode.md)
+        - [§ pn junction and biasing](diode.md#pn%20junction%20and%20biasing)
+        - [§ diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models)
+        - [§ simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety)
+    - ELEC 1100 / [voltage regulator](voltage%20regulator.md)
+        - [§ why regulation is needed](voltage%20regulator.md#why%20regulation%20is%20needed)
+        - [§ diode and zener diode as regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators)
+        - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805))
+        - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics)
+        - ELEC 1100 / voltage regulator / reading Zener breakdown from $V_Z$–$V_{\text{in}}$ graph: Given a plot of $V_Z$ versus $V_{\text{in}}$ for the ELEC 1100 Zener clamp, how do you estimate the breakdown voltage? ::@:: From the $V_Z$ versus $V_{\text{in}}$ plot, identify where the curve stops rising with $V_{\text{in}}$ and flattens into a plateau; the plateau level of $V_Z$ in this region is the Zener breakdown voltage (about $5.7\text{ V}$ in the tutorial example). <!--SR:!fsrs,2027-12-22T00:00:00.000Z,519,519.27443468,1,2,8,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-06-26T06:24:50.240Z,377,376.57150457,1,2,7,0,0,2026-06-14T06:24:50.240Z-->
 
 ### week 5 lecture 1
 
@@ -377,36 +377,36 @@ During the first lecture the instructor went over {@{the course logistics}@}.  Y
 - venue: CYT-LTL
 - topic: transistor (inverter), H-bridge
 - ELEC 1100
-  - ELEC 1100 / [transistor](transistor.md) (recap and inverter)
-    - [§ structure](transistor.md#structure)
-    - [§ historical context](transistor.md#historical%20context)
-    - [§ transistor operation modes](transistor.md#transistor%20operation%20modes)
-    - [§ transistor as inverter](transistor.md#transistor%20as%20inverter)
-    - [§ transistor as a switch](transistor.md#transistor%20as%20a%20switch)
-    - ELEC 1100 / transistor / [transistor as inverter](transistor.md#transistor%20as%20inverter): in the NPN resistor-loaded inverter, why does LOW in give HIGH out and HIGH in give LOW out? (compare $V_C$ with $V_E$) ::@:: When the input is LOW, the transistor is OFF, so almost no collector current flows and the collector resistor pulls $V_C$ up near $V_{CC}$, giving a logical HIGH output. When the input is HIGH enough to saturate the transistor, the collector is pulled down close to the emitter (about $0.2\text{ V}$ above ground), so the output becomes logical LOW. <!--SR:!fsrs,2027-09-26T00:00:00.000Z,459,459.47302665,1,2,7,0,0,2026-06-24T00:00:00.000Z!fsrs,2027-12-15T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
-    - ELEC 1100 / transistor / saturation threshold $V_{\text{sat}}$: how do you find the input voltage where the transistor just enters saturation? ($R_B$, $R_C$, $V_{CC}$, $\beta$) ::@:: Equate $\beta I_B$ and $I_{C,\max}$; $I_B = (V_{\text{sat}} - 0.7\text{ V})/R_B$ and $I_{C,\max} = (V_{CC} - 0.2\text{ V})/R_C$; solve for $V_{\text{sat}}$. For the lecture values ($R_B = 10\text{ k}\Omega$, $R_C = 1\text{ k}\Omega$, $V_{CC} = 5\text{ V}$, $\beta = 100$), $V_{\text{sat}} = 1.18\text{ V}$. <!--SR:!fsrs,2027-11-15T00:00:00.000Z,499,499.46479977,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,203,202.78667288,4.06039746,2,7,0,0,2026-06-26T00:00:00.000Z-->
-  - ELEC 1100 / 74HC14 hex inverter: what is the 74HC14 and what must be connected for it to work? (VCC to $+5\text{ V}$, GND to the same supply's ground) ::@:: The 74HC14 is a hex inverter IC containing six independent inverters, each producing LOW in $\Rightarrow$ HIGH out and HIGH in $\Rightarrow$ LOW out. It does not create its own supply, so VCC (e.g. pin 14) must go to the regulated $+5\text{ V}$ rail and GND (e.g. pin 7) must go to the common ground of that same logic supply, not to $+5\text{ V}$. It is used with the H-bridge to generate complementary DIR signals. <!--SR:!fsrs,2028-01-03T00:00:00.000Z,529,529.13554749,1,2,8,0,0,2026-07-23T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
-  - ELEC 1100 / [H-bridge](H-bridge.md): what does the H-bridge do for a DC motor, and how? ::@:: An H-bridge is a four-switch motor-driver circuit that reverses the direction of current through a DC motor. Closing one diagonal pair drives current one way through the motor, while closing the opposite diagonal pair reverses the current and therefore reverses the motor direction. <!--SR:!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
-    - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control): which switch pairs are safe, and what must be avoided? ::@:: One diagonal pair is closed for one direction and the opposite diagonal pair for the reverse direction. Only one diagonal may conduct at a time; turning on both diagonals or two switches on the same rail creates a direct supply short. <!--SR:!fsrs,2027-11-21T00:00:00.000Z,504,504.42839088,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-10-16T00:00:00.000Z,475,474.53060446,1,2,7,0,0,2026-06-28T00:00:00.000Z-->
-      - [§ switches and current path](H-bridge.md#switches%20and%20current%20path)
-      - [§ hazards](H-bridge.md#hazards)
-    - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors) (Va, Vb, Vc, Vd; $5\text{ V}$, $0\text{ V}$) ::@:: Replace the ideal switches with two PNP transistors on the high side and two NPN transistors on the low side, and drive them in saturation so the motor can receive strong current. One direction uses one top PNP plus the opposite bottom NPN, so the base voltages Va, Vb, Vc, Vd must form complementary HIGH/LOW pairs. <!--SR:!fsrs,2027-10-22T00:00:00.000Z,480,479.53327656,1,2,7,0,0,2026-06-29T00:00:00.000Z!fsrs,2027-10-16T00:00:00.000Z,475,474.53060446,1,2,7,0,0,2026-06-28T00:00:00.000Z-->
-      - [§ saturation, transistor types, and layout](H-bridge.md#saturation-transistor-types-and-layout)
-      - [§ base voltage pattern](H-bridge.md#base%20voltage%20pattern)
-    - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter) ($5\text{ V}$, $0\text{ V}$) ::@:: One DIR line alone can provide only one logic level at a time, but the H-bridge direction inputs need a complementary pair. So DIR is sent directly to one side and through an inverter to the other side, producing both the original logic level and its opposite from the same control signal. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
-      - [§ direction (DIR) signal and inverter solution](H-bridge.md#direction%20(dir)%20signal%20and%20inverter%20solution)
-    - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter) (VCC to $+5\text{ V}$, GND to logic ground) ::@:: The 74HC14 provides six inverter gates in one IC. It is powered from the $5\text{ V}$ logic rail, with GND tied to the common logic ground, and is used so each motor's DIR signal can be turned into a complementary pair for the H-bridge inputs. <!--SR:!fsrs,2027-11-27T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,301,300.51699518,1.06915337,2,7,0,0,2026-07-01T00:00:00.000Z-->
-      - [§ function and logic](H-bridge.md#function%20and%20logic)
-      - [§ power and pinout](H-bridge.md#power%20and%20pinout)
-    - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293)) (VS pin 8, VCC pin 16, EN, IN pins; $12\text{ V}$, $5\text{ V}$) ::@:: The L293 contains two H-bridges, so one chip can drive two motors. VS (pin 8) is the motor supply, typically $12\text{ V}$, while VCC (pin 16) is the logic supply, typically $5\text{ V}$. The IN pins determine direction, and the EN pin enables that bridge and can also be used later for PWM speed control. <!--SR:!2026-11-01,174,348!fsrs,2027-05-22T01:54:36.154Z,350,349.8833712,1,2,7,0,0,2026-06-06T01:54:36.154Z-->
-      - [§ function and pins](H-bridge.md#function%20and%20pins)
-      - [§ supplies and bypass](H-bridge.md#supplies%20and%20bypass)
-    - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805) ($12\text{ V}$, $5\text{ V}$, LM7805, DIR wiring) ::@:: The raw $12\text{ V}$ rail goes to the motor-power side, including L293 VS, while the LM7805 produces the regulated $5\text{ V}$ rail for the 74HC14 and L293 VCC. For each motor, DIR is wired both directly and through one inverter so the two L293 direction inputs become complementary, and EN can later be driven by PWM for speed control. <!--SR:!2026-09-25,132,402!2026-09-17,125,402-->
-      - [§ power sources ($12\text{ V}$ and $5\text{ V}$)](H-bridge.md#power%20sources%20(%2412%5Ctext%7B%20V%7D%24%20and%20%245%5Ctext%7B%20V%7D%24))
-      - [§ wiring DIR and inverters](H-bridge.md#wiring%20dir%20and%20inverters)
-    - [§ breadboard layout](H-bridge.md#breadboard%20layout)
-      - [§ rail labels and 74HC14 power](H-bridge.md#rail%20labels%20and%2074hc14%20power)
-      - [§ pin counts and placement](H-bridge.md#pin%20counts%20and%20placement)
+    - ELEC 1100 / [transistor](transistor.md) (recap and inverter)
+        - [§ structure](transistor.md#structure)
+        - [§ historical context](transistor.md#historical%20context)
+        - [§ transistor operation modes](transistor.md#transistor%20operation%20modes)
+        - [§ transistor as inverter](transistor.md#transistor%20as%20inverter)
+        - [§ transistor as a switch](transistor.md#transistor%20as%20a%20switch)
+        - ELEC 1100 / transistor / [transistor as inverter](transistor.md#transistor%20as%20inverter): in the NPN resistor-loaded inverter, why does LOW in give HIGH out and HIGH in give LOW out? (compare $V_C$ with $V_E$) ::@:: When the input is LOW, the transistor is OFF, so almost no collector current flows and the collector resistor pulls $V_C$ up near $V_{CC}$, giving a logical HIGH output. When the input is HIGH enough to saturate the transistor, the collector is pulled down close to the emitter (about $0.2\text{ V}$ above ground), so the output becomes logical LOW. <!--SR:!fsrs,2027-09-26T00:00:00.000Z,459,459.47302665,1,2,7,0,0,2026-06-24T00:00:00.000Z!fsrs,2027-12-15T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-19T00:00:00.000Z-->
+        - ELEC 1100 / transistor / saturation threshold $V_{\text{sat}}$: how do you find the input voltage where the transistor just enters saturation? ($R_B$, $R_C$, $V_{CC}$, $\beta$) ::@:: Equate $\beta I_B$ and $I_{C,\max}$; $I_B = (V_{\text{sat}} - 0.7\text{ V})/R_B$ and $I_{C,\max} = (V_{CC} - 0.2\text{ V})/R_C$; solve for $V_{\text{sat}}$. For the lecture values ($R_B = 10\text{ k}\Omega$, $R_C = 1\text{ k}\Omega$, $V_{CC} = 5\text{ V}$, $\beta = 100$), $V_{\text{sat}} = 1.18\text{ V}$. <!--SR:!fsrs,2027-11-15T00:00:00.000Z,499,499.46479977,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,203,202.78667288,4.06039746,2,7,0,0,2026-06-26T00:00:00.000Z-->
+    - ELEC 1100 / 74HC14 hex inverter: what is the 74HC14 and what must be connected for it to work? (VCC to $+5\text{ V}$, GND to the same supply's ground) ::@:: The 74HC14 is a hex inverter IC containing six independent inverters, each producing LOW in $\Rightarrow$ HIGH out and HIGH in $\Rightarrow$ LOW out. It does not create its own supply, so VCC (e.g. pin 14) must go to the regulated $+5\text{ V}$ rail and GND (e.g. pin 7) must go to the common ground of that same logic supply, not to $+5\text{ V}$. It is used with the H-bridge to generate complementary DIR signals. <!--SR:!fsrs,2028-01-03T00:00:00.000Z,529,529.13554749,1,2,8,0,0,2026-07-23T00:00:00.000Z!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z-->
+    - ELEC 1100 / [H-bridge](H-bridge.md): what does the H-bridge do for a DC motor, and how? ::@:: An H-bridge is a four-switch motor-driver circuit that reverses the direction of current through a DC motor. Closing one diagonal pair drives current one way through the motor, while closing the opposite diagonal pair reverses the current and therefore reverses the motor direction. <!--SR:!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
+        - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control): which switch pairs are safe, and what must be avoided? ::@:: One diagonal pair is closed for one direction and the opposite diagonal pair for the reverse direction. Only one diagonal may conduct at a time; turning on both diagonals or two switches on the same rail creates a direct supply short. <!--SR:!fsrs,2027-11-21T00:00:00.000Z,504,504.42839088,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-10-16T00:00:00.000Z,475,474.53060446,1,2,7,0,0,2026-06-28T00:00:00.000Z-->
+            - [§ switches and current path](H-bridge.md#switches%20and%20current%20path)
+            - [§ hazards](H-bridge.md#hazards)
+        - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors) (Va, Vb, Vc, Vd; $5\text{ V}$, $0\text{ V}$) ::@:: Replace the ideal switches with two PNP transistors on the high side and two NPN transistors on the low side, and drive them in saturation so the motor can receive strong current. One direction uses one top PNP plus the opposite bottom NPN, so the base voltages Va, Vb, Vc, Vd must form complementary HIGH/LOW pairs. <!--SR:!fsrs,2027-10-22T00:00:00.000Z,480,479.53327656,1,2,7,0,0,2026-06-29T00:00:00.000Z!fsrs,2027-10-16T00:00:00.000Z,475,474.53060446,1,2,7,0,0,2026-06-28T00:00:00.000Z-->
+            - [§ saturation, transistor types, and layout](H-bridge.md#saturation-transistor-types-and-layout)
+            - [§ base voltage pattern](H-bridge.md#base%20voltage%20pattern)
+        - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter) ($5\text{ V}$, $0\text{ V}$) ::@:: One DIR line alone can provide only one logic level at a time, but the H-bridge direction inputs need a complementary pair. So DIR is sent directly to one side and through an inverter to the other side, producing both the original logic level and its opposite from the same control signal. <!--SR:!fsrs,2027-11-03T00:00:00.000Z,490,489.51468028,1,2,7,0,0,2026-07-01T00:00:00.000Z!fsrs,2027-12-03T00:00:00.000Z,514,514.3331253,1,2,7,0,0,2026-07-07T00:00:00.000Z-->
+            - [§ direction (DIR) signal and inverter solution](H-bridge.md#direction%20(dir)%20signal%20and%20inverter%20solution)
+        - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter) (VCC to $+5\text{ V}$, GND to logic ground) ::@:: The 74HC14 provides six inverter gates in one IC. It is powered from the $5\text{ V}$ logic rail, with GND tied to the common logic ground, and is used so each motor's DIR signal can be turned into a complementary pair for the H-bridge inputs. <!--SR:!fsrs,2027-11-27T00:00:00.000Z,509,509.384442,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,301,300.51699518,1.06915337,2,7,0,0,2026-07-01T00:00:00.000Z-->
+            - [§ function and logic](H-bridge.md#function%20and%20logic)
+            - [§ power and pinout](H-bridge.md#power%20and%20pinout)
+        - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293)) (VS pin 8, VCC pin 16, EN, IN pins; $12\text{ V}$, $5\text{ V}$) ::@:: The L293 contains two H-bridges, so one chip can drive two motors. VS (pin 8) is the motor supply, typically $12\text{ V}$, while VCC (pin 16) is the logic supply, typically $5\text{ V}$. The IN pins determine direction, and the EN pin enables that bridge and can also be used later for PWM speed control. <!--SR:!2026-11-01,174,348!fsrs,2027-05-22T01:54:36.154Z,350,349.8833712,1,2,7,0,0,2026-06-06T01:54:36.154Z-->
+            - [§ function and pins](H-bridge.md#function%20and%20pins)
+            - [§ supplies and bypass](H-bridge.md#supplies%20and%20bypass)
+        - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805) ($12\text{ V}$, $5\text{ V}$, LM7805, DIR wiring) ::@:: The raw $12\text{ V}$ rail goes to the motor-power side, including L293 VS, while the LM7805 produces the regulated $5\text{ V}$ rail for the 74HC14 and L293 VCC. For each motor, DIR is wired both directly and through one inverter so the two L293 direction inputs become complementary, and EN can later be driven by PWM for speed control. <!--SR:!2026-09-25,132,402!2026-09-17,125,402-->
+            - [§ power sources ($12\text{ V}$ and $5\text{ V}$)](H-bridge.md#power%20sources%20(%2412%5Ctext%7B%20V%7D%24%20and%20%245%5Ctext%7B%20V%7D%24))
+            - [§ wiring DIR and inverters](H-bridge.md#wiring%20dir%20and%20inverters)
+        - [§ breadboard layout](H-bridge.md#breadboard%20layout)
+            - [§ rail labels and 74HC14 power](H-bridge.md#rail%20labels%20and%2074hc14%20power)
+            - [§ pin counts and placement](H-bridge.md#pin%20counts%20and%20placement)
 
 ---
 
@@ -418,14 +418,14 @@ Next lecture: motor basics, DC brushed motors.
 - venue: CYT-LTL
 - topic: DC motors
 - ELEC 1100
-  - ELEC 1100 / [brushed DC electric motor](brushed%20DC%20electric%20motor.md) ::@:: Motor converts electrical to mechanical energy; commutator and brushes; direction via H-bridge, speed via voltage (PWM next) <!--SR:!2026-09-29,135,402!2026-09-27,134,402-->
-    - [§ what are motors and classification](brushed%20DC%20electric%20motor.md#what%20are%20motors%20and%20classification) ::@:: Motor definition, applications; DC (brushed, brushless, stepper) vs AC; we use brushed in labs <!--SR:!2026-09-24,131,402!2026-09-14,122,402-->
-    - [§ origin and history](brushed%20DC%20electric%20motor.md#origin%20and%20history) ::@:: Ørsted showed that electric current produces magnetism, and Faraday's 1821 work demonstrated electromagnetic rotation, giving the key physical basis of the DC motor. Much later, Tesla's work helped establish AC motor systems, so the history contrasts early DC-motor ideas with later AC-motor development. <!--SR:!2026-10-03,139,402!2026-09-23,130,402-->
-    - [§ magnetic basics](brushed%20DC%20electric%20motor.md#magnetic%20basics) ::@:: Poles and forces, monopoles, Earth's field; permanent magnet vs electromagnet; right-hand rule <!--SR:!2026-10-03,139,402!2026-10-01,137,402-->
-    - [§ stator and rotor interaction](brushed%20DC%20electric%20motor.md#stator%20and%20rotor%20interaction) ::@:: Stator and rotor roles; attraction, repulsion, and continuous rotation (inertia, reversing polarity) <!--SR:!2026-09-22,129,402!2026-09-27,134,402-->
-    - [§ commutation and brushed construction](brushed%20DC%20electric%20motor.md#commutation%20and%20brushed%20construction) ::@:: Commutation and commutator + brushes; current path at brushes vs inside motor <!--SR:!2026-09-26,133,402!2026-09-23,130,402-->
-    - [§ direction control with H-bridge](brushed%20DC%20electric%20motor.md#direction%20control%20with%20H-bridge) ::@:: Reverse current to reverse direction; H-bridge and DIR signal ( $5\text{ V}$ / $0\text{ V}$ ) for reversible control <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-09-20,128,402!2026-10-02,138,402-->
-    - [§ speed control and limitations of variable resistor](brushed%20DC%20electric%20motor.md#speed%20control%20and%20limitations%20of%20variable%20resistor) ::@:: Factors affecting speed; variable resistor, drawbacks, and PWM <!--SR:!2026-09-23,130,402!2026-09-15,123,402-->
+    - ELEC 1100 / [brushed DC electric motor](brushed%20DC%20electric%20motor.md) ::@:: Motor converts electrical to mechanical energy; commutator and brushes; direction via H-bridge, speed via voltage (PWM next) <!--SR:!2026-09-29,135,402!2026-09-27,134,402-->
+        - [§ what are motors and classification](brushed%20DC%20electric%20motor.md#what%20are%20motors%20and%20classification) ::@:: Motor definition, applications; DC (brushed, brushless, stepper) vs AC; we use brushed in labs <!--SR:!2026-09-24,131,402!2026-09-14,122,402-->
+        - [§ origin and history](brushed%20DC%20electric%20motor.md#origin%20and%20history) ::@:: Ørsted showed that electric current produces magnetism, and Faraday's 1821 work demonstrated electromagnetic rotation, giving the key physical basis of the DC motor. Much later, Tesla's work helped establish AC motor systems, so the history contrasts early DC-motor ideas with later AC-motor development. <!--SR:!2026-10-03,139,402!2026-09-23,130,402-->
+        - [§ magnetic basics](brushed%20DC%20electric%20motor.md#magnetic%20basics) ::@:: Poles and forces, monopoles, Earth's field; permanent magnet vs electromagnet; right-hand rule <!--SR:!2026-10-03,139,402!2026-10-01,137,402-->
+        - [§ stator and rotor interaction](brushed%20DC%20electric%20motor.md#stator%20and%20rotor%20interaction) ::@:: Stator and rotor roles; attraction, repulsion, and continuous rotation (inertia, reversing polarity) <!--SR:!2026-09-22,129,402!2026-09-27,134,402-->
+        - [§ commutation and brushed construction](brushed%20DC%20electric%20motor.md#commutation%20and%20brushed%20construction) ::@:: Commutation and commutator + brushes; current path at brushes vs inside motor <!--SR:!2026-09-26,133,402!2026-09-23,130,402-->
+        - [§ direction control with H-bridge](brushed%20DC%20electric%20motor.md#direction%20control%20with%20H-bridge) ::@:: Reverse current to reverse direction; H-bridge and DIR signal ( $5\text{ V}$ / $0\text{ V}$ ) for reversible control <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-09-20,128,402!2026-10-02,138,402-->
+        - [§ speed control and limitations of variable resistor](brushed%20DC%20electric%20motor.md#speed%20control%20and%20limitations%20of%20variable%20resistor) ::@:: Factors affecting speed; variable resistor, drawbacks, and PWM <!--SR:!2026-09-23,130,402!2026-09-15,123,402-->
 
 ### week 6 lab 1
 
@@ -433,16 +433,16 @@ Next lecture: motor basics, DC brushed motors.
 - venue: Room 2133 & 2134, Academic Building
 - topic: diodes & DC regulation
 - ELEC 1100
-  - ELEC 1100 / [diode](diode.md)
-    - [§ pn junction and biasing](diode.md#pn%20junction%20and%20biasing)
-    - [§ diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models)
-    - [§ simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety)
-  - ELEC 1100 / [voltage regulator](voltage%20regulator.md)
-    - [§ why regulation is needed](voltage%20regulator.md#why%20regulation%20is%20needed)
-    - [§ diode and zener diode as regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators)
-    - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805))
-    - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics)
-  - ELEC 1100 / [lab 3](labs/lab%203/index.md)
+    - ELEC 1100 / [diode](diode.md)
+        - [§ pn junction and biasing](diode.md#pn%20junction%20and%20biasing)
+        - [§ diode i–v characteristic and models](diode.md#diode%20i%E2%80%93v%20characteristic%20and%20models)
+        - [§ simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety)
+    - ELEC 1100 / [voltage regulator](voltage%20regulator.md)
+        - [§ why regulation is needed](voltage%20regulator.md#why%20regulation%20is%20needed)
+        - [§ diode and zener diode as regulators](voltage%20regulator.md#diode%20and%20zener%20diode%20as%20regulators)
+        - [§ integrated-circuit linear regulators (LM7805)](voltage%20regulator.md#integrated-circuit%20linear%20regulators%20(LM7805))
+        - [§ regulator performance metrics](voltage%20regulator.md#regulator%20performance%20metrics)
+    - ELEC 1100 / [lab 3](labs/lab%203/index.md)
 
 ### week 6 tutorial 1
 
@@ -450,19 +450,19 @@ Next lecture: motor basics, DC brushed motors.
 - venue: CYT-G001
 - topic: prepare for lab 4
 - ELEC 1100
-  - ELEC 1100 / [transistor](transistor.md)
-    - [§ structure](transistor.md#structure)
-    - [§ transistor operation modes](transistor.md#transistor%20operation%20modes)
-    - [§ transistor as a switch](transistor.md#transistor%20as%20a%20switch)
-    - [§ transistor as inverter](transistor.md#transistor%20as%20inverter)
-  - ELEC 1100 / [H-bridge](H-bridge.md)
-    - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control)
-    - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors)
-    - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter)
-    - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter)
-    - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293))
-    - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
-    - [§ breadboard layout](H-bridge.md#breadboard%20layout)
+    - ELEC 1100 / [transistor](transistor.md)
+        - [§ structure](transistor.md#structure)
+        - [§ transistor operation modes](transistor.md#transistor%20operation%20modes)
+        - [§ transistor as a switch](transistor.md#transistor%20as%20a%20switch)
+        - [§ transistor as inverter](transistor.md#transistor%20as%20inverter)
+    - ELEC 1100 / [H-bridge](H-bridge.md)
+        - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control)
+        - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors)
+        - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter)
+        - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter)
+        - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293))
+        - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
+        - [§ breadboard layout](H-bridge.md#breadboard%20layout)
 
 ### week 6 lecture 1
 
@@ -482,19 +482,19 @@ Next lecture: motor basics, DC brushed motors.
 - venue: Room 2133 & 2134, Academic Building
 - topic: transistor & H-bridge
 - ELEC 1100
-  - ELEC 1100 / [transistor](transistor.md)
-    - [§ structure](transistor.md#structure)
-    - [§ transistor operation modes](transistor.md#transistor%20operation%20modes)
-    - [§ transistor as a switch](transistor.md#transistor%20as%20a%20switch)
-    - [§ transistor as inverter](transistor.md#transistor%20as%20inverter)
-  - ELEC 1100 / [H-bridge](H-bridge.md)
-    - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control)
-    - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors)
-    - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter)
-    - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter)
-    - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293))
-    - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
-    - [§ breadboard layout](H-bridge.md#breadboard%20layout)
+    - ELEC 1100 / [transistor](transistor.md)
+        - [§ structure](transistor.md#structure)
+        - [§ transistor operation modes](transistor.md#transistor%20operation%20modes)
+        - [§ transistor as a switch](transistor.md#transistor%20as%20a%20switch)
+        - [§ transistor as inverter](transistor.md#transistor%20as%20inverter)
+    - ELEC 1100 / [H-bridge](H-bridge.md)
+        - [§ four-switch topology and direction control](H-bridge.md#four-switch%20topology%20and%20direction%20control)
+        - [§ building an H-bridge with transistors](H-bridge.md#building%20an%20H-bridge%20with%20transistors)
+        - [§ single direction (DIR) signal and the need for an inverter](H-bridge.md#single%20direction%20(dir)%20signal%20and%20the%20need%20for%20an%20inverter)
+        - [§ 74HC14 hex inverter](H-bridge.md#74hc14%20hex%20inverter)
+        - [§ dual H-bridge motor driver (L293)](H-bridge.md#dual%20H-bridge%20motor%20driver%20(l293))
+        - [§ connecting L293, 74HC14, and LM7805](H-bridge.md#connecting-l293-74hc14-and-lm7805)
+        - [§ breadboard layout](H-bridge.md#breadboard%20layout)
 
 ### week 7 tutorial 1
 
@@ -688,9 +688,9 @@ Next lecture: motor basics, DC brushed motors.
 - venue: CYT-LTL
 - venue: lab sessions (LA3)
 - format:
-  - cheatsheet: no
-  - open book: no
-  - questions: lab‑style and theory
+    - cheatsheet: no
+    - open book: no
+    - questions: lab‑style and theory
 
 ## final examination
 
@@ -698,13 +698,13 @@ Next lecture: motor basics, DC brushed motors.
 - venue: CYT-LTL
 - venue: Spring Term Final Examinations, arranged by ARO
 - format:
-  - cheatsheet: no
-  - open book: no
-  - questions: lab‑style and theory
+    - cheatsheet: no
+    - open book: no
+    - questions: lab‑style and theory
 
 ## aftermath
 
 ### total
 
 - grades: 100/100
-  - statistics: ?
+    - statistics: ?

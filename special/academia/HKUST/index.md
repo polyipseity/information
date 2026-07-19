@@ -25,7 +25,7 @@ tags:
 - [GNED 2510](GNED%202510/index.md): Career Building
 - HMAW 1905B (fall): Behavioral Foundations of University Education: Habits, Mindsets, and Wellness (1 credit)
 - LANG 1402: English for University Studies (3 credits)
-  - transferred
+    - transferred
 - [LANG 1403A](LANG%201403A/index.md): Academic English for University Studies (3 credits)
 - LEGL 1000: Legal Education (Basic Law, National Security Law and Safeguarding National Security Ordinance) (0 credits)
 - [MATH 1013](MATH%201013/index.md): Calculus IB (3 credits)
@@ -52,7 +52,7 @@ tags:
 ### 2024 summer
 
 - HUMA 1000HMCC: 1000-level Course in Humanities (3 credits)
-  - transferred: [Korea University](../Korea%20University/index.md): [ISC117](../Korea%20University/ISC117/index.md): Introduction to Korean Studies
+    - transferred: [Korea University](../Korea%20University/index.md): [ISC117](../Korea%20University/ISC117/index.md): Introduction to Korean Studies
 - [PHYS 1002](PHYS%201002/index.md): Introduction to Astrophysics and Astronomy (3 credits)
 - UROP 1000: Undergraduate Research Opportunities (0 credits)
 
@@ -81,7 +81,7 @@ tags:
 
 - [ELEC 1200](ELEC%201200/index.md): A System View of Communications: from Signals to Packets \(4 credits\)
 - ISOM 2010: Introduction to Information Systems \(3 credits\)
-  - transferred: [Korea University](../Korea%20University/index.md): [ISC213](../Korea%20University/ISC213/index.md): Introduction to Management Information Systems
+    - transferred: [Korea University](../Korea%20University/index.md): [ISC213](../Korea%20University/ISC213/index.md): Introduction to Management Information Systems
 
 ### 2025 fall
 

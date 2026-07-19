@@ -24,20 +24,20 @@ Lectures are 3 hours 50 minutes long officially, but can be longer in practice. 
 ## assessment
 
 - attendance: 0.35
-  - class attendance: 0.15
-    - Attend each class for at least 75% of the duration.
-  - CTF competitions: 0.2, 0.1×2
-    - Participate actively in 2 CTF competitions.
+    - class attendance: 0.15
+        - Attend each class for at least 75% of the duration.
+    - CTF competitions: 0.2, 0.1×2
+        - Participate actively in 2 CTF competitions.
 - presentation: 0.5
-  - Choose a topic from the supplied list and a timeslot from the supplied schedule. Submit the presentation on or before 5 days before the selected timeslot. The presentation should last for about 1 hour. The minimum duration is 40 (or 45?) minutes and the maximum is 90 minutes.
-  - emphasis on ethical hacking: 0.075
-  - peer reviews from others: 0.1
-  - Firebird members: 0.225
-  - instructor or coach: 0.1
+    - Choose a topic from the supplied list and a timeslot from the supplied schedule. Submit the presentation on or before 5 days before the selected timeslot. The presentation should last for about 1 hour. The minimum duration is 40 (or 45?) minutes and the maximum is 90 minutes.
+    - emphasis on ethical hacking: 0.075
+    - peer reviews from others: 0.1
+    - Firebird members: 0.225
+    - instructor or coach: 0.1
 - peer reviews to others: 0.15
-  - Give peer reviews to your classmates on time.
+    - Give peer reviews to your classmates on time.
 - bonus: 0.1
-  - Add 0.02 for each additional CTF competition, with writeups submitted. Alternatively, add a maximum of 0.05 for each writeup on CTF questions that you find interesting, but is subjected to grading based on the quality of the writeup.
+    - Add 0.02 for each additional CTF competition, with writeups submitted. Alternatively, add a maximum of 0.05 for each writeup on CTF questions that you find interesting, but is subjected to grading based on the quality of the writeup.
 
 ## ethical hacking
 

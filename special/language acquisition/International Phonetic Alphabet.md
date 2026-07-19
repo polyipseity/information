@@ -234,56 +234,56 @@ return chain.from_iterable(result.value for result in results)
 > 18. {@{sub-laminal/sub-apical ([tongue](tongue.md) underside)}@} <!--SR:!2028-06-01,976,330!2033-08-06,2895,358!2034-04-08,3101,364!2028-10-12,1374,324!2028-01-12,1162,324!2027-03-02,922,324!2030-05-07,1937,344!2032-02-02,2295,313!2029-03-07,1494,333!2028-11-09,1253,273!2030-11-23,1742,313!2035-06-16,3466,373!2029-01-08,1059,278!2032-06-12,2231,337!2026-09-26,207,281!2030-05-15,1472,250!2027-04-02,884,330!2026-09-05,732,330-->
 
 - [consonant](consonant.md)::@::[phone](phone%20phonetics.md) articulated with partial or complete stricture in the [vocal tract](vocal%20tract.md) <!--SR:!2034-02-19,2848,310!2029-05-13,1542,330-->
-  - [airstream mechanism](airstream%20mechanism.md)::@::how the moving [air](air.md) is thrusted <!--SR:!2028-10-05,1484,338!2032-09-28,2650,363-->
-    - (all) [pulmonic](pulmonic%20consonant.md) egressive::@::[air](air.md) is exhaled from the [lungs](lung.md) <!--SR:!2028-09-02,1351,333!2032-01-03,2263,358-->
-    - (16%) [glottalic](glottalic%20consonant.md) egressive::@::[air](air.md) is [compressed](compression%20(physics).md) by a upward movement of the [glottics](glottics.md) <!--SR:!2029-04-14,1450,351!2028-08-14,1108,310-->
-    - (13%) [glottalic](glottalic%20consonant.md) ingressive::@::[air](air.md) is [rarefied](rarefaction.md) by a downward movement of the [glottics](glottics.md) <!--SR:!2032-11-15,2657,391!2028-12-19,1137,270-->
-    - (<2%) lingual/[velaric](velar%20consonant.md) ingressive::@::[air](air.md) is [rarefied](rarefaction.md) by a downward and sometimes rearward movement of the [tongue](tongue.md) <!--SR:!2031-12-15,2112,331!2027-02-25,488,250-->
-    - ([interjection](interjection.md)) [pulmonic](pulmonic%20consonant.md) ingressive::@::[air](air.md) is inhaled into the [lungs](lung.md) <!--SR:!2030-06-01,1964,353!2028-12-24,1439,333-->
-    - ([interjection](interjection.md)) lingual/[velaric](velar%20consonant.md) egressive::@::[air](air.md) is [compressed](compression%20(physics).md) by a upward movement of the [tongue](tongue.md) <!--SR:!2033-01-04,2437,299!2028-03-16,948,361-->
-  - [length](gemination.md)::@::how long the articulation of a [consonant](consonant.md) lasts <!--SR:!fsrs,2034-05-07T00:00:00.000Z,2858,2858.18674294,1,2,11,0,0,2026-07-10T00:00:00.000Z!2027-08-23,1068,350-->
-    - values in ascending [length](gemination.md):@:single/singleton, geminate, long geminate <!--SR:!2026-10-29,712,293-->
-  - [manner of articulation](manner%20of%20articulation.md)::@::configuration and interaction of the [speech organs](speech%20organ.md) <!--SR:!2032-04-08,2194,331!2027-11-28,1137,350-->
-    - [affricate](affricate%20consonant.md)::@::consonant beginning as a [plosive](plosive%20consonant.md) and releasing as a [fricative](fricative%20consonant.md) <!--SR:!2030-03-27,1645,317!2027-06-04,930,330-->
-    - [approximant](approximant%20consonant.md)::@::consonant with slight stricture of the [articulators](speech%20organ.md) not narrow and precise enough to create [turbulenece](turbulence.md) <!--SR:!2034-07-27,3095,333!2029-11-30,1697,358-->
-      - [lateral approximant](lateral%20consonant.md)::@::approximant with airflow directed towards one or both sides of the [tongue](tongue.md) <!--SR:!2029-10-14,1488,284!2028-06-29,1293,324-->
-      - [semivowel/glide/semiconsonant](semivowel.md)::@::approximant similar to a [vowel](vowel.md) functioning as the [syllable](syllable.md) boundary <!--SR:!2029-05-21,1388,312!2026-09-20,780,330-->
-    - [flap/tap](tap%20and%20flap%20consonants.md)::@::consonant produced by a single [muscle contraction](muscle%20contraction.md) to make a single contact <!--SR:!2031-11-06,2012,298!2027-04-04,885,330-->
-    - [fricative/spirant](fricative%20consonant.md)::@::consonant with continuous [turbulent](turbulence.md) and noisy airflow at articulation <!--SR:!2028-07-18,962,224!2034-03-04,2848,358-->
-      - [lateral](lateral%20consonant.md)::@::fricative with airflow directed towards one or both sides of the [tongue](tongue.md) <!--SR:!2028-09-25,1407,372!2027-01-25,874,330-->
-      - [sibilant](sibilant%20consonant.md)::@::fricative with airflow directed towards the [teeth](tooth.md) by the [tongue](tongue.md) <!--SR:!2026-09-17,846,341!2029-12-01,1618,351-->
-    - [nasal](nasal%20consonant.md)::@::consonant with occlusion of the [vocal tract](vocal%20tract.md) with nasal airflow <!--SR:!2030-04-14,1658,317!2028-08-10,1291,372-->
-    - [plosive/stop](plosive%20consonant.md)::@::consonant with occlusion of the [vocal tract](vocal%20tract.md) without nasal airflow <!--SR:!2028-05-07,1346,361!2033-03-25,2765,391-->
-    - [trill](trill%20consonant.md)::@::consonant produced by vibrations between the active articulator and the passive articulator <!--SR:!2027-08-28,1090,318!2032-11-17,2684,381-->
-  - [place of articulation](place%20of%20articulation.md)::@::location along the [vocal tract](vocal%20tract.md) producing the consonant <!--SR:!2026-09-24,896,324!2032-08-09,2600,378-->
-    - [alveolar](alveolar%20ridge.md)::@::upper [alveolar ridge](alveolar%20ridge.md), the [gum](gums.md) line behind the upper [teeth](tooth.md) (passive) <!--SR:!2027-02-23,921,339!2028-01-28,1189,350-->
-    - [aryepiglottal](pharyngeal%20consonant.md)::@::[aryepiglottic fold](aryepiglottic%20fold.md) in the [throat](throat.md) (active) <!--SR:!2026-11-04,958,353!2026-08-11,294,351-->
-    - [coronal](coronal%20constant.md)::@::front of the [tongue](tongue.md) (active) <!--SR:!2026-12-19,939,313!2026-12-17,839,298-->
-      - [apical](apical%20consonant.md)::@::tip of the [tongue](tongue.md) (active) <!--SR:!2028-07-13,1304,324!2032-12-05,2691,378-->
-      - [laminal](laminal%20consonant.md)::@::blade of the [tongue](tongue.md), the upper front surface behind the tip (active) <!--SR:!2029-04-24,1285,253!2030-06-26,1603,260-->
-      - [subapical](subapical%20consonant.md)::@::surface under the tip of the [tongue](tongue.md) (active) <!--SR:!2029-10-11,1766,344!2034-10-09,3268,373-->
-    - [dental](dental%20consonant.md)::@::upper [teeth](tooth.md) (passive) <!--SR:!2027-04-06,963,313!2027-05-18,991,350-->
-    - [dorsal](dorsal%20consonant.md)::@::body of the [tongue](tongue.md) (active) <!--SR:!2035-08-11,3386,353!2029-10-23,1659,333-->
-    - [epiglottal](pharyngeal%20consonant.md)::@::[epiglottis](epiglottis.md), sitting at the [larynx](larynx.md) entrance (passive) <!--SR:!2033-02-28,2767,381!2031-03-14,2166,392-->
-    - [glottal](glottal%20consonant.md)::@::[glottis](glottis.md), opening between the [vocal cords](vocal%20cords.md) (active) <!--SR:!2032-11-19,2391,313!2035-04-23,3423,373-->
-    - [labial](labial%20consonant.md)::@::lower [lip](lip.md) (active), upper [lip](lip.md) (passive) <!--SR:!2030-05-22,1908,324!2034-02-22,3087,373-->
-    - [palatal](palatal%20consonant.md)::@::[hard palate](hard%20palate.md), the front part of the roof of the [mouth](mouth.md) (passive) <!--SR:!2027-08-25,1041,304!2027-11-25,1141,350-->
-    - [pharyngeal](pharyngeal%20consonant.md)::@::base of the [tongue](tongue.md) and [throat](throat.md) (active, passive) <!--SR:!2027-04-15,952,298!2027-09-29,1084,351-->
-    - [post-alveolar](post-alveolar%20consonant.md)::@::back of the upper [alveolar ridge](alveolar%20ridge.md) (passive) <!--SR:!2033-04-10,2791,377!2034-08-23,3182,391-->
-    - [uvular](uvular%20consonant.md)::@::[uvula](uvula.md), hanging down at the [throat](throat.md) entrance (passive) <!--SR:!2034-10-21,3092,324!2029-11-09,1768,392-->
-    - [velar](velar%20consonant.md)::@::[soft palate](soft%20palate.md), the back part of the roof of the [mouth](mouth.md) (passive) <!--SR:!2031-12-21,2044,298!2032-07-23,2584,377-->
-  - [phonation](phonation.md)::@::how the [vocal cords](vocal%20folds.md) vibrate <!--SR:!2028-08-31,1309,321!2032-08-22,2615,381-->
-    - [voiced](voice%20(phonetics).md)::@::the [vocal cords](vocal%20cords.md) vibrate fully <!--SR:!2033-03-13,2789,364!2033-03-12,2769,378-->
-    - [voiceless](voicelessness.md)::@::the [vocal cords](vocal%20cords.md) do not vibrate <!--SR:!2033-09-08,2954,373!2035-10-09,3554,373-->
-  - [voice onset time](voice%20onset%20time.md) (VOT)::@::timing of [phonation](phonation.md) <!--SR:!2029-08-09,1721,353!2027-08-23,1068,350-->
-    - values in ascending [voice onset time](voice%20onset%20time.md):@:[voiced](voice%20(phonetics).md) (negative), [voiceless](voicelessness.md)/[tenius](tenius%20consonant.md) (at or near zero), [aspiriated](aspiration%20(phonetics).md) (positive) <!--SR:!2027-02-17,330,264-->
+    - [airstream mechanism](airstream%20mechanism.md)::@::how the moving [air](air.md) is thrusted <!--SR:!2028-10-05,1484,338!2032-09-28,2650,363-->
+        - (all) [pulmonic](pulmonic%20consonant.md) egressive::@::[air](air.md) is exhaled from the [lungs](lung.md) <!--SR:!2028-09-02,1351,333!2032-01-03,2263,358-->
+        - (16%) [glottalic](glottalic%20consonant.md) egressive::@::[air](air.md) is [compressed](compression%20(physics).md) by a upward movement of the [glottics](glottics.md) <!--SR:!2029-04-14,1450,351!2028-08-14,1108,310-->
+        - (13%) [glottalic](glottalic%20consonant.md) ingressive::@::[air](air.md) is [rarefied](rarefaction.md) by a downward movement of the [glottics](glottics.md) <!--SR:!2032-11-15,2657,391!2028-12-19,1137,270-->
+        - (<2%) lingual/[velaric](velar%20consonant.md) ingressive::@::[air](air.md) is [rarefied](rarefaction.md) by a downward and sometimes rearward movement of the [tongue](tongue.md) <!--SR:!2031-12-15,2112,331!2027-02-25,488,250-->
+        - ([interjection](interjection.md)) [pulmonic](pulmonic%20consonant.md) ingressive::@::[air](air.md) is inhaled into the [lungs](lung.md) <!--SR:!2030-06-01,1964,353!2028-12-24,1439,333-->
+        - ([interjection](interjection.md)) lingual/[velaric](velar%20consonant.md) egressive::@::[air](air.md) is [compressed](compression%20(physics).md) by a upward movement of the [tongue](tongue.md) <!--SR:!2033-01-04,2437,299!2028-03-16,948,361-->
+    - [length](gemination.md)::@::how long the articulation of a [consonant](consonant.md) lasts <!--SR:!fsrs,2034-05-07T00:00:00.000Z,2858,2858.18674294,1,2,11,0,0,2026-07-10T00:00:00.000Z!2027-08-23,1068,350-->
+        - values in ascending [length](gemination.md):@:single/singleton, geminate, long geminate <!--SR:!2026-10-29,712,293-->
+    - [manner of articulation](manner%20of%20articulation.md)::@::configuration and interaction of the [speech organs](speech%20organ.md) <!--SR:!2032-04-08,2194,331!2027-11-28,1137,350-->
+        - [affricate](affricate%20consonant.md)::@::consonant beginning as a [plosive](plosive%20consonant.md) and releasing as a [fricative](fricative%20consonant.md) <!--SR:!2030-03-27,1645,317!2027-06-04,930,330-->
+        - [approximant](approximant%20consonant.md)::@::consonant with slight stricture of the [articulators](speech%20organ.md) not narrow and precise enough to create [turbulenece](turbulence.md) <!--SR:!2034-07-27,3095,333!2029-11-30,1697,358-->
+            - [lateral approximant](lateral%20consonant.md)::@::approximant with airflow directed towards one or both sides of the [tongue](tongue.md) <!--SR:!2029-10-14,1488,284!2028-06-29,1293,324-->
+            - [semivowel/glide/semiconsonant](semivowel.md)::@::approximant similar to a [vowel](vowel.md) functioning as the [syllable](syllable.md) boundary <!--SR:!2029-05-21,1388,312!2026-09-20,780,330-->
+        - [flap/tap](tap%20and%20flap%20consonants.md)::@::consonant produced by a single [muscle contraction](muscle%20contraction.md) to make a single contact <!--SR:!2031-11-06,2012,298!2027-04-04,885,330-->
+        - [fricative/spirant](fricative%20consonant.md)::@::consonant with continuous [turbulent](turbulence.md) and noisy airflow at articulation <!--SR:!2028-07-18,962,224!2034-03-04,2848,358-->
+            - [lateral](lateral%20consonant.md)::@::fricative with airflow directed towards one or both sides of the [tongue](tongue.md) <!--SR:!2028-09-25,1407,372!2027-01-25,874,330-->
+            - [sibilant](sibilant%20consonant.md)::@::fricative with airflow directed towards the [teeth](tooth.md) by the [tongue](tongue.md) <!--SR:!2026-09-17,846,341!2029-12-01,1618,351-->
+        - [nasal](nasal%20consonant.md)::@::consonant with occlusion of the [vocal tract](vocal%20tract.md) with nasal airflow <!--SR:!2030-04-14,1658,317!2028-08-10,1291,372-->
+        - [plosive/stop](plosive%20consonant.md)::@::consonant with occlusion of the [vocal tract](vocal%20tract.md) without nasal airflow <!--SR:!2028-05-07,1346,361!2033-03-25,2765,391-->
+        - [trill](trill%20consonant.md)::@::consonant produced by vibrations between the active articulator and the passive articulator <!--SR:!2027-08-28,1090,318!2032-11-17,2684,381-->
+    - [place of articulation](place%20of%20articulation.md)::@::location along the [vocal tract](vocal%20tract.md) producing the consonant <!--SR:!2026-09-24,896,324!2032-08-09,2600,378-->
+        - [alveolar](alveolar%20ridge.md)::@::upper [alveolar ridge](alveolar%20ridge.md), the [gum](gums.md) line behind the upper [teeth](tooth.md) (passive) <!--SR:!2027-02-23,921,339!2028-01-28,1189,350-->
+        - [aryepiglottal](pharyngeal%20consonant.md)::@::[aryepiglottic fold](aryepiglottic%20fold.md) in the [throat](throat.md) (active) <!--SR:!2026-11-04,958,353!2026-08-11,294,351-->
+        - [coronal](coronal%20constant.md)::@::front of the [tongue](tongue.md) (active) <!--SR:!2026-12-19,939,313!2026-12-17,839,298-->
+            - [apical](apical%20consonant.md)::@::tip of the [tongue](tongue.md) (active) <!--SR:!2028-07-13,1304,324!2032-12-05,2691,378-->
+            - [laminal](laminal%20consonant.md)::@::blade of the [tongue](tongue.md), the upper front surface behind the tip (active) <!--SR:!2029-04-24,1285,253!2030-06-26,1603,260-->
+            - [subapical](subapical%20consonant.md)::@::surface under the tip of the [tongue](tongue.md) (active) <!--SR:!2029-10-11,1766,344!2034-10-09,3268,373-->
+        - [dental](dental%20consonant.md)::@::upper [teeth](tooth.md) (passive) <!--SR:!2027-04-06,963,313!2027-05-18,991,350-->
+        - [dorsal](dorsal%20consonant.md)::@::body of the [tongue](tongue.md) (active) <!--SR:!2035-08-11,3386,353!2029-10-23,1659,333-->
+        - [epiglottal](pharyngeal%20consonant.md)::@::[epiglottis](epiglottis.md), sitting at the [larynx](larynx.md) entrance (passive) <!--SR:!2033-02-28,2767,381!2031-03-14,2166,392-->
+        - [glottal](glottal%20consonant.md)::@::[glottis](glottis.md), opening between the [vocal cords](vocal%20cords.md) (active) <!--SR:!2032-11-19,2391,313!2035-04-23,3423,373-->
+        - [labial](labial%20consonant.md)::@::lower [lip](lip.md) (active), upper [lip](lip.md) (passive) <!--SR:!2030-05-22,1908,324!2034-02-22,3087,373-->
+        - [palatal](palatal%20consonant.md)::@::[hard palate](hard%20palate.md), the front part of the roof of the [mouth](mouth.md) (passive) <!--SR:!2027-08-25,1041,304!2027-11-25,1141,350-->
+        - [pharyngeal](pharyngeal%20consonant.md)::@::base of the [tongue](tongue.md) and [throat](throat.md) (active, passive) <!--SR:!2027-04-15,952,298!2027-09-29,1084,351-->
+        - [post-alveolar](post-alveolar%20consonant.md)::@::back of the upper [alveolar ridge](alveolar%20ridge.md) (passive) <!--SR:!2033-04-10,2791,377!2034-08-23,3182,391-->
+        - [uvular](uvular%20consonant.md)::@::[uvula](uvula.md), hanging down at the [throat](throat.md) entrance (passive) <!--SR:!2034-10-21,3092,324!2029-11-09,1768,392-->
+        - [velar](velar%20consonant.md)::@::[soft palate](soft%20palate.md), the back part of the roof of the [mouth](mouth.md) (passive) <!--SR:!2031-12-21,2044,298!2032-07-23,2584,377-->
+    - [phonation](phonation.md)::@::how the [vocal cords](vocal%20folds.md) vibrate <!--SR:!2028-08-31,1309,321!2032-08-22,2615,381-->
+        - [voiced](voice%20(phonetics).md)::@::the [vocal cords](vocal%20cords.md) vibrate fully <!--SR:!2033-03-13,2789,364!2033-03-12,2769,378-->
+        - [voiceless](voicelessness.md)::@::the [vocal cords](vocal%20cords.md) do not vibrate <!--SR:!2033-09-08,2954,373!2035-10-09,3554,373-->
+    - [voice onset time](voice%20onset%20time.md) (VOT)::@::timing of [phonation](phonation.md) <!--SR:!2029-08-09,1721,353!2027-08-23,1068,350-->
+        - values in ascending [voice onset time](voice%20onset%20time.md):@:[voiced](voice%20(phonetics).md) (negative), [voiceless](voicelessness.md)/[tenius](tenius%20consonant.md) (at or near zero), [aspiriated](aspiration%20(phonetics).md) (positive) <!--SR:!2027-02-17,330,264-->
 - [vowel](vowel.md)::@::[phone](phone%20(phonetics).md) articulated without any stricture in the [vocal tract](vocal%20tract.md) <!--SR:!2027-07-24,676,352!2027-11-11,1127,350-->
-  - [vowel backness](vowel.md#backness)::@::position of the [tongue](tongue.md) relative to the back of the [mouth](mouth.md) <!--SR:!2028-07-17,1376,324!2033-01-23,2730,377-->
-    - values in ascending [vowel backness](vowel.md#backness):@:[front](front%20vowel.md), [near-front](near-front%20vowel.md), [central](central%20vowel.md), [near-back](near-back%20vowel.md), [back](back%20vowel.md) <!--SR:!2028-05-10,1254,324-->
-  - [vowel height](vowel.md#height)::@::vertical position of the [tongue](tongue.md) <!--SR:!2036-11-05,3838,378!2028-08-01,1284,371-->
-    - values in descending [vowel height](vowel.md#height):@:[close](close%20vowel.md), [near-close](near-close%20vowel.md), [close-mid](close-mid%20vowel.md), [mid](mid%20vowel.md), [open-mid](open-mid%20vowel.md), [near-open](near-open%20vowel.md), [open](open%20vowel.md) <!--SR:!2033-08-28,2661,356-->
-  - [vowel roundedness](roundedness.md)::@::rounding of the [lips](lip.md) <!--SR:!2028-01-20,1162,313!2032-09-17,2632,378-->
-    - values in ascending [vowel roundedness](roundedness.md):@:unrounded, compressed, protruded <!--SR:!2031-01-21,2056,371-->
+    - [vowel backness](vowel.md#backness)::@::position of the [tongue](tongue.md) relative to the back of the [mouth](mouth.md) <!--SR:!2028-07-17,1376,324!2033-01-23,2730,377-->
+        - values in ascending [vowel backness](vowel.md#backness):@:[front](front%20vowel.md), [near-front](near-front%20vowel.md), [central](central%20vowel.md), [near-back](near-back%20vowel.md), [back](back%20vowel.md) <!--SR:!2028-05-10,1254,324-->
+    - [vowel height](vowel.md#height)::@::vertical position of the [tongue](tongue.md) <!--SR:!2036-11-05,3838,378!2028-08-01,1284,371-->
+        - values in descending [vowel height](vowel.md#height):@:[close](close%20vowel.md), [near-close](near-close%20vowel.md), [close-mid](close-mid%20vowel.md), [mid](mid%20vowel.md), [open-mid](open-mid%20vowel.md), [near-open](near-open%20vowel.md), [open](open%20vowel.md) <!--SR:!2033-08-28,2661,356-->
+    - [vowel roundedness](roundedness.md)::@::rounding of the [lips](lip.md) <!--SR:!2028-01-20,1162,313!2032-09-17,2632,378-->
+        - values in ascending [vowel roundedness](roundedness.md):@:unrounded, compressed, protruded <!--SR:!2031-01-21,2056,371-->
 
 ### transcription delimiters
 

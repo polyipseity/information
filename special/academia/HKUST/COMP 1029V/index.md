@@ -57,5 +57,5 @@ The content is in teaching order.
 ## assessments
 
 - final examination
-  - report
-    - No paper checking. It does not really matter for this P/F course anyway...
+    - report
+        - No paper checking. It does not really matter for this P/F course anyway...

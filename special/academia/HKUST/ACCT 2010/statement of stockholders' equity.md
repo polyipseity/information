@@ -22,17 +22,17 @@ tags:
 ## format
 
 - header ::@:: company name, `(Consolidated) Statement of Stockholders' Equity`, duration, (monetary unit) <!--SR:!2028-06-06,917,330!2026-09-09,462,310-->
-  - header / duration ::@:: example: `Year Ended December 31, 2019` <!--SR:!2029-07-09,1301,350!2027-04-03,643,330-->
-  - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2029-04-19,1239,350!2028-12-16,1141,350-->
+    - header / duration ::@:: example: `Year Ended December 31, 2019` <!--SR:!2029-07-09,1301,350!2027-04-03,643,330-->
+    - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2029-04-19,1239,350!2028-12-16,1141,350-->
 - dollar sign ::@:: Add it before the first number and the last number (under `Ending balances`) for each column. The rest can be omitted. <!--SR:!2028-07-08,937,330!2026-09-06,434,290-->
 - total ::@:: Calculate the total for each column and each row. <!--SR:!2029-07-01,1294,350!2029-07-13,1304,350-->
-  - total / format ::@:: For `Ending balances`, each cell should be overlined and double underlined. <!--SR:!2030-03-07,1408,310!2029-01-14,1166,350-->
+    - total / format ::@:: For `Ending balances`, each cell should be overlined and double underlined. <!--SR:!2030-03-07,1408,310!2029-01-14,1166,350-->
 - negative number ::@:: Write negative numbers in brackets, not with a minus sign. For example, write `(42)` instead of `-42`. <!--SR:!2029-07-30,1318,350!2029-03-03,1202,350-->
 - casing ::@:: Use title case for basically everything!!! (Ignore that I have been NOT using title case in this note.) <!--SR:!2029-03-25,1219,350!2029-01-01,1155,350-->
 - (root) ::@:: description: 1 column <br/> common stock: 1 column <br/> additional paid-in capital: 1 column <br/> retained earnings: 1 column <br/> total stockholders' equity: 1 column <!--SR:!2027-03-15,574,310!2026-10-23,488,310-->
-  - (root) / description ::@:: beginning balances <br/> stock issuance <br/> net income <br/> dividends declared: regardless if they are paid in this period <br/> ending balances <!--SR:!2027-12-26,784,290!2029-07-18,1214,310-->
-  - (root) / common stock ::@:: (1) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2026-09-06,459,310!2027-05-22,678,330-->
-  - (root) / additional paid-in capital ::@:: (2) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2026-12-28,547,310!2029-01-27,1174,350-->
-  - (root) / retained earnings ::@:: affected by beginning balances, net income, dividends declared <!--SR:!2029-07-21,1311,350!2029-01-08,1161,350-->
-  - (root) / total stockholders' equity ::@:: Sum up the rows. <!--SR:!2029-06-23,1288,350!2029-07-24,1313,350-->
+    - (root) / description ::@:: beginning balances <br/> stock issuance <br/> net income <br/> dividends declared: regardless if they are paid in this period <br/> ending balances <!--SR:!2027-12-26,784,290!2029-07-18,1214,310-->
+    - (root) / common stock ::@:: (1) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2026-09-06,459,310!2027-05-22,678,330-->
+    - (root) / additional paid-in capital ::@:: (2) affected by beginning balances, stock issuance, stock repurchase <!--SR:!2026-12-28,547,310!2029-01-27,1174,350-->
+    - (root) / retained earnings ::@:: affected by beginning balances, net income, dividends declared <!--SR:!2029-07-21,1311,350!2029-01-08,1161,350-->
+    - (root) / total stockholders' equity ::@:: Sum up the rows. <!--SR:!2029-06-23,1288,350!2029-07-24,1313,350-->
 - validation ::@:: The totals for each row should add up to the final total. The totals for each column should add up to the final total. <!--SR:!2027-11-21,810,330!2029-01-09,1162,350-->

@@ -20,14 +20,14 @@ The questions on this page summarize the _official problem-set materials_ for pr
 > Joint distribution and independence.
 >
 > - (a) Let $A\subseteq\mathbb R^2$ be the closed triangle with vertices $(0,0)$, $(0,1)$, and $(1,0)$, and let $(X,Y)\sim U(A)$ (uniform on $A$).
->   - i. Find the normalizing constant $c$. Why is this called a uniform distribution?
->   - ii. Compute the marginal densities $f_X$, $f_Y$.
->   - iii. Are $X$ and $Y$ independent? Give a precise mathematical argument.
->   - iv. Compute $\operatorname{Cov}(X,Y)$.
+>     - i. Find the normalizing constant $c$. Why is this called a uniform distribution?
+>     - ii. Compute the marginal densities $f_X$, $f_Y$.
+>     - iii. Are $X$ and $Y$ independent? Give a precise mathematical argument.
+>     - iv. Compute $\operatorname{Cov}(X,Y)$.
 > - (b) Let $X,Y\sim N(0,1)$ be independent and define $Z=\operatorname{sign}(Y)X$.
->   - i. Determine the law of $Z$.
->   - ii. Compute $P(X+Z=0)$. Is $W=X+Z$ discrete, continuous, or neither?
->   - iii. Are $X$ and $Z$ independent? Give a precise mathematical explanation.
+>     - i. Determine the law of $Z$.
+>     - ii. Compute $P(X+Z=0)$. Is $W=X+Z$ discrete, continuous, or neither?
+>     - iii. Are $X$ and $Z$ independent? Give a precise mathematical explanation.
 >
 > Solution:
 >
@@ -55,11 +55,11 @@ The questions on this page summarize the _official problem-set materials_ for pr
 > Convolution.
 >
 > - (a) On normal distributions:
->   - i. Let $X\sim N(\mu_1,\sigma_1^2)$ and $Y\sim N(\mu_2,\sigma_2^2)$ be independent. Show that $X+Y\sim N(\mu_1+\mu_2,\sigma_1^2+\sigma_2^2)$. (Hint: first argue why it suffices to consider $\mu_1=\mu_2=0$, $\sigma_1=1$; then complete the square in the exponent.)
->   - ii. Let $X_1,\dots,X_n$ be i.i.d. $N(\mu,\sigma^2)$ and let $\bar X_n=\frac1n\sum_{i=1}^n X_i$. Determine the law of $Z_n=\sqrt n\,(\bar X_n-\mu)/\sigma$.
+>     - i. Let $X\sim N(\mu_1,\sigma_1^2)$ and $Y\sim N(\mu_2,\sigma_2^2)$ be independent. Show that $X+Y\sim N(\mu_1+\mu_2,\sigma_1^2+\sigma_2^2)$. (Hint: first argue why it suffices to consider $\mu_1=\mu_2=0$, $\sigma_1=1$; then complete the square in the exponent.)
+>     - ii. Let $X_1,\dots,X_n$ be i.i.d. $N(\mu,\sigma^2)$ and let $\bar X_n=\frac1n\sum_{i=1}^n X_i$. Determine the law of $Z_n=\sqrt n\,(\bar X_n-\mu)/\sigma$.
 > - (b) On Poisson distributions:
->   - i. Let $X\sim\operatorname{Pois}(\lambda)$ and $Y\sim\operatorname{Pois}(\mu)$ be independent. Show that $X+Y\sim\operatorname{Pois}(\lambda+\mu)$.
->   - ii. Give a concrete counterexample showing that $X+Y$ does not generally follow a Poisson distribution when independence is dropped.
+>     - i. Let $X\sim\operatorname{Pois}(\lambda)$ and $Y\sim\operatorname{Pois}(\mu)$ be independent. Show that $X+Y\sim\operatorname{Pois}(\lambda+\mu)$.
+>     - ii. Give a concrete counterexample showing that $X+Y$ does not generally follow a Poisson distribution when independence is dropped.
 >
 > Solution:
 >

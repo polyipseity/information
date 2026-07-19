@@ -16,13 +16,13 @@ applyTo: "archives/**/*.md"
 ## Current Subdirectories
 
 - `archives/Wikimedia Commons/`: Media (images, audio, video) sourced from Wikimedia Commons
-  - Filenames: Descriptive names for easy identification (e.g., `04 production-possibilities-frontier-1.png`)
-  - May be renamed via `scripts/assets/convert_wiki.name_map.jsonc` during Wikipedia ingestion
+    - Filenames: Descriptive names for easy identification (e.g., `04 production-possibilities-frontier-1.png`)
+    - May be renamed via `scripts/assets/convert_wiki.name_map.jsonc` during Wikipedia ingestion
 
 - `archives/sparse/`: Miscellaneous archived content with user-defined filenames
-  - __Important__: Filenames are user-defined (descriptive or arbitrary), NOT automatically SHA-256 hashed
-  - Users manually add files with chosen filenames
-  - Entry in `index.md` must include source URL, timestamp, and description
+    - __Important__: Filenames are user-defined (descriptive or arbitrary), NOT automatically SHA-256 hashed
+    - Users manually add files with chosen filenames
+    - Entry in `index.md` must include source URL, timestamp, and description
 
 ## Future Expansion
 

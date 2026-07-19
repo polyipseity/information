@@ -25,8 +25,8 @@ Flashcards for this section are as follows:
 - due: 2026-04-10
 - weight: part of the 40% essay component
 - notes
-  - This milestone exists to collect targeted revision advice before final submission.
-  - Add draft-specific argument notes or bibliography notes only when those materials exist.
+    - This milestone exists to collect targeted revision advice before final submission.
+    - Add draft-specific argument notes or bibliography notes only when those materials exist.
 
 ---
 

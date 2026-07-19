@@ -98,23 +98,23 @@ For {@{these [valuation](valuation%20(finance).md) purposes}@}, {@{a number of d
 ### equity-approach
 
 - [Flows to equity](flows%20to%20equity.md) approach \(FTE\)
-  - (annotation: flows to equity) ::@:: Discount the cash flows available to the holders of equity capital, after allowing for cost of servicing debt capital <!--SR:!2027-05-03,623,330!2026-12-29,519,310-->
-  - (annotation: flows to equity) Advantages: ::@:: Makes explicit allowance for the cost of debt capital <!--SR:!2030-10-28,1641,369!2029-08-09,1282,350-->
-  - (annotation: flows to equity) Disadvantages: ::@:: Requires judgement on choice of discount rate <!--SR:!2028-08-30,1012,349!2027-05-12,632,330-->
+    - (annotation: flows to equity) ::@:: Discount the cash flows available to the holders of equity capital, after allowing for cost of servicing debt capital <!--SR:!2027-05-03,623,330!2026-12-29,519,310-->
+    - (annotation: flows to equity) Advantages: ::@:: Makes explicit allowance for the cost of debt capital <!--SR:!2030-10-28,1641,369!2029-08-09,1282,350-->
+    - (annotation: flows to equity) Disadvantages: ::@:: Requires judgement on choice of discount rate <!--SR:!2028-08-30,1012,349!2027-05-12,632,330-->
 
 ### entity-approach
 
 - [Adjusted present value](adjusted%20present%20value.md) approach \(APV\)
-  - (annotation: adjusted present value) ::@:: Discount the cash flows before allowing for the debt capital \(but allowing for the tax relief obtained on the debt capital\) <!--SR:!2026-11-11,483,310!fsrs,2030-06-20T00:00:00.000Z,1461,1460.84670295,1.02972367,2,10,0,0,2026-06-20T00:00:00.000Z-->
-  - (annotation: adjusted present value) Advantages: ::@:: Simpler to apply if a specific project is being valued which does not have earmarked debt capital finance <!--SR:!2027-10-08,744,330!2027-12-07,792,330-->
-  - (annotation: adjusted present value) Disadvantages: ::@:: Requires judgement on choice of discount rate; no explicit allowance for cost of debt capital, which may be much higher than a [risk-free rate](risk-free%20rate.md) <!--SR:!2028-12-05,1066,349!2029-01-29,1082,310-->
+    - (annotation: adjusted present value) ::@:: Discount the cash flows before allowing for the debt capital \(but allowing for the tax relief obtained on the debt capital\) <!--SR:!2026-11-11,483,310!fsrs,2030-06-20T00:00:00.000Z,1461,1460.84670295,1.02972367,2,10,0,0,2026-06-20T00:00:00.000Z-->
+    - (annotation: adjusted present value) Advantages: ::@:: Simpler to apply if a specific project is being valued which does not have earmarked debt capital finance <!--SR:!2027-10-08,744,330!2027-12-07,792,330-->
+    - (annotation: adjusted present value) Disadvantages: ::@:: Requires judgement on choice of discount rate; no explicit allowance for cost of debt capital, which may be much higher than a [risk-free rate](risk-free%20rate.md) <!--SR:!2028-12-05,1066,349!2029-01-29,1082,310-->
 - [Weighted average cost of capital](weighted%20average%20cost%20of%20capital.md) approach \(WACC\)
-  - (annotation: weighted average cost of capital) ::@:: Derive a weighted cost of the capital obtained from the various sources and use that discount rate to discount the unlevered free cash flows from the project <!--SR:!2027-10-28,720,290!2026-09-23,445,310-->
-  - (annotation: weighted average cost of capital) Advantages: ::@:: Overcomes the requirement for debt capital finance to be earmarked to particular projects <!--SR:!2026-08-01,406,310!2030-11-08,1652,369-->
-  - (annotation: weighted average cost of capital) Disadvantages: ::@:: Care must be exercised in the selection of the appropriate income stream. The net cash flow to total invested capital is the generally accepted choice. <!--SR:!2028-11-12,1072,349!2028-01-29,831,330-->
+    - (annotation: weighted average cost of capital) ::@:: Derive a weighted cost of the capital obtained from the various sources and use that discount rate to discount the unlevered free cash flows from the project <!--SR:!2027-10-28,720,290!2026-09-23,445,310-->
+    - (annotation: weighted average cost of capital) Advantages: ::@:: Overcomes the requirement for debt capital finance to be earmarked to particular projects <!--SR:!2026-08-01,406,310!2030-11-08,1652,369-->
+    - (annotation: weighted average cost of capital) Disadvantages: ::@:: Care must be exercised in the selection of the appropriate income stream. The net cash flow to total invested capital is the generally accepted choice. <!--SR:!2028-11-12,1072,349!2028-01-29,831,330-->
 - [Total cash flow](total%20cash%20flow.md) approach \(TCF\)<sup>\[_[clarification needed](https://en.wikipedia.org/wiki/Wikipedia:Please%20clarify)_\]</sup> (TODO: clarification needed)
-  - This distinction illustrates that the Discounted Cash Flow method can be used to determine the value of various business ownership interests. These can include equity or debt holders.
-  - Alternatively, the method can be used to value the company based on the value of total invested capital. In each case, the differences lie in the choice of the income stream and discount rate. For example, the net cash flow to total invested capital and WACC are appropriate when valuing a company based on the market value of all invested capital.<sup>[\[9\]](#^ref-9)</sup>
+    - This distinction illustrates that the Discounted Cash Flow method can be used to determine the value of various business ownership interests. These can include equity or debt holders.
+    - Alternatively, the method can be used to value the company based on the value of total invested capital. In each case, the differences lie in the choice of the income stream and discount rate. For example, the net cash flow to total invested capital and WACC are appropriate when valuing a company based on the market value of all invested capital.<sup>[\[9\]](#^ref-9)</sup>
 
 ## shortcomings
 

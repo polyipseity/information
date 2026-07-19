@@ -487,12 +487,12 @@ If k = 3, what is the output of the algorithm?
 What are the advantages and the disadvantages of algorithm k-means?
 
 > - advantages
->   - The algorithm is simple to implement.
->   - The algorithm converges quickly after few iterations.
+>     - The algorithm is simple to implement.
+>     - The algorithm converges quickly after few iterations.
 > - disadvantages
->   - The value of $k$ is difficult to be chosen properly because the number of clusters is not known beforehand.
->   - The algorithm is sensitive to initial means, which is randomly generated. Bad initial means give suboptimal results.
->   - The algorithm models works best with similar sized clusters, and works sub-optimally with very different sized clusters.
+>     - The value of $k$ is difficult to be chosen properly because the number of clusters is not known beforehand.
+>     - The algorithm is sensitive to initial means, which is randomly generated. Bad initial means give suboptimal results.
+>     - The algorithm models works best with similar sized clusters, and works sub-optimally with very different sized clusters.
 
 ## Q4
 

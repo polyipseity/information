@@ -143,11 +143,11 @@ was {@{seen as paradoxical in the early days of set theory}@}; see {@{[Skolem's 
 Countable sets can be {@{[totally ordered](total%20order.md) in various ways}@}, for example: <!--SR:!fsrs,2030-11-28T00:00:00.000Z,1606,1605.81193158,1,2,10,0,0,2026-07-06T00:00:00.000Z-->
 
 - [Well-orders](well-order.md) \(see also {@{[ordinal number](ordinal%20number.md)}@}\):
-  - The usual order of {@{natural numbers}@} \(0, 1, 2, 3, 4, 5, ...\)
-  - The integers in the order {@{\(0, 1, 2, 3, ...; −1, −2, −3, ...\)}@}
+    - The usual order of {@{natural numbers}@} \(0, 1, 2, 3, 4, 5, ...\)
+    - The integers in the order {@{\(0, 1, 2, 3, ...; −1, −2, −3, ...\)}@}
 - Other \({@{_not_ well orders}@}\):
-  - The usual order of {@{integers}@} \(..., −3, −2, −1, 0, 1, 2, 3, ...\)
-  - The usual order of {@{rational numbers}@} \({@{Cannot be explicitly written as an ordered list!}@}\) <!--SR:!2029-07-11,1278,350!2029-06-24,1281,350!2029-07-30,1297,350!2029-05-01,1238,350!2029-08-16,1314,350!2029-02-06,1172,350!2029-07-12,1279,350-->
+    - The usual order of {@{integers}@} \(..., −3, −2, −1, 0, 1, 2, 3, ...\)
+    - The usual order of {@{rational numbers}@} \({@{Cannot be explicitly written as an ordered list!}@}\) <!--SR:!2029-07-11,1278,350!2029-06-24,1281,350!2029-07-30,1297,350!2029-05-01,1238,350!2029-08-16,1314,350!2029-02-06,1172,350!2029-07-12,1279,350-->
 
 In {@{both examples of well orders here}@}, {@{any subset has a _least element_}@}; and in {@{both examples of non-well orders}@}, {@{_some_ subsets do not have a _least element_}@}. This is {@{the key definition that determines whether a total order is also a well order}@}. <!--SR:!2026-11-05,509,310!2029-04-07,1219,350!2028-09-27,1068,350!2029-01-31,1117,310!2028-05-09,886,330-->
 

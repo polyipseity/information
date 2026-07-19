@@ -36,4 +36,4 @@ The file you submitted should be a .java File.
 ## submission
 
 - file: [`main.java`](submission/main.java)
-  - name: `main.java`
+    - name: `main.java`

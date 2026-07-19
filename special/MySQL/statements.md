@@ -24,13 +24,13 @@ tags:
 ## common expressions
 
 - `alter_option`
-  - `ADD {INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)` ::@:: Add an index indexed by `key_part` using the specified algorithm. <!--SR:!2031-12-26,2051,270!2031-02-19,2088,350-->
+    - `ADD {INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)` ::@:: Add an index indexed by `key_part` using the specified algorithm. <!--SR:!2031-12-26,2051,270!2031-02-19,2088,350-->
 - `create_definition`
-  - `column_name column_definition` ::@:: Define a column named `column_name` with the definition `column_definition`. <!--SR:!2028-06-14,1300,330!2030-09-17,1974,350-->
-  - `{INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)` ::@:: An index indexed by `key_part` using the specified algorithm. <!--SR:!2033-08-14,2646,319!2027-11-15,1056,319-->
-  - `PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)` ::@:: A unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm. <!--SR:!2032-07-29,2373,339!2033-08-18,2665,339-->
+    - `column_name column_definition` ::@:: Define a column named `column_name` with the definition `column_definition`. <!--SR:!2028-06-14,1300,330!2030-09-17,1974,350-->
+    - `{INDEX | KEY} [USING {BTREE | HASH}] (key_part, ...)` ::@:: An index indexed by `key_part` using the specified algorithm. <!--SR:!2033-08-14,2646,319!2027-11-15,1056,319-->
+    - `PRIMARY KEY [USING {BTREE | HASH}] (key_part, ...)` ::@:: A unique index indexed by `key_part`, which must be `NOT NULL` columns, using the specified algorithm. <!--SR:!2032-07-29,2373,339!2033-08-18,2665,339-->
 - `select_expression`
-  - `*` ::@:: Select all columns. <!--SR:!2031-11-14,2321,359!2028-01-04,1189,339-->
-  - `COUNT(expression)` ::@:: Number of selected non-`NULL` rows for `expression`. <!--SR:!2031-03-17,2114,359!2027-04-09,901,319-->
+    - `*` ::@:: Select all columns. <!--SR:!2031-11-14,2321,359!2028-01-04,1189,339-->
+    - `COUNT(expression)` ::@:: Number of selected non-`NULL` rows for `expression`. <!--SR:!2031-03-17,2114,359!2027-04-09,901,319-->
 - `table_reference`
-  - `table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]` ::@:: [`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ − 1 expressions `on_expression`. <!--SR:!2026-10-08,670,279!fsrs,2032-11-15T10:02:18.681Z,2346,2346.06410303,1.5300312,2,10,0,0,2026-06-14T10:02:18.681Z-->
+    - `table_name [JOIN table_name...] [ON on_expression] [AND on_expression...]` ::@:: [`INNER JOIN`](join%20(SQL).md#inner%20join) _n_ tables named `table_name` joined by _n_ − 1 expressions `on_expression`. <!--SR:!2026-10-08,670,279!fsrs,2032-11-15T10:02:18.681Z,2346,2346.06410303,1.5300312,2,10,0,0,2026-06-14T10:02:18.681Z-->

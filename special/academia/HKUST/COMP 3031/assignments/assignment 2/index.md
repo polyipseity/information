@@ -72,9 +72,9 @@ In this part, you will implement the core game logic for Tic-Tac-Toe. To be more
 - Most functions can be implemented in a single line. The remaining functions can be implemented in a few lines.
 - The implementation of `evaluate` is various and heuristic. There is not a unique way to implement it. The most straightforward way is to check all possible lines, and
 
-  - if player `Max` wins, return `1`;
-  - if player `Min` wins, return `-1`; or
-  - if the game is a draw, return `0`.
+    - if player `Max` wins, return `1`;
+    - if player `Min` wins, return `-1`; or
+    - if the game is a draw, return `0`.
 
   You can also explore other heuristic ways to implement it.
 
@@ -128,4 +128,4 @@ Submit a zip archive containing your implementation of `Board.scala`, `TicTacToe
 ## submission
 
 - file: [`submission.zip`](submission.zip)
-  - source: [`submission/`](submission/)
+    - source: [`submission/`](submission/)

@@ -18,7 +18,7 @@ tags:
 <!-- list separator -->
 
 - integrability
-  - [Riemann integrability](../general/Riemann%20integral.md) ::@:: The function is Riemann integrable on $[0, 1]$. Pathologically, its set of points of discontinuity is the Cantor set, which is uncountably infinite but has [Lebesgue measure](../general/Lebesgue%20measure.md) zero. <!--SR:!2027-06-24,666,266!2029-03-04,1205,306-->
+    - [Riemann integrability](../general/Riemann%20integral.md) ::@:: The function is Riemann integrable on $[0, 1]$. Pathologically, its set of points of discontinuity is the Cantor set, which is uncountably infinite but has [Lebesgue measure](../general/Lebesgue%20measure.md) zero. <!--SR:!2027-06-24,666,266!2029-03-04,1205,306-->
 
 ### Dirichlet function
 
@@ -27,9 +27,9 @@ tags:
 The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = \begin{cases} 1 & x\text{ rational} \\ 0 & x\text{ irrational} \end{cases}$$}@}. <!--SR:!2031-05-18,1982,330-->
 
 - [continuity](../general/continuous%20function.md) and discontinuity ::@:: It is discontinuous at every [real](../general/real%20number.md). <!--SR:!2028-09-23,1285,350!2028-05-23,1188,350-->
-  - global continuity or discontinuity ::@:: It is a [discontinuous function](../general/continuous%20function.md). <!--SR:!2028-03-19,1128,363!2027-05-08,878,363-->
+    - global continuity or discontinuity ::@:: It is a [discontinuous function](../general/continuous%20function.md). <!--SR:!2028-03-19,1128,363!2027-05-08,878,363-->
 - integrability
-  - [Riemann integrability](../general/Riemann%20integral.md) ::@:: The function is not Riemann integrable on any non-trivial [interval](../general/interval%20(mathematics).md). This is despite it being a [bounded function](../general/bounded%20function.md). <!--SR:!2026-12-19,739,346!2027-05-26,810,346-->
+    - [Riemann integrability](../general/Riemann%20integral.md) ::@:: The function is not Riemann integrable on any non-trivial [interval](../general/interval%20(mathematics).md). This is despite it being a [bounded function](../general/bounded%20function.md). <!--SR:!2026-12-19,739,346!2027-05-26,810,346-->
 - [limit of a function](../general/limit%20of%20a%20function.md) ::@:: It has no limit at every [real](../general/real%20number.md). <!--SR:!2027-09-17,992,350!2028-07-11,1224,350-->
 
 ### Volterra's function
@@ -39,8 +39,8 @@ The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = 
 {@{Volterra's function}@} is constructed {@{using increasingly smaller modified copies of $f(x) = x^2 \sin(1 / x)$}@}, {@{mirrored and then placed on the removed intervals of [Smith–Volterra–Cantor set](Smith–Volterra–Cantor%20set.md)}@}. <!--SR:!2029-04-25,1239,306!2027-08-21,482,394!2026-11-21,281,374-->
 
 - derivative
-  - derivative integrability
-    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on $[0, 1]$. Pathologically, the derivative exists everywhere and is [bounded](bounded%20function.md). <!--SR:!2027-06-07,716,306!fsrs,2032-05-26T09:43:18.563Z,2179,2178.64779769,1,2,10,0,0,2026-06-08T09:43:18.563Z-->
+    - derivative integrability
+        - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on $[0, 1]$. Pathologically, the derivative exists everywhere and is [bounded](bounded%20function.md). <!--SR:!2027-06-07,716,306!fsrs,2032-05-26T09:43:18.563Z,2179,2178.64779769,1,2,10,0,0,2026-06-08T09:43:18.563Z-->
 
 ### empty function
 
@@ -49,7 +49,7 @@ The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = 
 {@{Every [set](../general/set%20(mathematics).md) $X$ has the unique [function](../general/function%20(mathematics).md) $\varnothing \to X$}@} called the __empty function__. <!--SR:!2028-04-02,1147,350-->
 
 - [continuity](../general/continuous%20function.md) and discontinuity ::@:: It is continuous and not discontinuous at every point of its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). It is neither continuous nor discontinuous at every [real](../general/real%20number.md). <!--SR:!2026-12-10,713,330!2027-02-04,755,330-->
-  - global continuity or discontinuity ::@:: It is a [continuous function](../general/continuous%20function.md). <!--SR:!2027-03-15,775,343!2026-10-21,669,343-->
+    - global continuity or discontinuity ::@:: It is a [continuous function](../general/continuous%20function.md). <!--SR:!2027-03-15,775,343!2026-10-21,669,343-->
 - [limit of a function](../general/limit%20of%20a%20function.md) ::@:: It has limit and it has no limit at every point of its [domain](../general/domain%20of%20a%20function.md) by [vacuous truth](../general/vacuous%20truth.md). <!--SR:!2027-08-20,969,350!2028-11-12,1324,350-->
 
 ## topologies
@@ -65,5 +65,5 @@ The [Dirichlet function](Dirichlet%20function.md) is {@{$$f(x \in \mathbb{R}) = 
 The function is {@{$$f(x) = \begin{cases} x^2 \sin \frac 1 {x^2}, & x \ne 0 \\ 0, & x = 0 \end{cases}$$}@}. <!--SR:!fsrs,2032-08-20T00:00:00.000Z,2230,2230.3468557,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
 
 - derivative ::@:: $$f'(x) = \begin{cases} 2x \sin \frac 1 {x^2} - \frac {2 \cos \frac 1 {x^2} } x, & x \ne 0 \\ 0, & x = 0 \end{cases}$$ <!--SR:!2027-10-21,531,286!2026-10-21,650,326-->
-  - derivative integrability
-    - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on any non-trivial interval containing 0, as it is [unbounded](../general/bounded%20function.md). The derivative is an example of an non-integrable function that has an [antiderivative](../general/antiderivative.md) everywhere. <!--SR:!2030-11-09,1763,326!2027-09-13,899,346-->
+    - derivative integrability
+        - derivative [Riemann integrability](../general/Riemann%20integral.md) ::@:: The derivative is not Riemann integrable on any non-trivial interval containing 0, as it is [unbounded](../general/bounded%20function.md). The derivative is an example of an non-integrable function that has an [antiderivative](../general/antiderivative.md) everywhere. <!--SR:!2030-11-09,1763,326!2027-09-13,899,346-->

@@ -11,20 +11,20 @@ This repository is a personal Markdown knowledgebase with flashcards, tutorials,
 ## Directory structure
 
 - __`general/`__ — Encyclopedic content (mostly verbatim from Wikipedia).
-  - Flat `.md` files with YAML frontmatter (`aliases`, `tags`, `language`).
-  - Use __relative links__ (encode spaces as `%20`) and store media under `archives/Wikimedia Commons/`.
-  - Updated primarily via: `uv run -m scripts.convert_wiki`.
+    - Flat `.md` files with YAML frontmatter (`aliases`, `tags`, `language`).
+    - Use __relative links__ (encode spaces as `%20`) and store media under `archives/Wikimedia Commons/`.
+    - Updated primarily via: `uv run -m scripts.convert_wiki`.
 
 - __`special/`__ — Specialized materials: course notes, tutorials, and frameworks.
-  - `academia/` is organized by __institution → semester/year → course__; each institution typically includes `reviews.md` and course folders.
-  - Maintain `index.md` files for listings and cross-references.
+    - `academia/` is organized by __institution → semester/year → course__; each institution typically includes `reviews.md` and course folders.
+    - Maintain `index.md` files for listings and cross-references.
 
 - __`archives/`__ — Downloaded online content (media, pages, documents).
-  - Subfolders: `Wikimedia Commons/` (media), `sparse/` (misc files).
-  - Each archive directory should include an `index.md` with source URL, timestamp and description.
+    - Subfolders: `Wikimedia Commons/` (media), `sparse/` (misc files).
+    - Each archive directory should include an `index.md` with source URL, timestamp and description.
 
 - __`scripts/`__ — Scripts and utilities (wiki ingestion, LMS converters, packaging, publishing).
-  - Prefer running wrappers (`bun run ...` or `uv run -m ...`) rather than hand-editing generated outputs.
+    - Prefer running wrappers (`bun run ...` or `uv run -m ...`) rather than hand-editing generated outputs.
     Agent quickstart: For a one-page checklist of startup steps, commit rules, and quick gotchas see `.agents/instructions/core-workflows.instructions.md` (enable `chat.useAgentsMdFile` and `chat.useAgentSkills` for integrated guidance).
 
 ---

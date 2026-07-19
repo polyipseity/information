@@ -87,20 +87,20 @@ Common themes of unit vectors occur {@{throughout [physics](physics.md) and [geo
 > __flashcards__
 >
 > - Tangent vector to a curve/flux line
->   - Tangent vector to a curve/flux line / Nomenclature ::@:: $\mathbf {\hat {t} }$ <!--SR:!2026-09-19,127,405!2026-09-28,135,405-->
->   - Tangent vector to a curve/flux line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Tangent%20normal%20binormal%20unit%20vectors.svg) <p> !["200px"](../../archives/Wikimedia%20Commons/Polar%20coord%20unit%20vectors%20and%20normal.svg) <p> A normal vector $\mathbf {\hat {n} }$ to the plane containing and defined by the radial position vector $r\mathbf {\hat {r} }$ and angular tangential direction of rotation $\theta {\boldsymbol {\hat {\theta } } }$ is necessary so that the vector equations of angular motion hold. <!--SR:!2026-09-25,132,405!2026-08-20,96,385-->
+>     - Tangent vector to a curve/flux line / Nomenclature ::@:: $\mathbf {\hat {t} }$ <!--SR:!2026-09-19,127,405!2026-09-28,135,405-->
+>     - Tangent vector to a curve/flux line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Tangent%20normal%20binormal%20unit%20vectors.svg) <p> !["200px"](../../archives/Wikimedia%20Commons/Polar%20coord%20unit%20vectors%20and%20normal.svg) <p> A normal vector $\mathbf {\hat {n} }$ to the plane containing and defined by the radial position vector $r\mathbf {\hat {r} }$ and angular tangential direction of rotation $\theta {\boldsymbol {\hat {\theta } } }$ is necessary so that the vector equations of angular motion hold. <!--SR:!2026-09-25,132,405!2026-08-20,96,385-->
 > - Normal to a surface tangent plane/plane containing radial position component and angular tangential component
->   - Normal to a surface tangent plane/plane containing radial position component and angular tangential component / Nomenclature ::@:: $\mathbf {\hat {n} }$ <p> In terms of [polar coordinates](spherical%20coordinate%20system.md); <br/> $\mathbf {\hat {n} } =\mathbf {\hat {r} } \times {\boldsymbol {\hat {\theta } } }$ <!--SR:!2026-09-26,133,405!2026-09-21,129,405-->
+>     - Normal to a surface tangent plane/plane containing radial position component and angular tangential component / Nomenclature ::@:: $\mathbf {\hat {n} }$ <p> In terms of [polar coordinates](spherical%20coordinate%20system.md); <br/> $\mathbf {\hat {n} } =\mathbf {\hat {r} } \times {\boldsymbol {\hat {\theta } } }$ <!--SR:!2026-09-26,133,405!2026-09-21,129,405-->
 > - Binormal vector to tangent and normal
->   - Binormal vector to tangent and normal / Nomenclature ::@:: $\mathbf {\hat {b} } =\mathbf {\hat {t} } \times \mathbf {\hat {n} }$<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-10-04,140,405!2026-09-27,134,405-->
+>     - Binormal vector to tangent and normal / Nomenclature ::@:: $\mathbf {\hat {b} } =\mathbf {\hat {t} } \times \mathbf {\hat {n} }$<sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-10-04,140,405!2026-09-27,134,405-->
 > - Parallel to some axis/line
->   - Parallel to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\parallel }$ <!--SR:!2026-10-04,140,405!2026-10-02,138,405-->
->   - Parallel to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Perpendicular%20and%20parallel%20unit%20vectors.svg) <p> One unit vector $\mathbf {\hat {e} } _{\parallel }$ aligned parallel to a principal direction \(red line\), and a perpendicular unit vector $\mathbf {\hat {e} } _{\bot }$ is in any radial direction relative to the principal line. <!--SR:!2026-09-28,135,405!2026-09-18,126,405-->
+>     - Parallel to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\parallel }$ <!--SR:!2026-10-04,140,405!2026-10-02,138,405-->
+>     - Parallel to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Perpendicular%20and%20parallel%20unit%20vectors.svg) <p> One unit vector $\mathbf {\hat {e} } _{\parallel }$ aligned parallel to a principal direction \(red line\), and a perpendicular unit vector $\mathbf {\hat {e} } _{\bot }$ is in any radial direction relative to the principal line. <!--SR:!2026-09-28,135,405!2026-09-18,126,405-->
 > - Perpendicular to some axis/line in some radial direction
->   - Perpendicular to some axis/line in some radial direction / Nomenclature ::@:: $\mathbf {\hat {e} } _{\bot }$ <!--SR:!2026-10-04,140,405!2026-09-17,125,405-->
+>     - Perpendicular to some axis/line in some radial direction / Nomenclature ::@:: $\mathbf {\hat {e} } _{\bot }$ <!--SR:!2026-10-04,140,405!2026-09-17,125,405-->
 > - Possible angular deviation relative to some axis/line
->   - Possible angular deviation relative to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\angle }$ <!--SR:!2026-09-21,129,405!2026-09-22,129,405-->
->   - Possible angular deviation relative to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Angular%20unit%20vector.svg) <p> Unit vector at acute deviation angle _φ_ \(including 0 or _π_/2 rad\) relative to a principal direction. <!--SR:!2026-10-01,137,405!2026-09-21,129,405-->
+>     - Possible angular deviation relative to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\angle }$ <!--SR:!2026-09-21,129,405!2026-09-22,129,405-->
+>     - Possible angular deviation relative to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Angular%20unit%20vector.svg) <p> Unit vector at acute deviation angle _φ_ \(including 0 or _π_/2 rad\) relative to a principal direction. <!--SR:!2026-10-01,137,405!2026-09-21,129,405-->
 
 ## curvilinear coordinates
 

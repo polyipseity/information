@@ -30,7 +30,7 @@ A survey on data collection and applied data science in different areas of scien
 rudimentary data science and Excel course
 
 - instructors
-  - WOON, Wilson: recommended
+    - WOON, Wilson: recommended
 - mirrors: [USTSPACE](https://ust.space/review/DASC2210/view/XYkaT359yeQ5B4dX5iuLjkChahoGF9Y7)
 - semester: 2023—24 fall
 

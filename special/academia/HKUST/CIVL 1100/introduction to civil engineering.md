@@ -16,93 +16,93 @@ tags:
 The content is in teaching order.
 
 - engineer
-  - engineer, according to Wikipedia
-    - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2027-02-11,786,360!2030-04-05,1727,398-->
-    - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2029-05-03,1438,380!2027-05-12,810,360-->
-    - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2027-07-20,938,370!2031-06-29,2090,397-->
-    - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2032-08-01,2335,357!2030-03-21,1632,385-->
-  - engineer, according to the World Federation of Engineering Organizations (WFEO)
-    - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!fsrs,2033-11-11T00:00:00.000Z,2675,2674.83899648,1,2,10,0,0,2026-07-16T00:00:00.000Z!2028-04-08,1138,350-->
-    - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2027-09-11,974,365!2028-12-01,1346,385-->
-  - [engineer types](#engineer%20types)
-  - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2029-12-19,1593,319!2026-08-28,633,330-->
+    - engineer, according to Wikipedia
+        - engineer jobs ::@:: analyze, _build_, _design_, invent, repair, test <!--SR:!2027-02-11,786,360!2030-04-05,1727,398-->
+        - engineer goals ::@:: fulfill functional objectives and requirements <!--SR:!2029-05-03,1438,380!2027-05-12,810,360-->
+        - engineer limitations ::@:: limited by cost, practicality, regulation, and safety <!--SR:!2027-07-20,938,370!2031-06-29,2090,397-->
+        - engineer methods ::@:: ingenuity, mathematics, scientific method and outlook <!--SR:!2032-08-01,2335,357!2030-03-21,1632,385-->
+    - engineer, according to the World Federation of Engineering Organizations (WFEO)
+        - engineer inspirations ::@:: art of using creativity, science and technology, traditional experience <!--SR:!fsrs,2033-11-11T00:00:00.000Z,2675,2674.83899648,1,2,10,0,0,2026-07-16T00:00:00.000Z!2028-04-08,1138,350-->
+        - engineer sustainability ::@:: restore and safeguard the biophysical environment <!--SR:!2027-09-11,974,365!2028-12-01,1346,385-->
+    - [engineer types](#engineer%20types)
+    - differences between engineers and scientists ::@:: Scientists understand nature and make predictions, while engineers use scientific data and knowledge to design cities and protect us from nature. <!--SR:!2029-12-19,1593,319!2026-08-28,633,330-->
 - civil engineering ::@:: construction, design, maintenance, and planning of the built environment, including buildings and infrastructure <!--SR:!2029-07-28,1402,320!2029-11-29,1638,400-->
-  - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2029-09-18,1576,370!2031-11-28,2258,417-->
-  - civil engineer characteristics ::@:: problem solvers <!--SR:!2031-01-16,1889,355!2027-05-22,879,372-->
-  - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2026-12-29,714,321!2029-10-23,1611,400-->
-  - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2028-04-09,1082,332!2027-09-20,994,350-->
-    - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2031-10-26,2003,317!2028-04-12,1124,365-->
+    - "civil" meaning ::@:: "Civil" distinguishes non-military from military purposes. <!--SR:!2029-09-18,1576,370!2031-11-28,2258,417-->
+    - civil engineer characteristics ::@:: problem solvers <!--SR:!2031-01-16,1889,355!2027-05-22,879,372-->
+    - civil engineering characteristics ::@:: Oldest engineering discipline. Takes place on all levels, from municipal to nationals in the public sector, from homeowners to international companies in the private sector. <!--SR:!2026-12-29,714,321!2029-10-23,1611,400-->
+    - built environment ::@:: man-made using materials and natural resources, benefiting mankind, with environment protection and prudent urban planning <!--SR:!2028-04-09,1082,332!2027-09-20,994,350-->
+        - built environment example ::@:: Hoover Dam, a hydroelectric and reservoir project constructed on the Colorado River from 1931 to 1936, affects Las Vegas, United States significantly to the present. <!--SR:!2031-10-26,2003,317!2028-04-12,1124,365-->
 - civil engineering importance ::@:: improving living environments, productivity, and working efficiency <!--SR:!2031-06-13,2010,360!2027-04-22,866,372-->
-  - [civil engineering examples](#civil%20engineering%20examples)
-  - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
+    - [civil engineering examples](#civil%20engineering%20examples)
+    - [civil engineering slogans in Hong Kong](#civil%20engineering%20slogans%20in%20Hong%20Kong)
 - civil engineering challenges
-  - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
-  - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2028-09-18,1181,320!2027-05-07,867,372-->
-    - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2027-08-08,938,372!2030-03-21,1726,387-->
-    - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2031-08-29,1915,290!2030-09-08,1863,394-->
-    - [structural failure example](#structural%20failure%20example)
-  - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2032-03-16,2224,360!2030-11-20,1931,397-->
-    - [complex shape examples](#complex%20shape%20examples)
-    - [long-span structure examples](#long%20span%20structure%20examples)
-    - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2029-06-06,1404,341!2033-01-30,2501,372-->
-  - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
-    - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2029-07-16,1373,307!2031-01-17,1955,400-->
-      - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2030-06-10,1723,357!2026-10-21,698,360-->
+    - [civil engineering non-technical issues](#civil%20engineering%20non-technical%20issues)
+    - poor construction management consequences ::@:: Poor quality control and workmanship leads to high maintenance cost. Structural failure leads to loss of lives. <!--SR:!2028-09-18,1181,320!2027-05-07,867,372-->
+        - poor quality control and workmanship consequences ::@:: cracks, stinky smell, water leakage <!--SR:!2027-08-08,938,372!2030-03-21,1726,387-->
+        - structural failure consequences ::@:: building toppling over, killing workers, prosecution <!--SR:!2031-08-29,1915,290!2030-09-08,1863,394-->
+        - [structural failure example](#structural%20failure%20example)
+    - civil engineering design challenges ::@:: complex shapes, long-span structures, underground structures <!--SR:!2032-03-16,2224,360!2030-11-20,1931,397-->
+        - [complex shape examples](#complex%20shape%20examples)
+        - [long-span structure examples](#long%20span%20structure%20examples)
+        - underground structure examples ::@:: Turin–Lyon high-speed railway (2002–2032), 271 km long, has the Mont Cenis base tunnel that is 57.5 km long with up to 4 km long access tunnels <!--SR:!2029-06-06,1404,341!2033-01-30,2501,372-->
+    - [civil engineering new challenges](#civil%20engineering%20new%20challenges)
+        - climate change engineering examples ::@:: Project MOSE (2003–2025) in Venice, Thames Barrier (1974–1982) <!--SR:!2029-07-16,1373,307!2031-01-17,1955,400-->
+            - Thames Barrier (1974–1982) mechanism ::@:: The gate is a chord of a circle. It rotates along the circumference of the circle. When open, it acts like the river floor. When closing, the chord rotates about the circle center and becomes a barrier. <!--SR:!2030-06-10,1723,357!2026-10-21,698,360-->
 - civil engineering solutions ::@:: smart cities <!--SR:!2034-04-29,2976,420!2030-12-09,1925,396-->
-  - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2029-01-25,1403,355!2033-07-20,2741,420-->
+    - smart cities examples ::@:: Using technology to gather information, predict events, and notify people. <!--SR:!2029-01-25,1403,355!2033-07-20,2741,420-->
 - [civil engineering subdisciplines](#civil%20engineering%20subdisciplines)
 - structural engineering ::@:: analysis, design, and planning of structures to resist various loading and natural disasters <!--SR:!2034-05-20,2910,380!2027-06-07,897,367-->
-  - [structural engineering examples](#structural%20engineering%20examples)
-  - [natural disasters examples](#natural%20disaster%20examples)
-  - structural engineering goals ::@:: - _safety_: no collapse without warning <br/> - _serviceability_: deformation does not disrupt use <!--SR:!2030-05-10,1601,312!2030-05-01,1767,370-->
-  - construction material factors ::@:: depends on availability, cost, project nature <!--SR:!2031-07-12,2087,377!2027-03-04,757,355-->
-    - [construction material examples](#construction%20material%20examples)
-      - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
-      - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
-      - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2026-09-12,532,265!2027-07-04,840,344-->
-  - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2029-11-20,1639,370!2030-11-12,1925,397-->
-    - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
+    - [structural engineering examples](#structural%20engineering%20examples)
+    - [natural disasters examples](#natural%20disaster%20examples)
+    - structural engineering goals ::@:: - _safety_: no collapse without warning <br/> - _serviceability_: deformation does not disrupt use <!--SR:!2030-05-10,1601,312!2030-05-01,1767,370-->
+    - construction material factors ::@:: depends on availability, cost, project nature <!--SR:!2031-07-12,2087,377!2027-03-04,757,355-->
+        - [construction material examples](#construction%20material%20examples)
+            - [reinforced concrete structure examples](#reinforced%20concrete%20structure%20examples)
+            - [steel or concrete–steel composite structure examples](#steel%20or%20concrete–steel%20composite%20structure%20examples)
+            - timber structure examples ::@:: Hirschberg 13, 35037 Marburg, Germany <!--SR:!2026-09-12,532,265!2027-07-04,840,344-->
+    - structural codes of practice or design codes ::@:: different countries have different standards <!--SR:!2029-11-20,1639,370!2030-11-12,1925,397-->
+        - [structural code of practice examples](#structural%20code%20of%20practice%20examples)
 - geo-technical engineering ::@:: behavior of rock, soil, and underground water <!--SR:!2029-05-31,1398,325!2028-08-04,1252,387-->
-  - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2032-07-08,2246,340!2027-02-24,759,350-->
-    - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
-  - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
-    - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2027-01-02,758,360!2030-04-08,1730,397-->
+    - geo-technical engineering structures ::@:: design and construction of earthworks and foundations <!--SR:!2032-07-08,2246,340!2027-02-24,759,350-->
+        - [geo-technical engineering structure examples](#geo-technical%20engineering%20structure%20examples)
+    - [geo-technical engineering risks](#geo-technical%20engineering%20risks)
+        - geo-technical engineering risk migration ::@:: soil improvement or retaining structures can migrate risk to society <!--SR:!2027-01-02,758,360!2030-04-08,1730,397-->
 - hydraulic engineering ::@:: conveyance and flow of fluids, principally sewage and water <!--SR:!2031-02-10,1824,305!2029-06-20,1505,385-->
-  - hydraulic engineering structures ::@:: design and construction of hydraulic structures <!--SR:!2029-01-11,1205,324!2029-05-03,1464,385-->
-    - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
-  - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources <!--SR:!2029-03-11,1337,340!2027-01-22,736,352-->
-    - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
+    - hydraulic engineering structures ::@:: design and construction of hydraulic structures <!--SR:!2029-01-11,1205,324!2029-05-03,1464,385-->
+        - [hydraulic engineering structure examples](#hydraulic%20engineering%20structure%20examples)
+    - hydraulic engineering systems ::@:: planning, development, and management of discharge systems and water resources <!--SR:!2029-03-11,1337,340!2027-01-22,736,352-->
+        - [hydraulic engineering system examples](#hydraulic%20engineering%20system%20examples)
 - environmental engineering ::@:: application of engineering and science to improve the natural environment and minimize environmental impact <!--SR:!2030-11-19,1868,361!2028-12-31,1380,396-->
-  - [environmental engineering areas](#environmental%20engineering%20areas)
-    - air engineering ::@:: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2031-09-09,2130,375!2031-09-03,2182,410-->
-    - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2032-10-05,2348,335!2029-11-27,1620,392-->
-    - [water engineering](#water%20engineering)
-    - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2030-08-02,1750,347!2030-01-07,1661,390-->
-    - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2028-12-20,1106,250!2026-12-14,739,352-->
-      - [environmental impact components](#environmental%20impact%20components)
-      - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2027-06-17,826,352-->
+    - [environmental engineering areas](#environmental%20engineering%20areas)
+        - air engineering ::@:: air pollution control, air quality monitoring, ozone layer protection <!--SR:!2031-09-09,2130,375!2031-09-03,2182,410-->
+        - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2032-10-05,2348,335!2029-11-27,1620,392-->
+        - [water engineering](#water%20engineering)
+        - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2030-08-02,1750,347!2030-01-07,1661,390-->
+        - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2028-12-20,1106,250!2026-12-14,739,352-->
+            - [environmental impact components](#environmental%20impact%20components)
+            - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2027-06-17,826,352-->
 - transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2028-07-08,1139,332!2026-11-01,696,319-->
-  - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2026-10-20,606,300!2032-03-31,2363,421-->
-    - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
+    - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!2026-10-20,606,300!2032-03-31,2363,421-->
+        - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
 - materials engineering
-  - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2033-11-23,2769,377!2029-10-27,1605,387-->
-  - materials engineer jobs ::@:: highly varied <!--SR:!2027-01-24,733,330!2032-12-07,2559,412-->
-    - [materials engineer job examples](#materials%20engineer%20job%20examples)
-  - materials engineering materials ::@:: development of improved or new materials <!--SR:!2026-10-19,636,317!2030-01-04,1674,370-->
-    - [materials engineering material examples](#materials%20engineering%20material%20examples)
-  - materials engineering repair ::@:: design of materials and methods to repair <!--SR:!2029-11-17,1636,370!2032-09-07,2487,415-->
-    - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2028-01-21,938,320!2031-10-30,2100,352-->
+    - materials engineering characteristics ::@:: spans almost all engineering disciplines because materials are used in designs <!--SR:!2033-11-23,2769,377!2029-10-27,1605,387-->
+    - materials engineer jobs ::@:: highly varied <!--SR:!2027-01-24,733,330!2032-12-07,2559,412-->
+        - [materials engineer job examples](#materials%20engineer%20job%20examples)
+    - materials engineering materials ::@:: development of improved or new materials <!--SR:!2026-10-19,636,317!2030-01-04,1674,370-->
+        - [materials engineering material examples](#materials%20engineering%20material%20examples)
+    - materials engineering repair ::@:: design of materials and methods to repair <!--SR:!2029-11-17,1636,370!2032-09-07,2487,415-->
+        - materials engineering repair examples ::@:: fiber reinforced polymer retrofit system, retrofit using damper, slab retrofit using steel plate and carbon fiber reinforced polymer <!--SR:!2028-01-21,938,320!2031-10-30,2100,352-->
 - construction engineering ::@:: planning and execution of the designs from other fields of engineers <!--SR:!2030-10-16,1842,357!2032-01-30,2309,414-->
-  - [construction engineer skills](#construction%20engineer%20skills)
-  - [construction engineer jobs](#construction%20engineer%20jobs)
+    - [construction engineer skills](#construction%20engineer%20skills)
+    - [construction engineer jobs](#construction%20engineer%20jobs)
 - civil engineer prospects ::@:: A civil engineering degree prepares one for work in the construction industry and the broader business, financial, and management sectors. <!--SR:!2026-10-15,735,345!2028-11-25,1352,370-->
-  - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2031-02-05,1995,400!2031-09-25,2207,417-->
-  - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
-  - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2027-11-29,979,305!2028-07-09,1209,350-->
-    - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2030-10-18,1817,352!2033-09-22,2793,415-->
-      - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2026-09-16,648,330-->
-      - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2030-01-29,1589,315!2030-06-07,1790,394-->
-      - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!fsrs,2032-09-08T00:00:00.000Z,2257,2257.13049001,1,2,10,0,0,2026-07-05T00:00:00.000Z!2028-01-27,1074,374-->
+    - civil engineer demand ::@:: Civil engineer are always in demand due to new infrastructure and maintenance and monitoring of existing ones. <!--SR:!2031-02-05,1995,400!2031-09-25,2207,417-->
+    - [civil engineer prospect examples](#civil%20engineer%20prospect%20examples)
+    - civil engineer organization examples ::@:: contractors or construction companies, engineering consulting firms, government (working as civil servants) <!--SR:!2027-11-29,979,305!2028-07-09,1209,350-->
+        - civil government departments in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: Architectural Services Department (ArchSD), Buildings Department (BD), Housing Department (HD) <!--SR:!2030-10-18,1817,352!2033-09-22,2793,415-->
+            - Architectural Services Department (ArchSD) ::@:: governmental structures, markets, playgrounds, public schools <!--SR:!2026-10-22,714,357!2026-09-16,648,330-->
+            - Buildings Department (BD) ::@:: illegal structures, private buildings <!--SR:!2030-01-29,1589,315!2030-06-07,1790,394-->
+            - Housing Department (HD) ::@:: home ownership scheme, public housing <!--SR:!fsrs,2032-09-08T00:00:00.000Z,2257,2257.13049001,1,2,10,0,0,2026-07-05T00:00:00.000Z!2028-01-27,1074,374-->
 
 ## oversized data
 

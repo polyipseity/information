@@ -44,5 +44,5 @@ Here is the list of TAs' GitHub accounts for you to invite them as collaborators
 ## submission
 
 - file: [`submission.pdf`](submission.pdf)
-  - name: `COMP3111H Activity 1.pdf`
-  - source: [`submission.docx`](submission.docx)
+    - name: `COMP3111H Activity 1.pdf`
+    - source: [`submission.docx`](submission.docx)

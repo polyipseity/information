@@ -39,9 +39,9 @@ tags:
 > where
 >
 > - {@{state variables}@}
->   - {@{$p$}@} is {@{the [pressure](pressure.md)}@}
->   - {@{$V$}@} is {@{the [volume](volume.md)}@}
->   - {@{$C$}@} is {@{a [constant](constant%20(mathematics).md)}@}
+>     - {@{$p$}@} is {@{the [pressure](pressure.md)}@}
+>     - {@{$V$}@} is {@{the [volume](volume.md)}@}
+>     - {@{$C$}@} is {@{a [constant](constant%20(mathematics).md)}@}
 > - {@{$\gamma$}@} is {@{the [heat capacity ratio](heat%20capacity%20ratio.md)}@}
 > - {@{$K = \frac{\delta Q}{\delta W}$}@} is {@{the energy transfer ratio}@}
 >

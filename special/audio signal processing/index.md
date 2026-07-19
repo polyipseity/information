@@ -17,183 +17,183 @@ The content is in recommended learning order.
 ## module 1
 
 - [signal mathematics](signal%20mathematics.md)
-  - [§ sine wave](signal%20mathematics.md#sine%20wave)
-  - [§ complex number](signal%20mathematics.md#complex%20number)
-  - [§ Euler's formula](signal%20mathematics.md#Euler's%20formula)
-  - [§ dot product](signal%20mathematics.md#dot%20product)
-  - [§ even and odd sequences](signal%20mathematics.md#even%20and%20odd%20sequences)
-  - [§ convolution](signal%20mathematics.md#convolution)
+    - [§ sine wave](signal%20mathematics.md#sine%20wave)
+    - [§ complex number](signal%20mathematics.md#complex%20number)
+    - [§ Euler's formula](signal%20mathematics.md#Euler's%20formula)
+    - [§ dot product](signal%20mathematics.md#dot%20product)
+    - [§ even and odd sequences](signal%20mathematics.md#even%20and%20odd%20sequences)
+    - [§ convolution](signal%20mathematics.md#convolution)
 - [signal tools](signal%20tools.md)
-  - [§ Audacity](signal%20tools.md#Audacity)
-  - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
-  - [§ sms-tools](signal%20tools.md#sms-tools)
+    - [§ Audacity](signal%20tools.md#Audacity)
+    - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
+    - [§ sms-tools](signal%20tools.md#sms-tools)
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ NumPy](Python%20for%20signal%20processing.md#NumPy)
-  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions)
-  - [§ matplotlib](Python%20for%20signal%20processing.md#matplotlib)
+    - [§ NumPy](Python%20for%20signal%20processing.md#NumPy)
+    - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions)
+    - [§ matplotlib](Python%20for%20signal%20processing.md#matplotlib)
 
 ## module 2
 
 - [discrete Fourier transform](discrete%20Fourier%20transform.md)
-  - [§ definition](discrete%20Fourier%20transform.md#definition)
-  - [§ periodicity](discrete%20Fourier%20transform.md#periodicity)
-  - [§ expressing the inverse DFT in terms of the DFT](discrete%20Fourier%20transform.md#expressing%20the%20inverse%20DFT%20in%20terms%20of%20the%20DFT)
-  - [§ interpretation](discrete%20Fourier%20transform.md#interpretation)
-  - [§ components](discrete%20Fourier%20transform.md#components)
-  - [§ spectrums](discrete%20Fourier%20transform.md#spectrums)
+    - [§ definition](discrete%20Fourier%20transform.md#definition)
+    - [§ periodicity](discrete%20Fourier%20transform.md#periodicity)
+    - [§ expressing the inverse DFT in terms of the DFT](discrete%20Fourier%20transform.md#expressing%20the%20inverse%20DFT%20in%20terms%20of%20the%20DFT)
+    - [§ interpretation](discrete%20Fourier%20transform.md#interpretation)
+    - [§ components](discrete%20Fourier%20transform.md#components)
+    - [§ spectrums](discrete%20Fourier%20transform.md#spectrums)
 - [signal tools](signal%20tools.md)
-  - [§ analysis (Audacity)](signal%20tools.md#analysis%20(Audacity))
-  - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
-  - [§ Freesound](signal%20tools.md#Freesound)
+    - [§ analysis (Audacity)](signal%20tools.md#analysis%20(Audacity))
+    - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
+    - [§ Freesound](signal%20tools.md#Freesound)
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ complex number](Python%20for%20signal%20processing.md#complex%20number)
+    - [§ complex number](Python%20for%20signal%20processing.md#complex%20number)
 
 ## module 3
 
 - [discrete Fourier transform](discrete%20Fourier%20transform.md)
-  - [§ linearity](discrete%20Fourier%20transform.md#linearity)
-  - [§ shift](discrete%20Fourier%20transform.md#shift)
-  - [§ symmetry](discrete%20Fourier%20transform.md#symmetry)
-  - [§ convolution](discrete%20Fourier%20transform.md#convolution)
-  - [§ energy conservation](discrete%20Fourier%20transform.md#energy%20conservation)
-  - [§ decibel](discrete%20Fourier%20transform.md#decibel)
-  - [§ phase unwrapping](discrete%20Fourier%20transform.md#phase%20unwrapping)
-  - [§ zero padding](discrete%20Fourier%20transform.md#zero%20padding)
-  - [§ fast Fourier transform](discrete%20Fourier%20transform.md#fast%20Fourier%20transform)
+    - [§ linearity](discrete%20Fourier%20transform.md#linearity)
+    - [§ shift](discrete%20Fourier%20transform.md#shift)
+    - [§ symmetry](discrete%20Fourier%20transform.md#symmetry)
+    - [§ convolution](discrete%20Fourier%20transform.md#convolution)
+    - [§ energy conservation](discrete%20Fourier%20transform.md#energy%20conservation)
+    - [§ decibel](discrete%20Fourier%20transform.md#decibel)
+    - [§ phase unwrapping](discrete%20Fourier%20transform.md#phase%20unwrapping)
+    - [§ zero padding](discrete%20Fourier%20transform.md#zero%20padding)
+    - [§ fast Fourier transform](discrete%20Fourier%20transform.md#fast%20Fourier%20transform)
 - [signal tools](signal%20tools.md)
-  - [§ generating periodic signals](signal%20tools.md#generating%20periodic%20signals)
-  - [§ applying DFT on complicated sounds](signal%20tools.md#applying%20DFT%20on%20complicated%20sounds)
-  - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
+    - [§ generating periodic signals](signal%20tools.md#generating%20periodic%20signals)
+    - [§ applying DFT on complicated sounds](signal%20tools.md#applying%20DFT%20on%20complicated%20sounds)
+    - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ NumPy](Python%20for%20signal%20processing.md#NumPy)
+    - [§ NumPy](Python%20for%20signal%20processing.md#NumPy)
 
 ## module 4
 
 - [short-time Fourier transform](short-time%20Fourier%20transform.md)
-  - [§ discrete STFT](short-time%20Fourier%20transform.md#discrete%20STFT)
-  - [§ window function](short-time%20Fourier%20transform.md#window%20function)
-  - [§ factors](short-time%20Fourier%20transform.md#factors)
-  - [§ inverse STFT](short-time%20Fourier%20transform.md#inverse%20STFT)
-  - [§ STFT model](short-time%20Fourier%20transform.md#STFT%20model)
+    - [§ discrete STFT](short-time%20Fourier%20transform.md#discrete%20STFT)
+    - [§ window function](short-time%20Fourier%20transform.md#window%20function)
+    - [§ factors](short-time%20Fourier%20transform.md#factors)
+    - [§ inverse STFT](short-time%20Fourier%20transform.md#inverse%20STFT)
+    - [§ STFT model](short-time%20Fourier%20transform.md#STFT%20model)
 - [spectrogram](spectrogram.md)
 - [signal tools](signal%20tools.md)
-  - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
-  - [§ sms-tools](signal%20tools.md#sms-tools)
-  - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
+    - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
+    - [§ sms-tools](signal%20tools.md#sms-tools)
+    - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): Fourier transform, window
+    - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): Fourier transform, window
 
 ## module 5
 
 - [signal mathematics](signal%20mathematics.md)
-  - [§ sine wave](signal%20mathematics.md#sine%20wave)
+    - [§ sine wave](signal%20mathematics.md#sine%20wave)
 - [sinusoidal model](sinusoidal%20model.md)
-  - [§ generalization](sinusoidal%20model.md#generalization)
-  - [§ discrete Fourier transform](sinusoidal%20model.md#discrete%20Fourier%20transform)
-  - [§ practical considerations](sinusoidal%20model.md#practical%20considerations)
-  - [§ peak detection](sinusoidal%20model.md#peak%20detection)
-  - [§ additive synthesis](sinusoidal%20model.md#additive%20synthesis)
+    - [§ generalization](sinusoidal%20model.md#generalization)
+    - [§ discrete Fourier transform](sinusoidal%20model.md#discrete%20Fourier%20transform)
+    - [§ practical considerations](sinusoidal%20model.md#practical%20considerations)
+    - [§ peak detection](sinusoidal%20model.md#peak%20detection)
+    - [§ additive synthesis](sinusoidal%20model.md#additive%20synthesis)
 - [signal tools](signal%20tools.md)
-  - [§ sms-tools](signal%20tools.md#sms-tools)
-  - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
-  - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
+    - [§ sms-tools](signal%20tools.md#sms-tools)
+    - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
+    - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): Fourier transform, statistics, window
+    - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): Fourier transform, statistics, window
 
 ## module 6
 
 - [sinusoidal model](sinusoidal%20model.md)
 - [harmonic](harmonic.md)
-  - [§ harmonic model](harmonic.md#harmonic%20model)
-  - [§ terminology](harmonic.md#terminology)
+    - [§ harmonic model](harmonic.md#harmonic%20model)
+    - [§ terminology](harmonic.md#terminology)
 - [pitch detection algorithm](pitch%20detection%20algorithm.md)
-  - [§ autocorrelation](pitch%20detection%20algorithm.md#autocorrelation)
-  - [§ YIN algorithm](pitch%20detection%20algorithm.md#YIN%20algorithm)
-  - [§ two-way mismatch algorithm](pitch%20detection%20algorithm.md#two-way%20mismatch%20algorithm)
-  - [§ polyphonic signals](pitch%20detection%20algorithm.md#polyphonic%20signals)
+    - [§ autocorrelation](pitch%20detection%20algorithm.md#autocorrelation)
+    - [§ YIN algorithm](pitch%20detection%20algorithm.md#YIN%20algorithm)
+    - [§ two-way mismatch algorithm](pitch%20detection%20algorithm.md#two-way%20mismatch%20algorithm)
+    - [§ polyphonic signals](pitch%20detection%20algorithm.md#polyphonic%20signals)
 - [signal tools](signal%20tools.md)
-  - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
-  - [§ pitch detection (SonicVisualiser)](signal%20tools.md#pitch%20detection%20(SonicVisualiser))
-  - [§ sms-tools](signal%20tools.md#sms-tools)
-  - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
-  - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
-  - [§ Freesound](signal%20tools.md#Freesound)
+    - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
+    - [§ pitch detection (SonicVisualiser)](signal%20tools.md#pitch%20detection%20(SonicVisualiser))
+    - [§ sms-tools](signal%20tools.md#sms-tools)
+    - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
+    - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
+    - [§ Freesound](signal%20tools.md#Freesound)
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): segmentation, statistics
+    - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): segmentation, statistics
 
 ## module 7
 
 - [stochastic signal](stochastic%20signal.md)
-  - [§ frequency domain](stochastic%20signal.md#frequency%20domain)
-  - [§ stochastic model](stochastic%20signal.md#stochastic%20model)
-  - [§ denoising](stochastic%20signal.md#denoising)
-  - [§ combining with other models](stochastic%20signal.md#combining%20with%20other%20models)
+    - [§ frequency domain](stochastic%20signal.md#frequency%20domain)
+    - [§ stochastic model](stochastic%20signal.md#stochastic%20model)
+    - [§ denoising](stochastic%20signal.md#denoising)
+    - [§ combining with other models](stochastic%20signal.md#combining%20with%20other%20models)
 - [signal tools](signal%20tools.md)
-  - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
-  - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
+    - [§ analysis (sms-tools)](signal%20tools.md#analysis%20(sms-tools))
+    - [§ synthesis (sms-tools)](signal%20tools.md#synthesis%20(sms-tools))
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): signal
+    - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): signal
 
 ## module 8
 
 - [sound effect](sound%20effect.md)
-  - [§ frequency filter](sound%20effect.md#frequency%20filter)
-  - [§ equalization](sound%20effect.md#equalization)
-  - [§ morphing](sound%20effect.md#morphing)
-  - [§ sinusoidal spectral modeling](sound%20effect.md#sinusoidal%20spectral%20modeling)
-  - [§ amplitude scaling \(sinusoidal\)](sound%20effect.md#amplitude%20scaling%20(sinusoidal))
-  - [§ pitch scaling \(sinusoidal\)](sound%20effect.md#pitch%20scaling%20(sinusoidal))
-  - [§ time stretching \(sinusoidal\)](sound%20effect.md#time%20stretching%20(sinusoidal))
-  - [§ harmonic spectral modeling](sound%20effect.md#harmonic%20spectral%20modeling)
-  - [§ pitch scaling \(harmonic\)](sound%20effect.md#pitch%20scaling%20(harmonic))
-  - [§ morphing](sound%20effect.md#morphing)
+    - [§ frequency filter](sound%20effect.md#frequency%20filter)
+    - [§ equalization](sound%20effect.md#equalization)
+    - [§ morphing](sound%20effect.md#morphing)
+    - [§ sinusoidal spectral modeling](sound%20effect.md#sinusoidal%20spectral%20modeling)
+    - [§ amplitude scaling \(sinusoidal\)](sound%20effect.md#amplitude%20scaling%20(sinusoidal))
+    - [§ pitch scaling \(sinusoidal\)](sound%20effect.md#pitch%20scaling%20(sinusoidal))
+    - [§ time stretching \(sinusoidal\)](sound%20effect.md#time%20stretching%20(sinusoidal))
+    - [§ harmonic spectral modeling](sound%20effect.md#harmonic%20spectral%20modeling)
+    - [§ pitch scaling \(harmonic\)](sound%20effect.md#pitch%20scaling%20(harmonic))
+    - [§ morphing](sound%20effect.md#morphing)
 - [signal tools](signal%20tools.md)
-  - [§ analysis \(sms-tools\)](signal%20tools.md#analysis%20(sms-tools))
-  - [§ synthesis \(sms-tools\)](signal%20tools.md#synthesis%20(sms-tools))
-  - [§ Audacity](signal%20tools.md#Audacity)
-  - [§ effects \(Audacity\)](signal%20tools.md#effects%20(Audacity))
-  - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
+    - [§ analysis \(sms-tools\)](signal%20tools.md#analysis%20(sms-tools))
+    - [§ synthesis \(sms-tools\)](signal%20tools.md#synthesis%20(sms-tools))
+    - [§ Audacity](signal%20tools.md#Audacity)
+    - [§ effects \(Audacity\)](signal%20tools.md#effects%20(Audacity))
+    - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): \(none\)
+    - [§ useful functions](Python%20for%20signal%20processing.md#useful%20functions): \(none\)
 
 ## module 9
 
 - [audio feature](audio%20feature.md)
-  - [§ descriptors](audio%20feature.md#descriptors)
-  - [§ spectral features](audio%20feature.md#spectral%20features)
-  - [§ energy](audio%20feature.md#energy)
-  - [§ mel-frequency](audio%20feature.md#mel-frequency)
-  - [§ pitches](audio%20feature.md#pitches)
-  - [§ multiple frames](audio%20feature.md#multiple%20frames)
-  - [§ statistics](audio%20feature.md#statistics)
-  - [§ overall features](audio%20feature.md#overall%20features)
-  - [§ sound](audio%20feature.md#sound)
-  - [§ collection features](audio%20feature.md#collection%20features)
-  - [§ clustering](audio%20feature.md#clustering)
-  - [§ music](audio%20feature.md#music)
+    - [§ descriptors](audio%20feature.md#descriptors)
+    - [§ spectral features](audio%20feature.md#spectral%20features)
+    - [§ energy](audio%20feature.md#energy)
+    - [§ mel-frequency](audio%20feature.md#mel-frequency)
+    - [§ pitches](audio%20feature.md#pitches)
+    - [§ multiple frames](audio%20feature.md#multiple%20frames)
+    - [§ statistics](audio%20feature.md#statistics)
+    - [§ overall features](audio%20feature.md#overall%20features)
+    - [§ sound](audio%20feature.md#sound)
+    - [§ collection features](audio%20feature.md#collection%20features)
+    - [§ clustering](audio%20feature.md#clustering)
+    - [§ music](audio%20feature.md#music)
 - [signal tools](signal%20tools.md)
-  - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
-  - [§ plugins \(SonicVisualiser\)](signal%20tools.md#plugins%20(SonicVisualiser))
-  - [§ Freesound](signal%20tools.md#Freesound)
-  - [§ advanced search](signal%20tools.md#advanced%20search)
+    - [§ SonicVisualiser](signal%20tools.md#SonicVisualiser)
+    - [§ plugins \(SonicVisualiser\)](signal%20tools.md#plugins%20(SonicVisualiser))
+    - [§ Freesound](signal%20tools.md#Freesound)
+    - [§ advanced search](signal%20tools.md#advanced%20search)
 - [Python for signal processing](Python%20for%20signal%20processing.md)
-  - [§ Essentia](Python%20for%20signal%20processing.md#Essentia)
-  - [§ Freesound](Python%20for%20signal%20processing.md#Freesound)
+    - [§ Essentia](Python%20for%20signal%20processing.md#Essentia)
+    - [§ Freesound](Python%20for%20signal%20processing.md#Freesound)
 
 ## module 10
 
 - signal processing
-  - signal processing / other topics ::@:: multi-resolution, partial tracking, residual analysis, sinusoid detection and estimation, synthesis, transient modeling <!--SR:!fsrs,2030-02-12T00:00:00.000Z,1302,1302.24692996,1,2,9,0,0,2026-07-21T00:00:00.000Z!fsrs,2030-02-07T00:00:00.000Z,1298,1298.45780529,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
-  - signal processing / multi-resolution ::@:: Instead of using a fixed window size for all frequencies, use smaller window sizes for higher frequencies. <!--SR:!fsrs,2030-02-17T00:00:00.000Z,1306,1306.03455627,1,2,9,0,0,2026-07-22T00:00:00.000Z!2028-10-18,868,332-->
-  - signal processing / partial tracking ::@:: Track movement of partials. <!--SR:!2029-07-03,1131,352!fsrs,2030-02-12T00:00:00.000Z,1302,1302.24692996,1,2,9,0,0,2026-07-21T00:00:00.000Z-->
-  - signal processing / residual analysis ::@:: Model residual using more advanced methods. <!--SR:!fsrs,2030-01-29T00:00:00.000Z,1291,1290.87492949,1,2,9,0,0,2026-07-18T00:00:00.000Z!fsrs,2029-11-14T00:00:00.000Z,1234,1233.79953842,1,2,9,0,0,2026-06-29T00:00:00.000Z-->
-  - signal processing / sinusoid detection and estimation ::@:: Detect and estimate sinusoids using more advanced methods. <!--SR:!2029-05-17,1103,352!fsrs,2030-02-17T00:00:00.000Z,1306,1306.03455627,1,2,9,0,0,2026-07-22T00:00:00.000Z-->
-  - signal processing / synthesis ::@:: Synthesize new sounds rather than simply re-synthesizing. <!--SR:!fsrs,2029-10-24T00:00:00.000Z,1219,1218.51706667,1,2,9,0,0,2026-06-23T00:00:00.000Z!2029-08-17,1176,352-->
-  - signal processing / transient modeling ::@:: Model transient \(short\) sounds more accurately. <!--SR:!2029-05-13,1099,352!2029-08-16,1175,352-->
-  - signal processing / topics beyond ::@:: data processing, other signal types apart from sounds, semantic technologies, user-centered studies <!--SR:!fsrs,2029-08-22T09:43:19.576Z,1171,1171.09503227,1,2,9,0,0,2026-06-08T09:43:19.576Z!fsrs,2029-10-03T00:00:00.000Z,1203,1203.2075684,1,2,9,0,0,2026-06-18T00:00:00.000Z-->
+    - signal processing / other topics ::@:: multi-resolution, partial tracking, residual analysis, sinusoid detection and estimation, synthesis, transient modeling <!--SR:!fsrs,2030-02-12T00:00:00.000Z,1302,1302.24692996,1,2,9,0,0,2026-07-21T00:00:00.000Z!fsrs,2030-02-07T00:00:00.000Z,1298,1298.45780529,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
+    - signal processing / multi-resolution ::@:: Instead of using a fixed window size for all frequencies, use smaller window sizes for higher frequencies. <!--SR:!fsrs,2030-02-17T00:00:00.000Z,1306,1306.03455627,1,2,9,0,0,2026-07-22T00:00:00.000Z!2028-10-18,868,332-->
+    - signal processing / partial tracking ::@:: Track movement of partials. <!--SR:!2029-07-03,1131,352!fsrs,2030-02-12T00:00:00.000Z,1302,1302.24692996,1,2,9,0,0,2026-07-21T00:00:00.000Z-->
+    - signal processing / residual analysis ::@:: Model residual using more advanced methods. <!--SR:!fsrs,2030-01-29T00:00:00.000Z,1291,1290.87492949,1,2,9,0,0,2026-07-18T00:00:00.000Z!fsrs,2029-11-14T00:00:00.000Z,1234,1233.79953842,1,2,9,0,0,2026-06-29T00:00:00.000Z-->
+    - signal processing / sinusoid detection and estimation ::@:: Detect and estimate sinusoids using more advanced methods. <!--SR:!2029-05-17,1103,352!fsrs,2030-02-17T00:00:00.000Z,1306,1306.03455627,1,2,9,0,0,2026-07-22T00:00:00.000Z-->
+    - signal processing / synthesis ::@:: Synthesize new sounds rather than simply re-synthesizing. <!--SR:!fsrs,2029-10-24T00:00:00.000Z,1219,1218.51706667,1,2,9,0,0,2026-06-23T00:00:00.000Z!2029-08-17,1176,352-->
+    - signal processing / transient modeling ::@:: Model transient \(short\) sounds more accurately. <!--SR:!2029-05-13,1099,352!2029-08-16,1175,352-->
+    - signal processing / topics beyond ::@:: data processing, other signal types apart from sounds, semantic technologies, user-centered studies <!--SR:!fsrs,2029-08-22T09:43:19.576Z,1171,1171.09503227,1,2,9,0,0,2026-06-08T09:43:19.576Z!fsrs,2029-10-03T00:00:00.000Z,1203,1203.2075684,1,2,9,0,0,2026-06-18T00:00:00.000Z-->
 - review
 - [Music Technology Group](../../general/Music%20Technology%20Group.md) \(MTG\) ::@:: It is a research group of the Department of Information and Communication Technologies of the Universitat Pompeu Fabra, Barcelona. It was founded in 1994 by Xavier Serra, and it specializes in sound and music computing research. <!--SR:!fsrs,2029-08-24T09:43:20.437Z,1173,1172.50534866,1,2,9,0,0,2026-06-08T09:43:20.437Z!2029-07-29,1157,352-->
-  - Music Technology Group / research ::@:: audio signal processing \(e.g. Vocaloid\), musical and advanced interaction \(e.g. Reactable\), semantic technologies, sound and music description <!--SR:!2028-04-27,777,332!fsrs,2030-02-07T00:00:00.000Z,1298,1298.45780529,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
+    - Music Technology Group / research ::@:: audio signal processing \(e.g. Vocaloid\), musical and advanced interaction \(e.g. Reactable\), semantic technologies, sound and music description <!--SR:!2028-04-27,777,332!fsrs,2030-02-07T00:00:00.000Z,1298,1298.45780529,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
 - [Reactable](../../general/Reactable.md) ::@:: It is an electronic musical instrument with a tabletop tangible user interface that was developed within the Music Technology Group at the Universitat Pompeu Fabra in Barcelona, Spain. <!--SR:!2029-05-22,1107,352!2029-05-23,1108,352-->
 - Sound and Music Computing Network \(SMCN\) ::@:: <https://smcnetwork.org/> <p> It is a web portal dedicated to sound and music computing. <!--SR:!2029-05-21,1106,352!fsrs,2029-09-16T13:34:44.218Z,1190,1190.29842946,1,2,9,0,0,2026-06-14T13:34:44.218Z-->
 - [International Computer Music Conference](../../general/International%20Computer%20Music%20Conference.md) \(ICMC\) ::@:: It is a yearly international conference for computer music researchers and composers. It is the annual conference of the International Computer Music Association \(ICMA\). <p> It was a pioneer of conferences dedicated to computer music \(started 1974\). <!--SR:!fsrs,2030-02-03T00:00:00.000Z,1295,1294.66717524,1,2,9,0,0,2026-07-19T00:00:00.000Z!2028-10-13,897,332-->

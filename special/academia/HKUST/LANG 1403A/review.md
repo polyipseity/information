@@ -32,7 +32,7 @@ This course emphasises the development of academic literacy skills, in addition 
 the mandatory grade lottery machine
 
 - instructors
-  - FARMER, Rebecca: recommended
+    - FARMER, Rebecca: recommended
 - mirrors: [USTSPACE](https://ust.space/review/LANG1403A/view/SgeihWT2Mx624Y1ibSOkjvmmNS9hpZVk)
 - semester: 2023—24 fall
 

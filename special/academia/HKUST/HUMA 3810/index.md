@@ -42,63 +42,63 @@ The content is in teaching order.
 ## logistics
 
 - grading
-  - essay: 40%; around 3,000 words; outline due 2026-03-06, additional draft due 2026-04-10, final essay due 2026-05-08
-  - final examination: 40%; essay-question format
-  - attendance, participation, and discussion: 20%; 1% deducted per absence
+    - essay: 40%; around 3,000 words; outline due 2026-03-06, additional draft due 2026-04-10, final essay due 2026-05-08
+    - final examination: 40%; essay-question format
+    - attendance, participation, and discussion: 20%; 1% deducted per absence
 - AI policy
-  - generative AI may be used for source-finding, source-evaluation, and brainstorming
-  - generative AI must not compose the essay in whole or in part, whether by direct copying or paraphrase
-  - generative AI must not be cited as an author
+    - generative AI may be used for source-finding, source-evaluation, and brainstorming
+    - generative AI must not compose the essay in whole or in part, whether by direct copying or paraphrase
+    - generative AI must not be cited as an author
 - references
-  - primary textbooks
-    - 余培林，《新譯老子讀本》，台北：三民書局，1973。
-    - 張松輝，《新譯莊子讀本》，台北：三民書局，2005。
-  - secondary references
-    - D. C. Lau, _Lao Tzu Tao Te Ching_, New York: Penguin Groups, 1963.
-    - Burton Watson, _The Complete Works of Chuang Tzu_, New York: Columbia University Press, 1968.
+    - primary textbooks
+        - 余培林，《新譯老子讀本》，台北：三民書局，1973。
+        - 張松輝，《新譯莊子讀本》，台北：三民書局，2005。
+    - secondary references
+        - D. C. Lau, _Lao Tzu Tao Te Ching_, New York: Penguin Groups, 1963.
+        - Burton Watson, _The Complete Works of Chuang Tzu_, New York: Columbia University Press, 1968.
 - contact details: see the official syllabus or Canvas for current staff information and office hours.
 - sections:
-  - L1: TuTh 16:30–17:50; Rm 4620 (Lift 31-32), Academic Building
-  - L2: TuTh 13:30–14:50; Rm 2306 (Lift 17-18), Academic Building
+    - L1: TuTh 16:30–17:50; Rm 4620 (Lift 31-32), Academic Building
+    - L2: TuTh 13:30–14:50; Rm 2306 (Lift 17-18), Academic Building
 
 ## overview
 
 - official course outline
-  - Taoism in the context of Chinese philosophy
-  - historical background of Taoism
-  - Lao Tzu and the text of the Lao Tzu
-  - important chapters of the Lao Tzu
-  - Chuang Tzu and the text of the Chuang Tzu
-  - important chapters of the Chuang Tzu
-  - Neo-Taoism / 玄學, if time permits
+    - Taoism in the context of Chinese philosophy
+    - historical background of Taoism
+    - Lao Tzu and the text of the Lao Tzu
+    - important chapters of the Lao Tzu
+    - Chuang Tzu and the text of the Chuang Tzu
+    - important chapters of the Chuang Tzu
+    - Neo-Taoism / 玄學, if time permits
 - intended learning outcomes
-  - develop basic knowledge of the spirits and philosophies of Lao Tzu and Chuang Tzu
-  - practice core academic-paper writing for a humanities course
-  - evaluate and apply Taoist philosophy to reflect on life and behavior
+    - develop basic knowledge of the spirits and philosophies of Lao Tzu and Chuang Tzu
+    - practice core academic-paper writing for a humanities course
+    - evaluate and apply Taoist philosophy to reflect on life and behavior
 - topic-to-file mapping
-  - course orientation and philosophical context
-    - [道家概論](道家概論.md) — [§ 哲學的定義](道家概論.md#哲學的定義與本課的定位), [§ 中國哲學的特色](道家概論.md#中國哲學的特色重視生命), [§ 先秦哲學位置](道家概論.md#道家在先秦哲學中的位置), [§ 諸子百家背景](道家概論.md#諸子百家思想的產生背景), [§ 文化影響](道家概論.md#道家對中國文化的影響)
-  - early Taoist thinkers and texts
-    - [老子](老子.md) — [§ 老子其人](老子.md#老子其人), [§ 其書](老子.md#老子其書), [§ 第一章](老子.md#第一章道體論)–[第八章](老子.md#第八章上善若水)
-    - [莊子](莊子.md) — [§ 莊子其人](莊子.md#莊子其人), [§ 核心概念](莊子.md#核心概念逍遙齊物坐忘), [§ 重要篇章](莊子.md#重要篇章)
-    - [老莊索引與背誦卡](老莊索引與背誦卡.md) — 章節╱篇章索引、關鍵引句索引、語義關聯、起首字背誦卡（考前總整）
-  - later development
-    - [魏晉玄學](魏晉玄學.md) — [§ 歷史背景](魏晉玄學.md#玄學的歷史背景與形成), [§ 代表人物](魏晉玄學.md#主要代表人物與思想)
+    - course orientation and philosophical context
+        - [道家概論](道家概論.md) — [§ 哲學的定義](道家概論.md#哲學的定義與本課的定位), [§ 中國哲學的特色](道家概論.md#中國哲學的特色重視生命), [§ 先秦哲學位置](道家概論.md#道家在先秦哲學中的位置), [§ 諸子百家背景](道家概論.md#諸子百家思想的產生背景), [§ 文化影響](道家概論.md#道家對中國文化的影響)
+    - early Taoist thinkers and texts
+        - [老子](老子.md) — [§ 老子其人](老子.md#老子其人), [§ 其書](老子.md#老子其書), [§ 第一章](老子.md#第一章道體論)–[第八章](老子.md#第八章上善若水)
+        - [莊子](莊子.md) — [§ 莊子其人](莊子.md#莊子其人), [§ 核心概念](莊子.md#核心概念逍遙齊物坐忘), [§ 重要篇章](莊子.md#重要篇章)
+        - [老莊索引與背誦卡](老莊索引與背誦卡.md) — 章節╱篇章索引、關鍵引句索引、語義關聯、起首字背誦卡（考前總整）
+    - later development
+        - [魏晉玄學](魏晉玄學.md) — [§ 歷史背景](魏晉玄學.md#玄學的歷史背景與形成), [§ 代表人物](魏晉玄學.md#主要代表人物與思想)
 - notes
-  - Topic-specific notes are written in Traditional Chinese (Hong Kong register); course-root logistics stay in English for consistency.
-  - Topic files have been consolidated to four pages: 道家概論, 老子, 莊子, and 魏晉玄學. Deepen these pages as lecture notes and primary-text excerpts become available before adding new pages.
+    - Topic-specific notes are written in Traditional Chinese (Hong Kong register); course-root logistics stay in English for consistency.
+    - Topic files have been consolidated to four pages: 道家概論, 老子, 莊子, and 魏晉玄學. Deepen these pages as lecture notes and primary-text excerpts become available before adding new pages.
 
 ## assignments
 
 - [essay outline](assignments/essay%20outline.md)
-  - due: 2026-03-06
-  - purpose: submit an outline for instructor comment
+    - due: 2026-03-06
+    - purpose: submit an outline for instructor comment
 - [essay draft](assignments/essay%20draft.md)
-  - due: 2026-04-10
-  - purpose: submit an additional draft for specific revision
+    - due: 2026-04-10
+    - purpose: submit an additional draft for specific revision
 - [final essay](assignments/final%20essay.md)
-  - due: 2026-05-08
-  - purpose: submit the final 3,000-word essay
+    - due: 2026-05-08
+    - purpose: submit the final 3,000-word essay
 
 ## week 1 lecture
 

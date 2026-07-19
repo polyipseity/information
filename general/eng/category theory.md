@@ -40,9 +40,9 @@ tags:
 #### examples
 
 - The category __[Set](category%20of%20sets.md)__
-  - As the class of objects ${\text{ob} }({\text{Set} })$, ::@:: we choose the class of all sets. <!--SR:!2029-08-23,1318,350!2028-11-21,1101,350-->
-  - As the class of morphisms ${\text{hom} }({\text{Set} })$, ::@:: we choose the class of all [functions](function%20(mathematics).md). Therefore, for two objects _A_ and _B_, i.e. sets, we have ${\text{hom} }(A,B)$ to be the class of all functions ⁠$f$⁠ such that ⁠$f:A\mapsto B$⁠. <!--SR:!2029-03-26,1199,350!2028-11-21,1101,350-->
-  - The composition of morphisms ⁠$\circ$ ::@::⁠ is simply the usual [function composition](function%20composition.md), i.e. for two morphisms ⁠$f:A\mapsto B$⁠ and ⁠$g:B\mapsto C$⁠, we have ⁠$g\circ f:A\mapsto C$⁠, $(g\circ f)(x)=g(f(x))$, which is obviously associative. Furthermore, for every object _A_ we have the identity morphism ${\text{id} }_{A}$ to be the identity map ${\text{id} }_{A}:A\mapsto A$, ${\text{id} }_{A}(x)=x$ on _A_ <!--SR:!2029-01-16,1146,350!2029-03-21,1196,350-->
+    - As the class of objects ${\text{ob} }({\text{Set} })$, ::@:: we choose the class of all sets. <!--SR:!2029-08-23,1318,350!2028-11-21,1101,350-->
+    - As the class of morphisms ${\text{hom} }({\text{Set} })$, ::@:: we choose the class of all [functions](function%20(mathematics).md). Therefore, for two objects _A_ and _B_, i.e. sets, we have ${\text{hom} }(A,B)$ to be the class of all functions ⁠$f$⁠ such that ⁠$f:A\mapsto B$⁠. <!--SR:!2029-03-26,1199,350!2028-11-21,1101,350-->
+    - The composition of morphisms ⁠$\circ$ ::@::⁠ is simply the usual [function composition](function%20composition.md), i.e. for two morphisms ⁠$f:A\mapsto B$⁠ and ⁠$g:B\mapsto C$⁠, we have ⁠$g\circ f:A\mapsto C$⁠, $(g\circ f)(x)=g(f(x))$, which is obviously associative. Furthermore, for every object _A_ we have the identity morphism ${\text{id} }_{A}$ to be the identity map ${\text{id} }_{A}:A\mapsto A$, ${\text{id} }_{A}(x)=x$ on _A_ <!--SR:!2029-01-16,1146,350!2029-03-21,1196,350-->
 
 ### morphisms
 

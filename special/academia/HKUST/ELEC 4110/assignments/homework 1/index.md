@@ -40,7 +40,7 @@ Please name the file you upload with the format "student_name_HW1_2025.pdf". [EL
 ## submission
 
 - file: [`submission.pdf`](submission.pdf)
-  - filename: `2025_10_07 23_58 Microsoft Lens.pdf`
+    - filename: `2025_10_07 23_58 Microsoft Lens.pdf`
 
 ## solution
 

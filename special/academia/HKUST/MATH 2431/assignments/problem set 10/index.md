@@ -36,8 +36,8 @@ Problem Set 10, due on <span style="color: #0e68b3">__Monday 11/05/2026, until 1
 ## submission
 
 - submission: [`HKUST MATH 2431 - problem set 10.pdf`](submission/HKUST%20MATH%202431%20-%20problem%20set%2010.pdf)
-  - metadata: [`submission.yml`](submission.yml)
-  - source: [`HKUST MATH 2431 problem set 10.md`](submission/HKUST%20MATH%202431%20problem%20set%2010.md)
+    - metadata: [`submission.yml`](submission.yml)
+    - source: [`HKUST MATH 2431 problem set 10.md`](submission/HKUST%20MATH%202431%20problem%20set%2010.md)
 
 ## solution
 
