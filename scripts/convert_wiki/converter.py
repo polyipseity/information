@@ -5,7 +5,7 @@ HTML tree and emits Markdown text via tag-specific handler methods.
 """
 
 import re
-from collections.abc import Awaitable, Callable, Iterator, Mapping, MutableSet
+from collections.abc import Awaitable, Iterator, Mapping, MutableSet
 from contextlib import suppress
 from copy import copy
 from os import symlink as os_symlink
@@ -28,7 +28,6 @@ from .utils import (
     _get_image_filename,
     _markdown_fragment,
     _markdown_link_target,
-    _pad_table_blocks,
     _tag_affixes,
 )
 

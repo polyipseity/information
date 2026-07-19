@@ -5,7 +5,7 @@ Contains ``_RedirectInfo``, ``_HandlerConfig``, ``_RedirectItem``,
 """
 
 from dataclasses import dataclass
-from typing import Any, Callable, NotRequired, TypedDict
+from typing import Callable, NotRequired, TypedDict
 
 """Exported names from this module."""
 __all__ = ()

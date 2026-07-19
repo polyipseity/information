@@ -1216,7 +1216,7 @@ class TestSymlinkCreation:
 
 """Absolute path to the snapshot test fixtures directory."""
 _SNAPSHOT_DIR = (
-    PathlibPath(__file__).resolve(strict=True).with_name("test_convert_wiki")
+    PathlibPath(__file__).resolve(strict=True).with_name("convert_wiki")
     / "snapshots"
 )
 

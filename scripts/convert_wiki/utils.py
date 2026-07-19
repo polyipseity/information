@@ -4,7 +4,6 @@ Pure helper functions with no class dependencies.
 """
 
 import re
-from os import PathLike
 from re import Pattern, compile
 from urllib.parse import unquote
 
