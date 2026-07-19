@@ -4,10 +4,10 @@ Provides functions for batch-resolving Wikipedia redirects and fetching
 image description metadata from Wikimedia Commons.
 """
 
+import json
 from collections.abc import MutableMapping
 from contextlib import suppress
 from datetime import datetime, timezone
-from json import JSONDecodeError
 from os import PathLike
 
 import anyio
@@ -70,7 +70,7 @@ def _load_redirect_cache(
     """
     try:
         with open(cache_path, "r", encoding="UTF-8") as f:
-            data = _cfg._json_load(f)
+            data = json.load(f)
         if not isinstance(data, dict):
             return {}
         now = datetime.now(timezone.utc)
@@ -96,7 +96,7 @@ def _load_redirect_cache(
                 to=to, tofragment=tofragment, cached_at=cached_at_str
             )
         return unpacked
-    except (FileNotFoundError, JSONDecodeError, OSError):
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
         return {}
 
 
@@ -125,7 +125,7 @@ async def _save_redirect_cache(
     tmp = resolved_path.with_suffix(".tmp")
     try:
         with open(tmp, "w", encoding="UTF-8") as f:
-            _cfg._json_dump(data, f, ensure_ascii=False, indent=2)
+            json.dump(data, f, ensure_ascii=False, indent=2)
         await tmp.replace(resolved_path)
     except BaseException:
         with suppress(FileNotFoundError):
