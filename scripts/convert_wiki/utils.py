@@ -5,9 +5,12 @@ Pure helper functions with no class dependencies.
 
 import re
 from collections.abc import Mapping
+from contextlib import suppress
+from os import PathLike
 from re import Pattern, compile
 from urllib.parse import unquote
 
+from anyio import Path
 from bs4 import BeautifulSoup, Tag
 from bs4.element import NavigableString
 from yarl import URL
@@ -53,6 +56,29 @@ def _fix_name_maybe(
     if len(name) > 1 and name[1:].islower():
         return name[0].lower() + name[1:]
     return name
+
+
+async def _create_redirect_symlinks(
+    wiki_dir: PathLike[str],
+    wiki_lang_dir: PathLike[str],
+    from_filename: str,
+    to_filename: str,
+) -> None:
+    """Create redirect symlinks for a renamed page."""
+    wiki_dir_path = Path(wiki_dir)
+    wiki_lang_dir_path = Path(wiki_lang_dir)
+    redirect_file = wiki_lang_dir_path / f"{from_filename}.md"
+    if not await redirect_file.exists():
+        with suppress(FileExistsError):
+            await redirect_file.symlink_to(
+                f"{to_filename}.md",
+                target_is_directory=False,
+            )
+        with suppress(FileExistsError):
+            await (wiki_dir_path / f"{from_filename}.md").symlink_to(
+                str(redirect_file.relative_to(wiki_dir_path)),
+                target_is_directory=False,
+            )
 
 
 def _fix_filename(name: str) -> str:

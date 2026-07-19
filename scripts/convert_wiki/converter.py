@@ -5,8 +5,7 @@ HTML tree and emits Markdown text via tag-specific handler methods.
 """
 
 import re
-from collections.abc import Awaitable, Iterator, Mapping, MutableSet
-from contextlib import suppress
+from collections.abc import Mapping, MutableSet
 from copy import copy
 from os import PathLike
 from urllib.parse import quote, unquote
@@ -23,6 +22,7 @@ from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
     _bs4_new_element,
+    _create_redirect_symlinks,
     _fix_filename,
     _fix_name_maybe,
     _get_image_filename,
@@ -248,36 +248,14 @@ class WikiHtmlConverter:
             config.suffix = "\n\n"
             process_strings = process_strings_blockquote
 
-        def process_children() -> Iterator[Awaitable[str]]:
-            """Process child elements concurrently using task groups."""
-            nonlocal list_stack
-            for child in ele.children:
-                if (
-                    list_stack
-                    and list_stack[-1] >= 0
-                    and isinstance(child, Tag)
-                    and child.name == "li"
-                ):
-                    list_stack = (*list_stack[:-1], list_stack[-1] + 1)
-                yield self.convert(
-                    child,
-                    out_to_archive=out_to_archive,
-                    list_stack=list_stack,
-                    escape=escape and ele.name not in {"code", "math"},
-                    refs=refs,
-                    redirect_map=redirect_map,
-                )
-
-        soon_values: list[SoonValue[str]] = []
-        async with create_task_group() as tg:
-            for coro in process_children():
-
-                async def _run(c=coro) -> str:
-                    """Await and return a single coroutine result."""
-                    return await c
-
-                soon_values.append(tg.soonify(_run)())
-
+        soon_values, list_stack = await self._convert_children(
+            ele,
+            list_stack=list_stack,
+            out_to_archive=out_to_archive,
+            escape=escape,
+            refs=refs,
+            redirect_map=redirect_map,
+        )
         strings = joiner.join(sv.value for sv in soon_values)
         if config.full_result:
             return process_strings(strings) or ""
@@ -335,6 +313,39 @@ class WikiHtmlConverter:
             return handler(ele, classes)
 
         return None
+
+    async def _convert_children(
+        self,
+        ele: Tag,
+        *,
+        list_stack: tuple[int, ...],
+        out_to_archive: MutableSet[str],
+        escape: bool,
+        refs: bool,
+        redirect_map: Mapping[str, _RedirectInfo],
+    ) -> tuple[list[SoonValue[str]], tuple[int, ...]]:
+        """Process child elements concurrently using task groups."""
+        soon_values: list[SoonValue[str]] = []
+        async with create_task_group() as tg:
+            for child in ele.children:
+                if (
+                    list_stack
+                    and list_stack[-1] >= 0
+                    and isinstance(child, Tag)
+                    and child.name == "li"
+                ):
+                    list_stack = (*list_stack[:-1], list_stack[-1] + 1)
+                soon_values.append(
+                    tg.soonify(self.convert)(
+                        child,
+                        out_to_archive=out_to_archive,
+                        list_stack=list_stack,
+                        escape=escape and ele.name not in {"code", "math"},
+                        refs=refs,
+                        redirect_map=redirect_map,
+                    )
+                )
+        return soon_values, list_stack
 
     # --- Tag handlers ---
 
@@ -1032,29 +1043,6 @@ class WikiHtmlConverter:
             return desc
         return file_title
 
-    @staticmethod
-    async def _create_redirect_symlinks(
-        wiki_dir: PathLike[str],
-        wiki_lang_dir: PathLike[str],
-        from_filename: str,
-        to_filename: str,
-    ) -> None:
-        """Create redirect symlinks for a renamed page."""
-        wiki_dir_path = Path(wiki_dir)
-        wiki_lang_dir_path = Path(wiki_lang_dir)
-        redirect_file = wiki_lang_dir_path / f"{from_filename}.md"
-        if not await redirect_file.exists():
-            with suppress(FileExistsError):
-                await redirect_file.symlink_to(
-                    f"{to_filename}.md",
-                    target_is_directory=False,
-                )
-            with suppress(FileExistsError):
-                await (wiki_dir_path / f"{from_filename}.md").symlink_to(
-                    str(redirect_file.relative_to(wiki_dir_path)),
-                    target_is_directory=False,
-                )
-
     async def _handle_link(
         self, ele: Tag, classes: frozenset[str]
     ) -> _HandlerConfig | None:
@@ -1137,7 +1125,7 @@ class WikiHtmlConverter:
                     _fix_filename(to_filename),
                 )
                 if from_filename != to_filename:
-                    await self._create_redirect_symlinks(
+                    await _create_redirect_symlinks(
                         self._converted_wiki_dir,
                         self._converted_wiki_lang_dir,
                         from_filename,

@@ -32,6 +32,54 @@ __all__ = ()
 _MD028_RE = re.compile(r"(^(?:>[^\n]*\n)+)\n+(^>(?:[^\n]*\n?)+)", re.MULTILINE)
 
 
+def _make_converter(
+    wiki_dir: PathLike[str] | None = None,
+    wiki_lang_dir: PathLike[str] | None = None,
+    image_metadata: Mapping[str, str] | None = None,
+    names_map: Mapping[str, str] | None = None,
+) -> WikiHtmlConverter:
+    """Create a WikiHtmlConverter with default path fallbacks."""
+    return WikiHtmlConverter(
+        converted_wiki_dir=wiki_dir or _cfg._CONVERTED_WIKI_DIRECTORY,
+        converted_wiki_lang_dir=wiki_lang_dir
+        or _cfg._CONVERTED_WIKI_LANGUAGE_DIRECTORY,
+        image_metadata=image_metadata or {},
+        names_map=names_map,
+    )
+
+
+async def _create_session_and_run(
+    html: Tag,
+    *,
+    redirect_map: MutableMapping[str, _RedirectInfo] | None = None,
+    image_metadata: Mapping[str, str] | None = None,
+    cache_path: PurePath | None = None,
+    names_map: Mapping[str, str] | None = None,
+    wiki_dir: PathLike[str] | None = None,
+    wiki_lang_dir: PathLike[str] | None = None,
+    refs: bool = True,
+) -> tuple[str, set[str]]:
+    """Create a ClientSession and run the full pipeline."""
+    async with ClientSession(
+        connector=TCPConnector(limit_per_host=_cfg._MAX_CONCURRENT_REQUESTS_PER_HOST),
+        headers={
+            "Accept-Encoding": "gzip",
+            "User-Agent": _cfg.USER_AGENT,
+        },
+    ) as session:
+        return await run_pipeline(
+            html,
+            session=session,
+            redirect_map=redirect_map,
+            image_metadata=image_metadata,
+            cache_path=cache_path,
+            names_map=names_map,
+            wiki_dir=wiki_dir,
+            wiki_lang_dir=wiki_lang_dir,
+            refs=refs,
+        )
+
+
 async def wiki_html_to_plaintext(
     ele: PageElement,
     *,
@@ -139,44 +187,29 @@ async def run_pipeline(
 
     # If all data is already provided, skip session/API entirely.
     if redirect_map is not None and image_metadata is not None:
-        converter = WikiHtmlConverter(
-            converted_wiki_dir=wiki_dir or _cfg._CONVERTED_WIKI_DIRECTORY,
-            converted_wiki_lang_dir=wiki_lang_dir
-            or _cfg._CONVERTED_WIKI_LANGUAGE_DIRECTORY,
-            image_metadata=image_metadata or {},
-            names_map=names_map,
-        )
         output = await wiki_html_to_plaintext(
             html,
             out_to_archive=out_to_archive,
             redirect_map=redirect_map,
             refs=refs,
-            converter=converter,
+            converter=_make_converter(
+                wiki_dir, wiki_lang_dir, image_metadata, names_map
+            ),
         )
         return output, out_to_archive
 
-    # Need a session for API calls — create one if not provided.
+    # Create a session if needed for API calls.
     if session is None:
-        async with ClientSession(
-            connector=TCPConnector(
-                limit_per_host=_cfg._MAX_CONCURRENT_REQUESTS_PER_HOST
-            ),
-            headers={
-                "Accept-Encoding": "gzip",
-                "User-Agent": _cfg.USER_AGENT,
-            },
-        ) as created_session:
-            return await run_pipeline(
-                html,
-                session=created_session,
-                redirect_map=redirect_map,
-                image_metadata=image_metadata,
-                cache_path=cache_path,
-                names_map=names_map,
-                wiki_dir=wiki_dir,
-                wiki_lang_dir=wiki_lang_dir,
-                refs=refs,
-            )
+        return await _create_session_and_run(
+            html,
+            redirect_map=redirect_map,
+            image_metadata=image_metadata,
+            cache_path=cache_path,
+            names_map=names_map,
+            wiki_dir=wiki_dir,
+            wiki_lang_dir=wiki_lang_dir,
+            refs=refs,
+        )
 
     # Resolve redirects if needed.
     if redirect_map is None:
@@ -195,18 +228,11 @@ async def run_pipeline(
         image_metadata = await _resolve_image_metadata(session, image_filenames)
 
     # Convert.
-    converter = WikiHtmlConverter(
-        converted_wiki_dir=wiki_dir or _cfg._CONVERTED_WIKI_DIRECTORY,
-        converted_wiki_lang_dir=wiki_lang_dir
-        or _cfg._CONVERTED_WIKI_LANGUAGE_DIRECTORY,
-        image_metadata=image_metadata or {},
-        names_map=names_map,
-    )
     output = await wiki_html_to_plaintext(
         html,
         out_to_archive=out_to_archive,
         redirect_map=redirect_map,
         refs=refs,
-        converter=converter,
+        converter=_make_converter(wiki_dir, wiki_lang_dir, image_metadata, names_map),
     )
     return output, out_to_archive

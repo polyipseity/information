@@ -58,6 +58,7 @@ from .types import _RedirectInfo  # noqa: F401
 from .utils import (  # noqa: F401
     _balance_brackets,
     _bs4_new_element,
+    _create_redirect_symlinks,
     _fix_filename,
     _fix_name_maybe,
     _get_image_filename,
