@@ -8,6 +8,8 @@ logic.
 from collections.abc import Callable, Set
 from contextlib import contextmanager
 from datetime import timedelta
+from json import dump as _json_dump  # noqa: F401
+from json import load as _json_load  # noqa: F401
 from logging import getLogger
 from os import PathLike, chdir, getcwd, scandir
 from pathlib import Path as PathlibPath
