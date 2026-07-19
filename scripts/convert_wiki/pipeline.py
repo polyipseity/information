@@ -28,7 +28,7 @@ from .utils import _pad_table_blocks
 """Exported names from this module."""
 __all__ = ()
 
-#: Regex for MD028 suppression between adjacent blockquote blocks.
+"""Regex for MD028 suppression between adjacent blockquote blocks."""
 _MD028_RE = re.compile(r"(^(?:>[^\n]*\n)+)\n+(^>(?:[^\n]*\n?)+)", re.MULTILINE)
 
 

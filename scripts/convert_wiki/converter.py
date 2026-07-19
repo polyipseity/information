@@ -34,40 +34,41 @@ from .utils import (
 """Exported names from this module."""
 __all__ = ()
 
-#: Regex for matching header tags (``h1``, ``h2``, etc.).
+"""Regex for matching header tags (``h1``, ``h2``, etc.)."""
 _HEADER_REGEX = re.compile(r"^h(\d)$")
-#: Tags that render as bold or italic.
+"""Tags that render as bold or italic."""
 _BOLD_OR_ITALIC = frozenset({"b", "em", "i", "strong"})
-#: Table cell tag names.
+"""Table cell tag names."""
 _TD_OR_TH = frozenset({"td", "th"})
-#: Text-align style extractor.
+"""Text-align style extractor."""
 _TEXT_ALIGN_REGEX = re.compile(
     r"\btext-align\s*:\s*(left|center|right)\b", re.IGNORECASE
 )
-#: Bold font-weight style detector.
+"""Bold font-weight style detector."""
 _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE)
-#: Italic font-style detector.
+"""Italic font-style detector."""
 _ITALIC_FONT_STYLE_REGEX = re.compile(r"\bfont-style\s*:\s*italic\b", re.IGNORECASE)
-#: Collapse runs of empty blockquote lines.
+"""Collapse runs of empty blockquote lines."""
 _COLLAPSE_EMPTY_BLOCKQUOTE_RE = re.compile(r">\n(?:>\n)+")
-#: Collapse consecutive spaces.
+"""Collapse consecutive spaces."""
 _COLLAPSE_SPACES_REGEX = re.compile(r" {2,}")
-#: Captures the separator-prefixed display text in bold/italic processing.
+"""Captures the separator-prefixed display text in bold/italic processing."""
 _PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
-#: Extract reference content from ``str.strip()``-style dumps.
+"""Extract reference content from ``str.strip()``-style dumps."""
 _REF_CONTENT_REGEX = re.compile(r"\[(.+?)]")
-#: Consecutive newline runs.
+"""Consecutive newline runs."""
 _CONSECUTIVE_NEWLINES_REGEX = re.compile(r"\n\n+")
-#: Leading whitespace lines at the start of a cell.
+"""Leading whitespace lines at the start of a cell."""
 _CONSECUTIVE_LEADING_WHITESPACES_REGEX = re.compile(r"(?:^|\n)([ \t]+)", re.MULTILINE)
-#: ``| __bold__ |`` bold table headers separated by spaces.
+"""``| __bold__ |`` bold table headers separated by spaces."""
 _TABLE_IN_TABLE_HEADER_REGEX = re.compile(r"\| (__.*?__) \|")
-#: ``|`` that shouldn't be consumed as part of a pipe table cell.
+"""``|`` that shouldn't be consumed as part of a pipe table cell."""
 _TABLE_IN_TABLE_LEADING_VERTICAL_REGEX = re.compile(r"\s*\|")
+"""``|`` that shouldn't be consumed as part of a pipe table cell."""
 _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX = re.compile(r"\|\s*")
-#: Whitespace and separator chars for sidebar tight wrapping.
+"""Whitespace and separator chars for sidebar tight wrapping."""
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
-#: Markdown separator character set used for emphasis adjacency.
+"""Markdown separator character set used for emphasis adjacency."""
 _MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
 
 
