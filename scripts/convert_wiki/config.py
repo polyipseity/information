@@ -5,11 +5,9 @@ and the filename-rename map builder.  Pure configuration with no conversion
 logic.
 """
 
-import json5
 from collections.abc import Callable, Set
 from contextlib import contextmanager
 from datetime import timedelta
-from json import dump as _json_dump, load as _json_load
 from logging import getLogger
 from os import PathLike, chdir, getcwd, scandir
 from pathlib import Path as PathlibPath
@@ -17,6 +15,8 @@ from pathlib import PurePath
 from re import DOTALL, MULTILINE, Pattern, compile
 from string import punctuation, whitespace
 from sys import version
+
+import json5
 from yarl import URL
 
 """Exported names from this module."""
@@ -24,7 +24,7 @@ __all__ = ()
 
 
 @contextmanager
-def _with_cwd(cwd: PathLike[str]):
+def _with_cwd(cwd: PathLike[str], chdir=chdir, getcwd=getcwd):
     """Temporarily change the current working directory."""
     old_cwd = getcwd()
     chdir(cwd)

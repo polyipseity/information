@@ -62,21 +62,16 @@ def _collect_image_filenames(html: Tag) -> set[str]:
 
 
 def _load_redirect_cache(
-    cache_path: PurePath | None = None,
+    cache_path: PurePath,
 ) -> dict[str, _RedirectInfo]:
     """Load the redirect cache, respecting TTL.
 
     Parameters
     ----------
     cache_path:
-        Path to the cache JSON file (default: ``_REDIRECT_CACHE_PATH``).
+        Path to the cache JSON file.
     """
-    if cache_path is not None:
-        path = cache_path
-    else:
-        from scripts import convert_wiki as _top_mod
-
-        path = _top_mod._REDIRECT_CACHE_PATH
+    path = cache_path
     try:
         with open(path, "r", encoding="UTF-8") as f:
             data = _cfg._json_load(f)
@@ -111,7 +106,7 @@ def _load_redirect_cache(
 
 def _save_redirect_cache(
     cache: MutableMapping[str, _RedirectInfo],
-    cache_path: PurePath | None = None,
+    cache_path: PurePath,
 ) -> None:
     """Atomically save the redirect cache.
 
@@ -120,7 +115,7 @@ def _save_redirect_cache(
     cache:
         Redirect info by page title.
     cache_path:
-        Path to the cache JSON file (default: ``_REDIRECT_CACHE_PATH``).
+        Path to the cache JSON file.
     """
     data = {
         k: {
@@ -130,13 +125,7 @@ def _save_redirect_cache(
         }
         for k, v in cache.items()
     }
-    resolved_path: PurePath
-    if cache_path is not None:
-        resolved_path = Path(cache_path)
-    else:
-        from scripts import convert_wiki as _top_mod
-
-        resolved_path = _top_mod._REDIRECT_CACHE_PATH
+    resolved_path = Path(cache_path)
     tmp = resolved_path.with_suffix(".tmp")
     try:
         with open(tmp, "w", encoding="UTF-8") as f:
@@ -183,7 +172,7 @@ async def _resolve_redirects(
     session: ClientSession,
     titles: set[str],
     cache: MutableMapping[str, _RedirectInfo],
-    cache_path: PurePath | None = None,
+    cache_path: PurePath,
 ) -> MutableMapping[str, _RedirectInfo]:
     """Resolve redirects for uncached titles via batched API queries.
 
@@ -192,7 +181,7 @@ async def _resolve_redirects(
     Parameters
     ----------
     cache_path:
-        Path to persist the updated cache (default: ``_REDIRECT_CACHE_PATH``).
+        Path to persist the updated cache.
     """
     uncached = titles - cache.keys()
     if not uncached:
@@ -224,14 +213,7 @@ async def _resolve_redirects(
                 cache.setdefault(
                     title, _RedirectInfo(to=title, cached_at=now_iso)
                 )
-
-    if cache_path is not None:
-        resolved_cache_path = cache_path
-    else:
-        from scripts import convert_wiki as _top_mod
-
-        resolved_cache_path = _top_mod._REDIRECT_CACHE_PATH
-    _save_redirect_cache(cache, cache_path=resolved_cache_path)
+    _save_redirect_cache(cache, cache_path=cache_path)
     return cache
 
 

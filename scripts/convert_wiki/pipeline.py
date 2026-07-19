@@ -7,8 +7,8 @@ resolution, image metadata fetching, and conversion).
 
 import re
 from collections.abc import Mapping, MutableMapping, MutableSet
-from os import PathLike
-from pathlib import Path as PathlibPath, PurePath
+from pathlib import Path as PathlibPath
+from pathlib import PurePath
 
 from aiohttp import ClientSession, TCPConnector
 from bs4 import PageElement, Tag
@@ -184,10 +184,13 @@ async def run_pipeline(
 
     # Resolve redirects if needed.
     if redirect_map is None:
+        resolved_cache_path: PurePath = (
+            cache_path if cache_path is not None else _cfg._REDIRECT_CACHE_PATH
+        )
         titles = await _collect_link_titles(html)
-        cache = _load_redirect_cache(cache_path=cache_path)
+        cache = _load_redirect_cache(cache_path=resolved_cache_path)
         redirect_map = await _resolve_redirects(
-            session, titles, cache, cache_path=cache_path
+            session, titles, cache, cache_path=resolved_cache_path
         )
 
     # Resolve image metadata if needed.

@@ -252,11 +252,11 @@ class TestWithCwd:
     """Tests for the _with_cwd context manager."""
 
     def test_changes_and_restores_cwd(
-        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Should temporarily change the working directory and restore it."""
-        # We need to monkeypatch getcwd/chdir since we can't actually chdir without
-        # affecting other tests
+        # We pass mock chdir/getcwd since we can't actually chdir without
+        # affecting other tests.
 
         last_path: str | None = None
 
@@ -265,11 +265,12 @@ class TestWithCwd:
             nonlocal last_path
             last_path = path
 
-        monkeypatch.setattr("scripts.convert_wiki.config.chdir", tracking_chdir)
-        # Note: we test through the context manager but can't fully test
-        # without actually changing the cwd
+        with _mod._with_cwd(  # noqa: SLF001
+            Path("/tmp"), chdir=tracking_chdir
+        ):
+            pass
 
-    def test_restores_cwd_on_exception(self, monkeypatch: pytest.MonkeyPatch) -> None:
+    def test_restores_cwd_on_exception(self) -> None:
         """Should restore the original cwd even when the body raises."""
         original_cwd = os.getcwd()
         # _with_cwd catches the exception and restores cwd
@@ -285,11 +286,10 @@ class TestWithCwd:
             """Track chdir by appending to cwds list."""
             cwds.append(path)
 
-        monkeypatch.setattr("scripts.convert_wiki.config.getcwd", tracking_getcwd)
-        monkeypatch.setattr("scripts.convert_wiki.config.chdir", tracking_chdir)
-
         try:
-            with _mod._with_cwd(Path("/tmp")):  # noqa: SLF001
+            with _mod._with_cwd(  # noqa: SLF001
+                Path("/tmp"), chdir=tracking_chdir, getcwd=tracking_getcwd
+            ):
                 raise ValueError("test exception")
         except ValueError:
             pass
@@ -457,18 +457,17 @@ class TestRedirectCache:
     """Tests for _load_redirect_cache and _save_redirect_cache."""
 
     def test_save_and_load(
-        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Should round-trip cache data through JSON."""
-        tmp = Path(tmp_path)
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
+        path = Path(tmp_path) / "redirect_cache.json"
         cache = {
             "A": _mod._RedirectInfo(to="B", tofragment=""),  # noqa: SLF001
             "C": _mod._RedirectInfo(to="D", tofragment="s"),  # noqa: SLF001
             "E": _mod._RedirectInfo(to="E"),  # noqa: SLF001  # non-redirect
         }
-        _mod._save_redirect_cache(cache)  # noqa: SLF001
-        loaded = _mod._load_redirect_cache()  # noqa: SLF001
+        _mod._save_redirect_cache(cache, cache_path=path)  # noqa: SLF001
+        loaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
         assert len(loaded) == 3
         assert loaded["A"].to == "B"
         assert loaded["A"].tofragment == ""
@@ -478,24 +477,21 @@ class TestRedirectCache:
         assert isinstance(loaded["A"].cached_at, str) and loaded["A"].cached_at
 
     def test_load_missing_file(
-        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Should return empty dict when cache file does not exist."""
-        tmp = Path(tmp_path)
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "nonexistent.json")
-        loaded = _mod._load_redirect_cache()  # noqa: SLF001
+        path = Path(tmp_path) / "nonexistent.json"
+        loaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
         assert loaded == {}
 
     @pytest.mark.anyio
     async def test_load_corrupted_file(
-        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Should return empty dict when cache file is corrupted."""
-        tmp = Path(tmp_path)
-        path = tmp / "corrupt.json"
+        path = Path(tmp_path) / "corrupt.json"
         await path.write_text("{bad json}", encoding="UTF-8")
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", path)
-        loaded = _mod._load_redirect_cache()  # noqa: SLF001
+        loaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
         assert loaded == {}
 
     @pytest.mark.anyio
@@ -504,51 +500,45 @@ class TestRedirectCache:
     ) -> None:
         """Should skip entries with expired cached_at."""
 
-        tmp = Path(tmp_path)
-        path = tmp / "old_entries.json"
+        path = Path(tmp_path) / "old_entries.json"
         old_ts = (datetime.now(timezone.utc) - timedelta(days=2)).isoformat()
         await path.write_text(
             json.dumps({"X": {"to": "Y", "tofragment": "", "cached_at": old_ts}}),
             encoding="UTF-8",
         )
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", path)
         monkeypatch.setattr(_mod, "_CACHE_TTL", timedelta(days=1))
-        loaded = _mod._load_redirect_cache()  # noqa: SLF001
+        loaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
         assert loaded == {}
 
     @pytest.mark.anyio
     async def test_old_format_missing_cached_at_stamped(
-        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Should stamp non-empty cached_at for entries without the field."""
 
-        tmp = Path(tmp_path)
-        path = tmp / "old_format.json"
+        path = Path(tmp_path) / "old_format.json"
         await path.write_text(
             json.dumps({"X": {"to": "Y", "tofragment": ""}}),
             encoding="UTF-8",
         )
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", path)
-        loaded = _mod._load_redirect_cache()  # noqa: SLF001
+        loaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
         assert len(loaded) == 1
         assert loaded["X"].cached_at  # non-empty string
 
     @pytest.mark.anyio
     async def test_malformed_cached_at_skipped(
-        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Should skip entries with malformed cached_at."""
 
-        tmp = Path(tmp_path)
-        path = tmp / "malformed.json"
+        path = Path(tmp_path) / "malformed.json"
         await path.write_text(
             json.dumps(
                 {"X": {"to": "Y", "tofragment": "", "cached_at": "not-a-timestamp"}}
             ),
             encoding="UTF-8",
         )
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", path)
-        loaded = _mod._load_redirect_cache()  # noqa: SLF001
+        loaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
         assert loaded == {}
 
     def test_default_ttl_is_one_day(self) -> None:
@@ -687,6 +677,7 @@ class TestResolveRedirects:
                 cast(ClientSession, MockSession()),
                 titles,
                 cache,
+                cache_path=PathlibPath("/tmp/unused.json"),
             )
             assert result["Page A"].to == "Page A"
             assert result["Page B"].to == "Page B"
@@ -695,12 +686,11 @@ class TestResolveRedirects:
         anyio.run(run, backend="asyncio")
 
     def test_resolves_redirect(
-        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Should resolve redirect via API and cache the result."""
 
-        tmp = Path(tmp_path)
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
+        cache_path = Path(tmp_path) / "redirect_cache.json"
 
         async def run() -> None:
             """Run the async test body."""
@@ -751,18 +741,18 @@ class TestResolveRedirects:
                 cast(ClientSession, MockSession()),
                 titles,
                 cache,
+                cache_path=cache_path,
             )
             assert result["Redirect to Page"].to == "Actual Page"
 
         anyio.run(run, backend="asyncio")
 
     def test_redirect_with_fragment(
-        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Should preserve tofragment from API response."""
 
-        tmp = Path(tmp_path)
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
+        cache_path = Path(tmp_path) / "redirect_cache.json"
 
         async def run() -> None:
             """Run the async test body."""
@@ -813,18 +803,18 @@ class TestResolveRedirects:
                 cast(ClientSession, MockSession()),
                 titles,
                 cache,
+                cache_path=cache_path,
             )
             assert result["Dest with Anchor"].tofragment == "section"
 
         anyio.run(run, backend="asyncio")
 
     def test_non_redirect_resolved_to_self(
-        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Should map non-redirect pages to themselves in cache."""
 
-        tmp = Path(tmp_path)
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
+        cache_path = Path(tmp_path) / "redirect_cache.json"
 
         async def run() -> None:
             """Run the async test body."""
@@ -869,6 +859,7 @@ class TestResolveRedirects:
                 cast(ClientSession, MockSession()),
                 titles,
                 cache,
+                cache_path=cache_path,
             )
             assert result["Normal Page"].to == "Normal Page"
 
@@ -880,8 +871,7 @@ class TestResolveRedirects:
         """Should re-fetch via API and rewrite cache when cache entries have
         expired."""
 
-        tmp = Path(tmp_path)
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
+        path = Path(tmp_path) / "redirect_cache.json"
         monkeypatch.setattr(_mod, "_CACHE_TTL", timedelta(days=1))
 
         async def run() -> None:
@@ -892,10 +882,10 @@ class TestResolveRedirects:
                 "Page X": _mod._RedirectInfo(to="Page X", cached_at=old_ts),  # noqa: SLF001
                 "Page Y": _mod._RedirectInfo(to="Page Y", cached_at=old_ts),  # noqa: SLF001
             }
-            _mod._save_redirect_cache(stale_cache)  # noqa: SLF001
+            _mod._save_redirect_cache(stale_cache, cache_path=path)  # noqa: SLF001
 
             # Load cache — expired entries should be skipped.
-            loaded = _mod._load_redirect_cache()  # noqa: SLF001
+            loaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
             assert loaded == {}
 
             titles = {"Page X", "Page Z"}
@@ -956,12 +946,13 @@ class TestResolveRedirects:
                 cast(ClientSession, MockSession()),
                 titles,
                 loaded,
+                cache_path=path,
             )
             assert api_call_count >= 1
             assert result["Page X"].to == "Page X"
             assert result["Page Z"].to == "Page Z"
             # Cache file should have been rewritten (fresh cached_at).
-            reloaded = _mod._load_redirect_cache()  # noqa: SLF001
+            reloaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
             assert "Page X" in reloaded
             assert "Page Z" in reloaded
 
@@ -979,13 +970,12 @@ class TestResolveRedirectsWithRealResponses:
 
     @pytest.mark.anyio
     async def test_parses_modern_physics_api_response(
-        self, tmp_path: PathLike[str], monkeypatch: pytest.MonkeyPatch
+        self, tmp_path: PathLike[str]
     ) -> None:
         """Feed the real modern physics API response through
         _resolve_redirects and verify the output matches the cache file."""
 
-        tmp = Path(tmp_path)
-        monkeypatch.setattr(_mod, "_REDIRECT_CACHE_PATH", tmp / "redirect_cache.json")
+        cache_path = Path(tmp_path) / "redirect_cache.json"
 
         # Load the raw API responses from the consolidated aux fixture.
         aux_path = _SNAPSHOT_DIR / "modern physics.aux.json"
@@ -1049,6 +1039,7 @@ class TestResolveRedirectsWithRealResponses:
             cast(ClientSession, MockSession()),
             titles,
             {},
+            cache_path=cache_path,
         )
 
         # Load the expected cache from the consolidated aux fixture.
