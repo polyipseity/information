@@ -1,6 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json",
   "extends": null,
+  "MD007": {
+    "indent": 4
+  },
   "MD013": false,
   "MD033": false,
   "MD049": {

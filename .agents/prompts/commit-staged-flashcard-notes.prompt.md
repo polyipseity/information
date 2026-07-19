@@ -34,6 +34,13 @@ __Never ask for confirmation or clarification. Always proceed automatically usin
    - Present the exact commands to be run. If not executed, produce a best-effort commit message from available context and stop.
 
 2. __Gather flashcard data__
+
+   Flashcard trailers should only be gathered and included when __all__ of the following conditions are true:
+   - The staged changes touch `.md` files under `general/`, `special/`, or `self/`.
+   - At least one staged `.md` file has flashcard-related tags in its YAML frontmatter (e.g. `flashcard/active`, `flashcard/archive`).
+   - The change adds or removes flashcards (not a simple fix, metadata-only edit, or reformatting).
+     If any condition is false, skip this step — omit all flashcard trailers from the commit message.
+
    - The user MUST provide at least __two__ of the following inputs: `${input:Flashcards-prev}`,
      `${input:Flashcards-now}`, `${input:Flashcards-delta}`. Use the user-provided values as the
      primary source of truth.
@@ -63,7 +70,7 @@ __Never ask for confirmation or clarification. Always proceed automatically usin
    - If computed or provided counts are inconsistent (for example, negative values), request
      clarification from the user and do not include flashcard trailers until the user provides
      consistent values.
-   - If no flashcard-related counts apply, omit these trailers.
+   - When the three conditions in the preamble of this step are not met, omit these trailers.
 
 3. __Compose commit message__
    - The commit header MUST begin with `feat(notes):` and SHOULD include
@@ -86,36 +93,36 @@ __Never ask for confirmation or clarification. Always proceed automatically usin
    - Do not show the proposed commit message to the user for confirmation before creating the commit. Proceed automatically to creating the commit using best-effort defaults and available context.
 
 4. __Create the commit__
-    - If `${input:commitNow}` is `no`, skip this step and only present the message.
-    - Otherwise, present the exact command to create the commit from stdin and print the new SHA. __Both operations must be run in the same shell command block to ensure correct context.__ Use the correct heredoc/here-string syntax for the detected shell:
-       - __PowerShell (Windows):__
+   - If `${input:commitNow}` is `no`, skip this step and only present the message.
+   - Otherwise, present the exact command to create the commit from stdin and print the new SHA. __Both operations must be run in the same shell command block to ensure correct context.__ Use the correct heredoc/here-string syntax for the detected shell:
+     - __PowerShell (Windows):__
 
-         ```powershell
-         (@'
-         <full commit message>
-         '@ | git commit --file=-) ; git rev-parse HEAD
-         ```
+       ```powershell
+       (@'
+       <full commit message>
+       '@ | git commit --file=-) ; git rev-parse HEAD
+       ```
 
-         __Note on special characters and quoting:__
-         Prefer PowerShell single-quoted here-strings (`@'... '@`) to avoid variable
-         expansion and backtick escapes. If using double-quoted here-strings
-         (`@"..."@`), escape backticks and `$` as needed or switch forms.
+       __Note on special characters and quoting:__
+       Prefer PowerShell single-quoted here-strings (`@'... '@`) to avoid variable
+       expansion and backtick escapes. If using double-quoted here-strings
+       (`@"..."@`), escape backticks and `$` as needed or switch forms.
 
-       - __Bash/zsh (Linux/macOS):__
+     - __Bash/zsh (Linux/macOS):__
 
-         ```bash
-         (git commit --file - <<'MSG'
-         <full commit message>
-         MSG
-         ) && git rev-parse HEAD
-         ```
+       ```bash
+       (git commit --file - <<'MSG'
+       <full commit message>
+       MSG
+       ) && git rev-parse HEAD
+       ```
 
-         __Note on special characters and quoting:__
-         Use a single-quoted heredoc (`<<'MSG'`) to prevent expansion so backticks
-         and `$` are preserved. If the delimiter appears in the message, pick a
-         different, unique delimiter to avoid syntax errors.
+       __Note on special characters and quoting:__
+       Use a single-quoted heredoc (`<<'MSG'`) to prevent expansion so backticks
+       and `$` are preserved. If the delimiter appears in the message, pick a
+       different, unique delimiter to avoid syntax errors.
 
-    - If the commit command fails due to quoting/heredoc syntax, retry up to 3 corrected forms. For other failures, report the error and do not modify the index.
+   - If the commit command fails due to quoting/heredoc syntax, retry up to 3 corrected forms. For other failures, report the error and do not modify the index.
 
 5. __Output__
    - 1–2 line summary: staged files and detected convention

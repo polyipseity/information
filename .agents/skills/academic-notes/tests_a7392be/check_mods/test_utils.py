@@ -150,10 +150,12 @@ async def test_get_excerpt_file_missing(tmp_path: PathLike[str]):
 
 
 def _text(raw: str) -> dict:
+    """Create a minimal text AST node."""
     return {"type": "text", "raw": raw}
 
 
 def _heading(level: int, text: str) -> dict:
+    """Create a minimal heading AST node."""
     return {
         "type": "heading",
         "attrs": {"level": level},
@@ -163,18 +165,22 @@ def _heading(level: int, text: str) -> dict:
 
 
 def _para(text: str) -> dict:
+    """Create a minimal paragraph AST node."""
     return {"type": "paragraph", "children": [_text(text)]}
 
 
 def _blank() -> dict:
+    """Create a minimal blank-line AST node."""
     return {"type": "blank_line"}
 
 
 def _list_item(text: str) -> dict:
+    """Create a minimal list-item AST node."""
     return {"type": "list_item", "children": [_text(text)]}
 
 
 def _list(items: list[dict]) -> dict:
+    """Create a minimal list AST node."""
     return {"type": "list", "tight": True, "children": items}
 
 
@@ -182,9 +188,11 @@ class TestIterAst:
     """Exercises for iter_ast()."""
 
     def test_empty(self):
+        """Verify iter_ast returns empty list for empty input."""
         assert list(iter_ast([])) == []
 
     def test_flat_list(self):
+        """Verify iter_ast recursively yields all nested children."""
         nodes = [_heading(1, "A"), _para("hello")]
         result = list(iter_ast(nodes))
         # iter_ast recursively yields children, so heading + text + paragraph + text = 4
@@ -195,6 +203,7 @@ class TestIterAst:
         assert result[3]["type"] == "text"
 
     def test_nested_children(self):
+        """Verify iter_ast handles nested inline formatting."""
         nested = _para("x")
         nested["children"].append({"type": "emphasis", "children": [_text("em")]})
         ast = [nested]
@@ -211,12 +220,14 @@ class TestFilterAst:
     """Exercises for filter_ast()."""
 
     def test_filter_heading(self):
+        """Verify filter_ast returns only heading nodes."""
         ast = [_heading(1, "A"), _para("x"), _heading(2, "B")]
         result = list(filter_ast(ast, "heading"))
         assert len(result) == 2
         assert all(n["type"] == "heading" for n in result)
 
     def test_filter_nonexistent(self):
+        """Verify filter_ast returns empty list for nonexistent type."""
         ast = [_para("x")]
         assert list(filter_ast(ast, "code")) == []
 
@@ -225,12 +236,15 @@ class TestAstCollectText:
     """Exercises for ast_collect_text()."""
 
     def test_plain_text(self):
+        """Verify ast_collect_text returns raw text."""
         assert ast_collect_text(_text("hello")) == "hello"
 
     def test_heading_text(self):
+        """Verify ast_collect_text extracts heading text."""
         assert ast_collect_text(_heading(1, "Title")) == "Title"
 
     def test_paragraph_with_inline(self):
+        """Verify ast_collect_text handles inline formatting in paragraphs."""
         para = {
             "type": "paragraph",
             "children": [
@@ -242,6 +256,7 @@ class TestAstCollectText:
         assert ast_collect_text(para) == "a b c"
 
     def test_nested_formatting(self):
+        """Verify ast_collect_text handles nested strong/emphasis."""
         outer = {
             "type": "emphasis",
             "children": [{"type": "strong", "children": [_text("bold+italic")]}],
@@ -253,9 +268,11 @@ class TestAstHeadings:
     """Exercises for ast_headings()."""
 
     def test_no_headings(self):
+        """Verify ast_headings returns empty list when no headings exist."""
         assert ast_headings([_para("x")]) == []
 
     def test_multiple_headings(self):
+        """Verify ast_headings returns all headings at different levels."""
         ast = [_heading(1, "A"), _para("x"), _heading(2, "B"), _heading(3, "C")]
         heads = ast_headings(ast)
         assert len(heads) == 3
@@ -264,6 +281,7 @@ class TestAstHeadings:
         assert heads[2] == {"type": "heading", "level": 3, "text": "C", "node": ast[3]}
 
     def test_heading_level_default(self):
+        """Verify ast_headings uses default level 1 for unmarked headings."""
         node = {"type": "heading", "children": [_text("X")]}
         heads = ast_headings([node])
         assert heads[0]["level"] == 1  # default
@@ -273,15 +291,18 @@ class TestAstSections:
     """Exercises for ast_sections()."""
 
     def test_empty(self):
+        """Verify ast_sections returns empty list for empty AST."""
         assert ast_sections([]) == []
 
     def test_preamble_only(self):
+        """Verify ast_sections creates a single preamble section when no headings."""
         sects = ast_sections([_para("a"), _para("b")])
         assert len(sects) == 1
         assert sects[0]["heading"] is None
         assert len(sects[0]["children"]) == 2
 
     def test_one_heading(self):
+        """Verify ast_sections creates one section with heading."""
         sects = ast_sections([_heading(1, "A"), _para("body")])
         # First element is a heading, so no preamble section — just one section
         assert len(sects) == 1
@@ -291,6 +312,7 @@ class TestAstSections:
         assert sects[0]["children"][0]["type"] == "paragraph"
 
     def test_two_sections(self):
+        """Verify ast_sections splits on multiple headings."""
         ast = [_heading(1, "A"), _para("body a"), _heading(2, "B"), _para("body b")]
         sects = ast_sections(ast)
         assert len(sects) == 2
@@ -300,6 +322,7 @@ class TestAstSections:
         assert len(sects[1]["children"]) == 1
 
     def test_blank_lines_skipped(self):
+        """Verify ast_sections skips blank-line nodes."""
         ast = [_heading(1, "A"), _blank(), _para("x")]
         sects = ast_sections(ast)
         assert len(sects) == 1  # header + content, blank skipped
@@ -307,6 +330,7 @@ class TestAstSections:
         assert sects[0]["children"][0]["type"] == "paragraph"
 
     def test_preamble_with_content(self):
+        """Verify ast_sections combines preamble with following heading section."""
         ast = [_para("preamble"), _heading(1, "A"), _para("body")]
         sects = ast_sections(ast)
         assert len(sects) == 2

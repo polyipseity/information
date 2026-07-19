@@ -19,11 +19,24 @@ applyTo: "**"
    ```
 
    When targeting specific files with `check:md` or `format:md`, always append `--no-globs` and list the explicit filenames to avoid accidentally processing the entire repo.
+   __CRITICAL: Only pass `.md` files to `check:md` or `format:md`__ — these
+   commands invoke `markdownlint-cli2`, a Markdown formatter that will
+   corrupt Python, YAML, and other non-Markdown files (wrapping URLs in
+   `<>`, converting `*`→`_` in regex patterns, etc.).
+
 3. Adopt a simplification-first mindset: before adding new code, verify whether deletion or inlining would suffice.
 
 ## Repository gotchas
 
 - __🔥 CRITICAL: Never `cd` into `.agents/skills/` to run `uv` commands.__ Always run `uv` from the repo root. Running `uv` inside a skill folder creates `.venv/`/`uv.lock` trash there and fails due to missing deps.
+- __🔥 CRITICAL: Never run `check:md` or `format:md` on non-`.md` files.__
+  These commands invoke `markdownlint-cli2`, a Markdown formatter that
+  corrupts Python, YAML, and other non-Markdown content (wrapping URLs in
+  `<>`, converting `*`→`_` in regex patterns, removing blank lines, etc.).
+  To format Python files, use `format:py` (which runs `ruff`). To format
+  JSON/YAML/TS/JS files, use `format:prettier`. When running `format:md` or
+  `check:md`, verify that EVERY file argument ends in `.md` or another
+  markdown extension.
 - Preserve `# pytextgen` fences and flashcard markup. There are three forms: cloze deletions `{@{...}@}` (common), two-sided pairs `::@::` (one line only, creates two cards), and one-sided pairs `:@:` (one line only, single card). These are parsed automatically; do not reflow, escape, or split them across lines.
 - Async code should __not__ import or use `asyncio` directly. Use AnyIO for cross-platform structured concurrency and the Asyncer helper library for enhanced editor/typing support. Key Asyncer helpers: `create_task_group` (preferred over `anyio.create_task_group`), `soonify` for concurrent calls with `SoonValue` return, `runnify` for wrapping async main for sync entry points (__all Python scripts use this; see `python-entry-points.instructions.md`__), `asyncify` for blocking sync code from async context, `syncify` for calling async from sync context.
 - Always prefer `bun run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
@@ -48,8 +61,8 @@ Clears generated content blocks without regenerating. Useful for resolving merge
 
 ### Wiki ingestion
 
-- Scaffold: `uv run -m templates.new_wiki_page`
-- Ingest: `uv run -m convert_wiki` (reads clipboard HTML)
+- Scaffold: `uv run -m scripts.new_wiki_page`
+- Ingest: `uv run -m scripts.convert_wiki` (reads clipboard HTML)
 - Flashcards: handled automatically by build workflows
 - __See__: [wiki-ingestion](../skills/wiki-ingestion/SKILL.md) skill for step-by-step guidance
 

@@ -23,7 +23,7 @@ In {@{the economic and financial field}@}, {@{the [money supply](money%20supply.
 
 ## supply schedule
 
-{@{A supply schedule}@} is {@{a table which shows how much one or more firms will be willing to supply at particular prices under the existing circumstances}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Some of the more important factors affecting supply}@} are {@{the good's own price, the prices of related goods, production costs, technology, the production function, and expectations of sellers}@}. <!--SR:!2029-04-28,1264,350!2028-12-02,1148,350!2029-08-06,1344,350!fsrs,2031-04-26T00:00:00.000Z,1741,1740.53244907,1,2,10,0,0,2026-07-20T00:00:00.000Z-->
+{@{A supply schedule}@} is {@{a table which shows how much one or more firms will be willing to supply at particular prices under the existing circumstances}@}.<sup>[\[1\]](#^ref-1)</sup> {@{Some of the more important factors affecting supply}@} are {@{the good's own price, the prices of related goods, production costs}@}, {@{technology, the production function, and expectations of sellers}@}. <!--SR:!2029-04-28,1264,350!2028-12-02,1148,350!2029-08-06,1344,350!fsrs,2031-04-26T00:00:00.000Z,1741,1740.53244907,1,2,10,0,0,2026-07-20T00:00:00.000Z-->
 
 ### factors affecting supply
 

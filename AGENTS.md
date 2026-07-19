@@ -21,8 +21,8 @@ __Creating notes__:
 
 ```bash
 # Scaffold new wiki-sourced note (see wiki-ingestion skill)
-uv run -m templates.new_wiki_page
-uv run -m convert_wiki  # Paste Wikipedia HTML from clipboard
+uv run -m scripts.new_wiki_page
+uv run -m scripts.convert_wiki  # Paste Wikipedia HTML from clipboard
 # Flashcards are created automatically by the build; do not run
 # `uv run -m init generate` yourself.
 ```
@@ -126,7 +126,7 @@ Instruction files auto-apply via glob patterns. See `.agents/instructions/` for 
 - [markdown-notes.instructions.md](.agents/instructions/markdown-notes.instructions.md) → `general/**/*.md`
 - [special.instructions.md](.agents/instructions/special.instructions.md) → `special/**/*.md`, `special/**/*.py`
 - [archives.instructions.md](.agents/instructions/archives.instructions.md) → `archives/**/*.md`
-- [commit-convention.instructions.md](.agents/instructions/commit-convention.instructions.md) → `**` (enforce conventional commit usage for agent-made commits; prompt for flashcard counts and append machine-readable trailers when changes affect `general/`, `special/`, or `self/`; see it for the `commit-staged-flashcard-progress` prompt and flashcard progress commit format.)
+- [commit-convention.instructions.md](.agents/instructions/commit-convention.instructions.md) → `**` (enforce conventional commit usage for agent-made commits; prompt for flashcard counts and append machine-readable trailers when changes affect `.md` files under `general/`, `special/`, or `self/` that have flashcard tags and genuinely add/remove flashcards; see it for the `commit-staged-flashcard-progress` prompt and flashcard progress commit format.)
 
 ### Workflows
 

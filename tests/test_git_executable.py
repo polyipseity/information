@@ -12,6 +12,7 @@ import os
 import stat
 import subprocess
 from collections.abc import AsyncIterator, Iterable
+from os import PathLike
 
 import pytest
 from anyio import IncompleteRead, Path, run_process
@@ -166,15 +167,16 @@ async def test_git_mode_tracked() -> None:
 
 
 @pytest.mark.anyio
-async def test_git_mode_untracked(tmp_path: Path) -> None:
+async def test_git_mode_untracked(tmp_path: PathLike[str]) -> None:
     """Verify that the helper returns None for an untracked file."""
     root = Path(__file__).parent.parent
+    tmp = Path(tmp_path)
     # create a file inside the repository but do not add it to git.  to avoid
     # collisions with any real file we generate a unique temporary subdirectory
-    # using ``tmp_path.name`` which is guaranteed not to exist already.  the
+    # using ``tmp.name`` which is guaranteed not to exist already.  the
     # helper only works on files beneath the repo root so we create the
-    # directory here rather than relying on ``tmp_path`` directly.
-    unique_dir = root / tmp_path.name
+    # directory here rather than relying on ``tmp`` directly.
+    unique_dir = root / tmp.name
     await unique_dir.mkdir()
     new_file = unique_dir / "tmp_untracked.txt"
     await new_file.write_text("x")

@@ -10,7 +10,7 @@ The authoritative long-form policy lives in `.agents/skills/academic-notes/SKILL
 
 - Read `../skills/academic-notes/SKILL.md` before acting.
 - Read `../skills/academic-notes/course-template.md` as the scaffold for new course indexes.
-- The validator is at `.agents/skills/academic-notes/check.py`; validate the smallest relevant scope after editing.
+- The validator is at `.agents/skills/academic-notes/check.py`; run `uv run .agents/skills/academic-notes/check.py <path>` to validate the smallest relevant scope after editing.
 
 ## Cross-cutting rules
 

@@ -28,9 +28,9 @@ The `scripts/` directory contains all helper scripts and utilities:
    - Reads HTML from clipboard
    - Normalizes links (relative paths with `%20` encoding)
    - Downloads media to `archives/Wikimedia Commons/`
-   - Uses `convert_wiki.filename_rename_map.jsonc` for filename renames
+   - Uses `scripts/assets/convert_wiki.name_map.jsonc` for filename renames
    - Preserves Wikipedia attribution
-   - Command: `uv run -m convert_wiki`
+   - Command: `uv run -m scripts.convert_wiki`
 
 3. __`pack.py`__: PageRank-ordered zip bundling
    - Walks Markdown links to build dependency graph
@@ -67,8 +67,8 @@ The `scripts/` directory contains all helper scripts and utilities:
 
 ### End-to-end wiki ingestion
 
-1. Scaffold note: `uv run -m templates.new_wiki_page` (tools-templates)
-2. Ingest HTML: `uv run -m convert_wiki` (convert_wiki.py)
+1. Scaffold note: `uv run -m scripts.new_wiki_page` (tools-templates)
+2. Ingest HTML: `uv run -m scripts.convert_wiki` (convert_wiki.py)
 3. Flashcard generation is automatic; do __not__ run `uv run -m init generate`.
    Build workflows will handle it.
 

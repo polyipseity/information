@@ -292,7 +292,7 @@ For a __share option plan__:
 > | {@{Compensation expense}@} | {@{40&nbsp;000}@} | |
 > | {@{Share premium — share options}@} | | {@{40&nbsp;000}@} |
 >
-> _Explanation._ The charge each year combines the {@{original annual amount (€80&nbsp;000 ÷ 4 = €20&nbsp;000)}@} and the {@{incremental annual amount (€40&nbsp;000 ÷ 2 = €20&nbsp;000)}@} for a total of {@{€40&nbsp;000 per year}@}. Under IFRS 2, {@{any modification that increases the fair value of an equity-settled award must be recognized in addition to the original grant-date fair value}@}; a modification that reduces fair value is {@{ignored and the original grant-date compensation continues unchanged}@}. <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Explanation._ The charge each year combines the {@{original annual amount (€80&nbsp;000 ÷ 4 = €20&nbsp;000)}@} and the {@{incremental annual amount (€40&nbsp;000 ÷ 2 = €20&nbsp;000)}@} for a total of {@{€40&nbsp;000 per year}@}. Under {@{IFRS 2}@}, {@{any modification that increases the fair value of an equity-settled award}@} must be {@{recognized in addition to the original grant-date fair value}@}; {@{a modification that reduces fair value}@} is {@{ignored and the original grant-date compensation continues unchanged}@}. <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -817,74 +817,84 @@ Flashcards for this section are as follows:
 
 ## comprehensive exercise: diluted EPS with share split, convertible bonds, and warrants
 
-> _Norden SA — comprehensive diluted EPS exercise._ Norden SA reports {@{net income of €3&nbsp;300&nbsp;000}@} for the year ended 31 December 2026. The tax rate is {@{30%}@}. Preference dividends declared in 2026 are {@{€300&nbsp;000}@}. The following share activity occurred during 2026:
+> _Norden SA — comprehensive diluted EPS exercise._ Norden SA reports net income of €3&nbsp;300&nbsp;000 for the year ended 31 December 2026. The tax rate is 30%. Preference dividends declared in 2026 are €300&nbsp;000. The following share activity occurred during 2026:
 >
-> - {@{1 January: 600&nbsp;000 ordinary shares outstanding.}@}
-> - {@{1 July: Norden issues 300&nbsp;000 new ordinary shares for cash.}@}
-> - {@{1 October: 2-for-1 ordinary share split.}@}
+> - 1 January: 600&nbsp;000 ordinary shares outstanding.
+> - 1 July: Norden issues 300&nbsp;000 new ordinary shares for cash.
+> - 1 October: 2-for-1 ordinary share split.
 >
 > Additional information:
 >
-> - {@{Convertible bonds outstanding all year: face value €6&nbsp;000&nbsp;000, 6% stated coupon. Under IAS 32, the bonds are split into a liability component and an equity component. The liability-component interest expense recognized in 2026 using the effective-interest method is €420&nbsp;000. Full conversion would produce 280&nbsp;000 ordinary shares on a post-split basis.}@}
-> - {@{Share warrants outstanding all year (adjusted for the split): 120&nbsp;000 warrants with exercise price €25 per share. Average market price of the ordinary shares during 2026 was €40.}@}
+> - Convertible bonds outstanding all year: face value €6&nbsp;000&nbsp;000, 6% stated coupon. Under IAS 32, the bonds are split into a liability component and an equity component. The liability-component interest expense recognized in 2026 using the effective-interest method is €420&nbsp;000. Full conversion would produce 280&nbsp;000 ordinary shares on a post-split basis.
+> - Share warrants outstanding all year (adjusted for the split): 120&nbsp;000 warrants with exercise price €25 per share. Average market price of the ordinary shares during 2026 was €40.
 >
 > _Required._ Compute (a) basic EPS for 2026 and (b) diluted EPS for 2026. Show all workings, including the treasury-share method for warrants and the if-converted method for the bonds. <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-09-22T00:00:00.000Z,65,64.75639033,6.0091915,2,3,0,0,2026-07-19T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
-> Solution — part (a): basic EPS.
+> Compute the weighted-average ordinary shares for Norden SA given:
 >
-> The 2-for-1 split on 1 October requires restating all earlier share counts to a post-split basis before time-weighting.
+> - 1 January: 600&nbsp;000 ordinary shares outstanding
+> - 1 July: issue 300&nbsp;000 new ordinary shares for cash
+> - 1 October: 2-for-1 ordinary share split
 >
-> - {@{1 January to 30 June: 600&nbsp;000 × 2 × 6/12 = 600&nbsp;000 weighted shares.}@}
-> - {@{1 July to 30 September: (600&nbsp;000 + 300&nbsp;000) × 2 × 3/12 = 450&nbsp;000 weighted shares.}@}
-> - {@{1 October to 31 December: 1&nbsp;800&nbsp;000 × 3/12 = 450&nbsp;000 weighted shares.}@}
-> - {@{Weighted-average ordinary shares (WACS) = 600&nbsp;000 + 450&nbsp;000 + 450&nbsp;000 = 1&nbsp;500&nbsp;000 shares.}@}
+> (Restate all shares to a post-split basis before time-weighting.)
 >
-> | | |
-> | --- | ---: |
-> | {@{Net income}@} | {@{€3&nbsp;300&nbsp;000}@} |
-> | {@{Less: preference dividends}@} | {@{(€300&nbsp;000)}@} |
-> | {@{Income available to ordinary shareholders}@} | {@{€3&nbsp;000&nbsp;000}@} |
-> | {@{Weighted-average ordinary shares}@} | {@{1&nbsp;500&nbsp;000}@} |
-> | {@{Basic EPS}@} | {@{€2.00}@} | <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z-->
+> - 1 January to 30 June: {@{600&nbsp;000 × 2 × 6/12 = 600&nbsp;000 weighted shares}@}.
+> - 1 July to 30 September: {@{(600&nbsp;000 + 300&nbsp;000) × 2 × 3/12 = 450&nbsp;000 weighted shares}@}.
+> - 1 October to 31 December: {@{(600&nbsp;000 + 300&nbsp;000) × 2 × 3/12 = 450&nbsp;000 weighted shares}@}. [Note: post-split total is {@{1&nbsp;800&nbsp;000}@}]
+> - Weighted-average ordinary shares (WACS): {@{600&nbsp;000 + 450&nbsp;000 + 450&nbsp;000 = 1&nbsp;500&nbsp;000 shares}@}.
 
 <!-- markdownlint MD028 -->
 
-> Solution — part (b): diluted EPS.
+> Using the WACS from above (1&nbsp;500&nbsp;000 shares), compute basic EPS given net income of €3&nbsp;300&nbsp;000 and preference dividends declared of €300&nbsp;000.
 >
-> __Step 1: compute per-share effect of each potentially dilutive security.__
+> | | |
+> | --- | ---: |
+> | Net income | {@{€3&nbsp;300&nbsp;000}@} |
+> | Less: preference dividends | {@{(€300&nbsp;000)}@} |
+> | Income available to ordinary shareholders | {@{€3&nbsp;000&nbsp;000}@} |
+> | Weighted-average ordinary shares | {@{1&nbsp;500&nbsp;000}@} |
+> | Basic EPS | {@{€2.00}@} | <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z-->
+
+<!-- markdownlint MD028 -->
+
+> Step 1 — compute per-share effects.
 >
-> Treasury-share method (warrants):
+> __Treasury-share method (warrants).__ Givens: 120&nbsp;000 warrants (post-split), exercise price €25, average market price €40.
 >
-> - {@{Proceeds from assumed exercise = 120&nbsp;000 × €25 = €3&nbsp;000&nbsp;000.}@}
-> - {@{Shares repurchased at average market price = €3&nbsp;000&nbsp;000 ÷ €40 = 75&nbsp;000 shares.}@}
-> - {@{Net incremental shares = 120&nbsp;000 − 75&nbsp;000 = 45&nbsp;000 shares.}@}
-> - {@{Numerator effect = €0 (treasury-share method never changes the numerator).}@}
-> - {@{Per-share effect = €0 ÷ 45&nbsp;000 = €0.00.}@}
+> - Proceeds from assumed exercise: {@{120&nbsp;000 × €25 = €3&nbsp;000&nbsp;000}@}.
+> - Shares repurchased at average market price: {@{€3&nbsp;000&nbsp;000 ÷ €40 = 75&nbsp;000 shares}@}.
+> - Net incremental shares: {@{120&nbsp;000 − 75&nbsp;000 = 45&nbsp;000 shares}@}.
+> - Numerator effect: {@{€0}@} (treasury-share method {@{never changes the numerator}@}).
+> - Per-share effect: {@{€0 ÷ 45&nbsp;000 = €0.00}@}.
 >
-> If-converted method (convertible bonds):
+> __If-converted method (convertible bonds).__ Givens: liability-component interest expense €420&nbsp;000, tax rate 30%, full conversion produces 280&nbsp;000 ordinary shares (post-split).
 >
-> - {@{After-tax interest add-back = €420&nbsp;000 × (1 − 0.30) = €294&nbsp;000.}@}
-> - {@{Incremental shares = 280&nbsp;000 ordinary shares.}@}
-> - {@{Per-share effect = €294&nbsp;000 ÷ 280&nbsp;000 = €1.05.}@}
+> - After-tax interest add-back: {@{€420&nbsp;000 × (1 − 0.30) = €294&nbsp;000}@}.
+> - Incremental shares: {@{280&nbsp;000 ordinary shares}@}.
+> - Per-share effect: {@{€294&nbsp;000 ÷ 280&nbsp;000 = €1.05}@}.
+
+<!-- markdownlint MD028 -->
+
+> Step 2 — rank {@{from most dilutive to least dilutive (lowest per-share effect first)}@}.
 >
-> __Step 2: rank from most dilutive to least dilutive (lowest per-share effect first).__
+> From Step 1: warrants have a €0 numerator effect, 45&nbsp;000 incremental shares, and a €0.00 per-share effect. Bonds have a €294&nbsp;000 numerator effect, 280&nbsp;000 incremental shares, and a €1.05 per-share effect.
 >
 > | Security | Numerator effect | Incremental shares | Per-share effect |
 > | --- | ---: | ---: | ---: |
 > | {@{Warrants (treasury-share method)}@} | {@{€0}@} | {@{45&nbsp;000}@} | {@{€0.00}@} |
 > | {@{Convertible bonds (if-converted method)}@} | {@{€294&nbsp;000}@} | {@{280&nbsp;000}@} | {@{€1.05}@} |
+
+<!-- markdownlint MD028 -->
+
+> Step 3 — add securities one at a time, most dilutive first. Start from basic EPS: numerator €3&nbsp;000&nbsp;000, denominator 1&nbsp;500&nbsp;000, EPS = €2.00.
 >
-> __Step 3: add securities one at a time, most dilutive first.__
+> _Add warrants (per-share effect €0.00)._ Per-share effect {@{€0.00 < €2.00 → dilutive}@}. Numerator = {@{€3&nbsp;000&nbsp;000}@}; Denominator = {@{1&nbsp;500&nbsp;000 + 45&nbsp;000 = 1&nbsp;545&nbsp;000}@}; Recomputed EPS = {@{€3&nbsp;000&nbsp;000 ÷ 1&nbsp;545&nbsp;000 ≈ €1.942}@}.
 >
-> _Starting point (basic):_ Numerator = €3&nbsp;000&nbsp;000; Denominator = 1&nbsp;500&nbsp;000; EPS = {@{€2.00}@}.
+> _Add convertible bonds (per-share effect €1.05)._ Per-share effect {@{€1.05 < €1.942 → dilutive}@}. Numerator = {@{€3&nbsp;000&nbsp;000 + €294&nbsp;000 = €3&nbsp;294&nbsp;000}@}; Denominator = {@{1&nbsp;545&nbsp;000 + 280&nbsp;000 = 1&nbsp;825&nbsp;000}@}; Diluted EPS = {@{€3&nbsp;294&nbsp;000 ÷ 1&nbsp;825&nbsp;000 ≈ €1.81}@}.
 >
-> _Add warrants:_ Per-share effect {@{€0.00 < €2.00 → dilutive}@}. Numerator = {@{€3&nbsp;000&nbsp;000}@}; Denominator = {@{1&nbsp;500&nbsp;000 + 45&nbsp;000 = 1&nbsp;545&nbsp;000}@}; Recomputed EPS = {@{€3&nbsp;000&nbsp;000 ÷ 1&nbsp;545&nbsp;000 ≈ €1.942}@}.
->
-> _Add convertible bonds:_ Per-share effect {@{€1.05 < €1.942 → dilutive}@}. Numerator = {@{€3&nbsp;000&nbsp;000 + €294&nbsp;000 = €3&nbsp;294&nbsp;000}@}; Denominator = {@{1&nbsp;545&nbsp;000 + 280&nbsp;000 = 1&nbsp;825&nbsp;000}@}; Diluted EPS = {@{€3&nbsp;294&nbsp;000 ÷ 1&nbsp;825&nbsp;000 ≈ €1.81}@}.
->
-> _Conclusion._ {@{Diluted EPS ≈ €1.81, basic EPS = €2.00. Both securities are dilutive.}@} <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z-->
+> _Conclusion._ Diluted EPS = {@{≈ €1.81}@}, basic EPS = {@{€2.00}@}. Both securities are {@{dilutive}@}. <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z-->
 
 ---
 
@@ -894,4 +904,3 @@ Flashcards for this section are as follows:
 - comprehensive EPS: treasury-share method — why does the numerator not change? ::@:: The assumed exercise of warrants only adds shares; it does not change the net income earned during the period. <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z-->
 - comprehensive EPS: if-converted method — what two items change? ::@:: The numerator increases by the after-tax interest that would disappear if the bonds converted, and the denominator increases by the ordinary shares issuable on conversion. <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z-->
 - comprehensive EPS: why are warrants ranked ahead of the convertible bonds as most dilutive? ::@:: Because the treasury-share method assigns a €0 per-share effect to the warrants (no numerator change), while the convertible bonds carry a positive per-share effect of €1.05, making the warrants more dilutive. <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z-->
-- Norden SA: basic EPS €2.00; warrants 120&nbsp;000 @ €25 vs avg €40 add 45&nbsp;000 shares (€0.00/share); bonds €420&nbsp;000 interest, 30% tax, 280&nbsp;000 shares add €294&nbsp;000 and 280&nbsp;000 shares (€1.05/share) → diluted EPS = ? ::@:: Warrants first: €3&nbsp;000&nbsp;000 ÷ 1&nbsp;545&nbsp;000 ≈ €1.942; bonds second: €3&nbsp;294&nbsp;000 ÷ 1&nbsp;825&nbsp;000 ≈ €1.81. <!--SR:!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z!fsrs,2026-08-31T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-21T00:00:00.000Z-->

@@ -49,7 +49,6 @@ they fail or are unavailable, fall back to the provided input values.
      `Review-target` and `Review-remaining` are, prefer computing
      `Review-done = Review-target - Review-remaining` using a read-only
      terminal command for traceability. Examples:
-
      - POSIX (bash/zsh):
        - `echo $(( {Review-target} - {Review-remaining} ))`
        - or: `expr {Review-target} - {Review-remaining}`
@@ -89,7 +88,9 @@ they fail or are unavailable, fall back to the provided input values.
      - `Flashcards-review-remaining: <R>` (if provided and helpful)
      - `Flashcards-prev/Flashcards-now/Flashcards-delta` may be included if
        there is relevant change in the note data (only include when
-       applicable).
+       applicable). These follow the same conditions as the main commit
+       convention: only when the modified notes have flashcard tags and
+       the change genuinely adds or removes flashcards.
 
    - Examples (each line must be <= 72 chars):
 
@@ -153,7 +154,7 @@ they fail or are unavailable, fall back to the provided input values.
 - You may run additional read-only shell/terminal commands (for example, the
   arithmetic commands shown above) to compute session numbers. Do not run
   commands that modify the index or repository state (no `git add` or `git
-  reset`). Continue to use the two approved commands for reading the staged
+reset`). Continue to use the two approved commands for reading the staged
   diff and committing.
 - When both learning and review happen, include both in the header and
   include both relevant trailers.

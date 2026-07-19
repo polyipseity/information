@@ -721,4 +721,8 @@ TSWLatexianTemp*
 /.obsidian/workspace-mobile.json
 /.obsidian/workspace.json
 /.trash/
+/scripts/assets/convert_wiki.redirect_cache.json
+/scripts/pack.py.zip
+/scripts/publish.py.txt
+/scripts/retract.py.txt
 # }
