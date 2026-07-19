@@ -4,14 +4,14 @@ Contains ``WikiHtmlConverter``, the main class that walks a BeautifulSoup
 HTML tree and emits Markdown text via tag-specific handler methods.
 """
 
+import os
 import re
 from collections.abc import Awaitable, Iterator, Mapping, MutableSet
 from contextlib import suppress
 from copy import copy
-from os import symlink as os_symlink
-from pathlib import Path as PathlibPath
 from urllib.parse import quote, unquote
 
+from anyio import Path
 from asyncer import SoonValue, create_task_group
 from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
 from bs4.element import PreformattedString
@@ -86,14 +86,16 @@ class WikiHtmlConverter:
     def __init__(
         self,
         *,
-        converted_wiki_dir: PathlibPath = _cfg._CONVERTED_WIKI_DIRECTORY,
-        converted_wiki_lang_dir: PathlibPath = _cfg._CONVERTED_WIKI_LANGUAGE_DIRECTORY,
+        converted_wiki_dir: os.PathLike[str] = _cfg._CONVERTED_WIKI_DIRECTORY,
+        converted_wiki_lang_dir: os.PathLike[
+            str
+        ] = _cfg._CONVERTED_WIKI_LANGUAGE_DIRECTORY,
         image_metadata: Mapping[str, str] | None = None,
         names_map: Mapping[str, str] | None = None,
     ) -> None:
         """Initialize converter with directory paths and name map."""
-        self._converted_wiki_dir = converted_wiki_dir
-        self._converted_wiki_lang_dir = converted_wiki_lang_dir
+        self._converted_wiki_dir = Path(converted_wiki_dir)
+        self._converted_wiki_lang_dir = Path(converted_wiki_lang_dir)
         self._image_metadata = image_metadata or {}
         self._names_map = names_map or _cfg._NAMES_MAP
 
@@ -1032,25 +1034,27 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _create_redirect_symlinks(
-        wiki_dir: PathlibPath,
-        wiki_lang_dir: PathlibPath,
+        wiki_dir: os.PathLike[str],
+        wiki_lang_dir: os.PathLike[str],
         from_filename: str,
         to_filename: str,
     ) -> None:
         """Create redirect symlinks for a renamed page."""
-        redirect_file = wiki_lang_dir / f"{from_filename}.md"
-        if not redirect_file.exists():
-            with _cfg._with_cwd(wiki_lang_dir):
+        wiki_dir_path = Path(wiki_dir)
+        wiki_lang_dir_path = Path(wiki_lang_dir)
+        redirect_file = wiki_lang_dir_path / f"{from_filename}.md"
+        if not os.path.exists(os.fspath(redirect_file)):
+            with _cfg._with_cwd(wiki_lang_dir_path):
                 with suppress(FileExistsError):
-                    os_symlink(
+                    os.symlink(
                         f"{to_filename}.md",
-                        redirect_file.relative_to(wiki_lang_dir),
+                        str(redirect_file.relative_to(wiki_lang_dir_path)),
                         target_is_directory=False,
                     )
-            with _cfg._with_cwd(wiki_dir):
+            with _cfg._with_cwd(wiki_dir_path):
                 with suppress(FileExistsError):
-                    os_symlink(
-                        redirect_file.relative_to(wiki_dir),
+                    os.symlink(
+                        str(redirect_file.relative_to(wiki_dir_path)),
                         f"{from_filename}.md",
                         target_is_directory=False,
                     )

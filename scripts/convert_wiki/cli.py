@@ -5,11 +5,12 @@ asyncer.runnify for async dispatch).
 """
 
 import argparse
+import os
 from logging import INFO, basicConfig
-from pathlib import Path as PathlibPath
 from sys import stderr, stdin
 
 import anyio
+from anyio import Path
 from asyncer import runnify
 from bs4 import BeautifulSoup
 from jaraco.clipboard import paste_html
@@ -44,13 +45,13 @@ async def main() -> None:
     parser.add_argument(
         "--output-file",
         "-f",
-        type=PathlibPath,
+        type=Path,
         help="File path for append output mode.",
     )
     parser.add_argument(
         "--input-file",
         "-i",
-        type=PathlibPath,
+        type=Path,
         default="-",
         help="Read HTML from file instead of stdin (default: stdin).",
     )
@@ -77,7 +78,7 @@ async def main() -> None:
             )
             raise TypeError(msg)
     else:
-        source = stdin if args.input_file == PathlibPath("-") else open(args.input_file)
+        source = stdin if os.fspath(args.input_file) == "-" else open(args.input_file)
         with source:
             html_text = source.read()
 

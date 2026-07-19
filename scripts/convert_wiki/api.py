@@ -4,15 +4,17 @@ Provides functions for batch-resolving Wikipedia redirects and fetching
 image description metadata from Wikimedia Commons.
 """
 
+import os
 from collections.abc import MutableMapping
 from contextlib import suppress
 from datetime import datetime, timezone
 from json import JSONDecodeError
+from os import PathLike
 from os import replace as os_replace
-from pathlib import Path, PurePath
 
 import anyio
 from aiohttp import ClientSession
+from anyio import Path
 from bs4 import BeautifulSoup, Tag
 from yarl import URL
 
@@ -59,7 +61,7 @@ def _collect_image_filenames(html: Tag) -> set[str]:
 
 
 def _load_redirect_cache(
-    cache_path: PurePath,
+    cache_path: PathLike[str],
 ) -> dict[str, _RedirectInfo]:
     """Load the redirect cache, respecting TTL.
 
@@ -103,7 +105,7 @@ def _load_redirect_cache(
 
 def _save_redirect_cache(
     cache: MutableMapping[str, _RedirectInfo],
-    cache_path: PurePath,
+    cache_path: PathLike[str],
 ) -> None:
     """Atomically save the redirect cache.
 
@@ -130,7 +132,7 @@ def _save_redirect_cache(
         os_replace(tmp, resolved_path)
     except BaseException:
         with suppress(FileNotFoundError):
-            Path(tmp).unlink()
+            os.unlink(os.fspath(tmp))
         raise
 
 
@@ -144,7 +146,7 @@ async def _api_request(
         scheme=host.scheme,
         host=str(host.host),
         path="/w/api.php",
-        query=params,  # pyright: ignore[reportArgumentType]
+        query={k: str(v) for k, v in params.items()},
     )
     backoff = _cfg._API_INITIAL_BACKOFF
     for attempt in range(_cfg._API_MAX_RETRIES):
@@ -169,7 +171,7 @@ async def _resolve_redirects(
     session: ClientSession,
     titles: set[str],
     cache: MutableMapping[str, _RedirectInfo],
-    cache_path: PurePath,
+    cache_path: PathLike[str],
 ) -> MutableMapping[str, _RedirectInfo]:
     """Resolve redirects for uncached titles via batched API queries.
 

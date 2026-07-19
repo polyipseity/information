@@ -130,8 +130,8 @@ _NAMES_MAP: dict[str, str]
 
 
 def _build_names_map(
-    name_map_path: PathlibPath | None = None,
-    wiki_dir: PathlibPath | None = None,
+    name_map_path: PathLike[str] | None = None,
+    wiki_dir: PathLike[str] | None = None,
 ) -> dict[str, str]:
     """Build the combined filename rename map from the JSONC file and wiki directory scan.
 

@@ -7,7 +7,7 @@ resolution, image metadata fetching, and conversion).
 
 import re
 from collections.abc import Mapping, MutableMapping, MutableSet
-from pathlib import Path as PathlibPath
+from os import PathLike
 from pathlib import PurePath
 
 from aiohttp import ClientSession, TCPConnector
@@ -92,8 +92,8 @@ async def run_pipeline(
     image_metadata: Mapping[str, str] | None = None,
     cache_path: PurePath | None = None,
     names_map: Mapping[str, str] | None = None,
-    wiki_dir: PathlibPath | None = None,
-    wiki_lang_dir: PathlibPath | None = None,
+    wiki_dir: PathLike[str] | None = None,
+    wiki_lang_dir: PathLike[str] | None = None,
     refs: bool = True,
 ) -> tuple[str, set[str]]:
     """Run the full conversion pipeline on parsed Wikipedia HTML.
