@@ -45,8 +45,8 @@ class TestSymlinkCreation:
         await lang_dir.mkdir(parents=True)
 
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(top_dir),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(top_dir),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
         html = BeautifulSoup(
             '<a title="From Page" href="/wiki/From_Page">link</a>',
@@ -79,8 +79,8 @@ class TestSymlinkCreation:
         await lang_dir.mkdir(parents=True)
 
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(top_dir),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(top_dir),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
         html = BeautifulSoup(
             '<a title="Same Page" href="/wiki/Same_Page">link</a>',
@@ -116,8 +116,8 @@ class TestSymlinkCreation:
         )
 
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(top_dir),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(top_dir),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
         html = BeautifulSoup(
             '<a title="From Page" href="/wiki/From_Page">link</a>',
@@ -160,8 +160,8 @@ class TestSymlinkCreation:
         assert not await (lang_dir / "From Page.md").exists()  # broken symlink
 
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(top_dir),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(top_dir),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
         html = BeautifulSoup(
             '<a title="From Page" href="/wiki/From_Page">link</a>',
@@ -256,8 +256,8 @@ class TestWikiHtmlToPlaintextSnapshot:
             redirect_map=redirect_map,
             image_metadata=aux["image_metadata"],
             names_map=names_map,
-            wiki_dir=PathlibPath(tmp / "general"),
-            wiki_lang_dir=PathlibPath(isolated_lang),
+            wiki_dir=Path(tmp / "general"),
+            wiki_lang_dir=Path(isolated_lang),
             refs=True,
         )
 
@@ -389,8 +389,8 @@ class TestFormattingAgnostic:
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(tmp / "general"),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(tmp / "general"),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
 
         compact = _mod.BeautifulSoup(
@@ -417,8 +417,8 @@ class TestFormattingAgnostic:
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(tmp / "general"),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(tmp / "general"),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
 
         compact = _mod.BeautifulSoup("<p>Multi-line paragraph.</p>", "html.parser")
@@ -441,8 +441,8 @@ class TestFormattingAgnostic:
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(tmp / "general"),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(tmp / "general"),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
 
         compact = _mod.BeautifulSoup(
@@ -467,8 +467,8 @@ class TestFormattingAgnostic:
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(tmp / "general"),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(tmp / "general"),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
 
         compact = _mod.BeautifulSoup("<h2>Multi-line header</h2>", "html.parser")
@@ -491,8 +491,8 @@ class TestFormattingAgnostic:
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(tmp / "general"),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(tmp / "general"),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
 
         compact = _mod.BeautifulSoup(
@@ -516,8 +516,8 @@ class TestFormattingAgnostic:
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(tmp / "general"),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(tmp / "general"),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
 
         compact = _mod.BeautifulSoup(
@@ -543,8 +543,8 @@ class TestFormattingAgnostic:
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(tmp / "general"),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(tmp / "general"),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
 
         compact = _mod.BeautifulSoup(
@@ -568,8 +568,8 @@ class TestFormattingAgnostic:
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(tmp / "general"),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(tmp / "general"),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
 
         compact = _mod.BeautifulSoup(
@@ -594,8 +594,8 @@ class TestFormattingAgnostic:
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
         converter = _mod.WikiHtmlConverter(
-            converted_wiki_dir=PathlibPath(tmp / "general"),
-            converted_wiki_lang_dir=PathlibPath(lang_dir),
+            converted_wiki_dir=Path(tmp / "general"),
+            converted_wiki_lang_dir=Path(lang_dir),
         )
 
         html = _mod.BeautifulSoup(
