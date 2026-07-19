@@ -12,7 +12,12 @@ import pytest
 from anyio import Path
 from bs4 import BeautifulSoup, Tag
 
-from scripts import convert_wiki as _mod
+from scripts.convert_wiki import config
+from scripts.convert_wiki.api import _collect_image_filenames
+from scripts.convert_wiki.converter import WikiHtmlConverter
+from scripts.convert_wiki.pipeline import run_pipeline
+from scripts.convert_wiki.types import _RedirectInfo
+from scripts.convert_wiki.utils import _get_image_filename
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -23,7 +28,7 @@ class TestModuleExports:
 
     def test_all_is_empty(self) -> None:
         """__all__ should be an empty tuple (standalone script)."""
-        assert _mod.__all__ == ()
+        assert config.__all__ == ()
 
 
 class TestSymlinkCreation:
@@ -43,7 +48,7 @@ class TestSymlinkCreation:
         top_dir = tmp / "general"
         await lang_dir.mkdir(parents=True)
 
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=top_dir,
             converted_wiki_lang_dir=lang_dir,
         )
@@ -52,7 +57,7 @@ class TestSymlinkCreation:
             "html.parser",
         )
         redirect_map = {
-            "From Page": _mod._RedirectInfo(to="To Page"),  # noqa: SLF001
+            "From Page": _RedirectInfo(to="To Page"),
         }
 
         await converter.convert(
@@ -77,7 +82,7 @@ class TestSymlinkCreation:
         top_dir = tmp / "general"
         await lang_dir.mkdir(parents=True)
 
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=top_dir,
             converted_wiki_lang_dir=lang_dir,
         )
@@ -86,7 +91,7 @@ class TestSymlinkCreation:
             "html.parser",
         )
         redirect_map = {
-            "Same Page": _mod._RedirectInfo(to="Same Page"),  # noqa: SLF001
+            "Same Page": _RedirectInfo(to="Same Page"),
         }
 
         await converter.convert(
@@ -114,7 +119,7 @@ class TestSymlinkCreation:
             "existing content", encoding="UTF-8"
         )
 
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=top_dir,
             converted_wiki_lang_dir=lang_dir,
         )
@@ -123,7 +128,7 @@ class TestSymlinkCreation:
             "html.parser",
         )
         redirect_map = {
-            "From Page": _mod._RedirectInfo(to="To Page"),  # noqa: SLF001
+            "From Page": _RedirectInfo(to="To Page"),
         }
 
         await converter.convert(
@@ -158,7 +163,7 @@ class TestSymlinkCreation:
         await (lang_dir / "From Page.md").symlink_to("nonexistent.md")
         assert not await (lang_dir / "From Page.md").exists()  # broken symlink
 
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=top_dir,
             converted_wiki_lang_dir=lang_dir,
         )
@@ -167,7 +172,7 @@ class TestSymlinkCreation:
             "html.parser",
         )
         redirect_map = {
-            "From Page": _mod._RedirectInfo(to="To Page"),  # noqa: SLF001
+            "From Page": _RedirectInfo(to="To Page"),
         }
 
         # Should not crash despite FileExistsError
@@ -241,7 +246,7 @@ class TestWikiHtmlToPlaintextSnapshot:
 
         # Load pre-computed data from aux instead of hitting the live API.
         redirect_map = {
-            k: _mod._RedirectInfo(to=v["to"], tofragment=v.get("tofragment", ""))
+            k: _RedirectInfo(to=v["to"], tofragment=v.get("tofragment", ""))
             for k, v in aux["redirect_cache"].items()
         }
 
@@ -250,7 +255,7 @@ class TestWikiHtmlToPlaintextSnapshot:
         names_map = shared_name_map | aux["name_map_overrides"]
 
         # run_pipeline handles all post-processing (nbsp→space, hair→&hairsp;, strip).
-        output, _ = await _mod.run_pipeline(
+        output, _ = await run_pipeline(
             html,
             redirect_map=redirect_map,
             image_metadata=aux["image_metadata"],
@@ -268,60 +273,60 @@ class TestImageAltTextFallback:
 
     def test_get_image_filename_from_resource(self) -> None:
         """``_get_image_filename`` should extract filename from ``resource`` attribute."""
-        html = _mod.BeautifulSoup(
+        html = BeautifulSoup(
             '<img resource="//en.wikipedia.org/wiki/File:Foo_Bar.svg" src=""/>',
             "html.parser",
         )
         img = html.find("img")
         assert isinstance(img, Tag)
-        result = _mod._get_image_filename(img)  # noqa: SLF001
+        result = _get_image_filename(img)
         assert result == "Foo Bar.svg"
 
     def test_get_image_filename_from_src_upload(self) -> None:
         """``_get_image_filename`` should fall back to ``src`` when ``resource`` is missing."""
         # This is a `src` URL matching the first upload regex pattern
-        html = _mod.BeautifulSoup(
+        html = BeautifulSoup(
             '<img src="https://upload.wikimedia.org/wikipedia/en/9/9a/ExampleImage.svg"/>',
             "html.parser",
         )
         img = html.find("img")
         assert isinstance(img, Tag)
-        result = _mod._get_image_filename(img)  # noqa: SLF001
+        result = _get_image_filename(img)
         assert result == "ExampleImage.svg"
 
     def test_get_image_filename_from_src_thumb(self) -> None:
         """``_get_image_filename`` should extract filename from thumb ``src`` URL."""
-        html = _mod.BeautifulSoup(
+        html = BeautifulSoup(
             '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Modernphysicsfields.svg/500px-Modernphysicsfields.svg.png"/>',
             "html.parser",
         )
         img = html.find("img")
         assert isinstance(img, Tag)
-        result = _mod._get_image_filename(img)  # noqa: SLF001
+        result = _get_image_filename(img)
         assert result == "Modernphysicsfields.svg"
 
     def test_get_image_filename_missing(self) -> None:
         """``_get_image_filename`` should return ``None`` when neither attribute is usable."""
-        html = _mod.BeautifulSoup('<img alt="no url"/>', "html.parser")
+        html = BeautifulSoup('<img alt="no url"/>', "html.parser")
         img = html.find("img")
         assert isinstance(img, Tag)
-        result = _mod._get_image_filename(img)  # noqa: SLF001
+        result = _get_image_filename(img)
         assert result is None
 
     def test_get_image_filename_non_matching_src(self) -> None:
         """``_get_image_filename`` should return ``None`` when src doesn't match archive patterns."""
-        html = _mod.BeautifulSoup(
+        html = BeautifulSoup(
             '<img src="https://example.com/not/a/wikimedia/url.svg"/>',
             "html.parser",
         )
         img = html.find("img")
         assert isinstance(img, Tag)
-        result = _mod._get_image_filename(img)  # noqa: SLF001
+        result = _get_image_filename(img)
         assert result is None
 
     def test_collect_image_filenames(self) -> None:
         """``_collect_image_filenames`` should collect ``File:XXX`` titles from all images."""
-        html = _mod.BeautifulSoup(
+        html = BeautifulSoup(
             """
             <html>
             <img resource="//en.wikipedia.org/wiki/File:First.svg" src=""/>
@@ -331,13 +336,13 @@ class TestImageAltTextFallback:
             """,
             "html.parser",
         )
-        result = _mod._collect_image_filenames(html)  # noqa: SLF001
+        result = _collect_image_filenames(html)
         assert result == {"File:First.svg", "File:Second.svg"}
 
     def test_fallback_alt_empty_metadata(self) -> None:
         """``_fallback_alt`` should return ``File:XXX`` when metadata dict is empty."""
-        converter = _mod.WikiHtmlConverter(image_metadata={})
-        html = _mod.BeautifulSoup(
+        converter = WikiHtmlConverter(image_metadata={})
+        html = BeautifulSoup(
             '<img resource="//en.wikipedia.org/wiki/File:Foo.svg" src=""/>',
             "html.parser",
         )
@@ -348,10 +353,10 @@ class TestImageAltTextFallback:
 
     def test_fallback_alt_with_metadata(self) -> None:
         """``_fallback_alt`` should return metadata description when available."""
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             image_metadata={"File:Foo.svg": "A description of Foo"}
         )
-        html = _mod.BeautifulSoup(
+        html = BeautifulSoup(
             '<img resource="//en.wikipedia.org/wiki/File:Foo.svg" src=""/>',
             "html.parser",
         )
@@ -362,8 +367,8 @@ class TestImageAltTextFallback:
 
     def test_fallback_alt_unmapped_image(self) -> None:
         """``_fallback_alt`` should return empty string when image cannot be mapped to any filename."""
-        converter = _mod.WikiHtmlConverter(image_metadata={})
-        html = _mod.BeautifulSoup('<img alt="no url"/>', "html.parser")
+        converter = WikiHtmlConverter(image_metadata={})
+        html = BeautifulSoup('<img alt="no url"/>', "html.parser")
         img = html.find("img")
         assert isinstance(img, Tag)
         result = converter._fallback_alt(img)  # noqa: SLF001
@@ -387,15 +392,15 @@ class TestFormattingAgnostic:
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=tmp / "general",
             converted_wiki_lang_dir=lang_dir,
         )
 
-        compact = _mod.BeautifulSoup(
+        compact = BeautifulSoup(
             "<ul><li>Multi-line list item.</li></ul>", "html.parser"
         )
-        expanded = _mod.BeautifulSoup(
+        expanded = BeautifulSoup(
             "<ul><li>\n  Multi-line\n  list item.\n</li></ul>", "html.parser"
         )
 
@@ -415,13 +420,13 @@ class TestFormattingAgnostic:
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=tmp / "general",
             converted_wiki_lang_dir=lang_dir,
         )
 
-        compact = _mod.BeautifulSoup("<p>Multi-line paragraph.</p>", "html.parser")
-        expanded = _mod.BeautifulSoup(
+        compact = BeautifulSoup("<p>Multi-line paragraph.</p>", "html.parser")
+        expanded = BeautifulSoup(
             "<p>\n  Multi-line\n  paragraph.\n</p>", "html.parser"
         )
 
@@ -439,16 +444,16 @@ class TestFormattingAgnostic:
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=tmp / "general",
             converted_wiki_lang_dir=lang_dir,
         )
 
-        compact = _mod.BeautifulSoup(
+        compact = BeautifulSoup(
             '<a href="/wiki/Test" title="Test">Multi-line link</a>',
             "html.parser",
         )
-        expanded = _mod.BeautifulSoup(
+        expanded = BeautifulSoup(
             '<a href="/wiki/Test" title="Test">\n  Multi-line\n  link\n</a>',
             "html.parser",
         )
@@ -465,13 +470,13 @@ class TestFormattingAgnostic:
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=tmp / "general",
             converted_wiki_lang_dir=lang_dir,
         )
 
-        compact = _mod.BeautifulSoup("<h2>Multi-line header</h2>", "html.parser")
-        expanded = _mod.BeautifulSoup(
+        compact = BeautifulSoup("<h2>Multi-line header</h2>", "html.parser")
+        expanded = BeautifulSoup(
             "<h2>\n  Multi-line\n  header\n</h2>", "html.parser"
         )
 
@@ -489,15 +494,15 @@ class TestFormattingAgnostic:
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=tmp / "general",
             converted_wiki_lang_dir=lang_dir,
         )
 
-        compact = _mod.BeautifulSoup(
+        compact = BeautifulSoup(
             "<table><tr><td>Multi-line cell</td></tr></table>", "html.parser"
         )
-        expanded = _mod.BeautifulSoup(
+        expanded = BeautifulSoup(
             "<table><tr><td>\n  Multi-line\n  cell\n</td></tr></table>",
             "html.parser",
         )
@@ -514,15 +519,15 @@ class TestFormattingAgnostic:
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=tmp / "general",
             converted_wiki_lang_dir=lang_dir,
         )
 
-        compact = _mod.BeautifulSoup(
+        compact = BeautifulSoup(
             "<p>Some <span>inline</span> text.</p>", "html.parser"
         )
-        expanded = _mod.BeautifulSoup(
+        expanded = BeautifulSoup(
             "<p>Some\n<span>inline</span>\ntext.</p>",
             "html.parser",
         )
@@ -541,15 +546,15 @@ class TestFormattingAgnostic:
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=tmp / "general",
             converted_wiki_lang_dir=lang_dir,
         )
 
-        compact = _mod.BeautifulSoup(
+        compact = BeautifulSoup(
             "<p><b>Bold</b> and <i>italic</i> text.</p>", "html.parser"
         )
-        expanded = _mod.BeautifulSoup(
+        expanded = BeautifulSoup(
             "<p>\n  <b>Bold</b>\n  and\n  <i>italic</i>\n  text.\n</p>",
             "html.parser",
         )
@@ -566,16 +571,16 @@ class TestFormattingAgnostic:
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=tmp / "general",
             converted_wiki_lang_dir=lang_dir,
         )
 
-        compact = _mod.BeautifulSoup(
+        compact = BeautifulSoup(
             '<a class="mw-selflink" href="/wiki/Test">Multi-line selflink</a>',
             "html.parser",
         )
-        expanded = _mod.BeautifulSoup(
+        expanded = BeautifulSoup(
             '<a class="mw-selflink" href="/wiki/Test">\n  Multi-line\n  selflink\n</a>',
             "html.parser",
         )
@@ -592,12 +597,12 @@ class TestFormattingAgnostic:
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
         await lang_dir.mkdir(parents=True)
-        converter = _mod.WikiHtmlConverter(
+        converter = WikiHtmlConverter(
             converted_wiki_dir=tmp / "general",
             converted_wiki_lang_dir=lang_dir,
         )
 
-        html = _mod.BeautifulSoup(
+        html = BeautifulSoup(
             "<ul><li>\n    Some text that is hard-wrapped\n    in the HTML source.\n</li></ul>",
             "html.parser",
         )
@@ -624,7 +629,7 @@ class TestConverterLinkSpacing:
     @pytest.mark.anyio
     async def test_preserves_spaces_around_links(self) -> None:
         """Spaces before and after a single link in image description must be preserved."""
-        soup = _mod.BeautifulSoup(
+        soup = BeautifulSoup(
             '<div>a <a href="https://en.wikipedia.org/wiki/Example" class="extiw" title="w:Example">link</a> applied</div>',
             "html.parser",
         )
@@ -632,7 +637,7 @@ class TestConverterLinkSpacing:
         assert isinstance(div, Tag)
         for a in div.find_all("a"):
             a.attrs.pop("title", None)
-        converter = _mod.WikiHtmlConverter()
+        converter = WikiHtmlConverter()
         result = await converter.convert(
             div, out_to_archive=set(), refs=False, redirect_map={}
         )
@@ -641,7 +646,7 @@ class TestConverterLinkSpacing:
     @pytest.mark.anyio
     async def test_preserves_spaces_around_multiple_links(self) -> None:
         """Multiple links in image description must each have correct spacing."""
-        soup = _mod.BeautifulSoup(
+        soup = BeautifulSoup(
             '<div>are <a href="https://en.wikipedia.org/wiki/Overtone" class="extiw">overtones</a> and <a href="https://en.wikipedia.org/wiki/Harmonic" class="extiw">harmonics</a> here</div>',
             "html.parser",
         )
@@ -649,7 +654,7 @@ class TestConverterLinkSpacing:
         assert isinstance(div, Tag)
         for a in div.find_all("a"):
             a.attrs.pop("title", None)
-        converter = _mod.WikiHtmlConverter()
+        converter = WikiHtmlConverter()
         result = await converter.convert(
             div, out_to_archive=set(), refs=False, redirect_map={}
         )
@@ -661,7 +666,7 @@ class TestConverterLinkSpacing:
     @pytest.mark.anyio
     async def test_preserves_spaces_link_at_start(self) -> None:
         """A link at the start of an image description must have correct spacing after."""
-        soup = _mod.BeautifulSoup(
+        soup = BeautifulSoup(
             '<div><a href="https://en.wikipedia.org/wiki/Graph_of_a_function" class="extiw">Graph</a> of the normalized function</div>',
             "html.parser",
         )
@@ -669,7 +674,7 @@ class TestConverterLinkSpacing:
         assert isinstance(div, Tag)
         for a in div.find_all("a"):
             a.attrs.pop("title", None)
-        converter = _mod.WikiHtmlConverter()
+        converter = WikiHtmlConverter()
         result = await converter.convert(
             div, out_to_archive=set(), refs=False, redirect_map={}
         )

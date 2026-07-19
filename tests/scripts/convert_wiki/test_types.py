@@ -5,7 +5,7 @@ These tests cover the _RedirectInfo dataclass and other type definitions.
 
 import dataclasses
 
-from scripts import convert_wiki as _mod
+from scripts.convert_wiki import types as _mod
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()

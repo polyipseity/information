@@ -8,7 +8,8 @@ from os import PathLike
 
 from anyio import Path
 
-from scripts import convert_wiki as _mod
+from scripts.convert_wiki import config as _mod
+from scripts.convert_wiki.converter import _HEADER_REGEX, _MARKDOWN_SEPARATOR
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -86,7 +87,7 @@ class TestConstants:
 
     def test_markdown_separator(self) -> None:
         """_MARKDOWN_SEPARATOR should be the expected comment."""
-        assert _mod._MARKDOWN_SEPARATOR == "<!-- markdown separator -->"  # noqa: SLF001
+        assert _MARKDOWN_SEPARATOR == "<!-- markdown separator -->"  # noqa: SLF001
 
     def test_page_does_not_exist_suffix(self) -> None:
         """_PAGE_DOES_NOT_EXIST_SUFFIX should be as expected."""
@@ -96,14 +97,6 @@ class TestConstants:
         """_MARKDOWN_SEPARATOR_CHARACTERS should contain underscores and slashes removed."""
         assert "/" not in _mod._MARKDOWN_SEPARATOR_CHARACTERS  # noqa: SLF001
         assert "_" not in _mod._MARKDOWN_SEPARATOR_CHARACTERS  # noqa: SLF001
-
-    def test_pyarchivist_args_import(self) -> None:
-        """pyarchivist Args should be importable from the module."""
-        assert hasattr(_mod, "Args")
-
-    def test_pyarchivist_archive_import(self) -> None:
-        """pyarchivist archive function should be importable from the module."""
-        assert hasattr(_mod, "pyarchivist_archive")
 
 
 class TestWithCwd:
@@ -194,11 +187,11 @@ class TestNewRegexConstants:
     def test_header_regex(self) -> None:
         """_HEADER_REGEX should match h1-h6 (converter's stricter pattern)."""
 
-        assert _mod._HEADER_REGEX.match("h1")  # noqa: SLF001
-        assert _mod._HEADER_REGEX.match("h6")  # noqa: SLF001
-        assert not _mod._HEADER_REGEX.match("div")  # noqa: SLF001
-        assert not _mod._HEADER_REGEX.match("h")  # noqa: SLF001 — must have digit
-        assert not _mod._HEADER_REGEX.match("h12")  # noqa: SLF001 — exactly one digit
+        assert _HEADER_REGEX.match("h1")  # noqa: SLF001
+        assert _HEADER_REGEX.match("h6")  # noqa: SLF001
+        assert not _HEADER_REGEX.match("div")  # noqa: SLF001
+        assert not _HEADER_REGEX.match("h")  # noqa: SLF001 — must have digit
+        assert not _HEADER_REGEX.match("h12")  # noqa: SLF001 — exactly one digit
 
     def test_markdown_escape_regex(self) -> None:
         """_MARKDOWN_ESCAPE_REGEX should match special chars."""

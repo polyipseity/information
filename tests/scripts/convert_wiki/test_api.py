@@ -15,7 +15,10 @@ from aiohttp import ClientSession
 from anyio import Path
 from bs4 import BeautifulSoup
 
-from scripts import convert_wiki as _mod
+from scripts.convert_wiki import api as _mod
+from scripts.convert_wiki import config
+from scripts.convert_wiki.config import _CACHE_TTL
+from scripts.convert_wiki.types import _RedirectInfo
 
 _SNAPSHOT_DIR = PathlibPath(__file__).resolve(strict=True).parent / "snapshots"
 
@@ -108,9 +111,9 @@ class TestRedirectCache:
         """Should round-trip cache data through JSON."""
         path = Path(tmp_path) / "redirect_cache.json"
         cache = {
-            "A": _mod._RedirectInfo(to="B", tofragment=""),  # noqa: SLF001
-            "C": _mod._RedirectInfo(to="D", tofragment="s"),  # noqa: SLF001
-            "E": _mod._RedirectInfo(to="E"),  # noqa: SLF001  # non-redirect
+            "A": _RedirectInfo(to="B", tofragment=""),  # noqa: SLF001
+            "C": _RedirectInfo(to="D", tofragment="s"),  # noqa: SLF001
+            "E": _RedirectInfo(to="E"),  # noqa: SLF001  # non-redirect
         }
         await _mod._save_redirect_cache(cache, cache_path=path)  # noqa: SLF001
         loaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
@@ -148,7 +151,7 @@ class TestRedirectCache:
             json.dumps({"X": {"to": "Y", "tofragment": "", "cached_at": old_ts}}),
             encoding="UTF-8",
         )
-        monkeypatch.setattr(_mod, "_CACHE_TTL", timedelta(days=1))
+        monkeypatch.setattr(config, "_CACHE_TTL", timedelta(days=1))
         loaded = _mod._load_redirect_cache(cache_path=path)  # noqa: SLF001
         assert loaded == {}
 
@@ -183,7 +186,7 @@ class TestRedirectCache:
 
     def test_default_ttl_is_one_day(self) -> None:
         """Default cache TTL should be exactly 1 day."""
-        assert _mod._CACHE_TTL == timedelta(days=1)  # noqa: SLF001
+        assert _CACHE_TTL == timedelta(days=1)  # noqa: SLF001
 
 
 class TestApiRequest:
@@ -300,8 +303,8 @@ class TestResolveRedirects:
         async def run() -> None:
             """Run the async test body."""
             cache = {
-                "Page A": _mod._RedirectInfo(to="Page A"),  # noqa: SLF001
-                "Page B": _mod._RedirectInfo(to="Page B"),  # noqa: SLF001
+                "Page A": _RedirectInfo(to="Page A"),  # noqa: SLF001
+                "Page B": _RedirectInfo(to="Page B"),  # noqa: SLF001
             }
             titles = {"Page A", "Page B"}
 
@@ -332,7 +335,7 @@ class TestResolveRedirects:
 
         async def run() -> None:
             """Run the async test body."""
-            cache: dict[str, _mod._RedirectInfo] = {}  # noqa: SLF001
+            cache: dict[str, _RedirectInfo] = {}  # noqa: SLF001
             titles = {"Redirect to Page"}
 
             class MockResponse:
@@ -392,7 +395,7 @@ class TestResolveRedirects:
 
         async def run() -> None:
             """Run the async test body."""
-            cache: dict[str, _mod._RedirectInfo] = {}  # noqa: SLF001
+            cache: dict[str, _RedirectInfo] = {}  # noqa: SLF001
             titles = {"Dest with Anchor"}
 
             class MockResponse:
@@ -452,7 +455,7 @@ class TestResolveRedirects:
 
         async def run() -> None:
             """Run the async test body."""
-            cache: dict[str, _mod._RedirectInfo] = {}  # noqa: SLF001
+            cache: dict[str, _RedirectInfo] = {}  # noqa: SLF001
             titles = {"Normal Page"}
 
             class MockResponse:
@@ -506,15 +509,15 @@ class TestResolveRedirects:
         expired."""
 
         path = Path(tmp_path) / "redirect_cache.json"
-        monkeypatch.setattr(_mod, "_CACHE_TTL", timedelta(days=1))
+        monkeypatch.setattr(config, "_CACHE_TTL", timedelta(days=1))
 
         async def run() -> None:
             """Run the async test body."""
             # Pre-populate a stale cache file with expired entries on disk.
             old_ts = (datetime.now(timezone.utc) - timedelta(days=2)).isoformat()
             stale_cache = {
-                "Page X": _mod._RedirectInfo(to="Page X", cached_at=old_ts),  # noqa: SLF001
-                "Page Y": _mod._RedirectInfo(to="Page Y", cached_at=old_ts),  # noqa: SLF001
+                "Page X": _RedirectInfo(to="Page X", cached_at=old_ts),  # noqa: SLF001
+                "Page Y": _RedirectInfo(to="Page Y", cached_at=old_ts),  # noqa: SLF001
             }
             await _mod._save_redirect_cache(stale_cache, cache_path=path)  # noqa: SLF001
 

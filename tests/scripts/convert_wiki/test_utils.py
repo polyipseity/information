@@ -5,7 +5,8 @@ These tests cover the pure helper functions used throughout the package.
 
 from bs4 import Tag
 
-from scripts import convert_wiki as _mod
+from scripts.convert_wiki import utils as _mod
+from scripts.convert_wiki.config import _NAMES_MAP
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -22,7 +23,7 @@ class TestFixNameMaybe:
     def test_mapped_name(self) -> None:
         """Should return the mapped name if it exists in _NAMES_MAP."""
         # Verify the first mapping entry round-trips correctly.
-        for key, expected in _mod._NAMES_MAP.items():  # noqa: SLF001
+        for key, expected in _NAMES_MAP.items():  # noqa: SLF001
             result = _mod._fix_name_maybe(key)  # noqa: SLF001
             assert result == expected
             break
