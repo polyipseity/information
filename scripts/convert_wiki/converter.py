@@ -575,7 +575,7 @@ class WikiHtmlConverter:
         # Find the numblk table.
         numblk = ele.find("table", class_="numblk")
         if numblk is None:
-            return None
+            return self._handle_block_level(ele, classes)
 
         # Remove spacer columns (width=0px <td>) from numblk rows.
         for tdh in tuple(numblk.find_all(_TD_OR_TH)):
@@ -853,8 +853,7 @@ class WikiHtmlConverter:
         target_tr: Tag | None = None
         for tr in ele.find_all("tr"):
             cells = [
-                c for c in tr.children
-                if isinstance(c, Tag) and c.name in _TD_OR_TH
+                c for c in tr.children if isinstance(c, Tag) and c.name in _TD_OR_TH
             ]
             if any(c.name == "th" for c in cells):
                 target_tr = tr
@@ -866,8 +865,7 @@ class WikiHtmlConverter:
 
         # Build a caption row with all <td> cells.
         cells = [
-            c for c in target_tr.children
-            if isinstance(c, Tag) and c.name in _TD_OR_TH
+            c for c in target_tr.children if isinstance(c, Tag) and c.name in _TD_OR_TH
         ]
         caption_tr = _bs4_new_element("<tr></tr>")
         has_data_cell = False
@@ -888,7 +886,7 @@ class WikiHtmlConverter:
             else:
                 # Header columns & extra data columns: zero-width space to
                 # survive _filter_table_cells while rendering invisibly.
-                new_cell.string = "\u200B"
+                new_cell.string = "\u200b"
             caption_tr.append(new_cell)
 
         # Insert caption row before the original first header row.
@@ -910,8 +908,7 @@ class WikiHtmlConverter:
         """Insert alignment marker rows for mixed <th>/<td> tables."""
         for tr in ele.find_all("tr", recursive=False):
             cells = [
-                c for c in tr.children
-                if isinstance(c, Tag) and c.name in _TD_OR_TH
+                c for c in tr.children if isinstance(c, Tag) and c.name in _TD_OR_TH
             ]
             if not cells:
                 continue
@@ -922,15 +919,12 @@ class WikiHtmlConverter:
 
                 # Mixed row: compute alignments.
                 alignments = [
-                    WikiHtmlConverter._cell_alignment(c)
-                    if c.name == "th" else "---"
+                    WikiHtmlConverter._cell_alignment(c) if c.name == "th" else "---"
                     for c in cells
                 ]
                 marker_tag = _bs4_new_element(
-                    "<tr data-alignment-row=\"true\">"
-                    + "".join(
-                        f'<td data-align="{a}"></td>' for a in alignments
-                    )
+                    '<tr data-alignment-row="true">'
+                    + "".join(f'<td data-align="{a}"></td>' for a in alignments)
                     + "</tr>"
                 )
 
@@ -943,9 +937,7 @@ class WikiHtmlConverter:
                         for c in prev_tr.children
                         if isinstance(c, Tag) and c.name in _TD_OR_TH
                     ]
-                    if prev_cells and all(
-                        c.name == "td" for c in prev_cells
-                    ):
+                    if prev_cells and all(c.name == "td" for c in prev_cells):
                         tr.insert_before(marker_tag)
                         break
 
@@ -1011,7 +1003,7 @@ class WikiHtmlConverter:
                         # Insert an empty cell to occupy the column position
                         # covered by the rowspan from a previous row.
                         new_tdh = _bs4_new_element("<td></td>")
-                        new_tdh.string = "\u200B"
+                        new_tdh.string = "\u200b"
                         current_row.insert(col_idx, new_tdh)
 
     @staticmethod
@@ -1066,14 +1058,9 @@ class WikiHtmlConverter:
         total_colspan = sum(int(str(c.get("colspan", "1"))) for c in tag_cells)
 
         # Check for alignment marker row (from _insert_mixed_alignment_rows).
-        is_alignment_row = any(
-            c.get("data-alignment-row") for c in [ele]
-        )
+        is_alignment_row = any(c.get("data-alignment-row") for c in [ele])
         if is_alignment_row:
-            markers = [
-                c.get("data-align", "---")
-                for c in tag_cells
-            ]
+            markers = [c.get("data-align", "---") for c in tag_cells]
             return _HandlerConfig(
                 full_result=True,
                 prefix="",

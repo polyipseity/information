@@ -51,33 +51,51 @@ class TestCaptionTableAlignmentRows:
 </table>"""
 
     @pytest.mark.anyio
-    async def test_caption_integration_bold_first_cell(self, converter: WikiHtmlConverter) -> None:
+    async def test_caption_integration_bold_first_cell(
+        self, converter: WikiHtmlConverter
+    ) -> None:
         """Caption text should appear as bold text prepended to first data cell."""
         html = BeautifulSoup(self.CAPTION_TABLE_HTML, "html.parser")
-        result = await converter.convert(html, out_to_archive=set(), refs=True, redirect_map={})
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
         # The caption "Summary of popular forms" should be bold and prepended to the first data cell.
-        assert "__Summary of popular forms__" in result, "Caption should appear as bold in first data cell"
+        assert "__Summary of popular forms__" in result, (
+            "Caption should appear as bold in first data cell"
+        )
 
     @pytest.mark.anyio
-    async def test_caption_table_has_alignment_row(self, converter: WikiHtmlConverter) -> None:
+    async def test_caption_table_has_alignment_row(
+        self, converter: WikiHtmlConverter
+    ) -> None:
         """Caption table with mixed <th>/<td> should produce alignment marker row."""
         html = BeautifulSoup(self.CAPTION_TABLE_HTML, "html.parser")
-        result = await converter.convert(html, out_to_archive=set(), refs=True, redirect_map={})
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
         # The alignment row should contain GFM alignment markers.
-        assert ":-:" in result, "Alignment markers should use :-: for center-aligned columns"
+        assert ":-:" in result, (
+            "Alignment markers should use :-: for center-aligned columns"
+        )
         assert "---" in result, "Default-aligned column should use ---"
 
     @pytest.mark.anyio
-    async def test_caption_table_alignment_row_format(self, converter: WikiHtmlConverter) -> None:
+    async def test_caption_table_alignment_row_format(
+        self, converter: WikiHtmlConverter
+    ) -> None:
         """Alignment row should be a proper GFM header-content separator line."""
         html = BeautifulSoup(self.CAPTION_TABLE_HTML, "html.parser")
-        result = await converter.convert(html, out_to_archive=set(), refs=True, redirect_map={})
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
         align_lines2 = [ln for ln in result.split("\n") if ":-:" in ln or "---" in ln]
         has_proper_separator = any(
             line.startswith("|") and "| :-:" in line and "| ---" in line
             for line in align_lines2
         )
-        assert has_proper_separator, f"Should have at least one GFM align row with markers, got lines: {align_lines2}"
+        assert has_proper_separator, (
+            f"Should have at least one GFM align row with markers, got lines: {align_lines2}"
+        )
 
     CAPTION_CENTER_RIGHT_HTML = """\
 <table class="wikitable">
@@ -102,8 +120,14 @@ class TestCaptionTableAlignmentRows:
     async def test_alignment_marker_values(self, converter: WikiHtmlConverter) -> None:
         """Each alignment style should produce the correct GFM marker."""
         html = BeautifulSoup(self.CAPTION_CENTER_RIGHT_HTML, "html.parser")
-        result = await converter.convert(html, out_to_archive=set(), refs=True, redirect_map={})
-        lines = [ln for ln in result.split("\n") if ":-:" in ln or "--:" in ln or ":--" in ln or "---" in ln]
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
+        lines = [
+            ln
+            for ln in result.split("\n")
+            if ":-:" in ln or "--:" in ln or ":--" in ln or "---" in ln
+        ]
         assert any(":-:" in ln for ln in lines), "Center alignment should produce :-:"
         assert any("--:" in ln for ln in lines), "Right alignment should produce --:"
         assert any(":--" in ln for ln in lines), "Left alignment should produce :--"
@@ -124,11 +148,17 @@ class TestCaptionTableAlignmentRows:
 </table>"""
 
     @pytest.mark.anyio
-    async def test_no_caption_mixed_row_alignment(self, converter: WikiHtmlConverter) -> None:
+    async def test_no_caption_mixed_row_alignment(
+        self, converter: WikiHtmlConverter
+    ) -> None:
         """Mixed <th>/<td> row without caption should still produce alignment row."""
         html = BeautifulSoup(self.NO_CAPTION_MIXED_HTML, "html.parser")
-        result = await converter.convert(html, out_to_archive=set(), refs=True, redirect_map={})
-        assert ":-:" in result, "Mixed row without caption should still produce alignment markers"
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
+        assert ":-:" in result, (
+            "Mixed row without caption should still produce alignment markers"
+        )
 
     ALL_TH_HTML = """\
 <table class="wikitable">
@@ -148,10 +178,14 @@ class TestCaptionTableAlignmentRows:
     async def test_all_th_no_alignment_row(self, converter: WikiHtmlConverter) -> None:
         """All-<th> rows should NOT produce additional alignment rows (handled by suffix)."""
         html = BeautifulSoup(self.ALL_TH_HTML, "html.parser")
-        result = await converter.convert(html, out_to_archive=set(), refs=True, redirect_map={})
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
         # Alignment markers for all-<th> rows are appended as suffix, not as a separate row.
         # Count how many lines have alignment markers.
-        align_lines = [ln for ln in result.split("\n") if "---" in ln and ln.startswith("|")]
+        align_lines = [
+            ln for ln in result.split("\n") if "---" in ln and ln.startswith("|")
+        ]
         # There should be exactly one alignment line (appended after the first all-<th> row).
         assert len(align_lines) >= 1, "All-<th> row should produce alignment suffix"
 
@@ -178,15 +212,25 @@ class TestCaptionTableAlignmentRows:
 </table>"""
 
     @pytest.mark.anyio
-    async def test_equation_box_with_rowspan_and_caption(self, converter: WikiHtmlConverter) -> None:
+    async def test_equation_box_with_rowspan_and_caption(
+        self, converter: WikiHtmlConverter
+    ) -> None:
         """Equation-box style table with caption and rowspan should produce correct output."""
         html = BeautifulSoup(self.EQUATION_BOX_WITH_ROWSPAN_HTML, "html.parser")
-        result = await converter.convert(html, out_to_archive=set(), refs=True, redirect_map={})
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
         lines = result.split("\n")
         assert any(":-:" in ln for ln in lines), "Alignment markers should appear"
-        assert any("__Generalization for n-dimensional functions__" in ln for ln in lines), "Caption should be bold in first cell"
-        assert any("Standard FT" in ln for ln in lines), "Rowspan text should be preserved in data rows"
-        assert any("__Transform__" in ln for ln in lines) or any("__Inverse FT__" in ln for ln in lines), "Header cells should be bolded"
+        assert any(
+            "__Generalization for n-dimensional functions__" in ln for ln in lines
+        ), "Caption should be bold in first cell"
+        assert any("Standard FT" in ln for ln in lines), (
+            "Rowspan text should be preserved in data rows"
+        )
+        assert any("__Transform__" in ln for ln in lines) or any(
+            "__Inverse FT__" in ln for ln in lines
+        ), "Header cells should be bolded"
         # The row after rowspan=2 should have correct column placement.
         rowspan_row_lines = [ln for ln in lines if "$formula_2$" in ln]
         if rowspan_row_lines:
@@ -201,8 +245,7 @@ class TestCaptionTableAlignmentRows:
             row = formula3_lines[0]
             cells = [c.strip() for c in row.strip(" |").split(" | ")]
             assert len(cells) == 2, (
-                f"Inverse FT row should have 2 cells, "
-                f"got {len(cells)}: {cells!r}"
+                f"Inverse FT row should have 2 cells, got {len(cells)}: {cells!r}"
             )
 
     EMPTY_CAPTION_HTML = """\
@@ -220,7 +263,9 @@ class TestCaptionTableAlignmentRows:
     async def test_empty_caption_no_op(self, converter: WikiHtmlConverter) -> None:
         """Empty caption should not affect table rendering (no caption integration)."""
         html = BeautifulSoup(self.EMPTY_CAPTION_HTML, "html.parser")
-        result = await converter.convert(html, out_to_archive=set(), refs=True, redirect_map={})
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
         # Regular table without caption integration is fine.
         assert result, "Should produce output for table with empty caption"
 
@@ -235,18 +280,45 @@ class TestCaptionTableAlignmentRows:
 </table>"""
 
     @pytest.mark.anyio
-    async def test_no_caption_pure_data_table(self, converter: WikiHtmlConverter) -> None:
+    async def test_no_caption_pure_data_table(
+        self, converter: WikiHtmlConverter
+    ) -> None:
         """Pure <td> table without caption should render normally without alignment row."""
         html = BeautifulSoup(self.NO_CAPTION_PURE_TD_HTML, "html.parser")
-        result = await converter.convert(html, out_to_archive=set(), refs=True, redirect_map={})
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
         lines = [ln.strip() for ln in result.split("\n") if ln.strip()]
         # Should have data rows but no alignment markers.
-        align_lines = [ln for ln in lines if ":-:" in ln or "--:" in ln or ":--" in ln or "---" in ln]
+        align_lines = [
+            ln
+            for ln in lines
+            if ":-:" in ln or "--:" in ln or ":--" in ln or "---" in ln
+        ]
         if align_lines:
             # If alignment markers exist, they should be part of a data row, not a standalone row.
             pass  # It's also fine, just testing no crash
         assert "a" in result, "Data should appear"
         assert "b" in result, "Data should appear"
+
+    EQUATION_BOX_NO_NUMBLK_HTML = """\
+<div class="equation-box">
+<p>Some equation content without numblk table.</p>
+</div>"""
+
+    @pytest.mark.anyio
+    async def test_equation_box_no_numblk_falls_through_to_block_level(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Equation-box div without numblk table should render as normal block-level content."""
+        html = BeautifulSoup(self.EQUATION_BOX_NO_NUMBLK_HTML, "html.parser")
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
+        # Content should still appear even without numblk table.
+        assert "Some equation content without numblk table" in result, (
+            "Equation-box div without numblk should still render content"
+        )
 
 
 class TestRowspanColumnOffset:
@@ -277,7 +349,9 @@ class TestRowspanColumnOffset:
     async def test_rowspan_column_count(self, converter: WikiHtmlConverter) -> None:
         """Rowspan=2 on first column should not shift the last cell's column position."""
         html = BeautifulSoup(self.ROWSPAN_COLUMN_OFFSET_HTML, "html.parser")
-        result = await converter.convert(html, out_to_archive=set(), refs=True, redirect_map={})
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
         lines = result.split("\n")
         # Find the non-unitary row (row after rowspan header).
         non_unitary_lines = [ln for ln in lines if "non-unitary" in ln]
