@@ -125,7 +125,7 @@ As {@{the [Nyquist frequency](Nyquist%20frequency.md) is a limitation in the max
 
 {@{The Rayleigh frequency}@} is {@{the minimum frequency that can be resolved by a finite duration time window}@}.<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2026-09-01,337,349!2026-08-22,329,349-->
 
-Given {@{a time window that is Τ seconds long}@}, the minimum frequency {@{that can be resolved is 1/Τ Hz}@}. <!--SR:!2026-07-23,306,349!2026-09-01,337,349-->
+Given {@{a time window that is Τ seconds long}@}, the minimum frequency {@{that can be resolved is 1/Τ Hz}@}. <!--SR:!fsrs,2030-05-29T00:00:00.000Z,1405,1404.76144464,1,2,9,0,0,2026-07-24T00:00:00.000Z!2026-09-01,337,349-->
 
 The Rayleigh frequency is {@{an important consideration in applications of the short-time Fourier transform \(STFT\)}@}, as well as {@{any other method of harmonic analysis on a signal of finite record-length}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> <!--SR:!fsrs,2029-12-01T00:00:00.000Z,1244,1244.40857912,1,2,9,0,0,2026-07-06T00:00:00.000Z!2026-08-22,329,349-->
 

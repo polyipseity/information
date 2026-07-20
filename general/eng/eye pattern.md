@@ -15,7 +15,7 @@ tags:
 
 > {@{![Graphical eye pattern showing an example of two power levels in an [OOK](on-off%20keying.md) modulation scheme.](../../archives/Wikimedia%20Commons/On-off%20keying%20eye%20diagram.svg)}@}
 >
-> {@{Graphical eye pattern}@} showing an example of {@{two power levels in an [OOK](on-off%20keying.md) modulation scheme}@}. {@{Constant binary 1 and 0 levels}@} are shown, as well as {@{transitions from 0 to 1, 1 to 0, 0 to 1 to 0, and 1 to 0 to 1}@}. <!--SR:!2026-09-17,290,330!2026-09-02,277,330!2026-09-10,284,330!2026-07-23,246,330!fsrs,2029-06-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-18T00:00:00.000Z-->
+> {@{Graphical eye pattern}@} showing an example of {@{two power levels in an [OOK](on-off%20keying.md) modulation scheme}@}. {@{Constant binary 1 and 0 levels}@} are shown, as well as {@{transitions from 0 to 1, 1 to 0, 0 to 1 to 0, and 1 to 0 to 1}@}. <!--SR:!2026-09-17,290,330!2026-09-02,277,330!2026-09-10,284,330!fsrs,2029-07-20T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-07-24T00:00:00.000Z!fsrs,2029-06-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-18T00:00:00.000Z-->
 
 In {@{[telecommunications](telecommunications.md)}@}, {@{an __eye pattern__, also known as an __eye diagram__}@}, is {@{an [oscilloscope](oscilloscope.md) display}@} in which {@{a [digital signal](digital%20signal.md) from a receiver is repetitively sampled and applied to the vertical input \(_y-axis_\)}@}, while {@{the data rate is used to trigger the horizontal sweep \(_x-axis_\)}@}. It is so called because, for {@{several types of coding}@}, the pattern looks like {@{a series of eyes between a pair of rails}@}. It is {@{a tool for the evaluation}@} of {@{the combined effects of channel noise, dispersion and [intersymbol interference](intersymbol%20interference.md)}@} on {@{the performance of a baseband pulse-transmission system}@}. The technique was first used with {@{the [WWII](WWII.md) [SIGSALY](SIGSALY.md) secure speech transmission system}@}. <!--SR:!2026-09-01,276,330!2026-08-24,271,330!2026-08-26,272,330!2026-08-21,266,330!2026-08-09,259,330!fsrs,2029-07-05T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-07-21T00:00:00.000Z!2026-09-15,288,330!2026-07-30,251,330!2026-09-22,294,330!2026-08-19,267,330!2026-08-30,276,330-->
 
@@ -45,7 +45,7 @@ This approach can {@{work adequately}@} for {@{stable signals in which the symbo
 
 #### reference clock
 
-With {@{some protocols, such as [HDMI](HDMI.md)}@}, {@{a reference clock}@} is supplied {@{along with the signal}@}, either {@{at the symbol rate or at a lower \(but synchronized\) frequency}@} from which {@{a symbol clock can be reconstructed}@}. Since {@{the actual receiver in the system}@} uses {@{the reference clock to sample the data}@}, {@{using this clock to determine UI boundaries}@} allows the eye pattern to {@{faithfully display the signal as the receiver sees it}@}: {@{only jitter between the signal and the reference clock}@} is {@{displayed}@}. <!--SR:!2026-09-13,286,330!2026-09-22,294,330!2026-09-14,287,330!2026-07-31,252,330!2026-08-18,266,330!fsrs,2029-06-30T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-07-20T00:00:00.000Z!2026-07-23,246,330!2026-08-26,272,330!2026-09-19,291,330!2026-09-18,290,330!fsrs,2029-07-15T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-23T00:00:00.000Z-->
+With {@{some protocols, such as [HDMI](HDMI.md)}@}, {@{a reference clock}@} is supplied {@{along with the signal}@}, either {@{at the symbol rate or at a lower \(but synchronized\) frequency}@} from which {@{a symbol clock can be reconstructed}@}. Since {@{the actual receiver in the system}@} uses {@{the reference clock to sample the data}@}, {@{using this clock to determine UI boundaries}@} allows the eye pattern to {@{faithfully display the signal as the receiver sees it}@}: {@{only jitter between the signal and the reference clock}@} is {@{displayed}@}. <!--SR:!2026-09-13,286,330!2026-09-22,294,330!2026-09-14,287,330!2026-07-31,252,330!2026-08-18,266,330!fsrs,2029-06-30T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-07-20T00:00:00.000Z!fsrs,2029-07-20T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-07-24T00:00:00.000Z!2026-08-26,272,330!2026-09-19,291,330!2026-09-18,290,330!fsrs,2029-07-15T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-23T00:00:00.000Z-->
 
 #### clock recovery
 
@@ -89,7 +89,7 @@ The eye pattern of {@{a [MLT-3](MLT-3%20encoding.md) \(annotation: multi-level t
 
 ### PAM
 
-The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pulse-amplitude modulation\) signal}@} should consist of {@{N clearly distinct levels}@} \(depending on {@{the PAM order}@}, for example {@{PAM-4 should have four levels and PAM-3 should have three}@}\). {@{The overall shape}@} should be {@{symmetric about the horizontal axis}@} and {@{the spacing of all levels}@} should be {@{uniform}@}. <!--SR:!2026-08-28,274,330!2026-08-16,264,330!2026-09-10,284,330!2026-09-01,276,330!2026-09-05,280,330!2026-07-23,246,330!2026-07-25,247,330!2026-08-12,261,330-->
+The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pulse-amplitude modulation\) signal}@} should consist of {@{N clearly distinct levels}@} \(depending on {@{the PAM order}@}, for example {@{PAM-4 should have four levels and PAM-3 should have three}@}\). {@{The overall shape}@} should be {@{symmetric about the horizontal axis}@} and {@{the spacing of all levels}@} should be {@{uniform}@}. <!--SR:!2026-08-28,274,330!2026-08-16,264,330!2026-09-10,284,330!2026-09-01,276,330!2026-09-05,280,330!fsrs,2029-07-20T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-07-24T00:00:00.000Z!2026-07-25,247,330!2026-08-12,261,330-->
 
 > {@{![Eye pattern of a PAM-3 signal \([100BASE-T1](100BASE-T1.md#100BASE-T1) automotive Ethernet\)](../../archives/Wikimedia%20Commons/Eye%20pattern%20PAM3.png)}@}
 >
@@ -109,7 +109,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 ## channel effects
 
-{@{Many properties of a [channel](communication%20channel.md)}@} can be seen in {@{the eye pattern}@}. <!--SR:!2026-07-23,246,330!2026-07-27,249,330-->
+{@{Many properties of a [channel](communication%20channel.md)}@} can be seen in {@{the eye pattern}@}. <!--SR:!fsrs,2029-07-20T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-07-24T00:00:00.000Z!2026-07-27,249,330-->
 
 ### emphasis
 

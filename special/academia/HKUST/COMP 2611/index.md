@@ -183,7 +183,7 @@ The content is in teaching order.
     - logical equivalence / logical expression ::@:: They give a more concise way to express Boolean functions, especially ones with many input variables. However, it is not always obvious that two different expressions are the same logically, so we need to simplify the expressions using Boolean algebra or Karnaugh map. <!--SR:!2026-08-30,433,387!2026-09-29,463,387-->
 - Boolean algebra
     - Boolean algebra / laws ::@:: Translate logical statements into mathematical symbols. Then these laws may be used to simplify the mathematical expression. Then get back simplified logical statements. <!--SR:!2026-10-12,476,387!2026-09-01,442,387-->
-        - Boolean algebra / laws / identity laws ::@:: $$\begin{aligned} p \land \top & \equiv p \\ p \lor \bot & \equiv p \end{aligned}$$ <!--SR:!2026-09-04,438,387!2026-07-23,413,387-->
+        - Boolean algebra / laws / identity laws ::@:: $$\begin{aligned} p \land \top & \equiv p \\ p \lor \bot & \equiv p \end{aligned}$$ <!--SR:!2026-09-04,438,387!fsrs,2031-11-18T00:00:00.000Z,1943,1943.3704559,1,2,10,0,0,2026-07-24T00:00:00.000Z-->
         - Boolean algebra / laws / domination laws (null laws) ::@:: $$\begin{aligned} p \lor \top & \equiv \top \\ p \land \bot & \equiv \bot \end{aligned}$$ <!--SR:!2026-09-05,439,387!2026-10-03,467,387-->
         - Boolean algebra / laws / idempotent or tautology laws ::@:: $$\begin{aligned} p \lor p & \equiv p \\ p \land p & \equiv p \end{aligned}$$ <!--SR:!2026-10-06,470,387!2026-09-03,437,387-->
         - Boolean algebra / laws / negation laws (inverse laws) ::@:: $$\begin{aligned} p \lor \lnot p & \equiv \top \\ p \land \lnot p & \equiv \bot \end{aligned}$$ <!--SR:!2026-08-24,434,387!2026-10-02,466,387-->
