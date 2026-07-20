@@ -173,9 +173,12 @@ class WikiHtmlConverter:
             and "mw:Transclusion" in str(ele.get("typeof", ""))
         ):
             if "annotated image" in str(ele.get("data-mw", "")):
-                thumbimage = ele.find("div", class_="thumbimage")
-                if thumbimage:
-                    thumbimage.decompose()
+                for ann_div in ele.find_all(
+                    "div", id=lambda v: v and v.startswith("annotation_")
+                ):
+                    ann_div.decompose()
+                for noviewer in ele.find_all("span", class_="noviewer"):
+                    noviewer.decompose()
 
         self._out_to_archive = out_to_archive
         self._redirect_map = redirect_map
