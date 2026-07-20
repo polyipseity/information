@@ -41,7 +41,7 @@ In computer science, applications of this type arise in [instruction scheduling]
 
 - Not to be confused with {@{[Kuhn's algorithm](Hungarian%20algorithm.md)}@}. <!--SR:!2031-12-19,2068,391-->
 
-One of these algorithms, first described by {@{[Kahn \(1962\)](#^ref-2)}@}, works by {@{choosing vertices in the same order as the eventual topological sort}@}.<sup>[\[2\]](#^ref-2)</sup> First, find {@{a list of "start nodes" that have no incoming edges and insert them into a set S}@}; {@{at least one such node}@} must {@{exist in a non-empty \(finite\) acyclic graph}@}. Then: <!--SR:!2030-04-29,1564,379!2031-10-25,2013,391!2030-06-18,1612,378!2029-02-27,1138,359!2026-07-24,150,424-->
+One of these algorithms, first described by {@{[Kahn \(1962\)](#^ref-2)}@}, works by {@{choosing vertices in the same order as the eventual topological sort}@}.<sup>[\[2\]](#^ref-2)</sup> First, find {@{a list of "start nodes" that have no incoming edges and insert them into a set S}@}; {@{at least one such node}@} must {@{exist in a non-empty \(finite\) acyclic graph}@}. Then: <!--SR:!2030-04-29,1564,379!2031-10-25,2013,391!2030-06-18,1612,378!2029-02-27,1138,359!fsrs,2028-10-12T00:00:00.000Z,810,809.97683048,1,2,8,0,0,2026-07-25T00:00:00.000Z-->
 
 <pre>
 <i>L</i> ← Empty list that will contain the sorted elements
