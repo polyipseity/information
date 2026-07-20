@@ -320,6 +320,30 @@ class TestCaptionTableAlignmentRows:
             "Equation-box div without numblk should still render content"
         )
 
+    CAPTION_PURE_TD_HTML = """\
+<table class="wikitable">
+<caption>My Caption</caption>
+<tbody>
+<tr>
+<td>Data 1</td>
+<td>Data 2</td>
+</tr>
+</tbody>
+</table>"""
+
+    @pytest.mark.anyio
+    async def test_caption_pure_data_table(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Table with caption and pure <td> rows should preserve caption text."""
+        html = BeautifulSoup(self.CAPTION_PURE_TD_HTML, "html.parser")
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
+        assert "My Caption" in result, (
+            "Caption on pure <td> table should not be silently dropped"
+        )
+
 
 class TestRowspanColumnOffset:
     """Regression: rowspan cells must not cause column offset in subsequent rows."""

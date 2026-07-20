@@ -860,7 +860,6 @@ class WikiHtmlConverter:
                 break
 
         if target_tr is None:
-            caption.decompose()
             return None
 
         # Build a caption row with all <td> cells.
@@ -888,6 +887,9 @@ class WikiHtmlConverter:
                 # survive _filter_table_cells while rendering invisibly.
                 new_cell.string = "\u200b"
             caption_tr.append(new_cell)
+
+        # Mark caption row explicitly for alignment detection.
+        caption_tr["data-caption-row"] = "true"
 
         # Insert caption row before the original first header row.
         target_tr.insert_before(caption_tr)
