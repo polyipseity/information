@@ -167,10 +167,15 @@ class WikiHtmlConverter:
             else:
                 return ""
 
-        if isinstance(ele, Tag) and ele.name == "div" and "mw:Transclusion" in str(ele.get("typeof", "")):
+        if (
+            isinstance(ele, Tag)
+            and ele.name == "div"
+            and "mw:Transclusion" in str(ele.get("typeof", ""))
+        ):
             if "annotated image" in str(ele.get("data-mw", "")):
-                for ann_div in ele.find_all("div", id=lambda v: v and v.startswith("annotation_")):
-                    ann_div.decompose()
+                thumbimage = ele.find("div", class_="thumbimage")
+                if thumbimage:
+                    thumbimage.decompose()
 
         self._out_to_archive = out_to_archive
         self._redirect_map = redirect_map
