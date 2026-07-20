@@ -560,7 +560,52 @@ class WikiHtmlConverter:
         suffix = "\n\n" if self._in_table_cell(ele) else ""
         return _HandlerConfig(suffix=suffix)
 
-    _handle_div = _handle_block_level
+    def _handle_div(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
+        """Handle <div> elements, with special handling for equation-box divs."""
+        if "equation-box" not in classes:
+            return self._handle_block_level(ele, classes)
+
+        # Extract title from non-whitespace text nodes.
+        title = ""
+        for child in list(ele.children):
+            if isinstance(child, NavigableString) and child.strip():
+                title = child.strip()
+                break
+
+        # Find the numblk table.
+        numblk = ele.find("table", class_="numblk")
+        if numblk is None:
+            return None
+
+        # Remove spacer columns (width=0px <td>) from numblk rows.
+        for tdh in tuple(numblk.find_all(_TD_OR_TH)):
+            style = str(tdh.get("style", ""))
+            if re.search(r"width\s*:\s*0", style, re.IGNORECASE):
+                tdh.decompose()
+
+        # Build a new table with a header row that provides alignment hints.
+        new_table = _bs4_new_element("<table></table>")
+        tbody = _bs4_new_element("<tbody></tbody>")
+        new_table.append(tbody)
+
+        # Header row: title in center-aligned <th>, empty right-aligned <th>.
+        header_row = _bs4_new_element("<tr></tr>")
+        th1 = _bs4_new_element(f'<th style="text-align:center">{title}</th>')
+        th2 = _bs4_new_element('<th style="text-align:right"></th>')
+        header_row.append(th1)
+        header_row.append(th2)
+        tbody.append(header_row)
+
+        # Append cleaned numblk rows.
+        for tr in numblk.find_all("tr"):
+            tbody.append(copy(tr))
+
+        # Replace div children with the new table.
+        ele.clear()
+        ele.append(new_table)
+
+        return None
+
     _handle_dd = _handle_block_level
     _handle_dt = _handle_block_level
 
