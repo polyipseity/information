@@ -426,9 +426,7 @@ class TestFormattingAgnostic:
         )
 
         compact = BeautifulSoup("<p>Multi-line paragraph.</p>", "html.parser")
-        expanded = BeautifulSoup(
-            "<p>\n  Multi-line\n  paragraph.\n</p>", "html.parser"
-        )
+        expanded = BeautifulSoup("<p>\n  Multi-line\n  paragraph.\n</p>", "html.parser")
 
         assert await converter.convert(
             compact, out_to_archive=set(), redirect_map={}, refs=True
@@ -476,9 +474,7 @@ class TestFormattingAgnostic:
         )
 
         compact = BeautifulSoup("<h2>Multi-line header</h2>", "html.parser")
-        expanded = BeautifulSoup(
-            "<h2>\n  Multi-line\n  header\n</h2>", "html.parser"
-        )
+        expanded = BeautifulSoup("<h2>\n  Multi-line\n  header\n</h2>", "html.parser")
 
         assert await converter.convert(
             compact, out_to_archive=set(), redirect_map={}, refs=True
@@ -524,9 +520,7 @@ class TestFormattingAgnostic:
             converted_wiki_lang_dir=lang_dir,
         )
 
-        compact = BeautifulSoup(
-            "<p>Some <span>inline</span> text.</p>", "html.parser"
-        )
+        compact = BeautifulSoup("<p>Some <span>inline</span> text.</p>", "html.parser")
         expanded = BeautifulSoup(
             "<p>Some\n<span>inline</span>\ntext.</p>",
             "html.parser",
@@ -681,3 +675,51 @@ class TestConverterLinkSpacing:
         assert result.startswith(
             "[Graph](https://en.wikipedia.org/wiki/Graph_of_a_function) of"
         )
+
+
+class TestBlockMathClassification:
+    """Tests for _is_inline_math classification of block vs inline math.
+
+    _is_inline_math checks the parent span's class for "inline", then walks
+    up 2 levels to verify the great-grandparent has >1 child (sibling guard).
+    Block math returns False; inline math requires both the class and the
+    sibling guard to pass.
+    """
+
+    def test_block_math_display_class_returns_false(self) -> None:
+        """Block math (mwe-math-mathml-display parent) should return False."""
+        html = BeautifulSoup(
+            '<span class="mwe-math-element mwe-math-element-block">'
+            '<span class="mwe-math-mathml-display mwe-math-mathml-a11y">'
+            '<math display="block"></math></span></span>',
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is False
+
+    def test_inline_math_inline_class_with_guard_returns_true(self) -> None:
+        """Inline math passing sibling guard (>1 children) should return True."""
+        html = BeautifulSoup(
+            "<p>text "
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            "<math></math></span></span></p>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is True
+
+    def test_inline_math_sibling_guard_fails_returns_false(self) -> None:
+        """Inline math with single-child ancestor (guard fails) should return False."""
+        html = BeautifulSoup(
+            "<p>"
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            "<math></math></span></span></p>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is False
