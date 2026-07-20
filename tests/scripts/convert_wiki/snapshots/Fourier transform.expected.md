@@ -165,7 +165,7 @@ $$f(ax)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\frac {1}{|a|}
 
 ![svg version of the Fourier transforms of the unit pulse function](../../archives/Wikimedia%20Commons/Fourier%20unit%20pulse.svg)
 
- $$\scriptstyle f(t)$$ $$\scriptstyle {\widehat {f} }(\omega )$$ $$\scriptstyle g(t)$$ $$\scriptstyle {\widehat {g} }(\omega )$$ $$\scriptstyle t$$ $$\scriptstyle \omega$$ $$\scriptstyle t$$ $$\scriptstyle \omega$$![svg version of the Fourier transforms of the unit pulse function](../../archives/Wikimedia%20Commons/Fourier%20unit%20pulse.svg)
+![svg version of the Fourier transforms of the unit pulse function](../../archives/Wikimedia%20Commons/Fourier%20unit%20pulse.svg)
 
  The transform of an even-symmetric real-valued function ⁠$f(t)=f_{_{\text{RE} } }$⁠ is also an even-symmetric real-valued function \(⁠${\widehat {f} }\!_{_{\text{RE} } }$⁠\). The time-shift, ⁠$g(t)=g_{_{\text{RE} } }+g_{_{\text{RO} } }$⁠, creates an imaginary component, ⁠$i\ {\widehat {g\ \!} }_{_{\text{IO} } }$⁠. \(See _[§ Symmetry](#symmetry)_.\) #### symmetry
 

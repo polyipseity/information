@@ -968,9 +968,9 @@ class TestBlockMathCategoryBreakdown:
         counts = await self._run_and_categorize(tmp_path)
         self._assert_counts(
             counts,
-            both=79,
+            both=72,
             before_only=50,
-            after_only=4,
+            after_only=3,
             neither=3,
         )
 
