@@ -914,38 +914,41 @@ class WikiHtmlConverter:
             ]
             if not cells:
                 continue
-            if any(c.name == "th" for c in cells):
-                # Case 1: all-<th> row → existing _handle_tr handles it.
-                if all(c.name == "th" for c in cells):
-                    break
+            if not any(c.name == "th" for c in cells):
+                continue
 
-                # Mixed row: compute alignments.
-                alignments = [
-                    WikiHtmlConverter._cell_alignment(c) if c.name == "th" else "---"
-                    for c in cells
-                ]
-                marker_tag = _bs4_new_element(
-                    '<tr data-alignment-row="true">'
-                    + "".join(f'<td data-align="{a}"></td>' for a in alignments)
-                    + "</tr>"
-                )
-
-                # Case 2: previous sibling is all-<td> (caption row) →
-                # insert BEFORE header row.
-                prev_tr = tr.find_previous_sibling("tr")
-                if prev_tr is not None:
-                    prev_cells = [
-                        c
-                        for c in prev_tr.children
-                        if isinstance(c, Tag) and c.name in _TD_OR_TH
-                    ]
-                    if prev_cells and all(c.name == "td" for c in prev_cells):
-                        tr.insert_before(marker_tag)
-                        break
-
-                # Case 3: no caption → insert AFTER header row.
-                tr.insert_after(marker_tag)
+            # All-<th> rows are handled by suffix in _handle_tr.
+            # Stop here: subsequent mixed rows should NOT get alignment markers
+            # to avoid polluting tables with multiple separator sections
+            # (e.g. navboxes, authority-control tables).
+            if all(c.name == "th" for c in cells):
                 break
+
+            # Mixed row: compute alignments.
+            alignments = [
+                WikiHtmlConverter._cell_alignment(c) if c.name == "th" else "---"
+                for c in cells
+            ]
+            marker_tag = _bs4_new_element(
+                '<tr data-alignment-row="true">'
+                + "".join(f'<td data-align="{a}"></td>' for a in alignments)
+                + "</tr>"
+            )
+
+            # Case 2: previous sibling is caption row (marked with
+            # data-caption-row) → insert BEFORE header row.
+            prev_tr = tr.find_previous_sibling("tr")
+            if prev_tr is not None and prev_tr.get("data-caption-row") == "true":
+                tr.insert_before(marker_tag)
+                # Only process the first mixed row; subsequent rows are not
+                # alignment-related and should not get markers.
+                break
+
+            # Case 3: no caption → insert AFTER header row.
+            tr.insert_after(marker_tag)
+            # Only process the first mixed row; subsequent rows are not
+            # alignment-related and should not get markers.
+            break
 
     def _handle_thead(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <thead> table head elements."""

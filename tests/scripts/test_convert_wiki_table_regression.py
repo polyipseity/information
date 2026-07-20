@@ -344,6 +344,39 @@ class TestCaptionTableAlignmentRows:
             "Caption on pure <td> table should not be silently dropped"
         )
 
+    MULTI_MIXED_NO_CAPTION_HTML = """\
+<table class="wikitable">
+<tbody>
+<tr>
+<th style="text-align:center;">H1</th>
+<td>D1</td>
+</tr>
+<tr>
+<th style="text-align:right;">H2</th>
+<td>D2</td>
+</tr>
+</tbody>
+</table>"""
+
+    @pytest.mark.anyio
+    async def test_multiple_mixed_rows_get_alignment_markers(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Only the first mixed <th>/<td> row gets an alignment marker row."""
+        html = BeautifulSoup(self.MULTI_MIXED_NO_CAPTION_HTML, "html.parser")
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
+        lines = result.split("\n")
+        assert any(":-:" in ln for ln in lines), (
+            "First mixed row should have center alignment marker"
+        )
+        # Only the first mixed row gets a marker; subsequent rows do not
+        # to avoid polluting tables with multiple alignment sections.
+        assert not any("--:" in ln for ln in lines), (
+            "Second mixed row should NOT have an alignment marker"
+        )
+
 
 class TestRowspanColumnOffset:
     """Regression: rowspan cells must not cause column offset in subsequent rows."""
