@@ -973,3 +973,111 @@ class TestBlockMathCategoryBreakdown:
             after_only=4,
             neither=3,
         )
+
+
+class TestInlineMathIndependence:
+    """Verify inline math is correctly delimited and has no orphaned ``$`` signs.
+
+    Uses the "Fourier transform" snapshot fixture as a regression baseline
+    for inline math count and delimiter hygiene.
+    """
+
+    _SNAPSHOT_NAME = "Fourier transform"
+
+    @staticmethod
+    def _count_inline_math_blocks(output: str) -> int:
+        """Count ``$...$`` inline math blocks (excluding ``$$...$$`` block math)."""
+        return len(re.findall(r"(?<!\$)\$(?!\$).+?(?<!\$)\$(?!\$)", output))
+
+    @staticmethod
+    def _has_orphaned_dollar_signs(output: str) -> bool:
+        """Return ``True`` if any ``$`` is not part of a valid math delimiter pair.
+
+        Strips all ``$$...$$`` blocks and ``$...$`` pairs, then checks
+        whether any ``$`` characters remain.
+        """
+        # Remove block math $$...$$
+        cleaned = re.sub(r"\$\$.+?\$\$", "", output)
+        # Iteratively remove inline math $...$ pairs
+        prev = None
+        while prev != cleaned:
+            prev = cleaned
+            cleaned = re.sub(r"(?<!\$)\$(?!\$).+?(?<!\$)\$(?!\$)", "", cleaned)
+        return "$" in cleaned
+
+    @staticmethod
+    async def _run_and_analyze(tmp_path: PathLike[str]) -> str:
+        """Run the Fourier transform pipeline and return the output."""
+        tmp = Path(tmp_path)
+        isolated_lang = tmp / "general" / "eng"
+        await isolated_lang.mkdir(parents=True)
+
+        shared_name_map_path = _SNAPSHOT_DIR / "name_map.json"
+        shared_name_map = json.loads(shared_name_map_path.read_text(encoding="UTF-8"))
+        aux_path = (
+            _SNAPSHOT_DIR / f"{TestInlineMathIndependence._SNAPSHOT_NAME}.aux.json"
+        )
+        aux = json.loads(aux_path.read_text(encoding="UTF-8"))
+
+        input_path = (
+            _SNAPSHOT_DIR / f"{TestInlineMathIndependence._SNAPSHOT_NAME}.input.html"
+        )
+        html_text = input_path.read_text(encoding="UTF-8")
+        html = BeautifulSoup(html_text, "html.parser")
+
+        redirect_map = {
+            k: _RedirectInfo(to=v["to"], tofragment=v.get("tofragment", ""))
+            for k, v in aux["redirect_cache"].items()
+        }
+        names_map = shared_name_map | aux["name_map_overrides"]
+
+        output, _ = await run_pipeline(
+            html,
+            redirect_map=redirect_map,
+            image_metadata=aux["image_metadata"],
+            names_map=names_map,
+            wiki_dir=tmp / "general",
+            wiki_lang_dir=isolated_lang,
+            refs=True,
+        )
+        return output
+
+    @pytest.mark.anyio
+    async def test_inline_math_count(self, tmp_path: PathLike[str]) -> None:
+        """The Fourier transform article should have 605 inline math blocks."""
+        output = await self._run_and_analyze(tmp_path)
+        count = self._count_inline_math_blocks(output)
+        assert count == 605, f"Expected 605 inline math blocks, got {count}"
+
+    @pytest.mark.anyio
+    async def test_no_orphaned_dollar_signs(self, tmp_path: PathLike[str]) -> None:
+        """Every ``$`` in the output should be part of a valid math delimiter pair."""
+        output = await self._run_and_analyze(tmp_path)
+        assert not self._has_orphaned_dollar_signs(output), (
+            "Output contains $ signs not paired as $$...$$ or $...$"
+        )
+
+    @pytest.mark.anyio
+    async def test_inline_math_count_block_math_fixture(
+        self,
+        tmp_path: PathLike[str],
+    ) -> None:
+        """The block math paragraph fixture should have 0 inline math blocks."""
+        tmp = Path(tmp_path)
+        isolated_lang = tmp / "general" / "eng"
+        await isolated_lang.mkdir(parents=True)
+
+        converter = TestBlockMathParagraphAffiliation._make_converter(tmp_path)
+        html = BeautifulSoup(
+            "<p>before "
+            + TestBlockMathParagraphAffiliation._block_math_span(
+                r"{\displaystyle f(x)}"
+            )
+            + " after</p>",
+            "html.parser",
+        )
+        output = await converter.convert(
+            html, out_to_archive=set(), redirect_map={}, refs=True
+        )
+        count = self._count_inline_math_blocks(output)
+        assert count == 0, f"Expected 0 inline math blocks, got {count}"
