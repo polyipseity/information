@@ -838,11 +838,120 @@ class WikiHtmlConverter:
             prefix = f'<a id="{ele_id}"></a> '
         return _HandlerConfig(prefix=prefix)
 
+    def _handle_table(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
+        """Handle <table> elements, integrating caption as a header row."""
+        caption = ele.find("caption", recursive=False)
+        if caption is None:
+            return None
+
+        caption_text = caption.get_text(strip=True)
+        if not caption_text:
+            caption.decompose()
+            return None
+
+        # Find the first structural header row to determine column layout.
+        target_tr: Tag | None = None
+        for tr in ele.find_all("tr"):
+            cells = [
+                c for c in tr.children
+                if isinstance(c, Tag) and c.name in _TD_OR_TH
+            ]
+            if any(c.name == "th" for c in cells):
+                target_tr = tr
+                break
+
+        if target_tr is None:
+            caption.decompose()
+            return None
+
+        # Build a caption row with all <td> cells.
+        cells = [
+            c for c in target_tr.children
+            if isinstance(c, Tag) and c.name in _TD_OR_TH
+        ]
+        caption_tr = _bs4_new_element("<tr></tr>")
+        has_data_cell = False
+
+        for cell in cells:
+            new_cell = _bs4_new_element("<td></td>")
+            if cell.name == "td" and not has_data_cell:
+                # First data column: prepend bold caption.
+                bold = _bs4_new_element("<b></b>")
+                for child in caption.children:
+                    if isinstance(child, Tag) or (
+                        isinstance(child, NavigableString) and child.strip()
+                    ):
+                        bold.append(copy(child))
+                new_cell.append(bold)
+                new_cell.append(" ")
+                has_data_cell = True
+            else:
+                # Header columns & extra data columns: zero-width space to
+                # survive _filter_table_cells while rendering invisibly.
+                new_cell.string = "\u200B"
+            caption_tr.append(new_cell)
+
+        # Insert caption row before the original first header row.
+        target_tr.insert_before(caption_tr)
+
+        caption.decompose()
+        return None
+
     def _handle_tbody(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <tbody> table body elements."""
         self._normalize_table_cells(ele)
         self._merge_header_rows(ele)
+        # Insert alignment rows for tables with mixed <th>/<td> cells.
+        self._insert_mixed_alignment_rows(ele)
         return _HandlerConfig(prefix="\n", suffix="\n\n")
+
+    @staticmethod
+    def _insert_mixed_alignment_rows(ele: Tag) -> None:
+        """Insert alignment marker rows for mixed <th>/<td> tables."""
+        for tr in ele.find_all("tr", recursive=False):
+            cells = [
+                c for c in tr.children
+                if isinstance(c, Tag) and c.name in _TD_OR_TH
+            ]
+            if not cells:
+                continue
+            if any(c.name == "th" for c in cells):
+                # Case 1: all-<th> row → existing _handle_tr handles it.
+                if all(c.name == "th" for c in cells):
+                    break
+
+                # Mixed row: compute alignments.
+                alignments = [
+                    WikiHtmlConverter._cell_alignment(c)
+                    if c.name == "th" else "---"
+                    for c in cells
+                ]
+                marker_tag = _bs4_new_element(
+                    "<tr data-alignment-row=\"true\">"
+                    + "".join(
+                        f'<td data-align="{a}"></td>' for a in alignments
+                    )
+                    + "</tr>"
+                )
+
+                # Case 2: previous sibling is all-<td> (caption row) →
+                # insert BEFORE header row.
+                prev_tr = tr.find_previous_sibling("tr")
+                if prev_tr is not None:
+                    prev_cells = [
+                        c
+                        for c in prev_tr.children
+                        if isinstance(c, Tag) and c.name in _TD_OR_TH
+                    ]
+                    if prev_cells and all(
+                        c.name == "td" for c in prev_cells
+                    ):
+                        tr.insert_before(marker_tag)
+                        break
+
+                # Case 3: no caption → insert AFTER header row.
+                tr.insert_after(marker_tag)
+                break
 
     def _handle_thead(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <thead> table head elements."""
@@ -955,6 +1064,22 @@ class WikiHtmlConverter:
         ]
 
         total_colspan = sum(int(str(c.get("colspan", "1"))) for c in tag_cells)
+
+        # Check for alignment marker row (from _insert_mixed_alignment_rows).
+        is_alignment_row = any(
+            c.get("data-alignment-row") for c in [ele]
+        )
+        if is_alignment_row:
+            markers = [
+                c.get("data-align", "---")
+                for c in tag_cells
+            ]
+            return _HandlerConfig(
+                full_result=True,
+                prefix="",
+                suffix="",
+                process_strings=lambda _: f"| {' | '.join(markers)} |\n",
+            )
 
         if tag_cells and all(child.name == "th" for child in tag_cells):
             table = ele.find_parent("table")
