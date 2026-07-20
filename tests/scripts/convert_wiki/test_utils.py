@@ -3,8 +3,6 @@
 These tests cover the pure helper functions used throughout the package.
 """
 
-from bs4 import Tag
-
 from scripts.convert_wiki import utils as _mod
 from scripts.convert_wiki.config import _NAMES_MAP
 
@@ -130,20 +128,3 @@ class TestTagAffixes:
         open_tag, close_tag = _mod._tag_affixes("br")  # noqa: SLF001
         assert open_tag == "<br>"
         assert close_tag == "</br>"
-
-
-class TestBs4NewElement:
-    """Tests for the _bs4_new_element function."""
-
-    def test_parse_simple_tag(self) -> None:
-        """Should parse a simple HTML tag string."""
-        result = _mod._bs4_new_element("<b></b>")  # noqa: SLF001
-        assert isinstance(result, Tag)
-        assert result.name == "b"
-
-    def test_parse_tag_with_content(self) -> None:
-        """Should parse a tag with text content."""
-        result = _mod._bs4_new_element("<i>text</i>")  # noqa: SLF001
-        assert isinstance(result, Tag)
-        assert result.name == "i"
-        assert result.string == "text"

@@ -11,8 +11,7 @@ from re import Pattern, compile
 from urllib.parse import unquote
 
 from anyio import Path
-from bs4 import BeautifulSoup, Tag
-from bs4.element import NavigableString
+from bs4 import Tag
 from yarl import URL
 
 from . import config as _cfg
@@ -123,19 +122,6 @@ def _markdown_link_target(page: str, fragment: str = "") -> str:
 def _tag_affixes(name: str) -> tuple[str, str]:
     """Return the opening and closing HTML tag strings for the given tag name."""
     return f"<{name}>", f"</{name}>"
-
-
-def _bs4_new_element(html: str) -> Tag | NavigableString:
-    """Parse a minimal HTML fragment into a single BeautifulSoup element."""
-    soup = BeautifulSoup(html, "html.parser")
-    element = next(iter(soup), None)
-    if element is None or isinstance(element, NavigableString):
-        msg = f"Could not parse HTML: {html!r}"
-        raise ValueError(msg)
-    if not isinstance(element, Tag):
-        msg = f"Expected a Tag element, got {type(element).__name__}: {html!r}"
-        raise ValueError(msg)
-    return element
 
 
 def _balance_brackets(text: str) -> str:

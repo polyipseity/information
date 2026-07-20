@@ -21,7 +21,6 @@ from . import config as _cfg
 from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
-    _bs4_new_element,
     _create_redirect_symlinks,
     _fix_filename,
     _fix_name_maybe,
@@ -93,12 +92,16 @@ class WikiHtmlConverter:
         ] = _cfg._CONVERTED_WIKI_LANGUAGE_DIRECTORY,
         image_metadata: Mapping[str, str] | None = None,
         names_map: Mapping[str, str] | None = None,
+        soup: BeautifulSoup | None = None,
     ) -> None:
         """Initialize converter with directory paths and name map."""
         self._converted_wiki_dir = Path(converted_wiki_dir)
         self._converted_wiki_lang_dir = Path(converted_wiki_lang_dir)
         self._image_metadata = image_metadata or {}
         self._names_map = names_map or _cfg._NAMES_MAP
+        self._soup: BeautifulSoup = (
+            soup if soup is not None else BeautifulSoup("", "html.parser")
+        )
 
     async def convert(
         self,
@@ -491,8 +494,7 @@ class WikiHtmlConverter:
         prefix, suffix = _tag_affixes("big")
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
-    @staticmethod
-    def _merge_header_rows(ele: Tag) -> None:
+    def _merge_header_rows(self, ele: Tag) -> None:
         """Merge consecutive header rows in <tbody> into a single row."""
         trs = [c for c in ele.children if isinstance(c, Tag) and c.name == "tr"]
         header_trs: list[Tag] = []
@@ -535,7 +537,7 @@ class WikiHtmlConverter:
                     target_cell = target_cells[i]
                     children = list(extra_cell.children)
                     if children:
-                        br = _bs4_new_element("<br/>")
+                        br = self._soup.new_tag("br")
                         target_cell.insert(0, br)
                         for child in reversed(children):
                             target_cell.insert(0, child.extract())
@@ -584,14 +586,15 @@ class WikiHtmlConverter:
                 tdh.decompose()
 
         # Build a new table with a header row that provides alignment hints.
-        new_table = _bs4_new_element("<table></table>")
-        tbody = _bs4_new_element("<tbody></tbody>")
+        new_table = self._soup.new_tag("table")
+        tbody = self._soup.new_tag("tbody")
         new_table.append(tbody)
 
         # Header row: title in center-aligned <th>, empty right-aligned <th>.
-        header_row = _bs4_new_element("<tr></tr>")
-        th1 = _bs4_new_element(f'<th style="text-align:center">{title}</th>')
-        th2 = _bs4_new_element('<th style="text-align:right"></th>')
+        header_row = self._soup.new_tag("tr")
+        th1 = self._soup.new_tag("th", attrs={"style": "text-align:center"})
+        th1.string = title
+        th2 = self._soup.new_tag("th", attrs={"style": "text-align:right"})
         header_row.append(th1)
         header_row.append(th2)
         tbody.append(header_row)
@@ -866,14 +869,14 @@ class WikiHtmlConverter:
         cells = [
             c for c in target_tr.children if isinstance(c, Tag) and c.name in _TD_OR_TH
         ]
-        caption_tr = _bs4_new_element("<tr></tr>")
+        caption_tr = self._soup.new_tag("tr")
         has_data_cell = False
 
         for cell in cells:
-            new_cell = _bs4_new_element("<td></td>")
+            new_cell = self._soup.new_tag("td")
             if cell.name == "td" and not has_data_cell:
                 # First data column: prepend bold caption.
-                bold = _bs4_new_element("<b></b>")
+                bold = self._soup.new_tag("b")
                 for child in caption.children:
                     if isinstance(child, Tag) or (
                         isinstance(child, NavigableString) and child.strip()
@@ -905,8 +908,7 @@ class WikiHtmlConverter:
         self._insert_mixed_alignment_rows(ele)
         return _HandlerConfig(prefix="\n", suffix="\n\n")
 
-    @staticmethod
-    def _insert_mixed_alignment_rows(ele: Tag) -> None:
+    def _insert_mixed_alignment_rows(self, ele: Tag) -> None:
         """Insert alignment marker rows for mixed <th>/<td> tables."""
         for tr in ele.find_all("tr", recursive=False):
             cells = [
@@ -929,11 +931,10 @@ class WikiHtmlConverter:
                 WikiHtmlConverter._cell_alignment(c) if c.name == "th" else "---"
                 for c in cells
             ]
-            marker_tag = _bs4_new_element(
-                '<tr data-alignment-row="true">'
-                + "".join(f'<td data-align="{a}"></td>' for a in alignments)
-                + "</tr>"
-            )
+            marker_tag = self._soup.new_tag("tr", attrs={"data-alignment-row": "true"})
+            for a in alignments:
+                td = self._soup.new_tag("td", attrs={"data-align": a})
+                marker_tag.append(td)
 
             # Case 2: previous sibling is caption row (marked with
             # data-caption-row) → insert BEFORE header row.
@@ -955,8 +956,7 @@ class WikiHtmlConverter:
         self._normalize_table_cells(ele)
         return _HandlerConfig(prefix="\n", suffix="\n\n")
 
-    @staticmethod
-    def _normalize_table_cells(ele: Tag) -> None:
+    def _normalize_table_cells(self, ele: Tag) -> None:
         """Normalize table cell layout for consistent column count."""
         for tdh in tuple(ele.find_all(_TD_OR_TH)):
             assert isinstance(tdh, Tag)
@@ -1007,7 +1007,7 @@ class WikiHtmlConverter:
                         current_row = next_tr
                         # Insert an empty cell to occupy the column position
                         # covered by the rowspan from a previous row.
-                        new_tdh = _bs4_new_element("<td></td>")
+                        new_tdh = self._soup.new_tag("td")
                         new_tdh.string = "\u200b"
                         current_row.insert(col_idx, new_tdh)
 
@@ -1065,7 +1065,10 @@ class WikiHtmlConverter:
         # Check for alignment marker row (from _insert_mixed_alignment_rows).
         is_alignment_row = any(c.get("data-alignment-row") for c in [ele])
         if is_alignment_row:
-            markers = [c.get("data-align", "---") for c in tag_cells]
+            markers: list[str] = []
+            for c in tag_cells:
+                a = c.get("data-align", "---")
+                markers.append(a if isinstance(a, str) else "---")
             return _HandlerConfig(
                 full_result=True,
                 prefix="",
@@ -1087,8 +1090,7 @@ class WikiHtmlConverter:
             for child in ele.children:
                 if isinstance(child, Tag) and child.name == "th":
                     if not _BOLD_FONT_STYLE_REGEX.search(str(child.get("style", ""))):
-                        new_b = _bs4_new_element("<b></b>")
-                        assert isinstance(new_b, Tag)
+                        new_b = self._soup.new_tag("b")
                         for child_child in child.contents[:]:
                             new_b.append(child_child.extract())
                         child.append(new_b)
