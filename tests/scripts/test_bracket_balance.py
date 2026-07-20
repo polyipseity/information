@@ -2,7 +2,7 @@
 
 import pytest
 
-from scripts.convert_wiki import _balance_brackets
+from scripts.convert_wiki.utils import _balance_brackets
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
