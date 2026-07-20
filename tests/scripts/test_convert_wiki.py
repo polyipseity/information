@@ -5,6 +5,7 @@ testable without HTTP requests or clipboard access.
 """
 
 import json
+import re
 from os import PathLike
 from pathlib import Path as PathlibPath
 
@@ -204,6 +205,37 @@ def _discover_snapshot_cases() -> list[str]:
         f.stem.removesuffix(".input")
         for f in sorted(_SNAPSHOT_DIR.glob("*.input.html"))
     )
+
+
+def _categorize_block_math_blocks(output: str) -> dict[str, int]:
+    """Count block math paragraph affiliation categories in converter output.
+
+    Returns a dict with keys ``"both"``, ``"before_only"``, ``"after_only"``,
+    and ``"neither"``. Each ``$$...$$`` occurrence in the output is classified
+    by whether non-whitespace text appears before and/or after it on the same
+    line.
+    """
+    counts: dict[str, int] = {
+        "both": 0,
+        "before_only": 0,
+        "after_only": 0,
+        "neither": 0,
+    }
+    for line in output.splitlines():
+        for match in re.finditer(r"\$\$(.+?)\$\$", line):
+            before = line[: match.start()]
+            after = line[match.end() :]
+            has_before = bool(before.strip())
+            has_after = bool(after.strip())
+            if has_before and has_after:
+                counts["both"] += 1
+            elif has_before and not has_after:
+                counts["before_only"] += 1
+            elif not has_before and has_after:
+                counts["after_only"] += 1
+            else:
+                counts["neither"] += 1
+    return counts
 
 
 class TestWikiHtmlToPlaintextSnapshot:
@@ -867,3 +899,77 @@ class TestBlockMathClassification:
         math_ele = html.find("math")
         assert isinstance(math_ele, Tag)
         assert WikiHtmlConverter._is_inline_math(math_ele) is False
+
+
+class TestBlockMathCategoryBreakdown:
+    """Verify block math paragraph affiliation category counts in a real article.
+
+    Uses the "Fourier transform" snapshot fixture as a regression baseline
+    for the distribution of BOTH, BEFORE_ONLY, AFTER_ONLY, and NEITHER
+    categories.
+    """
+
+    _SNAPSHOT_NAME = "Fourier transform"
+
+    @staticmethod
+    async def _run_and_categorize(tmp_path: PathLike[str]) -> dict[str, int]:
+        """Run the Fourier transform pipeline and categorize block math output.
+
+        Mirrors the snapshot test setup (aux.json, name_map.json, etc.)
+        but returns category counts instead of comparing to expected output.
+        """
+        tmp = Path(tmp_path)
+        isolated_lang = tmp / "general" / "eng"
+        await isolated_lang.mkdir(parents=True)
+
+        shared_name_map_path = _SNAPSHOT_DIR / "name_map.json"
+        shared_name_map = json.loads(shared_name_map_path.read_text(encoding="UTF-8"))
+        aux_path = (
+            _SNAPSHOT_DIR / f"{TestBlockMathCategoryBreakdown._SNAPSHOT_NAME}.aux.json"
+        )
+        aux = json.loads(aux_path.read_text(encoding="UTF-8"))
+
+        input_path = (
+            _SNAPSHOT_DIR
+            / f"{TestBlockMathCategoryBreakdown._SNAPSHOT_NAME}.input.html"
+        )
+        html_text = input_path.read_text(encoding="UTF-8")
+        html = BeautifulSoup(html_text, "html.parser")
+
+        redirect_map = {
+            k: _RedirectInfo(to=v["to"], tofragment=v.get("tofragment", ""))
+            for k, v in aux["redirect_cache"].items()
+        }
+        names_map = shared_name_map | aux["name_map_overrides"]
+
+        output, _ = await run_pipeline(
+            html,
+            redirect_map=redirect_map,
+            image_metadata=aux["image_metadata"],
+            names_map=names_map,
+            wiki_dir=tmp / "general",
+            wiki_lang_dir=isolated_lang,
+            refs=True,
+        )
+        return _categorize_block_math_blocks(output)
+
+    @staticmethod
+    def _assert_counts(counts: dict[str, int], **expected: int) -> None:
+        """Assert that *counts* match all specified *expected* categories."""
+        for category, expected_value in expected.items():
+            actual = counts.get(category, 0)
+            assert actual == expected_value, (
+                f"Category {category!r}: expected {expected_value}, got {actual}"
+            )
+
+    @pytest.mark.anyio
+    async def test_category_counts(self, tmp_path: PathLike[str]) -> None:
+        """All four categories should match the known Fourier transform distribution."""
+        counts = await self._run_and_categorize(tmp_path)
+        self._assert_counts(
+            counts,
+            both=79,
+            before_only=50,
+            after_only=4,
+            neither=3,
+        )
