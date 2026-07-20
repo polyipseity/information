@@ -850,10 +850,14 @@ class WikiHtmlConverter:
                     col_idx = current_row.index(tdh)
                     tdh["rowspan"] = "1"
                     for _ in range(1, row_span):
-                        if not isinstance(current_row := current_row.next_sibling, Tag):
+                        next_tr = current_row.find_next_sibling("tr")
+                        if next_tr is None:
                             break
-                        new_tdh = copy(tdh)
-                        new_tdh.clear()
+                        current_row = next_tr
+                        # Insert an empty cell to occupy the column position
+                        # covered by the rowspan from a previous row.
+                        new_tdh = _bs4_new_element("<td></td>")
+                        new_tdh.string = "\u200B"
                         current_row.insert(col_idx, new_tdh)
 
     @staticmethod
@@ -974,6 +978,7 @@ class WikiHtmlConverter:
         strings = strings.strip()
         strings = strings.replace("\n\n", " <br/> <br/> ")
         strings = strings.replace("\n", " <br/> ")
+        strings = strings.strip()
         return strings
 
     def _process_archive_url(self, src: str) -> str:
