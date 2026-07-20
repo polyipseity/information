@@ -677,6 +677,150 @@ class TestConverterLinkSpacing:
         )
 
 
+class TestBlockMathParagraphAffiliation:
+    """Tests that _handle_p and _handle_math produce correct paragraph affiliation.
+
+    Block math inside a <p> should remain on the same line as adjacent text,
+    wrapped by \n...\n\n. Whitespace collapse via process_strings keeps
+    ``$$...$$`` inline within the paragraph.
+    """
+
+    @staticmethod
+    def _make_converter(tmp_path: PathLike[str]) -> WikiHtmlConverter:
+        """Create a WikiHtmlConverter with isolated lang dir."""
+        return WikiHtmlConverter(
+            converted_wiki_dir=Path(tmp_path) / "general",
+            converted_wiki_lang_dir=Path(tmp_path) / "general" / "eng",
+        )
+
+    @staticmethod
+    def _block_math_span(alttext: str) -> str:
+        """Build a minimal block math DOM span.
+
+        The *alttext* argument should contain the exact string to place
+        in the ``alttext`` attribute, including any backslash escapes
+        needed for LaTeX. Pass Python raw strings (``r"..."``) for
+        reliability.
+        """
+        return (
+            '<span class="mwe-math-element mwe-math-element-block">'
+            '<span class="mwe-math-mathml-display mwe-math-mathml-a11y">'
+            f'<math display="block" alttext="{alttext}">'
+            "<semantics><mrow></mrow></semantics></math>"
+            '<img class="mwe-math-fallback-image-display mw-invert skin-invert"/>'
+            "</span></span>"
+        )
+
+    @pytest.mark.anyio
+    async def test_both_text_before_and_after(self, tmp_path: PathLike[str]) -> None:
+        """Block math with text before and after should stay inline in the paragraph."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = self._make_converter(tmp_path)
+        html = BeautifulSoup(
+            f"<p>before {self._block_math_span(r'{\displaystyle f(x)}')} after</p>",
+            "html.parser",
+        )
+        result = await converter.convert(
+            html, out_to_archive=set(), redirect_map={}, refs=True
+        )
+        assert "\nbefore $$f(x)$$ after\n\n" in result
+
+    @pytest.mark.anyio
+    async def test_before_only(self, tmp_path: PathLike[str]) -> None:
+        """Block math at end of paragraph: text before, no text after."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = self._make_converter(tmp_path)
+        html = BeautifulSoup(
+            f"<p>before {self._block_math_span(r'{\displaystyle g(y)}')}</p>",
+            "html.parser",
+        )
+        result = await converter.convert(
+            html, out_to_archive=set(), redirect_map={}, refs=True
+        )
+        assert "\nbefore $$g(y)$$\n\n" in result
+
+    @pytest.mark.anyio
+    async def test_after_only(self, tmp_path: PathLike[str]) -> None:
+        """Block math at start of paragraph: no text before, text after."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = self._make_converter(tmp_path)
+        html = BeautifulSoup(
+            f"<p>{self._block_math_span(r'{\displaystyle h(z)}')} after</p>",
+            "html.parser",
+        )
+        result = await converter.convert(
+            html, out_to_archive=set(), redirect_map={}, refs=True
+        )
+        assert "\n$$h(z)$$ after\n\n" in result
+
+    @pytest.mark.anyio
+    async def test_neither(self, tmp_path: PathLike[str]) -> None:
+        """Block math standalone in paragraph (no text before or after)."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = self._make_converter(tmp_path)
+        html = BeautifulSoup(
+            f"<p>{self._block_math_span(r'{\displaystyle k(w)}')}</p>",
+            "html.parser",
+        )
+        result = await converter.convert(
+            html, out_to_archive=set(), redirect_map={}, refs=True
+        )
+        assert "\n$$k(w)$$\n\n" in result
+
+    @pytest.mark.anyio
+    async def test_multiple_block_math_in_one_paragraph(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Multiple block math spans in one paragraph stay inline with text."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = self._make_converter(tmp_path)
+        html = BeautifulSoup(
+            f"<p>start {self._block_math_span(r'{\displaystyle a(b)}')} "
+            f"middle {self._block_math_span(r'{\displaystyle c(d)}')} end</p>",
+            "html.parser",
+        )
+        result = await converter.convert(
+            html, out_to_archive=set(), redirect_map={}, refs=True
+        )
+        assert "\nstart $$a(b)$$ middle $$c(d)$$ end\n\n" in result
+
+    @pytest.mark.anyio
+    async def test_block_math_formatting_invariant(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Source whitespace should not affect block math paragraph output."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = self._make_converter(tmp_path)
+
+        math_span = self._block_math_span(r"{\displaystyle f(x)}")
+        compact = BeautifulSoup(
+            f"<p>before {math_span} after</p>",
+            "html.parser",
+        )
+        expanded = BeautifulSoup(
+            f"<p>\n  before\n  {math_span}\n  after\n</p>",
+            "html.parser",
+        )
+
+        assert await converter.convert(
+            compact, out_to_archive=set(), redirect_map={}, refs=True
+        ) == await converter.convert(
+            expanded, out_to_archive=set(), redirect_map={}, refs=True
+        )
+
+
 class TestBlockMathClassification:
     """Tests for _is_inline_math classification of block vs inline math.
 
