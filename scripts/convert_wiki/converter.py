@@ -230,6 +230,11 @@ class WikiHtmlConverter:
                 config.prefix = ""
                 config.suffix = ""
 
+        has_thumb_with_caption = (
+            "thumb" in classes
+            and isinstance(ele, Tag)
+            and ele.find("div", class_="thumbcaption") is not None
+        )
         if (
             ele.name == "figure"
             or {
@@ -240,6 +245,7 @@ class WikiHtmlConverter:
                 "unsolved",
             }
             & classes
+            or has_thumb_with_caption
         ):
             original_process = process_strings
             _catlinks = "catlinks" in classes

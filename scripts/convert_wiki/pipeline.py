@@ -120,7 +120,7 @@ async def wiki_html_to_plaintext(
     # non-breaking spaces on empty-looking lines, then replace remaining
     # \xa0 with regular spaces.
     result = (
-        result.replace("\n\xa0", "\n")
+        result.replace("\n\xa0", "\n\n")
         .replace("\xa0", " ")
         .replace("\u200a", "&hairsp;")
     )

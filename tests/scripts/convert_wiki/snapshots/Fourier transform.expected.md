@@ -163,9 +163,11 @@ $$e^{i2\pi \xi _{0}x}f(x)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\
 
 $$f(ax)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\frac {1}{|a|} }{\widehat {f} }\left({\frac {\xi }{a} }\right);\quad \ a\neq 0$$The case $a=-1$ leads to the _time-reversal property_: $$f(-x)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\widehat {f} }(-\xi )$$
 
-![svg version of the Fourier transforms of the unit pulse function](../../archives/Wikimedia%20Commons/Fourier%20unit%20pulse.svg)
+> ![svg version of the Fourier transforms of the unit pulse function](../../archives/Wikimedia%20Commons/Fourier%20unit%20pulse.svg)
+>
+> The transform of an even-symmetric real-valued function ⁠$f(t)=f_{_{\text{RE} } }$⁠ is also an even-symmetric real-valued function \(⁠${\widehat {f} }\!_{_{\text{RE} } }$⁠\). The time-shift, ⁠$g(t)=g_{_{\text{RE} } }+g_{_{\text{RO} } }$⁠, creates an imaginary component, ⁠$i\ {\widehat {g\ \!} }_{_{\text{IO} } }$⁠. \(See _[§ Symmetry](#symmetry)_.\)
 
- The transform of an even-symmetric real-valued function ⁠$f(t)=f_{_{\text{RE} } }$⁠ is also an even-symmetric real-valued function \(⁠${\widehat {f} }\!_{_{\text{RE} } }$⁠\). The time-shift, ⁠$g(t)=g_{_{\text{RE} } }+g_{_{\text{RO} } }$⁠, creates an imaginary component, ⁠$i\ {\widehat {g\ \!} }_{_{\text{IO} } }$⁠. \(See _[§ Symmetry](#symmetry)_.\) #### symmetry
+#### symmetry
 
 When the real and imaginary parts of a complex function are decomposed into their [even and odd parts](even%20and%20odd%20functions.md#Even%E2%80%93odd%20decomposition), there are four components, denoted below by the subscripts RE, RO, IE, and IO. And there is a one-to-one mapping between the four components of a complex time function and the four components of its complex frequency transform:<sup>[\[16\]](#^ref-16)</sup>
 
@@ -507,6 +509,7 @@ However, when you try to measure a frequency that is not present, both the real 
 - ![Real and imaginary parts of the integrand for its Fourier transform at +5 Hz.](../../archives/Wikimedia%20Commons/Offfreq%20i2p.svg)
 
  Real and imaginary parts of the integrand for its Fourier transform at +5 Hz.
+
 - ![Magnitude of its Fourier transform, with +3 and +5 Hz labeled.](../../archives/Wikimedia%20Commons/Fourier%20transform%20of%20oscillating%20function.svg)
 
  Magnitude of its Fourier transform, with +3 and +5 Hz labeled.
