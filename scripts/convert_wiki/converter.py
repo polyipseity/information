@@ -569,6 +569,26 @@ class WikiHtmlConverter:
         return any(isinstance(p, Tag) and p.name in _TD_OR_TH for p in ele.parents)
 
     @staticmethod
+    def _in_inline_context(ele: Tag) -> bool:
+        """Check if element is inside a handler that provides block spacing.
+
+        Returns True when the image/audio appears inside an element whose
+        handler already injects its own block-level spacing (``\n`` or
+        ``\n\n``), so the image/audio should NOT add its own ``\n\n``.
+
+        Excludes ``<p>`` because the ``<p>`` handler's ``\n\n`` suffix
+        goes *after* the entire element, not between its children.
+        Excludes ``<div>`` and ``<figure>`` for similar block-level
+        separation reasons.
+        """
+        for p in ele.parents:
+            if not isinstance(p, Tag):
+                continue
+            if p.name in {"li", "td", "th", "div", "figure"}:
+                return p.name != "div" and p.name != "figure"
+        return False
+
+    @staticmethod
     def _in_navbox(ele: Tag) -> bool:
         """Check if element is inside a navbox table."""
         return any(
@@ -785,13 +805,17 @@ class WikiHtmlConverter:
         if ele.name != "ul":
             return None
 
+        # Insert space between adjacent markdown constructs (e.g.,
+        # ``![icon](url)[link](url)``) that lack whitespace separation.
+        _ADJACENT_RE = re.compile(r"\)(?=\[)")
+
         def process(strings: str) -> str:
             """Strip list prefixes and join portal items inline."""
             lines = [line.strip() for line in strings.split("\n")]
             parts = [
                 line.removeprefix("- ").removeprefix("* ") for line in lines if line
             ]
-            return " ".join(parts)
+            return _ADJACENT_RE.sub(r"\g<0> ", " ".join(parts))
 
         return _HandlerConfig(process_strings=process)
 
@@ -1187,7 +1211,7 @@ class WikiHtmlConverter:
                 return f"{embed}[{strings.strip()}]({src_url_str})"
 
             return _HandlerConfig(
-                suffix="" if self._in_table_cell(ele) else "\n\n",
+                suffix="" if self._in_inline_context(ele) else "\n\n",
                 process_strings=process,
             )
         return _HandlerConfig()
@@ -1217,7 +1241,7 @@ class WikiHtmlConverter:
                 return f"{strings}![{alt}]({src_url_str})"
 
             return _HandlerConfig(
-                suffix="" if self._in_table_cell(ele) else "\n\n",
+                suffix="" if self._in_inline_context(ele) else "\n\n",
                 process_strings=process,
             )
         return _HandlerConfig()
