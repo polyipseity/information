@@ -271,7 +271,7 @@ class TestWikiHtmlToPlaintextSnapshot:
 
         # Read fixture files
         html_text = input_path.read_text(encoding="UTF-8")
-        expected = expected_path.read_text(encoding="UTF-8").strip()
+        expected = expected_path.read_text(encoding="UTF-8").lstrip()
 
         # Parse HTML
         html = BeautifulSoup(html_text, "html.parser")

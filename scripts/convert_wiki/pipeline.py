@@ -132,7 +132,8 @@ async def wiki_html_to_plaintext(
     result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", result)
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
-    return result.strip()
+    result = result.strip()
+    return result + "\n" if result else result
 
 
 async def run_pipeline(
