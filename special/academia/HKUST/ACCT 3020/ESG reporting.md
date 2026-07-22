@@ -177,7 +177,7 @@ For the __environmental__ category, common aspect groups are:
 Flashcards for this section are as follows:
 
 - environmental ESG aspects in Hong Kong: what are the four headline groups? ::@:: A1 emissions, A2 use of resources, A3 environment and natural resources, and A4 climate change. <!--SR:!fsrs,2027-07-22T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-03-07T00:00:00.000Z,250,250.30629619,1.07975443,2,7,0,0,2026-06-30T00:00:00.000Z-->
-- A4 climate change: what belongs there? ::@:: Significant climate-related physical and transition risks together with the actions taken to address them. <!--SR:!2026-07-25,74,328!fsrs,2027-06-19T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
+- A4 climate change: what belongs there? ::@:: Significant climate-related physical and transition risks together with the actions taken to address them. <!--SR:!fsrs,2027-08-14T00:00:00.000Z,384,384.07088952,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-06-19T00:00:00.000Z,339,339.14237362,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 
 ### social aspects
 
@@ -203,7 +203,7 @@ The exam logic is not to memorise every possible metric word for word, but to un
 
 Flashcards for this section are as follows:
 
-- social ESG aspects in Hong Kong: what are the main B-series groups? ::@:: B1 employment, B2 health and safety, B3 development and training, B4 labour standards, B5 supply chain management, B6 product responsibility, B7 anti-corruption, and B8 community investment. <!--SR:!2026-07-26,75,328!2026-07-25,74,328-->
+- social ESG aspects in Hong Kong: what are the main B-series groups? ::@:: B1 employment, B2 health and safety, B3 development and training, B4 labour standards, B5 supply chain management, B6 product responsibility, B7 anti-corruption, and B8 community investment. <!--SR:!2026-07-26,75,328!fsrs,2027-08-14T00:00:00.000Z,384,384.07088952,1,2,7,0,0,2026-07-26T00:00:00.000Z-->
 - social KPI examples: what do B2, B3, and B7 typically quantify? ::@:: B2 tracks safety outcomes such as injuries or fatalities, B3 tracks training such as hours per employee, and B7 tracks concluded corruption cases. <!--SR:!fsrs,2027-07-17T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - ESG KPI framework: why are aspect groups useful? ::@:: They force disclosure to move from vague claims to topic-specific, measurable evidence. <!--SR:!fsrs,2027-08-09T00:00:00.000Z,380,379.61476502,1,2,7,0,0,2026-07-25T00:00:00.000Z!fsrs,2027-08-09T00:00:00.000Z,380,379.61476502,1,2,7,0,0,2026-07-25T00:00:00.000Z-->
 - B7 anti-corruption: example of a quantitative disclosure ::@:: The number of concluded legal cases regarding corrupt practices brought against the issuer or its employees. <!--SR:!fsrs,2027-07-22T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-07-23T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
@@ -278,7 +278,7 @@ For exam purposes, the important takeaway is that ESG disclosure in Hong Kong is
 
 Flashcards for this section are as follows:
 
-- HKFRS S1: focus ::@:: General requirements for disclosure of sustainability-related financial information; applies to all companies in Hong Kong from August 2025. <!--SR:!2026-07-25,74,328!fsrs,2027-07-06T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
+- HKFRS S1: focus ::@:: General requirements for disclosure of sustainability-related financial information; applies to all companies in Hong Kong from August 2025. <!--SR:!fsrs,2027-08-14T00:00:00.000Z,384,384.07088952,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - HKFRS S2: focus ::@:: Climate-related disclosures; structured around four pillars (governance, strategy, risk management, metrics and targets) aligned with TCFD. <!--SR:!fsrs,2027-07-29T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-23T00:00:00.000Z!fsrs,2027-07-29T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
 - HKFRS S2: four disclosure pillars ::@:: (1) Governance — board and management oversight of climate risks; (2) Strategy — impacts on business model and financial planning; (3) Risk management — identifying and assessing climate risks; (4) Metrics and targets — quantitative performance data such as Scope 1, 2, and 3 emissions. <!--SR:!fsrs,2026-09-10T14:04:17.792Z,88,87.54441264,1,2,3,0,0,2026-06-14T14:04:17.792Z!fsrs,2026-09-10T14:04:19.839Z,88,87.54441264,1,2,3,0,0,2026-06-14T14:04:19.839Z-->
 - what is the main reporting shift signalled by HKFRS S1 and S2? ::@:: Sustainability reporting is being integrated more closely with governance, strategy, risk management, and financial reporting rather than treated as a separate public-relations document; and coverage is extending from listed companies to all companies. <!--SR:!2026-07-26,75,328!2026-07-26,75,328-->

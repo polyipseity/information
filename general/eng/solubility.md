@@ -394,7 +394,7 @@ return await memorize_map(
 - [sodium sulfite](sodium%20sulfite.md):@:<span style="color: green;">soluble</span> <!--SR:!2030-08-28,1782,298-->
 - [strontium hydroxide](strontium%20hydroxide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-10-18,259,170-->
 - [strontium oxide](strontium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2027-08-18,892,278-->
-- [strontium sulfate](strontium%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-07-25,317,158-->
+- [strontium sulfate](strontium%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!fsrs,2027-10-20T00:00:00.000Z,451,451.43510886,8.93627837,2,9,0,0,2026-07-26T00:00:00.000Z-->
 - [thallium(I) hydroxide](thallium(I)%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2031-03-03,1820,278-->
 - [thallium(I) oxide](thallium(I)%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2029-12-23,1442,278-->
 - [thallium(III) oxide](thallium(III)%20oxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-05-03,366,198-->

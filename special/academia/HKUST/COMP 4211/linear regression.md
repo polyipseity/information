@@ -442,7 +442,7 @@ Flashcards for this section are as follows:
 - ridge gradient interpretation ::@:: The ridge term adds $2\lambda w$ to the data-fit gradient, so every coefficient feels a smooth pull directly toward zero. <!--SR:!2026-08-05,85,353!2026-08-11,86,353-->
 - why the bias has no regularization gradient ::@:: Because the bias term $w_0$ is excluded from the penalty, the regularizer contributes $0$ to the derivative with respect to $w_0$. <!--SR:!2026-08-06,86,353!2026-07-26,75,324-->
 - what $\lVert w\rVert_1$ means ::@:: The $L_1$ penalty is $\lVert w\rVert_1 = \sum_j |w_j|$, the sum of absolute coefficient magnitudes. <!--SR:!2026-08-11,86,353!2026-08-11,86,353-->
-- why the l1 penalty feels different from l2 squared ::@:: The $L_1$ penalty grows linearly with coefficient size, which makes exact zeros more competitive than under a smooth squared penalty. <!--SR:!2026-08-11,86,353!2026-07-25,70,324-->
+- why the l1 penalty feels different from l2 squared ::@:: The $L_1$ penalty grows linearly with coefficient size, which makes exact zeros more competitive than under a smooth squared penalty. <!--SR:!2026-08-11,86,353!fsrs,2027-07-22T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-26T00:00:00.000Z-->
 - LASSO gradient away from zero ::@:: For $w_j\neq 0$, the derivative of $\lambda|w_j|$ is $\lambda\operatorname{sign}(w_j)$, so LASSO applies a constant-magnitude pull toward zero on each nonzero coordinate. <!--SR:!2026-08-11,86,353!2026-08-02,82,341-->
 - LASSO subgradient at zero ::@:: At $w_j=0$, $|w_j|$ is not differentiable, so LASSO uses a subgradient and any value in $[-\lambda,\lambda]$ is allowed for that coordinate. <!--SR:!2026-07-28,77,341!2026-08-02,82,353-->
 - LASSO optimality condition ::@:: LASSO satisfies $0\in\nabla_w J(w,w_0)+\lambda\,\partial\|w\|_1$, which explains how a coefficient can remain exactly zero. <!--SR:!2026-08-02,78,341!2026-08-11,86,353-->
@@ -507,7 +507,7 @@ Flashcards for this section are as follows:
 - meaning of $R^2 = 1$ ::@:: $R^2 = 1$ means the model predicts the targets perfectly, so the residual sum of squares is zero. <!--SR:!2026-08-11,86,353!2026-08-02,82,341-->
 - meaning of $R^2 = 0$ ::@:: $R^2 = 0$ means the model performs no better than the baseline predictor that always outputs the mean target value. <!--SR:!2026-08-11,86,353!2026-08-30,92,362-->
 - why $R^2$ can be negative ::@:: $R^2$ can be negative when the model performs worse than the mean-prediction baseline and therefore has an even larger residual sum of squares. <!--SR:!2026-08-02,82,341!2026-08-08,83,341-->
-- OLS orthogonality interpretation of residuals ::@:: At the least-squares solution the residual vector $e=y-\hat y$ satisfies $X^\top e=0$, so it is orthogonal to every regressor included in the design matrix.  <p> In particular, if an intercept is included, which corresponds to a column of all ones, this implies that the residuals sum to zero. <!--SR:!fsrs,2027-05-09T00:00:00.000Z,299,299.36513198,1,2,7,0,0,2026-07-14T00:00:00.000Z!2026-07-25,70,324-->
+- OLS orthogonality interpretation of residuals ::@:: At the least-squares solution the residual vector $e=y-\hat y$ satisfies $X^\top e=0$, so it is orthogonal to every regressor included in the design matrix.  <p> In particular, if an intercept is included, which corresponds to a column of all ones, this implies that the residuals sum to zero. <!--SR:!fsrs,2027-05-09T00:00:00.000Z,299,299.36513198,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-07-22T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-26T00:00:00.000Z-->
 
 ### mse and rmse interpretation
 
@@ -541,7 +541,7 @@ Flashcards for this section are as follows:
 - alternative $R^2$ formula with intercept ::@:: When an intercept is included, OLS gives $\mathrm{TSS}=\mathrm{ESS}+\mathrm{RSS}$, so $R^2 = \mathrm{ESS}/\mathrm{TSS}$ with $\mathrm{ESS}=\sum_i(\hat y_i-\bar y)^2$. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-08-05,81,353-->
 - intercept assumption behind the standard $R^2$ formulas ::@:: The usual mean-baseline interpretation of $R^2$ and the decomposition $\mathrm{TSS}=\mathrm{ESS}+\mathrm{RSS}$ assume that the regression model includes an intercept term. <!--SR:!2026-08-07,82,341!2026-08-04,79,341-->
 - relation between OLS residuals and regressors ::@:: OLS residuals are orthogonal to all included regressors because the normal equation gives $X^\top(y-\hat y)=0$, regardless of whether an intercept is present. <!--SR:!2026-08-03,78,341!2026-08-04,84,353-->
-- extra intercept consequence for residuals ::@:: If an intercept column is included in $X$, then $X^\top e=0$ implies the residuals sum to zero. <!--SR:!2026-07-25,74,324!2026-08-13,92,363-->
+- extra intercept consequence for residuals ::@:: If an intercept column is included in $X$, then $X^\top e=0$ implies the residuals sum to zero. <!--SR:!fsrs,2027-08-09T00:00:00.000Z,379,378.55033956,1,2,7,0,0,2026-07-26T00:00:00.000Z!2026-08-13,92,363-->
 
 ## probabilistic formulation of linear regression
 
@@ -619,7 +619,7 @@ Now the key observation is simple: if $\sigma$ is fixed, then the first term is 
 
 Flashcards for this section are as follows:
 
-- one-sample Gaussian negative log-likelihood ::@:: For one example with Gaussian output noise, $-\log p(y\mid x,\theta)=\frac{1}{2}\log(2\pi\sigma^2)+\frac{(y-w^\top x)^2}{2\sigma^2}$. <!--SR:!2026-08-08,83,341!2026-07-25,70,324-->
+- one-sample Gaussian negative log-likelihood ::@:: For one example with Gaussian output noise, $-\log p(y\mid x,\theta)=\frac{1}{2}\log(2\pi\sigma^2)+\frac{(y-w^\top x)^2}{2\sigma^2}$. <!--SR:!2026-08-08,83,341!fsrs,2027-07-22T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-26T00:00:00.000Z-->
 - dataset Gaussian objective ::@:: Averaging Gaussian negative log-likelihood over the dataset gives $\frac{1}{2}\log(2\pi\sigma^2)+\frac{1}{2N\sigma^2}\sum_{i=1}^N (y_i-w^\top x_i)^2$. <!--SR:!2026-08-04,84,353!fsrs,2027-07-31T00:00:00.000Z,375,375.2367062,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
 - why Gaussian likelihood penalizes squared residuals ::@:: In a Gaussian density the exponent is proportional to $-(y-w^\top x)^2$, so larger squared residuals directly reduce likelihood. <!--SR:!2026-08-04,84,353!2026-08-11,86,353-->
 - why the Gaussian derivation is important ::@:: It shows that MSE is not arbitrary; it is the natural objective induced by a Gaussian conditional output model. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!2026-08-11,86,353-->

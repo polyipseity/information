@@ -21,7 +21,7 @@ The __Sun__ is {@{the [star](star.md) at the center of the [Solar System](Solar%
 
 - see: [standard solar model](standard%20solar%20model.md)
 
-From the outside to inside, significant structures of the Sun are: {@{[solar wind](solar%20wind.md), [corona](stellar%20corona.md), [chromosphere](chromosphere.md), [photosphere](#photosphere)}@}, {@{[convective zone](#convective%20zone), [radiative zone](#radiative%20zone), and [core](#core)}@}. <!--SR:!2026-07-25,242,240!2028-06-28,799,374-->
+From the outside to inside, significant structures of the Sun are: {@{[solar wind](solar%20wind.md), [corona](stellar%20corona.md), [chromosphere](chromosphere.md), [photosphere](#photosphere)}@}, {@{[convective zone](#convective%20zone), [radiative zone](#radiative%20zone), and [core](#core)}@}. <!--SR:!fsrs,2028-08-09T00:00:00.000Z,745,744.98880025,4.48184559,2,9,0,0,2026-07-26T00:00:00.000Z!2028-06-28,799,374-->
 
 ### core
 

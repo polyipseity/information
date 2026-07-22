@@ -174,7 +174,7 @@ The content is in teaching order.
     - flow rate / capacity-constrained ::@:: Input is not fully used. Process capacity is fully used. Potential demand is not fully satisfied. <!--SR:!2026-08-01,422,381!2026-08-25,428,381-->
 - [capacity utilization](../../../../general/capacity%20utilization.md)
     - capacity utilization / process utilization ::@:: It is defined as the _bottleneck_ utilization. <!--SR:!2026-08-31,436,381!2026-09-17,450,381-->
-        - capacity utilization / process utilization / lower than 100% ::@:: Given the flow rate is the same for all resources (which may _not_ be the case if the process is random), this means the process is _not_ capacity-constrained, but either input-constrained or demand-constrained (or both). <!--SR:!2026-07-25,415,381!2026-09-02,438,381-->
+        - capacity utilization / process utilization / lower than 100% ::@:: Given the flow rate is the same for all resources (which may _not_ be the case if the process is random), this means the process is _not_ capacity-constrained, but either input-constrained or demand-constrained (or both). <!--SR:!fsrs,2031-11-29T00:00:00.000Z,1952,1951.53152462,1,2,10,0,0,2026-07-26T00:00:00.000Z!2026-09-02,438,381-->
 
 ---
 
