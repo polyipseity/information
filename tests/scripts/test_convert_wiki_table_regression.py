@@ -332,9 +332,7 @@ class TestCaptionTableAlignmentRows:
 </table>"""
 
     @pytest.mark.anyio
-    async def test_caption_pure_data_table(
-        self, converter: WikiHtmlConverter
-    ) -> None:
+    async def test_caption_pure_data_table(self, converter: WikiHtmlConverter) -> None:
         """Table with caption and pure <td> rows should preserve caption text."""
         html = BeautifulSoup(self.CAPTION_PURE_TD_HTML, "html.parser")
         result = await converter.convert(
