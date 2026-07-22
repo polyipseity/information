@@ -980,9 +980,7 @@ The Fourier transforms in this table may be found in [Erdélyi \(1954\)](#CITERE
 
 ## external links
 
-- ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg)
-
-Media related to [Fourier transformation](https://commons.wikimedia.org/wiki/Category%3AFourier%20transformation) at Wikimedia Commons
+- ![Wikimedia Commons logo](../../archives/Wikimedia%20Commons/Commons-logo.svg) Media related to [Fourier transformation](https://commons.wikimedia.org/wiki/Category%3AFourier%20transformation) at Wikimedia Commons
 - [Encyclopedia of Mathematics](https://www.encyclopediaofmath.org/index.php/Fourier_transform)
 - <a id="CITEREFWeisstein"></a> [Weisstein, Eric W.](Eric%20W.%20Weisstein.md) ["Fourier Transform"](https://mathworld.wolfram.com/FourierTransform.html). _[MathWorld](MathWorld.md)_.
 - [Fourier Transform in Crystallography](https://www.xtal.iqf.csic.es/Cristalografia/parte_05-en.html)
