@@ -742,6 +742,9 @@ class WikiHtmlConverter:
             else:
                 alt_text = alt_text.rstrip()
             alt_text = self._escape_flashcard_delimiters(alt_text)
+            alt_text = re.sub(
+                r"\\(?:\!|negthinspace)(?=[_^])", r"\\mkern-3mu", alt_text
+            )
 
             inline = self._is_inline_math(ele)
             prefix, suffix = (
