@@ -257,7 +257,7 @@ Similar asymptotic analysis is possible for {@{exponential generating functions}
 
 #### asymptotic growth of the sequence of squares
 
-As derived above, {@{the ordinary generating function for the sequence of squares}@} is: {@{$$G(n^{2};x)={\frac {x(x+1)}{(1-x)^{3} } }\,.$$}@} With {@{_r_ = 1, _α_ = −1, _β_ = 3, _A_(_x_) = 0, and _B_(_x_) = _x_ + 1}@}, we can {@{verify that the squares grow as expected, like the squares}@}: {@{$$a_{n}\sim {\frac {B(r)}{r^{\alpha }\Gamma (\beta )} }\,n^{\beta -1}\left({\frac {1}{r} }\right)^{n}={\frac {1+1}{1^{-1}\,\Gamma (3)} }\,n^{3-1}\left({\frac {1}{1} }\right)^{n}=n^{2}\,.$$}@} <!--SR:!2029-02-09,1231,350!2029-02-20,1168,310!2027-03-23,308,230!2026-07-26,453,310!2026-11-23,488,270-->
+As derived above, {@{the ordinary generating function for the sequence of squares}@} is: {@{$$G(n^{2};x)={\frac {x(x+1)}{(1-x)^{3} } }\,.$$}@} With {@{_r_ = 1, _α_ = −1, _β_ = 3, _A_(_x_) = 0, and _B_(_x_) = _x_ + 1}@}, we can {@{verify that the squares grow as expected, like the squares}@}: {@{$$a_{n}\sim {\frac {B(r)}{r^{\alpha }\Gamma (\beta )} }\,n^{\beta -1}\left({\frac {1}{r} }\right)^{n}={\frac {1+1}{1^{-1}\,\Gamma (3)} }\,n^{3-1}\left({\frac {1}{1} }\right)^{n}=n^{2}\,.$$}@} <!--SR:!2029-02-09,1231,350!2029-02-20,1168,310!2027-03-23,308,230!fsrs,2031-04-26T00:00:00.000Z,1734,1733.83021661,1,2,10,0,0,2026-07-27T00:00:00.000Z!2026-11-23,488,270-->
 
 #### asymptotic growth of the Catalan numbers
 

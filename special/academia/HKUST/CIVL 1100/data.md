@@ -218,7 +218,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
-- bridge type ::@:: cable-stayed road bridge <!--SR:!2026-07-26,642,396!2026-09-13,690,416-->
+- bridge type ::@:: cable-stayed road bridge <!--SR:!fsrs,2034-05-17T00:00:00.000Z,2851,2851.00173117,1,2,10,0,0,2026-07-27T00:00:00.000Z!2026-09-13,690,416-->
 - designers ::@:: Michel Virlogeux, Norman Foster <!--SR:!2029-07-29,1495,396!2027-01-26,801,416-->
 - geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2028-12-25,1328,396!2029-05-17,1446,396-->
 - height ::@:: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2029-12-21,1422,316!2026-12-05,758,416-->

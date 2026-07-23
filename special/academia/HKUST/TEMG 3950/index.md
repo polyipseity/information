@@ -277,7 +277,7 @@ The content is in teaching order.
         - R&D ::@:: research & development <!--SR:!2026-11-05,710,410!2027-05-09,860,410-->
         - S&M ::@:: sales & marketing <!--SR:!2027-06-21,895,410!fsrs,2034-02-07T00:00:00.000Z,2766,2765.81733121,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
         - G&A ::@:: general & administration <!--SR:!2034-10-27,3102,430!2026-08-01,630,410-->
-        - CAGR ::@:: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2031-03-11,1993,410!2026-07-26,625,410-->
+        - CAGR ::@:: compound average growth rate; $$\text{CAGR} = \left(\frac {V_{\text{end} } } {V_{\text{start} } } \right)^{\frac 1 t} - 1$$ <!--SR:!2031-03-11,1993,410!fsrs,2034-03-12T00:00:00.000Z,2785,2785.20966209,1,2,10,0,0,2026-07-27T00:00:00.000Z-->
 - interview note-taking technique using 1 sheet of A4 paper
 - exam for part 2 review
 
