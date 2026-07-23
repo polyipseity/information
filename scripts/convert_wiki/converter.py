@@ -61,14 +61,24 @@ _CONSECUTIVE_NEWLINES_REGEX = re.compile(r"\n\n+")
 _CONSECUTIVE_LEADING_WHITESPACES_REGEX = re.compile(r"(?:^|\n)([ \t]+)", re.MULTILINE)
 """``| __bold__ |`` bold table headers separated by spaces."""
 _TABLE_IN_TABLE_HEADER_REGEX = re.compile(r"\| (__.*?__) \|")
+""""``|`` that shouldn't be consumed as part of a pipe table cell."""
+_TABLE_IN_TABLE_LEADING_VERTICAL_REGEX = re.compile(r"^\s*\|", re.MULTILINE)
 """``|`` that shouldn't be consumed as part of a pipe table cell."""
-_TABLE_IN_TABLE_LEADING_VERTICAL_REGEX = re.compile(r"\s*\|")
-"""``|`` that shouldn't be consumed as part of a pipe table cell."""
-_TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX = re.compile(r"\|\s*")
+_TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX = re.compile(r"\|\s*$", re.MULTILINE)
 """Whitespace and separator chars for sidebar tight wrapping."""
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 """Markdown separator character set used for emphasis adjacency."""
 _MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
+"""Regex for matching math blocks (inline `$...$` or display `$$...$$`)."""
+_MATH_BLOCK = re.compile(r"(\$\$[^$]*\$\$|\$[^$]+\$)")
+
+
+def _replace_pipes_outside_math(text: str) -> str:
+    """Replace ``|`` with ``&#124;`` outside of math blocks only."""
+    parts = _MATH_BLOCK.split(text)
+    for i in range(0, len(parts), 2):
+        parts[i] = parts[i].replace("|", "&#124;")
+    return "".join(parts)
 
 
 class WikiHtmlConverter:
@@ -1181,7 +1191,7 @@ class WikiHtmlConverter:
         strings = _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX.sub(
             lambda match: match[0][len("|") :], strings
         )
-        strings = strings.replace("|", "&#124;")
+        strings = _replace_pipes_outside_math(strings)
         strings = strings.strip()
         strings = strings.replace("\n\n", " <br/> <br/> ")
         strings = strings.replace("\n", " <br/> ")
