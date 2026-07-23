@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 - provision current vs non-current ::@:: If settlement expected within 12 months after reporting date, current; otherwise non-current. <!--SR:!2026-08-08,83,342!fsrs,2027-07-26T00:00:00.000Z,369,368.80018302,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - provision: past event ::@:: Something that already happened (e.g. sale of product with warranty, incident giving rise to lawsuit). <!--SR:!2026-07-29,74,342!fsrs,2027-07-06T00:00:00.000Z,350,350.16609236,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
 - provision: present obligation ::@:: Legal (if in contract) or constructive (if from policy/practice); must arise from the past event. <!--SR:!2026-08-02,78,342!2026-08-08,83,342-->
-- provision recognition: four criteria ::@:: (1) Past event, (2) present obligation (legal or constructive), (3) probable outflow (>50%), (4) reliably estimated amount. <!--SR:!2026-07-30,75,342!2026-07-27,72,337-->
+- provision recognition: four criteria ::@:: (1) Past event, (2) present obligation (legal or constructive), (3) probable outflow (>50%), (4) reliably estimated amount. <!--SR:!2026-07-30,75,342!fsrs,2027-08-19T00:00:00.000Z,387,387.29485933,1,2,7,0,0,2026-07-28T00:00:00.000Z-->
 - provisions add to liability definition ::@:: Provisions add probable outflow and reliably estimated amount to the general liability definition (past event, present obligation). <!--SR:!2026-07-28,73,335!2026-07-31,76,342-->
 - probable in provision context ::@:: More than 50% chance that an outflow will be required; instructor uses clear-cut percentages (e.g. 58%, 42%), not 50.1%. <!--SR:!fsrs,2027-07-28T00:00:00.000Z,369,368.80018302,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-31T00:00:00.000Z,373,373.43671089,1,2,7,0,0,2026-07-23T00:00:00.000Z-->
 - reliably estimated (provision) ::@:: There must be a reasonable basis for the estimate (e.g. lawyer advice, past experience for litigation). <!--SR:!2026-07-29,74,326!fsrs,2027-04-12T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-08T00:00:00.000Z-->
@@ -54,7 +54,7 @@ The practical recognition-versus-disclosure rule is therefore: __recognize__ a p
 
 Flashcards for this section are as follows:
 
-- no past event (provision) ::@:: The company did nothing that gave rise to the obligation; e.g. labour strike, war, recession—company did not cause these. <!--SR:!2026-08-05,80,342!2026-07-27,72,342-->
+- no past event (provision) ::@:: The company did nothing that gave rise to the obligation; e.g. labour strike, war, recession—company did not cause these. <!--SR:!2026-08-05,80,342!fsrs,2027-08-26T00:00:00.000Z,394,394.04153963,1,2,7,0,0,2026-07-28T00:00:00.000Z-->
 - why no provision for labour strike or war? ::@:: No past event—the company did not cause the strike or war; no present obligation. <!--SR:!2026-07-29,74,342!2026-08-05,80,342-->
 - lawsuit: when is no provision recognized? ::@:: When probability of unfavorable outcome is not probable (e.g. &lt;50%); may still require disclosure in notes. <!--SR:!2026-08-08,83,342!2026-08-01,77,342-->
 - provision vs disclosure ::@:: Recognize a provision only when there is a present obligation, outflow is probable, and the amount is reliably estimated; then record it in the accounts (typically Dr expense, Cr liability). If the obligation is only possible, or present but not probable enough / not reliably measurable, do not recognize it—disclose it in the notes as a contingent liability instead. If the chance of outflow is remote, usually do nothing. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z!2026-08-08,83,342-->
@@ -71,7 +71,7 @@ Flashcards for this section are as follows:
 - litigation: probability of unfavorable outcome ::@:: Whether the entity will lose the case; must be probable for provision. <!--SR:!2026-08-03,79,342!2026-08-06,81,342-->
 - litigation: time period ::@:: When the cause of action arose relative to the reporting date; lawsuit filed before vs after balance sheet date. <!--SR:!2026-08-06,81,342!2026-07-30,75,342-->
 - lawsuit filed after balance sheet date ::@:: No provision in current year; obligation arises next period; provision in next year if criteria met. <!--SR:!fsrs,2027-06-25T00:00:00.000Z,341,341.1928498,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-07-30T00:00:00.000Z,368,368.01119375,1,2,7,0,0,2026-07-27T00:00:00.000Z-->
-- litigation provision: when recognized? ::@:: When lawsuit is before balance sheet date, probable loss, and amount reliably estimated. <!--SR:!2026-07-27,72,342!2026-08-01,77,342-->
+- litigation provision: when recognized? ::@:: When lawsuit is before balance sheet date, probable loss, and amount reliably estimated. <!--SR:!fsrs,2027-08-26T00:00:00.000Z,394,394.04153963,1,2,7,0,0,2026-07-28T00:00:00.000Z!2026-08-01,77,342-->
 
 ## best estimate of the amount
 
@@ -296,7 +296,7 @@ Representative journal entry examples:
 > | {@{Sales revenue}@}                              |              | {@{30 000}@} |
 > | {@{Unearned warranty revenue}@}                  |              | {@{900}@}    |
 >
-> _Explanation._ 900 is for the extended (service-type) coverage; {@{revenue is recognized only over the service-type period (e.g. straight-line over years 2–4), after the assurance-type warranty has expired}@}. <!--SR:!2026-07-28,73,342!fsrs,2027-06-02T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-20T00:00:00.000Z!2026-08-06,81,342!2026-07-31,76,342!2026-07-27,72,326!2026-07-31,76,342!2026-08-02,78,342!2026-08-02,78,342!2027-04-27,346,362!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-08,83,342-->
+> _Explanation._ 900 is for the extended (service-type) coverage; {@{revenue is recognized only over the service-type period (e.g. straight-line over years 2–4), after the assurance-type warranty has expired}@}. <!--SR:!2026-07-28,73,342!fsrs,2027-06-02T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-20T00:00:00.000Z!2026-08-06,81,342!2026-07-31,76,342!fsrs,2027-08-04T00:00:00.000Z,372,372.45216267,1,2,7,0,0,2026-07-28T00:00:00.000Z!2026-07-31,76,342!2026-08-02,78,342!2026-08-02,78,342!2027-04-27,346,362!fsrs,2027-05-26T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-17T00:00:00.000Z!2026-08-08,83,342-->
 
 <!-- markdownlint MD028 -->
 
@@ -407,7 +407,7 @@ Representative journal entry examples:
 > | {@{Premium liability}@}                   | {@{5&nbsp;000}@} |                  |
 > | {@{Premium revenue (or Other income)}@}   |                  | {@{5&nbsp;000}@} |
 >
-> _Explanation._ This is different from a mere {@{change in estimate}@}: the rights have {@{actually expired}@}, so the obligation is extinguished and the remaining balance can be {@{transferred to income}@}. <!--SR:!2026-07-30,75,342!fsrs,2027-07-31T00:00:00.000Z,373,373.43671089,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-07-27,72,342!2026-08-06,81,342!2026-08-06,81,342!2026-08-07,82,342!fsrs,2027-01-03T10:56:24.434Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:56:24.434Z!fsrs,2027-01-03T11:00:58.979Z,204,203.8653807,1,2,5,0,0,2026-06-13T11:00:58.979Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Explanation._ This is different from a mere {@{change in estimate}@}: the rights have {@{actually expired}@}, so the obligation is extinguished and the remaining balance can be {@{transferred to income}@}. <!--SR:!2026-07-30,75,342!fsrs,2027-07-31T00:00:00.000Z,373,373.43671089,1,2,7,0,0,2026-07-23T00:00:00.000Z!fsrs,2027-08-26T00:00:00.000Z,394,394.04153963,1,2,7,0,0,2026-07-28T00:00:00.000Z!2026-08-06,81,342!2026-08-06,81,342!2026-08-07,82,342!fsrs,2027-01-03T10:56:24.434Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:56:24.434Z!fsrs,2027-01-03T11:00:58.979Z,204,203.8653807,1,2,5,0,0,2026-06-13T11:00:58.979Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 ---
 
@@ -479,7 +479,7 @@ Representative journal entry examples:
 > | {@{Interest expense}@}                         | {@{62 092}@} |              |
 > | {@{Environmental liability (ARO)}@}            |              | {@{62 092}@} |
 >
-> _Calculation._ {@{620 921 × 0.10}@} = {@{62 092}@} (rounded). <!--SR:!2026-07-28,73,326!2026-08-03,79,342!2026-07-27,72,326!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-08-07,82,342!2026-08-06,81,342!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Calculation._ {@{620 921 × 0.10}@} = {@{62 092}@} (rounded). <!--SR:!2026-07-28,73,326!2026-08-03,79,342!fsrs,2027-08-04T00:00:00.000Z,372,372.45216267,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-08-07,82,342!2026-08-06,81,342!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -562,7 +562,7 @@ Representative journal entry examples:
 > | {@{Loss on onerous contract}@}             | {@{200 000}@} |               |
 > | {@{Onerous contract liability}@}           |               | {@{200 000}@} |
 >
-> _Calculation._ Required provision = {@{200&nbsp;000}@} because the contract must still be fulfilled and there is {@{no cheaper exit option}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-01,77,342!2026-07-30,75,342!fsrs,2027-08-08T00:00:00.000Z,378,378.06456201,1,2,7,0,0,2026-07-26T00:00:00.000Z!2026-07-27,72,342!fsrs,2027-01-03T09:57:27.912Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:57:27.912Z!fsrs,2027-01-03T09:39:11.324Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:39:11.324Z-->
+> _Calculation._ Required provision = {@{200&nbsp;000}@} because the contract must still be fulfilled and there is {@{no cheaper exit option}@}. <!--SR:!2026-08-07,82,342!2026-08-08,83,342!2026-08-01,77,342!2026-07-30,75,342!fsrs,2027-08-08T00:00:00.000Z,378,378.06456201,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-08-26T00:00:00.000Z,394,394.04153963,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-01-03T09:57:27.912Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:57:27.912Z!fsrs,2027-01-03T09:39:11.324Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:39:11.324Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -605,7 +605,7 @@ Representative journal entry example:
 > | {@{Restructuring expense}@}             | {@{500 000}@} |               |
 > | {@{Restructuring liability}@}           |               | {@{500 000}@} |
 >
-> _Explanation._ The provision includes only {@{direct, traceable exit costs that become unavoidable once the restructuring plan creates a present obligation}@}. Costs such as {@{training, relocation of retained staff, marketing, or new systems for the new setup}@} are excluded because they are {@{costs of the future project / future operations, not costs of exiting the old structure}@}. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-06-07T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-21T00:00:00.000Z!2026-08-01,77,342!fsrs,2027-06-18T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-08-02,78,342!2026-07-27,72,326!fsrs,2027-08-15T00:00:00.000Z,385,384.65652839,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2026-12-30T09:43:32.597Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:43:32.597Z!fsrs,2026-12-30T09:42:35.245Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:42:35.245Z!fsrs,2027-01-03T10:54:53.685Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:54:53.685Z-->
+> _Explanation._ The provision includes only {@{direct, traceable exit costs that become unavoidable once the restructuring plan creates a present obligation}@}. Costs such as {@{training, relocation of retained staff, marketing, or new systems for the new setup}@} are excluded because they are {@{costs of the future project / future operations, not costs of exiting the old structure}@}. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-06-07T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-21T00:00:00.000Z!2026-08-01,77,342!fsrs,2027-06-18T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-08-02,78,342!fsrs,2027-08-04T00:00:00.000Z,372,372.45216267,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-08-15T00:00:00.000Z,385,384.65652839,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2026-12-30T09:43:32.597Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:43:32.597Z!fsrs,2026-12-30T09:42:35.245Z,200,199.99250261,1,2,5,0,0,2026-06-13T09:42:35.245Z!fsrs,2027-01-03T10:54:53.685Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:54:53.685Z-->
 
 ---
 

@@ -145,7 +145,7 @@ tags:
 > 4. 10% to 20%
 >
 > - solution: {@{4}@}
-> - explanation: {@{An example for base rate neglect. The probability should be: $$\frac {0.01 \cdot 0.9} {0.01 \cdot 0.9 + 0.99 \cdot 0.05} \approx 0.0178571429 \,.$$}@} <!--SR:!2026-07-27,312,351!2026-08-25,336,351-->
+> - explanation: {@{An example for base rate neglect. The probability should be: $$\frac {0.01 \cdot 0.9} {0.01 \cdot 0.9 + 0.99 \cdot 0.05} \approx 0.0178571429 \,.$$}@} <!--SR:!fsrs,2030-07-05T00:00:00.000Z,1438,1437.72810263,1,2,9,0,0,2026-07-28T00:00:00.000Z!2026-08-25,336,351-->
 
 <!-- markdownlint MD028 -->
 

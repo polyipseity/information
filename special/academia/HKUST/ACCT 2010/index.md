@@ -268,7 +268,7 @@ The content is in teaching order.
 - [inventory](../../../../general/inventory.md)
     - [inventory management](../../../../general/field%20inventory%20management.md) ::@:: Provide sufficient quantities to adapt to changing demand, but keep the inventory small to minimize the cost of carrying inventory (since assets used to buy inventory cannot be reinvested). <!--SR:!2030-11-12,1735,396!2031-03-03,1832,403-->
 - [cost of goods sold](../../../../general/cost%20of%20goods%20sold.md) ::@:: $$\begin{aligned} \text{goods available for sale} & = \text{beginning inventory} + \text{purchases} \\ \text{cost of goods sold} & = \text{goods available for sale} - \text{ending inventory} \end{aligned}$$ (This should not be too hard...) <!--SR:!2026-09-14,521,403!2026-10-02,536,403-->
-    - inventory / types ::@:: Two main types depending on if you are a merchandiser or a manufacturer. <!--SR:!2026-09-25,531,403!2026-07-27,481,403-->
+    - inventory / types ::@:: Two main types depending on if you are a merchandiser or a manufacturer. <!--SR:!2026-09-25,531,403!fsrs,2032-08-23T00:00:00.000Z,2218,2218.23103427,1,2,10,0,0,2026-07-28T00:00:00.000Z-->
         - inventory / types / merchandiser ::@:: merchandise inventory <!--SR:!2031-06-08,1912,403!2026-09-08,515,396-->
         - inventory / types / manufacturer ::@:: raw materials inventory → work-in-process inventory → finished goods inventory <!--SR:!2031-09-08,1986,403!2027-10-08,763,363-->
 - [inventory valuation](../../../../general/inventory%20valuation.md) ::@:: 2 main methods to value your inventory: perpetual inventory, periodic inventory <!--SR:!2026-08-31,510,403!fsrs,2032-06-21T00:00:00.000Z,2170,2170.09977723,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
@@ -463,7 +463,7 @@ The content is in teaching order.
     - preferred stock / non-cumulative ::@:: Any dividends not paid in previous years are lost permanently. <!--SR:!2030-12-03,1737,396!2026-08-27,507,403-->
 - [earnings per share](../../../../general/earnings%20per%20share.md) (EPS)
     - earnings per share / interpretation ::@:: This ratio is often used to compare the dividend-paying performance of different investment alternatives. <!--SR:!2026-09-24,529,403!2031-08-02,1955,403-->
-- [dividend yield](../../../../general/dividend%20yield.md) ::@:: $$\frac {\text{dividends per share} } {\text{market price per share} } \times 100\%$$ <!--SR:!2026-09-27,532,403!2026-07-27,479,396-->
+- [dividend yield](../../../../general/dividend%20yield.md) ::@:: $$\frac {\text{dividends per share} } {\text{market price per share} } \times 100\%$$ <!--SR:!2026-09-27,532,403!fsrs,2032-08-15T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-07-28T00:00:00.000Z-->
     - dividend yield / interpretation ::@:: It reflects the return on investment which are attributed solely to dividends a company pays. <!--SR:!2031-05-13,1891,403!2026-08-16,496,403-->
 - [price/earnings ratio](../../../../general/price–earnings%20ratio.md) ::@:: $$\frac {\text{market price per share} } {\text{earnings per share} }$$ <!--SR:!2026-09-23,529,403!2032-01-17,2072,403-->
     - price/earnings ratio / interpretation ::@:: High ratio usually means good growth prospects. But risks are when the earnings are lower than what the market expects, the effect on its stock can be dramatic. <!--SR:!2031-08-17,1968,403!fsrs,2032-05-26T00:00:00.000Z,2150,2149.99976191,1,2,10,0,0,2026-07-07T00:00:00.000Z-->

@@ -81,7 +81,7 @@ The eye pattern of {@{a [NRZ](non-return-to-zero.md) \(annotation: non-return-to
 
 ### MLT-3
 
-The eye pattern of {@{a [MLT-3](MLT-3%20encoding.md) \(annotation: multi-level transmit\) signal}@} should consist of {@{three clearly distinct levels \(nominally -1, 0, +1 from bottom to top\)}@}. {@{The 0 level}@} should be located {@{at zero volts}@} and {@{the overall shape}@} should be {@{symmetric about the horizontal axis}@}. {@{The +1 and -1 states}@} should {@{have equal amplitude}@}. There should be {@{smooth transitions from the 0 state to the +1 and -1 states}@}, however there should be {@{no direct transitions from the -1 to +1 state}@} \(which would indicate the signal is {@{PAM-3 rather than MLT-3}@}\). <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-18T00:00:00.000Z!2026-07-27,249,330!2026-08-13,262,330!2026-08-13,262,330!2026-08-08,257,330!fsrs,2029-05-25T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-07-11T00:00:00.000Z!2026-09-04,279,330!2026-08-28,274,330!2026-08-30,273,330!2026-09-22,294,330!2026-08-14,263,330-->
+The eye pattern of {@{a [MLT-3](MLT-3%20encoding.md) \(annotation: multi-level transmit\) signal}@} should consist of {@{three clearly distinct levels \(nominally -1, 0, +1 from bottom to top\)}@}. {@{The 0 level}@} should be located {@{at zero volts}@} and {@{the overall shape}@} should be {@{symmetric about the horizontal axis}@}. {@{The +1 and -1 states}@} should {@{have equal amplitude}@}. There should be {@{smooth transitions from the 0 state to the +1 and -1 states}@}, however there should be {@{no direct transitions from the -1 to +1 state}@} \(which would indicate the signal is {@{PAM-3 rather than MLT-3}@}\). <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-18T00:00:00.000Z!fsrs,2029-08-04T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-07-28T00:00:00.000Z!2026-08-13,262,330!2026-08-13,262,330!2026-08-08,257,330!fsrs,2029-05-25T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-07-11T00:00:00.000Z!2026-09-04,279,330!2026-08-28,274,330!2026-08-30,273,330!2026-09-22,294,330!2026-08-14,263,330-->
 
 > {@{![Eye pattern of a 125 Mbit/s MLT-3 signal](../../archives/Wikimedia%20Commons/Eye%20pattern%20MLT3.png)}@}
 >
@@ -109,7 +109,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 ## channel effects
 
-{@{Many properties of a [channel](communication%20channel.md)}@} can be seen in {@{the eye pattern}@}. <!--SR:!fsrs,2029-07-20T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-07-24T00:00:00.000Z!2026-07-27,249,330-->
+{@{Many properties of a [channel](communication%20channel.md)}@} can be seen in {@{the eye pattern}@}. <!--SR:!fsrs,2029-07-20T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-07-24T00:00:00.000Z!fsrs,2029-08-04T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-07-28T00:00:00.000Z-->
 
 ### emphasis
 
@@ -125,7 +125,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 > {@{![Eye pattern of a 1.25 Gbps NRZ signal with 6 dB of pre-emphasis](../../archives/Wikimedia%20Commons/Eye%20pattern%20emphasis.png)}@}
 >
-> {@{Eye pattern}@} of {@{a 1.25 Gbps NRZ signal}@} with {@{6 dB of pre-emphasis}@} <!--SR:!2026-08-28,274,330!2026-09-16,289,330!2026-07-27,249,330!2026-08-03,255,330-->
+> {@{Eye pattern}@} of {@{a 1.25 Gbps NRZ signal}@} with {@{6 dB of pre-emphasis}@} <!--SR:!2026-08-28,274,330!2026-09-16,289,330!fsrs,2029-08-04T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-07-28T00:00:00.000Z!2026-08-03,255,330-->
 
 ### high-frequency loss
 
@@ -143,7 +143,7 @@ As {@{high frequency losses increase}@} {@{the overall shape of the eye}@} gradu
 
 ### impedance mismatches
 
-{@{Stubs, impedance mismatches}@}, and {@{other defects in a transmission line}@} can cause {@{[reflections](signal%20reflection.md)}@} visible as {@{defects in the edges of the signal}@}. {@{Reflections with a delay greater than one UI}@} often {@{render the eye completely unreadable}@} due to {@{[inter-symbol interference \(ISI\)](intersymbol%20interference.md)}@}, however {@{those with a shorter delay}@} can be easily {@{seen in the shape of the eye}@}. <!--SR:!2026-09-19,291,330!fsrs,2029-06-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-15T00:00:00.000Z!2026-09-12,285,330!2026-07-27,249,330!fsrs,2029-06-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-14T00:00:00.000Z!2026-09-03,278,330!2026-07-30,251,330!2026-08-05,255,330!2026-08-24,271,330-->
+{@{Stubs, impedance mismatches}@}, and {@{other defects in a transmission line}@} can cause {@{[reflections](signal%20reflection.md)}@} visible as {@{defects in the edges of the signal}@}. {@{Reflections with a delay greater than one UI}@} often {@{render the eye completely unreadable}@} due to {@{[inter-symbol interference \(ISI\)](intersymbol%20interference.md)}@}, however {@{those with a shorter delay}@} can be easily {@{seen in the shape of the eye}@}. <!--SR:!2026-09-19,291,330!fsrs,2029-06-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-15T00:00:00.000Z!2026-09-12,285,330!fsrs,2029-08-04T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-07-28T00:00:00.000Z!fsrs,2029-06-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-14T00:00:00.000Z!2026-09-03,278,330!2026-07-30,251,330!2026-08-05,255,330!2026-08-24,271,330-->
 
 In the image below, {@{a roughly 1-inch \(25 mm\) open circuited stub}@} is {@{present in the line}@}, causing {@{an initial low-impedance effect \(reduced amplitude\)}@} followed by {@{a positive reflection from the end of the stub}@} with {@{a delay of about 320 ps or 0.4 UIs}@}. This can be clearly seen as {@{a "step" in the rising edge}@} in which the signal {@{rises to a fraction of the full value}@}, {@{levels off for the round trip delay of the stub}@}, then {@{rises to its full value when the reflection arrives}@}. <!--SR:!2026-09-01,276,330!fsrs,2029-07-05T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-07-21T00:00:00.000Z!2026-08-08,258,330!fsrs,2029-07-30T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-07-27T00:00:00.000Z!2026-09-07,281,330!2026-08-11,260,330!2026-09-03,278,330!2026-09-14,287,330!2026-07-29,251,330-->
 

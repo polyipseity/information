@@ -45,7 +45,7 @@ The content is in teaching order.
     - IT3000504 / objectives ::@:: Learn key macroeconomic concepts to analyze the real world: CPI, GDP, PPP, central bank, exchange rate, interest rates, investment, money supply, unemployment, etc. <p> Use and understand formal language, mathematics, and models in macroeconomics to understand real world implications. <!--SR:!2026-08-14,253,330!2026-09-13,276,330-->
 - [macroeconomics](../../../../general/macroeconomics.md) ::@:: It is a branch of economics that deals with the performance, structure, behavior, and decision-making of an economy as a whole. This includes regional, national, and global economies. <!--SR:!2026-09-14,276,330!2026-09-06,271,330-->
     - macroeconomics / vs. microeconomics ::@:: The former deals with _aggregate_ economic variables. The latter deals with at a individual level, e.g. households, individuals, single markets, etc. <!--SR:!2026-09-09,273,330!2026-09-02,268,330-->
-    - macroeconomics / aggregate variables ::@:: GDP, growth rate, interest rate, unemployment, etc. <!--SR:!2026-07-27,238,330!2026-08-31,265,330-->
+    - macroeconomics / aggregate variables ::@:: GDP, growth rate, interest rate, unemployment, etc. <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-28T00:00:00.000Z!2026-08-31,265,330-->
 
 ## week 1 lecture 2
 
