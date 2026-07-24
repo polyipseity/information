@@ -113,7 +113,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 ### emphasis
 
-{@{[Emphasis](emphasis%20(telecommunications).md)}@} applied to a signal produces {@{an additional level for each value of the signal}@} which is {@{higher \(for pre-emphasis\) or lower \(for de-emphasis\) than the nominal value}@}. <!--SR:!2026-07-28,250,330!2026-08-31,276,330!2026-08-25,272,330-->
+{@{[Emphasis](emphasis%20(telecommunications).md)}@} applied to a signal produces {@{an additional level for each value of the signal}@} which is {@{higher \(for pre-emphasis\) or lower \(for de-emphasis\) than the nominal value}@}. <!--SR:!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-08-31,276,330!2026-08-25,272,330-->
 
 {@{The eye pattern for a signal with emphasis}@} may be mistaken for that of {@{a PAM signal}@} at first glance, however {@{closer inspection}@} reveals {@{some key differences}@}. Most notably, {@{an emphasized signal}@} has {@{a limited set of legal transitions}@}: <!--SR:!2026-08-16,264,330!2026-08-28,273,330!2026-09-15,288,330!fsrs,2029-06-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-15T00:00:00.000Z!fsrs,2029-07-15T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-23T00:00:00.000Z!fsrs,2029-06-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-17T00:00:00.000Z-->
 
@@ -139,7 +139,7 @@ The image below shows {@{a 1.25 Gbit/s NRZ signal}@} after passing {@{through a 
 >
 > {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} through {@{a lossy channel}@} <!--SR:!2026-08-30,276,330!2026-09-20,292,330!2026-08-07,257,330!2026-08-21,268,330-->
 
-As {@{high frequency losses increase}@} {@{the overall shape of the eye}@} gradually {@{degrades into a sinusoid}@} \(once {@{higher frequency harmonics of the data has been eliminated}@}, {@{all that remains}@} is {@{the fundamental}@}\) and {@{decreases in amplitude}@}. <!--SR:!2026-09-17,290,330!2026-07-28,250,330!2026-08-15,263,330!2026-08-04,255,330!2026-08-01,252,330!2026-07-28,250,330!2026-09-09,283,330-->
+As {@{high frequency losses increase}@} {@{the overall shape of the eye}@} gradually {@{degrades into a sinusoid}@} \(once {@{higher frequency harmonics of the data has been eliminated}@}, {@{all that remains}@} is {@{the fundamental}@}\) and {@{decreases in amplitude}@}. <!--SR:!2026-09-17,290,330!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-08-15,263,330!2026-08-04,255,330!2026-08-01,252,330!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-09-09,283,330-->
 
 ### impedance mismatches
 
@@ -159,7 +159,7 @@ In the image below, {@{an additional three inches of cable}@} is {@{added to the
 
 ## measurements
 
-There are {@{many measurements}@} that can be {@{obtained from an eye diagram}@}:<sup>[\[4\]](#^ref-4)</sup> \(annotation: 2 items: {@{amplitude measurements, time measurements}@}\) <!--SR:!2026-07-28,250,330!2026-09-17,290,330!fsrs,2029-05-25T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-07-11T00:00:00.000Z-->
+There are {@{many measurements}@} that can be {@{obtained from an eye diagram}@}:<sup>[\[4\]](#^ref-4)</sup> \(annotation: 2 items: {@{amplitude measurements, time measurements}@}\) <!--SR:!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-09-17,290,330!fsrs,2029-05-25T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-07-11T00:00:00.000Z-->
 
 Amplitude measurements
 

@@ -86,7 +86,7 @@ One can consider {@{the STFT for varying window size}@} as {@{a two-dimensional 
 
 When the original function is: {@{$$X(t,f)=\int _{-\infty }^{\infty }w(t-\tau )x(\tau )e^{-j2\pi f\tau }d\tau$$}@} We can have {@{a simple example}@}: <!--SR:!2026-09-07,342,349!2026-09-03,338,349-->
 
-- \(annotation: boxcar window function: within support\) ::@:: w\(t\) = 1 for \|t\| smaller than or equal B <!--SR:!2026-07-28,310,349!2026-08-26,332,349-->
+- \(annotation: boxcar window function: within support\) ::@:: w\(t\) = 1 for \|t\| smaller than or equal B <!--SR:!fsrs,2030-06-19T00:00:00.000Z,1421,1420.68519039,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-08-26,332,349-->
 - \(annotation: boxcar window function: outside support\) ::@:: w\(t\) = 0 otherwise <!--SR:!fsrs,2029-08-11T08:13:26.044Z,1161,1160.74715681,1,2,9,0,0,2026-06-07T08:13:26.044Z!2026-09-16,349,349-->
 - \(annotation: boxcar window function: parameters\) ::@:: B = window <!--SR:!2029-04-28,1086,350!fsrs,2030-06-14T00:00:00.000Z,1417,1416.70671475,1,2,9,0,0,2026-07-28T00:00:00.000Z-->
 

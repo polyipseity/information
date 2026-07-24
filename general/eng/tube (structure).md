@@ -19,7 +19,7 @@ The exterior structure is {@{a very stiff rigid frame with closely spaced column
 
 ## variations
 
-Example variations include {@{the (original) framed tube, braced/trussed tube, bundled tube, and tube-in-tube}@} systems. <!--SR:!2026-07-28,509,270-->
+Example variations include {@{the (original) framed tube, braced/trussed tube, bundled tube, and tube-in-tube}@} systems. <!--SR:!fsrs,2031-01-31T00:00:00.000Z,1647,1647.10169419,2.98092302,2,10,0,0,2026-07-29T00:00:00.000Z-->
 
 Example buildings include {@{Chicago's DeWitt-Chestnut Apartments (framed tube)}@}, {@{Hopewell Center (tube-in-tube)}@}, {@{Chicago's 100-storey John-Hancock Building (braced/trussed tube)}@}, and {@{Chicago's Sears Towers (bundled tube)}@}. <!--SR:!2027-04-20,760,290!2026-10-14,485,250!fsrs,2030-01-31T00:00:00.000Z,1300,1300.42120537,3.98153807,2,10,0,0,2026-07-11T00:00:00.000Z!2026-11-25,583,290-->
 

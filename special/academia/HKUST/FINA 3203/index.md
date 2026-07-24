@@ -50,7 +50,7 @@ The content is in teaching order.
     - derivative / examples ::@:: exotic option, forward/future, option, etc. <!--SR:!2026-08-21,268,330!fsrs,2029-06-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-18T00:00:00.000Z-->
 - [economics](../../../../general/economics.md) ::@:: It is a behavioral science that studies the production, distribution, and consumption of goods and services. <!--SR:!fsrs,2028-06-03T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-07-19T00:00:00.000Z!2026-08-04,255,330-->
     - economics / objectives ::@:: Maximize _utility_, subject to _constraints_. Constraints are important because people have _limited_ resources. <!--SR:!2026-08-11,260,330!2026-08-26,272,330-->
-    - economics / finance ::@:: a subfield of economics <p> _utility_: _expected_ return <br/> _constraint_: _affordable_ risk <!--SR:!2026-07-28,250,330!2026-08-04,255,330-->
+    - economics / finance ::@:: a subfield of economics <p> _utility_: _expected_ return <br/> _constraint_: _affordable_ risk <!--SR:!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-08-04,255,330-->
         - economics / finance / risk ::@:: It is important because we assume people are _risk-averse_. <!--SR:!2026-08-20,268,330!2026-09-06,281,330-->
 - derivative
     - derivative / usage ::@:: There are many usage. A major one is to hedge or to mitigate risk in the underlying, by entering into a derivative contract whose value moves in the opposite direction to their underlying position and cancels part or all of it out. <p> You may prefer some types of risk while disliking other types of risk. Derivatives are _convenient_, _flexible_, and _low cost_ enough to hedge those unwanted risks. <!--SR:!2026-08-12,261,330!2028-05-08,742,330-->
