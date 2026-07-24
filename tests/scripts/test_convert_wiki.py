@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup, Tag
 from scripts.convert_wiki import config
 from scripts.convert_wiki.api import _collect_image_filenames
 from scripts.convert_wiki.converter import WikiHtmlConverter
-from scripts.convert_wiki.pipeline import run_pipeline
+from scripts.convert_wiki.pipeline import _separate_block_math, run_pipeline
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import _get_image_filename
 
@@ -1081,3 +1081,102 @@ class TestInlineMathIndependence:
         )
         count = self._count_inline_math_blocks(output)
         assert count == 0, f"Expected 0 inline math blocks, got {count}"
+
+
+class TestSeparateBlockMath:
+    """Unit tests for ``_separate_block_math`` whitespace insertion.
+
+    ``_separate_block_math`` uses mistune AST to identify ``block_math``
+    nodes and inserts a space before ``$$`` when non-whitespace text
+    immediately precedes it, and a space after ``$$`` when non-whitespace
+    text immediately follows it.
+
+    Standalone ``$$…$$`` on its own line (top-level AST) never gets
+    spacing added, and ``$$`` inside code spans or other non-math
+    constructs is left untouched.
+    """
+
+    # ── No-op cases ──────────────────────────────────────────────
+
+    def test_empty_string(self) -> None:
+        """Empty string should be returned unchanged."""
+        assert _separate_block_math("") == ""
+
+    def test_no_math(self) -> None:
+        """String without any ``$$`` should be returned unchanged."""
+        assert _separate_block_math("no math here") == "no math here"
+
+    def test_already_spaced_before(self) -> None:
+        """Already has space before opening ``$$`` → no change."""
+        assert _separate_block_math("text $$f(x)$$") == "text $$f(x)$$"
+
+    def test_already_spaced_after(self) -> None:
+        """Already has space after closing ``$$`` → no change."""
+        assert _separate_block_math("$$f(x)$$ more") == "$$f(x)$$ more"
+
+    def test_already_spaced_both(self) -> None:
+        """Both sides already spaced → no change."""
+        assert _separate_block_math("text $$f(x)$$ more") == "text $$f(x)$$ more"
+
+    def test_standalone_own_line(self) -> None:
+        """Standalone ``$$f(x)$$`` on its own line → no change."""
+        assert _separate_block_math("$$\nf(x)\n$$") == "$$\nf(x)\n$$"
+
+    def test_boundary_start_and_end(self) -> None:
+        """``$$f(x)$$`` at both string start and end → no change."""
+        assert _separate_block_math("$$f(x)$$") == "$$f(x)$$"
+
+    def test_already_spaced_between(self) -> None:
+        """Two block math expressions already spaced between → no change."""
+        assert _separate_block_math("$$f(x)$$ and $$g(y)$$") == "$$f(x)$$ and $$g(y)$$"
+
+    def test_standalone_with_newlines(self) -> None:
+        """Block math separated by newlines on both sides → no change."""
+        assert _separate_block_math("text\n$$f(x)$$\nmore") == "text\n$$f(x)$$\nmore"
+
+    def test_newline_only_surrounding(self) -> None:
+        """Newlines on both sides → no change."""
+        assert _separate_block_math("\n$$f(x)$$\n") == "\n$$f(x)$$\n"
+
+    def test_multiline_block_math(self) -> None:
+        """Block math spanning multiple lines → no change."""
+        assert _separate_block_math("text\n$$\nx\n$$\nmore") == "text\n$$\nx\n$$\nmore"
+
+    # ── Space-insertion cases ────────────────────────────────────
+
+    def test_needs_space_before(self) -> None:
+        """Non-whitespace text before ``$$`` → insert space before."""
+        assert _separate_block_math("text$$f(x)$$") == "text $$f(x)$$"
+
+    def test_needs_space_after(self) -> None:
+        """Non-whitespace text after ``$$`` → insert space after."""
+        assert _separate_block_math("$$f(x)$$text") == "$$f(x)$$ text"
+
+    def test_needs_space_both(self) -> None:
+        """Non-whitespace text on both sides → insert both spaces."""
+        assert _separate_block_math("text$$f(x)$$more") == "text $$f(x)$$ more"
+
+    def test_multiple_adjacent(self) -> None:
+        """Multiple adjacent block math blocks → each gets spacing."""
+        assert _separate_block_math("a$$f$$b$$g$$c") == "a $$f$$ b $$g$$ c"
+
+    def test_emphasis_before_block_math(self) -> None:
+        """Emphasis (``_italic_``) before ``$$`` → space inserted."""
+        assert _separate_block_math("_italic_$$x$$") == "_italic_ $$x$$"
+
+    # ── Preservation cases ───────────────────────────────────────
+
+    def test_inline_math_unaffected(self) -> None:
+        """Inline ``$…$`` should be left untouched."""
+        assert _separate_block_math("$x$ is inline") == "$x$ is inline"
+
+    def test_inline_math_adjacency_unaffected(self) -> None:
+        """Inline math ``$x$`` adjacent to text → no change."""
+        assert _separate_block_math("text$x$more") == "text$x$more"
+
+    def test_code_span_dollars_untouched(self) -> None:
+        """``$$`` inside a code span → not modified."""
+        assert (
+            _separate_block_math("text `$$ax^2+bx+c$$` more")
+            == "text `$$ax^2+bx+c$$` more"
+        )

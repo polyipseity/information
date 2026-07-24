@@ -9,6 +9,7 @@ import re
 from collections.abc import Mapping, MutableMapping, MutableSet
 from os import PathLike
 from pathlib import PurePath
+from typing import Any
 
 import mistune
 from aiohttp import ClientSession, TCPConnector
@@ -98,6 +99,143 @@ async def _create_session_and_run(
         )
 
 
+def _determine_needs_before(prev: dict[str, Any] | None) -> bool:
+    """Return ``True`` if a space should be inserted before the opening ``$$``.
+
+    Examines the AST sibling node immediately before a ``block_math`` node.
+    If the sibling is a text node ending with a non-whitespace character, the
+    ``$$`` is directly adjacent to text in the source — a space is needed.
+    If the sibling is a non-text node (emphasis, code span, etc.), there is
+    no text-node buffer, so the ``$$`` is adjacent by default.
+    """
+    if prev is None:
+        return False
+    if prev["type"] == "text":
+        return bool(prev["raw"]) and prev["raw"][-1] not in " \t"
+    return True
+
+
+def _determine_needs_after(next_: dict[str, Any] | None) -> bool:
+    """Return ``True`` if a space should be inserted after the closing ``$$``.
+
+    Mirror of ``_determine_needs_before`` for the sibling that follows a
+    ``block_math`` node.
+    """
+    if next_ is None:
+        return False
+    if next_["type"] == "text":
+        return bool(next_["raw"]) and next_["raw"][0] not in " \t"
+    return True
+
+
+def _collect_block_math_info(
+    tokens: list[dict[str, Any]],
+) -> list[tuple[str, bool, bool]]:
+    """Deep-walk the AST and collect info about every ``block_math`` node.
+
+    *Standalone* block math (top-level AST, not nested inside a paragraph)
+    never gets spacing added — it is already separated by newlines.  Only
+    *inline* block math (inside a paragraph or similar container) is
+    candidate for whitespace insertion.
+
+    Returns a list of ``(raw, needs_before, needs_after)`` tuples ordered by
+    document position.
+    """
+    info: list[tuple[str, bool, bool]] = []
+
+    def _walk(children: list[dict[str, Any]], depth: int = 0) -> None:
+        for i, child in enumerate(children):
+            if child["type"] == "block_math":
+                is_inline = depth > 0
+                if not is_inline:
+                    info.append((child["raw"], False, False))
+                else:
+                    prev_sib = children[i - 1] if i > 0 else None
+                    next_sib = children[i + 1] if i + 1 < len(children) else None
+                    info.append(
+                        (
+                            child["raw"],
+                            _determine_needs_before(prev_sib),
+                            _determine_needs_after(next_sib),
+                        )
+                    )
+            if "children" in child:
+                _walk(child["children"], depth + 1)
+
+    _walk(tokens)
+    return info
+
+
+def _scan_and_apply(text: str, info: list[tuple[str, bool, bool]]) -> str:
+    """Scan *text* for ``$$…$$`` spans matching each ``block_math`` entry.
+
+    For each entry in *info* (ordered by document position), the source is
+    scanned left-to-right for a ``$${raw}$$`` span.  When found, the
+    ``needs_before`` / ``needs_after`` flags control whether a space is
+    inserted.  Non-matching ``$$`` spans (e.g. inside code spans) are
+    skipped.
+    """
+    parts: list[str] = []
+    pos = 0
+
+    for raw, needs_before, needs_after in info:
+        target = "$$" + raw + "$$"
+        target_len = len(target)
+
+        while pos < len(text):
+            dollar_pos = text.find("$$", pos)
+            if dollar_pos == -1:
+                parts.append(text[pos:])
+                return "".join(parts)
+            if (
+                dollar_pos + target_len <= len(text)
+                and text[dollar_pos : dollar_pos + target_len] == target
+            ):
+                parts.append(text[pos:dollar_pos])
+                if needs_before:
+                    parts.append(" ")
+                parts.append(target)
+                if needs_after:
+                    parts.append(" ")
+                pos = dollar_pos + target_len
+                break
+            close_pos = text.find("$$", dollar_pos + 2)
+            if close_pos == -1:
+                parts.append(text[dollar_pos:])
+                return "".join(parts)
+            parts.append(text[pos : close_pos + 2])
+            pos = close_pos + 2
+        else:
+            parts.append(text[pos:])
+            return "".join(parts)
+
+    parts.append(text[pos:])
+    return "".join(parts)
+
+
+def _separate_block_math(text: str) -> str:
+    """Ensure minimum whitespace separation around ``$$…$$`` block math.
+
+    If non-whitespace text immediately precedes the opening ``$$``, a space
+    is inserted before it.  If non-whitespace text immediately follows the
+    closing ``$$``, a space is inserted after it.
+
+    Uses mistune AST to correctly distinguish ``block_math`` nodes from
+    ``$$`` that appears inside code spans, fenced code blocks, or other
+    Markdown constructs where the delimiters are literal text.
+    """
+    parse_result, _state = _MISTUNE_PARSER.parse(text)
+    del (
+        _state
+    )  # Unused but kept in signature for future needs (e.g. position recovery).
+    if isinstance(parse_result, str):
+        return text  # Parse error, return unchanged.
+    info = _collect_block_math_info(parse_result)
+    if not info:
+        return text
+    return _scan_and_apply(text, info)
+
+
 async def wiki_html_to_plaintext(
     ele: PageElement,
     *,
@@ -149,6 +287,7 @@ async def wiki_html_to_plaintext(
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
     result = result.strip()
+    result = _separate_block_math(result)
     return result + "\n" if result else result
 
 
