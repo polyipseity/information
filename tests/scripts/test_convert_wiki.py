@@ -15,7 +15,10 @@ from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki import config
 from scripts.convert_wiki.api import _collect_image_filenames
-from scripts.convert_wiki.converter import WikiHtmlConverter
+from scripts.convert_wiki.converter import (
+    WikiHtmlConverter,
+    _replace_pipes_outside_math,
+)
 from scripts.convert_wiki.pipeline import _separate_block_math, run_pipeline
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import _get_image_filename
@@ -1180,3 +1183,115 @@ class TestSeparateBlockMath:
             _separate_block_math("text `$$ax^2+bx+c$$` more")
             == "text `$$ax^2+bx+c$$` more"
         )
+
+
+class TestReplacePipesOutsideMath:
+    """Unit tests for ``_replace_pipes_outside_math`` pipe escaping.
+
+    The function replaces ``|`` with ``&#124;`` outside math blocks and
+    with ``\\vert`` inside math blocks (both ``$$…$$`` and ``$…$``).
+    Already-escaped ``\\|`` inside math is preserved.
+    """
+
+    # ── No pipes / no math ───────────────────────────────────────
+
+    def test_empty_string(self) -> None:
+        """Empty string should be returned unchanged."""
+        assert _replace_pipes_outside_math("") == ""
+
+    def test_no_pipes_no_math(self) -> None:
+        """Plain text without pipes or math should be unchanged."""
+        assert _replace_pipes_outside_math("hello world") == "hello world"
+
+    # ── Pipes outside math only ──────────────────────────────────
+
+    def test_pipes_outside_math(self) -> None:
+        """Pipes outside math blocks should become ``&#124;``."""
+        assert _replace_pipes_outside_math("a|b|c") == "a&#124;b&#124;c"
+
+    def test_pipes_outside_with_math(self) -> None:
+        """Pipes in non-math portions should become ``&#124;`` even when math is present."""
+        result = _replace_pipes_outside_math("$a$ | $b$")
+        assert result == "$a$ &#124; $b$"
+
+    # ── Bare pipe inside $$…$$ ───────────────────────────────────
+
+    def test_bare_pipe_in_display_math(self) -> None:
+        """Bare ``|`` inside ``$$…$$`` should become ``\\vert``."""
+        result = _replace_pipes_outside_math("$$x|y$$")
+        assert result == r"$$x\vert y$$"
+
+    def test_bare_pipe_in_display_math_with_context(self) -> None:
+        """Bare ``|`` inside ``$$…$$`` with surrounding text."""
+        result = _replace_pipes_outside_math("text $$x|y$$ more")
+        assert result == r"text $$x\vert y$$ more"
+
+    # ── Bare pipe inside $…$ ─────────────────────────────────────
+
+    def test_bare_pipe_in_inline_math(self) -> None:
+        """Bare ``|`` inside ``$…$`` should become ``\\vert``."""
+        result = _replace_pipes_outside_math("$a|b$")
+        assert result == r"$a\vert b$"
+
+    # ── Escaped \| preserved inside math ─────────────────────────
+
+    def test_escaped_pipe_preserved_in_display_math(self) -> None:
+        """``\\|`` inside ``$$…$$`` should be preserved unchanged."""
+        result = _replace_pipes_outside_math(r"$$\|x\|$$")
+        assert result == r"$$\|x\|$$"
+
+    def test_escaped_pipe_preserved_in_inline_math(self) -> None:
+        """``\\|`` inside ``$…$`` should be preserved unchanged."""
+        result = _replace_pipes_outside_math(r"$\|x\|$")
+        assert result == r"$\|x\|$"
+
+    # ── Mixed inside/outside ─────────────────────────────────────
+
+    def test_mixed_inside_outside(self) -> None:
+        """Pipes outside become ``&#124;``, pipes inside become ``\\vert``."""
+        result = _replace_pipes_outside_math(r"$\vert x\vert$ | text | $y|z$")
+        assert result == r"$\vert x\vert$ &#124; text &#124; $y\vert z$"
+
+    # ── Multiple math blocks ─────────────────────────────────────
+
+    def test_multiple_math_blocks(self) -> None:
+        """Multiple math blocks should each get pipe replacement."""
+        result = _replace_pipes_outside_math("$a|b$ plain $c|d$")
+        assert result == r"$a\vert b$ plain $c\vert d$"
+
+    # ── Integration: table cell via pipeline ─────────────────────
+
+    @pytest.mark.anyio
+    async def test_pipe_in_math_table_integration(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """End-to-end: HTML table cell with ``|`` in math → Markdown with ``\\vert``."""
+        tmp = Path(tmp_path)
+        isolated_lang = tmp / "general" / "eng"
+        await isolated_lang.mkdir(parents=True)
+
+        converter = WikiHtmlConverter(
+            converted_wiki_dir=tmp / "general",
+            converted_wiki_lang_dir=isolated_lang,
+        )
+
+        html_text = (
+            "<table><tbody><tr><td>text "
+            '<span class="mwe-math-element mwe-math-element-block">'
+            '<span class="mwe-math-mathml-display mwe-math-mathml-a11y">'
+            '<math display="block" alttext="{\\displaystyle x|y}">'
+            "<semantics><mrow><mi>x</mi><mo>|</mo><mi>y</mi></mrow></semantics></math>"
+            '<img class="mwe-math-fallback-image-display mw-invert skin-invert"/>'
+            "</span></span>"
+            " more</td></tr></tbody></table>"
+        )
+        html = BeautifulSoup(html_text, "html.parser")
+        for st in html.find_all("style"):
+            st.decompose()
+
+        output = await converter.convert(
+            html, out_to_archive=set(), redirect_map={}, refs=True
+        )
+        assert r"$$x\vert y$$" in output, f"Expected \\vert in output, got: {output!r}"
+        # Also verify no bare | inside math blocks in output
+        assert "$$x|y$$" not in output, "Bare pipe inside math should be replaced"

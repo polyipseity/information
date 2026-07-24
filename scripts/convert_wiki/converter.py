@@ -74,10 +74,12 @@ _MATH_BLOCK = re.compile(r"(\$\$[^$]*\$\$|\$[^$]+\$)")
 
 
 def _replace_pipes_outside_math(text: str) -> str:
-    """Replace ``|`` with ``&#124;`` outside of math blocks only."""
+    """Replace ``|`` with ``&#124;`` outside math and with ``\\vert`` inside math."""
     parts = _MATH_BLOCK.split(text)
     for i in range(0, len(parts), 2):
         parts[i] = parts[i].replace("|", "&#124;")
+    for i in range(1, len(parts), 2):
+        parts[i] = re.sub(r"(?<!\\)\|", r"\\vert ", parts[i])
     return "".join(parts)
 
 
