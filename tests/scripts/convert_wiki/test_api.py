@@ -4,6 +4,7 @@ These tests cover the API request, redirect resolution, and cache functions.
 """
 
 import json
+from dataclasses import replace
 from datetime import datetime, timedelta, timezone
 from os import PathLike
 from pathlib import Path as PathlibPath
@@ -680,13 +681,18 @@ class TestResolveRedirectsWithRealResponses:
         )
 
         # Load the expected cache from the consolidated aux fixture.
+        # Strips cached_at from both sides — snapshot data has old timestamps
+        # and we don't want equality to depend on them.
         expected_raw = aux["redirect_cache"]
 
         assert len(result) == len(expected_raw)
         for title, info in expected_raw.items():
             assert title in result, f"Missing title: {title!r}"
-            assert result[title].to == info["to"]
-            assert result[title].tofragment == info.get("tofragment", "")
+            expected = _RedirectInfo(
+                to=info["to"], tofragment=info.get("tofragment", "")
+            )
+            actual = replace(result[title], cached_at="")
+            assert actual == expected, f"Mismatch for {title!r}"
 
         # All batches should have been consumed.
         assert call_index == total_calls
