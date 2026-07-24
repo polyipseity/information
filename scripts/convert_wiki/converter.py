@@ -742,6 +742,11 @@ class WikiHtmlConverter:
             else:
                 alt_text = alt_text.rstrip()
             alt_text = self._escape_flashcard_delimiters(alt_text)
+            # Workaround for KaTeX 0.16.21 (bundled in VS Code's markdown-math
+            # extension): \! and \negthinspace before _/^ trigger an "unknown
+            # group type: 'internal'" ParseError.  \mkern-3mu renders
+            # identically and is handled correctly by all KaTeX versions.
+            # Can remove once VS Code upgrades past KaTeX 0.16.21.
             alt_text = re.sub(
                 r"\\(?:\!|negthinspace)(?=[_^])", r"\\mkern-3mu", alt_text
             )
