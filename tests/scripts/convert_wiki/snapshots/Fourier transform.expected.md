@@ -38,27 +38,13 @@ First introduced in [Fourier's](Joseph%20Fourier.md) _Analytical Theory of Heat_
 | :------------------------------------------------------------------------------------------------------------: | -----------: |
 | $f(x)=\int _{-\infty }^{\infty }{\widehat {f} }(\xi )\ e^{i2\pi \xi x}\,d\xi ,\quad \forall x\in \mathbb {R}$. | ____Eq.2____ |
 
-The functions $f$ and ${\widehat {f} }$ are referred to as a __Fourier transform pair__.<sup>[\[8\]](#^ref-8)</sup> A common notation for designating transform pairs is:<sup>[\[9\]](#^ref-9)</sup>
-
-$$f(x)\ {\stackrel {\mathcal {F} }{\longleftrightarrow } }\ {\widehat {f} }(\xi ).$$
-
-For example, the Fourier transform of the delta function is the [constant function](constant%20function.md) ⁠$1$⁠:
-
-$$\delta (x)\ {\stackrel {\mathcal {F} }{\longleftrightarrow } }\ 1.$$
+The functions $f$ and ${\widehat {f} }$ are referred to as a __Fourier transform pair__.<sup>[\[8\]](#^ref-8)</sup> A common notation for designating transform pairs is:<sup>[\[9\]](#^ref-9)</sup> $$f(x)\ {\stackrel {\mathcal {F} }{\longleftrightarrow } }\ {\widehat {f} }(\xi ).$$For example, the Fourier transform of the delta function is the [constant function](constant%20function.md) ⁠$1$⁠: $$\delta (x)\ {\stackrel {\mathcal {F} }{\longleftrightarrow } }\ 1.$$
 
 ### angular frequency \(_ω_\)
 
 When the independent variable \(⁠$x$⁠\) represents _time_ \(often denoted by ⁠$t$⁠\), the transform variable \(⁠$\xi$⁠\) represents [frequency](frequency.md) \(often denoted by ⁠$f$⁠\). For example, if time has the unit [second](second.md), then frequency has the unit [hertz](hertz.md). The transform variable can also be written in terms of [angular frequency](angular%20frequency.md), ⁠$\omega =2\pi \xi$⁠, with the unit [radian](radian.md) per second.
 
-The substitution $\xi ={\tfrac {\omega }{2\pi } }$ into __[Eq.1](#math%20Eq.1)__ produces this convention, where function ${\widehat {f} }$ is relabeled ⁠${\widehat {f} }_{1}$⁠:
-
-$${\begin{aligned}{\widehat {f} }_{3}(\omega )&\triangleq \int _{-\infty }^{\infty }f(x)\cdot e^{-i\omega x}\,dx={\widehat {f} }_{1}\left({\tfrac {\omega }{2\pi } }\right),\\f(x)&={\frac {1}{2\pi } }\int _{-\infty }^{\infty }{\widehat {f} }_{3}(\omega )\cdot e^{i\omega x}\,d\omega .\end{aligned} }$$
-
-Unlike the __[Eq.1](#math%20Eq.1)__ definition, the Fourier transform is no longer a [unitary transformation](unitary%20transformation.md), and there is less symmetry between the formulas for the transform and its inverse. Those properties are restored by splitting the $2\pi$ factor evenly between the transform and its inverse, which leads to another convention:
-
-$${\begin{aligned}{\widehat {f} }_{2}(\omega )&\triangleq {\frac {1}{\sqrt {2\pi } } }\int _{-\infty }^{\infty }f(x)\cdot e^{-i\omega x}\,dx={\frac {1}{\sqrt {2\pi } } }\ \ {\widehat {f} }_{1}\left({\tfrac {\omega }{2\pi } }\right),\\f(x)&={\frac {1}{\sqrt {2\pi } } }\int _{-\infty }^{\infty }{\widehat {f} }_{2}(\omega )\cdot e^{i\omega x}\,d\omega .\end{aligned} }$$
-
-Variations of all three conventions can be created by conjugating the complex-exponential [kernel](integral%20kernel.md) of both the forward and the reverse transform. The signs must be opposites.
+The substitution $\xi ={\tfrac {\omega }{2\pi } }$ into __[Eq.1](#math%20Eq.1)__ produces this convention, where function ${\widehat {f} }$ is relabeled ⁠${\widehat {f} }_{1}$⁠: $${\begin{aligned}{\widehat {f} }_{3}(\omega )&\triangleq \int _{-\infty }^{\infty }f(x)\cdot e^{-i\omega x}\,dx={\widehat {f} }_{1}\left({\tfrac {\omega }{2\pi } }\right),\\f(x)&={\frac {1}{2\pi } }\int _{-\infty }^{\infty }{\widehat {f} }_{3}(\omega )\cdot e^{i\omega x}\,d\omega .\end{aligned} }$$Unlike the __[Eq.1](#math%20Eq.1)__ definition, the Fourier transform is no longer a [unitary transformation](unitary%20transformation.md), and there is less symmetry between the formulas for the transform and its inverse. Those properties are restored by splitting the $2\pi$ factor evenly between the transform and its inverse, which leads to another convention: $${\begin{aligned}{\widehat {f} }_{2}(\omega )&\triangleq {\frac {1}{\sqrt {2\pi } } }\int _{-\infty }^{\infty }f(x)\cdot e^{-i\omega x}\,dx={\frac {1}{\sqrt {2\pi } } }\ \ {\widehat {f} }_{1}\left({\tfrac {\omega }{2\pi } }\right),\\f(x)&={\frac {1}{\sqrt {2\pi } } }\int _{-\infty }^{\infty }{\widehat {f} }_{2}(\omega )\cdot e^{i\omega x}\,d\omega .\end{aligned} }$$Variations of all three conventions can be created by conjugating the complex-exponential [kernel](integral%20kernel.md) of both the forward and the reverse transform. The signs must be opposites.
 
 |                                     |                 | __Summary of popular forms of the Fourier transform, one-dimensional__                                                                                                                                                                                                                                                                                                                                                                      |
 | :---------------------------------: | :-------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -76,11 +62,7 @@ Variations of all three conventions can be created by conjugating the complex-ex
 
 - See also: [L<sup>p</sup> space § L<sup>p</sup> spaces and Lebesgue integrals](Lp%20space.md#Lp%20spaces%20and%20Lebesgue%20integrals)
 
-A [measurable function](measurable%20function.md) $f:\mathbb {R} \to \mathbb {C}$ is called \(Lebesgue\) integrable if the [Lebesgue integral](Lebesgue%20integral.md) of its [absolute value](absolute%20value.md) is finite:
-
-$$\|f\|_{1}=\int _{\mathbb {R} }|f(x)|\,dx<\infty .$$
-
-If $f$ is Lebesgue integrable then the Fourier transform, given by __[Eq.1](#math%20Eq.1)__, is well-defined for all ⁠$\xi \in \mathbb {R}$⁠.<sup>[\[10\]](#^ref-10)</sup> Furthermore, ${\widehat {f} }\in L^{\infty }\cap C_{0}(\mathbb {R} )$ is bounded, [uniformly continuous](uniformly%20continuous.md) and \(by the [Riemann–Lebesgue lemma](Riemann–Lebesgue%20lemma.md)\) [vanishing at infinity](vanish%20at%20infinity.md). Here $C_{0}(\mathbb {R} )$ denotes the space of continuous functions on $\mathbb {R}$ that approach 0 as x approaches positive or negative infinity.
+A [measurable function](measurable%20function.md) $f:\mathbb {R} \to \mathbb {C}$ is called \(Lebesgue\) integrable if the [Lebesgue integral](Lebesgue%20integral.md) of its [absolute value](absolute%20value.md) is finite: $$\|f\|_{1}=\int _{\mathbb {R} }|f(x)|\,dx<\infty .$$If $f$ is Lebesgue integrable then the Fourier transform, given by __[Eq.1](#math%20Eq.1)__, is well-defined for all ⁠$\xi \in \mathbb {R}$⁠.<sup>[\[10\]](#^ref-10)</sup> Furthermore, ${\widehat {f} }\in L^{\infty }\cap C_{0}(\mathbb {R} )$ is bounded, [uniformly continuous](uniformly%20continuous.md) and \(by the [Riemann–Lebesgue lemma](Riemann–Lebesgue%20lemma.md)\) [vanishing at infinity](vanish%20at%20infinity.md). Here $C_{0}(\mathbb {R} )$ denotes the space of continuous functions on $\mathbb {R}$ that approach 0 as x approaches positive or negative infinity.
 
 The space $L^{1}(\mathbb {R} )$ is the space of measurable functions for which the norm $\|f\|_{1}$ is finite, modulo the [equivalence relation](equivalence%20class.md) of equality [almost everywhere](almost%20everywhere.md). The Fourier transform on $L^{1}(\mathbb {R} )$ is [one-to-one](bijection,%20injection%20and%20surjection.md). However, there is no easy characterization of the image, and thus no easy characterization of the inverse transform. In particular, __[Eq.2](#math%20Eq.2)__ is no longer valid, as it was stated only under the hypothesis that $f(x)$ was "sufficiently nice" \(e.g., $f(x)$ [decays with all derivatives](Schwartz%20function.md)\).
 
@@ -109,15 +91,9 @@ In 1822, Fourier claimed \(see _[Joseph Fourier § The Analytic Theory of Heat](
 >
 > The red [sinusoid](sine%20wave.md) can be described by peak amplitude \(1\), peak-to-peak \(2\), [RMS](root%20mean%20square.md) \(3\), and [wavelength](wavelength.md) \(4\). The red and blue sinusoids have a phase difference of _θ_.
 
-In general, the coefficients ${\widehat {f} }(\xi )$ are complex numbers, which have two equivalent forms \(see _[Euler's formula](Euler's%20formula.md)_\):
+In general, the coefficients ${\widehat {f} }(\xi )$ are complex numbers, which have two equivalent forms \(see _[Euler's formula](Euler's%20formula.md)_\): $${\widehat {f} }(\xi )=\underbrace {Ae^{i\theta } } _{\text{polar coordinate form} }=\underbrace {A\cos(\theta )+iA\sin(\theta )} _{\text{rectangular coordinate form} }.$$
 
-$${\widehat {f} }(\xi )=\underbrace {Ae^{i\theta } } _{\text{polar coordinate form} }=\underbrace {A\cos(\theta )+iA\sin(\theta )} _{\text{rectangular coordinate form} }.$$
-
-The product with $e^{i2\pi \xi x}$ \(__[Eq.2](#math%20Eq.2)__\) has these forms:
-
-$${\begin{aligned}{\widehat {f} }(\xi )\cdot e^{i2\pi \xi x}&=Ae^{i\theta }\cdot e^{i2\pi \xi x}\\[6pt]&=\underbrace {Ae^{i(2\pi \xi x+\theta )} } _{\text{polar coordinate form} }\\[6pt]&=\underbrace {A\cos(2\pi \xi x+\theta )+iA\sin(2\pi \xi x+\theta )} _{\text{rectangular coordinate form} },\end{aligned} }$$
-
-which conveys both [amplitude](amplitude.md) and [phase](phase%20offset.md#phase%20shift) of frequency ⁠$\xi$⁠. Likewise, the intuitive interpretation of __[Eq.1](#math%20Eq.1)__ is that multiplying $f(x)$ by $e^{-i2\pi \xi x}$ has the effect of subtracting $\xi$ from every frequency component of function ⁠$f(x)$⁠.<sup>[\[note 5\]](#^ref-note%205)</sup> Only the component that was at frequency $\xi$ can produce a non-zero value of the infinite integral, because \(at least formally\) all the other shifted components are oscillatory and integrate to zero \(see _[§ Example](#example)_\).
+The product with $e^{i2\pi \xi x}$ \(__[Eq.2](#math%20Eq.2)__\) has these forms: $${\begin{aligned}{\widehat {f} }(\xi )\cdot e^{i2\pi \xi x}&=Ae^{i\theta }\cdot e^{i2\pi \xi x}\\[6pt]&=\underbrace {Ae^{i(2\pi \xi x+\theta )} } _{\text{polar coordinate form} }\\[6pt]&=\underbrace {A\cos(2\pi \xi x+\theta )+iA\sin(2\pi \xi x+\theta )} _{\text{rectangular coordinate form} },\end{aligned} }$$which conveys both [amplitude](amplitude.md) and [phase](phase%20offset.md#phase%20shift) of frequency ⁠$\xi$⁠. Likewise, the intuitive interpretation of __[Eq.1](#math%20Eq.1)__ is that multiplying $f(x)$ by $e^{-i2\pi \xi x}$ has the effect of subtracting $\xi$ from every frequency component of function ⁠$f(x)$⁠.<sup>[\[note 5\]](#^ref-note%205)</sup> Only the component that was at frequency $\xi$ can produce a non-zero value of the infinite integral, because \(at least formally\) all the other shifted components are oscillatory and integrate to zero \(see _[§ Example](#example)_\).
 
 It is noteworthy how easily the product was simplified using the polar form, and how easily the rectangular form was deduced by an application of Euler's formula.
 
@@ -133,23 +109,15 @@ For a real-valued ⁠$f(x)$⁠, __[Eq.1](#math%20Eq.1)__ has the symmetry proper
 
 The Fourier transform of a periodic function cannot be defined using the integral formula directly. In order for integral in __[Eq.1](#math%20Eq.1)__ to be defined the function must be [absolutely integrable](absolutely%20integrable%20function.md). Instead it is common to use [Fourier series](Fourier%20series.md). It is possible to extend the definition to include periodic functions by viewing them as [tempered distributions](distribution%20(mathematics).md#tempered%20distributions).
 
-This makes it possible to see a connection between the [Fourier series](Fourier%20series.md) and the Fourier transform for periodic functions that have a [convergent Fourier series](Convergence%20of%20Fourier%20series.md). If $f(x)$ is a [periodic function](periodic%20function.md), with period ⁠$P$⁠, that has a convergent Fourier series, then:
-
-$${\widehat {f} }(\xi )=\sum _{n=-\infty }^{\infty }c_{n}\cdot \delta \left(\xi -{\tfrac {n}{P} }\right),$$
-
-where $c_{n}$ are the Fourier series coefficients of ⁠$f$⁠, and $\delta$ is the [Dirac delta function](Dirac%20delta%20function.md). In other words, the Fourier transform is a [Dirac comb](Dirac%20comb.md) function whose _teeth_ are multiplied by the Fourier series coefficients.
+This makes it possible to see a connection between the [Fourier series](Fourier%20series.md) and the Fourier transform for periodic functions that have a [convergent Fourier series](Convergence%20of%20Fourier%20series.md). If $f(x)$ is a [periodic function](periodic%20function.md), with period ⁠$P$⁠, that has a convergent Fourier series, then: $${\widehat {f} }(\xi )=\sum _{n=-\infty }^{\infty }c_{n}\cdot \delta \left(\xi -{\tfrac {n}{P} }\right),$$where $c_{n}$ are the Fourier series coefficients of ⁠$f$⁠, and $\delta$ is the [Dirac delta function](Dirac%20delta%20function.md). In other words, the Fourier transform is a [Dirac comb](Dirac%20comb.md) function whose _teeth_ are multiplied by the Fourier series coefficients.
 
 ### sampling the Fourier transform
 
 - For broader coverage of this topic, see [Poisson summation formula](Poisson%20summation%20formula.md).
 
-The Fourier transform of an [integrable](absolutely%20integrable%20function.md) function $f$ can be sampled at regular intervals of arbitrary length ⁠$1/P$⁠. These samples can be deduced from one cycle of a periodic function ⁠$f_{P}$⁠, which has [Fourier series](Fourier%20series.md) coefficients proportional to those samples by the [Poisson summation formula](Poisson%20summation%20formula.md):
+The Fourier transform of an [integrable](absolutely%20integrable%20function.md) function $f$ can be sampled at regular intervals of arbitrary length ⁠$1/P$⁠. These samples can be deduced from one cycle of a periodic function ⁠$f_{P}$⁠, which has [Fourier series](Fourier%20series.md) coefficients proportional to those samples by the [Poisson summation formula](Poisson%20summation%20formula.md): $$f_{P}(x)\triangleq \sum _{n=-\infty }^{\infty }f(x+nP)={\frac {1}{P} }\sum _{k=-\infty }^{\infty }{\widehat {f} }\left({\tfrac {k}{P} }\right)e^{i2\pi {\frac {k}{P} }x},\quad \forall k\in \mathbb {Z} .$$
 
-$$f_{P}(x)\triangleq \sum _{n=-\infty }^{\infty }f(x+nP)={\frac {1}{P} }\sum _{k=-\infty }^{\infty }{\widehat {f} }\left({\tfrac {k}{P} }\right)e^{i2\pi {\frac {k}{P} }x},\quad \forall k\in \mathbb {Z} .$$
-
-The integrability of $f$ ensures the [periodic summation](periodic%20summation.md) converges. Therefore, the samples ${\widehat {f} }({\tfrac {k}{P} })$ can be determined by Fourier series analysis:
-
-$${\widehat {f} }\left({\tfrac {k}{P} }\right)=\int _{P}f_{P}(x)\cdot e^{-i2\pi {\frac {k}{P} }x}\,dx.$$
+The integrability of $f$ ensures the [periodic summation](periodic%20summation.md) converges. Therefore, the samples ${\widehat {f} }({\tfrac {k}{P} })$ can be determined by Fourier series analysis: $${\widehat {f} }\left({\tfrac {k}{P} }\right)=\int _{P}f_{P}(x)\cdot e^{-i2\pi {\frac {k}{P} }x}\,dx.$$
 
 When $f(x)$ has [compact support](compact%20support.md#compact%20support), $f_{P}(x)$ has a finite number of terms within the interval of integration. When $f(x)$ does not have compact support, numerical evaluation of $f_{P}(x)$ requires an approximation, such as tapering $f(x)$ or truncating the number of terms.
 
@@ -165,9 +133,7 @@ That there is no one preferred way \(often, one says "no canonical way"\) to com
 
 In other conventions, the Fourier transform has _i_ in the exponent instead of −<!-- markdown separator -->_i_, and vice versa for the inversion formula. This convention is common in modern physics<sup>[\[14\]](#^ref-14)</sup> and is the default for [Wolfram Alpha](https://www.wolframalpha.com/), and does not mean that the frequency has become negative, since there is no canonical definition of positivity for frequency of a complex wave. It simply means that ${\widehat {f} }(\xi )$ is the amplitude of the wave ⁠$e^{-i2\pi \xi x}$⁠ instead of the wave $e^{i2\pi \xi x}$ \(the former, with its minus sign, is often seen in the time dependence for [sinusoidal plane-wave solutions of the electromagnetic wave equation](sinusoidal%20plane-wave%20solutions%20of%20the%20electromagnetic%20wave%20equation.md), or in the [time dependence for quantum wave functions](wave%20function.md#time%20dependence)\). Many of the identities involving the Fourier transform remain valid in those conventions, provided all terms that explicitly involve _i_ have it replaced by −<!-- markdown separator -->_i_. In [electrical engineering](electrical%20engineering.md) the letter _j_ is typically used for the [imaginary unit](imaginary%20unit.md) instead of _i_ because _i_ is used for current.
 
-When using [dimensionless units](dimensionless%20units.md), the constant factors might not be written in the transform definition. For instance, in [probability theory](probability%20theory.md), the characteristic function _Φ_ of the probability density function ⁠$f$⁠ of a random variable ⁠$X$⁠ of continuous type is defined without a negative sign in the exponential, and since the units of ⁠$x$⁠ are ignored, there is no ⁠$2\pi$⁠ either:
-
-$$\varphi (\lambda )=\int _{-\infty }^{\infty }f(x)e^{i\lambda x}\,dx.$$
+When using [dimensionless units](dimensionless%20units.md), the constant factors might not be written in the transform definition. For instance, in [probability theory](probability%20theory.md), the characteristic function _Φ_ of the probability density function ⁠$f$⁠ of a random variable ⁠$X$⁠ of continuous type is defined without a negative sign in the exponential, and since the units of ⁠$x$⁠ are ignored, there is no ⁠$2\pi$⁠ either: $$\varphi (\lambda )=\int _{-\infty }^{\infty }f(x)e^{i\lambda x}\,dx.$$
 
 In probability theory and mathematical statistics, the use of the Fourier—Stieltjes transform is preferred, because many random variables are not of continuous type, and do not possess a density function, and one must treat not functions but [distributions](distribution%20(mathematics).md), i.e., measures that possess "atoms".
 
@@ -175,11 +141,7 @@ From the higher point of view of [group characters](character%20theory.md), whic
 
 ## properties
 
-Let $f(x)$ and $h(x)$ represent _integrable functions_ [Lebesgue-measurable](Lebesgue-measurable.md) on the real line satisfying:
-
-$$\int _{-\infty }^{\infty }|f(x)|\,dx<\infty .$$
-
-We denote the Fourier transforms of these functions as ${\widehat {f} }(\xi )$ and ${\widehat {h} }(\xi )$ respectively.
+Let $f(x)$ and $h(x)$ represent _integrable functions_ [Lebesgue-measurable](Lebesgue-measurable.md) on the real line satisfying: $$\int _{-\infty }^{\infty }|f(x)|\,dx<\infty .$$We denote the Fourier transforms of these functions as ${\widehat {f} }(\xi )$ and ${\widehat {h} }(\xi )$ respectively.
 
 ### basic properties
 
@@ -219,17 +181,11 @@ From this, various relationships are apparent, for example:
 
 #### conjugation
 
-$${\bigl (}f(x){\bigr )}^{*}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ \left({\widehat {f} }(-\xi )\right)^{*}$$
+$${\bigl (}f(x){\bigr )}^{*}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ \left({\widehat {f} }(-\xi )\right)^{*}$$\(Note: the ⁠$*$⁠ denotes [complex conjugation](complex%20conjugate.md).\)
 
-\(Note: the ⁠$*$⁠ denotes [complex conjugation](complex%20conjugate.md).\)
+In particular, if $f$ is _real_, then ${\widehat {f} }$ is [conjugate symmetric](even%20and%20odd%20functions.md#complex-valued%20functions) \(a.k.a. [Hermitian function](hermitian%20function.md)\): $${\widehat {f} }(-\xi )={\bigl (}{\widehat {f} }(\xi ){\bigr )}^{*}.$$
 
-In particular, if $f$ is _real_, then ${\widehat {f} }$ is [conjugate symmetric](even%20and%20odd%20functions.md#complex-valued%20functions) \(a.k.a. [Hermitian function](hermitian%20function.md)\):
-
-$${\widehat {f} }(-\xi )={\bigl (}{\widehat {f} }(\xi ){\bigr )}^{*}.$$
-
-If $f$ is purely imaginary, then ${\widehat {f} }$ is [odd symmetric](even%20and%20odd%20functions.md#complex-valued%20functions):
-
-$${\widehat {f} }(-\xi )=-({\widehat {f} }(\xi ))^{*}.$$
+If $f$ is purely imaginary, then ${\widehat {f} }$ is [odd symmetric](even%20and%20odd%20functions.md#complex-valued%20functions): $${\widehat {f} }(-\xi )=-({\widehat {f} }(\xi ))^{*}.$$
 
 #### real and imaginary parts
 
@@ -237,9 +193,7 @@ $$\operatorname {Re} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow 
 
 #### zero frequency component
 
-Substituting $\xi =0$ in the definition, we obtain:
-
-$${\widehat {f} }(0)=\int _{-\infty }^{\infty }f(x)\,dx.$$
+Substituting $\xi =0$ in the definition, we obtain: $${\widehat {f} }(0)=\int _{-\infty }^{\infty }f(x)\,dx.$$
 
 The integral of $f$ over its domain is the total mass or [DC bias](DC%20bias.md) of the function.
 
@@ -257,35 +211,21 @@ The integral of $f$ over its domain is the total mass or [DC bias](DC%20bias.md)
 
 The Fourier transform may be defined in some cases for non-integrable functions, but the Fourier transforms of integrable functions have several strong properties.
 
-The Fourier transform ${\widehat {f} }$ of any integrable function $f$ is [uniformly continuous](uniformly%20continuous.md) and<sup>[\[17\]](#^ref-17)</sup><sup>[\[18\]](#^ref-18)</sup>
+The Fourier transform ${\widehat {f} }$ of any integrable function $f$ is [uniformly continuous](uniformly%20continuous.md) and<sup>[\[17\]](#^ref-17)</sup><sup>[\[18\]](#^ref-18)</sup> $$\left\|{\widehat {f} }\right\|_{\infty }\leq \left\|f\right\|_{1}$$
 
-$$\left\|{\widehat {f} }\right\|_{\infty }\leq \left\|f\right\|_{1}$$
-
-By the _[Riemann–Lebesgue lemma](Riemann–Lebesgue%20lemma.md)_,<sup>[\[19\]](#^ref-19)</sup>
-
-$${\widehat {f} }(\xi )\to 0{\text{ as } }|\xi |\to \infty .$$
+By the _[Riemann–Lebesgue lemma](Riemann–Lebesgue%20lemma.md)_,<sup>[\[19\]](#^ref-19)</sup> $${\widehat {f} }(\xi )\to 0{\text{ as } }|\xi |\to \infty .$$
 
 However, ${\widehat {f} }$ need not be integrable. For example, the Fourier transform of the [rectangular function](rectangular%20function.md), which is integrable, is the [sinc function](sinc%20function.md), which is not [Lebesgue integrable](Lebesgue%20integrable.md#Lebesgue%20integrable), because its [improper integrals](improper%20integral.md) behave analogously to the [alternating harmonic series](alternating%20harmonic%20series.md#alternating%20harmonic%20series), in converging to a sum without being [absolutely convergent](absolutely%20convergent.md).
 
-It is not generally possible to write the _inverse transform_ as a [Lebesgue integral](Lebesgue%20integral.md). However, when both $f$ and ${\widehat {f} }$ are integrable, the inverse equality
-
-$$f(x)=\int _{-\infty }^{\infty }{\widehat {f} }(\xi )e^{i2\pi x\xi }\,d\xi$$
-
-holds for almost every _x_. As a result, the Fourier transform is [injective](injective.md) on [_L_<sup>1</sup>\(__R__\)](Lp%20space.md).
+It is not generally possible to write the _inverse transform_ as a [Lebesgue integral](Lebesgue%20integral.md). However, when both $f$ and ${\widehat {f} }$ are integrable, the inverse equality $$f(x)=\int _{-\infty }^{\infty }{\widehat {f} }(\xi )e^{i2\pi x\xi }\,d\xi$$holds for almost every _x_. As a result, the Fourier transform is [injective](injective.md) on [_L_<sup>1</sup>\(__R__\)](Lp%20space.md).
 
 ### Plancherel theorem and Parseval's theorem
 
 - Main articles: [Plancherel theorem](Plancherel%20theorem.md) and [Parseval's theorem](Parseval's%20theorem.md)
 
-Let ⁠$f(x)$⁠ and ⁠$g(x)$⁠ be integrable, and let ⁠${\widehat {f} }$⁠ and ⁠${\widehat {g} }$⁠ be their Fourier transforms. If ⁠$f(x)$⁠ and ⁠$g(x)$⁠ are also [square-integrable](square-integrable.md), then the Parseval formula follows:<sup>[\[20\]](#^ref-20)</sup>
+Let ⁠$f(x)$⁠ and ⁠$g(x)$⁠ be integrable, and let ⁠${\widehat {f} }$⁠ and ⁠${\widehat {g} }$⁠ be their Fourier transforms. If ⁠$f(x)$⁠ and ⁠$g(x)$⁠ are also [square-integrable](square-integrable.md), then the Parseval formula follows:<sup>[\[20\]](#^ref-20)</sup> $$\langle f,g\rangle _{L^{2} }=\int _{-\infty }^{\infty }f(x){\overline {g(x)} }\,dx=\int _{-\infty }^{\infty }{\widehat {f} }(\xi ){\overline { {\widehat {g} }(\xi )} }\,d\xi ,$$where the bar denotes [complex conjugation](complex%20conjugation.md).
 
-$$\langle f,g\rangle _{L^{2} }=\int _{-\infty }^{\infty }f(x){\overline {g(x)} }\,dx=\int _{-\infty }^{\infty }{\widehat {f} }(\xi ){\overline { {\widehat {g} }(\xi )} }\,d\xi ,$$
-
-where the bar denotes [complex conjugation](complex%20conjugation.md).
-
-The [Plancherel theorem](Plancherel%20theorem.md), which follows from the above, states that<sup>[\[21\]](#^ref-21)</sup>
-
-$$\|f\|_{L^{2} }^{2}=\int _{-\infty }^{\infty }\left|f(x)\right|^{2}\,dx=\int _{-\infty }^{\infty }\left|{\widehat {f} }(\xi )\right|^{2}\,d\xi .$$
+The [Plancherel theorem](Plancherel%20theorem.md), which follows from the above, states that<sup>[\[21\]](#^ref-21)</sup> $$\|f\|_{L^{2} }^{2}=\int _{-\infty }^{\infty }\left|f(x)\right|^{2}\,dx=\int _{-\infty }^{\infty }\left|{\widehat {f} }(\xi )\right|^{2}\,d\xi .$$
 
 Plancherel's theorem makes it possible to extend the Fourier transform, by a continuity argument, to a [unitary operator](unitary%20operator.md) on ⁠$L^{2}(\mathbb {R} )$⁠. On ⁠$L^{1}(\mathbb {R} )\cap L^{2}(\mathbb {R} )$⁠, this extension agrees with original Fourier transform defined on ⁠$L^{1}(\mathbb {R} )$⁠, thus enlarging the domain of the Fourier transform to ⁠$L^{1}(\mathbb {R} )+L^{2}(\mathbb {R} )$⁠ \(and consequently to ⁠$L^{p}(\mathbb {R} )$⁠ for ⁠$1\leq p\leq 2$⁠\). Plancherel's theorem has the interpretation in the sciences that the Fourier transform preserves the [energy](energy.md) of the original quantity. The terminology of these formulas is not quite standardised. [Parseval's theorem](Parseval's%20theorem.md) was proved only for Fourier series, and was first proved by Lyapunov. But Parseval's formula makes sense for the Fourier transform as well, and so even though in the context of the Fourier transform it was proved by Plancherel, it is still often referred to as Parseval's formula, or Parseval's relation, or even Parseval's theorem.
 
@@ -297,13 +237,7 @@ See _[Pontryagin duality](Pontryagin%20duality.md)_ for a general formulation of
 
 The Fourier transform translates between [convolution](convolution.md) and multiplication of functions. If ⁠$f(x)$⁠ and ⁠$g(x)$⁠ are integrable functions with Fourier transforms ⁠${\widehat {f} }$⁠ and ⁠${\widehat {g} }(\xi )$⁠ respectively, then the Fourier transform of the convolution is given by the product of the Fourier transforms ⁠${\widehat {f} }$⁠ and ⁠${\widehat {g} }$⁠ \(under other conventions for the definition of the Fourier transform a constant factor may appear\).
 
-This means that if:
-
-$$h(x)=(f*g)(x)=\int _{-\infty }^{\infty }f(y)g(x-y)\,dy,$$
-
-where ∗ denotes the convolution operation, then:
-
-$${\widehat {h} }(\xi )={\widehat {f} }(\xi )\,{\widehat {g} }(\xi ).$$
+This means that if: $$h(x)=(f*g)(x)=\int _{-\infty }^{\infty }f(y)g(x-y)\,dy,$$where ∗ denotes the convolution operation, then: $${\widehat {h} }(\xi )={\widehat {f} }(\xi )\,{\widehat {g} }(\xi ).$$
 
 In [linear time invariant \(LTI\) system theory](LTI%20system%20theory.md), it is common to interpret ⁠$g(x)$⁠ as the [impulse response](impulse%20response.md) of an LTI system with input ⁠$f(x)$⁠ and output ⁠$h(x)$⁠, since substituting the [unit impulse](Dirac%20delta%20function.md) for ⁠$f(x)$⁠ yields ⁠$h(x)=g(x)$⁠. In this case, ⁠${\widehat {g} }(\xi )$⁠ represents the [frequency response](frequency%20response.md) of the system.
 
@@ -313,31 +247,13 @@ Conversely, if ⁠$f(x)$⁠ can be decomposed as the product of two square integ
 
 - Main articles: [Cross-correlation](cross-correlation.md) and [Wiener–Khinchin theorem](Wiener–Khinchin%20theorem.md)
 
-In an analogous manner, it can be shown that if ⁠$h(x)$⁠ is the [cross-correlation](cross-correlation.md) of ⁠$f(x)$⁠ and ⁠$g(x)$⁠:
+In an analogous manner, it can be shown that if ⁠$h(x)$⁠ is the [cross-correlation](cross-correlation.md) of ⁠$f(x)$⁠ and ⁠$g(x)$⁠: $$h(x)=(f\star g)(x)=\int _{-\infty }^{\infty }{\overline {f(y)} }g(x+y)\,dy$$then the Fourier transform of ⁠$h(x)$⁠ is: $${\widehat {h} }(\xi )={\overline { {\widehat {f} }(\xi )} }\,{\widehat {g} }(\xi ).$$
 
-$$h(x)=(f\star g)(x)=\int _{-\infty }^{\infty }{\overline {f(y)} }g(x+y)\,dy$$
-
-then the Fourier transform of ⁠$h(x)$⁠ is:
-
-$${\widehat {h} }(\xi )={\overline { {\widehat {f} }(\xi )} }\,{\widehat {g} }(\xi ).$$
-
-As a special case, the [autocorrelation](autocorrelation.md) of function ⁠$f(x)$⁠ is:
-
-$$h(x)=(f\star f)(x)=\int _{-\infty }^{\infty }{\overline {f(y)} }f(x+y)\,dy$$
-
-for which
-
-$${\widehat {h} }(\xi )={\overline { {\widehat {f} }(\xi )} }{\widehat {f} }(\xi )=\left|{\widehat {f} }(\xi )\right|^{2}.$$
+As a special case, the [autocorrelation](autocorrelation.md) of function ⁠$f(x)$⁠ is: $$h(x)=(f\star f)(x)=\int _{-\infty }^{\infty }{\overline {f(y)} }f(x+y)\,dy$$for which $${\widehat {h} }(\xi )={\overline { {\widehat {f} }(\xi )} }{\widehat {f} }(\xi )=\left|{\widehat {f} }(\xi )\right|^{2}.$$
 
 ### differentiation
 
-Suppose _f_\(_x_\) is differentiable [almost everywhere](almost%20everywhere.md), and both ⁠$f$⁠ and its derivative ⁠$f'$⁠ are integrable \(in ⁠$L^{1}(\mathbb {R} )$⁠\). Then the Fourier transform of the derivative is given by
-
-$${\widehat {f'} }(\xi )={\mathcal {F} }\left\{ {\frac {d}{dx} }f(x)\right\}=i2\pi \xi {\widehat {f} }(\xi ).$$
-
-More generally, the Fourier transformation of the ⁠$n$⁠th derivative ⁠$f^{(n)}$⁠ is given by
-
-$${\widehat {f^{(n)} } }(\xi )={\mathcal {F} }\left\{ {\frac {d^{n} }{dx^{n} } }f(x)\right\}=(i2\pi \xi )^{n}{\widehat {f} }(\xi ).$$
+Suppose _f_\(_x_\) is differentiable [almost everywhere](almost%20everywhere.md), and both ⁠$f$⁠ and its derivative ⁠$f'$⁠ are integrable \(in ⁠$L^{1}(\mathbb {R} )$⁠\). Then the Fourier transform of the derivative is given by $${\widehat {f'} }(\xi )={\mathcal {F} }\left\{ {\frac {d}{dx} }f(x)\right\}=i2\pi \xi {\widehat {f} }(\xi ).$$More generally, the Fourier transformation of the ⁠$n$⁠th derivative ⁠$f^{(n)}$⁠ is given by $${\widehat {f^{(n)} } }(\xi )={\mathcal {F} }\left\{ {\frac {d^{n} }{dx^{n} } }f(x)\right\}=(i2\pi \xi )^{n}{\widehat {f} }(\xi ).$$
 
 Analogously, ⁠${\mathcal {F} }^{-1}\left\{ {\frac {d^{n} }{d\xi ^{n} } }{\widehat {f} }(\xi )\right\}=(-i2\pi x)^{n}f(x)$⁠, so ⁠${\mathcal {F} }\left\{x^{n}f(x)\right\}=\left({\frac {i}{2\pi } }\right)^{n}{\frac {d^{n} }{d\xi ^{n} } }{\widehat {f} }(\xi )$⁠.
 
@@ -349,41 +265,19 @@ By applying the Fourier transform and using these formulas, some [ordinary diffe
 
 The Fourier transform is a linear transform that has [eigenfunctions](eigenfunction.md) obeying ⁠${\mathcal {F} }[\psi ]=\lambda \psi$⁠, with ⁠$\lambda \in \mathbb {C}$⁠.
 
-A set of eigenfunctions is found by noting that the homogeneous differential equation
+A set of eigenfunctions is found by noting that the homogeneous differential equation $$\left[U\left({\frac {1}{2\pi } }{\frac {d}{dx} }\right)+U(x)\right]\psi (x)=0$$leads to eigenfunctions $\psi (x)$ of the Fourier transform ${\mathcal {F} }$ as long as the form of the equation remains invariant under Fourier transform.<sup>[\[note 6\]](#^ref-note%206)</sup> In other words, every solution $\psi (x)$ and its Fourier transform ${\widehat {\psi } }(\xi )$ obey the same equation. Assuming [uniqueness](ordinary%20differential%20equation.md#existence%20and%20uniqueness%20of%20solutions) of the solutions, every solution $\psi (x)$ must therefore be an eigenfunction of the Fourier transform. The form of the equation remains unchanged under Fourier transform if $U(x)$ can be expanded in a power series in which for all terms the same factor of either one of ⁠$\pm 1$⁠, ⁠$\pm i$⁠ arises from the factors $i^{n}$ introduced by the [differentiation](#differentiation) rules upon Fourier transforming the homogeneous differential equation because this factor may then be cancelled. The simplest allowable $U(x)=x$ leads to the [standard normal distribution](normal%20distribution.md#Fourier%20transform%20and%20characteristic%20function).<sup>[\[22\]](#^ref-22)</sup>
 
-$$\left[U\left({\frac {1}{2\pi } }{\frac {d}{dx} }\right)+U(x)\right]\psi (x)=0$$
+More generally, a set of eigenfunctions is also found by noting that the [differentiation](#differentiation) rules imply that the [ordinary differential equation](ordinary%20differential%20equation.md) $$\left[W\left({\frac {i}{2\pi } }{\frac {d}{dx} }\right)+W(x)\right]\psi (x)=C\psi (x)$$with $C$ constant and $W(x)$ being a non-constant even function remains invariant in form when applying the Fourier transform ${\mathcal {F} }$ to both sides of the equation. The simplest example is provided by ⁠$W(x)=x^{2}$⁠, which is equivalent to considering the Schrödinger equation for the [quantum harmonic oscillator](quantum%20harmonic%20oscillator.md#natural%20length%20and%20energy%20scales).<sup>[\[23\]](#^ref-23)</sup> The corresponding solutions provide an important choice of an orthonormal basis for [_L_<sup>2</sup>\(__R__\)](square-integrable%20function.md) and are given by the "physicist's" [Hermite functions](Hermite%20polynomials.md#Hermite%20functions%20as%20eigenfunctions%20of%20the%20Fourier%20transform). Equivalently one may use $$\psi _{n}(x)={\frac {\sqrt[{4}]{2} }{\sqrt {n!} } }e^{-\pi x^{2} }\mathrm {He} _{n}\left(2x{\sqrt {\pi } }\right),$$where ⁠$\mathrm {He} _{n}(x)$⁠ are the "probabilist's" [Hermite polynomials](Hermite%20polynomial.md), defined as $$\mathrm {He} _{n}(x)=(-1)^{n}e^{ {\frac {1}{2} }x^{2} }\left({\frac {d}{dx} }\right)^{n}e^{-{\frac {1}{2} }x^{2} }.$$
 
-leads to eigenfunctions $\psi (x)$ of the Fourier transform ${\mathcal {F} }$ as long as the form of the equation remains invariant under Fourier transform.<sup>[\[note 6\]](#^ref-note%206)</sup> In other words, every solution $\psi (x)$ and its Fourier transform ${\widehat {\psi } }(\xi )$ obey the same equation. Assuming [uniqueness](ordinary%20differential%20equation.md#existence%20and%20uniqueness%20of%20solutions) of the solutions, every solution $\psi (x)$ must therefore be an eigenfunction of the Fourier transform. The form of the equation remains unchanged under Fourier transform if $U(x)$ can be expanded in a power series in which for all terms the same factor of either one of ⁠$\pm 1$⁠, ⁠$\pm i$⁠ arises from the factors $i^{n}$ introduced by the [differentiation](#differentiation) rules upon Fourier transforming the homogeneous differential equation because this factor may then be cancelled. The simplest allowable $U(x)=x$ leads to the [standard normal distribution](normal%20distribution.md#Fourier%20transform%20and%20characteristic%20function).<sup>[\[22\]](#^ref-22)</sup>
-
-More generally, a set of eigenfunctions is also found by noting that the [differentiation](#differentiation) rules imply that the [ordinary differential equation](ordinary%20differential%20equation.md)
-
-$$\left[W\left({\frac {i}{2\pi } }{\frac {d}{dx} }\right)+W(x)\right]\psi (x)=C\psi (x)$$
-
-with $C$ constant and $W(x)$ being a non-constant even function remains invariant in form when applying the Fourier transform ${\mathcal {F} }$ to both sides of the equation. The simplest example is provided by ⁠$W(x)=x^{2}$⁠, which is equivalent to considering the Schrödinger equation for the [quantum harmonic oscillator](quantum%20harmonic%20oscillator.md#natural%20length%20and%20energy%20scales).<sup>[\[23\]](#^ref-23)</sup> The corresponding solutions provide an important choice of an orthonormal basis for [_L_<sup>2</sup>\(__R__\)](square-integrable%20function.md) and are given by the "physicist's" [Hermite functions](Hermite%20polynomials.md#Hermite%20functions%20as%20eigenfunctions%20of%20the%20Fourier%20transform). Equivalently one may use
-
-$$\psi _{n}(x)={\frac {\sqrt[{4}]{2} }{\sqrt {n!} } }e^{-\pi x^{2} }\mathrm {He} _{n}\left(2x{\sqrt {\pi } }\right),$$
-
-where ⁠$\mathrm {He} _{n}(x)$⁠ are the "probabilist's" [Hermite polynomials](Hermite%20polynomial.md), defined as
-
-$$\mathrm {He} _{n}(x)=(-1)^{n}e^{ {\frac {1}{2} }x^{2} }\left({\frac {d}{dx} }\right)^{n}e^{-{\frac {1}{2} }x^{2} }.$$
-
-Under this convention for the Fourier transform, we have that
-
-$${\widehat {\psi } }_{n}(\xi )=(-i)^{n}\psi _{n}(\xi ).$$
+Under this convention for the Fourier transform, we have that $${\widehat {\psi } }_{n}(\xi )=(-i)^{n}\psi _{n}(\xi ).$$
 
 In other words, the Hermite functions form a complete [orthonormal](orthonormal.md) system of [eigenfunctions](eigenfunctions.md) for the Fourier transform on ⁠$L^{2}(\mathbb {R} )$⁠.<sup>[\[15\]](#^ref-15)</sup><sup>[\[24\]](#^ref-24)</sup> However, this choice of eigenfunctions is not unique. Because of ${\mathcal {F} }^{4}=\mathrm {id}$ there are only four different [eigenvalues](eigenvalue.md) of the Fourier transform \(the fourth roots of unity ⁠$\pm 1$⁠ and ⁠$\pm i$⁠\) and any linear combination of eigenfunctions with the same eigenvalue gives another eigenfunction.<sup>[\[25\]](#^ref-25)</sup> As a consequence of this, it is possible to decompose _L_<sup>2</sup>\(__R__\) as a direct sum of four spaces _H_<sub>0</sub>, _H_<sub>1</sub>, _H_<sub>2</sub>, and _H_<sub>3</sub> where the Fourier transform acts on H<sub>_k_</sub> simply by multiplication by _i_<sup>_k_</sup>.
 
-Since the complete set of Hermite functions _ψ<sub>n</sub>_ provides a resolution of the identity they diagonalize the Fourier operator, i.e. the Fourier transform can be represented by such a sum of terms weighted by the above eigenvalues, and these sums can be explicitly summed:
+Since the complete set of Hermite functions _ψ<sub>n</sub>_ provides a resolution of the identity they diagonalize the Fourier operator, i.e. the Fourier transform can be represented by such a sum of terms weighted by the above eigenvalues, and these sums can be explicitly summed: $${\mathcal {F} }[f](\xi )=\int dxf(x)\sum _{n\geq 0}(-i)^{n}\psi _{n}(x)\psi _{n}(\xi )~.$$
 
-$${\mathcal {F} }[f](\xi )=\int dxf(x)\sum _{n\geq 0}(-i)^{n}\psi _{n}(x)\psi _{n}(\xi )~.$$
+This approach to define the Fourier transform was first proposed by [Norbert Wiener](Norbert%20Wiener.md).<sup>[\[26\]](#^ref-26)</sup> Among other properties, Hermite functions decrease exponentially fast in both frequency and time domains, and they are thus used to define a generalization of the Fourier transform, namely the [fractional Fourier transform](fractional%20Fourier%20transform.md) used in time–frequency analysis.<sup>[\[27\]](#^ref-27)</sup> In [physics](physics.md), this transform was introduced by [Edward Condon](Edward%20Condon.md).<sup>[\[28\]](#^ref-28)</sup> This [change of basis](change%20of%20basis.md) becomes possible because the Fourier transform is a unitary transform when using the right [conventions](#other%20conventions). Consequently, under the proper conditions it may be expected to result from a self-adjoint generator $N$ via<sup>[\[29\]](#^ref-29)</sup> $${\mathcal {F} }[\psi ]=e^{-itN}\psi .$$
 
-This approach to define the Fourier transform was first proposed by [Norbert Wiener](Norbert%20Wiener.md).<sup>[\[26\]](#^ref-26)</sup> Among other properties, Hermite functions decrease exponentially fast in both frequency and time domains, and they are thus used to define a generalization of the Fourier transform, namely the [fractional Fourier transform](fractional%20Fourier%20transform.md) used in time–frequency analysis.<sup>[\[27\]](#^ref-27)</sup> In [physics](physics.md), this transform was introduced by [Edward Condon](Edward%20Condon.md).<sup>[\[28\]](#^ref-28)</sup> This [change of basis](change%20of%20basis.md) becomes possible because the Fourier transform is a unitary transform when using the right [conventions](#other%20conventions). Consequently, under the proper conditions it may be expected to result from a self-adjoint generator $N$ via<sup>[\[29\]](#^ref-29)</sup>
-
-$${\mathcal {F} }[\psi ]=e^{-itN}\psi .$$
-
-The operator $N$ is the [number operator](quantum%20harmonic%20oscillator.md#ladder%20operator%20method) of the quantum harmonic oscillator written as<sup>[\[30\]](#^ref-30)</sup><sup>[\[31\]](#^ref-31)</sup>
-
-$$N\equiv {\frac {1}{4\pi } }\left(2\pi x-{\frac {\partial }{\partial x} }\right)\left(2\pi x+{\frac {\partial }{\partial x} }\right)=-{\frac {1}{4\pi } }{\frac {\partial ^{2} }{\partial x^{2} } }+\pi x^{2}-{\frac {1}{2} }.$$
+The operator $N$ is the [number operator](quantum%20harmonic%20oscillator.md#ladder%20operator%20method) of the quantum harmonic oscillator written as<sup>[\[30\]](#^ref-30)</sup><sup>[\[31\]](#^ref-31)</sup> $$N\equiv {\frac {1}{4\pi } }\left(2\pi x-{\frac {\partial }{\partial x} }\right)\left(2\pi x+{\frac {\partial }{\partial x} }\right)=-{\frac {1}{4\pi } }{\frac {\partial ^{2} }{\partial x^{2} } }+\pi x^{2}-{\frac {1}{2} }.$$
 
 It can be interpreted as the [generator](symmetry%20in%20quantum%20mechanics.md) of [fractional Fourier transforms](Mehler%20kernel.md#fractional%20Fourier%20transform) for arbitrary values of _t_, and of the conventional continuous Fourier transform ${\mathcal {F} }$ for the particular value ⁠$t=\pi /2$⁠, with the [Mehler kernel](Mehler%20kernel.md#physics%20version) implementing the corresponding [active transform](active%20and%20passive%20transformation.md#in%20abstract%20vector%20spaces). The eigenfunctions of $N$ are the [Hermite functions](Hermite%20polynomials.md#Hermite%20functions) ⁠$\psi _{n}(x)$⁠, which are therefore also eigenfunctions of ⁠${\mathcal {F} }$⁠.
 
@@ -395,53 +289,25 @@ Upon extending the Fourier transform to [distributions](distribution%20(mathemat
 
 Under suitable conditions on the function ⁠$f$⁠, it can be recovered from its Fourier transform ⁠${\widehat {f} }$⁠. Indeed, denoting the Fourier transform operator by ⁠${\mathcal {F} }$⁠, so ⁠${\mathcal {F} }f:={\widehat {f} }$⁠, then for suitable functions, applying the Fourier transform twice simply flips the function: ⁠$\left({\mathcal {F} }^{2}f\right)(x)=f(-x)$⁠, which can be interpreted as "reversing time". Since reversing time is two-periodic, applying this twice yields ⁠${\mathcal {F} }^{4}(f)=f$⁠, so the Fourier transform operator is four-periodic, and similarly the inverse Fourier transform can be obtained by applying the Fourier transform three times: ⁠${\mathcal {F} }^{3}\left({\widehat {f} }\right)=f$⁠. In particular the Fourier transform is invertible \(under suitable conditions\).
 
-More precisely, defining the _parity operator_ ${\mathcal {P} }$ such that ⁠$({\mathcal {P} }f)(x)=f(-x)$⁠, we have:
-
-$${\begin{aligned}{\mathcal {F} }^{0}&=\mathrm {id} ,\\{\mathcal {F} }^{1}&={\mathcal {F} },\\{\mathcal {F} }^{2}&={\mathcal {P} },\\{\mathcal {F} }^{3}&={\mathcal {F} }^{-1}={\mathcal {P} }\circ {\mathcal {F} }={\mathcal {F} }\circ {\mathcal {P} },\\{\mathcal {F} }^{4}&=\mathrm {id} \end{aligned} }$$
-
-These equalities of operators require careful definition of the space of functions in question, defining equality of functions \(equality at every point? equality [almost everywhere](almost%20everywhere.md)?\) and defining equality of operators – that is, defining the topology on the function space and operator space in question. These are not true for all functions, but are true under various conditions, which are the content of the various forms of the [Fourier inversion theorem](Fourier%20inversion%20theorem.md).
+More precisely, defining the _parity operator_ ${\mathcal {P} }$ such that ⁠$({\mathcal {P} }f)(x)=f(-x)$⁠, we have: $${\begin{aligned}{\mathcal {F} }^{0}&=\mathrm {id} ,\\{\mathcal {F} }^{1}&={\mathcal {F} },\\{\mathcal {F} }^{2}&={\mathcal {P} },\\{\mathcal {F} }^{3}&={\mathcal {F} }^{-1}={\mathcal {P} }\circ {\mathcal {F} }={\mathcal {F} }\circ {\mathcal {P} },\\{\mathcal {F} }^{4}&=\mathrm {id} \end{aligned} }$$These equalities of operators require careful definition of the space of functions in question, defining equality of functions \(equality at every point? equality [almost everywhere](almost%20everywhere.md)?\) and defining equality of operators – that is, defining the topology on the function space and operator space in question. These are not true for all functions, but are true under various conditions, which are the content of the various forms of the [Fourier inversion theorem](Fourier%20inversion%20theorem.md).
 
 This fourfold periodicity of the Fourier transform is similar to a rotation of the plane by 90°, particularly as the two-fold iteration yields a reversal, and in fact this analogy can be made precise. While the Fourier transform can simply be interpreted as switching the time domain and the frequency domain, with the inverse Fourier transform switching them back, more geometrically it can be interpreted as a rotation by 90° in the [time–frequency domain](time–frequency%20domain.md) \(considering time as the ⁠$x$⁠-axis and frequency as the ⁠$y$⁠-axis\), and the Fourier transform can be generalized to the [fractional Fourier transform](fractional%20Fourier%20transform.md), which involves rotations by other angles. This can be further generalized to [linear canonical transformations](linear%20canonical%20transformation.md), which can be visualized as the action of the [special linear group](special%20linear%20group.md) [SL<sub>2</sub>\(__R__\)](SL2(R).md) on the time–frequency plane, with the preserved symplectic form corresponding to the [uncertainty principle](#uncertainty%20principle), below. This approach is particularly studied in [signal processing](signal%20processing.md), under [time–frequency analysis](time–frequency%20analysis.md).
 
 ### connection with the Heisenberg group
 
-The [Heisenberg group](Heisenberg%20group.md) is a certain [group](group%20(mathematics).md) of [unitary operators](unitary%20operator.md) on the [Hilbert space](Hilbert%20space.md) _L_<sup>2</sup>\(__R__\) of square integrable complex valued functions _f_ on the real line, generated by the translations \(_T<sub>y</sub> f_\)\(_x_\) = _f_ \(_x_ + _y_\) and multiplication by _e_<sup>_i_<!-- markdown separator -->2π<!-- markdown separator -->_ξx_</sup>, \(_M<sub>ξ</sub> f_\)\(_x_\) = _e_<sup>_i_<!-- markdown separator -->2π<!-- markdown separator -->_ξx_</sup> _f_ \(_x_\). These operators do not commute, as their \(group\) commutator is
+The [Heisenberg group](Heisenberg%20group.md) is a certain [group](group%20(mathematics).md) of [unitary operators](unitary%20operator.md) on the [Hilbert space](Hilbert%20space.md) _L_<sup>2</sup>\(__R__\) of square integrable complex valued functions _f_ on the real line, generated by the translations \(_T<sub>y</sub> f_\)\(_x_\) = _f_ \(_x_ + _y_\) and multiplication by _e_<sup>_i_<!-- markdown separator -->2π<!-- markdown separator -->_ξx_</sup>, \(_M<sub>ξ</sub> f_\)\(_x_\) = _e_<sup>_i_<!-- markdown separator -->2π<!-- markdown separator -->_ξx_</sup> _f_ \(_x_\). These operators do not commute, as their \(group\) commutator is $$\left(M_{\xi }^{-1}T_{y}^{-1}M_{\xi }T_{y}f\right)(x)=e^{i2\pi \xi y}f(x),$$which is multiplication by the constant \(independent of _x_\) _e_<sup>_i_<!-- markdown separator -->2π<!-- markdown separator -->_ξy_</sup> ∈ _U_\(1\) \(the [circle group](circle%20group.md) of unit modulus complex numbers\). As an abstract group, the Heisenberg group is the three-dimensional [Lie group](Lie%20group.md) of triples \(_x_, _ξ_, _z_\) ∈ __R__<sup>2</sup> × _U_\(1\), with the group law $$\left(x_{1},\xi _{1},t_{1}\right)\cdot \left(x_{2},\xi _{2},t_{2}\right)=\left(x_{1}+x_{2},\xi _{1}+\xi _{2},t_{1}t_{2}e^{-2i\pi x_{1}\xi _{2} }\right).$$
 
-$$\left(M_{\xi }^{-1}T_{y}^{-1}M_{\xi }T_{y}f\right)(x)=e^{i2\pi \xi y}f(x),$$
+Denote the Heisenberg group by _H_<sub>1</sub>. The above procedure describes not only the group structure, but also a standard [unitary representation](unitary%20representation.md) of _H_<sub>1</sub> on a Hilbert space, which we denote by _ρ_ : _H_<sub>1</sub> → _B_\(_L_<sup>2</sup>\(__R__\)\). Define the linear automorphism of __R__<sup>2</sup> by $$J{\begin{pmatrix}x\\\xi \end{pmatrix} }={\begin{pmatrix}-\xi \\x\end{pmatrix} }$$so that _J_<sup>2</sup> = −<!-- markdown separator -->_I_. This _J_ can be extended to a unique automorphism of _H_<sub>1</sub>: $$j\left(x,\xi ,t\right)=\left(-\xi ,x,te^{-i2\pi \xi x}\right).$$
 
-which is multiplication by the constant \(independent of _x_\) _e_<sup>_i_<!-- markdown separator -->2π<!-- markdown separator -->_ξy_</sup> ∈ _U_\(1\) \(the [circle group](circle%20group.md) of unit modulus complex numbers\). As an abstract group, the Heisenberg group is the three-dimensional [Lie group](Lie%20group.md) of triples \(_x_, _ξ_, _z_\) ∈ __R__<sup>2</sup> × _U_\(1\), with the group law
-
-$$\left(x_{1},\xi _{1},t_{1}\right)\cdot \left(x_{2},\xi _{2},t_{2}\right)=\left(x_{1}+x_{2},\xi _{1}+\xi _{2},t_{1}t_{2}e^{-2i\pi x_{1}\xi _{2} }\right).$$
-
-Denote the Heisenberg group by _H_<sub>1</sub>. The above procedure describes not only the group structure, but also a standard [unitary representation](unitary%20representation.md) of _H_<sub>1</sub> on a Hilbert space, which we denote by _ρ_ : _H_<sub>1</sub> → _B_\(_L_<sup>2</sup>\(__R__\)\). Define the linear automorphism of __R__<sup>2</sup> by
-
-$$J{\begin{pmatrix}x\\\xi \end{pmatrix} }={\begin{pmatrix}-\xi \\x\end{pmatrix} }$$
-
-so that _J_<sup>2</sup> = −<!-- markdown separator -->_I_. This _J_ can be extended to a unique automorphism of _H_<sub>1</sub>:
-
-$$j\left(x,\xi ,t\right)=\left(-\xi ,x,te^{-i2\pi \xi x}\right).$$
-
-According to the [Stone–von Neumann theorem](Stone–von%20Neumann%20theorem.md), the unitary representations _ρ_ and _ρ_ ∘ _j_ are unitarily equivalent, so there is a unique intertwiner _W_ ∈ _U_\(_L_<sup>2</sup>\(__R__\)\) such that
-
-$$\rho \circ j=W\rho W^{*}.$$
-
-This operator _W_ is the Fourier transform.
+According to the [Stone–von Neumann theorem](Stone–von%20Neumann%20theorem.md), the unitary representations _ρ_ and _ρ_ ∘ _j_ are unitarily equivalent, so there is a unique intertwiner _W_ ∈ _U_\(_L_<sup>2</sup>\(__R__\)\) such that $$\rho \circ j=W\rho W^{*}.$$This operator _W_ is the Fourier transform.
 
 Many of the standard properties of the Fourier transform are immediate consequences of this more general framework.<sup>[\[32\]](#^ref-32)</sup> For example, the square of the Fourier transform, _W_<sup>2</sup>, is an intertwiner associated with _J_<sup>2</sup> = −<!-- markdown separator -->_I_, and so we have \(_W_<sup>2</sup>_f_\)\(_x_\) = _f_ \(−<!-- markdown separator -->_x_\) is the reflection of the original function _f_.
 
 ## complex domain
 
-The [integral](integral.md) for the Fourier transform
+The [integral](integral.md) for the Fourier transform $${\widehat {f} }(\xi )=\int _{-\infty }^{\infty }e^{-2i\pi t\xi }f(t)\,dt$$can be studied for [complex](complex%20number.md) values of its argument _ξ_. Depending on the properties of _f_, this might not converge off the real axis at all, or it might converge to a [complex](complex%20analysis.md) [analytic function](analytic%20function.md) for all values of _ξ_ = _σ_ + _iτ_, or something in between.<sup>[\[33\]](#^ref-33)</sup>
 
-$${\widehat {f} }(\xi )=\int _{-\infty }^{\infty }e^{-2i\pi t\xi }f(t)\,dt$$
-
-can be studied for [complex](complex%20number.md) values of its argument _ξ_. Depending on the properties of _f_, this might not converge off the real axis at all, or it might converge to a [complex](complex%20analysis.md) [analytic function](analytic%20function.md) for all values of _ξ_ = _σ_ + _iτ_, or something in between.<sup>[\[33\]](#^ref-33)</sup>
-
-The [Paley–Wiener theorem](Paley–Wiener%20theorem.md) says that _f_ is smooth \(i.e., _n_-times differentiable for all positive integers _n_\) and compactly supported if and only if _f̂_ \(_σ_ + _iτ_\) is a [holomorphic function](holomorphic%20function.md) for which there exists a [constant](constant%20(mathematics).md) _a_ \> 0 such that for any [integer](integer.md) _n_ ≥ 0,
-
-$$\left\vert \xi ^{n}{\widehat {f} }(\xi )\right\vert \leq C_{n}e^{2\pi a\vert \tau \vert }$$
-
-for some constant _C\_n_. \(In this case, _f_ is supported on \[−<!-- markdown separator -->_a_, _a_\].\) This can be expressed by saying that _f̂_ is an [entire function](entire%20function.md) that is [rapidly decreasing](rapidly%20decreasing.md#rapidly%20decreasing) in _σ_ \(for fixed _τ_\) and of exponential growth in _τ_ \(uniformly in _σ_\).<sup>[\[34\]](#^ref-34)</sup>
+The [Paley–Wiener theorem](Paley–Wiener%20theorem.md) says that _f_ is smooth \(i.e., _n_-times differentiable for all positive integers _n_\) and compactly supported if and only if _f̂_ \(_σ_ + _iτ_\) is a [holomorphic function](holomorphic%20function.md) for which there exists a [constant](constant%20(mathematics).md) _a_ \> 0 such that for any [integer](integer.md) _n_ ≥ 0, $$\left\vert \xi ^{n}{\widehat {f} }(\xi )\right\vert \leq C_{n}e^{2\pi a\vert \tau \vert }$$for some constant _C\_n_. \(In this case, _f_ is supported on \[−<!-- markdown separator -->_a_, _a_\].\) This can be expressed by saying that _f̂_ is an [entire function](entire%20function.md) that is [rapidly decreasing](rapidly%20decreasing.md#rapidly%20decreasing) in _σ_ \(for fixed _τ_\) and of exponential growth in _τ_ \(uniformly in _σ_\).<sup>[\[34\]](#^ref-34)</sup>
 
 \(If _f_ is not smooth, but only _L_<sup>2</sup>, a corresponding version holds with the rapid-decrease condition replaced by the appropriate _L_<sup>2</sup> condition.<sup>[\[35\]](#^ref-35)</sup>\) The space of such functions of a [complex variable](complex%20analysis.md) is called the Paley–Wiener space. This theorem has been generalised to semisimple [Lie groups](Lie%20group.md).<sup>[\[36\]](#^ref-36)</sup>
 
@@ -455,19 +321,9 @@ The Fourier transform _f̂_\(_ξ_\) is related to the [Laplace transform](Laplac
 
 It may happen that a function _f_ for which the Fourier integral does not converge on the real axis at all nevertheless has a complex Fourier transform defined in some region of the [complex plane](complex%20plane.md).
 
-For example, if _f_ is causal and of exponential growth, i.e.,
+For example, if _f_ is causal and of exponential growth, i.e., $$f(t)=0\quad (t<0),\qquad \vert f(t)\vert <Ce^{at}\quad (t\geq 0)$$for some constants _C_, _a_ ≥ 0, then<sup>[\[39\]](#^ref-39)</sup> $${\widehat {f} }(i\tau )=\int _{0}^{\infty }e^{2\pi \tau t}f(t)\,dt,$$convergent for all 2π<!-- markdown separator -->_τ_ \< −<!-- markdown separator -->_a_, is a one-sided Laplace transform of _f_.
 
-$$f(t)=0\quad (t<0),\qquad \vert f(t)\vert <Ce^{at}\quad (t\geq 0)$$
-
-for some constants _C_, _a_ ≥ 0, then<sup>[\[39\]](#^ref-39)</sup>
-
-$${\widehat {f} }(i\tau )=\int _{0}^{\infty }e^{2\pi \tau t}f(t)\,dt,$$
-
-convergent for all 2π<!-- markdown separator -->_τ_ \< −<!-- markdown separator -->_a_, is a one-sided Laplace transform of _f_.
-
-The usual one-sided version of the Laplace transform is
-
-$$F(s)=\int _{0}^{\infty }f(t)e^{-st}\,dt.$$
+The usual one-sided version of the Laplace transform is $$F(s)=\int _{0}^{\infty }f(t)e^{-st}\,dt.$$
 
 If _f_ is causal and the integrals converge, then ⁠${\widehat {f} }(i\tau )=F(-2\pi \tau )$⁠. Thus, extending the Fourier transform to the complex domain means it includes the Laplace transform as a special case in the case of causal functions—but with the change of variable _s_ = _i_<!-- markdown separator -->2π<!-- markdown separator -->_ξ_.
 
@@ -479,23 +335,11 @@ In modern mathematics the Laplace transform is conventionally subsumed under the
 
 ### inversion
 
-Still with ⁠$\xi =\sigma +i\tau$⁠, if ${\widehat {f} }$ is complex analytic for _a_ ≤ _τ_ ≤ _b_ and has sufficient decay in horizontal strips, then
+Still with ⁠$\xi =\sigma +i\tau$⁠, if ${\widehat {f} }$ is complex analytic for _a_ ≤ _τ_ ≤ _b_ and has sufficient decay in horizontal strips, then $$\int _{-\infty }^{\infty }{\widehat {f} }(\sigma +ia)e^{i2\pi (\sigma +ia)t}\,d\sigma =\int _{-\infty }^{\infty }{\widehat {f} }(\sigma +ib)e^{i2\pi (\sigma +ib)t}\,d\sigma$$by [Cauchy's integral theorem](Cauchy's%20integral%20theorem.md). Therefore, the Fourier inversion formula can use integration along different lines, parallel to the real axis.<sup>[\[40\]](#^ref-40)</sup>
 
-$$\int _{-\infty }^{\infty }{\widehat {f} }(\sigma +ia)e^{i2\pi (\sigma +ia)t}\,d\sigma =\int _{-\infty }^{\infty }{\widehat {f} }(\sigma +ib)e^{i2\pi (\sigma +ib)t}\,d\sigma$$
+Theorem: If _f_\(_t_\) = 0 for _t_ \< 0, and \|_f_\(_t_\)\| \< _Ce_<sup>_at_</sup> for some constants _C_, _a_ \> 0 and _t_ ≥ 0, then $$f(t)=\int _{-\infty }^{\infty }{\widehat {f} }(\sigma +i\tau )e^{i2\pi (\sigma +i\tau )t}\,d\sigma ,$$for any _τ_ \< −⁠_a_/2π⁠, under the usual hypotheses for Fourier inversion.
 
-by [Cauchy's integral theorem](Cauchy's%20integral%20theorem.md). Therefore, the Fourier inversion formula can use integration along different lines, parallel to the real axis.<sup>[\[40\]](#^ref-40)</sup>
-
-Theorem: If _f_\(_t_\) = 0 for _t_ \< 0, and \|_f_\(_t_\)\| \< _Ce_<sup>_at_</sup> for some constants _C_, _a_ \> 0 and _t_ ≥ 0, then
-
-$$f(t)=\int _{-\infty }^{\infty }{\widehat {f} }(\sigma +i\tau )e^{i2\pi (\sigma +i\tau )t}\,d\sigma ,$$
-
-for any _τ_ \< −⁠_a_/2π⁠, under the usual hypotheses for Fourier inversion.
-
-This theorem implies the [Mellin inversion formula](inverse%20Laplace%20transform.md#mellin's%20inverse%20formula) for the Laplace transformation,<sup>[\[39\]](#^ref-39)</sup>
-
-$$f(t)={\frac {1}{i2\pi } }\int _{b-i\infty }^{b+i\infty }F(s)e^{st}\,ds$$
-
-for any _b_ \> _a_, where _F_\(_s_\) is the Laplace transform of _f_\(_t_\).
+This theorem implies the [Mellin inversion formula](inverse%20Laplace%20transform.md#mellin's%20inverse%20formula) for the Laplace transformation,<sup>[\[39\]](#^ref-39)</sup> $$f(t)={\frac {1}{i2\pi } }\int _{b-i\infty }^{b+i\infty }F(s)e^{st}\,ds$$for any _b_ \> _a_, where _F_\(_s_\) is the Laplace transform of _f_\(_t_\).
 
 The hypotheses can be weakened, as in standard Fourier inversion results, to _f_\(_t_\) _e_<sup>−<!-- markdown separator -->_at_</sup> being _L_<sup>1</sup>, provided that _f_ be of [bounded variation](bounded%20variation.md) in a closed neighborhood of _t_ \(cf. [Dini test](Dini%20test.md)\), the value of _f_ at _t_ be taken to be the [arithmetic mean](arithmetic%20mean.md) of the left and right limits, and that the integrals be taken in the sense of Cauchy principal values.<sup>[\[41\]](#^ref-41)</sup>
 
@@ -503,11 +347,7 @@ _L_<sup>2</sup> versions of these inversion formulas are also available.<sup>[\[
 
 ## Fourier transform on Euclidean space
 
-The Fourier transform can be defined in any arbitrary number of dimensions _n_. As with the one-dimensional case, there are many conventions. For an integrable function _f_\(__x__\), this article takes the definition:
-
-$${\widehat {f} }({\boldsymbol {\xi } })={\mathcal {F} }(f)({\boldsymbol {\xi } })=\int _{\mathbb {R} ^{n} }f(\mathbf {x} )e^{-i2\pi {\boldsymbol {\xi } }\cdot \mathbf {x} }\,d\mathbf {x}$$
-
-where __x__ and __ξ__ are _n_-dimensional [vectors](vector%20(mathematics).md), and __x__ · __ξ__ is the [dot product](dot%20product.md) of the vectors. Alternatively, __ξ__ can be viewed as belonging to the [dual vector space](dual%20space.md) ⁠$\mathbb {R} ^{n\star }$⁠, in which case the dot product becomes the [contraction](tensor%20contraction.md) of __x__ and __ξ__, usually written as ⟨__x__, __ξ__⟩.
+The Fourier transform can be defined in any arbitrary number of dimensions _n_. As with the one-dimensional case, there are many conventions. For an integrable function _f_\(__x__\), this article takes the definition: $${\widehat {f} }({\boldsymbol {\xi } })={\mathcal {F} }(f)({\boldsymbol {\xi } })=\int _{\mathbb {R} ^{n} }f(\mathbf {x} )e^{-i2\pi {\boldsymbol {\xi } }\cdot \mathbf {x} }\,d\mathbf {x}$$where __x__ and __ξ__ are _n_-dimensional [vectors](vector%20(mathematics).md), and __x__ · __ξ__ is the [dot product](dot%20product.md) of the vectors. Alternatively, __ξ__ can be viewed as belonging to the [dual vector space](dual%20space.md) ⁠$\mathbb {R} ^{n\star }$⁠, in which case the dot product becomes the [contraction](tensor%20contraction.md) of __x__ and __ξ__, usually written as ⟨__x__, __ξ__⟩.
 
 All of the basic properties listed above hold for the _n_-dimensional Fourier transform, as do Plancherel's and Parseval's theorem. When the function is integrable, the Fourier transform is still uniformly continuous and the [Riemann–Lebesgue lemma](Riemann–Lebesgue%20lemma.md) holds.<sup>[\[19\]](#^ref-19)</sup>
 
@@ -519,79 +359,39 @@ Generally speaking, the more concentrated _f_\(_x_\) is, the more spread out its
 
 The trade-off between the compaction of a function and its Fourier transform can be formalized in the form of an [uncertainty principle](uncertainty%20principle.md) by viewing a function and its Fourier transform as [conjugate variables](conjugate%20variables.md) with respect to the [symplectic form](symplectic%20vector%20space.md) on the [time–frequency domain](time–frequency%20representation.md): from the point of view of the [linear canonical transformation](linear%20canonical%20transformation.md), the Fourier transform is rotation by 90° in the time–frequency domain, and preserves the symplectic form.
 
-Suppose _f_\(_x_\) is an integrable and [square-integrable](square-integrable.md) function. [Without loss of generality](without%20loss%20of%20generality.md), assume that _f_\(_x_\) is normalized:
-
-$$\int _{-\infty }^{\infty }|f(x)|^{2}\,dx=1.$$
+Suppose _f_\(_x_\) is an integrable and [square-integrable](square-integrable.md) function. [Without loss of generality](without%20loss%20of%20generality.md), assume that _f_\(_x_\) is normalized: $$\int _{-\infty }^{\infty }|f(x)|^{2}\,dx=1.$$
 
 It follows from the [Plancherel theorem](Plancherel%20theorem.md) that _f̂_\(_ξ_\) is also normalized.
 
-The spread around _x_ = 0 may be measured by the _dispersion about zero_ defined by<sup>[\[43\]](#^ref-43)</sup>
-
-$$D_{0}(f)=\int _{-\infty }^{\infty }x^{2}|f(x)|^{2}\,dx.$$
+The spread around _x_ = 0 may be measured by the _dispersion about zero_ defined by<sup>[\[43\]](#^ref-43)</sup> $$D_{0}(f)=\int _{-\infty }^{\infty }x^{2}|f(x)|^{2}\,dx.$$
 
 In probability terms, this is the [second moment](moment%20(mathematics).md) of \|_f_\(_x_\)\|<sup>2</sup> about zero.
 
-The uncertainty principle states that, if _f_\(_x_\) is absolutely continuous and the functions _x_<!-- markdown separator -->·<!-- markdown separator -->_f_\(_x_\) and _f_′\(_x_\) are square integrable, then
+The uncertainty principle states that, if _f_\(_x_\) is absolutely continuous and the functions _x_<!-- markdown separator -->·<!-- markdown separator -->_f_\(_x_\) and _f_′\(_x_\) are square integrable, then $$D_{0}(f)D_{0}({\widehat {f} })\geq {\frac {1}{16\pi ^{2} } }.$$
 
-$$D_{0}(f)D_{0}({\widehat {f} })\geq {\frac {1}{16\pi ^{2} } }.$$
+The equality is attained only in the case $${\begin{aligned}f(x)&=C_{1}\,e^{-\pi {\frac {x^{2} }{\sigma ^{2} } } }\\\therefore {\widehat {f} }(\xi )&=\sigma C_{1}\,e^{-\pi \sigma ^{2}\xi ^{2} }\end{aligned} }$$where _σ_ \> 0 is arbitrary and _C_<sub>1</sub> = ⁠<sup>4</sup>√2/√_σ_⁠ so that _f_ is _L_<sup>2</sup>-normalized. In other words, where _f_ is a \(normalized\) [Gaussian function](Gaussian%20function.md) with variance _σ_<sup>2</sup>/2<!-- markdown separator -->_π_, centered at zero, and its Fourier transform is a Gaussian function with variance _σ_<sup>−2</sup>/2<!-- markdown separator -->_π_. Gaussian functions are examples of [Schwartz functions](Schwartz%20function.md) \(see the discussion on tempered distributions below\).
 
-The equality is attained only in the case
+In fact, this inequality implies that: $$\left(\int _{-\infty }^{\infty }(x-x_{0})^{2}|f(x)|^{2}\,dx\right)\left(\int _{-\infty }^{\infty }(\xi -\xi _{0})^{2}\left|{\widehat {f} }(\xi )\right|^{2}\,d\xi \right)\geq {\frac {1}{16\pi ^{2} } },\quad \forall x_{0},\xi _{0}\in \mathbb {R} .$$In [quantum mechanics](quantum%20mechanics.md), the [momentum](momentum.md) and position [wave functions](wave%20function.md) are Fourier transform pairs, up to a factor of the [Planck constant](Planck%20constant.md). With this constant properly taken into account, the inequality above becomes the statement of the [Heisenberg uncertainty principle](Heisenberg%20uncertainty%20principle.md).<sup>[\[44\]](#^ref-44)</sup>
 
-$${\begin{aligned}f(x)&=C_{1}\,e^{-\pi {\frac {x^{2} }{\sigma ^{2} } } }\\\therefore {\widehat {f} }(\xi )&=\sigma C_{1}\,e^{-\pi \sigma ^{2}\xi ^{2} }\end{aligned} }$$
-
-where _σ_ \> 0 is arbitrary and _C_<sub>1</sub> = ⁠<sup>4</sup>√2/√_σ_⁠ so that _f_ is _L_<sup>2</sup>-normalized. In other words, where _f_ is a \(normalized\) [Gaussian function](Gaussian%20function.md) with variance _σ_<sup>2</sup>/2<!-- markdown separator -->_π_, centered at zero, and its Fourier transform is a Gaussian function with variance _σ_<sup>−2</sup>/2<!-- markdown separator -->_π_. Gaussian functions are examples of [Schwartz functions](Schwartz%20function.md) \(see the discussion on tempered distributions below\).
-
-In fact, this inequality implies that:
-
-$$\left(\int _{-\infty }^{\infty }(x-x_{0})^{2}|f(x)|^{2}\,dx\right)\left(\int _{-\infty }^{\infty }(\xi -\xi _{0})^{2}\left|{\widehat {f} }(\xi )\right|^{2}\,d\xi \right)\geq {\frac {1}{16\pi ^{2} } },\quad \forall x_{0},\xi _{0}\in \mathbb {R} .$$
-
-In [quantum mechanics](quantum%20mechanics.md), the [momentum](momentum.md) and position [wave functions](wave%20function.md) are Fourier transform pairs, up to a factor of the [Planck constant](Planck%20constant.md). With this constant properly taken into account, the inequality above becomes the statement of the [Heisenberg uncertainty principle](Heisenberg%20uncertainty%20principle.md).<sup>[\[44\]](#^ref-44)</sup>
-
-A stronger uncertainty principle is the [Hirschman uncertainty principle](Hirschman%20uncertainty.md), which is expressed as:
-
-$$H\left(\left|f\right|^{2}\right)+H\left(\left|{\widehat {f} }\right|^{2}\right)\geq \log \left({\frac {e}{2} }\right)$$
-
-where _H_\(_p_\) is the [differential entropy](differential%20entropy.md) of the [probability density function](probability%20density%20function.md) _p_\(_x_\):
-
-$$H(p)=-\int _{-\infty }^{\infty }p(x)\log {\bigl (}p(x){\bigr )}\,dx$$
-
-where the logarithms may be in any base that is consistent. The equality is attained for a Gaussian, as in the previous case.
+A stronger uncertainty principle is the [Hirschman uncertainty principle](Hirschman%20uncertainty.md), which is expressed as: $$H\left(\left|f\right|^{2}\right)+H\left(\left|{\widehat {f} }\right|^{2}\right)\geq \log \left({\frac {e}{2} }\right)$$where _H_\(_p_\) is the [differential entropy](differential%20entropy.md) of the [probability density function](probability%20density%20function.md) _p_\(_x_\): $$H(p)=-\int _{-\infty }^{\infty }p(x)\log {\bigl (}p(x){\bigr )}\,dx$$where the logarithms may be in any base that is consistent. The equality is attained for a Gaussian, as in the previous case.
 
 ### sine and cosine transforms
 
 - Main article: [Sine and cosine transforms](sine%20and%20cosine%20transforms.md)
 
-Fourier's original formulation of the transform did not use complex numbers, but rather sines and cosines. Statisticians and others still use this form. An absolutely integrable function _f_ for which Fourier inversion holds can be expanded in terms of genuine frequencies \(avoiding negative frequencies, which are sometimes considered hard to interpret physically<sup>[\[45\]](#^ref-45)</sup>\) _λ_ by
+Fourier's original formulation of the transform did not use complex numbers, but rather sines and cosines. Statisticians and others still use this form. An absolutely integrable function _f_ for which Fourier inversion holds can be expanded in terms of genuine frequencies \(avoiding negative frequencies, which are sometimes considered hard to interpret physically<sup>[\[45\]](#^ref-45)</sup>\) _λ_ by $$f(t)=\int _{0}^{\infty }{\bigl (}a(\lambda )\cos(2\pi \lambda t)+b(\lambda )\sin(2\pi \lambda t){\bigr )}\,d\lambda .$$
 
-$$f(t)=\int _{0}^{\infty }{\bigl (}a(\lambda )\cos(2\pi \lambda t)+b(\lambda )\sin(2\pi \lambda t){\bigr )}\,d\lambda .$$
-
-This is called an expansion as a [trigonometric integral](trigonometric%20integral.md), or a Fourier integral expansion. The coefficient functions _a_ and _b_ can be found by using variants of the Fourier cosine transform and the Fourier sine transform \(the normalisations are, again, not standardised\):
-
-$$a(\lambda )=2\int _{-\infty }^{\infty }f(t)\cos(2\pi \lambda t)\,dt$$
-
-and
-
-$$b(\lambda )=2\int _{-\infty }^{\infty }f(t)\sin(2\pi \lambda t)\,dt.$$
+This is called an expansion as a [trigonometric integral](trigonometric%20integral.md), or a Fourier integral expansion. The coefficient functions _a_ and _b_ can be found by using variants of the Fourier cosine transform and the Fourier sine transform \(the normalisations are, again, not standardised\): $$a(\lambda )=2\int _{-\infty }^{\infty }f(t)\cos(2\pi \lambda t)\,dt$$and $$b(\lambda )=2\int _{-\infty }^{\infty }f(t)\sin(2\pi \lambda t)\,dt.$$
 
 Older literature refers to the two transform functions, the Fourier cosine transform, _a_, and the Fourier sine transform, _b_.
 
-The function _f_ can be recovered from the sine and cosine transform using
-
-$$f(t)=2\int _{0}^{\infty }\int _{-\infty }^{\infty }f(\tau )\cos {\bigl (}2\pi \lambda (\tau -t){\bigr )}\,d\tau \,d\lambda .$$
-
-together with trigonometric identities. This is referred to as Fourier's integral formula.<sup>[\[39\]](#^ref-39)</sup><sup>[\[46\]](#^ref-46)</sup><sup>[\[47\]](#^ref-47)</sup><sup>[\[48\]](#^ref-48)</sup>
+The function _f_ can be recovered from the sine and cosine transform using $$f(t)=2\int _{0}^{\infty }\int _{-\infty }^{\infty }f(\tau )\cos {\bigl (}2\pi \lambda (\tau -t){\bigr )}\,d\tau \,d\lambda .$$together with trigonometric identities. This is referred to as Fourier's integral formula.<sup>[\[39\]](#^ref-39)</sup><sup>[\[46\]](#^ref-46)</sup><sup>[\[47\]](#^ref-47)</sup><sup>[\[48\]](#^ref-48)</sup>
 
 ### spherical harmonics
 
 Let the set of [homogeneous](homogeneous%20polynomial.md) [harmonic](harmonic%20function.md) [polynomials](polynomial.md) of degree _k_ on __R__<sup>_n_</sup> be denoted by __A__<sub>_k_</sub>. The set __A__<sub>_k_</sub> consists of the [solid spherical harmonics](solid%20spherical%20harmonics.md) of degree _k_. The solid spherical harmonics play a similar role in higher dimensions to the Hermite polynomials in dimension one. Specifically, if _f_\(_x_\) = _e_<sup>−π\|_x_\|<sup>2</sup></sup>_P_\(_x_\) for some _P_\(_x_\) in __A__<sub>_k_</sub>, then ⁠${\widehat {f} }(\xi )=i^{-k}f(\xi )$⁠. Let the set __H__<sub>_k_</sub> be the closure in _L_<sup>2</sup>\(__R__<sup>_n_</sup>\) of linear combinations of functions of the form _f_\(\|_x_\|\)_P_\(_x_\) where _P_\(_x_\) is in __A__<sub>_k_</sub>. The space _L_<sup>2</sup>\(__R__<sup>_n_</sup>\) is then a direct sum of the spaces __H__<sub>_k_</sub> and the Fourier transform maps each space __H__<sub>_k_</sub> to itself and it is possible to characterize the action of the Fourier transform on each space __H__<sub>_k_</sub>.<sup>[\[19\]](#^ref-19)</sup>
 
-Let _f_\(_x_\) = _f_<sub>0</sub>\(\|_x_\|\)_P_\(_x_\) \(with _P_\(_x_\) in __A__<sub>_k_</sub>\), then
-
-$${\widehat {f} }(\xi )=F_{0}(|\xi |)P(\xi )$$
-
-where
-
-$$F_{0}(r)=2\pi i^{-k}r^{-{\frac {n+2k-2}{2} } }\int _{0}^{\infty }f_{0}(s)J_{\frac {n+2k-2}{2} }(2\pi rs)s^{\frac {n+2k}{2} }\,ds.$$
+Let _f_\(_x_\) = _f_<sub>0</sub>\(\|_x_\|\)_P_\(_x_\) \(with _P_\(_x_\) in __A__<sub>_k_</sub>\), then $${\widehat {f} }(\xi )=F_{0}(|\xi |)P(\xi )$$where $$F_{0}(r)=2\pi i^{-k}r^{-{\frac {n+2k-2}{2} } }\int _{0}^{\infty }f_{0}(s)J_{\frac {n+2k-2}{2} }(2\pi rs)s^{\frac {n+2k}{2} }\,ds.$$
 
 Here _J_<sub>\(_n_ + 2<!-- markdown separator -->_k_ − 2\)/2</sub> denotes the [Bessel function](Bessel%20function.md) of the first kind with order ⁠_n_ + 2<!-- markdown separator -->_k_ − 2/2⁠. When _k_ = 0 this gives a useful formula for the Fourier transform of a radial function.<sup>[\[49\]](#^ref-49)</sup> This is essentially the [Hankel transform](Hankel%20transform.md). Moreover, there is a simple recursion relating the cases _n_ + 2 and _n_<sup>[\[50\]](#^ref-50)</sup> allowing to compute, e.g., the three-dimensional Fourier transform of a radial function from the one-dimensional one.
 
@@ -601,9 +401,7 @@ Here _J_<sub>\(_n_ + 2<!-- markdown separator -->_k_ − 2\)/2</sub> denotes the
 
 In higher dimensions it becomes interesting to study _restriction problems_ for the Fourier transform. The Fourier transform of an integrable function is continuous and the restriction of this function to any set is defined. But for a square-integrable function the Fourier transform could be a general _class_ of square integrable functions. As such, the restriction of the Fourier transform of an _L_<sup>2</sup>\(__R__<sup>_n_</sup>\) function cannot be defined on sets of measure 0. It is still an active area of study to understand restriction problems in _L_<sup>_p_</sup> for 1 \< _p_ \< 2. It is possible in some cases to define the restriction of a Fourier transform to a set _S_, provided _S_ has non-zero curvature. The case when _S_ is the unit sphere in __R__<sup>_n_</sup> is of particular interest. In this case the Tomas–[Stein](Elias%20Stein.md) restriction theorem states that the restriction of the Fourier transform to the unit sphere in __R__<sup>_n_</sup> is a bounded operator on _L_<sup>_p_</sup> provided 1 ≤ _p_ ≤ ⁠2<!-- markdown separator -->_n_ + 2/_n_ + 3⁠.
 
-One notable difference between the Fourier transform in 1 dimension versus higher dimensions concerns the partial sum operator. Consider an increasing collection of measurable sets _E_<sub>_R_</sub> indexed by _R_ ∈ \(0, ∞\): such as balls of radius _R_ centered at the origin, or cubes of side 2<!-- markdown separator -->_R_. For a given integrable function _f_, consider the function _f<sub>R</sub>_ defined by:
-
-$$f_{R}(x)=\int _{E_{R} }{\widehat {f} }(\xi )e^{i2\pi x\cdot \xi }\,d\xi ,\quad x\in \mathbb {R} ^{n}.$$
+One notable difference between the Fourier transform in 1 dimension versus higher dimensions concerns the partial sum operator. Consider an increasing collection of measurable sets _E_<sub>_R_</sub> indexed by _R_ ∈ \(0, ∞\): such as balls of radius _R_ centered at the origin, or cubes of side 2<!-- markdown separator -->_R_. For a given integrable function _f_, consider the function _f<sub>R</sub>_ defined by: $$f_{R}(x)=\int _{E_{R} }{\widehat {f} }(\xi )e^{i2\pi x\cdot \xi }\,d\xi ,\quad x\in \mathbb {R} ^{n}.$$
 
 Suppose in addition that _f_ ∈ _L_<sup>_p_</sup>\(__R__<sup>_n_</sup>\). For _n_ = 1 and 1 \< _p_ \< ∞, if one takes _E<sub>R</sub>_ = \(−<!-- markdown separator -->_R_, _R_\), then _f<sub>R</sub>_ converges to _f_ in _L_<sup>_p_</sup> as _R_ tends to infinity, by the boundedness of the [Hilbert transform](Hilbert%20transform.md). Naively one may hope the same holds true for _n_ \> 1. In the case that _E<sub>R</sub>_ is taken to be a cube with side length _R_, then convergence still holds. Another natural candidate is the Euclidean ball _E_<sub>_R_</sub> = {_ξ_ : \|_ξ_\| \< _R_}. In order for this partial sum operator to converge, it is necessary that the [multiplier](multiplier%20(Fourier%20analysis).md) for the unit ball be bounded in _L_<sup>_p_</sup>\(__R__<sup>_n_</sup>\). For _n_ ≥ 2 it is a celebrated theorem of [Charles Fefferman](Charles%20Fefferman.md) that the multiplier for the unit ball is never bounded unless _p_ = 2.<sup>[\[51\]](#^ref-51)</sup> In fact, when _p_ ≠ 2, this shows that not only may _f<sub>R</sub>_ fail to converge to _f_ in _L_<sup>_p_</sup>, but for some functions _f_ ∈ _L_<sup>_p_</sup>\(__R__<sup>_n_</sup>\), _f<sub>R</sub>_ is not even an element of _L_<sup>_p_</sup>.
 
@@ -611,29 +409,11 @@ Suppose in addition that _f_ ∈ _L_<sup>_p_</sup>\(__R__<sup>_n_</sup>\). For _
 
 - See also: [Riesz–Thorin theorem](Riesz–Thorin%20theorem.md)
 
-The definition of the Fourier transform naturally extends from $L^{1}(\mathbb {R} )$ to ⁠$L^{1}(\mathbb {R} ^{n})$⁠. That is, if $f\in L^{1}(\mathbb {R} ^{n})$ then the Fourier transform ${\mathcal {F} }:L^{1}(\mathbb {R} ^{n})\to L^{\infty }(\mathbb {R} ^{n})$ is given by
+The definition of the Fourier transform naturally extends from $L^{1}(\mathbb {R} )$ to ⁠$L^{1}(\mathbb {R} ^{n})$⁠. That is, if $f\in L^{1}(\mathbb {R} ^{n})$ then the Fourier transform ${\mathcal {F} }:L^{1}(\mathbb {R} ^{n})\to L^{\infty }(\mathbb {R} ^{n})$ is given by $$f(x)\mapsto {\widehat {f} }(\xi )=\int _{\mathbb {R} ^{n} }f(x)e^{-i2\pi \xi \cdot x}\,dx,\quad \forall \xi \in \mathbb {R} ^{n}.$$This operator is [bounded](bounded%20operator.md) as $$\sup _{\xi \in \mathbb {R} ^{n} }\left\vert {\widehat {f} }(\xi )\right\vert \leq \int _{\mathbb {R} ^{n} }\vert f(x)\vert \,dx,$$which shows that its [operator norm](operator%20norm.md) is bounded by 1. The [Riemann–Lebesgue lemma](Riemann–Lebesgue%20lemma.md) shows that if $f\in L^{1}(\mathbb {R} ^{n})$ then its Fourier transform actually belongs to the [space of continuous functions that vanish at infinity](function%20space.md#functional%20analysis), i.e., ⁠${\widehat {f} }\in C_{0}(\mathbb {R} ^{n})\subset L^{\infty }(\mathbb {R} ^{n})$⁠.<sup>[\[52\]](#^ref-52)</sup><sup>[\[53\]](#^ref-53)</sup> Furthermore, the [image](image%20(mathematics).md) of $L^{1}$ under ${\mathcal {F} }$ is a strict subset of ⁠$C_{0}(\mathbb {R} ^{n})$⁠.<sup>[\[54\]](#^ref-54)</sup>
 
-$$f(x)\mapsto {\widehat {f} }(\xi )=\int _{\mathbb {R} ^{n} }f(x)e^{-i2\pi \xi \cdot x}\,dx,\quad \forall \xi \in \mathbb {R} ^{n}.$$
+Similarly to the case of one variable, the Fourier transform can be defined on ⁠$L^{2}(\mathbb {R} ^{n})$⁠. The Fourier transform in $L^{2}(\mathbb {R} ^{n})$ is no longer given by an ordinary Lebesgue integral, although it can be computed by an [improper integral](improper%20integral.md), i.e., $${\widehat {f} }(\xi )=\lim _{R\to \infty }\int _{|x|\leq R}f(x)e^{-i2\pi \xi \cdot x}\,dx$$where the limit is taken in the _L_<sup>2</sup> sense.<sup>[\[note 7\]](#^ref-note%207)</sup><sup>[\[55\]](#^ref-55)</sup>
 
-This operator is [bounded](bounded%20operator.md) as
-
-$$\sup _{\xi \in \mathbb {R} ^{n} }\left\vert {\widehat {f} }(\xi )\right\vert \leq \int _{\mathbb {R} ^{n} }\vert f(x)\vert \,dx,$$
-
-which shows that its [operator norm](operator%20norm.md) is bounded by 1. The [Riemann–Lebesgue lemma](Riemann–Lebesgue%20lemma.md) shows that if $f\in L^{1}(\mathbb {R} ^{n})$ then its Fourier transform actually belongs to the [space of continuous functions that vanish at infinity](function%20space.md#functional%20analysis), i.e., ⁠${\widehat {f} }\in C_{0}(\mathbb {R} ^{n})\subset L^{\infty }(\mathbb {R} ^{n})$⁠.<sup>[\[52\]](#^ref-52)</sup><sup>[\[53\]](#^ref-53)</sup> Furthermore, the [image](image%20(mathematics).md) of $L^{1}$ under ${\mathcal {F} }$ is a strict subset of ⁠$C_{0}(\mathbb {R} ^{n})$⁠.<sup>[\[54\]](#^ref-54)</sup>
-
-Similarly to the case of one variable, the Fourier transform can be defined on ⁠$L^{2}(\mathbb {R} ^{n})$⁠. The Fourier transform in $L^{2}(\mathbb {R} ^{n})$ is no longer given by an ordinary Lebesgue integral, although it can be computed by an [improper integral](improper%20integral.md), i.e.,
-
-$${\widehat {f} }(\xi )=\lim _{R\to \infty }\int _{|x|\leq R}f(x)e^{-i2\pi \xi \cdot x}\,dx$$
-
-where the limit is taken in the _L_<sup>2</sup> sense.<sup>[\[note 7\]](#^ref-note%207)</sup><sup>[\[55\]](#^ref-55)</sup>
-
-Furthermore, ${\mathcal {F} }:L^{2}(\mathbb {R} ^{n})\to L^{2}(\mathbb {R} ^{n})$ is a [unitary operator](unitary%20operator.md).<sup>[\[56\]](#^ref-56)</sup> For an operator to be unitary it is sufficient to show that it is bijective and preserves the inner product. The Fourier inversion theorem implies that the transform is bijective. Also, for any _f_, _g_ ∈ _L_<sup>2</sup>\(__R__<sup>_n_</sup>\) we have
-
-$$\int _{\mathbb {R} ^{n} }f(x){\mathcal {F} }g(x)\,dx=\int _{\mathbb {R} ^{n} }{\mathcal {F} }f(x)g(x)\,dx.$$
-
-So
-
-$${\begin{aligned}\int _{\mathbb {R} ^{n} }{\overline { {\mathcal {F} }f(x)} }{\mathcal {F} }g(x)\,dx&=\int _{\mathbb {R} ^{n} }{\mathcal {F} }^{-1}{\overline {f(x)} }{\mathcal {F} }g(x)\,dx\\&=\int _{\mathbb {R} ^{n} }{\mathcal {F} }{\mathcal {F} }^{-1}{\overline {f(x)} }g(x)\,dx=\int _{\mathbb {R} ^{n} }{\overline {f(x)} }g(x)\,dx\end{aligned} }$$
+Furthermore, ${\mathcal {F} }:L^{2}(\mathbb {R} ^{n})\to L^{2}(\mathbb {R} ^{n})$ is a [unitary operator](unitary%20operator.md).<sup>[\[56\]](#^ref-56)</sup> For an operator to be unitary it is sufficient to show that it is bijective and preserves the inner product. The Fourier inversion theorem implies that the transform is bijective. Also, for any _f_, _g_ ∈ _L_<sup>2</sup>\(__R__<sup>_n_</sup>\) we have $$\int _{\mathbb {R} ^{n} }f(x){\mathcal {F} }g(x)\,dx=\int _{\mathbb {R} ^{n} }{\mathcal {F} }f(x)g(x)\,dx.$$So $${\begin{aligned}\int _{\mathbb {R} ^{n} }{\overline { {\mathcal {F} }f(x)} }{\mathcal {F} }g(x)\,dx&=\int _{\mathbb {R} ^{n} }{\mathcal {F} }^{-1}{\overline {f(x)} }{\mathcal {F} }g(x)\,dx\\&=\int _{\mathbb {R} ^{n} }{\mathcal {F} }{\mathcal {F} }^{-1}{\overline {f(x)} }g(x)\,dx=\int _{\mathbb {R} ^{n} }{\overline {f(x)} }g(x)\,dx\end{aligned} }$$
 
 So the transform preserves the inner product.
 
@@ -648,25 +428,11 @@ For ⁠$1<p<2$⁠, the Fourier transform can be defined on $L^{p}(\mathbb {R} )$
 
 One might consider enlarging the domain of the Fourier transform from $L^{1}+L^{2}$ by considering [generalized functions](generalized%20function.md), or distributions. A distribution on $\mathbb {R} ^{n}$ is a continuous linear functional on the space $C_{c}^{\infty }(\mathbb {R} ^{n})$ of compactly supported smooth functions \(i.e. [bump functions](bump%20function.md)\), equipped with a suitable topology. Since $C_{c}^{\infty }(\mathbb {R} ^{n})$ is dense in ⁠$L^{2}(\mathbb {R} ^{n})$⁠, the [Plancherel theorem](Plancherel%20theorem.md) allows one to extend the definition of the Fourier transform to general functions in $L^{2}(\mathbb {R} ^{n})$ by continuity arguments. The strategy is then to consider the action of the Fourier transform on $C_{c}^{\infty }(\mathbb {R} ^{n})$ and pass to distributions by duality. The obstruction to doing this is that the Fourier transform does not map $C_{c}^{\infty }(\mathbb {R} ^{n})$ to ⁠$C_{c}^{\infty }(\mathbb {R} ^{n})$⁠. In fact the Fourier transform of an element in $C_{c}^{\infty }(\mathbb {R} ^{n})$ can not vanish on an open set; see the above discussion on the uncertainty principle.<sup>[\[58\]](#^ref-58)</sup><sup>[\[59\]](#^ref-59)</sup>
 
-The Fourier transform can also be defined for [tempered distributions](tempered%20distribution.md#tempered%20distribution) ⁠${\mathcal {S} }'(\mathbb {R} ^{n})$⁠, dual to the space of [Schwartz functions](Schwartz%20function.md) ⁠${\mathcal {S} }(\mathbb {R} ^{n})$⁠. A Schwartz function is a smooth function that decays at infinity, along with all of its derivatives, hence $C_{c}^{\infty }(\mathbb {R} ^{n})\subset {\mathcal {S} }(\mathbb {R} ^{n})$ and:
+The Fourier transform can also be defined for [tempered distributions](tempered%20distribution.md#tempered%20distribution) ⁠${\mathcal {S} }'(\mathbb {R} ^{n})$⁠, dual to the space of [Schwartz functions](Schwartz%20function.md) ⁠${\mathcal {S} }(\mathbb {R} ^{n})$⁠. A Schwartz function is a smooth function that decays at infinity, along with all of its derivatives, hence $C_{c}^{\infty }(\mathbb {R} ^{n})\subset {\mathcal {S} }(\mathbb {R} ^{n})$ and: $${\mathcal {F} }:C_{c}^{\infty }(\mathbb {R} ^{n})\rightarrow {\mathcal {S} }(\mathbb {R} ^{n})\setminus C_{c}^{\infty }(\mathbb {R} ^{n}).$$The Fourier transform is an [automorphism](automorphism.md) of the Schwartz space and, by duality, also an automorphism of the space of tempered distributions.<sup>[\[19\]](#^ref-19)</sup><sup>[\[60\]](#^ref-60)</sup> The tempered distributions include well-behaved functions of polynomial growth, distributions of compact support as well as all the integrable functions mentioned above.
 
-$${\mathcal {F} }:C_{c}^{\infty }(\mathbb {R} ^{n})\rightarrow {\mathcal {S} }(\mathbb {R} ^{n})\setminus C_{c}^{\infty }(\mathbb {R} ^{n}).$$
+For the definition of the Fourier transform of a tempered distribution, let $f$ and $g$ be integrable functions, and let ${\widehat {f} }$ and ${\widehat {g} }$ be their Fourier transforms respectively. Then the Fourier transform obeys the following multiplication formula,<sup>[\[19\]](#^ref-19)</sup> $$\int _{\mathbb {R} ^{n} }{\widehat {f} }(x)g(x)\,dx=\int _{\mathbb {R} ^{n} }f(x){\widehat {g} }(x)\,dx.$$
 
-The Fourier transform is an [automorphism](automorphism.md) of the Schwartz space and, by duality, also an automorphism of the space of tempered distributions.<sup>[\[19\]](#^ref-19)</sup><sup>[\[60\]](#^ref-60)</sup> The tempered distributions include well-behaved functions of polynomial growth, distributions of compact support as well as all the integrable functions mentioned above.
-
-For the definition of the Fourier transform of a tempered distribution, let $f$ and $g$ be integrable functions, and let ${\widehat {f} }$ and ${\widehat {g} }$ be their Fourier transforms respectively. Then the Fourier transform obeys the following multiplication formula,<sup>[\[19\]](#^ref-19)</sup>
-
-$$\int _{\mathbb {R} ^{n} }{\widehat {f} }(x)g(x)\,dx=\int _{\mathbb {R} ^{n} }f(x){\widehat {g} }(x)\,dx.$$
-
-Every integrable function $f$ defines \(induces\) a distribution $T_{f}$ by the relation
-
-$$T_{f}(\varphi )=\int _{\mathbb {R} ^{n} }f(x)\varphi (x)\,dx,\quad \forall \varphi \in {\mathcal {S} }(\mathbb {R} ^{n}).$$
-
-So it makes sense to define the Fourier transform of a tempered distribution $T_{f}\in {\mathcal {S} }'(\mathbb {R} )$ by the duality:
-
-$$\langle {\widehat {T} }_{f},\varphi \rangle =\langle T_{f},{\widehat {\varphi } }\rangle ,\quad \forall \varphi \in {\mathcal {S} }(\mathbb {R} ^{n}).$$
-
-Extending this to all tempered distributions $T$ gives the general definition of the Fourier transform.
+Every integrable function $f$ defines \(induces\) a distribution $T_{f}$ by the relation $$T_{f}(\varphi )=\int _{\mathbb {R} ^{n} }f(x)\varphi (x)\,dx,\quad \forall \varphi \in {\mathcal {S} }(\mathbb {R} ^{n}).$$So it makes sense to define the Fourier transform of a tempered distribution $T_{f}\in {\mathcal {S} }'(\mathbb {R} )$ by the duality: $$\langle {\widehat {T} }_{f},\varphi \rangle =\langle T_{f},{\widehat {\varphi } }\rangle ,\quad \forall \varphi \in {\mathcal {S} }(\mathbb {R} ^{n}).$$Extending this to all tempered distributions $T$ gives the general definition of the Fourier transform.
 
 Distributions can be differentiated and the above-mentioned compatibility of the Fourier transform with differentiation and convolution remains true for tempered distributions.
 
@@ -676,19 +442,7 @@ Distributions can be differentiated and the above-mentioned compatibility of the
 
 - See also: [Bochner–Minlos theorem](Bochner–Minlos%20theorem.md#Bochner–Minlos%20theorem), [Riesz–Markov–Kakutani representation theorem](Riesz–Markov–Kakutani%20representation%20theorem.md), and [Fourier series § Fourier-Stieltjes series](Fourier%20series.md#Fourier-Stieltjes%20series)
 
-The Fourier transform of a [finite](finite%20measure.md) [Borel measure](Borel%20measure.md) _μ_ on __R__<sup>_n_</sup>, given by the bounded, uniformly continuous function:<sup>[\[61\]](#^ref-61)</sup><sup>[\[62\]](#^ref-62)</sup>
-
-$${\widehat {\mu } }(\xi )=\int _{\mathbb {R} ^{n} }e^{-i2\pi x\cdot \xi }\,d\mu ,$$
-
-is called the _Fourier–Stieltjes transform_ due to its connection with the [Riemann-Stieltjes integral](Riemann–Stieltjes%20integral.md#application%20to%20functional%20analysis) representation of [\(Radon\) measures](Radon%20measure.md).<sup>[\[63\]](#^ref-63)</sup> If $\mu$ is the [probability distribution](probability%20distribution.md) of a [random variable](random%20variable.md) $X$ then its Fourier–Stieltjes transform is, by definition, a [characteristic function](characteristic%20function%20(probability%20theory).md).<sup>[\[64\]](#^ref-64)</sup> If, in addition, the probability distribution has a [probability density function](probability%20density%20function.md), this definition is subject to the usual Fourier transform.<sup>[\[65\]](#^ref-65)</sup> Stated more generally, when $\mu$ is [absolutely continuous](absolute%20continuity.md#absolute%20continuity%20of%20measures) with respect to the Lebesgue measure, i.e.,
-
-$$d\mu =f(x)\,dx,$$
-
-then
-
-$${\widehat {\mu } }(\xi )={\widehat {f} }(\xi ),$$
-
-and the Fourier-Stieltjes transform reduces to the usual definition of the Fourier transform. That is, the notable difference with the Fourier transform of integrable functions is that the Fourier-Stieltjes transform need not vanish at infinity, i.e., the [Riemann–Lebesgue lemma](Riemann–Lebesgue%20lemma.md) fails for measures.<sup>[\[66\]](#^ref-66)</sup>
+The Fourier transform of a [finite](finite%20measure.md) [Borel measure](Borel%20measure.md) _μ_ on __R__<sup>_n_</sup>, given by the bounded, uniformly continuous function:<sup>[\[61\]](#^ref-61)</sup><sup>[\[62\]](#^ref-62)</sup> $${\widehat {\mu } }(\xi )=\int _{\mathbb {R} ^{n} }e^{-i2\pi x\cdot \xi }\,d\mu ,$$is called the _Fourier–Stieltjes transform_ due to its connection with the [Riemann-Stieltjes integral](Riemann–Stieltjes%20integral.md#application%20to%20functional%20analysis) representation of [\(Radon\) measures](Radon%20measure.md).<sup>[\[63\]](#^ref-63)</sup> If $\mu$ is the [probability distribution](probability%20distribution.md) of a [random variable](random%20variable.md) $X$ then its Fourier–Stieltjes transform is, by definition, a [characteristic function](characteristic%20function%20(probability%20theory).md).<sup>[\[64\]](#^ref-64)</sup> If, in addition, the probability distribution has a [probability density function](probability%20density%20function.md), this definition is subject to the usual Fourier transform.<sup>[\[65\]](#^ref-65)</sup> Stated more generally, when $\mu$ is [absolutely continuous](absolute%20continuity.md#absolute%20continuity%20of%20measures) with respect to the Lebesgue measure, i.e., $$d\mu =f(x)\,dx,$$then $${\widehat {\mu } }(\xi )={\widehat {f} }(\xi ),$$and the Fourier-Stieltjes transform reduces to the usual definition of the Fourier transform. That is, the notable difference with the Fourier transform of integrable functions is that the Fourier-Stieltjes transform need not vanish at infinity, i.e., the [Riemann–Lebesgue lemma](Riemann–Lebesgue%20lemma.md) fails for measures.<sup>[\[66\]](#^ref-66)</sup>
 
 [Bochner's theorem](Bochner's%20theorem.md) characterizes which functions may arise as the Fourier–Stieltjes transform of a positive measure on the circle.
 
@@ -698,9 +452,7 @@ One example of a finite Borel measure that is not a function is the [Dirac measu
 
 - Main article: [Pontryagin duality](Pontryagin%20duality.md)
 
-The Fourier transform may be generalized to any [locally compact abelian group](locally%20compact%20abelian%20group.md), i.e., an [abelian group](abelian%20group.md) that is also a [locally compact Hausdorff space](locally%20compact%20Hausdorff%20space.md) such that the group operation is continuous. If _G_ is a locally compact abelian group, it has a translation invariant measure _μ_, called [Haar measure](Haar%20measure.md). For a locally compact abelian group _G_, the set of irreducible, i.e. one-dimensional, unitary representations are called its [characters](character%20group.md). With its natural group structure and the topology of uniform convergence on compact sets \(that is, the topology induced by the [compact-open topology](compact-open%20topology.md) on the space of all continuous functions from $G$ to the [circle group](circle%20group.md)\), the set of characters _Ĝ_ is itself a locally compact abelian group, called the _Pontryagin dual_ of _G_. For a function _f_ in _L_<sup>1</sup>\(_G_\), its Fourier transform is defined by<sup>[\[57\]](#^ref-57)</sup>
-
-$${\widehat {f} }(\xi )=\int _{G}{\overline {\xi (x)} }f(x)\,d\mu \quad {\text{for any } }\xi \in {\widehat {G} }.$$
+The Fourier transform may be generalized to any [locally compact abelian group](locally%20compact%20abelian%20group.md), i.e., an [abelian group](abelian%20group.md) that is also a [locally compact Hausdorff space](locally%20compact%20Hausdorff%20space.md) such that the group operation is continuous. If _G_ is a locally compact abelian group, it has a translation invariant measure _μ_, called [Haar measure](Haar%20measure.md). For a locally compact abelian group _G_, the set of irreducible, i.e. one-dimensional, unitary representations are called its [characters](character%20group.md). With its natural group structure and the topology of uniform convergence on compact sets \(that is, the topology induced by the [compact-open topology](compact-open%20topology.md) on the space of all continuous functions from $G$ to the [circle group](circle%20group.md)\), the set of characters _Ĝ_ is itself a locally compact abelian group, called the _Pontryagin dual_ of _G_. For a function _f_ in _L_<sup>1</sup>\(_G_\), its Fourier transform is defined by<sup>[\[57\]](#^ref-57)</sup> $${\widehat {f} }(\xi )=\int _{G}{\overline {\xi (x)} }f(x)\,d\mu \quad {\text{for any } }\xi \in {\widehat {G} }.$$
 
 The Riemann–Lebesgue lemma holds in this case; _f̂_\(_ξ_\) is a function vanishing at infinity on _Ĝ_.
 
@@ -716,17 +468,11 @@ For any representation _V_ of a finite group _G_, $\chi _{v}$ can be expressed a
 
 The Fourier transform is also a special case of the [Gelfand transform](Gelfand%20transform.md). In this particular context, it is closely related to the Pontryagin duality map defined above.
 
-Given an abelian [locally compact](locally%20compact%20space.md) [Hausdorff](Hausdorff%20space.md) [topological group](topological%20group.md) _G_, as before we consider the space _L_<sup>1</sup>\(_G_\), defined using a Haar measure. With convolution as multiplication, _L_<sup>1</sup>\(_G_\) is an abelian [Banach algebra](Banach%20algebra.md). It also has an [involution](involution%20(mathematics).md) \* given by
-
-$$f^{*}(g)={\overline {f\left(g^{-1}\right)} }.$$
+Given an abelian [locally compact](locally%20compact%20space.md) [Hausdorff](Hausdorff%20space.md) [topological group](topological%20group.md) _G_, as before we consider the space _L_<sup>1</sup>\(_G_\), defined using a Haar measure. With convolution as multiplication, _L_<sup>1</sup>\(_G_\) is an abelian [Banach algebra](Banach%20algebra.md). It also has an [involution](involution%20(mathematics).md) \* given by $$f^{*}(g)={\overline {f\left(g^{-1}\right)} }.$$
 
 Taking the completion with respect to the largest possible _C_\*-norm gives its enveloping _C_\*-algebra, called the group _C_\*-algebra _C_\*\(_G_\) of _G_. \(Any _C_\*-norm on _L_<sup>1</sup>\(_G_\) is bounded by the _L_<sup>1</sup> norm, therefore their supremum exists.\)
 
-Given any abelian _C_\*-algebra _A_, the Gelfand transform gives an isomorphism between _A_ and _C_<sub>0</sub>\(_A_^\), where _A_^ is the multiplicative linear functionals, i.e. one-dimensional representations, on _A_ with the weak-\* topology. The map is simply given by
-
-$$a\mapsto {\bigl (}\varphi \mapsto \varphi (a){\bigr )}.$$
-
-It turns out that the multiplicative linear functionals of _C_\*\(_G_\), after suitable identification, are exactly the characters of _G_, and the Gelfand transform, when restricted to the dense subset _L_<sup>1</sup>\(_G_\), is the Fourier–Pontryagin transform.
+Given any abelian _C_\*-algebra _A_, the Gelfand transform gives an isomorphism between _A_ and _C_<sub>0</sub>\(_A_^\), where _A_^ is the multiplicative linear functionals, i.e. one-dimensional representations, on _A_ with the weak-\* topology. The map is simply given by $$a\mapsto {\bigl (}\varphi \mapsto \varphi (a){\bigr )}.$$It turns out that the multiplicative linear functionals of _C_\*\(_G_\), after suitable identification, are exactly the characters of _G_, and the Gelfand transform, when restricted to the dense subset _L_<sup>1</sup>\(_G_\), is the Fourier–Pontryagin transform.
 
 ### compact non-abelian groups
 
@@ -734,57 +480,13 @@ The Fourier transform can also be defined for functions on a non-abelian group, 
 
 Let _G_ be a compact [Hausdorff](Hausdorff%20space.md) [topological group](topological%20group.md), and let _λ_ be its normalized [Haar measure](Haar%20measure.md). Let Σ denote the collection of all isomorphism classes of finite-dimensional irreducible [unitary representations](unitary%20representation.md), along with a definite choice of representation _U_<sup>\(_σ_\)</sup> on the [Hilbert space](Hilbert%20space.md) _H<sub>σ</sub>_ of finite dimension _d<sub>σ</sub>_ for each _σ_ ∈ Σ.
 
-For _f_ ∈ _L_<sup>1</sup>\(_G_\), the Fourier transform of _f_ at σ is the operator on _H<sub>σ</sub>_ defined by
+For _f_ ∈ _L_<sup>1</sup>\(_G_\), the Fourier transform of _f_ at σ is the operator on _H<sub>σ</sub>_ defined by $${\widehat {f} }(\sigma )=\int _{G}f(g)U_{g^{-1} }^{(\sigma )}\,d\lambda (g).$$Equivalently, $$\left\langle {\widehat {f} }(\sigma )\xi ,\eta \right\rangle _{H_{\sigma } }=\int _{G}f(g)\left\langle U_{g^{-1} }^{(\sigma )}\xi ,\eta \right\rangle \,d\lambda (g).$$Since _U_<sup>\(_σ_\)</sup> is unitary, this may also be written using the adjoint ${U^{(\sigma )} }_{g}^{*}$.
 
-$${\widehat {f} }(\sigma )=\int _{G}f(g)U_{g^{-1} }^{(\sigma )}\,d\lambda (g).$$
+If _μ_ is a finite complex [Borel measure](Borel%20measure.md) on _G_, then the Fourier–Stieltjes transform of _μ_ is the operator on _H<sub>σ</sub>_ defined by $${\widehat {\mu } }(\sigma )=\int _{G}U_{g^{-1} }^{(\sigma )}\,d\mu (g),$$or, weakly, $$\left\langle {\widehat {\mu } }(\sigma )\xi ,\eta \right\rangle _{H_{\sigma } }=\int _{G}\left\langle U_{g^{-1} }^{(\sigma )}\xi ,\eta \right\rangle \,d\mu (g).$$If _μ_ is [absolutely continuous](absolutely%20continuous.md) with respect to _λ_, [represented](Radon–Nikodym%20theorem.md) as $$d\mu =f\,d\lambda$$for some _f_ ∈ [_L_<sup>1</sup>\(_G_\)](Lp%20space.md), one identifies the Fourier transform of _f_ with the Fourier–Stieltjes transform of _μ_.
 
-Equivalently,
+The mapping $$\mu \mapsto {\widehat {\mu } }$$is injective and sends finite measures to bounded fields of operators \(\\widehat\\mu\(\\sigma\)\)<sub>σ∈Σ</sub>, with $$\sup _{\sigma \in \Sigma }\|{\widehat {\mu } }(\sigma )\|\leq \|\mu \|.$$Thus it may be viewed as a representation of the [Banach algebra](Banach%20algebra.md) _M_\(_G_\) of finite Borel measures, with multiplication given by [convolution](convolution.md) of measures. With the convention above, convolution corresponds to operator multiplication with the order reversed: $${\widehat {\mu *\nu } }(\sigma )={\widehat {\nu } }(\sigma ){\widehat {\mu } }(\sigma ).$$Using the alternative convention \\widehat f\(\\sigma\)=\\int\_G f\(g\)U^{\(\\sigma\)}\_g\\,d\\lambda\(g\) reverses this order. The involution on _M_\(_G_\) is given, for absolutely continuous measures, by $$f^{*}(g)={\overline {f(g^{-1})} },$$since compact groups are unimodular.
 
-$$\left\langle {\widehat {f} }(\sigma )\xi ,\eta \right\rangle _{H_{\sigma } }=\int _{G}f(g)\left\langle U_{g^{-1} }^{(\sigma )}\xi ,\eta \right\rangle \,d\lambda (g).$$
-
-Since _U_<sup>\(_σ_\)</sup> is unitary, this may also be written using the adjoint ${U^{(\sigma )} }_{g}^{*}$.
-
-If _μ_ is a finite complex [Borel measure](Borel%20measure.md) on _G_, then the Fourier–Stieltjes transform of _μ_ is the operator on _H<sub>σ</sub>_ defined by
-
-$${\widehat {\mu } }(\sigma )=\int _{G}U_{g^{-1} }^{(\sigma )}\,d\mu (g),$$
-
-or, weakly,
-
-$$\left\langle {\widehat {\mu } }(\sigma )\xi ,\eta \right\rangle _{H_{\sigma } }=\int _{G}\left\langle U_{g^{-1} }^{(\sigma )}\xi ,\eta \right\rangle \,d\mu (g).$$
-
-If _μ_ is [absolutely continuous](absolutely%20continuous.md) with respect to _λ_, [represented](Radon–Nikodym%20theorem.md) as
-
-$$d\mu =f\,d\lambda$$
-
-for some _f_ ∈ [_L_<sup>1</sup>\(_G_\)](Lp%20space.md), one identifies the Fourier transform of _f_ with the Fourier–Stieltjes transform of _μ_.
-
-The mapping
-
-$$\mu \mapsto {\widehat {\mu } }$$
-
-is injective and sends finite measures to bounded fields of operators \(\\widehat\\mu\(\\sigma\)\)<sub>σ∈Σ</sub>, with
-
-$$\sup _{\sigma \in \Sigma }\|{\widehat {\mu } }(\sigma )\|\leq \|\mu \|.$$
-
-Thus it may be viewed as a representation of the [Banach algebra](Banach%20algebra.md) _M_\(_G_\) of finite Borel measures, with multiplication given by [convolution](convolution.md) of measures. With the convention above, convolution corresponds to operator multiplication with the order reversed:
-
-$${\widehat {\mu *\nu } }(\sigma )={\widehat {\nu } }(\sigma ){\widehat {\mu } }(\sigma ).$$
-
-Using the alternative convention \\widehat f\(\\sigma\)=\\int\_G f\(g\)U^{\(\\sigma\)}\_g\\,d\\lambda\(g\) reverses this order. The involution on _M_\(_G_\) is given, for absolutely continuous measures, by
-
-$$f^{*}(g)={\overline {f(g^{-1})} },$$
-
-since compact groups are unimodular.
-
-The [Peter–Weyl theorem](Peter–Weyl%20theorem.md) holds, and a version of the Fourier inversion formula follows: if _f_ ∈ _L_<sup>2</sup>\(_G_\), then
-
-$$f(g)=\sum _{\sigma \in \Sigma }d_{\sigma }\operatorname {tr} \left({\widehat {f} }(\sigma )U_{g}^{(\sigma )}\right),$$
-
-where the summation is understood as convergent in the _L_<sup>2</sup> sense. The corresponding Plancherel formula is
-
-$$\|f\|_{2}^{2}=\sum _{\sigma \in \Sigma }d_{\sigma }\|{\widehat {f} }(\sigma )\|_{\mathrm {HS} }^{2},$$
-
-where \|\|·\|\|<sub>HS</sub> denotes the [Hilbert–Schmidt norm](Hilbert–Schmidt%20operator.md).
+The [Peter–Weyl theorem](Peter–Weyl%20theorem.md) holds, and a version of the Fourier inversion formula follows: if _f_ ∈ _L_<sup>2</sup>\(_G_\), then $$f(g)=\sum _{\sigma \in \Sigma }d_{\sigma }\operatorname {tr} \left({\widehat {f} }(\sigma )U_{g}^{(\sigma )}\right),$$where the summation is understood as convergent in the _L_<sup>2</sup> sense. The corresponding Plancherel formula is $$\|f\|_{2}^{2}=\sum _{\sigma \in \Sigma }d_{\sigma }\|{\widehat {f} }(\sigma )\|_{\mathrm {HS} }^{2},$$where \|\|·\|\|<sub>HS</sub> denotes the [Hilbert–Schmidt norm](Hilbert–Schmidt%20operator.md).
 
 The generalization of the Fourier transform to the noncommutative situation has also in part contributed to the development of [noncommutative geometry](noncommutative%20geometry.md).<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> In this context, a categorical generalization of the Fourier transform to noncommutative groups is [Tannaka–Krein duality](Tannaka–Krein%20duality.md), which replaces the group of characters with the category of representations. However, this is no longer simply a transform of scalar-valued functions into scalar-valued functions.
 
@@ -826,75 +528,33 @@ Linear operations performed in one domain \(time or frequency\) have correspondi
 
 ### analysis of differential equations
 
-Perhaps the most important use of the Fourier transformation is to solve [partial differential equations](partial%20differential%20equation.md). Many of the equations of the mathematical physics of the nineteenth century can be treated this way. Fourier studied the heat equation, which in one dimension and in dimensionless units is
+Perhaps the most important use of the Fourier transformation is to solve [partial differential equations](partial%20differential%20equation.md). Many of the equations of the mathematical physics of the nineteenth century can be treated this way. Fourier studied the heat equation, which in one dimension and in dimensionless units is $${\frac {\partial ^{2}y(x,t)}{\partial ^{2}x} }={\frac {\partial y(x,t)}{\partial t} }.$$The example we will give, a slightly more difficult one, is the wave equation in one dimension, $${\frac {\partial ^{2}y(x,t)}{\partial ^{2}x} }={\frac {\partial ^{2}y(x,t)}{\partial ^{2}t} }.$$
 
-$${\frac {\partial ^{2}y(x,t)}{\partial ^{2}x} }={\frac {\partial y(x,t)}{\partial t} }.$$
-
-The example we will give, a slightly more difficult one, is the wave equation in one dimension,
-
-$${\frac {\partial ^{2}y(x,t)}{\partial ^{2}x} }={\frac {\partial ^{2}y(x,t)}{\partial ^{2}t} }.$$
-
-As usual, the problem is not to find a solution: there are infinitely many. The problem is that of the so-called "boundary problem": find a solution that satisfies the 'boundary conditions'
-
-$$y(x,0)=f(x),\qquad {\frac {\partial y(x,0)}{\partial t} }=g(x).$$
+As usual, the problem is not to find a solution: there are infinitely many. The problem is that of the so-called "boundary problem": find a solution that satisfies the 'boundary conditions' $$y(x,0)=f(x),\qquad {\frac {\partial y(x,0)}{\partial t} }=g(x).$$
 
 Here, _f_ and _g_ are given functions. For the heat equation, only one boundary condition can be required \(usually the first one\). But for the wave equation, there are still infinitely many solutions _y_ that satisfy the first boundary condition. But when one imposes both conditions, there is only one possible solution.
 
 It is easier to find the Fourier transform _ŷ_ of the solution than to find the solution directly. This is because the Fourier transformation takes differentiation into multiplication by the Fourier-dual variable, and so a partial differential equation applied to the original function is transformed into multiplication by polynomial functions of the dual variables applied to the transformed function. After _ŷ_ is determined, we can apply the inverse Fourier transformation to find _y_.
 
-Fourier's method is as follows. First, note that any function of the forms
+Fourier's method is as follows. First, note that any function of the forms $$\cos {\bigl (}2\pi \xi (x\pm t){\bigr )}{\text{ or } }\sin {\bigl (}2\pi \xi (x\pm t){\bigr )}$$satisfies the wave equation. These are called the elementary solutions.
 
-$$\cos {\bigl (}2\pi \xi (x\pm t){\bigr )}{\text{ or } }\sin {\bigl (}2\pi \xi (x\pm t){\bigr )}$$
-
-satisfies the wave equation. These are called the elementary solutions.
-
-Second, note that therefore any integral
-
-$${\begin{aligned}y(x,t)=\int _{0}^{\infty }d\xi {\Bigl [}&a_{+}(\xi )\cos {\bigl (}2\pi \xi (x+t){\bigr )}+a_{-}(\xi )\cos {\bigl (}2\pi \xi (x-t){\bigr )}+{}\\&b_{+}(\xi )\sin {\bigl (}2\pi \xi (x+t){\bigr )}+b_{-}(\xi )\sin \left(2\pi \xi (x-t)\right){\Bigr ]}\end{aligned} }$$
-
-satisfies the wave equation for arbitrary _a_<sub>+</sub>, _a_<sub>−</sub>, _b_<sub>+</sub>, _b_<sub>−</sub>. This integral may be interpreted as a continuous linear combination of solutions for the linear equation.
+Second, note that therefore any integral $${\begin{aligned}y(x,t)=\int _{0}^{\infty }d\xi {\Bigl [}&a_{+}(\xi )\cos {\bigl (}2\pi \xi (x+t){\bigr )}+a_{-}(\xi )\cos {\bigl (}2\pi \xi (x-t){\bigr )}+{}\\&b_{+}(\xi )\sin {\bigl (}2\pi \xi (x+t){\bigr )}+b_{-}(\xi )\sin \left(2\pi \xi (x-t)\right){\Bigr ]}\end{aligned} }$$satisfies the wave equation for arbitrary _a_<sub>+</sub>, _a_<sub>−</sub>, _b_<sub>+</sub>, _b_<sub>−</sub>. This integral may be interpreted as a continuous linear combination of solutions for the linear equation.
 
 Now this resembles the formula for the Fourier synthesis of a function. In fact, this is the real inverse Fourier transform of _a_<sub>±</sub> and _b_<sub>±</sub> in the variable _x_.
 
-The third step is to examine how to find the specific unknown coefficient functions _a_<sub>±</sub> and _b_<sub>±</sub> that will lead to _y_ satisfying the boundary conditions. We are interested in the values of these solutions at _t_ = 0. So we will set _t_ = 0. Assuming that the conditions needed for Fourier inversion are satisfied, we can then find the Fourier sine and cosine transforms \(in the variable _x_\) of both sides and obtain
+The third step is to examine how to find the specific unknown coefficient functions _a_<sub>±</sub> and _b_<sub>±</sub> that will lead to _y_ satisfying the boundary conditions. We are interested in the values of these solutions at _t_ = 0. So we will set _t_ = 0. Assuming that the conditions needed for Fourier inversion are satisfied, we can then find the Fourier sine and cosine transforms \(in the variable _x_\) of both sides and obtain $$2\int _{-\infty }^{\infty }y(x,0)\cos(2\pi \xi x)\,dx=a_{+}+a_{-}$$and $$2\int _{-\infty }^{\infty }y(x,0)\sin(2\pi \xi x)\,dx=b_{+}+b_{-}.$$
 
-$$2\int _{-\infty }^{\infty }y(x,0)\cos(2\pi \xi x)\,dx=a_{+}+a_{-}$$
-
-and
-
-$$2\int _{-\infty }^{\infty }y(x,0)\sin(2\pi \xi x)\,dx=b_{+}+b_{-}.$$
-
-Similarly, taking the derivative of _y_ with respect to _t_ and then applying the Fourier sine and cosine transformations yields
-
-$$2\int _{-\infty }^{\infty }{\frac {\partial y(u,0)}{\partial t} }\sin(2\pi \xi x)\,dx=(2\pi \xi )\left(-a_{+}+a_{-}\right)$$
-
-and
-
-$$2\int _{-\infty }^{\infty }{\frac {\partial y(u,0)}{\partial t} }\cos(2\pi \xi x)\,dx=(2\pi \xi )\left(b_{+}-b_{-}\right).$$
+Similarly, taking the derivative of _y_ with respect to _t_ and then applying the Fourier sine and cosine transformations yields $$2\int _{-\infty }^{\infty }{\frac {\partial y(u,0)}{\partial t} }\sin(2\pi \xi x)\,dx=(2\pi \xi )\left(-a_{+}+a_{-}\right)$$and $$2\int _{-\infty }^{\infty }{\frac {\partial y(u,0)}{\partial t} }\cos(2\pi \xi x)\,dx=(2\pi \xi )\left(b_{+}-b_{-}\right).$$
 
 These are four linear equations for the four unknowns _a_<sub>±</sub> and _b_<sub>±</sub>, in terms of the Fourier sine and cosine transforms of the boundary conditions, which are easily solved by elementary algebra, provided that these transforms can be found.
 
 In summary, we chose a set of elementary solutions, parametrized by _ξ_, of which the general solution would be a \(continuous\) linear combination in the form of an integral over the parameter _ξ_. But this integral was in the form of a Fourier integral. The next step was to express the boundary conditions in terms of these integrals, and set them equal to the given functions _f_ and _g_. But these expressions also took the form of a Fourier integral because of the properties of the Fourier transform of a derivative. The last step was to exploit Fourier inversion by applying the Fourier transformation to both sides, thus obtaining expressions for the coefficient functions _a_<sub>±</sub> and _b_<sub>±</sub> in terms of the given boundary conditions _f_ and _g_.
 
-From a higher point of view, Fourier's procedure can be reformulated more conceptually. Since there are two variables, we will use the Fourier transformation in both _x_ and _t_ rather than operate as Fourier did, who only transformed in the spatial variables. Note that _ŷ_ must be considered in the sense of a distribution since _y_\(_x_, _t_\) is not going to be _L_<sup>1</sup>: as a wave, it will persist through time and thus is not a transient phenomenon. But it will be bounded and so its Fourier transform can be defined as a distribution. The operational properties of the Fourier transformation that are relevant to this equation are that it takes differentiation in _x_ to multiplication by _i_<!-- markdown separator -->2π<!-- markdown separator -->_ξ_ and differentiation with respect to _t_ to multiplication by _i_<!-- markdown separator -->2π<!-- markdown separator -->_f_ where _f_ is the frequency. Then the wave equation becomes an algebraic equation in _ŷ_:
+From a higher point of view, Fourier's procedure can be reformulated more conceptually. Since there are two variables, we will use the Fourier transformation in both _x_ and _t_ rather than operate as Fourier did, who only transformed in the spatial variables. Note that _ŷ_ must be considered in the sense of a distribution since _y_\(_x_, _t_\) is not going to be _L_<sup>1</sup>: as a wave, it will persist through time and thus is not a transient phenomenon. But it will be bounded and so its Fourier transform can be defined as a distribution. The operational properties of the Fourier transformation that are relevant to this equation are that it takes differentiation in _x_ to multiplication by _i_<!-- markdown separator -->2π<!-- markdown separator -->_ξ_ and differentiation with respect to _t_ to multiplication by _i_<!-- markdown separator -->2π<!-- markdown separator -->_f_ where _f_ is the frequency. Then the wave equation becomes an algebraic equation in _ŷ_: $$\xi ^{2}{\widehat {y} }(\xi ,f)=f^{2}{\widehat {y} }(\xi ,f).$$This is equivalent to requiring _ŷ_\(_ξ_, _f_\) = 0 unless _ξ_ = ±<!-- markdown separator -->_f_. Right away, this explains why the choice of elementary solutions we made earlier worked so well: obviously _ŷ_ = _δ_\(_ξ_ ± _f_\) will be solutions. Applying Fourier inversion to these delta functions, we obtain the elementary solutions we picked earlier. But from the higher point of view, one does not pick elementary solutions, but rather considers the space of all distributions that are supported on the \(degenerate\) conic _ξ_<sup>2</sup> − _f_<sup>2</sup> = 0.
 
-$$\xi ^{2}{\widehat {y} }(\xi ,f)=f^{2}{\widehat {y} }(\xi ,f).$$
+We may as well consider the distributions supported on the conic that are given by distributions of one variable on the line _ξ_ = _f_ plus distributions on the line _ξ_ = −<!-- markdown separator -->_f_ as follows: if _Φ_ is any test function, $$\iint {\widehat {y} }\varphi (\xi ,f)\,d\xi \,df=\int s_{+}\varphi (\xi ,\xi )\,d\xi +\int s_{-}\varphi (\xi ,-\xi )\,d\xi ,$$where _s_<sub>+</sub>, and _s_<sub>−</sub>, are distributions of one variable.
 
-This is equivalent to requiring _ŷ_\(_ξ_, _f_\) = 0 unless _ξ_ = ±<!-- markdown separator -->_f_. Right away, this explains why the choice of elementary solutions we made earlier worked so well: obviously _ŷ_ = _δ_\(_ξ_ ± _f_\) will be solutions. Applying Fourier inversion to these delta functions, we obtain the elementary solutions we picked earlier. But from the higher point of view, one does not pick elementary solutions, but rather considers the space of all distributions that are supported on the \(degenerate\) conic _ξ_<sup>2</sup> − _f_<sup>2</sup> = 0.
-
-We may as well consider the distributions supported on the conic that are given by distributions of one variable on the line _ξ_ = _f_ plus distributions on the line _ξ_ = −<!-- markdown separator -->_f_ as follows: if _Φ_ is any test function,
-
-$$\iint {\widehat {y} }\varphi (\xi ,f)\,d\xi \,df=\int s_{+}\varphi (\xi ,\xi )\,d\xi +\int s_{-}\varphi (\xi ,-\xi )\,d\xi ,$$
-
-where _s_<sub>+</sub>, and _s_<sub>−</sub>, are distributions of one variable.
-
-Then Fourier inversion gives, for the boundary conditions, something very similar to what we had more concretely above \(put _Φ_\(_ξ_, _f_\) = _e_<sup>_i_<!-- markdown separator -->2π\(_xξ_+_tf_\)</sup>, which is clearly of polynomial growth\):
-
-$$y(x,0)=\int {\bigl \{}s_{+}(\xi )+s_{-}(\xi ){\bigr \} }e^{i2\pi \xi x+0}\,d\xi$$
-
-and
-
-$${\frac {\partial y(x,0)}{\partial t} }=\int {\bigl \{}s_{+}(\xi )-s_{-}(\xi ){\bigr \} }i2\pi \xi e^{i2\pi \xi x+0}\,d\xi .$$
+Then Fourier inversion gives, for the boundary conditions, something very similar to what we had more concretely above \(put _Φ_\(_ξ_, _f_\) = _e_<sup>_i_<!-- markdown separator -->2π\(_xξ_+_tf_\)</sup>, which is clearly of polynomial growth\): $$y(x,0)=\int {\bigl \{}s_{+}(\xi )+s_{-}(\xi ){\bigr \} }e^{i2\pi \xi x+0}\,d\xi$$and $${\frac {\partial y(x,0)}{\partial t} }=\int {\bigl \{}s_{+}(\xi )-s_{-}(\xi ){\bigr \} }i2\pi \xi e^{i2\pi \xi x+0}\,d\xi .$$
 
 Now, as before, applying the one-variable Fourier transformation in the variable _x_ to these functions of _x_ yields two equations in the two unknown distributions _s_<sub>±</sub> \(which can be taken to be ordinary functions if the boundary conditions are _L_<sup>1</sup> or _L_<sup>2</sup>\).
 
@@ -916,33 +576,21 @@ The Fourier transform is also used in [nuclear magnetic resonance](nuclear%20mag
 
 The Fourier transform is useful in [quantum mechanics](quantum%20mechanics.md) in at least two different ways. To begin with, the basic conceptual structure of quantum mechanics postulates the existence of pairs of [complementary variables](complementary%20variables.md), connected by the [Heisenberg uncertainty principle](Heisenberg%20uncertainty%20principle.md). For example, in one dimension, the spatial variable _q_ of, say, a particle, can only be measured by the quantum mechanical "[position operator](position%20operator.md)" at the cost of losing information about the momentum _p_ of the particle. Therefore, the physical state of the particle can either be described by a function, called "the wave function", of _q_ or by a function of _p_ but not by a function of both variables. The variable _p_ is called the conjugate variable to _q_.
 
-In classical mechanics, the physical state of a particle \(existing in one dimension, for simplicity of exposition\) would be given by assigning definite values to both _p_ and _q_ simultaneously. Thus, the set of all possible physical states is the two-dimensional real vector space with a _p_-axis and a _q_-axis called the [phase space](phase%20space.md). In contrast, quantum mechanics chooses a polarisation of this space in the sense that it picks a subspace of one-half the dimension, for example, the _q_-axis alone, but instead of considering only points, takes the set of all complex-valued "wave functions" on this axis. Nevertheless, choosing the _p_-axis is an equally valid polarisation, yielding a different representation of the set of possible physical states of the particle. Both representations of the wavefunction are related by a Fourier transform, such that
-
-$$\varphi (p)=\int dq\,\psi (q)e^{-ipq/h},$$
-
-or, equivalently,
-
-$$\psi (q)=\int dp\,\varphi (p)e^{ipq/h}.$$
+In classical mechanics, the physical state of a particle \(existing in one dimension, for simplicity of exposition\) would be given by assigning definite values to both _p_ and _q_ simultaneously. Thus, the set of all possible physical states is the two-dimensional real vector space with a _p_-axis and a _q_-axis called the [phase space](phase%20space.md). In contrast, quantum mechanics chooses a polarisation of this space in the sense that it picks a subspace of one-half the dimension, for example, the _q_-axis alone, but instead of considering only points, takes the set of all complex-valued "wave functions" on this axis. Nevertheless, choosing the _p_-axis is an equally valid polarisation, yielding a different representation of the set of possible physical states of the particle. Both representations of the wavefunction are related by a Fourier transform, such that $$\varphi (p)=\int dq\,\psi (q)e^{-ipq/h},$$or, equivalently, $$\psi (q)=\int dp\,\varphi (p)e^{ipq/h}.$$
 
 Physically realisable states are _L_<sup>2</sup>, and so by the [Plancherel theorem](Plancherel%20theorem.md), their Fourier transforms are also _L_<sup>2</sup>. \(Note that since _q_ is in units of distance and _p_ is in units of momentum, the presence of the Planck constant in the exponent makes the exponent [dimensionless](nondimensionalization.md), as it should be.\)
 
 Therefore, the Fourier transform can be used to pass from one way of representing the state of the particle, by a wave function of position, to another way of representing the state of the particle: by a wave function of momentum. Infinitely many different polarisations are possible, and all are equally valid. Being able to transform states from one representation to another by the Fourier transform is not only convenient but also the underlying reason of the Heisenberg [uncertainty principle](#uncertainty%20principle).
 
-The other use of the Fourier transform in both quantum mechanics and [quantum field theory](quantum%20field%20theory.md) is to solve the applicable wave equation. In non-relativistic quantum mechanics, the [Schrödinger equation](Schrödinger%20equation.md) for a time-varying wave function in one-dimension, not subject to external forces, is
-
-$$-{\frac {\partial ^{2} }{\partial x^{2} } }\psi (x,t)=i{\frac {h}{2\pi } }{\frac {\partial }{\partial t} }\psi (x,t).$$
+The other use of the Fourier transform in both quantum mechanics and [quantum field theory](quantum%20field%20theory.md) is to solve the applicable wave equation. In non-relativistic quantum mechanics, the [Schrödinger equation](Schrödinger%20equation.md) for a time-varying wave function in one-dimension, not subject to external forces, is $$-{\frac {\partial ^{2} }{\partial x^{2} } }\psi (x,t)=i{\frac {h}{2\pi } }{\frac {\partial }{\partial t} }\psi (x,t).$$
 
 This is the same as the heat equation except for the presence of the imaginary unit _i_. Fourier methods can be used to solve this equation.
 
-In the presence of a potential, given by the potential energy function _V_\(_x_\), the equation becomes
-
-$$-{\frac {\partial ^{2} }{\partial x^{2} } }\psi (x,t)+V(x)\psi (x,t)=i{\frac {h}{2\pi } }{\frac {\partial }{\partial t} }\psi (x,t).$$
+In the presence of a potential, given by the potential energy function _V_\(_x_\), the equation becomes $$-{\frac {\partial ^{2} }{\partial x^{2} } }\psi (x,t)+V(x)\psi (x,t)=i{\frac {h}{2\pi } }{\frac {\partial }{\partial t} }\psi (x,t).$$
 
 The "elementary solutions", as we referred to them above, are the so-called "stationary states" of the particle, and Fourier's algorithm, as described above, can still be used to solve the boundary value problem of the future evolution of _ψ_ given its values for _t_ = 0. Neither of these approaches is of much practical use in quantum mechanics. Boundary value problems and the time-evolution of the wave function is not of much practical interest: it is the stationary states that are most important.
 
-In relativistic quantum mechanics, the Schrödinger equation becomes a wave equation as was usual in classical physics, except that complex-valued waves are considered. A simple example, in the absence of interactions with other particles or fields, is the free one-dimensional Klein–Gordon–Schrödinger–Fock equation, this time in dimensionless units,
-
-$$\left({\frac {\partial ^{2} }{\partial x^{2} } }+1\right)\psi (x,t)={\frac {\partial ^{2} }{\partial t^{2} } }\psi (x,t).$$
+In relativistic quantum mechanics, the Schrödinger equation becomes a wave equation as was usual in classical physics, except that complex-valued waves are considered. A simple example, in the absence of interactions with other particles or fields, is the free one-dimensional Klein–Gordon–Schrödinger–Fock equation, this time in dimensionless units, $$\left({\frac {\partial ^{2} }{\partial x^{2} } }+1\right)\psi (x,t)={\frac {\partial ^{2} }{\partial t^{2} } }\psi (x,t).$$
 
 This is, from the mathematical point of view, the same as the wave equation of classical physics solved above \(but with a complex-valued wave, which makes no difference in the methods\). This is of great use in quantum field theory: each separate Fourier component of a wave can be treated as a separate harmonic oscillator and then quantized, a procedure known as "second quantization". Fourier methods have been adapted to also deal with non-trivial interactions.
 
@@ -952,9 +600,7 @@ Finally, the [number operator](quantum%20harmonic%20oscillator.md#ladder%20opera
 
 The Fourier transform is used for the spectral analysis of time-series. The subject of statistical signal processing does not, however, usually apply the Fourier transformation to the signal itself. Even if a real signal is indeed transient, it has been found in practice advisable to model a signal by a function \(or, alternatively, a stochastic process\) that is stationary in the sense that its characteristic properties are constant over all time. The Fourier transform of such a function does not exist in the usual sense, and it has been found more useful for the analysis of signals to instead take the Fourier transform of its autocorrelation function.
 
-The autocorrelation function _R_ of a function _f_ is defined by
-
-$$R_{f}(\tau )=\lim _{T\rightarrow \infty }{\frac {1}{2T} }\int _{-T}^{T}f(t)f(t+\tau )\,dt.$$
+The autocorrelation function _R_ of a function _f_ is defined by $$R_{f}(\tau )=\lim _{T\rightarrow \infty }{\frac {1}{2T} }\int _{-T}^{T}f(t)f(t+\tau )\,dt.$$
 
 This function is a function of the time-lag _τ_ elapsing between the values of _f_ to be correlated.
 
@@ -962,9 +608,7 @@ For most functions _f_ that occur in practice, _R_ is a bounded even function of
 
 The autocorrelation function, more properly called the autocovariance function unless it is normalized in some appropriate fashion, measures the strength of the correlation between the values of _f_ separated by a time lag. This is a way of searching for the correlation of _f_ with its own past. It is useful even for other statistical tasks besides the analysis of signals. For example, if _f_\(_t_\) represents the temperature at time _t_, one expects a strong correlation with the temperature at a time lag of 24 hours.
 
-It possesses a Fourier transform,
-
-$$P_{f}(\xi )=\int _{-\infty }^{\infty }R_{f}(\tau )e^{-i2\pi \xi \tau }\,d\tau .$$
+It possesses a Fourier transform, $$P_{f}(\xi )=\int _{-\infty }^{\infty }R_{f}(\tau )e^{-i2\pi \xi \tau }\,d\tau .$$
 
 This Fourier transform is called the [power spectral density](spectral%20density.md#power%20spectral%20density) function of _f_. \(Unless all periodic components are first filtered out from _f_, this integral will diverge, but it is easy to filter out such periodicities.\)
 
@@ -978,13 +622,9 @@ Spectral analysis is carried out for visual signals as well. The power spectrum 
 
 ## other notations
 
-Other common notations for ${\widehat {f} }(\xi )$ include:
+Other common notations for ${\widehat {f} }(\xi )$ include: $${\tilde {f} }(\xi ),\ F(\xi ),\ {\mathcal {F} }\left(f\right)(\xi ),\ \left({\mathcal {F} }f\right)(\xi ),\ {\mathcal {F} }(f),\ {\mathcal {F} }\{f\},\ {\mathcal {F} }{\bigl (}f(t){\bigr )},\ {\mathcal {F} }{\bigl \{}f(t){\bigr \} }.$$
 
-$${\tilde {f} }(\xi ),\ F(\xi ),\ {\mathcal {F} }\left(f\right)(\xi ),\ \left({\mathcal {F} }f\right)(\xi ),\ {\mathcal {F} }(f),\ {\mathcal {F} }\{f\},\ {\mathcal {F} }{\bigl (}f(t){\bigr )},\ {\mathcal {F} }{\bigl \{}f(t){\bigr \} }.$$
-
-In the sciences and engineering it is also common to make substitutions like these:
-
-$$\xi \rightarrow f,\quad x\rightarrow t,\quad f\rightarrow x,\quad {\widehat {f} }\rightarrow X.$$
+In the sciences and engineering it is also common to make substitutions like these: $$\xi \rightarrow f,\quad x\rightarrow t,\quad f\rightarrow x,\quad {\widehat {f} }\rightarrow X.$$
 
 So the transform pair $f(x)\ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ {\widehat {f} }(\xi )$ can become $x(t)\ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ X(f)$
 
@@ -992,43 +632,17 @@ A disadvantage of the capital letter notation is when expressing a transform suc
 
 In some contexts such as particle physics, the same symbol $f$ may be used for both for a function as well as it Fourier transform, with the two only distinguished by their [argument](argument%20of%20a%20function.md) I.e. $f(k_{1}+k_{2})$ would refer to the Fourier transform because of the momentum argument, while $f(x_{0}+\pi {\vec {r} })$ would refer to the original function because of the positional argument. Although tildes may be used as in ${\tilde {f} }$ to indicate Fourier transforms, tildes may also be used to indicate a modification of a quantity with a more [Lorentz invariant](Lorentz%20invariant.md) form, such as ⁠${\tilde {dk} }={\frac {dk}{(2\pi )^{3}2\omega } }$⁠, so care must be taken. Similarly, ${\widehat {f} }$ often denotes the [Hilbert transform](Hilbert%20transform.md) of ⁠$f$⁠.
 
-The interpretation of the complex function _f̂_\(_ξ_\) may be aided by expressing it in [polar coordinate](polar%20coordinate.md) form
+The interpretation of the complex function _f̂_\(_ξ_\) may be aided by expressing it in [polar coordinate](polar%20coordinate.md) form $${\widehat {f} }(\xi )=A(\xi )e^{i\varphi (\xi )}$$in terms of the two real functions _A_\(_ξ_\) and _φ_\(_ξ_\) where: $$A(\xi )=\left|{\widehat {f} }(\xi )\right|,$$is the [amplitude](amplitude.md) and $$\varphi (\xi )=\arg \left({\widehat {f} }(\xi )\right),$$is the [phase](phase%20(waves).md) \(see _[Arg](arg%20(mathematics).md)_\).
 
-$${\widehat {f} }(\xi )=A(\xi )e^{i\varphi (\xi )}$$
-
-in terms of the two real functions _A_\(_ξ_\) and _φ_\(_ξ_\) where:
-
-$$A(\xi )=\left|{\widehat {f} }(\xi )\right|,$$
-
-is the [amplitude](amplitude.md) and
-
-$$\varphi (\xi )=\arg \left({\widehat {f} }(\xi )\right),$$
-
-is the [phase](phase%20(waves).md) \(see _[Arg](arg%20(mathematics).md)_\).
-
-Then the inverse transform can be written:
-
-$$f(x)=\int _{-\infty }^{\infty }A(\xi )\ e^{i{\bigl (}2\pi \xi x+\varphi (\xi ){\bigr )} }\,d\xi ,$$
-
-which is a recombination of all the frequency components of _f_\(_x_\). Each component is a complex [sinusoid](sinusoid.md) of the form _e_<sup>2π<!-- markdown separator -->_ixξ_</sup> whose amplitude is _A_\(_ξ_\) and whose initial [phase angle](phase%20(waves).md) \(at _x_ = 0\) is _φ_\(_ξ_\).
+Then the inverse transform can be written: $$f(x)=\int _{-\infty }^{\infty }A(\xi )\ e^{i{\bigl (}2\pi \xi x+\varphi (\xi ){\bigr )} }\,d\xi ,$$which is a recombination of all the frequency components of _f_\(_x_\). Each component is a complex [sinusoid](sinusoid.md) of the form _e_<sup>2π<!-- markdown separator -->_ixξ_</sup> whose amplitude is _A_\(_ξ_\) and whose initial [phase angle](phase%20(waves).md) \(at _x_ = 0\) is _φ_\(_ξ_\).
 
 The Fourier transform may be thought of as a mapping on function spaces. This mapping is here denoted F and F\(_f_\) is used to denote the Fourier transform of the function _f_. This mapping is linear, which means that F can also be seen as a linear transformation on the function space and implies that the standard notation in linear algebra of applying a linear transformation to a vector \(here the function _f_\) can be used to write F _f_ instead of F\(_f_\). Since the result of applying the Fourier transform is again a function, we can be interested in the value of this function evaluated at the value _ξ_ for its variable, and this is denoted either as F _f_\(_ξ_\) or as \(F _f_\)\(_ξ_\). Notice that in the former case, it is implicitly understood that F is applied first to _f_ and then the resulting function is evaluated at _ξ_, not the other way around.
 
-In mathematics and various applied sciences, it is often necessary to distinguish between a function _f_ and the value of _f_ when its variable equals _x_, denoted _f_\(_x_\). This means that a notation like F\(_f_\(_x_\)\) formally can be interpreted as the Fourier transform of the values of _f_ at _x_. Despite this flaw, the previous notation appears frequently, often when a particular function or a function of a particular variable is to be transformed. For example,
-
-$${\mathcal {F} }{\bigl (}\operatorname {rect} (x){\bigr )}=\operatorname {sinc} (\xi )$$
-
-is sometimes used to express that the Fourier transform of a [rectangular function](rectangular%20function.md) is a [sinc function](sinc%20function.md), or
-
-$${\mathcal {F} }{\bigl (}f(x+x_{0}){\bigr )}={\mathcal {F} }{\bigl (}f(x){\bigr )}\,e^{i2\pi x_{0}\xi }$$
-
-is used to express the shift property of the Fourier transform.
+In mathematics and various applied sciences, it is often necessary to distinguish between a function _f_ and the value of _f_ when its variable equals _x_, denoted _f_\(_x_\). This means that a notation like F\(_f_\(_x_\)\) formally can be interpreted as the Fourier transform of the values of _f_ at _x_. Despite this flaw, the previous notation appears frequently, often when a particular function or a function of a particular variable is to be transformed. For example, $${\mathcal {F} }{\bigl (}\operatorname {rect} (x){\bigr )}=\operatorname {sinc} (\xi )$$is sometimes used to express that the Fourier transform of a [rectangular function](rectangular%20function.md) is a [sinc function](sinc%20function.md), or $${\mathcal {F} }{\bigl (}f(x+x_{0}){\bigr )}={\mathcal {F} }{\bigl (}f(x){\bigr )}\,e^{i2\pi x_{0}\xi }$$is used to express the shift property of the Fourier transform.
 
 Notice, that the last example is only correct under the assumption that the transformed function is a function of _x_, not of _x_<sub>0</sub>.
 
-As discussed above, the [characteristic function](characteristic%20function%20(probability%20theory).md) of a random variable is the same as the [Fourier–Stieltjes transform](#Fourier%E2%80%93Stieltjes%20transform) of its distribution measure, but in this context it is typical to take a different convention for the constants. Typically characteristic function is defined
-
-$$E\left(e^{it\cdot X}\right)=\int e^{it\cdot x}\,d\mu _{X}(x).$$
+As discussed above, the [characteristic function](characteristic%20function%20(probability%20theory).md) of a random variable is the same as the [Fourier–Stieltjes transform](#Fourier%E2%80%93Stieltjes%20transform) of its distribution measure, but in this context it is typical to take a different convention for the constants. Typically characteristic function is defined $$E\left(e^{it\cdot X}\right)=\int e^{it\cdot x}\,d\mu _{X}(x).$$
 
 As in the case of the "non-unitary angular frequency" convention above, the factor of 2<!-- markdown separator -->_π_ appears in neither the normalizing constant nor the exponent. Unlike any of the conventions appearing above, this convention takes the opposite sign in the exponent.
 

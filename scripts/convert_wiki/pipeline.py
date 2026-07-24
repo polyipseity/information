@@ -98,86 +98,6 @@ async def _create_session_and_run(
         )
 
 
-def _separate_block_math(text: str) -> str:
-    """Separate ``$$...$$`` block math onto its own lines using mistune AST.
-
-    For each ``block_math`` node in the mistune AST that is NOT inside a
-    table cell, ensure there is a blank line (``\n\n``) before and after
-    the ``$$...$$`` delimiter area. Skips nodes already separated, nodes
-    inside table cells, and math expressions that are already on their
-    own line.
-
-    Uses sequential ``str.find`` (not regex) to locate each span in the
-    source text, avoiding LaTeX regex escaping issues. Processes spans
-    right-to-left so earlier insertions don't shift pending positions.
-    """
-    ast = _MISTUNE_PARSER(text)
-
-    # Collect block_math raw content in traversal order, tracking ancestor
-    # types so we skip block_math inside table cells.
-    blocks: list[str] = []
-
-    def _walk(nodes: list[dict], ancestors: list[str]) -> None:
-        for node in nodes:
-            ntype = node.get("type", "")
-            new_ancestors = ancestors + [ntype]
-            if ntype == "block_math" and "table_cell" not in new_ancestors:
-                blocks.append(node.get("raw", ""))
-            children = node.get("children")
-            if children:
-                _walk(children, new_ancestors)
-
-    _walk(ast, [])
-
-    # Find each span in text via sequential str.find. The AST traversal
-    # order matches text order (depth-first left-to-right), so advancing
-    # search_pos past each match gives unique positions even for duplicate
-    # raw content.
-    positions: list[tuple[int, str]] = []  # (pos, search_for)
-    search_pos = 0
-    for raw in blocks:
-        search_for = f"$${raw}$$"
-        pos = text.find(search_for, search_pos)
-        if pos == -1:
-            continue
-        positions.append((pos, search_for))
-        search_pos = pos + len(search_for)
-
-    # Process right-to-left so insertions at higher positions never shift
-    # lower positions that haven't been processed yet.
-    for pos, search_for in sorted(positions, key=lambda x: -x[0]):
-        end = pos + len(search_for)
-
-        # Check for non-whitespace text before $$ on the same line.
-        line_start = text.rfind("\n", 0, pos)
-        if line_start == -1:
-            line_start = 0
-        before_text = text[line_start:pos]
-        needs_before = bool(before_text.strip())
-
-        # Check for non-whitespace text after $$ on the same line.
-        line_end = text.find("\n", end)
-        if line_end == -1:
-            line_end = len(text)
-        after_text = text[end:line_end]
-        needs_after = bool(after_text.strip())
-
-        # Apply insertions right-to-left (do AFTER before BEFORE since
-        # after insertion is at a higher position). Strip any trailing
-        # whitespace before ``$$`` and leading whitespace after ``$$`` to
-        # keep lines clean.
-        if needs_after:
-            after_non_ws = after_text.lstrip()
-            after_strip = len(after_text) - len(after_non_ws)
-            text = text[:end] + "\n\n" + text[end + after_strip :]
-        if needs_before:
-            before_non_ws = before_text.rstrip()
-            before_strip = len(before_text) - len(before_non_ws)
-            text = text[: pos - before_strip] + "\n\n" + text[pos:]
-
-    return text
-
-
 async def wiki_html_to_plaintext(
     ele: PageElement,
     *,
@@ -228,8 +148,6 @@ async def wiki_html_to_plaintext(
     result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", result)
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
-    # Separate $$...$$ block math onto its own lines.
-    result = _separate_block_math(result)
     result = result.strip()
     return result + "\n" if result else result
 

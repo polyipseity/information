@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup, Tag
 from scripts.convert_wiki import config
 from scripts.convert_wiki.api import _collect_image_filenames
 from scripts.convert_wiki.converter import WikiHtmlConverter
-from scripts.convert_wiki.pipeline import _separate_block_math, run_pipeline
+from scripts.convert_wiki.pipeline import run_pipeline
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import _get_image_filename
 
@@ -968,10 +968,10 @@ class TestBlockMathCategoryBreakdown:
         counts = await self._run_and_categorize(tmp_path)
         self._assert_counts(
             counts,
-            both=0,
-            before_only=2,
-            after_only=2,
-            neither=124,
+            both=72,
+            before_only=50,
+            after_only=3,
+            neither=3,
         )
 
 
@@ -1081,71 +1081,3 @@ class TestInlineMathIndependence:
         )
         count = self._count_inline_math_blocks(output)
         assert count == 0, f"Expected 0 inline math blocks, got {count}"
-
-
-class TestSeparateBlockMath:
-    """Tests for ``_separate_block_math`` — separating ``$$...$$`` onto own lines.
-
-    The function uses mistune AST parsing to identify ``block_math`` nodes
-    and inserts blank lines around them as needed, skipping nodes already
-    separated. Processing is right-to-left to preserve position integrity.
-    """
-
-    @pytest.mark.parametrize(
-        ("input_text", "expected"),
-        [
-            pytest.param(
-                "before $$f(x)$$ after",
-                "before\n\n$$f(x)$$\n\nafter",
-                id="both-sides-inline",
-            ),
-            pytest.param(
-                "before $$g(y)$$",
-                "before\n\n$$g(y)$$",
-                id="before-only",
-            ),
-            pytest.param(
-                "$$h(z)$$ after",
-                "$$h(z)$$\n\nafter",
-                id="after-only",
-            ),
-            pytest.param(
-                "$$k(w)$$",
-                "$$k(w)$$",
-                id="neither",
-            ),
-            pytest.param(
-                "before\n\n$$f(x)$$\n\nafter",
-                "before\n\n$$f(x)$$\n\nafter",
-                id="already-separated",
-            ),
-            pytest.param(
-                "start $$a(b)$$ middle $$c(d)$$ end",
-                "start\n\n$$a(b)$$\n\nmiddle\n\n$$c(d)$$\n\nend",
-                id="multiple-in-one-paragraph",
-            ),
-            pytest.param(
-                "before   $$f(x)$$   after",
-                "before\n\n$$f(x)$$\n\nafter",
-                id="extra-spaces-around-dollars",
-            ),
-            pytest.param(
-                "before $$\\int_{a}^{b} f(x) \\, dx$$ after",
-                "before\n\n$$\\int_{a}^{b} f(x) \\, dx$$\n\nafter",
-                id="special-latex-characters",
-            ),
-            pytest.param(
-                "no math here at all",
-                "no math here at all",
-                id="no-math",
-            ),
-            pytest.param(
-                "text with $inline$ math",
-                "text with $inline$ math",
-                id="inline-math-unaffected",
-            ),
-        ],
-    )
-    def test_separate_block_math(self, input_text: str, expected: str) -> None:
-        """_separate_block_math should produce the expected output."""
-        assert _separate_block_math(input_text) == expected
