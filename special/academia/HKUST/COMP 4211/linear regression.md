@@ -186,7 +186,7 @@ Flashcards for this section are as follows:
 
 - normal equation as orthogonality condition $X^\top(y-Xw)=0$ ::@:: The normal equation is equivalent to $X^\top(y-Xw)=0$, meaning the residual is orthogonal to every column of the design matrix. <!--SR:!2026-08-11,86,353!fsrs,2027-05-27T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 - ordinary vector projection onto a nonunit vector ::@:: The projection of $y$ onto the line spanned by a nonzero vector $a$ is $\operatorname{proj}_{a}(y)=\frac{a^\top y}{a^\top a}a$. <!--SR:!2026-08-05,85,353!2026-07-30,75,324-->
-- why ordinary vector projection divides by $a^\top a$ ::@:: The denominator $a^\top a=\|a\|_2^2$ corrects for the length of $a$, so the projection coefficient measures direction alignment rather than raw scale. <!--SR:!2026-08-11,86,353!2026-07-29,74,324-->
+- why ordinary vector projection divides by $a^\top a$ ::@:: The denominator $a^\top a=\|a\|_2^2$ corrects for the length of $a$, so the projection coefficient measures direction alignment rather than raw scale. <!--SR:!2026-08-11,86,353!fsrs,2027-08-13T00:00:00.000Z,379,378.55033956,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
 - projection intuition for least squares ::@:: Least squares chooses $Xw$ as the orthogonal projection of $y$ onto the column space $\operatorname{col}(X)$. <!--SR:!2026-08-06,86,353!2026-08-06,81,341-->
 - projection matrix for full-column-rank linear regression ::@:: If the columns of $X$ are linearly independent, the projection of $y$ onto $\operatorname{col}(X)$ is $X(X^\top X)^{-1}X^\top y$. <!--SR:!2026-08-06,86,353!2026-08-02,82,341-->
 - why $(X^\top X)^{-1}$ appears in the projection formula ::@:: The factor $X^\top y$ gives raw inner products with the columns of $X$, and $(X^\top X)^{-1}$ corrects for nonunit lengths and nonorthogonality among those columns. <!--SR:!2026-08-01,81,341!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
@@ -339,7 +339,7 @@ This example is a useful mental check for all later deep-learning lectures. When
 Flashcards for this section are as follows:
 
 - degree 14 versus degree 20 lesson ::@:: The degree-$20$ polynomial has more room to wiggle between training points than the degree-$14$ model, so it can reduce training MSE further by fitting sample-specific noise. <!--SR:!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
-- why the degree 14 model can still win ::@:: A degree-$14$ model can have slightly higher training error yet lower future error if it captures the broad trend while the degree-$20$ model overreacts to noise. <!--SR:!2026-07-29,74,324!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
+- why the degree 14 model can still win ::@:: A degree-$14$ model can have slightly higher training error yet lower future error if it captures the broad trend while the degree-$20$ model overreacts to noise. <!--SR:!fsrs,2027-08-13T00:00:00.000Z,379,378.55033956,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2027-05-22T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
 
 ## validation, cross-validation, and hyperparameter tuning
 
@@ -378,7 +378,7 @@ Cross-validation repairs much of that problem by rotating the validation role ac
 
 Flashcards for this section are as follows:
 
-- two main weaknesses of hold-out validation ::@:: Hold-out validation uses less data for fitting and can produce a high-variance estimate because the answer depends strongly on one split. <!--SR:!2026-08-11,86,353!2026-07-29,78,341-->
+- two main weaknesses of hold-out validation ::@:: Hold-out validation uses less data for fitting and can produce a high-variance estimate because the answer depends strongly on one split. <!--SR:!2026-08-11,86,353!fsrs,2027-09-24T00:00:00.000Z,421,420.5570126,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
 - main computational weakness of cross-validation ::@:: Cross-validation is computationally expensive because the model must be retrained once per fold. <!--SR:!2026-08-04,79,341!2026-08-11,86,353-->
 - why cross-validation still does not replace a final test set ::@:: After using cross-validation to choose hyperparameters, one still wants a final untouched test set because the cross-validation score has already influenced model selection. <!--SR:!2026-08-06,86,353!2026-08-29,91,362-->
 
@@ -438,7 +438,7 @@ Flashcards for this section are as follows:
 
 - what $\lVert w\rVert_2^2$ means ::@:: The squared $L_2$ penalty is $\lVert w\rVert_2^2 = \sum_j w_j^2$, the sum of squared coefficient magnitudes. <!--SR:!fsrs,2027-07-16T00:00:00.000Z,356,356.49943311,1,2,7,0,0,2026-07-25T00:00:00.000Z!2026-08-06,81,341-->
 - why squaring changes the ridge penalty ::@:: Squaring means large coefficients are punished disproportionately, so ridge strongly discourages a few very large weights. <!--SR:!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-05-16T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
-- ridge regularization gradient ::@:: Since $\|w\|_2^2=\sum_j w_j^2$, differentiating gives $\nabla_w\bigl(\lambda\|w\|_2^2\bigr)=2\lambda w$. <!--SR:!fsrs,2027-06-15T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-16T00:00:00.000Z!2026-07-29,78,341-->
+- ridge regularization gradient ::@:: Since $\|w\|_2^2=\sum_j w_j^2$, differentiating gives $\nabla_w\bigl(\lambda\|w\|_2^2\bigr)=2\lambda w$. <!--SR:!fsrs,2027-06-15T00:00:00.000Z,334,334.24369635,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-09-24T00:00:00.000Z,421,420.5570126,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
 - ridge gradient interpretation ::@:: The ridge term adds $2\lambda w$ to the data-fit gradient, so every coefficient feels a smooth pull directly toward zero. <!--SR:!2026-08-05,85,353!2026-08-11,86,353-->
 - why the bias has no regularization gradient ::@:: Because the bias term $w_0$ is excluded from the penalty, the regularizer contributes $0$ to the derivative with respect to $w_0$. <!--SR:!2026-08-06,86,353!fsrs,2027-08-14T00:00:00.000Z,383,382.93736419,1,2,7,0,0,2026-07-27T00:00:00.000Z-->
 - what $\lVert w\rVert_1$ means ::@:: The $L_1$ penalty is $\lVert w\rVert_1 = \sum_j |w_j|$, the sum of absolute coefficient magnitudes. <!--SR:!2026-08-11,86,353!2026-08-11,86,353-->
@@ -500,7 +500,7 @@ For ordinary least squares there is also a useful orthogonality interpretation. 
 Flashcards for this section are as follows:
 
 - mean squared error metric ::@:: The mean squared error is $\mathrm{MSE} = \frac{1}{N}\sum_{i=1}^N (y_i - \hat y_i)^2$, the average squared prediction error over a dataset. <!--SR:!2026-08-06,86,353!2026-08-31,93,363-->
-- why MSE can be used on validation and test sets ::@:: MSE is a dataset-level average error measure, so it can be computed on training, validation, or test data. <!--SR:!2026-08-11,86,353!2026-07-29,74,324-->
+- why MSE can be used on validation and test sets ::@:: MSE is a dataset-level average error measure, so it can be computed on training, validation, or test data. <!--SR:!2026-08-11,86,353!fsrs,2027-08-13T00:00:00.000Z,379,378.55033956,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
 - RMSE ::@:: The root mean squared error is $\mathrm{RMSE} = \sqrt{\mathrm{MSE}}$, which restores the error to the same unit as the target variable. <!--SR:!2026-07-31,80,341!2026-08-03,78,341-->
 - why RMSE is easier to interpret ::@:: RMSE is often easier to interpret than MSE because its unit matches the original response variable instead of squaring it. <!--SR:!2026-08-05,85,353!2026-08-06,86,353-->
 - $R^2$ score formula ::@:: The coefficient of determination is $R^2 = 1 - \frac{\sum_{i=1}^N (y_i - \hat y_i)^2}{\sum_{i=1}^N (y_i - \bar y)^2}$, where $\bar y$ is the sample mean. <!--SR:!2026-08-03,83,341!2026-08-05,80,341-->
@@ -564,7 +564,7 @@ Flashcards for this section are as follows:
 - why add a noise term ::@:: The noise term $\varepsilon$ captures unmodeled effects, measurement error, and other random variation not explained by the chosen features. <!--SR:!2026-07-30,75,324!2026-08-06,86,353-->
 - conditional distribution of $y$ ::@:: Under the Gaussian-noise assumption, the conditional response model is $p(y\mid x,\theta) = \mathrm{N}(y\mid \mu(x),\sigma^2)$ with $\mu(x)=w^\top x$. <!--SR:!fsrs,2027-07-27T00:00:00.000Z,365,365.34342854,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-08-04,79,341-->
 - point prediction from the probabilistic model ::@:: The point estimate in probabilistic linear regression is the Gaussian mean $\hat y = \mu(x)=w^\top x$. <!--SR:!2026-08-11,86,353!2026-08-11,86,353-->
-- how random variables are used in the regression model ::@:: The probabilistic model describes the population-level relation between random input $X$ and random output $Y$ by specifying the conditional distribution of $Y$ given $X=x$. <!--SR:!2026-07-29,74,324!2026-08-30,92,362-->
+- how random variables are used in the regression model ::@:: The probabilistic model describes the population-level relation between random input $X$ and random output $Y$ by specifying the conditional distribution of $Y$ given $X=x$. <!--SR:!fsrs,2027-08-13T00:00:00.000Z,379,378.55033956,1,2,7,0,0,2026-07-30T00:00:00.000Z!2026-08-30,92,362-->
 - probabilistic objective in linear regression ::@:: In probabilistic linear regression, the parameters are chosen to maximize the conditional likelihood of the observed outputs, or equivalently to minimize average negative log-likelihood. <!--SR:!2026-08-05,85,353!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 
 ### likelihood objective and maximum likelihood

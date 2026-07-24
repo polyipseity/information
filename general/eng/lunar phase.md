@@ -105,7 +105,7 @@ return chain.from_iterable([r.value for r in results])
 - afternoon to early night:@:first quarter <!--SR:!2026-09-07,547,290-->
 - late afternoon to most of night:@:waxing gibbous <!--SR:!2027-11-04,825,270-->
 - all night (sunset to sunrise):@:[full moon](full%20moon.md) <!--SR:!2027-03-20,742,330-->
-- most of night to early morning:@:waning gibbous <!--SR:!2026-07-29,522,310-->
+- most of night to early morning:@:waning gibbous <!--SR:!fsrs,2031-12-14T00:00:00.000Z,1963,1963.17125419,1,2,10,0,0,2026-07-30T00:00:00.000Z-->
 - late night to morning:@:last quarter <!--SR:!2027-06-22,824,330-->
 - pre-dawn to early afternoon:@:waning [crescent](cresceent.md) <!--SR:!2026-12-06,623,290-->
 

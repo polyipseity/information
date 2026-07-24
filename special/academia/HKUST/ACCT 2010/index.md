@@ -479,7 +479,7 @@ The content is in teaching order.
     - [ACCT 2010/statement of cash flows](statement%20of%20cash%20flows.md)
     - statement of cash flows / categories ::@:: operating activities, investing activities, financing activities <!--SR:!2026-08-24,504,403!2030-04-20,1560,396-->
     - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations. <!--SR:!2032-01-12,2068,403!2026-09-07,516,403-->
-        - operating activities / inflows ::@:: - customers <br/> - interest received from trade accounts <!--SR:!2026-07-29,483,403!2026-09-18,525,403-->
+        - operating activities / inflows ::@:: - customers <br/> - interest received from trade accounts <!--SR:!fsrs,2032-09-02T00:00:00.000Z,2226,2226.23807926,1,2,10,0,0,2026-07-30T00:00:00.000Z!2026-09-18,525,403-->
         - operating activities / outflows ::@:: - purchase of goods for resale and services (electricity, etc.) <br/> - salaries and wages <br/> - income taxes <br/> - interest on trade liabilities <!--SR:!2027-06-28,715,363!2029-06-12,1241,383-->
     - investing activities ::@:: Cash inflows and outflows related to the acquisition or sale of productive facilities (e.g. fixed assets) and investments in the securities of other companies. <!--SR:!fsrs,2032-08-03T00:00:00.000Z,2202,2202.20400893,1,2,10,0,0,2026-07-24T00:00:00.000Z!2030-08-14,1674,403-->
         - investing activities / inflows ::@:: - sale or disposal of property, plant and equipment <br/> - sale or maturity of investments in securities <br/> - investment related interest income <!--SR:!2031-04-11,1865,403!2027-03-06,622,356-->

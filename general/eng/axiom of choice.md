@@ -228,7 +228,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
 ### results requiring AC \(or weaker forms\) but weaker than it
 
-{@{One of the most interesting aspects}@} of the axiom of choice is {@{the large number of places in mathematics where it shows up}@}. Here are {@{some statements that require the axiom of choice}@} in the sense that they are {@{not provable from ZF but are provable from ZFC \(ZF plus AC\)}@}. Equivalently, these statements are {@{true in all models of ZFC but false in some models of ZF}@}. <!--SR:!2026-09-29,307,347!2026-12-10,366,364!2026-08-31,282,347!2026-12-25,379,364!2026-07-29,255,330-->
+{@{One of the most interesting aspects}@} of the axiom of choice is {@{the large number of places in mathematics where it shows up}@}. Here are {@{some statements that require the axiom of choice}@} in the sense that they are {@{not provable from ZF but are provable from ZFC \(ZF plus AC\)}@}. Equivalently, these statements are {@{true in all models of ZFC but false in some models of ZF}@}. <!--SR:!2026-09-29,307,347!2026-12-10,366,364!2026-08-31,282,347!2026-12-25,379,364!fsrs,2029-08-29T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-07-30T00:00:00.000Z-->
 
 - [Set theory](set%20theory.md)
 

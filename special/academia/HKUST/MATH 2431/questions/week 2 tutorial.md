@@ -19,13 +19,13 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > Find the number of non-negative integer solutions of $x_1+\cdots+x_n=r$.
 >
-> Solution: Use {@{stars-and-bars}@}: model each solution as {@{$r$ stars}@} and {@{$n-1$ separators}@}, note the {@{bijection between arrangements and non-negative integer tuples}@}, then count arrangements by choosing separator (or star) positions among {@{$n+r-1$ slots}@}, giving {@{$\binom{n+r-1}{r}=\binom{n+r-1}{n-1}$}@}. Thus {@{counting solutions is equivalent to counting slot arrangements of stars and bars}@}. <!--SR:!2026-08-03,62,310!2026-08-03,62,310!2026-08-08,67,310!2026-08-02,61,310!2026-08-02,61,310!2026-08-06,65,310!2026-07-29,57,310-->
+> Solution: Use {@{stars-and-bars}@}: model each solution as {@{$r$ stars}@} and {@{$n-1$ separators}@}, note the {@{bijection between arrangements and non-negative integer tuples}@}, then count arrangements by choosing separator (or star) positions among {@{$n+r-1$ slots}@}, giving {@{$\binom{n+r-1}{r}=\binom{n+r-1}{n-1}$}@}. Thus {@{counting solutions is equivalent to counting slot arrangements of stars and bars}@}. <!--SR:!2026-08-03,62,310!2026-08-03,62,310!2026-08-08,67,310!2026-08-02,61,310!2026-08-02,61,310!2026-08-06,65,310!fsrs,2027-05-13T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
 > Expand $(x_1+x_2+x_3)^5$.
 >
-> Solution: Apply the {@{multinomial theorem}@}: collect terms by exponent triple {@{$(i,j,k)$}@} with {@{$i,j,k\ge 0$ and $i+j+k=5$}@}, use coefficient {@{$\binom{5}{i,j,k}=\frac{5!}{i!j!k!}$}@} from {@{counting permutations of repeated factors}@}, and obtain {@{$(x_1+x_2+x_3)^5=\sum_{i+j+k=5}\binom{5}{i,j,k}x_1^ix_2^jx_3^k$}@}. The key memory aid is that {@{the exponents record how often each variable is chosen among the 5 factors}@}. <!--SR:!2026-08-07,66,310!2026-08-08,67,310!2026-08-02,61,310!2026-08-08,67,310!2026-07-31,59,310!2026-08-06,65,310!2026-07-29,57,310-->
+> Solution: Apply the {@{multinomial theorem}@}: collect terms by exponent triple {@{$(i,j,k)$}@} with {@{$i,j,k\ge 0$ and $i+j+k=5$}@}, use coefficient {@{$\binom{5}{i,j,k}=\frac{5!}{i!j!k!}$}@} from {@{counting permutations of repeated factors}@}, and obtain {@{$(x_1+x_2+x_3)^5=\sum_{i+j+k=5}\binom{5}{i,j,k}x_1^ix_2^jx_3^k$}@}. The key memory aid is that {@{the exponents record how often each variable is chosen among the 5 factors}@}. <!--SR:!2026-08-07,66,310!2026-08-08,67,310!2026-08-02,61,310!2026-08-08,67,310!2026-07-31,59,310!2026-08-06,65,310!fsrs,2027-05-13T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -65,7 +65,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 > - (a) {@{No restriction}@} gives {@{$\binom{10}{5}=252$}@}.
 > - (b) {@{Include the designated person first}@}, then choose 4 of the remaining 9, giving {@{$\binom{9}{4}=126$}@}.
 > - (c) {@{Exactly 3 men and 2 women}@} gives {@{$\binom{6}{3}\binom{4}{2}=120$}@}.
-> - (d) {@{Majority women means either 3W2M or 4W1M}@}, so the total is {@{$\binom{4}{3}\binom{6}{2}+\binom{4}{4}\binom{6}{1}=60+6=66$}@}. <!--SR:!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-07-31,59,310!2026-08-05,64,310!2026-08-08,67,310!2026-08-08,67,310!2026-07-29,57,310!2026-07-29,57,310!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
+> - (d) {@{Majority women means either 3W2M or 4W1M}@}, so the total is {@{$\binom{4}{3}\binom{6}{2}+\binom{4}{4}\binom{6}{1}=60+6=66$}@}. <!--SR:!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z!2026-07-31,59,310!2026-08-05,64,310!2026-08-08,67,310!2026-08-08,67,310!fsrs,2027-05-13T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2027-05-13T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2027-05-02T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
