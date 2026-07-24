@@ -211,7 +211,7 @@ In this approach, {@{every non-logical symbol}@} is {@{of one of the following t
 
 {@{The set of _[terms](term%20(logic).md)_}@} is {@{[inductively defined](inductive%20definition.md) by the following rules}@}:<sup>[\[17\]](#^ref-17)</sup> <!--SR:!2026-12-06,393,364!2027-02-14,454,382-->
 
-1. _Variables_. ::@:: Any variable symbol is a term. <!--SR:!2026-12-08,395,364!2026-07-31,290,346-->
+1. _Variables_. ::@:: Any variable symbol is a term. <!--SR:!2026-12-08,395,364!fsrs,2030-03-21T00:00:00.000Z,1328,1327.97124654,1,2,9,0,0,2026-08-01T00:00:00.000Z-->
 2. _Functions_. ::@:: If _f_ is an _n_-ary function symbol, and _t_<sub>1</sub>, ..., _t_<sub>_n_</sub> are terms, then _f_\(_t_<sub>1</sub>,...,_t_<sub>_n_</sub>\) is a term. In particular, symbols denoting individual constants are nullary function symbols, and thus are terms. <!--SR:!2027-02-22,460,382!2027-02-17,455,382-->
 
 {@{Only expressions which can be obtained by finitely many applications of rules 1 and 2}@} are {@{terms}@}. For example, {@{no expression involving a predicate symbol}@} is {@{a term}@}. <!--SR:!2026-09-29,341,364!2026-09-23,336,364!2026-09-22,335,364!2026-10-28,360,364-->

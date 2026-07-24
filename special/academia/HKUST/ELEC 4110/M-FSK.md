@@ -16,7 +16,7 @@ tags:
 
 ## waveforms
 
-{@{The transmitted waveform corresponding to symbol index $m = 0, \ldots, M - 1$}@} is {@{a single tone at one of $M$ distinct frequencies}@}: {@{$$s_m(t)=A\,\cos \!\bigl(2\pi(f_c+\Delta f_m)t\bigr), \qquad 0\le t<T_s \,,$$}@} where {@{$f_c = n / T_s$ for some positive integer $n$ and $\Delta f_m$ denotes the frequency offset for symbol $m$}@}. {@{The offsets are chosen}@} such that {@{the tones are orthogonal over the interval $T_s$}@} (e.g., {@{$\Delta f_m=m\,\Delta f_{\min}$ where $\Delta f_{\min} = 1 / T_s$}@}). Again, {@{setting $A=\sqrt{2E/T_s}$}@} gives {@{each tone an average energy $E$}@}. <!--SR:!2027-01-01,287,330!2026-11-16,250,330!2026-07-31,178,310!2027-01-02,288,330!2026-12-13,271,330!2027-01-09,294,330!2026-12-27,283,330!2026-11-19,252,330!2026-12-10,268,330-->
+{@{The transmitted waveform corresponding to symbol index $m = 0, \ldots, M - 1$}@} is {@{a single tone at one of $M$ distinct frequencies}@}: {@{$$s_m(t)=A\,\cos \!\bigl(2\pi(f_c+\Delta f_m)t\bigr), \qquad 0\le t<T_s \,,$$}@} where {@{$f_c = n / T_s$ for some positive integer $n$ and $\Delta f_m$ denotes the frequency offset for symbol $m$}@}. {@{The offsets are chosen}@} such that {@{the tones are orthogonal over the interval $T_s$}@} (e.g., {@{$\Delta f_m=m\,\Delta f_{\min}$ where $\Delta f_{\min} = 1 / T_s$}@}). Again, {@{setting $A=\sqrt{2E/T_s}$}@} gives {@{each tone an average energy $E$}@}. <!--SR:!2027-01-01,287,330!2026-11-16,250,330!fsrs,2028-09-06T00:00:00.000Z,767,767.45801194,1,2,8,0,0,2026-08-01T00:00:00.000Z!2027-01-02,288,330!2026-12-13,271,330!2027-01-09,294,330!2026-12-27,283,330!2026-11-19,252,330!2026-12-10,268,330-->
 
 ## constellation
 

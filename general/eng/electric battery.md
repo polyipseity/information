@@ -274,7 +274,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="8c52"--><!-- The following content is generated at 2024-03-06T23:33:30.718238+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md):@:Usually cylindrical. Suitable for high-drain devices. <!--SR:!2026-07-31,654,343-->
+- [NiMH](nickel–metal%20hydride%20battery.md):@:Usually cylindrical. Suitable for high-drain devices. <!--SR:!fsrs,2033-11-22T00:00:00.000Z,2670,2670.17820754,1,2,10,0,0,2026-08-01T00:00:00.000Z-->
 - [lead–acid](lead–acid%20battery.md):@:Usually box-shaped. Suitable for [car batteries](automotive%20battery.md) or [uninterruptible power supplies](uninterruptible%20power%20supply.md). <!--SR:!2028-01-20,1042,363-->
 - [lithium-ion](lithium-ion%20battery.md):@:Usually cylindrical or prismatic. Suitable for portable devices. <!--SR:!2029-10-11,1603,383-->
 

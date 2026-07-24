@@ -31,7 +31,7 @@ This note is the broad entry point for signal language, especially the general a
 
 Flashcards for this section are as follows:
 
-- What is a signal in ELEC 2100? ::@:: A signal is a function of one or more independent variables that carries information about a physical quantity, message, or state. <!--SR:!2026-07-31,76,334!fsrs,2027-06-08T00:00:00.000Z,322,321.99700316,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
+- What is a signal in ELEC 2100? ::@:: A signal is a function of one or more independent variables that carries information about a physical quantity, message, or state. <!--SR:!fsrs,2027-09-06T00:00:00.000Z,401,401.42500042,1,2,7,0,0,2026-08-01T00:00:00.000Z!fsrs,2027-06-08T00:00:00.000Z,322,321.99700316,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
 - Why are signals introduced so early in ELEC 2100? ::@:: They are the inputs and outputs on which systems act, so later transform methods start from careful signal descriptions. <!--SR:!2026-08-05,67,314!fsrs,2027-05-15T00:00:00.000Z,305,304.66539011,1,2,7,0,0,2026-07-14T00:00:00.000Z-->
 - How should `signal.md` be used relative to the other signal-family notes in ELEC 2100? ::@:: Use this note for the broad signal vocabulary, continuous-time intuition, and general transformation language. Use `discrete-time signal.md` for sequence-specific tools and `singular signal.md` for step-, impulse-, and generalized-function building blocks. <!--SR:!2026-08-13,75,336!2026-08-06,68,314-->
 

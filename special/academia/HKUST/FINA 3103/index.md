@@ -49,7 +49,7 @@ The content is in teaching order.
 - topic: logistics; introduction
 - FINA 3103
     - FINA 3103 / logistics
-    - FINA 3103 / textbook ::@:: Bodie, Kane and Marcus \(BKM\), "Essentials of Investments", 13th Edition <!--SR:!2026-07-31,246,330!2026-08-28,267,330-->
+    - FINA 3103 / textbook ::@:: Bodie, Kane and Marcus \(BKM\), "Essentials of Investments", 13th Edition <!--SR:!fsrs,2029-07-28T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-01T00:00:00.000Z!2026-08-28,267,330-->
     - FINA 3103 / prerequisites
     - FINA 3103 / background ::@:: statistics: covariance, expectation, linear regression \(OLS\), population, random variable, sample, variance, etc. <!--SR:!2026-08-22,262,330!2026-08-31,268,330-->
     - FINA 3103 / grading
@@ -92,7 +92,7 @@ The content is in teaching order.
 - [utility](../../../../general/utility.md) ::@:: It is a measure of a certain person's satisfaction from a certain state of the world. <!--SR:!2026-08-11,255,330!2026-09-11,278,330-->
     - utility / motivation ::@:: It can model _expected return_ and _risk_ together. <!--SR:!2026-08-06,251,330!2026-08-23,263,330-->
 - [modern portfolio theory](../../../../general/modern%20portfolio%20theory.md) \(MPT\) ::@:: It is a mathematical framework for assembling a portfolio of assets such that the expected return is maximized for a given level of risk. <!--SR:!2026-08-06,251,330!2026-08-27,264,330-->
-    - modern portfolio theory / motivation ::@:: To avoid \(diversifiable\) risk or control risk–return tradeoff by assembling a portfolio \(combination of assets\) optimally. <!--SR:!2026-08-18,258,330!2026-07-31,246,330-->
+    - modern portfolio theory / motivation ::@:: To avoid \(diversifiable\) risk or control risk–return tradeoff by assembling a portfolio \(combination of assets\) optimally. <!--SR:!2026-08-18,258,330!fsrs,2029-07-28T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-01T00:00:00.000Z-->
     - modern portfolio theory / intuition ::@:: Assume there is a stock with low return. Now consider two other stocks, stock A and stock B, both with equally high return. Stock A moves with the low-return stock. Stock B moves _opposite_ to the low-return stock. <p> Combining the low-return stock with stock A does not reduce risk \(variance, volatility\), because they have _similar_ risk factors. Combining it with stock B instead reduces risk \(variance, volatility\), resulting in _risk diversification_ due to their _different_ risk factors. <!--SR:!2026-08-17,257,330!fsrs,2028-09-05T14:58:11.969Z,815,815.47433155,1,2,9,0,0,2026-06-13T14:58:11.969Z-->
 - [asset pricing](../../../../general/asset%20pricing.md) ::@:: It refers to the formal development of the principles used in pricing, together with the resultant models. <!--SR:!2026-09-18,284,330!fsrs,2029-06-07T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
     - asset pricing / return, risk ::@:: Asset price affects return and risk, mostly via capital gain/loss. <!--SR:!2028-06-06,757,330!2026-09-05,273,330-->
@@ -107,7 +107,7 @@ The content is in teaching order.
     - efficient-market hypothesis / intuition ::@:: Suppose you know some private information on a stock. You buy or sell the stock. Its price changes due to your action, reflecting the private information. <!--SR:!2026-09-05,274,330!2028-06-15,763,330-->
     - efficient-market hypothesis / reality ::@:: Grossman-Stiglitz paradox, irrationality, etc. <!--SR:!2026-08-22,261,330!fsrs,2029-07-02T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-26T00:00:00.000Z-->
 - [Grossman-Stiglitz paradox](../../../../general/Grossman-Stiglitz%20paradox.md) ::@:: It argues perfectly informationally efficient markets are an impossibility since, if prices perfectly reflected available information, there is no profit to gathering information, in which case there would be little reason to trade and markets would eventually collapse. <!--SR:!2026-09-18,284,330!2026-08-09,253,330-->
-- [behavioural finance](../../../../general/behavioural%20finance.md) ::@:: It is the study of the influence of psychology on the behaviour of investors or financial analysts. It assumes that investors are not always rational, have limits to their self-control and are influenced by their own biases. <!--SR:!fsrs,2029-06-27T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-25T00:00:00.000Z!2026-07-31,246,330-->
+- [behavioural finance](../../../../general/behavioural%20finance.md) ::@:: It is the study of the influence of psychology on the behaviour of investors or financial analysts. It assumes that investors are not always rational, have limits to their self-control and are influenced by their own biases. <!--SR:!fsrs,2029-06-27T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-25T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-01T00:00:00.000Z-->
 - efficient-market hypothesis
     - efficient-market hypothesis / reality
         - efficient-market hypothesis / reality / reasons ::@:: framing \(e.g. effect of salience\), information, luck, sophistication, skills, etc. <!--SR:!fsrs,2028-09-12T08:11:53.378Z,828,827.94653427,1,2,9,0,0,2026-06-07T08:11:53.378Z!2028-04-26,723,330-->

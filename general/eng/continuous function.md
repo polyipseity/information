@@ -19,7 +19,7 @@ tags:
 
 #### continuity at a point
 
-There are {@{several ways}@} to define {@{whether a function is _continuous_ at a point}@}. The most common one is {@{in terms of [limits](limit%20of%20a%20function.md)}@}. {@{A function $f$ is continuous at a point $c$}@} iff {@{$\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}@}. <!--SR:!2031-05-10,1982,330!2026-07-31,654,330!2028-02-02,632,412!2028-02-20,649,412!2028-02-08,638,412-->
+There are {@{several ways}@} to define {@{whether a function is _continuous_ at a point}@}. The most common one is {@{in terms of [limits](limit%20of%20a%20function.md)}@}. {@{A function $f$ is continuous at a point $c$}@} iff {@{$\lim_{x \to c} f(x) = f(c)$ or $c$ is an [isolated point](isolated%20point.md) of the [domain](domain%20of%20a%20function.md) of $f$}@}. <!--SR:!2031-05-10,1982,330!fsrs,2033-08-05T00:00:00.000Z,2561,2560.8166636,1,2,10,0,0,2026-08-01T00:00:00.000Z!2028-02-02,632,412!2028-02-20,649,412!2028-02-08,638,412-->
 
 > [!tip] tips
 >
@@ -62,7 +62,7 @@ A function is _discontinuous_ at a point {@{if the point is in the [topological 
 
 > [!example] examples
 >
-> - empty function $\varnothing \to X$ :@: It is not discontinuous at every [real](real%20number.md). However, it is discontinuous and it is not discontinuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!2026-07-31,654,330-->
+> - empty function $\varnothing \to X$ :@: It is not discontinuous at every [real](real%20number.md). However, it is discontinuous and it is not discontinuous at every point in its [domain](domain%20of%20a%20function.md) by [vacuous truth](vacuous%20truth.md). <!--SR:!fsrs,2033-08-05T00:00:00.000Z,2561,2560.8166636,1,2,10,0,0,2026-08-01T00:00:00.000Z-->
 > - function at an [isolated point](isolated%20point.md): $f(x \in \set{0}) = 0$ at $0$ :@: It is not discontinuous at $0$. <!--SR:!2030-08-12,1777,330-->
 > - $f(x \in [0, +\infty)) = \sqrt{x}$ at $0$ :@: It is not discontinuous at $0$. <!--SR:!2027-03-24,854,344-->
 > - $f(x \in (0, +\infty)) = \sqrt{x}$ at $0$ :@: It is discontinuous at $0$. <!--SR:!2026-08-07,668,330-->

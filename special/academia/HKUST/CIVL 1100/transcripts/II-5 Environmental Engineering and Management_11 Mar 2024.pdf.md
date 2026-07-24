@@ -393,7 +393,7 @@ return await memorize_seq(
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2026-11-26,519,270!2028-05-27,832,250-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2027-09-07,808,270!2030-05-25,1593,310-->
 - nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2028-07-09,803,230!2027-05-05,416,190-->
-- perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2030-01-16,1363,290!2026-07-31,505,270-->
+- perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2030-01-16,1363,290!fsrs,2031-01-23T00:00:00.000Z,1636,1635.65558581,2.98092302,2,10,0,0,2026-08-01T00:00:00.000Z-->
 - sulfur hexafluoride (SF<sub>6</sub>)→::@::←_(end)_ <!--SR:!2030-09-24,1574,330!2027-02-16,688,310-->
 
 <!--/pytextgen-->

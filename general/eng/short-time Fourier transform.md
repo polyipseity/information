@@ -141,7 +141,7 @@ STFTs as well as {@{standard Fourier transforms and other tools}@} are frequentl
 
 Original function {@{$$X(t,f)=\int _{-\infty }^{\infty }w(t-\tau )x(\tau )e^{-j2\pi f\tau }d\tau$$}@} \(annotation: note the different notations used: {@{the $t$ and $\tau$ have swapped places compared to that used in previous definitions}@}\) <!--SR:!2026-09-10,344,349!fsrs,2029-08-03T11:18:28.508Z,1155,1155.09404231,1,2,9,0,0,2026-06-05T11:18:28.508Z-->
 
-Converting into {@{the discrete form}@}: {@{$$t=n\Delta _{t},f=m\Delta _{f},\tau =p\Delta _{t}$$}@} <br/> {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{-\infty }^{\infty }w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!fsrs,2029-09-15T03:23:50.568Z,1188,1188.45162933,1,2,9,0,0,2026-06-15T03:23:50.568Z!2028-05-07,744,349!2026-07-31,238,381-->
+Converting into {@{the discrete form}@}: {@{$$t=n\Delta _{t},f=m\Delta _{f},\tau =p\Delta _{t}$$}@} <br/> {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{-\infty }^{\infty }w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!fsrs,2029-09-15T03:23:50.568Z,1188,1188.45162933,1,2,9,0,0,2026-06-15T03:23:50.568Z!2028-05-07,744,349!fsrs,2029-11-19T00:00:00.000Z,1206,1205.951066,1,2,9,0,0,2026-08-01T00:00:00.000Z-->
 
 Suppose that {@{$$w(t)\cong 0{\text{ for } }|t|>B,{\frac {B}{\Delta _{t} } }=Q$$ \(annotation: the window function has finite support around zero\)}@} Then we can write the original function into {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} <!--SR:!2026-08-27,333,349!fsrs,2028-11-21T00:00:00.000Z,862,861.60807309,2.98092302,2,9,0,0,2026-07-13T00:00:00.000Z-->
 
