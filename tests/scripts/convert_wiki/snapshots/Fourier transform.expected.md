@@ -87,7 +87,7 @@ In 1822, Fourier claimed \(see _[Joseph Fourier § The Analytic Theory of Heat](
 
 > ![A sinodial voltage. 1 = Amplitude \(peak\), 2 = Peak-to-peak, 3 = RMS, 4 = Wave period](../../archives/Wikimedia%20Commons/Sine%20voltage.svg)
 >
-> ![Two sinusoidal waves offset from each other by a phase shift$\theta$.](../../archives/Wikimedia%20Commons/Phase%20shift.svg)
+> ![Two sinusoidal waves offset from each other by a phase shift $\theta$.](../../archives/Wikimedia%20Commons/Phase%20shift.svg)
 >
 > The red [sinusoid](sine%20wave.md) can be described by peak amplitude \(1\), peak-to-peak \(2\), [RMS](root%20mean%20square.md) \(3\), and [wavelength](wavelength.md) \(4\). The red and blue sinusoids have a phase difference of _θ_.
 
