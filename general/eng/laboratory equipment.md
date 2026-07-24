@@ -247,7 +247,7 @@ return chain.from_iterable([r.value for r in results])
 - ![conical flask/Erlenmeyer flask/titration flask](../../archives/Wikimedia%20Commons/250%20mL%20Erlenmeyer%20flask.jpg):@:[conical flask/Erlenmeyer flask/titration flask](Erlenmeyer%20flask.md) <!--SR:!2032-03-06,2442,330-->
 - ![crucible](../../archives/Wikimedia%20Commons/Czochralski%20method%20used%20crucible%201.jpg):@:[crucible](crucible.md) <!--SR:!2027-05-29,1091,330-->
 - ![crucible tongs](../../archives/Wikimedia%20Commons/Crucible%20tong.jpg):@:[crucible tongs](crucible%20tongs.md) <!--SR:!2027-04-21,1149,350-->
-- ![desiccator](../../archives/Wikimedia%20Commons/Desiccator.jpg):@:[desiccator](desiccator.md) <!--SR:!2026-08-01,930,330-->
+- ![desiccator](../../archives/Wikimedia%20Commons/Desiccator.jpg):@:[desiccator](desiccator.md) <!--SR:!fsrs,2036-02-17T00:00:00.000Z,3486,3486.22757139,1,2,11,0,0,2026-08-02T00:00:00.000Z-->
 - ![(eye) dropper/Pasteur pipette](../../archives/Wikimedia%20Commons/Transfer%20pipette.jpg):@:[(eye) dropper/Pasteur pipette](eye%20dropper.md) <!--SR:!2027-10-07,1282,350-->
 - ![dropping bottle](../../archives/Wikimedia%20Commons/Dropper%20with%20vial.jpg):@:dropping bottle <!--SR:!2027-08-04,1230,350-->
 - ![electronic balance](../../archives/Wikimedia%20Commons/Weighing%20balance,%20MNIT.jpg):@:[electronic balance](weighing%20scale.md) <!--SR:!2027-06-09,1189,350-->

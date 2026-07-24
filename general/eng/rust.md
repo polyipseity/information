@@ -27,7 +27,7 @@ First, {@{iron is oxidized to iron(II) ions}@} and {@{oxygen is reduced to [hydr
 > 1. {@{2Fe(s) + O<sub>2</sub>(g) + 2H<sub>2</sub>O(l)}@} → {@{2Fe<sup>2+</sup>(aq) + 4OH<sup>-</sup>(aq)}@}
 >     - {@{O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup>}@} → {@{4OH<sup>-</sup>(aq)}@}
 >     - {@{Fe(s)}@} → {@{Fe<sup>2+</sup>(aq) + 2e<sup>-</sup>}@}
-> 2. {@{4Fe<sup>2+</sup>(aq) + O<sub>2</sub>(g)}@} → {@{4Fe<sup>3+</sup>(aq) + 2O<sup>2-</sup>(aq)}@} <!--SR:!2031-12-23,2267,290!2026-10-18,371,373!2026-12-17,418,373!2026-12-15,416,373!2026-10-26,378,373!2026-10-23,376,373!2026-12-14,415,373!2026-12-18,419,373!2026-08-01,286,363-->
+> 2. {@{4Fe<sup>2+</sup>(aq) + O<sub>2</sub>(g)}@} → {@{4Fe<sup>3+</sup>(aq) + 2O<sup>2-</sup>(aq)}@} <!--SR:!2031-12-23,2267,290!2026-10-18,371,373!2026-12-17,418,373!2026-12-15,416,373!2026-10-26,378,373!2026-10-23,376,373!2026-12-14,415,373!2026-12-18,419,373!fsrs,2030-05-17T00:00:00.000Z,1384,1383.94159284,1,2,9,0,0,2026-08-02T00:00:00.000Z-->
 
 After forming iron ions, {@{[acid–base reactions](acid–base%20reaction.md) produce iron hydroxides in equilibra}@}: <!--SR:!2026-12-30,677,250-->
 

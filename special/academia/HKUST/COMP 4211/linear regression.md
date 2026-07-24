@@ -59,7 +59,7 @@ Flashcards for this section are as follows:
 - what closed-form or analytic solution means ::@:: A closed-form or analytic solution means the optimizer can be written explicitly by a finite sequence of algebraic operations instead of being found only by iterative search. <!--SR:!2026-08-27,89,363!2026-08-03,83,341-->
 - why closed-form solutions are desirable ::@:: Closed-form solutions are desirable because they expose how the optimizer depends on the data, avoid convergence tuning, and in the OLS case identify the global optimum directly. <!--SR:!2026-08-05,85,353!2026-08-14,93,363-->
 - why many machine-learning models do not have closed-form solutions ::@:: Closed-form solutions are often unavailable because the model may be nonlinear, the loss may be nonsmooth, or the optimality equations may be too hard to solve exactly. <!--SR:!2026-08-04,84,353!2026-08-07,82,341-->
-- what to do when no closed-form solution exists ::@:: When no analytic solution exists, one usually uses numerical optimization such as gradient descent, stochastic gradient descent, Newton-type methods, or coordinate descent to approximate an optimum. <!--SR:!2026-08-01,77,341!2026-08-11,86,353-->
+- what to do when no closed-form solution exists ::@:: When no analytic solution exists, one usually uses numerical optimization such as gradient descent, stochastic gradient descent, Newton-type methods, or coordinate descent to approximate an optimum. <!--SR:!fsrs,2027-09-22T00:00:00.000Z,416,415.93271051,1,2,7,0,0,2026-08-02T00:00:00.000Z!2026-08-11,86,353-->
 - optimization viewpoint ::@:: Linear regression should be viewed as an optimization problem over candidate predictors, not merely as a closed-form algebraic formula. <!--SR:!2026-08-11,86,353!2026-08-11,86,353-->
 
 ### other linear-regression fitting methods
@@ -189,7 +189,7 @@ Flashcards for this section are as follows:
 - why ordinary vector projection divides by $a^\top a$ ::@:: The denominator $a^\top a=\|a\|_2^2$ corrects for the length of $a$, so the projection coefficient measures direction alignment rather than raw scale. <!--SR:!2026-08-11,86,353!fsrs,2027-08-13T00:00:00.000Z,379,378.55033956,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
 - projection intuition for least squares ::@:: Least squares chooses $Xw$ as the orthogonal projection of $y$ onto the column space $\operatorname{col}(X)$. <!--SR:!2026-08-06,86,353!2026-08-06,81,341-->
 - projection matrix for full-column-rank linear regression ::@:: If the columns of $X$ are linearly independent, the projection of $y$ onto $\operatorname{col}(X)$ is $X(X^\top X)^{-1}X^\top y$. <!--SR:!2026-08-06,86,353!2026-08-02,82,341-->
-- why $(X^\top X)^{-1}$ appears in the projection formula ::@:: The factor $X^\top y$ gives raw inner products with the columns of $X$, and $(X^\top X)^{-1}$ corrects for nonunit lengths and nonorthogonality among those columns. <!--SR:!2026-08-01,81,341!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
+- why $(X^\top X)^{-1}$ appears in the projection formula ::@:: The factor $X^\top y$ gives raw inner products with the columns of $X$, and $(X^\top X)^{-1}$ corrects for nonunit lengths and nonorthogonality among those columns. <!--SR:!fsrs,2027-10-10T00:00:00.000Z,434,434.38453524,1,2,7,0,0,2026-08-02T00:00:00.000Z!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - orthonormal-column special case ::@:: If the columns of $X$ are orthonormal, then $X^\top X=I$, so the projection simplifies to $XX^\top y$. <!--SR:!2026-08-11,86,353!2026-08-31,93,363-->
 - why projection is a good memory aid ::@:: The projection viewpoint says linear regression finds the closest vector to $y$ among all vectors that can be written as $Xw$. <!--SR:!2026-08-03,83,341!2026-08-03,78,341-->
 - when $X^\top X$ is singular ::@:: $X^\top X$ is singular when the columns of $X$ are linearly dependent, so the inverse formula cannot be used directly. <!--SR:!2026-08-03,83,353!2026-08-05,81,353-->
@@ -307,10 +307,10 @@ This is why the familiar test-error curve is U-shaped as capacity increases. At 
 
 Flashcards for this section are as follows:
 
-- underfitting ::@:: Underfitting occurs when model capacity is too small, so both training and held-out error remain high because the model cannot represent the main signal. <!--SR:!2026-08-01,81,341!2026-08-06,81,341-->
+- underfitting ::@:: Underfitting occurs when model capacity is too small, so both training and held-out error remain high because the model cannot represent the main signal. <!--SR:!fsrs,2027-10-10T00:00:00.000Z,434,434.38453524,1,2,7,0,0,2026-08-02T00:00:00.000Z!2026-08-06,81,341-->
 - overfitting ::@:: Overfitting occurs when capacity is too large, so training error can keep decreasing while held-out error worsens due to fitting sample-specific noise. <!--SR:!2026-08-14,93,363!2026-08-05,85,353-->
 - why the test-error curve is often U-shaped ::@:: As capacity increases, test error often falls first (better signal fit) and later rises (greater sensitivity to noise), producing a U-shaped curve. <!--SR:!2026-08-04,84,353!fsrs,2027-07-18T00:00:00.000Z,361,360.92544943,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
-- bias-variance preview from the capacity curve ::@:: The underfitting-to-overfitting transition is an early manifestation of the bias-variance tradeoff discussed in later lectures. <!--SR:!2026-08-01,81,341!2026-08-05,80,341-->
+- bias-variance preview from the capacity curve ::@:: The underfitting-to-overfitting transition is an early manifestation of the bias-variance tradeoff discussed in later lectures. <!--SR:!fsrs,2027-10-10T00:00:00.000Z,434,434.38453524,1,2,7,0,0,2026-08-02T00:00:00.000Z!2026-08-05,80,341-->
 
 ### training error, test error, and the capacity curve
 
@@ -449,7 +449,7 @@ Flashcards for this section are as follows:
 - coordinatewise LASSO optimality rule ::@:: For each coefficient, LASSO optimality says: if $w_j>0$, then $\frac{\partial J}{\partial w_j}=-\lambda$; if $w_j<0$, then $\frac{\partial J}{\partial w_j}=+\lambda$; if $w_j=0$, then $\frac{\partial J}{\partial w_j}\in[-\lambda,+\lambda]$. <!--SR:!2026-08-02,77,341!fsrs,2027-07-27T00:00:00.000Z,365,365.34342854,1,2,7,0,0,2026-07-27T00:00:00.000Z-->
 - why LASSO creates exact zeros ::@:: A coefficient can stay exactly zero whenever the data-fit derivative lies inside the interval $[-\lambda,+\lambda]$, so LASSO has a whole threshold zone that favors sparsity. <!--SR:!2026-08-02,82,341!2026-08-03,83,341-->
 - ridge versus LASSO optimality-condition difference ::@:: Ridge uses a smooth equality $\frac{\partial J}{\partial w_j}+2\lambda w_j=0$, whereas LASSO uses a threshold-type subgradient rule, which is why ridge usually shrinks and LASSO can delete coefficients. <!--SR:!2026-08-29,91,363!2026-08-06,81,341-->
-- soft-thresholding intuition for LASSO ::@:: In orthonormal designs, LASSO behaves like soft thresholding: least-squares coefficients are pulled toward zero, and sufficiently small ones become exactly zero. <!--SR:!fsrs,2027-08-03T00:00:00.000Z,374,374.15574843,1,2,7,0,0,2026-07-25T00:00:00.000Z!2026-08-01,81,341-->
+- soft-thresholding intuition for LASSO ::@:: In orthonormal designs, LASSO behaves like soft thresholding: least-squares coefficients are pulled toward zero, and sufficiently small ones become exactly zero. <!--SR:!fsrs,2027-08-03T00:00:00.000Z,374,374.15574843,1,2,7,0,0,2026-07-25T00:00:00.000Z!fsrs,2027-10-10T00:00:00.000Z,434,434.38453524,1,2,7,0,0,2026-08-02T00:00:00.000Z-->
 
 ### ridge versus LASSO contour intuition
 
@@ -537,7 +537,7 @@ Flashcards for this section are as follows:
 
 - residual sum of squares and total sum of squares ::@:: In regression, $\mathrm{RSS}=\sum_i (y_i-\hat y_i)^2$ measures unexplained variation and $\mathrm{TSS}=\sum_i (y_i-\bar y)^2$ measures total variation around the mean. <!--SR:!2026-08-11,86,353!2026-08-11,86,353-->
 - explained sum of squares ::@:: The explained sum of squares is $\mathrm{ESS}=\sum_i(\hat y_i-\bar y)^2$, which measures how much variation of the targets around the mean is captured by the fitted values. <!--SR:!2026-08-04,84,353!2026-08-31,93,363-->
-- intuitive reading of $R^2 = 1-\mathrm{RSS}/\mathrm{TSS}$ ::@:: $R^2$ is one minus the unexplained fraction of total target variation, measured relative to the mean-prediction baseline. <!--SR:!2026-08-03,83,341!2026-08-01,81,341-->
+- intuitive reading of $R^2 = 1-\mathrm{RSS}/\mathrm{TSS}$ ::@:: $R^2$ is one minus the unexplained fraction of total target variation, measured relative to the mean-prediction baseline. <!--SR:!2026-08-03,83,341!fsrs,2027-10-10T00:00:00.000Z,434,434.38453524,1,2,7,0,0,2026-08-02T00:00:00.000Z-->
 - alternative $R^2$ formula with intercept ::@:: When an intercept is included, OLS gives $\mathrm{TSS}=\mathrm{ESS}+\mathrm{RSS}$, so $R^2 = \mathrm{ESS}/\mathrm{TSS}$ with $\mathrm{ESS}=\sum_i(\hat y_i-\bar y)^2$. <!--SR:!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-08-05,81,353-->
 - intercept assumption behind the standard $R^2$ formulas ::@:: The usual mean-baseline interpretation of $R^2$ and the decomposition $\mathrm{TSS}=\mathrm{ESS}+\mathrm{RSS}$ assume that the regression model includes an intercept term. <!--SR:!2026-08-07,82,341!2026-08-04,79,341-->
 - relation between OLS residuals and regressors ::@:: OLS residuals are orthogonal to all included regressors because the normal equation gives $X^\top(y-\hat y)=0$, regardless of whether an intercept is present. <!--SR:!2026-08-03,78,341!2026-08-04,84,353-->

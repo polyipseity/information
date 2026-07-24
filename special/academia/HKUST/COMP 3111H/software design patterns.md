@@ -55,7 +55,7 @@ There are {@{5 key principles in design pattens}@}: {@{program to an interface, 
 In the {@{SimUDuck example}@}, a duck's behaviors—{@{flying and quacking}@}—are {@{not hard‑coded}@} in the {@{base `Duck` class}@}. Instead: (annotation: 3 items: {@{interfaces, concrete classes, composition}@}) <!--SR:!2027-04-27,389,361!2027-03-30,367,361!2027-01-11,300,342!2027-01-29,314,342!2027-04-19,383,361-->
 
 - Each behavior ::@:: is an interface (`FlyBehaviour`, `QuackBehaviour`) that declares methods such as `fly()` or `quack()`. <!--SR:!2027-01-24,309,342!2027-03-24,361,361-->
-- Concrete classes (`FlyWithWings`, `FlyNoWay`, `QuackSqueak`, `MuteQuack`) ::@:: implement those behavior interfaces (`FlyBehaviour`, `QuackBehaviour`). <!--SR:!2026-08-01,179,310!2027-01-21,307,342-->
+- Concrete classes (`FlyWithWings`, `FlyNoWay`, `QuackSqueak`, `MuteQuack`) ::@:: implement those behavior interfaces (`FlyBehaviour`, `QuackBehaviour`). <!--SR:!fsrs,2028-09-11T00:00:00.000Z,771,771.20338158,1,2,8,0,0,2026-08-02T00:00:00.000Z!2027-01-21,307,342-->
 - Ducks compose ::@:: these behaviors, so the same behavior can be shared by many ducks without duplication. <!--SR:!2027-01-23,309,342!2027-02-27,341,361-->
 
 With {@{this implementation of SimUDuck}@}, there are {@{4 major advantages}@}: (annotation: 4 items: {@{greater flexibility, improved maintainability, reduced code duplication, runtime polymorphism}@}) <!--SR:!2027-04-17,382,361!2027-04-24,387,361!2027-02-21,336,361-->

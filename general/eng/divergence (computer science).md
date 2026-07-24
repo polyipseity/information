@@ -16,7 +16,7 @@ In {@{[computer science](computer%20science.md)}@}, {@{a computation is said to 
 
 ## definitions
 
-{@{Various subfields of computer science}@} use {@{varying, but mathematically precise, definitions}@} of what it means for {@{a computation to converge or diverge}@}. <!--SR:!2026-08-01,242,330!2026-09-23,284,330!2026-09-07,270,330-->
+{@{Various subfields of computer science}@} use {@{varying, but mathematically precise, definitions}@} of what it means for {@{a computation to converge or diverge}@}. <!--SR:!fsrs,2029-07-13T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-08-02T00:00:00.000Z!2026-09-23,284,330!2026-09-07,270,330-->
 
 ### rewriting
 

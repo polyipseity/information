@@ -805,7 +805,7 @@ Traits therefore provide {@{a flexible way}@} to {@{compose behavior}@}, enablin
 
 ## expressions
 
-Scala supports {@{expressions}@}, including {@{arithmetic expressions}@}. {@{Parentheses \(`()`\)}@} can be used to {@{prioritize evaluating some expressions over others first}@}. {@{Semicolons \(`;`\) to end an expression}@} are {@{optional in most cases}@}. You need it if you {@{put multiple expressions in one line}@}. <!--SR:!2026-08-21,260,330!2026-09-02,272,330!2026-08-26,264,330!2026-08-01,246,330!fsrs,2029-07-28T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-01T00:00:00.000Z!2026-09-01,270,330!2026-08-05,250,330-->
+Scala supports {@{expressions}@}, including {@{arithmetic expressions}@}. {@{Parentheses \(`()`\)}@} can be used to {@{prioritize evaluating some expressions over others first}@}. {@{Semicolons \(`;`\) to end an expression}@} are {@{optional in most cases}@}. You need it if you {@{put multiple expressions in one line}@}. <!--SR:!2026-08-21,260,330!2026-09-02,272,330!2026-08-26,264,330!fsrs,2029-07-29T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-02T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-01T00:00:00.000Z!2026-09-01,270,330!2026-08-05,250,330-->
 
 Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> then <expr if true> else <expr if false>`}@}. `<predicate>` is {@{always evaluated}@}. If {@{it is `true`}@}, then {@{`<expr if true>` is evaluated}@}. Else, {@{`<expr if false>` is evaluated}@}. <!--SR:!2026-09-17,283,330!2026-09-19,285,330!2026-08-19,259,330!fsrs,2029-06-12T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-21T00:00:00.000Z!2026-08-03,248,330!2026-09-05,273,330-->
 

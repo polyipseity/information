@@ -444,7 +444,7 @@ The content is in teaching order.
 - [point estimation](../../../../general/point%20estimation.md) ::@:: It involves the use of sample data to calculate a single value (known as a point estimate since it identifies a point in some parameter space) which is to serve as a "best guess" or "best estimate" of an unknown population parameter (for example, the population mean). <!--SR:!2032-02-05,2109,416!2027-04-21,686,415-->
     - point estimation / methods ::@:: method of moments estimation (MME), maximum likelihood estimation (MLE; untaught), Bayesian estimation (untaught), etc. <!--SR:!2027-04-22,687,416!2027-05-08,703,416-->
 - [interval estimation](../../../../general/interval%20estimation.md) ::@:: It is is the use of sample data to estimate an interval of possible values of a parameter of interest. <!--SR:!2027-05-05,700,415!2027-05-19,714,416-->
-    - interval estimation / methods ::@:: (confidence interval) for the population mean, (confidence interval) for the population variance, etc. <!--SR:!2027-05-12,707,416!2026-08-01,478,396-->
+    - interval estimation / methods ::@:: (confidence interval) for the population mean, (confidence interval) for the population variance, etc. <!--SR:!2027-05-12,707,416!fsrs,2032-08-16T00:00:00.000Z,2206,2206.21232104,1,2,10,0,0,2026-08-02T00:00:00.000Z-->
 
 ## week 7 tutorial
 

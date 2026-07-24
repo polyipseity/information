@@ -111,7 +111,7 @@ Other examples: {@{$$w(t)=\exp(\sigma -t^{2}) = e^{\sigma} e^{-t^2}$$}@} Normall
 
 ### explanation
 
-It can also be explained with reference to {@{the sampling and [Nyquist frequency](Nyquist%20frequency.md)}@}. <!--SR:!2026-08-01,312,349-->
+It can also be explained with reference to {@{the sampling and [Nyquist frequency](Nyquist%20frequency.md)}@}. <!--SR:!fsrs,2030-07-01T00:00:00.000Z,1429,1428.63743154,1,2,9,0,0,2026-08-02T00:00:00.000Z-->
 
 Take {@{a window of _N_ samples from an arbitrary real-valued signal at sampling rate _f_<sub>s</sub>}@}. Taking {@{the Fourier transform}@} produces {@{_N_ complex coefficients}@}. Of these coefficients {@{only half are useful}@} \(the last _N/2_ being {@{the [complex conjugate](complex%20conjugate.md) of the first _N/2_ in reverse order}@}, as {@{this is a real valued signal}@}\). <!--SR:!2026-08-15,324,349!2029-03-18,1054,350!2029-06-08,1121,350!2026-08-28,334,349!2026-08-29,334,349!2026-08-29,334,349-->
 

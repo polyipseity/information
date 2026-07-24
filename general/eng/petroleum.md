@@ -19,7 +19,7 @@ tags:
 
 ## composition
 
-Petroleum is {@{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of many [hydrocarbons](hydrocarbon.md)}@}. Larger hydrocarbons have {@{higher [boiling points](boiling%20point.md), darker colors, more [viscous](viscosity.md), less [volatile](volatility%20(chemistry).md), less [flammable](flammability.md), and burn less completely}@}. <!--SR:!2033-10-02,2887,334!2026-08-01,801,254-->
+Petroleum is {@{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of many [hydrocarbons](hydrocarbon.md)}@}. Larger hydrocarbons have {@{higher [boiling points](boiling%20point.md), darker colors, more [viscous](viscosity.md), less [volatile](volatility%20(chemistry).md), less [flammable](flammability.md), and burn less completely}@}. <!--SR:!2033-10-02,2887,334!fsrs,2032-11-20T00:00:00.000Z,2302,2301.50126333,3.78141506,2,11,0,0,2026-08-02T00:00:00.000Z-->
 
 ## uses
 

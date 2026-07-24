@@ -233,7 +233,7 @@ This may be {@{repeated \(without adding further commas\)}@}: {@{$$A_{\alpha _{1
 {@{The covariant derivative}@} of {@{a scalar function, a contravariant vector and a covariant vector}@} are: <!--SR:!2026-12-25,348,350!2026-09-22,261,330-->
 
 - \(annotation: covariant derivative of a scalar function\) ::@:: $$f_{;\beta }=f_{,\beta }$$ <!--SR:!2026-12-01,325,350!2026-11-26,326,350-->
-- \(annotation: covariant derivative of a contravariant vector\) ::@:: $$A^{\alpha }{}_{;\beta }=A^{\alpha }{}_{,\beta }+\Gamma ^{\alpha }{}_{\gamma \beta }A^{\gamma }$$ <!--SR:!2026-08-01,183,270!2027-09-20,510,310-->
+- \(annotation: covariant derivative of a contravariant vector\) ::@:: $$A^{\alpha }{}_{;\beta }=A^{\alpha }{}_{,\beta }+\Gamma ^{\alpha }{}_{\gamma \beta }A^{\gamma }$$ <!--SR:!fsrs,2028-06-01T00:00:00.000Z,669,669.41906183,2.98092302,2,9,0,0,2026-08-02T00:00:00.000Z!2027-09-20,510,310-->
 - \(annotation: covariant derivative of a covariant vector\) ::@:: $$A_{\alpha ;\beta }=A_{\alpha ,\beta }-\Gamma ^{\gamma }{}_{\alpha \beta }A_{\gamma }\,,$$ <!--SR:!2026-09-26,265,330!2026-12-16,340,350-->
 
 where Γ<!-- markdown separator -->_<sup>α</sup><sub>γβ</sub>_ are {@{the connection coefficients}@}. <!--SR:!2026-11-04,304,350-->

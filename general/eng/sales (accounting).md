@@ -76,7 +76,7 @@ In {@{a survey of nearly 200 senior marketing managers}@}, 70 percent responded 
 
 ## unique definitions
 
-When {@{the US government}@} {@{reports [wholesale](wholesale.md) sales}@}, this {@{includes excise taxes on certain products}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2026-08-01,223,381!2027-03-26,505,401!2028-09-25,868,442-->
+When {@{the US government}@} {@{reports [wholesale](wholesale.md) sales}@}, this {@{includes excise taxes on certain products}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!fsrs,2029-09-15T00:00:00.000Z,1140,1140.01978295,1,2,9,0,0,2026-08-02T00:00:00.000Z!2027-03-26,505,401!2028-09-25,868,442-->
 
 ## other terms
 
