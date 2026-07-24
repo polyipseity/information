@@ -47,7 +47,7 @@ The content is in teaching order.
 - [solid mechanics § types of forces](../../../../general/solid%20mechanics.md#types%20of%20forces)
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
     - compression types ::@:: We are concerned with uniaxial compression only. <!--SR:!2029-09-04,1525,370!2029-07-05,1473,370-->
-    - compression examples in structures ::@:: arch bridge, elevated water tank, igloo (snow house) <!--SR:!2026-07-30,547,310!2027-09-13,927,350-->
+    - compression examples in structures ::@:: arch bridge, elevated water tank, igloo (snow house) <!--SR:!fsrs,2032-03-06T00:00:00.000Z,2045,2045.37497602,1,2,10,0,0,2026-07-31T00:00:00.000Z!2027-09-13,927,350-->
     - compression conventions ::@:: __negative__; arrows pointing inwards for forces applied on the object in compression <!--SR:!2028-03-01,1057,350!fsrs,2032-02-02T00:00:00.000Z,2026,2025.68645662,1,2,10,0,0,2026-07-17T00:00:00.000Z-->
 - [tension § effects](../../../../general/tension%20(physics).md#effects)
     - tension types ::@:: We are concerned with uniaxial tension only. <!--SR:!2029-11-19,1587,370!2028-12-27,1304,361-->

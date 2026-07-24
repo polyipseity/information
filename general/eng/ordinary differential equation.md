@@ -53,7 +53,7 @@ Ordinary differential equations are furthered classified:
 - _(begin)_→::@::←[autonomous](#^autonomous) <!--SR:!fsrs,2034-04-15T01:56:03.666Z,2863,2862.82133289,1,2,11,0,0,2026-06-13T01:56:03.666Z!2028-01-22,1218,350-->
 - [autonomous](#^autonomous)→::@::←[homogeneous](#^homogeneous) <!--SR:!2032-01-04,2254,330!2027-06-11,963,330-->
 - [homogeneous](#^homogeneous)→::@::←[linear](#^linear) <!--SR:!2028-01-27,1223,350!2027-01-07,661,290-->
-- [linear](#^linear)→::@::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!2026-07-30,742,330!2027-01-16,900,330-->
+- [linear](#^linear)→::@::←[nonhomogeneous](#^nonhomogeneous)/inhomogeneous <!--SR:!fsrs,2034-05-30T00:00:00.000Z,2860,2860.09219999,1,2,11,0,0,2026-07-31T00:00:00.000Z!2027-01-16,900,330-->
 - [nonhomogeneous](#^nonhomogeneous)/inhomogeneous→::@::←[nonlinear](#^nonlinear) <!--SR:!2027-02-07,874,330!2027-11-07,1159,350-->
 - [nonlinear](#^nonlinear)→::@::←_(end)_ <!--SR:!2035-06-20,3309,350!2035-01-11,3181,350-->
 

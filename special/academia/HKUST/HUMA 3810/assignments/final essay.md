@@ -17,7 +17,7 @@ The final essay is the major written assessment for the course.
 
 Flashcards for this section are as follows:
 
-- weight :@: The final essay carries 40% of the course grade. <!--SR:!2026-07-30,61,310-->
+- weight :@: The final essay carries 40% of the course grade. <!--SR:!fsrs,2027-05-31T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
 - due date :@: The final essay is due on 2026-05-08. <!--SR:!fsrs,2027-05-21T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-29T00:00:00.000Z-->
 
 ## logistics

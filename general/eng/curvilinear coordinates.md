@@ -210,7 +210,7 @@ At {@{each point}@}, one can construct {@{a small line element d<!-- markdown se
 
 #### example: polar coordinates
 
-If we consider {@{polar coordinates for __R__<sup>2</sup>}@}, {@{$$(x,y)=(r\cos \theta ,r\sin \theta )$$}@} {@{\(r, θ\)}@} are {@{the curvilinear coordinates}@}, and {@{the Jacobian determinant of the transformation}@} {@{\(_r_,θ\) → \(_r_ cos θ, _r_ sin θ\) is _r_}@}. <!--SR:!2026-12-02,320,356!2027-01-13,362,356!2026-11-07,299,347!2026-11-08,300,356!2026-11-13,305,356!2026-07-30,232,336-->
+If we consider {@{polar coordinates for __R__<sup>2</sup>}@}, {@{$$(x,y)=(r\cos \theta ,r\sin \theta )$$}@} {@{\(r, θ\)}@} are {@{the curvilinear coordinates}@}, and {@{the Jacobian determinant of the transformation}@} {@{\(_r_,θ\) → \(_r_ cos θ, _r_ sin θ\) is _r_}@}. <!--SR:!2026-12-02,320,356!2027-01-13,362,356!2026-11-07,299,347!2026-11-08,300,356!2026-11-13,305,356!fsrs,2029-06-24T00:00:00.000Z,1059,1058.81977346,1,2,9,0,0,2026-07-31T00:00:00.000Z-->
 
 {@{The [orthogonal](orthogonal.md) basis vectors}@} are {@{__b__<sub>_r_</sub> = \(cos θ, sin θ\), __b__<sub>θ</sub> = \(−r sin θ, r cos θ\)}@}. {@{The scale factors}@} are {@{_h_<sub>_r_</sub> = 1 and _h_<sub>θ</sub>= _r_}@}. {@{The fundamental tensor}@} is {@{_g_<sub>11</sub> =1, _g_<sub>22</sub> =_r_<sup>2</sup>, _g_<sub>12</sub> = _g_<sub>21</sub> =0}@}. <!--SR:!2027-01-10,363,356!2026-11-08,300,356!2026-12-27,345,347!2026-08-18,245,330!2026-12-21,339,356!2026-08-16,243,330-->
 

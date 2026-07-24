@@ -335,7 +335,7 @@ If {@{a sentence φ evaluates to _true_}@} under {@{a given interpretation _M_}@
 
 ### algebraizations
 
-{@{An alternate approach to the semantics}@} of first-order logic proceeds via {@{[abstract algebra](abstract%20algebra.md)}@}. This approach {@{generalizes the [Lindenbaum–Tarski algebras](Lindenbaum–Tarski%20algebra.md) of propositional logic}@}. There are {@{three ways}@} of eliminating {@{quantified variables from first-order logic}@} that do not involve {@{replacing quantifiers with other variable binding term operators}@}: \(annotation: 3 items: {@{cylindric algebra, polyadic algebra, predicate functor logic}@}\) <!--SR:!2027-02-24,463,382!2027-01-30,441,382!2027-02-05,448,382!2026-07-30,289,346!2028-04-29,729,364!2026-11-03,365,364!2028-06-30,792,432-->
+{@{An alternate approach to the semantics}@} of first-order logic proceeds via {@{[abstract algebra](abstract%20algebra.md)}@}. This approach {@{generalizes the [Lindenbaum–Tarski algebras](Lindenbaum–Tarski%20algebra.md) of propositional logic}@}. There are {@{three ways}@} of eliminating {@{quantified variables from first-order logic}@} that do not involve {@{replacing quantifiers with other variable binding term operators}@}: \(annotation: 3 items: {@{cylindric algebra, polyadic algebra, predicate functor logic}@}\) <!--SR:!2027-02-24,463,382!2027-01-30,441,382!2027-02-05,448,382!fsrs,2030-03-16T00:00:00.000Z,1324,1323.9962831,1,2,9,0,0,2026-07-31T00:00:00.000Z!2028-04-29,729,364!2026-11-03,365,364!2028-06-30,792,432-->
 
 - [Cylindric algebra](cylindric%20algebra.md), ::@:: by [Alfred Tarski](Alfred%20Tarski.md), et al.; <!--SR:!2026-10-05,346,364!2026-11-22,381,364-->
 - [Polyadic algebra](polyadic%20algebra.md), ::@:: by [Paul Halmos](Paul%20Halmos.md); <!--SR:!fsrs,2030-02-03T00:00:00.000Z,1292,1292.13420403,1,2,9,0,0,2026-07-22T00:00:00.000Z!2026-12-09,395,364-->
@@ -502,7 +502,7 @@ There are also {@{more subtle limitations of first-order logic}@} that are {@{im
 {@{[Per Lindström](Per%20Lindström.md)}@} showed that {@{the metalogical properties just discussed}@} actually {@{characterize first-order logic in the sense that no stronger logic can also have those properties}@} \(Ebbinghaus and Flum 1994, Chapter XIII\). Lindström defined {@{a class of abstract logical systems}@}, and {@{a rigorous definition of the relative strength of a member of this class}@}. He established {@{two theorems for systems of this type}@}: <!--SR:!2026-11-25,383,364!2026-08-05,289,346!2027-02-22,462,382!2027-01-17,429,382!2026-11-11,376,364!2026-10-07,348,364-->
 
 - {@{A logical system satisfying Lindström's definition}@} that {@{contains first-order logic and satisfies both the Löwenheim–Skolem theorem and the compactness theorem}@} must be {@{equivalent to first-order logic}@}.
-- {@{A logical system satisfying Lindström's definition}@} that {@{has a semidecidable logical consequence relation and satisfies the Löwenheim–Skolem theorem}@} must be {@{equivalent to first-order logic}@}. <!--SR:!2026-12-02,390,364!2026-07-30,272,344!2026-10-20,357,364!2027-02-05,446,382!2027-02-23,462,382!2026-10-27,363,364-->
+- {@{A logical system satisfying Lindström's definition}@} that {@{has a semidecidable logical consequence relation and satisfies the Löwenheim–Skolem theorem}@} must be {@{equivalent to first-order logic}@}. <!--SR:!2026-12-02,390,364!fsrs,2029-12-30T00:00:00.000Z,1248,1248.04282165,1,2,9,0,0,2026-07-31T00:00:00.000Z!2026-10-20,357,364!2027-02-05,446,382!2027-02-23,462,382!2026-10-27,363,364-->
 
 ## limitations
 

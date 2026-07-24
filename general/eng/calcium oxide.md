@@ -40,7 +40,7 @@ return await memorize_table(
 
 > | use                                                             | description                                                                                                              |
 > | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-> | {@{[flue-gas desulfurization](flue-gas%20desulfurization.md)}@} | {@{[Solid](solid.md) sparys or slurries of CaO can remove [SO<sub>2</sub>](sulfur%20dioxide.md) from exhaust streams.}@} | <!--SR:!2026-07-30,843,321!2030-03-14,1755,281-->
+> | {@{[flue-gas desulfurization](flue-gas%20desulfurization.md)}@} | {@{[Solid](solid.md) sparys or slurries of CaO can remove [SO<sub>2</sub>](sulfur%20dioxide.md) from exhaust streams.}@} | <!--SR:!fsrs,2035-01-30T00:00:00.000Z,3105,3104.98227221,1,2,11,0,0,2026-07-31T00:00:00.000Z!2030-03-14,1755,281-->
 
 <!--/pytextgen-->
 

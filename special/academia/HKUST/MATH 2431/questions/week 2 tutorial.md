@@ -31,7 +31,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > Find the number of arrangements of "MIIIISSSSPP".
 >
-> Solution: Treat the word as a {@{multiset permutation problem}@} with {@{$11$ total symbols}@} and repeated counts {@{$1,4,4,2$}@}. You can count it by {@{direct multinomial reasoning}@}: choose which {@{position is the unique $M$}@}, then choose which {@{$4$ of the remaining 10 positions are $I$}@}, which {@{$4$ positions of what remains are $S$}@}, and the rest are {@{$P$}@}; equivalently, divide $11!$ by {@{factorials of repeated groups}@} to remove overcounting, yielding {@{$\dfrac{11!}{4!4!2!}=\binom{11}{1,4,4,2}$}@}. <!--SR:!2026-08-04,63,310!2026-08-08,67,310!2026-07-30,58,310!fsrs,2027-04-27T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-04-22T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-04-11T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-08-07,66,310!2026-08-08,67,310!2026-08-07,66,310!2026-08-08,67,310-->
+> Solution: Treat the word as a {@{multiset permutation problem}@} with {@{$11$ total symbols}@} and repeated counts {@{$1,4,4,2$}@}. You can count it by {@{direct multinomial reasoning}@}: choose which {@{position is the unique $M$}@}, then choose which {@{$4$ of the remaining 10 positions are $I$}@}, which {@{$4$ positions of what remains are $S$}@}, and the rest are {@{$P$}@}; equivalently, divide $11!$ by {@{factorials of repeated groups}@} to remove overcounting, yielding {@{$\dfrac{11!}{4!4!2!}=\binom{11}{1,4,4,2}$}@}. <!--SR:!2026-08-04,63,310!2026-08-08,67,310!fsrs,2027-05-18T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-31T00:00:00.000Z!fsrs,2027-04-27T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-04-22T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-04-11T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-11T00:00:00.000Z!2026-08-07,66,310!2026-08-08,67,310!2026-08-07,66,310!2026-08-08,67,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -49,7 +49,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > Five people $A,B,C,D,E$ are arranged in a line and then in a circle. How many arrangements are possible in each case?
 >
-> Solution: For a line use {@{all permutations of 5 distinct people}@} giving {@{$5!=120$}@}; for a circle identify rotations as equivalent, {@{fix one anchor person}@} to quotient rotations, and count remaining arrangements as {@{$(5-1)!=4!=24$}@}. <!--SR:!2026-08-03,62,310!2026-07-30,58,310!2026-08-08,67,310!2026-07-30,58,310-->
+> Solution: For a line use {@{all permutations of 5 distinct people}@} giving {@{$5!=120$}@}; for a circle identify rotations as equivalent, {@{fix one anchor person}@} to quotient rotations, and count remaining arrangements as {@{$(5-1)!=4!=24$}@}. <!--SR:!2026-08-03,62,310!fsrs,2027-05-18T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-31T00:00:00.000Z!2026-08-08,67,310!fsrs,2027-05-18T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -83,4 +83,4 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > If $\mathcal{F}$ is a sigma-algebra on $\Omega$ and $B\in\mathcal{F}$, show that $\mathcal{G}=\{A\cap B:A\in\mathcal{F}\}$ is a sigma-algebra on $B$.
 >
-> Solution: Verify {@{the three sigma-algebra axioms on space $B$}@}: whole space is {@{$B=\Omega\cap B\in\mathcal{G}$}@}; relative complement of {@{$E=A\cap B$}@} is {@{$B\setminus E=A^c\cap B\in\mathcal{G}$}@} since {@{$A^c\in\mathcal{F}$}@}; and countable unions satisfy {@{$\bigcup_n(A_n\cap B)=(\bigcup_n A_n)\cap B\in\mathcal{G}$}@} because {@{$\bigcup_n A_n\in\mathcal{F}$}@}, hence {@{$\mathcal{G}$ is a sigma-algebra on $B$}@}. <!--SR:!2026-08-05,64,310!2026-08-02,61,310!2026-07-30,58,310!2026-08-04,63,310!2026-08-06,65,310!2026-08-05,64,310!2026-08-04,63,310!2026-08-04,63,310-->
+> Solution: Verify {@{the three sigma-algebra axioms on space $B$}@}: whole space is {@{$B=\Omega\cap B\in\mathcal{G}$}@}; relative complement of {@{$E=A\cap B$}@} is {@{$B\setminus E=A^c\cap B\in\mathcal{G}$}@} since {@{$A^c\in\mathcal{F}$}@}; and countable unions satisfy {@{$\bigcup_n(A_n\cap B)=(\bigcup_n A_n)\cap B\in\mathcal{G}$}@} because {@{$\bigcup_n A_n\in\mathcal{F}$}@}, hence {@{$\mathcal{G}$ is a sigma-algebra on $B$}@}. <!--SR:!2026-08-05,64,310!2026-08-02,61,310!fsrs,2027-05-18T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-31T00:00:00.000Z!2026-08-04,63,310!2026-08-06,65,310!2026-08-05,64,310!2026-08-04,63,310!2026-08-04,63,310-->
