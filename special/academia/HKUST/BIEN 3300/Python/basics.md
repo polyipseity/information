@@ -152,7 +152,7 @@ return chain.from_iterable([r.value for r in results])
 - `<`:@:lesser than <!--SR:!2026-08-09,235,330-->
 - `<=`:@:lesser than or equal to <!--SR:!2026-10-03,272,330-->
 - `>`:@:greater than <!--SR:!2026-10-16,285,330-->
-- `>=`:@:greater than or equal to <!--SR:!2026-08-02,228,330-->
+- `>=`:@:greater than or equal to <!--SR:!fsrs,2029-05-21T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-03T00:00:00.000Z-->
 - `!=`:@:not equal to <!--SR:!2026-09-14,253,330-->
 - `==`:@:equal to <!--SR:!2026-09-01,254,330-->
 

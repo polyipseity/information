@@ -35,7 +35,7 @@ This note is also the main home for the discrete-time Fourier series viewpoint, 
 
 Flashcards for this section are as follows:
 
-- What core problem does the DFT note solve in ELEC 2100? ::@:: It converts a finite record of samples into a finite set of frequency-bin coefficients so discrete data can be analyzed, computed, and reconstructed on an $N$-point grid. <!--SR:!2026-08-02,65,310!2026-08-19,82,341-->
+- What core problem does the DFT note solve in ELEC 2100? ::@:: It converts a finite record of samples into a finite set of frequency-bin coefficients so discrete data can be analyzed, computed, and reconstructed on an $N$-point grid. <!--SR:!fsrs,2027-06-20T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-08-03T00:00:00.000Z!2026-08-19,82,341-->
 - Why is the DFT not simply the DTFT with fewer plotted points? ::@:: Because the DFT treats a finite record as one period of a length-$N$ periodic extension, so circular shift and circular convolution are built into the transform model. <!--SR:!2026-08-13,76,329!fsrs,2027-05-30T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
 - Why is DTFS/DFS mainly grouped with the DFT note rather than the DTFT note? ::@:: Because DTFS/DFS and DFT both use one finite harmonic coefficient cycle for period-$N$ data, whereas the general DTFT uses the continuous digital-frequency variable $\Omega=\omega T$ and represents periodic sequences by a line spectrum. <!--SR:!2026-08-19,82,341!2026-08-13,76,329-->
 
@@ -129,7 +129,7 @@ This gives a clean memory rule. DTFS/DFS is the _average-first_ convention: divi
 Flashcards for this section are as follows:
 
 - What is the course-material distinction between DTFS/DFS and DFT? ::@:: DTFS/DFS is used for an explicitly periodic sequence, while DFT is used for a finite record with an implicit periodic extension. So for exams and assignments, remember the interpretive distinction even though the formulas are very closely related. <!--SR:!2026-08-15,78,341!2026-08-13,76,329-->
-- In actual algebra, how are DTFS/DFS and DFT related? ::@:: Once one period is identified, they are the same harmonic decomposition with the same basis functions and modulo-$N$ indexing. The coefficient lists differ only by normalization: $X[k]=N\tilde X[k]$. <!--SR:!2026-08-13,76,329!2026-08-02,65,310-->
+- In actual algebra, how are DTFS/DFS and DFT related? ::@:: Once one period is identified, they are the same harmonic decomposition with the same basis functions and modulo-$N$ indexing. The coefficient lists differ only by normalization: $X[k]=N\tilde X[k]$. <!--SR:!2026-08-13,76,329!fsrs,2027-06-20T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-08-03T00:00:00.000Z-->
 - What is the easiest memory rule for the $1/N$ placement in DTFS/DFS versus DFT? ::@:: DTFS/DFS is the average-first convention: put $1/N$ in the forward coefficient formula and synthesize directly. DFT is the sum-first convention: keep the forward transform unnormalized and divide by $N$ in the inverse transform. <!--SR:!2026-08-14,77,341!2026-08-12,75,329-->
 
 ## periodic sequences and discrete-time Fourier series
@@ -316,7 +316,7 @@ Flashcards for this section are as follows:
 
 - What is a circular shift of a length-$N$ sequence? ::@:: It is the modulo-$N$ shift $x_c[n]=x[(n-m)_N]$, which moves samples by $m$ positions and wraps any samples that pass one edge back to the other side. <!--SR:!fsrs,2027-06-15T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-08-02T00:00:00.000Z!2026-08-13,76,329-->
 - If $x_c[n]=x[(n-m)_N]$, how do you derive the DFT of the shifted sequence? ::@:: Start from $X_c[k]=\sum_{n=0}^{N-1}x[(n-m)_N]e^{-j2\pi kn/N}$. <br/> Re-index with $r=(n-m)_N$. <br/> Then factor out the term $e^{-j2\pi km/N}$ and recognize the remaining sum as $X[k]$. <br/> So $X_c[k]=e^{-j2\pi km/N}X[k]=W_N^{mk}X[k]$. <!--SR:!fsrs,2027-04-11T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-06-05T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
-- Why is the DFT shift law called circular rather than ordinary delay? ::@:: Because the finite transform assumes a periodic extension of length $N$, so the shifted record wraps around modulo $N$ instead of moving on an open index axis. <!--SR:!2026-08-12,75,329!2026-08-02,65,310-->
+- Why is the DFT shift law called circular rather than ordinary delay? ::@:: Because the finite transform assumes a periodic extension of length $N$, so the shifted record wraps around modulo $N$ instead of moving on an open index axis. <!--SR:!2026-08-12,75,329!fsrs,2027-06-20T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-08-03T00:00:00.000Z-->
 - What is the difference between linear shift and circular shift? ::@:: Linear shift can create empty space and extend support, whereas circular shift preserves exactly $N$ stored sample positions and wraps outgoing samples back into the record. <!--SR:!2026-08-13,76,329!fsrs,2027-06-05T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
 - What time-domain effect corresponds to circularly shifting the DFT bins? ::@:: It corresponds to multiplying the time-domain sequence by a complex exponential, the finite-length analogue of frequency shifting. <!--SR:!2026-08-12,75,329!2026-08-12,75,329-->
 

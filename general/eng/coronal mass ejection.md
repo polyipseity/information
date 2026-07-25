@@ -17,7 +17,7 @@ tags:
 
 A __coronal mass ejection__ (__CME__) is {@{a significant ejection of [magnetic field](magnetic%20field.md) and accompanying [plasma](plasma%20(physics).md) mass from the Sun's [corona](corona.md) into the [heliosphere](heliosphere.md)}@}. <!--SR:!2028-04-22,1063,350-->
 
-If a CME {@{enters [interplanetary space](interplanetary%20medium.md)}@}, it is referred to as {@{an __interplanetary coronal mass ejection__ (__ICME__)}@}. ICMEs are capable of {@{reaching and colliding with Earth's [magnetosphere](magnetosphere.md)}@}, where they can cause {@{[geomagnetic storms](geomagnetic%20storm.md), [aurorae](aurora.md), and in rare cases damage to [electrical power grids](electrical%20grid.md)}@}. <!--SR:!2028-05-10,1075,350!2029-09-17,1464,350!2030-01-15,1395,310!2026-08-02,83,343-->
+If a CME {@{enters [interplanetary space](interplanetary%20medium.md)}@}, it is referred to as {@{an __interplanetary coronal mass ejection__ (__ICME__)}@}. ICMEs are capable of {@{reaching and colliding with Earth's [magnetosphere](magnetosphere.md)}@}, where they can cause {@{[geomagnetic storms](geomagnetic%20storm.md), [aurorae](aurora.md), and in rare cases damage to [electrical power grids](electrical%20grid.md)}@}. <!--SR:!2028-05-10,1075,350!2029-09-17,1464,350!2030-01-15,1395,310!fsrs,2027-10-24T00:00:00.000Z,447,446.60025621,1,2,7,0,0,2026-08-03T00:00:00.000Z-->
 
 ## references
 

@@ -512,7 +512,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced retroflex approximant](voiced%20retroflex%20approximant.md):@:\[ɻ\] <!--SR:!2026-08-31,731,331-->
 - [voiced uvular fricative](voiced%20uvular%20fricative.md):@:\[ʁ\] <!--SR:!2027-02-11,589,353-->
 - [voiceless alveolar fricative](voiceless%20alveolar%20fricative.md):@:\[s\] <!--SR:!2033-03-27,2787,381-->
-- [voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md):@:\[ʃ\] <!--SR:!2026-08-02,647,291-->
+- [voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md):@:\[ʃ\] <!--SR:!fsrs,2030-08-24T00:00:00.000Z,1482,1482.41853885,3.95376587,2,10,0,0,2026-08-03T00:00:00.000Z-->
 - [voiceless retroflex fricative](voiceless%20retroflex%20fricative.md):@:\[ʂ\] <!--SR:!2027-12-12,1073,354-->
 - [voiceless alveolar plosive](voiceless%20alveolar%20plosive.md):@:\[t\] <!--SR:!2030-05-05,1947,381-->
 - [voiceless retroflex plosive](voiceless%20retroflex%20plosive.md):@:\[ʈ\] <!--SR:!2027-03-20,631,273-->
@@ -835,7 +835,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![r-colored open-mid central unrounded vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg):@:[r-colored open-mid central unrounded vowel](r-colored%20vowel.md) <!--SR:!fsrs,2026-09-19T00:00:00.000Z,51,50.70137641,9.97542228,2,7,0,0,2026-07-30T00:00:00.000Z-->
 - ![voiceless labiodental fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-dental%20fricative.ogg):@:[voiceless labiodental fricative](voiceless%20labiodental%20fricative.md) <!--SR:!2026-09-25,144,173-->
 - ![voiced velar plosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20plosive%2002.ogg):@:[voiced velar plosive](voiced%20velar%20plosive.md) <!--SR:!2027-03-11,418,194-->
-- ![voiced velar implosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20implosive.ogg):@:[voiced velar implosive](voiced%20velar%20implosive.md) <!--SR:!2026-08-02,84,130-->
+- ![voiced velar implosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20implosive.ogg):@:[voiced velar implosive](voiced%20velar%20implosive.md) <!--SR:!fsrs,2026-11-08T00:00:00.000Z,97,97.11973007,9.98522837,2,7,0,0,2026-08-03T00:00:00.000Z-->
 - ![voiced uvular plosive](../../archives/Wikimedia%20Commons/Voiced%20uvular%20stop.ogg):@:[voiced uvular plosive](voiced%20uvular%20plosive.md) <!--SR:!fsrs,2027-01-12T03:37:26.281Z,211,211.47091561,9.98522837,2,8,0,0,2026-06-15T03:37:26.281Z-->
 - ![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg):@:[voiceless glottal fricative](voiceless%20glottal%20fricative.md) <!--SR:!fsrs,2026-09-11T00:00:00.000Z,65,65.34996832,9.73628589,2,7,0,0,2026-07-08T00:00:00.000Z-->
 - ![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg):@:[voiced glottal fricative](voiced%20glottal%20fricative.md) <!--SR:!2028-03-07,902,221-->
@@ -855,7 +855,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg):@:[voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md) <!--SR:!fsrs,2026-08-04T03:59:56.171Z,50,50.07902218,7.96879432,2,6,0,0,2026-06-15T03:59:56.171Z-->
 - ![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg):@:[voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md) <!--SR:!fsrs,2026-09-20T00:00:00.000Z,54,54.25128115,9.97047151,2,7,0,0,2026-07-28T00:00:00.000Z-->
 - ![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg):@:[voiced bilabial nasal](voiced%20bilabial%20nasal.md) <!--SR:!2026-10-15,316,276-->
-- ![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg):@:[voiced labiodental nasal](voiced%20labiodental%20nasal.md) <!--SR:!2026-08-02,197,294-->
+- ![voiced labiodental nasal](../../archives/Wikimedia%20Commons/Labiodental%20nasal.ogg):@:[voiced labiodental nasal](voiced%20labiodental%20nasal.md) <!--SR:!fsrs,2027-08-25T00:00:00.000Z,387,386.95340979,5.90257178,2,9,0,0,2026-08-03T00:00:00.000Z-->
 - ![voiced alveolar nasal](../../archives/Wikimedia%20Commons/Alveolar%20nasal.ogg):@:[voiced alveolar nasal](voiced%20alveolar%20nasal.md) <!--SR:!2027-08-02,562,270-->
 - ![voiced velar nasal](../../archives/Wikimedia%20Commons/Velar%20nasal.ogg):@:[voiced velar nasal](voiced%20velar%20nasal.md) <!--SR:!fsrs,2026-09-20T00:00:00.000Z,94,94.09467237,6.50003372,2,7,0,0,2026-06-18T00:00:00.000Z-->
 - ![voiced palatal nasal](../../archives/Wikimedia%20Commons/Palatal%20nasal.ogg):@:[voiced palatal nasal](voiced%20palatal%20nasal.md) <!--SR:!2026-08-19,107,190-->
@@ -1001,7 +1001,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced uvular trill](voiced%20uvular%20trill.md):@:[German](German%20language.md) _**r**ot_ \[ʀoːt\] "red" <!--SR:!2029-12-24,1496,291-->
 - [voiced retroflex flap](voiced%20retroflex%20flap.md):@:[Swedish](Swedish%20language.md) _b**l**ad_ \[bɽɑː(d)\] "leaf" <!--SR:!2026-10-07,149,130-->
 - [voiced alveolar approximant](voiced%20alveolar%20approximant.md):@:[Swedish](Swedish%20language.md) _sta**r**kast_ \[ˈs̪t̪äɹːkäs̪t̪\] "strongest" <!--SR:!2026-09-08,127,130-->
-- [voiced retroflex approximant](voiced%20retroflex%20approximant.md):@:[Chinese](Chinese%20language.md) 肉/_**r**òu_ \[ɻ̺oʊ̯˥˩\] "meat" <!--SR:!fsrs,2026-08-03T00:00:00.000Z,24,23.67033291,9.95572941,2,6,0,0,2026-07-10T00:00:00.000Z-->
+- [voiced retroflex approximant](voiced%20retroflex%20approximant.md):@:[Chinese](Chinese%20language.md) 肉/_**r**òu_ \[ɻ̺oʊ̯˥˩\] "meat" <!--SR:!fsrs,2026-09-04T00:00:00.000Z,32,31.60922881,9.94100205,2,7,0,0,2026-08-03T00:00:00.000Z-->
 - [voiced uvular fricative](voiced%20uvular%20fricative.md):@:[French](French%20language.md) _**r**ester_ \[ʁɛste\] "to stay" <!--SR:!fsrs,2026-10-08T00:00:00.000Z,109,108.9618966,8.98461332,2,7,0,0,2026-06-21T00:00:00.000Z-->
 - [voiceless alveolar fricative](voiceless%20alveolar%20fricative.md):@:[English](English%20language.md) _**s**it_ \[sɪt\] <!--SR:!2026-08-31,504,271-->
 - [voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md):@:[English](English%20language.md) _**sh**eep_ \[ˈʃiːp\] <!--SR:!2026-08-04,265,191-->

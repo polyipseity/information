@@ -43,7 +43,7 @@ The model is considered {@{stable only if λ \< μ}@}. If, {@{on average, arriva
 
 ### average number of customers in the system
 
-We see that {@{the number of customers in the system}@} is {@{[geometrically distributed](geometric%20distribution.md) \(annotation: unshifted, i.e. includes $i = 0$\) with parameter 1 − _ρ_}@}. Thus {@{the average number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)}@} and {@{the variance of number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)<sup>2</sup>}@}. This result holds for {@{any work conserving service regime, such as processor sharing}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-07-17,1142,350!2029-08-10,1163,350!2029-05-04,1085,350!2026-08-02,305,350!2028-05-19,786,330!fsrs,2029-07-05T11:16:32.525Z,1126,1126.27892251,1,2,9,0,0,2026-06-05T11:16:32.525Z!2029-07-05,1134,350-->
+We see that {@{the number of customers in the system}@} is {@{[geometrically distributed](geometric%20distribution.md) \(annotation: unshifted, i.e. includes $i = 0$\) with parameter 1 − _ρ_}@}. Thus {@{the average number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)}@} and {@{the variance of number of customers in the system}@} is {@{_ρ_<!-- markdown separator -->/\(1 − _ρ_\)<sup>2</sup>}@}. This result holds for {@{any work conserving service regime, such as processor sharing}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2029-07-17,1142,350!2029-08-10,1163,350!2029-05-04,1085,350!fsrs,2030-06-08T00:00:00.000Z,1405,1405.23695752,1,2,9,0,0,2026-08-03T00:00:00.000Z!2028-05-19,786,330!fsrs,2029-07-05T11:16:32.525Z,1126,1126.27892251,1,2,9,0,0,2026-06-05T11:16:32.525Z!2029-07-05,1134,350-->
 
 ### busy period of server
 

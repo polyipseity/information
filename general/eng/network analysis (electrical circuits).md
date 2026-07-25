@@ -103,7 +103,7 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 #### delta-to-star transformation equations
 
-\(annotation: equations\) ::@:: $${\begin{aligned}R_{a}&={\frac {R_{\mathrm {ac} }R_{\mathrm {ab} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{b}&={\frac {R_{\mathrm {ab} }R_{\mathrm {bc} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{c}&={\frac {R_{\mathrm {bc} }R_{\mathrm {ac} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\end{aligned} }$$ \(annotation: mnemonic: 2 variables per term above, 1 below; 1 terms above, 3 below; inverse\) <!--SR:!2026-08-02,86,220!fsrs,2028-01-31T00:00:00.000Z,547,547.37695883,4.36585337,2,9,0,0,2026-08-02T00:00:00.000Z-->
+\(annotation: equations\) ::@:: $${\begin{aligned}R_{a}&={\frac {R_{\mathrm {ac} }R_{\mathrm {ab} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{b}&={\frac {R_{\mathrm {ab} }R_{\mathrm {bc} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\\R_{c}&={\frac {R_{\mathrm {bc} }R_{\mathrm {ac} } }{R_{\mathrm {ac} }+R_{\mathrm {ab} }+R_{\mathrm {bc} } } }\end{aligned} }$$ \(annotation: mnemonic: 2 variables per term above, 1 below; 1 terms above, 3 below; inverse\) <!--SR:!fsrs,2027-04-28T00:00:00.000Z,268,268.25778327,5.48246064,2,7,0,0,2026-08-03T00:00:00.000Z!fsrs,2028-01-31T00:00:00.000Z,547,547.37695883,4.36585337,2,9,0,0,2026-08-02T00:00:00.000Z-->
 
 #### star-to-delta transformation equations
 

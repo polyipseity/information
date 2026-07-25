@@ -15,7 +15,7 @@ In {@{[economics](economics.md)}@}, {@{the __law of one price__ \(__LOOP__\)}@} 
 
 ## overview
 
-{@{The intuition behind the law of one price}@} is based on {@{the assumption that differences between prices}@} are {@{eliminated by market participants taking advantage of arbitrage opportunities}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2029-05-21,1208,350!2028-10-18,960,330!2026-08-02,126,401-->
+{@{The intuition behind the law of one price}@} is based on {@{the assumption that differences between prices}@} are {@{eliminated by market participants taking advantage of arbitrage opportunities}@}.<sup>[\[8\]](#^ref-8)</sup><sup>\[_[additional citation\(s\) needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2029-05-21,1208,350!2028-10-18,960,330!fsrs,2028-06-30T00:00:00.000Z,697,697.23354019,1,2,8,0,0,2026-08-03T00:00:00.000Z-->
 
 ### example in regular trade
 

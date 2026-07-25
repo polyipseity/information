@@ -127,7 +127,7 @@ The content is in teaching order.
     - Scala / Scala 3
         - [§ scoping](Scala%203.md#scoping): scope creation, lexical scoping, shadowing
 - [scope](../../../../general/scope%20(computer%20science).md) ::@:: It of a name binding \(an association of a name to an entity, such as a variable\) is the part of a program where the name binding is valid; that is, where the name can be used to refer to the entity. <!--SR:!2026-08-03,248,330!2026-08-23,263,330-->
-    - scope / motivation ::@:: It helps to avoid _namespace pollution_. <!--SR:!2026-08-06,251,330!2026-08-02,247,330-->
+    - scope / motivation ::@:: It helps to avoid _namespace pollution_. <!--SR:!2026-08-06,251,330!fsrs,2029-08-03T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-03T00:00:00.000Z-->
     - scope / lexical scoping ::@:: With it, a name always refers to its lexical context. This is a property of the program text and is made independent of the runtime call stack by the language implementation. <!--SR:!2026-09-08,276,330!2026-09-04,273,330-->
 - Scala
     - Scala / Scala 3

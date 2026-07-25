@@ -400,7 +400,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 >       case x :: xs  => xs.foldLeft(op(z, x))(op)
 > ```
 >
-> {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. <!--SR:!2026-12-17,325,350!2026-08-02,199,330!2027-01-03,342,350!2026-12-31,339,350-->
+> {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. <!--SR:!2026-12-17,325,350!fsrs,2029-01-27T00:00:00.000Z,908,908.17175288,1,2,9,0,0,2026-08-03T00:00:00.000Z!2027-01-03,342,350!2026-12-31,339,350-->
 
 {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear-time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!2026-09-14,242,330!2026-09-15,243,330!2026-10-09,267,330!2026-12-27,335,350!2027-01-05,344,350-->
 
