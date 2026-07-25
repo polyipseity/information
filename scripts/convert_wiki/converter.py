@@ -872,10 +872,7 @@ class WikiHtmlConverter:
     ) -> _HandlerConfig:
         """Handle list item <li> elements."""
         item = list_stack[-1] if list_stack else -1
-        if self._in_table_cell(ele) and ele.find(("ul", "ol")) is not None:
-            li_suffix = ""
-        else:
-            li_suffix = "\n"
+        li_suffix = "\n"
         if item >= 1:
             prefix = f"{_cfg._LIST_INDENT * (len(list_stack) - 1)}{item}. "
             if str(ele.get("id", "")).startswith("cite_"):
