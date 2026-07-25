@@ -469,10 +469,6 @@ class WikiHtmlConverter:
         italic_str = "_" if italic else ""
         prefix = f"{bold_str}{italic_str}"
         suffix = f"{italic_str}{bold_str}"
-        if "sidebar-title-with-pretitle" in classes:
-            prefix = f"{bold_str}<big>"
-            suffix = f"</big>{bold_str}"
-
         if self._needs_separator_before(ele.previous_sibling):
             prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
         if self._needs_separator_after(ele.next_sibling):
@@ -547,6 +543,21 @@ class WikiHtmlConverter:
                 header_trs.append(tr)
             else:
                 break
+
+        # Wrap sidebar-title-with-pretitle cell content in <big> element.
+        if target_tr is not None:
+            for target_cell in target_tr.children:
+                if (
+                    isinstance(target_cell, Tag)
+                    and target_cell.name in _TD_OR_TH
+                    and "sidebar-title-with-pretitle"
+                    in target_cell.get_attribute_list("class")
+                ):
+                    children = list(target_cell.children)
+                    big_tag = self._soup.new_tag("big")
+                    for child in children:
+                        big_tag.append(child.extract())
+                    target_cell.append(big_tag)
 
         if target_tr is None or len(header_trs) <= 1:
             return
@@ -1172,12 +1183,6 @@ class WikiHtmlConverter:
 
     def _handle_th(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Dispatch <th> table header cell elements."""
-        if "sidebar-title-with-pretitle" in classes:
-            return _HandlerConfig(
-                prefix="<big>",
-                suffix="</big>",
-                process_strings=self._process_table_cell,
-            )
         return _HandlerConfig(process_strings=self._process_table_cell)
 
     @staticmethod
