@@ -5,7 +5,7 @@ to ensure the new mistune AST-based implementations produce identical output.
 
 Covered functions (all in ``scripts/convert_wiki/``):
 
-- ``pipeline._MD028_RE`` — MD028 suppression between adjacent blockquotes
+- ``pipeline._separate_block_quotes`` — MD028 suppression between adjacent blockquotes
 - ``pipeline._separate_block_math`` — block math spacing via mistune
 - ``utils._pad_table_blocks``, ``_pad_table_block``, ``_parse_table_row``,
   ``_is_separator_cell``, ``_get_separator_alignment``, ``_format_separator_cell``
@@ -21,8 +21,8 @@ from bs4 import BeautifulSoup
 import scripts.convert_wiki.pipeline as _pl
 from scripts.convert_wiki.converter import _replace_pipes_outside_math
 from scripts.convert_wiki.pipeline import (
-    _MD028_RE,
     _separate_block_math,
+    _separate_block_quotes,
 )
 from scripts.convert_wiki.utils import (
     _format_separator_cell,
@@ -122,77 +122,72 @@ class TestReplacePipesOutsideMath:
 
 # ──────────────────────────────────────────────
 
-# _MD028_RE
+# _separate_block_quotes
 
 # ──────────────────────────────────────────────
 
 
-class TestMD028RegEx:
-    """Regression tests for _MD028_RE regex pattern.
+class TestMD028SeparateBlockQuotes:
+    """Regression tests for _separate_block_quotes.
 
-    The regex finds adjacent blockquote blocks separated by one or more blank
-    lines and inserts an MD028 suppression comment between them.
+    Uses mistune AST to find adjacent blockquote blocks separated only by
+    blank lines and inserts an MD028 suppression comment between them.
     """
 
     def test_adjacent_blockquotes(self) -> None:
         """Two adjacent blockquotes with blank line → MD028 comment."""
         text = "> First block\n\n> Second block"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert result == (
             "> First block\n\n<!-- markdownlint MD028 -->\n\n> Second block"
         )
 
     def test_three_adjacent_blockquotes(self) -> None:
-        """Three adjacent blockquotes → MD028 between first and rest.
-
-        Note: The current regex's ``group(2)`` greedily consumes ALL remaining
-        blockquote lines after the blank line separator.  So for three blocks
-        only one comment is inserted.  This is a known limitation — the
-        mistune AST replacement will handle this correctly.
-        """
+        """Three adjacent blockquotes → MD028 between each pair."""
         text = "> Block 1\n\n> Block 2\n\n> Block 3"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
-        # Only one comment between Block 1 and (Block 2 + Block 3 combined)
-        assert result.count("<!-- markdownlint MD028 -->") == 1
-        assert result.startswith(
-            "> Block 1\n\n<!-- markdownlint MD028 -->\n\n> Block 2"
+        result = _separate_block_quotes(text)
+        # New AST-based function correctly handles all adjacent pairs.
+        assert result.count("<!-- markdownlint MD028 -->") == 2
+        assert result == (
+            "> Block 1\n\n<!-- markdownlint MD028 -->\n\n"
+            "> Block 2\n\n<!-- markdownlint MD028 -->\n\n"
+            "> Block 3"
         )
-        assert result.endswith("> Block 3")
 
     def test_single_blockquote_no_change(self) -> None:
         """Single blockquote → no change."""
         text = "> Single block"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert result == text
 
     def test_no_blockquotes_no_change(self) -> None:
         """No blockquote lines → no change."""
         text = "Plain text\n\nMore text"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert result == text
 
     def test_blockquote_then_other_content(self) -> None:
         """Blockquote followed by non-blockquote → no MD028."""
         text = "> A quote\n\nNot a quote"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert result == text
 
     def test_other_content_then_blockquote(self) -> None:
         """Non-blockquote followed by blockquote → no MD028."""
         text = "Not a quote\n\n> A quote"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert result == text
 
     def test_blockquote_with_inline_content(self) -> None:
         """Blockquote with nested elements → still matches."""
         text = "> Some **bold** text\n\n> Other `code` here"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" in result
 
     def test_multi_line_blockquotes(self) -> None:
         """Multi-line blockquotes → treated as one block."""
         text = "> Line 1\n> Line 2\n\n> Line 3\n> Line 4"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         expected = (
             "> Line 1\n> Line 2\n\n<!-- markdownlint MD028 -->\n\n> Line 3\n> Line 4"
         )
@@ -201,15 +196,14 @@ class TestMD028RegEx:
     def test_no_trailing_newline_after_second_block(self) -> None:
         """Second blockquote without trailing newline → still matches."""
         text = "> First block\n\n> Second block"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert "Second block" in result
 
     def test_triple_blank_lines_between_blockquotes(self) -> None:
         """Multiple (3+) blank lines → treated as one separator."""
         text = "> First\n\n\n> Second"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" in result
-        assert "\n\n\n" not in result  # blank lines collapsed
 
 
 # ──────────────────────────────────────────────
@@ -651,34 +645,34 @@ class TestWikiHtmlToPlaintextTable:
 
 
 class TestMD028EdgeCases:
-    """Edge cases for the MD028 regex pattern."""
+    """Edge cases for _separate_block_quotes."""
 
     def test_empty_lines_only(self) -> None:
         """Only empty lines and blockquotes."""
         text = "> Quote\n\n\n> Another"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" in result
 
     def test_blockquote_with_nested_list(self) -> None:
         """Blockquote containing nested list elements."""
         text = "> Outer\n> - Item\n> - Item\n\n> Next quote"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" in result
 
     def test_blockquote_with_code_fence(self) -> None:
         """Blockquote containing a code fence."""
         text = "> Quote with:\n> ```\n> code block\n> ```\n\n> Next quote"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" in result
 
     def test_no_trailing_newline(self) -> None:
         """Input without trailing newline."""
         text = "> A\n\n> B"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert result == ("> A\n\n<!-- markdownlint MD028 -->\n\n> B")
 
     def test_unicode_in_blockquotes(self) -> None:
         """Blockquote with unicode characters."""
         text = "> «élève»\n\n> «estudiante»"
-        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" in result

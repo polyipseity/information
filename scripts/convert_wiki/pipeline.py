@@ -22,16 +22,16 @@ from .api import (
     _resolve_image_metadata,
     _resolve_redirects,
 )
-from .ast_utils import _MISTUNE_PARSER
+from .ast_utils import (
+    _MISTUNE_PARSER,
+    _find_top_level_adjacent,
+)
 from .converter import WikiHtmlConverter
 from .types import _RedirectInfo
 from .utils import _pad_table_blocks
 
 """Exported names from this module."""
 __all__ = ()
-
-"""Regex for MD028 suppression between adjacent blockquote blocks."""
-_MD028_RE = re.compile(r"(^(?:>[^\n]*\n)+)\n+((?:^>[^\n]*(?:\n|$))+)", re.MULTILINE)
 
 
 def _make_converter(
@@ -198,6 +198,81 @@ def _scan_and_apply(text: str, info: list[tuple[str, bool, bool]]) -> str:
     return "".join(parts)
 
 
+def _separate_block_quotes(text: str) -> str:
+    """Insert MD028 suppression comments between adjacent blockquote blocks.
+
+    Uses the mistune AST to identify adjacent ``block_quote`` tokens
+    separated only by blank lines.  For each adjacent pair, an MD028
+    suppression comment is inserted between them (replacing the blank
+    line separator).
+
+    This replaces the fragile regex ``_MD028_RE`` that was limited in
+    handling nested content and multi-block groups.
+    """
+    parse_result, _state = _MISTUNE_PARSER.parse(text)
+    del _state
+    if isinstance(parse_result, str):
+        return text  # Parse error, return unchanged.
+
+    pairs = _find_top_level_adjacent(parse_result, "block_quote")
+    if not pairs:
+        return text
+
+    # Find all block_quote sections in the source text by scanning for
+    # consecutive lines starting with ``>``.  This is more reliable than
+    # ``_find_token_range`` because ``_reconstruct_token_raw`` does not
+    # preserve all formatting details (code span backticks, list item
+    # markers, etc.).
+    lines = text.split("\n")
+    # Build byte offset table: offsets[n] = byte position of line n,
+    # offsets[-1] = position after the last newline.
+    offsets = [0]
+    for line in lines:
+        offsets.append(offsets[-1] + len(line) + 1)
+
+    ranges: list[tuple[int, int]] = []
+    i = 0
+    while i < len(lines):
+        if not lines[i].startswith(">"):
+            i += 1
+            continue
+        start = offsets[i]
+        while i < len(lines) and lines[i].startswith(">"):
+            i += 1
+        end = offsets[i]  # byte after the last ``>`` line
+        ranges.append((start, end))
+
+    if not ranges:
+        return text
+
+    # Map AST block_quote indices (in parse_result) to source ranges
+    # (both are in source order, so position in the block_quote token
+    # list corresponds to position in the ranges list).
+    bq_indices = [
+        idx for idx, tok in enumerate(parse_result) if tok["type"] == "block_quote"
+    ]
+    index_to_range: dict[int, int] = {}
+    for n, idx in enumerate(bq_indices):
+        if n < len(ranges):
+            index_to_range[idx] = n
+
+    for first, second in reversed(pairs):
+        first_n = index_to_range.get(first)
+        second_n = index_to_range.get(second)
+        if first_n is None or second_n is None:
+            continue
+        _first_start, first_end = ranges[first_n]
+        second_start, _second_end = ranges[second_n]
+        # Replace the gap (blank line(s)) between the two block_quote
+        # sections with the MD028 suppression comment surrounded by
+        # blank lines.
+        text = (
+            text[:first_end] + "\n<!-- markdownlint MD028 -->\n\n" + text[second_start:]
+        )
+
+    return text
+
+
 def _separate_block_math(text: str) -> str:
     """Ensure minimum whitespace separation around ``$$…$$`` block math.
 
@@ -268,7 +343,7 @@ async def wiki_html_to_plaintext(
     # Pad table columns to the widest content per column.
     result = _pad_table_blocks(result)
     # Insert MD028 suppression comments between adjacent blockquote blocks.
-    result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", result)
+    result = _separate_block_quotes(result)
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
     result = result.strip()
