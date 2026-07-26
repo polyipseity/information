@@ -58,12 +58,6 @@ _PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
 _CONSECUTIVE_NEWLINES_REGEX = re.compile(r"\n\n+")
 """Leading whitespace lines at the start of a cell."""
 _CONSECUTIVE_LEADING_WHITESPACES_REGEX = re.compile(r"(?:^|\n)([ \t]+)", re.MULTILINE)
-"""``| __bold__ |`` bold table headers separated by spaces."""
-_TABLE_IN_TABLE_HEADER_REGEX = re.compile(r"\| (__.*?__) \|")
-""""``|`` that shouldn't be consumed as part of a pipe table cell."""
-_TABLE_IN_TABLE_LEADING_VERTICAL_REGEX = re.compile(r"^\s*\|", re.MULTILINE)
-"""``|`` that shouldn't be consumed as part of a pipe table cell."""
-_TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX = re.compile(r"\|\s*$", re.MULTILINE)
 """Whitespace and separator chars for sidebar tight wrapping."""
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 """Markdown separator character set used for emphasis adjacency."""
@@ -1414,16 +1408,22 @@ class WikiHtmlConverter:
         )
         strings = strings.replace("\xa0", " ")
         strings = strings.replace("| |", "|")
-        strings = _TABLE_IN_TABLE_HEADER_REGEX.sub(
-            lambda match: f"|{match[1]} <p> ", strings
-        )
+        strings = strings.replace("| __", "|__").replace("__ |", "__ <p> ")
         strings = strings.replace("|\n|", " <p> ")
-        strings = _TABLE_IN_TABLE_LEADING_VERTICAL_REGEX.sub(
-            lambda match: match[0][: -len("|")], strings
-        )
-        strings = _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX.sub(
-            lambda match: match[0][len("|") :], strings
-        )
+        # Remove leading and trailing ``|`` per line to prevent confusion
+        # with pipe table delimiters.
+        lines = strings.split("\n")
+        for i, line in enumerate(lines):
+            sline = line.lstrip()
+            if sline.startswith("|"):
+                lines[i] = line[: len(line) - len(sline)] + sline[1:]
+        strings = "\n".join(lines)
+        lines = strings.split("\n")
+        for i, line in enumerate(lines):
+            rline = line.rstrip()
+            if rline.endswith("|"):
+                lines[i] = rline[:-1] + line[len(rline) :]
+        strings = "\n".join(lines)
         strings = _replace_pipes_outside_math(strings)
         strings = strings.strip()
         strings = strings.replace("\n\n", " <br/> <br/> ")
