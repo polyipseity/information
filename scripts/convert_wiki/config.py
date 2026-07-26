@@ -110,6 +110,7 @@ _JUSTIFY_MAP: dict[str, Callable[[str, int], str]] = {
     ":-:": str.center,
 }
 
+
 # File paths
 "Script directory for resolving relative data files."
 _SCRIPT_DIRECTORY = PathlibPath(__file__).resolve(strict=True).parent.parent
