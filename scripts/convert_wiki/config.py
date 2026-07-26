@@ -11,7 +11,7 @@ from datetime import timedelta
 from logging import getLogger
 from os import PathLike, chdir, getcwd
 from pathlib import Path as PathlibPath
-from re import DOTALL, MULTILINE, Pattern, compile
+from re import Pattern, compile
 from string import punctuation, whitespace
 from sys import version
 
@@ -191,34 +191,8 @@ _API_MAX_BACKOFF = 30.0
 # Regex patterns
 "Regex for filesystem-unsafe characters in filenames."
 _BAD_CHARACTERS: Pattern[str] = compile(r"[/:\\]")
-"Regex for matching header tag names (h1-h6)."
-_HEADER_REGEX: Pattern[str] = compile(r"h(\d?)")
-"Regex for detecting bold font-weight in inline styles."
-_BOLD_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-weight: *bold")
-"Regex for detecting italic font-style in inline styles."
-_ITALIC_FONT_STYLE_REGEX: Pattern[str] = compile(r"font-style: *italic")
 "Regex for escaping special Markdown characters."
 _MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]")
-"Regex for splitting bold/italic strings with surrounding whitespace."
-_PROCESS_STRINGS_BI_REGEX: Pattern[str] = compile(r"^( *)(.*?)([\n ]*)$", DOTALL)
-"Regex for extracting reference content from citation brackets."
-_REF_CONTENT_REGEX: Pattern[str] = compile(r"\[([^]]*)\]")
-"Regex for collapsing consecutive newlines."
-_CONSECUTIVE_NEWLINES_REGEX: Pattern[str] = compile(r"\n{3,}")
-"Regex for extracting text-align values from inline styles."
-_TEXT_ALIGN_REGEX: Pattern[str] = compile(r"text-align:\s*(left|center|right)")
-"Regex for collapsing consecutive empty blockquote lines."
-_COLLAPSE_EMPTY_BLOCKQUOTE_RE: Pattern[str] = compile(r"(?:^>\n){2,}", MULTILINE)
-"Regex for collapsing runs of consecutive regular spaces in text nodes."
-_COLLAPSE_SPACES_REGEX: Pattern[str] = compile(r" {2,}")
-"""Regex for collapsing consecutive leading whitespace characters across multiple lines."""
-_CONSECUTIVE_LEADING_WHITESPACES_REGEX: Pattern[str] = compile(r"^[ \t]+", MULTILINE)
-"Regex for handling table-in-table headers."
-_TABLE_IN_TABLE_HEADER_REGEX: Pattern[str] = compile(r"\| (__.*?__) \|")
-"Regex for stripping leading pipes in nested tables."
-_TABLE_IN_TABLE_LEADING_VERTICAL_REGEX: Pattern[str] = compile(r"\s*\|")
-"Regex for stripping trailing pipes in nested tables."
-_TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX: Pattern[str] = compile(r"\|\s*")
 "Regexes mapping Wikimedia upload URLs to archive filename and path formats."
 _ARCHIVE_REGEXES = {
     compile(
