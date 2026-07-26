@@ -1047,10 +1047,10 @@ class TestInlineMathIndependence:
 
     @pytest.mark.anyio
     async def test_inline_math_count(self, tmp_path: PathLike[str]) -> None:
-        """The Fourier transform article should have 605 inline math blocks."""
+        """The Fourier transform article should have 606 inline math blocks."""
         output = await self._run_and_analyze(tmp_path)
         count = self._count_inline_math_blocks(output)
-        assert count == 605, f"Expected 605 inline math blocks, got {count}"
+        assert count == 606, f"Expected 606 inline math blocks, got {count}"
 
     @pytest.mark.anyio
     async def test_no_orphaned_dollar_signs(self, tmp_path: PathLike[str]) -> None:
