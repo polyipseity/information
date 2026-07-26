@@ -283,3 +283,159 @@ def _pad_table_blocks(text: str) -> str:
             result.append(line)
             i += 1
     return "\n".join(result)
+
+
+def _smart_split_row(line: str) -> list[str] | None:
+    """Split a pipe-table row into cells.
+
+    Tracks math (``$...$``, ``$$...$$``) and code spans (`` `...` ``) so
+    that pipe characters inside them are not treated as cell boundaries.
+    Also respects backslash-escaped pipes (``\\|``).
+
+    Returns ``None`` if the line is not a valid pipe-table row (must start
+    and end with ``|``).
+    """
+    line = line.rstrip("\n")
+    if not (line.startswith("|") and line.endswith("|")):
+        return None
+    inner = line[1:-1]
+
+    # Collect positions of pipe characters that are outside protected spans
+    # and are not backslash-escaped.
+    pipes: list[int] = []
+    i = 0
+    while i < len(inner):
+        c = inner[i]
+        if c == "\\" and i + 1 < len(inner) and inner[i + 1] == "|":
+            # Escaped pipe: skip over it (not a cell boundary)
+            i += 2
+            continue
+        if c == "$":
+            # Inline math ($...$) or display math ($$...$$) — skip to
+            # closing $.  For display math, both closing $$ are consumed.
+            i += 1
+            is_display = i < len(inner) and inner[i] == "$"
+            if is_display:
+                i += 1  # skip second $ of opening $$
+            while i < len(inner) and inner[i] != "$":
+                i += 1
+            if i < len(inner):
+                i += 1  # skip first $ of closing $$
+                if is_display and i < len(inner) and inner[i] == "$":
+                    i += 1  # skip second $ of closing $$
+            continue
+        if c == "`":
+            # Inline code span — skip to closing `.
+            i += 1
+            while i < len(inner) and inner[i] != "`":
+                i += 1
+            if i < len(inner):
+                i += 1  # skip closing `
+            continue
+        if c == "|":
+            pipes.append(i)
+        i += 1
+
+    # Split by pipe positions.
+    cells: list[str] = []
+    start = 0
+    for p in pipes:
+        cells.append(_ZERO_WIDTH_CHARS_RE.sub("", inner[start:p].strip()))
+        start = p + 1
+    cells.append(_ZERO_WIDTH_CHARS_RE.sub("", inner[start:].strip()))
+    return cells
+
+
+def _reformat_table_block(block: list[str]) -> list[str]:
+    """Reformat a single pipe-table block with columns padded to the widest
+    cell per column.
+
+    Uses ``_smart_split_row`` to parse each row, which correctly handles
+    pipe characters inside math and code spans.  Expects at least 2 rows
+    including one separator row.  Returns the block unchanged if it is not
+    a valid pipe table.
+    """
+    if len(block) < 2:
+        return block
+
+    parsed: list[list[str]] = []
+    sep_indices: list[int] = []
+    for i, line in enumerate(block):
+        cells = _smart_split_row(line)
+        if cells is None:
+            return block
+        parsed.append(cells)
+        if len(cells) > 0 and all(_is_separator_cell(c) for c in cells):
+            sep_indices.append(i)
+
+    if not sep_indices:
+        return block
+
+    ncols = max(len(cells) for cells in parsed)
+
+    # Get alignment per column from the first separator row.
+    alignments: list[str] = []
+    for j in range(ncols):
+        sep_row_idx = sep_indices[0]
+        sep_cell = parsed[sep_row_idx][j] if j < len(parsed[sep_row_idx]) else ""
+        alignments.append(_get_separator_alignment(sep_cell))
+
+    # Column width = max content width across all content rows (not separators).
+    col_widths = [0] * ncols
+    for i, cells in enumerate(parsed):
+        if i in sep_indices:
+            continue
+        for j in range(len(cells)):
+            col_widths[j] = max(col_widths[j], len(cells[j]))
+
+    # Ensure every column is at least 3 characters wide (GFM minimum).
+    col_widths = [max(w, 3) for w in col_widths]
+
+    result: list[str] = []
+    for i, cells in enumerate(parsed):
+        padded = list(cells)
+        while len(padded) < ncols:
+            padded.append("")
+
+        if i in sep_indices:
+            sep_cells = [
+                _format_separator_cell(col_widths[j], alignments[j])
+                for j in range(ncols)
+            ]
+            result.append("| " + " | ".join(sep_cells) + " |")
+        else:
+            data_cells = [
+                _cfg._JUSTIFY_MAP[alignments[j]](padded[j], col_widths[j])
+                for j in range(ncols)
+            ]
+            result.append("| " + " | ".join(data_cells) + " |")
+
+    return result
+
+
+def _reformat_table(text: str) -> str:
+    """Reformat all pipe-table blocks in *text* with columns padded to the
+    widest cell per column.
+
+    Uses ``_reformat_table_block`` internally, which correctly handles
+    pipe characters inside math and code spans via ``_smart_split_row``.
+    This is a drop-in replacement for ``_pad_table_blocks``.
+    """
+    lines = text.split("\n")
+    result: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if line.startswith("|") and line.endswith("|"):
+            block: list[str] = [line]
+            i += 1
+            while (
+                i < len(lines) and lines[i].startswith("|") and lines[i].endswith("|")
+            ):
+                block.append(lines[i])
+                i += 1
+            result.extend(_reformat_table_block(block))
+        else:
+            result.append(line)
+            i += 1
+    return "\n".join(result)

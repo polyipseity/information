@@ -28,7 +28,7 @@ from .ast_utils import (
 )
 from .converter import WikiHtmlConverter
 from .types import _RedirectInfo
-from .utils import _pad_table_blocks
+from .utils import _reformat_table
 
 """Exported names from this module."""
 __all__ = ()
@@ -341,7 +341,7 @@ async def wiki_html_to_plaintext(
     # Strip trailing whitespace from each line.
     result = "\n".join(line.rstrip(" \t") for line in result.split("\n"))
     # Pad table columns to the widest content per column.
-    result = _pad_table_blocks(result)
+    result = _reformat_table(result)
     # Insert MD028 suppression comments between adjacent blockquote blocks.
     result = _separate_block_quotes(result)
     # Collapse excessive blank lines.
