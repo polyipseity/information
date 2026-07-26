@@ -1085,6 +1085,26 @@ class WikiHtmlConverter:
         list_stack: tuple[int, ...],
     ) -> _HandlerConfig:
         """Handle list item <li> elements."""
+        if "gallerybox" in classes:
+
+            def process(strings: str) -> str:
+                """Wrap gallery item content in blockquote markers."""
+                parts = strings.strip().split("\n\n", 1)
+                lines: list[str] = []
+                for i, part in enumerate(parts):
+                    if i > 0:
+                        lines.append(">")
+                    for line in part.strip().split("\n"):
+                        lines.append(f"> {line}")
+                return "\n".join(lines)
+
+            return _HandlerConfig(
+                prefix="",
+                suffix="\n",
+                joiner="\n",
+                process_strings=process,
+            )
+
         item = list_stack[-1] if list_stack else -1
         li_suffix = "\n"
         if item >= 1:

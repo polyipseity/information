@@ -506,13 +506,15 @@ The following figures provide a visual illustration of how the Fourier transform
 
 However, when you try to measure a frequency that is not present, both the real and imaginary component of the integral vary rapidly between positive and negative values. For instance, the red curve is looking for 5 Hz. The absolute value of its integral is nearly zero, indicating that almost no 5 Hz component was in the signal. The general situation is usually more complicated than this, but heuristically this is how the Fourier transform measures how much of an individual frequency is present in a function ⁠$f(t)$⁠.
 
-- ![Real and imaginary parts of the integrand for its Fourier transform at +5 Hz.](../../archives/Wikimedia%20Commons/Offfreq%20i2p.svg)
+> ![Real and imaginary parts of the integrand for its Fourier transform at +5 Hz.](../../archives/Wikimedia%20Commons/Offfreq%20i2p.svg)
+>
+> Real and imaginary parts of the integrand for its Fourier transform at +5 Hz.
 
- Real and imaginary parts of the integrand for its Fourier transform at +5 Hz.
+<!-- markdownlint MD028 -->
 
-- ![Magnitude of its Fourier transform, with +3 and +5 Hz labeled.](../../archives/Wikimedia%20Commons/Fourier%20transform%20of%20oscillating%20function.svg)
-
- Magnitude of its Fourier transform, with +3 and +5 Hz labeled.
+> ![Magnitude of its Fourier transform, with +3 and +5 Hz labeled.](../../archives/Wikimedia%20Commons/Fourier%20transform%20of%20oscillating%20function.svg)
+>
+> Magnitude of its Fourier transform, with +3 and +5 Hz labeled.
 
 To re-enforce an earlier point, the reason for the response at $\xi =-3$ Hz is because $\cos(2\pi 3t)$ and $\cos(2\pi (-3)t)$ are indistinguishable. The transform of $e^{i2\pi 3t}\cdot e^{-\pi t^{2} }$ would have just one response, whose amplitude is the integral of the smooth envelope: ⁠$e^{-\pi t^{2} }$⁠, whereas $\operatorname {Re} (f(t)\cdot e^{-i2\pi 3t})$ is ⁠$e^{-\pi t^{2} }(1+\cos(2\pi 6t))/2$⁠.
 

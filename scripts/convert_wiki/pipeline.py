@@ -35,7 +35,7 @@ from .utils import _pad_table_blocks
 __all__ = ()
 
 """Regex for MD028 suppression between adjacent blockquote blocks."""
-_MD028_RE = re.compile(r"(^(?:>[^\n]*\n)+)\n+(^>(?:[^\n]*\n?)+)", re.MULTILINE)
+_MD028_RE = re.compile(r"(^(?:>[^\n]*\n)+)\n+((?:^>[^\n]*(?:\n|$))+)", re.MULTILINE)
 
 """Mistune AST parser with math and table support."""
 _MISTUNE_PARSER = mistune.create_markdown(
