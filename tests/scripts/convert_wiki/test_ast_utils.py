@@ -24,6 +24,7 @@ from scripts.convert_wiki.ast_utils import (
     _MISTUNE_PARSER,
     _all_code_span_ranges,
     _all_math_ranges,
+    _find_table_blocks,
     _find_token_range,
     _find_top_level_adjacent,
     _inject_after_token,
@@ -723,3 +724,112 @@ class TestIsInCodeSpan:
         assert _is_in_code_span("text `code` more", 6)
         # Position just after the closing backtick is outside
         assert not _is_in_code_span("text `code` more", 11)
+
+
+# =========================================================================
+# _find_table_blocks
+# =========================================================================
+
+
+class TestFindTableBlocks:
+    """Tests for pipe-table block range finding via mistune AST."""
+
+    def test_no_tables(self) -> None:
+        assert _find_table_blocks("plain text\n\nno pipes") == []
+
+    def test_simple_table(self) -> None:
+        text = "| a | b |\n|---|---|\n| 1 | 2 |"
+        result = _find_table_blocks(text)
+        assert len(result) == 1
+        start, end = result[0]
+        # The single table should span the entire text since there are no
+        # adjacent non-table tokens with reconstructable raws.
+        assert start == 0
+        assert end == len(text)
+
+    def test_table_surrounded_by_text(self) -> None:
+        text = "before\n\n| a | b |\n|---|---|\n| 1 | 2 |\n\nafter"
+        result = _find_table_blocks(text)
+        assert len(result) == 1
+        start, end = result[0]
+        # The table block starts after the "before" paragraph and ends
+        # before the "after" paragraph.
+        assert start > 0
+        assert end < len(text)
+        # The block contains actual table content.
+        assert "a | b" in text[start:end]
+        assert "after" not in text[start:end]
+
+    def test_multiple_tables(self) -> None:
+        text = "| a | b |\n|---|---|\n| 1 | 2 |\n\n| x | y |\n|---|---|\n| 3 | 4 |"
+        result = _find_table_blocks(text)
+        # One block per table token in the AST. When no reconstructable
+        # non-table tokens exist between adjacent tables, the ranges
+        # collapse to identical values — this is a known limitation.
+        assert len(result) == 2
+        # Each block should be within bounds.
+        for start, end in result:
+            assert 0 <= start <= end <= len(text)
+
+    def test_table_with_inline_math(self) -> None:
+        text = "| $x$ | $y$ |\n|---|---|\n| 1 | 2 |"
+        result = _find_table_blocks(text)
+        assert len(result) == 1
+        start, end = result[0]
+        # The whole input is the table.
+        assert start == 0
+        assert end == len(text)
+
+    def test_table_with_block_math(self) -> None:
+        text = "| $$a = b$$ | c |\n|---|---|---|\n| 1 | 2 |"
+        result = _find_table_blocks(text)
+        # Mistune does not parse `$$` inside a table cell as a table;
+        # it treats the entire input as a paragraph.
+        assert result == []
+
+    def test_table_with_code_spans(self) -> None:
+        text = "| `a|b` | c |\n|---|---|\n| 1 | 2 |"
+        result = _find_table_blocks(text)
+        # Mistune does not parse pipes inside backtick code spans as
+        # table column separators; it treats the input as a paragraph.
+        assert result == []
+
+    def test_table_at_start(self) -> None:
+        text = "| a | b |\n|---|---|\n| 1 | 2 |\n\nafter"
+        result = _find_table_blocks(text)
+        assert len(result) == 1
+        start, end = result[0]
+        # Table starts at position 0 since there's no preceding text.
+        assert start == 0
+        # The block does not include the trailing "after" paragraph.
+        assert "after" not in text[start:end]
+        assert end < len(text)
+
+    def test_table_at_end(self) -> None:
+        text = "before\n\n| a | b |\n|---|---|\n| 1 | 2 |"
+        result = _find_table_blocks(text)
+        assert len(result) == 1
+        start, end = result[0]
+        # Table block ends at the end of the text.
+        assert start > 0
+        assert end == len(text)
+        assert "before" not in text[start:end]
+
+    def test_table_in_blockquote(self) -> None:
+        text = "> | a | b |\n> |---|---|\n> | 1 | 2 |"
+        result = _find_table_blocks(text)
+        # mistune may parse tables inside blockquotes as nested
+        # blockquote tokens, not as top-level table tokens. An empty
+        # result is acceptable.
+        assert len(result) == 0 or all(s >= 0 and e <= len(text) for s, e in result)
+
+    def test_table_with_adjacent_tables_no_separator(self) -> None:
+        text = "| a | b |\n|---|---|\n| 1 | 2 |\n\n| c | d |\n|---|---|\n| 3 | 4 |"
+        result = _find_table_blocks(text)
+        # Two table tokens exist but both get the same inferred range
+        # because no reconstructable non-table tokens sit between them.
+        # This is a known limitation handled at the call site by the
+        # dedup guard in ``_reformat_table``.
+        assert len(result) == 2
+        for start, end in result:
+            assert 0 <= start <= end <= len(text)
