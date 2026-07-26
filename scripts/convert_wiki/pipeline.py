@@ -11,13 +11,8 @@ from os import PathLike
 from pathlib import PurePath
 from typing import Any
 
-import mistune
 from aiohttp import ClientSession, TCPConnector
 from bs4 import BeautifulSoup, PageElement
-from mistune.plugins.math import math as _mistune_math
-from mistune.plugins.math import math_in_list as _mistune_math_in_list
-from mistune.plugins.math import math_in_quote as _mistune_math_in_quote
-from mistune.plugins.table import table as _mistune_table
 
 from . import config as _cfg
 from .api import (
@@ -27,6 +22,7 @@ from .api import (
     _resolve_image_metadata,
     _resolve_redirects,
 )
+from .ast_utils import _MISTUNE_PARSER
 from .converter import WikiHtmlConverter
 from .types import _RedirectInfo
 from .utils import _pad_table_blocks
@@ -36,17 +32,6 @@ __all__ = ()
 
 """Regex for MD028 suppression between adjacent blockquote blocks."""
 _MD028_RE = re.compile(r"(^(?:>[^\n]*\n)+)\n+((?:^>[^\n]*(?:\n|$))+)", re.MULTILINE)
-
-"""Mistune AST parser with math and table support."""
-_MISTUNE_PARSER = mistune.create_markdown(
-    renderer="ast",
-    plugins=[
-        _mistune_math,
-        _mistune_math_in_list,
-        _mistune_math_in_quote,
-        _mistune_table,
-    ],
-)
 
 
 def _make_converter(
