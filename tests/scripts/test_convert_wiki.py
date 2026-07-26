@@ -15,10 +15,8 @@ from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki import config
 from scripts.convert_wiki.api import _collect_image_filenames
-from scripts.convert_wiki.converter import (
-    WikiHtmlConverter,
-    _replace_pipes_outside_math,
-)
+from scripts.convert_wiki.ast_utils import _replace_pipes_outside_math
+from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.pipeline import _separate_block_math, run_pipeline
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import _get_image_filename

@@ -18,6 +18,7 @@ from country_converter import convert
 from yarl import URL
 
 from . import config as _cfg
+from .ast_utils import _replace_pipes_outside_math
 from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
@@ -67,18 +68,6 @@ _TABLE_IN_TABLE_TRAILING_VERTICAL_REGEX = re.compile(r"\|\s*$", re.MULTILINE)
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 """Markdown separator character set used for emphasis adjacency."""
 _MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
-"""Regex for matching math blocks (inline `$...$` or display `$$...$$`)."""
-_MATH_BLOCK = re.compile(r"(\$\$[^$]*\$\$|\$[^$]+\$)")
-
-
-def _replace_pipes_outside_math(text: str) -> str:
-    """Replace ``|`` with ``&#124;`` outside math and with ``\\vert`` inside math."""
-    parts = _MATH_BLOCK.split(text)
-    for i in range(0, len(parts), 2):
-        parts[i] = parts[i].replace("|", "&#124;")
-    for i in range(1, len(parts), 2):
-        parts[i] = re.sub(r"(?<!\\)\|", r"\\vert ", parts[i])
-    return "".join(parts)
 
 
 class WikiHtmlConverter:

@@ -17,7 +17,7 @@ from anyio import Path
 from bs4 import BeautifulSoup
 
 import scripts.convert_wiki.pipeline as _pl
-from scripts.convert_wiki.converter import _replace_pipes_outside_math
+from scripts.convert_wiki.ast_utils import _replace_pipes_outside_math
 from scripts.convert_wiki.pipeline import (
     _separate_block_math,
     _separate_block_quotes,

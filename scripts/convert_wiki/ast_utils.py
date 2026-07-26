@@ -16,6 +16,7 @@ The core pattern shared by all functions:
 This is the same approach taken by ``pipeline._separate_block_math``.
 """
 
+import re
 from collections.abc import Generator, Iterable, Sequence
 from typing import Any
 
@@ -34,6 +35,7 @@ __all__ = (
     "_walk_tokens",
     "_find_top_level_adjacent",
     "_inject_after_token",
+    "_replace_pipes_outside_math",
 )
 
 # ---------------------------------------------------------------------------
@@ -397,3 +399,47 @@ def _inject_after_token(
         return text
     _start, end = rng
     return text[:end] + content + text[end:]
+
+
+def _replace_pipes_outside_math(text: str) -> str:
+    """Replace ``|`` with ``&#124;`` outside math and with ``\\vert`` inside math.
+
+    Uses mistune AST to correctly identify math boundaries, unlike the
+    previous regex approach which could misidentify math in edge cases.
+    """
+    parse_result, _state = _MISTUNE_PARSER.parse(text)
+    del _state
+    if isinstance(parse_result, str):
+        return text  # Parse error, return unchanged.
+
+    # Collect raw text of all math tokens (inline and block) in tree order.
+    math_raws: list[str] = [
+        token["raw"]
+        for token, _depth, _parents in _walk_tokens(parse_result)
+        if token.get("type") in ("inline_math", "block_math")
+        and token.get("raw") is not None
+    ]
+
+    if not math_raws:
+        return text.replace("|", "&#124;")
+
+    # Find positions of each math raw in text, scanning forward
+    # to handle duplicates correctly.
+    math_ranges: list[tuple[int, int]] = []
+    pos = 0
+    for raw in math_raws:
+        found = text.find(raw, pos)
+        if found >= 0:
+            math_ranges.append((found, found + len(raw)))
+            pos = found + len(raw)
+
+    # Build result by alternating non-math and math segments.
+    parts: list[str] = []
+    prev_end = 0
+    for start, end in math_ranges:
+        parts.append(text[prev_end:start].replace("|", "&#124;"))
+        parts.append(re.sub(r"(?<!\\)\|", r"\\vert ", text[start:end]))
+        prev_end = end
+    parts.append(text[prev_end:].replace("|", "&#124;"))
+
+    return "".join(parts)
