@@ -535,7 +535,7 @@ class WikiHtmlConverter:
                 continue
             if "\u221a" not in sfrac.get_text():
                 continue
-            latex = self._texhtml_to_latex_sfrac_inline(sfrac)
+            latex = self._texhtml_to_latex_sfrac(sfrac)
             math_tag = self._soup.new_tag("math", alttext=latex)
             wrapper = self._soup.new_tag(
                 "span", attrs={"class": "mwe-math-mathml-inline"}

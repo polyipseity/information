@@ -1295,3 +1295,131 @@ class TestReplacePipesOutsideMath:
         assert r"$$x\vert y$$" in output, f"Expected \\vert in output, got: {output!r}"
         # Also verify no bare | inside math blocks in output
         assert "$$x|y$$" not in output, "Bare pipe inside math should be replaced"
+
+
+class TestTexHtmlToLatexRadical:
+    """Regression tests for radical detection in sfrac → ``\\frac{}`` conversion.
+
+    See ``_replace_radicals_with_math`` which must use
+    ``_texhtml_to_latex_sfrac`` (``\\frac``) instead of
+    ``_texhtml_to_latex_sfrac_inline`` (slash division) for ``sfrac``
+    elements containing radicals.  Wikipedia's ``{{sfrac}}`` always renders
+    a horizontal-bar fraction.
+    """
+
+    @pytest.mark.anyio
+    async def test_simple_sqrt(self, tmp_path: PathLike[str]) -> None:
+        """``√2`` → ``\\sqrt{2}``."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = TestBlockMathParagraphAffiliation._make_converter(tmp_path)
+        html = BeautifulSoup(
+            '<span class="nowrap">'
+            '<span typeof="mw:Entity">√</span>'
+            '<span style="border-top: 1px solid">2</span>'
+            "</span>",
+            "html.parser",
+        )
+        assert html.span is not None
+        result = converter._texhtml_to_latex(html.span)
+        assert result == r"\sqrt{2}", f"Expected \\sqrt{{2}}, got {result!r}"
+
+    @pytest.mark.anyio
+    async def test_sqrt_with_greek(self, tmp_path: PathLike[str]) -> None:
+        """``√σ`` → ``\\sqrt{\\sigma}`` (Greek letter in radicand)."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = TestBlockMathParagraphAffiliation._make_converter(tmp_path)
+        html = BeautifulSoup(
+            '<span class="nowrap">'
+            '<span typeof="mw:Entity">√</span>'
+            '<span style="border-top: 1px solid"><i>σ</i></span>'
+            "</span>",
+            "html.parser",
+        )
+        assert html.span is not None
+        result = converter._texhtml_to_latex(html.span)
+        assert result == r"\sqrt{\sigma}", f"Expected \\sqrt{{\\sigma}}, got {result!r}"
+
+    @pytest.mark.anyio
+    async def test_radical_with_index(self, tmp_path: PathLike[str]) -> None:
+        """``⁴√2`` → ``\\sqrt[4]{2}`` (radical with index)."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = TestBlockMathParagraphAffiliation._make_converter(tmp_path)
+        html = BeautifulSoup(
+            '<span class="nowrap">'
+            "<sup>4</sup>"
+            '<span typeof="mw:Entity">√</span>'
+            '<span style="border-top: 1px solid">2</span>'
+            "</span>",
+            "html.parser",
+        )
+        assert html.span is not None
+        result = converter._texhtml_to_latex(html.span)
+        assert result == r"\sqrt[4]{2}", f"Expected \\sqrt[4]{{2}}, got {result!r}"
+
+    @pytest.mark.anyio
+    async def test_sfrac_with_radical(self, tmp_path: PathLike[str]) -> None:
+        """``sfrac`` with radicals → ``\\frac{\\sqrt[4]{2}}{\\sqrt{\\sigma}}``."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = TestBlockMathParagraphAffiliation._make_converter(tmp_path)
+        html = BeautifulSoup(
+            '<span class="sfrac"><span class="tion">'
+            '<span class="num" style="border-bottom:1px solid">'
+            '<span class="nowrap">'
+            "<sup>4</sup>"
+            '<span typeof="mw:Entity">√</span>'
+            '<span style="border-top:1px solid;padding:0 0.1em">2</span>'
+            "</span></span>"
+            '<span class="sr-only">/</span>'
+            '<span class="den" style="line-height:1.5em">'
+            '<span class="nowrap">'
+            '<span typeof="mw:Entity">√</span>'
+            '<span style="border-top:1px solid;padding:0 0.1em"><i>σ</i></span>'
+            "</span></span></span></span>",
+            "html.parser",
+        )
+        assert html.span is not None
+        result = converter._texhtml_to_latex_sfrac(html.span)
+        assert result == r"\frac{\sqrt[4]{2}}{\sqrt{\sigma}}", (
+            f"Expected \\frac{{\\sqrt[4]{{2}}}}{{\\sqrt{{\\sigma}}}}, got {result!r}"
+        )
+
+    @pytest.mark.anyio
+    async def test_sfrac_radical_end_to_end(self, tmp_path: PathLike[str]) -> None:
+        """Full pipeline: texhtml span with sfrac/radical → inline math."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        converter = TestBlockMathParagraphAffiliation._make_converter(tmp_path)
+        html_content = (
+            "<p>"
+            '<span class="texhtml">'
+            '<span class="sfrac"><span class="tion">'
+            '<span class="num" style="border-bottom:1px solid">'
+            '<span class="nowrap">'
+            "<sup>4</sup>"
+            '<span typeof="mw:Entity">√</span>'
+            '<span style="border-top:1px solid;padding:0 0.1em">2</span>'
+            "</span></span>"
+            '<span class="sr-only">/</span>'
+            '<span class="den" style="line-height:1.5em">'
+            '<span class="nowrap">'
+            '<span typeof="mw:Entity">√</span>'
+            '<span style="border-top:1px solid;padding:0 0.1em"><i>σ</i></span>'
+            "</span></span></span></span>"
+            "</span></p>"
+        )
+        html = BeautifulSoup(html_content, "html.parser")
+        result = await converter.convert(
+            html, out_to_archive=set(), redirect_map={}, refs=True
+        )
+        assert r"\frac{\sqrt[4]{2} }{\sqrt{\sigma} }" in result, (
+            f"Expected \\frac in output, got: {result!r}"
+        )
