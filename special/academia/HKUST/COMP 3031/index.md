@@ -90,7 +90,7 @@ The content is in teaching order.
     - theory / for programming ::@:: data type\(s\), operation\(s\) on data type\(s\), law\(s\) on data and operations <br/> usually no mutations \(but possible with some difficulty\) <!--SR:!2026-09-25,290,330!2026-09-02,270,330-->
     - theory / mutation ::@:: A theory without mutation is usually much less complex than one with mutation. Mutation makes theories hard to understand. So most theories do not admit mutation. <p> For programming, this leads to _functional programming_. <!--SR:!2026-08-08,252,330!2026-09-23,288,330-->
 - [functional programming](../../../../general/functional%20programming.md) ::@:: It is a programming paradigm where programs are constructed by applying and composing functions. <!--SR:!2026-08-07,251,330!2026-08-19,259,330-->
-    - functional programming / missing elements ::@:: imperative control structures, no mutations \(__this course__: In a _restricted sense_, these elements are strictly _forbidden_.\) <!--SR:!2026-08-03,248,330!2026-09-16,282,330-->
+    - functional programming / missing elements ::@:: imperative control structures, no mutations \(__this course__: In a _restricted sense_, these elements are strictly _forbidden_.\) <!--SR:!fsrs,2029-08-07T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-08-04T00:00:00.000Z!2026-09-16,282,330-->
     - functional programming / important elements ::@:: functions \(as first-class citizens\), immutable data types \(__this course__: In a _wide sense_, these elements are _emphasized_ on, but unmentioned elements \(e.g. above\) are not strictly forbidden.\) <!--SR:!2028-05-07,734,330!2026-09-09,276,330-->
     - functional programming / function ::@:: As first-class citizens, they can be composed, definable anywhere, passed as parameters, etc. <!--SR:!2026-08-04,249,330!2026-08-11,255,330-->
     - functional programming / examples ::@:: restricted: FP, Pure Lisp, XPath, XQuery, XSLT, etc. <br/> wider: Clojure, F\#, Haskell, Lips, Ocaml, Racket, SML, Scala, Scheme, etc. <!--SR:!2026-09-10,277,330!2026-08-25,265,330-->
@@ -126,7 +126,7 @@ The content is in teaching order.
 - Scala
     - Scala / Scala 3
         - [§ scoping](Scala%203.md#scoping): scope creation, lexical scoping, shadowing
-- [scope](../../../../general/scope%20(computer%20science).md) ::@:: It of a name binding \(an association of a name to an entity, such as a variable\) is the part of a program where the name binding is valid; that is, where the name can be used to refer to the entity. <!--SR:!2026-08-03,248,330!2026-08-23,263,330-->
+- [scope](../../../../general/scope%20(computer%20science).md) ::@:: It of a name binding \(an association of a name to an entity, such as a variable\) is the part of a program where the name binding is valid; that is, where the name can be used to refer to the entity. <!--SR:!fsrs,2029-08-07T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-08-04T00:00:00.000Z!2026-08-23,263,330-->
     - scope / motivation ::@:: It helps to avoid _namespace pollution_. <!--SR:!2026-08-06,251,330!fsrs,2029-08-03T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-03T00:00:00.000Z-->
     - scope / lexical scoping ::@:: With it, a name always refers to its lexical context. This is a property of the program text and is made independent of the runtime call stack by the language implementation. <!--SR:!2026-09-08,276,330!2026-09-04,273,330-->
 - Scala

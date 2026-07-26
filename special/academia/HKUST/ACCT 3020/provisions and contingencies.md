@@ -22,7 +22,7 @@ To recognize a provision, all of the following must be satisfied. First, there m
 
 Flashcards for this section are as follows:
 
-- provision definition ::@:: A liability of uncertain timing and amount (e.g. lawsuit, warranty). <!--SR:!2026-08-03,79,342!fsrs,2027-09-05T00:00:00.000Z,401,401.07868927,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
+- provision definition ::@:: A liability of uncertain timing and amount (e.g. lawsuit, warranty). <!--SR:!fsrs,2027-10-05T00:00:00.000Z,427,426.63026219,1,2,7,0,0,2026-08-04T00:00:00.000Z!fsrs,2027-09-05T00:00:00.000Z,401,401.07868927,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
 - provision current vs non-current ::@:: If settlement expected within 12 months after reporting date, current; otherwise non-current. <!--SR:!2026-08-08,83,342!fsrs,2027-07-26T00:00:00.000Z,369,368.80018302,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 - provision: past event ::@:: Something that already happened (e.g. sale of product with warranty, incident giving rise to lawsuit). <!--SR:!fsrs,2027-09-06T00:00:00.000Z,403,403.39281439,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,350,350.16609236,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
 - provision: present obligation ::@:: Legal (if in contract) or constructive (if from policy/practice); must arise from the past event. <!--SR:!fsrs,2027-09-29T00:00:00.000Z,422,421.99834645,1,2,7,0,0,2026-08-03T00:00:00.000Z!2026-08-08,83,342-->
@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 
 - legal obligation (provision) ::@:: Obligation imposed by law or contract (e.g. warranty terms in the sales contract). <!--SR:!2026-08-07,82,342!2026-08-08,83,342-->
 - constructive obligation ::@:: Arises from past practice, stated policy, or pattern of behaviour that creates valid expectation; no legal requirement. <!--SR:!2026-08-05,80,342!fsrs,2027-08-10T00:00:00.000Z,377,376.88525672,1,2,7,0,0,2026-07-29T00:00:00.000Z-->
-- constructive obligation example ::@:: Company policy of refunding dissatisfied customers (e.g. Christian Dior); not in contract but creates expectation. <!--SR:!2026-08-03,79,342!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
+- constructive obligation example ::@:: Company policy of refunding dissatisfied customers (e.g. Christian Dior); not in contract but creates expectation. <!--SR:!fsrs,2027-10-05T00:00:00.000Z,427,426.63026219,1,2,7,0,0,2026-08-04T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-15T00:00:00.000Z-->
 - constructive obligation: employer example ::@:: Employer consistently paying employee creates expectation; past pattern creates constructive obligation even without legal requirement. <!--SR:!2026-08-07,82,342!fsrs,2027-09-18T00:00:00.000Z,413,412.71141662,1,2,7,0,0,2026-08-01T00:00:00.000Z-->
 
 ## when not to recognize a provision
@@ -68,7 +68,7 @@ For litigation, the entity must consider (1) the __probability of an unfavorable
 Flashcards for this section are as follows:
 
 - litigation: two things to consider when deciding whether current-year litigation needs a provision ::@:: (1) Whether an unfavorable outcome is probable enough to require recognition rather than mere disclosure; and (2) whether the cause of action belongs to the current reporting period or only arises after year-end, because only current-period obligations are recognized now. <!--SR:!fsrs,2027-04-07T00:00:00.000Z,273,272.64702251,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,350,350.16609236,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
-- litigation: probability of unfavorable outcome ::@:: Whether the entity will lose the case; must be probable for provision. <!--SR:!2026-08-03,79,342!2026-08-06,81,342-->
+- litigation: probability of unfavorable outcome ::@:: Whether the entity will lose the case; must be probable for provision. <!--SR:!fsrs,2027-10-05T00:00:00.000Z,427,426.63026219,1,2,7,0,0,2026-08-04T00:00:00.000Z!2026-08-06,81,342-->
 - litigation: time period ::@:: When the cause of action arose relative to the reporting date; lawsuit filed before vs after balance sheet date. <!--SR:!2026-08-06,81,342!fsrs,2027-09-12T00:00:00.000Z,408,408.05612199,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
 - lawsuit filed after balance sheet date ::@:: No provision in current year; obligation arises next period; provision in next year if criteria met. <!--SR:!fsrs,2027-06-25T00:00:00.000Z,341,341.1928498,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-07-30T00:00:00.000Z,368,368.01119375,1,2,7,0,0,2026-07-27T00:00:00.000Z-->
 - litigation provision: when recognized? ::@:: When lawsuit is before balance sheet date, probable loss, and amount reliably estimated. <!--SR:!fsrs,2027-08-26T00:00:00.000Z,394,394.04153963,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-09-23T00:00:00.000Z,417,417.35879484,1,2,7,0,0,2026-08-02T00:00:00.000Z-->
@@ -307,7 +307,7 @@ Representative journal entry examples:
 > | {@{Unearned warranty revenue}@}                       | {@{300}@} |           |
 > | {@{Warranty revenue}@}                                |           | {@{300}@} |
 >
-> _Explanation._ Straight-line over the 3-year service period: {@{900 ÷ 3 = 300 per year}@}; {@{revenue is earned only during the service-type period (after assurance-type warranty has expired)}@}. <!--SR:!2026-08-08,83,342!2026-08-05,80,342!2026-08-08,83,342!fsrs,2027-09-06T00:00:00.000Z,403,403.39281439,1,2,7,0,0,2026-07-30T00:00:00.000Z!2026-08-03,79,342!fsrs,2027-09-18T00:00:00.000Z,413,412.71141662,1,2,7,0,0,2026-08-01T00:00:00.000Z!fsrs,2027-08-30T00:00:00.000Z,396,396.49212694,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Explanation._ Straight-line over the 3-year service period: {@{900 ÷ 3 = 300 per year}@}; {@{revenue is earned only during the service-type period (after assurance-type warranty has expired)}@}. <!--SR:!2026-08-08,83,342!2026-08-05,80,342!2026-08-08,83,342!fsrs,2027-09-06T00:00:00.000Z,403,403.39281439,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2027-10-05T00:00:00.000Z,427,426.63026219,1,2,7,0,0,2026-08-04T00:00:00.000Z!fsrs,2027-09-18T00:00:00.000Z,413,412.71141662,1,2,7,0,0,2026-08-01T00:00:00.000Z!fsrs,2027-08-30T00:00:00.000Z,396,396.49212694,1,2,7,0,0,2026-07-30T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -334,7 +334,7 @@ Flashcards for this section are as follows:
 - service-type warranty: initial entry when customer pays for extended warranty? ::@:: Dr _Cash_, Cr _Sales revenue_ (product), Cr _Unearned warranty revenue_ (warranty amount); revenue recognized as the performance obligation is satisfied over the service period. <!--SR:!fsrs,2027-09-01T00:00:00.000Z,399,398.72132308,1,2,7,0,0,2026-07-29T00:00:00.000Z!2026-08-06,81,342-->
 - automobile 30 000 + 900 extended warranty (service-type, years 2–4)—entry at sale? ::@:: Dr _Cash_ 30 900, Cr _Sales revenue_ 30 000, Cr _Unearned warranty revenue_ 900. <!--SR:!2026-08-05,80,342!2026-08-07,82,342-->
 - service-type warranty: when is revenue recognized? ::@:: As the entity satisfies the performance obligation over the service period (in the typical example, that period begins after the assurance-type warranty has expired). <!--SR:!fsrs,2027-06-02T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-06-13T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
-- service-type warranty: entry as time passes? ::@:: Dr _Unearned warranty revenue_, Cr _Warranty revenue_ (e.g. straight-line over the service-type term). <!--SR:!2026-08-03,79,342!2026-08-08,83,342-->
+- service-type warranty: entry as time passes? ::@:: Dr _Unearned warranty revenue_, Cr _Warranty revenue_ (e.g. straight-line over the service-type term). <!--SR:!fsrs,2027-10-05T00:00:00.000Z,427,426.63026219,1,2,7,0,0,2026-08-04T00:00:00.000Z!2026-08-08,83,342-->
 - unearned warranty revenue 900, 3-year service period—recognize 1 year—entry? ::@:: Dr _Unearned warranty revenue_ 300, Cr _Warranty revenue_ 300. <!--SR:!2026-08-08,83,342!fsrs,2027-04-23T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-10T00:00:00.000Z-->
 - service-type warranty forfeiture: what happens if the customer gives up the remaining coverage early? ::@:: Release the remaining _Unearned warranty revenue_ to _Warranty revenue_ because the company no longer has an outstanding performance obligation. <!--SR:!fsrs,2027-01-03T10:59:23.178Z,204,203.8653807,1,2,5,0,0,2026-06-13T10:59:23.178Z!fsrs,2027-01-03T09:40:01.128Z,204,203.8653807,1,2,5,0,0,2026-06-13T09:40:01.128Z-->
 
@@ -479,7 +479,7 @@ Representative journal entry examples:
 > | {@{Interest expense}@}                         | {@{62 092}@} |              |
 > | {@{Environmental liability (ARO)}@}            |              | {@{62 092}@} |
 >
-> _Calculation._ {@{620 921 × 0.10}@} = {@{62 092}@} (rounded). <!--SR:!fsrs,2027-08-10T00:00:00.000Z,377,376.88525672,1,2,7,0,0,2026-07-29T00:00:00.000Z!2026-08-03,79,342!fsrs,2027-08-04T00:00:00.000Z,372,372.45216267,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-08-07,82,342!2026-08-06,81,342!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> _Calculation._ {@{620 921 × 0.10}@} = {@{62 092}@} (rounded). <!--SR:!fsrs,2027-08-10T00:00:00.000Z,377,376.88525672,1,2,7,0,0,2026-07-29T00:00:00.000Z!fsrs,2027-10-05T00:00:00.000Z,427,426.63026219,1,2,7,0,0,2026-08-04T00:00:00.000Z!fsrs,2027-08-04T00:00:00.000Z,372,372.45216267,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-07T00:00:00.000Z!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!2026-08-07,82,342!2026-08-06,81,342!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -497,7 +497,7 @@ Representative journal entry examples:
 
 Flashcards for this section are as follows:
 
-- asset retirement obligation (ARO) / decommissioning provision ::@:: Provision for dismantling/removing/restoring an asset site at end of useful life; recognized when obligation arises from constructing/installing the asset. <!--SR:!fsrs,2027-07-23T00:00:00.000Z,366,366.22557375,1,2,7,0,0,2026-07-22T00:00:00.000Z!2026-08-03,79,342-->
+- asset retirement obligation (ARO) / decommissioning provision ::@:: Provision for dismantling/removing/restoring an asset site at end of useful life; recognized when obligation arises from constructing/installing the asset. <!--SR:!fsrs,2027-07-23T00:00:00.000Z,366,366.22557375,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-10-05T00:00:00.000Z,427,426.63026219,1,2,7,0,0,2026-08-04T00:00:00.000Z-->
 - ARO initial measurement ::@:: Best-estimate future cash outflow discounted to present value (use expected value if probabilities are given). <!--SR:!2026-08-05,80,342!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z-->
 - ARO initial recognition: why record an asset? ::@:: Because the obligation is necessary to operate the asset and generates future benefits over its useful life; allocate via depreciation, not immediate expense. <!--SR:!fsrs,2027-08-05T00:00:00.000Z,375,375.42777546,1,2,7,0,0,2026-07-26T00:00:00.000Z!2026-08-08,83,342-->
 - ARO subsequent accounting ::@:: Depreciate the capitalized ARO cost over useful life; increase the liability via interest expense so it accretes to the expected settlement amount. <!--SR:!fsrs,2027-09-01T00:00:00.000Z,399,398.72132308,1,2,7,0,0,2026-07-29T00:00:00.000Z!fsrs,2027-09-12T00:00:00.000Z,408,408.05612199,1,2,7,0,0,2026-07-31T00:00:00.000Z-->
@@ -633,7 +633,7 @@ A _contingent asset_ is a possible asset arising from past events whose existenc
 Flashcards for this section are as follows:
 
 - contingent liability ::@:: Possible obligation (or present obligation) not recognized because outflow is not probable or cannot be reliably measured; disclose if significant. <!--SR:!fsrs,2027-06-13T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,350,350.16609236,1,2,7,0,0,2026-07-21T00:00:00.000Z-->
-- provision vs contingent liability (course convention) ::@:: Probable outflow (>50%) → recognize provision; possible (~5%–50%) → disclose contingent liability; remote (<5%) → ignore. <!--SR:!2026-08-03,79,342!2026-08-06,81,342-->
+- provision vs contingent liability (course convention) ::@:: Probable outflow (>50%) → recognize provision; possible (~5%–50%) → disclose contingent liability; remote (<5%) → ignore. <!--SR:!fsrs,2027-10-05T00:00:00.000Z,427,426.63026219,1,2,7,0,0,2026-08-04T00:00:00.000Z!2026-08-06,81,342-->
 - contingent asset ::@:: Possible asset whose existence depends on uncertain future events; recognize only when virtually certain (~>90%); disclose when probable (>50% but not virtually certain); do not disclose at all if inflow is remote. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
 - contingent gain: recognition rule? ::@:: Never recognize until virtually certain; disclose when probable; do not disclose if remote. Recognizing contingent gains early is not permitted under IFRS. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
 - why higher threshold for contingent assets? ::@:: Conservatism: avoid recognizing gains/asset inflows until virtually certain. <!--SR:!fsrs,2027-08-20T00:00:00.000Z,389,389.35331546,1,2,7,0,0,2026-07-27T00:00:00.000Z!fsrs,2027-09-29T00:00:00.000Z,422,421.99834645,1,2,7,0,0,2026-08-03T00:00:00.000Z-->
