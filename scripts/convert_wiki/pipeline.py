@@ -25,6 +25,7 @@ from .api import (
 from .ast_utils import (
     _MISTUNE_PARSER,
     _find_top_level_adjacent,
+    _walk_tokens,
 )
 from .converter import WikiHtmlConverter
 from .types import _RedirectInfo
@@ -128,26 +129,25 @@ def _collect_block_math_info(
     """
     info: list[tuple[str, bool, bool]] = []
 
-    def _walk(children: list[dict[str, Any]], depth: int = 0) -> None:
-        for i, child in enumerate(children):
-            if child["type"] == "block_math":
-                is_inline = depth > 0
-                if not is_inline:
-                    info.append((child["raw"], False, False))
-                else:
-                    prev_sib = children[i - 1] if i > 0 else None
-                    next_sib = children[i + 1] if i + 1 < len(children) else None
-                    info.append(
-                        (
-                            child["raw"],
-                            _determine_needs_before(prev_sib),
-                            _determine_needs_after(next_sib),
-                        )
-                    )
-            if "children" in child:
-                _walk(child["children"], depth + 1)
+    for token, depth, parents in _walk_tokens(tokens, "block_math"):
+        if depth == 0:
+            info.append((token["raw"], False, False))
+        else:
+            parent = parents[-1]
+            parent_children = parent.get("children", [])
+            idx = next(i for i, t in enumerate(parent_children) if t is token)
+            prev_sib = parent_children[idx - 1] if idx > 0 else None
+            next_sib = (
+                parent_children[idx + 1] if idx + 1 < len(parent_children) else None
+            )
+            info.append(
+                (
+                    token["raw"],
+                    _determine_needs_before(prev_sib),
+                    _determine_needs_after(next_sib),
+                )
+            )
 
-    _walk(tokens)
     return info
 
 
