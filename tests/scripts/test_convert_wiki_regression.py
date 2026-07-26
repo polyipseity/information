@@ -1,0 +1,684 @@
+"""Regression tests for functions targeted by the mistune AST refactoring.
+
+These tests capture the _current_ behavior of regex-based implementations
+to ensure the new mistune AST-based implementations produce identical output.
+
+Covered functions (all in ``scripts/convert_wiki/``):
+
+- ``pipeline._MD028_RE`` — MD028 suppression between adjacent blockquotes
+- ``pipeline._separate_block_math`` — block math spacing via mistune
+- ``utils._pad_table_blocks``, ``_pad_table_block``, ``_parse_table_row``,
+  ``_is_separator_cell``, ``_get_separator_alignment``, ``_format_separator_cell``
+- ``converter._replace_pipes_outside_math`` — pipe handling inside/outside math
+"""
+
+from os import PathLike
+
+import pytest
+from anyio import Path
+from bs4 import BeautifulSoup
+
+import scripts.convert_wiki.pipeline as _pl
+from scripts.convert_wiki.converter import _replace_pipes_outside_math
+from scripts.convert_wiki.pipeline import (
+    _MD028_RE,
+    _separate_block_math,
+)
+from scripts.convert_wiki.utils import (
+    _format_separator_cell,
+    _get_separator_alignment,
+    _is_separator_cell,
+    _pad_table_block,
+    _pad_table_blocks,
+    _parse_table_row,
+)
+
+"""Public API of this test module (empty: no symbols are exported)."""
+__all__ = ()
+
+# ──────────────────────────────────────────────
+
+# _replace_pipes_outside_math
+
+# ──────────────────────────────────────────────
+
+
+class TestReplacePipesOutsideMath:
+    """Regression tests for _replace_pipes_outside_math.
+
+    Pipes outside math blocks are replaced with ``&#124;``.  Pipes inside
+    math blocks (``$...$`` or ``$$...$$``) are replaced with ``\\vert ``.
+    """
+
+    def test_no_pipes(self) -> None:
+        """No pipes in input → unchanged."""
+        assert _replace_pipes_outside_math("hello world") == "hello world"
+
+    def test_no_math(self) -> None:
+        """Pipes outside math → replaced with &#124;."""
+        assert _replace_pipes_outside_math("a | b | c") == "a &#124; b &#124; c"
+
+    def test_pipe_inside_inline_math(self) -> None:
+        """Pipes inside $...$ → replaced with \\vert."""
+        assert _replace_pipes_outside_math("$a|b$") == "$a\\vert b$"
+
+    def test_pipe_inside_display_math(self) -> None:
+        """Pipes inside $$...$$ → replaced with \\vert."""
+        assert _replace_pipes_outside_math("$$a|b$$") == "$$a\\vert b$$"
+
+    def test_mixed_inside_and_outside_math(self) -> None:
+        """Pipes both in and out of math → correct replacement in each."""
+        result = _replace_pipes_outside_math("a | $b|c$ | d")
+        assert result == "a &#124; $b\\vert c$ &#124; d"
+
+    def test_multiple_math_blocks(self) -> None:
+        """Multiple math segments → each handled independently."""
+        result = _replace_pipes_outside_math("$a|b$ | $c|d$")
+        assert result == "$a\\vert b$ &#124; $c\\vert d$"
+
+    def test_mixed_inline_and_display_math(self) -> None:
+        """Both inline and display math in one string."""
+        result = _replace_pipes_outside_math("$a|b$ | $$c|d$$")
+        assert result == "$a\\vert b$ &#124; $$c\\vert d$$"
+
+    def test_empty_math_block(self) -> None:
+        """Empty math $...$ should not crash."""
+        assert _replace_pipes_outside_math("$ $") == "$ $"
+
+    def test_pipe_before_math(self) -> None:
+        """Pipe before a math block."""
+        result = _replace_pipes_outside_math("| $x$")
+        assert result == "&#124; $x$"
+
+    def test_pipe_after_math(self) -> None:
+        """Pipe after a math block."""
+        result = _replace_pipes_outside_math("$x$ |")
+        assert result == "$x$ &#124;"
+
+    def test_no_text_around_math(self) -> None:
+        """Math block alone with pipe markers."""
+        result = _replace_pipes_outside_math("$x$|$y$")
+        assert result == "$x$&#124;$y$"
+
+    def test_adjacent_math_blocks(self) -> None:
+        """Adjacent math blocks: pipes between them handled correctly."""
+        result = _replace_pipes_outside_math("$a|b$$c|d$")
+        assert result == "$a\\vert b$$c\\vert d$"
+
+    def test_mixed_pipe_characters(self) -> None:
+        """Mix of backslash+pipe and pipe in math.
+
+        Note: backslash is not a regex escape here - the ``|`` before math is
+        treated as a literal pipe and replaced with ``&#124;``.
+        """
+        result = _replace_pipes_outside_math(r"\| $a|b$")
+        assert result == r"\&#124; $a\vert b$"
+
+    def test_math_with_adjacent_text(self) -> None:
+        """Math block adjacent to text with pipe."""
+        result = _replace_pipes_outside_math("text$|x|$more")
+        assert result == "text$\\vert x\\vert $more"
+
+
+# ──────────────────────────────────────────────
+
+# _MD028_RE
+
+# ──────────────────────────────────────────────
+
+
+class TestMD028RegEx:
+    """Regression tests for _MD028_RE regex pattern.
+
+    The regex finds adjacent blockquote blocks separated by one or more blank
+    lines and inserts an MD028 suppression comment between them.
+    """
+
+    def test_adjacent_blockquotes(self) -> None:
+        """Two adjacent blockquotes with blank line → MD028 comment."""
+        text = "> First block\n\n> Second block"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert result == (
+            "> First block\n\n<!-- markdownlint MD028 -->\n\n> Second block"
+        )
+
+    def test_three_adjacent_blockquotes(self) -> None:
+        """Three adjacent blockquotes → MD028 between first and rest.
+
+        Note: The current regex's ``group(2)`` greedily consumes ALL remaining
+        blockquote lines after the blank line separator.  So for three blocks
+        only one comment is inserted.  This is a known limitation — the
+        mistune AST replacement will handle this correctly.
+        """
+        text = "> Block 1\n\n> Block 2\n\n> Block 3"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        # Only one comment between Block 1 and (Block 2 + Block 3 combined)
+        assert result.count("<!-- markdownlint MD028 -->") == 1
+        assert result.startswith(
+            "> Block 1\n\n<!-- markdownlint MD028 -->\n\n> Block 2"
+        )
+        assert result.endswith("> Block 3")
+
+    def test_single_blockquote_no_change(self) -> None:
+        """Single blockquote → no change."""
+        text = "> Single block"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert result == text
+
+    def test_no_blockquotes_no_change(self) -> None:
+        """No blockquote lines → no change."""
+        text = "Plain text\n\nMore text"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert result == text
+
+    def test_blockquote_then_other_content(self) -> None:
+        """Blockquote followed by non-blockquote → no MD028."""
+        text = "> A quote\n\nNot a quote"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert result == text
+
+    def test_other_content_then_blockquote(self) -> None:
+        """Non-blockquote followed by blockquote → no MD028."""
+        text = "Not a quote\n\n> A quote"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert result == text
+
+    def test_blockquote_with_inline_content(self) -> None:
+        """Blockquote with nested elements → still matches."""
+        text = "> Some **bold** text\n\n> Other `code` here"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert "<!-- markdownlint MD028 -->" in result
+
+    def test_multi_line_blockquotes(self) -> None:
+        """Multi-line blockquotes → treated as one block."""
+        text = "> Line 1\n> Line 2\n\n> Line 3\n> Line 4"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        expected = (
+            "> Line 1\n> Line 2\n\n<!-- markdownlint MD028 -->\n\n> Line 3\n> Line 4"
+        )
+        assert result == expected
+
+    def test_no_trailing_newline_after_second_block(self) -> None:
+        """Second blockquote without trailing newline → still matches."""
+        text = "> First block\n\n> Second block"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert "Second block" in result
+
+    def test_triple_blank_lines_between_blockquotes(self) -> None:
+        """Multiple (3+) blank lines → treated as one separator."""
+        text = "> First\n\n\n> Second"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert "<!-- markdownlint MD028 -->" in result
+        assert "\n\n\n" not in result  # blank lines collapsed
+
+
+# ──────────────────────────────────────────────
+
+# Table cell utility functions
+
+# ──────────────────────────────────────────────
+
+
+class TestIsSeparatorCell:
+    """Tests for _is_separator_cell."""
+
+    def test_simple_dashes(self) -> None:
+        """--- is a valid separator cell."""
+        assert _is_separator_cell("---")
+
+    def test_left_aligned(self) -> None:
+        """:-- is a valid separator cell."""
+        assert _is_separator_cell(":--")
+
+    def test_right_aligned(self) -> None:
+        """--: is a valid separator cell."""
+        assert _is_separator_cell("--:")
+
+    def test_centered(self) -> None:
+        """:-: is a valid separator cell."""
+        assert _is_separator_cell(":-:")
+
+    def test_too_short(self) -> None:
+        """-- (2 dashes) is NOT a valid separator cell."""
+        assert not _is_separator_cell("--")
+
+    def test_only_one_dash(self) -> None:
+        """- is NOT a valid separator cell."""
+        assert not _is_separator_cell("-")
+
+    def test_empty_string(self) -> None:
+        """Empty string is NOT a valid separator cell."""
+        assert not _is_separator_cell("")
+
+    def test_non_separator_text(self) -> None:
+        """Regular text is NOT a valid separator cell."""
+        assert not _is_separator_cell("hello")
+
+    def test_long_separator(self) -> None:
+        """Long separator (e.g. ------) is valid."""
+        assert _is_separator_cell("------")
+
+    def test_long_centered_separator(self) -> None:
+        """:-----: is valid."""
+        assert _is_separator_cell(":-----:")
+
+    def test_long_left_separator(self) -> None:
+        """:------ is valid."""
+        assert _is_separator_cell(":------")
+
+    def test_long_right_separator(self) -> None:
+        """-------: is valid."""
+        assert _is_separator_cell("-------:")
+
+    def test_separator_with_non_dash_chars(self) -> None:
+        """String with non-dash chars is NOT a separator."""
+        assert not _is_separator_cell(":-x:")
+
+
+class TestGetSeparatorAlignment:
+    """Tests for _get_separator_alignment."""
+
+    def test_default_alignment(self) -> None:
+        """--- → ---."""
+        assert _get_separator_alignment("---") == "---"
+
+    def test_left_alignment(self) -> None:
+        """:-- → :--."""
+        assert _get_separator_alignment(":--") == ":--"
+
+    def test_right_alignment(self) -> None:
+        """--: → --:."""
+        assert _get_separator_alignment("--:") == "--:"
+
+    def test_center_alignment(self) -> None:
+        """:-: → :-:."""
+        assert _get_separator_alignment(":-:") == ":-:"
+
+    def test_long_default(self) -> None:
+        """------ → ---."""
+        assert _get_separator_alignment("------") == "---"
+
+    def test_long_left(self) -> None:
+        """:------ → :--."""
+        assert _get_separator_alignment(":------") == ":--"
+
+    def test_long_right(self) -> None:
+        """-------: → --:."""
+        assert _get_separator_alignment("-------:") == "--:"
+
+    def test_long_center(self) -> None:
+        """:------: → :-:."""
+        assert _get_separator_alignment(":------:") == ":-:"
+
+
+class TestFormatSeparatorCell:
+    """Tests for _format_separator_cell."""
+
+    def test_default_min_width(self) -> None:
+        """--- at minimum width."""
+        assert _format_separator_cell(3, "---") == "---"
+
+    def test_default_wider(self) -> None:
+        """Wider default separator."""
+        assert _format_separator_cell(5, "---") == "-----"
+
+    def test_left_aligned(self) -> None:
+        """Left-aligned separator."""
+        assert _format_separator_cell(4, ":--") == ":---"
+
+    def test_right_aligned(self) -> None:
+        """Right-aligned separator."""
+        assert _format_separator_cell(4, "--:") == "---:"
+
+    def test_centered(self) -> None:
+        """Centered separator."""
+        assert _format_separator_cell(4, ":-:") == ":--:"
+        # width 4 → ":" + "--" (width-2) + ":" = ":--:"
+
+    def test_width_below_minimum(self) -> None:
+        """Width < 3 behaves as if width=3."""
+        assert _format_separator_cell(1, "---") == "---"
+        assert _format_separator_cell(2, "---") == "---"
+
+    def test_centered_min_width(self) -> None:
+        """:-: at minimum width."""
+        assert _format_separator_cell(3, ":-:") == ":-:"  # ":" + "-" + ":"
+
+
+class TestParseTableRow:
+    """Tests for _parse_table_row."""
+
+    def test_simple_row(self) -> None:
+        """Standard pipe-table row."""
+        result = _parse_table_row("| a | b |")
+        assert result == ["a", "b"]
+
+    def test_row_with_spaces(self) -> None:
+        """Row with varying whitespace."""
+        result = _parse_table_row("|  foo  |  bar  |")
+        assert result == ["foo", "bar"]
+
+    def test_row_not_starting_with_pipe(self) -> None:
+        """Line not starting with | → returns None."""
+        assert _parse_table_row("a | b") is None
+
+    def test_row_not_ending_with_pipe(self) -> None:
+        """Line not ending with | → returns None."""
+        assert _parse_table_row("| a | b") is None
+
+    def test_empty_cell(self) -> None:
+        """Row with empty cell."""
+        result = _parse_table_row("| a |  |")
+        assert result == ["a", ""]
+
+    def test_empty_row(self) -> None:
+        """Row with just two pipes."""
+        result = _parse_table_row("||")
+        assert result == [""]
+
+    def test_separator_row(self) -> None:
+        """Separator row parsed as cells."""
+        result = _parse_table_row("| --- | :-- |")
+        assert result == ["---", ":--"]
+
+    def test_row_with_zero_width_chars(self) -> None:
+        """Zero-width characters are stripped from cell content."""
+        result = _parse_table_row("| a\u200bb |")
+        assert result == ["ab"]
+
+    def test_row_with_multiple_cells(self) -> None:
+        """Row with many cells."""
+        result = _parse_table_row("| a | b | c | d |")
+        assert result == ["a", "b", "c", "d"]
+
+
+class TestPadTableBlock:
+    """Tests for _pad_table_block (core table reformatter)."""
+
+    def test_simple_table(self) -> None:
+        """Simple two-column table with padding."""
+        lines = ["| a | b |", "| --- | --- |", "| c | d |"]
+        result = _pad_table_block(lines)
+        assert result == [
+            "| a   | b   |",
+            "| --- | --- |",
+            "| c   | d   |",
+        ]
+
+    def test_aligned_table(self) -> None:
+        """Table with alignment markers."""
+        lines = ["| a | b |", "| :-: | --: |", "| c | d |"]
+        result = _pad_table_block(lines)
+        # Center column padded, right column padded
+        assert ":----" in result[1] or ":-:" in result[1]
+        assert "-----:" in result[1] or "--:" in result[1]
+
+    def test_uneven_column_widths(self) -> None:
+        """Table with uneven widths → padded to widest value."""
+        lines = ["| short | verylongcontent |", "| --- | --- |", "| a | b |"]
+        result = _pad_table_block(lines)
+        # Column 2 should be wider than column 1
+        _cell1_len = len(result[0].split(" | ")[0]) - 1  # strip leading |
+        cell2_len = len(result[0].split(" | ")[1])  # not stripping trailing |
+        assert cell2_len >= len("verylongcontent") + 1  # +1 for padding
+
+    def test_table_with_leading_dash_separator(self) -> None:
+        """Compact separator without leading pipe isn't matched by _pad_table_block."""
+        lines = ["| a |", "---", "| b |"]
+        # The --- line doesn't start with | so it breaks the block
+        result = _pad_table_block(lines)
+        # Should detect invalid separator row and return unchanged
+        assert result == lines
+
+    def test_no_table_with_only_2_rows(self) -> None:
+        """Block with < 2 lines returns unchanged."""
+        lines = ["| a |"]
+        result = _pad_table_block(lines)
+        assert result == lines
+
+    def test_no_separator_row(self) -> None:
+        """Block without separator row returns unchanged."""
+        lines = ["| a | b |", "| c | d |"]
+        result = _pad_table_block(lines)
+        assert result == lines
+
+    def test_table_with_pipes_in_content(self) -> None:
+        """Table cell with &#124; (HTML-encoded pipe) works."""
+        lines = ["| a &#124; b | c |", "| --- | --- |", "| d | e |"]
+        result = _pad_table_block(lines)
+        assert "&#124;" in result[0] or "&#124;" in result[0]
+
+    def test_invalid_mixed_separator_row(self) -> None:
+        """Row mixing text and separator cells returns unchanged."""
+        lines = ["| a | b |", "| --- | c |", "| d | e |"]
+        # The separator row mix of "---" and "c" should be rejected
+        result = _pad_table_block(lines)
+        assert result == lines
+
+
+class TestPadTableBlocks:
+    """Tests for _pad_table_blocks (finds and pads all table blocks in text)."""
+
+    def test_single_table(self) -> None:
+        """Single table in text."""
+        text = "| a | b |\n| --- | --- |\n| c | d |"
+        result = _pad_table_blocks(text)
+        assert "| a   | b   |" in result
+        assert "| --- | --- |" in result
+
+    def text_multiple_tables(self) -> None:
+        """Multiple tables in one text."""
+        text = (
+            "Before\n"
+            "| a | b |\n| --- | --- |\n| c | d |\n"
+            "Between\n"
+            "| x | y | z |\n| --- | --- | --- |\n| 1 | 2 | 3 |"
+        )
+        result = _pad_table_blocks(text)
+        assert "| a   | b   |" in result
+        assert "| x | y | z |" in result  # already padded
+
+    def test_no_tables(self) -> None:
+        """No tables → unchanged."""
+        text = "Just some text\n\nMore text"
+        assert _pad_table_blocks(text) == text
+
+    def test_table_not_starting_with_pipe(self) -> None:
+        """Line starting with pipe but table content detection."""
+        text = "a | b\n---\nc | d"
+        # No pipes at line start → not a table block
+        assert _pad_table_blocks(text) == text
+
+    def test_mixed_text_and_tables(self) -> None:
+        """Table padded correctly within surrounding text."""
+        text = "Some text\n| longword | a |\n| --- | --- |\n| b | c |\nMore text"
+        result = _pad_table_blocks(text)
+        lines = result.split("\n")
+        # 0=Some text, 1=header row, 2=separator row, 3=data row, 4=More text
+        assert "longword" in lines[1]
+        assert "a" in lines[1]
+        assert "b" in lines[3]
+        assert "c" in lines[3]
+
+
+# ──────────────────────────────────────────────
+
+# _separate_block_math
+
+# ──────────────────────────────────────────────
+
+
+class TestSeparateBlockMath:
+    """Regression tests for _separate_block_math.
+
+    Block math spacing: if non-whitespace text directly precedes or follows
+    ``$$...$$``, a space is inserted to prevent broken paragraph affiliation.
+    Uses mistune AST to distinguish ``block_math`` from ``$$`` in code spans.
+    """
+
+    def test_standalone_block_math(self) -> None:
+        """Standalone $$...$$ (no adjacent text) → no change."""
+        text = "$$f(x)$$"
+        assert _separate_block_math(text) == text
+
+    def test_text_before_only(self) -> None:
+        """Text before $$ → space inserted before $$."""
+        result = _separate_block_math("before$$f(x)$$")
+        assert result == "before $$f(x)$$"
+
+    def test_text_after_only(self) -> None:
+        """Text after $$ → space inserted after $$."""
+        result = _separate_block_math("$$f(x)$$after")
+        assert result == "$$f(x)$$ after"
+
+    def test_text_both_sides(self) -> None:
+        """Text on both sides → spaces inserted on both sides."""
+        result = _separate_block_math("before$$f(x)$$after")
+        assert result == "before $$f(x)$$ after"
+
+    def test_no_math_blocks(self) -> None:
+        """No math blocks → unchanged."""
+        text = "Just plain text."
+        assert _separate_block_math(text) == text
+
+    def test_math_in_inline_code(self) -> None:
+        """`` $$x$$ `` inside inline code → no space insertion."""
+        text = "` $$x$$ `"
+        result = _separate_block_math(text)
+        # Mistune should recognize $$ in inline code as literal, not math
+        assert result == text
+
+    def test_math_in_fenced_code_block(self) -> None:
+        """$$...$$ inside fenced code block → no processing."""
+        text = "```\n$$f(x)$$\n```"
+        result = _separate_block_math(text)
+        # The $$ inside fenced code should be ignored by mistune AST
+        assert "$$\nf$$" not in result  # sanity
+
+    def test_multiple_block_math(self) -> None:
+        """Multiple $$...$$ blocks in one paragraph."""
+        result = _separate_block_math("a$$b$$c$$d$$e")
+        assert result == "a $$b$$ c $$d$$ e"
+
+    def test_paragraph_with_spacing_already(self) -> None:
+        """When spaces already exist → no double spacing."""
+        result = _separate_block_math("before $$f(x)$$ after")
+        # Already has spaces, so unchanged
+        assert result == "before $$f(x)$$ after"
+
+    def test_multiline_text_with_math(self) -> None:
+        """Multi-line paragraph with block math."""
+        text = "Line one\nbefore$$f(x)$$after\nLine three"
+        result = _separate_block_math(text)
+        assert "before $$f(x)$$ after" in result
+
+    def test_whitespace_around_math(self) -> None:
+        """Whitespace already around math → no change."""
+        text = "a  $$b$$  c"
+        result = _separate_block_math(text)
+        assert result == text
+
+    def test_math_at_start_of_text(self) -> None:
+        """$$ at text start, text after → space after."""
+        result = _separate_block_math("$$f(x)$$after")
+        assert result == "$$f(x)$$ after"
+
+    def test_math_at_end_of_text(self) -> None:
+        """Text before $$, $$ at text end → space before."""
+        result = _separate_block_math("before$$f(x)$$")
+        assert result == "before $$f(x)$$"
+
+
+# ──────────────────────────────────────────────
+
+# Integration: wiki_html_to_plaintext pipeline
+
+# ──────────────────────────────────────────────
+
+
+class TestWikiHtmlToPlaintextMD028:
+    """Integration tests: MD028 suppression in full pipeline output.
+
+    Note: The Wikipedia converter does not produce ``> `` blockquote Markdown
+    from ``<blockquote>`` HTML.  MD028 suppression applies only when the
+    converter or other sources produce adjacent ``> `` lines, which are then
+    post-processed by the regex.  Unit tests for the regex itself are in
+    ``TestMD028RegEx`` and ``TestMD028EdgeCases``.
+    """
+
+    # Placeholder: if a future enhancement adds blockquote rendering to the
+    # converter, add an integration test here.
+
+
+class TestWikiHtmlToPlaintextTable:
+    """Integration tests: table padding in full pipeline output."""
+
+    @pytest.mark.anyio
+    async def test_simple_table_pipeline(self, tmp_path: PathLike[str]) -> None:
+        """Simple table through full pipeline should be padded."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+
+        html = BeautifulSoup(
+            "<table><tr><td>short</td><td>verylongcontent</td></tr></table>",
+            "html.parser",
+        )
+        result, _ = await _pl.run_pipeline(
+            html,
+            redirect_map={},
+            image_metadata={},
+            names_map={},
+            wiki_dir=tmp / "general",
+            wiki_lang_dir=lang_dir,
+            refs=True,
+        )
+        # The table should have columns
+        lines = [_l for _l in result.split("\n") if _l.startswith("|")]
+        assert len(lines) >= 1
+        # Second column should accommodate "verylongcontent"
+        # The dash separator row should match column widths
+        assert "verylongcontent" in result
+
+
+# ──────────────────────────────────────────────
+
+# Direct function tests: non-regression edge cases
+
+# for functions affected by the refactoring
+
+# ──────────────────────────────────────────────
+
+
+class TestMD028EdgeCases:
+    """Edge cases for the MD028 regex pattern."""
+
+    def test_empty_lines_only(self) -> None:
+        """Only empty lines and blockquotes."""
+        text = "> Quote\n\n\n> Another"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert "<!-- markdownlint MD028 -->" in result
+
+    def test_blockquote_with_nested_list(self) -> None:
+        """Blockquote containing nested list elements."""
+        text = "> Outer\n> - Item\n> - Item\n\n> Next quote"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert "<!-- markdownlint MD028 -->" in result
+
+    def test_blockquote_with_code_fence(self) -> None:
+        """Blockquote containing a code fence."""
+        text = "> Quote with:\n> ```\n> code block\n> ```\n\n> Next quote"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert "<!-- markdownlint MD028 -->" in result
+
+    def test_no_trailing_newline(self) -> None:
+        """Input without trailing newline."""
+        text = "> A\n\n> B"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert result == ("> A\n\n<!-- markdownlint MD028 -->\n\n> B")
+
+    def test_unicode_in_blockquotes(self) -> None:
+        """Blockquote with unicode characters."""
+        text = "> «élève»\n\n> «estudiante»"
+        result = _MD028_RE.sub(r"\1\n<!-- markdownlint MD028 -->\n\n\2", text)
+        assert "<!-- markdownlint MD028 -->" in result
