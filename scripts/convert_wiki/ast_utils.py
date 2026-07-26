@@ -36,6 +36,11 @@ __all__ = (
     "_find_top_level_adjacent",
     "_inject_after_token",
     "_replace_pipes_outside_math",
+    "_all_math_ranges",
+    "_all_code_span_ranges",
+    "_is_in_math_span",
+    "_is_in_code_span",
+    "_find_table_blocks",
 )
 
 # ---------------------------------------------------------------------------
@@ -216,7 +221,7 @@ def _find_token_range(
         # Use the next token's raw to bound the skip.
         # If no next token, nothing to do.
         if i < len(tokens) - 1:
-            _advance_to_next(text, tokens, i, pos)
+            pos = _advance_to_next(text, tokens, i, pos)
 
     return None
 
@@ -401,37 +406,97 @@ def _inject_after_token(
     return text[:end] + content + text[end:]
 
 
-def _replace_pipes_outside_math(text: str) -> str:
-    """Replace ``|`` with ``&#124;`` outside math and with ``\\vert`` inside math.
+def _all_math_ranges(text: str) -> list[tuple[int, int]]:
+    """Return byte ranges of all math spans (inline and block) in *text*.
 
-    Uses mistune AST to correctly identify math boundaries, unlike the
-    previous regex approach which could misidentify math in edge cases.
+    Parses *text* with ``_MISTUNE_PARSER``, walks the AST for
+    ``inline_math`` and ``block_math`` tokens, and maps each token's
+    raw text back to its byte position in *text*.
+
+    Returns an empty list if no math is found or parsing fails.
     """
     parse_result, _state = _MISTUNE_PARSER.parse(text)
     del _state
     if isinstance(parse_result, str):
-        return text  # Parse error, return unchanged.
+        return []
 
-    # Collect raw text of all math tokens (inline and block) in tree order.
     math_raws: list[str] = [
         token["raw"]
         for token, _depth, _parents in _walk_tokens(parse_result)
         if token.get("type") in ("inline_math", "block_math")
         and token.get("raw") is not None
     ]
-
     if not math_raws:
-        return text.replace("|", "&#124;")
+        return []
 
-    # Find positions of each math raw in text, scanning forward
-    # to handle duplicates correctly.
-    math_ranges: list[tuple[int, int]] = []
+    ranges: list[tuple[int, int]] = []
     pos = 0
     for raw in math_raws:
         found = text.find(raw, pos)
         if found >= 0:
-            math_ranges.append((found, found + len(raw)))
+            ranges.append((found, found + len(raw)))
             pos = found + len(raw)
+    return ranges
+
+
+def _all_code_span_ranges(text: str) -> list[tuple[int, int]]:
+    """Return byte ranges of all code span tokens in *text*.
+
+    Parses *text* with ``_MISTUNE_PARSER`` and walks the AST for
+    ``codespan`` tokens, mapping each to its byte position.
+
+    Returns an empty list if no code spans are found or parsing fails.
+    """
+    parse_result, _state = _MISTUNE_PARSER.parse(text)
+    del _state
+    if isinstance(parse_result, str):
+        return []
+
+    code_raws: list[str] = [
+        token["raw"]
+        for token, _depth, _parents in _walk_tokens(parse_result)
+        if token.get("type") == "codespan" and token.get("raw") is not None
+    ]
+    if not code_raws:
+        return []
+
+    ranges: list[tuple[int, int]] = []
+    pos = 0
+    for raw in code_raws:
+        found = text.find(raw, pos)
+        if found >= 0:
+            ranges.append((found, found + len(raw)))
+            pos = found + len(raw)
+    return ranges
+
+
+def _is_in_span(pos: int, ranges: list[tuple[int, int]]) -> bool:
+    """Check if *pos* falls within any ``(start, end)`` range."""
+    for start, end in ranges:
+        if start <= pos < end:
+            return True
+    return False
+
+
+def _is_in_math_span(text: str, pos: int) -> bool:
+    """Check if *pos* is inside an inline or block math span in *text*."""
+    return _is_in_span(pos, _all_math_ranges(text))
+
+
+def _is_in_code_span(text: str, pos: int) -> bool:
+    """Check if *pos* is inside a code span in *text*."""
+    return _is_in_span(pos, _all_code_span_ranges(text))
+
+
+def _replace_pipes_outside_math(text: str) -> str:
+    """Replace ``|`` with ``&#124;`` outside math and with ``\\vert`` inside math.
+
+    Uses mistune AST to correctly identify math boundaries, unlike the
+    previous regex approach which could misidentify math in edge cases.
+    """
+    math_ranges = _all_math_ranges(text)
+    if not math_ranges:
+        return text.replace("|", "&#124;")
 
     # Build result by alternating non-math and math segments.
     parts: list[str] = []
@@ -443,3 +508,58 @@ def _replace_pipes_outside_math(text: str) -> str:
     parts.append(text[prev_end:].replace("|", "&#124;"))
 
     return "".join(parts)
+
+
+def _find_table_blocks(text: str) -> list[tuple[int, int]]:
+    """Return byte ranges of pipe-table blocks in *text* using mistune AST.
+
+    Parses *text* with ``_MISTUNE_PARSER``, walks top-level tokens for
+    ``table`` type, and deduces each table's byte range by finding the
+    raw text of adjacent tokens that have a reconstructable ``raw``.
+
+    Returns an empty list if no tables are found or parsing fails.
+    """
+    parse_result, _state = _MISTUNE_PARSER.parse(text)
+    del _state
+    if isinstance(parse_result, str):
+        return []
+
+    # Determine byte ranges for tokens that have a reconstructable raw.
+    # Use rfind for previous-token search to handle cases where
+    # _advance_to_next has moved past the token's actual position.
+    content_ranges: dict[int, tuple[int, int]] = {}
+    for i, tok in enumerate(parse_result):
+        if tok["type"] == "table":
+            continue
+        raw = _reconstruct_token_raw(tok)
+        if raw is not None:
+            found = text.find(raw, 0)
+            if found >= 0:
+                content_ranges[i] = (found, found + len(raw))
+
+    result: list[tuple[int, int]] = []
+    for i, tok in enumerate(parse_result):
+        if tok["type"] != "table":
+            continue
+
+        # Find the previous non-table token with a known range.
+        prev_end = 0
+        for j in range(i - 1, -1, -1):
+            if j in content_ranges:
+                prev_end = content_ranges[j][1]
+                break
+
+        # Find the next non-table token with a known range.
+        # Search from prev_end forward to handle duplicate raws.
+        next_start = len(text)
+        for j in range(i + 1, len(parse_result)):
+            raw = _reconstruct_token_raw(parse_result[j])
+            if raw is not None:
+                found = text.find(raw, prev_end)
+                if found >= 0:
+                    next_start = found
+                    break
+
+        result.append((prev_end, next_start))
+
+    return result

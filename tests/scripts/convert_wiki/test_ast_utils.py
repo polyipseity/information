@@ -7,6 +7,11 @@ Covers all exported functions:
 * ``_walk_tokens`` — recursive traversal with optional filter
 * ``_find_top_level_adjacent`` — adjacency detection
 * ``_inject_after_token`` — text insertion
+* ``_all_math_ranges`` — math span range finding
+* ``_all_code_span_ranges`` — code span range finding
+* ``_is_in_span`` — position-in-range check
+* ``_is_in_math_span`` — position-in-math-span check
+* ``_is_in_code_span`` — position-in-code-span check
 """
 
 from __future__ import annotations
@@ -17,9 +22,14 @@ import pytest
 
 from scripts.convert_wiki.ast_utils import (
     _MISTUNE_PARSER,
+    _all_code_span_ranges,
+    _all_math_ranges,
     _find_token_range,
     _find_top_level_adjacent,
     _inject_after_token,
+    _is_in_code_span,
+    _is_in_math_span,
+    _is_in_span,
     _reconstruct_token_raw,
     _walk_tokens,
 )
@@ -558,3 +568,158 @@ class TestEdgeCases:
                 assert result is None
                 return
         pytest.fail("no blank_line token found")
+
+
+# =========================================================================
+# _all_math_ranges
+# =========================================================================
+
+
+class TestAllMathRanges:
+    """Tests for math span range finding."""
+
+    def test_no_math(self) -> None:
+        assert _all_math_ranges("plain text") == []
+
+    def test_empty_string(self) -> None:
+        assert _all_math_ranges("") == []
+
+    def test_inline_math(self) -> None:
+        result = _all_math_ranges("text $a^2 + b^2$ more")
+        assert len(result) == 1
+        start, end = result[0]
+        assert "a^2 + b^2" in "text $a^2 + b^2$ more"[start:end]
+
+    def test_block_math(self) -> None:
+        result = _all_math_ranges("before\n$$\na = b\n$$\nafter")
+        assert len(result) == 1
+        start, end = result[0]
+        assert "a = b" in "before\n$$\na = b\n$$\nafter"[start:end]
+
+    def test_multiple_inline_math(self) -> None:
+        result = _all_math_ranges("$a$ and $b$ and $c$")
+        assert len(result) == 3
+
+    def test_parse_error(self) -> None:
+        # Extremely malformed input that causes parse to return a string
+        result = _all_math_ranges("\x00")
+        assert result == []
+
+
+# =========================================================================
+# _all_code_span_ranges
+# =========================================================================
+
+
+class TestAllCodeSpanRanges:
+    """Tests for code span range finding."""
+
+    def test_no_code(self) -> None:
+        assert _all_code_span_ranges("plain text") == []
+
+    def test_empty_string(self) -> None:
+        assert _all_code_span_ranges("") == []
+
+    def test_single_code_span(self) -> None:
+        text = "text `code` more"
+        result = _all_code_span_ranges(text)
+        assert len(result) == 1
+        start, end = result[0]
+        assert text[start:end] == "code"
+
+    def test_multiple_code_spans(self) -> None:
+        result = _all_code_span_ranges("`a` and `b` and `c`")
+        assert len(result) == 3
+
+    def test_code_span_with_backticks(self) -> None:
+        text = "`` `code` ``"
+        result = _all_code_span_ranges(text)
+        assert len(result) == 1
+        start, end = result[0]
+        assert "`code`" in text[start:end]
+
+    def test_parse_error(self) -> None:
+        result = _all_code_span_ranges("\x00")
+        assert result == []
+
+
+# =========================================================================
+# _is_in_span
+# =========================================================================
+
+
+class TestIsInSpan:
+    """Tests for position-in-range checking."""
+
+    def test_position_inside(self) -> None:
+        assert _is_in_span(5, [(0, 10)])
+
+    def test_position_before(self) -> None:
+        assert not _is_in_span(0, [(5, 10)])
+
+    def test_position_after(self) -> None:
+        assert not _is_in_span(15, [(5, 10)])
+
+    def test_multiple_ranges_middle(self) -> None:
+        assert _is_in_span(12, [(0, 5), (10, 20)])
+
+    def test_multiple_ranges_none(self) -> None:
+        assert not _is_in_span(7, [(0, 5), (10, 20)])
+
+    def test_empty_ranges(self) -> None:
+        assert not _is_in_span(5, [])
+
+    def test_boundary_start(self) -> None:
+        assert _is_in_span(0, [(0, 10)])
+
+    def test_boundary_end_exclusive(self) -> None:
+        assert not _is_in_span(10, [(0, 10)])
+
+
+# =========================================================================
+# _is_in_math_span
+# =========================================================================
+
+
+class TestIsInMathSpan:
+    """Tests for position-in-math-span check."""
+
+    def test_inside_inline_math(self) -> None:
+        # "$x$" starts at position 7, "x" is at position 8
+        assert _is_in_math_span("before $x$ after", 8)
+
+    def test_outside_math(self) -> None:
+        assert not _is_in_math_span("before $x$ after", 3)
+
+    def test_no_math_at_all(self) -> None:
+        assert not _is_in_math_span("plain text", 2)
+
+    def test_empty_text(self) -> None:
+        assert not _is_in_math_span("", 0)
+
+
+# =========================================================================
+# _is_in_code_span
+# =========================================================================
+
+
+class TestIsInCodeSpan:
+    """Tests for position-in-code-span check."""
+
+    def test_inside_code(self) -> None:
+        assert _is_in_code_span("text `code` more", 7)
+
+    def test_outside_code(self) -> None:
+        assert not _is_in_code_span("text `code` more", 3)
+
+    def test_no_code_at_all(self) -> None:
+        assert not _is_in_code_span("plain text", 2)
+
+    def test_empty_text(self) -> None:
+        assert not _is_in_code_span("", 0)
+
+    def test_code_span_boundary(self) -> None:
+        # mistune codespan raw is inner content "code" (positions 6-9)
+        assert _is_in_code_span("text `code` more", 6)
+        # Position just after the closing backtick is outside
+        assert not _is_in_code_span("text `code` more", 11)
