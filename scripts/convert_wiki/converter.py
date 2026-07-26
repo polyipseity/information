@@ -53,8 +53,6 @@ _COLLAPSE_EMPTY_BLOCKQUOTE_RE = re.compile(r">\n(?:>\n)+")
 _COLLAPSE_SPACES_REGEX = re.compile(r" {2,}")
 """Captures the separator-prefixed display text in bold/italic processing."""
 _PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
-"""Extract reference content from ``str.strip()``-style dumps."""
-_REF_CONTENT_REGEX = re.compile(r"\[(.+?)]")
 """Consecutive newline runs."""
 _CONSECUTIVE_NEWLINES_REGEX = re.compile(r"\n\n+")
 """Leading whitespace lines at the start of a cell."""
@@ -169,9 +167,9 @@ class WikiHtmlConverter:
 
         if "reference" in classes:
             if refs:
-                ref_str = "".join(ele.stripped_strings)
-                if ref_content := _REF_CONTENT_REGEX.search(ref_str):
-                    ref_content = ref_content[1]
+                ref_link = ele.find("a", href=lambda v: v and "#cite_note-" in v)
+                if ref_link:
+                    ref_content = ref_link.get_text(strip=True).strip("[]")
                     return (
                         f"<sup>[{escape_markdown(f'[{ref_content}]')}]"
                         f"({_markdown_fragment(f'^ref-{ref_content}')})</sup>"
