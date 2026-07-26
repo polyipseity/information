@@ -15,6 +15,12 @@ from bs4 import Tag
 from yarl import URL
 
 from . import config as _cfg
+from .ast_utils import (
+    _all_code_span_ranges,
+    _all_math_ranges,
+    _find_table_blocks,
+    _is_in_span,
+)
 
 """Exported names from this module."""
 __all__ = ()
@@ -194,9 +200,9 @@ _ZERO_WIDTH_CHARS_RE = re.compile("[\u200b\u200c\u200d\u2060\ufeff]")
 def _smart_split_row(line: str) -> list[str] | None:
     """Split a pipe-table row into cells.
 
-    Tracks math (``$...$``, ``$$...$$``) and code spans (`` `...` ``) so
-    that pipe characters inside them are not treated as cell boundaries.
-    Also respects backslash-escaped pipes (``\\|``).
+    Uses ``_all_math_ranges`` and ``_all_code_span_ranges`` to identify
+    pipe characters inside math or code spans so they are not treated as
+    cell boundaries.  Also respects backslash-escaped pipes (``\\|``).
 
     Returns ``None`` if the line is not a valid pipe-table row (must start
     and end with ``|``).
@@ -205,6 +211,10 @@ def _smart_split_row(line: str) -> list[str] | None:
     if not (line.startswith("|") and line.endswith("|")):
         return None
     inner = line[1:-1]
+
+    # Precompute protected ranges (math and code spans).
+    math_ranges = _all_math_ranges(inner)
+    code_ranges = _all_code_span_ranges(inner)
 
     # Collect positions of pipe characters that are outside protected spans
     # and are not backslash-escaped.
@@ -216,29 +226,11 @@ def _smart_split_row(line: str) -> list[str] | None:
             # Escaped pipe: skip over it (not a cell boundary)
             i += 2
             continue
-        if c == "$":
-            # Inline math ($...$) or display math ($$...$$) — skip to
-            # closing $.  For display math, both closing $$ are consumed.
-            i += 1
-            is_display = i < len(inner) and inner[i] == "$"
-            if is_display:
-                i += 1  # skip second $ of opening $$
-            while i < len(inner) and inner[i] != "$":
-                i += 1
-            if i < len(inner):
-                i += 1  # skip first $ of closing $$
-                if is_display and i < len(inner) and inner[i] == "$":
-                    i += 1  # skip second $ of closing $$
-            continue
-        if c == "`":
-            # Inline code span — skip to closing `.
-            i += 1
-            while i < len(inner) and inner[i] != "`":
-                i += 1
-            if i < len(inner):
-                i += 1  # skip closing `
-            continue
-        if c == "|":
+        if (
+            c == "|"
+            and not _is_in_span(i, math_ranges)
+            and not _is_in_span(i, code_ranges)
+        ):
             pipes.append(i)
         i += 1
 
@@ -323,25 +315,69 @@ def _reformat_table(text: str) -> str:
     """Reformat all pipe-table blocks in *text* with columns padded to the
     widest cell per column.
 
-    Uses ``_reformat_table_block`` internally, which correctly handles
-    pipe characters inside math and code spans via ``_smart_split_row``.
-    This is a drop-in replacement for ``_pad_table_blocks``.
+    Uses ``_find_table_blocks`` (mistune AST) to locate table boundaries,
+    then ``_reformat_table_block`` for formatting.
     """
-    lines = text.split("\n")
-    result: list[str] = []
-    i = 0
-    while i < len(lines):
-        line = lines[i]
-        if line.startswith("|") and line.endswith("|"):
-            block: list[str] = [line]
-            i += 1
-            while (
-                i < len(lines) and lines[i].startswith("|") and lines[i].endswith("|")
-            ):
-                block.append(lines[i])
-                i += 1
-            result.extend(_reformat_table_block(block))
+    table_blocks = _find_table_blocks(text)
+    if not table_blocks:
+        return text
+
+    parts: list[str] = []
+    prev_end = 0
+    for start, end in table_blocks:
+        # Skip blocks that overlap or are before the previous end.
+        # ``_find_table_blocks`` can return duplicate/overlapping ranges
+        # when mistune's AST contains duplicate table tokens.
+        if start < prev_end:
+            continue
+
+        # Non-table prefix.
+        parts.append(text[prev_end:start])
+
+        # Extract the table block and strip surrounding blank lines.
+        block_text = text[start:end]
+        lines = block_text.split("\n")
+
+        # Find table content boundaries (lines starting with |).
+        first = 0
+        while first < len(lines) and not lines[first].startswith("|"):
+            first += 1
+        last = len(lines) - 1
+        while last >= first and not lines[last].startswith("|"):
+            last -= 1
+
+        if first <= last:
+            # Preserve leading blank lines as part of the prefix.
+            if first > 0:
+                parts.append("\n".join(lines[:first]) + "\n")
+
+            # Group consecutive pipe lines into separate sub-blocks,
+            # so that separate tables within the same AST range are
+            # reformatted independently (matching the old heuristic).
+            table_slice = lines[first : last + 1]
+            reformatted: list[str] = []
+            i = 0
+            while i < len(table_slice):
+                if table_slice[i].startswith("|"):
+                    j = i
+                    while j < len(table_slice) and table_slice[j].startswith("|"):
+                        j += 1
+                    sub_block = _reformat_table_block(table_slice[i:j])
+                    reformatted.extend(sub_block)
+                    i = j
+                else:
+                    reformatted.append(table_slice[i])
+                    i += 1
+            parts.append("\n".join(reformatted))
+
+            # Trailing blank lines will be handled by the next prefix
+            # (or the final suffix).
+            trailing = lines[last + 1 :]
+            if trailing:
+                parts.append("\n" + "\n".join(trailing))
         else:
-            result.append(line)
-            i += 1
-    return "\n".join(result)
+            parts.append(block_text)
+
+        prev_end = end
+    parts.append(text[prev_end:])
+    return "".join(parts)
