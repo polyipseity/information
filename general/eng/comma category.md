@@ -60,7 +60,7 @@ Another special case occurs when {@{both $S$ and $T$ are functors with domain ${
 
 ## properties
 
-For {@{each comma category}@} there are {@{forgetful functors from it}@}. (annotation: they are {@{the domain, codomain, and arrow functor}@}) <!--SR:!2028-02-17,865,342!2030-05-11,1532,374!2026-08-04,128,402-->
+For {@{each comma category}@} there are {@{forgetful functors from it}@}. (annotation: they are {@{the domain, codomain, and arrow functor}@}) <!--SR:!2028-02-17,865,342!2030-05-11,1532,374!fsrs,2028-07-12T00:00:00.000Z,707,706.72935933,1,2,8,0,0,2026-08-05T00:00:00.000Z-->
 
 - Domain functor, ::@:: $S\downarrow T\to {\mathcal {A} }$, which maps: <!--SR:!2031-01-12,1721,374!2031-01-16,1725,374-->
     - (annotation: domain functor) objects: ::@:: $(A,B,h)\mapsto A$; <!--SR:!2030-09-11,1630,374!2030-09-08,1627,374-->

@@ -132,7 +132,7 @@ There are {@{two [ternary operations](ternary%20operation.md)}@} involving {@{do
 
 ## physics
 
-In {@{[physics](physics.md)}@}, the dot product {@{takes two vectors and returns a [scalar](scalar%20(mathematics).md) quantity}@}. It is also known as {@{the "scalar product"}@}. {@{The dot product of two vectors}@} can be defined as {@{the product of the magnitudes of the two vectors and the cosine of the angle between the two vectors}@}. Thus, {@{$$\mathbf {a} \cdot \mathbf {b} =|\mathbf {a} |\,|\mathbf {b} |\cos \theta$$}@} Alternatively, it is defined as {@{the product of the projection of the first vector onto the second vector and the magnitude of the second vector}@}. <!--SR:!2026-08-04,426,383!fsrs,2031-11-30T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-07-23T00:00:00.000Z!fsrs,2031-12-16T00:00:00.000Z,1968,1967.83883924,1,2,10,0,0,2026-07-27T00:00:00.000Z!fsrs,2031-12-20T00:00:00.000Z,1972,1971.9126144,1,2,10,0,0,2026-07-27T00:00:00.000Z!fsrs,2031-10-25T00:00:00.000Z,1927,1927.03350629,1,2,10,0,0,2026-07-16T00:00:00.000Z!fsrs,2031-11-25T00:00:00.000Z,1952,1951.53152462,1,2,10,0,0,2026-07-22T00:00:00.000Z!2026-08-30,445,383-->
+In {@{[physics](physics.md)}@}, the dot product {@{takes two vectors and returns a [scalar](scalar%20(mathematics).md) quantity}@}. It is also known as {@{the "scalar product"}@}. {@{The dot product of two vectors}@} can be defined as {@{the product of the magnitudes of the two vectors and the cosine of the angle between the two vectors}@}. Thus, {@{$$\mathbf {a} \cdot \mathbf {b} =|\mathbf {a} |\,|\mathbf {b} |\cos \theta$$}@} Alternatively, it is defined as {@{the product of the projection of the first vector onto the second vector and the magnitude of the second vector}@}. <!--SR:!fsrs,2032-01-22T00:00:00.000Z,1996,1996.32986052,1,2,10,0,0,2026-08-05T00:00:00.000Z!fsrs,2031-11-30T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-07-23T00:00:00.000Z!fsrs,2031-12-16T00:00:00.000Z,1968,1967.83883924,1,2,10,0,0,2026-07-27T00:00:00.000Z!fsrs,2031-12-20T00:00:00.000Z,1972,1971.9126144,1,2,10,0,0,2026-07-27T00:00:00.000Z!fsrs,2031-10-25T00:00:00.000Z,1927,1927.03350629,1,2,10,0,0,2026-07-16T00:00:00.000Z!fsrs,2031-11-25T00:00:00.000Z,1952,1951.53152462,1,2,10,0,0,2026-07-22T00:00:00.000Z!2026-08-30,445,383-->
 
 For example:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup>
 
@@ -187,7 +187,7 @@ The inner product between {@{a [tensor](tensor.md) of order $n$ and a tensor of 
 
 ### algorithms
 
-{@{The straightforward algorithm for calculating a floating-point dot product of vectors}@} can {@{suffer from [catastrophic cancellation](catastrophic%20cancellation.md)}@}. To avoid this, {@{approaches such as the [Kahan summation algorithm](Kahan%20summation%20algorithm.md) are used}@}. <!--SR:!2026-09-02,448,383!2029-12-25,1409,383!2026-08-04,426,383-->
+{@{The straightforward algorithm for calculating a floating-point dot product of vectors}@} can {@{suffer from [catastrophic cancellation](catastrophic%20cancellation.md)}@}. To avoid this, {@{approaches such as the [Kahan summation algorithm](Kahan%20summation%20algorithm.md) are used}@}. <!--SR:!2026-09-02,448,383!2029-12-25,1409,383!fsrs,2032-01-22T00:00:00.000Z,1996,1996.32986052,1,2,10,0,0,2026-08-05T00:00:00.000Z-->
 
 ### libraries
 

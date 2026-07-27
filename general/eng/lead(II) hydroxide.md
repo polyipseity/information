@@ -13,7 +13,7 @@ __Lead(II) hydroxide__ is {@{an [inorganic compound](inorganic%20compound.md) wi
 
 ## preparation
 
-Treating {@{lead(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out white lead(II) hydroxide}@}. Excess {@{strong base redissolves the precipitate and forms colorless tetrahydroxoplumbate(II) ions}@}: <!--SR:!2026-08-04,329,290!2026-09-19,483,250-->
+Treating {@{lead(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out white lead(II) hydroxide}@}. Excess {@{strong base redissolves the precipitate and forms colorless tetrahydroxoplumbate(II) ions}@}: <!--SR:!fsrs,2029-12-03T00:00:00.000Z,1216,1215.71523222,1.98030797,2,9,0,0,2026-08-05T00:00:00.000Z!2026-09-19,483,250-->
 
 > treating with [bases](base%20(chemistry).md)
 >

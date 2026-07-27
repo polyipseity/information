@@ -64,7 +64,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="4441"--><!-- The following content is generated at 2024-01-04T20:17:51.842124+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[hydrolysis](#hydrolysis) <!--SR:!2026-08-04,774,272!2029-04-11,1395,312-->
+- _(begin)_→::@::←[hydrolysis](#hydrolysis) <!--SR:!fsrs,2033-03-07T00:00:00.000Z,2406,2406.49298198,2.88086152,2,11,0,0,2026-08-05T00:00:00.000Z!2029-04-11,1395,312-->
 - [hydrolysis](#hydrolysis)→::@::←[substitution](#substitution) <!--SR:!2031-07-01,1948,252!2028-07-12,1018,252-->
 - [substitution](#substitution)→::@::←_(end)_ <!--SR:!2033-07-09,2619,297!2030-06-03,1928,317-->
 

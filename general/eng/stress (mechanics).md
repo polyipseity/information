@@ -9,7 +9,7 @@ tags:
 
 # stress
 
-In [continuum mechanics](continnum%20mechanics.md), __stress__ is {@{a [physical quantity](physical%20quantity.md) describing [forces](force.md) present during [deformation](deformation%20(physics).md)}@}. <!--SR:!2026-08-04,573,290-->
+In [continuum mechanics](continnum%20mechanics.md), __stress__ is {@{a [physical quantity](physical%20quantity.md) describing [forces](force.md) present during [deformation](deformation%20(physics).md)}@}. <!--SR:!fsrs,2032-01-06T00:00:00.000Z,1980,1979.6906326,1.98030797,2,10,0,0,2026-08-05T00:00:00.000Z-->
 
 ## simple types
 

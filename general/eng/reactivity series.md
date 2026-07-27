@@ -247,7 +247,7 @@ return chain.from_iterable([r.value for r in results])
 - [beryllium](beryllium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2027-02-11,471,170-->
 - [aluminium](aluminium.md):@:reacts with [steam](steam.md) and [acids](acid.md) <!--SR:!2028-01-07,691,190-->
 - [titanium](titanium.md):@:reacts with concentrated [mineral acids](mineral%20acid.md) <!--SR:!2028-01-01,1043,250-->
-- [manganese](manganese.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2026-08-04,269,150-->
+- [manganese](manganese.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!fsrs,2027-11-05T00:00:00.000Z,457,456.52457953,8.98461332,2,9,0,0,2026-08-05T00:00:00.000Z-->
 - [zinc](zinc.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2027-07-15,1110,290-->
 - [chromium](chromium.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2027-08-30,780,250-->
 - [iron](iron.md):@:reacts with [acids](acid.md), poorly with [steam](steam.md) <!--SR:!2029-05-03,1608,310-->

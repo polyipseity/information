@@ -92,7 +92,7 @@ The content is in teaching order.
 - [functional programming](../../../../general/functional%20programming.md) ::@:: It is a programming paradigm where programs are constructed by applying and composing functions. <!--SR:!2026-08-07,251,330!2026-08-19,259,330-->
     - functional programming / missing elements ::@:: imperative control structures, no mutations \(__this course__: In a _restricted sense_, these elements are strictly _forbidden_.\) <!--SR:!fsrs,2029-08-07T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-08-04T00:00:00.000Z!2026-09-16,282,330-->
     - functional programming / important elements ::@:: functions \(as first-class citizens\), immutable data types \(__this course__: In a _wide sense_, these elements are _emphasized_ on, but unmentioned elements \(e.g. above\) are not strictly forbidden.\) <!--SR:!2028-05-07,734,330!2026-09-09,276,330-->
-    - functional programming / function ::@:: As first-class citizens, they can be composed, definable anywhere, passed as parameters, etc. <!--SR:!2026-08-04,249,330!2026-08-11,255,330-->
+    - functional programming / function ::@:: As first-class citizens, they can be composed, definable anywhere, passed as parameters, etc. <!--SR:!fsrs,2029-08-12T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-05T00:00:00.000Z!2026-08-11,255,330-->
     - functional programming / examples ::@:: restricted: FP, Pure Lisp, XPath, XQuery, XSLT, etc. <br/> wider: Clojure, F\#, Haskell, Lips, Ocaml, Racket, SML, Scala, Scheme, etc. <!--SR:!2026-09-10,277,330!2026-08-25,265,330-->
 - COMP 3031
     - COMP 3031 / recommended books
@@ -106,7 +106,7 @@ The content is in teaching order.
         - [§ primitive types](Scala%203.md#primitive%20types): `Boolean`, `Int`, `Double`
         - [§ expressions](Scala%203.md#expressions): expressions, arithmetic expressions
         - [§ definitions](Scala%203.md#definitions): `def`
-- [rewriting](../../../../general/rewriting.md) ::@:: It covers a wide range of methods of replacing subterms of a formula with other terms. <!--SR:!2026-08-11,255,330!2026-08-04,249,330-->
+- [rewriting](../../../../general/rewriting.md) ::@:: It covers a wide range of methods of replacing subterms of a formula with other terms. <!--SR:!2026-08-11,255,330!fsrs,2029-08-12T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-05T00:00:00.000Z-->
     - rewriting / substitution model ::@:: It is a way to _evaluate_ expressions _without side effects_. To evaluate a _function call_, each parameter to the function is evaluated from left to right. Then, replace the function call with the _function expression_, while _substituting_ each occurrence of the parameter name with the parameter value. <p> It is formalized in lambda calculus. <!--SR:!2026-08-30,269,330!2028-07-02,764,330-->
 - [divergence](../../../../general/divergence%20(computer%20science).md) ::@:: A computation is said to __diverge__ if it does not terminate or terminates in an exceptional state. Otherwise it is said to __converge__. <!--SR:!2026-08-06,251,330!2026-08-10,254,330-->
     - divergence / example ::@:: Scala 3: `def loop: Int = loop; loop` <!--SR:!2026-09-24,289,330!2026-08-27,264,330-->

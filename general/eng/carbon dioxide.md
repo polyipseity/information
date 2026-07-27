@@ -14,7 +14,7 @@ tags:
 
 ### tests
 
-Carbon dioxide can be tested using {@{calcium compounds or [hydrogencarbonate indicator](hydrogencarbonate%20indicator.md)}@}. <!--SR:!2026-08-04,922,262-->
+Carbon dioxide can be tested using {@{calcium compounds or [hydrogencarbonate indicator](hydrogencarbonate%20indicator.md)}@}. <!--SR:!fsrs,2033-12-25T00:00:00.000Z,2699,2698.53392241,3.38116904,2,11,0,0,2026-08-05T00:00:00.000Z-->
 
 #### calcium compounds
 

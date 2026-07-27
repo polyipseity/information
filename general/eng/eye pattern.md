@@ -139,7 +139,7 @@ The image below shows {@{a 1.25 Gbit/s NRZ signal}@} after passing {@{through a 
 >
 > {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} through {@{a lossy channel}@} <!--SR:!2026-08-30,276,330!2026-09-20,292,330!2026-08-07,257,330!2026-08-21,268,330-->
 
-As {@{high frequency losses increase}@} {@{the overall shape of the eye}@} gradually {@{degrades into a sinusoid}@} \(once {@{higher frequency harmonics of the data has been eliminated}@}, {@{all that remains}@} is {@{the fundamental}@}\) and {@{decreases in amplitude}@}. <!--SR:!2026-09-17,290,330!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-08-15,263,330!2026-08-04,255,330!fsrs,2029-08-21T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-02T00:00:00.000Z!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-09-09,283,330-->
+As {@{high frequency losses increase}@} {@{the overall shape of the eye}@} gradually {@{degrades into a sinusoid}@} \(once {@{higher frequency harmonics of the data has been eliminated}@}, {@{all that remains}@} is {@{the fundamental}@}\) and {@{decreases in amplitude}@}. <!--SR:!2026-09-17,290,330!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-08-15,263,330!fsrs,2029-09-04T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-05T00:00:00.000Z!fsrs,2029-08-21T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-02T00:00:00.000Z!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-09-09,283,330-->
 
 ### impedance mismatches
 

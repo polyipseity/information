@@ -9,7 +9,7 @@ tags:
 
 # emission nebula
 
-An __emission nebula__ is {@{a [nebula](nebula.md) formed of ionized gases that emit light of various wavelengths}@}. The most common source of [ionization](ionization.md) is {@{high-energy [ultraviolet](ultraviolet.md) [photons](photon.md) emitted from a nearby hot [star](star.md)}@}. Among the several different types of emission nebulae are {@{[H II regions](H%20II%20region.md), in which star formation is taking place and young, massive stars are the source of the ionizing photons}@}; and {@{[planetary nebulae](planetary%20nebula.md), in which a dying star has thrown off its outer layers, with the exposed hot core then ionizing them}@}. <!--SR:!2026-08-04,533,310!2029-04-27,1350,350!2026-12-05,607,290!2027-11-11,899,330-->
+An __emission nebula__ is {@{a [nebula](nebula.md) formed of ionized gases that emit light of various wavelengths}@}. The most common source of [ionization](ionization.md) is {@{high-energy [ultraviolet](ultraviolet.md) [photons](photon.md) emitted from a nearby hot [star](star.md)}@}. Among the several different types of emission nebulae are {@{[H II regions](H%20II%20region.md), in which star formation is taking place and young, massive stars are the source of the ionizing photons}@}; and {@{[planetary nebulae](planetary%20nebula.md), in which a dying star has thrown off its outer layers, with the exposed hot core then ionizing them}@}. <!--SR:!fsrs,2032-01-25T00:00:00.000Z,1999,1999.39584407,1,2,10,0,0,2026-08-05T00:00:00.000Z!2029-04-27,1350,350!2026-12-05,607,290!2027-11-11,899,330-->
 
 ## general information
 

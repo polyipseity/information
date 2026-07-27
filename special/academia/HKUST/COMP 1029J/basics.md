@@ -29,7 +29,7 @@ To assign a value or the result of an expression to a variable, use {@{`=`}@}: <
 variableName = 1 + 2;
 ```
 
-One must {@{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}@}, before assigning things to it. Optionally, {@{one can declare a variable and assign to it}@} simultaneously: <!--SR:!2026-08-04,687,330!2028-07-28,1277,350-->
+One must {@{declare a variable, prefixed with the type of the variable, i.e. what the variable can hold}@}, before assigning things to it. Optionally, {@{one can declare a variable and assign to it}@} simultaneously: <!--SR:!fsrs,2033-11-30T00:00:00.000Z,2674,2673.56801605,1,2,10,0,0,2026-08-05T00:00:00.000Z!2028-07-28,1277,350-->
 
 ```Java
 int anIntegerVariable; // `int` means the variable can hold integers
