@@ -15,7 +15,7 @@ __Hubble's law__, also known as {@{the __Hubble–Lemaître law__}@}, is {@{the 
 
 ## interpretation
 
-The discovery of {@{the linear relationship between redshift and distance}@}, coupled with {@{a supposed linear relation between [recessional velocity](recessional%20velocity.md) and redshift}@}, yields {@{a straightforward mathematical expression for Hubble's law as follows}@}: {@{$$v=H_{0}\,D$$}@} <!--SR:!2030-10-26,1686,326!2029-11-22,1521,366!2028-12-15,1251,366!2026-08-05,135,405-->
+The discovery of {@{the linear relationship between redshift and distance}@}, coupled with {@{a supposed linear relation between [recessional velocity](recessional%20velocity.md) and redshift}@}, yields {@{a straightforward mathematical expression for Hubble's law as follows}@}: {@{$$v=H_{0}\,D$$}@} <!--SR:!2030-10-26,1686,326!2029-11-22,1521,366!2028-12-15,1251,366!fsrs,2028-08-15T00:00:00.000Z,740,739.81467051,1,2,8,0,0,2026-08-06T00:00:00.000Z-->
 
 where
 

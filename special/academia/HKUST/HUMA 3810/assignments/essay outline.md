@@ -33,4 +33,4 @@ Flashcards for this section are as follows:
 Flashcards for this section are as follows:
 
 - outline length context :@: The outline should support a final essay of around 3,000 words. <!--SR:!fsrs,2027-06-08T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-08-03T00:00:00.000Z-->
-- public-note scope :@: This page currently tracks only official milestone information; topic ideas or source notes should be added only when they exist. <!--SR:!2026-08-05,65,310-->
+- public-note scope :@: This page currently tracks only official milestone information; topic ideas or source notes should be added only when they exist. <!--SR:!fsrs,2027-06-23T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-08-06T00:00:00.000Z-->

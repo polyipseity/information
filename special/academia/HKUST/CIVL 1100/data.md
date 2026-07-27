@@ -30,7 +30,7 @@ See [Akashi Kaikyo Bridge](../../../../general/Akashi%20Kaikyo%20Bridge.md).
 - bridge type <!-- flashcard ID: 30fd6583-3351-4146-9125-522db98579b7 -->::@:: [suspension bridge](../../../../general/suspension%20bridge.md) <!--SR:!2028-01-04,947,314!2030-11-21,1908,400-->
 - description ::@:: suspension bridge in Kobe, Japan <!--SR:!2028-04-20,1132,367!2029-07-06,1496,395-->
 - image ::@:: ![Akashi Kaikyo Bridge image](../../../../archives/Wikimedia%20Commons/Akashi%20Bridge.JPG) <!--SR:!2028-11-30,1310,380!2030-08-05,1744,400-->
-- length ::@:: 3911 m, longest span: 1991 m <!--SR:!2026-08-05,533,281!2028-09-24,1187,372-->
+- length ::@:: 3911 m, longest span: 1991 m <!--SR:!fsrs,2031-07-05T00:00:00.000Z,1794,1793.62739498,2.43058475,2,10,0,0,2026-08-06T00:00:00.000Z!2028-09-24,1187,372-->
 
 ## Beijing National Stadium
 

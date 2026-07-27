@@ -48,7 +48,7 @@ The content is in teaching order.
 - [Bloomberg Terminal](../../../../general/Bloomberg%20Terminal.md) ::@:: It is a computer software system provided by the financial data vendor Bloomberg L.P. that enables professionals in the financial service sector and other industries to access Bloomberg Professional Services through which users can monitor and analyze real-time financial market data and place trades on the electronic trading platform. <!--SR:!2026-09-05,270,330!2026-08-22,259,330-->
     - Bloomberg Terminal / Bloomberg News ::@:: Bloomberg TV & Video, front page, key news themes, natural language search, news categories, social monitor, top news, etc. <!--SR:!2026-08-06,244,330!2028-07-05,763,330-->
         - Bloomberg Terminal / Bloomberg News / top news ::@:: `TOP <GO>` <!--SR:!2026-08-16,255,330!2026-09-01,264,330-->
-        - Bloomberg Terminal / Bloomberg News / natural language search ::@:: `N <GO>` <!--SR:!2026-09-07,272,330!2026-08-05,246,330-->
+        - Bloomberg Terminal / Bloomberg News / natural language search ::@:: `N <GO>` <!--SR:!2026-09-07,272,330!fsrs,2029-08-02T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-06T00:00:00.000Z-->
         - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>` <!--SR:!2026-09-08,272,330!2026-08-26,262,330-->
         - Bloomberg Terminal / Bloomberg News / social monitor ::@:: `SOCI <GO>` <!--SR:!2026-09-18,280,330!fsrs,2029-06-02T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-23T00:00:00.000Z-->
         - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>` <!--SR:!2026-09-21,282,330!2026-09-22,283,330-->

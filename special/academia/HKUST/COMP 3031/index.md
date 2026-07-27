@@ -98,7 +98,7 @@ The content is in teaching order.
     - COMP 3031 / recommended books
 - [Scala](../../../../general/Scala%20(programming%20language).md) ::@:: It is a strongly statically typed high-level general-purpose programming language that supports both object-oriented programming and functional programming. <p> \(__this course__: Use Scala 3.\) <!--SR:!2026-08-08,252,330!2026-09-11,278,330-->
     - Scala / Scala 3: [Scala 3](Scala%203.md)
-- [programming language](../../../../general/programming%20language.md) ::@:: It is an artificial language for expressing computer programs. <!--SR:!2026-08-05,250,330!2026-09-17,283,330-->
+- [programming language](../../../../general/programming%20language.md) ::@:: It is an artificial language for expressing computer programs. <!--SR:!fsrs,2029-08-17T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-08-06T00:00:00.000Z!2026-09-17,283,330-->
     - programming language / elements ::@:: primitive expressions, composition of expressions, abstraction of expressions \(giving names to expressions\) <!--SR:!2026-08-21,260,330!2026-09-01,271,330-->
 - [read–eval–print loop](../../../../general/read–eval–print%20loop.md) \(REPL\) ::@:: It is a simple interactive computer programming environment that takes single user inputs, executes them, and returns the result to the user; a program written in a REPL environment is executed piecewise. <!--SR:!2028-05-14,734,330!2026-09-06,275,330-->
 - Scala

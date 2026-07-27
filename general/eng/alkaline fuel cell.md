@@ -57,7 +57,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="afb9"--><!-- The following content is generated at 2024-01-04T20:17:51.172248+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←+: efficiency as high as 70% <!--SR:!2026-08-05,739,292!2032-10-12,2620,332-->
+- _(begin)_→::@::←+: efficiency as high as 70% <!--SR:!fsrs,2033-06-06T00:00:00.000Z,2496,2496.06470531,1.88024646,2,11,0,0,2026-08-06T00:00:00.000Z!2032-10-12,2620,332-->
 - +: efficiency as high as 70%→::@::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!fsrs,2028-10-31T00:00:00.000Z,822,822.1188852,6.88332171,2,10,0,0,2026-08-01T00:00:00.000Z!2032-01-15,2189,312-->
 - +: operate continuously, producing a stable supply of [electricity](electricity.md)→::@::←+: products, which consist of [water](water.md), are clean <!--SR:!2026-11-26,852,270!2029-06-06,1483,272-->
 - +: products, which consist of [water](water.md), are clean→::@::←-: expensive <!--SR:!2031-11-10,2193,292!2030-12-24,1684,252-->

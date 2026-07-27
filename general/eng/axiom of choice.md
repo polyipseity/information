@@ -264,7 +264,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
     - \(annotation: {@{weaker than}@} AC\) {@{[Stone's representation theorem for Boolean algebras](Stone's%20representation%20theorem%20for%20Boolean%20algebras.md)}@} needs {@{the [Boolean prime ideal theorem](Boolean%20prime%20ideal%20theorem.md)}@}. <!--SR:!2026-12-24,378,364!2026-09-03,284,347!fsrs,2028-06-24T03:27:13.376Z,740,739.81467051,1,2,8,0,0,2026-06-15T03:27:13.376Z-->
 
-    - \(annotation: {@{weaker than}@} AC\) {@{The [Nielsen–Schreier theorem](Nielsen–Schreier%20theorem.md)}@}, that {@{every subgroup of a free group}@} is {@{free}@}. <!--SR:!fsrs,2028-09-20T00:00:00.000Z,814,813.83081457,1,2,8,0,0,2026-06-29T00:00:00.000Z!2026-08-05,260,344!2026-12-31,384,364!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
+    - \(annotation: {@{weaker than}@} AC\) {@{The [Nielsen–Schreier theorem](Nielsen–Schreier%20theorem.md)}@}, that {@{every subgroup of a free group}@} is {@{free}@}. <!--SR:!fsrs,2028-09-20T00:00:00.000Z,814,813.83081457,1,2,8,0,0,2026-06-29T00:00:00.000Z!fsrs,2029-11-18T00:00:00.000Z,1200,1200.13537794,1,2,9,0,0,2026-08-06T00:00:00.000Z!2026-12-31,384,364!fsrs,2028-09-01T00:00:00.000Z,796,796.0204457,1,2,8,0,0,2026-06-28T00:00:00.000Z-->
 
     - \(annotation: {@{weaker than}@} AC\) {@{The additive groups of __[R](real%20numbers.md)__ and __[C](complex%20number.md)__}@} are {@{isomorphic}@}.<sup>[\[32\]](#^ref-32)</sup><sup>[\[33\]](#^ref-33)</sup> <!--SR:!2026-09-26,305,347!fsrs,2029-06-19T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-13T00:00:00.000Z!fsrs,2028-06-30T02:43:35.307Z,745,744.52265934,1,2,8,0,0,2026-06-16T02:43:35.307Z-->
 
