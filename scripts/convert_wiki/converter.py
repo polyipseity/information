@@ -1309,6 +1309,7 @@ class WikiHtmlConverter:
                         # covered by the rowspan from a previous row.
                         new_tdh = self._soup.new_tag("td")
                         new_tdh.string = "\u200b"
+                        new_tdh["data-filler-cell"] = "true"
                         current_row.insert(col_idx, new_tdh)
 
     @staticmethod
@@ -1362,11 +1363,16 @@ class WikiHtmlConverter:
             ):
                 rows.extend(container.find_all("tr", recursive=False))
         for tr in rows:
+            if tr.get("data-caption-row") == "true":
+                continue
             col_idx = 0
             for child in tr.children:
                 if not isinstance(child, Tag) or child.name not in _TD_OR_TH:
                     continue
                 if child.name == "td":
+                    if child.get("data-filler-cell") == "true":
+                        col_idx += 1
+                        continue
                     cols_with_data.add(col_idx)
                     marker = WikiHtmlConverter._cell_alignment(child)
                     while len(col_counts) <= col_idx:

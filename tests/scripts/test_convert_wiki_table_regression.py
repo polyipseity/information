@@ -1,6 +1,7 @@
 """Regression tests for table rendering edge cases.
 
 Tests for:
+
 - Equation-box tables with caption → alignment rows
 - Caption integration (bold caption in first data cell, zero-width spaces elsewhere)
 - Alignment marker values (:-:, --:, :--, ---)
@@ -396,6 +397,113 @@ class TestCaptionTableAlignmentRows:
         # to avoid polluting tables with multiple alignment sections.
         assert not any("--:" in ln for ln in lines), (
             "Second mixed row should NOT have an alignment marker"
+        )
+
+
+class TestCaptionRowExclusion:
+    """Regression: synthetic caption row <td> cells must not pollute cols_with_data.
+
+    When a table has a caption, _handle_table creates a synthetic caption row
+    with all <td> cells (zero-width spaces for header-column positions, bold
+    caption for first data column). This row is inserted into <tbody> and
+    marked data-caption-row="true".
+
+    _td_cell_alignments must skip this row so its <td> cells don't add
+    header-only columns to cols_with_data, which would prevent header
+    alignment overrides.
+    """
+
+    CAPTION_ALL_HEADER_COLUMNS_HTML = """\
+<table class="wikitable">
+<caption>Test caption</caption>
+<tbody>
+<tr>
+  <th style="text-align:center;">H1</th>
+  <th style="text-align:center;">H2</th>
+  <td>Data1</td>
+</tr>
+</tbody>
+</table>"""
+
+    @pytest.mark.anyio
+    async def test_caption_row_excluded_from_alignment_scan(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Caption row <td> cells must not be counted as real data in alignment scan.
+
+        Without fix: caption row adds cols 0-1 to cols_with_data, defeating
+        header override. All columns show ---.
+
+        With fix: caption row skipped, cols 0-1 get :--: header override,
+        col 2 stays --- from content majority.
+        """
+        html = BeautifulSoup(self.CAPTION_ALL_HEADER_COLUMNS_HTML, "html.parser")
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
+        lines = result.split("\n")
+        align_lines = [ln for ln in lines if ln.strip().startswith("|") and "---" in ln]
+        assert align_lines, "Should have alignment row"
+        cells = [c.strip() for c in align_lines[0].strip(" |").split(" | ")]
+        # Column 0 is a header-only column (<th>) — should get header alignment.
+        assert cells[0] in (":--", ":-:"), (
+            f"Column 0 should have header-based alignment, got {cells[0]!r}"
+        )
+        # Column 1 is also a header-only column.
+        assert cells[1] in (":--", ":-:"), (
+            f"Column 1 should have header-based alignment, got {cells[1]!r}"
+        )
+
+
+class TestRowspanFillerExclusion:
+    """Regression: rowspan filler <td> cells must not pollute cols_with_data.
+
+    When _normalize_table_cells expands rowspan=N, it inserts <td>\u200b</td>
+    filler cells into subsequent rows to occupy the column positions covered
+    by the rowspan. These filler cells must be skipped by _td_cell_alignments
+    so they don't add header-only columns to cols_with_data.
+    """
+
+    ROWSPAN_FILLER_EXCLUSION_HTML = """\
+<table class="wikitable">
+<tbody>
+<tr>
+  <th rowspan="2" style="text-align:center;">H1</th>
+  <th style="text-align:center;">H2</th>
+  <td>Data1</td>
+</tr>
+<tr>
+  <th style="text-align:center;">H3</th>
+  <td>Data2</td>
+</tr>
+</tbody>
+</table>"""
+
+    @pytest.mark.anyio
+    async def test_rowspan_filler_excluded_from_alignment_scan(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Rowspan filler <td> cells must not be counted as real data.
+
+        Without fix: rowspan normalization inserts <td>\u200b</td> at col 0
+        in row 2, adding col 0 to cols_with_data → no header override for
+        column 0 (shows ---).
+
+        With fix: filler cell skipped, col 0 gets :--: header override.
+        """
+        html = BeautifulSoup(self.ROWSPAN_FILLER_EXCLUSION_HTML, "html.parser")
+        result = await converter.convert(
+            html, out_to_archive=set(), refs=True, redirect_map={}
+        )
+        lines = result.split("\n")
+        align_lines = [ln for ln in lines if ln.strip().startswith("|") and "---" in ln]
+        assert align_lines, "Should have alignment row"
+        cells = [c.strip() for c in align_lines[0].strip(" |").split(" | ")]
+        # Column 0 has rowspan=2 <th> — should get header alignment.
+        # Without fix, filler cell makes it ---. With fix, filler skipped.
+        assert cells[0] in (":--", ":-:"), (
+            f"Column 0 (rowspan filler column) should have header-based alignment, "
+            f"got {cells[0]!r}"
         )
 
 
