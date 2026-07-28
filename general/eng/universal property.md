@@ -54,7 +54,7 @@ Note that {@{in each definition, the arrows are reversed}@}. Both definitions ar
 
 ## connection with comma categories
 
-Universal morphisms can be {@{described more concisely as initial and terminal objects in a [comma category](comma%20category.md)}@} \(i.e. one where {@{morphisms are seen as objects in their own right}@}\). <!--SR:!2029-02-06,1162,350!2026-08-07,431,310-->
+Universal morphisms can be {@{described more concisely as initial and terminal objects in a [comma category](comma%20category.md)}@} \(i.e. one where {@{morphisms are seen as objects in their own right}@}\). <!--SR:!2029-02-06,1162,350!fsrs,2031-02-23T00:00:00.000Z,1660,1659.8745577,1,2,10,0,0,2026-08-08T00:00:00.000Z-->
 
 Let {@{$F:{\mathcal {C} }\to {\mathcal {D} }$ be a functor and $X$ an object of ${\mathcal {D} }$}@}. Then recall that {@{the comma category $(X\downarrow F)$ is the category}@} where \(annotation: $X$, more accurately, should be {@{the selection functor from __1__ to $\mathcal D$, mapping the only object in __1__ to $X$}@}\) <!--SR:!2029-08-23,1315,350!2029-09-03,1326,350!2027-11-12,544,406-->
 

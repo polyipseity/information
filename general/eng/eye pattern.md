@@ -59,7 +59,7 @@ With {@{some protocols, such as [HDMI](HDMI.md)}@}, {@{a reference clock}@} is s
 
 > {@{![Eye pattern of twelve thousand UIs of a 1.25 Gbit/s signal](../../archives/Wikimedia%20Commons/Eye%20pattern%202.png)}@}
 >
-> {@{Eye pattern}@} of {@{twelve thousand UIs}@} of {@{a 1.25 Gbit/s signal}@} <!--SR:!2026-08-15,263,330!2026-08-29,275,330!2026-08-13,262,330!2026-08-07,257,330-->
+> {@{Eye pattern}@} of {@{twelve thousand UIs}@} of {@{a 1.25 Gbit/s signal}@} <!--SR:!2026-08-15,263,330!2026-08-29,275,330!2026-08-13,262,330!fsrs,2029-09-15T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-08-08T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -131,13 +131,13 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 {@{Loss \(annotation: power loss\)}@} of {@{printed circuit board traces and cables}@} {@{increases with frequency due to [dielectric loss](dielectric%20loss.md)}@}, which causes {@{the channel}@} to {@{behave as a [low-pass filter](low-pass%20filter.md)}@}. {@{The effect of this}@} is {@{an increase in signal rise/fall time}@}. If {@{the data rate is high enough or the channel is lossy enough}@}, the signal {@{may not even reach its full value}@} during {@{a fast 0–1–0 or 1–0–1 transition}@}, and only {@{stabilize after a run of several identical bits}@}. This results in {@{vertical closure of the eye}@}. <!--SR:!2026-09-08,282,330!fsrs,2029-05-25T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-07-11T00:00:00.000Z!2026-08-22,267,330!fsrs,2029-05-30T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-07-12T00:00:00.000Z!2026-09-21,293,330!fsrs,2029-06-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-14T00:00:00.000Z!2026-08-29,274,330!2026-08-28,274,330!2026-09-06,280,330!2026-08-12,261,330!fsrs,2029-07-30T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-07-27T00:00:00.000Z!2026-08-27,273,330-->
 
-The image below shows {@{a 1.25 Gbit/s NRZ signal}@} after passing {@{through a lossy channel}@} – {@{an RG-188 coaxial cable}@} {@{approximately 12 feet \(3.7 m\) in length}@}. {@{This channel}@} has {@{loss increasing in a fairly linear fashion}@} {@{from 0.1 dB at DC to 9 dB at 6 GHz}@}. <!--SR:!fsrs,2029-08-25T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-08-02T00:00:00.000Z!fsrs,2029-08-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-07-30T00:00:00.000Z!2026-09-02,277,330!fsrs,2029-06-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-15T00:00:00.000Z!2026-08-29,274,330!2026-08-07,257,330!2026-09-20,292,330-->
+The image below shows {@{a 1.25 Gbit/s NRZ signal}@} after passing {@{through a lossy channel}@} – {@{an RG-188 coaxial cable}@} {@{approximately 12 feet \(3.7 m\) in length}@}. {@{This channel}@} has {@{loss increasing in a fairly linear fashion}@} {@{from 0.1 dB at DC to 9 dB at 6 GHz}@}. <!--SR:!fsrs,2029-08-25T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-08-02T00:00:00.000Z!fsrs,2029-08-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-07-30T00:00:00.000Z!2026-09-02,277,330!fsrs,2029-06-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-15T00:00:00.000Z!2026-08-29,274,330!fsrs,2029-09-15T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-08-08T00:00:00.000Z!2026-09-20,292,330-->
 
 {@{The top and bottom "rails"}@} of {@{the eye}@} show {@{the final voltage the signal reaches}@} after {@{several consecutive bits with the same value}@}. Since the channel has {@{minimal loss at DC}@}, {@{the maximum signal amplitude}@} is {@{largely unaffected}@}. Looking at {@{the rising edge of the signal \(a 0–1 pattern\)}@} we can see that {@{the signal starts to level off}@} {@{around −300 [ps](picosecond.md)}@}, but {@{continues to rise slowly over the duration of the UI}@}. At {@{around +300 ps}@}, the signal {@{either begins falling again \(a 0–1–0 pattern\)}@} or {@{continues rising slowly \(a 0–1–1 pattern\)}@}. <!--SR:!fsrs,2029-07-30T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-07-27T00:00:00.000Z!2026-09-06,281,330!2026-08-21,268,330!2026-08-14,263,330!fsrs,2029-08-30T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-08-04T00:00:00.000Z!2026-09-04,278,330!2026-08-22,269,330!2026-09-02,277,330!fsrs,2029-06-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-17T00:00:00.000Z!2026-08-22,269,330!2026-09-11,285,330!2026-09-17,290,330!fsrs,2029-06-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-14T00:00:00.000Z!fsrs,2029-07-05T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-07-21T00:00:00.000Z-->
 
 > {@{![Eye pattern of a 1.25 Gbit/s NRZ signal through a lossy channel](../../archives/Wikimedia%20Commons/Eye%20pattern%20LPF.png)}@}
 >
-> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} through {@{a lossy channel}@} <!--SR:!2026-08-30,276,330!2026-09-20,292,330!2026-08-07,257,330!2026-08-21,268,330-->
+> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} through {@{a lossy channel}@} <!--SR:!2026-08-30,276,330!2026-09-20,292,330!fsrs,2029-09-15T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-08-08T00:00:00.000Z!2026-08-21,268,330-->
 
 As {@{high frequency losses increase}@} {@{the overall shape of the eye}@} gradually {@{degrades into a sinusoid}@} \(once {@{higher frequency harmonics of the data has been eliminated}@}, {@{all that remains}@} is {@{the fundamental}@}\) and {@{decreases in amplitude}@}. <!--SR:!2026-09-17,290,330!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-08-15,263,330!fsrs,2029-09-04T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-05T00:00:00.000Z!fsrs,2029-08-21T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-02T00:00:00.000Z!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-09-09,283,330-->
 
@@ -200,7 +200,7 @@ Time measurements
 >
 > - Eye opening \(height, peak to peak\) ::@:: Additive [noise](noise.md) in the signal <!--SR:!2026-08-11,260,330!2026-08-27,273,330-->
 > - Eye overshoot/undershoot ::@:: [distortion](distortion.md) due to interruptions in the signal path <!--SR:!fsrs,2029-08-20T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-01T00:00:00.000Z!fsrs,2029-09-05T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-06T00:00:00.000Z-->
-> - Eye width ::@:: Timing synchronization and [jitter](jitter.md) effects <!--SR:!2026-08-11,260,330!2026-08-07,257,330-->
+> - Eye width ::@:: Timing synchronization and [jitter](jitter.md) effects <!--SR:!2026-08-11,260,330!fsrs,2029-09-15T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-08-08T00:00:00.000Z-->
 > - Eye closure ::@:: Intersymbol interference, additive noise <!--SR:!fsrs,2029-08-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-07-30T00:00:00.000Z!fsrs,2029-06-30T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-07-20T00:00:00.000Z-->
 
 ## see also

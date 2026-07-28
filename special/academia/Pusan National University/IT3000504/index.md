@@ -52,7 +52,7 @@ The content is in teaching order.
 - datetime: 2025-09-04T10:30:00+09:00/2025-09-04T11:45:00+09:00, PT1H15M
     - local: 2025-09-04T09:30:00+08:00/2025-09-04T10:45:00+08:00, PT1H15M
 - topic: measuring a nation's income
-- [microeconomics](../../../../general/microeconomics.md) ::@:: It is a branch of economics that studies the behavior of individuals and firms in making decisions regarding the allocation of scarce resources and the interactions among these individuals and firms. <!--SR:!2026-09-27,287,330!2026-08-07,247,330-->
+- [microeconomics](../../../../general/microeconomics.md) ::@:: It is a branch of economics that studies the behavior of individuals and firms in making decisions regarding the allocation of scarce resources and the interactions among these individuals and firms. <!--SR:!2026-09-27,287,330!fsrs,2029-08-08T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-08T00:00:00.000Z-->
     - microeconomics / vs. macroeconomics ::@:: Microeconomics focuses on the study of individual markets, sectors, or industries as opposed to the economy as a whole, which is studied in macroeconomics. <!--SR:!2026-10-03,292,330!2026-10-02,291,330-->
 - macroeconomics
     - macroeconomics / vs. microeconomics
@@ -65,7 +65,7 @@ The content is in teaching order.
         - circular flow of income / two-sector model / flows ::@:: All household expenditures become income for firms. The firms then spend all of this income on factors of production such as labor, capital and raw materials, "transferring" all of their <!-- utkarsh --> income to the factor owners \(which are households\). The factor owners \(households\), in turn, spend all of their income on goods, which leads to a circular flow of income. <!--SR:!2027-05-01,389,290!fsrs,2028-08-25T14:08:38.343Z,803,803.4047042,1,2,9,0,0,2026-06-14T14:08:38.343Z-->
         - circular flow of income / two-sector model / missing sectors ::@:: The model assumes that there is no financial sector \(borrowing, lending, saving, etc.\), no government sector \(government purchases, taxes, etc.\), and no foreign sector \(currencies, exports, financial assets, imports, etc.\). <!--SR:!2028-07-27,785,330!2026-08-12,251,330-->
 - gross domestic product
-    - gross domestic product / keywords ::@:: domestic production, final, market value, time period, goods and services <!--SR:!2026-08-07,245,330!2026-09-08,272,330-->
+    - gross domestic product / keywords ::@:: domestic production, final, market value, time period, goods and services <!--SR:!fsrs,2029-07-31T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-08-08T00:00:00.000Z!2026-09-08,272,330-->
         - gross domestic product / keywords / market value ::@:: Use the market value of goods and services measured in the same unit \(currency\). Goods and services without market value are excluded. <!--SR:!fsrs,2029-06-28T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-10-04,293,330-->
         - gross domestic product / keywords / final ::@:: Final goods and services are intended for end users \(households\). Intermediate goods and services are those used by businesses to produce other goods and services within the accounting year. <!--SR:!2026-09-23,284,330!2026-08-31,266,330-->
         - gross domestic product / keywords / goods and services ::@:: Goods are usually _tangible_. Services are usually _intangible_. <!--SR:!2026-09-03,268,330!2028-06-05,733,330-->

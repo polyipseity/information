@@ -212,7 +212,7 @@ The content is in teaching order.
 - [15 puzzle](../../../../general/15%20puzzle.md) (8 puzzle) ::@:: It has 15 square tiles numbered 1 to 15 in a frame that is 4 tile positions high and 4 tile positions wide, with one unoccupied position. Tiles in the same row or column of the open position can be moved by sliding them horizontally or vertically, respectively. The goal of the puzzle is to place the tiles in numerical order (from left to right, top to bottom). <!--SR:!2028-04-14,889,363!2030-10-20,1631,383-->
     - 15 puzzle / 8 puzzle (in the slides) ::@:: states: any arrangement of numbers 1 to 8 in the 3-by-3 board <br/> initial state: any given state <br/> goal: any other state; in the slides, a blank in the middle, with numbers ordered clockwise starting from the top-left corner <br/> actions: move the blank left, up, right, or down <br/> (path) cost: number of actions (length of the path) <!--SR:!fsrs,2031-08-29T00:00:00.000Z,1861,1861.48228544,1,2,10,0,0,2026-07-25T00:00:00.000Z!fsrs,2031-11-15T00:00:00.000Z,1927,1927.03350629,1,2,10,0,0,2026-08-06T00:00:00.000Z-->
 - search problem
-    - search problem / elements ::@:: set of states, start state, goal state (goal test), successor function (deterministic actins); if cost needs to be considered \(__this course__: considered\), a path cost function <!--SR:!2026-08-07,407,383!fsrs,2031-09-28T00:00:00.000Z,1894,1894.29887739,1,2,10,0,0,2026-07-22T00:00:00.000Z-->
+    - search problem / elements ::@:: set of states, start state, goal state (goal test), successor function (deterministic actins); if cost needs to be considered \(__this course__: considered\), a path cost function <!--SR:!fsrs,2031-11-09T00:00:00.000Z,1919,1918.85740736,1,2,10,0,0,2026-08-08T00:00:00.000Z!fsrs,2031-09-28T00:00:00.000Z,1894,1894.29887739,1,2,10,0,0,2026-07-22T00:00:00.000Z-->
 
 ## week 3 lecture 2
 
@@ -394,7 +394,7 @@ The content is in teaching order.
     - unsupervised learning / examples ::@:: Brown/IBM clustering, image clustering <!--SR:!2027-05-03,634,408!2027-06-01,659,411-->
 - [reinforcement learning](../../../../general/reinforcement%20learning.md) \(RL\) ::@:: It is an interdisciplinary area of machine learning and optimal control concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal.  It is one of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning. <!--SR:!2027-05-17,646,408!2027-05-01,632,408-->
 - [Brown clustering](../../../../general/Brown%20clustering.md)
-    - Brown clustering / natural language processing ::@:: In natural language processing \(NLP\), it is a form of hierarchical clustering of words based on the contexts in which they occur, proposed in 1992. <!--SR:!2027-06-22,673,408!2026-08-07,408,388-->
+    - Brown clustering / natural language processing ::@:: In natural language processing \(NLP\), it is a form of hierarchical clustering of words based on the contexts in which they occur, proposed in 1992. <!--SR:!2027-06-22,673,408!fsrs,2031-11-13T00:00:00.000Z,1923,1922.9461018,1,2,10,0,0,2026-08-08T00:00:00.000Z-->
 
 ## week 5 lecture 2
 

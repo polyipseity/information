@@ -129,7 +129,7 @@ The class of {@{all [graphs](graph%20theory.md)}@} forms {@{another concrete cat
 > __flashcards__
 >
 > - __Set__ ::@:: objects: sets <br/> morphisms: functions <!--SR:!2029-06-10,1253,350!2029-05-24,1236,350-->
-> - __Ord__ ::@:: objects: preordered sets <br/> morphisms: monotone-increasing functions <!--SR:!2026-08-07,385,290!2027-12-29,820,330-->
+> - __Ord__ ::@:: objects: preordered sets <br/> morphisms: monotone-increasing functions <!--SR:!fsrs,2030-06-04T00:00:00.000Z,1396,1395.50693927,1.98030797,2,10,0,0,2026-08-08T00:00:00.000Z!2027-12-29,820,330-->
 > - __Mon__ ::@:: objects: monoids <br/> morphisms: monoid homomorphisms <!--SR:!2029-09-29,1345,350!2029-06-10,1253,350-->
 > - __Grp__ ::@:: objects: groups <br/> morphisms: group homomorphisms <!--SR:!2029-09-08,1330,350!2029-06-06,1249,350-->
 > - __Grph__ ::@:: objects: graphs <br/> morphisms: graph homomorphisms <!--SR:!2029-01-23,1152,350!2029-05-31,1243,350-->

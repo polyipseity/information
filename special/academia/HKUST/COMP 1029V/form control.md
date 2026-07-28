@@ -19,4 +19,4 @@ Just read the Excel dialogs carefully.
 
 ## event
 
-For a button control, the default macro that activates after clicking is {@{`(form control name)_Click`}@}. <!--SR:!2026-08-07,632,310-->
+For a button control, the default macro that activates after clicking is {@{`(form control name)_Click`}@}. <!--SR:!fsrs,2032-12-16T00:00:00.000Z,2322,2321.75349029,1,2,10,0,0,2026-08-08T00:00:00.000Z-->

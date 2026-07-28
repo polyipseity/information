@@ -41,7 +41,7 @@ The inverse transform is given by:
 
 > {@{__inverse discrete Fourier transform (Eq.2)__}@}
 >
-> {@{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}@} <!--SR:!2026-08-07,469,270!2026-09-12,484,270-->
+> {@{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}@} <!--SR:!fsrs,2030-10-18T00:00:00.000Z,1532,1532.18736077,2.98092302,2,10,0,0,2026-08-08T00:00:00.000Z!2026-09-12,484,270-->
 
 __Eq.2__ is {@{also $N$-periodic (in index $n$)}@}. In __Eq.2__, each $X_k$ is {@{a complex number whose polar coordinates}@} are {@{the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}@}. \(see {@{[discrete Fourier series](discrete%20Fourier%20series.md)}@}\) {@{The sinusoid's [frequency](frequency.md)}@} is {@{$k$ cycles per $N$ samples}@}. <!--SR:!2029-02-19,1292,350!2028-12-22,1050,290!2027-10-25,882,330!fsrs,2028-05-13T00:00:00.000Z,664,663.84023351,1,2,8,0,0,2026-07-19T00:00:00.000Z!fsrs,2028-05-19T00:00:00.000Z,669,668.62609436,1,2,8,0,0,2026-07-20T00:00:00.000Z!fsrs,2028-05-24T00:00:00.000Z,673,673.406745,1,2,8,0,0,2026-07-21T00:00:00.000Z-->
 
@@ -122,7 +122,7 @@ In practice, {@{the $x$ sequence is usually length _N_ or less}@}, and $y_{_{N} 
 
 ### cross-correlation theorem
 
-Similar to above, by {@{applying the [circular convolution theorem](#ciruclar%20convolution%20theorem)}@}, {@{the [cross-correlation](cross-correlation.md) of $x$ and $y_{_{N} }$}@} is given by: {@{$$(x\star y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }^{*}\cdot (y_{_{N} })_{n+\ell } = \sum_{\ell =-\infty }^{\infty} x_{-\ell }^{*} \cdot (y_{_N })_{n-\ell} = (x^*_{-n} * y_{_N })_n ={\mathcal {F} }^{-1}\left\{X^{*}\cdot Y\right\}_{n}$$}@}, considering that {@{the DFT of $\{x^*_{-n} \}$ is $X^*$ by [time and frequency reversal](#time%20and%20frequency%20reversal), and [conjugation in time](#conjugation%20in%20time)}@}. <!--SR:!2029-08-08,1345,327!2026-08-07,503,327!2027-01-14,608,327!2026-12-13,592,332-->
+Similar to above, by {@{applying the [circular convolution theorem](#ciruclar%20convolution%20theorem)}@}, {@{the [cross-correlation](cross-correlation.md) of $x$ and $y_{_{N} }$}@} is given by: {@{$$(x\star y_{_{N} })_{n}\triangleq \sum _{\ell =-\infty }^{\infty }x_{\ell }^{*}\cdot (y_{_{N} })_{n+\ell } = \sum_{\ell =-\infty }^{\infty} x_{-\ell }^{*} \cdot (y_{_N })_{n-\ell} = (x^*_{-n} * y_{_N })_n ={\mathcal {F} }^{-1}\left\{X^{*}\cdot Y\right\}_{n}$$}@}, considering that {@{the DFT of $\{x^*_{-n} \}$ is $X^*$ by [time and frequency reversal](#time%20and%20frequency%20reversal), and [conjugation in time](#conjugation%20in%20time)}@}. <!--SR:!2029-08-08,1345,327!fsrs,2032-02-13T00:00:00.000Z,2015,2015.33850355,1,2,10,0,0,2026-08-08T00:00:00.000Z!2027-01-14,608,327!2026-12-13,592,332-->
 
 ### uniqueness of the discrete Fourier transform
 
