@@ -79,10 +79,15 @@ class TestCaptionTableAlignmentRows:
             html, out_to_archive=set(), refs=True, redirect_map={}
         )
         # The alignment row should contain GFM alignment markers.
-        assert ":-:" in result, (
-            "Alignment markers should use :-: for center-aligned columns"
-        )
+        # Content-cell majority wins over header style; all <td> cells
+        # have no explicit alignment, so all columns default to ---.
         assert "---" in result, "Default-aligned column should use ---"
+        align_lines = [
+            ln
+            for ln in result.split("\n")
+            if ln.strip().startswith("|") and "---" in ln
+        ]
+        assert len(align_lines) >= 1, "Alignment row should exist"
 
     @pytest.mark.anyio
     async def test_caption_table_alignment_row_format(
@@ -93,13 +98,12 @@ class TestCaptionTableAlignmentRows:
         result = await converter.convert(
             html, out_to_archive=set(), refs=True, redirect_map={}
         )
-        align_lines2 = [ln for ln in result.split("\n") if ":-:" in ln or "---" in ln]
+        align_lines2 = [ln for ln in result.split("\n") if "---" in ln]
         has_proper_separator = any(
-            line.startswith("|") and "| :-:" in line and "| ---" in line
-            for line in align_lines2
+            line.startswith("|") and "| ---" in line for line in align_lines2
         )
         assert has_proper_separator, (
-            f"Should have at least one GFM align row with markers, got lines: {align_lines2}"
+            f"Should have at least one GFM align row with ---, got lines: {align_lines2}"
         )
 
     CAPTION_CENTER_RIGHT_HTML = """\
@@ -123,20 +127,26 @@ class TestCaptionTableAlignmentRows:
 
     @pytest.mark.anyio
     async def test_alignment_marker_values(self, converter: WikiHtmlConverter) -> None:
-        """Each alignment style should produce the correct GFM marker."""
+        """Content-cell majority determines alignment; headers only affect data-free columns.
+
+        All columns in this fixture have <td> cells with no explicit alignment,
+        so every column should be --- regardless of <th> style.
+        """
         html = BeautifulSoup(self.CAPTION_CENTER_RIGHT_HTML, "html.parser")
         result = await converter.convert(
             html, out_to_archive=set(), refs=True, redirect_map={}
         )
-        lines = [
-            ln
-            for ln in result.split("\n")
-            if ":-:" in ln or "--:" in ln or ":--" in ln or "---" in ln
-        ]
-        assert any(":-:" in ln for ln in lines), "Center alignment should produce :-:"
-        assert any("--:" in ln for ln in lines), "Right alignment should produce --:"
-        assert any(":--" in ln for ln in lines), "Left alignment should produce :--"
+        lines = [ln for ln in result.split("\n") if "---" in ln]
         assert any("---" in ln for ln in lines), "Default alignment should produce ---"
+        assert not any(":-" in ln for ln in lines), (
+            "Center header is overridden by content majority"
+        )
+        assert not any("--:" in ln for ln in lines), (
+            "Right header is overridden by content majority"
+        )
+        assert not any(":--" in ln for ln in lines), (
+            "Left header is overridden by content majority"
+        )
 
     NO_CAPTION_MIXED_HTML = """\
 <table class="wikitable">
@@ -161,8 +171,14 @@ class TestCaptionTableAlignmentRows:
         result = await converter.convert(
             html, out_to_archive=set(), refs=True, redirect_map={}
         )
-        assert ":-:" in result, (
-            "Mixed row without caption should still produce alignment markers"
+        # Content majority wins; both columns have <td> data with no explicit alignment.
+        align_lines = [
+            ln
+            for ln in result.split("\n")
+            if ln.strip().startswith("|") and "---" in ln
+        ]
+        assert len(align_lines) >= 1, (
+            "Mixed row without caption should still produce alignment row with ---"
         )
 
     ALL_TH_HTML = """\
@@ -226,7 +242,9 @@ class TestCaptionTableAlignmentRows:
             html, out_to_archive=set(), refs=True, redirect_map={}
         )
         lines = result.split("\n")
-        assert any(":-:" in ln for ln in lines), "Alignment markers should appear"
+        # All columns have <td> data; content majority determines alignment.
+        align_lines = [ln for ln in lines if ln.strip().startswith("|") and "---" in ln]
+        assert len(align_lines) >= 1, "Alignment markers should appear"
         assert any(
             "__Generalization for n-dimensional functions__" in ln for ln in lines
         ), "Caption should be bold in first cell"

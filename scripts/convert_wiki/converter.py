@@ -1212,11 +1212,25 @@ class WikiHtmlConverter:
             if all(c.name == "th" for c in cells):
                 break
 
-            # Mixed row: compute alignments.
-            alignments = [
-                WikiHtmlConverter._cell_alignment(c) if c.name == "th" else "---"
-                for c in cells
-            ]
+            # Mixed row: compute alignments from content cells (majority rule),
+            # then override with explicit <th> alignment only for columns
+            # that have zero <td> cells.
+            table_ele = tr.find_parent("table")
+            alignments, cols_with_data = (
+                WikiHtmlConverter._td_cell_alignments(table_ele)
+                if table_ele
+                else ([], set())
+            )
+            for i, c in enumerate(cells):
+                if isinstance(c, Tag) and c.name == "th":
+                    header_align = WikiHtmlConverter._cell_alignment(c)
+                    if header_align != "---" and i not in cols_with_data:
+                        while len(alignments) <= i:
+                            alignments.append("---")
+                        alignments[i] = header_align
+            # Ensure at least as many alignments as cells.
+            while len(alignments) < len(cells):
+                alignments.append("---")
             marker_tag = self._soup.new_tag("tr", attrs={"data-alignment-row": "true"})
             for a in alignments:
                 td = self._soup.new_tag("td", attrs={"data-align": a})
@@ -1299,7 +1313,19 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _cell_alignment(cell: Tag) -> str:
-        """Derive a GFM alignment marker from a table cell's text-align style."""
+        """Derive a GFM alignment marker from a table cell's text-align style.
+
+        Returns one of:
+
+        - ``"---"`` — no ``text-align`` style found (renderer default, typically
+          left).  This is *not* the same as explicit left-alignment.
+        - ``":--"`` — explicit ``text-align: left``.
+        - ``"--:"`` — explicit ``text-align: right``.
+        - ``"-:-"`` — explicit ``text-align: center``.
+
+        See ``_JUSTIFY_MAP`` in ``config.py`` for the semantic distinction
+        between ``---`` and ``:--``.
+        """
         style = str(cell.get("style", ""))
         if ta_match := _TEXT_ALIGN_REGEX.search(style):
             ta = ta_match[1]
@@ -1309,6 +1335,57 @@ class WikiHtmlConverter:
                 return "--:"
             return ":--"
         return "---"
+
+    @staticmethod
+    def _td_cell_alignments(table: Tag) -> tuple[list[str], set[int]]:
+        """Compute per-column GFM alignment markers from ``<td>`` cells.
+
+        Scans all ``<tr>`` rows in *table*, collects every ``<td>`` cell,
+        and for each column determines the majority alignment via
+        ``_cell_alignment``.  Ties default to ``"---"`` (no explicit
+        alignment).
+
+        Returns ``(markers, cols_with_data)`` where *markers* has one
+        element per column and *cols_with_data* is the set of column indices
+        that contained at least one ``<td>`` cell.  Returns ``([], set())``
+        if the table has no ``<td>`` cells.
+        """
+        col_counts: list[dict[str, int]] = []  # list of {marker: count} per col
+        cols_with_data: set[int] = set()
+
+        # Collect alignment counts per column from all <td> cells.
+        # First try direct children, then look inside <tbody>/<thead>/<tfoot>.
+        rows: list[Tag] = table.find_all("tr", recursive=False)
+        if not rows:
+            for container in table.find_all(
+                ("tbody", "thead", "tfoot"), recursive=False
+            ):
+                rows.extend(container.find_all("tr", recursive=False))
+        for tr in rows:
+            col_idx = 0
+            for child in tr.children:
+                if not isinstance(child, Tag) or child.name not in _TD_OR_TH:
+                    continue
+                if child.name == "td":
+                    cols_with_data.add(col_idx)
+                    marker = WikiHtmlConverter._cell_alignment(child)
+                    while len(col_counts) <= col_idx:
+                        col_counts.append({})
+                    col_counts[col_idx][marker] = col_counts[col_idx].get(marker, 0) + 1
+                col_idx += 1
+
+        if not col_counts:
+            return [], set()
+
+        # Majority rule per column.
+        result: list[str] = []
+        for counts in col_counts:
+            if not counts:
+                result.append("---")
+                continue
+            majority = max(counts, key=lambda m: (counts[m], m))
+            result.append(majority)
+        return result, cols_with_data
 
     @staticmethod
     def _filter_table_cells(
@@ -1368,7 +1445,24 @@ class WikiHtmlConverter:
                 table is not None and table.find("th", scope="row") is not None
             )
 
-            alignments = [self._cell_alignment(child) for child in tag_cells]
+            # Determine alignment from content cells (majority rule),
+            # then override with explicit <th> alignment only for columns
+            # that have zero <td> cells.
+            alignments, cols_with_data = (
+                self._td_cell_alignments(table) if table else ([], set())
+            )
+            for i, child in enumerate(tag_cells):
+                header_align = self._cell_alignment(child)
+                if header_align != "---" and i not in cols_with_data:
+                    # Header has explicit alignment & column has no <td> data
+                    # → override content default.
+                    while len(alignments) <= i:
+                        alignments.append("---")
+                    alignments[i] = header_align
+            # Ensure at least as many alignments as cells.
+            while len(alignments) < len(tag_cells):
+                alignments.append("---")
+
             if has_scope_row and alignments:
                 alignments[0] = "--:"
             suffix += f"| {' | '.join(alignments)} |\n"
