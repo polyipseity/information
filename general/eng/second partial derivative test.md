@@ -30,7 +30,7 @@ Suppose that {@{_f_\(_x_, _y_\) is a differentiable [real function](real%20funct
 
 Sometimes {@{other equivalent versions of the test are used}@}. In {@{cases 1 and 2}@}, {@{the requirement that _f<sub>xx</sub>_ _f<sub>yy</sub>_ − _f<sub>xy</sub>_<sup>2</sup> is positive at \(_x_, _y_\)}@} {@{implies that _f<sub>xx</sub>_ and _f<sub>yy</sub>_ have the same sign there}@}. Therefore, {@{the second condition, that _f<sub>xx</sub>_ be greater \(or less\) than zero}@}, could {@{equivalently be that _f<sub>yy</sub>_ or tr\(_H_\) = _f<sub>xx</sub>_ + _f<sub>yy</sub>_ be greater \(or less\) than zero at that point}@}. <!--SR:!2029-06-06,1198,350!2029-02-06,1103,350!2029-04-08,1154,350!2028-04-11,800,330!2028-11-20,964,330!2028-06-02,840,330-->
 
-{@{A condition implicit in the statement of the test}@} is that if {@{$f_{xx}=0$ or $f_{yy}=0$}@}, it {@{must be the case that $D(a,b)\leq 0$}@}, and therefore {@{only cases 3 or 4 (annotation: saddle point or inconclusive, respectively) are possible}@}. <!--SR:!2029-03-10,1129,350!2029-10-14,1301,350!2028-06-07,846,330!2026-08-06,135,398-->
+{@{A condition implicit in the statement of the test}@} is that if {@{$f_{xx}=0$ or $f_{yy}=0$}@}, it {@{must be the case that $D(a,b)\leq 0$}@}, and therefore {@{only cases 3 or 4 (annotation: saddle point or inconclusive, respectively) are possible}@}. <!--SR:!2029-03-10,1129,350!2029-10-14,1301,350!2028-06-07,846,330!fsrs,2028-08-16T00:00:00.000Z,740,739.81467051,1,2,8,0,0,2026-08-07T00:00:00.000Z-->
 
 ## functions of many variables
 

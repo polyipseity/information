@@ -705,7 +705,7 @@ The content is in teaching order.
     - simple linear estimator / _R_: confidence level of estimators ::@:: If unknown error variance, then use `confint(lm(<y>~<x>), level=<confidence level>))`. <!--SR:!2031-02-01,1775,397!2028-05-02,963,377-->
     - simple linear estimator / _R_: hypothesis testing of estimators ::@:: `summary(<model>)`, where `<model>` can be obtained by `lm(<y>~<x>[, data=<dataframe>])`. But note that the null hypothesis are respectively $\beta_0 = 0$ and $\beta_1 = 0$. <!--SR:!2027-04-02,667,417!fsrs,2032-05-26T00:00:00.000Z,2142,2141.95223489,1,2,10,0,0,2026-07-15T00:00:00.000Z-->
     - simple linear estimator / prediction ::@:: $$\hat y_{\mathrm{new} } = a + b x_{\mathrm{new} } \,,$$ which is a _point estimate_ of $y_{\mathrm{new} }$. <!--SR:!2027-04-07,672,417!2027-04-05,673,417-->
-        - simple linear estimator / prediction / interval ::@:: $$y_{\mathrm{new} } \pm t_{n - 2, \alpha / 2} \sqrt{s_{\varepsilon, n - 2}^2 \left(1 + \frac 1 n + \frac {(x_{\mathrm{new} } - \overline x)^2} {S_{XX} } \right)}$$ <!--SR:!2026-08-06,312,277!2031-07-11,1900,397-->
+        - simple linear estimator / prediction / interval ::@:: $$y_{\mathrm{new} } \pm t_{n - 2, \alpha / 2} \sqrt{s_{\varepsilon, n - 2}^2 \left(1 + \frac 1 n + \frac {(x_{\mathrm{new} } - \overline x)^2} {S_{XX} } \right)}$$ <!--SR:!fsrs,2028-08-09T00:00:00.000Z,733,733.47112633,4.47824087,2,9,0,0,2026-08-07T00:00:00.000Z!2031-07-11,1900,397-->
     - simple linear estimator / _R_: prediction ::@:: For a point estimate, use `predict(<model>, data.frame(x=<new x>))`. For an interval estimate, use `predict(<model>, data.frame(x=<new x>), interval="prediction", level=<confidence level>)`. <!--SR:!2030-10-08,1703,397!2029-01-18,1166,377-->
 
 ## week 13 tutorial

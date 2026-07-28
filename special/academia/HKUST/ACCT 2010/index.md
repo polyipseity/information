@@ -181,7 +181,7 @@ The content is in teaching order.
     - [matching principle](../../../../general/matching%20principle.md) ::@:: It dictates that an expense should be reported in the same period as the corresponding revenue is earned. <p> Note that it works together with the revenue recognition principle to form the basis of accrual accounting. <!--SR:!2028-01-08,889,376!2028-08-21,1061,383-->
     - unearned revenue ::@:: revenue received before they are earned, a liability <!--SR:!2028-02-06,919,383!2026-08-27,506,403-->
     - prepaid expenses ::@:: expenses paid before they are incurred, an asset <!--SR:!2028-07-27,1041,383!2026-09-26,531,403-->
-    - [accounts receivable](../../../../general/accounts%20receivable.md) ::@:: revenue not-yet-received but are earned, an asset <!--SR:!2026-10-05,539,403!2026-08-06,489,403-->
+    - [accounts receivable](../../../../general/accounts%20receivable.md) ::@:: revenue not-yet-received but are earned, an asset <!--SR:!2026-10-05,539,403!fsrs,2032-10-04T00:00:00.000Z,2250,2250.23504184,1,2,10,0,0,2026-08-07T00:00:00.000Z-->
     - [accounts payable](../../../../general/accounts%20payable.md) ::@:: expenses not-yet-paid but are incurred, a liability <!--SR:!2026-09-30,535,403!2026-09-02,512,403-->
 
 ## week 4 lecture 2

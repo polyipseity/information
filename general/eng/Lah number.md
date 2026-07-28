@@ -65,7 +65,7 @@ In [Karamata](Jovan%20Karamata.md)–[Knuth](Donald%20Knuth.md) notation for [St
 
 - alternative ways to write the formula ::@:: $$L(n,k)={n-1 \choose k-1}{\frac {n!}{k!} }={n \choose k}{\frac {(n-1)!}{(k-1)!} }={n \choose k}{n-1 \choose k-1}(n-k)!$$ <!--SR:!2027-10-06,680,270!2027-06-26,667,310-->
 - formula with square ::@:: $$L(n,k)={\frac {n!(n-1)!}{k!(k-1)!} }\cdot {\frac {1}{(n-k)!} }=\left({\frac {n!}{k!} }\right)^{2}{\frac {k}{n(n-k)!} }$$ <!--SR:!2027-11-21,708,270!fsrs,2030-08-14T00:00:00.000Z,1491,1490.57206723,1.98030797,2,10,0,0,2026-07-15T00:00:00.000Z-->
-- recurrence formula deviation ::@:: $$k(k+1)L(n,k+1)=(n-k)L(n,k) \,,$$ for $k>0$. <!--SR:!2028-04-24,717,230!2026-08-06,98,230-->
+- recurrence formula deviation ::@:: $$k(k+1)L(n,k+1)=(n-k)L(n,k) \,,$$ for $k>0$. <!--SR:!2028-04-24,717,230!fsrs,2027-06-21T00:00:00.000Z,318,318.41561906,4.98215312,2,8,0,0,2026-08-07T00:00:00.000Z-->
 
 ### recurrence relations
 

@@ -148,7 +148,7 @@ In {@{the top-down approach}@}, we start with {@{a class with an _discriminator_
 
 In {@{the bottom-up approach}@}, we start with {@{several classes with similar attributes or operations}@}. Then, we {@{generalize the subclasses}@}: {@{add a superclass with attributes or operations _common_ to all subclasses}@}, and {@{remove them from all subclasses}@}. Finally, indicate that {@{it is a generalization \(see below\)}@}. {@{_Common_ associations}@} may {@{have objects they are referring to changed}@} and {@{their multiplicity changed}@}. <!--SR:!2027-02-11,389,361!2026-08-15,239,330!2027-02-20,387,361!2026-11-14,314,342!2026-12-11,331,342!2027-02-13,391,361!2027-01-23,373,361!2026-11-26,316,342!2026-10-18,287,342-->
 
-To {@{indicate a generalization}@}, {@{connect all subclasses}@} to {@{the superclass}@}, and {@{add a _hollow_ triangle pointing towards the superclass}@}. {@{Generalization properties}@} are described by {@{text near it}@}, e.g. {@{`{overlapping, incomplete}`, `{disjoint, complete}`}@}. <!--SR:!2027-02-01,380,361!2026-11-18,308,342!2027-02-10,388,361!2026-08-06,232,330!2027-02-04,383,361!2027-02-13,391,361!2027-01-26,374,361-->
+To {@{indicate a generalization}@}, {@{connect all subclasses}@} to {@{the superclass}@}, and {@{add a _hollow_ triangle pointing towards the superclass}@}. {@{Generalization properties}@} are described by {@{text near it}@}, e.g. {@{`{overlapping, incomplete}`, `{disjoint, complete}`}@}. <!--SR:!2027-02-01,380,361!2026-11-18,308,342!2027-02-10,388,361!fsrs,2029-06-09T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-08-07T00:00:00.000Z!2027-02-04,383,361!2027-02-13,391,361!2027-01-26,374,361-->
 
 #### generalization and inheritance
 

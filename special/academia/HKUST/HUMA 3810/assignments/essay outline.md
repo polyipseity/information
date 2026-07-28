@@ -17,7 +17,7 @@ The syllabus requires an essay outline for comment on 2026-03-06.
 
 Flashcards for this section are as follows:
 
-- due date :@: The essay outline is due on 2026-03-06. <!--SR:!2026-08-06,66,310-->
+- due date :@: The essay outline is due on 2026-03-06. <!--SR:!fsrs,2027-06-29T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-08-07T00:00:00.000Z-->
 - role in course workflow :@: It is the first essay milestone and exists so the instructor can comment before the later draft and final submission. <!--SR:!fsrs,2027-06-13T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-08-04T00:00:00.000Z-->
 
 ## logistics

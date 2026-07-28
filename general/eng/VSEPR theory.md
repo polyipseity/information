@@ -99,8 +99,8 @@ tags:
 >     - AX<sub>6</sub>E<sub>1</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2027-03-13,316,345-->
 >     - AX<sub>6</sub>E<sub>1</sub> / example(s) ::@:: XeOF<sub>5</sub><sup>-</sup> <!--SR:!2026-10-19,171,281!fsrs,2027-01-31T00:00:00.000Z,225,225.43113824,4.92779087,2,7,0,0,2026-06-20T00:00:00.000Z-->
 > - AX<sub>7</sub>E<sub>0</sub>
->     - AX<sub>7</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal bipyramidal](pentagonal%20bipyramidal%20molecular%20geometry.md)<br/>![pentagonal bipyramidal](../../archives/Wikimedia%20Commons/AX7E0-3D-balls.png) <!--SR:!2026-08-06,138,305!2026-09-27,149,265-->
->     - AX<sub>7</sub>E<sub>0</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2026-08-06,138,305-->
+>     - AX<sub>7</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal bipyramidal](pentagonal%20bipyramidal%20molecular%20geometry.md)<br/>![pentagonal bipyramidal](../../archives/Wikimedia%20Commons/AX7E0-3D-balls.png) <!--SR:!fsrs,2027-08-29T00:00:00.000Z,387,386.70165632,3.42929087,2,8,0,0,2026-08-07T00:00:00.000Z!2026-09-27,149,265-->
+>     - AX<sub>7</sub>E<sub>0</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!fsrs,2027-08-29T00:00:00.000Z,387,386.70165632,3.42929087,2,8,0,0,2026-08-07T00:00:00.000Z-->
 >     - AX<sub>7</sub>E<sub>0</sub> / example(s) ::@:: [IF<sub>7</sub>](iodine%20heptafluoride.md) <!--SR:!2026-08-14,141,305!2027-02-02,277,341-->
 > - AX<sub>8</sub>E<sub>0</sub>
 >     - AX<sub>8</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [square antiprismatic](square%20antiprismatic%20molecular%20geometry.md)<br/>![square antiprismatic](../../archives/Wikimedia%20Commons/AX8E0-3D-balls.png) <!--SR:!2027-03-14,317,345!2027-02-07,282,341-->

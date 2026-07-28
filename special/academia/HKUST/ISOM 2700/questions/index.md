@@ -93,7 +93,7 @@ tags:
 > 3. Gaokao \(mainland university entrance exam\)
 > 4. Others \(e.g., subject competitions or sports\)
 >
-> - solution: {@{1/2/3/4}@} <!--SR:!2026-08-06,320,351-->
+> - solution: {@{1/2/3/4}@} <!--SR:!fsrs,2030-08-16T00:00:00.000Z,1470,1469.66764328,1,2,9,0,0,2026-08-07T00:00:00.000Z-->
 
 ## week 13 lecture
 
