@@ -104,11 +104,22 @@ _MARKDOWN_SEPARATOR_CHARACTERS = f"{punctuation}{whitespace}\xa0".translate(
 )
 "Constant mapping table column alignment specifiers to string justification methods."
 _JUSTIFY_MAP: dict[str, Callable[[str, int], str]] = {
-    "---": str.ljust,
-    ":--": str.ljust,
-    "--:": str.rjust,
-    ":-:": str.center,
+    "---": str.ljust,  # No alignment specified (renderer default, typically left)
+    ":--": str.ljust,  # Explicitly left-aligned
+    "--:": str.rjust,  # Right-aligned
+    ":-:": str.center,  # Center-aligned
 }
+"""
+Semantic note:
+
+- ``---`` and ``:--`` both use ``str.ljust`` because in GFM they render
+  identically (left-aligned).  The distinction is semantic-only:
+  ``---`` = "no alignment specified" (renderer chooses, typically left);
+  ``:--`` = "explicitly left-aligned".  Do not confuse them or try to
+  make ``---`` produce a different visual alignment.
+
+- ``--:`` = right-aligned, ``:-:`` = center-aligned.
+"""
 
 
 # File paths
