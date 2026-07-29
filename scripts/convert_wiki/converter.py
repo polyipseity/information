@@ -1397,18 +1397,25 @@ class WikiHtmlConverter:
     def _filter_table_cells(
         strings: str,
         *,
-        is_navbox: bool,
         total_colspan: int,
     ) -> str:
-        """Filter, pad, and clean table cell strings for _handle_tr."""
+        """Filter, pad, and clean table cell strings for _handle_tr.
+
+        Splits the joined cell string on ``" | "``, pads to *total_colspan*
+        by appending empty cells, and re-joins.  Empty cells are preserved so
+        that column positions match the original HTML structure.
+
+        .. note::
+
+           If a cell contains the literal separator ``" | "`` (e.g. in inline
+           code or math), the split creates a spurious extra cell.  This is a
+           pre-existing limitation inherited from the pipe-table format; keep
+           cell content free of bare ``" | "`` substrings.
+        """
         cells = [s.strip() for s in strings.split(" | ")]
-        if not is_navbox:
-            cells = [c for c in cells if c]
         while len(cells) < total_colspan:
             cells.append("")
         result = " | ".join(cells)
-        if cells and not cells[0] and result.startswith(" |"):
-            result = "|" + result[2:]
         return result
 
     def _handle_tr(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
@@ -1420,8 +1427,6 @@ class WikiHtmlConverter:
         for child in list(ele.children):
             if isinstance(child, NavigableString) and not child.strip():
                 child.extract()
-
-        is_navbox = self._in_navbox(ele)
 
         tag_cells = [
             child
@@ -1485,7 +1490,7 @@ class WikiHtmlConverter:
             prefix=prefix,
             suffix=suffix,
             process_strings=lambda s: self._filter_table_cells(
-                s, is_navbox=is_navbox, total_colspan=total_colspan
+                s, total_colspan=total_colspan
             ),
         )
 
