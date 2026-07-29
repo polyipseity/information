@@ -36,7 +36,7 @@ Carboxylic acids {@{that are small (1 to 4 carbons) are [miscible](miscibility.m
 
 ### dehydration
 
-[Dehydration](dehydration%20reaction.md) can produce [amides](amide.md). Carboxylic acids {@{[neutralizes](neutralization%20(chemistry).md) [ammonia](ammonia.md) to give ammonium carboxylate, which can then be dehydrated by heat to give primary amides}@}. <!--SR:!2026-08-08,758,249-->
+[Dehydration](dehydration%20reaction.md) can produce [amides](amide.md). Carboxylic acids {@{[neutralizes](neutralization%20(chemistry).md) [ammonia](ammonia.md) to give ammonium carboxylate, which can then be dehydrated by heat to give primary amides}@}. <!--SR:!fsrs,2030-09-15T00:00:00.000Z,1498,1497.80232918,5.52719087,2,11,0,0,2026-08-09T00:00:00.000Z-->
 
 #### esterification
 

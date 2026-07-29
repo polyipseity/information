@@ -40,7 +40,7 @@ tags:
 >
 > - AX<sub>2</sub>E<sub>0</sub>
 >     - AX<sub>2</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [linear](linear%20molecular%20geometry.md)<br/>![linear](../../archives/Wikimedia%20Commons/AX2E0-3D-balls.png) <!--SR:!2027-03-19,322,345!2027-05-19,383,361-->
->     - AX<sub>2</sub>E<sub>0</sub> / ideal bond angle(s) :@: 180° <!--SR:!2026-08-08,140,305-->
+>     - AX<sub>2</sub>E<sub>0</sub> / ideal bond angle(s) :@: 180° <!--SR:!fsrs,2028-04-11T00:00:00.000Z,611,611.37794575,1.22984669,2,8,0,0,2026-08-09T00:00:00.000Z-->
 >     - AX<sub>2</sub>E<sub>0</sub> / example(s) ::@:: [CO<sub>2</sub>](carbon%20dioxide.md) <!--SR:!2027-04-09,343,345!2026-10-11,203,325-->
 > - AX<sub>2</sub>E<sub>1</sub>
 >     - AX<sub>2</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [bent](bent%20molecular%20geometry.md)<br/>![bent](../../archives/Wikimedia%20Commons/AX2E1-3D-balls.png) <!--SR:!2027-04-02,336,345!2026-10-05,198,325-->
@@ -71,7 +71,7 @@ tags:
 >     - AX<sub>4</sub>E<sub>0</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!2026-10-08,200,325-->
 >     - AX<sub>4</sub>E<sub>0</sub> / example(s) ::@:: [CH<sub>4</sub>](methane.md) <!--SR:!2026-12-17,230,325!2026-10-03,196,325-->
 > - AX<sub>4</sub>E<sub>1</sub>
->     - AX<sub>4</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [seesaw/disphenoidal](seesaw%20molecular%20geometry.md)<br/>![seesaw/disphenoidal](../../archives/Wikimedia%20Commons/AX4E1-3D-balls.png) <!--SR:!2026-08-08,99,305!2026-10-05,198,325-->
+>     - AX<sub>4</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [seesaw/disphenoidal](seesaw%20molecular%20geometry.md)<br/>![seesaw/disphenoidal](../../archives/Wikimedia%20Commons/AX4E1-3D-balls.png) <!--SR:!fsrs,2027-05-24T00:00:00.000Z,288,287.94809514,3.42929087,2,8,0,0,2026-08-09T00:00:00.000Z!2026-10-05,198,325-->
 >     - AX<sub>4</sub>E<sub>1</sub> / ideal bond angle(s) :@: 90°, 120°, 180° <!--SR:!2027-04-05,339,345-->
 >     - AX<sub>4</sub>E<sub>1</sub> / example(s) ::@:: [SF<sub>4</sub>](sulfur%20tetrafluoride.md) <!--SR:!2027-05-12,376,361!2027-03-10,313,345-->
 > - AX<sub>4</sub>E<sub>2</sub>
@@ -87,7 +87,7 @@ tags:
 >     - AX<sub>5</sub>E<sub>1</sub> / ideal bond angle(s) :@: 90° <!--SR:!2027-03-31,334,345-->
 >     - AX<sub>5</sub>E<sub>1</sub> / example(s) ::@:: [BrF<sub>5</sub>](bromine%20pentafluoride.md) <!--SR:!fsrs,2026-12-20T16:38:58.456Z,196,196.18685601,1.22984669,2,6,0,0,2026-06-07T16:38:58.456Z!2026-09-27,189,325-->
 > - AX<sub>5</sub>E<sub>2</sub>
->     - AX<sub>5</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal planar](pentagonal%20planar%20molecular%20geometry.md)<br/>![pentagonal planar](../../archives/Wikimedia%20Commons/AX5E2-3D-balls.png) <!--SR:!2026-08-08,140,305!2027-02-17,290,341-->
+>     - AX<sub>5</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal planar](pentagonal%20planar%20molecular%20geometry.md)<br/>![pentagonal planar](../../archives/Wikimedia%20Commons/AX5E2-3D-balls.png) <!--SR:!fsrs,2027-09-05T00:00:00.000Z,392,391.68345654,3.42929087,2,8,0,0,2026-08-09T00:00:00.000Z!2027-02-17,290,341-->
 >     - AX<sub>5</sub>E<sub>2</sub> / ideal bond angle(s) :@: 72° <!--SR:!2026-12-18,231,325-->
 >     - AX<sub>5</sub>E<sub>2</sub> / example(s) ::@:: XeF<sub>5</sub><sup>-</sup> <!--SR:!fsrs,2027-09-01T00:00:00.000Z,389,389.1934457,3.42929087,2,8,0,0,2026-08-08T00:00:00.000Z!2026-10-11,203,325-->
 > - AX<sub>6</sub>E<sub>0</sub>

@@ -52,7 +52,7 @@ async with create_task_group() as tg:
 return chain.from_iterable([r.value for r in results])
 ```
 
-The spectral colors have a range of {@{[wavelength](wavelength.md) 380–750 [nm](nanometer.md), [frequency](frequency.md) 790–400 [THz](hertz.md), and [photon energy](photon%20energy.md) 3.26–1.65 [eV](electronvolt.md)}@}. These values are {@{approximations as the spectrum is continuous without clear boundaries}@}. <!--SR:!2026-08-08,465,190!2032-10-04,2670,350-->
+The spectral colors have a range of {@{[wavelength](wavelength.md) 380–750 [nm](nanometer.md), [frequency](frequency.md) 790–400 [THz](hertz.md), and [photon energy](photon%20energy.md) 3.26–1.65 [eV](electronvolt.md)}@}. These values are {@{approximations as the spectrum is continuous without clear boundaries}@}. <!--SR:!fsrs,2029-05-19T00:00:00.000Z,1014,1013.93210544,6.98338322,2,10,0,0,2026-08-09T00:00:00.000Z!2032-10-04,2670,350-->
 
 <!--pytextgen generate section="d951"--><!-- The following content is generated at 2026-01-25T23:32:19.238022+08:00. Any edits will be overridden! -->
 

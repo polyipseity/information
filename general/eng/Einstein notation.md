@@ -65,7 +65,7 @@ However, if {@{one changes coordinates}@}, {@{the way that coefficients change}@
 
 In the above example, {@{vectors}@} are represented as {@{_n_ × 1 [matrices](matrix%20(mathematics).md) \(column vectors\)}@}, while {@{covectors are represented as 1 × _n_ matrices \(row covectors\)}@}. <!--SR:!2026-10-07,276,330!2026-09-01,254,330!2026-09-29,268,330-->
 
-When using {@{the column vector convention}@}: <!--SR:!2026-08-08,233,330-->
+When using {@{the column vector convention}@}: <!--SR:!fsrs,2029-06-15T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-08-09T00:00:00.000Z-->
 
 - \(annotation: direction mnemonic\) ::@:: "__Up__<!-- markdown separator -->per indices go __up__ to down; __l__<!-- markdown separator -->ower indices go __l__<!-- markdown separator -->eft to right." <!--SR:!2026-10-24,293,330!2026-10-22,291,330-->
 - \(annotation: word mnemonic\) ::@:: "__Co__<!-- markdown separator -->variant tensors are __row__ vectors that have indices that are __below__ \(__co-row-below__\)." <!--SR:!2026-08-28,251,330!2026-10-17,286,330-->

@@ -149,7 +149,7 @@ There are {@{4 key components in the mediator pattern}@}: (annotation: 4 items: 
 
 {@{A component (e.g., calendar)}@} emits {@{an event (`weekend`, `trashDay`)}@}. {@{The mediator}@} receives {@{the event}@}, decides {@{what should happen}@}, and {@{calls methods on the relevant colleagues (e.g., reset alarm, start sprinkler)}@}. {@{Example}@}: when {@{the alarm rings}@}, the mediator {@{checks if it's a weekend or trash day}@} and then {@{tells the coffee pot or shower to act}@}. <!--SR:!2027-03-18,357,361!2027-03-24,362,361!2027-03-17,355,361!2027-03-02,344,361!2027-03-09,350,361!2027-03-18,357,361!2027-03-30,367,361!2027-02-12,329,361!2027-03-22,360,361!2027-04-04,370,361-->
 
-There are {@{4 major advantages to the mediator pattern}@}: (annotation: 4 items: {@{centralized control, decoupled colleagues, reduced subclassing, simplified protocols}@}) <!--SR:!2027-04-02,369,361!2026-08-08,185,322-->
+There are {@{4 major advantages to the mediator pattern}@}: (annotation: 4 items: {@{centralized control, decoupled colleagues, reduced subclassing, simplified protocols}@}) <!--SR:!2027-04-02,369,361!fsrs,2028-11-15T00:00:00.000Z,829,828.96225593,1,2,9,0,0,2026-08-09T00:00:00.000Z-->
 
 - _Decoupled colleagues_ ::@:: – each class is independent; easier to develop, test, reuse. <!--SR:!2027-05-01,393,361!2027-03-29,365,361-->
 - _Centralized control_ ::@:: – logic lives in one place, simplifying debugging and changes. <!--SR:!2027-04-22,385,361!2027-02-10,326,361-->

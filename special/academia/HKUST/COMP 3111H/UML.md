@@ -91,7 +91,7 @@ An association is drawn by {@{a line connecting the class to itself \(unary\)}@}
 
 In practice, most associations are {@{binary}@}. A few are {@{unary}@}, and even fewer are {@{ternary or higher degree}@}. Often, {@{a ternary or higher degree association}@} can be {@{replaced by multiple binary associations}@}, but {@{not always}@}. <!--SR:!2027-03-16,411,370!2026-11-24,314,342!2026-10-23,292,342!2027-01-24,374,361!2027-03-10,405,370!2027-02-14,392,361-->
 
-Associations of {@{different degree}@} are {@{drawn differently}@}. An association is drawn by {@{a line connecting the class to itself \(unary\)}@}, {@{a line between two classes \(binary\)}@}, or {@{a diamond shape connecting many classes \(ternary, etc.\)}@}.  \(__this course__: We consider {@{unary and binary associations only}@}.\) <!--SR:!2026-11-28,318,342!2026-08-08,234,330!2027-02-09,387,361!2026-10-31,300,342!2027-03-05,400,370!2027-03-24,419,373-->
+Associations of {@{different degree}@} are {@{drawn differently}@}. An association is drawn by {@{a line connecting the class to itself \(unary\)}@}, {@{a line between two classes \(binary\)}@}, or {@{a diamond shape connecting many classes \(ternary, etc.\)}@}.  \(__this course__: We consider {@{unary and binary associations only}@}.\) <!--SR:!2026-11-28,318,342!fsrs,2029-06-19T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-09T00:00:00.000Z!2027-02-09,387,361!2026-10-31,300,342!2027-03-05,400,370!2027-03-24,419,373-->
 
 ### association multiplicity
 

@@ -149,7 +149,7 @@ The content is in teaching order.
 - datetime: 2025-02-10T10:30:00+08:00/2025-02-10T11:50:00+08:00
 - topic: bottleneck analysis, throughput analysis
 - [bottleneck](../../../../general/bottleneck%20(production).md) ::@:: a process in a chain of processes, such that its limited capacity reduces the capacity of the whole chain <!--SR:!2026-09-27,463,381!2026-09-27,463,381-->
-    - bottleneck / motivation ::@:: _Process capacity_ is the _maximum_ flow rate. _Bottlenecks_ determine the process capacity. This is useful for improving process capacity, since bottlenecks determine the process capacity, we should prioritize improving the bottleneck. <!--SR:!2026-08-08,428,381!2026-08-29,434,381-->
+    - bottleneck / motivation ::@:: _Process capacity_ is the _maximum_ flow rate. _Bottlenecks_ determine the process capacity. This is useful for improving process capacity, since bottlenecks determine the process capacity, we should prioritize improving the bottleneck. <!--SR:!fsrs,2032-02-03T00:00:00.000Z,2004,2004.45937273,1,2,10,0,0,2026-08-09T00:00:00.000Z!2026-08-29,434,381-->
 - [law of the minimum](../../../../general/Liebig's%20law%20of%20the%20minimum.md) ::@:: For a process to produce a unit, every resource must finish its own job. Thus, the process capacity is determined by the slowest resource. <!--SR:!2026-08-16,426,381!2026-09-01,437,381-->
     - law of the minimum / examples ::@:: The capacity of a barrel with staves of unequal length is limited by the shortest stave. <p> A chain is only as strong as its weakest link. <p> The flow rate of an irregular pipe is limited by its narrowest gap. <!--SR:!2026-08-28,433,381!2026-09-17,453,381-->
 - [bottleneck](../../../../general/bottleneck%20(production).md)

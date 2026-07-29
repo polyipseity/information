@@ -30,7 +30,7 @@ Flashcards for this section are as follows:
 
 - What core problem does the Fourier series note solve in ELEC 2100? ::@:: It decomposes a continuous-time periodic signal into harmonically related sinusoidal or complex-exponential components so the periodic waveform can be analyzed and reconstructed from its line spectrum. <!--SR:!2026-08-17,76,329!fsrs,2027-06-03T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-08-03T00:00:00.000Z-->
 - Why is the Fourier-series viewpoint important beyond formula manipulation? ::@:: It turns waveform shape into a structured list of frequency components, which makes symmetry, bandwidth, harmonic content, and physical interpretation easier to see. <!--SR:!fsrs,2027-06-18T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-08-05T00:00:00.000Z!2026-08-17,76,329-->
-- How should this note be positioned among the four main Fourier descriptions used in ELEC 2100? ::@:: This note is the continuous-time periodic case. The Fourier transform handles continuous-time aperiodic signals, the DTFT handles general sequences on a continuous digital-frequency axis, and the DFT handles finite-record or period-$N$ discrete data on a finite frequency grid. <!--SR:!2026-08-08,67,310!2026-08-18,77,335-->
+- How should this note be positioned among the four main Fourier descriptions used in ELEC 2100? ::@:: This note is the continuous-time periodic case. The Fourier transform handles continuous-time aperiodic signals, the DTFT handles general sequences on a continuous digital-frequency axis, and the DFT handles finite-record or period-$N$ discrete data on a finite frequency grid. <!--SR:!fsrs,2027-07-05T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-08-09T00:00:00.000Z!2026-08-18,77,335-->
 
 ## spectrum concept and frequency-domain viewpoint
 

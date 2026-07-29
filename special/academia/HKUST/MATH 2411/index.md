@@ -435,7 +435,7 @@ The content is in teaching order.
 - [sample covariance](../../../../general/sample%20mean%20and%20covariance.md)
     - sample covariance / equation ::@:: Given _N_ samples for each of the random variables _X_ and _Y_, their _sample covariance_ is: $$\operatorname{Cov}(X, Y) = \operatorname{Cov}(Y, X) = \frac 1 {N - 1} \sum_{k = 1}^N (X_k - \overline X) (Y_k - \overline Y) \,.$$ If _X_ and _Y_ are the same random variable _Z_, then it is also the _sample variance_ of _Z_: $$S_{Z, n - 1}^2 = \operatorname{Cov}(Z, Z) = \frac 1 {N - 1} \sum_{k = 1}^N (Z_k - \overline Z)^2 \,.$$ <!--SR:!2029-11-28,1440,396!2027-05-13,708,416-->
     - [sample variance](../../../../general/sample%20variance.md)
-        - sample variance / properties ::@:: It is _unbiased_ (for the _corrected_ one only): $\operatorname E\left[S_{X, n - 1}^2\right] = \sigma_X^2$. <!--SR:!2026-08-08,484,396!2027-05-03,700,416-->
+        - sample variance / properties ::@:: It is _unbiased_ (for the _corrected_ one only): $\operatorname E\left[S_{X, n - 1}^2\right] = \sigma_X^2$. <!--SR:!fsrs,2032-09-16T00:00:00.000Z,2230,2230.24019752,1,2,10,0,0,2026-08-09T00:00:00.000Z!2027-05-03,700,416-->
 - sample moment
     - sample moment / equations ::@:: Given _N_ samples of a random variable _X_, its _k-th raw sample moment_ and _k-th central sample moment_ are respectively: $$\begin{aligned} \overline {X^k} & = \frac 1 N \sum_{i = 1}^N X_i^k \\ \hat \mu_k & = \frac 1 N \sum_{i = 1}^N (X_i - \overline X)^k \,. \end{aligned}$$ <!--SR:!2026-09-08,504,395!2027-05-11,708,416-->
     - sample moment / properties ::@:: It is unbiased (for the _raw_ one only): $\operatorname E\left[\overline {X^k}\right] = \operatorname E\left[X^k\right]$. <!--SR:!2027-04-06,674,415!2027-05-07,702,416-->
