@@ -496,16 +496,16 @@ def _replace_pipes_outside_math(text: str) -> str:
     """
     math_ranges = _all_math_ranges(text)
     if not math_ranges:
-        return text.replace("|", "&#124;")
+        return text.replace("\\|", "|").replace("|", "&#124;")
 
     # Build result by alternating non-math and math segments.
     parts: list[str] = []
     prev_end = 0
     for start, end in math_ranges:
-        parts.append(text[prev_end:start].replace("|", "&#124;"))
+        parts.append(text[prev_end:start].replace("\\|", "|").replace("|", "&#124;"))
         parts.append(re.sub(r"(?<!\\)\|", r"\\vert ", text[start:end]))
         prev_end = end
-    parts.append(text[prev_end:].replace("|", "&#124;"))
+    parts.append(text[prev_end:].replace("\\|", "|").replace("|", "&#124;"))
 
     return "".join(parts)
 

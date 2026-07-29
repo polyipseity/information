@@ -107,7 +107,7 @@ class TestReplacePipesOutsideMath:
         treated as a literal pipe and replaced with ``&#124;``.
         """
         result = _replace_pipes_outside_math(r"\| $a|b$")
-        assert result == r"\&#124; $a\vert b$"
+        assert result == "&#124; $a\\vert b$"
 
     def test_math_with_adjacent_text(self) -> None:
         """Math block adjacent to text with pipe."""
