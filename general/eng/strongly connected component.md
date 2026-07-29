@@ -31,7 +31,7 @@ In {@{the [mathematical](mathematics.md) theory of [directed graphs](directed%20
 
 > {@{![The yellow [directed acyclic graph](directed%20acyclic%20graph.md) is the condensation of the blue directed graph.](../../archives/Wikimedia%20Commons/Graph%20Condensation.svg)}@}
 >
-> {@{The yellow [directed acyclic graph](directed%20acyclic%20graph.md) is the condensation of the blue directed graph}@}. It is formed by {@{contracting each strongly connected component of the blue graph into a single yellow vertex}@}. <!--SR:!2026-08-09,414,297!2027-10-31,813,337!2029-03-05,1212,357-->
+> {@{The yellow [directed acyclic graph](directed%20acyclic%20graph.md) is the condensation of the blue directed graph}@}. It is formed by {@{contracting each strongly connected component of the blue graph into a single yellow vertex}@}. <!--SR:!fsrs,2030-10-16T00:00:00.000Z,1528,1527.66924207,1.6300927,2,10,0,0,2026-08-10T00:00:00.000Z!2027-10-31,813,337!2029-03-05,1212,357-->
 
 If {@{each strongly connected component is [contracted](edge%20contraction.md#vertex%20identification) to a single vertex}@}, {@{the resulting graph is a [directed acyclic graph](directed%20acyclic%20graph.md), the __condensation__ of _G_<!-- markdown separator -->}@}. A directed graph is {@{acyclic [if and only if](if%20and%20only%20if.md) it has no strongly connected subgraphs with more than one vertex}@}, because {@{a [directed cycle](cycle%20(graph%20theory).md) is strongly connected}@} and {@{every non-trivial strongly connected component contains at least one directed cycle}@}. <!--SR:!2027-10-02,790,337!2029-12-07,1424,357!2028-03-01,906,337!2029-02-07,1190,357!2027-09-21,780,337-->
 

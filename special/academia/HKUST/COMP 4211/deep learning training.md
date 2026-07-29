@@ -157,7 +157,7 @@ The lecture then studies how to modify this update. Momentum changes how the pas
 
 Flashcards for this section are as follows:
 
-- SGD in deep learning / update $\theta_{t+1}=\theta_t-\eta g_t$ ::@:: If $g_t=\frac{1}{B}\sum_{i\in\mathcal B_t}\nabla_\theta \ell_i(\theta_t)$ is the minibatch gradient, then vanilla SGD updates by $\theta_{t+1}=\theta_t-\eta g_t$. <!--SR:!2026-08-17,77,336!2026-08-09,69,319-->
+- SGD in deep learning / update $\theta_{t+1}=\theta_t-\eta g_t$ ::@:: If $g_t=\frac{1}{B}\sum_{i\in\mathcal B_t}\nabla_\theta \ell_i(\theta_t)$ is the minibatch gradient, then vanilla SGD updates by $\theta_{t+1}=\theta_t-\eta g_t$. <!--SR:!2026-08-17,77,336!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z-->
 - why deep optimization is hard ::@:: Deep-learning optimization is hard because the loss landscape is high-dimensional, noisy, and often poorly conditioned. <!--SR:!fsrs,2027-07-05T00:00:00.000Z,346,345.6286996,1,2,7,0,0,2026-07-24T00:00:00.000Z!2026-08-25,85,352-->
 - two layers of optimizer design ::@:: Optimizer design has an inner layer that changes direction or coordinatewise scaling inside one step, and an outer layer that changes the global learning rate across training. <!--SR:!2026-08-13,73,336!2026-08-12,72,336-->
 - optimizer choice matters ::@:: Different optimizers can produce very different training behavior even when the model and data are unchanged. <!--SR:!2026-08-17,77,336!2026-08-17,77,336-->
@@ -203,7 +203,7 @@ Flashcards for this section are as follows:
 - classical momentum versus Adam first moment ::@:: Classical momentum stores a velocity-like step state $v_t$, whereas Adam stores a gradient-average state $m_t=\beta_1 m_{t-1}+(1-\beta_1)g_t$ that is later bias-corrected and adaptively rescaled. <!--SR:!2026-08-12,72,319!2026-08-16,76,336-->
 - Adam first-moment formula ::@:: Adam's momentum-like component is $m_t=\beta_1 m_{t-1}+(1-\beta_1)g_t$, which is an exponentially weighted average of gradients rather than a full parameter-step vector. <!--SR:!2026-08-16,76,336!2026-08-24,84,352-->
 - why Adam's first moment is not literally classical momentum ::@:: Adam's $m_t$ is not itself the final step because it must still be bias-corrected and divided by the adaptive denominator $\sqrt{\hat v_t}+\varepsilon$. <!--SR:!2026-08-17,77,336!2026-08-16,76,336-->
-- typical momentum coefficients $0.5$, $0.9$, and $0.99$ ::@:: The lecture notes typical momentum hyperparameters such as $0.5$, $0.9$, and $0.99$. <!--SR:!2026-08-09,69,319!fsrs,2027-05-13T00:00:00.000Z,289,289.38159789,1,2,7,0,0,2026-07-28T00:00:00.000Z-->
+- typical momentum coefficients $0.5$, $0.9$, and $0.99$ ::@:: The lecture notes typical momentum hyperparameters such as $0.5$, $0.9$, and $0.99$. <!--SR:!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z!fsrs,2027-05-13T00:00:00.000Z,289,289.38159789,1,2,7,0,0,2026-07-28T00:00:00.000Z-->
 - given $\beta=0.9$, previous velocity $v_{t-1}=-0.4$, gradient $g_t=3$, learning rate $\eta=0.1$, and parameter $\theta_t=5$, compute $v_t$ and $\theta_{t+1}$ for momentum SGD ::@:: We get $v_t=0.9(-0.4)-0.1(3)=-0.66$ and $\theta_{t+1}=5-0.66=4.34$. <!--SR:!fsrs,2026-11-09T10:17:24.548Z,148,147.87140556,2.53064624,2,6,0,0,2026-06-14T10:17:24.548Z!2026-08-17,77,336-->
 - given $\beta_1=0.9$, previous Adam first moment $m_{t-1}=0.6$, and current gradient $g_t=3$, compute the new first moment $m_t$ ::@:: We get $m_t=0.9(0.6)+0.1(3)=0.84$. <!--SR:!fsrs,2027-03-07T00:00:00.000Z,249,249.1572878,1,2,7,0,0,2026-07-01T00:00:00.000Z!2026-08-17,77,336-->
 
@@ -303,8 +303,8 @@ Flashcards for this section are as follows:
 - graph of scheduled decay ::@:: The graph of scheduled decay is a staircase: flat plateaus followed by sudden downward jumps at chosen milestones. <!--SR:!2026-08-13,73,319!2026-08-24,84,352-->
 - exponential decay / $\eta_t=\eta_0\gamma^t$ or $\eta_t=\eta_0 e^{-kt}$ ::@:: Exponential decay shrinks the learning rate smoothly over time, for example as $\eta_t=\eta_0\gamma^t$ with $\gamma\in(0,1)$. <!--SR:!2026-08-24,84,352!2026-08-13,75,336-->
 - graph of exponential decay ::@:: The graph of exponential decay is a smooth monotone downward curve that falls quickly at first and then gradually flattens. <!--SR:!2026-08-12,72,336!2026-08-15,75,336-->
-- scheduled decay versus exponential decay ::@:: Scheduled decay uses discrete regime changes at chosen milestones, whereas exponential decay shrinks the learning rate continuously at every step. <!--SR:!2026-08-15,75,336!2026-08-09,69,319-->
-- given initial learning rate $\eta_0=0.1$, step-decay factor $\alpha=0.1$, and milestones at epochs $10$ and $20$, what is $\eta_{17}$? ::@:: Because epoch $17$ is after one milestone but before the second, $\eta_{17}=0.1\cdot 0.1=0.01$. <!--SR:!2026-08-17,77,336!2026-08-09,69,319-->
+- scheduled decay versus exponential decay ::@:: Scheduled decay uses discrete regime changes at chosen milestones, whereas exponential decay shrinks the learning rate continuously at every step. <!--SR:!2026-08-15,75,336!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z-->
+- given initial learning rate $\eta_0=0.1$, step-decay factor $\alpha=0.1$, and milestones at epochs $10$ and $20$, what is $\eta_{17}$? ::@:: Because epoch $17$ is after one milestone but before the second, $\eta_{17}=0.1\cdot 0.1=0.01$. <!--SR:!2026-08-17,77,336!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z-->
 - given exponential decay $\eta_t=0.1\cdot 0.9^t$, what is $\eta_3$? ::@:: We get $\eta_3=0.1\cdot 0.9^3=0.0729$. <!--SR:!2026-08-17,77,336!2026-08-12,72,319-->
 
 ### cosine annealing and warm restarts
@@ -326,7 +326,7 @@ Flashcards for this section are as follows:
 - warm restart ::@:: In a warm restart, the learning rate is reset to a larger value while the learned weights are kept, so the optimizer gets a fresh large-step phase without restarting training from scratch. <!--SR:!2026-08-15,75,336!2026-08-25,85,352-->
 - graph of cosine annealing with warm restarts ::@:: With warm restarts, the graph is a sequence of cosine arches separated by sudden upward jumps in the learning rate. <!--SR:!2026-08-16,76,336!2026-08-16,76,336-->
 - why warm restarts can help ::@:: Warm restarts can help the optimizer escape a narrow local region by re-energizing the learning rate while keeping the current learned parameters. <!--SR:!2026-08-24,84,352!2026-08-17,77,336-->
-- given cosine annealing with $\eta_{\min}=0$, $\eta_{\max}=0.1$, and $T=10$, what is the learning rate at the midpoint $t=5$? ::@:: We get $\eta_5=\tfrac12(0.1)(1+\cos(\pi/2))=0.05$. <!--SR:!2026-08-09,69,319!2026-08-12,72,336-->
+- given cosine annealing with $\eta_{\min}=0$, $\eta_{\max}=0.1$, and $T=10$, what is the learning rate at the midpoint $t=5$? ::@:: We get $\eta_5=\tfrac12(0.1)(1+\cos(\pi/2))=0.05$. <!--SR:!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z!2026-08-12,72,336-->
 
 ## batch normalization
 
@@ -380,7 +380,7 @@ Flashcards for this section are as follows:
 - why normalization should also happen inside deep networks ::@:: Since each layer acts as the input to later layers, hidden activations can benefit from normalization just as raw input features do. <!--SR:!2026-08-25,85,352!2026-08-25,85,352-->
 - internal covariate shift ::@:: Internal covariate shift is the idea that as earlier layers update, the distribution of inputs seen by later layers drifts during training. <!--SR:!2026-08-17,77,336!2026-08-24,84,352-->
 - modern practical motivation for batch normalization ::@:: Even beyond the internal-covariate-shift slogan, batch normalization helps because it keeps hidden activations numerically better behaved from layer to layer and step to step. <!--SR:!fsrs,2027-07-21T00:00:00.000Z,346,345.6286996,1,2,7,0,0,2026-08-09T00:00:00.000Z!2026-08-15,75,336-->
-- why batch normalization helps optimization after the slogan ::@:: Whether or not one emphasizes internal covariate shift, batch normalization helps because controlling hidden-layer scale makes optimization and gradient flow more stable. <!--SR:!2026-08-09,69,319!2026-08-15,75,336-->
+- why batch normalization helps optimization after the slogan ::@:: Whether or not one emphasizes internal covariate shift, batch normalization helps because controlling hidden-layer scale makes optimization and gradient flow more stable. <!--SR:!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z!2026-08-15,75,336-->
 - batch normalization can be applied per layer ::@:: Batch normalization is a layerwise design choice: it can be added separately to some layers while other layers are left unchanged. <!--SR:!2026-08-16,76,336!2026-08-16,76,336-->
 
 ### standardization, learnable affine correction, and inference mode

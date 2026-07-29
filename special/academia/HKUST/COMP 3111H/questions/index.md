@@ -168,7 +168,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Some are simply _design decisions_. For example, modeling a bank and its bank accounts, the multiplicity for the number of bank accounts per bank could be either `0..*` or `1..*`, depending on if the user requires a bank instance to have at least one bank account.}@} <!--SR:!2026-08-09,231,338-->
+> - solution: {@{No. Some are simply _design decisions_. For example, modeling a bank and its bank accounts, the multiplicity for the number of bank accounts per bank could be either `0..*` or `1..*`, depending on if the user requires a bank instance to have at least one bank account.}@} <!--SR:!fsrs,2029-07-07T00:00:00.000Z,1062,1061.94139538,1,2,9,0,0,2026-08-10T00:00:00.000Z-->
 
 ---
 

@@ -1149,7 +1149,7 @@ and the Structural Engineering Institute (SEI).
 - The problems had been reported in 2018 and a US$15M program of remedial work has been approved, though no main structural work has taken place.→::@::←On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation, <!--SR:!2032-08-25,2339,357!2031-02-05,1906,355-->
 - On 25 August 2021, the National Institute of Standards and Technology (NIST) has been tasked with investigation,→::@::←with investigators coming from the American Concrete Institute (ACI), <!--SR:!2032-03-02,2197,347!2028-08-26,1178,327-->
 - with investigators coming from the American Concrete Institute (ACI),→::@::←the American Society of Civil Engineers (ASCE), <!--SR:!2032-12-03,2407,354!2028-07-29,1160,330-->
-- the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!2026-08-09,551,290!2034-07-02,2950,377-->
+- the American Society of Civil Engineers (ASCE),→::@::←the Geode Institute (GI), <!--SR:!fsrs,2031-11-05T00:00:00.000Z,1913,1912.60095419,1.98030797,2,10,0,0,2026-08-10T00:00:00.000Z!2034-07-02,2950,377-->
 - the Geode Institute (GI),→::@::←and the Structural Engineering Institute (SEI). <!--SR:!2031-07-18,2088,377!2027-06-14,915,350-->
 - and the Structural Engineering Institute (SEI).→::@::←_(end)_ <!--SR:!2029-08-29,1574,370!2027-05-17,891,350-->
 

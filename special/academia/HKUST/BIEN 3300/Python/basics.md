@@ -135,7 +135,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="d123"--><!-- The following content is generated at 2024-01-30T13:35:46.633801+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←`in` <!--SR:!2026-10-13,282,330!2026-08-09,234,330-->
+- _(begin)_→::@::←`in` <!--SR:!2026-10-13,282,330!fsrs,2029-06-20T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-10T00:00:00.000Z-->
 - `in`→::@::←`<` <!--SR:!2026-10-14,283,330!2026-10-02,271,330-->
 - `<`→::@::←`<=` <!--SR:!2026-08-27,250,330!2026-09-22,261,330-->
 - `<=`→::@::←`>` <!--SR:!2026-08-19,243,330!2026-10-09,278,330-->
@@ -149,7 +149,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="cc23"--><!-- The following content is generated at 2024-01-30T13:35:46.619801+08:00. Any edits will be overridden! -->
 
 - `in`:@:membership test <!--SR:!2026-10-20,289,330-->
-- `<`:@:lesser than <!--SR:!2026-08-09,235,330-->
+- `<`:@:lesser than <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-08-10T00:00:00.000Z-->
 - `<=`:@:lesser than or equal to <!--SR:!2026-10-03,272,330-->
 - `>`:@:greater than <!--SR:!2026-10-16,285,330-->
 - `>=`:@:greater than or equal to <!--SR:!fsrs,2029-05-21T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-03T00:00:00.000Z-->

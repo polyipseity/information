@@ -185,7 +185,7 @@ Moreover, Zorn's lemma \(or one of its equivalent forms\) implies {@{some major 
 2. Every vector space ::@:: has a [basis](basis%20(linear%20algebra).md), a result from linear algebra \(to which it is equivalent<sup>[\[24\]](#^ref-24)</sup>\). In particular, the real numbers, as a vector space over the rational numbers, possess a Hamel basis. <!--SR:!2026-11-30,482,310!2027-09-06,755,330-->
 3. Every commutative unital ring ::@:: has a [maximal ideal](maximal%20ideal.md), a result from ring theory known as [Krull's theorem](Krull's%20theorem.md), to which Zorn's lemma is equivalent<sup>[\[25\]](#^ref-25)</sup> <!--SR:!2030-01-16,1448,358!2028-08-16,919,278-->
 4. [Tychonoff's theorem](Tychonoff's%20theorem.md) ::@:: in topology \(to which it is also equivalent<sup>[\[26\]](#^ref-26)</sup>\) <!--SR:!2029-04-29,1243,358!2030-01-12,1457,370-->
-5. Every [proper filter](filter%20(mathematics).md#proper%20filter) ::@:: is contained in an [ultrafilter](ultrafilter.md), a result that yields the [completeness theorem](Gödel's%20completeness%20theorem.md) of [first-order logic](first-order%20logic.md)<sup>[\[27\]](#^ref-27)</sup> <!--SR:!2028-09-15,1056,350!2026-08-09,351,270-->
+5. Every [proper filter](filter%20(mathematics).md#proper%20filter) ::@:: is contained in an [ultrafilter](ultrafilter.md), a result that yields the [completeness theorem](Gödel's%20completeness%20theorem.md) of [first-order logic](first-order%20logic.md)<sup>[\[27\]](#^ref-27)</sup> <!--SR:!2028-09-15,1056,350!fsrs,2029-11-08T00:00:00.000Z,1186,1186.47815464,2.98092302,2,9,0,0,2026-08-10T00:00:00.000Z-->
 
 In this sense, {@{Zorn's lemma is a powerful tool}@}, {@{applicable to many areas of mathematics}@}. <!--SR:!2030-08-17,1631,370!2030-10-30,1691,370-->
 

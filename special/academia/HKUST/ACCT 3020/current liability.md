@@ -437,9 +437,9 @@ Representative journal entry examples:
 Flashcards for this section are as follows:
 
 - dividends payable: when recognised? ::@:: When the board of directors declares the dividend; the past event is the declaration, not the payment. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-28T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-18T00:00:00.000Z-->
-- dividends payable: current or non-current? ::@:: Current; typically settled within months of declaration. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-09T05:51:10.199Z,56,56.31604278,3.98153807,2,2,0,0,2026-06-14T05:51:10.199Z-->
+- dividends payable: current or non-current? ::@:: Current; typically settled within months of declaration. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2027-04-29T00:00:00.000Z,262,261.84543826,1.95567692,2,3,0,0,2026-08-10T00:00:00.000Z-->
 - dividend declaration: entry? ::@:: Dr _Retained earnings_, Cr _Dividends payable_. <!--SR:!fsrs,2026-08-28T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-18T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
-- dividend payment: entry? ::@:: Dr _Dividends payable_, Cr _Cash_. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-09T05:49:21.767Z,56,56.31604278,3.98153807,2,2,0,0,2026-06-14T05:49:21.767Z-->
+- dividend payment: entry? ::@:: Dr _Dividends payable_, Cr _Cash_. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2027-04-29T00:00:00.000Z,262,261.84543826,1.95567692,2,3,0,0,2026-08-10T00:00:00.000Z-->
 - why is dividends payable a liability before payment? ::@:: The declaration creates a present obligation to pay cash to shareholders; the past event is the board resolution to declare. <!--SR:!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z!fsrs,2026-08-27T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-17T00:00:00.000Z-->
 
 ## sales taxes payable

@@ -97,7 +97,7 @@ It is easy to see that {@{$S(0)$}@} is {@{the multiplicative [right identity](id
 To {@{show that $S(0)$}@} is {@{also the multiplicative left identity}@} requires {@{the induction axiom due to the way multiplication is defined}@}: <!--SR:!2028-01-04,848,325!2027-11-13,643,412!2027-11-10,641,412-->
 
 - multiplicative left identity / base case ::@:: $S(0)$ is the left identity of 0: $S(0)\cdot 0=0$. <!--SR:!2027-10-02,861,345!2029-05-16,1345,365-->
-- multiplication left identity / induction ::@:: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2029-10-14,1407,325!2026-08-09,527,322-->
+- multiplication left identity / induction ::@:: If $S(0)$ is the left identity of $a$ (that is $S(0)\cdot a=a$), then $S(0)$ is also the left identity of $S(a)$: $S(0)\cdot S(a)=S(0)+S(0)\cdot a=S(0)+a=a+S(0)=S(a+0)=S(a)$, using commutativity of addition. <!--SR:!2029-10-14,1407,325!fsrs,2032-04-04T00:00:00.000Z,2064,2063.99505385,1,2,10,0,0,2026-08-10T00:00:00.000Z-->
 
 Therefore, by {@{the induction axiom}@} {@{$S(0)$}@} is {@{the multiplicative left identity of all natural numbers}@}. Moreover, it can be shown that {@{multiplication}@} is {@{commutative and [distributes over](distributive%20property.md) addition}@}: {@{$$a\cdot (b+c)=(a\cdot b)+(a\cdot c) \,.$$}@} <!--SR:!2030-04-12,1604,365!2029-05-05,1320,350!2028-04-27,728,422!2027-02-27,378,402!2028-04-17,705,424!2028-05-12,727,424-->
 

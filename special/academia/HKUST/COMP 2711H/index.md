@@ -280,7 +280,7 @@ The content is in teaching order.
 - datetime: 2024-09-25T09:00:00+08:00/2024-09-25T10:20:00+08:00
 - topic: pigeonhole principle
 - pigeonhole principle ::@:: Let _f_ be a mapping from a finite nonempty set _A_ to another nonempty finite set _B_ such that |_A_| > _k_|_B_| for some natural number _k_. Let _f_<sup>-1</sup> be the inverse mapping from _B_ to the power set of _A_. Then there is an element _b_ in _B_ such that |_f_<sup>-1</sup>(_b_)| ≥ _k_ + 1. <!--SR:!2033-06-27,2583,417!2028-03-15,903,357-->
-    - pigeonhole principle / proof ::@:: Prove by contradiction. Using the definitions above, assume every element _b_ in _B_ has the property |_f_<sup>-1</sup>(_b_)| < _k_ + 1. Then the maximum cardinality (size) of _A_ is _k_|_B_|. But this contradicts |_A_| > _k_|_B_|. <!--SR:!2026-08-09,533,397!2033-05-30,2555,417-->
+    - pigeonhole principle / proof ::@:: Prove by contradiction. Using the definitions above, assume every element _b_ in _B_ has the property |_f_<sup>-1</sup>(_b_)| < _k_ + 1. Then the maximum cardinality (size) of _A_ is _k_|_B_|. But this contradicts |_A_| > _k_|_B_|. <!--SR:!fsrs,2033-03-31T00:00:00.000Z,2425,2425.12366976,1,2,10,0,0,2026-08-10T00:00:00.000Z!2033-05-30,2555,417-->
     - pigeonhole principle / in practice ::@:: The pigeonhole principle is straight forward. However, the difficult part is identifying the pigeons and holes, which is nontrivial. <!--SR:!2031-10-11,2029,397!fsrs,2030-09-20T00:00:00.000Z,1515,1514.88579842,1,2,10,0,0,2026-07-28T00:00:00.000Z-->
 - [questions/2024-09-25](questions/2024-09-25.md)
 - [week 4 problem set](questions/week%204%20problem%20set.md)
@@ -611,7 +611,7 @@ The content is in teaching order.
         - high: ?
         - distribution: ?
 - report
-    - How to do Amir's examinations? ::@:: I had spent too much time on writing things that were later discarded. This led to extremely messy layout (not enough papers) and wasted time. <p> What I should have done instead is to think carefully and make use of pencils for drafting. <!--SR:!2026-08-09,482,425!2028-04-06,998,465-->
+    - How to do Amir's examinations? ::@:: I had spent too much time on writing things that were later discarded. This led to extremely messy layout (not enough papers) and wasted time. <p> What I should have done instead is to think carefully and make use of pencils for drafting. <!--SR:!fsrs,2032-09-09T00:00:00.000Z,2222,2222.23508615,1,2,10,0,0,2026-08-10T00:00:00.000Z!2028-04-06,998,465-->
     - time limit ::@:: It depends on if you have the insight... whatever that is. Very difficult... <!--SR:!2028-04-20,1012,465!2028-02-25,967,465-->
 - check
     - note: You will receive a scanned copy of your examination. Send email to Amir to appeal.
