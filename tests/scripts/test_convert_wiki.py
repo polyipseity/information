@@ -1421,3 +1421,45 @@ class TestTexHtmlToLatexRadical:
         assert r"\frac{\sqrt[4]{2} }{\sqrt{\sigma} }" in result, (
             f"Expected \\frac in output, got: {result!r}"
         )
+
+
+class TestFilterTableCells:
+    """Unit tests for ``WikiHtmlConverter._filter_table_cells``.
+
+    Ensures that cell strings are correctly split, padded, and
+    re-joined without dropping empty cells.
+    """
+
+    @pytest.mark.parametrize(
+        ("input_str", "total_colspan", "expected"),
+        [
+            # No padding needed (3 cells, colspan 3)
+            ("a | b | c", 3, "a | b | c"),
+            # Fewer cells than colspan — pad with empties
+            ("a | b", 3, "a | b | "),
+            # Single cell, padded
+            ("a", 3, "a |  | "),
+            # Leading empty cell (the Fourier bug fix)
+            (" | a | b", 3, " | a | b"),
+            # All empty cells preserved
+            (" |  | ", 3, " |  | "),
+            # Empty string → all empty
+            ("", 3, " |  | "),
+            # colspan 1
+            ("x", 1, "x"),
+            # colspan 0 — empty string
+            ("", 0, ""),
+            # Trailing empty preserved
+            ("a |  | ", 3, "a |  | "),
+        ],
+    )
+    def test_filter_cells(
+        self, input_str: str, total_colspan: int, expected: str
+    ) -> None:
+        result = WikiHtmlConverter._filter_table_cells(
+            input_str, total_colspan=total_colspan
+        )
+        assert result == expected, (
+            f"Input {input_str!r} with colspan={total_colspan}: "
+            f"expected {expected!r}, got {result!r}"
+        )
