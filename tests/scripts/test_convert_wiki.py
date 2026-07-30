@@ -1339,7 +1339,9 @@ class TestTexHtmlToLatexRadical:
         )
         assert html.span is not None
         result = converter._texhtml_to_latex(html.span)
-        assert result == r"\sqrt{\sigma}", f"Expected \\sqrt{{\\sigma}}, got {result!r}"
+        assert result == r"\sqrt{\sigma{}}", (
+            f"Expected \\sqrt{{\\sigma{{}}}}, got {result!r}"
+        )
 
     @pytest.mark.anyio
     async def test_radical_with_index(self, tmp_path: PathLike[str]) -> None:
@@ -1385,8 +1387,8 @@ class TestTexHtmlToLatexRadical:
         )
         assert html.span is not None
         result = converter._texhtml_to_latex_sfrac(html.span)
-        assert result == r"\frac{\sqrt[4]{2}}{\sqrt{\sigma}}", (
-            f"Expected \\frac{{\\sqrt[4]{{2}}}}{{\\sqrt{{\\sigma}}}}, got {result!r}"
+        assert result == r"\frac{\sqrt[4]{2}}{\sqrt{\sigma{}}}", (
+            f"Expected \\frac{{\\sqrt[4]{{2}}}}{{\\sqrt{{\\sigma{{}}}}}}, got {result!r}"
         )
 
     @pytest.mark.anyio
@@ -1418,7 +1420,7 @@ class TestTexHtmlToLatexRadical:
         result = await converter.convert(
             html, out_to_archive=set(), redirect_map={}, refs=True
         )
-        assert r"\frac{\sqrt[4]{2} }{\sqrt{\sigma} }" in result, (
+        assert r"\frac{\sqrt[4]{2} }{\sqrt{\sigma{} } }" in result, (
             f"Expected \\frac in output, got: {result!r}"
         )
 
