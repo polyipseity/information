@@ -161,7 +161,7 @@ $$e^{i2\pi \xi _{0}x}f(x)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\
 
 #### time scaling
 
-$$f(ax)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\frac {1}{|a|} }{\widehat {f} }\left({\frac {\xi }{a} }\right);\quad \ a\neq 0$$The case $a=-1$ leads to the _time-reversal property_:$$f(-x)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\widehat {f} }(-\xi )$$
+$$f(ax)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\frac {1}{|a|} }{\widehat {f} }\left({\frac {\xi }{a} }\right);\quad \ a\neq 0$$ The case $a=-1$ leads to the _time-reversal property_: $$f(-x)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\widehat {f} }(-\xi )$$
 
 > ![svg version of the Fourier transforms of the unit pulse function](../../archives/Wikimedia%20Commons/Fourier%20unit%20pulse.svg)
 >
@@ -189,7 +189,7 @@ If $f$ is purely imaginary, then ${\widehat {f} }$ is [odd symmetric](even%20and
 
 #### real and imaginary parts
 
-$$\operatorname {Re} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2} }\left({\widehat {f} }(\xi )+{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$$$\operatorname {Im} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2i} }\left({\widehat {f} }(\xi )-{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$
+$$\operatorname {Re} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2} }\left({\widehat {f} }(\xi )+{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$ $$\operatorname {Im} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2i} }\left({\widehat {f} }(\xi )-{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$
 
 #### zero frequency component
 
