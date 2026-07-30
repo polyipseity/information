@@ -466,7 +466,7 @@ class TestSeparateBlockMath:
         assert "$$result$$" in result
 
     def test_collapsed_block_math_split(self) -> None:
-        """Adjacent ``$$…$$$$…$$`` at top level → split with space."""
+        """Adjacent ``$$…$$$$…$$`` at top level → split with one space."""
         assert _separate_block_math("$$A$$$$B$$") == "$$A$$ $$B$$"
 
     def test_collapsed_with_text_between(self) -> None:

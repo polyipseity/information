@@ -131,10 +131,10 @@ def _collect_block_math_info(
 
     for token, depth, parents in _walk_tokens(tokens, "block_math"):
         if depth == 0:
-            if "$$$$" in token["raw"]:
-                # Collapsed node: two or more adjacent $$...$$ blocks merged into
-                # one AST node.  Wrap in paragraph context and re-parse with
-                # Mistune to get individually-split inner spans.
+            if "$$" in token["raw"]:
+                # Collapsed node: Mistune merged multiple ``$$…$$`` spans on the
+                # same line into one block_math node.  Wrap in paragraph context
+                # and re-parse with Mistune to get individually-split spans.
                 raw = token["raw"]
                 wrapped = "w " + "$$" + raw + "$$" + " w"
                 result, _state = _MISTUNE_PARSER.parse(wrapped)
@@ -143,26 +143,29 @@ def _collect_block_math_info(
                     # Parse error — treat as normal standalone.
                     info.append((raw, False, False))
                 else:
-                    for t, d, p in _walk_tokens(result, "block_math"):
-                        if d > 0:  # Inside paragraph
-                            parent = p[-1]
-                            parent_children = parent.get("children", [])
-                            idx = next(
-                                i for i, ct in enumerate(parent_children) if ct is t
-                            )
-                            prev_sib = parent_children[idx - 1] if idx > 0 else None
+                    para = result[0] if isinstance(result, list) else None
+                    if para is None or para.get("type") != "paragraph":
+                        info.append((raw, False, False))
+                    else:
+                        children: list[dict[str, Any]] = para.get("children", [])
+                        prev_is_block_math = False
+                        for child in children:
+                            if child.get("type") != "block_math":
+                                prev_is_block_math = False
+                                continue
+                            idx = children.index(child)
+                            prev_sib = children[idx - 1] if idx > 0 else None
                             next_sib = (
-                                parent_children[idx + 1]
-                                if idx + 1 < len(parent_children)
-                                else None
+                                children[idx + 1] if idx + 1 < len(children) else None
                             )
-                            info.append(
-                                (
-                                    t["raw"],
-                                    _determine_needs_before(prev_sib),
-                                    _determine_needs_after(next_sib),
-                                )
-                            )
+                            needs_before = _determine_needs_before(prev_sib)
+                            if prev_is_block_math:
+                                # Previous block_math already adds the
+                                # separator space — avoid double spacing.
+                                needs_before = False
+                            needs_after = _determine_needs_after(next_sib)
+                            info.append((child["raw"], needs_before, needs_after))
+                            prev_is_block_math = True
             else:
                 info.append((token["raw"], False, False))
         else:
