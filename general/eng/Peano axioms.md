@@ -46,7 +46,7 @@ The remaining axioms {@{define the arithmetical properties of the natural number
 <!-- markdownlint-disable MD029 -->
 
 6. 6th axiom ::@:: For every natural number _n_, _S_(_n_) is a natural number. That is, the natural numbers are [closed](<closure%20(mathematics).md>) under _S_. <!--SR:!2028-01-15,943,342!2027-10-03,839,330-->
-7. 7th axiom ::@:: For all natural numbers _m_ and _n_, if _S_(_m_) = _S_(_n_), then _m_ = _n_. That is, _S_ is an [injection](injective%20function.md). <!--SR:!2028-10-03,1133,345!2026-08-12,532,325-->
+7. 7th axiom ::@:: For all natural numbers _m_ and _n_, if _S_(_m_) = _S_(_n_), then _m_ = _n_. That is, _S_ is an [injection](injective%20function.md). <!--SR:!2028-10-03,1133,345!fsrs,2032-05-15T00:00:00.000Z,2102,2102.3720548,1,2,10,0,0,2026-08-13T00:00:00.000Z-->
 8. 8th axiom ::@:: For every natural number _n_, _S_(_n_) = 0 is false. That is, there is no natural number whose successor is 0. <!--SR:!2027-10-11,870,345!2029-08-29,1427,365-->
 <!-- markdownlint-restore -->
 

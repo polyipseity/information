@@ -112,7 +112,7 @@ The content is in teaching order.
         - artificial intelligence / periods / 1974–1980 ::@:: the first AI winter <!--SR:!2027-02-01,610,330!fsrs,2031-01-15T10:14:58.423Z,1676,1675.8653818,1,2,10,0,0,2026-06-14T10:14:58.423Z-->
         - artificial intelligence / periods / 1980–1987 ::@:: AI boom <!--SR:!fsrs,2031-04-02T00:00:00.000Z,1727,1727.12458565,1,2,10,0,0,2026-07-10T00:00:00.000Z!fsrs,2031-05-01T00:00:00.000Z,1747,1747.2311683,1,2,10,0,0,2026-07-19T00:00:00.000Z-->
         - artificial intelligence / periods / 1987–1993 ::@:: the second AI winter <!--SR:!2026-08-24,481,312!fsrs,2030-04-07T00:00:00.000Z,1363,1363.24981016,2.88086152,2,10,0,0,2026-07-14T00:00:00.000Z-->
-        - artificial intelligence / periods / 1993–2011 ::@:: AI finally achieved some of its oldest goals, beginning to be adopted throughout the technology industry due to increasing computing power <!--SR:!2026-08-12,475,312!fsrs,2030-10-17T00:00:00.000Z,1537,1537.00837631,1.88024646,2,10,0,0,2026-08-02T00:00:00.000Z-->
+        - artificial intelligence / periods / 1993–2011 ::@:: AI finally achieved some of its oldest goals, beginning to be adopted throughout the technology industry due to increasing computing power <!--SR:!fsrs,2031-08-07T00:00:00.000Z,1820,1820.26175077,1,2,10,0,0,2026-08-13T00:00:00.000Z!fsrs,2030-10-17T00:00:00.000Z,1537,1537.00837631,1.88024646,2,10,0,0,2026-08-02T00:00:00.000Z-->
         - artificial intelligence / periods / 2011–present (2024) ::@:: artificial general intelligence, big data, deep learning <!--SR:!2028-05-28,1012,350!2027-06-08,695,310-->
     - artificial intelligence / history
         - artificial intelligence / history / 1950 ::@:: English mathematician and computer scientist Alan Turing: __Can machines think?__ (_Computing Machinery and Intelligence_) __How would we know if we have succeeded?__ <p> He also predicted by 2000, a machine might have a 30% of fooling a layman for 5 minutes. <!--SR:!2027-02-04,613,330!2028-09-12,1083,350-->
@@ -601,7 +601,7 @@ ID: 23456789
     - _k_-nearest neighbors algorithm / applications ::@:: fast content-based image retrieval, fault detection for semiconductor manufacturing processes, handwritten character classification, intrusion detection <!--SR:!2027-04-15,666,330!2027-01-05,583,330-->
 - supplementary notes
     - [confusion matrix](../../../../general/confusion%20matrix.md)
-    - true positive (TP) ::@:: It refers to the number of predictions where the classifier correctly predicts the positive class as positive. <!--SR:!2027-04-14,682,409!2026-08-12,482,389-->
+    - true positive (TP) ::@:: It refers to the number of predictions where the classifier correctly predicts the positive class as positive. <!--SR:!2027-04-14,682,409!fsrs,2032-09-12T00:00:00.000Z,2222,2222.23508615,1,2,10,0,0,2026-08-13T00:00:00.000Z-->
     - true negative (TN) ::@:: It refers to the number of predictions where the classifier correctly predicts the negative class as negative. <!--SR:!2027-02-24,633,409!2027-03-22,659,409-->
     - false positive (FP) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the negative class as positive. <!--SR:!2032-05-03,2184,409!2027-03-24,661,409-->
     - false negative (FN) ::@:: It refers to the number of predictions where the classifier incorrectly predicts the positive class as negative. <!--SR:!2027-03-20,657,409!2027-04-17,685,409-->
@@ -934,7 +934,7 @@ ID: 23456789
     - image operations / global ::@:: The output value at a specific coordinate is dependent on _all the values_ in the input image. <!--SR:!fsrs,2032-09-23T00:00:00.000Z,2238,2238.24127719,1,2,10,0,0,2026-08-08T00:00:00.000Z!2031-06-27,1926,401-->
 - image operations
     - image operations / point
-        - image operations / point / examples ::@:: brightness adjustment, contrast stretching, gamma correction, grayscale threshold, histogram equalization <!--SR:!2026-08-12,490,402!2031-01-27,1805,406-->
+        - image operations / point / examples ::@:: brightness adjustment, contrast stretching, gamma correction, grayscale threshold, histogram equalization <!--SR:!fsrs,2032-10-14T00:00:00.000Z,2254,2254.23087863,1,2,10,0,0,2026-08-13T00:00:00.000Z!2031-01-27,1805,406-->
         - brightness adjustment ::@:: Make images brighter or dimmer. (Optional (or is it?)) <!--SR:!2026-09-16,517,398!2026-09-16,521,406-->
             - brightness adjustment / algorithm ::@:: A possible algorithm is simply multiplying the intensity by a factor, clipping in between \[0, 1\] or \[0, 255\] if necessary. <!--SR:!2026-09-11,516,406!2026-09-18,523,406-->
         - contrast stretching ::@:: Adjust the contrast of images. It attempts to improve an image by _stretching the range of intensity values_. <!--SR:!fsrs,2032-10-07T00:00:00.000Z,2250,2250.23504184,1,2,10,0,0,2026-08-10T00:00:00.000Z!2026-10-22,551,406-->
@@ -963,7 +963,7 @@ ID: 23456789
     - image operations / local
         - image operations / local / neighborhood types ::@:: Some of the most common neighborhoods are _4-connected neighborhood_ (looks like a plus sign consisting of 5 pixels) and _8-connected neighborhood_ (3-by-3 square). <!--SR:!fsrs,2032-08-18T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-07-31T00:00:00.000Z!2031-03-21,1848,405-->
         - image operations / local / examples ::@:: edge detection, sharpening, smoothing <!--SR:!2031-03-14,1826,406!2026-09-29,530,399-->
-        - [edge detection](../../../../general/edge%20detection.md) ::@::  It detects the boundaries (edges) of objects, or regions within an image. <!--SR:!fsrs,2032-06-14T00:00:00.000Z,2158,2158.04303497,1,2,10,0,0,2026-07-18T00:00:00.000Z!2026-08-12,492,405-->
+        - [edge detection](../../../../general/edge%20detection.md) ::@::  It detects the boundaries (edges) of objects, or regions within an image. <!--SR:!fsrs,2032-06-14T00:00:00.000Z,2158,2158.04303497,1,2,10,0,0,2026-07-18T00:00:00.000Z!fsrs,2032-10-22T00:00:00.000Z,2262,2262.21980759,1,2,10,0,0,2026-08-13T00:00:00.000Z-->
         - [sharpening](../../../../general/deblurring.md) ::@:: It removes blur, enhances details, and dehazes. <!--SR:!2031-11-11,2029,406!fsrs,2032-06-21T00:00:00.000Z,2166,2166.08190138,1,2,10,0,0,2026-07-17T00:00:00.000Z-->
         - [smoothing](../../../../general/smoothing.md) ::@:: It removes noise and softens edges and corners of the image. It is also called blurring. <!--SR:!2026-08-17,497,406!fsrs,2032-09-17T00:00:00.000Z,2234,2234.24126267,1,2,10,0,0,2026-08-06T00:00:00.000Z-->
 - [kernel](../../../../general/kernel%20(image%20processing).md) ::@:: Given an infinite input image $I$ and an infinite _kernel_ $K$, image convolution is $$O(x, y) = \sum_{m = -\infty}^{+\infty} \sum_{n = -\infty}^{+\infty} K(m, n) I(x - m, y - n) = \sum_{m = -\infty}^{+\infty} \sum_{n = -\infty}^{+\infty} K(x - m, y - n) I(x, y) \,.$$ <!--SR:!2031-10-28,2005,406!2026-09-03,510,405-->

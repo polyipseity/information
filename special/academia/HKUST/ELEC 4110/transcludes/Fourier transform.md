@@ -99,7 +99,7 @@ The Fourier transform has {@{the following basic properties}@}:<sup>[\[15\]](#^r
 
 #### time shifting
 
-\(annotation: time shifting\) ::@:: $$f(x-x_{0})\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ e^{-i2\pi x_{0}\xi }\ {\widehat {f} }(\xi );\quad \ x_{0}\in \mathbb {R}$$ <!--SR:!2027-05-26,443,381!2026-08-12,190,338-->
+\(annotation: time shifting\) ::@:: $$f(x-x_{0})\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ e^{-i2\pi x_{0}\xi }\ {\widehat {f} }(\xi );\quad \ x_{0}\in \mathbb {R}$$ <!--SR:!2027-05-26,443,381!fsrs,2029-01-26T00:00:00.000Z,897,896.54148767,1,2,9,0,0,2026-08-13T00:00:00.000Z-->
 
 #### frequency shifting
 

@@ -10,7 +10,7 @@ tags:
 
 ## formal definition
 
-Area can be defined {@{from [axioms](axiom.md)}@}. Area is {@{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability}@}, to {@{the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}@}: (annotation: 6 items: {@{congruence, nonnegativity, rectangle}@}, {@{squeezing, subtraction, union and intersection}@}) <!--SR:!2026-09-30,728,330!2031-06-13,1910,290!fsrs,2027-10-02T00:00:00.000Z,457,457.33908222,1,2,7,0,0,2026-07-02T00:00:00.000Z!2026-08-12,91,365!2026-08-14,93,365-->
+Area can be defined {@{from [axioms](axiom.md)}@}. Area is {@{a [function](function%20(mathematics).md) from a collection $M$ of measurable sets, for some definition of measurability}@}, to {@{the set of real numbers $\mathbb{R}$ ($a: M \to \mathbb{R}$) satisfying the following properties}@}: (annotation: 6 items: {@{congruence, nonnegativity, rectangle}@}, {@{squeezing, subtraction, union and intersection}@}) <!--SR:!2026-09-30,728,330!2031-06-13,1910,290!fsrs,2027-10-02T00:00:00.000Z,457,457.33908222,1,2,7,0,0,2026-07-02T00:00:00.000Z!fsrs,2028-01-14T00:00:00.000Z,519,519.29815561,1,2,8,0,0,2026-08-13T00:00:00.000Z!2026-08-14,93,365-->
 
 - [congruence](congruence%20(geometry).md) ::@:: If a set $S$ in $M$ is congruent (same shape and size) to $T$, then $T$ is in $M$ and $a(T) = a(S)$. <!--SR:!2026-11-19,765,330!fsrs,2027-10-02T00:00:00.000Z,457,457.33908222,1,2,7,0,0,2026-07-02T00:00:00.000Z-->
 - nonnegativity ::@:: For all set $S$ in $M$, $a(S) \ge 0$. <!--SR:!2028-02-18,1147,350!fsrs,2027-10-02T00:00:00.000Z,457,457.33908222,1,2,7,0,0,2026-07-02T00:00:00.000Z-->

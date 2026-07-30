@@ -128,7 +128,7 @@ Since {@{virtually every calculation in quantum mechanics}@} involves {@{vectors
 
 On {@{the left-hand side}@}, {@{Ψ\(__r__\)}@} is {@{a function mapping any point in space to a complex number}@}; on {@{the right-hand side}@}, {@{$$\left|\Psi \right\rangle =\int d^{3}\mathbf {r} \,\Psi (\mathbf {r} )\left|\mathbf {r} \right\rangle$$}@} is {@{a ket}@} consisting of {@{a superposition of kets}@} with {@{relative coefficients specified by that function}@}. <!--SR:!2027-04-16,440,381!2027-05-09,463,381!2027-05-04,459,381!2027-10-17,599,409!2027-04-01,426,381!2027-03-26,420,381!2027-07-16,523,401!2027-04-08,432,381-->
 
-It is then {@{customary to define linear operators acting on wavefunctions}@} in terms of {@{linear operators acting on kets}@}, by {@{$${\hat {A} }(\mathbf {r} )~\Psi (\mathbf {r} )\ {\stackrel {\text{def} }{=} }\ \langle \mathbf {r} |{\hat {A} }|\Psi \rangle \,.$$}@} <!--SR:!2026-08-12,220,341!2027-04-12,437,381!2027-02-17,377,381-->
+It is then {@{customary to define linear operators acting on wavefunctions}@} in terms of {@{linear operators acting on kets}@}, by {@{$${\hat {A} }(\mathbf {r} )~\Psi (\mathbf {r} )\ {\stackrel {\text{def} }{=} }\ \langle \mathbf {r} |{\hat {A} }|\Psi \rangle \,.$$}@} <!--SR:!fsrs,2029-06-06T00:00:00.000Z,1028,1028.15546043,1,2,9,0,0,2026-08-13T00:00:00.000Z!2027-04-12,437,381!2027-02-17,377,381-->
 
 For instance, {@{the [momentum](momentum.md) operator ${\hat {\mathbf {p} } }$}@} has {@{the following coordinate representation}@}, {@{$${\hat {\mathbf {p} } }(\mathbf {r} )~\Psi (\mathbf {r} )\ {\stackrel {\text{def} }{=} }\ \langle \mathbf {r} |{\hat {\mathbf {p} } }|\Psi \rangle =-i\hbar \nabla \Psi (\mathbf {r} )\,.$$}@} <!--SR:!2027-07-29,534,401!2027-07-31,536,401!2027-04-13,380,321-->
 

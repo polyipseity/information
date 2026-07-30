@@ -439,7 +439,7 @@ Another example is {@{the __[branching process](branching%20process.md)__}@},<su
 
 3. \(c.\) {@{The definition of separability}@} for {@{a continuous-time real-valued stochastic process}@} can be {@{stated in other ways}@}.<sup>[\[172\]](#^ref-172)</sup><sup>[\[173\]](#^ref-173)</sup> <a id="^ref-c"></a>^ref-c <!--SR:!2027-11-14,771,336!2030-07-10,1621,376!2028-04-16,758,423-->
 
-4. \(d.\) In the context of {@{point processes}@}, {@{the term "state space"}@} can mean {@{the space on which the point process is defined such as the real line}@},<sup>[\[234\]](#^ref-234)</sup><sup>[\[235\]](#^ref-235)</sup> which corresponds to {@{the index set in stochastic process terminology}@}. <a id="^ref-d"></a>^ref-d <!--SR:!2027-04-11,654,336!2030-09-25,1684,376!2026-08-12,454,310!2028-05-02,967,356-->
+4. \(d.\) In the context of {@{point processes}@}, {@{the term "state space"}@} can mean {@{the space on which the point process is defined such as the real line}@},<sup>[\[234\]](#^ref-234)</sup><sup>[\[235\]](#^ref-235)</sup> which corresponds to {@{the index set in stochastic process terminology}@}. <a id="^ref-d"></a>^ref-d <!--SR:!2027-04-11,654,336!2030-09-25,1684,376!fsrs,2031-05-16T00:00:00.000Z,1737,1737.18177311,1,2,10,0,0,2026-08-13T00:00:00.000Z!2028-05-02,967,356-->
 
 5. \(e.\) Also known as James or Jacques Bernoulli.<sup>[\[244\]](#^ref-244)</sup> <a id="^ref-e"></a>^ref-e
 

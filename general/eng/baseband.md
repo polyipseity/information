@@ -33,7 +33,7 @@ A baseband signal may have {@{frequency components}@} going {@{all the way down 
 
 ### digital baseband transmission
 
-- Main article: ::@:: [Line code](line%20code.md) <!--SR:!2026-08-23,270,330!2026-08-12,261,330-->
+- Main article: ::@:: [Line code](line%20code.md) <!--SR:!2026-08-23,270,330!fsrs,2029-10-05T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-08-13T00:00:00.000Z-->
 
 {@{Digital baseband transmission, also known as [line coding](line%20coding.md)}@},<sup>[\[5\]](#^ref-5)</sup> aims at {@{transferring a digital bit stream over baseband channel}@}, typically {@{an unfiltered wire}@}, contrary to {@{[passband](passband.md) transmission, also known as _carrier-modulated_ transmission}@}.<sup>[\[6\]](#^ref-6)</sup> {@{Passband transmission}@} makes communication {@{possible over a bandpass filtered channel}@}, such as {@{the telephone network local-loop or a band-limited wireless channel}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-08-20,268,330!2026-09-17,290,330!fsrs,2029-07-30T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-07-27T00:00:00.000Z!2026-08-15,263,330!fsrs,2029-06-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-17T00:00:00.000Z!2026-09-15,288,330!fsrs,2029-09-03T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-04T00:00:00.000Z-->
 

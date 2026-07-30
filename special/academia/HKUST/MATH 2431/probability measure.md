@@ -34,10 +34,10 @@ When $\Omega$ is finite and $\mathcal{F} = \mathcal{P}(\Omega)$, the _uniform di
 
 Flashcards for this section are as follows:
 
-- uniform distribution on a finite sample space ::@:: $P[A] = |A|/|\Omega|$ for $A \subseteq \Omega$; each outcome has probability $1/|\Omega|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-08-12,72,323!fsrs,2027-07-04T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-08-08T00:00:00.000Z-->
+- uniform distribution on a finite sample space ::@:: $P[A] = |A|/|\Omega|$ for $A \subseteq \Omega$; each outcome has probability $1/|\Omega|$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-07-04T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-08-08T00:00:00.000Z-->
 - Laplace probability space ::@:: Probability space with finite $\Omega$, $\mathcal{F} = \mathcal{P}(\Omega)$, and uniform $P$; "equally likely outcomes". <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-07-04T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-08-08T00:00:00.000Z!2026-08-13,73,323-->
 - two-roll fair-die Laplace space ::@:: For two independent rolls of a fair die, $\Omega = \{1,\ldots,6\}^2$, $|\Omega| = 36$, and $P[A] = |A|/36$ under the uniform distribution. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-08-14,74,323!fsrs,2027-07-04T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-08-08T00:00:00.000Z-->
-- two-roll fair-die example / probability of at least one 6 ::@:: In the two-roll die experiment, the event $B$ ("at least one 6") has 11 outcomes, so $P[B] = 11/36$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2026-08-12,72,323!2026-08-13,73,323-->
+- two-roll fair-die example / probability of at least one 6 ::@:: In the two-roll die experiment, the event $B$ ("at least one 6") has 11 outcomes, so $P[B] = 11/36$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z!2026-08-13,73,323-->
 
 ## elementary properties
 

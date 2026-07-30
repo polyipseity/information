@@ -99,7 +99,7 @@ Flashcards for this section are as follows:
 - what subnetwork selection means in dropout ::@:: A dropout mask selects an active induced subgraph of the full network, so each minibatch trains one sampled subnetwork inside a larger shared super-network. <!--SR:!2026-08-16,76,336!2026-08-13,73,319-->
 - why literal neural-network bagging is impractical ::@:: Training many independent deep networks would be too computationally expensive, which is why dropout uses parameter sharing instead of separate full models. <!--SR:!fsrs,2027-08-06T00:00:00.000Z,359,358.6740155,1,2,7,0,0,2026-08-12T00:00:00.000Z!fsrs,2027-07-21T00:00:00.000Z,346,345.6286996,1,2,7,0,0,2026-08-09T00:00:00.000Z-->
 - why dropout is only an approximation to bagging ::@:: Dropout is only an approximation to bagging because the subnetworks share parameters, are trained inside one run, and are not independently fit on separate bootstrap datasets. <!--SR:!2026-08-13,73,319!2026-08-24,84,352-->
-- complex co-adaptations in dropout ::@:: Complex co-adaptations are brittle dependencies in which a unit becomes useful only when a very specific set of partner units is also active; dropout discourages such fragile teamwork. <!--SR:!2026-08-12,72,319!2026-08-15,77,336-->
+- complex co-adaptations in dropout ::@:: Complex co-adaptations are brittle dependencies in which a unit becomes useful only when a very specific set of partner units is also active; dropout discourages such fragile teamwork. <!--SR:!fsrs,2027-08-11T00:00:00.000Z,363,363.00681025,1,2,7,0,0,2026-08-13T00:00:00.000Z!2026-08-15,77,336-->
 - how dropout and SGD create rough subnetwork bagging ::@:: On each minibatch, dropout samples a mask, trains the corresponding subnetwork by SGD on shared parameters, then resamples on the next minibatch, so repeated updates behave like rough stochastic subnetwork selection and approximate ensemble training. <!--SR:!2026-08-16,76,336!2026-08-24,84,352-->
 
 ### masking, minibatches, and test-time scaling
@@ -159,7 +159,7 @@ Flashcards for this section are as follows:
 
 - SGD in deep learning / update $\theta_{t+1}=\theta_t-\eta g_t$ ::@:: If $g_t=\frac{1}{B}\sum_{i\in\mathcal B_t}\nabla_\theta \ell_i(\theta_t)$ is the minibatch gradient, then vanilla SGD updates by $\theta_{t+1}=\theta_t-\eta g_t$. <!--SR:!2026-08-17,77,336!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z-->
 - why deep optimization is hard ::@:: Deep-learning optimization is hard because the loss landscape is high-dimensional, noisy, and often poorly conditioned. <!--SR:!fsrs,2027-07-05T00:00:00.000Z,346,345.6286996,1,2,7,0,0,2026-07-24T00:00:00.000Z!2026-08-25,85,352-->
-- two layers of optimizer design ::@:: Optimizer design has an inner layer that changes direction or coordinatewise scaling inside one step, and an outer layer that changes the global learning rate across training. <!--SR:!2026-08-13,73,336!2026-08-12,72,336-->
+- two layers of optimizer design ::@:: Optimizer design has an inner layer that changes direction or coordinatewise scaling inside one step, and an outer layer that changes the global learning rate across training. <!--SR:!2026-08-13,73,336!fsrs,2027-09-03T00:00:00.000Z,386,385.94552327,1,2,7,0,0,2026-08-13T00:00:00.000Z-->
 - optimizer choice matters ::@:: Different optimizers can produce very different training behavior even when the model and data are unchanged. <!--SR:!2026-08-17,77,336!2026-08-17,77,336-->
 
 ### optimizer-state initialization
@@ -197,10 +197,10 @@ For a tiny numeric example, let $\beta=0.9$, previous velocity $v_{t-1}=-0.4$, c
 
 Flashcards for this section are as follows:
 
-- momentum as particle analogy ::@:: Momentum treats the parameter vector as a particle whose motion depends not only on the current gradient but also on an accumulated velocity. <!--SR:!2026-08-16,76,336!2026-08-12,72,336-->
+- momentum as particle analogy ::@:: Momentum treats the parameter vector as a particle whose motion depends not only on the current gradient but also on an accumulated velocity. <!--SR:!2026-08-16,76,336!fsrs,2027-09-03T00:00:00.000Z,386,385.94552327,1,2,7,0,0,2026-08-13T00:00:00.000Z-->
 - classical momentum update equations / $v_t=\beta v_{t-1}-\eta g_t$, $\theta_{t+1}=\theta_t+v_t$ ::@:: In one common form, momentum uses $v_t=\beta v_{t-1}-\eta g_t$ and $\theta_{t+1}=\theta_t+v_t$, so the update mixes the current gradient with past velocity. <!--SR:!2026-08-15,77,336!2026-08-21,81,352-->
 - why momentum reduces zig-zagging ::@:: Momentum smooths the update direction by averaging gradients over time, which reduces oscillation across steep narrow directions. <!--SR:!2026-08-25,85,352!2026-08-17,77,336-->
-- classical momentum versus Adam first moment ::@:: Classical momentum stores a velocity-like step state $v_t$, whereas Adam stores a gradient-average state $m_t=\beta_1 m_{t-1}+(1-\beta_1)g_t$ that is later bias-corrected and adaptively rescaled. <!--SR:!2026-08-12,72,319!2026-08-16,76,336-->
+- classical momentum versus Adam first moment ::@:: Classical momentum stores a velocity-like step state $v_t$, whereas Adam stores a gradient-average state $m_t=\beta_1 m_{t-1}+(1-\beta_1)g_t$ that is later bias-corrected and adaptively rescaled. <!--SR:!fsrs,2027-08-11T00:00:00.000Z,363,363.00681025,1,2,7,0,0,2026-08-13T00:00:00.000Z!2026-08-16,76,336-->
 - Adam first-moment formula ::@:: Adam's momentum-like component is $m_t=\beta_1 m_{t-1}+(1-\beta_1)g_t$, which is an exponentially weighted average of gradients rather than a full parameter-step vector. <!--SR:!2026-08-16,76,336!2026-08-24,84,352-->
 - why Adam's first moment is not literally classical momentum ::@:: Adam's $m_t$ is not itself the final step because it must still be bias-corrected and divided by the adaptive denominator $\sqrt{\hat v_t}+\varepsilon$. <!--SR:!2026-08-17,77,336!2026-08-16,76,336-->
 - typical momentum coefficients $0.5$, $0.9$, and $0.99$ ::@:: The lecture notes typical momentum hyperparameters such as $0.5$, $0.9$, and $0.99$. <!--SR:!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z!fsrs,2027-05-13T00:00:00.000Z,289,289.38159789,1,2,7,0,0,2026-07-28T00:00:00.000Z-->
@@ -302,10 +302,10 @@ Flashcards for this section are as follows:
 - scheduled or step decay / $\eta_t=\eta_0\alpha^{m(t)}$ ::@:: In scheduled decay, the learning rate stays constant between milestones and drops by a fixed factor, for example $\eta_t=\eta_0\alpha^{m(t)}$. <!--SR:!2026-08-17,77,336!2026-08-24,84,352-->
 - graph of scheduled decay ::@:: The graph of scheduled decay is a staircase: flat plateaus followed by sudden downward jumps at chosen milestones. <!--SR:!2026-08-13,73,319!2026-08-24,84,352-->
 - exponential decay / $\eta_t=\eta_0\gamma^t$ or $\eta_t=\eta_0 e^{-kt}$ ::@:: Exponential decay shrinks the learning rate smoothly over time, for example as $\eta_t=\eta_0\gamma^t$ with $\gamma\in(0,1)$. <!--SR:!2026-08-24,84,352!2026-08-13,75,336-->
-- graph of exponential decay ::@:: The graph of exponential decay is a smooth monotone downward curve that falls quickly at first and then gradually flattens. <!--SR:!2026-08-12,72,336!2026-08-15,75,336-->
+- graph of exponential decay ::@:: The graph of exponential decay is a smooth monotone downward curve that falls quickly at first and then gradually flattens. <!--SR:!fsrs,2027-09-03T00:00:00.000Z,386,385.94552327,1,2,7,0,0,2026-08-13T00:00:00.000Z!2026-08-15,75,336-->
 - scheduled decay versus exponential decay ::@:: Scheduled decay uses discrete regime changes at chosen milestones, whereas exponential decay shrinks the learning rate continuously at every step. <!--SR:!2026-08-15,75,336!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z-->
 - given initial learning rate $\eta_0=0.1$, step-decay factor $\alpha=0.1$, and milestones at epochs $10$ and $20$, what is $\eta_{17}$? ::@:: Because epoch $17$ is after one milestone but before the second, $\eta_{17}=0.1\cdot 0.1=0.01$. <!--SR:!2026-08-17,77,336!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z-->
-- given exponential decay $\eta_t=0.1\cdot 0.9^t$, what is $\eta_3$? ::@:: We get $\eta_3=0.1\cdot 0.9^3=0.0729$. <!--SR:!2026-08-17,77,336!2026-08-12,72,319-->
+- given exponential decay $\eta_t=0.1\cdot 0.9^t$, what is $\eta_3$? ::@:: We get $\eta_3=0.1\cdot 0.9^3=0.0729$. <!--SR:!2026-08-17,77,336!fsrs,2027-08-11T00:00:00.000Z,363,363.00681025,1,2,7,0,0,2026-08-13T00:00:00.000Z-->
 
 ### cosine annealing and warm restarts
 
@@ -326,7 +326,7 @@ Flashcards for this section are as follows:
 - warm restart ::@:: In a warm restart, the learning rate is reset to a larger value while the learned weights are kept, so the optimizer gets a fresh large-step phase without restarting training from scratch. <!--SR:!2026-08-15,75,336!2026-08-25,85,352-->
 - graph of cosine annealing with warm restarts ::@:: With warm restarts, the graph is a sequence of cosine arches separated by sudden upward jumps in the learning rate. <!--SR:!2026-08-16,76,336!2026-08-16,76,336-->
 - why warm restarts can help ::@:: Warm restarts can help the optimizer escape a narrow local region by re-energizing the learning rate while keeping the current learned parameters. <!--SR:!2026-08-24,84,352!2026-08-17,77,336-->
-- given cosine annealing with $\eta_{\min}=0$, $\eta_{\max}=0.1$, and $T=10$, what is the learning rate at the midpoint $t=5$? ::@:: We get $\eta_5=\tfrac12(0.1)(1+\cos(\pi/2))=0.05$. <!--SR:!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z!2026-08-12,72,336-->
+- given cosine annealing with $\eta_{\min}=0$, $\eta_{\max}=0.1$, and $T=10$, what is the learning rate at the midpoint $t=5$? ::@:: We get $\eta_5=\tfrac12(0.1)(1+\cos(\pi/2))=0.05$. <!--SR:!fsrs,2027-07-26T00:00:00.000Z,350,349.9850955,1,2,7,0,0,2026-08-10T00:00:00.000Z!fsrs,2027-09-03T00:00:00.000Z,386,385.94552327,1,2,7,0,0,2026-08-13T00:00:00.000Z-->
 
 ## batch normalization
 
@@ -431,7 +431,7 @@ So adaptive batch normalization is one more reminder that batch-normalization st
 
 Flashcards for this section are as follows:
 
-- covariate shift ::@:: Covariate shift means the input distribution changes across domains while the task relationship remains similar enough that a source-trained model may still be useful after adaptation. <!--SR:!2026-08-16,76,336!2026-08-12,72,319-->
+- covariate shift ::@:: Covariate shift means the input distribution changes across domains while the task relationship remains similar enough that a source-trained model may still be useful after adaptation. <!--SR:!2026-08-16,76,336!fsrs,2027-08-11T00:00:00.000Z,363,363.00681025,1,2,7,0,0,2026-08-13T00:00:00.000Z-->
 - adaptive batch normalization ::@:: Adaptive batch normalization re-estimates batch-normalization statistics on target-domain data while keeping most of the learned network parameters fixed. <!--SR:!2026-08-16,76,336!2026-08-23,83,352-->
 - why adaptive batch normalization can help under covariate shift ::@:: If the main representations remain useful but the feature statistics have shifted, updating batch-normalization means and variances can align the model better with the target domain without full retraining. <!--SR:!2026-08-14,74,336!fsrs,2027-07-31T00:00:00.000Z,354,354.33348306,1,2,7,0,0,2026-08-11T00:00:00.000Z-->
 - why batch-normalization statistics matter for domain adaptation ::@:: Batch-normalization statistics are part of the model's effective behavior, so changing them can change how the network interprets activations in a new domain. <!--SR:!2026-08-21,81,352!2026-08-23,83,352-->

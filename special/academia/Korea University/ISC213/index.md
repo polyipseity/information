@@ -80,7 +80,7 @@ The content is in teaching order.
 - topic: global e-business, collaboration
 - [business process](../../../../general/business%20process.md) ::@:: It is a collection of related, structured activities or tasks performed by people or equipment in which a specific sequence produces a service or product \(that serves a particular business goal\) for a particular customer or customers. <!--SR:!2026-09-25,344,348!2026-08-31,322,348-->
     - business process / brief ::@:: a set of activities to flow material, information, and knowledge <!--SR:!2026-09-17,337,348!2026-08-17,312,348-->
-    - business process / business ::@:: a collection of business processes <!--SR:!2026-08-12,306,348!2026-09-27,346,348-->
+    - business process / business ::@:: a collection of business processes <!--SR:!fsrs,2030-06-13T00:00:00.000Z,1400,1400.28887431,1,2,9,0,0,2026-08-13T00:00:00.000Z!2026-09-27,346,348-->
     - business process / types ::@:: functional, cross-functional <!--SR:!2026-09-24,343,348!2026-08-18,313,348-->
         - business process / types / analogy ::@:: These functions are described as "silos" \("functional"\), because things can only move vertically. But this is not good, because business processes often need to move horizontally across departments \("cross-functional"\). <p> \(__this course__: in midterm examination\) <!--SR:!2027-12-02,690,415!2027-08-26,616,415-->
     - business process / functions ::@:: finance and accounting, human resources, manufacturing and production, sales and marketing, etc. <!--SR:!2026-09-20,340,348!2026-08-16,311,348-->
@@ -164,7 +164,7 @@ The content is in teaching order.
     - organization / agency theory ::@:: People in an organization are self-interested. As people \(agents\) in an organization often work on behalf of others \(principals\) bound by contracts, self-interests may misalign agents and principals, incurring _agency costs_. This is especially high when information or self-interests between agents and principals misalign. <!--SR:!2026-12-10,410,369!2026-11-07,383,369-->
     - organization / transaction cost theory ::@:: Many transactions occur in an organization. Each transaction may incur a _transaction cost_. <!--SR:!2026-12-07,408,369!2026-11-22,396,369-->
 - [factors of production](../../../../general/factors%20of%20production.md) ::@:: They are what is used in the production process to produce output—that is, goods and services. <!--SR:!2026-08-17,297,349!2026-12-15,415,369-->
-    - factors of production / factors ::@:: Land, labor, and capital are traditional factors. Entrepreneurship is a commonly added fourth factor. Knowledge \(e.g. information technology\) is a fifth factor proposed by Peter Drucker. <!--SR:!2026-08-12,291,349!2026-12-01,403,369-->
+    - factors of production / factors ::@:: Land, labor, and capital are traditional factors. Entrepreneurship is a commonly added fourth factor. Knowledge \(e.g. information technology\) is a fifth factor proposed by Peter Drucker. <!--SR:!fsrs,2028-12-14T00:00:00.000Z,854,853.66398295,1.78094087,2,9,0,0,2026-08-13T00:00:00.000Z!2026-12-01,403,369-->
 
 ## week 2 lecture 1
 
