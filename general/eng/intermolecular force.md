@@ -49,7 +49,7 @@ return await memorize_table(
 
 - _(strongest)_→::@::←[covalent bond](covalent%20bond.md) <!--SR:!2027-06-22,1198,350!2027-03-03,1114,350-->
 - [covalent bond](covalent%20bond.md)→::@::←[hydrogen bond](hydrogen%20bond.md) <!--SR:!2026-11-10,946,330!2028-04-05,1425,350-->
-- [hydrogen bond](hydrogen%20bond.md)→::@::←[London dispersion force](London%20dispersion%20force.md) <!--SR:!2027-07-15,1218,350!2026-08-13,883,330-->
+- [hydrogen bond](hydrogen%20bond.md)→::@::←[London dispersion force](London%20dispersion%20force.md) <!--SR:!2027-07-15,1218,350!fsrs,2035-09-27T00:00:00.000Z,3331,3331.20183445,1,2,11,0,0,2026-08-14T00:00:00.000Z-->
 - [London dispersion force](London%20dispersion%20force.md)→::@::←_(weakest)_ <!--SR:!2028-08-06,1523,350!2027-04-06,1137,350-->
 
 <!--/pytextgen-->

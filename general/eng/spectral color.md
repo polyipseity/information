@@ -149,7 +149,7 @@ The spectral colors have a range of {@{[wavelength](wavelength.md) 380–750 [nm
 
 <!--pytextgen generate section="e224"--><!-- The following content is generated at 2024-01-04T20:17:52.828152+08:00. Any edits will be overridden! -->
 
-- 2.75–3.26:@:<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md) <!--SR:!2026-08-13,761,343-->
+- 2.75–3.26:@:<span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md) <!--SR:!fsrs,2034-12-18T00:00:00.000Z,3048,3048.20856804,1,2,11,0,0,2026-08-14T00:00:00.000Z-->
 - 2.56–2.75:@:<span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md) <!--SR:!2028-12-04,1216,283-->
 - 2.48–2.56:@:<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md) <!--SR:!2028-07-24,1054,263-->
 - 2.19–2.48:@:<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md) <!--SR:!2027-04-17,497,223-->

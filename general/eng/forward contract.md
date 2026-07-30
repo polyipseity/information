@@ -132,7 +132,7 @@ where $y\%p.a$. is {@{the convenience yield over the life of the contract}@}. Si
 
 In other words, {@{the expected payoff to the speculator at maturity}@} is: <p> {@{$E(S_{T}-K)=E(S_{T})-K$}@}, where {@{$K$ is the delivery price at maturity}@} <!--SR:!2026-09-27,266,330!2026-09-24,263,330!2026-10-15,284,330-->
 
-Thus, if {@{the speculators expect to profit}@}, {@{$E(S_{T})-K>0$ <br/> $E(S_{T})>K$ <br/> $E(S_{T})>F_{0}$}@}, as {@{$K=F_{0}$ when they enter the contract}@} <!--SR:!2026-10-18,287,330!2026-09-14,253,330!2026-08-13,237,330-->
+Thus, if {@{the speculators expect to profit}@}, {@{$E(S_{T})-K>0$ <br/> $E(S_{T})>K$ <br/> $E(S_{T})>F_{0}$}@}, as {@{$K=F_{0}$ when they enter the contract}@} <!--SR:!2026-10-18,287,330!2026-09-14,253,330!fsrs,2029-07-06T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-14T00:00:00.000Z-->
 
 {@{This market situation}@}, where {@{$E(S_{T})>F_{0}$}@}, is referred to as {@{[normal backwardation](normal%20backwardation.md)}@}. {@{Forward/futures prices}@} {@{converge with the spot price at maturity}@}, as can be seen from {@{the previous relationships}@} by {@{letting T go to 0}@} \(see also {@{[basis](basis%20(options).md)}@}\); then {@{normal backwardation}@} implies that {@{futures prices for a certain maturity are increasing over time}@}. {@{The opposite situation}@}, where {@{$E(S_{T})<F_{0}$}@}, is referred to as {@{[contango](contango.md)}@}. Likewise, {@{contango}@} implies that {@{futures prices for a certain maturity are falling over time}@}.<sup>[\[6\]](#^ref-6)</sup> <!--SR:!2028-05-25,728,330!2026-10-14,283,330!fsrs,2029-05-22T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-04T00:00:00.000Z!2026-09-05,244,330!2026-08-29,251,330!2026-09-06,245,330!2026-10-04,273,330!2026-10-24,293,330!2026-09-09,248,330!2028-06-05,738,330!2026-09-21,260,330!fsrs,2029-06-21T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-11T00:00:00.000Z!2026-10-23,292,330!2026-10-02,271,330!2026-09-05,244,330-->
 
@@ -152,13 +152,13 @@ Compared to {@{their futures counterparts}@}, {@{forwards \(especially [Forward 
 
 Conversely, in {@{markets with easily accessible spot prices or basis rates}@}, in particular {@{the [Foreign exchange market](foreign%20exchange%20market.md) and [OIS market](overnight%20indexed%20swap.md)}@}, forwards are usually {@{quoted using premium points or forward points}@}. That is using {@{the spot price or basis rate as reference}@} forwards are quoted as {@{the difference in [pips](percentage%20in%20point.md) between the outright price and the spot price}@} for {@{FX}@}, or {@{the difference in [basis points](basis%20point.md) between the forward rate and the basis rate}@} for {@{interest rate swaps and forward rate agreements}@}.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!2026-09-15,254,330!2026-09-05,244,330!fsrs,2029-06-25T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-08-11T00:00:00.000Z!2026-09-12,251,330!2026-09-14,253,330!2026-10-10,279,330!2026-09-28,267,330!2026-09-09,248,330-->
 
-Note: {@{The term _outright_}@} is used in {@{the futures markets in a similar way}@} but is contrasted with {@{futures spreads instead of premium points}@}, which is {@{more than just a quoting convention}@}, and in particular involves {@{the simultaneous transaction in two outright futures}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-09-03,242,330!2026-08-13,236,330!2026-10-21,290,330!2026-10-11,280,330!2028-05-03,706,330-->
+Note: {@{The term _outright_}@} is used in {@{the futures markets in a similar way}@} but is contrasted with {@{futures spreads instead of premium points}@}, which is {@{more than just a quoting convention}@}, and in particular involves {@{the simultaneous transaction in two outright futures}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-09-03,242,330!fsrs,2029-07-02T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-14T00:00:00.000Z!2026-10-21,290,330!2026-10-11,280,330!2028-05-03,706,330-->
 
 ## rational pricing
 
 If {@{$S_{t}$}@} is {@{the [spot price](spot%20price.md) of an asset at time $t$}@}, and {@{$r$}@} is {@{the continuously compounded rate}@}, then {@{the forward price at a future time $T$}@} must {@{satisfy $F_{t,T}=S_{t}e^{r(T-t)}$}@}. <!--SR:!fsrs,2028-10-22T00:00:00.000Z,827,827.08781523,1,2,9,0,0,2026-07-18T00:00:00.000Z!2026-09-28,267,330!2026-10-06,275,330!2026-10-20,289,330!2026-09-17,256,330!2026-10-07,276,330-->
 
-To {@{prove this}@}, {@{suppose not}@}. Then we have {@{two possible cases}@}. <!--SR:!2026-10-21,290,330!2026-08-13,237,330!2026-09-24,263,330-->
+To {@{prove this}@}, {@{suppose not}@}. Then we have {@{two possible cases}@}. <!--SR:!2026-10-21,290,330!fsrs,2029-07-06T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-14T00:00:00.000Z!2026-09-24,263,330-->
 
 __Case 1:__ Suppose that {@{$F_{t,T}>S_{t}e^{r(T-t)}$}@}. Then an investor can {@{execute the following trades at time $t$}@}: <!--SR:!2026-10-16,285,330!2026-09-26,265,330-->
 

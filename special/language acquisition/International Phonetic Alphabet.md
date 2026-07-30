@@ -629,7 +629,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[p\]:@:[voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) <!--SR:!2028-06-01,1309,351-->
 - \[q\]:@:[voiceless uvular plosive](voiceless%20uvular%20plosive.md) <!--SR:!fsrs,2028-06-14T05:52:38.322Z,730,730.22869558,2.45526587,2,9,0,0,2026-06-15T05:52:38.322Z-->
 - \[r\]:@:[voiced alveolar trill](voiced%20alveolar%20trill.md) <!--SR:!2027-11-30,1181,371-->
-- \[ɾ\]:@:[voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md) <!--SR:!2026-08-13,735,352-->
+- \[ɾ\]:@:[voiced dental and alveolar taps and flaps](voiced%20dental%20and%20alveolar%20taps%20and%20flaps.md) <!--SR:!fsrs,2032-01-01T00:00:00.000Z,1966,1965.93015805,1.66855337,2,11,0,0,2026-08-14T00:00:00.000Z-->
 - \[ʀ\]:@:[voiced uvular trill](voiced%20uvular%20trill.md) <!--SR:!2028-11-19,1169,314-->
 - \[ɽ\]:@:[voiced retroflex flap](voiced%20retroflex%20flap.md) <!--SR:!2026-10-23,261,331-->
 - \[ɹ\]:@:[voiced alveolar approximant](voiced%20alveolar%20approximant.md) <!--SR:!2026-12-25,847,320-->
@@ -866,7 +866,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![nasalized open-mid back rounded vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg):@:[nasalized open-mid back rounded vowel](nasal%20vowel.md) <!--SR:!fsrs,2026-09-26T00:00:00.000Z,55,55.29947701,9.97542228,2,7,0,0,2026-08-02T00:00:00.000Z-->
 - ![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg):@:[close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md) <!--SR:!fsrs,2027-01-29T00:00:00.000Z,170,170.37303484,7.49580362,2,8,0,0,2026-08-12T00:00:00.000Z-->
 - ![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg):@:[close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md) <!--SR:!2026-08-16,104,196-->
-- ![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg):@:[open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md) <!--SR:!fsrs,2026-08-14T00:00:00.000Z,21,21.39329026,9.95088872,2,6,0,0,2026-07-24T00:00:00.000Z-->
+- ![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg):@:[open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md) <!--SR:!fsrs,2026-09-09T00:00:00.000Z,26,25.70118736,9.95262601,2,7,0,0,2026-08-14T00:00:00.000Z-->
 - ![nasalized open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg):@:[nasalized open-mid front rounded vowel](nasal%20vowel.md) <!--SR:!fsrs,2026-09-02T00:00:00.000Z,37,36.73779276,9.43399524,2,6,0,0,2026-07-27T00:00:00.000Z-->
 - ![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg):@:[open front rounded vowel](open%20front%20rounded%20vowel.md) <!--SR:!2027-01-30,271,290-->
 - ![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg):@:[voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) <!--SR:!fsrs,2026-09-17T05:51:47.817Z,94,93.57235333,9.98522837,2,7,0,0,2026-06-15T05:51:47.817Z-->
@@ -966,7 +966,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [close front unrounded vowel](close%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _fr**ee**_ \[fɹiː\] <!--SR:!fsrs,2026-11-04T00:00:00.000Z,133,133.25183221,9.98522837,2,8,0,0,2026-06-24T00:00:00.000Z-->
 - [near-close near-front unrounded vowel](near-close%20near-front%20unrounded%20vowel.md):@:[English](English%20language.md) _b**i**t_ \[bɪʔt\] <!--SR:!fsrs,2027-05-19T14:11:57.200Z,339,339.43416587,9.31308369,2,9,0,0,2026-06-14T14:11:57.200Z-->
 - [close central unrounded vowel](close%20central%20unrounded%20vowel.md):@:[Russian](Russian%20language.md) _т**ы**_ \[t̪ɨ\] "you" <!--SR:!fsrs,2026-11-07T00:00:00.000Z,136,136.49516346,9.98522837,2,8,0,0,2026-06-24T00:00:00.000Z-->
-- [voiced palatal approximant](voiced%20palatal%20approximant.md):@:[English](English%20language.md) _**y**ou_ \[juː\] <!--SR:!fsrs,2026-08-13T03:37:06.993Z,59,59.25901572,9.98522837,2,6,0,0,2026-06-15T03:37:06.993Z-->
+- [voiced palatal approximant](voiced%20palatal%20approximant.md):@:[English](English%20language.md) _**y**ou_ \[juː\] <!--SR:!fsrs,2026-10-29T00:00:00.000Z,76,75.81794684,9.97047151,2,7,0,0,2026-08-14T00:00:00.000Z-->
 - [palatalization](palatalization%20(phonetics).md):@:[Irish](Irish%20language.md) _**be**o_ \[bʲoː\] "alive" <!--SR:!2027-01-06,580,238-->
 - [voiced palatal fricative](voiced%20palatal%20fricative.md):@:[Spanish](Spanish%20language.md) _sa**y**o_ \[ˈsäʝo̞\] "smock" <!--SR:!fsrs,2026-09-19T00:00:00.000Z,46,46.46714357,9.97047151,2,7,0,0,2026-08-04T00:00:00.000Z-->
 - [voiced palatal plosive](voiced%20palatal%20plosive.md):@:[Irish](Irish%20language.md) _Gaeil**g**e_ \[ˈɡeːlʲɟə\] "[Irish language](Irish%20language.md)" <!--SR:!fsrs,2026-09-23T00:00:00.000Z,49,49.47169116,9.97047151,2,7,0,0,2026-08-05T00:00:00.000Z-->

@@ -52,7 +52,7 @@ These model classes form a hierarchy of information content: an explicit model t
 
 > {@{![Pole Balancing example \(rendering of the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)\)](../../archives/Wikimedia%20Commons/Cartpole.gif)}@}
 >
-> {@{Pole Balancing example}@} \(rendering of {@{the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)}@}\) <!--SR:!2030-07-11,1613,369!2030-10-02,1679,369!2026-08-13,136,422-->
+> {@{Pole Balancing example}@} \(rendering of {@{the environment from the [Open AI gym benchmark](Open%20AI%20gym%20benchmark.md)}@}\) <!--SR:!2030-07-11,1613,369!2030-10-02,1679,369!fsrs,2028-08-28T00:00:00.000Z,745,744.52265934,1,2,8,0,0,2026-08-14T00:00:00.000Z-->
 
 An example of MDP is {@{the Pole-Balancing model}@}, which comes from {@{classic control theory}@}. <!--SR:!2030-08-04,1631,369!2030-10-19,1693,369-->
 
@@ -84,7 +84,7 @@ In {@{value iteration \([Bellman 1958](#CITEREFBellman1958)\), which is also cal
 
 #### policy iteration
 
-In {@{policy iteration \([Howard 1960](#CITEREFHoward1960)\)}@}, one first {@{performs _Value Determination_}@} by solving {@{for $V$ from the linear system described in step one}@}, then {@{performs _Policy Improvement_}@} by computing {@{$\pi$ as in step two}@}, then {@{repeats both steps until the policy converges}@}. \(Policy iteration was invented by {@{Howard to optimize [Sears](Sears.md) catalogue mailing}@}, which he {@{had been optimizing using value iteration}@}.<sup>[\[9\]](#^ref-9)</sup>\) <!--SR:!2028-08-30,1053,349!2030-02-18,1494,369!2030-05-11,1564,369!2028-08-05,1034,349!2030-02-01,1477,369!fsrs,2028-08-22T00:00:00.000Z,740,739.81467051,1,2,8,0,0,2026-08-13T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,735,735.10222202,1,2,8,0,0,2026-08-12T00:00:00.000Z!2026-08-13,136,422-->
+In {@{policy iteration \([Howard 1960](#CITEREFHoward1960)\)}@}, one first {@{performs _Value Determination_}@} by solving {@{for $V$ from the linear system described in step one}@}, then {@{performs _Policy Improvement_}@} by computing {@{$\pi$ as in step two}@}, then {@{repeats both steps until the policy converges}@}. \(Policy iteration was invented by {@{Howard to optimize [Sears](Sears.md) catalogue mailing}@}, which he {@{had been optimizing using value iteration}@}.<sup>[\[9\]](#^ref-9)</sup>\) <!--SR:!2028-08-30,1053,349!2030-02-18,1494,369!2030-05-11,1564,369!2028-08-05,1034,349!2030-02-01,1477,369!fsrs,2028-08-22T00:00:00.000Z,740,739.81467051,1,2,8,0,0,2026-08-13T00:00:00.000Z!fsrs,2028-08-16T00:00:00.000Z,735,735.10222202,1,2,8,0,0,2026-08-12T00:00:00.000Z!fsrs,2028-08-28T00:00:00.000Z,745,744.52265934,1,2,8,0,0,2026-08-14T00:00:00.000Z-->
 
 Since {@{policy iteration}@} effectively {@{interleaves a linear inverse problem with a nonlinear operation}@}, it may interpreted as a type of {@{[relaxation](relaxation%20(iterative%20method).md) method}@}. <!--SR:!2030-09-07,1659,369!2029-12-20,1434,369!2030-07-18,1616,369-->
 

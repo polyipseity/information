@@ -47,7 +47,7 @@ tags:
 >     - AX<sub>2</sub>E<sub>1</sub> / ideal bond angle(s) :@: 120° <!--SR:!2027-02-28,296,305-->
 >     - AX<sub>2</sub>E<sub>1</sub> / example(s) ::@:: [SO<sub>2</sub>](sulfur%20dioxide.md) <!--SR:!fsrs,2027-02-12T08:38:31.877Z,250,249.76634982,4.17854087,2,8,0,0,2026-06-07T08:38:31.877Z!fsrs,2027-09-01T00:00:00.000Z,389,389.1934457,3.42929087,2,8,0,0,2026-08-08T00:00:00.000Z-->
 > - AX<sub>2</sub>E<sub>2</sub>
->     - AX<sub>2</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [bent](bent%20molecular%20geometry.md)<br/>![bent](../../archives/Wikimedia%20Commons/AX2E2-3D-balls.png) <!--SR:!2027-04-12,320,325!2026-08-13,140,305-->
+>     - AX<sub>2</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [bent](bent%20molecular%20geometry.md)<br/>![bent](../../archives/Wikimedia%20Commons/AX2E2-3D-balls.png) <!--SR:!2027-04-12,320,325!fsrs,2028-04-16T00:00:00.000Z,611,611.37794575,1.22984669,2,8,0,0,2026-08-14T00:00:00.000Z-->
 >     - AX<sub>2</sub>E<sub>2</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!2026-09-01,155,305-->
 >     - AX<sub>2</sub>E<sub>2</sub> / example(s) ::@:: [H<sub>2</sub>O](water.md) <!--SR:!2027-03-17,320,345!2027-04-06,340,345-->
 > - AX<sub>2</sub>E<sub>3</sub>
@@ -61,7 +61,7 @@ tags:
 > - AX<sub>3</sub>E<sub>1</sub>
 >     - AX<sub>3</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal pyramidal](trigonal%20pyramidal%20molecular%20geometry.md)<br/>![trigonal pyramidal](../../archives/Wikimedia%20Commons/AX3E1-3D-balls.png) <!--SR:!2027-03-09,312,345!2026-10-05,198,325-->
 >     - AX<sub>3</sub>E<sub>1</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!2027-03-16,319,345-->
->     - AX<sub>3</sub>E<sub>1</sub> / example(s) ::@:: [NH<sub>3</sub>](ammonia.md) <!--SR:!2026-12-17,230,325!2026-08-13,140,305-->
+>     - AX<sub>3</sub>E<sub>1</sub> / example(s) ::@:: [NH<sub>3</sub>](ammonia.md) <!--SR:!2026-12-17,230,325!fsrs,2028-04-16T00:00:00.000Z,611,611.37794575,1.22984669,2,8,0,0,2026-08-14T00:00:00.000Z-->
 > - AX<sub>3</sub>E<sub>2</sub>
 >     - AX<sub>3</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [T-shaped](T-shaped%20molecular%20geometry.md)<br/>![T-shaped](../../archives/Wikimedia%20Commons/AX3E2-3D-balls.png) <!--SR:!2026-10-09,201,325!2027-02-04,277,341-->
 >     - AX<sub>3</sub>E<sub>2</sub> / ideal bond angle(s) :@: 90°, 180° <!--SR:!2027-06-03,396,361-->

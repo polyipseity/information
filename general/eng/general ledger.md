@@ -21,7 +21,7 @@ In [bookkeeping](bookkeeping.md), a __general ledger__ is {@{a bookkeeping [ledg
 
 Posting is {@{the process of recording amounts as credits (right side), and amounts as debits (left side), in the pages of the general ledger}@}. {@{Additional columns to the right}@} hold {@{a running activity total (similar to a chequebook)}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2027-10-16,855,330!2027-10-29,865,330!2027-09-27,837,330-->
 
-The general ledger should include {@{the date, description and balance or total amount for each account}@}. <!--SR:!2026-08-13,507,310-->
+The general ledger should include {@{the date, description and balance or total amount for each account}@}. <!--SR:!fsrs,2031-11-10T00:00:00.000Z,1914,1913.63098582,1,2,10,0,0,2026-08-14T00:00:00.000Z-->
 
 Because {@{each bookkeeping entry debits one account and credits another account in an equal amount}@}, {@{the [double-entry bookkeeping system](double-entry%20bookkeeping.md)}@} helps {@{ensure that the general ledger is always in balance, thus maintaining the [accounting equation](accounting%20equation.md)}@}: {@{Assets = Liabilities + (Shareholder's or Owner's equity)}@}.<sup>[\[10\]](#^ref-10)</sup><sup>[\[5\]](#^ref-5)</sup> <!--SR:!2027-01-27,652,330!2027-04-22,716,330!2028-11-21,1185,350!2028-11-26,1189,350-->
 

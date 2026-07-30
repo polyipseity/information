@@ -184,7 +184,7 @@ The content is in teaching order.
 - [Jelly Roll Morton](../../../../general/Jelly%20Roll%20Morton.md) (1890–1941) ::@:: Creole; composer, entertainer, pianist, singer; first jazz composer to notate jazz <!--SR:!2028-01-21,847,355!2026-08-23,433,335-->
     - Jelly Roll Morton / influence ::@:: had formal training and virtuosity from playing in orchestras, brought classical formal training to jazz <!--SR:!2031-10-22,1967,395!fsrs,2031-11-01T00:00:00.000Z,1931,1931.11962446,1,2,10,0,0,2026-07-19T00:00:00.000Z-->
     - Jelly Roll Morton / claims ::@:: claimed all his ancestors came from France (not true), claimed he "invented" jazz in 1902 (criticized) <!--SR:!fsrs,2031-10-27T00:00:00.000Z,1927,1927.03350629,1,2,10,0,0,2026-07-18T00:00:00.000Z!fsrs,2031-12-22T00:00:00.000Z,1972,1971.9126144,1,2,10,0,0,2026-07-29T00:00:00.000Z-->
-    - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythm commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!2026-08-13,423,335!2029-09-29,1351,375-->
+    - [Spanish tinge](../../../../general/Spanish%20tinge.md) ::@:: an Afro-Latin rhythmic touch that spices up the more conventional 4/4 rhythm commonly used in jazz and pop Music; essential rhythm found in early jazz <!--SR:!fsrs,2031-06-28T00:00:00.000Z,1779,1779.22876576,1,2,10,0,0,2026-08-14T00:00:00.000Z!2029-09-29,1351,375-->
     - [Jelly Roll Blues](../../../../general/Jelly%20Roll%20Blues.md) ::@:: published in 1915, one of the first published jazz compositions <!--SR:!2028-02-06,858,355!2029-09-11,1333,375-->
 - [jazz](../../../../general/jazz.md)
     - [jazz (word)](../../../../general/jazz%20(word).md) ::@:: No one definitively knows where the word comes from. But there are some theories... <!--SR:!fsrs,2031-06-26T00:00:00.000Z,1829,1828.58134182,1,2,10,0,0,2026-06-23T00:00:00.000Z!fsrs,2031-11-06T00:00:00.000Z,1935,1935.20445991,1,2,10,0,0,2026-07-20T00:00:00.000Z-->
@@ -273,7 +273,7 @@ The content is in teaching order.
 - [jazz](../../../../general/jazz.md)
     - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!2026-09-17,471,398!2026-10-04,485,398-->
 - [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!2026-10-21,492,398!fsrs,2031-04-14T00:00:00.000Z,1719,1718.82780688,1,2,10,0,0,2026-07-30T00:00:00.000Z-->
-    - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!2026-08-13,416,338!2031-02-23,1767,398-->
+    - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!fsrs,2031-06-20T00:00:00.000Z,1771,1770.8569414,1,2,10,0,0,2026-08-14T00:00:00.000Z!2031-02-23,1767,398-->
     - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!2026-11-13,515,398!2026-11-22,524,398-->
 - [swing music](../../../../general/swing%20music.md)
     - swing music / vs. New Orleans jazz
