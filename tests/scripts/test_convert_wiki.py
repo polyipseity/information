@@ -18,6 +18,7 @@ from scripts.convert_wiki.api import _collect_image_filenames
 from scripts.convert_wiki.ast_utils import _replace_pipes_outside_math
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.pipeline import _separate_block_math, run_pipeline
+from scripts.convert_wiki.table import TableConverter
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import _get_image_filename
 
@@ -1426,7 +1427,7 @@ class TestTexHtmlToLatexRadical:
 
 
 class TestFilterTableCells:
-    """Unit tests for ``WikiHtmlConverter._filter_table_cells``.
+    """Unit tests for ``TableConverter._filter_table_cells``.
 
     Ensures that cell strings are correctly split, padded, and
     re-joined without dropping empty cells.
@@ -1458,7 +1459,7 @@ class TestFilterTableCells:
     def test_filter_cells(
         self, input_str: str, total_colspan: int, expected: str
     ) -> None:
-        result = WikiHtmlConverter._filter_table_cells(
+        result = TableConverter._filter_table_cells(
             input_str, total_colspan=total_colspan
         )
         assert result == expected, (
