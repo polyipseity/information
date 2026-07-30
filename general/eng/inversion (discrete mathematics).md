@@ -68,7 +68,7 @@ __Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is 
 __Right inversion count $r$, often called _[Lehmer code](lehmer%20code.md)_:__ ::@:: With the _place-based_ definition $r(i)$ is the number of inversions whose _smaller_ \(left\) component is $i$. <!--SR:!2027-05-29,579,272!2027-09-07,653,292-->
 
 - right inversion count, in words ::@:: $r(i)$ is the number of elements in $\pi$ smaller than $\pi (i)$ after $\pi (i)$. <!--SR:!fsrs,2030-02-10T00:35:33.588Z,1345,1345.39597255,1.88024646,2,9,0,0,2026-06-06T00:35:33.588Z!2026-12-10,544,312-->
-- right inversion count, symbolically ::@:: $$r(i)~~=~~\#\{k\mid k>i~\land ~\pi (k)<\pi (i)\}$$ <!--SR:!2026-08-14,414,292!2026-10-20,508,312-->
+- right inversion count, symbolically ::@:: $$r(i)~~=~~\#\{k\mid k>i~\land ~\pi (k)<\pi (i)\}$$ <!--SR:!fsrs,2030-09-22T00:00:00.000Z,1499,1498.91702412,1.88024646,2,10,0,0,2026-08-15T00:00:00.000Z!2026-10-20,508,312-->
 
 {@{Both $v$ and $r$}@} can be {@{found with the help of a [Rothe diagram](permutation.md#numbering%20permutations)}@}, which is {@{a [permutation matrix](permutation%20matrix.md)}@} with {@{the 1s represented by dots}@}, and {@{an inversion \(often represented by a cross\) in every position that has a dot to the right and below it}@}. $r(i)$ is the sum of inversions in row $i$ of the Rothe diagram, while $v(i)$ is the sum of inversions in column $i$. The permutation matrix of the inverse is the transpose, therefore $v$ of a permutation is $r$ of its inverse, and vice versa. <!--SR:!2029-06-02,1286,352!2027-12-01,842,332!2030-02-01,1371,312!2029-05-02,1261,352!2027-01-12,568,312-->
 

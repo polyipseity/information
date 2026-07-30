@@ -105,7 +105,7 @@ assert id(original) == id(new) # `id` can determine whether two objects are the 
 
 ## multidimensional
 
-In Python, there is {@{nothing special}@} about multidimensional sequences. It is literally {@{lists inside a list}@}: <!--SR:!2026-08-14,239,330!2026-10-15,284,330-->
+In Python, there is {@{nothing special}@} about multidimensional sequences. It is literally {@{lists inside a list}@}: <!--SR:!fsrs,2029-07-15T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-08-15T00:00:00.000Z!2026-10-15,284,330-->
 
 ```Python
 sudoku = [

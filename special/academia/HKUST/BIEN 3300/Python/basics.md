@@ -160,7 +160,7 @@ return chain.from_iterable([r.value for r in results])
 
 Do not mix up the equal to operator `==` and {@{the assignment operator `=`}@}. <!--SR:!2026-08-16,241,330-->
 
-Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!2026-08-14,239,330!2026-08-30,252,330!2026-09-27,266,330!2026-08-20,244,330!2026-08-31,253,330!2026-10-24,293,330!2026-10-07,276,330!2026-09-13,252,330-->
+Also, one {@{CAN chain comparison operators}@} in Python, unlike {@{many other languages}@}. For example, {@{`2 <= aNumber <= 5`}@} is equivalent to {@{`2 <= aNumber and aNumber <= 5` except that `aNumber` is evaluated only once}@}. In fact, you can {@{chain any numbers of comparison operators together}@}, even if {@{they do not make sense together as a whole}@}, such as {@{`2 <= aNumber >= 2`}@} being {@{equivalent to `2 <= aNumber and aNumber >= 2` except that `aNumber` is evaluated only once}@}. See <https://docs.python.org/3/reference/expressions.html#comparisons>. <!--SR:!fsrs,2029-07-15T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-08-15T00:00:00.000Z!2026-08-30,252,330!2026-09-27,266,330!2026-08-20,244,330!2026-08-31,253,330!2026-10-24,293,330!2026-10-07,276,330!2026-09-13,252,330-->
 
 ### logic operators
 

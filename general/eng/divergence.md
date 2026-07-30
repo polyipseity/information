@@ -74,7 +74,7 @@ For {@{a vector expressed in __local__ unit [cylindrical coordinates](cylindrica
 
 ### spherical coordinates
 
-In {@{[spherical coordinates](spherical%20coordinates.md)}@}, with {@{_θ_ the angle with the _z_ axis and _φ_ the rotation around the _z_ axis}@}, and __F__ again {@{written in local unit coordinates}@}, the divergence is<sup>[\[2\]](#^ref-2)</sup> {@{$$\operatorname {div} \mathbf {F} =\nabla \cdot \mathbf {F} ={\frac {1}{r^{2} } }{\frac {\partial }{\partial r} }\left(r^{2}F_{r}\right)+{\frac {1}{r\sin \theta } }{\frac {\partial }{\partial \theta } }\left(\sin \theta \,F_{\theta }\right)+{\frac {1}{r\sin \theta } }{\frac {\partial F_{\varphi } }{\partial \varphi } } \,.$$}@} <!--SR:!2029-04-29,1084,350!2028-02-21,723,330!2029-04-27,1082,350!2026-08-14,291,290-->
+In {@{[spherical coordinates](spherical%20coordinates.md)}@}, with {@{_θ_ the angle with the _z_ axis and _φ_ the rotation around the _z_ axis}@}, and __F__ again {@{written in local unit coordinates}@}, the divergence is<sup>[\[2\]](#^ref-2)</sup> {@{$$\operatorname {div} \mathbf {F} =\nabla \cdot \mathbf {F} ={\frac {1}{r^{2} } }{\frac {\partial }{\partial r} }\left(r^{2}F_{r}\right)+{\frac {1}{r\sin \theta } }{\frac {\partial }{\partial \theta } }\left(\sin \theta \,F_{\theta }\right)+{\frac {1}{r\sin \theta } }{\frac {\partial F_{\varphi } }{\partial \varphi } } \,.$$}@} <!--SR:!2029-04-29,1084,350!2028-02-21,723,330!2029-04-27,1082,350!fsrs,2029-08-11T00:00:00.000Z,1092,1091.72657971,1.98030797,2,9,0,0,2026-08-15T00:00:00.000Z-->
 
 ### tensor field
 

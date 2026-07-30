@@ -90,7 +90,7 @@ When {@{the goods and services are continuously divisible in the [limiting case]
 
 If, for example, Lisa {@{will not trade a goat for anything less than two sheep}@}, then her {@{$$MRS_{SG}={\frac {2{\text{ sheep} } }{\text{goat} } }$$}@}. <!--SR:!2029-10-25,1460,367!2029-10-19,1455,367-->
 
-If she {@{will not trade a sheep for anything less than two goats}@}, then her {@{$$MRS_{GS}={\frac {2{\text{ goat} } }{\text{sheep} } }\neq {\frac {1{\text{ goat} } }{2{\text{ sheep} } } }={\frac {1}{\left({\frac {2{\text{ sheep} } }{\text{goat} } }\right)} }={\frac {1}{MRS_{SG} } }$$}@}. <!--SR:!2028-12-22,1203,350!2026-08-14,464,307-->
+If she {@{will not trade a sheep for anything less than two goats}@}, then her {@{$$MRS_{GS}={\frac {2{\text{ goat} } }{\text{sheep} } }\neq {\frac {1{\text{ goat} } }{2{\text{ sheep} } } }={\frac {1}{\left({\frac {2{\text{ sheep} } }{\text{goat} } }\right)} }={\frac {1}{MRS_{SG} } }$$}@}. <!--SR:!2028-12-22,1203,350!fsrs,2031-06-02T00:00:00.000Z,1752,1751.68231816,1.12978518,2,10,0,0,2026-08-15T00:00:00.000Z-->
 
 However, if {@{she would trade one gram of banana for one ounce of ice cream _and vice versa_}@}, then {@{$$MRS_{IB}={\frac {1{\text{ oz ice cream} } }{1{\text{ g banana} } } }={\frac {1}{\left({\frac {1{\text{ g banana} } }{1{\text{ oz ice cream} } } }\right)} }={\frac {1}{MRS_{BI} } }$$}@}. <!--SR:!2028-10-08,1074,347!2029-10-31,1465,367-->
 

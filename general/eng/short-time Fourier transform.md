@@ -70,7 +70,7 @@ One of {@{the pitfalls of the STFT}@} is that {@{it has a fixed resolution}@}. {
 
 > {@{![Comparison of STFT resolution. Left has better time resolution, and right has better frequency resolution.](../../archives/Wikimedia%20Commons/STFT%20-%20windows-en.svg)}@}
 >
-> Comparison of {@{STFT resolution}@}. Left has {@{better time resolution}@}, and {@{right has better frequency resolution}@}. <!--SR:!2029-05-31,1115,350!2026-08-14,321,349!2026-09-11,345,349!2026-08-27,333,349-->
+> Comparison of {@{STFT resolution}@}. Left has {@{better time resolution}@}, and {@{right has better frequency resolution}@}. <!--SR:!2029-05-31,1115,350!fsrs,2030-08-18T00:00:00.000Z,1464,1464.34491303,1,2,9,0,0,2026-08-15T00:00:00.000Z!2026-09-11,345,349!2026-08-27,333,349-->
 
 This is one of {@{the reasons for the creation of the [wavelet transform](wavelet%20transform.md) and [multiresolution analysis](multiresolution%20analysis.md)}@}, which can give {@{good time resolution for high-frequency events and good frequency resolution for low-frequency events}@}, the combination {@{best suited for many real signals}@}. <!--SR:!2026-09-18,351,349!fsrs,2030-03-08T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-07-06T00:00:00.000Z!2026-09-08,343,349-->
 
@@ -90,7 +90,7 @@ When the original function is: {@{$$X(t,f)=\int _{-\infty }^{\infty }w(t-\tau )x
 - \(annotation: boxcar window function: outside support\) ::@:: w\(t\) = 0 otherwise <!--SR:!fsrs,2029-08-11T08:13:26.044Z,1161,1160.74715681,1,2,9,0,0,2026-06-07T08:13:26.044Z!2026-09-16,349,349-->
 - \(annotation: boxcar window function: parameters\) ::@:: B = window <!--SR:!2029-04-28,1086,350!fsrs,2030-06-14T00:00:00.000Z,1417,1416.70671475,1,2,9,0,0,2026-07-28T00:00:00.000Z-->
 
-Now {@{the original function of the Short-time Fourier transform}@} can be changed as {@{$$X(t,f)=\int _{t-B}^{t+B}x(\tau )e^{-j2\pi f\tau }d\tau$$}@} <!--SR:!2026-09-19,352,349!2026-08-14,322,349-->
+Now {@{the original function of the Short-time Fourier transform}@} can be changed as {@{$$X(t,f)=\int _{t-B}^{t+B}x(\tau )e^{-j2\pi f\tau }d\tau$$}@} <!--SR:!2026-09-19,352,349!fsrs,2030-08-22T00:00:00.000Z,1468,1468.3047116,1,2,9,0,0,2026-08-15T00:00:00.000Z-->
 
 Another example:
 
@@ -199,7 +199,7 @@ Applying {@{the recursive formula to calculate $X(n\Delta _{t},m\Delta _{f})$}@}
 
 > __flashcards__
 >
-> - direct implementation ::@:: $O(TFQ)$ \(annotation: For each time value and frequency, $2Q+1$ multiplications are needed.\) <!--SR:!fsrs,2029-08-06T11:18:42.565Z,1158,1157.92961471,1,2,9,0,0,2026-06-05T11:18:42.565Z!2026-08-14,323,349-->
+> - direct implementation ::@:: $O(TFQ)$ \(annotation: For each time value and frequency, $2Q+1$ multiplications are needed.\) <!--SR:!fsrs,2029-08-06T11:18:42.565Z,1158,1157.92961471,1,2,9,0,0,2026-06-05T11:18:42.565Z!fsrs,2030-08-26T00:00:00.000Z,1472,1472.26293449,1,2,9,0,0,2026-08-15T00:00:00.000Z-->
 > - FFT-based ::@:: $O(TN\log _{2}N)$ \(annotation: Each time value requires a FFT. FFT gives the $F$ frequencies directly, and has a complexity of $O(N \log_2 N)$.\) <!--SR:!2026-09-17,350,349!2026-09-04,339,349-->
 > - recursive ::@:: $O(TF)$ \(annotation: Once the base case is calculated, for each time value and frequency, only 2 multiplications are needed.\) <!--SR:!2026-09-10,344,349!2026-09-15,348,349-->
 > - chirp Z-transform ::@:: $O(TN\log _{2}N)$ \(annotation: It is a generalization of DFT, and can be evaluated efficiently using FFT.\) <!--SR:!fsrs,2030-08-03T00:00:00.000Z,1452,1452.45647797,1,2,9,0,0,2026-08-12T00:00:00.000Z!2028-09-11,871,330-->

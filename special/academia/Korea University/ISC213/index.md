@@ -107,7 +107,7 @@ The content is in teaching order.
     - decision support system / components ::@:: User commands model and data. Model commands data.  <p> Then feedback goes in the opposite direction; that is, model and data give feedback to user. Data gives feedback to model. <!--SR:!2026-08-18,311,348!2026-08-22,314,348-->
 - [executive information system](../../../../general/exeuctive%20information%20system.md) \(EIS\) ::@:: It is a type of management support system that facilitates and supports senior executive information and decision-making needs. <!--SR:!2026-08-21,314,348!2026-09-15,336,348-->
     - executive information system / aliases ::@:: executive information system \(EIS\), executive support system \(ESS\) \(__this course__: Use ESS.\) <!--SR:!2027-10-12,639,415!2027-12-03,691,415-->
-    - executive information system / users ::@:: support senior management <!--SR:!2026-09-07,329,348!2026-08-14,308,348-->
+    - executive information system / users ::@:: support senior management <!--SR:!2026-09-07,329,348!fsrs,2030-06-23T00:00:00.000Z,1408,1408.2297319,1,2,9,0,0,2026-08-15T00:00:00.000Z-->
     - executive information system / usage ::@:: use external data, MIS, and DSS to address _high-level non-routine_ decisions <!--SR:!2026-08-26,318,348!2026-08-17,310,348-->
     - executive information system / examples ::@:: digital dashboard, which are a set of electronic displays of key performance indicators on a single screen, e.g. financial performance <p> \(__this course__: in midterm examination\) <!--SR:!2026-08-29,321,348!2026-09-10,331,348-->
 - enterprise systems ::@:: systems that allow horizontal and vertical integration of business processes in a business, most important of which is inter-departmental communication offered by ERP <!--SR:!2026-09-26,345,348!2026-08-20,314,348-->
@@ -137,7 +137,7 @@ The content is in teaching order.
     - information system / extranet ::@:: It is a controlled private computer network that allows communication with business partners, vendors and suppliers or an authorized set of customers. It extends _intranet_ to trusted outsiders. <p> So it helps to facilitate information flow between a firm and its customers and suppliers. <!--SR:!2026-12-07,408,369!2026-12-01,402,369-->
     - information system / business unit ::@:: It can be a formal organizational unit for IT services, often headed by the chief information officer \(CIO\). It employs information systems managers, programmers, system analysts, etc. The users who use the services are called _end users_. <!--SR:!2026-09-06,328,348!2026-08-15,309,348-->
 - [management](../../../../general/management.md) ::@:: It is the administration of organizations, whether businesses, nonprofit organizations, or a government bodies through business administration, nonprofit management, or the political science sub-field of public administration respectively. <!--SR:!2026-09-14,335,348!2026-08-20,313,348-->
-    - management / layers ::@:: \(top level\) strategic planning &gt; managerial planning & control &gt; operation control \(bottom level\) <!--SR:!2026-08-14,308,348!2026-08-18,313,348-->
+    - management / layers ::@:: \(top level\) strategic planning &gt; managerial planning & control &gt; operation control \(bottom level\) <!--SR:!fsrs,2030-06-23T00:00:00.000Z,1408,1408.2297319,1,2,9,0,0,2026-08-15T00:00:00.000Z!2026-08-18,313,348-->
 - assignment: [quiz 2](questions/quiz%202.md)
 
 ## week 1 lecture 4

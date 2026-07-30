@@ -472,7 +472,7 @@ The content is in teaching order.
         - high: 50
 - report
     - When you see $\mathcal N(0, 100)$, do not mistake the 100 as the standard deviation! It is the variance. Almost screwed this up in the midterm examination...
-        - $\mathcal N(0, 100)$ (0) ::@:: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!fsrs,2032-09-14T00:00:00.000Z,2258,2258.22586073,1,2,10,0,0,2026-07-10T00:00:00.000Z!2026-08-14,520,404-->
+        - $\mathcal N(0, 100)$ (0) ::@:: The mean of the normal distribution is 0. The standard deviation of the normal distribution is 10, not 100. <!--SR:!fsrs,2032-09-14T00:00:00.000Z,2258,2258.22586073,1,2,10,0,0,2026-07-10T00:00:00.000Z!fsrs,2033-02-13T00:00:00.000Z,2374,2373.64591837,1,2,10,0,0,2026-08-15T00:00:00.000Z-->
     - Inputted $\binom {100} 1$ as 1 instead of 100 into the calculator when evaluating a binomial distribution...
         - $\binom {100} 1$ (-1) ::@:: It evaluates to 100, not 1. <!--SR:!fsrs,2033-01-24T00:00:00.000Z,2358,2357.77450357,1,2,10,0,0,2026-08-11T00:00:00.000Z!2026-08-19,524,404-->
     - Simplified $\frac 4 {b^2} \left(b\right)$ into $\frac 4 {b^3}$ instead of $\frac 4 b$... (-1)

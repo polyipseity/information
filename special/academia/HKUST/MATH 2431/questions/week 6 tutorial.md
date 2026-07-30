@@ -52,7 +52,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 
 > Suppose the waiting time for bank service is $\mathrm{Exp}(1/5)$ minutes. A customer leaves if the wait exceeds 10 minutes and visits the bank 5 times in a week. What is the PMF of the number of times the customer leaves unserved?
 >
-> Solution: With $X\sim\mathrm{Exp}(1/5)$, the {@{one-visit leave probability is $q=P(X>10)=e^{-2}$}@}. Over {@{5 independent visits}@}, the number $L$ of unserved departures follows {@{the binomial law $\mathrm{Bin}(5,e^{-2})$}@}, so the pmf is {@{the formula $P(L=k)=\binom5k e^{-2k}(1-e^{-2})^{5-k}$ for $k=0,1,2,3,4,5$}@}. <!--SR:!fsrs,2027-08-01T00:00:00.000Z,369,369.34507636,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-07-09T00:00:00.000Z,351,351.43779637,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-08-15,75,327!2026-08-14,74,321-->
+> Solution: With $X\sim\mathrm{Exp}(1/5)$, the {@{one-visit leave probability is $q=P(X>10)=e^{-2}$}@}. Over {@{5 independent visits}@}, the number $L$ of unserved departures follows {@{the binomial law $\mathrm{Bin}(5,e^{-2})$}@}, so the pmf is {@{the formula $P(L=k)=\binom5k e^{-2k}(1-e^{-2})^{5-k}$ for $k=0,1,2,3,4,5$}@}. <!--SR:!fsrs,2027-08-01T00:00:00.000Z,369,369.34507636,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-07-09T00:00:00.000Z,351,351.43779637,1,2,7,0,0,2026-07-23T00:00:00.000Z!2026-08-15,75,327!fsrs,2027-08-24T00:00:00.000Z,374,374.40992709,1,2,7,0,0,2026-08-15T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
