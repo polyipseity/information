@@ -37,6 +37,13 @@ applyTo: "**"
   JSON/YAML/TS/JS files, use `format:prettier`. When running `format:md` or
   `check:md`, verify that EVERY file argument ends in `.md` or another
   markdown extension.
+- __🔥 CRITICAL: Never edit `.markdownlint*` files.__ This is a hard ban.
+  These files are markdownlint configuration (.markdownlint.jsonc and
+  similar). Agents must never add, remove, or modify rules in these files
+  unless the user explicitly and specifically asks for it. Even adding a
+  single disable rule like `"MD058": false` is forbidden. If a linter
+  error appears to need a markdownlint config change, report it to the
+  user — do not touch the config yourself.
 - Preserve `# pytextgen` fences and flashcard markup. There are three forms: cloze deletions `{@{...}@}` (common), two-sided pairs `::@::` (one line only, creates two cards), and one-sided pairs `:@:` (one line only, single card). These are parsed automatically; do not reflow, escape, or split them across lines.
 - Async code should __not__ import or use `asyncio` directly. Use AnyIO for cross-platform structured concurrency and the Asyncer helper library for enhanced editor/typing support. Key Asyncer helpers: `create_task_group` (preferred over `anyio.create_task_group`), `soonify` for concurrent calls with `SoonValue` return, `runnify` for wrapping async main for sync entry points (__all Python scripts use this; see `python-entry-points.instructions.md`__), `asyncify` for blocking sync code from async context, `syncify` for calling async from sync context.
 - Always prefer `bun run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
