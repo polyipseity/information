@@ -86,6 +86,13 @@ tags:
 - __Symlink__: `general/<name>.md` → `<dir_code>/<name>.md` — a relative symlink at the top level of `general/` for convenient access.
 - __Atomicity__: Both files are written to temporary paths first, then atomically renamed into place. If either operation fails, both files are cleaned up — the creation either succeeds completely or has no effect.
 
+> __Important: Wikipedia article filenames keep spaces.__ The filename for a
+> Wikipedia-derived note (e.g. `general/eng/Fourier transform.md`) must
+> preserve spaces — never replace them with underscores. This is a hard rule:
+> Wikipedia articles are stored with spaces in their filenames. Underscores
+> in filenames are reserved for non-Wikipedia content (test fixtures, custom
+> notes, internal references).
+
 #### Example walkthrough
 
 ```text
