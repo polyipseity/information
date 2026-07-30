@@ -38,9 +38,9 @@ Text $f(x)$ and $g(y)$
 
 Display math in table cell containing a bare pipe character.
 
-| Column 1                |
-| ----------------------- |
-| text  $$x\vert y$$ more |
+| Column 1               |
+| ---------------------- |
+| text $$x\vert y$$ more |
 
 ## ESCAPED\_PIPE\_IN\_MATH
 
