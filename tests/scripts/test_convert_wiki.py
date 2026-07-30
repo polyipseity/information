@@ -1045,10 +1045,10 @@ class TestInlineMathIndependence:
 
     @pytest.mark.anyio
     async def test_inline_math_count(self, tmp_path: PathLike[str]) -> None:
-        """The Fourier transform article should have 606 inline math blocks."""
+        """The Fourier transform article should have 618 inline math blocks."""
         output = await self._run_and_analyze(tmp_path)
         count = self._count_inline_math_blocks(output)
-        assert count == 606, f"Expected 606 inline math blocks, got {count}"
+        assert count == 618, f"Expected 618 inline math blocks, got {count}"
 
     @pytest.mark.anyio
     async def test_no_orphaned_dollar_signs(self, tmp_path: PathLike[str]) -> None:
@@ -1298,7 +1298,7 @@ class TestReplacePipesOutsideMath:
 class TestTexHtmlToLatexRadical:
     """Regression tests for radical detection in sfrac → ``\\frac{}`` conversion.
 
-    See ``_replace_radicals_with_math`` which must use
+    See ``_replace_sfrac_with_math`` which must use
     ``_texhtml_to_latex_sfrac`` (``\\frac``) instead of
     ``_texhtml_to_latex_sfrac_inline`` (slash division) for ``sfrac``
     elements containing radicals.  Wikipedia's ``{{sfrac}}`` always renders

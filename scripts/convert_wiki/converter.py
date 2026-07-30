@@ -503,18 +503,14 @@ class WikiHtmlConverter:
         return _HandlerConfig(prefix=prefix, suffix=suffix)
 
     def _handle_span(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
-        """Handle <span> elements: replace radical sub-trees with <math>."""
-        if "\u221a" not in ele.get_text():
-            return None
-        self._replace_radicals_with_math(ele)
+        """Handle <span> elements: replace sfrac sub-trees with <math>."""
+        self._replace_sfrac_with_math(ele)
         return None
 
-    def _replace_radicals_with_math(self, ele: Tag) -> None:
-        """Replace sfrac elements containing √ with inline <math> elements."""
+    def _replace_sfrac_with_math(self, ele: Tag) -> None:
+        """Replace sfrac elements with inline <math> elements."""
         for sfrac in list(ele.find_all("span", class_="sfrac")):
             if not isinstance(sfrac, Tag):
-                continue
-            if "\u221a" not in sfrac.get_text():
                 continue
             latex = self._texhtml_to_latex_sfrac(sfrac)
             math_tag = self._soup.new_tag("math", alttext=latex)
