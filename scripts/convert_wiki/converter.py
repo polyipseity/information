@@ -837,7 +837,7 @@ class WikiHtmlConverter:
 
             inline = self._is_inline_math(ele)
             prefix, suffix = (
-                "$" if inline else " $$",
+                "$" if inline else "$$",
                 "$" if inline else "$$",
             )
 

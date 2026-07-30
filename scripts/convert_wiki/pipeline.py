@@ -89,7 +89,7 @@ def _determine_needs_before(prev: dict[str, Any] | None) -> bool:
     """Return ``True`` if a space should be inserted before the opening ``$$``.
 
     Examines the AST sibling node immediately before a ``block_math`` node.
-    If the sibling is a text node ending with an alphanumeric character, the
+    If the sibling is a text node ending with a non-whitespace character, the
     ``$$`` is directly adjacent to text in the source — a space is needed.
     If the sibling is a non-text node (emphasis, code span, etc.), there is
     no text-node buffer, so the ``$$`` is adjacent by default.
@@ -97,7 +97,7 @@ def _determine_needs_before(prev: dict[str, Any] | None) -> bool:
     if prev is None:
         return False
     if prev["type"] == "text":
-        return bool(prev["raw"]) and prev["raw"][-1].isalnum()
+        return bool(prev["raw"]) and not prev["raw"][-1].isspace()
     return True
 
 
@@ -110,7 +110,7 @@ def _determine_needs_after(next_: dict[str, Any] | None) -> bool:
     if next_ is None:
         return False
     if next_["type"] == "text":
-        return bool(next_["raw"]) and next_["raw"][0].isalnum()
+        return bool(next_["raw"]) and not next_["raw"][0].isspace()
     return True
 
 
@@ -179,10 +179,31 @@ def _scan_and_apply(text: str, info: list[tuple[str, bool, bool]]) -> str:
                 parts.append(text[pos:dollar_pos])
                 if needs_before:
                     parts.append(" ")
-                parts.append(target)
-                if needs_after:
-                    parts.append(" ")
-                pos = dollar_pos + target_len
+                # --- Mechanism 3b: absorb trailing punctuation into raw ---
+                after_pos = dollar_pos + target_len
+                punct = ""
+                if after_pos < len(text) and text[after_pos] in ".,":
+                    punct = text[after_pos]
+                    after_pos += 1
+                if punct:
+                    # Detect \end{...} suffix — insert punct before it so it
+                    # renders on the last line's baseline instead of vertical center.
+                    end_m = re.search(r"\\end\{[^}]*\}$", raw)
+                    if end_m:
+                        ins = end_m.start()
+                        modified_raw = raw[:ins] + R"\," + punct + raw[ins:]
+                    else:
+                        modified_raw = raw + R"\," + punct
+                    modified_target = "$$" + modified_raw + "$$"
+                    parts.append(modified_target)
+                    pos = after_pos  # skip absorbed punctuation in source
+                else:
+                    # No absorption — normal spacing logic
+                    parts.append(target)
+                    if needs_after:
+                        parts.append(" ")
+                    pos = dollar_pos + target_len
+                # --- end M3b ---
                 break
             close_pos = text.find("$$", dollar_pos + 2)
             if close_pos == -1:
