@@ -257,7 +257,7 @@ return chain.from_iterable(result.value for result in results)
         - [trill](trill%20consonant.md)::@::consonant produced by vibrations between the active articulator and the passive articulator <!--SR:!2027-08-28,1090,318!2032-11-17,2684,381-->
     - [place of articulation](place%20of%20articulation.md)::@::location along the [vocal tract](vocal%20tract.md) producing the consonant <!--SR:!2026-09-24,896,324!2032-08-09,2600,378-->
         - [alveolar](alveolar%20ridge.md)::@::upper [alveolar ridge](alveolar%20ridge.md), the [gum](gums.md) line behind the upper [teeth](tooth.md) (passive) <!--SR:!2027-02-23,921,339!2028-01-28,1189,350-->
-        - [aryepiglottal](pharyngeal%20consonant.md)::@::[aryepiglottic fold](aryepiglottic%20fold.md) in the [throat](throat.md) (active) <!--SR:!2026-11-04,958,353!2026-08-11,294,351-->
+        - [aryepiglottal](pharyngeal%20consonant.md)::@::[aryepiglottic fold](aryepiglottic%20fold.md) in the [throat](throat.md) (active) <!--SR:!2026-11-04,958,353!fsrs,2028-12-25T00:00:00.000Z,866,866.0998397,1.70601587,2,9,0,0,2026-08-12T00:00:00.000Z-->
         - [coronal](coronal%20constant.md)::@::front of the [tongue](tongue.md) (active) <!--SR:!2026-12-19,939,313!2026-12-17,839,298-->
             - [apical](apical%20consonant.md)::@::tip of the [tongue](tongue.md) (active) <!--SR:!2028-07-13,1304,324!2032-12-05,2691,378-->
             - [laminal](laminal%20consonant.md)::@::blade of the [tongue](tongue.md), the upper front surface behind the tip (active) <!--SR:!2029-04-24,1285,253!2030-06-26,1603,260-->
@@ -851,7 +851,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced alveolar lateral approximant](../../archives/Wikimedia%20Commons/Alveolar%20lateral%20approximant.ogg):@:[voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md) <!--SR:!fsrs,2027-07-15T06:00:37.993Z,395,395.39466129,7.49580362,2,9,0,0,2026-06-15T06:00:37.993Z-->
 - ![velarized alveolar lateral approximant](../../archives/Wikimedia%20Commons/Velarized%20alveolar%20lateral%20approximant.ogg):@:[velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md) <!--SR:!fsrs,2026-08-22T00:00:00.000Z,22,21.59840821,9.96459106,2,7,0,0,2026-07-31T00:00:00.000Z-->
 - ![voiceless alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20lateral%20fricative.ogg):@:[voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md) <!--SR:!fsrs,2026-11-07T00:00:00.000Z,106,106.27143203,6.97302442,2,7,0,0,2026-07-24T00:00:00.000Z-->
-- ![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg):@:[voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md) <!--SR:!fsrs,2026-08-11T06:01:20.395Z,57,57.42424931,8.49157352,2,6,0,0,2026-06-15T06:01:20.395Z-->
+- ![voiced retroflex lateral approximant](../../archives/Wikimedia%20Commons/Retroflex%20lateral%20approximant.ogg):@:[voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md) <!--SR:!fsrs,2026-11-01T00:00:00.000Z,81,81.36218353,8.98386458,2,7,0,0,2026-08-12T00:00:00.000Z-->
 - ![voiced alveolar lateral fricative](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20lateral%20fricative.ogg):@:[voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md) <!--SR:!fsrs,2026-11-06T00:00:00.000Z,93,93.24603081,7.95605389,2,7,0,0,2026-08-05T00:00:00.000Z-->
 - ![voiced velar lateral approximant](../../archives/Wikimedia%20Commons/Velar%20lateral%20approximant.ogg):@:[voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md) <!--SR:!fsrs,2026-09-20T00:00:00.000Z,54,54.25128115,9.97047151,2,7,0,0,2026-07-28T00:00:00.000Z-->
 - ![voiced bilabial nasal](../../archives/Wikimedia%20Commons/Bilabial%20nasal.ogg):@:[voiced bilabial nasal](voiced%20bilabial%20nasal.md) <!--SR:!2026-10-15,316,276-->
@@ -864,7 +864,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![close-mid back rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20back%20rounded%20vowel.ogg):@:[close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md) <!--SR:!2027-01-13,254,290-->
 - ![open-mid back rounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20rounded%20vowel.ogg):@:[open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md) <!--SR:!2027-07-24,827,296-->
 - ![nasalized open-mid back rounded vowel](../../archives/Wikimedia%20Commons/Fr-on.ogg):@:[nasalized open-mid back rounded vowel](nasal%20vowel.md) <!--SR:!fsrs,2026-09-26T00:00:00.000Z,55,55.29947701,9.97542228,2,7,0,0,2026-08-02T00:00:00.000Z-->
-- ![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg):@:[close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md) <!--SR:!2026-08-11,99,230-->
+- ![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg):@:[close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md) <!--SR:!fsrs,2027-01-29T00:00:00.000Z,170,170.37303484,7.49580362,2,8,0,0,2026-08-12T00:00:00.000Z-->
 - ![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg):@:[close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md) <!--SR:!2026-08-16,104,196-->
 - ![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg):@:[open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md) <!--SR:!fsrs,2026-08-14T00:00:00.000Z,21,21.39329026,9.95088872,2,6,0,0,2026-07-24T00:00:00.000Z-->
 - ![nasalized open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg):@:[nasalized open-mid front rounded vowel](nasal%20vowel.md) <!--SR:!fsrs,2026-09-02T00:00:00.000Z,37,36.73779276,9.43399524,2,6,0,0,2026-07-27T00:00:00.000Z-->
@@ -1104,7 +1104,7 @@ Here is a list of common IPA diacritics and their descriptions:
 - \[◌ʰ\] (e.g. [kʰ]):@:[aspirated](aspirated%20consonant.md) <!--SR:!2034-03-27,2859,358-->
 - \[◌’\] (e.g. [k’]):@:[ejective](ejective%20consonant.md) <!--SR:!2027-02-01,896,318-->
 - \[◌ː\] (e.g. [aː]):@:[long](longness%20(phonetics).md) <!--SR:!2033-03-04,2762,377-->
-- \[◌ˑ\] (e.g. [aˑ]):@:[half-long](half-longness%20(phonetics).md) <!--SR:!2026-08-11,460,291-->
+- \[◌ˑ\] (e.g. [aˑ]):@:[half-long](half-longness%20(phonetics).md) <!--SR:!fsrs,2029-08-05T00:00:00.000Z,1089,1088.97508013,3.95376587,2,10,0,0,2026-08-12T00:00:00.000Z-->
 - \[ˈ◌\] (e.g. [ˈa]):@:[primary stress](stress%20(lingustics).md) <!--SR:!2027-04-15,1029,357-->
 - \[ˌ◌\] (e.g. [ˌa]):@:[secondary stress](secondary%20stress.md) <!--SR:!2029-06-14,1570,361-->
 - \[.\]:@:[syllable break](syllable.md) <!--SR:!2030-11-09,1961,396-->

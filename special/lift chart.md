@@ -17,7 +17,7 @@ tags:
 
 A __lift chart__, also called {@{__cumulative gain chart__, or just __gain chart__}@}, is a chart that {@{visualizes the effect of a predictive [classification](../general/statistical%20classification.md) model}@}. <!--SR:!fsrs,2031-06-21T00:00:00.000Z,1828,1827.99318262,2.580677,2,10,0,0,2026-06-19T00:00:00.000Z!2031-01-04,1808,318-->
 
-A __decile-wise lift chart__ is a variant of the lift chart that {@{visualizes the [lift](../general/association%20rule%20learning.md#lift) in the ten [deciles](../general/decile.md) of the data}@}. <!--SR:!2026-08-11,595,310-->
+A __decile-wise lift chart__ is a variant of the lift chart that {@{visualizes the [lift](../general/association%20rule%20learning.md#lift) in the ten [deciles](../general/decile.md) of the data}@}. <!--SR:!fsrs,2032-08-22T00:00:00.000Z,2202,2202.01023461,1,2,10,0,0,2026-08-12T00:00:00.000Z-->
 
 ## construction
 

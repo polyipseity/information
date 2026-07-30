@@ -87,7 +87,7 @@ The content is in teaching order.
         - business process / functions / manufacturing and production ::@:: assembly, bill of materials, quality check <!--SR:!2026-08-18,312,348!2026-09-19,339,348-->
         - business process / functions / sales and marketing ::@:: customer identification, marketing, sales <!--SR:!2026-09-02,324,348!2026-09-24,343,348-->
         - business process / functions / finance and accounting ::@:: cash flow management, financial statements, repayment <!--SR:!2026-09-25,344,348!2026-09-09,330,348-->
-        - business process / functions / human resources ::@:: enrollment in benefits plans, evaluation, hiring <!--SR:!2026-08-11,306,348!2026-08-13,307,348-->
+        - business process / functions / human resources ::@:: enrollment in benefits plans, evaluation, hiring <!--SR:!fsrs,2030-06-12T00:00:00.000Z,1400,1400.28887431,1,2,9,0,0,2026-08-12T00:00:00.000Z!2026-08-13,307,348-->
     - business process / information technology ::@:: enable new processes by change, parallelization, etc.; increase efficiency by automation <!--SR:!2026-09-25,344,348!2026-09-13,334,348-->
 - information system
     - information system / types ::@:: transaction processing system \(TPS\) <!--SR:!2026-09-22,342,348!2026-08-25,318,348-->
@@ -121,7 +121,7 @@ The content is in teaching order.
 - [e-government](../../../../general/e-government.md) ::@:: use IT to deliver services and information to businesses, citizens, and employees <!--SR:!2026-09-16,336,348!2026-09-09,330,348-->
 - [collaboration](../../../../general/collaboration.md) ::@:: It is the process of two or more people, entities or organizations working together to complete a task or achieve a goal. <!--SR:!2026-09-01,323,348!2026-08-31,322,348-->
     - collaboration / types ::@:: short-term vs. long-term; informal vs. formal <!--SR:!2026-09-27,346,348!2026-09-05,327,348-->
-    - collaboration / importance ::@:: changing nature of firm and work <!--SR:!2026-08-23,316,348!2026-08-11,305,348-->
+    - collaboration / importance ::@:: changing nature of firm and work <!--SR:!2026-08-23,316,348!fsrs,2030-06-08T00:00:00.000Z,1396,1396.31611732,1,2,9,0,0,2026-08-12T00:00:00.000Z-->
 - [social business model](../../../../general/social%20business%20model.md) ::@:: It is use of social media tools and social networking behavioral standards by businesses for communication with customers, suppliers, and others. <!--SR:!2026-09-18,338,348!2026-08-16,310,348-->
     - social business model / goal ::@:: deepen interactions; expedite decision making, information sharing, and innovating \(thus requires information transparency\) <!--SR:!2026-08-19,312,348!2026-08-28,320,348-->
     - social business model / examples ::@:: blogs and wikis, communities, crowdsourcing, file sharing, shared workspaces, social commerce, social marketing, social networks <!--SR:!2026-09-23,342,348!2026-09-21,341,348-->

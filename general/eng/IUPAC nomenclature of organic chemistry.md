@@ -273,7 +273,7 @@ The steps for naming an organic compound are:
 
 - _(begin)_→::@::←commas (,) between locants <!--SR:!2035-11-13,3835,352!2032-05-27,2631,340-->
 - commas (,) between locants→::@::←hyphens (-) between word and locant <!--SR:!2027-12-20,1550,313!2028-07-15,1399,321-->
-- hyphens (-) between word and locant→::@::←remove (most) spaces ( ) <!--SR:!2026-08-11,1244,353!2027-07-15,1340,362-->
+- hyphens (-) between word and locant→::@::←remove (most) spaces ( ) <!--SR:!fsrs,2039-11-03T00:00:00.000Z,4831,4831.38403051,1,2,11,0,0,2026-08-12T00:00:00.000Z!2027-07-15,1340,362-->
 - remove (most) spaces ( )→::@::←_(end)_ <!--SR:!2028-05-21,1504,367!2034-12-04,3210,347-->
 
 <!--/pytextgen-->

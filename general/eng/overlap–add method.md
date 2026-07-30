@@ -80,7 +80,7 @@ Hence {@{the _cost_ of the overlap–add method}@} scales almost as {@{$O\left(N
 
 > {@{![Fig 3: Gain of the overlap-add method compared to a single, large circular convolution.](../../archives/Wikimedia%20Commons/Gain%20oa%20method.png)}@}
 >
-> Fig 3: Gain of {@{the overlap-add method compared to a single, large circular convolution \(annotation: created by MATLAB simulation\)}@}. The axes show {@{values of signal length N<sub>x</sub> and filter length N<sub>h</sub>}@}. <!--SR:!2026-08-11,318,348!2026-08-19,326,348!2026-09-05,340,348-->
+> Fig 3: Gain of {@{the overlap-add method compared to a single, large circular convolution \(annotation: created by MATLAB simulation\)}@}. The axes show {@{values of signal length N<sub>x</sub> and filter length N<sub>h</sub>}@}. <!--SR:!fsrs,2030-07-30T00:00:00.000Z,1448,1447.838609,1,2,9,0,0,2026-08-12T00:00:00.000Z!2026-08-19,326,348!2026-09-05,340,348-->
 
 ## see also
 

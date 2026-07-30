@@ -51,9 +51,9 @@ tags:
 >     - AX<sub>2</sub>E<sub>2</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!2026-09-01,155,305-->
 >     - AX<sub>2</sub>E<sub>2</sub> / example(s) ::@:: [H<sub>2</sub>O](water.md) <!--SR:!2027-03-17,320,345!2027-04-06,340,345-->
 > - AX<sub>2</sub>E<sub>3</sub>
->     - AX<sub>2</sub>E<sub>3</sub> / [shape](molecular%20geometry.md) ::@:: [linear](linear%20molecular%20geometry.md)<br/>![linear](../../archives/Wikimedia%20Commons/AX2E3-3D-balls.png) <!--SR:!2026-08-11,142,305!2027-04-06,340,345-->
+>     - AX<sub>2</sub>E<sub>3</sub> / [shape](molecular%20geometry.md) ::@:: [linear](linear%20molecular%20geometry.md)<br/>![linear](../../archives/Wikimedia%20Commons/AX2E3-3D-balls.png) <!--SR:!fsrs,2028-04-22T00:00:00.000Z,619,618.94941538,1.22984669,2,8,0,0,2026-08-12T00:00:00.000Z!2027-04-06,340,345-->
 >     - AX<sub>2</sub>E<sub>3</sub> / ideal bond angle(s) :@: 180° <!--SR:!2026-08-29,152,305-->
->     - AX<sub>2</sub>E<sub>3</sub> / example(s) ::@:: [XeF<sub>2</sub>](xenon%20difluoride.md) <!--SR:!2026-10-05,198,325!2026-08-11,76,245-->
+>     - AX<sub>2</sub>E<sub>3</sub> / example(s) ::@:: [XeF<sub>2</sub>](xenon%20difluoride.md) <!--SR:!2026-10-05,198,325!fsrs,2027-05-15T00:00:00.000Z,276,275.8636202,4.23169184,2,7,0,0,2026-08-12T00:00:00.000Z-->
 > - AX<sub>3</sub>E<sub>0</sub>
 >     - AX<sub>3</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal planar](trigonal%20planar%20molecular%20geometry.md)<br/>![trigonal planar](../../archives/Wikimedia%20Commons/AX3E0-3D-balls.png) <!--SR:!2027-04-05,339,345!2026-10-10,202,325-->
 >     - AX<sub>3</sub>E<sub>0</sub> / ideal bond angle(s) :@: 120° <!--SR:!fsrs,2027-09-04T16:39:00.381Z,454,454.30619422,1.22984669,2,8,0,0,2026-06-07T16:39:00.381Z-->
@@ -95,7 +95,7 @@ tags:
 >     - AX<sub>6</sub>E<sub>0</sub> / ideal bond angle(s) :@: 90° <!--SR:!2027-04-08,342,345-->
 >     - AX<sub>6</sub>E<sub>0</sub> / example(s) ::@:: [SF<sub>6</sub>](sulfur%20hexafluoride.md) <!--SR:!2026-10-07,199,325!2027-03-15,318,345-->
 > - AX<sub>6</sub>E<sub>1</sub>
->     - AX<sub>6</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal pyramidal](pentagonal%20pyramidal%20molecular%20geometry.md)<br/>![pentagonal pyramidal](../../archives/Wikimedia%20Commons/AX6E1-3D-balls.png) <!--SR:!2027-04-07,341,345!2026-08-11,102,305-->
+>     - AX<sub>6</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal pyramidal](pentagonal%20pyramidal%20molecular%20geometry.md)<br/>![pentagonal pyramidal](../../archives/Wikimedia%20Commons/AX6E1-3D-balls.png) <!--SR:!2027-04-07,341,345!fsrs,2027-11-20T00:00:00.000Z,465,464.71957937,1.22984669,2,8,0,0,2026-08-12T00:00:00.000Z-->
 >     - AX<sub>6</sub>E<sub>1</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2027-03-13,316,345-->
 >     - AX<sub>6</sub>E<sub>1</sub> / example(s) ::@:: XeOF<sub>5</sub><sup>-</sup> <!--SR:!2026-10-19,171,281!fsrs,2027-01-31T00:00:00.000Z,225,225.43113824,4.92779087,2,7,0,0,2026-06-20T00:00:00.000Z-->
 > - AX<sub>7</sub>E<sub>0</sub>

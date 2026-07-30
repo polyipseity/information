@@ -11,7 +11,7 @@ tags:
 
 # base (chemistry)
 
-A __base__ is {@{a [molecule](molecule.md) or [ion](ion.md) that can accept a [proton](proton.md), known as a [Brønsted–Lowry base](Brønsted–Lowry%20acid–base%20theory.md), or form a [coordinate covalent bond](coordinate%20covalent%20bond.md) by donating an [electron pair](electron%20pair.md), known as a [Lewis base](Lewis%20acids%20and%20bases.md)}@}. Any base that {@{is [water](water.md) [soluble](solubility.md) and forms [hydroxide ions](hydroxide.md) is called an __[alkali](alkali.md)__}@}. <!--SR:!2026-08-11,701,230!2028-04-13,1247,290-->
+A __base__ is {@{a [molecule](molecule.md) or [ion](ion.md) that can accept a [proton](proton.md), known as a [Brønsted–Lowry base](Brønsted–Lowry%20acid–base%20theory.md), or form a [coordinate covalent bond](coordinate%20covalent%20bond.md) by donating an [electron pair](electron%20pair.md), known as a [Lewis base](Lewis%20acids%20and%20bases.md)}@}. Any base that {@{is [water](water.md) [soluble](solubility.md) and forms [hydroxide ions](hydroxide.md) is called an __[alkali](alkali.md)__}@}. <!--SR:!fsrs,2031-08-16T00:00:00.000Z,1830,1829.93970322,4.98215312,2,10,0,0,2026-08-12T00:00:00.000Z!2028-04-13,1247,290-->
 
 It is {@{an [electrolyte](electrolyte.md)}@}, can taste {@{bitter}@}, turns {@{red [litmus](litmus.md) blue}@}, and [neutralizes](neutralization%20(chemistry).md) {@{[acids](acid.md) to form [salts](salt%20(chemistry).md)}@}. {@{Strong bases}@} are [corrosive](corrosive%20substance.md). <!--SR:!2027-09-19,1273,350!2030-11-13,2128,330!2026-09-27,916,330!2032-01-15,2451,330!2031-06-12,2286,330-->
 

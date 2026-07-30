@@ -84,13 +84,13 @@ In {@{value iteration \([Bellman 1958](#CITEREFBellman1958)\), which is also cal
 
 #### policy iteration
 
-In {@{policy iteration \([Howard 1960](#CITEREFHoward1960)\)}@}, one first {@{performs _Value Determination_}@} by solving {@{for $V$ from the linear system described in step one}@}, then {@{performs _Policy Improvement_}@} by computing {@{$\pi$ as in step two}@}, then {@{repeats both steps until the policy converges}@}. \(Policy iteration was invented by {@{Howard to optimize [Sears](Sears.md) catalogue mailing}@}, which he {@{had been optimizing using value iteration}@}.<sup>[\[9\]](#^ref-9)</sup>\) <!--SR:!2028-08-30,1053,349!2030-02-18,1494,369!2030-05-11,1564,369!2028-08-05,1034,349!2030-02-01,1477,369!2026-08-12,135,422!2026-08-11,134,422!2026-08-13,136,422-->
+In {@{policy iteration \([Howard 1960](#CITEREFHoward1960)\)}@}, one first {@{performs _Value Determination_}@} by solving {@{for $V$ from the linear system described in step one}@}, then {@{performs _Policy Improvement_}@} by computing {@{$\pi$ as in step two}@}, then {@{repeats both steps until the policy converges}@}. \(Policy iteration was invented by {@{Howard to optimize [Sears](Sears.md) catalogue mailing}@}, which he {@{had been optimizing using value iteration}@}.<sup>[\[9\]](#^ref-9)</sup>\) <!--SR:!2028-08-30,1053,349!2030-02-18,1494,369!2030-05-11,1564,369!2028-08-05,1034,349!2030-02-01,1477,369!2026-08-12,135,422!fsrs,2028-08-16T00:00:00.000Z,735,735.10222202,1,2,8,0,0,2026-08-12T00:00:00.000Z!2026-08-13,136,422-->
 
 Since {@{policy iteration}@} effectively {@{interleaves a linear inverse problem with a nonlinear operation}@}, it may interpreted as a type of {@{[relaxation](relaxation%20(iterative%20method).md) method}@}. <!--SR:!2030-09-07,1659,369!2029-12-20,1434,369!2030-07-18,1616,369-->
 
-{@{This variant}@} has the advantage that there is {@{a definite stopping condition}@}. Since there is {@{a unique solution $V$ for each policy $\pi$}@}, {@{the algorithm is completed}@} once {@{the _Policy Improvement_ produces the same policy twice consecutively}@}. <!--SR:!2030-07-26,1624,369!2028-01-21,803,329!2030-05-30,1576,369!2026-08-11,134,422!2026-08-12,135,422-->
+{@{This variant}@} has the advantage that there is {@{a definite stopping condition}@}. Since there is {@{a unique solution $V$ for each policy $\pi$}@}, {@{the algorithm is completed}@} once {@{the _Policy Improvement_ produces the same policy twice consecutively}@}. <!--SR:!2030-07-26,1624,369!2028-01-21,803,329!2030-05-30,1576,369!fsrs,2028-08-16T00:00:00.000Z,735,735.10222202,1,2,8,0,0,2026-08-12T00:00:00.000Z!2026-08-12,135,422-->
 
-While there are situations where {@{policy iteration may be faster than value iteration}@} \(e.g. when {@{the action space is significantly larger than the state space}@}\), policy iteration is {@{usually slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349!2026-08-21,149,421!2026-08-11,140,421!2026-08-14,137,422-->
+While there are situations where {@{policy iteration may be faster than value iteration}@} \(e.g. when {@{the action space is significantly larger than the state space}@}\), policy iteration is {@{usually slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349!2026-08-21,149,421!fsrs,2028-09-13T00:00:00.000Z,763,763.30968033,1,2,8,0,0,2026-08-12T00:00:00.000Z!2026-08-14,137,422-->
 
 #### modified policy iteration
 
@@ -98,7 +98,7 @@ In {@{modified policy iteration \([van Nunen 1976](#CITEREFvan%20Nunen1976); [Pu
 
 #### prioritized sweeping
 
-In {@{this variant}@}, the steps are {@{preferentially applied to states which are in some way important}@} – whether based on {@{the algorithm \(there were large changes in $V$ or $\pi$ around those states recently\)}@} or based on {@{use \(those states are near the starting state, or otherwise of interest to the person or program using the algorithm\)}@}. <!--SR:!2030-07-13,1614,369!2027-12-08,771,329!2029-06-14,1207,349!2026-08-11,134,422-->
+In {@{this variant}@}, the steps are {@{preferentially applied to states which are in some way important}@} – whether based on {@{the algorithm \(there were large changes in $V$ or $\pi$ around those states recently\)}@} or based on {@{use \(those states are near the starting state, or otherwise of interest to the person or program using the algorithm\)}@}. <!--SR:!2030-07-13,1614,369!2027-12-08,771,329!2029-06-14,1207,349!fsrs,2028-08-16T00:00:00.000Z,735,735.10222202,1,2,8,0,0,2026-08-12T00:00:00.000Z-->
 
 ### computational complexity
 

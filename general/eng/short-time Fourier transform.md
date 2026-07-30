@@ -202,7 +202,7 @@ Applying {@{the recursive formula to calculate $X(n\Delta _{t},m\Delta _{f})$}@}
 > - direct implementation ::@:: $O(TFQ)$ \(annotation: For each time value and frequency, $2Q+1$ multiplications are needed.\) <!--SR:!fsrs,2029-08-06T11:18:42.565Z,1158,1157.92961471,1,2,9,0,0,2026-06-05T11:18:42.565Z!2026-08-14,323,349-->
 > - FFT-based ::@:: $O(TN\log _{2}N)$ \(annotation: Each time value requires a FFT. FFT gives the $F$ frequencies directly, and has a complexity of $O(N \log_2 N)$.\) <!--SR:!2026-09-17,350,349!2026-09-04,339,349-->
 > - recursive ::@:: $O(TF)$ \(annotation: Once the base case is calculated, for each time value and frequency, only 2 multiplications are needed.\) <!--SR:!2026-09-10,344,349!2026-09-15,348,349-->
-> - chirp Z-transform ::@:: $O(TN\log _{2}N)$ \(annotation: It is a generalization of DFT, and can be evaluated efficiently using FFT.\) <!--SR:!2026-08-11,318,349!2028-09-11,871,330-->
+> - chirp Z-transform ::@:: $O(TN\log _{2}N)$ \(annotation: It is a generalization of DFT, and can be evaluated efficiently using FFT.\) <!--SR:!fsrs,2030-08-03T00:00:00.000Z,1452,1452.45647797,1,2,9,0,0,2026-08-12T00:00:00.000Z!2028-09-11,871,330-->
 
 ## see also
 

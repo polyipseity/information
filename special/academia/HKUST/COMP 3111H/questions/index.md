@@ -92,7 +92,7 @@ tags:
 > ---
 >
 > - solution: {@{1. overlapping, incomplete <br/> 2. disjoint, incomplete <br/> 3. disjoint, complete <br/> 4. overlapping, complete <br/> 5. disjoint, complete}@}
-> - annotation: {@{There are other possible answers according to the _application domain_.}@} <!--SR:!2026-08-11,236,330!2026-10-11,280,330-->
+> - annotation: {@{There are other possible answers according to the _application domain_.}@} <!--SR:!fsrs,2029-06-30T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-12T00:00:00.000Z!2026-10-11,280,330-->
 
 ## week 2 lecture
 

@@ -79,7 +79,7 @@ There are {@{innumerable other integrals}@} that can be {@{solved using the tech
 
 ### infinite series
 
-{@{The measure-theoretic version}@} of {@{differentiation under the integral sign}@} also {@{applies to summation \(finite or infinite\)}@} by {@{interpreting summation as [counting measure](counting%20measure.md)}@}. {@{An example of an application}@} is the fact that {@{[power series](power%20series.md) are differentiable in their radius of convergence}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-10-12,359,356!2026-08-17,313,356!2026-10-17,363,356!2026-08-11,307,356!2026-08-11,307,356!2026-08-12,308,356-->
+{@{The measure-theoretic version}@} of {@{differentiation under the integral sign}@} also {@{applies to summation \(finite or infinite\)}@} by {@{interpreting summation as [counting measure](counting%20measure.md)}@}. {@{An example of an application}@} is the fact that {@{[power series](power%20series.md) are differentiable in their radius of convergence}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> <!--SR:!2026-10-12,359,356!2026-08-17,313,356!2026-10-17,363,356!fsrs,2030-07-22T00:00:00.000Z,1440,1440.13779047,1,2,9,0,0,2026-08-12T00:00:00.000Z!fsrs,2030-07-22T00:00:00.000Z,1440,1440.13779047,1,2,9,0,0,2026-08-12T00:00:00.000Z!2026-08-12,308,356-->
 
 ### Euler-Lagrange equations
 

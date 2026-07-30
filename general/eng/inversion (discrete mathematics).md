@@ -57,7 +57,7 @@ This article uses {@{the term _inversion vector_ \($v$\) like [Wolfram](Wolfram%
 
 __Inversion vector $v$:__ ::@:: With the _element-based_ definition $v(i)$ is the number of inversions whose _smaller_ \(right\) component is $i$.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2027-07-31,455,252!fsrs,2030-05-21T00:00:00.000Z,1429,1428.75227614,1.88024646,2,10,0,0,2026-06-22T00:00:00.000Z-->
 
-- inversion vector, in words ::@:: $v(i)$ is the number of elements in $\pi$ greater than $i$ before $i$. <!--SR:!2026-08-11,332,272!2027-02-13,566,312-->
+- inversion vector, in words ::@:: $v(i)$ is the number of elements in $\pi$ greater than $i$ before $i$. <!--SR:!fsrs,2029-09-24T00:00:00.000Z,1139,1139.27881229,2.88086152,2,9,0,0,2026-08-12T00:00:00.000Z!2027-02-13,566,312-->
 - inversion vector, symbolically ::@:: $$v(i)~~=~~\#\{k\mid k>i~\land ~\pi ^{-1}(k)<\pi ^{-1}(i)\}$$ <!--SR:!fsrs,2030-05-17T00:00:00.000Z,1426,1425.55248587,1.88024646,2,10,0,0,2026-06-21T00:00:00.000Z!2026-11-19,532,312-->
 
 __Left inversion count $l$:__ ::@:: With the _place-based_ definition $l(i)$ is the number of inversions whose _bigger_ \(right\) component is $i$. <!--SR:!fsrs,2028-06-01T00:35:29.408Z,726,726.37957881,5.41480337,2,9,0,0,2026-06-06T00:35:29.408Z!2027-04-30,607,312-->
