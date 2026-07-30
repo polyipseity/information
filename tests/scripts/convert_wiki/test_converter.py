@@ -12,6 +12,7 @@ from anyio import Path as AnyioPath
 from bs4 import BeautifulSoup
 
 from scripts.convert_wiki.converter import WikiHtmlConverter
+from scripts.convert_wiki.latex import LatexConverter
 from scripts.convert_wiki.types import _RedirectInfo
 
 """Public API of this test module (empty: no symbols are exported)."""
@@ -790,7 +791,7 @@ class TestStaticUtilities:
 
     def test_escape_latex_text(self) -> None:
         """Special LaTeX chars should be escaped properly."""
-        result = WikiHtmlConverter._escape_latex_text(r"a & b $10\%")
+        result = LatexConverter._escape_latex_text(r"a & b $10%")
         assert "\\&" in result
         assert "\\$" in result
         assert "\\%" in result
