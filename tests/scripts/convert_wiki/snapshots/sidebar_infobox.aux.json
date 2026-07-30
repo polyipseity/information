@@ -2,8 +2,17 @@
   "image_metadata": {},
   "name_map_overrides": {},
   "redirect_cache": {
-    "Related topic 1": { "to": "Related topic 1", "tofragment": "" },
-    "Related topic 2": { "to": "Related topic 2", "tofragment": "" },
-    "Related topic 3": { "to": "Related topic 3", "tofragment": "" }
+    "Related topic 1": {
+      "to": "Related topic 1",
+      "tofragment": ""
+    },
+    "Related topic 2": {
+      "to": "Related topic 2",
+      "tofragment": ""
+    },
+    "Related topic 3": {
+      "to": "Related topic 3",
+      "tofragment": ""
+    }
   }
 }
