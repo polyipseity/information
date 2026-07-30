@@ -9,7 +9,7 @@ tags:
 
 # Python control flow
 
-Keep in mind a thing mostly unique to Python: {@{Indentation matters in Python, so do not omit the indentations shown below.}@} <!--SR:!2026-08-10,234,330-->
+Keep in mind a thing mostly unique to Python: {@{Indentation matters in Python, so do not omit the indentations shown below.}@} <!--SR:!fsrs,2029-06-21T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-11T00:00:00.000Z-->
 
 ## branching
 
@@ -46,7 +46,7 @@ else:
 
 {@{The semantics of `if...elif...else`}@} can be found by {@{considering the semantics of chaining `if...else`}@}: {@{The statement block after the first `true` condition}@} is {@{executed}@}. If there are {@{no `true` conditions}@}, {@{the statement block after `else` is executed}@} if {@{there is an `else`}@}. Otherwise, {@{nothing is executed}@}. Note that {@{the conditions up until the first `true` condition \(inclusive\)}@} are themselves {@{always executed in the appearance order}@}, ignoring {@{statement blocks along the way}@}. If {@{there are no `true` conditions}@}, {@{all conditions}@} are always {@{executed in the appearance order}@}, followed by {@{the `else` statement block if there is one}@}. <!--SR:!2026-10-01,263,330!2026-10-09,271,330!2026-08-31,253,330!2026-08-30,252,330!2026-10-08,270,330!2026-10-27,289,330!2026-10-15,277,330!2026-10-31,293,330!2026-08-31,253,330!2026-08-18,241,330!2026-10-29,291,330!2026-10-18,280,330!2026-10-23,285,330!2026-10-11,273,330!2026-10-20,282,330-->
 
-If there are {@{no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2026-10-28,290,330!2026-10-26,288,330!2026-08-10,235,330!2027-07-09,443,390-->
+If there are {@{no statements to be executed in a branch}@}, you {@{must still put a properly indented `pass` statement}@}, which {@{does nothing, for that branch}@}. This is also {@{true for other control flow constructs introduced below}@}. For example: <!--SR:!2026-10-28,290,330!2026-10-26,288,330!fsrs,2029-06-25T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-08-11T00:00:00.000Z!2027-07-09,443,390-->
 
 ```Python
 if condition:
@@ -89,4 +89,4 @@ while condition:
   pass # required, otherwise error
 ```
 
-You can of course {@{put branches and loops}@} inside loops. <!--SR:!2026-08-10,236,330-->
+You can of course {@{put branches and loops}@} inside loops. <!--SR:!fsrs,2029-06-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-11T00:00:00.000Z-->

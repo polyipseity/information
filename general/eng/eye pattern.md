@@ -21,7 +21,7 @@ In {@{[telecommunications](telecommunications.md)}@}, {@{an __eye pattern__, als
 
 From {@{a mathematical perspective}@}, an eye pattern is a visualization of {@{the [probability density function](probability%20density%20function.md) \(PDF\) of the signal}@}, {@{[modulo](modular%20arithmetic.md) the [unit interval](unit%20interval%20(data%20transmission).md) \(UI\)}@}. In other words, it shows the probability of {@{the signal being at each possible voltage across the duration of the UI}@}. Typically {@{a [color ramp](false%20color.md#pseudocolor) is applied to the PDF}@} in order to {@{make small brightness differences easier to visualize}@}. <!--SR:!2026-08-25,272,330!fsrs,2029-09-03T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-04T00:00:00.000Z!2026-09-10,284,330!fsrs,2029-07-15T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-23T00:00:00.000Z!2026-08-18,266,330!2026-08-22,267,330-->
 
-{@{Several [system](system.md) performance measurements}@} can be derived by {@{analyzing the display}@}. If the signals are {@{too long, too short, poorly synchronized with the system clock}@}, {@{too high, too low, too [noisy](noise%20(electronics).md)}@}, or {@{too slow to change, or have too much undershoot or [overshoot](overshoot%20(signal).md)}@}, this can be {@{observed from the eye diagram}@}. {@{An open eye pattern}@} corresponds to {@{minimal signal [distortion](distortion.md)}@}. {@{Distortion of the signal [waveform](waveform.md)}@} due to {@{[intersymbol interference](intersymbol%20interference.md) and noise}@} appears as {@{closure of the eye pattern}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!fsrs,2029-07-10T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-07-22T00:00:00.000Z!fsrs,2029-07-26T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-07-26T00:00:00.000Z!2026-08-15,263,330!2026-08-30,276,330!fsrs,2029-06-15T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-07-16T00:00:00.000Z!2026-08-10,259,330!fsrs,2029-07-30T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-07-27T00:00:00.000Z!2026-08-25,272,330!fsrs,2029-05-20T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-10T00:00:00.000Z!2026-09-01,276,330!fsrs,2029-05-15T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-07-09T00:00:00.000Z-->
+{@{Several [system](system.md) performance measurements}@} can be derived by {@{analyzing the display}@}. If the signals are {@{too long, too short, poorly synchronized with the system clock}@}, {@{too high, too low, too [noisy](noise%20(electronics).md)}@}, or {@{too slow to change, or have too much undershoot or [overshoot](overshoot%20(signal).md)}@}, this can be {@{observed from the eye diagram}@}. {@{An open eye pattern}@} corresponds to {@{minimal signal [distortion](distortion.md)}@}. {@{Distortion of the signal [waveform](waveform.md)}@} due to {@{[intersymbol interference](intersymbol%20interference.md) and noise}@} appears as {@{closure of the eye pattern}@}.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!fsrs,2029-07-10T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-07-22T00:00:00.000Z!fsrs,2029-07-26T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-07-26T00:00:00.000Z!2026-08-15,263,330!2026-08-30,276,330!fsrs,2029-06-15T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-07-16T00:00:00.000Z!fsrs,2029-09-26T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-08-11T00:00:00.000Z!fsrs,2029-07-30T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-07-27T00:00:00.000Z!2026-08-25,272,330!fsrs,2029-05-20T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-10T00:00:00.000Z!2026-09-01,276,330!fsrs,2029-05-15T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-07-09T00:00:00.000Z-->
 
 ## calculation
 
@@ -77,7 +77,7 @@ The eye pattern of {@{a [NRZ](non-return-to-zero.md) \(annotation: non-return-to
 
 > {@{![Eye pattern of a 1.25 Gbit/s NRZ signal](../../archives/Wikimedia%20Commons/Eye%20pattern%20example.png)}@}
 >
-> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} <!--SR:!2026-08-10,259,330!fsrs,2029-06-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-17T00:00:00.000Z!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z-->
+> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} <!--SR:!fsrs,2029-09-26T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-08-11T00:00:00.000Z!fsrs,2029-06-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-17T00:00:00.000Z!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z-->
 
 ### MLT-3
 
@@ -93,7 +93,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 > {@{![Eye pattern of a PAM-3 signal \([100BASE-T1](100BASE-T1.md#100BASE-T1) automotive Ethernet\)](../../archives/Wikimedia%20Commons/Eye%20pattern%20PAM3.png)}@}
 >
-> {@{Eye pattern}@} of {@{a PAM-3 signal}@} \({@{[100BASE-T1](100BASE-T1.md#100BASE-T1) automotive Ethernet}@}\) <!--SR:!2026-08-21,268,330!2026-09-04,279,330!2026-08-10,259,330!2026-08-19,267,330-->
+> {@{Eye pattern}@} of {@{a PAM-3 signal}@} \({@{[100BASE-T1](100BASE-T1.md#100BASE-T1) automotive Ethernet}@}\) <!--SR:!2026-08-21,268,330!2026-09-04,279,330!fsrs,2029-09-26T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-08-11T00:00:00.000Z!2026-08-19,267,330-->
 
 ### PSK
 

@@ -83,7 +83,7 @@ tags:
 >     - AX<sub>5</sub>E<sub>0</sub> / ideal bond angle(s) :@: 90°, 120° <!--SR:!2027-03-08,311,345-->
 >     - AX<sub>5</sub>E<sub>0</sub> / example(s) ::@:: [PCl<sub>5</sub>](phosphorous%20pentachloride.md) <!--SR:!2026-10-20,139,325!2026-10-10,202,325-->
 > - AX<sub>5</sub>E<sub>1</sub>
->     - AX<sub>5</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [square pyramidal](square%20pyramidal%20molecular%20geometry.md)<br/>![square pyramidal](../../archives/Wikimedia%20Commons/AX5E1-3D-balls.png) <!--SR:!2026-08-10,101,305!2027-04-04,338,345-->
+>     - AX<sub>5</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [square pyramidal](square%20pyramidal%20molecular%20geometry.md)<br/>![square pyramidal](../../archives/Wikimedia%20Commons/AX5E1-3D-balls.png) <!--SR:!fsrs,2027-05-31T00:00:00.000Z,293,293.09684021,3.42929087,2,8,0,0,2026-08-11T00:00:00.000Z!2027-04-04,338,345-->
 >     - AX<sub>5</sub>E<sub>1</sub> / ideal bond angle(s) :@: 90° <!--SR:!2027-03-31,334,345-->
 >     - AX<sub>5</sub>E<sub>1</sub> / example(s) ::@:: [BrF<sub>5</sub>](bromine%20pentafluoride.md) <!--SR:!fsrs,2026-12-20T16:38:58.456Z,196,196.18685601,1.22984669,2,6,0,0,2026-06-07T16:38:58.456Z!2026-09-27,189,325-->
 > - AX<sub>5</sub>E<sub>2</sub>
@@ -107,7 +107,7 @@ tags:
 >     - AX<sub>8</sub>E<sub>0</sub> / example(s) ::@:: XeF<sub>8</sub><sup>2-</sup> <!--SR:!2027-02-02,276,341!2026-10-08,200,325-->
 > - AX<sub>9</sub>E<sub>0</sub>
 >     - AX<sub>9</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [tricapped trigonal antiprismatic](tricapped%20trigonal%20antiprismatic%20molecular%20geometry.md)<br/>![tricapped trigonal antiprismatic](../../archives/Wikimedia%20Commons/AX9E0-3D-balls.png) <!--SR:!2026-10-05,198,325!fsrs,2027-06-05T00:00:00.000Z,325,324.72497743,2.23046173,2,7,0,0,2026-07-15T00:00:00.000Z-->
->     - AX<sub>9</sub>E<sub>0</sub> / example(s) ::@:: ReH<sub>9</sub><sup>2-</sup> <!--SR:!2026-08-10,141,305!2026-10-04,197,325-->
+>     - AX<sub>9</sub>E<sub>0</sub> / example(s) ::@:: ReH<sub>9</sub><sup>2-</sup> <!--SR:!fsrs,2027-09-09T00:00:00.000Z,394,394.17173257,3.42929087,2,8,0,0,2026-08-11T00:00:00.000Z!2026-10-04,197,325-->
 
 ## references
 

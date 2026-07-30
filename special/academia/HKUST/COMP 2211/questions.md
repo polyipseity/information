@@ -973,7 +973,7 @@ tags:
 > model.add(Dense(10, activation='sigmoid'))
 > ```
 >
-> - solution: {@{`Dropout(...)` can be ignored since they have no parameters. <br/> input → `Dense(1000, ...)`: 500 \* 1000 + 1000 = 501000 <br/> `Dense(1000, ...)` → `Dense(400, ...)`: 1000 \* 400 + 400 = 400400 <br/> `Dense(400, ...)` → `Dense(10, ...)`: 400 \* 10 + 10 = 4010 <br/> total params: 501000 + 400400 + 4010 = 905410}@} <!--SR:!2026-08-10,435,310-->
+> - solution: {@{`Dropout(...)` can be ignored since they have no parameters. <br/> input → `Dense(1000, ...)`: 500 \* 1000 + 1000 = 501000 <br/> `Dense(1000, ...)` → `Dense(400, ...)`: 1000 \* 400 + 400 = 400400 <br/> `Dense(400, ...)` → `Dense(10, ...)`: 400 \* 10 + 10 = 4010 <br/> total params: 501000 + 400400 + 4010 = 905410}@} <!--SR:!fsrs,2031-03-11T00:00:00.000Z,1673,1673.35327265,1,2,10,0,0,2026-08-11T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

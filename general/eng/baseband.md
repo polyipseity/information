@@ -62,7 +62,7 @@ The figure below shows {@{AM modulation}@}: <!--SR:!2026-09-12,285,330-->
 
 > {@{![Comparison of the equivalent baseband version of a signal and its AM-modulated \(double-[sideband](sideband.md)\) RF version, showing the typical doubling of the occupied bandwidth.](../../archives/Wikimedia%20Commons/Baseband%20to%20RF.svg)}@}
 >
-> {@{Comparison of the equivalent baseband version of a signal}@} and {@{its AM-modulated \(double-[sideband](sideband.md)\) RF version}@}, showing {@{the typical doubling of the occupied bandwidth}@}. <!--SR:!2026-08-17,265,330!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z!2026-08-31,276,330!2026-08-10,259,330-->
+> {@{Comparison of the equivalent baseband version of a signal}@} and {@{its AM-modulated \(double-[sideband](sideband.md)\) RF version}@}, showing {@{the typical doubling of the occupied bandwidth}@}. <!--SR:!2026-08-17,265,330!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z!2026-08-31,276,330!fsrs,2029-09-26T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-08-11T00:00:00.000Z-->
 
 ## see also
 

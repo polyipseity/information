@@ -102,7 +102,7 @@ A key idea in assembly that {@{code and data are treated the same}@}. Indeed, da
 - `resb <size>` ::@:: Reserve `<size>` number of bytes. All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2031-04-22,1927,385!2030-09-03,1747,385-->
 - `resd <size>` ::@:: Reserve `<size>` number of dwords (4 bytes, double word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2031-05-12,1947,385!2028-11-20,1206,365-->
 - `resq <size>` ::@:: Reserve `<size>` number of qwords (8 bytes, quadruple word). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2027-09-05,832,345!2031-05-23,1957,385-->
-- `resw <size>` ::@:: Reserve `<size>` number of word (2 bytes). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!2026-08-10,501,323!2029-09-12,1454,377-->
+- `resw <size>` ::@:: Reserve `<size>` number of word (2 bytes). All modern operating systems will also fill it with zeros. It is commonly used in `.bss`. <!--SR:!fsrs,2032-01-13T00:00:00.000Z,1981,1981.37704509,1,2,10,0,0,2026-08-11T00:00:00.000Z!2029-09-12,1454,377-->
 
 Since {@{a program requires a starting point}@}, usually we are required to {@{[label](#labels) the starting instruction with the name `_start`}@}, and make it {@{global by prepending the line `global _start` before the line with the `_start` label}@}. <!--SR:!2031-10-08,1993,343!2029-01-10,1179,365!2028-07-18,816,437-->
 

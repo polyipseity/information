@@ -332,7 +332,7 @@ Finally, compare {@{the _possible variance_ a _type_ can have versus its _actual
 >   // val d3: A[T, U, V] => Unit = ???  // interesting...
 > ```
 >
-> {@{Commented out code}@} {@{fails to compile}@}. Try to {@{run the above algorithm}@} on this code. <!--SR:!2026-08-19,217,475!2026-08-10,209,475!2026-08-20,218,475!fsrs,2029-07-13T00:00:00.000Z,1069,1069.06119094,1,2,9,0,0,2026-08-09T00:00:00.000Z-->
+> {@{Commented out code}@} {@{fails to compile}@}. Try to {@{run the above algorithm}@} on this code. <!--SR:!2026-08-19,217,475!fsrs,2028-06-14T00:00:00.000Z,673,672.96957377,1,2,9,0,0,2026-08-11T00:00:00.000Z!2026-08-20,218,475!fsrs,2029-07-13T00:00:00.000Z,1069,1069.06119094,1,2,9,0,0,2026-08-09T00:00:00.000Z-->
 
 By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP is maintained}@}, preserving {@{type safety and preventing runtime` errors}@}. <!--SR:!2028-10-04,888,449!2028-11-16,928,449!2028-06-26,788,440-->
 
@@ -350,7 +350,7 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 > case class ChildCovariant[+T](v: T)        extends Parent[T]
 > // case class ChildContravariant[-T](v: T) extends Parent[T]  // ❌ compilation error
 > ```
-<!--SR:!2028-10-18,899,460!2028-11-19,931,460!2028-10-18,902,460!2028-11-21,936,460!2028-11-15,927,460!2026-08-10,209,475-->
+<!--SR:!2028-10-18,899,460!2028-11-19,931,460!2028-10-18,902,460!2028-11-21,936,460!2028-11-15,927,460!fsrs,2029-07-24T00:00:00.000Z,1078,1077.96861472,1,2,9,0,0,2026-08-11T00:00:00.000Z-->
 
 We see:
 
@@ -811,7 +811,7 @@ Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> t
 
 Scala supports {@{logical expressions}@}. They are {@{as in Java}@}, and includes {@{`true`, `false`, `!<expr>`, `<expr 1> && <expr 2>`, and `<expr 1> || <expr 2>`}@}. Evaluation uses {@{short circuiting}@}: If {@{`<expr 1>` evaluates to `true`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> || <expr 2>`}@}; if {@{`<expr 1>` evaluates to `false`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> && <expr 2>`}@}. <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-07-24T00:00:00.000Z!2026-08-29,268,330!fsrs,2029-06-07T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-07-20T00:00:00.000Z!2026-09-28,292,330!2026-09-29,293,330!2026-08-25,265,330!2026-09-02,271,330!2026-08-27,266,330-->
 
-Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2026-09-10,277,330!2026-08-10,254,330-->
+Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2026-09-10,277,330!fsrs,2029-09-06T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-08-11T00:00:00.000Z-->
 
 ### anonymous functions
 
@@ -1184,7 +1184,7 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 > ```Scala
 > e1.flatMap(x => for y <- e2; s yield e3)
 > ```
-<!--SR:!2028-09-20,874,449!2028-05-27,782,440!2026-08-10,209,475-->
+<!--SR:!2028-09-20,874,449!2028-05-27,782,440!fsrs,2029-07-24T00:00:00.000Z,1078,1077.96861472,1,2,9,0,0,2026-08-11T00:00:00.000Z-->
 
 An example is {@{the prime-pair generator}@}: <!--SR:!2028-09-12,866,449-->
 

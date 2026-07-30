@@ -20,7 +20,7 @@ tags:
 
 Ideation consists of {@{alternation between [divergent](divergent%20thinking.md) and [convergent thinking](convergent%20thinking.md)}@}. <!--SR:!2029-03-03,1369,350-->
 
-Divergent thinking is supposed to {@{enhance creativity of thinkers}@}. During divergent thinking, having {@{a diverse group of people}@} involved is important. Good practice is {@{encouraging people to go wild with many ideas, and avoiding evaluation}@}. <!--SR:!2027-04-20,823,330!2029-03-26,1384,350!2026-08-10,566,310-->
+Divergent thinking is supposed to {@{enhance creativity of thinkers}@}. During divergent thinking, having {@{a diverse group of people}@} involved is important. Good practice is {@{encouraging people to go wild with many ideas, and avoiding evaluation}@}. <!--SR:!2027-04-20,823,330!2029-03-26,1384,350!fsrs,2032-05-19T00:00:00.000Z,2108,2107.55877867,1,2,10,0,0,2026-08-11T00:00:00.000Z-->
 
 Convergent thinking is supposed to {@{find the best and the most concrete solution}@}. <!--SR:!2027-04-28,828,330-->
 
@@ -36,7 +36,7 @@ Technology feasibility describes {@{the possibility of producing a product withi
 
 Business viability describes {@{how the business can survive}@}. The three important factors to consider are {@{competition, market size, and target audience}@}. <!--SR:!2027-10-11,930,310!2027-04-23,762,290-->
 
-The three factors above are {@{interdependent and must be balanced for a successful business}@}. Deep understanding of {@{the business model, market, and technology}@} is required. <!--SR:!2028-02-23,1030,310!2026-08-10,582,290-->
+The three factors above are {@{interdependent and must be balanced for a successful business}@}. Deep understanding of {@{the business model, market, and technology}@} is required. <!--SR:!2028-02-23,1030,310!fsrs,2032-02-08T00:00:00.000Z,2007,2007.05294491,1.98030797,2,10,0,0,2026-08-11T00:00:00.000Z-->
 
 Design thinking can be used in {@{design conceptualization}@}. It is the {@{most important stage of product development}@} because it is {@{at the start of the product development and requires the least effort, so it produces the highest rate of return}@}. The rate of return decreases along the stages as {@{mistakes in later stages become much more costly}@}. <!--SR:!fsrs,2032-04-17T05:22:35.429Z,2134,2133.66892526,1,2,10,0,0,2026-06-14T05:22:35.429Z!2027-01-26,753,330!2032-02-24,2166,330!2029-06-14,1361,310-->
 

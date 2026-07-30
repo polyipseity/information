@@ -303,7 +303,7 @@ The content is in teaching order.
 - related goods ::@:: complementary goods, substitute goods, independent goods <!--SR:!2031-07-14,1949,402!2032-12-31,2404,411-->
     - [substitute good](../../../../general/substitute%20good.md) ::@:: Two goods are substitutes if you can use one of them instead of the other to satisfy a purpose. Technically, it displays a positive _cross elasticity of demand_ and that demand (curve) for it decreases when the price of another good decreases. <!--SR:!fsrs,2032-12-18T00:00:00.000Z,2334,2333.93861993,1,2,10,0,0,2026-07-29T00:00:00.000Z!2032-10-31,2365,411-->
     - [complementary good](../../../../general/complementary%20good.md) ::@:: Two goods are complements if they are used together to satisfy a purpose. Technically, it displays a negative _cross elasticity of demand_ and that demand (curve) for it increases when the price of another good decreases. <!--SR:!2026-09-01,540,402!2026-08-26,534,399-->
-    - [independent good](../../../../general/independent%20good.md) ::@:: Two goods that are neither substitutes nor complements. Technically, they are goods that have a zero _cross elasticity of demand_. <!--SR:!2032-07-23,2284,411!2026-08-10,521,399-->
+    - [independent good](../../../../general/independent%20good.md) ::@:: Two goods that are neither substitutes nor complements. Technically, they are goods that have a zero _cross elasticity of demand_. <!--SR:!2032-07-23,2284,411!fsrs,2033-02-13T00:00:00.000Z,2378,2377.61125137,1,2,10,0,0,2026-08-11T00:00:00.000Z-->
     - [cross elasticity of demand](../../../../general/cross%20leasticity%20of%20demand.md)
 - [supply and demand](../../../../general/supply%20and%20demand.md)
     - [demand](../../../../general/demand.md)

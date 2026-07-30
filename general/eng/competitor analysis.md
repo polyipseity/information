@@ -70,7 +70,7 @@ why: Why are people using competitors' products?
 <!--pytextgen generate section="48ff"--><!-- The following content is generated at 2024-05-03T13:31:34.682726+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←compare: Identify similarities and differences between our and their products. <!--SR:!2029-12-05,1392,281!2028-07-25,1197,354-->
-- compare: Identify similarities and differences between our and their products.→::@::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!2026-08-10,523,274!2028-08-22,1173,321-->
+- compare: Identify similarities and differences between our and their products.→::@::←copy: Identify advantages and capabilities our products lack compared to others. <!--SR:!fsrs,2031-04-22T00:00:00.000Z,1715,1715.025222,2.78080001,2,10,0,0,2026-08-11T00:00:00.000Z!2028-08-22,1173,321-->
 - copy: Identify advantages and capabilities our products lack compared to others.→::@::←discover: Identify unmet needs. <!--SR:!2029-12-08,1327,261!2030-01-14,1378,261-->
 - discover: Identify unmet needs.→::@::←how: What is our strategy? <!--SR:!2029-07-22,1188,241!2028-05-27,933,261-->
 - how: What is our strategy?→::@::←pricing: Compare prices. <!--SR:!2026-12-06,425,190!2026-08-18,429,241-->

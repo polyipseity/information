@@ -67,7 +67,7 @@ These rules can be, in fact, stated as {@{a [theorem](theorem.md)}@}: one shows<
 
 To {@{calculate the integral $\int \sin ^{p}(t)\cos ^{q}(t)dt$}@}, {@{Bioche's rules apply}@} as well. <!--SR:!2026-11-29,404,369!2026-11-19,395,369-->
 
-- If _p_ \(annotation: $\sin$\) and _q_ \(annotation: $\cos$\) are odd, ::@:: one uses $u=\cos(2t)$; <!--SR:!2026-08-10,292,349!2026-10-13,367,369-->
+- If _p_ \(annotation: $\sin$\) and _q_ \(annotation: $\cos$\) are odd, ::@:: one uses $u=\cos(2t)$; <!--SR:!fsrs,2030-04-21T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-08-11T00:00:00.000Z!2026-10-13,367,369-->
 - If _p_ \(annotation: $\sin$\) is odd and _q_ \(annotation: $\cos$\) even, ::@:: one uses $u=\cos(t)$; <!--SR:!2026-11-19,396,369!2026-11-29,403,369-->
 - If _p_ \(annotation: $\sin$\) is even and _q_ \(annotation: $\cos$\) odd, ::@:: one uses $u=\sin(t)$; <!--SR:!2026-10-26,376,369!2026-10-10,362,369-->
 - If not, ::@:: one is reduced to [linearization](linearization.md). \(annotation: Apply product-to-sum formulas.\) <!--SR:!2026-12-05,408,369!2026-10-25,375,369-->

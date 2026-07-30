@@ -499,7 +499,7 @@ teaming up with others
 <!--pytextgen generate section="ee20"--><!-- The following content is generated at 2024-02-16T21:59:47.378182+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←business procedures <!--SR:!2028-06-14,1029,272!2034-07-30,3055,421-->
-- business procedures→::@::←economics <!--SR:!2027-08-08,778,281!2026-08-10,546,285-->
+- business procedures→::@::←economics <!--SR:!2027-08-08,778,281!fsrs,2031-09-15T00:00:00.000Z,1861,1861.11603395,2.23046173,2,10,0,0,2026-08-11T00:00:00.000Z-->
 - economics→::@::←human behaviors <!--SR:!2029-04-24,1156,300!2031-09-26,2078,360-->
 - human behaviors→::@::←management principles <!--SR:!2030-12-17,1760,320!2028-01-23,921,280-->
 - management principles→::@::←strong communication skills <!--SR:!2027-10-06,928,321!2029-03-28,1354,340-->

@@ -68,7 +68,7 @@ end
 
 > {@{![Fig 2: A graph of the values of N \(an integer power of 2\) that minimize the cost function ${\tfrac {N\left(\log _{2}N+1\right)}{N-M+1} }$](../../archives/Wikimedia%20Commons/FFT%20size%20vs%20filter%20length%20for%20Overlap-add%20convolution.svg)}@}
 >
-> Fig 2: A graph of {@{the values of N \(an integer power of 2\)}@} that {@{minimize the cost function ${\tfrac {N\left(\log _{2}N+1\right)}{N-M+1} }$}@} <!--SR:!2026-08-10,317,348!2026-08-26,332,348!fsrs,2029-09-19T00:59:31.555Z,1201,1201.30816551,1,2,9,0,0,2026-06-06T00:59:31.555Z-->
+> Fig 2: A graph of {@{the values of N \(an integer power of 2\)}@} that {@{minimize the cost function ${\tfrac {N\left(\log _{2}N+1\right)}{N-M+1} }$}@} <!--SR:!fsrs,2030-07-25T00:00:00.000Z,1444,1443.88475784,1,2,9,0,0,2026-08-11T00:00:00.000Z!2026-08-26,332,348!fsrs,2029-09-19T00:59:31.555Z,1201,1201.30816551,1,2,9,0,0,2026-06-06T00:59:31.555Z-->
 
 When {@{the DFT and IDFT are implemented by the FFT algorithm}@}, the pseudocode above requires {@{about __N \(log<sub>2</sub>\(N\) + 1\)__ complex multiplications}@} for {@{the FFT, product of arrays, and IFFT}@}.<sup>[\[B\]](#^ref-B)</sup> Each iteration {@{produces __N-M+1__ output samples}@}, so {@{the number of complex multiplications per output sample}@} is about: {@{$${\frac {N(\log _{2}(N)+1)}{N-M+1} }.\,$$}@} __<a id="math Eq.3">Eq.3</a>__ <p> <!--SR:!2026-08-30,335,348!2026-09-03,338,348!fsrs,2030-07-15T00:00:00.000Z,1436,1435.97236961,1,2,9,0,0,2026-08-09T00:00:00.000Z!2026-09-06,341,348!2029-06-01,1116,350!2026-09-07,342,348-->
 
