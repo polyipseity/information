@@ -131,7 +131,40 @@ def _collect_block_math_info(
 
     for token, depth, parents in _walk_tokens(tokens, "block_math"):
         if depth == 0:
-            info.append((token["raw"], False, False))
+            if "$$$$" in token["raw"]:
+                # Collapsed node: two or more adjacent $$...$$ blocks merged into
+                # one AST node.  Wrap in paragraph context and re-parse with
+                # Mistune to get individually-split inner spans.
+                raw = token["raw"]
+                wrapped = "w " + "$$" + raw + "$$" + " w"
+                result, _state = _MISTUNE_PARSER.parse(wrapped)
+                del _state
+                if isinstance(result, str):
+                    # Parse error — treat as normal standalone.
+                    info.append((raw, False, False))
+                else:
+                    for t, d, p in _walk_tokens(result, "block_math"):
+                        if d > 0:  # Inside paragraph
+                            parent = p[-1]
+                            parent_children = parent.get("children", [])
+                            idx = next(
+                                i for i, ct in enumerate(parent_children) if ct is t
+                            )
+                            prev_sib = parent_children[idx - 1] if idx > 0 else None
+                            next_sib = (
+                                parent_children[idx + 1]
+                                if idx + 1 < len(parent_children)
+                                else None
+                            )
+                            info.append(
+                                (
+                                    t["raw"],
+                                    _determine_needs_before(prev_sib),
+                                    _determine_needs_after(next_sib),
+                                )
+                            )
+            else:
+                info.append((token["raw"], False, False))
         else:
             parent = parents[-1]
             parent_children = parent.get("children", [])
@@ -179,31 +212,10 @@ def _scan_and_apply(text: str, info: list[tuple[str, bool, bool]]) -> str:
                 parts.append(text[pos:dollar_pos])
                 if needs_before:
                     parts.append(" ")
-                # --- Mechanism 3b: absorb trailing punctuation into raw ---
-                after_pos = dollar_pos + target_len
-                punct = ""
-                if after_pos < len(text) and text[after_pos] in ".,":
-                    punct = text[after_pos]
-                    after_pos += 1
-                if punct:
-                    # Detect \end{...} suffix — insert punct before it so it
-                    # renders on the last line's baseline instead of vertical center.
-                    end_m = re.search(r"\\end\{[^}]*\}$", raw)
-                    if end_m:
-                        ins = end_m.start()
-                        modified_raw = raw[:ins] + R"\," + punct + raw[ins:]
-                    else:
-                        modified_raw = raw + R"\," + punct
-                    modified_target = "$$" + modified_raw + "$$"
-                    parts.append(modified_target)
-                    pos = after_pos  # skip absorbed punctuation in source
-                else:
-                    # No absorption — normal spacing logic
-                    parts.append(target)
-                    if needs_after:
-                        parts.append(" ")
-                    pos = dollar_pos + target_len
-                # --- end M3b ---
+                parts.append(target)
+                if needs_after:
+                    parts.append(" ")
+                pos = dollar_pos + target_len
                 break
             close_pos = text.find("$$", dollar_pos + 2)
             if close_pos == -1:
