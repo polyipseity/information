@@ -76,8 +76,8 @@ class TestDetermineNeedsBefore:
     """Tests for ``_determine_needs_before`` spacing decisions.
 
     ``_determine_needs_before`` examines the AST sibling node immediately
-    before a ``block_math`` node.  If the sibling is text ending with an
-    alphanumeric character, a space is needed.
+    before a ``block_math`` node.  If the sibling is text ending with a
+    non-whitespace character, a space is needed.
     """
 
     def test_no_prev(self) -> None:
@@ -97,8 +97,8 @@ class TestDetermineNeedsBefore:
         assert _determine_needs_before({"type": "text", "raw": "hello\t"}) is False
 
     def test_prev_text_ending_with_punctuation(self) -> None:
-        """Previous text sibling ends with punctuation → no space needed."""
-        assert _determine_needs_before({"type": "text", "raw": "text("}) is False
+        """Previous text sibling ends with punctuation → space needed (not whitespace)."""
+        assert _determine_needs_before({"type": "text", "raw": "text("}) is True
 
     def test_prev_text_ending_with_digit(self) -> None:
         """Previous text sibling ends with digit → space needed."""
@@ -141,8 +141,8 @@ class TestDetermineNeedsAfter:
         assert _determine_needs_after({"type": "text", "raw": "\tworld"}) is False
 
     def test_next_text_starting_with_punctuation(self) -> None:
-        """Next text sibling starts with punctuation → no space needed."""
-        assert _determine_needs_after({"type": "text", "raw": ".text"}) is False
+        """Next text sibling starts with punctuation → space needed (not whitespace)."""
+        assert _determine_needs_after({"type": "text", "raw": ".text"}) is True
 
     def test_next_text_starting_with_digit(self) -> None:
         """Next text sibling starts with digit → space needed."""
@@ -428,12 +428,32 @@ class TestSeparateBlockMath:
         assert "$$y$$" in result
 
     def test_math_adjacent_to_punctuation(self) -> None:
-        """Block math adjacent to punctuation → no space insertion.
+        """Block math adjacent to punctuation → absorbed into math."""
+        assert _separate_block_math("(see $$eq$$.)") == "(see $$eq\\,.$$)"
 
-        Punctuation adjacent to ``$$`` does not cause markdown parsing
-        ambiguity, so no space should be inserted.
-        """
-        assert _separate_block_math("(see $$eq$$.)") == "(see $$eq$$.)"
+    def test_absorb_simple_punct(self) -> None:
+        """Simple period after ``$$`` → absorbed with ``\\,`` prefix."""
+        assert _separate_block_math("text $$eq$$. more") == "text $$eq\\,.$$ more"
+
+    def test_absorb_comma(self) -> None:
+        """Comma after ``$$`` → absorbed with ``\\,`` prefix."""
+        assert _separate_block_math("text $$eq$$, more") == "text $$eq\\,,$$ more"
+
+    def test_absorb_multiline_environment(self) -> None:
+        """Period after ``$$…\\end{aligned}`` → inserted before ``\\end{aligned}``."""
+        result = _separate_block_math(
+            "text $$\\begin{aligned}x&=2\\\\y&=3\\end{aligned}$$. more"
+        )
+        expected = "text $$\\begin{aligned}x&=2\\\\y&=3\\,.\\end{aligned}$$ more"
+        assert result == expected
+
+    def test_absorb_no_punct_after_needs_space(self) -> None:
+        """No punctuation after ``$$`` → normal space insertion via needs_after."""
+        assert _separate_block_math("text $$eq$$ next") == "text $$eq$$ next"
+
+    def test_absorb_skips_nested_dollar(self) -> None:
+        """Second ``$$`` span not targeted when it doesn't match the info entry."""
+        assert _separate_block_math("text $$eq$$ $$not$$") == "text $$eq$$ $$not$$"
 
     def test_only_block_math(self) -> None:
         """Document consisting only of ``$$…$$`` → unchanged."""
