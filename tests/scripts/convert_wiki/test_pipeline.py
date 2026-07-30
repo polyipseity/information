@@ -428,31 +428,31 @@ class TestSeparateBlockMath:
         assert "$$y$$" in result
 
     def test_math_adjacent_to_punctuation(self) -> None:
-        """Block math adjacent to punctuation → absorbed into math."""
-        assert _separate_block_math("(see $$eq$$.)") == "(see $$eq\\,.$$)"
+        """Block math adjacent to punctuation → space inserted via needs_after."""
+        assert _separate_block_math("(see $$eq$$.)") == "(see $$eq$$ .)"
 
-    def test_absorb_simple_punct(self) -> None:
-        """Simple period after ``$$`` → absorbed with ``\\,`` prefix."""
-        assert _separate_block_math("text $$eq$$. more") == "text $$eq\\,.$$ more"
+    def test_punct_after_math_space_inserted(self) -> None:
+        """Period after ``$$`` → space inserted via needs_after."""
+        assert _separate_block_math("text $$eq$$. more") == "text $$eq$$ . more"
 
-    def test_absorb_comma(self) -> None:
-        """Comma after ``$$`` → absorbed with ``\\,`` prefix."""
-        assert _separate_block_math("text $$eq$$, more") == "text $$eq\\,,$$ more"
+    def test_comma_after_math_space_inserted(self) -> None:
+        """Comma after ``$$`` → space inserted via needs_after."""
+        assert _separate_block_math("text $$eq$$, more") == "text $$eq$$ , more"
 
-    def test_absorb_multiline_environment(self) -> None:
-        """Period after ``$$…\\end{aligned}`` → inserted before ``\\end{aligned}``."""
+    def test_punct_after_multiline_env_space_inserted(self) -> None:
+        """Period after ``$$…\\end{aligned}`` → space inserted via needs_after."""
         result = _separate_block_math(
             "text $$\\begin{aligned}x&=2\\\\y&=3\\end{aligned}$$. more"
         )
-        expected = "text $$\\begin{aligned}x&=2\\\\y&=3\\,.\\end{aligned}$$ more"
+        expected = "text $$\\begin{aligned}x&=2\\\\y&=3\\end{aligned}$$ . more"
         assert result == expected
 
-    def test_absorb_no_punct_after_needs_space(self) -> None:
-        """No punctuation after ``$$`` → normal space insertion via needs_after."""
+    def test_no_punct_after_needs_no_space(self) -> None:
+        """No punctuation after ``$$``, next text starts with space → no space needed."""
         assert _separate_block_math("text $$eq$$ next") == "text $$eq$$ next"
 
-    def test_absorb_skips_nested_dollar(self) -> None:
-        """Second ``$$`` span not targeted when it doesn't match the info entry."""
+    def test_skips_unrelated_dollar_span(self) -> None:
+        """Second ``$$`` span handled independently via its own info entry."""
         assert _separate_block_math("text $$eq$$ $$not$$") == "text $$eq$$ $$not$$"
 
     def test_only_block_math(self) -> None:
@@ -464,6 +464,17 @@ class TestSeparateBlockMath:
         result = _separate_block_math("equation $x$ yields $$result$$")
         assert "$x$" in result
         assert "$$result$$" in result
+
+    def test_collapsed_block_math_split(self) -> None:
+        """Adjacent ``$$…$$$$…$$`` at top level → split with space."""
+        assert _separate_block_math("$$A$$$$B$$") == "$$A$$ $$B$$"
+
+    def test_collapsed_with_text_between(self) -> None:
+        """``$$…$$text$$…$$`` at top level → split with text preserved."""
+        assert (
+            _separate_block_math("$$equation$$text$$another$$")
+            == "$$equation$$ text $$another$$"
+        )
 
 
 # =========================================================================
