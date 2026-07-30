@@ -89,7 +89,7 @@ def _determine_needs_before(prev: dict[str, Any] | None) -> bool:
     """Return ``True`` if a space should be inserted before the opening ``$$``.
 
     Examines the AST sibling node immediately before a ``block_math`` node.
-    If the sibling is a text node ending with a non-whitespace character, the
+    If the sibling is a text node ending with an alphanumeric character, the
     ``$$`` is directly adjacent to text in the source — a space is needed.
     If the sibling is a non-text node (emphasis, code span, etc.), there is
     no text-node buffer, so the ``$$`` is adjacent by default.
@@ -97,7 +97,7 @@ def _determine_needs_before(prev: dict[str, Any] | None) -> bool:
     if prev is None:
         return False
     if prev["type"] == "text":
-        return bool(prev["raw"]) and prev["raw"][-1] not in " \t"
+        return bool(prev["raw"]) and prev["raw"][-1].isalnum()
     return True
 
 
@@ -110,7 +110,7 @@ def _determine_needs_after(next_: dict[str, Any] | None) -> bool:
     if next_ is None:
         return False
     if next_["type"] == "text":
-        return bool(next_["raw"]) and next_["raw"][0] not in " \t"
+        return bool(next_["raw"]) and next_["raw"][0].isalnum()
     return True
 
 

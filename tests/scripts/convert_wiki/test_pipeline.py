@@ -76,8 +76,8 @@ class TestDetermineNeedsBefore:
     """Tests for ``_determine_needs_before`` spacing decisions.
 
     ``_determine_needs_before`` examines the AST sibling node immediately
-    before a ``block_math`` node.  If the sibling is text ending with a
-    non-whitespace character, a space is needed.
+    before a ``block_math`` node.  If the sibling is text ending with an
+    alphanumeric character, a space is needed.
     """
 
     def test_no_prev(self) -> None:
@@ -85,7 +85,7 @@ class TestDetermineNeedsBefore:
         assert _determine_needs_before(None) is False
 
     def test_prev_text_ending_with_word_char(self) -> None:
-        """Previous text sibling ends with non-whitespace → space needed."""
+        """Previous text sibling ends with alphanumeric → space needed."""
         assert _determine_needs_before({"type": "text", "raw": "hello"}) is True
 
     def test_prev_text_ending_with_space(self) -> None:
@@ -95,6 +95,14 @@ class TestDetermineNeedsBefore:
     def test_prev_text_ending_with_tab(self) -> None:
         """Previous text sibling ends with tab → no space needed."""
         assert _determine_needs_before({"type": "text", "raw": "hello\t"}) is False
+
+    def test_prev_text_ending_with_punctuation(self) -> None:
+        """Previous text sibling ends with punctuation → no space needed."""
+        assert _determine_needs_before({"type": "text", "raw": "text("}) is False
+
+    def test_prev_text_ending_with_digit(self) -> None:
+        """Previous text sibling ends with digit → space needed."""
+        assert _determine_needs_before({"type": "text", "raw": "step 1"}) is True
 
     def test_prev_text_empty(self) -> None:
         """Previous text sibling is empty → no space needed."""
@@ -121,7 +129,7 @@ class TestDetermineNeedsAfter:
         assert _determine_needs_after(None) is False
 
     def test_next_text_starting_with_word_char(self) -> None:
-        """Next text sibling starts with non-whitespace → space needed."""
+        """Next text sibling starts with alphanumeric → space needed."""
         assert _determine_needs_after({"type": "text", "raw": "world"}) is True
 
     def test_next_text_starting_with_space(self) -> None:
@@ -131,6 +139,14 @@ class TestDetermineNeedsAfter:
     def test_next_text_starting_with_tab(self) -> None:
         """Next text sibling starts with tab → no space needed."""
         assert _determine_needs_after({"type": "text", "raw": "\tworld"}) is False
+
+    def test_next_text_starting_with_punctuation(self) -> None:
+        """Next text sibling starts with punctuation → no space needed."""
+        assert _determine_needs_after({"type": "text", "raw": ".text"}) is False
+
+    def test_next_text_starting_with_digit(self) -> None:
+        """Next text sibling starts with digit → space needed."""
+        assert _determine_needs_after({"type": "text", "raw": "2nd"}) is True
 
     def test_next_text_empty(self) -> None:
         """Next text sibling is empty → no space needed."""
@@ -412,12 +428,12 @@ class TestSeparateBlockMath:
         assert "$$y$$" in result
 
     def test_math_adjacent_to_punctuation(self) -> None:
-        """Block math adjacent to punctuation → space inserted before punctuation.
+        """Block math adjacent to punctuation → no space insertion.
 
-        The colon ``:`` after closing ``$$`` triggers a space insertion
-        because ``_separate_block_math`` treats it as text adjacency.
+        Punctuation adjacent to ``$$`` does not cause markdown parsing
+        ambiguity, so no space should be inserted.
         """
-        assert _separate_block_math("(see $$eq$$.)") == "(see $$eq$$ .)"
+        assert _separate_block_math("(see $$eq$$.)") == "(see $$eq$$.)"
 
     def test_only_block_math(self) -> None:
         """Document consisting only of ``$$…$$`` → unchanged."""
