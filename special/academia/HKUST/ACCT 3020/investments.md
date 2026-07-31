@@ -60,8 +60,8 @@ Flashcards for this section are as follows:
 - trading debt investments: fair-value changes go where? ::@:: To net income immediately.
 - debt investment classification: practical business-purpose triad ::@:: The investor may buy the bond to collect contractual cash flows, to collect and later sell, or to trade for a quicker gain.
 - debt investment classification: does the initial cash entry alone determine the category? ::@:: No. The same purchase entry can appear across categories; the classification is determined by business purpose and contractual cash-flow characteristics.
-- SPPI test: what does it require? ::@:: Contractual cash flows must consist solely of payments of principal and interest on the principal outstanding; any equity-linked, leveraged, or other non-standard cash flow component causes the instrument to fail the test and forces FVTPL classification.
-- FVO irrevocable designation: when can it be used for debt instruments? ::@:: A company may irrevocably elect to measure an eligible debt instrument at FVTPL if doing so eliminates or significantly reduces an accounting mismatch. The election cannot later be revoked.
+- SPPI test: what does it require? ::@:: Contractual cash flows must consist solely of payments of principal and interest on the principal outstanding; any equity-linked, leveraged, or other non-standard cash flow component causes the instrument to fail the test and forces fair value through profit & loss (FVTPL) classification.
+- fair value option (FVO) irrevocable designation: when can it be used for debt instruments? ::@:: A company may irrevocably elect to measure an eligible debt instrument at fair value through profit & loss (FVTPL) if doing so eliminates or significantly reduces an accounting mismatch. The election cannot later be revoked.
 
 ## debt investments at amortized cost
 
@@ -753,7 +753,7 @@ Flashcards for this section are as follows:
 
 - IFRS 7: what is its primary purpose? ::@:: To require disclosures enabling users to evaluate the significance of financial instruments for financial position and performance, and the nature and extent of the risks arising from them.
 - IFRS 7: three main risk disclosure categories ::@:: Credit risk (including ECL allowance movements by stage), liquidity risk (maturity analysis of contractual cash flows across time buckets), and market risk (sensitivity analysis for interest rates, currencies, or other market variables).
-- IFRS 7 and non-trading FVOCI equity: what additional disclosures are required? ::@:: Identify each investment carrying the irrevocable FVOCI election, disclose the reason for the election, and separately report dividends recognized from those investments during the period.
+- IFRS 7 and non-trading FVOCI equity: what additional disclosures are required? ::@:: Identify each investment carrying the irrevocable fair value through other comprehensive income (FVOCI) election, disclose the reason for the election, and separately report dividends recognized from those investments during the period.
 
 ## derivatives used for speculation
 

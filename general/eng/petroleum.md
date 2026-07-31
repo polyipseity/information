@@ -19,11 +19,11 @@ tags:
 
 ## composition
 
-Petroleum is {@{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of many [hydrocarbons](hydrocarbon.md)}@}. Larger hydrocarbons have {@{higher [boiling points](boiling%20point.md), darker colors, more [viscous](viscosity.md), less [volatile](volatility%20(chemistry).md), less [flammable](flammability.md), and burn less completely}@}.
+{@{Petroleum}@} is {@{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of many [hydrocarbons](hydrocarbon.md)}@}. {@{Larger hydrocarbons}@} have {@{higher [boiling points](boiling%20point.md), darker colors, more [viscous](viscosity.md)}@}, {@{less [volatile](volatility%20(chemistry).md), less [flammable](flammability.md), and burn less completely}@}.
 
 ## uses
 
-Petroleum is {@{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}@}. Fractions that {@{have lower [boiling points](boiling%20point.md) are collected at the top}@}. It is used for {@{making [fuels](#fuels) and derivatives}@}.
+{@{Petroleum}@} is {@{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}@}. Fractions that {@{have lower [boiling points](boiling%20point.md) are collected at the top}@}. It is used for {@{making [fuels](#fuels) and derivatives}@}.
 
 ### fuels
 

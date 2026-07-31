@@ -63,7 +63,7 @@ Suppose {@{the bond had a lifetime of ten years}@} and {@{coupon payments were m
 
 Theoretically, if {@{the company were to raise further capital by issuing more of the same bonds}@}, the new investors would {@{also expect a 50% return on their investment}@} \(although in practice {@{the required return varies}@} depending on {@{the size of the investment, the lifetime of the loan, the risk of the project}@} and so on\).
 
-{@{The cost of equity}@} follows {@{the same principle}@}: the investors {@{expect a certain return from their investment}@}, and the company {@{must pay this amount in order for the investors to be willing to invest in the company}@}. \(Although the cost of equity is {@{calculated differently}@} since {@{dividends, unlike interest payments}@}, are {@{not necessarily a fixed payment or a legal requirement}@}.\)
+{@{The cost of equity}@} follows {@{the same principle}@}: the investors {@{expect a certain return from their investment}@}, and the company must {@{pay this amount in order for the investors to be willing to invest in the company}@}. \(Although the cost of equity is {@{calculated differently}@} since {@{dividends, unlike interest payments}@}, are {@{not necessarily a fixed payment or a legal requirement}@}.\)
 
 ## cost of debt
 
@@ -132,7 +132,7 @@ Because of {@{tax advantages on debt issuance}@}, it will be {@{cheaper to issue
 
 {@{The [Thomson Financial league tables](Thomson%20Financial%20league%20tables.md)}@} show that {@{global debt issuance exceeds equity issuance}@} with {@{a 90 to 10 margin}@}.
 
-{@{The structure of capital}@} should be {@{determined considering the weighted average cost of capital}@}.
+{@{The structure of capital}@} should be determined {@{considering the weighted average cost of capital}@}.
 
 ## current dividend policy
 

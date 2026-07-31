@@ -593,7 +593,7 @@ Representative journal entry examples:
 
 <!-- markdownlint MD028 -->
 
-> _Post-declaration market-price collapse does not reopen the entry._ Using the same {@{40% share dividend on 20 000 new shares}@}, suppose the market price falls from {@{18 at declaration}@} to {@{11 before distribution}@}. Under __IFRS__, the entry still stays at {@{par value 40 000}@}. Under the __US GAAP comparison__, the fair-value-based declaration amount would still stay at the {@{declaration-date fair value of 360 000 rather than being remeasured down to 220 000}@}.
+> _Post-declaration market-price collapse does not reopen the entry._ Using the same {@{40% share dividend on 20 000 new shares}@}, suppose the market price falls from {@{18 at declaration to 11 before distribution}@}. Under __IFRS__, the entry still stays at {@{par value 40 000}@}. Under the __US GAAP comparison__, the fair-value-based declaration amount would still stay at the {@{declaration-date fair value of 360 000 rather than being remeasured down to 220 000}@}.
 >
 > | {@{Distribution after a market-price drop — IFRS entry unchanged}@} | Dr | Cr |
 > | --- | ---: | ---: |

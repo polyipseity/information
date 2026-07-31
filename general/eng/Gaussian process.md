@@ -89,7 +89,7 @@ There exist {@{sample continuous processes $X$ such that $I(\sigma )=\infty$}@};
 >
 > {@{Autocorrelation}@} of {@{a random lacunary Fourier series}@}
 
-Its (annotation: {@{$$X_{t}=\sum _{n=1}^{\infty }c_{n}(\xi _{n}\cos \lambda _{n}t+\eta _{n}\sin \lambda _{n}t),$$}@}) {@{autocovariation function}@} {@{$${\mathbb {E} }[X_{t}X_{t+h}]=\sum _{n=1}^{\infty }c_{n}^{2}\cos \lambda _{n}h$$}@} is {@{nowhere monotone \(see the picture\)}@}, as well as {@{the corresponding function $\sigma$}@}, {@{$$\sigma (h)={\sqrt {2{\mathbb {E} }[X_{t}X_{t}]-2{\mathbb {E} }[X_{t}X_{t+h}]} }=2{\sqrt {\sum _{n=1}^{\infty }c_{n}^{2}\sin ^{2}{\frac {\lambda _{n}h}{2} } } }.$$}@}
+Its (annotation: {@{$X_{t}=\sum _{n=1}^{\infty }c_{n}(\xi _{n}\cos \lambda _{n}t+\eta _{n}\sin \lambda _{n}t)$}@}) {@{autocovariation function}@} {@{$${\mathbb {E} }[X_{t}X_{t+h}]=\sum _{n=1}^{\infty }c_{n}^{2}\cos \lambda _{n}h$$}@} (annotation: Derivation is by noting {@{$\mathbb E[X_t X_{t+h}] = \sum_{n=1}^{\infty} c_n^2 \left(\mathbb E\!\left[\xi_n^2\right] \cos(\lambda_n t) \cos(\lambda_n(t + h)) + \mathbb E\!\left[\eta_n^2\right] \sin(\lambda_n t) \sin(\lambda_n(t + h)) \right)$}@} and then applying {@{the cosine addition formula $\cos(A+B) = \cos A \cos B - \sin A \sin B$}@}.) is {@{nowhere monotone \(see the picture\)}@}, as well as {@{the corresponding function $\sigma$}@}, {@{$$\sigma (h)={\sqrt {2{\mathbb {E} }[X_{t}X_{t}]-2{\mathbb {E} }[X_{t}X_{t+h}]} }=2{\sqrt {\sum _{n=1}^{\infty }c_{n}^{2}\sin ^{2}{\frac {\lambda _{n}h}{2} } } }.$$}@} (annotation: Derivation is by applying {@{the cosine half-angle formula $\cos \theta = 2 \cos^2(\theta/2) - 1$}@}.)
 
 ## Brownian motion as the integral of Gaussian processes
 

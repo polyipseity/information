@@ -13,7 +13,7 @@ tags:
 
 # short-time Fourier transform
 
-The {@{__short-time Fourier transform__ \(__STFT__\)}@} is {@{a [Fourier-related transform](list%20of%20Fourier-related%20transforms.md) used to determine the sinusoidal frequency and phase content of local sections of a signal as it changes over time}@}.<sup>[\[1\]](#^ref-1)</sup> In practice, {@{the procedure for computing STFTs}@} is to {@{divide a longer time signal into shorter segments of equal length}@} and then {@{compute the Fourier transform separately on each shorter segment}@}. This reveals {@{the Fourier spectrum on each shorter segment}@}. One then usually {@{plots the changing spectra as a function of time}@}, known as {@{a [spectrogram](spectrogram.md) or [waterfall plot](waterfall%20plot.md)}@}, such as commonly used in {@{[software defined radio](software%20defined%20radio.md) \(SDR\) based spectrum displays}@}. {@{Full bandwidth displays covering the whole range of an SDR}@} commonly use {@{fast Fourier transforms \(FFTs\) with 2^24 points}@} on desktop computers.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
+{@{The __short-time Fourier transform__ \(__STFT__\)}@} is {@{a [Fourier-related transform](list%20of%20Fourier-related%20transforms.md) used to determine the sinusoidal frequency and phase content of local sections of a signal as it changes over time}@}.<sup>[\[1\]](#^ref-1)</sup> In practice, {@{the procedure for computing STFTs}@} is to {@{divide a longer time signal into shorter segments of equal length}@} and then {@{compute the Fourier transform separately on each shorter segment}@}. This reveals {@{the Fourier spectrum on each shorter segment}@}. One then usually {@{plots the changing spectra as a function of time}@}, known as {@{a [spectrogram](spectrogram.md) or [waterfall plot](waterfall%20plot.md)}@}, such as commonly used in {@{[software defined radio](software%20defined%20radio.md) \(SDR\) based spectrum displays}@}. {@{Full bandwidth displays covering the whole range of an SDR}@} commonly use {@{fast Fourier transforms \(FFTs\) with 2^24 points}@} on desktop computers.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup>
 
 > {@{![A spectrogram visualizing the results of a STFT of the words "nineteenth century".](../../archives/Wikimedia%20Commons/Spectrogram-19thC.png)}@}
 >
@@ -139,11 +139,7 @@ STFTs as well as {@{standard Fourier transforms and other tools}@} are frequentl
 
 ## implementation
 
-Original function {@{$$X(t,f)=\int _{-\infty }^{\infty }w(t-\tau )x(\tau )e^{-j2\pi f\tau }d\tau$$}@} \(annotation: note the different notations used: {@{the $t$ and $\tau$ have swapped places compared to that used in previous definitions}@}\)
-
-Converting into {@{the discrete form}@}: {@{$$t=n\Delta _{t},f=m\Delta _{f},\tau =p\Delta _{t}$$}@} <br/> {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{-\infty }^{\infty }w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@}
-
-Suppose that {@{$$w(t)\cong 0{\text{ for } }|t|>B,{\frac {B}{\Delta _{t} } }=Q$$ \(annotation: the window function has finite support around zero\)}@} Then we can write the original function into {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@}
+Original function {@{$$X(t,f)=\int _{-\infty }^{\infty }w(t-\tau )x(\tau )e^{-j2\pi f\tau }d\tau$$}@} \(annotation: note the different notations used: {@{the $t$ and $\tau$ have swapped places compared to that used in previous definitions}@}\) Converting into {@{the discrete form}@}: {@{$$t=n\Delta _{t},f=m\Delta _{f},\tau =p\Delta _{t}$$}@} <br/> {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{-\infty }^{\infty }w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@} Suppose that {@{$$w(t)\cong 0{\text{ for } }|t|>B,{\frac {B}{\Delta _{t} } }=Q$$ \(annotation: the window function has finite support around zero\)}@} Then we can write the original function into {@{$$X(n\Delta _{t},m\Delta _{f})=\sum _{p=n-Q}^{n+Q}w((n-p)\Delta _{t})x(p\Delta _{t})e^{-j2\pi pm\Delta _{t}\Delta _{f} }\Delta _{t}$$}@}
 
 ### direct implementation
 

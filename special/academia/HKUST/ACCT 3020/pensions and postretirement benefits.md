@@ -202,11 +202,11 @@ __Remeasurements__ capture two types of experience adjustments that cannot be fo
 
 Under IAS 19, both types of remeasurement go to __other comprehensive income (OCI)__. They are never recycled to profit or loss. They accumulate in __accumulated OCI (AOCI)__ within equity.
 
-> Brixton SE has plan assets of €180&nbsp;000 at the start of 2025. The discount rate is 6%, so the {@{expected return on plan assets}@} is {@{€10&nbsp;800}@}. The actual return for the year is {@{€13&nbsp;200}@}, giving an asset gain of {@{€2&nbsp;400}@}.
+> Brixton SE has plan assets of {@{€180&nbsp;000 at the start of 2025}@}. The discount rate is 6%, so the {@{expected return on plan assets is €10&nbsp;800}@}. The actual return for the year is {@{€13&nbsp;200, giving an asset gain of €2&nbsp;400}@}.
 >
 > | {@{Record remeasurement asset gain in OCI}@} | Dr | Cr |
 > | --- | ---: | ---: |
-> | {@{Plan assets (memo account)}@} | {@{2&nbsp;400}@} | |
+> | {@{Net defined benefit liability}@} | {@{2&nbsp;400}@} | |
 > | {@{OCI — remeasurement gain (pension)}@} | | {@{2&nbsp;400}@} |
 >
 > _Explanation._ The €2&nbsp;400 excess of actual return over expected return is {@{not recognized in profit or loss; it is a credit to OCI}@} because IAS 19 classifies all remeasurements as OCI items that accumulate permanently in equity.

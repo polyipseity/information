@@ -29,9 +29,9 @@ Examples include {@{a table leg pinned by a single screw only, joints of a truss
 
 ### fixed support
 
-A fixed support prevents {@{translation and rotation in any direction}@}. Its reaction forces are {@{a single linear force in any direction and a [torque](torque.md)}@}.
+{@{A fixed support}@} prevents {@{translation and rotation in any direction}@}. Its reaction forces are {@{a single linear force in any direction and a [torque](torque.md)}@}.
 
-A fixed support is {@{usually not drawn specifically and represented by being connected to a fixed wall or ground}@}.
+{@{A fixed support}@} is {@{usually not drawn specifically}@} and represented by {@{being connected to a fixed wall or ground}@}.
 
 Examples include {@{a computer monitor with a single non-rotatable support, fixed supports under a bridge}@}.
 
