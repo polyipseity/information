@@ -14,6 +14,7 @@
   "scripts": {
     "build": "bun run check && bun run build:force",
     "build:force": "node -e \"console.log('No build step')\"",
+    "clean": "node -e \"console.log('No clean step')\"",
     "check": "bun run check:md && bun run check:prettier && bun run check:py",
     "check:md": "markdownlint-cli2",
     "check:prettier": "prettier --cache --check \"**/*.{astro,cjs,css,csv,gql,graphql,hbs,html,js,jsx,json,json5,jsonc,jsonl,less,mjs,pcss,sass,scss,svelte,styl,ts,tsx,vue,xml,yaml,yml}\"",

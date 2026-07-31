@@ -18,6 +18,7 @@
     "url": "git+https://github.com/polyipseity/information.git"
   },
   "scripts": {
+    "clean": "node -e \"console.log('No clean step')\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
