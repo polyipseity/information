@@ -605,7 +605,7 @@ The content is in teaching order.
     - modal jazz / characteristics ::@:: modal tonalities instead of majors and minors, non-traditional chord progressions, quartal harmony, static progressions <!--SR:!2027-02-09,544,422!2027-12-19,792,442-->
 - Miles Davis
     - Miles Davis / genres
-        - Miles Davis / genres / modal jazz ::@:: In 1959, he recorded "Kind of Blue" \(one of the track: "So What"\), the highest selling jazz record of all time, and marked the beginning of modal jazz. <!--SR:!2027-03-05,542,422!2026-08-15,388,402-->
+        - Miles Davis / genres / modal jazz ::@:: In 1959, he recorded "Kind of Blue" \(one of the track: "So What"\), the highest selling jazz record of all time, and marked the beginning of modal jazz. <!--SR:!2027-03-05,542,422!fsrs,2031-08-31T00:00:00.000Z,1841,1840.92910627,1,2,10,0,0,2026-08-16T00:00:00.000Z-->
 - Miles Davis Quintet
     - Miles Davis Quintet / Second Great Quintet ::@:: It lasted from late 1964 to early 1969. It contained Miles Davis on trumpet, Wayne Shorter on tensor saxophone \(and responsible for composition\), Herbie Hancock on piano, Ron Carter on bass, and Tony Williams on drums. <p> "Footprints" \(1967\) — Miles Davis Quintet <!--SR:!2026-08-19,392,402!2028-02-27,852,442-->
         - Miles Davis Quintet / Second Great Quintet / Tony Williams ::@:: On drums. He was a towering virtuoso and could change directions rhythmically at any moment. So he was very exciting to listen to. <!--SR:!2028-02-02,830,442!2028-02-01,829,442-->

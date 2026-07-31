@@ -149,7 +149,7 @@ Historically, {@{coupons}@} were {@{physical attachments to the paper bond certi
 >
 > {@{Receipt for temporary bonds}@} issued by {@{the state of [Kansas](Kansas.md) in 1922}@} <!--SR:!2026-10-29,377,366!2026-10-04,359,366!2026-10-21,370,366-->
 
-Bonds can be {@{categorised in several ways}@}, such as {@{the type of issuer, the currency}@}, {@{the term of the bond \(length of time to maturity\) and the conditions applying to the bond}@}. The following descriptions are {@{not mutually exclusive}@}, and {@{more than one of them may apply to a particular bond}@}: <!--SR:!2027-01-02,433,380!2026-10-07,359,366!2027-01-04,435,380!2026-08-15,317,354!2026-10-01,357,366-->
+Bonds can be {@{categorised in several ways}@}, such as {@{the type of issuer, the currency}@}, {@{the term of the bond \(length of time to maturity\) and the conditions applying to the bond}@}. The following descriptions are {@{not mutually exclusive}@}, and {@{more than one of them may apply to a particular bond}@}: <!--SR:!2027-01-02,433,380!2026-10-07,359,366!2027-01-04,435,380!fsrs,2030-08-27T00:00:00.000Z,1472,1471.51953391,1,2,9,0,0,2026-08-16T00:00:00.000Z!2026-10-01,357,366-->
 
 ### the nature of the issuer and the security offered
 
@@ -172,7 +172,7 @@ Bonds can be {@{categorised in several ways}@}, such as {@{the type of issuer, t
 
 - {@{A [climate bond](climate%20bond.md#green%20bonds%20for%20climate%20action)}@} is {@{a bond issued by a government or corporate entity}@} in order to {@{raise finance for [climate change](climate%20change.md) mitigation- or adaptation-related projects or programmes}@}. For example, in {@{2021 the UK government}@} started to {@{issue "green bonds"}@}. <!--SR:!fsrs,2030-08-22T00:00:00.000Z,1481,1480.50021837,1,2,9,0,0,2026-08-02T00:00:00.000Z!2027-01-29,457,385!2026-11-13,389,366!2026-10-06,361,366!2026-09-18,342,361-->
 
-- {@{[Asset-backed securities](asset-backed%20security.md)}@} are {@{bonds whose interest and principal payments are backed by underlying cash flows from other assets}@}. {@{Examples of asset-backed securities}@} are {@{[mortgage-backed securities](mortgage-backed%20security.md) \(MBSs\), [collateralized mortgage obligations](collateralized%20mortgage%20obligation.md) \(CMOs\), and [collateralized debt obligations](collateralized%20debt%20obligation.md) \(CDOs\)}@}. <!--SR:!2026-09-15,343,361!2026-08-15,317,354!2026-11-05,382,361!2029-08-25,1179,354-->
+- {@{[Asset-backed securities](asset-backed%20security.md)}@} are {@{bonds whose interest and principal payments are backed by underlying cash flows from other assets}@}. {@{Examples of asset-backed securities}@} are {@{[mortgage-backed securities](mortgage-backed%20security.md) \(MBSs\), [collateralized mortgage obligations](collateralized%20mortgage%20obligation.md) \(CMOs\), and [collateralized debt obligations](collateralized%20debt%20obligation.md) \(CDOs\)}@}. <!--SR:!2026-09-15,343,361!fsrs,2030-08-27T00:00:00.000Z,1472,1471.51953391,1,2,9,0,0,2026-08-16T00:00:00.000Z!2026-11-05,382,361!2029-08-25,1179,354-->
 
 - {@{[Covered bonds](covered%20bond.md)}@} are {@{backed by cash flows from mortgages or public sector assets}@}. Unlike {@{asset-backed securities}@}, {@{the assets for such bonds}@} {@{remain on the issuer's balance sheet}@}. <!--SR:!fsrs,2030-08-04T00:00:00.000Z,1462,1462.19195308,1,2,9,0,0,2026-08-03T00:00:00.000Z!2027-01-08,437,380!2027-02-09,466,385!2026-10-15,365,366!2026-09-28,354,361-->
 

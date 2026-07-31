@@ -74,7 +74,7 @@ When using {@{the column vector convention}@}: <!--SR:!fsrs,2029-06-15T00:00:00.
 
 ### abstract description
 
-{@{The virtue of Einstein notation}@} is that it represents {@{the [invariant](invariant%20(mathematics).md) quantities with a simple notation}@}. <!--SR:!2026-08-15,239,330!2026-08-28,251,330-->
+{@{The virtue of Einstein notation}@} is that it represents {@{the [invariant](invariant%20(mathematics).md) quantities with a simple notation}@}. <!--SR:!fsrs,2029-07-16T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-08-16T00:00:00.000Z!2026-08-28,251,330-->
 
 In {@{physics}@}, {@{a [scalar](scalar%20(physics).md)}@} is {@{invariant under transformations of basis}@}. In particular, {@{a [Lorentz scalar](Lorentz%20scalar.md)}@} is {@{invariant under a [Lorentz transformation](Lorentz%20transformation.md)}@}. {@{The individual terms in the sum}@} are {@{not}@}. When {@{the basis is changed}@}, {@{the _components_ of a vector}@} change by {@{a [linear transformation](linear%20transformation.md) described by a matrix}@}. This led {@{Einstein to propose the convention}@} that {@{repeated indices imply the summation is to be done}@}. <!--SR:!2026-08-31,253,330!2026-10-10,279,330!2026-09-29,268,330!2026-10-07,276,330!2026-10-02,271,330!2026-09-23,262,330!2026-10-24,293,330!2026-10-23,292,330!2026-10-07,276,330!2026-10-06,275,330!fsrs,2029-07-06T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-14T00:00:00.000Z!2026-10-13,282,330-->
 

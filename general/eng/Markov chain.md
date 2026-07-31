@@ -329,7 +329,7 @@ Markov chains are used in {@{various areas of biology}@}. Notable examples inclu
 
 ### testing
 
-{@{Several theorists}@} have proposed {@{the idea of the Markov chain statistical test \(MCST\)}@}, a method of {@{conjoining Markov chains to form a "[Markov blanket](markov%20blanket.md)"}@}, arranging {@{these chains in several recursive layers \("wafering"\)}@} and producing {@{more efficient test sets—samples—as a replacement for exhaustive testing}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2031-10-24,2003,387!2028-04-03,931,341!2030-03-10,1502,361!2026-08-15,455,327!2031-03-20,1825,379-->
+{@{Several theorists}@} have proposed {@{the idea of the Markov chain statistical test \(MCST\)}@}, a method of {@{conjoining Markov chains to form a "[Markov blanket](markov%20blanket.md)"}@}, arranging {@{these chains in several recursive layers \("wafering"\)}@} and producing {@{more efficient test sets—samples—as a replacement for exhaustive testing}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> <!--SR:!2031-10-24,2003,387!2028-04-03,931,341!2030-03-10,1502,361!fsrs,2031-09-05T00:00:00.000Z,1846,1846.27786021,1,2,10,0,0,2026-08-16T00:00:00.000Z!2031-03-20,1825,379-->
 
 ### solar irradiance variability
 

@@ -46,6 +46,6 @@ By segmenting the market, business {@{can clarify the requirements of their cust
 
 ## strategy
 
-It is necessary for the company to decide {@{which segments to serve}@}. It can be {@{undifferentiated, ignoring segments; concentrated or focused, one segment}@}; {@{differentiated, two or more segments; or hypersegmented, thousands of or more segments}@}. <!--SR:!2032-06-30,2281,330!2029-02-16,1062,250!2026-08-15,93,367-->
+It is necessary for the company to decide {@{which segments to serve}@}. It can be {@{undifferentiated, ignoring segments; concentrated or focused, one segment}@}; {@{differentiated, two or more segments; or hypersegmented, thousands of or more segments}@}. <!--SR:!2032-06-30,2281,330!2029-02-16,1062,250!fsrs,2028-01-30T00:00:00.000Z,532,532.38903993,1,2,8,0,0,2026-08-16T00:00:00.000Z-->
 
 Undifferentiated marketing is {@{rare because customers are demanding nowadays}@}. Differentiated marketing is {@{used by most companies, but it incurs a greater cost than undifferentiated marketing}@}. Some companies use focused marketing, which {@{usually has high rate of return but also higher risk}@}. For startups, {@{focused marketing is more suitable as the cost is lower than differentiated marketing}@}. Hypersegmented marketing is {@{rather new and used by companies with data of individual customers. However, there are privacy concerns with this use of individual data}@}. <!--SR:!2028-06-08,1133,310!2029-06-24,1393,310!2028-02-02,1090,350!2032-09-02,2303,330!2028-04-15,1044,290-->

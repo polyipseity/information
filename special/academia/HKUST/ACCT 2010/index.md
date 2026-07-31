@@ -243,7 +243,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-10T13:30:00+08:00/2024-10-10T14:50:00+08:00
 - receivables ::@:: Receivables may be classified in 3 different ways: promissory notes, principal business activities, and liquidity. <!--SR:!2031-10-03,2007,403!2026-08-31,509,403-->
-    - accounts receivable vs. notes receivable ::@:: The former are connected to credit sale on open account i.e., no formal promissory notes. The latter has formal promissory notes with specified terms. <!--SR:!2026-09-30,535,403!2026-08-15,495,403-->
+    - accounts receivable vs. notes receivable ::@:: The former are connected to credit sale on open account i.e., no formal promissory notes. The latter has formal promissory notes with specified terms. <!--SR:!2026-09-30,535,403!fsrs,2032-11-06T00:00:00.000Z,2274,2274.19527604,1,2,10,0,0,2026-08-16T00:00:00.000Z-->
         - [accounts receivable](../../../../general/accounts%20receivable.md)
         - [notes receivable](../../../../general/notes%20receivable.md) ::@:: It represents claims for which formal instruments of credit are issued as evidence of debt, such as a promissory note. <!--SR:!2028-06-14,1005,376!fsrs,2032-11-01T00:00:00.000Z,2270,2270.20442073,1,2,10,0,0,2026-08-15T00:00:00.000Z-->
     - trade receivable vs. non-trade receivable ::@:: The former is connected to normal course of business for credit sale of merchandise or services. The latter is connected to other than normal sale of merchandise or services. <!--SR:!fsrs,2032-09-29T00:00:00.000Z,2246,2246.2381643,1,2,10,0,0,2026-08-06T00:00:00.000Z!2031-10-19,2020,403-->
@@ -450,7 +450,7 @@ The content is in teaching order.
 - datetime: 2024-11-07T13:30:00+08:00/2024-11-07T14:50:00+08:00
 - [dividend](../../../../general/dividend.md) ::@:: It is a distribution of profits by a corporation to its shareholders, after which the stock exchange decreases the price of the stock by the dividend to remove volatility. <!--SR:!2026-08-30,509,403!2026-09-11,520,403-->
     - cash dividend ::@:: Without a qualifier at the front, dividend means this. <!--SR:!2026-09-09,516,396!2026-08-19,498,396-->
-        - cash dividend / source ::@:: Must be paid out of retained earnings, i.e. retained earnings should not be negative after paying the cash dividend. <!--SR:!2026-09-17,524,403!2026-08-15,495,396-->
+        - cash dividend / source ::@:: Must be paid out of retained earnings, i.e. retained earnings should not be negative after paying the cash dividend. <!--SR:!2026-09-17,524,403!fsrs,2032-11-06T00:00:00.000Z,2274,2274.19527604,1,2,10,0,0,2026-08-16T00:00:00.000Z-->
         - cash dividend / declared but not paid \(before end date\) ::@:: debit equity "Retained earnings", credit liability "Dividends payable" \(effectively, SE becomes L\) <!--SR:!2026-10-12,545,403!2026-10-09,542,403-->
         - cash dividend / declared and paid \(at end date\) ::@:: debit equity "Retained earnings" if declared now or liability "Dividends payable" if declared before, credit asset "Cash" \(effectively, A decreases with SE or L\) <!--SR:!2026-09-28,533,403!2027-09-16,732,356-->
     - stock dividend ::@:: A distribution of additional shares of shares to its stockholders on a pro rata basis (proportional) at no cost to stockholders. <!--SR:!2028-09-07,1074,383!2026-09-15,522,403-->

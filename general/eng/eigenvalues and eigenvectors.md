@@ -157,7 +157,7 @@ For {@{a [Hermitian matrix](Hermitian%20matrix.md) $H$}@}, eigenvalues can be {@
 
 The definitions of eigenvalue and eigenvectors of a [linear transformation](linear%20map.md) $T$ remains valid even if {@{the underlying vector space is an infinite-dimensional [Hilbert](Hilbert%20space.md) or [Banach space](Banach%20space.md)}@}. A widely used class of linear transformations acting on infinite-dimensional spaces are {@{the [differential operators](differential%20operator.md) on [function spaces](function%20space.md)}@}. <!--SR:!2031-10-08,2120,390!2031-02-07,1923,390-->
 
-Let $D$ be {@{a linear differential operator on the space $C^\infty(\mathbb R, \mathbb R)$ of infinitely differentiable real functions of a real argument $t$}@}. The eigenvalue equation for $D$ is {@{the [differential equation](differential%20equation.md): $$D f(t) = \lambda f(t) \,.$$}@} The functions that satisfy this equation are {@{eigenvectors of $D$ and are commonly called __eigenfunctions__}@}. <!--SR:!2026-08-15,537,330!2031-03-15,1955,390!2031-01-21,1912,390-->
+Let $D$ be {@{a linear differential operator on the space $C^\infty(\mathbb R, \mathbb R)$ of infinitely differentiable real functions of a real argument $t$}@}. The eigenvalue equation for $D$ is {@{the [differential equation](differential%20equation.md): $$D f(t) = \lambda f(t) \,.$$}@} The functions that satisfy this equation are {@{eigenvectors of $D$ and are commonly called __eigenfunctions__}@}. <!--SR:!fsrs,2032-07-10T00:00:00.000Z,2155,2155.34170451,1,2,10,0,0,2026-08-16T00:00:00.000Z!2031-03-15,1955,390!2031-01-21,1912,390-->
 
 ### derivative operator example
 

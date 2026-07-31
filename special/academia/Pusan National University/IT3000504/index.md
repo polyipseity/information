@@ -38,7 +38,7 @@ The content is in teaching order.
 - IT3000504
     - IT3000504 / information
     - IT3000504 / logistics
-    - IT3000504 / introduction ::@:: Fundamental economics for students like you \(me\). Learn fundamental economic tools to understand economic phenomena. <!--SR:!2026-08-15,254,330!fsrs,2029-06-02T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-23T00:00:00.000Z-->
+    - IT3000504 / introduction ::@:: Fundamental economics for students like you \(me\). Learn fundamental economic tools to understand economic phenomena. <!--SR:!fsrs,2029-09-11T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-08-16T00:00:00.000Z!fsrs,2029-06-02T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-23T00:00:00.000Z-->
     - IT3000504 / materials
     - IT3000504 / grading
     - IT3000504 / prerequisites ::@:: basic algebra, calculus, principles of economics \(microeconomics\) <!--SR:!2026-08-18,255,330!2026-08-20,257,330-->
@@ -70,7 +70,7 @@ The content is in teaching order.
         - gross domestic product / keywords / final ::@:: Final goods and services are intended for end users \(households\). Intermediate goods and services are those used by businesses to produce other goods and services within the accounting year. <!--SR:!2026-09-23,284,330!2026-08-31,266,330-->
         - gross domestic product / keywords / goods and services ::@:: Goods are usually _tangible_. Services are usually _intangible_. <!--SR:!2026-09-03,268,330!2028-06-05,733,330-->
         - gross domestic product / keywords / domestic ::@:: Any production \(not consumption\) that occurs in a country counts, whether by citizens or foreigners. <!--SR:!2026-08-24,260,330!fsrs,2029-08-12T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-08-09T00:00:00.000Z-->
-        - gross domestic product / keywords / time period ::@:: Usually a year or a quarter \(3 months\). <!--SR:!2028-05-07,727,330!2026-08-15,253,330-->
+        - gross domestic product / keywords / time period ::@:: Usually a year or a quarter \(3 months\). <!--SR:!2028-05-07,727,330!fsrs,2029-09-08T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-08-16T00:00:00.000Z-->
     - gross domestic product / determination ::@:: GDP can be determined in three ways, all of which should, theoretically, give the same result. They are the _production_ \(or output or value added\) approach, the _income_ approach, and the _speculated expenditure_ approach. It is representative of the total output and income within an economy. <!--SR:!2028-07-04,762,330!2028-04-16,704,330-->
         - gross domestic product / determination / expenditure ::@:: The third way to estimate GDP is to calculate the sum of the final uses of goods and services \(all uses except intermediate consumption\) measured in purchasers' prices. <!--SR:!2026-08-23,259,330!2028-04-20,707,330-->
             - gross domestic product / determination / expenditure / unsold goods ::@:: Market goods that are produced are purchased by someone. In the case where a good is produced and unsold, the standard accounting convention is that the producer has bought the good from themselves. Therefore, measuring the total expenditure used to buy things is a way of measuring production. This is known as the expenditure method of calculating GDP. <!--SR:!2027-07-23,498,310!2027-04-10,374,290-->

@@ -92,7 +92,7 @@ The {@{fifth design principle}@} advocates that {@{software entities (classes, m
 1. _Name and intent_ ::@:: – A concise explanation of what the pattern does and its primary purpose. <!--SR:!2027-03-28,365,361!2027-04-26,389,361-->
 2. _Problem_ ::@:: – The specific challenge or difficulty being addressed in a real-world or abstract scenario. <!--SR:!2027-04-17,381,361!2027-04-21,385,361-->
 3. _Context_ ::@:: – The general situation or environment in which the pattern applies. <!--SR:!2027-04-28,390,361!2027-04-29,392,361-->
-4. _Concerns_ ::@:: – Issues to consider while solving the problem. <!--SR:!2026-08-15,191,322!2027-03-22,360,361-->
+4. _Concerns_ ::@:: – Issues to consider while solving the problem. <!--SR:!fsrs,2028-12-15T00:00:00.000Z,852,852.24186356,1,2,9,0,0,2026-08-16T00:00:00.000Z!2027-03-22,360,361-->
 5. _Solution_ ::@:: – An abstract description of the structure, collaboration, and behavior of the pattern. <!--SR:!2027-04-20,384,361!2027-04-01,368,361-->
 6. _Consequences_ ::@:: – Both positive and negative effects of using the pattern (e.g., benefits like flexibility, drawbacks like complexity or performance cost). <!--SR:!2027-02-10,327,361!2027-03-28,365,361-->
 7. _Implementation guidelines_ ::@:: – Practical advice on how to apply the pattern in code, often including recommendations for when and how to use it. <!--SR:!2027-04-13,377,361!2027-03-21,359,361-->

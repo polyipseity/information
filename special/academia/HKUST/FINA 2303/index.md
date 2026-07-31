@@ -267,7 +267,7 @@ The content is in teaching order.
 - annual percentage rate
 - effective annual rate
 - [amortizing loan](../../../../general/amortizing%20loan.md) ::@:: a loan where the principal of the loan is paid down over the life of the loan (that is, amortized) according to an amortization schedule, typically through equal payments. <!--SR:!2030-12-22,1696,393!2026-09-08,440,393-->
-    - amortizing loan / equated monthly installment (EMI) ::@:: Payments are divided into equal amounts for the duration of the loan, making it the simplest repayment model. A greater amount of the payment is applied to _interest_ at the beginning of the amortization schedule, while more money is applied to _principal_ at the end. <!--SR:!2026-08-15,416,393!2026-11-06,492,393-->
+    - amortizing loan / equated monthly installment (EMI) ::@:: Payments are divided into equal amounts for the duration of the loan, making it the simplest repayment model. A greater amount of the payment is applied to _interest_ at the beginning of the amortization schedule, while more money is applied to _principal_ at the end. <!--SR:!fsrs,2031-12-24T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-08-16T00:00:00.000Z!2026-11-06,492,393-->
     - amortizing loan / terminology ::@:: balance/principal outstanding, interest, principal <!--SR:!2030-02-07,1441,393!2026-09-07,439,393-->
     - amortizing loan / amortizing schedule ::@:: It can be an Excel spreadsheet showing balance/principal outstanding, interest paid, and principal paid. <!--SR:!2026-08-27,428,393!2026-09-09,441,393-->
     - amortizing loan / intuition ::@:: Literally just ordinary annuity, but the direction of payment is reversed. <!--SR:!2026-09-14,446,393!2026-09-23,455,393-->
@@ -511,7 +511,7 @@ The content is in teaching order.
 - datetime: 2025-03-19T16:30:00+08:00/2025-03-19T17:50:00+08:00, PT1H20M
 - topic: fundamentals of capital budgeting
 - free cash flow
-    - free cash flow / calculations ::@:: incremental earnings \(_unlevered_ net income\) + depreciation & amortization − capital expenditure − changes in working capital <!--SR:!2027-04-29,569,414!2026-08-15,394,392-->
+    - free cash flow / calculations ::@:: incremental earnings \(_unlevered_ net income\) + depreciation & amortization − capital expenditure − changes in working capital <!--SR:!2027-04-29,569,414!fsrs,2031-09-25T00:00:00.000Z,1866,1865.58882757,1,2,10,0,0,2026-08-16T00:00:00.000Z-->
         - free cash flow / calculations / incremental earnings ::@:: EBIT − taxes based on EBIT = EBIT × \(1 − marginal corporate tax rate\) <!--SR:!2027-08-30,716,432!2026-11-23,478,412-->
         - free cash flow / calculations / net income ::@:: incremental earnings \(_unlevered_ net income\) = \(_levered_\) net income + interest expense − tax shield on interest expense <!--SR:!2026-12-01,486,412!2027-10-22,752,435-->
     - free cash flow / depreciation
