@@ -14,7 +14,7 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-A __reactivity series__ is {@{a progression of series of [metals](metal.md) arranged by their [reactivity](<reactivity%20(chemistry).md>)}@}. <!--SR:!2026-08-16,874,290-->
+A __reactivity series__ is {@{a progression of series of [metals](metal.md) arranged by their [reactivity](<reactivity%20(chemistry).md>)}@}. <!--SR:!fsrs,2034-06-29T00:00:00.000Z,2873,2873.04201796,1.98030797,2,11,0,0,2026-08-17T00:00:00.000Z-->
 
 ## data
 

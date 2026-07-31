@@ -117,7 +117,7 @@ The content is in teaching order.
 - [derivative](../../../../general/derivative%20(finance).md) ::@:: It is a contract between a buyer and a seller. The derivative can take various forms, depending on the transaction, but every derivative has the following four elements: ... <!--SR:!2028-02-03,688,410!2027-08-06,506,390-->
     - derivative / elements ::@:: tradeable item, future act, future act price, future act time <!--SR:!2026-08-24,264,330!2026-09-06,274,330-->
         - derivative / elements / tradeable item ::@:: an item \(the "underlier"\) that can or must be bought or sold, e.g. commodity, event, financial asset, intangible good, natural condition index, etc. <!--SR:!fsrs,2029-06-13T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-22T00:00:00.000Z!2028-06-10,759,330-->
-        - derivative / elements / future act ::@:: a future act which must occur \(such as a sale or purchase of the underlier\) <!--SR:!2026-08-16,256,330!2026-08-19,259,330-->
+        - derivative / elements / future act ::@:: a future act which must occur \(such as a sale or purchase of the underlier\) <!--SR:!fsrs,2029-09-20T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-08-17T00:00:00.000Z!2026-08-19,259,330-->
         - derivative / elements / future act price ::@:: a price at which the future transaction must take place <!--SR:!2026-09-02,271,330!2026-08-30,268,330-->
         - derivative / elements / future act time ::@:: a future date by which the act \(such as a purchase or sale\) must take place <!--SR:!2026-09-16,282,330!2026-09-13,280,330-->
 - market microstructure

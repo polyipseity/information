@@ -60,7 +60,7 @@ In particular, if {@{the vectors $\mathbf {a}$ and $\mathbf {b}$ are [orthogonal
 
 > {@{![Scalar projection](../../archives/Wikimedia%20Commons/Dot%20Product.svg)}@}
 >
-> {@{Scalar projection}@} <!--SR:!2026-09-08,454,383!2026-08-16,436,383-->
+> {@{Scalar projection}@} <!--SR:!2026-09-08,454,383!fsrs,2032-03-15T00:00:00.000Z,2037,2036.92992657,1,2,10,0,0,2026-08-17T00:00:00.000Z-->
 
 {@{The [scalar projection](scalar%20projection.md) \(or scalar component\) of a Euclidean vector $\mathbf {a}$ in the direction of a Euclidean vector $\mathbf {b}$}@} is given by {@{$$a_{b}=\left\|\mathbf {a} \right\|\cos \theta ,$$ where $\theta$ is the angle between $\mathbf {a}$ and $\mathbf {b}$}@}. <!--SR:!fsrs,2031-11-13T00:00:00.000Z,1943,1943.3704559,1,2,10,0,0,2026-07-19T00:00:00.000Z!2026-09-25,469,383-->
 
@@ -98,7 +98,7 @@ __[Bilinear](bilinear%20form.md) \(additive, distributive and scalar-multiplicat
 
 __Not [associative](associative.md)__
 
-&emsp; Because {@{the dot product is not defined between a scalar $\mathbf {a} \cdot \mathbf {b}$ and a vector $\mathbf {c}$}@}, {@{associativity is meaningless}@}.<sup>[\[7\]](#^ref-7)</sup> However, {@{bilinearity implies $$c(\mathbf {a} \cdot \mathbf {b} )=(c\mathbf {a} )\cdot \mathbf {b} =\mathbf {a} \cdot (c\mathbf {b} ).$$}@} This property is sometimes {@{called the "associative law for scalar and dot product"}@},<sup>[\[8\]](#^ref-8)</sup> and one may say that {@{"the dot product is associative with respect to scalar multiplication"}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!fsrs,2032-03-10T00:00:00.000Z,2033,2032.87519052,1,2,10,0,0,2026-08-16T00:00:00.000Z!2026-09-22,466,383!fsrs,2032-02-02T00:00:00.000Z,2004,2004.45937273,1,2,10,0,0,2026-08-08T00:00:00.000Z!2026-09-12,458,383!2026-08-16,436,383-->
+&emsp; Because {@{the dot product is not defined between a scalar $\mathbf {a} \cdot \mathbf {b}$ and a vector $\mathbf {c}$}@}, {@{associativity is meaningless}@}.<sup>[\[7\]](#^ref-7)</sup> However, {@{bilinearity implies $$c(\mathbf {a} \cdot \mathbf {b} )=(c\mathbf {a} )\cdot \mathbf {b} =\mathbf {a} \cdot (c\mathbf {b} ).$$}@} This property is sometimes {@{called the "associative law for scalar and dot product"}@},<sup>[\[8\]](#^ref-8)</sup> and one may say that {@{"the dot product is associative with respect to scalar multiplication"}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!fsrs,2032-03-10T00:00:00.000Z,2033,2032.87519052,1,2,10,0,0,2026-08-16T00:00:00.000Z!2026-09-22,466,383!fsrs,2032-02-02T00:00:00.000Z,2004,2004.45937273,1,2,10,0,0,2026-08-08T00:00:00.000Z!2026-09-12,458,383!fsrs,2032-03-15T00:00:00.000Z,2037,2036.92992657,1,2,10,0,0,2026-08-17T00:00:00.000Z-->
 
 __[Orthogonal](orthogonal.md)__ <p> ::@:: &emsp; Two non-zero vectors $\mathbf {a}$ and $\mathbf {b}$ are _orthogonal_ if and only if $\mathbf {a} \cdot \mathbf {b} =0$. (annotation: The zero vector is orthogonal to any vector.) <!--SR:!fsrs,2032-02-01T00:00:00.000Z,2004,2004.45937273,1,2,10,0,0,2026-08-07T00:00:00.000Z!fsrs,2031-10-24T00:00:00.000Z,1927,1927.03350629,1,2,10,0,0,2026-07-15T00:00:00.000Z-->
 

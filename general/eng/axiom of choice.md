@@ -232,7 +232,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
 - [Set theory](set%20theory.md)
 
-    - \(annotation: {@{weaker than}@} AC\) {@{The [ultrafilter lemma](ultrafilter%20lemma.md#the%20ultrafilter%20lemma) \(with ZF\)}@} can be used to {@{prove the Axiom of choice for finite sets}@}: Given {@{$I\neq \varnothing$ and a collection $\left(X_{i}\right)_{i\in I}$ of non-empty finite sets}@}, {@{their product $\prod _{i\in I}X_{i}$ is not empty}@}.<sup>[\[28\]](#^ref-28)</sup> <!--SR:!2026-09-26,305,347!2026-12-29,382,364!2026-08-16,255,344!2026-12-23,377,364!fsrs,2028-06-15T02:14:06.950Z,732,732.00802991,1,2,8,0,0,2026-06-14T02:14:06.950Z-->
+    - \(annotation: {@{weaker than}@} AC\) {@{The [ultrafilter lemma](ultrafilter%20lemma.md#the%20ultrafilter%20lemma) \(with ZF\)}@} can be used to {@{prove the Axiom of choice for finite sets}@}: Given {@{$I\neq \varnothing$ and a collection $\left(X_{i}\right)_{i\in I}$ of non-empty finite sets}@}, {@{their product $\prod _{i\in I}X_{i}$ is not empty}@}.<sup>[\[28\]](#^ref-28)</sup> <!--SR:!2026-09-26,305,347!2026-12-29,382,364!fsrs,2029-11-09T00:00:00.000Z,1180,1180.09320891,1,2,9,0,0,2026-08-17T00:00:00.000Z!2026-12-23,377,364!fsrs,2028-06-15T02:14:06.950Z,732,732.00802991,1,2,8,0,0,2026-06-14T02:14:06.950Z-->
 
     - \(annotation: {@{weaker than}@} AC\) {@{The [union](union%20(set%20theory).md)}@} of {@{any countable family of [countable sets](countable%20sets.md)}@} is {@{countable}@} \(this requires {@{[countable choice](axiom%20of%20countable%20choice.md) but not the full axiom of choice}@}\). <!--SR:!2027-01-13,395,364!2026-12-25,379,364!2026-10-10,315,347!2028-11-23,909,347!fsrs,2028-06-24T03:27:14.128Z,740,739.81467051,1,2,8,0,0,2026-06-15T03:27:14.128Z-->
 

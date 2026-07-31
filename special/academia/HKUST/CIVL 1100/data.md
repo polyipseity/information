@@ -87,7 +87,7 @@ See [Central Plaza (Hong Kong)](../../../../general/Central%20Plaza%20(Hong%20Ko
 See [Channel Tunnel](../../../../general/Channel%20Tunnel.md).
 
 - completion time ::@:: 1994 <!--SR:!2027-05-10,766,336!2034-09-10,3057,416-->
-- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!2026-08-16,196,196!2028-04-08,948,376-->
+- rail tunnel length ::@:: 50.5 km (37.9 km underseas) <!--SR:!fsrs,2027-12-12T00:00:00.000Z,482,482.29456215,6.6831987,2,9,0,0,2026-08-17T00:00:00.000Z!2028-04-08,948,376-->
 
 ## China International Trust and Investment Plaza
 

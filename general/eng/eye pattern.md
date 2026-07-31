@@ -89,7 +89,7 @@ The eye pattern of {@{a [MLT-3](MLT-3%20encoding.md) \(annotation: multi-level t
 
 ### PAM
 
-The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pulse-amplitude modulation\) signal}@} should consist of {@{N clearly distinct levels}@} \(depending on {@{the PAM order}@}, for example {@{PAM-4 should have four levels and PAM-3 should have three}@}\). {@{The overall shape}@} should be {@{symmetric about the horizontal axis}@} and {@{the spacing of all levels}@} should be {@{uniform}@}. <!--SR:!2026-08-28,274,330!2026-08-16,264,330!2026-09-10,284,330!2026-09-01,276,330!2026-09-05,280,330!fsrs,2029-07-20T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-07-24T00:00:00.000Z!fsrs,2029-07-26T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-07-26T00:00:00.000Z!fsrs,2029-10-05T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-08-13T00:00:00.000Z-->
+The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pulse-amplitude modulation\) signal}@} should consist of {@{N clearly distinct levels}@} \(depending on {@{the PAM order}@}, for example {@{PAM-4 should have four levels and PAM-3 should have three}@}\). {@{The overall shape}@} should be {@{symmetric about the horizontal axis}@} and {@{the spacing of all levels}@} should be {@{uniform}@}. <!--SR:!2026-08-28,274,330!fsrs,2029-10-21T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-08-17T00:00:00.000Z!2026-09-10,284,330!2026-09-01,276,330!2026-09-05,280,330!fsrs,2029-07-20T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-07-24T00:00:00.000Z!fsrs,2029-07-26T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-07-26T00:00:00.000Z!fsrs,2029-10-05T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-08-13T00:00:00.000Z-->
 
 > {@{![Eye pattern of a PAM-3 signal \([100BASE-T1](100BASE-T1.md#100BASE-T1) automotive Ethernet\)](../../archives/Wikimedia%20Commons/Eye%20pattern%20PAM3.png)}@}
 >
@@ -115,7 +115,7 @@ The eye pattern of {@{a [PAM](pulse-amplitude%20modulation.md) \(annotation: pul
 
 {@{[Emphasis](emphasis%20(telecommunications).md)}@} applied to a signal produces {@{an additional level for each value of the signal}@} which is {@{higher \(for pre-emphasis\) or lower \(for de-emphasis\) than the nominal value}@}. <!--SR:!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-08-31,276,330!2026-08-25,272,330-->
 
-{@{The eye pattern for a signal with emphasis}@} may be mistaken for that of {@{a PAM signal}@} at first glance, however {@{closer inspection}@} reveals {@{some key differences}@}. Most notably, {@{an emphasized signal}@} has {@{a limited set of legal transitions}@}: <!--SR:!2026-08-16,264,330!2026-08-28,273,330!2026-09-15,288,330!fsrs,2029-06-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-15T00:00:00.000Z!fsrs,2029-07-15T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-23T00:00:00.000Z!fsrs,2029-06-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-17T00:00:00.000Z-->
+{@{The eye pattern for a signal with emphasis}@} may be mistaken for that of {@{a PAM signal}@} at first glance, however {@{closer inspection}@} reveals {@{some key differences}@}. Most notably, {@{an emphasized signal}@} has {@{a limited set of legal transitions}@}: <!--SR:!fsrs,2029-10-21T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-08-17T00:00:00.000Z!2026-08-28,273,330!2026-09-15,288,330!fsrs,2029-06-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-15T00:00:00.000Z!fsrs,2029-07-15T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-23T00:00:00.000Z!fsrs,2029-06-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-17T00:00:00.000Z-->
 
 - Strong state to corresponding weak state ::@:: \(1-1 or 0-0 bit pattern\) <!--SR:!fsrs,2029-06-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-13T00:00:00.000Z!2026-09-01,276,330-->
 - Strong state to opposite strong state ::@:: \(second transition of a 1-0-1 or 0-1-0 bit pattern\) <!--SR:!fsrs,2029-05-30T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-07-12T00:00:00.000Z!2026-09-18,290,330-->
@@ -155,7 +155,7 @@ In the image below, {@{an additional three inches of cable}@} is {@{added to the
 
 > {@{![Eye pattern of a 1.25 Gbit/s NRZ signal with a four-inch stub](../../archives/Wikimedia%20Commons/Eye%20pattern%20long%20stub.png)}@}
 >
-> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} with {@{a four-inch stub}@} <!--SR:!fsrs,2029-09-03T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-04T00:00:00.000Z!fsrs,2029-10-16T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-08-16T00:00:00.000Z!2026-08-16,264,330!fsrs,2029-09-05T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-06T00:00:00.000Z-->
+> {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} with {@{a four-inch stub}@} <!--SR:!fsrs,2029-09-03T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-04T00:00:00.000Z!fsrs,2029-10-16T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-08-16T00:00:00.000Z!fsrs,2029-10-21T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-08-17T00:00:00.000Z!fsrs,2029-09-05T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-06T00:00:00.000Z-->
 
 ## measurements
 
