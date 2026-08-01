@@ -296,7 +296,7 @@ The content is in teaching order.
             - change in demand / graph ::@:: Usually, we move the demand curve horizontally, not vertically. Note that for a straight line, these two produce the same results. <!--SR:!2026-08-31,539,402!2030-05-13,1581,391-->
             - change in demand / factors ::@:: They are _non-price determinants_ of demand: consumer preferences, expectation about the future, income, number of buyers (e.g. population growth), prices of _related_ goods. <!--SR:!2028-04-26,982,371!2028-08-12,1007,366-->
                 - change in demand / factors / consumer preferences ::@:: What consumers prefer. For example, fashion may affect it. <!--SR:!2030-12-15,1769,391!2033-01-22,2426,411-->
-                - change in demand / factors / income ::@:: What consumers buy responds to their incomes. Examples include normal goods, inferior goods, etc. <!--SR:!2026-08-21,530,402!2026-08-17,527,402-->
+                - change in demand / factors / income ::@:: What consumers buy responds to their incomes. Examples include normal goods, inferior goods, etc. <!--SR:!2026-08-21,530,402!fsrs,2033-03-15T00:00:00.000Z,2401,2401.38421202,1,2,10,0,0,2026-08-18T00:00:00.000Z-->
 - types of goods ::@:: ordinary goods ← normal goods (luxury/superior goods, necessity goods), Giffen goods → inferior goods <!--SR:!2027-12-02,860,351!2030-04-20,1477,379-->
     - [normal good](../../../../general/normal%20good.md) ::@:: It is a type of a goods which experiences an increase in demand due to an increase in income. For you, they are goods that you want more as you have more money. <!--SR:!2026-08-23,532,402!2028-09-28,1109,371-->
     - [inferior good](../../../../general/inferior%20good.md) ::@:: It is goods the demand for which falls with increase in income of the consumer. For you, they are not-as-good goods that you will substitute with better goods once you have enough money. <!--SR:!2026-09-07,544,406!2026-09-01,540,402-->
@@ -320,7 +320,7 @@ The content is in teaching order.
 - related goods in production ::@:: complementary goods in production, substitute goods in production, independent goods in production <!--SR:!2032-02-27,2164,410!2031-06-26,1934,402-->
     - substitute goods in production ::@:: Two goods are substitutes in production if their production rely on the same inputs. Examples: land to grow vegetable or fruit. <!--SR:!fsrs,2032-07-10T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-06-22T00:00:00.000Z!2033-04-12,2506,418-->
     - complementary goods in production ::@:: Two goods are complements in production if they are produced together (joint products). Examples: beef and leather; diesel, gasoline, kerosene, etc. from refining crude oil. <!--SR:!2028-01-29,862,351!2031-09-28,2016,406-->
-    - related goods in production ::@:: The price change of one good affects the supply (curve) of the other good. <!--SR:!2026-08-17,527,402!fsrs,2033-01-08T00:00:00.000Z,2350,2349.83313843,1,2,10,0,0,2026-08-03T00:00:00.000Z-->
+    - related goods in production ::@:: The price change of one good affects the supply (curve) of the other good. <!--SR:!fsrs,2033-03-15T00:00:00.000Z,2401,2401.38421202,1,2,10,0,0,2026-08-18T00:00:00.000Z!fsrs,2033-01-08T00:00:00.000Z,2350,2349.83313843,1,2,10,0,0,2026-08-03T00:00:00.000Z-->
 - [questions § chapter 4 lecture](questions.md#chapter%204%20lecture)
 - announcements
     - assigned reading: textbook chapter 5

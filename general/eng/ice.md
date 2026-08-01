@@ -8,7 +8,7 @@ tags:
 
 # ice
 
-__Ice__ is {@{[frozen](freezing.md) [solid](solid.md) [water](water.md)}@}. <!--SR:!2026-08-17,943,330-->
+__Ice__ is {@{[frozen](freezing.md) [solid](solid.md) [water](water.md)}@}. <!--SR:!fsrs,2036-04-16T00:00:00.000Z,3529,3528.94488871,1,2,11,0,0,2026-08-18T00:00:00.000Z-->
 
 ## references
 

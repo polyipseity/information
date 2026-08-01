@@ -430,7 +430,7 @@ The content is in teaching order.
     - [issued shares](../../../../general/issued%20shares.md) ::@:: authorized and sold to the public or repurchased <!--SR:!fsrs,2032-08-13T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-07-26T00:00:00.000Z!2029-01-20,1179,383-->
     - unissued shares ::@:: authorized but never sold and never repurchased <!--SR:!2026-08-18,498,403!fsrs,2032-08-08T00:00:00.000Z,2206,2206.21232104,1,2,10,0,0,2026-07-25T00:00:00.000Z-->
     - [outstanding shares](../../../../general/shares%20outstanding.md) ::@:: issued shares that shareholders own, has voting and dividend rights <!--SR:!2026-09-06,515,403!2026-09-10,519,403-->
-    - [treasury shares](../../../../treasury%20stock.md) ::@:: issued shares that have been repurchased by the company, has no voting rights or dividend rights <!--SR:!2026-09-26,531,403!2026-08-17,497,403-->
+    - [treasury shares](../../../../treasury%20stock.md) ::@:: issued shares that have been repurchased by the company, has no voting rights or dividend rights <!--SR:!2026-09-26,531,403!fsrs,2032-11-16T00:00:00.000Z,2282,2282.17391221,1,2,10,0,0,2026-08-18T00:00:00.000Z-->
 - [equity](../../../../general/equity%20(finance).md)
     - equity / primary sources ::@:: retained earnings, contributed capital (common stock, par value + additional paid-in capital) <!--SR:!2026-09-10,519,403!2031-03-09,1828,396-->
 - [par value](../../../../general/par%20value.md) ::@:: It means  stated value or face value of a financial instrument. It may be a nominal value. It may also be a legal capital (the amount of capital, required by the state, that must remain invested in the business). <!--SR:!2026-10-04,538,403!2030-12-04,1761,403-->

@@ -9,7 +9,7 @@ tags:
 
 # Python dictionary
 
-A Python dictionary works like a dictionary. In the latter, you lookup a word to get its definition. In the former, you {@{lookup a key to get the value}@}. <!--SR:!2026-08-17,241,330-->
+A Python dictionary works like a dictionary. In the latter, you lookup a word to get its definition. In the former, you {@{lookup a key to get the value}@}. <!--SR:!fsrs,2029-07-25T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-08-18T00:00:00.000Z-->
 
 ## creation
 

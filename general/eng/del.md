@@ -147,7 +147,7 @@ These are {@{of interest principally}@} because {@{they are not always unique or
 
 {@{Two of them are always equal}@}: {@{$$\operatorname {div} (\operatorname {grad} f)=\nabla \cdot (\nabla f)=\nabla ^{2}f=\Delta f$$}@} <!--SR:!2029-02-21,1133,350!2029-03-15,1155,350-->
 
-{@{The 3 remaining vector derivatives}@} are related by the equation: {@{$$\nabla \times \left(\nabla \times \mathbf {v} \right)=\nabla (\nabla \cdot \mathbf {v} )-\nabla ^{2}\mathbf {v}$$ (annotation: notice the similarity to $\mathbf a \times (\mathbf b \times \mathbf c) = (\mathbf a \cdot \mathbf c) \mathbf b - (\mathbf a \cdot \mathbf b) \mathbf c$)}@} <!--SR:!2029-04-29,1182,350!2026-08-17,325,250-->
+{@{The 3 remaining vector derivatives}@} are related by the equation: {@{$$\nabla \times \left(\nabla \times \mathbf {v} \right)=\nabla (\nabla \cdot \mathbf {v} )-\nabla ^{2}\mathbf {v}$$ (annotation: notice the similarity to $\mathbf a \times (\mathbf b \times \mathbf c) = (\mathbf a \cdot \mathbf c) \mathbf b - (\mathbf a \cdot \mathbf b) \mathbf c$)}@} <!--SR:!2029-04-29,1182,350!fsrs,2028-02-15T00:00:00.000Z,546,546.45308121,6.99791867,2,9,0,0,2026-08-18T00:00:00.000Z-->
 
 And {@{one of them can even be expressed with the tensor product}@}, if {@{the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@} <!--SR:!2026-11-29,482,310!2026-09-10,342,230!2026-10-09,331,380-->
 

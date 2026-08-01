@@ -23,7 +23,7 @@ When $f$ is {@{$f: \mathbb{R} \to \mathbb{R}_{\ne 0}$, then the logarithmic deri
 - [power rule](power%20rule.md) ::@:: $$\frac {(u^k)'} {u^k} = k \frac {u'} u \qquad u > 0, k = \mathrm{const} $$ <!--SR:!fsrs,2033-07-22T00:00:00.000Z,2581,2581.36586655,1,2,10,0,0,2026-06-28T00:00:00.000Z!2028-03-07,1165,350-->
 - [product rule](product%20rule.md) ::@:: $$\frac {(\prod _{i = 1} ^n x_i)'} {\prod _{i = 1} ^n x_i} = \sum _{i = 1} ^n \frac {x_i'} {x_i}$$ <!--SR:!2028-01-21,1128,350!2026-09-23,698,330-->
 - [quotient rule](quotient%20rule.md) ::@:: $$\frac {(u / v)'} {u / v} = \frac {u'} u - \frac {v'} v$$ <!--SR:!2027-07-27,959,330!2028-04-24,1201,350-->
-- [reciprocal rule](reciprocal%20rule.md) ::@:: $$\frac {(1 / f)'} {1 / f} = -\frac {f'} f$$ <!--SR:!2026-08-17,698,330!2027-01-12,818,330-->
+- [reciprocal rule](reciprocal%20rule.md) ::@:: $$\frac {(1 / f)'} {1 / f} = -\frac {f'} f$$ <!--SR:!fsrs,2034-01-19T00:00:00.000Z,2711,2711.00900149,1,2,10,0,0,2026-08-18T00:00:00.000Z!2027-01-12,818,330-->
 
 > [!example] examples
 >

@@ -86,7 +86,7 @@ As for {@{covectors}@}, they change by {@{the [inverse matrix](inverse%20matrix.
 
 ## common operations in this notation
 
-In Einstein notation, {@{the usual element reference $A_{mn}$}@} for {@{the $m$-th row and $n$-th column of matrix $A$}@} becomes {@{${A^{m} }_{n}$}@}. We can then write {@{the following operations in Einstein notation}@} as follows. <!--SR:!2026-08-17,241,330!2026-10-16,285,330!2026-10-18,287,330!2026-09-29,268,330-->
+In Einstein notation, {@{the usual element reference $A_{mn}$}@} for {@{the $m$-th row and $n$-th column of matrix $A$}@} becomes {@{${A^{m} }_{n}$}@}. We can then write {@{the following operations in Einstein notation}@} as follows. <!--SR:!fsrs,2029-07-25T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-08-18T00:00:00.000Z!2026-10-16,285,330!2026-10-18,287,330!2026-09-29,268,330-->
 
 ### inner product
 
