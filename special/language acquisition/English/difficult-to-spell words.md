@@ -106,7 +106,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [rudimentary](https://en.wiktionary.org/wiki/rudimentary) ::@:: \(r\_y\) Basic, minimal. <!--SR:!2030-08-26,1942,392!2027-07-02,1010,372-->
 - [sacred](https://en.wiktionary.org/wiki/sacred) ::@:: \(s\_d\) Not to be profaned or violated; inviolable. <!--SR:!2028-05-24,744,356!2029-02-23,1333,356-->
 - [scarce](https://en.wiktionary.org/wiki/scarce) ::@:: \(s\_e\) Uncommon, rare. <!--SR:!2031-03-10,2028,396!2029-12-16,1597,356-->
-- [scared](https://en.wiktionary.org/wiki/scared) ::@:: \(s\_d\) Feeling fear; afraid, frightened. <!--SR:!2033-11-11,2861,416!2026-08-18,718,416-->
+- [scared](https://en.wiktionary.org/wiki/scared) ::@:: \(s\_d\) Feeling fear; afraid, frightened. <!--SR:!2033-11-11,2861,416!fsrs,2035-03-28T00:00:00.000Z,3143,3142.59623134,1,2,10,0,0,2026-08-19T00:00:00.000Z-->
 - [scissors](https://en.wiktionary.org/wiki/scissors) ::@:: \(s\_s\) A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed. <!--SR:!2032-01-16,2196,352!2031-04-21,2121,412-->
 - [sinusoidal](https://en.wiktionary.org/wiki/sinusoidal) ::@:: \(s\_l\) Having the shape or characteristics of a [sine wave](../../../general/sine%20wave.md). <!--SR:!2027-01-03,767,324!2026-09-06,549,244-->
 - [substitute](https://en.wiktionary.org/wiki/substitute) ::@:: \(s\_e\) To use in place of something else, with the same function. <!--SR:!2028-04-01,811,436!2027-04-29,544,416-->

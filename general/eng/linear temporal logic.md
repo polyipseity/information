@@ -36,7 +36,7 @@ An LTL formula can be {@{_[satisfied](satisfiability.md)_ by an infinite sequenc
 
 - satisfaction of a propositional variable ::@:: _w_ ⊨ _p_ if _p_ ∈ _w_\(0\) <!--SR:!2031-01-06,1772,383!2030-12-26,1763,383-->
 - law of the excluded middle ::@:: _w_ ⊨ ¬ψ if _w_ ⊭ ψ <!--SR:!2030-06-13,1592,370!2030-01-06,1456,370-->
-- or ::@:: _w_ ⊨ φ ∨ ψ if _w_ ⊨ φ or _w_ ⊨ ψ <!--SR:!2026-08-18,174,343!2029-02-17,1199,357-->
+- or ::@:: _w_ ⊨ φ ∨ ψ if _w_ ⊨ φ or _w_ ⊨ ψ <!--SR:!fsrs,2028-12-11T00:00:00.000Z,845,844.81632865,1,2,8,0,0,2026-08-19T00:00:00.000Z!2029-02-17,1199,357-->
 - ne<!-- markdown separator -->__x__<!-- markdown separator -->t ::@:: _w_ ⊨ __X__ ψ if _w_<sup>1</sup> ⊨ ψ \(in the ne<!-- markdown separator -->__x__<!-- markdown separator -->t time step ψ must be true\) <!--SR:!2029-03-18,1226,363!2031-07-07,1917,383-->
 - __u__<!-- markdown separator -->ntil ::@:: _w_ ⊨ φ __U__ ψ if there exists _i_ ≥ 0 such that _w_<sup>_i_</sup> ⊨ ψ and for all 0 ≤ _k_ \< i, _w_<sup>_k_</sup> ⊨ φ \(φ must remain true __u__<!-- markdown separator -->ntil ψ becomes true\) <!--SR:!2029-06-29,1220,350!2027-09-25,776,343-->
 

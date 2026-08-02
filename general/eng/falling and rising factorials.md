@@ -57,7 +57,7 @@ The falling factorial can be {@{extended to [real](real%20number.md) values of $
 
 Falling factorials appear in {@{multiple [differentiation](derivative.md) of simple power functions}@}: {@{$$\left({\frac {\mathrm {d} }{\mathrm {d} x} }\right)^{n}x^{a}=(a)_{n}\cdot x^{a-n}.$$}@} <!--SR:!2029-05-13,1292,350!2027-09-22,798,330-->
 
-The rising factorial is also integral to {@{the definition of the [hypergeometric function](hypergeometric%20function.md): The hypergeometric function}@} is defined for {@{$|z|<1$ by the [power series](power%20series.md)}@} {@{$${}_{2}F_{1}(a,b;c;z)=\sum _{n=0}^{\infty }{\frac {a^{(n)}b^{(n)} }{c^{(n)} } }{\frac {z^{n} }{n!} }$$}@} provided that {@{$c\neq 0,-1,-2,\ldots$}@}. Note, however, that {@{the hypergeometric function literature typically uses the notation $(a)_{n}$ for rising factorials}@}. <!--SR:!2027-08-23,772,330!2027-04-16,417,270!2026-08-18,493,310!2028-01-15,662,407!2028-01-29,672,407-->
+The rising factorial is also integral to {@{the definition of the [hypergeometric function](hypergeometric%20function.md): The hypergeometric function}@} is defined for {@{$|z|<1$ by the [power series](power%20series.md)}@} {@{$${}_{2}F_{1}(a,b;c;z)=\sum _{n=0}^{\infty }{\frac {a^{(n)}b^{(n)} }{c^{(n)} } }{\frac {z^{n} }{n!} }$$}@} provided that {@{$c\neq 0,-1,-2,\ldots$}@}. Note, however, that {@{the hypergeometric function literature typically uses the notation $(a)_{n}$ for rising factorials}@}. <!--SR:!2027-08-23,772,330!2027-04-16,417,270!fsrs,2031-09-29T00:00:00.000Z,1867,1867.23971649,1,2,10,0,0,2026-08-19T00:00:00.000Z!2028-01-15,662,407!2028-01-29,672,407-->
 
 ## connection coefficients and identities
 

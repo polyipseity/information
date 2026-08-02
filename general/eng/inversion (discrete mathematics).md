@@ -126,7 +126,7 @@ It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$
 
 > {@{![Permutohedron of the symmetric group S<sub>4</sub>](../../archives/Wikimedia%20Commons/Symmetric%20group%204;%20permutohedron%203D;%20numbers.svg)}@}
 >
-> {@{Permutohedron of the [symmetric group](symmetric%20group.md) S<sub>4</sub>}@} <!--SR:!2027-02-05,466,397!2026-08-18,323,377-->
+> {@{Permutohedron of the [symmetric group](symmetric%20group.md) S<sub>4</sub>}@} <!--SR:!2027-02-05,466,397!fsrs,2030-12-07T00:00:00.000Z,1571,1570.50386376,1,2,9,0,0,2026-08-19T00:00:00.000Z-->
 
 {@{The set of permutations on _n_ items}@} can be {@{given the structure of a [partial order](partially%20ordered%20set.md#partial%20order)}@}, called {@{the __weak order of permutations__}@}, which {@{forms a [lattice](lattice%20(order).md)}@}. <!--SR:!2027-03-13,496,397!2027-03-14,497,397!2027-03-10,492,397!2027-03-13,494,397-->
 

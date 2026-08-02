@@ -11,7 +11,7 @@ tags:
 
 # calcium hydroxide
 
-__Calcium hydroxide__, also known as {@{slaked lime}@} in its solid state and {@{limewater}@} in its liquid state, is an [ionic compound](ionic%20compound.md). Its [chemical formula](chemical%20formula.md) is {@{Ca(OH)<sub>2</sub>}@}. It looks like a {@{white solid}@} in its solid form. <!--SR:!2028-02-28,951,230!2026-08-18,925,250!fsrs,2036-06-26T00:00:00.000Z,3620,3619.95345442,1.98030797,2,11,0,0,2026-07-29T00:00:00.000Z!2026-09-23,1012,259-->
+__Calcium hydroxide__, also known as {@{slaked lime}@} in its solid state and {@{limewater}@} in its liquid state, is an [ionic compound](ionic%20compound.md). Its [chemical formula](chemical%20formula.md) is {@{Ca(OH)<sub>2</sub>}@}. It looks like a {@{white solid}@} in its solid form. <!--SR:!2028-02-28,951,230!fsrs,2033-09-03T00:00:00.000Z,2572,2571.62200647,3.98153807,2,11,0,0,2026-08-19T00:00:00.000Z!fsrs,2036-06-26T00:00:00.000Z,3620,3619.95345442,1.98030797,2,11,0,0,2026-07-29T00:00:00.000Z!2026-09-23,1012,259-->
 
 ## preparation
 

@@ -167,7 +167,7 @@ In {@{both [classical](classical%20economics.md) and [Keynesian](Keynesian%20eco
 
 According to some studies,<sup>[\[12\]](#^ref-12)</sup> {@{the laws of supply and demand}@} are applicable {@{not only to the business relationships of people}@}, but to {@{the behaviour of social animals and to all living things}@} that {@{interact on the biological markets<sup>[\[13\]](#^ref-13)</sup> in scarce resource environments}@}. <!--SR:!2030-09-11,1684,370!2027-12-10,796,330!2028-03-11,729,420!2027-05-30,484,400-->
 
-The model of supply and demand accurately describes {@{the characteristic of metabolic systems}@}: specifically, it explains {@{how [feedback inhibition](regulatory%20enzyme.md) allows metabolic pathways to respond to the demand for a metabolic intermediates}@} while {@{minimizing effects due to variation in the supply}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2029-02-13,1212,350!2026-08-18,476,310!2028-10-01,1106,350-->
+The model of supply and demand accurately describes {@{the characteristic of metabolic systems}@}: specifically, it explains {@{how [feedback inhibition](regulatory%20enzyme.md) allows metabolic pathways to respond to the demand for a metabolic intermediates}@} while {@{minimizing effects due to variation in the supply}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2029-02-13,1212,350!fsrs,2031-08-04T00:00:00.000Z,1811,1810.70083457,1,2,10,0,0,2026-08-19T00:00:00.000Z!2028-10-01,1106,350-->
 
 ## empirical estimation
 

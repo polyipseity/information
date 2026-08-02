@@ -266,7 +266,7 @@ return (
 - K::@::K<sup>+</sup>(aq) + e<sup>-</sup> ⇌ K(s) <!--SR:!2028-07-24,1575,270!2035-06-20,3540,330-->
 - Mg::@::Mg<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Mg(s) <!--SR:!fsrs,2034-03-23T00:00:00.000Z,2788,2788.10706136,2.98092302,2,11,0,0,2026-08-04T00:00:00.000Z!2032-07-01,2884,350-->
 - Mn::@::MnO<sub>4</sub><sup>-</sup>(aq) + 8H<sup>+</sup>(aq) + 5e<sup>-</sup> ⇌ Mn<sup>2+</sup>(aq) + 4H<sub>2</sub>O(l) <!--SR:!2028-01-22,1431,310!2029-06-04,1942,330-->
-- N::@::NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup> ⇌ NO<sub>2</sub>(g) + H<sub>2</sub>O(l)<br/>NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup> ⇌ NO(g) + 2H<sub>2</sub>O(l) <!--SR:!2027-10-11,553,170!2026-08-18,1105,290-->
+- N::@::NO<sub>3</sub><sup>-</sup>(aq) + 2H<sup>+</sup>(aq) + e<sup>-</sup> ⇌ NO<sub>2</sub>(g) + H<sub>2</sub>O(l)<br/>NO<sub>3</sub><sup>-</sup>(aq) + 4H<sup>+</sup>(aq) + 3e<sup>-</sup> ⇌ NO(g) + 2H<sub>2</sub>O(l) <!--SR:!2027-10-11,553,170!fsrs,2033-03-18T00:00:00.000Z,2403,2402.52486958,3.99122837,2,11,0,0,2026-08-19T00:00:00.000Z-->
 - Na::@::Na<sup>+</sup>(aq) + e<sup>-</sup> ⇌ Na(s) <!--SR:!2031-02-28,2315,290!2032-10-14,2966,350-->
 - Ni::@::Ni<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Ni(s) <!--SR:!2032-11-10,2679,336!fsrs,2036-04-13T00:00:00.000Z,3551,3550.54304226,1,2,11,0,0,2026-07-24T00:00:00.000Z-->
 - O::@::O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> ⇌ 4OH<sup>-</sup>(aq)<br/>O<sub>2</sub>(g) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2H<sub>2</sub>O(l)<br/>S<sub>2</sub>O<sub>8</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2SO<sub>4</sub><sup>2-</sup>(aq) <!--SR:!2028-11-02,914,210!2030-04-13,2078,330-->

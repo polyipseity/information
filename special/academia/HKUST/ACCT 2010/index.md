@@ -213,7 +213,7 @@ The content is in teaching order.
 - [accounts payable](../../../../general/accounts%20payable.md)
 - determining amounts ::@:: Sometimes, the amount to record in a transaction is not the full amount. <!--SR:!2031-04-21,1864,396!2026-10-10,543,403-->
     - determining amounts / interest ::@:: $$\text{principal} \times \text{rate} \times \text{duration}$$ <!--SR:!2026-08-25,505,403!2026-08-26,504,396-->
-    - determining amounts / long-term expense ::@:: $$\text{total cost} \times \frac {\text{using duration} } {\text{total duration} }$$ <!--SR:!2026-08-18,498,403!2026-09-11,520,403-->
+    - determining amounts / long-term expense ::@:: $$\text{total cost} \times \frac {\text{using duration} } {\text{total duration} }$$ <!--SR:!fsrs,2032-11-21T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-08-19T00:00:00.000Z!2026-09-11,520,403-->
 
 ## week 5 lecture 2
 
@@ -428,7 +428,7 @@ The content is in teaching order.
 - [share capital](../../../../general/share%20capital.md) ::@:: It is the portion of a corporation's equity that has been derived by the issue of shares in the corporation to a shareholder, usually for cash. <!--SR:!2031-09-05,1984,403!2028-07-24,1051,383-->
     - [authorized shares](../../../../general/authorised%20capital.md) ::@:: maximum number of shares that can be sold to public <!--SR:!fsrs,2032-04-05T00:00:00.000Z,2110,2109.71841691,1,2,10,0,0,2026-06-26T00:00:00.000Z!2026-09-01,511,403-->
     - [issued shares](../../../../general/issued%20shares.md) ::@:: authorized and sold to the public or repurchased <!--SR:!fsrs,2032-08-13T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-07-26T00:00:00.000Z!2029-01-20,1179,383-->
-    - unissued shares ::@:: authorized but never sold and never repurchased <!--SR:!2026-08-18,498,403!fsrs,2032-08-08T00:00:00.000Z,2206,2206.21232104,1,2,10,0,0,2026-07-25T00:00:00.000Z-->
+    - unissued shares ::@:: authorized but never sold and never repurchased <!--SR:!fsrs,2032-11-21T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-08-19T00:00:00.000Z!fsrs,2032-08-08T00:00:00.000Z,2206,2206.21232104,1,2,10,0,0,2026-07-25T00:00:00.000Z-->
     - [outstanding shares](../../../../general/shares%20outstanding.md) ::@:: issued shares that shareholders own, has voting and dividend rights <!--SR:!2026-09-06,515,403!2026-09-10,519,403-->
     - [treasury shares](../../../../treasury%20stock.md) ::@:: issued shares that have been repurchased by the company, has no voting rights or dividend rights <!--SR:!2026-09-26,531,403!fsrs,2032-11-16T00:00:00.000Z,2282,2282.17391221,1,2,10,0,0,2026-08-18T00:00:00.000Z-->
 - [equity](../../../../general/equity%20(finance).md)

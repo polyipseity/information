@@ -83,7 +83,7 @@ The [main article](lambert%20series.md) provides {@{several more classical, or a
 
 ### Bell series
 
-The [Bell series](bell%20series.md) of {@{a sequence _a_<sub>_n_</sub>}@} is an expression in terms of {@{both an indeterminate _x_ and a prime _p_}@} and is given by:<sup>[\[5\]](#^ref-5)</sup> {@{$$\operatorname {BG} _{p}(a_{n};x)=\sum _{n=0}^{\infty }a_{p^{n} }x^{n}\,.$$}@} <!--SR:!2028-11-26,1170,350!2026-08-18,512,330!2028-09-28,998,270-->
+The [Bell series](bell%20series.md) of {@{a sequence _a_<sub>_n_</sub>}@} is an expression in terms of {@{both an indeterminate _x_ and a prime _p_}@} and is given by:<sup>[\[5\]](#^ref-5)</sup> {@{$$\operatorname {BG} _{p}(a_{n};x)=\sum _{n=0}^{\infty }a_{p^{n} }x^{n}\,.$$}@} <!--SR:!2028-11-26,1170,350!fsrs,2032-04-16T00:00:00.000Z,2067,2067.40467231,1,2,10,0,0,2026-08-19T00:00:00.000Z!2028-09-28,998,270-->
 
 ### Dirichlet series generating functions (DGFs)
 

@@ -76,7 +76,7 @@ Within {@{cash flow analysis}@}, {@{3 types of cash flow}@} are present and used
 
 And {@{the cash flow for a company}@} also {@{include three parts}@}: (annotation: they are {@{operating, investment, financing cash flow}@}) <!--SR:!2029-02-12,1167,350!2028-12-02,1110,350!2029-09-08,1330,350-->
 
-- [Operating cash flow](operating%20cash%20flow.md): ::@:: refers to the cash received or loss because of the internal activities of a company such as the cash received from sales revenue or the cash paid to the workers. <!--SR:!2026-08-18,402,270!2027-08-04,716,330-->
+- [Operating cash flow](operating%20cash%20flow.md): ::@:: refers to the cash received or loss because of the internal activities of a company such as the cash received from sales revenue or the cash paid to the workers. <!--SR:!fsrs,2030-04-17T00:00:00.000Z,1337,1337.24702193,2.98092302,2,10,0,0,2026-08-19T00:00:00.000Z!2027-08-04,716,330-->
 - Investment cash flow: ::@:: refers to the cash flow which related to the company's fixed assets such as equipment building and so on such as the cash used to buy a new equipment or a building <!--SR:!2029-11-26,1307,310!2027-06-24,686,330-->
 - Financing cash flow: ::@:: cash flow from a company's financing activities like issuing stock or paying dividends. <!--SR:!2027-08-27,734,330!2026-09-30,465,310-->
 
