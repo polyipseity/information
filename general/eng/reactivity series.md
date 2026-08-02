@@ -147,7 +147,7 @@ return chain.from_iterable([r.value for r in results])
 - [iron](iron.md)→::@::←[cadmium](cadmium.md) <!--SR:!2027-09-09,1066,290!2027-01-30,391,210-->
 - [cadmium](cadmium.md)→::@::←[cobalt](cobalt.md) <!--SR:!fsrs,2029-07-27T00:00:00.000Z,1127,1127.34910553,5.98276817,2,10,0,0,2026-06-26T00:00:00.000Z!2026-09-02,232,150-->
 - [cobalt](cobalt.md)→::@::←[nickel](nickel.md) <!--SR:!2027-12-11,1164,270!fsrs,2028-06-10T00:00:00.000Z,687,687.46191962,6.98338322,2,9,0,0,2026-07-24T00:00:00.000Z-->
-- [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!2026-08-19,366,190-->
+- [nickel](nickel.md)→::@::←[tin](tin.md) <!--SR:!2027-03-29,878,250!fsrs,2028-04-17T00:00:00.000Z,606,606.17838217,7.73747837,2,10,0,0,2026-08-20T00:00:00.000Z-->
 - [tin](tin.md)→::@::←[lead](lead.md) <!--SR:!2028-01-08,1048,250!2030-09-16,1893,270-->
 - [lead](lead.md)→::@::←[antimony](antimony.md) <!--SR:!2028-10-07,1054,230!2032-09-20,2342,270-->
 - [antimony](antimony.md)→::@::←[bismuth](bismuth.md) <!--SR:!2028-01-26,1121,270!2032-12-12,2591,310-->
@@ -260,7 +260,7 @@ return chain.from_iterable([r.value for r in results])
 - [bismuth](bismuth.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2028-11-26,1306,310-->
 - [copper](copper.md):@:reacts slowly with [air](air.md) <!--SR:!2034-12-12,3155,310-->
 - [tungsten](tungsten.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2036-09-07,3754,350-->
-- [mercury](<mercury%20(element).md>):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2026-08-19,883,330-->
+- [mercury](<mercury%20(element).md>):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!fsrs,2035-10-03T00:00:00.000Z,3331,3331.20183445,1,2,11,0,0,2026-08-20T00:00:00.000Z-->
 - [silver](silver.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2027-03-31,1132,350-->
 - [gold](gold.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2027-05-25,1177,350-->
 - [platinum](platinum.md):@:may react with some strong [oxidizing agents](oxidizing%20agent.md) <!--SR:!2027-09-28,1273,350-->

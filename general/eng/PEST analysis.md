@@ -22,7 +22,7 @@ The basic PEST analysis includes {@{4 factors: _political_, _economic_, _social_
 Variants may additionally include the following factors:
 
 - (L) _legal_ factors ::@:: They relate to laws. For example, they include antitrust law, consumer law, discrimination law, health and safety law, etc. <!--SR:!2027-04-26,792,330!2027-03-07,755,330-->
-- (E) _environmental_ factors ::@:: They relate to ecological and environmental aspects. For example, they include climate, climate change, weather, etc. <!--SR:!2029-08-06,1399,310!2026-08-19,559,310-->
+- (E) _environmental_ factors ::@:: They relate to ecological and environmental aspects. For example, they include climate, climate change, weather, etc. <!--SR:!2029-08-06,1399,310!fsrs,2032-05-05T00:00:00.000Z,2085,2084.67747766,1,2,10,0,0,2026-08-20T00:00:00.000Z-->
 
 ## references
 

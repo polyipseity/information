@@ -383,7 +383,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@} <!--SR:!2026-08-19,424,389!fsrs,2031-12-11T00:00:00.000Z,1952,1951.53152462,1,2,10,0,0,2026-08-07T00:00:00.000Z-->
+> - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@} <!--SR:!fsrs,2032-01-29T00:00:00.000Z,1988,1988.19560929,1,2,10,0,0,2026-08-20T00:00:00.000Z!fsrs,2031-12-11T00:00:00.000Z,1952,1951.53152462,1,2,10,0,0,2026-08-07T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

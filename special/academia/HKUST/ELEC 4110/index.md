@@ -56,7 +56,7 @@ The content is in teaching order.
 - datetime: 2025-09-02T09:00:00+08:00/2025-09-02T10:20:00+08:00, PT1H20M
 - topic: logistics; overview of digital communications; signal; analog signal
 - ELEC 4110
-    - ELEC 4110 / introduction ::@:: _Digital communications_ is one of the technologies enabling the _Information Age_. <!--SR:!2026-08-19,256,330!fsrs,2029-08-10T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-10T00:00:00.000Z-->
+    - ELEC 4110 / introduction ::@:: _Digital communications_ is one of the technologies enabling the _Information Age_. <!--SR:!fsrs,2029-09-23T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-08-20T00:00:00.000Z!fsrs,2029-08-10T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-10T00:00:00.000Z-->
     - ELEC 4110 / structure ::@:: The class is split into two major themes: first, the fundamentals of digital communication theory (chapters 1-6), then a systems-centric view of wireless networks starting from chapter 7 onward (cellular/5G focus). <!--SR:!2027-03-23,413,389!2027-04-24,440,389-->
         - ELEC 4110 / structure / lectures ::@:: In the early lectures we'll build the mathematical foundations; later we'll apply those concepts to real-world scenarios such as multi-user cellular architectures and 5G design principles.<p> The goal is not only to understand how a system operates but also why certain design choices are made, linking theory directly to practical engineering decisions. <!--SR:!2027-05-07,450,389!2027-06-02,471,389-->
     - ELEC 4110 / questions ::@:: What is information? What is signal? How to represent them? How to communicate them wirelessly? What are cellular networks? How have they evolved? <!--SR:!2026-09-03,268,330!2026-09-24,285,330-->

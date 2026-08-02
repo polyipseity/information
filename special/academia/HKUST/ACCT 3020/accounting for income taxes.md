@@ -229,7 +229,7 @@ A litigation accrual works the same way: if IFRS records the expense now but tax
 Flashcards for this section are as follows:
 
 - deductible temporary difference: usual story line ::@:: IFRS recognizes the expense earlier than tax does, so the company has a future deduction still waiting to be used. <!--SR:!fsrs,2026-08-29T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-19T00:00:00.000Z!fsrs,2026-08-28T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-18T00:00:00.000Z-->
-- warranty accrual: why does it create a deferred tax asset? ::@:: Because the warranty expense is already recognized under IFRS, but tax law waits until warranty claims are actually paid before allowing the deduction. <!--SR:!fsrs,2026-08-19T15:29:14.626Z,66,65.82761219,2.63070775,2,3,0,0,2026-06-14T15:29:14.626Z!fsrs,2027-04-29T00:00:00.000Z,262,261.84543826,1.95567692,2,3,0,0,2026-08-10T00:00:00.000Z-->
+- warranty accrual: why does it create a deferred tax asset? ::@:: Because the warranty expense is already recognized under IFRS, but tax law waits until warranty claims are actually paid before allowing the deduction. <!--SR:!fsrs,2027-03-23T00:00:00.000Z,215,215.45708169,2.62330541,2,4,0,0,2026-08-20T00:00:00.000Z!fsrs,2027-04-29T00:00:00.000Z,262,261.84543826,1.95567692,2,3,0,0,2026-08-10T00:00:00.000Z-->
 - Cunningham: &#36;500&nbsp;000 warranty accrual, 40% rate → DTA = ? ::@:: &#36;500&nbsp;000 × 40% = &#36;200&nbsp;000; income tax expense = payable &#36;800&nbsp;000 − DTA &#36;200&nbsp;000 = &#36;600&nbsp;000. <!--SR:!fsrs,2027-04-21T00:00:00.000Z,268,268.189017,1,2,4,0,0,2026-07-27T00:00:00.000Z!fsrs,2026-08-29T00:00:00.000Z,71,70.63155138,1,2,2,0,0,2026-06-19T00:00:00.000Z-->
 
 ### non-recognition and later reversal

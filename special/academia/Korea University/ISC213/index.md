@@ -113,7 +113,7 @@ The content is in teaching order.
 - enterprise systems ::@:: systems that allow horizontal and vertical integration of business processes in a business, most important of which is inter-departmental communication offered by ERP <!--SR:!2026-09-26,345,348!2026-08-20,314,348-->
     - enterprise systems / types ::@:: customer relationship management \(CRM\) system, enterprise resource planning \(ERP\), knowledge management system \(KMS\), supply chain management \(SCM\) system <!--SR:!2026-09-03,325,348!2026-08-26,319,348-->
     - enterprise systems / customer relationship management system ::@:: enable working collaboratively with customers and suppliers; externally-oriented <!--SR:!fsrs,2030-06-28T00:00:00.000Z,1412,1412.19773219,1,2,9,0,0,2026-08-16T00:00:00.000Z!2026-08-25,317,348-->
-    - enterprise systems / enterprise resource planning ::@:: facilitate inter-departmental communication; internally-oriented <!--SR:!2026-09-13,333,348!2026-08-19,313,348-->
+    - enterprise systems / enterprise resource planning ::@:: facilitate inter-departmental communication; internally-oriented <!--SR:!2026-09-13,333,348!fsrs,2030-07-18T00:00:00.000Z,1428,1428.05376988,1,2,9,0,0,2026-08-20T00:00:00.000Z-->
     - enterprise systems / knowledge management system ::@:: information sharing between business functions and departments; internally-oriented <!--SR:!2026-08-27,319,348!2026-09-03,325,348-->
     - enterprise systems / supply chain management system ::@:: inventory maximization, supply chain management; externally-oriented <!--SR:!2026-08-28,320,348!2026-09-08,329,348-->
 - [electronic business](../../../../general/electronic%20business.md) ::@:: It is any kind of business or commercial activity that includes sharing information across the internet <!--SR:!fsrs,2030-07-12T00:00:00.000Z,1424,1424.092096,1,2,9,0,0,2026-08-18T00:00:00.000Z!2026-09-26,345,348-->
@@ -123,7 +123,7 @@ The content is in teaching order.
     - collaboration / types ::@:: short-term vs. long-term; informal vs. formal <!--SR:!2026-09-27,346,348!2026-09-05,327,348-->
     - collaboration / importance ::@:: changing nature of firm and work <!--SR:!2026-08-23,316,348!fsrs,2030-06-08T00:00:00.000Z,1396,1396.31611732,1,2,9,0,0,2026-08-12T00:00:00.000Z-->
 - [social business model](../../../../general/social%20business%20model.md) ::@:: It is use of social media tools and social networking behavioral standards by businesses for communication with customers, suppliers, and others. <!--SR:!2026-09-18,338,348!fsrs,2030-07-03T00:00:00.000Z,1416,1416.16408378,1,2,9,0,0,2026-08-17T00:00:00.000Z-->
-    - social business model / goal ::@:: deepen interactions; expedite decision making, information sharing, and innovating \(thus requires information transparency\) <!--SR:!2026-08-19,312,348!2026-08-28,320,348-->
+    - social business model / goal ::@:: deepen interactions; expedite decision making, information sharing, and innovating \(thus requires information transparency\) <!--SR:!fsrs,2030-07-14T00:00:00.000Z,1424,1424.092096,1,2,9,0,0,2026-08-20T00:00:00.000Z!2026-08-28,320,348-->
     - social business model / examples ::@:: blogs and wikis, communities, crowdsourcing, file sharing, shared workspaces, social commerce, social marketing, social networks <!--SR:!2026-09-23,342,348!2026-09-21,341,348-->
 - collaboration
     - collaboration / business benefits ::@:: improve ROI, customer services, financial performance, innovation, organizations, productivity, quality, etc. <!--SR:!2026-09-16,337,348!2026-08-24,317,348-->

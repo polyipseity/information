@@ -92,7 +92,7 @@ The content is in teaching order.
     - operations management / current topics ::@:: balancing profitability and sustainability, coordination in complex global supply network, customer touch-points with technology, enhancing performance using data <!--SR:!2026-11-02,473,310!2026-12-14,507,310-->
     - operations management / reasons for studying ::@:: career development, rich opportunities, understanding real world firm decisions <!--SR:!2029-04-26,1198,350!2029-07-21,1265,350-->
         - operations management / reasons for studying / understanding real world firm decisions ::@:: Look inside the box. For example, there are many processes before putting products onto a storefront, such as customer services (management), distribution centers (inventory), suppliers (supply chain), plants (capacity) <!--SR:!2026-12-31,512,310!2027-04-20,559,310-->
-        - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2026-11-17,482,310!2026-08-19,421,310-->
+        - operations management / reasons for studying / rich opportunities ::@:: management consulting, supply-chain management, synergy with other areas (e.g. accounting, finance, marketing, technology) <!--SR:!2026-11-17,482,310!fsrs,2031-02-01T00:00:00.000Z,1626,1626.11361108,1,2,10,0,0,2026-08-20T00:00:00.000Z-->
         - operations management / reasons for studying / career development ::@:: case interview, future study, stock-pitching/investment competitions <!--SR:!fsrs,2030-05-29T00:00:00.000Z,1435,1435.23445412,1,2,10,0,0,2026-06-24T00:00:00.000Z!2028-09-22,1028,350-->
     - operations management / learning methods ::@:: business magazines and news media, lectures, spreadsheet analysis, real world examples; understand concepts using examples, then solve problems, then gain managerial insights <!--SR:!2026-12-01,496,310!2027-09-29,697,290-->
 
@@ -181,7 +181,7 @@ The content is in teaching order.
 - tag: optional
 - [capacity utilization](../../../../general/capacity%20utilization.md)
     - capacity utilization / complex processes ::@:: If the process have multiple flow units or is complex with different paths, e.g. patients of different severity, then we calculate the _implied utilization_ for each resource. The _bottleneck_ is the resource with the highest _implied utilization_ (this is true even for complex processes). <!--SR:!2027-04-12,563,341!2026-09-20,456,381-->
-    - capacity utilization / implied utilization ::@:: demand for a resource over all types of flow units / capacity of a resource <p> It can be higher than 100%, implying that the capacity cannot meet the demand. <!--SR:!2026-08-19,421,381!2030-09-24,1607,381-->
+    - capacity utilization / implied utilization ::@:: demand for a resource over all types of flow units / capacity of a resource <p> It can be higher than 100%, implying that the capacity cannot meet the demand. <!--SR:!fsrs,2032-01-17T00:00:00.000Z,1976,1975.98530461,1,2,10,0,0,2026-08-20T00:00:00.000Z!2030-09-24,1607,381-->
 
 ## week 2 lecture 2
 

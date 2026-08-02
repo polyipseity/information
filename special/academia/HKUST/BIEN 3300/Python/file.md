@@ -19,7 +19,7 @@ Note that {@{opening a nonexistent file}@} will {@{throw a `FileNotFoundError`}@
 
 ## reading
 
-We can read the entire file into a string by {@{calling `file.read()`}@}. Alternatively, we can read the entire file into a list of lines by {@{calling `file.readlines()`}@}. <!--SR:!2026-10-29,292,330!2026-08-19,243,330-->
+We can read the entire file into a string by {@{calling `file.read()`}@}. Alternatively, we can read the entire file into a list of lines by {@{calling `file.readlines()`}@}. <!--SR:!2026-10-29,292,330!fsrs,2029-08-04T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-08-20T00:00:00.000Z-->
 
 ## writing
 
