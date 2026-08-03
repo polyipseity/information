@@ -22,7 +22,7 @@ if condition:
 
 The semantics of `if` is obvious: If {@{the condition is `true`, then the following statement is executed}@}. Otherwise, {@{it is not executed}@}. Note that the condition itself is {@{always executed}@}. <!--SR:!2028-01-22,634,330!2026-12-16,339,347!2026-12-21,344,347-->
 
-An `if...else` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!2026-08-21,245,330-->
+An `if...else` statement consists of {@{a condition and two statement blocks}@}: <!--SR:!fsrs,2029-08-14T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-08-22T00:00:00.000Z-->
 
 ```Python
 if condition:

@@ -101,7 +101,7 @@ The content is in teaching order.
         - [§ print](Python/console.md#print)
     - Python / [comment](Python/comment.md)
         - [§ comment](Python/comment.md#comment)
-    - Python / scripts ::@:: You can write Python scripts like a text document. Remember to change the extension from `.txt` to `.py`. <!--SR:!2026-08-21,245,330!2026-09-29,268,330-->
+    - Python / scripts ::@:: You can write Python scripts like a text document. Remember to change the extension from `.txt` to `.py`. <!--SR:!fsrs,2029-08-14T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-08-22T00:00:00.000Z!2026-09-29,268,330-->
     - Python / [basics](Python/basics.md)
         - [§ variable](Python/basics.md#variable)
         - [§ augmented assignment](Python/basics.md#augmented%20assignment)

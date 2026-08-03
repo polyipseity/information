@@ -90,7 +90,7 @@ Since {@{policy iteration}@} effectively {@{interleaves a linear inverse problem
 
 {@{This variant}@} has the advantage that there is {@{a definite stopping condition}@}. Since there is {@{a unique solution $V$ for each policy $\pi$}@}, {@{the algorithm is completed}@} once {@{the _Policy Improvement_ produces the same policy twice consecutively}@}. <!--SR:!2030-07-26,1624,369!2028-01-21,803,329!2030-05-30,1576,369!fsrs,2028-08-16T00:00:00.000Z,735,735.10222202,1,2,8,0,0,2026-08-12T00:00:00.000Z!fsrs,2028-08-22T00:00:00.000Z,740,739.81467051,1,2,8,0,0,2026-08-13T00:00:00.000Z-->
 
-While there are situations where {@{policy iteration may be faster than value iteration}@} \(e.g. when {@{the action space is significantly larger than the state space}@}\), policy iteration is {@{usually slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349!2026-08-21,149,421!fsrs,2028-09-13T00:00:00.000Z,763,763.30968033,1,2,8,0,0,2026-08-12T00:00:00.000Z!fsrs,2028-09-02T00:00:00.000Z,749,749.22610987,1,2,8,0,0,2026-08-15T00:00:00.000Z-->
+While there are situations where {@{policy iteration may be faster than value iteration}@} \(e.g. when {@{the action space is significantly larger than the state space}@}\), policy iteration is {@{usually slower than value iteration}@} for {@{a large number of possible states}@}. <!--SR:!2029-04-16,1165,349!fsrs,2028-11-04T00:00:00.000Z,805,805.32875921,1,2,8,0,0,2026-08-22T00:00:00.000Z!fsrs,2028-09-13T00:00:00.000Z,763,763.30968033,1,2,8,0,0,2026-08-12T00:00:00.000Z!fsrs,2028-09-02T00:00:00.000Z,749,749.22610987,1,2,8,0,0,2026-08-15T00:00:00.000Z-->
 
 #### modified policy iteration
 

@@ -170,7 +170,7 @@ Let {@{$v\in \mathbb {R} ^{n}$ be an arbitrary unit vector}@}. With {@{the direc
 
 {@{Dividing by $h$, and taking the limit}@} yields {@{a term which is bounded from above by the [Cauchy-Schwarz inequality](Cauchy-Schwarz%20inequality.md)}@}<sup>[\[8\]](#^ref-8)</sup> {@{$$|\nabla _{v}f(x)|=|\nabla f\cdot v|\leq |\nabla f||v|=|\nabla f|.$$}@} <!--SR:!fsrs,2029-05-07T11:15:55.966Z,1067,1067.25834606,1,2,9,0,0,2026-06-05T11:15:55.966Z!2026-09-14,344,349!2026-09-10,341,349-->
 
-{@{Choosing $v^{*}=\nabla f/|\nabla f|$}@} {@{maximizes the directional derivative}@}, and equals {@{the upper bound $$|\nabla _{v^{*} }f(x)|=|(\nabla f)^{2}/|\nabla f||=|\nabla f|.$$}@} <!--SR:!2028-09-02,858,330!fsrs,2029-07-15T10:45:36.989Z,1136,1136.47237991,1,2,9,0,0,2026-06-05T10:45:36.989Z!2026-08-21,324,349-->
+{@{Choosing $v^{*}=\nabla f/|\nabla f|$}@} {@{maximizes the directional derivative}@}, and equals {@{the upper bound $$|\nabla _{v^{*} }f(x)|=|(\nabla f)^{2}/|\nabla f||=|\nabla f|.$$}@} <!--SR:!2028-09-02,858,330!fsrs,2029-07-15T10:45:36.989Z,1136,1136.47237991,1,2,9,0,0,2026-06-05T10:45:36.989Z!fsrs,2030-09-06T00:00:00.000Z,1476,1476.21958726,1,2,9,0,0,2026-08-22T00:00:00.000Z-->
 
 ## generalizations
 

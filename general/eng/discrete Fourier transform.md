@@ -59,7 +59,7 @@ Reversing the time (i.e. {@{replacing $n$ by $N-n$}@}) in $x_{n}$ corresponds to
 
 ### conjugation in time
 
-Mathematically: {@{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{n}^{*}\})_{k}=X_{N-k}^{*}$$}@}. <!--SR:!2026-08-21,386,316-->
+Mathematically: {@{$${\mathcal {F} }(\{x_{n}\})_{k}=X_{k} \implies {\mathcal {F} }(\{x_{n}^{*}\})_{k}=X_{N-k}^{*}$$}@}. <!--SR:!fsrs,2030-11-09T00:00:00.000Z,1540,1539.74216533,1,2,10,0,0,2026-08-22T00:00:00.000Z-->
 
 ### real and imaginary part
 

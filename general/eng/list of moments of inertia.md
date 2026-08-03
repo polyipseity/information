@@ -56,7 +56,7 @@ I&=\int_{R_I}^{R_O}\!\int_0^H\!\int_0^{2\pi}\!\rho{}r^3\,\mathrm{d}\theta\,\math
 - equation ::@:: $I=\frac13m\left(L^2-3LZ+3Z^2\right)+\frac14mR^2$ <!--SR:!2026-11-02,296,190!2028-08-07,1073,298-->
     - thin rod correction ::@:: use the same equation and set $R = 0$ <!--SR:!2028-06-14,1330,350!2029-06-19,1531,378-->
     - slender rod, axis through center ::@:: $\frac1{12}mL^2$ <!--SR:!2028-10-04,1262,310!2033-03-06,2487,338-->
-    - slender rod, axis through one end ::@:: $\frac13mL^2$ <!--SR:!2028-03-16,1064,290!2026-08-21,674,338-->
+    - slender rod, axis through one end ::@:: $\frac13mL^2$ <!--SR:!2028-03-16,1064,290!fsrs,2034-01-10T00:00:00.000Z,2698,2698.23677239,1,2,10,0,0,2026-08-22T00:00:00.000Z-->
 - proof: $$\begin{aligned}
 m&=\rho\pi{}R^2L\\
 I&=\int_0^L\!\int_0^R\!\int_0^{2\pi}\!\rho\left(r^2\cos^2\theta+(z-Z)^2\right)r\,\mathrm{d}\theta\,\mathrm{d}r\,\mathrm{d}z\\
