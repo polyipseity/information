@@ -30,7 +30,7 @@ In {@{[accounting](accounting.md)}@}, {@{__liquidity__ \(or __accounting liquidi
 
 ## calculating liquidity
 
-For {@{a corporation with a published [balance sheet](balance%20sheet.md)}@} there are {@{various [ratios used to calculate a measure of liquidity](quick%20ratio.md)}@}.<sup>[\[1\]](#^ref-1)</sup> These include the following:<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-10-30,290,330!2026-08-22,230,330-->
+For {@{a corporation with a published [balance sheet](balance%20sheet.md)}@} there are {@{various [ratios used to calculate a measure of liquidity](quick%20ratio.md)}@}.<sup>[\[1\]](#^ref-1)</sup> These include the following:<sup>[\[2\]](#^ref-2)</sup> <!--SR:!2026-10-30,290,330!fsrs,2029-06-18T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-08-23T00:00:00.000Z-->
 
 - The [current ratio](current%20ratio.md) ::@:: is the simplest measure and calculated by dividing the total current assets by the total current liabilities. A value of over 100% is normal in a non-banking corporation. However, some current assets are more difficult to sell at full value in a hurry. <!--SR:!2026-09-18,257,330!2026-10-31,291,330-->
 - The [quick ratio](quick%20ratio.md) ::@:: is calculated by deducting inventories and prepayments from current assets and then dividing by current liabilities, giving a measure of the ability to meet current liabilities from assets that can be readily sold. \(annotation: Below relates to the next item.\) A better way for a trading corporation to meet liabilities is from cash flows, rather than through asset sales, so; <!--SR:!fsrs,2029-02-19T00:00:00.000Z,943,942.92571698,1,2,9,0,0,2026-07-22T00:00:00.000Z!fsrs,2029-02-24T00:00:00.000Z,947,946.78638799,1,2,9,0,0,2026-07-23T00:00:00.000Z-->

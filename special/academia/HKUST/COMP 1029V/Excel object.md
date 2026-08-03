@@ -27,4 +27,4 @@ One can make a worksheet active using {@{the `Activate` method, like `Worksheets
 
 ## selection
 
-You can get the currently selected cell or range using {@{`Selection`}@}. You can change the currently selected cell or range by doing {@{`CellOrRange.Select`. Note that the worksheet the cell or range is on must be active, otherwise you get an error}@}. <!--SR:!2028-09-24,1218,330!2026-08-22,698,330-->
+You can get the currently selected cell or range using {@{`Selection`}@}. You can change the currently selected cell or range by doing {@{`CellOrRange.Select`. Note that the worksheet the cell or range is on must be active, otherwise you get an error}@}. <!--SR:!2028-09-24,1218,330!fsrs,2034-01-24T00:00:00.000Z,2711,2711.00900149,1,2,10,0,0,2026-08-23T00:00:00.000Z-->

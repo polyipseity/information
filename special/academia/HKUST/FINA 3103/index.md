@@ -51,7 +51,7 @@ The content is in teaching order.
     - FINA 3103 / logistics
     - FINA 3103 / textbook ::@:: Bodie, Kane and Marcus \(BKM\), "Essentials of Investments", 13th Edition <!--SR:!fsrs,2029-07-28T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-01T00:00:00.000Z!2026-08-28,267,330-->
     - FINA 3103 / prerequisites
-    - FINA 3103 / background ::@:: statistics: covariance, expectation, linear regression \(OLS\), population, random variable, sample, variance, etc. <!--SR:!2026-08-22,262,330!2026-08-31,268,330-->
+    - FINA 3103 / background ::@:: statistics: covariance, expectation, linear regression \(OLS\), population, random variable, sample, variance, etc. <!--SR:!fsrs,2029-10-19T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-08-23T00:00:00.000Z!2026-08-31,268,330-->
     - FINA 3103 / grading
     - FINA 3103 / rules
     - FINA 3103 / schedule
@@ -105,7 +105,7 @@ The content is in teaching order.
 - [efficient-market hypothesis](../../../../general/efficient-market%20hypothesis.md) \(EMH\) ::@:: It is a hypothesis in financial economics that states that asset prices reflect all available information. <!--SR:!2026-09-03,271,330!fsrs,2029-08-17T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-08-06T00:00:00.000Z-->
     - efficient-market hypothesis / implication ::@:: A direct implication is that it is impossible to "beat the market" consistently on a risk-adjusted basis since market prices should only react to new information. <!--SR:!2026-08-31,270,330!fsrs,2029-09-06T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-08-11T00:00:00.000Z-->
     - efficient-market hypothesis / intuition ::@:: Suppose you know some private information on a stock. You buy or sell the stock. Its price changes due to your action, reflecting the private information. <!--SR:!2026-09-05,274,330!2028-06-15,763,330-->
-    - efficient-market hypothesis / reality ::@:: Grossman-Stiglitz paradox, irrationality, etc. <!--SR:!2026-08-22,261,330!fsrs,2029-07-02T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-26T00:00:00.000Z-->
+    - efficient-market hypothesis / reality ::@:: Grossman-Stiglitz paradox, irrationality, etc. <!--SR:!fsrs,2029-10-15T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-08-23T00:00:00.000Z!fsrs,2029-07-02T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-07-26T00:00:00.000Z-->
 - [Grossman-Stiglitz paradox](../../../../general/Grossman-Stiglitz%20paradox.md) ::@:: It argues perfectly informationally efficient markets are an impossibility since, if prices perfectly reflected available information, there is no profit to gathering information, in which case there would be little reason to trade and markets would eventually collapse. <!--SR:!2026-09-18,284,330!fsrs,2029-09-02T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-08-10T00:00:00.000Z-->
 - [behavioural finance](../../../../general/behavioural%20finance.md) ::@:: It is the study of the influence of psychology on the behaviour of investors or financial analysts. It assumes that investors are not always rational, have limits to their self-control and are influenced by their own biases. <!--SR:!fsrs,2029-06-27T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-25T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-01T00:00:00.000Z-->
 - efficient-market hypothesis

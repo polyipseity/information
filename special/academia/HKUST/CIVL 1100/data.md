@@ -251,7 +251,7 @@ See [Panama Canal](../../../../general/Panama%20Canal.md).
 
 See [Parthenon](../../../../general/Parthenon.md).
 
-- construction period ::@:: 447 BC to 438 BC, 9 years <!--SR:!2026-08-23,424,216!2026-08-22,629,396-->
+- construction period ::@:: 447 BC to 438 BC, 9 years <!--SR:!2026-08-23,424,216!fsrs,2034-04-24T00:00:00.000Z,2801,2800.70977612,1,2,10,0,0,2026-08-23T00:00:00.000Z-->
 - dedication ::@:: Greek goddess Athena <!--SR:!2027-05-25,898,416!2026-12-11,763,416-->
 - description ::@:: temple on the Athenian Acropolis, Greece, dedicated to the Greek goddess Athena <!--SR:!2032-09-03,2360,376!2026-11-27,751,416-->
 - geographic location ::@:: Athenian Acropolis, Greece <!--SR:!2026-10-09,678,376!fsrs,2034-10-05T00:00:00.000Z,2967,2966.58624759,1,2,10,0,0,2026-08-21T00:00:00.000Z-->
@@ -314,7 +314,7 @@ See [Turin–Lyon high-speed railway](../../../../general/Turin–Lyon%20high-sp
 See [Two Prudential Plaza](../../../../general/Two%20Prudential%20Plaza.md).
 
 - description ::@:: 64-story skyscraper located in the Loop area of Chicago, Illinois <!--SR:!2028-12-28,1282,340!2031-06-02,2101,405-->
-- height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!2026-08-22,447,221!2032-12-31,2568,404-->
+- height ::@:: architectural: 303 m, top floor: 250 m <!--SR:!fsrs,2029-11-03T00:00:00.000Z,1168,1168.20351078,5.4324299,2,10,0,0,2026-08-23T00:00:00.000Z!2032-12-31,2568,404-->
 - image ::@:: ![Two Prudential Plaza image](../../../../archives/Wikimedia%20Commons/Two%20Prudential%20Plaza%20Chicago%20in%20May%202016.jpg) <!--SR:!2029-05-26,1451,380!2027-12-27,906,340-->
 - [structural system](../../../../general/structural%20system.md) <!-- flashcard ID: ecbdac25-22dc-429d-9976-d49408b1478d -->::@:: reinforced concrete <!--SR:!2031-10-21,2037,360!2033-04-26,2663,420-->
 

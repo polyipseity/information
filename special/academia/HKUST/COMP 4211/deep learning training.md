@@ -282,7 +282,7 @@ So it is useful to separate two questions: _what direction should we move?_ and 
 Flashcards for this section are as follows:
 
 - what a learning-rate schedule changes ::@:: A learning-rate schedule changes the global step size over training time, whereas the optimizer determines how the current gradient is transformed into a direction. <!--SR:!fsrs,2027-07-05T00:00:00.000Z,346,345.6286996,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-10-01T00:00:00.000Z,409,408.80228883,1,2,7,0,0,2026-08-18T00:00:00.000Z-->
-- why learning-rate schedules matter ::@:: Early training often benefits from larger exploratory steps, while late training usually benefits from smaller steps for fine-grained refinement. <!--SR:!fsrs,2027-10-01T00:00:00.000Z,409,408.80228883,1,2,7,0,0,2026-08-18T00:00:00.000Z!2026-08-22,82,352-->
+- why learning-rate schedules matter ::@:: Early training often benefits from larger exploratory steps, while late training usually benefits from smaller steps for fine-grained refinement. <!--SR:!fsrs,2027-10-01T00:00:00.000Z,409,408.80228883,1,2,7,0,0,2026-08-18T00:00:00.000Z!fsrs,2027-11-22T00:00:00.000Z,456,455.50103818,1,2,7,0,0,2026-08-23T00:00:00.000Z-->
 - optimizer versus schedule ::@:: The optimizer answers how to use the gradient inside one step, and the schedule answers how large steps should be at different training stages. <!--SR:!fsrs,2027-09-25T00:00:00.000Z,404,404.24660447,1,2,7,0,0,2026-08-17T00:00:00.000Z!fsrs,2027-09-25T00:00:00.000Z,404,404.24660447,1,2,7,0,0,2026-08-17T00:00:00.000Z-->
 
 ### scheduled decay and exponential decay
