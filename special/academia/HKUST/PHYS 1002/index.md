@@ -929,7 +929,7 @@ The content is in teaching order. Extra information and corrections are included
     - [black hole](../../../../general/black%20hole.md) / radius ::@:: The event horizon is only 9 km in radius for a black hole of 3 solar masses. <!--SR:!2026-10-22,646,407!2032-05-07,2315,427-->
         - [neutron star](../../../../general/neutron%20star.md) / radius
     - [no-hair theorem](../../../../general/no-hair%20theorem.md) ::@:: All stationary black holes are _uniquely_ characterized by three _externally_ observable parameters: mass, electric charge, and angular momentum. (This is actually a hypothesis and has not yet been mathematically proven.) <!--SR:!2027-10-01,944,427!2026-08-28,617,427-->
-    - [black hole](../../../../general/black%20hole.md) / visualizations ::@:: A common visualization is a gravity well. Objects deform a elastic sheet based on their mass, creating a well. For black holes, the gravity well is so deep that there is a hole in the sheet. <!--SR:!2027-04-12,805,427!2026-08-23,574,407-->
+    - [black hole](../../../../general/black%20hole.md) / visualizations ::@:: A common visualization is a gravity well. Objects deform a elastic sheet based on their mass, creating a well. For black holes, the gravity well is so deep that there is a hole in the sheet. <!--SR:!2027-04-12,805,427!fsrs,2033-09-22T00:00:00.000Z,2586,2586.4760326,1,2,10,0,0,2026-08-24T00:00:00.000Z-->
     - [tidal force](../../../../general/tidal%20force.md)
         - [tidal force § explanation](../../../../general/tidal%20force.md#explanation)
         - [spaghettification](../../../../general/spaghettification.md), noodle effect

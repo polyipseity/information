@@ -259,7 +259,7 @@ The content is in teaching order.
 - [receivables turnover ratio](../../../../general/receivables%20turnover%20ratio.md) ::@:: $$\frac {\text{net credit sales} } {\text{average net trade accounts receivables} }$$ Average net trade accounts receivable is not time-weighted, it is simply the average of the beginning and the ending balance. The adjective _net_ means discounts and allowances need to be removed. <p> "Net credit sales" may be "net sales" in practice, since net credit sales are normally not reported separately. <!--SR:!fsrs,2031-04-05T06:07:50.369Z,1756,1755.62375523,1,2,10,0,0,2026-06-14T06:07:50.369Z!2027-03-25,641,363-->
     - [receivables turnover ratio](../../../../general/receivables%20turnover%20ratio.md) / interpretation ::@:: It measures how many times average receivables are recorded and collected for the year. <p> A higher ratio benefits the company because it can collect the money earlier for investment. It is related to how generous payment schedules are. A sudden decline in the ratio may mean a company is extending payment deadlines to prop up lagging sales or recording bad sales. <!--SR:!2027-03-31,647,363!fsrs,2032-10-27T00:00:00.000Z,2266,2266.2125374,1,2,10,0,0,2026-08-14T00:00:00.000Z-->
     - average collection period ::@:: $$\frac {365} {\text{receivables turnover ratio} }$$ <!--SR:!2031-08-11,1963,403!2026-10-08,541,403-->
-        - average collection period / interpretation ::@:: It indicates the average time it takes for customer to pay its accounts. The unit is in days. <p> Remember to benchmark this period against the credit period. <!--SR:!2030-09-04,1686,403!2026-08-23,503,403-->
+        - average collection period / interpretation ::@:: It indicates the average time it takes for customer to pay its accounts. The unit is in days. <p> Remember to benchmark this period against the credit period. <!--SR:!2030-09-04,1686,403!fsrs,2032-12-16T00:00:00.000Z,2306,2306.08614433,1,2,10,0,0,2026-08-24T00:00:00.000Z-->
 - [§ week 5 review](questions.md#week%205%20review)
 
 ## week 7 lecture 1
@@ -517,7 +517,7 @@ The content is in teaching order.
 - datetime: 2024-11-19T13:30:00+08:00/2024-11-19T14:50:00+08:00
 - [statement of cash flows](../../../../general/cash%20flow%20statement.md)
     - investing activities
-        - investing activities / methods ::@:: direct method, indirect method (both are essentially the same for investing activities) <!--SR:!2026-08-23,503,403!2031-06-03,1908,403-->
+        - investing activities / methods ::@:: direct method, indirect method (both are essentially the same for investing activities) <!--SR:!fsrs,2032-12-16T00:00:00.000Z,2306,2306.08614433,1,2,10,0,0,2026-08-24T00:00:00.000Z!2031-06-03,1908,403-->
         - investing activities / calculation ::@:: purchase PPE or tangible assets for _cash_: outflow (−) <br/> sell or dispose PPE or intangible assets for _cash_: inflow (+) <br/> purchase investment securities for _cash_: outflow (−) <br/> sell (mature) investment securities for _cash_: inflow (+) <!--SR:!2029-11-22,1411,383!fsrs,2032-10-22T00:00:00.000Z,2262,2262.21980759,1,2,10,0,0,2026-08-13T00:00:00.000Z-->
         - investing activities / interpretation ::@:: To assess a company's ability to internally finance its expansion needs <br/> Two categories: PPE, short- and long-term investments <!--SR:!2026-09-05,515,403!2026-09-23,528,403-->
     - financing activities

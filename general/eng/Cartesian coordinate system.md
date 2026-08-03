@@ -139,7 +139,7 @@ Similarly, a three-dimensional Cartesian system defines {@{a division of space i
 
 #### rotation
 
-To {@{[rotate](rotation%20(geometry).md) a figure [counterclockwise](clockwise.md) around the origin by some angle $\theta$}@} is equivalent to {@{replacing every point with coordinates \(_x_,_y_\) by the point with coordinates \(_x'_,_y'_\)}@}, where {@{$${\begin{aligned}x'&=x\cos \theta -y\sin \theta \\y'&=x\sin \theta +y\cos \theta .\end{aligned} }$$}@} Thus: {@{$$(x',y')=((x\cos \theta -y\sin \theta \,),(x\sin \theta +y\cos \theta \,)).$$}@} <!--SR:!2029-06-07,1224,350!fsrs,2031-05-07T09:57:17.412Z,1788,1787.86338256,1,2,10,0,0,2026-06-14T09:57:17.412Z!2026-08-23,379,302!2028-08-06,985,349-->
+To {@{[rotate](rotation%20(geometry).md) a figure [counterclockwise](clockwise.md) around the origin by some angle $\theta$}@} is equivalent to {@{replacing every point with coordinates \(_x_,_y_\) by the point with coordinates \(_x'_,_y'_\)}@}, where {@{$${\begin{aligned}x'&=x\cos \theta -y\sin \theta \\y'&=x\sin \theta +y\cos \theta .\end{aligned} }$$}@} Thus: {@{$$(x',y')=((x\cos \theta -y\sin \theta \,),(x\sin \theta +y\cos \theta \,)).$$}@} <!--SR:!2029-06-07,1224,350!fsrs,2031-05-07T09:57:17.412Z,1788,1787.86338256,1,2,10,0,0,2026-06-14T09:57:17.412Z!fsrs,2030-08-04T00:00:00.000Z,1441,1440.5127077,1.37993894,2,10,0,0,2026-08-24T00:00:00.000Z!2028-08-06,985,349-->
 
 #### reflection
 
