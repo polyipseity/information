@@ -21,7 +21,7 @@ In {@{[queueing theory](queueing%20theory.md), a discipline within the mathemati
 
 ## model definition
 
-{@{An M/M/1 queue}@} is {@{a stochastic process}@} whose {@{[state space](state%20space.md) is the set {0,1,2,3,...}<!-- flashcard separator -->}@} where {@{the value corresponds to the number of customers in the system}@}, including {@{any currently in service}@}. <!--SR:!fsrs,2030-05-02T00:00:00.000Z,1377,1377.2110436,1,2,9,0,0,2026-07-25T00:00:00.000Z!2029-03-13,1040,350!2026-08-20,317,350!2029-03-27,1051,350!2029-07-01,1130,350-->
+{@{An M/M/1 queue}@} is {@{a stochastic process}@} whose {@{[state space](state%20space.md) is the set {0,1,2,3,...}<!-- flashcard separator -->}@} where {@{the value corresponds to the number of customers in the system}@}, including {@{any currently in service}@}. <!--SR:!fsrs,2030-05-02T00:00:00.000Z,1377,1377.2110436,1,2,9,0,0,2026-07-25T00:00:00.000Z!2029-03-13,1040,350!fsrs,2030-08-13T00:00:00.000Z,1453,1453.09634986,1,2,9,0,0,2026-08-21T00:00:00.000Z!2029-03-27,1051,350!2029-07-01,1130,350-->
 
 - Arrivals ::@:: occur at rate λ according to a [Poisson process](Poisson%20process.md) and move the process from state _i_ to _i_ + 1. <!--SR:!2029-06-16,1115,350!2029-06-13,1112,350-->
 - Service times ::@:: have an [exponential distribution](exponential%20distribution.md) with rate parameter μ in the M/M/1 queue, where 1/μ is the mean service time. <!--SR:!2028-12-19,962,350!2029-02-25,1028,350-->

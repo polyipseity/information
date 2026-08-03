@@ -51,7 +51,7 @@ It can be proved that {@{any equaliser in any category is a [monomorphism](monom
 
 {@{The notion of difference kernel}@} also makes sense in {@{a category-theoretic context}@}. {@{The terminology "difference kernel"}@} is {@{common throughout category theory for any binary equaliser}@}. In the case of {@{a [preadditive category](preadditive%20category.md)}@} \(a category {@{[enriched](enriched%20category.md) over the category of [Abelian groups](abelian%20group.md)}@}\), {@{the term "difference kernel"}@} may be {@{interpreted literally}@}, since {@{subtraction of morphisms makes sense}@}. That is, {@{Eq\(_f_, _g_\) = Ker\(_f_ - _g_\)}@}, where {@{Ker denotes the [category-theoretic kernel](kernel%20(category%20theory).md)}@}. <!--SR:!2029-05-19,1231,350!2029-01-03,1130,350!2028-11-02,1081,350!2029-09-07,1319,350!2026-11-05,493,310!2029-06-24,1260,350!2027-12-14,801,330!2029-07-22,1284,350!2028-01-19,627,410!2028-02-09,646,410!2028-02-10,647,410-->
 
-Any category {@{with [fibre products](pullback%20(category%20theory).md) \(pullbacks\) and products}@} {@{has equalisers}@}. <!--SR:!2026-08-20,434,310!2029-06-21,1257,350-->
+Any category {@{with [fibre products](pullback%20(category%20theory).md) \(pullbacks\) and products}@} {@{has equalisers}@}. <!--SR:!fsrs,2031-03-18T00:00:00.000Z,1670,1669.98492582,1,2,10,0,0,2026-08-21T00:00:00.000Z!2029-06-21,1257,350-->
 
 ## see also
 

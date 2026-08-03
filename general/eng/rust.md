@@ -14,7 +14,7 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-{@{__Rust__}@} is {@{a reddish-brown [iron oxide](iron%20oxide.md)}@} consisting of {@{[hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O)}@} created by {@{[corrosion](corrosion.md) of refined [iron](iron.md)}@}. <!--SR:!2030-04-27,1574,230!2027-09-24,496,396!2026-08-20,151,336!fsrs,2028-02-18T00:59:49.530Z,622,621.716141,1,2,8,0,0,2026-06-06T00:59:49.530Z-->
+{@{__Rust__}@} is {@{a reddish-brown [iron oxide](iron%20oxide.md)}@} consisting of {@{[hydrated](hydrate.md) [iron(III) oxides](iron(III)%20oxide.md) (Fe<sub>2</sub>O<sub>3</sub>·nH<sub>2</sub>O) and [iron(III) oxide-hydroxide](iron(III)%20oxide-hydroxide.md) (FeO(OH)·nH<sub>2</sub>O)}@} created by {@{[corrosion](corrosion.md) of refined [iron](iron.md)}@}. <!--SR:!2030-04-27,1574,230!2027-09-24,496,396!fsrs,2028-08-20T00:00:00.000Z,730,730.00921051,1,2,8,0,0,2026-08-21T00:00:00.000Z!fsrs,2028-02-18T00:59:49.530Z,622,621.716141,1,2,8,0,0,2026-06-06T00:59:49.530Z-->
 
 ## chemical reactions
 

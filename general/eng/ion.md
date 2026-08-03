@@ -476,7 +476,7 @@ return chain.from_iterable([r.value for r in results])
 - permanganate ion:@:<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2030-07-05,1613,250-->
 - oxide ion:@:_(n/a)_ <!--SR:!2029-04-28,1684,296-->
 - sulfide ion:@:_(n/a)_ <!--SR:!2029-10-02,1622,276-->
-- sulfate ion:@:colorless <!--SR:!2026-08-20,1076,274-->
+- sulfate ion:@:colorless <!--SR:!fsrs,2035-07-14T00:00:00.000Z,3249,3249.17139256,2.78080001,2,11,0,0,2026-08-21T00:00:00.000Z-->
 - sulfite ion:@:colorless <!--SR:!2034-06-12,3095,314-->
 - carbonate ion:@:colorless <!--SR:!2030-08-15,2089,272-->
 - chromate ion:@:<span style="color: yellow; background-color: black;">yellow</span> <!--SR:!2028-11-28,1416,250-->

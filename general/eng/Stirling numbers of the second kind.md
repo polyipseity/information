@@ -147,7 +147,7 @@ Let the random variable _X_ be {@{the number of fixed points of a [uniformly dis
 
 ### _r_-Stirling numbers of the second kind
 
-{@{The _r_-Stirling number of the second kind $\left\{ {n \atop k}\right\}_{r}$}@} counts {@{the number of partitions of a set of _n_ objects into _k_ non-empty disjoint subsets, such that the first _r_ elements are in distinct subsets}@}.<sup>[\[15\]](#^ref-15)</sup> These numbers {@{satisfy the recurrence relation $$\left\{ {n \atop k}\right\}_{r}=k\left\{ {n-1 \atop k}\right\}_{r}+\left\{ {n-1 \atop k-1}\right\}_{r}$$}@} Some combinatorial identities and a connection between these numbers and context-free grammars can be found in <sup>[\[16\]](#^ref-16)</sup>. <!--SR:!2026-08-20,421,270!2026-11-24,551,310!2026-11-15,544,310-->
+{@{The _r_-Stirling number of the second kind $\left\{ {n \atop k}\right\}_{r}$}@} counts {@{the number of partitions of a set of _n_ objects into _k_ non-empty disjoint subsets, such that the first _r_ elements are in distinct subsets}@}.<sup>[\[15\]](#^ref-15)</sup> These numbers {@{satisfy the recurrence relation $$\left\{ {n \atop k}\right\}_{r}=k\left\{ {n-1 \atop k}\right\}_{r}+\left\{ {n-1 \atop k-1}\right\}_{r}$$}@} Some combinatorial identities and a connection between these numbers and context-free grammars can be found in <sup>[\[16\]](#^ref-16)</sup>. <!--SR:!fsrs,2030-06-14T00:00:00.000Z,1393,1392.86581538,2.98092302,2,10,0,0,2026-08-21T00:00:00.000Z!2026-11-24,551,310!2026-11-15,544,310-->
 
 ### associated Stirling numbers of the second kind
 

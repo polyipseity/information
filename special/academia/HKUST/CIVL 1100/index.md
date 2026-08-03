@@ -43,7 +43,7 @@ The content is in teaching order.
 - [free body](../../../../general/free%20body.md)
     - [§ external and internal forces](../../../../general/free%20body.md#external%20and%20internal%20forces)
     - [§ example](../../../../general/free%20body.md#example)
-    - free body in structural engineering ::@:: The free body is likely a structure. It can deform but should stay in static equilibrium, such as the [Leaning Tower of Pisa](../../../../general/Leaning%20Tower%20of%20Pisa.md). <!--SR:!2027-10-29,974,350!2026-08-20,587,330-->
+    - free body in structural engineering ::@:: The free body is likely a structure. It can deform but should stay in static equilibrium, such as the [Leaning Tower of Pisa](../../../../general/Leaning%20Tower%20of%20Pisa.md). <!--SR:!2027-10-29,974,350!fsrs,2033-01-06T00:00:00.000Z,2330,2329.78376549,1,2,10,0,0,2026-08-21T00:00:00.000Z-->
 - [solid mechanics § types of forces](../../../../general/solid%20mechanics.md#types%20of%20forces)
 - [compression § effects](../../../../general/compression%20(physics).md#effects)
     - compression types ::@:: We are concerned with uniaxial compression only. <!--SR:!2029-09-04,1525,370!2029-07-05,1473,370-->

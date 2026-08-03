@@ -61,7 +61,7 @@ The content is in teaching order.
     - finance / fields ::@:: 3 main fields: asset pricing, corporate finance, market microstructure <!--SR:!2026-08-29,268,330!fsrs,2029-06-27T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-25T00:00:00.000Z-->
         - finance / fields / asset pricing ::@:: Calculate asset _fair price_. <p> examples: Black–Scholes–Merton model \(a mathematical model\) <!--SR:!2026-08-29,267,330!2026-08-30,269,330-->
         - finance / fields / corporate finance ::@:: Calculate _firm value_ and decision making based on it. <p> examples: Modigliani–Miller theorem \(capital structure irrelevance principle\) <!--SR:!2028-04-30,727,330!2027-02-18,410,370-->
-        - finance / fields / market microstructure ::@:: Relation between _market quality_ and environment, mechanisms, trading rules, etc. <!--SR:!2026-08-25,264,330!2026-08-20,260,330-->
+        - finance / fields / market microstructure ::@:: Relation between _market quality_ and environment, mechanisms, trading rules, etc. <!--SR:!2026-08-25,264,330!fsrs,2029-10-09T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-08-21T00:00:00.000Z-->
 - FINA 3103
     - FINA 3103 / objectives ::@:: Investigate asset pricing and market \(micro\)structure. Invest _wisely_ under different market structures, different trading rules, and uncertainty. <!--SR:!2026-08-26,265,330!2026-09-08,276,330-->
 - [security](../../../../general/security%20(finance).md) ::@:: It is a tradable financial asset. The term commonly refers to any form of financial instrument, but its legal definition varies by jurisdiction. <!--SR:!fsrs,2029-06-27T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-07-25T00:00:00.000Z!2026-09-01,269,330-->
@@ -145,7 +145,7 @@ The content is in teaching order.
     - financial regulatory authority / examples ::@:: China: CBIRC <br/> Hong Kong: HKMA, HKSFC <br/> United States: CFTC, SEC <!--SR:!2027-05-22,478,390!2027-03-16,426,390-->
 - financial asset
     - financial asset / classification ::@:: marketable \(tradeable\), non-marketable <!--SR:!2027-03-04,416,390!2027-04-06,439,390-->
-        - financial asset / classification / marketable ::@:: derivative: forwards, futures, options, swaps, etc. <br/> primitive: debt, equity <!--SR:!2026-08-20,253,367!2027-03-14,416,370-->
+        - financial asset / classification / marketable ::@:: derivative: forwards, futures, options, swaps, etc. <br/> primitive: debt, equity <!--SR:!fsrs,2030-02-01T00:00:00.000Z,1260,1259.89547299,1,2,9,0,0,2026-08-21T00:00:00.000Z!2027-03-14,416,370-->
         - financial asset / classification / non-marketable ::@:: debt: securitized claims, etc. <br/> equity <!--SR:!2027-04-09,442,390!2027-04-07,440,390-->
 - [money market](../../../../general/money%20market.md) ::@:: It is a component of the economy that provides short-term funds. The money market deals in short-term loans, generally for a period of a year or less. <!--SR:!2027-03-31,438,390!2027-03-09,420,390-->
     - money market / importance ::@:: As short-term securities became a commodity, the money market became a component of the financial market for assets involved in short-term borrowing, lending, buying and selling with original maturities of one year or less. Trading in money markets is done over the counter and is wholesale. <!--SR:!fsrs,2028-12-23T08:09:17.019Z,930,929.72565968,1,2,9,0,0,2026-06-07T08:09:17.019Z!2027-03-20,429,390-->

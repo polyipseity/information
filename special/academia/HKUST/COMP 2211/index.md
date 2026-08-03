@@ -747,7 +747,7 @@ ID: 23456789
 ## week 8 lecture 2
 
 - datetime: 2024-10-25T13:30:00+08:00/2024-10-25T14:50:00+08:00
-- implementing backpropagation from scratch in Python ::@:: Remember to use vectorization. <p> The one they have shown on the lecture slide is very primitive and is not very flexible... <!--SR:!fsrs,2032-06-04T00:00:00.000Z,2154,2154.0218629,1,2,10,0,0,2026-07-12T00:00:00.000Z!2026-08-20,498,402-->
+- implementing backpropagation from scratch in Python ::@:: Remember to use vectorization. <p> The one they have shown on the lecture slide is very primitive and is not very flexible... <!--SR:!fsrs,2032-06-04T00:00:00.000Z,2154,2154.0218629,1,2,10,0,0,2026-07-12T00:00:00.000Z!fsrs,2032-11-23T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-08-21T00:00:00.000Z-->
 - [multilayer perceptron](../../../../general/multilayer%20perceptron.md)
     - multilayer perceptron / training data ::@:: The data the multilayer perceptron learns from. <!--SR:!fsrs,2032-09-22T00:00:00.000Z,2238,2238.24127719,1,2,10,0,0,2026-08-07T00:00:00.000Z!2026-10-18,547,405-->
     - multilayer perceptron / testing data ::@:: The data that is kept secret from the multilayer perceptron before it has finished learning. Then it can be used to evaluate the model. <!--SR:!2026-09-21,522,398!fsrs,2032-11-08T00:00:00.000Z,2274,2274.19527604,1,2,10,0,0,2026-08-18T00:00:00.000Z-->

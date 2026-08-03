@@ -88,7 +88,7 @@ Now applying {@{the distributivity of the geometric version of the dot product}@
 
 ## properties
 
-The dot product fulfills the following properties if {@{$\mathbf {a}$, $\mathbf {b}$, $\mathbf {c}$ and $\mathbf {d}$ are real [vectors](vector%20(geometry).md)}@} and {@{$\alpha$, $\beta$, $\gamma$ and $\delta$ are [scalars](scalar%20(mathematics).md)}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-08-20,440,383!2026-09-10,456,383-->
+The dot product fulfills the following properties if {@{$\mathbf {a}$, $\mathbf {b}$, $\mathbf {c}$ and $\mathbf {d}$ are real [vectors](vector%20(geometry).md)}@} and {@{$\alpha$, $\beta$, $\gamma$ and $\delta$ are [scalars](scalar%20(mathematics).md)}@}.<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!fsrs,2032-04-04T00:00:00.000Z,2053,2053.1371477,1,2,10,0,0,2026-08-21T00:00:00.000Z!2026-09-10,456,383-->
 
 __[Commutative](commutative.md)__
 
@@ -181,7 +181,7 @@ Writing {@{a matrix as a [dyadic](dyadics.md)}@}, we can {@{define a different d
 
 ### tensors
 
-The inner product between {@{a [tensor](tensor.md) of order $n$ and a tensor of order $m$}@} is {@{a tensor of order $n+m-2$}@}, see {@{_[Tensor contraction](tensor%20contraction.md)_ for details}@}. <!--SR:!2026-08-24,440,383!2026-08-20,440,383!2026-09-24,468,383-->
+The inner product between {@{a [tensor](tensor.md) of order $n$ and a tensor of order $m$}@} is {@{a tensor of order $n+m-2$}@}, see {@{_[Tensor contraction](tensor%20contraction.md)_ for details}@}. <!--SR:!2026-08-24,440,383!fsrs,2032-04-04T00:00:00.000Z,2053,2053.1371477,1,2,10,0,0,2026-08-21T00:00:00.000Z!2026-09-24,468,383-->
 
 ## computation
 

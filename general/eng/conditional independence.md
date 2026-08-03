@@ -19,7 +19,7 @@ Equivalently, conditional independence may be stated as: {@{$$P(A, B \mid C) = P
 
 ### proof of the equivalent definition
 
-{@{The strategy for proving equivalence}@} is decomposing {@{both definitions using [the definition of conditional probability](conditional%20probability.md#Kolmogorov%20definition)}@} and performing {@{basic algebraic manipulation}@}. Assuming {@{$P(C) > 0$ and $P(B, C) > 0$}@}: <!--SR:!2030-04-21,1481,310!2027-11-19,970,350!2026-08-20,93,364!2026-08-20,93,364-->
+{@{The strategy for proving equivalence}@} is decomposing {@{both definitions using [the definition of conditional probability](conditional%20probability.md#Kolmogorov%20definition)}@} and performing {@{basic algebraic manipulation}@}. Assuming {@{$P(C) > 0$ and $P(B, C) > 0$}@}: <!--SR:!2030-04-21,1481,310!2027-11-19,970,350!fsrs,2028-01-30T00:00:00.000Z,527,527.38967032,1,2,8,0,0,2026-08-21T00:00:00.000Z!fsrs,2028-01-30T00:00:00.000Z,527,527.38967032,1,2,8,0,0,2026-08-21T00:00:00.000Z-->
 
 $$\begin{aligned}
 & \phantom \iff P(A, B \mid C) = P(A \mid C) P(B \mid C) \\

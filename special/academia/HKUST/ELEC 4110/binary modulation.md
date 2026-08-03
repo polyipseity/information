@@ -47,7 +47,7 @@ Below, we split {@{the analysis into two conditioned cases}@}. Then we avoid dea
 
 ### bit error rate with zero threshold
 
-With {@{the hard decision rule}@} {@{$$\displaystyle \hat b_k=\begin{cases}1,& V>0\\[4pt]0,&V\le0\end{cases} \,,$$}@} {@{an error occurs}@} when $V$ has {@{opposite sign to the transmitted symbol}@}. <!--SR:!2026-11-05,291,330!2026-08-20,228,330!2026-09-23,254,330!2026-09-14,245,330-->
+With {@{the hard decision rule}@} {@{$$\displaystyle \hat b_k=\begin{cases}1,& V>0\\[4pt]0,&V\le0\end{cases} \,,$$}@} {@{an error occurs}@} when $V$ has {@{opposite sign to the transmitted symbol}@}. <!--SR:!2026-11-05,291,330!fsrs,2029-06-08T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-21T00:00:00.000Z!2026-09-23,254,330!2026-09-14,245,330-->
 
 For {@{a transmitted '1'}@}: {@{$$P_e^{(1)} = P(N_T < -AT) = Q\!\left(\frac{AT}{\sigma_{n_T} }\right),$$}@} where {@{$\sigma_{n_T}=\sqrt{\tfrac{N_0}{2}\,T}$}@}. Thus {@{$$P_e^{(1)} = Q\!\left(\sqrt{\frac{2A^2T}{N_0} }\right) = Q\!\left(\sqrt{\frac{2E_b}{N_0} }\right) \,,$$}@} where {@{$E_b = A^2 T$}@} is {@{the signal \(excluding the noise\) power \(see below\)}@}. <!--SR:!2026-10-17,276,330!2026-10-28,285,330!fsrs,2028-07-15T00:00:00.000Z,749,748.69243244,1,2,8,0,0,2026-06-27T00:00:00.000Z!2026-10-11,272,330!2026-11-05,291,330!2026-09-20,251,330-->
 
