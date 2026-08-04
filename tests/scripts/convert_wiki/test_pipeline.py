@@ -219,14 +219,14 @@ class TestCollectBlockMathInfo:
         raws = [t[0] for t in info]
         assert raws == ["f", "g"]
 
-    def test_inline_math_not_collected(self) -> None:
-        """Inline ``$x$`` should not appear in block math info."""
+    def test_inline_math_collected(self) -> None:
+        """Inline ``$x$`` is collected alongside block ``$$y$$``."""
         tokens = _parse("$x$ and $$y$$")
         info = _collect_block_math_info(tokens)
-        # Only "y" should be collected as block math
+        # Both "x" (inline) and "y" (block) should be collected in order.
         raws = [t[0] for t in info]
-        assert raws == ["y"]
-        assert len(info) == 1
+        assert raws == ["x", "y"]
+        assert len(info) == 2
 
     def test_empty_token_list(self) -> None:
         """Empty token list → empty info."""
@@ -287,6 +287,59 @@ class TestScanAndApply:
             [("one", True, False), ("two", False, True)],
         )
         assert result == "a $$one$$b$$two$$ c"
+
+
+class TestInlineMathSpacing:
+    """Tests for inline ``$...$`` spacing (S3: same list as emphasis)."""
+
+    def test_abutting_word(self) -> None:
+        """Inline math abutting words gets spaces on both sides."""
+        assert (
+            _separate_block_math("testing $1/|w|$against") == "testing $1/|w|$ against"
+        )
+        assert _separate_block_math("before$f$word") == "before $f$ word"
+
+    def test_joiner_punctuation_unchanged(self) -> None:
+        """Joiner-wrapped math before punctuation gets no space."""
+        text = "function \u2060$f(x)$\u2060, defined"
+        assert _separate_block_math(text) == text
+        assert _separate_block_math("\u2060$f$\u2060word") == "\u2060$f$ \u2060word"
+
+    def test_punctuation_adjacent_no_space(self) -> None:
+        """Math adjacent to punctuation gets no space."""
+        assert _separate_block_math("($x$)") == "($x$)"
+        assert _separate_block_math("text ($x$) and $y$!") == "text ($x$) and $y$!"
+
+    def test_slash_underscore_like_emphasis(self) -> None:
+        """``/`` and ``_`` are content, matching emphasis parity."""
+        assert _separate_block_math("$x$/3") == "$x$ /3"
+        assert _separate_block_math("$x$_n") == "$x$ _n"
+
+    def test_inline_math_in_block_unchanged(self) -> None:
+        """Block and inline each spaced once — no double insertion."""
+        assert _separate_block_math("a $$f$$ b $x$ c") == "a $$f$$ b $x$ c"
+        assert _separate_block_math("a$$f$$b$x$c") == "a $$f$$ b $x$ c"
+
+    def test_scan_and_apply_dollar_region_skipped(self) -> None:
+        """``$$...$$`` regions are never matched as single-``$`` spans."""
+        result = _scan_and_apply("$$f$$", [("f", False, False)])
+        assert result == "$$f$$"
+        result = _scan_and_apply("$f$$f$", [("f", False, False, True)])
+        assert result == "$f$$f$"
+
+    def test_inline_math_softbreak_after_no_trailing_space(self) -> None:
+        """A line break after inline math needs no extra space.
+
+        A ``softbreak``/``linebreak`` sibling already provides whitespace
+        separation; inserting a space would create MD009 trailing
+        whitespace and a non-idempotent pipeline (the space turns the
+        softbreak into a linebreak, so the space is never removed).
+        """
+        assert _separate_block_math("para $x$\nnext line") == "para $x$\nnext line"
+
+    def test_inline_math_softbreak_before_no_space(self) -> None:
+        """A line break before inline math needs no extra space."""
+        assert _separate_block_math("para\n$x$ next") == "para\n$x$ next"
 
 
 # =========================================================================
@@ -648,6 +701,43 @@ class TestWikiHtmlToPlaintext:
         # The exact output depends on how the converter handles the math
         # span — the key assertion is that the function runs without error.
         assert result is not None
+
+    @pytest.mark.anyio
+    async def test_table_inline_math_pipes_aligned(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Math spacing in table cells keeps pipes aligned (MD060).
+
+        Math spacing must run before table reformatting; otherwise the
+        inserted spaces grow a cell past its padded column width and the
+        pipes misalign.
+        """
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+
+        html = BeautifulSoup(
+            "<table><tbody><tr><th>Column 1</th></tr><tr><td>word"
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            '<math alttext="{\\displaystyle f(x)}"><semantics><mrow>'
+            '<mi>f</mi><mo stretchy="false">(</mo><mi>x</mi>'
+            '<mo stretchy="false">)</mo></mrow></semantics></math>'
+            '<img class="mwe-math-fallback-image-inline mw-invert skin-invert"'
+            ' src="data:image/svg+xml;base64," /></span></span>word'
+            "</td></tr></tbody></table>",
+            "html.parser",
+        )
+        result = await wiki_html_to_plaintext(
+            html,
+            out_to_archive=set(),
+            redirect_map={},
+            refs=True,
+        )
+        # Column width is 16 (``word $f(x)$ word``); all rows align.
+        assert result == (
+            "| Column 1         |\n| ---------------- |\n| word $f(x)$ word |\n"
+        )
 
 
 # =========================================================================

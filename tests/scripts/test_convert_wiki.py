@@ -1172,9 +1172,9 @@ class TestSeparateBlockMath:
         """Inline ``$…$`` should be left untouched."""
         assert _separate_block_math("$x$ is inline") == "$x$ is inline"
 
-    def test_inline_math_adjacency_unaffected(self) -> None:
-        """Inline math ``$x$`` adjacent to text → no change."""
-        assert _separate_block_math("text$x$more") == "text$x$more"
+    def test_inline_math_adjacency_spaced(self) -> None:
+        """Inline math ``$x$`` adjacent to text → spacing added."""
+        assert _separate_block_math("text$x$more") == "text $x$ more"
 
     def test_code_span_dollars_untouched(self) -> None:
         """``$$`` inside a code span → not modified."""

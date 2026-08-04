@@ -427,6 +427,26 @@ class WikiHtmlConverter:
             and sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
         )
 
+    @staticmethod
+    def _effective_sibling(ele: PageElement, *, following: bool) -> PageElement | None:
+        """Return the sibling adjacent to *ele* in rendered output order.
+
+        ``_handle_span`` emits nothing and flattens its children, so an
+        element that is the only child of a ``<span>`` has no direct sibling
+        yet is adjacent to the wrapper's sibling in the output.  Walk up
+        through such transparent wrappers until a real sibling is found or a
+        non-span boundary (block element or root) is reached.
+        """
+        node: PageElement = ele
+        while True:
+            sibling = node.next_sibling if following else node.previous_sibling
+            if sibling is not None:
+                return sibling
+            parent = node.parent
+            if not isinstance(parent, Tag) or parent.name != "span":
+                return None
+            node = parent
+
     def _handle_bold_italic(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render bold/italic text with Markdown emphasis markers."""
         bold = (
@@ -441,9 +461,9 @@ class WikiHtmlConverter:
         italic_str = "_" if italic else ""
         prefix = f"{bold_str}{italic_str}"
         suffix = f"{italic_str}{bold_str}"
-        if self._needs_separator_before(ele.previous_sibling):
+        if self._needs_separator_before(self._effective_sibling(ele, following=False)):
             prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
-        if self._needs_separator_after(ele.next_sibling):
+        if self._needs_separator_after(self._effective_sibling(ele, following=True)):
             suffix += _MARKDOWN_SEPARATOR
 
         config = _HandlerConfig(prefix=prefix, suffix=suffix, full_result=False)

@@ -304,5 +304,122 @@
         </tr>
       </tbody>
     </table>
+
+    <h2><span id="INLINE_ABUTTING">INLINE_ABUTTING</span></h2>
+    <p>Inline math abutting words on both sides (no source spaces).</p>
+    <p>
+      word<span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle x}"
+            ><semantics
+              ><mrow><mi>x</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >word
+    </p>
+    <p>
+      <span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle y}"
+            ><semantics
+              ><mrow><mi>y</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >word
+    </p>
+
+    <h2><span id="INLINE_JOINER_PUNCT">INLINE_JOINER_PUNCT</span></h2>
+    <p>
+      Joiner-wrapped inline math: no space before punctuation, space before a
+      word.
+    </p>
+    <p>
+      text&#x2060;<span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle x}"
+            ><semantics
+              ><mrow><mi>x</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >&#x2060;, defined
+    </p>
+    <p>
+      &#x2060;<span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle y}"
+            ><semantics
+              ><mrow><mi>y</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >&#x2060;word
+    </p>
+
+    <h2><span id="INLINE_PUNCT_ADJACENT">INLINE_PUNCT_ADJACENT</span></h2>
+    <p>Inline math directly adjacent to punctuation (no space added).</p>
+    <p>
+      (<span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle x}"
+            ><semantics
+              ><mrow><mi>x</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >)
+    </p>
+    <p>
+      text
+      <span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle y}"
+            ><semantics
+              ><mrow><mi>y</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >!
+    </p>
+
+    <h2>
+      <span id="INLINE_TABLE_ADJACENT">INLINE_TABLE_ADJACENT</span>
+    </h2>
+    <p>
+      Inline math abutting text in a table cell: spacing must be applied before
+      column padding so pipes stay aligned (MD060).
+    </p>
+    <table>
+      <tbody>
+        <tr>
+          <th>Column 1</th>
+        </tr>
+        <tr>
+          <td>
+            word<span class="mwe-math-element mwe-math-element-inline"
+              ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+                ><math alttext="{\displaystyle f(x)}"
+                  ><semantics
+                    ><mrow
+                      ><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi
+                      ><mo stretchy="false">)</mo></mrow
+                    ></semantics
+                  ></math
+                ><img
+                  class="mwe-math-fallback-image-inline mw-invert skin-invert"
+                  src="data:image/svg+xml;base64," /></span></span
+            >word
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </section>
 </div>

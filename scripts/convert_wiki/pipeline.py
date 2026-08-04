@@ -6,7 +6,7 @@ resolution, image metadata fetching, and conversion).
 """
 
 import re
-from collections.abc import Mapping, MutableMapping, MutableSet
+from collections.abc import Mapping, MutableMapping, MutableSet, Sequence
 from os import PathLike
 from pathlib import PurePath
 from typing import Any
@@ -29,7 +29,7 @@ from .ast_utils import (
 )
 from .converter import WikiHtmlConverter
 from .types import _RedirectInfo
-from .utils import _reformat_table
+from .utils import _ZERO_WIDTH_CHARS_RE, _reformat_table
 
 """Exported names from this module."""
 __all__ = ()
@@ -85,52 +85,85 @@ async def _create_session_and_run(
         )
 
 
-def _determine_needs_before(prev: dict[str, Any] | None) -> bool:
-    """Return ``True`` if a space should be inserted before the opening ``$$``.
+def _determine_needs_before(
+    prev: dict[str, Any] | None, *, inline: bool = False
+) -> bool:
+    """Return ``True`` if a space should be inserted before a math delimiter.
 
-    Examines the AST sibling node immediately before a ``block_math`` node.
-    If the sibling is a text node ending with a non-whitespace character, the
-    ``$$`` is directly adjacent to text in the source — a space is needed.
-    If the sibling is a non-text node (emphasis, code span, etc.), there is
-    no text-node buffer, so the ``$$`` is adjacent by default.
+    Examines the AST sibling node immediately before a ``block_math`` (or
+    ``inline_math`` when ``inline`` is set) node.  If the sibling is a text
+    node ending with a non-whitespace character, the delimiter is directly
+    adjacent to text in the source — a space is needed.  If the sibling is a
+    non-text node (emphasis, code span, etc.), there is no text-node buffer,
+    so the delimiter is adjacent by default.
+
+    For inline math (``inline=True``), zero-width characters are stripped
+    from the neighbor text first, then the text is tested against
+    ``_MARKDOWN_SEPARATOR_CHARACTERS`` (the same list and test as the
+    emphasis separator in ``converter._needs_separator_before``), so inline
+    math gets spacing guaranteed in exactly the same situations as emphasis.
     """
     if prev is None:
         return False
     if prev["type"] == "text":
+        if inline:
+            stripped = _ZERO_WIDTH_CHARS_RE.sub("", prev["raw"])
+            return bool(stripped) and (
+                stripped.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == stripped
+            )
         return bool(prev["raw"]) and not prev["raw"][-1].isspace()
+    if inline and prev["type"] in ("softbreak", "linebreak"):
+        # A line break is already whitespace separation.
+        return False
     return True
 
 
-def _determine_needs_after(next_: dict[str, Any] | None) -> bool:
-    """Return ``True`` if a space should be inserted after the closing ``$$``.
+def _determine_needs_after(
+    next_: dict[str, Any] | None, *, inline: bool = False
+) -> bool:
+    """Return ``True`` if a space should be inserted after a math delimiter.
 
     Mirror of ``_determine_needs_before`` for the sibling that follows a
-    ``block_math`` node.
+    ``block_math`` (or ``inline_math`` when ``inline`` is set) node.
     """
     if next_ is None:
         return False
     if next_["type"] == "text":
+        if inline:
+            stripped = _ZERO_WIDTH_CHARS_RE.sub("", next_["raw"])
+            return bool(stripped) and (
+                stripped.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == stripped
+            )
         return bool(next_["raw"]) and not next_["raw"][0].isspace()
+    if inline and next_["type"] in ("softbreak", "linebreak"):
+        # A line break is already whitespace separation.
+        return False
     return True
 
 
 def _collect_block_math_info(
     tokens: list[dict[str, Any]],
 ) -> list[tuple[str, bool, bool]]:
-    """Deep-walk the AST and collect info about every ``block_math`` node.
+    """Deep-walk the AST and collect info about every math node.
 
-    *Standalone* block math (top-level AST, not nested inside a paragraph)
-    never gets spacing added — it is already separated by newlines.  Only
-    *inline* block math (inside a paragraph or similar container) is
-    candidate for whitespace insertion.
+    Both ``block_math`` (``$$…$$``) and ``inline_math`` (``$…$``) nodes are
+    collected in document order.  *Standalone* block math (top-level AST,
+    not nested inside a paragraph) never gets spacing added — it is already
+    separated by newlines.  Only math inside a paragraph or similar
+    container is a candidate for whitespace insertion.
 
     Returns a list of ``(raw, needs_before, needs_after)`` tuples ordered by
     document position.
     """
     info: list[tuple[str, bool, bool]] = []
 
-    for token, depth, parents in _walk_tokens(tokens, "block_math"):
+    for token, depth, parents in _walk_tokens(tokens, None):
+        if token["type"] not in ("block_math", "inline_math"):
+            continue
+        is_inline = token["type"] == "inline_math"
         if depth == 0:
+            if is_inline:
+                continue  # Unreachable: inline math is never top-level.
             if "$$" in token["raw"]:
                 # Collapsed node: Mistune merged multiple ``$$…$$`` spans on the
                 # same line into one block_math node.  Wrap in paragraph context
@@ -179,53 +212,75 @@ def _collect_block_math_info(
             info.append(
                 (
                     token["raw"],
-                    _determine_needs_before(prev_sib),
-                    _determine_needs_after(next_sib),
+                    _determine_needs_before(prev_sib, inline=is_inline),
+                    _determine_needs_after(next_sib, inline=is_inline),
                 )
             )
 
     return info
 
 
-def _scan_and_apply(text: str, info: list[tuple[str, bool, bool]]) -> str:
-    """Scan *text* for ``$$…$$`` spans matching each ``block_math`` entry.
+def _scan_and_apply(
+    text: str, info: Sequence[tuple[str, bool, bool] | tuple[str, bool, bool, bool]]
+) -> str:
+    """Scan *text* for math spans matching each entry in *info*.
 
     For each entry in *info* (ordered by document position), the source is
-    scanned left-to-right for a ``$${raw}$$`` span.  When found, the
-    ``needs_before`` / ``needs_after`` flags control whether a space is
-    inserted.  Non-matching ``$$`` spans (e.g. inside code spans) are
-    skipped.
+    scanned left-to-right for a matching span.  Entries are either
+    ``(raw, needs_before, needs_after)`` block entries (``$${raw}$$``) or
+    ``(raw, needs_before, needs_after, is_inline)`` entries (a trailing
+    flag, accepted for compatibility and otherwise unused).  The delimiter
+    is probed directly: ``$${raw}$$`` at a ``$$`` position, ``${raw}$`` at
+    a single-``$`` position.  When found, the ``needs_before`` /
+    ``needs_after`` flags control whether a space is inserted.  Non-matching
+    ``$$…$$`` regions are skipped whole; stray single ``$`` are consumed one
+    at a time.
     """
     parts: list[str] = []
     pos = 0
 
-    for raw, needs_before, needs_after in info:
+    for entry in info:
+        raw, needs_before, needs_after = entry[:3]
         target = "$$" + raw + "$$"
         target_len = len(target)
 
         while pos < len(text):
-            dollar_pos = text.find("$$", pos)
+            dollar_pos = text.find("$", pos)
             if dollar_pos == -1:
                 parts.append(text[pos:])
                 return "".join(parts)
-            if (
-                dollar_pos + target_len <= len(text)
-                and text[dollar_pos : dollar_pos + target_len] == target
-            ):
-                parts.append(text[pos:dollar_pos])
-                if needs_before:
-                    parts.append(" ")
-                parts.append(target)
-                if needs_after:
-                    parts.append(" ")
-                pos = dollar_pos + target_len
-                break
-            close_pos = text.find("$$", dollar_pos + 2)
-            if close_pos == -1:
-                parts.append(text[dollar_pos:])
-                return "".join(parts)
-            parts.append(text[pos : close_pos + 2])
-            pos = close_pos + 2
+            if text[dollar_pos : dollar_pos + 2] == "$$":
+                if (
+                    dollar_pos + target_len <= len(text)
+                    and text[dollar_pos : dollar_pos + target_len] == target
+                ):
+                    parts.append(text[pos:dollar_pos])
+                    if needs_before:
+                        parts.append(" ")
+                    parts.append(target)
+                    if needs_after:
+                        parts.append(" ")
+                    pos = dollar_pos + target_len
+                    break
+                close_pos = text.find("$$", dollar_pos + 2)
+                if close_pos == -1:
+                    parts.append(text[dollar_pos:])
+                    return "".join(parts)
+                parts.append(text[pos : close_pos + 2])
+                pos = close_pos + 2
+            else:
+                target_inline = "$" + raw + "$"
+                if text.startswith(target_inline, dollar_pos):
+                    parts.append(text[pos:dollar_pos])
+                    if needs_before:
+                        parts.append(" ")
+                    parts.append(target_inline)
+                    if needs_after:
+                        parts.append(" ")
+                    pos = dollar_pos + len(target_inline)
+                    break
+                parts.append(text[pos : dollar_pos + 1])
+                pos = dollar_pos + 1
         else:
             parts.append(text[pos:])
             return "".join(parts)
@@ -310,15 +365,18 @@ def _separate_block_quotes(text: str) -> str:
 
 
 def _separate_block_math(text: str) -> str:
-    """Ensure minimum whitespace separation around ``$$…$$`` block math.
+    """Ensure minimum whitespace separation around math delimiters.
 
-    If non-whitespace text immediately precedes the opening ``$$``, a space
-    is inserted before it.  If non-whitespace text immediately follows the
-    closing ``$$``, a space is inserted after it.
+    If non-whitespace text immediately precedes the opening ``$$`` (or the
+    opening ``$`` of inline math), a space is inserted before it.  If
+    non-whitespace text immediately follows the closing delimiter, a space
+    is inserted after it.  Inline math uses the same character list and
+    test as the emphasis separator (``converter._needs_separator_before`` /
+    ``_needs_separator_after``), with zero-width characters stripped first.
 
-    Uses mistune AST to correctly distinguish ``block_math`` nodes from
-    ``$$`` that appears inside code spans, fenced code blocks, or other
-    Markdown constructs where the delimiters are literal text.
+    Uses mistune AST to correctly distinguish ``block_math`` / ``inline_math``
+    nodes from ``$`` that appears inside code spans, fenced code blocks, or
+    other Markdown constructs where the delimiters are literal text.
     """
     parse_result, _state = _MISTUNE_PARSER.parse(text)
     del (
@@ -376,6 +434,11 @@ async def wiki_html_to_plaintext(
     )
     # Strip trailing whitespace from each line.
     result = "\n".join(line.rstrip(" \t") for line in result.split("\n"))
+    # Separate math delimiters from adjacent text.  Run before table
+    # reformatting so inserted spaces count toward column widths; running
+    # it after would grow cells past their padding and misalign pipes
+    # (MD060).
+    result = _separate_block_math(result)
     # Pad table columns to the widest content per column.
     result = _reformat_table(result)
     # Insert MD028 suppression comments between adjacent blockquote blocks.
@@ -383,7 +446,6 @@ async def wiki_html_to_plaintext(
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
     result = result.strip()
-    result = _separate_block_math(result)
     return result + "\n" if result else result
 
 

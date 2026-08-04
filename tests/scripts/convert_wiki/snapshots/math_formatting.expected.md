@@ -55,3 +55,35 @@ Inline math in table cell containing a bare pipe character.
 | Column 1             |
 | -------------------- |
 | text $x\vert y$ more |
+
+## INLINE\_ABUTTING
+
+Inline math abutting words on both sides \(no source spaces\).
+
+word $x$ word
+
+$y$ word
+
+## INLINE\_JOINER\_PUNCT
+
+Joiner-wrapped inline math: no space before punctuation, space before a word.
+
+text⁠ $x$⁠, defined
+
+⁠$y$ ⁠word
+
+## INLINE\_PUNCT\_ADJACENT
+
+Inline math directly adjacent to punctuation \(no space added\).
+
+\($x$\)
+
+text $y$!
+
+## INLINE\_TABLE\_ADJACENT
+
+Inline math abutting text in a table cell: spacing must be applied before column padding so pipes stay aligned \(MD060\).
+
+| Column 1 |
+| --- |
+| word $f(x)$ word |

@@ -450,6 +450,24 @@ class TestBoldItalicHandling:
         assert "a" in result and "b" in result and "c" in result
 
     @pytest.mark.anyio
+    async def test_italic_inside_span_abutting_text(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Separator inserted when emphasis is the sole child of a span."""
+        html = '<p><span class="texhtml"><i>n</i></span>th-order</p>'
+        result = await _convert(converter, html)
+        assert "_n_<!-- markdown separator -->th-order" in result
+
+    @pytest.mark.anyio
+    async def test_italic_inside_span_preceded_by_text(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Separator inserted before emphasis inside a span (symmetric)."""
+        html = '<p>d<span class="texhtml"><i>n</i></span>th</p>'
+        result = await _convert(converter, html)
+        assert "d<!-- markdown separator -->_n_" in result
+
+    @pytest.mark.anyio
     async def test_strong(self, converter: WikiHtmlConverter) -> None:
         """``<strong>`` should render as bold."""
         result = await _convert(converter, "<strong>strong</strong>")
