@@ -1,0 +1,456 @@
+<div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr">
+  <section>
+    <h2><span id="BOTH">BOTH</span></h2>
+    <p>Block math with surrounding text on both sides.</p>
+    <p>
+      Text before the math
+      <span
+        class="mwe-math-element mwe-math-element-block"
+        typeof="mw:Extension/math"
+        data-mw='{"name":"math","attrs":{"display":"block"},"body":{"extsrc":"f(x)"}}'
+        ><span
+          class="mwe-math-mathml-display mwe-math-mathml-a11y"
+          style="
+            clip: rect(1px, 1px, 1px, 1px);
+            overflow: hidden;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+          "
+          ><math
+            xmlns="http://www.w3.org/1998/Math/MathML"
+            display="block"
+            alttext="{\displaystyle f(x)}"
+            ><semantics
+              ><mrow
+                ><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi
+                ><mo stretchy="false">)</mo></mrow
+              ></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-display mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span
+      ></span>
+      and text after the math.
+    </p>
+
+    <h2><span id="BEFORE_ONLY">BEFORE_ONLY</span></h2>
+    <p>Block math preceded by text only, at line end.</p>
+    <p>
+      Text before the math only
+      <span
+        class="mwe-math-element mwe-math-element-block"
+        typeof="mw:Extension/math"
+        data-mw='{"name":"math","attrs":{"display":"block"},"body":{"extsrc":"g(y)"}}'
+        ><span
+          class="mwe-math-mathml-display mwe-math-mathml-a11y"
+          style="
+            clip: rect(1px, 1px, 1px, 1px);
+            overflow: hidden;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+          "
+          ><math
+            xmlns="http://www.w3.org/1998/Math/MathML"
+            display="block"
+            alttext="{\displaystyle g(y)}"
+            ><semantics
+              ><mrow
+                ><mi>g</mi><mo stretchy="false">(</mo><mi>y</mi
+                ><mo stretchy="false">)</mo></mrow
+              ></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-display mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span
+      ></span>
+    </p>
+
+    <h2><span id="AFTER_ONLY">AFTER_ONLY</span></h2>
+    <p>Block math followed by text only, at line start.</p>
+    <p>
+      <span
+        class="mwe-math-element mwe-math-element-block"
+        typeof="mw:Extension/math"
+        data-mw='{"name":"math","attrs":{"display":"block"},"body":{"extsrc":"h(z)"}}'
+        ><span
+          class="mwe-math-mathml-display mwe-math-mathml-a11y"
+          style="
+            clip: rect(1px, 1px, 1px, 1px);
+            overflow: hidden;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+          "
+          ><math
+            xmlns="http://www.w3.org/1998/Math/MathML"
+            display="block"
+            alttext="{\displaystyle h(z)}"
+            ><semantics
+              ><mrow
+                ><mi>h</mi><mo stretchy="false">(</mo><mi>z</mi
+                ><mo stretchy="false">)</mo></mrow
+              ></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-display mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span
+      ></span>
+      and text after the math only.
+    </p>
+
+    <h2><span id="NEITHER">NEITHER</span></h2>
+    <p>Standalone block math on its own line.</p>
+    <p>
+      <span
+        class="mwe-math-element mwe-math-element-block"
+        typeof="mw:Extension/math"
+        data-mw='{"name":"math","attrs":{"display":"block"},"body":{"extsrc":"k(w)"}}'
+        ><span
+          class="mwe-math-mathml-display mwe-math-mathml-a11y"
+          style="
+            clip: rect(1px, 1px, 1px, 1px);
+            overflow: hidden;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+          "
+          ><math
+            xmlns="http://www.w3.org/1998/Math/MathML"
+            display="block"
+            alttext="{\displaystyle k(w)}"
+            ><semantics
+              ><mrow
+                ><mi>k</mi><mo stretchy="false">(</mo><mi>w</mi
+                ><mo stretchy="false">)</mo></mrow
+              ></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-display mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span
+      ></span>
+    </p>
+
+    <h2><span id="multi">Multi-block math</span></h2>
+    <p>Multiple consecutive block math expressions separated by text.</p>
+    <p>
+      Start
+      <span
+        class="mwe-math-element mwe-math-element-block"
+        typeof="mw:Extension/math"
+        data-mw='{"name":"math","attrs":{"display":"block"},"body":{"extsrc":"a(b)"}}'
+        ><span
+          class="mwe-math-mathml-display mwe-math-mathml-a11y"
+          style="
+            clip: rect(1px, 1px, 1px, 1px);
+            overflow: hidden;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+          "
+          ><math
+            xmlns="http://www.w3.org/1998/Math/MathML"
+            display="block"
+            alttext="{\displaystyle a(b)}"
+            ><semantics
+              ><mrow
+                ><mi>a</mi><mo stretchy="false">(</mo><mi>b</mi
+                ><mo stretchy="false">)</mo></mrow
+              ></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-display mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span
+      ></span>
+      middle
+      <span
+        class="mwe-math-element mwe-math-element-block"
+        typeof="mw:Extension/math"
+        data-mw='{"name":"math","attrs":{"display":"block"},"body":{"extsrc":"c(d)"}}'
+        ><span
+          class="mwe-math-mathml-display mwe-math-mathml-a11y"
+          style="
+            clip: rect(1px, 1px, 1px, 1px);
+            overflow: hidden;
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+          "
+          ><math
+            xmlns="http://www.w3.org/1998/Math/MathML"
+            display="block"
+            alttext="{\displaystyle c(d)}"
+            ><semantics
+              ><mrow
+                ><mi>c</mi><mo stretchy="false">(</mo><mi>d</mi
+                ><mo stretchy="false">)</mo></mrow
+              ></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-display mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span
+      ></span>
+      end
+    </p>
+
+    <h2><span id="INLINE_MATH">INLINE_MATH</span></h2>
+    <p>Inline math with surrounding text.</p>
+    <p>
+      Text
+      <span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle f(x)}"
+            ><semantics
+              ><mrow
+                ><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi
+                ><mo stretchy="false">)</mo></mrow
+              ></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span
+      ></span>
+      and
+      <span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle g(y)}"
+            ><semantics
+              ><mrow
+                ><mi>g</mi><mo stretchy="false">(</mo><mi>y</mi
+                ><mo stretchy="false">)</mo></mrow
+              ></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span
+      ></span>
+    </p>
+
+    <h2><span id="PIPE_IN_MATH_IN_TABLE">PIPE_IN_MATH_IN_TABLE</span></h2>
+    <p>Display math in table cell containing a bare pipe character.</p>
+    <table>
+      <tbody>
+        <tr>
+          <th>Column 1</th>
+        </tr>
+        <tr>
+          <td>
+            text
+            <span class="mwe-math-element mwe-math-element-block"
+              ><span class="mwe-math-mathml-display mwe-math-mathml-a11y"
+                ><math display="block" alttext="{\displaystyle x|y}"
+                  ><semantics
+                    ><mrow><mi>x</mi><mo>|</mo><mi>y</mi></mrow></semantics
+                  ></math
+                ><img
+                  class="mwe-math-fallback-image-display mw-invert skin-invert"
+                  src="data:image/svg+xml;base64," /></span
+            ></span>
+            more
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2><span id="ESCAPED_PIPE_IN_MATH">ESCAPED_PIPE_IN_MATH</span></h2>
+    <p>Escaped pipe in display math (backslash-pipe preserved).</p>
+    <p>
+      Escaped:
+      <span class="mwe-math-element mwe-math-element-block"
+        ><span class="mwe-math-mathml-display mwe-math-mathml-a11y"
+          ><math display="block" alttext="{\displaystyle \|x\|}"
+            ><semantics
+              ><mrow><mo>\|</mo><mi>x</mi><mo>\|</mo></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-display mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span
+      ></span>
+    </p>
+
+    <h2>
+      <span id="PIPE_IN_MATH_IN_TABLE_INLINE"
+        >PIPE_IN_MATH_IN_TABLE_INLINE</span
+      >
+    </h2>
+    <p>Inline math in table cell containing a bare pipe character.</p>
+    <table>
+      <tbody>
+        <tr>
+          <th>Column 1</th>
+        </tr>
+        <tr>
+          <td>
+            text
+            <span class="mwe-math-element mwe-math-element-inline"
+              ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+                ><math alttext="{\displaystyle x|y}"
+                  ><semantics
+                    ><mrow><mi>x</mi><mo>|</mo><mi>y</mi></mrow></semantics
+                  ></math
+                ><img
+                  class="mwe-math-fallback-image-inline mw-invert skin-invert"
+                  src="data:image/svg+xml;base64," /></span
+            ></span>
+            more
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2><span id="INLINE_ABUTTING">INLINE_ABUTTING</span></h2>
+    <p>Inline math abutting words on both sides (no source spaces).</p>
+    <p>
+      word<span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle x}"
+            ><semantics
+              ><mrow><mi>x</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >word
+    </p>
+    <p>
+      <span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle y}"
+            ><semantics
+              ><mrow><mi>y</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >word
+    </p>
+
+    <h2><span id="INLINE_WORD_SUFFIX">INLINE_WORD_SUFFIX</span></h2>
+    <p>Atomic inline math with a word suffix — zero-width marker joins them.</p>
+    <p>
+      the
+      <span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle n}"
+            ><semantics
+              ><mrow><mi>n</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >th derivative
+    </p>
+
+    <h2><span id="INLINE_MINUS_SIGN">INLINE_MINUS_SIGN</span></h2>
+    <p>U+2212 MINUS SIGN before inline math — no separator needed.</p>
+    <p>
+      −<span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle x}"
+            ><semantics
+              ><mrow><mi>x</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span
+      ></span>
+    </p>
+
+    <h2><span id="INLINE_JOINER_PUNCT">INLINE_JOINER_PUNCT</span></h2>
+    <p>
+      Joiner-wrapped inline math: no space before punctuation, space before a
+      word.
+    </p>
+    <p>
+      text&#x2060;<span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle x}"
+            ><semantics
+              ><mrow><mi>x</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >&#x2060;, defined
+    </p>
+    <p>
+      &#x2060;<span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle y}"
+            ><semantics
+              ><mrow><mi>y</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >&#x2060;word
+    </p>
+
+    <h2><span id="INLINE_PUNCT_ADJACENT">INLINE_PUNCT_ADJACENT</span></h2>
+    <p>Inline math directly adjacent to punctuation (no space added).</p>
+    <p>
+      (<span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle x}"
+            ><semantics
+              ><mrow><mi>x</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >)
+    </p>
+    <p>
+      text
+      <span class="mwe-math-element mwe-math-element-inline"
+        ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+          ><math alttext="{\displaystyle y}"
+            ><semantics
+              ><mrow><mi>y</mi></mrow></semantics
+            ></math
+          ><img
+            class="mwe-math-fallback-image-inline mw-invert skin-invert"
+            src="data:image/svg+xml;base64," /></span></span
+      >!
+    </p>
+
+    <h2>
+      <span id="INLINE_TABLE_ADJACENT">INLINE_TABLE_ADJACENT</span>
+    </h2>
+    <p>
+      Inline math abutting text in a table cell: spacing must be applied before
+      column padding so pipes stay aligned (MD060).
+    </p>
+    <table>
+      <tbody>
+        <tr>
+          <th>Column 1</th>
+        </tr>
+        <tr>
+          <td>
+            word<span class="mwe-math-element mwe-math-element-inline"
+              ><span class="mwe-math-mathml-inline mwe-math-mathml-a11y"
+                ><math alttext="{\displaystyle f(x)}"
+                  ><semantics
+                    ><mrow
+                      ><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi
+                      ><mo stretchy="false">)</mo></mrow
+                    ></semantics
+                  ></math
+                ><img
+                  class="mwe-math-fallback-image-inline mw-invert skin-invert"
+                  src="data:image/svg+xml;base64," /></span></span
+            >word
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</div>

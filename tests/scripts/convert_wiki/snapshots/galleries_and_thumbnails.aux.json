@@ -1,0 +1,11 @@
+{
+  "image_metadata": {
+    "File:Image1.jpg": "First image description.",
+    "File:Image2.png": "Second image description.",
+    "File:Image3.svg": "Third image description.",
+    "File:Thumb_image.jpg": "Thumbnail image description.",
+    "File:Another_thumb.png": "Another thumbnail description."
+  },
+  "name_map_overrides": {},
+  "redirect_cache": {}
+}
