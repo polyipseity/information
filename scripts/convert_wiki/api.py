@@ -5,7 +5,7 @@ image description metadata from Wikimedia Commons.
 """
 
 import json
-from collections.abc import MutableMapping
+from collections.abc import Iterable, Mapping, MutableMapping
 from contextlib import suppress
 from datetime import datetime, timezone
 from os import PathLike
@@ -18,7 +18,7 @@ from yarl import URL
 
 from . import config as _cfg
 from .converter import WikiHtmlConverter
-from .types import _ApiResponse, _RedirectInfo
+from .types import _ApiResponse, _RedirectInfo, _RedirectStatus
 from .utils import _get_image_filename
 
 """Exported names from this module."""
@@ -209,6 +209,87 @@ async def _resolve_redirects(
                 cache.setdefault(title, _RedirectInfo(to=title, cached_at=now_iso))
     await _save_redirect_cache(cache, cache_path=cache_path)
     return cache
+
+
+def _resolve_chain_terminal(first_hop: str, redirect_from_to: Mapping[str, str]) -> str:
+    """Return the terminal target of a redirect chain.
+
+    Walks the ``redirects`` entries from *first_hop*, following each ``to``
+    to the next ``from``, until reaching a title that is not itself a
+    redirect source.  Returns *first_hop* when the chain cannot be extended
+    (single-hop or an unresolved target).
+    """
+    seen = set[str]()
+    current = first_hop
+    while current in redirect_from_to and current not in seen:
+        seen.add(current)
+        current = redirect_from_to[current]
+    return current
+
+
+async def _fetch_redirect_status(
+    session: ClientSession,
+    titles: Iterable[str],
+) -> dict[str, _RedirectStatus]:
+    """Probe the live redirect status of each title, bypassing the cache.
+
+    This is cache-independent: it always queries the API (no TTL
+    short-circuit) and neither reads nor writes the redirect cache.
+    Results are keyed by the original (sent) title.
+
+    Each sent title ``T`` is canonicalized via ``query.normalized`` before
+    classification, because both ``redirects[].from`` and ``pages[].title``
+    use the canonical (capitalized) form.  It is then classified as:
+
+    - a redirect (entry present in ``query.redirects``) — ``to`` is the
+      first hop and ``final_to`` is the chain terminal,
+    - a full article (entry present in ``query.pages`` without
+      ``missing``/``invalid``),
+    - missing or invalid — conservatively reported as missing.
+    """
+    statuses: dict[str, _RedirectStatus] = {}
+    titles_list = list(dict.fromkeys(titles))
+    for i in range(0, len(titles_list), _cfg._API_MAX_TITLES_PER_REQUEST):
+        batch = titles_list[i : i + _cfg._API_MAX_TITLES_PER_REQUEST]
+        params: dict[str, str | int] = {
+            "format": "json",
+            "formatversion": 2,
+            "action": "query",
+            "titles": "|".join(batch),
+            "redirects": "",
+        }
+        result = await _api_request(session, params)
+        query_body = result.get("query")
+        if query_body is None:
+            for title in batch:
+                statuses[title] = _RedirectStatus(to=title, missing=True)
+            continue
+        normalized_map = {
+            n["from"]: n["to"] for n in query_body.get("normalized") or []
+        }
+        redirect_entries = {r["from"]: r for r in query_body.get("redirects") or []}
+        redirect_from_to = {
+            from_title: r.get("to", from_title)
+            for from_title, r in redirect_entries.items()
+        }
+        pages_by_title = {p.get("title", ""): p for p in query_body.get("pages") or []}
+        for title in batch:
+            canonical = normalized_map.get(title, title)
+            if canonical in redirect_from_to:
+                entry = redirect_entries[canonical]
+                first_hop = redirect_from_to[canonical]
+                statuses[title] = _RedirectStatus(
+                    to=first_hop,
+                    tofragment=entry.get("tofragment", ""),
+                    final_to=_resolve_chain_terminal(first_hop, redirect_from_to),
+                )
+                continue
+            page = pages_by_title.get(canonical)
+            if page is None or page.get("missing") or page.get("invalid"):
+                statuses[title] = _RedirectStatus(to=title, missing=True)
+            else:
+                statuses[title] = _RedirectStatus(to=title)
+    return statuses
 
 
 async def _resolve_image_metadata(

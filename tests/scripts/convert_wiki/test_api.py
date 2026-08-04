@@ -15,11 +15,12 @@ import pytest
 from aiohttp import ClientSession
 from anyio import Path
 from bs4 import BeautifulSoup
+from yarl import URL
 
 from scripts.convert_wiki import api as _mod
 from scripts.convert_wiki import config
 from scripts.convert_wiki.config import _CACHE_TTL
-from scripts.convert_wiki.types import _RedirectInfo
+from scripts.convert_wiki.types import _RedirectInfo, _RedirectStatus
 
 _SNAPSHOT_DIR = PathlibPath(__file__).resolve(strict=True).parent / "snapshots"
 
@@ -696,3 +697,341 @@ class TestResolveRedirectsWithRealResponses:
 
         # All batches should have been consumed.
         assert call_index == total_calls
+
+
+class TestFetchRedirectStatus:
+    """Tests for _fetch_redirect_status function."""
+
+    def _mock_session(self, response_data: dict[str, object]) -> object:
+        """Build a mock aiohttp session returning a single response."""
+
+        class MockResponse:
+            """Mock aiohttp response with typed interface."""
+
+            status = 200
+
+            def __init__(self, data: dict[str, object]) -> None:
+                """Store response data."""
+                self._data = data
+
+            @property
+            def headers(self) -> dict[str, str]:
+                """Return empty headers."""
+                return {}
+
+            async def json(self) -> dict[str, object]:
+                """Return stored response data."""
+                return self._data
+
+            async def __aenter__(self) -> "MockResponse":
+                """Return self as context manager."""
+                return self
+
+            async def __aexit__(self, *args: object) -> None:
+                """No-op cleanup."""
+                pass
+
+        class MockGet:
+            """Mock aiohttp get callable."""
+
+            @staticmethod
+            def __call__(url: object) -> MockResponse:
+                """Return mock response."""
+                return MockResponse(response_data)
+
+        class MockSession:
+            """Mock aiohttp ClientSession."""
+
+            get = MockGet()
+
+        return MockSession()
+
+    def test_redirect_with_fragment(self) -> None:
+        """Should classify a redirect with a section fragment."""
+
+        async def run() -> None:
+            """Run the async test body."""
+            session = self._mock_session(
+                {
+                    "query": {
+                        "redirects": [
+                            {"from": "Page A", "to": "Page B", "tofragment": "sec"}
+                        ],
+                        "pages": [{"pageid": 2, "ns": 0, "title": "Page B"}],
+                    }
+                }
+            )
+            result = await _mod._fetch_redirect_status(  # noqa: SLF001
+                cast(ClientSession, session), ["Page A"]
+            )
+            assert result["Page A"] == _RedirectStatus(  # noqa: SLF001
+                to="Page B", tofragment="sec", final_to="Page B"
+            )
+
+        anyio.run(run, backend="asyncio")
+
+    def test_full_article(self) -> None:
+        """Should classify a normal page as a non-redirect."""
+
+        async def run() -> None:
+            """Run the async test body."""
+            session = self._mock_session(
+                {
+                    "query": {
+                        "redirects": [],
+                        "pages": [{"pageid": 1, "ns": 0, "title": "Page A"}],
+                    }
+                }
+            )
+            result = await _mod._fetch_redirect_status(  # noqa: SLF001
+                cast(ClientSession, session), ["Page A"]
+            )
+            assert result["Page A"] == _RedirectStatus(to="Page A")  # noqa: SLF001
+
+        anyio.run(run, backend="asyncio")
+
+    def test_missing_page(self) -> None:
+        """Should report missing pages conservatively."""
+
+        async def run() -> None:
+            """Run the async test body."""
+            session = self._mock_session(
+                {
+                    "query": {
+                        "redirects": [],
+                        "pages": [{"ns": 0, "title": "Page A", "missing": True}],
+                    }
+                }
+            )
+            result = await _mod._fetch_redirect_status(  # noqa: SLF001
+                cast(ClientSession, session), ["Page A"]
+            )
+            assert result["Page A"] == _RedirectStatus(  # noqa: SLF001
+                to="Page A", missing=True
+            )
+
+        anyio.run(run, backend="asyncio")
+
+    def test_invalid_title_treated_as_missing(self) -> None:
+        """Should treat invalid titles (e.g. namespace-only) as missing."""
+
+        async def run() -> None:
+            """Run the async test body."""
+            session = self._mock_session(
+                {
+                    "query": {
+                        "redirects": [],
+                        "pages": [
+                            {
+                                "ns": 1,
+                                "title": "Talk:",
+                                "invalid": True,
+                                "invalidreason": "The requested page title is empty.",
+                            }
+                        ],
+                    }
+                }
+            )
+            result = await _mod._fetch_redirect_status(  # noqa: SLF001
+                cast(ClientSession, session), ["Talk:"]
+            )
+            assert result["Talk:"] == _RedirectStatus(to="Talk:", missing=True)  # noqa: SLF001
+
+        anyio.run(run, backend="asyncio")
+
+    def test_lowercase_first_letter_redirect_matches_normalized_from(self) -> None:
+        """Should canonicalize the sent title before matching redirects[].from.
+
+        The API echoes the normalized (capitalized) title in redirects[].from,
+        so a sent title like ``time series analysis`` must be canonicalized
+        via query.normalized before it can match the redirect entry.
+        """
+
+        async def run() -> None:
+            """Run the async test body."""
+            session = self._mock_session(
+                {
+                    "query": {
+                        "normalized": [
+                            {
+                                "from": "time series analysis",
+                                "to": "Time series analysis",
+                            }
+                        ],
+                        "redirects": [
+                            {"from": "Time series analysis", "to": "Time series"}
+                        ],
+                        "pages": [{"pageid": 3, "ns": 0, "title": "Time series"}],
+                    }
+                }
+            )
+            result = await _mod._fetch_redirect_status(  # noqa: SLF001
+                cast(ClientSession, session), ["time series analysis"]
+            )
+            assert result["time series analysis"] == _RedirectStatus(  # noqa: SLF001
+                to="Time series", final_to="Time series"
+            )
+
+        anyio.run(run, backend="asyncio")
+
+    def test_normalized_non_redirect(self) -> None:
+        """Should canonicalize a non-redirect title before page lookup."""
+
+        async def run() -> None:
+            """Run the async test body."""
+            session = self._mock_session(
+                {
+                    "query": {
+                        "normalized": [{"from": "billion", "to": "Billion"}],
+                        "redirects": [],
+                        "pages": [{"pageid": 4, "ns": 0, "title": "Billion"}],
+                    }
+                }
+            )
+            result = await _mod._fetch_redirect_status(  # noqa: SLF001
+                cast(ClientSession, session), ["billion"]
+            )
+            assert result["billion"] == _RedirectStatus(to="billion")  # noqa: SLF001
+
+        anyio.run(run, backend="asyncio")
+
+    def test_chain_redirect_final_target(self) -> None:
+        """Should resolve the chain terminal distinct from the first hop."""
+
+        async def run() -> None:
+            """Run the async test body."""
+            session = self._mock_session(
+                {
+                    "query": {
+                        "redirects": [
+                            {"from": "Page A", "to": "Page B"},
+                            {"from": "Page B", "to": "Page C"},
+                        ],
+                        "pages": [{"pageid": 5, "ns": 0, "title": "Page C"}],
+                    }
+                }
+            )
+            result = await _mod._fetch_redirect_status(  # noqa: SLF001
+                cast(ClientSession, session), ["Page A"]
+            )
+            assert result["Page A"] == _RedirectStatus(  # noqa: SLF001
+                to="Page B", final_to="Page C"
+            )
+
+        anyio.run(run, backend="asyncio")
+
+    def test_batch_split_at_limit(self) -> None:
+        """Should issue one request per batch of 50 titles."""
+
+        titles = [f"Page {i}" for i in range(51)]
+        request_count = 0
+        sent_titles: list[str] = []
+
+        class MockResponse:
+            """Mock aiohttp response returning a query body."""
+
+            status = 200
+
+            def __init__(self, data: dict[str, object]) -> None:
+                """Store response data."""
+                self._data = data
+
+            @property
+            def headers(self) -> dict[str, str]:
+                """Return empty headers."""
+                return {}
+
+            async def json(self) -> dict[str, object]:
+                """Return stored response data."""
+                return self._data
+
+            async def __aenter__(self) -> "MockResponse":
+                """Return self as context manager."""
+                return self
+
+            async def __aexit__(self, *args: object) -> None:
+                """No-op cleanup."""
+                pass
+
+        class MockGet:
+            """Mock aiohttp get callable."""
+
+            @staticmethod
+            def __call__(url: object) -> MockResponse:
+                """Record request, return all titles as full articles."""
+                nonlocal request_count, sent_titles
+                request_count += 1
+                batch = URL(str(url)).query.get("titles", "").split("|")
+                sent_titles.extend(batch)
+                return MockResponse(
+                    {
+                        "query": {
+                            "redirects": [],
+                            "pages": [
+                                {"pageid": i, "ns": 0, "title": t}
+                                for i, t in enumerate(batch, start=1)
+                            ],
+                        }
+                    }
+                )
+
+        class MockSession:
+            """Mock aiohttp ClientSession."""
+
+            get = MockGet()
+
+        async def run() -> None:
+            """Run the async test body."""
+            result = await _mod._fetch_redirect_status(  # noqa: SLF001
+                cast(ClientSession, MockSession()), titles
+            )
+            assert request_count == 2
+            assert len(sent_titles) == 51
+            assert len(result) == 51
+            assert result["Page 0"].to == "Page 0"
+            assert result["Page 50"].to == "Page 50"
+
+        anyio.run(run, backend="asyncio")
+
+    def test_sent_title_that_is_chain_intermediate(self) -> None:
+        """Should classify a chain intermediate sent directly as a redirect."""
+
+        async def run() -> None:
+            """Run the async test body."""
+            session = self._mock_session(
+                {
+                    "query": {
+                        "redirects": [
+                            {"from": "Page B", "to": "Page C"},
+                            {"from": "Page A", "to": "Page B"},
+                        ],
+                        "pages": [{"pageid": 6, "ns": 0, "title": "Page C"}],
+                    }
+                }
+            )
+            result = await _mod._fetch_redirect_status(  # noqa: SLF001
+                cast(ClientSession, session), ["Page A", "Page B"]
+            )
+            assert result["Page A"] == _RedirectStatus(  # noqa: SLF001
+                to="Page B", final_to="Page C"
+            )
+            assert result["Page B"] == _RedirectStatus(  # noqa: SLF001
+                to="Page C", final_to="Page C"
+            )
+
+        anyio.run(run, backend="asyncio")
+
+    def test_unclassifiable_defaults_to_missing(self) -> None:
+        """Should default conservatively when a title appears in neither list."""
+
+        async def run() -> None:
+            """Run the async test body."""
+            session = self._mock_session({"query": {"redirects": [], "pages": []}})
+            result = await _mod._fetch_redirect_status(  # noqa: SLF001
+                cast(ClientSession, session), ["Page A"]
+            )
+            assert result["Page A"] == _RedirectStatus(  # noqa: SLF001
+                to="Page A", missing=True
+            )
+
+        anyio.run(run, backend="asyncio")
