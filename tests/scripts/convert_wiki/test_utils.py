@@ -3,6 +3,11 @@
 These tests cover the pure helper functions used throughout the package.
 """
 
+from os import PathLike
+
+import pytest
+from anyio import Path as AnyioPath
+
 from scripts.convert_wiki import utils as _mod
 from scripts.convert_wiki.config import _NAMES_MAP
 
@@ -98,6 +103,125 @@ class TestMarkdownFragment:
         """Should prepend # to non-empty fragments."""
         result = _mod._markdown_fragment("section")  # noqa: SLF001
         assert result.startswith("#")
+
+
+class TestCreateRedirectSymlinks:
+    """Tests for the _create_redirect_symlinks function."""
+
+    @pytest.mark.anyio
+    async def test_missing_creates_lang_and_mirror(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Should create both symlinks when neither exists."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "to page"
+        )
+
+        lang_link = lang_dir / "from page.md"
+        mirror = wiki_dir / "from page.md"
+        assert await lang_link.is_symlink()
+        assert str(await lang_link.readlink()) == "to page.md"
+        assert await mirror.is_symlink()
+        assert str(await mirror.readlink()) == "eng/from page.md"
+
+    @pytest.mark.anyio
+    async def test_retargets_stale_symlink(self, tmp_path: PathLike[str]) -> None:
+        """Should retarget an existing symlink pointing elsewhere."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        lang_link = lang_dir / "from page.md"
+        await lang_link.symlink_to("old target.md", target_is_directory=False)
+        await (wiki_dir / "from page.md").symlink_to(
+            "eng/from page.md", target_is_directory=False
+        )
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "new target"
+        )
+
+        assert await lang_link.is_symlink()
+        assert str(await lang_link.readlink()) == "new target.md"
+        # Top-level mirror must remain intact.
+        assert await (wiki_dir / "from page.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_same_target_is_noop(self, tmp_path: PathLike[str]) -> None:
+        """Should leave a symlink with the matching target untouched."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        lang_link = lang_dir / "from page.md"
+        await lang_link.symlink_to("to page.md", target_is_directory=False)
+        await (wiki_dir / "from page.md").symlink_to(
+            "eng/from page.md", target_is_directory=False
+        )
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "to page"
+        )
+
+        assert str(await lang_link.readlink()) == "to page.md"
+        assert await lang_link.is_symlink()
+
+    @pytest.mark.anyio
+    async def test_real_file_is_untouched(self, tmp_path: PathLike[str]) -> None:
+        """Should never replace a real file at the redirect path."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        real_file = lang_dir / "from page.md"
+        await real_file.write_text("precious content")
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "to page"
+        )
+
+        assert not await real_file.is_symlink()
+        assert await real_file.read_text() == "precious content"
+        # The top-level mirror is still created.
+        assert await (wiki_dir / "from page.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_top_mirror_missing_is_created(self, tmp_path: PathLike[str]) -> None:
+        """Should create the top-level mirror when only the lang link exists."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        lang_link = lang_dir / "from page.md"
+        await lang_link.symlink_to("to page.md", target_is_directory=False)
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "to page"
+        )
+
+        mirror = wiki_dir / "from page.md"
+        assert await mirror.is_symlink()
+        assert str(await mirror.readlink()) == "eng/from page.md"
+
+    @pytest.mark.anyio
+    async def test_existing_mirror_real_file_untouched(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Should never replace a real file at the top-level mirror path."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        lang_link = lang_dir / "from page.md"
+        await lang_link.symlink_to("to page.md", target_is_directory=False)
+        mirror = wiki_dir / "from page.md"
+        await mirror.write_text("precious mirror")
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "to page"
+        )
+
+        assert not await mirror.is_symlink()
+        assert await mirror.read_text() == "precious mirror"
 
 
 class TestMarkdownLinkTarget:

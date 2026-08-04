@@ -69,21 +69,37 @@ async def _create_redirect_symlinks(
     from_filename: str,
     to_filename: str,
 ) -> None:
-    """Create redirect symlinks for a renamed page."""
+    """Create or retarget redirect symlinks for a renamed page.
+
+    The language-directory symlink ``{from_filename}.md`` is retargeted when
+    it already exists as a symlink pointing at a different file, left
+    untouched when it already points at ``{to_filename}.md``, and never
+    replaced when it is a real file.  The top-level mirror is created only
+    if missing; an existing mirror (symlink or real file) is never touched.
+    """
     wiki_dir_path = Path(wiki_dir)
     wiki_lang_dir_path = Path(wiki_lang_dir)
     redirect_file = wiki_lang_dir_path / f"{from_filename}.md"
-    if not await redirect_file.exists():
+    target = f"{to_filename}.md"
+    if await redirect_file.is_symlink():
+        if str(await redirect_file.readlink()) != target:
+            await redirect_file.unlink()
+            with suppress(FileExistsError):
+                await redirect_file.symlink_to(
+                    target,
+                    target_is_directory=False,
+                )
+    elif not await redirect_file.exists():
         with suppress(FileExistsError):
             await redirect_file.symlink_to(
-                f"{to_filename}.md",
+                target,
                 target_is_directory=False,
             )
-        with suppress(FileExistsError):
-            await (wiki_dir_path / f"{from_filename}.md").symlink_to(
-                str(redirect_file.relative_to(wiki_dir_path)),
-                target_is_directory=False,
-            )
+    with suppress(FileExistsError):
+        await (wiki_dir_path / f"{from_filename}.md").symlink_to(
+            str(redirect_file.relative_to(wiki_dir_path)),
+            target_is_directory=False,
+        )
 
 
 def _fix_filename(name: str) -> str:
