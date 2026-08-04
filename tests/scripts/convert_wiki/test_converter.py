@@ -789,6 +789,51 @@ class TestReferenceHandling:
         assert "ref-1" in result or "[1]" in result
 
     @pytest.mark.anyio
+    async def test_sup_ref_note_group(self, converter: WikiHtmlConverter) -> None:
+        """Grouped ``[note 1]`` reference links to the ``^note-1`` anchor."""
+        html = (
+            '<sup class="mw-ref reference">'
+            '<a href="#cite_note-1" data-mw-group="note">[note 1]</a>'
+            "</sup>"
+        )
+        result = await _convert(converter, html)
+        assert "(#^note-1)" in result
+
+    @pytest.mark.anyio
+    async def test_sup_ref_note_old_html(self, converter: WikiHtmlConverter) -> None:
+        """Old-style grouped reference links to ``^note-1`` via display text."""
+        html = '<sup class="reference"><a href="#cite_note-1">[note 1]</a></sup>'
+        result = await _convert(converter, html)
+        assert "(#^note-1)" in result
+
+    @pytest.mark.anyio
+    async def test_note_anchor_group(self, converter: WikiHtmlConverter) -> None:
+        """``<ol data-mw-group="note">`` items get ``^note-N`` anchors."""
+        html = (
+            '<ol class="mw-references references" data-mw-group="note">'
+            '<li id="cite_note-1">first note</li>'
+            "</ol>"
+        )
+        result = await _convert(converter, html)
+        assert '<a id="^note-1"></a>^note-1' in result
+
+    @pytest.mark.anyio
+    async def test_mixed_groups_end_to_end(self, converter: WikiHtmlConverter) -> None:
+        """Notes and citations keep distinct anchor namespaces."""
+        html = (
+            '<ol class="mw-references references" data-mw-group="note">'
+            '<li id="cite_note-1">note one</li>'
+            "</ol>"
+            '<ol class="mw-references references">'
+            '<li id="cite_note-2">citation two</li>'
+            "</ol>"
+        )
+        result = await _convert(converter, html)
+        assert '<a id="^note-1"></a>^note-1' in result
+        assert '<a id="^ref-1"></a>^ref-1' in result
+        assert result.count('<a id="^ref-1">') == 1
+
+    @pytest.mark.anyio
     async def test_refs_false_skips_reference(
         self, converter: WikiHtmlConverter
     ) -> None:

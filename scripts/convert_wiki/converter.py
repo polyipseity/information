@@ -142,9 +142,14 @@ class WikiHtmlConverter:
                 ref_link = ele.find("a", href=lambda v: v and "#cite_note-" in v)
                 if ref_link:
                     ref_content = ref_link.get_text(strip=True).strip("[]")
+                    if " " in ref_content:
+                        group, number = ref_content.split(" ", 1)
+                        fragment = f"^{group}-{number}"
+                    else:
+                        fragment = f"^ref-{ref_content}"
                     return (
                         f"<sup>[{escape_markdown(f'[{ref_content}]')}]"
-                        f"({_markdown_fragment(f'^ref-{ref_content}')})</sup>"
+                        f"({_markdown_fragment(fragment)})</sup>"
                     )
             else:
                 return ""
@@ -842,15 +847,24 @@ class WikiHtmlConverter:
         if item >= 1:
             prefix = f"{_cfg._LIST_INDENT * (len(list_stack) - 1)}{item}. "
             if str(ele.get("id", "")).startswith("cite_"):
+                group = next(
+                    (
+                        str(parent.get("data-mw-group"))
+                        for parent in ele.parents
+                        if parent.name == "ol" and parent.get("data-mw-group")
+                    ),
+                    None,
+                )
+                name = group or "ref"
 
-                def process(strings: str, item: int = item) -> str:
+                def process(strings: str, item: int = item, name: str = name) -> str:
                     """Process citation list items with anchor markers."""
                     strings = strings.lstrip("\t\n\r\x0b\x0c \xa0")
                     try:
                         idx = strings.index("\n")
                     except ValueError:
                         idx = len(strings)
-                    return f'{strings[:idx]} <a id="^ref-{item}"></a>^ref-{item}{strings[idx:].rstrip()}'
+                    return f'{strings[:idx]} <a id="^{name}-{item}"></a>^{name}-{item}{strings[idx:].rstrip()}'
 
                 return _HandlerConfig(
                     prefix=prefix,
