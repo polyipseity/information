@@ -207,7 +207,7 @@ return chain.from_iterable([r.value for r in results])
 
 - _(begin)_→::@::←[NiMH](nickel–metal%20hydride%20battery.md) <!--SR:!2027-04-24,1068,330!2027-07-07,1213,350-->
 - [NiMH](nickel–metal%20hydride%20battery.md)→::@::←[lead–acid](lead–acid%20battery.md) <!--SR:!2030-07-15,1856,310!2028-05-19,1460,350-->
-- [lead–acid](lead–acid%20battery.md)→::@::←[lithium-ion](lithium-ion%20battery.md) <!--SR:!2026-08-25,890,330!2026-12-18,976,330-->
+- [lead–acid](lead–acid%20battery.md)→::@::←[lithium-ion](lithium-ion%20battery.md) <!--SR:!fsrs,2032-09-09T00:00:00.000Z,2206,2205.79386327,2.49272837,2,11,0,0,2026-08-26T00:00:00.000Z!2026-12-18,976,330-->
 - [lithium-ion](lithium-ion%20battery.md)→::@::←_(end)_ <!--SR:!2028-05-28,1469,350!2027-06-28,1204,350-->
 
 <!--/pytextgen-->

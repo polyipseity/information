@@ -56,7 +56,7 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 - _Orthogonality_: ::@:: Vectors are orthogonal if their inner product vanishes: $\langle u,v\rangle=0$. <!--SR:!2027-01-28,318,345!2027-03-20,363,364-->
 - _Circles and spheres_: ::@:: The set $\{x\in V : \|x-x_c\| = r\}$ describes a circle (or hypersphere) centered at $x_c$ with radius $r$. <!--SR:!2027-02-24,341,345!2027-02-16,334,345-->
 
-{@{A sequence $(v_n)$}@} {@{converges to $v$ in an inner product space}@} iff {@{$\|v_n - v\|\to 0$}@}. Equivalently, for {@{every $\varepsilon>0$}@} there exists {@{$N$ such that $n>N\Rightarrow \|v_n-v\|<\varepsilon$}@}, ensuring {@{the familiar topological notion of limits}@} within {@{this geometric framework}@}. <!--SR:!2027-01-24,314,345!2027-03-14,357,364!2027-02-05,325,345!2027-02-10,330,345!2026-08-25,199,325!2027-02-23,340,345!2027-02-17,335,345-->
+{@{A sequence $(v_n)$}@} {@{converges to $v$ in an inner product space}@} iff {@{$\|v_n - v\|\to 0$}@}. Equivalently, for {@{every $\varepsilon>0$}@} there exists {@{$N$ such that $n>N\Rightarrow \|v_n-v\|<\varepsilon$}@}, ensuring {@{the familiar topological notion of limits}@} within {@{this geometric framework}@}. <!--SR:!2027-01-24,314,345!2027-03-14,357,364!2027-02-05,325,345!2027-02-10,330,345!fsrs,2029-02-04T00:00:00.000Z,893,892.52825833,1,2,9,0,0,2026-08-26T00:00:00.000Z!2027-02-23,340,345!2027-02-17,335,345-->
 
 ### energy
 

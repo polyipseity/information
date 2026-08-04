@@ -147,7 +147,7 @@ The content is in teaching order.
         - ways of thinking / blocks / cultural ::@:: embarrassment, fear of failure, uncomfortable with fantasy or intuition <!--SR:!fsrs,2033-04-14T00:00:00.000Z,2425,2425.12366976,1,2,10,0,0,2026-08-24T00:00:00.000Z!2026-08-31,540,402-->
         - ways of thinking / blocks / emotional ::@:: control is good and chaos is bad, no support for new ideas, not supposed to have fun <!--SR:!fsrs,2033-04-09T00:00:00.000Z,2421,2421.16938923,1,2,10,0,0,2026-08-23T00:00:00.000Z!2033-05-01,2524,422-->
         - ways of thinking / blocks / intellectual ::@:: expert belief, inflexible style, wrong information <!--SR:!fsrs,2033-01-07T00:00:00.000Z,2350,2349.83313843,1,2,10,0,0,2026-08-02T00:00:00.000Z!fsrs,2032-10-29T00:00:00.000Z,2294,2294.13440223,1,2,10,0,0,2026-07-19T00:00:00.000Z-->
-        - ways of thinking / blocks / perceptual ::@:: choosing too tight a view, difficulty isolating, stereotyping <!--SR:!2026-08-25,535,402!fsrs,2032-11-23T00:00:00.000Z,2314,2314.0489373,1,2,10,0,0,2026-07-24T00:00:00.000Z-->
+        - ways of thinking / blocks / perceptual ::@:: choosing too tight a view, difficulty isolating, stereotyping <!--SR:!fsrs,2033-04-24T00:00:00.000Z,2433,2433.02921712,1,2,10,0,0,2026-08-26T00:00:00.000Z!fsrs,2032-11-23T00:00:00.000Z,2314,2314.0489373,1,2,10,0,0,2026-07-24T00:00:00.000Z-->
 
 ## week 8 tutorial
 

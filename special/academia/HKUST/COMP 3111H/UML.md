@@ -35,7 +35,7 @@ A class is drawn by {@{a rectangle box with 3 sections \(from top to bottom\)}@}
 
 There are {@{many objects in the application domain}@}. Classes allow us to {@{_abstract_ a collection of objects}@} that {@{_share semantics_}@}. This reduce {@{development _complexity_}@} by allowing {@{better understanding and specification}@}. It is {@{an important _design decision_}@} that helps {@{promote _modular development_}@}. Note as {@{a design decision}@}, there is not {@{the single "correct" way to model a system}@}. <!--SR:!2026-12-08,328,342!2026-11-21,311,342!2027-02-05,384,361!2026-10-28,297,342!2026-11-19,309,342!2026-11-05,305,342!2026-11-10,310,342!2026-11-21,311,342!2027-01-25,375,361-->
 
-{@{Better _understanding_}@} comes from {@{reduced complexity}@}, as {@{collections of many objects}@} become {@{a few classes}@}. We only need to understand {@{the class instead of the collection of objects \(instances\)}@}. <!--SR:!2026-08-25,248,330!2026-11-02,302,342!2027-03-15,410,370!2026-11-02,302,342!2027-02-26,393,361-->
+{@{Better _understanding_}@} comes from {@{reduced complexity}@}, as {@{collections of many objects}@} become {@{a few classes}@}. We only need to understand {@{the class instead of the collection of objects \(instances\)}@}. <!--SR:!fsrs,2029-08-29T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-08-26T00:00:00.000Z!2026-11-02,302,342!2027-03-15,410,370!2026-11-02,302,342!2027-02-26,393,361-->
 
 {@{Better _specification_}@} comes from {@{UML requiring details of the classes}@}. These details provide {@{a _common_ place to define and store _common_ definitions exactly once}@}. <!--SR:!2027-03-17,412,370!2027-03-21,416,370!2027-02-07,386,361-->
 

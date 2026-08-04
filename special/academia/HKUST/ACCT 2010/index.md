@@ -212,7 +212,7 @@ The content is in teaching order.
 - [accounts receivable](../../../../general/accounts%20receivable.md)
 - [accounts payable](../../../../general/accounts%20payable.md)
 - determining amounts ::@:: Sometimes, the amount to record in a transaction is not the full amount. <!--SR:!2031-04-21,1864,396!2026-10-10,543,403-->
-    - determining amounts / interest ::@:: $$\text{principal} \times \text{rate} \times \text{duration}$$ <!--SR:!2026-08-25,505,403!2026-08-26,504,396-->
+    - determining amounts / interest ::@:: $$\text{principal} \times \text{rate} \times \text{duration}$$ <!--SR:!fsrs,2032-12-26T00:00:00.000Z,2314,2314.0489373,1,2,10,0,0,2026-08-26T00:00:00.000Z!2026-08-26,504,396-->
     - determining amounts / long-term expense ::@:: $$\text{total cost} \times \frac {\text{using duration} } {\text{total duration} }$$ <!--SR:!fsrs,2032-11-21T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-08-19T00:00:00.000Z!2026-09-11,520,403-->
 
 ## week 5 lecture 2

@@ -19,7 +19,7 @@ tags:
 
 - HKUST COMP 3031
 
-{@{__Scala__}@} is {@{a strongly statically typed high-level general-purpose programming language}@} that supports {@{both object-oriented programming and functional programming}@}. <!--SR:!2026-08-25,264,330!2026-08-26,266,330!fsrs,2029-10-24T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-08-24T00:00:00.000Z-->
+{@{__Scala__}@} is {@{a strongly statically typed high-level general-purpose programming language}@} that supports {@{both object-oriented programming and functional programming}@}. <!--SR:!fsrs,2029-10-30T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-08-26T00:00:00.000Z!2026-08-26,266,330!fsrs,2029-10-24T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-08-24T00:00:00.000Z-->
 
 ## entry points
 
@@ -159,7 +159,7 @@ When {@{a generic function is invoked}@}, the compiler examines {@{the concrete 
 >
 > The compiler {@{infers `T` to be `Int` or `Boolean`}@} respectively by inspecting {@{the type of the argument}@}. <!--SR:!2028-06-02,787,440!2028-11-14,926,449!2028-09-11,862,449!2028-11-25,937,460!2028-11-08,920,460-->
 
-The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}. In general, there are {@{many possible `T`}@} that {@{makes the generic function call type-checks}@}, and the compiler {@{chooses the most specific one}@}: <!--SR:!2027-10-08,582,415!2028-09-10,861,449!2028-05-21,776,440!2028-05-12,769,440!2028-07-01,790,440!fsrs,2029-09-23T00:00:00.000Z,1127,1126.76629501,1,2,9,0,0,2026-08-23T00:00:00.000Z!2026-08-25,223,475!2026-08-25,223,475-->
+The compiler {@{infers `T`}@} by inspecting {@{the type of the argument}@}. {@{This inference mechanism}@} {@{reduces verbosity and keeps code concise}@}, while still guaranteeing that {@{the resulting list's element type matches the supplied value}@}. In general, there are {@{many possible `T`}@} that {@{makes the generic function call type-checks}@}, and the compiler {@{chooses the most specific one}@}: <!--SR:!2027-10-08,582,415!2028-09-10,861,449!2028-05-21,776,440!2028-05-12,769,440!2028-07-01,790,440!fsrs,2029-09-23T00:00:00.000Z,1127,1126.76629501,1,2,9,0,0,2026-08-23T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1140,1140.01978295,1,2,9,0,0,2026-08-26T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1140,1140.01978295,1,2,9,0,0,2026-08-26T00:00:00.000Z-->
 
 > [!example]
 >
@@ -809,7 +809,7 @@ Scala supports {@{expressions}@}, including {@{arithmetic expressions}@}. {@{Par
 
 Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> then <expr if true> else <expr if false>`}@}. `<predicate>` is {@{always evaluated}@}. If {@{it is `true`}@}, then {@{`<expr if true>` is evaluated}@}. Else, {@{`<expr if false>` is evaluated}@}. <!--SR:!2026-09-17,283,330!2026-09-19,285,330!fsrs,2029-10-05T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-08-20T00:00:00.000Z!fsrs,2029-06-12T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-21T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-08-04T00:00:00.000Z!2026-09-05,273,330-->
 
-Scala supports {@{logical expressions}@}. They are {@{as in Java}@}, and includes {@{`true`, `false`, `!<expr>`, `<expr 1> && <expr 2>`, and `<expr 1> || <expr 2>`}@}. Evaluation uses {@{short circuiting}@}: If {@{`<expr 1>` evaluates to `true`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> || <expr 2>`}@}; if {@{`<expr 1>` evaluates to `false`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> && <expr 2>`}@}. <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-07-24T00:00:00.000Z!2026-08-29,268,330!fsrs,2029-06-07T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-07-20T00:00:00.000Z!2026-09-28,292,330!2026-09-29,293,330!2026-08-25,265,330!2026-09-02,271,330!2026-08-27,266,330-->
+Scala supports {@{logical expressions}@}. They are {@{as in Java}@}, and includes {@{`true`, `false`, `!<expr>`, `<expr 1> && <expr 2>`, and `<expr 1> || <expr 2>`}@}. Evaluation uses {@{short circuiting}@}: If {@{`<expr 1>` evaluates to `true`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> || <expr 2>`}@}; if {@{`<expr 1>` evaluates to `false`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> && <expr 2>`}@}. <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-07-24T00:00:00.000Z!2026-08-29,268,330!fsrs,2029-06-07T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-07-20T00:00:00.000Z!2026-09-28,292,330!2026-09-29,293,330!fsrs,2029-11-03T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-08-26T00:00:00.000Z!2026-09-02,271,330!2026-08-27,266,330-->
 
 Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2026-09-10,277,330!fsrs,2029-09-06T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-08-11T00:00:00.000Z-->
 
@@ -1169,7 +1169,7 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 > ```
 <!--SR:!2028-11-10,922,449!2028-06-02,787,440!2028-10-02,886,449-->
 
-{@{Another form of _for_}@} that has {@{a nested generator}@}: <!--SR:!2028-10-20,904,449!2026-08-25,223,475-->
+{@{Another form of _for_}@} that has {@{a nested generator}@}: <!--SR:!2028-10-20,904,449!fsrs,2029-10-09T00:00:00.000Z,1140,1140.01978295,1,2,9,0,0,2026-08-26T00:00:00.000Z-->
 
 > [!example] __rewriting `for` nested generators__
 >

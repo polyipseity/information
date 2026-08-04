@@ -321,7 +321,7 @@ Similarly, it has been suggested that {@{the crystallization and growth}@} of {@
 
 Markov chains are used in {@{various areas of biology}@}. Notable examples include: <!--SR:!2027-11-11,806,339-->
 
-- [Phylogenetics](phylogenetics.md) and [bioinformatics](bioinformatics.md), ::@:: where most [models of DNA evolution](models%20of%20DNA%20evolution.md) use continuous-time Markov chains to describe the [nucleotide](nucleotide.md) present at a given site in the [genome](genome.md). <!--SR:!2031-08-08,1924,379!2026-08-25,465,327-->
+- [Phylogenetics](phylogenetics.md) and [bioinformatics](bioinformatics.md), ::@:: where most [models of DNA evolution](models%20of%20DNA%20evolution.md) use continuous-time Markov chains to describe the [nucleotide](nucleotide.md) present at a given site in the [genome](genome.md). <!--SR:!2031-08-08,1924,379!fsrs,2031-10-21T00:00:00.000Z,1882,1881.66708751,1,2,10,0,0,2026-08-26T00:00:00.000Z-->
 - [Population dynamics](population%20dynamics.md), ::@:: where Markov chains are in particular a central tool in the theoretical study of [matrix population models](matrix%20population%20models.md). <!--SR:!2030-02-02,1477,361!2031-01-30,1794,387-->
 - [Neurobiology](neuroscience.md),::@:: where Markov chains have been used, e.g., to simulate the mammalian neocortex.<sup>[\[69\]](#^ref-69)</sup> <!--SR:!2027-11-29,834,341!2031-09-26,1975,387-->
 - [Systems biology](systems%20biology.md), ::@:: for instance with the modeling of viral infection of single cells.<sup>[\[70\]](#^ref-70)</sup> <!--SR:!2031-10-19,1996,387!2029-11-19,1408,361-->

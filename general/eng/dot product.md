@@ -80,7 +80,7 @@ If {@{$\mathbf {e} _{1},\cdots ,\mathbf {e} _{n}$ are the [standard basis vector
 
 > {@{![Vector components in an orthonormal basis](../../archives/Wikimedia%20Commons/Skalarprodukt%20geometrisch.svg)}@}
 >
-> {@{Vector components in an orthonormal basis}@} <!--SR:!fsrs,2031-11-30T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-07-23T00:00:00.000Z!2026-08-25,440,383-->
+> {@{Vector components in an orthonormal basis}@} <!--SR:!fsrs,2031-11-30T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-07-23T00:00:00.000Z!fsrs,2032-04-09T00:00:00.000Z,2053,2053.1371477,1,2,10,0,0,2026-08-26T00:00:00.000Z-->
 
 Also, by {@{the geometric definition}@}, {@{for any vector $\mathbf {e} _{i}$ and a vector $\mathbf {a}$}@}, we note that {@{$$\mathbf {a} \cdot \mathbf {e} _{i}=\left\|\mathbf {a} \right\|\left\|\mathbf {e} _{i}\right\|\cos \theta _{i}=\left\|\mathbf {a} \right\|\cos \theta _{i}=a_{i},$$}@} where {@{$a_{i}$ is the component of vector $\mathbf {a}$ in the direction of $\mathbf {e} _{i}$}@}. {@{The last step in the equality}@} can be seen from the figure. <!--SR:!fsrs,2031-12-20T00:00:00.000Z,1972,1971.9126144,1,2,10,0,0,2026-07-27T00:00:00.000Z!fsrs,2031-12-22T00:00:00.000Z,1972,1971.9126144,1,2,10,0,0,2026-07-29T00:00:00.000Z!2026-08-31,446,383!2026-09-22,466,383!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z-->
 
@@ -167,7 +167,7 @@ This notion can be {@{generalized to [square-integrable functions](square-integr
 
 For example, if {@{$f$ and $g$ are [continuous functions](continuous%20function.md)}@} over {@{a [compact subset](compact%20space.md) $K$ of $\mathbb {R} ^{n}$ with the standard [Lebesgue measure](Lebesgue%20measure.md)}@}, the above definition becomes: {@{$$\left\langle f,g\right\rangle =\int _{K}f(\mathbf {x} )g(\mathbf {x} )\,\operatorname {d} ^{n}\mathbf {x} .$$}@} <!--SR:!fsrs,2032-03-25T00:00:00.000Z,2041,2040.98347043,1,2,10,0,0,2026-08-23T00:00:00.000Z!fsrs,2031-12-05T00:00:00.000Z,1960,1959.6876961,1,2,10,0,0,2026-07-24T00:00:00.000Z!fsrs,2031-12-05T00:00:00.000Z,1960,1959.6876961,1,2,10,0,0,2026-07-24T00:00:00.000Z-->
 
-Generalized further to {@{[complex continuous functions](complex%20function.md) $\psi$ and $\chi$}@}, by {@{analogy with the complex inner product}@} above, gives: {@{$$\left\langle \psi ,\chi \right\rangle =\int _{K}\psi (z){\overline {\chi (z)} }\,{\text{d} }z.$$}@} <!--SR:!2026-08-25,440,383!fsrs,2031-12-05T00:00:00.000Z,1960,1959.6876961,1,2,10,0,0,2026-07-24T00:00:00.000Z!fsrs,2031-12-27T00:00:00.000Z,1976,1975.98530461,1,2,10,0,0,2026-07-30T00:00:00.000Z-->
+Generalized further to {@{[complex continuous functions](complex%20function.md) $\psi$ and $\chi$}@}, by {@{analogy with the complex inner product}@} above, gives: {@{$$\left\langle \psi ,\chi \right\rangle =\int _{K}\psi (z){\overline {\chi (z)} }\,{\text{d} }z.$$}@} <!--SR:!fsrs,2032-04-09T00:00:00.000Z,2053,2053.1371477,1,2,10,0,0,2026-08-26T00:00:00.000Z!fsrs,2031-12-05T00:00:00.000Z,1960,1959.6876961,1,2,10,0,0,2026-07-24T00:00:00.000Z!fsrs,2031-12-27T00:00:00.000Z,1976,1975.98530461,1,2,10,0,0,2026-07-30T00:00:00.000Z-->
 
 ### weight function
 

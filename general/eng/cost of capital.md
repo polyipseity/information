@@ -71,7 +71,7 @@ When companies {@{borrow funds from outside lenders}@}, {@{the interest paid on 
 
 ## cost of equity
 
-- Main article: ::@:: [Cost of equity](cost%20of%20equity.md) <!--SR:!fsrs,2029-07-11T00:40:32.145Z,1131,1131.12970674,1,2,9,0,0,2026-06-06T00:40:32.145Z!2026-08-25,320,350-->
+- Main article: ::@:: [Cost of equity](cost%20of%20equity.md) <!--SR:!fsrs,2029-07-11T00:40:32.145Z,1131,1131.12970674,1,2,9,0,0,2026-06-06T00:40:32.145Z!fsrs,2030-08-30T00:00:00.000Z,1465,1465.02564741,1,2,9,0,0,2026-08-26T00:00:00.000Z-->
 
 {@{The [cost](cost.md) of equity}@} is {@{_inferred_ by comparing the investment to other investments \(comparable\) with similar risk profiles}@}. It is commonly computed using {@{the [capital asset pricing model](capital%20asset%20pricing%20model.md) formula}@}: <!--SR:!fsrs,2029-07-05T00:39:01.046Z,1125,1124.97355739,1,2,9,0,0,2026-06-06T00:39:01.046Z!2029-04-17,1072,350!fsrs,2030-01-05T00:00:00.000Z,1263,1263.3108468,1,2,9,0,0,2026-07-22T00:00:00.000Z-->
 

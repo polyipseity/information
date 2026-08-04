@@ -8,7 +8,7 @@ tags:
 
 # fractional distillation
 
-__Fractional distillation__ {@{is a form of [distillation](distillation.md) that separates a [mixture](mixture.md) into [fractions](fraction%20(chemistry).md)}@}. It {@{heats the mixture to a [temperature](temperature.md) at which some fractions [vaporize](vaporize.md)}@}. It is used when the components have [boiling points](boiling%20point.md) that {@{differ by less than 25 °C (45 °F) under a [pressure](pressure.md) of one [atmosphere](atmosphere%20(unit).md)}@}. Otherwise, {@{[simple distillation](simple%20distillation.md)}@} is used. <!--SR:!2031-01-12,1928,270!2026-08-25,593,190!fsrs,2033-06-15T00:00:00.000Z,2494,2493.52246892,2.98092302,2,11,0,0,2026-08-17T00:00:00.000Z!2027-01-22,997,330-->
+__Fractional distillation__ {@{is a form of [distillation](distillation.md) that separates a [mixture](mixture.md) into [fractions](fraction%20(chemistry).md)}@}. It {@{heats the mixture to a [temperature](temperature.md) at which some fractions [vaporize](vaporize.md)}@}. It is used when the components have [boiling points](boiling%20point.md) that {@{differ by less than 25 °C (45 °F) under a [pressure](pressure.md) of one [atmosphere](atmosphere%20(unit).md)}@}. Otherwise, {@{[simple distillation](simple%20distillation.md)}@} is used. <!--SR:!2031-01-12,1928,270!fsrs,2030-02-11T00:00:00.000Z,1265,1265.02186485,6.98338322,2,10,0,0,2026-08-26T00:00:00.000Z!fsrs,2033-06-15T00:00:00.000Z,2494,2493.52246892,2.98092302,2,11,0,0,2026-08-17T00:00:00.000Z!2027-01-22,997,330-->
 
 ## references
 

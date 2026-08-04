@@ -542,4 +542,4 @@ Do you really need to remember these _exactly_? ::@:: Not really... The approxim
 
 - standard cost card ::@:: column headers, row headers <!--SR:!2027-11-12,743,420!2027-09-13,692,420-->
     - standard cost card / column headers ::@:: manufacturing costs, standard quantity, standard price/rate, standard unit cost <!--SR:!2027-08-29,679,420!2027-04-22,540,400-->
-    - standard cost card / row headers ::@:: direct materials, direct labor, variable overhead, fixed overhead, standard manufacturing cost per unit <!--SR:!2027-10-10,716,420!2026-08-25,378,400-->
+    - standard cost card / row headers ::@:: direct materials, direct labor, variable overhead, fixed overhead, standard manufacturing cost per unit <!--SR:!2027-10-10,716,420!fsrs,2031-07-31T00:00:00.000Z,1800,1799.72250525,1,2,10,0,0,2026-08-26T00:00:00.000Z-->
