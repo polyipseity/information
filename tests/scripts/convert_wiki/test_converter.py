@@ -468,6 +468,22 @@ class TestBoldItalicHandling:
         assert "d<!-- markdown separator -->_n_" in result
 
     @pytest.mark.anyio
+    async def test_minus_emphasis_no_marker(self, converter: WikiHtmlConverter) -> None:
+        """U+2212 MINUS SIGN before emphasis needs no separator marker."""
+        result = await _convert(converter, "<p>\u2212<i>i</i></p>")
+        assert "\u2212_i_" in result
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_middle_dot_emphasis_no_marker(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """U+00B7 MIDDLE DOT needs no separator marker around emphasis."""
+        result = await _convert(converter, "<p>x\u00b7<i>f</i>(x)</p>")
+        assert "x\u00b7_f_\\(x\\)" in result
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
     async def test_strong(self, converter: WikiHtmlConverter) -> None:
         """``<strong>`` should render as bold."""
         result = await _convert(converter, "<strong>strong</strong>")

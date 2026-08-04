@@ -1173,8 +1173,11 @@ class TestSeparateBlockMath:
         assert _separate_block_math("$x$ is inline") == "$x$ is inline"
 
     def test_inline_math_adjacency_spaced(self) -> None:
-        """Inline math ``$x$`` adjacent to text → spacing added."""
-        assert _separate_block_math("text$x$more") == "text $x$ more"
+        """Inline math ``$x$`` adjacent to text → markdown separator inserted."""
+        assert (
+            _separate_block_math("text$x$more")
+            == "text<!-- markdown separator -->$x$<!-- markdown separator -->more"
+        )
 
     def test_code_span_dollars_untouched(self) -> None:
         """``$$`` inside a code span → not modified."""

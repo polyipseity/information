@@ -115,6 +115,13 @@ def _determine_needs_before(
     if inline and prev["type"] in ("softbreak", "linebreak"):
         # A line break is already whitespace separation.
         return False
+    if (
+        inline
+        and prev["type"] == "inline_html"
+        and prev.get("raw") == _cfg._MARKDOWN_SEPARATOR
+    ):
+        # Our own separator marker already provides the separation.
+        return False
     return True
 
 
@@ -138,12 +145,19 @@ def _determine_needs_after(
     if inline and next_["type"] in ("softbreak", "linebreak"):
         # A line break is already whitespace separation.
         return False
+    if (
+        inline
+        and next_["type"] == "inline_html"
+        and next_.get("raw") == _cfg._MARKDOWN_SEPARATOR
+    ):
+        # Our own separator marker already provides the separation.
+        return False
     return True
 
 
 def _collect_block_math_info(
     tokens: list[dict[str, Any]],
-) -> list[tuple[str, bool, bool]]:
+) -> list[tuple[str, bool, bool, bool]]:
     """Deep-walk the AST and collect info about every math node.
 
     Both ``block_math`` (``$$…$$``) and ``inline_math`` (``$…$``) nodes are
@@ -152,10 +166,10 @@ def _collect_block_math_info(
     separated by newlines.  Only math inside a paragraph or similar
     container is a candidate for whitespace insertion.
 
-    Returns a list of ``(raw, needs_before, needs_after)`` tuples ordered by
-    document position.
+    Returns a list of ``(raw, needs_before, needs_after, is_inline)`` tuples
+    ordered by document position.
     """
-    info: list[tuple[str, bool, bool]] = []
+    info: list[tuple[str, bool, bool, bool]] = []
 
     for token, depth, parents in _walk_tokens(tokens, None):
         if token["type"] not in ("block_math", "inline_math"):
@@ -174,11 +188,11 @@ def _collect_block_math_info(
                 del _state
                 if isinstance(result, str):
                     # Parse error — treat as normal standalone.
-                    info.append((raw, False, False))
+                    info.append((raw, False, False, False))
                 else:
                     para = result[0] if isinstance(result, list) else None
                     if para is None or para.get("type") != "paragraph":
-                        info.append((raw, False, False))
+                        info.append((raw, False, False, False))
                     else:
                         children: list[dict[str, Any]] = para.get("children", [])
                         prev_is_block_math = False
@@ -197,10 +211,12 @@ def _collect_block_math_info(
                                 # separator space — avoid double spacing.
                                 needs_before = False
                             needs_after = _determine_needs_after(next_sib)
-                            info.append((child["raw"], needs_before, needs_after))
+                            info.append(
+                                (child["raw"], needs_before, needs_after, False)
+                            )
                             prev_is_block_math = True
             else:
-                info.append((token["raw"], False, False))
+                info.append((token["raw"], False, False, False))
         else:
             parent = parents[-1]
             parent_children = parent.get("children", [])
@@ -214,33 +230,50 @@ def _collect_block_math_info(
                     token["raw"],
                     _determine_needs_before(prev_sib, inline=is_inline),
                     _determine_needs_after(next_sib, inline=is_inline),
+                    is_inline,
                 )
             )
 
     return info
 
 
-def _scan_and_apply(
-    text: str, info: Sequence[tuple[str, bool, bool] | tuple[str, bool, bool, bool]]
-) -> str:
+"""Matches inline-math raw text that is a single atomic symbol."""
+_IS_ATOMIC_INLINE_MATH_RE = re.compile(r"[^\s\\/()[\]{}^_|]+")
+
+
+def _inline_math_separator(raw: str) -> str:
+    """Return the separator for an inline-math span.
+
+    Atomic math (a single run of plain characters such as ``n``, ``x``, or a
+    Greek letter) abutting a word gets the zero-width markdown separator
+    marker; anything else (``\\frac``, ``1/|w|``, ``f(x)``, ``e^{...}``)
+    keeps a normal space so the two sides do not visually collide.
+    """
+    if _IS_ATOMIC_INLINE_MATH_RE.fullmatch(raw):
+        return _cfg._MARKDOWN_SEPARATOR
+    return " "
+
+
+def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> str:
     """Scan *text* for math spans matching each entry in *info*.
 
     For each entry in *info* (ordered by document position), the source is
-    scanned left-to-right for a matching span.  Entries are either
-    ``(raw, needs_before, needs_after)`` block entries (``$${raw}$$``) or
-    ``(raw, needs_before, needs_after, is_inline)`` entries (a trailing
-    flag, accepted for compatibility and otherwise unused).  The delimiter
-    is probed directly: ``$${raw}$$`` at a ``$$`` position, ``${raw}$`` at
-    a single-``$`` position.  When found, the ``needs_before`` /
-    ``needs_after`` flags control whether a space is inserted.  Non-matching
-    ``$$…$$`` regions are skipped whole; stray single ``$`` are consumed one
-    at a time.
+    scanned left-to-right for a matching span.  Each entry is a
+    ``(raw, needs_before, needs_after, is_inline)`` tuple; ``is_inline``
+    selects the separator: inline math that is a single atomic symbol gets
+    the zero-width markdown separator marker, everything else gets a space.
+    The delimiter is probed directly: ``$${raw}$$`` at a ``$$`` position,
+    ``${raw}$`` at a single-``$`` position.  When found, the
+    ``needs_before`` / ``needs_after`` flags control whether a separator is
+    inserted.  Non-matching ``$$…$$`` regions are skipped whole; stray
+    single ``$`` are consumed one at a time.
     """
     parts: list[str] = []
     pos = 0
 
     for entry in info:
-        raw, needs_before, needs_after = entry[:3]
+        raw, needs_before, needs_after, is_inline = entry
+        separator = _inline_math_separator(raw) if is_inline else " "
         target = "$$" + raw + "$$"
         target_len = len(target)
 
@@ -256,10 +289,10 @@ def _scan_and_apply(
                 ):
                     parts.append(text[pos:dollar_pos])
                     if needs_before:
-                        parts.append(" ")
+                        parts.append(separator)
                     parts.append(target)
                     if needs_after:
-                        parts.append(" ")
+                        parts.append(separator)
                     pos = dollar_pos + target_len
                     break
                 close_pos = text.find("$$", dollar_pos + 2)
@@ -273,10 +306,10 @@ def _scan_and_apply(
                 if text.startswith(target_inline, dollar_pos):
                     parts.append(text[pos:dollar_pos])
                     if needs_before:
-                        parts.append(" ")
+                        parts.append(separator)
                     parts.append(target_inline)
                     if needs_after:
-                        parts.append(" ")
+                        parts.append(separator)
                     pos = dollar_pos + len(target_inline)
                     break
                 parts.append(text[pos : dollar_pos + 1])

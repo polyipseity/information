@@ -51,8 +51,6 @@ _COLLAPSE_SPACES_REGEX = re.compile(r" {2,}")
 _PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
 """Whitespace and separator chars for sidebar tight wrapping."""
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
-"""Markdown separator character set used for emphasis adjacency."""
-_MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
 
 
 class WikiHtmlConverter:
@@ -462,9 +460,9 @@ class WikiHtmlConverter:
         prefix = f"{bold_str}{italic_str}"
         suffix = f"{italic_str}{bold_str}"
         if self._needs_separator_before(self._effective_sibling(ele, following=False)):
-            prefix = f"{_MARKDOWN_SEPARATOR}{prefix}"
+            prefix = f"{_cfg._MARKDOWN_SEPARATOR}{prefix}"
         if self._needs_separator_after(self._effective_sibling(ele, following=True)):
-            suffix += _MARKDOWN_SEPARATOR
+            suffix += _cfg._MARKDOWN_SEPARATOR
 
         config = _HandlerConfig(prefix=prefix, suffix=suffix, full_result=False)
 

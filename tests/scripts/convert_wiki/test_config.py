@@ -9,7 +9,8 @@ from os import PathLike
 from anyio import Path
 
 from scripts.convert_wiki import config as _mod
-from scripts.convert_wiki.converter import _HEADER_REGEX, _MARKDOWN_SEPARATOR
+from scripts.convert_wiki.config import _MARKDOWN_SEPARATOR
+from scripts.convert_wiki.converter import _HEADER_REGEX
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -94,9 +95,12 @@ class TestConstants:
         assert _mod._PAGE_DOES_NOT_EXIST_SUFFIX == " (page does not exist)"  # noqa: SLF001
 
     def test_markdown_separator_character_content(self) -> None:
-        """_MARKDOWN_SEPARATOR_CHARACTERS should contain underscores and slashes removed."""
+        """_MARKDOWN_SEPARATOR_CHARACTERS should exclude content chars and include unicode signs."""
         assert "/" not in _mod._MARKDOWN_SEPARATOR_CHARACTERS  # noqa: SLF001
         assert "_" not in _mod._MARKDOWN_SEPARATOR_CHARACTERS  # noqa: SLF001
+        assert "\u2212" in _mod._MARKDOWN_SEPARATOR_CHARACTERS  # noqa: SLF001
+        assert "\u00b7" in _mod._MARKDOWN_SEPARATOR_CHARACTERS  # noqa: SLF001
+        assert "\u2013" in _mod._MARKDOWN_SEPARATOR_CHARACTERS  # noqa: SLF001
 
 
 class TestWithCwd:

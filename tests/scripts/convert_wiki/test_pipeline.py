@@ -22,6 +22,7 @@ from anyio import Path
 from bs4 import BeautifulSoup
 
 from scripts.convert_wiki.ast_utils import _MISTUNE_PARSER
+from scripts.convert_wiki.config import _UNICODE_SEPARATOR_CHARACTERS
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.pipeline import (
     _collect_block_math_info,
@@ -183,12 +184,13 @@ class TestCollectBlockMathInfo:
         """Single standalone ``$$f(x)$$`` at top level → no spacing needed."""
         tokens = _parse("$$f(x)$$")
         info = _collect_block_math_info(tokens)
-        # Standalone (depth=0) gets (raw, False, False)
+        # Standalone (depth=0) gets (raw, False, False, False)
         assert len(info) == 1
-        raw, needs_before, needs_after = info[0]
+        raw, needs_before, needs_after, is_inline = info[0]
         assert raw == "f(x)"
         assert needs_before is False
         assert needs_after is False
+        assert is_inline is False
 
     def test_single_block_math_inside_paragraph(self) -> None:
         """Block math inside a paragraph → spacing determined by siblings."""
@@ -196,8 +198,9 @@ class TestCollectBlockMathInfo:
         info = _collect_block_math_info(tokens)
         assert len(info) >= 1
         # Should be inside a paragraph (depth > 0)
-        for raw, needs_before, needs_after in info:
+        for raw, needs_before, needs_after, is_inline in info:
             if raw == "f(x)":
+                assert is_inline is False
                 assert needs_before is False  # "text " ends with space
                 assert needs_after is False  # " more" starts with space
 
@@ -206,8 +209,9 @@ class TestCollectBlockMathInfo:
         tokens = _parse("text$$f(x)$$more")
         info = _collect_block_math_info(tokens)
         assert len(info) >= 1
-        for raw, needs_before, needs_after in info:
+        for raw, needs_before, needs_after, is_inline in info:
             if raw == "f(x)":
+                assert is_inline is False
                 assert needs_before is True  # "text" has no trailing space
                 assert needs_after is True  # "more" has no leading space
 
@@ -248,27 +252,27 @@ class TestScanAndApply:
 
     def test_insert_space_before(self) -> None:
         """``needs_before=True`` → space inserted before ``$$…$$``."""
-        result = _scan_and_apply("text$$f(x)$$", [("f(x)", True, False)])
+        result = _scan_and_apply("text$$f(x)$$", [("f(x)", True, False, False)])
         assert result == "text $$f(x)$$"
 
     def test_insert_space_after(self) -> None:
         """``needs_after=True`` → space inserted after ``$$…$$``."""
-        result = _scan_and_apply("$$f(x)$$more", [("f(x)", False, True)])
+        result = _scan_and_apply("$$f(x)$$more", [("f(x)", False, True, False)])
         assert result == "$$f(x)$$ more"
 
     def test_insert_space_both(self) -> None:
         """Both flags True → spaces on both sides."""
-        result = _scan_and_apply("text$$f(x)$$more", [("f(x)", True, True)])
+        result = _scan_and_apply("text$$f(x)$$more", [("f(x)", True, True, False)])
         assert result == "text $$f(x)$$ more"
 
     def test_no_spaces(self) -> None:
         """Both flags False → no spaces inserted."""
-        result = _scan_and_apply("text $$f(x)$$ more", [("f(x)", False, False)])
+        result = _scan_and_apply("text $$f(x)$$ more", [("f(x)", False, False, False)])
         assert result == "text $$f(x)$$ more"
 
     def test_math_span_does_not_match(self) -> None:
         """If the math span is not found, trailing text is appended as-is."""
-        result = _scan_and_apply("text $$g(y)$$", [("f(x)", True, False)])
+        result = _scan_and_apply("text $$g(y)$$", [("f(x)", True, False, False)])
         # The "f(x)" entry won't match "g(y)", so everything after pos is appended.
         assert result == "text $$g(y)$$"
 
@@ -276,7 +280,7 @@ class TestScanAndApply:
         """Multiple math blocks → each gets spacing based on its flags."""
         result = _scan_and_apply(
             "a$$f$$b$$g$$c",
-            [("f", True, True), ("g", True, True)],
+            [("f", True, True, False), ("g", True, True, False)],
         )
         assert result == "a $$f$$ b $$g$$ c"
 
@@ -284,7 +288,7 @@ class TestScanAndApply:
         """Multiple blocks with different flag combinations."""
         result = _scan_and_apply(
             "a$$one$$b$$two$$c",
-            [("one", True, False), ("two", False, True)],
+            [("one", True, False, False), ("two", False, True, False)],
         )
         assert result == "a $$one$$b$$two$$ c"
 
@@ -293,17 +297,27 @@ class TestInlineMathSpacing:
     """Tests for inline ``$...$`` spacing (S3: same list as emphasis)."""
 
     def test_abutting_word(self) -> None:
-        """Inline math abutting words gets spaces on both sides."""
+        """Atomic inline math abutting words gets the zero-width marker.
+
+        Complex math (``$1/|w|$``) still keeps a plain space so the
+        original ``$\\frac{1}{|\\omega|}$ against`` fix is preserved.
+        """
         assert (
             _separate_block_math("testing $1/|w|$against") == "testing $1/|w|$ against"
         )
-        assert _separate_block_math("before$f$word") == "before $f$ word"
+        assert (
+            _separate_block_math("before$f$word")
+            == "before<!-- markdown separator -->$f$<!-- markdown separator -->word"
+        )
 
     def test_joiner_punctuation_unchanged(self) -> None:
         """Joiner-wrapped math before punctuation gets no space."""
         text = "function \u2060$f(x)$\u2060, defined"
         assert _separate_block_math(text) == text
-        assert _separate_block_math("\u2060$f$\u2060word") == "\u2060$f$ \u2060word"
+        assert (
+            _separate_block_math("\u2060$f$\u2060word")
+            == "\u2060$f$<!-- markdown separator -->\u2060word"
+        )
 
     def test_punctuation_adjacent_no_space(self) -> None:
         """Math adjacent to punctuation gets no space."""
@@ -312,17 +326,23 @@ class TestInlineMathSpacing:
 
     def test_slash_underscore_like_emphasis(self) -> None:
         """``/`` and ``_`` are content, matching emphasis parity."""
-        assert _separate_block_math("$x$/3") == "$x$ /3"
-        assert _separate_block_math("$x$_n") == "$x$ _n"
+        assert _separate_block_math("$x$/3") == "$x$<!-- markdown separator -->/3"
+        assert _separate_block_math("$x$_n") == "$x$<!-- markdown separator -->_n"
 
     def test_inline_math_in_block_unchanged(self) -> None:
-        """Block and inline each spaced once — no double insertion."""
+        """Block and inline each spaced once — no double insertion.
+
+        ``$x$`` is atomic, so it gets the zero-width marker on both sides.
+        """
         assert _separate_block_math("a $$f$$ b $x$ c") == "a $$f$$ b $x$ c"
-        assert _separate_block_math("a$$f$$b$x$c") == "a $$f$$ b $x$ c"
+        assert (
+            _separate_block_math("a$$f$$b$x$c")
+            == "a $$f$$ b<!-- markdown separator -->$x$<!-- markdown separator -->c"
+        )
 
     def test_scan_and_apply_dollar_region_skipped(self) -> None:
         """``$$...$$`` regions are never matched as single-``$`` spans."""
-        result = _scan_and_apply("$$f$$", [("f", False, False)])
+        result = _scan_and_apply("$$f$$", [("f", False, False, False)])
         assert result == "$$f$$"
         result = _scan_and_apply("$f$$f$", [("f", False, False, True)])
         assert result == "$f$$f$"
@@ -340,6 +360,43 @@ class TestInlineMathSpacing:
     def test_inline_math_softbreak_before_no_space(self) -> None:
         """A line break before inline math needs no extra space."""
         assert _separate_block_math("para\n$x$ next") == "para\n$x$ next"
+
+    def test_word_suffix_single_symbol_marker(self) -> None:
+        """``$n$th`` word suffix gets the zero-width marker, not a space."""
+        assert (
+            _separate_block_math("the $n$th derivative")
+            == "the $n$<!-- markdown separator -->th derivative"
+        )
+
+    def test_complex_math_word_abutting_keeps_space(self) -> None:
+        """Complex math abutting a word keeps a plain space."""
+        assert _separate_block_math(r"$\frac{1}{2}$against") == r"$\frac{1}{2}$ against"
+
+    def test_function_call_math_keeps_space(self) -> None:
+        """``f(x)``-style math abutting words keeps spaces (non-atomic)."""
+        assert _separate_block_math("word$f(x)$word") == "word $f(x)$ word"
+
+    def test_marker_idempotent(self) -> None:
+        """Re-running on marker'd output inserts nothing (inline_html guard)."""
+        assert (
+            _separate_block_math("the $n$<!-- markdown separator -->th derivative")
+            == "the $n$<!-- markdown separator -->th derivative"
+        )
+        assert (
+            _separate_block_math("before<!-- markdown separator -->$f$ word")
+            == "before<!-- markdown separator -->$f$ word"
+        )
+
+    @pytest.mark.parametrize("sign", list(_UNICODE_SEPARATOR_CHARACTERS))
+    def test_unicode_signs_no_space(self, sign: str) -> None:
+        """Unicode math signs join the shared separator list — no spacing."""
+        assert _separate_block_math(f"{sign}$x$") == f"{sign}$x$"
+        assert _separate_block_math(f"$x${sign}") == f"$x${sign}"
+
+    def test_minus_before_fraction(self) -> None:
+        """U+2212 MINUS SIGN before a fraction needs no space."""
+        text = "\u03c4 < \u2212$\\frac{a}{2\\pi}$"
+        assert _separate_block_math(text) == text
 
 
 # =========================================================================

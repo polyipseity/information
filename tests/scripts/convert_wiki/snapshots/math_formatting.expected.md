@@ -60,17 +60,29 @@ Inline math in table cell containing a bare pipe character.
 
 Inline math abutting words on both sides \(no source spaces\).
 
-word $x$ word
+word<!-- markdown separator -->$x$<!-- markdown separator -->word
 
-$y$ word
+$y$<!-- markdown separator -->word
+
+## INLINE\_WORD\_SUFFIX
+
+Atomic inline math with a word suffix — zero-width marker joins them.
+
+the $n$<!-- markdown separator -->th derivative
+
+## INLINE\_MINUS\_SIGN
+
+U+2212 MINUS SIGN before inline math — no separator needed.
+
+−$x$
 
 ## INLINE\_JOINER\_PUNCT
 
 Joiner-wrapped inline math: no space before punctuation, space before a word.
 
-text⁠ $x$⁠, defined
+text⁠<!-- markdown separator -->$x$⁠, defined
 
-⁠$y$ ⁠word
+⁠$y$<!-- markdown separator -->⁠word
 
 ## INLINE\_PUNCT\_ADJACENT
 
