@@ -10,7 +10,7 @@ description = "Personal Markdown knowledge base"
 license = { file = "LICENSE.txt" }
 readme = "README.md"
 dependencies = [
-  "aiohttp>=3.14.1",
+  "aiohttp>=3.14.3",
   "anyio>=4.14.1",
   "asyncer>=0.0.18",
   "asyncstdlib>=3.10.0",
