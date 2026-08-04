@@ -193,6 +193,24 @@ The agent __must ask the user__ to provide at least two of the three flashcard c
 - __Attribution__: Preserve the Wikipedia source URL in frontmatter or as an HTML comment.
 - __Editing rules__: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules when editing imported notes.
 
+## Maintenance: update redirect symlinks
+
+Wikipedia redirects change over time: a redirect may retarget, become a full article, or a full article may become a redirect. Run this maintenance mode to reconcile the redirect symlinks in `general/` against the live Wikipedia API:
+
+__Command__: `uv run -m scripts.convert_wiki --update-redirects`
+
+- Scans every language subdirectory of `general/` for `*.md` symlinks
+- Retargets symlinks whose Wikipedia redirect target changed (prefers the final target of a redirect chain when the first hop is not ingested locally)
+- Removes symlinks for titles that became full articles
+- Leaves missing pages and real files untouched — an article that became a redirect is never changed
+- Refreshes the redirect cache so subsequent ingestion stays consistent
+
+Add `--dry-run` to report what would change without modifying anything:
+
+__Command__: `uv run -m scripts.convert_wiki --update-redirects --dry-run`
+
+The `--dry-run` flag has no effect without `--update-redirects`. The report prints scan/retarget/remove/keep counts and the list of changed titles to stdout.
+
 ## Reference: name_map mechanism in `convert_wiki.py`
 
 The name_map is a `dict[str, str]` that maps Wikipedia page titles (or variants) to
