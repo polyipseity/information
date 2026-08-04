@@ -22,6 +22,7 @@ from scripts.convert_wiki import config
 from scripts.convert_wiki.config import _CACHE_TTL
 from scripts.convert_wiki.types import _RedirectInfo, _RedirectStatus
 
+"""Directory of snapshot input and expected files."""
 _SNAPSHOT_DIR = PathlibPath(__file__).resolve(strict=True).parent / "snapshots"
 
 """Public API of this test module (empty: no symbols are exported)."""

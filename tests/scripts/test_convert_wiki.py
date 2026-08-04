@@ -1462,6 +1462,7 @@ class TestFilterTableCells:
     def test_filter_cells(
         self, input_str: str, total_colspan: int, expected: str
     ) -> None:
+        """Filter cells according to the parametrized case."""
         result = TableConverter._filter_table_cells(
             input_str, total_colspan=total_colspan
         )

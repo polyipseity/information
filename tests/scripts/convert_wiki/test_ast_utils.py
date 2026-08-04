@@ -58,27 +58,32 @@ class TestMistuneParser:
     """Smoke tests for the shared parser."""
 
     def test_parse_plain_text(self) -> None:
+        """Plain text parses to a non-empty token list."""
         tokens = _parse("hello world")
         assert isinstance(tokens, list)
         assert len(tokens) >= 1
 
     def test_parse_blockquote(self) -> None:
+        """A blockquote parses with a ``block_quote`` token."""
         tokens = _parse("> quote\n>\n> more")
         types = [t["type"] for t in tokens]
         assert "block_quote" in types
 
     def test_parse_block_math(self) -> None:
+        """Block math parses with a ``block_math`` token."""
         tokens = _parse("$$a = b$$")
         types = [t["type"] for t in tokens]
         assert "block_math" in types
 
     def test_parse_table(self) -> None:
+        """A pipe table parses with a ``table`` token."""
         text = "|a|b|\n|-|-|\n|c|d|"
         tokens = _parse(text)
         types = [t["type"] for t in tokens]
         assert "table" in types
 
     def test_parse_blank_line(self) -> None:
+        """Blank lines between blockquotes parse as ``blank_line`` tokens."""
         text = "> a\n\n> b"
         tokens = _parse(text)
         types = [t["type"] for t in tokens]
@@ -94,38 +99,47 @@ class TestReconstructTokenRaw:
     """Coverage for ``_reconstruct_token_raw`` on various token types."""
 
     def test_text_leaf(self) -> None:
+        """A text leaf reconstructs to its raw text."""
         token = {"type": "text", "raw": "hello"}
         assert _reconstruct_token_raw(token) == "hello"
 
     def test_block_math(self) -> None:
+        """A ``block_math`` token reconstructs to its raw text."""
         token = {"type": "block_math", "raw": "a = b"}
         assert _reconstruct_token_raw(token) == "a = b"
 
     def test_inline_math(self) -> None:
+        """An ``inline_math`` token reconstructs to its raw text."""
         token = {"type": "inline_math", "raw": "a^2"}
         assert _reconstruct_token_raw(token) == "a^2"
 
     def test_codespan(self) -> None:
+        """A ``codespan`` token reconstructs to its raw text."""
         token = {"type": "codespan", "raw": "code"}
         assert _reconstruct_token_raw(token) == "code"
 
     def test_linebreak(self) -> None:
+        """A ``linebreak`` token reconstructs to its raw text."""
         token = {"type": "linebreak", "raw": "  "}
         assert _reconstruct_token_raw(token) == "  "
 
     def test_block_code(self) -> None:
+        """A ``block_code`` token reconstructs to its raw text."""
         token = {"type": "block_code", "raw": "print('hi')"}
         assert _reconstruct_token_raw(token) == "print('hi')"
 
     def test_thematic_break(self) -> None:
+        """A ``thematic_break`` token reconstructs to ``***``."""
         token = {"type": "thematic_break"}
         assert _reconstruct_token_raw(token) == "***"
 
     def test_blank_line_none(self) -> None:
+        """A ``blank_line`` token reconstructs to ``None``."""
         token = {"type": "blank_line"}
         assert _reconstruct_token_raw(token) is None
 
     def test_strong(self) -> None:
+        """A ``strong`` token wraps its children in ``**``."""
         token = {
             "type": "strong",
             "children": [{"type": "text", "raw": "bold"}],
@@ -133,6 +147,7 @@ class TestReconstructTokenRaw:
         assert _reconstruct_token_raw(token) == "**bold**"
 
     def test_emphasis(self) -> None:
+        """An ``emphasis`` token wraps its children in ``*``."""
         token = {
             "type": "emphasis",
             "children": [{"type": "text", "raw": "italic"}],
@@ -140,6 +155,7 @@ class TestReconstructTokenRaw:
         assert _reconstruct_token_raw(token) == "*italic*"
 
     def test_paragraph_with_text_children(self) -> None:
+        """A paragraph with text children reconstructs to plain text."""
         token = {
             "type": "paragraph",
             "children": [{"type": "text", "raw": "Hello world"}],
@@ -147,6 +163,7 @@ class TestReconstructTokenRaw:
         assert _reconstruct_token_raw(token) == "Hello world"
 
     def test_paragraph_with_mixed_children(self) -> None:
+        """A paragraph with mixed children reconstructs them in order."""
         token = {
             "type": "paragraph",
             "children": [
@@ -157,6 +174,7 @@ class TestReconstructTokenRaw:
         assert _reconstruct_token_raw(token) == "Hello **world**"
 
     def test_block_quote_single_paragraph(self) -> None:
+        """A single-paragraph blockquote reconstructs with a ``> `` prefix."""
         # Single paragraph inside blockquote: "> text"
         token = {
             "type": "block_quote",
@@ -172,6 +190,7 @@ class TestReconstructTokenRaw:
         assert "> quoted text" in result
 
     def test_block_quote_multiple_paragraphs(self) -> None:
+        """A multi-paragraph blockquote keeps the ``> `` prefixes."""
         # Two paragraphs: "> p1\n>\n> p2"
         token = {
             "type": "block_quote",
@@ -195,18 +214,22 @@ class TestReconstructTokenRaw:
         assert ">" in result
 
     def test_block_quote_no_children(self) -> None:
+        """A childless ``block_quote`` token reconstructs to ``None``."""
         token = {"type": "block_quote"}
         assert _reconstruct_token_raw(token) is None
 
     def test_unknown_type_no_children(self) -> None:
+        """An unknown token type without children reconstructs to ``None``."""
         token = {"type": "unknown_type"}
         assert _reconstruct_token_raw(token) is None
 
     def test_paragraph_no_children(self) -> None:
+        """A childless ``paragraph`` token reconstructs to ``None``."""
         token = {"type": "paragraph"}
         assert _reconstruct_token_raw(token) is None
 
     def test_paragraph_all_none_children(self) -> None:
+        """A paragraph whose children yield no raw text reconstructs to ``None``."""
         token = {
             "type": "paragraph",
             "children": [{"type": "blank_line"}],
@@ -223,6 +246,7 @@ class TestWalkTokens:
     """Tests for recursive token walking."""
 
     def test_flat_list(self) -> None:
+        """Walks a flat token list including children."""
         tokens = [
             {"type": "paragraph", "children": [{"type": "text", "raw": "a"}]},
             {"type": "paragraph", "children": [{"type": "text", "raw": "b"}]},
@@ -236,6 +260,7 @@ class TestWalkTokens:
         assert "text" in types
 
     def test_filter_type(self) -> None:
+        """Filters walked tokens by token type."""
         tokens = [
             {"type": "paragraph", "children": [{"type": "text", "raw": "a"}]},
             {"type": "block_quote", "children": []},
@@ -245,6 +270,7 @@ class TestWalkTokens:
         assert result[0][0]["type"] == "text"
 
     def test_depth_tracking(self) -> None:
+        """Tracks the nesting depth of each walked token."""
         tokens = [
             {
                 "type": "block_quote",
@@ -261,6 +287,7 @@ class TestWalkTokens:
             assert 0 <= depth <= 2
 
     def test_parents_tracking(self) -> None:
+        """Tracks the parent chain of each walked token."""
         text = "> quoted"
         parsed_tokens = _parse(text)
         result = list(_walk_tokens(parsed_tokens, token_type="text"))
@@ -280,6 +307,7 @@ class TestFindTopLevelAdjacent:
     """Tests for adjacency detection."""
 
     def test_single_pair(self) -> None:
+        """Finds a single pair of blockquotes separated by one blank line."""
         tokens = [
             {"type": "block_quote", "children": []},
             {"type": "blank_line"},
@@ -289,6 +317,7 @@ class TestFindTopLevelAdjacent:
         assert result == [(0, 2)]
 
     def test_three_adjacent(self) -> None:
+        """Finds both pairs among three adjacent blockquotes."""
         tokens = [
             {"type": "block_quote", "children": []},
             {"type": "blank_line"},
@@ -300,6 +329,7 @@ class TestFindTopLevelAdjacent:
         assert result == [(0, 2), (2, 4)]
 
     def test_not_adjacent(self) -> None:
+        """Blockquotes separated by a paragraph are not adjacent."""
         tokens = [
             {"type": "block_quote", "children": []},
             {"type": "paragraph", "children": []},
@@ -309,6 +339,7 @@ class TestFindTopLevelAdjacent:
         assert result == []
 
     def test_single_target(self) -> None:
+        """A lone blockquote with no partner yields no pairs."""
         tokens = [
             {"type": "block_quote", "children": []},
             {"type": "paragraph", "children": []},
@@ -317,10 +348,12 @@ class TestFindTopLevelAdjacent:
         assert result == []
 
     def test_empty(self) -> None:
+        """An empty token list yields no pairs."""
         result = _find_top_level_adjacent([], "block_quote")
         assert result == []
 
     def test_no_targets(self) -> None:
+        """No matching tokens yields no pairs."""
         tokens = [
             {"type": "paragraph", "children": []},
             {"type": "paragraph", "children": []},
@@ -329,6 +362,7 @@ class TestFindTopLevelAdjacent:
         assert result == []
 
     def test_ignore_multiple_blanks(self) -> None:
+        """Multiple blank lines between blockquotes still count as adjacent."""
         tokens = [
             {"type": "block_quote", "children": []},
             {"type": "blank_line"},
@@ -348,6 +382,7 @@ class TestFindTopLevelAdjacent:
         assert result == [(0, 1)]
 
     def test_custom_ignore_types(self) -> None:
+        """A custom ``ignore_types`` set keeps blockquotes adjacent."""
         tokens = [
             {"type": "block_quote", "children": []},
             {"type": "thematic_break"},
@@ -359,6 +394,7 @@ class TestFindTopLevelAdjacent:
         assert result == [(0, 2)]
 
     def test_with_real_parsed_text_two_blockquotes(self) -> None:
+        """Two real parsed blockquotes yield one adjacency pair."""
         text = "> First\n\n> Second"
         tokens = _parse(text)
         result = _find_top_level_adjacent(tokens, "block_quote")
@@ -366,6 +402,7 @@ class TestFindTopLevelAdjacent:
         assert result[0] == (0, 2)
 
     def test_with_real_parsed_text_three_blockquotes(self) -> None:
+        """Three real parsed blockquotes yield two adjacency pairs."""
         text = "> A\n\n> B\n\n> C"
         tokens = _parse(text)
         result = _find_top_level_adjacent(tokens, "block_quote")
@@ -381,6 +418,7 @@ class TestFindTokenRange:
     """Byte-range finding via ``_find_token_range``."""
 
     def test_simple_paragraph(self) -> None:
+        """Finds the byte range of a simple paragraph."""
         text = "hello world"
         tokens = _parse(text)
         rng = _find_token_range(text, tokens, 0)
@@ -390,6 +428,7 @@ class TestFindTokenRange:
         assert text[start:end] == "hello world"
 
     def test_block_math(self) -> None:
+        """Finds the byte range of a ``block_math`` token."""
         text = "before\n$$\na = b\n$$\nafter"
         tokens = _parse(text)
         # Find block_math token
@@ -404,6 +443,7 @@ class TestFindTokenRange:
         pytest.fail("no block_math token found")
 
     def test_blockquote(self) -> None:
+        """Finds the byte range of a blockquote."""
         text = "> quoted content"
         tokens = _parse(text)
         rng = _find_token_range(text, tokens, 0)
@@ -412,6 +452,7 @@ class TestFindTokenRange:
         assert "quoted content" in text[start:end]
 
     def test_multiple_tokens(self) -> None:
+        """Finds disjoint, in-order ranges for multiple tokens."""
         text = "para one\n\npara two\n\npara three"
         tokens = _parse(text)
         # Find paragraphs at indices 0, 2, 4 (with blank_lines at 1 and 3)
@@ -433,6 +474,7 @@ class TestFindTokenRange:
         assert end1 <= start2
 
     def test_adjacent_blockquotes_find_second(self) -> None:
+        """Finds the range of the second of two adjacent blockquotes."""
         text = "> First\n\n> Second"
         tokens = _parse(text)
         # Find both block_quote tokens
@@ -454,6 +496,7 @@ class TestInjectAfterToken:
     """Text insertion via ``_inject_after_token``."""
 
     def test_inject_after_paragraph(self) -> None:
+        """Inserts text after a paragraph token."""
         text = "hello"
         tokens = _parse(text)
         result = _inject_after_token(text, tokens, 0, " world")
@@ -491,6 +534,7 @@ class TestInjectAfterToken:
         assert "[2]" in r2
 
     def test_inject_after_blockquote(self) -> None:
+        """Inserts a new paragraph after a blockquote token."""
         text = "> quote"
         tokens = _parse(text)
         result = _inject_after_token(text, tokens, 0, "\nnew paragraph")
@@ -505,6 +549,7 @@ class TestInjectAfterToken:
         assert result == text
 
     def test_inject_at_end_with_newline(self) -> None:
+        """A multi-line insertion after an early token leaves later content intact."""
         text = "para one\n\npara two"
         tokens = _parse(text)
         result = _inject_after_token(text, tokens, 0, "\n\n> inserted")
@@ -521,6 +566,7 @@ class TestEdgeCases:
     """Corner cases across multiple functions."""
 
     def test_no_adjacent_blockquotes(self) -> None:
+        """Blockquotes separated by a regular paragraph yield no pairs."""
         text = "> A\n\nRegular paragraph\n\n> B"
         tokens = _parse(text)
         pairs = _find_top_level_adjacent(tokens, "block_quote")
@@ -545,6 +591,7 @@ class TestEdgeCases:
         assert result.count("<!-- markdownlint MD028 -->") == 2
 
     def test_walk_tokens_with_real_markdown(self) -> None:
+        """Walks real Markdown and finds the expected token types."""
         text = "> **bold quote** and `code`"
         tokens = _parse(text)
         all_tokens = list(_walk_tokens(tokens))
@@ -554,12 +601,14 @@ class TestEdgeCases:
         assert "text" in types
 
     def test_find_token_range_out_of_bounds(self) -> None:
+        """An out-of-bounds token index yields ``None``."""
         text = "hello"
         tokens = _parse(text)
         result = _find_token_range(text, tokens, 999)
         assert result is None
 
     def test_find_token_range_blank_line(self) -> None:
+        """A ``blank_line`` token yields ``None`` for its range."""
         text = "> A\n\n> B"
         tokens = _parse(text)
         # blank_line has no raw — finding range should return None
@@ -580,28 +629,34 @@ class TestAllMathRanges:
     """Tests for math span range finding."""
 
     def test_no_math(self) -> None:
+        """Plain text without math yields no ranges."""
         assert _all_math_ranges("plain text") == []
 
     def test_empty_string(self) -> None:
+        """An empty string yields no ranges."""
         assert _all_math_ranges("") == []
 
     def test_inline_math(self) -> None:
+        """Finds the range of an inline math expression."""
         result = _all_math_ranges("text $a^2 + b^2$ more")
         assert len(result) == 1
         start, end = result[0]
         assert "a^2 + b^2" in "text $a^2 + b^2$ more"[start:end]
 
     def test_block_math(self) -> None:
+        """Finds the range of a block math expression."""
         result = _all_math_ranges("before\n$$\na = b\n$$\nafter")
         assert len(result) == 1
         start, end = result[0]
         assert "a = b" in "before\n$$\na = b\n$$\nafter"[start:end]
 
     def test_multiple_inline_math(self) -> None:
+        """Finds one range per inline math expression."""
         result = _all_math_ranges("$a$ and $b$ and $c$")
         assert len(result) == 3
 
     def test_parse_error(self) -> None:
+        """Malformed input that fails parsing yields no ranges."""
         # Extremely malformed input that causes parse to return a string
         result = _all_math_ranges("\x00")
         assert result == []
@@ -616,12 +671,15 @@ class TestAllCodeSpanRanges:
     """Tests for code span range finding."""
 
     def test_no_code(self) -> None:
+        """Plain text without code spans yields no ranges."""
         assert _all_code_span_ranges("plain text") == []
 
     def test_empty_string(self) -> None:
+        """An empty string yields no ranges."""
         assert _all_code_span_ranges("") == []
 
     def test_single_code_span(self) -> None:
+        """Finds the range of a single code span."""
         text = "text `code` more"
         result = _all_code_span_ranges(text)
         assert len(result) == 1
@@ -629,10 +687,12 @@ class TestAllCodeSpanRanges:
         assert text[start:end] == "code"
 
     def test_multiple_code_spans(self) -> None:
+        """Finds one range per code span."""
         result = _all_code_span_ranges("`a` and `b` and `c`")
         assert len(result) == 3
 
     def test_code_span_with_backticks(self) -> None:
+        """Finds the range of a code span containing backticks."""
         text = "`` `code` ``"
         result = _all_code_span_ranges(text)
         assert len(result) == 1
@@ -640,6 +700,7 @@ class TestAllCodeSpanRanges:
         assert "`code`" in text[start:end]
 
     def test_parse_error(self) -> None:
+        """Malformed input that fails parsing yields no ranges."""
         result = _all_code_span_ranges("\x00")
         assert result == []
 
@@ -653,27 +714,35 @@ class TestIsInSpan:
     """Tests for position-in-range checking."""
 
     def test_position_inside(self) -> None:
+        """A position inside a range is in the span."""
         assert _is_in_span(5, [(0, 10)])
 
     def test_position_before(self) -> None:
+        """A position before all ranges is not in the span."""
         assert not _is_in_span(0, [(5, 10)])
 
     def test_position_after(self) -> None:
+        """A position after all ranges is not in the span."""
         assert not _is_in_span(15, [(5, 10)])
 
     def test_multiple_ranges_middle(self) -> None:
+        """A position inside one of several ranges is in the span."""
         assert _is_in_span(12, [(0, 5), (10, 20)])
 
     def test_multiple_ranges_none(self) -> None:
+        """A position outside all ranges is not in the span."""
         assert not _is_in_span(7, [(0, 5), (10, 20)])
 
     def test_empty_ranges(self) -> None:
+        """An empty range list means no position is in the span."""
         assert not _is_in_span(5, [])
 
     def test_boundary_start(self) -> None:
+        """A position at a range start is in the span."""
         assert _is_in_span(0, [(0, 10)])
 
     def test_boundary_end_exclusive(self) -> None:
+        """A position at the exclusive range end is not in the span."""
         assert not _is_in_span(10, [(0, 10)])
 
 
@@ -686,16 +755,20 @@ class TestIsInMathSpan:
     """Tests for position-in-math-span check."""
 
     def test_inside_inline_math(self) -> None:
+        """A position inside inline math is in the math span."""
         # "$x$" starts at position 7, "x" is at position 8
         assert _is_in_math_span("before $x$ after", 8)
 
     def test_outside_math(self) -> None:
+        """A position outside math is not in the math span."""
         assert not _is_in_math_span("before $x$ after", 3)
 
     def test_no_math_at_all(self) -> None:
+        """Text without math never marks a position as in a math span."""
         assert not _is_in_math_span("plain text", 2)
 
     def test_empty_text(self) -> None:
+        """Empty text never marks a position as in a math span."""
         assert not _is_in_math_span("", 0)
 
 
@@ -708,18 +781,23 @@ class TestIsInCodeSpan:
     """Tests for position-in-code-span check."""
 
     def test_inside_code(self) -> None:
+        """A position inside a code span is in the code span."""
         assert _is_in_code_span("text `code` more", 7)
 
     def test_outside_code(self) -> None:
+        """A position outside a code span is not in the code span."""
         assert not _is_in_code_span("text `code` more", 3)
 
     def test_no_code_at_all(self) -> None:
+        """Text without code spans never marks a position as in a code span."""
         assert not _is_in_code_span("plain text", 2)
 
     def test_empty_text(self) -> None:
+        """Empty text never marks a position as in a code span."""
         assert not _is_in_code_span("", 0)
 
     def test_code_span_boundary(self) -> None:
+        """The span start is inclusive and just past the end is outside."""
         # mistune codespan raw is inner content "code" (positions 6-9)
         assert _is_in_code_span("text `code` more", 6)
         # Position just after the closing backtick is outside
@@ -735,9 +813,11 @@ class TestFindTableBlocks:
     """Tests for pipe-table block range finding via mistune AST."""
 
     def test_no_tables(self) -> None:
+        """Text without pipe tables yields no table blocks."""
         assert _find_table_blocks("plain text\n\nno pipes") == []
 
     def test_simple_table(self) -> None:
+        """A lone table spans the entire text."""
         text = "| a | b |\n|---|---|\n| 1 | 2 |"
         result = _find_table_blocks(text)
         assert len(result) == 1
@@ -748,6 +828,7 @@ class TestFindTableBlocks:
         assert end == len(text)
 
     def test_table_surrounded_by_text(self) -> None:
+        """A table between paragraphs spans only the table content."""
         text = "before\n\n| a | b |\n|---|---|\n| 1 | 2 |\n\nafter"
         result = _find_table_blocks(text)
         assert len(result) == 1
@@ -761,6 +842,7 @@ class TestFindTableBlocks:
         assert "after" not in text[start:end]
 
     def test_multiple_tables(self) -> None:
+        """Each table token yields an in-bounds block range."""
         text = "| a | b |\n|---|---|\n| 1 | 2 |\n\n| x | y |\n|---|---|\n| 3 | 4 |"
         result = _find_table_blocks(text)
         # One block per table token in the AST. When no reconstructable
@@ -772,6 +854,7 @@ class TestFindTableBlocks:
             assert 0 <= start <= end <= len(text)
 
     def test_table_with_inline_math(self) -> None:
+        """A table with inline math spans the entire text."""
         text = "| $x$ | $y$ |\n|---|---|\n| 1 | 2 |"
         result = _find_table_blocks(text)
         assert len(result) == 1
@@ -781,6 +864,7 @@ class TestFindTableBlocks:
         assert end == len(text)
 
     def test_table_with_block_math(self) -> None:
+        """Block math inside cells prevents table parsing."""
         text = "| $$a = b$$ | c |\n|---|---|---|\n| 1 | 2 |"
         result = _find_table_blocks(text)
         # Mistune does not parse `$$` inside a table cell as a table;
@@ -788,6 +872,7 @@ class TestFindTableBlocks:
         assert result == []
 
     def test_table_with_code_spans(self) -> None:
+        """Code spans containing pipes prevent table parsing."""
         text = "| `a|b` | c |\n|---|---|\n| 1 | 2 |"
         result = _find_table_blocks(text)
         # Mistune does not parse pipes inside backtick code spans as
@@ -795,6 +880,7 @@ class TestFindTableBlocks:
         assert result == []
 
     def test_table_at_start(self) -> None:
+        """A table at the start does not include trailing text."""
         text = "| a | b |\n|---|---|\n| 1 | 2 |\n\nafter"
         result = _find_table_blocks(text)
         assert len(result) == 1
@@ -806,6 +892,7 @@ class TestFindTableBlocks:
         assert end < len(text)
 
     def test_table_at_end(self) -> None:
+        """A table at the end does not include preceding text."""
         text = "before\n\n| a | b |\n|---|---|\n| 1 | 2 |"
         result = _find_table_blocks(text)
         assert len(result) == 1
@@ -816,6 +903,7 @@ class TestFindTableBlocks:
         assert "before" not in text[start:end]
 
     def test_table_in_blockquote(self) -> None:
+        """A table inside a blockquote yields empty or in-bounds ranges."""
         text = "> | a | b |\n> |---|---|\n> | 1 | 2 |"
         result = _find_table_blocks(text)
         # mistune may parse tables inside blockquotes as nested
@@ -824,6 +912,7 @@ class TestFindTableBlocks:
         assert len(result) == 0 or all(s >= 0 and e <= len(text) for s, e in result)
 
     def test_table_with_adjacent_tables_no_separator(self) -> None:
+        """Adjacent tables without separators yield in-bounds ranges."""
         text = "| a | b |\n|---|---|\n| 1 | 2 |\n\n| c | d |\n|---|---|\n| 3 | 4 |"
         result = _find_table_blocks(text)
         # Two table tokens exist but both get the same inferred range
@@ -833,3 +922,7 @@ class TestFindTableBlocks:
         assert len(result) == 2
         for start, end in result:
             assert 0 <= start <= end <= len(text)
+
+
+"""Public API of this test module (empty)."""
+__all__ = ()
