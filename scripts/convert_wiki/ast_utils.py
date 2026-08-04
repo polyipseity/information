@@ -47,6 +47,12 @@ __all__ = (
 # Shared parser
 # ---------------------------------------------------------------------------
 
+"""Mistune AST parser configured with math and table plugins.
+
+Use via ``_MISTUNE_PARSER.parse(text: str) -> tuple[list[dict], Any]``.
+The first return value is the top-level token list; the second is the
+render state (kept for future extensibility but typically unused).
+"""
 _MISTUNE_PARSER: mistune.Markdown = mistune.create_markdown(
     renderer="ast",
     plugins=[
@@ -56,14 +62,11 @@ _MISTUNE_PARSER: mistune.Markdown = mistune.create_markdown(
         _mistune_table,
     ],
 )
-"""Mistune AST parser configured with math and table plugins.
-
-Use via ``_MISTUNE_PARSER.parse(text: str) -> tuple[list[dict], Any]``.
-The first return value is the top-level token list; the second is the
-render state (kept for future extensibility but typically unused).
-"""
 
 # Token types whose children contain the actual text content (not raw).
+"""Token types that use ``children`` rather than a ``raw`` field.
+
+These need special handling in ``_reconstruct_token_raw``."""
 _TEXT_BLOCK_TYPES: frozenset[str] = frozenset(
     {
         "block_quote",
@@ -73,9 +76,6 @@ _TEXT_BLOCK_TYPES: frozenset[str] = frozenset(
         "list_item",
     }
 )
-"""Token types that use ``children`` rather than a ``raw`` field.
-
-These need special handling in ``_reconstruct_token_raw``."""
 
 # ---------------------------------------------------------------------------
 # Token -> approximate source text

@@ -418,6 +418,7 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _needs_separator_before(sibling: PageElement | None) -> bool:
+        """Whether a separator is needed before the block."""
         return (
             isinstance(sibling, NavigableString)
             and sibling.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
@@ -425,6 +426,7 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _needs_separator_after(sibling: PageElement | None) -> bool:
+        """Whether a separator is needed after the block."""
         return (
             isinstance(sibling, NavigableString)
             and sibling.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling

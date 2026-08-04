@@ -5,8 +5,6 @@ Converts HTML fragments from Wikipedia texhtml spans (``<math>`` alttext,
 LaTeX strings.
 """
 
-__all__ = ()
-
 from collections.abc import Iterable
 
 from bs4 import BeautifulSoup, NavigableString, PageElement, Tag
@@ -217,3 +215,7 @@ class LatexConverter:
             and "mw:Entity" in str(ele.get("typeof", ""))
             and "\u221a" in ele.get_text()
         )
+
+
+"""Public API of this module (empty)."""
+__all__ = ()
