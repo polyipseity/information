@@ -16,6 +16,7 @@ import pytest
 from anyio import Path as AnyioPath
 
 from scripts.convert_wiki.cli import main
+from scripts.convert_wiki.reconcile import _ReconcileReport
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -66,6 +67,16 @@ def parser() -> argparse.ArgumentParser:
         "-c",
         action="store_true",
         help="Read HTML from system clipboard (overrides --input-file).",
+    )  # noqa: E501
+    p.add_argument(
+        "--update-redirects",
+        action="store_true",
+        help="Reconcile redirect symlinks against the live API instead of converting HTML.",
+    )  # noqa: E501
+    p.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="With --update-redirects, report reconciliation actions without changing anything.",
     )  # noqa: E501
     return p
 
@@ -129,6 +140,16 @@ class TestArgumentParsing:
         """-f with short form should work."""
         args = parser.parse_args(["-f", "output.md"])
         assert args.output_file == Path("output.md")
+
+    def test_update_redirects_flag(self, parser: argparse.ArgumentParser) -> None:
+        """--update-redirects flag should be parsed."""
+        args = parser.parse_args(["--update-redirects"])
+        assert args.update_redirects is True
+
+    def test_dry_run_flag(self, parser: argparse.ArgumentParser) -> None:
+        """--dry-run flag should be parsed."""
+        args = parser.parse_args(["--dry-run"])
+        assert args.dry_run is True
 
 
 # ---------------------------------------------------------------------------
@@ -316,3 +337,88 @@ class TestMainError:
 
             with pytest.raises(TypeError, match="Clipboard does not contain HTML text"):
                 await main()
+
+
+class TestMainUpdateRedirects:
+    """Test ``main()`` with ``--update-redirects`` (maintenance mode)."""
+
+    @pytest.mark.anyio
+    async def test_update_redirects_runs_reconcile_and_skips_html(
+        self,
+        monkeypatch: pytest.MonkeyPatch,
+    ) -> None:
+        """--update-redirects should run reconciliation and skip HTML input."""
+        report = _ReconcileReport(
+            scanned=2, retargeted=1, removed=0, kept=1, changed=("A",)
+        )
+        monkeypatch.setattr(
+            "sys.argv", ["convert_wiki", "--update-redirects", "-m", "stdout"]
+        )
+
+        with (
+            patch("scripts.convert_wiki.cli.stdin") as mock_stdin,
+            patch(
+                "scripts.convert_wiki.cli.reconcile_redirect_symlinks"
+            ) as mock_reconcile,
+            patch("scripts.convert_wiki.pipeline.run_pipeline") as mock_run,
+            patch("scripts.convert_wiki.cli.print") as mock_print,
+        ):
+            mock_reconcile.return_value = report
+            await main()
+
+        mock_reconcile.assert_called_once()
+        _args, kwargs = mock_reconcile.call_args
+        assert kwargs.get("dry_run") is False
+        mock_stdin.read.assert_not_called()
+        mock_run.assert_not_called()
+        mock_print.assert_any_call(
+            "Redirect reconciliation: scanned=2, retargeted=1, removed=0, kept=1"
+        )
+        mock_print.assert_any_call("Changed: A")
+
+    @pytest.mark.anyio
+    async def test_update_redirects_dry_run_passthrough(
+        self,
+        monkeypatch: pytest.MonkeyPatch,
+    ) -> None:
+        """--dry-run should be forwarded to the reconciliation engine."""
+        report = _ReconcileReport(
+            scanned=0, retargeted=0, removed=0, kept=0, changed=()
+        )
+        monkeypatch.setattr(
+            "sys.argv", ["convert_wiki", "--update-redirects", "--dry-run"]
+        )
+
+        with patch(
+            "scripts.convert_wiki.cli.reconcile_redirect_symlinks"
+        ) as mock_reconcile:
+            mock_reconcile.return_value = report
+            await main()
+
+        mock_reconcile.assert_called_once()
+        _args, kwargs = mock_reconcile.call_args
+        assert kwargs.get("dry_run") is True
+
+    @pytest.mark.anyio
+    async def test_dry_run_alone_is_inert(
+        self,
+        minimal_html: str,
+        expected_markdown: str,
+        monkeypatch: pytest.MonkeyPatch,
+    ) -> None:
+        """--dry-run without --update-redirects should convert normally."""
+        monkeypatch.setattr("sys.argv", ["convert_wiki", "--dry-run", "-m", "stdout"])
+
+        with (
+            patch("scripts.convert_wiki.cli.stdin") as mock_stdin,
+            patch(
+                "scripts.convert_wiki.cli.reconcile_redirect_symlinks"
+            ) as mock_reconcile,
+            patch("scripts.convert_wiki.pipeline.run_pipeline") as mock_run,
+        ):
+            mock_stdin.read.return_value = minimal_html
+            mock_run.return_value = (expected_markdown, set())
+            await main()
+
+        mock_reconcile.assert_not_called()
+        mock_run.assert_called_once()

@@ -10,6 +10,7 @@ from os import fspath
 from sys import stderr, stdin
 
 import anyio
+from aiohttp import ClientSession, TCPConnector
 from anyio import Path
 from asyncer import runnify
 from bs4 import BeautifulSoup
@@ -20,6 +21,7 @@ from pyperclip import copy as clip_copy
 
 from . import config as _cfg
 from .pipeline import run_pipeline
+from .reconcile import reconcile_redirect_symlinks
 
 """Exported names from this module."""
 __all__ = ()
@@ -61,8 +63,22 @@ async def main() -> None:
         action="store_true",
         help="Read HTML from system clipboard (overrides --input-file).",
     )
+    parser.add_argument(
+        "--update-redirects",
+        action="store_true",
+        help="Reconcile redirect symlinks against the live API instead of converting HTML.",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="With --update-redirects, report reconciliation actions without changing anything.",
+    )
     args = parser.parse_args()
     refs = not args.no_refs
+
+    if args.update_redirects:
+        await _run_redirect_maintenance(dry_run=args.dry_run)
+        return
 
     if args.output_mode == "append" and args.output_file is None:
         parser.error("--output-file is required when --output-mode is append.")
@@ -135,6 +151,25 @@ async def main() -> None:
             with open(args.output_file, "a") as f:
                 f.write(output)
                 f.write("\n")
+
+
+async def _run_redirect_maintenance(*, dry_run: bool) -> None:
+    """Reconcile redirect symlinks without reading HTML input or writing output."""
+    async with ClientSession(
+        connector=TCPConnector(limit_per_host=_cfg._MAX_CONCURRENT_REQUESTS_PER_HOST),
+        headers={
+            "Accept-Encoding": "gzip",
+            "User-Agent": _cfg.USER_AGENT,
+        },
+    ) as session:
+        report = await reconcile_redirect_symlinks(session, dry_run=dry_run)
+    print(
+        f"Redirect reconciliation: scanned={report.scanned}, "
+        f"retargeted={report.retargeted}, removed={report.removed}, "
+        f"kept={report.kept}"
+    )
+    if report.changed:
+        print(f"Changed: {', '.join(report.changed)}")
 
 
 def __main__() -> None:
