@@ -108,10 +108,10 @@ class TestSymlinkCreation:
         assert not await (top_dir / "Same Page.md").is_symlink()
 
     @pytest.mark.anyio
-    async def test_symlink_not_created_when_from_exists(
+    async def test_real_lang_file_kept_but_mirror_created(
         self, tmp_path: PathLike[str]
     ) -> None:
-        """Should skip symlink creation when FROM file already exists."""
+        """Should keep a real FROM file but still create the top-level mirror."""
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
         top_dir = tmp / "general"
@@ -141,28 +141,27 @@ class TestSymlinkCreation:
             refs=True,
         )
 
-        # FROM file should remain a regular file (not a symlink)
+        # FROM file should remain a regular file (never replaced)
         assert await (lang_dir / "From Page.md").is_file()
         assert not await (lang_dir / "From Page.md").is_symlink()
-        # Top-level symlink should not exist
-        assert not await (top_dir / "From Page.md").is_symlink()
+        assert (
+            await (lang_dir / "From Page.md").read_text(encoding="UTF-8")
+            == "existing content"
+        )
+        # Top-level mirror should still be created
+        from_symlink = top_dir / "From Page.md"
+        assert await from_symlink.is_symlink()
+        assert str(await from_symlink.readlink()) == "eng/From Page.md"
 
     @pytest.mark.anyio
-    async def test_symlink_file_exists_error_suppressed(
-        self, tmp_path: PathLike[str]
-    ) -> None:
-        """Should suppress FileExistsError when FROM is a broken symlink.
-
-        A broken symlink has exists()=False but can't be overwritten by
-        os.symlink(), so the suppress() guard handles it.
-        """
+    async def test_broken_symlink_retargeted(self, tmp_path: PathLike[str]) -> None:
+        """Should retarget a broken FROM symlink to the new target."""
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
         top_dir = tmp / "general"
         await lang_dir.mkdir(parents=True)
 
-        # Create a broken symlink at FROM path: exists() returns False,
-        # but symlink_to() raises FileExistsError
+        # Create a broken symlink at FROM path
         await (lang_dir / "From Page.md").symlink_to("nonexistent.md")
         assert not await (lang_dir / "From Page.md").exists()  # broken symlink
 
@@ -178,7 +177,6 @@ class TestSymlinkCreation:
             "From Page": _RedirectInfo(to="To Page"),
         }
 
-        # Should not crash despite FileExistsError
         await converter.convert(
             html,
             out_to_archive=set(),
@@ -186,11 +184,14 @@ class TestSymlinkCreation:
             refs=True,
         )
 
-        # Broken symlink should remain unchanged
-        assert await (lang_dir / "From Page.md").is_symlink()
-        assert str(await (lang_dir / "From Page.md").readlink()) == "nonexistent.md"
-        # Top-level symlink should still be created (separate guard)
-        assert await (top_dir / "From Page.md").is_symlink()
+        # Broken symlink should be retargeted
+        from_symlink = lang_dir / "From Page.md"
+        assert await from_symlink.is_symlink()
+        assert str(await from_symlink.readlink()) == "To Page.md"
+        # Top-level mirror should also be created
+        top_symlink = top_dir / "From Page.md"
+        assert await top_symlink.is_symlink()
+        assert str(await top_symlink.readlink()) == "eng/From Page.md"
 
 
 """Absolute path to the snapshot test fixtures directory."""
