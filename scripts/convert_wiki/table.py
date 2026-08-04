@@ -147,7 +147,8 @@ class TableConverter:
         cls._normalize_table_cells(ele, soup)
         cls._merge_header_rows(ele, soup)
         cls._insert_mixed_alignment_rows(ele, soup)
-        return _HandlerConfig(prefix="\n", suffix="\n\n")
+        has_thead = ele.find_previous_sibling("thead") is not None
+        return _HandlerConfig(prefix="" if has_thead else "\n", suffix="\n\n")
 
     @classmethod
     def handle_thead(
@@ -168,7 +169,8 @@ class TableConverter:
             The root BeautifulSoup object used to create new tags.
         """
         cls._normalize_table_cells(ele, soup)
-        return _HandlerConfig(prefix="\n", suffix="\n\n")
+        cls._merge_header_rows(ele, soup)
+        return _HandlerConfig(prefix="\n", suffix="")
 
     @classmethod
     def handle_tr(
