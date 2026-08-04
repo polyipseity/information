@@ -125,7 +125,7 @@ Given {@{any linearly independent set of signals $\{s_1,\dots,s_M\}$}@}, {@{the 
 The algorithm is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\) <!--SR:!2026-12-18,285,345-->
 
 1. first basis vector ::@:: Set $\phi_1 = s_1/\|s_1\|$. <!--SR:!2026-12-27,293,345!2026-12-28,294,345-->
-2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and normalise the remainder to get $\phi_k$. <!--SR:!2027-02-14,333,345!2026-08-24,199,325-->
+2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and normalise the remainder to get $\phi_k$. <!--SR:!2027-02-14,333,345!fsrs,2029-02-03T00:00:00.000Z,893,892.52825833,1,2,9,0,0,2026-08-25T00:00:00.000Z-->
 3. skip conditions ::@:: If a residual becomes zero, skip to the next signal; the dimension of the signal space is less than $M$. <!--SR:!2026-12-20,287,345!2027-01-29,320,345-->
 
 \(__this course__: Whenever possible, {@{identify orthogonal signals}@} {@{by inspection}@} and {@{normalize them}@}, which is {@{usually much faster}@}. Only if {@{the problem is complex or explicitly asks for a Gram–Schmidt process}@}, then {@{use the Gram–Schmidt process}@}.\) <!--SR:!2027-02-18,336,345!2026-10-20,235,330!2027-01-07,302,345!2027-01-21,311,345!2027-02-10,330,345!2027-01-03,299,345-->

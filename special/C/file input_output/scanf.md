@@ -53,4 +53,4 @@ See [`scanf` § placeholder](../../../general/scanf.md#placeholder).
 ## return value
 
 - (1-3) :@: Number of arguments assigned, or [`EOF`](../file%20input_output.md) if input failure occurs before assigning the first argument. <!--SR:!2030-01-22,1702,310-->
-- (4-6) :@: Same as (1-3), returning [`EOF`](../file%20input_output.md) also on runtime constraint violation. <!--SR:!2026-08-24,831,330-->
+- (4-6) :@: Same as (1-3), returning [`EOF`](../file%20input_output.md) also on runtime constraint violation. <!--SR:!fsrs,2035-04-19T00:00:00.000Z,3159,3158.56063135,1,2,11,0,0,2026-08-25T00:00:00.000Z-->

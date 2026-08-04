@@ -153,7 +153,7 @@ There are {@{4 major advantages to the mediator pattern}@}: (annotation: 4 items
 
 - _Decoupled colleagues_ ::@:: – each class is independent; easier to develop, test, reuse. <!--SR:!2027-05-01,393,361!2027-03-29,365,361-->
 - _Centralized control_ ::@:: – logic lives in one place, simplifying debugging and changes. <!--SR:!2027-04-22,385,361!2027-02-10,326,361-->
-- _Simplified protocols_ ::@:: – only mediator‑to‑colleague links, not many direct connections. <!--SR:!2026-08-24,198,322!2027-03-30,367,361-->
+- _Simplified protocols_ ::@:: – only mediator‑to‑colleague links, not many direct connections. <!--SR:!fsrs,2029-01-20T00:00:00.000Z,879,879.28810536,1,2,9,0,0,2026-08-25T00:00:00.000Z!2027-03-30,367,361-->
 - _Reduced subclassing_ ::@:: – extending only the mediator suffices to extend the system logic. <!--SR:!2027-01-10,299,342!2027-03-31,368,361-->
 
 There are {@{2 major disadvantages to the mediator pattern}@}: (annotation: 2 items: {@{mediator can grow large, single point of failure}@}) <!--SR:!2027-02-06,321,342!2027-03-08,348,361-->

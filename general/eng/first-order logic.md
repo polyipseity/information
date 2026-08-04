@@ -133,7 +133,7 @@ Other logical symbols include the following:
 - For every integer _n_ ≥ 0, there is a collection of [_n_-_ary_](arity.md), or _n_-_place_, _[predicate symbols](predicate%20symbol.md)_. Because they represent [relations](finitary%20relation.md) between _n_ elements, they are also called _relation symbols_. For each arity _n_, there is an infinite supply of them: <p> ::@:: &emsp; _P_<sup>_n_</sup><sub>0</sub>, _P_<sup>_n_</sup><sub>1</sub>, _P_<sup>_n_</sup><sub>2</sub>, _P_<sup>_n_</sup><sub>3</sub>, ... <!--SR:!2026-11-19,379,364!2026-10-10,350,364-->
 - For every integer _n_ ≥ 0, there are infinitely many _n_-ary _function symbols_: <p> ::@:: &emsp; _f<sup> n</sup>_<sub>0</sub>, _f<sup> n</sup>_<sub>1</sub>, _f<sup> n</sup>_<sub>2</sub>, _f<sup> n</sup>_<sub>3</sub>, ... <!--SR:!2026-11-12,376,364!2026-09-15,324,364-->
 
-When {@{the arity of a predicate symbol or function symbol}@} is {@{clear from context}@}, {@{the superscript _n_}@} is {@{often omitted}@}. <!--SR:!2026-08-24,289,344!2026-11-02,364,364!2026-12-11,397,364!2028-06-19,781,442-->
+When {@{the arity of a predicate symbol or function symbol}@} is {@{clear from context}@}, {@{the superscript _n_}@} is {@{often omitted}@}. <!--SR:!fsrs,2030-04-01T00:00:00.000Z,1315,1315.46609395,1,2,9,0,0,2026-08-25T00:00:00.000Z!2026-11-02,364,364!2026-12-11,397,364!2028-06-19,781,442-->
 
 In {@{this traditional approach}@}, there is {@{only one language of first-order logic}@}.<sup>[\[13\]](#^ref-13)</sup> This approach is {@{still common}@}, especially in {@{philosophically oriented books}@}. <!--SR:!2027-02-18,457,382!2027-02-04,447,382!2026-11-01,365,364!2026-10-15,351,364-->
 
@@ -534,7 +534,7 @@ Still, there are {@{complicated features of natural language}@} that {@{cannot b
 
 ## restrictions, extensions, and variations
 
-There are {@{many variations of first-order logic}@}. Some of these are {@{inessential}@} in the sense that {@{they merely change notation without affecting the semantics}@}. Others {@{change the expressive power more significantly}@}, by {@{extending the semantics}@} through {@{additional quantifiers or other new logical symbols}@}. For example, {@{infinitary logics}@} permit {@{formulas of infinite size}@}, and {@{modal logics}@} add {@{symbols for possibility and necessity}@}. <!--SR:!2026-08-24,304,346!2026-11-11,373,364!2027-01-21,433,382!2027-02-20,459,382!fsrs,2030-05-14T00:00:00.000Z,1368,1367.62850869,1,2,9,0,0,2026-08-15T00:00:00.000Z!2027-01-24,436,382!2027-01-22,434,382!2026-11-25,384,364!2026-12-14,400,364!2026-11-22,381,364-->
+There are {@{many variations of first-order logic}@}. Some of these are {@{inessential}@} in the sense that {@{they merely change notation without affecting the semantics}@}. Others {@{change the expressive power more significantly}@}, by {@{extending the semantics}@} through {@{additional quantifiers or other new logical symbols}@}. For example, {@{infinitary logics}@} permit {@{formulas of infinite size}@}, and {@{modal logics}@} add {@{symbols for possibility and necessity}@}. <!--SR:!fsrs,2030-06-08T00:00:00.000Z,1383,1383.44515964,1,2,9,0,0,2026-08-25T00:00:00.000Z!2026-11-11,373,364!2027-01-21,433,382!2027-02-20,459,382!fsrs,2030-05-14T00:00:00.000Z,1368,1367.62850869,1,2,9,0,0,2026-08-15T00:00:00.000Z!2027-01-24,436,382!2027-01-22,434,382!2026-11-25,384,364!2026-12-14,400,364!2026-11-22,381,364-->
 
 ### restricted languages
 

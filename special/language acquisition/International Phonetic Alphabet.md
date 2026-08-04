@@ -479,7 +479,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced palatal fricative](voiced%20palatal%20fricative.md):@:\[ʝ\] <!--SR:!fsrs,2028-03-22T00:00:00.000Z,599,599.44477648,7.32539087,2,9,0,0,2026-08-01T00:00:00.000Z-->
 - [voiced palatal plosive](voiced%20palatal%20plosive.md):@:\[ɟ\] <!--SR:!2027-05-13,978,341-->
 - [voiced palatal implosive](voiced%20palatal%20implosive.md):@:\[ʄ\] <!--SR:!2026-11-13,813,351-->
-- [voiceless velar plosive](voiceless%20velar%20plosive.md):@:\[k\] <!--SR:!2026-08-24,810,339-->
+- [voiceless velar plosive](voiceless%20velar%20plosive.md):@:\[k\] <!--SR:!fsrs,2032-04-30T00:00:00.000Z,2075,2074.86024251,2.15556587,2,11,0,0,2026-08-25T00:00:00.000Z-->
 - [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md):@:\[l\] <!--SR:!2029-12-24,1547,334-->
 - [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md):@:\[ɫ\] <!--SR:!2030-07-30,1851,371-->
 - [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md):@:\[ɬ\] <!--SR:!2027-04-17,681,311-->

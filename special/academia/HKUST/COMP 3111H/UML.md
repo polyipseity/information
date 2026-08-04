@@ -126,7 +126,7 @@ Often, the association name is {@{"Has", but can be other names as appropriate f
 
 In many cases, {@{whether an aggregation \(or composition\)}@} should be used is {@{unclear, and is mostly a matter of taste \(design decision\)}@}. When {@{in doubt}@}, use {@{a pure association}@}. <!--SR:!2027-03-25,420,373!2027-03-22,417,373!2027-03-23,418,373!2027-03-27,422,373-->
 
-To {@{represent aggregation}@}, use {@{a _hollow_ diamond \(_adornment_\) at the end of the aggregate object \(child\)}@}. Multiplicity can be {@{omitted if the cardinality range is `0..1`}@}. In some cases, you may want to specify {@{`0..*` as the multiplicity}@}. <!--SR:!2027-01-31,379,361!2027-01-27,375,361!2027-03-07,402,370!2026-08-24,247,330-->
+To {@{represent aggregation}@}, use {@{a _hollow_ diamond \(_adornment_\) at the end of the aggregate object \(child\)}@}. Multiplicity can be {@{omitted if the cardinality range is `0..1`}@}. In some cases, you may want to specify {@{`0..*` as the multiplicity}@}. <!--SR:!2027-01-31,379,361!2027-01-27,375,361!2027-03-07,402,370!fsrs,2029-08-25T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-25T00:00:00.000Z-->
 
 ### association compositions
 

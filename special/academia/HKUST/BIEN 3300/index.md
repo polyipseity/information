@@ -85,7 +85,7 @@ The content is in teaching order.
         - BIEN 3300 / format / lectures
         - BIEN 3300 / format / tutorials
     - BIEN 3300 / schedule
-    - BIEN 3300 / most unclear discussion \(MUD\) ::@:: Slido is used to collect feedback on what the instructor can improve on. <!--SR:!2026-08-24,247,330!2026-09-29,268,330-->
+    - BIEN 3300 / most unclear discussion \(MUD\) ::@:: Slido is used to collect feedback on what the instructor can improve on. <!--SR:!fsrs,2029-08-25T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-25T00:00:00.000Z!2026-09-29,268,330-->
 
 ## week 1 lecture 2
 

@@ -40,7 +40,7 @@ An example with {@{variable limits}@}: \(annotation: Evaluate {@{$$\frac {d}{dx}
 
 ### evaluating definite integrals
 
-The formula {@{$${\frac {d}{dx} }\left(\int _{a(x)}^{b(x)}f(x,t)\,dt\right)=f{\big (}x,b(x){\big )}\cdot {\frac {d}{dx} }b(x)-f{\big (}x,a(x){\big )}\cdot {\frac {d}{dx} }a(x)+\int _{a(x)}^{b(x)}{\frac {\partial }{\partial x} }f(x,t)\,dt$$}@} can be {@{of use when evaluating certain definite integrals}@}. When {@{used in this context}@}, {@{the Leibniz integral rule for differentiating under the integral sign}@} is also known as {@{__Feynman's trick__ for integration}@}. <!--SR:!2026-10-16,362,356!2026-10-16,362,356!2026-09-23,344,356!2026-08-24,317,356!2026-10-17,363,356-->
+The formula {@{$${\frac {d}{dx} }\left(\int _{a(x)}^{b(x)}f(x,t)\,dt\right)=f{\big (}x,b(x){\big )}\cdot {\frac {d}{dx} }b(x)-f{\big (}x,a(x){\big )}\cdot {\frac {d}{dx} }a(x)+\int _{a(x)}^{b(x)}{\frac {\partial }{\partial x} }f(x,t)\,dt$$}@} can be {@{of use when evaluating certain definite integrals}@}. When {@{used in this context}@}, {@{the Leibniz integral rule for differentiating under the integral sign}@} is also known as {@{__Feynman's trick__ for integration}@}. <!--SR:!2026-10-16,362,356!2026-10-16,362,356!2026-09-23,344,356!fsrs,2030-09-14T00:00:00.000Z,1481,1480.73112594,1,2,9,0,0,2026-08-25T00:00:00.000Z!2026-10-17,363,356-->
 
 #### example 3
 

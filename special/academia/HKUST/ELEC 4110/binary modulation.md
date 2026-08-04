@@ -10,7 +10,7 @@ tags:
 
 # binary modulation
 
-{@{The simplest analytical model}@}, often called the {@{__binary channel__ or __binary symmetric channel with additive white Gaussian noise__ (__AWGN__)}@}, reduces {@{the whole communication link to a black box}@} that accepts {@{binary input symbols at the transmitter and produces binary output symbols at the receiver}@}. {@{All intermediate physical-layer details}@} – {@{propagation, multipath, fading, etc.}@} – are {@{absorbed into this single stochastic channel model}@}. <!--SR:!2026-10-31,287,330!2026-08-30,238,330!2026-08-24,232,330!fsrs,2028-07-04T08:42:38.924Z,752,752.450798,1,2,8,0,0,2026-06-13T08:42:38.924Z!2026-11-07,293,330!2026-10-09,268,330!2026-10-12,271,330-->
+{@{The simplest analytical model}@}, often called the {@{__binary channel__ or __binary symmetric channel with additive white Gaussian noise__ (__AWGN__)}@}, reduces {@{the whole communication link to a black box}@} that accepts {@{binary input symbols at the transmitter and produces binary output symbols at the receiver}@}. {@{All intermediate physical-layer details}@} – {@{propagation, multipath, fading, etc.}@} – are {@{absorbed into this single stochastic channel model}@}. <!--SR:!2026-10-31,287,330!2026-08-30,238,330!fsrs,2029-06-27T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-08-25T00:00:00.000Z!fsrs,2028-07-04T08:42:38.924Z,752,752.450798,1,2,8,0,0,2026-06-13T08:42:38.924Z!2026-11-07,293,330!2026-10-09,268,330!2026-10-12,271,330-->
 
 {@{This simple binary channel model}@} underpins {@{many higher-level analyses in digital communications}@}: it provides the baseline against which {@{coding gains, diversity techniques, or more complex modulation schemes}@} are measured.  In practice, {@{real systems}@} often {@{deviate from this idealization}@} due to {@{multipath fading, colored noise, timing errors and non-binary signalling}@}; nevertheless, it remains {@{a cornerstone of communication theory}@}. <!--SR:!2026-10-07,268,330!2026-11-03,290,330!2026-10-15,274,330!2026-10-03,264,330!2026-10-09,270,330!2026-10-16,275,330!2026-10-05,266,330-->
 
@@ -37,7 +37,7 @@ Thus {@{the decision statistic $V$}@} conditioned on {@{the transmitted bit}@} i
 
 ## bit error rate
 
-In {@{digital communications}@} {@{the _bit error rate_ (BER)}@} is {@{one of the most common metrics}@} used to quantify {@{how reliably a transmitter–receiver pair can convey data over a noisy medium}@}. <!--SR:!2026-08-24,232,330!2026-09-18,249,330!2026-10-27,284,330!2026-10-03,264,330-->
+In {@{digital communications}@} {@{the _bit error rate_ (BER)}@} is {@{one of the most common metrics}@} used to quantify {@{how reliably a transmitter–receiver pair can convey data over a noisy medium}@}. <!--SR:!fsrs,2029-06-27T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-08-25T00:00:00.000Z!2026-09-18,249,330!2026-10-27,284,330!2026-10-03,264,330-->
 
 The following section develops {@{the BER expression for this simple model}@} from {@{first principles}@}, detailing the assumptions made about {@{the transmitted waveform, the receiver structure, the noise statistics}@} and finally the mathematical derivation of {@{the BER in terms of the Q-function and signal energy}@}. <!--SR:!2026-11-08,294,330!2026-11-02,289,330!2026-09-22,253,330!2026-08-25,233,330-->
 

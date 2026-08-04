@@ -68,7 +68,7 @@ tags:
 > ---
 >
 > - solution: {@{1. `Customer 1 -Makes- * Shipment` <br/> 2. `Shipment 1 -Contains- 1..* Package` <br/> 3. `Shipment * -SentTo- 1 City`}@}
-> - annotation: {@{There are other possible multiplicities according to the _application domain_.}@} <!--SR:!2028-06-23,753,330!2026-08-24,247,330-->
+> - annotation: {@{There are other possible multiplicities according to the _application domain_.}@} <!--SR:!2028-06-23,753,330!fsrs,2029-08-25T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-25T00:00:00.000Z-->
 
 ---
 

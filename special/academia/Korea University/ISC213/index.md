@@ -126,12 +126,12 @@ The content is in teaching order.
     - social business model / goal ::@:: deepen interactions; expedite decision making, information sharing, and innovating \(thus requires information transparency\) <!--SR:!fsrs,2030-07-14T00:00:00.000Z,1424,1424.092096,1,2,9,0,0,2026-08-20T00:00:00.000Z!2026-08-28,320,348-->
     - social business model / examples ::@:: blogs and wikis, communities, crowdsourcing, file sharing, shared workspaces, social commerce, social marketing, social networks <!--SR:!2026-09-23,342,348!2026-09-21,341,348-->
 - collaboration
-    - collaboration / business benefits ::@:: improve ROI, customer services, financial performance, innovation, organizations, productivity, quality, etc. <!--SR:!2026-09-16,337,348!2026-08-24,317,348-->
+    - collaboration / business benefits ::@:: improve ROI, customer services, financial performance, innovation, organizations, productivity, quality, etc. <!--SR:!2026-09-16,337,348!fsrs,2030-08-08T00:00:00.000Z,1444,1443.88475784,1,2,9,0,0,2026-08-25T00:00:00.000Z-->
     - collaboration / tools ::@:: collaboration, emails, instant messaging, social businesses, virtual worlds, wikis, etc. <!--SR:!2026-09-08,330,348!2026-09-20,340,348-->
     - collaboration / time—space matrix ::@:: colocated \(same place\) vs. remote \(different place\); synchronous \(same time\) vs. asynchronous \(different time\) <!--SR:!2026-09-17,337,348!2026-09-11,332,348-->
         - collaboration / time—space matrix / synchronous & colocated ::@:: face-to-face interactions, e.g. decision rooms, wall displays, etc. <!--SR:!2026-09-15,335,348!2026-09-01,323,348-->
         - collaboration / time—space matrix / asynchronous & colocated ::@:: continuous tasks, e.g. long-term dashboards, team rooms, etc. <!--SR:!2026-09-26,345,348!2026-09-12,333,348-->
-        - collaboration / time—space matrix / synchronous & remote ::@:: remote interactions, e.g. instant messaging, video conferencing, etc. <!--SR:!2026-09-18,338,348!2026-08-24,316,348-->
+        - collaboration / time—space matrix / synchronous & remote ::@:: remote interactions, e.g. instant messaging, video conferencing, etc. <!--SR:!2026-09-18,338,348!fsrs,2030-08-04T00:00:00.000Z,1440,1439.92930784,1,2,9,0,0,2026-08-25T00:00:00.000Z-->
         - collaboration / time—space matrix / asynchronous & remote ::@:: coordinated communication, e.g. calendars, emails, version control, virtual worlds, wikis, etc. <!--SR:!fsrs,2030-07-07T00:00:00.000Z,1420,1420.12890788,1,2,9,0,0,2026-08-17T00:00:00.000Z!2026-09-25,344,348-->
 - information system
     - information system / extranet ::@:: It is a controlled private computer network that allows communication with business partners, vendors and suppliers or an authorized set of customers. It extends _intranet_ to trusted outsiders. <p> So it helps to facilitate information flow between a firm and its customers and suppliers. <!--SR:!2026-12-07,408,369!2026-12-01,402,369-->

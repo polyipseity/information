@@ -24,7 +24,7 @@ In {@{[abstract rewriting](abstract%20rewriting.md)}@}, {@{an [abstract rewritin
 
 The notation {@{_t_ ↓ _n_}@} means that {@{_t_ reduces to normal form _n_}@} in {@{zero or more [reductions](reduction%20(abstract%20rewriting).md)}@}, {@{_t_<!-- markdown separator -->↓}@} means {@{_t_ reduces to some normal form in zero or more reductions}@}, and {@{_t_<!-- markdown separator -->↑}@} means {@{_t_ does not reduce to a normal form}@}; the latter is {@{impossible in a terminating rewriting system}@}. <!--SR:!fsrs,2029-08-17T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-10T00:00:00.000Z!fsrs,2029-06-18T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-07-27T00:00:00.000Z!fsrs,2029-09-11T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-08-16T00:00:00.000Z!fsrs,2029-09-07T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-08-15T00:00:00.000Z!fsrs,2029-09-28T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-08-21T00:00:00.000Z!2026-10-03,292,330!2026-09-24,285,330!2026-09-01,267,330-->
 
-In {@{the [lambda calculus](lambda%20calculus.md)}@} {@{an expression is divergent}@} if it has {@{no [normal form](normal%20form%20(abstract%20rewriting).md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-09-04,269,330!2026-08-24,260,330!fsrs,2029-06-28T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-07-29T00:00:00.000Z-->
+In {@{the [lambda calculus](lambda%20calculus.md)}@} {@{an expression is divergent}@} if it has {@{no [normal form](normal%20form%20(abstract%20rewriting).md)}@}.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-09-04,269,330!fsrs,2029-10-13T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-08-25T00:00:00.000Z!fsrs,2029-06-28T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-07-29T00:00:00.000Z-->
 
 ### denotational semantics
 

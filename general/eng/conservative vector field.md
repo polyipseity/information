@@ -103,7 +103,7 @@ More abstractly, in {@{the presence of a [Riemannian metric](Riemannian%20metric
 
 ### vorticity
 
-- Main article: ::@:: [Vorticity](vorticity.md) <!--SR:!2026-08-24,325,350!2026-09-18,348,350-->
+- Main article: ::@:: [Vorticity](vorticity.md) <!--SR:!fsrs,2030-09-18T00:00:00.000Z,1485,1484.87699944,1,2,9,0,0,2026-08-25T00:00:00.000Z!2026-09-18,348,350-->
 
 {@{The [vorticity](vorticity.md) ${\boldsymbol {\omega } }$ of a vector field}@} can be defined by: {@{$${\boldsymbol {\omega } }~{\stackrel {\text{def} }{=} }~\nabla \times \mathbf {v} .$$}@} <!--SR:!2026-09-03,334,350!2026-09-08,338,350-->
 

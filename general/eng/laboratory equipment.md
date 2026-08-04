@@ -203,7 +203,7 @@ return chain.from_iterable([r.value for r in results])
 - [desiccator](desiccator.md):@:![desiccator](../../archives/Wikimedia%20Commons/Desiccator.jpg) <!--SR:!2027-04-17,1146,350-->
 - [(eye) dropper/Pasteur pipette](eye%20dropper.md):@:![(eye) dropper/Pasteur pipette](../../archives/Wikimedia%20Commons/Transfer%20pipette.jpg) <!--SR:!2027-08-01,1228,350-->
 - dropping bottle:@:![dropping bottle](../../archives/Wikimedia%20Commons/Dropper%20with%20vial.jpg) <!--SR:!2028-07-11,1501,350-->
-- [electronic balance](weighing%20scale.md):@:![electronic balance](../../archives/Wikimedia%20Commons/Weighing%20balance,%20MNIT.jpg) <!--SR:!2026-08-24,887,330-->
+- [electronic balance](weighing%20scale.md):@:![electronic balance](../../archives/Wikimedia%20Commons/Weighing%20balance,%20MNIT.jpg) <!--SR:!fsrs,2035-10-21T00:00:00.000Z,3344,3344.432136,1,2,11,0,0,2026-08-25T00:00:00.000Z-->
 - [evaporating dish](evaporating%20dish.md):@:![evaporating dish](../../archives/Wikimedia%20Commons/Abdampfschalen%20verschiedene%20Groessen.jpg) <!--SR:!2027-12-14,1337,350-->
 - [filter funnel](filter%20funnel.md):@:![filter funnel](../../archives/Wikimedia%20Commons/High-Speed%20Filter%20Funnel-2.jpg) <!--SR:!2028-05-15,1455,350-->
 - [flat-bottom(ed) flask](flat-bottom%20flask.md):@:![flat-bottom(ed) flask](../../archives/Wikimedia%20Commons/TGI%20250.jpg) <!--SR:!2028-07-22,1510,350-->
