@@ -19,7 +19,7 @@ applyTo: "**"
    ```
 
    When targeting specific files with `check:md` or `format:md`, always append `--no-globs` and list the explicit filenames to avoid accidentally processing the entire repo.
-   **CRITICAL: Only pass `.md` files to `check:md` or `format:md`** — these
+   __CRITICAL: Only pass `.md` files to `check:md` or `format:md`__ — these
    commands invoke `markdownlint-cli2`, a Markdown formatter that will
    corrupt Python, YAML, and other non-Markdown files (wrapping URLs in
    `<>`, converting `*`→`_` in regex patterns, etc.).
@@ -28,8 +28,8 @@ applyTo: "**"
 
 ## Repository gotchas
 
-- **🔥 CRITICAL: Never `cd` into `.agents/skills/` to run `uv` commands.** Always run `uv` from the repo root. Running `uv` inside a skill folder creates `.venv/`/`uv.lock` trash there and fails due to missing deps.
-- **🔥 CRITICAL: Never run `check:md` or `format:md` on non-`.md` files.**
+- __🔥 CRITICAL: Never `cd` into `.agents/skills/` to run `uv` commands.__ Always run `uv` from the repo root. Running `uv` inside a skill folder creates `.venv/`/`uv.lock` trash there and fails due to missing deps.
+- __🔥 CRITICAL: Never run `check:md` or `format:md` on non-`.md` files.__
   These commands invoke `markdownlint-cli2`, a Markdown formatter that
   corrupts Python, YAML, and other non-Markdown content (wrapping URLs in
   `<>`, converting `*`→`_` in regex patterns, removing blank lines, etc.).
@@ -37,7 +37,7 @@ applyTo: "**"
   JSON/YAML/TS/JS files, use `format:prettier`. When running `format:md` or
   `check:md`, verify that EVERY file argument ends in `.md` or another
   markdown extension.
-- **🔥 CRITICAL: Never edit `.markdownlint*` files.** This is a hard ban.
+- __🔥 CRITICAL: Never edit `.markdownlint*` files.__ This is a hard ban.
   These files are markdownlint configuration (.markdownlint.jsonc and
   similar). Agents must never add, remove, or modify rules in these files
   unless the user explicitly and specifically asks for it. Even adding a
@@ -47,24 +47,24 @@ applyTo: "**"
 - __Prettier does not format `.md` files.__ The pre-commit hook's `types_or` list excludes `markdown`, so Markdown is gated only by markdownlint-cli2. Never run bare `bun x prettier --write <file.md>` — it reformats the whole file (`__bold__` → `**bold**` churn); use `bun run format:md --no-globs <file.md>` instead.
 - Full-repo `bun run check` and `bun run test` have pre-existing failures: MD058 in `tests/scripts/convert_wiki/snapshots/heavy_tables.expected.md`, plus 7 pytest failures (docstring/`__all__` enforcement gaps and 2 symlink tests in `tests/scripts/test_convert_wiki.py`). Prefer `bun run check:py` and targeted `uv run --locked pytest <dir>`; before blaming a change, verify the failure exists on the baseline (e.g. `git stash` comparison).
 - Preserve `# pytextgen` fences and flashcard markup. There are three forms: cloze deletions `{@{...}@}` (common), two-sided pairs `::@::` (one line only, creates two cards), and one-sided pairs `:@:` (one line only, single card). These are parsed automatically; do not reflow, escape, or split them across lines.
-- Async code should **not** import or use `asyncio` directly. Use AnyIO for cross-platform structured concurrency and the Asyncer helper library for enhanced editor/typing support. Key Asyncer helpers: `create_task_group` (preferred over `anyio.create_task_group`), `soonify` for concurrent calls with `SoonValue` return, `runnify` for wrapping async main for sync entry points (**all Python scripts use this; see `python-entry-points.instructions.md`**), `asyncify` for blocking sync code from async context, `syncify` for calling async from sync context.
+- Async code should __not__ import or use `asyncio` directly. Use AnyIO for cross-platform structured concurrency and the Asyncer helper library for enhanced editor/typing support. Key Asyncer helpers: `create_task_group` (preferred over `anyio.create_task_group`), `soonify` for concurrent calls with `SoonValue` return, `runnify` for wrapping async main for sync entry points (__all Python scripts use this; see `python-entry-points.instructions.md`__), `asyncify` for blocking sync code from async context, `syncify` for calling async from sync context.
 - Always prefer `bun run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
 - When writing shell commands for Python in a PowerShell terminal, use a here-string and pipe into `uv run python -`. For POSIX shells, regular heredocs work fine.
 - For standalone Python files that use inline `# /// script` metadata: (1) begin with `#!/usr/bin/env python` shebang on line 1, (2) keep metadata keys alphabetized (`dependencies`, `requires-python`, `timestamp`), (3) set `requires-python = ">=3.13.0"` (inline scripts target >=3.13.0; the project minimum in AGENTS.md is >=3.14 — the higher bar is intentional for the full project), and (4) mirror the union of every inline-script dependency in `pyproject.toml`'s `[dependency-groups].scripts` even when a package is also present in `[project].dependencies`.
-- Generated content (flashcards, pytextgen blocks) is refreshed automatically by build workflows. Agents should **not** run `uv run -m init generate` themselves. The command syntax is provided below for human reference only.
+- Generated content (flashcards, pytextgen blocks) is refreshed automatically by build workflows. Agents should __not__ run `uv run -m init generate` themselves. The command syntax is provided below for human reference only.
 - Use the Todo List Tool for multi-step tasks and present the proposed commit message to the user before committing (see `commit-convention.instructions.md`).
 
 ## Common workflows
 
 ### Regenerate generated regions (human reference)
 
-**Command**: `uv run -m init generate [pytextgen flags] <paths?>`
+__Command__: `uv run -m init generate [pytextgen flags] <paths?>`
 
 The `init.py` wrapper auto-discovers `.md` files (excluding `.git`, `.obsidian`, `tools`), caches `(mtime, inode, text)` to skip unchanged files, and normalizes newlines to `\n` before passing to pytextgen. Common flags: `-C`/`--no-cached` (rebuild cache), `--no-code-cache` (bypass compile cache), `--init-flashcards` (seed flashcard state), `<paths>` (limit scope).
 
 ### Clear generated content (human reference)
 
-**Command**: `uv run -m init clear --type CONTENT <paths?>`
+__Command__: `uv run -m init clear --type CONTENT <paths?>`
 
 Clears generated content blocks without regenerating. Useful for resolving merge conflicts.
 
@@ -75,17 +75,17 @@ Clears generated content blocks without regenerating. Useful for resolving merge
 - Maintain redirect symlinks: `uv run -m scripts.convert_wiki --update-redirects [--dry-run]` — reconciles `general/*/` redirect symlinks against the live API: retargets symlinks whose redirect target changed, removes symlinks when a redirect became a full article, and leaves article→redirect transitions, missing/invalid pages, and real files untouched; refreshes the redirect cache. `--dry-run` previews actions without changing anything.
 - The reconcile probe is cache-independent (always queries, batches of 50, canonicalizes sent titles via `query.normalized` before matching, resolves chains to their final target); missing pages are kept conservatively and self/circular redirects are treated as full articles.
 - Flashcards: handled automatically by build workflows
-- **See**: [wiki-ingestion](../skills/wiki-ingestion/SKILL.md) skill for step-by-step guidance
+- __See__: [wiki-ingestion](../skills/wiki-ingestion/SKILL.md) skill for step-by-step guidance
 
 ### Package bundle
 
-**Command**: `uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 --page-rank-iterations 100 <paths>`
+__Command__: `uv run -m pack -o pack.zip -n 25 --damping-factor 0.5 --page-rank-iterations 100 <paths>`
 
 Creates PageRank-sorted zip with link-closure metadata. Generated content is usually up-to-date; manual `uv run -m init generate` is unnecessary.
 
 ### Publish bridge
 
-**Command**: `uv run -m publish --paths-file <file>`
+__Command__: `uv run -m publish --paths-file <file>`
 
 Mirrors filtered history from `private/.git` into public `.git` using `git filter-repo`.
 
@@ -94,11 +94,11 @@ Mirrors filtered history from `private/.git` into public `.git` using `git filte
 - Always present the proposed commit message to the user for confirmation.
 - Use Conventional Commits and ensure commitlint passes (no body line > 100 chars).
 - Run `bun run format` and `bun run check` before committing.
-- **Full details**: [commit-convention.instructions.md](commit-convention.instructions.md) — includes flashcard trailers, learn/review session commit formats, and commitlint compliance.
+- __Full details__: [commit-convention.instructions.md](commit-convention.instructions.md) — includes flashcard trailers, learn/review session commit formats, and commitlint compliance.
 
 ## Submodule & sensitive data rules
 
-- **Do not** modify `private/` without explicit owner approval; check the submodule's `AGENTS.md` first.
+- __Do not__ modify `private/` without explicit owner approval; check the submodule's `AGENTS.md` first.
 - `self/stash/` is not a submodule, but it is still user-owned scratch space; only edit it when the user explicitly asks.
 - Avoid exposing or handling PII unless instructed and explicitly approved by the repository owner.
 - `scripts/pyarchivist/` and `scripts/pytextgen/` are submodules; only edit when user explicitly requests.
