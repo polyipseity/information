@@ -57,6 +57,12 @@ class TableConverter:
             Unused, kept for API compatibility with the dispatch signature.
         soup:
             The root BeautifulSoup object used to create new tags.
+
+        Raises
+        ------
+        ValueError
+            If the table has both a non-empty ``<caption>`` and an all-``<th>``
+            header row, since Markdown tables allow only one header row.
         """
         caption = ele.find("caption", recursive=False)
         if caption is None:
@@ -73,6 +79,11 @@ class TableConverter:
             cells = [
                 c for c in tr.children if isinstance(c, Tag) and c.name in _TD_OR_TH
             ]
+            if cells and all(c.name == "th" for c in cells):
+                raise ValueError(
+                    "a table with both a <caption> and a <th> header row is "
+                    "invalid: Markdown tables allow only one header row"
+                )
             if any(c.name == "th" for c in cells):
                 target_tr = tr
                 break

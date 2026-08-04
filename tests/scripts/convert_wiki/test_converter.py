@@ -619,6 +619,36 @@ class TestTableHandling:
         result = await _convert(converter, html)
         assert "a" in result and "b" in result
 
+    @pytest.mark.anyio
+    async def test_caption_with_header_row_raises(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A caption combined with a ``<th>`` header row should raise ValueError."""
+        html = (
+            "<table><caption>Title</caption>"
+            "<tr><th>H1</th><th>H2</th></tr>"
+            "<tr><td>D1</td><td>D2</td></tr></table>"
+        )
+        with pytest.raises(BaseExceptionGroup) as exc_info:
+            await _convert(converter, html)
+        error = exc_info.value.exceptions[0]
+        assert isinstance(error, ValueError)
+        assert "only one header row" in str(error)
+
+    @pytest.mark.anyio
+    async def test_caption_with_mixed_rows_ok(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A caption with mixed ``<th>``/``<td>`` rows should not raise."""
+        html = (
+            "<table><caption>Title</caption>"
+            "<tr><th>Label</th><td>Value</td></tr>"
+            "<tr><td>a</td><td>b</td></tr></table>"
+        )
+        result = await _convert(converter, html)
+        assert "Title" in result
+        assert "Value" in result
+
 
 # ---------------------------------------------------------------------------
 

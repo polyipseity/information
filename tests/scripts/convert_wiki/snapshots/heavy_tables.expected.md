@@ -1,6 +1,5 @@
 ## simple table
 
-|      |     |      |
 | Name | Age | City |
 | ---- | --- | ---- |
 
@@ -10,7 +9,6 @@
 
 ## table with colspan
 
-|           |      |        |
 | Full Name |      | Score  |
 | --------- | ---- | ------ |
 | First     | Last | Points |
@@ -21,7 +19,6 @@
 
 ## table with rowspan
 
-|          |      |       |
 | Category | Item | Value |
 | -------- | ---- | ----- |
 
