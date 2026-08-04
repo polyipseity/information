@@ -44,6 +44,8 @@ applyTo: "**"
   single disable rule like `"MD058": false` is forbidden. If a linter
   error appears to need a markdownlint config change, report it to the
   user — do not touch the config yourself.
+- __Prettier does not format `.md` files.__ The pre-commit hook's `types_or` list excludes `markdown`, so Markdown is gated only by markdownlint-cli2. Never run bare `bun x prettier --write <file.md>` — it reformats the whole file (`__bold__` → `**bold**` churn); use `bun run format:md --no-globs <file.md>` instead.
+- Full-repo `bun run check` and `bun run test` have pre-existing failures: MD058 in `tests/scripts/convert_wiki/snapshots/heavy_tables.expected.md`, plus 7 pytest failures (docstring/`__all__` enforcement gaps and 2 symlink tests in `tests/scripts/test_convert_wiki.py`). Prefer `bun run check:py` and targeted `uv run --locked pytest <dir>`; before blaming a change, verify the failure exists on the baseline (e.g. `git stash` comparison).
 - Preserve `# pytextgen` fences and flashcard markup. There are three forms: cloze deletions `{@{...}@}` (common), two-sided pairs `::@::` (one line only, creates two cards), and one-sided pairs `:@:` (one line only, single card). These are parsed automatically; do not reflow, escape, or split them across lines.
 - Async code should **not** import or use `asyncio` directly. Use AnyIO for cross-platform structured concurrency and the Asyncer helper library for enhanced editor/typing support. Key Asyncer helpers: `create_task_group` (preferred over `anyio.create_task_group`), `soonify` for concurrent calls with `SoonValue` return, `runnify` for wrapping async main for sync entry points (**all Python scripts use this; see `python-entry-points.instructions.md`**), `asyncify` for blocking sync code from async context, `syncify` for calling async from sync context.
 - Always prefer `bun run <script>` wrappers; if invoking Python directly, set `cwd=scripts/` when required.
@@ -70,6 +72,8 @@ Clears generated content blocks without regenerating. Useful for resolving merge
 
 - Scaffold: `uv run -m scripts.new_wiki_page`
 - Ingest: `uv run -m scripts.convert_wiki` (reads clipboard HTML)
+- Maintain redirect symlinks: `uv run -m scripts.convert_wiki --update-redirects [--dry-run]` — reconciles `general/*/` redirect symlinks against the live API: retargets symlinks whose redirect target changed, removes symlinks when a redirect became a full article, and leaves article→redirect transitions, missing/invalid pages, and real files untouched; refreshes the redirect cache. `--dry-run` previews actions without changing anything.
+- The reconcile probe is cache-independent (always queries, batches of 50, canonicalizes sent titles via `query.normalized` before matching, resolves chains to their final target); missing pages are kept conservatively and self/circular redirects are treated as full articles.
 - Flashcards: handled automatically by build workflows
 - **See**: [wiki-ingestion](../skills/wiki-ingestion/SKILL.md) skill for step-by-step guidance
 
@@ -103,6 +107,7 @@ Mirrors filtered history from `private/.git` into public `.git` using `git filte
 ## Tests, types, and CI
 
 - Add/modify tests under `tests/` mirroring source layout. Use `pytest` and `pytest.mark.anyio` for async tests when relevant.
+- In async filesystem tests, use `anyio.Path` (not `pathlib.Path`): its methods (`exists`, `is_symlink`, `readlink`, `unlink`, `iterdir`) are coroutines and require `await`; `symlink_to` is synchronous.
 - Typing guidance: prefer PEP 585 built-in generics for concrete containers (e.g. `list[str]`, `dict[str, int]`) and use `collections.abc` for abstract interfaces (e.g. `collections.abc.Sequence[str]`). Avoid `typing.List`/`typing.Dict`/`typing.Sequence` in new code.
 - Run `uv run --locked ty check`/`bun run check` and `bun run test` locally to reduce CI failures.
 
