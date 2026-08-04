@@ -400,6 +400,83 @@ class TestInlineMathSpacing:
 
 
 # =========================================================================
+# HTML tags adjacent to inline math — regression
+# =========================================================================
+
+
+class TestHtmlTagInlineMathSpacing:
+    """Inline HTML tags adjacent to inline math get no spurious space.
+
+    Regression: ``<sub> $\frac{n}{2}$+_δ_</sub>`` must stay
+    ``<sub>$\frac{n}{2}$+_δ_</sub>`` (and mirror for closing tags).
+    """
+
+    def test_inline_html_before_math_no_space(self) -> None:
+        """Opening tag before inline math inserts no space (exact artifact)."""
+        text = r"<sub>$\frac{n}{2}$+_δ_</sub>"
+        assert _separate_block_math(text) == text
+
+    def test_inline_math_before_closing_tag_no_space(self) -> None:
+        """Closing tag after inline math inserts no space."""
+        assert _separate_block_math(r"$x$</sub>") == r"$x$</sub>"
+        assert _separate_block_math(r"$\frac{n}{2}$</sup>") == r"$\frac{n}{2}$</sup>"
+
+    def test_determine_needs_before_inline_html(self) -> None:
+        """Inline HTML sibling before inline math needs no space."""
+        assert (
+            _determine_needs_before(
+                {"type": "inline_html", "raw": "<sub>"}, inline=True
+            )
+            is False
+        )
+
+    def test_determine_needs_after_inline_html(self) -> None:
+        """Inline HTML sibling after inline math needs no space."""
+        assert (
+            _determine_needs_after(
+                {"type": "inline_html", "raw": "</sub>"}, inline=True
+            )
+            is False
+        )
+
+    @pytest.mark.anyio
+    async def test_end_to_end_no_space_around_html_tag(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Full converter → pipeline chain keeps math flush inside tags."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+
+        html = BeautifulSoup(
+            '<p>text <sub><span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            '<math alttext="{\\displaystyle \\frac{n}{2}}"><semantics><mrow>'
+            "</mrow></semantics></math>"
+            '<img class="mwe-math-fallback-image-inline mw-invert skin-invert"'
+            ' src="data:image/svg+xml;base64," /></span></span>+δ</sub>'
+            " and <sup>"
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            '<math alttext="{\\displaystyle x}"><semantics><mrow></mrow>'
+            "</semantics></math>"
+            '<img class="mwe-math-fallback-image-inline mw-invert skin-invert"'
+            ' src="data:image/svg+xml;base64," /></span></span>+</sup>.</p>',
+            "html.parser",
+        )
+        result = await wiki_html_to_plaintext(
+            html,
+            out_to_archive=set(),
+            redirect_map={},
+            refs=True,
+        )
+        assert r"<sub>$\frac{n}{2}$+δ</sub>" in result
+        assert "<sup>$x$+</sup>" in result
+        assert r"<sub> $" not in result
+        assert r"$ </sup>" not in result
+
+
+# =========================================================================
 # _separate_block_quotes — MD028 suppression
 # =========================================================================
 

@@ -102,6 +102,10 @@ def _determine_needs_before(
     ``_MARKDOWN_SEPARATOR_CHARACTERS`` (the same list and test as the
     emphasis separator in ``converter._needs_separator_before``), so inline
     math gets spacing guaranteed in exactly the same situations as emphasis.
+
+    Inline HTML siblings (e.g. ``<sub>``/``<sup>`` tags or the marker comment
+    inserted by ``_separate_block_math``) do not create word adjacency, so
+    they are skipped the same way as line breaks.
     """
     if prev is None:
         return False
@@ -115,12 +119,9 @@ def _determine_needs_before(
     if inline and prev["type"] in ("softbreak", "linebreak"):
         # A line break is already whitespace separation.
         return False
-    if (
-        inline
-        and prev["type"] == "inline_html"
-        and prev.get("raw") == _cfg._MARKDOWN_SEPARATOR
-    ):
-        # Our own separator marker already provides the separation.
+    if inline and prev["type"] == "inline_html":
+        # Inline HTML (e.g. <sub>/<sup> tags or our own separator marker)
+        # does not create word adjacency, so no space is needed.
         return False
     return True
 
@@ -131,7 +132,10 @@ def _determine_needs_after(
     """Return ``True`` if a space should be inserted after a math delimiter.
 
     Mirror of ``_determine_needs_before`` for the sibling that follows a
-    ``block_math`` (or ``inline_math`` when ``inline`` is set) node.
+    ``block_math`` (or ``inline_math`` when ``inline`` is set) node.  Inline
+    HTML siblings (e.g. ``<sub>``/``<sup>`` tags or the marker comment
+    inserted by ``_separate_block_math``) do not create word adjacency, so
+    they are skipped the same way as line breaks.
     """
     if next_ is None:
         return False
@@ -145,12 +149,9 @@ def _determine_needs_after(
     if inline and next_["type"] in ("softbreak", "linebreak"):
         # A line break is already whitespace separation.
         return False
-    if (
-        inline
-        and next_["type"] == "inline_html"
-        and next_.get("raw") == _cfg._MARKDOWN_SEPARATOR
-    ):
-        # Our own separator marker already provides the separation.
+    if inline and next_["type"] == "inline_html":
+        # Inline HTML (e.g. <sub>/<sup> tags or our own separator marker)
+        # does not create word adjacency, so no space is needed.
         return False
     return True
 
