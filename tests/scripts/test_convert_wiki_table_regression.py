@@ -127,27 +127,22 @@ class TestCaptionTableAlignmentRows:
 </table>"""
 
     @pytest.mark.anyio
-    async def test_alignment_marker_values(self, converter: WikiHtmlConverter) -> None:
-        """Content-cell majority determines alignment; headers only affect data-free columns.
+    async def test_caption_all_th_header_raises(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A caption with an all-``<th>`` header row should raise ValueError.
 
-        All columns in this fixture have <td> cells with no explicit alignment,
-        so every column should be --- regardless of <th> style.
+        Markdown tables allow only one header row; the caption row would add
+        a second one, so the combination is rejected.
         """
         html = BeautifulSoup(self.CAPTION_CENTER_RIGHT_HTML, "html.parser")
-        result = await converter.convert(
-            html, out_to_archive=set(), refs=True, redirect_map={}
-        )
-        lines = [ln for ln in result.split("\n") if "---" in ln]
-        assert any("---" in ln for ln in lines), "Default alignment should produce ---"
-        assert not any(":-" in ln for ln in lines), (
-            "Center header is overridden by content majority"
-        )
-        assert not any("--:" in ln for ln in lines), (
-            "Right header is overridden by content majority"
-        )
-        assert not any(":--" in ln for ln in lines), (
-            "Left header is overridden by content majority"
-        )
+        with pytest.raises(BaseExceptionGroup) as exc_info:
+            await converter.convert(
+                html, out_to_archive=set(), refs=True, redirect_map={}
+            )
+        error = exc_info.value.exceptions[0]
+        assert isinstance(error, ValueError)
+        assert "only one header row" in str(error)
 
     NO_CAPTION_MIXED_HTML = """\
 <table class="wikitable">
