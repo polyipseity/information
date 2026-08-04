@@ -102,6 +102,27 @@ async def _create_redirect_symlinks(
         )
 
 
+async def _remove_redirect_symlinks(
+    wiki_dir: PathLike[str],
+    wiki_lang_dir: PathLike[str],
+    from_filename: str,
+) -> None:
+    """Remove the redirect symlinks for a page that is no longer a redirect.
+
+    Unlinks the language-directory symlink ``{from_filename}.md`` and its
+    top-level mirror, but only when they are symlinks — a real file at
+    either path is never touched (invariant).
+    """
+    wiki_dir_path = Path(wiki_dir)
+    wiki_lang_dir_path = Path(wiki_lang_dir)
+    for path in (
+        wiki_lang_dir_path / f"{from_filename}.md",
+        wiki_dir_path / f"{from_filename}.md",
+    ):
+        if await path.is_symlink():
+            await path.unlink()
+
+
 def _fix_filename(name: str) -> str:
     """Replace filesystem-unsafe characters with underscores."""
     return _cfg._BAD_CHARACTERS.sub("_", name)

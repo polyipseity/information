@@ -224,6 +224,59 @@ class TestCreateRedirectSymlinks:
         assert await mirror.read_text() == "precious mirror"
 
 
+class TestRemoveRedirectSymlinks:
+    """Tests for the _remove_redirect_symlinks function."""
+
+    @pytest.mark.anyio
+    async def test_removes_lang_symlink_and_mirror(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Should unlink the lang symlink and the top-level mirror."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        lang_link = lang_dir / "from page.md"
+        await lang_link.symlink_to("to page.md", target_is_directory=False)
+        mirror = wiki_dir / "from page.md"
+        await mirror.symlink_to("eng/from page.md", target_is_directory=False)
+
+        await _mod._remove_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page"
+        )
+
+        assert not await lang_link.exists()
+        assert not await mirror.exists()
+
+    @pytest.mark.anyio
+    async def test_real_file_kept(self, tmp_path: PathLike[str]) -> None:
+        """Should never unlink a real file at either path."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        real_file = lang_dir / "from page.md"
+        await real_file.write_text("precious content")
+
+        await _mod._remove_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page"
+        )
+
+        assert await real_file.read_text() == "precious content"
+
+    @pytest.mark.anyio
+    async def test_absent_paths_are_noop(self, tmp_path: PathLike[str]) -> None:
+        """Should do nothing when neither path exists."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+
+        await _mod._remove_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page"
+        )
+
+        assert not await (lang_dir / "from page.md").exists()
+        assert not await (wiki_dir / "from page.md").exists()
+
+
 class TestMarkdownLinkTarget:
     """Tests for the _markdown_link_target function."""
 
