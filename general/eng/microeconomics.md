@@ -43,7 +43,7 @@ This is studied in the field of {@{[collective action](collective%20action.md) a
 
 Individuals and firms need to {@{allocate limited resources to ensure all __agents__ in the economy are well off}@}. Firms decide {@{which goods and services to produce considering low costs}@} involving {@{labor, materials and capital as well as potential profit margins}@}. Consumers choose {@{the good and services they want that will maximize their happiness}@} taking into account {@{their limited wealth}@}.<sup>[\[7\]](#^ref-7)</sup>
 
-The government can {@{make these allocation decisions or they can be independently made by the consumers and firms}@}. For example, in the former Soviet Union, the government {@{played a part in informing car manufacturers which cars to produce and which consumers will gain access to a car}@}.<sup>[\[7\]](#^ref-7)</sup>
+{@{The government}@} can make {@{these allocation decisions or they can be independently made by the consumers and firms}@}. For example, in {@{the former Soviet Union}@}, the government played {@{a part in informing car manufacturers}@} which {@{cars to produce and which consumers will gain access to a car}@}.<sup>[\[7\]](#^ref-7)</sup>
 
 ## history
 
