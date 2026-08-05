@@ -270,7 +270,7 @@ The content is in teaching order.
 - Boolean algebra
     - Boolean algebra / simplification: hints ::@:: You may need to think of new terms to add to the expression... And also you can use extra variables to replace variables that always appear together. <!--SR:!2026-10-11,475,387!2030-03-27,1480,387-->
 - 2-bit comparator ::@:: 4 inputs, grouped into 2 groups of 2 inputs, each group representing a 2-bit unsigned integer. 3 outputs, respectively representing greater than, equal to, and less than. <!--SR:!fsrs,2031-12-15T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-30T00:00:00.000Z!fsrs,2032-01-14T00:00:00.000Z,1980,1980.05659057,1,2,10,0,0,2026-08-13T00:00:00.000Z-->
-    - 2-bit comparator / hints ::@:: Consider each output separately. You can always use a truth table and its SOP to write the expression. SOP is especially suitable if given a PLA. <!--SR:!2026-08-27,430,387!2030-08-07,1590,387-->
+    - 2-bit comparator / hints ::@:: Consider each output separately. You can always use a truth table and its SOP to write the expression. SOP is especially suitable if given a PLA. <!--SR:!fsrs,2032-03-02T00:00:00.000Z,2013,2012.58400976,1,2,10,0,0,2026-08-28T00:00:00.000Z!2030-08-07,1590,387-->
 - 8-to-3 encoder ::@:: 8 inputs, in one-hot encoding. 3 outputs, representing an unsigned integer from 0 to 7. <!--SR:!2026-09-07,439,387!2026-10-16,480,387-->
 - 4-to-1 multiplexer ::@:: 4 inputs, representing the 4 channels to be muxed. 2 control signals, controlling which channel to output. 1 output. <!--SR:!2026-09-13,445,387!2026-10-01,465,387-->
 - multiplexer

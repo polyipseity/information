@@ -309,7 +309,7 @@ The content is in teaching order.
 - datetime: 2024-09-30T09:00:00+08:00/2024-09-30T10:20:00+08:00
 - topic: graphs, trees, paths, walks
 - [graph theory](../../../../general/graph%20theory.md)
-    - graph theory / graph ::@:: A __graph__ is denoted $G = (V, E)$, where $V$ is a finite set of __vertices__ and _E_ is a finite set of __edges__. <!--SR:!2026-08-27,548,397!2033-02-25,2483,417-->
+    - graph theory / graph ::@:: A __graph__ is denoted $G = (V, E)$, where $V$ is a finite set of __vertices__ and _E_ is a finite set of __edges__. <!--SR:!fsrs,2033-06-16T00:00:00.000Z,2484,2484.327666,1,2,10,0,0,2026-08-28T00:00:00.000Z!2033-02-25,2483,417-->
     - graph theory / edge ::@:: An __edge__ in a graph $G = (V, E)$ is a two-element set $\set{u, v} \subseteq V$, which represents a connection between the vertex _u_ and _v_. <!--SR:!2033-06-15,2571,417!2030-02-21,1569,397-->
     - graph theory / loop ::@:: A __loop__ is an edge connecting a vertex to itself, i.e. $\set{u, u}$. But in this course, we do not consider graphs with this case. Graphs without this case (and without _multiple edges_) are called __simple__. <!--SR:!fsrs,2032-12-24T00:00:00.000Z,2350,2349.83313843,1,2,10,0,0,2026-07-19T00:00:00.000Z!2033-04-11,2521,417-->
     - graph theory / neighbor ::@:: If an edge connects two vertices, the two vertices are said to be __neighbors__ of each other. <!--SR:!2033-02-19,2477,417!2031-10-31,2043,397-->

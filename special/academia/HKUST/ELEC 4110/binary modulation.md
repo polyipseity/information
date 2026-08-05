@@ -43,7 +43,7 @@ The following section develops {@{the BER expression for this simple model}@} fr
 
 Let {@{the prior probabilities}@} be {@{$$P(b_k=0)=p_0,\qquad P(b_k=1)=p_1,$$}@} with {@{$p_0+p_1=1$}@}. {@{The a-priori bit error probabilities}@} are {@{no longer equal}@}; they become {@{$$P_e^{(0)} = P(\hat b_k \neq 0 | b_k=0),\qquad P_e^{(1)} = P(\hat b_k \neq 1 | b_k=1).$$}@} {@{The overall BER}@} is {@{the weighted sum}@} {@{$$P_e = p_0\,P_e^{(0)} + p_1\,P_e^{(1)} \,.$$}@} <!--SR:!2026-10-08,269,330!2026-09-19,250,330!2026-09-29,260,330!2026-10-10,271,330!2026-09-11,242,330!2026-10-16,275,330!2026-09-17,248,330!2026-10-07,268,330!2026-10-20,278,330-->
 
-Below, we split {@{the analysis into two conditioned cases}@}. Then we avoid dealing with {@{mixed-distribution integrals that are analytically intractable}@}. <!--SR:!2026-08-27,235,330!2026-09-03,234,330-->
+Below, we split {@{the analysis into two conditioned cases}@}. Then we avoid dealing with {@{mixed-distribution integrals that are analytically intractable}@}. <!--SR:!fsrs,2029-07-12T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-08-28T00:00:00.000Z!2026-09-03,234,330-->
 
 ### bit error rate with zero threshold
 

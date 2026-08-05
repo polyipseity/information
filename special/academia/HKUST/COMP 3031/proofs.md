@@ -29,7 +29,7 @@ These laws are not {@{merely curiosities}@}; they enable reasoning about {@{prog
 
 ## set properties
 
-To assert that {@{an implementation of a set actually behaves as a set}@}, we state {@{three algebraic laws}@} that {@{any correct representation of a set}@} must satisfy: \(annotation: 3 items: {@{empty contains nothing, insertion guarantees presence, non-insertion preserves membership}@}\) <!--SR:!2026-08-27,228,330!2026-10-06,268,330!2026-10-12,271,330!2026-11-02,289,330-->
+To assert that {@{an implementation of a set actually behaves as a set}@}, we state {@{three algebraic laws}@} that {@{any correct representation of a set}@} must satisfy: \(annotation: 3 items: {@{empty contains nothing, insertion guarantees presence, non-insertion preserves membership}@}\) <!--SR:!fsrs,2029-06-15T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-28T00:00:00.000Z!2026-10-06,268,330!2026-10-12,271,330!2026-11-02,289,330-->
 
 - __Empty contains nothing__ ::@:: $$\text{Empty.contains}(x) = \text{false}$$ <!--SR:!2026-09-09,241,330!2026-09-01,233,330-->
 - __Insertion guarantees presence__ ::@:: $$s.\text{incl}(x).\text{contains}(x) = \text{true}$$ <!--SR:!2026-10-25,282,330!2026-10-27,284,330-->

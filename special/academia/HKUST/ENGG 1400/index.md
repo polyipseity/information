@@ -127,7 +127,7 @@ The content is in teaching order.
     - dress code: business casual
     - has food and drinks
     - 2 guests: \[redacted\], \[redacted\]
-    - network practicum / takeaways ::@:: Learn from others' stories (collect data), and be inspired in your life planning! <!--SR:!2026-08-27,536,402!fsrs,2032-10-04T00:00:00.000Z,2278,2278.18510575,1,2,10,0,0,2026-07-10T00:00:00.000Z-->
+    - network practicum / takeaways ::@:: Learn from others' stories (collect data), and be inspired in your life planning! <!--SR:!fsrs,2033-04-30T00:00:00.000Z,2437,2436.98088243,1,2,10,0,0,2026-08-28T00:00:00.000Z!fsrs,2032-10-04T00:00:00.000Z,2278,2278.18510575,1,2,10,0,0,2026-07-10T00:00:00.000Z-->
 
 ## week 7 tutorial
 
