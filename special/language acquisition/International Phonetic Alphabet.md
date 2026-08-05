@@ -520,7 +520,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless postalveolar affricate](voiceless%20postalveolar%20affricate.md):@:\[tʃ\] <!--SR:!fsrs,2027-02-05T00:00:00.000Z,187,186.71323019,3.95376587,2,7,0,0,2026-08-02T00:00:00.000Z-->
 - [voiceless alveolo-palatal affricate](voiceless%20alveolo-palatal%20affricate.md):@:\[tɕ\] <!--SR:!2028-12-18,1234,374-->
 - [voiceless retroflex affricate](voiceless%20retroflex%20affricate.md):@:\[tʂ\] <!--SR:!2029-11-05,1556,375-->
-- [close back rounded vowel](close%20back%20rounded%20vowel.md):@:\[u\] <!--SR:!2026-08-26,571,334-->
+- [close back rounded vowel](close%20back%20rounded%20vowel.md):@:\[u\] <!--SR:!fsrs,2032-12-17T00:00:00.000Z,2304,2304.21735461,1,2,10,0,0,2026-08-27T00:00:00.000Z-->
 - [near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md):@:\[ʊ\] <!--SR:!2028-04-22,1100,356-->
 - [close central rounded vowel](close%20central%20rounded%20vowel.md):@:\[ʉ\] <!--SR:!fsrs,2027-12-11T00:00:00.000Z,504,503.73742784,2.45526587,2,8,0,0,2026-07-25T00:00:00.000Z-->
 - [voiced labiodental fricative](voiced%20labiodental%20fricative.md):@:\[v\] <!--SR:!2030-09-07,1920,395-->
@@ -815,7 +815,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg):@:[voiced bilabial fricative](voiced%20bilabial%20fricative.md) <!--SR:!2026-12-22,232,231-->
 - ![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg):@:[voiced bilabial trill](voiced%20bilabial%20trill.md) <!--SR:!2026-12-09,610,231-->
 - ![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg):@:[voiceless palatal plosive](voiceless%20palatal%20plosive.md) <!--SR:!fsrs,2026-11-20T00:00:00.000Z,106,105.81531438,9.98522837,2,7,0,0,2026-08-06T00:00:00.000Z-->
-- ![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg):@:[voiceless palatal fricative](voiceless%20palatal%20fricative.md) <!--SR:!fsrs,2026-08-27T00:00:00.000Z,41,40.52693931,9.97047151,2,6,0,0,2026-07-17T00:00:00.000Z-->
+- ![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg):@:[voiceless palatal fricative](voiceless%20palatal%20fricative.md) <!--SR:!fsrs,2026-10-14T00:00:00.000Z,48,47.88378469,9.96562598,2,7,0,0,2026-08-27T00:00:00.000Z-->
 - ![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg):@:[voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md) <!--SR:!fsrs,2026-09-15T00:00:00.000Z,37,36.72399463,9.96562598,2,7,0,0,2026-08-09T00:00:00.000Z-->
 - ![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg):@:[voiced alveolar plosive](voiced%20alveolar%20plosive.md) <!--SR:!fsrs,2026-10-07T00:00:00.000Z,87,87.01619319,9.94776587,2,7,0,0,2026-07-12T00:00:00.000Z-->
 - ![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg):@:[voiced alveolar implosive](voiced%20alveolar%20implosive.md) <!--SR:!2026-09-08,127,150-->
@@ -950,7 +950,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _m**ay**_ \[meː\] <!--SR:!fsrs,2026-09-28T00:00:00.000Z,62,61.98179514,9.98522837,2,7,0,0,2026-07-28T00:00:00.000Z-->
 - [close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɘːd\] <!--SR:!fsrs,2026-11-09T08:09:10.807Z,155,155.15705834,9.23597837,2,8,0,0,2026-06-07T08:09:10.807Z-->
 - [mid central vowel](mid%20central%20vowel.md):@:[English](English%20language.md) _Tin**a**_ \[ˈtʰiːnə\] <!--SR:!2026-12-20,221,138-->
-- [r-colored mid central vowel](r-colored%20vowel.md):@:[English](English%20language.md) _runn**er**_ \[ˈɹʌnɚ\] <!--SR:!2026-08-26,295,238-->
+- [r-colored mid central vowel](r-colored%20vowel.md):@:[English](English%20language.md) _runn**er**_ \[ˈɹʌnɚ\] <!--SR:!fsrs,2029-01-22T00:00:00.000Z,879,879.25765157,4.5819071,2,9,0,0,2026-08-27T00:00:00.000Z-->
 - [open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _b**e**d_ \[bɛd\] <!--SR:!fsrs,2027-03-03T05:52:26.829Z,261,260.96511023,8.93627837,2,8,0,0,2026-06-15T05:52:26.829Z-->
 - [nasalized open-mid front unrounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _m**ain**_ \[mɛ̃\] "hand" <!--SR:!fsrs,2026-09-15T00:00:00.000Z,33,32.94903424,9.94760547,2,7,0,0,2026-08-13T00:00:00.000Z-->
 - [open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɜːd\] <!--SR:!2028-02-25,1039,278-->

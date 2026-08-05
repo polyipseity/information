@@ -214,7 +214,7 @@ Here the _α_ and _γ_ indices are antisymmetrized, _β_ is not.
 
 - See also: ::@:: [Four-gradient](four-gradient.md), [d'Alembertian](d'Alembertian.md), and [Intrinsic derivative](intrinsic%20derivative.md#derivative%20along%20a%20curve) <!--SR:!2026-09-22,261,330!2026-12-07,331,350-->
 
-For {@{compactness}@}, {@{derivatives}@} may be indicated by {@{adding indices after a comma or semicolon}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-12-05,329,350!2026-10-15,284,330!2026-08-26,249,330-->
+For {@{compactness}@}, {@{derivatives}@} may be indicated by {@{adding indices after a comma or semicolon}@}.<sup>[\[13\]](#^ref-13)</sup><sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-12-05,329,350!2026-10-15,284,330!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z-->
 
 ### [partial derivative](partial%20derivative.md)
 
@@ -254,7 +254,7 @@ For {@{an arbitrary tensor}@}:<sup>[\[17\]](#^ref-17)</sup> {@{$${\begin{aligned
 
 {@{A connection is a [metric connection](metric%20connection.md)}@} when {@{the covariant derivative of the metric tensor vanishes}@}: {@{$$g_{\mu \nu ;\xi }=0\,.$$}@} <!--SR:!2026-09-02,255,330!2027-05-02,339,330!2028-05-26,729,330-->
 
-{@{An [affine connection](affine%20connection.md) that is also a metric connection}@} is called {@{a [Riemannian connection](Riemannian%20connection.md#Riemannian%20connection)}@}. {@{A Riemannian connection that is torsion-free}@} \(i.e., for which {@{the [torsion tensor](torsion%20tensor.md) vanishes}@}: {@{_T_<sup>_α_</sup><sub>_βγ_</sub> = 0}@}\) is {@{a [Levi-Civita connection](Levi-Civita%20connection.md)}@}. <!--SR:!2026-12-20,344,350!2026-11-20,314,350!2026-08-26,249,330!2026-11-14,314,350!2026-12-02,326,350!2026-11-27,321,350-->
+{@{An [affine connection](affine%20connection.md) that is also a metric connection}@} is called {@{a [Riemannian connection](Riemannian%20connection.md#Riemannian%20connection)}@}. {@{A Riemannian connection that is torsion-free}@} \(i.e., for which {@{the [torsion tensor](torsion%20tensor.md) vanishes}@}: {@{_T_<sup>_α_</sup><sub>_βγ_</sub> = 0}@}\) is {@{a [Levi-Civita connection](Levi-Civita%20connection.md)}@}. <!--SR:!2026-12-20,344,350!2026-11-20,314,350!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-11-14,314,350!2026-12-02,326,350!2026-11-27,321,350-->
 
 {@{The Γ<sup>_α_</sup><sub>_βγ_</sub>}@} for {@{a Levi-Civita connection in a coordinate basis}@} are called {@{[Christoffel symbols](Christoffel%20symbols.md) of the second kind}@}. <!--SR:!2026-12-13,337,350!2026-12-15,339,350!2026-10-16,285,330-->
 
@@ -324,7 +324,7 @@ This can be {@{generalized to get the commutator}@} for {@{two covariant derivat
 
 ## notes
 
-1. While {@{the raising and lowering of indices}@} is {@{dependent on a [metric tensor](metric%20tensor.md)}@}, {@{the [covariant derivative](covariant%20derivative.md)}@} is {@{only dependent on the [connection](connection%20(mathematics).md)}@} while {@{the [exterior derivative](exterior%20derivative.md) and the [Lie derivative](Lie%20derivative.md)}@} are {@{dependent on neither}@}. <a id="^ref-1"></a>^ref-1 <!--SR:!fsrs,2029-07-21T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-08-18T00:00:00.000Z!2026-11-05,305,350!2026-11-20,320,350!2026-12-25,348,350!2026-08-26,249,330!2026-10-05,274,330-->
+1. While {@{the raising and lowering of indices}@} is {@{dependent on a [metric tensor](metric%20tensor.md)}@}, {@{the [covariant derivative](covariant%20derivative.md)}@} is {@{only dependent on the [connection](connection%20(mathematics).md)}@} while {@{the [exterior derivative](exterior%20derivative.md) and the [Lie derivative](Lie%20derivative.md)}@} are {@{dependent on neither}@}. <a id="^ref-1"></a>^ref-1 <!--SR:!fsrs,2029-07-21T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-08-18T00:00:00.000Z!2026-11-05,305,350!2026-11-20,320,350!2026-12-25,348,350!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-10-05,274,330-->
 
 ## references
 

@@ -124,7 +124,7 @@ For {@{a two-dimensional field}@}, the vorticity acts as {@{a measure of the _lo
 > - <span class="legend-color mw-no-invert" style="background-color:cyan; color:black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> {@{Vector fields, gradient fields}@}:
 >     - __a<sub>G</sub>__, {@{gravitational acceleration}@}
 >     - __F__, {@{\(gravitational or electrostatic\) force}@}
->     - __E__, {@{electric field strength}@} <!--SR:!fsrs,2029-10-30T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-06-30T00:00:00.000Z!2026-08-26,327,350!2026-09-07,339,350!2026-08-29,330,350!2026-09-18,348,350!2026-09-05,337,350!2026-09-10,341,350!2026-09-07,337,350!2026-09-20,349,350!fsrs,2029-12-14T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-07-11T00:00:00.000Z-->
+>     - __E__, {@{electric field strength}@} <!--SR:!fsrs,2029-10-30T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-06-30T00:00:00.000Z!fsrs,2030-09-28T00:00:00.000Z,1493,1492.80690649,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-09-07,339,350!2026-08-29,330,350!2026-09-18,348,350!2026-09-05,337,350!2026-09-10,341,350!2026-09-07,337,350!2026-09-20,349,350!fsrs,2029-12-14T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-07-11T00:00:00.000Z-->
 
 If {@{the vector field associated to a force $\mathbf {F}$ is conservative}@}, then {@{the force is said to be a [conservative force](conservative%20force.md)}@}. <!--SR:!2026-09-04,334,350!2026-09-06,338,350-->
 

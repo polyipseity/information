@@ -179,7 +179,7 @@ Since {@{___π___ is parallel to __u__<sub>1</sub>\(normalized by L2 norm\)}@} a
 
 #### locally interacting Markov chains
 
-{@{"Locally interacting Markov chains"}@} are {@{Markov chains with an evolution that takes into account the state of other Markov chains}@}. This corresponds to {@{the situation when the state space has a \(Cartesian-\) product form}@}. See {@{[interacting particle system](interacting%20particle%20system.md) and [stochastic cellular automata](stochastic%20cellular%20automaton.md) \(probabilistic cellular automata\)}@}. See for instance {@{_Interaction of Markov Processes_}@}<sup>[\[46\]](#^ref-46)</sup> or.<sup>[\[47\]](#^ref-47)</sup> <!--SR:!2030-01-22,1467,361!2026-08-26,466,327!2029-09-20,1348,367!2027-03-28,621,321!2031-09-05,1952,387-->
+{@{"Locally interacting Markov chains"}@} are {@{Markov chains with an evolution that takes into account the state of other Markov chains}@}. This corresponds to {@{the situation when the state space has a \(Cartesian-\) product form}@}. See {@{[interacting particle system](interacting%20particle%20system.md) and [stochastic cellular automata](stochastic%20cellular%20automaton.md) \(probabilistic cellular automata\)}@}. See for instance {@{_Interaction of Markov Processes_}@}<sup>[\[46\]](#^ref-46)</sup> or.<sup>[\[47\]](#^ref-47)</sup> <!--SR:!2030-01-22,1467,361!fsrs,2031-10-25T00:00:00.000Z,1885,1885.20109558,1,2,10,0,0,2026-08-27T00:00:00.000Z!2029-09-20,1348,367!2027-03-28,621,321!2031-09-05,1952,387-->
 
 ## properties
 

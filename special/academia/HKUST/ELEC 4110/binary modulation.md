@@ -57,7 +57,7 @@ Hence {@{the BER with arbitrary priors}@} is {@{$$\boxed{P_e = p_0\,Q\!\left(\sq
 
 ### bit error rate with arbitrary threshold
 
-If the receiver compares {@{$V$ to an arbitrary threshold $V_{\!th}\neq0$}@}, {@{the decision rule}@} becomes   {@{$$\displaystyle \hat b_k=\begin{cases}1,& V>V_{\!th}\\[4pt]0,&V\le V_{\!th}\end{cases} \,.$$}@} <!--SR:!2026-08-31,239,330!2026-08-26,234,330!2026-10-11,270,330-->
+If the receiver compares {@{$V$ to an arbitrary threshold $V_{\!th}\neq0$}@}, {@{the decision rule}@} becomes   {@{$$\displaystyle \hat b_k=\begin{cases}1,& V>V_{\!th}\\[4pt]0,&V\le V_{\!th}\end{cases} \,.$$}@} <!--SR:!2026-08-31,239,330!fsrs,2029-07-07T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-10-11,270,330-->
 
 For {@{a transmitted '1'}@} {@{the error event}@} is {@{$\{AT+N_T=V\le V_{\!th}\}$}@}, giving {@{$$P_e^{(1)} = Q\!\left(\frac{AT-V_{\!th} }{\sigma_{n_T} }\right).$$}@} <!--SR:!2026-10-09,268,330!2026-11-04,290,330!2026-10-22,280,330!2026-10-01,262,330-->
 

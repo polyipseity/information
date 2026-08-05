@@ -106,11 +106,11 @@ In {@{three dimensions}@}, {@{the [cross product](cross%20product.md) of two vec
 
 ### trace
 
-For {@{a [square matrix](square%20matrix.md) _A<sup>i</sup><sub>j</sub>_}@}, {@{the [trace](trace%20(linear%20algebra).md)}@} is {@{the sum of the diagonal elements}@}, hence {@{the sum over a common index _A<sup>i</sup><sub>i</sub>_}@}. <!--SR:!2026-09-20,259,330!2026-10-22,291,330!2026-08-26,249,330!2026-10-19,288,330-->
+For {@{a [square matrix](square%20matrix.md) _A<sup>i</sup><sub>j</sub>_}@}, {@{the [trace](trace%20(linear%20algebra).md)}@} is {@{the sum of the diagonal elements}@}, hence {@{the sum over a common index _A<sup>i</sup><sub>i</sub>_}@}. <!--SR:!2026-09-20,259,330!2026-10-22,291,330!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-10-19,288,330-->
 
 ### outer product
 
-{@{The [outer product](outer%20product.md) of the column vector _u<sup>i</sup>_ by the row vector _v<sub>j</sub>_}@} yields {@{an _m_<!-- markdown separator --> × <!-- markdown separator -->_n_ matrix __A__}@}: {@{$${A^{i} }_{j}=u^{i}v_{j}={(uv)^{i} }_{j}$$}@} Since {@{_i_ and _j_ represent two _different_ indices}@}, there is {@{no summation}@} and the indices are {@{not eliminated by the multiplication}@}. <!--SR:!2026-10-25,294,330!2026-10-03,272,330!2026-10-17,286,330!2026-08-26,249,330!2026-10-15,284,330!2026-10-11,280,330-->
+{@{The [outer product](outer%20product.md) of the column vector _u<sup>i</sup>_ by the row vector _v<sub>j</sub>_}@} yields {@{an _m_<!-- markdown separator --> × <!-- markdown separator -->_n_ matrix __A__}@}: {@{$${A^{i} }_{j}=u^{i}v_{j}={(uv)^{i} }_{j}$$}@} Since {@{_i_ and _j_ represent two _different_ indices}@}, there is {@{no summation}@} and the indices are {@{not eliminated by the multiplication}@}. <!--SR:!2026-10-25,294,330!2026-10-03,272,330!2026-10-17,286,330!fsrs,2029-09-03T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-10-15,284,330!2026-10-11,280,330-->
 
 ### raising and lowering indices
 

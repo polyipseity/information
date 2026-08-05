@@ -15,7 +15,7 @@ Generally, there is {@{an inverse relationship between the price and the quantit
 
 > {@{![An example of a market demand schedule](../../archives/Wikimedia%20Commons/Market%20Demand%20Schedule%20copy.png)}@}
 >
-> {@{An example of a market demand schedule}@} <!--SR:!2026-08-26,480,310!2029-07-10,1325,350-->
+> {@{An example of a market demand schedule}@} <!--SR:!fsrs,2031-08-25T00:00:00.000Z,1824,1824.02494921,1,2,10,0,0,2026-08-27T00:00:00.000Z!2029-07-10,1325,350-->
 
 ## references
 

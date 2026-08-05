@@ -122,7 +122,7 @@ One could {@{re-implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!202
 > ```
 <!--SR:!2026-11-08,294,330!2026-08-28,236,330-->
 
-The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}. <!--SR:!2026-11-01,288,330!2026-08-26,234,330!2026-10-24,281,330-->
+The compiler guarantees that {@{all possible shapes of the input lists}@} are handled; {@{any omission}@} results in {@{a warning \(not error\)}@}. <!--SR:!2026-11-01,288,330!fsrs,2029-07-07T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-10-24,281,330-->
 
 ### sorting arbitrary types
 

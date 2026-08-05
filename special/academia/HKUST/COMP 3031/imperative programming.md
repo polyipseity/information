@@ -83,7 +83,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 > ```Scala
 > repeat { /* ... */ } until cond
 > ```
-<!--SR:!2026-12-21,269,330!2026-08-26,166,310!2026-11-27,255,330-->
+<!--SR:!2026-12-21,269,330!fsrs,2028-08-18T00:00:00.000Z,722,722.30900974,1,2,8,0,0,2026-08-27T00:00:00.000Z!2026-11-27,255,330-->
 
 ### for-loops
 
