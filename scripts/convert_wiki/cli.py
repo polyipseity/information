@@ -10,6 +10,7 @@ from os import fspath
 from sys import stderr, stdin
 
 import anyio
+import json5
 from aiohttp import ClientSession, TCPConnector
 from anyio import Path
 from asyncer import runnify
@@ -20,11 +21,11 @@ from pyarchivist.Wikimedia_Commons import archive as pyarchivist_archive
 from pyperclip import copy as clip_copy
 
 from . import config as _cfg
+from .name_map_io import _merge_names_maps
 from .pipeline import run_pipeline
 from .reconcile import reconcile_redirect_symlinks
-
-"""Exported names from this module."""
-__all__ = ()
+from .reprocess import reprocess_articles
+from .types import _ReprocessRequest
 
 
 async def main() -> None:
@@ -69,12 +70,54 @@ async def main() -> None:
         help="Reconcile redirect symlinks against the live API instead of converting HTML.",
     )
     parser.add_argument(
+        "--reprocess",
+        action="store_true",
+        help="Reprocess articles and name_map entries without converting HTML.",
+    )
+    parser.add_argument(
+        "--mapping",
+        action="append",
+        default=[],
+        metavar="KEY=VALUE",
+        help="Name map entry for --reprocess (repeatable).",
+    )
+    parser.add_argument(
+        "--mapping-file",
+        type=Path,
+        help="JSONC name map merged before --mapping entries for --reprocess.",
+    )
+    parser.add_argument(
+        "--article",
+        action="append",
+        default=[],
+        metavar="ARTICLE",
+        help="Article stem or path to reprocess (repeatable).",
+    )
+    parser.add_argument(
+        "--update-links",
+        action="store_true",
+        help="With --reprocess, rewrite link targets corpus-wide.",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="With --update-redirects, report reconciliation actions without changing anything.",
+        help="With --update-redirects or --reprocess, report actions without changing anything.",
     )
     args = parser.parse_args()
     refs = not args.no_refs
+
+    if args.reprocess and args.update_redirects:
+        parser.error("--reprocess cannot be combined with --update-redirects.")
+
+    if args.reprocess:
+        await _run_reprocess_maintenance(
+            mappings=_parse_mappings(args.mapping),
+            mapping_file=args.mapping_file,
+            articles=tuple(args.article),
+            update_links=args.update_links,
+            dry_run=args.dry_run,
+        )
+        return
 
     if args.update_redirects:
         await _run_redirect_maintenance(dry_run=args.dry_run)
@@ -151,6 +194,71 @@ async def main() -> None:
             with open(args.output_file, "a") as f:
                 f.write(output)
                 f.write("\n")
+
+
+"""Exported names from this module."""
+__all__ = ()
+
+
+def _parse_mappings(entries: list[str]) -> dict[str, str]:
+    """Parse ``KEY=VALUE`` mapping CLI arguments."""
+    mappings: dict[str, str] = {}
+    for entry in entries:
+        if "=" not in entry:
+            msg = f"invalid --mapping (expected KEY=VALUE): {entry!r}"
+            raise ValueError(msg)
+        key, value = entry.split("=", 1)
+        mappings[key] = value
+    return mappings
+
+
+def _load_mapping_file(path: Path) -> dict[str, str]:
+    """Load a JSONC mapping file from *path*."""
+    with open(path, "rt", encoding="UTF-8") as handle:
+        loaded = json5.load(handle)
+    if not isinstance(loaded, dict):
+        msg = f"--mapping-file must contain a JSON object: {path}"
+        raise TypeError(msg)
+    return {str(key): str(value) for key, value in loaded.items()}
+
+
+async def _run_reprocess_maintenance(
+    *,
+    mappings: dict[str, str],
+    mapping_file: Path | None,
+    articles: tuple[str, ...],
+    update_links: bool,
+    dry_run: bool,
+) -> None:
+    """Run name_map reprocess maintenance without converting HTML."""
+    file_mappings: dict[str, str] = {}
+    if mapping_file is not None:
+        file_mappings = _load_mapping_file(mapping_file)
+    merged_mappings = _merge_names_maps(file_mappings, mappings)
+    if not merged_mappings and not articles:
+        msg = "at least one of --mapping, --mapping-file, or --article is required"
+        raise ValueError(msg)
+    report = await reprocess_articles(
+        _ReprocessRequest(
+            mappings=merged_mappings,
+            articles=articles,
+            update_links=update_links,
+            dry_run=dry_run,
+        )
+    )
+    print(
+        "Reprocess: "
+        f"mappings_added={report.mappings_added}, "
+        f"symlinks_created={report.symlinks_created}, "
+        f"symlinks_removed={report.symlinks_removed}, "
+        f"symlinks_retargeted={report.symlinks_retargeted}, "
+        f"files_renamed={report.files_renamed}, "
+        f"articles_rewritten={report.articles_rewritten}, "
+        f"links_updated_corpus={report.links_updated_corpus}, "
+        f"dry_run={report.dry_run}"
+    )
+    if report.changed:
+        print(f"Changed: {', '.join(report.changed)}")
 
 
 async def _run_redirect_maintenance(*, dry_run: bool) -> None:
