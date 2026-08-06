@@ -9,6 +9,7 @@ from scripts.convert_wiki import config as cfg
 from scripts.convert_wiki.name_map_io import (
     _merge_names_maps,
     _new_mapping_keys,
+    _pairs_to_map,
     _reload_names_map,
     _save_names_map,
 )
@@ -32,6 +33,25 @@ class TestMergeNamesMaps:
             {"Modern physics": "Modern physics", "Foo": "foo"},
         )
         assert keys == ("Modern physics", "Foo")
+
+
+class TestPairsToMap:
+    """Tests for _pairs_to_map."""
+
+    def test_converts_pairs(self) -> None:
+        """Pairs should become a title-to-stem map."""
+        mappings = _pairs_to_map(
+            (("Modern physics", "Modern physics"), ("modern physics", "Modern physics"))
+        )
+        assert mappings == {
+            "Modern physics": "Modern physics",
+            "modern physics": "Modern physics",
+        }
+
+    def test_later_pair_overrides_duplicate_title(self) -> None:
+        """Later pairs should override earlier title keys."""
+        mappings = _pairs_to_map((("Foo", "a"), ("Foo", "b")))
+        assert mappings == {"Foo": "b"}
 
 
 class TestSaveNamesMap:

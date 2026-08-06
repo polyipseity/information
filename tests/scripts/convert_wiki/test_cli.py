@@ -81,15 +81,15 @@ def parser() -> argparse.ArgumentParser:
     )
     p.add_argument(
         "--mapping",
+        nargs=2,
         action="append",
-        default=[],
-        metavar="KEY=VALUE",
-        help="Name map entry for --reprocess (repeatable).",
+        metavar=("TITLE", "STEM"),
+        help="Name map entry for --reprocess (repeatable TITLE STEM pair).",
     )
     p.add_argument(
         "--mapping-file",
         type=Path,
-        help="JSONC name map merged before --mapping entries for --reprocess.",
+        help="JSONC name map for --reprocess (mutually exclusive with --mapping).",
     )
     p.add_argument(
         "--article",
@@ -480,7 +480,8 @@ class TestMainReprocess:
                 "convert_wiki",
                 "--reprocess",
                 "--mapping",
-                "Modern physics=Modern physics",
+                "Modern physics",
+                "Modern physics",
             ],
         )
 
@@ -526,7 +527,8 @@ class TestMainReprocess:
                 "convert_wiki",
                 "--reprocess",
                 "--mapping",
-                "Modern physics=Modern physics",
+                "Modern physics",
+                "Modern physics",
                 "--dry-run",
             ],
         )
@@ -537,3 +539,25 @@ class TestMainReprocess:
 
         request = mock_reprocess.call_args.args[0]
         assert request.dry_run is True
+
+    @pytest.mark.anyio
+    async def test_reprocess_rejects_mapping_and_mapping_file(
+        self,
+        monkeypatch: pytest.MonkeyPatch,
+    ) -> None:
+        """--mapping and --mapping-file cannot be used together."""
+        monkeypatch.setattr(
+            "sys.argv",
+            [
+                "convert_wiki",
+                "--reprocess",
+                "--mapping",
+                "Modern physics",
+                "Modern physics",
+                "--mapping-file",
+                "fixes.jsonc",
+            ],
+        )
+
+        with pytest.raises(SystemExit):
+            await main()
