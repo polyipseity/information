@@ -26,7 +26,7 @@ tags:
 - show all windows and workspaces::@::⊞Win+Tab↹ <!--SR:!2026-12-02,603,230!2032-12-04,2681,310-->
 - move window to the left/right side::@::⊞Win+←/→ <!--SR:!2029-04-03,1479,270!2027-01-20,706,210-->
 - move window between monitors::@::⊞Win+⇧Shift+←/→ <!--SR:!2030-12-09,1793,250!2026-11-10,895,270-->
-- quit application of window::@::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!2026-08-28,640,190!2026-11-16,887,270-->
+- quit application of window::@::<ul><li>Alt+F4</li><li>Ctrl+F4</li></ul> <!--SR:!fsrs,2030-05-16T00:00:00.000Z,1356,1356.06368592,6.98338322,2,10,0,0,2026-08-29T00:00:00.000Z!2026-11-16,887,270-->
 - close dialog::@::Esc <!--SR:!2027-03-17,1187,350!2027-04-22,1164,310-->
 - toggle program on taskbar::@::⊞Win+(taskbar #) <!--SR:!2031-02-02,2126,290!fsrs,2034-01-21T00:00:00.000Z,2713,2712.80028802,2.98092302,2,11,0,0,2026-08-18T00:00:00.000Z-->
 - open new program on taskbar::@::⊞Win+⇧Shift+(taskbar #) <!--SR:!2027-03-25,610,230!2027-08-17,643,250-->

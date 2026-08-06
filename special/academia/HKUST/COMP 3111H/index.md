@@ -90,7 +90,7 @@ The content is in teaching order.
         - software engineering / activities / modeling ::@:: Model user requirement. Model the system to be built. <!--SR:!2026-09-05,270,330!2028-03-06,681,330-->
         - software engineering / activities / problem solving ::@:: _Systematically_ \(but not _algorithmically_ as there are changes\) find an appropriate solution according to the user requirement. Note that user requirements can _change_ or be clarified over time. <!--SR:!2026-09-21,282,330!fsrs,2029-08-03T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-07T00:00:00.000Z-->
         - software engineering / activities / knowledge acquisition ::@:: Knowledge about the problem needs to be learnt on the go. It may also need to be _unlearnt_ due to changing requirements or misunderstandings. You may even need to _start over_. <!--SR:!fsrs,2029-07-23T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-08-04T00:00:00.000Z!fsrs,2028-07-24T04:56:05.451Z,779,778.81278188,1,2,8,0,0,2026-06-06T04:56:05.451Z-->
-        - software engineering / activities / rationale management ::@:: As acquired knowledge, solutions \(new technologies\), user requirements _change_, we need to _revisit_ decisions and their rationale. <!--SR:!2026-09-08,272,330!2026-08-28,263,330-->
+        - software engineering / activities / rationale management ::@:: As acquired knowledge, solutions \(new technologies\), user requirements _change_, we need to _revisit_ decisions and their rationale. <!--SR:!2026-09-08,272,330!fsrs,2029-10-29T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-08-29T00:00:00.000Z-->
 - quiz: [quiz 1](questions/quiz%201.md)
 
 ## week 1 lecture

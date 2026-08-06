@@ -25,7 +25,7 @@ tags:
 
 ## definition
 
-In most [chemistry](chemistry.md) fields and [spectroscopy](spectroscopy.md), wavenumber is defined as {@{the number of [wavelengths](wavelength.md) per unit distance, typically in inverse [centimeters](centimetre.md) (cm<sup>-1</sup>). It is sometimes called __linear wavenumber__ (symbol $\tilde \nu$) or __spectroscopic wavenumber__}@}: <!--SR:!2026-08-28,678,310-->
+In most [chemistry](chemistry.md) fields and [spectroscopy](spectroscopy.md), wavenumber is defined as {@{the number of [wavelengths](wavelength.md) per unit distance, typically in inverse [centimeters](centimetre.md) (cm<sup>-1</sup>). It is sometimes called __linear wavenumber__ (symbol $\tilde \nu$) or __spectroscopic wavenumber__}@}: <!--SR:!fsrs,2033-06-03T00:00:00.000Z,2470,2469.51026633,1,2,10,0,0,2026-08-29T00:00:00.000Z-->
 
 > __(linear) wavenumber__
 >

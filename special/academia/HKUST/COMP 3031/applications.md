@@ -78,7 +78,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 > private def wordCode(word: String): String =
 >   word.toUpperCase.map(charCode)
 > ```
-<!--SR:!2026-08-28,229,330!2026-10-12,272,330!2026-10-30,286,330!2026-09-14,246,330-->
+<!--SR:!fsrs,2029-06-20T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-08-29T00:00:00.000Z!2026-10-12,272,330!2026-10-30,286,330!2026-09-14,246,330-->
 
 #### `Coder.wordsForNum`
 

@@ -174,7 +174,7 @@ The content is in teaching order.
 - [income statement](../../../../general/income%20statement.md)
     - [ACCT 2010/income statement](income%20statement.md)
     - [net income](../../../../general/net%20income.md)
-    - [earnings per share](../../../../general/earnings%20per%20share.md) ::@:: $$\frac {\text{net income} - \text{preferred dividends} } {\text{(time-)weighted average outstanding common shares} }$$ <!--SR:!2026-08-28,505,396!2032-02-12,2085,403-->
+    - [earnings per share](../../../../general/earnings%20per%20share.md) ::@:: $$\frac {\text{net income} - \text{preferred dividends} } {\text{(time-)weighted average outstanding common shares} }$$ <!--SR:!fsrs,2032-12-29T00:00:00.000Z,2314,2314.0489373,1,2,10,0,0,2026-08-29T00:00:00.000Z!2032-02-12,2085,403-->
     - [cash basis accounting](../../../../general/cash%20method%20of%20accounting) ::@:: Receiving cash or cash equivalents is revenue. Paying cash or cash equivalents is expense. There are no concepts of accruals, deferrals, etc. <p> Usually not used because it presents a distorted and misleading picture. Not relevant for external decision makers. _Not permissible_ under GAAP. <!--SR:!2026-09-19,526,403!2027-07-22,736,363-->
     - [accrual accounting](../../../../general/basis%20of%20accounting.md#accrual%20basis) ::@:: Performing the work for others to earn (earning) is revenue. Having others perform the work (incurring) is expense. When the cash or cash equivalent is received or paid is irrelevant. <p> It is relevant to external decision makers. _Required_ under GAAP. <!--SR:!2026-09-29,534,403!2026-09-21,527,403-->
     - [revenue recognition](../../../../general/revenue%20recognition.md) ::@:: It states that revenues are earned and recognized when they are realized or realizable, no matter when cash is received. <p> Note that it does not say anything about expenses. This requires the _matching principle_. <!--SR:!2026-08-29,508,403!2028-09-06,1087,383-->
@@ -204,7 +204,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-01T13:30:00+08:00/2024-10-01T14:50:00+08:00
 - [adjusting entries](../../../../general/adjusting%20entries.md) ::@:: They are journal entries usually made at the end of an accounting period to allocate income and expenditure to the period in which they actually occurred. <!--SR:!2026-10-02,536,403!2026-09-16,523,403-->
-    - [adjusting entries](../../../../general/adjusting%20entries.md) / purposes ::@:: Required at the end of each accounting period in order to get the expenses and revenues into the right period. <!--SR:!2031-07-17,1943,403!2026-08-28,508,403-->
+    - [adjusting entries](../../../../general/adjusting%20entries.md) / purposes ::@:: Required at the end of each accounting period in order to get the expenses and revenues into the right period. <!--SR:!2031-07-17,1943,403!fsrs,2033-01-10T00:00:00.000Z,2326,2325.98562,1,2,10,0,0,2026-08-29T00:00:00.000Z-->
 - [trial balance](../../../../general/trial%20balance.md)
     - [ACCT 2010/trial balance](trial%20balance.md)
 - unearned revenue
@@ -467,7 +467,7 @@ The content is in teaching order.
     - dividend yield / interpretation ::@:: It reflects the return on investment which are attributed solely to dividends a company pays. <!--SR:!2031-05-13,1891,403!fsrs,2032-11-11T00:00:00.000Z,2278,2278.18510575,1,2,10,0,0,2026-08-17T00:00:00.000Z-->
 - [price/earnings ratio](../../../../general/price–earnings%20ratio.md) ::@:: $$\frac {\text{market price per share} } {\text{earnings per share} }$$ <!--SR:!2026-09-23,529,403!2032-01-17,2072,403-->
     - price/earnings ratio / interpretation ::@:: High ratio usually means good growth prospects. But risks are when the earnings are lower than what the market expects, the effect on its stock can be dramatic. <!--SR:!2031-08-17,1968,403!fsrs,2032-05-26T00:00:00.000Z,2150,2149.99976191,1,2,10,0,0,2026-07-07T00:00:00.000Z-->
-- market ratios ([market-to-book ratios](../../../../general/P_B%20ratio.md)) ::@:: Some ratios relate the current price per share of a company's stock to the return that accrues to stockholders. <p> (Actually the professor uses "market-to-book ratio" instead oddly...) <!--SR:!2026-10-03,537,403!2026-08-28,507,403-->
+- market ratios ([market-to-book ratios](../../../../general/P_B%20ratio.md)) ::@:: Some ratios relate the current price per share of a company's stock to the return that accrues to stockholders. <p> (Actually the professor uses "market-to-book ratio" instead oddly...) <!--SR:!2026-10-03,537,403!fsrs,2033-01-06T00:00:00.000Z,2322,2322.00772364,1,2,10,0,0,2026-08-29T00:00:00.000Z-->
 - [§ week 10 review](questions.md#week%2010%20review)
 
 ## week 11 lecture 1

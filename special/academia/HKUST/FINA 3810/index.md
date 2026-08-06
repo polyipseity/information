@@ -53,7 +53,7 @@ The content is in teaching order.
         - Bloomberg Terminal / Bloomberg News / social monitor ::@:: `SOCI <GO>` <!--SR:!2026-09-18,280,330!fsrs,2029-06-02T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-23T00:00:00.000Z-->
         - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>` <!--SR:!2026-09-21,282,330!2026-09-22,283,330-->
         - Bloomberg Terminal / Bloomberg News / key news themes ::@:: `NSTM <GO>` <!--SR:!2028-06-23,751,330!2027-08-01,505,310-->
-        - Bloomberg Terminal / Bloomberg News / front page ::@:: `FRNT <GO>` <!--SR:!2026-08-28,263,330!2026-09-10,274,330-->
+        - Bloomberg Terminal / Bloomberg News / front page ::@:: `FRNT <GO>` <!--SR:!fsrs,2029-10-29T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-08-29T00:00:00.000Z!2026-09-10,274,330-->
 - FINA 3810
     - FINA 3810 / current topics
         - FINA 3810 / current topics / heartbeat trades ::@:: What are heartbeat trades? How do they affect ETFs? What can be done about them \(e.g. reforming taxation\)? <!--SR:!2026-09-30,290,330!2026-09-03,268,330-->

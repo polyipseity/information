@@ -26,7 +26,7 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Accounting) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Accounting) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AAccounting) | -->
 
-In {@{[accounting](accounting.md)}@}, {@{__liquidity__ \(or __accounting liquidity__\)}@} is {@{a measure of the ability of a [debtor](debtor.md) to pay their [debts](debt.md) as and when they [fall due](maturity%20(finance).md)}@}. It is usually expressed as {@{a [ratio](ratio.md) or a [percentage](percentage.md) of current [liabilities](liability%20(accounting).md)}@}. {@{Liquidity}@} is {@{the ability to pay short-term obligations}@}. <!--SR:!2026-12-07,327,345!2026-12-07,327,345!2026-08-28,236,330!2026-09-03,242,330!2026-11-26,317,345!2026-10-15,284,330-->
+In {@{[accounting](accounting.md)}@}, {@{__liquidity__ \(or __accounting liquidity__\)}@} is {@{a measure of the ability of a [debtor](debtor.md) to pay their [debts](debt.md) as and when they [fall due](maturity%20(finance).md)}@}. It is usually expressed as {@{a [ratio](ratio.md) or a [percentage](percentage.md) of current [liabilities](liability%20(accounting).md)}@}. {@{Liquidity}@} is {@{the ability to pay short-term obligations}@}. <!--SR:!2026-12-07,327,345!2026-12-07,327,345!fsrs,2029-07-17T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-29T00:00:00.000Z!2026-09-03,242,330!2026-11-26,317,345!2026-10-15,284,330-->
 
 ## calculating liquidity
 
