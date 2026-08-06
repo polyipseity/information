@@ -126,7 +126,7 @@ Products and services is {@{simply a list of what you offer}@}, and can also inc
 
 Pain relievers describe {@{how the products or services alleviate customer pains}@}. There is no need to {@{alleviate every identified pain}@}, and instead {@{it is better to alleviate some extreme pains extremely well}@}. Like products and services, pain relievers {@{can have different relevance to your customers}@}. <!--SR:!2027-08-09,939,349!fsrs,2033-05-22T00:00:00.000Z,2477,2477.10179504,1,2,10,0,0,2026-08-10T00:00:00.000Z!2028-07-25,1148,310!2032-02-28,2154,330-->
 
-Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2029-10-03,1562,369!2027-07-17,907,349!2026-08-29,658,329!2032-06-29,2223,329-->
+Gain creators describe {@{how the products or services create customer gains}@}. There is also no need to {@{create every identified gain}@}, and instead {@{it is better to create some relevant gains extremely well}@}. Like products and services, gain creators {@{can have different relevance to your customers}@}. <!--SR:!2029-10-03,1562,369!2027-07-17,907,349!fsrs,2033-09-08T00:00:00.000Z,2566,2566.06326407,1,2,10,0,0,2026-08-30T00:00:00.000Z!2032-06-29,2223,329-->
 
 There are several [common mistakes](#value%20map%20common%20mistakes) to be aware of.
 
@@ -158,7 +158,7 @@ mix: mixing products and services with pain relievers and gain creators
 
 - _(begin)_→::@::←all: addressing all customer pains and gains <!--SR:!2027-09-11,778,269!2030-01-29,1669,369-->
 - all: addressing all customer pains and gains→::@::←irrelevance: listing all products and services without considering the customer segment <!--SR:!2026-09-12,414,229!2026-11-29,544,249-->
-- irrelevance: listing all products and services without considering the customer segment→::@::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!2026-08-29,478,229!2028-12-02,1125,289-->
+- irrelevance: listing all products and services without considering the customer segment→::@::←irrelevance: offer irrelevant pain relievers and gain creators <!--SR:!fsrs,2030-03-14T00:00:00.000Z,1292,1292.42005629,5.03218387,2,10,0,0,2026-08-30T00:00:00.000Z!2028-12-02,1125,289-->
 - irrelevance: offer irrelevant pain relievers and gain creators→::@::←mix: mixing products and services with pain relievers and gain creators <!--SR:!2026-10-30,514,249!2031-02-12,1747,289-->
 - mix: mixing products and services with pain relievers and gain creators→::@::←_(end)_ <!--SR:!2029-04-26,1335,309!2026-11-19,338,169-->
 

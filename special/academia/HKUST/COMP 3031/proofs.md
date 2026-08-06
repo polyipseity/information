@@ -41,7 +41,7 @@ These laws capture {@{the essential behavior}@} of a set: {@{an empty set}@} con
 
 The familiar principle of {@{natural induction on the natural numbers}@} states that to prove {@{a property $P(n)$ for all integers $n \ge b$}@}, one must show: \(annotation: 2 items: {@{base case → inductive step}@}\) <!--SR:!2026-09-04,236,330!2026-10-13,272,330!2026-09-25,257,330-->
 
-1. \(annotation: natural induction\) __Base case__: ::@:: $P(b)$ holds. <!--SR:!2026-10-15,274,330!2026-08-29,230,330-->
+1. \(annotation: natural induction\) __Base case__: ::@:: $P(b)$ holds. <!--SR:!2026-10-15,274,330!fsrs,2029-06-25T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-08-30T00:00:00.000Z-->
 2. \(annotation: natural induction\) __Inductive step__: ::@:: For every $n \ge b$, if $P(n)$ holds then so does $P(n+1)$. <!--SR:!2026-09-16,248,330!2026-10-13,272,330-->
 
 For {@{lists, trees, etc.}@}, the analogous principle is {@{_structural induction_}@}. <!--SR:!2026-10-21,279,330!2026-10-10,269,330-->

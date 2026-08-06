@@ -42,7 +42,7 @@ The corollary requires {@{$f$ to be [continuous](continuous%20function.md) on th
 
 > {@{__second fundamental theorem of calculus__}@}
 >
-> Given {@{a [real-valued function](real-valued%20function.md) $f$ [Riemann integrable](Riemann%20integral.md#Riemann%20integrable) on a closed [interval](interval%20(mathematics).md) $[a,b]$}@} and $F$ {@{a [continuous function](continuous%20function.md) on $[a,b]$ which is an [antiderivative](antiderivative.md) of $f$ in $(a,b)$}@}, i.e. {@{$$F'(x)=f(x)\quad\forall{x}\in(a,b)$$}@}, then {@{$$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$$}@}. <!--SR:!2027-08-05,619,190!2026-08-29,323,351!2026-08-31,325,351!2026-09-12,336,351!fsrs,2030-09-19T00:00:00.000Z,1482,1481.61921346,1,2,9,0,0,2026-08-29T00:00:00.000Z-->
+> Given {@{a [real-valued function](real-valued%20function.md) $f$ [Riemann integrable](Riemann%20integral.md#Riemann%20integrable) on a closed [interval](interval%20(mathematics).md) $[a,b]$}@} and $F$ {@{a [continuous function](continuous%20function.md) on $[a,b]$ which is an [antiderivative](antiderivative.md) of $f$ in $(a,b)$}@}, i.e. {@{$$F'(x)=f(x)\quad\forall{x}\in(a,b)$$}@}, then {@{$$\int_a^b\!f(t)\,\mathrm{d}t=F(b)-F(a)$$}@}. <!--SR:!2027-08-05,619,190!fsrs,2030-09-20T00:00:00.000Z,1482,1481.61921346,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-08-31,325,351!2026-09-12,336,351!fsrs,2030-09-19T00:00:00.000Z,1482,1481.61921346,1,2,9,0,0,2026-08-29T00:00:00.000Z-->
 
 The second part is {@{stronger than the [corollary](#corollary)}@} because $f$ {@{may not be [continuous](continuous%20function.md)}@}. <!--SR:!2027-04-25,893,330!fsrs,2027-10-30T15:24:31.190Z,503,503.12065367,1,2,7,0,0,2026-06-14T15:24:31.190Z-->
 

@@ -287,7 +287,7 @@ Below is an example of {@{_roles_ \(actor _description_\) in a course registrati
 
 - course registration system, student ::@:: — enrolls, selects alternatives, changes schedule. <!--SR:!2027-05-14,470,394!2027-06-10,492,394-->
 - course registration system, instructor ::@:: — declares teaching assignments, views enrollments. <!--SR:!2027-03-12,418,394!2027-05-31,482,394-->
-- course registration system, billing system ::@:: — external system that receives registration data to bill students. <!--SR:!2026-08-29,256,374!2027-04-19,445,394-->
+- course registration system, billing system ::@:: — external system that receives registration data to bill students. <!--SR:!fsrs,2030-03-06T00:00:00.000Z,1284,1284.37178167,1,2,9,0,0,2026-08-30T00:00:00.000Z!2027-04-19,445,394-->
 
 {@{Actors}@} are represented by {@{_stick figures_ with annotating text showing their _names_}@}. <!--SR:!2027-04-13,439,394!2027-04-24,450,394-->
 

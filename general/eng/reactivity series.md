@@ -132,8 +132,8 @@ return chain.from_iterable([r.value for r in results])
 - [caesium](caesium.md)→::@::←[rubidium](rubidium.md) <!--SR:!2026-09-26,500,250!2026-12-07,463,230-->
 - [rubidium](rubidium.md)→::@::←[potassium](potassium.md) <!--SR:!2027-09-13,979,250!2028-09-17,1060,250-->
 - [potassium](potassium.md)→::@::←[sodium](sodium.md) <!--SR:!2026-09-02,849,290!2033-07-27,2812,330-->
-- [sodium](sodium.md)→::@::←[lithium](lithium.md) <!--SR:!2027-03-27,579,230!2026-08-29,826,290-->
-- [lithium](lithium.md)→::@::←[barium](barium.md) <!--SR:!2028-12-02,1005,230!2026-08-29,377,210-->
+- [sodium](sodium.md)→::@::←[lithium](lithium.md) <!--SR:!2027-03-27,579,230!fsrs,2034-02-22T00:00:00.000Z,2733,2733.2079687,1.98030797,2,11,0,0,2026-08-30T00:00:00.000Z-->
+- [lithium](lithium.md)→::@::←[barium](barium.md) <!--SR:!2028-12-02,1005,230!fsrs,2028-07-10T00:00:00.000Z,680,679.97278566,6.98822837,2,10,0,0,2026-08-30T00:00:00.000Z-->
 - [barium](barium.md)→::@::←[strontium](strontium.md) <!--SR:!2029-04-18,1404,270!2028-06-04,1045,250-->
 - [strontium](strontium.md)→::@::←[calcium](calcium.md) <!--SR:!fsrs,2029-02-23T00:00:00.000Z,949,948.93970883,5.98276817,2,10,0,0,2026-07-20T00:00:00.000Z!fsrs,2030-03-27T00:00:00.000Z,1357,1356.63680272,3.98153807,2,10,0,0,2026-07-09T00:00:00.000Z-->
 - [calcium](calcium.md)→::@::←[magnesium](magnesium.md) <!--SR:!2027-11-09,1018,270!2026-10-25,407,230-->

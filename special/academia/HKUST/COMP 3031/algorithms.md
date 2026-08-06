@@ -166,6 +166,6 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 > // Type inference allows a shorter form
 > msort(xs)( (x, y) => x < y )
 > ```
-<!--SR:!2026-09-22,254,330!2026-08-29,237,330!2026-11-04,290,330!2026-11-07,293,330!2026-10-24,281,330-->
+<!--SR:!2026-09-22,254,330!fsrs,2029-07-22T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-11-04,290,330!2026-11-07,293,330!2026-10-24,281,330-->
 
 These examples demonstrate how Scala's {@{type inference and higher-order functions}@} enable {@{concise yet powerful generic algorithms}@}. <!--SR:!2026-09-21,253,330!2026-10-17,276,330-->

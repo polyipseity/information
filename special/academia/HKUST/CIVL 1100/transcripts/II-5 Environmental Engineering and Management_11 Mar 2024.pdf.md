@@ -256,7 +256,7 @@ HATS Stage 2 Overview
 - Hong Kong Harbour Area Treatment Scheme Stage II ::@:: HATS Stage 2 <!--SR:!2028-05-16,1133,350!2028-10-29,1247,350-->
     - HATS Stage 2 phases ::@:: 2 phases, stage 2A and stage 2B <!--SR:!2028-05-10,1124,350!2028-08-02,1183,350-->
     - HATS Stage 2A ::@:: collect and treat the remaining 25% sewage from north and south-western Hong Kong Island and future development, and provide disinfection <!--SR:!2031-04-25,1787,290!2028-08-03,1117,310-->
-    - HATS Stage 2B ::@:: biological treatment <!--SR:!2026-08-29,577,310!2032-05-05,2167,330-->
+    - HATS Stage 2B ::@:: biological treatment <!--SR:!fsrs,2032-07-12T00:00:00.000Z,2143,2143.44940804,1,2,10,0,0,2026-08-30T00:00:00.000Z!2032-05-05,2167,330-->
 
 ## page 19
 

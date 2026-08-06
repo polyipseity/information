@@ -273,7 +273,7 @@ Although monads only {@{require `flatMap` and `unit`}@}, {@{a `map` operation}@}
 > ```
 <!--SR:!2026-11-05,291,330!2026-10-12,271,330!2026-10-25,281,330-->
 
-Because {@{every monad supports this construction}@}, it is often convenient to {@{expose a dedicated `map` method for clarity}@}. <!--SR:!2026-10-31,287,330!2026-08-29,227,330-->
+Because {@{every monad supports this construction}@}, it is often convenient to {@{expose a dedicated `map` method for clarity}@}. <!--SR:!2026-10-31,287,330!fsrs,2029-06-13T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-30T00:00:00.000Z-->
 
 ## examples
 

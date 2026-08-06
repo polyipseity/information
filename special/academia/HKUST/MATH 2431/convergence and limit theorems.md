@@ -714,7 +714,7 @@ As long as the transformed variables are iid with finite variance, the same argu
 
 Flashcards for this section are as follows:
 
-- why the weak law matters for large $n$ ::@:: It explains why empirical averages stabilize and become reliable approximations to the true mean for large $n$. <!--SR:!fsrs,2026-08-30T00:00:00.000Z,47,46.93036295,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+- why the weak law matters for large $n$ ::@:: It explains why empirical averages stabilize and become reliable approximations to the true mean for large $n$. <!--SR:!fsrs,2027-06-23T00:00:00.000Z,297,296.59855496,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 - transformed-observation average $\frac1n\sum_{j=1}^n e^{-X_j/2}$ in the weak law: What kind of average is still covered when the transformed variables are iid with finite variance? ::@:: An average such as $\frac1n\sum_{j=1}^n e^{-X_j/2}$ is still covered. <!--SR:!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: proper noun -->

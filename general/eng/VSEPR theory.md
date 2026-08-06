@@ -52,7 +52,7 @@ tags:
 >     - AX<sub>2</sub>E<sub>2</sub> / example(s) ::@:: [H<sub>2</sub>O](water.md) <!--SR:!2027-03-17,320,345!2027-04-06,340,345-->
 > - AX<sub>2</sub>E<sub>3</sub>
 >     - AX<sub>2</sub>E<sub>3</sub> / [shape](molecular%20geometry.md) ::@:: [linear](linear%20molecular%20geometry.md)<br/>![linear](../../archives/Wikimedia%20Commons/AX2E3-3D-balls.png) <!--SR:!fsrs,2028-04-22T00:00:00.000Z,619,618.94941538,1.22984669,2,8,0,0,2026-08-12T00:00:00.000Z!2027-04-06,340,345-->
->     - AX<sub>2</sub>E<sub>3</sub> / ideal bond angle(s) :@: 180° <!--SR:!2026-08-29,152,305-->
+>     - AX<sub>2</sub>E<sub>3</sub> / ideal bond angle(s) :@: 180° <!--SR:!fsrs,2028-06-17T00:00:00.000Z,657,656.6160178,1.22984669,2,8,0,0,2026-08-30T00:00:00.000Z-->
 >     - AX<sub>2</sub>E<sub>3</sub> / example(s) ::@:: [XeF<sub>2</sub>](xenon%20difluoride.md) <!--SR:!2026-10-05,198,325!fsrs,2027-05-15T00:00:00.000Z,276,275.8636202,4.23169184,2,7,0,0,2026-08-12T00:00:00.000Z-->
 > - AX<sub>3</sub>E<sub>0</sub>
 >     - AX<sub>3</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal planar](trigonal%20planar%20molecular%20geometry.md)<br/>![trigonal planar](../../archives/Wikimedia%20Commons/AX3E0-3D-balls.png) <!--SR:!2027-04-05,339,345!2026-10-10,202,325-->
