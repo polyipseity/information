@@ -8,10 +8,10 @@
 
 ## table with colspan
 
-| Full Name <br/> First | Last  | Score <br/> Points |
-| --------------------- | ----- | ------------------ |
-| John                  | Doe   | 95                 |
-| Jane                  | Smith | 87                 |
+| Full Name <br/> First | <br/> Last | Score <br/> Points |
+| --------------------- | ---------- | ------------------ |
+| John                  | Doe        | 95                 |
+| Jane                  | Smith      | 87                 |
 
 ## table with rowspan
 

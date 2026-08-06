@@ -649,6 +649,22 @@ class TestTableHandling:
         assert "Title" in result
         assert "Value" in result
 
+    @pytest.mark.anyio
+    async def test_colspan_header_aligns_lower_only_cells(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Empty upper header cells under colspan should stack lower labels."""
+        html = (
+            "<table><thead>"
+            '<tr><th colspan="2">Full Name</th><th>Score</th></tr>'
+            "<tr><th>First</th><th>Last</th><th>Points</th></tr>"
+            "</thead><tbody>"
+            "<tr><td>John</td><td>Doe</td><td>95</td></tr>"
+            "</tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert "<br/> Last" in result
+
 
 # ---------------------------------------------------------------------------
 

@@ -419,6 +419,8 @@ class TableConverter:
                         target_cell.insert(0, br)
                         for child in reversed(children):
                             target_cell.insert(0, child.extract())
+                    elif target_cell.get_text(strip=True):
+                        target_cell.insert(0, soup.new_tag("br"))
 
             tr.decompose()
 
@@ -595,6 +597,7 @@ class TableConverter:
         whitespace with non-breaking spaces, normalizes pipe characters,
         and converts remaining newlines to ``<br/>`` tags.
         """
+        leading_break = strings.startswith("\n")
         strings = strings.strip()
         strings = _CONSECUTIVE_NEWLINES_REGEX.sub("\n\n", strings)
         strings = _CONSECUTIVE_LEADING_WHITESPACES_REGEX.sub(
@@ -624,6 +627,8 @@ class TableConverter:
         strings = strings.replace("\n\n", " <br/> <br/> ")
         strings = strings.replace("\n", " <br/> ")
         strings = strings.strip()
+        if leading_break:
+            strings = f" <br/> {strings}" if strings else "<br/>"
         return strings
 
 
