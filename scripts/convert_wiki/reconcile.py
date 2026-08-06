@@ -15,27 +15,12 @@ from anyio import Path
 
 from . import config as _cfg
 from .api import _fetch_redirect_status, _load_redirect_cache, _save_redirect_cache
+from .symlinks import _resolve_status_target_filename, _scan_redirect_symlinks
 from .types import _RedirectInfo
-from .utils import (
-    _create_redirect_symlinks,
-    _fix_filename,
-    _fix_name_maybe,
-    _remove_redirect_symlinks,
-)
+from .utils import _create_redirect_symlinks, _remove_redirect_symlinks
 
 """Exported names from this module."""
 __all__ = ()
-
-
-def _target_filename(title: str) -> str:
-    """Map an API title to a local ``*.md`` filename (no extension)."""
-    return _fix_filename(
-        _fix_name_maybe(
-            title,
-            replace_underscores=True,
-            names_map=_cfg._NAMES_MAP,
-        )
-    )
 
 
 @dataclass(frozen=True)
@@ -89,14 +74,7 @@ async def reconcile_redirect_symlinks(
     resolved_cache_path = (
         cache_path if cache_path is not None else _cfg._REDIRECT_CACHE_PATH
     )
-    # (title, lang_dir, symlink path) triples.
-    found: list[tuple[str, Path, Path]] = []
-    async for lang_dir in wiki_dir_path.iterdir():
-        if not await lang_dir.is_dir():
-            continue
-        async for entry in lang_dir.iterdir():
-            if await entry.is_symlink() and entry.name.endswith(".md"):
-                found.append((entry.name.removesuffix(".md"), lang_dir, entry))
+    found = await _scan_redirect_symlinks(wiki_dir_path)
     statuses = await _fetch_redirect_status(session, [t for t, _, _ in found])
     cache = _load_redirect_cache(resolved_cache_path)
     now_iso = datetime.now(timezone.utc).isoformat()
@@ -121,17 +99,11 @@ async def reconcile_redirect_symlinks(
                 await _remove_redirect_symlinks(wiki_dir_path, lang_dir, title)
             cache[title] = _RedirectInfo(to=title, cached_at=now_iso)
             continue
-        # Still a redirect — derive the local target filename.
-        target = f"{_target_filename(status.to)}.md"
-        if status.to != status.final_to:
-            final_target = f"{_target_filename(status.final_to)}.md"
-            # Prefer the final target when the first hop is not ingested
-            # locally but the final target is (avoids dangling symlinks).
-            if (
-                not await (lang_dir / target).exists()
-                and await (lang_dir / final_target).exists()
-            ):
-                target = final_target
+        target = await _resolve_status_target_filename(
+            lang_dir=lang_dir,
+            status=status,
+            names_map=_cfg._NAMES_MAP,
+        )
         if str(await symlink.readlink()) == target:
             kept += 1
             cache[title] = _RedirectInfo(
