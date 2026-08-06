@@ -27,10 +27,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ## Detailed workflow
 
-The workflow alternates between agent-run and human-run steps. After each manual step (marked with ⏸️), the user re-invokes this skill to continue. When resuming, the agent should ask the user:
-
-- Which step to resume from
-- The file path of the note being ingested (`general/<dir_code>/<name>.md`)
+The workflow alternates between agent-run and human-run steps. After each manual step (marked with ⏸️), the user re-invokes this skill to continue. When resuming, the agent should ask the user which step to resume from and the file path of the note being ingested (`general/<dir_code>/<name>.md`). Common resume points: Step 2 after copying HTML, Step 5 after manual editing, Step 6 after review and capitalization fixes.
 
 ### Step 1: Scaffold new note
 
@@ -174,9 +171,46 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 
 ### Step 6: Review and finalize
 
+#### Step 6a: Review and finalize
+
 - Review `aliases` and `tags` in YAML frontmatter
 - Ensure all media references are correct (check `archives/Wikimedia Commons/`)
 - Ensure the note is complete before committing
+
+#### Step 6b: Fix link capitalization (conditional)
+
+Run this when Step 5 review finds wrong link-target casing, wrong `#` heading casing, or a filename stem that does not match the intended canonical form.
+
+1. Identify affected Wikipedia title variants and propose `name_map` entries using the __4 title variants per stem__ convention (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below).
+1. Preview with dry-run:
+
+```bash
+uv run -m scripts.convert_wiki --reprocess \
+  --mapping "Modern physics=Modern physics" \
+  --article "<note_path>" \
+  --dry-run
+```
+
+1. Apply when the dry-run report looks correct:
+
+```bash
+uv run -m scripts.convert_wiki --reprocess \
+  --mapping "Modern physics=Modern physics" \
+  --article "<note_path>"
+```
+
+Replace `<note_path>` with the note from Step 1 (e.g. `general/eng/modern physics.md`). `--article` accepts a stem or path.
+
+| Situation | Flags |
+| --------- | ----- |
+| Fix only the article being ingested | `--mapping` + `--article` |
+| Same mapping affects links in other notes too | add `--update-links` |
+| Update name_map / symlinks only (no body edits) | `--mapping` only (no `--article`) |
+| Preview before writing | `--dry-run` |
+
+Reprocess rewrites markdown link targets and the first `#` heading only; flashcard markup `{@{...}@}` is preserved. Reprocess does __not__ re-fetch Wikipedia HTML — it is not a substitute for Step 3. Full behavior spec: [`tests/scripts/convert_wiki/REPROCESS_SPEC.md`](../../tests/scripts/convert_wiki/REPROCESS_SPEC.md).
+
+When re-invoking the skill to continue, tell the agent the file path of the note and that Step 6 (review and any capitalization fixes) is complete.
 
 ### Step 7: Commit the note
 
@@ -213,19 +247,7 @@ The `--dry-run` flag has no effect without `--update-redirects`. The report prin
 
 ## Maintenance: reprocess articles and name_map
 
-When manual review finds wrong link-target capitalization, update `name_map` entries and reprocess affected articles without re-running the HTML pipeline (flashcards are preserved).
-
-__Command__: `uv run -m scripts.convert_wiki --reprocess --mapping "Modern physics=Modern physics" --article "modern physics"`
-
-- Merges CLI/file mappings into `scripts/assets/convert_wiki.name_map.jsonc` (later sources win)
-- Reconciles redirect symlinks from `redirect_cache` as-if the new mappings existed at ingestion
-- Rewrites markdown link targets and the first `#` heading for listed articles
-- Optionally rewrites links corpus-wide with `--update-links`
-- Add `--dry-run` to preview without writing
-
-Mappings-only (no `--article`): updates the name map and redirect symlinks only. Add `--update-links` to fix link targets across `general/**/*.md`.
-
-See [`tests/scripts/convert_wiki/REPROCESS_SPEC.md`](../../tests/scripts/convert_wiki/REPROCESS_SPEC.md) for the full behavior spec.
+For capitalization fixes during ingestion, see __Step 6b__. The same `--reprocess` command applies for ad-hoc fixes outside the ingestion workflow.
 
 ## Reference: name_map mechanism in `convert_wiki.py`
 
