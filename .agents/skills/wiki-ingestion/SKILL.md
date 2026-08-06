@@ -211,6 +211,22 @@ __Command__: `uv run -m scripts.convert_wiki --update-redirects --dry-run`
 
 The `--dry-run` flag has no effect without `--update-redirects`. The report prints scan/retarget/remove/keep counts and the list of changed titles to stdout.
 
+## Maintenance: reprocess articles and name_map
+
+When manual review finds wrong link-target capitalization, update `name_map` entries and reprocess affected articles without re-running the HTML pipeline (flashcards are preserved).
+
+__Command__: `uv run -m scripts.convert_wiki --reprocess --mapping "Modern physics=Modern physics" --article "modern physics"`
+
+- Merges CLI/file mappings into `scripts/assets/convert_wiki.name_map.jsonc` (later sources win)
+- Reconciles redirect symlinks from `redirect_cache` as-if the new mappings existed at ingestion
+- Rewrites markdown link targets and the first `#` heading for listed articles
+- Optionally rewrites links corpus-wide with `--update-links`
+- Add `--dry-run` to preview without writing
+
+Mappings-only (no `--article`): updates the name map and redirect symlinks only. Add `--update-links` to fix link targets across `general/**/*.md`.
+
+See [`tests/scripts/convert_wiki/REPROCESS_SPEC.md`](../../tests/scripts/convert_wiki/REPROCESS_SPEC.md) for the full behavior spec.
+
 ## Reference: name_map mechanism in `convert_wiki.py`
 
 The name_map is a `dict[str, str]` that maps Wikipedia page titles (or variants) to
@@ -270,13 +286,12 @@ NOT cover the link target; both need separate entries if they differ.
 
 ### Snapshot tests and `aux.json`
 
-The snapshot test uses `tests/scripts/test_convert_wiki/snapshots/<name>.aux.json`
-to supply a pre-computed `name_map` isolating the test from the live filesystem:
+The snapshot test uses `tests/scripts/test_convert_wiki/snapshots/<name>.aux.json` together with the shared `name_map.json` baseline. Per-test overrides use `name_map_overrides`:
 
 ```json
 {
   "redirect_cache": { "Wikipedia title": {"to": "...", "tofragment": ""} },
-  "name_map": { "Fourier transform": "Fourier transform", "fourier transform": "Fourier transform", ... },
+  "name_map_overrides": { "Fourier transform": "Fourier transform" },
   "image_metadata": {}
 }
 ```
