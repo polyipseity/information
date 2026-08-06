@@ -75,8 +75,18 @@ class TestConstants:
         assert _mod._CONVERTED_WIKI_DIRECTORY.name == "general"  # noqa: SLF001
 
     def test_converted_wiki_language_directory(self) -> None:
-        """_CONVERTED_WIKI_LANGUAGE_DIRECTORY should point to general/eng."""
+        """_CONVERTED_WIKI_LANGUAGE_DIRECTORY should point to general/eng/."""
         assert _mod._CONVERTED_WIKI_LANGUAGE_DIRECTORY.name == "eng"  # noqa: SLF001
+
+    def test_archives_commons_directory(self) -> None:
+        """_ARCHIVES_COMMONS_DIRECTORY should point to archives/Wikimedia Commons/."""
+        assert _mod._ARCHIVES_COMMONS_DIRECTORY.name == "Wikimedia Commons"  # noqa: SLF001
+        assert _mod._ARCHIVES_COMMONS_DIRECTORY.parent.name == "archives"  # noqa: SLF001
+
+    def test_archives_commons_index(self) -> None:
+        """_ARCHIVES_COMMONS_INDEX should be index.md inside the commons directory."""
+        assert _mod._ARCHIVES_COMMONS_INDEX.name == "index.md"  # noqa: SLF001
+        assert _mod._ARCHIVES_COMMONS_INDEX.parent == _mod._ARCHIVES_COMMONS_DIRECTORY  # noqa: SLF001
 
     def test_name_map_loaded(self) -> None:
         """_load_names_map should return a non-empty dict from JSONC only."""

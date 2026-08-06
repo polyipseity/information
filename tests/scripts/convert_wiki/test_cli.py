@@ -14,7 +14,9 @@ from unittest.mock import AsyncMock, patch
 
 import pytest
 from anyio import Path as AnyioPath
+from pyarchivist import ArchiveResult
 
+from scripts.convert_wiki import config as _cfg
 from scripts.convert_wiki.cli import main
 from scripts.convert_wiki.reconcile import _ReconcileReport
 from scripts.convert_wiki.types import _ReprocessReport
@@ -349,6 +351,42 @@ class TestMainInput:
 
         mock_paste.assert_called_once()
         mock_run.assert_called_once()
+
+
+class TestMainArchive:
+    """Test ``main()`` archives media to repo-root absolute paths."""
+
+    @pytest.mark.anyio
+    @patch("scripts.convert_wiki.cli.stdin", autospec=True)
+    async def test_archive_uses_repo_root_paths(
+        self,
+        mock_stdin: AsyncMock,
+        minimal_html: str,
+        expected_markdown: str,
+        monkeypatch: pytest.MonkeyPatch,
+    ) -> None:
+        """pyarchivist should receive absolute archive paths under the repo."""
+        mock_stdin.read.return_value = minimal_html
+        monkeypatch.setattr("sys.argv", ["convert_wiki", "-m", "stdout"])
+        out_to_archive = {"File:Modernphysicsfields.svg"}
+
+        with (
+            patch("scripts.convert_wiki.cli.print"),
+            patch("scripts.convert_wiki.pipeline.run_pipeline") as mock_run,
+            patch("scripts.convert_wiki.cli.pyarchivist_archive") as mock_archive,
+        ):
+            mock_run.return_value = (expected_markdown, out_to_archive)
+            mock_archive.return_value = ArchiveResult(
+                downloaded=1,
+                skipped=0,
+                errors=(),
+            )
+            await main()
+
+        mock_archive.assert_called_once()
+        args = mock_archive.call_args.args[0]
+        assert args.dest == AnyioPath(_cfg._ARCHIVES_COMMONS_DIRECTORY)
+        assert args.index == AnyioPath(_cfg._ARCHIVES_COMMONS_INDEX)
 
 
 class TestMainError:
