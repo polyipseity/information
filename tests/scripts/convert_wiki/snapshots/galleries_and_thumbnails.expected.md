@@ -12,8 +12,12 @@
 
 ## thumbnails
 
-> [![Thumbnail image](https://upload.wikimedia.org/wikipedia/en/t/thumb_image.jpg)](https://en.wikipedia.org/wiki/File:Thumb_image.jpg)Thumbnail caption explaining the image.
+> ![Thumbnail image](https://upload.wikimedia.org/wikipedia/en/t/thumb_image.jpg)
+>
+> Thumbnail caption explaining the image.
 
 <!-- markdownlint MD028 -->
 
-> [![File:Another thumb.png](https://upload.wikimedia.org/wikipedia/en/t/another_thumb.png)](https://en.wikipedia.org/wiki/File:Another_thumb.png)Another thumbnail with empty alt.
+> ![File:Another thumb.png](https://upload.wikimedia.org/wikipedia/en/t/another_thumb.png)
+>
+> Another thumbnail with empty alt.
