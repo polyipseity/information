@@ -6,6 +6,12 @@ Another statement with multiple citations<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]]
 
 Statement with a named reference<sup>[\[4\]](#^ref-4)</sup>.
 
+Statement with an explanatory note<sup>[\[note 1\]](#^note-1)</sup>.
+
+## notes
+
+1. Additional context that belongs in a note, not a bibliography entry.  <a id="^note-1"></a>^note-1
+
 ## references
 
 1. <a id="CITEREFAuthor2024"></a> Author \(2024\). "Source Title". Journal Name.  <a id="^ref-1"></a>^ref-1
