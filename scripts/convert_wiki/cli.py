@@ -161,8 +161,8 @@ async def main() -> None:
         result: ArchiveResult = await pyarchivist_archive(
             Args(
                 inputs=tuple(out_to_archive),
-                dest=anyio.Path("../archives/Wikimedia Commons/"),
-                index=anyio.Path("../archives/Wikimedia Commons/index.md"),
+                dest=anyio.Path(_cfg._ARCHIVES_COMMONS_DIRECTORY),
+                index=anyio.Path(_cfg._ARCHIVES_COMMONS_INDEX),
                 ignore_individual_errors=True,
                 skip_existing=True,
                 request_timeout=30.0,
