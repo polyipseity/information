@@ -146,6 +146,12 @@ _DATA_DIRECTORY = _SCRIPT_DIRECTORY / "assets"
 _CONVERTED_WIKI_DIRECTORY = _SCRIPT_DIRECTORY.parent / "general"
 "Subdirectory for language-specific Wikipedia notes (will be made dynamic in Phase 7)."
 _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
+"Directory where Wikimedia Commons media archives are stored."
+_ARCHIVES_COMMONS_DIRECTORY = (
+    _SCRIPT_DIRECTORY.parent / "archives" / "Wikimedia Commons"
+)
+"Index file for the Wikimedia Commons media archive."
+_ARCHIVES_COMMONS_INDEX = _ARCHIVES_COMMONS_DIRECTORY / "index.md"
 
 "Filename rename map loaded from JSONC."
 _NAMES_MAP_NAME = "convert_wiki"
