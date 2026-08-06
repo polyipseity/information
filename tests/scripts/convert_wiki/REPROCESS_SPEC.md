@@ -6,21 +6,23 @@
 
 | Input | Semantics |
 | ----- | --------- |
-| `--mapping KEY=VALUE` | Repeatable; title variant → canonical local stem (same as `name_map.jsonc`) |
-| `--mapping-file` | JSONC object merged before CLI mappings (CLI wins on conflict) |
+| `--mapping TITLE STEM` | Repeatable two-arg pair; title variant → canonical local stem (same as `name_map.jsonc`) |
+| `--mapping-file` | JSONC object (mutually exclusive with `--mapping`) |
 | `--article` | Repeatable; stem or path under `general/` |
 | `--update-links` | Rewrite link targets in all `general/**/*.md` real files |
 | `--dry-run` | Plan only; no writes |
 
-At least one of `--mapping`, `--mapping-file`, or `--article` is required.
+`--mapping` and `--mapping-file` cannot be used together. At least one of `--mapping`, `--mapping-file`, or `--article` is required.
 
 ## Merge precedence
 
 ```text
-effective_map = base_names_map | file_mappings | cli_mappings
-```
+# inline path
+effective_map = base_names_map | cli_pairs
 
-Later sources override earlier ones.
+# file path
+effective_map = base_names_map | file_mappings
+```
 
 ## Invariants
 
@@ -81,22 +83,33 @@ Operations are sequential, not transactional across the whole run.
 ## CLI examples
 
 ```bash
-# Mapping + one article
+# Inline mapping + one article
 uv run -m scripts.convert_wiki --reprocess \
-  --mapping "Modern physics=Modern physics" \
+  --mapping "Modern physics" "Modern physics" \
+  --article "modern physics"
+
+# Multiple title variants (repeat --mapping)
+uv run -m scripts.convert_wiki --reprocess \
+  --mapping "Modern physics" "Modern physics" \
+  --mapping "modern physics" "Modern physics" \
+  --article "general/eng/modern physics.md"
+
+# File mapping (batch variants)
+uv run -m scripts.convert_wiki --reprocess \
+  --mapping-file fixes.jsonc \
   --article "modern physics"
 
 # Mapping only (name_map + symlinks)
 uv run -m scripts.convert_wiki --reprocess \
-  --mapping "Modern physics=Modern physics"
+  --mapping "Modern physics" "Modern physics"
 
 # Corpus-wide link fixes
 uv run -m scripts.convert_wiki --reprocess \
-  --mapping "Modern physics=Modern physics" \
+  --mapping "Modern physics" "Modern physics" \
   --update-links
 
 # Preview
 uv run -m scripts.convert_wiki --reprocess \
-  --mapping "Modern physics=Modern physics" \
+  --mapping "Modern physics" "Modern physics" \
   --dry-run
 ```

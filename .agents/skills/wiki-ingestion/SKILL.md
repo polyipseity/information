@@ -181,12 +181,12 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 
 Run this when Step 5 review finds wrong link-target casing, wrong `#` heading casing, or a filename stem that does not match the intended canonical form.
 
-1. Identify affected Wikipedia title variants and propose `name_map` entries using the __4 title variants per stem__ convention (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below).
+1. Identify affected Wikipedia title variants and propose `name_map` entries using the __4 title variants per stem__ convention (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below). Use repeated `--mapping TITLE STEM` flags for multiple variants, or a single `--mapping-file` JSONC object (not both).
 1. Preview with dry-run:
 
 ```bash
 uv run -m scripts.convert_wiki --reprocess \
-  --mapping "Modern physics=Modern physics" \
+  --mapping "Modern physics" "Modern physics" \
   --article "<note_path>" \
   --dry-run
 ```
@@ -195,7 +195,7 @@ uv run -m scripts.convert_wiki --reprocess \
 
 ```bash
 uv run -m scripts.convert_wiki --reprocess \
-  --mapping "Modern physics=Modern physics" \
+  --mapping "Modern physics" "Modern physics" \
   --article "<note_path>"
 ```
 
@@ -203,10 +203,13 @@ Replace `<note_path>` with the note from Step 1 (e.g. `general/eng/modern physic
 
 | Situation | Flags |
 | --------- | ----- |
-| Fix only the article being ingested | `--mapping` + `--article` |
+| Fix only the article being ingested | `--mapping TITLE STEM` + `--article` |
+| Multiple title variants for one stem | repeat `--mapping TITLE STEM`, or use `--mapping-file` |
 | Same mapping affects links in other notes too | add `--update-links` |
-| Update name_map / symlinks only (no body edits) | `--mapping` only (no `--article`) |
+| Update name_map / symlinks only (no body edits) | `--mapping` or `--mapping-file` only (no `--article`) |
 | Preview before writing | `--dry-run` |
+
+`--mapping` and `--mapping-file` are mutually exclusive.
 
 Reprocess rewrites markdown link targets and the first `#` heading only; flashcard markup `{@{...}@}` is preserved. Reprocess does __not__ re-fetch Wikipedia HTML — it is not a substitute for Step 3. Full behavior spec: [`tests/scripts/convert_wiki/REPROCESS_SPEC.md`](../../tests/scripts/convert_wiki/REPROCESS_SPEC.md).
 
