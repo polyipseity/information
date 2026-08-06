@@ -17,6 +17,7 @@ from anyio import Path as AnyioPath
 
 from scripts.convert_wiki.cli import main
 from scripts.convert_wiki.reconcile import _ReconcileReport
+from scripts.convert_wiki.types import _ReprocessReport
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -74,9 +75,38 @@ def parser() -> argparse.ArgumentParser:
         help="Reconcile redirect symlinks against the live API instead of converting HTML.",
     )  # noqa: E501
     p.add_argument(
+        "--reprocess",
+        action="store_true",
+        help="Reprocess articles and name_map entries without converting HTML.",
+    )
+    p.add_argument(
+        "--mapping",
+        action="append",
+        default=[],
+        metavar="KEY=VALUE",
+        help="Name map entry for --reprocess (repeatable).",
+    )
+    p.add_argument(
+        "--mapping-file",
+        type=Path,
+        help="JSONC name map merged before --mapping entries for --reprocess.",
+    )
+    p.add_argument(
+        "--article",
+        action="append",
+        default=[],
+        metavar="ARTICLE",
+        help="Article stem or path to reprocess (repeatable).",
+    )
+    p.add_argument(
+        "--update-links",
+        action="store_true",
+        help="With --reprocess, rewrite link targets corpus-wide.",
+    )
+    p.add_argument(
         "--dry-run",
         action="store_true",
-        help="With --update-redirects, report reconciliation actions without changing anything.",
+        help="With --update-redirects or --reprocess, report actions without changing anything.",
     )  # noqa: E501
     return p
 
@@ -422,3 +452,88 @@ class TestMainUpdateRedirects:
 
         mock_reconcile.assert_not_called()
         mock_run.assert_called_once()
+
+
+class TestMainReprocess:
+    """Test ``main()`` with ``--reprocess`` (maintenance mode)."""
+
+    @pytest.mark.anyio
+    async def test_reprocess_runs_and_skips_html(
+        self,
+        monkeypatch: pytest.MonkeyPatch,
+    ) -> None:
+        """--reprocess should run reprocess_articles and skip HTML input."""
+        report = _ReprocessReport(
+            mappings_added=1,
+            symlinks_created=0,
+            symlinks_removed=0,
+            symlinks_retargeted=0,
+            files_renamed=0,
+            articles_rewritten=0,
+            links_updated_corpus=0,
+            dry_run=False,
+            changed=("Modern physics",),
+        )
+        monkeypatch.setattr(
+            "sys.argv",
+            [
+                "convert_wiki",
+                "--reprocess",
+                "--mapping",
+                "Modern physics=Modern physics",
+            ],
+        )
+
+        with (
+            patch("scripts.convert_wiki.cli.stdin") as mock_stdin,
+            patch("scripts.convert_wiki.cli.reprocess_articles") as mock_reprocess,
+            patch("scripts.convert_wiki.pipeline.run_pipeline") as mock_run,
+            patch("scripts.convert_wiki.cli.print") as mock_print,
+        ):
+            mock_reprocess.return_value = report
+            await main()
+
+        mock_reprocess.assert_called_once()
+        mock_stdin.read.assert_not_called()
+        mock_run.assert_not_called()
+        mock_print.assert_any_call(
+            "Reprocess: mappings_added=1, symlinks_created=0, symlinks_removed=0, "
+            "symlinks_retargeted=0, files_renamed=0, articles_rewritten=0, "
+            "links_updated_corpus=0, dry_run=False"
+        )
+        mock_print.assert_any_call("Changed: Modern physics")
+
+    @pytest.mark.anyio
+    async def test_reprocess_dry_run_passthrough(
+        self,
+        monkeypatch: pytest.MonkeyPatch,
+    ) -> None:
+        """--dry-run should be forwarded to the reprocess request."""
+        report = _ReprocessReport(
+            mappings_added=0,
+            symlinks_created=0,
+            symlinks_removed=0,
+            symlinks_retargeted=0,
+            files_renamed=0,
+            articles_rewritten=0,
+            links_updated_corpus=0,
+            dry_run=True,
+            changed=(),
+        )
+        monkeypatch.setattr(
+            "sys.argv",
+            [
+                "convert_wiki",
+                "--reprocess",
+                "--mapping",
+                "Modern physics=Modern physics",
+                "--dry-run",
+            ],
+        )
+
+        with patch("scripts.convert_wiki.cli.reprocess_articles") as mock_reprocess:
+            mock_reprocess.return_value = report
+            await main()
+
+        request = mock_reprocess.call_args.args[0]
+        assert request.dry_run is True
