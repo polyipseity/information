@@ -179,7 +179,7 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 
 #### Step 6b: Fix link capitalization (conditional)
 
-Run this when Step 5 review finds wrong link-target casing, wrong `#` heading casing, or a filename stem that does not match the intended canonical form.
+Run this when Step 5 review finds wrong link-target casing, wrong `#` heading casing, or a filename stem that does not match the intended canonical form. The same `--reprocess` command applies for ad-hoc fixes outside the ingestion workflow.
 
 1. Identify affected Wikipedia title variants and propose `name_map` entries using the __4 title variants per stem__ convention (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below). Use repeated `--mapping TITLE STEM` flags for multiple variants, or a single `--mapping-file` JSONC object (not both).
 1. Preview with dry-run:
@@ -209,9 +209,20 @@ Replace `<note_path>` with the note from Step 1 (e.g. `general/eng/modern physic
 | Update name_map / symlinks only (no body edits) | `--mapping` or `--mapping-file` only (no `--article`) |
 | Preview before writing | `--dry-run` |
 
-`--mapping` and `--mapping-file` are mutually exclusive.
+`--mapping` and `--mapping-file` are mutually exclusive. At least one of `--mapping`, `--mapping-file`, or `--article` is required.
 
-Reprocess rewrites markdown link targets and the first `#` heading only; flashcard markup `{@{...}@}` is preserved. Reprocess does __not__ re-fetch Wikipedia HTML — it is not a substitute for Step 3. Full behavior spec: [`tests/scripts/convert_wiki/REPROCESS_SPEC.md`](../../tests/scripts/convert_wiki/REPROCESS_SPEC.md).
+`--reprocess` updates `name_map.jsonc`, reconciles redirect symlinks as-if the mappings existed at ingestion, and rewrites markdown link targets — it does __not__ re-fetch Wikipedia HTML and is not a substitute for Step 3. Merge precedence: `effective_map = base_names_map | cli_pairs` (inline `--mapping`) or `base_names_map | file_mappings` (`--mapping-file`).
+
+| Invariant | Rule |
+| --------- | ---- |
+| Real files | `.md` files are never deleted or overwritten by symlink operations |
+| Symlinks | Created, retargeted, or removed only when `from_stem != to_stem` |
+| Markdown | Link targets and the first `#` heading only; flashcard `{@{...}@}` preserved |
+| Collisions | Rename collisions raise before any markdown rewrites |
+
+Stem migration compares `_stem_for_title(title, base_map)` vs `_stem_for_title(title, effective_map)` for titles in the redirect cache, effective map, and listed articles. Example: mapping `"Modern physics": "modern physics"` → `"Modern physics": "Modern physics"` renames `general/eng/modern physics.md` to `Modern physics.md`, updates link targets, and removes the redirect symlink when from == to.
+
+Apply order: persist map → symlink actions → file renames → markdown rewrites (sequential, not transactional). Add `--update-links` for corpus-wide link fixes; use `--mapping-file` for batch variant entries.
 
 When re-invoking the skill to continue, tell the agent the file path of the note and that Step 6 (review and any capitalization fixes) is complete.
 
@@ -247,10 +258,6 @@ Add `--dry-run` to report what would change without modifying anything:
 __Command__: `uv run -m scripts.convert_wiki --update-redirects --dry-run`
 
 The `--dry-run` flag has no effect without `--update-redirects`. The report prints scan/retarget/remove/keep counts and the list of changed titles to stdout.
-
-## Maintenance: reprocess articles and name_map
-
-For capitalization fixes during ingestion, see __Step 6b__. The same `--reprocess` command applies for ad-hoc fixes outside the ingestion workflow.
 
 ## Reference: name_map mechanism in `convert_wiki.py`
 
