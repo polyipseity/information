@@ -3,8 +3,10 @@
 These tests cover the module-level constants and configuration helpers.
 """
 
+import json
 import os
 from os import PathLike
+from pathlib import Path as PathlibPath
 
 from anyio import Path
 
@@ -77,13 +79,24 @@ class TestConstants:
         assert _mod._CONVERTED_WIKI_LANGUAGE_DIRECTORY.name == "eng"  # noqa: SLF001
 
     def test_name_map_loaded(self) -> None:
-        """_build_names_map should return a non-empty dict from JSONC and wiki scan."""
-        result = _mod._build_names_map()  # noqa: SLF001
+        """_load_names_map should return a non-empty dict from JSONC only."""
+        result = _mod._load_names_map()  # noqa: SLF001
         assert isinstance(result, dict)
         assert len(result) > 0
 
+    def test_load_names_map_from_custom_path(self, tmp_path: PathLike[str]) -> None:
+        """_load_names_map should load only from the given JSONC path."""
+        custom_map = {"Foo": "foo", "Bar baz": "bar baz"}
+        map_path = PathlibPath(os.fspath(tmp_path)) / "custom.name_map.jsonc"
+        map_path.write_text(
+            json.dumps(custom_map, ensure_ascii=False, indent=2) + "\n",
+            encoding="UTF-8",
+        )
+        result = _mod._load_names_map(map_path)  # noqa: SLF001
+        assert result == custom_map
+
     def test_names_map_exists(self) -> None:
-        """_NAMES_MAP should be a dict with entries from both maps."""
+        """_NAMES_MAP should be a dict loaded from the JSONC name map."""
         assert isinstance(_mod._NAMES_MAP, dict)  # noqa: SLF001
 
     def test_markdown_separator(self) -> None:

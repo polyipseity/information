@@ -1,7 +1,7 @@
 """Configuration constants for the Wikipedia HTML-to-Markdown converter.
 
 This module contains all module-level constants, regex patterns, file paths,
-and the filename-rename map builder.  Pure configuration with no conversion
+and the filename-rename map loader.  Pure configuration with no conversion
 logic.
 """
 
@@ -147,56 +147,27 @@ _CONVERTED_WIKI_DIRECTORY = _SCRIPT_DIRECTORY.parent / "general"
 "Subdirectory for language-specific Wikipedia notes (will be made dynamic in Phase 7)."
 _CONVERTED_WIKI_LANGUAGE_DIRECTORY = _CONVERTED_WIKI_DIRECTORY / "eng"
 
-"Combined filename rename map merging auto-detected and manual entries."
+"Filename rename map loaded from JSONC."
 _NAMES_MAP_NAME = "convert_wiki"
 "Name used for the names map file (``{_NAMES_MAP_NAME}.name_map.jsonc``)."
 
-_NAMES_MAP: dict[str, str]
 
-
-def _build_names_map(
-    name_map_path: PathLike[str] | None = None,
-    wiki_dir: PathLike[str] | None = None,
-) -> dict[str, str]:
-    """Build the combined filename rename map from the JSONC file and wiki directory scan.
+def _load_names_map(name_map_path: PathLike[str] | None = None) -> dict[str, str]:
+    """Load the filename rename map from the JSONC file.
 
     Parameters
     ----------
     name_map_path:
-        Path to the manual name map JSONC file.
+        Path to the name map JSONC file.
         Defaults to ``_DATA_DIRECTORY / \"{_NAMES_MAP_NAME}.name_map.jsonc\"``.
-    wiki_dir:
-        Wiki directory to scan for Markdown files.
-        Defaults to ``_CONVERTED_WIKI_DIRECTORY``.
     """
     path = name_map_path or _DATA_DIRECTORY / f"{_NAMES_MAP_NAME}.name_map.jsonc"
     with open(path, "rt", encoding="UTF-8") as f:
-        names_map_manual = json5.load(f)
-    wiki_dir = wiki_dir or _CONVERTED_WIKI_DIRECTORY
-    names_map = {
-        key: val
-        for entry in PathlibPath(wiki_dir).iterdir()
-        if (filename := entry.name).endswith(".md")
-        for key, val in (
-            (f"{filename[:1].upper()}{filename[1:-3]}", filename[:-3]),
-            (
-                f"{filename[:1].upper()}{filename[1:-3]}".replace("'", "’"),
-                filename[:-3].replace("'", "’"),
-            ),
-            (f"{filename[:1].lower()}{filename[1:-3]}", filename[:-3]),
-            (
-                f"{filename[:1].lower()}{filename[1:-3]}".replace("'", "’"),
-                filename[:-3].replace("'", "’"),
-            ),
-        )
-    }
-    if overlap := frozenset(names_map).intersection(names_map_manual):
-        raise ValueError(overlap)
-    return names_map | names_map_manual
+        return json5.load(f)
 
 
-"""Assigned at module level: built from auto-discovered files plus manual JSONC overrides."""
-_NAMES_MAP = _build_names_map()
+"""Assigned at module level: loaded from JSONC only."""
+_NAMES_MAP = _load_names_map()
 
 # Redirect cache & API configuration
 "Path to the redirect resolution cache file."
