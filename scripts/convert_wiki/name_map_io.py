@@ -1,7 +1,7 @@
 """Load, merge, and persist the Wikipedia title rename map."""
 
 import json
-from collections.abc import Mapping
+from collections.abc import Mapping, Sequence
 from contextlib import suppress
 from os import PathLike
 
@@ -19,6 +19,14 @@ def _merge_names_maps(*maps: Mapping[str, str]) -> dict[str, str]:
     for names_map in maps:
         merged.update(names_map)
     return merged
+
+
+def _pairs_to_map(pairs: Sequence[tuple[str, str]]) -> dict[str, str]:
+    """Convert CLI ``--mapping TITLE STEM`` pairs to a name map."""
+    mappings: dict[str, str] = {}
+    for title, stem in pairs:
+        mappings[title] = stem
+    return mappings
 
 
 def _new_mapping_keys(

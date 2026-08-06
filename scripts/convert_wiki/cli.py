@@ -21,7 +21,7 @@ from pyarchivist.Wikimedia_Commons import archive as pyarchivist_archive
 from pyperclip import copy as clip_copy
 
 from . import config as _cfg
-from .name_map_io import _merge_names_maps
+from .name_map_io import _pairs_to_map
 from .pipeline import run_pipeline
 from .reconcile import reconcile_redirect_symlinks
 from .reprocess import reprocess_articles
@@ -76,15 +76,15 @@ async def main() -> None:
     )
     parser.add_argument(
         "--mapping",
+        nargs=2,
         action="append",
-        default=[],
-        metavar="KEY=VALUE",
-        help="Name map entry for --reprocess (repeatable).",
+        metavar=("TITLE", "STEM"),
+        help="Name map entry for --reprocess (repeatable TITLE STEM pair).",
     )
     parser.add_argument(
         "--mapping-file",
         type=Path,
-        help="JSONC name map merged before --mapping entries for --reprocess.",
+        help="JSONC name map for --reprocess (mutually exclusive with --mapping).",
     )
     parser.add_argument(
         "--article",
@@ -110,8 +110,10 @@ async def main() -> None:
         parser.error("--reprocess cannot be combined with --update-redirects.")
 
     if args.reprocess:
+        if args.mapping and args.mapping_file is not None:
+            parser.error("--mapping and --mapping-file are mutually exclusive.")
         await _run_reprocess_maintenance(
-            mappings=_parse_mappings(args.mapping),
+            mapping_pairs=tuple(tuple(pair) for pair in args.mapping or ()),
             mapping_file=args.mapping_file,
             articles=tuple(args.article),
             update_links=args.update_links,
@@ -200,18 +202,6 @@ async def main() -> None:
 __all__ = ()
 
 
-def _parse_mappings(entries: list[str]) -> dict[str, str]:
-    """Parse ``KEY=VALUE`` mapping CLI arguments."""
-    mappings: dict[str, str] = {}
-    for entry in entries:
-        if "=" not in entry:
-            msg = f"invalid --mapping (expected KEY=VALUE): {entry!r}"
-            raise ValueError(msg)
-        key, value = entry.split("=", 1)
-        mappings[key] = value
-    return mappings
-
-
 def _load_mapping_file(path: Path) -> dict[str, str]:
     """Load a JSONC mapping file from *path*."""
     with open(path, "rt", encoding="UTF-8") as handle:
@@ -224,23 +214,28 @@ def _load_mapping_file(path: Path) -> dict[str, str]:
 
 async def _run_reprocess_maintenance(
     *,
-    mappings: dict[str, str],
+    mapping_pairs: tuple[tuple[str, str], ...],
     mapping_file: Path | None,
     articles: tuple[str, ...],
     update_links: bool,
     dry_run: bool,
 ) -> None:
     """Run name_map reprocess maintenance without converting HTML."""
-    file_mappings: dict[str, str] = {}
+    if mapping_pairs and mapping_file is not None:
+        msg = "--mapping and --mapping-file are mutually exclusive"
+        raise ValueError(msg)
     if mapping_file is not None:
-        file_mappings = _load_mapping_file(mapping_file)
-    merged_mappings = _merge_names_maps(file_mappings, mappings)
-    if not merged_mappings and not articles:
+        mappings = _load_mapping_file(mapping_file)
+    elif mapping_pairs:
+        mappings = _pairs_to_map(mapping_pairs)
+    else:
+        mappings = {}
+    if not mappings and not articles:
         msg = "at least one of --mapping, --mapping-file, or --article is required"
         raise ValueError(msg)
     report = await reprocess_articles(
         _ReprocessRequest(
-            mappings=merged_mappings,
+            mappings=mappings,
             articles=articles,
             update_links=update_links,
             dry_run=dry_run,
