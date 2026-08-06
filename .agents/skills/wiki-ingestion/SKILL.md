@@ -217,9 +217,14 @@ The name_map is a `dict[str, str]` that maps Wikipedia page titles (or variants)
 local filename stems used in `general/eng/`. It ensures links and section headers in
 ingested Wikipedia articles use the correct casing to match actual `general/eng/*.md` files.
 
-### How entries are generated (`_build_names_map`)
+### How entries are maintained (`_load_names_map`)
 
-Auto-discovers all `general/*/*.md` files, producing __4 entries per file__:
+All entries live in `scripts/assets/convert_wiki.name_map.jsonc`. The map is loaded at
+import time with no filesystem scan. Redirect symlinks under `general/` still exist for
+navigation, but they no longer feed name_map implicitly.
+
+When adding or fixing entries manually, use the __4 title variants per filename stem__
+convention (especially for redirect source titles):
 
 | Key (Wikipedia-style title)                                             | Value (local filename stem)             |
 | ----------------------------------------------------------------------- | --------------------------------------- |
@@ -228,8 +233,7 @@ Auto-discovers all `general/*/*.md` files, producing __4 entries per file__:
 | `three-...` (first char lowercased)                                     | `Three-dimensional space (mathematics)` |
 | lowercased + curly apostrophe variant                                   | same with curly apostrophe              |
 
-Then merged with manual entries from `scripts/assets/convert_wiki.name_map.jsonc`.
-Conflicting keys between auto and manual map raise `ValueError`.
+Add explicit JSONC entries when `_fix_name_maybe` heuristics are insufficient.
 
 ### How lookup works (`_fix_name_maybe`)
 
