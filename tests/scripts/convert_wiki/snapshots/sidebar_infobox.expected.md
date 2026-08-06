@@ -16,8 +16,9 @@ Geography and climate details go here.
 
 History and culture details go here.
 
-## sidebar nav
+## sidebar content
 
-<!-- - [Related topic 1](related%20topic%201.md)
-- [Related topic 2](related%20topic%202.md)
-- [Related topic 3](related%20topic%203.md) -->
+| Sample sidebar                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| - [Related topic 1](related%20topic%201.md) <br/> - [Related topic 2](related%20topic%202.md) <br/> - [Related topic 3](related%20topic%203.md)                                                                                             |
+| <!-- - [v](https://en.wikipedia.org/wiki/Template:Sample%20sidebar) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Sample%20sidebar) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3ASample%20sidebar) --> |
