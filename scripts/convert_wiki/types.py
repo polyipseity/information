@@ -5,8 +5,10 @@ Contains ``_RedirectInfo``, ``_RedirectStatus``, ``_HandlerConfig``,
 ``_ApiResponse``.
 """
 
-from collections.abc import Callable
+from collections.abc import Callable, Mapping
 from dataclasses import dataclass
+from enum import Enum
+from os import PathLike
 from typing import NotRequired, TypedDict
 
 """Exported names from this module."""
@@ -134,3 +136,82 @@ class _HandlerConfig:
     process_strings: Callable[[str], str] = staticmethod(lambda s: s)
     full_result: bool = False
     list_stack: tuple[int, ...] | None = None
+
+
+class _SymlinkActionKind(Enum):
+    """Kind of redirect symlink mutation."""
+
+    CREATE = "create"
+    REMOVE = "remove"
+    RETARGET = "retarget"
+
+
+@dataclass(frozen=True)
+class _SymlinkAction:
+    """A planned redirect symlink mutation."""
+
+    kind: _SymlinkActionKind
+    from_stem: str
+    to_stem: str
+    lang_dir_name: str
+
+
+@dataclass(frozen=True)
+class _RenameAction:
+    """A planned article file rename."""
+
+    lang_dir_name: str
+    old_stem: str
+    new_stem: str
+
+
+@dataclass(frozen=True)
+class _StemMigration:
+    """An old-to-new filename stem change."""
+
+    old_stem: str
+    new_stem: str
+
+
+@dataclass(frozen=True)
+class _ReprocessRequest:
+    """User request for a reprocess run."""
+
+    mappings: Mapping[str, str]
+    articles: tuple[str, ...]
+    update_links: bool
+    dry_run: bool
+    wiki_dir: PathLike[str] | None = None
+    cache_path: PathLike[str] | None = None
+    name_map_path: PathLike[str] | None = None
+
+
+@dataclass(frozen=True)
+class _ReprocessPlan:
+    """Immutable plan produced before any mutations."""
+
+    effective_map: Mapping[str, str]
+    new_mapping_keys: tuple[str, ...]
+    stem_migrations: tuple[_StemMigration, ...]
+    symlink_actions: tuple[_SymlinkAction, ...]
+    rename_actions: tuple[_RenameAction, ...]
+    rewrite_targets: tuple[PathLike[str], ...]
+    heading_updates: Mapping[str, str]
+    wiki_dir: PathLike[str]
+    cache_path: PathLike[str]
+    name_map_path: PathLike[str]
+
+
+@dataclass(frozen=True)
+class _ReprocessReport:
+    """Summary of a completed reprocess run."""
+
+    mappings_added: int
+    symlinks_created: int
+    symlinks_removed: int
+    symlinks_retargeted: int
+    files_renamed: int
+    articles_rewritten: int
+    links_updated_corpus: int
+    dry_run: bool
+    changed: tuple[str, ...]
