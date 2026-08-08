@@ -1109,6 +1109,7 @@
   "Compound Poisson processes": "compound Poisson processes",
   "Compression (physics)": "compression (physics)",
   "Compton effect": "Compton effect",
+  "Compton scattering": "Compton scattering",
   "Computable": "computable",
   "Computer storage": "computer storage",
   "Computer-aided geometric design": "computer-aided geometric design",
@@ -5278,6 +5279,7 @@
   "Russian financial crisis (2014–2016)": "Russian financial crisis (2014–2016)",
   "Rust": "rust",
   "Rutherford model": "Rutherford model",
+  "Rutherford scattering experiments": "Rutherford scattering experiments",
   "Rydberg formula": "Rydberg formula",
   "Rydberg formulae": "Rydberg formulae",
   "Rydberg formulas": "Rydberg formulas",
@@ -7121,6 +7123,7 @@
   "compositional semantics": "compositional semantics",
   "compositionality": "compositionality",
   "compression (physics)": "compression (physics)",
+  "compton scattering": "Compton scattering",
   "computable": "computable",
   "computer storage": "computer storage",
   "computer-aided geometric design": "computer-aided geometric design",
@@ -9344,6 +9347,7 @@
   "run sequence plot": "run sequence plot",
   "rust": "rust",
   "rutherford model": "Rutherford model",
+  "rutherford scattering experiments": "Rutherford scattering experiments",
   "s-domain": "s-domain",
   "s-parameters": "S-parameters",
   "s-polarized light": "s-polarized light",
@@ -10102,5 +10106,5 @@
   "σ-algebra": "σ-algebra",
   "修辭": "修辭",
   "寫作手法": "寫作手法",
-  "論語": "論語",
+  "論語": "論語"
 }

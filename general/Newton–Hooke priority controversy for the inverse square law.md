@@ -1,0 +1,1 @@
+eng/Newton–Hooke priority controversy for the inverse square law.md
