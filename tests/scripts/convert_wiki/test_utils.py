@@ -105,6 +105,41 @@ class TestMarkdownFragment:
         assert result.startswith("#")
 
 
+class TestFindChildExact:
+    """Tests for exact basename lookup."""
+
+    @pytest.mark.anyio
+    async def test_distinguishes_case(self, tmp_path: PathLike[str]) -> None:
+        """Wrong casing must not match canonical basename."""
+        parent = AnyioPath(tmp_path)
+        await (parent / "Exponential map.md").write_text("x", encoding="UTF-8")
+
+        assert await _mod._find_child_exact(parent, "Exponential map.md") is not None  # noqa: SLF001
+        assert await _mod._find_child_exact(parent, "exponential map.md") is None  # noqa: SLF001
+
+    @pytest.mark.anyio
+    async def test_ignores_case_insensitive_exists(
+        self,
+        tmp_path: PathLike[str],
+        monkeypatch: pytest.MonkeyPatch,
+    ) -> None:
+        """Exact lookup must not treat kernel exists() as a casing match."""
+        parent = AnyioPath(tmp_path)
+        on_disk = parent / "Exponential map.md"
+        await on_disk.write_text("x", encoding="UTF-8")
+
+        original_exists = AnyioPath.exists
+
+        async def fake_exists(self: AnyioPath) -> bool:
+            if self.name.lower() == "exponential map.md":
+                return True
+            return await original_exists(self)
+
+        monkeypatch.setattr(AnyioPath, "exists", fake_exists)
+
+        assert await _mod._find_child_exact(parent, "exponential map.md") is None  # noqa: SLF001
+
+
 class TestCreateRedirectSymlinks:
     """Tests for the _create_redirect_symlinks function."""
 
@@ -240,6 +275,26 @@ class TestCreateRedirectSymlinks:
 
         assert await mirror.is_symlink()
         assert str(await mirror.readlink()) == "eng/from page.md"
+
+    @pytest.mark.anyio
+    async def test_creates_canonical_name_when_only_wrong_case_exists(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Wrong-cased symlink must not satisfy canonical create checks."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        wrong = lang_dir / "From page.md"
+        await wrong.symlink_to("to page.md", target_is_directory=False)
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "to page"
+        )
+
+        canonical = lang_dir / "from page.md"
+        assert await canonical.is_symlink()
+        assert str(await canonical.readlink()) == "to page.md"
+        assert not await wrong.exists()
 
 
 class TestRemoveRedirectSymlinks:

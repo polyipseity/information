@@ -50,6 +50,36 @@ class TestPlanReprocess:
         assert migrations[0].new_stem == "Modern physics"
 
     @pytest.mark.anyio
+    async def test_plan_article_rename_no_false_conflict_on_case_only(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Case-only renames should not raise when only wrong casing exists on disk."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "modern physics.md").write_text(
+            "# modern physics\n", encoding="UTF-8"
+        )
+        map_path = wiki_dir / "map.jsonc"
+        await map_path.write_text("{}\n", encoding="UTF-8")
+
+        plan = await plan_reprocess(
+            _ReprocessRequest(
+                mappings={"Modern physics": "Modern physics"},
+                articles=("modern physics",),
+                update_links=False,
+                dry_run=True,
+                wiki_dir=wiki_dir,
+                cache_path=wiki_dir / "cache.json",
+                name_map_path=map_path,
+            ),
+            base_map={"Modern physics": "modern physics"},
+        )
+
+        assert len(plan.rename_actions) == 1
+        assert plan.rename_actions[0].new_stem == "Modern physics"
+
+    @pytest.mark.anyio
     async def test_plan_rewrite_targets_scoped(
         self,
         tmp_path: PathLike[str],
