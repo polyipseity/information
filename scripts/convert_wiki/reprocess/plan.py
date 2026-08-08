@@ -2,7 +2,6 @@
 
 from collections.abc import Mapping, Sequence
 from os import fspath
-from os.path import samefile
 
 from anyio import Path
 
@@ -19,6 +18,7 @@ from ..types import (
     _SymlinkAction,
     _SymlinkActionKind,
 )
+from ..utils import _find_child_exact
 
 """Exported names from this module."""
 __all__ = ()
@@ -211,11 +211,15 @@ async def plan_reprocess(
         new_stem = migration_map.get(stem, _stem_for_title(stem, effective_map))
         rewrite_path = current_path
         if new_stem != stem:
-            target_path = lang_dir / f"{new_stem}.md"
-            if await target_path.exists() and not await target_path.is_symlink():
-                if not samefile(fspath(target_path), fspath(current_path)):
-                    msg = f"rename target already exists: {target_path}"
+            target_name = f"{new_stem}.md"
+            current_name = f"{stem}.md"
+            exact_target = await _find_child_exact(lang_dir, target_name)
+            exact_current = await _find_child_exact(lang_dir, current_name)
+            if exact_target is not None and exact_target != exact_current:
+                if not await exact_target.is_symlink():
+                    msg = f"rename target already exists: {lang_dir / target_name}"
                     raise FileExistsError(msg)
+            target_path = lang_dir / target_name
             rename_actions.append(
                 _RenameAction(
                     lang_dir_name=lang_dir_name,

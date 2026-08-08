@@ -8,6 +8,7 @@ from anyio import Path
 from .api import _resolve_chain_terminal
 from .stems import _stem_for_title
 from .types import _RedirectInfo, _RedirectStatus
+from .utils import _find_child_exact
 
 """Exported names from this module."""
 __all__ = ()
@@ -39,10 +40,9 @@ async def _resolve_local_target_filename(
     target = f"{_stem_for_title(to_title, names_map)}.md"
     if to_title != final_to_title:
         final_target = f"{_stem_for_title(final_to_title, names_map)}.md"
-        if (
-            not await (lang_dir / target).exists()
-            and await (lang_dir / final_target).exists()
-        ):
+        target_present = await _find_child_exact(lang_dir, target) is not None
+        final_present = await _find_child_exact(lang_dir, final_target) is not None
+        if not target_present and final_present:
             target = final_target
     return target
 

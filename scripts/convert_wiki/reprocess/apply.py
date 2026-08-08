@@ -12,7 +12,12 @@ from ..types import (
     _ReprocessRequest,
     _SymlinkActionKind,
 )
-from ..utils import _create_redirect_symlinks, _remove_redirect_symlinks
+from ..utils import (
+    _create_redirect_symlinks,
+    _find_child_exact,
+    _remove_redirect_symlinks,
+    _unlink_case_colliding_symlinks,
+)
 from .plan import _stem_migration_map, plan_reprocess
 
 """Exported names from this module."""
@@ -28,17 +33,21 @@ async def _apply_rename(
 ) -> None:
     """Atomically rename an article and its top-level mirror symlink."""
     lang_dir = wiki_dir / lang_dir_name
-    old_note = lang_dir / f"{old_stem}.md"
-    new_note = lang_dir / f"{new_stem}.md"
-    old_mirror = wiki_dir / f"{old_stem}.md"
-    new_mirror = wiki_dir / f"{new_stem}.md"
-    tmp_note = old_note.with_suffix(".md.tmp")
+    old_name = f"{old_stem}.md"
+    new_name = f"{new_stem}.md"
+    old_note = await _find_child_exact(lang_dir, old_name)
+    if old_note is None:
+        msg = f"article not found for rename: {lang_dir / old_name}"
+        raise FileNotFoundError(msg)
+    new_note = lang_dir / new_name
+    tmp_note = lang_dir / f"{old_stem}.md.tmp"
     await old_note.rename(tmp_note)
     rename(fspath(tmp_note), fspath(new_note))
-    if await old_mirror.is_symlink():
+    old_mirror = await _find_child_exact(wiki_dir, old_name)
+    if old_mirror is not None and await old_mirror.is_symlink():
         await old_mirror.unlink()
-    if not await new_mirror.exists():
-        await new_mirror.symlink_to(
+    if await _find_child_exact(wiki_dir, new_name) is None:
+        await (wiki_dir / new_name).symlink_to(
             f"{lang_dir_name}/{new_stem}.md",
             target_is_directory=False,
         )
@@ -54,8 +63,10 @@ async def _apply_symlink_rename(
 ) -> None:
     """Rename a redirect symlink and migrate its target stem when needed."""
     lang_dir = wiki_dir / lang_dir_name
-    old_path = lang_dir / f"{old_stem}.md"
-    if not await old_path.is_symlink():
+    old_name = f"{old_stem}.md"
+    new_name = f"{new_stem}.md"
+    old_path = await _find_child_exact(lang_dir, old_name)
+    if old_path is None or not await old_path.is_symlink():
         return
     target = str(await old_path.readlink())
     if target.endswith(".md"):
@@ -64,14 +75,14 @@ async def _apply_symlink_rename(
     else:
         new_target = target
     await old_path.unlink()
-    new_path = lang_dir / f"{new_stem}.md"
+    await _unlink_case_colliding_symlinks(lang_dir, new_name)
+    new_path = lang_dir / new_name
     await new_path.symlink_to(new_target, target_is_directory=False)
-    old_mirror = wiki_dir / f"{old_stem}.md"
-    new_mirror = wiki_dir / f"{new_stem}.md"
-    if await old_mirror.is_symlink():
+    old_mirror = await _find_child_exact(wiki_dir, old_name)
+    if old_mirror is not None and await old_mirror.is_symlink():
         await old_mirror.unlink()
-    if not await new_mirror.exists():
-        await new_mirror.symlink_to(
+    if await _find_child_exact(wiki_dir, new_name) is None:
+        await (wiki_dir / new_name).symlink_to(
             f"{lang_dir_name}/{new_stem}.md",
             target_is_directory=False,
         )
