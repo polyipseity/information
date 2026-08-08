@@ -32,7 +32,7 @@ You should input the BMC class Code \(\[redacted\]\), or you will get 0 mark.
 
 ## content
 
-- [economic indicator](../../../../../../general/economic%20indicator.md) ::@:: It is a statistic about an economic activity. Economic indicators allow analysis of economic performance and predictions of future performance. <!--SR:!2026-10-27,288,330!2026-08-30,230,330-->
+- [economic indicator](../../../../../../general/economic%20indicator.md) ::@:: It is a statistic about an economic activity. Economic indicators allow analysis of economic performance and predictions of future performance. <!--SR:!2026-10-27,288,330!fsrs,2029-06-26T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
     - economic indicator / most important indicator ::@:: gross domestic product \(GDP\) <!--SR:!2026-10-29,290,330!2026-10-02,263,330-->
 - [gross domestic product](../../../../general/gross%20domestic%20product.md) \(GDP\) ::@:: It is a monetary measure of the total market value of all the final goods and services produced and rendered in a specific time period by a country or countries. <!--SR:!2026-11-03,294,330!2026-10-28,289,330-->
     - gross domestic product / subjectivity ::@:: Changes in GDP _measurement_ can lead to drastic changes in GDP, showing that GDP is somewhat _subjective_. <!--SR:!2026-10-02,263,330!2026-10-12,273,330-->

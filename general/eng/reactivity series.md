@@ -157,7 +157,7 @@ return chain.from_iterable([r.value for r in results])
 - [mercury](<mercury%20(element).md>)→::@::←[silver](silver.md) <!--SR:!fsrs,2035-09-06T00:00:00.000Z,3311,3311.34329187,1,2,11,0,0,2026-08-13T00:00:00.000Z!2031-06-18,1991,330-->
 - [silver](silver.md)→::@::←[gold](gold.md) <!--SR:!fsrs,2035-10-19T00:00:00.000Z,3401,3400.58390811,1,2,11,0,0,2026-06-27T00:00:00.000Z!2028-04-01,1423,350-->
 - [gold](gold.md)→::@::←[platinum](platinum.md) <!--SR:!2028-01-27,1369,350!2027-04-17,1146,350-->
-- [platinum](platinum.md)→::@::←_(least reactive)_ <!--SR:!2027-03-09,1114,350!2026-08-30,892,330-->
+- [platinum](platinum.md)→::@::←_(least reactive)_ <!--SR:!2027-03-09,1114,350!fsrs,2035-11-13T00:00:00.000Z,3361,3360.96010085,1,2,11,0,0,2026-08-31T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

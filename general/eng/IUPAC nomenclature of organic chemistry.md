@@ -678,7 +678,7 @@ return await memorize_table(
 - [acetone](acetone.md)→::@::←[chloroform](chloroform.md) <!--SR:!2027-03-26,1038,344!2033-06-17,2761,384-->
 - [chloroform](chloroform.md)→::@::←[formaldehyde](formaldehyde.md) <!--SR:!2032-06-18,2280,364!2027-01-14,733,304-->
 - [formaldehyde](formaldehyde.md)→::@::←[isopropyl alcohol](isopropyl%20alochol.md) <!--SR:!2028-03-29,1087,324!2026-09-12,609,344-->
-- [isopropyl alcohol](isopropyl%20alochol.md)→::@::←_(end)_ <!--SR:!2029-01-30,1604,384!2026-08-30,707,304-->
+- [isopropyl alcohol](isopropyl%20alochol.md)→::@::←_(end)_ <!--SR:!2029-01-30,1604,384!fsrs,2033-07-13T00:00:00.000Z,2508,2508.21119792,1.27987743,2,10,0,0,2026-08-31T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

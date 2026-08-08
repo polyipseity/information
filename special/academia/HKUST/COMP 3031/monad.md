@@ -80,7 +80,7 @@ and {@{a pair generator}@} that produces {@{two independent random integers}@}: 
 
 #### generator monad
 
-Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}, {@{the `Generator` trait}@} can be {@{enriched with higher-order methods}@}. {@{An extension}@} that adds {@{`map`}@} is <!--SR:!2026-11-06,292,330!2026-10-17,276,330!2026-10-17,276,330!2026-09-30,259,330!2026-08-30,228,330!2026-10-26,282,330-->
+Rather than writing {@{a new anonymous class}@} for {@{each derived generator}@}, {@{the `Generator` trait}@} can be {@{enriched with higher-order methods}@}. {@{An extension}@} that adds {@{`map`}@} is <!--SR:!2026-11-06,292,330!2026-10-17,276,330!2026-10-17,276,330!2026-09-30,259,330!fsrs,2029-06-18T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-26,282,330-->
 
 > [!example] __`Generator.map`__
 >

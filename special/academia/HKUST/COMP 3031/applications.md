@@ -168,7 +168,7 @@ Consider {@{a simple in-memory catalog of books}@} represented as {@{a list}@}: 
 >   Book("Programming in Scala",
 >        List("Odersky, Martin", "Spoon, Lex", "Venners, Bill")))
 > ```
-<!--SR:!2026-08-30,231,330!2026-11-06,292,330-->
+<!--SR:!fsrs,2029-06-30T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-11-06,292,330-->
 
 ### simple database queries
 

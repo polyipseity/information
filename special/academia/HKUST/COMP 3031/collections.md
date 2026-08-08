@@ -105,7 +105,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 
 ### list methods
 
-Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-10-30,286,330!2026-08-30,227,330!2026-09-08,236,330!2026-09-11,239,330!2026-09-19,247,330!2026-10-15,273,330!2026-08-30,227,330!2026-10-18,276,330-->
+Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-10-30,286,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-09-08,236,330!2026-09-11,239,330!2026-09-19,247,330!2026-10-15,273,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-18,276,330-->
 
 > [!example] __list construction__
 >
@@ -354,7 +354,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > ```
 <!--SR:!2026-10-15,273,330!2026-09-25,253,330-->
 
-{@{`reduceLeft`}@} does not {@{support empty lists}@}. It also does not support {@{returning other types other than a supertype of the collection `T`}@}. {@{`foldLeft`}@} generalizes `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value}@}, and returned for {@{an empty list as the starting value is simply returned}@}. It also supports {@{returning any other types}@}, as long as {@{the initial value and the operation have the right types}@}. <!--SR:!2026-10-18,276,330!2026-10-30,286,330!2026-10-18,276,330!2026-09-09,237,330!2026-08-30,227,330!2027-01-13,349,350!2026-12-16,324,350!2026-12-31,339,350!2026-12-19,327,350-->
+{@{`reduceLeft`}@} does not {@{support empty lists}@}. It also does not support {@{returning other types other than a supertype of the collection `T`}@}. {@{`foldLeft`}@} generalizes `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value}@}, and returned for {@{an empty list as the starting value is simply returned}@}. It also supports {@{returning any other types}@}, as long as {@{the initial value and the operation have the right types}@}. <!--SR:!2026-10-18,276,330!2026-10-30,286,330!2026-10-18,276,330!2026-09-09,237,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2027-01-13,349,350!2026-12-16,324,350!2026-12-31,339,350!2026-12-19,327,350-->
 
 > [!example] __`foldLeft`__
 >
@@ -418,7 +418,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 
 In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2026-09-20,248,330!2026-09-26,254,330!2026-11-06,292,330!2026-10-13,271,330!2026-10-18,276,330!2026-09-16,244,330!2026-09-02,230,330!2026-09-10,238,330!2026-09-03,231,330!2026-09-27,255,330!2026-10-28,284,330-->
 
-Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!2026-08-30,227,330-->
+Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 
 > [!example] __`Vector` construction__
 >
@@ -432,7 +432,7 @@ Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!2026-08-
 
 Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Instead {@{two operators with a colon pointing toward the sequence operand}@} are provided: <!--SR:!2026-11-05,291,330!2026-10-08,266,330!2026-09-07,235,330-->
 
-- `x +: xs` ::@:: creates a new vector whose first element is `x` followed by all elements of `xs`; <!--SR:!2026-10-17,275,330!2026-08-30,227,330-->
+- `x +: xs` ::@:: creates a new vector whose first element is `x` followed by all elements of `xs`; <!--SR:!2026-10-17,275,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 - `xs :+ x` ::@:: appends `x` to the end of `xs`. In both cases the colon points toward the sequence, reflecting that the operation acts on the whole collection rather than just its head. <!--SR:!2026-09-07,235,330!2026-11-07,293,330-->
 
 ## Java sequences
@@ -466,7 +466,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 > 1 to 10 by 3       // 1,4,7,10
 > 6 to 1 by -2       // 6,4,2
 > ```
-<!--SR:!2026-08-30,227,330-->
+<!--SR:!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 
 Because ranges are {@{lazy and small}@}, they provide {@{constant-time `contains`, `head`, `last` and indexing}@}. <!--SR:!2026-10-29,285,330!2026-10-11,269,330-->
 

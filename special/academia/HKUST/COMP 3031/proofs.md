@@ -35,7 +35,7 @@ To assert that {@{an implementation of a set actually behaves as a set}@}, we st
 - __Insertion guarantees presence__ ::@:: $$s.\text{incl}(x).\text{contains}(x) = \text{true}$$ <!--SR:!2026-10-25,282,330!2026-10-27,284,330-->
 - __Non-insertion preserves membership__ ::@:: For distinct elements $x\neq y$, $$s.\text{incl}(y).\text{contains}(x) = s.\text{contains}(x)$$ <!--SR:!2026-08-31,232,330!2026-10-17,276,330-->
 
-These laws capture {@{the essential behavior}@} of a set: {@{an empty set}@} contains {@{nothing}@}; {@{inserting an element}@} guarantees that it is {@{now present}@}; and {@{inserting another element}@} does not {@{disturb the membership status of unrelated elements}@}. <!--SR:!2026-09-15,247,330!2026-10-30,286,330!2026-09-15,247,330!2026-10-17,276,330!2026-09-24,256,330!2026-09-07,239,330!2026-08-30,231,330-->
+These laws capture {@{the essential behavior}@} of a set: {@{an empty set}@} contains {@{nothing}@}; {@{inserting an element}@} guarantees that it is {@{now present}@}; and {@{inserting another element}@} does not {@{disturb the membership status of unrelated elements}@}. <!--SR:!2026-09-15,247,330!2026-10-30,286,330!2026-09-15,247,330!2026-10-17,276,330!2026-09-24,256,330!2026-09-07,239,330!fsrs,2029-06-30T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 
 ## structural induction
 
@@ -269,7 +269,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > ```
 <!--SR:!2026-09-23,255,330!2026-10-09,268,330!2026-09-18,250,330!2026-09-24,256,330-->
 
-{@{The tree is binary}@} because {@{each internal node}@} has {@{at most two children}@}. {@{The _leaf_ constructor}@} is {@{`Empty`}@}; {@{the only _internal_ constructor}@} is {@{`NonEmpty`}@}. <!--SR:!2026-09-21,253,330!2026-11-08,294,330!2026-08-30,231,330!2026-09-18,250,330!2026-10-01,263,330!2026-09-13,245,330!2026-09-17,249,330-->
+{@{The tree is binary}@} because {@{each internal node}@} has {@{at most two children}@}. {@{The _leaf_ constructor}@} is {@{`Empty`}@}; {@{the only _internal_ constructor}@} is {@{`NonEmpty`}@}. <!--SR:!2026-09-21,253,330!2026-11-08,294,330!fsrs,2029-06-30T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-09-18,250,330!2026-10-01,263,330!2026-09-13,245,330!2026-09-17,249,330-->
 
 > [!example] __proving empty contains nothing__
 >
