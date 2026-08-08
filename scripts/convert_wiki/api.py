@@ -29,6 +29,8 @@ def _collect_link_titles(html: Tag) -> set[str]:
     """Collect all link titles that need redirect resolution."""
     titles = set[str]()
     for a in html.find_all("a", title=True):
+        if _is_citation_ui_anchor(a):
+            continue
         classes = frozenset(a.get_attribute_list("class"))
         # Skip links that do not need (or cannot have) redirect resolution
         if {"mw-file-description", "mw-selflink"} & classes:
@@ -40,10 +42,23 @@ def _collect_link_titles(html: Tag) -> set[str]:
         title = str(a["title"])
         if title in _cfg._BAD_TITLES:
             continue
+        if title in _cfg._CITATION_UI_TITLES:
+            continue
         if any(title.startswith(prefix) for prefix in _cfg._PRESERVED_PAGE_PREFIXES):
             continue
         titles.add(title)
     return titles
+
+
+def _is_citation_ui_anchor(anchor: Tag) -> bool:
+    """Return whether *anchor* is Wikipedia citation jump-back UI."""
+    if anchor.find_parent(class_="mw-cite-backlink") is not None:
+        return True
+    rel = str(anchor.get("rel", ""))
+    if "mw:referencedBy" in rel:
+        return True
+    title = str(anchor.get("title", ""))
+    return title in _cfg._CITATION_UI_TITLES
 
 
 def _collect_image_filenames(html: Tag) -> set[str]:

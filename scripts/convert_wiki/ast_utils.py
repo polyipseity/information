@@ -563,3 +563,54 @@ def _find_table_blocks(text: str) -> list[tuple[int, int]]:
         result.append((prev_end, next_start))
 
     return result
+
+
+def _parse_inline_link_destination(text: str, start: int) -> tuple[str, int] | None:
+    """Parse a markdown link destination starting at *start* (after ``](``).
+
+    Returns ``(destination, end_index)`` where *end_index* is the position
+    after the closing ``)``, or ``None`` when unterminated.
+    """
+    depth = 0
+    index = start
+    while index < len(text):
+        char = text[index]
+        if char == "(":
+            depth += 1
+        elif char == ")":
+            if depth == 0:
+                return text[start:index], index + 1
+            depth -= 1
+        index += 1
+    return None
+
+
+def _find_link_destination_ranges(text: str) -> list[tuple[int, int, str]]:
+    """Return ``(dest_start, dest_end, destination)`` for each ``](...)`` link."""
+    ranges: list[tuple[int, int, str]] = []
+    search_from = 0
+    while True:
+        opener = text.find("](", search_from)
+        if opener < 0:
+            break
+        dest_start = opener + 2
+        parsed = _parse_inline_link_destination(text, dest_start)
+        if parsed is None:
+            break
+        destination, end_index = parsed
+        ranges.append((dest_start, end_index - 1, destination))
+        search_from = end_index
+    return ranges
+
+
+def _collect_md_link_urls(parse_result: list[dict[str, Any]]) -> list[str]:
+    """Collect markdown link URLs from a mistune AST in document order."""
+    urls: list[str] = []
+    for token, _depth, _parents in _walk_tokens(parse_result, "link"):
+        attrs = token.get("attrs")
+        if not isinstance(attrs, dict):
+            continue
+        url = attrs.get("url")
+        if isinstance(url, str):
+            urls.append(url)
+    return urls

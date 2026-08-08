@@ -1025,10 +1025,6 @@
             "to": "McGraw Hill Education"
           },
           {
-            "from": "Jump up",
-            "to": "Jump Up"
-          },
-          {
             "from": "LCCN (identifier)",
             "to": "Library of Congress Control Number"
           },
@@ -1544,11 +1540,6 @@
     "ISBN (identifier)": {
       "cached_at": "2026-07-24T17:06:37.456842+00:00",
       "to": "ISBN",
-      "tofragment": ""
-    },
-    "Jump up": {
-      "cached_at": "2026-07-24T17:06:37.456842+00:00",
-      "to": "Jump Up",
       "tofragment": ""
     },
     "LCCN (identifier)": {

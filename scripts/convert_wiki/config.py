@@ -58,6 +58,8 @@ _COMMONS_HOST_URL = URL.build(scheme="https", host="commons.wikimedia.org")
 _MAX_CONCURRENT_REQUESTS_PER_HOST = 2
 "Set of page titles to ignore when converting links."
 _BAD_TITLES: Set[str] = frozenset({"Edit this at Wikidata"})
+"Citation UI anchor titles that must never become redirect cache entries."
+_CITATION_UI_TITLES: Set[str] = frozenset({"Jump up"})
 "Set of name prefixes to ignore when fixing link names."
 _IGNORED_NAME_PREFIXES: Set[str] = frozenset()
 "Suffix appended to page titles that do not exist."

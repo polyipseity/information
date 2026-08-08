@@ -1,17 +1,17 @@
 """Pure markdown rewriting for reprocess mode."""
 
-import re
 from collections.abc import Mapping
-from re import Pattern
 from urllib.parse import unquote
 
+from .ast_utils import (
+    _MISTUNE_PARSER,
+    _collect_md_link_urls,
+    _find_link_destination_ranges,
+)
 from .utils import _fix_filename
 
 """Exported names from this module."""
 __all__ = ()
-
-"""Regex matching markdown ``.md`` link targets in ``](...)`` form."""
-_LINK_TARGET_RE: Pattern[str] = re.compile(r"\]\(([^)]+\.md(?:#[^)]*)?)\)")
 
 
 def _encode_stem(stem: str) -> str:
@@ -48,12 +48,41 @@ def _rewrite_markdown_links(
     if not migrations:
         return text
 
-    def replace(match: re.Match[str]) -> str:
-        """Rewrite a single regex match to the migrated link target."""
-        target = match.group(1)
-        return f"]({_rewrite_link_target(target, migrations)})"
+    parse_result, _state = _MISTUNE_PARSER.parse(text)
+    del _state
+    if isinstance(parse_result, str):
+        return text
 
-    return _LINK_TARGET_RE.sub(replace, text)
+    md_urls = [url for url in _collect_md_link_urls(parse_result) if ".md" in url]
+    if not md_urls:
+        return text
+
+    destination_ranges = _find_link_destination_ranges(text)
+    if not destination_ranges:
+        return text
+
+    edits: list[tuple[int, int, str]] = []
+    url_index = 0
+    for dest_start, dest_end, destination in destination_ranges:
+        if not destination.endswith(".md") and ".md#" not in destination:
+            continue
+        if url_index >= len(md_urls):
+            break
+        expected_url = md_urls[url_index]
+        url_index += 1
+        if destination != expected_url:
+            continue
+        new_url = _rewrite_link_target(expected_url, migrations)
+        if new_url != expected_url:
+            edits.append((dest_start, dest_end, new_url))
+
+    if not edits:
+        return text
+
+    rewritten = text
+    for dest_start, dest_end, new_url in reversed(edits):
+        rewritten = rewritten[:dest_start] + new_url + rewritten[dest_end:]
+    return rewritten
 
 
 def _rewrite_article_heading(text: str, new_heading: str) -> str:
