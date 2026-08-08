@@ -20,7 +20,9 @@ hooks = [
   { id = "check-illegal-windows-names" },
   { id = "check-merge-conflict" },
   { id = "check-shebang-scripts-are-executable" },
-  { id = "check-symlinks" },
+  # Wikipedia redirect symlinks under general/ may dangle until target articles
+  # are ingested (see scripts/convert_wiki/utils.py _create_redirect_symlinks).
+  { id = "check-symlinks", exclude = "^general/" },
   { id = "destroyed-symlinks" },
   { id = "detect-private-key" },
   { id = "end-of-file-fixer" },
