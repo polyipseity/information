@@ -99,7 +99,7 @@ The content is in teaching order.
 - [Scala](../../../../general/Scala%20(programming%20language).md) ::@:: It is a strongly statically typed high-level general-purpose programming language that supports both object-oriented programming and functional programming. <p> \(__this course__: Use Scala 3.\) <!--SR:!fsrs,2029-08-28T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-09T00:00:00.000Z!2026-09-11,278,330-->
     - Scala / Scala 3: [Scala 3](Scala%203.md)
 - [programming language](../../../../general/programming%20language.md) ::@:: It is an artificial language for expressing computer programs. <!--SR:!fsrs,2029-08-17T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-08-06T00:00:00.000Z!2026-09-17,283,330-->
-    - programming language / elements ::@:: primitive expressions, composition of expressions, abstraction of expressions \(giving names to expressions\) <!--SR:!fsrs,2029-10-10T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-08-22T00:00:00.000Z!2026-09-01,271,330-->
+    - programming language / elements ::@:: primitive expressions, composition of expressions, abstraction of expressions \(giving names to expressions\) <!--SR:!fsrs,2029-10-10T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-08-22T00:00:00.000Z!fsrs,2029-12-02T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
 - [read–eval–print loop](../../../../general/read–eval–print%20loop.md) \(REPL\) ::@:: It is a simple interactive computer programming environment that takes single user inputs, executes them, and returns the result to the user; a program written in a REPL environment is executed piecewise. <!--SR:!2028-05-14,734,330!2026-09-06,275,330-->
 - Scala
     - Scala / Scala 3

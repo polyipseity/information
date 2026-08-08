@@ -173,7 +173,7 @@ Thus {@{crediting a credit account or debiting a debit account}@} {@{increases i
 
 Thus {@{debiting a credit account or crediting a debit account}@} {@{decreases its absolute value (balance)}@}. <!--SR:!2028-05-31,1055,350!2028-08-24,1121,350-->
 
-When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2028-04-10,1015,350!2028-08-09,1111,350!2026-09-01,551,330!2028-06-23,1073,350!2028-09-15,1141,350-->
+When {@{the same thing is done to an account as its normal balance}@} it {@{increases; when the opposite is done, it will decrease}@}. Much like {@{signs in math: two positive numbers are added and two negative numbers are also added}@}. It is only when {@{there is one positive and one negative (opposites)}@} that you will {@{subtract}@}. <!--SR:!2028-04-10,1015,350!2028-08-09,1111,350!fsrs,2032-09-14T00:00:00.000Z,2204,2204.37258723,1,2,10,0,0,2026-09-02T00:00:00.000Z!2028-06-23,1073,350!2028-09-15,1141,350-->
 
 However, there are {@{instances of accounts, known as contra-accounts}@} \({@{contra-asset, contra-revenue, and contra-equity accounts}@}\), which have {@{a normal balance opposite that listed above}@}. Examples include: <!--SR:!2028-08-12,1111,350!2027-03-16,477,399!2027-03-15,476,399-->
 

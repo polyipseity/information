@@ -54,7 +54,7 @@ Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tup
 > ```
 <!--SR:!2026-11-03,290,330!2026-09-26,255,330-->
 
-Using {@{the same pattern}@} one can define {@{a boolean generator}@}: <!--SR:!2026-09-01,230,330!2026-11-03,290,330-->
+Using {@{the same pattern}@} one can define {@{a boolean generator}@}: <!--SR:!fsrs,2029-06-28T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-11-03,290,330-->
 
 > [!example] __boolean generator__
 >
@@ -150,7 +150,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 >     tail <- lists
 >   yield head :: tail
 > ```
-<!--SR:!2026-10-04,263,330!2026-10-29,285,330!2026-09-01,230,330-->
+<!--SR:!2026-10-04,263,330!2026-10-29,285,330!fsrs,2029-06-28T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
 
 {@{A more sophisticated example}@} is {@{a random tree generator}@}. Defining {@{the tree shape}@} as {@{an `enum`}@}: <!--SR:!2026-10-17,276,330!2026-10-24,280,330!2026-09-29,258,330!2026-10-28,284,330-->
 

@@ -9,7 +9,7 @@ tags:
 
 # nuclear binding energy
 
-In [experimental physics](experimental%20physics.md), __nuclear binding energy__ is {@{the minimum [energy](energy.md) that is required to disassemble the [nucleus](atomic%20nucleus.md) of an [atom](atom.md) into its constituent [protons](proton.md) and [neutrons](neutron.md), known collectively as [nucleons](nucleon.md)}@}. <!--SR:!2026-09-01,565,310-->
+In [experimental physics](experimental%20physics.md), __nuclear binding energy__ is {@{the minimum [energy](energy.md) that is required to disassemble the [nucleus](atomic%20nucleus.md) of an [atom](atom.md) into its constituent [protons](proton.md) and [neutrons](neutron.md), known collectively as [nucleons](nucleon.md)}@}. <!--SR:!fsrs,2032-06-06T00:00:00.000Z,2104,2104.29195335,1,2,10,0,0,2026-09-02T00:00:00.000Z-->
 
 ## references
 

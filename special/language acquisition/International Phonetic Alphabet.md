@@ -867,7 +867,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![close-mid front rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20front%20rounded%20vowel.ogg):@:[close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md) <!--SR:!fsrs,2027-01-29T00:00:00.000Z,170,170.37303484,7.49580362,2,8,0,0,2026-08-12T00:00:00.000Z-->
 - ![close-mid central rounded vowel](../../archives/Wikimedia%20Commons/Close-mid%20central%20rounded%20vowel.ogg):@:[close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md) <!--SR:!fsrs,2027-01-22T00:00:00.000Z,158,158.38506261,8.34220803,2,8,0,0,2026-08-17T00:00:00.000Z-->
 - ![open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20rounded%20vowel.ogg):@:[open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md) <!--SR:!fsrs,2026-09-09T00:00:00.000Z,26,25.70118736,9.95262601,2,7,0,0,2026-08-14T00:00:00.000Z-->
-- ![nasalized open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg):@:[nasalized open-mid front rounded vowel](nasal%20vowel.md) <!--SR:!fsrs,2026-09-02T00:00:00.000Z,37,36.73779276,9.43399524,2,6,0,0,2026-07-27T00:00:00.000Z-->
+- ![nasalized open-mid front rounded vowel](../../archives/Wikimedia%20Commons/Fr-un-fr%20BE.ogg):@:[nasalized open-mid front rounded vowel](nasal%20vowel.md) <!--SR:!fsrs,2026-10-19T00:00:00.000Z,47,47.01620883,9.60948804,2,7,0,0,2026-09-02T00:00:00.000Z-->
 - ![open front rounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20rounded%20vowel.ogg):@:[open front rounded vowel](open%20front%20rounded%20vowel.md) <!--SR:!2027-01-30,271,290-->
 - ![voiceless bilabial plosive](../../archives/Wikimedia%20Commons/Voiceless%20bilabial%20plosive.ogg):@:[voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) <!--SR:!fsrs,2026-09-17T05:51:47.817Z,94,93.57235333,9.98522837,2,7,0,0,2026-06-15T05:51:47.817Z-->
 - ![voiceless uvular plosive](../../archives/Wikimedia%20Commons/Voiceless%20uvular%20plosive.ogg):@:[voiceless uvular plosive](voiceless%20uvular%20plosive.md) <!--SR:!fsrs,2026-10-08T06:01:24.447Z,115,115.31141688,9.98522837,2,7,0,0,2026-06-15T06:01:24.447Z-->
@@ -927,7 +927,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [open front unrounded vowel](open%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _h**a**t_ \[hat\] <!--SR:!2026-09-27,622,310-->
 - [open central unrounded vowel](open%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _br**a**_ \[bɹäː\] <!--SR:!fsrs,2027-04-05T00:00:00.000Z,220,219.79947651,9.98522837,2,8,0,0,2026-08-28T00:00:00.000Z-->
 - [near-open central vowel](near-open%20central%20vowel.md):@:[English](English%20language.md) _n**u**t_ \[nɐʔt\] <!--SR:!fsrs,2026-09-23T00:00:00.000Z,49,49.47169116,9.97047151,2,7,0,0,2026-08-05T00:00:00.000Z-->
-- [open back unrounded vowel](open%20back%20unrounded%20vowel.md):@:[English](English%20language.md) _p**a**lm_ \[pɑ̟ːm\] <!--SR:!fsrs,2026-09-01T03:37:36.498Z,78,77.51803347,9.98522837,2,7,0,0,2026-06-15T03:37:36.498Z-->
+- [open back unrounded vowel](open%20back%20unrounded%20vowel.md):@:[English](English%20language.md) _p**a**lm_ \[pɑ̟ːm\] <!--SR:!fsrs,2026-12-27T00:00:00.000Z,116,116.49204781,9.96552075,2,8,0,0,2026-09-02T00:00:00.000Z-->
 - [nasalized open back unrounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _s**an**s_ [sɑ̃] "without" <!--SR:!fsrs,2026-12-30T00:00:00.000Z,193,193.35257046,9.46075337,2,8,0,0,2026-06-20T00:00:00.000Z-->
 - [open back rounded vowel](open%20back%20rounded%20vowel.md):@:[English](English%20language.md) _n**o**t_ \[nɒt\] <!--SR:!2027-10-11,836,224-->
 - [open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md):@:[English](English%20language.md) _g**u**t_ \[ɡʌt\] <!--SR:!2026-11-14,478,264-->
@@ -1032,7 +1032,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md):@:[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm" <!--SR:!fsrs,2026-09-17T00:00:00.000Z,29,28.98874769,9.94606278,2,8,0,0,2026-08-19T00:00:00.000Z-->
 - [voiced alveolar fricative](voiced%20alveolar%20fricative.md):@:[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\] <!--SR:!2027-09-16,548,190-->
 - [voiced postalveolar fricative](voiced%20postalveolar%20fricative.md):@:[English](English%20language.md) _vi**si**on_ \[ˈvɪʒən\] <!--SR:!2026-10-24,173,190-->
-- [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire" <!--SR:!fsrs,2026-09-02T00:00:00.000Z,28,28.02039285,9.95255623,2,7,0,0,2026-08-05T00:00:00.000Z-->
+- [voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md):@:[Japanese](Japanese%20language.md) 火事/_ka**j**i_ \[kaʑi\] "fire" <!--SR:!fsrs,2026-10-09T00:00:00.000Z,37,37.09083581,9.93783204,2,8,0,0,2026-09-02T00:00:00.000Z-->
 - [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife" <!--SR:!fsrs,2026-09-30T00:00:00.000Z,29,29.16308375,9.94831319,2,9,0,0,2026-09-01T00:00:00.000Z-->
 - [voiceless dental fricative](voiceless%20dental%20fricative.md):@:[English](English%20language.md) _**th**in_ \[θɪn\] <!--SR:!2028-02-13,900,250-->
 - [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md):@:[Japanese](Japanese%20language.md) 腐敗/_**f**uhai_ \[ɸɯhai\] "decay" <!--SR:!fsrs,2026-10-18T00:00:00.000Z,99,98.68678895,9.23597837,2,7,0,0,2026-07-11T00:00:00.000Z-->
@@ -1042,7 +1042,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:[English](English%20language.md) _**tchick**_ \[ˈǁ\] <!--SR:!2026-10-20,258,210-->
 - [tenuis alveolar click](tenuis%20alveolar%20click.md):@:[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat" <!--SR:!fsrs,2026-09-25T00:00:00.000Z,91,91.47220885,9.98522837,2,7,0,0,2026-06-26T00:00:00.000Z-->
 - [tenuis bilabial click](tenuis%20bilabial%20click.md):@:[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two" <!--SR:!2026-09-06,125,150-->
-- [tenuis palatal click](tenuis%20palatal%20click.md):@:[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth" <!--SR:!fsrs,2026-09-01T05:53:21.721Z,78,78.04297264,9.98522837,2,7,0,0,2026-06-15T05:53:21.721Z-->
+- [tenuis palatal click](tenuis%20palatal%20click.md):@:[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth" <!--SR:!fsrs,2026-12-10T00:00:00.000Z,99,98.86945556,9.97047151,2,8,0,0,2026-09-02T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

@@ -31,7 +31,7 @@ These laws are not {@{merely curiosities}@}; they enable reasoning about {@{prog
 
 To assert that {@{an implementation of a set actually behaves as a set}@}, we state {@{three algebraic laws}@} that {@{any correct representation of a set}@} must satisfy: \(annotation: 3 items: {@{empty contains nothing, insertion guarantees presence, non-insertion preserves membership}@}\) <!--SR:!fsrs,2029-06-15T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-28T00:00:00.000Z!2026-10-06,268,330!2026-10-12,271,330!2026-11-02,289,330-->
 
-- __Empty contains nothing__ ::@:: $$\text{Empty.contains}(x) = \text{false}$$ <!--SR:!2026-09-09,241,330!2026-09-01,233,330-->
+- __Empty contains nothing__ ::@:: $$\text{Empty.contains}(x) = \text{false}$$ <!--SR:!2026-09-09,241,330!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
 - __Insertion guarantees presence__ ::@:: $$s.\text{incl}(x).\text{contains}(x) = \text{true}$$ <!--SR:!2026-10-25,282,330!2026-10-27,284,330-->
 - __Non-insertion preserves membership__ ::@:: For distinct elements $x\neq y$, $$s.\text{incl}(y).\text{contains}(x) = s.\text{contains}(x)$$ <!--SR:!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-17,276,330-->
 
@@ -222,7 +222,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 
 A further law often used in functional programming is that {@{mapping a function over the concatenation of two lists}@} equals {@{the concatenation of the mapped sublists}@}: {@{`(xs ::: ys).map(f) = xs.map(f) ::: ys.map(f)`}@}. <!--SR:!2026-10-31,287,330!2026-10-27,284,330!2026-11-06,292,330-->
 
-To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base case}@} follows from {@{`Nil.map(f) = Nil` and `Nil ::: ys = ys`}@}. In {@{the inductive step}@}, we rely on {@{both clauses of `:::` and on the two equations defining `map`}@}: <!--SR:!2026-10-01,263,330!2026-09-14,246,330!2026-09-01,233,330!2026-09-19,251,330!2026-11-05,291,330-->
+To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base case}@} follows from {@{`Nil.map(f) = Nil` and `Nil ::: ys = ys`}@}. In {@{the inductive step}@}, we rely on {@{both clauses of `:::` and on the two equations defining `map`}@}: <!--SR:!2026-10-01,263,330!2026-09-14,246,330!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-19,251,330!2026-11-05,291,330-->
 
 > [!example] __`map` definition__
 >

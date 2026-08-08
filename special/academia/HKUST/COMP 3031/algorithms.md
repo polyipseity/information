@@ -37,7 +37,7 @@ tags:
 > ```
 <!--SR:!2026-09-28,260,330!2026-10-11,270,330-->
 
-{@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is: <!--SR:!2026-09-01,240,330!2026-09-19,251,330!2026-10-06,268,330-->
+{@{The helper `insert`}@} places {@{a value in the appropriate spot of an already sorted list}@}. {@{A typical implementation}@} is: <!--SR:!fsrs,2029-08-05T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-19,251,330!2026-10-06,268,330-->
 
 > [!example] __insertion sort insertion__
 >

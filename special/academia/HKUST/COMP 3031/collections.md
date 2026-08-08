@@ -90,7 +90,7 @@ However, adding {@{a method that "mutates" \(no actual mutation occurs\) the lis
 
 This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}. <!--SR:!2026-10-31,287,330!2026-09-22,250,330!2026-10-26,282,330!2026-10-19,277,330!2026-10-24,280,330!2026-10-18,276,330!2027-06-29,455,330!2026-10-16,274,330!2027-06-09,462,383-->
 
-An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}: <!--SR:!2026-09-27,255,330!2026-09-01,229,330!2026-11-01,288,330!2026-10-20,278,330-->
+An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}: <!--SR:!2026-09-27,255,330!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-11-01,288,330!2026-10-20,278,330-->
 
 > [!example] __implementing `prepend` on `List` using extension method__
 >
@@ -283,7 +283,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 > ```
 <!--SR:!2026-09-11,239,330!2026-09-10,238,330-->
 
-{@{The `posElems`}@} example becomes, using {@{`filter`}@}: <!--SR:!2026-09-01,229,330!2026-09-22,250,330-->
+{@{The `posElems`}@} example becomes, using {@{`filter`}@}: <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-22,250,330-->
 
 > [!example] __`filter` example__
 >
@@ -299,7 +299,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 
 ### pack
 
-{@{The _pack_ function}@} groups {@{consecutive duplicate elements into sublists}@}: <!--SR:!2026-11-06,292,330!2026-09-01,229,330-->
+{@{The _pack_ function}@} groups {@{consecutive duplicate elements into sublists}@}: <!--SR:!2026-11-06,292,330!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
 
 > [!example] __`pack`__
 >
@@ -412,7 +412,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > def reverse[T](xs: List[T]): List[T] =
 >   xs.foldLeft[List[T]](Nil)((acc, x) => x :: acc)
 > ```
-<!--SR:!2026-09-18,246,330!2026-09-01,229,330!fsrs,2028-10-28T00:00:00.000Z,823,823.37893849,1,2,9,0,0,2026-07-28T00:00:00.000Z-->
+<!--SR:!2026-09-18,246,330!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-10-28T00:00:00.000Z,823,823.37893849,1,2,9,0,0,2026-07-28T00:00:00.000Z-->
 
 ## vector
 
@@ -694,7 +694,7 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > fruit.filter(_.startsWith("app"))  // Set("apple")
 > s.nonEmpty                         // true
 > ```
-<!--SR:!2026-09-01,229,330!2026-10-01,259,330-->
+<!--SR:!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-10-01,259,330-->
 
 {@{The core distinction}@} between {@{a `Set` and a `Seq`}@} is that the former {@{does not preserve order and automatically removes duplicates}@}; consequently {@{the only fundamental operation}@} on a set is {@{membership testing via `contains`}@}. {@{A small example}@} shows {@{how duplicate values collapse}@}: <!--SR:!2026-10-27,283,330!2026-10-14,272,330!2026-10-05,263,330!2026-10-18,276,330!2026-10-18,276,330!2026-10-22,280,330!2026-10-18,276,330-->
 

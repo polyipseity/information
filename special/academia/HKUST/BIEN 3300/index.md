@@ -60,7 +60,7 @@ The content is in teaching order.
 - topic: logistics; real-world applications of data science in physical, chemical, and life sciences
 - BIEN 3300
     - BIEN 3300 / logistics
-    - BIEN 3300 / getting to know us ::@:: What year are you? What subject(s) are you best at? How familiar are you with data science? Q&A <!--SR:!2026-10-18,287,330!2026-09-01,254,330-->
+    - BIEN 3300 / getting to know us ::@:: What year are you? What subject(s) are you best at? How familiar are you with data science? Q&A <!--SR:!2026-10-18,287,330!fsrs,2029-09-28T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
     - BIEN 3300 / rules
 - [data](../../../../general/data.md) ::@:: They are a collection of discrete or continuous values that convey information, describing the quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted formally. <!--SR:!2026-10-06,275,330!2026-10-22,291,330-->
 - [data science](../../../../general/data%20science.md) ::@:: It is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processing, scientific visualization, algorithms and systems to extract or extrapolate knowledge from potentially noisy, structured, or unstructured data. <!--SR:!2026-09-22,261,330!fsrs,2029-06-14T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-08-08T00:00:00.000Z-->

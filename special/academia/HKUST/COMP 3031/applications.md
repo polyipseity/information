@@ -92,7 +92,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 > private val wordsForNum: Map[String, List[String]] =
 >   words.groupBy(wordCode).withDefaultValue(Nil)
 > ```
-<!--SR:!2026-10-04,266,330!2026-10-09,269,330!2026-09-01,233,330!2026-09-21,253,330!2026-10-16,276,330!2026-10-19,275,330-->
+<!--SR:!2026-10-04,266,330!2026-10-09,269,330!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-21,253,330!2026-10-16,276,330!2026-10-19,275,330-->
 
 ### `Coder.encode`
 
@@ -216,7 +216,7 @@ The same syntax can be used to {@{find all books whose title}@} contains {@{the 
 >   if a1 == a2
 > } yield a1
 > ```
-<!--SR:!2026-09-01,233,330!2026-11-07,293,330!2026-10-08,268,330-->
+<!--SR:!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-11-07,293,330!2026-10-08,268,330-->
 
 Running {@{this against the sample list}@} returns {@{each qualifying author twice}@}, because {@{the pair of book records}@} can be {@{ordered in two ways}@}. To {@{eliminate duplicates}@} we may {@{impose an ordering on the books}@} by {@{changing `if b1 != b2` to `b1.title < b2.title`}@}. However, {@{an author who has written three books}@} will still {@{appear three times}@}, as there are {@{3 ways to choose 2 books from 3 books}@}.  {@{A straightforward remedy}@} is to {@{call `distinct` on the result}@}: <!--SR:!2026-10-25,281,330!2026-09-09,241,330!2026-10-24,280,330!fsrs,2029-06-15T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-28T00:00:00.000Z!2026-10-09,269,330!2026-10-15,275,330!2026-10-30,286,330!2026-09-23,255,330!2026-10-15,275,330!2026-09-09,241,330!2026-11-05,291,330!2026-10-31,287,330-->
 

@@ -74,7 +74,7 @@ As for {@{the case of infinite sets}@}, {@{a set $S$ is countably infinite}@} if
 
 > {@{![The [Cantor pairing function](pairing%20function.md#Cantor%20pairing%20function) assigns one natural number to each pair of natural numbers](../../archives/Wikimedia%20Commons/Pairing%20natural.svg)}@}
 >
-> {@{The [Cantor pairing function](pairing%20function.md#Cantor%20pairing%20function) assigns one natural number to each pair of natural numbers}@} <!--SR:!2026-10-22,498,310!2026-09-01,459,310-->
+> {@{The [Cantor pairing function](pairing%20function.md#Cantor%20pairing%20function) assigns one natural number to each pair of natural numbers}@} <!--SR:!2026-10-22,498,310!fsrs,2031-06-22T00:00:00.000Z,1754,1753.92639196,1,2,10,0,0,2026-09-02T00:00:00.000Z-->
 
 {@{The resulting [mapping](map%20(mathematics).md)}@} proceeds as follows: {@{$$0\leftrightarrow (0,0),1\leftrightarrow (1,0),2\leftrightarrow (0,1),3\leftrightarrow (2,0),4\leftrightarrow (1,1),5\leftrightarrow (0,2),6\leftrightarrow (3,0),\ldots$$}@} This mapping {@{covers all such ordered pairs}@}. <!--SR:!2029-05-12,1247,350!2029-03-16,1202,350!2028-10-31,1095,350-->
 
