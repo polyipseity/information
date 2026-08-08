@@ -21,7 +21,7 @@ tags:
 
 ## word coder
 
-{@{A __word coder__}@} translates {@{a telephone number into all possible mnemonic phrases}@} using {@{a supplied dictionary of words}@}. Prior to the era of {@{smartphone predictive-text}@}, {@{each numeric key on a phone}@} keypad had {@{an associated set of letters}@}; for instance, {@{the digit `2` represented "ABC"}@}, {@{the digit `3` represented "DEF"}@}, and so forth. In {@{Scala this mapping}@} can be expressed as <!--SR:!2026-10-21,277,330!2026-09-20,252,330!2026-09-17,249,330!2026-09-22,254,330!2026-11-03,290,330!2026-08-31,232,330!2026-10-13,273,330!2026-09-21,253,330!2026-10-22,278,330-->
+{@{A __word coder__}@} translates {@{a telephone number into all possible mnemonic phrases}@} using {@{a supplied dictionary of words}@}. Prior to the era of {@{smartphone predictive-text}@}, {@{each numeric key on a phone}@} keypad had {@{an associated set of letters}@}; for instance, {@{the digit `2` represented "ABC"}@}, {@{the digit `3` represented "DEF"}@}, and so forth. In {@{Scala this mapping}@} can be expressed as <!--SR:!2026-10-21,277,330!2026-09-20,252,330!2026-09-17,249,330!2026-09-22,254,330!2026-11-03,290,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-13,273,330!2026-09-21,253,330!2026-10-22,278,330-->
 
 > [!example] __mnemonics__
 >
@@ -47,7 +47,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 >   val mnemonics = Map(/* ... same mapping as above ... */)
 >   /* ... */
 > ```
-<!--SR:!2026-09-22,254,330!2026-08-31,232,330!2026-10-20,276,330-->
+<!--SR:!2026-09-22,254,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-20,276,330-->
 
 #### `Coder.charCode`
 

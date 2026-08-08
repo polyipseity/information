@@ -33,7 +33,7 @@ To assert that {@{an implementation of a set actually behaves as a set}@}, we st
 
 - __Empty contains nothing__ ::@:: $$\text{Empty.contains}(x) = \text{false}$$ <!--SR:!2026-09-09,241,330!2026-09-01,233,330-->
 - __Insertion guarantees presence__ ::@:: $$s.\text{incl}(x).\text{contains}(x) = \text{true}$$ <!--SR:!2026-10-25,282,330!2026-10-27,284,330-->
-- __Non-insertion preserves membership__ ::@:: For distinct elements $x\neq y$, $$s.\text{incl}(y).\text{contains}(x) = s.\text{contains}(x)$$ <!--SR:!2026-08-31,232,330!2026-10-17,276,330-->
+- __Non-insertion preserves membership__ ::@:: For distinct elements $x\neq y$, $$s.\text{incl}(y).\text{contains}(x) = s.\text{contains}(x)$$ <!--SR:!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-17,276,330-->
 
 These laws capture {@{the essential behavior}@} of a set: {@{an empty set}@} contains {@{nothing}@}; {@{inserting an element}@} guarantees that it is {@{now present}@}; and {@{inserting another element}@} does not {@{disturb the membership status of unrelated elements}@}. <!--SR:!2026-09-15,247,330!2026-10-30,286,330!2026-09-15,247,330!2026-10-17,276,330!2026-09-24,256,330!2026-09-07,239,330!fsrs,2029-06-30T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 
@@ -333,7 +333,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{$z > x$ and $z > y$ \($z$ is largest, i.e. $x < y < z$ or $y < x < z$\)}@} – {@{analogous reasoning applies to the left child}@}.
 > - If {@{$x < z < y$ or $y < z < x$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
 >
-> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!2026-09-04,236,330!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!2026-09-11,243,330!2026-09-03,235,330!2026-09-12,244,330!2026-10-14,273,330!2026-09-06,238,330!2026-11-02,289,330!2026-10-26,283,330!2026-09-07,239,330!2026-09-06,238,330!2027-07-04,458,310!2026-09-14,246,330!2026-10-20,278,330!2026-08-31,232,330!2026-10-31,287,330!2026-09-09,241,330-->
+> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!2026-09-04,236,330!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!2026-09-11,243,330!2026-09-03,235,330!2026-09-12,244,330!2026-10-14,273,330!2026-09-06,238,330!2026-11-02,289,330!2026-10-26,283,330!2026-09-07,239,330!2026-09-06,238,330!2027-07-04,458,310!2026-09-14,246,330!2026-10-20,278,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-31,287,330!2026-09-09,241,330-->
 
 ### proving set union property
 

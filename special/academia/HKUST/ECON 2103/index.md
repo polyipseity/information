@@ -293,7 +293,7 @@ The content is in teaching order.
         - [demand curve](../../../../general/demand%20curve.md)
         - "change in _demand_" vs "change in _quantity demanded_"
         - change in demand ::@:: change in the relation between quantity demanded at each price <!--SR:!fsrs,2033-01-07T00:00:00.000Z,2350,2349.83313843,1,2,10,0,0,2026-08-02T00:00:00.000Z!2030-06-02,1601,391-->
-            - change in demand / graph ::@:: Usually, we move the demand curve horizontally, not vertically. Note that for a straight line, these two produce the same results. <!--SR:!2026-08-31,539,402!2030-05-13,1581,391-->
+            - change in demand / graph ::@:: Usually, we move the demand curve horizontally, not vertically. Note that for a straight line, these two produce the same results. <!--SR:!fsrs,2033-05-16T00:00:00.000Z,2449,2448.82969402,1,2,10,0,0,2026-09-01T00:00:00.000Z!2030-05-13,1581,391-->
             - change in demand / factors ::@:: They are _non-price determinants_ of demand: consumer preferences, expectation about the future, income, number of buyers (e.g. population growth), prices of _related_ goods. <!--SR:!2028-04-26,982,371!2028-08-12,1007,366-->
                 - change in demand / factors / consumer preferences ::@:: What consumers prefer. For example, fashion may affect it. <!--SR:!2030-12-15,1769,391!2033-01-22,2426,411-->
                 - change in demand / factors / income ::@:: What consumers buy responds to their incomes. Examples include normal goods, inferior goods, etc. <!--SR:!fsrs,2033-03-31T00:00:00.000Z,2413,2413.25819719,1,2,10,0,0,2026-08-22T00:00:00.000Z!fsrs,2033-03-15T00:00:00.000Z,2401,2401.38421202,1,2,10,0,0,2026-08-18T00:00:00.000Z-->

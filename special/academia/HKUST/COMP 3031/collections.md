@@ -232,7 +232,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 {@{Typical list algorithms}@} fall into {@{three broad categories}@}: \(annotation: 3 items: {@{map, filter, reduce/fold}@}\) <!--SR:!fsrs,2028-07-21T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-07T00:00:00.000Z!2026-09-28,256,330!2026-09-17,245,330-->
 
 - __Mapping__ ::@:: – transform every element in a list. <!--SR:!2026-09-14,242,330!2026-09-30,258,330-->
-- __Filtering__ ::@:: – extract all elements that satisfy a predicate. <!--SR:!2026-08-31,228,330!2026-09-21,249,330-->
+- __Filtering__ ::@:: – extract all elements that satisfy a predicate. <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-21,249,330-->
 - __Reduction / Folding__ ::@:: – combine the elements of a list with an associative operator. <!--SR:!2026-09-11,239,330!2026-10-31,287,330-->
 
 ### map
@@ -341,7 +341,7 @@ As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@
 > ```Scala
 > List(x1, ..., xn).reduceLeft((x, y) => x.op(y))
 > ```
-<!--SR:!2026-08-31,228,330!2026-09-03,231,330!2026-11-08,294,330-->
+<!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-03,231,330!2026-11-08,294,330-->
 
 Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!2026-10-17,275,330-->
 
@@ -450,7 +450,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 > val ys: String = "Hello world!"
 > ys.filter(_.isUpper)
 > ```
-<!--SR:!2026-09-25,253,330!2026-09-25,253,330!2026-08-31,228,330!2026-09-22,250,330!2026-09-07,235,330!2026-10-08,266,330-->
+<!--SR:!2026-09-25,253,330!2026-09-25,253,330!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-22,250,330!2026-09-07,235,330!2026-10-08,266,330-->
 
 ## range
 
@@ -563,7 +563,7 @@ Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuch
 
 ### map update
 
-Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operator `+`}@} adds {@{a single key/value pair}@}; {@{the operator `++`}@} {@{merges two maps}@}: <!--SR:!2026-10-07,265,330!2026-08-31,228,330!2026-09-27,255,330!2026-11-02,289,330!2026-09-04,232,330!2026-10-23,281,330-->
+Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operator `+`}@} adds {@{a single key/value pair}@}; {@{the operator `++`}@} {@{merges two maps}@}: <!--SR:!2026-10-07,265,330!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-27,255,330!2026-11-02,289,330!2026-09-04,232,330!2026-10-23,281,330-->
 
 > [!example] __`++` and `+` example__
 >
@@ -593,7 +593,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > ```
 <!--SR:!2026-11-01,288,330!2026-10-14,272,330-->
 
-{@{Grouping \(`groupBy`\)}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}: <!--SR:!2026-08-31,228,330!2026-09-05,233,330!2026-09-11,239,330-->
+{@{Grouping \(`groupBy`\)}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}: <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-05,233,330!2026-09-11,239,330-->
 
 > [!example] __`groupBy` examples__
 >

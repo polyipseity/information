@@ -24,7 +24,7 @@ tags:
 - reciprocals multiplied by 365 ::@:: average collection period, average days to pay payables, average days to sell inventory <!--SR:!2029-10-24,1380,359!2027-03-27,619,322-->
 - surprising terms in equation ::@:: accounts payable turnover, earnings per share <!--SR:!2026-09-27,483,316!2030-06-14,1582,362-->
 - surprising "net" in equation ::@:: current assets, fixed asset turnover, quick assets, receivables turnover, total assets <!--SR:!2026-09-26,482,319!2027-03-25,617,322-->
-- cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income <!--SR:!2026-08-31,456,322!2028-02-20,895,339-->
+- cash flow ::@:: capital acquisitions ratio, free cash flow, quality of income <!--SR:!fsrs,2031-08-25T00:00:00.000Z,1819,1818.66250622,1,2,10,0,0,2026-09-01T00:00:00.000Z!2028-02-20,895,339-->
 - cost of goods sold as numerator ::@:: inventory turnover <!--SR:!2030-02-22,1427,319!2027-09-28,777,330-->
 - net sales as numerator ::@:: fixed asset turnover, receivables turnover (+credit), total asset turnover <!--SR:!2029-02-27,1059,302!2029-10-28,1341,322-->
 

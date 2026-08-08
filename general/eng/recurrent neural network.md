@@ -39,7 +39,7 @@ Long short-term memory (LSTM) is {@{a [deep learning](deep%20learning.md) system
 
 - see: [gated recurrent unit](gated%20recurrent%20unit.md)
 
-Gated recurrent units (GRUs) are {@{a gating mechanism in RNN introduced in 2014}@}. They have {@{fewer parameters than LSTM, as they lack an output gate}@}. This may make {@{the training time shorter and the training requiring fewer data samples}@}. <!--SR:!2026-08-31,554,310!2030-06-16,1596,310!2026-10-19,653,330-->
+Gated recurrent units (GRUs) are {@{a gating mechanism in RNN introduced in 2014}@}. They have {@{fewer parameters than LSTM, as they lack an output gate}@}. This may make {@{the training time shorter and the training requiring fewer data samples}@}. <!--SR:!fsrs,2032-04-30T00:00:00.000Z,2068,2068.31345621,1,2,10,0,0,2026-09-01T00:00:00.000Z!2030-06-16,1596,310!2026-10-19,653,330-->
 
 ## references
 

@@ -18,7 +18,7 @@ Here, as {@{binary modulation is considered}@}, {@{a _bit_ and a _symbol_ refer 
 
 ## binary channel
 
-{@{The transmitter}@} sends {@{a sequence of binary symbols $b_k \in \{0,1\}$}@}.  Each symbol occupies {@{a fixed duration $T$}@} and is represented by {@{a pulse waveform}@} {@{$$s(t) = \begin{cases} + A\,p(t), & b_k = 1\\[4pt] - A\,p(t), & b_k = 0 \end{cases}\qquad 0 \le t < T,$$}@} where <!--SR:!2026-08-31,239,330!2026-09-23,254,330!fsrs,2028-06-30T08:42:40.071Z,748,748.23407949,1,2,8,0,0,2026-06-13T08:42:40.071Z!2026-10-21,279,330!2026-10-11,270,330-->
+{@{The transmitter}@} sends {@{a sequence of binary symbols $b_k \in \{0,1\}$}@}.  Each symbol occupies {@{a fixed duration $T$}@} and is represented by {@{a pulse waveform}@} {@{$$s(t) = \begin{cases} + A\,p(t), & b_k = 1\\[4pt] - A\,p(t), & b_k = 0 \end{cases}\qquad 0 \le t < T,$$}@} where <!--SR:!fsrs,2029-08-01T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-23,254,330!fsrs,2028-06-30T08:42:40.071Z,748,748.23407949,1,2,8,0,0,2026-06-13T08:42:40.071Z!2026-10-21,279,330!2026-10-11,270,330-->
 
 - $A>0$ ::@:: is the pulse amplitude, and <!--SR:!2026-10-19,277,330!2026-11-08,294,330-->
 - $p(t)$ ::@:: is a _shaping pulse_ of unit energy (e.g., a rectangular or raised-cosine pulse). Here, we assume it is simply a unit rectangular pulse lasting for symbol time $T$. <!--SR:!2026-10-11,270,330!2026-09-25,256,330-->
@@ -57,7 +57,7 @@ Hence {@{the BER with arbitrary priors}@} is {@{$$\boxed{P_e = p_0\,Q\!\left(\sq
 
 ### bit error rate with arbitrary threshold
 
-If the receiver compares {@{$V$ to an arbitrary threshold $V_{\!th}\neq0$}@}, {@{the decision rule}@} becomes   {@{$$\displaystyle \hat b_k=\begin{cases}1,& V>V_{\!th}\\[4pt]0,&V\le V_{\!th}\end{cases} \,.$$}@} <!--SR:!2026-08-31,239,330!fsrs,2029-07-07T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-10-11,270,330-->
+If the receiver compares {@{$V$ to an arbitrary threshold $V_{\!th}\neq0$}@}, {@{the decision rule}@} becomes   {@{$$\displaystyle \hat b_k=\begin{cases}1,& V>V_{\!th}\\[4pt]0,&V\le V_{\!th}\end{cases} \,.$$}@} <!--SR:!fsrs,2029-08-01T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2029-07-07T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-27T00:00:00.000Z!2026-10-11,270,330-->
 
 For {@{a transmitted '1'}@} {@{the error event}@} is {@{$\{AT+N_T=V\le V_{\!th}\}$}@}, giving {@{$$P_e^{(1)} = Q\!\left(\frac{AT-V_{\!th} }{\sigma_{n_T} }\right).$$}@} <!--SR:!2026-10-09,268,330!2026-11-04,290,330!2026-10-22,280,330!2026-10-01,262,330-->
 

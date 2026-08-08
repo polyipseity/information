@@ -116,7 +116,7 @@ With {@{these in place}@}, {@{the boolean generator}@} can be written {@{succinc
 > ```
 <!--SR:!2026-10-08,267,330!2026-10-24,280,330!2026-10-13,272,330-->
 
-and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!2026-08-31,229,330!2026-09-16,245,330-->
+and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-16,245,330-->
 
 > [!example] __pair generator using `flatMap`__
 >
@@ -225,7 +225,7 @@ The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expresse
 >   (l1 ++ l2).size == l1.size + l2.size
 > }
 > ```
-<!--SR:!2026-08-31,229,330!2026-11-02,289,330!2026-10-24,280,330-->
+<!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-11-02,289,330!2026-10-24,280,330-->
 
 ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a systematic way to {@{validate program behaviour without hand-crafted test data}@}. <!--SR:!2026-10-14,273,330!fsrs,2028-07-20T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-06T00:00:00.000Z-->
 

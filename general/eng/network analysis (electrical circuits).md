@@ -107,7 +107,7 @@ For {@{equivalence}@}, {@{the impedances between any pair of terminals must be t
 
 #### star-to-delta transformation equations
 
-\(annotation: equations\) ::@:: $${\begin{aligned}R_{\mathrm {ac} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{b} } }\\R_{\mathrm {ab} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\\R_{\mathrm {bc} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{a} } }\end{aligned} }$$ \(annotation: 2 variables per term above, 1 below; 3 terms above, 1 below\) <!--SR:!2026-08-31,338,270!2027-12-24,605,290-->
+\(annotation: equations\) ::@:: $${\begin{aligned}R_{\mathrm {ac} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{b} } }\\R_{\mathrm {ab} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{c} } }\\R_{\mathrm {bc} }&={\frac {R_{a}R_{b}+R_{b}R_{c}+R_{c}R_{a} }{R_{a} } }\end{aligned} }$$ \(annotation: 2 variables per term above, 1 below; 3 terms above, 1 below\) <!--SR:!fsrs,2029-10-23T00:00:00.000Z,1148,1147.67221671,2.98092302,2,9,0,0,2026-09-01T00:00:00.000Z!2027-12-24,605,290-->
 
 ### general form of network node elimination
 
