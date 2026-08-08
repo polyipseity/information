@@ -25,9 +25,9 @@ To analyze a truss, {@{design the truss and determine the support sizes}@}. Then
 
 ### forces in members
 
-There are {@{2}@} common methods to determine forces in members: {@{[method of joints](#method%20of%20joints), suitable for determining forces in all members; and method of sections, suitable for determining forces in some particular members}@}.
+There are {@{2 common methods}@} to {@{determine forces in members}@}: {@{[method of joints](#method%20of%20joints), suitable for determining forces in all members}@}; and {@{method of sections, suitable for determining forces in some particular members}@}.
 
-Note that some members can have {@{zero forces, i.e. neither in tension nor in compression, which are called [zero force members](zero%20force%20member.md)}@}.
+Note that some members can have {@{zero forces, i.e. neither in tension nor in compression}@}, which are called {@{[zero force members](zero%20force%20member.md)}@}.
 
 #### method of joints
 

@@ -14,7 +14,7 @@ tags:
 # import ../../scripts/utility.py.md
 ```
 
-The __Haber process__ or __Haber–Bosch process__ is {@{the main industrial process for [ammonia production](ammonia%20production.md)}@}.
+{@{The __Haber process__ or __Haber–Bosch process__}@} is {@{the main industrial process for [ammonia production](ammonia%20production.md)}@}.
 
 The primary reaction is:
 
