@@ -28,7 +28,7 @@ In {@{the [lambda calculus](lambda%20calculus.md)}@} {@{an expression is diverge
 
 ### denotational semantics
 
-In {@{[denotational semantics](denotational%20semantics.md)}@} {@{an [object function](function%20(computer%20science).md)}@} {@{_f_ : _A_ → _B_}@} can be modelled as {@{a [mathematical function](function%20(mathematics).md)}@} {@{$f:A\cup \{\perp \}\rightarrow B\cup \{\perp \}$}@} where {@{⊥ \([bottom](bottom%20element.md)\)}@} indicates that {@{the object function or its [argument](argument%20(computer%20science).md) diverges}@}. <!--SR:!fsrs,2029-11-22T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-09-13,276,330!fsrs,2029-09-23T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-08-20T00:00:00.000Z!fsrs,2029-06-23T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-28T00:00:00.000Z!2026-09-17,279,330!2026-09-30,290,330!2026-09-03,268,330-->
+In {@{[denotational semantics](denotational%20semantics.md)}@} {@{an [object function](function%20(computer%20science).md)}@} {@{_f_ : _A_ → _B_}@} can be modelled as {@{a [mathematical function](function%20(mathematics).md)}@} {@{$f:A\cup \{\perp \}\rightarrow B\cup \{\perp \}$}@} where {@{⊥ \([bottom](bottom%20element.md)\)}@} indicates that {@{the object function or its [argument](argument%20(computer%20science).md) diverges}@}. <!--SR:!fsrs,2029-11-22T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-09-13,276,330!fsrs,2029-09-23T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-08-20T00:00:00.000Z!fsrs,2029-06-23T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-07-28T00:00:00.000Z!2026-09-17,279,330!2026-09-30,290,330!fsrs,2029-11-23T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-09-04T00:00:00.000Z-->
 
 ### concurrency theory
 

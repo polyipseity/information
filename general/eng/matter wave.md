@@ -9,7 +9,7 @@ tags:
 
 # matter wave
 
-__Matter waves__ {@{describe the [wave](wave.md)-like behavior of all [matter](matter.md)}@}. <!--SR:!2026-09-03,926,330-->
+__Matter waves__ {@{describe the [wave](wave.md)-like behavior of all [matter](matter.md)}@}. <!--SR:!fsrs,2036-03-08T00:00:00.000Z,3473,3473.06991735,1,2,11,0,0,2026-09-04T00:00:00.000Z-->
 
 ## de Broglie relations
 

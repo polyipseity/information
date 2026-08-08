@@ -207,7 +207,7 @@ Sustainable Waste Management
 
 How to provide motivation for waste reduction, reuse and recycling?
 
-- How to charge your MSW? ::@:: fixed charge, proxy system, quantity-based system <!--SR:!2027-03-13,781,330!2026-09-03,634,330-->
+- How to charge your MSW? ::@:: fixed charge, proxy system, quantity-based system <!--SR:!2027-03-13,781,330!fsrs,2033-07-01T00:00:00.000Z,2492,2492.1577035,1,2,10,0,0,2026-09-04T00:00:00.000Z-->
     - quantity-based system example ::@:: Taipei (not Taiwan as a whole) implemented MSW charging by bag in 2000. Compared to before, -37% after 1 year and -62% after 7 years. <!--SR:!2027-12-28,924,290!2028-07-23,1001,290-->
 
 ## page 14

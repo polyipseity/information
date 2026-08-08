@@ -107,7 +107,7 @@ Current assets are {@{the most liquid assets of a firm}@}, which are expected to
 Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2026-09-15,549,310-->
 
 - _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2028-10-19,1165,350!2028-02-02,931,330-->
-- _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!2026-09-03,531,310!2027-06-13,767,330-->
+- _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!fsrs,2032-02-18T00:00:00.000Z,1993,1992.81597955,1,2,10,0,0,2026-09-04T00:00:00.000Z!2027-06-13,767,330-->
 
 Liabilities include {@{current liabilities and long-term liabilities}@}: <!--SR:!2027-09-16,837,330-->
 

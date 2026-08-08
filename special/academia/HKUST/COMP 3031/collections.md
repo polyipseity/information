@@ -139,7 +139,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 
 The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-11-08,294,330!2026-09-26,254,330!2026-10-18,276,330!fsrs,2028-07-09T14:11:53.577Z,756,756.20650093,1,2,8,0,0,2026-06-14T14:11:53.577Z!2026-11-01,288,330!2026-09-23,251,330!2026-09-13,241,330!2026-09-15,243,330!2026-10-26,282,330-->
 
-{@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!2026-09-18,246,330!2026-10-01,259,330!2026-09-03,231,330!2026-09-20,248,330-->
+{@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!2026-09-18,246,330!2026-10-01,259,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-20,248,330-->
 
 {@{The implementation of `last` and `init`}@}, for instance, is {@{linear in the length of the list}@} because it must {@{traverse all elements to reach the tail}@}. <!--SR:!2026-09-04,232,330!2026-09-29,257,330!2026-10-22,280,330-->
 
@@ -194,7 +194,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 > ```
 <!--SR:!2026-10-17,275,330!2026-10-05,263,330-->
 
-Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-10-12,270,330!2026-09-03,231,330!2026-10-03,261,330!2026-09-09,237,330!2026-09-15,243,330-->
+Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-10-12,270,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-03,261,330!2026-09-09,237,330!2026-09-15,243,330-->
 
 {@{Removing the _n_-th element}@} can be defined by {@{pattern matching on the index}@}: <!--SR:!2026-10-29,285,330!2026-09-13,241,330-->
 
@@ -341,7 +341,7 @@ As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@
 > ```Scala
 > List(x1, ..., xn).reduceLeft((x, y) => x.op(y))
 > ```
-<!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-03,231,330!2026-11-08,294,330-->
+<!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-11-08,294,330-->
 
 Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!2026-10-17,275,330-->
 
@@ -367,7 +367,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > ```
 <!--SR:!2026-09-09,237,330!2026-09-13,241,330!2026-10-13,271,330!2026-10-21,279,330!2026-11-03,290,330!2026-12-12,320,350!2027-01-17,353,350!2026-12-22,330,350!2026-12-20,328,350-->
 
-{@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@} of {@{`reduceLeft` and `foldLeft` respectively}@}: <!--SR:!2026-09-03,231,330!2026-10-30,286,330!2027-01-17,353,350-->
+{@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@} of {@{`reduceLeft` and `foldLeft` respectively}@}: <!--SR:!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-30,286,330!2027-01-17,353,350-->
 
 > [!example] __`reduceRight`, `foldRight`__
 >
@@ -416,7 +416,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 
 ## vector
 
-In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2026-09-20,248,330!2026-09-26,254,330!2026-11-06,292,330!2026-10-13,271,330!2026-10-18,276,330!2026-09-16,244,330!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-09-10,238,330!2026-09-03,231,330!2026-09-27,255,330!2026-10-28,284,330-->
+In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2026-09-20,248,330!2026-09-26,254,330!2026-11-06,292,330!2026-10-13,271,330!2026-10-18,276,330!2026-09-16,244,330!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-09-10,238,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-27,255,330!2026-10-28,284,330-->
 
 Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 
@@ -678,7 +678,7 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > val fruit = Set("apple", "banana", "pear")
 > val s     = (1 to 6).toSet                  // Set(1,2,3,4,5,6)
 > ```
-<!--SR:!2026-09-03,231,330-->
+<!--SR:!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z-->
 
 {@{Most sequence operations}@} have {@{direct counterparts for sets}@}. For instance <!--SR:!2026-09-08,236,330!2026-09-08,236,330-->
 

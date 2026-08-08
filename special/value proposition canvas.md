@@ -115,7 +115,7 @@ vagueness: vague jobs, pains, and gains
 - mix: mixing customer segments→::@::←mix: mixing jobs and outcomes <!--SR:!2029-03-08,1297,309!2027-06-01,683,269-->
 - mix: mixing jobs and outcomes→::@::←opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation <!--SR:!2027-08-23,710,245!2028-02-07,979,305-->
 - opposite: gains and pains are not exact opposites; gains are beyond expectation while pains are falling short of expectation→::@::←reversed: listing jobs, pains, and gains from your product value propositions <!--SR:!2031-02-22,1757,289!2028-12-22,965,229-->
-- reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!2026-09-03,333,169!2028-06-12,808,229-->
+- reversed: listing jobs, pains, and gains from your product value propositions→::@::←vagueness: vague jobs, pains, and gains <!--SR:!fsrs,2028-06-13T00:00:00.000Z,648,648.08302992,8.03402902,2,9,0,0,2026-09-04T00:00:00.000Z!2028-06-12,808,229-->
 - vagueness: vague jobs, pains, and gains→::@::←_(end)_ <!--SR:!2027-04-27,774,329!2027-03-27,704,289-->
 
 <!--/pytextgen-->
@@ -214,7 +214,7 @@ find customer patterns
 - create a customer profile→::@::←outline the interview <!--SR:!2031-10-29,2000,309!2031-05-13,1955,329-->
 - outline the interview→::@::←interview <!--SR:!2030-03-05,1691,369!2027-04-17,786,329-->
 - interview→::@::←capture new customer profile <!--SR:!2028-06-06,1146,329!2027-03-13,757,329-->
-- capture new customer profile→::@::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!2026-09-03,559,270!2027-05-19,785,309-->
+- capture new customer profile→::@::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!fsrs,2031-07-29T00:00:00.000Z,1789,1789.38506263,2.98092302,2,10,0,0,2026-09-04T00:00:00.000Z!2027-05-19,785,309-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→::@::←find customer patterns <!--SR:!2028-05-26,1054,289!2027-07-03,815,309-->
 - find customer patterns→::@::←_(end)_ <!--SR:!2029-12-07,1625,369!2026-11-16,675,329-->
 

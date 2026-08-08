@@ -119,7 +119,7 @@ The above proof can be formulated {@{without explicitly referring to ordinals}@}
 
 This proof shows that actually {@{a slightly stronger version of Zorn's lemma is true}@}: <!--SR:!2030-01-10,1442,358-->
 
-> __Lemma__ — If {@{_P_ is a [poset](partially%20ordered%20set.md) in which every [well-ordered](well-order.md) subset has an upper bound, and if _x_ is any element of _P_}@}, then {@{_P_ has a maximal element greater than or equal to _x_. That is, there is a maximal element which is comparable to _x_}@}. <!--SR:!2026-09-03,357,238!2026-12-02,495,310-->
+> __Lemma__ — If {@{_P_ is a [poset](partially%20ordered%20set.md) in which every [well-ordered](well-order.md) subset has an upper bound, and if _x_ is any element of _P_}@}, then {@{_P_ has a maximal element greater than or equal to _x_. That is, there is a maximal element which is comparable to _x_}@}. <!--SR:!fsrs,2029-07-12T00:00:00.000Z,1042,1041.64652513,4.5819071,2,9,0,0,2026-09-04T00:00:00.000Z!2026-12-02,495,310-->
 
 Alternatively, one can {@{use the same proof for the [Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@}. This is the proof given for example in {@{Halmos' _[Naive Set Theory](naive%20set%20theory.md)_ or in [§ Proof](#proof) below}@}. <!--SR:!2030-01-10,1455,370!2030-09-26,1663,370-->
 
