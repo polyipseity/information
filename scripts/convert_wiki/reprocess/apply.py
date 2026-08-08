@@ -44,6 +44,39 @@ async def _apply_rename(
         )
 
 
+async def _apply_symlink_rename(
+    wiki_dir: Path,
+    *,
+    lang_dir_name: str,
+    old_stem: str,
+    new_stem: str,
+    migrations: dict[str, str],
+) -> None:
+    """Rename a redirect symlink and migrate its target stem when needed."""
+    lang_dir = wiki_dir / lang_dir_name
+    old_path = lang_dir / f"{old_stem}.md"
+    if not await old_path.is_symlink():
+        return
+    target = str(await old_path.readlink())
+    if target.endswith(".md"):
+        target_stem = target.removesuffix(".md")
+        new_target = f"{migrations.get(target_stem, target_stem)}.md"
+    else:
+        new_target = target
+    await old_path.unlink()
+    new_path = lang_dir / f"{new_stem}.md"
+    await new_path.symlink_to(new_target, target_is_directory=False)
+    old_mirror = wiki_dir / f"{old_stem}.md"
+    new_mirror = wiki_dir / f"{new_stem}.md"
+    if await old_mirror.is_symlink():
+        await old_mirror.unlink()
+    if not await new_mirror.exists():
+        await new_mirror.symlink_to(
+            f"{lang_dir_name}/{new_stem}.md",
+            target_is_directory=False,
+        )
+
+
 async def apply_reprocess_plan(
     plan: _ReprocessPlan,
     *,
@@ -93,6 +126,28 @@ async def apply_reprocess_plan(
     await _save_names_map(plan.effective_map, path=plan.name_map_path)
     _reload_names_map()
 
+    for rename_action in plan.rename_actions:
+        await _apply_rename(
+            wiki_dir,
+            lang_dir_name=rename_action.lang_dir_name,
+            old_stem=rename_action.old_stem,
+            new_stem=rename_action.new_stem,
+        )
+        files_renamed += 1
+        changed.append(rename_action.old_stem)
+
+    for action in plan.symlink_actions:
+        if action.kind != _SymlinkActionKind.RENAME:
+            continue
+        await _apply_symlink_rename(
+            wiki_dir,
+            lang_dir_name=action.lang_dir_name,
+            old_stem=action.from_stem,
+            new_stem=action.to_stem,
+            migrations=migrations,
+        )
+        changed.append(action.from_stem)
+
     for action in plan.symlink_actions:
         lang_dir = wiki_dir / action.lang_dir_name
         match action.kind:
@@ -122,16 +177,8 @@ async def apply_reprocess_plan(
                 )
                 symlinks_removed += 1
                 changed.append(action.from_stem)
-
-    for rename_action in plan.rename_actions:
-        await _apply_rename(
-            wiki_dir,
-            lang_dir_name=rename_action.lang_dir_name,
-            old_stem=rename_action.old_stem,
-            new_stem=rename_action.new_stem,
-        )
-        files_renamed += 1
-        changed.append(rename_action.old_stem)
+            case _SymlinkActionKind.RENAME:
+                pass
 
     for target in plan.rewrite_targets:
         target_path = Path(target)

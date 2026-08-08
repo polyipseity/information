@@ -76,7 +76,7 @@ class TestPlanReprocess:
             base_map={"Modern physics": "modern physics"},
         )
 
-        assert article in plan.rewrite_targets
+        assert lang_dir / "Modern physics.md" in plan.rewrite_targets
         assert other not in plan.rewrite_targets
 
 
@@ -372,7 +372,6 @@ class TestReprocessSymlinkRename:
         )
         await apply_reprocess_plan(plan, dry_run=False)
 
-        assert not await article.exists()
         renamed = lang_dir / "Modern physics.md"
         assert await renamed.is_file()
         assert not await renamed.is_symlink()

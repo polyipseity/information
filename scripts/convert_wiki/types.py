@@ -144,6 +144,7 @@ class _SymlinkActionKind(Enum):
     CREATE = "create"
     REMOVE = "remove"
     RETARGET = "retarget"
+    RENAME = "rename"
 
 
 @dataclass(frozen=True)

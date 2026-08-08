@@ -95,11 +95,22 @@ async def _create_redirect_symlinks(
                 target,
                 target_is_directory=False,
             )
-    with suppress(FileExistsError):
-        await (wiki_dir_path / f"{from_filename}.md").symlink_to(
-            str(redirect_file.relative_to(wiki_dir_path)),
-            target_is_directory=False,
-        )
+    mirror = wiki_dir_path / f"{from_filename}.md"
+    expected_mirror_target = str(redirect_file.relative_to(wiki_dir_path))
+    if await mirror.is_symlink():
+        if str(await mirror.readlink()) != expected_mirror_target:
+            await mirror.unlink()
+            with suppress(FileExistsError):
+                await mirror.symlink_to(
+                    expected_mirror_target,
+                    target_is_directory=False,
+                )
+    elif not await mirror.exists():
+        with suppress(FileExistsError):
+            await mirror.symlink_to(
+                expected_mirror_target,
+                target_is_directory=False,
+            )
 
 
 async def _remove_redirect_symlinks(

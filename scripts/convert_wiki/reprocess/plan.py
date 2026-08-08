@@ -2,6 +2,7 @@
 
 from collections.abc import Mapping, Sequence
 from os import fspath
+from os.path import samefile
 
 from anyio import Path
 
@@ -117,12 +118,15 @@ async def plan_reprocess(
         base_map=base,
         effective_map=effective_map,
     )
+    migration_map = _stem_migration_map(stem_migrations)
 
     scanned = await _scan_redirect_symlinks(wiki_dir)
     expected_targets: dict[tuple[str, str], str] = {}
     default_lang = Path(_cfg._CONVERTED_WIKI_LANGUAGE_DIRECTORY).name
     lang_dirs = {lang_dir.name for _, lang_dir, _ in scanned} or {default_lang}
     for title, info in redirect_cache.items():
+        if title in _cfg._CITATION_UI_TITLES:
+            continue
         for lang_dir_name in lang_dirs:
             lang_dir = wiki_dir / lang_dir_name
             expected_targets[
@@ -135,15 +139,36 @@ async def plan_reprocess(
             )
 
     symlink_actions: list[_SymlinkAction] = []
+    for from_stem, lang_dir, _symlink in scanned:
+        new_from_stem = migration_map.get(from_stem, from_stem)
+        if new_from_stem != from_stem:
+            symlink_actions.append(
+                _SymlinkAction(
+                    kind=_SymlinkActionKind.RENAME,
+                    from_stem=from_stem,
+                    to_stem=new_from_stem,
+                    lang_dir_name=lang_dir.name,
+                )
+            )
+
     scanned_lookup = {
-        (from_stem, lang_dir.name): (from_stem, lang_dir, symlink)
+        (
+            migration_map.get(from_stem, from_stem),
+            lang_dir.name,
+        ): (from_stem, lang_dir, symlink)
         for from_stem, lang_dir, symlink in scanned
     }
     for title, info in redirect_cache.items():
+        if title in _cfg._CITATION_UI_TITLES:
+            continue
         from_stem = _stem_for_title(title, effective_map)
         for lang_dir_name in lang_dirs:
             expected = expected_targets[(title, lang_dir_name)]
-            expected_stem = expected.removesuffix(".md")
+            expected_stem = migration_map.get(
+                expected.removesuffix(".md"),
+                expected.removesuffix(".md"),
+            )
+            expected = f"{expected_stem}.md"
             key = (from_stem, lang_dir_name)
             if info.to == title or from_stem == expected_stem:
                 if key in scanned_lookup:
@@ -183,13 +208,14 @@ async def plan_reprocess(
     for lang_dir_name, stem in resolved_articles:
         lang_dir = wiki_dir / lang_dir_name
         current_path = lang_dir / f"{stem}.md"
-        listed_paths.append(current_path)
-        new_stem = _stem_for_title(stem, effective_map)
+        new_stem = migration_map.get(stem, _stem_for_title(stem, effective_map))
+        rewrite_path = current_path
         if new_stem != stem:
             target_path = lang_dir / f"{new_stem}.md"
             if await target_path.exists() and not await target_path.is_symlink():
-                msg = f"rename target already exists: {target_path}"
-                raise FileExistsError(msg)
+                if not samefile(fspath(target_path), fspath(current_path)):
+                    msg = f"rename target already exists: {target_path}"
+                    raise FileExistsError(msg)
             rename_actions.append(
                 _RenameAction(
                     lang_dir_name=lang_dir_name,
@@ -198,10 +224,10 @@ async def plan_reprocess(
                 )
             )
             heading_updates[fspath(target_path)] = new_stem
+            rewrite_path = target_path
         elif stem in {migration.old_stem for migration in stem_migrations}:
-            heading_updates[fspath(current_path)] = _stem_migration_map(
-                stem_migrations
-            ).get(stem, stem)
+            heading_updates[fspath(current_path)] = migration_map.get(stem, stem)
+        listed_paths.append(rewrite_path)
 
     rewrite_targets = await _collect_rewrite_targets(
         wiki_dir,
