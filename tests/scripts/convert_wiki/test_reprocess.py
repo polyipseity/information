@@ -25,6 +25,7 @@ from scripts.convert_wiki.types import (
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
 
+"""Directory of snapshot input and expected files."""
 _SNAPSHOT_DIR = Path(__file__).resolve(strict=True).parent / "snapshots"
 
 

@@ -10,6 +10,7 @@ from .utils import _fix_filename
 """Exported names from this module."""
 __all__ = ()
 
+"""Regex matching markdown ``.md`` link targets in ``](...)`` form."""
 _LINK_TARGET_RE: Pattern[str] = re.compile(r"\]\(([^)]+\.md(?:#[^)]*)?)\)")
 
 
@@ -48,6 +49,7 @@ def _rewrite_markdown_links(
         return text
 
     def replace(match: re.Match[str]) -> str:
+        """Rewrite a single regex match to the migrated link target."""
         target = match.group(1)
         return f"]({_rewrite_link_target(target, migrations)})"
 
