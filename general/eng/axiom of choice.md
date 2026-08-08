@@ -76,7 +76,7 @@ Another equivalent axiom {@{only considers collections $X$}@} that are {@{essent
 
 Authors who use this formulation often speak of the _choice function on $A$<!-- LaTeX separator -->_, but this is {@{a slightly different notion of choice function}@}. {@{Its domain}@} is {@{the power set of $A$ \(with the empty set removed\)}@}, and so {@{makes sense for any set $A$}@}, whereas with {@{the definition used elsewhere in this article}@}, {@{the domain of a choice function}@} on {@{a _collection of sets_ is that collection}@}, and so {@{only makes sense for sets of sets}@}. With {@{this alternate notion of choice function}@}, the axiom of choice {@{can be compactly stated}@} as <p> &emsp; {@{Every set}@} has {@{a choice function \(annotation: with alternate notion\)}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2027-01-10,392,364!2026-12-30,383,364!2027-01-03,386,364!2026-09-30,308,347!2026-09-16,295,347!2026-12-19,375,364!fsrs,2029-08-15T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-07-27T00:00:00.000Z!2026-12-14,371,364!2026-10-09,314,347!2026-09-26,305,347!2026-10-24,327,347!2026-12-13,369,364-->
 
-which is equivalent to <p> &emsp; For {@{any set $A$}@} there is {@{a function $f:{\mathcal {P} }(A)\setminus \{\emptyset \}\to A$}@} such that {@{for any non-empty subset $B$ of $A$, $f(B)$ lies in $B$}@}. <!--SR:!2026-11-19,351,364!2027-01-12,394,364!2026-09-04,270,344-->
+which is equivalent to <p> &emsp; For {@{any set $A$}@} there is {@{a function $f:{\mathcal {P} }(A)\setminus \{\emptyset \}\to A$}@} such that {@{for any non-empty subset $B$ of $A$, $f(B)$ lies in $B$}@}. <!--SR:!2026-11-19,351,364!2027-01-12,394,364!fsrs,2030-01-27T00:00:00.000Z,1240,1240.07684072,1,2,9,0,0,2026-09-05T00:00:00.000Z-->
 
 {@{The negation of the axiom}@} can thus be expressed as: <p> &emsp; There is {@{a set $A$}@} such that for {@{all functions $f$ \(on the set of non-empty subsets of $A$\)}@}, there is {@{a subset $B$ such that $f(B)$ does not lie in $B$}@}. <!--SR:!2026-12-26,381,364!2026-12-13,370,364!2026-12-07,363,364!2026-11-10,342,364-->
 
@@ -144,7 +144,7 @@ The axiom of choice is not {@{the only significant statement that is independent
 
 ## equivalents
 
-There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermelo–Fraenkel%20set%20theory.md) but neither AC nor ¬AC}@}, are {@{equivalent to the axiom of choice}@}.<sup>[\[21\]](#^ref-21)</sup> {@{The most important among them}@} are {@{[Zorn's lemma](Zorn's%20lemma.md) and the [well-ordering theorem](well-ordering%20theorem.md)}@}. In fact, {@{Zermelo initially introduced the axiom of choice}@} in order to {@{formalize his proof of the well-ordering theorem}@}. <!--SR:!2026-09-28,306,347!2026-12-20,376,364!fsrs,2029-07-25T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-07-22T00:00:00.000Z!2026-11-11,344,364!2026-12-13,370,364!2026-09-04,285,347!2026-11-30,360,364-->
+There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermelo–Fraenkel%20set%20theory.md) but neither AC nor ¬AC}@}, are {@{equivalent to the axiom of choice}@}.<sup>[\[21\]](#^ref-21)</sup> {@{The most important among them}@} are {@{[Zorn's lemma](Zorn's%20lemma.md) and the [well-ordering theorem](well-ordering%20theorem.md)}@}. In fact, {@{Zermelo initially introduced the axiom of choice}@} in order to {@{formalize his proof of the well-ordering theorem}@}. <!--SR:!2026-09-28,306,347!2026-12-20,376,364!fsrs,2029-07-25T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-07-22T00:00:00.000Z!2026-11-11,344,364!2026-12-13,370,364!fsrs,2030-04-09T00:00:00.000Z,1312,1312.29516173,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-11-30,360,364-->
 
 - [Set theory](set%20theory.md)
 
@@ -164,7 +164,7 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
     - \(annotation: {@{equivalent to}@} AC\) {@{[Zorn's lemma](Zorn's%20lemma.md)}@}: {@{Every non-empty [partially ordered set](partially%20ordered%20set.md)}@} in which {@{every chain \(_i.e._, totally ordered subset\) has an upper bound}@} {@{contains at least one maximal element}@}. <!--SR:!2026-10-20,323,347!fsrs,2030-03-08T00:00:00.000Z,1288,1288.29328403,1,2,9,0,0,2026-08-28T00:00:00.000Z!2028-11-26,912,347!2027-01-15,396,364!fsrs,2028-09-12T00:00:00.000Z,805,805.32875921,1,2,8,0,0,2026-06-30T00:00:00.000Z-->
 
-    - \(annotation: {@{equivalent to}@} AC\) {@{[Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@}: {@{Every partially ordered set}@} has {@{a maximal chain}@}. Equivalently, in {@{any partially ordered set}@}, {@{every chain can be extended to a maximal chain}@}. <!--SR:!2026-12-18,372,364!2026-09-04,285,347!fsrs,2030-02-15T00:00:00.000Z,1272,1272.25632328,1,2,9,0,0,2026-08-23T00:00:00.000Z!2026-12-21,376,364!2026-12-15,371,364!fsrs,2028-06-15T02:13:58.860Z,732,732.00802991,1,2,8,0,0,2026-06-14T02:13:58.860Z-->
+    - \(annotation: {@{equivalent to}@} AC\) {@{[Hausdorff maximal principle](Hausdorff%20maximal%20principle.md)}@}: {@{Every partially ordered set}@} has {@{a maximal chain}@}. Equivalently, in {@{any partially ordered set}@}, {@{every chain can be extended to a maximal chain}@}. <!--SR:!2026-12-18,372,364!fsrs,2028-12-17T00:00:00.000Z,834,833.50507861,1.85586587,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-02-15T00:00:00.000Z,1272,1272.25632328,1,2,9,0,0,2026-08-23T00:00:00.000Z!2026-12-21,376,364!2026-12-15,371,364!fsrs,2028-06-15T02:13:58.860Z,732,732.00802991,1,2,8,0,0,2026-06-14T02:13:58.860Z-->
 
     - \(annotation: {@{equivalent to}@} AC\) {@{[Tukey's lemma](Tukey's%20lemma.md)}@}: {@{Every non-empty collection of [finite character](finite%20character.md)}@} has {@{a maximal element with respect to inclusion}@}. <!--SR:!2026-12-27,381,364!2026-12-21,376,364!2026-11-07,336,347!fsrs,2028-08-08T00:00:00.000Z,777,777.35406123,1,2,8,0,0,2026-06-23T00:00:00.000Z-->
 
@@ -346,7 +346,7 @@ There are {@{models of Zermelo-Fraenkel set theory}@} in which {@{the axiom of c
 
 For proofs, see [Jech \(2008\)](#CITEREFJech2008).
 
-Additionally, by imposing {@{definability conditions on sets}@} \(in the sense of {@{[descriptive set theory](descriptive%20set%20theory.md)}@}\) one can often {@{prove restricted versions of the axiom of choice}@} from {@{axioms incompatible with general choice}@}. This appears, for example, in {@{the [Moschovakis coding lemma](Moschovakis%20coding%20lemma.md)}@}. <!--SR:!2027-01-13,395,364!2026-12-26,380,364!2026-09-13,277,344!2026-09-04,286,347!2026-11-25,356,364-->
+Additionally, by imposing {@{definability conditions on sets}@} \(in the sense of {@{[descriptive set theory](descriptive%20set%20theory.md)}@}\) one can often {@{prove restricted versions of the axiom of choice}@} from {@{axioms incompatible with general choice}@}. This appears, for example, in {@{the [Moschovakis coding lemma](Moschovakis%20coding%20lemma.md)}@}. <!--SR:!2027-01-13,395,364!2026-12-26,380,364!2026-09-13,277,344!fsrs,2030-04-13T00:00:00.000Z,1316,1316.28922255,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-11-25,356,364-->
 
 ## axiom of choice in type theory
 

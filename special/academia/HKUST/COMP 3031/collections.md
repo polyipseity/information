@@ -39,7 +39,7 @@ In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@}
 > val diag3  = List(List(1,0,0), List(0,1,0), List(0,0,1))
 > val empty  = List()
 > ```
-<!--SR:!2026-09-04,232,330!2026-10-08,266,330-->
+<!--SR:!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-08,266,330-->
 
 Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their contents cannot be altered}@}—and they are inherently {@{__recursive__}@}; {@{each element is prepended}@} to a list by storing {@{the element and the remaining of the list as another list}@}. Lists are also {@{__homogeneous__}@}: all elements must {@{share the same type _T_}@}, so {@{a list of integers}@} is written {@{`List[Int]`}@} and its type annotation can be {@{omitted when inferred}@}. <!--SR:!2026-10-10,268,330!2026-11-03,290,330!2026-10-29,285,330!2026-09-26,254,330!2026-09-20,248,330!2026-09-06,234,330!2026-10-04,262,330!2026-10-11,269,330!2026-10-08,266,330!2026-10-19,277,330!2026-11-07,293,330-->
 
@@ -65,7 +65,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 {@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}. <!--SR:!2026-09-24,252,330!2026-09-19,247,330!fsrs,2028-11-16T00:00:00.000Z,838,838.20060054,1,2,9,0,0,2026-08-01T00:00:00.000Z!2026-10-10,268,330!2026-10-28,284,330-->
 
-Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-10-31,287,330!2026-09-19,247,330!2026-10-08,266,330!2026-09-04,232,330!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-08,266,330!2026-09-17,245,330!2026-10-23,281,330!2026-10-13,271,330!2026-10-04,262,330!2026-09-07,235,330!2026-09-25,253,330!2026-09-05,233,330!2026-10-05,263,330!2026-09-12,240,330!2026-10-29,285,330!2026-10-27,283,330-->
+Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-10-31,287,330!2026-09-19,247,330!2026-10-08,266,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-08,266,330!2026-09-17,245,330!2026-10-23,281,330!2026-10-13,271,330!2026-10-04,262,330!2026-09-07,235,330!2026-09-25,253,330!2026-09-05,233,330!2026-10-05,263,330!2026-09-12,240,330!2026-10-29,285,330!2026-10-27,283,330-->
 
 Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}. <!--SR:!2026-09-27,255,330!2026-09-23,251,330!2026-10-13,271,330!2026-09-30,258,330-->
 
@@ -115,7 +115,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > val fruits = List("Apple", "Orange", "Banana")
 > val nums   = 1 :: 2 :: Nil          // equivalent to List(1, 2)
 > ```
-<!--SR:!2026-10-08,266,330!2026-11-04,290,330!2026-09-04,232,330!2026-10-17,275,330-->
+<!--SR:!2026-10-08,266,330!2026-11-04,290,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,275,330-->
 
 {@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!2026-09-20,248,330!2026-11-05,291,330!2026-11-08,294,330!2026-09-05,233,330!2026-10-12,270,330!2026-11-05,291,330!2026-09-06,234,330-->
 
@@ -141,7 +141,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 
 {@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!2026-09-18,246,330!2026-10-01,259,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-20,248,330-->
 
-{@{The implementation of `last` and `init`}@}, for instance, is {@{linear in the length of the list}@} because it must {@{traverse all elements to reach the tail}@}. <!--SR:!2026-09-04,232,330!2026-09-29,257,330!2026-10-22,280,330-->
+{@{The implementation of `last` and `init`}@}, for instance, is {@{linear in the length of the list}@} because it must {@{traverse all elements to reach the tail}@}. <!--SR:!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-09-29,257,330!2026-10-22,280,330-->
 
 > [!example] __`List.last`, `List.init`__
 >
@@ -563,7 +563,7 @@ Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuch
 
 ### map update
 
-Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operator `+`}@} adds {@{a single key/value pair}@}; {@{the operator `++`}@} {@{merges two maps}@}: <!--SR:!2026-10-07,265,330!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-27,255,330!2026-11-02,289,330!2026-09-04,232,330!2026-10-23,281,330-->
+Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operator `+`}@} adds {@{a single key/value pair}@}; {@{the operator `++`}@} {@{merges two maps}@}: <!--SR:!2026-10-07,265,330!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-27,255,330!2026-11-02,289,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-23,281,330-->
 
 > [!example] __`++` and `+` example__
 >
@@ -708,4 +708,4 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > ```
 <!--SR:!2026-09-12,240,330!2026-09-24,252,330-->
 
-{@{These properties}@} make sets especially suitable for {@{combinatorial search problems}@} where the focus lies on {@{the presence or absence of items rather than their position}@}. <!--SR:!2026-11-05,291,330!2026-09-04,232,330!2026-10-14,272,330-->
+{@{These properties}@} make sets especially suitable for {@{combinatorial search problems}@} where the focus lies on {@{the presence or absence of items rather than their position}@}. <!--SR:!2026-11-05,291,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-14,272,330-->

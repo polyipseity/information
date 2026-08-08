@@ -214,7 +214,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 >
 > which should be corrected {@{to `>=` instead of `>`}@}.  This illustrates how {@{generators can reveal subtle invariants}@}. <!--SR:!2026-09-12,241,330!2026-10-14,273,330!2026-09-25,254,330!2026-11-04,290,330-->
 
-The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expressed as a lambda}@} can be automatically {@{checked against many random inputs}@}: <!--SR:!2026-10-12,271,330!2026-10-13,272,330!2026-09-04,233,330-->
+The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expressed as a lambda}@} can be automatically {@{checked against many random inputs}@}: <!--SR:!2026-10-12,271,330!2026-10-13,272,330!fsrs,2029-07-12T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-05T00:00:00.000Z-->
 
 > [!example] ___ScalaCheck___
 >

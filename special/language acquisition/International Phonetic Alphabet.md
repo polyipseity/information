@@ -1027,7 +1027,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [close front rounded vowel](close%20front%20rounded%20vowel.md):@:[French](French%20language.md) _t**u**_ \[t̪y] "you" <!--SR:!2026-12-24,567,210-->
 - [near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md):@:[German](German%20language.md) _sch**ü**tzen_ \[ˈʃʏ̞t͡sn̩\] "protect" <!--SR:!fsrs,2026-10-01T00:00:00.000Z,67,66.53445295,9.98522837,2,7,0,0,2026-07-26T00:00:00.000Z-->
 - [voiced velar fricative](voiced%20velar%20fricative.md):@:[Spanish](Spanish%20language.md) _ami**g**o_ \[a̠ˈmiɣo̟\] "friend" <!--SR:!fsrs,2026-10-20T00:00:00.000Z,51,50.96888027,9.96562598,2,8,0,0,2026-08-30T00:00:00.000Z-->
-- [close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md):@:[Chinese](Chinese%20language.md) 餓/_**è**_ \[ɤ˥˩\] "hungry" <!--SR:!fsrs,2026-09-05T00:00:00.000Z,46,46.02875509,9.97047151,2,7,0,0,2026-07-21T00:00:00.000Z-->
+- [close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md):@:[Chinese](Chinese%20language.md) 餓/_**è**_ \[ɤ˥˩\] "hungry" <!--SR:!fsrs,2026-10-29T00:00:00.000Z,54,54.13790107,9.96562598,2,8,0,0,2026-09-05T00:00:00.000Z-->
 - [voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md):@:[English](English%20language.md) _mi**lli**on_ \[ˈmɪʎən\] <!--SR:!2026-10-03,152,150-->
 - [voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md):@:[French](French%20language.md) _n**u**ire_ \[nɥiʁ\] "to harm" <!--SR:!fsrs,2026-09-17T00:00:00.000Z,29,28.98874769,9.94606278,2,8,0,0,2026-08-19T00:00:00.000Z-->
 - [voiced alveolar fricative](voiced%20alveolar%20fricative.md):@:[English](English%20language.md) _**z**oo_ \[z̪ʏˑy̯\] <!--SR:!2027-09-16,548,190-->

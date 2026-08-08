@@ -385,7 +385,7 @@ return await memorize_map(
 - [silver nitrate](silver%20nitrate.md):@:<span style="color: green;">soluble</span> <!--SR:!fsrs,2033-07-22T00:00:00.000Z,2585,2584.78732129,1,2,10,0,0,2026-06-24T00:00:00.000Z-->
 - [silver sulfate](silver%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-12-06,322,170-->
 - [sodium carbonate](sodium%20carbonate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-11-21,992,298-->
-- [sodium chloride](sodium%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-09-04,807,338-->
+- [sodium chloride](sodium%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!fsrs,2032-04-29T00:00:00.000Z,2063,2062.60829406,2.19302837,2,11,0,0,2026-09-05T00:00:00.000Z-->
 - [sodium fluoride](sodium%20fluoride.md):@:<span style="color: green;">soluble</span> <!--SR:!2033-02-19,2579,338-->
 - [sodium hydroxide](sodium%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!fsrs,2034-12-09T00:00:00.000Z,3056,3055.62097517,1,2,11,0,0,2026-07-28T00:00:00.000Z-->
 - [sodium oxide](sodium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2028-08-23,1323,338-->

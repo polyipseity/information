@@ -148,7 +148,7 @@ These qualities illustrate why {@{immutable Scala collections}@} are considered 
 
 ## database
 
-{@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}. <!--SR:!2026-09-12,244,330!2026-09-04,236,330!2026-09-13,245,330!2026-11-07,293,330!2026-10-20,276,330!2026-09-23,255,330-->
+{@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}. <!--SR:!2026-09-12,244,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-09-13,245,330!2026-11-07,293,330!2026-10-20,276,330!2026-09-23,255,330-->
 
 Consider {@{a simple in-memory catalog of books}@} represented as {@{a list}@}: <!--SR:!fsrs,2029-06-25T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-10-29,285,330-->
 

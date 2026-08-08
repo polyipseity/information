@@ -121,7 +121,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 
 > {@{![4:1 MUX circuit using 3 input AND and other gates](../../archives/Wikimedia%20Commons/4to1%20MUX%20using%20basic%20gates.jpg)}@}
 >
-> {@{A 4:1 MUX circuit}@} using {@{3 input AND and other gates}@} <!--SR:!2029-01-12,1031,344!2030-06-03,1518,364!2026-09-04,126,410-->
+> {@{A 4:1 MUX circuit}@} using {@{3 input AND and other gates}@} <!--SR:!2029-01-12,1031,344!2030-06-03,1518,364!fsrs,2028-08-02T00:00:00.000Z,697,697.23354019,1,2,8,0,0,2026-09-05T00:00:00.000Z-->
 
 ### chaining multiplexers and mux trees
 

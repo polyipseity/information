@@ -20,7 +20,7 @@ tags:
 
 ## list properties
 
-In {@{functional programming}@}, lists are {@{one of the most common data structures}@} and they form {@{the basis for many proofs about program correctness}@}. {@{A central operation}@} on lists is {@{concatenation}@}, denoted by {@{`:::` in Scala}@}. For {@{two lists `xs` and `ys`}@}, {@{the expression `xs ::: ys`}@} produces a new list that contains {@{all elements of `xs` followed by all elements of `ys`}@}. {@{Two fundamental algebraic laws}@} hold for this operator: \(annotation: 2 items: {@{associativity, neutral element}@}\) <!--SR:!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-08,240,330!2026-10-28,285,330!2026-09-18,250,330!2026-10-19,277,330!2026-09-04,236,330!2026-10-17,276,330!2026-11-03,290,330!2026-11-08,294,330!2026-10-10,269,330!2026-10-14,273,330-->
+In {@{functional programming}@}, lists are {@{one of the most common data structures}@} and they form {@{the basis for many proofs about program correctness}@}. {@{A central operation}@} on lists is {@{concatenation}@}, denoted by {@{`:::` in Scala}@}. For {@{two lists `xs` and `ys`}@}, {@{the expression `xs ::: ys`}@} produces a new list that contains {@{all elements of `xs` followed by all elements of `ys`}@}. {@{Two fundamental algebraic laws}@} hold for this operator: \(annotation: 2 items: {@{associativity, neutral element}@}\) <!--SR:!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-08,240,330!2026-10-28,285,330!2026-09-18,250,330!2026-10-19,277,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,276,330!2026-11-03,290,330!2026-11-08,294,330!2026-10-10,269,330!2026-10-14,273,330-->
 
 - __Associativity__ ::@:: `(xs ::: ys) ::: zs = xs ::: (ys ::: zs)` <!--SR:!2026-09-09,241,330!2026-09-16,248,330-->
 - __Neutral element__ ::@:: – the empty list `Nil` is a left and right identity: `xs ::: Nil = xs` and `Nil ::: xs = xs` <!--SR:!2026-09-27,259,330!2026-09-18,250,330-->
@@ -39,7 +39,7 @@ These laws capture {@{the essential behavior}@} of a set: {@{an empty set}@} con
 
 ## structural induction
 
-The familiar principle of {@{natural induction on the natural numbers}@} states that to prove {@{a property $P(n)$ for all integers $n \ge b$}@}, one must show: \(annotation: 2 items: {@{base case → inductive step}@}\) <!--SR:!2026-09-04,236,330!2026-10-13,272,330!2026-09-25,257,330-->
+The familiar principle of {@{natural induction on the natural numbers}@} states that to prove {@{a property $P(n)$ for all integers $n \ge b$}@}, one must show: \(annotation: 2 items: {@{base case → inductive step}@}\) <!--SR:!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-13,272,330!2026-09-25,257,330-->
 
 1. \(annotation: natural induction\) __Base case__: ::@:: $P(b)$ holds. <!--SR:!2026-10-15,274,330!fsrs,2029-06-25T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-08-30T00:00:00.000Z-->
 2. \(annotation: natural induction\) __Inductive step__: ::@:: For every $n \ge b$, if $P(n)$ holds then so does $P(n+1)$. <!--SR:!2026-09-16,248,330!2026-10-13,272,330-->
@@ -301,7 +301,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{`x < elem`}@}, `incl` recurses {@{into the left child: `NonEmpty(elem, l.incl(x), r)`}@}. By {@{the induction hypothesis}@}, {@{`l.incl(x).contains(x)` is `true`}@}; consequently {@{the whole expression evaluates to `true`}@}.
 > - {@{The case `x > elem`}@} is {@{analogous with the right child}@}.
 >
-> Thus {@{law 2 holds for all trees}@}. <!--SR:!2026-09-04,236,330!2026-09-20,252,330!2026-11-07,293,330!2026-09-27,259,330!2026-09-29,261,330!2026-09-29,261,330!2026-10-05,267,330!2026-11-04,290,330!2026-09-10,242,330!2026-10-08,267,330!2026-11-07,293,330!2026-09-06,238,330!2026-09-22,254,330!2026-10-27,284,330!2026-09-30,262,330-->
+> Thus {@{law 2 holds for all trees}@}. <!--SR:!fsrs,2028-01-16T00:00:00.000Z,498,498.34804255,5.00637887,2,9,0,0,2026-09-05T00:00:00.000Z!2026-09-20,252,330!2026-11-07,293,330!2026-09-27,259,330!2026-09-29,261,330!2026-09-29,261,330!2026-10-05,267,330!2026-11-04,290,330!2026-09-10,242,330!2026-10-08,267,330!2026-11-07,293,330!2026-09-06,238,330!2026-09-22,254,330!2026-10-27,284,330!2026-09-30,262,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -333,7 +333,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{$z > x$ and $z > y$ \($z$ is largest, i.e. $x < y < z$ or $y < x < z$\)}@} – {@{analogous reasoning applies to the left child}@}.
 > - If {@{$x < z < y$ or $y < z < x$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
 >
-> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!2026-09-04,236,330!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!2026-09-11,243,330!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-12,244,330!2026-10-14,273,330!2026-09-06,238,330!2026-11-02,289,330!2026-10-26,283,330!2026-09-07,239,330!2026-09-06,238,330!2027-07-04,458,310!2026-09-14,246,330!2026-10-20,278,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-31,287,330!2026-09-09,241,330-->
+> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!2026-09-11,243,330!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-12,244,330!2026-10-14,273,330!2026-09-06,238,330!2026-11-02,289,330!2026-10-26,283,330!2026-09-07,239,330!2026-09-06,238,330!2027-07-04,458,310!2026-09-14,246,330!2026-10-20,278,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-31,287,330!2026-09-09,241,330-->
 
 ### proving set union property
 
@@ -357,7 +357,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > ```
 <!--SR:!2026-09-17,249,330!2026-10-21,279,330-->
 
-{@{The correctness of `union`}@} can be expressed by {@{the following proposition}@}: <!--SR:!2026-09-04,236,330!2026-11-06,292,330-->
+{@{The correctness of `union`}@} can be expressed by {@{the following proposition}@}: <!--SR:!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-11-06,292,330-->
 
 > [!example] __`IntSet.union` property__
 >

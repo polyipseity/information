@@ -128,7 +128,7 @@ return chain.from_iterable([r.value for r in results])
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET):@:[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!2026-10-22,307,150-->
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2026-11-21,829,261-->
 - [polypropylene](polypropylene.md) (PP):@:[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2027-05-27,448,170-->
-- [polystyrene](polystyrene.md) (PS):@:expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!2026-09-04,583,201-->
+- [polystyrene](polystyrene.md) (PS):@:expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!fsrs,2030-04-27T00:00:00.000Z,1330,1329.67395655,6.43304494,2,10,0,0,2026-09-05T00:00:00.000Z-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC):@:[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md) <!--SR:!2030-01-14,1444,249-->
 
 <!--/pytextgen-->

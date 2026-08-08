@@ -157,7 +157,7 @@ return chain.from_iterable([r.value for r in results])
 - [electronic balance](weighing%20scale.md)→::@::←[evaporating dish](evaporating%20dish.md) <!--SR:!2026-12-20,757,230!fsrs,2032-02-22T00:00:00.000Z,2006,2005.87865887,2.98092302,2,10,0,0,2026-08-26T00:00:00.000Z-->
 - [evaporating dish](evaporating%20dish.md)→::@::←[filter funnel](filter%20funnel.md) <!--SR:!2029-03-01,1245,250!fsrs,2033-04-12T00:00:00.000Z,2423,2422.65912101,2.98092302,2,11,0,0,2026-08-24T00:00:00.000Z-->
 - [filter funnel](filter%20funnel.md)→::@::←[flat-bottom(ed) flask](flat-bottom%20flask.md) <!--SR:!2027-10-19,702,210!2030-06-21,1801,310-->
-- [flat-bottom(ed) flask](flat-bottom%20flask.md)→::@::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!2026-09-04,640,250!2027-09-05,490,170-->
+- [flat-bottom(ed) flask](flat-bottom%20flask.md)→::@::←[gas jar/pneumatic trough](pneumatic%20trough.md) <!--SR:!fsrs,2031-10-01T00:00:00.000Z,1852,1851.80008386,3.98153807,2,10,0,0,2026-09-05T00:00:00.000Z!2027-09-05,490,170-->
 - [gas jar/pneumatic trough](pneumatic%20trough.md)→::@::←[glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md) <!--SR:!2027-11-03,837,210!2027-10-26,1106,290-->
 - [glass stirring rod/glass rod/stir(ring) rod](glass%20rod.md)→::@::←[graduated pipette](graduated%20pipette.md) <!--SR:!2028-08-17,925,230!2027-02-01,570,170-->
 - [graduated pipette](graduated%20pipette.md)→::@::←[heat-resistant mat/heatproof mat](heatproof%20mat.md) <!--SR:!2028-08-10,1179,250!fsrs,2028-07-28T00:00:00.000Z,761,761.06479209,6.98338322,2,9,0,0,2026-06-28T00:00:00.000Z-->
