@@ -228,9 +228,44 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 
 ### Step 7: Commit the note
 
-Stage and commit the new note using the [commit-staged-flashcard-notes](../prompts/commit-staged-flashcard-notes.prompt.md) prompt.
+Stage all ingestion changes (note, symlinks, archives, `name_map` updates).
 
-The agent __must ask the user__ to provide at least two of the three flashcard count values (`Flashcards-prev`, `Flashcards-now`, `Flashcards-delta`). The agent must __not__ compute these values itself. The agent then follows the commit-staged-flashcard-notes workflow to compose and create the commit.
+The agent __must ask the user__ for at least two of the three flashcard count values (`Flashcards-prev`, `Flashcards-now`, `Flashcards-delta`). The agent must __not__ compute these values itself.
+
+Use [commit-staged-flashcard-notes](../prompts/commit-staged-flashcard-notes.prompt.md) only for staging inspection and note counts (added / edited / deleted under `general/`, `special/`, `self/`). __Do not__ use that prompt's default commit header — wiki ingestion uses the format below.
+
+__Commit message format__ (validate with `bun x commitlint` before committing; wrap lines to 72 characters or fewer):
+
+1. __Header__ — article filename from Step 1, not a count summary:
+
+   ```text
+   feat(notes): add `<name>.md`
+   ```
+
+   Use the Step 1 note filename (e.g. `modern physics.md`), wrapped in backticks.
+
+2. __Body__ — immediately after the header:
+   - Count line(s) using the commit-staged wording (`add <N> note(s)`, `edit <M> note(s)`, `delete <D> note(s)`; only nonzero counts; semicolon-separated when multiple). Keep these on their own line(s), separate from the prose below.
+   - A blank line.
+   - One brief sentence in natural English stating which article was ingested (e.g. `Ingested the modern physics article from Wikipedia.`). Do not list generic ingestion mechanics (flashcards, symlinks, archives) — every wiki ingestion includes those.
+
+3. __Footer__ — flashcard trailers when applicable (see [commit-convention](../instructions/commit-convention.instructions.md)): `Flashcards-delta`, `Flashcards-prev`, `Flashcards-now` as plain ASCII key/value pairs, one per line.
+
+Full example:
+
+```text
+feat(notes): add `modern physics.md`
+
+Add 18 note(s).
+
+Ingested the modern physics article from Wikipedia.
+
+Flashcards-delta: 0
+Flashcards-prev: 0
+Flashcards-now: 0
+```
+
+Present the proposed commit message to the user for confirmation before committing.
 
 ## Post-ingestion checks
 
