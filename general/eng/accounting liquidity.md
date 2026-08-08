@@ -26,7 +26,7 @@ tags:
 <!-- -->
 <!-- | - [v](https://en.wikipedia.org/wiki/Template:Accounting) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Accounting) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3AAccounting) | -->
 
-In {@{[accounting](accounting.md)}@}, {@{__liquidity__ \(or __accounting liquidity__\)}@} is {@{a measure of the ability of a [debtor](debtor.md) to pay their [debts](debt.md) as and when they [fall due](maturity%20(finance).md)}@}. It is usually expressed as {@{a [ratio](ratio.md) or a [percentage](percentage.md) of current [liabilities](liability%20(accounting).md)}@}. {@{Liquidity}@} is {@{the ability to pay short-term obligations}@}. <!--SR:!2026-12-07,327,345!2026-12-07,327,345!fsrs,2029-07-17T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-29T00:00:00.000Z!2026-09-03,242,330!2026-11-26,317,345!2026-10-15,284,330-->
+In {@{[accounting](accounting.md)}@}, {@{__liquidity__ \(or __accounting liquidity__\)}@} is {@{a measure of the ability of a [debtor](debtor.md) to pay their [debts](debt.md) as and when they [fall due](maturity%20(finance).md)}@}. It is usually expressed as {@{a [ratio](ratio.md) or a [percentage](percentage.md) of current [liabilities](liability%20(accounting).md)}@}. {@{Liquidity}@} is {@{the ability to pay short-term obligations}@}. <!--SR:!2026-12-07,327,345!2026-12-07,327,345!fsrs,2029-07-17T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-29T00:00:00.000Z!fsrs,2029-08-15T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-11-26,317,345!2026-10-15,284,330-->
 
 ## calculating liquidity
 
@@ -39,7 +39,7 @@ For {@{a corporation with a published [balance sheet](balance%20sheet.md)}@} the
 
 ## understanding the ratios
 
-For {@{different industries and differing legal systems}@} the use of {@{differing ratios and results would be appropriate}@}. For instance, in a country with {@{a legal system that gives a slow or uncertain result}@} {@{a higher level of liquidity}@} would be appropriate to {@{cover the uncertainty related to the valuation of assets}@}. {@{A [manufacturer](manufacturer.md) with stable cash flows}@} may find {@{a lower quick ratio more appropriate}@} than {@{an Internet-based start-up corporation}@}. <!--SR:!2026-09-06,245,330!2026-09-16,255,330!2026-10-28,288,330!2026-12-03,324,345!2026-12-21,339,345!2026-12-04,325,345!2026-11-29,320,345!2026-09-03,242,330-->
+For {@{different industries and differing legal systems}@} the use of {@{differing ratios and results would be appropriate}@}. For instance, in a country with {@{a legal system that gives a slow or uncertain result}@} {@{a higher level of liquidity}@} would be appropriate to {@{cover the uncertainty related to the valuation of assets}@}. {@{A [manufacturer](manufacturer.md) with stable cash flows}@} may find {@{a lower quick ratio more appropriate}@} than {@{an Internet-based start-up corporation}@}. <!--SR:!2026-09-06,245,330!2026-09-16,255,330!2026-10-28,288,330!2026-12-03,324,345!2026-12-21,339,345!2026-12-04,325,345!2026-11-29,320,345!fsrs,2029-08-15T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-04T00:00:00.000Z-->
 
 ## liquidity in banking
 

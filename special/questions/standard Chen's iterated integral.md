@@ -20,7 +20,7 @@ Simplify it.
 
 ## strategy
 
-- inspecting "$$\int_a^b \!\mathrm{d}x_1 \int_a^{x_1} \!\mathrm{d}x_2 \cdots \int_a^{x_{n - 1} } \!\mathrm{d}x_n \, f(x_1) f(x_2) \cdots f(x_n)$$" :@: Calculate the first few $n$ and see if any patterns can be found. <!--SR:!2026-09-03,552,310-->
+- inspecting "$$\int_a^b \!\mathrm{d}x_1 \int_a^{x_1} \!\mathrm{d}x_2 \cdots \int_a^{x_{n - 1} } \!\mathrm{d}x_n \, f(x_1) f(x_2) \cdots f(x_n)$$" :@: Calculate the first few $n$ and see if any patterns can be found. <!--SR:!fsrs,2032-04-27T00:00:00.000Z,2062,2061.762926,1,2,10,0,0,2026-09-04T00:00:00.000Z-->
 - proving that the pattern holds :@: Use mathematical induction. <!--SR:!2029-04-04,1342,350-->
 
 ## solution

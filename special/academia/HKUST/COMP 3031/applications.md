@@ -111,7 +111,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 >     rest       <- encode(number.drop(splitPoint))
 >   } yield word :: rest
 > ```
-<!--SR:!2026-09-18,250,330!2026-10-14,274,330!2026-09-11,243,330!2026-10-12,272,330!2026-09-03,235,330!2026-10-09,269,330!2026-10-12,272,330-->
+<!--SR:!2026-09-18,250,330!2026-10-14,274,330!2026-09-11,243,330!2026-10-12,272,330!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-09,269,330!2026-10-12,272,330-->
 
 {@{This comprehension}@} enumerates {@{all ways of partitioning the digit string into dictionary words}@}, accumulating {@{each complete phrase as a list}@}. <!--SR:!2026-11-06,292,330!2026-11-04,290,330!2026-11-06,292,330-->
 

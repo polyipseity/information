@@ -419,7 +419,7 @@ The content is in teaching order.
 - [annuity](../../../../general/annuity.md) ::@:: It is a series of payments made at equal intervals. <!--SR:!2026-09-05,514,403!2026-09-12,520,403-->
 - accounts payable turnover ::@:: $$\frac {\text{total supplier purchases} } {\text{average accounts payable} }$$ Average accounts payable is not time-weighted. It is simply the average of the beginning balance and ending balance. <p> (Funny history... The book has "cost of goods sold" as the numerator instead. Anyways, use the above definition.) <!--SR:!2026-09-30,535,403!2031-08-07,1925,396-->
     - accounts payable turnover / interpretation ::@:: It measures how quickly management pays suppliers. Usually, high suggests that a company has enough cash to pay its suppliers in a timely manner. But it could also mean the company is not reinvesting back into its business. <!--SR:!2026-09-23,529,403!fsrs,2032-10-02T00:00:00.000Z,2246,2246.2381643,1,2,10,0,0,2026-08-09T00:00:00.000Z-->
-    - average days to pay payables ::@:: $$\frac {365} {\text{accounts payable turnover} }$$ <!--SR:!2026-09-03,511,396!2026-10-01,536,403-->
+    - average days to pay payables ::@:: $$\frac {365} {\text{accounts payable turnover} }$$ <!--SR:!fsrs,2033-01-28T00:00:00.000Z,2338,2337.91372861,1,2,10,0,0,2026-09-04T00:00:00.000Z!2026-10-01,536,403-->
 - [§ week 9 review](questions.md#week%209%20review)
 
 ## week 10 lecture 1
@@ -459,7 +459,7 @@ The content is in teaching order.
 - [stock split](../../../../general/stock%20split.md) ::@:: It increases the number of shares in a company. For example, after a 2-for-1 split, each investor will own double the number of shares, and each share will be worth half as much. <p> They are not dividends. <!--SR:!fsrs,2032-11-11T00:00:00.000Z,2278,2278.18510575,1,2,10,0,0,2026-08-17T00:00:00.000Z!2026-09-21,526,396-->
     - stock split / accounting ::@:: No journal entries required as there is no change in total par value, but needs notes disclosures. <!--SR:!2031-09-03,1982,403!2029-07-19,1316,376-->
 - [preferred stock](../../../../general/preferred%20stock.md) ::@:: They have preference over common stocks in terms of dividend rights. They must receive dividends first before common stocks. They have no voting rights. They have a fixed dividend rate based on their par value. <!--SR:!2027-02-09,597,356!2026-10-07,541,403-->
-    - preferred stock / cumulative ::@:: Any unpaid dividends from previous years (dividends in arrears) must be paid before common dividends are paid. <!--SR:!2031-08-04,1957,403!2026-09-03,512,403-->
+    - preferred stock / cumulative ::@:: Any unpaid dividends from previous years (dividends in arrears) must be paid before common dividends are paid. <!--SR:!2031-08-04,1957,403!fsrs,2033-02-01T00:00:00.000Z,2342,2341.88784977,1,2,10,0,0,2026-09-04T00:00:00.000Z-->
     - preferred stock / non-cumulative ::@:: Any dividends not paid in previous years are lost permanently. <!--SR:!2030-12-03,1737,396!fsrs,2033-01-05T00:00:00.000Z,2322,2322.00772364,1,2,10,0,0,2026-08-28T00:00:00.000Z-->
 - [earnings per share](../../../../general/earnings%20per%20share.md) (EPS)
     - earnings per share / interpretation ::@:: This ratio is often used to compare the dividend-paying performance of different investment alternatives. <!--SR:!2026-09-24,529,403!2031-08-02,1955,403-->
@@ -493,7 +493,7 @@ The content is in teaching order.
 - datetime: 2024-11-14T13:30:00+08:00/2024-11-14T14:50:00+08:00
 - status: canceled: typhoon signal 8
 - [statement of cash flows](../../../../general/cash%20flow%20statement.md)
-    - cash equation ::@:: $$\text{cash and cash equivalents (CCE)} \\ = \text{liabilities (L)} + \text{stockholders' equity (SE)} - \text{non-cash assets (NCA)}$$  <p> (Deriving this equation from the original accounting equation was in a final examination question...) <!--SR:!2026-09-03,513,403!fsrs,2033-01-23T00:00:00.000Z,2334,2333.93861993,1,2,10,0,0,2026-09-03T00:00:00.000Z-->
+    - cash equation ::@:: $$\text{cash and cash equivalents (CCE)} \\ = \text{liabilities (L)} + \text{stockholders' equity (SE)} - \text{non-cash assets (NCA)}$$  <p> (Deriving this equation from the original accounting equation was in a final examination question...) <!--SR:!fsrs,2033-02-05T00:00:00.000Z,2346,2345.86098564,1,2,10,0,0,2026-09-04T00:00:00.000Z!fsrs,2033-01-23T00:00:00.000Z,2334,2333.93861993,1,2,10,0,0,2026-09-03T00:00:00.000Z-->
     - operating activities
         - operating activities / methods ::@:: direct method, indirect method (almost all companies use the latter) <!--SR:!2026-09-04,514,403!2026-09-04,512,396-->
         - operating activities / calculation ::@:: Indirect method: Start with net income. Add depreciation and amortization, including impairment losses (no actual cash has outflowed). Then remove gains and add loss of investing assets (not operating activities, accounted for in investing activities). Then compute differences between accrual-basis accounting and cash-basis accounting and add and remove accordingly. <p> The last step (computing the differences) in details: <br/> __operating (non-cash current) assets increase/decrease__: opposite <br/> __operating (current) liabilities increase/decrease__: same <!--SR:!2029-01-10,1171,383!2029-11-02,1391,383-->

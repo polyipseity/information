@@ -136,7 +136,7 @@ For {@{all numbers _N_ and all but _o_\(_N_\)<sup>[\[8\]](#^ref-8)</sup> positiv
 
 ### lower bounds
 
-For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2026-09-03,212,170!fsrs,2028-02-13T05:07:05.121Z,609,608.93583659,6.43304494,2,9,0,0,2026-06-14T05:07:05.121Z!2027-04-24,551,281-->
+For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3</sup>}@}, there are {@{at most $$N\exp \left(-0.69(\Delta \ln \Delta )^{\frac {1}{3} }\right)$$ positive integers _n_ ≤ _N_}@} such that {@{_λ_\(_n_\) ≤ _ne_<sup>−Δ</sup>}@}.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!fsrs,2027-11-10T00:00:00.000Z,432,431.8272833,7.98399827,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2028-02-13T05:07:05.121Z,609,608.93583659,6.43304494,2,9,0,0,2026-06-14T05:07:05.121Z!2027-04-24,551,281-->
 
 ### minimal order
 
