@@ -105,6 +105,26 @@ class TestCollectLinkTitles:
         titles = _mod._collect_link_titles(html)  # noqa: SLF001
         assert len(titles) == 1
 
+    def test_skips_mw_cite_backlink(self) -> None:
+        """Citation jump-back anchors must not be resolved as article redirects."""
+
+        html_path = _SNAPSHOT_DIR / "modern physics.input.html"
+        html = BeautifulSoup(html_path.read_text(encoding="UTF-8"), "html.parser")
+        titles = _mod._collect_link_titles(html)  # noqa: SLF001
+        assert "Jump up" not in titles
+
+    def test_skips_referenced_by_rel(self) -> None:
+        """Anchors with mw:referencedBy are citation UI, not article links."""
+
+        html = BeautifulSoup(
+            '<span class="mw-cite-backlink">'
+            '<a title="Jump up" rel="mw:referencedBy" href="#cite_ref-1"></a>'
+            "</span>",
+            "html.parser",
+        )
+        titles = _mod._collect_link_titles(html)  # noqa: SLF001
+        assert "Jump up" not in titles
+
 
 class TestRedirectCache:
     """Tests for _load_redirect_cache and _save_redirect_cache."""

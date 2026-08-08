@@ -39,6 +39,57 @@ class TestRewriteMarkdownLinks:
         )
         assert rewritten == "{@{See [physics](Modern%20physics.md)}@}"
 
+    def test_rewrite_parenthetical_stem(self) -> None:
+        """Parentheses in .md link targets must not truncate rewriting."""
+        text = "See [exp](Exponential%20map%20(Lie%20group).md)."
+        rewritten = _rewrite_markdown_links(
+            text,
+            {"Exponential map (Lie group)": "exponential map (Lie group)"},
+        )
+        assert rewritten == "See [exp](exponential%20map%20(Lie%20group).md)."
+
+    def test_rewrite_parenthetical_with_fragment(self) -> None:
+        """Fragments on parenthetical stems should survive rewriting."""
+        text = "See [x](foo%20(bar).md#sec)."
+        rewritten = _rewrite_markdown_links(
+            text,
+            {"foo (bar)": "Foo (bar)"},
+        )
+        assert rewritten == "See [x](Foo%20(bar).md#sec)."
+
+    def test_rewrite_multiple_links_one_parenthetical(self) -> None:
+        """Only matching parenthetical links should migrate."""
+        text = "[a](Exponential%20map%20(Lie%20group).md) [b](modern%20physics.md)"
+        rewritten = _rewrite_markdown_links(
+            text,
+            {
+                "Exponential map (Lie group)": "exponential map (Lie group)",
+                "modern physics": "Modern physics",
+            },
+        )
+        assert (
+            rewritten == "[a](exponential%20map%20(Lie%20group).md) "
+            "[b](Modern%20physics.md)"
+        )
+
+    def test_rewrite_preserves_flashcard_with_parenthetical(self) -> None:
+        """Flashcard wrappers with parenthetical links should rewrite targets."""
+        text = "{@{See [exp](Exponential%20map%20(Lie%20group).md)}@}"
+        rewritten = _rewrite_markdown_links(
+            text,
+            {"Exponential map (Lie group)": "exponential map (Lie group)"},
+        )
+        assert rewritten == "{@{See [exp](exponential%20map%20(Lie%20group).md)}@}"
+
+    def test_rewrite_skips_non_md_links(self) -> None:
+        """Non-markdown URLs should be left unchanged."""
+        text = "See [site](https://example.com) for details."
+        rewritten = _rewrite_markdown_links(
+            text,
+            {"example": "Example"},
+        )
+        assert rewritten == text
+
 
 class TestRewriteArticleHeading:
     """Tests for _rewrite_article_heading."""

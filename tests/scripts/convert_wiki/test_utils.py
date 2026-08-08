@@ -223,6 +223,24 @@ class TestCreateRedirectSymlinks:
         assert not await mirror.is_symlink()
         assert await mirror.read_text() == "precious mirror"
 
+    @pytest.mark.anyio
+    async def test_top_mirror_symlink_retargeted(self, tmp_path: PathLike[str]) -> None:
+        """Existing top-level mirror symlinks should retarget to the lang link."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        lang_link = lang_dir / "from page.md"
+        await lang_link.symlink_to("to page.md", target_is_directory=False)
+        mirror = wiki_dir / "from page.md"
+        await mirror.symlink_to("eng/stale page.md", target_is_directory=False)
+
+        await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "from page", "to page"
+        )
+
+        assert await mirror.is_symlink()
+        assert str(await mirror.readlink()) == "eng/from page.md"
+
 
 class TestRemoveRedirectSymlinks:
     """Tests for the _remove_redirect_symlinks function."""

@@ -189,6 +189,229 @@ class TestApplyReprocess:
         assert str(await symlink.readlink()) == "new title.md"
 
 
+class TestReprocessJumpUpGuard:
+    """Citation UI titles must not drive redirect symlink planning."""
+
+    @pytest.mark.anyio
+    async def test_reprocess_does_not_create_jump_up_symlink(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Jump up cache pollution must not create redirect symlinks."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        cache_path = wiki_dir / "cache.json"
+        await cache_path.write_text(
+            json.dumps(
+                {
+                    "Jump up": {
+                        "to": "Jump Up",
+                        "tofragment": "",
+                        "cached_at": "2099-01-01T00:00:00+00:00",
+                    }
+                }
+            ),
+            encoding="UTF-8",
+        )
+        map_path = wiki_dir / "map.jsonc"
+        await map_path.write_text("{}\n", encoding="UTF-8")
+
+        plan = await plan_reprocess(
+            _ReprocessRequest(
+                mappings={},
+                articles=(),
+                update_links=False,
+                dry_run=True,
+                wiki_dir=wiki_dir,
+                cache_path=cache_path,
+                name_map_path=map_path,
+            ),
+            base_map={},
+        )
+        assert not any(action.from_stem == "jump up" for action in plan.symlink_actions)
+
+
+class TestReprocessSymlinkRename:
+    """Capitalization migrations should rename existing redirect symlinks."""
+
+    @pytest.mark.anyio
+    async def test_plan_symlink_rename_on_capitalization(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Existing capitalized redirect symlinks should plan RENAME actions."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        symlink = lang_dir / "Exponential map (Lie group).md"
+        await symlink.symlink_to(
+            "Exponential map (Lie theory).md", target_is_directory=False
+        )
+        map_path = wiki_dir / "map.jsonc"
+        await map_path.write_text("{}\n", encoding="UTF-8")
+
+        plan = await plan_reprocess(
+            _ReprocessRequest(
+                mappings={
+                    "Exponential map (Lie group)": "exponential map (Lie group)",
+                    "Exponential map (Lie theory)": "exponential map (Lie theory)",
+                },
+                articles=(),
+                update_links=False,
+                dry_run=True,
+                wiki_dir=wiki_dir,
+                cache_path=wiki_dir / "cache.json",
+                name_map_path=map_path,
+            ),
+            base_map={},
+        )
+        rename_actions = [
+            action
+            for action in plan.symlink_actions
+            if action.from_stem == "Exponential map (Lie group)"
+            and action.to_stem == "exponential map (Lie group)"
+        ]
+        assert rename_actions
+
+    @pytest.mark.anyio
+    async def test_apply_symlink_rename_and_retarget(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Renamed symlinks should use lowercase stems and migrated targets."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        symlink = lang_dir / "Exponential map (Lie group).md"
+        await symlink.symlink_to(
+            "Exponential map (Lie theory).md", target_is_directory=False
+        )
+        map_path = wiki_dir / "map.jsonc"
+        await map_path.write_text("{}\n", encoding="UTF-8")
+
+        request = _ReprocessRequest(
+            mappings={
+                "Exponential map (Lie group)": "exponential map (Lie group)",
+                "Exponential map (Lie theory)": "exponential map (Lie theory)",
+            },
+            articles=(),
+            update_links=False,
+            dry_run=False,
+            wiki_dir=wiki_dir,
+            cache_path=wiki_dir / "cache.json",
+            name_map_path=map_path,
+        )
+        plan = await plan_reprocess(request, base_map={})
+        await apply_reprocess_plan(plan, dry_run=False)
+
+        assert not await (lang_dir / "Exponential map (Lie group).md").exists()
+        renamed = lang_dir / "exponential map (Lie group).md"
+        assert await renamed.is_symlink()
+        assert str(await renamed.readlink()) == "exponential map (Lie theory).md"
+
+    @pytest.mark.anyio
+    async def test_apply_top_level_mirror_renamed(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Top-level mirrors should follow lowercase redirect symlink renames."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "Exponential map (Lie group).md").symlink_to(
+            "Exponential map (Lie theory).md", target_is_directory=False
+        )
+        await (wiki_dir / "Exponential map (Lie group).md").symlink_to(
+            "eng/Exponential map (Lie group).md", target_is_directory=False
+        )
+        map_path = wiki_dir / "map.jsonc"
+        await map_path.write_text("{}\n", encoding="UTF-8")
+
+        request = _ReprocessRequest(
+            mappings={
+                "Exponential map (Lie group)": "exponential map (Lie group)",
+                "Exponential map (Lie theory)": "exponential map (Lie theory)",
+            },
+            articles=(),
+            update_links=False,
+            dry_run=False,
+            wiki_dir=wiki_dir,
+            cache_path=wiki_dir / "cache.json",
+            name_map_path=map_path,
+        )
+        plan = await plan_reprocess(request, base_map={})
+        await apply_reprocess_plan(plan, dry_run=False)
+
+        mirror = wiki_dir / "exponential map (Lie group).md"
+        assert await mirror.is_symlink()
+        assert str(await mirror.readlink()) == "eng/exponential map (Lie group).md"
+        assert not await (wiki_dir / "Exponential map (Lie group).md").exists()
+
+    @pytest.mark.anyio
+    async def test_apply_article_rename_from_stem_migration(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Listed articles should rename via stem migrations, not only map keys."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        article = lang_dir / "modern physics.md"
+        await article.write_text("# modern physics\n", encoding="UTF-8")
+        map_path = wiki_dir / "map.jsonc"
+        await map_path.write_text("{}\n", encoding="UTF-8")
+
+        request = _ReprocessRequest(
+            mappings={"Modern physics": "Modern physics"},
+            articles=("modern physics",),
+            update_links=False,
+            dry_run=False,
+            wiki_dir=wiki_dir,
+            cache_path=wiki_dir / "cache.json",
+            name_map_path=map_path,
+        )
+        plan = await plan_reprocess(
+            request,
+            base_map={"Modern physics": "modern physics"},
+        )
+        await apply_reprocess_plan(plan, dry_run=False)
+
+        assert not await article.exists()
+        renamed = lang_dir / "Modern physics.md"
+        assert await renamed.is_file()
+        assert not await renamed.is_symlink()
+
+    @pytest.mark.anyio
+    async def test_apply_rewrites_parenthetical_link_in_article(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Reprocess should rewrite parenthetical .md link targets in articles."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        article = lang_dir / "tetrad formalism.md"
+        await article.write_text(
+            "See [exp](Exponential%20map%20(Lie%20group).md).\n",
+            encoding="UTF-8",
+        )
+        map_path = wiki_dir / "map.jsonc"
+        await map_path.write_text("{}\n", encoding="UTF-8")
+
+        request = _ReprocessRequest(
+            mappings={
+                "Exponential map (Lie group)": "exponential map (Lie group)",
+            },
+            articles=("tetrad formalism",),
+            update_links=False,
+            dry_run=False,
+            wiki_dir=wiki_dir,
+            cache_path=wiki_dir / "cache.json",
+            name_map_path=map_path,
+        )
+        plan = await plan_reprocess(request, base_map={})
+        await apply_reprocess_plan(plan, dry_run=False)
+
+        rewritten = await article.read_text(encoding="UTF-8")
+        assert "exponential%20map%20(Lie%20group).md" in rewritten
+        assert "Exponential%20map%20(Lie%20group).md" not in rewritten
+
+
 class TestMarkdownRewriteSnapshot:
     """Regression snapshot for markdown rewrite."""
 
@@ -217,4 +440,33 @@ class TestMarkdownRewriteSnapshot:
         }
         rewritten = _rewrite_markdown_links(input_text, migration_map)
         rewritten = _rewrite_article_heading(rewritten, "Modern physics")
+        assert rewritten == expected
+
+    def test_name_map_parenthetical_capitalization_snapshot(self) -> None:
+        """Snapshot rewrite should handle parenthetical .md link targets."""
+        input_text = (
+            _SNAPSHOT_DIR / "name_map_parenthetical_capitalization.input.md"
+        ).read_text(encoding="UTF-8")
+        expected = (
+            _SNAPSHOT_DIR / "name_map_parenthetical_capitalization.expected.md"
+        ).read_text(encoding="UTF-8")
+        mappings = json.loads(
+            (
+                _SNAPSHOT_DIR / "name_map_parenthetical_capitalization.mappings.json"
+            ).read_text(encoding="UTF-8")
+        )
+        base = {
+            "Exponential map (Lie group)": "Exponential map (Lie group)",
+            "Modern physics": "modern physics",
+        }
+        effective = _merge_names_maps(base, mappings)
+        migration_map = {
+            migration.old_stem: migration.new_stem
+            for migration in _compute_stem_migrations(
+                list(effective),
+                base_map=base,
+                effective_map=effective,
+            )
+        }
+        rewritten = _rewrite_markdown_links(input_text, migration_map)
         assert rewritten == expected
