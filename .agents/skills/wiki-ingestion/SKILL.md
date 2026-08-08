@@ -240,6 +240,7 @@ The agent __must ask the user__ to provide at least two of the three flashcard c
 - __Frontmatter__: Follow [markdown-notes](../instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`.
 - __Attribution__: Preserve the Wikipedia source URL in frontmatter or as an HTML comment.
 - __Editing rules__: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules when editing imported notes.
+- __Redirect symlinks__: Redirect symlinks may point at articles not yet ingested. The `check-symlinks` pre-commit hook excludes `general/`; dangling wiki redirects are intentional.
 
 ## Maintenance: update redirect symlinks
 
