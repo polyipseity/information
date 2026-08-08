@@ -5,7 +5,6 @@ Pure helper functions with no class dependencies.
 
 import re
 from collections.abc import Mapping
-from contextlib import suppress
 from os import PathLike
 from re import Pattern, compile
 from urllib.parse import unquote
@@ -29,6 +28,23 @@ __all__ = ()
 """Regex for matching GFM table separator cells (e.g. ``---``, ``:--``, ``--:``,
 ``:-:``)."""
 _SEPARATOR_CELL_RE: Pattern[str] = compile(r":?-+:?")
+
+
+async def _find_child_exact(parent: Path, name: str) -> Path | None:
+    """Return the child entry only when its basename equals *name* exactly."""
+    async for entry in parent.iterdir():
+        if entry.name == name:
+            return entry
+    return None
+
+
+async def _unlink_case_colliding_symlinks(parent: Path, name: str) -> None:
+    """Remove symlink children that differ from *name* only by letter case."""
+    name_lower = name.lower()
+    async for entry in parent.iterdir():
+        if entry.name != name and entry.name.lower() == name_lower:
+            if await entry.is_symlink():
+                await entry.unlink()
 
 
 def _fix_name_maybe(
@@ -79,38 +95,44 @@ async def _create_redirect_symlinks(
     """
     wiki_dir_path = Path(wiki_dir)
     wiki_lang_dir_path = Path(wiki_lang_dir)
-    redirect_file = wiki_lang_dir_path / f"{from_filename}.md"
+    redirect_name = f"{from_filename}.md"
     target = f"{to_filename}.md"
-    if await redirect_file.is_symlink():
-        if str(await redirect_file.readlink()) != target:
-            await redirect_file.unlink()
-            with suppress(FileExistsError):
-                await redirect_file.symlink_to(
+    redirect_file = await _find_child_exact(wiki_lang_dir_path, redirect_name)
+    if redirect_file is not None:
+        if await redirect_file.is_symlink():
+            if str(await redirect_file.readlink()) != target:
+                await redirect_file.unlink()
+                await _unlink_case_colliding_symlinks(wiki_lang_dir_path, redirect_name)
+                await (wiki_lang_dir_path / redirect_name).symlink_to(
                     target,
                     target_is_directory=False,
                 )
-    elif not await redirect_file.exists():
-        with suppress(FileExistsError):
-            await redirect_file.symlink_to(
-                target,
-                target_is_directory=False,
-            )
-    mirror = wiki_dir_path / f"{from_filename}.md"
-    expected_mirror_target = str(redirect_file.relative_to(wiki_dir_path))
-    if await mirror.is_symlink():
-        if str(await mirror.readlink()) != expected_mirror_target:
-            await mirror.unlink()
-            with suppress(FileExistsError):
-                await mirror.symlink_to(
+    else:
+        await _unlink_case_colliding_symlinks(wiki_lang_dir_path, redirect_name)
+        await (wiki_lang_dir_path / redirect_name).symlink_to(
+            target,
+            target_is_directory=False,
+        )
+    mirror_name = redirect_name
+    expected_mirror_target = str(
+        wiki_lang_dir_path.relative_to(wiki_dir_path) / mirror_name
+    )
+    mirror_file = await _find_child_exact(wiki_dir_path, mirror_name)
+    if mirror_file is not None:
+        if await mirror_file.is_symlink():
+            if str(await mirror_file.readlink()) != expected_mirror_target:
+                await mirror_file.unlink()
+                await _unlink_case_colliding_symlinks(wiki_dir_path, mirror_name)
+                await (wiki_dir_path / mirror_name).symlink_to(
                     expected_mirror_target,
                     target_is_directory=False,
                 )
-    elif not await mirror.exists():
-        with suppress(FileExistsError):
-            await mirror.symlink_to(
-                expected_mirror_target,
-                target_is_directory=False,
-            )
+    else:
+        await _unlink_case_colliding_symlinks(wiki_dir_path, mirror_name)
+        await (wiki_dir_path / mirror_name).symlink_to(
+            expected_mirror_target,
+            target_is_directory=False,
+        )
 
 
 async def _remove_redirect_symlinks(
@@ -126,12 +148,11 @@ async def _remove_redirect_symlinks(
     """
     wiki_dir_path = Path(wiki_dir)
     wiki_lang_dir_path = Path(wiki_lang_dir)
-    for path in (
-        wiki_lang_dir_path / f"{from_filename}.md",
-        wiki_dir_path / f"{from_filename}.md",
-    ):
-        if await path.is_symlink():
-            await path.unlink()
+    redirect_name = f"{from_filename}.md"
+    for parent in (wiki_lang_dir_path, wiki_dir_path):
+        redirect_file = await _find_child_exact(parent, redirect_name)
+        if redirect_file is not None and await redirect_file.is_symlink():
+            await redirect_file.unlink()
 
 
 def _fix_filename(name: str) -> str:
