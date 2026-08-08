@@ -13,7 +13,7 @@ tags:
 
 ## comment
 
-In Python, comments start {@{with `#` and end at end of line}@}: <!--SR:!2026-09-02,255,330-->
+In Python, comments start {@{with `#` and end at end of line}@}: <!--SR:!fsrs,2029-10-03T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-03T00:00:00.000Z-->
 
 ```Python
 a = 1 # assign 1 to `a`

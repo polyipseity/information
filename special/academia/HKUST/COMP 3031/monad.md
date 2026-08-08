@@ -30,7 +30,7 @@ Indeed, any domain that {@{supplies these methods}@}—{@{booleans, strings, tup
 
 ### generator
 
-{@{A minimal abstraction}@} for producing {@{random values of some type `T`}@} is the following trait: <!--SR:!2026-09-02,231,330!2026-09-11,240,330-->
+{@{A minimal abstraction}@} for producing {@{random values of some type `T`}@} is the following trait: <!--SR:!fsrs,2029-07-03T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-09-11,240,330-->
 
 > [!example] __`Generator` definition__
 >

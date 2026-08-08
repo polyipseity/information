@@ -227,7 +227,7 @@ To assign a value or the result of an expression to a variable, use {@{`=`}@}: <
 variableName = 1 + 2
 ```
 
-One does not need to {@{declare the variable and its type before assigning to it}@}. <!--SR:!2026-09-02,255,330-->
+One does not need to {@{declare the variable and its type before assigning to it}@}. <!--SR:!fsrs,2029-10-03T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-03T00:00:00.000Z-->
 
 Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}.  Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2028-01-17,627,330!2027-01-01,352,349!2027-01-01,352,349!2027-01-01,352,349-->
 

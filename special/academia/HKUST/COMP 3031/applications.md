@@ -117,7 +117,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 
 ### word coder usage
 
-{@{A minimal test harness}@} {@{demonstrates usage}@}: <!--SR:!2026-09-02,234,330!2026-10-09,269,330-->
+{@{A minimal test harness}@} {@{demonstrates usage}@}: <!--SR:!fsrs,2029-07-14T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-09,269,330-->
 
 > [!example] __word coder results__
 >
@@ -129,7 +129,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 >                          "rocks","socks","sucks","works","pack"))
 >   println(coder.encode(number).map(_.mkString(" ")))
 > ```
-<!--SR:!2026-10-15,275,330!2026-09-02,234,330-->
+<!--SR:!2026-10-15,275,330!fsrs,2029-07-14T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-03T00:00:00.000Z-->
 
 Thus the implementation finds {@{all valid mnemonic phrases in a handful of lines}@}. <!--SR:!2026-09-06,238,330-->
 

@@ -80,7 +80,7 @@ The content is in teaching order.
     - BIEN 3300 / grading
     - BIEN 3300 / homework
         - BIEN 3300 / homework / rules
-    - BIEN 3300 / project ::@:: Choose a data science problem \(preferably in molecular engineering\). Define problem. Collect data. Use existing models or develop new models. Train and/or evaluate models. Analyze results. Present findings. <!--SR:!2026-10-02,271,330!2026-09-02,255,330-->
+    - BIEN 3300 / project ::@:: Choose a data science problem \(preferably in molecular engineering\). Define problem. Collect data. Use existing models or develop new models. Train and/or evaluate models. Analyze results. Present findings. <!--SR:!2026-10-02,271,330!fsrs,2029-10-03T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-03T00:00:00.000Z-->
     - BIEN 3300 / format
         - BIEN 3300 / format / lectures
         - BIEN 3300 / format / tutorials

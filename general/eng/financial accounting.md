@@ -17,7 +17,7 @@ Financial accountancy is governed by {@{both local and international accounting 
 
 On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2027-12-17,912,330!2029-02-13,1257,350!2028-05-25,1049,350!2029-07-30,1388,350!2028-08-08,1110,350-->
 
-While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!2026-09-02,540,310!2028-06-01,1056,350-->
+While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!fsrs,2032-03-17T00:00:00.000Z,2022,2022.40267027,1,2,10,0,0,2026-09-03T00:00:00.000Z!2028-06-01,1056,350-->
 
 ## principles
 
@@ -82,7 +82,7 @@ The statement of financial performance is also called {@{income statement, profi
 
 The statement of profit or income statement represents {@{the changes in value of a company's [accounts](<account%20(bookkeeping).md>) over a set period (most commonly one [fiscal year](fiscal%20year.md))}@}, and may {@{compare the changes to changes in the same accounts over the previous period}@}. All changes are {@{summarized on the "bottom line" as [net income](net%20income.md), often reported as "net loss" when income is less than zero}@}. <!--SR:!2028-05-05,957,330!2026-09-05,532,310!fsrs,2031-05-01T05:24:24.537Z,1791,1790.51063212,1,2,10,0,0,2026-06-05T05:24:24.537Z-->
 
-The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}@} <!--SR:!2026-09-02,472,250-->
+The net profit or loss is determined by: <br/> {@{sales (revenue) <br/> – [cost of goods sold](cost%20of%20goods%20sold.md) <br/> – selling, general, administrative expenses (SGA) <br/> – [depreciation](depreciation.md)/amortization <br/> = earnings before interest and taxes ([EBIT](earnings%20before%20interest,%20taxes,%20depreciation%20and%20amortization.md)) <br/> – interest and tax expenses <br/> = profit/loss}@} <!--SR:!fsrs,2030-07-17T00:00:00.000Z,1413,1412.58077081,3.98153807,2,10,0,0,2026-09-03T00:00:00.000Z-->
 
 ### statement of financial position
 

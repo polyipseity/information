@@ -50,7 +50,7 @@ tags:
 > - __[Parameters](statistical%20parameter.md)__ ::@:: $\mu \in \mathbb {R}$ = [mean](mean.md) \([location](location%20parameter.md)\) <br/> $\sigma ^{2}\in \mathbb {R} _{>0}$ = [variance](variance.md) \(squared [scale](scale%20parameter.md)\) <!--SR:!2027-05-11,347,363!fsrs,2027-08-22T00:16:36.529Z,442,441.98290409,1,2,7,0,0,2026-06-06T00:16:36.529Z-->
 > - __[Support](<support%20(mathematics).md>)__ ::@:: $x\in \mathbb {R}$ <!--SR:!2027-06-12,375,363!2027-02-18,281,349-->
 > - __[PDF](probability%20density%20function.md)__ ::@:: ${\frac {1}{\sqrt {2\pi \sigma ^{2} } } }e^{-{\frac {(x-\mu )^{2} }{2\sigma ^{2} } } }$ <!--SR:!2027-01-18,252,330!2027-06-08,372,363-->
-> - __[CDF](cumulative%20distribution%20function.md)__ ::@:: $\Phi \left({\frac {x-\mu }{\sigma } }\right)={\frac {1}{2} }\left[1+\operatorname {erf} \left({\frac {x-\mu }{\sigma {\sqrt {2} } } }\right)\right]$ <!--SR:!2026-09-02,123,332!2026-10-19,170,310-->
+> - __[CDF](cumulative%20distribution%20function.md)__ ::@:: $\Phi \left({\frac {x-\mu }{\sigma } }\right)={\frac {1}{2} }\left[1+\operatorname {erf} \left({\frac {x-\mu }{\sigma {\sqrt {2} } } }\right)\right]$ <!--SR:!fsrs,2028-04-28T00:00:00.000Z,603,603.15935576,1,2,8,0,0,2026-09-03T00:00:00.000Z!2026-10-19,170,310-->
 > - __[Quantile](quantile%20function.md)__ ::@:: $\mu +\sigma {\sqrt {2} }\operatorname {erf} ^{-1}(2p-1)$ <!--SR:!fsrs,2027-06-12T00:00:00.000Z,337,336.61756715,1,2,7,0,0,2026-07-10T00:00:00.000Z!2027-06-15,378,363-->
 > - __[Mean](expected%20value.md)__ ::@:: $\mu$ <!--SR:!2027-04-15,321,356!2027-06-16,378,363-->
 > - __[Median](median.md)__ ::@:: $\mu$ <!--SR:!2027-01-21,255,330!2027-04-25,331,356-->

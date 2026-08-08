@@ -144,7 +144,7 @@ Because of {@{tax advantages on debt issuance}@}, it will be {@{cheaper to issue
 
 ### accounting information
 
-Lambert, Leuz and Verrecchia \(2007\) have found that {@{the quality of accounting information}@} can {@{affect a firm's cost of capital}@}, both {@{directly and indirectly}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-09-08,331,350!2026-09-02,327,350!fsrs,2029-09-15T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-06-23T00:00:00.000Z-->
+Lambert, Leuz and Verrecchia \(2007\) have found that {@{the quality of accounting information}@} can {@{affect a firm's cost of capital}@}, both {@{directly and indirectly}@}.<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2026-09-08,331,350!fsrs,2030-10-05T00:00:00.000Z,1493,1492.80690649,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-09-15T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-06-23T00:00:00.000Z-->
 
 ### breakpoint of marginal cost of capital
 

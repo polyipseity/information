@@ -50,7 +50,7 @@ The content is in teaching order.
 - datetime: 2024-02-20T18:00:00+08:00/2024-02-20T20:30:00+08:00
 - [competitor analysis § outline](../../../../general/competitor%20analysis.md#outline)
 - [customer development](../../../../general/customer%20development.md)
-    - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::@:: "The purpose of a business is to create and keep a customer." <!--SR:!2026-09-02,634,335!2033-11-10,2740,375-->
+    - [Peter Drucker](../../../../general/Peter%20Drucker.md) on business and customer ::@:: "The purpose of a business is to create and keep a customer." <!--SR:!fsrs,2033-08-10T00:00:00.000Z,2533,2533.14647637,1,2,10,0,0,2026-09-03T00:00:00.000Z!2033-11-10,2740,375-->
     - [Steve Blank](../../../../general/Steve%20lank.md) on startup success ::@:: "More start-ups fail from lack of customers than from a failure from product development." <!--SR:!fsrs,2033-02-12T00:00:00.000Z,2403,2403.44426229,1,2,10,0,0,2026-07-16T00:00:00.000Z!2030-08-15,1719,335-->
     - [§ importance](../../../../general/customer%20development.md#importance)
     - [§ customer discovery](../../../../general/customer%20development.md#customer%20discovery)

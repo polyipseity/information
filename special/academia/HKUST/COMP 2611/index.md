@@ -266,7 +266,7 @@ The content is in teaching order.
 - sequential logic
 - logic gate
     - logic gate / design process
-    - logic gate / logic gate to expression: hints ::@:: Work from the output to the input step-by-step. Use extra variables when needed, especially when dealing with an output connected to multiple inputs at different levels. <!--SR:!2026-09-02,436,387!fsrs,2032-02-10T00:00:00.000Z,1996,1996.32986052,1,2,10,0,0,2026-08-24T00:00:00.000Z-->
+    - logic gate / logic gate to expression: hints ::@:: Work from the output to the input step-by-step. Use extra variables when needed, especially when dealing with an output connected to multiple inputs at different levels. <!--SR:!fsrs,2032-04-01T00:00:00.000Z,2037,2036.92992657,1,2,10,0,0,2026-09-03T00:00:00.000Z!fsrs,2032-02-10T00:00:00.000Z,1996,1996.32986052,1,2,10,0,0,2026-08-24T00:00:00.000Z-->
 - Boolean algebra
     - Boolean algebra / simplification: hints ::@:: You may need to think of new terms to add to the expression... And also you can use extra variables to replace variables that always appear together. <!--SR:!2026-10-11,475,387!2030-03-27,1480,387-->
 - 2-bit comparator ::@:: 4 inputs, grouped into 2 groups of 2 inputs, each group representing a 2-bit unsigned integer. 3 outputs, respectively representing greater than, equal to, and less than. <!--SR:!fsrs,2031-12-15T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-30T00:00:00.000Z!fsrs,2032-01-14T00:00:00.000Z,1980,1980.05659057,1,2,10,0,0,2026-08-13T00:00:00.000Z-->

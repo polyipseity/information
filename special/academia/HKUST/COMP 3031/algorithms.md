@@ -77,7 +77,7 @@ The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {
 
 #### merge sort splitting
 
-{@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}: <!--SR:!2026-10-24,281,330!2026-09-17,249,330!2026-09-02,241,330!2026-10-13,272,330-->
+{@{The split operation `List.splitAt`}@} yields {@{a tuple `(List[A], List[A])` \(a pair of lists\)}@}. {@{The returned pair}@} is commonly used in {@{pattern matching}@}: <!--SR:!2026-10-24,281,330!2026-09-17,249,330!fsrs,2029-08-10T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-13,272,330-->
 
 > [!example] __merge sort splitting__
 >

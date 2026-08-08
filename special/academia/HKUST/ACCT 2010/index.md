@@ -182,7 +182,7 @@ The content is in teaching order.
     - unearned revenue ::@:: revenue received before they are earned, a liability <!--SR:!2028-02-06,919,383!fsrs,2033-01-01T00:00:00.000Z,2318,2318.02883016,1,2,10,0,0,2026-08-28T00:00:00.000Z-->
     - prepaid expenses ::@:: expenses paid before they are incurred, an asset <!--SR:!2028-07-27,1041,383!2026-09-26,531,403-->
     - [accounts receivable](../../../../general/accounts%20receivable.md) ::@:: revenue not-yet-received but are earned, an asset <!--SR:!2026-10-05,539,403!fsrs,2032-10-04T00:00:00.000Z,2250,2250.23504184,1,2,10,0,0,2026-08-07T00:00:00.000Z-->
-    - [accounts payable](../../../../general/accounts%20payable.md) ::@:: expenses not-yet-paid but are incurred, a liability <!--SR:!2026-09-30,535,403!2026-09-02,512,403-->
+    - [accounts payable](../../../../general/accounts%20payable.md) ::@:: expenses not-yet-paid but are incurred, a liability <!--SR:!2026-09-30,535,403!fsrs,2033-01-31T00:00:00.000Z,2342,2341.88784977,1,2,10,0,0,2026-09-03T00:00:00.000Z-->
 
 ## week 4 lecture 2
 
@@ -282,7 +282,7 @@ The content is in teaching order.
         - perpetual inventory / last-in, first-out (LIFO) <br/> Each purchase batch has its cost per unit tracked. Then whenever a unit is sold, the unit cost of the _latest_ batch is added to COGS, regardless if this is the case physically. However, companies who must sell older goods first (e.g. perishable goods) will probably not use LIFO.
             - perpetual inventory / LIFO / effect ::@:: It usually gives higher COGS (thus higher inventory turnover), lower pretax income, and lower ending inventory, since newer units are more valuable. <p> Managers preferring to pay the least tax and as late as possible choose this. Allowable under US GAAP but _not_ IFRS. If used for income tax return, it _must_ also be used to calculate inventory and COGS for financial statements. <!--SR:!2028-03-03,851,356!2026-10-14,547,403-->
         - [weighted average cost](../../../../general/average%20cost%20method.md#weighted%20average%20cost) ::@:: Goods available for sale and its cost are tracked. Then whenever a unit is sold, the weighted average unit cost of all batches is added to COGS. The weighted average unit cost is calculated as $$\frac {\text{cost of goods available for sale} } {\text{number of units available for sale} } \,.$$ <!--SR:!fsrs,2032-06-24T00:00:00.000Z,2170,2170.09977723,1,2,10,0,0,2026-07-16T00:00:00.000Z!2029-09-27,1376,383-->
-            - weighted average cost / effect ::@:: Its effect is in between FIFO and LIFO. <!--SR:!2026-10-11,544,403!2026-09-02,510,396-->
+            - weighted average cost / effect ::@:: Its effect is in between FIFO and LIFO. <!--SR:!2026-10-11,544,403!fsrs,2033-01-23T00:00:00.000Z,2334,2333.93861993,1,2,10,0,0,2026-09-03T00:00:00.000Z-->
 
 ## week 7 lecture 2
 
@@ -493,7 +493,7 @@ The content is in teaching order.
 - datetime: 2024-11-14T13:30:00+08:00/2024-11-14T14:50:00+08:00
 - status: canceled: typhoon signal 8
 - [statement of cash flows](../../../../general/cash%20flow%20statement.md)
-    - cash equation ::@:: $$\text{cash and cash equivalents (CCE)} \\ = \text{liabilities (L)} + \text{stockholders' equity (SE)} - \text{non-cash assets (NCA)}$$  <p> (Deriving this equation from the original accounting equation was in a final examination question...) <!--SR:!2026-09-03,513,403!2026-09-02,510,396-->
+    - cash equation ::@:: $$\text{cash and cash equivalents (CCE)} \\ = \text{liabilities (L)} + \text{stockholders' equity (SE)} - \text{non-cash assets (NCA)}$$  <p> (Deriving this equation from the original accounting equation was in a final examination question...) <!--SR:!2026-09-03,513,403!fsrs,2033-01-23T00:00:00.000Z,2334,2333.93861993,1,2,10,0,0,2026-09-03T00:00:00.000Z-->
     - operating activities
         - operating activities / methods ::@:: direct method, indirect method (almost all companies use the latter) <!--SR:!2026-09-04,514,403!2026-09-04,512,396-->
         - operating activities / calculation ::@:: Indirect method: Start with net income. Add depreciation and amortization, including impairment losses (no actual cash has outflowed). Then remove gains and add loss of investing assets (not operating activities, accounted for in investing activities). Then compute differences between accrual-basis accounting and cash-basis accounting and add and remove accordingly. <p> The last step (computing the differences) in details: <br/> __operating (non-cash current) assets increase/decrease__: opposite <br/> __operating (current) liabilities increase/decrease__: same <!--SR:!2029-01-10,1171,383!2029-11-02,1391,383-->
