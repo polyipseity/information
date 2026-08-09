@@ -75,7 +75,10 @@ def _fix_name_maybe(
         if name in names_map:
             return names_map[name]
     if len(name) > 1 and name[1:].islower():
-        return name[0].lower() + name[1:]
+        lowered = name[0].lower() + name[1:]
+        if lowered in names_map:
+            return names_map[lowered]
+        return lowered
     return name
 
 
