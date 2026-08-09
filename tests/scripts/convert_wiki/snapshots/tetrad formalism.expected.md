@@ -64,7 +64,7 @@ The manipulation with tetrad coefficients shows that abstract index formulas can
 
 For example, the [Riemann curvature tensor](Riemann%20curvature%20tensor.md) is defined for general vector fields $X,Y$ by
 
-$R(X,Y)=\left(\nabla _{X}\nabla _{Y}-\nabla _{Y}\nabla _{X}-\nabla _{[X,Y]}\right)$.
+$$R(X,Y)=\left(\nabla _{X}\nabla _{Y}-\nabla _{Y}\nabla _{X}-\nabla _{[X,Y]}\right)\,.$$
 In a coordinate tetrad this gives tensor coefficients
 
 $$R_{\ \nu \sigma \tau }^{\mu }=dx^{\mu }\left((\nabla _{\sigma }\nabla _{\tau }-\nabla _{\tau }\nabla _{\sigma })\partial _{\nu }\right).$$
