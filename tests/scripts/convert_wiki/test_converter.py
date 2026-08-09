@@ -133,33 +133,65 @@ class TestMathHandling:
         assert result == ""
 
     @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        ("punct", "expected"),
+        [
+            (".", "$f(x)$."),
+            (",", "$f(x)$,"),
+        ],
+    )
     async def test_inline_math_trailing_punctuation(
-        self, converter: WikiHtmlConverter
+        self, converter: WikiHtmlConverter, punct: str, expected: str
     ) -> None:
         """Inline math trailing ``.`` or ``,`` should appear after closing ``$``."""
-        html = f"<p>{_inline_math_span(r'{\displaystyle f(x)}')}.</p>"
+        html = f"<p>{_inline_math_span(r'{\displaystyle f(x)}')}{punct}</p>"
         result = await _convert(converter, html)
-        # The period after the math span should remain outside the $...$.
-        assert "$f(x)$." in result or "f(x)$." in result
+        assert expected in result
+        assert f"f(x)\\,${punct}" not in result
 
     @pytest.mark.anyio
-    async def test_dd_math_external_period_is_block(
-        self, converter: WikiHtmlConverter
+    @pytest.mark.parametrize(
+        ("container", "punct", "latex", "expected"),
+        [
+            ("dd", ".", r"{\displaystyle R(X,Y)}", "$$R(X,Y)\\,.$$"),
+            ("dd", ",", r"{\displaystyle a}", "$$a\\,,$$"),
+            ("dt", ".", r"{\displaystyle b}", "$$b\\,.$$"),
+        ],
+    )
+    async def test_display_container_external_punctuation_is_block(
+        self,
+        converter: WikiHtmlConverter,
+        container: str,
+        punct: str,
+        latex: str,
+        expected: str,
     ) -> None:
-        """External ``.`` after display math in ``<dd>`` should be block with ``\\,``."""
-        html = f"<dd>{_inline_math_span(r'{\displaystyle R(X,Y)}')}.</dd>"
+        """Sole formula rows in ``<dd>``/``<dt>`` absorb external punct as block math."""
+        html = f"<{container}>{_inline_math_span(latex)}{punct}</{container}>"
         result = await _convert(converter, html)
-        assert "$$R(X,Y)\\,.$$" in result
-        assert "$R(X,Y)$." not in result
+        assert expected in result
+        if punct == ".":
+            assert result.count(punct) == 1
 
     @pytest.mark.anyio
-    async def test_dd_math_external_comma_is_block(
+    async def test_dd_with_leading_text_does_not_absorb_external_period(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """External ``,`` after display math in ``<dd>`` should be block with ``\\,``."""
-        html = f"<dd>{_inline_math_span(r'{\displaystyle a}')},</dd>"
+        """``<dd>`` rows with prose keep external punct outside inline math."""
+        html = f"<dd>therefore {_inline_math_span(r'{\displaystyle f(x)}')}.</dd>"
         result = await _convert(converter, html)
-        assert "$$a\\,,$$" in result
+        assert "$f(x)$." in result
+        assert "$$f(x)\\,.$$" not in result
+
+    @pytest.mark.anyio
+    async def test_dd_internal_period_not_duplicated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Internal punct in ``alttext`` must not be doubled by external absorption."""
+        html = f"<dd>{_inline_math_span(r'{\displaystyle f(x).}')}</dd>"
+        result = await _convert(converter, html)
+        assert "$$f(x).$$" in result
+        assert "$$f(x)..$$" not in result
 
     @pytest.mark.anyio
     async def test_aligned_external_period_injected_before_end(
@@ -171,6 +203,7 @@ class TestMathHandling:
         result = await _convert(converter, html)
         assert r"d\,.\end{aligned}$$" in result
         assert r"\end{aligned}.$$" not in result
+        assert result.count(".") == 1
 
     @pytest.mark.anyio
     async def test_aligned_in_paragraph_external_period(
@@ -181,39 +214,62 @@ class TestMathHandling:
         html = f"<p>{_inline_math_span(alttext)}.</p>"
         result = await _convert(converter, html)
         assert r"$$\begin{aligned}x&=1\,.\end{aligned}$$" in result
+        assert result.count(".") == 1
 
-    @pytest.mark.anyio
-    async def test_inject_external_punctuation_single_line(self) -> None:
-        """``_inject_external_punctuation`` should append ``\\,`` + punct."""
-        result = WikiHtmlConverter._inject_external_punctuation("f(x)", ".")
-        assert result == r"f(x)\,."
-        result = WikiHtmlConverter._inject_external_punctuation("a", ",")
-        assert result == r"a\,,"
-
-    @pytest.mark.anyio
-    async def test_inject_external_punctuation_aligned_env(self) -> None:
-        """``_inject_external_punctuation`` should insert before ``\\end{aligned}``."""
-        alt = r"\begin{aligned}a&=b\\c&=d\end{aligned}"
-        result = WikiHtmlConverter._inject_external_punctuation(alt, ".")
-        assert result == r"\begin{aligned}a&=b\\c&=d\,.\end{aligned}"
-
-    @pytest.mark.anyio
-    async def test_is_display_formula_row_helpers(self) -> None:
-        """Display-formula-row helpers should detect dd rows with external punct."""
-        soup = BeautifulSoup(
-            f"<dd>{_inline_math_span(r'{\displaystyle x}')}.</dd>",
-            "html.parser",
+    @pytest.mark.parametrize(
+        ("alt_text", "punct", "expected"),
+        [
+            ("f(x)", ".", r"f(x)\,."),
+            ("a", ",", r"a\,,"),
+            (
+                r"\begin{aligned}a&=b\\c&=d\end{aligned}",
+                ".",
+                r"\begin{aligned}a&=b\\c&=d\,.\end{aligned}",
+            ),
+        ],
+    )
+    def test_inject_external_punctuation(
+        self, alt_text: str, punct: str, expected: str
+    ) -> None:
+        """``_inject_external_punctuation`` inserts ``\\,`` + punct at the right site."""
+        assert (
+            WikiHtmlConverter._inject_external_punctuation(alt_text, punct) == expected
         )
-        math_tag = soup.find("math")
-        assert math_tag is not None
-        outer = WikiHtmlConverter._math_outer_span(math_tag)
+
+    @pytest.mark.anyio
+    async def test_normalize_external_math_punctuation_mutates_dom(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Pre-conversion normalize should absorb punct into ``alttext`` and drop sibling."""
+        html = f"<dd>{_inline_math_span(r'{\displaystyle x}')}.</dd>"
+        soup = BeautifulSoup(html, "html.parser")
+        dd = soup.find("dd")
+        assert isinstance(dd, Tag)
+        converter._normalize_external_math_punctuation(dd)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        outer = WikiHtmlConverter._math_outer_span(math)
         assert outer is not None
-        container = outer.parent
-        assert isinstance(container, Tag)
-        assert WikiHtmlConverter._following_punctuation_sibling(outer) == "."
-        assert WikiHtmlConverter._qualifies_for_external_punct_absorption(
-            container, outer, "x"
+        assert math.get("alttext") == "x\\,."
+        assert WikiHtmlConverter._following_punctuation_sibling(outer) == ""
+
+    @pytest.mark.anyio
+    async def test_sfrac_like_math_without_outer_wrapper_stays_inline(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Inline math without ``mwe-math-element`` wrapper should stay ``$...$``."""
+        html = (
+            "<body>"
+            "<p>intro</p>"
+            "<p>before "
+            '<span class="mwe-math-mathml-inline">'
+            '<math alttext="{\\displaystyle \\frac{a}{2\\pi}}"></math>'
+            "</span>, after</p>"
+            "</body>"
         )
+        result = await _convert(converter, html)
+        assert "$\\frac{a}{2\\pi}$," in result
+        assert "$$\\frac{a}{2\\pi}$$" not in result
 
     @pytest.mark.anyio
     async def test_math_displaystyle_prefix(self, converter: WikiHtmlConverter) -> None:

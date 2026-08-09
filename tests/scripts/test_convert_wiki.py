@@ -924,6 +924,93 @@ class TestBlockMathClassification:
         assert isinstance(math_ele, Tag)
         assert WikiHtmlConverter._is_inline_math(math_ele) is False
 
+    def test_dd_external_period_sole_formula_row_is_block(self) -> None:
+        """External punct on sole formula rows in ``<dd>`` should classify as block."""
+        html = BeautifulSoup(
+            "<dd>"
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            '<math alttext="{\\displaystyle R(X,Y)}"></math>'
+            "</span></span>."
+            "</dd>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele, alt_text="R(X,Y)") is False
+
+    def test_dd_external_period_with_prose_stays_inline(self) -> None:
+        """``<dd>`` rows with prose before the formula keep inline classification."""
+        html = BeautifulSoup(
+            "<dd>therefore "
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            '<math alttext="{\\displaystyle f(x)}"></math>'
+            "</span></span>."
+            "</dd>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele, alt_text="f(x)") is True
+
+    def test_sfrac_like_math_without_outer_wrapper_stays_inline(self) -> None:
+        """sfrac-style inline math should use the legacy sibling container walk."""
+        html = BeautifulSoup(
+            "<body><p>intro</p>"
+            "<p>before "
+            '<span class="mwe-math-mathml-inline">'
+            '<math alttext="{\\displaystyle \\frac{a}{2\\pi}}"></math>'
+            "</span>, after</p></body>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert (
+            WikiHtmlConverter._is_inline_math(math_ele, alt_text=r"\frac{a}{2\pi}")
+            is True
+        )
+
+
+class TestExternalMathPunctuationPipeline:
+    """End-to-end regression for external math punctuation through ``run_pipeline``."""
+
+    @staticmethod
+    def _inline_math_span(alttext: str) -> str:
+        return (
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            f'<math display="inline" alttext="{alttext}">'
+            "<semantics><mrow></mrow></semantics></math>"
+            "</span></span>"
+        )
+
+    @pytest.mark.anyio
+    async def test_pipeline_absorbs_dd_external_period(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """``run_pipeline`` should emit block math with ``\\,``-prefixed absorbed punct."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        body = (
+            "<p>For vector fields $X,Y$ by</p>"
+            f"<dl><dd>{self._inline_math_span(r'{\displaystyle R(X,Y)}')}.</dd></dl>"
+        )
+        html = BeautifulSoup(f"<body>{body}</body>", "html.parser")
+        output, _ = await run_pipeline(
+            html,
+            redirect_map={},
+            image_metadata={},
+            names_map={},
+            wiki_dir=tmp / "general",
+            wiki_lang_dir=lang_dir,
+            refs=False,
+        )
+        assert "$$R(X,Y)\\,.$$" in output
+        assert "$R(X,Y)$." not in output
+        assert output.count("$$R(X,Y)\\,.$$") == 1
+
 
 class TestBlockMathCategoryBreakdown:
     """Verify block math paragraph affiliation category counts in a real article.
