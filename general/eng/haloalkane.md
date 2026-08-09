@@ -22,25 +22,25 @@ tags:
 
 ### boiling and melting points
 
-Due to increased [polarizability](polarizability.md), haloalkanes have {@{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alkanes](alkane.md)}@}. <!--SR:!2027-08-08,1112,270-->
+Due to {@{increased [polarizability](polarizability.md)}@}, {@{haloalkanes}@} have {@{higher [boiling points](boiling%20point.md) and [melting points](melting%20point.md) than comparable [alkanes](alkane.md)}@}. <!--SR:!2027-08-08,1112,270-->
 
 ### density
 
-Density {@{decreases}@} with increasing size. <!--SR:!2032-10-11,2607,330-->
+{@{Density decreases}@} with {@{increasing size}@}. <!--SR:!2032-10-11,2607,330-->
 
 ### solubility
 
-Haloalkanes are {@{[insoluble](solubility.md) in [water](water.md) but soluble in most [organic](organic%20compound.md) [solvents](solvent.md)}@}. <!--SR:!fsrs,2034-04-23T00:00:00.000Z,2792,2791.57731251,1.98030797,2,11,0,0,2026-08-31T00:00:00.000Z-->
+{@{Haloalkanes}@} are {@{[insoluble](solubility.md) in [water](water.md)}@} but {@{soluble in most [organic](organic%20compound.md) [solvents](solvent.md)}@}. <!--SR:!fsrs,2034-04-23T00:00:00.000Z,2792,2791.57731251,1.98030797,2,11,0,0,2026-08-31T00:00:00.000Z-->
 
 ## chemical properties
 
 ### substitution
 
-To produce [amines](amine.md), haloalkanes can {@{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}@}. Likewise, [acyl halides](acyl%20halide.md) can {@{react similarly to give primary [amides](amide.md)}@}. <!--SR:!2026-09-16,801,272!2032-05-01,2350,292-->
+To {@{produce [amines](amine.md)}@}, {@{haloalkanes}@} can {@{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}@}. Likewise, {@{[acyl halides](acyl%20halide.md)}@} can {@{react similarly to give primary [amides](amide.md)}@}. <!--SR:!2026-09-16,801,272!2032-05-01,2350,292-->
 
 #### hydrolysis
 
-In [hydrolysis](hydrolysis.md), primary haloalkanes react with {@{[OH<sup>-</sup>](hydroxide.md) (usually from [NaOH](sodium%20hydroxide.md) or [KOH](potassium%20hydroxide.md)) to form [alcohols](alcohol.md) with heating}@}. <!--SR:!2027-06-07,775,232-->
+In {@{[hydrolysis](hydrolysis.md), primary haloalkanes}@} react with {@{[OH<sup>-</sup>](hydroxide.md) (usually from [NaOH](sodium%20hydroxide.md) or [KOH](potassium%20hydroxide.md)) to form [alcohols](alcohol.md) with heating}@}. <!--SR:!2027-06-07,775,232-->
 
 ### reactions
 

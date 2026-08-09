@@ -11,7 +11,7 @@ tags:
 
 - see: [general/sinusoidal model](../../general/sinusoidal%20model.md)
 
-A {@{__sinusoidal model__}@} approximates {@{a sequence $x_i$ to a sine \(or cosine\) function}@}: {@{$$x_i = C + A \sin(\omega t_i + \phi) + e_i \,.$$}@} where {@{$C$ is the mean level, $A$ is the sine amplitude, $\omega$ is the _angular_ frequency}@}, {@{$t_i$ is time, $\phi$ is phase shift, and $e_i$ is the error}@}. <!--SR:!fsrs,2030-03-17T00:00:00.000Z,1332,1331.87934564,1,2,9,0,0,2026-07-24T00:00:00.000Z!fsrs,2030-04-20T00:00:00.000Z,1359,1358.76436248,1,2,9,0,0,2026-07-31T00:00:00.000Z!2028-10-15,907,337!2027-10-03,578,337!2027-12-05,656,407-->
+{@{A __sinusoidal model__}@} approximates {@{a sequence $x_i$ to a sine \(or cosine\) function}@}: {@{$$x_i = C + A \sin(\omega t_i + \phi) + e_i \,.$$}@} where {@{$C$ is the mean level, $A$ is the sine amplitude, $\omega$ is the _angular_ frequency}@}, {@{$t_i$ is time, $\phi$ is phase shift, and $e_i$ is the error}@}. <!--SR:!fsrs,2030-03-17T00:00:00.000Z,1332,1331.87934564,1,2,9,0,0,2026-07-24T00:00:00.000Z!fsrs,2030-04-20T00:00:00.000Z,1359,1358.76436248,1,2,9,0,0,2026-07-31T00:00:00.000Z!2028-10-15,907,337!2027-10-03,578,337!2027-12-05,656,407-->
 
 ## generalization
 

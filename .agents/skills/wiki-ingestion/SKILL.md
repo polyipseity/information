@@ -27,10 +27,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 
 ## Detailed workflow
 
-The workflow alternates between agent-run and human-run steps. After each manual step (marked with ⏸️), the user re-invokes this skill to continue. When resuming, the agent should ask the user:
-
-- Which step to resume from
-- The file path of the note being ingested (`general/<dir_code>/<name>.md`)
+The workflow alternates between agent-run and human-run steps. After each manual step (marked with ⏸️), the user re-invokes this skill to continue. When resuming, the agent should ask the user which step to resume from and the file path of the note being ingested (`general/<dir_code>/<name>.md`). Common resume points: Step 2 after copying HTML, Step 5 after manual editing, Step 6 after review and capitalization fixes.
 
 ### Step 1: Scaffold new note
 
@@ -85,6 +82,13 @@ tags:
 - __Note file__: `general/<dir_code>/<name>.md` — contains the YAML frontmatter and the attribution footer.
 - __Symlink__: `general/<name>.md` → `<dir_code>/<name>.md` — a relative symlink at the top level of `general/` for convenient access.
 - __Atomicity__: Both files are written to temporary paths first, then atomically renamed into place. If either operation fails, both files are cleaned up — the creation either succeeds completely or has no effect.
+
+> __Important: Wikipedia article filenames keep spaces.__ The filename for a
+> Wikipedia-derived note (e.g. `general/eng/Fourier transform.md`) must
+> preserve spaces — never replace them with underscores. This is a hard rule:
+> Wikipedia articles are stored with spaces in their filenames. Underscores
+> in filenames are reserved for non-Wikipedia content (test fixtures, custom
+> notes, internal references).
 
 #### Example walkthrough
 
@@ -167,15 +171,101 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 
 ### Step 6: Review and finalize
 
+#### Step 6a: Review and finalize
+
 - Review `aliases` and `tags` in YAML frontmatter
 - Ensure all media references are correct (check `archives/Wikimedia Commons/`)
 - Ensure the note is complete before committing
 
+#### Step 6b: Fix link capitalization (conditional)
+
+Run this when Step 5 review finds wrong link-target casing, wrong `#` heading casing, or a filename stem that does not match the intended canonical form. The same `--reprocess` command applies for ad-hoc fixes outside the ingestion workflow.
+
+1. Identify affected Wikipedia title variants and propose `name_map` entries using the __4 title variants per stem__ convention (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below). Use repeated `--mapping TITLE STEM` flags for multiple variants, or a single `--mapping-file` JSONC object (not both).
+1. Preview with dry-run:
+
+```bash
+uv run -m scripts.convert_wiki --reprocess \
+  --mapping "Modern physics" "Modern physics" \
+  --article "<note_path>" \
+  --dry-run
+```
+
+1. Apply when the dry-run report looks correct:
+
+```bash
+uv run -m scripts.convert_wiki --reprocess \
+  --mapping "Modern physics" "Modern physics" \
+  --article "<note_path>"
+```
+
+Replace `<note_path>` with the note from Step 1 (e.g. `general/eng/modern physics.md`). `--article` accepts a stem or path.
+
+| Situation | Flags |
+| --------- | ----- |
+| Fix only the article being ingested | `--mapping TITLE STEM` + `--article` |
+| Multiple title variants for one stem | repeat `--mapping TITLE STEM`, or use `--mapping-file` |
+| Same mapping affects links in other notes too | add `--update-links` |
+| Update name_map / symlinks only (no body edits) | `--mapping` or `--mapping-file` only (no `--article`) |
+| Preview before writing | `--dry-run` |
+
+`--mapping` and `--mapping-file` are mutually exclusive. At least one of `--mapping`, `--mapping-file`, or `--article` is required.
+
+`--reprocess` updates `name_map.jsonc`, reconciles redirect symlinks as-if the mappings existed at ingestion, and rewrites markdown link targets — it does __not__ re-fetch Wikipedia HTML and is not a substitute for Step 3. Merge precedence: `effective_map = base_names_map | cli_pairs` (inline `--mapping`) or `base_names_map | file_mappings` (`--mapping-file`).
+
+| Invariant | Rule |
+| --------- | ---- |
+| Real files | `.md` files are never deleted or overwritten by symlink operations |
+| Symlinks | Created, retargeted, or removed only when `from_stem != to_stem` |
+| Markdown | Link targets and the first `#` heading only; flashcard `{@{...}@}` preserved |
+| Collisions | Rename collisions raise before any markdown rewrites |
+
+Stem migration compares `_stem_for_title(title, base_map)` vs `_stem_for_title(title, effective_map)` for titles in the redirect cache, effective map, and listed articles. Example: mapping `"Modern physics": "modern physics"` → `"Modern physics": "Modern physics"` renames `general/eng/modern physics.md` to `Modern physics.md`, updates link targets, and removes the redirect symlink when from == to.
+
+Apply order: persist map → symlink actions → file renames → markdown rewrites (sequential, not transactional). Add `--update-links` for corpus-wide link fixes; use `--mapping-file` for batch variant entries.
+
+When re-invoking the skill to continue, tell the agent the file path of the note and that Step 6 (review and any capitalization fixes) is complete.
+
 ### Step 7: Commit the note
 
-Stage and commit the new note using the [commit-staged-flashcard-notes](../prompts/commit-staged-flashcard-notes.prompt.md) prompt.
+Stage all ingestion changes (note, symlinks, archives, `name_map` updates).
 
-The agent __must ask the user__ to provide at least two of the three flashcard count values (`Flashcards-prev`, `Flashcards-now`, `Flashcards-delta`). The agent must __not__ compute these values itself. The agent then follows the commit-staged-flashcard-notes workflow to compose and create the commit.
+The agent __must ask the user__ for at least two of the three flashcard count values (`Flashcards-prev`, `Flashcards-now`, `Flashcards-delta`). The agent must __not__ compute these values itself.
+
+Use [commit-staged-flashcard-notes](../prompts/commit-staged-flashcard-notes.prompt.md) only for staging inspection and note counts (added / edited / deleted under `general/`, `special/`, `self/`). __Do not__ use that prompt's default commit header — wiki ingestion uses the format below.
+
+__Commit message format__ (validate with `bun x commitlint` before committing; wrap lines to 72 characters or fewer):
+
+1. __Header__ — article filename from Step 1, not a count summary:
+
+   ```text
+   feat(notes): add `<name>.md`
+   ```
+
+   Use the Step 1 note filename (e.g. `modern physics.md`), wrapped in backticks.
+
+2. __Body__ — immediately after the header:
+   - Count line(s) using the commit-staged wording (`add <N> note(s)`, `edit <M> note(s)`, `delete <D> note(s)`; only nonzero counts; semicolon-separated when multiple). Keep these on their own line(s), separate from the prose below.
+   - A blank line.
+   - One brief sentence in natural English stating which article was ingested (e.g. `Ingested the modern physics article from Wikipedia.`). Do not list generic ingestion mechanics (flashcards, symlinks, archives) — every wiki ingestion includes those.
+
+3. __Footer__ — flashcard trailers when applicable (see [commit-convention](../instructions/commit-convention.instructions.md)): `Flashcards-delta`, `Flashcards-prev`, `Flashcards-now` as plain ASCII key/value pairs, one per line.
+
+Full example:
+
+```text
+feat(notes): add `modern physics.md`
+
+Add 18 note(s).
+
+Ingested the modern physics article from Wikipedia.
+
+Flashcards-delta: 0
+Flashcards-prev: 0
+Flashcards-now: 0
+```
+
+Present the proposed commit message to the user for confirmation before committing.
 
 ## Post-ingestion checks
 
@@ -185,6 +275,25 @@ The agent __must ask the user__ to provide at least two of the three flashcard c
 - __Frontmatter__: Follow [markdown-notes](../instructions/markdown-notes.instructions.md) conventions for `aliases` and `tags`.
 - __Attribution__: Preserve the Wikipedia source URL in frontmatter or as an HTML comment.
 - __Editing rules__: See [editing-conventions](../instructions/editing-conventions.instructions.md) for general rules when editing imported notes.
+- __Redirect symlinks__: Redirect symlinks may point at articles not yet ingested. The `check-symlinks` pre-commit hook excludes `general/`; dangling wiki redirects are intentional.
+
+## Maintenance: update redirect symlinks
+
+Wikipedia redirects change over time: a redirect may retarget, become a full article, or a full article may become a redirect. Run this maintenance mode to reconcile the redirect symlinks in `general/` against the live Wikipedia API:
+
+__Command__: `uv run -m scripts.convert_wiki --update-redirects`
+
+- Scans every language subdirectory of `general/` for `*.md` symlinks
+- Retargets symlinks whose Wikipedia redirect target changed (prefers the final target of a redirect chain when the first hop is not ingested locally)
+- Removes symlinks for titles that became full articles
+- Leaves missing pages and real files untouched — an article that became a redirect is never changed
+- Refreshes the redirect cache so subsequent ingestion stays consistent
+
+Add `--dry-run` to report what would change without modifying anything:
+
+__Command__: `uv run -m scripts.convert_wiki --update-redirects --dry-run`
+
+The `--dry-run` flag has no effect without `--update-redirects`. The report prints scan/retarget/remove/keep counts and the list of changed titles to stdout.
 
 ## Reference: name_map mechanism in `convert_wiki.py`
 
@@ -192,9 +301,14 @@ The name_map is a `dict[str, str]` that maps Wikipedia page titles (or variants)
 local filename stems used in `general/eng/`. It ensures links and section headers in
 ingested Wikipedia articles use the correct casing to match actual `general/eng/*.md` files.
 
-### How entries are generated (`_build_names_map`)
+### How entries are maintained (`_load_names_map`)
 
-Auto-discovers all `general/*/*.md` files, producing __4 entries per file__:
+All entries live in `scripts/assets/convert_wiki.name_map.jsonc`. The map is loaded at
+import time with no filesystem scan. Redirect symlinks under `general/` still exist for
+navigation, but they no longer feed name_map implicitly.
+
+When adding or fixing entries manually, use the __4 title variants per filename stem__
+convention (especially for redirect source titles):
 
 | Key (Wikipedia-style title)                                             | Value (local filename stem)             |
 | ----------------------------------------------------------------------- | --------------------------------------- |
@@ -203,8 +317,7 @@ Auto-discovers all `general/*/*.md` files, producing __4 entries per file__:
 | `three-...` (first char lowercased)                                     | `Three-dimensional space (mathematics)` |
 | lowercased + curly apostrophe variant                                   | same with curly apostrophe              |
 
-Then merged with manual entries from `scripts/assets/convert_wiki.name_map.jsonc`.
-Conflicting keys between auto and manual map raise `ValueError`.
+Add explicit JSONC entries when `_fix_name_maybe` heuristics are insufficient.
 
 ### How lookup works (`_fix_name_maybe`)
 
@@ -241,13 +354,12 @@ NOT cover the link target; both need separate entries if they differ.
 
 ### Snapshot tests and `aux.json`
 
-The snapshot test uses `tests/scripts/test_convert_wiki/snapshots/<name>.aux.json`
-to supply a pre-computed `name_map` isolating the test from the live filesystem:
+The snapshot test uses `tests/scripts/test_convert_wiki/snapshots/<name>.aux.json` together with the shared `name_map.json` baseline. Per-test overrides use `name_map_overrides`:
 
 ```json
 {
   "redirect_cache": { "Wikipedia title": {"to": "...", "tofragment": ""} },
-  "name_map": { "Fourier transform": "Fourier transform", "fourier transform": "Fourier transform", ... },
+  "name_map_overrides": { "Fourier transform": "Fourier transform" },
   "image_metadata": {}
 }
 ```

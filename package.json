@@ -18,6 +18,7 @@
     "check:md": "markdownlint-cli2",
     "check:prettier": "prettier --cache --check \"**/*.{astro,cjs,css,csv,gql,graphql,hbs,html,js,jsx,json,json5,jsonc,jsonl,less,mjs,pcss,sass,scss,svelte,styl,ts,tsx,vue,xml,yaml,yml}\"",
     "check:py": "uv run --locked ruff check && uv run --locked ruff format --check && uv run --locked ty check",
+    "clean": "node -e \"console.log('No clean step')\"",
     "commitlint": "commitlint --from=origin/main --to=HEAD",
     "format": "bun run format:md && bun run format:prettier && bun run format:py",
     "format:md": "markdownlint-cli2 --fix",

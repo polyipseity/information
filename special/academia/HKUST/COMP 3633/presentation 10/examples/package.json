@@ -18,12 +18,13 @@
     "url": "git+https://github.com/polyipseity/information.git"
   },
   "scripts": {
+    "clean": "node -e \"console.log('No clean step')\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
   "version": "1.0.0",
   "dependencies": {
-    "body-parser": "1.20.2",
+    "body-parser": "1.20.6",
     "express": "4.19.2",
     "flat": "5.0.0",
     "pug": "3.0.2"

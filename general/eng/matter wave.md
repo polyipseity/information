@@ -9,13 +9,13 @@ tags:
 
 # matter wave
 
-__Matter waves__ {@{describe the [wave](wave.md)-like behavior of all [matter](matter.md)}@}. <!--SR:!fsrs,2036-03-08T00:00:00.000Z,3473,3473.06991735,1,2,11,0,0,2026-09-04T00:00:00.000Z-->
+{@{__Matter waves__}@} describe {@{the [wave](wave.md)-like behavior of all [matter](matter.md)}@}. <!--SR:!fsrs,2036-03-08T00:00:00.000Z,3473,3473.06991735,1,2,11,0,0,2026-09-04T00:00:00.000Z-->
 
 ## de Broglie relations
 
-The _de Broglie wavelength_ $\lambda$ {@{relates to the [momentum](momentum.md) $p$ and the [frequency](frequency.md) $f$ relates to the total [energy](energy.md) $E$ of a [free particle](free%20particle.md)}@}: <!--SR:!2028-10-30,1317,290-->
+{@{The _de Broglie wavelength_ $\lambda$}@} relates to {@{the [momentum](momentum.md) $p$ and the [frequency](frequency.md) $f$ relates to the total [energy](energy.md) $E$ of a [free particle](free%20particle.md)}@}: <!--SR:!2028-10-30,1317,290-->
 
-> The de Broglie equations:
+> {@{The de Broglie equations}@}:
 >
 > - {@{$\lambda=\frac{h}{p}$}@}
 > - {@{$f=\frac{E}h$}@}

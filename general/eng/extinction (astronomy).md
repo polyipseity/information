@@ -10,11 +10,11 @@ tags:
 
 # extinction
 
-In [astronomy](astronomy.md), __extinction__ is {@{the [absorption](absorption%20(electromagnetic%20radiation).md) and [scattering](scattering.md#electromagnetics) of [electromagnetic radiation](electromagnetic%20radiation.md) by dust and gas between an emitting [astronomical object](astronomical%20object.md) and the [observer](observation.md)}@}. <!--SR:!2026-10-17,562,310-->
+In {@{[astronomy](astronomy.md)}@}, {@{__extinction__}@} is {@{the [absorption](absorption%20(electromagnetic%20radiation).md) and [scattering](scattering.md#electromagnetics) of [electromagnetic radiation](electromagnetic%20radiation.md)}@} by {@{dust and gas between an emitting [astronomical object](astronomical%20object.md) and the [observer](observation.md)}@}. <!--SR:!2026-10-17,562,310-->
 
 ## interstellar reddening
 
-Interstellar reddening is {@{a phenomenon associated with interstellar extinction where the [spectrum](astronomical%20spectroscopy.md) of electromagnetic radiation from a [radiation source](astronomical%20object.md) changes characteristics from that which the object originally [emitted](emission%20spectrum.md)}@}. Reddening occurs due to {@{the light scattering off [dust](cosmic%20dust.md) and other [matter](matter.md) in the [interstellar medium](interstellar%20medium.md)}@}. An example can be seen at {@{the edges of [dark nebulae](dark%20nebula.md)}@}. <!--SR:!fsrs,2032-03-06T00:00:00.000Z,2006,2005.97264327,1,2,10,0,0,2026-09-08T00:00:00.000Z!2027-04-25,761,330!2029-02-13,1289,350-->
+{@{Interstellar reddening}@} is {@{a phenomenon associated with interstellar extinction}@} where {@{the [spectrum](astronomical%20spectroscopy.md) of electromagnetic radiation from a [radiation source](astronomical%20object.md) changes characteristics from that which the object originally [emitted](emission%20spectrum.md)}@}. {@{Reddening}@} occurs due to {@{the light scattering off [dust](cosmic%20dust.md) and other [matter](matter.md) in the [interstellar medium](interstellar%20medium.md)}@}. An example can be seen at {@{the edges of [dark nebulae](dark%20nebula.md)}@}. <!--SR:!fsrs,2032-03-06T00:00:00.000Z,2006,2005.97264327,1,2,10,0,0,2026-09-08T00:00:00.000Z!2027-04-25,761,330!2029-02-13,1289,350-->
 
 ## references
 

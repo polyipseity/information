@@ -92,9 +92,7 @@ Flashcards for this section are as follows:
 
 > Navara Capital (lessor) leases a drilling rig to Oakhurst Mining (lessee). Terms: 5-year non-cancelable lease commencing 1 January 2025; annual payments of {@{€24&nbsp;854}@} at the start of each year (annuity-due). Fair value of rig at commencement: {@{€120&nbsp;000}@}; estimated useful life: 8 years; guaranteed residual value: €6&nbsp;000. Oakhurst expects the actual residual value at year 5 will exceed €6&nbsp;000, so {@{no shortfall payment is included in the lease payments}@}. Navara's implicit rate is 4% and is known to Oakhurst.
 >
-> Oakhurst's lease liability = PV of 5 annuity-due payments of €24&nbsp;854 at 4%:
->
-> $\text{LL} = 24\,854 \times \underbrace{4.62989}_{\text{PV annuity-due, 4\%, 5 periods}} = €115\,069$
+> Oakhurst's lease liability = PV of 5 annuity-due payments of €24&nbsp;854 at 4%: $$\text{LL} = 24\,854 \times \underbrace{4.62989}_{\text{PV annuity-due, 4\%, 5 periods}} = €115\,069$$
 >
 > Since the guaranteed residual is excluded (expected FV > guaranteed), {@{ROU asset = LL = €115&nbsp;069}@}.
 >
@@ -188,7 +186,7 @@ Flashcards for this section are as follows:
 
 ### unguaranteed residual: Pembury Retail and Quinton Equipment
 
-> Quinton Equipment (lessor) leases a compactor to Pembury Retail (lessee). Terms: 3-year non-cancelable lease (annuity-due); annual payments of {@{£21&nbsp;854}@}; fair value £72&nbsp;000; economic life 7 years; {@{unguaranteed residual value £12&nbsp;000}@} at end of 3 years; Quinton uses an implicit rate of 6%; Pembury does not know this rate and uses an incremental borrowing rate of {@{6%}@}.
+> Quinton Equipment (lessor) leases a compactor to Pembury Retail (lessee). Terms: 3-year non-cancelable lease (annuity-due); annual payments of {@{£21&nbsp;854}@}; fair value £72&nbsp;000; economic life 7 years; {@{unguaranteed residual value £12&nbsp;000}@} at end of 3 years; Quinton uses an implicit rate of 6%; Pembury does not {@{know this rate and uses an incremental borrowing rate of 6%}@}.
 >
 > Pembury's lease liability (unguaranteed residual excluded):
 >
@@ -423,17 +421,14 @@ Flashcards for this section are as follows:
 >
 > __Meridian's lease payment calculation:__
 >
-> $\text{PV of URV} = 10\,000 / 1.08^5 = 10\,000 / 1.4693 = {@{6\,806}@}$
->
-> $\text{Amount to recover from payments} = 100\,000 - 6\,806 = {@{93\,194}@}$
->
-> $\text{PV annuity-due, 8\%, 5 periods} = \frac{1 - 1.08^{-5}}{0.08} \times 1.08 = {@{4.3121}@}$
->
-> $\text{Annual payment} = 93\,194 / 4.3121 = {@{21\,614}@}$
+> - {@{PV of URV}@}: {@{$10\,000 / 1.08^5 = 10\,000 / 1.4693 = 6\,806$}@}
+> - {@{Amount to recover from payments}@} = {@{$100\,000 - 6\,806 = 93\,194$}@}
+> - {@{PV annuity-due, 8\%, 5 periods}@} = {@{$\frac{1 - 1.08^{-5}}{0.08} \times 1.08 = 4.3121$}@}
+> - {@{Annual payment}@} = {@{$93\,194 / 4.3121 = 21\,614$}@}
 >
 > __Classification tests (Meridian as lessor):__
 >
-> Lease term: 5 / 6 = {@{83%}@} ≥ 75% → met. PV test: €93&nbsp;194 / €100&nbsp;000 = {@{93.2%}@} ≥ 90% → met. Two tests satisfied → {@{finance (sales-type) lease}@}. <!--SR:!fsrs,2027-04-29T00:00:00.000Z,262,261.84543826,1.95567692,2,3,0,0,2026-08-10T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-04-29T00:00:00.000Z,262,261.84543826,1.95567692,2,3,0,0,2026-08-10T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-10-28T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-31T00:00:00.000Z!fsrs,2026-11-28T00:00:00.000Z,106,105.73973235,6.11078848,2,5,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z!fsrs,2026-09-22T00:00:00.000Z,65,64.75639033,6.0091915,2,3,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-10-28T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-31T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z-->
+> Lease term: {@{5 / 6 = 83% ≥ 75% → met}@}. PV test: {@{€93&nbsp;194 / €100&nbsp;000 = 93.2% ≥ 90% → met}@}. Two tests satisfied → {@{finance (sales-type) lease}@}. <!--SR:!fsrs,2027-04-29T00:00:00.000Z,262,261.84543826,1.95567692,2,3,0,0,2026-08-10T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-04-29T00:00:00.000Z,262,261.84543826,1.95567692,2,3,0,0,2026-08-10T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-10-28T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-31T00:00:00.000Z!fsrs,2026-11-28T00:00:00.000Z,106,105.73973235,6.11078848,2,5,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z!fsrs,2026-09-22T00:00:00.000Z,65,64.75639033,6.0091915,2,3,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-10-28T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-31T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -441,21 +436,19 @@ Flashcards for this section are as follows:
 >
 > __Gross investment, net investment, and unearned income:__
 >
-> $\text{Gross investment} = 5 \times 21\,614 + 10\,000 = {@{118\,070}@}$
->
-> $\text{Net investment (= FV)} = 93\,194 + 6\,806 = {@{100\,000}@}$
->
-> $\text{Unearned interest income} = 118\,070 - 100\,000 = {@{18\,070}@}$
+> - {@{gross investment}@}: {@{$5 \times 21\,614 + 10\,000 = 118\,070$}@}
+> - {@{net investment (= FV)}@}: {@{$93\,194 + 6\,806 = 100\,000$}@}
+> - {@{unearned interest income}@}: {@{$118\,070 - 100\,000 = 18\,070$}@}
 >
 > __Selling profit — same whether residual is guaranteed or unguaranteed:__
 >
 > | | Unguaranteed RV | Guaranteed RV |
 > | --- | ---: | ---: |
-> | Sales revenue | {@{93&nbsp;194}@} | 100&nbsp;000 |
-> | Cost of goods sold | {@{71&nbsp;194}@} | 78&nbsp;000 |
-> | __Selling profit__ | __{@{22&nbsp;000}@}__ | __{@{22&nbsp;000}@}__ |
+> | {@{Sales revenue}@} | {@{93&nbsp;194}@} | {@{100&nbsp;000}@} |
+> | {@{Cost of goods sold}@} | {@{71&nbsp;194}@} | {@{78&nbsp;000}@} |
+> | {@{__Selling profit__}@} | {@{__22&nbsp;000__}@} | {@{__22&nbsp;000__}@} |
 >
-> Both Sales and COGS are reduced by PV(URV) = {@{€6&nbsp;806}@}, leaving gross profit unchanged at {@{€22&nbsp;000}@}. The unguaranteed residual portion is recognized in interest revenue over the lease term rather than on day 1. <!--SR:!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-10-28T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-31T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-04-29T00:00:00.000Z,262,261.84543826,1.95567692,2,3,0,0,2026-08-10T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z-->
+> {@{Both Sales and COGS}@} are {@{reduced by PV(URV) = €6&nbsp;806}@}, leaving {@{gross profit unchanged at €22&nbsp;000}@}. {@{The unguaranteed residual portion}@} is recognized in {@{interest revenue over the lease term rather than on day 1}@}. <!--SR:!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-10-28T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-31T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-04-29T00:00:00.000Z,262,261.84543826,1.95567692,2,3,0,0,2026-08-10T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-04-30T00:00:00.000Z,262,261.84599298,1.95567692,2,3,0,0,2026-08-11T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -487,9 +480,7 @@ Flashcards for this section are as follows:
 
 <!-- markdownlint MD028 -->
 
-> __Cliffdale (lessee)__ does not know the implicit rate; uses IBR 10%:
->
-> $\text{LL} = 21\,614 \times \underbrace{4.1699}_{\text{PV annuity-due, 10\%, 5 periods}} = {@{€90\,128}@}$
+> __Cliffdale (lessee)__ does not {@{know the implicit rate; uses IBR 10%}@}: {@{$$\text{LL} = 21\,614 \times \underbrace{4.1699}_{\text{PV annuity-due, 10\%, 5 periods}} = €90\,128$$}@}
 >
 > ROU asset = LL = {@{€90&nbsp;128}@}; depreciated over 5 years (lease term, no ownership transfer): €90&nbsp;128 / 5 = {@{€18&nbsp;026}@}/year. Note: Cliffdale's LL (€90&nbsp;128) differs from Meridian's net investment (€100&nbsp;000) because they use different discount rates.
 >

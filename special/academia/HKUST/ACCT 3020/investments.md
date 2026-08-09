@@ -60,8 +60,8 @@ Flashcards for this section are as follows:
 - trading debt investments: fair-value changes go where? ::@:: To net income immediately. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-10-28T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-31T00:00:00.000Z-->
 - debt investment classification: practical business-purpose triad ::@:: The investor may buy the bond to collect contractual cash flows, to collect and later sell, or to trade for a quicker gain. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,321,320.78510189,1,2,4,0,0,2026-08-16T00:00:00.000Z-->
 - debt investment classification: does the initial cash entry alone determine the category? ::@:: No. The same purchase entry can appear across categories; the classification is determined by business purpose and contractual cash-flow characteristics. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z-->
-- SPPI test: what does it require? ::@:: Contractual cash flows must consist solely of payments of principal and interest on the principal outstanding; any equity-linked, leveraged, or other non-standard cash flow component causes the instrument to fail the test and forces FVTPL classification. <!--SR:!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z-->
-- FVO irrevocable designation: when can it be used for debt instruments? ::@:: A company may irrevocably elect to measure an eligible debt instrument at FVTPL if doing so eliminates or significantly reduces an accounting mismatch. The election cannot later be revoked. <!--SR:!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z!fsrs,2027-01-22T00:00:00.000Z,166,166.05416623,3.9727849,2,3,0,0,2026-08-09T00:00:00.000Z-->
+- SPPI test: what does it require? ::@:: Contractual cash flows must consist solely of payments of principal and interest on the principal outstanding; any equity-linked, leveraged, or other non-standard cash flow component causes the instrument to fail the test and forces fair value through profit & loss (FVTPL) classification. <!--SR:!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-30T00:00:00.000Z-->
+- fair value option (FVO) irrevocable designation: when can it be used for debt instruments? ::@:: A company may irrevocably elect to measure an eligible debt instrument at fair value through profit & loss (FVTPL) if doing so eliminates or significantly reduces an accounting mismatch. The election cannot later be revoked. <!--SR:!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z!fsrs,2027-01-22T00:00:00.000Z,166,166.05416623,3.9727849,2,3,0,0,2026-08-09T00:00:00.000Z-->
 
 ## debt investments at amortized cost
 
@@ -83,7 +83,6 @@ The difference between them is the amortization of discount or premium.
 > | {@{Cash}@}                                       |                   | {@{92&nbsp;278}@} |  | <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,321,320.78510189,1,2,4,0,0,2026-08-16T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
-
 
 > _Purchase between coupon dates instead of on a clean interest date._ Suppose the same bond is purchased {@{3 months after the last semiannual coupon date}@}. The investor still records the bond at its {@{92&nbsp;278 carrying amount}@}, but must also pay the seller {@{3 months of accrued coupon interest = €100&nbsp;000 × 8% × 3/12 = €2&nbsp;000}@}.
 >
@@ -107,7 +106,6 @@ The difference between them is the amortization of discount or premium.
 > _Interpretation._ The next coupon date mixes {@{recovery of the seller's accrued interest}@} with the {@{new investor's own 3-month effective-interest revenue and discount amortization}@}. That is why this entry differs from a clean-date purchase. The later year-end accrual uses the same structure again, except that {@{Interest receivable replaces Cash because the coupon has not yet been collected}@}. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,321,320.78510189,1,2,4,0,0,2026-08-16T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
-
 
 > _Sale of held-for-collection bonds before maturity._ Assume the carrying amount has already been updated through the sale date to {@{€96&nbsp;200}@}. Immediately before the sale entry, assume the investor must still record the last amortization update for the stub period: carrying amount before the update is {@{€95&nbsp;555}@}, and the final discount amortization needed to reach the sale-date amortized cost is therefore {@{€645 = €96&nbsp;200 − €95&nbsp;555}@}. That final stub-period interest revenue consists of {@{€2&nbsp;667 accrued interest revenue plus €645 discount amortization = €3&nbsp;312 total interest revenue}@}. The bonds are then sold for {@{99.60 plus accrued interest}@}, so cash received is {@{€102&nbsp;267 = €99&nbsp;600 + €2&nbsp;667 accrued interest}@}.
 >
@@ -180,7 +178,6 @@ Debt investments held for both collection and possible sale follow the same inte
 
 <!-- markdownlint MD028 -->
 
-
 > _HFCS portfolio fair value adjustment._ A company holds two HFCS bonds. One shows an unrealized loss of {@{€12&nbsp;000}@} and the other an unrealized gain of {@{€2&nbsp;500}@}. The portfolio therefore has a {@{net unrealized loss of €9&nbsp;500}@} at year-end.
 >
 > | {@{Record net portfolio fair value loss on HFCS debt investments}@} |               Dr |               Cr |
@@ -191,7 +188,6 @@ Debt investments held for both collection and possible sale follow the same inte
 > _Explanation._ This is the same endpoint method at the portfolio level: the required ending {@{Fair value adjustment credit balance is €9&nbsp;500}@}, so the entry simply moves the account to that balance. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,321,320.78510189,1,2,4,0,0,2026-08-16T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
-
 
 > _Sale of an HFCS bond._ One HFCS bond is sold for {@{€90&nbsp;000 plus accrued interest}@} when its amortized cost is {@{€94&nbsp;200}@}. Immediately before the sale entry, assume the investor must still record the last amortization update for the stub period: carrying amount before the update is {@{€93&nbsp;555}@}, and the final discount amortization needed to reach the sale-date amortized cost is therefore {@{€645 = €94&nbsp;200 − €93&nbsp;555}@}. That final stub-period interest revenue consists of {@{€2&nbsp;667 accrued interest revenue plus €645 discount amortization = €3&nbsp;312 total interest revenue}@}. Total cash received is therefore {@{€92&nbsp;667 = €90&nbsp;000 clean price + €2&nbsp;667 accrued interest}@}.
 >
@@ -211,7 +207,6 @@ Debt investments held for both collection and possible sale follow the same inte
 > _Explanation._ If this bond carries {@{no accumulated OCI / AOCI balance at the sale date}@}, there is {@{no OCI layer left to clear}@}; the disposal entry simply compares sale proceeds with the bond's {@{amortized cost at the sale date}@}. That is also why __trading debt investments__ never need an OCI-clearing step on sale: their fair-value changes were already recognized in {@{net income rather than OCI}@}. <!--SR:!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
-
 
 > _Sale of an HFCS bond with an accumulated OCI balance._ Suppose the same bond also carries an existing {@{€3&nbsp;800 cumulative unrealized loss in OCI}@} from earlier fair-value adjustments, with a matching {@{€3&nbsp;800 credit balance in Fair value adjustment}@}. The bond's {@{amortized cost is still €94&nbsp;200}@}, but its {@{fair-value carrying amount is only €90&nbsp;400 = €94&nbsp;200 − €3&nbsp;800}@}. Because the note is measuring the disposal loss against {@{amortized cost}@}, the company should __not__ add a second standalone loss entry for OCI recycling on top of that. Instead it clears the fair-value layer as part of the overall disposal mechanics.
 >
@@ -309,7 +304,6 @@ Cash dividends received are recognized as __dividend revenue__.
 
 <!-- markdownlint MD028 -->
 
-
 > _Sale of a trading equity investment._ Later, one block of shares is sold for {@{€287&nbsp;000}@} when its adjusted carrying amount is {@{€260&nbsp;000}@}.
 >
 > | {@{Sell trading equity investment and recognize realized gain}@} |                 Dr |                 Cr |
@@ -344,7 +338,6 @@ Some small equity investments are strategic rather than trading-oriented. The co
 > _Interpretation._ Dividends still go to income, but the unrealized fair-value movement does not. The same endpoint logic still works: {@{€24&nbsp;000 fair value − €20&nbsp;750 carrying amount = €3&nbsp;250}@}. The only difference is that this course records the adjustment {@{directly in the Equity investment account instead of using a separate Fair value adjustment account}@}. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,321,320.78510189,1,2,4,0,0,2026-08-16T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,321,320.78510189,1,2,4,0,0,2026-08-16T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
-
 
 > _Dividend and downward adjustment before sale for a non-trading equity investment._ Assume the same investment later pays a {@{€450 dividend}@}. Before sale, fair value falls from {@{€24&nbsp;000 to €22&nbsp;500}@}, so part of the earlier OCI gain must be reversed.
 >
@@ -460,7 +453,6 @@ The main exception is when the investor has gone beyond passive ownership and ha
 
 <!-- markdownlint MD028 -->
 
-
 > _Same fact pattern, but the investor has a support obligation._ Suppose the investor has also guaranteed {@{€8&nbsp;000 of the associate's obligations}@}. That extra supported portion is recognized as a liability.
 >
 > | {@{Recognize additional equity-method loss to the extent of the investor's support obligation}@} |               Dr |               Cr |
@@ -471,7 +463,6 @@ The main exception is when the investor has gone beyond passive ownership and ha
 > _Explanation._ The extra loss is recognized only because the investor has {@{gone beyond ordinary ownership and now has an obligation tied to the associate}@}. The accounting still does {@{not create a negative Equity investment asset}@}. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
-
 
 > _Later return to profit after unrecognized losses existed._ If the associate later generates profit and the investor's share is {@{€25&nbsp;000}@}, while the previously unrecognized loss memorandum amount is still {@{€20&nbsp;000}@}, the investor recognizes only the excess {@{€5&nbsp;000}@}.
 >
@@ -570,7 +561,6 @@ So the stage transition entry is usually an __incremental top-up or reversal__, 
 
 <!-- markdownlint MD028 -->
 
-
 > _Credit improvement after stage 3._ Suppose improved expectations later reduce the required allowance from {@{€9&nbsp;000 to €4&nbsp;000}@}. The company reverses only the excess allowance now on the books.
 >
 > | {@{Reverse the excess allowance when expected credit loss falls}@} |               Dr |               Cr |
@@ -620,7 +610,6 @@ For amortized-cost debt investments, the company evaluates at each reporting dat
 
 <!-- markdownlint MD028 -->
 
-
 > _Recovery of impairment loss on amortized-cost debt investment._ If credit quality later improves and the allowable reversal is {@{€12&nbsp;680}@}, the recovery entry is:
 >
 > | {@{Reverse previously recognized impairment loss within the allowed limit}@} |                Dr |                Cr |
@@ -629,7 +618,6 @@ For amortized-cost debt investments, the company evaluates at each reporting dat
 > | {@{Recovery of impairment loss}@}                                            |                   | {@{12&nbsp;680}@} |  | <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
-
 
 > _Partial recovery limited by the carrying-amount ceiling._ Suppose the impaired bond would have had amortized cost of only {@{€97&nbsp;000}@} if no impairment had ever been recognized. Its current carrying amount after impairment is {@{€88&nbsp;000}@}, and improved expected cash flows now support only {@{€95&nbsp;000}@}. The allowed recovery is therefore {@{€7&nbsp;000}@}, not the full gap back to original cost.
 >
@@ -697,7 +685,6 @@ The slide logic is to separate cause before deciding the journal-entry destinati
 
 <!-- markdownlint MD028 -->
 
-
 > _HFCS impairment split between OCI and income._ An HFCS debt investment has amortized cost of {@{€100&nbsp;000}@}, but its year-end fair value has fallen to {@{€75&nbsp;000}@}. Of the total {@{€25&nbsp;000 decline}@}, management concludes that {@{€20&nbsp;000 comes from ordinary market-interest-rate movement}@} and {@{€5&nbsp;000 comes from credit deterioration}@}.
 >
 > | {@{Record market-driven fair value decline for HFCS debt investment}@} |                Dr |                Cr |
@@ -714,7 +701,6 @@ The slide logic is to separate cause before deciding the journal-entry destinati
 
 <!-- markdownlint MD028 -->
 
-
 > _Sale of an HFCS debt investment after both OCI and credit-loss adjustments._ Assume a bond still has original cost of {@{€1&nbsp;000&nbsp;000}@}, but it also carries a {@{€30&nbsp;000 allowance for impaired debt investments}@} and a {@{€10&nbsp;000 fair value adjustment related to market-rate decline}@}. The bond is sold for {@{€960&nbsp;000 cash}@}.
 >
 > | {@{Sell HFCS debt investment after separate OCI and impairment adjustments}@} |                 Dr |                        Cr |
@@ -729,7 +715,6 @@ The slide logic is to separate cause before deciding the journal-entry destinati
 > _Explanation._ The sale removes the {@{cost basis, allowance, and fair value adjustment together}@}. The separate credit-loss allowance and market-rate OCI component do not vanish magically; they must be cleared as part of the disposal accounting. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2026-11-22T00:00:00.000Z,130,129.8425842,3.96783414,2,3,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z!fsrs,2026-11-22T00:00:00.000Z,130,129.8425842,3.96783414,2,3,0,0,2026-07-15T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
-
 
 > _Recovery of HFCS credit impairment._ If later credit risk improves and the company can reverse {@{€15&nbsp;000}@} of previously recognized credit-loss impairment, it records:
 >
@@ -768,7 +753,7 @@ Flashcards for this section are as follows:
 
 - IFRS 7: what is its primary purpose? ::@:: To require disclosures enabling users to evaluate the significance of financial instruments for financial position and performance, and the nature and extent of the risks arising from them. <!--SR:!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z-->
 - IFRS 7: three main risk disclosure categories ::@:: Credit risk (including ECL allowance movements by stage), liquidity risk (maturity analysis of contractual cash flows across time buckets), and market risk (sensitivity analysis for interest rates, currencies, or other market variables). <!--SR:!fsrs,2027-10-28T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-31T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z-->
-- IFRS 7 and non-trading FVOCI equity: what additional disclosures are required? ::@:: Identify each investment carrying the irrevocable FVOCI election, disclose the reason for the election, and separately report dividends recognized from those investments during the period. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-05-16T00:00:00.000Z,259,258.54953635,1,2,3,0,0,2026-08-30T00:00:00.000Z-->
+- IFRS 7 and non-trading FVOCI equity: what additional disclosures are required? ::@:: Identify each investment carrying the irrevocable fair value through other comprehensive income (FVOCI) election, disclose the reason for the election, and separately report dividends recognized from those investments during the period. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-05-16T00:00:00.000Z,259,258.54953635,1,2,3,0,0,2026-08-30T00:00:00.000Z-->
 
 ## derivatives used for speculation
 
@@ -822,7 +807,6 @@ A __futures contract__ differs from an option in one crucial way: the holder is 
 > _Explanation._ Both the gain from intrinsic value and the loss from time-value decay hit income immediately because the option is being accounted for as a speculative derivative. <!--SR:!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,321,320.78510189,1,2,4,0,0,2026-08-16T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,321,320.78510189,1,2,4,0,0,2026-08-16T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
-
 
 > _Final remeasurement and settlement of a speculative call option._ Before settlement, intrinsic value falls by {@{€5&nbsp;000}@} and time value falls by another {@{€40, leaving a carrying amount of €15&nbsp;060 before settlement for €15&nbsp;000 cash}@}.
 >
@@ -925,7 +909,6 @@ That OCI-first treatment matches the transcript's logic. At the start of a cash 
 > Later, when the related inventory is sold and _Cost of goods sold_ is recognized, the OCI amount is reclassified so that the hedge effect enters income in the same period as the hedged item. <!--SR:!fsrs,2027-10-24T00:00:00.000Z,423,422.58314543,1,2,3,0,0,2026-08-27T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-04-28T00:00:00.000Z,262,261.84490475,1.95567692,2,3,0,0,2026-08-09T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
-
 
 > _Reclassification from OCI when the hedged inventory affects earnings._ When the finished goods made from the hedged inventory are sold, the accumulated hedge gain of {@{¥25&nbsp;000}@} is reclassified out of OCI.
 >

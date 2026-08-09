@@ -17,11 +17,11 @@ Financial accountancy is governed by {@{both local and international accounting 
 
 On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}. <!--SR:!2027-12-17,912,330!2029-02-13,1257,350!2028-05-25,1049,350!2029-07-30,1388,350!2028-08-08,1110,350-->
 
-While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}. <!--SR:!fsrs,2032-03-17T00:00:00.000Z,2022,2022.40267027,1,2,10,0,0,2026-09-03T00:00:00.000Z!2028-06-01,1056,350-->
+While {@{financial accounting}@} is used to prepare {@{accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, {@{[managerial accounting](management%20accounting.md)}@} provides {@{accounting information to help managers make decisions to manage the business}@}. <!--SR:!fsrs,2032-03-17T00:00:00.000Z,2022,2022.40267027,1,2,10,0,0,2026-09-03T00:00:00.000Z!2028-06-01,1056,350-->
 
 ## principles
 
-{@{Financial accounting and financial reporting}@} are often used as synonyms. <!--SR:!2029-04-27,1314,350-->
+{@{Financial accounting and financial reporting}@} are often used {@{as synonyms}@}. <!--SR:!2029-04-27,1314,350-->
 
 1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::@:: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-10-12,534,310!2028-02-20,889,290-->
 2. According to the European Accounting Association: ... ::@:: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2030-01-06,1441,310!2026-10-09,567,310-->
