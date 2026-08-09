@@ -1,4 +1,6 @@
-Approach to general relativity - This article is about general tetrads. For orthonormal tetrads, see [Frame fields in general relativity](frame%20fields%20in%20general%20relativity.md).
+Approach to general relativity
+
+- This article is about general tetrads. For orthonormal tetrads, see [Frame fields in general relativity](frame%20fields%20in%20general%20relativity.md).
 
 The __tetrad formalism__ is an approach to [general relativity](general%20relativity.md) that generalizes the choice of [basis](basis%20(linear%20algebra).md) for the [tangent bundle](tangent%20bundle.md) from a [coordinate basis](coordinate%20basis.md) to the less restrictive choice of a local basis, i.e. a locally defined set of four<sup>[\[a\]](#^ref-a)</sup> linearly independent [vector fields](vector%20field.md) called a _[tetrad](tetrad%20(general%20relativity).md)_ or _vierbein_.<sup>[\[1\]](#^ref-1)</sup> It is a special case of the more general idea of a _vielbein formalism_, which is set in [\(pseudo-\)](pseudo-Riemannian%20manifold.md)[Riemannian geometry](Riemannian%20geometry.md). This article as currently written makes frequent mention of general relativity; however, almost everything it says is equally applicable to [\(pseudo-\)](pseudo-Riemannian%20manifold.md)[Riemannian manifolds](Riemannian%20manifold.md) in general, and even to [spin manifolds](spin%20manifold.md#spin%20structures%20on%20vector%20bundles). Most statements hold by substituting arbitrary $n$ for $n=4$. In German, "_vier_" translates to "four", "_viel_" to "many", and "_bein_" to "leg".
 
@@ -58,7 +60,7 @@ which shows that $g_{ab}=g_{\mu \nu }e^{\mu }{}_{a}e^{\nu }{}_{b}$.
 
 ### manipulation of indices
 
-The manipulation with tetrad coefficients shows that abstract index formulas can, in principle, be obtained from tensor formulas with respect to a coordinate tetrad by "replacing greek by latin indices". However care must be taken that a coordinate tetrad formula defines a genuine tensor when differentiation is involved. Since the coordinate vector fields have vanishing [Lie bracket](lie%20bracket%20of%20vector%20fields.md) \(i.e. commute: $\partial _{\mu }\partial _{\nu }=\partial _{\nu }\partial _{\mu }$\), naive substitutions of formulas that correctly compute tensor coefficients with respect to a coordinate tetrad may not correctly define a tensor with respect to a general tetrad because the Lie bracket is non-vanishing: $[e_{a},e_{b}]\neq 0$. Thus, it is sometimes said that tetrad coordinates provide a [non-holonomic basis](holonomic%20basis.md).
+The manipulation with tetrad coefficients shows that abstract index formulas can, in principle, be obtained from tensor formulas with respect to a coordinate tetrad by "replacing greek by latin indices". However care must be taken that a coordinate tetrad formula defines a genuine tensor when differentiation is involved. Since the coordinate vector fields have vanishing [Lie bracket](Lie%20bracket%20of%20vector%20fields.md) \(i.e. commute: $\partial _{\mu }\partial _{\nu }=\partial _{\nu }\partial _{\mu }$\), naive substitutions of formulas that correctly compute tensor coefficients with respect to a coordinate tetrad may not correctly define a tensor with respect to a general tetrad because the Lie bracket is non-vanishing: $[e_{a},e_{b}]\neq 0$. Thus, it is sometimes said that tetrad coordinates provide a [non-holonomic basis](holonomic%20basis.md).
 
 For example, the [Riemann curvature tensor](Riemann%20curvature%20tensor.md) is defined for general vector fields $X,Y$ by
 
@@ -74,14 +76,14 @@ is incorrect because for fixed _c_ and _d_, $\left(\nabla _{c}\nabla _{d}-\nabla
 $$R_{\ bcd}^{a}=e^{a}\left((\nabla _{c}\nabla _{d}-\nabla _{d}\nabla _{c}-f_{cd}{}^{e}\nabla _{e})e_{b}\right)$$
 where $[e_{a},e_{b}]=f_{ab}{}^{c}e_{c}$. Note that the expression $\left(\nabla _{c}\nabla _{d}-\nabla _{d}\nabla _{c}-f_{cd}{}^{e}\nabla _{e}\right)$ is indeed a zeroth order operator, hence \(the \(_c__d_\)-component of\) a tensor. Since it agrees with the coordinate expression for the curvature when specialised to a coordinate tetrad it is clear, even without using the abstract definition of the curvature, that it defines the same tensor as the coordinate basis expression.
 
-## Example: Lie groups
+## example: Lie groups
 
-Given a vector \(or covector\) in the tangent \(or cotangent\) manifold, the [exponential map](Exponential%20map%20(Riemannian%20geometry).md) describes the corresponding [geodesic](geodesic.md) of that tangent vector. Writing $X\in TM$, the [parallel transport](parallel%20transport.md) of a differential corresponds to
+Given a vector \(or covector\) in the tangent \(or cotangent\) manifold, the [exponential map](exponential%20map%20(Riemannian%20geometry).md) describes the corresponding [geodesic](geodesic.md) of that tangent vector. Writing $X\in TM$, the [parallel transport](parallel%20transport.md) of a differential corresponds to
 
 $$e^{-X}de^{X}=dX-{\frac {1}{2!} }\left[X,dX\right]+{\frac {1}{3!} }[X,[X,dX]]-{\frac {1}{4!} }[X,[X,[X,dX]]]+\cdots$$
 The above can be readily verified simply by taking $X$ to be a matrix.
 
-For the special case of a [Lie algebra](Lie%20algebra.md), the $X$ can be taken to be an element of the algebra, the exponential is the [exponential map of a Lie group](Exponential%20map%20(Lie%20group).md), and group elements correspond to the geodesics of the tangent vector. Choosing a basis $e_{i}$ for the Lie algebra and writing $X=X^{i}e_{i}$ for some functions $X^{i}$, the commutators can be explicitly written out. One readily computes that
+For the special case of a [Lie algebra](Lie%20algebra.md), the $X$ can be taken to be an element of the algebra, the exponential is the [exponential map of a Lie group](exponential%20map%20(Lie%20group).md), and group elements correspond to the geodesics of the tangent vector. Choosing a basis $e_{i}$ for the Lie algebra and writing $X=X^{i}e_{i}$ for some functions $X^{i}$, the commutators can be explicitly written out. One readily computes that
 
 $$e^{-X}de^{X}=dX^{i}e_{i}-{\frac {1}{2!} }X^{i}dX^{j}{f_{ij} }^{k}e_{k}+{\frac {1}{3!} }X^{i}X^{j}dX^{k}{f_{jk} }^{l}{f_{il} }^{m}e_{m}-\cdots$$
 for $[e_{i},e_{j}]={f_{ij} }^{k}e_{k}$ the [structure constants](structure%20constant.md) of the Lie algebra. The series can be written more compactly as
@@ -95,7 +97,7 @@ Here, $M$ is a matrix whose matrix elements are ${M_{j} }^{k}=X^{i}{f_{ij} }^{k}
 Given some map $N\to G$ from some manifold $N$ to some Lie group $G$, the metric tensor on the manifold $N$ becomes the pullback of the metric tensor $B_{mn}$ on the Lie group $G$:
 
 $$g_{ij}={W_{i} }^{m}B_{mn}{W^{n} }_{j}$$
-The metric tensor $B_{mn}$ on the Lie group is the Cartan metric, aka the [Killing form](killing%20form.md). Note that, as a matrix, the second W is the transpose. For $N$ a \(pseudo-\)[Riemannian manifold](Riemannian%20manifold.md), the metric is a \(pseudo-\)[Riemannian metric](Riemannian%20metric.md#Riemannian%20metrics%20and%20Riemannian%20manifolds). The above generalizes to the case of [symmetric spaces](symmetric%20space.md).<sup>[\[7\]](#^ref-7)</sup> These vielbeins are used to perform calculations in [sigma models](sigma%20model.md), of which the [supergravity theories](supergravity.md) are a special case.<sup>[\[8\]](#^ref-8)</sup>
+The metric tensor $B_{mn}$ on the Lie group is the Cartan metric, aka the [Killing form](Killing%20form.md). Note that, as a matrix, the second W is the transpose. For $N$ a \(pseudo-\)[Riemannian manifold](Riemannian%20manifold.md), the metric is a \(pseudo-\)[Riemannian metric](Riemannian%20metric.md#Riemannian%20metrics%20and%20Riemannian%20manifolds). The above generalizes to the case of [symmetric spaces](symmetric%20space.md).<sup>[\[7\]](#^ref-7)</sup> These vielbeins are used to perform calculations in [sigma models](sigma%20model.md), of which the [supergravity theories](supergravity.md) are a special case.<sup>[\[8\]](#^ref-8)</sup>
 
 ## see also
 
@@ -107,7 +109,7 @@ The metric tensor $B_{mn}$ on the Lie group is the Cartan metric, aka the [Killi
 - [G-structure](G-structure.md)
 - [Spin manifold](spin%20manifold.md#spin%20structures%20on%20vector%20bundles)
 - [Spin structure](spin%20structure.md)
-- [Dirac equation in curved spacetime](dirac%20equation%20in%20curved%20spacetime.md)
+- [Dirac equation in curved spacetime](Dirac%20equation%20in%20curved%20spacetime.md)
 
 ## notes
 
