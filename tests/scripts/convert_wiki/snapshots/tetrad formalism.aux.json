@@ -1,0 +1,342 @@
+{
+  "image_metadata": {},
+  "name_map_overrides": {},
+  "redirect_cache": {
+    "1-form": {
+      "to": "One-form",
+      "tofragment": ""
+    },
+    "Abstract index notation": {
+      "to": "Abstract index notation",
+      "tofragment": ""
+    },
+    "ArXiv (identifier)": {
+      "to": "ArXiv",
+      "tofragment": ""
+    },
+    "Basis (linear algebra)": {
+      "to": "Basis (linear algebra)",
+      "tofragment": ""
+    },
+    "Basis (mathematics)": {
+      "to": "Basis (linear algebra)",
+      "tofragment": ""
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": ""
+    },
+    "Connection (mathematics)": {
+      "to": "Connection (mathematics)",
+      "tofragment": ""
+    },
+    "Connection form": {
+      "to": "Connection form",
+      "tofragment": ""
+    },
+    "Coordinate basis": {
+      "to": "Holonomic basis",
+      "tofragment": ""
+    },
+    "Coordinate chart": {
+      "to": "Topological manifold",
+      "tofragment": "Coordinate charts"
+    },
+    "Differential geometry": {
+      "to": "Differential geometry",
+      "tofragment": ""
+    },
+    "Dimensional deconstruction": {
+      "to": "Dimensional deconstruction",
+      "tofragment": ""
+    },
+    "Dirac equation in curved spacetime": {
+      "to": "Dirac equation in curved spacetime",
+      "tofragment": ""
+    },
+    "Directional derivative": {
+      "to": "Directional derivative",
+      "tofragment": ""
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "Edit section: Citations": {
+      "to": "Edit section: Citations",
+      "tofragment": ""
+    },
+    "Edit section: Example: Lie groups": {
+      "to": "Edit section: Example: Lie groups",
+      "tofragment": ""
+    },
+    "Edit section: External links": {
+      "to": "Edit section: External links",
+      "tofragment": ""
+    },
+    "Edit section: Manipulation of indices": {
+      "to": "Edit section: Manipulation of indices",
+      "tofragment": ""
+    },
+    "Edit section: Mathematical formulation": {
+      "to": "Edit section: Mathematical formulation",
+      "tofragment": ""
+    },
+    "Edit section: Notes": {
+      "to": "Edit section: Notes",
+      "tofragment": ""
+    },
+    "Edit section: References": {
+      "to": "Edit section: References",
+      "tofragment": ""
+    },
+    "Edit section: Relation to standard formalism": {
+      "to": "Edit section: Relation to standard formalism",
+      "tofragment": ""
+    },
+    "Edit section: See also": {
+      "to": "Edit section: See also",
+      "tofragment": ""
+    },
+    "Einstein summation convention": {
+      "to": "Einstein notation",
+      "tofragment": ""
+    },
+    "Einstein–Cartan theory": {
+      "to": "Einstein–Cartan theory",
+      "tofragment": ""
+    },
+    "Exponential map (Lie group)": {
+      "to": "Exponential map (Lie theory)",
+      "tofragment": ""
+    },
+    "Exponential map (Riemannian geometry)": {
+      "to": "Exponential map (Riemannian geometry)",
+      "tofragment": ""
+    },
+    "Fiber bundles": {
+      "to": "Fiber bundle",
+      "tofragment": ""
+    },
+    "Frame bundle": {
+      "to": "Frame bundle",
+      "tofragment": ""
+    },
+    "Frame fields in general relativity": {
+      "to": "Frame fields in general relativity",
+      "tofragment": ""
+    },
+    "G-structure": {
+      "to": "G-structure on a manifold",
+      "tofragment": ""
+    },
+    "GHP formalism": {
+      "to": "GHP formalism",
+      "tofragment": ""
+    },
+    "General relativity": {
+      "to": "General relativity",
+      "tofragment": ""
+    },
+    "Geodesic": {
+      "to": "Geodesic",
+      "tofragment": ""
+    },
+    "Greek alphabet": {
+      "to": "Greek alphabet",
+      "tofragment": ""
+    },
+    "Holonomic basis": {
+      "to": "Holonomic basis",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "ISSN (identifier)": {
+      "to": "ISSN",
+      "tofragment": ""
+    },
+    "Jürgen Jost": {
+      "to": "Jürgen Jost",
+      "tofragment": ""
+    },
+    "Kaluza–Klein theory": {
+      "to": "Kaluza–Klein theory",
+      "tofragment": ""
+    },
+    "Killing form": {
+      "to": "Killing form",
+      "tofragment": ""
+    },
+    "Kronecker delta": {
+      "to": "Kronecker delta",
+      "tofragment": ""
+    },
+    "Latin alphabet": {
+      "to": "Latin alphabet",
+      "tofragment": ""
+    },
+    "Lattice gauge theory": {
+      "to": "Lattice gauge theory",
+      "tofragment": ""
+    },
+    "Lie algebra": {
+      "to": "Lie algebra",
+      "tofragment": ""
+    },
+    "Lie bracket of vector fields": {
+      "to": "Lie bracket of vector fields",
+      "tofragment": ""
+    },
+    "Manifold": {
+      "to": "Manifold",
+      "tofragment": ""
+    },
+    "Massive gravity": {
+      "to": "Massive gravity",
+      "tofragment": ""
+    },
+    "Metric tensor": {
+      "to": "Metric tensor",
+      "tofragment": ""
+    },
+    "Newman–Penrose formalism": {
+      "to": "Newman–Penrose formalism",
+      "tofragment": ""
+    },
+    "Null vector": {
+      "to": "Null vector",
+      "tofragment": ""
+    },
+    "Open cover": {
+      "to": "Cover (topology)",
+      "tofragment": "open cover"
+    },
+    "Orthonormal frame bundle": {
+      "to": "Frame bundle",
+      "tofragment": "Orthonormal frame bundle"
+    },
+    "PMC (identifier)": {
+      "to": "PubMed Central",
+      "tofragment": "PMCID"
+    },
+    "PMID (identifier)": {
+      "to": "PubMed",
+      "tofragment": "PubMed identifier"
+    },
+    "Parallel transport": {
+      "to": "Parallel transport",
+      "tofragment": ""
+    },
+    "Parallelizable manifold": {
+      "to": "Parallelizable manifold",
+      "tofragment": ""
+    },
+    "Parallelization (mathematics)": {
+      "to": "Parallelization (mathematics)",
+      "tofragment": ""
+    },
+    "Principal bundle": {
+      "to": "Principal bundle",
+      "tofragment": ""
+    },
+    "Pseudo-Riemannian manifold": {
+      "to": "Pseudo-Riemannian manifold",
+      "tofragment": ""
+    },
+    "Riemann curvature tensor": {
+      "to": "Riemann curvature tensor",
+      "tofragment": ""
+    },
+    "Riemannian geometry": {
+      "to": "Riemannian geometry",
+      "tofragment": ""
+    },
+    "Riemannian manifold": {
+      "to": "Riemannian manifold",
+      "tofragment": ""
+    },
+    "Riemannian metric": {
+      "to": "Riemannian manifold",
+      "tofragment": "Riemannian metrics and Riemannian manifolds"
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID"
+    },
+    "Scalar field": {
+      "to": "Scalar field",
+      "tofragment": ""
+    },
+    "Sigma model": {
+      "to": "Sigma model",
+      "tofragment": ""
+    },
+    "Solder form": {
+      "to": "Solder form",
+      "tofragment": ""
+    },
+    "Spacetime": {
+      "to": "Spacetime",
+      "tofragment": ""
+    },
+    "Spin bundle": {
+      "to": "Spinor bundle",
+      "tofragment": ""
+    },
+    "Spin connection": {
+      "to": "Spin connection",
+      "tofragment": ""
+    },
+    "Spin manifold": {
+      "to": "Spin structure",
+      "tofragment": "Spin structures on vector bundles"
+    },
+    "Spin structure": {
+      "to": "Spin structure",
+      "tofragment": ""
+    },
+    "Structure constant": {
+      "to": "Structure constants",
+      "tofragment": ""
+    },
+    "Supergravity": {
+      "to": "Supergravity",
+      "tofragment": ""
+    },
+    "Symmetric space": {
+      "to": "Symmetric space",
+      "tofragment": ""
+    },
+    "Tangent bundle": {
+      "to": "Tangent bundle",
+      "tofragment": ""
+    },
+    "Tangent manifold": {
+      "to": "Tangent bundle",
+      "tofragment": ""
+    },
+    "Tangent space": {
+      "to": "Tangent space",
+      "tofragment": ""
+    },
+    "Tensor": {
+      "to": "Tensor",
+      "tofragment": ""
+    },
+    "Tensor products": {
+      "to": "Tensor product",
+      "tofragment": ""
+    },
+    "Tetrad (general relativity)": {
+      "to": "Frame fields in general relativity",
+      "tofragment": ""
+    },
+    "Vector field": {
+      "to": "Vector field",
+      "tofragment": ""
+    }
+  }
+}
