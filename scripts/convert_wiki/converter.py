@@ -567,6 +567,8 @@ class WikiHtmlConverter:
 
     def _handle_div(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
         """Handle <div> elements, with special handling for equation-box divs."""
+        if "shortdescription" in classes:
+            return _HandlerConfig(suffix="\n\n")
         if "equation-box" not in classes:
             return self._handle_block_level(ele, classes)
 

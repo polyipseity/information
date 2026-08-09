@@ -275,6 +275,20 @@ class TestLinkHandling:
         assert "Category:Foo" not in result
 
     @pytest.mark.anyio
+    async def test_shortdescription_block_spacing_before_hatnote(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Short-description metadata must be separated from the following hatnote."""
+        html = (
+            '<div class="shortdescription">Approach to general relativity</div>'
+            '<div class="hatnote">This article is about general tetrads.</div>'
+        )
+        result = await _convert(converter, html)
+        assert result == (
+            "Approach to general relativity\n\n- This article is about general tetrads.\n"
+        )
+
+    @pytest.mark.anyio
     async def test_link_new_page(self, converter: WikiHtmlConverter) -> None:
         """``new`` class indicates page does not exist; suffix should be stripped."""
         html = '<a class="new" title="Missing Page (page does not exist)" href="/wiki/Missing_Page">missing</a>'
