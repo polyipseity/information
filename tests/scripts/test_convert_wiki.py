@@ -35,7 +35,7 @@ class TestModuleExports:
 
 
 class TestSymlinkCreation:
-    """Tests for symlink creation in _handle_link.
+    """Tests for symlink creation in _handle_anchor.
 
     When a Wikipedia page redirects to another page, symlinks are created
     so that both filenames resolve to the same Markdown file.

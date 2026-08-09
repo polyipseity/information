@@ -232,7 +232,7 @@ class TestMathHandling:
 
 
 class TestLinkHandling:
-    """Tests for ``_handle_link`` and ``_handle_selflink``."""
+    """Tests for ``_handle_anchor`` and ``_handle_selflink``."""
 
     @pytest.mark.anyio
     async def test_simple_link(self, converter: WikiHtmlConverter) -> None:
@@ -266,7 +266,7 @@ class TestLinkHandling:
     async def test_skips_parsoid_link_metadata(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """Parsoid ``<link>`` metadata must not invoke ``_handle_link``."""
+        """Parsoid ``<link>`` metadata must be ignored (no handler name collision)."""
         html = (
             '<p>before<link rel="mw:PageProp/Category" href="./Category:Foo"/>after</p>'
         )

@@ -343,9 +343,9 @@ capitalisation like `Fourier...` → `fourier...`), and leaves mixed-case names 
 | Call site                      | `replace_underscores` | Input                             |
 | ------------------------------ | --------------------- | --------------------------------- |
 | `_handle_header`               | `False`               | Section header text               |
-| `_handle_link` — `title` param | `True`                | Link display text / page title    |
-| `_handle_link` — `to` param    | `True`                | Redirect-resolved target filename |
-| `_handle_link` — `to_fragment` | `True`                | `#fragment` part of link          |
+| `_handle_anchor` — `title` param | `True`                | Link display text / page title    |
+| `_handle_anchor` — `to` param    | `True`                | Redirect-resolved target filename |
+| `_handle_anchor` — `to_fragment` | `True`                | `#fragment` part of link          |
 
 __Critical__: `title` and `to` are independent inputs — `title` is the `<a>` tag's
 `title` attribute, `to` is `redirect_map[title].to`. Both go through the same

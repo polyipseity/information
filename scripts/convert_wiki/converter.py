@@ -280,12 +280,6 @@ class WikiHtmlConverter:
         list_stack: tuple[int, ...],
     ) -> _HandlerConfig | None:
         """Dispatch to a handler for the given element."""
-        # Parsoid emits <link> metadata (categories, templatestyles, etc.).
-        # Must precede the generic ``_handle_{tag}`` lookup, which would
-        # otherwise match ``_handle_link`` and return an unawaited coroutine.
-        if ele.name == "link":
-            return _HandlerConfig()
-
         if header_match := _HEADER_REGEX.match(ele.name):
             return self._handle_header(ele, classes, header_match)
 
@@ -313,7 +307,7 @@ class WikiHtmlConverter:
             return self._handle_image(ele, classes)
 
         if ele.name == "a" and "mw-file-description" not in classes:
-            return await self._handle_link(ele, classes)
+            return await self._handle_anchor(ele, classes)
 
         if ele.name == "ol":
             return self._handle_ol(ele, classes, list_stack)
@@ -992,10 +986,10 @@ class WikiHtmlConverter:
             return desc
         return file_title
 
-    async def _handle_link(
+    async def _handle_anchor(
         self, ele: Tag, classes: frozenset[str]
     ) -> _HandlerConfig | None:
-        """Handle <a> link elements."""
+        """Handle ``<a>`` link elements."""
         if (title := ele.get("title")) and title not in _cfg._BAD_TITLES:
             title = str(title)
             if "new" in classes:
