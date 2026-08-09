@@ -25,7 +25,7 @@ There are {@{several forms of the Hertzsprung–Russell diagram, and the [nomenc
 
 The original diagram displayed {@{the [spectral type](stellar%20classification.md#spectral%20type) of [stars](star.md) on the horizontal axis and the [absolute visual magnitude](absolute%20magnitude.md) on the vertical axis}@}. <!--SR:!2027-01-23,656,290-->
 
-Another form of the diagram plots {@{the effective surface [temperature](temperature.md) of the [star](star.md) on one axis and the [luminosity](luminosity.md) of the star on the other}@}, almost invariably {@{in a [log–log plot](log–log%20plot.md)}@}. <!--SR:!2031-04-25,1849,330!2026-09-09,592,330-->
+Another form of the diagram plots {@{the effective surface [temperature](temperature.md) of the [star](star.md) on one axis and the [luminosity](luminosity.md) of the star on the other}@}, almost invariably {@{in a [log–log plot](log–log%20plot.md)}@}. <!--SR:!2031-04-25,1849,330!fsrs,2033-02-12T00:00:00.000Z,2347,2347.1286463,1,2,10,0,0,2026-09-10T00:00:00.000Z-->
 
 ## interpretation
 

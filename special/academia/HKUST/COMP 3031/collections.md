@@ -27,7 +27,7 @@ tags:
 
 ## list
 
-In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, ..., xₙ_}@} is written {@{`List(x₁, ..., xₙ)`}@}. Typical examples include <!--SR:!2026-10-13,271,330!2026-10-06,264,330!2026-11-07,293,330!2026-09-09,237,330!2026-10-26,282,330-->
+In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@} used {@{throughout functional programming}@}. A list {@{containing the elements _x₁, ..., xₙ_}@} is written {@{`List(x₁, ..., xₙ)`}@}. Typical examples include <!--SR:!2026-10-13,271,330!2026-10-06,264,330!2026-11-07,293,330!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-26,282,330-->
 
 > [!example] __list construction__
 >
@@ -194,7 +194,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 > ```
 <!--SR:!2026-10-17,275,330!2026-10-05,263,330-->
 
-Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-10-12,270,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-03,261,330!2026-09-09,237,330!2026-09-15,243,330-->
+Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-10-12,270,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-03,261,330!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-09-15,243,330-->
 
 {@{Removing the _n_-th element}@} can be defined by {@{pattern matching on the index}@}: <!--SR:!2026-10-29,285,330!2026-09-13,241,330-->
 
@@ -354,7 +354,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > ```
 <!--SR:!2026-10-15,273,330!2026-09-25,253,330-->
 
-{@{`reduceLeft`}@} does not {@{support empty lists}@}. It also does not support {@{returning other types other than a supertype of the collection `T`}@}. {@{`foldLeft`}@} generalizes `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value}@}, and returned for {@{an empty list as the starting value is simply returned}@}. It also supports {@{returning any other types}@}, as long as {@{the initial value and the operation have the right types}@}. <!--SR:!2026-10-18,276,330!2026-10-30,286,330!2026-10-18,276,330!2026-09-09,237,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2027-01-13,349,350!2026-12-16,324,350!2026-12-31,339,350!2026-12-19,327,350-->
+{@{`reduceLeft`}@} does not {@{support empty lists}@}. It also does not support {@{returning other types other than a supertype of the collection `T`}@}. {@{`foldLeft`}@} generalizes `reduceLeft` by {@{supplying an initial accumulator `z`}@} that is {@{used as a starting value}@}, and returned for {@{an empty list as the starting value is simply returned}@}. It also supports {@{returning any other types}@}, as long as {@{the initial value and the operation have the right types}@}. <!--SR:!2026-10-18,276,330!2026-10-30,286,330!2026-10-18,276,330!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2027-01-13,349,350!2026-12-16,324,350!2026-12-31,339,350!2026-12-19,327,350-->
 
 > [!example] __`foldLeft`__
 >
@@ -365,7 +365,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > def product(xs: List[Int]) = xs.foldLeft(1)(_ * _)
 > def stringify(xs: List[Int]) = xs.foldLeft("")(_ + _.toString)  // `String` is not a subtype of `Int`
 > ```
-<!--SR:!2026-09-09,237,330!2026-09-13,241,330!2026-10-13,271,330!2026-10-21,279,330!2026-11-03,290,330!2026-12-12,320,350!2027-01-17,353,350!2026-12-22,330,350!2026-12-20,328,350-->
+<!--SR:!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-09-13,241,330!2026-10-13,271,330!2026-10-21,279,330!2026-11-03,290,330!2026-12-12,320,350!2027-01-17,353,350!2026-12-22,330,350!2026-12-20,328,350-->
 
 {@{`reduceRight` and `foldRight`}@} are {@{the right-associative counterparts}@} of {@{`reduceLeft` and `foldLeft` respectively}@}: <!--SR:!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-30,286,330!2027-01-17,353,350-->
 
@@ -379,7 +379,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > ```
 <!--SR:!2026-09-23,251,330!2026-10-05,263,330!2027-01-11,347,350-->
 
-{@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!2026-09-09,237,330!2026-11-04,290,330!2026-10-10,268,330!2026-10-08,266,330!2026-09-27,255,330!2026-10-18,276,330!2026-10-20,278,330!2026-10-14,272,330-->
+{@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-04,290,330!2026-10-10,268,330!2026-10-08,266,330!2026-09-27,255,330!2026-10-18,276,330!2026-10-20,278,330!2026-10-14,272,330-->
 
 {@{Both `reduceLeft` and `foldLeft`}@} can be {@{defined directly in the abstract `List` class}@}: <!--SR:!2026-09-19,247,330!2026-10-03,261,330-->
 

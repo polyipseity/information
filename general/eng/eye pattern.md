@@ -69,7 +69,7 @@ With {@{some protocols, such as [HDMI](HDMI.md)}@}, {@{a reference clock}@} is s
 
 ## modulation
 
-Each form of {@{baseband modulation}@} produces {@{an eye pattern with a unique appearance}@}. <!--SR:!2026-09-09,283,330!2026-09-10,283,330-->
+Each form of {@{baseband modulation}@} produces {@{an eye pattern with a unique appearance}@}. <!--SR:!fsrs,2030-01-25T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-09-10,283,330-->
 
 ### NRZ
 
@@ -139,7 +139,7 @@ The image below shows {@{a 1.25 Gbit/s NRZ signal}@} after passing {@{through a 
 >
 > {@{Eye pattern}@} of {@{a 1.25 Gbit/s NRZ signal}@} through {@{a lossy channel}@} <!--SR:!fsrs,2029-12-19T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-09-20,292,330!fsrs,2029-09-15T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-08-08T00:00:00.000Z!fsrs,2029-11-10T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-08-22T00:00:00.000Z-->
 
-As {@{high frequency losses increase}@} {@{the overall shape of the eye}@} gradually {@{degrades into a sinusoid}@} \(once {@{higher frequency harmonics of the data has been eliminated}@}, {@{all that remains}@} is {@{the fundamental}@}\) and {@{decreases in amplitude}@}. <!--SR:!2026-09-17,290,330!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!fsrs,2029-10-16T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-08-16T00:00:00.000Z!fsrs,2029-09-04T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-05T00:00:00.000Z!fsrs,2029-08-21T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-02T00:00:00.000Z!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!2026-09-09,283,330-->
+As {@{high frequency losses increase}@} {@{the overall shape of the eye}@} gradually {@{degrades into a sinusoid}@} \(once {@{higher frequency harmonics of the data has been eliminated}@}, {@{all that remains}@} is {@{the fundamental}@}\) and {@{decreases in amplitude}@}. <!--SR:!2026-09-17,290,330!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!fsrs,2029-10-16T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-08-16T00:00:00.000Z!fsrs,2029-09-04T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-05T00:00:00.000Z!fsrs,2029-08-21T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-02T00:00:00.000Z!fsrs,2029-08-09T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-07-29T00:00:00.000Z!fsrs,2030-01-25T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-09-10T00:00:00.000Z-->
 
 ### impedance mismatches
 

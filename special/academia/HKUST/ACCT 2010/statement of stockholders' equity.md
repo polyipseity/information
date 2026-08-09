@@ -21,7 +21,7 @@ tags:
 
 ## format
 
-- header ::@:: company name, `(Consolidated) Statement of Stockholders' Equity`, duration, (monetary unit) <!--SR:!2028-06-06,917,330!2026-09-09,462,310-->
+- header ::@:: company name, `(Consolidated) Statement of Stockholders' Equity`, duration, (monetary unit) <!--SR:!2028-06-06,917,330!fsrs,2031-07-10T00:00:00.000Z,1764,1763.96298204,1,2,10,0,0,2026-09-10T00:00:00.000Z-->
     - header / duration ::@:: example: `Year Ended December 31, 2019` <!--SR:!2029-07-09,1301,350!2027-04-03,643,330-->
     - header / monetary unit ::@:: example: <br/> (none; not recommended) <br/> `(in million of dollars)` <!--SR:!2029-04-19,1239,350!2028-12-16,1141,350-->
 - dollar sign ::@:: Add it before the first number and the last number (under `Ending balances`) for each column. The rest can be omitted. <!--SR:!2028-07-08,937,330!fsrs,2030-12-05T00:00:00.000Z,1550,1550.37348139,1.98030797,2,10,0,0,2026-09-07T00:00:00.000Z-->

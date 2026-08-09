@@ -80,7 +80,7 @@ return await memorize_seq(
 - [halogen addition reaction](halogen%20addition%20reaction.md)→::@::←[hydrogenation](#hydrogenation) <!--SR:!2036-11-22,3858,350!2032-08-19,2409,290-->
 - [hydrogenation](#hydrogenation)→::@::←[hydrohalogenation](#hydrohalogenation) <!--SR:!2029-07-04,1803,371!fsrs,2035-10-13T00:00:00.000Z,3342,3342.00272489,1,2,11,0,0,2026-08-19T00:00:00.000Z-->
 - [hydrohalogenation](#hydrohalogenation)→::@::←[polymerization](#polymerization) <!--SR:!2028-11-18,1282,271!2028-10-20,1398,311-->
-- [polymerization](#polymerization)→::@::←_(end)_ <!--SR:!2029-06-29,1798,371!2026-09-09,601,331-->
+- [polymerization](#polymerization)→::@::←_(end)_ <!--SR:!2029-06-29,1798,371!fsrs,2033-03-23T00:00:00.000Z,2386,2386.14711554,1,2,10,0,0,2026-09-10T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

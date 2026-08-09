@@ -246,7 +246,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--pytextgen generate section="018e"--><!-- The following content is generated at 2024-03-08T13:15:49.087660+08:00. Any edits will be overridden! -->
 
-- [NiMH](nickel–metal%20hydride%20battery.md):@:(unavailable), 1.2 V <!--SR:!2026-09-09,560,263-->
+- [NiMH](nickel–metal%20hydride%20battery.md):@:(unavailable), 1.2 V <!--SR:!fsrs,2031-06-16T00:00:00.000Z,1740,1740.4632392,3.33113829,2,10,0,0,2026-09-10T00:00:00.000Z-->
 - [lead–acid](lead–acid%20battery.md):@:(unavailable), 2.1 V; 6 cells: 12 V <!--SR:!2030-06-24,1731,383-->
 - [lithium-ion](lithium-ion%20battery.md):@:(unavailable), 3.7 V <!--SR:!fsrs,2031-10-21T00:00:00.000Z,1950,1949.72759773,1.32990818,2,10,0,0,2026-06-19T00:00:00.000Z-->
 

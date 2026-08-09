@@ -1230,7 +1230,7 @@ water treatment
 - groundwater quality control→::@::←wastewater recycling <!--SR:!2028-03-10,951,295!2029-07-21,1328,300-->
 - wastewater recycling→::@::←wastewater treatment <!--SR:!2030-12-25,1803,335!2027-04-11,815,337-->
 - wastewater treatment→::@::←water quality monitoring <!--SR:!2030-05-25,1577,300!2032-03-19,2155,335-->
-- water quality monitoring→::@::←water treatment <!--SR:!2026-09-09,666,344!2030-09-18,1795,354-->
+- water quality monitoring→::@::←water treatment <!--SR:!fsrs,2034-02-21T00:00:00.000Z,2721,2721.46279348,1,2,10,0,0,2026-09-10T00:00:00.000Z!2030-09-18,1795,354-->
 - water treatment→::@::←_(end)_ <!--SR:!2028-05-23,1167,374!2032-02-14,2084,306-->
 
 <!--/pytextgen-->

@@ -35,7 +35,7 @@ The CAPM is {@{a model for pricing an individual security or portfolio}@}. For {
 where:
 
 - $E(R_{i})~~$ ::@:: is the expected return on the capital asset <!--SR:!fsrs,2030-05-22T00:00:00.000Z,1389,1389.2321195,1,2,9,0,0,2026-08-02T00:00:00.000Z!2029-03-22,1049,350-->
-- $R_{f}~$ ::@:: is the risk-free rate of interest such as interest arising from government bonds <!--SR:!2026-09-09,332,350!2029-06-07,1105,350-->
+- $R_{f}~$ ::@:: is the risk-free rate of interest such as interest arising from government bonds <!--SR:!fsrs,2030-11-01T00:00:00.000Z,1513,1512.60537765,1,2,9,0,0,2026-09-10T00:00:00.000Z!2029-06-07,1105,350-->
 - $\beta _{i}~~$ \(the _[beta](beta%20(finance).md)_\) ::@:: is the [sensitivity](sensitivity%20and%20specificity.md) of the expected excess asset returns to the expected excess market returns, or also $\beta _{i}={\frac {\mathrm {Cov} (R_{i},R_{m})}{\mathrm {Var} (R_{m})} }=\rho _{i,m}{\frac {\sigma _{i} }{\sigma _{m} } }$ <!--SR:!fsrs,2030-07-03T00:00:00.000Z,1421,1421.2156973,1,2,9,0,0,2026-08-12T00:00:00.000Z!2026-09-19,341,350-->
 - $E(R_{m})~$ ::@:: is the expected return of the market <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-07-16T00:00:00.000Z!fsrs,2029-12-24T00:00:00.000Z,1252,1251.97430334,1,2,9,0,0,2026-07-21T00:00:00.000Z-->
 - $E(R_{m})-R_{f}~$ ::@:: is sometimes known as the _market premium_ <!--SR:!fsrs,2029-12-04T00:00:00.000Z,1237,1236.83645167,1,2,9,0,0,2026-07-16T00:00:00.000Z!fsrs,2030-06-12T00:00:00.000Z,1409,1409.23401497,1,2,9,0,0,2026-08-03T00:00:00.000Z-->

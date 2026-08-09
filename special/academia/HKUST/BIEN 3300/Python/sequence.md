@@ -9,7 +9,7 @@ tags:
 
 # Python sequence
 
-Here, we are interested in two sequence types: {@{strings and lists}@}. <!--SR:!2026-09-09,248,330-->
+Here, we are interested in two sequence types: {@{strings and lists}@}. <!--SR:!fsrs,2029-09-13T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-09-10T00:00:00.000Z-->
 
 ## string
 

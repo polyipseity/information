@@ -22,7 +22,7 @@ tags:
 
 In {@{functional programming}@}, lists are {@{one of the most common data structures}@} and they form {@{the basis for many proofs about program correctness}@}. {@{A central operation}@} on lists is {@{concatenation}@}, denoted by {@{`:::` in Scala}@}. For {@{two lists `xs` and `ys`}@}, {@{the expression `xs ::: ys`}@} produces a new list that contains {@{all elements of `xs` followed by all elements of `ys`}@}. {@{Two fundamental algebraic laws}@} hold for this operator: \(annotation: 2 items: {@{associativity, neutral element}@}\) <!--SR:!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-10-28,285,330!2026-09-18,250,330!2026-10-19,277,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,276,330!2026-11-03,290,330!2026-11-08,294,330!2026-10-10,269,330!2026-10-14,273,330-->
 
-- __Associativity__ ::@:: `(xs ::: ys) ::: zs = xs ::: (ys ::: zs)` <!--SR:!2026-09-09,241,330!2026-09-16,248,330-->
+- __Associativity__ ::@:: `(xs ::: ys) ::: zs = xs ::: (ys ::: zs)` <!--SR:!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-09-16,248,330-->
 - __Neutral element__ ::@:: – the empty list `Nil` is a left and right identity: `xs ::: Nil = xs` and `Nil ::: xs = xs` <!--SR:!2026-09-27,259,330!2026-09-18,250,330-->
 
 These laws are not {@{merely curiosities}@}; they enable reasoning about {@{program transformations, optimisations, and correctness proofs}@}. {@{The standard way to establish them}@} in a purely functional setting is {@{_structural induction_}@}. <!--SR:!2026-10-25,282,330!2026-10-05,267,330!2026-10-31,287,330!2026-10-22,280,330-->
@@ -31,7 +31,7 @@ These laws are not {@{merely curiosities}@}; they enable reasoning about {@{prog
 
 To assert that {@{an implementation of a set actually behaves as a set}@}, we state {@{three algebraic laws}@} that {@{any correct representation of a set}@} must satisfy: \(annotation: 3 items: {@{empty contains nothing, insertion guarantees presence, non-insertion preserves membership}@}\) <!--SR:!fsrs,2029-06-15T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-08-28T00:00:00.000Z!2026-10-06,268,330!2026-10-12,271,330!2026-11-02,289,330-->
 
-- __Empty contains nothing__ ::@:: $$\text{Empty.contains}(x) = \text{false}$$ <!--SR:!2026-09-09,241,330!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
+- __Empty contains nothing__ ::@:: $$\text{Empty.contains}(x) = \text{false}$$ <!--SR:!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
 - __Insertion guarantees presence__ ::@:: $$s.\text{incl}(x).\text{contains}(x) = \text{true}$$ <!--SR:!2026-10-25,282,330!2026-10-27,284,330-->
 - __Non-insertion preserves membership__ ::@:: For distinct elements $x\neq y$, $$s.\text{incl}(y).\text{contains}(x) = s.\text{contains}(x)$$ <!--SR:!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-17,276,330-->
 
@@ -51,7 +51,7 @@ A list can be {@{either `Nil` or an element cons-ed onto another list (`x :: xs`
 1. \(annotation: structural induction on lists\) __Base case__: ::@:: $P(\texttt{Nil})$ holds. <!--SR:!2026-10-16,275,330!2026-09-19,251,330-->
 2. \(annotation: structural induction on lists\) __Inductive step__: ::@:: For any element `x` and any sublist `xs`, if $P(\texttt{xs})$ holds then so does $P(\texttt{x :: xs})$. <!--SR:!2026-10-11,270,330!2026-09-24,256,330-->
 
-Because {@{list construction is recursive}@}, structural induction mirrors {@{the shape of the data}@}. It also holds for {@{trees and other recursively defined structures}@} with modifications of {@{the base and inductive cases to match the constructors}@}. <!--SR:!2026-09-10,242,330!2026-09-09,241,330!2026-09-19,251,330!2026-11-01,288,330-->
+Because {@{list construction is recursive}@}, structural induction mirrors {@{the shape of the data}@}. It also holds for {@{trees and other recursively defined structures}@} with modifications of {@{the base and inductive cases to match the constructors}@}. <!--SR:!2026-09-10,242,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-09-19,251,330!2026-11-01,288,330-->
 
 ### structural induction on trees
 
@@ -64,7 +64,7 @@ The proof is typically structured as {@{a base case (leaves)}@} followed by {@{a
 
 ## referential transparency
 
-{@{Functional programs}@} are {@{_pure_}@}: functions have {@{no side effects}@} and every expression denotes {@{a value that depends solely on its inputs}@}. This property—{@{_referential transparency_}@}—allows us to replace {@{any sub-expression with an equal one without changing program behaviour}@}. In {@{proofs}@}, it means we may freely {@{apply reduction rules (the equations defining `:::` or other functions) inside larger terms}@}. {@{The factorial example}@} below illustrates {@{this principle}@}. <!--SR:!2026-10-17,276,330!2026-09-27,259,330!2026-10-04,266,330!2026-09-11,243,330!2026-09-13,245,330!2026-09-09,241,330!2026-10-04,266,330!2026-11-01,288,330!2026-10-15,274,330!2026-11-02,289,330-->
+{@{Functional programs}@} are {@{_pure_}@}: functions have {@{no side effects}@} and every expression denotes {@{a value that depends solely on its inputs}@}. This property—{@{_referential transparency_}@}—allows us to replace {@{any sub-expression with an equal one without changing program behaviour}@}. In {@{proofs}@}, it means we may freely {@{apply reduction rules (the equations defining `:::` or other functions) inside larger terms}@}. {@{The factorial example}@} below illustrates {@{this principle}@}. <!--SR:!2026-10-17,276,330!2026-09-27,259,330!2026-10-04,266,330!2026-09-11,243,330!2026-09-13,245,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-04,266,330!2026-11-01,288,330!2026-10-15,274,330!2026-11-02,289,330-->
 
 ## proofs
 
@@ -333,7 +333,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{$z > x$ and $z > y$ \($z$ is largest, i.e. $x < y < z$ or $y < x < z$\)}@} – {@{analogous reasoning applies to the left child}@}.
 > - If {@{$x < z < y$ or $y < z < x$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
 >
-> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!2026-09-11,243,330!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-12,244,330!2026-10-14,273,330!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-11-02,289,330!2026-10-26,283,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2027-07-04,458,310!2026-09-14,246,330!2026-10-20,278,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-31,287,330!2026-09-09,241,330-->
+> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!2026-09-11,243,330!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-12,244,330!2026-10-14,273,330!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-11-02,289,330!2026-10-26,283,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2027-07-04,458,310!2026-09-14,246,330!2026-10-20,278,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-31,287,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z-->
 
 ### proving set union property
 

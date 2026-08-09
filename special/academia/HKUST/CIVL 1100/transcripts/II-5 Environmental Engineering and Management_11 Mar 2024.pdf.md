@@ -99,7 +99,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←(Cap. 311) Air Pollution Control Ordinance <!--SR:!2027-07-30,676,255!2031-08-20,2106,395-->
 - (Cap. 311) Air Pollution Control Ordinance→::@::←(Cap. 354) Waste Disposal Ordinance <!--SR:!2027-04-01,627,275!2027-04-11,546,275-->
-- (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2028-01-05,874,295!2026-09-09,523,315-->
+- (Cap. 354) Waste Disposal Ordinance→::@::←(Cap. 358) Water Pollution Control Ordinance <!--SR:!2028-01-05,874,295!fsrs,2032-03-03T00:00:00.000Z,2001,2001.39065619,1,2,10,0,0,2026-09-10T00:00:00.000Z-->
 - (Cap. 358) Water Pollution Control Ordinance→::@::←(Cap. 400) Noise Pollution Control Ordinance <!--SR:!2028-07-14,875,255!fsrs,2027-06-02T00:00:00.000Z,325,325.36450298,8.73445956,2,8,0,0,2026-07-12T00:00:00.000Z-->
 - (Cap. 400) Noise Pollution Control Ordinance→::@::←(Cap. 499) Environmental Impact Ordinance <!--SR:!2028-07-15,878,295!2027-07-10,770,315-->
 - (Cap. 499) Environmental Impact Ordinance→::@::←_(end)_ <!--SR:!2031-11-07,2169,395!2028-11-04,1162,355-->
@@ -227,7 +227,7 @@ Environmental Levy Scheme (Plastic Shopping Bags)
 
 - Environmental Levy Scheme ::@:: scheme to reduce plastic shopping bags <!--SR:!2028-03-25,1093,350!2027-06-27,849,330-->
     - Environmental Levy Scheme launch time ::@:: launched in 2009 <!--SR:!2029-08-05,1429,330!2028-06-28,1163,350-->
-    - Environmental Levy Scheme coverage ::@:: 40 registered retailers with ~3100 retail outlets <!--SR:!2029-01-26,1265,310!2026-09-09,631,330-->
+    - Environmental Levy Scheme coverage ::@:: 40 registered retailers with ~3100 retail outlets <!--SR:!2029-01-26,1265,310!fsrs,2031-02-15T00:00:00.000Z,1619,1619.21992921,2.49272837,2,10,0,0,2026-09-10T00:00:00.000Z-->
     - Environmental Levy Scheme effect ::@:: -90% from registered retailers after 1 year. -25% in overall plastic bag consumption after covering all retail shops in 2015 <!--SR:!fsrs,2030-12-05T00:00:00.000Z,1604,1604.12776295,2.98092302,2,10,0,0,2026-07-15T00:00:00.000Z!2030-12-31,1760,310-->
     - Environmental Levy Scheme income ::@:: HK$25.5 million in 2009 <!--SR:!2027-03-06,719,290!2031-08-30,2016,330-->
 

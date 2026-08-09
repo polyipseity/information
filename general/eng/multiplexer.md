@@ -161,7 +161,7 @@ If {@{X is the input and S is the selector, and A and B are the outputs}@}: {@{$
 
 > {@{![[Fairchild](Fairchild%20Semiconductor.md) 74F138 1:8 demultiplexer](../../archives/Wikimedia%20Commons/ROCKY-518HV%20-%20Fairchild%2074F138-2387.jpg)}@}
 >
-> {@{[Fairchild](Fairchild%20Semiconductor.md) 74F138}@} {@{1:8 demultiplexer}@} <!--SR:!2029-03-21,1084,344!2030-02-02,1417,364!2026-09-09,131,410-->
+> {@{[Fairchild](Fairchild%20Semiconductor.md) 74F138}@} {@{1:8 demultiplexer}@} <!--SR:!2029-03-21,1084,344!2030-02-02,1417,364!fsrs,2028-08-31T00:00:00.000Z,721,720.93701642,1,2,8,0,0,2026-09-10T00:00:00.000Z-->
 
 For [7400 series](7400%20series.md) part numbers in the following table, "x" is the logic family.
 

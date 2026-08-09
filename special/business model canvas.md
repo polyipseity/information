@@ -108,7 +108,7 @@ segmented: splitting slightly different customer segments
 
 <!--pytextgen generate section="9b8a"--><!-- The following content is generated at 2024-03-22T20:40:48.955505+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←diversified: serving unrelated customer segments <!--SR:!2026-09-09,533,257!2027-01-06,689,317-->
+- _(begin)_→::@::←diversified: serving unrelated customer segments <!--SR:!fsrs,2031-02-19T00:00:00.000Z,1623,1623.3362647,3.63132281,2,10,0,0,2026-09-10T00:00:00.000Z!2027-01-06,689,317-->
 - diversified: serving unrelated customer segments→::@::←mass market: not distinguishing between customer segments <!--SR:!fsrs,2030-03-04T00:00:00.000Z,1329,1329.21111158,4.63193785,2,10,0,0,2026-07-14T00:00:00.000Z!2027-10-09,867,274-->
 - mass market: not distinguishing between customer segments→::@::←multi-sided platforms: serving interdependent customer segments <!--SR:!2027-06-06,713,274!fsrs,2030-05-15T01:08:53.698Z,1439,1439.13014263,2.63070775,2,10,0,0,2026-06-06T01:08:53.698Z-->
 - multi-sided platforms: serving interdependent customer segments→::@::←niche market: focusing on specific, specialized customer segments <!--SR:!2030-08-06,1668,297!2027-03-15,712,274-->
