@@ -243,7 +243,7 @@ ScalaCheck integrates {@{with ScalaTest or can run stand-alone}@}, providing a s
 > }
 > def unit[T](x: T): M[T]
 > ```
-<!--SR:!2026-11-02,289,330!2026-11-07,293,330!2026-09-07,236,330-->
+<!--SR:!2026-11-02,289,330!2026-11-07,293,330!fsrs,2029-07-27T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
 
 {@{`flatMap`}@} chains {@{computations that may produce values wrapped in the monad}@}, while {@{`unit`}@} injects {@{a plain value into the monadic context}@}. Additionally, these operations must {@{respect the monad laws}@}. <!--SR:!2026-10-15,274,330!2026-10-17,276,330!2026-09-23,252,330!2026-10-28,284,330!2026-11-01,288,330-->
 

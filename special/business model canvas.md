@@ -220,7 +220,7 @@ personal assistance
 - automated services→::@::←co-creation <!--SR:!2029-02-05,1200,274!2026-10-08,642,294-->
 - co-creation→::@::←communities <!--SR:!2028-08-03,1078,274!2032-09-15,2339,334-->
 - communities→::@::←dedicated personal assistance <!--SR:!2026-12-12,626,277!2027-06-08,734,274-->
-- dedicated personal assistance→::@::←personal assistance <!--SR:!2026-11-24,658,317!2026-09-07,605,317-->
+- dedicated personal assistance→::@::←personal assistance <!--SR:!2026-11-24,658,317!fsrs,2032-12-15T00:00:00.000Z,2290,2289.64676613,1,2,10,0,0,2026-09-08T00:00:00.000Z-->
 - personal assistance→::@::←_(end)_ <!--SR:!2027-06-14,872,337!2027-01-23,701,317-->
 
 <!--/pytextgen-->

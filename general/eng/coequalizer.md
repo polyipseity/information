@@ -42,7 +42,7 @@ It can be shown that {@{a coequalizing arrow _q_}@} is {@{an [epimorphism](epimo
 ## properties
 
 - Every coequalizer ::@:: is an epimorphism. <!--SR:!2027-10-05,752,330!2028-12-08,1099,350-->
-- In a [topos](topos.md), ::@:: every [epimorphism](epimorphism.md) is the coequalizer of its kernel pair. <!--SR:!2026-09-07,126,210!2026-10-12,341,230-->
+- In a [topos](topos.md), ::@:: every [epimorphism](epimorphism.md) is the coequalizer of its kernel pair. <!--SR:!fsrs,2027-03-26T00:00:00.000Z,199,199.37067672,7.99368857,2,8,0,0,2026-09-08T00:00:00.000Z!2026-10-12,341,230-->
 
 ## special cases
 

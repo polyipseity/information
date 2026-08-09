@@ -268,7 +268,7 @@ The content is in teaching order.
 - effective annual rate
 - [amortizing loan](../../../../general/amortizing%20loan.md) ::@:: a loan where the principal of the loan is paid down over the life of the loan (that is, amortized) according to an amortization schedule, typically through equal payments. <!--SR:!2030-12-22,1696,393!2026-09-08,440,393-->
     - amortizing loan / equated monthly installment (EMI) ::@:: Payments are divided into equal amounts for the duration of the loan, making it the simplest repayment model. A greater amount of the payment is applied to _interest_ at the beginning of the amortization schedule, while more money is applied to _principal_ at the end. <!--SR:!fsrs,2031-12-24T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-08-16T00:00:00.000Z!2026-11-06,492,393-->
-    - amortizing loan / terminology ::@:: balance/principal outstanding, interest, principal <!--SR:!2030-02-07,1441,393!2026-09-07,439,393-->
+    - amortizing loan / terminology ::@:: balance/principal outstanding, interest, principal <!--SR:!2030-02-07,1441,393!fsrs,2032-04-18T00:00:00.000Z,2049,2049.0869941,1,2,10,0,0,2026-09-08T00:00:00.000Z-->
     - amortizing loan / amortizing schedule ::@:: It can be an Excel spreadsheet showing balance/principal outstanding, interest paid, and principal paid. <!--SR:!fsrs,2032-02-22T00:00:00.000Z,2004,2004.45937273,1,2,10,0,0,2026-08-28T00:00:00.000Z!2026-09-09,441,393-->
     - amortizing loan / intuition ::@:: Literally just ordinary annuity, but the direction of payment is reversed. <!--SR:!2026-09-14,446,393!2026-09-23,455,393-->
     - amortizing loan / equated monthly installment

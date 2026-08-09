@@ -22,7 +22,7 @@ The __alkaline fuel cell__ (__AFC__) is {@{a [fuel cell](fuel%20cell.md) that co
 {@{Energy is produced}@} through {@{a [redox reaction](redox%20reaction.md) between [hydrogen](hydrogen.md) and [oxygen](oxygen.md)}@} in {@{hot concentrated [alkaline](alkali.md) [electrolyte](electrolyte.md) such as [potassium hydroxide](potassium%20hydroxide.md)}@} with {@{a temperature in between ambient temperature and 90&nbsp;°C}@}: <!--SR:!2031-04-16,1782,252!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-18T00:00:00.000Z,54,54.28686185,1,2,3,0,0,2026-07-26T00:00:00.000Z!fsrs,2026-10-02T00:00:00.000Z,80,79.80449519,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 > - [anode](anode.md) ::@:: H<sub>2</sub>(g) + 2OH<sup>-</sup>(aq) → 2H<sub>2</sub>O(l) + 2e<sup>-</sup> <!--SR:!2028-02-09,1166,290!2028-05-24,981,280-->
-> - [cathode](cathode.md) ::@:: O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq) <!--SR:!2027-05-09,847,292!2026-09-07,629,320-->
+> - [cathode](cathode.md) ::@:: O<sub>2</sub>(g) + 2H<sub>2</sub>O(l) + 4e<sup>-</sup> → 4OH<sup>-</sup>(aq) <!--SR:!2027-05-09,847,292!fsrs,2030-12-27T00:00:00.000Z,1571,1571.12942127,2.86735337,2,10,0,0,2026-09-08T00:00:00.000Z-->
 > - overall ::@:: 2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l) <!--SR:!2028-05-08,1454,352!2030-10-09,1911,380-->
 
 Electrodes {@{are porous to allow hydrogen, oxygen, and [water](water.md) to flow in and out. They are made of [nickel](nickel.md) or [platinum](platinum.md) to catalyze the redox reaction}@}. <!--SR:!2027-05-06,789,212-->

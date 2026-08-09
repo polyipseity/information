@@ -102,7 +102,7 @@ return chain.from_iterable([r.value for r in results])
 
 - invisible due to being too closed to the [Sun](Sun.md) except during a [solar eclipse](solar%20eclipse.md):@:[new moon](new%20moon.md) <!--SR:!2028-09-03,1178,350-->
 - late morning to post-dusk:@:waxing [crescent](crescent.md) <!--SR:!2026-11-21,549,270-->
-- afternoon to early night:@:first quarter <!--SR:!2026-09-07,547,290-->
+- afternoon to early night:@:first quarter <!--SR:!fsrs,2031-11-21T00:00:00.000Z,1900,1900.37094608,1.98030797,2,10,0,0,2026-09-08T00:00:00.000Z-->
 - late afternoon to most of night:@:waxing gibbous <!--SR:!2027-11-04,825,270-->
 - all night (sunset to sunrise):@:[full moon](full%20moon.md) <!--SR:!2027-03-20,742,330-->
 - most of night to early morning:@:waning gibbous <!--SR:!fsrs,2031-12-14T00:00:00.000Z,1963,1963.17125419,1,2,10,0,0,2026-07-30T00:00:00.000Z-->

@@ -10,13 +10,13 @@ tags:
 
 # divergence
 
-- {@{"Terminating"}@} redirects here. For other uses, see {@{[Termination](termination%20(disambiguation).md)}@}. <!--SR:!fsrs,2029-05-09T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-07-18T00:00:00.000Z!2026-09-07,272,330-->
+- {@{"Terminating"}@} redirects here. For other uses, see {@{[Termination](termination%20(disambiguation).md)}@}. <!--SR:!fsrs,2029-05-09T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-07-18T00:00:00.000Z!fsrs,2029-12-12T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
 
 In {@{[computer science](computer%20science.md)}@}, {@{a computation is said to __diverge__}@} if {@{it does not terminate or terminates in an exceptional [state](state%20(computer%20science).md)}@}.<sup>[\[1\]](#^ref-1)</sup><sup>:&hairsp;377&hairsp;</sup> Otherwise {@{it is said to __converge__}@}.<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> In domains where {@{computations are expected to be infinite}@}, such as {@{[process calculi](process%20calculi.md)}@}, a computation is said to diverge if {@{it fails to be productive \(i.e. to continue producing an action within a finite amount of time\)}@}. <!--SR:!fsrs,2029-12-07T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-10-04,293,330!fsrs,2029-05-14T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-07-19T00:00:00.000Z!2026-09-26,286,330!2026-09-27,287,330!fsrs,2029-07-18T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-08-03T00:00:00.000Z!2026-09-16,278,330-->
 
 ## definitions
 
-{@{Various subfields of computer science}@} use {@{varying, but mathematically precise, definitions}@} of what it means for {@{a computation to converge or diverge}@}. <!--SR:!fsrs,2029-07-13T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-08-02T00:00:00.000Z!2026-09-23,284,330!2026-09-07,270,330-->
+{@{Various subfields of computer science}@} use {@{varying, but mathematically precise, definitions}@} of what it means for {@{a computation to converge or diverge}@}. <!--SR:!fsrs,2029-07-13T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-08-02T00:00:00.000Z!2026-09-23,284,330!fsrs,2029-12-05T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
 
 ### rewriting
 
