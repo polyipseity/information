@@ -135,13 +135,13 @@ Thus the implementation finds {@{all valid mnemonic phrases in a handful of line
 
 ### word coder conclusion
 
-{@{The problem}@} originates from Lutz Prechelt's 2000 study _An Empirical Comparison of Seven Programming Languages_ \(IEEE Computer 33(10): 23-29\), where he compared {@{code sizes for the same task}@} across {@{Tcl, Python, Perl, Rexx, Java, C++, and C}@}. {@{Scripting languages}@} typically required {@{about 100 lines of code}@}; {@{compiled languages}@} needed {@{200–300 lines}@}.  In Scala {@{the equivalent solver}@} is {@{roughly 20 lines long}@}, yet it remains {@{statically typed, purely functional, and free of side effects}@}—attributes that make {@{reasoning and refactoring straightforward}@}. <!--SR:!2026-09-08,240,330!2026-10-14,274,330!2026-10-28,284,330!2026-10-10,270,330!2026-10-13,273,330!2026-09-10,242,330!2026-10-08,268,330!2026-09-19,251,330!2026-10-14,274,330!2026-10-15,275,330!2026-10-06,268,330-->
+{@{The problem}@} originates from Lutz Prechelt's 2000 study _An Empirical Comparison of Seven Programming Languages_ \(IEEE Computer 33(10): 23-29\), where he compared {@{code sizes for the same task}@} across {@{Tcl, Python, Perl, Rexx, Java, C++, and C}@}. {@{Scripting languages}@} typically required {@{about 100 lines of code}@}; {@{compiled languages}@} needed {@{200–300 lines}@}.  In Scala {@{the equivalent solver}@} is {@{roughly 20 lines long}@}, yet it remains {@{statically typed, purely functional, and free of side effects}@}—attributes that make {@{reasoning and refactoring straightforward}@}. <!--SR:!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-10-14,274,330!2026-10-28,284,330!2026-10-10,270,330!2026-10-13,273,330!2026-09-10,242,330!2026-10-08,268,330!2026-09-19,251,330!2026-10-14,274,330!2026-10-15,275,330!2026-10-06,268,330-->
 
 {@{The concise implementation}@} hinges on {@{several features of Scala's collection library}@}: \(annotation: 4 items: {@{concise, fast, safe, universal}@}\) <!--SR:!2026-10-20,276,330!2026-09-20,252,330!2026-10-29,285,330-->
 
 - _concise_ ::@:: A single for-comprehension or higher-order function replaces multiple nested loops. As a result, few steps are needed. <!--SR:!2026-10-10,270,330!2026-10-21,277,330-->
 - _fast_ ::@:: Operations on collections may be optimized and parallelized. <!--SR:!2026-10-23,279,330!2026-10-14,274,330-->
-- _safe_ ::@:: The type checker guarantees that collections are manipulated in a valid way. <!--SR:!2026-10-09,269,330!2026-09-08,240,330-->
+- _safe_ ::@:: The type checker guarantees that collections are manipulated in a valid way. <!--SR:!2026-10-09,269,330!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
 - _universal_ ::@:: The API interfaces exposed by lists, vectors, sets, maps, etc. are almost the same. <!--SR:!2026-10-22,278,330!2026-10-19,275,330-->
 
 These qualities illustrate why {@{immutable Scala collections}@} are considered {@{a powerful tool for modern software development}@}. <!--SR:!2026-10-23,279,330!2026-10-12,272,330-->

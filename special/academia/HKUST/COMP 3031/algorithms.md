@@ -89,7 +89,7 @@ The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {
 > ```
 <!--SR:!2026-11-03,290,330!2026-09-13,245,330!2026-10-09,268,330!2026-09-18,250,330-->
 
-One could {@{re-implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!2026-09-20,252,330!2026-09-08,240,330-->
+One could {@{re-implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!2026-09-20,252,330!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
 
 > [!example] __`List.splitAt`__
 >

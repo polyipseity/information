@@ -49,7 +49,7 @@ The content is in teaching order.
     - Bloomberg Terminal / Bloomberg News ::@:: Bloomberg TV & Video, front page, key news themes, natural language search, news categories, social monitor, top news, etc. <!--SR:!fsrs,2029-07-26T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-08-07T00:00:00.000Z!2028-07-05,763,330-->
         - Bloomberg Terminal / Bloomberg News / top news ::@:: `TOP <GO>` <!--SR:!fsrs,2029-09-16T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-17T00:00:00.000Z!fsrs,2029-11-06T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
         - Bloomberg Terminal / Bloomberg News / natural language search ::@:: `N <GO>` <!--SR:!fsrs,2029-12-12T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-08-02T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-06T00:00:00.000Z-->
-        - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>` <!--SR:!2026-09-08,272,330!fsrs,2029-10-23T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-08-27T00:00:00.000Z-->
+        - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>` <!--SR:!fsrs,2029-12-13T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2029-10-23T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-08-27T00:00:00.000Z-->
         - Bloomberg Terminal / Bloomberg News / social monitor ::@:: `SOCI <GO>` <!--SR:!2026-09-18,280,330!fsrs,2029-06-02T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-23T00:00:00.000Z-->
         - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>` <!--SR:!2026-09-21,282,330!2026-09-22,283,330-->
         - Bloomberg Terminal / Bloomberg News / key news themes ::@:: `NSTM <GO>` <!--SR:!2028-06-23,751,330!2027-08-01,505,310-->

@@ -12,7 +12,7 @@ tags:
 
 ## definition
 
-The information gain ratio of an [attribute](feature%20(machine%20learning).md) $a$ on set a $T$ is defined as {@{$$\operatorname{IGR}(T, a) = \frac {\operatorname{IG}(T, a)} {\Eta(a)}$$, where $\operatorname{IG}(T, a)$ is the [information gain](information%20gain%20(decision%20tree).md) and $\Eta(a)$ is the [entropy](entropy%20(information%20theory).md) of $a$ in $T$}@}. Note that the latter entropy is also called {@{the split information of $a$, $\operatorname{SplitInformation}(a)$}@}, in this context. <!--SR:!2026-09-08,634,290!2032-03-08,2190,330-->
+The information gain ratio of an [attribute](feature%20(machine%20learning).md) $a$ on set a $T$ is defined as {@{$$\operatorname{IGR}(T, a) = \frac {\operatorname{IG}(T, a)} {\Eta(a)}$$, where $\operatorname{IG}(T, a)$ is the [information gain](information%20gain%20(decision%20tree).md) and $\Eta(a)$ is the [entropy](entropy%20(information%20theory).md) of $a$ in $T$}@}. Note that the latter entropy is also called {@{the split information of $a$, $\operatorname{SplitInformation}(a)$}@}, in this context. <!--SR:!fsrs,2032-08-12T00:00:00.000Z,2164,2164.24752053,1.98030797,2,10,0,0,2026-09-09T00:00:00.000Z!2032-03-08,2190,330-->
 
 ## advantages
 

@@ -183,7 +183,7 @@ return chain.from_iterable([r.value for r in results])
 - [wash bottle](wash%20bottle.md)→::@::←[watch glass](watch%20glass.md) <!--SR:!2033-03-19,2564,290!2027-10-13,956,270-->
 - [watch glass](watch%20glass.md)→::@::←[weighing bottle](weighing%20bottle.md) <!--SR:!2033-04-21,2737,330!2031-11-09,2217,290-->
 - [weighing bottle](weighing%20bottle.md)→::@::←[wire gauze](wire%20gauze.md) <!--SR:!2028-08-17,1304,290!2031-03-15,2174,330-->
-- [wire gauze](wire%20gauze.md)→::@::←_(end)_ <!--SR:!2026-12-29,980,330!2026-09-08,897,330-->
+- [wire gauze](wire%20gauze.md)→::@::←_(end)_ <!--SR:!2026-12-29,980,330!fsrs,2035-12-08T00:00:00.000Z,3377,3377.47770492,1,2,11,0,0,2026-09-09T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

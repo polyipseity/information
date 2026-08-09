@@ -57,9 +57,9 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 {@{This right associativity}@} means {@{`A :: B :: C`}@} is parsed as {@{`A :: (B :: C)`}@}. <!--SR:!2026-10-11,269,330!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-21,279,330-->
 
-{@{The basic list API}@} exposes {@{three core methods}@}: \(annotation: 3 items: {@{`head`, `tail`, `isEmpty`}@}\) <!--SR:!2026-09-08,236,330!2026-09-24,252,330!2026-12-21,329,350-->
+{@{The basic list API}@} exposes {@{three core methods}@}: \(annotation: 3 items: {@{`head`, `tail`, `isEmpty`}@}\) <!--SR:!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-09-24,252,330!2026-12-21,329,350-->
 
-- `head`, ::@:: which returns the first element; <!--SR:!2026-09-08,236,330!2026-09-08,236,330-->
+- `head`, ::@:: which returns the first element; <!--SR:!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
 - `tail`, ::@:: which yields a new list containing all elements except the head; <!--SR:!2026-10-15,273,330!2026-10-12,270,330-->
 - `isEmpty`, ::@:: which reports whether the list contains no elements. <!--SR:!2026-09-17,245,330!2026-10-31,287,330-->
 
@@ -105,7 +105,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 
 ### list methods
 
-Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-10-30,286,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-09-08,236,330!2026-09-11,239,330!2026-09-19,247,330!2026-10-15,273,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-18,276,330-->
+Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-10-30,286,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-09-11,239,330!2026-09-19,247,330!2026-10-15,273,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-18,276,330-->
 
 > [!example] __list construction__
 >
@@ -680,7 +680,7 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 > ```
 <!--SR:!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z-->
 
-{@{Most sequence operations}@} have {@{direct counterparts for sets}@}. For instance <!--SR:!2026-09-08,236,330!2026-09-08,236,330-->
+{@{Most sequence operations}@} have {@{direct counterparts for sets}@}. For instance <!--SR:!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
 
 > [!example] __`Set` methods__
 >

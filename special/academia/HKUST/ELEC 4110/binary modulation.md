@@ -62,7 +62,7 @@ If the receiver compares {@{$V$ to an arbitrary threshold $V_{\!th}\neq0$}@}, {@
 For {@{a transmitted '1'}@} {@{the error event}@} is {@{$\{AT+N_T=V\le V_{\!th}\}$}@}, giving {@{$$P_e^{(1)} = Q\!\left(\frac{AT-V_{\!th} }{\sigma_{n_T} }\right).$$}@} <!--SR:!2026-10-09,268,330!2026-11-04,290,330!2026-10-22,280,330!2026-10-01,262,330-->
 
 For {@{a transmitted '0'}@} {@{the error event}@} is {@{$\{-AT+N_T=V>V_{\!th}\}$}@}, giving
-$$P_e^{(0)} = Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right).$$ <!--SR:!2026-09-08,239,330!2026-10-10,271,330!2026-10-16,275,330-->
+$$P_e^{(0)} = Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right).$$ <!--SR:!fsrs,2029-08-09T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-10-10,271,330!2026-10-16,275,330-->
 
 {@{The overall BER with priors $p_0,p_1$}@} is therefore {@{$$\boxed{P_e(V_{\!th})= p_0\,Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right) +p_1\,Q\!\left(\frac{AT-V_{\!th} }{\sigma_{n_T} }\right)} \,.$$}@} {@{Setting $V_{\!th}=0$}@} recovers {@{the zero-threshold result above}@}. <!--SR:!2026-10-10,271,330!2028-04-10,681,330!2026-09-12,243,330!2026-10-02,263,330-->
 
@@ -78,7 +78,7 @@ Mathematically, for {@{a fixed energy per bit $E_b$}@}, {@{the error probability
 
 {@{The _signal energy_ \(excluding noise energy\) transmitted during one symbol}@} is {@{$$E_s = \int_{0}^{T} s_k^2(t)\,dt = A^2 \!\int_{0}^{T} p^2(t)\,dt = A^2 T \,,$$}@} since {@{$p(t)$}@} has {@{unit energy \(assumed to be a rectangular pulse of duration $T$\)}@}. <!--SR:!2026-10-02,263,330!2026-10-28,285,330!2026-09-15,246,330!2026-09-22,253,330-->
 
-With {@{non-equiprobable bits}@} {@{the average energy per bit}@} is {@{$$E_b = p_0\,E_s^{(0)} + p_1\,E_s^{(1)} = (p_0+p_1) A^2 T = A^2 T,$$}@} because {@{both symbols}@} have {@{the same magnitude $A$ and duration $T$}@}. Thus, regardless of {@{the bit priors}@}, {@{$$E_b = A^2 T.$$}@} Note if {@{the two antipodal signals}@} had {@{different amplitudes}@}, the expression would {@{involve $p_0$ and $p_1$ explicitly}@}. <!--SR:!2026-10-04,265,330!2026-09-11,242,330!2026-10-08,269,330!2026-10-31,287,330!2026-10-02,263,330!2026-09-08,239,330!2026-10-04,265,330!fsrs,2029-06-23T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-24T00:00:00.000Z!fsrs,2029-08-04T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-02,263,330-->
+With {@{non-equiprobable bits}@} {@{the average energy per bit}@} is {@{$$E_b = p_0\,E_s^{(0)} + p_1\,E_s^{(1)} = (p_0+p_1) A^2 T = A^2 T,$$}@} because {@{both symbols}@} have {@{the same magnitude $A$ and duration $T$}@}. Thus, regardless of {@{the bit priors}@}, {@{$$E_b = A^2 T.$$}@} Note if {@{the two antipodal signals}@} had {@{different amplitudes}@}, the expression would {@{involve $p_0$ and $p_1$ explicitly}@}. <!--SR:!2026-10-04,265,330!2026-09-11,242,330!2026-10-08,269,330!2026-10-31,287,330!2026-10-02,263,330!fsrs,2029-08-09T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-10-04,265,330!fsrs,2029-06-23T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-24T00:00:00.000Z!fsrs,2029-08-04T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-02,263,330-->
 
 ## signal-to-noise ratio
 

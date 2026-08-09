@@ -60,7 +60,7 @@ In particular, if {@{the vectors $\mathbf {a}$ and $\mathbf {b}$ are [orthogonal
 
 > {@{![Scalar projection](../../archives/Wikimedia%20Commons/Dot%20Product.svg)}@}
 >
-> {@{Scalar projection}@} <!--SR:!2026-09-08,454,383!fsrs,2032-03-15T00:00:00.000Z,2037,2036.92992657,1,2,10,0,0,2026-08-17T00:00:00.000Z-->
+> {@{Scalar projection}@} <!--SR:!fsrs,2032-06-19T00:00:00.000Z,2110,2109.71841691,1,2,10,0,0,2026-09-09T00:00:00.000Z!fsrs,2032-03-15T00:00:00.000Z,2037,2036.92992657,1,2,10,0,0,2026-08-17T00:00:00.000Z-->
 
 {@{The [scalar projection](scalar%20projection.md) \(or scalar component\) of a Euclidean vector $\mathbf {a}$ in the direction of a Euclidean vector $\mathbf {b}$}@} is given by {@{$$a_{b}=\left\|\mathbf {a} \right\|\cos \theta ,$$ where $\theta$ is the angle between $\mathbf {a}$ and $\mathbf {b}$}@}. <!--SR:!fsrs,2031-11-13T00:00:00.000Z,1943,1943.3704559,1,2,10,0,0,2026-07-19T00:00:00.000Z!2026-09-25,469,383-->
 
@@ -171,7 +171,7 @@ Generalized further to {@{[complex continuous functions](complex%20function.md) 
 
 ### weight function
 
-Inner products can {@{have a [weight function](weight%20function.md) \(i.e., a function which weights each term of the inner product with a value\)}@}. Explicitly, {@{the inner product of functions $u(x)$ and $v(x)$ with respect to the weight function $r(x)>0$}@} is {@{$$\left\langle u,v\right\rangle _{r}=\int _{a}^{b}r(x)u(x)v(x)\,dx.$$}@} <!--SR:!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z!2026-09-08,454,383!2026-09-19,463,383-->
+Inner products can {@{have a [weight function](weight%20function.md) \(i.e., a function which weights each term of the inner product with a value\)}@}. Explicitly, {@{the inner product of functions $u(x)$ and $v(x)$ with respect to the weight function $r(x)>0$}@} is {@{$$\left\langle u,v\right\rangle _{r}=\int _{a}^{b}r(x)u(x)v(x)\,dx.$$}@} <!--SR:!fsrs,2031-12-10T00:00:00.000Z,1964,1963.76381421,1,2,10,0,0,2026-07-25T00:00:00.000Z!fsrs,2032-06-19T00:00:00.000Z,2110,2109.71841691,1,2,10,0,0,2026-09-09T00:00:00.000Z!2026-09-19,463,383-->
 
 ### dyadics and matrices
 

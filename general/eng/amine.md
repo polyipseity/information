@@ -17,11 +17,11 @@ Due to {@{[hydrogen bonding](hydrogen%20bond.md)}@}, amines have {@{[boiling poi
 
 ### density
 
-Most amines are {@{less [dense](density.md) than [water](water.md)}@}. {@{Density increases}@} {@{with increasing size}@}. <!--SR:!2026-10-09,640,290!2030-04-09,1738,290!2026-09-08,300,356-->
+Most amines are {@{less [dense](density.md) than [water](water.md)}@}. {@{Density increases}@} {@{with increasing size}@}. <!--SR:!2026-10-09,640,290!2030-04-09,1738,290!fsrs,2030-07-22T00:00:00.000Z,1412,1411.624189,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
 
 ### odor
 
-{@{[Gaseous](gas.md) amines}@} have {@{a [ammonia](ammonia.md) smell}@} while {@{[liquid](liquid.md) amines have a characteristic fishy smell}@}. <!--SR:!2031-04-10,2063,290!2026-09-08,300,356!fsrs,2030-07-17T00:00:00.000Z,1408,1407.54398383,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
+{@{[Gaseous](gas.md) amines}@} have {@{a [ammonia](ammonia.md) smell}@} while {@{[liquid](liquid.md) amines have a characteristic fishy smell}@}. <!--SR:!2031-04-10,2063,290!fsrs,2030-07-22T00:00:00.000Z,1412,1411.624189,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2030-07-17T00:00:00.000Z,1408,1407.54398383,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
 
 ### solubility
 
