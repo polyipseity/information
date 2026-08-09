@@ -227,7 +227,7 @@ To assign a value or the result of an expression to a variable, use {@{`=`}@}:
 variableName = 1 + 2
 ```
 
-One does not need to {@{declare the variable and its type before assigning to it}@}.
+One does not need to {@{declare the variable and its type}@} before {@{assigning to it}@}. Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}.
 
 Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}. Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}.
 

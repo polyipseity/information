@@ -17,11 +17,11 @@ Financial accountancy is governed by {@{both local and international accounting 
 
 On the other hand, {@{[International Financial Reporting Standards](International%20Financial%20Reporting%20Standards.md) (IFRS)}@} is {@{a set of accounting standards stating how particular types of transactions and other events should be reported in financial statements}@}. IFRS are issued by {@{the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) (IASB)}@}.<sup>[\[2\]](#^ref-2)</sup> With {@{IFRS becoming more widespread on the international scene}@}, {@{_consistency_ in financial reporting has become more prevalent between global organizations}@}.
 
-While financial accounting is {@{used to prepare accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, [managerial accounting](management%20accounting.md) {@{provides accounting information to help managers make decisions to manage the business}@}.
+While {@{financial accounting}@} is used to prepare {@{accounting information for people outside the organization or not involved in the day-to-day running of the company}@}, {@{[managerial accounting](management%20accounting.md)}@} provides {@{accounting information to help managers make decisions to manage the business}@}.
 
 ## principles
 
-{@{Financial accounting and financial reporting}@} are often used as synonyms.
+{@{Financial accounting and financial reporting}@} are often used {@{as synonyms}@}.
 
 1. According to International Financial Reporting Standards: the objective of financial reporting is ... ::@:: To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.<sup>[\[3\]](#^ref-3)</sup>
 2. According to the European Accounting Association: ... ::@:: Capital maintenance is a competing objective of financial reporting.<sup>[\[4\]](#^ref-4)</sup>
