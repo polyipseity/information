@@ -9,6 +9,7 @@ import re
 from os import PathLike
 from pathlib import Path as PathlibPath
 
+import json5
 import pytest
 from anyio import Path
 from bs4 import BeautifulSoup, Tag
@@ -210,6 +211,13 @@ def _discover_snapshot_cases() -> list[str]:
     )
 
 
+def _load_snapshot_names_map() -> dict[str, str]:
+    """Load the shared snapshot name map (symlink to production JSONC)."""
+    path = _SNAPSHOT_DIR / "name_map.jsonc"
+    with path.open(encoding="UTF-8") as names_map_file:
+        return json5.load(names_map_file)
+
+
 def _categorize_block_math_blocks(output: str) -> dict[str, int]:
     """Count block math paragraph affiliation categories in converter output.
 
@@ -264,8 +272,7 @@ class TestWikiHtmlToPlaintextSnapshot:
         await isolated_lang.mkdir(parents=True)
 
         # Load shared name_map and per-test auxiliary data.
-        shared_name_map_path = _SNAPSHOT_DIR / "name_map.json"
-        shared_name_map = json.loads(shared_name_map_path.read_text(encoding="UTF-8"))
+        shared_name_map = _load_snapshot_names_map()
         aux_path = _SNAPSHOT_DIR / f"{name}.aux.json"
         aux = json.loads(aux_path.read_text(encoding="UTF-8"))
 
@@ -932,15 +939,14 @@ class TestBlockMathCategoryBreakdown:
     async def _run_and_categorize(tmp_path: PathLike[str]) -> dict[str, int]:
         """Run the Fourier transform pipeline and categorize block math output.
 
-        Mirrors the snapshot test setup (aux.json, name_map.json, etc.)
+        Mirrors the snapshot test setup (aux.json, name_map.jsonc, etc.)
         but returns category counts instead of comparing to expected output.
         """
         tmp = Path(tmp_path)
         isolated_lang = tmp / "general" / "eng"
         await isolated_lang.mkdir(parents=True)
 
-        shared_name_map_path = _SNAPSHOT_DIR / "name_map.json"
-        shared_name_map = json.loads(shared_name_map_path.read_text(encoding="UTF-8"))
+        shared_name_map = _load_snapshot_names_map()
         aux_path = (
             _SNAPSHOT_DIR / f"{TestBlockMathCategoryBreakdown._SNAPSHOT_NAME}.aux.json"
         )
@@ -1029,8 +1035,7 @@ class TestInlineMathIndependence:
         isolated_lang = tmp / "general" / "eng"
         await isolated_lang.mkdir(parents=True)
 
-        shared_name_map_path = _SNAPSHOT_DIR / "name_map.json"
-        shared_name_map = json.loads(shared_name_map_path.read_text(encoding="UTF-8"))
+        shared_name_map = _load_snapshot_names_map()
         aux_path = (
             _SNAPSHOT_DIR / f"{TestInlineMathIndependence._SNAPSHOT_NAME}.aux.json"
         )

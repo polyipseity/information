@@ -354,7 +354,7 @@ NOT cover the link target; both need separate entries if they differ.
 
 ### Snapshot tests and `aux.json`
 
-The snapshot test uses `tests/scripts/test_convert_wiki/snapshots/<name>.aux.json` together with the shared `name_map.json` baseline. Per-test overrides use `name_map_overrides`:
+The snapshot test uses `tests/scripts/convert_wiki/snapshots/<name>.aux.json` together with the shared `name_map.jsonc` baseline (a symlink to `scripts/assets/convert_wiki.name_map.jsonc`). Per-test overrides use `name_map_overrides`:
 
 ```json
 {
