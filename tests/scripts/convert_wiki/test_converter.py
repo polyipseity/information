@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 from anyio import Path as AnyioPath
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.latex import LatexConverter
@@ -141,6 +141,79 @@ class TestMathHandling:
         result = await _convert(converter, html)
         # The period after the math span should remain outside the $...$.
         assert "$f(x)$." in result or "f(x)$." in result
+
+    @pytest.mark.anyio
+    async def test_dd_math_external_period_is_block(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """External ``.`` after display math in ``<dd>`` should be block with ``\\,``."""
+        html = f"<dd>{_inline_math_span(r'{\displaystyle R(X,Y)}')}.</dd>"
+        result = await _convert(converter, html)
+        assert "$$R(X,Y)\\,.$$" in result
+        assert "$R(X,Y)$." not in result
+
+    @pytest.mark.anyio
+    async def test_dd_math_external_comma_is_block(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """External ``,`` after display math in ``<dd>`` should be block with ``\\,``."""
+        html = f"<dd>{_inline_math_span(r'{\displaystyle a}')},</dd>"
+        result = await _convert(converter, html)
+        assert "$$a\\,,$$" in result
+
+    @pytest.mark.anyio
+    async def test_aligned_external_period_injected_before_end(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """External ``.`` after aligned env should land before ``\\end{aligned}``."""
+        alttext = r"{\displaystyle \begin{aligned}a&=b\\c&=d\end{aligned}}"
+        html = f"<dd>{_inline_math_span(alttext)}.</dd>"
+        result = await _convert(converter, html)
+        assert r"d\,.\end{aligned}$$" in result
+        assert r"\end{aligned}.$$" not in result
+
+    @pytest.mark.anyio
+    async def test_aligned_in_paragraph_external_period(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Aligned env with external ``.`` in ``<p>`` should still be block math."""
+        alttext = r"{\displaystyle \begin{aligned}x&=1\end{aligned}}"
+        html = f"<p>{_inline_math_span(alttext)}.</p>"
+        result = await _convert(converter, html)
+        assert r"$$\begin{aligned}x&=1\,.\end{aligned}$$" in result
+
+    @pytest.mark.anyio
+    async def test_inject_external_punctuation_single_line(self) -> None:
+        """``_inject_external_punctuation`` should append ``\\,`` + punct."""
+        result = WikiHtmlConverter._inject_external_punctuation("f(x)", ".")
+        assert result == r"f(x)\,."
+        result = WikiHtmlConverter._inject_external_punctuation("a", ",")
+        assert result == r"a\,,"
+
+    @pytest.mark.anyio
+    async def test_inject_external_punctuation_aligned_env(self) -> None:
+        """``_inject_external_punctuation`` should insert before ``\\end{aligned}``."""
+        alt = r"\begin{aligned}a&=b\\c&=d\end{aligned}"
+        result = WikiHtmlConverter._inject_external_punctuation(alt, ".")
+        assert result == r"\begin{aligned}a&=b\\c&=d\,.\end{aligned}"
+
+    @pytest.mark.anyio
+    async def test_is_display_formula_row_helpers(self) -> None:
+        """Display-formula-row helpers should detect dd rows with external punct."""
+        soup = BeautifulSoup(
+            f"<dd>{_inline_math_span(r'{\displaystyle x}')}.</dd>",
+            "html.parser",
+        )
+        math_tag = soup.find("math")
+        assert math_tag is not None
+        outer = WikiHtmlConverter._math_outer_span(math_tag)
+        assert outer is not None
+        container = outer.parent
+        assert isinstance(container, Tag)
+        assert WikiHtmlConverter._following_punctuation_sibling(outer) == "."
+        assert WikiHtmlConverter._qualifies_for_external_punct_absorption(
+            container, outer, "x"
+        )
 
     @pytest.mark.anyio
     async def test_math_displaystyle_prefix(self, converter: WikiHtmlConverter) -> None:
