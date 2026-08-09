@@ -903,6 +903,20 @@ class TestBlockMathClassification:
         assert isinstance(math_ele, Tag)
         assert WikiHtmlConverter._is_inline_math(math_ele) is False
 
+    def test_inline_math_whitespace_siblings_not_counted(self) -> None:
+        """Prettified block containers must not count whitespace-only siblings."""
+        html = BeautifulSoup(
+            "<dd>\n"
+            '  <span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            "<math></math></span></span>\n"
+            "</dd>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is False
+
 
 class TestBlockMathCategoryBreakdown:
     """Verify block math paragraph affiliation category counts in a real article.
@@ -971,10 +985,10 @@ class TestBlockMathCategoryBreakdown:
         counts = await self._run_and_categorize(tmp_path)
         self._assert_counts(
             counts,
-            both=72,
+            both=308,
             before_only=50,
             after_only=3,
-            neither=3,
+            neither=4,
         )
 
 
@@ -1047,10 +1061,10 @@ class TestInlineMathIndependence:
 
     @pytest.mark.anyio
     async def test_inline_math_count(self, tmp_path: PathLike[str]) -> None:
-        """The Fourier transform article should have 618 inline math blocks."""
+        """The Fourier transform article should have 381 inline math blocks."""
         output = await self._run_and_analyze(tmp_path)
         count = self._count_inline_math_blocks(output)
-        assert count == 618, f"Expected 618 inline math blocks, got {count}"
+        assert count == 381, f"Expected 381 inline math blocks, got {count}"
 
     @pytest.mark.anyio
     async def test_no_orphaned_dollar_signs(self, tmp_path: PathLike[str]) -> None:

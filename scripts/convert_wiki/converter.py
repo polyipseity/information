@@ -651,7 +651,12 @@ class WikiHtmlConverter:
             parent = parent.parent
             if parent is None:
                 return False
-        return len(parent) > 1
+        substantive_children = sum(
+            1
+            for child in parent.children
+            if not (isinstance(child, NavigableString) and not child.strip())
+        )
+        return substantive_children > 1
 
     @staticmethod
     def _strip_trailing_punctuation(text: str) -> tuple[str, str]:
