@@ -120,7 +120,7 @@ The content is in teaching order.
 - job cost
     - job cost / transactions
         - job cost / transactions / purchasing raw material ::@:: T-entry: raw materials inventory ← accounts payable/cash/etc. <!--SR:!fsrs,2032-03-29T00:00:00.000Z,2033,2032.87519052,1,2,10,0,0,2026-09-04T00:00:00.000Z!fsrs,2031-12-19T00:00:00.000Z,1968,1967.83883924,1,2,10,0,0,2026-07-30T00:00:00.000Z-->
-        - job cost / transactions / issuing raw material to projects ::@:: T-entry: work in process inventory, manufacturing overhead (for indirect materials, using _actual_ values) ← raw materials inventory <!--SR:!2026-09-06,446,377!2027-10-11,750,357-->
+        - job cost / transactions / issuing raw material to projects ::@:: T-entry: work in process inventory, manufacturing overhead (for indirect materials, using _actual_ values) ← raw materials inventory <!--SR:!fsrs,2032-05-15T00:00:00.000Z,2077,2077.41341492,1,2,10,0,0,2026-09-07T00:00:00.000Z!2027-10-11,750,357-->
         - job cost / transactions / recording labor costs ::@:: T-entry: work in process inventory, manufacturing overhead (for indirect labor, using _actual_ values) ← wages payable/cash/etc. <!--SR:!2027-03-22,546,337!2027-03-08,563,337-->
         - job cost / transactions / applying overheads to projects estimated using POHR ::@:: T-entry: work in process inventory ← manufacturing overhead (using _estimated_ values from POHR, not _actual_ values) <!--SR:!2027-04-22,567,337!2026-12-27,507,337-->
         - job cost / transactions / finishing a good ::@:: T-entry: finished goods inventory ← work in process inventory <!--SR:!fsrs,2032-04-08T00:00:00.000Z,2041,2040.98347043,1,2,10,0,0,2026-09-06T00:00:00.000Z!fsrs,2032-03-30T00:00:00.000Z,2033,2032.87519052,1,2,10,0,0,2026-09-05T00:00:00.000Z-->
@@ -194,7 +194,7 @@ The content is in teaching order.
         - process costing / weighted average vs. first-in, first-out (FIFO) / units ::@:: (former) Starting inventory and units started during the period are combined. <p> (latter) Starting inventory and units started during the period are separated. <!--SR:!2026-10-01,462,382!2026-09-24,464,382-->
     - process costing / weighted average
         - process costing / weighted average / advantages ::@:: It is simpler, thus more often used in the real world. <!--SR:!2026-09-24,457,382!2026-09-23,463,382-->
-        - process costing / weighted average / disadvantages ::@:: May not be as accurate, especially for companies with significant inventories. <!--SR:!2029-05-03,1208,382!2026-09-06,437,382-->
+        - process costing / weighted average / disadvantages ::@:: May not be as accurate, especially for companies with significant inventories. <!--SR:!2029-05-03,1208,382!fsrs,2032-04-09T00:00:00.000Z,2041,2040.98347043,1,2,10,0,0,2026-09-07T00:00:00.000Z-->
     - process costing / first-in, first-out (FIFO)
         - process costing / first-in, first-out (FIFO) / advantages ::@:: More accurate (closely match the actual/physical cost flow), especially for companies with significant inventories. <!--SR:!2026-09-22,453,388!2026-10-13,475,388-->
         - process costing / first-in, first-out (FIFO) / disadvantages ::@:: It is more complicated, thus rarely used in the real world. <!--SR:!fsrs,2032-01-09T00:00:00.000Z,1968,1967.83883924,1,2,10,0,0,2026-08-20T00:00:00.000Z!2030-09-26,1608,388-->

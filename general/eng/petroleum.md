@@ -109,7 +109,7 @@ return chain.from_iterable([r.value for r in results])
 - [fuel oil](fuel%20oil.md):@:205 to 290 °C <!--SR:!2026-12-03,303,170-->
 - [diesel fuel](diesel%20fuel.md):@:260 to 315 °C <!--SR:!2026-11-17,345,170-->
 - [paraffin wax](paraffin%20wax.md):@:370 °C or above <!--SR:!fsrs,2029-03-21T00:00:00.000Z,939,939.46745463,6.78326021,2,10,0,0,2026-08-25T00:00:00.000Z-->
-- [bitumen](bitumen.md):@:500 °C or above <!--SR:!2026-09-06,608,294-->
+- [bitumen](bitumen.md):@:500 °C or above <!--SR:!fsrs,2032-06-25T00:00:00.000Z,2118,2117.50528625,1.78018496,2,10,0,0,2026-09-07T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

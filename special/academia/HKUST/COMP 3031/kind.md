@@ -133,7 +133,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 - `Functor[F[_]]` ::@:: defines `map: (F[A], A => B) => F[B]`. <!--SR:!2027-01-01,277,330!2026-11-15,245,330-->
 - `Applicative[F[_]]` ::@:: extends `Functor` and adds `pure: A => F[A]` and `ap: (F[A], F[A => B]) => F[B]`; it derives `map` from them. <!--SR:!fsrs,2027-07-28T00:00:00.000Z,361,361.05065372,3.99122837,2,8,0,0,2026-08-01T00:00:00.000Z!2026-11-23,251,330-->
-- `Monad[F[_]]` ::@:: extends `Applicative` and adds `flatMap: (F[A], A => F[B]) => F[B]`. <!--SR:!2026-09-06,174,310!2026-11-10,241,330-->
+- `Monad[F[_]]` ::@:: extends `Applicative` and adds `flatMap: (F[A], A => F[B]) => F[B]`. <!--SR:!fsrs,2028-09-28T00:00:00.000Z,752,752.450798,1,2,8,0,0,2026-09-07T00:00:00.000Z!2026-11-10,241,330-->
 
 > [!example] __`Functor` trait__
 >

@@ -16,7 +16,7 @@ tags:
 
 # IFRS 2
 
-{@{__IFRS 2__}@} is {@{an [international financial reporting standard](International%20Financial%20Reporting%20Standards.md) issued in February 2004<sup>[\[1\]](#^ref-1)</sup> by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) \(IASB\)}@} to provide {@{guidance on the accounting for [share based payments](stock%20option%20expensing.md#share%20based%20payments%20(stock%20appreciation%20rights))}@}. <!--SR:!2026-10-13,282,330!2026-09-26,265,330!2026-09-06,245,330-->
+{@{__IFRS 2__}@} is {@{an [international financial reporting standard](International%20Financial%20Reporting%20Standards.md) issued in February 2004<sup>[\[1\]](#^ref-1)</sup> by the [International Accounting Standards Board](International%20Accounting%20Standards%20Board.md) \(IASB\)}@} to provide {@{guidance on the accounting for [share based payments](stock%20option%20expensing.md#share%20based%20payments%20(stock%20appreciation%20rights))}@}. <!--SR:!2026-10-13,282,330!2026-09-26,265,330!fsrs,2029-08-30T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 {@{Its purpose}@} is to reflect {@{the cost of awarding equity or equity based incentives to employees or other parties}@} {@{in exchange for goods or services}@}.<sup>[\[2\]](#^ref-2)</sup> <!--SR:!fsrs,2029-07-17T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-29T00:00:00.000Z!fsrs,2028-07-11T01:35:21.359Z,764,763.71011863,1,2,8,0,0,2026-06-08T01:35:21.359Z!2026-10-28,290,330-->
 

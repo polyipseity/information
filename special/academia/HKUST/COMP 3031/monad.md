@@ -18,7 +18,7 @@ tags:
 
 - HKUST COMP 3031
 
-In {@{functional programming}@}, {@{many data structures}@} that provide {@{`unit` \(also called `return`\) and `flatMap` \(also called `bind`\) operations}@} fall under {@{a common algebraic abstraction known as a _monad_}@}. <!--SR:!2026-10-28,284,330!2026-10-12,271,330!2026-09-06,235,330!2026-10-27,283,330-->
+In {@{functional programming}@}, {@{many data structures}@} that provide {@{`unit` \(also called `return`\) and `flatMap` \(also called `bind`\) operations}@} fall under {@{a common algebraic abstraction known as a _monad_}@}. <!--SR:!2026-10-28,284,330!2026-10-12,271,330!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-10-27,283,330-->
 
 {@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`-comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}. <!--SR:!2026-11-04,290,330!2026-11-05,291,330!2026-09-12,241,330!2026-11-07,293,330!2026-10-31,287,330!2026-10-11,270,330!2026-10-08,267,330!2026-09-17,246,330!2026-11-02,289,330!2026-10-09,268,330-->
 
@@ -128,7 +128,7 @@ and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,
 > ```
 <!--SR:!2026-10-15,274,330!2026-10-13,272,330-->
 
-The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!2026-09-26,255,330!2026-10-03,262,330!2026-11-06,292,330!2026-09-25,254,330!2026-10-13,272,330!2026-09-06,235,330-->
+The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does for collections}@}; {@{`for x <- g yield f(x)`}@} becomes {@{`g.map(f)`}@}, while {@{nested generators}@} translate into {@{successive calls to `flatMap`}@}. <!--SR:!2026-09-26,255,330!2026-10-03,262,330!2026-11-06,292,330!2026-09-25,254,330!2026-10-13,272,330!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 #### generator monad recursion
 

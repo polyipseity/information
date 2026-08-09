@@ -176,7 +176,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{An association class is attached to an association. Each combination of instances of both classes can have _at most one_ link \(instance of the association\). When the application domain requires this to be _not_ the case, then a new class instead of an association class should be used.}@} <!--SR:!2026-09-06,245,338-->
+> - solution: {@{An association class is attached to an association. Each combination of instances of both classes can have _at most one_ link \(instance of the association\). When the application domain requires this to be _not_ the case, then a new class instead of an association class should be used.}@} <!--SR:!fsrs,2029-09-29T00:00:00.000Z,1118,1117.55099027,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 ---
 

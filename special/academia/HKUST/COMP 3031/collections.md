@@ -41,7 +41,7 @@ In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@}
 > ```
 <!--SR:!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-08,266,330-->
 
-Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their contents cannot be altered}@}—and they are inherently {@{__recursive__}@}; {@{each element is prepended}@} to a list by storing {@{the element and the remaining of the list as another list}@}. Lists are also {@{__homogeneous__}@}: all elements must {@{share the same type _T_}@}, so {@{a list of integers}@} is written {@{`List[Int]`}@} and its type annotation can be {@{omitted when inferred}@}. <!--SR:!2026-10-10,268,330!2026-11-03,290,330!2026-10-29,285,330!2026-09-26,254,330!2026-09-20,248,330!2026-09-06,234,330!2026-10-04,262,330!2026-10-11,269,330!2026-10-08,266,330!2026-10-19,277,330!2026-11-07,293,330-->
+Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their contents cannot be altered}@}—and they are inherently {@{__recursive__}@}; {@{each element is prepended}@} to a list by storing {@{the element and the remaining of the list as another list}@}. Lists are also {@{__homogeneous__}@}: all elements must {@{share the same type _T_}@}, so {@{a list of integers}@} is written {@{`List[Int]`}@} and its type annotation can be {@{omitted when inferred}@}. <!--SR:!2026-10-10,268,330!2026-11-03,290,330!2026-10-29,285,330!2026-09-26,254,330!2026-09-20,248,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-10-04,262,330!2026-10-11,269,330!2026-10-08,266,330!2026-10-19,277,330!2026-11-07,293,330-->
 
 {@{Every list}@} in Scala is {@{built from two primitives}@}. {@{The empty list}@} is denoted by {@{the constant `Nil`}@}, while {@{the cons operator `::`}@} constructs {@{a new list by prepending an element to an existing one (`x :: xs`)}@}. Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}: <!--SR:!2026-10-13,271,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-09,267,330!2026-09-25,253,330!2026-10-09,267,330!2026-10-23,281,330!2026-10-22,280,330!2026-09-27,255,330!2026-09-12,240,330!2026-11-07,293,330-->
 
@@ -53,7 +53,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 > val nums = 1 :: (2 :: (3 :: (4 :: Nil)))
 > val nums = 1 ::  2 ::  3 ::  4 :: Nil     // Equivalent
 > ```
-<!--SR:!2026-11-08,294,330!2026-11-06,292,330!2026-09-29,257,330!2026-09-06,234,330-->
+<!--SR:!2026-11-08,294,330!2026-11-06,292,330!2026-09-29,257,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 {@{This right associativity}@} means {@{`A :: B :: C`}@} is parsed as {@{`A :: (B :: C)`}@}. <!--SR:!2026-10-11,269,330!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-21,279,330-->
 
@@ -71,7 +71,7 @@ Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered co
 
 ### list covariance
 
-Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` is a subtype of `List[B]`}@} whenever {@{`A` is a subtype of `B`}@}. Covariance is denoted by {@{the `+` symbol in the type parameter}@}: {@{`List[+T]`}@}. <!--SR:!2026-09-26,254,330!2026-11-06,292,330!2026-10-20,278,330!2026-10-01,259,330!2026-09-06,234,330!2026-10-16,274,330-->
+Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` is a subtype of `List[B]`}@} whenever {@{`A` is a subtype of `B`}@}. Covariance is denoted by {@{the `+` symbol in the type parameter}@}: {@{`List[+T]`}@}. <!--SR:!2026-09-26,254,330!2026-11-06,292,330!2026-10-20,278,330!2026-10-01,259,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-10-16,274,330-->
 
 By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}. <!--SR:!2026-10-26,282,330!2026-09-21,249,330!2026-10-18,276,330!2026-10-11,269,330-->
 
@@ -117,7 +117,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!2026-10-08,266,330!2026-11-04,290,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,275,330-->
 
-{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!2026-09-20,248,330!2026-11-05,291,330!2026-11-08,294,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-12,270,330!2026-11-05,291,330!2026-09-06,234,330-->
+{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!2026-09-20,248,330!2026-11-05,291,330!2026-11-08,294,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-12,270,330!2026-11-05,291,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 
 > [!example] __list decomposition__
 >
@@ -478,7 +478,7 @@ The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, v
 - `forall(p)` ::@:: Returns `true` only if every element satisfies `p`. For empty sequences it returns `true`. <!--SR:!2026-10-01,259,330!2026-09-27,255,330-->
 - `zip(ys)` ::@:: Combines two sequences into a sequence of pairs. If they do not have the same length, the result is truncated to the shorter length. <!--SR:!2026-10-23,281,330!2026-10-27,283,330-->
 - `unzip` ::@:: Splits a sequence of pairs into two separate sequences. <!--SR:!2026-10-11,269,330!2026-09-10,238,330-->
-- `flatMap(f)` ::@:: Applies a collection-valued function to each element and concatenates the results. <!--SR:!2026-10-02,260,330!2026-09-06,234,330-->
+- `flatMap(f)` ::@:: Applies a collection-valued function to each element and concatenates the results. <!--SR:!2026-10-02,260,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 - `sum`, `product` ::@:: Aggregate numeric collections. <!--SR:!2026-10-10,268,330!2026-10-26,282,330-->
 - `max`, `min` ::@:: Return the largest or smallest element (requires an implicit `Ordering`). <!--SR:!2026-09-15,243,330!2026-11-04,290,330-->
 

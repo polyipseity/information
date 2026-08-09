@@ -1041,7 +1041,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [tenuis dental click](tenuis%20dental%20click.md):@:[English](English%20language.md) _**tut**-**tut**_ \[ˈǀˈǀ\] <!--SR:!2028-12-21,1069,270-->
 - [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:[English](English%20language.md) _**tchick**_ \[ˈǁ\] <!--SR:!2026-10-20,258,210-->
 - [tenuis alveolar click](tenuis%20alveolar%20click.md):@:[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat" <!--SR:!fsrs,2026-09-25T00:00:00.000Z,91,91.47220885,9.98522837,2,7,0,0,2026-06-26T00:00:00.000Z-->
-- [tenuis bilabial click](tenuis%20bilabial%20click.md):@:[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two" <!--SR:!2026-09-06,125,150-->
+- [tenuis bilabial click](tenuis%20bilabial%20click.md):@:[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two" <!--SR:!fsrs,2027-02-11T00:00:00.000Z,157,156.8886461,9.48734342,2,8,0,0,2026-09-07T00:00:00.000Z-->
 - [tenuis palatal click](tenuis%20palatal%20click.md):@:[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth" <!--SR:!fsrs,2026-12-10T00:00:00.000Z,99,98.86945556,9.97047151,2,8,0,0,2026-09-02T00:00:00.000Z-->
 
 <!--/pytextgen-->

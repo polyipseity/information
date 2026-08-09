@@ -100,7 +100,7 @@ The content is in teaching order.
     - Scala / Scala 3: [Scala 3](Scala%203.md)
 - [programming language](../../../../general/programming%20language.md) ::@:: It is an artificial language for expressing computer programs. <!--SR:!fsrs,2029-08-17T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-08-06T00:00:00.000Z!2026-09-17,283,330-->
     - programming language / elements ::@:: primitive expressions, composition of expressions, abstraction of expressions \(giving names to expressions\) <!--SR:!fsrs,2029-10-10T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-08-22T00:00:00.000Z!fsrs,2029-12-02T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
-- [read–eval–print loop](../../../../general/read–eval–print%20loop.md) \(REPL\) ::@:: It is a simple interactive computer programming environment that takes single user inputs, executes them, and returns the result to the user; a program written in a REPL environment is executed piecewise. <!--SR:!2028-05-14,734,330!2026-09-06,275,330-->
+- [read–eval–print loop](../../../../general/read–eval–print%20loop.md) \(REPL\) ::@:: It is a simple interactive computer programming environment that takes single user inputs, executes them, and returns the result to the user; a program written in a REPL environment is executed piecewise. <!--SR:!2028-05-14,734,330!fsrs,2029-12-23T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 - Scala
     - Scala / Scala 3
         - [§ primitive types](Scala%203.md#primitive%20types): `Boolean`, `Int`, `Double`
