@@ -16,13 +16,13 @@ The tetrad formulation is a special case of a more general formulation, known as
 
 In the vielbein formalism,<sup>[\[6\]](#^ref-6)</sup> an [open cover](open%20cover.md#open%20cover) of the [spacetime](spacetime.md) manifold $M$ and a local basis for each of those open sets is chosen: a set of $n$ independent [vector fields](vector%20field.md)
 
-$e_{a}=e_{a}{}^{\mu }\partial _{\mu }$
+$$e_{a}=e_{a}{}^{\mu }\partial _{\mu }$$
 for $a=1,\ldots ,n$ that together span the $n$-dimensional [tangent bundle](tangent%20bundle.md) at each point in the set. Dually, a vielbein \(or tetrad in 4 dimensions\) determines \(and is determined by\) a dual co-vielbein \(co-tetrad\) — a set of $n$ independent [1-forms](1-form.md).
 
-$e^{a}=e^{a}{}_{\mu }dx^{\mu }$
+$$e^{a}=e^{a}{}_{\mu }dx^{\mu }$$
 such that
 
-$e^{a}(e_{b})=e^{a}{}_{\mu }e_{b}{}^{\mu }=\delta _{b}^{a}$,
+$$e^{a}(e_{b})=e^{a}{}_{\mu }e_{b}{}^{\mu }=\delta _{b}^{a},$$
 where $\delta _{b}^{a}$ is the [Kronecker delta](Kronecker%20delta.md). A vielbein is usually specified by its coefficients $e^{\mu }{}_{a}$ with respect to a coordinate basis, despite the choice of a set of \(local\) coordinates $x^{\mu }$ being unnecessary for the specification of a tetrad. Each covector is a [solder form](solder%20form.md).
 
 From the point of view of the [differential geometry](differential%20geometry.md) of [fiber bundles](fiber%20bundles.md), the n vector fields $\{e_{a}\}_{a=1\dots n}$ define a section of the [frame bundle](frame%20bundle.md)_i.e._ a [parallelization](parallelization%20(mathematics).md) of $U\subset M$ which is equivalent to an isomorphism $TU\cong U\times {\mathbb {R} ^{n} }$. Since not every manifold is parallelizable, a vielbein can generally only be chosen locally \(_i.e._ only on a [coordinate chart](coordinate%20chart.md#coordinate%20charts)<!-- markdown separator -->$U$ and not all of $M$.\)
@@ -35,25 +35,25 @@ Popular tetrad bases in general relativity include [orthonormal tetrads](frame%2
 
 The standard formalism of [differential geometry](differential%20geometry.md) \(and general relativity\) consists of using the __coordinate tetrad__ in the tetrad formalism. The coordinate tetrad is the canonical set of vectors associated with the [coordinate chart](coordinate%20chart.md#coordinate%20charts). The coordinate tetrad is commonly denoted $\{\partial _{\mu }\}$ whereas the dual cotetrad is denoted $\{dx^{\mu }\}$. These [tangent vectors](tangent%20space.md) are usually defined as [directional derivative](directional%20derivative.md) operators: given a chart ${\varphi =(\varphi ^{1},\ldots ,\varphi ^{n})}$ which maps a subset of the [manifold](manifold.md) into coordinate space $\mathbb {R} ^{n}$, and any [scalar field](scalar%20field.md)<!-- markdown separator -->$f$, the coordinate vectors are such that:
 
-$\partial _{\mu }[f]\equiv {\frac {\partial (f\circ \varphi ^{-1})}{\partial x^{\mu } } }$.
+$$\partial _{\mu }[f]\equiv {\frac {\partial (f\circ \varphi ^{-1})}{\partial x^{\mu } } }.$$
 The definition of the cotetrad uses the usual abuse of notation $dx^{\mu }=d\varphi ^{\mu }$ to define covectors \(1-forms\) on $M$. The involvement of the coordinate tetrad is not usually made explicit in the standard formalism. In the tetrad formalism, instead of writing tensor equations out fully \(including tetrad elements and [tensor products](tensor%20products.md) $\otimes$ as above\) only _components_ of the tensors are mentioned. For example, the metric is written as "$g_{ab}$". When the tetrad is unspecified this becomes a matter of specifying the type of the tensor called [abstract index notation](abstract%20index%20notation.md). It allows to easily specify contraction between tensors by repeating indices as in the Einstein summation convention.
 
 Changing tetrads is a routine operation in the standard formalism, as it is involved in every coordinate transformation \(i.e., changing from one coordinate tetrad basis to another\). Switching between multiple coordinate charts is necessary because, except in trivial cases, it is not possible for a single coordinate chart to cover the entire manifold. Changing to and between general tetrads is much similar and equally necessary \(except for [parallelizable manifolds](parallelizable%20manifold.md)\). Any [tensor](tensor.md) can locally be written in terms of this coordinate tetrad or a general \(co\)tetrad.
 
 For example, the [metric tensor](metric%20tensor.md) $\mathbf {g}$ can be expressed as:
 
-$\mathbf {g} =g_{\mu \nu }dx^{\mu }dx^{\nu }\qquad {\text{where} }~g_{\mu \nu }=\mathbf {g} (\partial _{\mu },\partial _{\nu })$.
+$$\mathbf {g} =g_{\mu \nu }dx^{\mu }dx^{\nu }\qquad {\text{where} }~g_{\mu \nu }=\mathbf {g} (\partial _{\mu },\partial _{\nu }).$$
 \(Here we use the [Einstein summation convention](Einstein%20summation%20convention.md)\). Likewise, the metric can be expressed with respect to an arbitrary \(co\)tetrad as
 
-$\mathbf {g} =g_{ab}e^{a}e^{b}\qquad {\text{where} }~g_{ab}=\mathbf {g} \left(e_{a},e_{b}\right)$.
+$$\mathbf {g} =g_{ab}e^{a}e^{b}\qquad {\text{where} }~g_{ab}=\mathbf {g} \left(e_{a},e_{b}\right).$$
 Here, we use choice of alphabet \([Latin](Latin%20alphabet.md) and [Greek](Greek%20alphabet.md)\) for the index variables to distinguish the applicable basis.
 
 We can translate from a general co-tetrad to the coordinate co-tetrad by expanding the covector $e^{a}=e^{a}{}_{\mu }dx^{\mu }$. We then get
 
-$\mathbf {g} =g_{ab}e^{a}e^{b}=g_{ab}e^{a}{}_{\mu }e^{b}{}_{\nu }dx^{\mu }dx^{\nu }=g_{\mu \nu }dx^{\mu }dx^{\nu }$
+$$\mathbf {g} =g_{ab}e^{a}e^{b}=g_{ab}e^{a}{}_{\mu }e^{b}{}_{\nu }dx^{\mu }dx^{\nu }=g_{\mu \nu }dx^{\mu }dx^{\nu }$$
 from which it follows that $g_{\mu \nu }=g_{ab}e^{a}{}_{\mu }e^{b}{}_{\nu }$. Likewise expanding $dx^{\mu }=e^{\mu }{}_{a}e^{a}$ with respect to the general tetrad, we get
 
-$\mathbf {g} =g_{\mu \nu }dx^{\mu }dx^{\nu }=g_{\mu \nu }e^{\mu }{}_{a}e^{\nu }{}_{b}e^{a}e^{b}=g_{ab}e^{a}e^{b}$
+$$\mathbf {g} =g_{\mu \nu }dx^{\mu }dx^{\nu }=g_{\mu \nu }e^{\mu }{}_{a}e^{\nu }{}_{b}e^{a}e^{b}=g_{ab}e^{a}e^{b}$$
 which shows that $g_{ab}=g_{\mu \nu }e^{\mu }{}_{a}e^{\nu }{}_{b}$.
 
 ### manipulation of indices
@@ -65,36 +65,36 @@ For example, the [Riemann curvature tensor](Riemann%20curvature%20tensor.md) is 
 $R(X,Y)=\left(\nabla _{X}\nabla _{Y}-\nabla _{Y}\nabla _{X}-\nabla _{[X,Y]}\right)$.
 In a coordinate tetrad this gives tensor coefficients
 
-$R_{\ \nu \sigma \tau }^{\mu }=dx^{\mu }\left((\nabla _{\sigma }\nabla _{\tau }-\nabla _{\tau }\nabla _{\sigma })\partial _{\nu }\right)$.
+$$R_{\ \nu \sigma \tau }^{\mu }=dx^{\mu }\left((\nabla _{\sigma }\nabla _{\tau }-\nabla _{\tau }\nabla _{\sigma })\partial _{\nu }\right).$$
 The naive "Greek to Latin" substitution of the latter expression
 
-$R_{\ bcd}^{a}=e^{a}\left((\nabla _{c}\nabla _{d}-\nabla _{d}\nabla _{c})e_{b}\right)\qquad {\text{(wrong!)} }$
+$$R_{\ bcd}^{a}=e^{a}\left((\nabla _{c}\nabla _{d}-\nabla _{d}\nabla _{c})e_{b}\right)\qquad {\text{(wrong!)} }$$
 is incorrect because for fixed _c_ and _d_, $\left(\nabla _{c}\nabla _{d}-\nabla _{d}\nabla _{c}\right)$ is, in general, a first order differential operator rather than a zeroth order operator which defines a tensor coefficient. Substituting a general tetrad basis in the abstract formula we find the proper definition of the curvature in abstract index notation, however:
 
-$R_{\ bcd}^{a}=e^{a}\left((\nabla _{c}\nabla _{d}-\nabla _{d}\nabla _{c}-f_{cd}{}^{e}\nabla _{e})e_{b}\right)$
+$$R_{\ bcd}^{a}=e^{a}\left((\nabla _{c}\nabla _{d}-\nabla _{d}\nabla _{c}-f_{cd}{}^{e}\nabla _{e})e_{b}\right)$$
 where $[e_{a},e_{b}]=f_{ab}{}^{c}e_{c}$. Note that the expression $\left(\nabla _{c}\nabla _{d}-\nabla _{d}\nabla _{c}-f_{cd}{}^{e}\nabla _{e}\right)$ is indeed a zeroth order operator, hence \(the \(_c__d_\)-component of\) a tensor. Since it agrees with the coordinate expression for the curvature when specialised to a coordinate tetrad it is clear, even without using the abstract definition of the curvature, that it defines the same tensor as the coordinate basis expression.
 
 ## Example: Lie groups
 
 Given a vector \(or covector\) in the tangent \(or cotangent\) manifold, the [exponential map](Exponential%20map%20(Riemannian%20geometry).md) describes the corresponding [geodesic](geodesic.md) of that tangent vector. Writing $X\in TM$, the [parallel transport](parallel%20transport.md) of a differential corresponds to
 
-$e^{-X}de^{X}=dX-{\frac {1}{2!} }\left[X,dX\right]+{\frac {1}{3!} }[X,[X,dX]]-{\frac {1}{4!} }[X,[X,[X,dX]]]+\cdots$
+$$e^{-X}de^{X}=dX-{\frac {1}{2!} }\left[X,dX\right]+{\frac {1}{3!} }[X,[X,dX]]-{\frac {1}{4!} }[X,[X,[X,dX]]]+\cdots$$
 The above can be readily verified simply by taking $X$ to be a matrix.
 
 For the special case of a [Lie algebra](Lie%20algebra.md), the $X$ can be taken to be an element of the algebra, the exponential is the [exponential map of a Lie group](Exponential%20map%20(Lie%20group).md), and group elements correspond to the geodesics of the tangent vector. Choosing a basis $e_{i}$ for the Lie algebra and writing $X=X^{i}e_{i}$ for some functions $X^{i}$, the commutators can be explicitly written out. One readily computes that
 
-$e^{-X}de^{X}=dX^{i}e_{i}-{\frac {1}{2!} }X^{i}dX^{j}{f_{ij} }^{k}e_{k}+{\frac {1}{3!} }X^{i}X^{j}dX^{k}{f_{jk} }^{l}{f_{il} }^{m}e_{m}-\cdots$
+$$e^{-X}de^{X}=dX^{i}e_{i}-{\frac {1}{2!} }X^{i}dX^{j}{f_{ij} }^{k}e_{k}+{\frac {1}{3!} }X^{i}X^{j}dX^{k}{f_{jk} }^{l}{f_{il} }^{m}e_{m}-\cdots$$
 for $[e_{i},e_{j}]={f_{ij} }^{k}e_{k}$ the [structure constants](structure%20constant.md) of the Lie algebra. The series can be written more compactly as
 
-$e^{-X}de^{X}=e_{i}{W^{i} }_{j}dX^{j}$
+$$e^{-X}de^{X}=e_{i}{W^{i} }_{j}dX^{j}$$
 with the infinite series
 
-$W=\sum _{n=0}^{\infty }{\frac {(-1)^{n}M^{n} }{(n+1)!} }=(I-e^{-M})M^{-1}$.
+$$W=\sum _{n=0}^{\infty }{\frac {(-1)^{n}M^{n} }{(n+1)!} }=(I-e^{-M})M^{-1}.$$
 Here, $M$ is a matrix whose matrix elements are ${M_{j} }^{k}=X^{i}{f_{ij} }^{k}$. The matrix $W$ is then the vielbein; it expresses the differential $dX^{j}$ in terms of the "flat coordinates" \(orthonormal, at that\) $e_{i}$.
 
 Given some map $N\to G$ from some manifold $N$ to some Lie group $G$, the metric tensor on the manifold $N$ becomes the pullback of the metric tensor $B_{mn}$ on the Lie group $G$:
 
-$g_{ij}={W_{i} }^{m}B_{mn}{W^{n} }_{j}$
+$$g_{ij}={W_{i} }^{m}B_{mn}{W^{n} }_{j}$$
 The metric tensor $B_{mn}$ on the Lie group is the Cartan metric, aka the [Killing form](killing%20form.md). Note that, as a matrix, the second W is the transpose. For $N$ a \(pseudo-\)[Riemannian manifold](Riemannian%20manifold.md), the metric is a \(pseudo-\)[Riemannian metric](Riemannian%20metric.md#Riemannian%20metrics%20and%20Riemannian%20manifolds). The above generalizes to the case of [symmetric spaces](symmetric%20space.md).<sup>[\[7\]](#^ref-7)</sup> These vielbeins are used to perform calculations in [sigma models](sigma%20model.md), of which the [supergravity theories](supergravity.md) are a special case.<sup>[\[8\]](#^ref-8)</sup>
 
 ## see also
