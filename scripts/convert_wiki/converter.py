@@ -742,19 +742,36 @@ class WikiHtmlConverter:
         return alt_text.rstrip() + suffix
 
     @staticmethod
+    def _math_sibling_container(math_ele: Tag) -> Tag | None:
+        """Return the element whose substantive children drive inline/block classification."""
+        outer_span = WikiHtmlConverter._math_outer_span(math_ele)
+        if outer_span is not None:
+            parent = outer_span.parent
+            return parent if isinstance(parent, Tag) else None
+        parent: PageElement | None = math_ele.parent
+        if not isinstance(parent, Tag):
+            return None
+        for _ in range(2):
+            parent = parent.parent
+            if not isinstance(parent, Tag):
+                return None
+        return parent
+
+    @staticmethod
     def _is_inline_math(ele: Tag, *, alt_text: str = "") -> bool:
         """Determine if a <math> element should use inline $ delimiters."""
         parent = ele.parent
         if not parent or "inline" not in str(parent.get("class", "")):
             return False
         outer_span = WikiHtmlConverter._math_outer_span(ele)
-        if outer_span is None:
-            return False
-        container = outer_span.parent
+        container = WikiHtmlConverter._math_sibling_container(ele)
         if not isinstance(container, Tag):
             return False
-        if WikiHtmlConverter._qualifies_for_external_punct_absorption(
-            container, outer_span, alt_text
+        if (
+            outer_span is not None
+            and WikiHtmlConverter._qualifies_for_external_punct_absorption(
+                container, outer_span, alt_text
+            )
         ):
             return False
         return WikiHtmlConverter._substantive_child_count(container) > 1
