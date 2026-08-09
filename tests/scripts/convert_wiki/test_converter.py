@@ -263,6 +263,18 @@ class TestLinkHandling:
         assert "[current](" in result
 
     @pytest.mark.anyio
+    async def test_skips_parsoid_link_metadata(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Parsoid ``<link>`` metadata must not invoke ``_handle_link``."""
+        html = (
+            '<p>before<link rel="mw:PageProp/Category" href="./Category:Foo"/>after</p>'
+        )
+        result = await _convert(converter, html)
+        assert "beforeafter" in result
+        assert "Category:Foo" not in result
+
+    @pytest.mark.anyio
     async def test_link_new_page(self, converter: WikiHtmlConverter) -> None:
         """``new`` class indicates page does not exist; suffix should be stripped."""
         html = '<a class="new" title="Missing Page (page does not exist)" href="/wiki/Missing_Page">missing</a>'

@@ -280,6 +280,12 @@ class WikiHtmlConverter:
         list_stack: tuple[int, ...],
     ) -> _HandlerConfig | None:
         """Dispatch to a handler for the given element."""
+        # Parsoid emits <link> metadata (categories, templatestyles, etc.).
+        # Must precede the generic ``_handle_{tag}`` lookup, which would
+        # otherwise match ``_handle_link`` and return an unawaited coroutine.
+        if ele.name == "link":
+            return _HandlerConfig()
+
         if header_match := _HEADER_REGEX.match(ele.name):
             return self._handle_header(ele, classes, header_match)
 
