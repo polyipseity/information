@@ -117,7 +117,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{3, since most procurements involve instantaneous transfer of cash}@} <!--SR:!2026-09-05,538,310-->
+> - solution: {@{3, since most procurements involve instantaneous transfer of cash}@} <!--SR:!fsrs,2032-03-14T00:00:00.000Z,2016,2015.83279071,1,2,10,0,0,2026-09-06T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

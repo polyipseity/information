@@ -182,7 +182,7 @@ return (
 > hydroxides
 >
 > - general solubility: {@{<span style="color: red;">insoluble</span>}@}
-> - exception(s): {@{group I, group II (except [Be(OH)<sub>2</sub>](beryllium%20hydroxide.md) and [Mg(OH)<sub>2</sub>](magnesium%20hydroxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds ([Ca(OH)<sub>2</sub>](calcium%20hydroxide.md) is slightly soluble)}@} <!--SR:!2029-03-29,1451,230!2026-09-05,451,210-->
+> - exception(s): {@{group I, group II (except [Be(OH)<sub>2</sub>](beryllium%20hydroxide.md) and [Mg(OH)<sub>2</sub>](magnesium%20hydroxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds ([Ca(OH)<sub>2</sub>](calcium%20hydroxide.md) is slightly soluble)}@} <!--SR:!2029-03-29,1451,230!fsrs,2028-11-17T00:00:00.000Z,803,802.67117702,6.98822837,2,10,0,0,2026-09-06T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -371,7 +371,7 @@ return await memorize_map(
 - [lead(II) chloride](lead(II)%20chloride.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-11-22,727,278-->
 - [lead(II) iodide](lead(II)%20iodide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!fsrs,2027-04-16T14:27:15.457Z,308,307.82991074,8.98461332,2,8,0,0,2026-06-12T14:27:15.457Z-->
 - [lead(II) sulfate](lead(II)%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!fsrs,2027-02-25T00:00:00.000Z,251,251.45444801,8.48672837,2,8,0,0,2026-06-19T00:00:00.000Z-->
-- [lithium phosphate](lithium%20phosphate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-09-05,120,158-->
+- [lithium phosphate](lithium%20phosphate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!fsrs,2027-03-05T00:00:00.000Z,180,180.05037607,8.93627837,2,8,0,0,2026-09-06T00:00:00.000Z-->
 - [mercury(I) bromide](mercury(I)%20bromide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-02-26,336,298-->
 - [mercury(I) chloride](mercury(I)%20chloride.md):@:<span style="color: red;">insoluble</span> <!--SR:!2028-08-27,880,238-->
 - [mercury(I) iodide](mercury(I)%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-06-08,880,298-->

@@ -11,7 +11,7 @@ tags:
 
 A __supercluster__ is {@{a large group of smaller [galaxy clusters](galaxy%20cluster.md) or [galaxy groups](galaxy%20group.md)}@}; they are among {@{the largest known structures in the [universe](universe.md)}@}. A supercluster {@{unlike smaller astronomical structures, is not necessarily [gravitationally](gravity.md) bound}@}. <!--SR:!2031-11-27,2029,330!2029-01-08,1287,350!2027-12-04,961,339-->
 
-The [Milky Way](Milky%20Way.md) is part of {@{the [Local Group](Local%20Group.md)}@}, which is part of {@{the [Virgo Supercluster](Virgo%20Supercluster.md)}@}, which is part of {@{the [Laniakea Supercluster](Laniakea%20Supercluster.md)}@}, which is part of {@{the [Pisces–Cetus Supercluster Complex](Pisces–Cetus%20Supercluster%20Complex.md)}@}. <!--SR:!2026-09-05,557,310!2030-10-27,1681,310!2031-02-12,1757,310!2032-01-05,2061,330-->
+The [Milky Way](Milky%20Way.md) is part of {@{the [Local Group](Local%20Group.md)}@}, which is part of {@{the [Virgo Supercluster](Virgo%20Supercluster.md)}@}, which is part of {@{the [Laniakea Supercluster](Laniakea%20Supercluster.md)}@}, which is part of {@{the [Pisces–Cetus Supercluster Complex](Pisces–Cetus%20Supercluster%20Complex.md)}@}. <!--SR:!fsrs,2032-05-15T00:00:00.000Z,2078,2078.13388103,1,2,10,0,0,2026-09-06T00:00:00.000Z!2030-10-27,1681,310!2031-02-12,1757,310!2032-01-05,2061,330-->
 
 ## references
 

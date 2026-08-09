@@ -55,7 +55,7 @@ Because {@{list construction is recursive}@}, structural induction mirrors {@{th
 
 ### structural induction on trees
 
-Unlike {@{list induction}@}, which relies on {@{a single predecessor element}@}, {@{tree induction}@} proceeds from {@{the leaves upward}@}. The general principle is: <!--SR:!2026-09-05,237,330!2026-10-08,267,330!2026-10-19,277,330!2026-11-08,294,330-->
+Unlike {@{list induction}@}, which relies on {@{a single predecessor element}@}, {@{tree induction}@} proceeds from {@{the leaves upward}@}. The general principle is: <!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-08,267,330!2026-10-19,277,330!2026-11-08,294,330-->
 
 - inductive hypotheses ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$. <!--SR:!2026-09-16,248,330!2026-09-14,246,330-->
 - induction step ::@:: Then, for each constructor of internal nodes—say an internal node $n$ with sub-trees $s_{1},\dots ,s_{k}$—prove that the conjunction $\bigwedge_{i} P(s_{i})$ implies $P(n)$. <!--SR:!2026-09-19,251,330!2026-10-23,281,330-->
@@ -70,7 +70,7 @@ The proof is typically structured as {@{a base case (leaves)}@} followed by {@{a
 
 ### proving lower bounds on factorial
 
-Consider {@{the standard recursive definition of factorial}@} in Scala: <!--SR:!2026-09-05,237,330-->
+Consider {@{the standard recursive definition of factorial}@} in Scala: <!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z-->
 
 > [!example] __factorial definition__
 >
@@ -173,7 +173,7 @@ Define {@{list reversal}@} recursively: <!--SR:!2026-09-24,256,330-->
 >     }
 > }
 > ```
-<!--SR:!2026-09-05,237,330-->
+<!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z-->
 
 We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reverse.reverse = xs`}@}. <!--SR:!2026-10-09,268,330!2026-09-11,243,330-->
 
@@ -363,7 +363,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 >
 > {@{The correctness of `union`}@} can be expressed by {@{the following proposition}@}:
 >
-> For {@{any sets $x$ and $y$ and element $e$}@}, {@{$$x.\text{union}(y).\text{contains}(e) = x.\text{contains}(e)\; \lor\; y.\text{contains}(e)$$}@} <!--SR:!2026-10-14,273,330!2026-09-07,239,330!2026-10-22,280,330!2026-09-05,237,330-->
+> For {@{any sets $x$ and $y$ and element $e$}@}, {@{$$x.\text{union}(y).\text{contains}(e) = x.\text{contains}(e)\; \lor\; y.\text{contains}(e)$$}@} <!--SR:!2026-10-14,273,330!2026-09-07,239,330!2026-10-22,280,330!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z-->
 
 The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. The proof is more {@{difficult}@}. {@{The three properties above}@} only use {@{some properties of a binary tree}@} but not {@{those specific to a binary _search_ tree \(BST\)}@}. Indeed, the above three properties {@{still holds and can be proven very similarly}@} if `incl` {@{inserts `x` into both subtrees: `NonEmpty(elem, left.incl(x), right.incl(x))`}@}. The proof below, however, also {@{requires properties of a BST}@}. The trouble is that one needs to {@{additionally assume that only `Empty` and `incl` is used to build trees \(i.e. the constructor of `NonEmpty` cannot be used directly\)}@}, so that {@{any instances of `IntSet` are indeed BSTs}@}. {@{This required additional assumption}@} is {@{not very apparent}@}. <!--SR:!2026-10-13,272,330!2026-10-11,270,330!2026-10-04,266,330!2026-10-16,275,330!2026-10-13,272,330!2026-09-13,245,330!2026-11-07,293,330!2026-09-23,255,330!fsrs,2028-07-03T04:08:30.096Z,751,751.0504731,1,2,8,0,0,2026-06-13T04:08:30.096Z!2026-10-15,274,330!2026-10-19,277,330!2026-10-11,270,330!2026-09-25,257,330-->
 

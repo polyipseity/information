@@ -235,7 +235,7 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 > } yield a1
 > repeated.distinct  // removes duplicate author names
 > ```
-<!--SR:!2026-09-05,237,330!2026-10-11,271,330!2026-11-01,288,330!2026-11-02,289,330!2026-10-20,276,330-->
+<!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-11,271,330!2026-11-01,288,330!2026-11-02,289,330!2026-10-20,276,330-->
 
 {@{An alternative to avoid duplicate book results}@} is to use {@{a `Set` to store the starting collection `books`}@}. Remember {@{`for` expressions}@} {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of `repeated` is a `Set` as well}@}, which {@{automagically deduplicates}@}. In most cases, {@{a `for` expression}@} returns {@{the same type as the starting collection type}@}. <!--SR:!2026-10-19,275,330!2026-10-20,276,330!2026-09-07,239,330!2026-10-12,272,330!2026-10-15,275,330!2026-09-10,242,330!2026-09-14,246,330!2026-10-14,274,330!2026-09-13,245,330-->
 
@@ -251,4 +251,4 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 > books.flatMap(b =>
 >   b.authors.withFilter(a => a.startsWith("Bird")).map(_ => b.title))
 > ```
-<!--SR:!2026-09-05,237,330!2026-09-07,239,330!fsrs,2028-08-05T00:00:00.000Z,760,759.95962134,1,2,8,0,0,2026-07-07T00:00:00.000Z-->
+<!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-09-07,239,330!fsrs,2028-08-05T00:00:00.000Z,760,759.95962134,1,2,8,0,0,2026-07-07T00:00:00.000Z-->

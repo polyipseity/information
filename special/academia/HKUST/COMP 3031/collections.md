@@ -43,7 +43,7 @@ In Scala {@{a __list__}@} is {@{the canonical immutable linear data structure}@}
 
 Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their contents cannot be altered}@}—and they are inherently {@{__recursive__}@}; {@{each element is prepended}@} to a list by storing {@{the element and the remaining of the list as another list}@}. Lists are also {@{__homogeneous__}@}: all elements must {@{share the same type _T_}@}, so {@{a list of integers}@} is written {@{`List[Int]`}@} and its type annotation can be {@{omitted when inferred}@}. <!--SR:!2026-10-10,268,330!2026-11-03,290,330!2026-10-29,285,330!2026-09-26,254,330!2026-09-20,248,330!2026-09-06,234,330!2026-10-04,262,330!2026-10-11,269,330!2026-10-08,266,330!2026-10-19,277,330!2026-11-07,293,330-->
 
-{@{Every list}@} in Scala is {@{built from two primitives}@}. {@{The empty list}@} is denoted by {@{the constant `Nil`}@}, while {@{the cons operator `::`}@} constructs {@{a new list by prepending an element to an existing one (`x :: xs`)}@}. Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}: <!--SR:!2026-10-13,271,330!2026-09-05,233,330!2026-10-09,267,330!2026-09-25,253,330!2026-10-09,267,330!2026-10-23,281,330!2026-10-22,280,330!2026-09-27,255,330!2026-09-12,240,330!2026-11-07,293,330-->
+{@{Every list}@} in Scala is {@{built from two primitives}@}. {@{The empty list}@} is denoted by {@{the constant `Nil`}@}, while {@{the cons operator `::`}@} constructs {@{a new list by prepending an element to an existing one (`x :: xs`)}@}. Because {@{operators ending with a colon}@} {@{associate to the right}@}, {@{a sequence of cons operations}@} can be {@{written without parentheses}@}: <!--SR:!2026-10-13,271,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-09,267,330!2026-09-25,253,330!2026-10-09,267,330!2026-10-23,281,330!2026-10-22,280,330!2026-09-27,255,330!2026-09-12,240,330!2026-11-07,293,330-->
 
 > [!example] __operator associativity__
 >
@@ -65,7 +65,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 {@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}. <!--SR:!2026-09-24,252,330!2026-09-19,247,330!fsrs,2028-11-16T00:00:00.000Z,838,838.20060054,1,2,9,0,0,2026-08-01T00:00:00.000Z!2026-10-10,268,330!2026-10-28,284,330-->
 
-Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-10-31,287,330!2026-09-19,247,330!2026-10-08,266,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-08,266,330!2026-09-17,245,330!2026-10-23,281,330!2026-10-13,271,330!2026-10-04,262,330!2026-09-07,235,330!2026-09-25,253,330!2026-09-05,233,330!2026-10-05,263,330!2026-09-12,240,330!2026-10-29,285,330!2026-10-27,283,330-->
+Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-10-31,287,330!2026-09-19,247,330!2026-10-08,266,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-08,266,330!2026-09-17,245,330!2026-10-23,281,330!2026-10-13,271,330!2026-10-04,262,330!2026-09-07,235,330!2026-09-25,253,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-05,263,330!2026-09-12,240,330!2026-10-29,285,330!2026-10-27,283,330-->
 
 Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}. <!--SR:!2026-09-27,255,330!2026-09-23,251,330!2026-10-13,271,330!2026-09-30,258,330-->
 
@@ -117,7 +117,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!2026-10-08,266,330!2026-11-04,290,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,275,330-->
 
-{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!2026-09-20,248,330!2026-11-05,291,330!2026-11-08,294,330!2026-09-05,233,330!2026-10-12,270,330!2026-11-05,291,330!2026-09-06,234,330-->
+{@{Decomposition}@} is equally {@{concise}@}. {@{The head of a list}@} is accessed by {@{`.head` \(the first element\)}@}, {@{the tail by `.tail` \(a list of the remaining elements\)}@}, and {@{pattern matching}@} can be used to {@{deconstruct lists directly}@}: <!--SR:!2026-09-20,248,330!2026-11-05,291,330!2026-11-08,294,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-12,270,330!2026-11-05,291,330!2026-09-06,234,330-->
 
 > [!example] __list decomposition__
 >
@@ -177,7 +177,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 >     case x :: xs1   => x :: xs1 ::: ys
 >   }
 > ```
-<!--SR:!2026-09-14,242,330!2026-09-05,233,330!2026-10-21,279,330-->
+<!--SR:!2026-09-14,242,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-21,279,330-->
 
 {@{Reversal}@} can be _naively_ written by {@{recursively reversing the tail and appending the head}@}: <!--SR:!2026-10-10,268,330!2026-09-21,249,330-->
 
@@ -504,7 +504,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 >   xs.zip(ys).map(_ * _).sum
 > ```
 >
-> Here {@{`zip`}@} produces {@{a sequence of pairs}@}; {@{`_ * _`}@} is {@{shorthand for `(x, y) => x * y`}@}. <!--SR:!2026-09-23,251,330!2026-10-28,284,330!2026-10-02,260,330!2026-10-18,276,330!2026-09-05,233,330!2026-10-18,276,330!2026-10-29,285,330-->
+> Here {@{`zip`}@} produces {@{a sequence of pairs}@}; {@{`_ * _`}@} is {@{shorthand for `(x, y) => x * y`}@}. <!--SR:!2026-09-23,251,330!2026-10-28,284,330!2026-10-02,260,330!2026-10-18,276,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-18,276,330!2026-10-29,285,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -593,7 +593,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > ```
 <!--SR:!2026-11-01,288,330!2026-10-14,272,330-->
 
-{@{Grouping \(`groupBy`\)}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}: <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-05,233,330!2026-09-11,239,330-->
+{@{Grouping \(`groupBy`\)}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}: <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-09-11,239,330-->
 
 > [!example] __`groupBy` examples__
 >
