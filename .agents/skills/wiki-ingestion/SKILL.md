@@ -340,9 +340,9 @@ capitalisation like `Fourier...` → `fourier...`), and leaves mixed-case names 
 
 ### Where `_fix_name_maybe` is called
 
-| Call site                      | `replace_underscores` | Input                             |
-| ------------------------------ | --------------------- | --------------------------------- |
-| `_handle_header`               | `False`               | Section header text               |
+| Call site                        | `replace_underscores` | Input                             |
+| -------------------------------- | --------------------- | --------------------------------- |
+| `_handle_header`                 | `False`               | Section header text               |
 | `_handle_anchor` — `title` param | `True`                | Link display text / page title    |
 | `_handle_anchor` — `to` param    | `True`                | Redirect-resolved target filename |
 | `_handle_anchor` — `to_fragment` | `True`                | `#fragment` part of link          |
