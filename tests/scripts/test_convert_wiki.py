@@ -1015,6 +1015,7 @@ class TestExternalMathPunctuationPipeline:
 
     @staticmethod
     def _inline_math_span(alttext: str) -> str:
+        """Build an inline-math HTML span containing the given alt text."""
         return (
             '<span class="mwe-math-element mwe-math-element-inline">'
             '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'

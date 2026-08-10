@@ -145,6 +145,7 @@ class TestFindChildExact:
         original_exists = AnyioPath.exists
 
         async def fake_exists(self: AnyioPath) -> bool:
+            """Return True for case-insensitive matches of ``exponential map.md``."""
             if self.name.lower() == "exponential map.md":
                 return True
             return await original_exists(self)
