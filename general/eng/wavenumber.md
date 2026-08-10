@@ -25,7 +25,7 @@ tags:
 
 ## definition
 
-In {@{most [chemistry](chemistry.md) fields and [spectroscopy](spectroscopy.md)}@}, {@{wavenumber}@} is defined as {@{the number of [wavelengths](wavelength.md) per unit distance, typically in inverse [centimeters](centimetre.md) (cm<sup>-1</sup>)}@}. It is sometimes called {@{__linear wavenumber__ (symbol $\tilde \nu$) or __spectroscopic wavenumber__}@}: <!--SR:!fsrs,2033-06-03T00:00:00.000Z,2470,2469.51026633,1,2,10,0,0,2026-08-29T00:00:00.000Z-->
+In {@{most [chemistry](chemistry.md) fields and [spectroscopy](spectroscopy.md)}@}, {@{wavenumber}@} is defined as {@{the number of [wavelengths](wavelength.md) per unit distance, typically in inverse [centimeters](centimetre.md) (cm<sup>-1</sup>)}@}. It is sometimes called {@{__linear wavenumber__ (symbol $\tilde \nu$) or __spectroscopic wavenumber__}@}: <!--SR:!fsrs,2033-06-03T00:00:00.000Z,2470,2469.51026633,1,2,10,0,0,2026-08-29T00:00:00.000Z!fsrs,2026-08-17T23:27:06.679Z,8,8.2956,1,2,1,0,0,2026-08-09T23:27:06.679Z!fsrs,2026-08-17T23:17:16.060Z,8,8.2956,1,2,1,0,0,2026-08-09T23:17:16.060Z!fsrs,2026-08-17T23:27:04.580Z,8,8.2956,1,2,1,0,0,2026-08-09T23:27:04.580Z-->
 
 > {@{__(linear) wavenumber__}@}
 >
@@ -33,7 +33,7 @@ In {@{most [chemistry](chemistry.md) fields and [spectroscopy](spectroscopy.md)}
 >
 > where
 >
-> - {@{$\lambda$}@} is {@{[wavelength](wavelength.md), typically in [centimeters](centimetre.md) \(cm\)}@} <!--SR:!2027-04-30,927,330!2027-12-08,1128,350!2027-04-04,397,365-->
+> - {@{$\lambda$}@} is {@{[wavelength](wavelength.md), typically in [centimeters](centimetre.md) \(cm\)}@} <!--SR:!2027-04-30,927,330!2027-12-08,1128,350!2027-04-04,397,365!fsrs,2026-08-17T23:27:05.698Z,8,8.2956,1,2,1,0,0,2026-08-09T23:27:05.698Z-->
 
 In {@{[theoretical physics](theoretical%20physics.md)}@}, {@{wavenumber}@} is defined as {@{the number of [radians](radian.md) per unit distance}@}. It is sometimes called {@{__angular wavenumber__ (symbol $k$)}@}: <!--SR:!2031-09-20,2125,330!2027-05-09,400,372!2027-03-02,345,372!2027-04-07,374,372-->
 

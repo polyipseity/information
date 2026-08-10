@@ -29,9 +29,9 @@ Examples include {@{a table leg pinned by a single screw only, joints of a truss
 
 ### fixed support
 
-{@{A fixed support}@} prevents {@{translation and rotation in any direction}@}. Its reaction forces are {@{a single linear force in any direction and a [torque](torque.md)}@}. <!--SR:!2033-06-18,2579,350!2032-05-01,2179,330-->
+{@{A fixed support}@} prevents {@{translation and rotation in any direction}@}. Its reaction forces are {@{a single linear force in any direction and a [torque](torque.md)}@}. <!--SR:!2033-06-18,2579,350!2032-05-01,2179,330!fsrs,2026-08-17T23:58:16.822Z,8,8.2956,1,2,1,0,0,2026-08-09T23:58:16.822Z-->
 
-{@{A fixed support}@} is {@{usually not drawn specifically}@} and represented by {@{being connected to a fixed wall or ground}@}. <!--SR:!fsrs,2032-02-24T00:00:00.000Z,2042,2042.09530468,1,2,10,0,0,2026-07-23T00:00:00.000Z-->
+{@{A fixed support}@} is {@{usually not drawn specifically}@} and represented by {@{being connected to a fixed wall or ground}@}. <!--SR:!fsrs,2032-02-24T00:00:00.000Z,2042,2042.09530468,1,2,10,0,0,2026-07-23T00:00:00.000Z!fsrs,2026-08-17T23:58:13.849Z,8,8.2956,1,2,1,0,0,2026-08-09T23:58:13.849Z!fsrs,2026-08-17T23:58:16.039Z,8,8.2956,1,2,1,0,0,2026-08-09T23:58:16.039Z-->
 
 Examples include {@{a computer monitor with a single non-rotatable support, fixed supports under a bridge}@}. <!--SR:!2031-09-15,2033,330-->
 

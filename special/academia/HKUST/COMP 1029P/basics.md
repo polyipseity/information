@@ -227,6 +227,6 @@ To assign a value or the result of an expression to a variable, use {@{`=`}@}: <
 variableName = 1 + 2
 ```
 
-One does not need to {@{declare the variable and its type}@} before {@{assigning to it}@}. <!--SR:!2027-03-21,858,330--> Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}.
+One does not need to {@{declare the variable and its type}@} before {@{assigning to it}@}.  Reassigning the variable (i.e. {@{replacing the variable value}@}) uses {@{the same syntax as above}@}. To {@{use the value of a variable}@}, {@{simply write the variable name}@}. <!--SR:!2027-03-21,858,330!fsrs,2026-08-18T01:50:18.189Z,8,8.2956,1,2,1,0,0,2026-08-10T01:50:18.189Z!fsrs,2026-08-18T01:50:15.351Z,8,8.2956,1,2,1,0,0,2026-08-10T01:50:15.351Z!fsrs,2026-08-18T01:50:16.252Z,8,8.2956,1,2,1,0,0,2026-08-10T01:50:16.252Z!fsrs,2026-08-18T01:50:17.613Z,8,8.2956,1,2,1,0,0,2026-08-10T01:50:17.613Z!fsrs,2026-08-18T01:50:16.950Z,8,8.2956,1,2,1,0,0,2026-08-10T01:50:16.950Z-->
 
 Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some characters like spaces \(but underscores `_` are okay\), and cannot begin with some characters like numbers}@}.  Also, while allowed, it is recommended to {@{not use builtin names, e.g. `print`}@}, as we will {@{no longer be able to use those builtin functions of variables later \(replaced by us\)}@}. <!--SR:!2026-12-28,802,330!2028-04-05,746,422!2028-03-09,724,422!2028-04-18,757,422-->

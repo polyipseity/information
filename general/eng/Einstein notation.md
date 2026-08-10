@@ -65,7 +65,7 @@ However, if {@{one changes coordinates}@}, {@{the way that coefficients change}@
 
 In the above example, {@{vectors}@} are represented as {@{_n_ × 1 [matrices](matrix%20(mathematics).md) \(column vectors\)}@}, while {@{covectors are represented as 1 × _n_ matrices \(row covectors\)}@}. <!--SR:!2026-10-07,276,330!fsrs,2029-09-28T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-29,268,330-->
 
-When using {@{the column vector convention}@}: (annotation: {@{column is vector, row is covector}@}) <!--SR:!fsrs,2029-06-15T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-08-09T00:00:00.000Z-->
+When using {@{the column vector convention}@}: (annotation: {@{column is vector, row is covector}@}) <!--SR:!fsrs,2029-06-15T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-08-09T00:00:00.000Z!fsrs,2026-08-17T23:17:14.873Z,8,8.2956,1,2,1,0,0,2026-08-09T23:17:14.873Z-->
 
 - \(annotation: direction mnemonic\) ::@:: "__Up__<!-- markdown separator -->per indices go __up__ to down; __l__<!-- markdown separator -->ower indices go __l__<!-- markdown separator -->eft to right." <!--SR:!2026-10-24,293,330!2026-10-22,291,330-->
 - \(annotation: word mnemonic\) ::@:: "__Co__<!-- markdown separator -->variant tensors are __row__ vectors that have indices that are __below__ \(__co-row-below__\)." <!--SR:!fsrs,2029-09-13T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-08-29T00:00:00.000Z!2026-10-17,286,330-->
