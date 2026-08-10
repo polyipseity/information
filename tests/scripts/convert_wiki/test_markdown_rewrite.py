@@ -2,6 +2,7 @@
 
 from scripts.convert_wiki.markdown_rewrite import (
     _rewrite_article_heading,
+    _rewrite_markdown_headings,
     _rewrite_markdown_links,
 )
 
@@ -107,3 +108,105 @@ class TestRewriteArticleHeading:
         assert (
             "---\naliases:\n  - modern physics\n---\n\n# Modern physics\n" == rewritten
         )
+
+
+# Effective name map after ``--mapping "Modern physics" "Modern physics"``
+# merged over the base map, plus the resulting stem migration.
+_EFFECTIVE = {
+    "Modern physics": "Modern physics",
+    "modern physics": "modern physics",
+    "Fourier transform": "Fourier transform",
+    "fourier transform": "Fourier transform",
+}
+_MIGRATIONS = {"modern physics": "Modern physics"}
+
+
+class TestRewriteMarkdownHeadings:
+    """Tests for _rewrite_markdown_headings."""
+
+    def test_rewrites_all_heading_levels(self) -> None:
+        """Should re-case headings at every level ``#``-``######``."""
+        text = "".join(f"{'#' * level} modern physics\n" for level in range(1, 7))
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert rewritten == "".join(
+            f"{'#' * level} Modern physics\n" for level in range(1, 7)
+        )
+
+    def test_migration_required_for_lowercase_variant(self) -> None:
+        """The effective map alone keeps lowercase variants lowercase."""
+        text = "## modern physics\n"
+        assert _rewrite_markdown_headings(text, _EFFECTIVE) == text
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert rewritten == "## Modern physics\n"
+
+    def test_preserves_frontmatter_including_comments(self) -> None:
+        """YAML frontmatter (even ``# comment`` lines) must stay untouched."""
+        text = (
+            "---\naliases:\n  - modern physics\n# comment\n---\n\n## modern physics\n"
+        )
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert rewritten == (
+            "---\naliases:\n  - modern physics\n# comment\n---\n\n## Modern physics\n"
+        )
+
+    def test_skips_fenced_code_blocks(self) -> None:
+        """``#``-lines inside fenced code must not be rewritten or steal tokens."""
+        text = "```python\n# modern physics\nprint('x')\n```\n\n## modern physics\n"
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert (
+            rewritten
+            == "```python\n# modern physics\nprint('x')\n```\n\n## Modern physics\n"
+        )
+
+    def test_preserves_trailing_hashes(self) -> None:
+        """Trailing closing ``#``s and leading markers must be kept."""
+        text = "## modern physics ###\n"
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert rewritten == "## Modern physics ###\n"
+
+    def test_rewrites_duplicate_heading_text(self) -> None:
+        """Every occurrence of the same heading text should be rewritten."""
+        text = "## modern physics\n\nBody.\n\n### modern physics\n"
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert rewritten == "## Modern physics\n\nBody.\n\n### Modern physics\n"
+
+    def test_idempotent_on_canonical_headings(self) -> None:
+        """Canonical headings under the effective map must not change."""
+        text = "## Modern physics\n\n### Fourier transform\n"
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert rewritten == text
+
+    def test_rewrites_whole_link_heading(self) -> None:
+        """A heading that is entirely a link rewrites its text, not the target."""
+        text = "## [modern physics](modern%20physics.md)\n"
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert rewritten == "## [Modern physics](modern%20physics.md)\n"
+
+    def test_skips_partially_marked_heading(self) -> None:
+        """Mixed markup headings are left untouched (plain text not contiguous)."""
+        text = "## [modern physics](modern%20physics.md) notes\n"
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert rewritten == text
+
+    def test_skips_setext_and_nested_headings(self) -> None:
+        """Setext, blockquote, and list headings are out of scope."""
+        text = "modern physics\n---\n\n> ## modern physics\n\n- item\n  ## modern physics\n"
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert rewritten == text
+
+    def test_unchanged_for_empty_or_headingless_input(self) -> None:
+        """Empty and heading-less text must round-trip unchanged."""
+        assert _rewrite_markdown_headings("", _EFFECTIVE, _MIGRATIONS) == ""
+        text = "Just prose.\n"
+        assert _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS) == text
+
+    def test_preserves_line_endings(self) -> None:
+        """Original line endings (CRLF) must survive rewriting."""
+        text = "## modern physics\r\n"
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert rewritten == "## Modern physics\r\n"
+
+    def test_empty_names_map_returns_unchanged(self) -> None:
+        """An empty names map must not rewrite anything."""
+        text = "## modern physics\n"
+        assert _rewrite_markdown_headings(text, {}) == text
