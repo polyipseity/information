@@ -172,6 +172,7 @@ $$f(ax)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\frac {1}{|a|}
 When the real and imaginary parts of a complex function are decomposed into their [even and odd parts](even%20and%20odd%20functions.md#Even%E2%80%93odd%20decomposition), there are four components, denoted below by the subscripts RE, RO, IE, and IO. And there is a one-to-one mapping between the four components of a complex time function and the four components of its complex frequency transform:<sup>[\[16\]](#^ref-16)</sup>
 
 $${\begin{array}{rlcccccccc}{\mathsf {Time\ domain} }&f&=&f_{_{\text{RE} } }&+&f_{_{\text{RO} } }&+&i\ f_{_{\text{IE} } }&+&\underbrace {i\ f_{_{\text{IO} } } } \\&{\Bigg \Updownarrow }{\mathcal {F} }&&{\Bigg \Updownarrow }{\mathcal {F} }&&\ \ {\Bigg \Updownarrow }{\mathcal {F} }&&\ \ {\Bigg \Updownarrow }{\mathcal {F} }&&\ \ {\Bigg \Updownarrow }{\mathcal {F} }\\{\mathsf {Frequency\ domain} }&{\widehat {f} }&=&{\widehat {f} }\mkern-3mu_{_{\text{RE} } }&+&\overbrace {i\ {\widehat {f} }\mkern-3mu_{_{\text{IO} } } } &+&i\ {\widehat {f} }\mkern-3mu_{_{\text{IE} } }&+&{\widehat {f} }\mkern-3mu_{_{\text{RO} } }\end{array} }$$
+
 From this, various relationships are apparent, for example:
 
 - The transform of a real-valued function \(⁠$f_{_{\text{RE} } }+f_{_{\text{RO} } }$⁠\) is the _[conjugate symmetric](even%20and%20odd%20functions.md#complex-valued%20functions)_ function ⁠${\widehat {f} }\mkern-3mu_{_{\text{RE} } }+i\ {\widehat {f} }\mkern-3mu_{_{\text{IO} } }$⁠. Conversely, a _conjugate symmetric_ transform implies a real-valued time-domain.
