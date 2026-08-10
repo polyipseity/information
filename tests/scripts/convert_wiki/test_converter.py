@@ -352,6 +352,109 @@ class TestMathHandling:
         assert text == r"a\,"
         assert punct == ""
 
+    @pytest.mark.anyio
+    async def test_dd_sole_math_in_dl_is_isolated_row(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Sole ``<dd>`` math inside ``<dl>`` should render as its own row."""
+        html = (
+            "<p>by</p>"
+            f"<dl><dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd></dl>"
+            "<p>for</p>"
+        )
+        result = await _convert(converter, html)
+        assert "\n\n$$f(x)$$\n" in result
+        assert "$$f(x)$$\nfor" in result
+
+    @pytest.mark.anyio
+    async def test_dt_sole_math_in_dl_is_isolated_row(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Sole ``<dt>`` math inside ``<dl>`` should render as its own row."""
+        html = (
+            "<p>by</p>"
+            f"<dl><dt>{_block_math_span(r'{\displaystyle g(x)}')}</dt></dl>"
+            "<p>for</p>"
+        )
+        result = await _convert(converter, html)
+        assert "\n\n$$g(x)$$\n" in result
+        assert "$$g(x)$$\nfor" in result
+
+    @pytest.mark.anyio
+    async def test_multi_dd_math_rows_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Multiple ``<dd>`` math rows in one ``<dl>`` should not merge."""
+        html = (
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+        )
+        result = await _convert(converter, html)
+        assert "$$f(x)$$\n$$g(x)$$" in result
+        assert "$$f(x)$$$$g(x)$$" not in result
+
+    @pytest.mark.anyio
+    async def test_multi_dd_math_rows_formatting_agnostic(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Whitespace between ``<dd>`` rows must not change the output."""
+        compact = (
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+        )
+        spaced = (
+            "<dl>\n"
+            f"  <dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>\n"
+            f"  <dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>\n"
+            "</dl>"
+        )
+        result_compact = await _convert(converter, compact)
+        result_spaced = await _convert(converter, spaced)
+        assert result_compact == result_spaced
+        assert "$$f(x)$$\n$$g(x)$$" in result_compact
+
+    @pytest.mark.anyio
+    async def test_mixed_dt_dd_rows_each_on_own_line(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Mixed ``<dt>``/``<dd>`` rows should each stay on their own line."""
+        html = (
+            "<dl>"
+            "<dt>term</dt>"
+            f"<dd>{_block_math_span(r'{\displaystyle a}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle b}')}</dd>"
+            "</dl>"
+        )
+        result = await _convert(converter, html)
+        assert "term\n$$a$$\n$$b$$" in result
+
+    @pytest.mark.anyio
+    async def test_dd_prose_then_math_rows(self, converter: WikiHtmlConverter) -> None:
+        """Prose ``<dd>`` row keeps inline math; math row is block on next line."""
+        html = (
+            "<dl>"
+            f"<dd>therefore {_inline_math_span(r'{\displaystyle f(x)}')}.</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle F(x)}')}</dd>"
+            "</dl>"
+        )
+        result = await _convert(converter, html)
+        assert "therefore $f(x)$." in result
+        assert "$$F(x)$$" in result
+        assert "$f(x)$.\n$$F(x)$$" in result
+
+    @pytest.mark.anyio
+    async def test_block_classed_math_in_paragraph_stays_inline_flow(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Block-classed math inside prose stays in line flow (Option A)."""
+        html = f"<p>before {_block_math_span(r'{\displaystyle F(x)}')} after</p>"
+        result = await _convert(converter, html)
+        assert "before $$F(x)$$ after" in result
+
 
 # ---------------------------------------------------------------------------
 
