@@ -364,7 +364,7 @@ class TestMathHandling:
         )
         result = await _convert(converter, html)
         assert "\n\n$$f(x)$$\n" in result
-        assert "$$f(x)$$\nfor" in result
+        assert "$$f(x)$$\n\n\nfor" in result
 
     @pytest.mark.anyio
     async def test_dt_sole_math_in_dl_is_isolated_row(
@@ -378,7 +378,7 @@ class TestMathHandling:
         )
         result = await _convert(converter, html)
         assert "\n\n$$g(x)$$\n" in result
-        assert "$$g(x)$$\nfor" in result
+        assert "$$g(x)$$\n\n\nfor" in result
 
     @pytest.mark.anyio
     async def test_multi_dd_math_rows_separated(

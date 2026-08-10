@@ -646,12 +646,15 @@ class WikiHtmlConverter:
         # only text between rows is dropped first, otherwise it would join as
         # empty strings and produce stray blank lines (changing single-row
         # output).  Keep the current no-joiner behavior inside table cells.
-        joiner = "" if self._in_table_cell(ele) else "\n"
+        in_table = self._in_table_cell(ele)
+        joiner = "" if in_table else "\n"
         if joiner:
             for child in tuple(ele.children):
                 if isinstance(child, NavigableString) and not child.strip():
                     child.extract()
-        return _HandlerConfig(joiner=joiner)
+        # Terminate the block with a blank line like <p> does, so a sole-math
+        # <dd> row is symmetric (blank line before and after).
+        return _HandlerConfig(joiner=joiner, suffix="" if in_table else "\n\n")
 
     def _handle_p(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render a <p> paragraph with appropriate spacing."""
