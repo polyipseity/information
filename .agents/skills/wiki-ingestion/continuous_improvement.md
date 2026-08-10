@@ -43,4 +43,13 @@ garbled HTML.
 
 ---
 
+## Lessons learned (2026‑08‑10)
+
+- `--reprocess` now rewrites heading casing at all levels (previously
+  only the first `#` heading); the capitalization review covers every
+  heading level, and the agent proposes suggestions before the manual
+  review without applying them.
+
+---
+
 Add new lessons below as the skill evolves.

@@ -9,6 +9,7 @@ from anyio import Path as AnyioPath
 
 from scripts.convert_wiki.markdown_rewrite import (
     _rewrite_article_heading,
+    _rewrite_markdown_headings,
     _rewrite_markdown_links,
 )
 from scripts.convert_wiki.name_map_io import _merge_names_maps
@@ -440,6 +441,48 @@ class TestReprocessSymlinkRename:
         assert "exponential%20map%20(Lie%20group).md" in rewritten
         assert "Exponential%20map%20(Lie%20group).md" not in rewritten
 
+    @pytest.mark.anyio
+    async def test_apply_rewrites_headings_at_all_levels(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Reprocess should re-case section headers at every level and rename."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        article = lang_dir / "modern physics.md"
+        await article.write_text(
+            "# modern physics\n\n## modern physics\n\n### modern physics\n\n"
+            "See [physics](modern%20physics.md).\n\n"
+            "{@{Link [inside](modern%20physics.md)}@}\n",
+            encoding="UTF-8",
+        )
+        map_path = wiki_dir / "map.jsonc"
+        await map_path.write_text("{}\n", encoding="UTF-8")
+
+        request = _ReprocessRequest(
+            mappings={"Modern physics": "Modern physics"},
+            articles=("modern physics",),
+            update_links=False,
+            dry_run=False,
+            wiki_dir=wiki_dir,
+            cache_path=wiki_dir / "cache.json",
+            name_map_path=map_path,
+        )
+        plan = await plan_reprocess(
+            request,
+            base_map={"Modern physics": "modern physics"},
+        )
+        await apply_reprocess_plan(plan, dry_run=False)
+
+        renamed = lang_dir / "Modern physics.md"
+        assert await renamed.is_file()
+        rewritten = await renamed.read_text(encoding="UTF-8")
+        assert rewritten == (
+            "# Modern physics\n\n## Modern physics\n\n### Modern physics\n\n"
+            "See [physics](Modern%20physics.md).\n\n"
+            "{@{Link [inside](Modern%20physics.md)}@}\n"
+        )
+
 
 class TestMarkdownRewriteSnapshot:
     """Regression snapshot for markdown rewrite."""
@@ -469,6 +512,7 @@ class TestMarkdownRewriteSnapshot:
         }
         rewritten = _rewrite_markdown_links(input_text, migration_map)
         rewritten = _rewrite_article_heading(rewritten, "Modern physics")
+        rewritten = _rewrite_markdown_headings(rewritten, effective, migration_map)
         assert rewritten == expected
 
     def test_name_map_parenthetical_capitalization_snapshot(self) -> None:

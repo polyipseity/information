@@ -4,7 +4,11 @@ from os import fspath, rename
 
 from anyio import Path
 
-from ..markdown_rewrite import _rewrite_article_heading, _rewrite_markdown_links
+from ..markdown_rewrite import (
+    _rewrite_article_heading,
+    _rewrite_markdown_headings,
+    _rewrite_markdown_links,
+)
 from ..name_map_io import _reload_names_map, _save_names_map
 from ..types import (
     _ReprocessPlan,
@@ -200,6 +204,9 @@ async def apply_reprocess_plan(
         heading = plan.heading_updates.get(fspath(target_path))
         if heading is not None:
             rewritten = _rewrite_article_heading(rewritten, heading)
+        rewritten = _rewrite_markdown_headings(
+            rewritten, plan.effective_map, migrations
+        )
         if rewritten != original:
             tmp = target_path.with_suffix(".md.tmp")
             await tmp.write_text(rewritten, encoding="UTF-8")

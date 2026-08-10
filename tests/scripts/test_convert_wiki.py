@@ -9,6 +9,7 @@ import re
 from os import PathLike
 from pathlib import Path as PathlibPath
 
+import json5
 import pytest
 from anyio import Path
 from bs4 import BeautifulSoup, Tag
@@ -35,7 +36,7 @@ class TestModuleExports:
 
 
 class TestSymlinkCreation:
-    """Tests for symlink creation in _handle_link.
+    """Tests for symlink creation in _handle_anchor.
 
     When a Wikipedia page redirects to another page, symlinks are created
     so that both filenames resolve to the same Markdown file.
@@ -210,6 +211,13 @@ def _discover_snapshot_cases() -> list[str]:
     )
 
 
+def _load_snapshot_names_map() -> dict[str, str]:
+    """Load the shared snapshot name map (symlink to production JSONC)."""
+    path = _SNAPSHOT_DIR / "name_map.jsonc"
+    with path.open(encoding="UTF-8") as names_map_file:
+        return json5.load(names_map_file)
+
+
 def _categorize_block_math_blocks(output: str) -> dict[str, int]:
     """Count block math paragraph affiliation categories in converter output.
 
@@ -264,8 +272,7 @@ class TestWikiHtmlToPlaintextSnapshot:
         await isolated_lang.mkdir(parents=True)
 
         # Load shared name_map and per-test auxiliary data.
-        shared_name_map_path = _SNAPSHOT_DIR / "name_map.json"
-        shared_name_map = json.loads(shared_name_map_path.read_text(encoding="UTF-8"))
+        shared_name_map = _load_snapshot_names_map()
         aux_path = _SNAPSHOT_DIR / f"{name}.aux.json"
         aux = json.loads(aux_path.read_text(encoding="UTF-8"))
 
@@ -863,6 +870,9 @@ class TestBlockMathClassification:
     up 2 levels to verify the great-grandparent has >1 child (sibling guard).
     Block math returns False; inline math requires both the class and the
     sibling guard to pass.
+
+    The outer ``mwe-math-element-inline`` class alone is not authoritative:
+    punct absorption and the sibling guard still force block classification.
     """
 
     def test_block_math_display_class_returns_false(self) -> None:
@@ -903,6 +913,169 @@ class TestBlockMathClassification:
         assert isinstance(math_ele, Tag)
         assert WikiHtmlConverter._is_inline_math(math_ele) is False
 
+    def test_inline_math_whitespace_siblings_not_counted(self) -> None:
+        """Prettified block containers must not count whitespace-only siblings."""
+        html = BeautifulSoup(
+            "<dd>\n"
+            '  <span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            "<math></math></span></span>\n"
+            "</dd>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is False
+
+    def test_dd_external_period_sole_formula_row_is_block(self) -> None:
+        """External punct on sole formula rows in ``<dd>`` should classify as block."""
+        html = BeautifulSoup(
+            "<dd>"
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            '<math alttext="{\\displaystyle R(X,Y)}"></math>'
+            "</span></span>."
+            "</dd>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele, alt_text="R(X,Y)") is False
+
+    def test_dt_external_period_sole_formula_row_is_block(self) -> None:
+        """Sole-formula ``<dt>`` rows with external punct classify as block."""
+        html = BeautifulSoup(
+            "<dt>"
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            '<math alttext="{\\displaystyle b}"></math>'
+            "</span></span>."
+            "</dt>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele, alt_text="b") is False
+
+    def test_outer_inline_class_ignored_when_absorption_fires(self) -> None:
+        """Outer inline class does not override punct absorption for aligned envs."""
+        html = BeautifulSoup(
+            "<p>"
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            '<math alttext="{\\displaystyle \\begin{aligned}x&=1\\end{aligned}}"></math>'
+            "</span></span>."
+            "</p>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert (
+            WikiHtmlConverter._is_inline_math(
+                math_ele, alt_text=r"\begin{aligned}x&=1\end{aligned}"
+            )
+            is False
+        )
+
+    def test_dd_external_period_with_prose_stays_inline(self) -> None:
+        """``<dd>`` rows with prose before the formula keep inline classification."""
+        html = BeautifulSoup(
+            "<dd>therefore "
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            '<math alttext="{\\displaystyle f(x)}"></math>'
+            "</span></span>."
+            "</dd>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele, alt_text="f(x)") is True
+
+    def test_sfrac_like_math_without_outer_wrapper_stays_inline(self) -> None:
+        """sfrac-style inline math should use the legacy sibling container walk."""
+        html = BeautifulSoup(
+            "<body><p>intro</p>"
+            "<p>before "
+            '<span class="mwe-math-mathml-inline">'
+            '<math alttext="{\\displaystyle \\frac{a}{2\\pi}}"></math>'
+            "</span>, after</p></body>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert (
+            WikiHtmlConverter._is_inline_math(math_ele, alt_text=r"\frac{a}{2\pi}")
+            is True
+        )
+
+
+class TestExternalMathPunctuationPipeline:
+    """End-to-end regression for external math punctuation through ``run_pipeline``."""
+
+    @staticmethod
+    def _inline_math_span(alttext: str) -> str:
+        """Build an inline-math HTML span containing the given alt text."""
+        return (
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            f'<math display="inline" alttext="{alttext}">'
+            "<semantics><mrow></mrow></semantics></math>"
+            "</span></span>"
+        )
+
+    @pytest.mark.anyio
+    async def test_pipeline_absorbs_dd_external_period(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """``run_pipeline`` should emit block math with ``\\,``-prefixed absorbed punct."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        body = (
+            "<p>For vector fields $X,Y$ by</p>"
+            f"<dl><dd>{self._inline_math_span(r'{\displaystyle R(X,Y)}')}.</dd></dl>"
+        )
+        html = BeautifulSoup(f"<body>{body}</body>", "html.parser")
+        output, _ = await run_pipeline(
+            html,
+            redirect_map={},
+            image_metadata={},
+            names_map={},
+            wiki_dir=tmp / "general",
+            wiki_lang_dir=lang_dir,
+            refs=False,
+        )
+        assert "$$R(X,Y)\\,.$$" in output
+        assert "$R(X,Y)$." not in output
+        assert output.count("$$R(X,Y)\\,.$$") == 1
+
+    @pytest.mark.anyio
+    async def test_pipeline_absorbs_dt_external_period(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """``run_pipeline`` emits block math with absorbed punct in ``<dt>`` rows."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        body = (
+            "<p>For vector fields $X,Y$ by</p>"
+            f"<dl><dt>{self._inline_math_span(r'{\displaystyle R(X,Y)}')}.</dt></dl>"
+        )
+        html = BeautifulSoup(f"<body>{body}</body>", "html.parser")
+        output, _ = await run_pipeline(
+            html,
+            redirect_map={},
+            image_metadata={},
+            names_map={},
+            wiki_dir=tmp / "general",
+            wiki_lang_dir=lang_dir,
+            refs=False,
+        )
+        assert "$$R(X,Y)\\,.$$" in output
+        assert "$R(X,Y)$." not in output
+        assert output.count("$$R(X,Y)\\,.$$") == 1
+
 
 class TestBlockMathCategoryBreakdown:
     """Verify block math paragraph affiliation category counts in a real article.
@@ -918,15 +1091,14 @@ class TestBlockMathCategoryBreakdown:
     async def _run_and_categorize(tmp_path: PathLike[str]) -> dict[str, int]:
         """Run the Fourier transform pipeline and categorize block math output.
 
-        Mirrors the snapshot test setup (aux.json, name_map.json, etc.)
+        Mirrors the snapshot test setup (aux.json, name_map.jsonc, etc.)
         but returns category counts instead of comparing to expected output.
         """
         tmp = Path(tmp_path)
         isolated_lang = tmp / "general" / "eng"
         await isolated_lang.mkdir(parents=True)
 
-        shared_name_map_path = _SNAPSHOT_DIR / "name_map.json"
-        shared_name_map = json.loads(shared_name_map_path.read_text(encoding="UTF-8"))
+        shared_name_map = _load_snapshot_names_map()
         aux_path = (
             _SNAPSHOT_DIR / f"{TestBlockMathCategoryBreakdown._SNAPSHOT_NAME}.aux.json"
         )
@@ -971,10 +1143,10 @@ class TestBlockMathCategoryBreakdown:
         counts = await self._run_and_categorize(tmp_path)
         self._assert_counts(
             counts,
-            both=72,
+            both=308,
             before_only=50,
             after_only=3,
-            neither=3,
+            neither=4,
         )
 
 
@@ -1015,8 +1187,7 @@ class TestInlineMathIndependence:
         isolated_lang = tmp / "general" / "eng"
         await isolated_lang.mkdir(parents=True)
 
-        shared_name_map_path = _SNAPSHOT_DIR / "name_map.json"
-        shared_name_map = json.loads(shared_name_map_path.read_text(encoding="UTF-8"))
+        shared_name_map = _load_snapshot_names_map()
         aux_path = (
             _SNAPSHOT_DIR / f"{TestInlineMathIndependence._SNAPSHOT_NAME}.aux.json"
         )
@@ -1047,10 +1218,10 @@ class TestInlineMathIndependence:
 
     @pytest.mark.anyio
     async def test_inline_math_count(self, tmp_path: PathLike[str]) -> None:
-        """The Fourier transform article should have 618 inline math blocks."""
+        """The Fourier transform article should have 381 inline math blocks."""
         output = await self._run_and_analyze(tmp_path)
         count = self._count_inline_math_blocks(output)
-        assert count == 618, f"Expected 618 inline math blocks, got {count}"
+        assert count == 381, f"Expected 381 inline math blocks, got {count}"
 
     @pytest.mark.anyio
     async def test_no_orphaned_dollar_signs(self, tmp_path: PathLike[str]) -> None:
