@@ -91,6 +91,33 @@ class TestRewriteMarkdownLinks:
         )
         assert rewritten == text
 
+    def test_rewrite_links_with_apostrophe(self) -> None:
+        """Apostrophe links should be rewritten despite mistune %27 encoding."""
+        text = "[d'Alembert](Jean%20le%20Rond%20d'Alembert.md)"
+        rewritten = _rewrite_markdown_links(
+            text,
+            {"Jean le Rond d'Alembert": "Jean Le Rond d'Alembert"},
+        )
+        assert rewritten == "[d'Alembert](Jean%20Le%20Rond%20d'Alembert.md)"
+
+    def test_rewrite_links_apostrophe_no_migration_no_change(self) -> None:
+        """Apostrophe links without a matching migration stay byte-identical."""
+        text = "[d'Alembert](Jean%20Le%20Rond%20d'Alembert.md)"
+        rewritten = _rewrite_markdown_links(
+            text,
+            {"modern physics": "Modern physics"},
+        )
+        assert rewritten == text
+
+    def test_rewrite_links_apostrophe_fragment(self) -> None:
+        """Fragments on apostrophe links should round-trip."""
+        text = "[d'Alembert](Jean%20le%20Rond%20d'Alembert.md#biography)"
+        rewritten = _rewrite_markdown_links(
+            text,
+            {"Jean le Rond d'Alembert": "Jean Le Rond d'Alembert"},
+        )
+        assert rewritten == "[d'Alembert](Jean%20Le%20Rond%20d'Alembert.md#biography)"
+
 
 class TestRewriteArticleHeading:
     """Tests for _rewrite_article_heading."""
