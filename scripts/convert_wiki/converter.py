@@ -639,6 +639,20 @@ class WikiHtmlConverter:
     _handle_dd = _handle_block_level
     _handle_dt = _handle_block_level
 
+    def _handle_dl(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
+        """Render <dl> definition lists, one row per line."""
+        # Join sibling rows with "\n" instead of the default "" so that each
+        # <dd>/<dt> (e.g. a sole-math row) stays on its own line.  Whitespace-
+        # only text between rows is dropped first, otherwise it would join as
+        # empty strings and produce stray blank lines (changing single-row
+        # output).  Keep the current no-joiner behavior inside table cells.
+        joiner = "" if self._in_table_cell(ele) else "\n"
+        if joiner:
+            for child in tuple(ele.children):
+                if isinstance(child, NavigableString) and not child.strip():
+                    child.extract()
+        return _HandlerConfig(joiner=joiner)
+
     def _handle_p(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render a <p> paragraph with appropriate spacing."""
 
