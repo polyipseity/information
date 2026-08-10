@@ -870,6 +870,9 @@ class TestBlockMathClassification:
     up 2 levels to verify the great-grandparent has >1 child (sibling guard).
     Block math returns False; inline math requires both the class and the
     sibling guard to pass.
+
+    The outer ``mwe-math-element-inline`` class alone is not authoritative:
+    punct absorption and the sibling guard still force block classification.
     """
 
     def test_block_math_display_class_returns_false(self) -> None:
@@ -939,6 +942,41 @@ class TestBlockMathClassification:
         assert isinstance(math_ele, Tag)
         assert WikiHtmlConverter._is_inline_math(math_ele, alt_text="R(X,Y)") is False
 
+    def test_dt_external_period_sole_formula_row_is_block(self) -> None:
+        """Sole-formula ``<dt>`` rows with external punct classify as block."""
+        html = BeautifulSoup(
+            "<dt>"
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            '<math alttext="{\\displaystyle b}"></math>'
+            "</span></span>."
+            "</dt>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele, alt_text="b") is False
+
+    def test_outer_inline_class_ignored_when_absorption_fires(self) -> None:
+        """Outer inline class does not override punct absorption for aligned envs."""
+        html = BeautifulSoup(
+            "<p>"
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+            '<math alttext="{\\displaystyle \\begin{aligned}x&=1\\end{aligned}}"></math>'
+            "</span></span>."
+            "</p>",
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert (
+            WikiHtmlConverter._is_inline_math(
+                math_ele, alt_text=r"\begin{aligned}x&=1\end{aligned}"
+            )
+            is False
+        )
+
     def test_dd_external_period_with_prose_stays_inline(self) -> None:
         """``<dd>`` rows with prose before the formula keep inline classification."""
         html = BeautifulSoup(
@@ -996,6 +1034,32 @@ class TestExternalMathPunctuationPipeline:
         body = (
             "<p>For vector fields $X,Y$ by</p>"
             f"<dl><dd>{self._inline_math_span(r'{\displaystyle R(X,Y)}')}.</dd></dl>"
+        )
+        html = BeautifulSoup(f"<body>{body}</body>", "html.parser")
+        output, _ = await run_pipeline(
+            html,
+            redirect_map={},
+            image_metadata={},
+            names_map={},
+            wiki_dir=tmp / "general",
+            wiki_lang_dir=lang_dir,
+            refs=False,
+        )
+        assert "$$R(X,Y)\\,.$$" in output
+        assert "$R(X,Y)$." not in output
+        assert output.count("$$R(X,Y)\\,.$$") == 1
+
+    @pytest.mark.anyio
+    async def test_pipeline_absorbs_dt_external_period(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """``run_pipeline`` emits block math with absorbed punct in ``<dt>`` rows."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+        body = (
+            "<p>For vector fields $X,Y$ by</p>"
+            f"<dl><dt>{self._inline_math_span(r'{\displaystyle R(X,Y)}')}.</dt></dl>"
         )
         html = BeautifulSoup(f"<body>{body}</body>", "html.parser")
         output, _ = await run_pipeline(
