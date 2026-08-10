@@ -70,7 +70,7 @@ Clears generated content blocks without regenerating. Useful for resolving merge
 ### Wiki ingestion
 
 - Scaffold: `uv run -m scripts.new_wiki_page`
-- Ingest: `uv run -m scripts.convert_wiki` (reads clipboard HTML)
+- Ingest: `uv run -m scripts.convert_wiki --clipboard` (reads clipboard HTML)
 - Maintain redirect symlinks: `uv run -m scripts.convert_wiki --update-redirects [--dry-run]` — reconciles `general/*/` redirect symlinks against the live API: retargets symlinks whose redirect target changed, removes symlinks when a redirect became a full article, and leaves article→redirect transitions, missing/invalid pages, and real files untouched; refreshes the redirect cache. `--dry-run` previews actions without changing anything.
 - The reconcile probe is cache-independent (always queries, batches of 50, canonicalizes sent titles via `query.normalized` before matching, resolves chains to their final target); missing pages are kept conservatively and self/circular redirects are treated as full articles.
 - Flashcards: handled automatically by build workflows
