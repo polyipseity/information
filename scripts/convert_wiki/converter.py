@@ -49,14 +49,6 @@ _COLLAPSE_EMPTY_BLOCKQUOTE_RE = re.compile(r">\n(?:>\n)+")
 _COLLAPSE_SPACES_REGEX = re.compile(r" {2,}")
 """Whitespace runs except hair space (U+200A)."""
 _WHITESPACE_EXCEPT_HAIR_RE = re.compile(r"[^\S\u200a]+")
-
-
-def _collapse_whitespace(strings: str) -> str:
-    """Collapse whitespace runs, preserving hair spaces (U+200A)."""
-    strings = strings.strip(" \t\n\r\x0b\x0c")
-    return " ".join(_WHITESPACE_EXCEPT_HAIR_RE.split(strings))
-
-
 """Captures the separator-prefixed display text in bold/italic processing."""
 _PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
 """Whitespace and separator chars for sidebar tight wrapping."""
@@ -80,6 +72,12 @@ _DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = (
     "vmatrix",
     "Bmatrix",
 )
+
+
+def _collapse_whitespace(text: str) -> str:
+    """Collapse whitespace runs, preserving hair spaces (U+200A)."""
+    text = text.strip(" \t\n\r\x0b\x0c")
+    return " ".join(_WHITESPACE_EXCEPT_HAIR_RE.split(text))
 
 
 class WikiHtmlConverter:
