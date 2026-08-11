@@ -669,6 +669,21 @@ class TestSeparateBlockMath:
 # =========================================================================
 
 
+async def _convert_html(html: str, converter: WikiHtmlConverter | None = None) -> str:
+    """Convert *html* via ``wiki_html_to_plaintext`` with default options.
+
+    *converter* overrides the default converter when given. No archives are
+    collected and no redirects are resolved.
+    """
+    return await wiki_html_to_plaintext(
+        BeautifulSoup(html, "html.parser"),
+        out_to_archive=set(),
+        redirect_map={},
+        refs=True,
+        converter=converter,
+    )
+
+
 class TestWikiHtmlToPlaintext:
     """Integration tests for ``wiki_html_to_plaintext``.
 
@@ -678,131 +693,59 @@ class TestWikiHtmlToPlaintext:
     """
 
     @pytest.mark.anyio
-    async def test_simple_paragraph(self, tmp_path: PathLike[str]) -> None:
+    async def test_simple_paragraph(self) -> None:
         """Simple paragraph text → converted to Markdown paragraph."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>Hello world</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>Hello world</p>")
         assert result == "Hello world\n"
 
     @pytest.mark.anyio
-    async def test_nbsp_replacement(self, tmp_path: PathLike[str]) -> None:
+    async def test_nbsp_replacement(self) -> None:
         """Non-breaking spaces are converted to regular spaces."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>Hello\u00a0world</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>Hello\u00a0world</p>")
         assert "Hello world" in result
         assert "\u00a0" not in result
 
     @pytest.mark.anyio
-    async def test_hair_space_replacement(self, tmp_path: PathLike[str]) -> None:
+    async def test_hair_space_replacement(self) -> None:
         """Hair space (U+200A) is preserved through the pipeline.
 
         The converter preserves ``\u200a`` during whitespace collapsing so
         the post-processing ``&hairsp;`` replacement can emit the entity.
         """
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>a\u200ab</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>a\u200ab</p>")
         assert "a&hairsp;b" in result
 
     @pytest.mark.anyio
-    async def test_hair_space_in_citation_sup(self, tmp_path: PathLike[str]) -> None:
+    async def test_hair_space_in_citation_sup(self) -> None:
         """Hair spaces inside ``<sup>`` citation markers survive collapsing."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>see<sup>:\u200a2\u200a</sup></p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>see<sup>:\u200a2\u200a</sup></p>")
         assert "see<sup>:&hairsp;2&hairsp;</sup>" in result
 
     @pytest.mark.anyio
-    async def test_hair_space_in_classed_blockquote(
-        self, tmp_path: PathLike[str]
-    ) -> None:
+    async def test_hair_space_in_classed_blockquote(self) -> None:
         """Hair space survives the blockquote collapse path."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup(
-            '<blockquote class="math_theorem">a\u200ab</blockquote>', "html.parser"
-        )
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
+        result = await _convert_html(
+            '<blockquote class="math_theorem">a\u200ab</blockquote>'
         )
         assert "a&hairsp;b" in result
 
     @pytest.mark.anyio
-    async def test_trailing_whitespace_stripped(self, tmp_path: PathLike[str]) -> None:
+    async def test_trailing_whitespace_stripped(self) -> None:
         """Trailing whitespace on each line is stripped.
 
         The converter normalizes multiple spaces, but trailing whitespace
         is still stripped from each line in post-processing.
         """
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>text with spaces  </p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>text with spaces  </p>")
         assert "text with spaces" in result
         # No trailing spaces on the line
         for line in result.split("\n"):
             assert line == line.rstrip(" \t")
 
     @pytest.mark.anyio
-    async def test_blank_line_collapse(self, tmp_path: PathLike[str]) -> None:
+    async def test_blank_line_collapse(self) -> None:
         """Excessive blank lines (3+) are collapsed to 2."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>First</p><p>Second</p><p>Third</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>First</p><p>Second</p><p>Third</p>")
         # Paragraphs are separated by blank lines in HTML->Markdown conversion.
         # There should be no triple blank lines.
         lines = result.split("\n")
@@ -815,56 +758,26 @@ class TestWikiHtmlToPlaintext:
                 blank_streak = 0
 
     @pytest.mark.anyio
-    async def test_empty_content(self, tmp_path: PathLike[str]) -> None:
+    async def test_empty_content(self) -> None:
         """Empty HTML body → empty string."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<html><body></body></html>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<html><body></body></html>")
         assert result == ""
 
     @pytest.mark.anyio
     async def test_pre_converted_converter(self, tmp_path: PathLike[str]) -> None:
         """A pre-configured converter can be passed in."""
         tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
         converter = WikiHtmlConverter(
             converted_wiki_dir=tmp / "general",
-            converted_wiki_lang_dir=lang_dir,
+            converted_wiki_lang_dir=tmp / "general" / "eng",
         )
-        html = BeautifulSoup("<p>Custom converter</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-            converter=converter,
-        )
+        result = await _convert_html("<p>Custom converter</p>", converter)
         assert "Custom converter" in result
 
     @pytest.mark.anyio
-    async def test_block_math_separation(self, tmp_path: PathLike[str]) -> None:
+    async def test_block_math_separation(self) -> None:
         """Block math adjacency triggers space insertion in post-processing."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>text$$x$$more</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>text$$x$$more</p>")
         # The converter will produce something like "text$x$more",
         # and _separate_block_math post-processing handles $$...$$ spacing.
         # The exact output depends on how the converter handles the math
@@ -872,20 +785,14 @@ class TestWikiHtmlToPlaintext:
         assert result is not None
 
     @pytest.mark.anyio
-    async def test_table_inline_math_pipes_aligned(
-        self, tmp_path: PathLike[str]
-    ) -> None:
+    async def test_table_inline_math_pipes_aligned(self) -> None:
         """Math spacing in table cells keeps pipes aligned (MD060).
 
         Math spacing must run before table reformatting; otherwise the
         inserted spaces grow a cell past its padded column width and the
         pipes misalign.
         """
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup(
+        result = await _convert_html(
             "<table><tbody><tr><th>Column 1</th></tr><tr><td>word"
             '<span class="mwe-math-element mwe-math-element-inline">'
             '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
@@ -894,14 +801,7 @@ class TestWikiHtmlToPlaintext:
             '<mo stretchy="false">)</mo></mrow></semantics></math>'
             '<img class="mwe-math-fallback-image-inline mw-invert skin-invert"'
             ' src="data:image/svg+xml;base64," /></span></span>word'
-            "</td></tr></tbody></table>",
-            "html.parser",
-        )
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
+            "</td></tr></tbody></table>"
         )
         # Column width is 16 (``word $f(x)$ word``); all rows align.
         assert result == (
