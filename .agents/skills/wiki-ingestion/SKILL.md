@@ -163,11 +163,32 @@ After pasting, the file has two `## references` sections: the __template section
 3. Delete the template's `## references` section (heading + its content, including trailing blank line) from the top of the file.
 4. If the pasted content has __no__ `## references`, leave the template's `## references` in place — the attribution stays at its current position.
 
+#### Step 4a: Review capitalization fixes (suggestions only)
+
+Before handing off to the human review, the agent checks the ingested note for possible capitalization fixes and presents them as suggestions only. The review covers:
+
+- Link targets: every `.md` link target vs. actual files in `general/<dir_code>/` and the `name_map` canonical stems.
+- Section headers: every header at ALL levels (`#` through `######`) vs. the canonical casing (`_fix_name_maybe` under the effective name_map, and the canonical form of any corresponding article stem).
+- Article filename stem vs. the intended canonical (Wikipedia-title) form.
+
+Present findings in this standard, concise format (one line per finding, tagged by kind; no prose):
+
+```text
+Proposed capitalization fixes (suggestions only — not applied):
+- link: `modern physics.md` → `Modern physics.md`
+- header (`##`): `modern physics` → `Modern physics`
+- stem: `modern physics` → `Modern physics`
+```
+
+or the single line `No capitalization fixes proposed.` when the review finds nothing.
+
+__Hard rule:__ do NOT apply any suggestion — do not edit the note, do not run `--reprocess`, do not modify `name_map.jsonc`. The human decides during Step 5; approved suggestions are applied in Step 6b.
+
 ### Step 5: Manual review and editing
 
-⏸️ __Stop here.__ Let humans review the Markdown output manually, fix formatting issues, add flashcards (cloze or QA markup), and make any other edits. The agent should not perform these tasks.
+⏸️ __Stop here.__ Let humans review the Markdown output manually, fix formatting issues, add flashcards (cloze or QA markup), review the Step 4a suggestions (accepting or rejecting each), and make any other edits. The agent should not perform these tasks.
 
-When re-invoking the skill to continue, tell the agent the file path of the note being reviewed and that manual editing is complete.
+When re-invoking the skill to continue, tell the agent the file path of the note being reviewed and that manual editing (including the Step 4a suggestion decisions) is complete.
 
 ### Step 6: Review and finalize
 
@@ -179,10 +200,10 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 
 #### Step 6b: Fix link capitalization (conditional)
 
-Run this when Step 5 review finds wrong link-target casing, wrong `#` heading casing, or a filename stem that does not match the intended canonical form. The same `--reprocess` command applies for ad-hoc fixes outside the ingestion workflow.
+Run this when Step 5 review finds wrong link-target casing, wrong section-header casing at any level (`#` through `######`), or a filename stem that does not match the intended canonical form — including the suggestions accepted from Step 4a. The same `--reprocess` command applies for ad-hoc fixes outside the ingestion workflow.
 
 1. Identify affected Wikipedia title variants and propose `name_map` entries using the __4 title variants per stem__ convention (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below). Use repeated `--mapping TITLE STEM` flags for multiple variants, or a single `--mapping-file` JSONC object (not both).
-1. Preview with dry-run:
+2. Preview with dry-run:
 
 ```bash
 uv run -m scripts.convert_wiki --reprocess \
@@ -211,13 +232,13 @@ Replace `<note_path>` with the note from Step 1 (e.g. `general/eng/modern physic
 
 `--mapping` and `--mapping-file` are mutually exclusive. At least one of `--mapping`, `--mapping-file`, or `--article` is required.
 
-`--reprocess` updates `name_map.jsonc`, reconciles redirect symlinks as-if the mappings existed at ingestion, and rewrites markdown link targets — it does __not__ re-fetch Wikipedia HTML and is not a substitute for Step 3. Merge precedence: `effective_map = base_names_map | cli_pairs` (inline `--mapping`) or `base_names_map | file_mappings` (`--mapping-file`).
+`--reprocess` updates `name_map.jsonc`, reconciles redirect symlinks as-if the mappings existed at ingestion, and rewrites markdown link targets and section headers at all levels (`#`-`######`) — it does __not__ re-fetch Wikipedia HTML and is not a substitute for Step 3. Merge precedence: `effective_map = base_names_map | cli_pairs` (inline `--mapping`) or `base_names_map | file_mappings` (`--mapping-file`).
 
 | Invariant | Rule |
 | --------- | ---- |
 | Real files | `.md` files are never deleted or overwritten by symlink operations |
 | Symlinks | Created, retargeted, or removed only when `from_stem != to_stem` |
-| Markdown | Link targets and the first `#` heading only; flashcard `{@{...}@}` preserved |
+| Markdown | Link targets and section headers at all levels (`#`-`######`); flashcard `{@{...}@}` preserved |
 | Collisions | Rename collisions raise before any markdown rewrites |
 
 Stem migration compares `_stem_for_title(title, base_map)` vs `_stem_for_title(title, effective_map)` for titles in the redirect cache, effective map, and listed articles. Example: mapping `"Modern physics": "modern physics"` → `"Modern physics": "Modern physics"` renames `general/eng/modern physics.md` to `Modern physics.md`, updates link targets, and removes the redirect symlink when from == to.
@@ -298,8 +319,9 @@ The `--dry-run` flag has no effect without `--update-redirects`. The report prin
 ## Reference: name_map mechanism in `convert_wiki.py`
 
 The name_map is a `dict[str, str]` that maps Wikipedia page titles (or variants) to
-local filename stems used in `general/eng/`. It ensures links and section headers in
-ingested Wikipedia articles use the correct casing to match actual `general/eng/*.md` files.
+local filename stems used in `general/eng/`. It ensures links and section headers at
+ALL levels (h1-h6) in ingested Wikipedia articles use the correct casing to match
+actual `general/eng/*.md` files.
 
 ### How entries are maintained (`_load_names_map`)
 
@@ -340,12 +362,16 @@ capitalisation like `Fourier...` → `fourier...`), and leaves mixed-case names 
 
 ### Where `_fix_name_maybe` is called
 
-| Call site                      | `replace_underscores` | Input                             |
-| ------------------------------ | --------------------- | --------------------------------- |
-| `_handle_header`               | `False`               | Section header text               |
-| `_handle_link` — `title` param | `True`                | Link display text / page title    |
-| `_handle_link` — `to` param    | `True`                | Redirect-resolved target filename |
-| `_handle_link` — `to_fragment` | `True`                | `#fragment` part of link          |
+| Call site                        | `replace_underscores` | Input                                            |
+| -------------------------------- | --------------------- | ------------------------------------------------ |
+| `_handle_header`                 | `False`               | Section header text (all heading levels, h1-h6)  |
+| `_handle_anchor` — `title` param | `True`                | Link display text / page title                   |
+| `_handle_anchor` — `to` param    | `True`                | Redirect-resolved target filename                |
+| `_handle_anchor` — `to_fragment` | `True`                | `#fragment` part of link                         |
+
+During `--reprocess`, the effective name_map is re-applied to every section header
+at all levels (`_rewrite_markdown_headings`) and to link targets, so capitalization
+fixes accepted in Step 5 propagate to already-ingested notes.
 
 __Critical__: `title` and `to` are independent inputs — `title` is the `<a>` tag's
 `title` attribute, `to` is `redirect_map[title].to`. Both go through the same
@@ -354,7 +380,7 @@ NOT cover the link target; both need separate entries if they differ.
 
 ### Snapshot tests and `aux.json`
 
-The snapshot test uses `tests/scripts/test_convert_wiki/snapshots/<name>.aux.json` together with the shared `name_map.json` baseline. Per-test overrides use `name_map_overrides`:
+The snapshot test uses `tests/scripts/convert_wiki/snapshots/<name>.aux.json` together with the shared `name_map.jsonc` baseline (a symlink to `scripts/assets/convert_wiki.name_map.jsonc`). Per-test overrides use `name_map_overrides`:
 
 ```json
 {

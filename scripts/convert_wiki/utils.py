@@ -75,8 +75,29 @@ def _fix_name_maybe(
         if name in names_map:
             return names_map[name]
     if len(name) > 1 and name[1:].islower():
-        return name[0].lower() + name[1:]
+        lowered = name[0].lower() + name[1:]
+        if lowered in names_map:
+            return names_map[lowered]
+        return lowered
     return name
+
+
+async def _symlink_to_idempotent(
+    path: Path,
+    target: str,
+    *,
+    target_is_directory: bool = False,
+) -> None:
+    """Create *path* → *target* unless an equivalent symlink already exists.
+
+      Concurrent converters may race to create the same redirect symlink; treat
+    a matching existing symlink as success and re-raise only on conflict.
+    """
+    try:
+        await path.symlink_to(target, target_is_directory=target_is_directory)
+    except FileExistsError:
+        if not (await path.is_symlink() and str(await path.readlink()) == target):
+            raise
 
 
 async def _create_redirect_symlinks(
@@ -103,15 +124,15 @@ async def _create_redirect_symlinks(
             if str(await redirect_file.readlink()) != target:
                 await redirect_file.unlink()
                 await _unlink_case_colliding_symlinks(wiki_lang_dir_path, redirect_name)
-                await (wiki_lang_dir_path / redirect_name).symlink_to(
+                await _symlink_to_idempotent(
+                    wiki_lang_dir_path / redirect_name,
                     target,
-                    target_is_directory=False,
                 )
     else:
         await _unlink_case_colliding_symlinks(wiki_lang_dir_path, redirect_name)
-        await (wiki_lang_dir_path / redirect_name).symlink_to(
+        await _symlink_to_idempotent(
+            wiki_lang_dir_path / redirect_name,
             target,
-            target_is_directory=False,
         )
     mirror_name = redirect_name
     expected_mirror_target = str(
@@ -123,15 +144,15 @@ async def _create_redirect_symlinks(
             if str(await mirror_file.readlink()) != expected_mirror_target:
                 await mirror_file.unlink()
                 await _unlink_case_colliding_symlinks(wiki_dir_path, mirror_name)
-                await (wiki_dir_path / mirror_name).symlink_to(
+                await _symlink_to_idempotent(
+                    wiki_dir_path / mirror_name,
                     expected_mirror_target,
-                    target_is_directory=False,
                 )
     else:
         await _unlink_case_colliding_symlinks(wiki_dir_path, mirror_name)
-        await (wiki_dir_path / mirror_name).symlink_to(
+        await _symlink_to_idempotent(
+            wiki_dir_path / mirror_name,
             expected_mirror_target,
-            target_is_directory=False,
         )
 
 

@@ -51,6 +51,25 @@ _COLLAPSE_SPACES_REGEX = re.compile(r" {2,}")
 _PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
 """Whitespace and separator chars for sidebar tight wrapping."""
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
+"""Containers where sole formula rows are display math."""
+_DISPLAY_MATH_CONTAINERS = frozenset({"dd", "dt"})
+"""LaTeX environments whose trailing punct belongs on the last row."""
+_DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = (
+    "aligned",
+    "align",
+    "align*",
+    "gather",
+    "gather*",
+    "multline",
+    "split",
+    "cases",
+    "array",
+    "matrix",
+    "pmatrix",
+    "bmatrix",
+    "vmatrix",
+    "Bmatrix",
+)
 
 
 class WikiHtmlConverter:
@@ -258,6 +277,9 @@ class WikiHtmlConverter:
             config.suffix = "\n\n"
             process_strings = process_strings_blockquote
 
+        if ele.name in _DISPLAY_MATH_CONTAINERS or ele.name == "p":
+            self._normalize_external_math_punctuation(ele)
+
         soon_values, list_stack = await self._convert_children(
             ele,
             list_stack=list_stack,
@@ -307,7 +329,7 @@ class WikiHtmlConverter:
             return self._handle_image(ele, classes)
 
         if ele.name == "a" and "mw-file-description" not in classes:
-            return await self._handle_link(ele, classes)
+            return await self._handle_anchor(ele, classes)
 
         if ele.name == "ol":
             return self._handle_ol(ele, classes, list_stack)
@@ -567,6 +589,8 @@ class WikiHtmlConverter:
 
     def _handle_div(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
         """Handle <div> elements, with special handling for equation-box divs."""
+        if "shortdescription" in classes:
+            return _HandlerConfig(suffix="\n\n")
         if "equation-box" not in classes:
             return self._handle_block_level(ele, classes)
 
@@ -615,6 +639,23 @@ class WikiHtmlConverter:
     _handle_dd = _handle_block_level
     _handle_dt = _handle_block_level
 
+    def _handle_dl(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
+        """Render <dl> definition lists, one row per line."""
+        # Join sibling rows with "\n" instead of the default "" so that each
+        # <dd>/<dt> (e.g. a sole-math row) stays on its own line.  Whitespace-
+        # only text between rows is dropped first, otherwise it would join as
+        # empty strings and produce stray blank lines (changing single-row
+        # output).  Keep the current no-joiner behavior inside table cells.
+        in_table = self._in_table_cell(ele)
+        joiner = "" if in_table else "\n"
+        if joiner:
+            for child in tuple(ele.children):
+                if isinstance(child, NavigableString) and not child.strip():
+                    child.extract()
+        # Terminate the block with a blank line like <p> does, so a sole-math
+        # <dd> row is symmetric (blank line before and after).
+        return _HandlerConfig(joiner=joiner, suffix="" if in_table else "\n\n")
+
     def _handle_p(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render a <p> paragraph with appropriate spacing."""
 
@@ -642,16 +683,115 @@ class WikiHtmlConverter:
         return _HandlerConfig(process_strings=process)
 
     @staticmethod
-    def _is_inline_math(ele: Tag) -> bool:
+    def _math_outer_span(math_ele: Tag) -> Tag | None:
+        """Return the ``mwe-math-element`` wrapper around a ``<math>`` tag."""
+        parent: PageElement | None = math_ele
+        while parent is not None:
+            if isinstance(parent, Tag):
+                class_str = " ".join(parent.get_attribute_list("class"))
+                if "mwe-math-element" in class_str:
+                    return parent
+            parent = parent.parent
+        return None
+
+    @staticmethod
+    def _following_punctuation_sibling(outer_span: Tag) -> str:
+        """Return ``.`` or ``,`` when the next substantive sibling is punct-only."""
+        sibling: PageElement | None = outer_span.next_sibling
+        while isinstance(sibling, NavigableString) and not sibling.strip():
+            sibling = sibling.next_sibling
+        if isinstance(sibling, NavigableString):
+            stripped = sibling.strip()
+            if stripped in {".", ","}:
+                return stripped
+        return ""
+
+    @staticmethod
+    def _decompose_punctuation_sibling(outer_span: Tag) -> None:
+        """Remove a punct-only text sibling immediately following *outer_span*."""
+        sibling: PageElement | None = outer_span.next_sibling
+        while isinstance(sibling, NavigableString) and not sibling.strip():
+            sibling = sibling.next_sibling
+        if isinstance(sibling, NavigableString):
+            stripped = sibling.strip()
+            if stripped in {".", ","}:
+                sibling.extract()
+
+    @staticmethod
+    def _substantive_child_count(container: Tag) -> int:
+        """Count non-whitespace children of *container*."""
+        return sum(
+            1
+            for child in container.children
+            if not (isinstance(child, NavigableString) and not child.strip())
+        )
+
+    @staticmethod
+    def _contains_display_environment(alt_text: str) -> bool:
+        """Return whether *alt_text* closes a known display math environment."""
+        return any(rf"\end{{{env}}}" in alt_text for env in _DISPLAY_MATH_ENVIRONMENTS)
+
+    @staticmethod
+    def _qualifies_for_external_punct_absorption(
+        container: Tag, outer_span: Tag, alt_text: str
+    ) -> bool:
+        """Return whether external punct after *outer_span* should be absorbed."""
+        if not WikiHtmlConverter._following_punctuation_sibling(outer_span):
+            return False
+        if WikiHtmlConverter._substantive_child_count(container) != 2:
+            return False
+        if container.name in _DISPLAY_MATH_CONTAINERS:
+            return True
+        return WikiHtmlConverter._contains_display_environment(alt_text)
+
+    @staticmethod
+    def _inject_external_punctuation(alt_text: str, punct: str) -> str:
+        """Insert ``\\,`` + *punct* inside display envs or at end of *alt_text*."""
+        suffix = R"\," + punct
+        best_idx = -1
+        for env in _DISPLAY_MATH_ENVIRONMENTS:
+            end_token = rf"\end{{{env}}}"
+            idx = alt_text.rfind(end_token)
+            if idx > best_idx:
+                best_idx = idx
+        if best_idx >= 0:
+            return alt_text[:best_idx].rstrip() + suffix + alt_text[best_idx:]
+        return alt_text.rstrip() + suffix
+
+    @staticmethod
+    def _math_sibling_container(math_ele: Tag) -> Tag | None:
+        """Return the element whose substantive children drive inline/block classification."""
+        outer_span = WikiHtmlConverter._math_outer_span(math_ele)
+        if outer_span is not None:
+            parent = outer_span.parent
+            return parent if isinstance(parent, Tag) else None
+        parent: PageElement | None = math_ele.parent
+        if not isinstance(parent, Tag):
+            return None
+        for _ in range(2):
+            parent = parent.parent
+            if not isinstance(parent, Tag):
+                return None
+        return parent
+
+    @staticmethod
+    def _is_inline_math(ele: Tag, *, alt_text: str = "") -> bool:
         """Determine if a <math> element should use inline $ delimiters."""
         parent = ele.parent
         if not parent or "inline" not in str(parent.get("class", "")):
             return False
-        for _ in range(2):
-            parent = parent.parent
-            if parent is None:
-                return False
-        return len(parent) > 1
+        outer_span = WikiHtmlConverter._math_outer_span(ele)
+        container = WikiHtmlConverter._math_sibling_container(ele)
+        if not isinstance(container, Tag):
+            return False
+        if (
+            outer_span is not None
+            and WikiHtmlConverter._qualifies_for_external_punct_absorption(
+                container, outer_span, alt_text
+            )
+        ):
+            return False
+        return WikiHtmlConverter._substantive_child_count(container) > 1
 
     @staticmethod
     def _strip_trailing_punctuation(text: str) -> tuple[str, str]:
@@ -664,6 +804,47 @@ class WikiHtmlConverter:
                 suffix += text[-1]
                 text = text[:-1]
         return text.rstrip(), suffix
+
+    @staticmethod
+    def _prepare_math_alttext(raw: str) -> str:
+        """Strip Wikipedia math wrappers from an ``alttext`` attribute value."""
+        alt_text = str(raw).strip()
+        for _prefix in (R"{\displaystyle", R"{\textstyle"):
+            if alt_text.startswith(_prefix):
+                alt_text = alt_text.removeprefix(_prefix).lstrip()
+                alt_text = alt_text.removesuffix(R"}")
+                break
+        if alt_text.endswith(R"\ "):
+            alt_text += "{}"
+        else:
+            alt_text = alt_text.rstrip()
+        return alt_text
+
+    def _normalize_external_math_punctuation(self, container: Tag) -> None:
+        """Absorb external punct into ``alttext`` before concurrent child conversion."""
+        for child in list(container.children):
+            if not isinstance(child, Tag):
+                continue
+            class_str = " ".join(child.get_attribute_list("class"))
+            if "mwe-math-element" not in class_str:
+                continue
+            outer_span = child
+            math = outer_span.find("math")
+            if not isinstance(math, Tag):
+                continue
+            raw_alttext = math.get("alttext")
+            if not raw_alttext:
+                continue
+            alt_text = self._prepare_math_alttext(str(raw_alttext))
+            if not self._qualifies_for_external_punct_absorption(
+                container, outer_span, alt_text
+            ):
+                continue
+            punct = self._following_punctuation_sibling(outer_span)
+            if not punct:
+                continue
+            math["alttext"] = self._inject_external_punctuation(alt_text, punct)
+            self._decompose_punctuation_sibling(outer_span)
 
     @staticmethod
     def _escape_flashcard_delimiters(text: str) -> str:
@@ -685,16 +866,7 @@ class WikiHtmlConverter:
         """Render <math> elements with LaTeX delimiters."""
         prefix = suffix = ""
         if alt_text := ele.get("alttext"):
-            alt_text = str(alt_text).strip()
-            for _prefix in (R"{\displaystyle", R"{\textstyle"):
-                if alt_text.startswith(_prefix):
-                    alt_text = alt_text.removeprefix(_prefix).lstrip()
-                    alt_text = alt_text.removesuffix(R"}")
-                    break
-            if alt_text.endswith(R"\ "):
-                alt_text += "{}"
-            else:
-                alt_text = alt_text.rstrip()
+            alt_text = self._prepare_math_alttext(str(alt_text))
             alt_text = self._escape_flashcard_delimiters(alt_text)
             # Workaround for KaTeX 0.16.21 (bundled in VS Code's markdown-math
             # extension): \! and \negthinspace before _/^ trigger an "unknown
@@ -705,7 +877,7 @@ class WikiHtmlConverter:
                 r"\\(?:\!|negthinspace)(?=[_^])", r"\\mkern-3mu", alt_text
             )
 
-            inline = self._is_inline_math(ele)
+            inline = self._is_inline_math(ele, alt_text=alt_text)
             prefix, suffix = (
                 "$" if inline else "$$",
                 "$" if inline else "$$",
@@ -986,10 +1158,10 @@ class WikiHtmlConverter:
             return desc
         return file_title
 
-    async def _handle_link(
+    async def _handle_anchor(
         self, ele: Tag, classes: frozenset[str]
     ) -> _HandlerConfig | None:
-        """Handle <a> link elements."""
+        """Handle ``<a>`` link elements."""
         if (title := ele.get("title")) and title not in _cfg._BAD_TITLES:
             title = str(title)
             if "new" in classes:

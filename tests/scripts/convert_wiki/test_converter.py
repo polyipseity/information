@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 from anyio import Path as AnyioPath
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.latex import LatexConverter
@@ -133,14 +133,143 @@ class TestMathHandling:
         assert result == ""
 
     @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        ("punct", "expected"),
+        [
+            (".", "$f(x)$."),
+            (",", "$f(x)$,"),
+        ],
+    )
     async def test_inline_math_trailing_punctuation(
-        self, converter: WikiHtmlConverter
+        self, converter: WikiHtmlConverter, punct: str, expected: str
     ) -> None:
         """Inline math trailing ``.`` or ``,`` should appear after closing ``$``."""
-        html = f"<p>{_inline_math_span(r'{\displaystyle f(x)}')}.</p>"
+        html = f"<p>{_inline_math_span(r'{\displaystyle f(x)}')}{punct}</p>"
         result = await _convert(converter, html)
-        # The period after the math span should remain outside the $...$.
-        assert "$f(x)$." in result or "f(x)$." in result
+        assert expected in result
+        assert f"f(x)\\,${punct}" not in result
+
+    @pytest.mark.anyio
+    @pytest.mark.parametrize(
+        ("container", "punct", "latex", "expected"),
+        [
+            ("dd", ".", r"{\displaystyle R(X,Y)}", "$$R(X,Y)\\,.$$"),
+            ("dd", ",", r"{\displaystyle a}", "$$a\\,,$$"),
+            ("dt", ".", r"{\displaystyle b}", "$$b\\,.$$"),
+        ],
+    )
+    async def test_display_container_external_punctuation_is_block(
+        self,
+        converter: WikiHtmlConverter,
+        container: str,
+        punct: str,
+        latex: str,
+        expected: str,
+    ) -> None:
+        """Sole formula rows in ``<dd>``/``<dt>`` absorb external punct as block math."""
+        html = f"<{container}>{_inline_math_span(latex)}{punct}</{container}>"
+        result = await _convert(converter, html)
+        assert expected in result
+        if punct == ".":
+            assert result.count(punct) == 1
+
+    @pytest.mark.anyio
+    async def test_dd_with_leading_text_does_not_absorb_external_period(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``<dd>`` rows with prose keep external punct outside inline math."""
+        html = f"<dd>therefore {_inline_math_span(r'{\displaystyle f(x)}')}.</dd>"
+        result = await _convert(converter, html)
+        assert "$f(x)$." in result
+        assert "$$f(x)\\,.$$" not in result
+
+    @pytest.mark.anyio
+    async def test_dd_internal_period_not_duplicated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Internal punct in ``alttext`` must not be doubled by external absorption."""
+        html = f"<dd>{_inline_math_span(r'{\displaystyle f(x).}')}</dd>"
+        result = await _convert(converter, html)
+        assert "$$f(x).$$" in result
+        assert "$$f(x)..$$" not in result
+
+    @pytest.mark.anyio
+    async def test_aligned_external_period_injected_before_end(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """External ``.`` after aligned env should land before ``\\end{aligned}``."""
+        alttext = r"{\displaystyle \begin{aligned}a&=b\\c&=d\end{aligned}}"
+        html = f"<dd>{_inline_math_span(alttext)}.</dd>"
+        result = await _convert(converter, html)
+        assert r"d\,.\end{aligned}$$" in result
+        assert r"\end{aligned}.$$" not in result
+        assert result.count(".") == 1
+
+    @pytest.mark.anyio
+    async def test_aligned_in_paragraph_external_period(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Aligned env with external ``.`` in ``<p>`` should still be block math."""
+        alttext = r"{\displaystyle \begin{aligned}x&=1\end{aligned}}"
+        html = f"<p>{_inline_math_span(alttext)}.</p>"
+        result = await _convert(converter, html)
+        assert r"$$\begin{aligned}x&=1\,.\end{aligned}$$" in result
+        assert result.count(".") == 1
+
+    @pytest.mark.parametrize(
+        ("alt_text", "punct", "expected"),
+        [
+            ("f(x)", ".", r"f(x)\,."),
+            ("a", ",", r"a\,,"),
+            (
+                r"\begin{aligned}a&=b\\c&=d\end{aligned}",
+                ".",
+                r"\begin{aligned}a&=b\\c&=d\,.\end{aligned}",
+            ),
+        ],
+    )
+    def test_inject_external_punctuation(
+        self, alt_text: str, punct: str, expected: str
+    ) -> None:
+        """``_inject_external_punctuation`` inserts ``\\,`` + punct at the right site."""
+        assert (
+            WikiHtmlConverter._inject_external_punctuation(alt_text, punct) == expected
+        )
+
+    @pytest.mark.anyio
+    async def test_normalize_external_math_punctuation_mutates_dom(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Pre-conversion normalize should absorb punct into ``alttext`` and drop sibling."""
+        html = f"<dd>{_inline_math_span(r'{\displaystyle x}')}.</dd>"
+        soup = BeautifulSoup(html, "html.parser")
+        dd = soup.find("dd")
+        assert isinstance(dd, Tag)
+        converter._normalize_external_math_punctuation(dd)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        outer = WikiHtmlConverter._math_outer_span(math)
+        assert outer is not None
+        assert math.get("alttext") == "x\\,."
+        assert WikiHtmlConverter._following_punctuation_sibling(outer) == ""
+
+    @pytest.mark.anyio
+    async def test_sfrac_like_math_without_outer_wrapper_stays_inline(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Inline math without ``mwe-math-element`` wrapper should stay ``$...$``."""
+        html = (
+            "<body>"
+            "<p>intro</p>"
+            "<p>before "
+            '<span class="mwe-math-mathml-inline">'
+            '<math alttext="{\\displaystyle \\frac{a}{2\\pi}}"></math>'
+            "</span>, after</p>"
+            "</body>"
+        )
+        result = await _convert(converter, html)
+        assert "$\\frac{a}{2\\pi}$," in result
+        assert "$$\\frac{a}{2\\pi}$$" not in result
 
     @pytest.mark.anyio
     async def test_math_displaystyle_prefix(self, converter: WikiHtmlConverter) -> None:
@@ -223,6 +352,109 @@ class TestMathHandling:
         assert text == r"a\,"
         assert punct == ""
 
+    @pytest.mark.anyio
+    async def test_dd_sole_math_in_dl_is_isolated_row(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Sole ``<dd>`` math inside ``<dl>`` should render as its own row."""
+        html = (
+            "<p>by</p>"
+            f"<dl><dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd></dl>"
+            "<p>for</p>"
+        )
+        result = await _convert(converter, html)
+        assert "\n\n$$f(x)$$\n" in result
+        assert "$$f(x)$$\n\n\nfor" in result
+
+    @pytest.mark.anyio
+    async def test_dt_sole_math_in_dl_is_isolated_row(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Sole ``<dt>`` math inside ``<dl>`` should render as its own row."""
+        html = (
+            "<p>by</p>"
+            f"<dl><dt>{_block_math_span(r'{\displaystyle g(x)}')}</dt></dl>"
+            "<p>for</p>"
+        )
+        result = await _convert(converter, html)
+        assert "\n\n$$g(x)$$\n" in result
+        assert "$$g(x)$$\n\n\nfor" in result
+
+    @pytest.mark.anyio
+    async def test_multi_dd_math_rows_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Multiple ``<dd>`` math rows in one ``<dl>`` should not merge."""
+        html = (
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+        )
+        result = await _convert(converter, html)
+        assert "$$f(x)$$\n$$g(x)$$" in result
+        assert "$$f(x)$$$$g(x)$$" not in result
+
+    @pytest.mark.anyio
+    async def test_multi_dd_math_rows_formatting_agnostic(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Whitespace between ``<dd>`` rows must not change the output."""
+        compact = (
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+        )
+        spaced = (
+            "<dl>\n"
+            f"  <dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>\n"
+            f"  <dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>\n"
+            "</dl>"
+        )
+        result_compact = await _convert(converter, compact)
+        result_spaced = await _convert(converter, spaced)
+        assert result_compact == result_spaced
+        assert "$$f(x)$$\n$$g(x)$$" in result_compact
+
+    @pytest.mark.anyio
+    async def test_mixed_dt_dd_rows_each_on_own_line(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Mixed ``<dt>``/``<dd>`` rows should each stay on their own line."""
+        html = (
+            "<dl>"
+            "<dt>term</dt>"
+            f"<dd>{_block_math_span(r'{\displaystyle a}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle b}')}</dd>"
+            "</dl>"
+        )
+        result = await _convert(converter, html)
+        assert "term\n$$a$$\n$$b$$" in result
+
+    @pytest.mark.anyio
+    async def test_dd_prose_then_math_rows(self, converter: WikiHtmlConverter) -> None:
+        """Prose ``<dd>`` row keeps inline math; math row is block on next line."""
+        html = (
+            "<dl>"
+            f"<dd>therefore {_inline_math_span(r'{\displaystyle f(x)}')}.</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle F(x)}')}</dd>"
+            "</dl>"
+        )
+        result = await _convert(converter, html)
+        assert "therefore $f(x)$." in result
+        assert "$$F(x)$$" in result
+        assert "$f(x)$.\n$$F(x)$$" in result
+
+    @pytest.mark.anyio
+    async def test_block_classed_math_in_paragraph_stays_inline_flow(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Block-classed math inside prose stays in line flow (Option A)."""
+        html = f"<p>before {_block_math_span(r'{\displaystyle F(x)}')} after</p>"
+        result = await _convert(converter, html)
+        assert "before $$F(x)$$ after" in result
+
 
 # ---------------------------------------------------------------------------
 
@@ -232,7 +464,7 @@ class TestMathHandling:
 
 
 class TestLinkHandling:
-    """Tests for ``_handle_link`` and ``_handle_selflink``."""
+    """Tests for ``_handle_anchor`` and ``_handle_selflink``."""
 
     @pytest.mark.anyio
     async def test_simple_link(self, converter: WikiHtmlConverter) -> None:
@@ -261,6 +493,32 @@ class TestLinkHandling:
         html = '<a class="mw-selflink" href="/wiki/Current_Page">current</a>'
         result = await _convert(converter, html)
         assert "[current](" in result
+
+    @pytest.mark.anyio
+    async def test_skips_parsoid_link_metadata(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Parsoid ``<link>`` metadata must be ignored (no handler name collision)."""
+        html = (
+            '<p>before<link rel="mw:PageProp/Category" href="./Category:Foo"/>after</p>'
+        )
+        result = await _convert(converter, html)
+        assert "beforeafter" in result
+        assert "Category:Foo" not in result
+
+    @pytest.mark.anyio
+    async def test_shortdescription_block_spacing_before_hatnote(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Short-description metadata must be separated from the following hatnote."""
+        html = (
+            '<div class="shortdescription">Approach to general relativity</div>'
+            '<div class="hatnote">This article is about general tetrads.</div>'
+        )
+        result = await _convert(converter, html)
+        assert result == (
+            "Approach to general relativity\n\n- This article is about general tetrads.\n"
+        )
 
     @pytest.mark.anyio
     async def test_link_new_page(self, converter: WikiHtmlConverter) -> None:

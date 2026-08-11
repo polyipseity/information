@@ -34,7 +34,7 @@ Most alcohols are {@{less [dense](density.md) than [water](water.md). Alcohols w
 
 Alcohols {@{react with strong [acids](acid.md) like concentrated [sulfuric acid](sulfuric%20acid.md) with heating to produce [alkenes](alkene.md)}@}. It obeys {@{[Zaitsev's rule](Zaitsev's%20rule.md)}@}, which states that {@{the most stable alkene, which is usually the most substituted (more [hydrogen](hydrogen.md) is substituted on the [carbon](carbon.md)–carbon [double bond](double%20bond.md)), is formed}@}. <!--SR:!fsrs,2031-11-10T00:00:00.000Z,1929,1928.84928439,4.48184559,2,10,0,0,2026-07-30T00:00:00.000Z!2028-06-15,784,220!fsrs,2027-04-25T00:00:00.000Z,277,277.32349461,1,2,7,0,0,2026-07-22T00:00:00.000Z-->
 
-In catalytic dehydration, alcohols {@{are dehydrated by passing their [vapors](vapor.md) over a heated [aluminum oxide](aluminium%20oxide.md) and then collected over [water](water.md)}@}. <!--SR:!2028-04-05,1068,240-->
+In {@{catalytic dehydration}@}, {@{alcohols are dehydrated}@} by {@{passing their [vapors](vapor.md) over a heated [aluminum oxide](aluminium%20oxide.md)}@} and then {@{collected over [water](water.md)}@}. <!--SR:!2028-04-05,1068,240-->
 
 ### nucleophilic substitution
 
@@ -44,7 +44,7 @@ In catalytic dehydration, alcohols {@{are dehydrated by passing their [vapors](v
 
 Primary alcohols {@{can be oxidized to [aldehydes](aldehyde.md) and then [carboxylic acids](carboxylic%20acid.md). Secondary ones can be oxidized to [ketones](ketone.md). Tertiary ones are resistant to oxidation}@}. {@{Acidified [potassium dichromate](potassium%20dichromate.md)}@} can be used as the [oxidizing agent](oxidizing%20agent.md). <!--SR:!2028-11-16,1374,300!2036-01-02,3506,340-->
 
-To produce [carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md), {@{heat the solution (under [reflux](reflux.md)) with the [oxidizing agent](oxidizing%20agent.md)}@}. To produce [aldehydes](aldehyde.md), {@{heat the solution while adding the oxidizing agent dropwise slowly. [Distill](distillation.md) the aldehyde out of it by keeping the temperature between the [boiling points](boiling%20point.md) of the aldehyde and the carboxylic acid}@}. <!--SR:!2027-01-07,876,275!fsrs,2033-01-07T00:00:00.000Z,2311,2311.38331337,3.48123055,2,11,0,0,2026-09-10T00:00:00.000Z-->
+To produce {@{[carboxylic acids](carboxylic%20acid.md) or [ketones](ketone.md)}@}, {@{heat the solution (under [reflux](reflux.md)) with the [oxidizing agent](oxidizing%20agent.md)}@}. To produce {@{[aldehydes](aldehyde.md)}@}, {@{heat the solution while adding the oxidizing agent dropwise slowly}@}. {@{[Distill](distillation.md) the aldehyde out of it}@} by keeping {@{the temperature between the [boiling points](boiling%20point.md) of the aldehyde and the carboxylic acid}@}. <!--SR:!2027-01-07,876,275!fsrs,2033-01-07T00:00:00.000Z,2311,2311.38331337,3.48123055,2,11,0,0,2026-09-10T00:00:00.000Z-->
 
 ### reactions
 

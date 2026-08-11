@@ -52,6 +52,20 @@ class TestFixNameMaybe:
         result = _mod._fix_name_maybe("aBC")  # noqa: SLF001
         assert result == "aBC"  # first char is already lowercase
 
+    def test_lowercase_first_char_relooks_up_names_map(self) -> None:
+        """Lowercase-first-char fallback should consult names_map on lowered key."""
+        names_map = {"lie bracket of vector fields": "Lie bracket of vector fields"}
+        result = _mod._fix_name_maybe(  # noqa: SLF001
+            "Lie bracket of vector fields",
+            names_map=names_map,
+        )
+        assert result == "Lie bracket of vector fields"
+
+    def test_unmapped_title_still_lowercases_first_char(self) -> None:
+        """Unmapped titles should keep the lowercase-first-char heuristic."""
+        result = _mod._fix_name_maybe("Fourier transform", names_map={})  # noqa: SLF001
+        assert result == "fourier transform"
+
 
 class TestFixFilename:
     """Tests for the _fix_filename function."""
@@ -131,6 +145,7 @@ class TestFindChildExact:
         original_exists = AnyioPath.exists
 
         async def fake_exists(self: AnyioPath) -> bool:
+            """Return True for case-insensitive matches of ``exponential map.md``."""
             if self.name.lower() == "exponential map.md":
                 return True
             return await original_exists(self)
