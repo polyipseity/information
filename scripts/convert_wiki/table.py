@@ -460,6 +460,13 @@ class TableConverter:
             # Ensure at least as many alignments as cells.
             while len(alignments) < len(cells):
                 alignments.append("---")
+            # Right-align the scope=row label column, mirroring the
+            # all-<th> header path in _handle_tr.
+            has_scope_row = (
+                table_ele is not None and table_ele.find("th", scope="row") is not None
+            )
+            if has_scope_row and alignments:
+                alignments[0] = "--:"
             marker_tag = soup.new_tag("tr", attrs={"data-alignment-row": "true"})
             for a in alignments:
                 td = soup.new_tag("td", attrs={"data-align": a})
