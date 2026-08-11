@@ -7,6 +7,7 @@ from os import PathLike
 
 import pytest
 from anyio import Path as AnyioPath
+from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki import utils as _mod
 from scripts.convert_wiki.config import _NAMES_MAP
@@ -393,3 +394,30 @@ class TestTagAffixes:
         open_tag, close_tag = _mod._tag_affixes("br")  # noqa: SLF001
         assert open_tag == "<br>"
         assert close_tag == "</br>"
+
+
+class TestGetImageFilename:
+    """Tests for the _get_image_filename function."""
+
+    def test_lagrange_query_string_stripped(self) -> None:
+        """Query strings should be stripped before deriving the filename."""
+        img = BeautifulSoup(
+            '<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/'
+            "Lagrange_portrait.jpg?utm_source=en.wikipedia.org"
+            '&amp;utm_campaign=parser&amp;utm_content=thumbnail"/>',
+            "html.parser",
+        ).find("img")
+        assert isinstance(img, Tag)
+        result = _mod._get_image_filename(img)  # noqa: SLF001
+        assert result == "Lagrange portrait.jpg"
+
+    def test_lagrange_clean_upload_url(self) -> None:
+        """A clean upload URL without query should yield the same filename."""
+        img = BeautifulSoup(
+            '<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/'
+            'Lagrange_portrait.jpg"/>',
+            "html.parser",
+        ).find("img")
+        assert isinstance(img, Tag)
+        result = _mod._get_image_filename(img)  # noqa: SLF001
+        assert result == "Lagrange portrait.jpg"

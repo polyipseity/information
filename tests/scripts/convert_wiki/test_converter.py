@@ -603,6 +603,49 @@ class TestImageHandling:
         # The image itself gets \n\n from the handler.
         assert "\n\n" in result
 
+    @pytest.mark.anyio
+    async def test_lagrange_query_string_stripped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Query strings in img src should not leak into archive output."""
+        html = (
+            '<img src="//upload.wikimedia.org/wikipedia/commons/8/8e/'
+            "Lagrange_portrait.jpg?utm_source=en.wikipedia.org"
+            '&amp;utm_campaign=parser&amp;utm_content=thumbnail"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:Lagrange_portrait.jpg"}
+        assert "../../archives/Wikimedia%20Commons/Lagrange%20portrait.jpg" in result
+
+    @pytest.mark.anyio
+    async def test_lagrange_thumb_query_string_stripped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Thumb URLs with query strings should yield the clean original filename."""
+        html = (
+            '<img src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/'
+            "Lagrange_portrait.jpg/220px-Lagrange_portrait.jpg"
+            "?utm_source=en.wikipedia.org&amp;utm_campaign=parser"
+            '&amp;utm_content=thumbnail"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:Lagrange_portrait.jpg"}
+        assert "../../archives/Wikimedia%20Commons/Lagrange%20portrait.jpg" in result
+
 
 # ---------------------------------------------------------------------------
 
