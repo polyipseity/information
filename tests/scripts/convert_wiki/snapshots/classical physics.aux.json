@@ -1,0 +1,1261 @@
+{
+  "image_metadata": {
+    "File:Stylised atom with three Bohr model orbits and stylised nucleus.svg": "Stylised atom. Blue dots are electrons, red dots are protons and black dots are neutrons.",
+    "File:Symbol category class.svg": "Symbol for Category-Class on the English Wikipedia",
+    "File:OOjs UI icon edit-ltr-progressive.svg": "An icon from the OOjs UI MediaWiki lib.",
+    "File:Modernphysicsfields 2.svg": "Same as [File:Modernphysicsfields.svg](//commons.wikimedia.org/wiki/File:Modernphysicsfields.svg) with slightly different font for the labelling to the top and left"
+  },
+  "name_map_overrides": {},
+  "redirect_cache": {
+    "Jean le Rond d'Alembert": {
+      "to": "Jean Le Rond d'Alembert",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Second law of motion": {
+      "to": "Newton's laws of motion",
+      "tofragment": "Second law",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Scientific determinism": {
+      "to": "Determinism",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Moment (physics)": {
+      "to": "Moment (physics)",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Rotating reference frame": {
+      "to": "Rotating reference frame",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of materials science": {
+      "to": "History of materials science",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of special relativity and the speed of light": {
+      "to": "Timeline of special relativity and the speed of light",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Transfermium Wars": {
+      "to": "Transfermium Wars",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Bohr–Einstein debates": {
+      "to": "Bohr–Einstein debates",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Rømer's determination of the speed of light": {
+      "to": "Rømer's determination of the speed of light",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Harmonic oscillator": {
+      "to": "Harmonic oscillator",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of materials technology": {
+      "to": "Timeline of materials technology",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of fundamental physics discoveries": {
+      "to": "Timeline of fundamental physics discoveries",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Reactive centrifugal force": {
+      "to": "Reactive centrifugal force",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Edit section: References": {
+      "to": "Edit section: References",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Condensed matter physics": {
+      "to": "Condensed matter physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Copernican Revolution": {
+      "to": "Copernican Revolution",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of special relativity": {
+      "to": "History of special relativity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Rotation around a fixed axis": {
+      "to": "Rotation around a fixed axis",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Nobel Prize in Physics": {
+      "to": "Nobel Prize in Physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of thermodynamics": {
+      "to": "Timeline of thermodynamics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Non-inertial reference frame": {
+      "to": "Non-inertial reference frame",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of classical field theory": {
+      "to": "History of classical field theory",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Johann Bernoulli": {
+      "to": "Johann Bernoulli",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Quantum information science": {
+      "to": "Quantum information science",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "William Rowan Hamilton": {
+      "to": "William Rowan Hamilton",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Continuum mechanics": {
+      "to": "Continuum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Momentum": {
+      "to": "Momentum",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Applied mechanics": {
+      "to": "Applied mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Medical physics": {
+      "to": "Medical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of fluid and continuum mechanics": {
+      "to": "Timeline of fluid and continuum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of physics": {
+      "to": "History of physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Hamiltonian mechanics": {
+      "to": "Hamiltonian mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "List of textbooks on classical mechanics and quantum mechanics": {
+      "to": "List of textbooks on classical mechanics and quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Fictitious force": {
+      "to": "Fictitious force",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Outline of astrophysics": {
+      "to": "Outline of astrophysics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Statics": {
+      "to": "Statics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Physical optics": {
+      "to": "Physical optics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Christiaan Huygens": {
+      "to": "Christiaan Huygens",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of cosmological theories": {
+      "to": "Timeline of cosmological theories",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Discovery of cosmic microwave background radiation": {
+      "to": "Discovery of cosmic microwave background radiation",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Quantum mechanics": {
+      "to": "Quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Galileo affair": {
+      "to": "Galileo affair",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Pierre Louis Maupertuis": {
+      "to": "Pierre Louis Maupertuis",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Relativity priority dispute": {
+      "to": "Relativity priority dispute",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Kinetic energy": {
+      "to": "Kinetic energy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of aerodynamics": {
+      "to": "History of aerodynamics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Pendulum (mechanics)": {
+      "to": "Pendulum (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Johannes Kepler": {
+      "to": "Johannes Kepler",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Scientific theory": {
+      "to": "Scientific theory",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Quantum physics": {
+      "to": "Quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Mechanical power (physics)": {
+      "to": "Power (physics)",
+      "tofragment": "Mechanical power",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Newton–Hooke priority controversy for the inverse square law": {
+      "to": "Hooke–Newton inverse square law controversy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Rotational frequency": {
+      "to": "Rotational frequency",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Isaac Newton": {
+      "to": "Isaac Newton",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Newton's laws of motion": {
+      "to": "Newton's laws of motion",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Physics education": {
+      "to": "Physics education",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Experimental physics": {
+      "to": "Experimental physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Non-equilibrium thermodynamics": {
+      "to": "Non-equilibrium thermodynamics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Maxwell's equations": {
+      "to": "Maxwell's equations",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of fluid mechanics": {
+      "to": "History of fluid mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of nuclear fusion": {
+      "to": "History of nuclear fusion",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of loop quantum gravity": {
+      "to": "History of loop quantum gravity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Carl Gustav Jacob Jacobi": {
+      "to": "Carl Gustav Jacob Jacobi",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Atomic, molecular, and optical physics": {
+      "to": "Atomic, molecular, and optical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Euler's laws of motion": {
+      "to": "Euler's laws of motion",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Albert Einstein": {
+      "to": "Albert Einstein",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Virtual work": {
+      "to": "Virtual work",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Computational physics": {
+      "to": "Computational physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Acoustics": {
+      "to": "Acoustics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Search for the Higgs boson": {
+      "to": "Search for the Higgs boson",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Biophysics": {
+      "to": "Biophysics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Inertia": {
+      "to": "Inertia",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Classical field theory": {
+      "to": "Classical field theory",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Angular frequency": {
+      "to": "Angular frequency",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "First observation of gravitational waves": {
+      "to": "First observation of gravitational waves",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Atomic physics": {
+      "to": "Atomic physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Nuclear physics": {
+      "to": "Nuclear physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Physical oceanography": {
+      "to": "Physical oceanography",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Couple (mechanics)": {
+      "to": "Couple (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Theoretical physics": {
+      "to": "Theoretical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Modern physics": {
+      "to": "Modern physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of electromagnetic theory": {
+      "to": "History of electromagnetic theory",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Tests of general relativity": {
+      "to": "Tests of general relativity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Daniel Bernoulli": {
+      "to": "Daniel Bernoulli",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Kinetics (physics)": {
+      "to": "Kinetics (physics)",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Relativistic mechanics": {
+      "to": "Relativistic mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Physics education research": {
+      "to": "Physics education research",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of variational principles in physics": {
+      "to": "History of variational principles in physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Solid-state physics": {
+      "to": "Solid-state physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Thermodynamics": {
+      "to": "Thermodynamics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of gravitational theory": {
+      "to": "History of gravitational theory",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Angular momentum": {
+      "to": "Angular momentum",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Rigid body": {
+      "to": "Rigid body",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Mathematical physics": {
+      "to": "Mathematical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of particle discoveries": {
+      "to": "Timeline of particle discoveries",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Euler's equations (rigid body dynamics)": {
+      "to": "Euler's equations (rigid body dynamics)",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "John von Neumann": {
+      "to": "John von Neumann",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Crystallography": {
+      "to": "Crystallography",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Theory of relativity": {
+      "to": "Theory of relativity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Decoherence": {
+      "to": "Quantum decoherence",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Classical optics": {
+      "to": "Optics",
+      "tofragment": "Classical optics",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Classical electrodynamics": {
+      "to": "Classical electromagnetism",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Quantum interference": {
+      "to": "Wave interference",
+      "tofragment": "Quantum interference",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Energy": {
+      "to": "Energy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Geophysics": {
+      "to": "Geophysics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Discovery of nuclear fission": {
+      "to": "Discovery of nuclear fission",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of quantum field theory": {
+      "to": "History of quantum field theory",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Mechanical equivalent of heat": {
+      "to": "Mechanical equivalent of heat",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Moment of inertia": {
+      "to": "Moment of inertia",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of thermodynamics": {
+      "to": "History of thermodynamics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of metamaterials": {
+      "to": "History of metamaterials",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Physical system": {
+      "to": "Physical system",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Classical mechanics": {
+      "to": "Classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of superconductivity": {
+      "to": "History of superconductivity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Josiah Willard Gibbs": {
+      "to": "Josiah Willard Gibbs",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Astronomy": {
+      "to": "Astronomy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Time": {
+      "to": "Time",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Harvard Computers": {
+      "to": "Harvard Computers",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Via Panisperna boys": {
+      "to": "Via Panisperna boys",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Joseph-Louis Lagrange": {
+      "to": "Joseph-Louis Lagrange",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of astronomy": {
+      "to": "History of astronomy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Chemical physics": {
+      "to": "Chemical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Engineering physics": {
+      "to": "Engineering physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of electrical engineering": {
+      "to": "History of electrical engineering",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Mass": {
+      "to": "Mass",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Analytical mechanics": {
+      "to": "Analytical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "General relativity": {
+      "to": "General relativity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Relative velocity": {
+      "to": "Relative velocity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of geophysics": {
+      "to": "History of geophysics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Motion": {
+      "to": "Motion",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of classical mechanics": {
+      "to": "History of classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Discovery of the neutron": {
+      "to": "Discovery of the neutron",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Friction": {
+      "to": "Friction",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Edward Routh": {
+      "to": "Edward Routh",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Simple harmonic motion": {
+      "to": "Simple harmonic motion",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Tests of special relativity": {
+      "to": "Tests of special relativity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Angular displacement": {
+      "to": "Angular displacement",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Centripetal force": {
+      "to": "Centripetal force",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Kinematics": {
+      "to": "Kinematics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Atom": {
+      "to": "Atom",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of computational physics": {
+      "to": "Timeline of computational physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Women in physics": {
+      "to": "Women in physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of molecular theory": {
+      "to": "History of molecular theory",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Astronomy in the medieval Islamic world": {
+      "to": "Astronomy in the medieval Islamic world",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Siméon Denis Poisson": {
+      "to": "Siméon Denis Poisson",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "D'Alembert's principle": {
+      "to": "D'Alembert's principle",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Augustin-Louis Cauchy": {
+      "to": "Augustin-Louis Cauchy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Displacement (geometry)": {
+      "to": "Displacement (geometry)",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Rigid body dynamics": {
+      "to": "Rigid body dynamics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of entropy": {
+      "to": "History of entropy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Lagrangian mechanics": {
+      "to": "Lagrangian mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Particle physics": {
+      "to": "Particle physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Speed": {
+      "to": "Speed",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Damping": {
+      "to": "Damping",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of quantum mechanics": {
+      "to": "Timeline of quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Linear motion": {
+      "to": "Linear motion",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Work (physics)": {
+      "to": "Work (physics)",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of Maxwell's equations": {
+      "to": "History of Maxwell's equations",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Statistical mechanics": {
+      "to": "Statistical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Semiclassical physics": {
+      "to": "Semiclassical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Edit section: Overview": {
+      "to": "Edit section: Overview",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Angular velocity": {
+      "to": "Angular velocity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of perpetual motion machines": {
+      "to": "History of perpetual motion machines",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Oxford Calculators": {
+      "to": "Oxford Calculators",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of Lorentz transformations": {
+      "to": "History of Lorentz transformations",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Atmospheric physics": {
+      "to": "Atmospheric physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Hamilton–Jacobi equation": {
+      "to": "Hamilton–Jacobi equation",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Circular motion": {
+      "to": "Circular motion",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Koopman–von Neumann classical mechanics": {
+      "to": "Koopman–von Neumann classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Force": {
+      "to": "Force",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Torque": {
+      "to": "Torque",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of condensed matter physics": {
+      "to": "Timeline of condensed matter physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of quantum mechanics": {
+      "to": "History of quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of nuclear power": {
+      "to": "History of nuclear power",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Newton's law of universal gravitation": {
+      "to": "Newton's law of universal gravitation",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Potential energy": {
+      "to": "Potential energy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Dover Publications": {
+      "to": "Dover Publications",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Vibration": {
+      "to": "Vibration",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Galileo Galilei": {
+      "to": "Galileo Galilei",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Geometrical optics": {
+      "to": "Geometrical optics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of atomic and subatomic physics": {
+      "to": "Timeline of atomic and subatomic physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Leibniz–Newton calculus controversy": {
+      "to": "Leibniz–Newton calculus controversy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Inertial frame of reference": {
+      "to": "Inertial frame of reference",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of the twin paradox": {
+      "to": "History of the twin paradox",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Paul Émile Appell": {
+      "to": "Paul Émile Appell",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Golden age of physics": {
+      "to": "Golden age of physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Physics": {
+      "to": "Physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Golden age of cosmology": {
+      "to": "Golden age of cosmology",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "General relativity priority dispute": {
+      "to": "General relativity priority dispute",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of quantum computing and communication": {
+      "to": "Timeline of quantum computing and communication",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Basic research": {
+      "to": "Basic research",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Chandrasekhar–Eddington dispute": {
+      "to": "Chandrasekhar–Eddington dispute",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of astronomy": {
+      "to": "Timeline of astronomy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Joseph Liouville": {
+      "to": "Joseph Liouville",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Special relativity": {
+      "to": "Special relativity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of gravitational physics and relativity": {
+      "to": "Timeline of gravitational physics and relativity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of nanotechnology": {
+      "to": "History of nanotechnology",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Materials science": {
+      "to": "Materials science",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Glossary of classical physics": {
+      "to": "Glossary of physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Luminiferous aether": {
+      "to": "Luminiferous aether",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Routhian mechanics": {
+      "to": "Routhian mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of atomic theory": {
+      "to": "History of atomic theory",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Physics in the medieval Islamic world": {
+      "to": "Physics in the medieval Islamic world",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Quantum field theory": {
+      "to": "Quantum field theory",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Applied physics": {
+      "to": "Applied physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of general relativity": {
+      "to": "History of general relativity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Edmond Halley": {
+      "to": "Edmond Halley",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Classical electromagnetism": {
+      "to": "Classical electromagnetism",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Velocity": {
+      "to": "Velocity",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Coriolis force": {
+      "to": "Coriolis force",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of electromagnetism and classical optics": {
+      "to": "Timeline of electromagnetism and classical optics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Astrophysics": {
+      "to": "Astrophysics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Philosophy of physics": {
+      "to": "Philosophy of physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Molecular physics": {
+      "to": "Molecular physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of the Big Bang theory": {
+      "to": "History of the Big Bang theory",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Tangential speed": {
+      "to": "Tangential speed",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Frame of reference": {
+      "to": "Frame of reference",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Equations of motion": {
+      "to": "Equations of motion",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Pierre-Simon Laplace": {
+      "to": "Pierre-Simon Laplace",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Space": {
+      "to": "Space",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Optics": {
+      "to": "Optics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Branches of physics": {
+      "to": "Branches of physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Celestial mechanics": {
+      "to": "Celestial mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of energy": {
+      "to": "History of energy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Edit section: See also": {
+      "to": "Edit section: See also",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Impulse (physics)": {
+      "to": "Impulse (physics)",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Timeline of classical mechanics": {
+      "to": "Timeline of classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Dynamics (mechanics)": {
+      "to": "Dynamics (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of subatomic physics": {
+      "to": "History of subatomic physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Angular acceleration": {
+      "to": "Angular acceleration",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Great Debate (astronomy)": {
+      "to": "Great Debate (astronomy)",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Appell's equation of motion": {
+      "to": "Appell's equation of motion",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Alexis Clairaut": {
+      "to": "Alexis Clairaut",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Discovery of graphene": {
+      "to": "Discovery of graphene",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of optics": {
+      "to": "History of optics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Edit section: Comparison to quantum physics": {
+      "to": "Edit section: Comparison to quantum physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Leonhard Euler": {
+      "to": "Leonhard Euler",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Molecule": {
+      "to": "Molecule",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of spectroscopy": {
+      "to": "History of spectroscopy",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Centrifugal force": {
+      "to": "Centrifugal force",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Physical crystallography before X-rays": {
+      "to": "Physical crystallography before X-rays",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Bernard Koopman": {
+      "to": "Bernard Koopman",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "The Martians (scientists)": {
+      "to": "The Martians (scientists)",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Jeremiah Horrocks": {
+      "to": "Jeremiah Horrocks",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of nuclear weapons": {
+      "to": "History of nuclear weapons",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "History of string theory": {
+      "to": "History of string theory",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Edit section: Comparison with modern physics": {
+      "to": "Edit section: Comparison with modern physics",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    },
+    "Acceleration": {
+      "to": "Acceleration",
+      "tofragment": "",
+      "cached_at": "2026-08-11T00:37:42.707528+00:00"
+    }
+  }
+}
