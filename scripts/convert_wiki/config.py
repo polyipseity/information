@@ -201,15 +201,15 @@ _MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]")
 "Regexes mapping Wikimedia upload URLs to archive filename and path formats."
 _ARCHIVE_REGEXES = {
     compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/[0-9a-f]/[0-9a-f]{2}/([^/]*)$"
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/[0-9a-f]/[0-9a-f]{2}/([^/?]*)$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
     compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/?#]*)/.*$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
     compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/transcoded/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/transcoded/[0-9a-f]/[0-9a-f]{2}/([^/?#]*)/.*$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
-    compile(r"^https://[^\.]*.?wikipedia.org/wiki/File:(.*)$"): (
+    compile(r"^https://[^\.]*.?wikipedia.org/wiki/File:([^?#]*)$"): (
         "File:{}",
         "../../archives/Wikimedia Commons/{}",
     ),

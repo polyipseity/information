@@ -181,6 +181,11 @@ def _fix_filename(name: str) -> str:
     return _cfg._BAD_CHARACTERS.sub("_", name)
 
 
+def _strip_url_query(url: URL) -> URL:
+    """Return *url* with its query string and fragment removed."""
+    return url.with_query(None).with_fragment(None)
+
+
 def _get_image_filename(ele: Tag) -> str | None:
     """Extract the original uploaded filename from an ``<img>`` element.
 
@@ -188,13 +193,13 @@ def _get_image_filename(ele: Tag) -> str | None:
     or ``None`` if it cannot be determined from either ``resource`` or ``src``.
     """
     if resource := ele.get("resource"):
-        src_url = _cfg._WIKI_HOST_URL.join(URL(str(resource)))
+        src_url = _strip_url_query(_cfg._WIKI_HOST_URL.join(URL(str(resource))))
         src_url_str = src_url.human_repr()
         for regex in _cfg._ARCHIVE_REGEXES:
             if match := regex.search(src_url_str):
                 return unquote(match[1]).replace("_", " ")
     if src := ele.get("src"):
-        src_url = _cfg._WIKI_HOST_URL.join(URL(str(src)))
+        src_url = _strip_url_query(_cfg._WIKI_HOST_URL.join(URL(str(src))))
         src_url_str = src_url.human_repr()
         for regex in _cfg._ARCHIVE_REGEXES:
             if match := regex.search(src_url_str):

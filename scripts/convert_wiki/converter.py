@@ -29,6 +29,7 @@ from .utils import (
     _get_image_filename,
     _markdown_fragment,
     _markdown_link_target,
+    _strip_url_query,
     _tag_affixes,
 )
 
@@ -1102,7 +1103,7 @@ class WikiHtmlConverter:
 
     def _process_archive_url(self, src: str) -> str:
         """Resolve a media URL to a local archive path."""
-        src_url = _cfg._WIKI_HOST_URL.join(URL(str(src)))
+        src_url = _strip_url_query(_cfg._WIKI_HOST_URL.join(URL(str(src))))
         src_url_str = str(src_url)
         for regex, formats in _cfg._ARCHIVE_REGEXES.items():
             if not (match := regex.search(src_url.human_repr())):
