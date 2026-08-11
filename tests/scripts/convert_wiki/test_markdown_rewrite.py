@@ -137,14 +137,14 @@ class TestRewriteArticleHeading:
         )
 
 
-# Effective name map after ``--mapping "Modern physics" "Modern physics"``
-# merged over the base map, plus the resulting stem migration.
+"""Effective name map after the test mapping merges over the base map."""
 _EFFECTIVE = {
     "Modern physics": "Modern physics",
     "modern physics": "modern physics",
     "Fourier transform": "Fourier transform",
     "fourier transform": "Fourier transform",
 }
+"""Stem migrations implied by the effective name map."""
 _MIGRATIONS = {"modern physics": "Modern physics"}
 
 

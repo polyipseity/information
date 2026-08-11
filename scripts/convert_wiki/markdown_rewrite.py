@@ -16,7 +16,7 @@ from .utils import _fix_filename, _fix_name_maybe
 """Exported names from this module."""
 __all__ = ()
 
-
+"""Regex matching ATX heading lines (``#`` through ``######``)."""
 _ATX_HEADING_RE = re.compile(r"^(#{1,6})\s+(?P<inner>\S.*?)(?:\s*#+\s*)?$")
 
 
