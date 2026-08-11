@@ -141,10 +141,11 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 
 ### Step 3: Ingest HTML
 
-__Command__: `uv run -m scripts.convert_wiki --output-mode append --output-file "<note_path>"`
+__Command__: `uv run -m scripts.convert_wiki --clipboard --output-mode append --output-file "<note_path>"`
 
 Replace `<note_path>` with the path to the note file created in Step 1 (e.g. `general/eng/Fourier transform.md`).
 
+- Always pass `--clipboard` (or `-c`): without it the script reads from stdin and blocks waiting for input.
 - Tool reads from clipboard
 - Normalizes Markdown formatting (lists, tables, code, emphasis)
 - Downloads images to `archives/Wikimedia Commons/` using `scripts/assets/convert_wiki.name_map.jsonc` for filename renames

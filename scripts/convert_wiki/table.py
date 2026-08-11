@@ -474,6 +474,27 @@ class TableConverter:
                 # alignment-related and should not get markers.
                 break
 
+            # Case 2.5: single-row mixed table (no all-<th> header row, no
+            # caption) — synthesize an empty all-<td> header row so the
+            # label/value row renders as a data row and the marker has a
+            # row to follow. All-<td> (not <th>) avoids the all-<th>
+            # alignment suffix in _handle_tr.
+            cell_rows = [
+                row
+                for row in cls._table_rows(table_ele)
+                if row.get("data-caption-row") != "true"
+                and any(
+                    isinstance(c, Tag) and c.name in _TD_OR_TH for c in row.children
+                )
+            ]
+            if len(cell_rows) == 1:
+                header_row = soup.new_tag("tr")
+                for _ in cells:
+                    header_row.append(soup.new_tag("td"))
+                tr.insert_before(header_row)
+                tr.insert_before(marker_tag)
+                break
+
             # Case 3: no caption → insert AFTER header row.
             tr.insert_after(marker_tag)
             # Only process the first mixed row; subsequent rows are not
@@ -505,6 +526,23 @@ class TableConverter:
             return ":--"
         return "---"
 
+    @staticmethod
+    def _table_rows(table: Tag | None) -> list[Tag]:
+        """Collect all ``<tr>`` rows in *table*, direct or inside containers.
+
+        Looks at direct ``<tr>`` children first; if there are none, extends
+        from ``<tbody>``/``<thead>``/``<tfoot>`` containers.
+        """
+        if table is None:
+            return []
+        rows: list[Tag] = table.find_all("tr", recursive=False)
+        if not rows:
+            for container in table.find_all(
+                ("tbody", "thead", "tfoot"), recursive=False
+            ):
+                rows.extend(container.find_all("tr", recursive=False))
+        return rows
+
     @classmethod
     def _td_cell_alignments(cls, table: Tag) -> tuple[list[str], set[int]]:
         """Compute per-column GFM alignment markers from ``<td>`` cells.
@@ -523,14 +561,7 @@ class TableConverter:
         cols_with_data: set[int] = set()
 
         # Collect alignment counts per column from all <td> cells.
-        # First try direct children, then look inside
-        # <tbody>/<thead>/<tfoot>.
-        rows: list[Tag] = table.find_all("tr", recursive=False)
-        if not rows:
-            for container in table.find_all(
-                ("tbody", "thead", "tfoot"), recursive=False
-            ):
-                rows.extend(container.find_all("tr", recursive=False))
+        rows = cls._table_rows(table)
         for tr in rows:
             if tr.get("data-caption-row") == "true":
                 continue

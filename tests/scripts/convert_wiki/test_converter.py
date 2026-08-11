@@ -923,6 +923,27 @@ class TestTableHandling:
         result = await _convert(converter, html)
         assert "<br/> Last" in result
 
+    @pytest.mark.anyio
+    async def test_single_row_mixed_table_gets_empty_header(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A single-row mixed th/td table gets a synthesized empty header row."""
+        html = '<table><tbody><tr><th scope="row">A</th><td>B</td></tr></tbody></table>'
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| --- | --- |\n| __A__ | B |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_two_row_mixed_table_unchanged(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A two-row mixed table keeps its original header-row behavior."""
+        html = (
+            "<table><tbody><tr><th>A</th><td>B</td></tr>"
+            "<tr><td>C</td><td>D</td></tr></tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n| __A__ | B |\n| --- | --- |\n| C | D |\n\n\n"
+
 
 # ---------------------------------------------------------------------------
 
