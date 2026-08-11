@@ -474,6 +474,34 @@ class TableConverter:
                 # alignment-related and should not get markers.
                 break
 
+            # Case 2.5: single-row mixed table (no all-<th> header row, no
+            # caption) — synthesize an empty all-<td> header row so the
+            # label/value row renders as a data row and the marker has a
+            # row to follow. All-<td> (not <th>) avoids the all-<th>
+            # alignment suffix in _handle_tr.
+            if table_ele is not None:
+                table_rows: list[Tag] = table_ele.find_all("tr", recursive=False)
+                if not table_rows:
+                    for container in table_ele.find_all(
+                        ("tbody", "thead", "tfoot"), recursive=False
+                    ):
+                        table_rows.extend(container.find_all("tr", recursive=False))
+                cell_rows = [
+                    row
+                    for row in table_rows
+                    if row.get("data-caption-row") != "true"
+                    and any(
+                        isinstance(c, Tag) and c.name in _TD_OR_TH for c in row.children
+                    )
+                ]
+                if len(cell_rows) == 1:
+                    header_row = soup.new_tag("tr")
+                    for _ in cells:
+                        header_row.append(soup.new_tag("td"))
+                    tr.insert_before(header_row)
+                    tr.insert_before(marker_tag)
+                    break
+
             # Case 3: no caption → insert AFTER header row.
             tr.insert_after(marker_tag)
             # Only process the first mixed row; subsequent rows are not
