@@ -149,7 +149,7 @@ These are {@{of interest principally}@} because {@{they are not always unique or
 
 {@{The 3 remaining vector derivatives}@} are related by the equation: {@{$$\nabla \times \left(\nabla \times \mathbf {v} \right)=\nabla (\nabla \cdot \mathbf {v} )-\nabla ^{2}\mathbf {v}$$ (annotation: notice the similarity to $\mathbf a \times (\mathbf b \times \mathbf c) = (\mathbf a \cdot \mathbf c) \mathbf b - (\mathbf a \cdot \mathbf b) \mathbf c$)}@} <!--SR:!2029-04-29,1182,350!fsrs,2028-02-15T00:00:00.000Z,546,546.45308121,6.99791867,2,9,0,0,2026-08-18T00:00:00.000Z-->
 
-And {@{one of them can even be expressed with the tensor product}@}, if {@{the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@} <!--SR:!2026-11-29,482,310!2026-09-10,342,230!2026-10-09,331,380-->
+And {@{one of them can even be expressed with the tensor product}@}, if {@{the functions are well-behaved}@}: {@{$$\nabla (\nabla \cdot \mathbf {v} )=\nabla \cdot (\mathbf {v} \otimes \nabla )$$}@} <!--SR:!2026-11-29,482,310!fsrs,2029-05-01T00:00:00.000Z,963,963.39860774,4.98215312,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-09,331,380-->
 
 ## precautions
 

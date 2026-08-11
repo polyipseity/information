@@ -19,7 +19,7 @@ tags:
 > {@{__squeeze theorem__}@}
 >
 > 1. Let $I$ be {@{an [interval](interval%20(mathematics).md) containing $a$ (or with $a$ as an endpoint for one-sided limit and limit at infinity)}@}. Let $l$, $f$, and $u$ be {@{[functions](function%20(mathematics).md) defined on $I$, except possibly at $a$}@}.
-> 2. If {@{$\lim_{x\to{}a}l(x)=\lim_{x\to{}a}u(x)=L$, and $l(x)\le{f(x)}\le{u(x)}$ for all $x\in{I}$ except possibly at $a$}@}, then {@{$\lim_{x\to{}a}f(x)=L$. (The limits become one-sided if $a$ is an endpoint of $I$.)}@} <!--SR:!2026-12-17,697,270!fsrs,2033-01-30T00:00:00.000Z,2350,2349.817283,1.98030797,2,10,0,0,2026-08-25T00:00:00.000Z!fsrs,2026-08-18T00:08:41.809Z,8,8.2956,1,2,1,0,0,2026-08-10T00:08:41.809Z!fsrs,2026-08-18T00:08:42.334Z,8,8.2956,1,2,1,0,0,2026-08-10T00:08:42.334Z!fsrs,2026-08-18T00:08:40.878Z,8,8.2956,1,2,1,0,0,2026-08-10T00:08:40.878Z-->
+> 2. If {@{$\lim_{x\to{}a}l(x)=\lim_{x\to{}a}u(x)=L$, and $l(x)\le{f(x)}\le{u(x)}$ for all $x\in{I}$ except possibly at $a$}@}, then {@{$\lim_{x\to{}a}f(x)=L$. (The limits become one-sided if $a$ is an endpoint of $I$.)}@} <!--SR:!2026-12-17,697,270!fsrs,2033-01-30T00:00:00.000Z,2350,2349.817283,1.98030797,2,10,0,0,2026-08-25T00:00:00.000Z!fsrs,2026-11-29T00:00:00.000Z,79,78.85377109,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ## references
 

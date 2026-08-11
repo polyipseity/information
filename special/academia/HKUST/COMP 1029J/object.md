@@ -58,7 +58,7 @@ The above object stored under `nameObject` is also called {@{an _instance_ of th
 
 ## method
 
-A method consists of {@{a return type, name, parameters, parameter names, and a statement block}@}: <!--SR:!2026-09-10,710,330-->
+A method consists of {@{a return type, name, parameters, parameter names, and a statement block}@}: <!--SR:!fsrs,2034-03-25T00:00:00.000Z,2752,2751.77450859,1,2,10,0,0,2026-09-11T00:00:00.000Z-->
 
 ```Java
 ReturnType name(ParameterTypes parameterNames) {

@@ -9,7 +9,7 @@ tags:
 
 # second law of thermodynamics
 
-{@{The __second law of thermodynamics__}@} states that {@{in an [isolated system](isolated%20system.md) (not [closed system](closed%20system.md)), [entropy](entropy.md) always increases for [irreversible process](irreversible%20process.md)}@} and {@{remains unchanged for [reversible processes](reversible%20process%20(thermodynamics).md)}@}. <!--SR:!fsrs,2034-06-26T00:00:00.000Z,2857,2856.71579152,1,2,11,0,0,2026-08-30T00:00:00.000Z!fsrs,2026-08-17T23:58:18.845Z,8,8.2956,1,2,1,0,0,2026-08-09T23:58:18.845Z!fsrs,2026-08-17T23:58:17.982Z,8,8.2956,1,2,1,0,0,2026-08-09T23:58:17.982Z-->
+{@{The __second law of thermodynamics__}@} states that {@{in an [isolated system](isolated%20system.md) (not [closed system](closed%20system.md)), [entropy](entropy.md) always increases for [irreversible process](irreversible%20process.md)}@} and {@{remains unchanged for [reversible processes](reversible%20process%20(thermodynamics).md)}@}. <!--SR:!fsrs,2034-06-26T00:00:00.000Z,2857,2856.71579152,1,2,11,0,0,2026-08-30T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ## references
 

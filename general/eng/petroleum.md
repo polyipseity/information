@@ -19,11 +19,11 @@ tags:
 
 ## composition
 
-{@{Petroleum}@} is {@{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of many [hydrocarbons](hydrocarbon.md)}@}. {@{Larger hydrocarbons}@} have {@{higher [boiling points](boiling%20point.md), darker colors, more [viscous](viscosity.md)}@}, {@{less [volatile](volatility%20(chemistry).md), less [flammable](flammability.md), and burn less completely}@}. <!--SR:!2033-10-02,2887,334!fsrs,2032-11-20T00:00:00.000Z,2302,2301.50126333,3.78141506,2,11,0,0,2026-08-02T00:00:00.000Z!fsrs,2026-08-17T23:17:00.275Z,8,8.2956,1,2,1,0,0,2026-08-09T23:17:00.275Z!fsrs,2026-08-17T23:17:02.411Z,8,8.2956,1,2,1,0,0,2026-08-09T23:17:02.411Z!fsrs,2026-08-17T23:17:01.653Z,8,8.2956,1,2,1,0,0,2026-08-09T23:17:01.653Z-->
+{@{Petroleum}@} is {@{a [heterogeneous mixture](mixture.md#heterogeneous%20mixture) of many [hydrocarbons](hydrocarbon.md)}@}. {@{Larger hydrocarbons}@} have {@{higher [boiling points](boiling%20point.md), darker colors, more [viscous](viscosity.md)}@}, {@{less [volatile](volatility%20(chemistry).md), less [flammable](flammability.md), and burn less completely}@}. <!--SR:!2033-10-02,2887,334!fsrs,2032-11-20T00:00:00.000Z,2302,2301.50126333,3.78141506,2,11,0,0,2026-08-02T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ## uses
 
-{@{Petroleum}@} is {@{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}@}. Fractions that {@{have lower [boiling points](boiling%20point.md) are collected at the top}@}. It is used for {@{making [fuels](#fuels) and derivatives}@}. <!--SR:!2031-09-23,2077,274!2032-02-19,2300,294!2027-07-24,1019,294!fsrs,2026-08-17T23:17:03.064Z,8,8.2956,1,2,1,0,0,2026-08-09T23:17:03.064Z-->
+{@{Petroleum}@} is {@{separated by [fractional distillation](fractional%20distillation.md) in [fractionating columns](fractionating%20column.md)}@}. Fractions that {@{have lower [boiling points](boiling%20point.md) are collected at the top}@}. It is used for {@{making [fuels](#fuels) and derivatives}@}. <!--SR:!2031-09-23,2077,274!2032-02-19,2300,294!2027-07-24,1019,294!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ### fuels
 

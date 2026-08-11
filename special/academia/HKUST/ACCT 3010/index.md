@@ -43,7 +43,7 @@ The content is in teaching order.
     - ACCT 3010 / logistics
     - ACCT 3010 / teaching staff
     - ACCT 3010 / resources
-    - ACCT 3010 / required textbook ::@:: Kieso, Weygandt, and Warfield, "Intermediate Accounting: IFRS Edition, 5th Edition" <!--SR:!2026-10-02,297,339!2026-09-10,278,339-->
+    - ACCT 3010 / required textbook ::@:: Kieso, Weygandt, and Warfield, "Intermediate Accounting: IFRS Edition, 5th Edition" <!--SR:!2026-10-02,297,339!fsrs,2030-02-13T00:00:00.000Z,1251,1251.24857539,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
     - ACCT 3010 / objectives ::@:: environment, financial reporting frameworks, standard-setting process <!--SR:!fsrs,2030-02-08T00:00:00.000Z,1247,1247.33901769,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-09-27,293,339-->
     - ACCT 3010 / approach ::@:: mix both user perspective and preparer perspective <!--SR:!2028-06-21,773,339!2026-10-30,317,339-->
     - ACCT 3010 / class participation

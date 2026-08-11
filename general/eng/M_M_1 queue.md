@@ -31,7 +31,7 @@ In {@{[queueing theory](queueing%20theory.md), a discipline within the mathemati
 
 The model can be described as {@{a [continuous time Markov chain](continuous%20time%20Markov%20chain.md) with [transition rate matrix](transition%20rate%20matrix.md)}@} {@{$$Q={\begin{pmatrix}-\lambda &\lambda \\\mu &-(\mu +\lambda )&\lambda \\&\mu &-(\mu +\lambda )&\lambda \\&&\mu &-(\mu +\lambda )&\lambda &\\&&&&\ddots \end{pmatrix} }$$}@} on {@{the state space {0,1,2,3,...}<!-- flashcard separator -->}@}. This is the same {@{continuous time Markov chain as in a [birth–death process](birth–death%20process.md)}@}. {@{The [state space](state%20space.md) diagram for this chain}@} is as below. <!--SR:!2029-07-06,1133,350!2029-06-27,1126,350!2029-06-20,1119,350!2029-05-11,1088,350!fsrs,2029-10-20T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-07-02T00:00:00.000Z-->
 
-\(annotation: state space diagram\) ::@:: ![State space diagram of an M/M/1 queue. The state space records the number of customers in the queueing system. The values lambda and mu represent the arrival and service rates of customers.](../../archives/Wikimedia%20Commons/MM1%20queue%20state%20space.svg) <!--SR:!2026-09-10,333,350!2029-06-14,1113,350-->
+\(annotation: state space diagram\) ::@:: ![State space diagram of an M/M/1 queue. The state space records the number of customers in the queueing system. The values lambda and mu represent the arrival and service rates of customers.](../../archives/Wikimedia%20Commons/MM1%20queue%20state%20space.svg) <!--SR:!fsrs,2028-08-24T00:00:00.000Z,713,713.0487783,4.50849392,2,9,0,0,2026-09-11T00:00:00.000Z!2029-06-14,1113,350-->
 
 ## stationary analysis
 

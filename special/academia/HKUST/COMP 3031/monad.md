@@ -163,7 +163,7 @@ The compiler rewrites {@{these _for_ expressions}@} in the same way {@{it does f
 >   case Inner(left: Tree, right: Tree)
 >   case Leaf(x: Int)
 > ```
-<!--SR:!2026-10-16,275,330!2026-10-15,274,330!2026-10-26,282,330!2026-09-10,239,330-->
+<!--SR:!2026-10-16,275,330!2026-10-15,274,330!2026-10-26,282,330!fsrs,2029-08-11T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
 
 we can generate {@{leaves and inner nodes}@} by combining {@{existing generators}@}: <!--SR:!2026-10-27,283,330!2026-10-22,278,330-->
 

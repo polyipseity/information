@@ -811,7 +811,7 @@ Scala supports {@{conditional expressions}@}. Its syntax is {@{`if <predicate> t
 
 Scala supports {@{logical expressions}@}. They are {@{as in Java}@}, and includes {@{`true`, `false`, `!<expr>`, `<expr 1> && <expr 2>`, and `<expr 1> || <expr 2>`}@}. Evaluation uses {@{short circuiting}@}: If {@{`<expr 1>` evaluates to `true`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> || <expr 2>`}@}; if {@{`<expr 1>` evaluates to `false`}@}, then {@{`<expr 2>` is not evaluated in `<expr 1> && <expr 2>`}@}. <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-07-24T00:00:00.000Z!fsrs,2029-11-18T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-08-30T00:00:00.000Z!fsrs,2029-06-07T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-07-20T00:00:00.000Z!2026-09-28,292,330!2026-09-29,293,330!fsrs,2029-11-03T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-08-26T00:00:00.000Z!fsrs,2029-12-03T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-11-08T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-08-28T00:00:00.000Z-->
 
-Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!2026-09-10,277,330!fsrs,2029-09-06T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-08-11T00:00:00.000Z-->
+Scala supports {@{comparisons}@}. They are {@{as in Java}@}. <!--SR:!fsrs,2030-01-03T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-09-06T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-08-11T00:00:00.000Z-->
 
 ### anonymous functions
 

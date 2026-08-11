@@ -9,18 +9,18 @@ tags:
 
 # matter wave
 
-{@{__Matter waves__}@} describe {@{the [wave](wave.md)-like behavior of all [matter](matter.md)}@}. <!--SR:!fsrs,2036-03-08T00:00:00.000Z,3473,3473.06991735,1,2,11,0,0,2026-09-04T00:00:00.000Z!fsrs,2026-08-18T00:08:38.354Z,8,8.2956,1,2,1,0,0,2026-08-10T00:08:38.354Z-->
+{@{__Matter waves__}@} describe {@{the [wave](wave.md)-like behavior of all [matter](matter.md)}@}. <!--SR:!fsrs,2036-03-08T00:00:00.000Z,3473,3473.06991735,1,2,11,0,0,2026-09-04T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ## de Broglie relations
 
-{@{The _de Broglie wavelength_ $\lambda$}@} relates to {@{the [momentum](momentum.md) $p$ and the [frequency](frequency.md) $f$ relates to the total [energy](energy.md) $E$ of a [free particle](free%20particle.md)}@}: <!--SR:!2028-10-30,1317,290!fsrs,2026-08-17T23:58:23.256Z,8,8.2956,1,2,1,0,0,2026-08-09T23:58:23.256Z-->
+{@{The _de Broglie wavelength_ $\lambda$}@} relates to {@{the [momentum](momentum.md) $p$ and the [frequency](frequency.md) $f$ relates to the total [energy](energy.md) $E$ of a [free particle](free%20particle.md)}@}: <!--SR:!2028-10-30,1317,290!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 > {@{The de Broglie equations}@}:
 >
 > - {@{$\lambda=\frac{h}{p}$}@}
 > - {@{$f=\frac{E}h$}@}
 >
-> where {@{$h$ is the [Planck constant](Planck%20constant.md)}@}. <!--SR:!2031-02-18,1798,290!2031-07-20,2180,310!2031-06-03,2293,350!fsrs,2026-08-18T00:08:37.603Z,8,8.2956,1,2,1,0,0,2026-08-10T00:08:37.603Z-->
+> where {@{$h$ is the [Planck constant](Planck%20constant.md)}@}. <!--SR:!2031-02-18,1798,290!2031-07-20,2180,310!2031-06-03,2293,350!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ## references
 

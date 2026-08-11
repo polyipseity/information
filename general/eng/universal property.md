@@ -124,7 +124,7 @@ The dual statements are {@{also equivalent}@}: (annotation: they are respectivel
 
 - (annotation: universal morphism, dual) ::@:: $(A,u)$ is a universal morphism from $F$ to $X$ <!--SR:!2028-04-20,904,330!2028-04-07,893,330-->
 - (annotation: comma category, dual) ::@:: $(A,u)$ is a [terminal object](terminal%20object.md) of the comma category $(F\downarrow X)$ <!--SR:!2029-04-12,1211,350!2029-09-04,1327,350-->
-- (annotation: representable functor $\text{Hom}_{\mathcal C}(-, A) \to \text{Hom}_{\mathcal D}(F(-), X)$) ::@:: $(A,u\circ F(\bullet ))$ is a representation of ${\text{Hom} }_{\mathcal {D} }(F(-),X)$, where its components $(u\circ F(\bullet ))_{B}:{\text{Hom} }_{\mathcal {C} }(B,A)\to {\text{Hom} }_{\mathcal {D} }(F(B),X)$ are defined by $$(u\circ F(\bullet ))_{B}(f:B\to A):F(B)\to X=u\circ F(f):F(B)\to X$$ for each object $B$ in ${\mathcal {C} }$. <!--SR:!2027-12-28,648,250!2026-09-10,406,290-->
+- (annotation: representable functor $\text{Hom}_{\mathcal C}(-, A) \to \text{Hom}_{\mathcal D}(F(-), X)$) ::@:: $(A,u\circ F(\bullet ))$ is a representation of ${\text{Hom} }_{\mathcal {D} }(F(-),X)$, where its components $(u\circ F(\bullet ))_{B}:{\text{Hom} }_{\mathcal {C} }(B,A)\to {\text{Hom} }_{\mathcal {D} }(F(B),X)$ are defined by $$(u\circ F(\bullet ))_{B}(f:B\to A):F(B)\to X=u\circ F(f):F(B)\to X$$ for each object $B$ in ${\mathcal {C} }$. <!--SR:!2027-12-28,648,250!fsrs,2029-05-08T00:00:00.000Z,970,969.90480177,3.99122837,2,10,0,0,2026-09-11T00:00:00.000Z-->
 
 ### relation to adjoint functors
 

@@ -8,7 +8,7 @@ tags:
 
 # hydrogen spectral series
 
-{@{The first three series}@} are {@{the [Lyman series](Lyman%20series.md) ([ultraviolet](ultraviolet.md)), [Balmer series](Balmer%20series.md) ([visible](visible%20spectrum.md)), and the [Paschen series](#Paschen%20series%20(Bohr%20series,%20_n′_%20=%203)) ([infrared](infrared.md))}@}. <!--SR:!fsrs,2031-02-12T00:00:00.000Z,1616,1615.60117724,2.98092302,2,10,0,0,2026-09-10T00:00:00.000Z!fsrs,2026-08-17T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-08-09T00:00:00.000Z-->
+{@{The first three series}@} are {@{the [Lyman series](Lyman%20series.md) ([ultraviolet](ultraviolet.md)), [Balmer series](Balmer%20series.md) ([visible](visible%20spectrum.md)), and the [Paschen series](#Paschen%20series%20(Bohr%20series,%20_n′_%20=%203)) ([infrared](infrared.md))}@}. <!--SR:!fsrs,2031-02-12T00:00:00.000Z,1616,1615.60117724,2.98092302,2,10,0,0,2026-09-10T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ## references
 

@@ -9,7 +9,7 @@ tags:
 
 # gravity of Earth
 
-{@{The __gravity of Earth__}@}, denoted by {@{___g___}@}, is {@{the [net](net%20force.md) [acceleration](acceleration.md) that is imparted to objects due to the combined effect}@} of {@{[gravitation](gravity.md) (from [mass distribution](Mass%20distribution.md) within [Earth](Earth.md)) and the [centrifugal force](centrifugal%20force.md) (from the [Earth's rotation](Earth's%20rotation.md))}@}. <!--SR:!2028-07-07,1128,350!fsrs,2032-03-31T00:00:00.000Z,2072,2071.58751979,1,2,10,0,0,2026-07-29T00:00:00.000Z!fsrs,2026-08-18T00:17:39.530Z,8,8.2956,1,2,1,0,0,2026-08-10T00:17:39.530Z!fsrs,2026-08-18T00:17:40.097Z,8,8.2956,1,2,1,0,0,2026-08-10T00:17:40.097Z-->
+{@{The __gravity of Earth__}@}, denoted by {@{___g___}@}, is {@{the [net](net%20force.md) [acceleration](acceleration.md) that is imparted to objects due to the combined effect}@} of {@{[gravitation](gravity.md) (from [mass distribution](Mass%20distribution.md) within [Earth](Earth.md)) and the [centrifugal force](centrifugal%20force.md) (from the [Earth's rotation](Earth's%20rotation.md))}@}. <!--SR:!2028-07-07,1128,350!fsrs,2032-03-31T00:00:00.000Z,2072,2071.58751979,1,2,10,0,0,2026-07-29T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ## references
 

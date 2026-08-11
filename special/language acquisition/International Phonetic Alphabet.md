@@ -668,7 +668,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[ʐ\]:@:[voiced retroflex fricative](voiced%20retroflex%20fricative.md) <!--SR:!2027-02-16,691,334-->
 - \[θ\]:@:[voiceless dental fricative](voiceless%20dental%20fricative.md) <!--SR:!2027-07-14,642,330-->
 - \[ɸ\]:@:[voiceless bilabial fricative](voiceless%20bilabial%20fricative.md) <!--SR:!2031-02-10,2044,395-->
-- \[ʔ\]:@:[glottal stop](glottal%20stop.md) <!--SR:!2026-09-10,367,369-->
+- \[ʔ\]:@:[glottal stop](glottal%20stop.md) <!--SR:!fsrs,2029-09-20T00:00:00.000Z,1105,1104.91128109,1.03169087,2,10,0,0,2026-09-11T00:00:00.000Z-->
 - \[ʕ\]:@:[voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md) <!--SR:!fsrs,2027-10-17T00:00:00.000Z,455,454.83075577,2.49272837,2,8,0,0,2026-07-19T00:00:00.000Z-->
 - \[ǀ\]:@:[tenuis dental click](tenuis%20dental%20click.md) <!--SR:!2028-02-26,974,354-->
 - \[ǁ\]:@:[tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md) <!--SR:!2030-02-09,1631,376-->
@@ -837,7 +837,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced velar plosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20plosive%2002.ogg):@:[voiced velar plosive](voiced%20velar%20plosive.md) <!--SR:!2027-03-11,418,194-->
 - ![voiced velar implosive](../../archives/Wikimedia%20Commons/Voiced%20velar%20implosive.ogg):@:[voiced velar implosive](voiced%20velar%20implosive.md) <!--SR:!fsrs,2026-11-08T00:00:00.000Z,97,97.11973007,9.98522837,2,7,0,0,2026-08-03T00:00:00.000Z-->
 - ![voiced uvular plosive](../../archives/Wikimedia%20Commons/Voiced%20uvular%20stop.ogg):@:[voiced uvular plosive](voiced%20uvular%20plosive.md) <!--SR:!fsrs,2027-01-12T03:37:26.281Z,211,211.47091561,9.98522837,2,8,0,0,2026-06-15T03:37:26.281Z-->
-- ![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg):@:[voiceless glottal fricative](voiceless%20glottal%20fricative.md) <!--SR:!fsrs,2026-09-11T00:00:00.000Z,65,65.34996832,9.73628589,2,7,0,0,2026-07-08T00:00:00.000Z-->
+- ![voiceless glottal fricative](../../archives/Wikimedia%20Commons/Voiceless%20glottal%20fricative.ogg):@:[voiceless glottal fricative](voiceless%20glottal%20fricative.md) <!--SR:!fsrs,2026-11-29T00:00:00.000Z,79,78.63518825,9.81016265,2,8,0,0,2026-09-11T00:00:00.000Z-->
 - ![voiced glottal fricative](../../archives/Wikimedia%20Commons/Voiced%20glottal%20fricative.ogg):@:[voiced glottal fricative](voiced%20glottal%20fricative.md) <!--SR:!2028-03-07,902,221-->
 - ![voiceless pharyngeal fricative](../../archives/Wikimedia%20Commons/Voiceless%20pharyngeal%20fricative.ogg):@:[voiceless pharyngeal fricative](voiceless%20pharyngeal%20fricative.md) <!--SR:!2030-02-17,1660,351-->
 - ![close front unrounded vowel](../../archives/Wikimedia%20Commons/Close%20front%20unrounded%20vowel.ogg):@:[close front unrounded vowel](close%20front%20unrounded%20vowel.md) <!--SR:!fsrs,2026-12-16T00:00:00.000Z,98,98.08627161,9.97542228,2,8,0,0,2026-09-09T00:00:00.000Z-->
@@ -970,7 +970,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [palatalization](palatalization%20(phonetics).md):@:[Irish](Irish%20language.md) _**be**o_ \[bʲoː\] "alive" <!--SR:!2027-01-06,580,238-->
 - [voiced palatal fricative](voiced%20palatal%20fricative.md):@:[Spanish](Spanish%20language.md) _sa**y**o_ \[ˈsäʝo̞\] "smock" <!--SR:!fsrs,2026-09-19T00:00:00.000Z,46,46.46714357,9.97047151,2,7,0,0,2026-08-04T00:00:00.000Z-->
 - [voiced palatal plosive](voiced%20palatal%20plosive.md):@:[Irish](Irish%20language.md) _Gaeil**g**e_ \[ˈɡeːlʲɟə\] "[Irish language](Irish%20language.md)" <!--SR:!fsrs,2026-09-23T00:00:00.000Z,49,49.47169116,9.97047151,2,7,0,0,2026-08-05T00:00:00.000Z-->
-- [voiced palatal implosive](voiced%20palatal%20implosive.md):@:[Swahili](Swahili%20language.md) _**j**ana_ \[ʄana\] "yesterday" <!--SR:!2026-09-10,441,198-->
+- [voiced palatal implosive](voiced%20palatal%20implosive.md):@:[Swahili](Swahili%20language.md) _**j**ana_ \[ʄana\] "yesterday" <!--SR:!fsrs,2028-09-27T00:00:00.000Z,747,747.34097591,7.43777837,2,10,0,0,2026-09-11T00:00:00.000Z-->
 - [voiceless velar plosive](voiceless%20velar%20plosive.md):@:[English](English%20language.md) _**k**iss_ \[kʰɪs\] <!--SR:!2027-02-27,519,199-->
 - [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _**l**et_ \[lɛt\] <!--SR:!2028-10-04,1102,280-->
 - [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _fee**l**_ \[fiːɫ\] <!--SR:!2026-12-13,259,220-->
@@ -1013,7 +1013,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless alveolo-palatal affricate](voiceless%20alveolo-palatal%20affricate.md):@:[Chinese](Chinese%20language.md) 北京/_Běi**j**īng_ \[peɪ˨˩ t͡ɕiŋ˥\] "[Beijing](Beijing.md)" <!--SR:!fsrs,2026-10-15T00:00:00.000Z,54,53.8280364,9.46873631,2,7,0,0,2026-08-22T00:00:00.000Z-->
 - [voiceless retroflex affricate](voiceless%20retroflex%20affricate.md):@:[Chinese](Chinese%20language.md) 中文/_**Zh**ōngwén_ \[ʈ̺͡ʂ̺ʊŋ˥ u̯ən˧˥\] "[Chinese language](Chinese%20language.md)" <!--SR:!fsrs,2026-09-22T00:00:00.000Z,31,30.72317635,9.9548056,2,8,0,0,2026-08-22T00:00:00.000Z-->
 - [close back rounded vowel](close%20back%20rounded%20vowel.md):@:[English](English%20language.md) _b**oo**t_ \[bu̟ːt\] <!--SR:!2027-01-15,476,191-->
-- [near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md):@:[English](English%20language.md) _h**oo**k_ \[hʊʔk\] <!--SR:!2026-09-10,131,150-->
+- [near-close near-back rounded vowel](near-close%20near-back%20rounded%20vowel.md):@:[English](English%20language.md) _h**oo**k_ \[hʊʔk\] <!--SR:!fsrs,2027-02-22T00:00:00.000Z,164,164.15068679,9.48734342,2,8,0,0,2026-09-11T00:00:00.000Z-->
 - [close central rounded vowel](close%20central%20rounded%20vowel.md):@:[English](English%20language.md) _g**oo**se_ \[ɡʉːs\] <!--SR:!2026-10-22,146,130-->
 - [voiced labiodental fricative](voiced%20labiodental%20fricative.md):@:[English](English%20language.md) _**v**al**v**e_ \[væɫv\] <!--SR:!2027-05-15,855,312-->
 - [voiced labiodental approximant](voiced%20labiodental%20approximant.md):@:[Finnish](Finnish%20language.md) _**v**au**v**a_ \[ˈʋɑu̯ʋɑ\] "baby" <!--SR:!2026-09-13,239,252-->

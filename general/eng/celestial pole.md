@@ -9,7 +9,7 @@ tags:
 
 # celestial pole
 
-{@{The north and south __celestial poles__}@} are {@{the two points in the [sky](sky.md)}@} where {@{[Earth](Earth.md)'s [axis of rotation](rotation%20around%20a%20fixed%20axis.md), indefinitely extended, intersects the [celestial sphere](celestial%20sphere.md)}@}. <!--SR:!fsrs,2032-03-27T00:00:00.000Z,2045,2045.37497602,1,2,10,0,0,2026-08-21T00:00:00.000Z!fsrs,2026-08-17T23:27:36.130Z,8,8.2956,1,2,1,0,0,2026-08-09T23:27:36.130Z!fsrs,2026-08-17T23:27:36.663Z,8,8.2956,1,2,1,0,0,2026-08-09T23:27:36.663Z-->
+{@{The north and south __celestial poles__}@} are {@{the two points in the [sky](sky.md)}@} where {@{[Earth](Earth.md)'s [axis of rotation](rotation%20around%20a%20fixed%20axis.md), indefinitely extended, intersects the [celestial sphere](celestial%20sphere.md)}@}. <!--SR:!fsrs,2032-03-27T00:00:00.000Z,2045,2045.37497602,1,2,10,0,0,2026-08-21T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ## finding the north celestial pole
 

@@ -25,9 +25,9 @@ To analyze a truss, {@{design the truss and determine the support sizes}@}. Then
 
 ### forces in members
 
-There are {@{2 common methods}@} to {@{determine forces in members}@}: {@{[method of joints](#method%20of%20joints), suitable for determining forces in all members}@}; and {@{method of sections, suitable for determining forces in some particular members}@}. <!--SR:!2028-07-29,1193,350!fsrs,2032-08-03T00:00:00.000Z,2166,2166.24766526,1,2,10,0,0,2026-08-29T00:00:00.000Z!fsrs,2026-08-18T00:17:44.643Z,8,8.2956,1,2,1,0,0,2026-08-10T00:17:44.643Z!fsrs,2026-08-18T00:17:46.357Z,8,8.2956,1,2,1,0,0,2026-08-10T00:17:46.357Z-->
+There are {@{2 common methods}@} to {@{determine forces in members}@}: {@{[method of joints](#method%20of%20joints), suitable for determining forces in all members}@}; and {@{method of sections, suitable for determining forces in some particular members}@}. <!--SR:!2028-07-29,1193,350!fsrs,2032-08-03T00:00:00.000Z,2166,2166.24766526,1,2,10,0,0,2026-08-29T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
-Note that some members can have {@{zero forces, i.e. neither in tension nor in compression}@}, which are called {@{[zero force members](zero%20force%20member.md)}@}. <!--SR:!2028-08-12,1201,350!fsrs,2026-08-18T00:17:45.599Z,8,8.2956,1,2,1,0,0,2026-08-10T00:17:45.599Z-->
+Note that some members can have {@{zero forces, i.e. neither in tension nor in compression}@}, which are called {@{[zero force members](zero%20force%20member.md)}@}. <!--SR:!2028-08-12,1201,350!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 #### method of joints
 

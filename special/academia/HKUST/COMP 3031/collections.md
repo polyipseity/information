@@ -21,7 +21,7 @@ tags:
 
 ## hierarchy
 
-{@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java-backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}. <!--SR:!2026-10-04,262,330!2026-10-12,270,330!2026-09-10,238,330!2026-10-01,259,330!2026-09-28,256,330!2026-10-13,271,330!2026-10-12,270,330!2026-09-26,254,330!2026-10-19,277,330!2026-10-04,262,330-->
+{@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java-backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}. <!--SR:!2026-10-04,262,330!2026-10-12,270,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-01,259,330!2026-09-28,256,330!2026-10-13,271,330!2026-10-12,270,330!2026-09-26,254,330!2026-10-19,277,330!2026-10-04,262,330-->
 
 {@{`Set` and `Map`}@} are also {@{subclasses of `Iterable`}@}, but they do not {@{inherit from `Seq`}@}. <!--SR:!2026-09-18,246,330!2026-10-21,279,330!2026-10-27,283,330-->
 
@@ -281,7 +281,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 >         if p(x) then x :: xs.filter(p)
 >         else       xs.filter(p)
 > ```
-<!--SR:!2026-09-11,239,330!2026-09-10,238,330-->
+<!--SR:!2026-09-11,239,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
 
 {@{The `posElems`}@} example becomes, using {@{`filter`}@}: <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-22,250,330-->
 
@@ -416,7 +416,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 
 ## vector
 
-In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2026-09-20,248,330!2026-09-26,254,330!2026-11-06,292,330!2026-10-13,271,330!2026-10-18,276,330!2026-09-16,244,330!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-09-10,238,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-27,255,330!2026-10-28,284,330-->
+In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2026-09-20,248,330!2026-09-26,254,330!2026-11-06,292,330!2026-10-13,271,330!2026-10-18,276,330!2026-09-16,244,330!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-27,255,330!2026-10-28,284,330-->
 
 Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 
@@ -477,7 +477,7 @@ The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, v
 - `exists(p)` ::@:: Returns `true` if any element satisfies predicate `p`. For empty sequences it returns `false`. <!--SR:!2026-09-18,246,330!2026-10-05,263,330-->
 - `forall(p)` ::@:: Returns `true` only if every element satisfies `p`. For empty sequences it returns `true`. <!--SR:!2026-10-01,259,330!2026-09-27,255,330-->
 - `zip(ys)` ::@:: Combines two sequences into a sequence of pairs. If they do not have the same length, the result is truncated to the shorter length. <!--SR:!2026-10-23,281,330!2026-10-27,283,330-->
-- `unzip` ::@:: Splits a sequence of pairs into two separate sequences. <!--SR:!2026-10-11,269,330!2026-09-10,238,330-->
+- `unzip` ::@:: Splits a sequence of pairs into two separate sequences. <!--SR:!2026-10-11,269,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
 - `flatMap(f)` ::@:: Applies a collection-valued function to each element and concatenates the results. <!--SR:!2026-10-02,260,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 - `sum`, `product` ::@:: Aggregate numeric collections. <!--SR:!2026-10-10,268,330!2026-10-26,282,330-->
 - `max`, `min` ::@:: Return the largest or smallest element (requires an implicit `Ordering`). <!--SR:!2026-09-15,243,330!2026-11-04,290,330-->
@@ -653,7 +653,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 >     }
 > }
 > ```
-<!--SR:!2026-11-02,289,330!2026-09-10,238,330!2026-10-17,275,330!2026-09-24,252,330-->
+<!--SR:!2026-11-02,289,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-17,275,330!2026-09-24,252,330-->
 
 To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ constructor}@} is provided: <!--SR:!2026-09-20,248,330!2026-09-16,244,330-->
 
