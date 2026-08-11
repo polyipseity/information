@@ -52,4 +52,16 @@ garbled HTML.
 
 ---
 
+## Lessons learned (2026‑08‑11)
+
+- The Step 4a capitalization review now judges casing __semantically__
+  (proper nouns, eponyms, named theorems) instead of mechanically
+  comparing link targets and headers against files and `name_map` stems.
+  Mechanical alignment is `convert_wiki`'s job — it happens at ingestion
+  and via `--reprocess`. The converter's lowercase-first-char fallback can
+  damage proper nouns absent from `name_map` (e.g. `newton's laws`), which
+  only a semantic review catches.
+
+---
+
 Add new lessons below as the skill evolves.
