@@ -47,6 +47,16 @@ _ITALIC_FONT_STYLE_REGEX = re.compile(r"\bfont-style\s*:\s*italic\b", re.IGNOREC
 _COLLAPSE_EMPTY_BLOCKQUOTE_RE = re.compile(r">\n(?:>\n)+")
 """Collapse consecutive spaces."""
 _COLLAPSE_SPACES_REGEX = re.compile(r" {2,}")
+"""Whitespace runs except hair space (U+200A)."""
+_WHITESPACE_EXCEPT_HAIR_RE = re.compile(r"[^\S\u200a]+")
+
+
+def _collapse_whitespace(strings: str) -> str:
+    """Collapse whitespace runs, preserving hair spaces (U+200A)."""
+    strings = strings.strip(" \t\n\r\x0b\x0c")
+    return " ".join(_WHITESPACE_EXCEPT_HAIR_RE.split(strings))
+
+
 """Captures the separator-prefixed display text in bold/italic processing."""
 _PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
 """Whitespace and separator chars for sidebar tight wrapping."""
@@ -261,12 +271,14 @@ class WikiHtmlConverter:
                 strings = original_process(strings)
                 if _catlinks:
                     strings = "\n\n".join(
-                        "\n".join(" ".join(line.split()) for line in para.split("\n"))
+                        "\n".join(
+                            _collapse_whitespace(line) for line in para.split("\n")
+                        )
                         for para in strings.split("\n\n")
                     )
                 else:
                     strings = "\n\n".join(
-                        " ".join(para.split()) for para in strings.split("\n\n")
+                        _collapse_whitespace(para) for para in strings.split("\n\n")
                     )
                 result = "".join(
                     f">{line.strip() and ' '}{line}"
@@ -661,7 +673,7 @@ class WikiHtmlConverter:
 
         def process(strings: str) -> str:
             """Collapse whitespace runs in paragraph text."""
-            return " ".join(strings.split())
+            return _collapse_whitespace(strings)
 
         in_table = self._in_table_cell(ele)
         prefix = "\n" if not in_table else ""
@@ -1260,7 +1272,7 @@ class WikiHtmlConverter:
 
             def process(strings: str) -> str:
                 """Collapse whitespace in anchor text."""
-                return " ".join(strings.split())
+                return _collapse_whitespace(strings)
 
             if any(
                 isinstance(p, Tag) and p.get("typeof") == "mw:File/Frameless"

@@ -24,7 +24,7 @@ __Classical physics__ consists of [scientific theories](scientific%20theory.md) 
 
 _Classical theory_ has at least two distinct meanings in physics. It can include all those areas of physics that do not make use of [quantum mechanics](quantum%20mechanics.md), which includes [classical mechanics](classical%20mechanics.md) \(using any of the [Newtonian](Newton's%20laws%20of%20motion.md), [Lagrangian](Lagrangian%20mechanics.md), or [Hamiltonian](Hamiltonian%20mechanics.md) formulations\), as well as [classical electrodynamics](classical%20electrodynamics.md) and [relativity](theory%20of%20relativity.md).<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> Alternatively, the term can refer to theories that are neither quantum or relativistic.<sup>[\[4\]](#^ref-4)</sup>
 
-Depending on point of view, among the branches of theory sometimes included in classical physics are:<sup>[\[5\]](#^ref-5)</sup><sup>: 2 </sup>
+Depending on point of view, among the branches of theory sometimes included in classical physics are:<sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;2&hairsp;</sup>
 
 - [Classical mechanics](classical%20mechanics.md)
     - [Newton's laws of motion](Newton's%20laws%20of%20motion.md)
@@ -34,7 +34,7 @@ Depending on point of view, among the branches of theory sometimes included in c
 
 ## comparison with modern physics
 
-In contrast to classical physics, "[modern physics](modern%20physics.md)" is usually used to focus on those revolutionary changes created by [quantum physics](quantum%20physics.md) and the [theory of relativity](theory%20of%20relativity.md).<sup>[\[5\]](#^ref-5)</sup><sup>: 2 </sup>
+In contrast to classical physics, "[modern physics](modern%20physics.md)" is usually used to focus on those revolutionary changes created by [quantum physics](quantum%20physics.md) and the [theory of relativity](theory%20of%20relativity.md).<sup>[\[5\]](#^ref-5)</sup><sup>:&hairsp;2&hairsp;</sup>
 
 A [physical system](physical%20system.md) can be described by classical physics when it satisfies conditions such that the laws of classical physics are approximately valid.
 

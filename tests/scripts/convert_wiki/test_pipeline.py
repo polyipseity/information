@@ -712,11 +712,10 @@ class TestWikiHtmlToPlaintext:
 
     @pytest.mark.anyio
     async def test_hair_space_replacement(self, tmp_path: PathLike[str]) -> None:
-        """Hair space input does not cause errors in pipeline.
+        """Hair space (U+200A) is preserved through the pipeline.
 
-        The converter normalizes ``\u200a`` before the post-processing
-        ``&hairsp;`` replacement runs, so we verify the function runs
-        without error rather than asserting a specific output.
+        The converter preserves ``\u200a`` during whitespace collapsing so
+        the post-processing ``&hairsp;`` replacement can emit the entity.
         """
         tmp = Path(tmp_path)
         lang_dir = tmp / "general" / "eng"
@@ -729,7 +728,43 @@ class TestWikiHtmlToPlaintext:
             redirect_map={},
             refs=True,
         )
-        assert result is not None
+        assert "a&hairsp;b" in result
+
+    @pytest.mark.anyio
+    async def test_hair_space_in_citation_sup(self, tmp_path: PathLike[str]) -> None:
+        """Hair spaces inside ``<sup>`` citation markers survive collapsing."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+
+        html = BeautifulSoup("<p>see<sup>:\u200a2\u200a</sup></p>", "html.parser")
+        result = await wiki_html_to_plaintext(
+            html,
+            out_to_archive=set(),
+            redirect_map={},
+            refs=True,
+        )
+        assert "see<sup>:&hairsp;2&hairsp;</sup>" in result
+
+    @pytest.mark.anyio
+    async def test_hair_space_in_classed_blockquote(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Hair space survives the blockquote collapse path."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+
+        html = BeautifulSoup(
+            '<blockquote class="math_theorem">a\u200ab</blockquote>', "html.parser"
+        )
+        result = await wiki_html_to_plaintext(
+            html,
+            out_to_archive=set(),
+            redirect_map={},
+            refs=True,
+        )
+        assert "a&hairsp;b" in result
 
     @pytest.mark.anyio
     async def test_trailing_whitespace_stripped(self, tmp_path: PathLike[str]) -> None:
