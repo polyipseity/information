@@ -29,13 +29,13 @@ XLMiner offers {@{2 ways}@} to reduce categories: {@{automatically by frequency 
 
 ### decision tree
 
-- see: [general/decision tree](../general/decision%20tree.md)
+- see: ::@:: [general/decision tree](../general/decision%20tree.md)
 
-The decision tree ends are called {@{_leaf nodes_ or _terminal nodes_}@}. The rest of the nodes are called {@{_decision nodes_ or _internal nodes_}@}.
+{@{The decision tree ends}@} are called {@{_leaf nodes_ or _terminal nodes_}@}. {@{The rest of the nodes}@} are called {@{_decision nodes_ or _internal nodes_}@}.
 
-The _error rate_ of a decision tree is {@{the number of mispredicted observations divided by the number of all observations}@}.
+{@{The _error rate_ of a decision tree}@} is {@{the number of mispredicted observations divided by the number of all observations}@}.
 
-The decision tree threshold are used as follows: {@{If the attribute value is smaller or equal to the threshold, go left; otherwise, go right}@}.
+{@{The decision tree threshold}@} are used as follows: If {@{the attribute value is smaller or equal to the threshold, go left}@}; otherwise, {@{go right}@}.
 
 ### input formats
 

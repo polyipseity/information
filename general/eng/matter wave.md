@@ -13,7 +13,7 @@ tags:
 
 ## de Broglie relations
 
-{@{The _de Broglie wavelength_ $\lambda$}@} relates to {@{the [momentum](momentum.md) $p$ and the [frequency](frequency.md) $f$ relates to the total [energy](energy.md) $E$ of a [free particle](free%20particle.md)}@}:
+{@{The _de Broglie wavelength_ $\lambda$}@} relates to {@{the [momentum](momentum.md) $p$}@} and {@{the [frequency](frequency.md) $f$}@} relates to {@{the total [energy](energy.md) $E$ of a [free particle](free%20particle.md)}@}: (annotation: 2 items: {@{$\lambda = \frac h p$, $f = \frac E h$}@})
 
 > {@{The de Broglie equations}@}:
 >
