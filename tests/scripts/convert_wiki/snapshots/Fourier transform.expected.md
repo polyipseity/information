@@ -186,7 +186,7 @@ If $f$ is purely imaginary, then ${\widehat {f} }$ is [odd symmetric](even%20and
 
 #### real and imaginary parts
 
-$$\operatorname {Re} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2} }\left({\widehat {f} }(\xi )+{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$ $$\operatorname {Im} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2i} }\left({\widehat {f} }(\xi )-{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$
+$$\operatorname {Re} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2} }\left({\widehat {f} }(\xi )+{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$ <br/> $$\operatorname {Im} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2i} }\left({\widehat {f} }(\xi )-{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$
 
 #### zero frequency component
 

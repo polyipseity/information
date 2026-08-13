@@ -399,6 +399,54 @@ class TestInlineMathSpacing:
         assert _separate_block_math(text) == text
 
 
+class TestBlockMathLineBreaks:
+    """Consecutive ``$$…$$`` blocks on one line get hard line breaks.
+
+    Two or more block-math spans in the same paragraph (separated only by
+    whitespace, no newline) are joined with `` <br/> `` so they render on
+    separate lines.  Newline gaps (separate paragraphs), text gaps, and
+    already-broken output are left unchanged.
+    """
+
+    def test_two_blocks_two_spaces(self) -> None:
+        """Two block-math spans with a two-space gap get a line break."""
+        assert _separate_block_math("$$f$$  $$g$$") == "$$f$$ <br/> $$g$$"
+
+    def test_two_blocks_one_space(self) -> None:
+        """A one-space gap gets the same treatment."""
+        assert _separate_block_math("$$f$$ $$g$$") == "$$f$$ <br/> $$g$$"
+
+    def test_three_blocks(self) -> None:
+        """A chain of three block-math spans breaks between each pair."""
+        assert (
+            _separate_block_math("$$f$$  $$g$$  $$h$$")
+            == "$$f$$ <br/> $$g$$ <br/> $$h$$"
+        )
+
+    def test_adjacent_delimiters(self) -> None:
+        """No whitespace at all between spans (raw converter output) still
+        breaks."""
+        assert _separate_block_math("$$f$$$$g$$") == "$$f$$ <br/> $$g$$"
+
+    def test_adjacent_delimiters_three(self) -> None:
+        """Adjacent spans in a chain of three break between each pair."""
+        assert (
+            _separate_block_math("$$f$$$$g$$$$h$$") == "$$f$$ <br/> $$g$$ <br/> $$h$$"
+        )
+
+    def test_newline_gap_unchanged(self) -> None:
+        """Block math in separate paragraphs keeps its newline separation."""
+        assert _separate_block_math("$$f$$\n$$g$$") == "$$f$$\n$$g$$"
+
+    def test_text_gap_unchanged(self) -> None:
+        """Block math separated by real text is left alone."""
+        assert _separate_block_math("$$f$$ and $$g$$") == "$$f$$ and $$g$$"
+
+    def test_idempotent(self) -> None:
+        """Re-running on already-broken output inserts nothing."""
+        assert _separate_block_math("$$f$$ <br/> $$g$$") == "$$f$$ <br/> $$g$$"
+
+
 # =========================================================================
 # HTML tags adjacent to inline math — regression
 # =========================================================================
@@ -640,7 +688,9 @@ class TestSeparateBlockMath:
 
     def test_skips_unrelated_dollar_span(self) -> None:
         """Second ``$$`` span handled independently via its own info entry."""
-        assert _separate_block_math("text $$eq$$ $$not$$") == "text $$eq$$ $$not$$"
+        assert (
+            _separate_block_math("text $$eq$$ $$not$$") == "text $$eq$$ <br/> $$not$$"
+        )
 
     def test_only_block_math(self) -> None:
         """Document consisting only of ``$$…$$`` → unchanged."""
@@ -653,8 +703,8 @@ class TestSeparateBlockMath:
         assert "$$result$$" in result
 
     def test_collapsed_block_math_split(self) -> None:
-        """Adjacent ``$$…$$$$…$$`` at top level → split with one space."""
-        assert _separate_block_math("$$A$$$$B$$") == "$$A$$ $$B$$"
+        """Adjacent ``$$…$$$$…$$`` at top level → split with a line break."""
+        assert _separate_block_math("$$A$$$$B$$") == "$$A$$ <br/> $$B$$"
 
     def test_collapsed_with_text_between(self) -> None:
         """``$$…$$text$$…$$`` at top level → split with text preserved."""
