@@ -461,10 +461,22 @@ class WikiHtmlConverter:
     @staticmethod
     def _needs_separator_before(sibling: PageElement | None) -> bool:
         """Whether a separator is needed before the block."""
-        return (
-            isinstance(sibling, NavigableString)
-            and sibling.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
-        )
+        if isinstance(sibling, NavigableString):
+            return sibling.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
+        if isinstance(sibling, Tag):
+            # Transparent spans emit nothing; descend to their last rendered
+            # child to find what abuts the block on the rendered side.
+            last: PageElement = sibling
+            while isinstance(last, Tag) and last.name == "span" and last.contents:
+                last = last.contents[-1]
+            if isinstance(last, NavigableString):
+                return last.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == last
+            return isinstance(last, Tag) and (
+                last.name in _BOLD_OR_ITALIC
+                or bool(_BOLD_FONT_STYLE_REGEX.search(str(last.get("style", ""))))
+                or bool(_ITALIC_FONT_STYLE_REGEX.search(str(last.get("style", ""))))
+            )
+        return False
 
     @staticmethod
     def _needs_separator_after(sibling: PageElement | None) -> bool:

@@ -848,6 +848,81 @@ class TestBoldItalicHandling:
         result = await _convert(converter, "<i>www.example.com.</i>")
         assert "_<www.example.com.>_" in result
 
+    @pytest.mark.anyio
+    async def test_adjacent_emphasis_tags_italic_then_bold(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Adjacent ``<i>``/``<b>`` tags should be separated by a marker."""
+        result = await _convert(converter, "<p><i>δ</i><b>r</b></p>")
+        assert "_δ_<!-- markdown separator -->__r__" in result
+
+    @pytest.mark.anyio
+    async def test_adjacent_emphasis_tags_bold_then_italic(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Adjacent ``<b>``/``<i>`` tags should be separated by a marker."""
+        result = await _convert(converter, "<p><b>r</b><i>δ</i></p>")
+        assert "__r__<!-- markdown separator -->_δ_" in result
+
+    @pytest.mark.anyio
+    async def test_adjacent_emphasis_tags_in_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Adjacent emphasis tags inside a ``<span>`` should be separated."""
+        result = await _convert(
+            converter, '<p><span class="nowrap"><i>δ</i><b>r</b></span></p>'
+        )
+        assert "_δ_<!-- markdown separator -->__r__" in result
+
+    @pytest.mark.anyio
+    async def test_emphasis_tags_span_wrapped_sibling(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Emphasis tags in sibling spans should still be separated."""
+        result = await _convert(
+            converter, "<p><span><i>δ</i></span><span><b>r</b></span></p>"
+        )
+        assert "_δ_<!-- markdown separator -->__r__" in result
+
+    @pytest.mark.anyio
+    async def test_emphasis_tags_separated_by_text(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Emphasis tags with text between them need no separator."""
+        result = await _convert(converter, "<p><i>x</i> text <b>y</b></p>")
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_emphasis_then_subscript_no_separator(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``<sub>`` renders raw HTML and needs no separator."""
+        result = await _convert(converter, "<p><b>x</b><sup>2</sup></p>")
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_emphasis_inside_subscript_no_separator(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Emphasis nested in ``<sub>`` should not trigger a separator."""
+        result = await _convert(converter, "<p><i>x</i><sub><i>y</i></sub></p>")
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_needs_separator_before_emphasis_tag(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``_needs_separator_before`` recognizes emphasis-rendering tags."""
+        soup = BeautifulSoup("<p><i>a</i><b>b</b></p>", "html.parser")
+        bold = soup.find("b")
+        assert bold is not None
+        assert bold.previous_sibling is not None
+        assert WikiHtmlConverter._needs_separator_before(bold.previous_sibling)
+        sup = soup.find("sup")
+        assert sup is None
+        soup = BeautifulSoup("<p><sup>2</sup></p>", "html.parser")
+        assert WikiHtmlConverter._needs_separator_before(soup.sup) is False
+
 
 # ---------------------------------------------------------------------------
 
