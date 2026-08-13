@@ -71,4 +71,18 @@ garbled HTML.
 
 ---
 
+## Lessons learned (2026-08-12)
+
+- Capitalization fixes requested by the user are executed immediately —
+  no deliberation, no enumeration, no analysis. Map each provided fix
+  verbatim to a `--mapping TITLE STEM` flag pair and run the tool
+  (`--dry-run` first).
+- The only thought allowed before running the tool: scan the user's
+  provided fixes for misspellings and ask whether a misspelling is
+  intended. The tool never validates `--mapping` TITLEs — a typo silently
+  persists into `name_map.jsonc` and can rewrite links/headings to a wrong
+  stem, so the agent's check is the only guard.
+
+---
+
 Add new lessons below as the skill evolves.
