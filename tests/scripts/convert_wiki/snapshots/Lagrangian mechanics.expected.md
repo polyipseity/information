@@ -476,7 +476,7 @@ If the Lagrangian is invariant under a symmetry, then the resulting equations of
 3. [Hand & Finch 1998](#CITEREFHandFinch1998), pp. 18–20 <a id="^ref-3"></a>^ref-3
 4. [Hand & Finch 1998](#CITEREFHandFinch1998), pp. 46, 51 <a id="^ref-4"></a>^ref-4
 5. <a id="CITEREFBall2019"></a> Ball, Philip \(2019-09-13\). ["Teaching Energy Before Forces"](https://physics.aps.org/articles/v12/100). _Physics_. __12__ \(2\): 100. [Bibcode](bibcode%20(identifier).md):[2019PRPER..15b0126L](https://ui.adsabs.harvard.edu/abs/2019PRPER..15b0126L). [doi](doi%20(identifier).md):[10.1103/PhysRevPhysEducRes.15.020126](https://doi.org/10.1103%2FPhysRevPhysEducRes.15.020126). [hdl](hdl%20(identifier).md):[1808/29610](https://hdl.handle.net/1808%2F29610). Retrieved 2024-09-27. <a id="^ref-5"></a>^ref-5
-6. <a id="CITEREFTatum"></a> Tatum, J. B. ["Lagrangian mechanics"](https://www.astro.uvic.ca/~tatum/classmechs/class13.pdf)\(PDF\). _www.astro.uvic.ca_. Retrieved 2024-09-27. <a id="^ref-6"></a>^ref-6
+6. <a id="CITEREFTatum"></a> Tatum, J. B. ["Lagrangian mechanics"](https://www.astro.uvic.ca/~tatum/classmechs/class13.pdf)\(PDF\). _<www.astro.uvic.ca>_. Retrieved 2024-09-27. <a id="^ref-6"></a>^ref-6
 7. <a id="CITEREFParsonsDixon2016"></a> Parsons, Paul; Dixon, Gail \(2016\). _50 ideas you really need to know: science_. London: [Quercus](Quercus.md). pp. 4–7. [ISBN](ISBN%20(identifier).md) [978-1-78429-614-8](https://en.wikipedia.org/wiki/Special:BookSources/978-1-78429-614-8). <a id="^ref-7"></a>^ref-7
 8. [Torby 1984](#CITEREFTorby1984), p. 270 <a id="^ref-8"></a>^ref-8
 9. [Torby 1984](#CITEREFTorby1984), p. 269 <a id="^ref-9"></a>^ref-9
