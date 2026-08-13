@@ -208,11 +208,15 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 
 __First rule:__ whenever the user asks to fix capitalization (in this note or any other), run `uv run -m scripts.convert_wiki --reprocess --mapping ...` — do NOT hand-edit markdown link targets, section headers, symlinks, or `name_map.jsonc`. The tool updates `name_map.jsonc`, reconciles redirect symlinks, and rewrites link targets and section headers at all levels.
 
+__Do not think — execute immediately.__ When the user asks to fix capitalization, map each provided fix verbatim to a `--mapping "FROM" "TO"` flag pair and run the tool. No deliberation about the fixes' correctness, no occurrence enumeration, no planning — the `--dry-run` report (run first) is the only analysis ever needed. Consult the __4 title variants per stem__ convention (below) only when the report shows unmatched variants.
+
+__The only allowed thought: misspellings.__ Before running the tool, scan every term in the user's fix list for misspellings (e.g. `newton's lawes`). If any term appears misspelled, prompt the user whether the misspelling is intended — proceed verbatim if intended, corrected if not. The tool never validates `--mapping` TITLEs: a typo silently pollutes `name_map.jsonc` and can rewrite links to a wrong stem, so this check is the only guard.
+
 __Always pass the note being ingested via `--article "<note_path>"`:__ the tool only rewrites links/headers in the listed articles, so omitting `--article` leaves the ingested note's own link targets and section headers untouched.
 
 Run this when Step 5 review finds semantically wrong link-target casing, semantically wrong section-header casing at any level (`#` through `######`), or a semantically wrong filename stem — including the suggestions accepted from Step 4a. Mechanical alignment fixes are not reviewed or fixed here; `convert_wiki` already handles them. The same `--reprocess` command applies for ad-hoc fixes outside the ingestion workflow.
 
-1. Translate the user's fix list into `--mapping TITLE STEM` pairs using the __4 title variants per stem__ convention (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below). Use repeated `--mapping TITLE STEM` flags for multiple variants, or a single `--mapping-file` JSONC object (not both).
+1. Map each provided fix directly to `--mapping "FROM" "TO"` — no transformation, no analysis. Use repeated `--mapping` flags for multiple fixes, or a single `--mapping-file` JSONC object (not both). Only if the `--dry-run` report shows unmatched variants, add the missing __4 title variants per stem__ entries (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below).
 2. Preview with dry-run, always including `--article "<note_path>"`:
 
 ```bash
