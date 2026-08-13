@@ -417,6 +417,24 @@ def _reformat_table(text: str) -> str:
     if not table_blocks:
         return text
 
+    # Extend each block to the end of its last line, then merge
+    # overlapping/duplicate ranges.  ``_find_table_blocks`` can return
+    # overlapping ranges when mistune's AST contains duplicate table
+    # tokens or position artifacts around math-containing tables; without
+    # merging, later tables inside an overlapped range would be skipped
+    # and left unpadded.  Extending ends to line boundaries prevents
+    # partial lines from being split (which would duplicate their tail).
+    aligned: list[tuple[int, int]] = []
+    for start, end in sorted(table_blocks):
+        newline = text.find("\n", end)
+        aligned.append((start, len(text) if newline < 0 else newline + 1))
+    table_blocks = []
+    for start, end in aligned:
+        if table_blocks and start <= table_blocks[-1][1]:
+            table_blocks[-1] = (table_blocks[-1][0], max(table_blocks[-1][1], end))
+        else:
+            table_blocks.append((start, end))
+
     parts: list[str] = []
     prev_end = 0
     for start, end in table_blocks:

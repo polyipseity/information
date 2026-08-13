@@ -1189,12 +1189,13 @@ class TestDivHandling:
         assert "cell div" in result
 
     @pytest.mark.anyio
-    async def test_equation_box_blockquote(self, converter: WikiHtmlConverter) -> None:
-        """``equation-box`` divs should render as blockquotes."""
+    async def test_equation_box_table(self, converter: WikiHtmlConverter) -> None:
+        """``equation-box`` divs should render as two-column tables."""
         result = await _convert(
             converter, '<div class="equation-box">E = mc<sup>2</sup></div>'
         )
-        assert "> E = mc<sup>2</sup>" in result
+        assert result == "\n|  |  |\n| --- | --- |\n| E = mc<sup>2</sup> |  |\n\n\n"
+        assert "\n> " not in result
 
     @pytest.mark.anyio
     async def test_math_proof_blockquote(self, converter: WikiHtmlConverter) -> None:
@@ -1207,6 +1208,29 @@ class TestDivHandling:
         """``math_theorem`` divs should still render as blockquotes."""
         result = await _convert(converter, '<div class="math_theorem">Thm.</div>')
         assert "> Thm." in result
+
+    @pytest.mark.anyio
+    async def test_equation_box_without_numblk_table(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``equation-box`` divs without a numblk table still render as tables."""
+        result = await _convert(
+            converter,
+            '<div class="equation-box"><b>Eq</b><p>E = mc<sup>2</sup></p></div>',
+        )
+        assert result == "\n| Eq |  |\n| --- | --- |\n| E = mc<sup>2</sup> |  |\n\n\n"
+        assert "\n> " not in result
+
+    @pytest.mark.anyio
+    async def test_blockquote_title_on_own_line(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box title inside a blockquote should be its own line."""
+        result = await _convert(
+            converter,
+            '<div class="math_proof"><strong>Proof</strong><p>text</p></div>',
+        )
+        assert "> __Proof__\n> text" in result
 
     @pytest.mark.anyio
     async def test_plain_div_not_blockquoted(
@@ -1226,7 +1250,10 @@ class TestDivHandling:
             '<div class="equation-box">E = mc<sup>2</sup></div>'
         )
         result = await _convert(converter, html)
-        assert result == "- About\n\n> E = mc<sup>2</sup>\n\n"
+        assert (
+            result
+            == "- About\n\n\n|  |  |\n| --- | --- |\n| E = mc<sup>2</sup> |  |\n\n\n"
+        )
 
 
 # ---------------------------------------------------------------------------

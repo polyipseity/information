@@ -58,7 +58,7 @@ _BARE_URL_REGEX = re.compile(r"(?:https?://|www\.)[^\s<>]+")
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 """Containers where sole formula rows are display math."""
 _DISPLAY_MATH_CONTAINERS = frozenset({"dd", "dt"})
-"""Box-like classes whose content renders as a blockquote."""
+"""Box-like classes whose content renders specially."""
 _BOXED_CLASSES = frozenset(
     {
         "catlinks",
@@ -69,6 +69,14 @@ _BOXED_CLASSES = frozenset(
         "tmulti",
         "unsolved",
     }
+)
+"""Box-like classes whose content renders as a blockquote."""
+_BLOCKQUOTE_CLASSES = frozenset(_BOXED_CLASSES - {"equation-box"})
+"""Inline tags that can form an equation-box title."""
+_EQUATION_BOX_TITLE_TAGS = frozenset({"b", "strong", "i", "em", "span"})
+"""Block-level tags that separate an equation-box title from its body."""
+_EQUATION_BOX_BODY_BLOCK_TAGS = frozenset(
+    {"p", "div", "table", "ul", "ol", "dl", "blockquote", "pre", "figure"}
 )
 """LaTeX environments whose trailing punct belongs on the last row."""
 _DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = (
@@ -270,24 +278,23 @@ class WikiHtmlConverter:
             and isinstance(ele, Tag)
             and ele.find("div", class_="thumbcaption") is not None
         )
-        if ele.name == "figure" or _BOXED_CLASSES & classes or has_thumb_with_caption:
+        if (
+            ele.name == "figure"
+            or _BLOCKQUOTE_CLASSES & classes
+            or has_thumb_with_caption
+        ):
             original_process = process_strings
-            _catlinks = "catlinks" in classes
 
             def process_strings_blockquote(strings: str) -> str:
                 """Collapse whitespace runs within blockquote content."""
                 strings = original_process(strings)
-                if _catlinks:
-                    strings = "\n\n".join(
-                        "\n".join(
-                            _collapse_whitespace(line) for line in para.split("\n")
-                        )
-                        for para in strings.split("\n\n")
-                    )
-                else:
-                    strings = "\n\n".join(
-                        _collapse_whitespace(para) for para in strings.split("\n\n")
-                    )
+                # Collapse per line, preserving newlines between the box
+                # title and its paragraphs (e.g. ``__Proof__`` gets its own
+                # ``> `` line inside the blockquote).
+                strings = "\n\n".join(
+                    "\n".join(_collapse_whitespace(line) for line in para.split("\n"))
+                    for para in strings.split("\n\n")
+                )
                 result = "".join(
                     f">{line.strip() and ' '}{line}"
                     for line in strings.strip().splitlines(keepends=True)
@@ -626,23 +633,16 @@ class WikiHtmlConverter:
         if "equation-box" not in classes:
             return self._handle_block_level(ele, classes)
 
-        # Extract title from non-whitespace text nodes.
-        title = ""
-        for child in list(ele.children):
-            if isinstance(child, NavigableString) and child.strip():
-                title = child.strip()
-                break
-
         # Find the numblk table.
         numblk = ele.find("table", class_="numblk")
-        if numblk is None:
-            return self._handle_block_level(ele, classes)
+        title = self._equation_box_title(ele, has_numblk=numblk is not None)
 
         # Remove spacer columns (width=0px <td>) from numblk rows.
-        for tdh in tuple(numblk.find_all(_TD_OR_TH)):
-            style = str(tdh.get("style", ""))
-            if re.search(r"width\s*:\s*0", style, re.IGNORECASE):
-                tdh.decompose()
+        if numblk is not None:
+            for tdh in tuple(numblk.find_all(_TD_OR_TH)):
+                style = str(tdh.get("style", ""))
+                if re.search(r"width\s*:\s*0", style, re.IGNORECASE):
+                    tdh.decompose()
 
         # Build a new table with a header row that provides alignment hints.
         new_table = self._soup.new_tag("table")
@@ -658,15 +658,55 @@ class WikiHtmlConverter:
         header_row.append(th2)
         tbody.append(header_row)
 
-        # Append cleaned numblk rows.
-        for tr in numblk.find_all("tr"):
-            tbody.append(copy(tr))
+        if numblk is not None:
+            # Append cleaned numblk rows.
+            for tr in numblk.find_all("tr"):
+                tbody.append(copy(tr))
+        else:
+            # No numblk table: place the remaining content in a body row
+            # shaped like the numblk tables (content + empty right cell).
+            body_row = self._soup.new_tag("tr")
+            body_cell = self._soup.new_tag("td")
+            for child in list(ele.children):
+                body_cell.append(copy(child))
+            body_row.append(body_cell)
+            body_row.append(self._soup.new_tag("td"))
+            tbody.append(body_row)
 
         # Replace div children with the new table.
         ele.clear()
         ele.append(new_table)
 
         return None
+
+    @staticmethod
+    def _equation_box_title(ele: Tag, *, has_numblk: bool) -> str:
+        """Extract the leading title of an equation-box div.
+
+        The title is the first non-whitespace text run (bare text or an
+        inline tag such as ``<b>``/``<strong>``) when it is followed by
+        block-level content or a numblk table.  The title node is removed
+        from *ele* so the remaining children form the body.  Returns ""
+        when the box has no distinct title (e.g. pure equation content).
+        """
+        for child in list(ele.children):
+            if isinstance(child, NavigableString):
+                if not child.strip():
+                    continue
+                if not has_numblk and not any(
+                    isinstance(sib, Tag) and sib.name in _EQUATION_BOX_BODY_BLOCK_TAGS
+                    for sib in ele.children
+                ):
+                    return ""
+                title = child.strip()
+                child.extract()
+                return title
+            if isinstance(child, Tag) and child.name in _EQUATION_BOX_TITLE_TAGS:
+                title = child.get_text(strip=True)
+                child.extract()
+                return title
+            return ""
+        return ""
 
     _handle_dd = _handle_block_level
     _handle_dt = _handle_block_level
