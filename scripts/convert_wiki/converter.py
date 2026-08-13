@@ -58,6 +58,18 @@ _BARE_URL_REGEX = re.compile(r"(?:https?://|www\.)[^\s<>]+")
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 """Containers where sole formula rows are display math."""
 _DISPLAY_MATH_CONTAINERS = frozenset({"dd", "dt"})
+"""Box-like classes whose content renders as a blockquote."""
+_BOXED_CLASSES = frozenset(
+    {
+        "catlinks",
+        "equation-box",
+        "math_proof",
+        "math_theorem",
+        "portalbox",
+        "tmulti",
+        "unsolved",
+    }
+)
 """LaTeX environments whose trailing punct belongs on the last row."""
 _DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = (
     "aligned",
@@ -221,8 +233,7 @@ class WikiHtmlConverter:
             next_sib = ele.find_next_sibling()
             if isinstance(next_sib, Tag) and (
                 next_sib.name == "figure"
-                or {"catlinks", "math_theorem", "portalbox", "tmulti", "unsolved"}
-                & frozenset(next_sib.get_attribute_list("class"))
+                or _BOXED_CLASSES & frozenset(next_sib.get_attribute_list("class"))
             ):
                 config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
             else:
@@ -259,18 +270,7 @@ class WikiHtmlConverter:
             and isinstance(ele, Tag)
             and ele.find("div", class_="thumbcaption") is not None
         )
-        if (
-            ele.name == "figure"
-            or {
-                "catlinks",
-                "math_theorem",
-                "portalbox",
-                "tmulti",
-                "unsolved",
-            }
-            & classes
-            or has_thumb_with_caption
-        ):
+        if ele.name == "figure" or _BOXED_CLASSES & classes or has_thumb_with_caption:
             original_process = process_strings
             _catlinks = "catlinks" in classes
 

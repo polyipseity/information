@@ -1188,6 +1188,46 @@ class TestDivHandling:
         )
         assert "cell div" in result
 
+    @pytest.mark.anyio
+    async def test_equation_box_blockquote(self, converter: WikiHtmlConverter) -> None:
+        """``equation-box`` divs should render as blockquotes."""
+        result = await _convert(
+            converter, '<div class="equation-box">E = mc<sup>2</sup></div>'
+        )
+        assert "> E = mc<sup>2</sup>" in result
+
+    @pytest.mark.anyio
+    async def test_math_proof_blockquote(self, converter: WikiHtmlConverter) -> None:
+        """``math_proof`` divs should render as blockquotes."""
+        result = await _convert(converter, '<div class="math_proof">Proof.</div>')
+        assert "> Proof." in result
+
+    @pytest.mark.anyio
+    async def test_math_theorem_blockquote(self, converter: WikiHtmlConverter) -> None:
+        """``math_theorem`` divs should still render as blockquotes."""
+        result = await _convert(converter, '<div class="math_theorem">Thm.</div>')
+        assert "> Thm." in result
+
+    @pytest.mark.anyio
+    async def test_plain_div_not_blockquoted(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A plain div should not be blockquoted."""
+        result = await _convert(converter, "<div>hello</div>")
+        assert "> hello" not in result
+
+    @pytest.mark.anyio
+    async def test_hatnote_blank_line_before_equation_box(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A hatnote preceding an equation-box needs a blank line suffix."""
+        html = (
+            '<div class="hatnote">About</div>'
+            '<div class="equation-box">E = mc<sup>2</sup></div>'
+        )
+        result = await _convert(converter, html)
+        assert result == "- About\n\n> E = mc<sup>2</sup>\n\n"
+
 
 # ---------------------------------------------------------------------------
 
