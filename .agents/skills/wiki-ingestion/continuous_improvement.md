@@ -61,6 +61,13 @@ garbled HTML.
   and via `--reprocess`. The converter's lowercase-first-char fallback can
   damage proper nouns absent from `name_map` (e.g. `newton's laws`), which
   only a semantic review catches.
+- Capitalization fixes requested by the user ALWAYS go through
+  `uv run -m scripts.convert_wiki --reprocess --mapping TITLE STEM` —
+  never hand-edit note link targets, section headers, symlinks, or
+  `name_map.jsonc`. Run `--dry-run` first: its report is the analysis
+  (do not grep/sed/readlink the note to enumerate occurrences), and
+  always pass the note being ingested via `--article "<note_path>"` so
+  its own links and section headers are rewritten.
 
 ---
 
