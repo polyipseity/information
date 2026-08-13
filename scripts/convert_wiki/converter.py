@@ -52,6 +52,8 @@ _COLLAPSE_SPACES_REGEX = re.compile(r" {2,}")
 _WHITESPACE_EXCEPT_HAIR_RE = re.compile(r"[^\S\u200a]+")
 """Captures the separator-prefixed display text in bold/italic processing."""
 _PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
+"""Matches bare URLs for autolink wrapping."""
+_BARE_URL_REGEX = re.compile(r"(?:https?://|www\.)[^\s<>]+")
 """Whitespace and separator chars for sidebar tight wrapping."""
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 """Containers where sole formula rows are display math."""
@@ -73,6 +75,13 @@ _DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = (
     "vmatrix",
     "Bmatrix",
 )
+
+
+def _wrap_bare_url(text: str) -> str:
+    """Wrap a bare URL in autolink brackets (e.g. ``www.example.com`` → ``<www.example.com>``)."""
+    if _BARE_URL_REGEX.fullmatch(text):
+        return f"<{text}>"
+    return text
 
 
 def _collapse_whitespace(text: str) -> str:
@@ -510,10 +519,10 @@ class WikiHtmlConverter:
             """Handle separator characters around bold/italic regions."""
             match = _PROCESS_STRINGS_BI_REGEX.match(strings)
             if not match:
-                return strings
+                return _wrap_bare_url(strings)
             config.prefix = f"{match[1]}{config.prefix}"
             config.suffix += match[3]
-            return match[2]
+            return _wrap_bare_url(match[2])
 
         config.process_strings = process
         if ele.name in _TD_OR_TH:

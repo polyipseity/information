@@ -5,13 +5,15 @@ testable without HTTP requests or clipboard access.
 """
 
 import json
+import os
 import re
+import subprocess
 from os import PathLike
 from pathlib import Path as PathlibPath
 
 import json5
 import pytest
-from anyio import Path
+from anyio import Path, run_process
 from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki import config
@@ -200,6 +202,9 @@ _SNAPSHOT_DIR = (
     PathlibPath(__file__).resolve(strict=True).with_name("convert_wiki") / "snapshots"
 )
 
+"""Absolute path to the repository root (markdownlint invocation cwd)."""
+_REPO_ROOT = PathlibPath(__file__).resolve(strict=True).parents[2]
+
 
 def _discover_snapshot_cases() -> list[str]:
     """Return fixture names by scanning ``*.input.html`` files."""
@@ -247,6 +252,34 @@ def _categorize_block_math_blocks(output: str) -> dict[str, int]:
             else:
                 counts["neither"] += 1
     return counts
+
+
+async def _assert_markdownlint_clean(output: str, tmp: Path) -> None:
+    """Assert generated ``output`` is markdownlint-clean under the snapshots config chain.
+
+    Writes ``output`` and a temporary config extending the snapshots
+    directory's own config (by absolute path, so the whole config chain
+    applies regardless of where the tmp dir lives) into ``tmp``, then runs
+    the repository-pinned markdownlint-cli2 on the written file.
+    """
+    out_path = tmp / "lint.md"
+    config_path = tmp / ".markdownlint.jsonc"
+    await out_path.write_text(output, encoding="UTF-8")
+    await config_path.write_text(
+        json.dumps({"extends": os.fspath(_SNAPSHOT_DIR / ".markdownlint.jsonc")}),
+        encoding="UTF-8",
+    )
+    proc = await run_process(
+        ["bun", "x", "markdownlint-cli2", "--no-globs", os.fspath(out_path)],
+        cwd=os.fspath(_REPO_ROOT),
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        check=False,
+    )
+    assert proc.returncode == 0, (
+        f"converter output failed markdownlint:\n"
+        f"{proc.stdout.decode()}{proc.stderr.decode()}"
+    )
 
 
 class TestWikiHtmlToPlaintextSnapshot:
@@ -308,6 +341,7 @@ class TestWikiHtmlToPlaintextSnapshot:
         )
 
         assert output == expected
+        await _assert_markdownlint_clean(output, tmp)
 
 
 class TestImageAltTextFallback:

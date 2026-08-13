@@ -61,6 +61,27 @@ garbled HTML.
   and via `--reprocess`. The converter's lowercase-first-char fallback can
   damage proper nouns absent from `name_map` (e.g. `newton's laws`), which
   only a semantic review catches.
+- Capitalization fixes requested by the user ALWAYS go through
+  `uv run -m scripts.convert_wiki --reprocess --mapping TITLE STEM` —
+  never hand-edit note link targets, section headers, symlinks, or
+  `name_map.jsonc`. Run `--dry-run` first: its report is the analysis
+  (do not grep/sed/readlink the note to enumerate occurrences), and
+  always pass the note being ingested via `--article "<note_path>"` so
+  its own links and section headers are rewritten.
+
+---
+
+## Lessons learned (2026-08-12)
+
+- Capitalization fixes requested by the user are executed immediately —
+  no deliberation, no enumeration, no analysis. Map each provided fix
+  verbatim to a `--mapping TITLE STEM` flag pair and run the tool
+  (`--dry-run` first).
+- The only thought allowed before running the tool: scan the user's
+  provided fixes for misspellings and ask whether a misspelling is
+  intended. The tool never validates `--mapping` TITLEs — a typo silently
+  persists into `name_map.jsonc` and can rewrite links/headings to a wrong
+  stem, so the agent's check is the only guard.
 
 ---
 

@@ -796,6 +796,58 @@ class TestBoldItalicHandling:
         result = await _convert(converter, "<em>emphasized</em>")
         assert "_emphasized_" in result
 
+    @pytest.mark.anyio
+    async def test_italic_bare_url(self, converter: WikiHtmlConverter) -> None:
+        """Bare ``www.`` URL in ``<i>`` should be wrapped in autolink brackets."""
+        result = await _convert(converter, "<i>www.astro.uvic.ca</i>")
+        assert "_<www.astro.uvic.ca>_" in result
+
+    @pytest.mark.anyio
+    async def test_italic_bare_https_url(self, converter: WikiHtmlConverter) -> None:
+        """Bare ``https://`` URL in ``<i>`` should be wrapped in autolink brackets."""
+        result = await _convert(converter, "<i>https://example.com/path</i>")
+        assert "_<https://example.com/path>_" in result
+
+    @pytest.mark.anyio
+    async def test_bold_bare_url(self, converter: WikiHtmlConverter) -> None:
+        """Bare URL in ``<b>`` should be wrapped in autolink brackets."""
+        result = await _convert(converter, "<b>www.example.com</b>")
+        assert "__<www.example.com>__" in result
+
+    @pytest.mark.anyio
+    async def test_italic_plain_text_not_wrapped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Plain text in ``<i>`` should not be wrapped."""
+        result = await _convert(converter, "<i>plain text</i>")
+        assert "_plain text_" in result
+
+    @pytest.mark.anyio
+    async def test_italic_link_destination_not_wrapped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Link destination inside ``<i>`` should not be wrapped."""
+        result = await _convert(
+            converter, '<i><a href="https://x.example/y">label</a></i>'
+        )
+        assert "_[label](https://x.example/y)_" in result
+
+    @pytest.mark.anyio
+    async def test_italic_code_span_not_wrapped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Code span inside ``<i>`` should not be wrapped."""
+        result = await _convert(converter, "<i><code>x</code></i>")
+        assert "_`x`_" in result
+
+    @pytest.mark.anyio
+    async def test_italic_bare_url_trailing_period(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Trailing period stays inside autolink brackets."""
+        result = await _convert(converter, "<i>www.example.com.</i>")
+        assert "_<www.example.com.>_" in result
+
 
 # ---------------------------------------------------------------------------
 
