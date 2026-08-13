@@ -1,6 +1,6 @@
 ---
 name: wiki-ingestion
-description: Ingest Wikipedia HTML, normalize links/media, and archive to knowledge base.
+description: Ingest Wikipedia HTML, normalize links/media, archive to knowledge base, and fix capitalization in ingested notes (links, headers, stems) via convert_wiki --reprocess.
 ---
 
 # Wiki Ingestion Workflow
@@ -24,6 +24,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 - Converting web pages to Markdown for knowledge base
 - Extracting and organizing media from online sources
 - Creating new notes with pre-filled structure from web content
+- Fixing capitalization in ingested notes (link targets, section headers, filename stems) — always via `convert_wiki --reprocess`, never by hand-editing the note, symlinks, or `name_map.jsonc`
 
 ## Detailed workflow
 
@@ -187,7 +188,7 @@ Proposed capitalization fixes (suggestions only — not applied):
 
 or the single line `No capitalization fixes proposed.` when the review finds nothing.
 
-__Hard rule:__ do NOT apply any suggestion — do not edit the note, do not run `--reprocess`, do not modify `name_map.jsonc`. The human decides during Step 5; approved suggestions are applied in Step 6b.
+__Hard rule:__ during this review pass the agent applies NOTHING — do not edit the note, do not run `--reprocess`, do not modify `name_map.jsonc`. The human decides during Step 5; approved suggestions are applied by the tool in Step 6b. Notes, symlinks, and `name_map.jsonc` are never hand-edited at any point.
 
 ### Step 5: Manual review and editing
 
@@ -203,12 +204,16 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 - Ensure all media references are correct (check `archives/Wikimedia Commons/`)
 - Ensure the note is complete before committing
 
-#### Step 6b: Fix link capitalization (conditional)
+#### Step 6b: Apply capitalization fixes (always via the tool)
+
+__First rule:__ whenever the user asks to fix capitalization (in this note or any other), run `uv run -m scripts.convert_wiki --reprocess --mapping ...` — do NOT hand-edit markdown link targets, section headers, symlinks, or `name_map.jsonc`. The tool updates `name_map.jsonc`, reconciles redirect symlinks, and rewrites link targets and section headers at all levels.
+
+__Always pass the note being ingested via `--article "<note_path>"`:__ the tool only rewrites links/headers in the listed articles, so omitting `--article` leaves the ingested note's own link targets and section headers untouched.
 
 Run this when Step 5 review finds semantically wrong link-target casing, semantically wrong section-header casing at any level (`#` through `######`), or a semantically wrong filename stem — including the suggestions accepted from Step 4a. Mechanical alignment fixes are not reviewed or fixed here; `convert_wiki` already handles them. The same `--reprocess` command applies for ad-hoc fixes outside the ingestion workflow.
 
-1. Identify affected Wikipedia title variants and propose `name_map` entries using the __4 title variants per stem__ convention (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below). Use repeated `--mapping TITLE STEM` flags for multiple variants, or a single `--mapping-file` JSONC object (not both).
-2. Preview with dry-run:
+1. Translate the user's fix list into `--mapping TITLE STEM` pairs using the __4 title variants per stem__ convention (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below). Use repeated `--mapping TITLE STEM` flags for multiple variants, or a single `--mapping-file` JSONC object (not both).
+2. Preview with dry-run, always including `--article "<note_path>"`:
 
 ```bash
 uv run -m scripts.convert_wiki --reprocess \
@@ -217,7 +222,7 @@ uv run -m scripts.convert_wiki --reprocess \
   --dry-run
 ```
 
-1. Apply when the dry-run report looks correct:
+1. Apply when the dry-run report looks correct, keeping `--article "<note_path>"`:
 
 ```bash
 uv run -m scripts.convert_wiki --reprocess \
@@ -226,6 +231,8 @@ uv run -m scripts.convert_wiki --reprocess \
 ```
 
 Replace `<note_path>` with the note from Step 1 (e.g. `general/eng/modern physics.md`). `--article` accepts a stem or path.
+
+__Anti-pattern:__ do NOT grep/sed/readlink the note to enumerate occurrences of wrong casing — the `--dry-run` report IS the analysis. Run `--dry-run` first and read its report.
 
 | Situation | Flags |
 | --------- | ----- |
