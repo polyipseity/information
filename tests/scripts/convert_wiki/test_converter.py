@@ -1288,6 +1288,55 @@ class TestDivHandling:
             == "- About\n\n\n|  |  |\n| --- | --- |\n| E = mc<sup>2</sup> |  |\n\n\n"
         )
 
+    @pytest.mark.anyio
+    async def test_tmulti_caption_separates_blockquote_lines(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Multi-image ``tmulti`` thumbnails separate each image and caption.
+
+        Every image and every ``thumbcaption`` gets its own ``> `` line
+        inside the blockquote, with blank ``> `` lines separating
+        siblings, instead of caption text gluing to the next image.
+        """
+        html = (
+            '<div class="thumb tmulti"><div class="thumbinner multiimageinner">'
+            '<div class="trow"><div class="tsingle">'
+            '<div class="thumbimage"><img src="//upload.wikimedia.org/wikipedia/'
+            'commons/thumb/5/5d/Image1.svg/250px-Image1.svg.png" alt="Image 1"/>'
+            '</div><div class="thumbcaption">First caption.</div></div>'
+            '<div class="tsingle">'
+            '<div class="thumbimage"><img src="//upload.wikimedia.org/wikipedia/'
+            'commons/thumb/8/85/Image2.svg/250px-Image2.svg.png" alt="Image 2"/>'
+            '</div><div class="thumbcaption">Second caption.</div></div></div>'
+            '<div class="trow"><div class="thumbcaption">Overall caption.</div>'
+            "</div></div></div>"
+        )
+        result = await _convert(converter, html)
+        assert (
+            "> ![Image 1](../../archives/Wikimedia%20Commons/Image1.svg)\n"
+            ">\n> First caption." in result
+        )
+        assert (
+            "> First caption.\n>\n> ![Image 2]"
+            "(../../archives/Wikimedia%20Commons/Image2.svg)" in result
+        )
+        assert "> Second caption.\n>\n> Overall caption." in result
+
+    @pytest.mark.anyio
+    async def test_figcaption_block_level(self, converter: WikiHtmlConverter) -> None:
+        """A ``<figcaption>`` renders as block-level caption content."""
+        html = (
+            "<figure>"
+            '<img src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/'
+            'Fig1.svg/250px-Fig1.svg.png" alt="Fig 1"/>'
+            "<figcaption>Figure caption.</figcaption></figure>"
+        )
+        result = await _convert(converter, html)
+        assert (
+            "> ![Fig 1](../../archives/Wikimedia%20Commons/Fig1.svg)\n"
+            ">\n> Figure caption." in result
+        )
+
 
 # ---------------------------------------------------------------------------
 
