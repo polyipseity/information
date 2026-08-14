@@ -19,7 +19,7 @@ from yarl import URL
 
 from . import config as _cfg
 from .latex import LatexConverter
-from .table import _TD_OR_TH, TableConverter
+from .table import _TD_OR_TH, _TEXT_ALIGN_REGEX, TableConverter
 from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
@@ -108,6 +108,14 @@ def _collapse_whitespace(text: str) -> str:
     """Collapse whitespace runs, preserving hair spaces (U+200A)."""
     text = text.strip(" \t\n\r\x0b\x0c")
     return " ".join(_WHITESPACE_EXCEPT_HAIR_RE.split(text))
+
+
+def _set_text_align(cell: Tag, align: str) -> None:
+    """Append ``text-align`` to *cell*'s style unless it already declares one."""
+    style = str(cell.get("style", ""))
+    if _TEXT_ALIGN_REGEX.search(style):
+        return
+    cell["style"] = f"{style}text-align: {align};"
 
 
 class WikiHtmlConverter:
@@ -652,6 +660,15 @@ class WikiHtmlConverter:
         numblk = ele.find("table", class_="numblk")
         title = self._equation_box_title(ele, has_numblk=numblk is not None)
 
+        # No title and no numbering: nothing to table-ify -> plain block.
+        if not title and numblk is None:
+            return self._handle_block_level(ele, classes)
+
+        # The box's declared alignment, inherited by all its cells.
+        align = ""
+        if m := _TEXT_ALIGN_REGEX.search(str(ele.get("style", ""))):
+            align = m[1]
+
         # Remove spacer columns (width=0px <td>) from numblk rows.
         if numblk is not None:
             for tdh in tuple(numblk.find_all(_TD_OR_TH)):
@@ -659,37 +676,50 @@ class WikiHtmlConverter:
                 if re.search(r"width\s*:\s*0", style, re.IGNORECASE):
                     tdh.decompose()
 
-        # Build a new table with a header row that provides alignment hints.
+        # Build a new table whose cells carry the box's alignment; the
+        # TableConverter derives alignment markers from these cells.
         new_table = self._soup.new_tag("table")
         tbody = self._soup.new_tag("tbody")
         new_table.append(tbody)
 
-        # Header row: title in center-aligned <th>, empty right-aligned <th>.
+        # Header row: title in <th>; equation-number <th> only when a
+        # numblk table (numbering) is present.
         header_row = self._soup.new_tag("tr")
-        th1 = self._soup.new_tag("th", attrs={"style": "text-align:center"})
+        th1 = self._soup.new_tag("th")
+        if align:
+            _set_text_align(th1, align)
         if isinstance(title, Tag):
             # Preserve inline formatting (e.g. ``<b>``) in the title.
             th1.append(title)
         else:
             th1.string = title
-        th2 = self._soup.new_tag("th", attrs={"style": "text-align:right"})
         header_row.append(th1)
-        header_row.append(th2)
+        if numblk is not None:
+            th2 = self._soup.new_tag("th")
+            if align:
+                _set_text_align(th2, align)
+            header_row.append(th2)
         tbody.append(header_row)
 
         if numblk is not None:
-            # Append cleaned numblk rows.
+            # Append cleaned numblk rows, propagating the box's alignment
+            # onto cells that do not declare their own.
             for tr in numblk.find_all("tr"):
-                tbody.append(copy(tr))
+                new_tr = copy(tr)
+                if align:
+                    for cell in new_tr.find_all(_TD_OR_TH):
+                        _set_text_align(cell, align)
+                tbody.append(new_tr)
         else:
-            # No numblk table: place the remaining content in a body row
-            # shaped like the numblk tables (content + empty right cell).
+            # No numblk table: place the remaining content in a single
+            # body cell (no empty equation-number column).
             body_row = self._soup.new_tag("tr")
             body_cell = self._soup.new_tag("td")
+            if align:
+                _set_text_align(body_cell, align)
             for child in list(ele.children):
                 body_cell.append(copy(child))
             body_row.append(body_cell)
-            body_row.append(self._soup.new_tag("td"))
             tbody.append(body_row)
 
         # Replace div children with the new table.

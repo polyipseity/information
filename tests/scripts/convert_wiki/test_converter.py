@@ -1208,11 +1208,11 @@ class TestDivHandling:
 
     @pytest.mark.anyio
     async def test_equation_box_table(self, converter: WikiHtmlConverter) -> None:
-        """``equation-box`` divs should render as two-column tables."""
+        """A title-less ``equation-box`` div without numbering is a plain block."""
         result = await _convert(
             converter, '<div class="equation-box">E = mc<sup>2</sup></div>'
         )
-        assert result == "\n|  |  |\n| --- | --- |\n| E = mc<sup>2</sup> |  |\n\n\n"
+        assert result == "E = mc<sup>2</sup>"
         assert "\n> " not in result
 
     @pytest.mark.anyio
@@ -1231,13 +1231,34 @@ class TestDivHandling:
     async def test_equation_box_without_numblk_table(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """``equation-box`` divs without a numblk table still render as tables."""
+        """``equation-box`` divs without a numblk table render single-column tables."""
         result = await _convert(
             converter,
             '<div class="equation-box"><b>Eq</b><p>E = mc<sup>2</sup></p></div>',
         )
+        assert result == "\n| __Eq__ |\n| --- |\n| E = mc<sup>2</sup> |\n\n\n"
+        assert "\n> " not in result
+
+    @pytest.mark.anyio
+    async def test_equation_box_with_numblk_table(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``equation-box`` divs with a numblk table keep the number column.
+
+        The box's declared alignment propagates to both columns.
+        """
+        result = await _convert(
+            converter,
+            '<div class="equation-box" style="text-align:center">'
+            "<b>Eq</b>"
+            '<table class="numblk"><tbody><tr>'
+            "<td>E = mc<sup>2</sup></td>"
+            '<td style="width: 0px"></td>'
+            "<td>Eq.1</td>"
+            "</tr></tbody></table></div>",
+        )
         assert result == (
-            "\n| __Eq__ |  |\n| --- | --- |\n| E = mc<sup>2</sup> |  |\n\n\n"
+            "\n| __Eq__ |  |\n| :-: | :-: |\n| E = mc<sup>2</sup> | Eq.1 |\n\n\n"
         )
         assert "\n> " not in result
 
@@ -1283,10 +1304,7 @@ class TestDivHandling:
             '<div class="equation-box">E = mc<sup>2</sup></div>'
         )
         result = await _convert(converter, html)
-        assert (
-            result
-            == "- About\n\n\n|  |  |\n| --- | --- |\n| E = mc<sup>2</sup> |  |\n\n\n"
-        )
+        assert result == "- About\n\nE = mc<sup>2</sup>"
 
     @pytest.mark.anyio
     async def test_tmulti_caption_separates_blockquote_lines(
