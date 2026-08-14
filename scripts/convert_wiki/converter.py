@@ -278,6 +278,10 @@ class WikiHtmlConverter:
             and isinstance(ele, Tag)
             and ele.find("div", class_="thumbcaption") is not None
         )
+        has_box_title = (
+            _BLOCKQUOTE_CLASSES & classes
+            and self._find_box_title(ele, has_numblk=False) is not None
+        )
         if (
             ele.name == "figure"
             or _BLOCKQUOTE_CLASSES & classes
@@ -299,7 +303,13 @@ class WikiHtmlConverter:
                     f">{line.strip() and ' '}{line}"
                     for line in strings.strip().splitlines(keepends=True)
                 )
-                return _COLLAPSE_EMPTY_BLOCKQUOTE_RE.sub(">\n", result)
+                result = _COLLAPSE_EMPTY_BLOCKQUOTE_RE.sub(">\n", result)
+                # Separate the box title from its body with a blank ``> `` line.
+                if has_box_title:
+                    result = re.sub(
+                        r"^(> [^\n]+)\n(> \S)", r"\1\n>\n\2", result, count=1
+                    )
+                return result
 
             config.suffix = "\n\n"
             process_strings = process_strings_blockquote
@@ -680,14 +690,13 @@ class WikiHtmlConverter:
         return None
 
     @staticmethod
-    def _equation_box_title(ele: Tag, *, has_numblk: bool) -> str:
-        """Extract the leading title of an equation-box div.
+    def _find_box_title(ele: Tag, *, has_numblk: bool) -> Tag | NavigableString | None:
+        """Detect the leading title of a box div without extracting it.
 
         The title is the first non-whitespace text run (bare text or an
         inline tag such as ``<b>``/``<strong>``) when it is followed by
-        block-level content or a numblk table.  The title node is removed
-        from *ele* so the remaining children form the body.  Returns ""
-        when the box has no distinct title (e.g. pure equation content).
+        block-level content or a numblk table.  Returns None when the box
+        has no distinct title (e.g. pure equation content).
         """
         for child in list(ele.children):
             if isinstance(child, NavigableString):
@@ -697,16 +706,30 @@ class WikiHtmlConverter:
                     isinstance(sib, Tag) and sib.name in _EQUATION_BOX_BODY_BLOCK_TAGS
                     for sib in ele.children
                 ):
-                    return ""
-                title = child.strip()
-                child.extract()
-                return title
+                    return None
+                return child
             if isinstance(child, Tag) and child.name in _EQUATION_BOX_TITLE_TAGS:
-                title = child.get_text(strip=True)
-                child.extract()
-                return title
+                return child
+            return None
+        return None
+
+    @staticmethod
+    def _equation_box_title(ele: Tag, *, has_numblk: bool) -> str:
+        """Extract the leading title of an equation-box div.
+
+        The title is the first non-whitespace text run (bare text or an
+        inline tag such as ``<b>``/``<strong>``) when it is followed by
+        block-level content or a numblk table.  The title node is removed
+        from *ele* so the remaining children form the body.  Returns ""
+        when the box has no distinct title (e.g. pure equation content).
+        """
+        title = WikiHtmlConverter._find_box_title(ele, has_numblk=has_numblk)
+        if title is None:
             return ""
-        return ""
+        title.extract()
+        if isinstance(title, NavigableString):
+            return title.strip()
+        return title.get_text(strip=True)
 
     _handle_dd = _handle_block_level
     _handle_dt = _handle_block_level

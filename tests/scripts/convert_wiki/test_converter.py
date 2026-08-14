@@ -1225,12 +1225,16 @@ class TestDivHandling:
     async def test_blockquote_title_on_own_line(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """A box title inside a blockquote should be its own line."""
+        """A box title inside a blockquote should be its own line.
+
+        The title is followed by a blank ``> `` line separating it from
+        the body.
+        """
         result = await _convert(
             converter,
             '<div class="math_proof"><strong>Proof</strong><p>text</p></div>',
         )
-        assert "> __Proof__\n> text" in result
+        assert "> __Proof__\n>\n> text" in result
 
     @pytest.mark.anyio
     async def test_plain_div_not_blockquoted(
