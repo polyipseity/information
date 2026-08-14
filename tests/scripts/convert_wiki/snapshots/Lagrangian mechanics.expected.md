@@ -134,9 +134,13 @@ The constraint forces can either be eliminated from the equations of motion, so 
 
 > ![Constraint force and virtual displacement for one degree of freedom.](../../archives/Wikimedia%20Commons/Constraint%20force%20virtual%20displacement%201%20dof.svg)
 >
-> One degree of freedom.![Constraint force and virtual displacement for two degrees of freedom.](../../archives/Wikimedia%20Commons/Constraint%20force%20virtual%20displacement%202%20dof.svg)
+> One degree of freedom.
 >
-> Two degrees of freedom.Constraint force __C__ and virtual displacement _δ_<!-- markdown separator -->__r__ for a particle of mass _m_ confined to a curve. The resultant non-constraint force is __N__.
+> ![Constraint force and virtual displacement for two degrees of freedom.](../../archives/Wikimedia%20Commons/Constraint%20force%20virtual%20displacement%202%20dof.svg)
+>
+> Two degrees of freedom.
+>
+> Constraint force __C__ and virtual displacement _δ_<!-- markdown separator -->__r__ for a particle of mass _m_ confined to a curve. The resultant non-constraint force is __N__.
 
 A fundamental result in [analytical mechanics](analytical%20mechanics.md) is [D'Alembert's principle](d'Alembert's%20principle.md), introduced in 1708 by [Jacques Bernoulli](Jacques%20Bernoulli.md) to understand [static equilibrium](static%20equilibrium.md#static), and developed by [D'Alembert](d'Alembert.md) in 1743 to solve dynamical problems.<sup>[\[21\]](#^ref-21)</sup> The principle asserts for _N_ particles the virtual work, i.e. the work along a virtual displacement, $\delta \mathbf {r} _{k}$, is zero:<sup>[\[9\]](#^ref-9)</sup> $$\sum _{k=1}^{N}(\mathbf {N} _{k}+\mathbf {C} _{k}-m_{k}\mathbf {a} _{k})\cdot \delta \mathbf {r} _{k}=0.$$
 
