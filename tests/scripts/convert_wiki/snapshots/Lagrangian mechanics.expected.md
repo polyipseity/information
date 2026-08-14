@@ -74,9 +74,9 @@ If _T_ or _V_ or both depend explicitly on time due to time-varying constraints 
 
 With these definitions, _Lagrange's equations_ are<sup>[\[11\]](#^ref-11)</sup>
 
-| __Lagrange's equations__                                                                                                                                                                                                                     |     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| $${\frac {\partial L}{\partial \mathbf {r} _{k} } }-{\frac {\mathrm {d} }{\mathrm {d} t} }{\frac {\partial L}{\partial {\dot {\mathbf {r} } }_{k} } }+\sum _{i=1}^{C}\lambda _{i}{\frac {\partial f_{i} }{\partial \mathbf {r} _{k} } }=0,$$ |     |
+|                                                                                                           __Lagrange's equations__                                                                                                           |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| $${\frac {\partial L}{\partial \mathbf {r} _{k} } }-{\frac {\mathrm {d} }{\mathrm {d} t} }{\frac {\partial L}{\partial {\dot {\mathbf {r} } }_{k} } }+\sum _{i=1}^{C}\lambda _{i}{\frac {\partial f_{i} }{\partial \mathbf {r} _{k} } }=0,$$ |
 
 where _k_ = 1, 2, ..., _N_ labels the particles, there is a [Lagrange multiplier](Lagrange%20multiplier.md)_λ<sub>i</sub>_ for each constraint equation _f_<sub>_i_</sub>, and $${\frac {\partial }{\partial \mathbf {r} _{k} } }\equiv \left({\frac {\partial }{\partial x_{k} } },{\frac {\partial }{\partial y_{k} } },{\frac {\partial }{\partial z_{k} } }\right),\quad {\frac {\partial }{\partial {\dot {\mathbf {r} } }_{k} } }\equiv \left({\frac {\partial }{\partial {\dot {x} }_{k} } },{\frac {\partial }{\partial {\dot {y} }_{k} } },{\frac {\partial }{\partial {\dot {z} }_{k} } }\right)$$ are each shorthands for a vector of [partial derivatives](partial%20derivative.md)∂/∂ with respect to the indicated variables \(not a derivative with respect to the entire vector\).<sup>[\[nb 1\]](#^nb-1)</sup> Each overdot is a shorthand for a [time derivative](time%20derivative.md). This procedure does increase the number of equations to solve compared to Newton's laws, from 3<!-- markdown separator -->_N_ to 3<!-- markdown separator -->_N_ + _C_, because there are 3<!-- markdown separator -->_N_ coupled second-order differential equations in the position coordinates and multipliers, plus _C_ constraint equations. However, when solved alongside the position coordinates of the particles, the multipliers can yield information about the constraint forces. The coordinates do not need to be eliminated by solving the constraint equations.
 
@@ -90,9 +90,9 @@ Given this __v__<sub>_k_</sub>, the kinetic energy _in generalized coordinates_ 
 
 With these definitions, the __[Euler–Lagrange equations](Euler–Lagrange%20equation.md)__,<sup>[\[12\]](#^ref-12)</sup><sup>[\[13\]](#^ref-13)</sup>
 
-| __Lagrange's equations__                                                                                                                       |     |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| $${\frac {\mathrm {d} }{\mathrm {d} t} }\left({\frac {\partial L}{\partial {\dot {q} }_{j} } }\right)={\frac {\partial L}{\partial q_{j} } }$$ |     |
+|                                                            __Lagrange's equations__                                                            |
+| :--------------------------------------------------------------------------------------------------------------------------------------------: |
+| $${\frac {\mathrm {d} }{\mathrm {d} t} }\left({\frac {\partial L}{\partial {\dot {q} }_{j} } }\right)={\frac {\partial L}{\partial q_{j} } }$$ |
 
 are mathematical results from the [calculus of variations](calculus%20of%20variations.md), which can also be used in mechanics. Substituting in the Lagrangian _L_\(__q__, d<!-- markdown separator -->__q__<!-- markdown separator -->/d<!-- markdown separator -->_t_, _t_\) gives the [equations of motion](equations%20of%20motion.md) of the system. The number of equations has decreased compared to Newtonian mechanics, from 3<!-- markdown separator -->_N_ to _n_ = 3<!-- markdown separator -->_N_ − _C_ coupled second-order differential equations in the generalized coordinates. These equations do not include constraint forces at all, only non-constraint forces need to be accounted for.
 
