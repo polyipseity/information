@@ -24,8 +24,8 @@ The Fourier transform can also be generalized to functions of several variables 
 
 The Fourier transform of a [Lebesgue integrable](Lebesgue%20integrable.md#Lebesgue%20integrable) complex-valued function $f(x)$ on the real line, is the complex valued function ⁠${\widehat {f} }(\xi )$⁠, defined by the integral<sup>[\[1\]](#^ref-1)</sup>
 
-| Fourier transform                                                                                               |              |
-| --------------------------------------------------------------------------------------------------------------- | ------------ |
+|                                                Fourier transform                                                |              |
+| :-------------------------------------------------------------------------------------------------------------: | :----------: |
 | ${\widehat {f} }(\xi )=\int _{-\infty }^{\infty }f(x)\ e^{-i2\pi \xi x}\,dx,\quad \forall \xi \in \mathbb {R}$. | ____Eq.1____ |
 
 When $f(x)$ is \(Lebesgue\) integrable over the whole real line, the above integral converges for all $\xi \in \mathbb {R}$, and ${\widehat {f} }(\xi )$ is a [uniformly continuous](uniformly%20continuous.md) function of $\xi$ which decays to zero as ⁠$\xi \to \infty$⁠.
@@ -34,8 +34,8 @@ However, the Fourier transform can also be defined for \(generalized\) functions
 
 First introduced in [Fourier's](Joseph%20Fourier.md) _Analytical Theory of Heat_.,<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> the corresponding inversion formula for functions satisfying [sufficient regularity and decay properties](Fourier%20inversion%20theorem.md#conditions%20on%20the%20function) is given by the [Fourier inversion theorem](Fourier%20inversion%20theorem.md), i.e.,
 
-| Inverse transform                                                                                              |              |
-| -------------------------------------------------------------------------------------------------------------- | ------------ |
+|                                               Inverse transform                                                |              |
+| :------------------------------------------------------------------------------------------------------------: | :----------: |
 | $f(x)=\int _{-\infty }^{\infty }{\widehat {f} }(\xi )\ e^{i2\pi \xi x}\,d\xi ,\quad \forall x\in \mathbb {R}$. | ____Eq.2____ |
 
 The functions $f$ and ${\widehat {f} }$ are referred to as a __Fourier transform pair__.<sup>[\[8\]](#^ref-8)</sup> A common notation for designating transform pairs is:<sup>[\[9\]](#^ref-9)</sup> $$f(x)\ {\stackrel {\mathcal {F} }{\longleftrightarrow } }\ {\widehat {f} }(\xi ).$$ For example, the Fourier transform of the delta function is the [constant function](constant%20function.md) ⁠$1$⁠: $$\delta (x)\ {\stackrel {\mathcal {F} }{\longleftrightarrow } }\ 1.$$
@@ -190,7 +190,7 @@ If $f$ is purely imaginary, then ${\widehat {f} }$ is [odd symmetric](even%20and
 
 #### real and imaginary parts
 
-$$\operatorname {Re} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2} }\left({\widehat {f} }(\xi )+{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$ $$\operatorname {Im} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2i} }\left({\widehat {f} }(\xi )-{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$
+$$\operatorname {Re} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2} }\left({\widehat {f} }(\xi )+{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$ <br/> $$\operatorname {Im} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2i} }\left({\widehat {f} }(\xi )-{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$
 
 #### zero frequency component
 
