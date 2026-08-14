@@ -662,7 +662,11 @@ class WikiHtmlConverter:
         # Header row: title in center-aligned <th>, empty right-aligned <th>.
         header_row = self._soup.new_tag("tr")
         th1 = self._soup.new_tag("th", attrs={"style": "text-align:center"})
-        th1.string = title
+        if isinstance(title, Tag):
+            # Preserve inline formatting (e.g. ``<b>``) in the title.
+            th1.append(title)
+        else:
+            th1.string = title
         th2 = self._soup.new_tag("th", attrs={"style": "text-align:right"})
         header_row.append(th1)
         header_row.append(th2)
@@ -714,7 +718,7 @@ class WikiHtmlConverter:
         return None
 
     @staticmethod
-    def _equation_box_title(ele: Tag, *, has_numblk: bool) -> str:
+    def _equation_box_title(ele: Tag, *, has_numblk: bool) -> Tag | str:
         """Extract the leading title of an equation-box div.
 
         The title is the first non-whitespace text run (bare text or an
@@ -722,6 +726,8 @@ class WikiHtmlConverter:
         block-level content or a numblk table.  The title node is removed
         from *ele* so the remaining children form the body.  Returns ""
         when the box has no distinct title (e.g. pure equation content).
+        Returns the title ``Tag`` itself when it carries inline formatting
+        (so emphasis is preserved), otherwise its stripped text.
         """
         title = WikiHtmlConverter._find_box_title(ele, has_numblk=has_numblk)
         if title is None:
@@ -729,7 +735,7 @@ class WikiHtmlConverter:
         title.extract()
         if isinstance(title, NavigableString):
             return title.strip()
-        return title.get_text(strip=True)
+        return title
 
     _handle_dd = _handle_block_level
     _handle_dt = _handle_block_level

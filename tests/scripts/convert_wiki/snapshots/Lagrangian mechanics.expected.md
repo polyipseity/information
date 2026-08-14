@@ -74,7 +74,7 @@ If _T_ or _V_ or both depend explicitly on time due to time-varying constraints 
 
 With these definitions, _Lagrange's equations_ are<sup>[\[11\]](#^ref-11)</sup>
 
-| Lagrange's equations                                                                                                                                                                                                                         |     |
+| __Lagrange's equations__                                                                                                                                                                                                                     |     |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
 | $${\frac {\partial L}{\partial \mathbf {r} _{k} } }-{\frac {\mathrm {d} }{\mathrm {d} t} }{\frac {\partial L}{\partial {\dot {\mathbf {r} } }_{k} } }+\sum _{i=1}^{C}\lambda _{i}{\frac {\partial f_{i} }{\partial \mathbf {r} _{k} } }=0,$$ |     |
 
@@ -90,7 +90,7 @@ Given this __v__<sub>_k_</sub>, the kinetic energy _in generalized coordinates_ 
 
 With these definitions, the __[Euler–Lagrange equations](Euler–Lagrange%20equation.md)__,<sup>[\[12\]](#^ref-12)</sup><sup>[\[13\]](#^ref-13)</sup>
 
-| Lagrange's equations                                                                                                                           |     |
+| __Lagrange's equations__                                                                                                                       |     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | --- |
 | $${\frac {\mathrm {d} }{\mathrm {d} t} }\left({\frac {\partial L}{\partial {\dot {q} }_{j} } }\right)={\frac {\partial L}{\partial q_{j} } }$$ |     |
 

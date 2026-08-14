@@ -1236,7 +1236,9 @@ class TestDivHandling:
             converter,
             '<div class="equation-box"><b>Eq</b><p>E = mc<sup>2</sup></p></div>',
         )
-        assert result == "\n| Eq |  |\n| --- | --- |\n| E = mc<sup>2</sup> |  |\n\n\n"
+        assert result == (
+            "\n| __Eq__ |  |\n| --- | --- |\n| E = mc<sup>2</sup> |  |\n\n\n"
+        )
         assert "\n> " not in result
 
     @pytest.mark.anyio
@@ -1253,6 +1255,15 @@ class TestDivHandling:
             '<div class="math_proof"><strong>Proof</strong><p>text</p></div>',
         )
         assert "> __Proof__\n>\n> text" in result
+
+    @pytest.mark.anyio
+    async def test_blockquote_italic_title(self, converter: WikiHtmlConverter) -> None:
+        """An italic box title keeps its emphasis and blank-line separation."""
+        result = await _convert(
+            converter,
+            '<div class="math_theorem"><em>Lemma</em><p>body</p></div>',
+        )
+        assert "> _Lemma_\n>\n> body" in result
 
     @pytest.mark.anyio
     async def test_plain_div_not_blockquoted(
