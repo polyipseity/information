@@ -640,6 +640,11 @@ class WikiHtmlConverter:
         """Handle <div> elements, with special handling for equation-box divs."""
         if "shortdescription" in classes:
             return _HandlerConfig(suffix="\n\n")
+        if "thumbcaption" in classes and not self._in_table_cell(ele):
+            # Figure captions are block-level content: give them their own
+            # ``> `` line (blank ``> `` separation from following siblings),
+            # e.g. multi-image ``tmulti`` thumbnails with per-image captions.
+            return _HandlerConfig(suffix="\n\n")
         if "equation-box" not in classes:
             return self._handle_block_level(ele, classes)
 
@@ -692,6 +697,10 @@ class WikiHtmlConverter:
         ele.append(new_table)
 
         return None
+
+    def _handle_figcaption(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
+        """Render ``<figcaption>`` as block-level caption content."""
+        return _HandlerConfig(suffix="" if self._in_table_cell(ele) else "\n\n")
 
     @staticmethod
     def _find_box_title(ele: Tag, *, has_numblk: bool) -> Tag | NavigableString | None:
