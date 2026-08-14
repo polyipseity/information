@@ -59,20 +59,6 @@ def _inline_math_span(alttext: str) -> str:
     )
 
 
-def _make_converter_with_lang(
-    tmp_path: PathLike[str],
-) -> WikiHtmlConverter:
-    """Create a converter with ``general/eng`` directory created."""
-    WikiHtmlConverter(  # create directories
-        converted_wiki_dir=AnyioPath(tmp_path) / "general",
-        converted_wiki_lang_dir=AnyioPath(tmp_path) / "general" / "eng",
-    )
-    return WikiHtmlConverter(
-        converted_wiki_dir=AnyioPath(tmp_path) / "general",
-        converted_wiki_lang_dir=AnyioPath(tmp_path) / "general" / "eng",
-    )
-
-
 async def _convert(
     converter: WikiHtmlConverter,
     html: str,

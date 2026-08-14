@@ -1320,8 +1320,6 @@ class TestPipeInMathTableIntegration:
             " more</td></tr></tbody></table>"
         )
         html = BeautifulSoup(html_text, "html.parser")
-        for st in html.find_all("style"):
-            st.decompose()
 
         output = await converter.convert(
             html, out_to_archive=set(), redirect_map={}, refs=True
