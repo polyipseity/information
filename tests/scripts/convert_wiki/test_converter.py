@@ -785,6 +785,24 @@ class TestBoldItalicHandling:
         assert "<!-- markdown separator -->" not in result
 
     @pytest.mark.anyio
+    async def test_angle_bracket_emphasis_no_marker(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Angle brackets U+27E8/U+27E9 need no separator marker.
+
+        Mirrors the inner-product markup ``⟨x, ξ⟩`` found on Wikipedia,
+        where the bold ``x``/``ξ`` variables must not gain separators.
+        """
+        html = (
+            '<p><span typeof="mw:Entity">\u27e8</span>'
+            "<b>x</b>,<span>\xa0</span><b>\u03be</b>"
+            '<span typeof="mw:Entity">\u27e9</span></p>'
+        )
+        result = await _convert(converter, html)
+        assert "\u27e8__x__, __\u03be__\u27e9" in result
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
     async def test_strong(self, converter: WikiHtmlConverter) -> None:
         """``<strong>`` should render as bold."""
         result = await _convert(converter, "<strong>strong</strong>")
