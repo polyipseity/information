@@ -7,6 +7,7 @@ from os import PathLike
 
 import pytest
 from anyio import Path as AnyioPath
+from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki import utils as _mod
 from scripts.convert_wiki.config import _NAMES_MAP
@@ -393,3 +394,492 @@ class TestTagAffixes:
         open_tag, close_tag = _mod._tag_affixes("br")  # noqa: SLF001
         assert open_tag == "<br>"
         assert close_tag == "</br>"
+
+
+class TestGetImageFilename:
+    """Tests for the _get_image_filename function."""
+
+    def test_lagrange_query_string_stripped(self) -> None:
+        """Query strings should be stripped before deriving the filename."""
+        img = BeautifulSoup(
+            '<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/'
+            "Lagrange_portrait.jpg?utm_source=en.wikipedia.org"
+            '&amp;utm_campaign=parser&amp;utm_content=thumbnail"/>',
+            "html.parser",
+        ).find("img")
+        assert isinstance(img, Tag)
+        result = _mod._get_image_filename(img)  # noqa: SLF001
+        assert result == "Lagrange portrait.jpg"
+
+    def test_lagrange_clean_upload_url(self) -> None:
+        """A clean upload URL without query should yield the same filename."""
+        img = BeautifulSoup(
+            '<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/'
+            'Lagrange_portrait.jpg"/>',
+            "html.parser",
+        ).find("img")
+        assert isinstance(img, Tag)
+        result = _mod._get_image_filename(img)  # noqa: SLF001
+        assert result == "Lagrange portrait.jpg"
+
+
+class TestBalanceBrackets:
+    """Tests for the _balance_brackets function."""
+
+    @pytest.mark.parametrize(
+        ("input_text", "expected"),
+        [
+            # Category 1: No brackets / trivial
+            ("", ""),
+            ("hello world", "hello world"),
+            ("   ", "   "),
+            # Category 2: Single balanced pair
+            ("[Dirac equation]", "[Dirac equation]"),
+            ("the [equation]", "the [equation]"),
+            # Category 3: Lone unbalanced brackets
+            ("[", R"\["),
+            ("]", R"\]"),
+            ("abc[def", R"abc\[def"),
+            ("abc]def", R"abc\]def"),
+            # Category 4: Multiple brackets — mixed balance
+            ("[a][b][c]", "[a][b][c]"),
+            ("abc]def[ghi]", R"abc\]def[ghi]"),
+            ("][", R"\]\["),
+            ("[[a]", R"\[[a]"),
+            ("[[a]]", "[[a]]"),
+            # Category 5: Consecutive unbalanced of same type
+            ("]]]", R"\]\]\]"),
+            ("[[[", R"\[\[\["),
+            ("]][[", R"\]\]\[\["),
+            # Category 6: Nested brackets
+            ("[[inner] outer]", "[[inner] outer]"),
+            ("[[[deep]]]", "[[[deep]]]"),
+            ("[[inner]", R"\[[inner]"),
+            ("[outer[inner]", R"\[outer[inner]"),
+            # Category 7: Real-world Markdown links (Commons API descriptions)
+            ("the[Dirac equation](url)", "the[Dirac equation](url)"),
+            (
+                "see[link text](https://example.org)",
+                "see[link text](https://example.org)",
+            ),
+            (
+                "A description with [link](url) and [another](url2)",
+                "A description with [link](url) and [another](url2)",
+            ),
+            # Category 8: The actual Modernphysicsfields.svg alt text
+            (
+                "A simplified view of the history of physics, showing the[Dirac equation]"
+                "(https://en.wikipedia.org/wiki/Dirac_equation) which unifies quantum "
+                "mechanics with special relativity, as well as the[Standard Model]"
+                "(https://en.wikipedia.org/wiki/Standard_Model) and a possible[theory of "
+                "everything](https://en.wikipedia.org/wiki/Theory_of_everything). These "
+                "days the search continues.",
+                "A simplified view of the history of physics, showing the[Dirac equation]"
+                "(https://en.wikipedia.org/wiki/Dirac_equation) which unifies quantum "
+                "mechanics with special relativity, as well as the[Standard Model]"
+                "(https://en.wikipedia.org/wiki/Standard_Model) and a possible[theory of "
+                "everything](https://en.wikipedia.org/wiki/Theory_of_everything). These "
+                "days the search continues.",
+            ),
+            # Category 9: Input already containing backslash-escaped brackets
+            (R"\[literal\]", R"\[literal\]"),
+            (R"text \[ literal ]", R"text \[ literal ]"),
+        ],
+    )
+    def test_balance_brackets(self, input_text: str, expected: str) -> None:
+        """Verify bracket-balancing behaves correctly for the given case."""
+        assert _mod._balance_brackets(input_text) == expected  # noqa: SLF001
+
+
+class TestIsSeparatorCell:
+    """Tests for _is_separator_cell."""
+
+    def test_simple_dashes(self) -> None:
+        """--- is a valid separator cell."""
+        assert _mod._is_separator_cell("---")  # noqa: SLF001
+
+    def test_left_aligned(self) -> None:
+        """:-- is a valid separator cell."""
+        assert _mod._is_separator_cell(":--")  # noqa: SLF001
+
+    def test_right_aligned(self) -> None:
+        """--: is a valid separator cell."""
+        assert _mod._is_separator_cell("--:")  # noqa: SLF001
+
+    def test_centered(self) -> None:
+        """:-: is a valid separator cell."""
+        assert _mod._is_separator_cell(":-:")  # noqa: SLF001
+
+    def test_too_short(self) -> None:
+        """-- (2 dashes) is NOT a valid separator cell."""
+        assert not _mod._is_separator_cell("--")  # noqa: SLF001
+
+    def test_only_one_dash(self) -> None:
+        """- is NOT a valid separator cell."""
+        assert not _mod._is_separator_cell("-")  # noqa: SLF001
+
+    def test_empty_string(self) -> None:
+        """Empty string is NOT a valid separator cell."""
+        assert not _mod._is_separator_cell("")  # noqa: SLF001
+
+    def test_non_separator_text(self) -> None:
+        """Regular text is NOT a valid separator cell."""
+        assert not _mod._is_separator_cell("hello")  # noqa: SLF001
+
+    def test_long_separator(self) -> None:
+        """Long separator (e.g. ------) is valid."""
+        assert _mod._is_separator_cell("------")  # noqa: SLF001
+
+    def test_long_centered_separator(self) -> None:
+        """:-----: is valid."""
+        assert _mod._is_separator_cell(":-----:")  # noqa: SLF001
+
+    def test_long_left_separator(self) -> None:
+        """:------ is valid."""
+        assert _mod._is_separator_cell(":------")  # noqa: SLF001
+
+    def test_long_right_separator(self) -> None:
+        """-------: is valid."""
+        assert _mod._is_separator_cell("-------:")  # noqa: SLF001
+
+    def test_separator_with_non_dash_chars(self) -> None:
+        """String with non-dash chars is NOT a separator."""
+        assert not _mod._is_separator_cell(":-x:")  # noqa: SLF001
+
+
+class TestGetSeparatorAlignment:
+    """Tests for _get_separator_alignment."""
+
+    def test_default_alignment(self) -> None:
+        """--- → ---."""
+        assert _mod._get_separator_alignment("---") == "---"  # noqa: SLF001
+
+    def test_left_alignment(self) -> None:
+        """:-- → :--."""
+        assert _mod._get_separator_alignment(":--") == ":--"  # noqa: SLF001
+
+    def test_right_alignment(self) -> None:
+        """--: → --:."""
+        assert _mod._get_separator_alignment("--:") == "--:"  # noqa: SLF001
+
+    def test_center_alignment(self) -> None:
+        """:-: → :-:."""
+        assert _mod._get_separator_alignment(":-:") == ":-:"  # noqa: SLF001
+
+    def test_long_default(self) -> None:
+        """------ → ---."""
+        assert _mod._get_separator_alignment("------") == "---"  # noqa: SLF001
+
+    def test_long_left(self) -> None:
+        """:------ → :--."""
+        assert _mod._get_separator_alignment(":------") == ":--"  # noqa: SLF001
+
+    def test_long_right(self) -> None:
+        """-------: → --:."""
+        assert _mod._get_separator_alignment("-------:") == "--:"  # noqa: SLF001
+
+    def test_long_center(self) -> None:
+        """:------: → :-:."""
+        assert _mod._get_separator_alignment(":------:") == ":-:"  # noqa: SLF001
+
+
+class TestFormatSeparatorCell:
+    """Tests for _format_separator_cell."""
+
+    def test_default_min_width(self) -> None:
+        """--- at minimum width."""
+        assert _mod._format_separator_cell(3, "---") == "---"  # noqa: SLF001
+
+    def test_default_wider(self) -> None:
+        """Wider default separator."""
+        assert _mod._format_separator_cell(5, "---") == "-----"  # noqa: SLF001
+
+    def test_left_aligned(self) -> None:
+        """Left-aligned separator."""
+        assert _mod._format_separator_cell(4, ":--") == ":---"  # noqa: SLF001
+
+    def test_right_aligned(self) -> None:
+        """Right-aligned separator."""
+        assert _mod._format_separator_cell(4, "--:") == "---:"  # noqa: SLF001
+
+    def test_centered(self) -> None:
+        """Centered separator."""
+        assert _mod._format_separator_cell(4, ":-:") == ":--:"  # noqa: SLF001
+        # width 4 → ":" + "--" (width-2) + ":" = ":--:"
+
+    def test_width_below_minimum(self) -> None:
+        """Width < 3 behaves as if width=3."""
+        assert _mod._format_separator_cell(1, "---") == "---"  # noqa: SLF001
+        assert _mod._format_separator_cell(2, "---") == "---"  # noqa: SLF001
+
+    def test_centered_min_width(self) -> None:
+        """:-: at minimum width."""
+        assert _mod._format_separator_cell(3, ":-:") == ":-:"  # ":" + "-" + ":"
+
+
+class TestSmartSplitRow:
+    """Tests for _smart_split_row.
+
+    Covers math-aware pipe splitting, backslash-escaped pipes, and
+    zero-width character stripping.
+    """
+
+    def test_simple_row(self) -> None:
+        """Standard pipe-table row."""
+        result = _mod._smart_split_row("| a | b |")  # noqa: SLF001
+        assert result == ["a", "b"]
+
+    def test_row_with_spaces(self) -> None:
+        """Row with varying whitespace."""
+        result = _mod._smart_split_row("|  foo  |  bar  |")  # noqa: SLF001
+        assert result == ["foo", "bar"]
+
+    def test_row_not_starting_with_pipe(self) -> None:
+        """Line not starting with | → returns None."""
+        assert _mod._smart_split_row("a | b") is None  # noqa: SLF001
+
+    def test_row_not_ending_with_pipe(self) -> None:
+        """Line not ending with | → returns None."""
+        assert _mod._smart_split_row("| a | b") is None  # noqa: SLF001
+
+    def test_empty_cell(self) -> None:
+        """Row with empty cell (double pipe)."""
+        result = _mod._smart_split_row("| a |  |")  # noqa: SLF001
+        assert result == ["a", ""]
+
+    def test_empty_row(self) -> None:
+        """Row with just two pipes."""
+        result = _mod._smart_split_row("||")  # noqa: SLF001
+        assert result == [""]
+
+    def test_separator_row(self) -> None:
+        """Separator row parsed as cells."""
+        result = _mod._smart_split_row("| --- | :-- |")  # noqa: SLF001
+        assert result == ["---", ":--"]
+
+    def test_row_with_zero_width_chars(self) -> None:
+        """Zero-width characters are stripped from cell content."""
+        result = _mod._smart_split_row("| a\u200bb |")  # noqa: SLF001
+        assert result == ["ab"]
+
+    def test_row_with_multiple_cells(self) -> None:
+        """Row with many cells."""
+        result = _mod._smart_split_row("| a | b | c | d |")  # noqa: SLF001
+        assert result == ["a", "b", "c", "d"]
+
+    def test_pipe_in_math_inline(self) -> None:
+        """Pipe inside $...$ should not split cells.
+
+        The $...$ span is treated atomically: the ``|`` inside it is a
+        protected pipe character, not a cell separator.
+        """
+        result = _mod._smart_split_row("| $a | b$ | c |")  # noqa: SLF001
+        # The pipe inside $...$ is protected; the outer pipes delimit 2 cells
+        assert result == ["$a | b$", "c"]
+
+    def test_pipe_in_math_display(self) -> None:
+        """Pipe inside $$...$$ should not split cells."""
+        result = _mod._smart_split_row("| $$a | b$$ | c |")  # noqa: SLF001
+        # The pipe inside $$...$$ is protected; outer pipes delimit 2 cells
+        assert result == ["$$a | b$$", "c"]
+
+    def test_pipe_in_code_span(self) -> None:
+        """Pipe inside backtick code span should not split cells."""
+        result = _mod._smart_split_row("| `a | b` | c |")  # noqa: SLF001
+        # The | inside the code span is protected; outer pipes delimit 2 cells
+        assert result == ["`a | b`", "c"]
+
+    def test_escaped_pipe(self) -> None:
+        """Backslash-escaped pipe should not split cells."""
+        result = _mod._smart_split_row("| a \\| b | c |")  # noqa: SLF001
+        assert result == ["a \\| b", "c"]
+
+    def test_nested_math_and_code(self) -> None:
+        """Mixed math and code spans in one table row."""
+        result = _mod._smart_split_row(  # noqa: SLF001
+            "| $x|y$ | `code|here` | normal |"
+        )
+        # $...$ and `...` spans protect their internal pipes
+        assert result == ["$x|y$", "`code|here`", "normal"]
+
+    def test_consecutive_pipes_empty_cells(self) -> None:
+        """Consecutive pipe characters create empty cells."""
+        result = _mod._smart_split_row("| a || b |")  # noqa: SLF001
+        assert result == ["a", "", "b"]
+
+    def test_leading_trailing_spaces_stripped(self) -> None:
+        """Leading/trailing spaces in cells are stripped."""
+        result = _mod._smart_split_row("|  a  |  b  |")  # noqa: SLF001
+        assert result == ["a", "b"]
+
+    def test_no_pipes_inside_cell(self) -> None:
+        """HTML-encoded pipes don't create cell boundaries."""
+        result = _mod._smart_split_row("| a &#124; b | c |")  # noqa: SLF001
+        assert result == ["a &#124; b", "c"]
+
+    def test_multiple_math_spans(self) -> None:
+        """Multiple $...$ spans in one cell, each with a pipe."""
+        result = _mod._smart_split_row("| $a|b$ $c|d$ | e |")  # noqa: SLF001
+        # Both $...$ spans protect their internal pipes; the whole content
+        # between outer pipes is one cell
+        assert result == ["$a|b$ $c|d$", "e"]
+
+
+class TestReformatTableBlock:
+    """Tests for _reformat_table_block (core table reformatter)."""
+
+    def test_simple_table(self) -> None:
+        """Simple two-column table with padding."""
+        lines = ["| a | b |", "| --- | --- |", "| c | d |"]
+        result = _mod._reformat_table_block(lines)  # noqa: SLF001
+        assert result == [
+            "| a   | b   |",
+            "| --- | --- |",
+            "| c   | d   |",
+        ]
+
+    def test_aligned_table(self) -> None:
+        """Table with alignment markers."""
+        lines = ["| a | b |", "| :-: | --: |", "| c | d |"]
+        result = _mod._reformat_table_block(lines)  # noqa: SLF001
+        # Center column padded, right column padded
+        assert ":---" in result[1] or ":-:" in result[1]
+        assert "-----:" in result[1] or "--:" in result[1]
+
+    def test_uneven_column_widths(self) -> None:
+        """Table with uneven widths → padded to widest value."""
+        lines = ["| short | verylongcontent |", "| --- | --- |", "| a | b |"]
+        result = _mod._reformat_table_block(lines)  # noqa: SLF001
+        # Column 2 should be wider than column 1
+        cell2_len = len(result[0].split(" | ")[1])  # not stripping trailing |
+        assert cell2_len >= len("verylongcontent") + 1  # +1 for padding
+
+    def test_table_with_leading_dash_separator(self) -> None:
+        """Compact separator without leading pipe isn't matched by _reformat_table_block."""
+        lines = ["| a |", "---", "| b |"]
+        # The --- line doesn't start with | so it breaks the block
+        result = _mod._reformat_table_block(lines)  # noqa: SLF001
+        # Should detect invalid separator row and return unchanged
+        assert result == lines
+
+    def test_no_table_with_only_2_rows(self) -> None:
+        """Block with < 2 lines returns unchanged."""
+        lines = ["| a |"]
+        result = _mod._reformat_table_block(lines)  # noqa: SLF001
+        assert result == lines
+
+    def test_no_separator_row(self) -> None:
+        """Block without separator row returns unchanged."""
+        lines = ["| a | b |", "| c | d |"]
+        result = _mod._reformat_table_block(lines)  # noqa: SLF001
+        assert result == lines
+
+    def test_table_with_pipes_in_content(self) -> None:
+        """Table cell with &#124; (HTML-encoded pipe) works."""
+        lines = ["| a &#124; b | c |", "| --- | --- |", "| d | e |"]
+        result = _mod._reformat_table_block(lines)  # noqa: SLF001
+        assert "&#124;" in result[0] or "&#124;" in result[0]
+
+    def test_invalid_mixed_separator_row(self) -> None:
+        """Row mixing text and separator cells returns unchanged."""
+        lines = ["| a | b |", "| --- | c |", "| d | e |"]
+        # The separator row mix of "---" and "c" should be rejected
+        result = _mod._reformat_table_block(lines)  # noqa: SLF001
+        assert result == lines
+
+    def test_pipe_in_math_cell(self) -> None:
+        """Pipe inside $...$ in a cell should not break table structure."""
+        lines = ["| a | $x | y$ |", "| :-: | :-: |", "| 1 | 2 |"]
+        result = _mod._reformat_table_block(lines)  # noqa: SLF001
+        assert len(result) == 3, "Table should have 3 rows"
+        assert "$x | y$" in result[0], (
+            "Pipe in math should be preserved as cell content"
+        )
+
+    def test_escaped_pipe_in_cell(self) -> None:
+        """Backslash-escaped pipe in cell content."""
+        lines = ["| a | b \\| c |", "| --- | :-- |", "| d | e |"]
+        result = _mod._reformat_table_block(lines)  # noqa: SLF001
+        assert len(result) == 3
+        assert "b \\| c" in result[0]
+
+    def test_math_pipe_and_normal_pipe(self) -> None:
+        """Math pipes coexist with normal cell boundaries."""
+        lines = [
+            "| conditional | value |",
+            "| --- | --- |",
+            "| $P(A | B)$ | 0.5 |",
+        ]
+        result = _mod._reformat_table_block(lines)  # noqa: SLF001
+        assert len(result) == 3
+        assert "$P(A | B)$" in result[2]
+
+
+class TestReformatTable:
+    """Integration tests for _reformat_table (finds and reformats all
+    table blocks in text)."""
+
+    def test_single_table(self) -> None:
+        """Single table in text."""
+        text = "| a | b |\n| --- | --- |\n| c | d |"
+        result = _mod._reformat_table(text)  # noqa: SLF001
+        assert "| a   | b   |" in result
+        assert "| --- | --- |" in result
+
+    def test_multiple_tables(self) -> None:
+        """Multiple tables in one text."""
+        text = (
+            "Before\n"
+            "| a | b |\n| --- | --- |\n| c | d |\n"
+            "Between\n"
+            "| x | y | z |\n| --- | --- | --- |\n| 1 | 2 | 3 |"
+        )
+        result = _mod._reformat_table(text)  # noqa: SLF001
+        assert "| a   | b   |" in result
+        # Each column has minimum width 3 (GFM minimum), so single-char cells
+        # are padded to width 3.
+        assert "| x   | y   | z   |" in result
+
+    def test_no_tables(self) -> None:
+        """No tables → unchanged."""
+        text = "Just some text\n\nMore text"
+        assert _mod._reformat_table(text) == text  # noqa: SLF001
+
+    def test_table_not_starting_with_pipe(self) -> None:
+        """Line not starting with pipe → not a table block."""
+        text = "a | b\n---\nc | d"
+        assert _mod._reformat_table(text) == text  # noqa: SLF001
+
+    def test_mixed_text_and_tables(self) -> None:
+        """Table padded correctly within surrounding text."""
+        text = "Some text\n| longword | a |\n| --- | --- |\n| b | c |\nMore text"
+        result = _mod._reformat_table(text)  # noqa: SLF001
+        lines = result.split("\n")
+        # 0=Some text, 1=header row, 2=separator row, 3=data row, 4=More text
+        assert "longword" in lines[1]
+        assert "a" in lines[1]
+        assert "b" in lines[3]
+        assert "c" in lines[3]
+
+    def test_table_with_pipes_in_math_multi_table(self) -> None:
+        """Multiple tables with mixed math pipe content."""
+        text = (
+            "| a | $x|y$ |\n| :-: | :-: |\n| 1 | 2 |\n\n"
+            "| normal | table |\n| --- | --- |\n| data | here |"
+        )
+        result = _mod._reformat_table(text)  # noqa: SLF001
+        lines = result.split("\n")
+        assert "$x|y$" in lines[0]
+        assert "normal" in lines[4]
+        assert "data" in lines[6]
+
+    def test_escaped_pipe_preserved(self) -> None:
+        """Backslash-escaped pipes preserved in output."""
+        text = "| cmd \\| args | desc |\n| --- | --- |\n| echo | test |"
+        result = _mod._reformat_table(text)  # noqa: SLF001
+        assert "cmd \\| args" in result.split("\n")[0]
+
+    def test_empty_table_block_not_modified(self) -> None:
+        """Non-table pipe lines should pass through unchanged."""
+        text = "| just a single pipe line"
+        assert _mod._reformat_table(text) == text  # noqa: SLF001

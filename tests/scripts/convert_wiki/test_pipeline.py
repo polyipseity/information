@@ -399,6 +399,54 @@ class TestInlineMathSpacing:
         assert _separate_block_math(text) == text
 
 
+class TestBlockMathLineBreaks:
+    """Consecutive ``$$…$$`` blocks on one line get hard line breaks.
+
+    Two or more block-math spans in the same paragraph (separated only by
+    whitespace, no newline) are joined with `` <br/> `` so they render on
+    separate lines.  Newline gaps (separate paragraphs), text gaps, and
+    already-broken output are left unchanged.
+    """
+
+    def test_two_blocks_two_spaces(self) -> None:
+        """Two block-math spans with a two-space gap get a line break."""
+        assert _separate_block_math("$$f$$  $$g$$") == "$$f$$ <br/> $$g$$"
+
+    def test_two_blocks_one_space(self) -> None:
+        """A one-space gap gets the same treatment."""
+        assert _separate_block_math("$$f$$ $$g$$") == "$$f$$ <br/> $$g$$"
+
+    def test_three_blocks(self) -> None:
+        """A chain of three block-math spans breaks between each pair."""
+        assert (
+            _separate_block_math("$$f$$  $$g$$  $$h$$")
+            == "$$f$$ <br/> $$g$$ <br/> $$h$$"
+        )
+
+    def test_adjacent_delimiters(self) -> None:
+        """No whitespace at all between spans (raw converter output) still
+        breaks."""
+        assert _separate_block_math("$$f$$$$g$$") == "$$f$$ <br/> $$g$$"
+
+    def test_adjacent_delimiters_three(self) -> None:
+        """Adjacent spans in a chain of three break between each pair."""
+        assert (
+            _separate_block_math("$$f$$$$g$$$$h$$") == "$$f$$ <br/> $$g$$ <br/> $$h$$"
+        )
+
+    def test_newline_gap_unchanged(self) -> None:
+        """Block math in separate paragraphs keeps its newline separation."""
+        assert _separate_block_math("$$f$$\n$$g$$") == "$$f$$\n$$g$$"
+
+    def test_text_gap_unchanged(self) -> None:
+        """Block math separated by real text is left alone."""
+        assert _separate_block_math("$$f$$ and $$g$$") == "$$f$$ and $$g$$"
+
+    def test_idempotent(self) -> None:
+        """Re-running on already-broken output inserts nothing."""
+        assert _separate_block_math("$$f$$ <br/> $$g$$") == "$$f$$ <br/> $$g$$"
+
+
 # =========================================================================
 # HTML tags adjacent to inline math — regression
 # =========================================================================
@@ -482,7 +530,11 @@ class TestHtmlTagInlineMathSpacing:
 
 
 class TestSeparateBlockQuotes:
-    """Tests for ``_separate_block_quotes`` MD028 suppression insertion."""
+    """Tests for ``_separate_block_quotes`` MD028 suppression insertion.
+
+    Sole home of ``_separate_block_quotes`` unit tests; cases were
+    consolidated here from ``test_convert_wiki_regression.py``.
+    """
 
     # ── No-op cases ──────────────────────────────────────────────
 
@@ -495,10 +547,22 @@ class TestSeparateBlockQuotes:
         text = "Just a normal paragraph."
         assert _separate_block_quotes(text) == text
 
+    def test_no_blockquotes_no_change(self) -> None:
+        """No blockquote lines → no change."""
+        text = "Plain text\n\nMore text"
+        result = _separate_block_quotes(text)
+        assert result == text
+
     def test_single_blockquote(self) -> None:
         """Single blockquote → no comment inserted."""
         text = "> This is a single blockquote."
         assert _separate_block_quotes(text) == text
+
+    def test_single_blockquote_no_change(self) -> None:
+        """Single blockquote → no change."""
+        text = "> Single block"
+        result = _separate_block_quotes(text)
+        assert result == text
 
     def test_single_multiline_blockquote(self) -> None:
         """Single multi-line blockquote → no comment."""
@@ -518,6 +582,20 @@ class TestSeparateBlockQuotes:
         result = _separate_block_quotes("> A\n\n> B")
         expected = "> A\n\n<!-- markdownlint MD028 -->\n\n> B"
         assert result == expected
+
+    def test_adjacent_blockquotes(self) -> None:
+        """Two adjacent blockquotes with blank line → MD028 comment."""
+        text = "> First block\n\n> Second block"
+        result = _separate_block_quotes(text)
+        assert result == (
+            "> First block\n\n<!-- markdownlint MD028 -->\n\n> Second block"
+        )
+
+    def test_no_trailing_newline_after_second_block(self) -> None:
+        """Second blockquote without trailing newline → still matches."""
+        text = "> First block\n\n> Second block"
+        result = _separate_block_quotes(text)
+        assert "Second block" in result
 
     # ── Three consecutive blockquotes ────────────────────────────
 
@@ -542,6 +620,18 @@ class TestSeparateBlockQuotes:
         assert lines[7] == ""
         assert lines[8] == "> C"
 
+    def test_three_adjacent_blockquotes(self) -> None:
+        """Three adjacent blockquotes → MD028 between each pair."""
+        text = "> Block 1\n\n> Block 2\n\n> Block 3"
+        result = _separate_block_quotes(text)
+        # New AST-based function correctly handles all adjacent pairs.
+        assert result.count("<!-- markdownlint MD028 -->") == 2
+        assert result == (
+            "> Block 1\n\n<!-- markdownlint MD028 -->\n\n"
+            "> Block 2\n\n<!-- markdownlint MD028 -->\n\n"
+            "> Block 3"
+        )
+
     # ── Blockquotes with other content ───────────────────────────
 
     def test_blockquote_paragraph_blockquote(self) -> None:
@@ -557,11 +647,29 @@ class TestSeparateBlockQuotes:
         result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" not in result
 
+    def test_blockquote_then_other_content(self) -> None:
+        """Blockquote followed by non-blockquote → no MD028."""
+        text = "> A quote\n\nNot a quote"
+        result = _separate_block_quotes(text)
+        assert result == text
+
+    def test_other_content_then_blockquote(self) -> None:
+        """Non-blockquote followed by blockquote → no MD028."""
+        text = "Not a quote\n\n> A quote"
+        result = _separate_block_quotes(text)
+        assert result == text
+
     # ── Edge cases ───────────────────────────────────────────────
 
     def test_nested_blockquote(self) -> None:
         """Nested blockquotes (``> >``) should not confuse separation."""
         text = "> Outer\n> > Nested\n\n> After"
+        result = _separate_block_quotes(text)
+        assert "<!-- markdownlint MD028 -->" in result
+
+    def test_blockquote_with_inline_content(self) -> None:
+        """Blockquote with nested elements → still matches."""
+        text = "> Some **bold** text\n\n> Other `code` here"
         result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" in result
 
@@ -571,11 +679,44 @@ class TestSeparateBlockQuotes:
         result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" in result
 
+    def test_multi_line_blockquotes(self) -> None:
+        """Multi-line blockquotes → treated as one block."""
+        text = "> Line 1\n> Line 2\n\n> Line 3\n> Line 4"
+        result = _separate_block_quotes(text)
+        expected = (
+            "> Line 1\n> Line 2\n\n<!-- markdownlint MD028 -->\n\n> Line 3\n> Line 4"
+        )
+        assert result == expected
+
+    def test_triple_blank_lines_between_blockquotes(self) -> None:
+        """Multiple (3+) blank lines → treated as one separator."""
+        text = "> First\n\n\n> Second"
+        result = _separate_block_quotes(text)
+        assert "<!-- markdownlint MD028 -->" in result
+
     def test_newlines_only_between_blockquotes(self) -> None:
         """Multiple blank lines between blockquotes → single MD028."""
         result = _separate_block_quotes("> A\n\n\n> B")
         # Should replace the gap with MD028 + blank
         assert result.count("<!-- markdownlint MD028 -->") == 1
+
+    def test_empty_lines_only(self) -> None:
+        """Only empty lines and blockquotes."""
+        text = "> Quote\n\n\n> Another"
+        result = _separate_block_quotes(text)
+        assert "<!-- markdownlint MD028 -->" in result
+
+    def test_blockquote_with_nested_list(self) -> None:
+        """Blockquote containing nested list elements."""
+        text = "> Outer\n> - Item\n> - Item\n\n> Next quote"
+        result = _separate_block_quotes(text)
+        assert "<!-- markdownlint MD028 -->" in result
+
+    def test_blockquote_with_code_fence(self) -> None:
+        """Blockquote containing a code fence."""
+        text = "> Quote with:\n> ```\n> code block\n> ```\n\n> Next quote"
+        result = _separate_block_quotes(text)
+        assert "<!-- markdownlint MD028 -->" in result
 
     def test_text_after_last_blockquote(self) -> None:
         """Blockquotes followed by text → MD028 still between them."""
@@ -583,6 +724,12 @@ class TestSeparateBlockQuotes:
         result = _separate_block_quotes(text)
         assert "<!-- markdownlint MD028 -->" in result
         assert result.endswith("Some trailing text")
+
+    def test_unicode_in_blockquotes(self) -> None:
+        """Blockquote with unicode characters."""
+        text = "> «élève»\n\n> «estudiante»"
+        result = _separate_block_quotes(text)
+        assert "<!-- markdownlint MD028 -->" in result
 
 
 # =========================================================================
@@ -593,8 +740,9 @@ class TestSeparateBlockQuotes:
 class TestSeparateBlockMath:
     """Tests for ``_separate_block_math`` whitespace insertion.
 
-    These tests supplement the existing tests in ``test_convert_wiki.py``
-    with additional edge cases.
+    Sole home of ``_separate_block_math`` unit tests; cases were
+    consolidated here from ``test_convert_wiki_regression.py`` and
+    ``test_convert_wiki.py``.
     """
 
     def test_code_span_preserved(self) -> None:
@@ -640,7 +788,9 @@ class TestSeparateBlockMath:
 
     def test_skips_unrelated_dollar_span(self) -> None:
         """Second ``$$`` span handled independently via its own info entry."""
-        assert _separate_block_math("text $$eq$$ $$not$$") == "text $$eq$$ $$not$$"
+        assert (
+            _separate_block_math("text $$eq$$ $$not$$") == "text $$eq$$ <br/> $$not$$"
+        )
 
     def test_only_block_math(self) -> None:
         """Document consisting only of ``$$…$$`` → unchanged."""
@@ -653,8 +803,8 @@ class TestSeparateBlockMath:
         assert "$$result$$" in result
 
     def test_collapsed_block_math_split(self) -> None:
-        """Adjacent ``$$…$$$$…$$`` at top level → split with one space."""
-        assert _separate_block_math("$$A$$$$B$$") == "$$A$$ $$B$$"
+        """Adjacent ``$$…$$$$…$$`` at top level → split with a line break."""
+        assert _separate_block_math("$$A$$$$B$$") == "$$A$$ <br/> $$B$$"
 
     def test_collapsed_with_text_between(self) -> None:
         """``$$…$$text$$…$$`` at top level → split with text preserved."""
@@ -663,10 +813,170 @@ class TestSeparateBlockMath:
             == "$$equation$$ text $$another$$"
         )
 
+    # ── No-op cases ──────────────────────────────────────────────
+
+    def test_empty_string(self) -> None:
+        """Empty string should be returned unchanged."""
+        assert _separate_block_math("") == ""
+
+    def test_no_math(self) -> None:
+        """String without any ``$$`` should be returned unchanged."""
+        assert _separate_block_math("no math here") == "no math here"
+
+    def test_no_math_blocks(self) -> None:
+        """No math blocks → unchanged."""
+        text = "Just plain text."
+        assert _separate_block_math(text) == text
+
+    def test_boundary_start_and_end(self) -> None:
+        """``$$f(x)$$`` at both string start and end → no change."""
+        assert _separate_block_math("$$f(x)$$") == "$$f(x)$$"
+
+    def test_already_spaced_before(self) -> None:
+        """Already has space before opening ``$$`` → no change."""
+        assert _separate_block_math("text $$f(x)$$") == "text $$f(x)$$"
+
+    def test_already_spaced_after(self) -> None:
+        """Already has space after closing ``$$`` → no change."""
+        assert _separate_block_math("$$f(x)$$ more") == "$$f(x)$$ more"
+
+    def test_already_spaced_both(self) -> None:
+        """Both sides already spaced → no change."""
+        assert _separate_block_math("text $$f(x)$$ more") == "text $$f(x)$$ more"
+
+    def test_paragraph_with_spacing_already(self) -> None:
+        """When spaces already exist → no double spacing."""
+        result = _separate_block_math("before $$f(x)$$ after")
+        # Already has spaces, so unchanged
+        assert result == "before $$f(x)$$ after"
+
+    def test_already_spaced_between(self) -> None:
+        """Two block math expressions already spaced between → no change."""
+        assert _separate_block_math("$$f(x)$$ and $$g(y)$$") == "$$f(x)$$ and $$g(y)$$"
+
+    def test_standalone_own_line(self) -> None:
+        """Standalone ``$$f(x)$$`` on its own line → no change."""
+        assert _separate_block_math("$$\nf(x)\n$$") == "$$\nf(x)\n$$"
+
+    def test_standalone_with_newlines(self) -> None:
+        """Block math separated by newlines on both sides → no change."""
+        assert _separate_block_math("text\n$$f(x)$$\nmore") == "text\n$$f(x)$$\nmore"
+
+    def test_newline_only_surrounding(self) -> None:
+        """Newlines on both sides → no change."""
+        assert _separate_block_math("\n$$f(x)$$\n") == "\n$$f(x)$$\n"
+
+    def test_multiline_block_math(self) -> None:
+        """Block math spanning multiple lines → no change."""
+        assert _separate_block_math("text\n$$\nx\n$$\nmore") == "text\n$$\nx\n$$\nmore"
+
+    def test_multiline_text_with_math(self) -> None:
+        """Multi-line paragraph with block math."""
+        text = "Line one\nbefore$$f(x)$$after\nLine three"
+        result = _separate_block_math(text)
+        assert "before $$f(x)$$ after" in result
+
+    def test_whitespace_around_math(self) -> None:
+        """Whitespace already around math → no change."""
+        text = "a  $$b$$  c"
+        result = _separate_block_math(text)
+        assert result == text
+
+    # ── Space-insertion cases ────────────────────────────────────
+
+    def test_needs_space_before(self) -> None:
+        """Non-whitespace text before ``$$`` → insert space before."""
+        assert _separate_block_math("text$$f(x)$$") == "text $$f(x)$$"
+
+    def test_math_at_end_of_text(self) -> None:
+        """Text before $$, $$ at text end → space before."""
+        result = _separate_block_math("before$$f(x)$$")
+        assert result == "before $$f(x)$$"
+
+    def test_needs_space_after(self) -> None:
+        """Non-whitespace text after ``$$`` → insert space after."""
+        assert _separate_block_math("$$f(x)$$text") == "$$f(x)$$ text"
+
+    def test_math_at_start_of_text(self) -> None:
+        """$$ at text start, text after → space after."""
+        result = _separate_block_math("$$f(x)$$after")
+        assert result == "$$f(x)$$ after"
+
+    def test_needs_space_both(self) -> None:
+        """Non-whitespace text on both sides → insert both spaces."""
+        assert _separate_block_math("text$$f(x)$$more") == "text $$f(x)$$ more"
+
+    def test_text_both_sides(self) -> None:
+        """Text on both sides → spaces inserted on both sides."""
+        result = _separate_block_math("before$$f(x)$$after")
+        assert result == "before $$f(x)$$ after"
+
+    def test_multiple_adjacent(self) -> None:
+        """Multiple adjacent block math blocks → each gets spacing."""
+        assert _separate_block_math("a$$f$$b$$g$$c") == "a $$f$$ b $$g$$ c"
+
+    def test_multiple_block_math(self) -> None:
+        """Multiple $$...$$ blocks in one paragraph."""
+        result = _separate_block_math("a$$b$$c$$d$$e")
+        assert result == "a $$b$$ c $$d$$ e"
+
+    def test_emphasis_before_block_math(self) -> None:
+        """Emphasis (``_italic_``) before ``$$`` → space inserted."""
+        assert _separate_block_math("_italic_$$x$$") == "_italic_ $$x$$"
+
+    # ── Preservation cases ───────────────────────────────────────
+
+    def test_inline_math_unaffected(self) -> None:
+        """Inline ``$…$`` should be left untouched."""
+        assert _separate_block_math("$x$ is inline") == "$x$ is inline"
+
+    def test_inline_math_adjacency_spaced(self) -> None:
+        """Inline math ``$x$`` adjacent to text → markdown separator inserted."""
+        assert (
+            _separate_block_math("text$x$more")
+            == "text<!-- markdown separator -->$x$<!-- markdown separator -->more"
+        )
+
+    def test_code_span_dollars_untouched(self) -> None:
+        """``$$`` inside a code span → not modified."""
+        assert (
+            _separate_block_math("text `$$ax^2+bx+c$$` more")
+            == "text `$$ax^2+bx+c$$` more"
+        )
+
+    def test_math_in_inline_code(self) -> None:
+        """`` $$x$$ `` inside inline code → no space insertion."""
+        text = "` $$x$$ `"
+        result = _separate_block_math(text)
+        # Mistune should recognize $$ in inline code as literal, not math
+        assert result == text
+
+    def test_math_in_fenced_code_block(self) -> None:
+        """$$...$$ inside fenced code block → no processing."""
+        text = "```\n$$f(x)$$\n```"
+        result = _separate_block_math(text)
+        # The $$ inside fenced code should be ignored by mistune AST
+        assert "$$\nf$$" not in result  # sanity
+
 
 # =========================================================================
 # wiki_html_to_plaintext — post-processing integration
 # =========================================================================
+
+
+async def _convert_html(html: str, converter: WikiHtmlConverter | None = None) -> str:
+    """Convert *html* via ``wiki_html_to_plaintext`` with default options.
+
+    *converter* overrides the default converter when given. No archives are
+    collected and no redirects are resolved.
+    """
+    return await wiki_html_to_plaintext(
+        BeautifulSoup(html, "html.parser"),
+        out_to_archive=set(),
+        redirect_map={},
+        refs=True,
+        converter=converter,
+    )
 
 
 class TestWikiHtmlToPlaintext:
@@ -678,96 +988,59 @@ class TestWikiHtmlToPlaintext:
     """
 
     @pytest.mark.anyio
-    async def test_simple_paragraph(self, tmp_path: PathLike[str]) -> None:
+    async def test_simple_paragraph(self) -> None:
         """Simple paragraph text → converted to Markdown paragraph."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>Hello world</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>Hello world</p>")
         assert result == "Hello world\n"
 
     @pytest.mark.anyio
-    async def test_nbsp_replacement(self, tmp_path: PathLike[str]) -> None:
+    async def test_nbsp_replacement(self) -> None:
         """Non-breaking spaces are converted to regular spaces."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>Hello\u00a0world</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>Hello\u00a0world</p>")
         assert "Hello world" in result
         assert "\u00a0" not in result
 
     @pytest.mark.anyio
-    async def test_hair_space_replacement(self, tmp_path: PathLike[str]) -> None:
-        """Hair space input does not cause errors in pipeline.
+    async def test_hair_space_replacement(self) -> None:
+        """Hair space (U+200A) is preserved through the pipeline.
 
-        The converter normalizes ``\u200a`` before the post-processing
-        ``&hairsp;`` replacement runs, so we verify the function runs
-        without error rather than asserting a specific output.
+        The converter preserves ``\u200a`` during whitespace collapsing so
+        the post-processing ``&hairsp;`` replacement can emit the entity.
         """
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>a\u200ab</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
-        assert result is not None
+        result = await _convert_html("<p>a\u200ab</p>")
+        assert "a&hairsp;b" in result
 
     @pytest.mark.anyio
-    async def test_trailing_whitespace_stripped(self, tmp_path: PathLike[str]) -> None:
+    async def test_hair_space_in_citation_sup(self) -> None:
+        """Hair spaces inside ``<sup>`` citation markers survive collapsing."""
+        result = await _convert_html("<p>see<sup>:\u200a2\u200a</sup></p>")
+        assert "see<sup>:&hairsp;2&hairsp;</sup>" in result
+
+    @pytest.mark.anyio
+    async def test_hair_space_in_classed_blockquote(self) -> None:
+        """Hair space survives the blockquote collapse path."""
+        result = await _convert_html(
+            '<blockquote class="math_theorem">a\u200ab</blockquote>'
+        )
+        assert "a&hairsp;b" in result
+
+    @pytest.mark.anyio
+    async def test_trailing_whitespace_stripped(self) -> None:
         """Trailing whitespace on each line is stripped.
 
         The converter normalizes multiple spaces, but trailing whitespace
         is still stripped from each line in post-processing.
         """
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>text with spaces  </p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>text with spaces  </p>")
         assert "text with spaces" in result
         # No trailing spaces on the line
         for line in result.split("\n"):
             assert line == line.rstrip(" \t")
 
     @pytest.mark.anyio
-    async def test_blank_line_collapse(self, tmp_path: PathLike[str]) -> None:
+    async def test_blank_line_collapse(self) -> None:
         """Excessive blank lines (3+) are collapsed to 2."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>First</p><p>Second</p><p>Third</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>First</p><p>Second</p><p>Third</p>")
         # Paragraphs are separated by blank lines in HTML->Markdown conversion.
         # There should be no triple blank lines.
         lines = result.split("\n")
@@ -780,56 +1053,26 @@ class TestWikiHtmlToPlaintext:
                 blank_streak = 0
 
     @pytest.mark.anyio
-    async def test_empty_content(self, tmp_path: PathLike[str]) -> None:
+    async def test_empty_content(self) -> None:
         """Empty HTML body → empty string."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<html><body></body></html>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<html><body></body></html>")
         assert result == ""
 
     @pytest.mark.anyio
     async def test_pre_converted_converter(self, tmp_path: PathLike[str]) -> None:
         """A pre-configured converter can be passed in."""
         tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
         converter = WikiHtmlConverter(
             converted_wiki_dir=tmp / "general",
-            converted_wiki_lang_dir=lang_dir,
+            converted_wiki_lang_dir=tmp / "general" / "eng",
         )
-        html = BeautifulSoup("<p>Custom converter</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-            converter=converter,
-        )
+        result = await _convert_html("<p>Custom converter</p>", converter)
         assert "Custom converter" in result
 
     @pytest.mark.anyio
-    async def test_block_math_separation(self, tmp_path: PathLike[str]) -> None:
+    async def test_block_math_separation(self) -> None:
         """Block math adjacency triggers space insertion in post-processing."""
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup("<p>text$$x$$more</p>", "html.parser")
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
-        )
+        result = await _convert_html("<p>text$$x$$more</p>")
         # The converter will produce something like "text$x$more",
         # and _separate_block_math post-processing handles $$...$$ spacing.
         # The exact output depends on how the converter handles the math
@@ -837,20 +1080,14 @@ class TestWikiHtmlToPlaintext:
         assert result is not None
 
     @pytest.mark.anyio
-    async def test_table_inline_math_pipes_aligned(
-        self, tmp_path: PathLike[str]
-    ) -> None:
+    async def test_table_inline_math_pipes_aligned(self) -> None:
         """Math spacing in table cells keeps pipes aligned (MD060).
 
         Math spacing must run before table reformatting; otherwise the
         inserted spaces grow a cell past its padded column width and the
         pipes misalign.
         """
-        tmp = Path(tmp_path)
-        lang_dir = tmp / "general" / "eng"
-        await lang_dir.mkdir(parents=True)
-
-        html = BeautifulSoup(
+        result = await _convert_html(
             "<table><tbody><tr><th>Column 1</th></tr><tr><td>word"
             '<span class="mwe-math-element mwe-math-element-inline">'
             '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
@@ -859,14 +1096,7 @@ class TestWikiHtmlToPlaintext:
             '<mo stretchy="false">)</mo></mrow></semantics></math>'
             '<img class="mwe-math-fallback-image-inline mw-invert skin-invert"'
             ' src="data:image/svg+xml;base64," /></span></span>word'
-            "</td></tr></tbody></table>",
-            "html.parser",
-        )
-        result = await wiki_html_to_plaintext(
-            html,
-            out_to_archive=set(),
-            redirect_map={},
-            refs=True,
+            "</td></tr></tbody></table>"
         )
         # Column width is 16 (``word $f(x)$ word``); all rows align.
         assert result == (
@@ -1008,3 +1238,30 @@ class TestRunPipeline:
             refs=False,
         )
         assert "No refs" in output
+
+    @pytest.mark.anyio
+    async def test_simple_table_pipeline(self, tmp_path: PathLike[str]) -> None:
+        """Simple table through full pipeline should be padded."""
+        tmp = Path(tmp_path)
+        lang_dir = tmp / "general" / "eng"
+        await lang_dir.mkdir(parents=True)
+
+        html = BeautifulSoup(
+            "<table><tr><td>short</td><td>verylongcontent</td></tr></table>",
+            "html.parser",
+        )
+        result, _ = await run_pipeline(
+            html,
+            redirect_map={},
+            image_metadata={},
+            names_map={},
+            wiki_dir=tmp / "general",
+            wiki_lang_dir=lang_dir,
+            refs=True,
+        )
+        # The table should have columns
+        lines = [line for line in result.split("\n") if line.startswith("|")]
+        assert len(lines) >= 1
+        # Second column should accommodate "verylongcontent"
+        # The dash separator row should match column widths
+        assert "verylongcontent" in result

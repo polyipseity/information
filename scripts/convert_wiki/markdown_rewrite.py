@@ -16,7 +16,7 @@ from .utils import _fix_filename, _fix_name_maybe
 """Exported names from this module."""
 __all__ = ()
 
-
+"""Regex matching ATX heading lines (``#`` through ``######``)."""
 _ATX_HEADING_RE = re.compile(r"^(#{1,6})\s+(?P<inner>\S.*?)(?:\s*#+\s*)?$")
 
 
@@ -76,10 +76,10 @@ def _rewrite_markdown_links(
             break
         expected_url = md_urls[url_index]
         url_index += 1
-        if destination != expected_url:
+        if unquote(destination) != unquote(expected_url):
             continue
         new_url = _rewrite_link_target(expected_url, migrations)
-        if new_url != expected_url:
+        if unquote(new_url) != unquote(expected_url):
             edits.append((dest_start, dest_end, new_url))
 
     if not edits:

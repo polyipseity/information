@@ -19,7 +19,7 @@ from yarl import URL
 
 from . import config as _cfg
 from .latex import LatexConverter
-from .table import _TD_OR_TH, TableConverter
+from .table import _TD_OR_TH, _TEXT_ALIGN_REGEX, TableConverter
 from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
@@ -29,6 +29,7 @@ from .utils import (
     _get_image_filename,
     _markdown_fragment,
     _markdown_link_target,
+    _strip_url_query,
     _tag_affixes,
 )
 
@@ -47,12 +48,36 @@ _ITALIC_FONT_STYLE_REGEX = re.compile(r"\bfont-style\s*:\s*italic\b", re.IGNOREC
 _COLLAPSE_EMPTY_BLOCKQUOTE_RE = re.compile(r">\n(?:>\n)+")
 """Collapse consecutive spaces."""
 _COLLAPSE_SPACES_REGEX = re.compile(r" {2,}")
+"""Whitespace runs except hair space (U+200A)."""
+_WHITESPACE_EXCEPT_HAIR_RE = re.compile(r"[^\S\u200a]+")
 """Captures the separator-prefixed display text in bold/italic processing."""
 _PROCESS_STRINGS_BI_REGEX = re.compile(r"^( *)(.*?)([\n ]*)$", re.DOTALL)
+"""Matches bare URLs for autolink wrapping."""
+_BARE_URL_REGEX = re.compile(r"(?:https?://|www\.)[^\s<>]+")
 """Whitespace and separator chars for sidebar tight wrapping."""
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 """Containers where sole formula rows are display math."""
 _DISPLAY_MATH_CONTAINERS = frozenset({"dd", "dt"})
+"""Box-like classes whose content renders specially."""
+_BOXED_CLASSES = frozenset(
+    {
+        "catlinks",
+        "equation-box",
+        "math_proof",
+        "math_theorem",
+        "portalbox",
+        "tmulti",
+        "unsolved",
+    }
+)
+"""Box-like classes whose content renders as a blockquote."""
+_BLOCKQUOTE_CLASSES = frozenset(_BOXED_CLASSES - {"equation-box"})
+"""Inline tags that can form an equation-box title."""
+_EQUATION_BOX_TITLE_TAGS = frozenset({"b", "strong", "i", "em", "span"})
+"""Block-level tags that separate an equation-box title from its body."""
+_EQUATION_BOX_BODY_BLOCK_TAGS = frozenset(
+    {"p", "div", "table", "ul", "ol", "dl", "blockquote", "pre", "figure"}
+)
 """LaTeX environments whose trailing punct belongs on the last row."""
 _DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = (
     "aligned",
@@ -70,6 +95,27 @@ _DISPLAY_MATH_ENVIRONMENTS: tuple[str, ...] = (
     "vmatrix",
     "Bmatrix",
 )
+
+
+def _wrap_bare_url(text: str) -> str:
+    """Wrap a bare URL in autolink brackets (e.g. ``www.example.com`` → ``<www.example.com>``)."""
+    if _BARE_URL_REGEX.fullmatch(text):
+        return f"<{text}>"
+    return text
+
+
+def _collapse_whitespace(text: str) -> str:
+    """Collapse whitespace runs, preserving hair spaces (U+200A)."""
+    text = text.strip(" \t\n\r\x0b\x0c")
+    return " ".join(_WHITESPACE_EXCEPT_HAIR_RE.split(text))
+
+
+def _set_text_align(cell: Tag, align: str) -> None:
+    """Append ``text-align`` to *cell*'s style unless it already declares one."""
+    style = str(cell.get("style", ""))
+    if _TEXT_ALIGN_REGEX.search(style):
+        return
+    cell["style"] = f"{style}text-align: {align};"
 
 
 class WikiHtmlConverter:
@@ -203,8 +249,7 @@ class WikiHtmlConverter:
             next_sib = ele.find_next_sibling()
             if isinstance(next_sib, Tag) and (
                 next_sib.name == "figure"
-                or {"catlinks", "math_theorem", "portalbox", "tmulti", "unsolved"}
-                & frozenset(next_sib.get_attribute_list("class"))
+                or _BOXED_CLASSES & frozenset(next_sib.get_attribute_list("class"))
             ):
                 config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
             else:
@@ -241,38 +286,38 @@ class WikiHtmlConverter:
             and isinstance(ele, Tag)
             and ele.find("div", class_="thumbcaption") is not None
         )
+        has_box_title = (
+            _BLOCKQUOTE_CLASSES & classes
+            and self._find_box_title(ele, has_numblk=False) is not None
+        )
         if (
             ele.name == "figure"
-            or {
-                "catlinks",
-                "math_theorem",
-                "portalbox",
-                "tmulti",
-                "unsolved",
-            }
-            & classes
+            or _BLOCKQUOTE_CLASSES & classes
             or has_thumb_with_caption
         ):
             original_process = process_strings
-            _catlinks = "catlinks" in classes
 
             def process_strings_blockquote(strings: str) -> str:
                 """Collapse whitespace runs within blockquote content."""
                 strings = original_process(strings)
-                if _catlinks:
-                    strings = "\n\n".join(
-                        "\n".join(" ".join(line.split()) for line in para.split("\n"))
-                        for para in strings.split("\n\n")
-                    )
-                else:
-                    strings = "\n\n".join(
-                        " ".join(para.split()) for para in strings.split("\n\n")
-                    )
+                # Collapse per line, preserving newlines between the box
+                # title and its paragraphs (e.g. ``__Proof__`` gets its own
+                # ``> `` line inside the blockquote).
+                strings = "\n\n".join(
+                    "\n".join(_collapse_whitespace(line) for line in para.split("\n"))
+                    for para in strings.split("\n\n")
+                )
                 result = "".join(
                     f">{line.strip() and ' '}{line}"
                     for line in strings.strip().splitlines(keepends=True)
                 )
-                return _COLLAPSE_EMPTY_BLOCKQUOTE_RE.sub(">\n", result)
+                result = _COLLAPSE_EMPTY_BLOCKQUOTE_RE.sub(">\n", result)
+                # Separate the box title from its body with a blank ``> `` line.
+                if has_box_title:
+                    result = re.sub(
+                        r"^(> [^\n]+)\n(> \S)", r"\1\n>\n\2", result, count=1
+                    )
+                return result
 
             config.suffix = "\n\n"
             process_strings = process_strings_blockquote
@@ -441,10 +486,22 @@ class WikiHtmlConverter:
     @staticmethod
     def _needs_separator_before(sibling: PageElement | None) -> bool:
         """Whether a separator is needed before the block."""
-        return (
-            isinstance(sibling, NavigableString)
-            and sibling.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
-        )
+        if isinstance(sibling, NavigableString):
+            return sibling.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == sibling
+        if isinstance(sibling, Tag):
+            # Transparent spans emit nothing; descend to their last rendered
+            # child to find what abuts the block on the rendered side.
+            last: PageElement = sibling
+            while isinstance(last, Tag) and last.name == "span" and last.contents:
+                last = last.contents[-1]
+            if isinstance(last, NavigableString):
+                return last.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == last
+            return isinstance(last, Tag) and (
+                last.name in _BOLD_OR_ITALIC
+                or bool(_BOLD_FONT_STYLE_REGEX.search(str(last.get("style", ""))))
+                or bool(_ITALIC_FONT_STYLE_REGEX.search(str(last.get("style", ""))))
+            )
+        return False
 
     @staticmethod
     def _needs_separator_after(sibling: PageElement | None) -> bool:
@@ -499,10 +556,10 @@ class WikiHtmlConverter:
             """Handle separator characters around bold/italic regions."""
             match = _PROCESS_STRINGS_BI_REGEX.match(strings)
             if not match:
-                return strings
+                return _wrap_bare_url(strings)
             config.prefix = f"{match[1]}{config.prefix}"
             config.suffix += match[3]
-            return match[2]
+            return _wrap_bare_url(match[2])
 
         config.process_strings = process
         if ele.name in _TD_OR_TH:
@@ -591,50 +648,133 @@ class WikiHtmlConverter:
         """Handle <div> elements, with special handling for equation-box divs."""
         if "shortdescription" in classes:
             return _HandlerConfig(suffix="\n\n")
+        if "thumbcaption" in classes and not self._in_table_cell(ele):
+            # Figure captions are block-level content: give them their own
+            # ``> `` line (blank ``> `` separation from following siblings),
+            # e.g. multi-image ``tmulti`` thumbnails with per-image captions.
+            return _HandlerConfig(suffix="\n\n")
         if "equation-box" not in classes:
             return self._handle_block_level(ele, classes)
 
-        # Extract title from non-whitespace text nodes.
-        title = ""
-        for child in list(ele.children):
-            if isinstance(child, NavigableString) and child.strip():
-                title = child.strip()
-                break
-
         # Find the numblk table.
         numblk = ele.find("table", class_="numblk")
-        if numblk is None:
+        title = self._equation_box_title(ele, has_numblk=numblk is not None)
+
+        # No title and no numbering: nothing to table-ify -> plain block.
+        if not title and numblk is None:
             return self._handle_block_level(ele, classes)
 
-        # Remove spacer columns (width=0px <td>) from numblk rows.
-        for tdh in tuple(numblk.find_all(_TD_OR_TH)):
-            style = str(tdh.get("style", ""))
-            if re.search(r"width\s*:\s*0", style, re.IGNORECASE):
-                tdh.decompose()
+        # The box's declared alignment, inherited by all its cells.
+        align = ""
+        if m := _TEXT_ALIGN_REGEX.search(str(ele.get("style", ""))):
+            align = m[1]
 
-        # Build a new table with a header row that provides alignment hints.
+        # Remove spacer columns (width=0px <td>) from numblk rows.
+        if numblk is not None:
+            for tdh in tuple(numblk.find_all(_TD_OR_TH)):
+                style = str(tdh.get("style", ""))
+                if re.search(r"width\s*:\s*0", style, re.IGNORECASE):
+                    tdh.decompose()
+
+        # Build a new table whose cells carry the box's alignment; the
+        # TableConverter derives alignment markers from these cells.
         new_table = self._soup.new_tag("table")
         tbody = self._soup.new_tag("tbody")
         new_table.append(tbody)
 
-        # Header row: title in center-aligned <th>, empty right-aligned <th>.
+        # Header row: title in <th>; equation-number <th> only when a
+        # numblk table (numbering) is present.
         header_row = self._soup.new_tag("tr")
-        th1 = self._soup.new_tag("th", attrs={"style": "text-align:center"})
-        th1.string = title
-        th2 = self._soup.new_tag("th", attrs={"style": "text-align:right"})
+        th1 = self._soup.new_tag("th")
+        if align:
+            _set_text_align(th1, align)
+        if isinstance(title, Tag):
+            # Preserve inline formatting (e.g. ``<b>``) in the title.
+            th1.append(title)
+        else:
+            th1.string = title
         header_row.append(th1)
-        header_row.append(th2)
+        if numblk is not None:
+            th2 = self._soup.new_tag("th")
+            if align:
+                _set_text_align(th2, align)
+            header_row.append(th2)
         tbody.append(header_row)
 
-        # Append cleaned numblk rows.
-        for tr in numblk.find_all("tr"):
-            tbody.append(copy(tr))
+        if numblk is not None:
+            # Append cleaned numblk rows, propagating the box's alignment
+            # onto cells that do not declare their own.
+            for tr in numblk.find_all("tr"):
+                new_tr = copy(tr)
+                if align:
+                    for cell in new_tr.find_all(_TD_OR_TH):
+                        _set_text_align(cell, align)
+                tbody.append(new_tr)
+        else:
+            # No numblk table: place the remaining content in a single
+            # body cell (no empty equation-number column).
+            body_row = self._soup.new_tag("tr")
+            body_cell = self._soup.new_tag("td")
+            if align:
+                _set_text_align(body_cell, align)
+            for child in list(ele.children):
+                body_cell.append(copy(child))
+            body_row.append(body_cell)
+            tbody.append(body_row)
 
         # Replace div children with the new table.
         ele.clear()
         ele.append(new_table)
 
         return None
+
+    def _handle_figcaption(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
+        """Render ``<figcaption>`` as block-level caption content."""
+        return _HandlerConfig(suffix="" if self._in_table_cell(ele) else "\n\n")
+
+    @staticmethod
+    def _find_box_title(ele: Tag, *, has_numblk: bool) -> Tag | NavigableString | None:
+        """Detect the leading title of a box div without extracting it.
+
+        The title is the first non-whitespace text run (bare text or an
+        inline tag such as ``<b>``/``<strong>``) when it is followed by
+        block-level content or a numblk table.  Returns None when the box
+        has no distinct title (e.g. pure equation content).
+        """
+        for child in list(ele.children):
+            if isinstance(child, NavigableString):
+                if not child.strip():
+                    continue
+                if not has_numblk and not any(
+                    isinstance(sib, Tag) and sib.name in _EQUATION_BOX_BODY_BLOCK_TAGS
+                    for sib in ele.children
+                ):
+                    return None
+                return child
+            if isinstance(child, Tag) and child.name in _EQUATION_BOX_TITLE_TAGS:
+                return child
+            return None
+        return None
+
+    @staticmethod
+    def _equation_box_title(ele: Tag, *, has_numblk: bool) -> Tag | str:
+        """Extract the leading title of an equation-box div.
+
+        The title is the first non-whitespace text run (bare text or an
+        inline tag such as ``<b>``/``<strong>``) when it is followed by
+        block-level content or a numblk table.  The title node is removed
+        from *ele* so the remaining children form the body.  Returns ""
+        when the box has no distinct title (e.g. pure equation content).
+        Returns the title ``Tag`` itself when it carries inline formatting
+        (so emphasis is preserved), otherwise its stripped text.
+        """
+        title = WikiHtmlConverter._find_box_title(ele, has_numblk=has_numblk)
+        if title is None:
+            return ""
+        title.extract()
+        if isinstance(title, NavigableString):
+            return title.strip()
+        return title
 
     _handle_dd = _handle_block_level
     _handle_dt = _handle_block_level
@@ -661,7 +801,7 @@ class WikiHtmlConverter:
 
         def process(strings: str) -> str:
             """Collapse whitespace runs in paragraph text."""
-            return " ".join(strings.split())
+            return _collapse_whitespace(strings)
 
         in_table = self._in_table_cell(ele)
         prefix = "\n" if not in_table else ""
@@ -1092,7 +1232,7 @@ class WikiHtmlConverter:
 
     def _process_archive_url(self, src: str) -> str:
         """Resolve a media URL to a local archive path."""
-        src_url = _cfg._WIKI_HOST_URL.join(URL(str(src)))
+        src_url = _strip_url_query(_cfg._WIKI_HOST_URL.join(URL(str(src))))
         src_url_str = str(src_url)
         for regex, formats in _cfg._ARCHIVE_REGEXES.items():
             if not (match := regex.search(src_url.human_repr())):
@@ -1260,7 +1400,7 @@ class WikiHtmlConverter:
 
             def process(strings: str) -> str:
                 """Collapse whitespace in anchor text."""
-                return " ".join(strings.split())
+                return _collapse_whitespace(strings)
 
             if any(
                 isinstance(p, Tag) and p.get("typeof") == "mw:File/Frameless"

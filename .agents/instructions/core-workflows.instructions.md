@@ -70,7 +70,7 @@ Clears generated content blocks without regenerating. Useful for resolving merge
 ### Wiki ingestion
 
 - Scaffold: `uv run -m scripts.new_wiki_page`
-- Ingest: `uv run -m scripts.convert_wiki` (reads clipboard HTML)
+- Ingest: `uv run -m scripts.convert_wiki --clipboard` (reads clipboard HTML)
 - Maintain redirect symlinks: `uv run -m scripts.convert_wiki --update-redirects [--dry-run]` — reconciles `general/*/` redirect symlinks against the live API: retargets symlinks whose redirect target changed, removes symlinks when a redirect became a full article, and leaves article→redirect transitions, missing/invalid pages, and real files untouched; refreshes the redirect cache. `--dry-run` previews actions without changing anything.
 - The reconcile probe is cache-independent (always queries, batches of 50, canonicalizes sent titles via `query.normalized` before matching, resolves chains to their final target); missing pages are kept conservatively and self/circular redirects are treated as full articles.
 - Flashcards: handled automatically by build workflows
@@ -106,6 +106,7 @@ Mirrors filtered history from `private/.git` into public `.git` using `git filte
 ## Tests, types, and CI
 
 - Add/modify tests under `tests/` mirroring source layout. Use `pytest` and `pytest.mark.anyio` for async tests when relevant.
+- __convert_wiki test layout (strict)__: `scripts/convert_wiki/` tests belong in `tests/scripts/convert_wiki/` mirroring the package layout. The only convert_wiki-related test file allowed directly in `tests/scripts/` is `test_convert_wiki.py`; never add new convert_wiki test files (or regression files) directly under `tests/scripts/`.
 - In async filesystem tests, use `anyio.Path` (not `pathlib.Path`): its methods (`exists`, `is_symlink`, `readlink`, `unlink`, `iterdir`) are coroutines and require `await`; `symlink_to` is synchronous.
 - Typing guidance: prefer PEP 585 built-in generics for concrete containers (e.g. `list[str]`, `dict[str, int]`) and use `collections.abc` for abstract interfaces (e.g. `collections.abc.Sequence[str]`). Avoid `typing.List`/`typing.Dict`/`typing.Sequence` in new code.
 - Run `uv run --locked ty check`/`bun run check` and `bun run test` locally to reduce CI failures.

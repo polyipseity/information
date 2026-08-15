@@ -103,12 +103,15 @@ _MARKDOWN_SEPARATOR = "<!-- markdown separator -->"
 Unicode math sign and operator characters that separate adjacent text
 without needing a space or marker. Contents: minus sign U+2212, plus-minus
 U+00B1, minus-or-plus U+2213, multiplication sign U+00D7, division sign
-U+00F7, middle dot U+00B7, dot operator U+22C5, and the Latin dashes
+U+00F7, middle dot U+00B7, dot operator U+22C5, the Latin dashes
 U+2010-U+2015 (hyphen, non-breaking hyphen, figure dash, en dash, em dash,
-horizontal bar).
+horizontal bar), and the mathematical angle brackets U+27E8/U+27E9 with
+their deprecated aliases U+2329/U+232A (which delimit adjacent text like
+other paired brackets).
 """
 _UNICODE_SEPARATOR_CHARACTERS = (
     "\u2212\u00b1\u2213\u00d7\u00f7\u00b7\u22c5\u2010\u2011\u2012\u2013\u2014\u2015"
+    "\u27e8\u27e9\u2329\u232a"
 )
 "Characters considered as separators in Markdown formatting."
 _MARKDOWN_SEPARATOR_CHARACTERS = (
@@ -201,15 +204,15 @@ _MARKDOWN_ESCAPE_REGEX: Pattern[str] = compile(r"[#$()*<>\\[\\\]_`|]")
 "Regexes mapping Wikimedia upload URLs to archive filename and path formats."
 _ARCHIVE_REGEXES = {
     compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/[0-9a-f]/[0-9a-f]{2}/([^/]*)$"
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/[0-9a-f]/[0-9a-f]{2}/([^/?]*)$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
     compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/thumb/[0-9a-f]/[0-9a-f]{2}/([^/?#]*)/.*$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
     compile(
-        r"^https://upload.wikimedia.org/wikipedia/[^/]*/transcoded/[0-9a-f]/[0-9a-f]{2}/([^/]*)/.*$"
+        r"^https://upload.wikimedia.org/wikipedia/[^/]*/transcoded/[0-9a-f]/[0-9a-f]{2}/([^/?#]*)/.*$"
     ): ("File:{}", "../../archives/Wikimedia Commons/{}"),
-    compile(r"^https://[^\.]*.?wikipedia.org/wiki/File:(.*)$"): (
+    compile(r"^https://[^\.]*.?wikipedia.org/wiki/File:([^?#]*)$"): (
         "File:{}",
         "../../archives/Wikimedia Commons/{}",
     ),

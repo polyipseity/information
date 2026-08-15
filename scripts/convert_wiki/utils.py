@@ -181,6 +181,11 @@ def _fix_filename(name: str) -> str:
     return _cfg._BAD_CHARACTERS.sub("_", name)
 
 
+def _strip_url_query(url: URL) -> URL:
+    """Return *url* with its query string and fragment removed."""
+    return url.with_query(None).with_fragment(None)
+
+
 def _get_image_filename(ele: Tag) -> str | None:
     """Extract the original uploaded filename from an ``<img>`` element.
 
@@ -188,13 +193,13 @@ def _get_image_filename(ele: Tag) -> str | None:
     or ``None`` if it cannot be determined from either ``resource`` or ``src``.
     """
     if resource := ele.get("resource"):
-        src_url = _cfg._WIKI_HOST_URL.join(URL(str(resource)))
+        src_url = _strip_url_query(_cfg._WIKI_HOST_URL.join(URL(str(resource))))
         src_url_str = src_url.human_repr()
         for regex in _cfg._ARCHIVE_REGEXES:
             if match := regex.search(src_url_str):
                 return unquote(match[1]).replace("_", " ")
     if src := ele.get("src"):
-        src_url = _cfg._WIKI_HOST_URL.join(URL(str(src)))
+        src_url = _strip_url_query(_cfg._WIKI_HOST_URL.join(URL(str(src))))
         src_url_str = src_url.human_repr()
         for regex in _cfg._ARCHIVE_REGEXES:
             if match := regex.search(src_url_str):
@@ -411,6 +416,24 @@ def _reformat_table(text: str) -> str:
     table_blocks = _find_table_blocks(text)
     if not table_blocks:
         return text
+
+    # Extend each block to the end of its last line, then merge
+    # overlapping/duplicate ranges.  ``_find_table_blocks`` can return
+    # overlapping ranges when mistune's AST contains duplicate table
+    # tokens or position artifacts around math-containing tables; without
+    # merging, later tables inside an overlapped range would be skipped
+    # and left unpadded.  Extending ends to line boundaries prevents
+    # partial lines from being split (which would duplicate their tail).
+    aligned: list[tuple[int, int]] = []
+    for start, end in sorted(table_blocks):
+        newline = text.find("\n", end)
+        aligned.append((start, len(text) if newline < 0 else newline + 1))
+    table_blocks = []
+    for start, end in aligned:
+        if table_blocks and start <= table_blocks[-1][1]:
+            table_blocks[-1] = (table_blocks[-1][0], max(table_blocks[-1][1], end))
+        else:
+            table_blocks.append((start, end))
 
     parts: list[str] = []
     prev_end = 0

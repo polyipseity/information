@@ -266,11 +266,15 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
     The delimiter is probed directly: ``$${raw}$$`` at a ``$$`` position,
     ``${raw}$`` at a single-``$`` position.  When found, the
     ``needs_before`` / ``needs_after`` flags control whether a separator is
-    inserted.  Non-matching ``$$…$$`` regions are skipped whole; stray
+    inserted.  Consecutive block-math spans in the same paragraph (separated
+    only by whitespace) are joined with a hard line break so they stay on
+    separate lines.  Non-matching ``$$…$$`` regions are skipped whole; stray
     single ``$`` are consumed one at a time.
     """
     parts: list[str] = []
     pos = 0
+    prev_is_inline: bool | None = None
+    parts_ended_with_sep = False
 
     for entry in info:
         raw, needs_before, needs_after, is_inline = entry
@@ -288,12 +292,28 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
                     dollar_pos + target_len <= len(text)
                     and text[dollar_pos : dollar_pos + target_len] == target
                 ):
-                    parts.append(text[pos:dollar_pos])
-                    if needs_before:
-                        parts.append(separator)
+                    gap = text[pos:dollar_pos]
+                    if (
+                        prev_is_inline is False
+                        and not is_inline
+                        and (not gap or gap.isspace())
+                        and "\n" not in gap
+                    ):
+                        # Consecutive block-math spans on one line: split
+                        # them onto separate lines with a hard line break.
+                        # Undo the separator after the previous span first so
+                        # the break replaces the whole whitespace region.
+                        if parts_ended_with_sep:
+                            parts.pop()
+                        parts.append(" <br/> ")
+                    else:
+                        parts.append(gap)
+                        if needs_before:
+                            parts.append(separator)
                     parts.append(target)
                     if needs_after:
                         parts.append(separator)
+                    parts_ended_with_sep = needs_after
                     pos = dollar_pos + target_len
                     break
                 close_pos = text.find("$$", dollar_pos + 2)
@@ -301,6 +321,7 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
                     parts.append(text[dollar_pos:])
                     return "".join(parts)
                 parts.append(text[pos : close_pos + 2])
+                parts_ended_with_sep = False
                 pos = close_pos + 2
             else:
                 target_inline = "$" + raw + "$"
@@ -311,13 +332,16 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
                     parts.append(target_inline)
                     if needs_after:
                         parts.append(separator)
+                    parts_ended_with_sep = needs_after
                     pos = dollar_pos + len(target_inline)
                     break
                 parts.append(text[pos : dollar_pos + 1])
+                parts_ended_with_sep = False
                 pos = dollar_pos + 1
         else:
             parts.append(text[pos:])
             return "".join(parts)
+        prev_is_inline = is_inline
 
     parts.append(text[pos:])
     return "".join(parts)

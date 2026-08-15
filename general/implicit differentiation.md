@@ -1,1 +1,0 @@
-eng/implicit differentiation.md

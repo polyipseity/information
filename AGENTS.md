@@ -22,7 +22,7 @@ __Creating notes__:
 ```bash
 # Scaffold new wiki-sourced note (see wiki-ingestion skill)
 uv run -m scripts.new_wiki_page
-uv run -m scripts.convert_wiki  # Paste Wikipedia HTML from clipboard
+uv run -m scripts.convert_wiki --clipboard  # Paste Wikipedia HTML from clipboard
 # Flashcards are created automatically by the build; do not run
 # `uv run -m init generate` yourself.
 ```
@@ -71,7 +71,7 @@ For detailed workflows, see [core-workflows.instructions.md](.agents/instruction
 - Formatting & linters: Use `prettier`, `markdownlint-cli2`, `ty`, and `ruff`. Ruff replaces Black and isort for code formatting and import sorting. Git hooks are managed by `prek.toml` (pre-commit, commit-msg, pre-push).
 - __Python entry points__: All Python scripts and modules must follow a strict convention for runnable entry points. See `.agents/instructions/python-entry-points.instructions.md` for comprehensive guidance on the `__name__ == "__main__"` pattern, async dispatch with `runnify`, and integration with Asyncer.
 - Testing conventions:
-    - Tests are placed under `tests/` and must mirror the working tree structure where applicable (for example, `scripts/foo.py` → `tests/scripts/test_foo.py`).
+    - Tests are placed under `tests/` and must mirror the working tree structure where applicable (for example, `scripts/foo.py` → `tests/scripts/test_foo.py`). For `scripts/convert_wiki/`, tests go in `tests/scripts/convert_wiki/`; the only convert_wiki-related test file allowed directly in `tests/scripts/` is `test_convert_wiki.py`.
     - Use `pytest` (config in `pyproject.toml`) and name tests `test_*.py`. Use `pytest.mark.anyio` for async tests with the AnyIO plugin and prefer deterministic fixtures (use `monkeypatch`, `tmp_path: os.PathLike[str]` and the `conftest.py` fixtures provided). When writing tests, annotate the `tmp_path` fixture as `PathLike[str]` where possible and, when converting path-like objects to strings, __always__ use `os.fspath(path_like)` rather than `str(path_like)` so the filesystem path protocol is correctly respected. Prefer importing concurrency helpers from Asyncer (`create_task_group`, `soonify`, `asyncify`) instead of calling `anyio.create_task_group` directly.
     - Include tests for all substantive behavior changes, especially for scripts and tools (`scripts/` and `scripts/`). Add tests that exercise error paths and edge cases.
     - CI and local pre-push both run the test suite: `prek` `pre-push` runs `bun run test` which invokes `uv run --locked pytest`. The GitHub Actions CI runs `bun install --frozen-lockfile --ignore-scripts && uv sync --locked` and then `bun run check` and `bun run test` to validate changes.

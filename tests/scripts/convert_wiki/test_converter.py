@@ -59,20 +59,6 @@ def _inline_math_span(alttext: str) -> str:
     )
 
 
-def _make_converter_with_lang(
-    tmp_path: PathLike[str],
-) -> WikiHtmlConverter:
-    """Create a converter with ``general/eng`` directory created."""
-    WikiHtmlConverter(  # create directories
-        converted_wiki_dir=AnyioPath(tmp_path) / "general",
-        converted_wiki_lang_dir=AnyioPath(tmp_path) / "general" / "eng",
-    )
-    return WikiHtmlConverter(
-        converted_wiki_dir=AnyioPath(tmp_path) / "general",
-        converted_wiki_lang_dir=AnyioPath(tmp_path) / "general" / "eng",
-    )
-
-
 async def _convert(
     converter: WikiHtmlConverter,
     html: str,
@@ -603,6 +589,49 @@ class TestImageHandling:
         # The image itself gets \n\n from the handler.
         assert "\n\n" in result
 
+    @pytest.mark.anyio
+    async def test_lagrange_query_string_stripped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Query strings in img src should not leak into archive output."""
+        html = (
+            '<img src="//upload.wikimedia.org/wikipedia/commons/8/8e/'
+            "Lagrange_portrait.jpg?utm_source=en.wikipedia.org"
+            '&amp;utm_campaign=parser&amp;utm_content=thumbnail"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:Lagrange_portrait.jpg"}
+        assert "../../archives/Wikimedia%20Commons/Lagrange%20portrait.jpg" in result
+
+    @pytest.mark.anyio
+    async def test_lagrange_thumb_query_string_stripped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Thumb URLs with query strings should yield the clean original filename."""
+        html = (
+            '<img src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/'
+            "Lagrange_portrait.jpg/220px-Lagrange_portrait.jpg"
+            "?utm_source=en.wikipedia.org&amp;utm_campaign=parser"
+            '&amp;utm_content=thumbnail"/>'
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        out_to_archive: set[str] = set()
+        result = await converter.convert(
+            soup,
+            out_to_archive=out_to_archive,
+            redirect_map={},
+            refs=True,
+        )
+        assert out_to_archive == {"File:Lagrange_portrait.jpg"}
+        assert "../../archives/Wikimedia%20Commons/Lagrange%20portrait.jpg" in result
+
 
 # ---------------------------------------------------------------------------
 
@@ -742,6 +771,24 @@ class TestBoldItalicHandling:
         assert "<!-- markdown separator -->" not in result
 
     @pytest.mark.anyio
+    async def test_angle_bracket_emphasis_no_marker(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Angle brackets U+27E8/U+27E9 need no separator marker.
+
+        Mirrors the inner-product markup ``⟨x, ξ⟩`` found on Wikipedia,
+        where the bold ``x``/``ξ`` variables must not gain separators.
+        """
+        html = (
+            '<p><span typeof="mw:Entity">\u27e8</span>'
+            "<b>x</b>,<span>\xa0</span><b>\u03be</b>"
+            '<span typeof="mw:Entity">\u27e9</span></p>'
+        )
+        result = await _convert(converter, html)
+        assert "\u27e8__x__, __\u03be__\u27e9" in result
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
     async def test_strong(self, converter: WikiHtmlConverter) -> None:
         """``<strong>`` should render as bold."""
         result = await _convert(converter, "<strong>strong</strong>")
@@ -752,6 +799,133 @@ class TestBoldItalicHandling:
         """``<em>`` should render as italic."""
         result = await _convert(converter, "<em>emphasized</em>")
         assert "_emphasized_" in result
+
+    @pytest.mark.anyio
+    async def test_italic_bare_url(self, converter: WikiHtmlConverter) -> None:
+        """Bare ``www.`` URL in ``<i>`` should be wrapped in autolink brackets."""
+        result = await _convert(converter, "<i>www.astro.uvic.ca</i>")
+        assert "_<www.astro.uvic.ca>_" in result
+
+    @pytest.mark.anyio
+    async def test_italic_bare_https_url(self, converter: WikiHtmlConverter) -> None:
+        """Bare ``https://`` URL in ``<i>`` should be wrapped in autolink brackets."""
+        result = await _convert(converter, "<i>https://example.com/path</i>")
+        assert "_<https://example.com/path>_" in result
+
+    @pytest.mark.anyio
+    async def test_bold_bare_url(self, converter: WikiHtmlConverter) -> None:
+        """Bare URL in ``<b>`` should be wrapped in autolink brackets."""
+        result = await _convert(converter, "<b>www.example.com</b>")
+        assert "__<www.example.com>__" in result
+
+    @pytest.mark.anyio
+    async def test_italic_plain_text_not_wrapped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Plain text in ``<i>`` should not be wrapped."""
+        result = await _convert(converter, "<i>plain text</i>")
+        assert "_plain text_" in result
+
+    @pytest.mark.anyio
+    async def test_italic_link_destination_not_wrapped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Link destination inside ``<i>`` should not be wrapped."""
+        result = await _convert(
+            converter, '<i><a href="https://x.example/y">label</a></i>'
+        )
+        assert "_[label](https://x.example/y)_" in result
+
+    @pytest.mark.anyio
+    async def test_italic_code_span_not_wrapped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Code span inside ``<i>`` should not be wrapped."""
+        result = await _convert(converter, "<i><code>x</code></i>")
+        assert "_`x`_" in result
+
+    @pytest.mark.anyio
+    async def test_italic_bare_url_trailing_period(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Trailing period stays inside autolink brackets."""
+        result = await _convert(converter, "<i>www.example.com.</i>")
+        assert "_<www.example.com.>_" in result
+
+    @pytest.mark.anyio
+    async def test_adjacent_emphasis_tags_italic_then_bold(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Adjacent ``<i>``/``<b>`` tags should be separated by a marker."""
+        result = await _convert(converter, "<p><i>δ</i><b>r</b></p>")
+        assert "_δ_<!-- markdown separator -->__r__" in result
+
+    @pytest.mark.anyio
+    async def test_adjacent_emphasis_tags_bold_then_italic(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Adjacent ``<b>``/``<i>`` tags should be separated by a marker."""
+        result = await _convert(converter, "<p><b>r</b><i>δ</i></p>")
+        assert "__r__<!-- markdown separator -->_δ_" in result
+
+    @pytest.mark.anyio
+    async def test_adjacent_emphasis_tags_in_span(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Adjacent emphasis tags inside a ``<span>`` should be separated."""
+        result = await _convert(
+            converter, '<p><span class="nowrap"><i>δ</i><b>r</b></span></p>'
+        )
+        assert "_δ_<!-- markdown separator -->__r__" in result
+
+    @pytest.mark.anyio
+    async def test_emphasis_tags_span_wrapped_sibling(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Emphasis tags in sibling spans should still be separated."""
+        result = await _convert(
+            converter, "<p><span><i>δ</i></span><span><b>r</b></span></p>"
+        )
+        assert "_δ_<!-- markdown separator -->__r__" in result
+
+    @pytest.mark.anyio
+    async def test_emphasis_tags_separated_by_text(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Emphasis tags with text between them need no separator."""
+        result = await _convert(converter, "<p><i>x</i> text <b>y</b></p>")
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_emphasis_then_subscript_no_separator(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``<sub>`` renders raw HTML and needs no separator."""
+        result = await _convert(converter, "<p><b>x</b><sup>2</sup></p>")
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_emphasis_inside_subscript_no_separator(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Emphasis nested in ``<sub>`` should not trigger a separator."""
+        result = await _convert(converter, "<p><i>x</i><sub><i>y</i></sub></p>")
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_needs_separator_before_emphasis_tag(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``_needs_separator_before`` recognizes emphasis-rendering tags."""
+        soup = BeautifulSoup("<p><i>a</i><b>b</b></p>", "html.parser")
+        bold = soup.find("b")
+        assert bold is not None
+        assert bold.previous_sibling is not None
+        assert WikiHtmlConverter._needs_separator_before(bold.previous_sibling)
+        sup = soup.find("sup")
+        assert sup is None
+        soup = BeautifulSoup("<p><sup>2</sup></p>", "html.parser")
+        assert WikiHtmlConverter._needs_separator_before(soup.sup) is False
 
 
 # ---------------------------------------------------------------------------
@@ -923,6 +1097,48 @@ class TestTableHandling:
         result = await _convert(converter, html)
         assert "<br/> Last" in result
 
+    @pytest.mark.anyio
+    async def test_single_row_mixed_table_gets_empty_header(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A single-row mixed th/td table gets a synthesized empty header row."""
+        html = '<table><tbody><tr><th scope="row">A</th><td>B</td></tr></tbody></table>'
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| --: | --- |\n| __A__ | B |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_single_row_mixed_table_without_scope_row_keeps_left_alignment(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Without a scope=row label, the marker stays default-aligned."""
+        html = "<table><tbody><tr><th>A</th><td>B</td></tr></tbody></table>"
+        result = await _convert(converter, html)
+        assert result == "\n|  |  |\n| --- | --- |\n| __A__ | B |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_two_row_mixed_table_scope_row_right_aligns_label_column(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A multi-row mixed table also right-aligns its scope=row label."""
+        html = (
+            '<table><tbody><tr><th scope="row">A</th><td>B</td></tr>'
+            "<tr><td>C</td><td>D</td></tr></tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n| __A__ | B |\n| --: | --- |\n| C | D |\n\n\n"
+
+    @pytest.mark.anyio
+    async def test_two_row_mixed_table_unchanged(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A two-row mixed table keeps its original header-row behavior."""
+        html = (
+            "<table><tbody><tr><th>A</th><td>B</td></tr>"
+            "<tr><td>C</td><td>D</td></tr></tbody></table>"
+        )
+        result = await _convert(converter, html)
+        assert result == "\n| __A__ | B |\n| --- | --- |\n| C | D |\n\n\n"
+
 
 # ---------------------------------------------------------------------------
 
@@ -975,6 +1191,155 @@ class TestDivHandling:
             converter, "<table><tr><td><div>cell div</div></td></tr></table>"
         )
         assert "cell div" in result
+
+    @pytest.mark.anyio
+    async def test_equation_box_table(self, converter: WikiHtmlConverter) -> None:
+        """A title-less ``equation-box`` div without numbering is a plain block."""
+        result = await _convert(
+            converter, '<div class="equation-box">E = mc<sup>2</sup></div>'
+        )
+        assert result == "E = mc<sup>2</sup>"
+        assert "\n> " not in result
+
+    @pytest.mark.anyio
+    async def test_math_proof_blockquote(self, converter: WikiHtmlConverter) -> None:
+        """``math_proof`` divs should render as blockquotes."""
+        result = await _convert(converter, '<div class="math_proof">Proof.</div>')
+        assert "> Proof." in result
+
+    @pytest.mark.anyio
+    async def test_math_theorem_blockquote(self, converter: WikiHtmlConverter) -> None:
+        """``math_theorem`` divs should still render as blockquotes."""
+        result = await _convert(converter, '<div class="math_theorem">Thm.</div>')
+        assert "> Thm." in result
+
+    @pytest.mark.anyio
+    async def test_equation_box_without_numblk_table(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``equation-box`` divs without a numblk table render single-column tables."""
+        result = await _convert(
+            converter,
+            '<div class="equation-box"><b>Eq</b><p>E = mc<sup>2</sup></p></div>',
+        )
+        assert result == "\n| __Eq__ |\n| --- |\n| E = mc<sup>2</sup> |\n\n\n"
+        assert "\n> " not in result
+
+    @pytest.mark.anyio
+    async def test_equation_box_with_numblk_table(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``equation-box`` divs with a numblk table keep the number column.
+
+        The box's declared alignment propagates to both columns.
+        """
+        result = await _convert(
+            converter,
+            '<div class="equation-box" style="text-align:center">'
+            "<b>Eq</b>"
+            '<table class="numblk"><tbody><tr>'
+            "<td>E = mc<sup>2</sup></td>"
+            '<td style="width: 0px"></td>'
+            "<td>Eq.1</td>"
+            "</tr></tbody></table></div>",
+        )
+        assert result == (
+            "\n| __Eq__ |  |\n| :-: | :-: |\n| E = mc<sup>2</sup> | Eq.1 |\n\n\n"
+        )
+        assert "\n> " not in result
+
+    @pytest.mark.anyio
+    async def test_blockquote_title_on_own_line(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box title inside a blockquote should be its own line.
+
+        The title is followed by a blank ``> `` line separating it from
+        the body.
+        """
+        result = await _convert(
+            converter,
+            '<div class="math_proof"><strong>Proof</strong><p>text</p></div>',
+        )
+        assert "> __Proof__\n>\n> text" in result
+
+    @pytest.mark.anyio
+    async def test_blockquote_italic_title(self, converter: WikiHtmlConverter) -> None:
+        """An italic box title keeps its emphasis and blank-line separation."""
+        result = await _convert(
+            converter,
+            '<div class="math_theorem"><em>Lemma</em><p>body</p></div>',
+        )
+        assert "> _Lemma_\n>\n> body" in result
+
+    @pytest.mark.anyio
+    async def test_plain_div_not_blockquoted(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A plain div should not be blockquoted."""
+        result = await _convert(converter, "<div>hello</div>")
+        assert "> hello" not in result
+
+    @pytest.mark.anyio
+    async def test_hatnote_blank_line_before_equation_box(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A hatnote preceding an equation-box needs a blank line suffix."""
+        html = (
+            '<div class="hatnote">About</div>'
+            '<div class="equation-box">E = mc<sup>2</sup></div>'
+        )
+        result = await _convert(converter, html)
+        assert result == "- About\n\nE = mc<sup>2</sup>"
+
+    @pytest.mark.anyio
+    async def test_tmulti_caption_separates_blockquote_lines(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Multi-image ``tmulti`` thumbnails separate each image and caption.
+
+        Every image and every ``thumbcaption`` gets its own ``> `` line
+        inside the blockquote, with blank ``> `` lines separating
+        siblings, instead of caption text gluing to the next image.
+        """
+        html = (
+            '<div class="thumb tmulti"><div class="thumbinner multiimageinner">'
+            '<div class="trow"><div class="tsingle">'
+            '<div class="thumbimage"><img src="//upload.wikimedia.org/wikipedia/'
+            'commons/thumb/5/5d/Image1.svg/250px-Image1.svg.png" alt="Image 1"/>'
+            '</div><div class="thumbcaption">First caption.</div></div>'
+            '<div class="tsingle">'
+            '<div class="thumbimage"><img src="//upload.wikimedia.org/wikipedia/'
+            'commons/thumb/8/85/Image2.svg/250px-Image2.svg.png" alt="Image 2"/>'
+            '</div><div class="thumbcaption">Second caption.</div></div></div>'
+            '<div class="trow"><div class="thumbcaption">Overall caption.</div>'
+            "</div></div></div>"
+        )
+        result = await _convert(converter, html)
+        assert (
+            "> ![Image 1](../../archives/Wikimedia%20Commons/Image1.svg)\n"
+            ">\n> First caption." in result
+        )
+        assert (
+            "> First caption.\n>\n> ![Image 2]"
+            "(../../archives/Wikimedia%20Commons/Image2.svg)" in result
+        )
+        assert "> Second caption.\n>\n> Overall caption." in result
+
+    @pytest.mark.anyio
+    async def test_figcaption_block_level(self, converter: WikiHtmlConverter) -> None:
+        """A ``<figcaption>`` renders as block-level caption content."""
+        html = (
+            "<figure>"
+            '<img src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/'
+            'Fig1.svg/250px-Fig1.svg.png" alt="Fig 1"/>'
+            "<figcaption>Figure caption.</figcaption></figure>"
+        )
+        result = await _convert(converter, html)
+        assert (
+            "> ![Fig 1](../../archives/Wikimedia%20Commons/Fig1.svg)\n"
+            ">\n> Figure caption." in result
+        )
 
 
 # ---------------------------------------------------------------------------

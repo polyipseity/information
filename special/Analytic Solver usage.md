@@ -29,13 +29,13 @@ XLMiner offers {@{2 ways}@} to reduce categories: {@{automatically by frequency 
 
 ### decision tree
 
-- see: [general/decision tree](../general/decision%20tree.md)
+- see: ::@:: [general/decision tree](../general/decision%20tree.md)
 
-The decision tree ends are called {@{_leaf nodes_ or _terminal nodes_}@}. The rest of the nodes are called {@{_decision nodes_ or _internal nodes_}@}. <!--SR:!2026-10-24,704,330!2032-07-10,2288,330-->
+{@{The decision tree ends}@} are called {@{_leaf nodes_ or _terminal nodes_}@}. {@{The rest of the nodes}@} are called {@{_decision nodes_ or _internal nodes_}@}. <!--SR:!2026-10-24,704,330!2032-07-10,2288,330-->
 
-The _error rate_ of a decision tree is {@{the number of mispredicted observations divided by the number of all observations}@}. <!--SR:!2027-03-31,731,290-->
+{@{The _error rate_ of a decision tree}@} is {@{the number of mispredicted observations divided by the number of all observations}@}. <!--SR:!2027-03-31,731,290-->
 
-The decision tree threshold are used as follows: {@{If the attribute value is smaller or equal to the threshold, go left; otherwise, go right}@}. <!--SR:!fsrs,2032-10-19T00:00:00.000Z,2230,2230.18465984,1,2,10,0,0,2026-09-11T00:00:00.000Z-->
+{@{The decision tree threshold}@} are used as follows: If {@{the attribute value is smaller or equal to the threshold, go left}@}; otherwise, {@{go right}@}. <!--SR:!fsrs,2032-10-19T00:00:00.000Z,2230,2230.18465984,1,2,10,0,0,2026-09-11T00:00:00.000Z-->
 
 ### input formats
 

@@ -5,20 +5,21 @@ testable without HTTP requests or clipboard access.
 """
 
 import json
+import os
 import re
+import subprocess
 from os import PathLike
 from pathlib import Path as PathlibPath
 
 import json5
 import pytest
-from anyio import Path
+from anyio import Path, run_process
 from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki import config
 from scripts.convert_wiki.api import _collect_image_filenames
-from scripts.convert_wiki.ast_utils import _replace_pipes_outside_math
 from scripts.convert_wiki.converter import WikiHtmlConverter
-from scripts.convert_wiki.pipeline import _separate_block_math, run_pipeline
+from scripts.convert_wiki.pipeline import run_pipeline
 from scripts.convert_wiki.table import TableConverter
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import _get_image_filename
@@ -200,6 +201,9 @@ _SNAPSHOT_DIR = (
     PathlibPath(__file__).resolve(strict=True).with_name("convert_wiki") / "snapshots"
 )
 
+"""Absolute path to the repository root (markdownlint invocation cwd)."""
+_REPO_ROOT = PathlibPath(__file__).resolve(strict=True).parents[2]
+
 
 def _discover_snapshot_cases() -> list[str]:
     """Return fixture names by scanning ``*.input.html`` files."""
@@ -247,6 +251,34 @@ def _categorize_block_math_blocks(output: str) -> dict[str, int]:
             else:
                 counts["neither"] += 1
     return counts
+
+
+async def _assert_markdownlint_clean(output: str, tmp: Path) -> None:
+    """Assert generated ``output`` is markdownlint-clean under the snapshots config chain.
+
+    Writes ``output`` and a temporary config extending the snapshots
+    directory's own config (by absolute path, so the whole config chain
+    applies regardless of where the tmp dir lives) into ``tmp``, then runs
+    the repository-pinned markdownlint-cli2 on the written file.
+    """
+    out_path = tmp / "lint.md"
+    config_path = tmp / ".markdownlint.jsonc"
+    await out_path.write_text(output, encoding="UTF-8")
+    await config_path.write_text(
+        json.dumps({"extends": os.fspath(_SNAPSHOT_DIR / ".markdownlint.jsonc")}),
+        encoding="UTF-8",
+    )
+    proc = await run_process(
+        ["bun", "x", "markdownlint-cli2", "--no-globs", os.fspath(out_path)],
+        cwd=os.fspath(_REPO_ROOT),
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        check=False,
+    )
+    assert proc.returncode == 0, (
+        f"converter output failed markdownlint:\n"
+        f"{proc.stdout.decode()}{proc.stderr.decode()}"
+    )
 
 
 class TestWikiHtmlToPlaintextSnapshot:
@@ -308,6 +340,7 @@ class TestWikiHtmlToPlaintextSnapshot:
         )
 
         assert output == expected
+        await _assert_markdownlint_clean(output, tmp)
 
 
 class TestImageAltTextFallback:
@@ -1257,183 +1290,10 @@ class TestInlineMathIndependence:
         assert count == 0, f"Expected 0 inline math blocks, got {count}"
 
 
-class TestSeparateBlockMath:
-    """Unit tests for ``_separate_block_math`` whitespace insertion.
-
-    ``_separate_block_math`` uses mistune AST to identify ``block_math``
-    nodes and inserts a space before ``$$`` when non-whitespace text
-    immediately precedes it, and a space after ``$$`` when non-whitespace
-    text immediately follows it.
-
-    Standalone ``$$…$$`` on its own line (top-level AST) never gets
-    spacing added, and ``$$`` inside code spans or other non-math
-    constructs is left untouched.
+class TestPipeInMathTableIntegration:
+    """End-to-end: ``|`` inside a math element in an HTML table cell is
+    converted to ``\\vert`` in the pipeline output.
     """
-
-    # ── No-op cases ──────────────────────────────────────────────
-
-    def test_empty_string(self) -> None:
-        """Empty string should be returned unchanged."""
-        assert _separate_block_math("") == ""
-
-    def test_no_math(self) -> None:
-        """String without any ``$$`` should be returned unchanged."""
-        assert _separate_block_math("no math here") == "no math here"
-
-    def test_already_spaced_before(self) -> None:
-        """Already has space before opening ``$$`` → no change."""
-        assert _separate_block_math("text $$f(x)$$") == "text $$f(x)$$"
-
-    def test_already_spaced_after(self) -> None:
-        """Already has space after closing ``$$`` → no change."""
-        assert _separate_block_math("$$f(x)$$ more") == "$$f(x)$$ more"
-
-    def test_already_spaced_both(self) -> None:
-        """Both sides already spaced → no change."""
-        assert _separate_block_math("text $$f(x)$$ more") == "text $$f(x)$$ more"
-
-    def test_standalone_own_line(self) -> None:
-        """Standalone ``$$f(x)$$`` on its own line → no change."""
-        assert _separate_block_math("$$\nf(x)\n$$") == "$$\nf(x)\n$$"
-
-    def test_boundary_start_and_end(self) -> None:
-        """``$$f(x)$$`` at both string start and end → no change."""
-        assert _separate_block_math("$$f(x)$$") == "$$f(x)$$"
-
-    def test_already_spaced_between(self) -> None:
-        """Two block math expressions already spaced between → no change."""
-        assert _separate_block_math("$$f(x)$$ and $$g(y)$$") == "$$f(x)$$ and $$g(y)$$"
-
-    def test_standalone_with_newlines(self) -> None:
-        """Block math separated by newlines on both sides → no change."""
-        assert _separate_block_math("text\n$$f(x)$$\nmore") == "text\n$$f(x)$$\nmore"
-
-    def test_newline_only_surrounding(self) -> None:
-        """Newlines on both sides → no change."""
-        assert _separate_block_math("\n$$f(x)$$\n") == "\n$$f(x)$$\n"
-
-    def test_multiline_block_math(self) -> None:
-        """Block math spanning multiple lines → no change."""
-        assert _separate_block_math("text\n$$\nx\n$$\nmore") == "text\n$$\nx\n$$\nmore"
-
-    # ── Space-insertion cases ────────────────────────────────────
-
-    def test_needs_space_before(self) -> None:
-        """Non-whitespace text before ``$$`` → insert space before."""
-        assert _separate_block_math("text$$f(x)$$") == "text $$f(x)$$"
-
-    def test_needs_space_after(self) -> None:
-        """Non-whitespace text after ``$$`` → insert space after."""
-        assert _separate_block_math("$$f(x)$$text") == "$$f(x)$$ text"
-
-    def test_needs_space_both(self) -> None:
-        """Non-whitespace text on both sides → insert both spaces."""
-        assert _separate_block_math("text$$f(x)$$more") == "text $$f(x)$$ more"
-
-    def test_multiple_adjacent(self) -> None:
-        """Multiple adjacent block math blocks → each gets spacing."""
-        assert _separate_block_math("a$$f$$b$$g$$c") == "a $$f$$ b $$g$$ c"
-
-    def test_emphasis_before_block_math(self) -> None:
-        """Emphasis (``_italic_``) before ``$$`` → space inserted."""
-        assert _separate_block_math("_italic_$$x$$") == "_italic_ $$x$$"
-
-    # ── Preservation cases ───────────────────────────────────────
-
-    def test_inline_math_unaffected(self) -> None:
-        """Inline ``$…$`` should be left untouched."""
-        assert _separate_block_math("$x$ is inline") == "$x$ is inline"
-
-    def test_inline_math_adjacency_spaced(self) -> None:
-        """Inline math ``$x$`` adjacent to text → markdown separator inserted."""
-        assert (
-            _separate_block_math("text$x$more")
-            == "text<!-- markdown separator -->$x$<!-- markdown separator -->more"
-        )
-
-    def test_code_span_dollars_untouched(self) -> None:
-        """``$$`` inside a code span → not modified."""
-        assert (
-            _separate_block_math("text `$$ax^2+bx+c$$` more")
-            == "text `$$ax^2+bx+c$$` more"
-        )
-
-
-class TestReplacePipesOutsideMath:
-    """Unit tests for ``_replace_pipes_outside_math`` pipe escaping.
-
-    The function replaces ``|`` with ``&#124;`` outside math blocks and
-    with ``\\vert`` inside math blocks (both ``$$…$$`` and ``$…$``).
-    Already-escaped ``\\|`` inside math is preserved.
-    """
-
-    # ── No pipes / no math ───────────────────────────────────────
-
-    def test_empty_string(self) -> None:
-        """Empty string should be returned unchanged."""
-        assert _replace_pipes_outside_math("") == ""
-
-    def test_no_pipes_no_math(self) -> None:
-        """Plain text without pipes or math should be unchanged."""
-        assert _replace_pipes_outside_math("hello world") == "hello world"
-
-    # ── Pipes outside math only ──────────────────────────────────
-
-    def test_pipes_outside_math(self) -> None:
-        """Pipes outside math blocks should become ``&#124;``."""
-        assert _replace_pipes_outside_math("a|b|c") == "a&#124;b&#124;c"
-
-    def test_pipes_outside_with_math(self) -> None:
-        """Pipes in non-math portions should become ``&#124;`` even when math is present."""
-        result = _replace_pipes_outside_math("$a$ | $b$")
-        assert result == "$a$ &#124; $b$"
-
-    # ── Bare pipe inside $$…$$ ───────────────────────────────────
-
-    def test_bare_pipe_in_display_math(self) -> None:
-        """Bare ``|`` inside ``$$…$$`` should become ``\\vert``."""
-        result = _replace_pipes_outside_math("$$x|y$$")
-        assert result == r"$$x\vert y$$"
-
-    def test_bare_pipe_in_display_math_with_context(self) -> None:
-        """Bare ``|`` inside ``$$…$$`` with surrounding text."""
-        result = _replace_pipes_outside_math("text $$x|y$$ more")
-        assert result == r"text $$x\vert y$$ more"
-
-    # ── Bare pipe inside $…$ ─────────────────────────────────────
-
-    def test_bare_pipe_in_inline_math(self) -> None:
-        """Bare ``|`` inside ``$…$`` should become ``\\vert``."""
-        result = _replace_pipes_outside_math("$a|b$")
-        assert result == r"$a\vert b$"
-
-    # ── Escaped \| preserved inside math ─────────────────────────
-
-    def test_escaped_pipe_preserved_in_display_math(self) -> None:
-        """``\\|`` inside ``$$…$$`` should be preserved unchanged."""
-        result = _replace_pipes_outside_math(r"$$\|x\|$$")
-        assert result == r"$$\|x\|$$"
-
-    def test_escaped_pipe_preserved_in_inline_math(self) -> None:
-        """``\\|`` inside ``$…$`` should be preserved unchanged."""
-        result = _replace_pipes_outside_math(r"$\|x\|$")
-        assert result == r"$\|x\|$"
-
-    # ── Mixed inside/outside ─────────────────────────────────────
-
-    def test_mixed_inside_outside(self) -> None:
-        """Pipes outside become ``&#124;``, pipes inside become ``\\vert``."""
-        result = _replace_pipes_outside_math(r"$\vert x\vert$ | text | $y|z$")
-        assert result == r"$\vert x\vert$ &#124; text &#124; $y\vert z$"
-
-    # ── Multiple math blocks ─────────────────────────────────────
-
-    def test_multiple_math_blocks(self) -> None:
-        """Multiple math blocks should each get pipe replacement."""
-        result = _replace_pipes_outside_math("$a|b$ plain $c|d$")
-        assert result == r"$a\vert b$ plain $c\vert d$"
-
-    # ── Integration: table cell via pipeline ─────────────────────
 
     @pytest.mark.anyio
     async def test_pipe_in_math_table_integration(
@@ -1460,8 +1320,6 @@ class TestReplacePipesOutsideMath:
             " more</td></tr></tbody></table>"
         )
         html = BeautifulSoup(html_text, "html.parser")
-        for st in html.find_all("style"):
-            st.decompose()
 
         output = await converter.convert(
             html, out_to_archive=set(), redirect_map={}, refs=True

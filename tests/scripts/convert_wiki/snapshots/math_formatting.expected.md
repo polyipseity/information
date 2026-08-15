@@ -96,6 +96,6 @@ text $y$!
 
 Inline math abutting text in a table cell: spacing must be applied before column padding so pipes stay aligned \(MD060\).
 
-| Column 1 |
-| --- |
+| Column 1         |
+| ---------------- |
 | word $f(x)$ word |

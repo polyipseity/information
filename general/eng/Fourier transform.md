@@ -41,9 +41,9 @@ The Fourier transform can also be generalized to {@{functions of several variabl
 
 The Fourier transform of {@{a complex-valued function $f(x)$ on the real line}@}, is {@{the complex valued function ${\widehat {f} }(\xi )$}@}, defined by the integral<sup>[\[1\]](#^ref-1)</sup> <!--SR:!2027-07-05,487,395!2027-08-19,525,399-->
 
-> {@{Fourier transform}@}
->
-> {@{$${\widehat {f} }(\xi )=\int _{-\infty }^{\infty }f(x)\ e^{-i2\pi \xi x}\,dx,\quad \forall \xi \in \mathbb {R} \,. \qquad \tag{Eq.1}$$}@} <!--SR:!2027-02-13,364,364!2027-02-21,374,373-->
+|                                                           {@{Fourier transform}@}                                                            |
+| :------------------------------------------------------------------------------------------------------------------------------------------: |
+| {@{$${\widehat {f} }(\xi )=\int _{-\infty }^{\infty }f(x)\ e^{-i2\pi \xi x}\,dx,\quad \forall \xi \in \mathbb {R} \,. \qquad \tag{Eq.1}$$}@} | <!--SR:!2027-02-13,364,364!2027-02-21,374,373-->
 
 In this case {@{$f(x)$}@} is {@{\(Lebesgue\) integrable over the whole real line}@}, i.e., the above integral {@{converges to a continuous function ${\widehat {f} }(\xi )$ at all $\xi$}@} \(decaying to {@{zero as $\xi \to \infty$}@}\). <!--SR:!2026-12-24,323,357!2027-02-23,376,373!2027-02-09,363,383!2026-09-27,246,330-->
 
@@ -51,9 +51,9 @@ However, the Fourier transform can also be defined for {@{\(generalized\) functi
 
 First introduced in {@{[Fourier's](Joseph%20Fourier.md) _Analytical Theory of Heat_.}@},<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> {@{the corresponding inversion formula for "[sufficiently nice](Fourier%20inversion%20theorem.md#conditions%20on%20the%20function)" functions}@} is given by {@{the [Fourier inversion theorem](Fourier%20inversion%20theorem.md)}@}, i.e., <!--SR:!2027-03-23,398,378!2027-02-08,362,364!2027-05-28,454,390-->
 
-> {@{Inverse transform}@}
->
-> {@{$$f(x)=\int _{-\infty }^{\infty }{\widehat {f} }(\xi )\ e^{i2\pi \xi x}\,d\xi ,\quad \forall \ x\in \mathbb {R} \,. \qquad \tag{Eq.2}$$}@} <!--SR:!2027-03-06,385,378!2027-09-06,541,403-->
+|                                                            {@{Inverse transform}@}                                                            |
+| :-------------------------------------------------------------------------------------------------------------------------------------------: |
+| {@{$$f(x)=\int _{-\infty }^{\infty }{\widehat {f} }(\xi )\ e^{i2\pi \xi x}\,d\xi ,\quad \forall \ x\in \mathbb {R} \,. \qquad \tag{Eq.2}$$}@} | <!--SR:!2027-03-06,385,378!2027-09-06,541,403-->
 
 {@{The functions $f$ and ${\widehat {f} }$}@} are referred to as {@{a __Fourier transform pair__}@}.<sup>[\[8\]](#^ref-8)</sup>  {@{A common notation for designating transform pairs}@} is<!-- markdown separator -->__:__<sup>[\[9\]](#^ref-9)</sup> {@{$$f(x)\ {\stackrel {\mathcal {F} }{\longleftrightarrow } }\ {\widehat {f} }(\xi ).$$}@} For example, {@{the Fourier transform of the delta function}@} is {@{the constant function $1$}@}: {@{$$\delta (x)\ {\stackrel {\mathcal {F} }{\longleftrightarrow } }\ 1.$$}@} <!--SR:!2027-08-30,534,399!2027-04-28,431,390!2027-06-28,480,390!2026-09-26,245,330!2027-02-08,362,364!2027-05-18,449,395!2027-07-07,488,395-->
 
@@ -220,7 +220,7 @@ If {@{$f$ is purely imaginary}@}, then {@{${\widehat {f} }$ is [odd symmetric](e
 
 #### real and imaginary parts
 
-\(annotation: real and imaginary parts\) ::@:: $$\operatorname {Re} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2} }\left({\widehat {f} }(\xi )+{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$ $$\operatorname {Im} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2i} }\left({\widehat {f} }(\xi )-{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$ <!--SR:!2027-08-31,535,399!fsrs,2029-02-04T00:00:00.000Z,911,910.78142061,1,2,9,0,0,2026-08-08T00:00:00.000Z-->
+\(annotation: real and imaginary parts\) ::@:: $$\operatorname {Re} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2} }\left({\widehat {f} }(\xi )+{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$ <br/> $$\operatorname {Im} \{f(x)\}\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ {\tfrac {1}{2i} }\left({\widehat {f} }(\xi )-{\bigl (}{\widehat {f} }(-\xi ){\bigr )}^{*}\right)$$ <!--SR:!2027-08-31,535,399!fsrs,2029-02-04T00:00:00.000Z,911,910.78142061,1,2,9,0,0,2026-08-08T00:00:00.000Z-->
 
 #### zero frequency component
 

@@ -1,6 +1,6 @@
 ---
 name: wiki-ingestion
-description: Ingest Wikipedia HTML, normalize links/media, and archive to knowledge base.
+description: Ingest Wikipedia HTML, normalize links/media, archive to knowledge base, and fix capitalization in ingested notes (links, headers, stems) via convert_wiki --reprocess.
 ---
 
 # Wiki Ingestion Workflow
@@ -24,6 +24,7 @@ Converts Wikipedia HTML (or similar web content) into well-formed Markdown with:
 - Converting web pages to Markdown for knowledge base
 - Extracting and organizing media from online sources
 - Creating new notes with pre-filled structure from web content
+- Fixing capitalization in ingested notes (link targets, section headers, filename stems) — always via `convert_wiki --reprocess`, never by hand-editing the note, symlinks, or `name_map.jsonc`
 
 ## Detailed workflow
 
@@ -141,10 +142,11 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 
 ### Step 3: Ingest HTML
 
-__Command__: `uv run -m scripts.convert_wiki --output-mode append --output-file "<note_path>"`
+__Command__: `uv run -m scripts.convert_wiki --clipboard --output-mode append --output-file "<note_path>"`
 
 Replace `<note_path>` with the path to the note file created in Step 1 (e.g. `general/eng/Fourier transform.md`).
 
+- Always pass `--clipboard` (or `-c`): without it the script reads from stdin and blocks waiting for input.
 - Tool reads from clipboard
 - Normalizes Markdown formatting (lists, tables, code, emphasis)
 - Downloads images to `archives/Wikimedia Commons/` using `scripts/assets/convert_wiki.name_map.jsonc` for filename renames
@@ -163,26 +165,30 @@ After pasting, the file has two `## references` sections: the __template section
 3. Delete the template's `## references` section (heading + its content, including trailing blank line) from the top of the file.
 4. If the pasted content has __no__ `## references`, leave the template's `## references` in place — the attribution stays at its current position.
 
-#### Step 4a: Review capitalization fixes (suggestions only)
+#### Step 4a: Review capitalization (suggestions only, semantic)
 
-Before handing off to the human review, the agent checks the ingested note for possible capitalization fixes and presents them as suggestions only. The review covers:
+Mechanical casing alignment — matching every link target and section header to existing files, `name_map` stems, and redirect targets — is `convert_wiki`'s job: it happens automatically at ingestion and via `--reprocess` for later fixes. The review below therefore checks only __semantic__ capitalization: whether the casing conveys the correct meaning. Never re-compare against files or `name_map`.
 
-- Link targets: every `.md` link target vs. actual files in `general/<dir_code>/` and the `name_map` canonical stems.
-- Section headers: every header at ALL levels (`#` through `######`) vs. the canonical casing (`_fix_name_maybe` under the effective name_map, and the canonical form of any corresponding article stem).
-- Article filename stem vs. the intended canonical (Wikipedia-title) form.
+For every link target, section header at ALL levels (`#` through `######`), and the article filename stem, judge only the semantic correctness of the casing:
+
+- __Proper nouns and eponyms__ — people's names, named theorems, principles, laws, and transforms, and adjectives derived from names — must be capitalized (e.g. `Newton's laws`, `D'Alembert's principle`, `Lagrange multipliers`, `Euler–Lagrange equations`, `Hamiltonian mechanics`, `Fourier analysis`, `Noether's theorem`, `Lagrangian point`).
+- __Common descriptive phrases__ follow normal sentence case and need no review (e.g. `equations of motion`, `non-uniqueness`, `conservative force`); title case for such phrases is not an error.
+- Flag only semantically wrong casing — most commonly a proper noun whose first letter was lowercased (e.g. `newton's laws` → `Newton's laws`). This typically happens when the term is absent from `name_map` and the converter's lowercase-first-char fallback damaged it.
+
+Do __not__ flag: mechanical differences between link targets/headers and actual files or `name_map` stems (the converter guarantees these; `--reprocess` fixes them), link display text (preserved verbatim from Wikipedia), or style choices that are semantically acceptable.
 
 Present findings in this standard, concise format (one line per finding, tagged by kind; no prose):
 
 ```text
 Proposed capitalization fixes (suggestions only — not applied):
-- link: `modern physics.md` → `Modern physics.md`
-- header (`##`): `modern physics` → `Modern physics`
+- link: `lagrangian point.md` → `Lagrangian point.md`
+- header (`###`): `newton's laws` → `Newton's laws`
 - stem: `modern physics` → `Modern physics`
 ```
 
 or the single line `No capitalization fixes proposed.` when the review finds nothing.
 
-__Hard rule:__ do NOT apply any suggestion — do not edit the note, do not run `--reprocess`, do not modify `name_map.jsonc`. The human decides during Step 5; approved suggestions are applied in Step 6b.
+__Hard rule:__ during this review pass the agent applies NOTHING — do not edit the note, do not run `--reprocess`, do not modify `name_map.jsonc`. The human decides during Step 5; approved suggestions are applied by the tool in Step 6b. Notes, symlinks, and `name_map.jsonc` are never hand-edited at any point.
 
 ### Step 5: Manual review and editing
 
@@ -198,12 +204,20 @@ When re-invoking the skill to continue, tell the agent the file path of the note
 - Ensure all media references are correct (check `archives/Wikimedia Commons/`)
 - Ensure the note is complete before committing
 
-#### Step 6b: Fix link capitalization (conditional)
+#### Step 6b: Apply capitalization fixes (always via the tool)
 
-Run this when Step 5 review finds wrong link-target casing, wrong section-header casing at any level (`#` through `######`), or a filename stem that does not match the intended canonical form — including the suggestions accepted from Step 4a. The same `--reprocess` command applies for ad-hoc fixes outside the ingestion workflow.
+__First rule:__ whenever the user asks to fix capitalization (in this note or any other), run `uv run -m scripts.convert_wiki --reprocess --mapping ...` — do NOT hand-edit markdown link targets, section headers, symlinks, or `name_map.jsonc`. The tool updates `name_map.jsonc`, reconciles redirect symlinks, and rewrites link targets and section headers at all levels.
 
-1. Identify affected Wikipedia title variants and propose `name_map` entries using the __4 title variants per stem__ convention (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below). Use repeated `--mapping TITLE STEM` flags for multiple variants, or a single `--mapping-file` JSONC object (not both).
-2. Preview with dry-run:
+__Do not think — execute immediately.__ When the user asks to fix capitalization, map each provided fix verbatim to a `--mapping "FROM" "TO"` flag pair and run the tool. No deliberation about the fixes' correctness, no occurrence enumeration, no planning — the `--dry-run` report (run first) is the only analysis ever needed. Consult the __4 title variants per stem__ convention (below) only when the report shows unmatched variants.
+
+__The only allowed thought: misspellings.__ Before running the tool, scan every term in the user's fix list for misspellings (e.g. `newton's lawes`). If any term appears misspelled, prompt the user whether the misspelling is intended — proceed verbatim if intended, corrected if not. The tool never validates `--mapping` TITLEs: a typo silently pollutes `name_map.jsonc` and can rewrite links to a wrong stem, so this check is the only guard.
+
+__Always pass the note being ingested via `--article "<note_path>"`:__ the tool only rewrites links/headers in the listed articles, so omitting `--article` leaves the ingested note's own link targets and section headers untouched.
+
+Run this when Step 5 review finds semantically wrong link-target casing, semantically wrong section-header casing at any level (`#` through `######`), or a semantically wrong filename stem — including the suggestions accepted from Step 4a. Mechanical alignment fixes are not reviewed or fixed here; `convert_wiki` already handles them. The same `--reprocess` command applies for ad-hoc fixes outside the ingestion workflow.
+
+1. Map each provided fix directly to `--mapping "FROM" "TO"` — no transformation, no analysis. Use repeated `--mapping` flags for multiple fixes, or a single `--mapping-file` JSONC object (not both). Only if the `--dry-run` report shows unmatched variants, add the missing __4 title variants per stem__ entries (see [Reference: name_map mechanism](#reference-name_map-mechanism-in-convert_wikipy) below).
+2. Preview with dry-run, always including `--article "<note_path>"`:
 
 ```bash
 uv run -m scripts.convert_wiki --reprocess \
@@ -212,7 +226,7 @@ uv run -m scripts.convert_wiki --reprocess \
   --dry-run
 ```
 
-1. Apply when the dry-run report looks correct:
+1. Apply when the dry-run report looks correct, keeping `--article "<note_path>"`:
 
 ```bash
 uv run -m scripts.convert_wiki --reprocess \
@@ -221,6 +235,8 @@ uv run -m scripts.convert_wiki --reprocess \
 ```
 
 Replace `<note_path>` with the note from Step 1 (e.g. `general/eng/modern physics.md`). `--article` accepts a stem or path.
+
+__Anti-pattern:__ do NOT grep/sed/readlink the note to enumerate occurrences of wrong casing — the `--dry-run` report IS the analysis. Run `--dry-run` first and read its report.
 
 | Situation | Flags |
 | --------- | ----- |
