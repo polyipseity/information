@@ -41,9 +41,9 @@ The Fourier transform can also be generalized to {@{functions of several variabl
 
 The Fourier transform of {@{a complex-valued function $f(x)$ on the real line}@}, is {@{the complex valued function ${\widehat {f} }(\xi )$}@}, defined by the integral<sup>[\[1\]](#^ref-1)</sup>
 
-|                                                           {@{Fourier transform}@}                                                            |
-| :------------------------------------------------------------------------------------------------------------------------------------------: |
-| {@{$${\widehat {f} }(\xi )=\int _{-\infty }^{\infty }f(x)\ e^{-i2\pi \xi x}\,dx,\quad \forall \xi \in \mathbb {R} \,. \qquad \tag{Eq.1}$$}@} |
+|                                                {@{Fourier transform}@}                                                |              |
+| :-------------------------------------------------------------------------------------------------------------------: | :----------: |
+| {@{${\widehat {f} }(\xi )=\int _{-\infty }^{\infty }f(x)\ e^{-i2\pi \xi x}\,dx,\quad \forall \xi \in \mathbb {R}$}@}. | ____Eq.1____ |
 
 In this case {@{$f(x)$}@} is {@{\(Lebesgue\) integrable over the whole real line}@}, i.e., the above integral {@{converges to a continuous function ${\widehat {f} }(\xi )$ at all $\xi$}@} \(decaying to {@{zero as $\xi \to \infty$}@}\).
 
@@ -51,9 +51,9 @@ However, the Fourier transform can also be defined for {@{\(generalized\) functi
 
 First introduced in {@{[Fourier's](Joseph%20Fourier.md) _Analytical Theory of Heat_.}@},<sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> {@{the corresponding inversion formula for "[sufficiently nice](Fourier%20inversion%20theorem.md#conditions%20on%20the%20function)" functions}@} is given by {@{the [Fourier inversion theorem](Fourier%20inversion%20theorem.md)}@}, i.e.,
 
-|                                                            {@{Inverse transform}@}                                                            |
-| :-------------------------------------------------------------------------------------------------------------------------------------------: |
-| {@{$$f(x)=\int _{-\infty }^{\infty }{\widehat {f} }(\xi )\ e^{i2\pi \xi x}\,d\xi ,\quad \forall \ x\in \mathbb {R} \,. \qquad \tag{Eq.2}$$}@} |
+|                                               {@{Inverse transform}@}                                                |              |
+| :------------------------------------------------------------------------------------------------------------------: | :----------: |
+| {@{$f(x)=\int _{-\infty }^{\infty }{\widehat {f} }(\xi )\ e^{i2\pi \xi x}\,d\xi ,\quad \forall x\in \mathbb {R}$}@}. | ____Eq.2____ |
 
 {@{The functions $f$ and ${\widehat {f} }$}@} are referred to as {@{a __Fourier transform pair__}@}.<sup>[\[8\]](#^ref-8)</sup>  {@{A common notation for designating transform pairs}@} is<!-- markdown separator -->__:__<sup>[\[9\]](#^ref-9)</sup> {@{$$f(x)\ {\stackrel {\mathcal {F} }{\longleftrightarrow } }\ {\widehat {f} }(\xi ).$$}@} For example, {@{the Fourier transform of the delta function}@} is {@{the constant function $1$}@}: {@{$$\delta (x)\ {\stackrel {\mathcal {F} }{\longleftrightarrow } }\ 1.$$}@}
 
