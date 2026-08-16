@@ -12,7 +12,7 @@ from .ast_utils import (
     _find_link_destination_ranges,
     _walk_tokens,
 )
-from .utils import _fix_filename, _fix_name_maybe
+from .utils import _encode_fragment, _fix_filename, _fix_name_maybe
 
 """Exported names from this module."""
 __all__ = ()
@@ -96,20 +96,42 @@ def _rewrite_plain_span(raw: str, plain: str, new_plain: str) -> str:
 def _rewrite_link_target(
     target: str,
     migrations: Mapping[str, str],
+    *,
+    names_map: Mapping[str, str] | None = None,
 ) -> str:
-    """Rewrite a single markdown link target using stem migrations."""
+    """Rewrite a single markdown link target using stem migrations.
+
+    When *names_map* is provided, the link fragment (section anchor) is
+    also re-cased through the name map so anchors interrupted by inline
+    markup or wrong casing are corrected, mirroring heading rewriting.
+    """
     stem, fragment = _decode_link_stem(target)
     new_stem = migrations.get(stem, stem)
     encoded = _encode_stem(new_stem)
+    if fragment and names_map is not None:
+        plain_fragment = unquote(fragment)
+        new_fragment = _resolve_plain_rewrite(
+            plain_fragment,
+            names_map=names_map,
+            replace_underscores=True,
+        )
+        if new_fragment != plain_fragment:
+            fragment = _encode_fragment(new_fragment)
     return f"{encoded}.md{f'#{fragment}' if fragment else ''}"
 
 
 def _rewrite_markdown_links(
     text: str,
     migrations: Mapping[str, str],
+    *,
+    names_map: Mapping[str, str] | None = None,
 ) -> str:
-    """Rewrite markdown ``.md`` link targets according to _migrations_."""
-    if not migrations:
+    """Rewrite markdown ``.md`` link targets according to _migrations_.
+
+    When *names_map* is provided, link fragments (section anchors) are
+    also re-cased through the name map, mirroring heading rewriting.
+    """
+    if not migrations and not names_map:
         return text
 
     parse_result, _state = _MISTUNE_PARSER.parse(text)
@@ -136,8 +158,8 @@ def _rewrite_markdown_links(
         url_index += 1
         if unquote(destination) != unquote(expected_url):
             continue
-        new_url = _rewrite_link_target(expected_url, migrations)
-        if unquote(new_url) != unquote(expected_url):
+        new_url = _rewrite_link_target(destination, migrations, names_map=names_map)
+        if unquote(new_url) != unquote(destination):
             edits.append((dest_start, dest_end, new_url))
 
     if not edits:

@@ -219,6 +219,43 @@ class TestRewriteMarkdownLinks:
         assert rewritten == "[d'Alembert](Jean%20Le%20Rond%20d'Alembert.md#biography)"
 
 
+class TestRewriteLinkFragments:
+    """Tests for fragment (anchor) rewriting via the name map."""
+
+    def test_rewrites_fragment_casing(self) -> None:
+        """A mis-cased fragment should be corrected through the name map."""
+        text = "[x](Legendre%20transformation.md#legendre%20transformation%20on%20manifolds)"
+        names_map = {
+            "legendre transformation on manifolds": "Legendre transformation on manifolds"
+        }
+        rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
+        assert rewritten == (
+            "[x](Legendre%20transformation.md#Legendre%20transformation%20on%20manifolds)"
+        )
+
+    def test_fragment_only_run_no_stem_change(self) -> None:
+        """With no migrations, only the fragment should change."""
+        text = "[x](modern%20physics.md#modern%20physics)"
+        names_map = {"modern physics": "Modern physics"}
+        rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
+        assert rewritten == "[x](modern%20physics.md#Modern%20physics)"
+
+    def test_fragment_idempotent_round_trip(self) -> None:
+        """An already-canonical fragment should stay byte-identical."""
+        text = "[x](Schwarz's%20theorem.md#schwarz's%20theorem)"
+        names_map = {"Schwarz's theorem": "Schwarz's theorem"}
+        rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
+        assert rewritten == text
+
+    def test_fragment_and_stem_rewrite(self) -> None:
+        """Both stem migration and fragment re-casing apply together."""
+        text = "[x](modern%20physics.md#modern%20physics)"
+        names_map = {"modern physics": "Modern physics"}
+        migrations = {"modern physics": "Modern physics"}
+        rewritten = _rewrite_markdown_links(text, migrations, names_map=names_map)
+        assert rewritten == "[x](Modern%20physics.md#Modern%20physics)"
+
+
 class TestRewriteArticleHeading:
     """Tests for _rewrite_article_heading."""
 
