@@ -182,6 +182,12 @@ class WikiHtmlConverter:
         if isinstance(ele, Tag):
             for style_tag in ele.find_all("style"):
                 style_tag.decompose()
+            # Drop CS1-maintenance citation-comment spans — these are
+            # citation-metadata noise (e.g. "CS1 maint: multiple names"),
+            # not article content, and their literal "link" text fails
+            # descriptive-link-text linting.
+            for cs1_maint in ele.find_all("span", class_="cs1-maint"):
+                cs1_maint.decompose()
 
         if not isinstance(ele, Tag):
             if (
@@ -1185,7 +1191,16 @@ class WikiHtmlConverter:
                     suffix=li_suffix,
                     process_strings=process,
                 )
-            return _HandlerConfig(prefix=prefix, suffix=li_suffix)
+
+            def process(strings: str) -> str:
+                """Strip leading formatting whitespace from list text."""
+                return strings.lstrip("\t\n\r\x0b\x0c \xa0")
+
+            return _HandlerConfig(
+                prefix=prefix,
+                suffix=li_suffix,
+                process_strings=process,
+            )
         else:
 
             def process(strings: str) -> str:
