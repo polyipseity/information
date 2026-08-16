@@ -1,13 +1,113 @@
 """Tests for scripts.convert_wiki.markdown_rewrite."""
 
 from scripts.convert_wiki.markdown_rewrite import (
+    _align_plain_to_raw,
+    _resolve_plain_rewrite,
     _rewrite_article_heading,
     _rewrite_markdown_headings,
     _rewrite_markdown_links,
+    _rewrite_plain_span,
 )
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
+
+
+class TestResolvePlainRewrite:
+    """Tests for _resolve_plain_rewrite."""
+
+    def test_name_map_hit(self) -> None:
+        names_map = {"modern physics": "Modern physics"}
+        assert _resolve_plain_rewrite("modern physics", names_map=names_map) == (
+            "Modern physics"
+        )
+
+    def test_lowercase_fallback(self) -> None:
+        names_map = {
+            "Fourier transform": "Fourier transform",
+            "fourier transform": "Fourier transform",
+        }
+        assert _resolve_plain_rewrite("fourier transform", names_map=names_map) == (
+            "Fourier transform"
+        )
+
+    def test_migrations_on_top(self) -> None:
+        names_map = {"modern physics": "modern physics"}
+        migrations = {"modern physics": "Modern physics"}
+        assert (
+            _resolve_plain_rewrite(
+                "modern physics", names_map=names_map, migrations=migrations
+            )
+            == "Modern physics"
+        )
+
+    def test_replace_underscores_flag(self) -> None:
+        names_map = {
+            "legendre transformation on manifolds": "Legendre transformation on manifolds"
+        }
+        assert (
+            _resolve_plain_rewrite(
+                "legendre_transformation_on_manifolds",
+                names_map=names_map,
+                replace_underscores=True,
+            )
+            == "Legendre transformation on manifolds"
+        )
+
+    def test_no_migrations_returns_name_map_result(self) -> None:
+        names_map = {"modern physics": "Modern physics"}
+        assert (
+            _resolve_plain_rewrite(
+                "modern physics", names_map=names_map, migrations=None
+            )
+            == "Modern physics"
+        )
+
+
+class TestRewritePlainSpan:
+    """Tests for _rewrite_plain_span and_align_plain_to_raw."""
+
+    def test_markup_free_fast_path(self) -> None:
+        assert _rewrite_plain_span(
+            "Modern physics", "Modern physics", "Modern physics"
+        ) == ("Modern physics")
+
+    def test_plain_equals_raw_returns_new(self) -> None:
+        assert _rewrite_plain_span(
+            "modern physics", "modern physics", "Modern physics"
+        ) == ("Modern physics")
+
+    def test_emphasis_stripped_raw(self) -> None:
+        raw = "modern _physics_"
+        assert _rewrite_plain_span(raw, "modern physics", "Modern physics") == (
+            "Modern _physics_"
+        )
+
+    def test_escaped_parens_raw(self) -> None:
+        raw = r"Phase space coordinates \(_p_, _q_\) and Hamiltonian _H_"
+        plain = "Phase space coordinates (p, q) and Hamiltonian H"
+        new = "phase space coordinates (p, q) and Hamiltonian H"
+        assert _rewrite_plain_span(raw, plain, new) == (
+            r"phase space coordinates \(_p_, _q_\) and Hamiltonian _H_"
+        )
+
+    def test_markup_after_plain(self) -> None:
+        raw = "modern physics _and more_"
+        assert _rewrite_plain_span(
+            raw, "modern physics and more", "Modern physics and more"
+        ) == ("Modern physics _and more_")
+
+    def test_insert_spanning_markup(self) -> None:
+        raw = "modern _physics_"
+        assert _rewrite_plain_span(raw, "modern physics", "modern applied physics") == (
+            "modern applied _physics_"
+        )
+
+    def test_alignment_failure_returns_raw(self) -> None:
+        assert _rewrite_plain_span("abc", "xyz", "xyz") == "abc"
+
+    def test_align_helper_subsequence(self) -> None:
+        assert _align_plain_to_raw("a_b_c", "abc") == [0, 2, 4]
 
 
 class TestRewriteMarkdownLinks:

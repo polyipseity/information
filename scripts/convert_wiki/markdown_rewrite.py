@@ -1,5 +1,6 @@
 """Pure markdown rewriting for reprocess mode."""
 
+import difflib
 import re
 from collections.abc import Mapping, Sequence
 from typing import Any
@@ -35,6 +36,63 @@ def _decode_link_stem(target: str) -> tuple[str, str]:
     return stem, fragment
 
 
+def _resolve_plain_rewrite(
+    plain: str,
+    *,
+    names_map: Mapping[str, str],
+    migrations: Mapping[str, str] | None = None,
+    replace_underscores: bool = False,
+) -> str:
+    """Resolve a plain-text span via the name map, then stem migrations."""
+    new_plain = _fix_name_maybe(
+        plain,
+        replace_underscores=replace_underscores,
+        names_map=names_map,
+    )
+    if migrations is not None:
+        new_plain = migrations.get(new_plain, new_plain)
+    return new_plain
+
+
+def _align_plain_to_raw(raw: str, plain: str) -> list[int] | None:
+    """Greedily map each plain char to a raw index (subsequence alignment)."""
+    mapping: list[int] = []
+    search_from = 0
+    for char in plain:
+        idx = raw.find(char, search_from)
+        if idx < 0:
+            return None
+        mapping.append(idx)
+        search_from = idx + 1
+    return mapping
+
+
+def _rewrite_plain_span(raw: str, plain: str, new_plain: str) -> str:
+    """Rewrite _raw_ so its plain-text projection becomes _new_plain_.
+
+    Preserves inline markup (emphasis delimiters, backslash escapes) by
+    applying the diff between *plain* and *new_plain* at the aligned raw
+    positions. Returns *raw* unchanged when alignment fails.
+    """
+    if new_plain == plain:
+        return raw
+    if plain == raw:
+        return new_plain
+    mapping = _align_plain_to_raw(raw, plain)
+    if mapping is None:
+        return raw
+    rewritten = raw
+    for tag, i1, i2, j1, j2 in reversed(
+        difflib.SequenceMatcher(None, plain, new_plain, autojunk=False).get_opcodes()
+    ):
+        if tag == "equal":
+            continue
+        start = mapping[i1] if i1 < len(mapping) else len(raw)
+        end = mapping[i2 - 1] + 1 if i2 > 0 else start
+        rewritten = rewritten[:start] + new_plain[j1:j2] + rewritten[end:]
+    return rewritten
+
+
 def _rewrite_link_target(
     target: str,
     migrations: Mapping[str, str],
@@ -50,7 +108,7 @@ def _rewrite_markdown_links(
     text: str,
     migrations: Mapping[str, str],
 ) -> str:
-    """Rewrite markdown ``.md`` link targets according to *migrations*."""
+    """Rewrite markdown ``.md`` link targets according to _migrations_."""
     if not migrations:
         return text
 
