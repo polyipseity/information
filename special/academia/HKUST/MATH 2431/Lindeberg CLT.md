@@ -85,7 +85,7 @@ Flashcards for this section are as follows:
 
 <!-- Added from PDF: Lemma A.18 -->
 
-The smooth test function lemma above is formulated for the general triangular-array setting. A simpler i.i.d.-only version — sometimes called the "replacement lemma" — makes the idea more transparent. For i.i.d. $X_1,\dots,X_n$ with $E[X_1]=0$ and $\operatorname{Var}[X_1]=\sigma^2<\infty$, let $Y_1,\dots,Y_n$ be i.i.d. $N(0,\sigma^2)$ independent of the $X$'s. For any bounded $C^3$ function $f$ with bounded derivatives, $$|E[f(Z + Y_i) - f(Z + X_i)]| \to 0,$$
+The smooth test function lemma above is formulated for the general triangular-array setting. A simpler i.i.d.-only version — sometimes called the "replacement lemma" — makes the idea more transparent. For i.i.d. $X_1,\dots,X_n$ with $E[X_1]=0$ and $\operatorname{Var}[X_1]=\sigma^2<\infty$, let $Y_1,\dots,Y_n$ be i.i.d. $N(0,\sigma^2)$ independent of the $X$<!-- markdown separator -->'s. For any bounded $C^3$ function $f$ with bounded derivatives, $$|E[f(Z + Y_i) - f(Z + X_i)]| \to 0,$$
 
 where $Z$ is the sum of the remaining $n-1$ terms. A second-order Taylor expansion shows the error per replacement is $O(1/n)$; summing over $n$ replacements gives convergence to zero. The triangular-array proof above subsumes this as a special case while additionally handling non-identical distributions via the Lindeberg condition.
 
@@ -93,7 +93,7 @@ where $Z$ is the sum of the remaining $n-1$ terms. A second-order Taylor expansi
 
 Flashcards for this section are as follows:
 
-- i.i.d. replacement lemma / statement ::@:: For i.i.d. $X_1,\dots,X_n$ with $E[X_1]=0$, $\operatorname{Var}[X_1]=\sigma^2<\infty$, let $Y_1,\dots,Y_n$ be i.i.d. $N(0,\sigma^2)$ independent of the $X$'s. For any bounded $C^3$ function $f$ with bounded derivatives, $|E[f(Z+Y_i)-f(Z+X_i)]|\to0$, where $Z$ is the sum of the remaining $n-1$ terms. This is the i.i.d.-only "replacement lemma" — a simpler special case of the smooth test function lemma for triangular arrays. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- i.i.d. replacement lemma / statement ::@:: For i.i.d. $X_1,\dots,X_n$ with $E[X_1]=0$, $\operatorname{Var}[X_1]=\sigma^2<\infty$, let $Y_1,\dots,Y_n$ be i.i.d. $N(0,\sigma^2)$ independent of the $X$<!-- markdown separator -->'s. For any bounded $C^3$ function $f$ with bounded derivatives, $|E[f(Z+Y_i)-f(Z+X_i)]|\to0$, where $Z$ is the sum of the remaining $n-1$ terms. This is the i.i.d.-only "replacement lemma" — a simpler special case of the smooth test function lemma for triangular arrays. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - i.i.d. replacement lemma / error analysis ::@:: By second-order Taylor expansion of $f$ around $Z$, matching first two moments cancels the leading terms. The per-replacement error is $O(1/n)$; summing $n$ such errors yields total $\to0$, establishing the lemma. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - i.i.d. replacement lemma / relation to triangular-array version ::@:: The i.i.d. case is a special case of the smooth test function lemma. In the triangular-array proof, the Lindeberg condition replaces the DCT argument needed for i.i.d. summands, allowing non-identical distributions while subsuming the i.i.d. result.
 
