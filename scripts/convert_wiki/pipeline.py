@@ -86,7 +86,10 @@ async def _create_session_and_run(
 
 
 def _determine_needs_before(
-    prev: dict[str, Any] | None, *, inline: bool = False
+    prev: dict[str, Any] | None,
+    *,
+    inline: bool = False,
+    separator_chars: str = _cfg._MARKDOWN_SEPARATOR_CHARACTERS,
 ) -> bool:
     """Return ``True`` if a space should be inserted before a math delimiter.
 
@@ -99,9 +102,11 @@ def _determine_needs_before(
 
     For inline math (``inline=True``), zero-width characters are stripped
     from the neighbor text first, then the text is tested against
-    ``_MARKDOWN_SEPARATOR_CHARACTERS`` (the same list and test as the
-    emphasis separator in ``converter._needs_separator_before``), so inline
-    math gets spacing guaranteed in exactly the same situations as emphasis.
+    ``separator_chars`` (the same list and test as the emphasis separator in
+    ``converter._needs_separator_before``, except inline math passes
+    ``_MATH_SEPARATOR_CHARACTERS`` so a straight apostrophe is not mistaken
+    for a separator), so inline math gets spacing guaranteed in exactly the
+    same situations as emphasis.
 
     Inline HTML siblings (e.g. ``<sub>``/``<sup>`` tags or the marker comment
     inserted by ``_separate_block_math``) do not create word adjacency, so
@@ -112,9 +117,7 @@ def _determine_needs_before(
     if prev["type"] == "text":
         if inline:
             stripped = _ZERO_WIDTH_CHARS_RE.sub("", prev["raw"])
-            return bool(stripped) and (
-                stripped.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == stripped
-            )
+            return bool(stripped) and (stripped.rstrip(separator_chars) == stripped)
         return bool(prev["raw"]) and not prev["raw"][-1].isspace()
     if inline and prev["type"] in ("softbreak", "linebreak"):
         # A line break is already whitespace separation.
@@ -127,7 +130,10 @@ def _determine_needs_before(
 
 
 def _determine_needs_after(
-    next_: dict[str, Any] | None, *, inline: bool = False
+    next_: dict[str, Any] | None,
+    *,
+    inline: bool = False,
+    separator_chars: str = _cfg._MARKDOWN_SEPARATOR_CHARACTERS,
 ) -> bool:
     """Return ``True`` if a space should be inserted after a math delimiter.
 
@@ -142,9 +148,7 @@ def _determine_needs_after(
     if next_["type"] == "text":
         if inline:
             stripped = _ZERO_WIDTH_CHARS_RE.sub("", next_["raw"])
-            return bool(stripped) and (
-                stripped.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == stripped
-            )
+            return bool(stripped) and (stripped.lstrip(separator_chars) == stripped)
         return bool(next_["raw"]) and not next_["raw"][0].isspace()
     if inline and next_["type"] in ("softbreak", "linebreak"):
         # A line break is already whitespace separation.
@@ -229,8 +233,16 @@ def _collect_block_math_info(
             info.append(
                 (
                     token["raw"],
-                    _determine_needs_before(prev_sib, inline=is_inline),
-                    _determine_needs_after(next_sib, inline=is_inline),
+                    _determine_needs_before(
+                        prev_sib,
+                        inline=is_inline,
+                        separator_chars=_cfg._MATH_SEPARATOR_CHARACTERS,
+                    ),
+                    _determine_needs_after(
+                        next_sib,
+                        inline=is_inline,
+                        separator_chars=_cfg._MATH_SEPARATOR_CHARACTERS,
+                    ),
                     is_inline,
                 )
             )
