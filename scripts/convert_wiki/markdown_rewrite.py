@@ -240,20 +240,20 @@ def _rewrite_markdown_headings(
         inner = match["inner"]
         children = token.get("children")
         plain = _heading_plain_text(children) if isinstance(children, list) else ""
-        if not plain or plain not in inner:
+        if not plain:
             continue
-        new_plain = _fix_name_maybe(
+        new_plain = _resolve_plain_rewrite(
             plain,
-            replace_underscores=False,
             names_map=names_map,
+            migrations=migrations,
+            replace_underscores=False,
         )
-        if migrations is not None:
-            new_plain = migrations.get(new_plain, new_plain)
         if new_plain == plain:
             continue
         inner_start = line_start + match.start("inner")
-        idx = inner.find(plain)
-        edits.append((inner_start + idx, inner_start + idx + len(plain), new_plain))
+        inner_end = line_start + match.end("inner")
+        rewritten_inner = _rewrite_plain_span(inner, plain, new_plain)
+        edits.append((inner_start, inner_end, rewritten_inner))
 
     if not edits:
         return text

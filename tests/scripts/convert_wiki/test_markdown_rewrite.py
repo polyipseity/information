@@ -337,3 +337,30 @@ class TestRewriteMarkdownHeadings:
         """An empty names map must not rewrite anything."""
         text = "## modern physics\n"
         assert _rewrite_markdown_headings(text, {}) == text
+
+    def test_rewrites_heading_with_inline_markup(self) -> None:
+        """Escaped parens and emphasis markup must be preserved while the
+        plain-text projection is rewritten (the special-header case)."""
+        text = "### Phase space coordinates \\(_p_, _q_\\) and Hamiltonian _H_\n"
+        names_map = {
+            "Phase space coordinates (p, q) and Hamiltonian H": (
+                "phase space coordinates (p, q) and Hamiltonian H"
+            )
+        }
+        rewritten = _rewrite_markdown_headings(text, names_map)
+        assert rewritten == (
+            "### phase space coordinates \\(_p_, _q_\\) and Hamiltonian _H_\n"
+        )
+
+    def test_rewrites_emphasis_only_heading(self) -> None:
+        """A heading whose plain text is wrapped in emphasis keeps the markup."""
+        text = "## _modern physics_\n"
+        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
+        assert rewritten == "## _Modern physics_\n"
+
+    def test_rewrites_markup_after_plain_heading(self) -> None:
+        """Markup trailing the plain text is preserved on rewrite."""
+        text = "## modern physics _and more_\n"
+        names_map = {"modern physics and more": "Modern physics and more"}
+        rewritten = _rewrite_markdown_headings(text, names_map)
+        assert rewritten == "## Modern physics _and more_\n"
