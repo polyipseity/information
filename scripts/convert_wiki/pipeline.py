@@ -254,15 +254,26 @@ def _collect_block_math_info(
 _IS_ATOMIC_INLINE_MATH_RE = re.compile(r"[^\s\\/()[\]{}^_|]+")
 
 
-def _inline_math_separator(raw: str) -> str:
+def _inline_math_separator(
+    raw: str, *, before_apostrophe: bool = False, after_apostrophe: bool = False
+) -> str:
     """Return the separator for an inline-math span.
 
     Atomic math (a single run of plain characters such as ``n``, ``x``, or a
     Greek letter) abutting a word gets the zero-width markdown separator
     marker; anything else (``\\frac``, ``1/|w|``, ``f(x)``, ``e^{...}``)
     keeps a normal space so the two sides do not visually collide.
+
+    A straight apostrophe is a word-forming character (possessive ``'s``), so
+    it must never be separated from the math by a space — when the neighbor on
+    either side is an apostrophe the zero-width marker is used regardless of
+    atomicity.
     """
-    if _IS_ATOMIC_INLINE_MATH_RE.fullmatch(raw):
+    if (
+        _IS_ATOMIC_INLINE_MATH_RE.fullmatch(raw)
+        or before_apostrophe
+        or after_apostrophe
+    ):
         return _cfg._MARKDOWN_SEPARATOR
     return " "
 
@@ -290,9 +301,9 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
 
     for entry in info:
         raw, needs_before, needs_after, is_inline = entry
-        separator = _inline_math_separator(raw) if is_inline else " "
         target = "$$" + raw + "$$"
         target_len = len(target)
+        separator = " "
 
         while pos < len(text):
             dollar_pos = text.find("$", pos)
@@ -338,6 +349,20 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
             else:
                 target_inline = "$" + raw + "$"
                 if text.startswith(target_inline, dollar_pos):
+                    if is_inline:
+                        before_apostrophe = (
+                            needs_before and pos > 0 and text[pos - 1] == "'"
+                        )
+                        after_apostrophe = (
+                            needs_after
+                            and dollar_pos + len(target_inline) < len(text)
+                            and text[dollar_pos + len(target_inline)] == "'"
+                        )
+                        separator = _inline_math_separator(
+                            raw,
+                            before_apostrophe=before_apostrophe,
+                            after_apostrophe=after_apostrophe,
+                        )
                     parts.append(text[pos:dollar_pos])
                     if needs_before:
                         parts.append(separator)

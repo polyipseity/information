@@ -430,9 +430,16 @@ class TestInlineMathSpacing:
         assert _separate_block_math("$a$'s") == "$a$<!-- markdown separator -->'s"
         assert _separate_block_math("'s$a$") == "'s<!-- markdown separator -->$a$"
 
-    def test_complex_math_apostrophe_suffix_keeps_space(self) -> None:
-        """Complex math abutting an apostrophe keeps a plain space."""
-        assert _separate_block_math(r"$\frac{1}{2}$'s") == r"$\frac{1}{2}$ 's"
+    def test_complex_math_apostrophe_suffix_gets_marker(self) -> None:
+        """Complex math abutting an apostrophe gets the zero-width marker.
+
+        A straight apostrophe is word-forming (possessive ``'s``), so it must
+        not be separated from the math by a space regardless of atomicity.
+        """
+        assert (
+            _separate_block_math(r"$\frac{1}{2}$'s")
+            == r"$\frac{1}{2}$<!-- markdown separator -->'s"
+        )
 
     def test_complex_math_word_abutting_keeps_space(self) -> None:
         """Complex math abutting a word keeps a plain space."""
