@@ -118,6 +118,22 @@ def _set_text_align(cell: Tag, align: str) -> None:
     cell["style"] = f"{style}text-align: {align};"
 
 
+def _strip_cell_bold(cell: Tag) -> None:
+    """Remove ``font-weight: bold`` from *cell*'s style.
+
+    Wikipedia equation-number cells are bolded at the cell level *and* on the
+    inner reference span; the cell-level bold is redundant and would otherwise
+    double-wrap the number as ``____N____``. Drop it so only the span's bold
+    survives. The style attribute is removed entirely when emptied.
+    """
+    style = str(cell.get("style", ""))
+    stripped = _BOLD_FONT_STYLE_REGEX.sub("", style).strip().rstrip(";").strip()
+    if stripped:
+        cell["style"] = stripped
+    else:
+        cell.attrs.pop("style", None)
+
+
 class WikiHtmlConverter:
     """Converts Wikipedia HTML elements to Markdown text.
 
@@ -556,6 +572,17 @@ class WikiHtmlConverter:
         if self._needs_separator_after(self._effective_sibling(ele, following=True)):
             suffix += _cfg._MARKDOWN_SEPARATOR
 
+        # Equation-reference numbers (the ``math_N`` / ``math_Eq.N`` spans
+        # inside numblk tables) need two fixes that the generic handler
+        # misses: (1) an ``<a id>`` anchor so prose links to the equation
+        # resolve, and (2) parentheses around bare-integer numbers, which
+        # Wikipedia renders via CSS pseudo-elements. Both paths (numblk in a
+        # ``div.equation-box`` and standalone numblk tables) route the number
+        # span through here, so this is the single unified fix point.
+        if self._is_equation_reference(ele):
+            prefix = f"{self._equation_reference_anchor(ele)}{prefix}"
+            self._wrap_bare_integer_number(ele)
+
         config = _HandlerConfig(prefix=prefix, suffix=suffix, full_result=False)
 
         def process(strings: str) -> str:
@@ -582,6 +609,54 @@ class WikiHtmlConverter:
         """Render <s> as strikethrough Markdown."""
         prefix, suffix = _tag_affixes("s")
         return _HandlerConfig(prefix=prefix, suffix=suffix)
+
+    @staticmethod
+    def _is_equation_reference(ele: Tag) -> bool:
+        """Detect a numblk equation-reference number span.
+
+        These carry an ``id`` of the form ``math_N`` / ``math_Eq.N`` and the
+        ``nourlexpansion`` / ``reference`` classes. The ``id`` is the anchor
+        target that prose links (``#math_N``) point at.
+        """
+        if not (ele_id := ele.get("id")):
+            return False
+        if not re.fullmatch(r"math[_.].+", str(ele_id)):
+            return False
+        classes = frozenset(ele.get_attribute_list("class"))
+        return bool(classes & {"nourlexpansion", "reference"})
+
+    def _equation_reference_anchor(self, ele: Tag) -> str:
+        """Build the Markdown ``<a id>`` anchor for an equation reference.
+
+        The anchor id must match the fragment used by prose links. A bare
+        ``math_1`` is referenced raw (``#math_1``), while a dotted
+        ``math_Eq.1`` is referenced via the normalized Wikipedia fragment
+        (``#math%20Eq.1``), so the id is normalized the same way
+        (underscores -> spaces) to keep the two in sync.
+        """
+        ele_id = str(ele["id"])
+        if "." in ele_id:
+            anchor_id = _fix_name_maybe(
+                ele_id, replace_underscores=True, names_map=self._names_map
+            )
+        else:
+            anchor_id = ele_id
+        return f'<a id="{anchor_id}"></a> '
+
+    @staticmethod
+    def _wrap_bare_integer_number(ele: Tag) -> None:
+        """Wrap a bare-integer equation number in parentheses in place.
+
+        Wikipedia renders the surrounding parentheses via CSS
+        pseudo-elements; the converter must materialize them. Labels such as
+        ``Eq.1`` and the ``numblk-raw-n`` opt-out class are left untouched.
+        """
+        if "numblk-raw-n" in frozenset(ele.get_attribute_list("class")):
+            return
+        text = ele.get_text(strip=True)
+        if re.fullmatch(r"\d+", text):
+            ele.clear()
+            ele.string = f"({text})"
 
     def _handle_sub(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render <sub> as subscript Markdown."""
@@ -715,6 +790,12 @@ class WikiHtmlConverter:
                 if align:
                     for cell in new_tr.find_all(_TD_OR_TH):
                         _set_text_align(cell, align)
+                # The equation-number cell is the last cell. Wikipedia bolds
+                # it *and* its inner reference span; drop the redundant
+                # cell-level bold so the number renders as a single
+                # ``__N__`` rather than ``____N____``.
+                if cells := tuple(new_tr.find_all(_TD_OR_TH)):
+                    _strip_cell_bold(cells[-1])
                 tbody.append(new_tr)
         else:
             # No numblk table: place the remaining content in a single
