@@ -1,0 +1,2153 @@
+{
+  "image_metadata": {
+    "File:WilliamRowanHamilton.jpeg": "Sir [William Rowan Hamilton](https://en.wikipedia.org/wiki/William_Rowan_Hamilton)",
+    "File:Commons-logo.svg": "The Wikimedia Commons logo, SVG version.",
+    "File:Stylised atom with three Bohr model orbits and stylised nucleus.svg": "Stylised atom. Blue dots are electrons, red dots are protons and black dots are neutrons.",
+    "File:Spherical pendulum Lagrangian mechanics.svg": "Spherical pendulum angles and velocities.",
+    "File:Symbol category class.svg": "Symbol for Category-Class on the English Wikipedia",
+    "File:OOjs UI icon edit-ltr-progressive.svg": "An icon from the OOjs UI MediaWiki lib."
+  },
+  "name_map_overrides": {},
+  "redirect_cache": {
+    "Fibre bundle": {
+      "to": "Fiber bundle",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Field theory (physics)": {
+      "to": "Field (physics)",
+      "tofragment": "Field theory",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Classical optics": {
+      "to": "Optics",
+      "tofragment": "Classical optics",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Canonical momenta": {
+      "to": "Canonical commutation relation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Topological field theory": {
+      "to": "Topological quantum field theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Poisson structure": {
+      "to": "Poisson manifold",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Inertia": {
+      "to": "Inertia",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Physics": {
+      "to": "Physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Particle physics": {
+      "to": "Particle physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Routhian mechanics": {
+      "to": "Routhian mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Quantum group": {
+      "to": "Quantum group",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Johannes Kepler": {
+      "to": "Johannes Kepler",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Angular displacement": {
+      "to": "Angular displacement",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Effective field theory": {
+      "to": "Effective field theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Supersymmetry algebra": {
+      "to": "Supersymmetry algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Solver": {
+      "to": "Solver",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Phase space coordinates (p, q) and Hamiltonian H": {
+      "to": "Edit section: Phase space coordinates (p, q) and Hamiltonian H",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "John von Neumann": {
+      "to": "John von Neumann",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Minimal coupling": {
+      "to": "Minimal coupling",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Chemical physics": {
+      "to": "Chemical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Paul Émile Appell": {
+      "to": "Paul Émile Appell",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Damping": {
+      "to": "Damping",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Tangent bundle": {
+      "to": "Tangent bundle",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Differential equation": {
+      "to": "Differential equation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Euler–Lagrange equation": {
+      "to": "Euler–Lagrange equation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Further reading": {
+      "to": "Edit section: Further reading",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Galileo Galilei": {
+      "to": "Galileo Galilei",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Probability theory": {
+      "to": "Probability theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Automated theorem proving": {
+      "to": "Automated theorem proving",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Joseph Liouville": {
+      "to": "Joseph Liouville",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Pierre-Simon Laplace": {
+      "to": "Pierre-Simon Laplace",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "D'Alembert's principle": {
+      "to": "D'Alembert's principle",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Lev Landau": {
+      "to": "Lev Landau",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Japan Society for Industrial and Applied Mathematics": {
+      "to": "Japan Society for Industrial and Applied Mathematics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Liouville–Arnold theorem": {
+      "to": "Liouville–Arnold theorem",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Rigid body dynamics": {
+      "to": "Rigid body dynamics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Rotation around a fixed axis": {
+      "to": "Rotation around a fixed axis",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Medical physics": {
+      "to": "Medical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Method of quantum characteristics": {
+      "to": "Method of quantum characteristics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mathematical and theoretical biology": {
+      "to": "Mathematical and theoretical biology",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Jet bundle": {
+      "to": "Jet bundle",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Fictitious force": {
+      "to": "Fictitious force",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Atomic physics": {
+      "to": "Atomic physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Crystallography": {
+      "to": "Crystallography",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Deriving Hamilton's equations": {
+      "to": "Edit section: Deriving Hamilton's equations",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Impulse (physics)": {
+      "to": "Impulse (physics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Symplectic vector field": {
+      "to": "Symplectic vector field",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "International Council for Industrial and Applied Mathematics": {
+      "to": "International Council for Industrial and Applied Mathematics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Hamiltonian vector field": {
+      "to": "Hamiltonian vector field",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Canonical coordinates": {
+      "to": "Canonical coordinates",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "U(1)": {
+      "to": "Unitary group",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Sir William Rowan Hamilton": {
+      "to": "William Rowan Hamilton",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Exterior calculus": {
+      "to": "Differential form",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "SI Units": {
+      "to": "International System of Units",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Symplectic structure": {
+      "to": "Symplectic geometry",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Wigner quasi-probability distribution": {
+      "to": "Wigner quasiprobability distribution",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mechanical power (physics)": {
+      "to": "Power (physics)",
+      "tofragment": "Mechanical power",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mathematics": {
+      "to": "Mathematics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Dynamical systems theory": {
+      "to": "Dynamical systems theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Geometric calculus": {
+      "to": "Geometric calculus",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Coriolis force": {
+      "to": "Coriolis force",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Materials science": {
+      "to": "Materials science",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "General relativity": {
+      "to": "General relativity",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Conservation of energy": {
+      "to": "Edit section: Conservation of energy",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mathematical physics": {
+      "to": "Mathematical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Hamiltonian fluid mechanics": {
+      "to": "Hamiltonian fluid mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Volume form": {
+      "to": "Volume form",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: References": {
+      "to": "Edit section: References",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Stochastic differential equation": {
+      "to": "Stochastic differential equation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Nuclear physics": {
+      "to": "Nuclear physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: External links": {
+      "to": "Edit section: External links",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Musical isomorphism": {
+      "to": "Musical isomorphism",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Gauge theory": {
+      "to": "Gauge theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Graph theory": {
+      "to": "Graph theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Quantum field theory": {
+      "to": "Quantum field theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Koopman–von Neumann classical mechanics": {
+      "to": "Koopman–von Neumann classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Inertial frame of reference": {
+      "to": "Inertial frame of reference",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Herbert Goldstein": {
+      "to": "Herbert Goldstein",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Christiaan Huygens": {
+      "to": "Christiaan Huygens",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Celestial mechanics": {
+      "to": "Celestial mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Azimuth": {
+      "to": "Azimuth",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Control theory": {
+      "to": "Control theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mathematical sociology": {
+      "to": "Mathematical sociology",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Atmospheric physics": {
+      "to": "Atmospheric physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Engineering physics": {
+      "to": "Engineering physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Metric tensor": {
+      "to": "Metric tensor",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Product rule": {
+      "to": "Product rule",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Vibration": {
+      "to": "Vibration",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Hamiltonian (quantum mechanics)": {
+      "to": "Hamiltonian (quantum mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Hamiltonian field theory": {
+      "to": "Hamiltonian field theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Angular acceleration": {
+      "to": "Angular acceleration",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Work (physics)": {
+      "to": "Work (physics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Numerical analysis": {
+      "to": "Numerical analysis",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Darboux's theorem": {
+      "to": "Darboux's theorem",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Tangent space": {
+      "to": "Tangent space",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Canonical transformation": {
+      "to": "Canonical transformation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Numerical linear algebra": {
+      "to": "Numerical linear algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Dynamical system": {
+      "to": "Dynamical system",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Alexandre Mikhailovich Vinogradov": {
+      "to": "Alexandre Mikhailovich Vinogradov",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "List of mathematics topics": {
+      "to": "Lists of mathematics topics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Jean le Rond d'Alembert": {
+      "to": "Jean Le Rond d'Alembert",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Phase space formulation": {
+      "to": "Phase-space formulation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Hamiltonian of a charged particle in an electromagnetic field": {
+      "to": "Edit section: Hamiltonian of a charged particle in an electromagnetic field",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Potential energy": {
+      "to": "Potential energy",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Physical oceanography": {
+      "to": "Physical oceanography",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Hilbrand J. Groenewold": {
+      "to": "Hilbrand J. Groenewold",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Computational mathematics": {
+      "to": "Computational mathematics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Ralph Abraham (mathematician)": {
+      "to": "Ralph Abraham (mathematician)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Centrifugal force": {
+      "to": "Centrifugal force",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Jacobi identity": {
+      "to": "Jacobi identity",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Constraint programming": {
+      "to": "Constraint programming",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Centripetal force": {
+      "to": "Centripetal force",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Virtual work": {
+      "to": "Virtual work",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Angular momentum": {
+      "to": "Angular momentum",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Stochastic calculus": {
+      "to": "Stochastic calculus",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Perturbation theory": {
+      "to": "Perturbation theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Quantum mechanics": {
+      "to": "Quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Couple (mechanics)": {
+      "to": "Couple (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Course of Theoretical Physics": {
+      "to": "Course of Theoretical Physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "De Donder–Weyl theory": {
+      "to": "De Donder–Weyl theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Wigner–Weyl transform": {
+      "to": "Wigner–Weyl transform",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "The Unreasonable Effectiveness of Mathematics in the Natural Sciences": {
+      "to": "The Unreasonable Effectiveness of Mathematics in the Natural Sciences",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Timeline of fundamental physics discoveries": {
+      "to": "Timeline of fundamental physics discoveries",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Hamilton–Jacobi–Einstein equation": {
+      "to": "Hamilton–Jacobi–Einstein equation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Symplectic manifold": {
+      "to": "Symplectic manifold",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Symplectomorphism": {
+      "to": "Symplectomorphism",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Probability distribution": {
+      "to": "Probability distribution",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Modern physics": {
+      "to": "Modern physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Classical electromagnetism": {
+      "to": "Classical electromagnetism",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Relative velocity": {
+      "to": "Relative velocity",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: From symplectic geometry to Hamilton's equations": {
+      "to": "Edit section: From symplectic geometry to Hamilton's equations",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Multivariable calculus": {
+      "to": "Multivariable calculus",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Tensor software": {
+      "to": "Tensor software",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Kinetics (physics)": {
+      "to": "Kinetics (physics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Equations of motion": {
+      "to": "Equations of motion",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Numerical methods for partial differential equations": {
+      "to": "Numerical methods for partial differential equations",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Decision theory": {
+      "to": "Decision theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Energy": {
+      "to": "Energy",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Algebraic structure": {
+      "to": "Algebraic structure",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Partial differential equation": {
+      "to": "Partial differential equation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Classical physics": {
+      "to": "Classical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "History of physics": {
+      "to": "History of physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Alexis Clairaut": {
+      "to": "Alexis Clairaut",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Poisson bracket": {
+      "to": "Poisson bracket",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Vladimir Arnold": {
+      "to": "Vladimir Arnold",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Reaction (physics)": {
+      "to": "Reaction (physics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "State (functional analysis)": {
+      "to": "State (functional analysis)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Continuum mechanics": {
+      "to": "Continuum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Leonhard Euler": {
+      "to": "Leonhard Euler",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Natural isomorphism": {
+      "to": "Natural transformation",
+      "tofragment": "natural isomorphism",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Tensor calculus": {
+      "to": "Ricci calculus",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Nambu dynamics": {
+      "to": "Nambu mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Hamiltonian flow": {
+      "to": "Hamiltonian vector field",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Linear isomorphism": {
+      "to": "Linear map",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Scleronomic": {
+      "to": "Scleronomous",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Classical Mechanics (book)": {
+      "to": "Classical Mechanics (Goldstein)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Rayleigh dissipation function": {
+      "to": "Rayleigh dissipation function",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Clifford analysis": {
+      "to": "Clifford analysis",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Poisson algebra": {
+      "to": "Poisson algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mass": {
+      "to": "Mass",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Hamiltonian as the total system energy": {
+      "to": "Edit section: Hamiltonian as the total system energy",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Euler's equations (rigid body dynamics)": {
+      "to": "Euler's equations (rigid body dynamics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Proof": {
+      "to": "Edit section: Proof",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Electric potential": {
+      "to": "Electric potential",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Constraint satisfaction problem": {
+      "to": "Constraint satisfaction problem",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Discrete mathematics": {
+      "to": "Discrete mathematics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Associative algebra": {
+      "to": "Associative algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Exterior algebra": {
+      "to": "Exterior algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Gauge theory (mathematics)": {
+      "to": "Gauge theory (mathematics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: See also": {
+      "to": "Edit section: See also",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edmond Halley": {
+      "to": "Edmond Halley",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Geometric algebra": {
+      "to": "Geometric algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Kinematics": {
+      "to": "Kinematics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Quantum information science": {
+      "to": "Quantum information science",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "List of finite element software packages": {
+      "to": "List of finite element software packages",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Example": {
+      "to": "Edit section: Example",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Appell's equation of motion": {
+      "to": "Appell's equation of motion",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Geometry of Hamiltonian systems": {
+      "to": "Edit section: Geometry of Hamiltonian systems",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Riemannian manifold": {
+      "to": "Riemannian manifold",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Euler's laws of motion": {
+      "to": "Euler's laws of motion",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Displacement (geometry)": {
+      "to": "Displacement (geometry)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Computational statistics": {
+      "to": "Computational statistics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Pendulum (mechanics)": {
+      "to": "Pendulum (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Game theory": {
+      "to": "Game theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Properties of the Hamiltonian": {
+      "to": "Edit section: Properties of the Hamiltonian",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Special relativity": {
+      "to": "Special relativity",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Overview": {
+      "to": "Edit section: Overview",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Supersymmetric theory of stochastic dynamics": {
+      "to": "Supersymmetric theory of stochastic dynamics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Bilinear form": {
+      "to": "Bilinear form",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Rotating reference frame": {
+      "to": "Rotating reference frame",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Rotational frequency": {
+      "to": "Rotational frequency",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Nambu mechanics": {
+      "to": "Nambu mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Application to systems of point masses": {
+      "to": "Edit section: Application to systems of point masses",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Lagrangian mechanics": {
+      "to": "Lagrangian mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Condensed matter physics": {
+      "to": "Condensed matter physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Computational physics": {
+      "to": "Computational physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Physics education research": {
+      "to": "Physics education research",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Smooth function": {
+      "to": "Smoothness",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Symmetry transformation": {
+      "to": "Symmetry",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Smooth manifold": {
+      "to": "Differentiable manifold",
+      "tofragment": "Definition",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Harmonic analysis (mathematics)": {
+      "to": "Harmonic analysis",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "OCLC (identifier)": {
+      "to": "OCLC",
+      "tofragment": "Identifiers and linked data",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Path integral formulation": {
+      "to": "Path-integral formulation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Automata theory": {
+      "to": "Automata theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Philosophy of physics": {
+      "to": "Philosophy of physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Angular velocity": {
+      "to": "Angular velocity",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Non-inertial reference frame": {
+      "to": "Non-inertial reference frame",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Generalization to quantum mechanics through Poisson bracket": {
+      "to": "Edit section: Generalization to quantum mechanics through Poisson bracket",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Electric charge": {
+      "to": "Electric charge",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "List of arbitrary-precision arithmetic software": {
+      "to": "List of arbitrary-precision arithmetic software",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Functional integration": {
+      "to": "Functional integration",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Logic in computer science": {
+      "to": "Logic in computer science",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Linear motion": {
+      "to": "Linear motion",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "List of statistical software": {
+      "to": "List of statistical software",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Moment (physics)": {
+      "to": "Moment (physics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Jerrold E. Marsden": {
+      "to": "Jerrold E. Marsden",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Differential form": {
+      "to": "Differential form",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Classical field theory": {
+      "to": "Classical field theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Particle physics and representation theory": {
+      "to": "Particle physics and representation theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Stochastic process": {
+      "to": "Stochastic process",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Physics education": {
+      "to": "Physics education",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Perturbation theory (quantum mechanics)": {
+      "to": "Perturbation theory (quantum mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Carl Gustav Jacob Jacobi": {
+      "to": "Carl Gustav Jacob Jacobi",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Algorithm": {
+      "to": "Algorithm",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Social choice theory": {
+      "to": "Social choice theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Bosonic string theory": {
+      "to": "Bosonic string theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Motion": {
+      "to": "Motion",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Geodesic": {
+      "to": "Geodesic",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Siméon Denis Poisson": {
+      "to": "Siméon Denis Poisson",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Jeremiah Horrocks": {
+      "to": "Jeremiah Horrocks",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "List of numerical libraries": {
+      "to": "List of numerical libraries",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Topological string theory": {
+      "to": "Topological string theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Spherical pendulum": {
+      "to": "Spherical pendulum",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Applied physics": {
+      "to": "Applied physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Momentum": {
+      "to": "Momentum",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Outline of astrophysics": {
+      "to": "Outline of astrophysics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Biophysics": {
+      "to": "Biophysics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Chain rule": {
+      "to": "Chain rule",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Solid-state physics": {
+      "to": "Solid-state physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Tautological one-form": {
+      "to": "Tautological one-form",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Discrete geometry": {
+      "to": "Discrete geometry",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Hamiltonian optics": {
+      "to": "Hamiltonian optics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Augustin-Louis Cauchy": {
+      "to": "Augustin-Louis Cauchy",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Topological space": {
+      "to": "Topological space",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Sphere": {
+      "to": "Sphere",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Lorentz force": {
+      "to": "Lorentz force",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Speed": {
+      "to": "Speed",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Cartesian coordinates": {
+      "to": "Cartesian coordinate system",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Commutative": {
+      "to": "Commutative property",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "2-form": {
+      "to": "Differential form",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Continuity (topology)": {
+      "to": "Continuous function",
+      "tofragment": "Continuous functions between topological spaces",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Topic outline of mathematics": {
+      "to": "Mathematics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Linear functional": {
+      "to": "Linear form",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Symplectic reduction": {
+      "to": "Momentum map",
+      "tofragment": "Symplectic quotients",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Legendre transform": {
+      "to": "Legendre transformation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Chow–Rashevskii theorem": {
+      "to": "Chow–Rashevsky theorem",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "William Rowan Hamilton": {
+      "to": "William Rowan Hamilton",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mathematical psychology": {
+      "to": "Mathematical psychology",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Statistics": {
+      "to": "Statistics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Isaac Newton": {
+      "to": "Isaac Newton",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Multilinear algebra": {
+      "to": "Multilinear algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Homogeneous function": {
+      "to": "Homogeneous function",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Rank (linear algebra)": {
+      "to": "Rank (linear algebra)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Computational group theory": {
+      "to": "Computational group theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Random variable": {
+      "to": "Random variable",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Symplectic geometry": {
+      "to": "Symplectic geometry",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Poisson algebras": {
+      "to": "Edit section: Poisson algebras",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "James Binney": {
+      "to": "James Binney",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Geometric analysis": {
+      "to": "Geometric analysis",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Gravity": {
+      "to": "Gravity",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "On shell and off shell": {
+      "to": "On shell and off shell",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Information theory": {
+      "to": "Information theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Société de Mathématiques Appliquées et Industrielles": {
+      "to": "Société de Mathématiques Appliquées et Industrielles",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Computational number theory": {
+      "to": "Computational number theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Supersymmetric quantum mechanics": {
+      "to": "Supersymmetric quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "List of optimization software": {
+      "to": "List of optimization software",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Supersymmetry": {
+      "to": "Supersymmetry",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Coding theory": {
+      "to": "Coding theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Reactive centrifugal force": {
+      "to": "Reactive centrifugal force",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Cryptography": {
+      "to": "Cryptography",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Statics": {
+      "to": "Statics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Homotopy": {
+      "to": "Homotopy",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Potential theory": {
+      "to": "Potential theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Kinetic energy": {
+      "to": "Kinetic energy",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Simple harmonic motion": {
+      "to": "Simple harmonic motion",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mathematical software": {
+      "to": "Mathematical software",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mathematical chemistry": {
+      "to": "Mathematical chemistry",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Atomic, molecular, and optical physics": {
+      "to": "Atomic, molecular, and optical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Phase space": {
+      "to": "Phase space",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Computational geometry": {
+      "to": "Computational geometry",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Evgeny Lifshitz": {
+      "to": "Evgeny Lifshitz",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Analysis of algorithms": {
+      "to": "Analysis of algorithms",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Daniel Bernoulli": {
+      "to": "Daniel Bernoulli",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Legendre transformation": {
+      "to": "Legendre transformation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Superalgebra": {
+      "to": "Superalgebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "String theory": {
+      "to": "String theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Inner product": {
+      "to": "Inner product space",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Gauge transformation": {
+      "to": "Gauge fixing",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Spherical coordinates": {
+      "to": "Spherical coordinate system",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "KAM theorem": {
+      "to": "Kolmogorov–Arnold–Moser theorem",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "David Tong (mathematician)": {
+      "to": "David Tong (physicist)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Moment of inertia": {
+      "to": "Moment of inertia",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "University of Oxford": {
+      "to": "University of Oxford",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "University of Cambridge": {
+      "to": "University of Cambridge",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Branches of physics": {
+      "to": "Branches of physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: From stationary action principle to Hamilton's equations": {
+      "to": "Edit section: From stationary action principle to Hamilton's equations",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "List of numerical-analysis software": {
+      "to": "List of numerical-analysis software",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Clifford algebra": {
+      "to": "Clifford algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Molecular physics": {
+      "to": "Molecular physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Sub-Riemannian manifolds": {
+      "to": "Edit section: Sub-Riemannian manifolds",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Quadratic form": {
+      "to": "Quadratic form",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Newton's laws of motion": {
+      "to": "Newton's laws of motion",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Ordinary differential equation": {
+      "to": "Ordinary differential equation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Conformal field theory": {
+      "to": "Conformal field theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Conserved quantity": {
+      "to": "Conserved quantity",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Josiah Willard Gibbs": {
+      "to": "Josiah Willard Gibbs",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Pseudo-Riemannian manifold": {
+      "to": "Pseudo-Riemannian manifold",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Liouville's theorem (Hamiltonian)": {
+      "to": "Liouville's theorem (Hamiltonian)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Tensor": {
+      "to": "Tensor",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mathematical finance": {
+      "to": "Mathematical finance",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Calculus of variations": {
+      "to": "Calculus of variations",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "History of classical mechanics": {
+      "to": "History of classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Dynamics (mechanics)": {
+      "to": "Dynamics (mechanics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "List of textbooks on classical mechanics and quantum mechanics": {
+      "to": "List of textbooks on classical mechanics and quantum mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Topological group": {
+      "to": "Topological group",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Cotangent space": {
+      "to": "Cotangent space",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Hamiltonian system": {
+      "to": "Hamiltonian system",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Time": {
+      "to": "Time",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Geometrical optics": {
+      "to": "Geometrical optics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Classical mechanics": {
+      "to": "Classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Velocity": {
+      "to": "Velocity",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Angular frequency": {
+      "to": "Angular frequency",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Physical optics": {
+      "to": "Physical optics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Statistical mechanics": {
+      "to": "Statistical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Configuration space (physics)": {
+      "to": "Configuration space (physics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Experimental physics": {
+      "to": "Experimental physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Fourier analysis": {
+      "to": "Fourier analysis",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Real number": {
+      "to": "Real number",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Force": {
+      "to": "Force",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Acoustics": {
+      "to": "Acoustics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Friction": {
+      "to": "Friction",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Maxwell's equations": {
+      "to": "Maxwell's equations",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Theoretical physics": {
+      "to": "Theoretical physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Magnetic vector potential": {
+      "to": "Magnetic vector potential",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Applied mathematics": {
+      "to": "Applied mathematics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Malliavin calculus": {
+      "to": "Malliavin calculus",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Closed differential form": {
+      "to": "Closed and exact differential forms",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Total differential": {
+      "to": "Differential of a function",
+      "tofragment": "Differentials in several variables",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Second law of motion": {
+      "to": "Newton's laws of motion",
+      "tofragment": "Second law",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Algorithm design": {
+      "to": "Algorithm",
+      "tofragment": "Design",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Cyclic coordinate": {
+      "to": "Lagrangian mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Covariant Hamiltonian field theory": {
+      "to": "Hamiltonian field theory",
+      "tofragment": "Relativistic field theory",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Liouville integrability": {
+      "to": "Integrable system",
+      "tofragment": "Hamiltonian systems and Liouville integrability",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Hamilton's optico-mechanical analogy": {
+      "to": "Hamilton's optical-mechanical analogy",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Renormalization group": {
+      "to": "Renormalization group",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Moyal bracket": {
+      "to": "Moyal bracket",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Wave function": {
+      "to": "Wave function",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Astrophysics": {
+      "to": "Astrophysics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Statistical field theory": {
+      "to": "Statistical field theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Trinity College Dublin": {
+      "to": "Trinity College Dublin",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Scleronomous": {
+      "to": "Scleronomous",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Spacetime algebra": {
+      "to": "Spacetime algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Operations research": {
+      "to": "Operations research",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mathematical optimization": {
+      "to": "Mathematical optimization",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Approximation theory": {
+      "to": "Approximation theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Tangential speed": {
+      "to": "Tangential speed",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Geometric mechanics": {
+      "to": "Geometric mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Thermodynamics": {
+      "to": "Thermodynamics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Algebra of physical space": {
+      "to": "Algebra of physical space",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Rigid body": {
+      "to": "Rigid body",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Operator theory": {
+      "to": "Operator theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Hamilton–Jacobi equation": {
+      "to": "Hamilton–Jacobi equation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Non-equilibrium thermodynamics": {
+      "to": "Non-equilibrium thermodynamics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Frame of reference": {
+      "to": "Frame of reference",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Circular motion": {
+      "to": "Circular motion",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Nobel Prize in Physics": {
+      "to": "Nobel Prize in Physics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Applied mechanics": {
+      "to": "Applied mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Validated numerics": {
+      "to": "Validated numerics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Computer algebra": {
+      "to": "Computer algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Electromagnetic field": {
+      "to": "Electromagnetic field",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Timeline of classical mechanics": {
+      "to": "Timeline of classical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Space": {
+      "to": "Space",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Differential geometry": {
+      "to": "Differential geometry",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Sub-Riemannian manifold": {
+      "to": "Sub-Riemannian manifold",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Level set": {
+      "to": "Level set",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Fiber bundle": {
+      "to": "Fiber bundle",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Society for Industrial and Applied Mathematics": {
+      "to": "Society for Industrial and Applied Mathematics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edward Routh": {
+      "to": "Edward Routh",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Numerical methods for ordinary differential equations": {
+      "to": "Numerical methods for ordinary differential equations",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Functional analysis": {
+      "to": "Functional analysis",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Harmonic oscillator": {
+      "to": "Harmonic oscillator",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Optics": {
+      "to": "Optics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Acceleration": {
+      "to": "Acceleration",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Operator algebra": {
+      "to": "Operator algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Chaos theory": {
+      "to": "Chaos theory",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Geophysics": {
+      "to": "Geophysics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Geodesic flow": {
+      "to": "Geodesic",
+      "tofragment": "Flow",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Unital algebra": {
+      "to": "Algebra over a field",
+      "tofragment": "Unital algebra",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Nondegenerate form": {
+      "to": "Degenerate bilinear form",
+      "tofragment": "Nondegenerate forms",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "ISSN (identifier)": {
+      "to": "ISSN",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mathematical analysis": {
+      "to": "Mathematical analysis",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Gradient": {
+      "to": "Gradient",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Riemannian manifolds": {
+      "to": "Edit section: Riemannian manifolds",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Action (physics)": {
+      "to": "Action (physics)",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Pierre Louis Maupertuis": {
+      "to": "Pierre Louis Maupertuis",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: Basic physical interpretation": {
+      "to": "Edit section: Basic physical interpretation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Newton's law of universal gravitation": {
+      "to": "Newton's law of universal gravitation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Edit section: From Euler–Lagrange equation to Hamilton's equations": {
+      "to": "Edit section: From Euler–Lagrange equation to Hamilton's equations",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Torque": {
+      "to": "Torque",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Bernard Koopman": {
+      "to": "Bernard Koopman",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Schrödinger equation": {
+      "to": "Schrödinger equation",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Johann Bernoulli": {
+      "to": "Johann Bernoulli",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Combinatorics": {
+      "to": "Combinatorics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Proof assistant": {
+      "to": "Proof assistant",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Analytical mechanics": {
+      "to": "Analytical mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Lie algebra": {
+      "to": "Lie algebra",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "List of interactive geometry software": {
+      "to": "List of interactive geometry software",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Vector calculus": {
+      "to": "Vector calculus",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Basic research": {
+      "to": "Basic research",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Heisenberg group": {
+      "to": "Heisenberg group",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Joseph-Louis Lagrange": {
+      "to": "Joseph-Louis Lagrange",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Mathematical economics": {
+      "to": "Mathematical economics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Geodesics as Hamiltonian flows": {
+      "to": "Geodesics as Hamiltonian flows",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    },
+    "Relativistic mechanics": {
+      "to": "Relativistic mechanics",
+      "tofragment": "",
+      "cached_at": "2026-08-16T22:35:54.890474+00:00"
+    }
+  }
+}

@@ -24,14 +24,13 @@ from .ast_utils import (
 """Exported names from this module."""
 __all__ = ()
 
-
 """Regex for matching GFM table separator cells (e.g. ``---``, ``:--``, ``--:``,
 ``:-:``)."""
 _SEPARATOR_CELL_RE: Pattern[str] = compile(r":?-+:?")
 
 
 async def _find_child_exact(parent: Path, name: str) -> Path | None:
-    """Return the child entry only when its basename equals *name* exactly."""
+    """Return the child entry only when its basename equals _name_ exactly."""
     async for entry in parent.iterdir():
         if entry.name == name:
             return entry
@@ -39,7 +38,7 @@ async def _find_child_exact(parent: Path, name: str) -> Path | None:
 
 
 async def _unlink_case_colliding_symlinks(parent: Path, name: str) -> None:
-    """Remove symlink children that differ from *name* only by letter case."""
+    """Remove symlink children that differ from _name_ only by letter case."""
     name_lower = name.lower()
     async for entry in parent.iterdir():
         if entry.name != name and entry.name.lower() == name_lower:
@@ -88,7 +87,7 @@ async def _symlink_to_idempotent(
     *,
     target_is_directory: bool = False,
 ) -> None:
-    """Create *path* → *target* unless an equivalent symlink already exists.
+    """Create _path_ → _target_ unless an equivalent symlink already exists.
 
       Concurrent converters may race to create the same redirect symlink; treat
     a matching existing symlink as success and re-raise only on conflict.
@@ -182,7 +181,7 @@ def _fix_filename(name: str) -> str:
 
 
 def _strip_url_query(url: URL) -> URL:
-    """Return *url* with its query string and fragment removed."""
+    """Return _url_ with its query string and fragment removed."""
     return url.with_query(None).with_fragment(None)
 
 
@@ -207,12 +206,14 @@ def _get_image_filename(ele: Tag) -> str | None:
     return None
 
 
+def _encode_fragment(fragment: str) -> str:
+    """Encode a plain-text fragment for a link target (no ``#`` prefix)."""
+    return fragment.replace(":", "").replace(" ", "%20").replace("/", "%2F")
+
+
 def _markdown_fragment(fragment: str) -> str:
     """Return a URL fragment string suitable for a Markdown link anchor."""
-    return (
-        fragment
-        and f"#{fragment.replace(':', '').replace(' ', '%20').replace('/', '%2F')}"
-    )
+    return fragment and f"#{_encode_fragment(fragment)}"
 
 
 def _markdown_link_target(page: str, fragment: str = "") -> str:
@@ -226,7 +227,7 @@ def _tag_affixes(name: str) -> tuple[str, str]:
 
 
 def _balance_brackets(text: str) -> str:
-    """Escape unbalanced ``[`` and ``]`` in *text*.
+    """Escape unbalanced ``[`` and ``]`` in _text_.
 
     Uses a two-pass stack algorithm:
     - Pass 1: scan left-to-right, track unmatched ``[`` positions on a stack.
@@ -406,13 +407,62 @@ def _reformat_table_block(block: list[str]) -> list[str]:
     return result
 
 
+# Matches a leading blockquote prefix (one or more ``>`` markers, each
+# followed by whitespace).  Used to align pipe tables that live inside
+# blockquotes, which mistune's AST parser does not surface as ``table``
+# tokens (so the main mistune-based pass skips them).
+_BLOCKQUOTE_PREFIX_RE = re.compile(r"^(>\s+)+")
+
+
+def _reformat_blockquoted_tables(text: str) -> str:
+    """Align pipe tables nested inside blockquotes.
+
+    mistune does not emit ``table`` tokens for ``> ``-prefixed rows, so the
+    main mistune-based pass in ``_reformat_table`` never sees them.  This
+    line-based pass strips the blockquote prefix, reuses the single source
+    of alignment logic (``_reformat_table_block``), and re-prepends the
+    exact prefix so arbitrarily nested blockquotes (``> ``, ``> > ```, ...)
+    keep their markers.
+    """
+    lines = text.split("\n")
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        m = _BLOCKQUOTE_PREFIX_RE.match(line)
+        if m and line[m.end() :].startswith("|"):
+            # Begin a blockquoted table run: consecutive lines sharing the
+            # same prefix and starting with ``|`` after it.
+            prefix = m.group(0)
+            j = i
+            run: list[str] = []
+            while j < len(lines):
+                cur = lines[j]
+                cm = _BLOCKQUOTE_PREFIX_RE.match(cur)
+                if cm and cm.group(0) == prefix and cur[cm.end() :].startswith("|"):
+                    run.append(cur[cm.end() :])
+                    j += 1
+                else:
+                    break
+            reformatted = _reformat_table_block(run)
+            out.extend(prefix + r for r in reformatted)
+            i = j
+        else:
+            out.append(line)
+            i += 1
+    return "\n".join(out)
+
+
 def _reformat_table(text: str) -> str:
-    """Reformat all pipe-table blocks in *text* with columns padded to the
+    """Reformat all pipe-table blocks in _text_ with columns padded to the
     widest cell per column.
 
     Uses ``_find_table_blocks`` (mistune AST) to locate table boundaries,
-    then ``_reformat_table_block`` for formatting.
+    then ``_reformat_table_block`` for formatting.  Blockquoted tables are
+    aligned first via ``_reformat_blockquoted_tables`` because mistune does
+    not surface them as ``table`` tokens.
     """
+    text = _reformat_blockquoted_tables(text)
     table_blocks = _find_table_blocks(text)
     if not table_blocks:
         return text

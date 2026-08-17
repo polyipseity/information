@@ -248,7 +248,9 @@ __Anti-pattern:__ do NOT grep/sed/readlink the note to enumerate occurrences of 
 
 `--mapping` and `--mapping-file` are mutually exclusive. At least one of `--mapping`, `--mapping-file`, or `--article` is required.
 
-`--reprocess` updates `name_map.jsonc`, reconciles redirect symlinks as-if the mappings existed at ingestion, and rewrites markdown link targets and section headers at all levels (`#`-`######`) — it does __not__ re-fetch Wikipedia HTML and is not a substitute for Step 3. Merge precedence: `effective_map = base_names_map | cli_pairs` (inline `--mapping`) or `base_names_map | file_mappings` (`--mapping-file`).
+`--reprocess` updates `name_map.jsonc`, reconciles redirect symlinks as-if the mappings existed at ingestion, and rewrites markdown link targets, link fragments (section anchors), and section headers at all levels (`#`-`######`) — it does __not__ re-fetch Wikipedia HTML and is not a substitute for Step 3. Merge precedence: `effective_map = base_names_map | cli_pairs` (inline `--mapping`) or `base_names_map | file_mappings` (`--mapping-file`).
+
+Rewriting uses the same name-map resolution for headings, link targets, and link fragments, so all three stay in sync. Headings and link fragments are rewritten through their plain-text projection, which means a heading or anchor interrupted by inline markup (emphasis, backslash escapes) is still corrected while the markup is preserved — e.g. `### Phase space coordinates \(_p_, _q_\) and Hamiltonian _H_` becomes `### phase space coordinates \(_p_, _q_\) and Hamiltonian _H_`, and a link `Legendre%20transformation.md#legendre%20transformation%20on%20manifolds` becomes `...#Legendre%20transformation%20on%20manifolds`.
 
 | Invariant | Rule |
 | --------- | ---- |
@@ -386,8 +388,11 @@ capitalisation like `Fourier...` → `fourier...`), and leaves mixed-case names 
 | `_handle_anchor` — `to_fragment` | `True`                | `#fragment` part of link                         |
 
 During `--reprocess`, the effective name_map is re-applied to every section header
-at all levels (`_rewrite_markdown_headings`) and to link targets, so capitalization
-fixes accepted in Step 5 propagate to already-ingested notes.
+at all levels (`_rewrite_markdown_headings`, `replace_underscores=False`), to every
+link target's stem (`_rewrite_link_target`, via stem migrations), and to every link
+fragment (`_rewrite_link_target`, `replace_underscores=True`), so capitalization
+fixes accepted in Step 5 propagate to already-ingested notes — including headings
+and anchors interrupted by inline markup.
 
 __Critical__: `title` and `to` are independent inputs — `title` is the `<a>` tag's
 `title` attribute, `to` is `redirect_map[title].to`. Both go through the same

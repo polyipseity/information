@@ -118,6 +118,22 @@ def _set_text_align(cell: Tag, align: str) -> None:
     cell["style"] = f"{style}text-align: {align};"
 
 
+def _strip_cell_bold(cell: Tag) -> None:
+    """Remove ``font-weight: bold`` from *cell*'s style.
+
+    Wikipedia equation-number cells are bolded at the cell level *and* on the
+    inner reference span; the cell-level bold is redundant and would otherwise
+    double-wrap the number as ``____N____``. Drop it so only the span's bold
+    survives. The style attribute is removed entirely when emptied.
+    """
+    style = str(cell.get("style", ""))
+    stripped = _BOLD_FONT_STYLE_REGEX.sub("", style).strip().rstrip(";").strip()
+    if stripped:
+        cell["style"] = stripped
+    else:
+        cell.attrs.pop("style", None)
+
+
 class WikiHtmlConverter:
     """Converts Wikipedia HTML elements to Markdown text.
 
@@ -182,6 +198,12 @@ class WikiHtmlConverter:
         if isinstance(ele, Tag):
             for style_tag in ele.find_all("style"):
                 style_tag.decompose()
+            # Drop CS1-maintenance citation-comment spans — these are
+            # citation-metadata noise (e.g. "CS1 maint: multiple names"),
+            # not article content, and their literal "link" text fails
+            # descriptive-link-text linting.
+            for cs1_maint in ele.find_all("span", class_="cs1-maint"):
+                cs1_maint.decompose()
 
         if not isinstance(ele, Tag):
             if (
@@ -290,7 +312,18 @@ class WikiHtmlConverter:
             _BLOCKQUOTE_CLASSES & classes
             and self._find_box_title(ele, has_numblk=False) is not None
         )
-        if (
+        if "sistersitebox" in classes:
+            original_process = process_strings
+
+            def process_strings_sistersitebox(strings: str) -> str:
+                """Collapse sistersitebox image + text onto one blockquote line."""
+                strings = original_process(strings)
+                collapsed = " ".join(strings.split())
+                return f"> {collapsed}"
+
+            config.suffix = "\n\n"
+            process_strings = process_strings_sistersitebox
+        elif (
             ele.name == "figure"
             or _BLOCKQUOTE_CLASSES & classes
             or has_thumb_with_caption
@@ -550,6 +583,17 @@ class WikiHtmlConverter:
         if self._needs_separator_after(self._effective_sibling(ele, following=True)):
             suffix += _cfg._MARKDOWN_SEPARATOR
 
+        # Equation-reference numbers (the ``math_N`` / ``math_Eq.N`` spans
+        # inside numblk tables) need two fixes that the generic handler
+        # misses: (1) an ``<a id>`` anchor so prose links to the equation
+        # resolve, and (2) parentheses around bare-integer numbers, which
+        # Wikipedia renders via CSS pseudo-elements. Both paths (numblk in a
+        # ``div.equation-box`` and standalone numblk tables) route the number
+        # span through here, so this is the single unified fix point.
+        if self._is_equation_reference(ele):
+            prefix = f"{self._equation_reference_anchor(ele)}{prefix}"
+            self._wrap_bare_integer_number(ele)
+
         config = _HandlerConfig(prefix=prefix, suffix=suffix, full_result=False)
 
         def process(strings: str) -> str:
@@ -576,6 +620,54 @@ class WikiHtmlConverter:
         """Render <s> as strikethrough Markdown."""
         prefix, suffix = _tag_affixes("s")
         return _HandlerConfig(prefix=prefix, suffix=suffix)
+
+    @staticmethod
+    def _is_equation_reference(ele: Tag) -> bool:
+        """Detect a numblk equation-reference number span.
+
+        These carry an ``id`` of the form ``math_N`` / ``math_Eq.N`` and the
+        ``nourlexpansion`` / ``reference`` classes. The ``id`` is the anchor
+        target that prose links (``#math_N``) point at.
+        """
+        if not (ele_id := ele.get("id")):
+            return False
+        if not re.fullmatch(r"math[_.].+", str(ele_id)):
+            return False
+        classes = frozenset(ele.get_attribute_list("class"))
+        return bool(classes & {"nourlexpansion", "reference"})
+
+    def _equation_reference_anchor(self, ele: Tag) -> str:
+        """Build the Markdown ``<a id>`` anchor for an equation reference.
+
+        The anchor id must match the fragment used by prose links. A bare
+        ``math_1`` is referenced raw (``#math_1``), while a dotted
+        ``math_Eq.1`` is referenced via the normalized Wikipedia fragment
+        (``#math%20Eq.1``), so the id is normalized the same way
+        (underscores -> spaces) to keep the two in sync.
+        """
+        ele_id = str(ele["id"])
+        if "." in ele_id:
+            anchor_id = _fix_name_maybe(
+                ele_id, replace_underscores=True, names_map=self._names_map
+            )
+        else:
+            anchor_id = ele_id
+        return f'<a id="{anchor_id}"></a> '
+
+    @staticmethod
+    def _wrap_bare_integer_number(ele: Tag) -> None:
+        """Wrap a bare-integer equation number in parentheses in place.
+
+        Wikipedia renders the surrounding parentheses via CSS
+        pseudo-elements; the converter must materialize them. Labels such as
+        ``Eq.1`` and the ``numblk-raw-n`` opt-out class are left untouched.
+        """
+        if "numblk-raw-n" in frozenset(ele.get_attribute_list("class")):
+            return
+        text = ele.get_text(strip=True)
+        if re.fullmatch(r"\d+", text):
+            ele.clear()
+            ele.string = f"({text})"
 
     def _handle_sub(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render <sub> as subscript Markdown."""
@@ -653,6 +745,12 @@ class WikiHtmlConverter:
             # ``> `` line (blank ``> `` separation from following siblings),
             # e.g. multi-image ``tmulti`` thumbnails with per-image captions.
             return _HandlerConfig(suffix="\n\n")
+        if "sidebar-caption" in classes and self._in_table_cell(ele):
+            # Inside an infobox/sidebar cell, the caption follows the image
+            # or math on the same cell line; separate it with a ``<p>``
+            # marker (the cell-internal separator convention) rather than a
+            # block break.
+            return _HandlerConfig(prefix=" <p> ")
         if "equation-box" not in classes:
             return self._handle_block_level(ele, classes)
 
@@ -709,6 +807,12 @@ class WikiHtmlConverter:
                 if align:
                     for cell in new_tr.find_all(_TD_OR_TH):
                         _set_text_align(cell, align)
+                # The equation-number cell is the last cell. Wikipedia bolds
+                # it *and* its inner reference span; drop the redundant
+                # cell-level bold so the number renders as a single
+                # ``__N__`` rather than ``____N____``.
+                if cells := tuple(new_tr.find_all(_TD_OR_TH)):
+                    _strip_cell_bold(cells[-1])
                 tbody.append(new_tr)
         else:
             # No numblk table: place the remaining content in a single
@@ -1185,7 +1289,16 @@ class WikiHtmlConverter:
                     suffix=li_suffix,
                     process_strings=process,
                 )
-            return _HandlerConfig(prefix=prefix, suffix=li_suffix)
+
+            def process(strings: str) -> str:
+                """Strip leading formatting whitespace from list text."""
+                return strings.lstrip("\t\n\r\x0b\x0c \xa0")
+
+            return _HandlerConfig(
+                prefix=prefix,
+                suffix=li_suffix,
+                process_strings=process,
+            )
         else:
 
             def process(strings: str) -> str:
@@ -1206,8 +1319,65 @@ class WikiHtmlConverter:
             prefix = f'<a id="{ele_id}"></a> '
         return _HandlerConfig(prefix=prefix)
 
+    @staticmethod
+    def _is_in_equation_box(ele: Tag) -> bool:
+        """Return True if *ele* is nested inside a ``div.equation-box``."""
+        parent = ele.parent
+        while isinstance(parent, Tag):
+            if parent.name == "div" and "equation-box" in parent.get_attribute_list(
+                "class"
+            ):
+                return True
+            parent = parent.parent
+        return False
+
     def _handle_table(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
-        """Handle <table> elements, integrating caption as a header row."""
+        """Handle <table> elements, integrating caption as a header row.
+
+        A standalone ``numblk`` table (a sibling of an equation-box div, not
+        a descendant) is rendered as a two-column equation table: an empty
+        header row plus an alignment marker row, so its equation/number body
+        row aligns like a numblk nested inside an equation-box div.  This
+        mirrors the header+alignment layout that ``_handle_div`` builds for
+        the nested case.
+        """
+        if "numblk" in classes and not WikiHtmlConverter._is_in_equation_box(ele):
+            align = ""
+            box = ele.find_previous("div", class_="equation-box")
+            if isinstance(box, Tag) and (
+                m := _TEXT_ALIGN_REGEX.search(str(box.get("style", "")))
+            ):
+                align = m[1]
+
+            # Drop empty spacer cells (no text and no explicit width:0px style).
+            for tdh in tuple(ele.find_all(_TD_OR_TH)):
+                if not tdh.get_text(strip=True) and not re.search(
+                    r"width\s*:\s*0", str(tdh.get("style", "")), re.IGNORECASE
+                ):
+                    tdh.decompose()
+
+            tbody = ele.find("tbody") or ele
+            header_row = self._soup.new_tag("tr")
+            th1 = self._soup.new_tag("th")
+            th2 = self._soup.new_tag("th")
+            if align:
+                _set_text_align(th1, align)
+                _set_text_align(th2, align)
+            header_row.append(th1)
+            header_row.append(th2)
+            tbody.insert(0, header_row)
+
+            if align:
+                for tr in tbody.find_all("tr"):
+                    if tr is header_row:
+                        continue
+                    for cell in tr.find_all(_TD_OR_TH):
+                        _set_text_align(cell, align)
+                    if cells := tuple(tr.find_all(_TD_OR_TH)):
+                        _strip_cell_bold(cells[-1])
+
+            return TableConverter.handle_table(ele, classes, self._soup)
+
         return TableConverter.handle_table(ele, classes, self._soup)
 
     def _handle_tbody(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:

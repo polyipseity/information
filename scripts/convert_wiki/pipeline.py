@@ -86,7 +86,10 @@ async def _create_session_and_run(
 
 
 def _determine_needs_before(
-    prev: dict[str, Any] | None, *, inline: bool = False
+    prev: dict[str, Any] | None,
+    *,
+    inline: bool = False,
+    separator_chars: str = _cfg._MARKDOWN_SEPARATOR_CHARACTERS,
 ) -> bool:
     """Return ``True`` if a space should be inserted before a math delimiter.
 
@@ -99,9 +102,11 @@ def _determine_needs_before(
 
     For inline math (``inline=True``), zero-width characters are stripped
     from the neighbor text first, then the text is tested against
-    ``_MARKDOWN_SEPARATOR_CHARACTERS`` (the same list and test as the
-    emphasis separator in ``converter._needs_separator_before``), so inline
-    math gets spacing guaranteed in exactly the same situations as emphasis.
+    ``separator_chars`` (the same list and test as the emphasis separator in
+    ``converter._needs_separator_before``, except inline math passes
+    ``_MATH_SEPARATOR_CHARACTERS`` so a straight apostrophe is not mistaken
+    for a separator), so inline math gets spacing guaranteed in exactly the
+    same situations as emphasis.
 
     Inline HTML siblings (e.g. ``<sub>``/``<sup>`` tags or the marker comment
     inserted by ``_separate_block_math``) do not create word adjacency, so
@@ -112,9 +117,7 @@ def _determine_needs_before(
     if prev["type"] == "text":
         if inline:
             stripped = _ZERO_WIDTH_CHARS_RE.sub("", prev["raw"])
-            return bool(stripped) and (
-                stripped.rstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == stripped
-            )
+            return bool(stripped) and (stripped.rstrip(separator_chars) == stripped)
         return bool(prev["raw"]) and not prev["raw"][-1].isspace()
     if inline and prev["type"] in ("softbreak", "linebreak"):
         # A line break is already whitespace separation.
@@ -127,7 +130,10 @@ def _determine_needs_before(
 
 
 def _determine_needs_after(
-    next_: dict[str, Any] | None, *, inline: bool = False
+    next_: dict[str, Any] | None,
+    *,
+    inline: bool = False,
+    separator_chars: str = _cfg._MARKDOWN_SEPARATOR_CHARACTERS,
 ) -> bool:
     """Return ``True`` if a space should be inserted after a math delimiter.
 
@@ -142,9 +148,7 @@ def _determine_needs_after(
     if next_["type"] == "text":
         if inline:
             stripped = _ZERO_WIDTH_CHARS_RE.sub("", next_["raw"])
-            return bool(stripped) and (
-                stripped.lstrip(_cfg._MARKDOWN_SEPARATOR_CHARACTERS) == stripped
-            )
+            return bool(stripped) and (stripped.lstrip(separator_chars) == stripped)
         return bool(next_["raw"]) and not next_["raw"][0].isspace()
     if inline and next_["type"] in ("softbreak", "linebreak"):
         # A line break is already whitespace separation.
@@ -229,8 +233,16 @@ def _collect_block_math_info(
             info.append(
                 (
                     token["raw"],
-                    _determine_needs_before(prev_sib, inline=is_inline),
-                    _determine_needs_after(next_sib, inline=is_inline),
+                    _determine_needs_before(
+                        prev_sib,
+                        inline=is_inline,
+                        separator_chars=_cfg._MATH_SEPARATOR_CHARACTERS,
+                    ),
+                    _determine_needs_after(
+                        next_sib,
+                        inline=is_inline,
+                        separator_chars=_cfg._MATH_SEPARATOR_CHARACTERS,
+                    ),
                     is_inline,
                 )
             )
@@ -242,15 +254,26 @@ def _collect_block_math_info(
 _IS_ATOMIC_INLINE_MATH_RE = re.compile(r"[^\s\\/()[\]{}^_|]+")
 
 
-def _inline_math_separator(raw: str) -> str:
+def _inline_math_separator(
+    raw: str, *, before_apostrophe: bool = False, after_apostrophe: bool = False
+) -> str:
     """Return the separator for an inline-math span.
 
     Atomic math (a single run of plain characters such as ``n``, ``x``, or a
     Greek letter) abutting a word gets the zero-width markdown separator
     marker; anything else (``\\frac``, ``1/|w|``, ``f(x)``, ``e^{...}``)
     keeps a normal space so the two sides do not visually collide.
+
+    A straight apostrophe is a word-forming character (possessive ``'s``), so
+    it must never be separated from the math by a space — when the neighbor on
+    either side is an apostrophe the zero-width marker is used regardless of
+    atomicity.
     """
-    if _IS_ATOMIC_INLINE_MATH_RE.fullmatch(raw):
+    if (
+        _IS_ATOMIC_INLINE_MATH_RE.fullmatch(raw)
+        or before_apostrophe
+        or after_apostrophe
+    ):
         return _cfg._MARKDOWN_SEPARATOR
     return " "
 
@@ -278,9 +301,9 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
 
     for entry in info:
         raw, needs_before, needs_after, is_inline = entry
-        separator = _inline_math_separator(raw) if is_inline else " "
         target = "$$" + raw + "$$"
         target_len = len(target)
+        separator = " "
 
         while pos < len(text):
             dollar_pos = text.find("$", pos)
@@ -326,6 +349,20 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
             else:
                 target_inline = "$" + raw + "$"
                 if text.startswith(target_inline, dollar_pos):
+                    if is_inline:
+                        before_apostrophe = (
+                            needs_before and pos > 0 and text[pos - 1] == "'"
+                        )
+                        after_apostrophe = (
+                            needs_after
+                            and dollar_pos + len(target_inline) < len(text)
+                            and text[dollar_pos + len(target_inline)] == "'"
+                        )
+                        separator = _inline_math_separator(
+                            raw,
+                            before_apostrophe=before_apostrophe,
+                            after_apostrophe=after_apostrophe,
+                        )
                     parts.append(text[pos:dollar_pos])
                     if needs_before:
                         parts.append(separator)
