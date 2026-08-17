@@ -312,7 +312,18 @@ class WikiHtmlConverter:
             _BLOCKQUOTE_CLASSES & classes
             and self._find_box_title(ele, has_numblk=False) is not None
         )
-        if (
+        if "sistersitebox" in classes:
+            original_process = process_strings
+
+            def process_strings_sistersitebox(strings: str) -> str:
+                """Collapse sistersitebox image + text onto one blockquote line."""
+                strings = original_process(strings)
+                collapsed = " ".join(strings.split())
+                return f"> {collapsed}"
+
+            config.suffix = "\n\n"
+            process_strings = process_strings_sistersitebox
+        elif (
             ele.name == "figure"
             or _BLOCKQUOTE_CLASSES & classes
             or has_thumb_with_caption
@@ -734,6 +745,12 @@ class WikiHtmlConverter:
             # ``> `` line (blank ``> `` separation from following siblings),
             # e.g. multi-image ``tmulti`` thumbnails with per-image captions.
             return _HandlerConfig(suffix="\n\n")
+        if "sidebar-caption" in classes and self._in_table_cell(ele):
+            # Inside an infobox/sidebar cell, the caption follows the image
+            # or math on the same cell line; separate it with a ``<p>``
+            # marker (the cell-internal separator convention) rather than a
+            # block break.
+            return _HandlerConfig(prefix=" <p> ")
         if "equation-box" not in classes:
             return self._handle_block_level(ele, classes)
 
