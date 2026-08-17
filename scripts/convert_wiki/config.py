@@ -122,6 +122,16 @@ _MARKDOWN_SEPARATOR_CHARACTERS = (
         ord("_"): "",
     }
 )
+"""
+Separator characters for math-delimiter spacing.  Same as
+``_MARKDOWN_SEPARATOR_CHARACTERS`` except the straight apostrophe (U+0027) is
+excluded: an apostrophe is a word-forming character (possessives,
+contractions) that must NOT be treated as an already-present separator next
+to a ``$`` delimiter, otherwise ``$a$'s`` fails to render.  The emphasis
+path keeps using ``_MARKDOWN_SEPARATOR_CHARACTERS`` so ``word'italic'`` is
+still not split.
+"""
+_MATH_SEPARATOR_CHARACTERS = _MARKDOWN_SEPARATOR_CHARACTERS.replace("'", "")
 "Constant mapping table column alignment specifiers to string justification methods."
 _JUSTIFY_MAP: dict[str, Callable[[str, int], str]] = {
     "---": str.ljust,  # No alignment specified (renderer default, typically left)

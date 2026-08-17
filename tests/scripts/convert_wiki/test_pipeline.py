@@ -22,7 +22,10 @@ from anyio import Path
 from bs4 import BeautifulSoup
 
 from scripts.convert_wiki.ast_utils import _MISTUNE_PARSER
-from scripts.convert_wiki.config import _UNICODE_SEPARATOR_CHARACTERS
+from scripts.convert_wiki.config import (
+    _MATH_SEPARATOR_CHARACTERS,
+    _UNICODE_SEPARATOR_CHARACTERS,
+)
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.pipeline import (
     _collect_block_math_info,
@@ -117,6 +120,31 @@ class TestDetermineNeedsBefore:
         """Previous sibling is non-text with empty raw → space needed."""
         assert _determine_needs_before({"type": "image", "raw": ""}) is True
 
+    def test_prev_text_ending_with_apostrophe_math_separator(self) -> None:
+        """Apostrophe is NOT a math separator → space needed before math.
+
+        With the default (emphasis) separator set the apostrophe is a
+        separator, but inline math passes ``_MATH_SEPARATOR_CHARACTERS`` which
+        excludes it, so ``$a$'s`` still gets spacing.
+        """
+        assert (
+            _determine_needs_before(
+                {"type": "text", "raw": "word'"},
+                inline=True,
+                separator_chars=_MATH_SEPARATOR_CHARACTERS,
+            )
+            is True
+        )
+        # The default (emphasis) separator set still treats apostrophe as a
+        # separator, so the same input needs no space there.
+        assert (
+            _determine_needs_before(
+                {"type": "text", "raw": "word'"},
+                inline=True,
+            )
+            is False
+        )
+
 
 class TestDetermineNeedsAfter:
     """Tests for ``_determine_needs_after`` spacing decisions.
@@ -156,6 +184,30 @@ class TestDetermineNeedsAfter:
     def test_next_non_text(self) -> None:
         """Next sibling is not a text node (e.g. emphasis) → space needed."""
         assert _determine_needs_after({"type": "code", "raw": "`code`"}) is True
+
+    def test_next_text_starting_with_apostrophe_math_separator(self) -> None:
+        """Apostrophe is NOT a math separator → space needed after math.
+
+        With the default (emphasis) separator set the apostrophe is a
+        separator, but inline math passes ``_MATH_SEPARATOR_CHARACTERS`` which
+        excludes it, so ``'s$a$`` still gets spacing.
+        """
+        assert (
+            _determine_needs_after(
+                {"type": "text", "raw": "'s"},
+                inline=True,
+                separator_chars=_MATH_SEPARATOR_CHARACTERS,
+            )
+            is True
+        )
+        assert (
+            _determine_needs_after(
+                {"type": "text", "raw": "'word"},
+                inline=True,
+                separator_chars=_MATH_SEPARATOR_CHARACTERS,
+            )
+            is True
+        )
 
 
 # =========================================================================
@@ -366,6 +418,27 @@ class TestInlineMathSpacing:
         assert (
             _separate_block_math("the $n$th derivative")
             == "the $n$<!-- markdown separator -->th derivative"
+        )
+
+    def test_apostrophe_suffix_gets_marker(self) -> None:
+        """``$a$'s`` possessive gets the zero-width marker, not a space.
+
+        The straight apostrophe is a word-forming character, so it must not
+        be treated as an already-present separator — otherwise the math
+        fails to render.
+        """
+        assert _separate_block_math("$a$'s") == "$a$<!-- markdown separator -->'s"
+        assert _separate_block_math("'s$a$") == "'s<!-- markdown separator -->$a$"
+
+    def test_complex_math_apostrophe_suffix_gets_marker(self) -> None:
+        """Complex math abutting an apostrophe gets the zero-width marker.
+
+        A straight apostrophe is word-forming (possessive ``'s``), so it must
+        not be separated from the math by a space regardless of atomicity.
+        """
+        assert (
+            _separate_block_math(r"$\frac{1}{2}$'s")
+            == r"$\frac{1}{2}$<!-- markdown separator -->'s"
         )
 
     def test_complex_math_word_abutting_keeps_space(self) -> None:

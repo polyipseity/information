@@ -883,3 +883,33 @@ class TestReformatTable:
         """Non-table pipe lines should pass through unchanged."""
         text = "| just a single pipe line"
         assert _mod._reformat_table(text) == text  # noqa: SLF001
+
+    def test_blockquoted_table_aligned(self) -> None:
+        """A single-level ``> ``-prefixed pipe table is padded to equal widths."""
+        text = "> | short | longcontent |\n> | --- | --- |\n> | a | b |"
+        result = _mod._reformat_table(text)  # noqa: SLF001
+        lines = result.split("\n")
+        # All three rows share identical pipe positions (true column alignment).
+        assert (
+            [p for p in range(len(lines[0])) if lines[0][p] == "|"]
+            == [p for p in range(len(lines[1])) if lines[1][p] == "|"]
+            == [p for p in range(len(lines[2])) if lines[2][p] == "|"]
+        )
+        # Column 2 is wider than column 1 (padded to widest content).
+        assert len(lines[0].split("|")[2]) > len(lines[0].split("|")[1])
+        # The ``> `` prefix is preserved on every row.
+        assert all(line.startswith("> ") for line in lines)
+
+    def test_nested_blockquoted_table_aligned(self) -> None:
+        """A nested ``> > ``-prefixed pipe table keeps its prefix and aligns."""
+        text = "> > | short | longcontent |\n> > | --- | --- |\n> > | a | b |"
+        result = _mod._reformat_table(text)  # noqa: SLF001
+        lines = result.split("\n")
+        assert (
+            [p for p in range(len(lines[0])) if lines[0][p] == "|"]
+            == [p for p in range(len(lines[1])) if lines[1][p] == "|"]
+            == [p for p in range(len(lines[2])) if lines[2][p] == "|"]
+        )
+        assert len(lines[0].split("|")[2]) > len(lines[0].split("|")[1])
+        # The full ``> > `` prefix is preserved on every row.
+        assert all(line.startswith("> > ") for line in lines)

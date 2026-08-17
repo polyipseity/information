@@ -1,5 +1,6 @@
 """Pure markdown rewriting for reprocess mode."""
 
+import difflib
 import re
 from collections.abc import Mapping, Sequence
 from typing import Any
@@ -11,7 +12,7 @@ from .ast_utils import (
     _find_link_destination_ranges,
     _walk_tokens,
 )
-from .utils import _fix_filename, _fix_name_maybe
+from .utils import _encode_fragment, _fix_filename, _fix_name_maybe
 
 """Exported names from this module."""
 __all__ = ()
@@ -35,23 +36,102 @@ def _decode_link_stem(target: str) -> tuple[str, str]:
     return stem, fragment
 
 
+def _resolve_plain_rewrite(
+    plain: str,
+    *,
+    names_map: Mapping[str, str],
+    migrations: Mapping[str, str] | None = None,
+    replace_underscores: bool = False,
+) -> str:
+    """Resolve a plain-text span via the name map, then stem migrations."""
+    new_plain = _fix_name_maybe(
+        plain,
+        replace_underscores=replace_underscores,
+        names_map=names_map,
+    )
+    if migrations is not None:
+        new_plain = migrations.get(new_plain, new_plain)
+    return new_plain
+
+
+def _align_plain_to_raw(raw: str, plain: str) -> list[int] | None:
+    """Greedily map each plain char to a raw index (subsequence alignment)."""
+    mapping: list[int] = []
+    search_from = 0
+    for char in plain:
+        idx = raw.find(char, search_from)
+        if idx < 0:
+            return None
+        mapping.append(idx)
+        search_from = idx + 1
+    return mapping
+
+
+def _rewrite_plain_span(raw: str, plain: str, new_plain: str) -> str:
+    """Rewrite _raw_ so its plain-text projection becomes _new_plain_.
+
+    Preserves inline markup (emphasis delimiters, backslash escapes) by
+    applying the diff between *plain* and *new_plain* at the aligned raw
+    positions. Returns *raw* unchanged when alignment fails.
+    """
+    if new_plain == plain:
+        return raw
+    if plain == raw:
+        return new_plain
+    mapping = _align_plain_to_raw(raw, plain)
+    if mapping is None:
+        return raw
+    rewritten = raw
+    for tag, i1, i2, j1, j2 in reversed(
+        difflib.SequenceMatcher(None, plain, new_plain, autojunk=False).get_opcodes()
+    ):
+        if tag == "equal":
+            continue
+        start = mapping[i1] if i1 < len(mapping) else len(raw)
+        end = mapping[i2 - 1] + 1 if i2 > 0 else start
+        rewritten = rewritten[:start] + new_plain[j1:j2] + rewritten[end:]
+    return rewritten
+
+
 def _rewrite_link_target(
     target: str,
     migrations: Mapping[str, str],
+    *,
+    names_map: Mapping[str, str] | None = None,
 ) -> str:
-    """Rewrite a single markdown link target using stem migrations."""
+    """Rewrite a single markdown link target using stem migrations.
+
+    When *names_map* is provided, the link fragment (section anchor) is
+    also re-cased through the name map so anchors interrupted by inline
+    markup or wrong casing are corrected, mirroring heading rewriting.
+    """
     stem, fragment = _decode_link_stem(target)
     new_stem = migrations.get(stem, stem)
     encoded = _encode_stem(new_stem)
+    if fragment and names_map is not None:
+        plain_fragment = unquote(fragment)
+        new_fragment = _resolve_plain_rewrite(
+            plain_fragment,
+            names_map=names_map,
+            replace_underscores=True,
+        )
+        if new_fragment != plain_fragment:
+            fragment = _encode_fragment(new_fragment)
     return f"{encoded}.md{f'#{fragment}' if fragment else ''}"
 
 
 def _rewrite_markdown_links(
     text: str,
     migrations: Mapping[str, str],
+    *,
+    names_map: Mapping[str, str] | None = None,
 ) -> str:
-    """Rewrite markdown ``.md`` link targets according to *migrations*."""
-    if not migrations:
+    """Rewrite markdown ``.md`` link targets according to _migrations_.
+
+    When *names_map* is provided, link fragments (section anchors) are
+    also re-cased through the name map, mirroring heading rewriting.
+    """
+    if not migrations and not names_map:
         return text
 
     parse_result, _state = _MISTUNE_PARSER.parse(text)
@@ -78,8 +158,8 @@ def _rewrite_markdown_links(
         url_index += 1
         if unquote(destination) != unquote(expected_url):
             continue
-        new_url = _rewrite_link_target(expected_url, migrations)
-        if unquote(new_url) != unquote(expected_url):
+        new_url = _rewrite_link_target(destination, migrations, names_map=names_map)
+        if unquote(new_url) != unquote(destination):
             edits.append((dest_start, dest_end, new_url))
 
     if not edits:
@@ -182,20 +262,20 @@ def _rewrite_markdown_headings(
         inner = match["inner"]
         children = token.get("children")
         plain = _heading_plain_text(children) if isinstance(children, list) else ""
-        if not plain or plain not in inner:
+        if not plain:
             continue
-        new_plain = _fix_name_maybe(
+        new_plain = _resolve_plain_rewrite(
             plain,
-            replace_underscores=False,
             names_map=names_map,
+            migrations=migrations,
+            replace_underscores=False,
         )
-        if migrations is not None:
-            new_plain = migrations.get(new_plain, new_plain)
         if new_plain == plain:
             continue
         inner_start = line_start + match.start("inner")
-        idx = inner.find(plain)
-        edits.append((inner_start + idx, inner_start + idx + len(plain), new_plain))
+        inner_end = line_start + match.end("inner")
+        rewritten_inner = _rewrite_plain_span(inner, plain, new_plain)
+        edits.append((inner_start, inner_end, rewritten_inner))
 
     if not edits:
         return text

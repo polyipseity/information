@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup, Tag
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.latex import LatexConverter
 from scripts.convert_wiki.types import _RedirectInfo
+from tests.scripts.test_convert_wiki import _assert_markdownlint_clean
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -1249,6 +1250,125 @@ class TestDivHandling:
         assert "\n> " not in result
 
     @pytest.mark.anyio
+    async def test_sibling_numblk_table_gets_header_and_alignment(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``numblk`` table that is a sibling of an ``equation-box`` div
+        (not a descendant) must still render a header row plus an alignment
+        marker row, with the box's alignment propagated to both columns.
+
+        This mirrors the layout ``_handle_div`` builds for the nested case,
+        so the equation/number body row aligns identically.
+        """
+        result = await _convert(
+            converter,
+            '<div class="math_proof">'
+            '<div class="equation-box" style="text-align: center; display: table;">'
+            "<p>E = mc<sup>2</sup></p></div>"
+            '<table class="numblk" style="margin-left: 1.6em"><tbody><tr>'
+            '<td class="nowrap">E = mc<sup>2</sup></td>'
+            "<td></td>"
+            '<td class="nowrap">'
+            '<span id="math_1" class="reference nourlexpansion" '
+            'style="font-weight: bold">1</span></td>'
+            "</tr></tbody></table></div>",
+        )
+        assert result == (
+            "> E = mc<sup>2</sup>\n"
+            "> | | |\n"
+            "> | :-: | :-: |\n"
+            '> | E = mc<sup>2</sup> | <a id="math_1"></a> __\\(1\\)__ |\n\n'
+        )
+
+    @pytest.mark.anyio
+    async def test_equation_box_numblk_number_cell_single_bold(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A numblk number cell whose ``<td>`` and inner span are both bold
+        must render as a single ``__Eq.1__``, never ``____Eq.1____``.
+
+        Wikipedia bolds the number cell and the inner reference span; the
+        redundant cell-level bold must be dropped so only the span's bold
+        remains.
+        """
+        result = await _convert(
+            converter,
+            '<div class="equation-box" style="text-align:center">'
+            "<b>Eq</b>"
+            '<table class="numblk"><tbody><tr>'
+            "<td>E = mc<sup>2</sup></td>"
+            '<td style="width: 0px"></td>'
+            '<td class="nowrap" style="font-weight: bold;">'
+            '<span id="math_Eq.1" class="reference nourlexpansion" '
+            'style="font-weight: bold">Eq.1</span>'
+            "</td>"
+            "</tr></tbody></table></div>",
+        )
+        assert "____Eq.1____" not in result
+        assert "__Eq.1__" in result
+
+    @pytest.mark.anyio
+    async def test_plain_bold_span_unaffected_by_numblk_fix(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A normal bold span outside a numblk cell stays single-bold."""
+        result = await _convert(converter, "<b>bold</b>")
+        assert result == "__bold__"
+
+    @pytest.mark.anyio
+    async def test_equation_reference_anchor_emitted(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Equation-reference spans must emit a Markdown ``<a id>`` anchor.
+
+        The anchor id matches the fragment used by prose links: a bare
+        ``math_1`` stays raw, while a dotted ``math_Eq.1`` is normalized the
+        same way Wikipedia link fragments are (underscores -> spaces).
+        """
+        raw = await _convert(
+            converter,
+            '<span id="math_1" class="reference nourlexpansion" '
+            'style="font-weight: bold">1</span>',
+        )
+        assert '<a id="math_1"></a>' in raw
+        dotted = await _convert(
+            converter,
+            '<span id="math_Eq.1" class="reference nourlexpansion" '
+            'style="font-weight: bold">Eq.1</span>',
+        )
+        assert '<a id="math Eq.1"></a>' in dotted
+
+    @pytest.mark.anyio
+    async def test_equation_reference_bare_integer_parenthesized(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A bare-integer equation number is wrapped in parentheses.
+
+        Wikipedia renders the parentheses via CSS pseudo-elements; the
+        converter must materialize them. Labels (``Eq.1``) and the
+        ``numblk-raw-n`` opt-out class are left untouched.
+        """
+        result = await _convert(
+            converter,
+            '<span id="math_1" class="reference nourlexpansion" '
+            'style="font-weight: bold">1</span>',
+        )
+        assert "\\(1\\)" in result
+        labelled = await _convert(
+            converter,
+            '<span id="math_Eq.1" class="reference nourlexpansion" '
+            'style="font-weight: bold">Eq.1</span>',
+        )
+        assert "Eq.1" in labelled
+        assert "\\(Eq.1\\)" not in labelled
+        raw_n = await _convert(
+            converter,
+            '<span id="math_2" class="reference nourlexpansion numblk-raw-n" '
+            'style="font-weight: bold">2</span>',
+        )
+        assert "\\(2\\)" not in raw_n
+
+    @pytest.mark.anyio
     async def test_blockquote_title_on_own_line(
         self, converter: WikiHtmlConverter
     ) -> None:
@@ -1682,3 +1802,78 @@ class TestDispatchEdgeCases:
         result = await _convert(converter, html)
         # Should contain the inner content.
         assert "content" in result
+
+
+# ---------------------------------------------------------------------------
+
+# Regression tests for generalized snapshot fixes
+
+# ---------------------------------------------------------------------------
+
+
+@pytest.mark.anyio
+async def test_sidebar_caption_emits_p_separator(
+    converter: WikiHtmlConverter, tmp_path: PathLike[str]
+) -> None:
+    """A ``sidebar-caption`` div inside a table cell is separated from the
+    preceding math by a ``<p>`` cell separator, not a block break.
+
+    Regression for the ``Hamiltonian mechanics`` / ``Lagrangian mechanics``
+    infobox sidebar caption formatting change.
+    """
+    html = (
+        '<table class="infobox"><tbody><tr>'
+        '<td class="sidebar-image">'
+        + _inline_math_span(r"\mathbf{F} = \frac{d\mathbf{p}}{dt}")
+        + '<div class="sidebar-caption">'
+        '<a href="/wiki/Second_law_of_motion">Second law of motion</a>'
+        "</div>"
+        "</td>"
+        "</tr></tbody></table>"
+    )
+    result = await _convert(converter, html)
+    assert " <p> [Second law of motion](/wiki/Second_law_of_motion)" in result
+    # Mirror the snapshot harness: pipeline output is stripped and ends
+    # with a single trailing newline before linting.
+    await _assert_markdownlint_clean(result.strip() + "\n", AnyioPath(tmp_path))
+
+
+@pytest.mark.anyio
+async def test_sistersitebox_renders_single_blockquote_line(
+    converter: WikiHtmlConverter, tmp_path: PathLike[str]
+) -> None:
+    """A Wikimedia Commons ``sistersitebox`` renders as a single blockquote
+    line joining the logo image and the related-media text.
+
+    Regression for the ``Hamiltonian mechanics`` / ``Lagrangian mechanics``
+    sistersitebox formatting change.
+    """
+    html = (
+        '<div class="side-box side-box-right plainlinks sistersitebox">'
+        '<div class="side-box-flex">'
+        '<div class="side-box-image">'
+        '<span class="noviewer" typeof="mw:File">'
+        '<a href="/wiki/File:Commons-logo.svg" class="mw-file-description">'
+        '<img alt="Wikimedia Commons logo" src="//upload.wikimedia.org/wikipedia/'
+        'en/thumb/4/4a/Commons-logo.svg/40px-Commons-logo.svg.png"/>'
+        "</a></span></div>"
+        '<div class="side-box-text plainlist">'
+        "Wikimedia Commons has media related to "
+        '<a href="https://commons.wikimedia.org/wiki/Category:Hamiltonian_mechanics" '
+        'class="extiw" title="commons:Category:Hamiltonian mechanics">'
+        '<span style="font-style:italic; font-weight:bold;">'
+        "Hamiltonian mechanics</span></a>."
+        "</div></div></div>"
+    )
+    result = await _convert(converter, html)
+    expected = (
+        "> ![Wikimedia Commons logo]"
+        "(../../archives/Wikimedia%20Commons/Commons-logo.svg) "
+        "Wikimedia Commons has media related to "
+        "[___Hamiltonian mechanics___]"
+        "(https://commons.wikimedia.org/wiki/Category%3AHamiltonian%20mechanics)."
+    )
+    assert result.strip() == expected
+    # Mirror the snapshot harness: pipeline output is stripped and ends
+    # with a single trailing newline before linting.
+    await _assert_markdownlint_clean(result.strip() + "\n", AnyioPath(tmp_path))

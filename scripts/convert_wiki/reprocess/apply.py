@@ -132,7 +132,9 @@ def _compute_rewrites(
     """Compute rewritten text for targets whose content actually changes."""
     rewrites: dict[str, str] = {}
     for target, original in sources.items():
-        rewritten = _rewrite_markdown_links(original, migrations)
+        rewritten = _rewrite_markdown_links(
+            original, migrations, names_map=plan.effective_map
+        )
         heading = plan.heading_updates.get(target)
         if heading is not None:
             rewritten = _rewrite_article_heading(rewritten, heading)
