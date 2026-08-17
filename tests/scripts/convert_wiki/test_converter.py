@@ -1249,6 +1249,94 @@ class TestDivHandling:
         assert "\n> " not in result
 
     @pytest.mark.anyio
+    async def test_equation_box_numblk_number_cell_single_bold(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A numblk number cell whose ``<td>`` and inner span are both bold
+        must render as a single ``__Eq.1__``, never ``____Eq.1____``.
+
+        Wikipedia bolds the number cell and the inner reference span; the
+        redundant cell-level bold must be dropped so only the span's bold
+        remains.
+        """
+        result = await _convert(
+            converter,
+            '<div class="equation-box" style="text-align:center">'
+            "<b>Eq</b>"
+            '<table class="numblk"><tbody><tr>'
+            "<td>E = mc<sup>2</sup></td>"
+            '<td style="width: 0px"></td>'
+            '<td class="nowrap" style="font-weight: bold;">'
+            '<span id="math_Eq.1" class="reference nourlexpansion" '
+            'style="font-weight: bold">Eq.1</span>'
+            "</td>"
+            "</tr></tbody></table></div>",
+        )
+        assert "____Eq.1____" not in result
+        assert "__Eq.1__" in result
+
+    @pytest.mark.anyio
+    async def test_plain_bold_span_unaffected_by_numblk_fix(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A normal bold span outside a numblk cell stays single-bold."""
+        result = await _convert(converter, "<b>bold</b>")
+        assert result == "__bold__"
+
+    @pytest.mark.anyio
+    async def test_equation_reference_anchor_emitted(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Equation-reference spans must emit a Markdown ``<a id>`` anchor.
+
+        The anchor id matches the fragment used by prose links: a bare
+        ``math_1`` stays raw, while a dotted ``math_Eq.1`` is normalized the
+        same way Wikipedia link fragments are (underscores -> spaces).
+        """
+        raw = await _convert(
+            converter,
+            '<span id="math_1" class="reference nourlexpansion" '
+            'style="font-weight: bold">1</span>',
+        )
+        assert '<a id="math_1"></a>' in raw
+        dotted = await _convert(
+            converter,
+            '<span id="math_Eq.1" class="reference nourlexpansion" '
+            'style="font-weight: bold">Eq.1</span>',
+        )
+        assert '<a id="math Eq.1"></a>' in dotted
+
+    @pytest.mark.anyio
+    async def test_equation_reference_bare_integer_parenthesized(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A bare-integer equation number is wrapped in parentheses.
+
+        Wikipedia renders the parentheses via CSS pseudo-elements; the
+        converter must materialize them. Labels (``Eq.1``) and the
+        ``numblk-raw-n`` opt-out class are left untouched.
+        """
+        result = await _convert(
+            converter,
+            '<span id="math_1" class="reference nourlexpansion" '
+            'style="font-weight: bold">1</span>',
+        )
+        assert "\\(1\\)" in result
+        labelled = await _convert(
+            converter,
+            '<span id="math_Eq.1" class="reference nourlexpansion" '
+            'style="font-weight: bold">Eq.1</span>',
+        )
+        assert "Eq.1" in labelled
+        assert "\\(Eq.1\\)" not in labelled
+        raw_n = await _convert(
+            converter,
+            '<span id="math_2" class="reference nourlexpansion numblk-raw-n" '
+            'style="font-weight: bold">2</span>',
+        )
+        assert "\\(2\\)" not in raw_n
+
+    @pytest.mark.anyio
     async def test_blockquote_title_on_own_line(
         self, converter: WikiHtmlConverter
     ) -> None:
