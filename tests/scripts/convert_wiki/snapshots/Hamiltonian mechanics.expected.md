@@ -40,7 +40,9 @@ $${\frac {\mathrm {d} {\boldsymbol {q} } }{\mathrm {d} t} }={\frac {\partial {\m
 >
 > The Hamiltonian ${\mathcal {H} }({\boldsymbol {p} },{\boldsymbol {q} })$ is the [Legendre transform](Legendre%20transform.md) of the Lagrangian ${\mathcal {L} }({\boldsymbol {q} },{\dot {\boldsymbol {q} } })$, thus one has
 >
-> | $${\mathcal {L} }({\boldsymbol {q} },{\dot {\boldsymbol {q} } })+{\mathcal {H} }({\boldsymbol {p} },{\boldsymbol {q} })={\boldsymbol {p} }{\dot {\boldsymbol {q} } }$$ | | <a id="math_1"></a> __\(1\)__ |
+> |                                                                                                                                                                        |                               |
+> | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------: |
+> | $${\mathcal {L} }({\boldsymbol {q} },{\dot {\boldsymbol {q} } })+{\mathcal {H} }({\boldsymbol {p} },{\boldsymbol {q} })={\boldsymbol {p} }{\dot {\boldsymbol {q} } }$$ | <a id="math_1"></a> __\(1\)__ |
 >
 > where ${\boldsymbol {p} }=\partial {\mathcal {L} }/\partial {\dot {\boldsymbol {q} } }$.
 >
