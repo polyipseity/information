@@ -1302,8 +1302,65 @@ class WikiHtmlConverter:
             prefix = f'<a id="{ele_id}"></a> '
         return _HandlerConfig(prefix=prefix)
 
+    @staticmethod
+    def _is_in_equation_box(ele: Tag) -> bool:
+        """Return True if *ele* is nested inside a ``div.equation-box``."""
+        parent = ele.parent
+        while isinstance(parent, Tag):
+            if parent.name == "div" and "equation-box" in parent.get_attribute_list(
+                "class"
+            ):
+                return True
+            parent = parent.parent
+        return False
+
     def _handle_table(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
-        """Handle <table> elements, integrating caption as a header row."""
+        """Handle <table> elements, integrating caption as a header row.
+
+        A standalone ``numblk`` table (a sibling of an equation-box div, not
+        a descendant) is rendered as a two-column equation table: an empty
+        header row plus an alignment marker row, so its equation/number body
+        row aligns like a numblk nested inside an equation-box div.  This
+        mirrors the header+alignment layout that ``_handle_div`` builds for
+        the nested case.
+        """
+        if "numblk" in classes and not WikiHtmlConverter._is_in_equation_box(ele):
+            align = ""
+            box = ele.find_previous("div", class_="equation-box")
+            if isinstance(box, Tag) and (
+                m := _TEXT_ALIGN_REGEX.search(str(box.get("style", "")))
+            ):
+                align = m[1]
+
+            # Drop empty spacer cells (no text and no explicit width:0px style).
+            for tdh in tuple(ele.find_all(_TD_OR_TH)):
+                if not tdh.get_text(strip=True) and not re.search(
+                    r"width\s*:\s*0", str(tdh.get("style", "")), re.IGNORECASE
+                ):
+                    tdh.decompose()
+
+            tbody = ele.find("tbody") or ele
+            header_row = self._soup.new_tag("tr")
+            th1 = self._soup.new_tag("th")
+            th2 = self._soup.new_tag("th")
+            if align:
+                _set_text_align(th1, align)
+                _set_text_align(th2, align)
+            header_row.append(th1)
+            header_row.append(th2)
+            tbody.insert(0, header_row)
+
+            if align:
+                for tr in tbody.find_all("tr"):
+                    if tr is header_row:
+                        continue
+                    for cell in tr.find_all(_TD_OR_TH):
+                        _set_text_align(cell, align)
+                    if cells := tuple(tr.find_all(_TD_OR_TH)):
+                        _strip_cell_bold(cells[-1])
+
+            return TableConverter.handle_table(ele, classes, self._soup)
+
         return TableConverter.handle_table(ele, classes, self._soup)
 
     def _handle_tbody(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:

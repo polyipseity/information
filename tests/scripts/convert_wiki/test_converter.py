@@ -1249,6 +1249,37 @@ class TestDivHandling:
         assert "\n> " not in result
 
     @pytest.mark.anyio
+    async def test_sibling_numblk_table_gets_header_and_alignment(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``numblk`` table that is a sibling of an ``equation-box`` div
+        (not a descendant) must still render a header row plus an alignment
+        marker row, with the box's alignment propagated to both columns.
+
+        This mirrors the layout ``_handle_div`` builds for the nested case,
+        so the equation/number body row aligns identically.
+        """
+        result = await _convert(
+            converter,
+            '<div class="math_proof">'
+            '<div class="equation-box" style="text-align: center; display: table;">'
+            "<p>E = mc<sup>2</sup></p></div>"
+            '<table class="numblk" style="margin-left: 1.6em"><tbody><tr>'
+            '<td class="nowrap">E = mc<sup>2</sup></td>'
+            "<td></td>"
+            '<td class="nowrap">'
+            '<span id="math_1" class="reference nourlexpansion" '
+            'style="font-weight: bold">1</span></td>'
+            "</tr></tbody></table></div>",
+        )
+        assert result == (
+            "> E = mc<sup>2</sup>\n"
+            "> | | |\n"
+            "> | :-: | :-: |\n"
+            '> | E = mc<sup>2</sup> | <a id="math_1"></a> __\\(1\\)__ |\n\n'
+        )
+
+    @pytest.mark.anyio
     async def test_equation_box_numblk_number_cell_single_bold(
         self, converter: WikiHtmlConverter
     ) -> None:
