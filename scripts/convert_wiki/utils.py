@@ -407,13 +407,62 @@ def _reformat_table_block(block: list[str]) -> list[str]:
     return result
 
 
+# Matches a leading blockquote prefix (one or more ``>`` markers, each
+# followed by whitespace).  Used to align pipe tables that live inside
+# blockquotes, which mistune's AST parser does not surface as ``table``
+# tokens (so the main mistune-based pass skips them).
+_BLOCKQUOTE_PREFIX_RE = re.compile(r"^(>\s+)+")
+
+
+def _reformat_blockquoted_tables(text: str) -> str:
+    """Align pipe tables nested inside blockquotes.
+
+    mistune does not emit ``table`` tokens for ``> ``-prefixed rows, so the
+    main mistune-based pass in ``_reformat_table`` never sees them.  This
+    line-based pass strips the blockquote prefix, reuses the single source
+    of alignment logic (``_reformat_table_block``), and re-prepends the
+    exact prefix so arbitrarily nested blockquotes (``> ``, ``> > ```, ...)
+    keep their markers.
+    """
+    lines = text.split("\n")
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        m = _BLOCKQUOTE_PREFIX_RE.match(line)
+        if m and line[m.end() :].startswith("|"):
+            # Begin a blockquoted table run: consecutive lines sharing the
+            # same prefix and starting with ``|`` after it.
+            prefix = m.group(0)
+            j = i
+            run: list[str] = []
+            while j < len(lines):
+                cur = lines[j]
+                cm = _BLOCKQUOTE_PREFIX_RE.match(cur)
+                if cm and cm.group(0) == prefix and cur[cm.end() :].startswith("|"):
+                    run.append(cur[cm.end() :])
+                    j += 1
+                else:
+                    break
+            reformatted = _reformat_table_block(run)
+            out.extend(prefix + r for r in reformatted)
+            i = j
+        else:
+            out.append(line)
+            i += 1
+    return "\n".join(out)
+
+
 def _reformat_table(text: str) -> str:
     """Reformat all pipe-table blocks in _text_ with columns padded to the
     widest cell per column.
 
     Uses ``_find_table_blocks`` (mistune AST) to locate table boundaries,
-    then ``_reformat_table_block`` for formatting.
+    then ``_reformat_table_block`` for formatting.  Blockquoted tables are
+    aligned first via ``_reformat_blockquoted_tables`` because mistune does
+    not surface them as ``table`` tokens.
     """
+    text = _reformat_blockquoted_tables(text)
     table_blocks = _find_table_blocks(text)
     if not table_blocks:
         return text
