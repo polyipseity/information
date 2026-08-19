@@ -32,7 +32,7 @@ return await memorize_table(
 
 > | name                   | description                                                                                                                       |
 > | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-> | {@{coins, jewellery}@} | {@{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}@} | <!--SR:!2027-12-12,1336,350!2026-09-11,801,270-->
+> | {@{coins, jewellery}@} | {@{attractive, [corrosion](corrosion.md)-resistant, [ductile](ductility.md), [malleable](malleability.md), [soft](hardness.md)}@} | <!--SR:!2027-12-12,1336,350!fsrs,2033-06-08T00:00:00.000Z,2461,2460.84653024,2.98092302,2,11,0,0,2026-09-12T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

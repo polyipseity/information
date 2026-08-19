@@ -64,7 +64,7 @@ The proof is typically structured as {@{a base case (leaves)}@} followed by {@{a
 
 ## referential transparency
 
-{@{Functional programs}@} are {@{_pure_}@}: functions have {@{no side effects}@} and every expression denotes {@{a value that depends solely on its inputs}@}. This property—{@{_referential transparency_}@}—allows us to replace {@{any sub-expression with an equal one without changing program behaviour}@}. In {@{proofs}@}, it means we may freely {@{apply reduction rules (the equations defining `:::` or other functions) inside larger terms}@}. {@{The factorial example}@} below illustrates {@{this principle}@}. <!--SR:!2026-10-17,276,330!2026-09-27,259,330!2026-10-04,266,330!2026-09-11,243,330!2026-09-13,245,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-04,266,330!2026-11-01,288,330!2026-10-15,274,330!2026-11-02,289,330-->
+{@{Functional programs}@} are {@{_pure_}@}: functions have {@{no side effects}@} and every expression denotes {@{a value that depends solely on its inputs}@}. This property—{@{_referential transparency_}@}—allows us to replace {@{any sub-expression with an equal one without changing program behaviour}@}. In {@{proofs}@}, it means we may freely {@{apply reduction rules (the equations defining `:::` or other functions) inside larger terms}@}. {@{The factorial example}@} below illustrates {@{this principle}@}. <!--SR:!2026-10-17,276,330!2026-09-27,259,330!2026-10-04,266,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!2026-09-13,245,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-04,266,330!2026-11-01,288,330!2026-10-15,274,330!2026-11-02,289,330-->
 
 ## proofs
 
@@ -154,7 +154,7 @@ Let us prove {@{the associativity law}@} for lists: {@{`(xs ::: ys) ::: zs = xs 
 
 ### proving `xs ::: Nil = xs`
 
-To {@{prove `xs ::: Nil = xs`}@}, the proof {@{proceeds similarly}@}. {@{The base case is trivial}@} because {@{`Nil ::: Nil` reduces directly to `Nil`}@}. In {@{the inductive step}@} we need {@{two equations}@}: one from {@{the definition of `:::` applied to `x :: xs`}@} and one from {@{the induction hypothesis that `xs ::: Nil = xs`}@}. Thus, {@{_two_ equations}@} are needed. <!--SR:!2026-10-06,268,330!2026-10-09,268,330!2026-10-25,282,330!2026-10-14,273,330!2026-11-05,291,330!2026-10-04,266,330!2026-09-30,262,330!2026-09-11,243,330!2026-10-31,287,330-->
+To {@{prove `xs ::: Nil = xs`}@}, the proof {@{proceeds similarly}@}. {@{The base case is trivial}@} because {@{`Nil ::: Nil` reduces directly to `Nil`}@}. In {@{the inductive step}@} we need {@{two equations}@}: one from {@{the definition of `:::` applied to `x :: xs`}@} and one from {@{the induction hypothesis that `xs ::: Nil = xs`}@}. Thus, {@{_two_ equations}@} are needed. <!--SR:!2026-10-06,268,330!2026-10-09,268,330!2026-10-25,282,330!2026-10-14,273,330!2026-11-05,291,330!2026-10-04,266,330!2026-09-30,262,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!2026-10-31,287,330-->
 
 ### proving reverse is its own inverse
 
@@ -175,7 +175,7 @@ Define {@{list reversal}@} recursively: <!--SR:!2026-09-24,256,330-->
 > ```
 <!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z-->
 
-We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reverse.reverse = xs`}@}. <!--SR:!2026-10-09,268,330!2026-09-11,243,330-->
+We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reverse.reverse = xs`}@}. <!--SR:!2026-10-09,268,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z-->
 
 > [!example] __proof: part 1__
 >
@@ -333,7 +333,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{$z > x$ and $z > y$ \($z$ is largest, i.e. $x < y < z$ or $y < x < z$\)}@} – {@{analogous reasoning applies to the left child}@}.
 > - If {@{$x < z < y$ or $y < z < x$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
 >
-> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!2026-09-11,243,330!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-12,244,330!2026-10-14,273,330!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-11-02,289,330!2026-10-26,283,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2027-07-04,458,310!2026-09-14,246,330!2026-10-20,278,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-31,287,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z-->
+> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-12,244,330!2026-10-14,273,330!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-11-02,289,330!2026-10-26,283,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2027-07-04,458,310!2026-09-14,246,330!2026-10-20,278,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-31,287,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z-->
 
 ### proving set union property
 

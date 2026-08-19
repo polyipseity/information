@@ -213,7 +213,7 @@ The content is in teaching order.
 - [accounts payable](../../../../general/accounts%20payable.md)
 - determining amounts ::@:: Sometimes, the amount to record in a transaction is not the full amount. <!--SR:!2031-04-21,1864,396!2026-10-10,543,403-->
     - determining amounts / interest ::@:: $$\text{principal} \times \text{rate} \times \text{duration}$$ <!--SR:!fsrs,2032-12-26T00:00:00.000Z,2314,2314.0489373,1,2,10,0,0,2026-08-26T00:00:00.000Z!fsrs,2032-12-23T00:00:00.000Z,2310,2310.06785514,1,2,10,0,0,2026-08-27T00:00:00.000Z-->
-    - determining amounts / long-term expense ::@:: $$\text{total cost} \times \frac {\text{using duration} } {\text{total duration} }$$ <!--SR:!fsrs,2032-11-21T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-08-19T00:00:00.000Z!2026-09-11,520,403-->
+    - determining amounts / long-term expense ::@:: $$\text{total cost} \times \frac {\text{using duration} } {\text{total duration} }$$ <!--SR:!fsrs,2032-11-21T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-08-19T00:00:00.000Z!fsrs,2033-03-13T00:00:00.000Z,2374,2373.64591837,1,2,10,0,0,2026-09-12T00:00:00.000Z-->
 
 ## week 5 lecture 2
 
@@ -448,7 +448,7 @@ The content is in teaching order.
 ## week 10 lecture 2
 
 - datetime: 2024-11-07T13:30:00+08:00/2024-11-07T14:50:00+08:00
-- [dividend](../../../../general/dividend.md) ::@:: It is a distribution of profits by a corporation to its shareholders, after which the stock exchange decreases the price of the stock by the dividend to remove volatility. <!--SR:!fsrs,2033-01-16T00:00:00.000Z,2330,2329.96271071,1,2,10,0,0,2026-08-31T00:00:00.000Z!2026-09-11,520,403-->
+- [dividend](../../../../general/dividend.md) ::@:: It is a distribution of profits by a corporation to its shareholders, after which the stock exchange decreases the price of the stock by the dividend to remove volatility. <!--SR:!fsrs,2033-01-16T00:00:00.000Z,2330,2329.96271071,1,2,10,0,0,2026-08-31T00:00:00.000Z!fsrs,2033-03-13T00:00:00.000Z,2374,2373.64591837,1,2,10,0,0,2026-09-12T00:00:00.000Z-->
     - cash dividend ::@:: Without a qualifier at the front, dividend means this. <!--SR:!fsrs,2033-02-23T00:00:00.000Z,2358,2357.77450357,1,2,10,0,0,2026-09-10T00:00:00.000Z!fsrs,2032-11-22T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-08-20T00:00:00.000Z-->
         - cash dividend / source ::@:: Must be paid out of retained earnings, i.e. retained earnings should not be negative after paying the cash dividend. <!--SR:!2026-09-17,524,403!fsrs,2032-11-06T00:00:00.000Z,2274,2274.19527604,1,2,10,0,0,2026-08-16T00:00:00.000Z-->
         - cash dividend / declared but not paid \(before end date\) ::@:: debit equity "Retained earnings", credit liability "Dividends payable" \(effectively, SE becomes L\) <!--SR:!2026-10-12,545,403!2026-10-09,542,403-->

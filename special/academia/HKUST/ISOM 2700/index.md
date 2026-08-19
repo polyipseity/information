@@ -262,7 +262,7 @@ The content is in teaching order.
     - M/M/1 queue / average queue length ::@:: Assuming the system is stable ($\lambda < \mu$). $L_q = \rho L_s = \frac {\lambda} {\mu} \frac {\lambda} {\mu - \lambda} = \frac {\rho^2} {1 - \rho}$ <!--SR:!2029-12-15,1310,375!2030-07-14,1569,395-->
     - M/M/1 queue / average system waiting time ::@:: Assuming the system is stable ($\lambda < \mu$). $W_s = \frac {L_s} {\lambda} = \frac 1 {\mu - \lambda}$ <!--SR:!fsrs,2032-05-15T00:00:00.000Z,2073,2073.37029021,1,2,10,0,0,2026-09-11T00:00:00.000Z!fsrs,2030-09-26T00:00:00.000Z,1557,1557.23005418,1,2,10,0,0,2026-06-22T00:00:00.000Z-->
     - M/M/1 queue / average queue waiting time ::@:: Assuming the system is stable ($\lambda < \mu$). $W_q = \frac {L_q} {\lambda} = \frac \rho {\mu - \lambda}$ <!--SR:!2030-12-08,1670,395!2029-05-16,1144,375-->
-    - M/M/1 queue / insight ::@:: The average system length being $\frac {\rho} {1 - \rho}$ implies that it grows super-linearly (growth that is faster than linear) as $\rho$ approaches 1. That means it is very costly (congestion) to have near maximum utilization when there are variations. With no variations, congestion will not happen even if $\rho < 1$ is very near 1. <!--SR:!2029-12-14,1309,375!2026-09-11,447,395-->
+    - M/M/1 queue / insight ::@:: The average system length being $\frac {\rho} {1 - \rho}$ implies that it grows super-linearly (growth that is faster than linear) as $\rho$ approaches 1. That means it is very costly (congestion) to have near maximum utilization when there are variations. With no variations, congestion will not happen even if $\rho < 1$ is very near 1. <!--SR:!2029-12-14,1309,375!fsrs,2032-05-24T00:00:00.000Z,2081,2081.45554851,1,2,10,0,0,2026-09-12T00:00:00.000Z-->
 
 ## week 3 lecture 2
 

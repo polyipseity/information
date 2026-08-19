@@ -22,7 +22,7 @@ There are {@{many equivalent characterizations of uncountability}@}. A set _X_ i
 - cardinality using not equal to ::@:: The [cardinality](cardinality.md) of _X_ is neither finite nor equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md)\). <!--SR:!2027-10-26,789,330!2027-05-25,673,330-->
 - cardinality using greater than ::@:: The set _X_ has cardinality strictly greater than $\aleph _{0}$. <!--SR:!2027-11-20,811,330!2027-08-01,724,330-->
 
-{@{The first three of these characterizations \(annotation: injective function; ω-sequence, surjective function; cardinality using not equal to\)}@} can be {@{proven equivalent in [Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md) without the [axiom of choice](axiom%20of%20choice.md)}@}, but {@{the equivalence of the third and fourth \(annotation: cardinality using greater than\) cannot be proved without additional choice principles}@}. <!--SR:!2026-09-11,462,310!2028-04-01,806,290!2027-12-10,828,330-->
+{@{The first three of these characterizations \(annotation: injective function; ω-sequence, surjective function; cardinality using not equal to\)}@} can be {@{proven equivalent in [Zermelo–Fraenkel set theory](Zermelo–Fraenkel%20set%20theory.md) without the [axiom of choice](axiom%20of%20choice.md)}@}, but {@{the equivalence of the third and fourth \(annotation: cardinality using greater than\) cannot be proved without additional choice principles}@}. <!--SR:!fsrs,2031-07-12T00:00:00.000Z,1764,1763.96298204,1,2,10,0,0,2026-09-12T00:00:00.000Z!2028-04-01,806,290!2027-12-10,828,330-->
 
 ## properties
 

@@ -9,7 +9,7 @@ tags:
 
 # chemistry
 
-__Chemistry__ is the study of {@{compositions, structures, properties, and changes of substances}@}. <!--SR:!2026-09-11,625,210-->
+__Chemistry__ is the study of {@{compositions, structures, properties, and changes of substances}@}. <!--SR:!fsrs,2029-03-02T00:00:00.000Z,902,902.46277768,7.99368857,2,10,0,0,2026-09-12T00:00:00.000Z-->
 
 ## references
 

@@ -105,7 +105,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 
 ### list methods
 
-Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-10-30,286,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-09-11,239,330!2026-09-19,247,330!2026-10-15,273,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-18,276,330-->
+Lists are {@{the fundamental data structure}@} that will {@{recur throughout the course}@}. In Scala a list is {@{an immutable linked-list whose type carries the element type}@}: {@{`List[Fruit]`}@}. A list can be constructed in {@{two idiomatic ways}@}: using {@{the factory method `List.apply`}@}, which accepts {@{zero or more arguments}@}, or by prepending {@{elements to the sentinel value `Nil` with the cons operator (`::`)}@}. For example: <!--SR:!2026-10-30,286,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!2026-09-19,247,330!2026-10-15,273,330!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-18,276,330-->
 
 > [!example] __list construction__
 >
@@ -233,7 +233,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 
 - __Mapping__ ::@:: – transform every element in a list. <!--SR:!2026-09-14,242,330!2026-09-30,258,330-->
 - __Filtering__ ::@:: – extract all elements that satisfy a predicate. <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-21,249,330-->
-- __Reduction / Folding__ ::@:: – combine the elements of a list with an associative operator. <!--SR:!2026-09-11,239,330!2026-10-31,287,330-->
+- __Reduction / Folding__ ::@:: – combine the elements of a list with an associative operator. <!--SR:!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!2026-10-31,287,330-->
 
 ### map
 
@@ -281,7 +281,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 >         if p(x) then x :: xs.filter(p)
 >         else       xs.filter(p)
 > ```
-<!--SR:!2026-09-11,239,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
+<!--SR:!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
 
 {@{The `posElems`}@} example becomes, using {@{`filter`}@}: <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-22,250,330-->
 
@@ -328,7 +328,7 @@ In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@},
 > ```
 <!--SR:!2026-09-30,258,330!2026-09-22,250,330-->
 
-As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe \(always safe\)}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!fsrs,2028-07-14T03:38:04.673Z,760,759.95962134,1,2,8,0,0,2026-06-15T03:38:04.673Z!2026-11-08,294,330!2026-09-11,239,330!2026-09-29,257,330!2026-12-31,339,350-->
+As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe \(always safe\)}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!fsrs,2028-07-14T03:38:04.673Z,760,759.95962134,1,2,8,0,0,2026-06-15T03:38:04.673Z!2026-11-08,294,330!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!2026-09-29,257,330!2026-12-31,339,350-->
 
 ### reduce
 
@@ -593,7 +593,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > ```
 <!--SR:!2026-11-01,288,330!2026-10-14,272,330-->
 
-{@{Grouping \(`groupBy`\)}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}: <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-09-11,239,330-->
+{@{Grouping \(`groupBy`\)}@} partitions {@{a collection into a map}@} keyed by {@{the result of a discriminator function}@}: <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z-->
 
 > [!example] __`groupBy` examples__
 >

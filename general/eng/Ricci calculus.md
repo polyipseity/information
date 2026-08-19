@@ -187,7 +187,7 @@ For example, {@{two symmetrizing indices}@} mean there are {@{two indices to per
 {@{Indices}@} are {@{not part of the symmetrization}@} when they are: \(annotation: 2 items: {@{not on the same level; within the parentheses and between vertical bars}@}\) <!--SR:!2026-12-30,353,350!fsrs,2029-06-10T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-08-08T00:00:00.000Z!2026-11-27,321,350-->
 
 - not on the same level, for example; ::@:: $$A_{(\alpha }B^{\beta }{}_{\gamma )}={\dfrac {1}{2!} }\left(A_{\alpha }B^{\beta }{}_{\gamma }+A_{\gamma }B^{\beta }{}_{\alpha }\right)$$ <!--SR:!2026-12-03,327,350!2026-12-03,327,350-->
-- within the parentheses and between vertical bars \(i.e. \|⋅⋅⋅\|\), modifying the previous example; ::@:: $$A_{(\alpha }B_{|\beta |}{}_{\gamma )}={\dfrac {1}{2!} }\left(A_{\alpha }B_{\beta \gamma }+A_{\gamma }B_{\beta \alpha }\right)$$ <!--SR:!2026-09-11,250,330!2026-10-24,293,330-->
+- within the parentheses and between vertical bars \(i.e. \|⋅⋅⋅\|\), modifying the previous example; ::@:: $$A_{(\alpha }B_{|\beta |}{}_{\gamma )}={\dfrac {1}{2!} }\left(A_{\alpha }B_{\beta \gamma }+A_{\gamma }B_{\beta \alpha }\right)$$ <!--SR:!fsrs,2029-09-23T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-09-12T00:00:00.000Z!2026-10-24,293,330-->
 
 Here the _α_ and _γ_ indices are symmetrized, _β_ is not.
 
