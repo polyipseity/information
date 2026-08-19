@@ -96,7 +96,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 
 ### `Coder.encode`
 
-{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!2026-09-12,244,330!2026-10-05,267,330!2026-10-21,277,330!2026-10-27,283,330!2026-10-16,276,330!2026-10-11,271,330!2026-11-02,289,330-->
+{@{The core algorithm}@} is {@{a classic recursive split}@}.  If {@{the input number is empty}@}, {@{the only encoding}@} is {@{the empty list}@}; otherwise we try {@{every possible prefix length}@} and combine {@{the results of the suffix recursively}@}: <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-05,267,330!2026-10-21,277,330!2026-10-27,283,330!2026-10-16,276,330!2026-10-11,271,330!2026-11-02,289,330-->
 
 > [!example] __`Coder.encode`__
 >
@@ -148,7 +148,7 @@ These qualities illustrate why {@{immutable Scala collections}@} are considered 
 
 ## database
 
-{@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}. <!--SR:!2026-09-12,244,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-09-13,245,330!2026-11-07,293,330!2026-10-20,276,330!2026-09-23,255,330-->
+{@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}. <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-09-13,245,330!2026-11-07,293,330!2026-10-20,276,330!2026-09-23,255,330-->
 
 Consider {@{a simple in-memory catalog of books}@} represented as {@{a list}@}: <!--SR:!fsrs,2029-06-25T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-10-29,285,330-->
 

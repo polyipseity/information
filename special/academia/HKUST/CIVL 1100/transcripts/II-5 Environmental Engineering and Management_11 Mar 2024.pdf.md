@@ -156,7 +156,7 @@ return await memorize_seq(
 - bioremediation→::@::←catalytic oxidation <!--SR:!2032-09-17,2338,355!2027-01-03,660,335-->
 - catalytic oxidation→::@::←ex-situ biopile <!--SR:!2026-11-13,581,295!fsrs,2032-04-08T02:37:59.514Z,2123,2123.1997676,1,2,10,0,0,2026-06-16T02:37:59.514Z-->
 - ex-situ biopile→::@::←ex-situ solidification or stabilization <!--SR:!2027-07-13,860,355!fsrs,2032-04-02T09:16:21.020Z,2119,2119.0862237,1,2,10,0,0,2026-06-14T09:16:21.020Z-->
-- ex-situ solidification or stabilization→::@::←_(end)_ <!--SR:!2031-09-07,2120,395!2026-09-12,580,335-->
+- ex-situ solidification or stabilization→::@::←_(end)_ <!--SR:!2031-09-07,2120,395!fsrs,2029-11-02T00:00:00.000Z,1146,1146.2816532,4.88190763,2,10,0,0,2026-09-13T00:00:00.000Z-->
 
 <!--/pytextgen-->
 
@@ -245,7 +245,7 @@ Hong Kong Harbour Area Treatment Scheme Stage I (HATS)
     - HATS Stage 1 scheme period ::@:: 1994 to 2001 <!--SR:!2028-07-05,991,290!2027-07-06,745,270-->
     - HATS Stage 1 scheme cost ::@:: HK$8.2 billion <!--SR:!2026-12-26,574,290!2027-10-13,865,290-->
     - HATS Stage 1 details ::@:: Stonecutters Island Sewage Treatment Works (SCISTW), sewage tunnel of 23.6 km, upgrade 8 preliminary treatment works (PTWs) <!--SR:!2027-12-19,911,290!fsrs,2032-05-12T00:00:00.000Z,2094,2094.48771386,1,2,10,0,0,2026-08-18T00:00:00.000Z-->
-    - HATS Stage 1 geographic coverage ::@:: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2026-11-06,570,270!2026-09-12,641,330-->
+    - HATS Stage 1 geographic coverage ::@:: collect sewage from Kowloon, Kwai Tsing, Tseung Kwan O, and north-eastern Hong Kong Island to SCISTW <!--SR:!2026-11-06,570,270!fsrs,2030-02-07T00:00:00.000Z,1243,1243.14401319,5.00637887,2,10,0,0,2026-09-13T00:00:00.000Z-->
     - HATS Stage 1 coverage in numbers ::@:: 3.5 million people, 75% from harbour area <!--SR:!2030-03-15,1547,310!2028-02-27,1001,310-->
     - HATS Stage 1 capacities ::@:: current: ~1.4M m<sup>3</sup>/d, max: 1.7M m<sup>3</sup>/d <!--SR:!2031-06-30,1969,330!2032-03-06,2163,330-->
 
@@ -321,7 +321,7 @@ Air Pollution: A serious problem in Hong Kong?
     - industrial activities in China's Pearl River Delta
     - land use change affects air circulation
     - air pollution regulations are outdated (16 years old)
-    - 3 major reasons causing air pollution in Hong Kong ::@:: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!2026-09-12,588,310!2028-01-15,1005,330-->
+    - 3 major reasons causing air pollution in Hong Kong ::@:: air pollution regulations are outdated (16 years old), industrial activities in China's Pearl River Delta, land use change affects air circulation <!--SR:!fsrs,2029-09-16T00:00:00.000Z,1099,1098.96397767,5.50426382,2,10,0,0,2026-09-13T00:00:00.000Z!2028-01-15,1005,330-->
 
 ## page 27
 

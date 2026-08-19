@@ -41,7 +41,7 @@ The inverse transform is given by:
 
 > {@{__inverse discrete Fourier transform (Eq.2)__}@}
 >
-> {@{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}@} <!--SR:!fsrs,2030-10-18T00:00:00.000Z,1532,1532.18736077,2.98092302,2,10,0,0,2026-08-08T00:00:00.000Z!2026-09-12,484,270-->
+> {@{$$x_n = \frac 1 N \sum_{k = 0}^{N - 1} X_k \cdot e^{i 2\pi \frac k N n}$$}@} <!--SR:!fsrs,2030-10-18T00:00:00.000Z,1532,1532.18736077,2.98092302,2,10,0,0,2026-08-08T00:00:00.000Z!fsrs,2028-12-25T00:00:00.000Z,834,834.45546171,6.50003372,2,10,0,0,2026-09-13T00:00:00.000Z-->
 
 __Eq.2__ is {@{also $N$-periodic (in index $n$)}@}. In __Eq.2__, each $X_k$ is {@{a complex number whose polar coordinates}@} are {@{the amplitude and phase of a complex sinusoidal component $\left(e^{i 2\pi \frac k N n}\right)$ of function $x_n$}@}. \(see {@{[discrete Fourier series](discrete%20Fourier%20series.md)}@}\) {@{The sinusoid's [frequency](frequency.md)}@} is {@{$k$ cycles per $N$ samples}@}. <!--SR:!2029-02-19,1292,350!2028-12-22,1050,290!2027-10-25,882,330!fsrs,2028-05-13T00:00:00.000Z,664,663.84023351,1,2,8,0,0,2026-07-19T00:00:00.000Z!fsrs,2028-05-19T00:00:00.000Z,669,668.62609436,1,2,8,0,0,2026-07-20T00:00:00.000Z!fsrs,2028-05-24T00:00:00.000Z,673,673.406745,1,2,8,0,0,2026-07-21T00:00:00.000Z-->
 

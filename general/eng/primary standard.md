@@ -55,7 +55,7 @@ return await memorize_seq(
 - _(most important)_→::@::←high purity <!--SR:!2026-09-20,712,290!2028-05-06,1446,350-->
 - high purity→::@::←low [reactivity](reactivity%20(chemistry).md) <!--SR:!2027-01-17,754,230!2027-07-11,690,230-->
 - low [reactivity](reactivity%20(chemistry).md)→::@::←low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md) <!--SR:!2027-02-12,590,230!2029-02-02,1118,230-->
-- low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→::@::←high [solubility](solubility.md) in given conditions <!--SR:!2026-09-12,281,170!2027-02-25,804,230-->
+- low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→::@::←high [solubility](solubility.md) in given conditions <!--SR:!fsrs,2027-09-18T00:00:00.000Z,370,370.1982332,8.98945847,2,9,0,0,2026-09-13T00:00:00.000Z!2027-02-25,804,230-->
 - high [solubility](solubility.md) in given conditions→::@::←high [equivalent weight](equivalent%20weight.md) <!--SR:!2028-02-26,719,190!2033-08-10,2631,290-->
 - high [equivalent weight](equivalent%20weight.md)→::@::←non-[toxicity](toxicity.md) <!--SR:!2027-02-07,415,170!2027-08-27,686,230-->
 - non-[toxicity](toxicity.md)→::@::←ready and cheap availability <!--SR:!2031-01-04,1679,250!2027-12-31,953,250-->

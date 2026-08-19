@@ -20,7 +20,7 @@ tags:
 
 In {@{functional programming}@}, {@{many data structures}@} that provide {@{`unit` \(also called `return`\) and `flatMap` \(also called `bind`\) operations}@} fall under {@{a common algebraic abstraction known as a _monad_}@}. <!--SR:!2026-10-28,284,330!2026-10-12,271,330!fsrs,2029-07-22T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-10-27,283,330-->
 
-{@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`-comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}. <!--SR:!2026-11-04,290,330!2026-11-05,291,330!2026-09-12,241,330!2026-11-07,293,330!2026-10-31,287,330!2026-10-11,270,330!2026-10-08,267,330!2026-09-17,246,330!2026-11-02,289,330!2026-10-09,268,330-->
+{@{The monad abstraction}@} underpins {@{many Scala types beyond collections}@}, such as {@{generators, options, and tries}@}. When {@{a type implements `flatMap`}@} \(and optionally {@{`withFilter` for _monads with zero_}@}\), it becomes {@{eligible to participate in Scala's `for`-comprehensions}@}. {@{The three monad laws}@} provide designers with {@{powerful guidance}@}: they enforce {@{consistent composition semantics}@} and enable reasoning about {@{program behavior across different contexts}@}. <!--SR:!2026-11-04,290,330!2026-11-05,291,330!fsrs,2028-02-03T00:00:00.000Z,508,507.95545468,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-11-07,293,330!2026-10-31,287,330!2026-10-11,270,330!2026-10-08,267,330!2026-09-17,246,330!2026-11-02,289,330!2026-10-09,268,330-->
 
 ## motivation
 
@@ -212,7 +212,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 > }
 > ```
 >
-> which should be corrected {@{to `>=` instead of `>`}@}.  This illustrates how {@{generators can reveal subtle invariants}@}. <!--SR:!2026-09-12,241,330!2026-10-14,273,330!2026-09-25,254,330!2026-11-04,290,330-->
+> which should be corrected {@{to `>=` instead of `>`}@}.  This illustrates how {@{generators can reveal subtle invariants}@}. <!--SR:!fsrs,2028-02-03T00:00:00.000Z,508,507.95545468,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-14,273,330!2026-09-25,254,330!2026-11-04,290,330-->
 
 The same idea is {@{used in the _ScalaCheck_ library}@}.  {@{A property expressed as a lambda}@} can be automatically {@{checked against many random inputs}@}: <!--SR:!2026-10-12,271,330!2026-10-13,272,330!fsrs,2029-07-12T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-05T00:00:00.000Z-->
 

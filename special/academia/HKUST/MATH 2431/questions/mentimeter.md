@@ -279,7 +279,7 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 > - (D) $f$ is piecewise constant.
 >
 > - answer: {@{B}@}
-> - explanation: {@{A simple function taking finitely many values is measurable only if each level set is measurable; this is not automatic. For example, the indicator $\mathbf 1_{\mathbb Q}$ takes only $\{0,1\}$; checking its measurability requires verifying $\mathbb Q\in\mathcal B(\mathbb R)$ — the finiteness of values alone is insufficient. Monotone, differentiable, and piecewise constant (with measurable pieces) functions are all Borel measurable.}@} <!--SR:!fsrs,2026-09-13T00:00:00.000Z,61,61.12602477,1,2,3,0,0,2026-07-14T00:00:00.000Z!fsrs,2026-09-27T00:00:00.000Z,75,75.34793403,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
+> - explanation: {@{A simple function taking finitely many values is measurable only if each level set is measurable; this is not automatic. For example, the indicator $\mathbf 1_{\mathbb Q}$ takes only $\{0,1\}$; checking its measurability requires verifying $\mathbb Q\in\mathcal B(\mathbb R)$ — the finiteness of values alone is insufficient. Monotone, differentiable, and piecewise constant (with measurable pieces) functions are all Borel measurable.}@} <!--SR:!fsrs,2027-02-21T00:00:00.000Z,161,160.79552547,4.01060897,2,4,0,0,2026-09-13T00:00:00.000Z!fsrs,2026-09-27T00:00:00.000Z,75,75.34793403,1,2,2,0,0,2026-07-14T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

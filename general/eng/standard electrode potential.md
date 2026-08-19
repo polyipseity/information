@@ -273,7 +273,7 @@ return (
 - Pb::@::Pb<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Pb(s) <!--SR:!2028-04-13,1424,270!2029-03-29,1891,330-->
 - S::@::S<sub>4</sub>O<sub>6</sub><sup>2-</sup>(aq) + 2e<sup>-</sup> ⇌ 2S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq)<br/>HSO<sub>4</sub><sup>-</sup>(aq) + 3H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)<br/>SO<sub>4</sub><sup>2-</sup>(aq) + 4H<sup>+</sup>(aq) + 2e<sup>-</sup> ⇌ SO<sub>2</sub>(aq) + 2H<sub>2</sub>O(l)<br/>SO<sub>2</sub>(aq) + 4H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ S(s) + 2H<sub>2</sub>O(l)<br/>S<sub>2</sub>O<sub>3</sub><sup>2-</sup>(aq) + 6H<sup>+</sup>(aq) + 4e<sup>-</sup> ⇌ 2S(s) + 3H<sub>2</sub>O(l) <!--SR:!fsrs,2026-10-09T00:00:00.000Z,67,67.4733246,9.97542228,2,7,0,0,2026-08-03T00:00:00.000Z!2033-05-08,2632,290-->
 - Sn::@::Sn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn(s)<br/>Sn<sup>4+</sup>(aq) + 2e<sup>-</sup> ⇌ Sn<sup>2+</sup>(aq) <!--SR:!2027-06-21,1050,296!2034-09-25,3272,356-->
-- Zn::@::Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s) <!--SR:!2026-09-12,1023,250!2029-04-23,1912,330-->
+- Zn::@::Zn<sup>2+</sup>(aq) + 2e<sup>-</sup> ⇌ Zn(s) <!--SR:!fsrs,2031-01-28T00:00:00.000Z,1598,1597.98760231,6.99791867,2,11,0,0,2026-09-13T00:00:00.000Z!2029-04-23,1912,330-->
 
 <!--/pytextgen-->
 

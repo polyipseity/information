@@ -64,7 +64,7 @@ For {@{a transmitted '1'}@} {@{the error event}@} is {@{$\{AT+N_T=V\le V_{\!th}\
 For {@{a transmitted '0'}@} {@{the error event}@} is {@{$\{-AT+N_T=V>V_{\!th}\}$}@}, giving
 $$P_e^{(0)} = Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right).$$ <!--SR:!fsrs,2029-08-09T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-10-10,271,330!2026-10-16,275,330-->
 
-{@{The overall BER with priors $p_0,p_1$}@} is therefore {@{$$\boxed{P_e(V_{\!th})= p_0\,Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right) +p_1\,Q\!\left(\frac{AT-V_{\!th} }{\sigma_{n_T} }\right)} \,.$$}@} {@{Setting $V_{\!th}=0$}@} recovers {@{the zero-threshold result above}@}. <!--SR:!2026-10-10,271,330!2028-04-10,681,330!2026-09-12,243,330!2026-10-02,263,330-->
+{@{The overall BER with priors $p_0,p_1$}@} is therefore {@{$$\boxed{P_e(V_{\!th})= p_0\,Q\!\left(\frac{AT+V_{\!th} }{\sigma_{n_T} }\right) +p_1\,Q\!\left(\frac{AT-V_{\!th} }{\sigma_{n_T} }\right)} \,.$$}@} {@{Setting $V_{\!th}=0$}@} recovers {@{the zero-threshold result above}@}. <!--SR:!2026-10-10,271,330!2028-04-10,681,330!fsrs,2028-02-07T00:00:00.000Z,512,511.79396938,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-02,263,330-->
 
 ### bit error rate insight
 

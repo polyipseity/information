@@ -21,7 +21,7 @@ The merges and splits are {@{usually [greedy](greedy%20algorithm.md)}@}. The res
 
 ## cluster linkage
 
-To determine the distance between two observations, {@{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}@} is needed. To decide how to merge or split clusters, {@{a measure of _dissimilarity_ between clusters}@} is required. The metric is {@{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}@}. <!--SR:!2028-12-28,1343,355!2026-09-12,675,335!2029-03-19,1326,315-->
+To determine the distance between two observations, {@{a _[metric](metric%20(mathematics).md)_, usually the [Euclidean distance](Euclidean%20distance.md)}@} is needed. To decide how to merge or split clusters, {@{a measure of _dissimilarity_ between clusters}@} is required. The metric is {@{insufficient, and a linkage criterion is also needed, which specifies the _dissimilarity_ of clusters as a function of the pairwise distances of observations in the clusters, or a function of the properties of the clusters before being combined}@}. <!--SR:!2028-12-28,1343,355!fsrs,2030-04-22T00:00:00.000Z,1317,1317.47793796,4.88190763,2,10,0,0,2026-09-13T00:00:00.000Z!2029-03-19,1326,315-->
 
 Both the choice of the metric and the linkage criterion {@{affects the clustering results significantly}@}. The metric affects {@{which observations are similar}@} more, while the linkage affects {@{the cluster shapes}@} more. <!--SR:!2033-02-05,2457,335!2032-04-18,2239,335!2029-06-21,1481,355-->
 

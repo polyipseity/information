@@ -203,7 +203,7 @@ In this approach, {@{every non-logical symbol}@} is {@{of one of the following t
 >
 > ---
 >
-> The example formula {@{`∀x ∃x' (¬x=c) ⇒ f2(x,x')=c'`}@} describes {@{multiplicative inverses}@} when {@{`f2'`, `c`, and `c'` are interpreted as multiplication, zero, and one, respectively}@}. <!--SR:!2026-10-30,366,364!2026-12-14,400,364!2026-10-18,352,364!2026-09-29,335,346!2027-02-20,460,382!2026-09-12,322,364!2026-12-11,397,364!fsrs,2030-11-20T00:00:00.000Z,1534,1534.15566077,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-29,362,364-->
+> The example formula {@{`∀x ∃x' (¬x=c) ⇒ f2(x,x')=c'`}@} describes {@{multiplicative inverses}@} when {@{`f2'`, `c`, and `c'` are interpreted as multiplication, zero, and one, respectively}@}. <!--SR:!2026-10-30,366,364!2026-12-14,400,364!2026-10-18,352,364!2026-09-29,335,346!2027-02-20,460,382!fsrs,2028-08-26T00:00:00.000Z,713,712.56037295,4.15997445,2,9,0,0,2026-09-13T00:00:00.000Z!2026-12-11,397,364!fsrs,2030-11-20T00:00:00.000Z,1534,1534.15566077,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-29,362,364-->
 
 {@{The [formation rules](formation%20rule.md)}@} define {@{the terms and formulas of first-order logic}@}.<sup>[\[16\]](#^ref-16)</sup> When {@{terms and formulas}@} are {@{represented as strings of symbols}@}, these rules can be {@{used to write a [formal grammar](formal%20grammar.md) for terms and formulas}@}. These rules are {@{generally [context-free](context-free%20grammar.md)}@} \({@{each production}@} has {@{a single symbol on the left side}@}\), except that {@{the set of symbols}@} may be {@{allowed to be infinite}@} and there may be {@{many start symbols}@}, for example {@{the variables in the case of [terms](#terms)}@}. <!--SR:!2026-10-27,360,364!2027-02-23,461,382!2027-02-17,456,382!2027-01-14,427,382!2026-12-08,394,364!2026-11-04,370,364!2027-02-11,451,382!2026-11-12,376,364!2026-11-03,365,364!2026-09-20,334,364!2026-11-05,371,364!2026-10-10,344,346-->
 
@@ -506,7 +506,7 @@ There are also {@{more subtle limitations of first-order logic}@} that are {@{im
 
 ## limitations
 
-Although {@{first-order logic is sufficient for formalizing much of mathematics}@} and is commonly used in {@{computer science and other fields}@}, it has {@{certain limitations}@}. These include limitations on {@{its expressiveness}@} and limitations of {@{the fragments of natural languages that it can describe}@}. <!--SR:!2026-09-12,326,364!2026-10-10,347,364!2026-09-24,337,364!2027-02-10,450,382!2026-11-27,386,364-->
+Although {@{first-order logic is sufficient for formalizing much of mathematics}@} and is commonly used in {@{computer science and other fields}@}, it has {@{certain limitations}@}. These include limitations on {@{its expressiveness}@} and limitations of {@{the fragments of natural languages that it can describe}@}. <!--SR:!fsrs,2028-09-03T00:00:00.000Z,721,720.588908,4.15997445,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-10,347,364!2026-09-24,337,364!2027-02-10,450,382!2026-11-27,386,364-->
 
 For instance, {@{first-order logic is undecidable}@}, meaning {@{a sound, complete and terminating decision algorithm for provability is impossible}@}. This has led to {@{the study of interesting decidable fragments}@}, such as {@{C<sub>2</sub>: first-order logic}@} with {@{two variables and the [counting quantifiers](counting%20quantifiers.md) $\exists ^{\geq n}$ and $\exists ^{\leq n}$}@}.<sup>[\[30\]](#^ref-30)</sup> <!--SR:!2026-10-15,351,364!2026-09-20,334,364!2027-01-28,440,382!2026-11-26,386,364!2027-09-23,620,409-->
 

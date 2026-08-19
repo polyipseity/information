@@ -74,7 +74,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="9581"--><!-- The following content is generated at 2024-01-04T20:17:51.170254+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←[combustion](#combustion) <!--SR:!2035-12-28,3566,350!2026-09-12,906,330-->
+- _(begin)_→::@::←[combustion](#combustion) <!--SR:!2035-12-28,3566,350!fsrs,2031-05-19T00:00:00.000Z,1709,1709.14534888,5.00637887,2,11,0,0,2026-09-13T00:00:00.000Z-->
 - [combustion](#combustion)→::@::←[dihydroxylation](dihydroxylation.md) <!--SR:!2030-01-14,1647,330!2032-07-02,2320,310-->
 - [dihydroxylation](dihydroxylation.md)→::@::←[halogen addition reaction](halogen%20addition%20reaction.md) <!--SR:!2027-06-03,660,230!2034-06-09,2930,310-->
 - [halogen addition reaction](halogen%20addition%20reaction.md)→::@::←[hydrogenation](#hydrogenation) <!--SR:!2036-11-22,3858,350!2032-08-19,2409,290-->
