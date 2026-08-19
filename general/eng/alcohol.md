@@ -38,7 +38,7 @@ In {@{catalytic dehydration}@}, {@{alcohols are dehydrated}@} by {@{passing thei
 
 ### nucleophilic substitution
 
-{@{Tertiary alcohols}@} react with {@{[hydrogen halides](hydrochloric%20acid.md) to produce tertiary [haloalkanes](haloalkane.md)}@}, while {@{primary and secondary ones require an activator like [zinc chloride](zinc%20chloride.md)}@}. {@{[Phosphorous trihalides](phosphorous%20trihalide.md)}@} can {@{substitute all of above alcohols}@}. <!--SR:!fsrs,2033-03-22T00:00:00.000Z,2430,2429.95452688,2.73076926,2,11,0,0,2026-07-27T00:00:00.000Z!2026-09-13,676,280!fsrs,2026-11-30T00:00:00.000Z,80,79.91182582,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2026-11-30T00:00:00.000Z,80,79.91182582,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2026-11-30T00:00:00.000Z,80,79.91182582,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
+{@{Tertiary alcohols}@} react with {@{[hydrogen halides](hydrochloric%20acid.md) to produce tertiary [haloalkanes](haloalkane.md)}@}, while {@{primary and secondary ones require an activator like [zinc chloride](zinc%20chloride.md)}@}. {@{[Phosphorous trihalides](phosphorous%20trihalide.md)}@} can {@{substitute all of above alcohols}@}. <!--SR:!fsrs,2033-03-22T00:00:00.000Z,2430,2429.95452688,2.73076926,2,11,0,0,2026-07-27T00:00:00.000Z!fsrs,2030-10-15T00:00:00.000Z,1492,1491.68221916,4.36585337,2,10,0,0,2026-09-14T00:00:00.000Z!fsrs,2026-11-30T00:00:00.000Z,80,79.91182582,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2026-11-30T00:00:00.000Z,80,79.91182582,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2026-11-30T00:00:00.000Z,80,79.91182582,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 ### oxidation
 

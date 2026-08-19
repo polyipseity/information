@@ -64,7 +64,7 @@ The proof is typically structured as {@{a base case (leaves)}@} followed by {@{a
 
 ## referential transparency
 
-{@{Functional programs}@} are {@{_pure_}@}: functions have {@{no side effects}@} and every expression denotes {@{a value that depends solely on its inputs}@}. This property—{@{_referential transparency_}@}—allows us to replace {@{any sub-expression with an equal one without changing program behaviour}@}. In {@{proofs}@}, it means we may freely {@{apply reduction rules (the equations defining `:::` or other functions) inside larger terms}@}. {@{The factorial example}@} below illustrates {@{this principle}@}. <!--SR:!2026-10-17,276,330!2026-09-27,259,330!2026-10-04,266,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!2026-09-13,245,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-04,266,330!2026-11-01,288,330!2026-10-15,274,330!2026-11-02,289,330-->
+{@{Functional programs}@} are {@{_pure_}@}: functions have {@{no side effects}@} and every expression denotes {@{a value that depends solely on its inputs}@}. This property—{@{_referential transparency_}@}—allows us to replace {@{any sub-expression with an equal one without changing program behaviour}@}. In {@{proofs}@}, it means we may freely {@{apply reduction rules (the equations defining `:::` or other functions) inside larger terms}@}. {@{The factorial example}@} below illustrates {@{this principle}@}. <!--SR:!2026-10-17,276,330!2026-09-27,259,330!2026-10-04,266,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-04,266,330!2026-11-01,288,330!2026-10-15,274,330!2026-11-02,289,330-->
 
 ## proofs
 
@@ -150,7 +150,7 @@ Let us prove {@{the associativity law}@} for lists: {@{`(xs ::: ys) ::: zs = xs 
 >   = x :: (xs1 ::: (ys ::: zs))  // by 2nd clause of :::
 > ```
 >
-> Both sides {@{reduce to the same expression}@}, completing {@{the inductive step}@}. Hence {@{associativity holds for all lists}@}. <!--SR:!2026-09-23,255,330!2026-10-26,283,330!2026-09-21,253,330!2026-10-16,275,330!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-01,263,330!2026-09-21,253,330!2026-10-17,276,330!2026-11-01,288,330!2026-10-20,278,330!2026-09-26,258,330!2026-09-13,245,330-->
+> Both sides {@{reduce to the same expression}@}, completing {@{the inductive step}@}. Hence {@{associativity holds for all lists}@}. <!--SR:!2026-09-23,255,330!2026-10-26,283,330!2026-09-21,253,330!2026-10-16,275,330!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-01,263,330!2026-09-21,253,330!2026-10-17,276,330!2026-11-01,288,330!2026-10-20,278,330!2026-09-26,258,330!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z-->
 
 ### proving `xs ::: Nil = xs`
 
@@ -269,7 +269,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > ```
 <!--SR:!2026-09-23,255,330!2026-10-09,268,330!2026-09-18,250,330!2026-09-24,256,330-->
 
-{@{The tree is binary}@} because {@{each internal node}@} has {@{at most two children}@}. {@{The _leaf_ constructor}@} is {@{`Empty`}@}; {@{the only _internal_ constructor}@} is {@{`NonEmpty`}@}. <!--SR:!2026-09-21,253,330!2026-11-08,294,330!fsrs,2029-06-30T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-09-18,250,330!2026-10-01,263,330!2026-09-13,245,330!2026-09-17,249,330-->
+{@{The tree is binary}@} because {@{each internal node}@} has {@{at most two children}@}. {@{The _leaf_ constructor}@} is {@{`Empty`}@}; {@{the only _internal_ constructor}@} is {@{`NonEmpty`}@}. <!--SR:!2026-09-21,253,330!2026-11-08,294,330!fsrs,2029-06-30T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-09-18,250,330!2026-10-01,263,330!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!2026-09-17,249,330-->
 
 > [!example] __proving empty contains nothing__
 >
@@ -365,7 +365,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 >
 > For {@{any sets $x$ and $y$ and element $e$}@}, {@{$$x.\text{union}(y).\text{contains}(e) = x.\text{contains}(e)\; \lor\; y.\text{contains}(e)$$}@} <!--SR:!2026-10-14,273,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-22,280,330!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z-->
 
-The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. The proof is more {@{difficult}@}. {@{The three properties above}@} only use {@{some properties of a binary tree}@} but not {@{those specific to a binary _search_ tree \(BST\)}@}. Indeed, the above three properties {@{still holds and can be proven very similarly}@} if `incl` {@{inserts `x` into both subtrees: `NonEmpty(elem, left.incl(x), right.incl(x))`}@}. The proof below, however, also {@{requires properties of a BST}@}. The trouble is that one needs to {@{additionally assume that only `Empty` and `incl` is used to build trees \(i.e. the constructor of `NonEmpty` cannot be used directly\)}@}, so that {@{any instances of `IntSet` are indeed BSTs}@}. {@{This required additional assumption}@} is {@{not very apparent}@}. <!--SR:!2026-10-13,272,330!2026-10-11,270,330!2026-10-04,266,330!2026-10-16,275,330!2026-10-13,272,330!2026-09-13,245,330!2026-11-07,293,330!2026-09-23,255,330!fsrs,2028-07-03T04:08:30.096Z,751,751.0504731,1,2,8,0,0,2026-06-13T04:08:30.096Z!2026-10-15,274,330!2026-10-19,277,330!2026-10-11,270,330!2026-09-25,257,330-->
+The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. The proof is more {@{difficult}@}. {@{The three properties above}@} only use {@{some properties of a binary tree}@} but not {@{those specific to a binary _search_ tree \(BST\)}@}. Indeed, the above three properties {@{still holds and can be proven very similarly}@} if `incl` {@{inserts `x` into both subtrees: `NonEmpty(elem, left.incl(x), right.incl(x))`}@}. The proof below, however, also {@{requires properties of a BST}@}. The trouble is that one needs to {@{additionally assume that only `Empty` and `incl` is used to build trees \(i.e. the constructor of `NonEmpty` cannot be used directly\)}@}, so that {@{any instances of `IntSet` are indeed BSTs}@}. {@{This required additional assumption}@} is {@{not very apparent}@}. <!--SR:!2026-10-13,272,330!2026-10-11,270,330!2026-10-04,266,330!2026-10-16,275,330!2026-10-13,272,330!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!2026-11-07,293,330!2026-09-23,255,330!fsrs,2028-07-03T04:08:30.096Z,751,751.0504731,1,2,8,0,0,2026-06-13T04:08:30.096Z!2026-10-15,274,330!2026-10-19,277,330!2026-10-11,270,330!2026-09-25,257,330-->
 
 > [!example] __`IntSet.union` property proof: part 1__
 >

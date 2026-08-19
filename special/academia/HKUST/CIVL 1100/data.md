@@ -218,7 +218,7 @@ See [John Hancock Center](John%20Hancock%20Center.md).
 
 See [Millau Viaduct](../../../../general/Millau%20Viaduct.md).
 
-- bridge type ::@:: cable-stayed road bridge <!--SR:!fsrs,2034-05-17T00:00:00.000Z,2851,2851.00173117,1,2,10,0,0,2026-07-27T00:00:00.000Z!2026-09-13,690,416-->
+- bridge type ::@:: cable-stayed road bridge <!--SR:!fsrs,2034-05-17T00:00:00.000Z,2851,2851.00173117,1,2,10,0,0,2026-07-27T00:00:00.000Z!fsrs,2032-01-08T00:00:00.000Z,1942,1942.40580021,1,2,10,0,0,2026-09-14T00:00:00.000Z-->
 - designers ::@:: Michel Virlogeux, Norman Foster <!--SR:!2029-07-29,1495,396!2027-01-26,801,416-->
 - geographic location ::@:: across the gorge valley of the Tarn near Millau in southern France <!--SR:!2028-12-25,1328,396!2029-05-17,1446,396-->
 - height ::@:: max pylon above base: 343 m, structural: 336.4 m <!--SR:!2029-12-21,1422,316!2026-12-05,758,416-->
@@ -291,7 +291,7 @@ See [Thames Barrier](../../../../general/Thames%20Barrier.md).
 - [dam type](../../../../general/dam.md#types) ::@:: [barrage](barrage%20(dam).md) <!--SR:!2031-12-22,2153,361!2032-03-14,2347,417-->
 - height ::@:: 20.1 m <!--SR:!2031-08-28,1913,301!2029-07-15,1409,380-->
 - image ::@:: ![Thames Barrier image](../../../../archives/Wikimedia%20Commons/Thames%20Barrier%2003.jpg) <!--SR:!2028-03-18,1126,380!2033-02-04,2604,420-->
-- length ::@:: 520 m <!--SR:!2026-12-03,550,280!2026-09-13,645,330-->
+- length ::@:: 520 m <!--SR:!2026-12-03,550,280!fsrs,2031-03-23T00:00:00.000Z,1651,1651.43458981,2.49272837,2,10,0,0,2026-09-14T00:00:00.000Z-->
 
 ## Tsing Ma Bridge
 

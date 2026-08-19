@@ -68,7 +68,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 
 #### `Coder.wordCode`
 
-With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeric string it represents}@}.  The method simply {@{upper-cases the word and looks up each character}@}: <!--SR:!2026-10-31,287,330!2026-10-16,276,330!2026-09-13,245,330!2026-10-12,272,330-->
+With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeric string it represents}@}.  The method simply {@{upper-cases the word and looks up each character}@}: <!--SR:!2026-10-31,287,330!2026-10-16,276,330!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!2026-10-12,272,330-->
 
 > [!example] __`Coder.wordCode`__
 >
@@ -148,7 +148,7 @@ These qualities illustrate why {@{immutable Scala collections}@} are considered 
 
 ## database
 
-{@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}. <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-09-13,245,330!2026-11-07,293,330!2026-10-20,276,330!2026-09-23,255,330-->
+{@{The Scala _for_ notation}@} is a concise syntax for expressing {@{compositional queries over collections}@}. {@{Its semantics}@} are essentially equivalent to {@{the map–flatMap–filter pipeline}@} that underlies {@{many database query languages}@}, and it can be applied to {@{any type that supplies `map`, `flatMap` and `withFilter` \(lazy version of `filter`\)}@}. <!--SR:!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!2026-11-07,293,330!2026-10-20,276,330!2026-09-23,255,330-->
 
 Consider {@{a simple in-memory catalog of books}@} represented as {@{a list}@}: <!--SR:!fsrs,2029-06-25T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-10-29,285,330-->
 
@@ -237,7 +237,7 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 > ```
 <!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-11,271,330!2026-11-01,288,330!2026-11-02,289,330!2026-10-20,276,330-->
 
-{@{An alternative to avoid duplicate book results}@} is to use {@{a `Set` to store the starting collection `books`}@}. Remember {@{`for` expressions}@} {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of `repeated` is a `Set` as well}@}, which {@{automagically deduplicates}@}. In most cases, {@{a `for` expression}@} returns {@{the same type as the starting collection type}@}. <!--SR:!2026-10-19,275,330!2026-10-20,276,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-12,272,330!2026-10-15,275,330!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-09-14,246,330!2026-10-14,274,330!2026-09-13,245,330-->
+{@{An alternative to avoid duplicate book results}@} is to use {@{a `Set` to store the starting collection `books`}@}. Remember {@{`for` expressions}@} {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of `repeated` is a `Set` as well}@}, which {@{automagically deduplicates}@}. In most cases, {@{a `for` expression}@} returns {@{the same type as the starting collection type}@}. <!--SR:!2026-10-19,275,330!2026-10-20,276,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-12,272,330!2026-10-15,275,330!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-09-14,246,330!2026-10-14,274,330!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z-->
 
 ### translating queries to higher-order functions
 

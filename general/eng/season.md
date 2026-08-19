@@ -13,7 +13,7 @@ tags:
 
 ### axial parallelism
 
-The [Earth's orbit](Earth's%20orbit.md) exhibits {@{approximate [axial parallelism](axial%20parallelism.md), mostly maintaining its direction toward [Polaris](Polaris.md) (the "[North Star](pole%20star.md)") year-round}@}. This is one of the primary reasons for the Earth's seasons, as it allows {@{the hemispheres to be tilted differently relative to the [Sun](Sun.md) depending on the Earth's position in the orbit}@}. Minor variation {@{in the direction of the axis, known as [axial precession](axial%20precession.md), takes place over the course of about 26&nbsp;000 years}@}, and therefore {@{is not noticeable to modern human civilization}@}. <!--SR:!2027-07-27,802,330!2026-09-13,562,310!2027-05-20,791,330!2032-05-02,2165,330-->
+The [Earth's orbit](Earth's%20orbit.md) exhibits {@{approximate [axial parallelism](axial%20parallelism.md), mostly maintaining its direction toward [Polaris](Polaris.md) (the "[North Star](pole%20star.md)") year-round}@}. This is one of the primary reasons for the Earth's seasons, as it allows {@{the hemispheres to be tilted differently relative to the [Sun](Sun.md) depending on the Earth's position in the orbit}@}. Minor variation {@{in the direction of the axis, known as [axial precession](axial%20precession.md), takes place over the course of about 26&nbsp;000 years}@}, and therefore {@{is not noticeable to modern human civilization}@}. <!--SR:!2027-07-27,802,330!fsrs,2029-08-03T00:00:00.000Z,1054,1054.09146837,5.50426382,2,10,0,0,2026-09-14T00:00:00.000Z!2027-05-20,791,330!2032-05-02,2165,330-->
 
 ### axial tilt
 
