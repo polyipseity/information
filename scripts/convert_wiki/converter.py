@@ -699,6 +699,11 @@ class WikiHtmlConverter:
         LatexConverter.replace_sfrac_with_math(ele, self._soup)
 
     @staticmethod
+    def _in_list_item(ele: Tag) -> bool:
+        """Return True when *ele* is nested inside a list item (<li>)."""
+        return any(isinstance(p, Tag) and p.name == "li" for p in ele.parents)
+
+    @staticmethod
     def _in_table_cell(ele: Tag) -> bool:
         """Check if element is nested inside a <td> or <th>."""
         return any(isinstance(p, Tag) and p.name in _TD_OR_TH for p in ele.parents)
@@ -895,14 +900,37 @@ class WikiHtmlConverter:
         # empty strings and produce stray blank lines (changing single-row
         # output).  Keep the current no-joiner behavior inside table cells.
         in_table = self._in_table_cell(ele)
+        in_list = self._in_list_item(ele)
         joiner = "" if in_table else "\n"
         if joiner:
             for child in tuple(ele.children):
                 if isinstance(child, NavigableString) and not child.strip():
                     child.extract()
         # Terminate the block with a blank line like <p> does, so a sole-math
-        # <dd> row is symmetric (blank line before and after).
-        return _HandlerConfig(joiner=joiner, suffix="" if in_table else "\n\n")
+        # <dd> row is symmetric (blank line before and after).  Inside a list
+        # item, however, the <dl> is inline content of the <li>: use the cell-
+        # internal ``<p>`` separator so the <li> stays on one line (e.g. a
+        # citation whose reference text spans a definition list).  The
+        # separator already supplies the space, so drop any leading whitespace
+        # on the text node that follows the <dl> to avoid a double space.
+        if in_table:
+            suffix = ""
+        elif in_list:
+            # The <dl> is inline content of the <li>: use the cell-internal
+            # ``<p>`` separator so the <li> stays on one line.  The separator
+            # already supplies a space; if the text node that follows the <dl>
+            # also carries a leading space (preserved by the inline-string
+            # handler), drop the suffix's trailing space to avoid a double
+            # space.  Otherwise keep the trailing space so the separator is not
+            # collapsed into the following text.
+            nxt = ele.next_sibling
+            if isinstance(nxt, NavigableString) and str(nxt)[:1] in " \t\n\r\x0b\x0c":
+                suffix = " <p>"
+            else:
+                suffix = " <p> "
+        else:
+            suffix = "\n\n"
+        return _HandlerConfig(joiner=joiner, suffix=suffix)
 
     def _handle_p(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render a <p> paragraph with appropriate spacing."""

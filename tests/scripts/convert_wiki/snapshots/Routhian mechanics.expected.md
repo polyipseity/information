@@ -40,9 +40,9 @@ where the second equation is the definition of the generalized momentum _p<sub>i
 
 The Routhian is intermediate between _L_ and _H_; some coordinates _q_<sub>1</sub>, _q_<sub>2</sub>, ..., _q_<sub>_n_</sub> are chosen to have corresponding generalized momenta _p_<sub>1</sub>, _p_<sub>2</sub>, ..., _p_<sub>_n_</sub>, the rest of the coordinates _ζ_<sub>1</sub>, _ζ_<sub>2</sub>, ..., _ζ<sub>s</sub>_ to have generalized velocities _dζ_<sub>1</sub>/<!-- markdown separator -->_dt_, _dζ_<sub>2</sub>/<!-- markdown separator -->_dt_, ..., _dζ<sub>s</sub>_<!-- markdown separator -->/<!-- markdown separator -->_dt_, and time may appear explicitly;<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup>
 
-|                                                                                                                                                                                  __Routhian__                                                                                                                                                                                  |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| \(_n_ + _s_ degrees of freedom\) $$R(q_{1},\ldots ,q_{n},\zeta _{1},\ldots ,\zeta _{s},p_{1},\ldots ,p_{n},{\dot {\zeta } }_{1},\ldots ,{\dot {\zeta } }_{s},t)=\sum _{i=1}^{n}p_{i}{\dot {q} }_{i}(p_{i})-L(q_{1},\ldots ,q_{n},\zeta _{1},\ldots ,\zeta _{s},{\dot {q} }_{1}(p_{1}),\ldots ,{\dot {q} }_{n}(p_{n}),{\dot {\zeta } }_{1},\ldots ,{\dot {\zeta } }_{s},t)\,,$$ |
+|                                                                                                                                                 __Routhian__ \(_n_ + _s_ degrees of freedom\)                                                                                                                                                 |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| $$R(q_{1},\ldots ,q_{n},\zeta _{1},\ldots ,\zeta _{s},p_{1},\ldots ,p_{n},{\dot {\zeta } }_{1},\ldots ,{\dot {\zeta } }_{s},t)=\sum _{i=1}^{n}p_{i}{\dot {q} }_{i}(p_{i})-L(q_{1},\ldots ,q_{n},\zeta _{1},\ldots ,\zeta _{s},{\dot {q} }_{1}(p_{1}),\ldots ,{\dot {q} }_{n}(p_{n}),{\dot {\zeta } }_{1},\ldots ,{\dot {\zeta } }_{s},t)\,,$$ |
 
 where again the generalized velocity _dq_<sub>_i_</sub>/<!-- markdown separator -->_dt_ is to be expressed as a function of generalized momentum _p<sub>i</sub>_ via its defining relation. The choice of which _n_ coordinates are to have corresponding momenta, out of the _n_ + _s_ coordinates, is arbitrary.
 
@@ -144,9 +144,9 @@ $${\frac {\partial R}{\partial t} }=-{\frac {\partial L}{\partial t} }\,.$$
 
 The first two are identically the Hamiltonian equations. Equating the total time derivative of the fourth set of equations with the third \(for each value of _j_\) gives the Lagrangian equations. The fifth is just the same relation between time partial derivatives as before. To summarize<sup>[\[6\]](#^ref-6)</sup>
 
-|                                                                                                                                __Routhian equations of motion__                                                                                                                               |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| \(_n_ + _s_ degrees of freedom\) $${\dot {q} }_{i}={\frac {\partial R}{\partial p_{i} } }\,,\quad {\dot {p} }_{i}=-{\frac {\partial R}{\partial q_{i} } }\,,$$ <br/> $${\frac {d}{dt} }{\frac {\partial R}{\partial {\dot {\zeta } }_{j} } }={\frac {\partial R}{\partial \zeta _{j} } }\,.$$ |
+|                                                                                              __Routhian equations of motion__ \(_n_ + _s_ degrees of freedom\)                                                                                               |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| $${\dot {q} }_{i}={\frac {\partial R}{\partial p_{i} } }\,,\quad {\dot {p} }_{i}=-{\frac {\partial R}{\partial q_{i} } }\,,$$ <br/> $${\frac {d}{dt} }{\frac {\partial R}{\partial {\dot {\zeta } }_{j} } }={\frac {\partial R}{\partial \zeta _{j} } }\,.$$ |
 
 The total number of equations is 2<!-- markdown separator -->_n_ + _s_, there are 2<!-- markdown separator -->_n_ Hamiltonian equations plus _s_ Lagrange equations.
 
@@ -452,7 +452,9 @@ The _z_ equation is trivial to integrate, but the _r_ and _θ_ equations are not
 
 ## see also
 
-> ![icon](../../archives/Wikimedia%20Commons/Square%20root%20of%20x.svg) [Mathematics portal](https://en.wikipedia.org/wiki/Portal:Mathematics) ![icon](../../archives/Wikimedia%20Commons/Stylised%20atom%20with%20three%20Bohr%20model%20orbits%20and%20stylised%20nucleus.svg) [Physics portal](https://en.wikipedia.org/wiki/Portal:Physics)
+> ![icon](../../archives/Wikimedia%20Commons/Square%20root%20of%20x.svg) [Mathematics portal](https://en.wikipedia.org/wiki/Portal:Mathematics)
+>
+> ![icon](../../archives/Wikimedia%20Commons/Stylised%20atom%20with%20three%20Bohr%20model%20orbits%20and%20stylised%20nucleus.svg) [Physics portal](https://en.wikipedia.org/wiki/Portal:Physics)
 
 - [Calculus of variations](calculus%20of%20variations.md)
 - [Phase space](phase%20space.md)
@@ -464,9 +466,7 @@ The _z_ equation is trivial to integrate, but the _r_ and _θ_ equations are not
 
 1. The coordinates are functions of time, so the Lagrangian always has implicit time-dependence via the coordinates. If the Lagrangian changes with time irrespective of the coordinates, usually due to some time-dependent potential, then the Lagrangian is said to have "explicit" time-dependence. Similarly for the Hamiltonian and Routhian functions. <a id="^nb-1"></a>^nb-1
 2. For two functions _u_ and _v_, the differential of the product is _d_\(_uv_\) = _udv_ + _vdu_. <a id="^nb-2"></a>^nb-2
-3. The potential energy is actually $$V=mg\ell (1-\cos \theta )\,,$$ <a id="^nb-3"></a>^nb-3
-
- but since the first term is constant, it can be ignored in the Lagrangian \(and Routhian\) which only depend on derivatives of coordinates and velocities. Subtracting this from the kinetic energy means a plus sign in the Lagrangian, not minus.
+3. The potential energy is actually $$V=mg\ell (1-\cos \theta )\,,$$ <p> but since the first term is constant, it can be ignored in the Lagrangian \(and Routhian\) which only depend on derivatives of coordinates and velocities. Subtracting this from the kinetic energy means a plus sign in the Lagrangian, not minus. <a id="^nb-3"></a>^nb-3
 
 ## notes
 
