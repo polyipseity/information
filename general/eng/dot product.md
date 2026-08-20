@@ -114,7 +114,7 @@ __[Product rule](product%20rule.md)__ <p> ::@:: &emsp; If $\mathbf {a}$ and $\ma
 
 > {@{![Triangle with vector edges __a__ and __b__, separated by angle _θ_](../../archives/Wikimedia%20Commons/Dot%20product%20cosine%20rule.svg)}@}
 >
-> Triangle with {@{vector edges __a__ and __b__, separated by angle _θ_}@} <!--SR:!2026-09-15,459,383!fsrs,2032-06-24T00:00:00.000Z,2114,2113.75154719,1,2,10,0,0,2026-09-10T00:00:00.000Z-->
+> Triangle with {@{vector edges __a__ and __b__, separated by angle _θ_}@} <!--SR:!fsrs,2030-05-29T00:00:00.000Z,1351,1351.13132779,1,2,10,0,0,2026-09-16T00:00:00.000Z!fsrs,2032-06-24T00:00:00.000Z,2114,2113.75154719,1,2,10,0,0,2026-09-10T00:00:00.000Z-->
 
 - Main article: ::@:: [Law of cosines](law%20of%20cosines.md) <!--SR:!fsrs,2031-12-05T00:00:00.000Z,1960,1959.6876961,1,2,10,0,0,2026-07-24T00:00:00.000Z!fsrs,2032-03-10T00:00:00.000Z,2033,2032.87519052,1,2,10,0,0,2026-08-16T00:00:00.000Z-->
 

@@ -1285,7 +1285,7 @@ Repeated parameters are especially handy for {@{constructing collections without
 
 ## evaluation
 
-The {@{2 major evaluation strategies for functions}@} are {@{call by value \(CBV\) and call by name \(CBN\)}@}. Scala by default uses {@{CBV}@}. To {@{specify CBN for a particular parameter}@}, {@{specify the type using `=> <type>` instead of `<type>`}@}. <!--SR:!fsrs,2029-10-19T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-08-23T00:00:00.000Z!fsrs,2029-09-11T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-12T00:00:00.000Z!fsrs,2028-11-08T00:00:00.000Z,785,785.28000147,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!2026-09-15,281,330!fsrs,2029-09-30T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-08-19T00:00:00.000Z-->
+The {@{2 major evaluation strategies for functions}@} are {@{call by value \(CBV\) and call by name \(CBN\)}@}. Scala by default uses {@{CBV}@}. To {@{specify CBN for a particular parameter}@}, {@{specify the type using `=> <type>` instead of `<type>`}@}. <!--SR:!fsrs,2029-10-19T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-08-23T00:00:00.000Z!fsrs,2029-09-11T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-12T00:00:00.000Z!fsrs,2028-11-08T00:00:00.000Z,785,785.28000147,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2028-11-09T00:00:00.000Z,785,785.28000147,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!fsrs,2029-09-30T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-08-19T00:00:00.000Z-->
 
 ### tail recursion
 

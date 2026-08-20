@@ -104,7 +104,7 @@ Current assets are {@{the most liquid assets of a firm}@}, which are expected to
 - [investee companies](company.md) ::@:: expected to be held less than one financial period <!--SR:!2027-08-29,826,330!2031-04-20,1823,330-->
 - [prepaid expenses](deferral.md) ::@:: expenses paid for in advance for use during that financial period <!--SR:!2027-01-13,652,330!2029-04-10,1302,350-->
 
-Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!2026-09-15,549,310-->
+Non-current assets include {@{[fixed](fixed%20asset.md) or long-term assets and [intangible assets](intangible%20asset.md)}@}: <!--SR:!fsrs,2030-05-29T00:00:00.000Z,1351,1351.46259894,3.24197837,2,10,0,0,2026-09-16T00:00:00.000Z-->
 
 - _fixed (long-term) assets_ ::@:: property, building, equipment (such as factory machinery) <!--SR:!2028-10-19,1165,350!2028-02-02,931,330-->
 - _intangible assets_ ::@:: copyrights, trademarks, patents, goodwill <!--SR:!fsrs,2032-02-18T00:00:00.000Z,1993,1992.81597955,1,2,10,0,0,2026-09-04T00:00:00.000Z!2027-06-13,767,330-->

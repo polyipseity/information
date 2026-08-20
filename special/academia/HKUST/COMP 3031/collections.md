@@ -137,7 +137,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!2026-10-27,283,330!2026-10-11,269,330!2026-10-10,268,330!2026-10-21,279,330!2026-11-08,294,330!fsrs,2029-08-21T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-14T00:00:00.000Z!2026-10-26,282,330-->
 
-The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-11-08,294,330!2026-09-26,254,330!2026-10-18,276,330!fsrs,2028-07-09T14:11:53.577Z,756,756.20650093,1,2,8,0,0,2026-06-14T14:11:53.577Z!2026-11-01,288,330!2026-09-23,251,330!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z!2026-09-15,243,330!2026-10-26,282,330-->
+The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-11-08,294,330!2026-09-26,254,330!2026-10-18,276,330!fsrs,2028-07-09T14:11:53.577Z,756,756.20650093,1,2,8,0,0,2026-06-14T14:11:53.577Z!2026-11-01,288,330!2026-09-23,251,330!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-26,282,330-->
 
 {@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!2026-09-18,246,330!2026-10-01,259,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-20,248,330-->
 
@@ -194,7 +194,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 > ```
 <!--SR:!2026-10-17,275,330!2026-10-05,263,330-->
 
-Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-10-12,270,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-03,261,330!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-09-15,243,330-->
+Because {@{each recursive call}@} concatenates {@{a singleton list to the result of reversing the tail}@}, the complexity is {@{quadratic, `O(xs.length²)`}@}. {@{A linear-time implementation}@} would use {@{an accumulator}@}. <!--SR:!2026-10-12,270,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-03,261,330!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z-->
 
 {@{Removing the _n_-th element}@} can be defined by {@{pattern matching on the index}@}: <!--SR:!2026-10-29,285,330!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z-->
 
@@ -402,7 +402,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 >
 > {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. <!--SR:!2026-12-17,325,350!fsrs,2029-01-27T00:00:00.000Z,908,908.17175288,1,2,9,0,0,2026-08-03T00:00:00.000Z!2027-01-03,342,350!2026-12-31,339,350-->
 
-{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear-time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!2026-09-15,243,330!2026-10-09,267,330!2026-12-27,335,350!2027-01-05,344,350-->
+{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear-time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-09,267,330!2026-12-27,335,350!2027-01-05,344,350-->
 
 > [!example] __`foldLeft` example__
 >
@@ -480,7 +480,7 @@ The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, v
 - `unzip` ::@:: Splits a sequence of pairs into two separate sequences. <!--SR:!2026-10-11,269,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
 - `flatMap(f)` ::@:: Applies a collection-valued function to each element and concatenates the results. <!--SR:!2026-10-02,260,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z-->
 - `sum`, `product` ::@:: Aggregate numeric collections. <!--SR:!2026-10-10,268,330!2026-10-26,282,330-->
-- `max`, `min` ::@:: Return the largest or smallest element (requires an implicit `Ordering`). <!--SR:!2026-09-15,243,330!2026-11-04,290,330-->
+- `max`, `min` ::@:: Return the largest or smallest element (requires an implicit `Ordering`). <!--SR:!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-11-04,290,330-->
 
 These operations are typically implemented via {@{recursion or tail-recursion}@} over {@{the underlying list structure}@}. <!--SR:!2026-10-27,283,330!2026-11-02,289,330-->
 
@@ -668,7 +668,7 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 
 ## set
 
-{@{Scala's collections library}@} supplies {@{the immutable `Set`}@}, which represents {@{an _unordered_ collection of _distinct_ elements}@}. Sets are declared {@{in the same way as sequences}@}: <!--SR:!2026-09-22,250,330!2026-09-16,244,330!2026-09-15,243,330!2026-10-25,281,330-->
+{@{Scala's collections library}@} supplies {@{the immutable `Set`}@}, which represents {@{an _unordered_ collection of _distinct_ elements}@}. Sets are declared {@{in the same way as sequences}@}: <!--SR:!2026-09-22,250,330!2026-09-16,244,330!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-25,281,330-->
 
 > [!example] __`Set` construction__
 >

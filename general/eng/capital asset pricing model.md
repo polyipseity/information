@@ -104,7 +104,7 @@ All investors:<sup>[\[7\]](#^ref-7)</sup>
 
 1. \(annotation: objective\) ::@:: Aim to maximize economic utilities \(Asset quantities are given and fixed\). <!--SR:!fsrs,2029-08-04T01:43:31.850Z,1145,1145.44606232,1,2,9,0,0,2026-06-16T01:43:31.850Z!2029-05-22,1089,350-->
 2. \(annotation: utility function\) ::@:: Are rational and risk-averse. <!--SR:!fsrs,2029-11-29T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-07-15T00:00:00.000Z!fsrs,2030-09-16T00:00:00.000Z,1477,1476.94107398,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
-3. \(annotation: diversification\) ::@:: Are broadly diversified across a range of investments. <!--SR:!2029-07-07,1135,350!2026-09-15,338,350-->
+3. \(annotation: diversification\) ::@:: Are broadly diversified across a range of investments. <!--SR:!2029-07-07,1135,350!fsrs,2028-09-08T00:00:00.000Z,723,722.78646445,4.50849392,2,9,0,0,2026-09-16T00:00:00.000Z-->
 4. \(annotation: price\) ::@:: Are price takers, i.e., they cannot influence prices. <!--SR:!2029-05-14,1093,350!2029-07-27,1152,350-->
 5. \(annotation: loan\) ::@:: Can lend and borrow unlimited amounts under the risk free rate of interest. <!--SR:!fsrs,2030-04-26T00:00:00.000Z,1373,1373.20074297,1,2,9,0,0,2026-07-23T00:00:00.000Z!fsrs,2030-08-31T00:00:00.000Z,1465,1465.02564741,1,2,9,0,0,2026-08-27T00:00:00.000Z-->
 6. \(annotation: cost\) ::@:: Trade without transaction or taxation costs. <!--SR:!fsrs,2029-08-16T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-06-20T00:00:00.000Z!fsrs,2030-05-01T00:00:00.000Z,1373,1373.20074297,1,2,9,0,0,2026-07-28T00:00:00.000Z-->

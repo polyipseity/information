@@ -44,7 +44,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [complimentary](https://en.wiktionary.org/wiki/complimentary) ::@:: \(c\_y\) In the nature of a [compliment](../../../general/compliment.md); or free, provided at no charge. <!--SR:!2027-09-15,717,244!fsrs,2033-01-17T05:07:12.961Z,2409,2409.23742168,1,2,10,0,0,2026-06-14T05:07:12.961Z-->
 - [consequent](https://en.wiktionary.org/wiki/consequent) ::@:: \(c\_t\) Following as a result, inference, or natural effect. <!--SR:!2030-03-15,1793,412!2034-07-13,3037,412-->
 - [criterion](https://en.wiktionary.org/wiki/criterion) ::@:: \(c\_n\) A standard or test to judge and compare things. <!--SR:!2027-05-09,977,430!2031-01-15,1967,370-->
-- [deliver](https://en.wiktionary.org/wiki/deliver) ::@:: \(d\_r\) To bring or transport something to its destination. <!--SR:!2032-10-28,2560,416!2026-09-15,745,416-->
+- [deliver](https://en.wiktionary.org/wiki/deliver) ::@:: \(d\_r\) To bring or transport something to its destination. <!--SR:!2032-10-28,2560,416!fsrs,2032-05-27T00:00:00.000Z,2080,2079.96567264,1,2,11,0,0,2026-09-16T00:00:00.000Z-->
 - [deprecate](https://en.wiktionary.org/wiki/deprecate) ::@:: \(d_e\) To declare something obsolescent; to recommend against a function, technique, command, etc. that still works but has been replaced. <!--SR:!2028-09-16,917,449!2028-09-28,927,449-->
 - [deprecation](https://en.wiktionary.org/wiki/deprecation) ::@:: \(d_n\) The act of deprecating. <!--SR:!2028-09-21,921,449!2028-09-19,919,449-->
 - [depreciate](https://en.wiktionary.org/wiki/depreciate) ::@:: \(d_e\) To lessen in price or estimated value; to lower the worth of. <!--SR:!2028-10-03,932,449!2027-11-25,660,429-->

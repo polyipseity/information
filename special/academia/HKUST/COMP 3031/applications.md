@@ -51,7 +51,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 
 #### `Coder.charCode`
 
-{@{The first helper, `charCode`}@}, maps {@{any alphabetic character to its corresponding digit}@}. Using {@{a for-comprehension}@} we {@{invert the `mnemonics` map}@}: <!--SR:!2026-10-27,283,330!2026-09-15,247,330!2026-09-16,248,330!2026-10-11,271,330-->
+{@{The first helper, `charCode`}@}, maps {@{any alphabetic character to its corresponding digit}@}. Using {@{a for-comprehension}@} we {@{invert the `mnemonics` map}@}: <!--SR:!2026-10-27,283,330!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-09-16,248,330!2026-10-11,271,330-->
 
 > [!example] __`Coder.charCode`__
 >
@@ -200,7 +200,7 @@ The same syntax can be used to {@{find all books whose title}@} contains {@{the 
 
 ### complex database queries
 
-{@{A slightly more involved query}@} finds {@{authors}@} who appear in {@{at least two distinct book records}@}: <!--SR:!2026-10-19,275,330!2026-10-12,272,330!2026-09-15,247,330-->
+{@{A slightly more involved query}@} finds {@{authors}@} who appear in {@{at least two distinct book records}@}: <!--SR:!2026-10-19,275,330!2026-10-12,272,330!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z-->
 
 > [!example] __complex database query filtering by author with duplicates__
 >

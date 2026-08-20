@@ -71,7 +71,7 @@ Below, the accompanying code to the right is {@{a piece of pseudo C code showing
 
 Common instruction variants include {@{immediate `_i`, unsigned `_u` \(`_i` comes before `_u`\)}@}. The former {@{indicates that the instruction takes an 16-bit immediate operand in place of a register operand}@}. The latter {@{indicates that the instruction interprets the operands as unsigned integers, and additionally does not _trap_ on _overflow_}@}. Note that {@{signed integers in MIPS are always encoded using two's complement}@}. <!--SR:!fsrs,2031-01-02T00:00:00.000Z,1656,1656.35686083,1,2,10,0,0,2026-06-21T00:00:00.000Z!fsrs,2030-09-30T08:13:27.857Z,1576,1575.71518216,1,2,9,0,0,2026-06-07T08:13:27.857Z!fsrs,2030-12-08T02:44:25.370Z,1636,1636.47556058,1,2,9,0,0,2026-06-16T02:44:25.370Z!fsrs,2032-01-01T00:00:00.000Z,1956,1955.61016068,1,2,10,0,0,2026-08-24T00:00:00.000Z-->
 
-One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise}@} between {@{expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2029-07-17,1233,350!2026-09-15,145,310!fsrs,2026-12-18T08:13:43.291Z,194,194.27342385,1,2,6,0,0,2026-06-07T08:13:43.291Z-->
+One would notice that {@{some reasonable instructions are missing}@}. This is an example of {@{good design compromise}@} between {@{expressiveness and too many instructions reducing performance of all instructions}@}. <!--SR:!2029-07-17,1233,350!fsrs,2027-11-01T00:00:00.000Z,411,410.53158835,3.24197837,2,8,0,0,2026-09-16T00:00:00.000Z!fsrs,2026-12-18T08:13:43.291Z,194,194.27342385,1,2,6,0,0,2026-06-07T08:13:43.291Z-->
 
 ### program counter
 

@@ -148,7 +148,7 @@ The content is in teaching order.
     - blues / characteristics ::@:: call and response, sadness <!--SR:!2031-02-27,1764,380!2031-05-13,1826,380-->
     - blues / examples ::@:: "Crossroad" — Robert Johnson <!--SR:!2028-01-13,779,340!fsrs,2031-03-14T05:22:32.444Z,1734,1734.07818821,1,2,10,0,0,2026-06-14T05:22:32.444Z-->
     - blues / ambiguity ::@:: It may refer to a genre, a song form, or a sound/note. <!--SR:!fsrs,2031-04-27T00:00:00.000Z,1770,1770.44545581,1,2,10,0,0,2026-06-22T00:00:00.000Z!2031-04-07,1793,380-->
-    - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!2026-09-15,443,320!2027-08-04,704,340-->
+    - blues / origins ::@:: Alabama, Mississippi; black immigration to escape lynching, persecution, and prosecution in the 1880s and 1890s <!--SR:!fsrs,2029-11-06T00:00:00.000Z,1147,1146.77639317,2.86735337,2,10,0,0,2026-09-16T00:00:00.000Z!2027-08-04,704,340-->
     - blues / contribution to jazz ::@:: blue melodies, blue notes, call and response, simplicity and freedom <!--SR:!fsrs,2031-03-11T05:22:32.940Z,1731,1731.19391569,1,2,10,0,0,2026-06-14T05:22:32.940Z!2031-05-02,1818,380-->
     - [blue note](../../../../general/blue%20note.md) ::@:: a note that—for expressive purposes—is sung or played at a slightly different pitch from standard; added by African Americans in their interpretation of the pentatonic scales <!--SR:!2029-04-28,1202,360!2028-11-06,1076,360-->
 - [gospel music](../../../../general/gospel%20music.md) ::@:: a traditional genre of Christian music and a cornerstone of Christian media <!--SR:!2028-10-14,1058,360!2031-04-17,1803,380-->

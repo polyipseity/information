@@ -625,7 +625,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[ɵ\]:@:[close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md) <!--SR:!2027-11-09,860,301-->
 - \[œ\]:@:[open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md) <!--SR:!2026-10-18,731,313-->
 - \[œ̃\]:@:[nasalized open-mid front rounded vowel](nasal%20vowel.md) <!--SR:!2031-04-16,2062,358-->
-- \[ɶ\]:@:[open front rounded vowel](open%20front%20rounded%20vowel.md) <!--SR:!2026-09-15,764,331-->
+- \[ɶ\]:@:[open front rounded vowel](open%20front%20rounded%20vowel.md) <!--SR:!fsrs,2030-09-19T00:00:00.000Z,1464,1463.95298311,4.98148462,2,11,0,0,2026-09-16T00:00:00.000Z-->
 - \[p\]:@:[voiceless bilabial plosive](voiceless%20bilabial%20plosive.md) <!--SR:!2028-06-01,1309,351-->
 - \[q\]:@:[voiceless uvular plosive](voiceless%20uvular%20plosive.md) <!--SR:!fsrs,2028-06-14T05:52:38.322Z,730,730.22869558,2.45526587,2,9,0,0,2026-06-15T05:52:38.322Z-->
 - \[r\]:@:[voiced alveolar trill](voiced%20alveolar%20trill.md) <!--SR:!2027-11-30,1181,371-->
@@ -684,7 +684,7 @@ Here is a list of common IPA letters and their pronunciations:
 
 - [open front unrounded vowel](open%20front%20unrounded%20vowel.md):@:![open front unrounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20unrounded%20vowel.ogg) <!--SR:!2029-09-08,1555,351-->
 - [open central unrounded vowel](open%20central%20unrounded%20vowel.md):@:![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg) <!--SR:!2026-12-16,315,264-->
-- [near-open central vowel](near-open%20central%20vowel.md):@:![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg) <!--SR:!2026-09-15,736,264-->
+- [near-open central vowel](near-open%20central%20vowel.md):@:![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg) <!--SR:!fsrs,2030-01-13T00:00:00.000Z,1215,1214.84681935,6.64939921,2,11,0,0,2026-09-16T00:00:00.000Z-->
 - [open back unrounded vowel](open%20back%20unrounded%20vowel.md):@:![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg) <!--SR:!2028-02-26,1302,333-->
 - [nasalized open back unrounded vowel](nasal%20vowel.md):@:![nasalized open back unrounded vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg) <!--SR:!2029-05-06,1401,311-->
 - [open back rounded vowel](open%20back%20rounded%20vowel.md):@:![open back rounded vowel](../../archives/Wikimedia%20Commons/PR-open%20back%20rounded%20vowel.ogg) <!--SR:!2028-07-12,1303,324-->
@@ -809,7 +809,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![nasalized open back unrounded vowel](../../archives/Wikimedia%20Commons/Fr-en.ogg):@:[nasalized open back unrounded vowel](nasal%20vowel.md) <!--SR:!2027-01-21,547,233-->
 - ![open back rounded vowel](../../archives/Wikimedia%20Commons/PR-open%20back%20rounded%20vowel.ogg):@:[open back rounded vowel](open%20back%20rounded%20vowel.md) <!--SR:!2028-01-18,611,272-->
 - ![open-mid back unrounded vowel](../../archives/Wikimedia%20Commons/PR-open-mid%20back%20unrounded%20vowel2.ogg):@:[open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md) <!--SR:!fsrs,2028-02-29T04:00:26.709Z,624,623.79048254,7.76964035,2,10,0,0,2026-06-15T04:00:26.709Z-->
-- ![near-open front unrounded vowel](../../archives/Wikimedia%20Commons/Near-open%20front%20unrounded%20vowel.ogg):@:[near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md) <!--SR:!fsrs,2026-09-16T00:00:00.000Z,75,75.30923395,9.98522837,2,7,0,0,2026-07-03T00:00:00.000Z-->
+- ![near-open front unrounded vowel](../../archives/Wikimedia%20Commons/Near-open%20front%20unrounded%20vowel.ogg):@:[near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md) <!--SR:!fsrs,2026-12-12T00:00:00.000Z,87,87.32684228,9.97542228,2,8,0,0,2026-09-16T00:00:00.000Z-->
 - ![voiced bilabial plosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20plosive.ogg):@:[voiced bilabial plosive](voiced%20bilabial%20plosive.md) <!--SR:!fsrs,2026-09-23T00:00:00.000Z,74,74.08182209,9.98522837,2,7,0,0,2026-07-11T00:00:00.000Z-->
 - ![voiced bilabial implosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20implosive.ogg):@:[voiced bilabial implosive](voiced%20bilabial%20implosive.md) <!--SR:!fsrs,2028-04-11T00:00:00.000Z,639,639.43835987,4.44077837,2,9,0,0,2026-07-12T00:00:00.000Z-->
 - ![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg):@:[voiced bilabial fricative](voiced%20bilabial%20fricative.md) <!--SR:!2026-12-22,232,231-->
