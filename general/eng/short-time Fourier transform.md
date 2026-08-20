@@ -184,7 +184,7 @@ Applying {@{the recursive formula to calculate $X(n\Delta _{t},m\Delta _{f})$}@}
 
 ### implementation comparison
 
-\(annotation: Below, notations include: {@{$T$ is time signal length, $F$ is number of frequencies, $Q$ is \(about half of\) bucket length, and $N$ is FFT size}@}.\)
+\(annotation: Below, {@{notations}@} include: {@{$T$ is time signal length, $F$ is number of frequencies}@}, {@{$Q$ is \(about half of\) bucket length, and $N$ is FFT size}@}.\)
 
 | Method                | Complexity        |
 | --------------------- | ----------------- |
