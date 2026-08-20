@@ -53,7 +53,7 @@ return await memorize_table(
 - [bauxite](bauxite.md)→::@::←[chalcopyrite](chalcopyrite.md), copper pyrite <!--SR:!2029-01-07,1472,310!2029-09-23,1801,330-->
 - [chalcopyrite](chalcopyrite.md), copper pyrite→::@::←[cinnabar](cinnabar.md), cinnabarite <!--SR:!2027-08-08,772,250!2031-02-22,1912,290-->
 - [cinnabar](cinnabar.md), cinnabarite→::@::←[galena](galena.md) <!--SR:!2032-06-24,2379,290!2028-06-09,1280,290-->
-- [galena](galena.md)→::@::←[hematite](hematite.md) <!--SR:!2027-11-12,1130,290!2026-09-14,526,270-->
+- [galena](galena.md)→::@::←[hematite](hematite.md) <!--SR:!2027-11-12,1130,290!fsrs,2029-11-09T00:00:00.000Z,1151,1150.50759693,4.74047837,2,10,0,0,2026-09-15T00:00:00.000Z-->
 - [hematite](hematite.md)→::@::←_(end)_ <!--SR:!2027-04-29,1155,350!2032-12-16,2492,330-->
 
 <!--/pytextgen-->

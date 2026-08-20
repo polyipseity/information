@@ -334,7 +334,7 @@ The function composition is {@{[associative](associative%20property.md)}@} in th
 >
 > {@{![Another composition. In this example, \(g ∘ f \)\(c\) = \#.](../../archives/Wikimedia%20Commons/Compfun.svg)}@}
 >
-> Another composition. In this example, {@{\(_g_<!-- markdown separator --> ∘ <!-- markdown separator -->_f_<!-- markdown separator --> \)\(c\) = \#}@}. <!--SR:!2030-05-10,1516,370!2028-09-25,1014,350!2026-09-14,160,330!2031-01-08,1703,370!2030-04-04,1485,370!2027-05-09,613,330!2030-07-26,1556,370-->
+> Another composition. In this example, {@{\(_g_<!-- markdown separator --> ∘ <!-- markdown separator -->_f_<!-- markdown separator --> \)\(c\) = \#}@}. <!--SR:!2030-05-10,1516,370!2028-09-25,1014,350!fsrs,2028-01-04T00:00:00.000Z,476,475.98309858,2.49272837,2,8,0,0,2026-09-15T00:00:00.000Z!2031-01-08,1703,370!2030-04-04,1485,370!2027-05-09,613,330!2030-07-26,1556,370-->
 
 ### image and preimage
 

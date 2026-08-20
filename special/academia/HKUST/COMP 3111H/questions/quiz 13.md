@@ -26,7 +26,7 @@ tags:
 
 ## hints
 
-1. software testing / non-goals ::@:: It cannot show the _absence_ of software errors, e.g. ensuring no bugs. <!--SR:!2026-09-14,228,330!2026-10-13,254,330-->
+1. software testing / non-goals ::@:: It cannot show the _absence_ of software errors, e.g. ensuring no bugs. <!--SR:!fsrs,2028-06-28T00:00:00.000Z,652,651.91453369,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!2026-10-13,254,330-->
 2. software testing / goals ::@:: Find discrepancies between _expected_ and _actual_ behavior, e.g. finding bugs. <p> There are 2 aspects: _validation_ and _verification_. <!--SR:!2026-09-23,237,330!2026-10-05,246,330-->
 3. test case / taxonomy / regression ::@:: Re-tests after _changes_ to ensure _no new defects appear_; mixes white and black box techniques, with more emphasized on white box. <!--SR:!2026-10-09,250,330!2026-10-10,251,330-->
 4. [white-box testing](../../../../../general/white-box%20testing.md) ::@:: It is a method of software testing that tests internal structures or workings of an application, as opposed to its functionality (i.e. black-box testing). <!--SR:!2026-09-22,236,330!2026-10-04,245,330-->

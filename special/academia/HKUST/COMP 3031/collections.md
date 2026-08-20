@@ -177,7 +177,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 >     case x :: xs1   => x :: xs1 ::: ys
 >   }
 > ```
-<!--SR:!2026-09-14,242,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-21,279,330-->
+<!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-21,279,330-->
 
 {@{Reversal}@} can be _naively_ written by {@{recursively reversing the tail and appending the head}@}: <!--SR:!2026-10-10,268,330!2026-09-21,249,330-->
 
@@ -231,7 +231,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 
 {@{Typical list algorithms}@} fall into {@{three broad categories}@}: \(annotation: 3 items: {@{map, filter, reduce/fold}@}\) <!--SR:!fsrs,2028-07-21T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-07T00:00:00.000Z!2026-09-28,256,330!2026-09-17,245,330-->
 
-- __Mapping__ ::@:: – transform every element in a list. <!--SR:!2026-09-14,242,330!2026-09-30,258,330-->
+- __Mapping__ ::@:: – transform every element in a list. <!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!2026-09-30,258,330-->
 - __Filtering__ ::@:: – extract all elements that satisfy a predicate. <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-21,249,330-->
 - __Reduction / Folding__ ::@:: – combine the elements of a list with an associative operator. <!--SR:!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!2026-10-31,287,330-->
 
@@ -332,7 +332,7 @@ As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@
 
 ### reduce
 
-{@{The generic `reduceLeft`}@} inserts {@{a binary operator between adjacent elements}@} in a {@{left-associative manner}@}: <!--SR:!2026-09-28,256,330!2026-09-29,257,330!2026-09-14,242,330-->
+{@{The generic `reduceLeft`}@} inserts {@{a binary operator between adjacent elements}@} in a {@{left-associative manner}@}: <!--SR:!2026-09-28,256,330!2026-09-29,257,330!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
 
 > [!example] __`reduceLeft`__
 >
@@ -402,7 +402,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 >
 > {@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. <!--SR:!2026-12-17,325,350!fsrs,2029-01-27T00:00:00.000Z,908,908.17175288,1,2,9,0,0,2026-08-03T00:00:00.000Z!2027-01-03,342,350!2026-12-31,339,350-->
 
-{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear-time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!2026-09-14,242,330!2026-09-15,243,330!2026-10-09,267,330!2026-12-27,335,350!2027-01-05,344,350-->
+{@{Analogous definitions}@} exist for {@{`reduceRight` and `foldRight`}@}. For {@{an example of `foldLeft`}@}, {@{a linear-time reverse}@} is obtained by {@{folding left with an empty list as the initial value and prepending each element}@}: <!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!2026-09-15,243,330!2026-10-09,267,330!2026-12-27,335,350!2027-01-05,344,350-->
 
 > [!example] __`foldLeft` example__
 >
@@ -574,7 +574,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > val m2 = m1 + ("blue" -> 3)      // blue now maps to 3
 > val m3 = m1 ++ Map("blue" -> 3)  // same as above
 > ```
-<!--SR:!2026-09-24,252,330!2026-09-14,242,330!2026-10-18,276,330!2026-10-01,259,330!2026-10-12,270,330!2026-10-18,276,330-->
+<!--SR:!2026-09-24,252,330!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!2026-10-18,276,330!2026-10-01,259,330!2026-10-12,270,330!2026-10-18,276,330-->
 
 {@{Both operations}@} are {@{purely functional}@}: {@{the original map}@} {@{remains unchanged}@}. <!--SR:!2026-09-20,248,330!2026-11-03,290,330!2026-10-18,276,330!2026-11-04,290,330-->
 

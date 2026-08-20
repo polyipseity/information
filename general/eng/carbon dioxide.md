@@ -18,7 +18,7 @@ Carbon dioxide can be tested using {@{calcium compounds or [hydrogencarbonate in
 
 #### calcium compounds
 
-When carbon dioxide is {@{passed into aqueous [calcium hydroxide](calcium%20hydroxide.md) solution}@}, {@{solid [calcium carbonate](calcium%20carbonate.md) and [water](water.md)}@} is formed. {@{Formation of white precipitates}@} can be observed. When {@{excess}@} carbon dioxide is passed into the solution, {@{calcium carbonate reacts with carbon dioxide and water}@} to give {@{[calcium hydrogencarbonate](calcium%20hydrogencarbonate.md)}@}. {@{Dissolution of white precipitates}@} can be observed: <!--SR:!2028-11-01,1494,250!2030-10-10,1940,250!2034-05-17,2910,246!2032-10-15,2661,286!2026-09-14,1103,266!2036-10-11,3789,286!2032-07-01,2300,246-->
+When carbon dioxide is {@{passed into aqueous [calcium hydroxide](calcium%20hydroxide.md) solution}@}, {@{solid [calcium carbonate](calcium%20carbonate.md) and [water](water.md)}@} is formed. {@{Formation of white precipitates}@} can be observed. When {@{excess}@} carbon dioxide is passed into the solution, {@{calcium carbonate reacts with carbon dioxide and water}@} to give {@{[calcium hydrogencarbonate](calcium%20hydrogencarbonate.md)}@}. {@{Dissolution of white precipitates}@} can be observed: <!--SR:!2028-11-01,1494,250!2030-10-10,1940,250!2034-05-17,2910,246!2032-10-15,2661,286!fsrs,2032-10-25T00:00:00.000Z,2232,2231.99571071,4.89032837,2,11,0,0,2026-09-15T00:00:00.000Z!2036-10-11,3789,286!2032-07-01,2300,246-->
 
 > test for carbon dioxide with calcium compouunds
 >

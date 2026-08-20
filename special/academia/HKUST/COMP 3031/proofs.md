@@ -57,7 +57,7 @@ Because {@{list construction is recursive}@}, structural induction mirrors {@{th
 
 Unlike {@{list induction}@}, which relies on {@{a single predecessor element}@}, {@{tree induction}@} proceeds from {@{the leaves upward}@}. The general principle is: <!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-08,267,330!2026-10-19,277,330!2026-11-08,294,330-->
 
-- inductive hypotheses ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$. <!--SR:!2026-09-16,248,330!2026-09-14,246,330-->
+- inductive hypotheses ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$. <!--SR:!2026-09-16,248,330!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z-->
 - induction step ::@:: Then, for each constructor of internal nodes—say an internal node $n$ with sub-trees $s_{1},\dots ,s_{k}$—prove that the conjunction $\bigwedge_{i} P(s_{i})$ implies $P(n)$. <!--SR:!2026-09-19,251,330!2026-10-23,281,330-->
 
 The proof is typically structured as {@{a base case (leaves)}@} followed by {@{an inductive step for each node constructor}@}. The technique guarantees that {@{any property established in this way}@} holds for {@{all trees, no matter how deeply nested}@}. <!--SR:!2026-09-23,255,330!2026-10-10,269,330!2026-10-12,271,330!2026-10-01,263,330-->
@@ -99,7 +99,7 @@ We wish to prove that for {@{all integers $n \ge 4$}@}, {@{$$\texttt{factorial}(
 >   = 2^(n+1).                // by exponentiation rule
 > ```
 >
-> Each line follows from {@{a referentially transparent rewrite}@}: the first uses {@{the recursive clause}@}, the second uses {@{arithmetic comparison}@}, and the third applies {@{the induction hypothesis}@}. Thus the property {@{holds for all $n \ge 4$}@}. <!--SR:!2026-09-20,252,330!2026-09-21,253,330!2026-10-06,268,330!2026-09-25,257,330!2026-09-20,252,330!2026-09-22,254,330!2026-10-20,278,330!2026-09-14,246,330!2026-09-26,258,330!2026-09-23,255,330-->
+> Each line follows from {@{a referentially transparent rewrite}@}: the first uses {@{the recursive clause}@}, the second uses {@{arithmetic comparison}@}, and the third applies {@{the induction hypothesis}@}. Thus the property {@{holds for all $n \ge 4$}@}. <!--SR:!2026-09-20,252,330!2026-09-21,253,330!2026-10-06,268,330!2026-09-25,257,330!2026-09-20,252,330!2026-09-22,254,330!2026-10-20,278,330!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!2026-09-26,258,330!2026-09-23,255,330-->
 
 ### proving associativity of `:::` by structural induction
 
@@ -222,7 +222,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 
 A further law often used in functional programming is that {@{mapping a function over the concatenation of two lists}@} equals {@{the concatenation of the mapped sublists}@}: {@{`(xs ::: ys).map(f) = xs.map(f) ::: ys.map(f)`}@}. <!--SR:!2026-10-31,287,330!2026-10-27,284,330!2026-11-06,292,330-->
 
-To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base case}@} follows from {@{`Nil.map(f) = Nil` and `Nil ::: ys = ys`}@}. In {@{the inductive step}@}, we rely on {@{both clauses of `:::` and on the two equations defining `map`}@}: <!--SR:!2026-10-01,263,330!2026-09-14,246,330!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-19,251,330!2026-11-05,291,330-->
+To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base case}@} follows from {@{`Nil.map(f) = Nil` and `Nil ::: ys = ys`}@}. In {@{the inductive step}@}, we rely on {@{both clauses of `:::` and on the two equations defining `map`}@}: <!--SR:!2026-10-01,263,330!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-19,251,330!2026-11-05,291,330-->
 
 > [!example] __`map` definition__
 >
@@ -333,7 +333,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{$z > x$ and $z > y$ \($z$ is largest, i.e. $x < y < z$ or $y < x < z$\)}@} – {@{analogous reasoning applies to the left child}@}.
 > - If {@{$x < z < y$ or $y < z < x$ \($z$ is in the middle\)}@} – `incl(y)` {@{recurses into one child and "modifies" it}@}, while `incl(y).contains(x)` {@{recurses into the other "unmodified" child}@}; consequently {@{both side reduces into the same expression}@}.
 >
-> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-14,273,330!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-11-02,289,330!2026-10-26,283,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2027-07-04,458,310!2026-09-14,246,330!2026-10-20,278,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-31,287,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z-->
+> {@{All possible orderings of $(x, y, z)$ \(6 permutations\)}@} are covered, completing {@{the inductive proof}@}. <!--SR:!2026-10-28,285,330!2026-10-10,269,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,276,330!2026-10-23,281,330!2026-09-20,252,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-14,273,330!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-11-02,289,330!2026-10-26,283,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!2027-07-04,458,310!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!2026-10-20,278,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-31,287,330!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z-->
 
 ### proving set union property
 

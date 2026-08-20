@@ -73,7 +73,7 @@ tags:
 > ```
 <!--SR:!2026-09-27,259,330!2026-09-18,250,330!fsrs,2028-07-05T02:18:54.079Z,752,751.99117189,1,2,8,0,0,2026-06-14T02:18:54.079Z-->
 
-The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {@{sorts each half}@}, and finally {@{merges the two sorted sub-lists}@}. <!--SR:!2026-09-14,246,330!fsrs,2029-07-12T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-08-28T00:00:00.000Z!2026-09-23,255,330-->
+The algorithm first splits {@{the list in half using `splitAt`}@}, recursively {@{sorts each half}@}, and finally {@{merges the two sorted sub-lists}@}. <!--SR:!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2029-07-12T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-08-28T00:00:00.000Z!2026-09-23,255,330-->
 
 #### merge sort splitting
 

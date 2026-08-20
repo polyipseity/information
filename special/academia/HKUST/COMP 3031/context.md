@@ -186,7 +186,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 >   ...  // omitted
 > ```
 >
-> can be written with {@{an unnamed `Ordering[T]`}@}, yet internally {@{each `merge` and `sort` implicitly receives the same ordering}@}. <!--SR:!2026-09-19,238,330!2027-01-01,328,349!2027-01-20,341,349!2027-01-23,344,349!2026-09-14,233,330-->
+> can be written with {@{an unnamed `Ordering[T]`}@}, yet internally {@{each `merge` and `sort` implicitly receives the same ordering}@}. <!--SR:!2026-09-19,238,330!2027-01-01,328,349!2027-01-20,341,349!2027-01-23,344,349!fsrs,2028-01-21T00:00:00.000Z,493,492.57579613,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
 
 {@{Writing `(using Ordering[T])` inside a parameter list}@} is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}. <!--SR:!2026-10-02,251,330!2026-12-21,319,349!2026-10-05,254,330!2026-12-09,309,349!2028-01-18,627,411-->
 
@@ -474,7 +474,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252
 
 ### type class in other languages
 
-{@{Haskell}@} treats {@{type classes}@} as {@{a first-class feature of the language}@}.  {@{The standard library}@} defines {@{an `Ordering` data type}@} ({@{`data Ordering = LT | EQ | GT`}@}) and declares {@{the class}@} <!--SR:!2027-01-27,348,349!2027-01-02,329,349!2027-01-27,348,349!2026-11-30,300,349!2027-01-28,349,349!2026-12-19,317,349!2026-09-14,233,330-->
+{@{Haskell}@} treats {@{type classes}@} as {@{a first-class feature of the language}@}.  {@{The standard library}@} defines {@{an `Ordering` data type}@} ({@{`data Ordering = LT | EQ | GT`}@}) and declares {@{the class}@} <!--SR:!2027-01-27,348,349!2027-01-02,329,349!2027-01-27,348,349!2026-11-30,300,349!2027-01-28,349,349!2026-12-19,317,349!fsrs,2028-01-21T00:00:00.000Z,493,492.57579613,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
 
 > [!example] __type class in Haskell__
 >

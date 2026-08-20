@@ -80,7 +80,7 @@ return chain.from_iterable([r.value for r in results])
 - centroid linkage clustering→::@::←[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2028-12-07,1134,295!2027-10-21,912,295-->
 - [complete-linkage clustering](complete-linkage%20clustering.md)→::@::←median linkage clustering <!--SR:!2027-04-14,779,295!2029-01-31,1269,295-->
 - median linkage clustering→::@::←[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2027-12-29,965,295!2030-08-09,1702,315-->
-- [single-linkage clustering](single-linkage%20clustering.md)→::@::←unweighted average linkage clustering <!--SR:!2029-10-26,1482,315!2026-09-14,506,235-->
+- [single-linkage clustering](single-linkage%20clustering.md)→::@::←unweighted average linkage clustering <!--SR:!2029-10-26,1482,315!fsrs,2028-11-16T00:00:00.000Z,793,793.29035499,7.37133238,2,10,0,0,2026-09-15T00:00:00.000Z-->
 - unweighted average linkage clustering→::@::←weighted average linkage clustering <!--SR:!fsrs,2030-11-29T00:00:00.000Z,1611,1611.07406284,2.73076926,2,10,0,0,2026-07-02T00:00:00.000Z!2028-07-17,1143,315-->
 - weighted average linkage clustering→::@::←_(end)_ <!--SR:!2027-10-04,960,335!2027-10-19,868,315-->
 

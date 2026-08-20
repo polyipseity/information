@@ -73,7 +73,7 @@ return chain.from_iterable([r.value for r in results])
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE)→::@::←[low-density polyethylene](low-density%20polyethylene.md) (LDPE) <!--SR:!2028-08-25,1541,354!2028-03-27,1325,341-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE)→::@::←[polyethylene terephthalate](polyethylene%20terephthalate.md) (PET) <!--SR:!2029-01-01,1265,254!2027-06-25,1115,334-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET)→::@::←[polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex <!--SR:!2029-01-04,1124,269!2030-05-01,1609,269-->
-- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex→::@::←[polypropylene](polypropylene.md) (PP) <!--SR:!2026-09-14,514,194!2030-02-08,1682,294-->
+- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex→::@::←[polypropylene](polypropylene.md) (PP) <!--SR:!fsrs,2028-08-29T00:00:00.000Z,714,714.42918299,8.39199653,2,10,0,0,2026-09-15T00:00:00.000Z!2030-02-08,1682,294-->
 - [polypropylene](polypropylene.md) (PP)→::@::←[polystyrene](polystyrene.md) (PS) <!--SR:!2033-09-17,2695,294!fsrs,2032-02-02T00:00:00.000Z,2042,2041.59116392,2.78080001,2,10,0,0,2026-07-01T00:00:00.000Z-->
 - [polystyrene](polystyrene.md) (PS)→::@::←[polyvinyl chloride](polyvinyl%20chloride.md) (PVC) <!--SR:!2027-03-25,1048,334!fsrs,2033-01-09T00:00:00.000Z,2368,2367.82944844,2.43058475,2,11,0,0,2026-07-17T00:00:00.000Z-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC)→::@::←_(end)_ <!--SR:!2028-05-01,1449,354!2027-07-03,1121,334-->

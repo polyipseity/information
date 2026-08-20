@@ -57,7 +57,7 @@ Loads on civil engineering can be separated into {@{<!--pytextgen generate secti
 - _(begin)_→::@::←[dead load](#dead%20load) <!--SR:!2027-12-25,1018,348!2029-11-23,1581,360-->
 - [dead load](#dead%20load)→::@::←[environmental load](#environmental%20load) <!--SR:!fsrs,2031-12-15T00:00:00.000Z,1993,1992.81597955,1,2,10,0,0,2026-07-01T00:00:00.000Z!2031-04-23,1923,330-->
 - [environmental load](#environmental%20load)→::@::←[live load](#live%20load) <!--SR:!2027-08-30,845,290!2030-06-15,1594,328-->
-- [live load](#live%20load)→::@::←[load combinations](#load%20combinations) <!--SR:!2026-09-14,602,320!2027-05-29,848,330-->
+- [live load](#live%20load)→::@::←[load combinations](#load%20combinations) <!--SR:!fsrs,2030-11-03T00:00:00.000Z,1510,1510.34943245,2.86735337,2,10,0,0,2026-09-15T00:00:00.000Z!2027-05-29,848,330-->
 - [load combinations](#load%20combinations)→::@::←[other loads](#other%20loads) <!--SR:!2029-12-12,1481,310!2027-09-06,915,340-->
 - [other loads](#other%20loads)→::@::←_(end)_ <!--SR:!2029-10-15,1551,360!2028-02-03,1043,340-->
 

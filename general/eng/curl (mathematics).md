@@ -12,7 +12,7 @@ tags:
 
 # curl
 
-- {@{"Rotor \(operator\)"}@} redirects here. For {@{the geometric algebra concept}@}, see {@{[Rotor \(mathematics\)](rotor%20(mathematics).md)}@}. For other uses, see {@{[Rotation operator \(disambiguation\)](rotation%20operator%20(disambiguation).md)}@}. <!--SR:!2026-11-01,379,362!2026-09-14,339,362!2026-11-17,392,362!2026-10-28,378,374-->
+- {@{"Rotor \(operator\)"}@} redirects here. For {@{the geometric algebra concept}@}, see {@{[Rotor \(mathematics\)](rotor%20(mathematics).md)}@}. For other uses, see {@{[Rotation operator \(disambiguation\)](rotation%20operator%20(disambiguation).md)}@}. <!--SR:!2026-11-01,379,362!fsrs,2028-09-27T00:00:00.000Z,743,743.49795748,4.20976295,2,9,0,0,2026-09-15T00:00:00.000Z!2026-11-17,392,362!2026-10-28,378,374-->
 
 > {@{![Depiction of a two-dimensional vector field with a uniform curl.](../../archives/Wikimedia%20Commons/Uniform%20curl.svg)}@}
 >

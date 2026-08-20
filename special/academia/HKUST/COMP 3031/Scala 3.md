@@ -1285,7 +1285,7 @@ Repeated parameters are especially handy for {@{constructing collections without
 
 ## evaluation
 
-The {@{2 major evaluation strategies for functions}@} are {@{call by value \(CBV\) and call by name \(CBN\)}@}. Scala by default uses {@{CBV}@}. To {@{specify CBN for a particular parameter}@}, {@{specify the type using `=> <type>` instead of `<type>`}@}. <!--SR:!fsrs,2029-10-19T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-08-23T00:00:00.000Z!fsrs,2029-09-11T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-12T00:00:00.000Z!2026-09-14,281,330!2026-09-15,281,330!fsrs,2029-09-30T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-08-19T00:00:00.000Z-->
+The {@{2 major evaluation strategies for functions}@} are {@{call by value \(CBV\) and call by name \(CBN\)}@}. Scala by default uses {@{CBV}@}. To {@{specify CBN for a particular parameter}@}, {@{specify the type using `=> <type>` instead of `<type>`}@}. <!--SR:!fsrs,2029-10-19T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-08-23T00:00:00.000Z!fsrs,2029-09-11T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-12T00:00:00.000Z!fsrs,2028-11-08T00:00:00.000Z,785,785.28000147,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!2026-09-15,281,330!fsrs,2029-09-30T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-08-19T00:00:00.000Z-->
 
 ### tail recursion
 
@@ -1297,7 +1297,7 @@ Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}
 
 Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\)}@} according to {@{the _source code_ \(lexical scoping\)}@}. <!--SR:!fsrs,2028-04-18T00:00:00.000Z,582,582.3769952,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2029-07-23T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-31T00:00:00.000Z!fsrs,2028-09-01T15:40:06.042Z,812,812.23824198,1,2,9,0,0,2026-06-12T15:40:06.042Z!fsrs,2029-10-20T00:00:00.000Z,1149,1148.84272749,1,2,9,0,0,2026-08-28T00:00:00.000Z-->
 
-Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2026-09-30,294,330!fsrs,2029-11-24T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-24,289,330!2027-07-07,519,399!2026-09-14,275,370!2027-05-12,471,390-->
+Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!2026-09-30,294,330!fsrs,2029-11-24T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-24,289,330!2027-07-07,519,399!fsrs,2029-01-20T00:00:00.000Z,858,857.72656793,1,2,9,0,0,2026-09-15T00:00:00.000Z!2027-05-12,471,390-->
 
 ## syntax
 

@@ -78,7 +78,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 > private def wordCode(word: String): String =
 >   word.toUpperCase.map(charCode)
 > ```
-<!--SR:!fsrs,2029-06-20T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-08-29T00:00:00.000Z!2026-10-12,272,330!2026-10-30,286,330!2026-09-14,246,330-->
+<!--SR:!fsrs,2029-06-20T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-08-29T00:00:00.000Z!2026-10-12,272,330!2026-10-30,286,330!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z-->
 
 #### `Coder.wordsForNum`
 
@@ -237,7 +237,7 @@ Running {@{this against the sample list}@} returns {@{each qualifying author twi
 > ```
 <!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-11,271,330!2026-11-01,288,330!2026-11-02,289,330!2026-10-20,276,330-->
 
-{@{An alternative to avoid duplicate book results}@} is to use {@{a `Set` to store the starting collection `books`}@}. Remember {@{`for` expressions}@} {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of `repeated` is a `Set` as well}@}, which {@{automagically deduplicates}@}. In most cases, {@{a `for` expression}@} returns {@{the same type as the starting collection type}@}. <!--SR:!2026-10-19,275,330!2026-10-20,276,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-12,272,330!2026-10-15,275,330!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-09-14,246,330!2026-10-14,274,330!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z-->
+{@{An alternative to avoid duplicate book results}@} is to use {@{a `Set` to store the starting collection `books`}@}. Remember {@{`for` expressions}@} {@{desugar to `map`, `flatMap`, and `withFilter`}@}. Since these operations {@{usually return the same type as that of the original collection}@}, this means {@{the resulting type of `repeated` is a `Set` as well}@}, which {@{automagically deduplicates}@}. In most cases, {@{a `for` expression}@} returns {@{the same type as the starting collection type}@}. <!--SR:!2026-10-19,275,330!2026-10-20,276,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-12,272,330!2026-10-15,275,330!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!2026-10-14,274,330!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z-->
 
 ### translating queries to higher-order functions
 
