@@ -1219,7 +1219,9 @@ class WikiHtmlConverter:
             parts = [
                 line.removeprefix("- ").removeprefix("* ") for line in lines if line
             ]
-            return _ADJACENT_RE.sub(r"\g<0> ", " ".join(parts))
+            # Separate portal items with a blank line so each renders on its
+            # own ``> `` line inside a blockquote (e.g. the "see also" box).
+            return _ADJACENT_RE.sub(r"\g<0> ", "\n\n".join(parts))
 
         return _HandlerConfig(process_strings=process)
 
