@@ -53,7 +53,7 @@ def a_method(arg1, arg2):
   print(str(arg1) + str(an_attribute) + str(arg2))
 ```
 
-It is possible to have {@{no parameters}@}. Each parameter is {@{separated by a comma `,`}@}. <!--SR:!2026-10-14,283,330!2026-09-17,256,330-->
+It is possible to have {@{no parameters}@}. Each parameter is {@{separated by a comma `,`}@}. <!--SR:!2026-10-14,283,330!fsrs,2028-09-10T00:00:00.000Z,723,722.71793178,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z-->
 
 ### constructor
 

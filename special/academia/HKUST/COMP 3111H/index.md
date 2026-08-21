@@ -105,7 +105,7 @@ The content is in teaching order.
     - COMP 3111H / objectives ::@:: _disciplined_ approach to software development, theoretical and practical aspects of software engineering <!--SR:!fsrs,2029-05-14T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-07-19T00:00:00.000Z!fsrs,2029-12-13T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
     - COMP 3111H / course intended learning outcomes \(CILO\)
     - COMP 3111H / motivation ::@:: communication, design, leadership, modeling, project management, etc. <!--SR:!2026-09-28,288,330!2026-10-03,292,330-->
-    - COMP 3111H / syllabus ::@:: introduction → modeling language → development approaches → development activities → project management <!--SR:!2026-09-17,279,330!2026-10-05,294,330-->
+    - COMP 3111H / syllabus ::@:: introduction → modeling language → development approaches → development activities → project management <!--SR:!fsrs,2028-11-06T00:00:00.000Z,780,780.29610418,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-05,294,330-->
     - COMP 3111H / rules
     - COMP 3111H / project ::@:: specification \(from system requirements\) → implementation and testing <!--SR:!2028-12-09,938,458!fsrs,2028-12-01T03:50:14.945Z,909,908.59437321,1,2,8,0,0,2026-06-06T03:50:14.945Z-->
 - [§ week 1 pre-lecture](#week%201%20pre-lecture)
@@ -278,7 +278,7 @@ The content is in teaching order.
     - project risk management / risk
         - project risk management / risk / characteristics ::@:: accuracy of estimates of characteristics \(e.g. rationale, etc.\), consequences \(e.g. nature, scope, timing, etc.\), likelihood \(e.g. boolean, probabilities, subjective, etc.\) <p> Use these to _prioritize_ tasks by _perceived impact_ on the project. <!--SR:!2027-01-17,367,378!2027-05-05,462,391-->
     - project risk management / mitigations
-        - project risk management / mitigations / characteristics ::@:: benefit, cost <p> We should perform cost—benefit analysis, e.g. letting the risk happen if its impact is very small, etc. <!--SR:!2026-09-17,273,371!2026-12-29,346,378-->
+        - project risk management / mitigations / characteristics ::@:: benefit, cost <p> We should perform cost—benefit analysis, e.g. letting the risk happen if its impact is very small, etc. <!--SR:!fsrs,2029-01-17T00:00:00.000Z,852,852.20346373,1,2,9,0,0,2026-09-18T00:00:00.000Z!2026-12-29,346,378-->
 - [Pareto principle](../../../../general/Pareto%20principle.md) ::@:: It states that, for many outcomes, roughly 80% of consequences come from 20% of causes \(the "vital few"\). <!--SR:!2027-07-04,513,398!2027-07-11,519,398-->
 - project risk management
     - project risk management / Pareto principle ::@:: 80% of risk _impact_ is roughly accounted by 20% of identified risks \(in numbers\). <!--SR:!2027-01-23,371,378!2027-07-24,530,398-->

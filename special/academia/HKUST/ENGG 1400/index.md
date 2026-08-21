@@ -196,7 +196,7 @@ The content is in teaching order.
 
 - datetime: 2024-11-07T10:30:00+08:00/2024-11-07T12:20:00+08:00
 - assignments: [odyssey planning – 3 versions of my life](assignments/odyssey%20planning%20–%203%20versions%20of%20my%20life/submission.md)
-- mindfulness ::@:: Paying attention to the present moment on purpose non-judgementally. <!--SR:!2026-09-17,542,417!2026-09-26,551,417-->
+- mindfulness ::@:: Paying attention to the present moment on purpose non-judgementally. <!--SR:!fsrs,2031-01-01T00:00:00.000Z,1566,1566.43833473,1,2,10,0,0,2026-09-18T00:00:00.000Z!2026-09-26,551,417-->
     - mindfulness / simple ::@:: Attend to own breathing. Relax. Ask: What is the most important _right now_? <!--SR:!2027-09-26,847,437!2027-09-14,835,437-->
 - activity 1: attention exercise ::@:: Learn to pay attention. Maybe try not looking at your phone. Go out and observe other things. Record your observations. <!--SR:!2026-11-27,602,417!2026-10-26,575,417-->
     - activity 1: attention exercise / debrief ::@:: Pay attention to paying attention. It is important to develop __attention of attention__: to know if your attention has wandered away. __Awareness of awareness__ is also important: an overarching awareness. <!--SR:!2027-07-22,806,437!2027-08-06,821,437-->

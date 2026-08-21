@@ -358,7 +358,7 @@ If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{com
 If, after {@{searching the above scopes}@}, {@{more than one candidate exists}@}, the compiler selects {@{the _most specific_ one}@}. {@{A candidate is _more specific_ than another}@} when {@{at least one of the following 4 items hold}@}: \(annotation: 4 items: {@{lexical scope, hierarchy, subtyping, generic instance}@}\) <!--SR:!2026-12-27,324,349!2026-09-23,242,330!fsrs,2029-04-03T00:00:00.000Z,960,960.02764612,1,2,9,0,0,2026-08-17T00:00:00.000Z!2027-01-02,329,349!2027-06-04,457,391!2027-05-31,454,391-->
 
 - specificity: lexical scope ::@:: A definition that is in a closer lexical scope is more specific; or <!--SR:!2026-12-14,312,349!2026-11-13,283,349-->
-- specificity: hierarchy ::@:: A definition that is in a subclass is more specific than one that in a superclass. <!--SR:!2026-09-17,236,330!2027-01-29,350,349-->
+- specificity: hierarchy ::@:: A definition that is in a subclass is more specific than one that in a superclass. <!--SR:!fsrs,2028-07-21T00:00:00.000Z,672,672.22887022,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2027-01-29,350,349-->
 - specificity: subtyping ::@:: A definition that has a type that is a subclass of the type of the other definition is more specific. <!--SR:!2027-01-02,329,349!2027-01-25,346,349-->
 - specificity: generic instance ::@:: A definition that has a type that is a generic instance \(e.g. `Type[Int]`\) of the type of the other definition \(e.g. `Type[T]` where `T` is generic\) is more specific. <!--SR:!2026-09-21,240,330!2026-12-31,327,349-->
 

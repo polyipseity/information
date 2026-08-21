@@ -140,7 +140,7 @@ For {@{any sufficiently large number _N_ and for any Δ ≥ \(ln ln _N_\)<sup>3<
 
 ### minimal order
 
-For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers}@}, {@{any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2029-09-10,1195,281!2026-11-05,188,150!fsrs,2026-09-18T00:00:00.000Z,54,54.28686185,1,2,3,0,0,2026-07-26T00:00:00.000Z-->
+For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯ of positive integers}@}, {@{any constant 0 \< _c_ \< ⁠1/ln 2⁠, and any sufficiently large _i_}@}:<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n_{i})>\left(\ln n_{i}\right)^{c\ln \ln \ln n_{i} }.$$}@} <!--SR:!2029-09-10,1195,281!2026-11-05,188,150!fsrs,2027-04-10T00:00:00.000Z,204,204.06478343,1,2,4,0,0,2026-09-18T00:00:00.000Z-->
 
 ### small values
 

@@ -206,7 +206,7 @@ The content is in teaching order.
     - King Oliver / later life ::@:: developed gum disease and lost the ability to play, mostly forgotten and died broke <!--SR:!fsrs,2032-01-21T00:00:00.000Z,1996,1996.32986052,1,2,10,0,0,2026-08-04T00:00:00.000Z!2029-08-02,1298,375-->
 - [polyphony](../../../../general/polyphony.md) ::@:: a type of musical texture consisting of two or more simultaneous lines of independent melody <!--SR:!2029-09-27,1349,375!2029-09-21,1343,375-->
     - polyphony / jazz ::@:: polyphonic/collective improvisation, with many melody lines playing at the same time; later, Louis Armstrong would change this <!--SR:!2030-01-17,1434,375!2028-01-03,832,355-->
-- [Sidney Bechet](../../../../general/Sidney%20Bechet) (1897–1959) ::@:: from New Orleans; the first clarinetist and soprano sax player to achieve fame in jazz <!--SR:!2029-08-22,1318,375!2026-09-17,451,335-->
+- [Sidney Bechet](../../../../general/Sidney%20Bechet) (1897–1959) ::@:: from New Orleans; the first clarinetist and soprano sax player to achieve fame in jazz <!--SR:!2029-08-22,1318,375!fsrs,2030-01-15T00:00:00.000Z,1215,1214.78583758,2.30541587,2,10,0,0,2026-09-18T00:00:00.000Z-->
     - Sidney Bechet / achievements ::@:: He played with King Oliver in Chicago. He was one of the first African Americans to leave the United States and went to have a career in Europe. It was said he made his instrument sound like a woman. <!--SR:!2030-01-02,1423,375!2027-11-23,798,355-->
     - Sidney Bechet / works ::@:: "Summertime" (1939) — Sidney Bechet <!--SR:!fsrs,2031-07-03T00:00:00.000Z,1783,1782.89493557,1,2,10,0,0,2026-08-15T00:00:00.000Z!2027-06-01,665,355-->
 - [vibrato](../../../../general/vibrato.md) ::@:: a musical effect consisting of a regular, pulsating change of pitch; articulate the pitch to create a pulsating effect <!--SR:!2029-08-19,1315,375!2028-01-02,831,355-->
@@ -271,7 +271,7 @@ The content is in teaching order.
 - [Lindi-Hop](../../../../general/Lindy%20Hop.md)
     - Lindi-Hop / name ::@:: named after Charles Lindberg <!--SR:!2031-04-15,1795,398!2026-10-26,497,398-->
 - [jazz](../../../../general/jazz.md)
-    - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!2026-09-17,471,398!2026-10-04,485,398-->
+    - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!fsrs,2030-07-01T00:00:00.000Z,1382,1382.49131002,1,2,10,0,0,2026-09-18T00:00:00.000Z!2026-10-04,485,398-->
 - [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!2026-10-21,492,398!fsrs,2031-04-14T00:00:00.000Z,1719,1718.82780688,1,2,10,0,0,2026-07-30T00:00:00.000Z-->
     - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!fsrs,2031-06-20T00:00:00.000Z,1771,1770.8569414,1,2,10,0,0,2026-08-14T00:00:00.000Z!2031-02-23,1767,398-->
     - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!2026-11-13,515,398!2026-11-22,524,398-->

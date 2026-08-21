@@ -97,7 +97,7 @@ Common themes of unit vectors occur {@{throughout [physics](physics.md) and [geo
 >     - Parallel to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\parallel }$ <!--SR:!2026-10-04,140,405!2026-10-02,138,405-->
 >     - Parallel to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Perpendicular%20and%20parallel%20unit%20vectors.svg) <p> One unit vector $\mathbf {\hat {e} } _{\parallel }$ aligned parallel to a principal direction \(red line\), and a perpendicular unit vector $\mathbf {\hat {e} } _{\bot }$ is in any radial direction relative to the principal line. <!--SR:!2026-09-28,135,405!2026-09-18,126,405-->
 > - Perpendicular to some axis/line in some radial direction
->     - Perpendicular to some axis/line in some radial direction / Nomenclature ::@:: $\mathbf {\hat {e} } _{\bot }$ <!--SR:!2026-10-04,140,405!2026-09-17,125,405-->
+>     - Perpendicular to some axis/line in some radial direction / Nomenclature ::@:: $\mathbf {\hat {e} } _{\bot }$ <!--SR:!2026-10-04,140,405!fsrs,2027-11-20T00:00:00.000Z,428,427.99440451,1,2,8,0,0,2026-09-18T00:00:00.000Z-->
 > - Possible angular deviation relative to some axis/line
 >     - Possible angular deviation relative to some axis/line / Nomenclature ::@:: $\mathbf {\hat {e} } _{\angle }$ <!--SR:!2026-09-21,129,405!2026-09-22,129,405-->
 >     - Possible angular deviation relative to some axis/line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Angular%20unit%20vector.svg) <p> Unit vector at acute deviation angle _φ_ \(including 0 or _π_/2 rad\) relative to a principal direction. <!--SR:!2026-10-01,137,405!2026-09-21,129,405-->

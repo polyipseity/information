@@ -173,7 +173,7 @@ The steps for naming an organic compound are:
 - [identify numbering direction](#identify%20numbering%20direction)→::@::←number and [prefix](#prefix%20for%20type%20count) substituents and bonds <!--SR:!2030-05-18,1582,210!2033-10-06,2776,285-->
 - number and [prefix](#prefix%20for%20type%20count) substituents and bonds→::@::←[arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix <!--SR:!2028-10-04,964,227!2027-03-29,824,230-->
 - [arrange](#arrange): prefix(es) + [prefix for carbon count](#prefix%20for%20carbon%20count) + bond(s) + suffix→::@::←(optional) omit unnecessary locants <!--SR:!2027-10-04,1037,230!fsrs,2029-06-23T00:00:00.000Z,1089,1088.93972165,6.13286042,2,10,0,0,2026-06-30T00:00:00.000Z-->
-- (optional) omit unnecessary locants→::@::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!2026-09-17,770,230!fsrs,2030-03-21T01:41:00.190Z,1382,1382.18779673,5.23230688,2,10,0,0,2026-06-08T01:41:00.190Z-->
+- (optional) omit unnecessary locants→::@::←[modify words for pronunciation](#modify%20words%20for%20pronunciation) <!--SR:!fsrs,2030-08-10T00:00:00.000Z,1422,1421.77326666,6.23897837,2,11,0,0,2026-09-18T00:00:00.000Z!fsrs,2030-03-21T01:41:00.190Z,1382,1382.18779673,5.23230688,2,10,0,0,2026-06-08T01:41:00.190Z-->
 - [modify words for pronunciation](#modify%20words%20for%20pronunciation)→::@::←[modify punctuations](#modify%20punctuations) <!--SR:!2029-09-16,1877,312!2031-09-03,2097,287-->
 - [modify punctuations](#modify%20punctuations)→::@::←prefix notation for _cis_–_trans_ isomerism <!--SR:!2029-12-26,1328,253!2027-10-24,1227,307-->
 - prefix notation for _cis_–_trans_ isomerism→::@::←_(end)_ <!--SR:!2029-08-16,1975,382!2027-07-03,1153,307-->

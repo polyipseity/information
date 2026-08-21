@@ -61,11 +61,11 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 - `head`, ::@:: which returns the first element; <!--SR:!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-09T00:00:00.000Z-->
 - `tail`, ::@:: which yields a new list containing all elements except the head; <!--SR:!2026-10-15,273,330!2026-10-12,270,330-->
-- `isEmpty`, ::@:: which reports whether the list contains no elements. <!--SR:!2026-09-17,245,330!2026-10-31,287,330-->
+- `isEmpty`, ::@:: which reports whether the list contains no elements. <!--SR:!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-31,287,330-->
 
 {@{These operations}@} are defined as {@{methods on any instance of `List`}@}. For example, {@{`fruits.head` \(`fruits` is nonempty\)}@} evaluates to {@{its first element}@}, whereas calling {@{`Nil.head` throws a `NoSuchElementException`}@}. <!--SR:!2026-09-24,252,330!2026-09-19,247,330!fsrs,2028-11-16T00:00:00.000Z,838,838.20060054,1,2,9,0,0,2026-08-01T00:00:00.000Z!2026-10-10,268,330!2026-10-28,284,330-->
 
-Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-10-31,287,330!2026-09-19,247,330!2026-10-08,266,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-08,266,330!2026-09-17,245,330!2026-10-23,281,330!2026-10-13,271,330!2026-10-04,262,330!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-09-25,253,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-05,263,330!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-29,285,330!2026-10-27,283,330-->
+Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-10-31,287,330!2026-09-19,247,330!2026-10-08,266,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-08,266,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-23,281,330!2026-10-13,271,330!2026-10-04,262,330!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-09-25,253,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-05,263,330!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-29,285,330!2026-10-27,283,330-->
 
 Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}. <!--SR:!2026-09-27,255,330!2026-09-23,251,330!2026-10-13,271,330!2026-09-30,258,330-->
 
@@ -229,7 +229,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 
 ## higher-order methods
 
-{@{Typical list algorithms}@} fall into {@{three broad categories}@}: \(annotation: 3 items: {@{map, filter, reduce/fold}@}\) <!--SR:!fsrs,2028-07-21T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-07T00:00:00.000Z!2026-09-28,256,330!2026-09-17,245,330-->
+{@{Typical list algorithms}@} fall into {@{three broad categories}@}: \(annotation: 3 items: {@{map, filter, reduce/fold}@}\) <!--SR:!fsrs,2028-07-21T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-07T00:00:00.000Z!2026-09-28,256,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z-->
 
 - __Mapping__ ::@:: – transform every element in a list. <!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!2026-09-30,258,330-->
 - __Filtering__ ::@:: – extract all elements that satisfy a predicate. <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-21,249,330-->
@@ -533,7 +533,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 > ```
 <!--SR:!2026-10-30,286,330!2026-10-12,270,330!2026-10-28,284,330-->
 
-Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} apply {@{to key/value pairs}@}. Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}: <!--SR:!2026-09-18,246,330!2026-10-31,287,330!2026-10-16,274,330!2026-09-17,245,330!2026-09-30,258,330-->
+Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} apply {@{to key/value pairs}@}. Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}: <!--SR:!2026-09-18,246,330!2026-10-31,287,330!2026-10-16,274,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-09-30,258,330-->
 
 > [!example] __`Map` as a function example__
 >
@@ -603,7 +603,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > val fruit = List("apple", "pear", "orange", "pineapple")
 > fruit.groupBy(_.head)  // Map('a' -> List("apple"), 'p' -> List("pear", "pineapple"), ...)
 > ```
-<!--SR:!2026-10-14,272,330!2026-09-17,245,330!2026-09-23,251,330-->
+<!--SR:!2026-10-14,272,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-09-23,251,330-->
 
 {@{`Map.withDefaultValue`}@} turns {@{a map into a total function}@} by providing {@{a default value for missing keys}@}. <!--SR:!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-10,268,330!2026-11-03,290,330-->
 
