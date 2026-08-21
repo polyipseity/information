@@ -22,7 +22,7 @@ tags:
 
 In {@{functional programming}@}, lists are {@{one of the most common data structures}@} and they form {@{the basis for many proofs about program correctness}@}. {@{A central operation}@} on lists is {@{concatenation}@}, denoted by {@{`:::` in Scala}@}. For {@{two lists `xs` and `ys`}@}, {@{the expression `xs ::: ys`}@} produces a new list that contains {@{all elements of `xs` followed by all elements of `ys`}@}. {@{Two fundamental algebraic laws}@} hold for this operator: \(annotation: 2 items: {@{associativity, neutral element}@}\) <!--SR:!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-10-28,285,330!2026-09-18,250,330!2026-10-19,277,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,276,330!2026-11-03,290,330!2026-11-08,294,330!2026-10-10,269,330!2026-10-14,273,330-->
 
-- __Associativity__ ::@:: `(xs ::: ys) ::: zs = xs ::: (ys ::: zs)` <!--SR:!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-09-16,248,330-->
+- __Associativity__ ::@:: `(xs ::: ys) ::: zs = xs ::: (ys ::: zs)` <!--SR:!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 - __Neutral element__ ::@:: – the empty list `Nil` is a left and right identity: `xs ::: Nil = xs` and `Nil ::: xs = xs` <!--SR:!2026-09-27,259,330!2026-09-18,250,330-->
 
 These laws are not {@{merely curiosities}@}; they enable reasoning about {@{program transformations, optimisations, and correctness proofs}@}. {@{The standard way to establish them}@} in a purely functional setting is {@{_structural induction_}@}. <!--SR:!2026-10-25,282,330!2026-10-05,267,330!2026-10-31,287,330!2026-10-22,280,330-->
@@ -42,7 +42,7 @@ These laws capture {@{the essential behavior}@} of a set: {@{an empty set}@} con
 The familiar principle of {@{natural induction on the natural numbers}@} states that to prove {@{a property $P(n)$ for all integers $n \ge b$}@}, one must show: \(annotation: 2 items: {@{base case → inductive step}@}\) <!--SR:!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-13,272,330!2026-09-25,257,330-->
 
 1. \(annotation: natural induction\) __Base case__: ::@:: $P(b)$ holds. <!--SR:!2026-10-15,274,330!fsrs,2029-06-25T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-08-30T00:00:00.000Z-->
-2. \(annotation: natural induction\) __Inductive step__: ::@:: For every $n \ge b$, if $P(n)$ holds then so does $P(n+1)$. <!--SR:!2026-09-16,248,330!2026-10-13,272,330-->
+2. \(annotation: natural induction\) __Inductive step__: ::@:: For every $n \ge b$, if $P(n)$ holds then so does $P(n+1)$. <!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-13,272,330-->
 
 For {@{lists, trees, etc.}@}, the analogous principle is {@{_structural induction_}@}. <!--SR:!2026-10-21,279,330!2026-10-10,269,330-->
 
@@ -57,7 +57,7 @@ Because {@{list construction is recursive}@}, structural induction mirrors {@{th
 
 Unlike {@{list induction}@}, which relies on {@{a single predecessor element}@}, {@{tree induction}@} proceeds from {@{the leaves upward}@}. The general principle is: <!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-08,267,330!2026-10-19,277,330!2026-11-08,294,330-->
 
-- inductive hypotheses ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$. <!--SR:!2026-09-16,248,330!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z-->
+- inductive hypotheses ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$. <!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z-->
 - induction step ::@:: Then, for each constructor of internal nodes—say an internal node $n$ with sub-trees $s_{1},\dots ,s_{k}$—prove that the conjunction $\bigwedge_{i} P(s_{i})$ implies $P(n)$. <!--SR:!2026-09-19,251,330!2026-10-23,281,330-->
 
 The proof is typically structured as {@{a base case (leaves)}@} followed by {@{an inductive step for each node constructor}@}. The technique guarantees that {@{any property established in this way}@} holds for {@{all trees, no matter how deeply nested}@}. <!--SR:!2026-09-23,255,330!2026-10-10,269,330!2026-10-12,271,330!2026-10-01,263,330-->

@@ -23,7 +23,7 @@ tags:
 
 ### insertion sort
 
-{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub-list}@}: <!--SR:!2027-07-05,469,330!2026-10-30,286,330!2026-10-05,267,330!2026-09-22,254,330!2026-09-16,248,330-->
+{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub-list}@}: <!--SR:!2027-07-05,469,330!2026-10-30,286,330!2026-10-05,267,330!2026-09-22,254,330!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 
 > [!example] __insertion sort__
 >
@@ -50,7 +50,7 @@ tags:
 >     if (x < y) x :: xs else y :: insert(x, ys)
 > }
 > ```
-<!--SR:!2026-09-16,248,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2028-07-08T02:18:54.951Z,755,754.80663527,1,2,8,0,0,2026-06-14T02:18:54.951Z-->
+<!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2028-07-08T02:18:54.951Z,755,754.80663527,1,2,8,0,0,2026-06-14T02:18:54.951Z-->
 
 {@{The worst-case time complexity}@} of insertion sort on {@{a list of length _N_}@} is {@{quadratic, i.e., proportional to $N \times N$}@}, because {@{each new element}@} may need to be {@{compared with every preceding element in the sorted sub-list}@}. <!--SR:!2026-10-26,283,330!2026-11-02,289,330!2026-11-06,292,330!2026-10-28,285,330!fsrs,2028-02-09T00:00:00.000Z,514,513.71227157,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z-->
 

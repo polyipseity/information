@@ -32,7 +32,7 @@ tags:
 > ```
 <!--SR:!2026-11-04,290,330!2026-10-13,273,330!2026-10-10,270,330!2026-10-13,273,330!2026-10-16,276,330!2026-10-26,282,330-->
 
-The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{every sequence of dictionary words}@} whose {@{concatenated numeric encodings match the input number}@}. For example, {@{the phone number `"7225247386"`}@} can be expressed as the single mnemonic phrase {@{`"Scala is fun"`}@}. <!--SR:!2026-09-16,248,330!2026-10-24,280,330!2026-10-19,275,330!2026-10-16,276,330!2026-10-13,273,330-->
+The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{every sequence of dictionary words}@} whose {@{concatenated numeric encodings match the input number}@}. For example, {@{the phone number `"7225247386"`}@} can be expressed as the single mnemonic phrase {@{`"Scala is fun"`}@}. <!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-24,280,330!2026-10-19,275,330!2026-10-16,276,330!2026-10-13,273,330-->
 
 ### `Coder`
 
@@ -51,7 +51,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 
 #### `Coder.charCode`
 
-{@{The first helper, `charCode`}@}, maps {@{any alphabetic character to its corresponding digit}@}. Using {@{a for-comprehension}@} we {@{invert the `mnemonics` map}@}: <!--SR:!2026-10-27,283,330!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-09-16,248,330!2026-10-11,271,330-->
+{@{The first helper, `charCode`}@}, maps {@{any alphabetic character to its corresponding digit}@}. Using {@{a for-comprehension}@} we {@{invert the `mnemonics` map}@}: <!--SR:!2026-10-27,283,330!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-11,271,330-->
 
 > [!example] __`Coder.charCode`__
 >

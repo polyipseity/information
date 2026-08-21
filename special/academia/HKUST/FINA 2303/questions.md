@@ -349,7 +349,7 @@ tags:
 > 2. outstanding balance
 > 3. loan interest
 >
-> - solution: {@{1}@} <!--SR:!2026-09-16,449,389-->
+> - solution: {@{1}@} <!--SR:!fsrs,2030-05-04T00:00:00.000Z,1325,1324.93367312,1,2,10,0,0,2026-09-17T00:00:00.000Z-->
 
 ## week 4 lecture 2
 

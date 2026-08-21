@@ -502,7 +502,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!2026-10-03,252
 > ```
 <!--SR:!2026-12-11,311,349!2027-01-31,352,349-->
 
-{@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!2026-09-16,235,330!2026-10-02,251,330!2026-12-09,309,349!2027-01-25,346,349!2026-12-31,327,349-->
+{@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!fsrs,2028-07-18T00:00:00.000Z,670,669.69339296,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-02,251,330!2026-12-09,309,349!2027-01-25,346,349!2026-12-31,327,349-->
 
 {@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!2026-11-30,300,349!2027-01-31,352,349!2026-10-02,251,330!2026-10-06,255,330!2027-01-27,348,349!2027-01-29,350,349!2026-11-08,282,349!2027-01-30,351,349!2026-12-04,305,349-->
 

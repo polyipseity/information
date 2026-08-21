@@ -116,7 +116,7 @@ With {@{these in place}@}, {@{the boolean generator}@} can be written {@{succinc
 > ```
 <!--SR:!2026-10-08,267,330!2026-10-24,280,330!2026-10-13,272,330-->
 
-and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-16,245,330-->
+and {@{a generic pair generator}@} becomes, using {@{`flatMap`}@}: <!--SR:!fsrs,2029-06-23T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2028-08-12T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 
 > [!example] __pair generator using `flatMap`__
 >

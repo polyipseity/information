@@ -205,7 +205,7 @@ In his 1870 essay "On the Graphical Representation of Supply and Demand", [Fleem
 
 > What a cleaned-up version of Sraffa (1926) establishes is how _nearly empty_ are _all_ of Marshall's partial equilibrium boxes. To a logical purist of Wittgenstein and Sraffa class, the _Marshallian partial_ equilibrium box of _constant_ cost is even more empty than the box of _increasing_ cost.<sup>[\[25\]](#^ref-25)</sup>
 
-Modern [Post-Keynesians](Post-Keynesian%20economics.md) criticize the supply and demand model for {@{failing to explain the prevalence of [administered prices](administered%20prices.md)}@}, in which {@{retail prices are set by firms, primarily based on a mark-up over normal average unit costs, and are not responsive to changes in demand up to capacity}@}.<sup>[\[26\]](#^ref-26)</sup> <!--SR:!2027-11-02,819,330!2026-09-16,496,310-->
+Modern [Post-Keynesians](Post-Keynesian%20economics.md) criticize the supply and demand model for {@{failing to explain the prevalence of [administered prices](administered%20prices.md)}@}, in which {@{retail prices are set by firms, primarily based on a mark-up over normal average unit costs, and are not responsive to changes in demand up to capacity}@}.<sup>[\[26\]](#^ref-26)</sup> <!--SR:!2027-11-02,819,330!fsrs,2030-02-01T00:00:00.000Z,1233,1233.46246834,3.24197837,2,10,0,0,2026-09-17T00:00:00.000Z-->
 
 ## see also
 

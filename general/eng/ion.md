@@ -310,7 +310,7 @@ return chain.from_iterable([r.value for r in results])
 - mercury(II) ion:@:2+ <!--SR:!2027-06-01,1561,374-->
 - cobalt(II) ion:@:2+ <!--SR:!2027-04-15,1523,372-->
 - aluminium ion:@:3+ <!--SR:!2030-01-09,2187,332-->
-- iron(III) ion:@:3+ <!--SR:!2026-09-16,1348,365-->
+- iron(III) ion:@:3+ <!--SR:!fsrs,2036-04-11T00:00:00.000Z,3494,3494.30844236,1.18154087,2,11,0,0,2026-09-17T00:00:00.000Z-->
 - chromium(III) ion:@:3+ <!--SR:!2026-11-24,1396,358-->
 - scandium(III) ion:@:3+ <!--SR:!2031-05-08,2382,402-->
 - titanium(III) ion:@:3+ <!--SR:!2031-04-26,2372,402-->

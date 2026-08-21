@@ -402,7 +402,7 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 > ```Ocaml
 > let rec alternate = 0 :: 1 :: alternate
 > ```
-<!--SR:!2026-09-16,245,330!2026-10-31,275,345!2026-11-30,302,345!2026-11-19,294,330!2026-11-01,276,330-->
+<!--SR:!fsrs,2028-08-12T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-31,275,345!2026-11-30,302,345!2026-11-19,294,330!2026-11-01,276,330-->
 
 However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the deferred parts in functions}@}—known as {@{thunks}@}—using {@{the `Stream` module}@}. {@{An example of a lazy list of guesses in OCaml}@} would be: <!--SR:!2026-12-14,312,345!2026-10-31,275,345!2026-11-14,289,345!2027-01-18,340,345!2026-12-30,325,345-->
 

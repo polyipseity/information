@@ -36,7 +36,7 @@ Due to {@{increased [polarizability](polarizability.md)}@}, {@{haloalkanes}@} ha
 
 ### substitution
 
-To {@{produce [amines](amine.md)}@}, {@{haloalkanes}@} can {@{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}@}. Likewise, {@{[acyl halides](acyl%20halide.md)}@} can {@{react similarly to give primary [amides](amide.md)}@}. <!--SR:!2026-09-16,801,272!2032-05-01,2350,292!fsrs,2026-12-22T00:00:00.000Z,102,101.98575873,1,2,3,0,0,2026-09-11T00:00:00.000Z!fsrs,2026-12-22T00:00:00.000Z,102,101.98575873,1,2,3,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
+To {@{produce [amines](amine.md)}@}, {@{haloalkanes}@} can {@{react with [ammonia](ammonia.md) to give primary amines and [hydrogen halides](hydrogen%20halide.md)}@}. Likewise, {@{[acyl halides](acyl%20halide.md)}@} can {@{react similarly to give primary [amides](amide.md)}@}. <!--SR:!fsrs,2031-05-12T00:00:00.000Z,1698,1697.87900507,4.66555337,2,11,0,0,2026-09-17T00:00:00.000Z!2032-05-01,2350,292!fsrs,2026-12-22T00:00:00.000Z,102,101.98575873,1,2,3,0,0,2026-09-11T00:00:00.000Z!fsrs,2026-12-22T00:00:00.000Z,102,101.98575873,1,2,3,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
 #### hydrolysis
 

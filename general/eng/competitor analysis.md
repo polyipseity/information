@@ -182,7 +182,7 @@ number of features
 
 It is very important to add {@{our own products to the visualization}@} and make it {@{obvious that the products are our own}@}. <!--SR:!2030-09-19,1644,321!fsrs,2027-12-26T00:00:00.000Z,523,522.5183221,1,2,8,0,0,2026-07-21T00:00:00.000Z-->
 
-If we are comparing two features only, we can {@{use a _xy_-grid and plot our and competitors' products}@}. If there are more features, {@{we can use a table, with the row headers being the features and the column headers being the products}@}. {@{A mix of both}@} is possible. <!--SR:!2029-03-06,1374,361!2028-04-16,1117,354!2026-09-16,659,330-->
+If we are comparing two features only, we can {@{use a _xy_-grid and plot our and competitors' products}@}. If there are more features, {@{we can use a table, with the row headers being the features and the column headers being the products}@}. {@{A mix of both}@} is possible. <!--SR:!2029-03-06,1374,361!2028-04-16,1117,354!fsrs,2031-04-28T00:00:00.000Z,1684,1683.58358162,2.49272837,2,10,0,0,2026-09-17T00:00:00.000Z-->
 
 When listing the features, {@{use numbers}@} if possible. Do not be {@{vague}@}. Highlight {@{important features, such as the best product for each feature}@}. <!--SR:!2027-09-22,940,341!2028-12-17,1309,361!2026-09-24,655,321-->
 

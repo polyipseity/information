@@ -37,7 +37,7 @@ You should input the BMC class Code \(\[redacted\]\), or you will get 0 mark.
 - [gross domestic product](../../../../general/gross%20domestic%20product.md) \(GDP\) ::@:: It is a monetary measure of the total market value of all the final goods and services produced and rendered in a specific time period by a country or countries. <!--SR:!2026-11-03,294,330!2026-10-28,289,330-->
     - gross domestic product / subjectivity ::@:: Changes in GDP _measurement_ can lead to drastic changes in GDP, showing that GDP is somewhat _subjective_. <!--SR:!2026-10-02,263,330!2026-10-12,273,330-->
 - economic indicator
-    - economic indicator / important indicators ::@:: economic growth \(GDP growth\), inflation, unemployment, business confidence, housing <!--SR:!2026-11-02,293,330!2026-09-16,247,330-->
+    - economic indicator / important indicators ::@:: economic growth \(GDP growth\), inflation, unemployment, business confidence, housing <!--SR:!2026-11-02,293,330!fsrs,2028-08-17T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 - gross domestic product
     - gross domestic product / formula ::@:: __GDP \(Y\)__ is the sum of __consumption \(C\)__, __investment \(I\)__, __government expenditures \(G\)__ and __net exports \(X − M\)__. <p> &emsp; __Y__ = __C__ + __I__ + __G__ + __\(X − M\)__ <!--SR:!2026-10-29,290,330!2026-09-28,259,330-->
     - gross domestic product / economic growth ::@:: Simply the percentage change of GDP. You most likely want to use _real_ GDP rather than _nominal_ GDP, as we typically want to exclude the effects of _inflation_. <!--SR:!2026-10-31,291,330!2026-10-09,270,330-->

@@ -86,7 +86,7 @@ However, adding {@{a method that "mutates" \(no actual mutation occurs\) the lis
 >   def prepend[U >: T](elem: U): List[U] = Cons(elem, this)
 > ```
 >
-> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-09-16,244,330!2026-10-06,264,330!2026-09-27,255,330!2026-10-16,274,330!fsrs,2028-08-23T00:00:00.000Z,771,771.20338158,1,2,8,0,0,2026-07-14T00:00:00.000Z!2027-07-24,473,310!2026-10-18,276,330!2026-10-28,284,330!2027-06-10,463,383-->
+> This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-06,264,330!2026-09-27,255,330!2026-10-16,274,330!fsrs,2028-08-23T00:00:00.000Z,771,771.20338158,1,2,8,0,0,2026-07-14T00:00:00.000Z!2027-07-24,473,310!2026-10-18,276,330!2026-10-28,284,330!2027-06-10,463,383-->
 
 This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}. <!--SR:!2026-10-31,287,330!2026-09-22,250,330!2026-10-26,282,330!2026-10-19,277,330!2026-10-24,280,330!2026-10-18,276,330!2027-06-29,455,330!2026-10-16,274,330!2027-06-09,462,383-->
 
@@ -416,7 +416,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 
 ## vector
 
-In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2026-09-20,248,330!2026-09-26,254,330!2026-11-06,292,330!2026-10-13,271,330!2026-10-18,276,330!2026-09-16,244,330!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-27,255,330!2026-10-28,284,330-->
+In Scala, {@{`List`}@} is {@{a singly-linked list}@}: {@{accessing the head is constant time}@} while {@{random access to an element in the middle or at the end}@} requires {@{traversing a length proportional to the length of the list}@}. For workloads where {@{more balanced access patterns are required}@}, the library provides {@{the immutable `Vector` type}@}. A vector internally uses {@{a shallow tree of 32-element blocks}@}; this design gives {@{roughly logarithmic-time complexity}@} for {@{both indexing and updates}@} while {@{preserving immutability}@}. <!--SR:!2026-09-20,248,330!2026-09-26,254,330!2026-11-06,292,330!2026-10-13,271,330!2026-10-18,276,330!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-27,255,330!2026-10-28,284,330-->
 
 Vectors are constructed {@{in exactly the same way as lists}@}: <!--SR:!fsrs,2029-06-14T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 
@@ -521,7 +521,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 
 ## mapping
 
-{@{A `Map`}@} associates {@{keys of type `Key` with values of type `Value`}@}. {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples: <!--SR:!2026-10-18,276,330!2026-09-16,244,330!2026-10-18,276,330!2026-10-22,280,330!2026-10-15,273,330-->
+{@{A `Map`}@} associates {@{keys of type `Key` with values of type `Value`}@}. {@{The literal syntax `key -> value`}@} is {@{syntactic sugar for a pair `(key, value)`}@}, implemented as {@{an extension method on any object}@}. Typical examples: <!--SR:!2026-10-18,276,330!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-18,276,330!2026-10-22,280,330!2026-10-15,273,330-->
 
 > [!example] __`Map` construction__
 >
@@ -655,7 +655,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > ```
 <!--SR:!2026-11-02,289,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-17,275,330!2026-09-24,252,330-->
 
-To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ constructor}@} is provided: <!--SR:!2026-09-20,248,330!2026-09-16,244,330-->
+To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ constructor}@} is provided: <!--SR:!2026-09-20,248,330!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 
 > [!example] __`Polynomial` varargs constructor__
 >
@@ -668,7 +668,7 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 
 ## set
 
-{@{Scala's collections library}@} supplies {@{the immutable `Set`}@}, which represents {@{an _unordered_ collection of _distinct_ elements}@}. Sets are declared {@{in the same way as sequences}@}: <!--SR:!2026-09-22,250,330!2026-09-16,244,330!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-25,281,330-->
+{@{Scala's collections library}@} supplies {@{the immutable `Set`}@}, which represents {@{an _unordered_ collection of _distinct_ elements}@}. Sets are declared {@{in the same way as sequences}@}: <!--SR:!2026-09-22,250,330!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-25,281,330-->
 
 > [!example] __`Set` construction__
 >

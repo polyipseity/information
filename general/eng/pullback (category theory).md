@@ -102,7 +102,7 @@ Consider {@{the multiplicative [monoid](monoid.md) of positive [integers](intege
 
 ## weak pullbacks
 
-{@{A __weak pullback__ of a [cospan](span%20(category%20theory).md) _X_ → _Z_ ← _Y_}@} is {@{a [cone](cone%20(category%20theory).md) over the cospan that is only [weakly universal](weakly%20universal%20property.md)}@}, that is, {@{the mediating morphism _u_ : _Q_ → _P_ above is not required to be unique}@}. <!--SR:!2029-10-14,1339,350!2026-09-16,443,310!2029-01-14,1124,350-->
+{@{A __weak pullback__ of a [cospan](span%20(category%20theory).md) _X_ → _Z_ ← _Y_}@} is {@{a [cone](cone%20(category%20theory).md) over the cospan that is only [weakly universal](weakly%20universal%20property.md)}@}, that is, {@{the mediating morphism _u_ : _Q_ → _P_ above is not required to be unique}@}. <!--SR:!2029-10-14,1339,350!fsrs,2029-10-05T00:00:00.000Z,1114,1114.29440579,3.24197837,2,10,0,0,2026-09-17T00:00:00.000Z!2029-01-14,1124,350-->
 
 ## see also
 
