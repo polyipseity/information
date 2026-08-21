@@ -252,7 +252,7 @@ To {@{assign an already existing instance to `given`}@}, use {@{the assignment o
 ### `summon`
 <!--SR:!2026-01-31,65,329!2026-02-05,69,329!2026-01-23,58,310-->
 
-To refer to {@{an instance directly without using `using`}@}, you may {@{use `summon`}@}: <!--SR:!2026-09-18,237,330!2026-10-06,255,330-->
+To refer to {@{an instance directly without using `using`}@}, you may {@{use `summon`}@}: <!--SR:!fsrs,2028-07-25T00:00:00.000Z,675,674.76322068,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-06,255,330-->
 
 > [!example] __`summon`__
 >

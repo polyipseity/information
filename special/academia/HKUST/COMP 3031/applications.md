@@ -82,7 +82,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 
 #### `Coder.wordsForNum`
 
-{@{The dictionary}@} is then {@{indexed by these digit strings}@} so that {@{a lookup of "7225"}@} immediately yields {@{all words whose encoding equals that sequence}@}. {@{The `withDefaultValue`}@} ensures {@{missing keys return an empty list rather than throwing}@}: <!--SR:!2026-11-08,294,330!2026-09-18,250,330!2026-09-19,251,330!2026-10-23,279,330!2026-10-25,281,330!2026-11-01,288,330-->
+{@{The dictionary}@} is then {@{indexed by these digit strings}@} so that {@{a lookup of "7225"}@} immediately yields {@{all words whose encoding equals that sequence}@}. {@{The `withDefaultValue`}@} ensures {@{missing keys return an empty list rather than throwing}@}: <!--SR:!2026-11-08,294,330!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-09-19,251,330!2026-10-23,279,330!2026-10-25,281,330!2026-11-01,288,330-->
 
 > [!example] __`Coder.wordsForNum`__
 >
@@ -111,7 +111,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 >     rest       <- encode(number.drop(splitPoint))
 >   } yield word :: rest
 > ```
-<!--SR:!2026-09-18,250,330!2026-10-14,274,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!2026-10-12,272,330!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-09,269,330!2026-10-12,272,330-->
+<!--SR:!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-14,274,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!2026-10-12,272,330!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-10-09,269,330!2026-10-12,272,330-->
 
 {@{This comprehension}@} enumerates {@{all ways of partitioning the digit string into dictionary words}@}, accumulating {@{each complete phrase as a list}@}. <!--SR:!2026-11-06,292,330!2026-11-04,290,330!2026-11-06,292,330-->
 

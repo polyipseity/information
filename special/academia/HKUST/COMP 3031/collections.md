@@ -23,7 +23,7 @@ tags:
 
 {@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java-backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}. <!--SR:!2026-10-04,262,330!2026-10-12,270,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-01,259,330!2026-09-28,256,330!2026-10-13,271,330!2026-10-12,270,330!2026-09-26,254,330!2026-10-19,277,330!2026-10-04,262,330-->
 
-{@{`Set` and `Map`}@} are also {@{subclasses of `Iterable`}@}, but they do not {@{inherit from `Seq`}@}. <!--SR:!2026-09-18,246,330!2026-10-21,279,330!2026-10-27,283,330-->
+{@{`Set` and `Map`}@} are also {@{subclasses of `Iterable`}@}, but they do not {@{inherit from `Seq`}@}. <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-21,279,330!2026-10-27,283,330-->
 
 ## list
 
@@ -139,7 +139,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 
 The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-11-08,294,330!2026-09-26,254,330!2026-10-18,276,330!fsrs,2028-07-09T14:11:53.577Z,756,756.20650093,1,2,8,0,0,2026-06-14T14:11:53.577Z!2026-11-01,288,330!2026-09-23,251,330!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-26,282,330-->
 
-{@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!2026-09-18,246,330!2026-10-01,259,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-20,248,330-->
+{@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-01,259,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!2026-09-20,248,330-->
 
 {@{The implementation of `last` and `init`}@}, for instance, is {@{linear in the length of the list}@} because it must {@{traverse all elements to reach the tail}@}. <!--SR:!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-09-29,257,330!2026-10-22,280,330-->
 
@@ -412,7 +412,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > def reverse[T](xs: List[T]): List[T] =
 >   xs.foldLeft[List[T]](Nil)((acc, x) => x :: acc)
 > ```
-<!--SR:!2026-09-18,246,330!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-10-28T00:00:00.000Z,823,823.37893849,1,2,9,0,0,2026-07-28T00:00:00.000Z-->
+<!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-10-28T00:00:00.000Z,823,823.37893849,1,2,9,0,0,2026-07-28T00:00:00.000Z-->
 
 ## vector
 
@@ -474,7 +474,7 @@ Because ranges are {@{lazy and small}@}, they provide {@{constant-time `contains
 
 The following operations are {@{common to all `Seq`s}@} (and thus to {@{lists, vectors, arrays, strings and ranges}@}): <!--SR:!2026-11-03,290,330!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z-->
 
-- `exists(p)` ::@:: Returns `true` if any element satisfies predicate `p`. For empty sequences it returns `false`. <!--SR:!2026-09-18,246,330!2026-10-05,263,330-->
+- `exists(p)` ::@:: Returns `true` if any element satisfies predicate `p`. For empty sequences it returns `false`. <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-05,263,330-->
 - `forall(p)` ::@:: Returns `true` only if every element satisfies `p`. For empty sequences it returns `true`. <!--SR:!2026-10-01,259,330!2026-09-27,255,330-->
 - `zip(ys)` ::@:: Combines two sequences into a sequence of pairs. If they do not have the same length, the result is truncated to the shorter length. <!--SR:!2026-10-23,281,330!2026-10-27,283,330-->
 - `unzip` ::@:: Splits a sequence of pairs into two separate sequences. <!--SR:!2026-10-11,269,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
@@ -533,7 +533,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 > ```
 <!--SR:!2026-10-30,286,330!2026-10-12,270,330!2026-10-28,284,330-->
 
-Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} apply {@{to key/value pairs}@}. Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}: <!--SR:!2026-09-18,246,330!2026-10-31,287,330!2026-10-16,274,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-09-30,258,330-->
+Maps extend {@{`Iterable[(Key, Value)]`}@}, so {@{all collection operations}@} apply {@{to key/value pairs}@}. Moreover, `Map` extends {@{the function type `Key => Value`}@}; thus a map can be {@{used as a function}@}: <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-31,287,330!2026-10-16,274,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-09-30,258,330-->
 
 > [!example] __`Map` as a function example__
 >
@@ -559,7 +559,7 @@ Attempting to {@{call a map with a missing key}@} throws {@{an `java.util.NoSuch
 >     case None          => "missing data"
 >   }
 > ```
-<!--SR:!2026-09-29,257,330!2026-09-18,246,330!2026-10-01,259,330!2026-10-18,276,330!2026-10-31,287,330-->
+<!--SR:!2026-09-29,257,330!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-01,259,330!2026-10-18,276,330!2026-10-31,287,330-->
 
 ### map update
 

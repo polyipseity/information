@@ -252,7 +252,7 @@ The content is in teaching order.
 
 - datetime: 2025-02-18T15:00:00+08:00/2025-02-18T15:50:00+08:00
 - topic: introduction to Logisim, combinational circuits
-- Logisim ::@:: It is an interactive graphical interface for designing, simulating digital logic circuit. (Runs on Java 5... ancient software?!?) <!--SR:!2026-09-18,452,387!2026-10-13,475,387-->
+- Logisim ::@:: It is an interactive graphical interface for designing, simulating digital logic circuit. (Runs on Java 5... ancient software?!?) <!--SR:!fsrs,2030-05-14T00:00:00.000Z,1333,1332.79925054,1,2,10,0,0,2026-09-19T00:00:00.000Z!2026-10-13,475,387-->
     - Logisim / download ::@:: <https://sourceforge.net/projects/circuit/> <!--SR:!fsrs,2032-01-19T00:00:00.000Z,1984,1984.12663685,1,2,10,0,0,2026-08-14T00:00:00.000Z!fsrs,2029-05-24T00:00:00.000Z,984,983.68730209,4.01060897,2,10,0,0,2026-09-13T00:00:00.000Z-->
     - Logisim / installation
     - Logisim / usage

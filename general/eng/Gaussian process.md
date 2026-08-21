@@ -54,7 +54,7 @@ Ultimately Gaussian processes translate as taking {@{priors on functions}@} and 
 
 > {@{![The effect of choosing different kernels on the prior function distribution of the Gaussian process.](../../archives/Wikimedia%20Commons/Gaussian%20process%20draws%20from%20prior%20distribution.png)}@}
 >
-> The effect of choosing {@{different kernels on the prior function distribution of the Gaussian process}@}. Left is {@{a squared exponential kernel}@}. Middle is {@{Brownian}@}. Right is {@{quadratic}@}. <!--SR:!2027-04-26,350,361!2027-02-14,294,348!2027-05-15,369,364!2026-09-18,181,310!2027-06-15,395,361-->
+> The effect of choosing {@{different kernels on the prior function distribution of the Gaussian process}@}. Left is {@{a squared exponential kernel}@}. Middle is {@{Brownian}@}. Right is {@{quadratic}@}. <!--SR:!2027-04-26,350,361!2027-02-14,294,348!2027-05-15,369,364!fsrs,2028-02-01T00:00:00.000Z,500,500.12358695,3.24197837,2,9,0,0,2026-09-19T00:00:00.000Z!2027-06-15,395,361-->
 
 There are a number of {@{common covariance functions}@}:<sup>[\[7\]](#^ref-7)</sup> <!--SR:!2027-04-06,338,356-->
 

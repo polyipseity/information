@@ -22,7 +22,7 @@ Bayes' theorem is stated mathematically: {@{$$P(A \mid B) = \frac {P(B \mid A) P
 
 ### Bayes' theorem for 3 events
 
-A version of Bayes' theorem for 3 events {@{results from the addition of a 3rd event $C$ (or more events if $C$ is composed from multiple events, such as $C = X \cap Y$) called the _context_, with $P(C) > 0$}@}, on which {@{all probabilities are conditioned}@}: <!--SR:!2026-09-18,607,314!2029-05-22,1401,350-->
+A version of Bayes' theorem for 3 events {@{results from the addition of a 3rd event $C$ (or more events if $C$ is composed from multiple events, such as $C = X \cap Y$) called the _context_, with $P(C) > 0$}@}, on which {@{all probabilities are conditioned}@}: <!--SR:!fsrs,2030-10-24T00:00:00.000Z,1496,1496.2956496,3.09212837,2,10,0,0,2026-09-19T00:00:00.000Z!2029-05-22,1401,350-->
 
 $$P(A \mid B \cap C) = \frac {P(B \mid A \cap C) P(A \mid C)} {P(B \mid C)}$$
 

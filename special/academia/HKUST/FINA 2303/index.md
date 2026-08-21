@@ -293,7 +293,7 @@ The content is in teaching order.
 - datetime: 2025-02-28T16:30:00+08:00/2025-02-28T17:50:00+08:00, PT1H20M
 - topic: investment decision rules
 - investment decision rules ::@:: Rules for making investments, _usually_ to maximize value. <!--SR:!2030-07-09,1556,393!2026-10-04,465,393-->
-    - investment decision rules / project types ::@:: standalone projects, mutually exclusive projects, mix of the above <!--SR:!2026-09-18,450,393!fsrs,2032-03-04T00:00:00.000Z,2013,2012.58400976,1,2,10,0,0,2026-08-30T00:00:00.000Z-->
+    - investment decision rules / project types ::@:: standalone projects, mutually exclusive projects, mix of the above <!--SR:!fsrs,2030-05-09T00:00:00.000Z,1328,1327.55611442,1,2,10,0,0,2026-09-19T00:00:00.000Z!fsrs,2032-03-04T00:00:00.000Z,2013,2012.58400976,1,2,10,0,0,2026-08-30T00:00:00.000Z-->
 - standalone project ::@:: discounted payback period, internal rate of return, net present value, payback period, etc. <!--SR:!2026-09-27,459,393!fsrs,2032-01-23T00:00:00.000Z,1980,1980.05659057,1,2,10,0,0,2026-08-22T00:00:00.000Z-->
 - mutually exclusive project ::@:: duration \(lives\) difference, scale difference, timing difference, etc. <!--SR:!2026-10-30,485,393!fsrs,2032-04-13T00:00:00.000Z,2045,2045.03582523,1,2,10,0,0,2026-09-07T00:00:00.000Z-->
 - net present value

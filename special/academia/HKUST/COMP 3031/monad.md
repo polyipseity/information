@@ -323,7 +323,7 @@ For instance, consider {@{Scala's `Option`}@}. {@{Its `flatMap`}@} is defined by
 > ```
 <!--SR:!2026-11-01,288,330!2026-10-23,279,330!2026-10-11,270,330-->
 
-Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws hold for `Option`}@}. {@{The left-unit law}@} is immediate because {@{`Some(x).flatMap(f)` evaluates to `f(x)`}@}, and {@{the right-unit law}@} follows from the fact that {@{mapping a value with `unit` (i.e., `Some`) leaves it unchanged}@}. {@{Associativity}@} can be shown by unfolding {@{both sides and observing that they reduce to identical pattern matches}@}. <!--SR:!2026-11-08,294,330!2026-10-20,276,330!2026-10-25,281,330!fsrs,2029-08-06T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-01,288,330!2026-11-06,292,330!2026-10-08,267,330!2026-09-18,247,330-->
+Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws hold for `Option`}@}. {@{The left-unit law}@} is immediate because {@{`Some(x).flatMap(f)` evaluates to `f(x)`}@}, and {@{the right-unit law}@} follows from the fact that {@{mapping a value with `unit` (i.e., `Some`) leaves it unchanged}@}. {@{Associativity}@} can be shown by unfolding {@{both sides and observing that they reduce to identical pattern matches}@}. <!--SR:!2026-11-08,294,330!2026-10-20,276,330!2026-10-25,281,330!fsrs,2029-08-06T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-01,288,330!2026-11-06,292,330!2026-10-08,267,330!fsrs,2028-08-19T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z-->
 
 ## `Try`
 
