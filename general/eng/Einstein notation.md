@@ -36,7 +36,7 @@ In general, indices can {@{range over any [indexing set](indexed%20family.md), i
 
 {@{An index that is summed over}@} is {@{a _summation index_}@}, in this case "_i_<!-- markdown separator -->&hairsp;". It is also called {@{a [dummy index](bound%20variable.md)}@} since {@{any symbol can replace "_i_<!-- markdown separator -->&hairsp;" without changing the meaning of the expression}@} \(provided that it {@{does not collide with other index symbols in the same term}@}\). <!--SR:!fsrs,2029-08-25T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-25T00:00:00.000Z!2026-10-06,275,330!2026-10-20,289,330!2026-10-02,271,330!2026-09-24,263,330-->
 
-{@{An index that is not summed over}@} is {@{a [_free index_](free%20variable.md)}@} and should {@{appear only once per term}@}. If {@{such an index does appear}@}, it usually also {@{appears in every other term in an equation}@}. An example of a free index is the "_i_<!-- markdown separator -->&hairsp;" in {@{the equation $v_{i}=a_{i}b_{j}x^{j}$}@}, which is equivalent to {@{the equation $v_{i}=\sum _{j}(a_{i}b_{j}x^{j})$}@}. <!--SR:!2026-09-21,260,330!fsrs,2029-07-15T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-08-15T00:00:00.000Z!2026-10-08,277,330!fsrs,2029-09-19T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-23,292,330!2026-10-06,275,330!2026-10-20,289,330-->
+{@{An index that is not summed over}@} is {@{a [_free index_](free%20variable.md)}@} and should {@{appear only once per term}@}. If {@{such an index does appear}@}, it usually also {@{appears in every other term in an equation}@}. An example of a free index is the "_i_<!-- markdown separator -->&hairsp;" in {@{the equation $v_{i}=a_{i}b_{j}x^{j}$}@}, which is equivalent to {@{the equation $v_{i}=\sum _{j}(a_{i}b_{j}x^{j})$}@}. <!--SR:!fsrs,2028-09-24T00:00:00.000Z,733,732.76739939,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2029-07-15T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-08-15T00:00:00.000Z!2026-10-08,277,330!fsrs,2029-09-19T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-08-31T00:00:00.000Z!2026-10-23,292,330!2026-10-06,275,330!2026-10-20,289,330-->
 
 ### application
 
@@ -49,7 +49,7 @@ Einstein notation can be {@{applied in slightly different ways}@}. Typically, {@
 In terms of {@{[covariance and contravariance of vectors](covariance%20and%20contravariance%20of%20vectors.md)}@}, <!--SR:!2026-10-25,294,330-->
 
 - upper indices ::@:: represent components of [contravariant vectors](covariance%20and%20contravariance%20of%20vectors.md) \([vectors](coordinate%20vector.md)\), <!--SR:!2026-10-18,287,330!2026-10-09,278,330-->
-- lower indices ::@:: represent components of [covariant](covariant%20vector.md) vectors \([covectors](covector.md)\). <!--SR:!2028-07-03,761,330!2026-09-21,260,330-->
+- lower indices ::@:: represent components of [covariant](covariant%20vector.md) vectors \([covectors](covector.md)\). <!--SR:!2028-07-03,761,330!fsrs,2028-09-24T00:00:00.000Z,733,732.76739939,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 
 They {@{transform contravariantly or covariantly}@}, respectively, with respect to {@{[change of basis](change%20of%20basis.md)}@}. <!--SR:!2026-10-20,289,330!2026-10-19,288,330-->
 

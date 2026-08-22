@@ -14,7 +14,7 @@ tags:
     - `DATE` ::@:: `YYYY-MM-DD` that ranges from `1000-01-01` to `9999-12-31`. <!--SR:!2027-08-04,763,330!2029-11-24,1685,330-->
     - `DATETIME` ::@:: `YYYY-MM-DD hh:mm:ss[.fraction]` that ranges from `1000-01-01 00:00:00.000000` to `9999-12-31 23:59:59.499999`. <!--SR:!2030-04-23,1870,350!2031-01-19,1828,290-->
     - `TIME` ::@:: `hh[h]:mm:ss[.fraction]` that ranges from `-838:59:59.000000` to `838:59:59.000000`. <!--SR:!2029-02-19,1421,330!2029-11-19,1326,230-->
-    - `TIMESTAMP` ::@:: `YYYY-MM-DD hh:mm:ss[.fraction]` UTC that ranges from `1970-01-01 00:00:01.000000` to `2038-01-19 03:14:07.499999`. <!--SR:!2026-09-21,506,310!2028-04-08,791,190-->
+    - `TIMESTAMP` ::@:: `YYYY-MM-DD hh:mm:ss[.fraction]` UTC that ranges from `1970-01-01 00:00:01.000000` to `2038-01-19 03:14:07.499999`. <!--SR:!fsrs,2030-03-01T00:00:00.000Z,1256,1255.81170558,3.24197837,2,10,0,0,2026-09-22T00:00:00.000Z!2028-04-08,791,190-->
     - `YEAR` ::@:: `Y[YYY]` that ranges from `1901` to `2155`. <!--SR:!2028-04-15,1197,330!2031-05-20,2071,330-->
 - numeric data types ::@:: `BIGINT`, `BIT`, `DECIMAL`, `DOUBLE`, `FLOAT`, `INT`, `INTEGER`, `MEDIUMINT`, `NUMERIC`, `SMALLINT`, `TINYINT` <!--SR:!2028-12-28,1370,330!2028-12-30,1359,290-->
     - floating-point data types ::@:: `FLOAT`, `DOUBLE`; inexact <!--SR:!2030-08-18,1964,350!2031-02-10,2079,350-->
@@ -31,7 +31,7 @@ tags:
         - `BINARY` ::@:: Up to 2<sup>8</sup>−1 bytes of fixed-size binary string. <!--SR:!2030-02-04,1812,350!2028-06-19,1245,330-->
         - `VARBINARY` ::@:: Up to 2<sup>16</sup>−1 bytes of binary string. This capacity is shared among columns \(including other column types\) in a row. <!--SR:!2028-11-04,1345,330!2027-10-13,1010,310-->
     - `TINYBLOB`, `BLOB`, `MEDIUMBLOB`, `LONGBLOB` ::@:: Unindexed prefix-indexable long binary strings. <!--SR:!2029-01-26,1389,330!2030-04-10,1859,350-->
-        - `TINYBLOB` ::@:: Up to 2<sup>8</sup>−1 bytes of binary string. <!--SR:!2026-09-21,752,310!2030-05-25,1884,350-->
+        - `TINYBLOB` ::@:: Up to 2<sup>8</sup>−1 bytes of binary string. <!--SR:!fsrs,2031-08-22T00:00:00.000Z,1795,1794.68428824,3.24197837,2,11,0,0,2026-09-22T00:00:00.000Z!2030-05-25,1884,350-->
         - `BLOB` ::@:: Up to 2<sup>16</sup>−1 bytes of binary string. <!--SR:!2029-02-15,1403,330!2030-02-25,1828,350-->
         - `MEDIUMBLOB` ::@:: Up to 2<sup>24</sup>−1 bytes of binary string. <!--SR:!2026-11-04,783,310!2028-07-25,1271,330-->
         - `LONGBLOB` ::@:: Up to 2<sup>32</sup>−1 bytes of binary string. <!--SR:!2029-12-03,1579,310!2027-11-14,1140,330-->

@@ -47,7 +47,7 @@ For better physical meaning, it can be rewritten as:
 
 - see: [step response](step%20response.md)
 
-Consider a system {@{with $\zeta < 1$, [initial values](initial%20value%20problem.md) $x(0) = x'(0) = 0$, and the following driving [force](force.md): $$\frac{F(t)}m = \begin{cases} \omega_n^2 x_F & t \ge 0 \\ 0 & t < 0 \end{cases}$$}@}. Physically, we expect {@{the system to oscillate around the new equilibrium with decaying [amplitude](amplitude.md)}@}. Solve the equation: <!--SR:!2027-01-01,331,190!2026-09-21,713,332-->
+Consider a system {@{with $\zeta < 1$, [initial values](initial%20value%20problem.md) $x(0) = x'(0) = 0$, and the following driving [force](force.md): $$\frac{F(t)}m = \begin{cases} \omega_n^2 x_F & t \ge 0 \\ 0 & t < 0 \end{cases}$$}@}. Physically, we expect {@{the system to oscillate around the new equilibrium with decaying [amplitude](amplitude.md)}@}. Solve the equation: <!--SR:!2027-01-01,331,190!fsrs,2031-09-13T00:00:00.000Z,1817,1816.65336436,2.41780337,2,10,0,0,2026-09-22T00:00:00.000Z-->
 
 > [!info]- details
 >

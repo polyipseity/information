@@ -31,7 +31,7 @@ Then to create an object, one uses {@{the name of the class}@}: <!--SR:!2026-09-
 name_object = Name(42)
 ```
 
-The above object stored under `name_object` is also called {@{an _instance_ of the class `Name`}@}. <!--SR:!2026-09-21,260,330-->
+The above object stored under `name_object` is also called {@{an _instance_ of the class `Name`}@}. <!--SR:!fsrs,2028-09-24T00:00:00.000Z,733,732.76739939,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 
 ## attribute
 

@@ -8,7 +8,7 @@ tags:
 
 # Visual Basic for Applications
 
-Visual Basic for Applications (VBA) is a programming language {@{based on Visual Basic and is designed for use in applications, like Microsoft Excel}@}. <!--SR:!2026-09-21,720,330-->
+Visual Basic for Applications (VBA) is a programming language {@{based on Visual Basic and is designed for use in applications, like Microsoft Excel}@}. <!--SR:!fsrs,2031-09-19T00:00:00.000Z,1823,1822.9335147,2.49272837,2,10,0,0,2026-09-22T00:00:00.000Z-->
 
 ## running
 

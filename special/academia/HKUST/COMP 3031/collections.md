@@ -73,9 +73,9 @@ Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered co
 
 Scala's {@{immutable `List`}@} is {@{covariant}@}. This means that {@{`List[A]` is a subtype of `List[B]`}@} whenever {@{`A` is a subtype of `B`}@}. Covariance is denoted by {@{the `+` symbol in the type parameter}@}: {@{`List[+T]`}@}. <!--SR:!2026-09-26,254,330!2026-11-06,292,330!2026-10-20,278,330!2026-10-01,259,330!fsrs,2029-07-18T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-09-07T00:00:00.000Z!2026-10-16,274,330-->
 
-By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}. <!--SR:!2026-10-26,282,330!2026-09-21,249,330!2026-10-18,276,330!2026-10-11,269,330-->
+By declaring it {@{covariant (`sealed abstract class List[+T]`)}@} we allow {@{`Nil`}@} to be represented as {@{a singleton object of type `List[Nothing]`}@}, which is {@{a subtype of any `List[T]`}@}. <!--SR:!2026-10-26,282,330!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-18,276,330!2026-10-11,269,330-->
 
-However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}: <!--SR:!fsrs,2028-08-09T00:00:00.000Z,760,759.95962134,1,2,8,0,0,2026-07-11T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-09-25,253,330!2026-09-21,249,330!2026-10-15,273,330!2027-06-11,464,383-->
+However, adding {@{a method that "mutates" \(no actual mutation occurs\) the list}@} \(e.g. {@{`prepend(elem: T): List[T]`}@}\) {@{breaks covariance}@} because it {@{accepts an argument of type `T`—an input position for a covariant parameter}@}. To restore {@{variance correctness}@} we can use {@{a lower bound on the method's parameter}@}: <!--SR:!fsrs,2028-08-09T00:00:00.000Z,760,759.95962134,1,2,8,0,0,2026-07-11T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-09-25,253,330!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-15,273,330!2027-06-11,464,383-->
 
 > [!example] __implementing `prepend` on `List`__
 >
@@ -179,7 +179,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 > ```
 <!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-21,279,330-->
 
-{@{Reversal}@} can be _naively_ written by {@{recursively reversing the tail and appending the head}@}: <!--SR:!2026-10-10,268,330!2026-09-21,249,330-->
+{@{Reversal}@} can be _naively_ written by {@{recursively reversing the tail and appending the head}@}: <!--SR:!2026-10-10,268,330!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 
 > [!example] __`List.reverse`__
 >
@@ -232,12 +232,12 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 {@{Typical list algorithms}@} fall into {@{three broad categories}@}: \(annotation: 3 items: {@{map, filter, reduce/fold}@}\) <!--SR:!fsrs,2028-07-21T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-07T00:00:00.000Z!2026-09-28,256,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z-->
 
 - __Mapping__ ::@:: – transform every element in a list. <!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!2026-09-30,258,330-->
-- __Filtering__ ::@:: – extract all elements that satisfy a predicate. <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-21,249,330-->
+- __Filtering__ ::@:: – extract all elements that satisfy a predicate. <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 - __Reduction / Folding__ ::@:: – combine the elements of a list with an associative operator. <!--SR:!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!2026-10-31,287,330-->
 
 ### map
 
-{@{A generic `map`}@} applies {@{a function to each element of the list}@}: <!--SR:!2026-10-29,285,330!2026-09-21,249,330-->
+{@{A generic `map`}@} applies {@{a function to each element of the list}@}: <!--SR:!2026-10-29,285,330!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 
 > [!example] __`map`__
 >
@@ -295,7 +295,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 > ```
 <!--SR:!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-23,281,330-->
 
-{@{Other useful filter-like operations}@} are built from `filter`, such as {@{`filterNot`, `partition`, `takeWhile`, `dropWhile`, and `span`}@}.  Each of these performs {@{a single traversal}@} while producing {@{different views of the original list}@}. <!--SR:!2026-10-17,275,330!2026-09-21,249,330!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-22,280,330-->
+{@{Other useful filter-like operations}@} are built from `filter`, such as {@{`filterNot`, `partition`, `takeWhile`, `dropWhile`, and `span`}@}.  Each of these performs {@{a single traversal}@} while producing {@{different views of the original list}@}. <!--SR:!2026-10-17,275,330!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-22,280,330-->
 
 ### pack
 

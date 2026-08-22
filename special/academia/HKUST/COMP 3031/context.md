@@ -360,7 +360,7 @@ If, after {@{searching the above scopes}@}, {@{more than one candidate exists}@}
 - specificity: lexical scope ::@:: A definition that is in a closer lexical scope is more specific; or <!--SR:!2026-12-14,312,349!2026-11-13,283,349-->
 - specificity: hierarchy ::@:: A definition that is in a subclass is more specific than one that in a superclass. <!--SR:!fsrs,2028-07-21T00:00:00.000Z,672,672.22887022,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2027-01-29,350,349-->
 - specificity: subtyping ::@:: A definition that has a type that is a subclass of the type of the other definition is more specific. <!--SR:!2027-01-02,329,349!2027-01-25,346,349-->
-- specificity: generic instance ::@:: A definition that has a type that is a generic instance \(e.g. `Type[Int]`\) of the type of the other definition \(e.g. `Type[T]` where `T` is generic\) is more specific. <!--SR:!2026-09-21,240,330!2026-12-31,327,349-->
+- specificity: generic instance ::@:: A definition that has a type that is a generic instance \(e.g. `Type[Int]`\) of the type of the other definition \(e.g. `Type[T]` where `T` is generic\) is more specific. <!--SR:!fsrs,2028-08-04T00:00:00.000Z,682,682.35993219,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-12-31,327,349-->
 
 Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {@{the appropriate one automatically}@}. <!--SR:!2026-11-25,295,349!2026-12-30,326,349-->
 

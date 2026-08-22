@@ -327,7 +327,7 @@ Using {@{simple algebraic reasoning}@}, one can verify that {@{all three laws ho
 
 ## `Try`
 
-While {@{exceptions}@} are {@{inexpensive in Scala}@}, they have {@{drawbacks}@}: \(annotation: 2 items: {@{no effect on function type, cross-evaluation context}@}\) <!--SR:!2026-09-30,259,330!2026-10-11,270,330!2026-10-15,274,330!2026-09-21,250,330-->
+While {@{exceptions}@} are {@{inexpensive in Scala}@}, they have {@{drawbacks}@}: \(annotation: 2 items: {@{no effect on function type, cross-evaluation context}@}\) <!--SR:!2026-09-30,259,330!2026-10-11,270,330!2026-10-15,274,330!fsrs,2028-08-30T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 
 - no effect on function type ::@:: The types of functions that may throw are not reflected in the signature (unlike Java's `throws` clause). <!--SR:!2026-11-03,290,330!2026-10-10,269,330-->
 - cross-evaluation context ::@:: Exceptions can only propagate within the current evaluation context \(e.g. current thread\). They do not propagate naturally across threads or asynchronous boundaries. <!--SR:!2026-10-03,262,330!2026-10-26,282,330-->

@@ -402,13 +402,13 @@ To see {@{why the restriction on bound variables is necessary}@}, consider {@{th
 
 - Further information: ::@:: [Sequent calculus](sequent%20calculus.md) <!--SR:!2026-10-08,348,364!fsrs,2029-06-20T02:14:34.480Z,1102,1101.80593549,1,2,9,0,0,2026-06-14T02:14:34.480Z-->
 
-{@{The sequent calculus}@} was developed to {@{study the properties of natural deduction systems}@}.<sup>[\[25\]](#^ref-25)</sup> Instead of {@{working with one formula at a time}@}, it uses {@{_sequents_, which are expressions of the form}@}: {@{$$A_{1},\ldots ,A_{n}\vdash B_{1},\ldots ,B_{k},$$}@} where {@{A<sub>1</sub>, ..., A<sub>_n_</sub>, B<sub>1</sub>, ..., B<sub>_k_</sub> are formulas}@} and {@{the turnstile symbol $\vdash$ is used as punctuation to separate the two halves}@}. Intuitively, {@{a sequent}@} expresses the idea that {@{$(A_{1}\land \cdots \land A_{n})$ implies $(B_{1}\lor \cdots \lor B_{k})$}@}. <!--SR:!2026-09-21,330,364!2026-12-04,398,382!2027-02-10,450,382!2026-10-20,355,364!fsrs,2029-06-27T03:27:08.863Z,1108,1107.52679912,1,2,9,0,0,2026-06-15T03:27:08.863Z!2026-09-21,334,364!2026-10-17,352,364!2026-09-21,331,364!2027-01-17,429,382-->
+{@{The sequent calculus}@} was developed to {@{study the properties of natural deduction systems}@}.<sup>[\[25\]](#^ref-25)</sup> Instead of {@{working with one formula at a time}@}, it uses {@{_sequents_, which are expressions of the form}@}: {@{$$A_{1},\ldots ,A_{n}\vdash B_{1},\ldots ,B_{k},$$}@} where {@{A<sub>1</sub>, ..., A<sub>_n_</sub>, B<sub>1</sub>, ..., B<sub>_k_</sub> are formulas}@} and {@{the turnstile symbol $\vdash$ is used as punctuation to separate the two halves}@}. Intuitively, {@{a sequent}@} expresses the idea that {@{$(A_{1}\land \cdots \land A_{n})$ implies $(B_{1}\lor \cdots \lor B_{k})$}@}. <!--SR:!fsrs,2029-06-11T00:00:00.000Z,993,992.80216872,1.21900337,2,9,0,0,2026-09-22T00:00:00.000Z!2026-12-04,398,382!2027-02-10,450,382!2026-10-20,355,364!fsrs,2029-06-27T03:27:08.863Z,1108,1107.52679912,1,2,9,0,0,2026-06-15T03:27:08.863Z!fsrs,2029-06-21T00:00:00.000Z,1003,1003.47363894,1.21900337,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-17,352,364!fsrs,2029-06-13T00:00:00.000Z,995,995.47127711,1.21900337,2,9,0,0,2026-09-22T00:00:00.000Z!2027-01-17,429,382-->
 
 ### tableaux method
 
 > {@{![A tableaux proof for the [propositional](propositional%20logic.md) formula \(\(a ∨ ¬b\) ∧ b\) → a](../../archives/Wikimedia%20Commons/Prop-tableau-4.svg)}@}
 >
-> {@{A tableaux proof}@} for {@{the [propositional](propositional%20logic.md) formula}@} {@{\(\(a ∨ ¬b\) ∧ b\) → a}@} <!--SR:!2027-02-13,454,382!2027-02-21,461,382!2026-11-05,371,364!2026-09-21,334,364-->
+> {@{A tableaux proof}@} for {@{the [propositional](propositional%20logic.md) formula}@} {@{\(\(a ∨ ¬b\) ∧ b\) → a}@} <!--SR:!2027-02-13,454,382!2027-02-21,461,382!2026-11-05,371,364!fsrs,2029-06-21T00:00:00.000Z,1003,1003.47363894,1.21900337,2,9,0,0,2026-09-22T00:00:00.000Z-->
 
 - Further information: [Method of analytic tableaux](method%20of%20analytic%20tableaux.md)
 

@@ -27,7 +27,7 @@ To define a list in Python, {@{enclose all items in square brackets `[]` and sep
 
 ## indexing
 
-To {@{access or replace the n-th item}@}, simply write {@{`sequence[n-1]`}@}: <!--SR:!2026-09-30,269,330!2026-09-21,260,330-->
+To {@{access or replace the n-th item}@}, simply write {@{`sequence[n-1]`}@}: <!--SR:!2026-09-30,269,330!fsrs,2028-09-24T00:00:00.000Z,733,732.76739939,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
 
 ```Python
 assert "asd"[2] == "d"

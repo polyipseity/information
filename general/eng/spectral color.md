@@ -128,7 +128,7 @@ The spectral colors have a range of {@{[wavelength](wavelength.md) 380–750 [nm
 - 600–620:@:<span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md) <!--SR:!2027-10-21,836,243-->
 - 530–600:@:<span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md) <!--SR:!2029-05-25,1121,263-->
 - 510–530:@:<span style="background-color:yellow;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [yellow](yellow.md) <!--SR:!fsrs,2030-05-15T00:00:00.000Z,1387,1386.74061118,5.33236839,2,10,0,0,2026-07-28T00:00:00.000Z-->
-- 480–510:@:<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md) <!--SR:!2026-09-21,467,183-->
+- 480–510:@:<span style="background-color:orange;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [orange](orange%20(color).md) <!--SR:!fsrs,2028-09-28T00:00:00.000Z,737,737.38285558,7.99971587,2,10,0,0,2026-09-22T00:00:00.000Z-->
 - 400–480:@:<span style="background-color:red;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [red](red.md) <!--SR:!2033-02-03,2457,303-->
 
 <!--/pytextgen-->

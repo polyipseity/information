@@ -21,7 +21,7 @@ tags:
 
 ## word coder
 
-{@{A __word coder__}@} translates {@{a telephone number into all possible mnemonic phrases}@} using {@{a supplied dictionary of words}@}. Prior to the era of {@{smartphone predictive-text}@}, {@{each numeric key on a phone}@} keypad had {@{an associated set of letters}@}; for instance, {@{the digit `2` represented "ABC"}@}, {@{the digit `3` represented "DEF"}@}, and so forth. In {@{Scala this mapping}@} can be expressed as <!--SR:!2026-10-21,277,330!fsrs,2028-09-03T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-09-22,254,330!2026-11-03,290,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-13,273,330!2026-09-21,253,330!2026-10-22,278,330-->
+{@{A __word coder__}@} translates {@{a telephone number into all possible mnemonic phrases}@} using {@{a supplied dictionary of words}@}. Prior to the era of {@{smartphone predictive-text}@}, {@{each numeric key on a phone}@} keypad had {@{an associated set of letters}@}; for instance, {@{the digit `2` represented "ABC"}@}, {@{the digit `3` represented "DEF"}@}, and so forth. In {@{Scala this mapping}@} can be expressed as <!--SR:!2026-10-21,277,330!fsrs,2028-09-03T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-09-22,254,330!2026-11-03,290,330!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-13,273,330!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-22,278,330-->
 
 > [!example] __mnemonics__
 >
@@ -92,7 +92,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 > private val wordsForNum: Map[String, List[String]] =
 >   words.groupBy(wordCode).withDefaultValue(Nil)
 > ```
-<!--SR:!2026-10-04,266,330!2026-10-09,269,330!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-21,253,330!2026-10-16,276,330!2026-10-19,275,330-->
+<!--SR:!2026-10-04,266,330!2026-10-09,269,330!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-16,276,330!2026-10-19,275,330-->
 
 ### `Coder.encode`
 
