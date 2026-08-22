@@ -233,7 +233,7 @@ Variable names are {@{case sensitive, cannot be keywords}@}, cannot have {@{some
 
 ### augmented assignment
 
-Assignment supports {@{performing an arithmetic operation on an existing variable}@}. Use {@{`<op>=`}@}, where {@{`<op>` is the arithmetic operator}@}: <!--SR:!2026-09-19,258,330!fsrs,2029-07-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-08-16T00:00:00.000Z!fsrs,2029-07-30T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-08-19T00:00:00.000Z-->
+Assignment supports {@{performing an arithmetic operation on an existing variable}@}. Use {@{`<op>=`}@}, where {@{`<op>` is the arithmetic operator}@}: <!--SR:!fsrs,2028-09-17T00:00:00.000Z,728,727.74459265,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2029-07-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-08-16T00:00:00.000Z!fsrs,2029-07-30T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-08-19T00:00:00.000Z-->
 
 ```Python
 variableName += 2

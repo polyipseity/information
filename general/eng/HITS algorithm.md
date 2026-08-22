@@ -51,7 +51,7 @@ Let $k$ be {@{the current number of iterations}@}, and $\mathbf{A}_k$ and $\math
 
 ### authority update rule
 
-For each $p$, we {@{update $a(p)$ to $a(p) = \sum_{q \in p_{\text{to} } } h(q)$ where $p_{\text{to} }$ are all pages linking to $p$}@}. That is, a page's authority value is {@{the sum of the hub values of nodes pointing to it}@}. This can also be expressed {@{using [matrix multiplication](matrix%20multiplication.md)}@}: {@{$\mathbf{A}_k \gets \mathbf{M}^\intercal \mathbf{H}_{k - 1}$}@}. <!--SR:!2027-08-17,889,334!2032-03-06,2106,330!2028-10-10,1229,354!2026-09-19,581,314-->
+For each $p$, we {@{update $a(p)$ to $a(p) = \sum_{q \in p_{\text{to} } } h(q)$ where $p_{\text{to} }$ are all pages linking to $p$}@}. That is, a page's authority value is {@{the sum of the hub values of nodes pointing to it}@}. This can also be expressed {@{using [matrix multiplication](matrix%20multiplication.md)}@}: {@{$\mathbf{A}_k \gets \mathbf{M}^\intercal \mathbf{H}_{k - 1}$}@}. <!--SR:!2027-08-17,889,334!2032-03-06,2106,330!2028-10-10,1229,354!fsrs,2030-08-28T00:00:00.000Z,1438,1438.47987804,3.09212837,2,10,0,0,2026-09-20T00:00:00.000Z-->
 
 Consider the authority vector after several updates (without normalization):
 
@@ -101,7 +101,7 @@ The authority or hub vector can be normalized by {@{dividing the vector by its l
 
 The length is {@{usually defined as the [taxicab norm](norm%20(mathematics).md#taxicab%20norm%20or%20Manhattan%20norm) (_p_ = 1) or the conventional [Euclidean norm](norm%20(mathematics).md#Euclidean%20norm) (_p_ = 2)}@}. In the former, length is {@{the sum of absolute values of vector elements}@}. In the latter, length is {@{the square root of sum of squares of vector elements}@}. Both are {@{generalized by the [_p_-norm](norm%20(mathematics).md#_p_-norm)}@}: {@{$$\lVert \mathbf{x} \rVert_p := \left(\sum_{i = 1}^n \lvert x_i \rvert^p \right)^{\frac 1 p}$$}@}. <!--SR:!2029-04-26,1385,354!2026-11-14,673,334!2028-10-30,1247,354!2027-06-05,829,334!2027-10-08,928,334-->
 
-When using the taxicab norm, some may also choose to {@{normalize the vector length to the number of pages _n_ instead of 1}@}, which mathematically is {@{multiplying the above normalized vector by _n_}@}. <!--SR:!2026-09-19,633,334!2027-11-27,954,334-->
+When using the taxicab norm, some may also choose to {@{normalize the vector length to the number of pages _n_ instead of 1}@}, which mathematically is {@{multiplying the above normalized vector by _n_}@}. <!--SR:!fsrs,2031-03-19T00:00:00.000Z,1641,1641.31120637,2.34287837,2,10,0,0,2026-09-20T00:00:00.000Z!2027-11-27,954,334-->
 
 ## references
 

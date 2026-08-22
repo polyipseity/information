@@ -87,7 +87,7 @@ Common themes of unit vectors occur {@{throughout [physics](physics.md) and [geo
 > __flashcards__
 >
 > - Tangent vector to a curve/flux line
->     - Tangent vector to a curve/flux line / Nomenclature ::@:: $\mathbf {\hat {t} }$ <!--SR:!2026-09-19,127,405!2026-09-28,135,405-->
+>     - Tangent vector to a curve/flux line / Nomenclature ::@:: $\mathbf {\hat {t} }$ <!--SR:!fsrs,2027-11-28T00:00:00.000Z,434,434.00191259,1,2,8,0,0,2026-09-20T00:00:00.000Z!2026-09-28,135,405-->
 >     - Tangent vector to a curve/flux line / Diagram ::@:: !["200px"](../../archives/Wikimedia%20Commons/Tangent%20normal%20binormal%20unit%20vectors.svg) <p> !["200px"](../../archives/Wikimedia%20Commons/Polar%20coord%20unit%20vectors%20and%20normal.svg) <p> A normal vector $\mathbf {\hat {n} }$ to the plane containing and defined by the radial position vector $r\mathbf {\hat {r} }$ and angular tangential direction of rotation $\theta {\boldsymbol {\hat {\theta } } }$ is necessary so that the vector equations of angular motion hold. <!--SR:!2026-09-25,132,405!fsrs,2028-02-24T00:00:00.000Z,552,552.195452,1,2,8,0,0,2026-08-21T00:00:00.000Z-->
 > - Normal to a surface tangent plane/plane containing radial position component and angular tangential component
 >     - Normal to a surface tangent plane/plane containing radial position component and angular tangential component / Nomenclature ::@:: $\mathbf {\hat {n} }$ <p> In terms of [polar coordinates](spherical%20coordinate%20system.md); <br/> $\mathbf {\hat {n} } =\mathbf {\hat {r} } \times {\boldsymbol {\hat {\theta } } }$ <!--SR:!2026-09-26,133,405!2026-09-21,129,405-->

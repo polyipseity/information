@@ -36,7 +36,7 @@ The goal is to implement {@{a method `encode(phoneNumber)`}@} that returns {@{ev
 
 ### `Coder`
 
-{@{A natural way to structure the solution}@} is {@{a small class}@} that encapsulates {@{the dictionary and all derived data structures}@}: <!--SR:!2026-10-19,275,330!2026-10-13,273,330!2026-09-19,251,330-->
+{@{A natural way to structure the solution}@} is {@{a small class}@} that encapsulates {@{the dictionary and all derived data structures}@}: <!--SR:!2026-10-19,275,330!2026-10-13,273,330!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z-->
 
 > [!example] __`Coder`__
 >
@@ -82,7 +82,7 @@ With {@{`charCode` available}@}, {@{any word}@} can be turned {@{into the numeri
 
 #### `Coder.wordsForNum`
 
-{@{The dictionary}@} is then {@{indexed by these digit strings}@} so that {@{a lookup of "7225"}@} immediately yields {@{all words whose encoding equals that sequence}@}. {@{The `withDefaultValue`}@} ensures {@{missing keys return an empty list rather than throwing}@}: <!--SR:!2026-11-08,294,330!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-09-19,251,330!2026-10-23,279,330!2026-10-25,281,330!2026-11-01,288,330-->
+{@{The dictionary}@} is then {@{indexed by these digit strings}@} so that {@{a lookup of "7225"}@} immediately yields {@{all words whose encoding equals that sequence}@}. {@{The `withDefaultValue`}@} ensures {@{missing keys return an empty list rather than throwing}@}: <!--SR:!2026-11-08,294,330!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-23,279,330!2026-10-25,281,330!2026-11-01,288,330-->
 
 > [!example] __`Coder.wordsForNum`__
 >
@@ -135,7 +135,7 @@ Thus the implementation finds {@{all valid mnemonic phrases in a handful of line
 
 ### word coder conclusion
 
-{@{The problem}@} originates from Lutz Prechelt's 2000 study _An Empirical Comparison of Seven Programming Languages_ \(IEEE Computer 33(10): 23-29\), where he compared {@{code sizes for the same task}@} across {@{Tcl, Python, Perl, Rexx, Java, C++, and C}@}. {@{Scripting languages}@} typically required {@{about 100 lines of code}@}; {@{compiled languages}@} needed {@{200–300 lines}@}.  In Scala {@{the equivalent solver}@} is {@{roughly 20 lines long}@}, yet it remains {@{statically typed, purely functional, and free of side effects}@}—attributes that make {@{reasoning and refactoring straightforward}@}. <!--SR:!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-10-14,274,330!2026-10-28,284,330!2026-10-10,270,330!2026-10-13,273,330!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-08,268,330!2026-09-19,251,330!2026-10-14,274,330!2026-10-15,275,330!2026-10-06,268,330-->
+{@{The problem}@} originates from Lutz Prechelt's 2000 study _An Empirical Comparison of Seven Programming Languages_ \(IEEE Computer 33(10): 23-29\), where he compared {@{code sizes for the same task}@} across {@{Tcl, Python, Perl, Rexx, Java, C++, and C}@}. {@{Scripting languages}@} typically required {@{about 100 lines of code}@}; {@{compiled languages}@} needed {@{200–300 lines}@}.  In Scala {@{the equivalent solver}@} is {@{roughly 20 lines long}@}, yet it remains {@{statically typed, purely functional, and free of side effects}@}—attributes that make {@{reasoning and refactoring straightforward}@}. <!--SR:!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-10-14,274,330!2026-10-28,284,330!2026-10-10,270,330!2026-10-13,273,330!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-08,268,330!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-14,274,330!2026-10-15,275,330!2026-10-06,268,330-->
 
 {@{The concise implementation}@} hinges on {@{several features of Scala's collection library}@}: \(annotation: 4 items: {@{concise, fast, safe, universal}@}\) <!--SR:!2026-10-20,276,330!2026-09-20,252,330!2026-10-29,285,330-->
 

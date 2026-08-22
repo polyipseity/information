@@ -181,7 +181,7 @@ we can generate {@{leaves and inner nodes}@} by combining {@{existing generators
 >     tree   <- if (cutoff) leaves else inners
 >   yield tree
 > ```
-<!--SR:!2026-09-19,248,330!2026-10-25,281,330-->
+<!--SR:!fsrs,2028-08-23T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-25,281,330-->
 
 #### generator monad usage
 

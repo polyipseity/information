@@ -78,7 +78,7 @@ The content is in teaching order.
 - COMP 3031
     - COMP 3031 / logistics
     - COMP 3031 / objectives ::@:: Scala, functional programming, programming language constructs, programming language paradigms <!--SR:!fsrs,2029-10-15T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-08-23T00:00:00.000Z!2028-05-31,751,330-->
-- [programming paradigm](../../../../general/programming%20paradigm.md) ::@:: It is a relatively high-level way to conceptualize and structure the implementation of a computer program. <!--SR:!2026-09-19,285,330!2028-04-27,725,330-->
+- [programming paradigm](../../../../general/programming%20paradigm.md) ::@:: It is a relatively high-level way to conceptualize and structure the implementation of a computer program. <!--SR:!fsrs,2028-11-23T00:00:00.000Z,795,795.23728243,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2028-04-27,725,330-->
     - programming paradigm / common ::@:: concurrent, dependently-typed, functional, imperative, logic, object-oriented, parallel, etc. <!--SR:!fsrs,2029-09-06T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-08-11T00:00:00.000Z!2026-09-30,294,330-->
 - [imperative programming](../../../../general/imperative%20programming.md) ::@:: It is a programming paradigm of software that uses statements that change a program's state. <!--SR:!fsrs,2029-10-25T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-08-25T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-08-21T00:00:00.000Z-->
     - imperative programming / important elements ::@:: control structures, mutation, etc. <!--SR:!2026-09-30,294,330!fsrs,2029-10-19T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-08-23T00:00:00.000Z-->

@@ -208,7 +208,7 @@ The content is in teaching order.
 - volume-based costing
     - volume-based costing / predetermined overhead rate (POHR) ::@:: POHR = estimated MOH / estimated cost driver. We need to identify the cost driver (e.g. direct labor costs, direct labor hours, direct materials costs) and use it as an allocation base. <!--SR:!2027-10-06,752,368!2030-08-23,1598,388-->
     - volume-based costing / manufacturing overhead cost per unit ::@:: Find the cost driver assigned to the process producing the units. Then use POHR to find the (applied) manufacturing overhead. Finally divide it by the number of (equivalent) units produced. Less means the process is more efficient. <!--SR:!2026-12-28,513,348!2030-03-30,1484,388-->
-    - volume-based costing / manufacturing cost per unit ::@:: Simply add the direct materials per unit, direct labor per unit, and (applied) MOH per unit. <!--SR:!fsrs,2032-04-03T00:00:00.000Z,2037,2036.92992657,1,2,10,0,0,2026-09-05T00:00:00.000Z!2026-09-19,450,388-->
+    - volume-based costing / manufacturing cost per unit ::@:: Simply add the direct materials per unit, direct labor per unit, and (applied) MOH per unit. <!--SR:!fsrs,2032-04-03T00:00:00.000Z,2037,2036.92992657,1,2,10,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-05-10T00:00:00.000Z,1328,1327.55611442,1,2,10,0,0,2026-09-20T00:00:00.000Z-->
     - volume-based costing / gross profit margin ::@:: Find the gross profit per unit by subtracting manufacturing cost per unit from unit selling price. Then divide it by unit selling price and multiply by 100% to get \(_this_\). <!--SR:!2029-06-03,1155,368!2030-12-25,1698,388-->
 
 ## week 4 lecture

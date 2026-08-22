@@ -48,17 +48,17 @@ For {@{lists, trees, etc.}@}, the analogous principle is {@{_structural inductio
 
 A list can be {@{either `Nil` or an element cons-ed onto another list (`x :: xs`)}@}. To prove {@{a property $P(\texttt{xs})$ for all lists}@}, we show: <!--SR:!2026-10-06,268,330!2026-10-15,274,330-->
 
-1. \(annotation: structural induction on lists\) __Base case__: ::@:: $P(\texttt{Nil})$ holds. <!--SR:!2026-10-16,275,330!2026-09-19,251,330-->
+1. \(annotation: structural induction on lists\) __Base case__: ::@:: $P(\texttt{Nil})$ holds. <!--SR:!2026-10-16,275,330!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z-->
 2. \(annotation: structural induction on lists\) __Inductive step__: ::@:: For any element `x` and any sublist `xs`, if $P(\texttt{xs})$ holds then so does $P(\texttt{x :: xs})$. <!--SR:!2026-10-11,270,330!2026-09-24,256,330-->
 
-Because {@{list construction is recursive}@}, structural induction mirrors {@{the shape of the data}@}. It also holds for {@{trees and other recursively defined structures}@} with modifications of {@{the base and inductive cases to match the constructors}@}. <!--SR:!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-09-19,251,330!2026-11-01,288,330-->
+Because {@{list construction is recursive}@}, structural induction mirrors {@{the shape of the data}@}. It also holds for {@{trees and other recursively defined structures}@} with modifications of {@{the base and inductive cases to match the constructors}@}. <!--SR:!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-11-01,288,330-->
 
 ### structural induction on trees
 
 Unlike {@{list induction}@}, which relies on {@{a single predecessor element}@}, {@{tree induction}@} proceeds from {@{the leaves upward}@}. The general principle is: <!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-08,267,330!2026-10-19,277,330!2026-11-08,294,330-->
 
 - inductive hypotheses ::@:: To prove a property $P(t)$ for every tree $t$ of a given type, first show that $P(l)$ holds for all leaf nodes $l$. <!--SR:!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z-->
-- induction step ::@:: Then, for each constructor of internal nodes—say an internal node $n$ with sub-trees $s_{1},\dots ,s_{k}$—prove that the conjunction $\bigwedge_{i} P(s_{i})$ implies $P(n)$. <!--SR:!2026-09-19,251,330!2026-10-23,281,330-->
+- induction step ::@:: Then, for each constructor of internal nodes—say an internal node $n$ with sub-trees $s_{1},\dots ,s_{k}$—prove that the conjunction $\bigwedge_{i} P(s_{i})$ implies $P(n)$. <!--SR:!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-23,281,330-->
 
 The proof is typically structured as {@{a base case (leaves)}@} followed by {@{an inductive step for each node constructor}@}. The technique guarantees that {@{any property established in this way}@} holds for {@{all trees, no matter how deeply nested}@}. <!--SR:!2026-09-23,255,330!2026-10-10,269,330!2026-10-12,271,330!2026-10-01,263,330-->
 
@@ -222,7 +222,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 
 A further law often used in functional programming is that {@{mapping a function over the concatenation of two lists}@} equals {@{the concatenation of the mapped sublists}@}: {@{`(xs ::: ys).map(f) = xs.map(f) ::: ys.map(f)`}@}. <!--SR:!2026-10-31,287,330!2026-10-27,284,330!2026-11-06,292,330-->
 
-To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base case}@} follows from {@{`Nil.map(f) = Nil` and `Nil ::: ys = ys`}@}. In {@{the inductive step}@}, we rely on {@{both clauses of `:::` and on the two equations defining `map`}@}: <!--SR:!2026-10-01,263,330!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-19,251,330!2026-11-05,291,330-->
+To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base case}@} follows from {@{`Nil.map(f) = Nil` and `Nil ::: ys = ys`}@}. In {@{the inductive step}@}, we rely on {@{both clauses of `:::` and on the two equations defining `map`}@}: <!--SR:!2026-10-01,263,330!fsrs,2028-08-13T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-15T00:00:00.000Z!fsrs,2029-07-09T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-11-05,291,330-->
 
 > [!example] __`map` definition__
 >
@@ -391,7 +391,7 @@ The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. 
 > To prove {@{the above assuming `z != e`}@}, {@{split cases on `z > e` and `z < e`}@}.
 >
 > - If {@{`z > e`}@}, then {@{RHS reduces to `l.contains(e)`}@}. We need to show {@{`r.contains(e)` is `false` to reduce LHS to the same expression}@}. This requires {@{an additional property coming from that `NonEmpty` is a binary _search_ tree}@} if {@{they are constructed _exclusively_ using `Empty` and then `incl`}@}. See {@{the part below}@}.
-> - If {@{`z < e`}@}, the proof is {@{analogous}@}. <!--SR:!2026-10-30,286,330!2026-09-30,262,330!2026-10-04,266,330!2026-10-26,283,330!2026-10-19,277,330!2026-09-22,254,330!2026-11-05,291,330!2026-10-27,284,330!2026-09-19,251,330!2026-09-22,254,330-->
+> - If {@{`z < e`}@}, the proof is {@{analogous}@}. <!--SR:!2026-10-30,286,330!2026-09-30,262,330!2026-10-04,266,330!2026-10-26,283,330!2026-10-19,277,330!2026-09-22,254,330!2026-11-05,291,330!2026-10-27,284,330!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-09-22,254,330-->
 
 <!-- markdownlint MD028 -->
 

@@ -115,7 +115,7 @@ Let's learn some basic `gdb` commands (not exclusive to `pwndbg`):
 - `print <expression>` ::@:: evaluate and print an expression <!--SR:!2029-04-23,1296,350!2028-09-17,1133,350-->
 - `record` ::@:: record execution of every instruction; can make the process run slowly <!--SR:!2029-07-05,1356,350!2028-06-19,1062,350-->
 - `rni` ::@:: rewind to the previous instruction <!--SR:!2028-12-03,1194,350!2028-07-09,1072,350-->
-- `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!2026-09-19,533,310!2028-08-26,1115,350-->
+- `rsi` ::@:: rewind to the previous instruction stepping into functions <!--SR:!fsrs,2030-04-28T00:00:00.000Z,1316,1315.95469276,3.24197837,2,10,0,0,2026-09-20T00:00:00.000Z!2028-08-26,1115,350-->
 - `rc` ::@:: reverse continue <!--SR:!2028-01-23,945,350!2028-07-10,1073,350-->
 - `set <storage> = <value>` ::@:: set storage to value <!--SR:!2029-04-02,1288,350!2028-03-30,997,350-->
 

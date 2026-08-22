@@ -44,7 +44,7 @@ return await memorize_seq(
 - _(begin)_→::@::←create positive first impression <!--SR:!2030-03-07,1698,330!2028-07-23,1365,350-->
 - create positive first impression→::@::←emphasize your knowledge of the company <!--SR:!2027-09-14,1036,310!2027-03-06,887,330-->
 - emphasize your knowledge of the company→::@::←include extra information not in the [résumé](résumé.md) <!--SR:!2030-12-02,1681,270!2028-07-07,1133,290-->
-- include extra information not in the [résumé](résumé.md)→::@::←mention your referees <!--SR:!2030-01-29,1413,270!2026-09-19,563,250-->
+- include extra information not in the [résumé](résumé.md)→::@::←mention your referees <!--SR:!2030-01-29,1413,270!fsrs,2029-11-08T00:00:00.000Z,1145,1144.54844919,5.48972837,2,10,0,0,2026-09-20T00:00:00.000Z-->
 - mention your referees→::@::←_(end)_ <!--SR:!2028-10-21,1326,330!2028-08-08,1217,290-->
 
 <!--/pytextgen-->

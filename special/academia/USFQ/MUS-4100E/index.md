@@ -239,7 +239,7 @@ The content is in teaching order.
     - Harlem Renaissance / examples ::@:: clothing: emphasis on animal patterns <!--SR:!2026-11-14,516,398!2026-11-26,528,398-->
 - [jazz](../../../../general/jazz.md)
     - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!2026-10-20,491,398!2031-08-05,1889,398-->
-- [Black Swan Records](../../../../general/Black%20Swan%20Records.md) (1921–1924) ::@:: first record company owned by African Americans; everyone working, from top to bottom, were black; give fair treatment to black artists: Ethel Waters, James P. Johnson, etc. <!--SR:!2031-04-09,1790,398!2026-09-19,473,398-->
+- [Black Swan Records](../../../../general/Black%20Swan%20Records.md) (1921–1924) ::@:: first record company owned by African Americans; everyone working, from top to bottom, were black; give fair treatment to black artists: Ethel Waters, James P. Johnson, etc. <!--SR:!2031-04-09,1790,398!fsrs,2030-07-09T00:00:00.000Z,1388,1387.71000849,1,2,10,0,0,2026-09-20T00:00:00.000Z-->
 - [big band](../../../../general/big%20band.md)
     - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!2026-11-08,510,398!2026-11-11,513,398-->
 - [Fletcher Henderson](Fletcher%20Henderson.md) ::@:: an arranger, convinced Louis Armstrong to play in his band in 1924, and other band leaders started taking this feeling of "swing"; went to New York City to study chemistry originally <!--SR:!2027-03-11,537,338!2027-08-18,707,358-->

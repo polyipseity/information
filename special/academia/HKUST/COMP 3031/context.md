@@ -186,7 +186,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 >   ...  // omitted
 > ```
 >
-> can be written with {@{an unnamed `Ordering[T]`}@}, yet internally {@{each `merge` and `sort` implicitly receives the same ordering}@}. <!--SR:!2026-09-19,238,330!2027-01-01,328,349!2027-01-20,341,349!2027-01-23,344,349!fsrs,2028-01-21T00:00:00.000Z,493,492.57579613,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
+> can be written with {@{an unnamed `Ordering[T]`}@}, yet internally {@{each `merge` and `sort` implicitly receives the same ordering}@}. <!--SR:!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2027-01-01,328,349!2027-01-20,341,349!2027-01-23,344,349!fsrs,2028-01-21T00:00:00.000Z,493,492.57579613,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
 
 {@{Writing `(using Ordering[T])` inside a parameter list}@} is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}. <!--SR:!2026-10-02,251,330!2026-12-21,319,349!2026-10-05,254,330!2026-12-09,309,349!2028-01-18,627,411-->
 
@@ -366,7 +366,7 @@ Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {
 
 ## type class
 
-In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!2026-10-06,255,330!2026-11-26,296,349!2026-11-16,286,349!2026-09-19,238,330!2026-12-06,306,349!2026-12-31,327,349!2026-12-23,320,349-->
+In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!2026-10-06,255,330!2026-11-26,296,349!2026-11-16,286,349!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-12-06,306,349!2026-12-31,327,349!2026-12-23,320,349-->
 
 {@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!2026-11-17,287,349!2026-12-11,311,349!2027-01-18,339,349!2026-11-27,297,349!2027-01-21,342,349!2026-11-27,297,349-->
 
