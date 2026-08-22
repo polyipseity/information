@@ -73,4 +73,4 @@ Command names can be {@{truncated at the end to produce an abbreviation if the a
 
 ## miscellaneous
 
-- getting `glibc` version ::@:: Run the library itself, e.g. `/lib/libc.so.6`. Or run the linker with `--version`, e.g. `ldd --version`. Or in a program, use the string returned from `gnu_get_libc_version()` in `<gnu/libc-version.h>`. <!--SR:!2027-07-27,793,330!2026-09-20,521,310-->
+- getting `glibc` version ::@:: Run the library itself, e.g. `/lib/libc.so.6`. Or run the linker with `--version`, e.g. `ldd --version`. Or in a program, use the string returned from `gnu_get_libc_version()` in `<gnu/libc-version.h>`. <!--SR:!2027-07-27,793,330!fsrs,2030-04-02T00:00:00.000Z,1289,1289.25976817,3.24197837,2,10,0,0,2026-09-21T00:00:00.000Z-->

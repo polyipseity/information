@@ -140,7 +140,7 @@ The process begins with {@{the leaf nodes containing the probabilities of the sy
     3. {@{Add the new node}@} to the queue.
 3. The remaining node is {@{the root node and the tree is complete}@}. <!--SR:!2029-01-14,1172,350!2027-11-13,774,330!2028-11-27,1137,350!2028-10-26,1111,350!2028-09-06,1071,350!2029-06-10,1289,350!2028-12-29,1163,350!2029-07-20,1320,350-->
 
-Since {@{efficient priority queue data structures require O\(log _n_\) time per insertion}@}, and {@{a tree with _n_ leaves has 2<!-- markdown separator -->_n_<!-- markdown separator -->−1 nodes}@}, this algorithm operates in {@{O\(_n_ log _n_\) time, where _n_ is the number of symbols}@}. <!--SR:!2028-08-10,1050,350!2028-08-14,1053,350!2026-09-20,484,310-->
+Since {@{efficient priority queue data structures require O\(log _n_\) time per insertion}@}, and {@{a tree with _n_ leaves has 2<!-- markdown separator -->_n_<!-- markdown separator -->−1 nodes}@}, this algorithm operates in {@{O\(_n_ log _n_\) time, where _n_ is the number of symbols}@}. <!--SR:!2028-08-10,1050,350!2028-08-14,1053,350!fsrs,2030-01-10T00:00:00.000Z,1207,1206.58858085,3.24197837,2,10,0,0,2026-09-21T00:00:00.000Z-->
 
 If {@{the symbols are sorted by probability}@}, there is {@{a [linear-time](time%20complexity.md#linear%20time) \(O\(_n_\)\) method to create a Huffman tree using two [queues](queue%20(abstract%20data%20type).md)}@}, the first one {@{containing the initial weights \(along with pointers to the associated leaves\), and combined weights \(along with pointers to the trees\) being put in the back of the second queue}@}. This assures that {@{the lowest weight is always kept at the front of one of the two queues}@}: <!--SR:!2028-12-10,1147,350!2028-08-28,1065,350!2026-10-22,506,310!2029-02-19,1200,350-->
 

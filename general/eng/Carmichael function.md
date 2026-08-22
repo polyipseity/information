@@ -144,7 +144,7 @@ For {@{any sequence _n_<sub>1</sub> \< _n_<sub>2</sub> \< _n_<sub>3</sub> \< ⋯
 
 ### small values
 
-For {@{a constant _c_ and any sufficiently large positive _A_, there exists an integer _n_ \> _A_}@} such that<sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n)<\left(\ln A\right)^{c\ln \ln \ln A}.$$}@} Moreover, _n_ is {@{of the form $$n=\prod _{\substack{q\in \mathbb {P} \\ (q-1)|m} }q$$ for some square-free integer _m_ \< \(ln _A_\)<sup>_c_ ln ln ln _A_</sup>}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-12-20,551,321!2029-09-04,1191,281!2026-09-20,443,281-->
+For {@{a constant _c_ and any sufficiently large positive _A_, there exists an integer _n_ \> _A_}@} such that<sup>[\[11\]](#^ref-11)</sup> {@{$$\lambda (n)<\left(\ln A\right)^{c\ln \ln \ln A}.$$}@} Moreover, _n_ is {@{of the form $$n=\prod _{\substack{q\in \mathbb {P} \\ (q-1)|m} }q$$ for some square-free integer _m_ \< \(ln _A_\)<sup>_c_ ln ln ln _A_</sup>}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2026-12-20,551,321!2029-09-04,1191,281!fsrs,2029-07-07T00:00:00.000Z,1020,1020.0966424,4.32839087,2,10,0,0,2026-09-21T00:00:00.000Z-->
 
 ### image of the function
 

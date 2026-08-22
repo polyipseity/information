@@ -116,7 +116,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="e8ff"--><!-- The following content is generated at 2024-01-04T20:17:52.452954+08:00. Any edits will be overridden! -->
 
 - -40 to -1 °C:@:[liqueified petroleum gas](liqueified%20petroleum%20gas.md) <!--SR:!2029-10-24,1643,310-->
-- -12 to -1 °C:@:[butane](butane.md) <!--SR:!2026-09-20,914,334-->
+- -12 to -1 °C:@:[butane](butane.md) <!--SR:!fsrs,2032-12-21T00:00:00.000Z,2283,2283.01056998,2.34287837,2,11,0,0,2026-09-21T00:00:00.000Z-->
 - -1 to 110 °C:@:[gasoline/petrol](gasoline.md) <!--SR:!2027-10-29,947,294-->
 - 30 to 200 °C:@:[naphtha](naphtha.md) <!--SR:!2032-07-26,2416,294-->
 - 150 to 205 °C:@:[jet fuel](jet%20fuel.md) <!--SR:!fsrs,2031-01-23T00:00:00.000Z,1645,1645.33513663,2.78080001,2,10,0,0,2026-07-23T00:00:00.000Z-->

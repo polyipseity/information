@@ -180,7 +180,7 @@ The content is in teaching order.
 
 - tag: optional
 - [capacity utilization](../../../../general/capacity%20utilization.md)
-    - capacity utilization / complex processes ::@:: If the process have multiple flow units or is complex with different paths, e.g. patients of different severity, then we calculate the _implied utilization_ for each resource. The _bottleneck_ is the resource with the highest _implied utilization_ (this is true even for complex processes). <!--SR:!2027-04-12,563,341!2026-09-20,456,381-->
+    - capacity utilization / complex processes ::@:: If the process have multiple flow units or is complex with different paths, e.g. patients of different severity, then we calculate the _implied utilization_ for each resource. The _bottleneck_ is the resource with the highest _implied utilization_ (this is true even for complex processes). <!--SR:!2027-04-12,563,341!fsrs,2030-05-26T00:00:00.000Z,1343,1343.2783086,1,2,10,0,0,2026-09-21T00:00:00.000Z-->
     - capacity utilization / implied utilization ::@:: demand for a resource over all types of flow units / capacity of a resource <p> It can be higher than 100%, implying that the capacity cannot meet the demand. <!--SR:!fsrs,2032-01-17T00:00:00.000Z,1976,1975.98530461,1,2,10,0,0,2026-08-20T00:00:00.000Z!2030-09-24,1607,381-->
 
 ## week 2 lecture 2
@@ -448,7 +448,7 @@ The content is in teaching order.
             - acceptance sampling / sampling plan / table / use ::@:: Find the table for fixed maximum Type I error rate _α_ and maximum Type II error rate _β_. <p> acceptance number _c_: Calculate LTPD÷AQL, and find the _largest integer_ _c_ that has a value _at least_ the calculated LTPD÷AQL. This is the _c_. <br/> sample size \(_not_ lot size\) _n_: Use n×AQL of the found _c_. Find the _smallest integer_ _n_ such that n×AQL has a value of _at least_ that of the found _c_. Equivalently, divide n×AQL by AQL, and round up to the nearest integer. <!--SR:!2029-03-31,1164,379!2026-11-15,490,399-->
     - acceptance sampling / operating characteristic curve (OC curve) ::@:: \(optional\) The probability of acceptance given \(_n_, _c_\) is plotted on the _y_-axis, against the _true_ population defective rate plotted on the _x_-axis. _α_ and _β_ are indicated on the _y_-axis. AQL and LTPD are indicated on the _x_-axis. <!--SR:!2026-12-03,505,399!2026-12-08,510,399-->
         - acceptance sampling / operating characteristic curve / _α_, _β_, AQL, LTPD ::@:: Type I error rate _α_ is the distance of the graph value from 100% at AQL. Type II error rate _β_ is the graph value at LTPD. <!--SR:!2027-08-30,740,418!2031-03-22,1774,399-->
-        - acceptance sampling / operating characteristic curve / ideal curve ::@:: The ideal curve is always 100% acceptance probability for true defective rate from 0% to AQL, and then suddenly jumps to 0% thereafter forever. <!--SR:!2027-05-06,643,416!2026-09-20,454,399-->
+        - acceptance sampling / operating characteristic curve / ideal curve ::@:: The ideal curve is always 100% acceptance probability for true defective rate from 0% to AQL, and then suddenly jumps to 0% thereafter forever. <!--SR:!2027-05-06,643,416!fsrs,2030-05-21T00:00:00.000Z,1338,1338.03994709,1,2,10,0,0,2026-09-21T00:00:00.000Z-->
 
 ## week 5 lecture 2
 

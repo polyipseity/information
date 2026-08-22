@@ -89,7 +89,7 @@ return await memorize_table(
 <!--pytextgen generate section="394d"--><!-- The following content is generated at 2024-01-04T20:17:51.960665+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←lowest <!--SR:!2035-09-29,3555,357!2028-04-19,1442,357-->
-- lowest→::@::←highest <!--SR:!2028-02-24,1401,357!2026-09-20,916,337-->
+- lowest→::@::←highest <!--SR:!2028-02-24,1401,357!fsrs,2033-01-12T00:00:00.000Z,2305,2305.3418911,2.23049087,2,11,0,0,2026-09-21T00:00:00.000Z-->
 - highest→::@::←_(end)_ <!--SR:!2027-11-01,1302,350!2028-03-18,1410,350-->
 
 <!--/pytextgen-->

@@ -19,7 +19,7 @@ tags:
 
 - see: [general/Unified Modeling Language](../../../../general/Unified%20Modeling%20Language.md), [UML](UML.md)
 
-{@{__Unified Modeling Language__ \(__UML__\)}@} is {@{a general-purpose, object-oriented, visual modeling language}@} that provides {@{a way to visualize the architecture and design of a system}@}; like {@{a blueprint}@}. <!--SR:!2027-02-06,385,361!2026-11-05,305,342!2026-09-20,259,341!2026-11-01,301,342-->
+{@{__Unified Modeling Language__ \(__UML__\)}@} is {@{a general-purpose, object-oriented, visual modeling language}@} that provides {@{a way to visualize the architecture and design of a system}@}; like {@{a blueprint}@}. <!--SR:!2027-02-06,385,361!2026-11-05,305,342!fsrs,2028-10-13T00:00:00.000Z,753,753.12624922,2.08064087,2,9,0,0,2026-09-21T00:00:00.000Z!2026-11-01,301,342-->
 
 ## classes
 

@@ -17,7 +17,7 @@ tags:
 
 ## items of the overhead
 
-Manufacturing overhead includes {@{other costs in manufacturing that are neither direct materials costs nor direct labor costs}@}. It might also be referred as {@{the factory burden or production overhead}@}. Its value is {@{essential for determining the cost of products to be manufactured}@}. <!--SR:!2026-09-20,435,310!2029-07-18,1257,350!2027-07-19,678,330-->
+Manufacturing overhead includes {@{other costs in manufacturing that are neither direct materials costs nor direct labor costs}@}. It might also be referred as {@{the factory burden or production overhead}@}. Its value is {@{essential for determining the cost of products to be manufactured}@}. <!--SR:!fsrs,2029-09-21T00:00:00.000Z,1096,1096.19561784,3.24197837,2,10,0,0,2026-09-21T00:00:00.000Z!2029-07-18,1257,350!2027-07-19,678,330-->
 
 This category of costs includes expenses like:
 

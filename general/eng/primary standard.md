@@ -52,7 +52,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="fb92"--><!-- The following content is generated at 2024-03-18T19:56:56.252984+08:00. Any edits will be overridden! -->
 
-- _(most important)_→::@::←high purity <!--SR:!2026-09-20,712,290!2028-05-06,1446,350-->
+- _(most important)_→::@::←high purity <!--SR:!fsrs,2031-02-19T00:00:00.000Z,1612,1611.88953666,3.99122837,2,10,0,0,2026-09-21T00:00:00.000Z!2028-05-06,1446,350-->
 - high purity→::@::←low [reactivity](reactivity%20(chemistry).md) <!--SR:!2027-01-17,754,230!2027-07-11,690,230-->
 - low [reactivity](reactivity%20(chemistry).md)→::@::←low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md) <!--SR:!2027-02-12,590,230!2029-02-02,1118,230-->
 - low [hygroscopity](hygroscopy.md) and [efflorescence](efflorescence.md)→::@::←high [solubility](solubility.md) in given conditions <!--SR:!fsrs,2027-09-18T00:00:00.000Z,370,370.1982332,8.98945847,2,9,0,0,2026-09-13T00:00:00.000Z!2027-02-25,804,230-->
