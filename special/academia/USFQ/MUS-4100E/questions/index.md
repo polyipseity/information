@@ -202,7 +202,7 @@ Watch "1959 The Year that Changed Jazz" \(<https://youtu.be/dou3aSZmEg0>\).
 >
 > What made 1959 such an important year in jazz? What happened?
 >
-> - solution: {@{\(for reference\) Jazz is reaching white America. Several experimental jazz recordings, e.g. _The Shape of Jazz_ came out and became popular, shaping jazz for years to come.}@} <!--SR:!2026-09-22,397,375-->
+> - solution: {@{\(for reference\) Jazz is reaching white America. Several experimental jazz recordings, e.g. _The Shape of Jazz_ came out and became popular, shaping jazz for years to come.}@} <!--SR:!fsrs,2029-12-24T00:00:00.000Z,1188,1187.69945698,1,2,10,0,0,2026-09-23T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

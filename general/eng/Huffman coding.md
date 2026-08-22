@@ -131,7 +131,7 @@ The technique works by {@{creating a [binary tree](binary%20tree.md) of nodes}@}
 
 The process begins with {@{the leaf nodes containing the probabilities of the symbol they represent}@}. Then, the process {@{takes the two nodes with smallest probability}@}, and {@{creates a new internal node having these two nodes as children}@}. The weight of the new node is {@{set to the sum of the weight of the children}@}. We then {@{apply the process again, on the new internal node and on the remaining nodes \(i.e., we exclude the two leaf nodes\)}@}, we {@{repeat this process until only one node remains}@}, which is {@{the root of the Huffman tree}@}. <!--SR:!2028-10-31,1116,350!2029-04-27,1254,350!2028-11-11,1124,350!2029-08-16,1342,350!2027-11-30,824,330!2029-02-17,1198,350!2029-05-17,1269,350-->
 
-{@{The simplest construction algorithm}@} uses {@{a [priority queue](priority%20queue.md) where the node with lowest probability is given highest priority}@}: <!--SR:!2028-08-31,1067,350!2026-09-22,482,310-->
+{@{The simplest construction algorithm}@} uses {@{a [priority queue](priority%20queue.md) where the node with lowest probability is given highest priority}@}: <!--SR:!2028-08-31,1067,350!fsrs,2030-01-07T00:00:00.000Z,1202,1202.10368507,3.24197837,2,10,0,0,2026-09-23T00:00:00.000Z-->
 
 1. Create {@{a leaf node for each symbol}@} and {@{add it to the priority queue}@}.
 2. While {@{there is more than one node}@} in the queue:

@@ -102,7 +102,7 @@ In {@{three dimensions}@}, {@{the [cross product](cross%20product.md) of two vec
 
 ### matrix multiplication
 
-{@{The [matrix product](matrix%20multiplication.md) of two matrices _A<sub>ij</sub>_ and _B<sub>jk</sub>_}@} is: {@{$$\mathbf {C} _{ik}=(\mathbf {A} \mathbf {B} )_{ik}=\sum _{j=1}^{N}A_{ij}B_{jk}$$}@} equivalent to {@{$${C^{i} }_{k}={A^{i} }_{j}{B^{j} }_{k}$$}@} <!--SR:!2026-10-19,288,330!2026-10-12,281,330!2026-09-22,261,330-->
+{@{The [matrix product](matrix%20multiplication.md) of two matrices _A<sub>ij</sub>_ and _B<sub>jk</sub>_}@} is: {@{$$\mathbf {C} _{ik}=(\mathbf {A} \mathbf {B} )_{ik}=\sum _{j=1}^{N}A_{ij}B_{jk}$$}@} equivalent to {@{$${C^{i} }_{k}={A^{i} }_{j}{B^{j} }_{k}$$}@} <!--SR:!2026-10-19,288,330!2026-10-12,281,330!fsrs,2028-09-27T00:00:00.000Z,735,735.27734513,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z-->
 
 ### trace
 
@@ -114,7 +114,7 @@ For {@{a [square matrix](square%20matrix.md) _A<sup>i</sup><sub>j</sub>_}@}, {@{
 
 ### raising and lowering indices
 
-Given {@{a [tensor](tensor.md)}@}, one can {@{[raise an index or lower an index](raising%20and%20lowering%20indices.md)}@} by {@{contracting the tensor with the [metric tensor](metric%20tensor.md), _g<sub>μν</sub>_}@}. For example, taking {@{the tensor _T<sup>α</sup><sub>β</sub>_}@}, one can {@{lower an index}@}: {@{$$g_{\mu \sigma }{T^{\sigma } }_{\beta }=T_{\mu \beta }$$}@} Or one can {@{raise an index}@}: {@{$$g^{\mu \sigma }{T_{\sigma } }^{\alpha }=T^{\mu \alpha }$$}@} <!--SR:!fsrs,2029-06-30T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-12T00:00:00.000Z!2026-10-17,286,330!2026-09-22,261,330!2026-10-19,288,330!2026-10-25,294,330!2026-10-09,278,330!2026-10-16,285,330!2026-10-16,285,330-->
+Given {@{a [tensor](tensor.md)}@}, one can {@{[raise an index or lower an index](raising%20and%20lowering%20indices.md)}@} by {@{contracting the tensor with the [metric tensor](metric%20tensor.md), _g<sub>μν</sub>_}@}. For example, taking {@{the tensor _T<sup>α</sup><sub>β</sub>_}@}, one can {@{lower an index}@}: {@{$$g_{\mu \sigma }{T^{\sigma } }_{\beta }=T_{\mu \beta }$$}@} Or one can {@{raise an index}@}: {@{$$g^{\mu \sigma }{T_{\sigma } }^{\alpha }=T^{\mu \alpha }$$}@} <!--SR:!fsrs,2029-06-30T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-08-12T00:00:00.000Z!2026-10-17,286,330!fsrs,2028-09-27T00:00:00.000Z,735,735.27734513,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-19,288,330!2026-10-25,294,330!2026-10-09,278,330!2026-10-16,285,330!2026-10-16,285,330-->
 
 ## see also
 

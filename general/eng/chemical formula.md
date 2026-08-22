@@ -26,7 +26,7 @@ Structural formulas {@{show the numbers, organization and [chemical bonds](chemi
 
 #### condensed formula
 
-Condensed formulas {@{can represent simple structures in a line of text}@}. [Multiple bonds](bond%20order.md) are {@{generally explicitly shown}@}. <!--SR:!2027-09-26,1224,310!2026-09-22,979,335-->
+Condensed formulas {@{can represent simple structures in a line of text}@}. [Multiple bonds](bond%20order.md) are {@{generally explicitly shown}@}. <!--SR:!2027-09-26,1224,310!fsrs,2033-05-24T00:00:00.000Z,2435,2434.89051855,2.30541587,2,11,0,0,2026-09-23T00:00:00.000Z-->
 
 #### skeletal formula
 

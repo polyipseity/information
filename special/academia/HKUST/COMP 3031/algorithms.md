@@ -23,7 +23,7 @@ tags:
 
 ### insertion sort
 
-{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub-list}@}: <!--SR:!2027-07-05,469,330!2026-10-30,286,330!2026-10-05,267,330!2026-09-22,254,330!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
+{@{Sorting}@} can be {@{implemented purely functionally}@} using {@{__insertion sort__}@}. The algorithm {@{recursively sorts the tail of the list}@} and then inserts {@{the head element into its correct position within that sorted sub-list}@}: <!--SR:!2027-07-05,469,330!2026-10-30,286,330!2026-10-05,267,330!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
 
 > [!example] __insertion sort__
 >
@@ -166,6 +166,6 @@ To sort lists whose {@{elements are not necessarily `Int`}@}, {@{the comparison 
 > // Type inference allows a shorter form
 > msort(xs)( (x, y) => x < y )
 > ```
-<!--SR:!2026-09-22,254,330!fsrs,2029-07-22T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-11-04,290,330!2026-11-07,293,330!2026-10-24,281,330-->
+<!--SR:!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2029-07-22T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-11-04,290,330!2026-11-07,293,330!2026-10-24,281,330-->
 
 These examples demonstrate how Scala's {@{type inference and higher-order functions}@} enable {@{concise yet powerful generic algorithms}@}. <!--SR:!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-10-17,276,330-->

@@ -83,7 +83,7 @@ Associations have {@{6 major properties \(and possibly more\)}@}: {@{name, degre
 
 {@{The _name_}@} of an association should be {@{_unique_ \(including classes and associations\)}@}, and uses {@{vocabularies according to the application domain}@}. Normally, the name can {@{only be _read meaningfully_ in one direction}@}, and the name for {@{the other direction is _inferred_}@}. <!--SR:!2026-12-09,329,342!2027-01-31,379,361!2026-10-19,288,342!2027-02-08,387,361!2027-02-22,389,361-->
 
-An association is drawn by {@{a line connecting the class to itself \(unary\)}@}, {@{a line between two classes \(binary\)}@}, or {@{a diamond shape connecting many classes \(ternary, etc.\)}@}. \(__this course__: We consider {@{unary and binary associations only}@}.\) <!--SR:!2027-03-19,414,370!2026-09-22,261,330!2026-10-26,295,342!2027-03-27,422,373-->
+An association is drawn by {@{a line connecting the class to itself \(unary\)}@}, {@{a line between two classes \(binary\)}@}, or {@{a diamond shape connecting many classes \(ternary, etc.\)}@}. \(__this course__: We consider {@{unary and binary associations only}@}.\) <!--SR:!2027-03-19,414,370!fsrs,2028-09-27T00:00:00.000Z,735,735.27734513,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-26,295,342!2027-03-27,422,373-->
 
 ### association degree
 

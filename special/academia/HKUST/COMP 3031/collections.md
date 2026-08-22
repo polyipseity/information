@@ -88,7 +88,7 @@ However, adding {@{a method that "mutates" \(no actual mutation occurs\) the lis
 >
 > This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. <!--SR:!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!2026-10-06,264,330!2026-09-27,255,330!2026-10-16,274,330!fsrs,2028-08-23T00:00:00.000Z,771,771.20338158,1,2,8,0,0,2026-07-14T00:00:00.000Z!2027-07-24,473,310!2026-10-18,276,330!2026-10-28,284,330!2027-06-10,463,383-->
 
-This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}. <!--SR:!2026-10-31,287,330!2026-09-22,250,330!2026-10-26,282,330!2026-10-19,277,330!2026-10-24,280,330!2026-10-18,276,330!2027-06-29,455,330!2026-10-16,274,330!2027-06-09,462,383-->
+This is okay because {@{covariant parameters}@} can be used in {@{lower bounds of method type parameters}@}. The same holds for {@{upper bounds of method type parameters}@} and {@{contravariant parameters}@}. Now `prepend` accepts {@{any supertype of `T`}@}, producing a list whose {@{element type is that supertype}@}. For example, calling {@{`xs.prepend(orange)` on a `List[Apple]`}@} \(where {@{`Apple` and `Orange` are _direct_ subclasses of `Fruit`}@}\) yields {@{a `List[Fruit]`}@}. <!--SR:!2026-10-31,287,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-26,282,330!2026-10-19,277,330!2026-10-24,280,330!2026-10-18,276,330!2027-06-29,455,330!2026-10-16,274,330!2027-06-09,462,383-->
 
 An alternative to {@{adding a method type parameter}@} is to {@{use extension methods (available in Scala 3)}@}. By defining {@{an extension method for the element type rather than the list itself}@}, we sidestep {@{variance violations}@}: <!--SR:!2026-09-27,255,330!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-11-01,288,330!2026-10-20,278,330-->
 
@@ -101,7 +101,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 >   def ::(xs: List[T]): List[T] = Cons(x, xs)
 > ```
 >
-> This approach does not require {@{adding a method type parameter}@} and allows {@{natural list construction syntax (`1 :: 2 :: Nil`)}@}. <!--SR:!2026-09-23,251,330!2026-10-03,261,330!2026-10-05,263,330!2026-10-05,263,330!2026-09-22,250,330!2026-10-05,263,330-->
+> This approach does not require {@{adding a method type parameter}@} and allows {@{natural list construction syntax (`1 :: 2 :: Nil`)}@}. <!--SR:!2026-09-23,251,330!2026-10-03,261,330!2026-10-05,263,330!2026-10-05,263,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-05,263,330-->
 
 ### list methods
 
@@ -283,7 +283,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!202
 > ```
 <!--SR:!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
 
-{@{The `posElems`}@} example becomes, using {@{`filter`}@}: <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!2026-09-22,250,330-->
+{@{The `posElems`}@} example becomes, using {@{`filter`}@}: <!--SR:!fsrs,2029-06-24T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-09-02T00:00:00.000Z!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z-->
 
 > [!example] __`filter` example__
 >
@@ -326,7 +326,7 @@ In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@},
 > def encode[T](xs: List[T]): List[(T, Int)] =
 >   pack(xs).map(ys => (ys.head, ys.length))
 > ```
-<!--SR:!2026-09-30,258,330!2026-09-22,250,330-->
+<!--SR:!2026-09-30,258,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z-->
 
 As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@{type-safe \(always safe\)}@} to {@{call `ys.head`}@} as {@{`ys` is `::[T]` instead of `List[T]`}@}. <!--SR:!fsrs,2028-07-14T03:38:04.673Z,760,759.95962134,1,2,8,0,0,2026-06-15T03:38:04.673Z!2026-11-08,294,330!fsrs,2028-01-29T00:00:00.000Z,504,504.11440767,5.00637887,2,9,0,0,2026-09-12T00:00:00.000Z!2026-09-29,257,330!2026-12-31,339,350-->
 
@@ -450,7 +450,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 > val ys: String = "Hello world!"
 > ys.filter(_.isUpper)
 > ```
-<!--SR:!2026-09-25,253,330!2026-09-25,253,330!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-09-22,250,330!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-08,266,330-->
+<!--SR:!2026-09-25,253,330!2026-09-25,253,330!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-10-08,266,330-->
 
 ## range
 
@@ -668,7 +668,7 @@ To avoid {@{the verbosity of `Polynomial(Map(...))`}@}, {@{a _varargs_ construct
 
 ## set
 
-{@{Scala's collections library}@} supplies {@{the immutable `Set`}@}, which represents {@{an _unordered_ collection of _distinct_ elements}@}. Sets are declared {@{in the same way as sequences}@}: <!--SR:!2026-09-22,250,330!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-25,281,330-->
+{@{Scala's collections library}@} supplies {@{the immutable `Set`}@}, which represents {@{an _unordered_ collection of _distinct_ elements}@}. Sets are declared {@{in the same way as sequences}@}: <!--SR:!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2028-08-09T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-25,281,330-->
 
 > [!example] __`Set` construction__
 >

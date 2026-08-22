@@ -51,7 +51,7 @@ The content is in teaching order.
         - Bloomberg Terminal / Bloomberg News / natural language search ::@:: `N <GO>` <!--SR:!fsrs,2029-12-12T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-08-02T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-08-06T00:00:00.000Z-->
         - Bloomberg Terminal / Bloomberg News / Bloomberg TV & Video ::@:: `NH BLC <GO>` <!--SR:!fsrs,2029-12-13T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-09-09T00:00:00.000Z!fsrs,2029-10-23T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-08-27T00:00:00.000Z-->
         - Bloomberg Terminal / Bloomberg News / social monitor ::@:: `SOCI <GO>` <!--SR:!fsrs,2028-11-10T00:00:00.000Z,783,782.78848554,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-06-02T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-07-23T00:00:00.000Z-->
-        - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>` <!--SR:!fsrs,2028-11-18T00:00:00.000Z,788,787.77065617,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-09-22,283,330-->
+        - Bloomberg Terminal / Bloomberg News / news categories ::@:: `NCAT <GO>` <!--SR:!fsrs,2028-11-18T00:00:00.000Z,788,787.77065617,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2028-11-21T00:00:00.000Z,790,790.26040114,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z-->
         - Bloomberg Terminal / Bloomberg News / key news themes ::@:: `NSTM <GO>` <!--SR:!2028-06-23,751,330!2027-08-01,505,310-->
         - Bloomberg Terminal / Bloomberg News / front page ::@:: `FRNT <GO>` <!--SR:!fsrs,2029-10-29T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-08-29T00:00:00.000Z!fsrs,2029-12-23T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
 - FINA 3810

@@ -76,7 +76,7 @@ and {@{a pair generator}@} that produces {@{two independent random integers}@}: 
 > val pairs = new Generator[(Int, Int)]:
 >   def generate() = (integers.generate(), integers.generate())
 > ```
-<!--SR:!2026-09-22,251,330!fsrs,2029-07-07T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-04T00:00:00.000Z-->
+<!--SR:!fsrs,2028-09-02T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2029-07-07T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-04T00:00:00.000Z-->
 
 #### generator monad
 
