@@ -310,7 +310,7 @@ class WikiHtmlConverter:
         )
         has_box_title = (
             _BLOCKQUOTE_CLASSES & classes
-            and self._find_box_title(ele, has_numblk=False) is not None
+            and bool(self._find_box_title(ele, has_numblk=False))
         )
         if "sistersitebox" in classes:
             original_process = process_strings
@@ -699,6 +699,11 @@ class WikiHtmlConverter:
         LatexConverter.replace_sfrac_with_math(ele, self._soup)
 
     @staticmethod
+    def _in_list_item(ele: Tag) -> bool:
+        """Return True when *ele* is nested inside a list item (<li>)."""
+        return any(isinstance(p, Tag) and p.name == "li" for p in ele.parents)
+
+    @staticmethod
     def _in_table_cell(ele: Tag) -> bool:
         """Check if element is nested inside a <td> or <th>."""
         return any(isinstance(p, Tag) and p.name in _TD_OR_TH for p in ele.parents)
@@ -786,11 +791,11 @@ class WikiHtmlConverter:
         th1 = self._soup.new_tag("th")
         if align:
             _set_text_align(th1, align)
-        if isinstance(title, Tag):
-            # Preserve inline formatting (e.g. ``<b>``) in the title.
-            th1.append(title)
-        else:
-            th1.string = title
+        # ``title`` is the list of leading inline nodes (e.g. ``<b>`` plus a
+        # trailing parenthetical text run).  Append each so inline formatting
+        # and the parenthetical are preserved in the header cell.
+        for _title_node in title:
+            th1.append(_title_node)
         header_row.append(th1)
         if numblk is not None:
             th2 = self._soup.new_tag("th")
@@ -837,14 +842,18 @@ class WikiHtmlConverter:
         return _HandlerConfig(suffix="" if self._in_table_cell(ele) else "\n\n")
 
     @staticmethod
-    def _find_box_title(ele: Tag, *, has_numblk: bool) -> Tag | NavigableString | None:
+    def _find_box_title(ele: Tag, *, has_numblk: bool) -> list[Tag | NavigableString] | None:
         """Detect the leading title of a box div without extracting it.
 
-        The title is the first non-whitespace text run (bare text or an
-        inline tag such as ``<b>``/``<strong>``) when it is followed by
-        block-level content or a numblk table.  Returns None when the box
-        has no distinct title (e.g. pure equation content).
+        The title is the run of leading inline nodes (bare text and inline
+        tags such as ``<b>``/``<strong>``) before the first block-level
+        body element (e.g. ``<p>``) or numblk table.  This captures a title
+        followed by a trailing parenthetical text run, e.g.
+        ``<b>Routhian</b> (n + s degrees of freedom)``, so the whole run can
+        be merged into the header cell.  Returns None when the box has no
+        distinct title (e.g. pure equation content).
         """
+        title_nodes: list[Tag | NavigableString] = []
         for child in list(ele.children):
             if isinstance(child, NavigableString):
                 if not child.strip():
@@ -854,30 +863,30 @@ class WikiHtmlConverter:
                     for sib in ele.children
                 ):
                     return None
-                return child
+                title_nodes.append(child)
+                continue
             if isinstance(child, Tag) and child.name in _EQUATION_BOX_TITLE_TAGS:
-                return child
-            return None
-        return None
+                title_nodes.append(child)
+                continue
+            return title_nodes if title_nodes else None
+        return title_nodes if title_nodes else None
 
     @staticmethod
-    def _equation_box_title(ele: Tag, *, has_numblk: bool) -> Tag | str:
+    def _equation_box_title(ele: Tag, *, has_numblk: bool) -> list[Tag | NavigableString]:
         """Extract the leading title of an equation-box div.
 
-        The title is the first non-whitespace text run (bare text or an
-        inline tag such as ``<b>``/``<strong>``) when it is followed by
-        block-level content or a numblk table.  The title node is removed
-        from *ele* so the remaining children form the body.  Returns ""
-        when the box has no distinct title (e.g. pure equation content).
-        Returns the title ``Tag`` itself when it carries inline formatting
-        (so emphasis is preserved), otherwise its stripped text.
+        The title is the run of leading inline nodes (bare text and inline
+        tags such as ``<b>``/``<strong>``) before the first block-level
+        body element or numblk table.  The title nodes are removed from
+        *ele* so the remaining children form the body.  Returns an empty
+        list when the box has no distinct title (e.g. pure equation
+        content).
         """
         title = WikiHtmlConverter._find_box_title(ele, has_numblk=has_numblk)
         if title is None:
-            return ""
-        title.extract()
-        if isinstance(title, NavigableString):
-            return title.strip()
+            return []
+        for node in title:
+            node.extract()
         return title
 
     _handle_dd = _handle_block_level
@@ -891,14 +900,37 @@ class WikiHtmlConverter:
         # empty strings and produce stray blank lines (changing single-row
         # output).  Keep the current no-joiner behavior inside table cells.
         in_table = self._in_table_cell(ele)
+        in_list = self._in_list_item(ele)
         joiner = "" if in_table else "\n"
         if joiner:
             for child in tuple(ele.children):
                 if isinstance(child, NavigableString) and not child.strip():
                     child.extract()
         # Terminate the block with a blank line like <p> does, so a sole-math
-        # <dd> row is symmetric (blank line before and after).
-        return _HandlerConfig(joiner=joiner, suffix="" if in_table else "\n\n")
+        # <dd> row is symmetric (blank line before and after).  Inside a list
+        # item, however, the <dl> is inline content of the <li>: use the cell-
+        # internal ``<p>`` separator so the <li> stays on one line (e.g. a
+        # citation whose reference text spans a definition list).  The
+        # separator already supplies the space, so drop any leading whitespace
+        # on the text node that follows the <dl> to avoid a double space.
+        if in_table:
+            suffix = ""
+        elif in_list:
+            # The <dl> is inline content of the <li>: use the cell-internal
+            # ``<p>`` separator so the <li> stays on one line.  The separator
+            # already supplies a space; if the text node that follows the <dl>
+            # also carries a leading space (preserved by the inline-string
+            # handler), drop the suffix's trailing space to avoid a double
+            # space.  Otherwise keep the trailing space so the separator is not
+            # collapsed into the following text.
+            nxt = ele.next_sibling
+            if isinstance(nxt, NavigableString) and str(nxt)[:1] in " \t\n\r\x0b\x0c":
+                suffix = " <p>"
+            else:
+                suffix = " <p> "
+        else:
+            suffix = "\n\n"
+        return _HandlerConfig(joiner=joiner, suffix=suffix)
 
     def _handle_p(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render a <p> paragraph with appropriate spacing."""
@@ -1215,7 +1247,9 @@ class WikiHtmlConverter:
             parts = [
                 line.removeprefix("- ").removeprefix("* ") for line in lines if line
             ]
-            return _ADJACENT_RE.sub(r"\g<0> ", " ".join(parts))
+            # Separate portal items with a blank line so each renders on its
+            # own ``> `` line inside a blockquote (e.g. the "see also" box).
+            return _ADJACENT_RE.sub(r"\g<0> ", "\n\n".join(parts))
 
         return _HandlerConfig(process_strings=process)
 
