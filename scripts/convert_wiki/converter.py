@@ -165,6 +165,7 @@ class WikiHtmlConverter:
         self._soup: BeautifulSoup = (
             soup if soup is not None else BeautifulSoup("", "html.parser")
         )
+        self._seen_heading_texts: set[str] = set()
 
     async def convert(
         self,
@@ -308,9 +309,8 @@ class WikiHtmlConverter:
             and isinstance(ele, Tag)
             and ele.find("div", class_="thumbcaption") is not None
         )
-        has_box_title = (
-            _BLOCKQUOTE_CLASSES & classes
-            and bool(self._find_box_title(ele, has_numblk=False))
+        has_box_title = _BLOCKQUOTE_CLASSES & classes and bool(
+            self._find_box_title(ele, has_numblk=False)
         )
         if "sistersitebox" in classes:
             original_process = process_strings
@@ -842,7 +842,9 @@ class WikiHtmlConverter:
         return _HandlerConfig(suffix="" if self._in_table_cell(ele) else "\n\n")
 
     @staticmethod
-    def _find_box_title(ele: Tag, *, has_numblk: bool) -> list[Tag | NavigableString] | None:
+    def _find_box_title(
+        ele: Tag, *, has_numblk: bool
+    ) -> list[Tag | NavigableString] | None:
         """Detect the leading title of a box div without extracting it.
 
         The title is the run of leading inline nodes (bare text and inline
@@ -872,7 +874,9 @@ class WikiHtmlConverter:
         return title_nodes if title_nodes else None
 
     @staticmethod
-    def _equation_box_title(ele: Tag, *, has_numblk: bool) -> list[Tag | NavigableString]:
+    def _equation_box_title(
+        ele: Tag, *, has_numblk: bool
+    ) -> list[Tag | NavigableString]:
         """Extract the leading title of an equation-box div.
 
         The title is the run of leading inline nodes (bare text and inline
