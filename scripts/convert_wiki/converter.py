@@ -351,9 +351,12 @@ class WikiHtmlConverter:
                     "\n".join(_collapse_whitespace(line) for line in para.split("\n"))
                     for para in strings.split("\n\n")
                 )
-                result = "".join(
-                    f">{line.strip() and ' '}{line}"
-                    for line in strings.strip().splitlines(keepends=True)
+                result = "\n".join(
+                    f">{content and ' '}{content}"
+                    for content in (
+                        _collapse_whitespace(line).strip()
+                        for line in strings.strip().splitlines()
+                    )
                 )
                 result = _COLLAPSE_EMPTY_BLOCKQUOTE_RE.sub(">\n", result)
                 # Separate the box title from its body with a blank ``> `` line.
