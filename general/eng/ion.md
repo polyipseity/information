@@ -444,7 +444,7 @@ return chain.from_iterable([r.value for r in results])
 - hydrogencarbonate ion:@:1- <!--SR:!2028-08-20,1752,310-->
 - hydrogensulfite ion:@:1- <!--SR:!2033-12-18,3288,339-->
 - hydrogensulfate ion:@:1- <!--SR:!2034-12-30,3411,304-->
-- permanganate ion:@:1- <!--SR:!2026-09-23,560,250-->
+- permanganate ion:@:1- <!--SR:!fsrs,2031-03-26T00:00:00.000Z,1644,1644.35036586,3.98153807,2,10,0,0,2026-09-24T00:00:00.000Z-->
 - oxide ion:@:2- <!--SR:!2026-10-22,1271,310-->
 - sulfide ion:@:2- <!--SR:!2028-04-19,1267,250-->
 - sulfate ion:@:2- <!--SR:!2028-06-08,1688,310-->

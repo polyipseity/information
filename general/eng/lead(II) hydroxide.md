@@ -9,16 +9,16 @@ tags:
 
 # lead(II) hydroxide
 
-{@{__Lead(II) hydroxide__}@} is {@{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Pb](lead.md)([OH](hydroxide.md))<sub>2</sub>}@}. It looks like {@{white amorphous [powder](powder.md)}@}. <!--SR:!2026-10-03,995,350!2028-08-13,1128,230!fsrs,2026-09-02T03:59:19.291Z,8,8.2956,1,2,1,0,0,2026-08-25T03:59:19.291Z-->
+{@{__Lead(II) hydroxide__}@} is {@{an [inorganic compound](inorganic%20compound.md) with the [chemical formula](chemical%20formula.md) [Pb](lead.md)([OH](hydroxide.md))<sub>2</sub>}@}. It looks like {@{white amorphous [powder](powder.md)}@}. <!--SR:!2026-10-03,995,350!2028-08-13,1128,230!fsrs,2026-11-12T00:00:00.000Z,49,49.40520236,4.01060897,2,2,0,0,2026-09-24T00:00:00.000Z-->
 
 ## preparation
 
-Treating {@{lead(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out white lead(II) hydroxide}@}. Excess {@{strong base redissolves the precipitate}@} and {@{forms colorless tetrahydroxoplumbate(II) ions}@}: <!--SR:!fsrs,2029-12-03T00:00:00.000Z,1216,1215.71523222,1.98030797,2,9,0,0,2026-08-05T00:00:00.000Z!fsrs,2028-11-19T00:00:00.000Z,791,790.8706068,6.99791867,2,10,0,0,2026-09-20T00:00:00.000Z!fsrs,2026-09-02T03:59:20.616Z,8,8.2956,1,2,1,0,0,2026-08-25T03:59:20.616Z-->
+Treating {@{lead(II) [salts](salt%20(chemistry).md) with a [base](base%20(chemistry).md) [precipitates](precipitate.md) out white lead(II) hydroxide}@}. Excess {@{strong base redissolves the precipitate}@} and {@{forms colorless tetrahydroxoplumbate(II) ions}@}: <!--SR:!fsrs,2029-12-03T00:00:00.000Z,1216,1215.71523222,1.98030797,2,9,0,0,2026-08-05T00:00:00.000Z!fsrs,2028-11-19T00:00:00.000Z,791,790.8706068,6.99791867,2,10,0,0,2026-09-20T00:00:00.000Z!fsrs,2027-02-07T00:00:00.000Z,136,136.32049901,1,2,2,0,0,2026-09-24T00:00:00.000Z-->
 
 > {@{treating with [bases](base%20(chemistry).md)}@}
 >
 > 1. {@{Pb<sup>2+</sup>(aq) + 2OH<sup>-</sup>(aq) → Pb(OH)<sub>2</sub>(s)}@}
-> 2. {@{Pb(OH)<sub>2</sub>(s) + 2OH<sup>-</sup>(aq) → \[Pb(OH)<sub>4</sub>\]<sup>2-</sup>(aq)}@} <!--SR:!2026-11-02,938,330!2037-01-03,3899,350!fsrs,2026-08-25T04:05:17.655Z,0,1.2931,5.11217071,1,1,0,0,2026-08-25T03:59:17.655Z-->
+> 2. {@{Pb(OH)<sub>2</sub>(s) + 2OH<sup>-</sup>(aq) → \[Pb(OH)<sub>4</sub>\]<sup>2-</sup>(aq)}@} <!--SR:!2026-11-02,938,330!2037-01-03,3899,350!fsrs,2026-09-24T00:06:00.000Z,0,11.5657219,6.74045952,1,2,0,0,2026-09-24T00:00:00.000Z-->
 
 ## references
 

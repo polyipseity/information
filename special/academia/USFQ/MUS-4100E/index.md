@@ -390,7 +390,7 @@ The content is in teaching order.
     - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2027-06-24,691,422!2027-08-16,735,422-->
     - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2027-09-11,753,422!2027-08-25,741,422-->
 - [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2027-07-03,699,422!2026-11-13,499,402-->
-    - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!2026-09-23,458,402!2026-12-30,535,402-->
+    - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!fsrs,2032-07-20T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-09-24T00:00:00.000Z!2026-12-30,535,402-->
     - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2027-08-26,742,422!2027-07-27,717,422-->
 - [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2026-12-26,531,402!2026-12-04,515,402-->
     - Fats Waller / works ::@:: "Ain't Misbehavin" (1929) — Fats Waller <br/> standards: "Ain't Misbehavin", "Honeysuckle Rose", "Jitterbug Waltz" <!--SR:!2030-04-01,1479,402!fsrs,2030-05-27T00:00:00.000Z,1343,1343.2783086,1,2,10,0,0,2026-09-22T00:00:00.000Z-->

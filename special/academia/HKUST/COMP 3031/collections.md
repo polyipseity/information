@@ -67,7 +67,7 @@ Unlike {@{arrays}@}, lists are {@{__immutable__}@}—once constructed {@{their c
 
 Pattern matching works {@{seamlessly with lists}@}. {@{The constant `Nil`}@} matches {@{an empty list}@}; {@{the pattern `p :: ps`}@} matches {@{a non-empty list}@} whose first element {@{satisfies pattern `p` and whose remainder satisfies pattern `ps`}@}. {@{A shorthand}@} for {@{a concrete list of length _n_}@} is {@{`List(p₁, ..., pₙ)`}@}, which expands to {@{nested conses ending in `Nil`}@}. For instance, {@{the pattern `1 :: 2 :: xs`}@} matches {@{any list that begins with `1` followed by `2`}@}, while {@{`x :: Nil`}@} matches {@{a singleton list}@}. {@{More elaborate patterns}@} such as {@{`x :: y :: List(xs, ys) :: zs`}@} illustrate {@{nested matching}@}. <!--SR:!2026-10-31,287,330!fsrs,2028-08-20T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-10-08,266,330!fsrs,2029-07-08T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-08,266,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-10-23,281,330!2026-10-13,271,330!2026-10-04,262,330!fsrs,2029-07-23T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-08T00:00:00.000Z!2026-09-25,253,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-05,263,330!fsrs,2028-02-01T00:00:00.000Z,506,506.03526322,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!2026-10-29,285,330!2026-10-27,283,330-->
 
-Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}. <!--SR:!2026-09-27,255,330!2026-09-23,251,330!2026-10-13,271,330!2026-09-30,258,330-->
+Overall, lists provide {@{a simple yet powerful abstraction}@} for {@{ordered collections}@}: they are {@{immutable, recursively defined, and naturally suited to pattern matching}@}, making them {@{a staple of functional Scala code}@}. <!--SR:!2026-09-27,255,330!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-13,271,330!2026-09-30,258,330-->
 
 ### list covariance
 
@@ -101,7 +101,7 @@ An alternative to {@{adding a method type parameter}@} is to {@{use extension me
 >   def ::(xs: List[T]): List[T] = Cons(x, xs)
 > ```
 >
-> This approach does not require {@{adding a method type parameter}@} and allows {@{natural list construction syntax (`1 :: 2 :: Nil`)}@}. <!--SR:!2026-09-23,251,330!2026-10-03,261,330!2026-10-05,263,330!2026-10-05,263,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-05,263,330-->
+> This approach does not require {@{adding a method type parameter}@} and allows {@{natural list construction syntax (`1 :: 2 :: Nil`)}@}. <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-03,261,330!2026-10-05,263,330!2026-10-05,263,330!fsrs,2028-08-31T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-05,263,330-->
 
 ### list methods
 
@@ -137,7 +137,7 @@ Lists are {@{the fundamental data structure}@} that will {@{recur throughout the
 > ```
 <!--SR:!2026-10-27,283,330!2026-10-11,269,330!2026-10-10,268,330!2026-10-21,279,330!2026-11-08,294,330!fsrs,2029-08-21T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-14T00:00:00.000Z!2026-10-26,282,330-->
 
-The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-11-08,294,330!2026-09-26,254,330!2026-10-18,276,330!fsrs,2028-07-09T14:11:53.577Z,756,756.20650093,1,2,8,0,0,2026-06-14T14:11:53.577Z!2026-11-01,288,330!2026-09-23,251,330!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-26,282,330-->
+The `List` API offers {@{a rich set of operations}@} for {@{sublists, element access, and construction}@}. Methods such as {@{`.length`, `.take(n)`, `.drop(n)`}@}, {@{`.last` \(the last element\), `.init` \(a list of all the elements except for `.last`\) and the indexer `xs(n)`}@} provide {@{standard functional list manipulation}@}. {@{The last three}@} are {@{_partial_ methods}@} because they {@{throw exceptions on empty lists or out-of-range indices}@}; consequently it is preferable to {@{use safer alternatives whenever possible}@}. <!--SR:!2026-11-08,294,330!2026-09-26,254,330!2026-10-18,276,330!fsrs,2028-07-09T14:11:53.577Z,756,756.20650093,1,2,8,0,0,2026-06-14T14:11:53.577Z!2026-11-01,288,330!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2028-07-30T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,690,689.94707246,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-26,282,330-->
 
 {@{Additional constructors}@} include {@{concatenation (`xs ::: ys`), reversal (`xs.reverse`) and update (`xs.updated(n, x)`)}@}. {@{Element search}@} is supported by {@{`.indexOf(x)` and `.contains(x)`}@}. <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-01,259,330!fsrs,2029-07-04T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2028-08-24T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
 
@@ -377,7 +377,7 @@ Using {@{`reduceLeft`}@}, {@{summation}@} becomes: <!--SR:!2026-11-07,293,330!20
 > def concat[T](xs: List[T], ys: List[T]): List[T] =
 >   xs.foldRight(ys)(_ :: _)
 > ```
-<!--SR:!2026-09-23,251,330!2026-10-05,263,330!2027-01-11,347,350-->
+<!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-05,263,330!2027-01-11,347,350-->
 
 {@{Replacing `foldRight` with `foldLeft`}@} would {@{reverse the order of operations}@}. When {@{the operator is associative and commutative}@}, the final result is {@{the same}@}; otherwise, {@{the types or semantics change}@}. {@{`foldRight`}@} also does not {@{work with infinite lists}@}, as there is {@{no rightmost or ending element to start folding}@}. <!--SR:!fsrs,2029-08-02T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-11-04,290,330!2026-10-10,268,330!2026-10-08,266,330!2026-09-27,255,330!2026-10-18,276,330!2026-10-20,278,330!2026-10-14,272,330-->
 
@@ -504,7 +504,7 @@ These operations are typically implemented via {@{recursion or tail-recursion}@}
 >   xs.zip(ys).map(_ * _).sum
 > ```
 >
-> Here {@{`zip`}@} produces {@{a sequence of pairs}@}; {@{`_ * _`}@} is {@{shorthand for `(x, y) => x * y`}@}. <!--SR:!2026-09-23,251,330!2026-10-28,284,330!2026-10-02,260,330!2026-10-18,276,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-18,276,330!2026-10-29,285,330-->
+> Here {@{`zip`}@} produces {@{a sequence of pairs}@}; {@{`_ * _`}@} is {@{shorthand for `(x, y) => x * y`}@}. <!--SR:!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-28,284,330!2026-10-02,260,330!2026-10-18,276,330!fsrs,2029-07-13T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-09-06T00:00:00.000Z!2026-10-18,276,330!2026-10-29,285,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -603,7 +603,7 @@ Because {@{maps are immutable}@}, updates {@{produce new maps}@}. {@{The operato
 > val fruit = List("apple", "pear", "orange", "pineapple")
 > fruit.groupBy(_.head)  // Map('a' -> List("apple"), 'p' -> List("pear", "pineapple"), ...)
 > ```
-<!--SR:!2026-10-14,272,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2026-09-23,251,330-->
+<!--SR:!2026-10-14,272,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2029-10-09T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-09-24T00:00:00.000Z-->
 
 {@{`Map.withDefaultValue`}@} turns {@{a map into a total function}@} by providing {@{a default value for missing keys}@}. <!--SR:!fsrs,2029-06-29T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-09-03T00:00:00.000Z!2026-10-10,268,330!2026-11-03,290,330-->
 

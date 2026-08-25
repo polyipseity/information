@@ -115,7 +115,7 @@ The content is in teaching order.
 - datetime: 2023-10-18T17:00:00+08:00/2023-10-18T18:50:00+08:00
 - topic: Career and Employability Skills
 - networking
-    - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!2026-09-23,528,310!2028-10-12,1151,350-->
+    - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!fsrs,2032-02-28T00:00:00.000Z,1983,1982.94099656,1,2,10,0,0,2026-09-24T00:00:00.000Z!2028-10-12,1151,350-->
 - Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2028-11-22,1183,350!2028-08-28,1115,350-->
 - Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2028-09-13,1128,350!2026-12-19,621,330-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2028-12-24,1209,350!2028-02-23,972,350-->

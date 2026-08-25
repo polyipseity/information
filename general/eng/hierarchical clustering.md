@@ -103,7 +103,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="259f"--><!-- The following content is generated at 2024-04-12T02:13:02.092326+08:00. Any edits will be overridden! -->
 
 - MISSQ, minimum increase of sum of squares:@:[Ward's method](Ward's%20method.md) <!--SR:!2027-04-29,801,335-->
-- UPGMC, unweighted centroid clustering:@:centroid linkage clustering <!--SR:!2026-09-23,629,315-->
+- UPGMC, unweighted centroid clustering:@:centroid linkage clustering <!--SR:!fsrs,2033-03-04T00:00:00.000Z,2353,2352.79463479,1,2,10,0,0,2026-09-24T00:00:00.000Z-->
 - maximum linkage clustering:@:[complete-linkage clustering](complete-linkage%20clustering.md) <!--SR:!2028-08-20,1241,355-->
 - WPGMC, weighted centroid clustering:@:median linkage clustering <!--SR:!2028-06-29,1108,295-->
 - minimum linkage clustering, nearest neighbor technique:@:[single-linkage clustering](single-linkage%20clustering.md) <!--SR:!2028-07-26,1223,355-->
