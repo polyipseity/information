@@ -331,10 +331,13 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
                         parts.append(" <br/> ")
                     else:
                         parts.append(gap)
-                        if needs_before:
+                        if needs_before and not (gap and gap[-1].isspace()):
                             parts.append(separator)
                     parts.append(target)
-                    if needs_after:
+                    if needs_after and not (
+                        dollar_pos + target_len < len(text)
+                        and text[dollar_pos + target_len].isspace()
+                    ):
                         parts.append(separator)
                     parts_ended_with_sep = needs_after
                     pos = dollar_pos + target_len
@@ -364,10 +367,13 @@ def _scan_and_apply(text: str, info: Sequence[tuple[str, bool, bool, bool]]) -> 
                             after_apostrophe=after_apostrophe,
                         )
                     parts.append(text[pos:dollar_pos])
-                    if needs_before:
+                    if needs_before and not (pos > 0 and text[pos - 1].isspace()):
                         parts.append(separator)
                     parts.append(target_inline)
-                    if needs_after:
+                    if needs_after and not (
+                        dollar_pos + len(target_inline) < len(text)
+                        and text[dollar_pos + len(target_inline)].isspace()
+                    ):
                         parts.append(separator)
                     parts_ended_with_sep = needs_after
                     pos = dollar_pos + len(target_inline)
