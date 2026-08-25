@@ -266,7 +266,9 @@ class WikiHtmlConverter:
         # following heading (markdownlint MD022/MD032). Blocks already ending
         # in "\n\n" are left untouched to avoid double blank lines.
         if config.suffix == "\n":
-            nxt = self._effective_sibling(ele, following=True)
+            nxt = self._effective_sibling_skipping(
+                ele, following=True, skip_whitespace=True
+            )
             if isinstance(nxt, Tag) and (
                 _HEADER_REGEX.match(nxt.name)
                 or "mw-heading" in frozenset(nxt.get_attribute_list("class"))
@@ -281,7 +283,9 @@ class WikiHtmlConverter:
         if "hatnote" in classes:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
             next_sib = ele.find_next_sibling()
-            nxt = self._effective_sibling(ele, following=True)
+            nxt = self._effective_sibling_skipping(
+                ele, following=True, skip_whitespace=True
+            )
             if isinstance(next_sib, Tag) and (
                 next_sib.name == "figure"
                 or _BOXED_CLASSES & frozenset(next_sib.get_attribute_list("class"))
@@ -582,15 +586,39 @@ class WikiHtmlConverter:
         through such transparent wrappers until a real sibling is found or a
         non-span boundary (block element or root) is reached.
         """
+        return WikiHtmlConverter._effective_sibling_skipping(
+            ele, following=following, skip_whitespace=False
+        )
+
+    @staticmethod
+    def _effective_sibling_skipping(
+        ele: PageElement, *, following: bool, skip_whitespace: bool
+    ) -> PageElement | None:
+        """Like ``_effective_sibling`` but optionally skips whitespace-only text.
+
+        Whitespace-only ``NavigableString`` siblings carry no rendered content,
+        so structural decisions (e.g. a blank line before a following heading)
+        must look past them.  The separator helpers at L609-611 intentionally
+        rely on the raw whitespace result, so callers there must pass
+        ``skip_whitespace=False``.
+        """
         node: PageElement = ele
         while True:
             sibling = node.next_sibling if following else node.previous_sibling
-            if sibling is not None:
-                return sibling
-            parent = node.parent
-            if not isinstance(parent, Tag) or parent.name != "span":
-                return None
-            node = parent
+            if sibling is None:
+                parent = node.parent
+                if not isinstance(parent, Tag) or parent.name != "span":
+                    return None
+                node = parent
+                continue
+            if (
+                skip_whitespace
+                and isinstance(sibling, NavigableString)
+                and not sibling.strip()
+            ):
+                node = sibling
+                continue
+            return sibling
 
     def _handle_bold_italic(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render bold/italic text with Markdown emphasis markers."""
