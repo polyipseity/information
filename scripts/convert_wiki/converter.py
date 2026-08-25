@@ -491,10 +491,15 @@ class WikiHtmlConverter:
         suffix = "\n\n"
 
         def process(strings: str) -> str:
-            """Fix name casing in heading text."""
-            return _fix_name_maybe(strings.strip(), names_map=self._names_map)
+            """Fix name casing in heading text; suppress MD024 on repeats."""
+            text = _fix_name_maybe(strings.strip(), names_map=self._names_map)
+            key = text.casefold()
+            if key in self._seen_heading_texts:
+                return f"<!-- markdownlint-disable-next-line MD024 -->\n{prefix}{text}"
+            self._seen_heading_texts.add(key)
+            return f"{prefix}{text}"
 
-        return _HandlerConfig(prefix=prefix, suffix=suffix, process_strings=process)
+        return _HandlerConfig(prefix="", suffix=suffix, process_strings=process)
 
     def _handle_selflink(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render a self-link as a relative Markdown link."""
