@@ -262,6 +262,17 @@ class WikiHtmlConverter:
         if config is None:
             config = _HandlerConfig()
 
+        # Ensure a single blank line separates a single-newline block from a
+        # following heading (markdownlint MD022/MD032). Blocks already ending
+        # in "\n\n" are left untouched to avoid double blank lines.
+        if config.suffix == "\n":
+            nxt = self._effective_sibling(ele, following=True)
+            if isinstance(nxt, Tag) and (
+                _HEADER_REGEX.match(nxt.name)
+                or "mw-heading" in frozenset(nxt.get_attribute_list("class"))
+            ):
+                config.suffix = "\n\n"
+
         joiner = config.joiner
         process_strings = config.process_strings
         if config.list_stack is not None:
