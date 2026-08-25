@@ -281,9 +281,15 @@ class WikiHtmlConverter:
         if "hatnote" in classes:
             config.prefix = f"- {config.prefix.removesuffix('_')}"
             next_sib = ele.find_next_sibling()
+            nxt = self._effective_sibling(ele, following=True)
             if isinstance(next_sib, Tag) and (
                 next_sib.name == "figure"
                 or _BOXED_CLASSES & frozenset(next_sib.get_attribute_list("class"))
+            ):
+                config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
+            elif isinstance(nxt, Tag) and (
+                _HEADER_REGEX.match(nxt.name)
+                or "mw-heading" in frozenset(nxt.get_attribute_list("class"))
             ):
                 config.suffix = f"{config.suffix.removeprefix('_')}\n\n"
             else:
