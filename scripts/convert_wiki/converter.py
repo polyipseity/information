@@ -432,6 +432,9 @@ class WikiHtmlConverter:
         if ele.name == "li":
             return self._handle_li(ele, classes, list_stack)
 
+        if ele.name == "video":
+            return self._handle_video(ele, classes)
+
         handler = getattr(self, f"_handle_{ele.name}", None)
         if handler is not None:
             return handler(ele, classes)
@@ -1469,51 +1472,68 @@ class WikiHtmlConverter:
             src_url_str = quote(formats[1].format(to_archive.replace("_", " ")))
         return src_url_str
 
+    def _build_media_config(
+        self,
+        *,
+        ele: Tag,
+        src: str,
+        text: str,
+        embed: bool,
+    ) -> _HandlerConfig:
+        """Build a handler config that emits a media link/embed."""
+        src_url_str = self._process_archive_url(str(src))
+        link = f"{'!' if embed else ''}[{text.strip()}]({src_url_str})"
+        return _HandlerConfig(
+            suffix="" if self._in_inline_context(ele) else "\n\n",
+            process_strings=lambda _strings: link,
+        )
+
     def _handle_audio(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <audio> media elements."""
-        if src := ele.get("href"):
-
-            def process(strings: str) -> str:
-                """Generate Markdown link for audio file."""
-                src_url_str = self._process_archive_url(str(src))
-                embed = "!" if {"mw-tmh-player"} & classes else ""
-                return f"{embed}[{strings.strip()}]({src_url_str})"
-
-            return _HandlerConfig(
-                suffix="" if self._in_inline_context(ele) else "\n\n",
-                process_strings=process,
-            )
-        return _HandlerConfig()
+        if (src := ele.get("href")) is None:
+            return _HandlerConfig()
+        return self._build_media_config(
+            ele=ele,
+            src=str(src),
+            text=ele.get_text(),
+            embed="mw-tmh-player" in classes,
+        )
 
     def _handle_image(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle <img> image elements with download and link."""
-        if src := ele.get("src"):
+        if (src := ele.get("src")) is None:
+            return _HandlerConfig()
+        alt = str(ele.get("alt", "")).strip()
+        if not alt:
+            alt = self._fallback_alt(ele)
+            filename = _get_image_filename(ele)
+            if filename and f"File:{filename}" in self._image_metadata:
+                alt = _balance_brackets(alt)
+            else:
+                alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
+        else:
+            alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
+        paragraphs = alt.split("\n\n")
+        alt = (" <p> ".join(paragraphs)).strip()
+        alt = alt.replace("\n", " <br/> ")
+        return self._build_media_config(ele=ele, src=str(src), text=alt, embed=True)
 
-            def process(strings: str) -> str:
-                """Generate Markdown image syntax with alt text."""
-                src_url_str = self._process_archive_url(str(src))
-                alt = str(ele.get("alt", "")).strip()
-                if not alt:
-                    alt = self._fallback_alt(ele)
-                    filename = _get_image_filename(ele)
-                    if filename and f"File:{filename}" in self._image_metadata:
-                        alt = _balance_brackets(alt)
-                    else:
-                        alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(
-                            lambda m: Rf"\{m[0]}", alt
-                        )
-                else:
-                    alt = _cfg._MARKDOWN_ESCAPE_REGEX.sub(lambda m: Rf"\{m[0]}", alt)
-                paragraphs = alt.split("\n\n")
-                alt = (" <p> ".join(paragraphs)).strip()
-                alt = alt.replace("\n", " <br/> ")
-                return f"{strings}![{alt}]({src_url_str})"
-
-            return _HandlerConfig(
-                suffix="" if self._in_inline_context(ele) else "\n\n",
-                process_strings=process,
-            )
-        return _HandlerConfig()
+    def _handle_video(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
+        """Handle <video> media elements, routing through the shared helper."""
+        if (resource := ele.get("resource")) is not None:
+            src = str(resource)
+        elif (data_mwtitle := ele.get("data-mwtitle")) is not None:
+            src = f"/wiki/File:{data_mwtitle}"
+        else:
+            source = next((c for c in ele.find_all("source", recursive=False)), None)
+            if source is not None:
+                src = str(source.get("resource") or source.get("src"))
+            elif (poster := ele.get("poster")) is not None:
+                src = str(poster)
+            else:
+                return _HandlerConfig()
+        title = str(ele.get("data-mwtitle") or ele.get("title") or "")
+        return self._build_media_config(ele=ele, src=src, text=title, embed=True)
 
     def _fallback_alt(self, ele: Tag) -> str:
         """Compute alt text fallback for an <img> element."""
