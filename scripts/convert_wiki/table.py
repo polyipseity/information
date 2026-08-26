@@ -144,6 +144,7 @@ class TableConverter:
         soup:
             The root BeautifulSoup object used to create new tags.
         """
+        cls._transform_infobox_caption_rows(ele, soup)
         cls._normalize_table_cells(ele, soup)
         cls._merge_header_rows(ele, soup)
         cls._insert_mixed_alignment_rows(ele, soup)
@@ -293,6 +294,56 @@ class TableConverter:
         return _HandlerConfig(process_strings=cls.process_table_cell)
 
     # -- Soup-mutating helpers --
+
+    @classmethod
+    def _transform_infobox_caption_rows(cls, ele: Tag, soup: Tag) -> None:
+        """Rewrite ``infobox-above`` / ``infobox-image`` rows as caption-style rows.
+
+        An ``infobox-above`` ``<th colspan="2">`` title row is converted
+        into a two-``<td>`` row: an empty zero-width-space column followed
+        by a ``<b>``-wrapped copy of the original cell's children.  An
+        ``infobox-image`` ``<td>`` row is converted into a two-``<td>`` row
+        with an empty zero-width-space column followed by the original
+        cell's children (image + ``infobox-caption`` div).  Both new rows
+        are marked ``data-caption-row="true"`` so alignment detection and
+        ``_td_cell_alignments`` skip them, mirroring the ``<caption>``
+        handling in ``handle_table``.
+        """
+        for tr in tuple(ele.find_all("tr")):
+            cells = [
+                c for c in tr.children if isinstance(c, Tag) and c.name in _TD_OR_TH
+            ]
+            if len(cells) != 1:
+                continue
+            cell = cells[0]
+            cell_classes = cell.get_attribute_list("class")
+
+            if cell.name == "th" and "infobox-above" in cell_classes:
+                new_tr = soup.new_tag("tr")
+                col1 = soup.new_tag("td")
+                col1.string = "\u200b"
+                col2 = soup.new_tag("td")
+                bold = soup.new_tag("b")
+                for child in tuple(cell.children):
+                    bold.append(child.extract())
+                col2.append(bold)
+                col2.append(" ")
+                new_tr.append(col1)
+                new_tr.append(col2)
+                new_tr["data-caption-row"] = "true"
+                new_tr["data-caption-title"] = "true"
+                tr.replace_with(new_tr)
+            elif cell.name == "td" and "infobox-image" in cell_classes:
+                new_tr = soup.new_tag("tr")
+                col1 = soup.new_tag("td")
+                col1.string = "\u200b"
+                col2 = soup.new_tag("td")
+                for child in tuple(cell.children):
+                    col2.append(child.extract())
+                new_tr.append(col1)
+                new_tr.append(col2)
+                new_tr["data-caption-row"] = "true"
+                tr.replace_with(new_tr)
 
     @classmethod
     def _normalize_table_cells(cls, ele: Tag, soup: Tag) -> None:
