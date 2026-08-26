@@ -34,7 +34,7 @@ After forming iron ions, {@{[acid–base reactions](acid–base%20reaction.md) p
 > {@{__acid–base reactions__}@}
 >
 > - {@{Fe<sup>2+</sup>(aq) + 2H<sub>2</sub>O(l)}@} ⇌ {@{Fe(OH)<sub>2</sub>(s) + 2H<sup>+</sup>(aq)}@}
-> - {@{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l)}@} ⇌ {@{Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}@} <!--SR:!2029-06-24,1572,310!2027-01-08,986,330!2026-09-25,353,373!2026-10-24,376,373!2026-11-13,390,383-->
+> - {@{Fe<sup>3+</sup>(aq) + 3H<sub>2</sub>O(l)}@} ⇌ {@{Fe(OH)<sub>3</sub>(s) + 3H<sup>+</sup>(aq)}@} <!--SR:!2029-06-24,1572,310!2027-01-08,986,330!fsrs,2031-05-19T00:00:00.000Z,1696,1696.09448059,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-24,376,373!2026-11-13,390,383-->
 
 After forming iron hydroxides, {@{[dehydration](dehydration%20reaction.md) occurs in equilibra}@}: <!--SR:!2027-03-07,1030,330-->
 

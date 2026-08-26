@@ -208,7 +208,7 @@ The content is in teaching order.
     - odyssey / dysfunctional belief ::@:: "Life can be engineered – optimized or maxed-out." <br/> "Be the best version of you!" <p> In a way, they could be dysfunctional... <!--SR:!2026-10-14,565,417!2027-07-21,805,437-->
     - odyssey / best practice ::@:: It is best to start with multiple ideas in parallel instead of prematurely committing to one path. Your mind can stay more open, and receive and conceive more novel innovations. <!--SR:!2026-10-22,572,417!2027-07-28,812,437-->
 - activity 3: odyssey planning – 3 versions of my life ::@:: Design 3 versions of "me": First is the story you tell today. Second is what if the story you tell today was no longer an option? Last is wild ideas: No more constraints! <!--SR:!2026-11-01,579,417!2027-07-24,808,437-->
-    - activity 3: odyssey planning – 3 versions of my life / components ::@:: __Timeline__: It shows major milestones, with at least one per year. Use whatever you want to describe it. It could be drawings, pictures, words, etc. <br/> __Dashboard__: It shows how you rate your plan. <br/> __Title__: A 3 to 6-word descriptive title. <br/> __Questions__: What questions does this plan raise? <!--SR:!2026-09-25,550,417!2026-11-21,598,417-->
+    - activity 3: odyssey planning – 3 versions of my life / components ::@:: __Timeline__: It shows major milestones, with at least one per year. Use whatever you want to describe it. It could be drawings, pictures, words, etc. <br/> __Dashboard__: It shows how you rate your plan. <br/> __Title__: A 3 to 6-word descriptive title. <br/> __Questions__: What questions does this plan raise? <!--SR:!fsrs,2033-07-23T00:00:00.000Z,2492,2492.20634206,1,2,10,0,0,2026-09-26T00:00:00.000Z!2026-11-21,598,417-->
 
 ## week 11 tutorial
 

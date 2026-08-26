@@ -23,4 +23,4 @@ We can read the entire file into a string by {@{calling `file.read()`}@}. Altern
 
 ## writing
 
-We can write string into a file by {@{calling `file.write()`}@}. Calling it multiple times {@{concatenates the strings}@}. <!--SR:!2026-09-25,258,330!2026-10-08,271,330-->
+We can write string into a file by {@{calling `file.write()`}@}. Calling it multiple times {@{concatenates the strings}@}. <!--SR:!fsrs,2029-11-07T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-26T00:00:00.000Z!2026-10-08,271,330-->

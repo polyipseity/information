@@ -47,7 +47,7 @@ return await memorize_table(
 
 - _(begin)_→::@::←[Pythagorean identities](#Pythagorean%20identities) <!--SR:!2030-07-06,1890,380!2030-02-28,1790,382-->
 - [Pythagorean identities](#Pythagorean%20identities)→::@::←[angle sum and difference](#angle%20sum%20and%20difference) <!--SR:!2027-06-27,1105,330!2028-09-15,1546,350-->
-- [angle sum and difference](#angle%20sum%20and%20difference)→::@::←[linear combination](#linear%20combination) <!--SR:!2026-09-25,660,289!2027-01-01,776,329-->
+- [angle sum and difference](#angle%20sum%20and%20difference)→::@::←[linear combination](#linear%20combination) <!--SR:!fsrs,2032-11-07T00:00:00.000Z,2234,2233.82468775,2.03033872,2,10,0,0,2026-09-26T00:00:00.000Z!2027-01-01,776,329-->
 - [linear combination](#linear%20combination)→::@::←[multiple-angle](#multiple-angle) <!--SR:!2027-07-01,1108,330!2027-07-22,1124,330-->
 - [multiple-angle](#multiple-angle)→::@::←[product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product) <!--SR:!2027-07-21,956,270!2027-07-28,1128,330-->
 - [product-to-sum and sum-to-product](#product-to-sum%20and%20sum-to-product)→::@::←_(end)_ <!--SR:!2028-08-29,1532,350!2031-07-13,2295,330-->
