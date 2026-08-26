@@ -224,17 +224,13 @@ class WikiHtmlConverter:
                     # Preserve a single space between adjacent inline
                     # emphasis elements, e.g. ``<b>M</b> <b>L</b>`` →
                     # ``__M__ __L__``.  The space separates two distinct
-                    # tokens and must survive whitespace collapsing.  This
-                    # applies in non-prose contexts (table cells, infoboxes,
-                    # sidebars, …) where adjacent labels are independent
-                    # tokens.  In running prose (``<p>``) and list items
-                    # (``<li>``) adjacent emphasis stays tight, matching
-                    # conventional typography.  Math fragments wrapped in a
-                    # ``texhtml`` span (e.g. ``<i>m</i> <i>x</i>``) are also
-                    # excluded: adjacent variables are conventionally tight.
+                    # tokens and must survive whitespace collapsing.  Math
+                    # fragments wrapped in a ``texhtml`` span
+                    # (e.g. ``<i>m</i> <i>x</i>``) are an exception: adjacent
+                    # variables are conventionally tight, so the space stays
+                    # collapsed there.
                     if (
                         not self._in_texhtml(ele)
-                        and not self._in_prose(ele)
                         and isinstance(prev := ele.previous_sibling, Tag)
                         and isinstance(nxt := ele.next_sibling, Tag)
                         and self._is_inline_emphasis(prev)
@@ -799,21 +795,6 @@ class WikiHtmlConverter:
     def _in_table_cell(ele: Tag) -> bool:
         """Check if element is nested inside a <td> or <th>."""
         return any(isinstance(p, Tag) and p.name in _TD_OR_TH for p in ele.parents)
-
-    @staticmethod
-    def _in_prose(ele: PageElement) -> bool:
-        """Check if *ele* is inside running prose (``<p>``) or a list item.
-
-        Adjacent inline emphasis in prose stays tight (e.g. ``<i>c</i> <i>d</i>``
-        → ``_c__d_``), whereas in data-like contexts (table cells, infoboxes,
-        sidebars) a separating space is preserved.
-        """
-        parent = ele.parent
-        while isinstance(parent, Tag):
-            if parent.name in {"p", "li"}:
-                return True
-            parent = parent.parent
-        return False
 
     @staticmethod
     def _in_texhtml(ele: PageElement) -> bool:
