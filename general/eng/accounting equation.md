@@ -13,7 +13,7 @@ tags:
 
 # accounting equation
 
-The __fundamental accounting equation__, also called {@{the __balance sheet equation__}@}, is {@{the foundation for the [double-entry bookkeeping system](double-entry%20bookkeeping.md) and the cornerstone of the entire accounting science}@}. Like any equation, {@{each side will always be equal}@}. In the accounting equation, {@{every transaction will have a debit and credit entry, and the total debits (left side) will equal the total credits (right side)}@}. In other words, {@{the accounting equation will always be "in balance"}@}. <!--SR:!2028-04-01,1001,350!2026-09-24,561,330!2028-09-26,1141,350!2028-12-29,1215,350!2028-10-03,1146,350-->
+The __fundamental accounting equation__, also called {@{the __balance sheet equation__}@}, is {@{the foundation for the [double-entry bookkeeping system](double-entry%20bookkeeping.md) and the cornerstone of the entire accounting science}@}. Like any equation, {@{each side will always be equal}@}. In the accounting equation, {@{every transaction will have a debit and credit entry, and the total debits (left side) will equal the total credits (right side)}@}. In other words, {@{the accounting equation will always be "in balance"}@}. <!--SR:!2028-04-01,1001,350!fsrs,2032-11-11T00:00:00.000Z,2239,2239.30396504,1,2,10,0,0,2026-09-25T00:00:00.000Z!2028-09-26,1141,350!2028-12-29,1215,350!2028-10-03,1146,350-->
 
 The equation can {@{take various forms}@}, including: <!--SR:!2028-05-16,958,330-->
 

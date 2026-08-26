@@ -100,7 +100,7 @@ One could {@{re-implement `splitAt`}@} as {@{an extension method}@}: <!--SR:!fsr
 >   def splitAt(n: Int): (List[A], List[A]) =
 >     (xs.take(n), xs.drop(n))
 > ```
-<!--SR:!2026-11-05,291,330!2026-09-24,256,330-->
+<!--SR:!2026-11-05,291,330!fsrs,2029-10-29T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
 ### merge sort merging
 

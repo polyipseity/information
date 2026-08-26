@@ -250,7 +250,7 @@ The content is in teaching order.
 - [Paul Whiteman](../../../../general/Paul%20Whiteman.md) ::@:: dance band leader (led the way for future dance bands), took jazz and played it his way, orchestrated jazz (like classical musicians) <!--SR:!2028-07-30,1002,378!2031-04-14,1795,398-->
     - Paul Whiteman / works ::@:: "Rhapsody in Blue - King of Jazz" (1930) — Paul Whiteman <!--SR:!2028-08-28,1025,378!2026-11-23,525,398-->
     - Paul Whiteman / controversies ::@:: stole jazz (white people stealing jazz?), but gave credits to African American musicians; tried to hire black musicians (but not very many due to racial segregation) <!--SR:!2026-11-04,506,398!2030-05-26,1552,398-->
-    - Paul Whiteman / quotes ::@:: "I tried to make a lady out of jazz"; some say this reflected he did not truly understand jazz, e.g. its improvisational nature <!--SR:!2026-11-19,521,398!2026-09-24,477,398-->
+    - Paul Whiteman / quotes ::@:: "I tried to make a lady out of jazz"; some say this reflected he did not truly understand jazz, e.g. its improvisational nature <!--SR:!2026-11-19,521,398!fsrs,2032-10-05T00:00:00.000Z,2202,2202.20400893,1,2,10,0,0,2026-09-25T00:00:00.000Z-->
 - assignment: (none)
 
 ## week 4 lecture 2
@@ -374,7 +374,7 @@ The content is in teaching order.
     - Billie Holiday / quotes from others ::@:: "With few exceptions, every major pop singer in the US during her generation has been touched in some way by her genius. It is Billie Holiday who was, and still remains, the greatest single musical influence on me. Lady Day is unquestionably the most important influence on American popular singing in the last twenty years." — Frank Sinatra, American singer and actor <!--SR:!fsrs,2030-05-31T00:00:00.000Z,1346,1345.89658322,1,2,10,0,0,2026-09-23T00:00:00.000Z!2027-08-06,724,422-->
 - [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group ; led the first black band to tour the American South <!--SR:!2026-12-29,534,402!2027-06-12,679,422-->
     - Cab Calloway / works ::@:: Minnie the Moocher \(1931\) — Cab Calloway: sold over a million copies, the first by an African American singer <!--SR:!2027-11-11,800,430!2027-10-29,788,430-->
-- [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!2026-09-24,459,402!2027-07-11,705,422-->
+- [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!fsrs,2032-07-25T00:00:00.000Z,2130,2129.87276382,1,2,10,0,0,2026-09-25T00:00:00.000Z!2027-07-11,705,422-->
     - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas. <!--SR:!2026-12-16,521,402!2027-08-13,733,422-->
 - swing music
     - swing music / singers

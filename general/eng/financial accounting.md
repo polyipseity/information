@@ -42,7 +42,7 @@ __Enhancing Qualitative Characteristics__ ::@:: verifiability, comparability, un
 
 ## three components of financial statements
 
-{@{The three components of financial statements}@} are {@{[statement of cash flows](cash%20flow%20statement.md) (cash flow statement), [statement of financial performance](income%20statement.md) (income statement), and [statement of financial position](balance%20sheet.md) (balance sheet)}@}; additionally, {@{the last one}@} is related to {@{statement of retained earnings (statement of changes in equity)}@}. <!--SR:!fsrs,2028-08-02T15:30:40.950Z,780,779.5601141,6.00214877,2,10,0,0,2026-06-14T15:30:40.950Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z-->
+{@{The three components of financial statements}@} are {@{[statement of cash flows](cash%20flow%20statement.md) (cash flow statement), [statement of financial performance](income%20statement.md) (income statement), and [statement of financial position](balance%20sheet.md) (balance sheet)}@}; additionally, {@{the last one}@} is related to {@{statement of retained earnings (statement of changes in equity)}@}. <!--SR:!fsrs,2028-08-02T15:30:40.950Z,780,779.5601141,6.00214877,2,10,0,0,2026-06-14T15:30:40.950Z!fsrs,2027-10-27T00:00:00.000Z,397,396.77501923,1,2,3,0,0,2026-09-25T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,397,396.77501923,1,2,3,0,0,2026-09-25T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,397,396.77501923,1,2,3,0,0,2026-09-25T00:00:00.000Z-->
 
 ### statement of cash flows
 

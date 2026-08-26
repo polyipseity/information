@@ -58,7 +58,7 @@ return await memorize_seq(
 <!--pytextgen generate section="20fa"--><!-- The following content is generated at 2024-01-26T12:42:06.646432+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[profile summary](#profile%20summary) <!--SR:!fsrs,2031-12-30T00:00:00.000Z,1925,1925.02285899,2.49272837,2,11,0,0,2026-09-22T00:00:00.000Z!2027-07-24,1068,350-->
-- [profile summary](#profile%20summary)→::@::←[education](#education) <!--SR:!2026-09-24,768,330!2029-08-23,1540,330-->
+- [profile summary](#profile%20summary)→::@::←[education](#education) <!--SR:!fsrs,2034-10-21T00:00:00.000Z,2948,2947.69715708,1,2,11,0,0,2026-09-25T00:00:00.000Z!2029-08-23,1540,330-->
 - [education](#education)→::@::←[experience](#experience) <!--SR:!2033-03-30,2574,330!2027-01-12,714,290-->
 - [experience](#experience)→::@::←[achievements](#achievements) <!--SR:!fsrs,2030-12-28T00:00:00.000Z,1605,1605.12672142,3.98153807,2,10,0,0,2026-08-06T00:00:00.000Z!2027-04-09,892,310-->
 - [achievements](#achievements)→::@::←[skills](#skills) <!--SR:!2027-08-05,977,290!2031-05-28,1891,310-->

@@ -255,7 +255,7 @@ return chain.from_iterable(result.value for result in results)
         - [nasal](nasal%20consonant.md)::@::consonant with occlusion of the [vocal tract](vocal%20tract.md) with nasal airflow <!--SR:!2030-04-14,1658,317!2028-08-10,1291,372-->
         - [plosive/stop](plosive%20consonant.md)::@::consonant with occlusion of the [vocal tract](vocal%20tract.md) without nasal airflow <!--SR:!2028-05-07,1346,361!2033-03-25,2765,391-->
         - [trill](trill%20consonant.md)::@::consonant produced by vibrations between the active articulator and the passive articulator <!--SR:!2027-08-28,1090,318!2032-11-17,2684,381-->
-    - [place of articulation](place%20of%20articulation.md)::@::location along the [vocal tract](vocal%20tract.md) producing the consonant <!--SR:!2026-09-24,896,324!2032-08-09,2600,378-->
+    - [place of articulation](place%20of%20articulation.md)::@::location along the [vocal tract](vocal%20tract.md) producing the consonant <!--SR:!fsrs,2035-10-17T00:00:00.000Z,3309,3308.5761988,1,2,11,0,0,2026-09-25T00:00:00.000Z!2032-08-09,2600,378-->
         - [alveolar](alveolar%20ridge.md)::@::upper [alveolar ridge](alveolar%20ridge.md), the [gum](gums.md) line behind the upper [teeth](tooth.md) (passive) <!--SR:!2027-02-23,921,339!2028-01-28,1189,350-->
         - [aryepiglottal](pharyngeal%20consonant.md)::@::[aryepiglottic fold](aryepiglottic%20fold.md) in the [throat](throat.md) (active) <!--SR:!2026-11-04,958,353!fsrs,2028-12-25T00:00:00.000Z,866,866.0998397,1.70601587,2,9,0,0,2026-08-12T00:00:00.000Z-->
         - [coronal](coronal%20constant.md)::@::front of the [tongue](tongue.md) (active) <!--SR:!2026-12-19,939,313!2026-12-17,839,298-->
@@ -612,7 +612,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[ɮ\]:@:[voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md) <!--SR:!2031-09-22,1967,301-->
 - \[ʟ\]:@:[voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md) <!--SR:!2031-05-21,1932,317-->
 - \[m\]:@:[voiced bilabial nasal](voiced%20bilabial%20nasal.md) <!--SR:!2028-10-30,1354,373-->
-- \[ɱ\]:@:[voiced labiodental nasal](voiced%20labiodental%20nasal.md) <!--SR:!2026-09-24,707,314-->
+- \[ɱ\]:@:[voiced labiodental nasal](voiced%20labiodental%20nasal.md) <!--SR:!fsrs,2030-05-01T00:00:00.000Z,1314,1314.20321083,5.40468683,2,10,0,0,2026-09-25T00:00:00.000Z-->
 - \[n\]:@:[voiced alveolar nasal](voiced%20alveolar%20nasal.md) <!--SR:!fsrs,2031-10-26T00:00:00.000Z,1956,1956.47634605,1.63109087,2,11,0,0,2026-06-18T00:00:00.000Z-->
 - \[ŋ\]:@:[voiced velar nasal](voiced%20velar%20nasal.md) <!--SR:!fsrs,2029-12-06T04:00:35.758Z,1270,1269.96989831,4.90680188,2,10,0,0,2026-06-15T04:00:35.758Z-->
 - \[ɲ\]:@:[voiced palatal nasal](voiced%20palatal%20nasal.md) <!--SR:!2027-05-06,914,353-->
@@ -830,7 +830,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![mid central vowel](../../archives/Wikimedia%20Commons/Mid-central%20vowel.ogg):@:[mid central vowel](mid%20central%20vowel.md) <!--SR:!fsrs,2027-03-06T00:00:00.000Z,220,219.70430483,9.23597837,2,8,0,0,2026-07-29T00:00:00.000Z-->
 - ![r-colored mid central vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg):@:[r-colored mid central vowel](r-colored%20vowel.md) <!--SR:!2027-11-07,1007,299-->
 - ![open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20front%20unrounded%20vowel.ogg):@:[open-mid front unrounded vowel](open-mid%20front%20unrounded%20vowel.md) <!--SR:!fsrs,2026-10-25T00:00:00.000Z,38,38.38502821,9.93134509,2,9,0,0,2026-09-17T00:00:00.000Z-->
-- ![nasalized open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Fr-Un-fr%20FR-Paris.ogg):@:[nasalized open-mid front unrounded vowel](nasal%20vowel.md) <!--SR:!fsrs,2026-09-25T00:00:00.000Z,28,27.68894435,9.94942233,2,8,0,0,2026-08-28T00:00:00.000Z-->
+- ![nasalized open-mid front unrounded vowel](../../archives/Wikimedia%20Commons/Fr-Un-fr%20FR-Paris.ogg):@:[nasalized open-mid front unrounded vowel](nasal%20vowel.md) <!--SR:!fsrs,2026-10-28T00:00:00.000Z,33,33.15245237,9.95165256,2,9,0,0,2026-09-25T00:00:00.000Z-->
 - ![open-mid central unrounded vowel](../../archives/Wikimedia%20Commons/Open-mid%20central%20unrounded%20vowel.ogg):@:[open-mid central unrounded vowel](open-mid%20central%20unrounded%20vowel.md) <!--SR:!fsrs,2027-01-27T00:00:00.000Z,139,139.1856945,7.98587402,2,7,0,0,2026-09-10T00:00:00.000Z-->
 - ![r-colored open-mid central unrounded vowel](../../archives/Wikimedia%20Commons/En-us-er.ogg):@:[r-colored open-mid central unrounded vowel](r-colored%20vowel.md) <!--SR:!fsrs,2026-11-17T00:00:00.000Z,59,59.48941899,9.96891253,2,8,0,0,2026-09-19T00:00:00.000Z-->
 - ![voiceless labiodental fricative](../../archives/Wikimedia%20Commons/Voiceless%20labio-dental%20fricative.ogg):@:[voiceless labiodental fricative](voiceless%20labiodental%20fricative.md) <!--SR:!2026-09-25,144,173-->
@@ -1040,7 +1040,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md):@:[Arabic](Arabic%20language.md) _عَقْرَب/ʿaqrab_ \[ʕaqrab\] "scorpion" <!--SR:!fsrs,2027-02-18T00:00:00.000Z,154,154.42098045,9.98522837,2,8,0,0,2026-09-17T00:00:00.000Z-->
 - [tenuis dental click](tenuis%20dental%20click.md):@:[English](English%20language.md) _**tut**-**tut**_ \[ˈǀˈǀ\] <!--SR:!2028-12-21,1069,270-->
 - [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:[English](English%20language.md) _**tchick**_ \[ˈǁ\] <!--SR:!2026-10-20,258,210-->
-- [tenuis alveolar click](tenuis%20alveolar%20click.md):@:[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat" <!--SR:!fsrs,2026-09-25T00:00:00.000Z,91,91.47220885,9.98522837,2,7,0,0,2026-06-26T00:00:00.000Z-->
+- [tenuis alveolar click](tenuis%20alveolar%20click.md):@:[Zulu](Zulu%20language.md) _i**q**a**q**a_ \[íːk͜ǃaːk͜ǃá\] "polecat" <!--SR:!fsrs,2027-01-18T00:00:00.000Z,115,114.95220372,9.97047151,2,8,0,0,2026-09-25T00:00:00.000Z-->
 - [tenuis bilabial click](tenuis%20bilabial%20click.md):@:[ǂʼAmkoe](ǂʼAmkoe%20language.md) _**ʘ**oa_ \[k͡ʘoa\] "two" <!--SR:!fsrs,2027-02-11T00:00:00.000Z,157,156.8886461,9.48734342,2,8,0,0,2026-09-07T00:00:00.000Z-->
 - [tenuis palatal click](tenuis%20palatal%20click.md):@:[Khoekhoe](Khoekhoe%20lalnguage.md) _**ǂg**ā-amǃnâ_ \[k͜ǂààʔám̀ŋ͜ǃã̀ã̀\] "to put in the mouth" <!--SR:!fsrs,2026-12-10T00:00:00.000Z,99,98.86945556,9.97047151,2,8,0,0,2026-09-02T00:00:00.000Z-->
 

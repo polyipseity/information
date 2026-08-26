@@ -55,7 +55,7 @@ The content is in teaching order.
     - software maintenance / complexity ::@:: It can be complex. Indeed, given the large amount of existing software, it uses the most time of most developers. <!--SR:!fsrs,2029-09-19T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-20T00:00:00.000Z!fsrs,2029-09-16T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-08-17T00:00:00.000Z-->
 - [programming complexity](../../../../general/programming%20complexity.md) ::@:: It is a term that includes software properties that affect internal interactions. <!--SR:!fsrs,2029-10-04T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-08-23T00:00:00.000Z!fsrs,2029-07-28T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-08-05T00:00:00.000Z-->
     - programming complexity / sources ::@:: application domain, communication, management, tools <!--SR:!fsrs,2028-04-10T00:00:00.000Z,575,574.78368135,5.00637887,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-11-13T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
-        - programming complexity / sources / application domain ::@:: A problem is often _complex_ and outside the domain of most developers \(i.e. not _domain experts_\). <!--SR:!2026-09-24,285,330!2026-09-29,289,330-->
+        - programming complexity / sources / application domain ::@:: A problem is often _complex_ and outside the domain of most developers \(i.e. not _domain experts_\). <!--SR:!fsrs,2030-02-17T00:00:00.000Z,1241,1240.62340626,1,2,9,0,0,2026-09-25T00:00:00.000Z!2026-09-29,289,330-->
         - programming complexity / sources / communication ::@:: Clients and developers have different _background_, _vocabulary_, etc. which is made worse by _ambiguity_ of human languages. <!--SR:!fsrs,2029-09-23T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-08-20T00:00:00.000Z!fsrs,2029-11-17T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-09-02T00:00:00.000Z-->
         - programming complexity / sources / management ::@:: _Dividing_ a project and _reassembling_ it is difficult. _Coordination_ between different _parts_ and _people_ is also difficult. <!--SR:!2026-10-02,291,330!2028-03-12,687,330-->
         - programming complexity / sources / tools ::@:: Creating useful _tools_ for software development is also complex. Indeed, creating the tools themselves also require software engineering. <!--SR:!2028-03-03,681,330!fsrs,2029-10-03T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-08-22T00:00:00.000Z-->
@@ -1481,7 +1481,7 @@ Q1 (Max:15) = 14 ; Q2 (Max: 25) = 24 ; Q3 (Max: 10) = 8 ; Q4 (Max: 35) = 35 ; Q5
     - datetime: 2025-12-10T11:30:00+08:00/2025-12-10T12:30:00+08:00, PT1H
     - venue: Lecture Theater G, Academic Building
     - report
-        - basis path testing / test value format (+5) ::@:: Luckily I wrote down my test value format... Regraded for everyone in the end. <!--SR:!2026-10-02,222,464!2026-09-24,215,464-->
+        - basis path testing / test value format (+5) ::@:: Luckily I wrote down my test value format... Regraded for everyone in the end. <!--SR:!2026-10-02,222,464!fsrs,2029-10-04T00:00:00.000Z,1105,1104.62540439,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
 ---
 

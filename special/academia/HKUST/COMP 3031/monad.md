@@ -279,7 +279,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 {@{Typical examples}@} include: \(annotation: 4 items: {@{`List`, `Set`, `Option`, `Generator`}@}\) <!--SR:!2026-11-01,288,330!2026-10-31,287,330-->
 
-- `List`: ::@:: `unit(x) = List(x)` <!--SR:!2026-11-08,294,330!2026-09-24,253,330-->
+- `List`: ::@:: `unit(x) = List(x)` <!--SR:!2026-11-08,294,330!fsrs,2029-10-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 - `Set`:  ::@:: `unit(x) = Set(x)` <!--SR:!2026-10-16,275,330!2026-10-15,274,330-->
 - `Option`: ::@:: `unit(x) = Some(x)` <!--SR:!2026-10-29,285,330!2026-09-30,259,330-->
 - `Generator`: ::@:: `unit(x) = single(x)` <!--SR:!2026-10-16,275,330!2026-10-25,281,330-->

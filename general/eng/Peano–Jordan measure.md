@@ -39,7 +39,7 @@ Using the above {@{definition with half-open rectangles}@}, notice that {@{a clo
 
 We can extend {@{the above restricted definition}@} by defining {@{a bounded set to be _Jordan measurable_}@} if it is {@{"well-approximated" by simple sets}@}. <!--SR:!2032-11-16,2392,330!2026-10-10,128,389!2026-09-27,117,389-->
 
-Formally, {@{for a bounded set $B$}@}, define its {@{_inner Jordan measure_ as the [supremum](infimum%20and%20supremum.md) of simple sets that are subsets of $B$}@} and {@{_outer Jordan measure_ as the [infimum](infimum%20and%20supremum.md) of simple sets that are supersets of $B$}@}:  {@{$$\begin{aligned} m_*(B) := \sup_{S \subseteq B} m(S) \\ m^*(B) := \inf_{S \supseteq B} m(S) \end{aligned}$$}@} <!--SR:!2028-04-26,1128,310!2026-09-24,114,389!2026-10-09,127,389!2026-10-05,124,389-->
+Formally, {@{for a bounded set $B$}@}, define its {@{_inner Jordan measure_ as the [supremum](infimum%20and%20supremum.md) of simple sets that are subsets of $B$}@} and {@{_outer Jordan measure_ as the [infimum](infimum%20and%20supremum.md) of simple sets that are supersets of $B$}@}:  {@{$$\begin{aligned} m_*(B) := \sup_{S \subseteq B} m(S) \\ m^*(B) := \inf_{S \supseteq B} m(S) \end{aligned}$$}@} <!--SR:!2028-04-26,1128,310!fsrs,2028-06-26T00:00:00.000Z,640,639.83083728,1,2,8,0,0,2026-09-25T00:00:00.000Z!2026-10-09,127,389!2026-10-05,124,389-->
 
 > {@{![squeezing a bounded set by simple sets](../../archives/Wikimedia%20Commons/Jordan%20illustration.png)}@}
 >

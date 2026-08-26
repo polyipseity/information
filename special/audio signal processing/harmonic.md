@@ -11,7 +11,7 @@ tags:
 
 - see: [general/harmonic](../../general/harmonic.md)
 
-{@{A __harmonic__}@} is {@{a sinusoidal wave with a frequency}@} that is {@{a positive integer multiple of the fundamental frequency $f_0$ of a periodic signal}@}. <!--SR:!2029-07-30,1158,350!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z!fsrs,2026-09-25T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-07-21T00:00:00.000Z-->
+{@{A __harmonic__}@} is {@{a sinusoidal wave with a frequency}@} that is {@{a positive integer multiple of the fundamental frequency $f_0$ of a periodic signal}@}. <!--SR:!2029-07-30,1158,350!fsrs,2027-10-27T00:00:00.000Z,397,396.77501923,1,2,3,0,0,2026-09-25T00:00:00.000Z!fsrs,2027-10-27T00:00:00.000Z,397,396.77501923,1,2,3,0,0,2026-09-25T00:00:00.000Z-->
 
 ## harmonic model
 

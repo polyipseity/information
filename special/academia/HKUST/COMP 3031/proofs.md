@@ -35,7 +35,7 @@ To assert that {@{an implementation of a set actually behaves as a set}@}, we st
 - __Insertion guarantees presence__ ::@:: $$s.\text{incl}(x).\text{contains}(x) = \text{true}$$ <!--SR:!2026-10-25,282,330!2026-10-27,284,330-->
 - __Non-insertion preserves membership__ ::@:: For distinct elements $x\neq y$, $$s.\text{incl}(y).\text{contains}(x) = s.\text{contains}(x)$$ <!--SR:!fsrs,2029-07-04T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-09-01T00:00:00.000Z!2026-10-17,276,330-->
 
-These laws capture {@{the essential behavior}@} of a set: {@{an empty set}@} contains {@{nothing}@}; {@{inserting an element}@} guarantees that it is {@{now present}@}; and {@{inserting another element}@} does not {@{disturb the membership status of unrelated elements}@}. <!--SR:!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-30,286,330!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-17,276,330!2026-09-24,256,330!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-06-30T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
+These laws capture {@{the essential behavior}@} of a set: {@{an empty set}@} contains {@{nothing}@}; {@{inserting an element}@} guarantees that it is {@{now present}@}; and {@{inserting another element}@} does not {@{disturb the membership status of unrelated elements}@}. <!--SR:!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-30,286,330!fsrs,2028-08-16T00:00:00.000Z,700,700.04868809,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2026-10-17,276,330!fsrs,2029-10-29T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-25T00:00:00.000Z!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-06-30T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-31T00:00:00.000Z-->
 
 ## structural induction
 
@@ -49,7 +49,7 @@ For {@{lists, trees, etc.}@}, the analogous principle is {@{_structural inductio
 A list can be {@{either `Nil` or an element cons-ed onto another list (`x :: xs`)}@}. To prove {@{a property $P(\texttt{xs})$ for all lists}@}, we show: <!--SR:!2026-10-06,268,330!2026-10-15,274,330-->
 
 1. \(annotation: structural induction on lists\) __Base case__: ::@:: $P(\texttt{Nil})$ holds. <!--SR:!2026-10-16,275,330!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z-->
-2. \(annotation: structural induction on lists\) __Inductive step__: ::@:: For any element `x` and any sublist `xs`, if $P(\texttt{xs})$ holds then so does $P(\texttt{x :: xs})$. <!--SR:!2026-10-11,270,330!2026-09-24,256,330-->
+2. \(annotation: structural induction on lists\) __Inductive step__: ::@:: For any element `x` and any sublist `xs`, if $P(\texttt{xs})$ holds then so does $P(\texttt{x :: xs})$. <!--SR:!2026-10-11,270,330!fsrs,2029-10-29T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
 Because {@{list construction is recursive}@}, structural induction mirrors {@{the shape of the data}@}. It also holds for {@{trees and other recursively defined structures}@} with modifications of {@{the base and inductive cases to match the constructors}@}. <!--SR:!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-30T00:00:00.000Z,710,710.13394084,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-11-01,288,330-->
 
@@ -158,7 +158,7 @@ To {@{prove `xs ::: Nil = xs`}@}, the proof {@{proceeds similarly}@}. {@{The bas
 
 ### proving reverse is its own inverse
 
-Define {@{list reversal}@} recursively: <!--SR:!2026-09-24,256,330-->
+Define {@{list reversal}@} recursively: <!--SR:!fsrs,2029-10-29T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
 > [!example] __`reverse` definition__
 >
@@ -267,7 +267,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 >     else this
 > }
 > ```
-<!--SR:!fsrs,2028-03-12T00:00:00.000Z,535,534.77315607,5.00637887,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-09,268,330!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-09-24,256,330-->
+<!--SR:!fsrs,2028-03-12T00:00:00.000Z,535,534.77315607,5.00637887,2,9,0,0,2026-09-24T00:00:00.000Z!2026-10-09,268,330!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-10-29T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
 {@{The tree is binary}@} because {@{each internal node}@} has {@{at most two children}@}. {@{The _leaf_ constructor}@} is {@{`Empty`}@}; {@{the only _internal_ constructor}@} is {@{`NonEmpty`}@}. <!--SR:!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-11-08,294,330!fsrs,2029-06-30T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-01,263,330!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z-->
 
