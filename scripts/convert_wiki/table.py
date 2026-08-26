@@ -523,11 +523,21 @@ class TableConverter:
                 td = soup.new_tag("td", attrs={"data-align": a})
                 marker_tag.append(td)
 
-            # Case 2: previous sibling is caption row (marked with
-            # data-caption-row) → insert BEFORE header row.
+            # Case 2: a leading caption row (marked with data-caption-row)
+            # precedes the header row → insert the alignment marker
+            # immediately AFTER the title caption row.  Infoboxes emit a
+            # title caption row (data-caption-title) followed by an optional
+            # image/caption row; the separator must sit between the title
+            # and the following caption/header row, not after the whole
+            # caption run.
             prev_tr = tr.find_previous_sibling("tr")
             if prev_tr is not None and prev_tr.get("data-caption-row") == "true":
-                tr.insert_before(marker_tag)
+                title_tr = prev_tr
+                while (
+                    prev_caption := title_tr.find_previous_sibling("tr")
+                ) is not None and prev_caption.get("data-caption-row") == "true":
+                    title_tr = prev_caption
+                title_tr.insert_after(marker_tag)
                 # Only process the first mixed row; subsequent rows are not
                 # alignment-related and should not get markers.
                 break

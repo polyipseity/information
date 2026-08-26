@@ -822,7 +822,9 @@ class WikiHtmlConverter:
             # ``> `` line (blank ``> `` separation from following siblings),
             # e.g. multi-image ``tmulti`` thumbnails with per-image captions.
             return _HandlerConfig(suffix="\n\n")
-        if "sidebar-caption" in classes and self._in_table_cell(ele):
+        if (
+            "sidebar-caption" in classes or "infobox-caption" in classes
+        ) and self._in_table_cell(ele):
             # Inside an infobox/sidebar cell, the caption follows the image
             # or math on the same cell line; separate it with a ``<p>``
             # marker (the cell-internal separator convention) rather than a
