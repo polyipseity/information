@@ -165,7 +165,6 @@ class WikiHtmlConverter:
         self._soup: BeautifulSoup = (
             soup if soup is not None else BeautifulSoup("", "html.parser")
         )
-        self._seen_heading_texts: set[str] = set()
 
     async def convert(
         self,
@@ -176,8 +175,13 @@ class WikiHtmlConverter:
         escape: bool = True,
         refs: bool,
         redirect_map: Mapping[str, _RedirectInfo],
+        seen_heading_texts: set[str] | None = None,
     ) -> str:
         """Convert a Wikipedia HTML element tree to a Markdown string."""
+        # Heading-dedup state is per-document: created once at the external
+        # entry and threaded through the recursion so repeated convert() calls
+        # on the same instance start clean (MD024 formatting-agnostic test).
+        seen_heading_texts = set() if seen_heading_texts is None else seen_heading_texts
 
         # ---- Formatting-agnostic principle ----
         # HTML-to-Markdown conversion must be invariant under formatting
@@ -258,7 +262,9 @@ class WikiHtmlConverter:
         self._out_to_archive = out_to_archive
         self._redirect_map = redirect_map
 
-        config = await self._dispatch(ele, classes, list_stack=list_stack)
+        config = await self._dispatch(
+            ele, classes, list_stack=list_stack, seen_heading_texts=seen_heading_texts
+        )
         if config is None:
             config = _HandlerConfig()
 
@@ -389,6 +395,7 @@ class WikiHtmlConverter:
             escape=escape,
             refs=refs,
             redirect_map=redirect_map,
+            seen_heading_texts=seen_heading_texts,
         )
         strings = joiner.join(sv.value for sv in soon_values)
         if config.full_result:
@@ -402,10 +409,13 @@ class WikiHtmlConverter:
         classes: frozenset[str],
         *,
         list_stack: tuple[int, ...],
+        seen_heading_texts: set[str],
     ) -> _HandlerConfig | None:
         """Dispatch to a handler for the given element."""
         if header_match := _HEADER_REGEX.match(ele.name):
-            return self._handle_header(ele, classes, header_match)
+            return self._handle_header(
+                ele, classes, header_match, seen_heading_texts=seen_heading_texts
+            )
 
         if ele.name == "a" and "mw-selflink" in classes:
             return self._handle_selflink(ele, classes)
@@ -460,6 +470,7 @@ class WikiHtmlConverter:
         escape: bool,
         refs: bool,
         redirect_map: Mapping[str, _RedirectInfo],
+        seen_heading_texts: set[str],
     ) -> tuple[list[SoonValue[str]], tuple[int, ...]]:
         """Process child elements concurrently using task groups."""
         soon_values: list[SoonValue[str]] = []
@@ -480,6 +491,7 @@ class WikiHtmlConverter:
                         escape=escape and ele.name not in {"code", "math"},
                         refs=refs,
                         redirect_map=redirect_map,
+                        seen_heading_texts=seen_heading_texts,
                     )
                 )
         return soon_values, list_stack
@@ -496,7 +508,11 @@ class WikiHtmlConverter:
         return _HandlerConfig(process_strings=process)
 
     def _handle_header(
-        self, ele: Tag, classes: frozenset[str], header_match: re.Match[str]
+        self,
+        ele: Tag,
+        classes: frozenset[str],
+        header_match: re.Match[str],
+        seen_heading_texts: set[str],
     ) -> _HandlerConfig:
         """Render a heading with Markdown # markers."""
         level = int(header_match[1] or "1")
@@ -507,9 +523,9 @@ class WikiHtmlConverter:
             """Fix name casing in heading text; suppress MD024 on repeats."""
             text = _fix_name_maybe(strings.strip(), names_map=self._names_map)
             key = text.casefold()
-            if key in self._seen_heading_texts:
+            if key in seen_heading_texts:
                 return f"<!-- markdownlint-disable-next-line MD024 -->\n{prefix}{text}"
-            self._seen_heading_texts.add(key)
+            seen_heading_texts.add(key)
             return f"{prefix}{text}"
 
         return _HandlerConfig(prefix="", suffix=suffix, process_strings=process)
