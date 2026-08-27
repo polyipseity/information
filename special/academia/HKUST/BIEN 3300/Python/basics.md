@@ -212,7 +212,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="ee13"--><!-- The following content is generated at 2024-01-30T13:35:46.696328+08:00. Any edits will be overridden! -->
 
 - `not`:@:negate <!--SR:!fsrs,2028-09-24T00:00:00.000Z,733,732.76739939,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
-- `and`:@:and <!--SR:!2026-09-28,267,330-->
+- `and`:@:and <!--SR:!fsrs,2029-12-14T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-09-29T00:00:00.000Z-->
 - `or`:@:or <!--SR:!2026-10-17,286,330-->
 
 <!--/pytextgen-->

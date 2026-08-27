@@ -21,7 +21,7 @@ tags:
 
 ## hierarchy
 
-{@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java-backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}. <!--SR:!2026-10-04,262,330!2026-10-12,270,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-01,259,330!2026-09-28,256,330!2026-10-13,271,330!2026-10-12,270,330!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-19,277,330!2026-10-04,262,330-->
+{@{The type hierarchy}@} for {@{sequential collections}@} is rooted in {@{the abstract class `Seq`}@}, which extends {@{`Iterable`}@}. {@{Concrete subclasses}@} include {@{`List` and `Vector`}@}. {@{The Java-backed}@} {@{`Array` and `String`}@} are {@{_not_ subclasses of `Seq` \(as they come from Java\)}@}, but they can be {@{converted into `Seq` where needed}@}. <!--SR:!2026-10-04,262,330!2026-10-12,270,330!fsrs,2029-08-07T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-01,259,330!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-10-13,271,330!2026-10-12,270,330!fsrs,2029-10-23T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-09-27T00:00:00.000Z!2026-10-19,277,330!2026-10-04,262,330-->
 
 {@{`Set` and `Map`}@} are also {@{subclasses of `Iterable`}@}, but they do not {@{inherit from `Seq`}@}. <!--SR:!fsrs,2028-08-17T00:00:00.000Z,698,697.52483893,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-21,279,330!2026-10-27,283,330-->
 
@@ -162,7 +162,7 @@ The `List` API offers {@{a rich set of operations}@} for {@{sublists, element ac
 >   case y :: ys      => y :: init(ys)
 > }
 > ```
-<!--SR:!2026-09-28,256,330!2026-10-03,261,330!2026-10-30,286,330-->
+<!--SR:!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-10-03,261,330!2026-10-30,286,330-->
 
 {@{The concatenation operator `:::`}@} can be implemented by {@{pattern matching on the left operand}@}. This recursive definition runs in time {@{proportional to the length of the left list, `O(xs.length)`}@}. <!--SR:!2026-10-19,277,330!2026-10-18,276,330!2026-11-05,291,330-->
 
@@ -229,7 +229,7 @@ Because {@{each recursive call}@} concatenates {@{a singleton list to the result
 
 ## higher-order methods
 
-{@{Typical list algorithms}@} fall into {@{three broad categories}@}: \(annotation: 3 items: {@{map, filter, reduce/fold}@}\) <!--SR:!fsrs,2028-07-21T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-07T00:00:00.000Z!2026-09-28,256,330!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z-->
+{@{Typical list algorithms}@} fall into {@{three broad categories}@}: \(annotation: 3 items: {@{map, filter, reduce/fold}@}\) <!--SR:!fsrs,2028-07-21T00:00:00.000Z,745,744.93144381,1,2,8,0,0,2026-07-07T00:00:00.000Z!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!fsrs,2028-08-13T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z-->
 
 - __Mapping__ ::@:: – transform every element in a list. <!--SR:!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z!2026-09-30,258,330-->
 - __Filtering__ ::@:: – extract all elements that satisfy a predicate. <!--SR:!fsrs,2029-06-19T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z-->
@@ -332,7 +332,7 @@ As {@{`pack`}@} returns {@{`List[::[T]]` instead of `List[List[T]]`}@}, it is {@
 
 ### reduce
 
-{@{The generic `reduceLeft`}@} inserts {@{a binary operator between adjacent elements}@} in a {@{left-associative manner}@}: <!--SR:!2026-09-28,256,330!2026-09-29,257,330!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
+{@{The generic `reduceLeft`}@} inserts {@{a binary operator between adjacent elements}@} in a {@{left-associative manner}@}: <!--SR:!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-09-29,257,330!fsrs,2028-02-07T00:00:00.000Z,510,509.87501298,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
 
 > [!example] __`reduceLeft`__
 >
@@ -454,7 +454,7 @@ Unlike {@{`List`}@}, vectors do not {@{support the cons operator (`::`)}@}. Inst
 
 ## range
 
-{@{A `Range`}@} is {@{a lightweight representation of an arithmetic progression}@}. It stores {@{only three fields – lower bound, upper bound and step size}@} – and implements {@{the `Seq[Int]` interface}@}. {@{Three constructor operators}@} are available: <!--SR:!2026-11-02,289,330!2026-10-21,279,330!2026-10-18,276,330!2026-09-28,256,330!2026-10-18,276,330-->
+{@{A `Range`}@} is {@{a lightweight representation of an arithmetic progression}@}. It stores {@{only three fields – lower bound, upper bound and step size}@} – and implements {@{the `Seq[Int]` interface}@}. {@{Three constructor operators}@} are available: <!--SR:!2026-11-02,289,330!2026-10-21,279,330!2026-10-18,276,330!fsrs,2029-11-02T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-10-18,276,330-->
 
 > [!example] __`Range` examples__
 >

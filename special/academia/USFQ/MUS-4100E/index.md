@@ -322,7 +322,7 @@ The content is in teaching order.
     - Tin Pan Alley / composers: Cole Porter, George & Ira Gershwin, Harold Arlen, Rodgers & Hart, Sammy Kahn
 - [contrafact](../../../../general/contrafact.md) ::@:: In jazz, it is a musical composition consisting of a new melody overlaid on a familiar harmonic structure. (Harmony cannot be copyrighted.) <!--SR:!2027-05-20,664,416!2027-06-19,686,416-->
     - contrafact / example ::@:: "Cottontail" — Duke Ellington <!--SR:!2027-06-23,690,416!2027-06-03,670,416-->
-- [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.) <!--SR:!2026-09-28,463,396!2029-08-08,1268,376-->
+- [Glenn Miller](../../../../general/Glenn%20Miller.md) (1904–1944) ::@:: Band leader, trombone player. He was very popular in White America and during World War II. (In 1943, 1 out of every 4 jukebox records was his.) <!--SR:!fsrs,2032-08-14T00:00:00.000Z,2146,2145.97655349,1,2,10,0,0,2026-09-29T00:00:00.000Z!2029-08-08,1268,376-->
     - Glenn Miller / later life ::@:: Later he disbanded his civilian band and formed a military band. He went missing (and presumably died) during the war. <!--SR:!2027-06-21,688,416!2027-05-16,660,416-->
     - Glenn Miller / works ::@:: "In The Mood" — Glenn Miller <br/> "Moonlight Serendade" — Glenn Miller <!--SR:!2026-09-29,464,396!2027-06-09,676,416-->
 - [Benny Goodman](../../../../general/Benny%20Goodman.md) (1909–1986) ::@:: "King of Swing". He was the most popular musician during the late 1930s and 1940s. He led one of the first _integrated_ bands. <!--SR:!2026-11-14,479,356!2028-08-10,1014,396-->

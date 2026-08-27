@@ -66,7 +66,7 @@ Using {@{the same pattern}@} one can define {@{a boolean generator}@}: <!--SR:!f
 > ```
 <!--SR:!2026-10-03,262,330!2026-10-17,276,330-->
 
-and {@{a pair generator}@} that produces {@{two independent random integers}@}: <!--SR:!fsrs,2029-10-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-24T00:00:00.000Z!2026-09-28,257,330-->
+and {@{a pair generator}@} that produces {@{two independent random integers}@}: <!--SR:!fsrs,2029-10-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2029-11-06T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-29T00:00:00.000Z-->
 
 > [!example] __pair generator__
 >
@@ -303,7 +303,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 > } yield z
 > == for { x <- m; y <- f(x); z <- g(y) } yield z
 > ```
-<!--SR:!2026-10-29,285,330!2026-09-28,257,330!2027-04-15,415,390-->
+<!--SR:!2026-10-29,285,330!fsrs,2029-11-06T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-29T00:00:00.000Z!2027-04-15,415,390-->
 
 {@{The right-unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left-unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}). <!--SR:!2026-10-09,268,330!2026-10-24,280,330!2026-11-05,291,330!2026-10-29,285,330!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-26,282,330!2026-11-01,288,330!fsrs,2028-08-26T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
 

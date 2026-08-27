@@ -85,7 +85,7 @@ These numbers may be {@{computed by the [recurrence relation](recurrence%20relat
 >
 > {@{![A [polytree](polytree.md), a DAG formed by orienting the edges of an undirected tree](../../archives/Wikimedia%20Commons/Polytree.svg)}@}
 >
-> {@{A [polytree](polytree.md), a DAG formed by orienting the edges of an undirected tree}@} <!--SR:!2029-03-26,1244,370!2026-09-28,500,330!2028-11-14,1110,350!2031-08-31,1979,390-->
+> {@{A [polytree](polytree.md), a DAG formed by orienting the edges of an undirected tree}@} <!--SR:!2029-03-26,1244,370!fsrs,2032-04-15T00:00:00.000Z,2025,2025.01424189,1,2,10,0,0,2026-09-29T00:00:00.000Z!2028-11-14,1110,350!2031-08-31,1979,390-->
 
 {@{A _[multitree](multitree.md)_ \(also called a _strongly unambiguous graph_ or a _mangrove_\)}@} is {@{a DAG in which there is at most one directed path between any two vertices}@}. Equivalently, it is {@{a DAG in which the subgraph reachable from any vertex induces an [undirected tree](tree%20(graph%20theory).md)}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2031-11-26,2042,390!2030-09-28,1694,378!2029-03-07,1230,370-->
 
