@@ -555,7 +555,14 @@ class WikiHtmlConverter:
         elif href.startswith("/wiki/"):
             title = unquote(href[6:].split("#")[0]).replace("_", " ")
         else:
-            return _HandlerConfig()
+            table = ele.find_parent("table")
+            table_classes = (
+                table.get_attribute_list("class") if isinstance(table, Tag) else []
+            )
+            in_sidebar = any(c in ("sidebar", "cm-sidebar") for c in table_classes)
+            if not in_sidebar:
+                return _HandlerConfig()
+            title = ele.get_text(strip=True)
         info = self._redirect_map.get(title, _RedirectInfo(to=title))
         to = info.to
         to_filename = _fix_name_maybe(
