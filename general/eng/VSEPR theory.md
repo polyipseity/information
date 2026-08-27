@@ -85,7 +85,7 @@ tags:
 > - AX<sub>5</sub>E<sub>1</sub>
 >     - AX<sub>5</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [square pyramidal](square%20pyramidal%20molecular%20geometry.md)<br/>![square pyramidal](../../archives/Wikimedia%20Commons/AX5E1-3D-balls.png) <!--SR:!fsrs,2027-05-31T00:00:00.000Z,293,293.09684021,3.42929087,2,8,0,0,2026-08-11T00:00:00.000Z!2027-04-04,338,345-->
 >     - AX<sub>5</sub>E<sub>1</sub> / ideal bond angle(s) :@: 90° <!--SR:!2027-03-31,334,345-->
->     - AX<sub>5</sub>E<sub>1</sub> / example(s) ::@:: [BrF<sub>5</sub>](bromine%20pentafluoride.md) <!--SR:!fsrs,2026-12-20T16:38:58.456Z,196,196.18685601,1.22984669,2,6,0,0,2026-06-07T16:38:58.456Z!2026-09-27,189,325-->
+>     - AX<sub>5</sub>E<sub>1</sub> / example(s) ::@:: [BrF<sub>5</sub>](bromine%20pentafluoride.md) <!--SR:!fsrs,2026-12-20T16:38:58.456Z,196,196.18685601,1.22984669,2,6,0,0,2026-06-07T16:38:58.456Z!fsrs,2029-01-28T00:00:00.000Z,853,853.48513636,1,2,9,0,0,2026-09-28T00:00:00.000Z-->
 > - AX<sub>5</sub>E<sub>2</sub>
 >     - AX<sub>5</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal planar](pentagonal%20planar%20molecular%20geometry.md)<br/>![pentagonal planar](../../archives/Wikimedia%20Commons/AX5E2-3D-balls.png) <!--SR:!fsrs,2027-09-05T00:00:00.000Z,392,391.68345654,3.42929087,2,8,0,0,2026-08-09T00:00:00.000Z!2027-02-17,290,341-->
 >     - AX<sub>5</sub>E<sub>2</sub> / ideal bond angle(s) :@: 72° <!--SR:!2026-12-18,231,325-->
@@ -99,7 +99,7 @@ tags:
 >     - AX<sub>6</sub>E<sub>1</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!2027-03-13,316,345-->
 >     - AX<sub>6</sub>E<sub>1</sub> / example(s) ::@:: XeOF<sub>5</sub><sup>-</sup> <!--SR:!2026-10-19,171,281!fsrs,2027-01-31T00:00:00.000Z,225,225.43113824,4.92779087,2,7,0,0,2026-06-20T00:00:00.000Z-->
 > - AX<sub>7</sub>E<sub>0</sub>
->     - AX<sub>7</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal bipyramidal](pentagonal%20bipyramidal%20molecular%20geometry.md)<br/>![pentagonal bipyramidal](../../archives/Wikimedia%20Commons/AX7E0-3D-balls.png) <!--SR:!fsrs,2027-08-29T00:00:00.000Z,387,386.70165632,3.42929087,2,8,0,0,2026-08-07T00:00:00.000Z!2026-09-27,149,265-->
+>     - AX<sub>7</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal bipyramidal](pentagonal%20bipyramidal%20molecular%20geometry.md)<br/>![pentagonal bipyramidal](../../archives/Wikimedia%20Commons/AX7E0-3D-balls.png) <!--SR:!fsrs,2027-08-29T00:00:00.000Z,387,386.70165632,3.42929087,2,8,0,0,2026-08-07T00:00:00.000Z!fsrs,2027-09-24T00:00:00.000Z,361,361.4509105,4.92779087,2,8,0,0,2026-09-28T00:00:00.000Z-->
 >     - AX<sub>7</sub>E<sub>0</sub> / ideal bond angle(s) :@: 72°, 90° <!--SR:!fsrs,2027-08-29T00:00:00.000Z,387,386.70165632,3.42929087,2,8,0,0,2026-08-07T00:00:00.000Z-->
 >     - AX<sub>7</sub>E<sub>0</sub> / example(s) ::@:: [IF<sub>7</sub>](iodine%20heptafluoride.md) <!--SR:!fsrs,2028-04-21T00:00:00.000Z,615,615.16533793,1.22984669,2,8,0,0,2026-08-15T00:00:00.000Z!2027-02-02,277,341-->
 > - AX<sub>8</sub>E<sub>0</sub>

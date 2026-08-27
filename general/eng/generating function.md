@@ -49,7 +49,7 @@ Not all expressions that are {@{meaningful as functions of _x_}@} are {@{meaning
 
 ### ordinary generating function (OGF)
 
-When the term _generating function_ is used without qualification, it is usually {@{taken to mean an ordinary generating function}@}. The _ordinary generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is: {@{$$G(a_{n};x)=\sum _{n=0}^{\infty }a_{n}x^{n}\,.$$}@} If {@{_a_<sub>_n_</sub> is the [probability mass function](probability%20mass%20function.md) of a [discrete random variable](random%20variable.md#discrete%20random%20variable)}@}, then its ordinary generating function is {@{called a [probability-generating function](probability-generating%20function.md)}@}. <!--SR:!2029-01-15,1210,350!2029-09-19,1402,350!2029-03-03,1247,350!2026-09-27,545,330!2031-01-28,1737,330-->
+When the term _generating function_ is used without qualification, it is usually {@{taken to mean an ordinary generating function}@}. The _ordinary generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is: {@{$$G(a_{n};x)=\sum _{n=0}^{\infty }a_{n}x^{n}\,.$$}@} If {@{_a_<sub>_n_</sub> is the [probability mass function](probability%20mass%20function.md) of a [discrete random variable](random%20variable.md#discrete%20random%20variable)}@}, then its ordinary generating function is {@{called a [probability-generating function](probability-generating%20function.md)}@}. <!--SR:!2029-01-15,1210,350!2029-09-19,1402,350!2029-03-03,1247,350!fsrs,2032-09-19T00:00:00.000Z,2183,2183.37766037,1,2,10,0,0,2026-09-28T00:00:00.000Z!2031-01-28,1737,330-->
 
 ### exponential generating function (EGF)
 
@@ -87,7 +87,7 @@ The [Bell series](bell%20series.md) of {@{a sequence _a_<sub>_n_</sub>}@} is an 
 
 ### Dirichlet series generating functions (DGFs)
 
-[Formal Dirichlet series](dirichlet%20series.md#Formal%20Dirichlet%20series) are often {@{classified as generating functions, although they are not strictly formal power series}@}. The _Dirichlet series generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is:<sup>[\[6\]](#^ref-6)</sup> {@{$$\operatorname {DG} (a_{n};s)=\sum _{n=1}^{\infty }{\frac {a_{n} }{n^{s} } }\,.$$}@} <!--SR:!2027-11-14,849,330!2027-10-25,834,330!2026-09-27,377,210-->
+[Formal Dirichlet series](dirichlet%20series.md#Formal%20Dirichlet%20series) are often {@{classified as generating functions, although they are not strictly formal power series}@}. The _Dirichlet series generating function_ of {@{a sequence _a_<sub>_n_</sub>}@} is:<sup>[\[6\]](#^ref-6)</sup> {@{$$\operatorname {DG} (a_{n};s)=\sum _{n=1}^{\infty }{\frac {a_{n} }{n^{s} } }\,.$$}@} <!--SR:!2027-11-14,849,330!2027-10-25,834,330!fsrs,2029-04-29T00:00:00.000Z,944,944.43773026,5.98276817,2,10,0,0,2026-09-28T00:00:00.000Z-->
 
 The Dirichlet series generating function is especially useful when {@{_a_<sub>_n_</sub> is a [multiplicative function](multiplicative%20function.md)}@}, in which case {@{it has an [Euler product](euler%20product.md) expression<sup>[\[7\]](#^ref-7)</sup> in terms of the function's Bell series}@}: {@{$$\operatorname {DG} (a_{n};s)=\prod _{p}\operatorname {BG} _{p}(a_{n};p^{-s})\,.$$}@} <!--SR:!2027-03-21,597,290!fsrs,2029-07-28T02:42:51.882Z,1138,1138.16214853,3.98153807,2,10,0,0,2026-06-16T02:42:51.882Z!2026-11-23,253,170-->
 

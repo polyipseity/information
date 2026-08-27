@@ -23,7 +23,7 @@ tags:
 In {@{functional programming}@}, lists are {@{one of the most common data structures}@} and they form {@{the basis for many proofs about program correctness}@}. {@{A central operation}@} on lists is {@{concatenation}@}, denoted by {@{`:::` in Scala}@}. For {@{two lists `xs` and `ys`}@}, {@{the expression `xs ::: ys`}@} produces a new list that contains {@{all elements of `xs` followed by all elements of `ys`}@}. {@{Two fundamental algebraic laws}@} hold for this operator: \(annotation: 2 items: {@{associativity, neutral element}@}\) <!--SR:!fsrs,2029-07-19T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-09-04T00:00:00.000Z!fsrs,2029-08-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-09-09T00:00:00.000Z!2026-10-28,285,330!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!2026-10-19,277,330!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!2026-10-17,276,330!2026-11-03,290,330!2026-11-08,294,330!2026-10-10,269,330!2026-10-14,273,330-->
 
 - __Associativity__ ::@:: `(xs ::: ys) ::: zs = xs ::: (ys ::: zs)` <!--SR:!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2028-08-20T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z-->
-- __Neutral element__ ::@:: – the empty list `Nil` is a left and right identity: `xs ::: Nil = xs` and `Nil ::: xs = xs` <!--SR:!2026-09-27,259,330!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z-->
+- __Neutral element__ ::@:: – the empty list `Nil` is a left and right identity: `xs ::: Nil = xs` and `Nil ::: xs = xs` <!--SR:!fsrs,2029-11-13T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z-->
 
 These laws are not {@{merely curiosities}@}; they enable reasoning about {@{program transformations, optimisations, and correctness proofs}@}. {@{The standard way to establish them}@} in a purely functional setting is {@{_structural induction_}@}. <!--SR:!2026-10-25,282,330!2026-10-05,267,330!2026-10-31,287,330!2026-10-22,280,330-->
 
@@ -64,7 +64,7 @@ The proof is typically structured as {@{a base case (leaves)}@} followed by {@{a
 
 ## referential transparency
 
-{@{Functional programs}@} are {@{_pure_}@}: functions have {@{no side effects}@} and every expression denotes {@{a value that depends solely on its inputs}@}. This property—{@{_referential transparency_}@}—allows us to replace {@{any sub-expression with an equal one without changing program behaviour}@}. In {@{proofs}@}, it means we may freely {@{apply reduction rules (the equations defining `:::` or other functions) inside larger terms}@}. {@{The factorial example}@} below illustrates {@{this principle}@}. <!--SR:!2026-10-17,276,330!2026-09-27,259,330!2026-10-04,266,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-04,266,330!2026-11-01,288,330!2026-10-15,274,330!2026-11-02,289,330-->
+{@{Functional programs}@} are {@{_pure_}@}: functions have {@{no side effects}@} and every expression denotes {@{a value that depends solely on its inputs}@}. This property—{@{_referential transparency_}@}—allows us to replace {@{any sub-expression with an equal one without changing program behaviour}@}. In {@{proofs}@}, it means we may freely {@{apply reduction rules (the equations defining `:::` or other functions) inside larger terms}@}. {@{The factorial example}@} below illustrates {@{this principle}@}. <!--SR:!2026-10-17,276,330!fsrs,2029-11-13T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-04,266,330!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2029-08-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-10-04,266,330!2026-11-01,288,330!2026-10-15,274,330!2026-11-02,289,330-->
 
 ## proofs
 
@@ -301,7 +301,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > - If {@{`x < elem`}@}, `incl` recurses {@{into the left child: `NonEmpty(elem, l.incl(x), r)`}@}. By {@{the induction hypothesis}@}, {@{`l.incl(x).contains(x)` is `true`}@}; consequently {@{the whole expression evaluates to `true`}@}.
 > - {@{The case `x > elem`}@} is {@{analogous with the right child}@}.
 >
-> Thus {@{law 2 holds for all trees}@}. <!--SR:!fsrs,2028-01-16T00:00:00.000Z,498,498.34804255,5.00637887,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2028-09-03T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-11-07,293,330!2026-09-27,259,330!2026-09-29,261,330!2026-09-29,261,330!2026-10-05,267,330!2026-11-04,290,330!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-08,267,330!2026-11-07,293,330!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-27,284,330!2026-09-30,262,330-->
+> Thus {@{law 2 holds for all trees}@}. <!--SR:!fsrs,2028-01-16T00:00:00.000Z,498,498.34804255,5.00637887,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2028-09-03T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z!2026-11-07,293,330!fsrs,2029-11-13T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-09-29,261,330!2026-09-29,261,330!2026-10-05,267,330!2026-11-04,290,330!fsrs,2029-08-22T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-11T00:00:00.000Z!2026-10-08,267,330!2026-11-07,293,330!fsrs,2029-08-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-09-07T00:00:00.000Z!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!2026-10-27,284,330!2026-09-30,262,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -337,7 +337,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 
 ### proving set union property
 
-{@{A natural extension}@} is to {@{add set union}@}: <!--SR:!2026-11-01,288,330!2026-09-27,259,330-->
+{@{A natural extension}@} is to {@{add set union}@}: <!--SR:!2026-11-01,288,330!fsrs,2029-11-13T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-09-28T00:00:00.000Z-->
 
 > [!example] __`IntSet.union` definition__
 >

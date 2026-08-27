@@ -44,11 +44,11 @@ The content is in teaching order.
     - ACCT 3010 / teaching staff
     - ACCT 3010 / resources
     - ACCT 3010 / required textbook ::@:: Kieso, Weygandt, and Warfield, "Intermediate Accounting: IFRS Edition, 5th Edition" <!--SR:!2026-10-02,297,339!fsrs,2030-02-13T00:00:00.000Z,1251,1251.24857539,1,2,9,0,0,2026-09-11T00:00:00.000Z-->
-    - ACCT 3010 / objectives ::@:: environment, financial reporting frameworks, standard-setting process <!--SR:!fsrs,2030-02-08T00:00:00.000Z,1247,1247.33901769,1,2,9,0,0,2026-09-10T00:00:00.000Z!2026-09-27,293,339-->
+    - ACCT 3010 / objectives ::@:: environment, financial reporting frameworks, standard-setting process <!--SR:!fsrs,2030-02-08T00:00:00.000Z,1247,1247.33901769,1,2,9,0,0,2026-09-10T00:00:00.000Z!fsrs,2030-04-30T00:00:00.000Z,1310,1309.68737771,1,2,9,0,0,2026-09-28T00:00:00.000Z-->
     - ACCT 3010 / approach ::@:: mix both user perspective and preparer perspective <!--SR:!2028-06-21,773,339!2026-10-30,317,339-->
     - ACCT 3010 / class participation
     - ACCT 3010 / introduction ::@:: artificial intelligence \(AI\), importance of accounting, stories from the instructor, etc. <!--SR:!fsrs,2029-11-26T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-08-27T00:00:00.000Z!fsrs,2029-11-24T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-08-25T00:00:00.000Z-->
-        - ACCT 3010 / introduction / motivation ::@:: career versatility, language of business \(albeit imperfect\), real-world impact, skill development <!--SR:!2026-10-03,298,339!2026-09-27,293,339-->
+        - ACCT 3010 / introduction / motivation ::@:: career versatility, language of business \(albeit imperfect\), real-world impact, skill development <!--SR:!2026-10-03,298,339!fsrs,2030-04-30T00:00:00.000Z,1310,1309.68737771,1,2,9,0,0,2026-09-28T00:00:00.000Z-->
         - ACCT 3010 / introduction / artificial intelligence ::@:: It _probably_ changes accounting, but would not replace accountants using AIs... \(or maybe not... who knows?\) <!--SR:!fsrs,2028-12-12T00:00:00.000Z,815,815.49670394,2.15556587,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2028-12-09T00:00:00.000Z,813,812.94957751,2.15556587,2,9,0,0,2026-09-18T00:00:00.000Z-->
 - [questions § week 1 lecture](questions.md#week%201%20lecture)
 

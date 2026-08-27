@@ -288,7 +288,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 
 ## significance for `for`-expressions
 
-{@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`-expression}@}. <!--SR:!2026-09-27,256,330!2026-10-15,274,330!2026-10-29,285,330-->
+{@{Scala's syntactic sugar}@} for {@{monadic composition}@} is {@{the `for`-expression}@}. <!--SR:!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-15,274,330!2026-10-29,285,330-->
 
 {@{Associativity}@} guarantee that {@{nested `for`-expressions}@} can {@{always be collapsed into a single `for`-expression}@}: <!--SR:!2026-10-13,272,330!2026-10-17,276,330!2027-04-20,419,390-->
 
@@ -305,7 +305,7 @@ Because {@{every monad supports this construction}@}, it is often convenient to 
 > ```
 <!--SR:!2026-10-29,285,330!2026-09-28,257,330!2027-04-15,415,390-->
 
-{@{The right-unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left-unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}). <!--SR:!2026-10-09,268,330!2026-10-24,280,330!2026-11-05,291,330!2026-10-29,285,330!2026-09-27,256,330!2026-10-26,282,330!2026-11-01,288,330!fsrs,2028-08-26T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
+{@{The right-unit law}@} implies that {@{a single generator without further bindings}@} is {@{equivalent to the monad itself}@} ({@{`for { x <- m } yield x == m`}@}). {@{The left-unit law ensures}@} that {@{a binding from `unit(x)` followed by another function}@} simply yields {@{that function applied to `x`}@} ({@{`for { y <- unit(x); r <- f(y) } yield r == f(x)`}@}). <!--SR:!2026-10-09,268,330!2026-10-24,280,330!2026-11-05,291,330!2026-10-29,285,330!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-26,282,330!2026-11-01,288,330!fsrs,2028-08-26T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
 
 ## `Option`
 
@@ -380,7 +380,7 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 >   }
 > }
 > ```
-<!--SR:!2026-09-27,256,330!2026-10-08,267,330!2026-11-08,294,330-->
+<!--SR:!fsrs,2029-11-01T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-28T00:00:00.000Z!2026-10-08,267,330!2026-11-08,294,330-->
 
 Thus {@{`t.map(f)`}@} equals {@{`t.flatMap(x => Try(f(x)))`}@}, mirroring {@{the general monadic definition of `map`}@}. <!--SR:!2026-11-02,289,330!2026-10-14,273,330!2026-11-02,289,330-->
 

@@ -811,7 +811,7 @@ water distribution network
 - _(begin)_→::@::←sewage collection network <!--SR:!2027-08-11,807,341!2028-05-01,1105,337-->
 - sewage collection network→::@::←storm water management <!--SR:!2028-01-06,849,267!2030-07-18,1755,361-->
 - storm water management→::@::←water collection network <!--SR:!2030-06-11,1740,360!2029-07-01,1424,340-->
-- water collection network→::@::←water distribution network <!--SR:!2033-09-26,2797,420!2026-09-27,642,352-->
+- water collection network→::@::←water distribution network <!--SR:!2033-09-26,2797,420!fsrs,2034-02-20T00:00:00.000Z,2702,2701.89411432,1,2,10,0,0,2026-09-28T00:00:00.000Z-->
 - water distribution network→::@::←_(end)_ <!--SR:!2027-10-26,1024,387!2031-06-19,1952,341-->
 
 <!--/pytextgen-->

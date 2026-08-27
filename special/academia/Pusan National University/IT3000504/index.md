@@ -52,7 +52,7 @@ The content is in teaching order.
 - datetime: 2025-09-04T10:30:00+09:00/2025-09-04T11:45:00+09:00, PT1H15M
     - local: 2025-09-04T09:30:00+08:00/2025-09-04T10:45:00+08:00, PT1H15M
 - topic: measuring a nation's income
-- [microeconomics](../../../../general/microeconomics.md) ::@:: It is a branch of economics that studies the behavior of individuals and firms in making decisions regarding the allocation of scarce resources and the interactions among these individuals and firms. <!--SR:!2026-09-27,287,330!fsrs,2029-08-08T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-08T00:00:00.000Z-->
+- [microeconomics](../../../../general/microeconomics.md) ::@:: It is a branch of economics that studies the behavior of individuals and firms in making decisions regarding the allocation of scarce resources and the interactions among these individuals and firms. <!--SR:!fsrs,2030-02-27T00:00:00.000Z,1248,1248.19227538,1,2,9,0,0,2026-09-28T00:00:00.000Z!fsrs,2029-08-08T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-08-08T00:00:00.000Z-->
     - microeconomics / vs. macroeconomics ::@:: Microeconomics focuses on the study of individual markets, sectors, or industries as opposed to the economy as a whole, which is studied in macroeconomics. <!--SR:!2026-10-03,292,330!2026-10-02,291,330-->
 - macroeconomics
     - macroeconomics / vs. microeconomics

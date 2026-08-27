@@ -924,7 +924,7 @@ Here is a list of common IPA letters and their pronunciations:
 
 <!--pytextgen generate section="50b0"--><!-- The following content is generated at 2024-01-04T20:18:01.048113+08:00. Any edits will be overridden! -->
 
-- [open front unrounded vowel](open%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _h**a**t_ \[hat\] <!--SR:!2026-09-27,622,310-->
+- [open front unrounded vowel](open%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _h**a**t_ \[hat\] <!--SR:!fsrs,2030-11-18T00:00:00.000Z,1512,1512.31544871,3.24197837,2,10,0,0,2026-09-28T00:00:00.000Z-->
 - [open central unrounded vowel](open%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _br**a**_ \[bɹäː\] <!--SR:!fsrs,2027-04-05T00:00:00.000Z,220,219.79947651,9.98522837,2,8,0,0,2026-08-28T00:00:00.000Z-->
 - [near-open central vowel](near-open%20central%20vowel.md):@:[English](English%20language.md) _n**u**t_ \[nɐʔt\] <!--SR:!fsrs,2026-11-20T00:00:00.000Z,58,58.02827603,9.96562598,2,8,0,0,2026-09-23T00:00:00.000Z-->
 - [open back unrounded vowel](open%20back%20unrounded%20vowel.md):@:[English](English%20language.md) _p**a**lm_ \[pɑ̟ːm\] <!--SR:!fsrs,2026-12-27T00:00:00.000Z,116,116.49204781,9.96552075,2,8,0,0,2026-09-02T00:00:00.000Z-->
@@ -947,7 +947,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced postalveolar affricate](voiced%20postalveolar%20affricate.md):@:[English](English%20language.md) _**g**ene_ \[ˈd͡ʒiːn\] <!--SR:!2027-03-28,303,158-->
 - [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md):@:[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound" <!--SR:!fsrs,2026-10-11T00:00:00.000Z,35,34.82592138,9.95262601,2,8,0,0,2026-09-06T00:00:00.000Z-->
 - [voiced retroflex affricate](voiced%20retroflex%20affricate.md):@:[Polish](Polish%20language.md) _**dż**em_ \[ɖ͡ʐɛm\] "jam" <!--SR:!fsrs,2027-01-26T00:00:00.000Z,160,160.19433718,8.93627837,2,8,0,0,2026-08-19T00:00:00.000Z-->
-- [close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _m**ay**_ \[meː\] <!--SR:!fsrs,2026-09-28T00:00:00.000Z,62,61.98179514,9.98522837,2,7,0,0,2026-07-28T00:00:00.000Z-->
+- [close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _m**ay**_ \[meː\] <!--SR:!fsrs,2026-12-16T00:00:00.000Z,79,79.02421239,9.97047151,2,8,0,0,2026-09-28T00:00:00.000Z-->
 - [close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɘːd\] <!--SR:!fsrs,2026-11-09T08:09:10.807Z,155,155.15705834,9.23597837,2,8,0,0,2026-06-07T08:09:10.807Z-->
 - [mid central vowel](mid%20central%20vowel.md):@:[English](English%20language.md) _Tin**a**_ \[ˈtʰiːnə\] <!--SR:!2026-12-20,221,138-->
 - [r-colored mid central vowel](r-colored%20vowel.md):@:[English](English%20language.md) _runn**er**_ \[ˈɹʌnɚ\] <!--SR:!fsrs,2029-01-22T00:00:00.000Z,879,879.25765157,4.5819071,2,9,0,0,2026-08-27T00:00:00.000Z-->

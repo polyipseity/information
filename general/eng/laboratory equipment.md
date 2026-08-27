@@ -193,7 +193,7 @@ return chain.from_iterable([r.value for r in results])
 
 - [Bunsen burner](Bunsen%20burner.md):@:![Bunsen burner](../../archives/Wikimedia%20Commons/Bunsen%20burner.jpg) <!--SR:!2027-05-10,1164,350-->
 - [Liebig condenser](Liebig%20condenser.md):@:![Liebig condenser](../../archives/Wikimedia%20Commons/LiebigCondenser.jpg) <!--SR:!fsrs,2035-08-24T04:12:46.030Z,3358,3357.65543154,1,2,11,0,0,2026-06-14T04:12:46.030Z-->
-- [beaker](beaker.md):@:![beaker](../../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg) <!--SR:!2026-09-27,913,330-->
+- [beaker](beaker.md):@:![beaker](../../archives/Wikimedia%20Commons/Glassware-%20Beaker.jpg) <!--SR:!fsrs,2036-02-18T00:00:00.000Z,3430,3430.2616348,1,2,11,0,0,2026-09-28T00:00:00.000Z-->
 - [burette](burette.md):@:![burette](../../archives/Wikimedia%20Commons/Burette.svg) <!--SR:!2035-08-22,3508,350-->
 - [burette clamp](burette%20clamp.md):@:![burette clamp](../../archives/Wikimedia%20Commons/Burette%20with%20Clamp(3).jpg) <!--SR:!2028-05-25,1238,290-->
 - [clamp](clamp.md):@:![clamp](../../archives/Wikimedia%20Commons/Utility%20clamp1.jpg) <!--SR:!2028-04-24,1441,350-->

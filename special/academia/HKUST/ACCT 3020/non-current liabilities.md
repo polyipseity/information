@@ -34,7 +34,7 @@ If a covenant is violated at the reporting date, the loan must normally be __rec
 
 Flashcards for this section are as follows:
 
-- debt covenants ::@:: Restrictions in debt agreements (e.g. limits on dividends) designed to protect creditors and reduce default risk. <!--SR:!fsrs,2026-09-27T08:31:12.105Z,106,105.76200302,2.60511587,2,5,0,0,2026-06-13T08:31:12.105Z!fsrs,2026-12-09T05:31:47.052Z,179,178.6950265,1,2,5,0,0,2026-06-13T05:31:47.052Z-->
+- debt covenants ::@:: Restrictions in debt agreements (e.g. limits on dividends) designed to protect creditors and reduce default risk. <!--SR:!fsrs,2028-03-02T00:00:00.000Z,521,521.30104257,1,2,6,0,0,2026-09-28T00:00:00.000Z!fsrs,2026-12-09T05:31:47.052Z,179,178.6950265,1,2,5,0,0,2026-06-13T05:31:47.052Z-->
 - why do lenders restrict dividends? ::@:: To prevent the company from paying out cash to shareholders that would reduce its ability to repay creditors. <!--SR:!fsrs,2026-12-19T05:35:36.293Z,189,188.98342759,1,2,5,0,0,2026-06-13T05:35:36.293Z!fsrs,2026-12-19T04:16:42.406Z,189,188.98342759,1,2,5,0,0,2026-06-13T04:16:42.406Z-->
 - covenant violation at reporting date: classification? ::@:: The loan is reclassified as a current liability unless the lender has waived the violation before the reporting date (or granted a grace period of at least 12 months). <!--SR:!fsrs,2028-04-28T00:00:00.000Z,582,582.23505946,1,2,5,0,0,2026-09-24T00:00:00.000Z!fsrs,2028-04-28T00:00:00.000Z,582,582.23505946,1,2,5,0,0,2026-09-24T00:00:00.000Z-->
 
